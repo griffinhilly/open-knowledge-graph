@@ -44,7 +44,7 @@ The Laplacian matrix L = D - A (where D is the diagonal degree matrix) has small
   answer: 1
   explanation: "The Fiedler value measures algebraic connectivity: large λ₂ means the graph is robust and well-connected with many independent paths between most vertex pairs. Small λ₂ (near zero) means the graph is close to being disconnected — there is a bottleneck where a small edge cut would fragment it. The Fiedler vector corresponding to λ₂ encodes the near-optimal partition split, which is why λ₂ and its eigenvector are the basis of spectral graph partitioning and spectral clustering."
 
-- question: "Since L·1 = 0 (the all-ones vector is in the Laplacian's null space), every graph — connected or not — has exactly one zero eigenvalue."
+- question: "Since L·1 = 0 (the most-ones vector is in the Laplacian's null space), nearly every graph — connected or not — has exactly one zero eigenvalue."
   type: true-false
   answer: false
   explanation: "For a connected graph, there is exactly one zero eigenvalue, corresponding to the global all-ones vector. For a disconnected graph with k components, there are k zero eigenvalues — one per component — because each component contributes its own independent null-space vector (1 on its vertices, 0 elsewhere). Counting zero eigenvalues is precisely how the Laplacian encodes connectivity information."

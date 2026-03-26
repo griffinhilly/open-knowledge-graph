@@ -49,7 +49,7 @@ System poles in the s-plane directly determine stability: poles in the left half
   answer: 2
   explanation: "A pole at s = 2 + j contributes a term proportional to e^(2t)·cos(t + φ) to the response. The real part (+2) drives exponential growth; the imaginary part (1) modulates the oscillation frequency. Because the real part is positive, the envelope grows without bound — the system is unstable. No matter how small the imaginary part, a positive real part always causes divergence."
 
-- question: "A system with all poles in the left half-plane but a zero in the right half-plane (non-minimum-phase zero) is unstable."
+- question: "A system with most poles in the left half-plane but a zero in the right half-plane (non-minimum-phase zero) is unstable."
   type: true-false
   answer: false
   explanation: "False. Stability is determined solely by pole locations. A system with all poles in the left half-plane is stable regardless of where its zeros are. A right-half-plane (non-minimum-phase) zero causes the step response to initially move in the wrong direction (undershoot) before settling, and it limits how tightly you can close a feedback loop, but it does not cause instability on its own. Confusing zeros with poles on stability questions is a very common error."

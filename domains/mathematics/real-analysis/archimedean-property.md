@@ -46,7 +46,7 @@ The Archimedean Property states that for any positive real numbers a and b, ther
   answer: 1
   explanation: "The Archimedean Property (with a = 1, b = 1/ε) guarantees there exists n ∈ ℕ with n·1 > 1/ε, i.e., n > 1/ε, which gives 1/n < ε. This is the corollary used in virtually every ε-N argument. Options A and C are true but do not imply the existence of such N. Option D guarantees 1/ε is well-defined as a real number but not that a natural number exceeds it — that requires the Archimedean Property."
 
-- question: "The Archimedean Property must be included as an explicit axiom when defining the real numbers, because the completeness axiom alone does not prevent ℝ from containing infinitely large elements."
+- question: "The Archimedean Property should be included as an explicit axiom when defining the real numbers, because the completeness axiom alone does not prevent ℝ from containing infinitely large elements."
   type: true-false
   answer: false
   explanation: "The Archimedean Property is a theorem proved from completeness, not an additional axiom. The proof: if ℕ were bounded above in ℝ, completeness would give it a supremum M. But then some n > M − 1, so n + 1 > M, contradicting M being an upper bound. Ordered fields that lack the Archimedean Property (containing infinitely large elements) are therefore necessarily incomplete — they violate the least upper bound property. Completeness is sufficient to rule out infinite elements."

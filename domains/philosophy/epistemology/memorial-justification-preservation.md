@@ -53,7 +53,7 @@ Examine cases of remembering past experiences and recalled facts, then consider 
   answer: 2
   explanation: "Memorial justification is defeasible — it holds by default but can be overridden by undermining or rebutting evidence. The key defeating conditions are: (1) evidence that the memory process itself is unreliable in this domain, (2) evidence that the original justification was flawed, or (3) new information that directly contradicts the remembered belief. This defeasibility is what keeps memorial justification epistemically responsible — it is not a blank check for believing anything one remembers."
 
-- question: "For memorial justification to work, you must have a 'meta-memory' — you must remember the fact that you originally had good reasons for the belief."
+- question: "For memorial justification to work, you should have a 'meta-memory' — you should remember the fact that you originally had good reasons for the belief."
   type: true-false
   answer: false
   explanation: "Memorial justification is a first-order phenomenon: the belief itself needs to have been justified when acquired, and memory needs to reliably preserve it. You do not need to remember *that* you had reasons, nor recall what those reasons were. A meta-memory requirement — knowing that you once knew something — would make most ordinary knowledge unjustified, since we rarely retain records of our original justificatory process. The preserved justification works regardless of whether you have any meta-cognitive access to it."

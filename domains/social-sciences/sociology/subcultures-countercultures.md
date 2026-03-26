@@ -56,7 +56,7 @@ Subcultures are inherently deviant or problematic. Not all countercultures are r
   answer: 2
   explanation: "The CCCS's key theoretical contribution was that subcultural style — the skinhead's boots, the punk's safety pins — is not arbitrary. It is a structured symbolic solution to the contradictions of working-class life: a way of claiming dignity and identity within a social structure that marginalizes you. Style is not mere fashion; it communicates social position, resistance, and belonging. This moves the analysis from individual psychology (why does this person dress this way?) to sociology (what social conditions produce this style, and what work does it do?)."
 
-- question: "Subcultures are inherently deviant — they only form among groups that reject mainstream social norms."
+- question: "Subcultures are inherently deviant — they primarily form among groups that reject mainstream social norms."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about subcultures. Subcultures are defined by distinctiveness from mainstream culture, not by deviance from it. Academic disciplines, professional communities, religious congregations, and hobbyist groups are all subcultures — they share distinctive norms, values, symbols, and practices, but none of these are inherently deviant or criminal. Deviance is not a defining feature of subcultures; it is one possible characteristic of some subcultures. The sociological concept is broader and includes any group with a recognizably distinct cultural identity within a larger society."

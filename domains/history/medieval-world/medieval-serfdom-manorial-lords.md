@@ -53,7 +53,7 @@ Serfdom bound peasants to land they worked for manorial lords, obligating them t
   answer: false
   explanation: "The legal distinction between serfs and slaves was real and significant. Slaves were property — chattels with no legal personhood. Serfs were unfree persons with legal standing: they could bring complaints to the manorial court, held customary rights to their land strips, and paid fines (rather than being transferred as property) when they married outside the manor or passed holdings to heirs. Serfdom imposed severe restrictions on freedom, but collapsing serf and slave conflates two distinct legal statuses."
 
-- question: "Serfdom took the same legal form and imposed identical obligations across all regions of medieval Europe."
+- question: "Serfdom took the same legal form and imposed identical obligations across most regions of medieval Europe."
   type: true-false
   answer: false
   explanation: "Serfdom varied significantly by region and period. English villeinage was relatively formalized with documented obligations. French serfdom loosened over the thirteenth and fourteenth centuries. Eastern European serfdom actually intensified in the early modern period as western demand for grain grew, producing the 'second serfdom' that bound peasants more tightly just as western serfdom was declining. The institution was shaped by local legal traditions, economic conditions, and demographic pressures — not a single pan-European template."

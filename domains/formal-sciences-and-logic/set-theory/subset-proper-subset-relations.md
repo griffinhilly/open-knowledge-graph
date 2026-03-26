@@ -51,7 +51,7 @@ Set A is a subset of B (A ⊆ B) if every element of A is in B; A is a proper su
   answer: true
   explanation: "The definition of A ⊆ B is: for every x, if x ∈ A then x ∈ B. To show ∅ ⊄ A, you would need to exhibit an element of ∅ that is not in A — but ∅ has no elements, so no such counterexample exists. The subset condition is vacuously satisfied. This is not a technicality; it is the definition working as intended. The empty set belongs to the power set of every set precisely because of this vacuous inclusion."
 
-- question: "The empty set is a proper subset of every set."
+- question: "The empty set is a proper subset of nearly every set."
   type: true-false
   answer: false
   explanation: "∅ is a proper subset of every NON-EMPTY set, but NOT of ∅ itself. The proper subset relation requires A ⊆ B AND A ≠ B. While ∅ ⊆ ∅ is true (vacuously), ∅ = ∅ is also true, so the second condition A ≠ B fails. Therefore ∅ ⊄ ∅ as a proper subset. The claim 'every set' is one element too many — ∅ itself is the exception. This subtle error trips up many students who correctly remember that ∅ is always a subset but incorrectly extend this to 'proper subset of every set.'"

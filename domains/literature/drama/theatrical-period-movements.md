@@ -56,7 +56,7 @@ Drama has evolved through distinct historical periods—ancient Greek, Roman, Co
   answer: true
   explanation: "True. This is the topic's central analytical claim. The soliloquy solves the problem of representing private thought in a public medium; the chorus externalizes communal judgment and provides context; direct address collapses the distance between stage world and audience world. These conventions recur because the problems they address recur—but each period answers them differently based on its assumptions about human nature, truth, and what drama is for. Understanding a convention means understanding what question it was answering."
 
-- question: "Each theatrical period in history represents a clean break from its predecessor, replacing old conventions entirely rather than selectively inheriting, modifying, or rejecting them."
+- question: "Each theatrical period in history represents a clean break from its predecessor, replacing old conventions mostly rather than selectively inheriting, modifying, or rejecting them."
   type: true-false
   answer: false
   explanation: "False. Theatre history is characterized by inheritance, reaction, and synthesis—not wholesale replacement. The Elizabethan theatre borrowed classical structure from Rome while absorbing popular performance conventions. Realism reacted against Romantic declamation but retained the proscenium stage it had inherited. Brecht reacted against Realism but used the theatrical spaces Realism had built. Even the most radical theatrical movements define themselves in relation to what came before. The question is always: what is this period keeping, what is it rejecting, and what new synthesis is it creating?"

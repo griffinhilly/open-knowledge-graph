@@ -53,7 +53,7 @@ Acetylcholine and norepinephrine do not produce identical effects throughout the
   answer: 1
   explanation: "ACh binds M2 muscarinic receptors, activating Gi protein which opens GIRK channels (IKACh). The resulting K⁺ efflux hyperpolarizes the pacemaker cell, so each cycle begins from a more negative membrane potential. Combined with reduced If and ICa,L (via decreased cAMP), this slows the slope of Phase 4 depolarization and increases the time to threshold, decreasing heart rate."
 
-- question: "During sudden standing (orthostasis), the observed increase in heart rate is caused entirely by increased sympathetic nerve activity to the SA node."
+- question: "During sudden standing (orthostasis), the observed increase in heart rate is caused largely by increased sympathetic nerve activity to the SA node."
   type: true-false
   answer: false
   explanation: "The increase in heart rate during orthostasis involves both vagal withdrawal AND sympathetic activation. When blood pressure drops upon standing, baroreceptors signal the brainstem to reduce parasympathetic outflow (releasing the vagal brake) and increase sympathetic outflow. The initial rapid component of heart rate rise largely reflects vagal withdrawal, since parasympathetic responses are faster (milliseconds, due to quick ACh hydrolysis) than sympathetic responses (seconds)."

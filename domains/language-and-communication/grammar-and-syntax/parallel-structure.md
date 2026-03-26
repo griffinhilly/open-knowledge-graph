@@ -60,7 +60,7 @@ Underline the coordinated elements in sentences and check whether they share the
   answer: true
   explanation: "Parallelism is a broad principle governing any coordinated grammatical elements. It applies whenever two or more elements are joined by a conjunction and must function at the same grammatical level. 'The policy saves time and is cheaper' is faulty parallelism in a compound predicate (not a list). 'More X than Y' comparisons require matching forms on both sides. 'Both...and' and 'not only...but also' constructions are the strictest cases. The misconception that parallelism is a list rule causes writers to miss violations in all these other contexts."
 
-- question: "Fixing faulty parallelism always requires rewriting the entire sentence rather than just changing the non-parallel element."
+- question: "Fixing faulty parallelism usually requires rewriting the entire sentence rather than just changing the non-parallel element."
   type: true-false
   answer: false
   explanation: "In most cases, fixing faulty parallelism requires only changing the non-conforming element to match the form established by the other elements. 'She enjoys hiking, to swim, and cycling' can be fixed by changing only the middle element: 'hiking, swimming, and cycling.' The rest of the sentence stays the same. Only when the existing forms genuinely conflict — and no single form works for all elements — does more extensive rewriting become necessary. The repair is targeted, not wholesale."

@@ -52,7 +52,7 @@ Constructivism does not deny material interests or power—it argues material fa
   answer: 1
   explanation: "The constructivist response cuts to the heart of the debate: realism assumes that interests are given by material position and works backward to explain behavior as consistent with those interests. But this is circular — almost any behavior can be reinterpreted as self-interested. Constructivism asks a prior question: why did Germany come to define its interests this way in the first place? That question requires examining identity formation, not just power position. Realism has no mechanism for answering it."
 
-- question: "Constructivism argues that material factors like military power and territorial control are irrelevant to international relations — only shared ideas and identities matter."
+- question: "Constructivism argues that material factors like military power and territorial control are irrelevant to international relations — primarily shared ideas and identities matter."
   type: true-false
   answer: false
   explanation: "This is the most common mischaracterization of constructivism. Constructivism does not deny the reality of military power, geography, or economic resources. It argues that material factors only acquire meaning through social interpretation — the same capability can be perceived as threatening or benign depending on shared identities and the history of interactions. As Wendt puts it, 500 British nuclear weapons are less threatening to the U.S. than 5 North Korean ones — not because of material differences alone, but because of shared identity and political relationship."

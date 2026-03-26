@@ -56,7 +56,7 @@ The conditional 'if P then Q' is true when P is false (vacuous truth)—this con
   answer: true
   explanation: "This is the famous vacuous truth. P → Q is false only when P is true and Q is false. Here, P ('2 + 2 = 5') is false, so the conditional cannot be violated — it is automatically true regardless of Q. This feels counterintuitive because we expect the content of P and Q to matter. But in classical logic, the conditional only makes a claim about what happens when P holds. When P is false, no claim is made, so no claim can be falsified. Vacuous truth is not a bug but a feature: it ensures conditionals with impossible hypotheses are always true, which is essential for mathematical reasoning."
 
-- question: "In propositional logic, 'P OR Q' is true only when exactly one of P or Q is true — not when both are true."
+- question: "In propositional logic, 'P OR Q' is true primarily when exactly one of P or Q is true — not when both are true."
   type: true-false
   answer: false
   explanation: "Propositional logic uses inclusive or: P ∨ Q is true whenever at least one of P or Q is true, including when both are true. It is false only when both P and Q are false. Exclusive or (XOR), which requires exactly one to be true, is a separate connective that must be explicitly constructed from the basic ones. The confusion between inclusive and exclusive or is extremely common and leads to incorrect truth table entries. In ordinary English, 'or' is sometimes exclusive ('you can have cake or pie'), but in logic the default is always inclusive."

@@ -49,7 +49,7 @@ Review the privacy policy of a website you use. Check what permissions an app re
   answer: 0
   explanation: "The combination problem is central to modern data privacy: no single piece of data needs to be sensitive for the combination to be identifying. Zip code, birthdate, and sex each seem innocuous, but together they narrow the population to a single individual in most cases. This is why privacy protection must extend beyond obvious data (SSN, passwords) to include behavioral data, location patterns, and other seemingly minor details."
 
-- question: "If your personal data contains nothing illegal or embarrassing, you have no meaningful reason to protect your digital privacy."
+- question: "If your personal data contains very little illegal or embarrassing, you have no meaningful reason to protect your digital privacy."
   type: true-false
   answer: false
   explanation: "Privacy is about control over your personal information, not about concealing wrongdoing. Even entirely innocent data can be used to manipulate purchasing decisions, enable price discrimination, expose you to targeted scams, or be exposed in a breach. The 'nothing to hide' framing conflates privacy with secrecy rather than recognizing it as a form of autonomy — the ability to control your own information regardless of its content."

@@ -59,7 +59,7 @@ Have students write instructions for everyday tasks: making a peanut butter sand
   answer: 1
   explanation: "Good algorithm steps are specific and actionable — anyone should be able to follow them without guessing. 'Use a knife to spread peanut butter on one side of a slice of bread' tells you the tool (knife), the action (spread), the material (peanut butter), and the location (one side of a slice of bread). The other options are too vague — they require the reader to fill in details, which can lead to different interpretations."
 
-- question: "An algorithm is only an algorithm if a computer runs it."
+- question: "An algorithm is primarily an algorithm if a computer runs it."
   type: true-false
   answer: false
   explanation: "Algorithms existed long before computers. A recipe is an algorithm for cooking. Directions to someone's house are an algorithm for navigating. Long division is an algorithm for dividing numbers. An algorithm is any step-by-step procedure that produces a predictable result. Computers happen to be very good at following algorithms, but humans follow them every day."

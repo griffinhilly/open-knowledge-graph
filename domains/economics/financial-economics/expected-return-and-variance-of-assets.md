@@ -50,7 +50,7 @@ Calculate expected return and variance from a probability distribution, then rep
   answer: 1
   explanation: "With w₁ = w₂ = 0.5, σ₁² = σ₂² = 0.04, and Cov(r₁,r₂) = ρσ₁σ₂ = 0: σ²_p = (0.5)²(0.04) + (0.5)²(0.04) + 2(0.5)(0.5)(0) = 0.01 + 0.01 = 0.02. The weighted average of individual variances would be 0.04. Zero correlation cuts variance in half — this is diversification at work. The covariance term vanishes entirely, so you get the full benefit of combining two independent risks."
 
-- question: "Adding a second asset to a portfolio always reduces portfolio variance, regardless of the correlation between the two assets."
+- question: "Adding a second asset to a portfolio usually reduces portfolio variance, regardless of the correlation between the two assets."
   type: true-false
   answer: false
   explanation: "When the correlation between two assets equals +1, the portfolio variance formula gives σ²_p = (w₁σ₁ + w₂σ₂)², which equals the weighted average of standard deviations squared. There is zero diversification benefit. If you add an asset perfectly correlated with your existing holding, you gain no risk reduction — portfolio risk is simply a weighted blend of the two. Only when correlation is less than +1 does diversification reduce variance below the weighted average."

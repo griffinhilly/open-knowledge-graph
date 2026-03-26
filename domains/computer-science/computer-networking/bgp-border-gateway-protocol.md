@@ -44,7 +44,7 @@ BGP is the exterior gateway protocol used to route traffic between autonomous sy
   answer: 1
   explanation: "The full AS path serves two purposes: loop prevention (if a router sees its own AS number already in the path, it rejects the route — it would be routing back to itself) and policy input (the path list is available for operators to make business-based decisions). BGP has no knowledge of link latency or performance (option 0), its updates are not compressed path representations (option 2), and it deliberately does not use a cost metric like OSPF (option 3). Loop prevention is the technical necessity; policy expressiveness is the operational value."
 
-- question: "BGP always selects the route with the fewest AS hops to any given destination."
+- question: "BGP typically selects the route with the fewest AS hops to any given destination."
   type: true-false
   answer: false
   explanation: "AS path length is only one criterion in BGP's multi-step decision algorithm, and it ranks below local preference. Because local preference reflects business relationships — customer routes are preferred over peer routes, which are preferred over provider routes — an operator will routinely select a longer AS path to a customer destination over a shorter path through a provider. 'Shortest path' is the OSPF paradigm; BGP's paradigm is 'policy-optimal path,' which may be quite long. Operators regularly add artificial AS path prepending to make their own routes appear longer and influence other ASes' routing decisions."

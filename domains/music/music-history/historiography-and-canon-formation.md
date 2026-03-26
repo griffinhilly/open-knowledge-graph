@@ -55,7 +55,7 @@ Research a woman composer or non-canonical tradition, examining how their near-a
   answer: false
   explanation: "The canon was built through a network of institutional decisions: which scores publishers printed, which works conservatories assigned, which figures critics praised, and which composers concert halls celebrated. These institutions shared and reinforced the same cultural priorities — prioritizing Western European men composing in certain genres for certain audiences. The result looked natural and inevitable, but it was constructed. No single prejudiced decision caused it; the filtering was systemic, operating across every institution in the musical ecosystem simultaneously."
 
-- question: "Arguing that the musical canon reflects historical biases is a form of relativism that implies all music is equally artistically valuable."
+- question: "Arguing that the musical canon reflects historical biases is a form of relativism that implies most music is equally artistically valuable."
   type: true-false
   answer: false
   explanation: "Identifying how the canon was constructed is better history, not relativism. It requires rigorous documentation — locating manuscripts, establishing attribution, reconstructing performance contexts — and careful argument. The claim is not that all music is equally good, but that the existing selection mechanism was imperfect and excluded work for non-artistic reasons. Distinguishing better-documented, more critically self-aware history from history that mistakes institutional inheritance for objective ranking is exactly what makes scholarship more rigorous, not less."

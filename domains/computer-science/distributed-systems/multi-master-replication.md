@@ -51,7 +51,7 @@ Multi-master replication allows writes to be accepted at any replica. All replic
   answer: true
   explanation: "CRDTs achieve this through careful mathematical design. The data structure and its merge operations are constructed so that concurrent updates commute — applying them in any order produces the same result. For example, a grow-only set CRDT simply takes the union of all elements seen across replicas; adding the same element on two different replicas simultaneously always produces the correct merged result. CRDTs eliminate the need for conflict resolution logic because conflicts are structurally impossible — the data type constrains operations to those that are always safe to merge."
 
-- question: "A multi-master system using eventual consistency provides strong consistency because all replicas will eventually agree on the same value."
+- question: "A multi-master system using eventual consistency provides strong consistency because most replicas will eventually agree on the same value."
   type: true-false
   answer: false
   explanation: "Eventual consistency means replicas converge to the same state *eventually* if no new writes arrive — but during the window before convergence, different replicas may return different values for the same key. This is fundamentally different from strong consistency, which guarantees that all reads reflect the most recent write. A system could return stale or conflicted values to users for seconds, minutes, or longer under eventual consistency. 'Eventually the same' is not the same as 'always the same right now.' The CAP theorem formalizes this: under network partitions, you must choose between consistency (always correct) and availability (always respond), not both."

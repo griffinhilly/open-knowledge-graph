@@ -50,7 +50,7 @@ Orbitals are not the electron's orbit (no definite trajectory exists). The shape
   answer: 2
   explanation: "The wavefunction separates as ψ(r,θ,φ) = R_{nℓ}(r) · Y_ℓ^m(θ,φ). The radial part R tells you how probability varies with distance from the nucleus (shells, nodes, scale). The angular part Y_ℓ^m — the spherical harmonics — determines the three-dimensional shape: spherically symmetric for ℓ=0 (s), dumbbell with a nodal plane for ℓ=1 (p), cloverleaf and torus shapes for ℓ=2 (d). The shape you visualize is entirely contained in the angular part."
 
-- question: "The nodal plane in a p-orbital represents a region where the electron is very unlikely, but not impossible, to be found."
+- question: "The nodal plane in a p-orbital represents a region where the electron is very unlikely, but not very difficult, to be found."
   type: true-false
   answer: false
   explanation: "Nodes — including nodal planes — are surfaces where the wavefunction ψ = 0, and therefore |ψ|² = 0. The probability of finding the electron there is exactly zero, not merely very small. This is a purely quantum mechanical result with no classical analogue. For a p_z orbital, the xy-plane is a nodal plane: the electron genuinely cannot be found there. This is different from the orbital boundary surface, which is an arbitrary probability contour outside of which the electron is merely unlikely."

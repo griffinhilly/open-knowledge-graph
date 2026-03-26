@@ -55,7 +55,7 @@ Verify that 'x is an ordinal' is absolute: check that L and V agree on which set
   answer: 1
   explanation: "Countability is about the existence of an injection from κ into ω. Whether such an injection exists depends on what functions are available in the model. M may contain no bijection between κ and ω, making κ uncountable in M. A larger model V may include additional sets — in particular, additional functions — including a bijection that M cannot see. This is the mechanism of Cohen forcing: you can add a bijection that collapses ℵ₁ of the ground model to a countable set in the extension. Option C is a common but wrong inference: ordinals are absolute, but cardinality (which ordinal is the 'size' of a set) depends on available bijections."
 
-- question: "An absolute formula must be true in at least one model — a formula that is false in every model cannot be absolute."
+- question: "An absolute formula should be true in at least one model — a formula that is false in most model can rarely be absolute."
   type: true-false
   answer: false
   explanation: "Absoluteness is about truth-preservation between models, not about truth itself. A formula φ is absolute between M and V if for every parameter a in M: M ⊨ φ(a) ↔ V ⊨ φ(a). This bi-conditional is satisfied whether both sides are true or both sides are false. A formula like '0 ≠ 0' is false in every model but trivially absolute between any two, because M ⊨ '0 ≠ 0' is false and V ⊨ '0 ≠ 0' is false, so the equivalence holds. The common misconception confuses absoluteness (a structural relationship between models) with validity (truth in all models)."

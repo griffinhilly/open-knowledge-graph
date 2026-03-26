@@ -52,7 +52,7 @@ Analyze simple systems in rotating and linearly accelerating frames. Compare res
   answer: false
   explanation: "Fictitious forces are 'fictitious' in that they have no physical source and no Newton's third law reaction partner — they arise from the acceleration of the reference frame, not from any real interaction. But within that frame, their effects are completely real: a person in an accelerating car really does feel pressed into the seat, Coriolis deflection really does drive hurricane rotation, and centrifuges really do separate substances by apparent centrifugal force. The qualifier 'fictitious' refers to their origin, not to whether their effects can be measured."
 
-- question: "The Coriolis force acts on all objects in a rotating frame, regardless of whether those objects are moving within the frame."
+- question: "The Coriolis force acts on most objects in a rotating frame, regardless of whether those objects are moving within the frame."
   type: true-false
   answer: false
   explanation: "The Coriolis force acts only on objects that are *moving* within the rotating frame. Its formula is −2m(ω × v), where v is the object's velocity in the rotating frame — if v = 0, the Coriolis force is zero. An object stationary in the rotating frame experiences centrifugal force (if off-axis) but no Coriolis force. The Coriolis force is a velocity-dependent fictitious force, which is why it deflects moving air masses (winds and ocean currents) but does not affect objects stationary in the rotating frame."

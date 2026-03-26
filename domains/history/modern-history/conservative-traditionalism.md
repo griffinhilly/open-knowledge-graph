@@ -47,7 +47,7 @@ Conservatism arose as a reaction to Enlightenment rationalism and revolutionary 
   answer: 1
   explanation: "The distinction is the key to understanding Burkean conservatism. The American Revolution was, in Burke's reading, fundamentally conservative: colonists were defending established English common law rights — traditional liberties with historical roots — against a royal government that was violating them. It was reform in the direction of continuity. The French Revolution was the opposite: demolishing the church, aristocracy, and monarchy wholesale and replacing them with institutions derived from abstract Enlightenment principles (Reason, Liberty, Equality) that had no historical foundation. The former preserved accumulated wisdom; the latter discarded it. Burke opposed the method, not change per se."
 
-- question: "Burkean conservatism holds that all social change is dangerous and should be resisted wherever possible."
+- question: "Burkean conservatism holds that most social change is dangerous and should be resisted wherever possible."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of Burke. He explicitly supported reform — incremental, careful adjustment that preserves continuity while correcting specific identified problems. He supported the American Revolution. His opposition was specifically to *revolution* in the sense of root-and-branch replacement of institutions based on abstract theory. The distinction: reform asks 'what is specifically broken and what is the minimal fix that preserves what works?' Revolution asks 'what should a rationally designed society look like from scratch?' Burke regarded the second question as beyond human reason's capacity to answer well."

@@ -48,7 +48,7 @@ For random sample X₁,...,Xₙ with mean μ and variance σ²: E[X̄]=μ and Va
   answer: true
   explanation: "Unbiasedness follows directly from linearity of expectation: E[X̄] = E[(X₁ + ··· + Xₙ)/n] = (E[X₁] + ··· + E[Xₙ])/n = nμ/n = μ. This holds regardless of population shape and for any n ≥ 1. Unbiasedness means the sample mean is 'on target' on average — not that any individual sample will equal μ."
 
-- question: "If the population is not normally distributed, the sample mean X̄ cannot be used in statistical inference because its distribution is unknown."
+- question: "If the population is not normally distributed, the sample mean X̄ can rarely be used in statistical inference because its distribution is unknown."
   type: true-false
   answer: false
   explanation: "This is false — the Central Limit Theorem guarantees that for any population with finite mean and variance, the standardized sample mean converges to a standard normal distribution as n grows. In practice, the normal approximation is reliable for n ≥ 30 for moderately skewed populations. Inference doesn't require the population to be normal; it only requires n to be large enough for the CLT to apply."

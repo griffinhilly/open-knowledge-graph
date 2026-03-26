@@ -40,7 +40,7 @@ Build model atoms (using beads or drawings) of two isotopes of the same element,
   answer: 2
   explanation: "Isotopes of the same element have the same number of protons (that is what makes them the same element) and the same number of electrons in a neutral atom. They differ only in the number of neutrons, which changes the mass but not the chemical identity."
 
-- question: "All isotopes of an element are radioactive."
+- question: "Most isotopes of an element are radioactive."
   type: true-false
   answer: false
   explanation: "Most isotopes are stable and not radioactive at all. For example, carbon-12 and carbon-13 are both stable isotopes of carbon. Only certain isotopes (like carbon-14) are radioactive, meaning their nuclei are unstable and break down over time."

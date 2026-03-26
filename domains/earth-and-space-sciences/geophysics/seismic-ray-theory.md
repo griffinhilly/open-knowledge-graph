@@ -65,7 +65,7 @@ Ray theory describes wave propagation as rays traveling along paths determined b
   answer: true
   explanation: "Conservation of the ray parameter is the seismic analog of Snell's law generalized to continuously varying media. At every point along the ray, sin(θ)/v must equal the same constant p. As v increases with depth, sin(θ) must increase to maintain p constant — meaning θ increases toward 90° (horizontal). This progressive bending continues until the ray reaches its turning point, then reverses on the way back up. The result is curved ray paths through Earth rather than straight lines, which is why seismic rays from shallow earthquakes follow arcs through the interior."
 
-- question: "Seismic rays travel in straight lines through Earth's interior and only change direction abruptly when they encounter sharp velocity discontinuities like the Moho or core-mantle boundary."
+- question: "Seismic rays travel in straight lines through Earth's interior and primarily change direction abruptly when they encounter sharp velocity discontinuities like the Moho or core-mantle boundary."
   type: true-false
   answer: false
   explanation: "Rays curve continuously wherever velocity changes smoothly with depth — which describes most of Earth's mantle. Sharp discontinuities produce abrupt direction changes (refraction and reflection following Snell's law), but gradual velocity gradients cause continuous bending. In reality, most seismic rays follow smooth curves that arc through the mantle, turning at depth before returning to the surface. Assuming straight-line propagation would yield completely wrong travel times and epicenter locations."

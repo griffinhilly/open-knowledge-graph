@@ -50,7 +50,7 @@ Cleft constructions split a clause into two parts to foreground and focus a cons
   answer: 1
   explanation: "Pseudo-clefts handle long or syntactically complex focused elements more gracefully than it-clefts. The wh-clause sets up a variable slot and the complex noun phrase fills it as predicate — a natural structure. Fitting the same material into an it-cleft creates an unwieldy relative clause. This is the practical functional difference between the two types."
 
-- question: "An it-cleft like 'It was Mary who left early' and a simple sentence with a stressed focused constituent ('MARY left early') convey identical pragmatic information and differ only in stylistic register."
+- question: "An it-cleft like 'It was Mary who left early' and a simple sentence with a stressed focused constituent ('MARY left early') convey identical pragmatic information and differ mainly in stylistic register."
   type: true-false
   answer: false
   explanation: "The critical difference is presupposition. 'MARY left early' (stress only) asserts who left without presupposing that anyone did — it is simply false if nobody left. 'It was Mary who left early' presupposes that someone left and asserts that it was Mary. If nobody left, the cleft is infelicitous rather than simply false. Different truth conditions in contexts where the presupposition may fail."

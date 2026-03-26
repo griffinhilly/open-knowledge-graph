@@ -56,7 +56,7 @@ A grammar is ambiguous if some string has multiple parse trees (different deriva
   answer: true
   explanation: "Ambiguity is a property of a specific grammar, not of the language it defines. Many context-free languages can be described by both ambiguous and unambiguous grammars. The expression grammar E -> E + E | E * E | id is ambiguous, but the precedence-encoded version (with separate nonterminals for each precedence level) is unambiguous and generates the same language. Compiler developers exploit this: when a natural, intuitive grammar is ambiguous, they rewrite it to an equivalent unambiguous form without restricting the set of valid programs."
 
-- question: "Fixing an ambiguous grammar always requires removing some strings from the language — that is, accepting a more restrictive set of programs."
+- question: "Fixing an ambiguous grammar generally requires removing some strings from the language — that is, accepting a more restrictive set of programs."
   type: true-false
   answer: false
   explanation: "Disambiguation rewrites the grammar's structure so that every string has exactly one parse tree, but it does not have to change which strings the grammar accepts. The standard fix for expression grammars — introducing separate nonterminals for each precedence level — generates the same language (all valid arithmetic expressions) while eliminating ambiguity. What changes is the grammar's internal structural representation of sentences, not the set of sentences it accepts. The language stays the same; only the grammar changes."

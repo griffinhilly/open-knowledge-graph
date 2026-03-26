@@ -55,7 +55,7 @@ Start with concrete examples of absolute and non-absolute notions. 'x is an ordi
   answer: 1
   explanation: "'x is an ordinal' is Δ₁ (equivalent to both a Σ₁ and a Π₁ definition), hence absolute for all transitive models. An ordinal is a transitive set well-ordered by membership, and checking this only requires quantifying over elements of x — bounded quantification that transitive models can evaluate locally. 'x is countable' requires an existential quantifier ranging over bijections that may not exist in the model. 'Cardinality ℵ₁' depends on what bijections are available. 'Codes a well-ordering' is more complex and not straightforwardly absolute."
 
-- question: "If a formula φ is absolute between transitive models M and N (with M ⊆ N), then φ must be true in both M and N."
+- question: "If a formula φ is absolute between transitive models M and N (with M ⊆ N), then φ is expected to be true in both M and N."
   type: true-false
   answer: false
   explanation: "This is one of the key misconceptions about absoluteness. Absolute means the truth value is the SAME in both models — φ holds in M iff it holds in N. A false formula can be absolute: 'x is an ordinal' is absolute, but a specific set x might fail to be an ordinal in both M and N equally. Absoluteness is about model-independence of truth evaluation, not about the truth value being 'true.' A statement like '0 = 1' is trivially absolute (false in all models) even though it is never true."

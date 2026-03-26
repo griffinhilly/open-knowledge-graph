@@ -55,7 +55,7 @@ Identify a key argument or concept. Craft a 2-3 minute personal narrative that i
   answer: 2
   explanation: "Specific, sensory, concrete details allow audiences to imaginatively inhabit the story — this is narrative transportation. 'Folding the same shirt three times' is a particular, observable behavior that makes the internal state visible and real. Abstract statements like 'she was terrified' or 'she felt the weight' tell the audience what to feel rather than showing conditions that generate the feeling. Statistics invoke analytical processing, not identification."
 
-- question: "A story that opens an emotional channel but never explicitly connects to the speaker's argument is still rhetorically effective, because audiences will naturally draw the intended inference."
+- question: "A story that opens an emotional channel but seldom explicitly connects to the speaker's argument is still rhetorically effective, because audiences will naturally draw the intended inference."
   type: true-false
   answer: false
   explanation: "Audiences draw inferences from stories, but those inferences vary. Different listeners will connect the story to different conclusions, and many will simply experience it as entertainment. The explicit connection is not optional — it directs the emotional energy toward the specific claim the speaker wants accepted. Without it, persuasive force diffuses rather than concentrates. A story without a connection is entertainment; a connection without a story is an unsupported assertion."

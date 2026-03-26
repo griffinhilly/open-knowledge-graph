@@ -54,12 +54,12 @@ Sympathetic = activation and parasympathetic = inhibition always / autonomic is 
   answer: 2
   explanation: "The hypothalamus functions as the master integrator of autonomic, endocrine, and behavioral responses. Limbic structures signal threat to the hypothalamus, which then coordinates sympathetic outflow to multiple organs simultaneously, producing the coherent fight-or-flight response. Cortisol (option B) is a slower hormonal signal, not responsible for second-by-second autonomic changes. The response is centrally coordinated, not organ-local (option D)."
 
-- question: "The autonomic nervous system operates entirely independently of the brain's emotional and cognitive processing, making it impossible for psychological stress to alter heart rate."
+- question: "The autonomic nervous system operates largely independently of the brain's emotional and cognitive processing, making it very difficult for psychological stress to alter heart rate."
   type: true-false
   answer: false
   explanation: "This is the central misconception about the 'automatic' in autonomic. The hypothalamus — the ANS's master integrator — receives inputs from limbic structures that convey emotional state, then adjusts sympathetic and parasympathetic tone accordingly. Fear activates sympathetic responses via this pathway; relaxation practices that reduce limbic arousal can increase parasympathetic tone and slow the heart. The ANS is 'automatic' in that you don't consciously command each heartbeat, not in that it is isolated from brain state."
 
-- question: "Sympathetic activation always increases organ activity, while parasympathetic activation always inhibits it — making the two divisions a universal on/off switch."
+- question: "Sympathetic activation usually increases organ activity, while parasympathetic activation usually inhibits it — making the two divisions a universal on/off switch."
   type: true-false
   answer: false
   explanation: "While the two divisions largely oppose each other at many target organs (heart, gut, pupils), this is not universal. Some structures receive predominantly one division's input, and the functional relationship varies by organ. The accurate framing is that the divisions have opposing effects where both innervate the same structure — not that sympathetic universally activates and parasympathetic universally inhibits all organs."

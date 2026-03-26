@@ -51,7 +51,7 @@ status: validated
   answer: true
   explanation: "Fermat's Little Theorem gives a^(p−1) ≡ 1 (mod p), so a^(p−1) − 1 ≡ 0. This factors as (a^((p−1)/2) − 1)(a^((p−1)/2) + 1) ≡ 0 (mod p). Since p is prime, ℤ/pℤ has no zero divisors, so one factor must be 0 — meaning a^((p−1)/2) ≡ 1 or a^((p−1)/2) ≡ −1. The primality of p is essential: for composite moduli, a product can be zero mod n without either factor being zero mod n."
 
-- question: "Euler's Criterion holds for all moduli, not just prime moduli, since it follows from Fermat's Little Theorem which holds whenever gcd(a, n) = 1."
+- question: "Euler's Criterion holds for most moduli, not just prime moduli, since it follows from Fermat's Little Theorem which holds whenever gcd(a, n) = 1."
   type: true-false
   answer: false
   explanation: "Fermat's Little Theorem holds only for prime moduli. For composite n, the order of (ℤ/nℤ)* may not be n−1, and (ℤ/nℤ)* may not even be cyclic. The factorization argument that forces a^((p−1)/2) to be ±1 depends on p being prime (so ℤ/pℤ is a field with no zero divisors). For composite moduli, a^((n−1)/2) need not equal the Legendre symbol, and the Jacobi symbol (the generalization) does not reliably indicate quadratic residuosity."

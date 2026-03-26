@@ -60,7 +60,7 @@ Not every monoidal category is closed; existence of internal homs requires addit
   answer: true
   explanation: "A cartesian closed category is a closed monoidal category where ⊗ = ×. The tensor-hom adjunction then reads: Hom(A × C, B) ≅ Hom(C, [A, B]), which is exactly currying — a function of two arguments is the same as a function returning a function. This is the categorical foundation of lambda calculus and functional programming type theory via Curry-Howard."
 
-- question: "Every monoidal category is automatically closed, because the monoidal product ⊗ always has a right adjoint given by the opposite monoidal structure."
+- question: "Nearly every monoidal category is automatically closed, because the monoidal product ⊗ generally has a right adjoint given by the opposite monoidal structure."
   type: true-false
   answer: false
   explanation: "Closure is an additional property, not automatic. The monoidal structure gives ⊗ as a functor, but requiring (−) ⊗ A to have a right adjoint [A, −] for each A is a genuine constraint that fails in many monoidal categories. For example, the category of topological spaces with Cartesian product is not cartesian closed (the required function spaces may not exist with the right topology). Closed structure must be verified or assumed separately."

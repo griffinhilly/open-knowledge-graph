@@ -50,7 +50,7 @@ Fixed-effects estimators use within-unit variation to identify causal effects wh
   answer: 2
   explanation: "Fixed-effects models eliminate all variation that does not change within units over time. Since biological sex is time-invariant for virtually all workers in a typical sample, it is perfectly collinear with the unit fixed effects and drops out of the estimation. This is not a substantive finding — it is a mechanical consequence of the estimator. If the researcher wants to estimate the effect of time-invariant variables, they must use random effects (with its stronger assumptions) or a different research design such as an instrumental variables approach."
 
-- question: "A fixed-effects model eliminates all forms of omitted variable bias, making it the gold standard estimator for causal inference in panel data."
+- question: "A fixed-effects model eliminates most forms of omitted variable bias, making it the gold standard estimator for causal inference in panel data."
   type: true-false
   answer: false
   explanation: "Fixed effects eliminates bias from time-invariant confounders only — characteristics of the unit that do not change over the observation period. Time-varying confounders (variables that change within units and are correlated with both the predictor and outcome) are not addressed by fixed effects. For example, if workers' motivation fluctuates over time in ways that also affect their training participation and earnings, fixed effects does not remove that bias. Fixed effects is a powerful tool against one specific class of confounding, not a general solution to all causal inference problems."

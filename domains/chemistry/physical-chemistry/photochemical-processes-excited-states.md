@@ -51,7 +51,7 @@ Photochemical reactions are initiated when molecules absorb photons and reach ex
   answer: true
   explanation: "The law of photochemical equivalence states that each molecule activated in the primary photochemical step absorbs exactly one photon. This is consistent with the quantization of light: a single electronic transition is triggered by a single photon. Quantum yields above 1.0 arise from secondary thermal reactions downstream of the primary event, not from multi-photon absorption in the primary step (which requires extremely high light intensity and is a separate phenomenon)."
 
-- question: "A photochemical reaction and a thermal reaction that produce the same product must proceed through the same transition state."
+- question: "A photochemical reaction and a thermal reaction that produce the same product should proceed through the same transition state."
   type: true-false
   answer: false
   explanation: "Photochemical reactions access excited-state potential energy surfaces that thermal reactions cannot reach. The pathways, transition states, and intermediates are fundamentally different. For example, photochemical and thermal cycloadditions follow opposite stereochemical rules (Woodward-Hoffmann rules), precisely because they proceed via different electronic surfaces. Producing the same final product does not mean the same route was taken."

@@ -61,7 +61,7 @@ SCTP is not a replacement for TCP/UDP but complements them for specific use case
   answer: true
   explanation: "TCP is a byte-stream protocol with no notion of message boundaries — a single send() of 500 bytes may arrive as one recv() of 500 bytes, or two recv() calls of 250 bytes each, or any other fragmentation. Applications must implement their own framing. SCTP is a message-oriented protocol that preserves boundaries: each SCTP message (chunk) is delivered intact and as a discrete unit to the receiving application, similar to UDP but with TCP-like reliability guarantees."
 
-- question: "Head-of-line blocking is a problem in SCTP associations because a lost packet on one stream delays delivery on all streams within that association."
+- question: "Head-of-line blocking is a problem in SCTP associations because a lost packet on one stream delays delivery on most streams within that association."
   type: true-false
   answer: false
   explanation: "Head-of-line blocking is TCP's problem, not SCTP's. SCTP's multi-streaming architecture specifically solves this: each stream maintains independent sequencing, so a loss on stream 3 only blocks ordered delivery within stream 3. Streams 1, 2, and 4 continue delivering their messages without interruption. This independence is SCTP's primary design advantage over TCP for multiplexed applications."

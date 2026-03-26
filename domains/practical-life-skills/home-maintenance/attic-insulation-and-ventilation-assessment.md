@@ -52,7 +52,7 @@ Visit your attic with a flashlight during daylight. Measure insulation depth and
   answer: 1
   explanation: "An unventilated attic can reach 150°F or more in summer, which forces the air conditioning system to work harder (the heat conducts through the ceiling) and dramatically accelerates shingle degradation. Ventilation creates passive convection: cool air enters through soffit vents and hot air exits through the ridge, keeping attic temperatures closer to outside air temperature. This is not wasted energy — it is heat that was never part of the conditioned space and would otherwise increase cooling demand."
 
-- question: "Adding more attic insulation always improves energy efficiency, so homeowners should add as much as possible without limit."
+- question: "Adding more attic insulation generally improves energy efficiency, so homeowners should add as much as possible without limit."
   type: true-false
   answer: false
   explanation: "Beyond a certain depth, insulation can block soffit vents and defeat the ventilation system, causing moisture and heat damage that far outweigh any marginal R-value gains. There are also diminishing returns: going from R-13 to R-38 yields large savings, but going from R-60 to R-80 yields very little. The DOE recommends R-38 to R-60 depending on climate zone — not the maximum physically possible. The key principle is that insulation and ventilation must work together; optimizing one at the expense of the other creates new problems."

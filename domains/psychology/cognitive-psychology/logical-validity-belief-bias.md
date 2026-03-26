@@ -60,7 +60,7 @@ Present syllogisms varying in logical validity (valid, invalid) and conclusion p
   answer: true
   explanation: "This is the core empirical finding. Argument endorsement rates are driven by an interaction of logical validity and conclusion believability. Invalid arguments with believable conclusions are accepted at substantially higher rates than invalid arguments with unbelievable conclusions. The conclusion's plausibility contaminates what should be a purely formal evaluation of whether premises entail the conclusion."
 
-- question: "Instructing participants to evaluate only the logical form of an argument — explicitly ignoring the believability of the conclusion — reliably eliminates belief bias."
+- question: "Instructing participants to evaluate primarily the logical form of an argument — explicitly ignoring the believability of the conclusion — reliably eliminates belief bias."
   type: true-false
   answer: false
   explanation: "Research consistently shows that explicit instructions to focus on logic reduce but do not eliminate belief bias. The automatic plausibility evaluation runs whether or not participants intend it to — it is not fully under conscious control. This is one of the key findings: belief bias is not simply a misunderstanding of what 'valid' means. People can know the definition and still have their evaluations influenced by conclusion believability, because the content-based judgment precedes and competes with the formal one."

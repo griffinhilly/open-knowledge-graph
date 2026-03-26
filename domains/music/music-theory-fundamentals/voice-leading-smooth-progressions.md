@@ -53,7 +53,7 @@ Parallel fifths and octaves are not always forbidden—they are avoided in class
   answer: 1
   explanation: "Economy of motion is the organizing principle of smooth voice leading: each voice should move as little as possible — hold common tones, move by step if movement is needed, and leap only when no smooth option exists. Jumping to the 'nearest' chord tone in each voice independently often produces unnecessary leaps and sacrifices the smooth melodic line each voice should trace. The student is thinking vertically (about chords) when they should also be thinking horizontally (about lines)."
 
-- question: "Parallel fifths and parallel octaves are forbidden in all Western musical contexts."
+- question: "Parallel fifths and parallel octaves are forbidden in most Western musical contexts."
   type: true-false
   answer: false
   explanation: "Parallel fifths and octaves are avoided specifically in classical four-part writing (SATB harmony) because they cause voices to lose independence — two voices moving in parallel fifths merge into a single thickened line. But they appear deliberately in power chords (rock guitar), medieval organum, and many other contexts where that thick parallel sound is the goal. The rule is contextual and tradition-specific, not a universal law of music."

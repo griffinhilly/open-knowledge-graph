@@ -58,7 +58,7 @@ Thinking a formula with free variables is incomplete or invalid. Confusing varia
   answer: true
   explanation: "True. This is alpha-equivalence: bound variables are 'dummy variables' — their names are arbitrary labels with no semantic significance. The quantifier ∀x P(x) says 'for every element in the domain, P holds of it.' The name x is just a placeholder referring to the element the quantifier ranges over. Renaming x to z throughout (replacing ∀x with ∀z and every bound occurrence of x with z) produces an identical claim. This is analogous to the fact that ∫₀¹ x² dx and ∫₀¹ t² dt are the same integral — the variable name is a dummy."
 
-- question: "A formula with free variables is incomplete or invalid — it cannot be meaningfully evaluated until all variables are bound by quantifiers."
+- question: "A formula with free variables is incomplete or invalid — it can rarely be meaningfully evaluated until most variables are bound by quantifiers."
   type: true-false
   answer: false
   explanation: "False. Open formulas (formulas with free variables) are perfectly well-formed and meaningful — they are predicates or conditions that may be satisfied by particular assignments of values to free variables. The formula x > 5 is an open formula; it is true when x = 7 and false when x = 3. Free variables parameterize a family of claims. An open formula becomes a sentence (with a definite truth value) only when all free variables are either bound by quantifiers or assigned specific values, but the open formula itself is valid and useful — it is how predicates are defined in predicate logic."

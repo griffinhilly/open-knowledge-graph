@@ -59,7 +59,7 @@ Observe eddy current effects using a magnet and conducting plate. Calculate powe
   answer: true
   explanation: "This is Lenz's law applied to eddy currents. A falling magnet increases the downward magnetic flux through the conducting plate below it. By Lenz's law, the induced eddy currents flow in a direction that opposes this increase — they create an upward magnetic field that pushes back on the falling magnet. The result is a braking force: the magnet falls more slowly than it would under gravity alone. This is the operating principle of magnetic brakes in trains, roller coasters, and laboratory damping systems."
 
-- question: "Lamination eliminates eddy currents entirely in a transformer core."
+- question: "Lamination eliminates eddy currents mostly in a transformer core."
   type: true-false
   answer: false
   explanation: "This is explicitly listed as a misconception. Lamination reduces eddy currents by confining them to smaller loops within each insulated sheet, but it does not eliminate them. Eddy currents still flow within each lamination layer — they simply cannot cross the insulating gaps between layers. The power loss is dramatically reduced (scaling as the square of lamination thickness), but only approaches zero in the limit of infinitely thin laminations or infinitely resistive material (like ferrite). In practice, some eddy current loss always remains."

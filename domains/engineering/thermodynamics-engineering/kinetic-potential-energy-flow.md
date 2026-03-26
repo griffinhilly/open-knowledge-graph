@@ -42,12 +42,12 @@ In high-velocity flows or applications with elevation changes, kinetic energy (V
   answer: 1
   explanation: "For incompressible flow with no heat transfer and no shaft work, the enthalpy change reduces to the pressure-work term (P/ρ), since internal energy is constant for incompressible fluid. The steady-flow energy equation becomes exactly Bernoulli: P/ρ + V²/2 + gz = constant. This is the appropriate model here. Option C is the dangerous opposite error: dropping KE and PE when they ARE the dominant terms (50 m of elevation = gz ≈ 490 J/kg, which dominates at 3 m/s where V²/2 ≈ 4.5 J/kg)."
 
-- question: "In all engineering problems involving turbines or compressors, the kinetic energy and potential energy terms in the steady-flow energy equation are negligible and can always be dropped without meaningful error."
+- question: "In most engineering problems involving turbines or compressors, the kinetic energy and potential energy terms in the steady-flow energy equation are negligible and can usually be dropped without meaningful error."
   type: true-false
   answer: false
   explanation: "This is the most common error when habits from cycle analysis carry over to the wrong problem types. While KE and PE are often negligible in boilers and large steam turbines (where Δh ≈ hundreds to over 1,000 kJ/kg), they must always be verified by order-of-magnitude comparison for the specific system. High-velocity turbine stages, compressor stages with high blade speeds, or turbines with significant elevation differences may have KE or PE contributions of 10% or more of the work output. The rule is: compare, don't assume."
 
-- question: "Doubling the velocity of a fluid through a nozzle doubles the kinetic energy per unit mass that must be supplied by the enthalpy drop."
+- question: "Doubling the velocity of a fluid through a nozzle doubles the kinetic energy per unit mass that should be supplied by the enthalpy drop."
   type: true-false
   answer: false
   explanation: "Kinetic energy per unit mass is V²/2, not V. Doubling the velocity from V to 2V changes kinetic energy from V²/2 to (2V)²/2 = 4V²/2 — a factor of four increase, not two. This quadratic relationship has important practical consequences: increasing nozzle exit velocity by 41% (a factor of √2) doubles the kinetic energy, while doubling the velocity requires four times the enthalpy input. High-velocity applications (rocket nozzles, supersonic flows) demand disproportionately large enthalpy drops."

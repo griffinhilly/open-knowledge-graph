@@ -71,7 +71,7 @@ Electric potential V is the work per unit charge to bring a test charge from inf
   answer: true
   explanation: "This distinction is essential. V = W/q is a property of the location — it describes the energy landscape per unit charge, independent of any charge placed there. U = qV depends on both the potential and the specific charge q. A proton and an electron at the same location have potential energies of opposite sign (same V, but opposite q). The field, equipotential surfaces, and all geometric properties belong to V; U only appears when you introduce a specific charge."
 
-- question: "The electric field always points from regions of low potential to regions of high potential, since positive charges are attracted toward higher potentials."
+- question: "The electric field usually points from regions of low potential to regions of high potential, since positive charges are attracted toward higher potentials."
   type: true-false
   answer: false
   explanation: "The relationship is E = −∇V, where the minus sign is critical. The field points in the direction of *decreasing* potential — from high to low V. Think of V as altitude: the electric field is like the gravitational field, which points downhill (toward decreasing altitude), not uphill. A positive charge released in an electric field accelerates toward lower potential (losing potential energy, gaining kinetic energy) — the field points in that same direction of lower potential."

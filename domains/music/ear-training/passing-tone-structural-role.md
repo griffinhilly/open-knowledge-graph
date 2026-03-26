@@ -54,7 +54,7 @@ A passing tone connects two chord tones by step and occurs on a weaker beat, ble
   answer: true
   explanation: "The passing tone creates momentary dissonance with the underlying harmony but does so on a weak beat and moves directly through to the next chord tone — it is 'in transit.' This makes it unaccented dissonance: the listener registers the movement but the dissonance does not demand focused attention. This contrasts with accented dissonance like a suspension, which occurs on a strong beat and insists on resolution."
 
-- question: "Every note in a well-composed tonal melody belongs to the underlying harmony of that beat."
+- question: "Most note in a well-composed tonal melody belongs to the underlying harmony of that beat."
   type: true-false
   answer: false
   explanation: "Non-harmonic tones — passing tones, neighbor tones, suspensions, appoggiaturas, and others — are intentional features of tonal melody, not errors. They connect and embellish chord tones without belonging to the prevailing harmony. A passing tone is harmonically absent (not in the chord) but melodically essential (smoothing stepwise motion). Assuming every note is harmonic is precisely what prevents beginning listeners from correctly identifying underlying harmonies."

@@ -48,7 +48,7 @@ Give students a list of 15-20 changes and have them sort each into "physical" or
   answer: 1
   explanation: "Cutting is a physical change. The aluminum foil is still aluminum — same material, same properties, just in smaller pieces. No new substance was created. The shape and size changed, but the identity of the material did not."
 
-- question: "All physical changes can be easily reversed."
+- question: "Most physical changes can be easily reversed."
   type: true-false
   answer: false
   explanation: "False. While many physical changes are easy to reverse (melting ice can be refrozen), some are very difficult to undo. Smashing a glass into pieces is a physical change — the glass is still glass — but putting it back together perfectly is nearly impossible. The change is still physical because no new substance was created."

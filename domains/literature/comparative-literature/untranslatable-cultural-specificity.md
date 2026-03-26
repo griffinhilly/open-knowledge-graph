@@ -69,7 +69,7 @@ Work through a translator's notes or commentary on difficult passages. Study pun
   answer: true
   explanation: "This is the productive conclusion the topic draws from untranslatability. Rather than being a pessimistic finding, untranslatability identifies precisely where a text's effects are most bound to its original language — which is often where the most culturally specific and literarily interesting features live. By asking 'what cannot be carried across?' comparative readers gain insight into what each language uniquely enables. Far from foreclosing cross-cultural understanding, the concept opens a more rigorous form of it."
 
-- question: "A fluent, domesticating translation that resolves all untranslatable elements through equivalent target-language features fully preserves the literary effects of the source text."
+- question: "A fluent, domesticating translation that resolves most untranslatable elements through equivalent target-language features fully preserves the literary effects of the source text."
   type: true-false
   answer: false
   explanation: "A domesticating translation prioritizes target-language fluency and may produce an equally compelling read, but it does so by substituting new features for source-language features, not by preserving them. A new pun in German substituted for a different English pun creates a different joke, even if it creates a similar effect. The cultural specificity, the etymological resonance, or the particular allusion of the original is replaced, not preserved. Domestication makes the text feel native at the cost of what made it foreign — a genuine trade-off, not a solution."

@@ -60,7 +60,7 @@ Migration is not random; it follows consistent routes and timing despite environ
   answer: false
   explanation: "This is a common misconception. While pelagic fish do respond to oceanographic variability, their migrations follow consistent seasonal routes and timing tied to predictable features like isotherms, productive fronts, and upwelling patterns. A bluefin tuna returns to its natal spawning ground even after years of ocean-basin migration. The routes are repeatable enough that fishers have exploited them for centuries. What is changing — due to climate — is the timing and geographic extent of these consistent routes, not their fundamental predictability."
 
-- question: "Temperature is the primary physical constraint determining where pelagic fishes can live, and dissolved oxygen plays only a minor secondary role."
+- question: "Temperature is the primary physical constraint determining where pelagic fishes can live, and dissolved oxygen plays primarily a minor secondary role."
   type: true-false
   answer: false
   explanation: "Temperature, dissolved oxygen, and prey availability all play essential and roughly equal roles in structuring pelagic fish distributions. The oxygen minimum zone example demonstrates this clearly: OMZs can compress fish habitat vertically independent of temperature, forcing surface aggregations that temperature alone would not predict. Satellite tagging studies combine temperature, oxygen, and productivity layers to build habitat suitability models because no single variable is sufficient."

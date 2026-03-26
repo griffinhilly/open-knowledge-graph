@@ -60,7 +60,7 @@ Translation is not objective transfer of meaning; each translation is an interpr
   answer: 2
   explanation: "This is a classic domesticating translation — prioritizing target-language fluency over source-culture fidelity. Venuti's critique is that domestication makes foreign texts feel native, erasing the genuine difficulty of cultural and temporal distance. Readers experience no friction that would signal they are encountering a radically different culture. Foreignization, by contrast, preserves strangeness — at the cost of some fluency. Neither is purely correct; the appropriate strategy depends on audience and purpose."
 
-- question: "A translation that reproduces every word literally is more faithful to the original than one that adapts idioms, rhythm, and cultural references for the target language."
+- question: "A translation that reproduces nearly every word literally is more faithful to the original than one that adapts idioms, rhythm, and cultural references for the target language."
   type: true-false
   answer: false
   explanation: "Literal word-for-word translation is not synonymous with faithfulness — it is one particular interpretive choice that prioritizes lexical equivalence over form, rhythm, register, and cultural meaning. An idiom rendered literally may produce nonsense in the target language, while an adaptive translation that finds a functional equivalent may convey the original's effect more faithfully. 'Fidelity' is multi-dimensional: fidelity to meaning, to sound, to emotional effect, and to cultural context can all pull in different directions simultaneously."

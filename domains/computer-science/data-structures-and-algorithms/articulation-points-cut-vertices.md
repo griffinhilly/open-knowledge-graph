@@ -50,7 +50,7 @@ Implement DFS-based articulation point detection. Verify on graphs with known cu
   answer: 1
   explanation: "low[u] is the smallest discovery time reachable from u's subtree through any combination of tree edges and back edges. If low[u] >= disc[v], the subtree rooted at u cannot reach any ancestor of v without going through v itself. Remove v, and u's entire subtree becomes disconnected — v is an articulation point. If low[u] < disc[v], the subtree has a back edge that bypasses v, so the component stays connected without v."
 
-- question: "A leaf vertex (degree 1) in a connected graph is always an articulation point."
+- question: "A leaf vertex (degree 1) in a connected graph is typically an articulation point."
   type: true-false
   answer: false
   explanation: "A leaf is never an articulation point. Removing a leaf leaves the rest of the graph intact — its single neighbor simply loses one connection but remains connected to everything else. Articulation points must be internal vertices whose removal separates the graph into at least two components. The common misconception is conflating 'critical to some connections' with 'critical to graph connectivity.'"

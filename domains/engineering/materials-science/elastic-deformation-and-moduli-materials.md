@@ -48,7 +48,7 @@ Elastic deformation is reversible—the material returns to its original shape w
   answer: 1
   explanation: "Young's modulus E is the ratio of stress to strain in the elastic regime (σ = Eε). A higher E means more stress is required to produce a given strain — the material is stiffer. Steel's Young's modulus (~200 GPa) is roughly 100,000 times larger than rubber's (~0.001–0.1 GPa), which is why the same stress produces vastly different strains. Tensile strength describes when the material fails, not how much it deforms elastically. Poisson's ratio describes lateral contraction, not axial stiffness."
 
-- question: "For an isotropic material, Young's modulus and shear modulus are independent material properties that must each be measured separately."
+- question: "For an isotropic material, Young's modulus and shear modulus are independent material properties that is expected to each be measured separately."
   type: true-false
   answer: false
   explanation: "For isotropic materials (properties the same in all directions), the three elastic constants E, G, and ν are not independent. They are related by G = E / [2(1 + ν)]. This means knowing any two completely determines the third. In practice, E and ν are typically measured, and G is calculated from them. Only two independent elastic constants are needed to fully describe the isotropic elastic behavior under any combination of loads — a significant simplification that would not hold for anisotropic materials like fiber composites."

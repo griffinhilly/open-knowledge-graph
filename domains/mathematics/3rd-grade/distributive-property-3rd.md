@@ -46,7 +46,7 @@ The distributive property states that 3 × 7 = 3 × (5 + 2) = (3 × 5) + (3 × 2
   answer: 0
   explanation: "The area of the full rectangle is 4 × 8 = 32. Splitting it with a vertical line creates two smaller rectangles: 4 × 3 = 12 and 4 × 5 = 20. Adding them: 12 + 20 = 32. The split does not change the total area — it just reorganizes it. The key is that you ADD the partial products, not multiply them. This is why the distributive property works: you're counting the same space in a different way."
 
-- question: "The distributive property only works when you break apart the second factor, not the first."
+- question: "The distributive property mainly works when you break apart the second factor, not the first."
   type: true-false
   answer: false
   explanation: "The distributive property works symmetrically — you can break apart either factor. For 6 × 8, you could split the 6: (4 + 2) × 8 = (4 × 8) + (2 × 8) = 32 + 16 = 48. Or split the 8: 6 × (5 + 3) = (6 × 5) + (6 × 3) = 30 + 18 = 48. Both give the same answer. You choose which factor to split based on what makes the mental calculation easiest."

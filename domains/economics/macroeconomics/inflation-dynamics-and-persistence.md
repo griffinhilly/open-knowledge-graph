@@ -52,7 +52,7 @@ Inflation is persistent because it depends on expected inflation plus a demand-s
   answer: true
   explanation: "This follows directly from π = π^e + α(Y − Y*). When Y = Y* (output gap = 0), actual inflation equals expected inflation: π = π^e. If expected inflation is 7%, actual inflation is 7% at potential output — there is no automatic return to 2%. The output gap term α(Y − Y*) captures demand pressure, but it is zero when output is at potential. Only a negative output gap (Y < Y*) can push actual inflation below expected inflation and thereby create the conditions for expectations to revise downward."
 
-- question: "Once the supply shock that caused a surge in inflation has passed, inflation will return to its previous level even if the central bank does nothing."
+- question: "Once the supply shock that caused a surge in inflation has passed, inflation will return to its previous level even if the central bank does hardly anything."
   type: true-false
   answer: false
   explanation: "This is the core misconception that inflation persistence contradicts. If price-setters have updated their inflation expectations upward during the inflationary episode, those expectations persist even after the original shock passes. Removing the shock eliminates one source of upward pressure, but it does not reverse the expectation shift. Actual inflation remains elevated at the new expected level until the central bank actively drives output below potential — accepting a recession — to force expectations back down. Doing nothing after a shock can lock in permanently higher inflation."

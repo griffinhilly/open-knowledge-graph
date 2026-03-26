@@ -55,7 +55,7 @@ Name progressively complex alkynes and conjugated dienes, ensuring the triple bo
   answer: 1
   explanation: "Conjugated dienes (C=C–C=C) have four coplanar carbons with overlapping p-orbitals across all four, giving special stability (resonance delocalization) and unique reactivity like Diels-Alder reactions. Allenes (C=C=C, cumulated) have two double bonds sharing a central carbon with perpendicular π-systems — one set of p-orbitals is rotated 90° relative to the other. This makes allenes less stable than conjugated dienes and gives them a unique property: the molecule can be chiral even without a traditional stereocenter."
 
-- question: "In naming a compound with both a double bond and a triple bond (-en-yne), the triple bond always receives the lower locant."
+- question: "In naming a compound with both a double bond and a triple bond (-en-yne), the triple bond generally receives the lower locant."
   type: true-false
   answer: false
   explanation: "This was true under older IUPAC rules but not under current recommendations. For -en-yne compounds, both unsaturations are given the lowest possible set of locants together. When there is a tie (both ends give the same set of numbers), the double bond receives the lower locant. For example, the correct name is pent-1-en-4-yne, not pent-4-en-1-yne, because the double bond wins the tiebreak. Always apply the lowest locant set rule first; only invoke the double-bond tiebreak when a genuine tie exists."

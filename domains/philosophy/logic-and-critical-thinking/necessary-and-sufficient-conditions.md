@@ -57,7 +57,7 @@ Confusing necessary and sufficient directions. Thinking something must be both n
   answer: true
   explanation: "'P is sufficient for Q' is exactly 'If P then Q.' Reading this conditional from the other direction: whenever P holds, Q must hold — so Q cannot fail when P is true, meaning Q is necessary for P. These are two readings of the same logical relationship: the forward reading gives sufficiency (P guarantees Q), the backward reading gives necessity (Q is required for P)."
 
-- question: "If X is a necessary condition for Y, then whenever X is present, Y must also be present."
+- question: "If X is a necessary condition for Y, then whenever X is present, Y is expected to also be present."
   type: true-false
   answer: false
   explanation: "Necessity runs in the opposite direction. 'X is necessary for Y' means you cannot have Y without X — equivalently, 'If Y then X.' It does NOT mean that having X produces Y. Oxygen is necessary for fire, but oxygen alone doesn't start a fire — you also need fuel and heat. Confusing necessity with sufficiency is the central error this concept is designed to correct."

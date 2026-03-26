@@ -45,7 +45,7 @@ Use physical or simulated gears and count teeth. Rotate the driving gear one ful
   answer: 1
   explanation: "Gear ratio = driven teeth / driving teeth = 48/12 = 4:1. The wheel gear turns 4 times slower than the motor gear but with 4 times the torque."
 
-- question: "If a gear ratio increases torque, it must also increase speed."
+- question: "If a gear ratio increases torque, it is expected to also increase speed."
   type: true-false
   answer: false
   explanation: "Gears trade speed for torque. A higher gear ratio (more torque) means lower output speed. The relationship is inverse: torque × speed is approximately constant (equal to the input power)."

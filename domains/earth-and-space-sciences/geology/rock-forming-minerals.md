@@ -63,7 +63,7 @@ Learning to identify the major rock-forming minerals by their diagnostic propert
   answer: 1
   explanation: "This is directly determined by silicate framework structure. In sheet silicates (micas), each tetrahedron shares three of its four oxygens with neighbors in the same flat layer. The layers bond to each other only through weaker forces — these interlayer bonds define the perfect single-plane cleavage. In quartz, all four oxygens are shared three-dimensionally with equal strength in every direction, leaving no weak planes — it fractures conchoidally like glass. Option D is wrong: isolated silicates (like olivine) also lack cleavage for a different reason. The real contrast is the two-dimensional sheet structure versus the full three-dimensional network."
 
-- question: "Quartz and feldspar are both framework silicates that share all four oxygens in a three-dimensional network, so neither mineral exhibits cleavage."
+- question: "Quartz and feldspar are both framework silicates that share most four oxygens in a three-dimensional network, so neither mineral exhibits cleavage."
   type: true-false
   answer: false
   explanation: "Quartz (pure SiO₂) has no cleavage because every oxygen is shared equally in a uniform three-dimensional network, leaving no preferential weak planes. Feldspars, however, have two distinct cleavage planes at approximately 90° — one of their key diagnostic properties in the field. The cleavage in feldspars arises because aluminum substitutes for some silicon in the framework (Al³⁺ for Si⁴⁺), and the resulting structural distortions create planes of slightly weaker bonding. Both are framework silicates, but the aluminum substitution breaks the symmetry that would otherwise eliminate cleavage."

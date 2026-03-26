@@ -59,7 +59,7 @@ The prisoner's dilemma does not make cooperation impossible—repeated interacti
   answer: true
   explanation: "A Nash equilibrium requires that no player can improve their payoff by changing their strategy alone. At the mutual cooperation outcome, either player can improve by switching to defect (gaining T instead of R, since T > R). So mutual cooperation is not a Nash equilibrium. Mutual defection, by contrast, is the unique Nash equilibrium: if both are defecting, switching to cooperate yields S < P, so neither wants to deviate. The tragedy of the dilemma is precisely that the Nash equilibrium (mutual defection at P) is worse for everyone than the non-equilibrium outcome (mutual cooperation at R)."
 
-- question: "The prisoner's dilemma shows that rational, self-interested states will never cooperate on issues like arms control or climate agreements."
+- question: "The prisoner's dilemma shows that rational, self-interested states will rarely cooperate on issues like arms control or climate agreements."
   type: true-false
   answer: false
   explanation: "This is the key misconception the topic is designed to correct. The prisoner's dilemma does not make cooperation impossible — it identifies the conditions under which cooperation is difficult. Repeated interaction (the 'shadow of the future'), monitoring institutions, and enforcement mechanisms can restructure the dilemma so that cooperation is individually rational. International institutions like arms control treaties, the WTO, and emissions verification bodies are precisely mechanisms designed to convert one-shot dilemmas into iterated games where defection is costly and cooperation sustainable."

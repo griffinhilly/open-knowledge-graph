@@ -55,7 +55,7 @@ Start with the midpoint formula for calculating elasticity on specific demand cu
   answer: 1
   explanation: "Elasticity varies along a linear demand curve because elasticity is a percentage concept while slope is an absolute concept. At the high-price, low-quantity end, a price drop represents a large percentage change — so elasticity is high. At the low-price, high-quantity end, the same absolute price change is a small percentage — making demand inelastic there. The slope is constant; elasticity is not."
 
-- question: "A steeper demand curve is always less elastic than a flatter demand curve."
+- question: "A steeper demand curve is generally less elastic than a flatter demand curve."
   type: true-false
   answer: false
   explanation: "This is the most common misconception in elasticity. Slope and elasticity are related but distinct. While a steeper curve tends toward inelasticity and a flatter curve tends toward elasticity when compared at the same point, elasticity also varies along any given curve. A point on a steep curve at high prices could be more elastic than a point on a flat curve at low prices. You cannot compare elasticities without specifying where on each curve you are measuring."

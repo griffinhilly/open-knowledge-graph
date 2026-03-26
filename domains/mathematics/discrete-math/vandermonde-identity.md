@@ -51,7 +51,7 @@ Derive it combinatorially by thinking of choosing r items from two combined grou
   answer: 0
   explanation: "Setting m = n = r = 8 in Vandermonde's identity gives Σ C(8,k)·C(8,8−k) = C(16,8). Since C(8,8−k) = C(8,k) by symmetry of binomial coefficients, this becomes Σ C(8,k)² = C(16,8). This is the special case C(2n,n) = Σₖ C(n,k)² — a striking result most easily seen through the two-group counting argument."
 
-- question: "When computing Σₖ C(m,k)·C(n,r−k), you must carefully identify which values of k give nonzero terms before summing, since out-of-range terms could corrupt the result."
+- question: "When computing Σₖ C(m,k)·C(n,r−k), you should carefully identify which values of k give nonzero terms before summing, since out-of-range terms could corrupt the result."
   type: true-false
   answer: false
   explanation: "C(m,k) = 0 whenever k < 0 or k > m, and C(n,r−k) = 0 whenever r−k < 0 or r−k > n. Out-of-range terms automatically contribute 0 to the sum. You can let k run from 0 to r (or even over all integers) without tracking bounds — the out-of-range cases vanish on their own. This is one of the practical conveniences of working with binomial coefficients."

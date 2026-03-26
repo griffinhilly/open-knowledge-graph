@@ -52,7 +52,7 @@ Stratigraphic layers in archaeological sites form a chronological sequence: lowe
   answer: true
   explanation: "Correct on both counts. Compositional analysis (XRF, SEM), typological comparison, and use-wear analysis can all be applied to decontextualized objects. What cannot be recovered is chronological and associative information: its layer, its neighbors, its feature association. A Bronze Age pot analyzed in isolation tells you about Bronze Age pottery-making; the same pot in situ tells you about a specific community at a specific time engaged in specific activities. The loss is real, permanent, and irreversible."
 
-- question: "Because layers accumulate from bottom to top, any artifact found in a lower layer at a site is always older than any artifact found in an upper layer."
+- question: "Because layers accumulate from bottom to top, any artifact found in a lower layer at a site is typically older than any artifact found in an upper layer."
   type: true-false
   answer: false
   explanation: "The law of superposition applies to undisturbed deposits, but real archaeological sites are full of disturbances. Intrusive features — pits, wells, post-holes, burials — cut through earlier layers and deposit later material at lower physical depths. A Bronze Age burial cut into a Neolithic deposit places Bronze Age skeletal remains physically below the level of the Neolithic material. Bioturbation can also move artifacts vertically. Physical depth is not the same as date; interpreting stratigraphy requires identifying cuts, recognizing intrusions, and distinguishing primary from secondary deposits."

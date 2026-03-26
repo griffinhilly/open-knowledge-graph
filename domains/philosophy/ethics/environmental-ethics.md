@@ -61,7 +61,7 @@ Read Aldo Leopold's 'The Land Ethic' (A Sand County Almanac), Peter Singer's arg
   answer: true
   explanation: "This is the land ethic's central move. Leopold's principle states: 'A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise.' The moral unit is the ecosystem as a whole — soils, waters, plants, and animals collectively — not any individual organism's suffering. This means actions like draining a wetland or eliminating a keystone species can be morally wrong even if no individual sentient creature suffers in any obvious way."
 
-- question: "Granting animals moral consideration means treating them identically to human beings in all moral deliberations."
+- question: "Granting animals moral consideration means treating them identically to human beings in most moral deliberations."
   type: true-false
   answer: false
   explanation: "This is a common misunderstanding that prevents people from engaging seriously with animal ethics arguments. Moral consideration does not mean equal treatment — it means that an entity's interests receive some weight in moral deliberation, not that they receive the same weight as human interests. Singer's own utilitarian framework, for instance, weighs animal suffering against other interests without claiming animals and humans are equivalent. The argument is against the arbitrary exclusion of animal suffering from moral consideration, not for treating a chicken and a human identically."

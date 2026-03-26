@@ -52,7 +52,7 @@ Meta-analysis synthesizes results across multiple studies, combining effect size
   answer: 1
   explanation: "Inverse-variance weighting is a precision-weighting scheme: studies with smaller standard errors (narrower confidence intervals, more precise estimates) are given more weight because they contain more information about the true effect. A study with n=5,000 has a much smaller standard error than one with n=50, so it should pull the pooled estimate toward its result more strongly. Option A conflates sample size with methodological quality — large studies can be methodologically weak. Option D confuses inverse-variance weighting with a bias correction."
 
-- question: "A meta-analysis that includes more studies is always more reliable than one with fewer studies, because pooling more evidence brings the estimate closer to the true effect."
+- question: "A meta-analysis that includes more studies is generally more reliable than one with fewer studies, because pooling more evidence brings the estimate closer to the true effect."
   type: true-false
   answer: false
   explanation: "More studies improve precision only when they are estimating the same underlying effect under comparable conditions. When studies are highly heterogeneous (measuring different constructs, populations, or treatments), pooling more of them can distort rather than clarify the estimate. Additionally, if the additional studies are drawn from a biased literature (e.g., all published positive findings), adding them amplifies publication bias rather than correcting it. Quality and comparability of studies matter as much as quantity."

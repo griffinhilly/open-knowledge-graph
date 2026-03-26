@@ -57,7 +57,7 @@ Estimate beta for a stock using regression. Then calculate cost of equity using 
   answer: false
   explanation: "Total volatility includes both systematic and unsystematic components. CAPM prices only the systematic component (captured by beta), because unsystematic risk can be eliminated through diversification at no cost. A stock with high total volatility but low correlation with the market has mostly unsystematic risk — the kind a diversified investor has already neutralized in their portfolio. CAPM says the market will not compensate for risk you can eliminate yourself for free. High total volatility with low beta → low CAPM cost of equity."
 
-- question: "Beta measures a stock's total return variability, which is why highly volatile stocks always have high betas and high costs of equity."
+- question: "Beta measures a stock's total return variability, which is why highly volatile stocks usually have high betas and high costs of equity."
   type: true-false
   answer: false
   explanation: "Beta measures a stock's sensitivity to market movements — specifically, the covariance of the stock's returns with market returns, divided by the variance of market returns. It captures systematic (co-movement) risk, not total variability. A stock can have very high total variance (high absolute volatility) but low beta if its volatility is driven by firm-specific events uncorrelated with the market. For example, a small biotech whose returns swing wildly based on clinical trial outcomes may have a low beta if those outcomes are independent of overall market conditions."

@@ -51,7 +51,7 @@ Interior walls and ceilings define your home's living spaces and can be made of 
   answer: true
   explanation: "The explainer distinguishes cosmetic cracking (diagonal corner cracks, random spider-web patterns) from structural cracking (patterned, stair-step following mortar joints, horizontal basement wall cracks). Stair-step cracks in masonry can indicate foundation settlement or lateral soil pressure — fundamentally different from the seasonal thermal movement that causes hairline corner cracks in drywall. The former warrants professional evaluation; the latter typically warrants a patch and monitoring."
 
-- question: "The best approach for an invisible wall repair is to apply joint compound only directly over the patched area and then touch up the paint just on that spot."
+- question: "The best approach for an invisible wall repair is to apply joint compound primarily directly over the patched area and then touch up the paint just on that spot."
   type: true-false
   answer: false
   explanation: "The explainer states the opposite: smooth walls show every imperfection, and even a perfectly patched area can be visible if texture or paint sheen doesn't match. The recommended technique is to feather joint compound broadly — 12 to 18 inches — and repaint the full wall rather than spot-patching. Sheen differences and texture variation at the patch edges are often more visible than the patch itself. Wide feathering and full-wall painting produce the most invisible results."

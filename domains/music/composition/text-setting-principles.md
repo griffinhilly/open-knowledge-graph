@@ -64,7 +64,7 @@ Speak a poem aloud, marking syllable stress and phrase breaks, then compose two 
   answer: true
   explanation: "Phrase structure alignment is one of the core techniques of text setting. When a musical cadence falls at a comma, a half cadence accompanies a question, and an authentic cadence closes a sentence, the listener experiences music and language as a unified expressive system. The two rhythmic systems — musical meter and linguistic syntax — breathe together. Skilled composers also use deliberate misalignment (running a musical phrase through a line break, or delaying a cadence past a punctuation mark) for expressive effect — but this only works because aligned phrasing is the listener's expectation."
 
-- question: "The most effective approach to word painting is to apply it to every significant word in a poem — the more consistently the music illustrates the text's meaning, the stronger the expressive impact."
+- question: "The most effective approach to word painting is to apply it to nearly every significant word in a poem — the more consistently the music illustrates the text's meaning, the stronger the expressive impact."
   type: true-false
   answer: false
   explanation: "Word painting should be selective. Each pictorial gesture — a rising melody on 'ascend,' a repeated figure on 'waves' — interrupts melodic flow to make a local point about the text. Applied sparingly, these gestures feel like expressive italics. Applied to every word, the melody lurches from image to image, producing a fractured, incoherent line that loses the forward momentum and phrase shape that make music compelling. Renaissance madrigalists who were celebrated for word painting were equally celebrated for knowing when *not* to paint."

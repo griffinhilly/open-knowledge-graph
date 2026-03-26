@@ -50,7 +50,7 @@ Neuropsychological batteries (RBANS, CVLT, Wisconsin Card Sort Test) comprehensi
   answer: true
   explanation: "This is the practice effects problem. Familiarity with test format, timing, and materials can improve scores independently of any change in cognitive ability. If retesting occurs soon after initial evaluation, apparent 'improvement' may simply reflect learning the test rather than recovery. Neuropsychological batteries designed for serial use — like the RBANS, which has alternate forms — attempt to control for this, but the problem can never be fully eliminated. Clinicians must account for expected practice effects when interpreting changes in scores across time."
 
-- question: "A high composite score on a neuropsychological battery rules out focal cognitive impairment, since the composite aggregates performance across all domains."
+- question: "A high composite score on a neuropsychological battery rules out focal cognitive impairment, since the composite aggregates performance across most domains."
   type: true-false
   answer: false
   explanation: "This is the core misconception that profile analysis is designed to address. Composite scores average across domains, which means a severe deficit in one area can be masked by preserved or superior performance in others. A patient with frontal lobe damage might score well on memory tests (preserving the average) while failing dramatically on WCST (set-shifting). The clinical signature — the diagnostic fingerprint — lies in the pattern, not the composite. A skilled neuropsychologist interrogates the profile of strengths and weaknesses; a naive reader of composites would miss the dysfunction entirely."

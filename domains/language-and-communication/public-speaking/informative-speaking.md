@@ -59,7 +59,7 @@ Choose topics you genuinely understand deeply, then practice explaining them to 
   answer: 2
   explanation: "Cognitive load and working memory limitations mean listeners can only retain a small number of new concepts from a single speech. Shallow coverage of 12 points leaves nothing memorable; deep treatment of 2–3 points with examples and repetition transfers knowledge that sticks. This is the 'depth over breadth' principle in informative speaking."
 
-- question: "An informative speech should present only objective facts and contain no interpretation or perspective, since adding opinion would make it persuasive rather than informative."
+- question: "An informative speech should present primarily objective facts and contain no interpretation or perspective, since adding opinion would make it persuasive rather than informative."
   type: true-false
   answer: false
   explanation: "Interpretation and framing are necessary for comprehension — raw facts without context do not help audiences understand. The distinction between informative and persuasive is about primary intent (to explain vs. to change minds), not about the absence of judgment. Skilled informative speakers use perspective to help audiences make sense of information, not to advocate for a position."

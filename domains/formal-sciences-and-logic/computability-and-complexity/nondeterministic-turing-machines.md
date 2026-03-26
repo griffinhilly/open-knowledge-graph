@@ -60,7 +60,7 @@ Visualize NTM computation as a tree of computation paths, with acceptance define
   answer: false
   explanation: "This is the most important misconception about NTMs. A *probabilistic* Turing machine makes random choices, and its acceptance is defined by the probability of accepting branches. An NTM accepts if *any* branch accepts — there is no randomness or probability. Nondeterminism is a theoretical abstraction for 'existential choice': the machine is defined to succeed if there *exists* a sequence of choices leading to acceptance, regardless of how likely or unlikely any single branch is. NTMs and probabilistic TMs define different complexity classes (NP vs. BPP) and answer different questions."
 
-- question: "An NTM that runs in polynomial time can always be simulated by a DTM in polynomial time."
+- question: "An NTM that runs in polynomial time can generally be simulated by a DTM in polynomial time."
   type: true-false
   answer: false
   explanation: "This is exactly what the P vs. NP question asks — and the answer is unknown. What we do know is that a DTM can simulate an NTM running in time t(n) in time 2^{O(t(n))} by performing BFS over the computation tree. This simulation is exponentially expensive. If the NTM runs in polynomial time (NP), the DTM simulation costs exponential time. Whether there is always a polynomial-time DTM equivalent is the central open problem in computer science."

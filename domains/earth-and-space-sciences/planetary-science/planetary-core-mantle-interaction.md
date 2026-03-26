@@ -52,7 +52,7 @@ Model core cooling rates and the resulting density gradients driving convection.
   answer: 1
   explanation: "The mantle is a heat sink for the core, not a heat source. Efficient mantle convection pulls heat out of the core faster, cooling it. This cooling drives two forms of buoyancy in the outer core: thermal (hot material rises) and compositional (as the inner core crystallizes, light elements expelled into the liquid outer core become buoyant). Both sustain convection and the dynamo. Cold slabs reaching the CMB chill the core locally — accelerating cooling rather than warming it."
 
-- question: "The core-mantle boundary is chemically inert — thermal exchange is the only significant process occurring there."
+- question: "The core-mantle boundary is chemically inert — thermal exchange is the primary significant process occurring there."
   type: true-false
   answer: false
   explanation: "The CMB is an active zone of both thermal and chemical exchange. Light elements such as oxygen, silicon, and sulfur dissolve into and out of the liquid iron core depending on local pressure, temperature, and composition. Iron oxide in the mantle can react with core metal. These reactions create chemically distinct regions detectable by seismology as 'ultra-low velocity zones.' Treating the CMB as thermally active but chemically inert is a common misconception."

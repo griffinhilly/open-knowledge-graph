@@ -52,7 +52,7 @@ Depositional environments (fluvial, deltaic, lacustrine, shallow marine, deep ma
   answer: true
   explanation: "This is the foundational principle of facies analysis. Because sedimentary environments form continuous belts (deep sea → shelf → shoreline → river → desert), when those belts migrate laterally, they deposit successive facies at any given location. The vertical stack records what was once a horizontal geography. The critical word 'conformable' means without erosional gaps — only conformable sequences record the complete lateral adjacency; unconformities (erosion surfaces) can stack unrelated environments without lateral continuity."
 
-- question: "A coarsening-upward sedimentary sequence always indicates sea-level rise (transgression), because coarser sediments are deposited in shallow, high-energy environments closer to shore."
+- question: "A coarsening-upward sedimentary sequence usually indicates sea-level rise (transgression), because coarser sediments are deposited in shallow, high-energy environments closer to shore."
   type: true-false
   answer: false
   explanation: "Coarsening-upward sequences typically indicate regression or progradation, not transgression. As a delta builds seaward (progrades), deeper offshore muds are progressively overlain by shallower sandy distributary channels — coarsening upward — as the coastline migrates over that location. Transgression (sea rise) produces the opposite: fining-upward sequences as deeper, lower-energy environments replace shallower ones. The logic 'coarse = shallow' is correct, but the direction of environmental change is the opposite of what this misconception implies."

@@ -53,7 +53,7 @@ Oxygen diffusion from capillaries to mitochondria is not infinitely fast; at max
   answer: 1
   explanation: "VO₂max = cardiac output × (CaO₂ − CvO₂). Endurance training increases stroke volume (the primary cardiac adaptation), increasing maximal cardiac output. It also increases mitochondrial density in skeletal muscle, enabling greater oxygen extraction per unit of blood. These two adaptations expand both the delivery term and the extraction term of the Fick equation. Resting heart rate actually decreases with training (not increases), reflecting increased stroke volume at rest. Hemoglobin levels were specified as similar, so arterial O₂ content differences don't explain the gap."
 
-- question: "During maximal exercise, tissues extract essentially all of the delivered oxygen, and the venous blood returning to the heart is nearly oxygen-free."
+- question: "During maximal exercise, tissues extract essentially most of the delivered oxygen, and the venous blood returning to the heart is nearly oxygen-free."
   type: true-false
   answer: false
   explanation: "Even at maximal exercise, tissues extract approximately 75-80% of delivered oxygen — not 100%. Venous PO₂ drops to about 15-20 mmHg, and venous blood still carries roughly 4-5 mL O₂ per 100 mL blood. This is physiologically necessary: oxygen diffuses down a partial pressure gradient from blood to mitochondria, and that gradient must be maintained. If venous PO₂ reached zero, the gradient driving diffusion into cells would collapse and oxygen delivery to mitochondria would cease. The extraction reserve exists in part because complete extraction is physically impossible."

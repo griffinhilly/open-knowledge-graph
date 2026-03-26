@@ -64,7 +64,7 @@ Fact-family triangles with the product at the top and two factors at the bottom 
   answer: true
   explanation: "The three numbers 7, 8, and 56 form a complete fact family: 7 × 8 = 56, 8 × 7 = 56, 56 ÷ 7 = 8, and 56 ÷ 8 = 7. A single multiplication fact unlocks both division facts because all four equations describe the same relationship among the same three numbers."
 
-- question: "Multiplication and division are separate operations with no predictable relationship, so division facts must be learned independently."
+- question: "Multiplication and division are separate operations with no predictable relationship, so division facts should be learned independently."
   type: true-false
   answer: false
   explanation: "Multiplication and division are inverse operations — each undoes the other — and they share fact families. Every division fact is a rearrangement of a multiplication fact. This is why learning your multiplication facts makes division dramatically easier: you already have the answer, just accessed from a different direction. Treating them as unrelated doubles the memorization load unnecessarily."

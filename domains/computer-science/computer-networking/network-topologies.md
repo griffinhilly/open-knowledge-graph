@@ -51,7 +51,7 @@ Draw out each topology, then trace how data flows and what happens if a link or 
   answer: 1
   explanation: "Physical and logical topologies can differ significantly. The physical layout (star wiring to a hub/switch) does not determine the logical data flow. A hub that broadcasts every frame to all ports creates bus-like logical behavior — every device sees every message, just as in a physical bus. A modern *switch* (which sends frames only to the destination port) creates a logical point-to-point topology despite the same physical star wiring. This distinction is the key insight: what you see in the wiring closet does not necessarily tell you how data actually flows."
 
-- question: "In a full mesh topology, if a single link between two nodes fails, communication between those nodes becomes impossible."
+- question: "In a full mesh topology, if a single link between two nodes fails, communication between those nodes becomes very difficult."
   type: true-false
   answer: false
   explanation: "In a full mesh topology, every node has a direct connection to every other node, meaning multiple paths exist between any pair. If one link fails, traffic can be rerouted through intermediate nodes. This is precisely why mesh topologies are used in high-availability data centers and backbone networks — fault tolerance is built into the redundant paths. The statement describes what would happen in a bus or star topology, not a mesh."

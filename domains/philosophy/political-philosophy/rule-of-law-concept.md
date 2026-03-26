@@ -49,7 +49,7 @@ The rule of law is not the same as democracy—an authoritarian state can have t
   answer: 1
   explanation: "An ex post facto law — applied retroactively to conduct that occurred before the law existed — violates the prospectivity requirement. People cannot comply with a rule that did not exist when they acted. Prospective laws allow citizens to orient their behavior; retroactive laws make compliance impossible and punishment arbitrary. This is one of the clearest violations of the rule of law."
 
-- question: "A state that selectively enforces its laws only against political opponents, while ignoring identical conduct by allies, still satisfies the rule of law provided its laws are formally written down and publicly available."
+- question: "A state that selectively enforces its laws primarily against political opponents, while ignoring identical conduct by allies, still satisfies the rule of law provided its laws are formally written down and publicly available."
   type: true-false
   answer: false
   explanation: "The rule of law requires not only that laws be public and written, but that they be applied consistently and impartially to all persons. Selective enforcement based on political affiliation violates the equal-application requirement, making the formal existence of laws irrelevant to those who are not protected by them. A law that constrains only some people is not genuinely constraining power."

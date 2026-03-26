@@ -44,7 +44,7 @@ Parity (even/odd) is invariant under certain operations, meaning it doesn't chan
   answer: 1
   explanation: "Every domino covers exactly one black and one white square — this is an invariant. After any number of placements, the number of covered black squares equals the number of covered white squares. But removing two same-colored corners (say, both white) leaves 32 black and 30 white squares. To tile all remaining squares you'd need to cover 32 black and 30 white — an unequal number. But dominoes always cover equal numbers. The parity argument rules out tiling immediately, without trying any arrangements."
 
-- question: "A parity argument proves impossibility by finding a single path to the goal state that fails, then concluding all paths fail."
+- question: "A parity argument proves impossibility by finding a single path to the goal state that fails, then concluding most paths fail."
   type: true-false
   answer: false
   explanation: "This is the key misconception to avoid. A parity argument does not examine paths at all — it identifies a quantity whose parity is preserved by every allowed operation (an invariant), then shows that the starting state and the target state have different parities. Since no sequence of operations can change the invariant, the target is unreachable by *any* path, however clever. This is far more powerful than enumerating paths, which would be impossible for large configuration spaces."

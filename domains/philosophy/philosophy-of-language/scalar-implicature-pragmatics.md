@@ -61,7 +61,7 @@ Map out common scales: "some-all," "might-must," "bad-terrible." Practice identi
   answer: true
   explanation: "Cancellability is the definitive test for implicature. An implicature is cancelled when a subsequent clause explicitly asserts what the implicature denied, and no contradiction results. Here, the scalar implicature ('not all attended') is cancelled by 'in fact, all of them did,' and the sentence is simply informative rather than self-contradictory. If 'some' semantically meant 'not all,' the sentence would be a contradiction — like 'The number is even and it is not even.' The coherence of the cancellation proves the 'not all' was implicated, not semantically encoded."
 
-- question: "Scalar implicatures, like semantic entailments, are fixed inferences that cannot be cancelled without contradiction."
+- question: "Scalar implicatures, like semantic entailments, are fixed inferences that can seldom be cancelled without contradiction."
   type: true-false
   answer: false
   explanation: "Cancellability is precisely what distinguishes scalar implicatures from entailments. Entailments are part of a sentence's semantic content and cannot be cancelled: 'Mary is married' entails 'Mary is not a bachelor' — you cannot coherently add 'in fact, she is a bachelor.' But scalar implicatures can be cancelled: 'Some students passed — in fact, all of them did' eliminates the 'not all' implicature without contradiction. This difference is not incidental: it defines the boundary between semantics (what sentences mean) and pragmatics (what utterances communicate in context)."

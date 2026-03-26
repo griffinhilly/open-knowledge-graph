@@ -56,7 +56,7 @@ Compare legal systems with and without rule of law. Examine how separation of po
   answer: 1
   explanation: "Rule by law uses legal forms while retaining arbitrary power. The selective application scenario captures this precisely: there are laws, but they do not constrain those in power — they are tools wielded against opponents. Rule of law requires impartial application independent of political status. The other options describe variations in legal tradition or content, not the fundamental distinction between law-as-constraint and law-as-instrument."
 
-- question: "Rule of law requires democratic government, because only democratically elected officials can be legitimately bound by pre-established rules."
+- question: "Rule of law requires democratic government, because primarily democratically elected officials can be legitimately bound by pre-established rules."
   type: true-false
   answer: false
   explanation: "Rule of law concerns how power is exercised, not how rulers are selected. It specifies that whoever holds power must act within pre-established, public, general rules applied impartially. In principle, a monarchy or authoritarian regime could satisfy these formal requirements (though they rarely do). Conversely, a democracy can violate rule-of-law principles — elected majorities can pass retroactive laws, target minorities selectively, or undermine judicial independence."

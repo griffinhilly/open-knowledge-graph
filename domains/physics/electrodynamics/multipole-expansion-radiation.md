@@ -52,7 +52,7 @@ For radiation at distances large compared to source size, multipole expansion sy
   answer: true
   explanation: "This is the physical foundation of the multipole approach. When the source size a is small compared to the wavelength λ = 2π/k, the parameter ka = 2πa/λ << 1. Each successive multipole term carries an extra factor of (ka)², making the series converge rapidly. The electric dipole term then provides an excellent approximation by itself, without needing to track the detailed internal structure of the source."
 
-- question: "A system of two equal and opposite charges oscillating symmetrically about the origin has no net electric dipole moment, so it cannot radiate electromagnetic energy."
+- question: "A system of two equal and opposite charges oscillating symmetrically about the origin has no net electric dipole moment, so it can seldom radiate electromagnetic energy."
   type: true-false
   answer: false
   explanation: "A vanishing dipole moment eliminates *dipole* radiation, but not all radiation. Such a system would still radiate through electric quadrupole (and possibly magnetic dipole) contributions, though suppressed by a factor (ka)² relative to dipole. Only a system with zero for *all* multipole moments would be completely non-radiating — which does not occur for oscillating charge distributions. The statement reflects the misconception that dipole radiation exhausts all radiation mechanisms."

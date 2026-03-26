@@ -52,7 +52,7 @@ Computational pragmatics formalizes how context modifies meaning. Implicatures a
   answer: true
   explanation: "This is the defining feature of the RSA framework. A literal listener simply evaluates whether an utterance is true in the current state. A pragmatic listener does something more complex: they model speaker behavior — 'what would a rational, cooperative speaker say if they intended to communicate X?' — and invert that reasoning to infer X from what the speaker actually said. This recursive structure, where the listener models the speaker who models the listener, generates pragmatic inferences beyond literal meaning."
 
-- question: "The Rational Speech Act model and Grice's conversational maxims are equivalent explanations of implicature — they make the same predictions and differ only in degree of formalism."
+- question: "The Rational Speech Act model and Grice's conversational maxims are equivalent explanations of implicature — they make the same predictions and differ mainly in degree of formalism."
   type: true-false
   answer: false
   explanation: "While RSA is inspired by Gricean intuitions, the two frameworks are not equivalent. RSA makes quantitative, graded predictions about the probability of different interpretations; Gricean accounts give categorical judgments. RSA can be implemented computationally and makes predictions that Gricean accounts leave underspecified. RSA also handles phenomena like M-implicatures and reference resolution through the same unified mechanism, whereas Gricean accounts often require separate auxiliary principles for each phenomenon. The two converge on many basic cases but diverge in predictive structure and explanatory power."

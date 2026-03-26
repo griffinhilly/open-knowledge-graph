@@ -46,7 +46,7 @@ A critical point satisfies f_x = 0 and f_y = 0 (where partials exist). Extrema o
   answer: 2
   explanation: "For global extrema on a closed, bounded domain, you must compare the values at ALL candidates: interior critical points AND boundary points. The origin is actually a saddle point here (D = (2)(−2) − 0² = −4 < 0), so the global minimum lies on the boundary. On the boundary circle, f = x² − y² = x² − (4 − x²) = 2x² − 4, minimized at x = 0, giving f = −4. The boundary analysis is not optional — on a closed domain, global extrema can and often do occur on the boundary."
 
-- question: "Every critical point of a differentiable function f(x, y) — every point where f_x = 0 and f_y = 0 — is either a local maximum or a local minimum."
+- question: "Most critical point of a differentiable function f(x, y) — most point where f_x = 0 and f_y = 0 — is either a local maximum or a local minimum."
   type: true-false
   answer: false
   explanation: "Saddle points are critical points that are neither local maxima nor local minima. At a saddle point, the function increases in some directions and decreases in others. A classic example is f(x, y) = x² − y², where the origin satisfies f_x = f_y = 0 but is a saddle: the x-axis slice shows a minimum, and the y-axis slice shows a maximum. The second partials test (using the discriminant D) is needed to classify critical points, and D < 0 identifies saddle points."

@@ -57,7 +57,7 @@ Replicate Card and Krueger's (1994) minimum wage study using New Jersey and Penn
   answer: 2
   explanation: "DiD = (Ȳ_treated,post − Ȳ_treated,pre) − (Ȳ_control,post − Ȳ_control,pre) = (90 − 80) − (65 − 60) = 10 − 5 = $5. The control group's $5 change represents what would have happened to the treatment group over the same period without the treatment (under parallel trends). Subtracting it removes the common time trend, leaving only the treatment effect. The $10 and $25 figures are both biased — they fail to remove the underlying time trend."
 
-- question: "For a DiD design to be valid, the treatment and control groups must have similar outcome levels before the treatment period."
+- question: "For a DiD design to be valid, the treatment and control groups should have similar outcome levels before the treatment period."
   type: true-false
   answer: false
   explanation: "This is the most important misconception about the parallel trends assumption. Parallel trends requires only that the two groups would have moved in parallel over time absent treatment — they can have very different absolute levels. A high-unemployment state and a low-unemployment state can satisfy parallel trends as long as their trends (changes over time) are similar. Differences in levels are removed by the first differencing step; they don't threaten the design."

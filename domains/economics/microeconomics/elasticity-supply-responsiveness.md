@@ -61,7 +61,7 @@ Compare elasticity across different industries and time horizons (short-run vs. 
   answer: true
   explanation: "Time horizon is the dominant determinant of supply elasticity. In the short run, firms are constrained by fixed capital — you cannot build a new factory in a week, and existing capacity is a hard limit on output. In the long run, firms can build new plants, hire more workers, and new firms can enter the industry, making total supply much more responsive to price changes. Housing is the canonical example: in the short run supply is very inelastic (construction takes time), but over years, supply expands substantially in response to sustained high prices."
 
-- question: "If a good has inelastic supply, a large increase in demand will raise its price only slightly, because producers cannot expand output easily."
+- question: "If a good has inelastic supply, a large increase in demand will raise its price mainly slightly, because producers can seldom expand output easily."
   type: true-false
   answer: false
   explanation: "This reverses the relationship. Inelastic supply means producers *cannot* quickly expand output — they have limited capacity, specialized inputs, or biological constraints. When demand surges and supply cannot respond proportionally, the price increase is *larger*, not smaller. A market with elastic supply can absorb a demand shock by expanding output, keeping prices relatively stable. It is elastic supply that limits price increases; inelastic supply amplifies them."

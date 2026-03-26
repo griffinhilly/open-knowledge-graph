@@ -46,7 +46,7 @@ Epoxides (three-membered oxygen-containing rings) are strained and highly reacti
   answer: 1
   explanation: "Protonation of the epoxide oxygen creates a highly activated electrophile with partial positive charge distributed across the ring. That positive charge is better stabilized where there are more alkyl groups (inductive donation), i.e., the more substituted carbon. The nucleophile is effectively chasing the charge, not choosing between steric environments. The weak nucleophiles compatible with acidic conditions (water, alcohols) cannot overcome steric barriers and instead attack the more electrophilic site."
 
-- question: "Under basic conditions, a nucleophile attacking an epoxide always goes to the more substituted carbon because that carbon bears more partial positive charge."
+- question: "Under basic conditions, a nucleophile attacking an epoxide typically goes to the more substituted carbon because that carbon bears more partial positive charge."
   type: true-false
   answer: false
   explanation: "This is backwards. Under basic/neutral conditions, the mechanism is SN2-like — there is no protonation and no significant positive charge buildup on either carbon. The nucleophile attacks from the backside and prefers the LESS substituted carbon to minimize steric clash during the backside approach. The 'partial positive charge → more substituted' reasoning applies only under acidic conditions, where protonation of the oxygen creates carbocation-like character. Confusing the two conditions is one of the most common errors in this topic."

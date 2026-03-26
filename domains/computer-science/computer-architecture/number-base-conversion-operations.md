@@ -45,7 +45,7 @@ Conversion between bases uses positional notation: any base-b number equals sum 
   answer: 2
   explanation: "Computers store everything in binary — hex is purely a display convention for humans. The reason hex is preferred is the lossless 4:1 compression: one hex character represents exactly four bits, so an 8-bit byte becomes two hex characters, a 32-bit address becomes 8 hex characters. This is compact without requiring any arithmetic: the translation is a direct symbol substitution. Decimal would require arithmetic (repeated division) to recover binary, and binary itself would be an unmanageably long string of 0s and 1s."
 
-- question: "To convert between binary and hexadecimal, you must first convert both values to decimal as an intermediate step."
+- question: "To convert between binary and hexadecimal, you is expected to first convert both values to decimal as an intermediate step."
   type: true-false
   answer: false
   explanation: "Binary and hex share a direct relationship because 16 = 2⁴. Every hex digit maps to exactly four binary digits, and vice versa, with no arithmetic required — you simply substitute symbols. For example, 0xA = 1010 and 0xF = 1111. Going through decimal would be slower and unnecessary. Decimal is base 10, which has no power-of-2 relationship with binary or hex, so decimal conversions genuinely do require arithmetic. But binary↔hex is a direct, table-based lookup."

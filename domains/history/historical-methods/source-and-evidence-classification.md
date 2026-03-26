@@ -54,7 +54,7 @@ Begin by categorizing a diverse set of historical sources—a letter, a coin, an
   answer: 2
   explanation: "The primary/secondary distinction depends on the question being asked, not the document's inherent nature. For Roman history, Gibbon is secondary (a later interpretation). For 18th-century British thought about empire and decline, it is primary — a document created at the time under study by someone embedded in that culture. Context determines which role a source plays."
 
-- question: "Written documents are always more reliable than oral testimony or material culture because they can be directly quoted and cross-referenced."
+- question: "Written documents are typically more reliable than oral testimony or material culture because they can be directly quoted and cross-referenced."
   type: true-false
   answer: false
   explanation: "Written documents carry their own systematic biases: they reflect literate, powerful, and officially recorded perspectives. For pre-literate societies or questions about daily life, oral testimony and material remains may be more plentiful and less distorted than official documents. Reliability depends on the question being asked and the biases of each source type — not on medium alone."

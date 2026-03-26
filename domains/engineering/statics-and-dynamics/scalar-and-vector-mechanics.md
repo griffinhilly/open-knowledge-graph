@@ -51,7 +51,7 @@ Confusing speed with velocity or distance with displacement. Treating magnitude 
   answer: 1
   explanation: "Work = F · d (dot product of force and displacement) produces a scalar — it has magnitude but no direction. Force requires both magnitude and direction — it is a vector. The other options are reversed: velocity is a vector (has direction), speed is a scalar (magnitude only); displacement is a vector, distance is a scalar; temperature and pressure are both scalars. The dot product is precisely the operation that 'collapses' two vectors into a scalar by extracting their aligned component."
 
-- question: "If two forces of equal magnitude act on an object in different directions, they always cancel out and the net force is zero."
+- question: "If two forces of equal magnitude act on an object in different directions, they typically cancel out and the net force is zero."
   type: true-false
   answer: false
   explanation: "Forces cancel only when they are equal in magnitude AND opposite in direction — a very specific relationship. Two equal forces in different directions (e.g., east and north) combine to produce a nonzero resultant. Even forces at 179° to each other produce a small nonzero net force pointing in the direction of their bisector. Cancellation is the special case of exactly 180° between the force vectors. This confusion often arises from treating forces as scalars and subtracting magnitudes, when the full vector addition is required."

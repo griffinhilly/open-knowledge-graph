@@ -58,7 +58,7 @@ Sing along with the bass voice while listening, using the lowest comfortable reg
   answer: true
   explanation: "By definition, first inversion means the third of the chord is the lowest sounding pitch. For a C major chord (C–E–G) in first inversion, E is in the bass. Second inversion places the fifth (G) in the bass. Only root position places the root (C) in the bass. This is fundamental to understanding why bass line dictation is a distinct skill from identifying chord roots — the two coincide only in root position."
 
-- question: "Because the bass always reinforces the root of the underlying chord, accurately identifying the harmony is equivalent to accurately transcribing the bass line."
+- question: "Because the bass usually reinforces the root of the underlying chord, accurately identifying the harmony is equivalent to accurately transcribing the bass line."
   type: true-false
   answer: false
   explanation: "The bass carries the root only when the chord is in root position. Inversions — which are common in tonal voice leading, especially for smooth linear bass motion — place the third or fifth in the bass. A bass line that moves C–E–F–G might represent I, I6 (first inversion), IV, V — the bass notes and the roots are different for the inverted chord. Bass line dictation requires hearing the actual lowest pitch, not inferring it from the chord name."

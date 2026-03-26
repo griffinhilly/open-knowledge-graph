@@ -54,7 +54,7 @@ Dysplasia is not cancer—it is a pre-cancerous change. Not all dysplasia progre
   answer: 2
   explanation: "The basement membrane is the critical anatomical threshold. All of the histological features (nuclear pleomorphism, increased N:C ratio, abnormal mitoses) may be present in carcinoma in situ, which is still treatable by local excision. Once neoplastic cells penetrate the basement membrane, they gain access to lymphatics and blood vessels, acquire the capacity for metastasis, and require staging rather than simple excision. This is not merely semantic — it defines clinical management, prognosis, and curability."
 
-- question: "All dysplasia is irreversible: once dysplastic changes appear, progression to invasive cancer is inevitable if the lesion is left untreated."
+- question: "Most dysplasia is irreversible: once dysplastic changes appear, progression to invasive cancer is inevitable if the lesion is left untreated."
   type: true-false
   answer: false
   explanation: "Low-grade dysplasia may regress, particularly if the inciting stimulus (HPV infection, H. pylori, chronic acid reflux) is removed. The clone has not yet accumulated sufficient mutations to be self-sustaining. Irreversibility and high progression risk are features of high-grade dysplasia, not of dysplasia as a category. This is why dysplasia grade drives clinical management: active surveillance for low-grade (which may normalize), intervention for high-grade (which rarely does)."

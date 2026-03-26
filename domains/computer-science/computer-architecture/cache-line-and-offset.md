@@ -48,7 +48,7 @@ Cache lines (typically 32–128 bytes) are the unit of cache allocation. Address
   answer: true
   explanation: "This is spatial locality exploitation in action. When a cache line is loaded, all bytes in that line are stored in the cache together. Any access to any byte within the line finds it already present — a hit — as long as the line has not been evicted. Sequential iteration through an array is cache-friendly for exactly this reason: after the first element of each 64-byte block is accessed (potentially a miss), all subsequent elements in the same block are hits. The cache line is the atomic unit of allocation, so all bytes within it rise and fall together."
 
-- question: "Storing a variable in a smaller data type (e.g., char instead of double) guarantees it occupies fewer cache lines and will always improve cache performance."
+- question: "Storing a variable in a smaller data type (e.g., char instead of double) guarantees it occupies fewer cache lines and will typically improve cache performance."
   type: true-false
   answer: false
   explanation: "A smaller variable does not necessarily span fewer cache lines — alignment determines this, not size alone. A 1-byte variable placed at a cache-line boundary crossing spans two lines just as a larger misaligned variable would. Additionally, packing many small variables into shared cache lines can cause false sharing in multithreaded code, worsening performance. Smaller size reduces space used within a line, but without proper alignment and layout awareness, it provides no guarantee of better cache behavior."

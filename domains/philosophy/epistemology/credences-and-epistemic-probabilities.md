@@ -55,7 +55,7 @@ A credence is a numerical degree of belief: a real number between 0 and 1 repres
   answer: true
   explanation: "Exactly right. A credence of 0.5 is the numerical representation of genuine uncertainty — it is analogous to a fair coin flip: no evidential pull in either direction. This is different from a credence of 0.9 (strong lean toward true) or 0.1 (strong lean toward false). The 0.5 credence is not a default or placeholder; it is a specific epistemic state representing maximum uncertainty between two alternatives."
 
-- question: "Because credences must satisfy probability axioms, any rational agent must assign a credence of 1 to any proposition they consider very likely to be true."
+- question: "Because credences is expected to satisfy probability axioms, any rational agent is expected to assign a credence of 1 to any proposition they consider very likely to be true."
   type: true-false
   answer: false
   explanation: "The probability axioms only require credence of exactly 1 for necessary truths (tautologies). For contingent empirical propositions — even highly probable ones — any credence strictly between 0 and 1 is compatible with coherence. A credence of 0.99 is coherent and appropriate for something nearly certain; only a contradiction must receive credence 0, and only a logical truth must receive credence 1. Conflating 'very confident' with 'certain' (credence 1) is a category error that credence theory is specifically designed to avoid."

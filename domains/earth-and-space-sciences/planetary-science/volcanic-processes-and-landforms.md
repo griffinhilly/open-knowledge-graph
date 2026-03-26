@@ -47,7 +47,7 @@ Planetary volcanism produces distinctive landforms (shield volcanoes, cinder con
   answer: 1
   explanation: "Landform morphology is a direct read-out of magma viscosity. Low-viscosity basaltic magma flows easily before solidifying, spreading across wide areas and building broad, gently sloped structures — shield volcanoes. High-viscosity silicic magma resists flow, traps gases, and produces explosive eruptions that build steep-sided stratovolcanoes. A planet dominated by shield volcanoes almost certainly produces predominantly basaltic magma. This also suggests it may lack the subduction zones that generate silicic magmas on Earth. Activity level (C) and age (D) cannot be inferred from morphology alone."
 
-- question: "A planet with very large volcanoes must be more volcanically active today than a planet with smaller volcanoes."
+- question: "A planet with very large volcanoes should be more volcanically active today than a planet with smaller volcanoes."
   type: true-false
   answer: false
   explanation: "Volcanic size reflects accumulated eruption history, not current activity rate. Olympus Mons on Mars is enormous but may be largely or entirely inactive today — it grew large because it sat over a hotspot for billions of years without tectonic movement, not because Mars is currently more active. By contrast, Io (Jupiter's moon) has relatively modest individual volcanic structures but is the most volcanically active body in the solar system, continuously resurfaced by eruptions driven by tidal heating. Size is a record of the past; current activity requires direct observation of eruptions, heat flow, or fresh lava."

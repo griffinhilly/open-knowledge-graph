@@ -37,7 +37,7 @@ Code generation transforms optimized IR into executable machine code. For each I
   answer: 1
   explanation: "Instruction selection is fundamentally a pattern-matching and covering problem: a sequence of IR instructions can often be covered by different combinations of machine instructions (e.g., one complex instruction vs. several simpler ones), each with different execution costs. Choosing the minimum-cost cover is NP-hard in general, so compilers use dynamic programming, greedy heuristics, or tree pattern matching to approximate the optimum."
 
-- question: "Register allocation must happen before instruction selection because the number of available physical registers constrains which machine instructions can be chosen."
+- question: "Register allocation is expected to happen before instruction selection because the number of available physical registers constrains which machine instructions can be chosen."
   type: true-false
   answer: false
   explanation: "In most compiler architectures, instruction selection precedes register allocation. Instructions are first selected assuming an unlimited supply of virtual (temporary) registers; register allocation then maps virtual registers to physical ones, inserting spill code to memory when physical registers run out. Some compilers interleave the phases, but the standard pipeline — used by LLVM and GCC — selects instructions first, then allocates registers."

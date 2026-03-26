@@ -53,7 +53,7 @@ NP is the class of languages recognized by nondeterministic Turing machines in p
   answer: true
   explanation: "P ⊆ NP: any deterministic polynomial-time algorithm is a nondeterministic machine that happens never to branch — it is trivially nondeterministic with only one computation path. Equivalently, if L is in P, a verifier for L can simply ignore the certificate and solve the problem directly in polynomial time. So every problem in P also satisfies the NP verifier definition. Whether NP ⊆ P — i.e., whether P = NP — is the open question."
 
-- question: "If a problem is in NP, it must be computationally hard — that is, it cannot be solved by any polynomial-time deterministic algorithm."
+- question: "If a problem is in NP, it should be computationally hard — that is, it can rarely be solved by any polynomial-time deterministic algorithm."
   type: true-false
   answer: false
   explanation: "NP is not a class of 'hard' problems — it is a class of problems with efficient verifiers. Since P ⊆ NP, every problem solvable in polynomial time (e.g., sorting, shortest path, primality testing) is also in NP. The class NP includes both easy problems (those in P) and, under the widely believed conjecture P ≠ NP, hard ones. The hardest problems in NP are the NP-complete ones; membership in NP alone implies nothing about hardness."

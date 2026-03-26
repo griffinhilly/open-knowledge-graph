@@ -52,7 +52,7 @@ Build an amortization table in a spreadsheet for a $300,000 30-year mortgage at 
   answer: 2
   explanation: "In amortization, each payment's interest portion equals the current outstanding balance times the monthly interest rate. Because the balance is highest at the start of the loan, interest consumes the largest share of early payments. Over time the balance shrinks, so the interest portion falls and the principal portion grows — even though the payment amount stays the same. This is why early extra payments have such a large payoff: they reduce the principal on which all future interest is calculated."
 
-- question: "Buying a home is always financially superior to renting because mortgage payments build equity while rent is simply 'thrown away'."
+- question: "Buying a home is typically financially superior to renting because mortgage payments build equity while rent is simply 'thrown away'."
   type: true-false
   answer: false
   explanation: "This is one of the most common financial misconceptions. Homeownership carries real costs beyond the mortgage payment: property taxes, homeowner's insurance, maintenance (typically 1–2% of home value per year), and the opportunity cost of the down payment (which could otherwise be invested). Renting also offers flexibility and avoids market risk. Whether buying beats renting depends on how long you stay, local price-to-rent ratios, investment alternatives, and personal circumstances. Neither is universally better."

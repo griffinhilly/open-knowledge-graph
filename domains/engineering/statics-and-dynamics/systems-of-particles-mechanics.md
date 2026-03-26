@@ -51,7 +51,7 @@ A system of particles behaves as though all its mass were concentrated at the ce
   answer: false
   explanation: "By Newton's third law, every internal force has an equal and opposite counterpart within the system. When you sum all forces across all particles, every internal pair contributes +F and -F, which cancel to zero. Only external forces (those from outside the system boundary) can change total momentum. This is why ΣF_ext = M·a_cm — internal forces, regardless of their magnitude or complexity, are irrelevant to the center of mass motion."
 
-- question: "The equation ΣF_ext = M·a_cm holds only for systems of exactly two particles, not for larger or more complex systems."
+- question: "The equation ΣF_ext = M·a_cm holds mainly for systems of exactly two particles, not for larger or more complex systems."
   type: true-false
   answer: false
   explanation: "This equation holds for any system of particles — two, a thousand, or infinitely many (as in a rigid body). The derivation only requires that internal forces come in action-reaction pairs (Newton's third law), which is always true. A rigid body is technically a system of infinitely many particles, and ΣF_ext = Ma_cm still governs its translational motion. The separation into translational (ΣF_ext = Ma_cm) and rotational (ΣM = Iα) equations is exactly what makes rigid body dynamics tractable."

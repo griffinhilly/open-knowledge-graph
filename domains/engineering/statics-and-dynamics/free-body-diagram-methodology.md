@@ -50,7 +50,7 @@ Practice on simple objects, then progress to complex systems. Always draw and la
   answer: 1
   explanation: "The fundamental act of an FBD is isolation: you mentally cut away the table (and everything else connected to the block) and replace each connection with the force it exerts. The table appears in the FBD only as a normal force arrow — not as a physical object drawn in the diagram. Including the table itself, or any of its properties, violates the isolation principle. The block's FBD has exactly: its weight downward, a normal force from the table upward, and a friction force if applicable."
 
-- question: "Internal forces between parts of a body — such as the tension in a bolt holding two plates together — must be included in the free-body diagram to correctly apply Newton's second law to the body."
+- question: "Internal forces between parts of a body — such as the tension in a bolt holding two plates together — should be included in the free-body diagram to correctly apply Newton's second law to the body."
   type: true-false
   answer: false
   explanation: "Internal forces always appear in equal-and-opposite pairs within a body, so they cancel when you sum forces for the body as a whole. Newton's second law ΣF = ma involves only the net external force — the sum of all forces acting on the body from outside. Internal forces contribute nothing to this sum. Including them would double-count in both directions and produce no net effect. The FBD is specifically designed to show only external forces, which is why isolation is so important."

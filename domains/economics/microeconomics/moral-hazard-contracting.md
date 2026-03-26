@@ -47,7 +47,7 @@ Moral hazard arises when an agent's hidden actions (effort, risk-taking) are uno
   answer: true
   explanation: "True. Under full information, the principal can write a forcing contract: 'If you exert effort e*, I pay you W; if you exert anything less, you get your outside option.' The agent is indifferent between exerting e* at wage W and their outside option, so they comply. Because the wage is fixed, the agent bears no income risk — all output variability falls on the principal, who is better positioned to absorb it (risk-neutral or diversified). The first-best achieves both incentive efficiency (correct effort level) and risk efficiency (optimal insurance) simultaneously. Moral hazard only arises when effort is hidden and this forcing contract is unavailable."
 
-- question: "The optimal contract under moral hazard provides the agent with full insurance against all income risk."
+- question: "The optimal contract under moral hazard provides the agent with full insurance against most income risk."
   type: true-false
   answer: false
   explanation: "False. Full insurance (a fixed wage) eliminates all income risk for the agent but also eliminates all effort incentives — the agent receives the same pay regardless of outcome and therefore has no reason to work hard. The optimal second-best contract deliberately imposes some income risk on the agent by making pay partially dependent on output. This is less efficient than full insurance from a pure risk-sharing perspective, but it recovers some incentive to exert effort. The optimal contract accepts some welfare loss from risk imposition to gain the benefit of higher effort, trading off the two sources of inefficiency to minimize total loss."

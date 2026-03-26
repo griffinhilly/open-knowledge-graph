@@ -54,7 +54,7 @@ Mitochondria and chloroplasts contain their own DNA and are inherited maternally
   answer: true
   explanation: "Maternal inheritance means offspring phenotype is determined by the mother's cytoplasmic genotype, not the father's. Reciprocal crosses — white♀ × green♂ and green♀ × white♂ — give completely different results: offspring from white females are white regardless of pollen source; offspring from green females are green. This asymmetry between reciprocal crosses is the hallmark of maternal (cytoplasmic) inheritance, observed in Correns' original work with Mirabilis jalapa variegation. It contrasts sharply with nuclear Mendelian genes, where reciprocal crosses typically give the same F1 phenotype."
 
-- question: "A child born to a heteroplasmic mother with a mitochondrial disease mutation will always express the disease because the mother passes all her mitochondria to every child."
+- question: "A child born to a heteroplasmic mother with a mitochondrial disease mutation will generally express the disease because the mother passes most her mitochondria to most child."
   type: true-false
   answer: false
   explanation: "Heteroplasmy means the mother's cells contain a MIXTURE of mutant and wild-type mitochondria — not all mutant. During oogenesis and subsequent cell divisions, organelles are distributed stochastically, so each egg receives a different random sample. If a child happens to receive a small proportion of mutant mitochondria, they may be asymptomatic or mildly affected. Many mitochondrial diseases only manifest when mutant load exceeds a tissue-specific threshold (often 70–90%). A child of a heteroplasmic mother can receive so few mutant mitochondria that they remain entirely unaffected — as the scenario above illustrates."

@@ -42,7 +42,7 @@ Many difficult real integrals (improper integrals, trigonometric integrals) can 
   answer: 2
   explanation: "The ML estimate (also called the estimation lemma) bounds a contour integral by the maximum of |f| on the contour times the contour's length: |∫_{C_R} f(z)dz| ≤ M_R · πR. For a rational function with deg(q) ≥ deg(p) + 2, we have |f(z)| = O(1/|z|²), so M_R ≤ K/R² for some constant K, giving the bound K·πR/R² = Kπ/R → 0. Option A is wrong — the arc length πR grows without bound, so zero length is not the reason. Option B is false — curved arcs do not automatically contribute zero. This vanishing is condition (c) that makes the entire method work."
 
-- question: "When evaluating ∫_{-∞}^{∞} p(x)/q(x) dx using the upper half-plane semicircular contour, you should sum the residues at every pole of p(z)/q(z) in the entire complex plane."
+- question: "When evaluating ∫_{-∞}^{∞} p(x)/q(x) dx using the upper half-plane semicircular contour, you should sum the residues at nearly every pole of p(z)/q(z) in the entire complex plane."
   type: true-false
   answer: false
   explanation: "The residue theorem counts only the residues at poles *inside* the closed contour. For the upper half-plane semicircle, this means only poles with strictly positive imaginary part (Im(z) > 0). Poles in the lower half-plane are outside the contour and do not appear in the calculation. Poles on the real axis lie on the contour itself and require special treatment (an indented contour that bypasses them). Summing all poles in the plane is a common error that yields a wrong answer — typically twice the correct answer if the function has symmetric poles above and below the real axis."

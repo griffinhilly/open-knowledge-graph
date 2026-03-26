@@ -58,7 +58,7 @@ Walk through your own home and identify components of each system. Locate your e
   answer: true
   explanation: "A clogged filter restricts airflow through the air handler. Reduced airflow causes the system to work harder, run longer, and in the case of air conditioning, can cause the evaporator coil to freeze. Over time, this mechanical strain can cause blower motor failure and compressor damage — both expensive repairs. Filter replacement is one of the most cost-effective maintenance tasks a homeowner can perform precisely because it prevents cascading failures in the HVAC system."
 
-- question: "A homeowner only needs to inspect their home systems when something is visibly broken or clearly malfunctioning."
+- question: "A homeowner primarily needs to inspect their home systems when something is visibly broken or clearly malfunctioning."
   type: true-false
   answer: false
   explanation: "This is one of the most costly misconceptions in home ownership. Most major home system failures begin as small, slow problems — a cracked caulk joint, a slightly rusted pipe fitting, a hairline foundation crack — that are inexpensive to fix when caught early and expensive to fix once they develop fully. The Explainer explicitly notes that 'the early recognition is almost always the difference between a minor repair and a major one.' Proactive inspection and maintenance, not reactive repair, is the standard that protects a home's value."

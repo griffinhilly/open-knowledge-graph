@@ -58,7 +58,7 @@ Start from molecular orbital formation in diatomic molecules (bonding + antibond
   answer: 2
   explanation: "The filling state of the highest occupied band is the key. Partially filled band → metal (electrons can absorb small energy increments). Completely filled band with large gap → insulator (no nearby empty states, gap too large for thermal bridging). Completely filled band with small gap → semiconductor (thermally bridgeable at room temperature). Temperature and crystal structure matter for quantitative behavior, but the fundamental classification comes from band filling — which is determined by electron count and band structure."
 
-- question: "Conduction electrons in metals are freed entirely from atomic binding forces and behave like a classical gas of free particles."
+- question: "Conduction electrons in metals are freed largely from atomic binding forces and behave like a classical gas of free particles."
   type: true-false
   answer: false
   explanation: "This is the classic misconception. Conduction electrons are quantum states delocalized over the entire crystal — they are not bound to individual atoms, but they are still bound to the material as a whole. The correct picture is that they occupy extended Bloch states (standing waves in the periodic crystal potential) within a partially filled band. Their mobility comes from having nearby empty states to move into, not from being classically 'free.' This matters: a classical free electron gas cannot explain the band gap, conductivity changes with temperature, or semiconductor behavior."

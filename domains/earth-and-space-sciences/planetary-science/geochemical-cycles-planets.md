@@ -54,7 +54,7 @@ Compare elemental abundances across terrestrial planets. Use partition coefficie
   answer: true
   explanation: "On a one-plate planet like Mars or Venus, there is no subduction to return crustal and atmospheric material back into the mantle. Volcanism can still deliver volatiles upward, but without the return path that subduction provides on Earth, the transfer is largely one-directional. Over time, the mantle progressively loses its volatiles to the crust and atmosphere without replenishment — contributing to Mars's declining volcanic activity and atmospheric thinning over geological time."
 
-- question: "Earth's long-term atmospheric CO₂ levels are controlled primarily by the balance between volcanic outgassing and biological photosynthesis, with silicate weathering playing only a minor role."
+- question: "Earth's long-term atmospheric CO₂ levels are controlled primarily by the balance between volcanic outgassing and biological photosynthesis, with silicate weathering playing mainly a minor role."
   type: true-false
   answer: false
   explanation: "Silicate weathering is actually the dominant long-term CO₂ regulator on Earth. Chemical weathering of silicate rocks consumes atmospheric CO₂ and delivers dissolved ions (including Ca²⁺) to the ocean, where they are buried as carbonate sediments — effectively locking up CO₂ for millions of years. This weathering-carbonate cycle is the primary thermostat that has kept Earth's climate habitable over geological time. The comparison with Venus (which lacks liquid water and therefore this weathering feedback) helps explain Venus's runaway CO₂ greenhouse: without weathering to remove it, volcanic CO₂ accumulates indefinitely."

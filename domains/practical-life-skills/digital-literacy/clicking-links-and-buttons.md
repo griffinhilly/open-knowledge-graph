@@ -60,7 +60,7 @@ Open a website with children and find a link. Have them move the mouse over it t
   answer: true
   explanation: "Yes — this cursor change is the most reliable visual indicator that an element is a clickable link. It works across all major browsers and is a consistent web standard. The cursor behavior tells you an element is interactive even when it does not follow the classic blue-underlined-text convention."
 
-- question: "Clicking a button on a web page always takes you to a new web page."
+- question: "Clicking a button on a web page typically takes you to a new web page."
   type: true-false
   answer: false
   explanation: "Buttons perform actions on the current page — they do not navigate you away. Examples: 'Submit' sends a form, 'Play' starts a video, 'Add to Cart' updates a shopping list, 'Download' begins a file download. The core distinction is: links navigate; buttons act. A link takes you somewhere new; a button does something where you already are."

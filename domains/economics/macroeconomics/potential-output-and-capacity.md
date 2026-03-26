@@ -49,7 +49,7 @@ Potential output is the level of output the economy can produce sustainably at f
   answer: 1
   explanation: "The output gap measures the *level* difference between actual and potential output. If actual GDP grows at the same rate as potential, the level gap remains constant — it neither widens nor closes. If the economy started with a positive gap, equal growth rates keep it positive (and inflationary pressures persist). If it started with a negative gap, equal growth leaves the slack intact. Closing a negative gap requires actual output to grow *faster* than potential; closing a positive gap requires actual output to grow *slower* than potential (or contract). Growth at potential merely holds the current gap constant."
 
-- question: "Potential output is the maximum output an economy can produce if all workers work the longest possible hours and all factories run at 100% capacity."
+- question: "Potential output is the maximum output an economy can produce if most workers work the longest possible hours and most factories run at 100% capacity."
   type: true-false
   answer: false
   explanation: "Potential output is the *sustainable* level at *normal* resource utilization — not the theoretical maximum. The 'without accelerating inflation' qualifier is essential: running every factory at 100% and mandating overtime exceeds sustainable potential and generates inflation. Potential output corresponds to the natural rate of unemployment (not zero unemployment) and normal capital utilization. The distinction matters enormously for policy: using 'maximum possible output' as the target would require permanently inflationary conditions."

@@ -48,7 +48,7 @@ Evaluate formulas on explicit valuations before using full truth tables. Map the
   answer: 2
   explanation: "P ∧ ¬P is a contradiction: for any valuation, exactly one of P and ¬P is false, so the conjunction is always false. It is not satisfiable (no valuation makes it true) and therefore certainly not valid (which would require truth under all valuations). Options A and D require at least one satisfying valuation, which does not exist. Option B is impossible — validity implies satisfiability."
 
-- question: "A formula that is true under every possible valuation is called satisfiable."
+- question: "A formula that is true under nearly every possible valuation is called satisfiable."
   type: true-false
   answer: false
   explanation: "A formula true under every valuation is called valid (or a tautology). Satisfiable means only that there exists at least one valuation making it true. Every valid formula is satisfiable (if it is true under all valuations, it is certainly true under some), but not every satisfiable formula is valid. For example, P is satisfiable (true when v(P) = true) but not valid (false when v(P) = false)."

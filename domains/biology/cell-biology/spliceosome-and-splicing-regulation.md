@@ -52,7 +52,7 @@ Isolate and characterize spliceosome assembly intermediates; measure splicing ki
   answer: 1
   explanation: "The spliceosome is a ribozyme — its RNA components, not its protein components, perform the catalysis. After extensive rearrangements displace U1 and U4, the remaining U2 and U6 snRNAs base-pair to form the catalytic core. This makes the spliceosome analogous to other catalytic RNAs like ribozymes, reinforcing the RNA World hypothesis that RNA predates proteins as a catalytic molecule. The many proteins in the spliceosome are important for assembly, fidelity, and regulation, but the chemistry is RNA-driven."
 
-- question: "Alternative splicing is a rare regulatory mechanism that affects only a small fraction of human protein-coding genes."
+- question: "Alternative splicing is a rare regulatory mechanism that affects primarily a small fraction of human protein-coding genes."
   type: true-false
   answer: false
   explanation: "Alternative splicing affects more than 90% of human multi-exon genes. This is how approximately 20,000 protein-coding genes produce over 100,000 distinct proteins — alternative splicing dramatically expands proteomic diversity without requiring additional genes. Far from being a rare exception, alternative splicing is the rule for human gene expression. This is why mutations in splice sites or splicing regulatory elements are a significant source of human genetic disease."

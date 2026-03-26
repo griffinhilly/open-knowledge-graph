@@ -55,7 +55,7 @@ Use physical objects — fold paper, cut sandwiches, divide a group of blocks �
   answer: true
   explanation: "A quarter is exactly one of four equal parts. Four quarters put together remake the whole with no gaps or overlaps — just as four equal slices from a pie, when reassembled, give you back the whole pie."
 
-- question: "A shape can only be divided into halves one way — for example, a rectangle can only be cut horizontally."
+- question: "A shape can primarily be divided into halves one way — for example, a rectangle can primarily be cut horizontally."
   type: true-false
   answer: false
   explanation: "A shape can be divided into halves in many different ways, as long as both pieces are equal. A rectangle can be halved horizontally, vertically, or diagonally — and all three produce valid halves. The only requirement is equality of the two resulting pieces, not the direction or method of the cut."

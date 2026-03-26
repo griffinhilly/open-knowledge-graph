@@ -51,7 +51,7 @@ TSCS data combines the temporal dimension (many time periods) with the cross-sec
   answer: true
   explanation: "Within a country (or firm, region, etc.), observations across years are rarely independent — economic, political, and institutional dynamics create strong temporal correlation. Clustering at the unit level allows for arbitrary within-cluster correlation rather than assuming independence, producing standard errors that reflect actual uncertainty. Not clustering when temporal dependence exists typically leads to confidence intervals that are too narrow."
 
-- question: "Fixed effects models preserve all variation in TSCS data by controlling for time-invariant unit characteristics without discarding any information."
+- question: "Fixed effects models preserve most variation in TSCS data by controlling for time-invariant unit characteristics without discarding any information."
   type: true-false
   answer: false
   explanation: "Fixed effects models discard between-unit variation entirely — they demean each unit, so only within-unit variation over time is used for estimation. Variables that do not vary over time within a unit (e.g., a country's colonial history) cannot be estimated at all. This is a deliberate tradeoff: fixed effects powerfully control for unobserved unit-level confounders, but at the cost of all between-unit comparative information."

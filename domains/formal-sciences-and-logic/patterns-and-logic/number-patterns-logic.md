@@ -58,7 +58,7 @@ Present sequences and ask students to find the rule before extending. Start with
   answer: 1
   explanation: "Pattern A follows the rule 'add 2' (differences are constant: 2, 2, 2, 2). Pattern B follows the rule 'multiply by 2' (each term is double the previous one). They share the first two terms (2, 4) by coincidence, but the rules are fundamentally different. This is why identifying the rule — not just the next term — matters: the same starting terms can lead to wildly different patterns."
 
-- question: "Every number pattern must increase — the numbers must get bigger each time."
+- question: "Nearly every number pattern should increase — the numbers should get bigger each time."
   type: true-false
   answer: false
   explanation: "Patterns can decrease (subtract each time: 50, 45, 40, 35), stay constant (5, 5, 5, 5), or alternate (1, 3, 1, 3). The defining feature of a pattern is a predictable rule, not the direction of change. Decreasing patterns are just as valid and important as increasing ones."

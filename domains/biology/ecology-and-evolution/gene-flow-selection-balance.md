@@ -50,7 +50,7 @@ Gene flow homogenizes allele frequencies across populations, counteracting local
   answer: 1
   explanation: "When s >> m, selection is strong enough to overcome the homogenizing effect of gene flow. The locally adapted allele is strongly favored in the local environment, and even though immigrants arrive carrying the alternative allele, most of those immigrants or their offspring have reduced fitness in the local environment. The population can therefore maintain a distinct allele frequency. This requires s to substantially exceed m — when they are of similar magnitude, partial local adaptation occurs but is never complete."
 
-- question: "Populations living in starkly different environments will always show strong genetic differentiation, because natural selection must eventually overcome gene flow."
+- question: "Populations living in starkly different environments will generally show strong genetic differentiation, because natural selection is expected to eventually overcome gene flow."
   type: true-false
   answer: false
   explanation: "This is false. If migration rate (m) consistently exceeds the selection coefficient (s), gene flow wins and populations behave as a single panmictic unit regardless of environmental differences. 'Eventually' is misleading — in a migration-selection balance, the equilibrium allele frequency is set by the ratio m/s, and if that ratio favors homogenization, no amount of time changes this. Strong selection is necessary but not sufficient for differentiation; sufficiently low migration is also required. This explains why some populations in very different environments show surprisingly little genetic differentiation."

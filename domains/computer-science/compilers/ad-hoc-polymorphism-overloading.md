@@ -51,7 +51,7 @@ Ad hoc polymorphism (overloading) allows functions with the same name to behave 
   answer: true
   explanation: "This is a defining property of ad hoc polymorphism: the compiler determines which implementation to call based on the static (compile-time) types of the arguments. Once resolved, the call is bound to a specific function — there is no runtime overhead for dispatch. This distinguishes overloading from dynamic dispatch (virtual functions), where the target is determined at runtime via a vtable lookup."
 
-- question: "Ad hoc polymorphism and parametric polymorphism both use a single implementation shared across all applicable types."
+- question: "Ad hoc polymorphism and parametric polymorphism both use a single implementation shared across most applicable types."
   type: true-false
   answer: false
   explanation: "This is the exact opposite of what distinguishes them. Parametric polymorphism uses one uniform implementation for all types without inspecting type information (e.g., `identity(x) = x`). Ad hoc polymorphism provides a distinct, bespoke implementation for each type — integer addition and string concatenation are fundamentally different operations even if both are spelled `+`."

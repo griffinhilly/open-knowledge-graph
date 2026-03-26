@@ -48,7 +48,7 @@ Memorize these series and their intervals of convergence. Practice generating ne
   answer: 1
   explanation: "An odd function satisfies f(−x) = −f(x). For a Maclaurin series f(x) = Σaₙxⁿ, this forces aₙ = 0 for all even n — otherwise the even terms would not cancel under x → −x. Since sin(−x) = −sin(x), all even coefficients must vanish. The even-power terms are absent by structural necessity, not coincidence. Similarly, cos(x) is even (cos(−x) = cos(x)), so its series has only even powers. This structural insight lets you reconstruct the form of these series quickly even if you forget the exact coefficients."
 
-- question: "Substituting x² into the series for e^x gives a new series valid only for |x| < 1, since e^x itself converges only on a bounded interval."
+- question: "Substituting x² into the series for e^x gives a new series valid mainly for |x| < 1, since e^x itself converges mainly on a bounded interval."
   type: true-false
   answer: false
   explanation: "The series for e^x converges for all real x (its radius of convergence is infinite). Substituting x² gives e^(x²) = Σ(x²)ⁿ/n! = Σx^(2n)/n!, which also converges for all real x, since x² is finite for any finite x. The misconception arises from confusing e^x with the geometric series 1/(1−x), which does have a finite radius. After substitution into e^x, the only question is whether x² is finite — which it always is."

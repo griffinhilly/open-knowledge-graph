@@ -46,7 +46,7 @@ René Descartes developed a systematic philosophical method of radical doubt, re
   answer: 2
   explanation: "Descartes explicitly modeled the 'clear and distinct' criterion on mathematics — specifically geometry, which proceeds from self-evident axioms to certain conclusions without needing sensory verification. His project was to give natural philosophy the same certainty as geometry: start from indubitable foundations (the cogito), derive God's existence, then reconstruct knowledge of the external world. This anti-empiricist, anti-scholastic stance is what defines Cartesian rationalism as a distinct position in early modern epistemology."
 
-- question: "Descartes's methodological doubt is best understood as a form of genuine, permanent skepticism — the conclusion that knowledge is ultimately impossible."
+- question: "Descartes's methodological doubt is best understood as a form of genuine, permanent skepticism — the conclusion that knowledge is ultimately impractical."
   type: true-false
   answer: false
   explanation: "Methodological doubt is a deliberate procedure, not a sincere conviction. Descartes used it as an instrument: by systematically doubting everything that could possibly be doubted, he aimed to find what could not be doubted — and then rebuild knowledge on that foundation. The goal was certainty, not paralysis. This distinguishes his method from Academic skepticism (which denies that knowledge is achievable) and from Pyrrhonism (which recommends suspending all judgment). Descartes treated doubt as the first step toward knowledge, not as its refutation."

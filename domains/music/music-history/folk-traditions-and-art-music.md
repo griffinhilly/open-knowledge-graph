@@ -58,7 +58,7 @@ Folk and art music are entirely separate traditions; folk music is unchanging tr
   answer: true
   explanation: "The image of folk music as ancient, unchanging, and pure is itself a romantic construction — created partly by 19th-century collectors who sought timeless authenticity. In reality, folk music changes as communities change: melodies are varied, replaced, borrowed from neighboring cultures, and reshaped by economic, technological, and social forces. A folk song recorded in 1900 is a snapshot of a living practice at that moment, not a pristine relic of an immemorial tradition. Treating folk music as static leads to treating any change as corruption rather than as the normal process of cultural evolution."
 
-- question: "The influence between folk and art music has historically flowed in one direction only: composers borrow from folk traditions, but folk music is not influenced by art music."
+- question: "The influence between folk and art music has historically flowed in one direction primarily: composers borrow from folk traditions, but folk music is not influenced by art music."
   type: true-false
   answer: false
   explanation: "Influence has flowed in both directions throughout history. Folk musicians have absorbed melodic ideas, harmonies, and formal conventions from the concert hall and church, just as art music composers have drawn on folk sources. Neither tradition is hermetically sealed from the other. Church music influenced folk hymn traditions; operatic melodies entered folk repertoires; concert hall harmonies affected how folk musicians learned to accompany melodies. The folk/art binary is itself a construct that obscures a history of constant mutual exchange."

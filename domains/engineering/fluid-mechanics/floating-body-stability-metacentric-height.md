@@ -47,7 +47,7 @@ A floating body is stable if the metacenter (intersection of buoyant force line 
   answer: 1
   explanation: "When the vessel heels, the center of buoyancy B shifts toward the submerged side. The buoyant force acts vertically upward through the displaced B. The righting moment is the couple formed by this upward buoyant force and the downward weight through G. If M (where the new buoyant force line intersects the original centerline) is above G, the buoyant force has a moment arm that generates a restoring torque. If M is below G, the geometry reverses and the torque amplifies the heel — the vessel capsizes. The condition GM > 0 (M above G) is the stability criterion."
 
-- question: "A ship with a very large metacentric height (GM much greater than zero) is always preferable to one with a moderate GM because maximum stability minimizes capsizing risk."
+- question: "A ship with a very large metacentric height (GM much greater than zero) is typically preferable to one with a moderate GM because maximum stability minimizes capsizing risk."
   type: true-false
   answer: false
   explanation: "Excessive GM causes rapid, violent rolling — the righting moment is so strong that the ship snaps back too quickly after each wave, producing short-period rolling that causes discomfort, can injure crew, damage cargo, and stress structural joints. Well-designed vessels target an appropriate GM range: enough for safety under all loading conditions but not so large as to create operationally problematic stiffness. Naval architects balance stability and seakeeping comfort by specifying a target GM range, not simply maximizing it."

@@ -54,7 +54,7 @@ Conduct exploratory data analysis on a dataset: describe distributions, identify
   answer: 2
   explanation: "An impossible value is most likely a data entry error, but the responsible action is verification rather than reflexive deletion. The original questionnaire or data record may reveal the actual value. If verification is impossible, the case should be excluded with documentation. Replacing with the mean treats a likely error as a valid observation. And ignoring extreme values — even in large samples — risks distorting distributions and violating assumptions of downstream parametric tests."
 
-- question: "If less than 5% of values are missing, listwise deletion always produces unbiased estimates."
+- question: "If less than 5% of values are missing, listwise deletion generally produces unbiased estimates."
   type: true-false
   answer: false
   explanation: "The appropriateness of listwise deletion depends on the missingness mechanism, not the proportion of missing data. If data are MNAR — even if only 1% are missing — listwise deletion produces biased estimates because the excluded cases are systematically different from those retained. The 5% threshold is a rough guideline for when missingness is unlikely to be a practical problem under MCAR, not a guarantee against bias under any mechanism."

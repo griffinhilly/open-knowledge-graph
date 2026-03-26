@@ -57,7 +57,7 @@ Get an actual quote online and toggle coverage levels and deductibles to see how
   answer: false
   explanation: "This is backwards. UM/UIM coverage protects YOU when the other driver — who is at fault — lacks adequate insurance. Your liability coverage only pays for damage you cause to others; it does nothing for your own injuries if an uninsured driver hits you. UM/UIM fills that gap by acting as if the at-fault driver had sufficient coverage when they don't. Given that roughly 1 in 8 U.S. drivers is uninsured, this coverage is among the highest-value additions to a policy."
 
-- question: "'Comprehensive' auto coverage protects your vehicle from all types of damage and loss."
+- question: "'Comprehensive' auto coverage protects your vehicle from most types of damage and loss."
   type: true-false
   answer: false
   explanation: "Comprehensive covers non-collision events: theft, vandalism, hail, floods, fire, and animal strikes. It does not cover collision damage (that's collision coverage), mechanical breakdown, or normal wear and tear, and there are additional exclusions. The name is misleading — 'comprehensive' describes the breadth of non-collision events covered, not an absence of limits."

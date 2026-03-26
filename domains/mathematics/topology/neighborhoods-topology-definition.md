@@ -44,7 +44,7 @@ A neighborhood of a point x is any set N containing an open set U with x ∈ U. 
   answer: 1
   explanation: "A countable neighborhood base at every point is exactly the definition of a first-countable space. All metric spaces are first-countable because the balls B(x, 1/n) form such a base: any neighborhood of x must contain some ball of this form. First-countability matters because it ensures sequences are sufficient to detect topological structure — x is in the closure of A iff some sequence in A converges to x. Option A confuses first-countability (countable base at each point) with second-countability (one countable base for the whole topology, a strictly stronger condition)."
 
-- question: "A neighborhood of a point x must itself be an open set."
+- question: "A neighborhood of a point x should itself be an open set."
   type: true-false
   answer: false
   explanation: "This is the central misconception about neighborhoods. A neighborhood of x is any set N that contains an open set U with x ∈ U ⊆ N — N itself need not be open. Closed intervals, half-open sets, or any set that 'wraps around' an open set containing x qualify. For example, [0, 1] is a neighborhood of 0.5 because it contains the open interval (0.3, 0.7). The definition is deliberately flexible: neighborhoods absorb boundary behavior while preserving the local information encoded in the open sets they contain."

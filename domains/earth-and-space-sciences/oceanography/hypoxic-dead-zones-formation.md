@@ -59,7 +59,7 @@ Dead zones do not have zero oxygen everywhere; they have a sharp oxycline and a 
   answer: true
   explanation: "The pycnocline — the density boundary separating lighter surface water from denser bottom water — resists vertical mixing because turbulent energy must do work against the density gradient. This physical barrier is what allows the oxygen deficit created by bacterial respiration at depth to accumulate rather than being replenished. Without stratification, surface oxygen would mix downward and the oxygen budget would remain positive. This is why dead zones are most severe in summer when warming maximizes stratification, and why they collapse in autumn when cooling and storms erode the stratified layer."
 
-- question: "Once formed, a hypoxic dead zone persists indefinitely because anaerobic bacteria permanently alter the seafloor chemistry, making reoxygenation impossible."
+- question: "Once formed, a hypoxic dead zone persists indefinitely because anaerobic bacteria permanently alter the seafloor chemistry, making reoxygenation very difficult."
   type: true-false
   answer: false
   explanation: "Dead zones are often reversible on seasonal timescales. Fall storms, cooling, and wind mixing break down stratification, allowing surface oxygen to ventilate bottom waters and ending hypoxia within days to weeks. Longer-term recovery is also possible: if nutrient loading is reduced, bloom intensity decreases, oxygen demand drops, and the zone shrinks. However, recovery of the benthic community — recolonization by worms, clams, and crustaceans — lags reoxygenation by months to years because organisms must migrate back from outside the affected area. The chemical damage is reversible; the ecological damage recovers more slowly."

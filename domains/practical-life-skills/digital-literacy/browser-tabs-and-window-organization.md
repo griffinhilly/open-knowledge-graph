@@ -46,7 +46,7 @@ Browser tabs allow you to visit multiple websites without opening separate brows
   answer: 1
   explanation: "When a tab bar holds 40 tabs, each tab shrinks until its title is illegible. Finding the right tab requires scanning icons or hovering over each one, which is slower than reloading the page. Browsers also use memory for every open page. The purpose of tabs is fast, obvious navigation — that purpose is lost beyond roughly 10 tabs. The solution is to close tabs aggressively and use bookmarks for pages you want to return to later."
 
-- question: "Using separate browser windows for different tasks is redundant — tabs alone can handle all organizational needs."
+- question: "Using separate browser windows for different tasks is redundant — tabs alone can handle most organizational needs."
   type: true-false
   answer: false
   explanation: "Tabs and windows serve different organizational levels. Tabs hold multiple related pages within a single context; windows separate distinct contexts (research vs. email vs. a video call). Without windows, all contexts share one crowded tab bar. Windows also allow Alt+Tab context switching at the operating system level, which is faster than navigating inside the browser. Both layers of organization are useful and complement each other."

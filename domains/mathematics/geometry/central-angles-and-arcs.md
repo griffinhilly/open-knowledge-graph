@@ -58,7 +58,7 @@ Draw central angles and identify their intercepted arcs. Practice finding arc me
   answer: true
   explanation: "Arc measure equals the central angle, always — this relationship is independent of the circle's radius. A 90° central angle cuts off exactly one quarter of the circle (since 90/360 = 1/4), so the arc measures 90° whether the circle has radius 2 cm or radius 200 km. The proportional relationship between central angle and arc is what makes arc measure useful: it depends only on the angle, not on the circle's size."
 
-- question: "If two arcs have the same degree measure, they must have the same arc length."
+- question: "If two arcs have the same degree measure, they is expected to have the same arc length."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about arc measure. Arc measure (degrees) and arc length (a linear distance) are different quantities. Two arcs with the same degree measure have the same arc length only if they belong to circles of the same radius. A 90° arc on a circle of radius 10 cm is much longer than a 90° arc on a circle of radius 1 cm, even though both arcs measure 90°. Arc length formula (which you'll study next) shows that arc length = (θ/360°) × 2πr — the radius r appears in the formula for length but not for measure."

@@ -58,7 +58,7 @@ Map the world-building in a fantasy or science fiction novel at three levels: ph
   answer: 2
   explanation: "More world-building on the page is not better — it is often worse. When narrative stops for encyclopedic entries, story is being subordinated to the world. The master technique is embedding: reveal economic systems through a transaction the character makes, what they can afford, how they speak about wealth. Readers don't need to be told the rules; they learn them through immersive experience. Stopping to explain signals the author hasn't trusted the world to speak for itself."
 
-- question: "The most effective world-building in speculative fiction reveals all of the author's research directly, so readers can fully appreciate the depth and consistency of the fictional world."
+- question: "The most effective world-building in speculative fiction reveals most of the author's research directly, so readers can fully appreciate the depth and consistency of the fictional world."
   type: true-false
   answer: false
   explanation: "Effective world-building operates on the iceberg principle — the vast majority of the author's constructed knowledge should not appear directly on the page. Direct exposition of research slows narrative, undercuts immersion, and signals insecurity. The visible one-tenth of the iceberg feels real because of the nine-tenths beneath it; showing all ten-tenths destroys the effect. The craft goal is a world that feels inevitable and coherent, not one that is thoroughly documented."

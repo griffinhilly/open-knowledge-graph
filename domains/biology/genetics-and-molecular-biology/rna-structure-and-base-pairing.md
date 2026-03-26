@@ -48,7 +48,7 @@ RNA's single-stranded nature and 2' hydroxyl group on the ribose sugar enable co
   answer: 1
   explanation: "The 2' hydroxyl is the critical chemical difference between RNA and DNA. It participates in hydrogen bonds that stabilize tertiary folds, forces the A-form helix geometry (wider and shallower than DNA's B-form), and can directly participate in nucleophilic attack during ribozyme-catalyzed reactions. DNA lacks the 2'-OH and is structurally locked into B-form duplexes — informationally stable but catalytically inert. RNA's ability to fold into precise three-dimensional architectures is what gives it catalytic capability."
 
-- question: "The secondary structure that an RNA molecule adopts is always the arrangement of base pairs with the greatest overall thermodynamic stability — the global energy minimum."
+- question: "The secondary structure that an RNA molecule adopts is generally the arrangement of base pairs with the greatest overall thermodynamic stability — the global energy minimum."
   type: true-false
   answer: false
   explanation: "RNA folds as it is being transcribed, not after the complete sequence is available. The first complementary sequences to emerge pair first, sometimes trapping the molecule in a kinetically accessible but thermodynamically suboptimal structure. The final structure reflects both thermodynamic stability and folding kinetics — the same sequence can adopt different structures depending on transcription rate, temperature, ion concentrations, and the presence of RNA chaperones. Cells exploit this kinetic control for gene regulation, as in transcriptional attenuation."

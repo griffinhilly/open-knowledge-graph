@@ -58,7 +58,7 @@ Plot the current Treasury yield curve and identify its shape: normal (upward-slo
   answer: 1
   explanation: "The liquidity preference theory adds a positive term premium on top of expected future rates. Even if investors expect short rates to stay flat at 2% forever, they still demand something extra — say 0.5–1% — to lock up money for 10 years rather than rolling over short-term bonds. This term premium compensates for price volatility risk (long bonds fall more when rates rise) and liquidity risk. This is why a flat-expectation world still produces an upward-sloping curve. The normal upward slope reflects both expectations and this premium layered on top."
 
-- question: "An upward-sloping yield curve always indicates that the market expects interest rates to rise in the future."
+- question: "An upward-sloping yield curve typically indicates that the market expects interest rates to rise in the future."
   type: true-false
   answer: false
   explanation: "Under liquidity preference theory, the yield curve can slope upward even when the market expects future short rates to stay flat or even fall slightly, because the term premium adds a positive increment to long-term yields regardless of rate expectations. A steeply upward-sloping curve might reflect high term premiums rather than strong expectations of rate increases. Distinguishing expectations from term premiums requires additional analysis (e.g., comparing implied forward rates to survey-based rate expectations)."

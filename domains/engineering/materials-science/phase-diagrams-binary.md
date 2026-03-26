@@ -50,7 +50,7 @@ Start with the isomorphous (fully soluble) Cu-Ni system to practice reading sing
   answer: 1
   explanation: "The lever rule uses the distances between the alloy composition and the two phase-boundary compositions at a given temperature to compute the fraction of each phase. It does not give phase compositions (those are read directly from the diagram boundaries) nor transformation temperatures."
 
-- question: "A binary phase diagram always represents the equilibrium state, so real alloys cooled at normal rates will match it exactly."
+- question: "A binary phase diagram generally represents the equilibrium state, so real alloys cooled at normal rates will match it exactly."
   type: true-false
   answer: false
   explanation: "Phase diagrams show equilibrium, which requires infinitely slow cooling so diffusion can fully homogenize each phase. At practical cooling rates, diffusion is incomplete, producing cored (compositionally graded) microstructures whose compositions deviate from equilibrium predictions."

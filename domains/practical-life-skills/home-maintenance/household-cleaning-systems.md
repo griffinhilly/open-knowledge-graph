@@ -54,7 +54,7 @@ Create a simple checklist broken into daily/weekly/monthly categories and post i
   answer: true
   explanation: "Yes — the active ingredients in cleaners need time to break down the soil, not greater quantity. Excess product leaves sticky or filmy residue that actually attracts more dirt. Following label directions (correct dilution, recommended dwell time) is more effective than doubling the dose."
 
-- question: "Bleach and vinegar make an effective all-purpose cleaning combination because they target different types of stains simultaneously."
+- question: "Bleach and vinegar make an effective most-purpose cleaning combination because they target different types of stains simultaneously."
   type: true-false
   answer: false
   explanation: "This is a dangerous misconception. Bleach (a base) and vinegar (an acid) react chemically to produce chlorine gas, which is toxic to the respiratory system — even at concentrations reachable in a closed bathroom. They must never be mixed. The correct approach is to match the right single agent to the specific soil type: acids for minerals, alkaline degreasers for grease, disinfectants for biological contamination."

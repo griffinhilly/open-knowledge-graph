@@ -51,7 +51,7 @@ Signal transduction often involves kinase cascades: a receptor kinase phosphoryl
   answer: true
   explanation: "This is the signal amplification property of kinase cascades. Because each kinase is an enzyme that catalyzes many phosphorylation reactions, the signal multiplies at every tier. In the MAPK cascade: one receptor activates one Ras, which activates multiple Raf molecules, each activating multiple MEK molecules, each activating multiple ERK molecules. By the third tier, the amplification can be several orders of magnitude above the initial signal. This is why minute hormone concentrations (picomolar to nanomolar) can produce robust cellular responses."
 
-- question: "Protein kinase cascades function only as signal amplifiers; they cannot integrate inputs from multiple upstream pathways."
+- question: "Protein kinase cascades function primarily as signal amplifiers; they can seldom integrate inputs from multiple upstream pathways."
   type: true-false
   answer: false
   explanation: "Kinase cascades are also signal integrators. Each kinase in a cascade can be phosphorylated and regulated by multiple upstream kinases, by scaffolding proteins that bring cascade components into physical proximity, and by feedback loops (both positive, sharpening the response, and negative, dampening overactivation). Multiple extracellular signals can converge on the same kinase node, and the output depends on the combined activity of all inputs. This integrative capacity allows cascades to produce context-dependent, switch-like responses rather than simple proportional relays."

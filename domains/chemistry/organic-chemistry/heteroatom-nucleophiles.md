@@ -57,7 +57,7 @@ Draw the tetrahedral intermediate for each combination of acyl derivative and he
   answer: 1
   explanation: "This is the nucleophilicity-vs-basicity distinction. Thiolate is a weaker base than alkoxide, but a better nucleophile in protic solvents. The reason is polarizability: sulfur's large, diffuse electron cloud begins to overlap with the electrophilic carbon at greater distance, lowering the activation barrier for attack. This is the same principle that makes I⁻ a better nucleophile than F⁻ in SN2, despite fluoride being far more basic."
 
-- question: "The tetrahedral intermediate in nucleophilic acyl substitution is a transition state — it exists only at the energy maximum and has no measurable lifetime."
+- question: "The tetrahedral intermediate in nucleophilic acyl substitution is a transition state — it exists primarily at the energy maximum and has no measurable lifetime."
   type: true-false
   answer: false
   explanation: "The tetrahedral intermediate is a true intermediate, not a transition state. It occupies a local energy minimum on the reaction coordinate, has a finite (though brief) lifetime, and can in principle be detected spectroscopically. The transition states are the two energy maxima flanking it — one for the nucleophile's attack and one for the leaving group's departure. Conflating intermediates with transition states is a common error in mechanism analysis."

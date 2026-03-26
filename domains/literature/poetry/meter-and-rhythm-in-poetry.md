@@ -56,7 +56,7 @@ Read lines aloud while marking stressed syllables with slashes and unstressed wi
   answer: 1
   explanation: "Meter is the abstract, prescribed pattern of stressed and unstressed syllables (e.g., iambic pentameter). Rhythm is what you actually hear when the poem is read — it is shaped by meter but also by phrasing, pauses, and natural speech stress. A poet may write in strict iambic pentameter yet produce very different rhythmic effects depending on word choice."
 
-- question: "A line of iambic pentameter must have exactly 10 syllables that alternate perfectly between unstressed and stressed, with no exceptions or substitutions allowed."
+- question: "A line of iambic pentameter is expected to have exactly 10 syllables that alternate perfectly between unstressed and stressed, with no exceptions or substitutions allowed."
   type: true-false
   answer: false
   explanation: "While iambic pentameter has a baseline pattern of five iambic feet (da-DUM × 5, or 10 syllables), poets regularly introduce substitutions — a trochee, spondee, or pyrrhic foot — for expressive effect. A single deviation does not 'break' the meter; it creates tension against it. Strict adherence to the pattern with zero variation would produce monotonous verse."

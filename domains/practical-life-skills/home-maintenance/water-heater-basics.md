@@ -61,7 +61,7 @@ Locate your water heater, identify its type and age (from the label), check the 
   answer: true
   explanation: "Minerals (primarily calcium and magnesium) precipitate from heated water and accumulate on the tank floor over years. This sediment layer acts as thermal insulation between the heating element and the water, making the heater run longer and hotter to reach temperature. The added heat stress accelerates corrosion of the tank floor. Annual flushing — attaching a hose to the drain valve and running water until clear — removes this sediment."
 
-- question: "A tankless water heater eliminates all hot water limitations because it heats water on demand rather than storing a finite supply."
+- question: "A tankless water heater eliminates most hot water limitations because it heats water on demand rather than storing a finite supply."
   type: true-false
   answer: false
   explanation: "Tankless heaters eliminate standby heat loss and the finite-tank constraint, but they have flow-rate limits — the heater can only warm water passing through it up to a certain gallons-per-minute rate. Running multiple simultaneous hot-water draws (shower + dishwasher + laundry) can exceed this limit. Additionally, the water still travels through pipes before reaching the faucet, so there is always some delay — 'instant' refers to the heating, not the delivery."

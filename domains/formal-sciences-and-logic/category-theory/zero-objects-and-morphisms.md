@@ -52,7 +52,7 @@ A zero object is simultaneously both initial and terminal—a unique morphism ex
   answer: true
   explanation: "This follows from the universal property. Suppose 0 and 0' are both zero objects. Since 0 is initial, there is a unique morphism f: 0 → 0'. Since 0' is initial, there is a unique morphism g: 0' → 0. The composite g∘f: 0 → 0 must equal the identity (since 0 is initial, there is only one morphism 0 → 0). Similarly f∘g = id_{0'}. So f and g are mutual inverses — they are isomorphisms. This is the standard uniqueness argument for universal objects: initial objects, terminal objects, and zero objects are all unique up to unique isomorphism."
 
-- question: "Zero morphisms are trivial and structurally unimportant — they simply represent 'doing nothing' and have no consequences for the category."
+- question: "Zero morphisms are trivial and structurally unimportant — they simply represent 'doing very little' and have no consequences for the category."
   type: true-false
   answer: false
   explanation: "Zero morphisms are foundational to categorical algebra. Their absorptive property (f ∘ 0_{AB} = 0_{CB} and 0_{AB} ∘ g = 0_{AC}) makes them behave like zero in a ring. More importantly, zero morphisms are required to define kernels and cokernels categorically: the kernel of f : A → B is the equalizer of f and the zero morphism 0_{AB}. Without canonical zero morphisms, these fundamental constructions are undefined, and homological algebra — exact sequences, chain complexes, derived functors — cannot be developed in the category. The zero morphism is the categorical counterpart of the number zero: essential, not trivial."

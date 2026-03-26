@@ -52,7 +52,7 @@ Create two lists: one of things you can touch, see, smell, taste, or hear (concr
   answer: true
   explanation: "True. This is a useful practical test. You can photograph an apple, a cathedral, or a thunderstorm — each is directly perceivable. But you cannot photograph 'freedom' itself, only a person acting freely. You cannot photograph 'grief,' only a grieving face. The photograph test works because cameras capture sensory data — light reflected from physical things — and abstract nouns don't exist in that sensory-physical domain."
 
-- question: "Abstract nouns are always rare, complex, or academic words — common everyday words like 'love' and 'time' are concrete because everyone understands them."
+- question: "Abstract nouns are typically rare, complex, or academic words — common everyday words like 'love' and 'time' are concrete because everyone understands them."
   type: true-false
   answer: false
   explanation: "False. Many of the most everyday, familiar words in the language are abstract nouns: love, time, fun, hope, luck, responsibility, beauty, peace. Abstract simply means not perceivable by the senses — it has nothing to do with rarity or difficulty. In fact, abstract nouns often name the concepts humans care about most, which is why they appear so frequently in ordinary speech."

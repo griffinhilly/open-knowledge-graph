@@ -47,7 +47,7 @@ Bonds are classified based on electronegativity difference and electron behavior
   answer: 1
   explanation: "The student is confusing 'non-zero ΔEN' with 'ionic bonding.' The threshold for ionic character is roughly ΔEN > 1.7. At ΔEN = 1.0, bonding is polar covalent: fluorine pulls the shared electrons closer, creating partial charges (δ⁺ on N, δ⁻ on F), but the electrons are not fully transferred. Option D contains a useful heuristic but is not a principled explanation — the ΔEN framework is the correct approach, not element-type rules. The 1.7 threshold itself is a guideline, not a sharp boundary."
 
-- question: "The boundary between ionic and covalent bonding is sharp: a bond is either ionic or covalent, never intermediate."
+- question: "The boundary between ionic and covalent bonding is sharp: a bond is either ionic or covalent, seldom intermediate."
   type: true-false
   answer: false
   explanation: "Bonding is a continuous spectrum based on ΔEN, not three discrete categories. The 1.7 threshold is a guideline, not a sharp boundary. Real bonds near this value have partial ionic and partial covalent character — HCl, for example, has polar covalent bonding with measurable partial charges but is not fully ionic. As ΔEN increases from 0 (pure covalent, like H₂) toward large values (approaching pure ionic, like CsF at ΔEN ≈ 3.2), bonding character transitions gradually. The spectrum model is more accurate than a three-bin classification."

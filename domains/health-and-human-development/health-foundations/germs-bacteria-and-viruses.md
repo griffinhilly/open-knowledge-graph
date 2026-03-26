@@ -45,7 +45,7 @@ Use size comparisons: if a human cell were the size of a school, a bacterium wou
   answer: 1
   explanation: "Influenza (flu) is caused by a virus. Antibiotics are designed to kill or inhibit bacteria by targeting structures (like cell walls) that bacteria have but viruses lack. Since viruses are fundamentally different from bacteria -- they're not even technically alive -- antibiotics have no effect on them. Prescribing antibiotics for viral infections is not just useless; it contributes to antibiotic resistance, making bacterial infections harder to treat in the future."
 
-- question: "All bacteria are germs that make you sick."
+- question: "Most bacteria are germs that make you sick."
   type: true-false
   answer: false
   explanation: "Only a small percentage of bacteria species cause disease in humans. Your body contains trillions of beneficial bacteria, especially in your digestive system (gut flora), that help you digest food, produce vitamins, and crowd out harmful bacteria. Bacteria are also used to make yogurt, cheese, and certain medicines. The word 'germ' specifically refers to microorganisms that cause disease, and most bacteria do not qualify."

@@ -54,7 +54,7 @@ Pick a familiar recipe and adapt it for one restriction at a time (e.g., make a 
   answer: 2
   explanation: "Celiac disease is an autoimmune condition triggered by even trace amounts of gluten — not the large amounts that would visibly contaminate food. Gluten is a protein; boiling does not destroy it. The pasta water from wheat pasta contains dissolved gluten, which transfers to the gluten-free pasta. For someone with celiac disease, this dish would likely trigger a reaction. Cooking safely for allergies means treating the preparation environment with the same care as the ingredient list: separate pots, clean surfaces, dedicated utensils."
 
-- question: "Gluten-free flour can be substituted one-to-one for all-purpose flour in most baking recipes because both are powder-based and behave the same way when combined with liquid."
+- question: "Gluten-free flour can be substituted one-to-one for most-purpose flour in most baking recipes because both are powder-based and behave the same way when combined with liquid."
   type: true-false
   answer: false
   explanation: "All-purpose flour contains gluten proteins that form an elastic network when hydrated and worked — giving bread its chew, holding rising bubbles, and giving pasta its bite. Gluten-free flours (rice, almond, oat) lack these proteins entirely. Swapping one-to-one produces crumbly, dense results. Successful gluten-free baking requires structural binders (xanthan gum, psyllium husk) to partially mimic the protein network, and often different hydration ratios. It is a different chemistry, not a simple substitution."

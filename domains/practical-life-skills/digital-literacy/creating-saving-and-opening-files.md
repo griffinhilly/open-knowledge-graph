@@ -56,7 +56,7 @@ Open a word processor, create a document, type text, and save with a clear name.
   answer: 1
   explanation: "'Save As' saves a copy of the current state of the document under a new name or location, leaving the original file unchanged at its original name and location. This is useful for creating variations without overwriting your current version. Only a direct 'Save' (Ctrl+S) overwrites the file you opened."
 
-- question: "Once you save a file for the first time, all future changes are automatically preserved each time you close the program."
+- question: "Once you save a file for the first time, most future changes are automatically preserved each time you close the program."
   type: true-false
   answer: false
   explanation: "The first save establishes the file's name and location on disk. But every change you make afterward exists only in RAM until you save again. Closing the program or losing power after making changes — without saving again — discards all changes made since the last save. You must explicitly save after every significant change you want to keep."

@@ -40,7 +40,7 @@ Narrative does not work the same way across all literary traditions. What counts
   answer: 1
   explanation: "Circular narrative structure is not merely a formal technique — it encodes a cultural conception of time as cyclical rather than linear, of history as recurring rather than directed toward progress. This is the central insight of cross-cultural narrative study: formal choices carry embedded cultural assumptions about time, agency, causation, and meaning. Options A, C, and D are structural variations but do not illustrate structure-as-worldview in the same direct way."
 
-- question: "The three-act narrative structure (setup, confrontation, resolution) is a universal feature of storytelling found across all human literary traditions."
+- question: "The three-act narrative structure (setup, confrontation, resolution) is a universal feature of storytelling found across most human literary traditions."
   type: true-false
   answer: false
   explanation: "The three-act structure is a specific Western convention with roots in Aristotelian dramatic theory. Many other traditions organize narrative differently: the Arabic frame-narrative tradition (*One Thousand and One Nights*) uses embedded stories-within-stories with no single resolution; Japanese Heian-period fiction (*The Tale of Genji*) moves through associative, seasonal, and emotional patterns rather than linear causal plot; some oral traditions favor episodic accumulation over forward momentum toward climax. What feels structurally 'natural' to readers in one tradition is a learned convention, not a cognitive universal."

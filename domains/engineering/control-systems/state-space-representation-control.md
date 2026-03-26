@@ -57,7 +57,7 @@ Practice converting second-order differential equations into companion-form stat
   answer: 1
   explanation: "The eigenvalues of A are the poles of the system — they are the values of s where det(sI - A) = 0, which is the characteristic equation. Eigenvalues with negative real parts correspond to stable decaying modes; positive real parts indicate instability; imaginary parts produce oscillation. This is exactly the same information as the poles of the transfer function H(s) = C(sI-A)⁻¹B + D."
 
-- question: "For a given physical system, there is exactly one valid set of state variables, and those variables must correspond to measurable physical quantities like position and velocity."
+- question: "For a given physical system, there is exactly one valid set of state variables, and those variables should correspond to measurable physical quantities like position and velocity."
   type: true-false
   answer: false
   explanation: "State variables are not unique. Any invertible linear transformation T applied to a valid state vector x yields new state variables x̃ = Tx, with transformed matrices Ã = TAT⁻¹, B̃ = TB, C̃ = CT⁻¹ — a different but equally valid representation of the same system. The input-output behavior (transfer function) is identical for all equivalent representations. State variables are mathematical constructs chosen for computational convenience, not necessarily tied to physical quantities."

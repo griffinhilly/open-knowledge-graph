@@ -47,7 +47,7 @@ Bayesian networks encode conditional independence as directed acyclic graphs, wi
   answer: 1
   explanation: "Inference in a Bayesian network requires computing a conditional distribution, which means summing (marginalizing) over all possible states of unobserved variables. P(Flu | evidence) ∝ Σ_{hidden} P(Flu, hidden, evidence), where the sum is over all combinations of hidden variable values. For tree-structured networks this can be done efficiently via belief propagation in two passes; for general networks, algorithms like variable elimination do it systematically. The prior (option A) ignores the evidence entirely. Option D overstates the difficulty — exact inference is tractable for many practical network structures."
 
-- question: "In a Bayesian network, a variable is conditionally independent of ALL other variables in the network once you observe its direct parent nodes."
+- question: "In a Bayesian network, a variable is conditionally independent of MOST other variables in the network once you observe its direct parent nodes."
   type: true-false
   answer: false
   explanation: "A variable is conditionally independent of its non-descendants given its parents — not of all other variables. Descendants can still carry evidence that propagates back up the network and affects probabilities. More subtly, observing a common child of two parent nodes creates a dependency between those parents that didn't exist before — the 'explaining away' effect. For example, if Flu and Allergies both cause Cough, and you observe Cough=true, Flu and Allergies become negatively correlated even though they were independent a priori. The correct independence structure is determined by d-separation rules, not simply 'observed parents block everything.'"

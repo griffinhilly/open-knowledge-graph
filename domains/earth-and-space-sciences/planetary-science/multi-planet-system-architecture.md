@@ -54,7 +54,7 @@ Planetary systems exhibit characteristic architectures (compact, widely-spaced, 
   answer: false
   explanation: "Current architecture is a fossil record of both formation AND subsequent dynamical evolution, which can reshape a system dramatically. Planets migrate during disk lifetimes, resonances are captured and broken, instability events scatter or eject planets, and giant impacts rearrange inner systems. Our own Solar System's architecture was likely altered by the Nice model instability, during which Jupiter and Saturn crossed a mutual mean-motion resonance and scattered Uranus, Neptune, and vast numbers of small bodies. The architecture we observe today is the end state of this violent history."
 
-- question: "Orbital resonances between planets always act as a stabilizing influence, protecting adjacent planets from gravitational close encounters."
+- question: "Orbital resonances between planets typically act as a stabilizing influence, protecting adjacent planets from gravitational close encounters."
   type: true-false
   answer: false
   explanation: "Resonances can either stabilize or destabilize systems depending on context. Stable resonances (like the Laplace resonance of Io, Europa, and Ganymede, or the 3:2 resonance of Neptune and Pluto) protect planets from close encounters through phase-locking. But resonances can also pump eccentricities over time — particularly when a resonance is slowly broken — causing orbits to become increasingly elongated until close encounters occur. The same resonance that stabilizes a system during smooth migration can destabilize it when the disk disperses and the resonance is no longer actively maintained."

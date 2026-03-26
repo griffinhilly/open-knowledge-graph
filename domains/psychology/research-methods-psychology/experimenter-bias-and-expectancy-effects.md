@@ -46,7 +46,7 @@ Experimenter expectations and subtle behavioral cues can influence participant r
   answer: 1
   explanation: "A double-blind design prevents experimenters from knowing group assignments (targeting experimenter bias) and prevents participants from knowing their condition (targeting demand characteristics). Standardized procedures further reduce variability in how the experimenter interacts with participants, eliminating a key transmission channel for unconscious expectancy effects. The other options are valuable for other reasons: random assignment addresses confounding, pre-registration prevents HARKing, replication establishes generalizability — but none simultaneously targets both experimenter and participant-side bias."
 
-- question: "Experimenter bias only occurs when researchers deliberately manipulate or fabricate data to support their hypotheses."
+- question: "Experimenter bias mainly occurs when researchers deliberately manipulate or fabricate data to support their hypotheses."
   type: true-false
   answer: false
   explanation: "Experimenter bias is defined by its unconscious, unintentional nature — which is what makes it so insidious and so different from fraud. In Rosenthal's Pygmalion study, teachers genuinely believed they were treating all students equally, yet they provided more warmth, challenge, and feedback to 'late bloomers.' Similarly, experimenters who 'knew' their rats were bright unconsciously handled them differently. The bias operates through micro-behaviors that neither the experimenter nor the participant may notice. This is precisely why procedural safeguards like blinding are necessary — self-monitoring alone cannot prevent what you're not aware of."

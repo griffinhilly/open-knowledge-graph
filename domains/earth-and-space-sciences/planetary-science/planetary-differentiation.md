@@ -54,7 +54,7 @@ Compare meteorite types (iron, stony-iron, stony) with planetary layering models
   answer: 2
   explanation: "The early solar system contained abundant short-lived radioisotopes (especially Al-26, with a half-life of ~0.7 Myr) that released enormous heat before decaying away. Simultaneously, the energy released as dense iron sank through lighter silicates — converting gravitational potential energy to heat — provided additional melting. Together, these made wholesale differentiation possible within the first few tens of millions of years."
 
-- question: "All asteroids in the solar system are undifferentiated primitive bodies that preserve the original composition of the solar nebula."
+- question: "Most asteroids in the solar system are undifferentiated primitive bodies that preserve the original composition of the solar nebula."
   type: true-false
   answer: false
   explanation: "Several asteroid parent bodies, including the Vesta-family and the parent bodies of iron meteorites, underwent differentiation. Iron meteorites are essentially the exposed cores of destroyed differentiated planetesimals. The existence of differentiated asteroids shows that even relatively small bodies can differentiate if they form early enough to contain sufficient Al-26."

@@ -47,7 +47,7 @@ A field is a commutative ring with unity where every nonzero element has a multi
   answer: 1
   explanation: "Every field is an integral domain: if ab = 0 in a field and a ≠ 0, multiply both sides by a⁻¹ to get b = 0, so there are no zero divisors. But the converse fails — ℤ is an integral domain (no zero divisors) yet 2 has no multiplicative inverse in ℤ, so ℤ is not a field. The integers are the canonical counterexample showing the inclusion is strict."
 
-- question: "Every integral domain is a field."
+- question: "Nearly every integral domain is a field."
   type: true-false
   answer: false
   explanation: "The integers ℤ are an integral domain — they have no zero divisors — but ℤ is not a field because most elements lack multiplicative inverses. For example, 2 has no inverse in ℤ because 1/2 ∉ ℤ. A field is a strictly stronger structure: it requires multiplicative inverses for all nonzero elements, not just the absence of zero divisors."

@@ -55,7 +55,7 @@ Compare destruction mechanisms: complement-mediated (MAC formation), ADCC (FcγR
   answer: true
   explanation: "Unlike Type III hypersensitivity, where immune complexes deposit wherever blood flows (especially in vessel walls and glomeruli), Type II disease is targeted to whatever cell or tissue displays the antigen the antibody recognizes. Hemolytic anemia occurs because anti-RBC antibodies are specific for red blood cell surface antigens; Graves' disease affects only the thyroid because the TSH receptor is thyroid-specific. Organ specificity is a direct consequence of antigen specificity."
 
-- question: "Type II hypersensitivity reactions always result in destruction of the target cell, making them uniformly cytotoxic."
+- question: "Type II hypersensitivity reactions usually result in destruction of the target cell, making them uniformly cytotoxic."
   type: true-false
   answer: false
   explanation: "Type II reactions range from cell destruction (hemolytic anemia, hemolytic transfusion reactions) to receptor activation without destruction (Graves' disease — thyroid hyperstimulation) to receptor blockade without destruction (myasthenia gravis — impaired neuromuscular transmission). The common thread is antibody binding to a cell-surface or matrix-bound antigen, not the outcome. The clinical picture depends entirely on what the antibody binds and what happens when it does."

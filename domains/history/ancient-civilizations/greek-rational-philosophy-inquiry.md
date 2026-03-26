@@ -56,7 +56,7 @@ Greek philosophy rejected all tradition and religion—philosophers engaged with
   answer: true
   explanation: "Socrates repeatedly claimed his goal was to expose hidden ignorance — including his own — not to teach or embarrass. The state of aporia (puzzlement) that results from successful elenchus is considered epistemically valuable: recognizing that you do not understand something you thought you understood is the beginning of genuine inquiry. Socrates' claim to know nothing was a methodological commitment: genuine inquiry requires starting from acknowledged uncertainty rather than confident but unexamined assumptions."
 
-- question: "Greek rational philosophy represented a complete break from religious and mythological frameworks, replacing them entirely with secular reasoning."
+- question: "Greek rational philosophy represented a complete break from religious and mythological frameworks, replacing them mostly with secular reasoning."
   type: true-false
   answer: false
   explanation: "This is a persistent misconception. Greek philosophers engaged extensively with religion and mythology. Socrates insisted he was guided by a divine daimon and was charged partly with impiety. Plato's Form of the Good has quasi-divine attributes and his cosmology in the Timaeus involves a divine creator. Aristotle's 'unmoved mover' in his physics is divine. The shift from mythos to logos was a methodological shift toward reason and argument — not a rejection of the divine. Philosophers questioned naive anthropomorphism and specific myths, but they did not create a secular philosophy in the modern sense."

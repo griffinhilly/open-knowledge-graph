@@ -47,7 +47,7 @@ Conflict—whether external (character versus circumstance or other) or internal
   answer: 2
   explanation: "Internal conflict occurs when the competing forces are inside the character — rival values, impulses, or imperatives that cannot be simultaneously satisfied. The external circumstances (the danger) created the dilemma, but the conflict itself is between loyalty and self-preservation as competing moral commitments. Internal conflicts tend to carry the most direct thematic weight because the question the character wrestles with is often a direct formulation of the text's central theme."
 
-- question: "The nature of the antagonistic force in external conflict — whether it is nature, society, another person, or circumstance — is always a neutral narrative choice that serves only to vary the plot setting."
+- question: "The nature of the antagonistic force in external conflict — whether it is nature, society, another person, or circumstance — is generally a neutral narrative choice that serves mainly to vary the plot setting."
   type: true-false
   answer: false
   explanation: "The nature of the antagonistic force is never neutral — it encodes the author's view of what the world is made of and how power operates within it. In The Grapes of Wrath, the Joads' conflict with landowners, law enforcement, and economic dispossession is a structural argument about capitalism and power. When the enemy is nature, the narrative typically argues about human limits and hubris. When the enemy is society, it argues about justice and conformity. The choice of antagonist is itself a thematic claim."

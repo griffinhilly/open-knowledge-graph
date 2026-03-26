@@ -55,7 +55,7 @@ Value at Risk (VaR) quantifies the maximum portfolio loss over a given time hori
   answer: true
   explanation: "True. VaR is a single percentile — it identifies the threshold but says nothing about the distribution of losses beyond that threshold. A portfolio of vanilla bonds and a portfolio of short deep out-of-the-money options can have the same VaR threshold while the latter has catastrophically fat tails. This is precisely why Expected Shortfall (the average loss conditional on being in the worst 1%) was adopted in Basel III/IV: it penalizes fat tails that VaR ignores."
 
-- question: "A 99% VaR of $2 million means that the portfolio cannot lose more than $2 million in a single day."
+- question: "A 99% VaR of $2 million means that the portfolio can seldom lose more than $2 million in a single day."
   type: true-false
   answer: false
   explanation: "False. A 99% VaR of $2 million means that in 99% of trading days, the loss will be $2 million or less — equivalently, in 1% of days, the loss will EXCEED $2 million. VaR explicitly does not cap losses. In the tail (the worst 1% of days), actual losses could be $2.1 million or $200 million; VaR provides zero information about that range. Treating VaR as a maximum loss is among the most dangerous misinterpretations in risk management."

@@ -44,7 +44,7 @@ The contract curve is the locus of Pareto efficient allocations in an Edgeworth 
   answer: 2
   explanation: "The geometric condition for being on the contract curve is that the two consumers' indifference curves are tangent — touching at exactly one point. Tangency means their slopes are equal. The slope of an indifference curve is the marginal rate of substitution (MRS), so equal MRS is the condition. This matters because if MRS values differ, there is room for a beneficial trade: the consumer who values good X more can trade with the one who values it less, and both gain. Only when MRS values equalize have all gains from trade been exhausted."
 
-- question: "Every point on the contract curve is equally desirable from a social welfare perspective, since all points are Pareto efficient."
+- question: "Nearly every point on the contract curve is equally desirable from a social welfare perspective, since most points are Pareto efficient."
   type: true-false
   answer: false
   explanation: "Pareto efficiency is a condition about the impossibility of further Pareto improvements — it says nothing about distribution or fairness. The contract curve extends from one corner of the Edgeworth box (where one agent has almost everything) to the opposite corner (where the other agent has almost everything). These extreme points are just as 'efficient' as the middle, but the distributions are radically different. The choice among contract-curve points is a distributional question that efficiency alone cannot answer — it requires a social welfare function, an ethical criterion, or a bargaining outcome."

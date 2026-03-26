@@ -46,7 +46,7 @@ Broca's area (inferior frontal cortex) implements speech production and syntacti
   answer: 2
   explanation: "Fluent speech with semantic paraphasias (real words substituted incorrectly) and severely impaired comprehension is the signature of Wernicke's aphasia. Wernicke's area is critical for accessing word meaning and for monitoring whether one's own output matches communicative intent — its damage breaks both. Broca's aphasia would produce non-fluent speech. Conduction aphasia primarily disrupts repetition, not comprehension."
 
-- question: "Broca's area only contributes to language during speech production; it plays no role in comprehension."
+- question: "Broca's area primarily contributes to language during speech production; it plays no role in comprehension."
   type: true-false
   answer: false
   explanation: "This is a common oversimplification. Modern neuroimaging shows Broca's area is active during comprehension tasks, and Broca's aphasia impairs comprehension of grammatically complex sentences (passives, center-embedded relative clauses) even when simple sentence comprehension is preserved. This makes sense if Broca's area implements syntactic processing — a process needed both to produce and to parse grammatical structure."

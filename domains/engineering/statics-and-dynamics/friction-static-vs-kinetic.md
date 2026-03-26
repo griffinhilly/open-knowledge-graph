@@ -56,7 +56,7 @@ Perform experiments on inclined planes, measuring angles at which objects start 
   answer: 0
   explanation: "Once surfaces are in relative sliding motion, kinetic friction applies — always. The fact that velocity is constant means the net force is zero, but that is a consequence of the applied push equaling μₖN, not an indication that static friction is at work. Static friction only applies when surfaces are not sliding. μₛ > μₖ for essentially all real material pairs, so using μₛ would give an overestimate."
 
-- question: "Static friction always equals μₛN whenever the surfaces in contact are stationary."
+- question: "Static friction typically equals μₛN whenever the surfaces in contact are stationary."
   type: true-false
   answer: false
   explanation: "Static friction is a variable reaction force in the range 0 ≤ f_s ≤ μₛN. It equals exactly what equilibrium demands — no more, no less. When no horizontal force acts on a stationary block, static friction is zero. As applied force increases, static friction increases to match it. Only at the moment of impending motion does it reach μₛN. Treating μₛN as the default value leads to incorrect free-body diagrams."

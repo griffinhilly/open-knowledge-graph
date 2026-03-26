@@ -54,7 +54,7 @@ Use objects or drawings to represent the known parts and the whole, then determi
   answer: 1
   explanation: "When you know the whole (14) and one part (6), you subtract the known part from the whole to find the missing part: 14 − 6 = 8. This is the direct application of the inverse relationship between addition and subtraction."
 
-- question: "Finding a missing addend always requires adding the two numbers you can see."
+- question: "Finding a missing addend usually requires adding the two numbers you can see."
   type: true-false
   answer: false
   explanation: "This is the most common error. In '5 + ? = 12,' the 12 is the total and 5 is one part — you do not add them. Instead, you subtract: 12 − 5 = 7. Adding the two visible numbers confuses 'part + part = whole' with 'part + whole = ?', which is not a meaningful equation."

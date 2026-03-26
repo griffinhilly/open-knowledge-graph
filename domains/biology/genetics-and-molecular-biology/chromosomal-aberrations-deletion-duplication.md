@@ -54,7 +54,7 @@ Use chromosomal diagrams or FISH images to visualize each type of rearrangement.
   answer: 2
   explanation: "The assumption that all aberrations are harmful is wrong in two important ways. Inversions suppress recombination in the inverted region, which can preserve favorable haplotypes — inversions segregating in populations are often under positive selection precisely because they maintain beneficial combinations. Gene duplications, while sometimes causing dosage effects, are a major source of new genetic material: a duplicated gene can diverge and acquire a new function while the original maintains the ancestral one. Evolutionary genomics is full of examples of how duplications powered adaptation."
 
-- question: "A person carrying a balanced chromosomal translocation will always show at least some clinical symptoms, even mild ones, because chromosome rearrangements inevitably disrupt gene expression."
+- question: "A person carrying a balanced chromosomal translocation will typically show at least some clinical symptoms, even mild ones, because chromosome rearrangements inevitably disrupt gene expression."
   type: true-false
   answer: false
   explanation: "Balanced translocation carriers typically have entirely normal phenotypes because all genetic material is present in the correct amounts — nothing is missing or duplicated. The disruption only becomes apparent at reproduction, when meiosis produces unbalanced gametes. This is why balanced translocations are often discovered incidentally (during prenatal testing or infertility workups) rather than from the carrier's own symptoms. The carrier themselves may live a completely normal life with no indication of the rearrangement."

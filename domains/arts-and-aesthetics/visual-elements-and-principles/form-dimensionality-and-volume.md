@@ -40,7 +40,7 @@ Study how artists create the illusion of form through shading, perspective, and 
   answer: 1
   explanation: "Shading based on a light source creates the illusion of volume — the gradation from light to shadow tells the viewer that the surface is curved in three dimensions, turning the flat circle into a sphere. Thicker outlines, repositioning, or color changes alone do not create a sense of three-dimensional volume."
 
-- question: "Thinking in terms of form and dimensionality is only relevant when creating realistic, representational artwork."
+- question: "Thinking in terms of form and dimensionality is primarily relevant when creating realistic, representational artwork."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Even abstract and graphic design work benefits from understanding form: how shapes create a sense of depth through overlap, scale, and spatial relationships affects how a viewer reads any composition, not just realistic ones. A designer using flat shapes still makes decisions about figure-ground relationships and perceived depth."

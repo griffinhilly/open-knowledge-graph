@@ -53,7 +53,7 @@ Build on students' existing knowledge of slope-intercept form by rewriting y = m
   answer: 1
   explanation: "In this context, the student is wrong. The real-world scenario restricts the domain: x must be a non-negative integer (you can't send −5 texts or 2.7 texts). The *mathematical* function f(x) = 0.10x + 30 has all real numbers as its domain, but context can and does restrict it. This distinction — between the pure mathematical domain and the contextually constrained domain — is a key skill in linear functions. The answer is B: the context forces a restriction to whole numbers ≥ 0."
 
-- question: "For a non-zero linear function f(x) = mx + b, the range is always a proper subset of the real numbers."
+- question: "For a non-zero linear function f(x) = mx + b, the range is generally a proper subset of the real numbers."
   type: true-false
   answer: false
   explanation: "False. For f(x) = mx + b with m ≠ 0, the range is *all* real numbers. As x takes every real number value, mx + b hits every real number — the output grows without bound as x increases or decreases. The range is only restricted if m = 0 (a horizontal line), in which case the range is the single value {b}, or if the context restricts the domain. The common misconception is thinking range must be limited the way it is for quadratics or other non-linear functions."

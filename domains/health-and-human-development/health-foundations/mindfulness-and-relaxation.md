@@ -49,7 +49,7 @@ Practice in class: lead a 3-minute guided breathing exercise (breathe in for 4 c
   answer: 1
   explanation: "A wandering mind is not a failure of mindfulness -- it's the training opportunity. Mindfulness is not about achieving a blank mind. It's about noticing what your mind is doing and gently redirecting attention back to the present moment. Each time you notice your mind has wandered and bring it back, you're doing a mental 'rep' that strengthens your attention. Minds wander -- that's what they do. The skill is in the noticing and returning."
 
-- question: "Deep breathing exercises can only help you feel calmer because of a placebo effect -- they don't actually change anything in your body."
+- question: "Deep breathing exercises can mainly help you feel calmer because of a placebo effect -- they don't actually change anything in your body."
   type: true-false
   answer: false
   explanation: "Deep, slow breathing directly activates the parasympathetic nervous system (the 'rest and digest' branch), which counteracts the fight-or-flight stress response. Specifically, slow exhalation stimulates the vagus nerve, which lowers heart rate, reduces blood pressure, and decreases cortisol levels. These are measurable physiological changes, not placebo effects. Breathing is one of the few bodily functions that operates both automatically and under voluntary control, making it a direct bridge between conscious action and unconscious stress regulation."

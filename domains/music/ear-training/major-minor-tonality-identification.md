@@ -66,7 +66,7 @@ Listen to matched pairs of short melodies — one major, one minor, otherwise id
   answer: 1
   explanation: "The third scale degree is what fundamentally distinguishes major from minor tonality. A major third (4 semitones) above the tonic gives the open, bright quality of major; a minor third (3 semitones) gives the darker quality of minor. Tempo (option A) affects emotional character but not mode. Key signatures (option C) are a notational artifact that cannot be heard directly. Option D is simply false."
 
-- question: "All music in a major key sounds happy, and all music in a minor key sounds sad."
+- question: "Most music in a major key sounds happy, and most music in a minor key sounds sad."
   type: true-false
   answer: false
   explanation: "These are statistical tendencies in Western music, not absolute rules. Many minor-key works are fierce, triumphant, or energetic; many major-key works are wistful or melancholic. Tempo, dynamics, articulation, melody, and cultural context all shape emotional character — tonality is one input among many."

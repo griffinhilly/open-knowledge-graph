@@ -46,7 +46,7 @@ Counterfactual conditionals are analyzed using possible worlds ordered by simila
   answer: 1
   explanation: "The closest-worlds analysis evaluates a counterfactual by fixing the actual world as the reference point, identifying worlds where the antecedent holds (Napoleon wins at Waterloo), ordered by similarity to actuality, and checking whether the consequent holds in the nearest such worlds. The similarity ordering keeps past history largely fixed and allows the counterfactual consequence to unfold into the future from the point of divergence. Option A describes the backtracking reading — tracing back in time to what must have been different — which Lewis's account treats as non-standard."
 
-- question: "On Lewis's account of counterfactuals, the standard reading of 'If Nixon had pressed the button, something in his past must have been different' is the preferred interpretation."
+- question: "On Lewis's account of counterfactuals, the standard reading of 'If Nixon had pressed the button, something in his past should have been different' is the preferred interpretation."
   type: true-false
   answer: false
   explanation: "This is the non-standard 'backtracking' reading of counterfactuals. Lewis's similarity ordering explicitly privileges the forward-looking reading: the closest worlds where Nixon presses the button are those where a small divergence from actual history (a 'local miracle') causes him to press it, but the past remains as it actually was. The counterfactual consequence then unfolds forward from that moment of divergence. The backtracking reading — in which we infer that something in the past must have been different to cause the pressing — is non-standard and requires special context to become the intended interpretation."

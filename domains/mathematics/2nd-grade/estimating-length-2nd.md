@@ -54,7 +54,7 @@ Have students estimate the length of familiar objects (pencils, desks, doors) be
   answer: 1
   explanation: "Estimates don't need to be exact — that's what measurement is for. The value of the estimate-measure-compare loop is the feedback: 'My estimate was half a foot high — desks are wider than I thought. I'll adjust my mental benchmark.' This calibration, repeated many times, gradually makes estimates more accurate. The student's conclusion inverts the purpose: a gap from the measurement is information, not failure. Without this loop, estimation never improves."
 
-- question: "Estimation is only useful when you don't have a ruler or measuring tool available."
+- question: "Estimation is primarily useful when you don't have a ruler or measuring tool available."
   type: true-false
   answer: false
   explanation: "Estimation matters even when tools are available because it builds number sense and provides a check on measurement errors. If you estimate a pencil is about 7 inches and then measure it as 24 inches, you know something went wrong — the estimate caught the error. Students who always measure without first estimating never develop calibrated benchmarks or intuition for what quantities mean in the real world. Estimation and measurement work together as a habit, not as alternatives."

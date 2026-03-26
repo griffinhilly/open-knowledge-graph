@@ -52,7 +52,7 @@ Dislocations are line defects where the crystal lattice structure is disrupted a
   answer: true
   explanation: "An edge dislocation is defined by having its Burgers vector (the lattice distortion direction) perpendicular to the dislocation line. This contrasts with a screw dislocation, where the Burgers vector is parallel to the dislocation line. Mixed dislocations have both edge and screw character."
 
-- question: "A heavily cold-worked metal is always weaker than an annealed metal of the same composition, because cold working creates many defects that disrupt the lattice."
+- question: "A heavily cold-worked metal is typically weaker than an annealed metal of the same composition, because cold working creates many defects that disrupt the lattice."
   type: true-false
   answer: false
   explanation: "Cold working makes a metal stronger, not weaker. The high dislocation density produced by cold working causes dislocations to tangle and impede each other, raising the yield stress. Annealed metals have low dislocation density and are relatively soft. This is precisely why work hardening is a useful industrial process — repeated deformation progressively increases strength."

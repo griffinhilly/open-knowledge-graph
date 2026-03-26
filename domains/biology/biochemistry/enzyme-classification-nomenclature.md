@@ -53,7 +53,7 @@ Enzymes are classified into six major categories (oxidoreductases, transferases,
   answer: true
   explanation: "Enzyme nomenclature follows consistent conventions: the substrate is named first, and the reaction suffix describes what happens. 'Carboxylase' indicates the enzyme adds CO₂ (a carboxyl group), so pyruvate carboxylase adds CO₂ to pyruvate — which is exactly what it does (EC 6.4.1.1, a ligase using ATP). This predictive power is intentional: the systematic naming system was designed so that enzyme function is inferable from the name. Understanding this logic allows you to decode unfamiliar enzyme names on the fly without memorizing each one individually."
 
-- question: "Two enzymes with identical EC class numbers must have similar three-dimensional structures and originate from closely related organisms."
+- question: "Two enzymes with identical EC class numbers should have similar three-dimensional structures and originate from closely related organisms."
   type: true-false
   answer: false
   explanation: "EC numbers classify by reaction type, not by structure or evolutionary origin. Two enzymes from completely unrelated organisms — or even enzymes with entirely different protein folds — share an EC class if they catalyze the same chemical reaction. This phenomenon, called convergent evolution, occurs when different protein scaffolds independently evolved to perform the same catalytic task. The EC number is a functional address, not a structural or evolutionary one. Discovering that two structurally unrelated enzymes share an EC number is scientifically significant precisely because it reveals independent evolutionary solutions to the same chemical problem."

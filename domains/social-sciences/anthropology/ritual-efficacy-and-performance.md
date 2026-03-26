@@ -47,7 +47,7 @@ Rituals are not merely expressive or symbolic but are believed to produce real e
   answer: 1
   explanation: "Understanding ritual efficacy means holding two levels simultaneously: participants' own causal beliefs about the ritual, and the social mechanisms through which those beliefs produce genuine effects. A healing ritual creates real consequences — reduced isolation, social support mobilization, a framework for making sense of suffering — that are genuinely therapeutic even in the absence of a biological mechanism. These social effects are not 'merely symbolic'; they are among the most powerful determinants of recovery and wellbeing. The analyst's job is not to debunk one level but to explain how both operate."
 
-- question: "Ritual efficacy is only meaningful if there is a direct physical or biological mechanism through which the ritual produces its effects."
+- question: "Ritual efficacy is mainly meaningful if there is a direct physical or biological mechanism through which the ritual produces its effects."
   type: true-false
   answer: false
   explanation: "This is the central misconception this topic addresses. Rituals produce real effects through social mechanisms — transformation of status, mobilization of community support, resolution of collective anxiety, confirmation of shared identity — that operate entirely without physical causation. An initiation ritual produces a genuinely new adult in the community's eyes: that person is treated differently, has new obligations and rights, and experiences themselves differently. These transformations are real and consequential even though no physical change caused them. Ritual efficacy is constituted by social recognition, not physical mechanism."

@@ -56,7 +56,7 @@ Use a pretrained ImageNet model and fine-tune it on a small target dataset, comp
   answer: 2
   explanation: "Transfer learning effectiveness degrades as domain distance increases. Early layers (edge detectors, texture patterns) still transfer from ImageNet to satellite imagery, but later layers encode high-level features tuned to ground-level natural images — these are far less useful for classifying overhead views of fields, buildings, or roads. More layers need fine-tuning, requiring more target data. The number of output classes (option D) is irrelevant — the final classification layer is always replaced for a new task."
 
-- question: "Transfer learning is only useful when the target task has the same output classes as the source task."
+- question: "Transfer learning is primarily useful when the target task has the same output classes as the source task."
   type: true-false
   answer: false
   explanation: "The final classification layer is always replaced for a new task — the value of transfer learning lies in reusing the intermediate feature representations, not the class labels. A model trained to classify 1,000 ImageNet categories can be adapted to a 2-class medical diagnosis task by replacing the last layer. The pretrained feature hierarchy (edges → textures → shapes → high-level patterns) is what transfers, independent of the original class set."

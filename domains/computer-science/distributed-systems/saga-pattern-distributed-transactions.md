@@ -52,7 +52,7 @@ Model a travel booking saga: reserve hotel, reserve flight, reserve car. Write c
   answer: 1
   explanation: "In distributed systems, at-most-once delivery is difficult to guarantee. A network timeout may cause a retry even though the original message was processed. A compensating transaction that runs twice must produce the same result — a 'cancel hotel' that double-refunds or throws an error on second execution breaks the recovery guarantee. Idempotence is the property that makes retries safe, which in turn makes the saga resilient to the partial failures and message duplicates that are normal in distributed environments."
 
-- question: "Sagas provide the same atomicity guarantees as two-phase commit — every step either all commits or all aborts — but without blocking on global locks."
+- question: "Sagas provide the same atomicity guarantees as two-phase commit — nearly every step either most commits or most aborts — but without blocking on global locks."
   type: true-false
   answer: false
   explanation: "Sagas provide eventual consistency, not ACID atomicity. The critical difference is that intermediate states ARE visible: other transactions can see and act on a hotel reservation before the flight is confirmed. In 2PC, the global lock prevents any other transaction from observing partial state. A saga's compensating transactions can reverse the business effect, but they cannot retroactively prevent other transactions from having observed and acted on the intermediate state. This is a fundamental tradeoff, not a free improvement over 2PC."

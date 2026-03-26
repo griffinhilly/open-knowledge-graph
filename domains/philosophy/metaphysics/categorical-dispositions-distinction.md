@@ -51,7 +51,7 @@ Categorical properties are intrinsic features an object possesses making no esse
   answer: 1
   explanation: "On the dispositionalist view, properties like mass and charge are powers — they are intrinsically 'aimed at' their effects, so laws of nature are expressions of what these powers necessarily do. On the categoricalist view, fundamental properties are purely intrinsic, descriptive states (like geometric shape) with no built-in directedness. Laws are then external constraints — contingent regularities — that bridge categorical properties to effects. This difference has major implications for causation: if properties are powers, causation is necessary; if categorical, causation requires contingent laws to connect cause to effect."
 
-- question: "A dispositional property like fragility can only be said to exist if the object actually manifests the disposition — that is, if it actually shatters."
+- question: "A dispositional property like fragility can primarily be said to exist if the object actually manifests the disposition — that is, if it actually shatters."
   type: true-false
   answer: false
   explanation: "This confuses a disposition with its manifestation. Fragility is possessed by the glass right now in virtue of its structural properties — the arrangement of molecules, crystal lattice, thickness — regardless of whether it is ever broken. If manifestation were required for possession, a solvent that was never dissolved in anything would have no solubility, which is absurd. The philosophical puzzle of dispositions is precisely that they are real, present properties that point toward merely possible circumstances."

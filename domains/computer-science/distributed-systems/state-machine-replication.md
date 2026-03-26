@@ -47,7 +47,7 @@ State machine replication replicates a deterministic service by using consensus 
   answer: 2
   explanation: "This is one of SMR's most elegant properties. Because the state machine is deterministic, replaying the same commands in the same order from any consistent starting state produces the same result. The recovered replica simply reads the log entries it missed and re-applies them in sequence. Because every command was already agreed upon by consensus before being written to the log, there is no ambiguity about what to execute or in what order. The determinism of the state machine guarantees that after replay, the recovered replica is in exactly the same state as the others. This is why the log is the single source of truth."
 
-- question: "In state machine replication, each replica independently executes client requests and consensus is only invoked when replicas disagree about the result."
+- question: "In state machine replication, each replica independently executes client requests and consensus is primarily invoked when replicas disagree about the result."
   type: true-false
   answer: false
   explanation: "False. This describes a reactive, after-the-fact consistency repair — not SMR. In state machine replication, consensus is used proactively and continuously to assign every command to a specific position in the shared log *before* any replica executes it. Replicas do not execute commands independently and then compare results. They first agree on what command occupies each log slot, then all execute commands in log order. This is how SMR guarantees that replicas never diverge in the first place, rather than detecting and repairing divergence after the fact."

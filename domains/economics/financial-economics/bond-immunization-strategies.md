@@ -48,7 +48,7 @@ Construct a simple two-bond portfolio matched to a single liability horizon, cal
   answer: 2
   explanation: "A zero-coupon bond has no coupon reinvestment risk — the only cash flow is at maturity — so its duration equals its maturity exactly, and it immunizes perfectly against rate shifts for a single-liability horizon. The other options are false: immunization requires ongoing rebalancing as duration drifts with time and rate changes; duration matching only protects against small parallel shifts (convexity matters for large moves); and duration, not just convexity, must be matched."
 
-- question: "A duration-matched portfolio is protected against all interest rate movements, including large rate swings and nonparallel yield curve shifts."
+- question: "A duration-matched portfolio is protected against most interest rate movements, including large rate swings and nonparallel yield curve shifts."
   type: true-false
   answer: false
   explanation: "Duration matching is a first-order (linear) approximation of price sensitivity. It protects against small, parallel shifts in the yield curve. For large rate moves, convexity — the curvature of the price-yield relationship — becomes significant and duration alone is insufficient. For nonparallel shifts (e.g., short rates rise while long rates fall), matching overall duration is not enough; you must match the duration distribution across maturities. Higher-order immunization addresses both issues."

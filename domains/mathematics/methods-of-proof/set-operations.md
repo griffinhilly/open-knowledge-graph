@@ -35,7 +35,7 @@ Basic set operations are union (A ∪ B, elements in either set), intersection (
   answer: 1
   explanation: "A ∩ B contains elements in both A and B simultaneously. Only 3 and 4 appear in both sets. Option A is A ∪ B (elements in either set). Option C is the symmetric difference (elements in one but not both). Option D would be the case if the sets shared no elements."
 
-- question: "For any sets A and B, the union A ∪ B always contains strictly more elements than the intersection A ∩ B."
+- question: "For any sets A and B, the union A ∪ B usually contains strictly more elements than the intersection A ∩ B."
   type: true-false
   answer: false
   explanation: "If A = B, then A ∪ B = A ∩ B = A — they are identical and have the same number of elements. More generally, A ∪ B = A ∩ B if and only if A = B. The union is always at least as large as the intersection, but equality is possible."

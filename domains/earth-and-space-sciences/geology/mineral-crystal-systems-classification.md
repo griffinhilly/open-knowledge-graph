@@ -58,7 +58,7 @@ Crystals require perfect geometric shapes visible to the naked eye. In reality, 
   answer: 2
   explanation: "Cleavage follows planes of weak bonding in the crystal structure. In mica (a phyllosilicate), strong covalent bonds within SiO₄ sheets contrast sharply with weak bonds between the layers — producing one perfect cleavage plane. In halite (NaCl, cubic), the ionic bonds are equivalent in all three crystallographic directions, so there are three equivalent cleavage planes at right angles. Option D overstates the determinism of crystal system labels: the system reflects symmetry, but the specific cleavage geometry depends on the detailed bond arrangement, not just the system name."
 
-- question: "A mineral specimen that lacks visible crystal faces and appears as an irregular mass cannot belong to one of the seven crystal systems, because crystallinity requires macroscopic geometric form."
+- question: "A mineral specimen that lacks visible crystal faces and appears as an irregular mass can seldom belong to one of the seven crystal systems, because crystallinity requires macroscopic geometric form."
   type: true-false
   answer: false
   explanation: "Crystal systems are defined by atomic-scale symmetry — the unit cell geometry and symmetry elements (rotation axes, mirror planes, inversion centers). This internal order exists whether or not the mineral grew large enough, slowly enough, and in an uncrowded enough environment to express macroscopic crystal faces. Cryptocrystalline minerals (e.g., chalcedony, a form of quartz) have no visible crystal faces yet still have a definite crystal structure and crystal system."

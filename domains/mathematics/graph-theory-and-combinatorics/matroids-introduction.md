@@ -52,7 +52,7 @@ Matroids generalize both linear independence and forests, but not all set system
   answer: true
   explanation: "Both properties follow from the theory of vector spaces. The hereditary property holds because linear independence is preserved when you remove vectors. The exchange property follows from the rank theorem: if |A| < |B|, then the span of A has smaller dimension than the span of B, so there must exist a vector in B outside the span of A — adding it to A increases the rank by 1, preserving independence. This confirms that linear matroids are matroids, not just by analogy but by proof."
 
-- question: "Because matroids generalize both forests and linear independence, any set system that shares properties with forests must also share properties with linear independence, and vice versa."
+- question: "Because matroids generalize both forests and linear independence, any set system that shares properties with forests is expected to also share properties with linear independence, and vice versa."
   type: true-false
   answer: false
   explanation: "Matroids identify specific axioms (hereditary + exchange) that both forests and linear independence satisfy. But 'sharing properties with forests' is too vague to imply matroid structure — many set systems share some properties with forests without satisfying the exchange axiom. The matroid axioms are precise: a set system that is hereditary but lacks the exchange axiom is not a matroid and the greedy theorem does not apply. The abstraction works only because both forests and linear independence satisfy exactly the same three axioms, not because of a looser resemblance."

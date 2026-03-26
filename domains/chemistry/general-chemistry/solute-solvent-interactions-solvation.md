@@ -48,7 +48,7 @@ Dissolution occurs when solute-solvent interactions overcome solute-solute and s
   answer: 2
   explanation: "Na⁺ is a positive ion. Water's oxygen atom carries a partial negative charge (δ−), so it orients toward the cation to form an attractive ion-dipole interaction. The hydrogen atoms (δ+) orient toward anions like Cl⁻. This directional arrangement — not random orientation — is precisely what solvation means: a structured stabilizing shell formed by favorable electrostatic alignment."
 
-- question: "Dissolution is always exothermic — it releases heat as solute-solvent interactions form."
+- question: "Dissolution is generally exothermic — it releases heat as solute-solvent interactions form."
   type: true-false
   answer: false
   explanation: "Many substances dissolve endothermically (absorbing heat). Ammonium nitrate dissolving in water is a classic example — the pack gets cold. Dissolution is thermodynamically favorable when the overall free energy decreases, which requires considering both enthalpy (energy of breaking and forming interactions) and entropy (increase in disorder). Endothermic dissolution can proceed spontaneously when the entropy gain is large enough. The energy gained from solute-solvent interactions need not exceed the energy required to separate solute and solvent particles."

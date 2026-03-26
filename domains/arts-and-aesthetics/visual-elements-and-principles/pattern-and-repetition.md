@@ -55,7 +55,7 @@ Design a simple motif (a leaf, a geometric shape) and explore how different repe
   answer: 1
   explanation: "The key insight is that effective patterns use the tension between regularity and variation. Perfect regularity can feel lifeless because there's nothing to capture the eye. A deliberate break — one red square among blues, a shifted tile, a missing element — becomes a focal point precisely because the regularity makes it conspicuous. Options C removes the pattern entirely; D doesn't address the monotony problem. The goal is strategic variation within an established regularity."
 
-- question: "A pattern must consist of perfectly identical repetitions at equal intervals to be considered a true pattern."
+- question: "A pattern is expected to consist of perfectly identical repetitions at equal intervals to be considered a true pattern."
   type: true-false
   answer: false
   explanation: "Patterns can be regular (identical repetitions at even intervals), irregular (varied repetitions), or random (apparently unordered but statistically consistent). Many of the most compelling patterns — in Islamic geometric art, natural phenomena like leopard spots, or handcrafted textiles — use deliberate variation within the pattern structure. The definition of pattern is regular, repeated arrangement; perfect mechanical regularity is just one type."

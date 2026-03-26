@@ -69,7 +69,7 @@ Construct controllability and observability matrices for 2nd and 3rd order syste
   answer: true
   explanation: "Observability depends on the pair (A, C), and C encodes sensor placement — it maps the state to the measured output. Changing the sensor location changes C, which changes the observability matrix 𝒪 = [C; CA; …; CAⁿ⁻¹]. A new sensor position may fail to 'see' certain modes, destroying observability even though the plant's A matrix is identical. This is the observability analogue of the controllability dependence on B."
 
-- question: "An uncontrollable mode in a state-space system is always unstable and must be addressed before feedback can stabilize the system."
+- question: "An uncontrollable mode in a state-space system is generally unstable and is expected to be addressed before feedback can stabilize the system."
   type: true-false
   answer: false
   explanation: "An uncontrollable mode is simply one the input cannot influence — it evolves according to its own eigenvalue regardless of what control is applied. If that eigenvalue has a negative real part (stable mode), the mode decays to zero on its own; it is benign. Only an uncontrollable *unstable* mode (positive real-part eigenvalue) is catastrophic, because it grows and no feedback can move its eigenvalue. The dangerous distinction is uncontrollable-and-unstable, not merely uncontrollable."

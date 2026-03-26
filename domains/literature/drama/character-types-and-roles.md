@@ -47,7 +47,7 @@ Dramatic character types—protagonist, antagonist, supporting characters, and c
   answer: 2
   explanation: "The mentor is a functional role: they supply resources, knowledge, or perspective the protagonist lacks. Once the protagonist has internalized these, the mentor's continued presence would prevent the protagonist's full emergence as an independent agent. The mentor's loss is structurally necessary — it signals that the protagonist has grown to the point where the resource they depended on is no longer external. This is why mentor departure often coincides with the protagonist's defining moment of choice."
 
-- question: "The antagonist in a drama is always a single human character whose sole purpose is to directly oppose the protagonist's goal."
+- question: "The antagonist in a drama is typically a single human character whose sole purpose is to directly oppose the protagonist's goal."
   type: true-false
   answer: false
   explanation: "The antagonist is the force — not necessarily a person — that opposes or complicates the protagonist's desire. It may be a social system, nature, the protagonist's own psychology, or a diffuse set of circumstances. Even when human, a well-constructed antagonist has independent motivation and intelligence (like Iago), not merely opposition. The antagonist defines the protagonist: the quality of effort required to overcome the obstacle reveals what the protagonist is made of, which is why a weak antagonist makes for weak drama."

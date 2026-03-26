@@ -57,7 +57,7 @@ Deliver a speech on video from the waist down and analyze your stance, movement 
   answer: true
   explanation: "Deliberate stillness following purposeful movement signals 'I am here, I am settled, pay attention to this.' It is as expressive as the movement that preceded it, because it creates contrast — the moment of stillness draws the audience's focus rather than letting their eyes track meaningless motion."
 
-- question: "Standing behind a podium eliminates most concerns about posture and stage presence because the audience cannot see your lower body."
+- question: "Standing behind a podium eliminates most concerns about posture and stage presence because the audience can seldom see your lower body."
   type: true-false
   answer: false
   explanation: "Podiums are one of the most common presence-killers in formal speaking. Gripping the podium, leaning on it, or hiding behind it are all visible problems that undermine presence even if the lower body is hidden. Posture at the podium — shoulder position, how weight is held, how the arms are used — still communicates clearly to the audience."

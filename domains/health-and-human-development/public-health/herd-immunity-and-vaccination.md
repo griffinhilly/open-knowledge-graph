@@ -54,7 +54,7 @@ Calculate the HIT for several pathogens with known R₀ values and compare to ac
   answer: 2
   explanation: "HIT = 1 − 1/R₀ = 1 − 1/15 ≈ 0.933, or about 93%. This is why measles vaccination programs require very high coverage—a small drop below this threshold can enable sustained outbreaks, as observed when vaccine hesitancy reduces community coverage into the 80s."
 
-- question: "Once a population's vaccination coverage exceeds the herd immunity threshold, localized outbreaks of that disease cannot occur."
+- question: "Once a population's vaccination coverage exceeds the herd immunity threshold, localized outbreaks of that disease can rarely occur."
   type: true-false
   answer: false
   explanation: "The HIT assumes homogeneous (random) mixing across the population. In reality, unvaccinated individuals often cluster geographically, socially, or within religious communities. Even if overall coverage exceeds the HIT, a dense pocket of susceptibles can sustain local transmission. This is why monitoring coverage heterogeneity matters as much as the aggregate rate."

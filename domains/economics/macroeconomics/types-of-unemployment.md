@@ -55,7 +55,7 @@ Classify historical unemployment episodes: the Great Recession's spike (cyclical
   answer: 2
   explanation: "The natural rate is precisely the floor below which policymakers cannot push unemployment without triggering accelerating inflation. At the natural rate, only frictional and structural unemployment remain — there is no cyclical unemployment left to eliminate. Further demand stimulus does not match more workers to better jobs; it simply increases spending with no new productive capacity to absorb it, bidding up wages and prices. This is the central insight behind NAIRU: it defines the boundary between beneficial anti-recession policy and inflationary overreach."
 
-- question: "The 'natural' rate of unemployment is fixed by permanent economic forces and cannot be changed by institutional or policy interventions."
+- question: "The 'natural' rate of unemployment is fixed by permanent economic forces and can seldom be changed by institutional or policy interventions."
   type: true-false
   answer: false
   explanation: "The natural rate is called 'natural' not because it is fixed or optimal, but because it is the rate prevailing when no cyclical unemployment exists. It is composed of frictional and structural unemployment, both of which can shift over time. More generous unemployment insurance tends to extend job search duration, raising the frictional component. Better education and retraining programs reduce skills mismatches, lowering the structural component. Demographic shifts, technological change, and labor market regulations all move the natural rate. Calling it 'natural' is potentially misleading — it is an equilibrium concept, not a law of nature."

@@ -50,7 +50,7 @@ Substitution replaces variables with terms; instantiation substitutes a variable
   answer: true
   explanation: "Variable capture occurs when a free variable in the substituted term t gets bound by a quantifier in the target formula. Constants have no free variables — there is nothing to capture. If t = 5 or t = a (a constant), substituting it for x in any formula is always safe; no quantifier can bind a constant. Capture is exclusively a problem when t contains free variables that could be 'swallowed' by a quantifier in the formula."
 
-- question: "The formula φ[t/x] always has the same logical meaning as φ, just with t appearing where x was."
+- question: "The formula φ[t/x] usually has the same logical meaning as φ, just with t appearing where x was."
   type: true-false
   answer: false
   explanation: "This is only true for capture-avoiding substitution. Naive substitution can radically change meaning through variable capture, as in ∃y (y > x)[y/x] = ∃y (y > y), which changes 'something is greater than x' (often true) to 'something is greater than itself' (always false). Capture-avoiding substitution — with alpha-renaming when needed — preserves meaning. The claim that substitution always preserves meaning confuses a correct procedure with its naive (and incorrect) version."

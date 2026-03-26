@@ -45,7 +45,7 @@ The mass-radius relation of exoplanets constrains internal composition, mantle m
   answer: 2
   explanation: "The gap results from atmospheric mass loss: photoevaporation and core-powered mass loss strip thin hydrogen envelopes from planets close to their host stars. Planets that started with modest envelopes lose them and shrink below ~1.5 R⊕; those with thick envelopes retain them and stay above ~2.0 R⊕. The gap is not a formation artifact (option A) or a theoretical prediction from the rocky sequence (option B). Water loss (option D) is a separate process and does not produce the sharp radius gap observed."
 
-- question: "Two exoplanets have identical masses and identical radii, giving them the same bulk density. They must therefore have the same interior composition."
+- question: "Two exoplanets have identical masses and identical radii, giving them the same bulk density. They should therefore have the same interior composition."
   type: true-false
   answer: false
   explanation: "This is the degeneracy problem in mass-radius interpretation. Different mixtures of materials — for example, a water-rich planet versus a rocky planet with a thin gas envelope — can produce the same bulk density. Mass and radius constrain average density, but density alone cannot distinguish between multiple compositional models. Breaking this degeneracy requires additional data, typically atmospheric spectroscopy to determine whether a hydrogen-rich envelope or a water-dominated atmosphere is present."

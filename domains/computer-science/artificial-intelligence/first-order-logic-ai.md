@@ -50,7 +50,7 @@ Practice translating English statements into FOL formulas, then use a theorem pr
   answer: 1
   explanation: "Full FOL is semi-decidable and computationally intractable in general. Horn clauses restrict logical statements to a form (head :- body, with at most one positive literal) that makes inference decidable and practically efficient via SLD resolution. You lose some expressive power — disjunctive conclusions are not directly representable — but you gain the guarantee that queries either return an answer or terminate with failure. This expressiveness-tractability tradeoff is the central design decision in FOL-based AI systems."
 
-- question: "First-order logic is decidable — given any FOL formula and a set of axioms, an algorithm can always determine in finite time whether the formula follows from the axioms."
+- question: "First-order logic is decidable — given any FOL formula and a set of axioms, an algorithm can typically determine in finite time whether the formula follows from the axioms."
   type: true-false
   answer: false
   explanation: "FOL is only semi-decidable: if a formula follows from the axioms, a complete theorem prover will eventually find a proof. But if it does not follow, the algorithm may loop forever without halting. Decidability — the guarantee that the algorithm always terminates with a correct yes/no answer — holds for propositional logic and certain restricted fragments of FOL (such as Horn clauses), but not for full FOL. This is a proven mathematical result, not a limitation of current technology."

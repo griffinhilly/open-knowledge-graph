@@ -51,7 +51,7 @@ The 2s, 5s, and 10s multiplication facts are easiest to learn because of pattern
   answer: true
   explanation: "Multiplying by 2 means 'two groups of,' which is exactly the same as adding the number to itself. 2 × 9 = two groups of 9 = 9 + 9 = 18. This connection to addition doubles is what makes the 2s facts easiest to learn — every 2s fact is already a known double: 2 × 3 = 3 + 3 = 6, 2 × 7 = 7 + 7 = 14."
 
-- question: "The 2s, 5s, and 10s facts are called 'anchor facts' because they are the only multiplication facts students ever need to know."
+- question: "The 2s, 5s, and 10s facts are called 'anchor facts' because they are the primary multiplication facts students ever need to know."
   type: true-false
   answer: false
   explanation: "Anchor facts are called that because you use them to derive other, harder facts — not because they're sufficient on their own. Knowing 5 × 8 = 40 helps you find 6 × 8 (add one group of 8), and knowing 2 × 7 = 14 helps you find 4 × 7 (double it). The 2s, 5s, and 10s are stepping stones toward the full multiplication table, not the complete destination."

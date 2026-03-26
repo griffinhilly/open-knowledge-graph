@@ -62,7 +62,7 @@ Work through examples showing when conditionals are true and false, including th
   answer: false
   explanation: "This is an example of vacuous truth. The only way P → Q can be false is when P is true and Q is false. Here the hypothesis '2 + 2 = 5' is false, so the conditional cannot be violated — it is vacuously true. Think of the conditional as a promise: 'if it rains, I'll carry an umbrella.' The promise is only broken if it rains and you don't have one. If it never rains, the promise was never tested and you cannot be accused of breaking it."
 
-- question: "The conditional P → Q and its converse Q → P are logically equivalent — if one is true, the other must be true."
+- question: "The conditional P → Q and its converse Q → P are logically equivalent — if one is true, the other is expected to be true."
   type: true-false
   answer: false
   explanation: "P → Q and Q → P are independent statements. 'If it is a square, then it is a rectangle' is true, but its converse 'If it is a rectangle, then it is a square' is false. They are equivalent only in the special case of a biconditional (P ↔ Q). Confusing a conditional with its converse is one of the most common logical errors in mathematical reasoning."

@@ -45,7 +45,7 @@ Build every interval above C and check it against the C major scale. Practice id
   answer: 3
   explanation: "Only unisons, fourths, fifths, and octaves belong to the 'perfect' quality family. Seconds, thirds, sixths, and sevenths are classified as major or minor (and can be augmented or diminished). Describing a fourth as 'major' or a third as 'perfect' is a category error — the quality systems for these two groups do not overlap."
 
-- question: "A major second is larger than a minor third because major intervals are always bigger than minor intervals of any number."
+- question: "A major second is larger than a minor third because major intervals are typically bigger than minor intervals of any number."
   type: true-false
   answer: false
   explanation: "A major second is 2 half steps; a minor third is 3 half steps — so the major second is actually smaller. Major and minor qualities only compare intervals of the *same* number: a major third (4 half steps) is larger than a minor third (3 half steps), and a major sixth is larger than a minor sixth. But you cannot use major/minor to rank intervals of different numbers against each other."

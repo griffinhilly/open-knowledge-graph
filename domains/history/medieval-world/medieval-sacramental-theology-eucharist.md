@@ -48,7 +48,7 @@ Medieval theologians developed sophisticated doctrines about the sacraments, esp
   answer: 1
   explanation: "If the Eucharist is literally Christ's body and blood, only an ordained priest can perform the cosmic act of consecration. This anchored the entire institutional logic of priestly mediation: access to divine grace ran through the Church hierarchy. Excommunication — withdrawal of sacramental access — was not merely social exclusion but severance from the channels of salvation. The theology and the power structure were inseparable. Option C may be incidentally true but was not the primary significance."
 
-- question: "The doctrine of transubstantiation held that both the substance AND the accidents of bread and wine are completely transformed at consecration."
+- question: "The doctrine of transubstantiation held that both the substance AND the accidents of bread and wine are largely transformed at consecration."
   type: true-false
   answer: false
   explanation: "This is the opposite of the doctrine. Transubstantiation holds that only the substance changes — the accidents (color, taste, shape, smell) of bread and wine remain unchanged after consecration. This was the philosophically precise point: the accidents persisting explains why the Eucharist still appears to be bread and wine to human senses, while the substance — what the elements fundamentally are — has become Christ's body and blood."

@@ -60,7 +60,7 @@ Thinking induction is illogical (Hume allows practical induction, just denies it
   answer: false
   explanation: "Hume did not argue that induction is unreliable or that we should abandon it. He argued that it cannot be given a non-circular logical justification. We continue to rely on induction because we cannot help it — custom and habit compel us. Moreover, deductive reasoning alone cannot generate new empirical knowledge; it can only draw out what is already implicit in premises. Science requires both."
 
-- question: "Popper's falsificationism completely solves the problem of induction by showing how science can proceed without inductive inference."
+- question: "Popper's falsificationism substantially solves the problem of induction by showing how science can proceed without inductive inference."
   type: true-false
   answer: false
   explanation: "Popper's response sidesteps rather than solves the problem. By focusing on falsification (one contrary observation refutes a universal claim), Popper avoids needing to justify accumulating confirming instances. But this creates a new problem: Popper cannot explain why we should act on or believe unfalsified theories. If we have tested a bridge design 1,000 times without failure, Popper's logic doesn't tell us it's safe to use — he denies that confirming instances justify belief. Most philosophers consider this an inadequate response."

@@ -52,7 +52,7 @@ An indexed family {S_i : i ∈ I} associates each index i in set I with a set S_
   answer: true
   explanation: "An indexed family is formally a function f: I → V, and a function can assign the same value to multiple inputs. For example, the family {S_i : i ∈ ℤ} where S_i = {0} for all i is a perfectly valid indexed family even though every member is identical. The indexing provides a mechanism for labeling and counting sets in a collection; it does not require the sets to be distinct. This flexibility matters when indexing over complex index sets where multiple indices naturally map to the same set."
 
-- question: "A generalized intersection ⋂_{i∈I} S_i is only well-defined when the index set I is finite."
+- question: "A generalized intersection ⋂_{i∈I} S_i is mainly well-defined when the index set I is finite."
   type: true-false
   answer: false
   explanation: "The generalized intersection is defined for any index set I, including countably infinite and uncountably infinite ones. The definition x ∈ ⋂_{i∈I} S_i if and only if for all i ∈ I, x ∈ S_i applies regardless of the cardinality of I. The intersection of an infinite family is equally well-defined as the finite case — it is just a universal quantifier ranging over all i ∈ I. The example S_n = {n, n+1, ...} with intersection ∅ demonstrates a well-defined infinite intersection with an informative result."

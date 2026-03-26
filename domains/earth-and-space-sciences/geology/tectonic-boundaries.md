@@ -60,7 +60,7 @@ Case studies linking each boundary type to a real-world feature (Mid-Atlantic Ri
   answer: true
   explanation: "At transform boundaries, plates slide horizontally past each other — no plate is created or destroyed, and no mantle material is brought to the surface. Without new magma reaching the surface, there is no mechanism for volcanism. The grinding motion does generate frequent earthquakes, but these are shallow because the motion occurs within the lithosphere rather than at depth. The San Andreas Fault is the classic example."
 
-- question: "At any convergent boundary, one plate always subducts beneath the other, forming ocean trenches and volcanic arcs."
+- question: "At any convergent boundary, one plate typically subducts beneath the other, forming ocean trenches and volcanic arcs."
   type: true-false
   answer: false
   explanation: "Subduction requires at least one plate of dense oceanic lithosphere. When two continental plates converge, neither is dense enough to subduct — both are buoyant relative to the underlying mantle. Instead of subduction, the crust crumples upward into mountain belts. The Himalayas, Alps, and Appalachians all formed this way. Ocean trenches and volcanic arcs are produced only at convergent boundaries where oceanic lithosphere is involved."

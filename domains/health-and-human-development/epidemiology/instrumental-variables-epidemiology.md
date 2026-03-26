@@ -53,7 +53,7 @@ Begin with the conceptual framework (relevance, exclusion, monotonicity). Implem
   answer: 2
   explanation: "IV analysis identifies the Local Average Treatment Effect (LATE): the causal effect for compliers — those whose treatment status actually changes in response to the instrument. Always-takers (attend regardless) and never-takers (never attend regardless) do not contribute to the IV estimate because their behavior is unchanged by the instrument. This is a crucial distinction: the IV estimate may not generalize to the full population if compliers are systematically different from non-compliers."
 
-- question: "The exclusion restriction — that the IV affects the outcome only through the exposure — is empirically testable using standard statistical methods."
+- question: "The exclusion restriction — that the IV affects the outcome primarily through the exposure — is empirically testable using standard statistical methods."
   type: true-false
   answer: false
   explanation: "The exclusion restriction is fundamentally untestable from the data alone. It is an assumption about a counterfactual: what would happen to outcomes if the IV changed but the exposure did not? Since the exposure does change with the IV in the data, we cannot directly observe outcomes under the counterfactual condition. The assumption must be defended on subject-matter grounds — by arguing from theory and context that no direct pathway exists. Sensitivity analyses can probe how sensitive conclusions are to violations, but cannot verify the assumption itself."

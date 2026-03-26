@@ -50,7 +50,7 @@ Text classification assigns documents to predefined categories (spam, sentiment,
   answer: true
   explanation: "For many coarse classification tasks, the presence or absence of specific words carries most of the signal regardless of order. 'Mortgage,' 'refinance,' and 'urgent' appearing in an email strongly suggests spam in any arrangement. Bag-of-words representations are therefore surprisingly effective for topic classification, language identification, and spam filtering. The limitation becomes critical for tasks where meaning depends on order — sentiment analysis, negation detection, or temporal reasoning — where 'not good' and 'good' are identical to a bag-of-words model but opposite in meaning."
 
-- question: "Preprocessing steps like lowercasing and stop word removal always improve text classification performance and should be applied universally."
+- question: "Preprocessing steps like lowercasing and stop word removal usually improve text classification performance and should be applied universally."
   type: true-false
   answer: false
   explanation: "Preprocessing decisions are task-dependent and can help or hurt performance. Removing stop words may improve efficiency for topic classification (where function words carry little signal) but destroys meaning for tasks involving negation — 'not good' becomes 'good' if 'not' is removed. Lowercasing helps generalize ('Dog' and 'dog' are the same entity) but loses information where capitalization is meaningful (proper nouns, acronyms). Modern pretrained models often benefit from minimal preprocessing because they can learn which elements matter. 'Always improve' is false; always evaluate empirically."

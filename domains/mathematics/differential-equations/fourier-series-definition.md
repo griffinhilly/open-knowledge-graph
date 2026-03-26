@@ -34,7 +34,7 @@ A function f on [-L, L] can be written as f(x) = a₀/2 + Σ(aₙcos(nπx/L) + b
   answer: 2
   explanation: "The general formula is aₙ = (1/L) ∫₋ₗᴸ f(x) cos(nπx/L) dx for n ≥ 1, but the factor convention produces (1/L) only when the a₀ term is written as a₀/2. The correct formula with the standard normalization is aₙ = (1/L) ∫₋ₗᴸ f(x) cos(nπx/L) dx. Option C uses (2/L), which corresponds to the convention where the series constant term is a₀ (not a₀/2). The key insight is that orthogonality of the cosine functions under integration isolates each coefficient."
 
-- question: "A Fourier series always converges to f(x) at every point where f is defined."
+- question: "A Fourier series typically converges to f(x) at most point where f is defined."
   type: true-false
   answer: false
   explanation: "At a jump discontinuity, the Fourier series converges to the average of the left- and right-hand limits, not to f(x) itself. Additionally, near a jump discontinuity the partial sums exhibit the Gibbs phenomenon — an overshoot of about 9% that does not disappear as more terms are added. Pointwise convergence to f(x) requires additional conditions (e.g., f is continuous and piecewise smooth)."

@@ -54,7 +54,7 @@ Extended compositions are organized into sections (themes, expositions, developm
   answer: true
   explanation: "Unity and variety are not automatic properties of good or bad material — they are the results of specific compositional choices about what stays constant and what changes. A new theme in a new key but with the same rhythmic groove preserves continuity through texture while delivering contrast through melody and harmony. Identifying which parameters carry the piece's coherent identity and which carry its expressive variety is one of the composer's core structural tasks."
 
-- question: "Unity in extended composition is best achieved by keeping all musical parameters — key, tempo, texture, and thematic material — identical across all sections."
+- question: "Unity in extended composition is best achieved by keeping most musical parameters — key, tempo, texture, and thematic material — identical across most sections."
   type: true-false
   answer: false
   explanation: "Keeping everything constant produces stagnation, not unity. Unity is achieved through relationship — motivic connections, harmonic planning, structural parallels — not through sameness. A piece in which every section sounds identical is not unified; it is monotonous. The Explainer's formulation is precise: variety prevents monotony, but it must be calibrated so that contrast reads against a background of coherence rather than breaking the sense that the piece is one thing."

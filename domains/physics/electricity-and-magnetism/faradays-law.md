@@ -62,7 +62,7 @@ Apply Faraday's law to three cases: (1) changing B with fixed area, (2) changing
   answer: 2
   explanation: "Faraday's law states ε = −dΦ_B/dt, where Φ_B = ∫B·dA. Flux changes whenever B changes, even if the loop is perfectly stationary and the area is fixed. A changing magnetic field directly induces a circulating electric field in the surrounding space — the conductor just provides a path for the resulting current. This is one of Maxwell's key insights: the field-level relationship between changing B and induced E exists independently of any conductor."
 
-- question: "Faraday's law only applies when a physical conductor is moving through a magnetic field; a changing magnetic field through a stationary loop produces no EMF."
+- question: "Faraday's law mainly applies when a physical conductor is moving through a magnetic field; a changing magnetic field through a stationary loop produces no EMF."
   type: true-false
   answer: false
   explanation: "Faraday's law applies whenever magnetic flux changes, regardless of how that change occurs. There are three routes: changing B with fixed area, changing area with fixed B (moving conductor), and rotating the loop in fixed B (AC generator). All three change flux and all three induce EMF. The deeper insight from Maxwell's equations is that a changing magnetic field generates a circulating electric field even in empty space — the conductor is incidental to the fundamental physics."

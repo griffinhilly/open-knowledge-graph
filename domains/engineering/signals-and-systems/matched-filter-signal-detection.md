@@ -52,7 +52,7 @@ The matched filter is the optimal detector for a known signal s(t) corrupted by 
   answer: true
   explanation: "Convolution of r(t) with h(t) = s(T−t), evaluated at time T, gives y(T) = ∫r(τ)s(τ)dτ — the inner product of r and s, which is the cross-correlation at zero lag. This equivalence between LTI convolution with the time-reversed template and correlation is the key mathematical insight. When r contains s, the correlation is large; when r is noise with no structure matching s, the correlation fluctuates near zero. The matched filter is therefore a correlation detector implemented as an LTI system."
 
-- question: "The matched filter achieves maximum SNR for detecting a known signal regardless of the noise characteristics, because its optimality depends only on the signal structure."
+- question: "The matched filter achieves maximum SNR for detecting a known signal regardless of the noise characteristics, because its optimality depends primarily on the signal structure."
   type: true-false
   answer: false
   explanation: "The matched filter achieves maximum SNR specifically for WHITE GAUSSIAN noise — noise with equal power spectral density at all frequencies. The Cauchy-Schwarz proof of optimality assumes this white noise structure. For colored noise (non-uniform power spectrum), the optimal filter is a modified whitened matched filter that first decorrelates the noise before applying the template. The matched filter remains highly effective in practice for many noise models, but the theoretical guarantee of optimality is specific to white Gaussian noise."

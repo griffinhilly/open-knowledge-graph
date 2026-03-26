@@ -68,7 +68,7 @@ Practice asking "Why is that true?" after each claim in an argument to uncover a
   answer: true
   explanation: "This is the definition from the what-if test: substitute 'false' for the assumption and ask whether the argument survives. If it collapses, the assumption is load-bearing (structural). If the argument survives with modifications, the assumption is incidental. This distinction determines where to focus when challenging or defending an argument."
 
-- question: "Different audiences tend to reject the same set of assumptions, which is why a well-constructed argument works equally well for all readers."
+- question: "Different audiences tend to reject the same set of assumptions, which is why a well-constructed argument works equally well for most readers."
   type: true-false
   answer: false
   explanation: "Assumptions are always audience-relative. Authors leave unstated the premises they expect their intended audience to share without challenge. A medical researcher assumes peers accept standard statistical thresholds; a political op-ed assumes readers value certain liberties. When you read outside your own community, hidden assumptions become visible precisely because you don't share them. Different audiences may reject entirely different assumptions in the same argument."

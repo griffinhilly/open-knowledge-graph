@@ -53,7 +53,7 @@ Harmonic rhythm (rate of harmonic change) directly affects voice-leading possibi
   answer: true
   explanation: "Slow harmonic rhythm and busy texture are fully compatible — the 'Moonlight Sonata' first movement is the paradigm case. The harmony changes very slowly while the relentless triplet figuration fills the space with motion. Each figuration note is clearly ornamental because the harmonic backdrop is stable enough to contextualize it. The key relationship is: harmonic stability (from slow rhythm) enables melodic and contrapuntal activity."
 
-- question: "Increasing harmonic rhythm (making chords change faster) always creates a denser, more active-sounding texture."
+- question: "Increasing harmonic rhythm (making chords change faster) typically creates a denser, more active-sounding texture."
   type: true-false
   answer: false
   explanation: "Faster harmonic changes typically *simplify* voice-leading texture, even though the harmony itself is more active. When chords change rapidly, the individual voices must move directly from chord tone to chord tone with minimal ornamentation — there is no time to elaborate. The music may feel harmonically driven and forward-moving, but the individual lines are simpler. Paradoxically, slow harmonic rhythm often supports the richest textural density, because each voice has room to ornament and elaborate."

@@ -47,7 +47,7 @@ A fitness landscape is a multidimensional surface where each point represents a 
   answer: 1
   explanation: "Genetic drift — random fluctuation in allele frequencies due to finite population size — can push a small population off a local fitness peak and into the basin of attraction of a higher one, even if the path passes through genotypes of lower fitness. This is precisely why Sewall Wright emphasized the importance of population subdivision and drift in his shifting balance theory. Directional selection (A) cannot cross valleys; stabilizing selection (C) actively resists movement away from the peak. Gene flow (D) could in principle introduce alleles from a better-adapted population, but requires that other population to already be at the higher peak."
 
-- question: "Natural selection is guaranteed to drive a population to the genotype with the highest possible fitness, given a stable environment and sufficient generations."
+- question: "Natural selection is expected to drive a population to the genotype with the highest possible fitness, given a stable environment and sufficient generations."
   type: true-false
   answer: false
   explanation: "This is the key misconception fitness landscape thinking dismantles. Natural selection climbs fitness peaks locally — it moves toward higher fitness from wherever the population currently is, but cannot cross fitness valleys. On a rugged landscape with multiple peaks, the population reaches the nearest local optimum and cannot escape it through selection alone. The 'best' solution (global optimum) may be separated from the current local peak by a valley of lower-fitness intermediates that selection would eliminate. Evolution does not produce optimal outcomes; it produces locally adapted ones."

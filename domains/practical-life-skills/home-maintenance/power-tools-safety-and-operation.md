@@ -55,7 +55,7 @@ Watch an adult use a power tool safely and listen to safety instructions. Practi
   answer: true
   explanation: "When a circular saw blade binds in the material, the saw can kick back rapidly in the direction away from the cut — toward the operator if they are standing directly behind it. Positioning yourself to the side of the cut line keeps you out of this kickback path. This isn't timid or overly cautious; it reflects accurate knowledge of how the tool fails and where the energy goes. Understanding failure modes, not just normal operation, is what real safety knowledge looks like."
 
-- question: "Safety glasses only need to be worn when visible debris or sawdust is being actively produced during a cut."
+- question: "Safety glasses primarily need to be worn when visible debris or sawdust is being actively produced during a cut."
   type: true-false
   answer: false
   explanation: "Safety glasses or goggles are required whenever any power tool is running — not just when debris is visibly flying. Chips, fragments, and fine particles move at high speed and can travel unpredictably from any direction. Additionally, fine dust may not be visible but still poses eye hazard. The correct habit is: tool running → eye protection on. Waiting until you observe debris means reacting after the hazard is already present."

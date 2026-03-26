@@ -51,7 +51,7 @@ Not all neighboring lines and spaces on the staff represent semitones—B to C a
   answer: 2
   explanation: "B to C and E to F are the two natural semitones — pairs of adjacent white keys with no black key between them. C to D has a black key (C#/Db) between them, making it a whole step (two semitones). Option D reverses the correct identifications: B–C and E–F are the semitones, not the whole steps. Memorizing the location of these two natural semitones is the essential fact at this level of music theory."
 
-- question: "All adjacent keys on a piano — whether white-to-black, black-to-white, or white-to-white — are a whole step apart."
+- question: "Most adjacent keys on a piano — whether white-to-black, black-to-white, or white-to-white — are a whole step apart."
   type: true-false
   answer: false
   explanation: "Adjacent keys on the piano are always a semitone (half-step) apart — this is the definition of 'adjacent' in the keyboard context. Moving from any key to the immediately next key (up or down) spans exactly one semitone. A whole step requires skipping one key (moving two semitones). The white-to-white pairs B–C and E–F are adjacent with no black key between them, confirming they are semitones, not whole steps."

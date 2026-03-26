@@ -59,7 +59,7 @@ Overlay a world climate map with the global circulation pattern and ocean curren
   answer: 1
   explanation: "Both locations receive similar solar input at comparable latitudes. The Gulf Stream — a warm ocean current originating in the Gulf of Mexico — flows northeastward along the North Atlantic and transfers enormous heat to the atmosphere above, dramatically warming Western Europe. Labrador, on the continental side of the Atlantic, lacks this oceanic warming. Option D reverses the truth: continental interiors actually have colder winters and hotter summers than coastal locations (more extreme temperature ranges, not milder conditions)."
 
-- question: "A desert climate is defined by low precipitation, so all deserts must be hot environments."
+- question: "A desert climate is defined by low precipitation, so most deserts should be hot environments."
   type: true-false
   answer: false
   explanation: "Deserts are defined by moisture deficit — low precipitation relative to evaporation potential — not by temperature. Cold deserts exist at high latitudes and elevations (Gobi Desert, Patagonian steppe, Antarctica) where cold air holds little moisture and precipitation is minimal. Antarctica is technically the world's largest desert. The misconception arises because familiar examples like the Sahara and Arabian Deserts are hot, but heat is not the defining criterion — aridity is."

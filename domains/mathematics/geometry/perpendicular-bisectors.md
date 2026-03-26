@@ -63,7 +63,7 @@ Construct perpendicular bisectors with compass and straightedge. Verify equidist
   answer: true
   explanation: "This is the converse of the Perpendicular Bisector Theorem, and it holds. The theorem is actually a biconditional: a point lies on the perpendicular bisector of a segment *if and only if* it is equidistant from both endpoints. Equidistance is not merely consistent with lying on the bisector — it guarantees it."
 
-- question: "The circumcenter of a triangle is always located inside the triangle."
+- question: "The circumcenter of a triangle is generally located inside the triangle."
   type: true-false
   answer: false
   explanation: "The circumcenter is inside only for acute triangles. For a right triangle, it lies exactly at the midpoint of the hypotenuse (on the triangle's boundary). For an obtuse triangle, it lies entirely outside the triangle. This is a persistent misconception that comes from confusing the circumcenter with the centroid or incenter, both of which are always interior."

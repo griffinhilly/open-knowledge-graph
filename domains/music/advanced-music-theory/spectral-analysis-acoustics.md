@@ -51,7 +51,7 @@ Spectral analysis examines the harmonic content of timbral elements—particular
   answer: 1
   explanation: "Spectral music organizes form through transformations between acoustic spectra — the orchestra gradually morphs from imitating one instrument's spectral fingerprint to another, using microtonal voice-leading that tracks the changing partial relationships. This is fundamentally different from tonal modulation, which is governed by inherited harmonic conventions. The form emerges from acoustic perception, not from contrapuntal or harmonic rules."
 
-- question: "In spectral music, harmony and timbre are treated as categorically separate: a passage is either a chord (heard as distinct pitches) or a timbre (heard as a fused sound), but cannot transition between the two."
+- question: "In spectral music, harmony and timbre are treated as categorically separate: a passage is either a chord (heard as distinct pitches) or a timbre (heard as a fused sound), but can rarely transition between the two."
   type: true-false
   answer: false
   explanation: "The core insight of spectral thinking is that harmony and timbre exist on a continuum, not as separate categories. The same interval ratios heard as distinct pitches in a low register fuse into a single perceived timbre when compressed into the overtone range of an instrument. Spectral composers deliberately write passages that oscillate between being perceived as chords and as unified timbres, exploiting the perceptual continuum. Treating the divide as categorical misunderstands the fundamental premise of spectral composition."

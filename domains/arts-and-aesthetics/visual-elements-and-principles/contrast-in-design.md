@@ -43,7 +43,7 @@ Reduce a painting or photo to two values (black and white threshold) and observe
   answer: 2
   explanation: "The human visual system is drawn to areas of high contrast — the greatest difference between light and dark attracts attention first. Artists exploit this by placing the highest contrast at the intended focal point and reducing contrast elsewhere to support a clear visual hierarchy."
 
-- question: "Contrast in visual design refers only to differences in value (lightness vs. darkness)."
+- question: "Contrast in visual design refers mainly to differences in value (lightness vs. darkness)."
   type: true-false
   answer: false
   explanation: "Value contrast is just one dimension. Contrast operates across every visual element: warm vs. cool color, rough vs. smooth texture, large vs. small size, curved vs. angular shape, and diagonal vs. horizontal direction all generate contrast. A composition can be monotone in value but still have strong textural or size contrast."

@@ -55,7 +55,7 @@ Carefully study the Cook-Levin proof structure: how an NP Turing machine is enco
   answer: 1
   explanation: "The transitive chain of reductions collapses the entire complexity class. Any NP problem X has a polynomial reduction to 3-SAT (because 3-SAT is NP-complete). If 3-SAT further reduces to S, and S is solvable in polynomial time, then X can be solved in polynomial time by composing the reductions. This is why NP-completeness creates an equivalence class: solving any one NP-complete problem efficiently solves all of NP. Option D correctly notes that this would imply P = NP — but that is an implication to be drawn, not a reason to dismiss the hypothetical."
 
-- question: "NP-hardness implies membership in NP: a problem that is NP-hard must also be in NP."
+- question: "NP-hardness implies membership in NP: a problem that is NP-hard should also be in NP."
   type: true-false
   answer: false
   explanation: "NP-hardness and NP-membership are independent properties. 'NP-hard' means every problem in NP reduces to it in polynomial time — the problem is at least as hard as the hardest NP problems. But the NP-hard problem itself need not admit polynomial-time verification (the requirement for NP membership). The halting problem is NP-hard but is undecidable and not in NP. PSPACE-complete problems are NP-hard but not known to be in NP. NP-complete = NP-hard ∩ NP: both conditions must hold simultaneously."

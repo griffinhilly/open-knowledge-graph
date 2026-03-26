@@ -59,7 +59,7 @@ Solve single-pipe problems with both major and minor losses before tackling netw
   answer: 2
   explanation: "In a parallel pipe network, both branches connect the same two pressure nodes, so the head loss across each branch must be equal — this is a constraint imposed by the network topology, not something that can be avoided. The flow distribution self-adjusts so that this pressure compatibility is satisfied, with more flow going to the lower-resistance branch. Option D describes series networks, not parallel ones; in parallel, the total flow is the sum of branch flows, but the head loss is the same for each branch."
 
-- question: "'Minor losses' from pipe fittings are always smaller in magnitude than 'major losses' from pipe wall friction."
+- question: "'Minor losses' from pipe fittings are generally smaller in magnitude than 'major losses' from pipe wall friction."
   type: true-false
   answer: false
   explanation: "The name 'minor losses' is misleading. In short piping systems with multiple fittings, valves, and bends, the sum of minor losses can far exceed the friction (major) loss. A partially-closed globe valve can have K > 300. The distinction is categorical (type of source: friction vs. local disturbance), not a statement about relative magnitude. Always compute both and compare."

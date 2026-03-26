@@ -52,7 +52,7 @@ Draw the angle bisector from the vertex of an isosceles triangle and prove the t
   answer: 2
   explanation: "The angle bisector from the vertex divides the isosceles triangle into two smaller triangles. For SAS, you need two sides and the included angle: (1) the two legs are given as congruent (the definition of isosceles), (2) the bisector creates two equal halves of the vertex angle (included between the leg and the bisector), and (3) the bisector itself is shared — equal to itself by the reflexive property. This gives Side-Angle-Side, establishing congruence. CPCTC then delivers the base angles as corresponding parts."
 
-- question: "In an isosceles triangle drawn with the vertex angle at the top, the 'base angles' are always the two angles at the geometric bottom of the figure."
+- question: "In an isosceles triangle drawn with the vertex angle at the top, the 'base angles' are typically the two angles at the geometric bottom of the figure."
   type: true-false
   answer: false
   explanation: "This is the most common identification error. 'Base angles' are defined by their relationship to the congruent sides — they are the angles opposite the two equal legs — not by their geometric position in a diagram. If the triangle is tilted, inverted, or oriented sideways, the base angles are still the two equal ones regardless of where they appear in the figure. The term 'base' is a conceptual label, not a positional one."

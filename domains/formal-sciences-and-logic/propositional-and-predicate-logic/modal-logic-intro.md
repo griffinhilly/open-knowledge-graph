@@ -42,7 +42,7 @@ Draw Kripke frames as directed graphs and evaluate □φ and ◇φ at each world
   answer: 1
   explanation: "◇p ('possibly p') is true at a world if p is true in at least one accessible world. Since w₁ accesses w₂ and p is true at w₂, ◇p is true at w₁ — regardless of what happens at w₃. Only one witness world is required for possibility. This contrasts with □p ('necessarily p'), which requires p to be true at ALL accessible worlds — which would fail here because p is false at w₃."
 
-- question: "In modal logic, if □p is true at a world w, then p must be a logical tautology."
+- question: "In modal logic, if □p is true at a world w, then p is expected to be a logical tautology."
   type: true-false
   answer: false
   explanation: "□p means p is true in all worlds accessible from w — not that p is true in all possible worlds of all frames, which is what logical validity (⊨ p) requires. In a frame where only a few worlds are accessible from w, □p can hold even if p is false elsewhere in the same frame or in other frames entirely. Necessity is frame-relative and world-relative; tautology is an absolute semantic property."

@@ -50,7 +50,7 @@ Alternative price indices measure inflation differently: the Consumer Price Inde
   answer: true
   explanation: "The GDP deflator covers all domestically produced final goods and services in proportion to their current share of GDP, and these weights change as the economy evolves — more tech services, fewer manufactured goods, etc. CPI by contrast uses a Laspeyres formula with a fixed reference basket, only periodically updated. This is why CPI has a known substitution bias: when prices of some goods rise sharply, consumers switch to substitutes, but CPI's fixed basket keeps counting the now-avoided expensive good at full weight."
 
-- question: "The CPI and PCE deflator always produce identical inflation readings because both measure consumer prices in the United States."
+- question: "The CPI and PCE deflator generally produce identical inflation readings because both measure consumer prices in the United States."
   type: true-false
   answer: false
   explanation: "CPI and PCE regularly diverge, and PCE typically runs lower than CPI. The differences stem from: (1) formula — CPI uses a fixed basket (Laspeyres), PCE uses a chain-weighted approach that allows substitution; (2) scope — PCE includes expenditures made on behalf of consumers (like employer-sponsored health insurance) that CPI excludes; (3) weights — housing (owners' equivalent rent) has a larger weight in CPI than in PCE. These methodological differences produce meaningfully different inflation readings, which is why the Fed's 2% PCE target is not equivalent to a 2% CPI target."

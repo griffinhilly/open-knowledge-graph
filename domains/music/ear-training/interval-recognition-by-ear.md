@@ -48,7 +48,7 @@ Start with the most distinctive intervals (perfect octave, tritone, minor 2nd) b
   answer: 1
   explanation: "Ascending and descending versions of the same interval have distinct melodic gestures and often evoke different song associations. 'Here Comes the Bride' trains the ascending P4, but a descending P4 sounds more like the opening of 'O Christmas Tree.' Students who learn only ascending presentations will often fail on descending ones — not from any deficiency in interval knowledge, but because melodic recognition is direction-dependent. Systematic training in both directions is required for reliable recognition."
 
-- question: "Once a musician can reliably recall a song mnemonic for every interval, they have fully mastered interval recognition."
+- question: "Once a musician can reliably recall a song mnemonic for nearly every interval, they have fully mastered interval recognition."
   type: true-false
   answer: false
   explanation: "Song mnemonics are a learning scaffold, not the destination. Mastery means recognizing the characteristic sound of an interval directly — its tension, width, and quality — without needing to mentally hum a song. In real musical contexts (sight-singing, dictation, improvisation), there is no time to cycle through a catalogue of reference songs. The goal is perceptual automaticity: the interval sounds like itself, not like the beginning of something else."

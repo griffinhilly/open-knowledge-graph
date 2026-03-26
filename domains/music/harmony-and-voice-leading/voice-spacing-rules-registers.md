@@ -53,7 +53,7 @@ Study existing four-part chorales and identify spacing between consecutive voice
   answer: 2
   explanation: "The acoustic reason is overtone density. In low registers, the overtone series of adjacent pitches overlap heavily, making close intervals sound thick and indistinct — what musicians call 'muddy.' Wider spacing in the bass avoids this. In higher registers, partials are farther apart relative to pitch height, so tighter intervals can be used without the same problem. This is why tenor-bass can span any distance while upper voice pairs must stay within an octave."
 
-- question: "In four-part writing, all adjacent voice pairs — including tenor and bass — must stay within an octave of each other."
+- question: "In four-part writing, most adjacent voice pairs — including tenor and bass — should stay within an octave of each other."
   type: true-false
   answer: false
   explanation: "The one-octave limit applies only to adjacent upper voice pairs: soprano-alto and alto-tenor. The tenor-bass interval can be any distance. This asymmetric rule exists because of the acoustic behavior of low registers: close intervals there sound muddy due to overlapping overtones, so wider tenor-bass spacing is acoustically preferable and not constrained by the upper-voice rule."

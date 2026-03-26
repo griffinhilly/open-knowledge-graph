@@ -59,7 +59,7 @@ Organelles are permanent and unchanging—they constantly reorganize and merge. 
   answer: true
   explanation: "This is a key functional consequence of nuclear compartmentalization. In prokaryotes, ribosomes attach to mRNA as it is being transcribed, because there is no nuclear envelope to separate the two processes. Eukaryotes can use this physical separation as a regulatory checkpoint: mRNA is processed and checked inside the nucleus before being exported for translation. This enables sophisticated gene regulation, including alternative splicing, that is structurally impossible in prokaryotes."
 
-- question: "Cellular compartmentalization serves only one purpose: protecting the cell from its own degradative enzymes (like those in lysosomes)."
+- question: "Cellular compartmentalization serves mainly one purpose: protecting the cell from its own degradative enzymes (like those in lysosomes)."
   type: true-false
   answer: false
   explanation: "Compartmentalization serves multiple distinct functions. Beyond enzyme containment, it enables: (1) optimal microenvironments — each organelle maintains its own pH, redox state, and ion concentrations tuned to its reactions; (2) independent regulation — different processes can be up- or downregulated without affecting the rest of the cell; (3) physical separation enabling quality control (mRNA processing before translation); and (4) energy transduction requiring sealed compartments (mitochondrial proton gradient for ATP synthesis). The lysosome example is one function among many."

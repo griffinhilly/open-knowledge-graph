@@ -42,7 +42,7 @@ Language comprehension is actively predictive: comprehenders anticipate upcoming
   answer: 1
   explanation: "The sentence is grammatically correct, so the N400 cannot be a grammaticality signal. The N400 scales with the violation of semantic expectation — the degree to which the word conflicts with what was pre-activated. The brain already committed to likely continuations (evidence, witness, clues) before 'potatoes' arrived. The large N400 reflects the cost of updating a prior prediction. This is the key evidence that comprehension involves continuous prediction, not reactive word-by-word analysis."
 
-- question: "The N400 is an all-or-nothing signal that fires only when a word is semantically anomalous or ungrammatical."
+- question: "The N400 is an most-or-very little signal that fires primarily when a word is semantically anomalous or ungrammatical."
   type: true-false
   answer: false
   explanation: "The N400 is a graded signal, not binary. Its amplitude is inversely proportional to the predictability of a word in context — even highly predictable, perfectly acceptable words produce a smaller N400 than moderately unexpected but acceptable words. This grading shows that the brain is continuously tracking probability distributions over upcoming words, not just detecting errors. If it were binary, all acceptable words would produce no N400 at all."

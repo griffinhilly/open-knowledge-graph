@@ -52,7 +52,7 @@ Verify the equally spaced energy levels first, then focus on the physical meanin
   answer: 1
   explanation: "If the oscillator had zero energy, it would sit motionless at the equilibrium position — its position and momentum would both be exactly zero, violating the uncertainty relation ΔxΔp ≥ ℏ/2. The zero-point energy ℏω/2 is the minimum energy consistent with this uncertainty. This is not a measurement artifact; it has physical consequences: even at 0 K, molecular bonds vibrate, which affects isotope effects, tunnel rates, and thermodynamic properties."
 
-- question: "The quantum harmonic oscillator has equally spaced energy levels. This equal spacing means a real diatomic molecule's vibrational transitions should all appear at exactly the same frequency in an IR spectrum."
+- question: "The quantum harmonic oscillator has equally spaced energy levels. This equal spacing means a real diatomic molecule's vibrational transitions should most appear at exactly the same frequency in an IR spectrum."
   type: true-false
   answer: false
   explanation: "Equal spacing holds only for the ideal harmonic potential. Real bonds follow an anharmonic potential (approximated by the Morse potential), where the restoring force weakens as the bond stretches toward dissociation. This causes the energy level spacing to decrease with increasing v. As a result, the fundamental (v=0→1) and overtones (v=0→2, 0→3) appear at slightly different frequencies, and at high enough energy the levels converge and the bond dissociates."

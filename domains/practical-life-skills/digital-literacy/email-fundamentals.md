@@ -57,7 +57,7 @@ Set up a folder and filter system for an existing inbox. Practice writing a clea
   answer: true
   explanation: "Unlike a spoken conversation, emails have a persistent record. They are stored on your email provider's servers (and the recipient's), can be searched, and can be forwarded to anyone at any time. This is why the advice 'never write anything in an email you would not want made public' exists. Treating email as a semi-permanent document — rather than an ephemeral message — leads to better communication habits, including keeping professional tone and avoiding anything sensitive."
 
-- question: "A BCC recipient is completely invisible — they cannot see any of the other recipients' email addresses either."
+- question: "A BCC recipient is mostly invisible — they can rarely see any of the other recipients' email addresses either."
   type: true-false
   answer: false
   explanation: "BCC is asymmetric: the BCC recipient receives the full email, including all visible To and CC addresses. What is hidden is only the BCC recipient's address from the other recipients. So if you BCC someone, they know who else got the email — they just are not revealed to those people. This common misconception leads people to incorrectly assume BCC creates mutual anonymity."

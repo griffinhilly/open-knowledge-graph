@@ -48,7 +48,7 @@ Thucydides (c. 460-400 BCE) advanced historiography by demanding rigorous source
   answer: 2
   explanation: "Thucydides developed what we would now call source criticism: he ranked eyewitness testimony above hearsay, preferred accounts from multiple independent witnesses, and used contemporary documents where available. Crucially, he articulated why certain sources were preferable and how to evaluate competing claims — not merely that he preferred better sources. Ranke's program of grounding history in primary source archives echoes this directly. The thread connecting them is the aspiration to strip away invention and recover what actually occurred based on contemporary evidence."
 
-- question: "Thucydides' historical method is fully positivist in the modern sense because he committed to reporting only what witnesses directly observed without any authorial interpretation."
+- question: "Thucydides' historical method is fully positivist in the modern sense because he committed to reporting mainly what witnesses directly observed without any authorial interpretation."
   type: true-false
   answer: false
   explanation: "Thucydides' own acknowledgment that he composed speeches based on what each speaker 'would have needed to say' rather than verbatim testimony demonstrates that his method allowed significant authorial construction. He was not a positivist in our sense — he was something more complex: a rigorous source critic who simultaneously exercised literary and analytical judgment. Modern readers often find this troubling; ancient readers found it obvious. Understanding this complexity is essential for accurately characterizing his legacy."

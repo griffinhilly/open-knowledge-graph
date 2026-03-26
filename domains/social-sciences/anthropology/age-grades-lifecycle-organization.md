@@ -59,7 +59,7 @@ Study ethnographic accounts of specific age-grade systems (e.g., Samburu or Nuer
   answer: true
   explanation: "Collective transition is a defining feature of age-grade systems. The cohort — the age set — is the unit of social movement through grades. Initiation ceremonies mark the passage of the group, not individuals. This collective structure is what creates the shared identity and peer solidarity that makes age sets durable social bonds. It is precisely the difference between an age-grade system and a meritocratic system of individual advancement."
 
-- question: "Age-grade systems typically apply uniformly to all members of society regardless of gender, since age is a universal biological fact."
+- question: "Age-grade systems typically apply uniformly to most members of society regardless of gender, since age is a universal biological fact."
   type: true-false
   answer: false
   explanation: "Gender typically structures age-grade systems asymmetrically and often profoundly differently. In many East African societies, men's grades are explicitly ranked and tied to political-military functions (warrior, elder), while women's transitions are organized around reproductive status (marriage, motherhood). The grades, ceremonies, privileges, and obligations for men and women are often entirely separate and carry different social weights. Reading age-grade systems as if they apply uniformly across gender is a common error that obscures these asymmetries."

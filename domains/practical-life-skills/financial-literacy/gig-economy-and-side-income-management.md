@@ -52,7 +52,7 @@ Gig income is all profit when expenses reduce taxable income. You pay taxes once
   answer: 1
   explanation: "Employees pay 7.65% of wages toward Social Security and Medicare; their employer pays a matching 7.65% directly. Self-employed workers pay both halves — a combined 15.3% on 92.35% of net self-employment income (the 92.35% approximates the 'employee share' after backing out the employer portion). This 15.3% is in addition to ordinary income tax, which is why 25–30% of every payment is a reasonable reserve target."
 
-- question: "All money a freelancer receives from clients is profit and should be treated as fully taxable income."
+- question: "Most money a freelancer receives from clients is profit and should be treated as fully taxable income."
   type: true-false
   answer: false
   explanation: "Revenue minus legitimate business expenses equals net profit — the actual taxable base. Mileage, software subscriptions, tools, professional development, and a portion of phone and internet bills can all reduce taxable income dollar for dollar. Treating gross revenue as all-profit overstates your tax liability and ignores one of the primary financial advantages of self-employment. Tracking expenses from day one is what makes the difference."

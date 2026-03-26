@@ -55,7 +55,7 @@ Equating realism with dogmatism or antirealism with nihilism. Assuming realism r
   answer: 1
   explanation: "An error theorist (like J.L. Mackie) accepts that moral sentences *purport* to state facts and are the right *kind* of claim to be true or false — but argues they are all false because the mind-independent moral facts they require don't exist. So the error theorist says the realist's sentence has the right logical form but is false. An expressivist (option C) would deny the sentence has a truth value at all, reinterpreting it as expressing an attitude. Option D is incorrect because relativism makes moral facts culture-relative, which means they'd be true 'for us' but not universally."
 
-- question: "Antirealism in ethics entails moral nihilism — the view that nothing is right or wrong and that moral discourse is simply mistaken and pointless."
+- question: "Antirealism in ethics entails moral nihilism — the view that very little is right or wrong and that moral discourse is simply mistaken and pointless."
   type: true-false
   answer: false
   explanation: "This is one of the core misconceptions the topic explicitly warns against. Antirealism is a thesis about the *metaphysical status* of moral facts (they don't exist mind-independently), not a practical conclusion that morality is meaningless or that anything goes. Expressivists hold that moral discourse serves important functions — expressing attitudes, coordinating behavior, reinforcing norms — even without objective facts. Relativists hold that moral facts exist (relative to cultures). Only error theory implies moral claims are all false, but even error theorists can maintain that moral discourse has practical value or that we should adopt an 'as if' moral stance."

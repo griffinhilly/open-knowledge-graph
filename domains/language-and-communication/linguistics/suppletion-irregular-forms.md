@@ -45,7 +45,7 @@ Suppletion is extreme allomorphy in which a root is replaced by a form from a di
   answer: 1
   explanation: "Suppletion requires that the two forms share no phonological material and come from historically distinct roots. 'Go' and 'went' share no phonological similarity: 'went' was historically the past tense of 'wend' (to travel), borrowed into the 'go' paradigm. 'Run/ran,' 'goose/geese,' and 'child/children' all involve alternations on a single root (ablaut, vowel alternation, modified suffix) — irregular, but still phonologically related to the same root. Suppletion is the extreme end of allomorphy where etymological sources differ entirely."
 
-- question: "Suppletion occurs only in verb paradigms because verbs have more complex inflectional requirements than nouns or adjectives."
+- question: "Suppletion occurs primarily in verb paradigms because verbs have more complex inflectional requirements than nouns or adjectives."
   type: true-false
   answer: false
   explanation: "English has suppletive adjective paradigms: 'good/better/best' and 'bad/worse/worst' both replace the root entirely in comparative and superlative forms rather than adding -er/-est to the base form. 'Better' is not derived from 'good' by any phonological rule; it comes from a distinct Proto-Germanic root. The topic notes verb examples (go/went, the multiple roots of 'be'), but suppletion is not restricted to verbs — it appears wherever frequency effects are strong enough to entrench non-productive forms in the mental lexicon."

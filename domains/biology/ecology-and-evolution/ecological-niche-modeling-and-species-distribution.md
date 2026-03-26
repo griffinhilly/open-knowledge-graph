@@ -51,7 +51,7 @@ Ecological niche models predict species distributions by identifying suitable en
   answer: true
   explanation: "Occurrence records show where a species actually lives, which is always a subset of where it could physiologically tolerate — competition, predation, dispersal limits, and human impacts all compress the realized niche inside the fundamental niche. ENMs therefore learn the realized niche (or an approximation of it). This means ENMs will often underestimate the full range of conditions a species could tolerate if biotic constraints were removed, which is relevant when predicting invasive species spread or assisted colonization."
 
-- question: "MaxEnt and other presence-only ENMs can reliably distinguish between habitat that is environmentally unsuitable and habitat the species simply hasn't colonized yet."
+- question: "MaxEnt and other presence-primarily ENMs can reliably distinguish between habitat that is environmentally unsuitable and habitat the species simply hasn't colonized yet."
   type: true-false
   answer: false
   explanation: "This is a fundamental limitation of all ENMs based on occurrence data. Absence of records can mean 'conditions are unsuitable,' 'the species hasn't arrived yet,' or 'the area is under-surveyed.' The model cannot separate these explanations — it only knows where the species has been found and what environmental conditions characterize those locations. Interpreting predicted-suitable but unoccupied regions requires independent biological knowledge about dispersal capacity, biogeographic barriers, and survey completeness."

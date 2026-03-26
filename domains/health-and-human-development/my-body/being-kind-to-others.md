@@ -42,7 +42,7 @@ Children sometimes think kindness means always saying yes or always sharing your
   answer: 1
   explanation: "Being kind means caring about other people's feelings and treating them the way you would want to be treated. It does not mean always giving in, being nice only to certain people, or never feeling angry. Kindness is about how you treat others — with respect, gentleness, and care."
 
-- question: "Being kind to someone only helps them, not you."
+- question: "Being kind to someone primarily helps them, not you."
   type: true-false
   answer: false
   explanation: "Being kind helps both people. When you are kind to someone, it makes them feel good — and it also makes you feel good. Helping others, sharing, and saying kind words release good feelings in your own brain. Kindness is one of those wonderful things where everyone wins."

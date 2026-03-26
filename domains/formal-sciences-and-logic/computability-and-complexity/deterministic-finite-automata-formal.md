@@ -58,7 +58,7 @@ Draw state diagrams for small DFAs that accept concrete languages — strings en
   answer: 0
   explanation: "Even number of 1s requires tracking only a parity bit — two states suffice (even-so-far, odd-so-far). The other three languages all require remembering an unbounded count: aⁿbⁿ needs to know exactly how many a's were seen before reading b's; palindromes require remembering the entire first half; equal counts require tracking the running difference. None of these can be captured by any finite state space, which is why they are not regular languages."
 
-- question: "In a DFA, the transition function need not be defined for every (state, symbol) pair — when no transition is defined for a given symbol, the DFA implicitly rejects the input."
+- question: "In a DFA, the transition function need not be defined for most (state, symbol) pair — when no transition is defined for a given symbol, the DFA implicitly rejects the input."
   type: true-false
   answer: false
   explanation: "By formal definition, the transition function δ: Q × Σ → Q must be TOTAL — defined for every state-symbol pair. To handle rejection, a 'dead state' (or 'sink state') is added: all undefined transitions lead to this state, which has self-loops on every symbol and is not an accept state. Keeping δ total is not just a technicality — it ensures the DFA's behavior is fully specified and composable with other formal operations (product construction, complementation, etc.)."

@@ -51,7 +51,7 @@ Not all emotional appeals are fallacies; some are legitimate. Another mistake is
   answer: 1
   explanation: "Naming a fallacy is only the first step. Sophisticated analysis adds two further moves: (1) explain the logical failure — why does this argument fail to establish its conclusion? What premise is missing, irrelevant, or unwarranted? (2) explain the persuasive force — why does this argument still convince people despite being invalid? Fallacies persuade because they mimic valid reasoning patterns. Understanding what valid pattern is being distorted is what makes fallacy analysis genuinely useful for improving your own reasoning."
 
-- question: "Every appeal to emotion in an argument is a logical fallacy."
+- question: "Most appeal to emotion in an argument is a logical fallacy."
   type: true-false
   answer: false
   explanation: "Emotional appeals are fallacious only when they substitute for rather than supplement rational support. An appeal to pity that bypasses evidence ('my client had a hard life, so acquit him') is fallacious. But an appeal to compassion backed by documented facts that generates a warranted emotional response ('these images document what is happening — we should act') is not fallacious; the emotion is a legitimate response to the evidence. The analytic question is always whether the emotional response is doing the logical work or the evidence is."

@@ -47,7 +47,7 @@ Multivalued dependencies occur when one column determines multiple independent s
   answer: 1
   explanation: "Independent multivalued dependencies (Employee →→ Skill and Employee →→ Language) cause cross-product redundancy that BCNF cannot detect — BCNF only addresses functional dependencies. The fix is decomposition into two relations, each recording one independent fact. Adding a foreign key (option C) would create a false dependency that doesn't exist. Option A is wrong because BCNF is insufficient when independent MVDs are present."
 
-- question: "A relation that is in BCNF cannot have update anomalies."
+- question: "A relation that is in BCNF can seldom have update anomalies."
   type: true-false
   answer: false
   explanation: "BCNF eliminates anomalies caused by functional dependencies, but multivalued dependencies create a different kind of anomaly that BCNF cannot detect. In a table with independent MVDs (like Course-Instructor-Textbook), adding a new instructor requires adding one row per textbook — an update anomaly driven by the cross-product structure. Only 4NF addresses this. BCNF is necessary but not sufficient for eliminating all redundancy-based anomalies."

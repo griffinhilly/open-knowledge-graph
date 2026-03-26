@@ -53,7 +53,7 @@ A full adder adds three bits (two operand bits plus carry-in) and produces a sum
   answer: true
   explanation: "The sum output implements XOR across all three inputs: Sum = A XOR B XOR Cin. XOR is 1 when an odd number of inputs are 1. So Sum = 1 when exactly one or all three inputs are 1 (1+0+0=1, 0+1+0=1, 0+0+1=1, 1+1+1=3 which is odd). Sum = 0 when exactly zero or two inputs are 1 (0+0+0=0, 1+1+0=2, 1+0+1=2, 0+1+1=2). This matches standard binary addition: 1+1+1 = 11 in binary (sum=1, carry=1)."
 
-- question: "In a ripple-carry adder, all bit positions compute their final sum values simultaneously in parallel, and the only sequential step is combining the results."
+- question: "In a ripple-carry adder, most bit positions compute their final sum values simultaneously in parallel, and the main sequential step is combining the results."
   type: true-false
   answer: false
   explanation: "This is the fundamental limitation of ripple-carry adders. Each bit position cannot determine its sum until it receives the carry-out from the previous position. The computation is inherently sequential — the carry signal 'ripples' from bit 0 to bit 1 to bit 2, and so on. This creates an O(N) critical path delay where N is the bit width. The bit positions do not compute in parallel; bit position k must wait for bit position k−1 to finish. This is precisely why carry-lookahead adders were developed — to parallelize the carry computation."

@@ -54,7 +54,7 @@ Compare unfamiliar series with p-series or geometric series by computing the lim
   answer: true
   explanation: "True. The Direct Comparison Test needs aₙ ≤ bₙ (or aₙ ≥ bₙ) for all n — a pointwise condition that can be difficult or impossible to establish, especially when the numerator or denominator involves differences. The Limit Comparison Test only needs eventual proportionality: if aₙ/bₙ → c > 0, then for large n, aₙ ≈ c·bₙ, and the two series necessarily share convergence behavior. This avoids the need for any termwise inequality."
 
-- question: "If lim(aₙ/bₙ) = 0 and Σbₙ diverges, then Σaₙ must also diverge."
+- question: "If lim(aₙ/bₙ) = 0 and Σbₙ diverges, then Σaₙ is expected to also diverge."
   type: true-false
   answer: false
   explanation: "False. A limit of 0 means aₙ grows much slower than bₙ — the series Σaₙ could converge even though Σbₙ diverges. For example, aₙ = 1/n² and bₙ = 1/n: lim(aₙ/bₙ) = lim(n/n²) = lim(1/n) = 0, Σ1/n diverges, but Σ1/n² converges. The Limit Comparison Test only provides a conclusion when the limit is strictly between 0 and ∞. At the boundary values 0 and ∞, no conclusion can be drawn about the original series from the chosen comparison alone."

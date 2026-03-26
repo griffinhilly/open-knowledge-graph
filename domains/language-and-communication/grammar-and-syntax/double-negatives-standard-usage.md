@@ -45,7 +45,7 @@ In Standard English grammar, two negative words in the same clause create a doub
   answer: 1
   explanation: "The 'two negatives make a positive' rule is a social convention imposed by 18th-century prescriptive grammarians, not a universal property of language. The majority of the world's languages — Spanish, French, Italian, Russian — use negative concord, where multiple negatives reinforce rather than cancel. Many English dialects (AAVE, Appalachian English) follow the same pattern naturally. Calling this 'illogical' mistakes a mathematical metaphor for a linguistic law."
 
-- question: "The prohibition on double negatives in Standard English reflects a universal grammatical rule found across all human languages."
+- question: "The prohibition on double negatives in Standard English reflects a universal grammatical rule found across most human languages."
   type: true-false
   answer: false
   explanation: "The majority of the world's languages use negative concord, where multiple negative words reinforce a single negation. Standard English's prohibition was imposed during the 18th-century prescriptive grammar movement, when grammarians applied a mathematical metaphor (two negatives = a positive) to language. This was a prescriptive imposition on a natural pattern, not the discovery of a universal grammatical law. Shakespeare used double negatives freely in literary English before this movement."

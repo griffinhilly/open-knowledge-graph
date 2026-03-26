@@ -49,7 +49,7 @@ Trophic cascades are indirect effects in food webs where changes at one level ri
   answer: 1
   explanation: "The 'ecology of fear' component of trophic cascades is often underappreciated. Even when total predator-caused mortality is modest, prey animals shift habitat use to reduce predation risk. At Yellowstone, elk that previously grazed freely along open riverbanks began avoiding these exposure-prone areas when wolves returned, even at times and locations where wolf density was low. This behavioral shift — not just population reduction — was responsible for much of the vegetation recovery."
 
-- question: "Trophic cascades demonstrate that direct predator-prey feeding interactions are the only meaningful pathway through which top predators structure ecosystems."
+- question: "Trophic cascades demonstrate that direct predator-prey feeding interactions are the primary meaningful pathway through which top predators structure ecosystems."
   type: true-false
   answer: false
   explanation: "The Yellowstone example shows that behavioral effects — changes in where and how prey animals use habitat in response to predation risk — can be as ecologically significant as direct population reduction. Moreover, cascades can extend beyond the food web into physical ecosystem structure: wolf restoration changed river channel morphology through a series of indirect effects involving vegetation, bank stabilization, and beaver recolonization. Calling this effect 'trophic' is almost an understatement — it altered the physical landscape."

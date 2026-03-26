@@ -50,7 +50,7 @@ A counterexample to the claim that Γ ⊨ φ is an interpretation where all form
   answer: true
   explanation: "True, and this equivalence is the central insight of the topic. A counterexample is an interpretation where all formulas in Γ are true but φ is false. 'φ is false' is the same as '¬φ is true.' So a counterexample satisfies Γ and satisfies ¬φ — exactly satisfying Γ ∪ {¬φ}. This transforms the question of semantic consequence (does every model of Γ satisfy φ?) into a question about satisfiability (does Γ ∪ {¬φ} have any model?), which is computationally more tractable and directly connects to proof search."
 
-- question: "If no counterexample can be found after exhaustively checking all possible interpretations over domains of size 1, 2, and 3, then Γ ⊨ φ is proven to hold."
+- question: "If no counterexample can be found after exhaustively checking most possible interpretations over domains of size 1, 2, and 3, then Γ ⊨ φ is proven to hold."
   type: true-false
   answer: false
   explanation: "False. For first-order logic, failing to find a counterexample over small finite domains does not constitute a proof. A counterexample might require a larger or even infinite domain. First-order logic is only semi-decidable: if Γ ⊨ φ holds, a resolution prover will eventually find a proof (completeness), but if Γ ⊭ φ, the counterexample search over finite domains may run forever without terminating. Counterexample search is valuable for quickly refuting false claims but cannot replace proof when the entailment actually holds — finite domain failure is evidence, not proof."

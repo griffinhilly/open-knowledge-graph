@@ -62,7 +62,7 @@ Assuming ESI is universally superior to APCI (each has different compound prefer
   answer: true
   explanation: "Even with highly specific MRM transitions, co-eluting matrix components can suppress the analyte's ionization, reducing sensitivity and accuracy without triggering any mass-selectivity alert. Two compounds with completely different masses and MRM transitions can still interfere if one suppresses the other's ionization efficiency during electrospray. Good chromatography provides temporal separation — removing matrix interferences from the analyte peak — which the mass spectrometer cannot achieve on its own."
 
-- question: "Electrospray ionization (ESI) is generally superior to APCI for all types of analytes in LC-MS because it is a gentler ionization technique."
+- question: "Electrospray ionization (ESI) is generally superior to APCI for most types of analytes in LC-MS because it is a gentler ionization technique."
   type: true-false
   answer: false
   explanation: "ESI is not universally superior — the correct choice depends on the analyte's polarity and solution-phase behavior. ESI excels for polar, ionic, and high-molecular-weight compounds (peptides, drug metabolites, nucleotides) that exist as ions in solution. APCI is better for less polar, smaller molecules — many environmental contaminants, nonpolar drugs, and small neutral compounds — that ionize poorly in solution but can be ionized efficiently by corona discharge in the gas phase. Neither technique is universally optimal; analyte properties determine the choice."

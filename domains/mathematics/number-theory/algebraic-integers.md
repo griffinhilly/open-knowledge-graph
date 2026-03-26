@@ -51,7 +51,7 @@ An algebraic integer is a complex root of a monic integer polynomial. Algebraic 
   answer: true
   explanation: "This is one of the key structural facts about algebraic integers. If α satisfies a monic integer polynomial of degree m and β satisfies one of degree n, then both α + β and αβ satisfy monic integer polynomials of degree at most mn. The proof uses the fact that the minimal polynomial of α + β divides the characteristic polynomial of a certain matrix constructed over ℤ. This closure under addition and multiplication is what makes 𝒪_K a ring — and it's not at all obvious from the definition alone."
 
-- question: "A number is an algebraic integer if and only if it is a root of some polynomial with integer coefficients."
+- question: "A number is an algebraic integer if and primarily if it is a root of some polynomial with integer coefficients."
   type: true-false
   answer: false
   explanation: "The 'monic' requirement is essential and this statement omits it. Every algebraic integer is indeed a root of an integer polynomial, but the converse fails: 1/2 is a root of 2x − 1 = 0 (an integer polynomial) but is not an algebraic integer because no *monic* integer polynomial has 1/2 as a root. The distinction between 'integer polynomial' and 'monic integer polynomial' is precisely what separates algebraic numbers (roots of any integer polynomial, monic or not) from algebraic integers (roots of monic integer polynomials). Rational algebraic numbers that are not integers, like 1/2 or 2/3, are always excluded by the monic requirement."

@@ -59,7 +59,7 @@ Calculate stored energy using all three formulas and verify consistency. Derive 
   answer: true
   explanation: "The first charge element is moved against essentially no field — little work required. Each subsequent element must fight the growing field established by earlier charge. The average voltage during the charging process is V/2 (not V), so total work = Q × (V/2) = ½QV. The factor of ½ is the signature of any energy-storage process where the 'back-pressure' increases linearly as the store fills — springs follow the same logic: F = kx increases linearly, giving stored energy ½kx²."
 
-- question: "The energy density formula u = ½ε₀E² applies only to parallel-plate capacitors where the electric field is uniform."
+- question: "The energy density formula u = ½ε₀E² applies mainly to parallel-plate capacitors where the electric field is uniform."
   type: true-false
   answer: false
   explanation: "The formula u = ½ε₀E² is a universal result for the energy density of any electric field in free space — not limited to uniform fields or parallel-plate geometry. For a nonuniform field (like that of a point charge), you integrate u over all space to find total stored energy. The parallel-plate case is simply the special situation where the field is uniform, making the integral trivial (u times volume). The generality of the formula is what makes it fundamental to electromagnetism."

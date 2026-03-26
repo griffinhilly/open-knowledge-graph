@@ -48,7 +48,7 @@ Start with a demonstration: weigh a student before and after exercise to show wa
   answer: 1
   explanation: "Headaches and fatigue are among the earliest and most common symptoms of mild dehydration. When your body doesn't have enough water, blood volume decreases slightly, reducing oxygen delivery to the brain. The solution is simple: drink more water throughout the day rather than waiting until symptoms appear."
 
-- question: "You only need to drink water when you feel thirsty."
+- question: "You primarily need to drink water when you feel thirsty."
   type: true-false
   answer: false
   explanation: "Thirst is a delayed signal -- by the time your brain triggers the feeling of thirst, your body is already somewhat dehydrated. This is especially true during exercise or hot weather, when water loss through sweat is rapid. Drinking water regularly throughout the day, rather than waiting for thirst, is a better hydration strategy."

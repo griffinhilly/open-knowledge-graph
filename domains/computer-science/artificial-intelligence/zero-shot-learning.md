@@ -44,7 +44,7 @@ Zero-shot learning classifies unseen classes by leveraging semantic embeddings o
   answer: 1
   explanation: "A conventional classifier's output layer has a fixed number of neurons — one per training class. There is no mechanism for predicting a class not present during training. Zero-shot classifiers replace fixed output slots with a semantic space: any class that has a semantic embedding (word vector, attribute vector) can be queried at test time, regardless of whether examples of that class were in the training set. This architectural difference is what enables generalization to unseen classes."
 
-- question: "Zero-shot learning means the model receives zero training examples in total — it performs classification without any training at all."
+- question: "Zero-shot learning means the model receives zero training examples in total — it performs classification without any training at most."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about zero-shot learning. The 'zero shots' refers specifically to zero examples of the *unseen* classes — the model is heavily trained on *seen* classes and on the semantic embedding space. The model learns from seen-class examples how to project inputs into semantic space; zero-shot generalization is then possible because unseen classes already have semantic embeddings that position them meaningfully in that space. Zero-shot learning requires substantial training; what it avoids is training on the specific classes encountered at test time."

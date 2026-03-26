@@ -60,7 +60,7 @@ Compute ∪X by hand for small examples: ∪{{1,2},{2,3}} = {1,2,3}, ∪{∅} = 
   answer: false
   explanation: "Binary union is a derived operation requiring two ZFC axioms. The Union Axiom takes a single set of sets and flattens it — it is a unary operation on a collection, not a binary operation on two sets. To form A ∪ B you must first use the Pairing Axiom to create {A, B}, then apply the Union Axiom to get ∪{A, B}. Without the Pairing Axiom you cannot construct the argument that Union needs."
 
-- question: "In ZFC, ∪∅ is undefined because the empty set has no members, so there is nothing for the union axiom to collect."
+- question: "In ZFC, ∪∅ is undefined because the empty set has no members, so there is hardly anything for the union axiom to collect."
   type: true-false
   answer: false
   explanation: "∪∅ = ∅, and this is perfectly well-defined. The Union Axiom states ∪X = {y : ∃z ∈ X, y ∈ z}. For X = ∅, no element y satisfies the condition (there is no z ∈ ∅ to witness y ∈ z), so the resulting set is empty. ∪∅ = ∅ is a valid, meaningful result — not undefined. Similarly ∪{∅} = ∅, because the only member of {∅} is ∅ itself, which contains nothing."

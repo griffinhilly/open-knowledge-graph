@@ -53,7 +53,7 @@ Not all granulomas contain giant cells; giant cells form from fusion of epitheli
   answer: 2
   explanation: "Caseating necrosis — appearing as pink, cheese-like amorphous material at the granuloma center — is the histological hallmark that most strongly points to tuberculosis (or atypical mycobacteria). This results from macrophage death, toxic complement products, and lysosomal enzyme release at the granuloma core. Non-caseating granulomas (lacking this central necrosis) have a much broader differential including sarcoidosis, fungal infections, Crohn's disease, and berylliosis. Giant cells, lymphocytic rimming, and epithelioid transformation appear in both caseating and non-caseating granulomas — they are features of granulomatous inflammation generally, not TB specifically."
 
-- question: "Granulomas represent a failure of the immune system — evidence that macrophages have been overwhelmed and cannot mount an effective defense."
+- question: "Granulomas represent a failure of the immune system — evidence that macrophages have been overwhelmed and can seldom mount an effective defense."
   type: true-false
   answer: false
   explanation: "Granulomas are an adaptive strategy, not a failure. They represent the immune system's purposeful response to persistent antigens it cannot eliminate: containing what it cannot destroy. This is why granulomas require active Th1/IFN-γ signaling to form and maintain — they are not a passive accumulation but an organized, cytokine-sustained structure. The 'failure' framing gets the biology backwards: disrupting granulomas (as TNF-α inhibitors do) causes disease, confirming that granulomas were successfully protecting the host from dissemination."

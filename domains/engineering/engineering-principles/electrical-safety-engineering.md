@@ -44,7 +44,7 @@ Examine a household electrical panel and identify the circuit breakers, ground b
   answer: 1
   explanation: "A GFCI monitors the current flowing out on the hot wire and returning on the neutral wire. If even 5 mA is 'missing' (flowing through a person to ground instead of returning on the neutral), the GFCI trips in about 25 milliseconds. A 15A circuit breaker would not notice 5 mA of leakage."
 
-- question: "A 12-volt car battery is completely safe to work around because the voltage is low."
+- question: "A 12-volt car battery is mostly safe to work around because the voltage is low."
   type: true-false
   answer: false
   explanation: "While 12V is unlikely to cause a shock through dry skin, a car battery can deliver hundreds of amps through a short circuit. A dropped wrench across the terminals can weld itself in place, cause severe burns, spray molten metal, or ignite hydrogen gas produced by the battery."

@@ -57,7 +57,7 @@ In formal logic, 'all S are P' can be true even if S is empty (unlike English in
   answer: true
   explanation: "In classical logic, 'All S are P' is formalized as 'for every x, if x is S then x is P.' When S is an empty class (no unicorns exist), the conditional 'if x is a unicorn, then x has a golden horn' is never tested — there are no unicorns to serve as counterexamples. A conditional with a false antecedent is vacuously true. This conflicts with everyday English intuition (which assumes 'all S' presupposes S exists), but in formal logic vacuous truth is the standard interpretation."
 
-- question: "The negation of 'Some birds cannot fly' is 'Some birds can fly.'"
+- question: "The negation of 'Some birds can seldom fly' is 'Some birds can fly.'"
   type: true-false
   answer: false
   explanation: "The negation of an existential statement ('Some S are P') is a universal statement ('No S are P,' equivalently 'All S are not P'). The negation of 'Some birds cannot fly' is 'All birds can fly' — i.e., there are no birds that cannot fly. 'Some birds can fly' is actually compatible with 'Some birds cannot fly': both can be true simultaneously. A statement and its negation cannot both be true; only the universal denial achieves that."

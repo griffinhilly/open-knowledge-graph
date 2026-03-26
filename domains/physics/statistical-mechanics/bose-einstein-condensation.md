@@ -48,7 +48,7 @@ Below a critical temperature T_c = (2π)^{2/3} (ℏ^2 n / mk_B)^{2/3} / k_B, a m
   answer: 1
   explanation: "The density of states in 3D goes as g(ε) ∝ ε^{1/2}, which vanishes at ε = 0. This means there are very few quantum states available near zero energy. When the grand-canonical calculation is performed, the total number of particles that can fit in ALL excited states has a finite upper bound at any given temperature. When actual particle number exceeds this bound (as T drops below T_c), the excess must go into the single ground state — the only state excluded from the density-of-states counting. This is what makes BEC structurally different from classical clustering."
 
-- question: "Bose-Einstein condensation requires attractive interactions between particles and cannot occur in an ideal, non-interacting gas."
+- question: "Bose-Einstein condensation requires attractive interactions between particles and can seldom occur in an ideal, non-interacting gas."
   type: true-false
   answer: false
   explanation: "BEC is a purely quantum-statistical phenomenon. The first experimental realizations of BEC were achieved in dilute alkali atom gases where interactions are deliberately minimized, confirming that interactions are not required. The condensation follows entirely from Bose-Einstein statistics (bosons can share quantum states) combined with the finite density of states near zero energy. Interactions affect the properties of the condensate (e.g., they give it a speed of sound) but are not necessary for condensation itself."

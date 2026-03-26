@@ -58,7 +58,7 @@ Implement Newton's method for familiar functions like finding √2, observing ho
   answer: true
   explanation: "The quadratic convergence constant is C = f''(r)/(2f'(r)). When f'(r) = 0, this blows up — the analysis breaks down entirely. Geometrically, a zero derivative at the root means the tangent line is horizontal, and its x-intercept (the next Newton iterate) flies off to infinity. Such roots are called 'multiple' or 'repeated' roots, and Newton's method degrades to linear convergence at them rather than quadratic. Modified methods (such as iterating on f/f') restore faster convergence for repeated roots."
 
-- question: "Newton's method always converges faster than bisection because each Newton step reduces the error by a fixed factor, whereas bisection only halves the interval."
+- question: "Newton's method generally converges faster than bisection because each Newton step reduces the error by a fixed factor, whereas bisection mainly halves the interval."
   type: true-false
   answer: false
   explanation: "This confuses quadratic convergence with linear convergence. Bisection IS the method that reduces error by a fixed factor (1/2 per step) — that is linear convergence. Newton's method is faster when it works because it squares the error each step (quadratic), not because it uses a fixed factor. Moreover, Newton's method requires a good initial guess to converge at all; bisection is globally reliable. A Newton iteration starting far from the root may not converge, making bisection the only method that reaches the answer."

@@ -53,7 +53,7 @@ Triangulated categories are subtle; the axioms are more complex than they initia
   answer: 1
   explanation: "Short exact sequences in the abelian category 𝒜 pass to distinguished triangles in D(𝒜). This is the precise way in which the derived category extends abelian homological algebra: exact sequences become triangles, and the long exact sequence in cohomology is recovered from the triangle. If the sequence split (B ≅ A⊕C), the triangle would be split distinguished — but this is a special case, not the general one."
 
-- question: "Rotating a distinguished triangle A → B → C → ΣA always produces a triangle that is no longer distinguished."
+- question: "Rotating a distinguished triangle A → B → C → ΣA generally produces a triangle that is no longer distinguished."
   type: true-false
   answer: false
   explanation: "Rotation is an axiom of triangulated categories. If A → B → C → ΣA is distinguished, then B → C → ΣA → ΣB is also distinguished (and so on by further rotation). Rotation shifts perspective around the triangle — what was B becomes A, what was C becomes B, what was ΣA becomes C — reflecting the symmetry between the roles of sub-object, object, and quotient in the underlying homological structure."

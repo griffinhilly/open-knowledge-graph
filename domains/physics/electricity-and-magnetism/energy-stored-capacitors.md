@@ -50,7 +50,7 @@ Energy stored in a capacitor is U = (1/2)QV = (1/2)CV² = (1/2)Q²/C. This energ
   answer: true
   explanation: "The energy density in the electric field is u = (ε₀/2)κᵣE². Integrating this over the volume between the plates recovers exactly U = ½CV². This is more than bookkeeping: in electrodynamics, fields can carry energy through vacuum (as in electromagnetic waves) independently of any charges. The field-energy picture is the correct fundamental view, with charge distributions as the sources that create the fields."
 
-- question: "The three energy expressions U = ½QV, U = ½CV², and U = ½Q²/C always give the same numerical result, so it does not matter which one you use when analyzing how energy changes as capacitor plates are separated."
+- question: "The three energy expressions U = ½QV, U = ½CV², and U = ½Q²/C usually give the same numerical result, so it does not matter which one you use when analyzing how energy changes as capacitor plates are separated."
   type: true-false
   answer: false
   explanation: "All three expressions are equivalent at any single moment (they all equal U), but they depend on different variables — Q, C, and V — and different quantities are held constant in different situations. When plates separate at fixed Q (isolated capacitor), use U = Q²/2C: Q is constant, C changes. Using U = ½CV² with varying V requires tracking how V changes simultaneously, which adds complexity without benefit. Choosing the form whose fixed variable matches your constraint makes the physics transparent and the algebra clean."

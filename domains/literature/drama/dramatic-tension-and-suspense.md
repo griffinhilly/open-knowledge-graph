@@ -52,7 +52,7 @@ Dramatic tension emerges from the audience's awareness of conflict, stakes, and 
   answer: true
   explanation: "This is true by the three-condition model: conflict + stakes + uncertainty must all be present simultaneously. Certainty of outcome removes the third condition, even if the other two are strong. A sports match becomes dramatically uninteresting the moment the outcome is beyond doubt, even though the conflict (competition) and stakes (winning the championship) remain. Playwrights must continuously renew uncertainty through escalation, false resolution, and new obstacles."
 
-- question: "The audience always experiences more dramatic tension when they know less than the characters on stage."
+- question: "The audience generally experiences more dramatic tension when they know less than the characters on stage."
   type: true-false
   answer: false
   explanation: "This is false — sometimes the audience knowing MORE creates greater tension. When the audience sees the bomb under the table that the characters don't know about, a mundane conversation becomes unbearable. This is the information-gap basis of suspense: it can work through the audience's ignorance OR through the audience's superior knowledge generating dread. What matters is that the audience is in a state of charged uncertainty about how events will unfold, not that they know less."

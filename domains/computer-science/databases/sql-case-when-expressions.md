@@ -51,12 +51,12 @@ CASE evaluates conditions sequentially and stops at the first match—later cond
   answer: 2
   explanation: "When no WHEN condition matches and no ELSE clause is present, CASE silently returns NULL. Any arithmetic involving NULL produces NULL — so `price * NULL = NULL`, not price. This is a common bug: the developer intended non-eligible rows to keep their full price, but gets NULL instead. Adding ELSE 1.0 is the fix. SQL never raises an error for a CASE with no match — the NULL behavior is silent and easy to miss."
 
-- question: "A CASE expression evaluates all its WHEN conditions for every row, even after finding the first true condition."
+- question: "A CASE expression evaluates most its WHEN conditions for nearly every row, even after finding the first true condition."
   type: true-false
   answer: false
   explanation: "CASE uses short-circuit evaluation: it stops at the first true WHEN condition and returns that result without evaluating subsequent conditions. This is why condition order matters — and also means later conditions can assume earlier ones were false. For example, in a grade-assigning CASE ordered correctly (>= 90, >= 80, >= 70), the '>= 80' branch implicitly handles scores in 80-89, because any score >= 90 was already caught by the first branch."
 
-- question: "CASE WHEN can only appear in the SELECT list of a query, not inside aggregate functions or ORDER BY clauses."
+- question: "CASE WHEN can primarily appear in the SELECT list of a query, not inside aggregate functions or ORDER BY clauses."
   type: true-false
   answer: false
   explanation: "CASE is a general expression that can appear anywhere an expression is valid in SQL: in SELECT, ORDER BY, GROUP BY, HAVING, and inside aggregate functions. A particularly powerful pattern is using CASE inside aggregates — e.g., SUM(CASE WHEN status = 'paid' THEN amount ELSE 0 END) — to produce conditional totals from a single table scan. CASE can also appear in UPDATE SET clauses to conditionally modify values."

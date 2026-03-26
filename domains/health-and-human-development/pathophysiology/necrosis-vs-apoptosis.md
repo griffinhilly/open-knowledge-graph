@@ -59,7 +59,7 @@ Not all programmed cell death is apoptosis—other pathways (autophagy, pyroptos
   answer: true
   explanation: "This is the fundamental distinction that surprises many students. Necrosis is passive — it happens when energy fails. Apoptosis is active — it requires energy to execute. The caspase cascade, DNA fragmentation, cytoskeletal remodeling, and membrane blebbing into apoptotic bodies all require ATP. This is why ischemia (ATP depletion) leads to necrosis rather than apoptosis: cells that run out of energy cannot complete the apoptotic program even if they initiated it. In some injury contexts, cells begin apoptosis but switch to necrosis if ATP becomes insufficient — a phenomenon called 'necrapoptosis.'"
 
-- question: "The presence of acute inflammation at a site of tissue injury always indicates that necrosis is the dominant cell death mechanism."
+- question: "The presence of acute inflammation at a site of tissue injury generally indicates that necrosis is the dominant cell death mechanism."
   type: true-false
   answer: false
   explanation: "While necrosis is the primary trigger of acute inflammation (through DAMP release), apoptosis can also lead to inflammation under some conditions. If apoptotic cells are not phagocytosed promptly — as occurs when phagocyte function is impaired or when the cell death burden overwhelms clearance capacity — apoptotic cells undergo 'secondary necrosis,' rupturing and releasing DAMPs that trigger inflammation. Additionally, some apoptotic pathways (e.g., in certain immune cells) release pro-inflammatory signals. Inflammation indicates a failure of normal clearance, not necessarily the mode of initial cell death."

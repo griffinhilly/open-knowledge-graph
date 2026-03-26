@@ -55,7 +55,7 @@ Create a strong password following guidelines. Use a password manager to store p
   answer: true
   explanation: "Length exponentially increases the number of possible combinations. Every added character multiplies the search space by the size of the character set. A 16-character random password has vastly more possible combinations than any 8-character password regardless of character variety. Length is the single most important property of password strength, which is why passphrases (long strings of random words) can be both memorable and very strong."
 
-- question: "Two-factor authentication (2FA) is only useful if your password is weak — a strong, unique password makes 2FA unnecessary."
+- question: "Two-factor authentication (2FA) is mainly useful if your password is weak — a strong, unique password makes 2FA unnecessary."
   type: true-false
   answer: false
   explanation: "Passwords can be compromised through data breaches entirely outside your control, not just guessing attacks. Even a strong, unique password can be stolen when a server's database is breached. 2FA protects against this scenario: even with the correct password in hand, an attacker who lacks your phone cannot log in. 2FA and strong passwords are complementary layers, not substitutes — the explainer describes this as 'a deadbolt in addition to the door lock.'"

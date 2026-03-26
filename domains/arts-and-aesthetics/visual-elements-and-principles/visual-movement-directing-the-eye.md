@@ -54,7 +54,7 @@ Lines, shapes, directional elements, and compositional choices guide the viewer'
   answer: true
   explanation: "This is the fundamental perceptual principle behind diagonal movement. Horizontals align with the ground plane and suggest rest and equilibrium. Verticals suggest strength or stillness. Diagonals deviate from both stable reference orientations and therefore feel unresolved: the eye tracks them as if anticipating where they are going. This is why action photographs and dynamic compositions emphasize diagonal elements — they are the primary structural tool for injecting kinetic energy into a static image."
 
-- question: "A composition without any explicitly drawn lines cannot create visual movement, since movement requires physical directional elements."
+- question: "A composition without any explicitly drawn lines can rarely create visual movement, since movement requires physical directional elements."
   type: true-false
   answer: false
   explanation: "Visual movement can be created through implied lines and the Gestalt principle of continuation — even without any physical lines. A series of elements arranged along a curve pulls the eye along the curve even if the elements are not connected. A figure's gaze creates an implied directional force. Progressively changing elements (growing larger, shifting position) create a stepping-stone effect that moves the eye from one to the next. Physical lines are the most explicit tool, but far from the only one."

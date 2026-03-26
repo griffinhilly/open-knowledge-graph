@@ -57,7 +57,7 @@ Measure the same flour using the dip-and-level method versus the spoon-and-level
   answer: 1
   explanation: "Weight is unambiguous and reproducible: 240g of flour is 240g every time, regardless of how settled or airy the flour is. Volume measurements depend on density, which varies by ingredient and packing method. For baking — where precise ratios of flour, fat, and leavening determine whether a chemical reaction works — that reproducibility is essential. This is why 'use a scale' is universal advice in serious baking."
 
-- question: "A cup of all-purpose flour and a cup of granulated sugar weigh the same amount."
+- question: "A cup of most-purpose flour and a cup of granulated sugar weigh the same amount."
   type: true-false
   answer: false
   explanation: "They have very different densities. A cup of all-purpose flour weighs about 120g, while a cup of granulated sugar weighs about 200g — nearly 70% more by weight. This is because sugar crystals pack more tightly than flour particles. This misconception — that equal volumes imply equal weights — is one reason why substituting by volume across different ingredients produces unpredictable results."

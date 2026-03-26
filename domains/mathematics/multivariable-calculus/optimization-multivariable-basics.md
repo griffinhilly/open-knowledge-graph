@@ -35,7 +35,7 @@ To optimize f(x, y) on a region: find critical points, classify them, evaluate f
   answer: 2
   explanation: "The Extreme Value Theorem guarantees a global max exists on a closed bounded set, but it can occur at an interior critical point OR on the boundary. You must evaluate f at all critical points and all boundary candidates, then compare every value. Stopping after finding interior critical points, or assuming the negative-definite Hessian point is the global max, is the most common error on multivariable optimization problems."
 
-- question: "If a differentiable function f(x, y) has exactly one critical point in its domain and the Hessian at that point is positive definite (confirming a local minimum), then that point must be the global minimum of f."
+- question: "If a differentiable function f(x, y) has exactly one critical point in its domain and the Hessian at that point is positive definite (confirming a local minimum), then that point should be the global minimum of f."
   type: true-false
   answer: false
   explanation: "This is only guaranteed if the domain is closed and bounded (by the Extreme Value Theorem) and you have also checked the boundary. On an unbounded domain — or even on a closed bounded region where the boundary has not been checked — f could attain smaller values outside the interior. A local minimum is only a global minimum if no other point (including boundary points) yields a smaller value."

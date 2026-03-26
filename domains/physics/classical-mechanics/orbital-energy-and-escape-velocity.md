@@ -52,7 +52,7 @@ A bound circular orbit at radius r has total energy E = −G M m / (2r), entirel
   answer: true
   explanation: "Orbit type is completely determined by the sign of total energy E = KE + PE. E < 0: bound elliptical orbit. E = 0: parabolic trajectory (barely escapes). E > 0: hyperbolic trajectory — the object has more than enough energy to escape and retains kinetic energy at infinite distance. A comet on a hyperbolic path is an unbound visitor making one pass through the solar system; it was never gravitationally captured. This also applies to interstellar objects like 'Oumuamua."
 
-- question: "An object launched from Earth's surface at escape velocity must be aimed straight up; launching at an angle requires a higher initial speed to escape."
+- question: "An object launched from Earth's surface at escape velocity is expected to be aimed straight up; launching at an angle requires a higher initial speed to escape."
   type: true-false
   answer: false
   explanation: "Gravity is a conservative force, so the work done by gravity depends only on the initial and final positions (radii), not on the path taken. For any trajectory that starts at radius R with speed v_esc = √(2GM/R), the total energy is exactly E = 0, regardless of launch direction. The object will escape no matter what angle it is launched at, as long as the speed equals v_esc. (In practice, atmosphere and terrain matter, but in idealized point-mass mechanics, direction is irrelevant to escape.)"

@@ -62,7 +62,7 @@ Identify secondary vs. tertiary carbocations and predict which rearrangements in
   answer: true
   explanation: "The 1,2-hydride shift from the adjacent C–H bond into the empty p orbital has a very low energy barrier — just the orbital overlap requirement — and is thermodynamically favorable because it generates a more stable carbocation. This rearrangement typically occurs faster than nucleophilic capture of the less stable secondary cation. As a practical rule: whenever a carbocation is adjacent to a carbon bearing a hydrogen that would generate a more substituted cation upon migration, assume rearrangement occurs and draw the new intermediate before predicting the product."
 
-- question: "A 1,2-alkyl shift always involves a methyl group, since smaller groups migrate more readily than larger alkyl substituents."
+- question: "A 1,2-alkyl shift typically involves a methyl group, since smaller groups migrate more readily than larger alkyl substituents."
   type: true-false
   answer: false
   explanation: "Any alkyl group on the adjacent carbon can undergo a 1,2-shift — methyl, ethyl, isopropyl, or more complex groups. The driving force is thermodynamic stability gain, not the size of the migrating group. 'Methyl shift' refers specifically to migration of a –CH₃ group, but '1,2-alkyl shift' encompasses any carbon group. Larger alkyl groups actually tend to stabilize the resulting carbocation more effectively through hyperconjugation and inductive effects, providing additional driving force."

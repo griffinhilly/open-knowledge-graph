@@ -48,7 +48,7 @@ Compare examples: 'All unicorns are pink. Sparkle is a unicorn. Therefore, Spark
   answer: 1
   explanation: "Validity asks: IF the premises were true, WOULD the conclusion have to be true? This argument's form (All A are B; X is an A; therefore X is B) is perfectly valid — if those premises were true, the conclusion would follow necessarily. The actual truth or falsity of the premises is irrelevant to the validity judgment. This is the central point: truth and validity are properties of different kinds of things, evaluated by different methods."
 
-- question: "An argument with a true conclusion is always valid — if the conclusion is true, the argument must have gotten the logic right."
+- question: "An argument with a true conclusion is typically valid — if the conclusion is true, the argument should have gotten the logic right."
   type: true-false
   answer: false
   explanation: "A true conclusion can appear in an invalid argument. Consider: 'Most birds fly. Tweety is a bird. Therefore, Tweety flies.' Tweety happens to be a robin, so the conclusion is true. But the argument form is invalid: 'most X are Y; z is X; therefore z is Y' does not guarantee the conclusion — Tweety could have been a penguin. Validity must be checked structurally, not by whether the conclusion happens to be true."

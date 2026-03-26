@@ -59,7 +59,7 @@ Write simple UDP echo client and server using socket APIs; observe that UDP prov
   answer: false
   explanation: "UDP's header is intentionally minimal: source port, destination port, length, and checksum — just 8 bytes total. There are no sequence numbers, acknowledgment numbers, flags, or flow control fields. This is not an oversight; it is the point. Sequence numbers and ordering are TCP features that add overhead and latency. If a UDP application needs ordering, it must implement that logic at the application layer. The stripped-down header is why UDP adds almost no latency beyond network transit time itself."
 
-- question: "UDP is always faster than TCP for any given application because it has lower protocol overhead."
+- question: "UDP is generally faster than TCP for any given application because it has lower protocol overhead."
   type: true-false
   answer: false
   explanation: "UDP has lower per-packet overhead and no connection setup latency, but 'always faster' is incorrect. TCP's congestion control can achieve higher sustained throughput than uncontrolled UDP on congested networks, because UDP floods the network without backing off while TCP adapts to available capacity. UDP's advantages are lower latency for small exchanges and no head-of-line blocking — not universally higher throughput. The right choice depends entirely on the application's requirements."

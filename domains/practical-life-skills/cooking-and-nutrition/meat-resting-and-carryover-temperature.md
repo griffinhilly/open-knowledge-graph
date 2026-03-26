@@ -62,7 +62,7 @@ Cook two identical proteins to the same temperature: one rested 5–10 minutes, 
   answer: true
   explanation: "Carryover is a thermal process: surface heat continues conducting inward after the heat source is removed, raising the center temperature. Juice redistribution is a mechanical/biological process: heat-contracted muscle fibers relax as temperature equilibrates across the cut, reabsorbing moisture they squeezed out during cooking. These are distinct phenomena — one is about heat diffusion, one is about protein relaxation. Understanding both reveals why resting is non-negotiable: skipping it fails on both fronts simultaneously."
 
-- question: "Meat must be covered or tented tightly with foil during resting to prevent heat and moisture loss, otherwise the resting period is ineffective."
+- question: "Meat is expected to be covered or tented tightly with foil during resting to prevent heat and moisture loss, otherwise the resting period is ineffective."
   type: true-false
   answer: false
   explanation: "Uncovered resting works fine. Loose tenting with foil slightly slows surface cooling but is not required — and a tight cover traps steam, which softens the crust of a seared steak or roast. The protein fiber relaxation and heat diffusion that drive juice redistribution and carryover cooking work regardless of whether the meat is covered. For cuts where a crispy crust matters, leaving the meat uncovered during resting is often preferable."

@@ -52,7 +52,7 @@ Observables in quantum mechanics are represented by Hermitian (self-adjoint) ope
   answer: true
   explanation: "This is the standard one-line proof. Starting with Â|aₙ⟩ = aₙ|aₙ⟩ and taking the inner product with ⟨aₙ|: aₙ = ⟨aₙ|Â|aₙ⟩. Using Â = Â†: ⟨aₙ|Â|aₙ⟩ = ⟨Â†aₙ|aₙ⟩ = ⟨aₙ|aₙ⟩* · aₙ* = aₙ*. So aₙ = aₙ*, which means aₙ is real. This proof works for any Hermitian operator on any Hilbert space — it is a consequence purely of Â = Â†, not of any particular physical system or operator."
 
-- question: "The raising operator â† is a valid quantum mechanical observable for the harmonic oscillator, because it has well-defined, predictable action on every energy eigenstate."
+- question: "The raising operator â† is a valid quantum mechanical observable for the harmonic oscillator, because it has well-defined, predictable action on nearly every energy eigenstate."
   type: true-false
   answer: false
   explanation: "â† is not Hermitian: (â†)† = â ≠ â†. Therefore it is not an observable — you cannot measure it directly. Although â† has well-defined action on energy eigenstates (â†|n⟩ = √(n+1)|n+1⟩), its eigenvalues are complex numbers (it belongs to the family of operators with coherent state eigenstates, but these form an overcomplete non-orthogonal set). Observable operators are exactly the Hermitian ones; non-Hermitian operators like â, â†, and their combinations appear in calculations and in defining Hamiltonians, but do not themselves represent measurable quantities."

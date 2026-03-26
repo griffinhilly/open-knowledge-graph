@@ -51,7 +51,7 @@ Cache mapping strategy determines where a memory address can reside in the cache
   answer: true
   explanation: "This is the core weakness of direct-mapped caches. Because each memory address maps to exactly one cache line, two addresses that happen to map to the same line will evict each other on every access — regardless of how many other lines are unused. The cache's overall occupancy is irrelevant to conflict miss frequency. This is why the miss rate of a direct-mapped cache can sometimes be worse than a smaller fully associative cache: it's not about total capacity, it's about placement flexibility."
 
-- question: "Doubling cache associativity always doubles cache performance — a 4-way set-associative cache is always twice as fast as a 2-way cache."
+- question: "Doubling cache associativity generally doubles cache performance — a 4-way set-associative cache is typically twice as fast as a 2-way cache."
   type: true-false
   answer: false
   explanation: "Associativity shows strongly diminishing returns. Going from 1-way (direct-mapped) to 2-way typically cuts conflict misses roughly in half — a substantial improvement. Going from 2-way to 4-way helps further but by a smaller margin. Beyond 8-way, improvements are minimal for most workloads, while hardware complexity and power continue growing. Performance depends on the specific access patterns: a workload with few conflicts sees little benefit from higher associativity; one with many conflicts sees large gains up to a point."

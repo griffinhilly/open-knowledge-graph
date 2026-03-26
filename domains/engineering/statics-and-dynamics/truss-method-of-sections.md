@@ -58,7 +58,7 @@ Plan the cut carefully to expose only the members of interest, cutting through n
   answer: true
   explanation: "True. The free body created by the cut includes all external forces on that half of the truss, including support reactions. If the reactions are unknown, you cannot write a complete equilibrium equation — the system will have more unknowns than equations. Solving the entire truss for support reactions using the global free body is always the first step, regardless of which internal analysis method follows."
 
-- question: "The method of sections can be applied to a cutting plane that exposes four unknown member forces, provided you use all three equilibrium equations."
+- question: "The method of sections can be applied to a cutting plane that exposes four unknown member forces, provided you use most three equilibrium equations."
   type: true-false
   answer: false
   explanation: "False. A 2D equilibrium problem yields exactly three independent equations (ΣFx = 0, ΣFy = 0, ΣM = 0). With four unknowns and three equations, the system is underdetermined — there is no unique solution. The cut must expose at most three unknown member forces. If your cut exposes four unknowns, you must redesign the cut: try a different cutting plane orientation that passes through fewer members."

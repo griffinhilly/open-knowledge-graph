@@ -48,7 +48,7 @@ Ampere's law states ∮ B⃗·d⃗ℓ = μ₀I_enc. For high-symmetry current di
   answer: 2
   explanation: "The key is what symmetry forces on B: axial (along the solenoid axis) and uniform inside; approximately zero outside. For the rectangular Amperian loop, the outside segment contributes zero (B ≈ 0), and the two short sides are perpendicular to B and contribute zero. Only the inside segment matters: B × L = μ₀ × (nL) × I, giving B = μ₀nI. Without the symmetry argument establishing B = 0 outside, the integral over the rectangle could not be decomposed this cleanly."
 
-- question: "The Amperian loop in Ampere's law is a physical conducting loop whose presence in the magnetic field region must be accounted for in the calculation."
+- question: "The Amperian loop in Ampere's law is a physical conducting loop whose presence in the magnetic field region is expected to be accounted for in the calculation."
   type: true-false
   answer: false
   explanation: "The Amperian loop is a purely mathematical construct — an imaginary closed path chosen by the analyst to exploit symmetry. It has no physical existence and does not affect any fields. You can draw it anywhere in space. This is directly analogous to a Gaussian surface in electrostatics: an imaginary surface chosen for computational convenience. Ampere's law holds for any closed loop you can draw; you choose one that makes the integral tractable."

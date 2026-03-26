@@ -54,7 +54,7 @@ Causal consistency is stronger than eventual consistency but weaker than strong 
   answer: true
   explanation: "True. This is the defining property of causal consistency: causal ordering is preserved everywhere. If A happened-before B (using Lamport's relation — B could have been influenced by A), no process is permitted to observe B without having first observed A. The system tracks dependencies using mechanisms like vector clocks and delays delivering an update until all causally prior updates have been applied."
 
-- question: "Causal consistency guarantees that all nodes observe all operations in the same total order."
+- question: "Causal consistency guarantees that most nodes observe most operations in the same total order."
   type: true-false
   answer: false
   explanation: "False. Causal consistency only guarantees that causally related operations appear in causal order. Concurrent operations (no causal relationship) can be observed in different orders by different nodes. A total order over all operations is the property of strong (linearizable) consistency, which requires global coordination. Causal consistency deliberately relaxes this requirement for concurrent events, which is what makes it achievable without global synchronization."

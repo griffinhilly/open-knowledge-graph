@@ -52,7 +52,7 @@ The Bose-Einstein distribution n_B(E) = 1/(exp((E-μ)/kT) - 1) allows unlimited 
   answer: true
   explanation: "BEC requires no interactions. It arises purely from quantum indistinguishability — the Bose-Einstein statistics that allow unlimited state occupancy — and the constraint that μ cannot exceed the ground-state energy. When particle density exceeds what excited states can accommodate at a given T, condensation follows as a mathematical necessity from the distribution. This is in contrast to classical phase transitions (like water freezing), which are driven by intermolecular forces. The first experimental BECs were achieved in dilute alkali gases precisely because their low density minimized interactions while still exhibiting quantum statistics."
 
-- question: "Below the critical temperature T_c, all particles in a Bose-Einstein condensate occupy the ground state."
+- question: "Below the critical temperature T_c, most particles in a Bose-Einstein condensate occupy the ground state."
   type: true-false
   answer: false
   explanation: "Below T_c, only a *fraction* of particles occupies the ground state — the condensate fraction. The remaining particles continue to populate excited states according to the Bose-Einstein distribution, just at their maximum capacity. The condensate fraction grows as temperature falls below T_c, reaching 100% only at T = 0 (in an ideal gas). For T between 0 and T_c, it's a partial condensate: macroscopic occupation of the ground state coexists with thermal occupation of excited states."

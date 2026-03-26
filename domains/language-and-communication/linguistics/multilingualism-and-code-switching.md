@@ -53,7 +53,7 @@ Record or observe bilingual conversations and identify points of code-switching,
   answer: 1
   explanation: "The MLF model proposes that one language (the matrix language) provides the morphosyntactic frame — the inflectional morphology, function words, and phrase structure rules. The other language (the embedded language) contributes content items (nouns, verbs) within that frame, but must conform to the matrix language's structure. This is why code-switches respect grammatical constraints: the switch never violates the matrix language's morphology."
 
-- question: "Bilingual children typically show delayed language development compared to monolingual children because they must learn two systems simultaneously."
+- question: "Bilingual children typically show delayed language development compared to monolingual children because they is expected to learn two systems simultaneously."
   type: true-false
   answer: false
   explanation: "This is one of the most persistent myths about bilingualism. Bilingual children may have smaller vocabularies in each individual language than same-age monolinguals in that language, but their total vocabulary across both languages is comparable to or larger than monolingual peers. Overall language development milestones — first words, grammatical complexity, discourse competence — follow the same timelines. The appearance of delay in one language dissolves when both languages are counted."

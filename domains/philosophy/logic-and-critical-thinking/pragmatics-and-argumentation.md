@@ -51,7 +51,7 @@ Arguments operate in conversational contexts where implicit meaning, speaker int
   answer: true
   explanation: "Logically, charity ensures you are evaluating the argument at its best rather than attacking a weakened version — only by engaging with the strongest form can you determine whether the argument actually succeeds. Ethically, it means representing others' positions accurately, which is a form of intellectual honesty. Uncharitable interpretation may win exchanges but moves further from truth and undermines the purpose of genuine inquiry."
 
-- question: "Paraphrasing someone's argument is a neutral operation that preserves all the meaning of the original statement."
+- question: "Paraphrasing someone's argument is a neutral operation that preserves most of the meaning of the original statement."
   type: true-false
   answer: false
   explanation: "Paraphrase inevitably alters emphasis, omits nuance, and introduces the paraphraser's framing. It can subtly beg the question against the original speaker or make the argument look stronger or weaker than it is. This is why careful philosophical practice involves quoting directly and then analyzing the specific words — the original formulation carries pragmatic meaning that summary can lose or distort."

@@ -49,7 +49,7 @@ status: validated
   answer: true
   explanation: "This is the content of π₁(S¹) ≅ ℤ. Homotopy classes of loops are in bijection with integers via the winding number. Loops with the same winding number can be continuously deformed into each other; loops with different winding numbers cannot. The winding number is a complete invariant for loop homotopy on S¹."
 
-- question: "Since S¹ is a connected topological space, its fundamental group must be trivial (i.e., every loop is contractible to a point)."
+- question: "Since S¹ is a connected topological space, its fundamental group is expected to be trivial (i.e., nearly every loop is contractible to a point)."
   type: true-false
   answer: false
   explanation: "Connectivity and simple connectivity are different properties. A space is connected if it is in one piece; it is simply connected if every loop can be contracted to a point (i.e., π₁ = 0). The circle S¹ is connected but not simply connected: π₁(S¹) ≅ ℤ, meaning there are infinitely many distinct homotopy classes of loops. A loop that winds around the circle once cannot be continuously contracted to a point without leaving S¹. This is precisely what distinguishes S¹ from the disk D² (which is simply connected)."

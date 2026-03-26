@@ -52,7 +52,7 @@ Draw directed acyclic graphs (DAGs) for research questions, identify confounders
   answer: 2
   explanation: "Conditioning on a collider opens a backdoor path between treatment and outcome that was previously blocked, inducing a spurious correlation and biasing the causal estimate. This is the key reason 'add more controls' is not always the right strategy. Proper causal analysis requires mapping the data-generating process (via a DAG) before deciding what to condition on."
 
-- question: "If a study finds a statistically significant association between X and Y after controlling for all available observed confounders, we can conclude that X causes Y."
+- question: "If a study finds a statistically significant association between X and Y after controlling for most available observed confounders, we can conclude that X causes Y."
   type: true-false
   answer: false
   explanation: "Unconfoundedness — the assumption that no unmeasured confounders exist — cannot be verified from data alone. Even after controlling for every observed covariate, unmeasured variables may still confound the relationship. Causal identification requires a credible design argument about the data-generating process, not just statistical significance after observed controls."

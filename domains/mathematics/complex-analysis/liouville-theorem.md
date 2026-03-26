@@ -45,7 +45,7 @@ Any bounded entire function (holomorphic on all of ℂ) must be constant. This r
   answer: 2
   explanation: "If p(z) has no roots, then 1/p(z) is entire (no poles, since no zeros of p). For large |z|, |p(z)| → ∞ (polynomials grow without bound), so |1/p(z)| → 0 — the function is bounded near infinity. Combined with continuity on the compact disk, 1/p(z) is bounded everywhere. Liouville's Theorem then forces 1/p to be constant, which would make p constant — but p was assumed non-constant. This contradiction proves p must have a root. The entire proof structure is: no root → bounded entire function → Liouville → constant → contradiction."
 
-- question: "Liouville's Theorem has a direct analog in real analysis: any bounded smooth function on all of ℝ must be constant."
+- question: "Liouville's Theorem has a direct analog in real analysis: any bounded smooth function on most of ℝ should be constant."
   type: true-false
   answer: false
   explanation: "This is false, and recognizing it is key to appreciating why Liouville's Theorem is remarkable. In real analysis, sin(x) is a smooth (infinitely differentiable) bounded function on all of ℝ that is not constant. The theorem fails in the real setting because the integral formula argument breaks down: Cauchy's integral formula for derivatives, which allows the bound |f'(z₀)| ≤ M/R → 0, relies on the specific structure of complex holomorphicity and has no real counterpart. Complex differentiability is far stronger than real differentiability."

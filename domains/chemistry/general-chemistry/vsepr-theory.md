@@ -59,7 +59,7 @@ Work through a large variety of molecules systematically: count all electron gro
   answer: false
   explanation: "A triple bond counts as ONE electron group. An electron group is a region of electron density, regardless of how many pairs occupy it. The σ and π electrons in a triple bond all occupy the same general region between two atoms, so they count as a single group. For example, acetylene (HC≡CH) has two electron groups around each carbon (the triple bond plus one single bond), giving linear geometry. Counting triple bonds as three groups would incorrectly predict bent geometry for linear molecules."
 
-- question: "Ammonia (NH₃) and boron trifluoride (BF₃) both have three bonds to the central atom, so they must have the same molecular geometry."
+- question: "Ammonia (NH₃) and boron trifluoride (BF₃) both have three bonds to the central atom, so they is expected to have the same molecular geometry."
   type: true-false
   answer: false
   explanation: "BF₃ has three bonding pairs and no lone pairs on boron (boron has 3 valence electrons, all used in bonds), giving trigonal planar geometry (120°). NH₃ has three bonding pairs plus one lone pair on nitrogen (5 valence electrons, 3 in bonds, 1 remaining as lone pair), giving trigonal pyramidal geometry (~107°). Lone pairs are invisible in molecular geometry naming but they are real electron groups that push bonding pairs together. Ignoring lone pairs when counting groups is the fundamental VSEPR error."

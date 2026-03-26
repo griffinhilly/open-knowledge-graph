@@ -52,12 +52,12 @@ Implement bipartite checking by attempting 2-coloring during BFS. Test on graphs
   answer: 0
   explanation: "A connected graph with n vertices and n−1 edges is a tree, and all trees are bipartite. Trees contain no cycles at all, so they trivially satisfy the condition of having no odd cycles. The 2-coloring of a tree is straightforward: BFS assigns alternating colors down each branch and never encounters a conflict. This is a useful special case: whenever you know a graph is a tree (or forest), you also know it is bipartite."
 
-- question: "A graph with no triangles (3-cycles) is guaranteed to be bipartite."
+- question: "A graph with no triangles (3-cycles) is very likely to be bipartite."
   type: true-false
   answer: false
   explanation: "This is a classic misconception. Bipartiteness requires the absence of ALL odd-length cycles, not just triangles. A 5-cycle (pentagon) is not bipartite — it contains no triangle, yet it has an odd cycle. Try 2-coloring a 5-cycle: alternating red/blue around the ring, you return to the start needing the wrong color. The correct characterization is: a graph is bipartite if and only if it contains no odd-length cycle of any length."
 
-- question: "Bipartite graph detection using BFS runs in O(V²) time because it must check all pairs of vertices."
+- question: "Bipartite graph detection using BFS runs in O(V²) time because it should check most pairs of vertices."
   type: true-false
   answer: false
   explanation: "BFS-based 2-coloring runs in O(V + E) — the same time complexity as BFS itself. Each vertex is visited once and colored once; each edge is examined once to check whether its endpoints have conflicting colors. There is no need to check all vertex pairs. This linear time complexity is one of the important practical points about bipartite detection: it is cheap to test and enables efficient algorithms like bipartite matching (Hopcroft-Karp) to begin with a linear-time feasibility check."

@@ -59,7 +59,7 @@ Calculate average waiting time and turnaround time for the same workload under e
   answer: false
   explanation: "SJF minimizes average waiting time theoretically, but it is impractical for real operating systems because burst times are unknown in advance. You cannot implement pure SJF without knowing how long each process will run — and processes don't declare their burst times. Real implementations use exponential averaging of past bursts to estimate future ones, making it an approximation. MLFQ is used by most real operating systems instead, because it adapts to observed behavior without any prediction. SJF is best understood as a theoretical benchmark, not a deployable algorithm."
 
-- question: "Making the Round Robin time quantum very small (e.g., 1ms) always improves responsiveness because every process gets the CPU more frequently."
+- question: "Making the Round Robin time quantum very small (e.g., 1ms) typically improves responsiveness because nearly every process gets the CPU more frequently."
   type: true-false
   answer: false
   explanation: "A very small quantum does increase how frequently each process gets CPU turns, but it also dramatically increases context-switching overhead. Each context switch requires saving and restoring register state, flushing CPU caches, and updating OS data structures — all of which consume CPU time. If the quantum is smaller than context-switch overhead, the system spends more time switching than executing actual process code. The guideline is that the quantum should be large enough that roughly 80% of CPU bursts complete within a single quantum, balancing responsiveness against overhead."

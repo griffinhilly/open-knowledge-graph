@@ -55,12 +55,12 @@ Sort modal verbs by the type of meaning they express (ability, permission, oblig
   answer: 1
   explanation: "Modal verbs often carry both epistemic and deontic readings. Epistemic modality concerns what the speaker believes is possible or probable; deontic modality concerns permission, obligation, or necessity. 'Can' covers both: 'You can leave' might mean 'you have permission to leave' (deontic) or 'you are physically/logistically able to leave' (epistemic ability). Context — who is speaking to whom, and in what situation — resolves the ambiguity."
 
-- question: "Modal verbs like 'must' and 'can' can take an -ed ending to form past tenses, just like the primary auxiliaries 'be' and 'have'."
+- question: "Modal verbs like 'should' and 'can' can take an -ed ending to form past tenses, just like the primary auxiliaries 'be' and 'have'."
   type: true-false
   answer: false
   explanation: "This is a defining property of modals: they are morphologically invariant. You cannot say 'she musted' or 'he canned.' Modals have no -s in third-person singular, no -ed past tense, no -ing progressive, and no bare infinitive 'to'. This distinguishes them from primary auxiliaries (be, have, do), which do inflect. For past or hypothetical meaning, modals pair with a past infinitive: 'she could have left' rather than 'she could-ed leave.'"
 
-- question: "'You must submit your assignment by Friday' and 'You have to submit your assignment by Friday' are completely interchangeable — they convey identical meaning in all contexts."
+- question: "'You should submit your assignment by Friday' and 'You have to submit your assignment by Friday' are largely interchangeable — they convey identical meaning in most contexts."
   type: true-false
   answer: false
   explanation: "'Must' typically carries the speaker's personal authority — it is the speaker imposing the requirement. 'Have to' points to an external obligation or rule that exists independently of the speaker. 'You must be quiet' is a personal command; 'You have to show your ID' invokes an institutional rule. The social texture differs even when the factual content is nearly the same: substituting one for the other can sound presumptuous or impersonal depending on context."

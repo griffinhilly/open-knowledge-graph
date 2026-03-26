@@ -40,7 +40,7 @@ Confusing variance and standard deviation. Thinking IQR includes all data. Belie
   answer: 2
   explanation: "IQR measures the spread of the middle 50% of data (Q3 - Q1), making it resistant to outliers. Range = max - min, so the single score of 15 would dominate it entirely. Variance and standard deviation are also pulled by extreme values because they use squared deviations from the mean."
 
-- question: "The standard deviation of a dataset is always smaller than its variance."
+- question: "The standard deviation of a dataset is typically smaller than its variance."
   type: true-false
   answer: false
   explanation: "Standard deviation = √variance. When variance is less than 1, its square root is larger — for example, a variance of 0.25 gives a standard deviation of 0.5. Whether std dev is larger or smaller than variance depends entirely on the scale of the data, not a fixed rule."

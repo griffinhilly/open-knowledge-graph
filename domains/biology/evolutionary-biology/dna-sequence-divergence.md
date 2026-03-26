@@ -42,7 +42,7 @@ DNA sequences diverge as substitutions accumulate; the number of differences bet
   answer: 0
   explanation: "The Jukes-Cantor model assumes all substitution types (A↔G, A↔C, A↔T, etc.) occur at equal rates. But empirically, transitions (A↔G, purine-to-purine; C↔T, pyrimidine-to-pyrimidine) occur more frequently than transversions (A↔C, A↔T, G↔C, G↔T) — often by a ratio of 2:1 or higher. If you ignore this asymmetry, you incorrectly weight different types of differences, leading to biased distance estimates. Kimura's two-parameter model estimates separate rates for transitions (κ) and transversions, producing better-calibrated distances for most real datasets."
 
-- question: "As two DNA sequences diverge over longer and longer evolutionary time, the observed p-distance continues to increase proportionally with time and never plateaus."
+- question: "As two DNA sequences diverge over longer and longer evolutionary time, the observed p-distance continues to increase proportionally with time and rarely plateaus."
   type: true-false
   answer: false
   explanation: "The p-distance saturates. Because there are only four nucleotide states, sites that have already changed can change again (multiple hits) or revert (back mutations). As divergence increases, an ever-larger fraction of observed differences are erased by subsequent substitutions, while an ever-larger fraction of identical-looking sites are actually sites that changed multiple times and returned to their original state. The p-distance approaches a theoretical maximum near 0.75 (for equal base frequencies and equal rates), after which additional true substitutions produce no increase in observed differences. This is why corrections are necessary for ancient divergences."

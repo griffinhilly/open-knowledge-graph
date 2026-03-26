@@ -55,7 +55,7 @@ Compare: a slave whose master never interferes has interference-freedom but no r
   answer: 2
   explanation: "The republican insight is that what matters is not how often the state actually interferes (option B) but whether the state's power is constrained so that it cannot interfere *arbitrarily*. Rule of law, separation of powers, and constitutional rights make state action accountable and non-arbitrary — even a very active government that interferes frequently is compatible with republican freedom if it does so through law that applies equally and is subject to challenge. Unconstrained government that rarely acts is still dominating, because it *could* act arbitrarily at any moment."
 
-- question: "On the republican account, a benevolent enslaver who never interferes with their enslaved person's choices has granted that person genuine freedom."
+- question: "On the republican account, a benevolent enslaver who seldom interferes with their enslaved person's choices has granted that person genuine freedom."
   type: true-false
   answer: false
   explanation: "This is the republican's central counterexample to negative-liberty thinking. The enslaved person is maximally dominated — entirely subject to another's arbitrary will — even if that will is never exercised coercively. The enslaved person must cultivate the master's goodwill, monitor their moods, and self-censor permanently. This servility is itself a form of unfreedom, entirely independent of whether interference occurs. Republican freedom requires structural immunity from arbitrary power, not merely its non-exercise."

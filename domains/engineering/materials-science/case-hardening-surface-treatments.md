@@ -61,7 +61,7 @@ Calculate the carbon concentration profile during carburizing using Fick's secon
   answer: true
   explanation: "This is the fundamental mechanistic distinction between nitriding and carburizing. In carburizing, diffused carbon is not inherently hard — it must be 'frozen' as martensite by rapid quenching. Nitriding introduces nitrogen at 500–575°C, and the nitrogen reacts with iron and alloying elements (chromium, aluminum, vanadium) to form hard nitride precipitates directly during the anneal. The hardness is already there when the part cools slowly; no quench is needed. This is why nitriding causes minimal distortion and is preferred for precision components."
 
-- question: "A deeper case depth is always preferable in case hardening because it provides more wear-resistant material and a larger safety margin against surface damage."
+- question: "A deeper case depth is generally preferable in case hardening because it provides more wear-resistant material and a larger safety margin against surface damage."
   type: true-false
   answer: false
   explanation: "This is a common misconception. An excessively deep case makes the component behave like a through-hardened part — hard and brittle throughout — losing the tough core advantage that is the whole purpose of case hardening. Gears and bearings need the hard surface to resist wear and contact fatigue, and the tough core to absorb shock loads without fracturing. If the case extends too deep, there is no tough material left to absorb impact, and the component becomes brittle overall. Case depth is engineered to match the service loads: just deep enough to handle the surface stresses, no deeper."

@@ -37,7 +37,7 @@ Development is not inevitable or universal—outcomes depend critically on conte
   answer: 1
   explanation: "Developmental psychology's defining focus is change over time — tracing the trajectory of psychological characteristics from infancy through old age and explaining why those changes occur. Option A describes differential/personality psychology. Option C describes biological or clinical psychology. Option D describes social or cultural psychology. Developmental psychology may draw on all of these, but the temporal lens (how and why people change) is its distinguishing feature."
 
-- question: "Developmental stages, such as Piaget's cognitive stages, mean that all children of the same age will exhibit identical cognitive abilities."
+- question: "Developmental stages, such as Piaget's cognitive stages, mean that most children of the same age will exhibit identical cognitive abilities."
   type: true-false
   answer: false
   explanation: "Stage models describe general sequences and typical age ranges, not rigid cutoffs where every child transitions simultaneously. Individual differences in biology, environment, and cultural context mean that children move through stages at different rates. 'Stage' is a conceptual shorthand for a qualitative shift in capability, not a universal clock. The misconception arises from reading stage descriptions as precise age-matched prescriptions rather than rough developmental landmarks."

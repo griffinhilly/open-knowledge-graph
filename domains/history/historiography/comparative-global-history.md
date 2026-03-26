@@ -48,7 +48,7 @@ Comparative and global history transcends national frameworks to examine connect
   answer: true
   explanation: "This is one of the field's most searching self-criticisms. Even historians who explicitly aim to decentered global history tend to frame questions around European developments — asking why industrial capitalism emerged in England rather than China still takes European industrialization as the reference point. The choice of which connections to trace, which archives to privilege, and which actors to foreground all involve implicit centering decisions. Truly decentered global history — written equally from, say, a West African or Southeast Asian vantage point — remains methodologically difficult and relatively rare."
 
-- question: "Comparative history and global history ask the same fundamental question; they differ only in the scale of the cases they study."
+- question: "Comparative history and global history ask the same fundamental question; they differ primarily in the scale of the cases they study."
   type: true-false
   answer: false
   explanation: "The two methods ask genuinely different questions. Comparative history asks 'what was similar or different across cases?' — it places cases side by side to develop and test causal arguments about structural conditions. Global history asks 'what was connected?' — it traces the actual flows, movements, and entanglements that crossed borders and shaped multiple societies simultaneously. A comparative study of the French and Russian Revolutions asks why similar conditions produced similar outcomes; a global history study of those revolutions would ask how Atlantic abolitionist ideas, commodity markets, and Enlightenment print culture linked them. Scale is the least important difference."

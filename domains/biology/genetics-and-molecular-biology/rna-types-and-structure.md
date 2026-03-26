@@ -40,7 +40,7 @@ Compare the structures of mRNA, tRNA, and rRNA diagrammatically and link each st
   answer: 3
   explanation: "Ribosomal RNA (rRNA) makes up roughly 80% of total cellular RNA by mass. It forms the structural and catalytic scaffold of the ribosome, including the peptidyl transferase center that catalyzes peptide bond formation. mRNA is present in small amounts and is rapidly turned over; tRNA is abundant but less so than rRNA; microRNA is a minor regulatory species."
 
-- question: "Because RNA is single-stranded, it cannot form base-paired secondary structures within the same molecule."
+- question: "Because RNA is single-stranded, it can rarely form base-paired secondary structures within the same molecule."
   type: true-false
   answer: false
   explanation: "Single-stranded RNA readily folds back on itself, allowing complementary regions to form intramolecular base pairs. This creates stem-loop (hairpin) secondary structures that are essential for function. The anticodon loop of tRNA and the active site of rRNA both depend on precise three-dimensional shapes maintained by internal base pairing. Single-stranded means no second strand is required — not that base pairing is impossible."

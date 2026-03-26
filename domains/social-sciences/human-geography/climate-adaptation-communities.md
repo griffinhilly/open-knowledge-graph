@@ -59,7 +59,7 @@ Survey case studies across different climate hazards — coastal flooding, droug
   answer: true
   explanation: "Bangladesh illustrates this directly: cyclone mortality has fallen dramatically not just because of better storm barriers but because of community-based early warning systems and the social infrastructure to act on them. Resilience is produced through social processes — trust that enables coordination, leadership that can organize responses, cultural practices that encode knowledge of past variability — and these can be supported or undermined by policy. Physical infrastructure without social cohesion may fail when it is needed most; social cohesion without infrastructure may be insufficient for the largest shocks."
 
-- question: "Framing climate response as 'building community resilience' is always empowering because it centers local agency and capacity rather than external dependency."
+- question: "Framing climate response as 'building community resilience' is generally empowering because it centers local agency and capacity rather than external dependency."
   type: true-false
   answer: false
   explanation: "Resilience framing can obscure power dynamics and shift responsibility in problematic ways. Asking already-marginalized communities to be resilient — to absorb disturbance and keep functioning — can divert attention from the structural causes of their vulnerability and from the responsibility of high-emitting nations and industries. It places the burden of response on those who bear least responsibility for the problem. The justice argument is precisely that resilience-building, while valuable, cannot substitute for addressing the structural inequalities and emissions that generate climate risk in the first place."

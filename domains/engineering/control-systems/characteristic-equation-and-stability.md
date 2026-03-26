@@ -57,7 +57,7 @@ The characteristic equation is formed from the closed-loop transfer function den
   answer: true
   explanation: "Feedback fundamentally alters the system's effective dynamics. The closed-loop poles — roots of 1 + G(s)C(s) = 0 — are generally different from the open-loop poles of G(s) alone. For example, G(s) = 1/(s−1) has an open-loop pole at s = +1 (unstable), but with K > 1, the closed-loop pole moves to s = 1−K < 0 (stable). Stabilization of inherently unstable plants (aircraft, inverted pendulums, chemical reactors) is one of the primary engineering reasons to use feedback control. The characteristic equation is the tool that shows exactly which controller parameters achieve this."
 
-- question: "Adding more gain to a stable feedback system always makes it more robust, because a larger controller output provides stronger corrective action against disturbances."
+- question: "Adding more gain to a stable feedback system generally makes it more robust, because a larger controller output provides stronger corrective action against disturbances."
   type: true-false
   answer: false
   explanation: "High gain can destabilize a stable closed-loop system. As gain K increases, the characteristic equation's roots trace paths in the complex plane (the root locus). For many plants, this path crosses into the right half-plane at a critical gain K_c — beyond which the system oscillates with growing amplitude and is unstable. For example, G(s) = 1/(s(s+1)(s+2)) is stable for small K but becomes unstable beyond a critical gain found from Routh-Hurwitz analysis. 'More gain = more stability' is a common and dangerous misconception. The characteristic equation must be analyzed over the full range of design parameters, not just at a single operating point."

@@ -50,7 +50,7 @@ Implement input validation with do-while. Compare do-while with while to see whe
   answer: 1
   explanation: "This is the defining difference between do-while and while. In a do-while loop, the condition is checked AFTER the body executes — so the body always runs at least once, regardless of the condition. Even if the condition is false on first evaluation, the loop body has already completed one iteration. This guaranteed-first-execution is exactly why do-while is the right tool when one pass is unconditionally required."
 
-- question: "A do-while loop and a while loop that contain identical bodies and conditions will always produce identical results."
+- question: "A do-while loop and a while loop that contain identical bodies and conditions will generally produce identical results."
   type: true-false
   answer: false
   explanation: "They differ when the condition is false before the first iteration. A while loop with an initially false condition executes zero times. A do-while loop with the same condition executes once. This distinction matters in input validation: a while loop requires a 'seed' value or duplicated prompt before entering the loop, while a do-while handles the first iteration naturally. If the condition is always true on first entry, they produce the same results — but that is a special case, not the general rule."

@@ -52,7 +52,7 @@ If p is prime and gcd(a,p) = 1, then a^(p-1) ≡ 1 (mod p). This cornerstone res
   answer: true
   explanation: "The corollary a^p ≡ a (mod p) is valid for all integers a. When gcd(a,p) = 1, it follows from a^(p−1) ≡ 1 by multiplying both sides by a. When p | a, both sides equal 0 mod p. The corollary is more convenient than the main theorem precisely because it requires no divisibility check — useful in proofs and applications where you cannot assume gcd(a,p) = 1."
 
-- question: "Fermat's Little Theorem states that a^(p−1) ≡ 1 (mod p) for every integer a when p is prime."
+- question: "Fermat's Little Theorem states that a^(p−1) ≡ 1 (mod p) for most integer a when p is prime."
   type: true-false
   answer: false
   explanation: "The theorem requires gcd(a, p) = 1 — that is, p does not divide a. If p | a, then a ≡ 0 (mod p), so a^(p−1) ≡ 0 (mod p), not 1. For example, 7^6 ≡ 0 (mod 7), not 1. The condition gcd(a,p) = 1 ensures a belongs to the multiplicative group (Z/pZ)*, which has order p−1; the theorem follows from the fact that every group element's order divides the group order."

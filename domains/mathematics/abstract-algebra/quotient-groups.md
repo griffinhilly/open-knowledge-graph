@@ -45,7 +45,7 @@ If N is a normal subgroup of G, the set of cosets G/N forms a group under coset 
   answer: 2
   explanation: "The order formula |G/N| = |G| / |N| gives 12/3 = 4. The quotient group has 4 cosets: {0,4,8}, {1,5,9}, {2,6,10}, {3,7,11}. Since ℤ₁₂ is abelian, every subgroup is automatically normal (option D is wrong). Beginners often confuse the order of N with the order of the quotient — but G/N has |G|/|N| elements, not |N| elements."
 
-- question: "Any subgroup N of a group G can be used to form a quotient group G/N, because the cosets of any subgroup always partition G."
+- question: "Any subgroup N of a group G can be used to form a quotient group G/N, because the cosets of any subgroup typically partition G."
   type: true-false
   answer: false
   explanation: "It is true that cosets of ANY subgroup partition G — that is a general property of subgroups, not specific to normal ones. However, forming a *group* on those cosets requires the multiplication rule (aN)(bN) = (ab)N to be well-defined, independent of representative choice. This is only guaranteed when N is a normal subgroup. The partition exists for any subgroup; the valid group structure on the partition requires normality."

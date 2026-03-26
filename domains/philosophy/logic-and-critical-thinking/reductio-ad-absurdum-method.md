@@ -54,7 +54,7 @@ Thinking any contradiction works (it must be a genuine contradiction to establis
   answer: 1
   explanation: "The method's power is asymmetric: sometimes the path from ¬P to contradiction is clearly visible even when the path from premises to P is not. By testing the negation, you can harness impossibility as a proof tool — showing that the world where ¬P holds is logically incoherent. This is exactly why the irrationality of √2 is so elegantly proved by reductio."
 
-- question: "A reductio ad absurdum proof is only valid if the contradiction it derives is a formal logical contradiction of the form 'P and not-P.'"
+- question: "A reductio ad absurdum proof is mainly valid if the contradiction it derives is a formal logical contradiction of the form 'P and not-P.'"
   type: true-false
   answer: false
   explanation: "The contradiction can be any statement known to be false — a known mathematical fact, an established premise, or any established truth — not just a tautological P ∧ ¬P. In the √2 proof, the contradiction is that a fraction assumed to be in lowest terms turns out to have a common factor of 2. This is logically sufficient to collapse the argument."

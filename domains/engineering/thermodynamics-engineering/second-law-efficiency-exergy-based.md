@@ -40,7 +40,7 @@ Second law efficiency η_II = useful exergy output / exergy input quantifies how
   answer: true
   explanation: "In a simple gas turbine, exhaust at ~600°C is vented to the atmosphere — that exergy is lost. The combined cycle routes this exhaust through a heat recovery steam generator (HRSG), where the steam is raised at a temperature close to the exhaust temperature. This reduces the ΔT across which heat transfer occurs, thereby reducing exergy destruction. By cascading two cycles to 'step down' the temperature in stages, the combined cycle extracts work at each stage before the temperature drops too far, achieving first-law efficiency ~60% and second-law efficiency ~55–58% — far above a simple cycle."
 
-- question: "A process retains 100% of input energy (no heat loss to surroundings), so it must have a second-law efficiency of 100%."
+- question: "A process retains 100% of input energy (no heat loss to surroundings), so it is expected to have a second-law efficiency of 100%."
   type: true-false
   answer: false
   explanation: "Energy conservation (η_I = 100%) is compatible with significant exergy destruction. For example, mixing two fluids at different temperatures conserves energy perfectly — the total enthalpy is unchanged — but the mixing is irreversible and destroys exergy proportional to the entropy generated. Similarly, heat transfer across any finite temperature difference conserves energy but destroys exergy. Second-law efficiency measures performance relative to a reversible ideal, not relative to energy retention. A lossless but irreversible process can have η_II much less than 1."

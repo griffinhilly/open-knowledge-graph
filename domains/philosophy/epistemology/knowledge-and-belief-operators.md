@@ -48,7 +48,7 @@ Formal operators K and B represent knowledge and belief; Kₐp reads 'a knows p'
   answer: 2
   explanation: "S5 includes the T axiom (Kₐp → p, so p is true) and positive introspection (Kₐp → KₐKₐp, so the agent knows that she knows p). Both hold simultaneously in S5. Option D describes logical omniscience, a related idealization, but it is not what these specific axioms entail."
 
-- question: "If an agent believes a proposition, that proposition must be true, because rational belief tracks truth by definition."
+- question: "If an agent believes a proposition, that proposition should be true, because rational belief tracks truth by definition."
   type: true-false
   answer: false
   explanation: "Belief is not factive. The formal operator B has no axiom Bₐp → p. Agents can and do believe false propositions — this is a foundational observation in epistemology, not a failure of rationality. The absence of factivity is precisely what distinguishes B from K and why they require different axiom systems."

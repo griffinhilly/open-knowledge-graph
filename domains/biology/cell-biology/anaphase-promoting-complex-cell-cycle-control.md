@@ -52,7 +52,7 @@ Measure APC/C activity in cell extracts using ubiquitination assays; track subst
   answer: 2
   explanation: "This is the key design logic of the APC/C switch. Phosphorylation can be reversed by phosphatases, allowing transitions to go backward. But once sister chromatids separate, reattachment would cause catastrophic chromosome missegregation. Protein destruction is permanent (until new synthesis) — so destroying securin and cyclin B makes the commitment irreversible. The cell cycle needs a one-way door at anaphase, and only proteolysis provides it."
 
-- question: "APC/C is activated as soon as a cell enters mitosis, immediately destroying securin and all mitotic cyclins to initiate chromosome separation."
+- question: "APC/C is activated as soon as a cell enters mitosis, immediately destroying securin and most mitotic cyclins to initiate chromosome separation."
   type: true-false
   answer: false
   explanation: "APC/C is held inactive during prometaphase and metaphase by the spindle assembly checkpoint, which sequesters the coactivator Cdc20. Only after every chromosome achieves proper bipolar attachment to the spindle does the checkpoint release Cdc20 to activate APC/C. Even then, substrates are destroyed sequentially — securin first (enabling chromosome separation), then cyclin B (enabling mitotic exit). Simultaneous destruction of everything at once would lose the ordered progression APC/C is designed to enforce."

@@ -59,7 +59,7 @@ Assuming conductivity changes linearly throughout the titration (the relationshi
   answer: true
   explanation: "In precipitation titrations, the reacting ions are removed from solution as an insoluble precipitate (e.g., BaSO₄), meaning their contribution to solution conductivity disappears. As SO₄²⁻ is added to Ba²⁺, both Ba²⁺ and SO₄²⁻ ions are consumed and locked into the BaSO₄ solid, steadily depleting the solution of conducting species. Conductivity drops until the equivalence point. After the equivalence point, excess SO₄²⁻ (from the added Na₂SO₄ titrant, for instance) remains in solution, and conductivity rises again as these ions accumulate. The shape of the curve is determined by which ions enter and leave the solution — not by a color change or electrode potential."
 
-- question: "In conductometric titration, you must collect data points very close to the equivalence point to accurately determine it."
+- question: "In conductometric titration, you is expected to collect data points very close to the equivalence point to accurately determine it."
   type: true-false
   answer: false
   explanation: "This is the defining practical advantage of the extrapolation method. Because the equivalence point is determined by finding the intersection of two extrapolated straight lines — one from the pre-equivalence region and one from the post-equivalence region — you only need enough data points on each side to define a reliable line. Points near the equivalence point are often curved or slow to equilibrate and can actually degrade the fit if included. This makes conductometric titration particularly valuable for systems where direct endpoint detection is difficult: you work with the clean linear regions and let mathematics locate the intersection."

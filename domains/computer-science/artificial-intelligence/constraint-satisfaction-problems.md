@@ -51,7 +51,7 @@ Constraint propagation alone is insufficient for most CSPs; search remains neces
   answer: 1
   explanation: "MRV is a 'fail-first' heuristic. If the most constrained variable will eventually fail (has no legal assignment), discovering that failure NOW — before branching on many other variables — means the solver backtracks immediately with minimal wasted work. This prunes entire subtrees of the search space at their root rather than their leaves. Option A is incorrect — fewer remaining values does not imply 'more likely to be correct.' Options C and D mischaracterize what the heuristic actually does."
 
-- question: "If arc consistency (AC-3) is enforced globally before any variable is assigned, the resulting reduced domains are guaranteed to contain a valid complete assignment."
+- question: "If arc consistency (AC-3) is enforced globally before any variable is assigned, the resulting reduced domains are very likely to contain a valid complete assignment."
   type: true-false
   answer: false
   explanation: "Arc consistency removes values that have no support in neighboring domains, but it does not guarantee that a globally consistent assignment exists. A CSP can be arc-consistent yet infeasible — for example, in graph 3-coloring, arc consistency may reduce domains but cannot detect that no valid coloring exists without search. This is precisely why backtracking search remains necessary: propagation is incomplete as a solver, and arc consistency is a local property that does not imply global satisfiability."

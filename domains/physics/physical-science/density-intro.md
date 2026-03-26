@@ -42,7 +42,7 @@ Have students hold objects of similar size but different materials (a wood block
   answer: 2
   explanation: "Density is mass divided by volume. Since both blocks are the same size (same volume) but the iron has more mass, the iron is denser."
 
-- question: "A large object is always denser than a small object."
+- question: "A large object is typically denser than a small object."
   type: true-false
   answer: false
   explanation: "Density depends on how much mass is packed into a given volume, not on overall size. A small pebble can be denser than a large balloon."

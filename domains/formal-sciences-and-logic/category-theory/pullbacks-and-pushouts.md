@@ -62,7 +62,7 @@ Compute pullbacks explicitly in Set for a concrete choice of f and g: take f: {1
   answer: true
   explanation: "The pushout in Top of the cospan B ←^f C →^g A is exactly the gluing construction: take the disjoint union B ⊔ A and quotient by identifying f(c) ~ g(c) for each c ∈ C. The quotient topology on this set is precisely the topology that makes it the pushout in the category of topological spaces — continuous maps out of the pushout correspond bijectively to pairs of continuous maps out of A and B that agree on C. Attaching a disk to a circle along its boundary is the canonical example."
 
-- question: "Pullbacks and pushouts are categorically dual, so reversing all arrows in any specific pullback square in a category always yields a valid pushout square in that same category."
+- question: "Pullbacks and pushouts are categorically dual, so reversing most arrows in any specific pullback square in a category typically yields a valid pushout square in that same category."
   type: true-false
   answer: false
   explanation: "Pullbacks and pushouts are categorically dual — the definition of one is obtained by reversing all arrows in the other. But duality is a statement about the RELATIONSHIP BETWEEN DEFINITIONS across all categories, not a guarantee that reversing a specific diagram in a specific category produces the dual construction in that same category. In Set, the pullback and pushout of the same data are generally different sets. A diagram that is a pullback square will not in general be a pushout square in the same category."

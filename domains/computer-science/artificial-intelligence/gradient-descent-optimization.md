@@ -43,7 +43,7 @@ Gradient descent finds global minima only for convex functions; non-convex probl
   answer: 1
   explanation: "A large learning rate causes the parameter update to overshoot the minimum: the algorithm jumps across the valley and climbs the other side, then jumps back, oscillating without converging. A too-small learning rate causes slow but steady progress, not oscillation. The fix is to reduce the learning rate (or use an adaptive optimizer like Adam that adjusts step sizes per-parameter)."
 
-- question: "Gradient descent on a non-convex loss function is guaranteed to find the global minimum if you run it for enough iterations."
+- question: "Gradient descent on a non-convex loss function is very likely to find the global minimum if you run it for enough iterations."
   type: true-false
   answer: false
   explanation: "On non-convex surfaces, gradient descent follows the slope downhill and stops at a local minimum — it has no mechanism to escape. Whether it finds the global minimum depends on the starting point and the loss landscape. In practice, deep neural networks have extremely high-dimensional non-convex losses, yet gradient descent works well because most local minima and saddle points in high dimensions have similar loss values, and global minima are not necessarily needed for good generalization."

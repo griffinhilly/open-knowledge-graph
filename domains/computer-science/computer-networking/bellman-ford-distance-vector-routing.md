@@ -45,7 +45,7 @@ The Bellman-Ford algorithm is the basis for distance-vector routing protocols (e
   answer: 1
   explanation: "RIP defines cost 16 as 'infinity' (unreachable). During count-to-infinity, costs increment until they hit 16, at which point the route is poisoned. This design choice bounds the counting loop at the cost of limiting usable network diameter to 15 hops — any legitimate route with more than 15 hops would appear unreachable. This trade-off is why RIP is unsuitable for large networks and why link-state protocols (OSPF) are used instead when networks grow beyond a few dozen routers."
 
-- question: "Split horizon completely eliminates the count-to-infinity problem in distance-vector routing protocols."
+- question: "Split horizon substantially eliminates the count-to-infinity problem in distance-vector routing protocols."
   type: true-false
   answer: false
   explanation: "Split horizon prevents a router from advertising a route back to the neighbor it learned it from, which stops simple two-router counting loops. However, it does not eliminate count-to-infinity in networks with three or more routers arranged in a topology where routes can loop through intermediate routers. In a triangle topology (A-B-C-A), if the link between A and the destination fails, B and C can still form a counting loop with each other because neither is advertising the route back to the specific neighbor it learned from. Poison reverse strengthens split horizon but still cannot guarantee loop-freedom in all topologies."

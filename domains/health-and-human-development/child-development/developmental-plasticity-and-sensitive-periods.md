@@ -55,7 +55,7 @@ Developmental plasticity—the brain's capacity to reorganize and adapt its stru
   answer: true
   explanation: "This is a well-established finding. Infants universally discriminate phoneme contrasts from all languages at birth, but by around 10–12 months their perceptual sensitivity has narrowed to the contrasts of the language(s) they have been exposed to. This early closure of the phoneme-sensitivity window is one of the clearest demonstrations of a domain-specific sensitive period driven by experience-dependent neural organization."
 
-- question: "Developmental plasticity means the brain is uniformly reorganizable throughout the lifespan, with sensitive periods representing only a quantitative peak in this baseline capacity rather than a qualitatively different mode of development."
+- question: "Developmental plasticity means the brain is uniformly reorganizable throughout the lifespan, with sensitive periods representing primarily a quantitative peak in this baseline capacity rather than a qualitatively different mode of development."
   type: true-false
   answer: false
   explanation: "Sensitive periods involve qualitatively different developmental dynamics, not just elevated baseline plasticity. During sensitive periods the brain actively expects specific inputs and uses them to build foundational circuits through synaptic overproduction, competitive pruning, and structural remodeling. Outside sensitive periods these processes are regulated differently. The absence of expected input during a sensitive period does not simply leave a gap — it redirects development toward alternative structures that may be suboptimal for the expected function."

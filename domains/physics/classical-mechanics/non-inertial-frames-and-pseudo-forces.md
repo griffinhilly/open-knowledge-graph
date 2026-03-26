@@ -52,7 +52,7 @@ In an accelerating (non-inertial) reference frame, Newton's laws appear to fail 
   answer: true
   explanation: "True, and this is a telltale sign that pseudo-forces are coordinate artifacts rather than real forces. Real forces — like electromagnetic forces — act differently on different objects depending on their properties. Pseudo-forces act uniformly: F_pseudo = −m·a_frame gives the same acceleration a_frame to every object, regardless of mass. This mass-proportionality also connects pseudo-forces to gravity: Einstein's equivalence principle notes that a uniform pseudo-force (from uniform acceleration) is locally indistinguishable from a gravitational field."
 
-- question: "In an inertial reference frame, pseudo-forces must be included in Newton's second law to correctly predict the motion of objects."
+- question: "In an inertial reference frame, pseudo-forces is expected to be included in Newton's second law to correctly predict the motion of objects."
   type: true-false
   answer: false
   explanation: "False. Pseudo-forces only appear in non-inertial frames. By definition, an inertial frame is one in which Newton's laws hold in their standard form — F = ma, where F includes only real physical interactions (gravity, normal force, tension, etc.). Adding pseudo-forces in an inertial frame would introduce fictitious accelerations not present in reality. Pseudo-forces are a correction needed only when you choose to analyze motion from a frame that is itself accelerating relative to an inertial frame."

@@ -55,7 +55,7 @@ Prove basic reflection: for any formula φ, there exists α such that φ is true
   answer: 1
   explanation: "Löwenheim-Skolem is a purely logical result: given any first-order theory with an infinite model, there is a countable elementary substructure — but that substructure may be non-transitive, with 'fake' membership relations. Reflection is set-theoretic: it uses the ordinal structure of the cumulative hierarchy to produce genuine V_α's, which are transitive — their ∈-relation is the real one. Transitive models are far more useful for set-theoretic arguments precisely because elements are honest sets with intact membership."
 
-- question: "The full reflection principle — asserting that V is 'indescribable,' so every property of V reflects to some cardinal — is provable in ZFC."
+- question: "The full reflection principle — asserting that V is 'indescribable,' so nearly every property of V reflects to some cardinal — is provable in ZFC."
   type: true-false
   answer: false
   explanation: "Basic reflection (for any formula, some V_α reflects it) is provable in ZFC, but the *full* reflection principle — claiming V is so large it cannot be distinguished from some set-sized initial segment by any property whatsoever — is not provable in ZFC. This stronger claim implies the existence of large cardinals (strongly inaccessible, measurable, supercompact), which are not derivable from ZFC alone. This is the sense in which the large cardinal hierarchy represents ascending strengths of reflection beyond what ZFC can guarantee."

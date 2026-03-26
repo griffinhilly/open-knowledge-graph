@@ -51,7 +51,7 @@ Hebb's rule ('neurons that fire together wire together') provides the intuitive 
   answer: 2
   explanation: "LTP occurs at specific synapses when repeated co-activation causes the postsynaptic neuron to insert more AMPA receptors, making future transmission easier. It is not permanent (LTD — long-term depression — can reverse it), it does not affect all synapses globally, and it does not produce new lobes. Hebb's rule summarizes the principle: neurons that fire together wire together."
 
-- question: "Neuroplasticity always produces beneficial changes in the brain."
+- question: "Neuroplasticity typically produces beneficial changes in the brain."
   type: true-false
   answer: false
   explanation: "Neuroplasticity is a mechanism, not a direction. The same synaptic-strengthening processes that underlie learning also underlie maladaptive changes: chronic pain syndromes (where pain circuits are sensitized even without ongoing injury), addiction (where reward pathways are reshaped to prioritize drugs over other stimuli), and PTSD (where fear circuits become overly sensitized to trauma-associated cues). Whether plasticity is adaptive or maladaptive depends entirely on which circuits are being reinforced and in what context."

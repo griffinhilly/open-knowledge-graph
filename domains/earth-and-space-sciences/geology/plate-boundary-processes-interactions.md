@@ -50,7 +50,7 @@ Three main plate boundaries drive distinct geological processes: divergent bound
   answer: true
   explanation: "Earthquakes require brittle fracture, which occurs in cold, rigid material. Subducting oceanic slabs are cold and brittle relative to the surrounding hot mantle, allowing seismic rupture down to ~700 km depth. At mid-ocean ridges and transform boundaries, earthquakes are shallow (tens of kilometers) because the seismogenic zone is limited to the cooler, brittle upper lithosphere."
 
-- question: "When two continental plates collide at a convergent boundary, the denser plate always subducts beneath the other, forming a deep ocean trench."
+- question: "When two continental plates collide at a convergent boundary, the denser plate typically subducts beneath the other, forming a deep ocean trench."
   type: true-false
   answer: false
   explanation: "Continental crust is too buoyant to subduct easily — it has lower density than oceanic crust or the underlying mantle. When two continental plates collide, neither sinks efficiently. Instead, the crust crumples and thickens, building mountain ranges. The Himalayas formed this way when India collided with Eurasia — no subduction trench, no deep-focus earthquakes below ~70 km, no arc volcanism."

@@ -55,7 +55,7 @@ Classify orbitals for small molecules (N₂, CO₂, H₂O) using point group ope
   answer: true
   explanation: "Exactly right. σ, π, and δ are not just conventional labels — they encode the orbital's behavior under the symmetry operations of the linear molecule's point group (C∞ᵥ or D∞ₕ). A σ orbital is totally symmetric with respect to rotation; a π orbital changes sign under 180° rotation and is doubly degenerate. For nonlinear molecules, these simple labels are replaced by irreducible representation labels of the appropriate point group, but the logic is identical."
 
-- question: "Two orbitals can always be made to interact by adjusting the molecular geometry, even if they currently belong to different irreducible representations."
+- question: "Two orbitals can typically be made to interact by adjusting the molecular geometry, even if they currently belong to different irreducible representations."
   type: true-false
   answer: false
   explanation: "Changing geometry changes the point group and can change which irreducible representation each orbital belongs to — so geometry changes can sometimes enable previously forbidden interactions. However, for a fixed geometry with a fixed point group, the symmetry constraint is absolute: orbitals of different irreducible representations have zero overlap and cannot mix. The statement inverts cause and effect: it is the geometry that determines the symmetry labels, not the other way around."

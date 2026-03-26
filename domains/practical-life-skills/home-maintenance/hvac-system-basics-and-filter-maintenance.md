@@ -49,7 +49,7 @@ Filter changes are a professional job. (This is a simple five-minute task any ho
   answer: 1
   explanation: "The filter sits in the air return path — all air coming back from living spaces passes through it before reaching the mechanical components. Without a clean filter, dust coats the heating/cooling coils (reducing efficiency), clogs the blower wheel (straining the motor), and in severe cases can cause the heat exchanger to overheat (risking cracks that leak carbon monoxide) or cooling coils to freeze. Filter maintenance is equipment protection as much as air quality management."
 
-- question: "A higher MERV-rated filter always provides better performance than a lower MERV-rated filter."
+- question: "A higher MERV-rated filter typically provides better performance than a lower MERV-rated filter."
   type: true-false
   answer: false
   explanation: "Higher MERV filters capture smaller particles, which is better for air quality, but they also restrict airflow more because the denser filter material is harder for the blower to pull air through. An excessively high MERV filter in a system not designed for it can reduce airflow enough to cause the same problems as a clogged filter — strained motor, poor conditioning, and potentially frozen coils. For most homes, MERV 8–11 balances filtration effectiveness against airflow restriction."

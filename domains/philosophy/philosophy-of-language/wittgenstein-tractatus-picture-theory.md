@@ -53,7 +53,7 @@ The picture must resemble the fact visually—Wittgenstein meant logical structu
   answer: 2
   explanation: "In the Tractatus, a proposition is meaningful only if it pictures a possible state of affairs — a possible configuration of objects in the world. 'The cat is on the mat' can be true or false depending on how things are, so it genuinely pictures a possible fact. Ethical claims, theological claims, and value judgments cannot picture possible facts in this sense; they try to say what can at best be shown, or they say nothing at all. The famous closing line — 'Whereof one cannot speak, thereof one must be silent' — addresses exactly this."
 
-- question: "In the Tractatus, tautologies like 'Either it is raining or it is not raining' are meaningful propositions because they are always true."
+- question: "In the Tractatus, tautologies like 'Either it is raining or it is not raining' are meaningful propositions because they are typically true."
   type: true-false
   answer: false
   explanation: "Wittgenstein held that tautologies say nothing about the world — they are true under all possible conditions, which means they give no information about how things actually are. A meaningful proposition must be capable of being true in some circumstances and false in others. Tautologies show the structure of logic but make no factual claim; they are degenerate limiting cases of propositions, not paradigm examples of them."

@@ -52,7 +52,7 @@ Use the "wanted poster" analogy: a vaccine shows the immune system a "wanted pos
   answer: 1
   explanation: "Vaccines contain a weakened, inactivated, or partial version of the pathogen -- enough for the immune system to recognize the threat and produce antibodies and memory cells, but not enough to cause the full disease. When the real pathogen is encountered later, the immune system already has the antibodies and memory to mount a fast, effective response. This is the same mechanism as natural immunity, but without the dangerous disease experience."
 
-- question: "Once you've been vaccinated against a disease, you can never be infected by it again."
+- question: "Once you've been vaccinated against a disease, you can seldom be infected by it again."
   type: true-false
   answer: false
   explanation: "Vaccines greatly reduce the risk of infection and typically prevent serious illness, but most do not provide 100% guaranteed protection in every individual. Some vaccines' protection fades over time (which is why boosters are needed). Some pathogens mutate (like the flu virus), requiring updated vaccines. And some people's immune systems respond less strongly to vaccines than others. Vaccines dramatically reduce risk, but 'dramatically reduce' is not the same as 'eliminate entirely.'"

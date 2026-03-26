@@ -53,7 +53,7 @@ Start with a simple three-variable example and manually compute direct and indir
   answer: 2
   explanation: "The product method estimates the indirect effect as α₁ × β₂ = 0.4 × 0.5 = 0.2. The direct effect is β₁ = 0.3, and the total effect is 0.5. Option A is the direct effect alone. Option B (0.5) is the M→Y coefficient — the effect of the mediator on the outcome — not the indirect effect (which must also account for how much A moves M). Option D adds two quantities that don't belong together. In linear models, the product method and the difference method yield the same indirect effect."
 
-- question: "Controlling for a mediator in a standard regression model always removes the indirect effect without introducing bias into the direct effect estimate."
+- question: "Controlling for a mediator in a standard regression model typically removes the indirect effect without introducing bias into the direct effect estimate."
   type: true-false
   answer: false
   explanation: "This is false when exposure-induced mediator-outcome confounding is present — that is, when the exposure causes a variable that also confounds the mediator-outcome relationship. In that case, conditioning on the mediator opens a collider path, introducing bias into both the direct and indirect effect estimates. Standard regression can only recover valid natural direct and indirect effects when all four identification assumptions hold, including no such confounders. The solution requires weighting methods or the interventional effects framework."

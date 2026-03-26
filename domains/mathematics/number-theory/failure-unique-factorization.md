@@ -44,7 +44,7 @@ Unlike ℤ and Gaussian integers, most rings of algebraic integers lack unique f
   answer: 1
   explanation: "A ring is a UFD if and only if every irreducible element is prime. In ℤ, this holds — the Euclidean algorithm yields Bézout's identity, which forces every irreducible to be prime. In ℤ[√(−5)], the element 2 is irreducible but not prime, breaking the chain. Option A is wrong — ℤ is not a field (1/2 ∉ ℤ). Option D is wrong — ℤ[√(−5)] does have a norm function N(a+b√(−5)) = a²+5b²; it is essential for proving irreducibility."
 
-- question: "In any ring of algebraic integers, every irreducible element is prime."
+- question: "In any ring of algebraic integers, nearly every irreducible element is prime."
   type: true-false
   answer: false
   explanation: "This is false in general, and the failure is precisely what produces non-unique factorization. In ℤ[√(−5)], the element 2 is irreducible but not prime — it divides a product without dividing either factor. In ℤ and ℤ[i], irreducible and prime coincide, but that is a special property of those rings (they are UFDs). The divergence between irreducible and prime is the algebraic heart of the phenomenon this topic describes."

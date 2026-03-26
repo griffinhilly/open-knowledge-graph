@@ -62,7 +62,7 @@ Build up from COUNT(*) over all rows, then group by a categorical column, then a
   answer: true
   explanation: "Execution order matters here: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY. HAVING operates on the grouped result set, after each group has been formed and its aggregates computed. This is why HAVING SUM(amount) > 10000 works — by the time HAVING is evaluated, SUM(amount) exists as a value per group. WHERE, evaluated earlier, operates on individual rows before any grouping occurs."
 
-- question: "COUNT(*) and COUNT(column_name) always return the same result when applied to the same table."
+- question: "COUNT(*) and COUNT(column_name) usually return the same result when applied to the same table."
   type: true-false
   answer: false
   explanation: "COUNT(*) counts all rows in the group, including rows where any column has NULL values. COUNT(column_name) counts only rows where that specific column is NOT NULL. If any rows have a NULL in the counted column, COUNT(column_name) < COUNT(*). This distinction is important when dealing with optional fields — for example, COUNT(*) might count all customers while COUNT(phone_number) counts only those with a phone number on record."

@@ -46,7 +46,7 @@ Exceptions are compiled into stack unwinding mechanisms. The compiler generates 
   answer: 1
   explanation: "Stack unwinding is not simply jumping to a handler — it must ensure that every stack frame's cleanup code runs in order. When no catch handler matches in a frame, the runtime still consults the exception table to find registered cleanup code (C++ destructors, Java/Python finally blocks) and executes it before discarding the frame and moving to the caller. This is what ensures resource cleanup (closing files, releasing locks) happens correctly even during exceptional control flow."
 
-- question: "Table-driven exception handling executes additional instructions on every function entry and return to prepare for potential exceptions."
+- question: "Table-driven exception handling executes additional instructions on most function entry and return to prepare for potential exceptions."
   type: true-false
   answer: false
   explanation: "This describes setjmp/longjmp-based exception handling, not table-driven. Table-driven (zero-cost) exception handling stores exception metadata in a separate section of the binary (e.g., DWARF .eh_frame on Unix). The normal code path executes identically to code with no exception handling at all — there are no extra instructions at function entry or return. The metadata is accessed only by the runtime unwinder, and only when an exception is actually thrown."

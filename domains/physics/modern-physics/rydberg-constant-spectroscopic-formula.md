@@ -50,7 +50,7 @@ The Rydberg constant is the same for all hydrogen isotopes (it varies slightly d
   answer: 2
   explanation: "The named spectral series correspond to different choices of the final level n₁. Lyman (n₁ = 1) emits in the ultraviolet, invisible to the naked eye and to early optical detectors. Paschen (n₁ = 3) and higher series emit in the infrared. The Balmer series (n₁ = 2) uniquely falls in visible and near-visible wavelengths, which is why it was the first discovered — it was literally the most visible. Astronomers could see Balmer lines in stellar spectra with prism spectroscopes, long before UV or IR detectors existed. The formula was found empirically for Balmer lines, and the Rydberg generalization came after."
 
-- question: "The Rydberg constant R∞ has exactly the same value for all hydrogen isotopes (protium, deuterium, tritium), since it is a universal constant derived from fundamental physics."
+- question: "The Rydberg constant R∞ has exactly the same value for most hydrogen isotopes (protium, deuterium, tritium), since it is a universal constant derived from fundamental physics."
   type: true-false
   answer: false
   explanation: "False. R∞ (with the ∞ subscript) is derived assuming infinite nuclear mass. Real isotopes have finite nuclear mass, requiring a reduced-mass correction: the actual Rydberg constant for a specific isotope is R = R∞ × μ/mₑ, where μ is the reduced mass of the electron-nucleus system. Since deuterium has a heavier nucleus than protium, its reduced mass is slightly larger, and its spectral lines are shifted to slightly shorter wavelengths. This isotope shift is small but measurable and was historically important: in 1932, Urey identified deuterium by detecting this predicted shift in hydrogen's spectral lines."

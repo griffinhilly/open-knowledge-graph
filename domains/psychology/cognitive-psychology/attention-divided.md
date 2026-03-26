@@ -57,7 +57,7 @@ Try dual-task experiments such as tapping while reading and note when interferen
   answer: true
   explanation: "True. Research consistently shows that the human cognitive system has a central bottleneck that prevents truly parallel processing of two demanding tasks at the same time. What feels like multitasking is interleaving — rapidly alternating attention between tasks, with a switching cost each time. The illusion of simultaneity arises because the switching is fast, but performance on both tasks suffers compared to doing them separately. Only tasks with different resource demands (per multiple-resource theory) or tasks that have become automatic can be performed concurrently without significant cost."
 
-- question: "Extensive practice eventually eliminates all attentional resource demands for a skilled task, making it completely immune to dual-task interference under any conditions."
+- question: "Extensive practice eventually eliminates most attentional resource demands for a skilled task, making it mostly immune to dual-task interference under any conditions."
   type: true-false
   answer: false
   explanation: "False. Practice *reduces* resource demands and can make a task largely automatic, but automaticity is task-specific and not absolute. Novel or unusually demanding versions of even a practiced task can reinstate controlled processing and interference. An expert typist can converse while typing familiar text, but novel or error-prone typing conditions reintroduce attentional demands. The common misconception — 'I've practiced enough that I can do this on autopilot no matter what' — underestimates how situational automaticity really is."

@@ -51,7 +51,7 @@ Is aesthetic sensitivity natural or learned? Cultivation—education, exposure, 
   answer: 2
   explanation: "Bourdieu argued that taste is not culturally neutral. It is acquired primarily through privileged upbringings and institutions that encode class-based assumptions about what counts as refined sensibility. This cultural capital then functions as social currency: those who possess it can distinguish themselves from those who do not, and the distinction appears natural rather than socially constructed. Acknowledging Bourdieu's critique does not mean denying that cultivation produces genuine perceptual changes — it insists that what gets cultivated, and in whom, is always political."
 
-- question: "Aesthetic appreciation is simply a matter of personal preference, and education or exposure cannot genuinely improve someone's capacity for aesthetic experience."
+- question: "Aesthetic appreciation is simply a matter of personal preference, and education or exposure can rarely genuinely improve someone's capacity for aesthetic experience."
   type: true-false
   answer: false
   explanation: "This conflates arbitrary preference with cultivated aesthetic discrimination. Cultivation theory holds that repeated, guided exposure genuinely transforms what a perceiver can register — it expands the perceptual repertoire, not just the emotional reaction. Someone who has studied sonata form does not merely prefer classical music more; they literally perceive structural features unavailable to the untrained ear. Calling aesthetic judgment merely a matter of preference misses the real phenomenon: cultivation changes perception qualitatively, not just preference quantitatively."

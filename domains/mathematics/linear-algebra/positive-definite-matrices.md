@@ -43,7 +43,7 @@ A symmetric matrix A is positive definite if xᵀAx > 0 for all nonzero x. Equiv
   answer: 1
   explanation: "The definition (xᵀAx > 0 for all nonzero x) and the eigenvalue condition (all eigenvalues positive) are equivalent and together constitute the correct characterization. Option A fails: diagonal entries can be positive while some eigenvalues are negative (off-diagonal entries can force negative eigenvalues). Option C fails: a 4×4 matrix with eigenvalues {2, 2, 2, −3} has positive determinant (product = 24) but is not positive definite. Option D describes LU factorization, not Cholesky (A = LLᵀ), and applies to a much broader class."
 
-- question: "The matrix AᵀA (formed from any real matrix A with more rows than columns) is always positive definite."
+- question: "The matrix AᵀA (formed from any real matrix A with more rows than columns) is typically positive definite."
   type: true-false
   answer: false
   explanation: "AᵀA is always symmetric and positive semidefinite (xᵀAᵀAx = ‖Ax‖² ≥ 0), but it is only positive definite when A has full column rank. If A has a nontrivial null space — some nonzero x with Ax = 0 — then xᵀAᵀAx = 0 for that x, violating strict positivity. This matters for least-squares: AᵀA guarantees a unique minimizer exactly when it is positive definite, i.e., when A has full column rank with no redundant columns."

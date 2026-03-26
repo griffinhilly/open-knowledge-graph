@@ -54,7 +54,7 @@ Compare a Classical symphony's first movement to a Romantic composer's treatment
   answer: 1
   explanation: "The Tristan chord and the opera's sustained harmonic ambiguity represent the logical endpoint of Romantic chromaticism: so many non-functional chord progressions and so little stable resolution that the listener rarely experiences a secure tonal center. This pushed tonality to its limits and directly influenced the atonal and twelve-tone music that followed. Leitmotif was not invented in Tristan (option A), and the opera's historical significance is primarily harmonic rather than formal or orchestrational."
 
-- question: "Romantic composers fundamentally rejected Classical forms like sonata form, replacing them with entirely new structures suited to their expressive goals."
+- question: "Romantic composers fundamentally rejected Classical forms like sonata form, replacing them with mostly new structures suited to their expressive goals."
   type: true-false
   answer: false
   explanation: "This is one of the explicit misconceptions in the topic. Romantic composers transformed and extended inherited forms rather than abandoning them. Beethoven, Schubert, Brahms, and Mahler all wrote in sonata form — but with expanded proportions, more remote modulations, greater developmental freedom, and looser relationships between sections. The forms were elastic starting points, not straitjackets to break. New forms (symphonic poem, character piece) were additions to the repertoire, not replacements."

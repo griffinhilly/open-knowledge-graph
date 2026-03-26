@@ -44,7 +44,7 @@ Common subexpression elimination detects and removes redundant computations. If 
   answer: 1
   explanation: "Intersection is the conservative, correct choice for available expressions. If 'x * y' is available on only one of two incoming edges, the compiler cannot guarantee that a stored result exists for both execution paths. Reusing a non-existent result on the other path would produce incorrect output. Option A (union) would be unsafe: it claims availability even when the result is absent on some paths. Safety requires that the expression is available on ALL paths, which intersection enforces — potentially missing some opportunities, but never generating incorrect code."
 
-- question: "Local CSE and global CSE differ only in scale — both rely on the same underlying dataflow analysis, applied to a larger or smaller region of code."
+- question: "Local CSE and global CSE differ primarily in scale — both rely on the same underlying dataflow analysis, applied to a larger or smaller region of code."
   type: true-false
   answer: false
   explanation: "Local CSE requires NO dataflow analysis. A basic block is a straight-line sequence with no branches, so there is only one path through it. The compiler scans forward, maintains a table of previously computed expressions, and replaces duplicates — no join points, no gen/kill propagation needed. Global CSE, by contrast, must propagate availability information across basic block boundaries using a full forward dataflow analysis with gen sets, kill sets, and intersection at join points. The two methods differ fundamentally in technique, not just code region size."

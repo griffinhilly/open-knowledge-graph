@@ -49,7 +49,7 @@ Electrons fill atomic orbitals in order of increasing energy (aufbau = build-up)
   answer: true
   explanation: "In hydrogen, all subshells with the same n are degenerate. In multi-electron atoms, inner electrons shield outer electrons from the nucleus, and different subshells penetrate the electron cloud differently. The 4s orbital penetrates closer to the nucleus on average than 3d, giving it lower energy despite the higher principal quantum number. The (n+ℓ) rule is a practical summary of this effect."
 
-- question: "In multi-electron atoms, as in hydrogen, all subshells with the same principal quantum number n have the same energy (are degenerate)."
+- question: "In multi-electron atoms, as in hydrogen, most subshells with the same principal quantum number n have the same energy (are degenerate)."
   type: true-false
   answer: false
   explanation: "Degeneracy of same-n subshells holds only for hydrogen (a one-electron atom with no electron-electron repulsion). In multi-electron atoms, electron-electron repulsion and differential shielding break the degeneracy: 2s and 2p have different energies, as do 3s, 3p, and 3d. This is precisely why 4s fills before 3d — the orbital energies depend on both n and ℓ in multi-electron atoms."

@@ -52,7 +52,7 @@ Paint the same simple object or scene multiple times using different color tempe
   answer: 1
   explanation: "Temperature is not a fixed property of a color — it is perceived relative to surrounding colors. A yellow-green that reads as warm against blue will shift toward cool next to orange. This contextual relativity is the critical insight about color temperature: you should always think in terms of 'warmer-than' and 'cooler-than' rather than assigning absolute labels. Even within a single hue family, individual pigments differ in temperature (alizarin crimson is cool; cadmium red is warm), and context shifts perception further."
 
-- question: "Within a single hue family like 'red,' all reds have the same color temperature — they are equally warm."
+- question: "Within a single hue family like 'red,' most reds have the same color temperature — they are equally warm."
   type: true-false
   answer: false
   explanation: "Different pigments within the same hue family can have significantly different temperatures based on their spectral composition. Alizarin crimson has a cool, bluish bias and reads as cooler than cadmium red, which has a warm, orangish bias — even though both are nominally 'red.' This distinction matters practically in color mixing: mixing two warm colors produces a cleaner result than mixing a warm and a cool color from the same hue family, because the opposing temperatures create dullness. Painters learn to distinguish warm and cool within each hue."

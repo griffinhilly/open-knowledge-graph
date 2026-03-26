@@ -56,7 +56,7 @@ Contrast phenomenal justification (experience itself justifies) with proposition
   answer: 1
   explanation: "The key tension is logical: classical accounts of justification define it as a normative or inferential relation between propositions — P justifies Q because P provides evidence for Q. But phenomenal experience is not a proposition; it does not have a truth value that can stand in inferential relations to a belief. The phenomenalist response is that justification is a normative relation, not a purely logical one — the qualitative character makes it rational to hold the belief, even without an inferential chain. Options C and D are simply false."
 
-- question: "According to phenomenal justification, you must first form the belief 'I am having a red experience' before your perceptual experience can justify your belief that something is red."
+- question: "According to phenomenal justification, you is expected to first form the belief 'I am having a red experience' before your perceptual experience can justify your belief that something is red."
   type: true-false
   answer: false
   explanation: "This describes the propositional account, which phenomenal justification directly rejects. The core claim of phenomenal justification is that the experience itself — the what-it-is-like of seeing red, the qualitative character of the visual state — can justify the perceptual belief directly, without any intermediate belief about the experience. Requiring that intermediate belief is precisely what the propositional account adds and what the phenomenalist denies is necessary."

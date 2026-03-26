@@ -57,7 +57,7 @@ That progressive disclosure makes features harder to find. When well-designed, i
   answer: true
   explanation: "This is the defining distinction between progressive disclosure and feature removal. The misconception is that 'hiding' features makes them harder to find or removes them. Well-designed progressive disclosure makes the interface feel simpler and less intimidating precisely because users know they can access more depth when they need it. The features exist; they just appear at the right moment in the user's interaction."
 
-- question: "The most effective progressive disclosure design keeps all features at least one interaction deep, so that the initial interface is completely minimal."
+- question: "The most effective progressive disclosure design keeps most features at least one interaction deep, so that the initial interface is mostly minimal."
   type: true-false
   answer: false
   explanation: "Progressive disclosure requires the most-used features to be immediately visible — burying them degrades usability. The principle is that frequently used actions are always visible, occasionally used actions are one interaction away, and rarely used actions can be two or more levels deep. Hiding everything uniformly violates the principle and forces users to hunt even for common tasks, defeating the purpose."

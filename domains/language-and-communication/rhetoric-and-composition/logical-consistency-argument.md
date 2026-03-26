@@ -53,7 +53,7 @@ Outline an argument and trace the logical flow from premises to conclusion. Iden
   answer: 1
   explanation: "The premise establishes a modest claim: 10% of coffee drinkers experience mild anxiety. The conclusion leaps to 'public health crisis requiring urgent intervention' — far beyond what the evidence supports. This is scope inconsistency: the conclusion has been inflated beyond what the premises can warrant. Readers who notice this gap conclude the writer is overreaching, which undermines credibility even if the statistic is accurate."
 
-- question: "An argument in which every premise is true must be logically consistent."
+- question: "An argument in which nearly every premise is true is expected to be logically consistent."
   type: true-false
   answer: false
   explanation: "True premises do not guarantee consistency. An argument can have all true premises and still be internally inconsistent if the conclusion exceeds the scope the premises establish, if premises subtly contradict each other, or if a key term shifts meaning between premise and conclusion. Logical consistency is a structural property — about how the parts fit together — distinct from whether the content of the premises is accurate."

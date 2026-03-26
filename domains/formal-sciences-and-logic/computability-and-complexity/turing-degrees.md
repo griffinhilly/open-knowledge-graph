@@ -65,7 +65,7 @@ First internalize Turing reducibility as "A is computable given B as an oracle."
   answer: true
   explanation: "The jump d' is defined by relativizing the halting problem to a d-oracle. It is always the case that d <_T d': d is reducible to d' (trivially, since d' has all the oracle power of d plus more), but d' is not reducible to d. This strict increase is a fundamental property of the jump operator and produces the infinite ascending chain 0 < 0' < 0'' < 0''' < ⋯. Each jump yields strictly more computational power than the previous level."
 
-- question: "The Turing degrees form a linearly ordered set — given any two Turing degrees, one must be reducible to the other."
+- question: "The Turing degrees form a linearly ordered set — given any two Turing degrees, one should be reducible to the other."
   type: true-false
   answer: false
   explanation: "This is the most important misconception to correct. The Friedberg-Muchnik theorem proves that incomparable Turing degrees exist: sets A and B can both be non-computable, yet neither A ≤_T B nor B ≤_T A holds. Such pairs are incomparable in the partial order of Turing degrees. The degree structure branches at every level, with infinitely many pairwise incomparable degrees above any fixed degree. It is a rich, complex partial order — not a chain."

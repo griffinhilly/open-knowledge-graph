@@ -49,7 +49,7 @@ For Popper, a theory is falsifiable if there exist possible observations that wo
   answer: true
   explanation: "This is the core of Popper's asymmetry between confirmation and falsification. A 'risky' prediction — unlikely if the theory were false — is precisely what distinguishes bold scientific theories from vague ones. Einstein's prediction that light bends around the sun by a specific, quantified amount was risky: it was an unusual claim that could easily have been refuted by measurement. Theories that only predict what is likely regardless of their truth have no real empirical content. The more a theory rules out, the more scientific it is."
 
-- question: "The Duhem-Quine problem shows that any theory can be protected from refutation by adjusting auxiliary hypotheses, proving that falsifiability cannot usefully distinguish science from non-science."
+- question: "The Duhem-Quine problem shows that any theory can be protected from refutation by adjusting auxiliary hypotheses, proving that falsifiability can rarely usefully distinguish science from non-science."
   type: true-false
   answer: false
   explanation: "The Duhem-Quine problem complicates falsifiability as a sharp criterion, but it does not eliminate its usefulness. Lakatos's response — distinguishing progressive research programmes (which use auxiliary adjustments to generate novel successful predictions) from degenerative ones (which only patch up past failures) — preserves the spirit of Popper's demarcation. Falsifiability becomes less a binary criterion and more a measure of methodological integrity: are auxiliary adjustments made in advance with testable consequences, or only post-hoc to avoid refutation?"

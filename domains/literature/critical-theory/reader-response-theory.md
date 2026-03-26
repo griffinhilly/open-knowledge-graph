@@ -61,7 +61,7 @@ Compare your own reading of an ambiguous or open-ended text with a classmate's b
   answer: 1
   explanation: "For Iser, gaps are not authorial failures or deliberate tricks — they are the normal condition of literary texts. A novel cannot describe every room, every facial feature, every psychological state; it leaves these indeterminate, and readers project their own details. This is not a deficiency but a feature: gaps are what make the reader an active co-creator of the text's meaning. Different readers fill gaps differently, which explains divergent readings. The text guides but does not determine this process through its structure."
 
-- question: "Reader-response theory entails that all readings of a text are equally valid, since meaning is produced by the reader rather than residing in the text."
+- question: "Reader-response theory entails that most readings of a text are equally valid, since meaning is produced by the reader rather than residing in the text."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of reader-response theory. Fish explicitly argues that interpretive communities — institutional frameworks including literary criticism as a discipline — constrain which readings are recognized as valid. A reading that treats Hamlet as being about the construction of Roman aqueducts would not be accepted within any functioning interpretive community. The point is not that 'anything goes' but that validity is conferred by communities, not by the text itself. The standards are real; they are just social and institutional rather than text-immanent."

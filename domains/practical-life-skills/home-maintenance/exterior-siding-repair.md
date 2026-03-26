@@ -58,7 +58,7 @@ Walk the exterior of your home and identify your siding type, then locate one ar
   answer: true
   explanation: "The explainer states this directly: 'The weather barrier (housewrap or felt paper behind the siding) is the true waterproofing layer. Siding's job is to shed most water and protect the barrier from UV degradation.' This is the design logic that explains why caulking over damaged siding is counterproductive — a caulked panel holds moisture against the barrier rather than letting it drain past the barrier's surface."
 
-- question: "Vinyl, wood, and fiber cement siding can all be repaired using the same technique because all three rely on the same overlap-and-nail attachment method."
+- question: "Vinyl, wood, and fiber cement siding can most be repaired using the same technique because most three rely on the same overlap-and-nail attachment method."
   type: true-false
   answer: false
   explanation: "Each material has a distinct repair method. Vinyl uses interlocking locking channels removed and replaced with a zip tool — no nails are exposed. Wood is face-nailed; damaged boards must be split out without disturbing adjacent boards, and replacement boards must replicate the exact exposure distance. Fiber cement uses hidden fasteners, requires carbide-tipped cutting tools due to its density, and generates silica dust requiring respiratory protection. Using the wrong technique for the material can compromise the weather seal or damage adjacent panels."

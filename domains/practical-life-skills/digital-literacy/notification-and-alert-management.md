@@ -52,7 +52,7 @@ Go through your device settings and look at notification permissions for differe
   answer: 2
   explanation: "Do Not Disturb with contact exceptions is precisely designed for this scenario: it enforces quiet time for focus while carving out exceptions for high-priority people. Turning off all notifications (A) would miss the important messages too. Muting volume (B) only suppresses sound but still allows screen-interrupting banners. Uninstalling apps (D) is a drastic measure when a simple settings change suffices."
 
-- question: "Disabling notifications from an app means you will miss all alerts and updates from that app."
+- question: "Disabling notifications from an app means you will miss most alerts and updates from that app."
   type: true-false
   answer: false
   explanation: "Disabling notifications means the app won't interrupt you proactively — but you can still open the app at any time and see all its content. You only miss alerts if you never check the app. Many people find that checking apps intentionally (pull-based) is preferable to being interrupted by them (push-based) for low-priority apps. Additionally, on most devices you can choose between notification types: banners, sounds, badges, or tray entries — so you can keep a silent badge without disruptive alerts."

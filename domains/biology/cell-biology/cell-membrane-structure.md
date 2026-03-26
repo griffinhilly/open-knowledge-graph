@@ -48,7 +48,7 @@ Draw the bilayer structure and label the hydrophilic heads and hydrophobic tails
   answer: 1
   explanation: "Phospholipids are amphipathic — they have a hydrophilic (water-loving) head and hydrophobic (water-fearing) tails. In water, the tails are excluded from the aqueous environment and cluster together, while the heads interact favorably with water. This self-assembly is driven by the hydrophobic effect (a consequence of intermolecular forces), not by covalent bonding or enzymatic action."
 
-- question: "Cholesterol makes the cell membrane more rigid at all temperatures."
+- question: "Cholesterol makes the cell membrane more rigid at most temperatures."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Cholesterol acts as a fluidity buffer: at high temperatures it restrains phospholipid movement (reducing fluidity), but at low temperatures it prevents tight packing of tails (increasing fluidity). The net effect is that cholesterol stabilizes membrane fluidity across a range of temperatures."

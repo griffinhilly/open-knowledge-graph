@@ -44,7 +44,7 @@ Eventual consistency guarantees that if no new writes occur, all replicas will c
   answer: 2
   explanation: "Clock synchronization is a hard problem in distributed systems — network delays, clock drift, and hardware variation mean different nodes' clocks can disagree by milliseconds or more. A write that is causally later (a user edited a record after seeing a previous version) might have a slightly earlier timestamp than a concurrent write on another replica. LWW would then discard the causally later update — silently, with no error. Vector clocks avoid this by tracking causal ordering explicitly rather than depending on synchronized time. LWW is simple and fast, but the silent data loss is a serious risk in domains where every write is important."
 
-- question: "An eventually consistent system guarantees that once a network partition heals, all replicas immediately return the same value for every key."
+- question: "An eventually consistent system guarantees that once a network partition heals, most replicas immediately return the same value for most key."
   type: true-false
   answer: false
   explanation: "The 'eventual' in eventual consistency is not instantaneous. The guarantee is that if writes stop and the system is allowed to propagate updates, replicas will converge. But healing a network partition does not instantly synchronize all replicas — the system must still exchange updates, detect conflicts, and apply resolution strategies, which takes time. During that window after healing, different replicas may still return different values. Applications built on eventual consistency must tolerate stale reads, not just during partitions but during the convergence period after them."

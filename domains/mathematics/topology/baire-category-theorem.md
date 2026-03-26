@@ -51,7 +51,7 @@ The Baire Category Theorem states that a complete metric space cannot be express
   answer: true
   explanation: "This is essentially what the Baire Category Theorem says. If every Aₙ were nowhere dense (its closure contains no open ball), then their countable union could not be all of X — a complete metric space cannot be meager. So if the union really is all of X, at least one set must fail to be nowhere dense, meaning its closure must contain an open ball."
 
-- question: "The Baire Category Theorem implies that meager sets in a complete metric space must be empty."
+- question: "The Baire Category Theorem implies that meager sets in a complete metric space should be empty."
   type: true-false
   answer: false
   explanation: "Meager sets can be nonempty — even quite large. The rationals ℚ are a meager subset of the complete metric space ℝ (countable union of nowhere dense singletons), yet ℚ is dense in ℝ. What Baire says is that a meager set cannot be *all* of a complete metric space. 'Meager' means topologically negligible, not necessarily small in other senses."

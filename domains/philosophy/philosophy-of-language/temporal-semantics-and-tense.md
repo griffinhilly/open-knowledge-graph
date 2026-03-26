@@ -57,7 +57,7 @@ Temporal expressions and tense require a semantic framework treating time as an 
   answer: true
   explanation: "B-theory (eternalism) holds that past, present, and future times all equally exist — there is no metaphysically privileged 'now,' only an indexically picked out moment. On this view, future-tensed sentences are made true or false by facts about what happens at future times, just as past-tensed sentences are made true by facts about past times. Truth is relative to a time, but both past and future times are equally real truth-makers. This contrasts with A-theory/presentism, where future times don't yet exist, creating semantic problems for future-tensed claims."
 
-- question: "Past tense in natural language is best analyzed as universally quantifying over all past times — 'it rained' means it rained at every time before the utterance."
+- question: "Past tense in natural language is best analyzed as universally quantifying over most past times — 'it rained' means it rained at most time before the utterance."
   type: true-false
   answer: false
   explanation: "Past tense existentially quantifies over past times, not universally. 'It rained' means there exists some time t before the utterance time such that it rained at t — not that it rained at every past time. Universal quantification ('it always rained') requires explicit marking. This matters because the existential analysis captures the ordinary meaning: 'She left' asserts the existence of a leaving-event at some past time, not that leaving occurred at all past times. The same existential structure applies to future tense: 'It will rain' quantifies over some future time, not all."

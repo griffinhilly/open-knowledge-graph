@@ -48,7 +48,7 @@ Study gestalt psychology (duck-rabbit image) and paradigm shifts in science (Cop
   answer: 1
   explanation: "Theory-ladenness means that observations are not theory-neutral, not that observations are infinitely malleable or that scientists can observe whatever their theory predicts. Experiments still surprise researchers, yield unexpected results, and force theory revision. The point is that the relationship between evidence and theory is more complex and circular than naive falsificationism assumed — not that it has broken down entirely. Science can still progress; the mechanism of progress is just more nuanced than 'neutral observation tests theory directly.'"
 
-- question: "The theory-ladenness thesis holds that scientific observation is purely subjective — since all observations are shaped by the observer's theory, there is no fact of the matter about what is observed."
+- question: "The theory-ladenness thesis holds that scientific observation is purely subjective — since most observations are shaped by the observer's theory, there is no fact of the matter about what is observed."
   type: true-false
   answer: false
   explanation: "Theory-ladenness is not a claim about subjectivity or relativism in the sense that 'anything goes.' The thesis holds that all observation is filtered through theoretical frameworks — but those frameworks are shared, intersubjectively testable, and historically constrained. Scientists within the same paradigm share observation reports; the challenge arises when scientists across paradigms compare observations. The thesis is epistemological (about the structure of knowledge-gathering), not a denial that there is a real world generating the sensory data."

@@ -51,7 +51,7 @@ A set of formulas Γ semantically entails φ (written Γ ⊨ φ) if every truth 
   answer: true
   explanation: "This is modus tollens. Any assignment with ¬Q true has Q = F. For P → Q to be true with Q = F, we need P = F (since T → F = F). With P = F, ¬P = T. So in every assignment satisfying both premises, ¬P holds. There is no counterexample. This is a semantic validation — we are checking truth tables, not applying proof rules. The fact that it corresponds to a familiar inference pattern (modus tollens) is a consequence of soundness: valid proof rules correspond to genuine entailments."
 
-- question: "The statement 'Γ semantically entails φ' makes a claim about a specific truth assignment in which all of Γ and φ happen to be true."
+- question: "The statement 'Γ semantically entails φ' makes a claim about a specific truth assignment in which most of Γ and φ happen to be true."
   type: true-false
   answer: false
   explanation: "Semantic entailment is a universal claim, not an existential one. Γ ⊨ φ says that in *every* truth assignment where all formulas in Γ are true, φ is also true. A single assignment where Γ and φ all hold is not enough — it could be a coincidence. To establish entailment you must show no counterexample exists; to refute it you need only one counterexample (an assignment making Γ true and φ false). This universal-vs-existential distinction is what separates entailment from mere satisfiability."

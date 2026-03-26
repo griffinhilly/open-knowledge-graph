@@ -54,7 +54,7 @@ Measure T1 and T2 for ¹H NMR resonances using inversion recovery and CPMG seque
   answer: 1
   explanation: "T₁ requires energy exchange between spins and the lattice, which demands fluctuating fields at the Larmor frequency ω₀ — so only fast motions (short τc) drive T₁ efficiently. T₂ is damaged by any process that causes spins to dephase, including slow low-frequency motions that create persistent local field variations. For small rapidly-tumbling molecules, both types of motions average effectively and T₁ ≈ T₂. For large, slowly-tumbling proteins, slow motions destroy phase coherence quickly (short T₂) while T₁ becomes long because motions are too slow to efficiently transfer energy at ω₀. The large T₁/T₂ ratio is a signature of macromolecular systems."
 
-- question: "A longer T₁ relaxation time always indicates slower molecular motion (larger correlation time)."
+- question: "A longer T₁ relaxation time typically indicates slower molecular motion (larger correlation time)."
   type: true-false
   answer: false
   explanation: "Because T₁ vs τc is non-monotonic with a minimum at ω₀τc ≈ 1, a long T₁ is consistent with either very fast tumbling (small τc, well below the minimum) or very slow tumbling (large τc, beyond the minimum). Small molecules in low-viscosity solution often have long T₁ because they tumble far faster than needed for optimal energy transfer. Without additional information (e.g., measurements at multiple field strengths), you cannot determine whether long T₁ means fast or slow motion — this is a common source of misinterpretation."

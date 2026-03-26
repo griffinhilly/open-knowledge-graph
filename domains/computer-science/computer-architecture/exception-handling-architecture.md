@@ -49,7 +49,7 @@ Exceptions (page faults, divide-by-zero, illegal instructions) and interrupts (I
   answer: true
   explanation: "True. In a pipeline, multiple instructions are in flight simultaneously. When an exception fires, instructions younger than the faulting instruction may have partially modified registers or memory. Precise exceptions require squashing all of these in-progress effects and rolling the architectural state back to the exact snapshot before the faulting instruction began. This is one of the most demanding aspects of processor design, particularly for out-of-order and deeply pipelined processors."
 
-- question: "After an exception handler finishes, the processor always resumes execution at the instruction immediately following the one that caused the exception."
+- question: "After an exception handler finishes, the processor generally resumes execution at the instruction immediately following the one that caused the exception."
   type: true-false
   answer: false
   explanation: "False — whether to resume at the same instruction or the next depends on the exception type. For faults (page faults, divide-by-zero), the handler corrects the problem and the processor re-executes the faulting instruction — resuming at the next instruction would skip it and lose its result. For traps (intentional software interrupts like system calls), execution resumes at the instruction after the trap. The processor saves either the faulting PC or PC+1 depending on the exception class, and the handler uses this to determine where to return."

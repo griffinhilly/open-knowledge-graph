@@ -50,7 +50,7 @@ Present trait lists in different orders (warm-cold vs. cold-warm) and measure ho
   answer: 1
   explanation: "The primacy effect in impression formation is not primarily a memory phenomenon — it reflects schema-driven processing. Early traits activate a person-schema that filters subsequent information. 'Impulsive' read after 'intelligent, industrious' gets interpreted as spontaneous energy; 'impulsive' encountered first frames the subsequent traits as facets of an unstable personality. The initial information anchors interpretation; later inconsistent information is assimilated into the pre-existing frame rather than triggering equal-weight updating."
 
-- question: "In Asch's research, whether a trait is 'central' or 'peripheral' is determined entirely by its position in the list — central traits are simply those that appear first."
+- question: "In Asch's research, whether a trait is 'central' or 'peripheral' is determined largely by its position in the list — central traits are simply those that appear first."
   type: true-false
   answer: false
   explanation: "Asch found that centrality is a content property, not a positional one. 'Warm' and 'cold' were central traits because of their semantic richness and organizational power — they connected to many other trait dimensions and reinterpreted them. 'Polite' and 'blunt,' by contrast, remained peripheral even when placed first: swapping them had little effect on overall impressions. The primacy effect (temporal) and the central-trait effect (semantic) are distinct phenomena; centrality is about which traits function as organizing lenses, not about order of presentation."

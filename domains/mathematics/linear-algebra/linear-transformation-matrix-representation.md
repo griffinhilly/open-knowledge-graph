@@ -52,7 +52,7 @@ Every linear transformation T: Rⁿ → Rᵐ is represented by an m×n matrix A,
   answer: true
   explanation: "The same linear transformation can be represented by different matrices depending on the choice of bases for the domain and codomain. The matrix [T]_B^C encodes the transformation relative to a specific pair of bases B and C. Changing B or C changes the coordinates used, which changes the entries of the matrix — but T itself (as a function mapping vectors to vectors) remains the same geometric object. This is why 'change of basis' is such a fundamental operation: it lets you choose a basis that makes the matrix as simple as possible (e.g., diagonal for an eigendecomposition)."
 
-- question: "If you know a linear transformation T sends two specific vectors u and v to their images T(u) and T(v), you can always reconstruct the full matrix of T."
+- question: "If you know a linear transformation T sends two specific vectors u and v to their images T(u) and T(v), you can generally reconstruct the full matrix of T."
   type: true-false
   answer: false
   explanation: "You can reconstruct T from two vectors only if those two vectors form a basis for the domain. If u and v are linearly dependent (one is a scalar multiple of the other), they span only a line, and T's behavior on the rest of the space is completely unconstrained by what you know. For example, knowing T(e₁) tells you nothing about T(e₂). The key condition is that the vectors you evaluate T on must span the domain — which means they must form a basis. Linearity then guarantees the rest."

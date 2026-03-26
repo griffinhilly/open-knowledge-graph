@@ -52,7 +52,7 @@ Analyze a spiked sample containing a known interferent alongside a clean standar
   answer: 1
   explanation: "The spike-and-recovery experiment is the primary diagnostic tool for detecting unsuspected interferences. If you add a known amount of analyte and recover significantly less (or more) than expected, something in the matrix is suppressing (or enhancing) your signal. Good reproducibility (option A) tells you the measurement is repeatable but not whether it is accurate. A linear calibration in pure water (option C) tells you nothing about what the real matrix does. Dilution (option D) may reduce some interferences but dilutes the analyte too, and does not identify or characterize the interference."
 
-- question: "The same analytical technique always faces the same set of interferences for a given analyte, regardless of which sample matrix is being analyzed."
+- question: "The same analytical technique usually faces the same set of interferences for a given analyte, regardless of which sample matrix is being analyzed."
   type: true-false
   answer: false
   explanation: "Interferences arise from the specific combination of technique, analyte, and matrix. Calcium measured by flame AAS in urine faces phosphate and protein interferences; calcium in drinking water may face different or milder matrix effects; calcium in a high-salt industrial brine faces ionization interference from sodium. Even changing the technique changes the interference profile — calcium by ICP-OES faces different spectral interferences than calcium by flame AAS. This is why the Common Misconceptions section emphasizes that interferences cannot be looked up in a generic list; they must be determined for each method-matrix combination."

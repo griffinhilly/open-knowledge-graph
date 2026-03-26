@@ -51,7 +51,7 @@ An exact differential equation M(x,y)dx + N(x,y)dy = 0 satisfies ∂M/∂y = ∂
   answer: true
   explanation: "Necessity follows from the equality of mixed partials: if F exists with ∂F/∂x = M and ∂F/∂y = N, then ∂M/∂y = ∂²F/∂y∂x = ∂²F/∂x∂y = ∂N/∂x (by Clairaut's theorem for smooth F). Sufficiency on a simply connected domain follows from the fact that there are no 'holes' through which a path integral of M dx + N dy could be path-dependent. The simply connected condition is essential — on a domain with holes (like the punctured plane), ∂M/∂y = ∂N/∂x is necessary but not sufficient."
 
-- question: "If ∂M/∂y ≠ ∂N/∂x, the equation M dx + N dy = 0 cannot be solved exactly but can always be made exact by multiplying through by an appropriate integrating factor."
+- question: "If ∂M/∂y ≠ ∂N/∂x, the equation M dx + N dy = 0 can rarely be solved exactly but can generally be made exact by multiplying through by an appropriate integrating factor."
   type: true-false
   answer: false
   explanation: "While an integrating factor μ(x,y) can sometimes restore exactness, finding one in general requires solving its own partial differential equation, which may be intractable. The practical special cases — where (∂M/∂y − ∂N/∂x)/N depends only on x, or (∂N/∂x − ∂M/∂y)/M depends only on y — cover many textbook problems but are not universally applicable. If neither simplification works, the exact equation framework may simply not be the right tool for that ODE."

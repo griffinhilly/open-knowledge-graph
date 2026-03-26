@@ -59,7 +59,7 @@ Viterbi finds the most likely state sequence, not the most likely individual sta
   answer: true
   explanation: "True. For a sequence of length T with K hidden states, the brute-force approach would sum over all K^T possible state sequences — exponential in T. The forward algorithm exploits the Markov property: the probability of being in state i at time t, having generated observations up to t, depends only on the probability of being in each state at time t-1 (not on earlier history). This allows left-to-right dynamic programming that runs in O(K²T) time rather than O(K^T)."
 
-- question: "Baum-Welch is guaranteed to find the globally optimal HMM parameters if run to convergence."
+- question: "Baum-Welch is very likely to find the globally optimal HMM parameters if run to convergence."
   type: true-false
   answer: false
   explanation: "False. Baum-Welch is an instance of the Expectation-Maximization (EM) algorithm, which converges to a *local* maximum of the likelihood function, not necessarily the global one. The final parameters depend on initialization — different starting points can lead to different local optima. In practice, multiple random restarts are used to improve the chance of finding a good solution. Global optimality would require exhaustive search over parameter space, which is computationally intractable."

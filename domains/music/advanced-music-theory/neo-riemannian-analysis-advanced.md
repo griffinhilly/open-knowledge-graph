@@ -61,7 +61,7 @@ Map a complex harmonic progression onto the Tonnetz and trace the path of chord 
   answer: true
   explanation: "P (parallel), L (leading-tone exchange), and R (relative) are all involutions — they are each their own inverse. P swaps major and minor by moving the third by a semitone; applying P twice returns the chord to its original quality and pitch class. The 'one voice, one semitone' property is what voice-leading parsimony means in this context: PLR operations represent the smallest possible harmonic motion, which is why they generate smooth chromatic progressions. This property also makes them clean group generators: every element of the PLR group is a product of these three involutions."
 
-- question: "The Tonnetz is an infinite flat plane, so harmonic progressions using PLR operations cannot form cycles or return to their starting triad."
+- question: "The Tonnetz is an infinite flat plane, so harmonic progressions using PLR operations can seldom form cycles or return to their starting triad."
   type: true-false
   answer: false
   explanation: "The Tonnetz is toroidal, not flat — it wraps around in both dimensions. This means PLR paths that appear to move in a straight line eventually return to their starting point. The hexatonic cycle (six L-operations) and the octatonic cycle (PLPL repeated four times, eight operations) are the two most important Tonnetz loops. They are musically significant because they connect distant-seeming triads through maximally smooth voice leading while returning to the origin — a structure impossible on a flat plane. The toroidal geometry is one of neo-Riemannian theory's most beautiful structural features."

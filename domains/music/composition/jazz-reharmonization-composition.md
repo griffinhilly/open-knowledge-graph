@@ -53,7 +53,7 @@ Jazz reharmonization replaces simple chord progressions with sophisticated subst
   answer: true
   explanation: "In G7, B is the major third and F is the minor seventh. In Db7, F is the major third and B (= Cb enharmonically) is the minor seventh — the roles are swapped, but the interval is preserved. Since these two notes carry the harmonic identity and tension of the dominant chord, a melody note that functions as a chord tone or usable tension over G7 will typically function similarly over Db7. This shared tritone content is the entire mechanical basis for why the substitution preserves harmonic integrity."
 
-- question: "Because tritone substitutes preserve melodic integrity through shared chord tones, they can be applied uniformly to every dominant chord in a progression for maximum harmonic sophistication."
+- question: "Because tritone substitutes preserve melodic integrity through shared chord tones, they can be applied uniformly to most dominant chord in a progression for maximum harmonic sophistication."
   type: true-false
   answer: false
   explanation: "Selective use is the essence of the craft. Reharmonization succeeds when it provides contrast — freshening a repeated phrase, coloring a climax, delaying a cadence — precisely because simpler harmonies elsewhere give the ear reference points. Applying substitutions uniformly removes this contrast effect, creates harmonic saturation, and may obscure the melody. The decision of *where* to substitute is as important as knowing *how* to substitute."

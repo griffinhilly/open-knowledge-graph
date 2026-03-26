@@ -58,7 +58,7 @@ Decentration is an all-or-nothing ability that develops uniformly across all cog
   answer: true
   explanation: "Conservation tasks require the child to track multiple dimensions simultaneously — for example, both height and width of liquid, or both spacing and number of objects. Centration causes failure because the child focuses on one dimension (the one that changed visually) and ignores the other. Decentration — the capacity to hold multiple attributes in mind at once — is precisely what allows the child to integrate all relevant information and reason correctly that the quantity is unchanged."
 
-- question: "Once a child demonstrates decentration, they will apply it uniformly across all types of conservation and classification tasks."
+- question: "Once a child demonstrates decentration, they will apply it uniformly across most types of conservation and classification tasks."
   type: true-false
   answer: false
   explanation: "This is the misconception of horizontal décalage. Decentration develops unevenly: a child may show it on number tasks before liquid, on liquid before weight, on weight before volume. The same child can centrate in one domain and decentrate in another simultaneously. Treating decentration as a binary, domain-general achievement misrepresents how cognitive development actually unfolds."

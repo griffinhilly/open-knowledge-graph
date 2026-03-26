@@ -52,7 +52,7 @@ The steady-flow energy equation (also called the extended Bernoulli equation) ac
   answer: true
   explanation: "This is precisely the relationship between the two equations. The steady-flow energy equation H₁ + Q − W_s = H₂ reduces to Bernoulli's equation when Q = 0 (no heat transfer) and W_s = 0 (no shaft work), and for incompressible flow where enthalpy differences reduce to pressure, velocity, and elevation terms. Bernoulli is not a separate law — it is the mechanical-energy-only special case of the general energy balance. Recognizing this hierarchy helps you choose which equation to apply."
 
-- question: "For a pump in a piping system, the steady-flow energy equation guarantees that fluid pressure must increase between inlet and outlet."
+- question: "For a pump in a piping system, the steady-flow energy equation guarantees that fluid pressure is expected to increase between inlet and outlet."
   type: true-false
   answer: false
   explanation: "A pump adds total head — the sum of pressure head, velocity head, and elevation head — not necessarily pressure alone. If the pump lifts water to a significantly higher elevation, much of the added energy goes into potential energy, and outlet pressure could actually be lower than inlet pressure. The energy equation correctly accounts for all energy forms. You cannot infer that pressure alone must increase just because a pump is present; you must account for all terms on both sides of the equation."

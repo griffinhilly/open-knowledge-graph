@@ -60,7 +60,7 @@ Students often forget that impedance is frequency-dependent, unlike resistance. 
   answer: true
   explanation: "True. This is the primary motivation for introducing admittance. In the impedance domain, parallel elements require 1/Z_total = 1/Z₁ + 1/Z₂ + ... — a cumbersome sum of reciprocals. In the admittance domain, Y_total = Y₁ + Y₂ + ... — a simple sum. The symmetry is complete: series circuits are natural in the impedance domain; parallel circuits are natural in the admittance domain."
 
-- question: "An element's susceptance and reactance always have the same algebraic sign."
+- question: "An element's susceptance and reactance usually have the same algebraic sign."
   type: true-false
   answer: false
   explanation: "False. Susceptance and reactance have opposite signs for the same element. An inductor has positive reactance (+ωL) but negative susceptance (−1/(ωL)). A capacitor has negative reactance (−1/(ωC)) but positive susceptance (+ωC). This follows from Y = 1/Z: taking the reciprocal of a purely imaginary number flips its sign. Forgetting this sign flip is one of the most common errors when switching between impedance and admittance representations."

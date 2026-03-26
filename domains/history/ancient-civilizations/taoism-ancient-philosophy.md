@@ -47,7 +47,7 @@ Read passages from the Daodejing and compare its imagery and philosophy to Confu
   answer: 1
   explanation: "One of the distinctive features of Chinese intellectual history is comfort with complementary, context-sensitive frameworks. Educated Chinese regularly moved between Confucian and Taoist orientations — Confucian for civic duties, Taoist for personal reflection and aesthetics. This is not contradiction or shallow belief; it reflects a different relationship to philosophical commitment than the Western tradition of exclusive systematic allegiance. The explainer notes this as a defining and remarkable feature of how Taoism survived alongside Confucianism."
 
-- question: "Wu-wei, the central Taoist practice, means doing nothing — complete stillness and inaction in all circumstances."
+- question: "Wu-wei, the central Taoist practice, means doing very little — complete stillness and inaction in most circumstances."
   type: true-false
   answer: false
   explanation: "Wu-wei literally means 'non-action' but is better understood as 'non-forcing' or 'effortless action.' It means not straining against the natural order, not imposing will where it isn't needed — not refusing to act entirely. The Daodejing's water imagery makes this clear: water is constantly active (flowing, carving, nourishing) but never forces. A sage practicing wu-wei still governs, creates, and acts — but does so by working with natural tendencies rather than against them. Complete inaction would be a misreading."

@@ -50,7 +50,7 @@ Write Ksp expressions for various ionic compounds, calculate Ksp from solubility
   answer: 2
   explanation: "When Q > Ksp, the ion concentrations exceed equilibrium values and the system drives toward precipitation to reduce Q back to Ksp. Option B reverses the logic: Q > Ksp signals supersaturation (too many ions), not unsaturation. Option D has both the comparison and conclusion wrong. The ion product Q is calculated identically to Ksp but uses actual concentrations rather than equilibrium values — this comparison is the core tool for predicting whether precipitation occurs."
 
-- question: "A salt with Ksp = 1.0 × 10⁻¹² (1:1 stoichiometry) is always more soluble than a salt with Ksp = 4.0 × 10⁻¹² (1:2 stoichiometry, like AB₂)."
+- question: "A salt with Ksp = 1.0 × 10⁻¹² (1:1 stoichiometry) is generally more soluble than a salt with Ksp = 4.0 × 10⁻¹² (1:2 stoichiometry, like AB₂)."
   type: true-false
   answer: false
   explanation: "You cannot compare molar solubilities by comparing Ksp values alone when stoichiometries differ. For the 1:1 salt: Ksp = s², so s = 1.0 × 10⁻⁶ M. For the 1:2 salt: Ksp = 4s³, so s³ = 1.0 × 10⁻¹², giving s = 1.0 × 10⁻⁴ M — one hundred times more soluble despite its Ksp being only four times larger. The stoichiometric coefficient raises both the concentration and the exponent, making higher-stoichiometry salts relatively more soluble than their Ksp values suggest."

@@ -56,7 +56,7 @@ Begin with the conceptual link between reliability and error variance. Practice 
   answer: 2
   explanation: "SEM = SD × √(1 − reliability). At reliability = 0.81: SEM = 12 × √(0.19) ≈ 5.2. At reliability = 0.96: SEM = 12 × √(0.04) = 12 × 0.2 = 2.4. Higher reliability means less error variance, so observed scores cluster more tightly around true scores. The SEM roughly halves when reliability improves from 0.81 to 0.96, substantially narrowing the confidence interval around any individual's score."
 
-- question: "A test with higher reliability than another test always has a smaller standard error of measurement."
+- question: "A test with higher reliability than another test usually has a smaller standard error of measurement."
   type: true-false
   answer: false
   explanation: "SEM = SD × √(1 − reliability), so both reliability AND the score standard deviation determine SEM. A test with reliability 0.90 and SD = 20 has SEM = 20 × √(0.10) ≈ 6.3. A test with lower reliability 0.80 but SD = 5 has SEM = 5 × √(0.20) ≈ 2.2. The lower-reliability test actually has the smaller SEM here. Both parameters must be considered together; reliability alone does not determine measurement precision in absolute score units."

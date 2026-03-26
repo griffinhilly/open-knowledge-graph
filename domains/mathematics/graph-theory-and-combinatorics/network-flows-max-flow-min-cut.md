@@ -56,7 +56,7 @@ Implement the Ford–Fulkerson method or Edmonds–Karp algorithm, watching augm
   answer: true
   explanation: "True. This is the Max-Flow Min-Cut Theorem. Any cut gives an upper bound on the flow; the minimum cut gives the tightest such bound; and when Ford-Fulkerson terminates, it achieves exactly that value. The vertices reachable from s in the final residual graph form one side of a minimum cut, and the flow through the corresponding forward edges equals their full capacity. The equality is tight — there is no gap between the maximum flow and the minimum cut."
 
-- question: "Flow conservation requires that total flow in equals total flow out at every vertex in the network, including the source and the sink."
+- question: "Flow conservation requires that total flow in equals total flow out at most vertex in the network, including the source and the sink."
   type: true-false
   answer: false
   explanation: "False. Flow conservation applies at every vertex EXCEPT the source (s) and sink (t). The source has net outflow — flow originates there without arriving — and the sink has net inflow — flow terminates there without leaving. These net amounts are equal and define the value of the flow. Applying conservation to s and t would make any non-zero flow impossible, which is exactly the opposite of the point."

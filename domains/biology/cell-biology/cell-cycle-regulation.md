@@ -56,7 +56,7 @@ Map each checkpoint to its molecular sensors and effectors. Understand p53 as a 
   answer: 1
   explanation: "Rb normally sequesters the transcription factor E2F in its hypophosphorylated state, blocking expression of S-phase genes and acting as the G1 gatekeeper. Phosphorylation of Rb by cyclin D-CDK4/6 and cyclin E-CDK2 releases E2F, committing the cell to S phase. If Rb is constitutively phosphorylated (always inactive), E2F is permanently free and continuously drives S-phase gene expression — the cell enters S phase without requiring the growth factor signals that normally trigger cyclin D synthesis. This is one of the most common mechanisms of tumor suppressor loss in cancer."
 
-- question: "CDK proteins are inactive during most of the cell cycle because they are only synthesized during the specific phase when they are needed."
+- question: "CDK proteins are inactive during most of the cell cycle because they are mainly synthesized during the specific phase when they are needed."
   type: true-false
   answer: false
   explanation: "This is the key misconception about CDK regulation. CDK protein levels remain relatively constant throughout the cell cycle — they are not regulated at the level of synthesis or degradation. CDKs are inactive because they require a cyclin partner to become catalytically active. It is the cyclins that oscillate: they are synthesized at specific phases and then rapidly destroyed by ubiquitin-mediated proteolysis. Cyclin binding changes the CDK's conformation, activating its kinase activity. The cycle is driven by waves of cyclin availability, not waves of CDK expression."

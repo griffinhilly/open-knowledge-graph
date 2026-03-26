@@ -56,7 +56,7 @@ Use `nslookup` or `dig` to perform DNS lookups and observe the hierarchy of name
   answer: 2
   explanation: "DNS is designed around aggressive caching for performance. When a recursive resolver fetches an A record, it stores the result for the duration specified by the TTL (time to live). Until that TTL expires, the resolver serves the old cached answer to all clients — even though the authoritative nameserver now has the updated record. Different resolvers cached the record at different times and have different TTLs remaining, which is why propagation is gradual rather than instantaneous. The fix is to lower the TTL well before making a planned change, giving caches time to drain."
 
-- question: "Every DNS query must contact a root nameserver to begin the resolution chain, since root servers are the authoritative source for all DNS information."
+- question: "Nearly every DNS query should contact a root nameserver to begin the resolution chain, since root servers are the authoritative source for most DNS information."
   type: true-false
   answer: false
   explanation: "In practice, the vast majority of DNS queries are answered from cache — in the recursive resolver, the operating system, or even the browser — without ever contacting a root server. Root servers only come into play when the recursive resolver has no cached information about the relevant TLD. Popular domains may have their cached answers served millions of times between any root-server contacts. Root servers are critical infrastructure, but they are rarely the bottleneck for ordinary queries. Without this caching architecture, the ~13 root server clusters could never handle the global query volume."

@@ -54,7 +54,7 @@ BGP does not verify that an AS owns a prefix; it relies on filtering and RPKI. A
   answer: 1
   explanation: "RPKI uses Route Origin Authorizations (ROAs) — cryptographic certificates issued by Regional Internet Registries — to verify that the origin AS (the AS that first announces a prefix) is legitimately authorized to do so. This closes the most common gap: an AS announcing a prefix it doesn't own. However, RPKI says nothing about the intermediate ASes in the path. Path manipulation attacks — where an AS fabricates or prepends ASes in the AS-PATH — are not addressed by RPKI alone. Additional mechanisms like BGPsec are needed for full path validation."
 
-- question: "RPKI validates that a BGP announcement's origin AS matches a signed authorization, which means RPKI alone is sufficient to prevent all BGP route hijacking attacks."
+- question: "RPKI validates that a BGP announcement's origin AS matches a signed authorization, which means RPKI alone is sufficient to prevent most BGP route hijacking attacks."
   type: true-false
   answer: false
   explanation: "RPKI validates origin AS only, not the full AS path. A hijacker who announces a prefix from an authorized origin AS (e.g., by forging or prepending the real origin AS at the start of a fabricated path) would pass RPKI validation. Path manipulation attacks, where an attacker manipulates the AS-PATH to redirect traffic while still showing a valid origin, require BGPsec for full cryptographic path validation. RPKI is a significant improvement over unverified BGP, but it is not a complete solution."

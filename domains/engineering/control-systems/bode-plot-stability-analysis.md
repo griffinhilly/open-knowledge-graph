@@ -67,7 +67,7 @@ Sketch asymptotic Bode plots for several open-loop transfer functions and identi
   answer: true
   explanation: "Stability margins (gain margin and phase margin) are defined in terms of the open-loop frequency response G(jω)H(jω). The gain crossover and phase crossover frequencies are properties of the open loop. Reading margins from a closed-loop Bode plot would give the wrong answer — the closed-loop plot already incorporates the feedback and does not directly expose the critical 0 dB / -180° crossing relationships."
 
-- question: "A minimum-phase system with gain margin GM = 12 dB is guaranteed to be stable regardless of its phase margin, since it can tolerate a fourfold increase in gain."
+- question: "A minimum-phase system with gain margin GM = 12 dB is very likely to be stable regardless of its phase margin, since it can tolerate a fourfold increase in gain."
   type: true-false
   answer: false
   explanation: "Both gain margin and phase margin must be adequate simultaneously. A large GM with a small PM (e.g., 5°) still results in a poorly damped, nearly unstable closed-loop system. The two margins measure different dimensions of stability robustness — GM measures how much extra gain can be added, PM measures how much extra phase lag can be tolerated — and a deficiency in either is dangerous."

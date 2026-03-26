@@ -60,7 +60,7 @@ Study Thistlethwaite and Campbell's (1960) original scholarship threshold study,
   answer: true
   explanation: "This is the local randomization intuition behind RD. A student who scored 74 vs. one who scored 76 are separated by two points of test noise — effectively random variation. They likely have similar ability, background, and all other characteristics. This near-identical comparability makes the jump in outcomes at the cutoff a credible causal estimate, rather than reflecting underlying differences between the groups."
 
-- question: "Using a wider bandwidth in RD always produces more accurate causal estimates because more observations reduce sampling error."
+- question: "Using a wider bandwidth in RD typically produces more accurate causal estimates because more observations reduce sampling error."
   type: true-false
   answer: false
   explanation: "Bandwidth selection involves a bias-variance tradeoff. A narrow bandwidth gives highly comparable units (low bias) but few observations (high variance and imprecise estimates). A wide bandwidth increases precision but includes units farther from the cutoff who may be systematically different, introducing bias if the underlying outcome function is nonlinear. Neither extreme is always best; credible RD papers typically report results across multiple bandwidth choices."

@@ -43,7 +43,7 @@ Children sometimes think that expressing feelings means yelling, crying, or hitt
   answer: 2
   explanation: "Using words to explain how you feel — 'I feel angry because you took my turn' — is a healthy way to express anger. It lets the other person know what happened and how it affected you, without hurting anyone. Hitting and throwing are harmful. Bottling it up inside does not solve anything either."
 
-- question: "Keeping all your feelings inside is the best thing to do."
+- question: "Keeping most your feelings inside is the best thing to do."
   type: true-false
   answer: false
   explanation: "Keeping feelings inside might seem like the safest option, but feelings that stay bottled up tend to come out later in bigger, harder-to-control ways — like a sudden outburst. Expressing feelings in healthy ways (talking, drawing, writing, breathing) helps you process them and feel better. You do not have to share every feeling with everyone, but finding some way to let it out is important."

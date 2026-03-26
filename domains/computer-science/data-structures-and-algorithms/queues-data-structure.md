@@ -55,7 +55,7 @@ Implement a queue using a linked list and then using a circular array with modul
   answer: 0
   explanation: "After enqueueing D: rear advances to index 4, placing D there, then rear becomes (4+1)%5 = 0, wrapping around. After two dequeues: front advances from 1 to 2 (removing A), then to 3 (removing B). Result: front=3, rear=0. No elements shifted — both indices simply advance with modular arithmetic. This is the core efficiency of the circular buffer: O(1) operations with no element movement."
 
-- question: "A queue and a stack differ only in which end elements are added to — both structures remove elements from the same (front) end."
+- question: "A queue and a stack differ primarily in which end elements are added to — both structures remove elements from the same (front) end."
   type: true-false
   answer: false
   explanation: "Stacks use LIFO (last-in, first-out): elements are added and removed from the same end (the top). Queues use FIFO (first-in, first-out): elements are added to the back and removed from the front. They enforce fundamentally different orderings. A stack reverses insertion order; a queue preserves it. This distinction is why stacks work for depth-first search and function call tracking, while queues work for breadth-first search and scheduling."

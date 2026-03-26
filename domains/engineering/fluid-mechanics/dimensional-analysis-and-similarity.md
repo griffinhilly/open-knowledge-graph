@@ -51,7 +51,7 @@ Practice applying the repeating-variable method: choose k repeating variables, f
   answer: 2
   explanation: "The Buckingham Pi theorem gives n - k = 5 - 3 = 2 dimensionless groups. In this classic problem, the two groups are the drag coefficient C_D = F/(½ρV²L²) and the Reynolds number Re = ρVL/μ. The theorem tells you the count and that the relationship F = f(ρ, V, L, μ) must take the form C_D = f(Re), but experiment or theory is still needed to find the function f."
 
-- question: "If a scale model matches the Reynolds number of its full-scale prototype, it is guaranteed to be dynamically similar in all relevant respects."
+- question: "If a scale model matches the Reynolds number of its full-scale prototype, it is expected to be dynamically similar in most relevant respects."
   type: true-false
   answer: false
   explanation: "Dynamic similarity requires ALL relevant Pi groups to match simultaneously. For a ship hull, for instance, both the Reynolds number (viscous effects) and Froude number (gravity/wave effects) matter. Matching Re requires a certain velocity-scale relationship, while matching Fr requires a different one — both conditions cannot be satisfied simultaneously with water as the fluid. In practice, engineers choose which Pi group dominates and accept partial similarity."

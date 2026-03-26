@@ -55,7 +55,7 @@ Start with a line-parabola system where substitution is straightforward, then pr
   answer: 2
   explanation: "Solving for x gives the x-coordinates of the intersection points, but a solution to a system is a complete (x, y) pair. To find y, substitute each x-value back into either original equation. Reporting only x-values gives half-answers — you cannot plot or verify a solution that is missing a coordinate."
 
-- question: "A line and a parabola always intersect in exactly two points because together they produce a quadratic equation, which always has two solutions."
+- question: "A line and a parabola usually intersect in exactly two points because together they produce a quadratic equation, which usually has two solutions."
   type: true-false
   answer: false
   explanation: "A quadratic equation has 0, 1, or 2 real solutions depending on the sign of the discriminant. A negative discriminant means the line and parabola don't intersect; a zero discriminant means exactly one intersection (tangency); a positive discriminant gives two intersections. 'Quadratic equation' does not guarantee two real solutions."

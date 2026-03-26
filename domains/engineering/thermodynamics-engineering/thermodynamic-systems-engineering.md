@@ -53,7 +53,7 @@ Draw system boundaries around devices (turbines, pumps, heat exchangers) and ide
   answer: 1
   explanation: "The system boundary is an analytical choice, not a physical fact. A tight boundary around a blade passage gives detailed local information (pressure and velocity distributions); a boundary around the entire casing gives the overall Q, W, and enthalpy change in one equation. Both satisfy the First Law — they just track different crossing terms. The art of engineering thermodynamics is choosing the boundary that most efficiently reveals what you need to know."
 
-- question: "A closed system cannot exchange work with its surroundings — only heat can cross its boundary."
+- question: "A closed system can seldom exchange work with its surroundings — mainly heat can cross its boundary."
   type: true-false
   answer: false
   explanation: "A closed system cannot exchange *mass* with its surroundings, but it can exchange both heat and work. Boundary work (W = ∫P dV) occurs whenever the boundary moves, as in a piston-cylinder device. Shaft work (e.g., a stirrer driven by a motor through a sealed shaft) and electrical work can also cross a closed system boundary. The defining constraint of a closed system is fixed mass, not fixed energy."

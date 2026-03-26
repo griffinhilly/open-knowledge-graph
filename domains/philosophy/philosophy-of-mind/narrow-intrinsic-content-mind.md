@@ -58,7 +58,7 @@ Narrow content is meaning a mental state has from intrinsic physical/neural prop
   answer: 1
   explanation: "The key is causal efficacy. A computational system operates over internal states: the Turing machine reads a symbol and transitions based on its internal configuration, regardless of what that symbol refers to in the world. Similarly, Fodor argued, mental causation must be determined by internal states — if you believe there is a tiger in front of you (even when there isn't), you run, because it is the internal state that causes the behavior, not the actual tiger. Wide content, which depends on external facts, would make mental states the wrong kind of thing to figure in causal laws. Narrow content, fixed by internal states, is what a scientific psychology needs."
 
-- question: "If two individuals have molecule-for-molecule identical brains, they necessarily have identical wide content for all their mental states."
+- question: "If two individuals have molecule-for-molecule identical brains, they necessarily have identical wide content for most their mental states."
   type: true-false
   answer: false
   explanation: "The Twin Earth case shows this is false. Oscar and Twin-Oscar are brain-identical but have different wide content: Oscar's 'water' refers to H₂O, Twin-Oscar's to XYZ. Wide content depends on external, environmental factors — what the internal states are causally connected to in the world — not just on intrinsic physical constitution. That is precisely the externalist insight: environment partially determines content."

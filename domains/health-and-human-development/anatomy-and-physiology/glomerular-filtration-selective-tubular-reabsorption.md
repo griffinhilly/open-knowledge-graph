@@ -67,7 +67,7 @@ Calculate glomerular filtration pressure using Starling forces. Map each nephron
   answer: true
   explanation: "ADH (vasopressin) acts on V2 receptors in collecting duct principal cells, activating a cAMP signaling cascade that causes aquaporin-2 (AQP2) vesicles to fuse with the apical membrane. This dramatically increases water permeability, allowing water to follow the osmotic gradient created by the hypertonic medulla — producing concentrated urine. In the absence of ADH (e.g., in diabetes insipidus), AQP2 channels remain in intracellular vesicles, the collecting duct is water-impermeable, and large volumes of dilute urine are produced regardless of the medullary gradient."
 
-- question: "Under normal physiological conditions, glucose appears in urine because the proximal tubule only partially reabsorbs filtered glucose, allowing the excess to pass into the final urine."
+- question: "Under normal physiological conditions, glucose appears in urine because the proximal tubule primarily partially reabsorbs filtered glucose, allowing the excess to pass into the final urine."
   type: true-false
   answer: false
   explanation: "Under normal conditions, virtually all filtered glucose is reabsorbed in the proximal convoluted tubule via sodium-glucose cotransporters (SGLT1 and SGLT2) on the apical membrane. The proximal tubule has sufficient transport capacity to reclaim 100% of the approximately 180 g of glucose filtered daily. Glucose appears in urine (glucosuria) only when plasma glucose exceeds the tubular transport maximum (~180–200 mg/dL in most individuals), overwhelming the transporter capacity. This is the physiological basis of glucosuria in uncontrolled diabetes mellitus."

@@ -48,7 +48,7 @@ Tonicization (temporary emphasis of a non-tonic pitch through applied chords) di
   answer: 1
   explanation: "A pivot chord belongs to both keys simultaneously — it is the hinge on which the modulation turns. A♭ major functions as IV in E♭ major (diatonic) and as ♭VII in B♭ major (also analyzable in that key). When the music then confirms B♭ with cadences, we recognize that the pivot was the moment of transition. This differs from tonicization because the music does not return to E♭ — B♭ becomes the sustained new tonal center."
 
-- question: "A secondary dominant chord (such as V/V) always indicates that the music has modulated to the key of its target chord."
+- question: "A secondary dominant chord (such as V/V) generally indicates that the music has modulated to the key of its target chord."
   type: true-false
   answer: false
   explanation: "A secondary dominant can either tonicize or initiate a modulation — the chord itself does not determine which. The distinction is what happens afterward: if the music quickly returns to the original key, it was a tonicization; if it settles into the new key with cadences and sustained harmonic activity, it was a modulation. V/V is one of the most common applied chords in tonal music and the vast majority of its appearances are tonicizations, not modulations."

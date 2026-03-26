@@ -51,7 +51,7 @@ Take broad interests (e.g., 'Does social media affect mood?') and iteratively re
   answer: 2
   explanation: "Option C is not falsifiable because 'sometimes' provides an escape from any disconfirming evidence. Any single observed instance of unconscious influence confirms it; no amount of evidence showing deliberate behavior could refute it, because the claim only requires the phenomenon to occur 'sometimes.' A falsifiable hypothesis must specify conditions under which data would contradict it. Options A, B, and D all predict specific, measurable effects — data showing the opposite would directly refute each of them."
 
-- question: "A directional (one-tailed) hypothesis is always preferable to a nondirectional one because it provides more statistical power."
+- question: "A directional (one-tailed) hypothesis is generally preferable to a nondirectional one because it provides more statistical power."
   type: true-false
   answer: false
   explanation: "Directional hypotheses are only appropriate when theory and prior evidence strongly support a specific direction. While it's true that a one-tailed test concentrates statistical power in one direction, using a directional hypothesis when the evidence doesn't warrant it introduces bias: you are predicting a direction for convenience or publication reasons rather than because theory demands it. The choice should be driven by the state of evidence, not statistical advantage. Using directional hypotheses simply for more power is a form of researcher bias baked in before data collection."

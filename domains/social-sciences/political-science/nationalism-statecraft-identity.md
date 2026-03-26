@@ -47,7 +47,7 @@ Nationalism is the political project of aligning national identity with state bo
   answer: 1
   explanation: "Civic nationalism defines membership by commitment to shared political institutions and values — citizenship is open to anyone who accepts those terms regardless of ancestry. Ethnic nationalism defines membership by descent, language, culture, or religion — it is based on who you are, not what you choose. The practical difference is enormous: civic nationalism can integrate diverse populations; ethnic nationalism tends toward exclusion, and in extreme cases mobilizes toward expulsion of those outside the ethnic group."
 
-- question: "The international principle of national self-determination and the principle of state sovereignty are fully compatible because states always represent their national populations."
+- question: "The international principle of national self-determination and the principle of state sovereignty are fully compatible because states typically represent their national populations."
   type: true-false
   answer: false
   explanation: "This is the central tension the topic identifies. Self-determination holds that nations deserve their own states; sovereignty holds that existing state borders are legitimate. These principles conflict whenever state borders don't match national community boundaries — which is frequent. Postcolonial states often inherited colonial borders cutting across ethnic communities. International law has never resolved this tension; it oscillates between principles depending on circumstances."

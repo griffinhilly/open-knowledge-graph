@@ -62,7 +62,7 @@ Compare the cumulative hierarchy V_α (where V_{α+1} = P(V_α), taking all subs
   answer: true
   explanation: "L has exactly the same ordinal height as V — it is 'thin' in density at each stage, not in reach. L₀ = ∅, and at each stage L_{α+1} adds only those subsets of L_α that are first-order definable, whereas V_{α+1} = P(V_α) adds all subsets. For countable α, L_{α+1} is countable while V_{α+1} is uncountable. But since L contains all ordinals (every ordinal α is constructible), L is unbounded — it just has far fewer sets at each level. This is the precise meaning of 'minimal inner model.'"
 
-- question: "V = L is a theorem of ZFC — it can be derived from the standard axioms that every set is constructible."
+- question: "V = L is a theorem of ZFC — it can be derived from the standard axioms that most set is constructible."
   type: true-false
   answer: false
   explanation: "V = L is an independent statement that cannot be proved or disproved from ZFC. Gödel showed ZFC + (V = L) is consistent (by constructing L); Cohen showed ZFC + (V ≠ L) is also consistent (by forcing). Most set theorists do not accept V = L as true, because it is incompatible with measurable cardinals and other large cardinal axioms that are widely studied. V = L is best understood as an additional axiom that produces the minimal possible set-theoretic universe — not a consequence of ZFC."

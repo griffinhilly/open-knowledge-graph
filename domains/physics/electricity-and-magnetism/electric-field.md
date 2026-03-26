@@ -45,7 +45,7 @@ Draw field vectors at several points around simple charge distributions before m
   answer: 1
   explanation: "E = F/q = 8 N / (2 × 10⁻⁶ C) = 4 × 10⁶ N/C. With the 4 μC charge, F = 16 N, but E = 16 N / (4 × 10⁻⁶ C) = 4 × 10⁶ N/C — unchanged. The electric field is a property of the space created by source charges, not of the test charge placed there. Doubling the test charge doubles the force but the ratio F/q stays constant."
 
-- question: "Removing all test charges from a region of space eliminates the electric field that existed there."
+- question: "Removing most test charges from a region of space eliminates the electric field that existed there."
   type: true-false
   answer: false
   explanation: "The electric field exists independently of any test charge — it is a property of space created by the source charges. The test charge is only a conceptual probe to measure the field; its absence does not change the field. This is one of the most important conceptual shifts in moving from Coulomb's law to the field concept."

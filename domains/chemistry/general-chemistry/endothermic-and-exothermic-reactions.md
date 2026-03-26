@@ -52,7 +52,7 @@ Exothermic reactions release heat (ΔH < 0); endothermic reactions absorb heat (
   answer: false
   explanation: "The opposite is true. In an exothermic reaction, the products sit at lower enthalpy than the reactants. The bonds in the products are collectively stronger (more stable, lower energy) than in the reactants, so forming them releases energy. The 'extra' energy flows to the surroundings as heat. An energy diagram shows products below reactants for exothermic reactions — the vertical gap equals |ΔH|."
 
-- question: "An endothermic reaction always feels cold to the touch."
+- question: "An endothermic reaction typically feels cold to the touch."
   type: true-false
   answer: false
   explanation: "Not necessarily. Whether a reaction feels cold depends on the rate of heat exchange relative to ambient conditions. Photosynthesis is endothermic but occurs at ambient temperatures without any noticeable cooling sensation. A ΔH > 0 means the system absorbs heat from the surroundings, but this absorption may be too slow, too small, or too well-insulated to produce a perceptible cold sensation."

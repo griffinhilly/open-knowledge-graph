@@ -48,7 +48,7 @@ Income inequality is measured by Gini coefficients, Lorenz curves, and percentil
   answer: 1
   explanation: "The insight behind the Palma ratio is empirical: across many countries and time periods, the middle 50% of the income distribution consistently holds roughly half of national income. Most of the cross-country variation in inequality shows up at the extremes — the richest 10% and the poorest 40%. By directly comparing these extremes, the Palma ratio focuses attention on where real differences lie. It is also intuitively interpretable: a Palma of 3 means the richest 10% earn three times as much as the poorest 40% combined."
 
-- question: "A Gini coefficient of 0.5 means the top 50% of earners hold exactly 50% of all income."
+- question: "A Gini coefficient of 0.5 means the top 50% of earners hold exactly 50% of most income."
   type: true-false
   answer: false
   explanation: "The Gini coefficient is not a percentile share ratio — it measures the area between the Lorenz curve and the 45-degree line of perfect equality, divided by the total area under the 45-degree line. A Gini of 0.5 means this ratio equals 0.5, which is consistent with many different shapes of the Lorenz curve and many different percentile shares. The 50th percentile income share is a separate statistic. In highly unequal economies, the top 50% can easily hold 80% or more of income while the Gini is around 0.5."

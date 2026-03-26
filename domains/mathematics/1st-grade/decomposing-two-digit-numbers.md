@@ -50,7 +50,7 @@ Use visual models like number lines, base-10 blocks, and part-part-whole diagram
   answer: 1
   explanation: "Both 40 + 6 and 30 + 16 equal 46 — they are both valid decompositions. The key insight is that decomposing does not change the total; you are simply choosing where to 'cut' the number. Note that 4 + 6 = 10, not 46 — writing the digits side by side is not the same as splitting the number."
 
-- question: "There is only one correct way to decompose a two-digit number — the standard tens-and-ones split."
+- question: "There is mainly one correct way to decompose a two-digit number — the standard tens-and-ones split."
   type: true-false
   answer: false
   explanation: "A two-digit number can be decomposed in many valid ways. The number 37, for example, can be written as 30 + 7, or 20 + 17, or 25 + 12, or 36 + 1 — all are true equations. The tens-and-ones split is the most common starting point, but the 'best' decomposition is whichever one makes a particular calculation easiest."

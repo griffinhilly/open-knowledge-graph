@@ -51,7 +51,7 @@ Accelerated charges radiate electromagnetic waves. Lienard-Wiechert fields separ
   answer: false
   explanation: "The near field decreases as 1/r², not 1/r. The Poynting vector (energy flux) is proportional to E × B, so for the near field it goes as 1/r⁴. Integrating over a sphere of radius r gives power ∝ r² × (1/r⁴) = 1/r² → 0 as r → ∞. The near field carries zero net energy to infinity — it's reactive energy oscillating near the charge. Only the radiation field, with 1/r dependence, produces a Poynting vector ∝ 1/r² that integrates to a constant nonzero power over any sphere."
 
-- question: "At relativistic speeds, radiation from an accelerated charge is distributed uniformly in all directions, just as in the non-relativistic case."
+- question: "At relativistic speeds, radiation from an accelerated charge is distributed uniformly in most directions, just as in the non-relativistic case."
   type: true-false
   answer: false
   explanation: "In the non-relativistic case, radiation follows a sin²θ pattern (a donut around the acceleration axis). At relativistic speeds, the radiation is concentrated strongly in the forward direction — relativistic beaming. This is why synchrotron light sources produce tightly collimated beams: relativistic electrons emit radiation mostly forward along their direction of motion. The beaming effect intensifies with increasing speed and is a direct consequence of the relativistic Liénard-Wiechert fields."

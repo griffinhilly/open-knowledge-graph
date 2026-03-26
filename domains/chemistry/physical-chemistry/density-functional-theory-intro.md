@@ -67,7 +67,7 @@ Compare DFT and HF results for the same molecules and properties (geometries, at
   answer: true
   explanation: "This is the key distinction that separates DFT's theoretical basis from its practical implementation. The theorems themselves are mathematically exact — any two systems with the same ground-state electron density have the same ground-state energy, and the true density minimizes the energy functional. The gap between theory and practice lies entirely in E_xc[ρ]: since its exact form is unknown, approximations like LDA, GGA, and hybrid functionals must be used. Calling DFT 'inherently approximate' conflates the exact theorem with the practical functional approximation."
 
-- question: "A more expensive functional (e.g., a hybrid functional) always gives more accurate results than a cheaper one (e.g., GGA) for any molecular property."
+- question: "A more expensive functional (e.g., a hybrid functional) generally gives more accurate results than a cheaper one (e.g., GGA) for any molecular property."
   type: true-false
   answer: false
   explanation: "While Jacob's ladder describes a general improvement in accuracy going from LDA → GGA → hybrid → double-hybrid, this trend is not universal across all properties and systems. For example, LDA can outperform GGA for certain solid-state properties, and hybrid functionals like B3LYP sometimes underperform PBE for metal surfaces. Dispersion-dominated systems require specialized corrections (DFT-D3, ωB97X-D) regardless of functional rung. Functional selection is problem-specific: B3LYP is reliable for organic molecules, PBE for solids, range-separated hybrids for charge-transfer systems. More expensive does not automatically mean more accurate."

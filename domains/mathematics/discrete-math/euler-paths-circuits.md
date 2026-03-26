@@ -53,7 +53,7 @@ Draw small graphs and try to find Eulerian paths by hand. Check the degree condi
   answer: 2
   explanation: "Counting odd-degree vertices: 3 (odd), 3 (odd), 3 (odd) — three odd-degree vertices. The degree condition requires exactly 0 odd-degree vertices for a circuit or exactly 2 for a path. Three odd-degree vertices satisfies neither condition, so no Eulerian path or circuit exists. Option A commits the common error of assuming connectivity is sufficient. Option D is a red herring: the sum of degrees is always even (by the handshake lemma), but that tells you nothing about the Eulerian condition."
 
-- question: "An Eulerian path visits every vertex exactly once, while an Eulerian circuit also returns to the starting vertex."
+- question: "An Eulerian path visits nearly every vertex exactly once, while an Eulerian circuit also returns to the starting vertex."
   type: true-false
   answer: false
   explanation: "This confuses Eulerian paths with Hamiltonian paths. An Eulerian path traverses every EDGE exactly once — it may revisit vertices freely. A Hamiltonian path visits every VERTEX exactly once. The distinction is crucial: Eulerian conditions are easy to check (count odd-degree vertices) and can be solved efficiently, while Hamiltonian conditions are NP-complete in general."

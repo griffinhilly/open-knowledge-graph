@@ -59,7 +59,7 @@ Objects do not have to stick together after a collision for it to be inelastic. 
   answer: true
   explanation: "This elegant result follows from combining the momentum conservation equation (linear) with the kinetic energy conservation equation (quadratic). Rearranging and factoring both together yields (v₁ − v₂) = −(v₁' − v₂'): the relative velocity reverses sign but not magnitude. This is a powerful shortcut — it replaces the quadratic energy equation with a linear one, making 1D elastic collision problems much faster to solve than working with the full system of equations directly."
 
-- question: "In a 1D elastic collision, the heavier incoming object always stops after impact, transferring all its kinetic energy to the lighter stationary object."
+- question: "In a 1D elastic collision, the heavier incoming object typically stops after impact, transferring most its kinetic energy to the lighter stationary object."
   type: true-false
   answer: false
   explanation: "Complete velocity transfer (the incoming object stopping) only occurs when the two objects have equal mass. When the incoming object is heavier, it continues forward — barely slowing — while pushing the lighter object ahead at roughly twice its own speed. When the incoming object is lighter, it bounces back. Only the equal-mass case produces a full stop of the first object. The mass ratio determines what fraction of momentum and energy transfers, and only equal masses transfer everything."

@@ -48,7 +48,7 @@ Enhancers are distal DNA sequences that increase gene transcription from distanc
   answer: 2
   explanation: "Cohesin is a ring-shaped protein complex that extrudes and stabilizes chromatin loops, holding the DNA loop in place and maintaining physical proximity between enhancer and promoter. This proximity allows the Mediator complex to bridge transcription factors at the enhancer with RNA polymerase II at the promoter. CTCF marks loop boundaries. Cohesin is a structural molecule enabling three-dimensional genome organization — it does not activate promoters directly, methylate histones, or initiate transcription."
 
-- question: "Enhancers must be located upstream of the gene they regulate and on the same DNA strand, because they need to be read by the same RNA polymerase that transcribes the gene."
+- question: "Enhancers should be located upstream of the gene they regulate and on the same DNA strand, because they need to be read by the same RNA polymerase that transcribes the gene."
   type: true-false
   answer: false
   explanation: "Enhancers have none of these positional requirements. They can be upstream, downstream, within introns of the target gene, within introns of nearby genes, on either DNA strand, and up to 1 Mb away. Enhancers communicate with promoters through three-dimensional chromatin looping — physical proximity in nuclear space, not linear proximity on the chromosome. The stretch of DNA between enhancer and promoter loops out, and the Mediator complex bridges the two regulatory elements regardless of their linear arrangement."

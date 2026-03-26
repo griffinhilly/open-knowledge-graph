@@ -52,7 +52,7 @@ Work through a two-lens problem step by step: find the image from lens 1, use it
   answer: 2
   explanation: "The virtual image from lens 1 is 8 cm to the LEFT of lens 1. Lens 2 is 5 cm to the RIGHT of lens 1. So the image is 5 + 8 = 13 cm to the left of lens 2 — a real, positive object distance for lens 2. The sign of d_i1 tells you the image is virtual (behind lens 1), but its physical position is still 8 cm to lens 1's left. Option D would apply if the image fell to the right of lens 2 (inside the lens spacing), making it a virtual object for lens 2."
 
-- question: "The total magnification of a two-lens system is always greater than the magnification of either individual lens."
+- question: "The total magnification of a two-lens system is typically greater than the magnification of either individual lens."
   type: true-false
   answer: false
   explanation: "Total magnification M = m₁ × m₂ is the product of individual magnifications, which can be greater than, equal to, or less than either factor. If m₁ = 2 and m₂ = 3, then M = 6 (greater than both). But if m₁ = 0.5 and m₂ = 0.5, then M = 0.25 (less than both). A lens with |m| < 1 reduces the image; two such lenses compound the reduction. The power of combining lenses is that magnifications multiply — both for amplification (microscopes) and reduction (camera systems)."

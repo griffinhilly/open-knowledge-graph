@@ -52,7 +52,7 @@ Implement search and sort algorithms from scratch without looking up the code. T
   answer: 0
   explanation: "Binary search halves the search space with each comparison, so it takes at most log₂(n) comparisons. log₂(1024) = 10. This is the core efficiency advantage over linear search, which would require up to 1,024 comparisons in the worst case."
 
-- question: "Insertion sort always runs in O(n log n) time regardless of the input."
+- question: "Insertion sort typically runs in O(n log n) time regardless of the input."
   type: true-false
   answer: false
   explanation: "Insertion sort is O(n²) in the worst case (reverse-sorted input), because each new element may need to be compared and swapped all the way back to the start. It is O(n) on nearly-sorted input, which makes it fast in practice for small or nearly-ordered arrays — but it is not O(n log n) in general. Algorithms like merge sort achieve O(n log n) in all cases."

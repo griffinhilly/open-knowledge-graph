@@ -52,7 +52,7 @@ Synthetic control methods construct a weighted combination of unexposed units to
   answer: true
   explanation: "This is the core validity requirement of synthetic control. The synthetic control is only a credible counterfactual if it reproduces the treated unit's pre-intervention behavior. Poor pre-period fit means the synthetic control is not tracking the same underlying trends, and post-intervention divergence cannot be attributed to the intervention. Researchers should report pre-period fit explicitly as a quality check."
 
-- question: "Synthetic control requires finding a single donor pool unit that closely resembles the treated unit across all relevant characteristics."
+- question: "Synthetic control requires finding a single donor pool unit that closely resembles the treated unit across most relevant characteristics."
   type: true-false
   answer: false
   explanation: "This is precisely what synthetic control improves upon compared to simple comparison methods. No single unit needs to resemble the treated unit — the method finds a weighted combination (the 'synthetic' control) that matches as a composite. For example, synthetic California might be 40% Texas + 35% Florida + 15% Ohio + 10% Pennsylvania. The composite does the matching work even when no individual unit is a good match alone."

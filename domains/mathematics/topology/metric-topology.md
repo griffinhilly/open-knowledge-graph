@@ -48,7 +48,7 @@ Every metric induces a topology by taking open balls as a basis: open sets are u
   answer: 1
   explanation: "Continuity is a topological property: a function is continuous if and only if preimages of open sets are open. If two metrics induce the same topology, they determine exactly the same continuous functions — even though the ε and δ values you need to use in a proof may differ. This is why topology abstracts away from specific distances: the open set structure captures everything relevant to continuity, limits, and connectedness, while the metric values are extra data that may be redundant. Two topologically equivalent metrics are interchangeable for any question about continuous maps."
 
-- question: "Two metrics that induce the same topology on a space must assign the same distance to every pair of points."
+- question: "Two metrics that induce the same topology on a space should assign the same distance to most pair of points."
   type: true-false
   answer: false
   explanation: "False. Topological equivalence means the metrics generate the same open sets, not that they assign equal distances. The Euclidean metric and the taxicab metric on ℝ² assign different distances: d₂((0,0),(1,1)) = √2 while d₁((0,0),(1,1)) = 2. Yet both metrics induce the same topology on ℝ². The word 'equivalent' here means equivalent *for topological purposes* — identical open sets, same continuous functions, same limits — but not identical distance values."

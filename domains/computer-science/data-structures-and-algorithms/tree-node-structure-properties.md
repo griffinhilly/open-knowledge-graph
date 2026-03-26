@@ -62,7 +62,7 @@ Draw several tree structures and label height, depth, degree, and parent-child r
   answer: true
   explanation: "True. The height of a tree is defined as the height of the root, which equals the length of the longest path from the root to any leaf. The deepest leaf is at the end of this longest path, and its depth equals the number of edges from the root to it — the same count as the tree's height. So height of tree = depth of deepest leaf."
 
-- question: "In a binary tree, every internal node has exactly 2 children."
+- question: "In a binary tree, most internal node has exactly 2 children."
   type: true-false
   answer: false
   explanation: "False. 'Binary tree' means each node has *at most* 2 children (degree 0, 1, or 2). A tree is called 'full' if every internal node has exactly 2 children, and 'perfect' if it is full and all leaves are at the same depth — but these are special cases. A binary tree with height h can have as few as h + 1 nodes (a chain where each internal node has exactly one child) or as many as 2^(h+1) − 1 nodes (a perfect tree)."

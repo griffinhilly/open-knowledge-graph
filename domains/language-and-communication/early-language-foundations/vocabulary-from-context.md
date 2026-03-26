@@ -58,7 +58,7 @@ Teach specific types of context clues: definition clues ("A habitat, or the plac
   answer: true
   explanation: "Research on vocabulary acquisition consistently shows that multiple encounters in varied contexts build richer, more flexible word knowledge than a single definitional lookup. Each new context adds a dimension of meaning — how the word is used in different situations, what it combines with, what tone it carries. A dictionary definition is a useful starting point, but deep word knowledge comes from accumulated exposures."
 
-- question: "Context clues can always provide the precise meaning of an unfamiliar word."
+- question: "Context clues can generally provide the precise meaning of an unfamiliar word."
   type: true-false
   answer: false
   explanation: "This is an explicit misconception from the topic. Context clues are probabilistic — they narrow down what a word might mean, often to a general sense or approximate category, but they cannot always deliver precise definitions. Technical terms (reagent, tort, asymptote) have exact meanings that context may only gesture at. Knowing the limits of context clues is as important as knowing how to use them — sometimes a dictionary or direct instruction is necessary."

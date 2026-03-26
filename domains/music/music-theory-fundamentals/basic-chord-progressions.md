@@ -59,7 +59,7 @@ Progressions must always follow function strictly (exceptions exist for expressi
   answer: true
   explanation: "In a major key, the dominant seventh chord (V7) contains the leading tone (scale degree 7), which is a half step below the tonic. This creates strong voice-leading pressure toward resolution: the leading tone 'wants' to rise a half step to the tonic, while the seventh of the chord 'wants' to fall a step to the third of I. This double resolution impulse is why the V–I cadence is so satisfying and why the dominant has the strongest directional pull of any chord function."
 
-- question: "The dominant chord (V) must always appear immediately before tonic (I) — it cannot be followed by any other chord without destroying the progression's functionality."
+- question: "The dominant chord (V) is expected to typically appear immediately before tonic (I) — it can rarely be followed by any other chord without destroying the progression's functionality."
   type: true-false
   answer: false
   explanation: "This is one of the common misconceptions the topic explicitly addresses. V can resolve deceptively to other chords (such as vi in a deceptive cadence), and IV can lead directly to I in a plagal cadence without V at all. Conventions exist and are musically meaningful, but they describe tendencies and defaults, not inviolable rules. Composers exploit these tendencies for expressive effect — a deceptive cadence (V–vi) creates surprise precisely because it withholds the expected resolution."

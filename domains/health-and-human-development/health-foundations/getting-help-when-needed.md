@@ -47,7 +47,7 @@ Create a personal "support map": have each student identify 3-5 trusted adults t
   answer: 1
   explanation: "When someone expresses thoughts of self-harm, this is a situation that is too serious and too urgent for you to handle alone. Telling a trusted adult -- a parent, teacher, or school counselor -- is not betraying your friend; it's getting them help that could save their life. Your friend may be upset initially, but connecting them with professional support is the most caring response possible. This is a clear case where the 'secret' could cause serious harm if kept."
 
-- question: "You should only ask for help when your problem is serious enough to be a real emergency."
+- question: "You should primarily ask for help when your problem is serious enough to be a real emergency."
   type: true-false
   answer: false
   explanation: "Asking for help early -- before a problem becomes a crisis -- is actually more effective and healthier. Just as you'd see a doctor for a persistent cough before it becomes pneumonia, reaching out for emotional support when you're stressed, confused, or struggling is better than waiting until you're in crisis. Help-seeking is appropriate at any level of difficulty, and catching problems early makes them easier to address."

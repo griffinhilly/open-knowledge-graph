@@ -36,7 +36,7 @@ Information asymmetry means one party has more or better information than the ot
   answer: 1
   explanation: "Moral hazard involves hidden *actions* taken after a contract is formed — the insured party changes behavior because they bear less of the risk. Adverse selection, by contrast, involves hidden *information* that exists before the contract: high-risk drivers self-select into insurance. The scenario here describes post-contract behavior change, which is moral hazard. (Deductibles and co-pays are screening tools designed to mitigate this moral hazard.)"
 
-- question: "Information asymmetry always leads to complete market failure — there is no mechanism that can restore efficiency in markets where one party has better information."
+- question: "Information asymmetry generally leads to complete market failure — there is no mechanism that can restore efficiency in markets where one party has better information."
   type: true-false
   answer: false
   explanation: "Information asymmetry creates inefficiency, but mechanisms exist to partially or fully mitigate it. Signaling (the informed party credibly reveals their type — e.g., education, warranties), screening (the uninformed party offers a menu of contracts to induce self-selection), reputation systems, and mandatory disclosure rules can all restore market function to varying degrees. Complete market unraveling (as in the pure lemons model) requires specific conditions."

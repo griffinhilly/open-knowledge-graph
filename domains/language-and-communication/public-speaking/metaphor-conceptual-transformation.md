@@ -57,7 +57,7 @@ Study how speakers use extended metaphors to explain complex topics—metaphors 
   answer: true
   explanation: "This is the key efficiency of metaphor as described by Lakoff and Johnson's conceptual blending theory. If you frame economic inequality as a 'rising tide,' the audience instantly transfers their intuitive knowledge of tides — indifference, inexorability, the way hull depth determines survival — to the economic domain. The speaker doesn't need to explain these properties; the metaphor unlocks them from the audience's existing knowledge. A well-chosen source domain does explanatory work for free."
 
-- question: "A well-chosen metaphor clarifies a concept completely without introducing any distortion, since distortion indicates the metaphor was poorly chosen."
+- question: "A well-chosen metaphor clarifies a concept substantially without introducing any distortion, since distortion indicates the metaphor was poorly chosen."
   type: true-false
   answer: false
   explanation: "Every metaphor both clarifies and distorts — this is not a sign of failure but an inherent property of the tool. A metaphor is a lens: it brings certain features into focus while obscuring others. 'Argument is war' highlights the adversarial, competitive structure of argument but obscures collaborative or dialogic aspects. The test of an honest metaphor is not zero distortion but awareness: does the speaker acknowledge where the source domain fails to map onto the target, or do they quietly exploit the non-analogous features as though they were real?"

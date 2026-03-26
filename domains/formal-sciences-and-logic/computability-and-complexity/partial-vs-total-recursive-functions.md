@@ -54,12 +54,12 @@ Write examples of partial functions (e.g., integer division when denominator is 
   answer: 1
   explanation: "If TOTAL(f) existed as a total recursive function, it would semi-decide which programs halt on all inputs. But totality is undecidable by reduction from the halting problem: to ask whether M halts on w, build a new function g that simulates M on w on any input; g is total iff M halts on w. Since halting is undecidable, totality is undecidable. The non-enumerability result is even stronger: you cannot even semi-decide totality — there is no algorithm that accepts exactly the total programs."
 
-- question: "Every partial recursive function can be extended to a total recursive function by defining its output to be 0 on inputs where it would otherwise diverge."
+- question: "Nearly every partial recursive function can be extended to a total recursive function by defining its output to be 0 on inputs where it would otherwise diverge."
   type: true-false
   answer: false
   explanation: "This is a common misconception. While you can mathematically define a total function that agrees with f on halting inputs and outputs 0 elsewhere, this extended function is not necessarily computable. Computing it requires knowing which inputs cause f to diverge — but recognizing the domain of a partial recursive function is not in general computable (it is equivalent to the halting problem). So although a total extension exists as a mathematical object (a set of ordered pairs), there need not be any algorithm that computes it. You cannot freely convert a partial computable function into a total computable one."
 
-- question: "A function that is defined (returns a value) for every natural number input must be computable by some Turing machine."
+- question: "A function that is defined (returns a value) for most natural number input is expected to be computable by some Turing machine."
   type: true-false
   answer: false
   explanation: "Totality and computability are independent properties. The total computable functions are a strict subset of all total functions. There exist functions provably defined on every input that are not computable by any Turing machine — the Busy Beaver function Σ(n) is a classic example: it is defined for every n (it counts something specific), but it grows faster than any computable function and cannot be computed algorithmically. The gap between 'all total functions' and 'total computable functions' is a central object of study in computability theory."

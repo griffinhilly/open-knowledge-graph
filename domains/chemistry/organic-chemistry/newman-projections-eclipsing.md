@@ -50,7 +50,7 @@ A Newman projection is a diagram viewed along a C-C bond showing the three group
   answer: true
   explanation: "The ~12 kJ/mol energy difference between eclipsed and staggered ethane is attributed to torsional strain — the repulsion between the filled C–H bonding orbitals (electron clouds) when they are aligned at 0° dihedral angle. This is not steric strain (the H atoms are small and not physically colliding); it is a quantum mechanical effect from electron pair repulsion between parallel-aligned bonds."
 
-- question: "Because the anti conformation of butane is the most stable staggered form, all staggered conformations of butane are equivalent in energy."
+- question: "Because the anti conformation of butane is the most stable staggered form, most staggered conformations of butane are equivalent in energy."
   type: true-false
   answer: false
   explanation: "Butane has two distinct staggered conformations: anti (methyl groups at 180°, the global minimum) and gauche (methyl groups at 60°, a local minimum ~3.8 kJ/mol higher). The gauche penalty arises from steric repulsion between the two methyl groups. Not all staggered conformations are equivalent — the identity of the groups at each carbon determines their relative energies, making the distinction between anti and gauche essential for conformational analysis."

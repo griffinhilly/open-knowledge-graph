@@ -53,7 +53,7 @@ Landscapes are texts that can be read to understand how cultural values, power r
   answer: true
   explanation: "Correct. Landscape interpretation attends to layered histories — what a place looks like now may obscure what was done to create it. Urban parks have often been built by clearing informal settlements, encampments, or working-class neighborhoods. The pleasant surface of a park is the present landscape; reading against it means recovering the prior landscape and the decisions (often coercive) that produced the current one. Both readings are simultaneously true."
 
-- question: "Cultural landscapes are neutral physical environments that become politically charged only when people choose to interpret them that way."
+- question: "Cultural landscapes are neutral physical environments that become politically charged mainly when people choose to interpret them that way."
   type: true-false
   answer: false
   explanation: "This reverses the key insight. Landscapes are not neutral prior to interpretation — they are already encoded with values, power relations, and social histories from the moment they are shaped. A plantation layout, a colonial grid, a suburban zoning pattern — these are not neutral arrangements that become political under interpretation; they were political acts when produced and continue to structure inequality in the present. Interpretation reveals the politics already built into the landscape, rather than imposing politics from outside."

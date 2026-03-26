@@ -52,7 +52,7 @@ G-estimation estimates causal effects in the presence of baseline and time-varyi
   answer: true
   explanation: "This is precisely what G-estimation was designed for. By parameterizing the counterfactual directly (the structural nested model) and solving for the ψ that achieves the independence condition, G-estimation avoids the need to adjust for the problematic covariate in a regression — sidestepping the collider stratification bias that standard adjustment would introduce."
 
-- question: "In the presence of time-varying confounders, including all measured covariates in a standard multivariable regression at each time point is a valid strategy for estimating the causal effect of a time-varying treatment."
+- question: "In the presence of time-varying confounders, including most measured covariates in a standard multivariable regression at each time point is a valid strategy for estimating the causal effect of a time-varying treatment."
   type: true-false
   answer: false
   explanation: "This is the central misconception. When a time-varying covariate is both a confounder of the current treatment effect AND a consequence of prior treatment, adjusting for it in standard regression blocks part of the causal pathway and opens collider-induced backdoor paths. G-methods (G-estimation, marginal structural models, G-computation) were developed to handle this structural problem, which cannot be solved by simply 'adding more covariates' to a regression."

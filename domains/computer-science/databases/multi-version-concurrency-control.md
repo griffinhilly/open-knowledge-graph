@@ -56,7 +56,7 @@ MVCC still prevents write-write conflicts via locking; it only eliminates read-w
   answer: true
   explanation: "This is a real and important operational concern. MVCC garbage collection (VACUUM in PostgreSQL) can only reclaim a row version when no active transaction has a snapshot older than that version. A long-running analytical query that holds an old snapshot prevents the database from reclaiming any versions created after its snapshot time. This causes 'table bloat' — the table grows on disk even if rows are being deleted — and can severely degrade performance. It's one of the key reasons why long-running transactions are problematic in MVCC databases."
 
-- question: "MVCC completely eliminates the need for any locking in the database."
+- question: "MVCC substantially eliminates the need for any locking in the database."
   type: true-false
   answer: false
   explanation: "MVCC eliminates read-write locking — readers and writers no longer block each other. But write-write conflicts still require locking or conflict detection. When two transactions try to modify the same row, the database must serialize them. Additionally, DDL operations (schema changes), certain isolation levels (serializable), and explicit user-level locks (SELECT FOR UPDATE) still involve traditional locking. MVCC's promise is specifically that reads do not block writes and vice versa — not that locks disappear entirely."

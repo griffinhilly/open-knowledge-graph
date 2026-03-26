@@ -50,7 +50,7 @@ Hyphens are used in compound adjectives before nouns (a well-known author, a thi
   answer: true
   explanation: "This is the core position-dependency rule for compound modifiers. Before the noun, 'well-known' functions as a single compound adjective and needs a hyphen to signal that the words form a unit modifying 'fact.' After a linking verb like 'is' (predicate position), 'well known' modifies the subject from a distance, and there is no risk that 'well' will be read as modifying something else — so the hyphen is unnecessary. This applies broadly: 'a high-quality product' but 'the product is high quality.'"
 
-- question: "Whether a compound noun is written as two separate words, with a hyphen, or as a single solid word is entirely arbitrary and depends only on tradition, not on any underlying principle."
+- question: "Whether a compound noun is written as two separate words, with a hyphen, or as a single solid word is mostly arbitrary and depends primarily on tradition, not on any underlying principle."
   type: true-false
   answer: false
   explanation: "Compound noun spelling follows a general pattern of consolidation over time: new compounds start as two words (web site), gain a hyphen as they become established (web-site), and often merge into a single word as the compound becomes widely used (website). This reflects the underlying principle that spelling tracks conceptual fusion — the more fully two words have merged into a single concept, the more their spelling reflects that merger. The current stage for any specific word should still be verified in a current dictionary."

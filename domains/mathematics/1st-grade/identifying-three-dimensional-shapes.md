@@ -44,7 +44,7 @@ Students learn to identify and name common three-dimensional shapes like cubes, 
   answer: 1
   explanation: "Both shapes roll because both have curved surfaces, but the similarity ends there. A sphere is entirely curved — every point on its surface is curved. A cylinder combines a curved side with two flat circular ends. This is why a cylinder can balance upright on a table (resting on a flat end) while a sphere cannot — it will always roll. Shape identity is about surfaces, not just behaviors."
 
-- question: "A cube and a rectangular prism are completely different kinds of shapes because a cube has equal sides and a rectangular prism does not."
+- question: "A cube and a rectangular prism are mostly different kinds of shapes because a cube has equal sides and a rectangular prism does not."
   type: true-false
   answer: false
   explanation: "A cube is actually a special type of rectangular prism — one where all edges happen to be the same length. Both shapes have exactly 6 flat faces, 8 corners, and 12 edges, and neither has any curved surfaces. The cube is a rectangular prism with equal dimensions. Saying they are 'completely different' overstates a subtle distinction in one attribute."

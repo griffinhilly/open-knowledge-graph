@@ -44,7 +44,7 @@ Entangled states cannot be written as products of individual particle states. A 
   answer: 1
   explanation: "Entanglement is a resource because it has a cost: local operations and classical communication (LOCC) cannot create entanglement from an unentangled state. It must be manufactured through physical interaction, protected against decoherence, and consumed when used. Quantum teleportation uses up a pre-shared entangled pair to transmit a quantum state. Option C is false — entanglement cannot enable FTL communication. Option D contradicts the no-cloning theorem, which prohibits copying arbitrary quantum states."
 
-- question: "An entangled pair of particles can always be described by giving each particle its own individual quantum state."
+- question: "An entangled pair of particles can generally be described by giving each particle its own individual quantum state."
   type: true-false
   answer: false
   explanation: "This is the defining feature of entanglement: an entangled state cannot be written as a product of individual particle states. The Bell state (1/√2)(|↑↓⟩ + |↓↑⟩) has no separate description for each particle — the state is irreducibly joint. This distinguishes entanglement from classical correlation: in a classical pair, each object still has its own definite properties. In an entangled pair, neither particle has a definite state until measured."

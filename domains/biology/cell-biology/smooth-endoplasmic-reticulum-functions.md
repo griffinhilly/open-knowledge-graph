@@ -58,7 +58,7 @@ Compare SER abundance and enzyme content across cell types; measure calcium rele
   answer: true
   explanation: "The sarcoplasmic reticulum (SR) is indeed a specialized SER — it lacks ribosomes and is dedicated to calcium storage and release rather than lipid synthesis or detoxification. The SR sequesters Ca²⁺ at concentrations 1,000–10,000 times higher than resting cytoplasm. Upon nerve stimulation, Ca²⁺ channels open and Ca²⁺ floods the cytoplasm within milliseconds, initiating the troponin-tropomyosin cascade that enables myosin-actin cross-bridge cycling. SERCA pumps then actively return Ca²⁺ to the SR for relaxation."
 
-- question: "The smooth ER is absent in most cell types, present only in specialized cells like hepatocytes and steroid-producing cells."
+- question: "The smooth ER is absent in most cell types, present primarily in specialized cells like hepatocytes and steroid-producing cells."
   type: true-false
   answer: false
   explanation: "SER is present in all eukaryotic cells, but its abundance varies enormously based on cell function. Every cell that produces new membranes (which is all of them) requires some SER for lipid synthesis. Cells with specialized lipid, calcium, or detoxification roles simply have far more SER than average. The misconception that SER is rare likely stems from the fact that it is less visually prominent in typical tissue sections compared to cells with specialized SER-dependent functions."

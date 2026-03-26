@@ -52,7 +52,7 @@ Test luminosity with subtle mental state differences: can you always detect when
   answer: 2
   explanation: "Williamson's key move is the margin-for-error requirement: you know P only if, in situations relevantly similar to the current one, you would still believe P and it would still be true. At the threshold of warmth, the immediately adjacent moments are ones where you are no longer warm — but by hypothesis, you cannot detect the difference, so you still believe you are warm. This means your belief is unsafe: nearby it is false while you still hold it. Therefore it doesn't qualify as knowledge, even though in this very moment it happens to be true."
 
-- question: "Rejecting luminosity entails that introspection is entirely unreliable and provides no epistemic access to one's own mental states."
+- question: "Rejecting luminosity entails that introspection is mostly unreliable and provides no epistemic access to one's own mental states."
   type: true-false
   answer: false
   explanation: "This is an overreaction that Williamson explicitly avoids. Rejecting luminosity means only that introspection is not *infallible* or *perfectly privileged* — it is subject to the same kinds of margins-for-error and reliability constraints as perception. Introspection can still be a generally reliable guide to one's mental states without being an authoritative, error-proof source. The result is that self-knowledge is more like perceptual knowledge than traditional epistemology assumed, not that it is useless."

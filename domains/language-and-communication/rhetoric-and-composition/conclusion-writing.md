@@ -54,7 +54,7 @@ Read a body of an essay and write the conclusion before seeing the author's vers
   answer: 2
   explanation: "Option C answers 'so what?' by connecting the specific literary argument to a broader human condition and a contemporary parallel — it opens the essay onto something larger rather than restating what was already proven. Options A and B are summary moves that restate the argument without extending its significance. Option D simply acknowledges complexity without generating any new insight or implication."
 
-- question: "A strong conclusion should never introduce any new ideas, since all new content belongs in the body paragraphs."
+- question: "A strong conclusion should rarely introduce any new ideas, since most new content belongs in the body paragraphs."
   type: true-false
   answer: false
   explanation: "This is a common but imprecise rule. What conclusions must not introduce is new *supporting evidence* — that material belongs in the body. But raising new *questions*, *implications*, or connections that follow logically from the argument is not only acceptable but desirable. A conclusion that ends by posing a question made newly urgent by the essay's argument demonstrates intellectual ambition, not a structural error."

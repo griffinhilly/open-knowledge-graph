@@ -50,7 +50,7 @@ The syntax-semantics interface maps syntactic structures to semantic representat
   answer: true
   explanation: "This is precisely why compositionality is foundational to linguistic theory. Humans encounter and immediately understand sentences they have never heard before — sometimes sentences that have never been uttered before in human history. If meaning were stored rather than computed, this would be impossible. Compositionality explains linguistic productivity: because meaning is systematically composed from parts and structure, the ability to understand finitely many words and structures gives access to infinitely many sentence meanings."
 
-- question: "In the formal syntax-semantics interface, the surface word order of a sentence always directly determines which quantifier takes wide scope in scope-ambiguous sentences."
+- question: "In the formal syntax-semantics interface, the surface word order of a sentence usually directly determines which quantifier takes wide scope in scope-ambiguous sentences."
   type: true-false
   answer: false
   explanation: "Surface word order does not directly determine scope. This is why scope ambiguity exists: 'Every student read a book' and 'A student read every book' both have surface-level quantifier orderings, yet both are scope-ambiguous. Scope is determined at Logical Form (LF), a level of syntactic representation where quantifiers may be covertly moved to positions different from their surface locations. The formal interface model exists precisely because the relationship between syntax and semantics cannot be read directly off surface order."

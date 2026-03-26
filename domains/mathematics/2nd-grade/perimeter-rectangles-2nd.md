@@ -48,7 +48,7 @@ Perimeter is the distance around a shape. To find the perimeter of a rectangle, 
   answer: true
   explanation: "Perimeter is the total distance around the outside of a shape — the sum of all side lengths. For a rectangle, that means adding both lengths and both widths. Because opposite sides are equal, this simplifies to length + width + length + width, but the key principle is that all four sides contribute. Counting only two sides gives the perimeter of half the rectangle, not the whole."
 
-- question: "For a rectangle, you only need to add the length and width once (not twice) to find the perimeter, because adding twice would count the shape twice."
+- question: "For a rectangle, you primarily need to add the length and width once (not twice) to find the perimeter, because adding twice would count the shape twice."
   type: true-false
   answer: false
   explanation: "Adding length + width gives only half the perimeter — the distance along two sides. To walk completely around the rectangle, you travel both lengths and both widths. The correct calculation is length + width + length + width (or equivalently, 2 × length + 2 × width). The shortcut 'multiply each side by 2 and add' works precisely because opposite sides are equal, but it still accounts for all four sides."

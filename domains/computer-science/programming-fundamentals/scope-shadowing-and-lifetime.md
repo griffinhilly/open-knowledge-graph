@@ -51,7 +51,7 @@ That global variables are accessible everywhere (scope rules apply); that local 
   answer: 1
   explanation: "For a local variable declared inside a block, both scope (visibility) and lifetime (memory existence) end when the block ends. The variable is both inaccessible AND destroyed. Option A is wrong — the language does not merely make the value undefined, the name binding ceases to exist. Option C conflates scope with lifetime — for stack-allocated locals, both end together. Option D describes the behavior of a function-scoped variable, not a block-scoped one."
 
-- question: "A variable's scope and its lifetime are always identical — they both start and end at the same points in program execution."
+- question: "A variable's scope and its lifetime are generally identical — they both start and end at the same points in program execution."
   type: true-false
   answer: false
   explanation: "Scope and lifetime can diverge. In garbage-collected languages, an object's lifetime can extend beyond the scope of the variable that created it — as long as other references to it exist, the object persists. Conversely, in C, returning a pointer to a local variable creates a situation where the pointer variable (in the caller) is in scope, but the object it references has been destroyed (its lifetime ended when the callee returned). These are classic examples of scope-lifetime divergence."

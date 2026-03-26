@@ -47,7 +47,7 @@ A damped oscillator experiences a restoring force (−kx) and velocity-dependent
   answer: 1
   explanation: "Critical damping produces the fastest return to equilibrium without any oscillation. Underdamped systems oscillate (the door would bounce). Overdamped systems return without oscillating but more slowly than critically damped. Door closers and galvanometers are engineered to be critically damped for exactly this reason."
 
-- question: "Increasing the damping coefficient of an oscillator always makes it return to equilibrium faster."
+- question: "Increasing the damping coefficient of an oscillator generally makes it return to equilibrium faster."
   type: true-false
   answer: false
   explanation: "Critical damping is the optimal point — it produces the fastest return without oscillation. Adding damping beyond the critical value produces an overdamped system, which returns to equilibrium more slowly. So increasing damping helps only up to the critical threshold; beyond that, it makes the system sluggish."

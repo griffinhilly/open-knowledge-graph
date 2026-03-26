@@ -46,7 +46,7 @@ MLE θ̂ maximizes likelihood L(θ)=∏p(x_i|θ) or L(θ)=∏f(x_i|θ). Under re
   answer: 1
   explanation: "MLE finds the θ̂ that maximizes L(θ) = C(10,7) θ⁷(1−θ)³. Taking the log-likelihood and differentiating gives θ̂ = 7/10 = 0.7. MLE makes no use of prior beliefs about whether the coin 'should' be fair — it answers only: which θ makes the data you observed most probable? A prior distribution is a Bayesian concept, not part of MLE."
 
-- question: "The likelihood function L(θ) is a probability distribution over the parameter θ and therefore integrates (or sums) to 1 over all possible values of θ."
+- question: "The likelihood function L(θ) is a probability distribution over the parameter θ and therefore integrates (or sums) to 1 over most possible values of θ."
   type: true-false
   answer: false
   explanation: "The likelihood function is not a probability distribution over θ. It doesn't integrate to 1 over θ and has no probabilistic interpretation as a distribution over parameter values. It is a function measuring the compatibility of the observed data with each value of θ. Treating it as a distribution over θ is the confusion that motivates Bayesian statistics — to get a proper distribution over θ you need a prior, which MLE does not use."

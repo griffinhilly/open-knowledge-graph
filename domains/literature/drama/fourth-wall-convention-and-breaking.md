@@ -57,7 +57,7 @@ The fourth wall is not a literal wall—it's a psychological contract. Also, dir
   answer: true
   explanation: "True. This is the foundational insight. The fourth wall exists because everyone present — audience and performers — implicitly agrees to pretend it does. That shared agreement is what makes breaking it meaningful: you can only violate a contract that actually exists. There is no literal wall; there is only the mutually maintained fiction of one."
 
-- question: "Breaking the fourth wall always disrupts audience immersion and reminds viewers they are watching a performance."
+- question: "Breaking the fourth wall generally disrupts audience immersion and reminds viewers they are watching a performance."
   type: true-false
   answer: false
   explanation: "False. The effect depends entirely on context and execution. Shakespeare's epilogues use direct address to create graceful closure and invite the audience's goodwill — not disruption. Puck's 'If we shadows have offended...' is expected, warm, and transitional. Direct address can create intimacy, complicity, irony, metatheatrical commentary, or disruption — what determines the result is what kind of contract existed beforehand and how the break is executed."

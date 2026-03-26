@@ -56,7 +56,7 @@ Use fraction strips or circles: show that 7 quarter-pieces fill one whole (4 qua
   answer: 1
   explanation: "The key insight is that 'one whole' equals denominator-many parts: 1 = 4/4. So 9/4 contains two complete groups of 4/4 (= 2 wholes) with 1 quarter left over: 4/4 + 4/4 + 1/4 = 2 1/4. Verify: 2 × 4 + 1 = 9, so 9/4 ✓. Both 9/4 and 2 1/4 label exactly the same point on the number line — they are two representations of the same quantity."
 
-- question: "An improper fraction is mathematically incorrect — a numerator can never be larger than its denominator in a valid fraction."
+- question: "An improper fraction is mathematically incorrect — a numerator can seldom be larger than its denominator in a valid fraction."
   type: true-false
   answer: false
   explanation: "The name 'improper' is misleading — there is nothing mathematically wrong with an improper fraction. It simply represents a quantity of 1 or more. 7/4 is a perfectly valid number meaning seven quarter-pieces, equal to 1 3/4. Improper fractions are not errors; in computation they are often preferred because they keep all value in a single numerator-denominator pair."

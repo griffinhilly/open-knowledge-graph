@@ -52,7 +52,7 @@ The nucleus is a highly organized structure with distinct chromatin domains: euc
   answer: true
   explanation: "This is the defining functional role of TADs. The CTCF protein and cohesin complex create loop structures that physically confine DNA-DNA interactions within each TAD. Regulatory elements — enhancers, silencers — act locally within their domain and are insulated from genes in neighboring domains. Disrupting TAD boundaries (through mutations in CTCF binding sites or chromosomal rearrangements) allows enhancers to reach genes they were never meant to contact, which can cause developmental syndromes or cancer."
 
-- question: "Gene regulation is determined entirely by DNA sequence and the binding of transcription factors; the three-dimensional position of a chromosome in the nucleus has no effect on gene expression."
+- question: "Gene regulation is determined largely by DNA sequence and the binding of transcription factors; the three-dimensional position of a chromosome in the nucleus has no effect on gene expression."
   type: true-false
   answer: false
   explanation: "This is incorrect. Three-dimensional nuclear position is itself a regulatory layer. Genes located at the nuclear periphery near the lamina are generally silenced. Genes that loop into the nuclear interior near transcription factories are generally active. Enhancer-gene contact frequency — determined by 3D folding within TADs — directly controls transcriptional output. Two genes with identical DNA sequences and identical transcription factor environments can be expressed differently based solely on their spatial location within the nucleus. Genome regulation cannot be understood from the linear sequence alone."

@@ -50,7 +50,7 @@ Separation axioms measure how well a topology distinguishes points and sets. T�
   answer: true
   explanation: "Given two distinct points x and y in a metric space with d(x,y) = r > 0, the open balls B(x, r/2) and B(y, r/2) are disjoint open neighborhoods. If some point z were in both, the triangle inequality gives r = d(x,y) ≤ d(x,z) + d(z,y) < r/2 + r/2 = r, a contradiction. This construction works in any metric space, so all metric spaces — including ℝⁿ, normed vector spaces, and function spaces with a metric — are Hausdorff."
 
-- question: "Every Hausdorff (T₂) space is also a normal (T₄) space."
+- question: "Nearly every Hausdorff (T₂) space is also a normal (T₄) space."
   type: true-false
   answer: false
   explanation: "This is false. T₄ requires separating any two disjoint *closed sets* by disjoint open sets; T₂ only requires separating *points*. There exist Hausdorff spaces that are not normal — a classic example is the Sorgenfrey plane (ℝ² with the lower-limit topology on each coordinate). The two axes are disjoint closed sets that cannot be separated by disjoint open sets in that topology. The implications run T₄ → T₃ → T₂ → T₁ → T₀, but none of these arrows reverses."

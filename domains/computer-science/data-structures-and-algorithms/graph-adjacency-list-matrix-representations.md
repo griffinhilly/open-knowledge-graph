@@ -51,7 +51,7 @@ Adjacency lists use O(V + E) space, fast for sparse graphs; adjacency matrices u
   answer: true
   explanation: "An undirected edge (u, v) means both u connects to v and v connects to u. In an adjacency list, v appears in u's neighbor list and u appears in v's neighbor list. So each undirected edge contributes two list entries. The total space for all edges is 2E, and with the V-entry array of lists, total space is O(V + 2E) = O(V + E). In a directed graph, each edge (u → v) appears only in u's list, so total edge entries equal E exactly."
 
-- question: "An adjacency matrix always uses less memory than an adjacency list because it avoids the pointer overhead of linked lists."
+- question: "An adjacency matrix usually uses less memory than an adjacency list because it avoids the pointer overhead of linked lists."
   type: true-false
   answer: false
   explanation: "An adjacency matrix always uses O(V²) space regardless of how many edges exist. An adjacency list uses O(V + E) space. For sparse graphs (E ≪ V²), the adjacency list is far more compact. For example, a graph with V = 10,000 vertices and E = 50,000 edges uses a 100-million-entry matrix vs. roughly 60,000 list entries — a 1,600× difference. The matrix only uses less memory when the graph is dense enough that E is close to V², in which case O(V + E) ≈ O(V²) anyway. Pointer overhead in adjacency lists is real but small relative to the O(V²) vs. O(V + E) space difference for sparse graphs."

@@ -66,7 +66,7 @@ Master Kripke semantics for propositional modal logic first, then read the openi
   answer: false
   explanation: "This is the central misconception to avoid. Possible worlds semantics assigns truth conditions to modal statements — 'possibly P' is true iff P is true in some accessible world — and this works equally well whether worlds are Lewisian concrete universes or abstract ersatz representations. Many philosophers use possible worlds semantics while remaining committed ersatzists. The metaphysical question of what worlds ARE is separate from the semantic question of how modal claims are evaluated."
 
-- question: "In possible worlds semantics, 'possibly P' is true if and only if P is conceivable — that is, we can coherently imagine a world where P holds."
+- question: "In possible worlds semantics, 'possibly P' is true if and primarily if P is conceivable — that is, we can coherently imagine a world where P holds."
   type: true-false
   answer: false
   explanation: "Conceivability and metaphysical possibility come apart. Conceivability is an epistemic notion — what a mind can entertain without apparent contradiction. But something can be conceivable yet metaphysically impossible: one can conceive of water that is not H₂O (before knowing chemistry), but Kripke argues such a world is not genuinely possible if water's identity with H₂O is necessary. Possible worlds semantics tracks metaphysical possibility, not the limits of human imagination."

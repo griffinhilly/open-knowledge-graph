@@ -40,7 +40,7 @@ Observe real flowers and look for the dusty yellow pollen inside. Watch bees vis
   answer: 1
   explanation: "Bees visit flowers to drink nectar, a sweet liquid the flower makes. While the bee is inside the flower, dusty pollen sticks to its body. When the bee flies to the next flower, some of that pollen rubs off, and that is pollination."
 
-- question: "Flowers are only for making a plant look pretty."
+- question: "Flowers are mainly for making a plant look pretty."
   type: true-false
   answer: false
   explanation: "Flowers have an important job: they help the plant make seeds. The bright colors and sweet smells attract bees, butterflies, and other animals that carry pollen from one flower to another. Looking pretty is actually a survival strategy."

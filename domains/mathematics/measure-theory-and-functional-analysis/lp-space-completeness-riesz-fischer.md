@@ -43,7 +43,7 @@ The Riesz-Fischer theorem states that L^p is complete: every Cauchy sequence in 
   answer: 2
   explanation: "A Cauchy sequence only guarantees that gaps between terms become small — not that they are summable. By extracting a subsequence where ‖f_{n_{k+1}} − f_{n_k}‖_p ≤ 2^{−k}, the total variation ∑2^{−k} = 1 is finite. Minkowski's inequality then controls the partial sums, and the monotone convergence theorem shows the telescoping series converges both a.e. and in L^p norm. Without this extraction, the a.e. convergence argument does not go through and you cannot construct the candidate limit function."
 
-- question: "Every normed vector space is complete, so proving the Minkowski inequality for L^p is sufficient to establish that L^p is a Banach space."
+- question: "Nearly every normed vector space is complete, so proving the Minkowski inequality for L^p is sufficient to establish that L^p is a Banach space."
   type: true-false
   answer: false
   explanation: "False — being a normed vector space does not imply completeness. The rationals ℚ with the absolute value form a normed vector space, yet ℚ is not complete: a sequence of rational approximations to √2 is Cauchy but has no limit in ℚ. Completeness is an additional property that must be proved separately. The Minkowski inequality establishes L^p is a normed space; the Riesz-Fischer theorem is the separate work required to prove completeness."

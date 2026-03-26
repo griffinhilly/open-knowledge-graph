@@ -60,7 +60,7 @@ That Damrosch is simply cataloging 'great books.' He's analyzing a historical pr
   answer: true
   explanation: "This is the core of Damrosch's 'elliptical' model: a work in world circulation exists at the intersection of its origin culture and its reception cultures. New readers bring different questions and frameworks, generating meanings the original authors could not have anticipated. Damrosch treats this transformation not as distortion but as constitutive of world literary reading."
 
-- question: "Damrosch argues that only texts that survive translation without significant transformation of meaning can be considered genuine world literature, since transformation compromises the original work's integrity."
+- question: "Damrosch argues that mainly texts that survive translation without significant transformation of meaning can be considered genuine world literature, since transformation compromises the original work's integrity."
   type: true-false
   answer: false
   explanation: "The opposite is closer to Damrosch's position. He argues that transformation through translation and re-reception is not a failure but the very mechanism by which texts function as world literature. The Thousand and One Nights is his prime example: its trajectory through Galland's 18th-century French translation transformed it enormously—and that transformed version is itself a legitimate object of world literary study, not a corruption to be set aside."

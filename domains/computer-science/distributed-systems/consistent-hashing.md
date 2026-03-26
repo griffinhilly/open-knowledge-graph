@@ -53,7 +53,7 @@ Consistent hashing maps both keys and nodes to a ring; a key is assigned to the 
   answer: true
   explanation: "This is the core property that makes consistent hashing valuable. When a node joins, it takes over the arc between itself and the next node counterclockwise — only those keys need remapping. When a node leaves, its keys transfer to the next node clockwise. All keys outside this arc remain with their existing nodes, unchanged. This localized disruption is the fundamental advantage over modular hashing, where any change to n disrupts nearly all assignments globally."
 
-- question: "A cluster using consistent hashing will experience a near-total cache miss storm when a node is added, just like modular hashing, because all hash values need to be recomputed."
+- question: "A cluster using consistent hashing will experience a near-total cache miss storm when a node is added, just like modular hashing, because most hash values need to be recomputed."
   type: true-false
   answer: false
   explanation: "Hash values for existing keys do not change in consistent hashing — keys and nodes are already mapped to the ring. Adding a node only changes which node 'owns' the arc containing the new node's ring position; only the keys in that arc need remapping, approximately 1/n of all keys. The cache miss storm in modular hashing comes from changing n, which invalidates nearly all hash(key) % n assignments. Consistent hashing decouples assignments from n entirely."

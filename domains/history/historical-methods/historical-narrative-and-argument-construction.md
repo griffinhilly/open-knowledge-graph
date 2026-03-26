@@ -48,7 +48,7 @@ Historical writing is a craft: you must organize evidence into an argument, choo
   answer: 1
   explanation: "A thematic structure is better here. The argument concerns multiple dimensions of change operating simultaneously over a long time span — exactly when organizing around analytical categories is most illuminating. A strict chronological structure would require jumping between topics within each time period, making it hard to trace each analytical thread. The comparative structure is inappropriate because the argument is not about comparing England to another case. The test is always: which structure best serves the specific argument being made?"
 
-- question: "A good historical thesis is one that all historians, after examining the evidence carefully, would agree is correct."
+- question: "A good historical thesis is one that most historians, after examining the evidence carefully, would agree is correct."
   type: true-false
   answer: false
   explanation: "A thesis must be a claim that could in principle be wrong — one that a reasonable historian could dispute. A statement that every informed historian agrees with after examining the evidence has ceased to function as a thesis; it has become an established fact. Strong theses are inherently contestable: they make interpretive claims about causation, relative importance, or significance that evidence can support but not conclusively prove. Universal agreement is a sign the claim is either an uncontroversial fact or too vague to evaluate."

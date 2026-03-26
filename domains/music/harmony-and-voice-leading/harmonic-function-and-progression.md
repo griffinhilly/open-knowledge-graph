@@ -60,7 +60,7 @@ A V chord does not always resolve to I; context and function matter. Not all I c
   answer: false
   explanation: "V7 → vi is a deceptive cadence, but V7 still expresses dominant function. The dominant chord creates tension and expectation; the deceptive resolution to vi sidesteps that expectation rather than canceling the underlying function. The vi chord substitutes for I (they share two common tones) and temporarily defuses the tension, but it is precisely V7's dominant function that makes the deception effective — the listener expects I and gets vi. Function is a property of the chord's position and behavior, not only its resolution target."
 
-- question: "A I chord always provides a complete sense of rest and stability whenever it appears in a progression."
+- question: "A I chord generally provides a complete sense of rest and stability whenever it appears in a progression."
   type: true-false
   answer: false
   explanation: "Context and voice leading dramatically affect how stable a I chord feels. A I chord in first inversion (third in the bass) feels less stable than root-position I. A I chord arriving mid-phrase may feel like a momentary landing rather than a final cadence. The Common Misconceptions note directly states that 'not all I chords feel equally tonic.' Tonic function is contextual, not automatic — the same chord can feel conclusive or provisional depending on what surrounds it."

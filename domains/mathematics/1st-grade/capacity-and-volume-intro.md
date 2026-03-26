@@ -47,7 +47,7 @@ Capacity is how much a container holds. Students compare containers by filling a
   answer: 2
   explanation: "Capacity describes how much a container can hold — the space inside it. Height, weight, and shape are related attributes but they are not capacity. 'How much can it hold?' is the defining capacity question, and the answer always refers to the amount that fits inside."
 
-- question: "A tall container always holds more than a short container."
+- question: "A tall container usually holds more than a short container."
   type: true-false
   answer: false
   explanation: "A tall, thin container can hold less than a short, wide one. Capacity depends on the size of the inside space in all three dimensions, not just height. This is why looking at containers is unreliable — you have to fill and pour to find out which holds more."

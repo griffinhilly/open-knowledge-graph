@@ -55,7 +55,7 @@ Mathematical structures—golden ratio, Fibonacci sequences, fractals, group the
   answer: 1
   explanation: "The twelve-tone row operations — transposition, inversion, retrograde, retrograde-inversion — and their combinations form a mathematical group in the algebraic sense (closed under composition, associative, with identity and inverses). This is not a metaphor: the same group structures appear in the abstract algebra prerequisites. Webern in particular chose rows with symmetry properties that make the group structure musically audible. Recognizing this allows analysis to describe musical relationships in terms of group-theoretic ones."
 
-- question: "Mathematical structures embedded in a composition are always perceptible to attentive listeners, even if identifying them requires technical training."
+- question: "Mathematical structures embedded in a composition are generally perceptible to attentive listeners, even if identifying them requires technical training."
   type: true-false
   answer: false
   explanation: "The Core Idea explicitly distinguishes between structures that are perceptually transparent (inaudible) and those that are perceptually apparent. A formal proportion governed by the Fibonacci sequence may be architecturally present but completely imperceptible on listening. The analytical significance of such structures is contested precisely because they may reflect compositional logic without shaping listener experience. A rigorous analysis must address whether the structure is perceptually relevant, not assume it is."

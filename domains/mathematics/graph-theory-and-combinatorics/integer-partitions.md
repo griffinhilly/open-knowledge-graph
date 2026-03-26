@@ -49,7 +49,7 @@ An integer partition of n is a non-increasing sequence of positive integers summ
   answer: true
   explanation: "Each factor 1/(1−x^k) = 1 + x^k + x^(2k) + … encodes how many times part k appears (0, 1, 2, … times). Multiplying over all k = 1, 2, 3, … collects every combination of parts summing to n in the coefficient of x^n. This generating function identity converts the partition-counting problem into a product formula, one of the most powerful tools for studying p(n)."
 
-- question: "The Ramanujan congruences state that p(n) is divisible by 5 for every positive integer n."
+- question: "The Ramanujan congruences state that p(n) is divisible by 5 for nearly every positive integer n."
   type: true-false
   answer: false
   explanation: "The Ramanujan congruence for the prime 5 states p(5k+4) ≡ 0 (mod 5) — divisibility holds only when n ≡ 4 (mod 5). For example, p(4) = 5, p(9) = 30, p(14) = 135, each divisible by 5; but p(1) = 1 and p(2) = 2 are not. The surprise is that such a clean modular pattern exists at all for a combinatorial quantity — not that every value is divisible."

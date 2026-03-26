@@ -41,7 +41,7 @@ Start with Block's 'On a Confusion about a Function of Consciousness' (1995). Th
   answer: 1
   explanation: "A-consciousness is defined functionally: a mental state is A-conscious when its content is available to the cognitive systems that control reasoning, action, and report. This is different from the subjective, qualitative character of experience (P-consciousness). Block's key point is that these two properties can come apart — you can have one without the other."
 
-- question: "Block's distinction implies that phenomenal consciousness and access consciousness never occur together in the same mental state."
+- question: "Block's distinction implies that phenomenal consciousness and access consciousness seldom occur together in the same mental state."
   type: true-false
   answer: false
   explanation: "Block explicitly acknowledges that P-consciousness and A-consciousness typically co-occur — most conscious experiences are both phenomenally rich and accessible for report and reasoning. The distinction is conceptual and (potentially) empirical: the two properties are separable in principle, and Block's overflow argument suggests they come apart in specific cases like Sperling's iconic memory paradigm. But he is not claiming they are usually dissociated."

@@ -68,7 +68,7 @@ The framework has important limitations that prevent it from being a universal d
   answer: 1
   explanation: "Expected value reasoning works best when you can make many decisions at similar stakes, allowing the law of large numbers to operate and variance to wash out. When a single bet could wipe out your financial foundation — eliminating your ability to make future positive-EV bets — the variance of outcomes is decision-relevant even if the EV is positive. This is the intuition behind the Kelly criterion and expected utility theory: the marginal utility of resources diminishes as wealth decreases, so losing everything is worse than the raw dollar amount suggests. Rational decision-making must account for this, especially at high stakes."
 
-- question: "A bet with positive expected value is guaranteed to produce a positive outcome on any individual trial."
+- question: "A bet with positive expected value is expected to produce a positive outcome on any individual trial."
   type: true-false
   answer: false
   explanation: "Expected value is a probability-weighted long-run average, not a per-trial guarantee. A coin flip paying +$3 on heads and -$1 on tails has an expected value of +$1, but on any single flip you either gain $3 or lose $1 — there is no 'average' outcome. The positive EV means that across many such flips, your average outcome per trial converges toward +$1 by the law of large numbers. Confusing expected value with guaranteed outcome is one of the most consequential errors in probabilistic reasoning — it leads people to either over-trust individual positive-EV bets or abandon correct strategies after a few unlucky trials."

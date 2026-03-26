@@ -40,7 +40,7 @@ Give each student a magnet and a tray of objects: paper clips, coins (some magne
   answer: 2
   explanation: "The steel paper clip is magnetic because steel contains iron. Nickel is one of the three common magnetic metals (iron, nickel, cobalt). Copper and aluminum are metals but are NOT magnetic — a magnet will not attract them. Being a metal does not automatically mean being magnetic."
 
-- question: "All metals are attracted to magnets."
+- question: "Most metals are attracted to magnets."
   type: true-false
   answer: false
   explanation: "False. Only iron, nickel, and cobalt (and alloys containing them, like steel) are attracted to magnets. Copper, aluminum, gold, silver, tin, and many other metals are not magnetic at all. Being a metal is not the same as being magnetic."

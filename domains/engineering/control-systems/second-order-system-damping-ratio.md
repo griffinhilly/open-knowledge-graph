@@ -53,7 +53,7 @@ Second-order systems are characterized by natural frequency ωₙ and damping ra
   answer: true
   explanation: "Critical damping (ζ = 1) is the boundary condition that achieves the fastest possible settling without any overshoot. For ζ > 1, the two poles are real and widely separated; the slower pole pulls the response out, making settling take longer. This is counterintuitive because people often assume 'more damping = faster settling,' but beyond the critical point, damping slows the response. The critically damped case is the unique optimal: any less damping introduces overshoot, any more damping slows the response."
 
-- question: "Increasing the damping ratio ζ always reduces (improves) settling time for a second-order system."
+- question: "Increasing the damping ratio ζ generally reduces (improves) settling time for a second-order system."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about damping. Settling time T_s ≈ 4/(ζωₙ), which decreases as ζ increases — but only up to ζ = 1. For ζ > 1, the formula changes because the system is overdamped and no longer oscillates; the dominant real pole slows the response. Increasing ζ from 0.5 to 1 improves settling, but increasing it from 1 to 2 makes settling slower. Maximum settling speed (for a given ωₙ) occurs at ζ = 1, not at the highest possible ζ."

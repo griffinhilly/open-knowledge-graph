@@ -53,7 +53,7 @@ Viruses are classified by genome type (dsDNA, ssDNA, dsRNA, ssRNA), polarity (po
   answer: true
   explanation: "This is the defining feature of Group IV (positive-sense ssRNA) viruses. Their genome has the same polarity as mRNA — it can be directly loaded onto host ribosomes and translated immediately upon cell entry. Poliovirus and SARS-CoV-2 are examples. This is why positive-sense RNA viruses are often experimentally convenient: purified genomic RNA can initiate infection on its own (it is 'infectious RNA'). Contrast with negative-sense RNA viruses, which require a packaged polymerase, or retroviruses, which require reverse transcriptase."
 
-- question: "RNA viral genomes can in principle grow as large as DNA viral genomes, since genome size is limited only by the physical capacity of the viral capsid."
+- question: "RNA viral genomes can in principle grow as large as DNA viral genomes, since genome size is limited primarily by the physical capacity of the viral capsid."
   type: true-false
   answer: false
   explanation: "RNA polymerases lack proofreading activity, leading to error rates roughly 10⁴–10⁶ times higher than DNA polymerases. For large RNA genomes, the resulting mutation rate per replication cycle would accumulate so many errors that most progeny genomes would be non-functional — a phenomenon called error catastrophe. This sets a size ceiling of roughly 30 kb for RNA genomes. Coronaviruses push this limit by encoding a rare exonuclease proofreading function. DNA polymerases proofread, so DNA viruses can support much larger genomes; Mimivirus exceeds 1 Mb."

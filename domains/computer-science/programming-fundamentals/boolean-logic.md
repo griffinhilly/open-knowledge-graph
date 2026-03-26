@@ -63,7 +63,7 @@ Write expressions that evaluate to true or false. Explore how different comparis
   answer: true
   explanation: "Booleans are first-class values in programming. Writing is_adult = age >= 18 is perfectly valid — the comparison evaluates to either true or false, and that value is stored in is_adult. You can then use is_adult anywhere a boolean is expected, rather than repeating the comparison."
 
-- question: "Because booleans represent simple yes/no answers, each comparison must stand on its own — boolean values cannot be combined with other operations."
+- question: "Because booleans represent simple yes/no answers, each comparison is expected to stand on its own — boolean values can seldom be combined with other operations."
   type: true-false
   answer: false
   explanation: "Booleans can absolutely be combined using logical operators: AND, OR, and NOT. For example, is_adult AND is_registered produces a single boolean that is true only when both conditions hold. This ability to compose boolean values is precisely what makes them powerful — it allows complex decision logic to be built from simple comparisons."

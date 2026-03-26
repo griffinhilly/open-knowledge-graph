@@ -61,7 +61,7 @@ Use three-dimensional models (physical or software) to visualize the approach tr
   answer: true
   explanation: "Walden inversion is a mechanistic inevitability of the SN2 pathway, not a property of specific reactants. The backside attack geometry — mandated by orbital symmetry (nucleophile lone pair into C–LG σ*) — forces the three remaining substituents to pass through a trigonal planar arrangement and emerge on the opposite face. This happens 100% of the time in every SN2 event, which is why SN2 is stereospecific: it produces a single enantiomer rather than a mixture."
 
-- question: "If an SN2 reaction causes complete spatial inversion at a chiral carbon, the product must have the opposite R/S configuration label (R→S or S→R)."
+- question: "If an SN2 reaction causes complete spatial inversion at a chiral carbon, the product is expected to have the opposite R/S configuration label (R→S or S→R)."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about Walden inversion. The spatial arrangement always inverts, but the R/S label is assigned by CIP priority rules — and those rules can reshuffle when a new group replaces the leaving group. If the incoming nucleophile has the same CIP priority rank as the leaving group it replaces, priorities are unchanged and the letter flips. But if the nucleophile has a different rank, the new priority ordering may yield the same letter as the starting material even though every group is now on the opposite face. R and S are labels applied to spatial arrangements, not properties of those arrangements themselves."

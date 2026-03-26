@@ -48,7 +48,7 @@ In a normal space, every continuous function f: A → ℝ from a closed subset A
   answer: true
   explanation: "Urysohn's lemma solves a special instance of the extension problem: it extends the function that is 0 on the closed set A and 1 on the closed set B to a continuous function on all of X. Tietze generalizes this: instead of the simple 0/1 target, any continuous f: A → ℝ can be extended. The proof of Tietze actually reduces to repeated applications of Urysohn's lemma, confirming the logical dependence. In this sense Urysohn is the atomic building block and Tietze is the general statement."
 
-- question: "If A is an open (rather than closed) subset of a normal space X and f: A → ℝ is continuous, then the Tietze theorem still guarantees that f extends to a continuous function on all of X."
+- question: "If A is an open (rather than closed) subset of a normal space X and f: A → ℝ is continuous, then the Tietze theorem still guarantees that f extends to a continuous function on most of X."
   type: true-false
   answer: false
   explanation: "Closedness of A is an essential hypothesis, not a convenience. When A is open, f need not extend continuously: consider X = ℝ, A = (0, 1), and f(x) = 1/x. This is continuous on A but cannot be extended continuously to 0, which is a limit point of A not in A. The open set provides no control over what f does as you approach the boundary from inside, so no continuous extension to the boundary (and hence to all of X) need exist. Closedness ensures that f's values on A constrain what F must do near A's boundary from both sides."

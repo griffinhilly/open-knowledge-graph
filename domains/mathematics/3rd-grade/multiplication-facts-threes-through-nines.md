@@ -44,7 +44,7 @@ Students master multiplication facts for 3s, 4s, 6s, 7s, 8s, and 9s through skip
   answer: true
   explanation: "The 6s are the 3s doubled: 6 × 8 = 2 × (3 × 8) = 2 × 24 = 48. This works because multiplication distributes: 6 groups of 8 is the same as two sets of 3 groups of 8. The doubling strategy turns 6s into 3s, 4s into 2s, and 8s into 4s — meaning you can derive many unfamiliar facts from ones you already know."
 
-- question: "A student who can always reconstruct 7 × 8 by skip-counting has achieved fluency with that fact."
+- question: "A student who can usually reconstruct 7 × 8 by skip-counting has achieved fluency with that fact."
   type: true-false
   answer: false
   explanation: "Fluency means automatic retrieval in 3–5 seconds — not reconstruction. Skip-counting by 7s to reach 56 takes considerably longer and demands significant working memory. Fluency matters because multiplication facts are used constantly inside larger procedures. If a student must reconstruct a basic fact mid-problem (e.g., during long division), it consumes cognitive resources that should go toward understanding the larger concept. The goal is instant recall, not the ability to derive."

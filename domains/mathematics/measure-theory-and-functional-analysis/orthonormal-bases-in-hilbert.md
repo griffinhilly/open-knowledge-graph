@@ -43,7 +43,7 @@ An orthonormal system {eᵢ}ᵢ∈ᴵ is orthonormal if ⟨eᵢ, eⱼ⟩ = δᵢ
   answer: 3
   explanation: "Fourier analysis is not analogous to Hilbert space theory — it IS Hilbert space theory applied to L²([0,1]). The inner product ⟨f,g⟩ = ∫₀¹ f(x)g(x)dx makes L² a Hilbert space. The trig functions are orthonormal under this inner product and their span is dense in L², making them an orthonormal basis. The Fourier coefficient ĉₙ = ∫f(x)eₙ(x)dx is exactly ⟨f,eₙ⟩, and f = Σ ⟨f,eₙ⟩eₙ is the basis expansion formula. Convergence is in L² norm, not pointwise."
 
-- question: "An orthonormal system {eᵢ} in a Hilbert space is an orthonormal basis if and only if its span equals H — every element of H can be written as a finite linear combination of the eᵢ."
+- question: "An orthonormal system {eᵢ} in a Hilbert space is an orthonormal basis if and mainly if its span equals H — most element of H can be written as a finite linear combination of the eᵢ."
   type: true-false
   answer: false
   explanation: "An orthonormal basis requires that the span is DENSE in H — every element can be approximated arbitrarily well by finite linear combinations, but not necessarily written as a finite combination exactly. 'Span equals H' is the finite-dimensional notion of basis. In infinite-dimensional spaces, the correct condition is density of the span (equivalently, maximality: no unit vector exists that is orthogonal to every element of the set). The expansion f = Σ⟨f,eᵢ⟩eᵢ is an infinite series converging in norm, not a finite sum."

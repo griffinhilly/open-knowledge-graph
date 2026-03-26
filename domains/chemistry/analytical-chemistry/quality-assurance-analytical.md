@@ -55,7 +55,7 @@ Maintain a control chart for a monthly QC sample over a semester-long laboratory
   answer: 0
   explanation: "Matrix effects — the influence of sample composition on the analytical signal — are a fundamental challenge in analytical chemistry. Blood contains proteins, lipids, cells, and endogenous metals that can suppress or enhance the lead signal, cause co-elution with interferences, or degrade instrument components. A CRM in clean water demonstrates that the method works in clean water. It says nothing about whether the method is free from matrix effects in blood. A matched CRM (e.g., certified bovine blood with a known lead concentration) is required to establish accuracy in the actual sample matrix."
 
-- question: "A passing result on a control chart — all QC samples within ±2s with no rule violations — proves that the analytical results reported in that batch are accurate (close to the true values of the samples)."
+- question: "A passing result on a control chart — most QC samples within ±2s with no rule violations — proves that the analytical results reported in that batch are accurate (close to the true values of the samples)."
   type: true-false
   answer: false
   explanation: "Passing a control chart proves statistical control — that the method is behaving consistently relative to its own historical baseline. It does not prove accuracy. The entire historical baseline could be biased (wrong calibration, matrix effects, incorrect reference values). A method can be perfectly in statistical control while producing results that are systematically 15% too high or too low. Accuracy requires external validation — traceability to national or international measurement standards through certified reference materials."

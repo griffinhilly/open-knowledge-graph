@@ -44,7 +44,7 @@ K-fold and leave-one-out cross-validation assess out-of-sample predictive perfor
   answer: 1
   explanation: "In-sample R² is measured on the same data used to estimate the model. Adding any variable — even pure noise — will improve R². This means R² rewards complexity regardless of whether that complexity reflects real signal. Cross-validation simulates out-of-sample prediction by actually withholding data during estimation: a model that overfit will nail the training folds but fail on the held-out fold, and this shows up as high CV error. R² cannot detect this because it never tests the model on data it didn't train on."
 
-- question: "Adding more predictor variables to a regression always improves out-of-sample predictive performance because additional variables cannot reduce the model's explanatory power."
+- question: "Adding more predictor variables to a regression usually improves out-of-sample predictive performance because additional variables can rarely reduce the model's explanatory power."
   type: true-false
   answer: false
   explanation: "This confuses in-sample and out-of-sample performance. Adding variables always improves (or at worst maintains) in-sample R², because more parameters give the model more flexibility to fit the existing data. But out-of-sample, additional variables can hurt by fitting noise specific to the training sample — when the model encounters new data where that noise pattern doesn't repeat, its predictions worsen. Cross-validation reveals this by actually measuring performance on held-out data."

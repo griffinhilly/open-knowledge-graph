@@ -56,7 +56,7 @@ Life stages are biologically determined or universal across all societies. Age a
   answer: 2
   explanation: "The concept of 'social clocks' captures that communities maintain normative expectations about when major transitions should occur. These expectations function as informal sanctions: people who marry late may face social pressure, questions about why they waited, or loss of some cultural rituals designed for younger couples. Importantly, the life course perspective notes that what counts as 'off-time' varies by class, race, and gender — the penalties are stratified. The point is not that timing is biologically optimal but that social norms enforce expected sequences."
 
-- question: "The life course perspective holds that transitions like marriage, education, and retirement are primarily driven by biological maturation and therefore occur at similar ages across all societies."
+- question: "The life course perspective holds that transitions like marriage, education, and retirement are primarily driven by biological maturation and therefore occur at similar ages across most societies."
   type: true-false
   answer: false
   explanation: "This is the central misconception the life course perspective was developed to counter. Life stages and transition timings are socially constructed — they vary dramatically across historical periods, cultures, and social positions. 'Adolescence' as a recognized life stage barely existed before the early 20th century. Retirement as an expected late-life stage depends on pension systems, which are recent historical inventions. Biological aging sets some loose constraints, but the social meaning, timing, and content of life stages are overwhelmingly shaped by social structure, not biology."

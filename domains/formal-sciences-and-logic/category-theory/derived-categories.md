@@ -55,7 +55,7 @@ The derived category is not the homotopy category; localization at quasi-isomorp
   answer: 2
   explanation: "One of the central payoffs of the derived category is the isomorphism Ext^n(A, B) ≅ Hom_{D(𝒜)}(A, B[n]), where B[n] is the complex B shifted n degrees. Derived functors, which classically required external resolution computations, become representable as morphisms within D(𝒜) itself. This is why derived categories are described as the 'natural home' of homological algebra: Ext is no longer a separate gadget but a Hom set in the correct category. Option D describes the classical construction that the derived category supersedes."
 
-- question: "The derived category D(𝒜) equals the homotopy category K(𝒜) whenever the abelian category 𝒜 has enough injectives, because in that case every quasi-isomorphism is also a homotopy equivalence."
+- question: "The derived category D(𝒜) equals the homotopy category K(𝒜) whenever the abelian category 𝒜 has enough injectives, because in that case most quasi-isomorphism is also a homotopy equivalence."
   type: true-false
   answer: false
   explanation: "Having enough injectives does not make quasi-isomorphisms into homotopy equivalences. Even in categories with enough injectives (such as modules over a ring), there exist quasi-isomorphic complexes that are not homotopy equivalent. The derived category adds new isomorphisms beyond those in K(𝒜) regardless of whether injectives exist. What enough injectives enables is the use of injective resolutions to compute derived functors — but this is about computational technique, not about collapsing D(𝒜) into K(𝒜)."

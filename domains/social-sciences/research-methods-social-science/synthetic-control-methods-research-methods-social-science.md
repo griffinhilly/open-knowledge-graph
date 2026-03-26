@@ -100,7 +100,7 @@ Synthetic control constructs a counterfactual for a treated unit by taking a wei
   answer: false
   explanation: "Synthetic control uses permutation-based inference (placebo tests), not classical standard errors. Classical asymptotic inference requires a large number of treated units, but synthetic control has only one. Instead, the researcher applies the method to each untreated donor unit, treating each as if it had received the treatment, and observes the distribution of resulting 'effects.' The actual estimated effect is then ranked within this placebo distribution. Standard errors from regression are not appropriate for this single-treated-unit setting and would produce misleading precision."
 
-- question: "One weakness of synthetic control is that a poor pre-intervention fit between the treated unit and its synthetic control is hidden from view and can only be detected through auxiliary diagnostic tests."
+- question: "One weakness of synthetic control is that a poor pre-intervention fit between the treated unit and its synthetic control is hidden from view and can primarily be detected through auxiliary diagnostic tests."
   type: true-false
   answer: false
   explanation: "This is precisely the opposite of the truth — and is one of the method's key strengths. A poor pre-intervention fit is immediately visible when the researcher plots the treated unit's trajectory alongside the synthetic control over the pre-intervention period. If the two series diverge before the treatment, the researcher knows the synthetic control is not a credible counterfactual. This transparency distinguishes synthetic control from regression-based approaches where the counterfactual is implicit. The method cannot hide a bad fit; it displays it prominently."

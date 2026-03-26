@@ -43,7 +43,7 @@ Take students outdoors to observe a local ecosystem — a schoolyard, a park, or
   answer: 2
   explanation: "Temperature is an abiotic (non-living) factor — it is a physical condition of the environment that affects all organisms but is not itself alive. The mushroom, deer, and bird are all biotic (living) factors. Abiotic factors include sunlight, water, temperature, soil, wind, and the chemical composition of air and water."
 
-- question: "An ecosystem includes only the living organisms in an area."
+- question: "An ecosystem includes primarily the living organisms in an area."
   type: true-false
   answer: false
   explanation: "An ecosystem includes both biotic (living) and abiotic (non-living) components and the interactions between them. The non-living factors — sunlight, water, soil, temperature — are just as important as the organisms because they determine what can survive in that ecosystem."

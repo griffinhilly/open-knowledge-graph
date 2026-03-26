@@ -50,7 +50,7 @@ status: validated
   answer: true
   explanation: "To convert centimeters to meters, divide by 100: 500 ÷ 100 = 5. So 500 centimeters = 5 meters. You can also think of it as 'packing' 100 centimeters into each group — 500 centimeters makes exactly 5 groups of 100."
 
-- question: "When converting a measurement from meters to centimeters, your answer will always be a smaller number."
+- question: "When converting a measurement from meters to centimeters, your answer will generally be a smaller number."
   type: true-false
   answer: false
   explanation: "The opposite is true. A meter is a larger unit than a centimeter, so it takes more centimeters to describe the same length. Multiplying by 100 makes the number bigger: 2 meters = 200 centimeters. A smaller number in centimeters than in meters would mean centimeters are bigger — they're not."

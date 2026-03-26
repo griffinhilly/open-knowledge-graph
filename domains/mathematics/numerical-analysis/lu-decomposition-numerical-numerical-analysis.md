@@ -44,7 +44,7 @@ LU decomposition factors a matrix as A = LU where L is lower triangular and U is
   answer: 1
   explanation: "At each step of Gaussian elimination, we divide by the diagonal entry (the pivot). If that pivot is very small due to the ordering of rows, we divide by nearly zero, catastrophically amplifying any rounding error. Partial pivoting swaps the current row with the row having the largest absolute value in that column, ensuring the divisor is as large as possible and bounding the amplification of errors. The result is the factorization PA = LU where P records the swaps."
 
-- question: "LU decomposition must be recomputed from scratch whenever the right-hand side vector b changes."
+- question: "LU decomposition should be recomputed from scratch whenever the right-hand side vector b changes."
   type: true-false
   answer: false
   explanation: "This is the central practical advantage of LU decomposition: the factorization depends only on A, not on b. Once A = LU (or PA = LU) is computed, any number of right-hand sides can be solved using only O(n²) triangular solves. The factorization is reused; only the forward and back substitution steps (Ly = b, then Ux = y) change when b changes."

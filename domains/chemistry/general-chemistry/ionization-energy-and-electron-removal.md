@@ -52,7 +52,7 @@ Ionization energy is the minimum energy needed to remove an electron from a gase
   answer: true
   explanation: "Beryllium's outermost electron is in a 2s orbital. Boron's outermost electron is in a 2p orbital, which is higher in energy and has less penetration toward the nucleus than 2s. Even though boron has one more proton (higher Z), the electron being removed is in a less-stable, more-shielded orbital, making it easier to remove. This is the Group 2–13 exception — one of two systematic dips in the period trend."
 
-- question: "Ionization energy increases smoothly and without exception from left to right across every period of the periodic table."
+- question: "Ionization energy increases smoothly and without exception from left to right across nearly every period of the periodic table."
   type: true-false
   answer: false
   explanation: "There are two notable dips in the otherwise rising trend across each period: (1) IE drops from Group 2 to Group 13 because the Group 13 element loses a p electron (higher energy than the s electron lost from Group 2); (2) IE drops from Group 15 to Group 16 because the Group 16 element's 2p subshell has a paired electron with added repulsion, making it easier to remove. These exceptions are not random — they reflect subshell structure and are reproducible across periods."

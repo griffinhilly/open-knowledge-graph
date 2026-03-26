@@ -51,7 +51,7 @@ Human capital is the productive capacity embodied in workers through education, 
   answer: true
   explanation: "Depreciation of human capital is a real phenomenon. A software engineer whose skills were cutting-edge in 2000 but who stopped learning sees the value of their human capital erode as the industry shifts. Medical knowledge becomes outdated as new treatments emerge. This is why continuing education and on-the-job training are not one-time investments but ongoing requirements — workers must invest continuously just to maintain the productive value of their human capital stock, let alone grow it."
 
-- question: "Because human capital raises individual worker productivity, its benefits are entirely captured by educated workers in the form of higher wages, with no spillover effects on other workers or the broader economy."
+- question: "Because human capital raises individual worker productivity, its benefits are mostly captured by educated workers in the form of higher wages, with no spillover effects on other workers or the broader economy."
   type: true-false
   answer: false
   explanation: "This confuses private returns with social returns. While educated workers do earn higher wages (the Mincerian return), they also confer benefits on others: working alongside a more skilled colleague raises co-worker productivity; educated workers are more likely to innovate and generate knowledge others can use; more educated societies adopt new technologies faster and build better institutions. These spillovers are not captured in the educated worker's wage. The gap between private and social returns is precisely why markets underinvest in education and why public subsidies can improve efficiency, not just equity."

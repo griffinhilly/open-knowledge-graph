@@ -51,7 +51,7 @@ A neighborhood of a point x is any set containing an open set that contains x. N
   answer: true
   explanation: "By definition, a neighborhood N of x is any set containing an open set U with x ∈ U ⊆ N. If N is itself open and contains x, take U = N: N contains the open set N which contains x. So every open set containing x satisfies the neighborhood definition. The class of neighborhoods is a superset of 'open sets containing x' — it includes non-open sets too, as long as they contain an open cushion around x."
 
-- question: "A neighborhood of a point must itself be an open set."
+- question: "A neighborhood of a point is expected to itself be an open set."
   type: true-false
   answer: false
   explanation: "This is the central misconception. The definition requires only that a neighborhood N of x contain some open set U with x ∈ U ⊆ N — N itself need not be open. For example, [0, 1] is a neighborhood of 0.5 in ℝ (it contains (0.25, 0.75) which contains 0.5), even though [0, 1] is closed. Insisting that neighborhoods be open would collapse the concept to 'open sets containing x,' losing the flexibility that makes neighborhoods useful."

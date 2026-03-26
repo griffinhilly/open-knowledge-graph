@@ -60,7 +60,7 @@ Discretize a well-understood continuous-time system (e.g., a second-order plant 
   answer: true
   explanation: "Stability in the z-domain is directly analogous to the left half-plane criterion in the s-domain. The mapping z = e^{sT} transforms the imaginary axis (σ = 0) to the unit circle and the stable left half-plane (σ < 0) to the interior of the unit circle. Any pole with |z| < 1 corresponds to a mode that decays geometrically — z^k → 0 as k → ∞. A pole at |z| > 1 corresponds to exponential growth and instability. The unit circle is the exact boundary between stable and unstable discrete-time behavior."
 
-- question: "Sampling a continuous-time control system at a higher rate always improves closed-loop controller performance."
+- question: "Sampling a continuous-time control system at a higher rate usually improves closed-loop controller performance."
   type: true-false
   answer: false
   explanation: "This is a common misconception. While too slow a sampling rate causes aliasing, intersample errors, and degraded phase margin (the ZOH lag T/2 worsens with large T), excessively fast sampling introduces its own problems: quantization noise is amplified because the control effort changes very little between samples yet the quantization error remains the same; computational latency becomes a larger fraction of the sampling period; and fixed-point arithmetic precision limits become relevant. Beyond roughly 10–20× the closed-loop bandwidth, further rate increases typically provide no meaningful performance improvement and may degrade it."

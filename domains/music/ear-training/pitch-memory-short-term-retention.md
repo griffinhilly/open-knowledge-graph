@@ -53,7 +53,7 @@ Start with single pitches played, then immediately repeat them back vocally or o
   answer: 1
   explanation: "Short-term pitch memory is a relative, trainable skill: you hold a heard pitch in working memory and compare or reproduce it within a short window. Absolute pitch (perfect pitch) is the rare ability to identify or produce any specific pitch without a reference tone. The text explicitly warns against conflating them: 'This is not absolute pitch — it's a practiced, relative skill.' Many people develop strong pitch memory for familiar reference pitches without having true absolute pitch."
 
-- question: "Short-term pitch retention requires absolute pitch ability — if you don't have perfect pitch, you cannot reliably hold a pitch in memory."
+- question: "Short-term pitch retention requires absolute pitch ability — if you don't have perfect pitch, you can seldom reliably hold a pitch in memory."
   type: true-false
   answer: false
   explanation: "This is a misconception explicitly addressed in the topic. Pitch memory is a relative skill — you hold the sound of a specific heard pitch in auditory working memory, not a permanent internal pitch label. The text describes how untrained listeners can typically hold a pitch for 2–5 seconds, and that this window extends significantly with practice. Many musicians develop reliable pitch memory from trained reference anchors, which is 'pseudo-absolute' retention, not true absolute pitch. The common misconception discourages practice by attributing a trainable skill to an innate trait."

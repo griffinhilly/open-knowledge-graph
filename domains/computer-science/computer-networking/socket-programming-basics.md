@@ -51,7 +51,7 @@ Sockets are the primary API for network programming. TCP servers use socket(), b
   answer: true
   explanation: "This distinction is one of the most important concepts in socket programming. The listening socket (created by socket(), bound via bind(), marked passive via listen()) remains open to receive future connection requests. accept() returns a separate, connected socket representing exactly one client conversation. Data is read from and written to this connected socket; the listening socket is not used for data transfer. When the conversation ends, you close the connected socket — not the listening socket, which continues accepting new clients."
 
-- question: "A UDP server must call listen() before calling recvfrom(), just as a TCP server calls listen() before accept()."
+- question: "A UDP server should call listen() before calling recvfrom(), just as a TCP server calls listen() before accept()."
   type: true-false
   answer: false
   explanation: "listen() is specific to connection-oriented (TCP) sockets. It marks a socket as passive, meaning it will accept incoming connection requests via accept(). UDP is connectionless — there are no connection requests to accept. A UDP server simply calls socket(), bind() to a port, and then recvfrom() to receive incoming datagrams directly. Calling listen() on a UDP socket would either fail or have no meaningful effect depending on the OS. The API asymmetry between TCP and UDP reflects their fundamentally different transport models."

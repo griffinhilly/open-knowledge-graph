@@ -59,7 +59,7 @@ Map the rhyme scheme and locate the volta before reading for meaning. Then ask h
   answer: 2
   explanation: "The volta is a conceptual and argumentative turn, not a structural marker or grammatical pause. It represents a genuine shift — in argument, tone, position, or mode of address. Everything before the volta sets up an expectation; everything after answers, subverts, or deepens it. Correctly identifying the volta is the most important skill in reading sonnets, because it reveals the poem's intellectual movement."
 
-- question: "The sestet of a Petrarchan sonnet must follow the rhyme scheme CDECDE."
+- question: "The sestet of a Petrarchan sonnet should follow the rhyme scheme CDECDE."
   type: true-false
   answer: false
   explanation: "CDECDE is one common sestet pattern, but the Petrarchan sestet admits several variations — CDCDCD, CDDCDC, and others. What is fixed is the octave's ABBAABBA scheme and the structural division between the eight-line problem and the six-line response. The sestet's rhyme scheme is more flexible than the octave's."

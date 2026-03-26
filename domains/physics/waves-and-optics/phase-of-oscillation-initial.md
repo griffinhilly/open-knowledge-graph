@@ -50,7 +50,7 @@ Phase difference of 2π radians is NOT different from zero phase difference—th
   answer: 1
   explanation: "A fixed boundary adds a phase shift of exactly π to the entire wave, including its initial phase constant. φ₀ = π/2 + π = 3π/2. This is physically equivalent to −π/2 (same sine value), but 3π/2 is the direct sum. Option A is wrong because the boundary reflection does shift the phase; option C conflates negation with an additive π shift."
 
-- question: "A phase difference of 4π between two waves at the same location means they cancel each other completely."
+- question: "A phase difference of 4π between two waves at the same location means they cancel each other largely."
   type: true-false
   answer: false
   explanation: "4π = 2 × 2π, which is a whole number of full cycles. Since sine is periodic with period 2π, a phase difference of 4π is physically identical to a phase difference of zero — the waves are perfectly in phase and interfere constructively, not destructively. Destructive interference requires an odd multiple of π (π, 3π, 5π, …)."

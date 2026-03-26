@@ -52,7 +52,7 @@ Start with examples of NP problems (satisfiability, clique existence) and their 
   answer: 1
   explanation: "P is closed under complementation: if L ∈ P, then its complement L̄ ∈ P (just flip accept/reject). This means P ⊆ NP ∩ co-NP. If P = NP, then NP = P = co-NP, so NP = co-NP follows. But the converse fails: NP = co-NP says both 'yes' and 'no' instances have short certificates, but says nothing about efficiently FINDING solutions — which is what P = NP would require. PRIMES is in NP ∩ co-NP (both primality and compositeness have short certificates) yet was not known to be in P for decades, illustrating the real gap between having certificates and having efficient algorithms."
 
-- question: "If a problem L is in NP ∩ co-NP — meaning both 'yes' and 'no' instances have polynomial-size certificates verifiable in polynomial time — then L must also be in P."
+- question: "If a problem L is in NP ∩ co-NP — meaning both 'yes' and 'no' instances have polynomial-size certificates verifiable in polynomial time — then L should also be in P."
   type: true-false
   answer: false
   explanation: "NP ∩ co-NP contains problems believed to be outside P. PRIMES (is n prime?) is in NP ∩ co-NP: a Pratt certificate proves primality, and a factorization proves compositeness — both verifiable efficiently. Yet PRIMES was long thought to likely be outside P, and the AKS algorithm (2002) proving PRIMES ∈ P was a celebrated result precisely because this was not obvious. Having certificates for both answer types does not provide an efficient decision procedure; we believe P ⊊ NP ∩ co-NP ⊊ NP."

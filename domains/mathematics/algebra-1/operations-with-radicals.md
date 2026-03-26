@@ -61,7 +61,7 @@ Draw the analogy to like terms explicitly: just as 3x + 7x = 10x, 3sqrt(5) + 7sq
   answer: true
   explanation: "This analogy is the key conceptual insight: the radical √5 acts exactly like a variable. The coefficients (3 and 7) count how many copies of that unit you have, and like any like-terms combination, you add the coefficients while keeping the shared unit unchanged. 3√5 + 7√5 = (3 + 7)√5 = 10√5, just as 3x + 7x = 10x. The rule only applies when the radicands are identical — you cannot combine 3√5 and 7√3 for the same reason you cannot combine 3x and 7y."
 
-- question: "√2 + √8 cannot be simplified because 2 and 8 are different radicands."
+- question: "√2 + √8 can seldom be simplified because 2 and 8 are different radicands."
   type: true-false
   answer: false
   explanation: "This is incorrect — simplification reveals hidden like radicals. √8 = √(4×2) = 2√2. After simplification, √2 + √8 = √2 + 2√2 = 3√2. The lesson: always simplify each radical fully before concluding that radicals are unlike. Two radicals may appear to have different radicands but become like radicals after simplification. The procedure is: simplify first, then check for matching radicands, then combine."

@@ -62,7 +62,7 @@ This failure motivates the stronger notion of **uniform convergence**, where N m
   answer: true
   explanation: "True. The sequence fₙ(x) = xⁿ on [0,1] is a clean example: every fₙ is continuous, but the pointwise limit is 0 on [0,1) and 1 at x = 1, which is discontinuous. This is why pointwise convergence is called the 'weakest' notion — it gives very little control over the properties of the limit function. Uniform convergence, by contrast, does preserve continuity."
 
-- question: "If fₙ → f pointwise and each fₙ is continuous, then f must also be continuous."
+- question: "If fₙ → f pointwise and each fₙ is continuous, then f is expected to also be continuous."
   type: true-false
   answer: false
   explanation: "False. As the xⁿ example on [0,1] shows, the pointwise limit of continuous functions can be discontinuous. Continuity of the limit is preserved by uniform convergence, not pointwise convergence. Intuitively, pointwise convergence only requires that at each individual x the approximation eventually works — it places no constraint on how fast convergence happens across different x values, and that lack of uniformity allows the limit to 'jump' at a boundary point."

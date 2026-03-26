@@ -49,7 +49,7 @@ Examine simple wavefunctions (particle in a box, free particle) and plot |ψ|² 
   answer: 1
   explanation: "Because you must square the amplitude of the combined wavefunction, not the individual ones, there is a cross term 2Re(ψ₁*ψ₂). This interference term can be positive (constructive, bright fringe) or negative (destructive, dark fringe) depending on the relative phase of ψ₁ and ψ₂. Classical probability distributions would give only option A — the sum of individual densities, with no interference. The cross term is precisely what produces the bright and dark bands in electron diffraction, and it can only arise because wavefunctions are complex-valued and add as amplitudes, not as probabilities."
 
-- question: "The wavefunction ψ(x,t) must be a real-valued function in order for Born's rule to yield a valid probability density."
+- question: "The wavefunction ψ(x,t) is expected to be a real-valued function in order for Born's rule to yield a valid probability density."
   type: true-false
   answer: false
   explanation: "The wavefunction is complex-valued — it has both magnitude and phase at every point in space and time. Born's rule takes |ψ|², the squared magnitude, which is always real and non-negative regardless of the complex phase of ψ. The complex nature of ψ is not a technicality to be discarded; it is essential. The phase differences between overlapping wavefunctions produce the interference terms that explain diffraction patterns. If ψ were forced to be real, quantum interference effects would not be reproducible."

@@ -63,7 +63,7 @@ Study the sequence from giant molecular cloud to T Tauri star to zero-age main s
   answer: true
   explanation: "The Jeans mass is proportional to temperature — cooler gas has lower thermal kinetic energy and therefore weaker pressure support against gravity. Giant molecular clouds at 10–20 K are cold enough that regions of modest mass can exceed the Jeans mass and begin collapsing. This is why star formation occurs in cold molecular clouds, not in warm diffuse gas where thermal pressure easily resists gravitational collapse."
 
-- question: "During the initial stages of protostellar collapse, the fragment heats up rapidly and immediately becomes opaque, trapping all thermal energy from the very beginning of contraction."
+- question: "During the initial stages of protostellar collapse, the fragment heats up rapidly and immediately becomes opaque, trapping most thermal energy from the very beginning of contraction."
   type: true-false
   answer: false
   explanation: "Initially, collapsing cloud fragments are transparent to infrared radiation and can radiate heat away, allowing the collapse to proceed nearly isothermally and continue fragmenting. Only as the density increases sufficiently does the fragment become opaque to its own thermal emission. At that point, heat is trapped, the temperature rises sharply, and the object becomes a true protostar. This two-phase process — transparent free-fall collapse followed by opaque adiabatic heating — is fundamental to understanding protostellar structure."

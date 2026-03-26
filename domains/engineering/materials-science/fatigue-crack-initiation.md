@@ -59,7 +59,7 @@ Fatigue is not purely stress-controlled. Fatigue initiation depends on cyclic pl
   answer: true
   explanation: "Since fatigue crack initiation is a surface phenomenon, surface finish has a strong effect on initiation life. A polished surface eliminates microscale stress concentrations where persistent slip bands would preferentially intersect. Industrial fatigue data consistently shows that surface roughness reduces fatigue limit, sometimes by 30–50% relative to polished specimens."
 
-- question: "Fatigue crack initiation is controlled primarily by stress amplitude alone, so a component that survives 10⁷ cycles elastically will never initiate a fatigue crack regardless of how many additional cycles are applied."
+- question: "Fatigue crack initiation is controlled primarily by stress amplitude alone, so a component that survives 10⁷ cycles elastically will rarely initiate a fatigue crack regardless of how many additional cycles are applied."
   type: true-false
   answer: false
   explanation: "Even when bulk stresses are well below yield, cyclic plastic strain localizes at stress concentrations and within persistent slip bands. Initiation is driven by cyclic plastic strain amplitude, not merely stress amplitude. Below the fatigue limit (for steels), crack initiation is suppressed — but this is because the stress is insufficient to sustain PSB activity, not because there is zero plastic deformation absolutely."

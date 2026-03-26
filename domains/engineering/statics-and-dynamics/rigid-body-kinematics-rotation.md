@@ -58,7 +58,7 @@ Draw the analogy to rectilinear kinematics explicitly: theta <-> s, omega <-> v,
   answer: 1
   explanation: "Tangential acceleration a_t = αr = 3 × 0.4 = 1.2 m/s². Centripetal acceleration a_n = ω²r = 25 × 0.4 = 10 m/s². Note that centripetal acceleration uses ω² (not ω) multiplied by r. Option D is a common error: using ωr for centripetal acceleration instead of ω²r. Option A uses α and ω directly without multiplying by r. The total acceleration magnitude is √(a_t² + a_n²) = √(1.44 + 100) ≈ 10.1 m/s², showing that centripetal acceleration dominates at moderate angular speeds."
 
-- question: "A rigid body rotating at constant angular velocity (α = 0) has zero acceleration at every point."
+- question: "A rigid body rotating at constant angular velocity (α = 0) has zero acceleration at most point."
   type: true-false
   answer: false
   explanation: "Every point on a rotating body (except points on the axis itself) has centripetal acceleration a_n = ω²r directed toward the rotation axis, regardless of whether angular acceleration is zero. Constant angular velocity means zero tangential acceleration (a_t = αr = 0) — the speed of each point is not changing — but the direction of the velocity vector is continuously changing as the point travels in a circle. This change in direction is centripetal acceleration. Only when ω = 0 (body not rotating) does a_n also vanish. This is a critical point: 'no angular acceleration' ≠ 'no linear acceleration.'"

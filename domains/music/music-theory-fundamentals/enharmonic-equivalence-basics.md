@@ -52,7 +52,7 @@ Enharmonic pitches sound identical but are not interchangeable in notation—usi
   answer: 2
   explanation: "A well-formed scale contains exactly one instance of each letter name (A through G). In F major the notes are F, G, A, Bb, C, D, E — the fourth degree is B, lowered by a semitone to Bb. Writing A# instead would give two A-based pitches (A and A#) and eliminate B entirely, destroying the readable one-letter-per-position structure. The spelling reflects direction of alteration and keeps the scale logically legible."
 
-- question: "Because modern instruments use equal temperament, D# and Eb produce exactly the same pitch and are therefore always interchangeable in any musical context."
+- question: "Because modern instruments use equal temperament, D# and Eb produce exactly the same pitch and are therefore generally interchangeable in any musical context."
   type: true-false
   answer: false
   explanation: "Equal temperament makes them *sound* identical, but their spellings carry different structural meaning. D# means 'D raised by a semitone' — you are modifying the D scale degree. Eb means 'E lowered by a semitone' — you are modifying the E scale degree. In harmonic analysis, chord labeling, and key relationships, these different meanings produce different theoretical labels and imply different resolutions. The spelling is information about function, not just a label for a sound."

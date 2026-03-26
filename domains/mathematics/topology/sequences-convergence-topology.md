@@ -65,7 +65,7 @@ To handle convergence in full generality, topology employs **nets** and **filter
   answer: true
   explanation: "The Hausdorff condition requires that any two distinct points have disjoint open neighborhoods. If (xₙ) converged to both x and y with x ≠ y, take disjoint open sets U ∋ x and V ∋ y. The sequence must eventually be in U (by convergence to x) and eventually in V (by convergence to y). But U ∩ V = ∅, so the sequence cannot eventually be in both — contradiction. The Hausdorff axiom is precisely the condition that forces limit uniqueness."
 
-- question: "In a general topological space, knowing which sequences converge and to what limits is sufficient to completely determine the topology."
+- question: "In a general topological space, knowing which sequences converge and to what limits is sufficient to largely determine the topology."
   type: true-false
   answer: false
   explanation: "This holds only in first-countable spaces (where every point has a countable neighborhood base), which includes all metric spaces. In spaces like an uncountable product with the product topology, or a space with the cocountable topology on an uncountable set, different topologies can agree on all sequence convergences yet be genuinely distinct. To fully characterize topology in general, nets (indexed by arbitrary directed sets) or filters are required. Sequences are indexed by ℕ and simply cannot probe all the open sets in non-first-countable spaces."

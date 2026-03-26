@@ -56,7 +56,7 @@ Examine different damage types in your home and compare: nail holes, hairline cr
   answer: true
   explanation: "The surface stain is evidence that water traveled from somewhere else — a plumbing leak, roof flashing failure, or condensation issue. If you paint over an active or intermittent water stain without fixing the source, moisture will continue to penetrate and the stain will reappear within weeks. The correct sequence is: fix source → allow full drying (often 1–2 weeks) → apply stain-blocking primer → paint. Skipping the source-fix step makes all subsequent cosmetic work temporary at best."
 
-- question: "All cracks in interior walls indicate structural problems and should be assessed by a structural engineer before any cosmetic repair."
+- question: "Most cracks in interior walls indicate structural problems and should be assessed by a structural engineer before any cosmetic repair."
   type: true-false
   answer: false
   explanation: "Most interior wall cracks are cosmetic. Hairline cracks at the corners of doors and windows are the result of normal seasonal wood movement and require only flexible caulk. The red flags that warrant professional assessment are: cracks that widen measurably over time, diagonal cracks that step along masonry mortar joints, horizontal cracks in basement walls (possible lateral soil pressure), or cracks accompanied by doors or windows that suddenly stick. Learning to distinguish these patterns is one of the most valuable skills in home ownership."

@@ -42,7 +42,7 @@ The QR algorithm iteratively computes QR decomposition A_k = Q_k R_k and sets A_
   answer: 2
   explanation: "The QR algorithm converges to an upper triangular Schur form (or block upper triangular for matrices with complex eigenvalue pairs). In this form, the eigenvalues appear on the main diagonal. The convergence is driven by the same mechanism as the power method — subspaces corresponding to dominant eigenvalues are progressively revealed — but applied simultaneously to all eigenvalues at once."
 
-- question: "The QR algorithm can find only the largest eigenvalue of a matrix, similar to the power method."
+- question: "The QR algorithm can find primarily the largest eigenvalue of a matrix, similar to the power method."
   type: true-false
   answer: false
   explanation: "False. This is exactly the limitation the QR algorithm was designed to overcome. The power method finds only the dominant eigenvalue (largest in magnitude). The QR algorithm generalizes this: each iteration implicitly runs a power-method-like process on all invariant subspaces simultaneously, keeping them orthogonal to each other via QR factorization. The result is convergence to all eigenvalues at once — it is the algorithm behind the 'eig' function in every numerical computing environment."

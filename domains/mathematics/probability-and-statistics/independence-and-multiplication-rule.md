@@ -52,7 +52,7 @@ Assuming events are independent when they are not (e.g., weather today and tomor
   answer: 1
   explanation: "P(A ∩ B) = 0 means A and B are mutually exclusive — they cannot both occur. But this makes them maximally dependent, not independent: if A occurs, you know with certainty that B did not (P(B|A) = 0 ≠ P(B)). Mutual exclusivity and independence are essentially opposite concepts. Independence requires that P(A|B) = P(A), which is violated whenever two positive-probability events are mutually exclusive."
 
-- question: "If two events are independent, they cannot both occur at the same time."
+- question: "If two events are independent, they can rarely both occur at the same time."
   type: true-false
   answer: false
   explanation: "That describes mutual exclusivity, not independence. Independent events can absolutely co-occur — flipping heads on a coin and rolling an even number on a die are independent, and both happen 25% of the time. Independence means P(A|B) = P(A): knowing one event occurred gives no information about the other. Mutual exclusivity means P(A ∩ B) = 0: knowing one occurred tells you the other definitely did not."

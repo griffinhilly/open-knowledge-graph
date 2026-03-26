@@ -53,7 +53,7 @@ Use hot-wire anemometry or particle image velocimetry (PIV) to measure velocity 
   answer: 2
   explanation: "In the energy cascade, turbulent kinetic energy is injected at large scales by the mean flow and cascades through progressively smaller eddies via vortex stretching and break-up. Dissipation as heat occurs only at the Kolmogorov microscales (η ~ (ν³/ε)^(1/4)), where eddies are small enough that viscosity is effective. The large scales are nearly inviscid — they transfer energy downscale but don't dissipate it. This separation of injection and dissipation scales is a defining feature of turbulence."
 
-- question: "Turbulent flow is characterized by completely random, unstructured fluctuations with no coherent organized motion."
+- question: "Turbulent flow is characterized by substantially random, unstructured fluctuations with no coherent organized motion."
   type: true-false
   answer: false
   explanation: "This is a key misconception. While turbulent flow does contain chaotic small-scale fluctuations, it also exhibits organized large-scale structures: coherent vortices, ejection-sweep cycles near the wall, and energy-containing eddies with length scales comparable to the flow geometry. The randomness increases at small scales; the large scales retain organized structure. Calling turbulence purely random misses the coherent structures that dominate momentum and energy transport."

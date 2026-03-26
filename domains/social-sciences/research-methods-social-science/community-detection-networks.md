@@ -55,7 +55,7 @@ Communities are groups of densely interconnected nodes with sparse connections b
   answer: true
   explanation: "The resolution limit is a mathematically demonstrated limitation of greedy modularity optimization: below a certain community size (which depends on the number of edges in the full network), the algorithm cannot distinguish a genuine small community from random noise and may merge it with neighboring communities. Researchers working with networks that plausibly contain small communities should consider spectral or probabilistic methods instead."
 
-- question: "In a social network, structurally detected communities and self-identified social groups always correspond — dense connectivity reliably mirrors how people identify their own group memberships."
+- question: "In a social network, structurally detected communities and self-identified social groups typically correspond — dense connectivity reliably mirrors how people identify their own group memberships."
   type: true-false
   answer: false
   explanation: "Structural communities and self-identified groups often diverge. Dense connectivity can reflect shared organizational role, common event attendance, or transient collaboration rather than group identity. Conversely, people may identify strongly with a community whose members communicate infrequently. Validating detected communities against member attributes, roles, or self-reports is a necessary step, not an optional one."

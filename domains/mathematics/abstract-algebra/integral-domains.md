@@ -45,7 +45,7 @@ An integral domain is a commutative ring with unity in which there are no zero d
   answer: 2
   explanation: "ℤ/nℤ is an integral domain if and only if n is prime. Since 5 is prime, ℤ/5ℤ has no zero divisors and is actually a field — and every field is an integral domain. In contrast: ℤ/6ℤ has 2 × 3 ≡ 0, ℤ/4ℤ has 2 × 2 ≡ 0, and ℤ/9ℤ has 3 × 3 ≡ 0. Each of these has zero divisors, so none is an integral domain."
 
-- question: "Every integral domain is a field."
+- question: "Most integral domain is a field."
   type: true-false
   answer: false
   explanation: "The integers ℤ are the canonical counterexample. ℤ is a commutative ring with unity and has no zero divisors — so it is an integral domain. But ℤ is not a field because most integers lack multiplicative inverses within ℤ (there is no integer n such that 2n = 1). Every field is an integral domain, but not every integral domain is a field. The hierarchy runs: fields ⊂ integral domains ⊂ commutative rings with unity."

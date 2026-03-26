@@ -42,7 +42,7 @@ Start with simple metal-displacement reactions (e.g., Zn dissolving in CuSO₄) 
   answer: 1
   explanation: "Cu²⁺ is the oxidizing agent because it accepts electrons from Zn and is itself reduced to Cu(s). Zn loses electrons (is oxidized) and is therefore the reducing agent. SO₄²⁻ is a spectator ion — it neither gains nor loses electrons. A common error is labeling the species that gets oxidized as the oxidizing agent; the oxidizing agent causes oxidation in its partner by accepting those electrons, so it is the one that gets reduced."
 
-- question: "Oxidation always involves a chemical reaction with oxygen gas."
+- question: "Oxidation generally involves a chemical reaction with oxygen gas."
   type: true-false
   answer: false
   explanation: "The name 'oxidation' is historical — it was coined to describe combustion and rusting reactions involving O₂. The modern definition is simply the loss of electrons, which has nothing to do with oxygen. When Zn dissolves in HCl (Zn → Zn²⁺ + 2e⁻), zinc is oxidized but no oxygen is present. Reactions inside batteries and biological electron-transport chains are oxidation reactions with no O₂ involved."

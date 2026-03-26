@@ -65,7 +65,7 @@ Complete a full 16-square Punnett grid for a dihybrid cross and tally the phenot
   answer: true
   explanation: "This is the mathematical heart of independent assortment. Each locus produces a 3/4 dominant : 1/4 recessive ratio independently. Multiplying gives 9/16 (both dominant), 3/16 (first dominant, second recessive), 3/16 (first recessive, second dominant), and 1/16 (both recessive) — the 9:3:3:1 ratio. The forked-line method makes this multiplication explicit and scales easily to trihybrid or higher crosses."
 
-- question: "A heterozygous dihybrid parent (AaBb) produces only two types of gametes: AB and ab."
+- question: "A heterozygous dihybrid parent (AaBb) produces primarily two types of gametes: AB and ab."
   type: true-false
   answer: false
   explanation: "Independent assortment means alleles at different loci segregate independently during meiosis. An AaBb parent produces four equally probable gamete types: AB, Ab, aB, and ab (each at 1/4 probability). The idea that only the parental combinations (AB and ab) are transmitted confuses independent assortment with linkage. Linkage would favor parental combinations, but independent assortment produces all four types equally."

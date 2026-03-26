@@ -55,7 +55,7 @@ Introduce each notation alongside the same example. Practice translating between
   answer: true
   explanation: "All three are standard notations for the derivative of f at x. Prime notation is compact and algebraically clean, Leibniz notation makes the variable of differentiation explicit, and operator notation treats differentiation as an operator applied to f. Recognizing their equivalence without hesitation is foundational calculus fluency."
 
-- question: "Because dy/dx behaves like a fraction in the chain rule and separation of variables, it is always mathematically valid to treat it as a literal fraction."
+- question: "Because dy/dx behaves like a fraction in the chain rule and separation of variables, it is generally mathematically valid to treat it as a literal fraction."
   type: true-false
   answer: false
   explanation: "dy/dx is not a fraction — it is the limit of Δy/Δx as Δx → 0. Treating it like a fraction works in specific contexts (chain rule, separation of variables) because those operations can be justified rigorously by other theorems, not because fraction arithmetic literally applies. The Leibniz notation is suggestive and useful, but calling it 'a fraction' in all contexts leads to errors — for instance, d²y/dx² ≠ (dy/dx)²."

@@ -65,7 +65,7 @@ Use small data sets (5-10 values) with clear contexts (test scores, heights, pri
   answer: true
   explanation: "The mode is the most frequently occurring value, but this requires that some value actually repeats. If all values are unique (e.g., 3, 7, 11, 14), the data set has no mode. If two values each appear the same number of times and more than any other (e.g., 4, 4, 7, 7, 9), the data set is bimodal. Unlike mean and median, a data set is not guaranteed to have exactly one mode — and forcing one where none exists is a common error."
 
-- question: "In any data set, the mean and median will always be close to each other because both measure central tendency."
+- question: "In any data set, the mean and median will typically be close to each other because both measure central tendency."
   type: true-false
   answer: false
   explanation: "Mean and median can differ substantially when data is skewed or contains outliers. In a right-skewed distribution (a few very high values, like salaries with some billionaires), the mean is pulled toward the tail while the median stays near the bulk of the data. The mean of {1, 2, 3, 4, 100} is 22, while the median is 3 — a dramatic difference. It is precisely because mean and median can diverge that choosing the right measure matters. Treating them as interchangeable is the error this topic is designed to correct."

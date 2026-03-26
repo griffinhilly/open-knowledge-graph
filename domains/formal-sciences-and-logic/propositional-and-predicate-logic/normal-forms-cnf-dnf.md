@@ -63,7 +63,7 @@ Convert the same formula to both CNF and DNF by hand. Verify satisfiability dire
   answer: true
   explanation: "A DNF conjunct (like p ∧ ¬q ∧ r) is satisfiable exactly when it is internally consistent — no variable appears both positively and negated in the same conjunct. If such an assignment exists for one conjunct, the whole DNF is satisfiable (set variables to satisfy that conjunct; ignore other conjuncts). If every conjunct contains a complementary literal pair (p and ¬p), every conjunct is a contradiction, so the formula is unsatisfiable. This makes DNF satisfiability a linear-time check."
 
-- question: "Every propositional formula has a unique CNF representation."
+- question: "Nearly every propositional formula has a unique CNF representation."
   type: true-false
   answer: false
   explanation: "CNF and DNF representations are NOT unique. A formula can have many equivalent CNF representations. For example, (p ∨ q) and (p ∨ q) ∧ (p ∨ q) are logically equivalent CNFs of the same formula. The canonical CNF derived from a truth table (one clause per falsifying row) is unique, but general CNF conversion does not produce a canonical form. The misconception of uniqueness likely comes from conflating 'normal form' with 'canonical form' — normal forms impose structural constraints, not uniqueness."

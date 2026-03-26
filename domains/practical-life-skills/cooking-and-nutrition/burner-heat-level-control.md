@@ -57,7 +57,7 @@ Put a pot of water on each heat level and time how long it takes to boil. Observ
   answer: true
   explanation: "Active heat management is what separates skilled from novice cooking. A pasta dish starts on high to boil water, drops to medium to maintain the boil without boiling over, and may go lower when adding sauce. A steak starts high for searing, then lowers to finish cooking through without burning. Setting the heat once and walking away is a beginner mistake."
 
-- question: "Using higher heat always makes food cook faster."
+- question: "Using higher heat usually makes food cook faster."
   type: true-false
   answer: false
   explanation: "This is the most common heat-management misconception. While high heat transfers energy faster, many foods (cream sauces, chocolate, eggs, fish) burn, curdle, or break before they finish cooking at high temperatures. The actual time to a successfully finished dish depends on matching the right heat level to the food's tolerance — not maximizing heat."

@@ -53,7 +53,7 @@ If A is m × n and B is n × p, their product AB is m × p where (AB)_ij = Σ_k 
   answer: false
   explanation: "Matrix multiplication is NOT commutative — even for square matrices of the same size, AB and BA are generally not equal. The geometric reason: applying transformation B then A typically gives a different result than applying A then B. For example, rotating then reflecting a shape is different from reflecting then rotating. This is one of the most important ways matrices differ from ordinary numbers."
 
-- question: "If AB is defined, then BA must also be defined."
+- question: "If AB is defined, then BA is expected to also be defined."
   type: true-false
   answer: false
   explanation: "AB is defined when A's column count equals B's row count. If A is m×n and B is n×p, then AB is m×p. For BA to be defined, B's columns (p) must equal A's rows (m) — only guaranteed when m = p. For instance, a 2×3 matrix times a 3×5 matrix is defined (giving 2×5), but the reverse product (3×5)(2×3) requires 5 = 2, which is false — undefined."

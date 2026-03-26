@@ -52,7 +52,7 @@ For each mechanism, identify: what physically blocks the dislocation, how the st
   answer: 1
   explanation: "Yield strength is a measure of resistance to dislocation motion — plastic deformation occurs when dislocations glide. Every strengthening mechanism works by introducing something that blocks this glide: work hardening creates dislocation tangles that block other dislocations; solid solution adds solute atoms with stress fields that pin dislocations; grain boundaries are crystallographic mismatches that stop dislocations from crossing; precipitates are physical obstacles dislocations must cut through or bypass. Different physical means, same fundamental logic."
 
-- question: "Making grains finer always increases a metal's strength, so grain refinement is universally the preferred strengthening method for all applications."
+- question: "Making grains finer usually increases a metal's strength, so grain refinement is universally the preferred strengthening method for most applications."
   type: true-false
   answer: false
   explanation: "Grain refinement is valuable because it simultaneously increases both strength and toughness (unlike most mechanisms, which trade one for the other), but it is not universally preferred. At very fine grain sizes (approaching the nanometer scale), the Hall-Petch relationship breaks down as grain boundary sliding becomes a competing deformation mechanism. More practically, very fine grains can reduce high-temperature creep resistance, making grain-refined alloys unsuitable for high-temperature applications like turbine blades. No single mechanism is universally optimal — each has tradeoffs that must be matched to the application."

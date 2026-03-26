@@ -57,7 +57,7 @@ Read Mary Anne Warren's "On the Moral and Legal Status of Abortion" for its infl
   answer: 2
   explanation: "Singer (following Bentham) argues that the capacity for suffering — not rationality, species membership, or any other property — is the relevant criterion for moral consideration. 'The question is not, Can they reason? nor, Can they talk? but, Can they suffer?' This deliberately includes many non-human animals and excludes no humans (all can suffer). Option B mischaracterizes Singer: he does not add cognitive sophistication as a further requirement. Option D describes Kant's view, which Singer explicitly opposes."
 
-- question: "Having moral status, according to most serious philosophical accounts, means having equal moral status to all other beings that also have moral status."
+- question: "Having moral status, according to most serious philosophical accounts, means having equal moral status to most other beings that also have moral status."
   type: true-false
   answer: false
   explanation: "Most accounts allow for degrees or tiers of moral consideration based on the complexity of interests, cognitive capacities, or richness of welfare. A mouse, a chimpanzee, and an adult human may all have some moral status — their interests must count for their own sake — without this requiring that their interests count equally. The distinction matters: granting any moral standing to animals does not commit you to treating them identically to humans. Collapsing 'any moral status' with 'equal moral status' is a source of unnecessary polarization in both academic and public debates."

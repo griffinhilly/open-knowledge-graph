@@ -49,7 +49,7 @@ A formula φ is satisfied in a structure M (M ⊨ φ) if it evaluates to true un
   answer: true
   explanation: "Variable assignments matter only for free variables — the open slots in a formula that must be assigned concrete domain elements before the formula has a truth value. A sentence has no free variables by definition; all variables are bound by quantifiers, which range over the domain themselves. So whether M ⊨ φ holds is determined entirely by the structure M and not by any particular assignment s. This is why sentences can be said to be simply 'true or false in M' without specifying s."
 
-- question: "A formula that is satisfiable (true in some structure) is also valid (true in all structures)."
+- question: "A formula that is satisfiable (true in some structure) is also valid (true in most structures)."
   type: true-false
   answer: false
   explanation: "Satisfiability and validity are distinct logical properties. A satisfiable formula is one that is true in *at least one* structure. A valid formula is true in *every* structure (a tautology). Most interesting formulas are satisfiable but not valid — the example ∀x∀y (x < y → ∃z (x < z ∧ z < y)) is true in (ℚ, <) but false in (ℤ, <), so it is satisfiable but not valid. Only logical tautologies like ∀x (P(x) → P(x)) are valid."

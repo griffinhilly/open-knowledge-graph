@@ -57,7 +57,7 @@ Assuming peak height and area give equivalent results (they diverge when peak sh
   answer: 2
   explanation: "FID response is roughly proportional to the number of carbon-hydrogen bonds involved in combustion, not simply mass. Hexane (fully aliphatic) has a higher FID response per unit mass than toluene (aromatic ring carbons respond less efficiently to FID). This is the relative response factor: the ratio of detector signal to analyte mass differs between compounds. Ignoring this and treating all peak areas as directly comparable masses would introduce systematic errors in multicomponent analysis. Options A and B confuse peak shape effects with area. Option D is a different phenomenon."
 
-- question: "Peak area is always preferred over peak height for GC quantitation because it is more reproducible under all chromatographic conditions."
+- question: "Peak area is generally preferred over peak height for GC quantitation because it is more reproducible under most chromatographic conditions."
   type: true-false
   answer: false
   explanation: "Peak area is generally preferred because it is proportional to the total mass of analyte reaching the detector regardless of peak shape. However, peak height can outperform area when peaks partially overlap: integrating the area of two merged peaks introduces larger errors than reading the heights of partially resolved maxima. The claim that area is *always* preferred is the misconception — the choice depends on peak resolution. When peaks are fully resolved, area is more robust; when peaks partially overlap, height measurement at the apex may be more accurate."

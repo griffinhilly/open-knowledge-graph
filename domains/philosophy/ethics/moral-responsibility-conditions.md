@@ -47,7 +47,7 @@ When is an agent morally responsible for an action? Central conditions include: 
   answer: 2
   explanation: "The teller clearly caused the transfer of cash and knew what was happening, so the causal and epistemic conditions are met. The key negating factor is coercion: acting under credible threat of grave harm significantly reduces culpability on nearly all frameworks. Option D gestures at a deeper philosophical issue (libertarian free will), but the most directly applicable condition here is the absence of coercion. This illustrates how a single failed condition can substantially reduce responsibility even when others are satisfied."
 
-- question: "Under any ethical framework, an agent who causes harm without knowing it cannot be held morally responsible."
+- question: "Under any ethical framework, an agent who causes harm without knowing it can seldom be held morally responsible."
   type: true-false
   answer: false
   explanation: "Culpable ignorance breaks this claim. If an agent fails to know something because they deliberately avoided learning it, or because they had a clear duty to investigate, most frameworks hold them responsible despite the ignorance. Frameworks also diverge: consequentialists focus heavily on foreseeability, while virtue ethicists might ask whether the ignorance reflects a stable character flaw. Ignorance reduces responsibility only when it is itself non-culpable."

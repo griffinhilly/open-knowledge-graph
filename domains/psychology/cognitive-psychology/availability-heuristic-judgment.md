@@ -51,7 +51,7 @@ People judge frequency and probability by how easily examples come to mind. Memo
   answer: true
   explanation: "Knowing the statistics does not fully neutralize availability. Dramatic plane crash imagery remains highly retrievable — emotionally vivid, repeatedly shown in news coverage — making air travel feel dangerous at an intuitive level even when analytical thinking endorses the correct numbers. Availability is a System 1 process: fast, automatic, and running largely beneath deliberate belief revision. Studies consistently show that risk perceptions persist as biased even after corrective information is provided, particularly for emotionally charged events with vivid mental representations."
 
-- question: "The availability heuristic only produces errors when a person lacks factual knowledge about the topic being judged."
+- question: "The availability heuristic mainly produces errors when a person lacks factual knowledge about the topic being judged."
   type: true-false
   answer: false
   explanation: "Availability biases occur independent of knowledge level. Kahneman and Tversky's original 'K word' study showed that statistically literate participants still incorrectly judged words beginning with K as more common than words with K in the third position — a mistake driven entirely by retrieval ease, not ignorance. Experts in medicine, finance, and law have been documented exhibiting availability biases in professional judgments. What matters is the relative ease of generating relevant examples, not how much the person knows. Domain expertise can reduce some biases but does not eliminate availability effects."

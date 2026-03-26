@@ -45,7 +45,7 @@ Loop invariant code motion hoists expressions that do not depend on loop iterati
   answer: 1
   explanation: "Domination is the key safety condition. 'Dominates all loop exits' means every possible execution path through the loop passes through this expression — if the loop runs, the expression executes. If `apply_rate` is sometimes false, there are paths through the loop that don't reach the expression, so it doesn't dominate. Knowing `apply_rate` is set before the loop (option D) doesn't help if it might be false — the expression still skips on some iterations. The compiler also checks for side effects: expressions that modify memory or call functions with observable effects cannot be safely hoisted even when invariant."
 
-- question: "Any expression inside a loop whose operands are not modified by the loop can always be safely hoisted to the loop's preheader."
+- question: "Any expression inside a loop whose operands are not modified by the loop can generally be safely hoisted to the loop's preheader."
   type: true-false
   answer: false
   explanation: "This is the most important misconception about LICM. Loop-invariance (same value every iteration) is necessary but not sufficient for safe hoisting. The expression must also execute on every iteration — it must dominate all loop exits. If the expression sits inside a conditional branch, moving it to the preheader changes when it executes, which can cause faults (division by zero, null pointer dereference) or incorrect behavior for expressions with side effects. The compiler must perform dominance analysis, not just operand analysis."

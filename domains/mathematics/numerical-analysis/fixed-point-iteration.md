@@ -50,7 +50,7 @@ Fixed point iteration solves f(x) = 0 by rewriting it as x = g(x) and iterating 
   answer: true
   explanation: "The explainer demonstrates this with f(x) = x² − 2: one rearrangement gives |g'(√2)| ≈ 1.83 (diverges), another gives |g'| = 1 (boundary, oscillates), and Newton's method gives |g'| = 0 (quadratic convergence). All three start from the same equation. The equation f(x) = 0 determines what x* is; the choice of g determines whether iteration converges to it and how fast."
 
-- question: "If fixed point iteration converges, it always converges at a quadratic rate."
+- question: "If fixed point iteration converges, it usually converges at a quadratic rate."
   type: true-false
   answer: false
   explanation: "Basic fixed point iteration achieves linear convergence: errors decrease by a constant factor |g'(x*)| at each step. Quadratic convergence — where the error roughly squares at each step — is special, occurring only when |g'(x*)| = 0. Newton's method achieves this by careful construction, but it is the engineered refinement, not the norm. The explainer states: 'Fixed point iteration in its basic form... converges [linearly]. Newton's method achieves |g'(x*)| = 0... which is why it converges quadratically.'"

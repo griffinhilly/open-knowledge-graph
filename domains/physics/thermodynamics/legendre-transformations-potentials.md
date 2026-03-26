@@ -60,7 +60,7 @@ Construct each potential from the others via Legendre transformation. Identify w
   answer: false
   explanation: "Legendre transformations preserve all thermodynamic information — nothing is lost, only re-expressed in different natural variables. From G(T,P), entropy is recovered as S = −(∂G/∂T)_P and volume as V = (∂G/∂P)_T. The transformation is a mathematically exact change of variables, not an approximation. This is why each potential is equally valid as a complete thermodynamic description — they are all equivalent representations of the same physics."
 
-- question: "At constant temperature and pressure, a spontaneous process always decreases the system's enthalpy."
+- question: "At constant temperature and pressure, a spontaneous process usually decreases the system's enthalpy."
   type: true-false
   answer: false
   explanation: "Spontaneity at constant T and P is governed by ΔG = ΔH − TΔS < 0, not by ΔH < 0 alone. Entropy-driven reactions — endothermic processes where disorder increases substantially — can be spontaneous even with ΔH > 0, because TΔS outweighs ΔH. Enthalpy decrease favors spontaneity, but it competes with entropy: at high temperatures, the TΔS term dominates. ΔH < 0 is neither necessary nor sufficient for spontaneity at constant T and P."

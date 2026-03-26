@@ -60,7 +60,7 @@ Analyze solutions (Peterson's, Dekker's) formally; trace through scenarios where
   answer: true
   explanation: "This is precisely the definition of starvation, which bounded waiting prevents. Progress only requires that the decision about who enters next is made in finite time — it says nothing about fairness to any specific process. Bounded waiting adds the constraint that each process can be 'passed over' at most k times before getting its turn, for some fixed k. A simple test-and-set spinlock satisfies mutual exclusion and progress but can starve a process if the scheduler perpetually favors other threads. Bounded waiting is violated even though the system keeps moving."
 
-- question: "Mutual exclusion implies progress: if at most one process can be in the critical section at a time, processes waiting to enter will always be able to do so in finite time."
+- question: "Mutual exclusion implies progress: if at most one process can be in the critical section at a time, processes waiting to enter will typically be able to do so in finite time."
   type: true-false
   answer: false
   explanation: "Mutual exclusion and progress are independent requirements. A trivially broken solution demonstrates this: always acquire a lock that is never released — mutual exclusion holds (no two processes are ever inside simultaneously) but no process can ever enter. More subtly, a process in its *remainder section* could hold the lock indefinitely, blocking all others. Progress requires specifically that processes NOT in the critical section and NOT waiting to enter cannot influence who enters next. Mutual exclusion makes no such guarantee."

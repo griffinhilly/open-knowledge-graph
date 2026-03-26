@@ -52,7 +52,7 @@ A reaction mechanism is a sequence of elementary steps that sum to the overall r
   answer: true
   explanation: "Elementary steps are single molecular-level events. For a bimolecular step, two specific molecules must collide, so the rate depends on the probability of both being present — which is proportional to [A][B]. This is the one case where stoichiometry directly gives the rate law. This rule applies only to elementary steps, not to overall reactions."
 
-- question: "If the overall balanced equation for a reaction is first order in A and first order in B, the reaction must proceed through a single bimolecular elementary step."
+- question: "If the overall balanced equation for a reaction is first order in A and first order in B, the reaction is expected to proceed through a single bimolecular elementary step."
   type: true-false
   answer: false
   explanation: "The experimentally observed rate law tells you about the rate-determining step, not the overall mechanism. A second-order rate law could arise from a multi-step mechanism in which the slow step happens to involve one molecule of A and one of B — even if the overall equation has different stoichiometry or if earlier steps involve other species. The mechanism cannot be read off from the overall rate law alone."

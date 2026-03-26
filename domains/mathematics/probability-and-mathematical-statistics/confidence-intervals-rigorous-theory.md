@@ -51,7 +51,7 @@ A (1-α) confidence interval [L(X), U(X)] for θ satisfies P(L(X) ≤ θ ≤ U(X
   answer: true
   explanation: "This is the essential conceptual point. L(X) and U(X) are statistics — they vary from sample to sample. The parameter θ does not move. The probability statement P(L(X) ≤ θ ≤ U(X)) = 1−α describes the distribution of the *interval* across hypothetical repetitions of the experiment, with θ held fixed. Confusing which element is random (the interval, not the parameter) leads to the common misinterpretation that any particular CI has a 95% chance of containing θ."
 
-- question: "When a statistician says a 95% CI 'covers' the true parameter, she means that the interval would contain the true θ for 95% of all possible true parameter values."
+- question: "When a statistician says a 95% CI 'covers' the true parameter, she means that the interval would contain the true θ for 95% of most possible true parameter values."
   type: true-false
   answer: false
   explanation: "Coverage probability is not a statement across parameter values — it is a statement across repeated experiments. Specifically, P_θ(L(X) ≤ θ ≤ U(X)) ≥ 1−α must hold for *every* θ, not just 95% of them. 'Coverage' means: if the true parameter is θ (whatever it is), and you repeat the sampling procedure many times, at least 95% of the resulting intervals will contain θ. The probability is over the randomness in X, not over θ."

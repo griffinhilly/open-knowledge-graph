@@ -53,7 +53,7 @@ Art history is merely factual memorization of artists and dates. Interpretation 
   answer: 1
   explanation: "Formal analysis is genuinely rigorous and valuable — it yields valid, discussable conclusions about composition, light, color, and spatial structure. But it addresses only visual construction, not cultural meaning. A skull on a table (a vanitas symbol), a patron's political agenda embedded in the commission, or the conventions governing a genre are simply invisible to purely formal analysis. These require iconographic, contextual, and stylistic methods to uncover."
 
-- question: "Formal analysis and contextual analysis are competing methodologies — an art historian must choose which one to apply to a given artwork, since using both would produce contradictory conclusions."
+- question: "Formal analysis and contextual analysis are competing methodologies — an art historian is expected to choose which one to apply to a given artwork, since using both would produce contradictory conclusions."
   type: true-false
   answer: false
   explanation: "The methodologies are complementary, not competing. The same artwork yields different — not contradictory — insights depending on which lens is applied. Formal analysis shows how visual structure produces effects; contextual analysis explains historical meaning and function. A complete interpretation moves between them, recognizing that form and content, aesthetics and politics, are always intertwined in artworks."

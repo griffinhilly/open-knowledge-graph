@@ -43,7 +43,7 @@ Have students push an upside-down empty cup straight down into a bowl of water �
   answer: 1
   explanation: "Gases can be compressed — squeezed into a smaller volume. When you push the plunger, the air particles are forced closer together. They push back, which is why you feel resistance. The air does not disappear or change state; it just takes up less space temporarily."
 
-- question: "An empty glass turned upside down has nothing inside it."
+- question: "An empty glass turned upside down has very little inside it."
   type: true-false
   answer: false
   explanation: "False. An 'empty' glass is actually full of air. You can prove this by pushing the upside-down glass straight into water — the trapped air keeps the water from filling the glass. If the glass were truly empty, water would rush right in."

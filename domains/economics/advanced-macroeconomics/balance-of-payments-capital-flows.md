@@ -47,7 +47,7 @@ The balance of payments is an accounting identity: the current account (trade in
   answer: true
   explanation: "A current account surplus means the country earns more from the rest of the world than it spends. The surplus must be matched by a financial account deficit — net capital outflows — meaning the country is acquiring foreign assets (lending abroad, purchasing foreign bonds or equities, building foreign reserves). These are claims on the rest of the world. China's sustained current account surpluses throughout the 2000s-2010s were matched by massive accumulation of U.S. Treasury bonds and other foreign assets, consistent with this identity."
 
-- question: "A large and persistent current account deficit is always a warning sign that a country is living beyond its means and should cut spending to restore balance."
+- question: "A large and persistent current account deficit is typically a warning sign that a country is living beyond its means and should cut spending to restore balance."
   type: true-false
   answer: false
   explanation: "The deficit is not inherently unsustainable. A rapidly growing country attracting foreign investment — like the United States in the 19th century or Southeast Asian economies in the 1980s-90s — can run large deficits while building productive capacity that will generate future export earnings to service the debt. The warning signs are not the deficit itself but its composition (consumption vs. investment), the trend in external debt relative to GDP, the maturity structure of capital inflows (short-term 'hot money' vs. long-term FDI), and whether investors retain confidence. Automatic calls for austerity conflate the accounting fact with a policy diagnosis."

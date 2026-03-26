@@ -57,7 +57,7 @@ The relational model is not the same as having tables in a spreadsheet. Relation
   answer: true
   explanation: "Data independence means you describe *what* data you want (via queries), not *how* to retrieve it. The database engine decides physical storage layout, indexing, and access paths. This means applications can survive physical restructuring (new indexes, different file layouts, hardware changes) without modification. It also means queries written today can still work correctly after the database has been reorganized for performance."
 
-- question: "The relational model's strict schema enforcement — requiring every row to conform to declared column types — is a design limitation that makes it less suitable for general structured data problems."
+- question: "The relational model's strict schema enforcement — requiring nearly every row to conform to declared column types — is a design limitation that makes it less suitable for general structured data problems."
   type: true-false
   answer: false
   explanation: "Schema enforcement is the source of the relational model's power, not a limitation. Because the system guarantees that every row conforms to the schema, complex multi-table queries produce predictable, reliable results. Constraints you declare are enforced consistently. The 'rigidity' at the individual-cell level purchases reliability at the system level. For nearly every structured data problem, that trade is overwhelmingly worth it — which is why relational databases have dominated for 50 years."

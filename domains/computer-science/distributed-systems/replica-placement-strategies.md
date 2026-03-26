@@ -44,7 +44,7 @@ Replica placement determines where copies of data are stored in the system. Stra
   answer: 1
   explanation: "A quorum of 2 out of 3 requires waiting for the 2 fastest replicas to acknowledge. If 2 replicas are in the same local region, quorum writes complete with local round-trip latency — only the local replicas need to respond. The third replica in a distant region provides disaster recovery but is not in the critical path for achieving quorum. If all 3 replicas are on different continents, every write must wait for at least 2 cross-region round trips, adding hundreds of milliseconds. Placement directly controls whether quorum operations are fast or slow."
 
-- question: "Geographic distribution of replicas across multiple datacenters always reduces read latency, because clients can always read from the nearest replica."
+- question: "Geographic distribution of replicas across multiple datacenters typically reduces read latency, because clients can typically read from the nearest replica."
   type: true-false
   answer: false
   explanation: "Geographic distribution can reduce read latency for clients near a replica, but it increases write latency — cross-region acknowledgments add round-trip delays measured in hundreds of milliseconds. Furthermore, if the replication protocol requires a quorum for reads (not just writes), geographic distribution may increase read latency if the quorum must span regions. The tradeoff is explicit: geographic distribution improves disaster recovery and regional read latency but worsens write latency and cross-region consistency operations. No single placement strategy optimizes all dimensions simultaneously."

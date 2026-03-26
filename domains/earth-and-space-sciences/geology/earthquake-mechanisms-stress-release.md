@@ -51,7 +51,7 @@ Earthquakes occur when accumulated stress along faults exceeds rock strength, ca
   answer: true
   explanation: "This is the core physical explanation for earthquake mechanics. Plates do not slide smoothly — friction locks faults, and elastic strain energy accumulates in surrounding rock. When shear stress exceeds frictional strength, the locked fault ruptures and rock snaps to a new configuration, releasing decades of stored energy in a few seconds. This explains both the sudden onset and the large magnitude of major earthquakes."
 
-- question: "After a major earthquake, neighboring faults are always moved further from failure because stress has been released throughout the region."
+- question: "After a major earthquake, neighboring faults are typically moved further from failure because stress has been released throughout the region."
   type: true-false
   answer: false
   explanation: "Coulomb stress transfer is more complex than uniform stress relief. Slip on one fault changes the stress field in specific geometric patterns — some nearby faults are brought CLOSER to failure (increased Coulomb stress), others are moved further away. This explains why aftershock sequences follow predictable spatial patterns and why one large earthquake can trigger others on neighboring faults. Stress transfer is directional, not a blanket release."

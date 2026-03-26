@@ -59,7 +59,7 @@ Start with indifference curves and verify which utility functions generate the s
   answer: false
   explanation: "Multiplying by a positive constant is a monotonic transformation — it preserves the ordering of every pair of bundles. If u(A) > u(B), then 3u(A) > 3u(B). The ranking of all bundles is unchanged, so the indifference curves are identical and the new function represents the same preferences. Only transformations that reverse the ordering (like multiplying by -1) would change which bundles are preferred."
 
-- question: "If two consumers have different utility functions, they must have different underlying preferences."
+- question: "If two consumers have different utility functions, they is expected to have different underlying preferences."
   type: true-false
   answer: false
   explanation: "The same preference ordering can be represented by infinitely many utility functions — any monotonic transformation of a valid utility function is equally valid. Two consumers might use u₁(x) = x₁x₂ and u₂(x) = x₁²x₂², which look very different but represent identical preferences (u₂ = u₁², a monotonic transformation). Behavior depends on indifference curves — not utility values — and monotonic transformations leave indifference curves unchanged."

@@ -43,7 +43,7 @@ Identify degree and leading coefficient from various polynomial expressions, inc
   answer: 1
   explanation: "The degree is the highest power of x with a nonzero coefficient. Even though x⁴ is not the first term written, it is the highest-power term, so the degree is 4. This polynomial is not in standard form — the degree is determined by the highest power present, not the first term written."
 
-- question: "A degree-4 polynomial always has exactly 4 x-intercepts."
+- question: "A degree-4 polynomial generally has exactly 4 x-intercepts."
   type: true-false
   answer: false
   explanation: "The degree gives the maximum number of real x-intercepts, not the exact count. A degree-4 polynomial can have 0, 1, 2, 3, or 4 real x-intercepts. For example, f(x) = x⁴ + 1 has no real x-intercepts because x⁴ + 1 > 0 for all real x. Some intercepts may be complex (non-real) or repeated."

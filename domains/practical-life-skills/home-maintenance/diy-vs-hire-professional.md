@@ -50,7 +50,7 @@ Before starting any repair, search '[repair type] permit required [your state/ci
   answer: 2
   explanation: "Electrical panel work involves high-voltage connections to the utility feed, which can cause electrocution, fires, or whole-house arc faults if done incorrectly. It requires a licensed electrician and typically a permit with inspection. The other three options — cover plates, drywall patching, painting — are standard DIY tasks with minimal safety risk and no permit requirement."
 
-- question: "Unpermitted work on your home only creates a problem if a building inspector discovers it while the work is in progress."
+- question: "Unpermitted work on your home primarily creates a problem if a building inspector discovers it while the work is in progress."
   type: true-false
   answer: false
   explanation: "Unpermitted work creates problems at multiple points beyond active inspection: when you sell the home (buyers' inspectors flag unpermitted additions, which can kill the sale or require costly remediation), when you file an insurance claim (insurers may deny claims for damage related to unpermitted work), and when a subsequent owner discovers the code violation and traces it back. In some jurisdictions, you may be required to tear out and redo the work correctly at your expense."

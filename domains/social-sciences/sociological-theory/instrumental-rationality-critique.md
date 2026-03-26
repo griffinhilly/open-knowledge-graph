@@ -57,7 +57,7 @@ Examine policy debates (education, healthcare, environment) and notice how argum
   answer: true
   explanation: "This is the defining feature of instrumental reason as Horkheimer describes it. Given a goal, it calculates the optimal path to it. But whether the goal is worth pursuing is a different kind of question — one requiring substantive reason, ethical and political deliberation. Instrumental reason cannot step outside the means-end structure to evaluate the ends themselves. This is not a flaw but its character; the problem arises when this limited form of reason claims to exhaust all of rationality."
 
-- question: "The Frankfurt School's critique of instrumental rationality implies that all forms of reasoning are equally limited, and therefore no rational basis exists for preferring one set of ends over another."
+- question: "The Frankfurt School's critique of instrumental rationality implies that most forms of reasoning are equally limited, and therefore no rational basis exists for preferring one set of ends over another."
   type: true-false
   answer: false
   explanation: "This slides into relativism, which the Frankfurt School explicitly rejected. The argument is that there are different kinds of reason, and recovering substantive and communicative reason enables rational evaluation of ends. The critique calls for expanding rather than abandoning reason. Relativism — 'any set of ends is as good as any other' — is the opposite of the critique's aim, which is to restore the capacity to rationally scrutinize and critique the ends our societies are organized around."

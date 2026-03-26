@@ -57,7 +57,7 @@ Constructivism does not deny that material factors (weapons, geography) matter; 
   answer: true
   explanation: "This is Wendt's core claim. Anarchy is a condition, not a cause: whether it produces Hobbesian (enemies), Lockean (rivals), or Kantian (friends) relations depends on the shared understandings, identities, and histories states build with each other. Two states in anarchy could be either allies or enemies — the material fact of anarchy alone doesn't tell you which."
 
-- question: "Wendt's constructivism holds that material factors like military capability are irrelevant to international relations — only ideas and identities determine outcomes."
+- question: "Wendt's constructivism holds that material factors like military capability are irrelevant to international relations — mainly ideas and identities determine outcomes."
   type: true-false
   answer: false
   explanation: "Constructivism does not deny that material factors matter. Wendt explicitly acknowledges that weapons, geography, and economic power constrain behavior. The claim is that material factors have no inherent meaning apart from the social relationships and interpretations through which states understand them. A nuclear weapon is meaningless without a theory of who holds it and why — and that theory is social."

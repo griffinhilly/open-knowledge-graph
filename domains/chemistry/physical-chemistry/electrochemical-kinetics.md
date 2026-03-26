@@ -58,7 +58,7 @@ Plot Butler-Volmer curves for different i₀ values and observe how exchange cur
   answer: 1
   explanation: "At equilibrium, forward (oxidation) and reverse (reduction) reactions proceed at equal rates, each characterized by i₀. The net current is zero, but electron transfer is continuously occurring in both directions. This is why a large i₀ signals a kinetically fast (reversible) electrode — not that more is happening, but that the bidirectional exchange is vigorous."
 
-- question: "According to Butler-Volmer theory, applying a sufficiently large overpotential will always produce a proportionally larger current without limit."
+- question: "According to Butler-Volmer theory, applying a sufficiently large overpotential will generally produce a proportionally larger current without limit."
   type: true-false
   answer: false
   explanation: "Butler-Volmer describes the kinetic (charge-transfer) limit only. At large overpotentials, the rate of reactant supply to the electrode surface (mass transport) becomes the bottleneck, and current saturates at a diffusion-limited plateau. Ignoring this is a common error when extrapolating Butler-Volmer curves to extreme overpotentials."

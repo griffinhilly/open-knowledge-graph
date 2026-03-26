@@ -61,7 +61,7 @@ Practice with daily Table Topics (a Toastmasters technique): have someone give y
   answer: false
   explanation: "Confidence and engagement are delivery qualities, not structural ones. Without structure, the response becomes rambling — sentences wander, points trail off, and the response lacks a discernible end. An audience can follow a slightly awkward but well-structured response; they struggle to follow a charismatic but unstructured one. The Common Misconceptions section states this directly: 'Impromptu skill cannot be faked by seeming confident — it requires genuine internalization of organizational patterns.' Presence is valuable but cannot substitute for coherence."
 
-- question: "The PREP framework (Point-Reason-Example-Point) ensures that every impromptu response is logically rigorous and supported by strong evidence."
+- question: "The PREP framework (Point-Reason-Example-Point) ensures that nearly every impromptu response is logically rigorous and supported by strong evidence."
   type: true-false
   answer: false
   explanation: "PREP's purpose is coherence and organizational speed, not logical rigor. It gives the speaker a reliable four-part structure (claim → reason → illustration → restatement) that can be deployed in seconds. The 'Reason' and 'Example' steps are often informal and functional rather than formally argued. The goal is for the listener to follow the response and perceive organization, not to produce a peer-reviewed argument. The topic's core idea explicitly states: 'The goal is not eloquence but coherence.'"

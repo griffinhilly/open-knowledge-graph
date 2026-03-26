@@ -55,7 +55,7 @@ Study Greenberg's typological universals and evaluate which can be explained by 
   answer: 0
   explanation: "The core dispute is about the source of universals. Universal Grammar proposes that the commonalities across languages reflect a species-specific, innate biological endowment — a language faculty with principles and parameters. Usage-based accounts argue the same patterns can be explained by general cognitive mechanisms (pattern recognition, analogy, frequency learning) applied to culturally transmitted data, without positing a dedicated innate grammar. Both accept that universals exist; they disagree on why."
 
-- question: "Universal Grammar claims that all human languages are fundamentally the same — they share the same grammatical rules and structures."
+- question: "Universal Grammar claims that most human languages are fundamentally the same — they share the same grammatical rules and structures."
   type: true-false
   answer: false
   explanation: "This is the most common misunderstanding of UG. Universal Grammar does not claim all languages are the same. It claims languages conform to abstract principles (such as structure-dependence) and vary along a finite set of parameters (such as head-directionality or null-subject permission). This framework explicitly predicts variation: two languages can look very different in surface features while both conforming to UG principles. UG defines the space of possible human languages, not a single universal grammar."

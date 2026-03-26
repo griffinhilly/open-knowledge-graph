@@ -48,12 +48,12 @@ Space refers to the area around, between, and within shapes and forms in a compo
   answer: 2
   explanation: "Overlap, or occlusion, is the simplest and most intuitive depth cue. When one shape partially covers another, we immediately read the covering shape as closer. This works because in real life, closer objects block our view of objects behind them. No special technique is required — simply placing one form in front of another creates the effect."
 
-- question: "In a flat drawing, objects placed higher on the page always appear to be floating above the composition rather than farther away."
+- question: "In a flat drawing, objects placed higher on the page usually appear to be floating above the composition rather than farther away."
   type: true-false
   answer: false
   explanation: "Vertical placement is a depth cue: objects higher in the composition generally read as farther away from the viewer. This mimics how we perceive the ground plane — nearby objects sit near the bottom of our visual field, while distant objects appear near the horizon (higher up). The default reading is distance, not levitation."
 
-- question: "A flat surface can only create the illusion of depth if the artist uses color — specifically atmospheric perspective."
+- question: "A flat surface can primarily create the illusion of depth if the artist uses color — specifically atmospheric perspective."
   type: true-false
   answer: false
   explanation: "Depth illusions can be created using only overlap, size variation, and vertical placement — no color required. Atmospheric perspective is a more advanced technique but is not necessary. Even simple arrangements of geometric shapes of different sizes, overlapping, and placed at different heights create convincing depth without any color."

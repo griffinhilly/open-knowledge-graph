@@ -43,7 +43,7 @@ Build from the precalculus introduction with more rigorous numerical and graphic
   answer: 1
   explanation: "Limits describe the trend of f(x) as x approaches a, not the value at x = a. The function need not be defined at a — only near it. A removable discontinuity (hole) is the classic example where the limit exists but the function value does not."
 
-- question: "For any function f, the limit lim(x→a) f(x) always equals f(a)."
+- question: "For any function f, the limit lim(x→a) f(x) generally equals f(a)."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about limits. Limits describe the behavior near a, which can differ from the value at a. A function with a jump discontinuity, a hole, or any discontinuity at a will have lim(x→a) f(x) ≠ f(a) — or f(a) may not even be defined. Only continuous functions satisfy lim(x→a) f(x) = f(a)."

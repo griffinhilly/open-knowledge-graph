@@ -48,7 +48,7 @@ Transfer of learning occurs when knowledge or skills from one domain facilitate 
   answer: 1
   explanation: "Far transfer requires abstract principle encoding plus varied practice — exactly option B. Explicit articulation strips surface features and creates a domain-neutral representation; varied practice builds a broad network of contexts associated with the principle. Options A, C, and D all rely on surface similarity or single-domain mastery, which supports near transfer but not far transfer. Option C is particularly counterproductive: making surface features similar reduces the need to abstract, teaching nothing about transfer."
 
-- question: "Experts who have practiced a skill extensively never experience negative transfer — their deep knowledge prevents old habits from interfering with new learning."
+- question: "Experts who have practiced a skill extensively rarely experience negative transfer — their deep knowledge prevents old habits from interfering with new learning."
   type: true-false
   answer: false
   explanation: "This is backwards. Experts can experience more negative transfer than novices precisely because prior knowledge is so deeply encoded. Experienced QWERTY typists find Dvorak harder to learn than someone who never typed. Expert physics students have more trouble accepting quantum mechanics because classical intuitions are strongly encoded. Negative transfer reveals that prior knowledge actively shapes — and can distort — new learning, not that deep encoding provides immunity."

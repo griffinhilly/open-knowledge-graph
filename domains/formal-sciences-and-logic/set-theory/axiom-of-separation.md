@@ -60,7 +60,7 @@ Practice applying separation to construct specific sets: intersections A ∩ B =
   answer: true
   explanation: "To capture 'for any property φ, the separation axiom holds' in first-order logic, you cannot write a single quantified axiom over all φ (that would require second-order logic). Instead, ZFC includes the axiom schema as a template: for each specific formula φ you can write down, there is one axiom of the form '∀A ∃B ∀x (x ∈ B ↔ x ∈ A ∧ φ(x)).' This is an infinite but uniform family."
 
-- question: "The axiom of separation allows you to form the set {x : x = x} — the set of all self-identical things — because x = x is a valid first-order formula."
+- question: "The axiom of separation allows you to form the set {x : x = x} — the set of most self-identical things — because x = x is a valid first-order formula."
   type: true-false
   answer: false
   explanation: "Separation requires you to start from an existing set A: you can form {x ∈ A : x = x}, which is just A itself (every element of A is self-identical). But {x : x = x} without a bounding set A would be the universal set — containing every object that exists. ZFC proves no such set exists, and separation's design is precisely to prevent this: any 'form from scratch using a property' construction is forbidden."

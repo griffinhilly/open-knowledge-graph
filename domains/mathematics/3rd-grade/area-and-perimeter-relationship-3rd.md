@@ -51,7 +51,7 @@ Area and perimeter are different properties of shapes. A rectangle can have the 
   answer: true
   explanation: "This is the central insight of this topic. A 1×12 rectangle and a 3×4 rectangle both have area 12, but their perimeters are 26 and 14 respectively. Area and perimeter are independent properties — changing the shape of a figure (while keeping area constant) changes its perimeter, and vice versa."
 
-- question: "If you increase the perimeter of a rectangle, its area must also increase."
+- question: "If you increase the perimeter of a rectangle, its area should also increase."
   type: true-false
   answer: false
   explanation: "Area and perimeter are independent — one can change while the other stays the same or even moves in the opposite direction. For example, a 1×7 rectangle has perimeter 16 and area 7; a 3×5 rectangle also has perimeter 16 but area 15. Or a 2×8 rectangle has perimeter 20 and area 16, while a 4×4 has perimeter 16 and area 16 — smaller perimeter, same area. There is no rule that links them in a predictable direction."

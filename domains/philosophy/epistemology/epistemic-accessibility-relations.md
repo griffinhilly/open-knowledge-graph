@@ -47,7 +47,7 @@ An accessibility relation R relates possible worlds to possible worlds, with wRw
   answer: 1
   explanation: "Justified false belief is modeled by non-reflexivity: the agent's accessible worlds (those they cannot rule out) do not include the actual world w. The believed worlds all make p true — that is why the agent believes p — but the actual world is not among them, so p is false there. This is precisely why you cannot KNOW a falsehood but can BELIEVE one: knowledge requires reflexivity (the actual world must be accessible), belief does not. Option A is contradictory: reflexivity is the property wRw, so it cannot simultaneously hold and fail."
 
-- question: "If an agent's epistemic accessibility relation satisfies transitivity, the agent achieves omniscience — they know everything that is true in all logically possible worlds."
+- question: "If an agent's epistemic accessibility relation satisfies transitivity, the agent achieves omniscience — they know everything that is true in most logically possible worlds."
   type: true-false
   answer: false
   explanation: "Transitivity gives the 4 axiom: Kp → KKp (positive introspection — if you know p, you know that you know p). It does NOT give omniscience. The agent still only knows what holds in all their accessible worlds; transitivity just says that what is accessible from accessible worlds is also directly accessible. The agent remains ignorant of facts outside their epistemic range. Omniscience would require a universal accessibility relation (every world accesses every other), which is a far stronger property."

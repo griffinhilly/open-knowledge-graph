@@ -44,7 +44,7 @@ Quality assurance and quality control programs ensure analytical laboratories de
   answer: 1
   explanation: "Spiked sample recovery tests for matrix effects and systematic bias: does the analyte behave the same in a real sample matrix as in a calibration standard made in clean solvent? Recovery of 78% suggests matrix suppression — the sample matrix interferes with detection or extraction of the analyte, causing it to read low. This is distinct from contamination (which would inflate the result) or calibration error (which would affect all samples equally). Matrix-matched standards or standard addition can correct for this. Method blanks — not spikes — detect contamination."
 
-- question: "A single control result that falls within ±2 standard deviations of the established mean proves the batch is in statistical control and all results are acceptable."
+- question: "A single control result that falls within ±2 standard deviations of the established mean proves the batch is in statistical control and most results are acceptable."
   type: true-false
   answer: false
   explanation: "False. A single within-limit result is necessary but not sufficient. Statistical control also requires the absence of non-random patterns: systematic trends, runs of consecutive results on one side of the mean, or gradual drift can all indicate a system drifting out of control even when no individual result has crossed a threshold. Westgard rules codify these pattern-based triggers specifically because single-result checks miss systematic problems that develop over successive batches."

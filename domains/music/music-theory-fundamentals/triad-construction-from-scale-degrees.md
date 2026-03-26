@@ -62,7 +62,7 @@ Students sometimes forget that triads use non-consecutive pitches (skipping ever
   answer: true
   explanation: "Build the triad on B in C major: B–D–F. B to D is a minor third (3 semitones), D to F is a minor third (3 semitones). Two stacked minor thirds = diminished triad. This holds in every major key because the seventh scale degree's position — one semitone below the tonic — means the intervals above it always stack two minor thirds. No memorization required; the interval structure of the major scale forces this result."
 
-- question: "Every diatonic triad in a major key is either major or minor."
+- question: "Most diatonic triad in a major key is either major or minor."
   type: true-false
   answer: false
   explanation: "The triad built on scale degree 7 (the leading tone) is diminished — neither major nor minor. A diminished triad consists of two stacked minor thirds, producing a tritone between root and fifth rather than a perfect fifth. In C major, B–D–F is the diminished triad (vii°). This matters in practice: the vii° chord functions differently from major and minor triads and is typically treated as an incomplete dominant seventh chord."

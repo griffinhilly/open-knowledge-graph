@@ -51,7 +51,7 @@ The Boltzmann equation ∂f/∂t + v·∇f + F/m·∇_v f = (∂f/∂t)_{coll} d
   answer: true
   explanation: "The equilibrium distribution f^eq ∝ exp(−mv²/2kT) is the steady-state solution when the left side (streaming) is zero and the collision term drives f to f^eq. The BTE's purpose is precisely to describe how f evolves when there are density gradients, temperature gradients, or external forces — all non-equilibrium conditions. This makes the BTE the foundational equation of non-equilibrium statistical mechanics, bridging microscopic particle dynamics to macroscopic transport phenomena."
 
-- question: "The Boltzmann transport equation provides a complete microscopic description of every particle's individual trajectory in the gas."
+- question: "The Boltzmann transport equation provides a complete microscopic description of most particle's individual trajectory in the gas."
   type: true-false
   answer: false
   explanation: "The BTE is a mesoscopic, statistical equation: f(r,v,t) is the phase-space density, not the position or velocity of any individual particle. It describes the collective statistical evolution of an ensemble of particles — averaging over microscopic fluctuations. The actual trajectory of a given particle is not tracked. This is why the BTE is an intermediate-level description, more coarse-grained than molecular dynamics (which tracks individual particles) but more detailed than macroscopic fluid equations (which have already averaged over velocity space)."

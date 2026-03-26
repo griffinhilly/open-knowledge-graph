@@ -50,7 +50,7 @@ Scope ambiguities arise when multiple operators in a sentence can take scope in 
   answer: 2
   explanation: "The de re reading attributes a belief *about a particular individual* — it says there is an individual x (namely Maria, who happens to be the tallest spy) such that John believes of x that she is dangerous. John need not know the description 'tallest spy' applies to her; the de re reading only requires that his belief is directed at that individual, however he identifies her. The de dicto reading would require John to have a belief *about the description itself* — believing that whoever satisfies 'tallest spy' is dangerous. The two readings differ precisely in whether the description scopes outside (de re) or inside (de dicto) John's belief context."
 
-- question: "On the de re reading of a belief attribution, the believer must have the individual in mind under the relevant description."
+- question: "On the de re reading of a belief attribution, the believer is expected to have the individual in mind under the relevant description."
   type: true-false
   answer: false
   explanation: "This is the key misconception about the de re/de dicto distinction. The de re reading requires only that there is a particular individual about whom the belief is held — it does not require the believer to identify that individual under any specific description. John's belief can be de re about Maria even if he knows her only as 'the woman in the blue coat' and has no idea she is the tallest spy. The description in the sentence ('the tallest spy') is used by the *attributor* to pick out the individual; it need not be how the believer represents her."

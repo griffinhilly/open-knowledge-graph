@@ -49,7 +49,7 @@ Goldstone's theorem states that every continuously broken symmetry produces a ga
   answer: true
   explanation: "A perfect crystal breaks continuous translational symmetry — atoms settle into specific lattice positions that are not invariant under arbitrary spatial translations. Long-wavelength sound waves (acoustic phonons) are the corresponding Goldstone modes: coherent slow displacements of the lattice in which atoms slide smoothly from position to position over a long length scale. Their dispersion ω = vk vanishes as k → 0, confirming they are gapless. This is a general result: any time continuous translational symmetry is broken by an ordered structure, acoustic phonons are the Goldstone modes."
 
-- question: "The energy of a Goldstone mode is independent of wavelength — it has a flat dispersion relation, meaning all wavelengths require the same energy to excite."
+- question: "The energy of a Goldstone mode is independent of wavelength — it has a flat dispersion relation, meaning most wavelengths require the same energy to excite."
   type: true-false
   answer: false
   explanation: "Goldstone modes have precisely the opposite dispersion: their energy vanishes as wavelength increases (k → 0). This is what 'gapless' means — the energy cost goes to zero in the long-wavelength limit. Formally, ω → 0 as k → 0, not a constant. Short-wavelength Goldstone modes do require more energy (twisting the order parameter over a short distance costs more than a slow twist over a long distance), but the long-wavelength modes are essentially free to excite. A flat dispersion would describe a gapped mode at finite energy, which is the opposite of a Goldstone mode."

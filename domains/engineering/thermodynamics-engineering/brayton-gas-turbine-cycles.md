@@ -53,7 +53,7 @@ The Brayton cycle (compressor, combustor, turbine, exhaust) uses compressed air 
   answer: true
   explanation: "A simple-cycle gas turbine exhausts at 500–600°C — still very hot, representing a large fraction of unrecovered thermal energy. A heat recovery steam generator (HRSG) captures this waste heat to produce steam, driving a second (Rankine) turbine. The combined system achieves 55–60% thermal efficiency versus 35–40% for the gas turbine alone. The efficiency gain is not from burning more fuel but from extracting useful work from heat that would otherwise be vented to the atmosphere. This is why virtually all modern natural-gas power plants are combined-cycle."
 
-- question: "In real gas turbine operation, increasing the compressor pressure ratio always improves thermal efficiency regardless of the turbine inlet temperature constraint."
+- question: "In real gas turbine operation, increasing the compressor pressure ratio usually improves thermal efficiency regardless of the turbine inlet temperature constraint."
   type: true-false
   answer: false
   explanation: "Real turbine blades have material temperature limits (~1400–1600°C for modern superalloys with cooling). As pressure ratio increases, compressor outlet temperature rises. If turbine inlet temperature is fixed, the temperature difference across the combustor shrinks, reducing the heat addition per unit mass flow. At some pressure ratio, this effect dominates, and efficiency peaks then declines. Even for the ideal Brayton cycle, real engineering optimization always involves the turbine inlet temperature as a co-parameter — the optimal pressure ratio increases with turbine inlet temperature, making materials research and blade cooling as important as compressor design."

@@ -48,7 +48,7 @@ Mercantilism was the dominant economic doctrine of the early modern period, hold
   answer: 1
   explanation: "Mercantilist logic designed colonies as captive supply chains: they produced raw materials cheaply and purchased finished goods exclusively from the mother country. A colony that manufactured its own cloth competed directly with the metropole's textile exporters — undermining the very trade surplus mercantilism sought. English Navigation Acts and French Colbert-era restrictions both enforced this arrangement. The plantation system, staffed by enslaved workers, was the labor solution to producing raw materials at low cost, making it structurally inseparable from mercantilist colonial policy."
 
-- question: "Mercantilist theory viewed international trade as a path to mutual economic gain for all participating nations."
+- question: "Mercantilist theory viewed international trade as a path to mutual economic gain for most participating nations."
   type: true-false
   answer: false
   explanation: "The opposite: mercantilism treated trade as a zero-sum competition where one nation's gain required another's loss. A favorable balance of trade — exporting more than importing, so that gold flowed in — was the goal, because every ounce of gold entering your treasury was one less available to rivals. This is why mercantilist states engaged in commercial warfare, colonial monopolies, and trade restrictions. The mutual-gains view of trade was the central argument Adam Smith and David Ricardo deployed against mercantilism in the late 18th and early 19th centuries."

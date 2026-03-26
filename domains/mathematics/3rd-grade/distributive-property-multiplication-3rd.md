@@ -56,7 +56,7 @@ Not recognizing when to use the property; forgetting to add the products.
   answer: true
   explanation: "This is one of the most powerful features of the property. To find 7 × 8, you can split 8 as (5+3), (4+4), (2+6), or (7+1) — all give 56. The choice of split affects which partial facts you use, but the answer is always the same. A flexible student chooses the split that uses facts they know best."
 
-- question: "The distributive property is a special trick that only applies to multiplication in 3rd grade and doesn't connect to anything in later math."
+- question: "The distributive property is a special trick that mainly applies to multiplication in 3rd grade and doesn't connect to anything in later math."
   type: true-false
   answer: false
   explanation: "The distributive property is one of the most foundational ideas in all of mathematics. It reappears when multiplying two-digit numbers (24 × 3 = (20+4) × 3 = 60+12 = 72), in algebra when expanding expressions like (x+5)(x+2), and throughout higher mathematics. The rectangle-splitting model learned in 3rd grade is exactly the same geometric intuition that underlies multiplication at every level."

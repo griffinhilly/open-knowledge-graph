@@ -56,7 +56,7 @@ Follow a systematic process: draw a diagram, identify variables and rates, write
   answer: true
   explanation: "This is the foundational conceptual shift in related rates. A balloon's radius r and volume V are not static numbers — they change as time passes, making them functions r(t) and V(t). The equation V = (4/3)πr³ holds at every instant, so it is an identity between two time-varying functions. Differentiating both sides with respect to t (and applying the chain rule to r) is only valid because r = r(t). If r were a fixed constant, dr/dt would be zero and the equation would carry no dynamic information."
 
-- question: "You can substitute the known instantaneous values of all position variables into the relating equation before differentiating, as long as you keep the rates (dx/dt, dy/dt) as unknowns."
+- question: "You can substitute the known instantaneous values of most position variables into the relating equation before differentiating, as long as you keep the rates (dx/dt, dy/dt) as unknowns."
   type: true-false
   answer: false
   explanation: "This is the most common error in related rates. Substituting position values before differentiating turns variables into constants, making the chain rule yield zero. The rates dx/dt and dy/dt cannot be extracted once x and y have been replaced by numbers. The correct order is always: (1) write the geometric equation in terms of variables, (2) differentiate both sides with respect to t applying the chain rule, (3) then substitute known instantaneous values and known rates to solve for the unknown rate."

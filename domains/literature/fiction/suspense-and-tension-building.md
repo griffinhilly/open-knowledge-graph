@@ -56,7 +56,7 @@ That tension requires external danger; that constant tension is desirable; that 
   answer: true
   explanation: "Tension is emotional pressure — it arises from competing forces, unresolved character stakes, and loaded interactions, not from uncertainty about plot outcomes. Suspense requires not knowing what happens; tension requires only that what's at stake is clearly drawn and matters to the reader. A novel with its ending disclosed on page one can still be almost unbearably tense if the internal stakes are high and the scenes are constructed to highlight the pressure those stakes create."
 
-- question: "A fast-paced chapter with short sentences and rapid action is always more tense than a slow, contemplative one."
+- question: "A fast-paced chapter with short sentences and rapid action is typically more tense than a slow, contemplative one."
   type: true-false
   answer: false
   explanation: "Pacing and tension are separable. A fast-paced chapter can feel tense or can feel hollow and mechanical — if the stakes are low or the action lacks investment, speed creates no emotional pressure. A slow, quiet chapter can be almost unbearably tense: after pages of charged but indirect exchange, a single honest sentence can carry enormous weight precisely because the surrounding silence has been so carefully built. The distinction between pacing (sentence-level rhythm) and tension (structural emotional pressure) is the key insight."

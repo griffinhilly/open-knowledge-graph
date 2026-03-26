@@ -59,7 +59,7 @@ Assuming all large elements need to be focal points; not considering how scale i
   answer: 1
   explanation: "This is relative size operating as a mutual reinforcement mechanism: the figure makes the cliff feel large (because the figure is small relative to the cliff), and the cliff makes the figure feel small (because the cliff is vast relative to the figure). Each element's scale gives meaning to the other. Without the figure, the cliff might feel large but ambiguously so; the human-scale reference makes the vastness quantifiable and emotionally felt — a classic technique in Romantic landscape painting."
 
-- question: "Making an element larger than everything else in a composition always guarantees that it will be the viewer's primary focal point."
+- question: "Making an element larger than everything else in a composition generally guarantees that it will be the viewer's primary focal point."
   type: true-false
   answer: false
   explanation: "Size is a powerful hierarchy cue but not an absolute guarantee of dominance. A large element with low contrast — a pale gray shape on a light background — may attract less attention than a small element in a high-contrast, saturated color placed in strong isolation. Scale must interact with other emphasis tools to dominate reliably. The most effective compositions use scale as the primary hierarchy signal and reinforce it with contrast, position, and isolation — when these signals conflict, a large, muted element can be outcompeted by a small, vivid one."

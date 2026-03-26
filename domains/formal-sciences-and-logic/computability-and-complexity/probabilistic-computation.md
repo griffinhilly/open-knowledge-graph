@@ -48,7 +48,7 @@ Study concrete randomized algorithms first: Miller-Rabin primality testing and S
   answer: 2
   explanation: "By the Chernoff bound, the probability that a strict majority of k independent runs gives the wrong answer decreases exponentially in k. With k = 100 runs, the error is astronomically small even though each individual run still errs with probability 1/3. This error amplification is why the specific threshold of 1/3 in BPP's definition is not fundamental — any constant below 1/2 yields the same complexity class."
 
-- question: "A BPP algorithm's error probability applies to adversarially chosen inputs: on 'hard' inputs, the algorithm may always fail."
+- question: "A BPP algorithm's error probability applies to adversarially chosen inputs: on 'hard' inputs, the algorithm may typically fail."
   type: true-false
   answer: false
   explanation: "The error in BPP is over the algorithm's internal random coin flips, not over the choice of input. For every fixed input x — including the hardest possible — the algorithm is correct with probability at least 2/3. There is no 'adversarial input' that exploits the randomness; the guarantee holds for all inputs simultaneously."

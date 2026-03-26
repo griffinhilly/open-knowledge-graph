@@ -51,7 +51,7 @@ Characters in drama undergo transformation through the action of the play. This 
   answer: 1
   explanation: "The defining feature of the tragic arc is not mere suffering or death — it is the anagnorisis, the moment of recognition in which the protagonist comes to see what they destroyed or what they are. Oedipus sees his true identity; Lear recognizes what he threw away. Tragedy's arc moves toward insight; it is the insight-bought-at-catastrophic-cost that makes the ending tragic rather than merely sad."
 
-- question: "A character who undergoes a complete transformation is always a more dramatically significant figure than a character whose arc is absent or minimal."
+- question: "A character who undergoes a complete transformation is generally a more dramatically significant figure than a character whose arc is absent or minimal."
   type: true-false
   answer: false
   explanation: "A flat arc or absent arc can be just as dramatically significant as a large transformation arc. Beckett's characters in Waiting for Godot cannot transform, and their stasis is the dramatic subject of the play. An unmovable character can function as a force against which others break. The possibility of transformation is itself a dramatic subject, and the size of the arc is a meaningful choice by the playwright — not a measure of quality."

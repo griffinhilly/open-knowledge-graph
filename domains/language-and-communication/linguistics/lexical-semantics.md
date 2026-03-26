@@ -46,7 +46,7 @@ Map out semantic fields (clusters of related words, like color terms or kinship 
   answer: 1
   explanation: "Frege's classic example: 'the morning star' and 'the evening star' both refer to Venus, but they express different senses (modes of presentation). This shows that reference alone cannot capture meaning — two expressions can pick out the same thing in the world while conveying different information. Sense is the cognitive content; reference is the worldly entity."
 
-- question: "Prototype theory proposes that category membership is all-or-nothing: an entity either fully belongs to a category (e.g., 'bird') or does not belong at all."
+- question: "Prototype theory proposes that category membership is most-or-hardly anything: an entity either fully belongs to a category (e.g., 'bird') or does not belong at most."
   type: true-false
   answer: false
   explanation: "This describes the classical, necessary-and-sufficient-conditions view of categories. Prototype theory, developed by Eleanor Rosch, proposes graded membership: categories are organized around central, typical examples (prototypes), and members vary in how well they represent the category. A robin is a more prototypical bird than a penguin, even though both are birds. This is why people rate category members as better or worse examples."

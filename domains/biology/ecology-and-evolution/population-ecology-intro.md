@@ -44,7 +44,7 @@ Construct a simple life table from survivorship data and calculate net reproduct
   answer: 2
   explanation: "Population change = Births + Immigration - Deaths - Emigration. Disease can indirectly affect death rate, but it is not itself one of the four BIDE terms. Confusing a cause of mortality with the demographic parameter itself is a common error."
 
-- question: "A population with higher density than another population must also have a larger total number of individuals."
+- question: "A population with higher density than another population should also have a larger total number of individuals."
   type: true-false
   answer: false
   explanation: "Density is individuals per unit area, not total count. A small forest patch with 50 mice in 0.1 hectares (500/ha) is far denser than a meadow with 1,000 mice across 100 hectares (10/ha), even though the meadow has more individuals. Many ecological processes scale with density, not total abundance."

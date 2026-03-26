@@ -46,7 +46,7 @@ Draw graphs by hand constantly. Start with small examples (5-6 vertices), identi
   answer: 0
   explanation: "By the handshaking lemma, the sum of all degrees equals twice the number of edges. Sum of degrees = 4+3+3+2+2+2 = 16, so the number of edges = 16/2 = 8. This works for any simple undirected graph — no edge list needed."
 
-- question: "Two drawings of a graph that look geometrically different (e.g., one has crossing edges, the other doesn't) must be different graphs."
+- question: "Two drawings of a graph that look geometrically different (e.g., one has crossing edges, the other doesn't) should be different graphs."
   type: true-false
   answer: false
   explanation: "A graph is defined by its vertex and edge sets G = (V, E), not by how it is drawn on paper. The same graph can be drawn in infinitely many ways. Two graphs that look different in a drawing may be isomorphic — structurally identical. Only the combinatorial relationships matter, not the geometric positions of vertices."

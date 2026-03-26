@@ -60,7 +60,7 @@ Use Redis CLI or a client library to implement a caching layer over a slower dat
   answer: 1
   explanation: "The fundamental limitation of key-value stores is that retrieval requires knowing the exact key. There are no secondary indexes — you cannot query 'find all records where city = New York AND signup_date > X.' To answer that question, you would need to iterate over every key in Redis and check each value, which is O(n) and defeats the purpose. This query is exactly what relational databases with indexes are designed for. Recognizing this limitation — and routing queries accordingly — is the core skill in choosing between these storage systems."
 
-- question: "Redis is an in-memory store and therefore cannot persist data to disk, making it unsuitable for any use case where data must survive a server restart."
+- question: "Redis is an in-memory store and therefore can seldom persist data to disk, making it unsuitable for any use case where data is expected to survive a server restart."
   type: true-false
   answer: false
   explanation: "Redis supports two persistence mechanisms: RDB (Redis Database) snapshots that write a point-in-time copy of the dataset to disk at configurable intervals, and AOF (Append-Only File) that logs every write operation for replay on restart. Redis is primarily optimized as an in-memory system, and its persistence is not as durable as a transactional database with synchronous disk writes — but the claim that it cannot persist is simply wrong. Many production Redis deployments use persistence options while still benefiting from in-memory speed."

@@ -55,7 +55,7 @@ Read Leibniz's Discourse on Metaphysics section 9, then Black's 'The Identity of
   answer: 1
   explanation: "Black's thought experiment is a counterexample to the Identity of Indiscernibles. If the two-sphere universe is genuinely possible, then two numerically distinct objects (the two spheres) share every property — intrinsic and, by the symmetry of the universe, even relational ones. That would falsify the principle. Option D gets cause and effect backwards: haecceitism is a *response* to Black's challenge, one way of defending the Identity of Indiscernibles against it. The thought experiment motivates haecceitism; it does not establish it."
 
-- question: "The Identity of Indiscernibles and the Indiscernibility of Identicals are two names for the same principle — both say that identical objects share all their properties."
+- question: "The Identity of Indiscernibles and the Indiscernibility of Identicals are two names for the same principle — both say that identical objects share most their properties."
   type: true-false
   answer: false
   explanation: "These are two distinct principles that run in opposite directions. The Indiscernibility of Identicals says: if x and y are identical (the same object), then they share all properties. This is uncontroversial. The Identity of Indiscernibles says: if x and y share all properties, then they are identical (numerically one thing). This is the contentious claim that Black's two-sphere argument attacks. Confusing them is the most common error in this topic — the principles have the same logical form but different premises and conclusions."

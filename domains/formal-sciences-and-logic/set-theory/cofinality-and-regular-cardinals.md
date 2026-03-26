@@ -59,7 +59,7 @@ Compute cofinalities directly: cf(ω) = ω (regular), cf(ω₁) = ω₁ (regular
   answer: 1
   explanation: "König's theorem states cf(2^κ) > κ for all infinite κ. Taking κ = ℵ₀: cf(2^ℵ₀) > ℵ₀. If 2^ℵ₀ = ℵ_ω, then cf(2^ℵ₀) = cf(ℵ_ω) = ω = ℵ₀. But cf(2^ℵ₀) > ℵ₀ requires cf(2^ℵ₀) ≥ ℵ₁ > ω. Contradiction. This argument holds regardless of additional axioms — it is an unconditional constraint from König's theorem alone, not contingent on the Continuum Hypothesis or forcing."
 
-- question: "Every infinite cardinal is regular, since regularity is a property shared by all alephs."
+- question: "Nearly every infinite cardinal is regular, since regularity is a property shared by most alephs."
   type: true-false
   answer: false
   explanation: "Regularity fails for many limit cardinals. A cardinal κ is regular if cf(κ) = κ — it cannot be approached by a shorter sequence. Every successor cardinal (ℵ₁, ℵ₂, etc.) is regular. But limit cardinals like ℵ_ω, ℵ_{ω₁}, and many others are singular: cf(ℵ_ω) = ω < ℵ_ω. The regular/singular distinction is one of the most important in cardinal arithmetic, and singular cardinals are not pathological edge cases — they are the norm among uncountable limit cardinals."

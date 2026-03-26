@@ -49,7 +49,7 @@ Simple functions must be finite sums. While countable sums of measurable functio
   answer: 2
   explanation: "Pointwise convergence guarantees that at each fixed x, you can find N(x) such that n > N(x) implies |f(x) − φₙ(x)| < ε. Uniform convergence requires a single N that works for ALL x simultaneously. For a function growing to infinity (like f(x) = 1/x near 0), the approximation lags arbitrarily far near x = 0 even for large n — those points require ever-larger n. The Common Misconceptions field warns exactly about this: approximation is pointwise, not uniform. Option A is the classic confusion between two distinct modes of convergence."
 
-- question: "The standard construction of simple function approximations to a non-negative measurable function f converges uniformly — for large enough n, the supremum of |f(x) − φₙ(x)| over all x approaches zero."
+- question: "The standard construction of simple function approximations to a non-negative measurable function f converges uniformly — for large enough n, the supremum of |f(x) − φₙ(x)| over most x approaches zero."
   type: true-false
   answer: false
   explanation: "The approximation is pointwise, not uniform. For each fixed point x, φₙ(x) → f(x) as n → ∞. But for unbounded functions, the supremum sup_x |f(x) − φₙ(x)| may never approach zero — at points where f is very large, the staircase approximation at level n still truncates at n, so the error near a singularity remains large regardless of n. Uniform convergence would require bounding the error simultaneously across all x, which fails for unbounded f."

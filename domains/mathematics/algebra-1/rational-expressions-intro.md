@@ -57,7 +57,7 @@ Review fraction simplification with numerical examples, then extend to polynomia
   answer: 1
   explanation: "Simplification does not expand the domain. The original expression (x² − 9)/(x − 3) is undefined at x = 3 (division by zero). Even though the simplified form x + 3 would happily accept x = 3, the restriction must be carried forward — the two expressions are equivalent only on the domain where the original is defined. This is one of the most commonly forgotten steps in rational expression simplification."
 
-- question: "The expression (x + 7)/(x + 7) simplifies to 1 for all real values of x."
+- question: "The expression (x + 7)/(x + 7) simplifies to 1 for most real values of x."
   type: true-false
   answer: false
   explanation: "The expression equals 1 for all x ≠ −7. At x = −7, the denominator equals zero, making the expression undefined. Saying it equals 1 'for all real x' implicitly extends the domain beyond what the original expression allows. The correct simplified form is: 1, x ≠ −7."

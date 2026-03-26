@@ -48,7 +48,7 @@ Ear training is not inborn talent—it is a skill developed through consistent, 
   answer: 1
   explanation: "Melodic anchoring associates each interval with a memorable song that begins with that interval — for example, a perfect fifth with the Star Wars theme. This works because the melodic context connects the abstract interval to existing long-term musical memory, giving it a concrete sonic identity. Over time, the melody fades as a conscious reference and the interval becomes directly recognizable, much as a familiar face becomes recognizable without deliberate feature enumeration."
 
-- question: "A musician who has studied music theory for five years but has never done ear training exercises will naturally be able to identify intervals by ear, because understanding intervals theoretically gives you the ability to recognize them aurally."
+- question: "A musician who has studied music theory for five years but has rarely done ear training exercises will naturally be able to identify intervals by ear, because understanding intervals theoretically gives you the ability to recognize them aurally."
   type: true-false
   answer: false
   explanation: "Theoretical knowledge of intervals and perceptual recognition of intervals are separate cognitive skills. Knowing the definition and half-step count of every interval does not automatically train the auditory pattern-matching system to identify those intervals by ear. Ear training requires dedicated perceptual practice — listening, singing, and repeatedly matching sound to label — which builds a different kind of knowledge than theoretical study."

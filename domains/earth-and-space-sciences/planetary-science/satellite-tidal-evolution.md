@@ -57,7 +57,7 @@ Calculate tidal dissipation rates using Love numbers and orbital elements. Integ
   answer: true
   explanation: "Both effects arise from the same angular momentum transfer. Earth's faster rotation carries the tidal bulge slightly ahead of the Moon. The Moon's gravity pulls back on this leading bulge, slowing Earth's rotation (lengthening the day). Simultaneously, the leading bulge exerts a forward gravitational pull on the Moon, adding angular momentum to its orbit and pushing it outward. Angular momentum is conserved: what Earth's rotation loses, the Moon's orbit gains. The two phenomena are inseparable — you cannot have one without the other."
 
-- question: "A satellite always migrates outward due to tidal interactions with its parent planet, because tidal dissipation always adds energy to the orbit."
+- question: "A satellite typically migrates outward due to tidal interactions with its parent planet, because tidal dissipation generally adds energy to the orbit."
   type: true-false
   answer: false
   explanation: "Migration direction depends entirely on whether the satellite orbits inside or outside the planet's synchronous orbit. For a satellite outside synchronous orbit (orbital period longer than the planet's rotation period), the tidal bulge leads the satellite, pulling it forward — the satellite migrates outward. For a satellite inside synchronous orbit (orbital period shorter than the planet's rotation period), the bulge lags behind the satellite, pulling it backward — the satellite migrates inward. Phobos and some inner moons of giant planets spiral inward; outward migration is not universal."

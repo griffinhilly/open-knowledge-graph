@@ -58,7 +58,7 @@ Trace through a complete page fault sequence: logical address generated, TLB mis
   answer: 2
   explanation: "A page fault is a hardware exception that transfers control to the OS page-fault handler. The handler locates the needed page on disk (in swap space), finds or frees a physical frame (evicting another page if necessary), reads the page from disk into that frame, marks the page table entry valid, and restarts the instruction that originally triggered the fault. From the process's perspective, the access simply took longer. The process is not terminated — page faults are the normal mechanism for demand paging."
 
-- question: "A page fault always signals a programming error, and the operating system must terminate the faulting process."
+- question: "A page fault usually signals a programming error, and the operating system is expected to terminate the faulting process."
   type: true-false
   answer: false
   explanation: "Page faults are a normal, expected part of demand paging — not errors. Every time a process first accesses a page that hasn't been loaded yet, a page fault occurs and the OS loads it from disk. This is the designed mechanism that enables virtual address spaces larger than physical RAM. Only a specific type of page fault — accessing an invalid address (a segmentation fault) — results in process termination. The valid/invalid bit distinguishes between 'this page is on disk' (load it) and 'this address is not mapped' (terminate)."

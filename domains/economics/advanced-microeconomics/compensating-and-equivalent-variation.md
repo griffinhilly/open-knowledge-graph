@@ -61,7 +61,7 @@ Draw budget lines and indifference curves before/after a price change. Identify 
   answer: true
   explanation: "This is a standard result in welfare economics. For a normal good facing a price increase, the Hicksian demand curve at the original (higher) utility lies to the right of the Marshallian demand curve, which lies to the right of the Hicksian curve at the new (lower) utility. The area under each curve between old and new prices gives CV > CS change > EV. CV must compensate at the new higher prices (the consumer needs more income to restore lost utility), while EV is evaluated at old prices where the consumer had greater purchasing power."
 
-- question: "CV and EV equal the change in consumer surplus when income effects are large, making all three measures equivalent in practice for most goods."
+- question: "CV and EV equal the change in consumer surplus when income effects are large, making most three measures equivalent in practice for most goods."
   type: true-false
   answer: false
   explanation: "This is exactly backward. CV, EV, and consumer surplus converge when income effects are *zero* — specifically, when preferences are quasilinear (utility linear in income). In that case, the Marshallian and both Hicksian demand curves coincide. When income effects are large (goods that constitute a significant share of the consumer's budget), CV, EV, and CS diverge substantially — and it is precisely in those cases that using consumer surplus instead of CV or EV leads to seriously misleading welfare conclusions."

@@ -51,7 +51,7 @@ Autophagy is not always protective—excessive autophagy can be lethal. The rela
   answer: 1
   explanation: "In established tumors under metabolic stress — nutrient deprivation, hypoxia, or chemotherapy — cancer cells frequently upregulate autophagy to recycle amino acids, lipids, and sugars from their own cytoplasm. This provides an alternative nutrient source when external supply is cut off, conferring chemoresistance. Inhibiting this survival autophagy removes the resistance mechanism, re-sensitizing the tumor. This is the opposite of autophagy's role in neurodegeneration, where impaired autophagy causes disease — illustrating the pathway's context-dependent duality."
 
-- question: "Autophagy is always a cytoprotective process — it prevents cell death by removing damaged proteins and organelles."
+- question: "Autophagy is generally a cytoprotective process — it prevents cell death by removing damaged proteins and organelles."
   type: true-false
   answer: false
   explanation: "While basal autophagy is generally protective — clearing misfolded proteins and damaged organelles that would otherwise accumulate — excessive autophagy can trigger autophagic cell death (type II programmed cell death). Additionally, in established tumors, autophagy can be a survival advantage rather than a protective mechanism in the conventional sense. The relationship between autophagy, survival, and death is context-dependent; the same pathway can be cytoprotective or cytodestructive depending on the cell type, stressor, and degree of activation."

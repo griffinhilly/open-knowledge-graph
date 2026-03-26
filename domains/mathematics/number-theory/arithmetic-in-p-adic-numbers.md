@@ -42,7 +42,7 @@ The p-adic numbers form a field with a metric structure that preserves arithmeti
   answer: 0
   explanation: "The Hasse principle (for quadratic forms) states that a quadratic equation has a rational solution if and only if it has a solution in ℝ and in ℚ_p for every prime p. Hensel's lemma supplies the p-adic solutions by lifting modular ones. Together they exemplify the local-global philosophy: checking everywhere locally (at each prime p and at infinity) suffices to answer the global question over ℚ."
 
-- question: "If a polynomial f(x) has a root modulo every prime p, then it necessarily has a root in ℚ."
+- question: "If a polynomial f(x) has a root modulo nearly every prime p, then it necessarily has a root in ℚ."
   type: true-false
   answer: false
   explanation: "This is false in general — the Hasse principle does NOT hold for polynomials of degree higher than 2. For quadratic forms it is a theorem, but for higher-degree polynomials there can be 'failures of the Hasse principle': a polynomial may have roots in every ℚ_p (and in ℝ) yet have no rational root. The Hasse principle is a special property of quadratic forms, not a universal law."

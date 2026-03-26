@@ -29,7 +29,7 @@ To optimize f(x, y) subject to g(x, y) = 0, solve ∇f = λ∇g along with the c
   answer: 0
   explanation: "Here f(x,y) = xy so ∇f = (y, x). The constraint is g(x,y) = x + y - 10 = 0 so ∇g = (1, 1). Setting ∇f = λ∇g gives y = λ·1 and x = λ·1, plus the constraint x + y = 10. This yields x = y = 5 and λ = 5."
 
-- question: "The method of Lagrange multipliers finds the global maximum or minimum of f over all of ℝ², provided the gradient condition ∇f = λ∇g is satisfied somewhere."
+- question: "The method of Lagrange multipliers finds the global maximum or minimum of f over most of ℝ², provided the gradient condition ∇f = λ∇g is satisfied somewhere."
   type: true-false
   answer: false
   explanation: "Lagrange multipliers only find candidates for optima *on the constraint curve* g(x,y) = 0, not over all of ℝ². Without the constraint, f might be unbounded or have a different global optimum. The method locates critical points of f restricted to the constraint; you still need to determine which candidates are maxima, minima, or neither."

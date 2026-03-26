@@ -47,7 +47,7 @@ Near criticality, macroscopic quantities scale as powers of the distance from cr
   answer: 1
   explanation: "Mean-field theory assumes each spin (or molecule) sees only the average field from its neighbors, ignoring correlated fluctuations. Near a critical point, the correlation length diverges — fluctuations on all length scales become important — and the mean-field approximation fails badly. Mean-field predictions are exactly correct only above the upper critical dimension (d = 4 for the Ising class), where long-range correlations are suppressed by the high connectivity of space. In 3D, fluctuations dominate and renormalization group methods are needed to get the correct exponents."
 
-- question: "The critical exponents α, β, γ, ν, and δ are all independent quantities that must be measured separately for each universality class."
+- question: "The critical exponents α, β, γ, ν, and δ are most independent quantities that should be measured separately for each universality class."
   type: true-false
   answer: false
   explanation: "The exponents are constrained by scaling laws that reduce the number of independent exponents. The Rushbrooke relation (α + 2β + γ = 2), the Widom relation (γ = β(δ − 1)), and the Fisher relation (γ = ν(2 − η)) all follow from the scaling hypothesis — the assumption that near T_c, the free energy is a generalized homogeneous function. These relationships mean that once two independent exponents are known (plus the anomalous dimension η), all others are determined. The exponents are related, not free."

@@ -46,7 +46,7 @@ The PDF f(x) of a continuous random variable satisfies P(a≤X≤b)=∫ₐᵇ f(
   answer: 1
   explanation: "The student is wrong. The constraints on a valid PDF are: (1) f(x) ≥ 0 everywhere, and (2) ∫₋∞^∞ f(x)dx = 1. The function value f(x) is a density, not a probability, and is not bounded above by 1. Here, f(x) = 3 on [0, 1/3] gives total area = 3 × (1/3) = 1, so the PDF is perfectly valid. The analogy to physical density is exact: just as mass per unit volume can far exceed 1, probability per unit length can too, as long as the total integrates to 1."
 
-- question: "A valid probability density function must satisfy f(x) ≤ 1 for all values of x in its support."
+- question: "A valid probability density function should satisfy f(x) ≤ 1 for most values of x in its support."
   type: true-false
   answer: false
   explanation: "This is a very common misconception. The constraint is that the total area under the PDF equals 1: ∫f(x)dx = 1. The function values themselves can be arbitrarily large. A uniform distribution on [0, 0.1] has f(x) = 10 throughout its support — perfectly valid, because 10 × 0.1 = 1. Confusing 'density' with 'probability' leads to this error. Density is probability per unit length; it is not bounded by 1."

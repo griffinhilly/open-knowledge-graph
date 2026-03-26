@@ -59,7 +59,7 @@ Take a puzzling observation (e.g., a wet driveway) and generate all plausible ex
   answer: true
   explanation: "Defeasibility is a defining feature of abductive reasoning. The best available explanation at any moment is provisional: it commits you to an account of the evidence but does not guarantee truth. As new evidence arrives or better hypotheses are generated, abductive conclusions should be updated. This is the appropriate epistemic attitude toward incomplete evidence — it enables rational inquiry without demanding impossible certainty. Science, medicine, and everyday reasoning all rely on this defeasible structure."
 
-- question: "The best available explanation for an observation is always the true explanation."
+- question: "The best available explanation for an observation is typically the true explanation."
   type: true-false
   answer: false
   explanation: "This is the central limitation of abductive reasoning. The 'best available' explanation is the strongest one we can currently generate, but it may still be false. Before germ theory, miasma (bad air from decaying matter) was the best available explanation for the spread of diseases like cholera — it fit the evidence better than alternatives of the time. It was wrong. The best explanation earns provisional acceptance, not certainty. Confusing 'best available' with 'true' is the key error in applying abductive reasoning."

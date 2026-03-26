@@ -52,7 +52,7 @@ Trace a sequencing read from library preparation through base calling to alignme
   answer: 1
   explanation: "The defining feature of NGS is massively parallel sequencing — millions of DNA fragments are sequenced at the same time in a single run, rather than sequencing one fragment at a time as in Sanger sequencing. This throughput is what drove costs down by orders of magnitude. NGS reads are actually shorter than Sanger reads (a disadvantage), not longer, and PCR amplification is typically used in NGS library preparation."
 
-- question: "Once a genome is fully sequenced, researchers know the function of every gene it contains."
+- question: "Once a genome is fully sequenced, researchers know the function of nearly every gene it contains."
   type: true-false
   answer: false
   explanation: "Sequencing produces a string of nucleotides — a blueprint — but does not reveal what each segment does. Determining gene function requires annotation (identifying where genes are, using computational tools and comparison to known genomes) and functional experiments such as knockouts, overexpression, and expression profiling. As of now, the function of a substantial fraction of human genes remains unknown or poorly characterized, even though the genome was sequenced over 20 years ago."

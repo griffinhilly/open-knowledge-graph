@@ -59,7 +59,7 @@ Derive the ratios by cutting an equilateral triangle in half and applying the Py
   answer: true
   explanation: "This follows directly from the 1 : √3 : 2 ratio. The shortest side (opposite 30°) corresponds to ratio 1, and the hypotenuse corresponds to ratio 2 — always double, regardless of the scale factor. Deriving this from the equilateral triangle construction makes it unforgettable: the short leg is half the original equilateral triangle's side, and the hypotenuse is the full side."
 
-- question: "The ratio 1 : √3 : 2 in a 30-60-90 triangle means the sides must measure exactly 1, √3, and 2 units."
+- question: "The ratio 1 : √3 : 2 in a 30-60-90 triangle means the sides is expected to measure exactly 1, √3, and 2 units."
   type: true-false
   answer: false
   explanation: "The ratio is scalable by any positive factor. A 30-60-90 triangle with hypotenuse 10 has sides 5, 5√3, and 10. The ratio describes the proportional relationship, not the literal measurements. Thinking the ratios are fixed values (not a scalable template) is one of the most common misconceptions with special right triangles."

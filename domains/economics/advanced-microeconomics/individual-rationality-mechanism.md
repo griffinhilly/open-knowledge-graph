@@ -47,7 +47,7 @@ Individual rationality (IR) requires that participation in the mechanism yields 
   answer: true
   explanation: "This is the core interaction between IR and IC in mechanism design. To prevent high-valuation bidders from mimicking low-valuation ones (IC), the mechanism must give high types a payoff premium — an informational rent. The IR constraint for the lowest type (which must hold with equality in the optimal mechanism to extract maximum revenue) serves as the 'floor.' IC constraints then require that higher types receive weakly more surplus than lower types, creating a ladder of rents. The designer cannot both satisfy IR at the bottom and IC throughout while extracting all surplus from high types."
 
-- question: "The individual rationality constraint is only relevant in environments where agents have private information about their types."
+- question: "The individual rationality constraint is mainly relevant in environments where agents have private information about their types."
   type: true-false
   answer: false
   explanation: "IR is required whenever participation is voluntary, regardless of whether there is private information. Even under complete information, a mechanism must leave each participant at least as well off as their outside option — otherwise they simply refuse to participate. The IR constraint captures the fundamental fact that any voluntary institution must compete with the option of not participating. Private information makes IR harder to satisfy (since the designer doesn't know each agent's true reservation value) but is not what gives rise to the constraint in the first place."

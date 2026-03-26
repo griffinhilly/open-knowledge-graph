@@ -53,7 +53,7 @@ Any periodic signal can be decomposed as a sum of sinusoids (harmonics) at integ
   answer: 1
   explanation: "Orthogonality is the key. Because ∫cos(mω₀t)·cos(nω₀t)dt = 0 for m≠n over one period, computing the coefficient aₙ by integrating x(t) against cos(nω₀t) extracts only the nth harmonic with zero contamination from all others. This is exactly like projecting a vector onto perpendicular basis vectors — each projection picks up only one component. Without orthogonality, the decomposition would be non-unique (different combinations of harmonics could produce the same signal), making the frequency-domain representation meaningless."
 
-- question: "The Fourier series of a periodic signal contains energy at all frequencies, not just at integer multiples of the fundamental."
+- question: "The Fourier series of a periodic signal contains energy at most frequencies, not just at integer multiples of the fundamental."
   type: true-false
   answer: false
   explanation: "The Fourier series of a periodic signal contains energy only at the fundamental frequency f₀ = 1/T₀ and its integer multiples (harmonics): f₀, 2f₀, 3f₀, … This produces a discrete amplitude spectrum. Energy at arbitrary (non-harmonic) frequencies would imply the signal is aperiodic — the Fourier transform (not series) handles that case and produces a continuous spectrum. The discreteness of the Fourier series spectrum is a direct consequence of the signal's periodicity."

@@ -47,7 +47,7 @@ Examine histology slides (or virtual slide databases like HistoWeb) to recognize
   answer: 1
   explanation: "Blood is a connective tissue: red blood cells, white blood cells, and platelets are suspended in plasma, which is an extracellular matrix in liquid form. Connective tissue is defined by the presence of an abundant extracellular matrix, not by solidity. The intestinal lining is epithelial tissue, the bladder wall is muscle tissue, and cortical neurons are nervous tissue."
 
-- question: "Skeletal, cardiac, and smooth muscle are functionally identical in their control mechanisms but differ only in where they are located in the body."
+- question: "Skeletal, cardiac, and smooth muscle are functionally identical in their control mechanisms but differ primarily in where they are located in the body."
   type: true-false
   answer: false
   explanation: "The three muscle subtypes differ fundamentally in cellular architecture and control. Skeletal muscle is striated and under voluntary control. Cardiac muscle is striated but involuntary, with unique intercalated discs that electrically couple cells. Smooth muscle is non-striated and involuntary, with different contractile proteins and slower, sustained contractions. These are not merely locational differences — they represent distinct cellular designs."

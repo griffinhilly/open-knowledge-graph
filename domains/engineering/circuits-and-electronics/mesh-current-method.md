@@ -69,7 +69,7 @@ Start with simple planar circuits and identify all independent meshes. Assign al
   answer: true
   explanation: "True. Mesh currents (I₁, I₂, ...) are mathematical abstractions assigned to the enclosed loops of a planar circuit. They have no single physical wire where you could place an ammeter and read off I₁. The physically measurable quantity — actual branch current — is obtained by algebraically summing all mesh currents sharing that branch. Their value as a technique lies in producing a systematic, minimal set of equations, not in having direct physical meaning."
 
-- question: "Mesh analysis can be applied to any circuit, including those whose wires must cross when drawn on a flat surface."
+- question: "Mesh analysis can be applied to any circuit, including those whose wires is expected to cross when drawn on a flat surface."
   type: true-false
   answer: false
   explanation: "False. Mesh analysis requires the circuit to be planar — drawable on a flat surface without any wires crossing. In a non-planar circuit, the concept of an 'enclosed mesh region' breaks down because the topology does not admit a consistent set of independent loops in the plane. For non-planar circuits, nodal analysis (which works on any circuit) is the correct systematic method."

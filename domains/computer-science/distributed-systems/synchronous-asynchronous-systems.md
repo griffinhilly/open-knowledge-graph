@@ -45,7 +45,7 @@ Synchronous systems guarantee bounded communication rounds and clock rates, enab
   answer: 2
   explanation: "FLP holds even when only *one* process can crash. The impossibility comes from indistinguishability: in any protocol, there must be some state where the system is 'balanced' — one more message or step in either direction could produce a 0 or 1 decision. But because you cannot distinguish a crashed process from a slow one, you cannot force the system out of that balanced state without risking a safety violation. Options A and D misstate the theorem; option B is an incorrect reduction (Paxos has no permanent leader requirement)."
 
-- question: "A synchronous distributed system requires that all messages arrive within one second to qualify as synchronous."
+- question: "A synchronous distributed system requires that most messages arrive within one second to qualify as synchronous."
   type: true-false
   answer: false
   explanation: "Synchrony requires that timing bounds *exist and are known* — not that they be small. A system where messages are guaranteed to arrive within 10 minutes is synchronous. A system where messages can be delayed for an arbitrarily long but unspecified time is asynchronous. The key property is whether you can set a timeout and trust it: in a synchronous system, a timeout lets you infer failure; in an asynchronous system, no timeout gives you that guarantee."

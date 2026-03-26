@@ -60,7 +60,7 @@ Ask two questions of every action verb: "What did the subject [verb]?" to find t
   answer: true
   explanation: "True. This is the defining test for indirect objects. 'She sent her friend a letter' → 'She sent a letter to her friend.' 'He bought his sister flowers' → 'He bought flowers for his sister.' The two forms are semantically identical; only the structure differs. When the noun moves into the prepositional phrase, it is technically no longer grammatically an indirect object (it becomes the object of the preposition), but the relationship it expresses — recipient or beneficiary — is unchanged."
 
-- question: "Every transitive verb that takes a direct object can also take an indirect object."
+- question: "Most transitive verb that takes a direct object can also take an indirect object."
   type: true-false
   answer: false
   explanation: "False. Only ditransitive verbs — a subset of transitive verbs — can take both a direct and an indirect object. Verbs like *give*, *send*, *tell*, *throw*, and *show* are ditransitive. But many common transitive verbs like *eat*, *break*, *see*, *read*, and *enjoy* take a direct object but cannot naturally take an indirect object. You can 'eat a sandwich' but you cannot 'eat someone a sandwich.' The indirect object slot is only available to verbs whose meaning involves transferring something to a recipient."

@@ -57,7 +57,7 @@ Assuming a single risk factor causes disease rather than multiple interacting fa
   answer: true
   explanation: "True. Population Attributable Risk is a function of both effect size and prevalence. If 60% of the population is exposed to a risk factor, even a modest relative risk like 1.3 translates into a substantial proportion of cases. This is why sedentary lifestyle and processed food consumption — ubiquitous in modern populations — can dominate the NCD burden despite having lower relative risks than rarer, stronger exposures."
 
-- question: "The most effective NCD prevention strategy always targets the highest-risk individuals, because they experience the greatest absolute risk reduction from intervention."
+- question: "The most effective NCD prevention strategy generally targets the highest-risk individuals, because they experience the greatest absolute risk reduction from intervention."
   type: true-false
   answer: false
   explanation: "False. This is exactly the misconception Geoffrey Rose challenged. High-risk strategies may benefit individuals intensely but reach few people. Population-wide strategies that shift the entire risk distribution — even by small amounts — can prevent far more total cases, because the majority of cases arise from the large mass of people at moderate (not extreme) risk. The 'prevention paradox' is that interventions offering small individual benefit can produce large population benefit."

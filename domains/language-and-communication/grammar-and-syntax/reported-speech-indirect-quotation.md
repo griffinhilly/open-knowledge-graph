@@ -45,7 +45,7 @@ Indirect quotations report what someone said without using their exact words and
   answer: 2
   explanation: "Yes/no questions in reported speech use 'whether' or 'if' plus normal statement word order (no inversion) and tense backshift. 'Are you ready?' becomes 'whether we were ready' — the inversion disappears, 'you' shifts to 'we', and 'are' shifts to 'were'. Option A lacks a conjunction and retains inverted order. Option B uses 'that' (used for statements, not questions) and skips backshift. Option D skips backshift and shifts to future incorrectly."
 
-- question: "Tense backshift in reported speech is always required, even when the reported information is still currently true at the time of reporting."
+- question: "Tense backshift in reported speech is typically required, even when the reported information is still currently true at the time of reporting."
   type: true-false
   answer: false
   explanation: "Tense backshift is the default but not an absolute rule. When the reported information remains currently true, both the shifted and unshifted forms are acceptable. 'She said she is a doctor' and 'She said she was a doctor' are both grammatically valid. The backshift is required when the reporting verb is past and the statement describes a past state of affairs that no longer necessarily holds — but for timeless or still-true facts, speakers have flexibility."

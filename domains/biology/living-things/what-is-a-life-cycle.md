@@ -46,7 +46,7 @@ Compare life cycle diagrams of several living things side by side: a plant, a bu
   answer: 1
   explanation: "A life cycle is a cycle because it repeats. An adult produces offspring, those offspring grow into adults, and those adults produce more offspring. The same stages happen over and over across generations, which is why we draw life cycles as circles."
 
-- question: "Only animals have life cycles."
+- question: "Primarily animals have life cycles."
   type: true-false
   answer: false
   explanation: "Every living thing has a life cycle. Plants go from seed to sprout to adult plant to making seeds. Animals go from birth or hatching to growing up to adulthood to having babies. Even mushrooms and bacteria have life cycles. It is a universal feature of life."

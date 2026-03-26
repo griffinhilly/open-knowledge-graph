@@ -58,7 +58,7 @@ Derive the rigid rotor Schrödinger equation in spherical coordinates; calculate
   answer: true
   explanation: "For a rigid rotor, E_J = BJ(J+1). The transition energy for ΔJ = +1 from level J to J+1 is E(J+1) − E(J) = B[(J+1)(J+2) − J(J+1)] = 2B(J+1). As J increases by 1, each successive transition energy increases by 2B — giving equally spaced lines separated by 2B. This elegant regularity is why rotational spectra serve as precise molecular fingerprints. (Note: centrifugal distortion causes slight deviations at high J in real molecules.)"
 
-- question: "Raising the temperature of a gas sample always increases the population of the J = 0 rotational level at the expense of higher J levels."
+- question: "Raising the temperature of a gas sample generally increases the population of the J = 0 rotational level at the expense of higher J levels."
   type: true-false
   answer: false
   explanation: "This is the opposite of what happens. Increasing temperature provides more thermal energy, populating higher J levels. The J = 0 state has degeneracy 1, and at elevated temperature, the Boltzmann distribution shifts the population peak to higher J values — J = 0 actually becomes relatively less populated. At absolute zero, all molecules would be in J = 0, but as temperature rises, the population redistributes toward higher J states."

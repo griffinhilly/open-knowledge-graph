@@ -51,7 +51,7 @@ Boyce-Codd Normal Form (BCNF) is a stricter form of 3NF where every determinant 
   answer: true
   explanation: "BCNF is strictly stronger than 3NF: its requirement (every determinant must be a superkey) is a stricter condition. Any relation satisfying BCNF necessarily satisfies all the requirements of 3NF. The inclusion goes one way: BCNF ⊆ 3NF (as sets of relations). This means achieving BCNF automatically achieves 3NF — but the converse is false, as the Tutoring relation example shows."
 
-- question: "If a relation is in 3NF, it is guaranteed to also be in BCNF."
+- question: "If a relation is in 3NF, it is expected to also be in BCNF."
   type: true-false
   answer: false
   explanation: "3NF relations are not necessarily in BCNF. The Tutoring(Student, Subject, Instructor) example demonstrates this: it is in 3NF because the only violation of 3NF's rule (Instructor → Subject) involves a prime attribute (Subject is part of a candidate key), and 3NF exempts this case. BCNF makes no such exception — Instructor is not a superkey, so the relation violates BCNF. 3NF is necessary but not sufficient for BCNF."

@@ -55,7 +55,7 @@ Implement object detection on images using a pretrained model, then fine-tune on
   answer: true
   explanation: "Shared feature computation is the key innovation of Faster R-CNN over its predecessor Fast R-CNN and the original R-CNN. Rather than running a separate CNN on each candidate region (thousands of forward passes), Faster R-CNN computes the feature map once and allows both the RPN and classifier to operate on the same features. This dramatically reduces computation and is what makes two-stage detection tractable at near-real-time speeds."
 
-- question: "Object detection is fundamentally equivalent to running an image classifier on a sliding window at every possible location and scale, making it a straightforward extension of image classification."
+- question: "Object detection is fundamentally equivalent to running an image classifier on a sliding window at nearly every possible location and scale, making it a straightforward extension of image classification."
   type: true-false
   answer: false
   explanation: "Sliding-window classification is the brute-force baseline that deep detection networks were designed to replace. Modern detectors (R-CNN family, YOLO, SSD) do not exhaustively scan all positions and scales — they learn to directly predict bounding box coordinates and class scores in ways that are far more computationally efficient. Single-shot methods like YOLO treat detection as a regression problem with a fixed-size output tensor, which is fundamentally different from applying a classifier thousands of times."

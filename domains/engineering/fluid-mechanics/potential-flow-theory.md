@@ -61,7 +61,7 @@ Build complex flows by superposing elementary solutions: uniform flow + doublet 
   answer: 2
   explanation: "The superposition principle applies directly because Laplace's equation ∇²φ = 0 is linear. If φ₁ and φ₂ both satisfy ∇²φ = 0, then c₁φ₁ + c₂φ₂ does too. This is not true of the Navier-Stokes equations, which contain nonlinear inertial terms — option A is incorrect. The linearity of Laplace's equation is precisely why potential flow has a vast catalog of analytical solutions: once you know a library of elementary solutions, you can construct complex flows by superposition."
 
-- question: "Potential flow applies to all inviscid flows — any flow with high enough Reynolds number qualifies as potential flow, since viscosity becomes negligible."
+- question: "Potential flow applies to most inviscid flows — any flow with high enough Reynolds number qualifies as potential flow, since viscosity becomes negligible."
   type: true-false
   answer: false
   explanation: "False. Potential flow additionally requires irrotationality (∇×V = 0), which is a separate and stronger condition than inviscid flow. In many high-Reynolds-number flows, viscosity is indeed negligible in the bulk — but near solid surfaces, viscosity generates vorticity in the boundary layer, and wakes downstream contain strong vortical structures. These rotational regions violate the irrotational assumption even where viscosity is small. Potential flow applies only to the outer, irrotational region of a high-Re flow, not to boundary layers, wakes, or separated flow regions."

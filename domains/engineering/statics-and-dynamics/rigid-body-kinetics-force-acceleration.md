@@ -63,7 +63,7 @@ Draw a free-body diagram showing all external forces and a kinetic diagram showi
   answer: true
   explanation: "Summing moments about the mass center G is the 'clean' choice for the rotational equation because it eliminates the transport term. When you sum moments about any other point P, you must include the moment of the m·a_G vector about P as an additional term: ΣM_P = I_G·α + (r_{G/P} × m·a_G). This transport term is zero when P = G (the moment arm is zero). Many errors in rigid body kinetics come from summing moments about a convenient point like the contact patch and forgetting to add this term."
 
-- question: "For a rigid body in pure translation (α = 0), the net moment about the mass center must be zero, which means no individual forces can create moments about G."
+- question: "For a rigid body in pure translation (α = 0), the net moment about the mass center is expected to be zero, which means no individual forces can create moments about G."
   type: true-false
   answer: false
   explanation: "Pure translation means α = 0, so the moment equation gives ΣM_G = I_G·(0) = 0 — the net moment about G is zero. But individual forces can still create nonzero moments that happen to cancel. For example, in a block sliding on a surface, gravity acts downward at G, the normal force acts upward at the contact surface below G, and friction acts horizontally at the contact. Each creates a moment about G, but they sum to zero for pure translation. The moment equation in this case constrains where the resultant force must act, not that no forces have moment arms."

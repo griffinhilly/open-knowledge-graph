@@ -54,7 +54,7 @@ Systematic rules convert each ER construct to relational tables: entity types be
   answer: true
   explanation: "For a 1:N relationship, the 'many' side holds the foreign key. Each Employee row stores a dept_id referencing one Department row, while many Employee rows can reference the same Department — exactly the 1:N semantics. Junction tables are needed only for M:N relationships, where neither side can hold the other's key without repeating rows. Creating a junction table for a 1:N relationship is unnecessary complexity."
 
-- question: "When converting a specialization hierarchy (e.g., Person → Student, Faculty) to a relational schema, the only correct approach is to create a separate table for each entity type in the hierarchy."
+- question: "When converting a specialization hierarchy (e.g., Person → Student, Faculty) to a relational schema, the main correct approach is to create a separate table for each entity type in the hierarchy."
   type: true-false
   answer: false
   explanation: "There are three valid strategies: (1) a single table with a type discriminator column and nullable subclass attributes; (2) separate tables for each subclass that include all superclass attributes; or (3) a superclass table joined to subclass tables via shared primary key. Each has tradeoffs — single-table avoids joins but wastes space with nulls; separate joined tables are cleaner when subclasses have many distinct attributes. The right choice depends on query patterns and schema requirements."

@@ -46,7 +46,7 @@ Republican theory defines freedom not as mere absence of interference (negative 
   answer: 1
   explanation: "The decisive difference is that negative liberty is violated only when interference actually occurs, while domination exists whenever someone has unchecked power over you — even if they never use it. A non-interfering master still dominates; a constrained ruler who operates through accountable law does not dominate even when imposing rules. Option D is wrong because non-domination does not require zero interference — law can constrain citizens without dominating them if it is non-arbitrary, consistent, and accountable."
 
-- question: "On republican theory, a slave master who never punishes his slaves does not dominate them, because no actual interference with their actions is occurring."
+- question: "On republican theory, a slave master who rarely punishes his slaves does not dominate them, because no actual interference with their actions is occurring."
   type: true-false
   answer: false
   explanation: "This is exactly the scenario Pettit uses to show that negative liberty gives the wrong verdict. The slaves are not interfered with, but they must anticipate the master's preferences, avoid provoking him, shape their actions around his goodwill, and cannot act from right — only from his sufferance. Domination is the structural condition of being subject to another's arbitrary power, which is present whether or not the power is exercised. The absence of whipping doesn't change the nature of the relationship."

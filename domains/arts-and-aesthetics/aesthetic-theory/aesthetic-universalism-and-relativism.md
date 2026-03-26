@@ -49,7 +49,7 @@ Is beauty universal—the same across all cultures and historical periods—or c
   answer: 2
   explanation: "Cross-cultural convergence in aesthetic responses among populations with no prior exposure to each other's traditions provides the strongest evidence for universalism, because it cannot be explained by shared cultural training. Options A and D actually support relativism by showing diversity. Option B is ambiguous — museum attendance might reflect cultural diffusion or soft power rather than intrinsic universal appeal. Genuine universalist evidence must isolate shared response from shared cultural exposure."
 
-- question: "Aesthetic relativism avoids all the philosophical problems of universalism by showing that all cultural aesthetic standards are equally valid, giving us a coherent and complete theory of aesthetic judgment."
+- question: "Aesthetic relativism avoids most of the philosophical problems of universalism by showing that most cultural aesthetic standards are equally valid, giving us a coherent and complete theory of aesthetic judgment."
   type: true-false
   answer: false
   explanation: "Relativism avoids the universalist problem of imposing particular cultural standards as timeless truths, but it introduces its own serious problem: it cannot explain why we treat some aesthetic judgments as more authoritative than others. Pure relativism implies that a five-year-old's assessment of a Rembrandt carries equal weight to an art historian's — which strikes most people as wrong. It also cannot account for genuine aesthetic progress, learning, and cultivation. Both universalism and relativism face serious objections; contemporary philosophers try to navigate between them rather than simply adopting either pole."

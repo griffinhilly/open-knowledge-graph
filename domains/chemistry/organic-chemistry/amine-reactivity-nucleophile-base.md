@@ -53,7 +53,7 @@ Amines are nucleophiles and bases due to their lone pair on nitrogen. Basicity (
   answer: true
   explanation: "Protonation requires only a small proton to approach nitrogen — steric bulk barely obstructs it. Carbon electrophile attack (SN2) requires a larger carbon center to approach nitrogen and form a transition state — here steric bulk is decisive. This explains why LDA (lithium diisopropylamide), with pKₐ of conjugate acid ≈ 36, is used as a strong, non-nucleophilic base: it deprotonates readily but doesn't add to carbonyls."
 
-- question: "Because basicity and nucleophilicity both depend on the nitrogen lone pair, a stronger amine base will always be a better nucleophile toward carbon electrophiles."
+- question: "Because basicity and nucleophilicity both depend on the nitrogen lone pair, a stronger amine base will typically be a better nucleophile toward carbon electrophiles."
   type: true-false
   answer: false
   explanation: "Basicity and nucleophilicity are distinct: basicity is an equilibrium property (thermodynamic) reflecting affinity for protons; nucleophilicity is a kinetic property reflecting rate of attack on carbon. They often correlate, but steric effects, polarizability, and solvent all cause divergence. A bulky base like LDA is a weaker nucleophile than its basicity predicts. In protic solvents, large, polarizable species (e.g., iodide) can be strong nucleophiles despite being weak bases."

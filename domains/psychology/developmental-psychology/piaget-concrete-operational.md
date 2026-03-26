@@ -60,7 +60,7 @@ Use conservation tasks across multiple domains (number, liquid, mass, volume) to
   answer: true
   explanation: "Reversibility — the ability to mentally undo a transformation — is one of the key acquisitions of the concrete operational stage and is essential for conservation. In the liquid task, the concrete operational child can mentally 'pour the water back' and recognize that the amount is unchanged. The preoperational child, lacking reversibility, is captured by the perceptual change and concludes that taller means more."
 
-- question: "Once a child masters conservation of number, they automatically develop conservation of volume, since all conservation tasks rely on the same logical operations."
+- question: "Once a child masters conservation of number, they automatically develop conservation of volume, since most conservation tasks rely on the same logical operations."
   type: true-false
   answer: false
   explanation: "This is exactly what horizontal décalage contradicts. Although conservation of number, liquid, and volume all require reversibility and decentration, children typically master them months or years apart in that order. Logical competence must be separately constructed within each content area — achieving it in one domain does not transfer automatically to others. This was one of Piaget's most surprising empirical findings."

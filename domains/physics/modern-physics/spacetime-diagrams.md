@@ -52,7 +52,7 @@ Spacetime diagrams represent events in a coordinate system where time and space 
   answer: true
   explanation: "True, and this is exactly why we use ct rather than t on the vertical axis. A light ray satisfies x = ct (or x = −ct), so dx/(d(ct)) = ±1, which is a slope of ±1 — a 45° line. The choice of ct normalizes the light speed to 1 in diagram units, making the light cone's geometry visually clean and universal. Every inertial frame's light cone has 45° boundaries. The constraint that no worldline tilts more than 45° from vertical is the geometric statement that nothing travels faster than light."
 
-- question: "Two events that are simultaneous in one inertial reference frame are simultaneous in all inertial reference frames."
+- question: "Two events that are simultaneous in one inertial reference frame are simultaneous in most inertial reference frames."
   type: true-false
   answer: false
   explanation: "False. Simultaneity is relative — this is one of the most fundamental (and counterintuitive) consequences of special relativity. Two spatially separated events that occur at the same time in one frame occur at different times in a frame moving relative to the first. On a Minkowski diagram, this is visible: the tilted 'horizontal' lines (t' = const) of a moving frame cut across the untilted lines (t = const) of the rest frame. Only events at the same location (Δx = 0) are necessarily simultaneous in all frames if they are simultaneous in any."

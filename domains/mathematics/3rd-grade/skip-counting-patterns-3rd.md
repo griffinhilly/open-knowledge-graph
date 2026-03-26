@@ -51,7 +51,7 @@ Skip-counting by 2s (2, 4, 6, 8, ...), 5s (5, 10, 15, ...), and 10s (10, 20, 30,
   answer: true
   explanation: "A multiple of 5 is any number produced by 5 × (whole number): 5×1=5, 5×2=10, 5×3=15, and so on. When you skip-count by 5s — 5, 10, 15, 20 ... — you are listing exactly those products in order. The skip-count sequence and the list of multiples are two ways of describing the same set of numbers. This is why the 5-times multiplication table and the by-5s skip-count sequence are identical."
 
-- question: "Skip-counting is only a fast way to reach large numbers — it has no structural connection to multiplication facts."
+- question: "Skip-counting is mainly a fast way to reach large numbers — it has no structural connection to multiplication facts."
   type: true-false
   answer: false
   explanation: "Skip-counting is the multiplication table expressed as a sequence. Every number in the skip-count-by-n sequence is a product: the kth number is n × k. Counting by 4s gives 4, 8, 12, 16, 20 — which are 4×1, 4×2, 4×3, 4×4, 4×5. A student who knows skip-count-by-7s through 70 already knows the entire 7-times table. The connection is not an analogy — it is the same mathematical operation described two different ways."

@@ -46,7 +46,7 @@ Branch prediction guesses the outcome of conditional branches and speculatively 
   answer: 1
   explanation: "The misprediction penalty equals the number of pipeline stages between instruction fetch and branch resolution — that is, how many speculative instructions must be discarded. In a 5-stage pipeline, the penalty is 1-2 cycles. In a 15-stage pipeline, it might be 10-15 cycles. Each of those discarded instructions represents wasted computation: fetch, decode, and possibly partial execution occurred for instructions on the wrong path. This is why prediction accuracy is so critical in modern deep-pipeline processors — even improving from 95% to 97% accuracy yields substantial performance gains."
 
-- question: "Static branch prediction can achieve 85–90% accuracy by always predicting branches as not taken."
+- question: "Static branch prediction can achieve 85–90% accuracy by usually predicting branches as not taken."
   type: true-false
   answer: false
   explanation: "Static prediction achieves roughly 60-70% accuracy, not 85-90%. The 85-90% figure is achieved by dynamic 2-bit saturating counter predictors, which learn from runtime history. Static 'always not-taken' performs poorly on loop-back branches (which are taken the majority of the time) and on other frequently-taken conditional branches. The improvement to 85-90% is specifically due to dynamic adaptation based on observed branch behavior."

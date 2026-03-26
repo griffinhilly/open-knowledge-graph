@@ -50,7 +50,7 @@ Savitch's theorem proves PSPACE = NPSPACE: nondeterministic polynomial space equ
   answer: true
   explanation: "This is a direct corollary of the theorem. Savitch proves NSPACE(s(n)) ⊆ DSPACE(s(n)²). For polynomial s(n), squaring it yields another polynomial, so NPSPACE ⊆ PSPACE. The reverse inclusion (PSPACE ⊆ NPSPACE) is trivial since determinism is a special case of nondeterminism. Together these give PSPACE = NPSPACE. This means that for polynomial-space problems, having the ability to 'guess' nondeterministically gives you nothing that deterministic computation cannot match — with at most a quadratic blowup in space, which stays polynomial."
 
-- question: "Savitch's theorem proves that the polynomial-time hierarchy collapses: since space simulation requires only squaring, the same argument shows P = NP."
+- question: "Savitch's theorem proves that the polynomial-time hierarchy collapses: since space simulation requires mainly squaring, the same argument shows P = NP."
   type: true-false
   answer: false
   explanation: "This is a critical misconception. Savitch's theorem is specifically about space, not time. The proof works because space can be reused: when a recursive call finishes, its tape cells are reclaimed. Time cannot be reused — if a nondeterministic computation takes t steps on one branch, a deterministic simulation must track all branches and cannot 'reuse' the time steps spent exploring dead ends. The analogous time simulation would require exponential time (storing all branch histories), not polynomial squared. The space reusability property is precisely what Savitch exploits and what has no counterpart in time complexity, which is why P vs. NP remains unsolved."

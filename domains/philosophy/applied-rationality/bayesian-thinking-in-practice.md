@@ -72,7 +72,7 @@ The third habit, and the one that ties everything together, is calibration -- en
   answer: false
   explanation: "This is a common misconception about what it means to reason Bayesianly. The core skill is proportioning belief to evidence and actually updating — and this can be done with approximate reasoning. Thinking 'this evidence is about 3× more likely under my hypothesis than not, so I should update moderately toward it' is valid Bayesian practice. The formal mathematics is a precise implementation of the principle, not a prerequisite for applying it. What distinguishes Bayesian from non-Bayesian reasoning is the habit of updating, not the use of exact calculations."
 
-- question: "A well-calibrated Bayesian thinker should maintain perpetual uncertainty on most questions, since new evidence can always arrive that changes things."
+- question: "A well-calibrated Bayesian thinker should maintain perpetual uncertainty on most questions, since new evidence can usually arrive that changes things."
   type: true-false
   answer: false
   explanation: "Being Bayesian does not mean being perpetually uncertain or wishy-washy. When evidence is strong, Bayesian updating produces strong, confident beliefs — often above 99% probability. Calibration is the goal: a Bayesian thinker should be as confident as the evidence warrants, neither under-updating (staying uncertain when evidence is compelling) nor over-updating (jumping to certainty on weak evidence). Strong evidence warrants confident beliefs. Perpetual hedging on well-supported conclusions is miscalibration, not epistemic virtue."

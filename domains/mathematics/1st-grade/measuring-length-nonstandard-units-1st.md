@@ -52,7 +52,7 @@ Before using rulers, students measure with blocks, paper clips, hand spans, or f
   answer: false
   explanation: "It is the opposite: a shorter unit gives a LARGER number. You need more paper clips to cover the same length because each one covers less distance. A longer unit gives a smaller number because fewer of them are needed. The object's length hasn't changed — only the size of the unit changes how many fit."
 
-- question: "If two students measure the same object and get different numbers, at least one of them must have made a measurement error."
+- question: "If two students measure the same object and get different numbers, at least one of them should have made a measurement error."
   type: true-false
   answer: false
   explanation: "Both students could be completely correct if they used different-sized units. This is the key insight of the lesson: the number only makes sense when you know the unit. Different units give different numbers for the same length — that is not an error, it is how measurement works. An error would occur if one student left gaps, overlapped units, or used mixed-size units."

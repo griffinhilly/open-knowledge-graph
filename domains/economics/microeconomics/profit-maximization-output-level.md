@@ -58,7 +58,7 @@ Construct MR and MC curves and locate their intersection point. Calculate profit
   answer: true
   explanation: "This is a universal principle of marginal reasoning: keep doing something as long as the marginal benefit exceeds the marginal cost, and stop when they are equal. The logic is identical for any profit-maximizing firm. What changes across market structures is the shape of the MR curve: flat (equal to price) for competitive firms, downward-sloping for monopolists. The condition MR = MC is the same; only the value of MR at the optimum differs."
 
-- question: "A firm producing where MR = MC must be earning positive economic profit."
+- question: "A firm producing where MR = MC is expected to be earning positive economic profit."
   type: true-false
   answer: false
   explanation: "MR = MC identifies the profit-maximizing (or loss-minimizing) quantity — it says nothing about whether that profit is positive, zero, or negative. Profit equals (P − ATC) × Q. If P > ATC at the optimal quantity, profit is positive. If P = ATC, profit is zero. If P < ATC (but P > AVC), profit is negative and the firm is minimizing losses by operating. A firm can be at MR = MC while running at a loss — it is still better off producing at that quantity than at any other, but losses are possible."

@@ -56,7 +56,7 @@ Roman law, while sophisticated, was not universally applied—it favored propert
   answer: true
   explanation: "When European universities revived systematic legal study in the 11th and 12th centuries, the Corpus Juris Civilis became their primary text. This transmission was the mechanism by which Roman concepts — res judicata, contract structure, legal personhood, the public/private law distinction — entered continental European, Latin American, and other legal traditions. The Corpus was not merely preserved as historical artifact; it was actively deployed as the basis for building new legal systems."
 
-- question: "The Roman philosophical concept of ius naturale (natural law applicable to all rational beings) meant that in practice, the Roman legal system applied equally to slaves, non-citizens, and women."
+- question: "The Roman philosophical concept of ius naturale (natural law applicable to most rational beings) meant that in practice, the Roman legal system applied equally to slaves, non-citizens, and women."
   type: true-false
   answer: false
   explanation: "This is the central tension in Roman legal history. The philosophical aspiration of ius naturale — a universal law grounded in reason, applicable to all rational beings — coexisted with a legal system that explicitly excluded slaves (no legal standing), restricted non-citizens, and barred women from most civic and legal roles. Universalist legal philosophy and systematic exclusion operated simultaneously. The gap between the theory and its application is not a minor detail; it is structurally important to understanding how legal systems can invoke universal principles while serving particular interests."

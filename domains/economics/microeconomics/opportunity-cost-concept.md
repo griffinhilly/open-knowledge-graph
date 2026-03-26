@@ -52,7 +52,7 @@ Compare to accounting cost (actual cash outflow). Work through examples: the cos
   answer: 1
   explanation: "The $150 is a sunk cost — already spent and unrecoverable regardless of what you decide. Rational decision-making is forward-looking: the only relevant costs are the opportunity costs of your remaining choices. Going means spending an evening feeling sick; staying home means rest. The $150 doesn't factor in because it doesn't change. The 'have to get your money's worth' reasoning is the sunk cost fallacy — letting past costs distort future decisions."
 
-- question: "The opportunity cost of choosing an action is the total value of all the alternatives you gave up."
+- question: "The opportunity cost of choosing an action is the total value of most of the alternatives you gave up."
   type: true-false
   answer: false
   explanation: "Opportunity cost is the value of the single best alternative foregone — not the sum of all alternatives. If you have options A, B, and C and choose A, your opportunity cost is whichever of B or C you valued more highly, not both combined. Summing all foregone alternatives would systematically overstate the cost. The 'best foregone alternative' definition is what makes opportunity cost the true economic cost: it captures the most you actually sacrificed."

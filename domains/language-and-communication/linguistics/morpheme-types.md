@@ -47,7 +47,7 @@ Create two-column tables comparing inflectional vs derivational affixes in Engli
   answer: 2
   explanation: "The suffix -er in 'teacher' is derivational: it takes the verb 'teach' and creates a new noun meaning 'one who teaches,' changing the word's grammatical category (verb → noun) and substantially altering its meaning. The other three suffixes (-s plural, -ed past tense, -ing progressive) are all inflectional — they mark grammatical properties like number and tense without creating a new word or changing the base word's category."
 
-- question: "Derivational morphemes always change the grammatical category of the word they attach to."
+- question: "Derivational morphemes generally change the grammatical category of the word they attach to."
   type: true-false
   answer: false
   explanation: "This is a common overgeneralization. While many derivational morphemes do change category (e.g., 'teach' (verb) → 'teacher' (noun)), others create new words within the same category. The suffix -dom in 'kingdom' derives a new noun from a noun ('king'), and the prefix un- in 'unhappy' creates a new adjective from an adjective. The defining property of derivation is creating a new lexical item, not necessarily changing category."

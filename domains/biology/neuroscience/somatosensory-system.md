@@ -50,7 +50,7 @@ Mechanoreceptors, thermoreceptors, nociceptors transduce touch, temperature, pai
   answer: false
   explanation: "Fine touch and proprioception travel via the dorsal column-medial lemniscal pathway, which ascends IPSILATERALLY in the dorsal columns all the way to the brainstem (specifically the medulla), where the fibers synapse and then cross to the contralateral side. They do NOT cross in the spinal cord. Contrast this with pain and temperature signals, which travel via the spinothalamic tract: these fibers DO cross within the spinal cord (in the anterior commissure) shortly after entering. This is the anatomical basis for the crossed deficit pattern in Brown-Séquard syndrome."
 
-- question: "The somatotopic map in primary somatosensory cortex is fixed throughout life and cannot be altered by experience or injury."
+- question: "The somatotopic map in primary somatosensory cortex is fixed throughout life and can rarely be altered by experience or injury."
   type: true-false
   answer: false
   explanation: "The somatotopic map is dynamically plastic. Following amputation of a limb, the cortical territory previously dedicated to that limb is gradually invaded by neighboring body representations — a phenomenon called cortical remapping. Conversely, intensive use of a body part (e.g., string musicians' left hand fingertips) can expand its cortical representation. This plasticity is clinically relevant: phantom limb pain may partly reflect reorganization of cortical maps after amputation, and sensory training regimens in rehabilitation exploit plasticity to restore function. Plasticity connects somatotopic organization to broader principles of experience-dependent cortical modification."

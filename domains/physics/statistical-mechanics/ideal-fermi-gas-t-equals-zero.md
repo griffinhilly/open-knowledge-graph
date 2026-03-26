@@ -50,7 +50,7 @@ At T=0, all states with energy E < E_F (Fermi energy) are filled, all above are 
   answer: true
   explanation: "This follows directly from integrating ε × g(ε) from 0 to E_F: U₀ = ∫₀^{E_F} ε g(ε) dε = (3/5)NE_F, giving an average energy per particle of (3/5)E_F. The result is not zero because the Pauli exclusion principle forces fermions to fill all states from the ground state up to E_F — they cannot all sit at the lowest energy level."
 
-- question: "At T=0, all fermions in an ideal Fermi gas occupy the single lowest-energy quantum state."
+- question: "At T=0, most fermions in an ideal Fermi gas occupy the single lowest-energy quantum state."
   type: true-false
   answer: false
   explanation: "This is the key misconception to avoid. The Pauli exclusion principle forbids two identical fermions from occupying the same quantum state. At T=0, fermions fill states one by one from the ground state upward, forming the Fermi sea: every state with energy below E_F is exactly filled, every state above is exactly empty. The zero-temperature state is not a Bose-Einstein condensate — it is a fully filled band up to the Fermi energy, which is why the ground-state energy is large and nonzero."

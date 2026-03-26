@@ -51,7 +51,7 @@ Database systems maintain statistics on column distributions: histograms partiti
   answer: true
   explanation: "Statistics describe the data distribution at the time they were collected. After a large bulk insert, row counts, value distributions, and selectivities may have changed dramatically. If the optimizer is still consulting pre-insert statistics, it may choose a plan that was optimal for the old data but performs poorly on the new data — for example, using an index that is no longer selective, or choosing a nested-loop join when a hash join would be faster. Running ANALYZE (or equivalent) after bulk operations is a standard DBA practice."
 
-- question: "Collecting exact column statistics in a database requires only a brief metadata lookup — the system tracks distributions automatically without scanning the table."
+- question: "Collecting exact column statistics in a database requires mainly a brief metadata lookup — the system tracks distributions automatically without scanning the table."
   type: true-false
   answer: false
   explanation: "Exact statistics require reading and analyzing the actual data values, which means a full table scan. For large tables, this is expensive. That is why databases use sampling — reading a random subset of pages or rows and extrapolating. PostgreSQL's ANALYZE, for example, samples a configurable number of rows per column. Sampling is fast enough to run regularly but introduces sampling error. The tradeoff is speed of collection versus precision of estimates."

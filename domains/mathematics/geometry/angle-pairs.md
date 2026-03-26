@@ -52,7 +52,7 @@ Start with visual identification of each type. Set up and solve algebraic equati
   answer: 1
   explanation: "The proof uses supplementary angle reasoning: if angle A and angle B are supplementary (A + B = 180°), and angle C and angle B are also supplementary (C + B = 180°), then A = C. This is the logical chain: each vertical angle is supplementary to the same adjacent angle, so both must equal 180° minus that shared angle — making them equal. Vertical angles are NOT necessarily right angles, and intersecting lines are NOT necessarily perpendicular."
 
-- question: "Any two adjacent angles — angles that share a vertex and a side — must be supplementary (sum to 180°)."
+- question: "Any two adjacent angles — angles that share a vertex and a side — should be supplementary (sum to 180°)."
   type: true-false
   answer: false
   explanation: "Adjacent angles are supplementary only if they form a linear pair — meaning together they make a straight angle (180°). But two adjacent angles could instead form part of a larger angle without summing to 180°. For example, a 30° angle and a 40° angle can be adjacent (sharing a side) while summing to only 70°. The condition for supplementary is their sum, not their adjacency."

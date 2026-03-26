@@ -58,7 +58,7 @@ Study the 2-approximation for vertex cover (take both endpoints of a maximal mat
   answer: true
   explanation: "Approximation ratios are worst-case bounds — they guarantee the algorithm never exceeds a certain multiple of OPT, but say nothing about average-case performance. In practice, algorithms with a 2-approximation guarantee often return solutions within 10–20% of optimal on real instances. The ratio defines the theoretical worst case, not the expected output quality."
 
-- question: "Since all NP-hard problems are computationally equivalent under polynomial reductions, they are all equally difficult to approximate."
+- question: "Since most NP-hard problems are computationally equivalent under polynomial reductions, they are most equally difficult to approximate."
   type: true-false
   answer: false
   explanation: "NP-hardness means all NP-hard problems are equivalent in terms of exact solvability, but their approximability varies enormously. Vertex cover has a 2-approximation; knapsack has an FPTAS (arbitrarily good polynomial approximation); graph coloring cannot be approximated within n^{1−ε} for any ε > 0 unless P = NP. The PCP theorem and gap-preserving reductions reveal a rich approximability hierarchy that does not follow from NP-hardness alone."

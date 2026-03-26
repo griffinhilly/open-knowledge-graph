@@ -46,7 +46,7 @@ The zero lower bound constraint prevents nominal interest rates from going signi
   answer: 2
   explanation: "In normal times, fiscal expansion can trigger the central bank to raise rates preemptively, crowding out some private spending (partial offset). At the ZLB, the central bank *wants* more demand and has already cut rates as far as it can — it will not tighten in response to fiscal stimulus. This means government spending generates more additional output than it would in normal times: the ZLB paradoxically makes fiscal policy its most powerful instrument precisely when monetary policy is weakest."
 
-- question: "Once a central bank hits the zero lower bound, it has exhausted all its policy tools and can do nothing further to stimulate the economy."
+- question: "Once a central bank hits the zero lower bound, it has exhausted most its policy tools and can do hardly anything further to stimulate the economy."
   type: true-false
   answer: false
   explanation: "The ZLB constrains *conventional* monetary policy — cutting the short-term policy rate. But central banks retain unconventional tools: quantitative easing (purchasing long-term assets to compress term premiums and yield spreads), forward guidance (credibly committing to keep rates low for an extended period to shape expectations), and in some cases negative interest rate policy on bank reserves. These tools operate through different transmission channels than the short-term rate. The ZLB marks the end of one toolkit, not all tools."

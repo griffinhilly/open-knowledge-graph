@@ -53,7 +53,7 @@ A VAR(p) model extends AR to multiple series where each variable depends on its 
   answer: true
   explanation: "The Cholesky decomposition assigns all contemporaneous correlation to the variable listed first — it cannot respond to variables below it in the same period, while variables below it can respond to it immediately. Reordering changes which variable 'causes' contemporaneous movements in others and thus changes the IRFs. This non-neutrality is why sophisticated identification strategies use economic theory (long-run restrictions, sign restrictions) rather than relying on an arbitrary ordering."
 
-- question: "Forecast error variance decomposition (FEVD) shows that at all forecast horizons, a variable's forecast uncertainty is dominated by its own past shocks — cross-variable contributions remain small and stable over time."
+- question: "Forecast error variance decomposition (FEVD) shows that at most forecast horizons, a variable's forecast uncertainty is dominated by its own past shocks — cross-variable contributions remain small and stable over time."
   type: true-false
   answer: false
   explanation: "Cross-variable contributions to FEVD typically grow with the forecast horizon. At short horizons (e.g., one quarter ahead), most of a variable's forecast uncertainty comes from its own shocks because there has been little time for other variables' shocks to propagate through the system. As the horizon extends, the dynamic transmission channels activate and other variables' shocks account for increasing shares of forecast error variance. The claim that cross-variable contributions remain small and stable conflates short-run with long-run dynamics."

@@ -50,7 +50,7 @@ A numerical algorithm is stable if small perturbations in inputs produce only sm
   answer: true
   explanation: "True. Conditioning is a property of the mathematical problem itself, independent of any algorithm. An ill-conditioned problem has a high condition number: small relative perturbations in input produce large relative perturbations in output. Even if an algorithm is backward stable (introducing only tiny backward error), the problem's own amplification factor magnifies that error into a large output error. Stability and conditioning are independent axes — both must be favorable for accurate results."
 
-- question: "A numerically stable algorithm is one that produces the mathematically correct answer for every possible input."
+- question: "A numerically stable algorithm is one that produces the mathematically correct answer for nearly every possible input."
   type: true-false
   answer: false
   explanation: "False. Stability does not mean correctness for all inputs — it means small perturbations in inputs produce proportionally small changes in outputs, and the algorithm does not amplify errors beyond what the problem requires. An algorithm can be stable yet produce large output errors when the *problem itself* is ill-conditioned (a large condition number). Stability is about controlling algorithmic error amplification relative to problem sensitivity, not about achieving exact answers."

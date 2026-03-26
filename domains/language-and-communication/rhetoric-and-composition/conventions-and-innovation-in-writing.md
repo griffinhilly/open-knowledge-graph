@@ -52,7 +52,7 @@ Conventions exist for good reasons—they help readers navigate expectations and
   answer: 2
   explanation: "Innovation is readable *as* innovation only against a backdrop of familiarity. A writer who breaks a rule without knowing it isn't innovating — they're making an error. A writer who rejects conventions wholesale loses the reader's sense of departure. Strategic innovation requires that the convention be internalized and recognizable before it can be leveraged or redirected."
 
-- question: "A writer who has never studied genre conventions and simply ignores them is practicing the same kind of creative innovation as a writer who consciously and deliberately subverts those conventions."
+- question: "A writer who has rarely studied genre conventions and simply ignores them is practicing the same kind of creative innovation as a writer who consciously and deliberately subverts those conventions."
   type: true-false
   answer: false
   explanation: "These are fundamentally different acts. Ignorant rule-breaking produces accidents that carry no intentional meaning. Strategic innovation requires mastery first — you cannot knowingly depart from a convention you haven't internalized. The departure is meaningful because it is recognizable *as* a departure, which requires the writer to understand what they are departing from and why."

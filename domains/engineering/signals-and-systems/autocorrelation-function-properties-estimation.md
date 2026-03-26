@@ -60,7 +60,7 @@ Compute ACF of sinusoid, random noise, and autoregressive signal. Observe lag st
   answer: true
   explanation: "Even symmetry follows directly from the definition: R_x(τ) = E[x(t)x(t+τ)]. Replacing τ with −τ gives R_x(−τ) = E[x(t)x(t−τ)], which by stationarity equals E[x(t+τ)x(t)] = R_x(τ). The expectation of a product doesn't depend on which sample leads. Geometrically, the ACF is symmetric about lag zero, so you only need to compute and interpret it for non-negative lags."
 
-- question: "White noise has a flat (constant) autocorrelation function, reflecting that all lags contribute equally to its power."
+- question: "White noise has a flat (constant) autocorrelation function, reflecting that most lags contribute equally to its power."
   type: true-false
   answer: false
   explanation: "White noise has an impulsive ACF — R_x(0) equals average power, and R_x(τ) = 0 for all τ ≠ 0. White noise samples are uncorrelated by definition: knowing the value at one time gives no information about any other. A flat ACF would imply constant nonzero correlation at all lags. The confusion may arise from white noise's flat power spectral density — but the ACF (the Fourier transform of the PSD) of a flat spectrum is an impulse, not a flat function."

@@ -47,7 +47,7 @@ A thin lens is a transparent optical element that refracts light at two surfaces
   answer: 0
   explanation: "Power P = 1/f, so f = 1/P = 1/2.5 = 0.4 m = 40 cm. Positive power means a converging lens, which adds focusing power to an eye that cannot converge parallel rays onto the retina — the definition of farsightedness (hyperopia). Nearsightedness requires a diverging (negative power) lens. The common error in option B is forgetting to convert diopters to meters before computing focal length."
 
-- question: "A converging lens always forms a real, inverted image of any object placed in front of it."
+- question: "A converging lens usually forms a real, inverted image of any object placed in front of it."
   type: true-false
   answer: false
   explanation: "When an object is placed inside the focal length of a converging lens (object distance < f), the lens acts as a magnifying glass and forms a virtual, upright, magnified image on the same side as the object. A real, inverted image is only formed when the object is beyond the focal point. This is one of the most important subtleties of converging lenses: the same lens can produce fundamentally different image types depending on object position."

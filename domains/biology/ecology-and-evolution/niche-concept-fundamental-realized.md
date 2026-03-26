@@ -50,7 +50,7 @@ An organism's fundamental niche is the range of conditions and resources it coul
   answer: 2
   explanation: "In native ranges, biotic interactions — competition, predation, parasitism — constrain species to their realized niches, which are subsets of their fundamental niches. When introduced to a new environment, these biotic constraints are absent (competitors and predators haven't co-evolved with them). The species can then occupy a broader range of conditions, approaching its fundamental niche. This is called ecological release. The invasive species hasn't changed genetically — the same fundamental niche is now less constrained by competitors."
 
-- question: "A species' realized niche is always smaller than its fundamental niche."
+- question: "A species' realized niche is generally smaller than its fundamental niche."
   type: true-false
   answer: false
   explanation: "In most cases the realized niche is a subset of the fundamental niche, because biotic interactions (competition, predation) exclude the species from parts of its tolerable range. However, mutualistic interactions can expand a species' realized niche *beyond* its fundamental niche — enabling it to persist in conditions it could not survive alone. For example, a plant that depends on a mycorrhizal fungus for nutrient uptake may colonize nutrient-poor soils it could not otherwise inhabit. The general rule is that competition contracts the realized niche; mutualism can expand it."

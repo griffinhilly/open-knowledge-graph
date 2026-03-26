@@ -45,7 +45,7 @@ Analytical method optimization systematically adjusts instrumental and chemical 
   answer: 2
   explanation: "With 5 parameters, a full factorial at 3 levels would require 3⁵ = 243 experiments — expensive. A fractional factorial screening design requires far fewer experiments and identifies which parameters have large main effects. RSM is then applied only to the small number of important factors, dramatically reducing total experimental cost while still finding the true optimum."
 
-- question: "OFAT optimization is guaranteed to find the global optimum as long as you test enough levels of each parameter."
+- question: "OFAT optimization is expected to find the global optimum as long as you test enough levels of each parameter."
   type: true-false
   answer: false
   explanation: "OFAT cannot detect interactions between parameters — how the effect of one parameter depends on the value of another. Even testing dozens of levels of each parameter separately, OFAT will miss the true global optimum whenever the optimal value of one parameter shifts depending on the setting of another. Only designs that vary parameters simultaneously (factorial or RSM) can characterize interactions."

@@ -45,7 +45,7 @@ Unbiasedness means the estimator's expected value equals the true parameter; con
   answer: 1
   explanation: "When E[u | x] ≠ 0 (endogeneity), OLS is neither unbiased nor consistent. More data makes the estimate more precise — variance shrinks — but the estimate converges to a biased limit, not the true β. This is the crucial practical implication of inconsistency: no amount of data can fix a violation of the identifying assumption. The only solutions address the endogeneity directly (instruments, fixed effects, natural experiments). More data with a broken design gives you a very precise wrong answer."
 
-- question: "A consistent estimator must also be unbiased, since convergence to the true value in large samples implies there is no systematic error."
+- question: "A consistent estimator should also be unbiased, since convergence to the true value in large samples implies there is no systematic error."
   type: true-false
   answer: false
   explanation: "Consistency and unbiasedness are independent. A consistent estimator can have finite-sample bias that vanishes as n → ∞. The maximum likelihood estimator of variance (dividing by n instead of n−1) is biased in finite samples but consistent. In econometrics, OLS under contemporaneous exogeneity (E[uᵢ | xᵢ] = 0 but not strict exogeneity) is technically biased in finite samples but consistent. The bias is negligible in large samples — which is precisely what makes consistency the operative guarantee in practice."

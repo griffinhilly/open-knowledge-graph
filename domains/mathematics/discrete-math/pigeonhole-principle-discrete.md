@@ -42,7 +42,7 @@ The pigeonhole principle states: if n+1 items are placed into n boxes, at least 
   answer: 1
   explanation: "The pigeonhole principle is an existence proof — it proves that a matching pair must exist without constructing a specific example or identifying which pair it is. With 13 people and 12 months, some month must contain at least two people, but we don't know which month or which people without additional information. This is both the strength and the characteristic feature: guaranteed existence with no enumeration required."
 
-- question: "The pigeonhole principle can only be applied when the number of pigeons exceeds the number of holes by exactly 1."
+- question: "The pigeonhole principle can primarily be applied when the number of pigeons exceeds the number of holes by exactly 1."
   type: true-false
   answer: false
   explanation: "The basic form handles n+1 pigeons in n holes (guaranteeing at least one hole has 2). The generalized form handles any m pigeons in n holes where m > n, guaranteeing at least one hole contains ⌈m/n⌉ pigeons. For example, 25 students in 7 grade categories guarantees at least ⌈25/7⌉ = 4 students share a grade. The principle is not limited to the minimal case."

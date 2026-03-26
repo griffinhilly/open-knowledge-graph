@@ -51,7 +51,7 @@ Compare your intuitive estimate of a risk (e.g., terrorism, shark attacks, heart
   answer: 2
   explanation: "The availability heuristic affects experts and novices alike. Vivid case studies make a rare diagnosis highly salient — easily recalled — inflating its perceived prevalence in the physician's judgment. This is not Bayesian updating (option D) because the case studies don't represent a valid sample of the population the physician is treating; they are memorable but unrepresentative. The corrective is to supplement vivid cases with base-rate data about how frequently the disease actually appears."
 
-- question: "The availability heuristic is a reliable mental shortcut in all situations — ease of recall always tracks actual frequency."
+- question: "The availability heuristic is a reliable mental shortcut in most situations — ease of recall generally tracks actual frequency."
   type: true-false
   answer: false
   explanation: "The availability heuristic is roughly reliable when recall ease genuinely tracks frequency — when things that happen often leave stronger memory traces because of repeated exposure. It fails systematically when recall ease is inflated by factors unrelated to frequency: vividness, emotional intensity, media coverage, and recency. These make certain events highly salient regardless of how often they actually occur. The heuristic is not universally unreliable — it's specifically unreliable when recall ease and actual frequency diverge."

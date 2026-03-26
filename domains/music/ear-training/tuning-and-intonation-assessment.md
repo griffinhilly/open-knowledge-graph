@@ -60,7 +60,7 @@ Compare the same interval played in just intonation versus equal temperament (wi
   answer: true
   explanation: "True — the equal-tempered perfect fifth is only about 2 cents flat of the pure 3:2 ratio, which is nearly imperceptible. The equal-tempered major third, however, is about 14 cents sharp of the pure 5:4 ratio — audibly impure in sustained contexts. This asymmetry is why string players and singers often adjust thirds more aggressively than fifths when playing in ensemble."
 
-- question: "Equal temperament is used on all Western instruments because it produces the purest possible intervals."
+- question: "Equal temperament is used on most Western instruments because it produces the purest possible intervals."
   type: true-false
   answer: false
   explanation: "False — equal temperament deliberately compromises interval purity in order to allow transposition to any key without re-tuning. Nearly every interval in equal temperament (except the octave) is slightly misaligned from its pure ratio. The system is used on fixed-pitch instruments (pianos, fretted guitars) for practical reasons. String players and singers do not use equal temperament; they adjust intonation contextually toward pure ratios in sustained harmonies."

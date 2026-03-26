@@ -49,7 +49,7 @@ The distinction between 'literary' and 'genre' fiction is historically and cultu
   answer: 1
   explanation: "The literary/genre distinction is not a fixed ontological category but a historically constructed one, shaped by critics, publishers, reviewers, and prize committees at different moments. What counts as 'literary' shifts across eras and cultures. Dickens' trajectory — popular genre novelist to canonical literary author — is a paradigm case of this contingency. It shows that the boundary is porous and changes, which is why applying contemporary category distinctions backward onto historical works requires care."
 
-- question: "A novel that delivers the satisfactions of its genre — a satisfying mystery plot — while also pursuing formally innovative structure and psychological depth cannot be considered literary fiction."
+- question: "A novel that delivers the satisfactions of its genre — a satisfying mystery plot — while also pursuing formally innovative structure and psychological depth can rarely be considered literary fiction."
   type: true-false
   answer: false
   explanation: "Such hybrid works — Umberto Eco's *The Name of the Rose*, Tana French's Dublin Murder Squad novels — reveal that the literary/genre distinction is a spectrum rather than a binary. A work can simultaneously deliver genre satisfactions AND pursue literary ambitions. These works don't fall outside either category; they operate in both registers at once. The point is that the distinction describes primary orientation and interpretive expectations, not exclusive membership in a fixed class."

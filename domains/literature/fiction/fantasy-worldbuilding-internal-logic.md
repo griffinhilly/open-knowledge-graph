@@ -53,7 +53,7 @@ In fantasy, anything can happen—actually, successful fantasy establishes logic
   answer: 1
   explanation: "The distinction is functional: it determines what kind of story is possible. When readers fully understand the rules, the author can present a problem and let the reader puzzle out a solution — the magic becomes a tool for plot. Soft magic works differently: its mystery generates awe and atmosphere, but the author cannot solve plot problems with it without it feeling like a cheat, because the reader can't verify whether the solution obeys the rules. Neither is superior; the choice commits the story to a particular kind of drama."
 
-- question: "In successful fantasy, the author must explicitly explain all the rules of the magic system for the world to feel internally consistent."
+- question: "In successful fantasy, the author should explicitly explain most of the rules of the magic system for the world to feel internally consistent."
   type: true-false
   answer: false
   explanation: "Internal consistency does not require explicit exposition — it requires that the magic *behaves* consistently. Tolkien's magic is never systematically explained, yet it feels coherent because it operates predictably within the story's events. Readers build a mental model of how the world works from evidence in the text. Violating that model breaks immersion; spelling out the rules is just one way to establish it."

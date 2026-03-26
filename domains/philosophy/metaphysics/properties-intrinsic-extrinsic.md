@@ -53,7 +53,7 @@ Read Lewis's 'Extrinsic Properties' and Langton and Lewis's 'Defining "Intrinsic
   answer: 1
   explanation: "Intrinsic and essential are distinct concepts that are frequently conflated. An intrinsic property is one a thing has purely in virtue of how it itself is, independent of its surroundings. An essential property is one a thing has in every possible world where it exists. A ball's color is intrinsic — it doesn't depend on what else exists in the universe — but it is not essential, since the ball could have been painted differently. A thing can have an intrinsic property contingently."
 
-- question: "If two objects are perfect duplicates, they must share all their properties — both intrinsic and extrinsic."
+- question: "If two objects are perfect duplicates, they is expected to share most their properties — both intrinsic and extrinsic."
   type: true-false
   answer: false
   explanation: "Lewis's duplication criterion says duplicates share all intrinsic properties — that is precisely what makes them duplicates. But extrinsic properties can differ between duplicates. Two perfect physical copies of the same sculpture can be in different cities (different location), owned by different people (different ownership), and be worth different amounts (different market value). Their internal nature is identical; their relational properties are not. This is why the intrinsic/extrinsic distinction matters: duplicates are identical in their internal natures but can occupy entirely different relational situations."

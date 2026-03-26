@@ -62,7 +62,7 @@ Not all piecewise functions are discontinuous at their boundaries. If the pieces
   answer: 2
   explanation: "The left-hand limit is lim(x→2⁻) (x+1) = 3. The right-hand limit is lim(x→2⁺) (x+3) = 5 = f(2). Because the left-hand limit (3) does not equal f(2) (5), there is a jump discontinuity. Option A is the classic error: f(2) being defined is necessary but not sufficient for continuity — the limits must also agree with f(2)."
 
-- question: "A piecewise function is always discontinuous at its boundary points."
+- question: "A piecewise function is generally discontinuous at its boundary points."
   type: true-false
   answer: false
   explanation: "Piecewise functions can be perfectly continuous at their boundaries if the pieces connect without a gap or jump. For example, f(x) = { x, if x < 1; 1, if x ≥ 1 } is continuous at x = 1 because both pieces approach 1 from their respective sides. The pieces meeting at a boundary just needs left limit = right limit = f(boundary)."

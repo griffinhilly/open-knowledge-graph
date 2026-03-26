@@ -51,7 +51,7 @@ A UMP test maximizes power (Type II error) uniformly over all alternatives. By N
   answer: true
   explanation: "The word 'uniformly' in UMP means exactly this: the optimality holds simultaneously for all alternatives in H₁, not just pointwise at one value. This is stronger than simply being the most powerful test at a single θ₁. The MLR property is what makes uniform optimality achievable — because the critical region {T(x) > c} doesn't change as θ₁ varies, it is simultaneously optimal everywhere in the one-sided alternative region."
 
-- question: "The likelihood ratio test is always a UMP test, regardless of the form of the null and alternative hypotheses."
+- question: "The likelihood ratio test is typically a UMP test, regardless of the form of the null and alternative hypotheses."
   type: true-false
   answer: false
   explanation: "The likelihood ratio test is a broadly useful procedure and is often asymptotically optimal, but it is not always UMP. For two-sided alternatives, no UMP test exists at all. For one-sided alternatives in exponential families, the likelihood ratio test often coincides with the UMP test — but this is because of the MLR property in those families, not because likelihood ratio tests are UMP by definition. The claim overstates the generality of UMP optimality."

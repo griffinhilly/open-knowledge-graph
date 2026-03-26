@@ -51,7 +51,7 @@ Three primary circulation cells organize atmospheric winds: the tropical Hadley 
   answer: 1
   explanation: "At 15°N, the ship is within the Hadley cell's trade wind belt. Surface air flows equatorward from the subtropical high (~30°N) toward the ITCZ. The Coriolis effect in the Northern Hemisphere deflects this southward flow to the right, turning it into northeasterly flow (wind coming FROM the northeast). Option A is wrong — westerlies are the mid-latitude (30°–60°) phenomenon. Trade winds blow FROM the east, opposite to the westerlies."
 
-- question: "The Hadley cell, Ferrel cell, and polar cell are all thermally direct circulation cells — warm air rises and cold air sinks in each."
+- question: "The Hadley cell, Ferrel cell, and polar cell are most thermally direct circulation cells — warm air rises and cold air sinks in each."
   type: true-false
   answer: false
   explanation: "The Ferrel cell is thermally INDIRECT. In a thermally direct cell, warm air rises and cool air sinks — driven by buoyancy from temperature differences (like the Hadley and polar cells). In the Ferrel cell, relatively cooler air 'rises' at the polar front and warmer air 'sinks' in the subtropics — the opposite of what direct thermal driving would produce. The Ferrel cell exists because it is forced by the momentum and heat transport of mid-latitude weather systems, not by direct convection."

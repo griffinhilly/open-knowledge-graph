@@ -54,7 +54,7 @@ Children may confuse weight with size—a large light object may seem "heavier" 
   answer: true
   explanation: "When two objects have equal weight, the downward pull of gravity on each side is equal, so neither side tips. This is an important idea: the comparison isn't just 'heavier or lighter' — equal weight is also a possible outcome. The balance scale makes this visible in a way that simply holding objects in your hands may not clearly show."
 
-- question: "A big object is always heavier than a small object."
+- question: "A big object is generally heavier than a small object."
   type: true-false
   answer: false
   explanation: "Size (how much space an object takes up) and weight (how hard gravity pulls it down) are completely different attributes. A large balloon is much bigger than a small rock but far lighter. A pillow is bigger than a book but often lighter. The most important early lesson in weight comparison is separating these two attributes — you must actually pick things up or use a balance to know which is heavier."

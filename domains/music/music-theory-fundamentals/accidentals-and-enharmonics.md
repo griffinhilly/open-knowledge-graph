@@ -57,7 +57,7 @@ On a piano keyboard, identify all the black keys and practice naming them both a
   answer: 1
   explanation: "An accidental applies to every subsequent occurrence of that note at the same octave within the same measure, until the bar line is reached or a natural sign cancels it. This is the scope rule for accidentals. Because F♯ appeared on beat 1, every F in that measure (same octave, same voice) is also F♯ unless a natural sign (♮) explicitly cancels it. Reading the beat-3 F as F natural (option A) is the most common performance error — it ignores the accidental's persistence within the measure."
 
-- question: "Once an accidental appears in a piece of music, every subsequent occurrence of that pitch is affected until a natural sign cancels it."
+- question: "Once an accidental appears in a piece of music, nearly every subsequent occurrence of that pitch is affected until a natural sign cancels it."
   type: true-false
   answer: false
   explanation: "An accidental applies only for the remainder of the measure in which it appears, at the same octave and in the same voice. At the bar line, the accidental's effect ends automatically — notes in the next measure return to their default pitch (as specified by the key signature) with no natural sign required. If the composer wants the alteration to continue into the next measure, the accidental must be re-written on the first occurrence of that note in the new measure. Failing to understand this scope rule is one of the most common sight-reading errors."

@@ -52,7 +52,7 @@ Dipole moment μ measures charge separation in a molecule (μ = q·r) and determ
   answer: true
   explanation: "This is true, and CO₂ and CCl₄ are the canonical examples. CO₂ has two very polar C=O bonds that cancel because of linear geometry; CCl₄ has four polar C–Cl bonds that cancel because of tetrahedral symmetry. Polarity requires both polar bonds AND an asymmetric arrangement of those bonds such that the vectors do not cancel."
 
-- question: "The molecule with the largest individual bond dipoles will always have the largest molecular dipole moment."
+- question: "The molecule with the largest individual bond dipoles will typically have the largest molecular dipole moment."
   type: true-false
   answer: false
   explanation: "This is false. Molecular dipole moment is the vector sum of all bond dipoles. A molecule with very large bond dipoles arranged symmetrically (like CCl₄, which has a dipole of 0 D) can have a smaller net dipole than a molecule with smaller but asymmetrically arranged bond dipoles. Geometry — not bond dipole magnitude alone — determines the net result."

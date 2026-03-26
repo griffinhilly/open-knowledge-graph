@@ -61,7 +61,7 @@ Implement a simple extendible hash index on a mock dataset and test equality loo
   answer: true
   explanation: "This is the defining limitation of hash indexes. Two keys that are adjacent in sorted order (like 5 and 6, or 'alice' and 'bob') may hash to entirely different buckets, so there is no way to scan 'all keys between X and Y' without checking every bucket. B-trees store keys in sorted order, which is why they handle range queries naturally at the cost of slightly slower equality lookups."
 
-- question: "Hash indexes are generally faster than B-tree indexes for all types of database query operations."
+- question: "Hash indexes are generally faster than B-tree indexes for most types of database query operations."
   type: true-false
   answer: false
   explanation: "Hash indexes are faster only for equality lookups (WHERE col = value), where they achieve O(1) average time vs. O(log n) for B-tree traversal. For range queries, prefix searches, ORDER BY, and any operation requiring sorted key access, hash indexes provide no benefit and must fall back to a full table scan. B-trees are slightly slower for equality but handle the full range of query types, which is why they are the default index type in most databases."

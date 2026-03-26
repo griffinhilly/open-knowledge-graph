@@ -53,7 +53,7 @@ Chords don't change at the same rate—sometimes one chord lasts a whole measure
   answer: true
   explanation: "Harmonic rhythm is a musically powerful parameter independent of harmonic content. A I–IV–V–I progression at one change per bar feels relaxed and open; the same progression at one change per beat feels driven and urgent. Composers and improvisers exploit this — accelerating harmonic rhythm toward a cadence creates tension, slowing it after the cadence creates release. The identity of the chords tells you only part of what determines the musical effect."
 
-- question: "Harmonic rhythm is always regular — chords change at a consistent rate throughout any well-composed piece."
+- question: "Harmonic rhythm is generally regular — chords change at a consistent rate throughout any well-composed piece."
   type: true-false
   answer: false
   explanation: "Most music deliberately varies its harmonic rhythm as an expressive tool. A common pattern is to accelerate toward cadences (the dominant arrives quickly after the tonic, creating urgency) and relax after them (the new tonic breathes for several measures). This variation is itself compositionally meaningful: sudden harmonic acceleration signals climax or approaching cadence; extended harmonic stasis signals arrival or repose. Assuming regular harmonic rhythm is a listening error that will cause consistent mistakes in harmonic dictation."

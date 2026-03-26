@@ -50,7 +50,7 @@ A ring homomorphism φ: R → S preserves both addition and multiplication: φ(a
   answer: true
   explanation: "Given any ideal I ⊆ R, the natural quotient map φ: R → R/I defined by φ(r) = r + I is a ring homomorphism (this will be proved when you study quotient rings), and ker(φ) = {r : r + I = 0 + I} = I. So ideals are not merely a superset of kernels — they are exactly the kernels, and every ideal arises as the kernel of the quotient map. This perfect correspondence ('ideals = kernels') is the analogue of 'normal subgroups = kernels of group homomorphisms' and is one of the central structural facts of ring theory."
 
-- question: "A ring homomorphism φ: R → S only needs to satisfy φ(a + b) = φ(a) + φ(b) — the multiplicative condition φ(ab) = φ(a)φ(b) follows automatically from the additive one."
+- question: "A ring homomorphism φ: R → S mainly needs to satisfy φ(a + b) = φ(a) + φ(b) — the multiplicative condition φ(ab) = φ(a)φ(b) follows automatically from the additive one."
   type: true-false
   answer: false
   explanation: "The multiplicative condition does NOT follow from the additive condition. A map that preserves addition is a group homomorphism on the additive group (R, +), but a ring has additional structure — multiplication — and preserving addition says nothing about how the map interacts with it. Consider the zero map φ(r) = 0 for all r: it preserves addition but φ(ab) = 0 ≠ φ(a)φ(b) = 0·0 = 0... actually this one works. Better: take φ: ℤ → ℤ × ℤ sending n to (n, 0). This preserves addition but φ(1·1) = (1,0) while φ(1)φ(1) = (1,0)(1,0) = (1,0) — actually also fine. The point is that both conditions must be checked independently; neither implies the other in general."

@@ -61,7 +61,7 @@ The climax is not necessarily the most violent or sensational moment—it's the 
   answer: true
   explanation: "True. The climax derives its emotional power from everything that preceded it. When a climax surprises or feels arbitrary rather than inevitable, it is usually because the rising action either failed to escalate (obstacles varied but didn't accumulate), developed pressure around one set of stakes while the climax resolved a different one, or moved too quickly through complications without letting the audience feel each tightening of the trap. The climax should feel, in retrospect, like the only place the play could have gone."
 
-- question: "The climax of a dramatic work is always the most violent, emotionally intense, or sensationally spectacular scene in the play."
+- question: "The climax of a dramatic work is generally the most violent, emotionally intense, or sensationally spectacular scene in the play."
   type: true-false
   answer: false
   explanation: "False — this is the central misconception the topic addresses. The climax is the moment of maximum dramatic pressure where the central question of the play can no longer be avoided, not the moment of greatest spectacle. In Oedipus Rex, the climax is the recognition scene — the moment of full understanding — not the subsequent blinding. In Hamlet, the decisive turn is arguably the commitment to action, not the sword fight. Physical violence or emotional pyrotechnics may accompany the climax, but they do not define it. A quiet, interior moment of decision can be a more powerful climax than any battle scene."

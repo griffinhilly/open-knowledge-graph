@@ -57,7 +57,7 @@ Solve the radial Schrödinger equation explicitly for hydrogen; plot radial prob
   answer: true
   explanation: "True. P(r) = r²|R(r)|² incorporates a volume-element factor r² that goes to zero at the origin. This means that despite R(1s) being maximum at r = 0, the actual probability of finding the electron in a thin spherical shell peaks at r = a₀. The distinction between |R(r)|² (probability density per unit volume) and P(r) (probability per unit radial distance) is essential for correctly interpreting orbital structure."
 
-- question: "Going from an s orbital to a p orbital of the same principal quantum number (e.g., 2s → 2p) always increases the number of radial nodes."
+- question: "Going from an s orbital to a p orbital of the same principal quantum number (e.g., 2s → 2p) generally increases the number of radial nodes."
   type: true-false
   answer: false
   explanation: "False — it decreases radial nodes. Radial nodes = n − l − 1, so higher angular momentum l means fewer radial nodes. For n = 2: the 2s has 2 − 0 − 1 = 1 radial node, while the 2p has 2 − 1 − 1 = 0 radial nodes. The total node count (radial + angular) stays fixed at n − 1 = 1 for both; the 2p trades its radial node for an angular nodal plane. A common misconception is that more complex orbitals must have more nodes overall — in fact, total nodes depend only on n."

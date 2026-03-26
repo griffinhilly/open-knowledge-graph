@@ -55,7 +55,7 @@ Combining the separated groups back together instead of counting only what remai
   answer: true
   explanation: "Starting with 5 and removing 2 leaves 3 behind. After the separation, the remaining group has 3 objects — and counting that group gives you 3, the correct answer to 5 minus 2."
 
-- question: "To find how many are left after removing some objects, you should push both groups back together and count all of them."
+- question: "To find how many are left after removing some objects, you should push both groups back together and count most of them."
   type: true-false
   answer: false
   explanation: "Recombining the groups before counting defeats the purpose of separating them. If you push both groups back together, you will count the original total — not the remaining amount. The whole point of separating is to isolate the group that stayed, so you can count only those."

@@ -37,7 +37,7 @@ Begin with right triangles and concrete calculations. Memorize the definitions v
   answer: 1
   explanation: "sin(θ) = opposite/hypotenuse. The side *opposite* angle θ (at bottom-left) is the vertical leg (length 3). The hypotenuse = √(3² + 4²) = 5. So sin(θ) = 3/5. The answer 4/5 is cos(θ) — using the adjacent leg instead of the opposite. Identifying which side is opposite is always relative to the angle in question."
 
-- question: "If every side of a right triangle is doubled, the value of sin(θ) for any given angle θ in the triangle also doubles."
+- question: "If nearly every side of a right triangle is doubled, the value of sin(θ) for any given angle θ in the triangle also doubles."
   type: true-false
   answer: false
   explanation: "Trig ratios are ratios of sides, so scaling all sides by the same factor cancels out. If opposite = 3 and hypotenuse = 5, then sin = 3/5. After doubling: opposite = 6, hypotenuse = 10, sin = 6/10 = 3/5 — unchanged. The angle determines the ratio; the size of the triangle does not."

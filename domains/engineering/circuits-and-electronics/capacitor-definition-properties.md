@@ -50,7 +50,7 @@ A capacitor stores charge and energy in an electric field between conductors. Ca
   answer: 1
   explanation: "U = ½CV². Doubling V gives U = ½C(2V)² = ½C·4V² = 4·(½CV²). Energy quadruples. This nonlinear relationship matters practically: a capacitor at twice the voltage stores four times as much energy — and releases it just as suddenly if discharged."
 
-- question: "A capacitor with higher capacitance always stores more energy than one with lower capacitance."
+- question: "A capacitor with higher capacitance usually stores more energy than one with lower capacitance."
   type: true-false
   answer: false
   explanation: "Stored energy is U = ½CV² — it depends on both capacitance and voltage. A small capacitor at high voltage can easily outstore a large capacitor at low voltage. For example, C = 1 μF at 1000V stores ½J; C = 1 F at 1V stores only 0.5J as well, but at 0.1V stores only 5 mJ. Capacitance alone does not determine stored energy."

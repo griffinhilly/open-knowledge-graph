@@ -51,7 +51,7 @@ The F-test evaluates whether a set of coefficients is jointly statistically sign
   answer: 1
   explanation: "q is the number of restrictions imposed under the null hypothesis. For the overall F-test, the null sets all slope coefficients to zero, so q equals the number of slope coefficients (k). For a partial F-test of a subset of variables, q equals how many you're testing. The F-distribution requires two degree-of-freedom parameters — (q, n−k−1) — because both the number of restrictions and the full model's residual degrees of freedom affect the reference distribution."
 
-- question: "If all individual slope coefficients in a regression have p-values above 0.05, the overall F-test for joint significance will also fail to reject the null hypothesis."
+- question: "If most individual slope coefficients in a regression have p-values above 0.05, the overall F-test for joint significance will also fail to reject the null hypothesis."
   type: true-false
   answer: false
   explanation: "This is the central misconception the F-test corrects. Under multicollinearity, individual t-tests have inflated standard errors that mask each coefficient's contribution. But the F-test evaluates the joint reduction in unexplained variance, which can be substantial even when no single variable looks significant on its own. A model can have a highly significant overall F-statistic alongside uniformly insignificant individual t-statistics — a pattern that tells you the variables together matter but their individual contributions can't be separately identified given the correlation structure."

@@ -51,7 +51,7 @@ Energy density in an electric field is u = ½ε₀εᵣE². Total energy stored 
   answer: true
   explanation: "This is the meaning of u = ½ε₀E². The energy is in the field, not in the charges. This perspective generalizes beyond capacitors: the electric field between any charged objects, the field around a point charge, and even the oscillating fields of electromagnetic waves all carry energy described by this density. The field is a real physical entity, not just a mathematical tool for calculating forces."
 
-- question: "The three formulas U = ½CV², U = ½QV, and U = Q²/(2C) give different values for the same capacitor and the user must choose the most accurate one."
+- question: "The three formulas U = ½CV², U = ½QV, and U = Q²/(2C) give different values for the same capacitor and the user should choose the most accurate one."
   type: true-false
   answer: false
   explanation: "All three formulas are exactly equivalent for a given capacitor — they describe the same quantity using different pairs of variables. The choice between them is about which variables are known or held constant, not accuracy. Use ½CV² when voltage V is given (e.g., charged from a fixed battery). Use Q²/(2C) when charge Q is held fixed (e.g., after disconnecting from the battery). Use ½QV as a bridge form. They will always give the same numerical answer for the same physical situation."

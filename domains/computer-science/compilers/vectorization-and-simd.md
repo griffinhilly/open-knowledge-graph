@@ -55,7 +55,7 @@ Write a loop that processes array elements independently, run it through a moder
   answer: true
   explanation: "A reduction like `sum += A[i]` has a loop-carried dependency on `sum`, but the compiler can break it by using multiple independent partial sums — say, 8 separate accumulators in one AVX register, each accumulating every 8th element. After the vectorized loop, a horizontal add combines the 8 partial sums into the final result. This transforms a loop-carried dependency on a scalar into a dependency only on the final reduction step, which can be done once outside the loop. The compiler must prove associativity (floating-point reductions require `-ffast-math` or equivalent)."
 
-- question: "When a compiler cannot prove that two pointer arguments do not alias (point to overlapping memory), it will always refuse to vectorize any loop involving those pointers."
+- question: "When a compiler can seldom prove that two pointer arguments do not alias (point to overlapping memory), it will generally refuse to vectorize any loop involving those pointers."
   type: true-false
   answer: false
   explanation: "Rather than refusing outright, the compiler can generate a runtime alias check: it emits code that compares the pointer ranges at runtime and branches to either the vectorized or scalar version depending on whether they overlap. This produces a function that is correct in all cases while still achieving speedup in the common non-aliasing case. The programmer can also help by annotating pointers with `restrict` (C99), explicitly asserting no aliasing and allowing the compiler to skip the runtime check and always use the vectorized path."

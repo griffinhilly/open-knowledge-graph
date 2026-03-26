@@ -56,7 +56,7 @@ Use a stream table to show how a river deposits material when it reaches flat gr
   answer: "A delta forms where a river enters a standing body of water (ocean, lake, or sea) and slows down dramatically. The river loses its carrying power and deposits its sediment load. Over time, the accumulated sediment builds a fan-shaped or triangular deposit that extends into the water body. The Mississippi River delta is a classic example."
   explanation: "Deltas are named after the Greek letter delta (Δ) because early geographers noticed the triangular shape of the Nile River delta. Not all deltas are triangular — the Mississippi delta looks more like a bird's foot because its main channels extend far into the Gulf of Mexico."
 
-- question: "Beaches are permanent features that never change shape or size."
+- question: "Beaches are permanent features that seldom change shape or size."
   type: true-false
   answer: false
   explanation: "Beaches are some of the most dynamic landforms on Earth. They constantly change as waves, currents, and storms add and remove sand. Rivers supply new sand to coastlines, and longshore currents move it along the shore. A single strong storm can remove meters of beach in hours. Many beaches are slowly shrinking because dams trap river sediment before it can reach the coast."

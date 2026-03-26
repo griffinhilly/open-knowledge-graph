@@ -58,7 +58,7 @@ Sandstone is the only detrital sedimentary rock. Limestone is always organic in 
   answer: true
   explanation: "Both processes produce calcium carbonate (CaCO₃) and both are classified as chemical sedimentary rocks. Inorganic limestone forms when seawater becomes supersaturated with respect to CaCO₃ and precipitation occurs directly — some tidal flat limestones and cave stalactites form this way. Biochemical limestone forms when organisms like corals, foraminifera, and coccolithophores build shells and skeletons from CaCO₃; when they die, these accumulate. Most limestone in the rock record is biochemical in origin, but both pathways produce the same mineral."
 
-- question: "Fine-grained sedimentary rocks always form closer to their sediment source than coarse-grained rocks, because fine particles cannot be transported very far."
+- question: "Fine-grained sedimentary rocks usually form closer to their sediment source than coarse-grained rocks, because fine particles can seldom be transported very far."
   type: true-false
   answer: false
   explanation: "This is exactly backwards. Fine particles are transported *farther* from their source because they are lighter and stay suspended in slow-moving water that cannot carry coarser grains. Coarse gravel and sand drop out first as water loses energy near the source; the finest clay particles remain in suspension until they reach quiet, distal environments like deep ocean floors or lake centers. So thick shale and mudstone sequences mark distant, low-energy depositional environments — often far from the original source terrain."

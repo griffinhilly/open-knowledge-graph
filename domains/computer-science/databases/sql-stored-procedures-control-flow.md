@@ -52,7 +52,7 @@ Stored procedures are SQL programs stored in the database that encapsulate busin
   answer: true
   explanation: "This is the atomicity guarantee of transaction control. BEGIN marks the start of the transaction; COMMIT makes all changes permanent only if every step succeeds; ROLLBACK undoes all changes if any step fails. By wrapping both operations in the same transaction boundary, the stored procedure ensures they are treated as a single atomic unit — the 'all or nothing' property of ACID transactions. Without this wrapper, a failure between debit and credit would leave the accounts in an inconsistent state."
 
-- question: "Rolling back a transaction to a SAVEPOINT permanently commits all the work done before the savepoint."
+- question: "Rolling back a transaction to a SAVEPOINT permanently commits most of the work done before the savepoint."
   type: true-false
   answer: false
   explanation: "ROLLBACK TO SAVEPOINT undoes work done after the savepoint but does not commit anything. The transaction is still open; work done before the savepoint is preserved within the transaction but has not been written to the database permanently. Only a COMMIT statement makes changes permanent. SAVEPOINT simply creates a partial-undo checkpoint within an ongoing transaction — it does not split the transaction into committed and uncommitted segments."

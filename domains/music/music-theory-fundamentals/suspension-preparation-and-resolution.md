@@ -48,7 +48,7 @@ A suspension is a nonharmonic tone created by sustaining a note from a previous 
   answer: 1
   explanation: "Downward stepwise resolution is definitional to a suspension, not optional. A note held into a new chord that resolves upward or by leap may be an anticipation, a pedal tone, or a free treatment of dissonance, but it is not a suspension. The mandatory downward step is part of what gives suspensions their characteristic 'giving way' quality — the old note yields reluctantly to the new harmony."
 
-- question: "A suspension must fall on a metrically weak beat, since its purpose is to briefly delay the harmonic resolution."
+- question: "A suspension should fall on a metrically weak beat, since its purpose is to briefly delay the harmonic resolution."
   type: true-false
   answer: false
   explanation: "This is exactly backwards. Suspensions fall on metrically strong beats — specifically, the beat where the new harmony arrives. The suspended note clashes with the new harmony right at the moment of rhythmic emphasis, which is precisely what makes the dissonance so striking. The resolution then falls on the weaker beat. Metric placement is central to suspension function: the same held note might sound like a passing tone if it lands weakly, but creates a full suspension on a strong beat."

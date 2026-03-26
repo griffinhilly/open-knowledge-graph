@@ -57,7 +57,7 @@ Compare remittance flows to specific countries (Philippines, Mexico, India) and 
   answer: 1
   explanation: "Remittances are not automatically positive for origin communities. When remittances replace rather than supplement local earnings, households may reduce agricultural labor, local output may stagnate even as purchasing power rises, and communities may become structurally tied to continued out-migration. These dependency effects are real and contingent — they depend on how remittances are used, whether local institutions can channel them productively, and how long the corridor persists. Neither a naive positive view nor a uniformly critical view captures the reality."
 
-- question: "Remittance flows primarily move from wealthy developed nations to all poor countries equally, with richer destination countries driving more even global development."
+- question: "Remittance flows primarily move from wealthy developed nations to most poor countries equally, with richer destination countries driving more even global development."
   type: true-false
   answer: false
   explanation: "Remittance flows are not distributed evenly across poor countries. They follow established migration corridors — concentrated between specific origin-destination pairs — and within origin countries they concentrate in communities that have existing migrant networks. Countries and regions without those corridors receive little. The geography of remittances mirrors and reinforces the geography of migration itself: well-networked places receive more, further widening the gap with poorly-networked places of similar poverty."

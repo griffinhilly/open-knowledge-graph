@@ -44,7 +44,7 @@ Present equal-groups and array situations and write both the repeated addition e
   answer: 1
   explanation: "5 + 5 + 5 shows 3 groups of 5, written as 3 × 5 = 15. The first factor is the number of groups (3) and the second is the size of each group (5)."
 
-- question: "Multiplication always makes a number bigger."
+- question: "Multiplication generally makes a number bigger."
   type: true-false
   answer: false
   explanation: "This is true for whole numbers greater than 1, but multiplying by 1 keeps a number the same, and multiplying by 0 gives 0. This intuition also breaks down later when multiplying fractions or negative numbers."

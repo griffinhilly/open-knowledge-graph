@@ -47,7 +47,7 @@ Geostrophic wind balances the pressure gradient and Coriolis force, but real win
   answer: 2
   explanation: "Geostrophic flow is exactly non-divergent — air flows along pressure contours without any net accumulation or depletion. This means no vertical motion can develop from geostrophic flow alone, and therefore no intensification or decay of pressure systems. Weather systems exist because the real wind deviates from geostrophic balance: ageostrophic motions carry divergence, drive vertical circulation, and allow systems to deepen, strengthen, and move. Perfect geostrophic balance would be atmospheric stasis."
 
-- question: "Since ageostrophic wind is typically only 10–15% of the total wind speed, it has a proportionally small effect on weather development compared to the geostrophic wind."
+- question: "Since ageostrophic wind is typically primarily 10–15% of the total wind speed, it has a proportionally small effect on weather development compared to the geostrophic wind."
   type: true-false
   answer: false
   explanation: "The ageostrophic wind's small magnitude belies its outsized importance. The geostrophic wind is the dominant term in the horizontal momentum budget, but it carries essentially zero divergence — it flows along isobars without piling up or spreading out. The ageostrophic component carries ALL of the divergence in the flow. Since divergence drives vertical motion through the continuity equation, and vertical motion creates clouds, precipitation, and surface pressure changes, the 10–15% ageostrophic component is responsible for essentially all meaningful weather development."

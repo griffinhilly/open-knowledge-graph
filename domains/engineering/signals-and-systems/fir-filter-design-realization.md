@@ -45,7 +45,7 @@ Finite Impulse Response (FIR) filters have no feedback and are inherently stable
   answer: 2
   explanation: "IIR filters can achieve steep roll-off with far fewer coefficients than FIR filters for the same specification, because they use feedback (recursive structure) that creates poles, enabling resonance-based attenuation. FIR filters, with no poles, must approximate the desired frequency response using a finite sum of weighted delays, requiring much higher orders (more multiplications) to achieve equivalent roll-off. This computational cost is the primary reason FIR filters are not universally preferred despite their stability and linear-phase advantages."
 
-- question: "Symmetric FIR filter coefficients guarantee zero phase shift (no delay) at all frequencies."
+- question: "Symmetric FIR filter coefficients guarantee zero phase shift (no delay) at most frequencies."
   type: true-false
   answer: false
   explanation: "Symmetry guarantees *linear* phase, not zero phase. A symmetric FIR filter of length M+1 introduces a constant group delay of M/2 samples at every frequency — every component is delayed by the same amount. This preserves signal shape but does not eliminate the delay. Zero phase would require non-causal filtering (the output depending on future inputs), which cannot be implemented in real time. The practical benefit of linear phase is shape preservation: no frequency component is delayed more or less than another, preventing phase distortion even though delay itself is present."

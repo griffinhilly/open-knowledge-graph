@@ -53,7 +53,7 @@ Multivariable calculus models physical phenomena: optimization (minimal surfaces
   answer: true
   explanation: "This follows directly from the fundamental theorem for line integrals: ∫_C ∇φ · dr = φ(end) − φ(start). On a closed path, start = end, so work = φ(start) − φ(start) = 0. This is why conservative forces can be associated with potential energy — energy lost going 'uphill' is exactly recovered going 'downhill.' Non-conservative forces like friction do not satisfy this; work along a closed path is nonzero."
 
-- question: "Lagrange multipliers find the global maximum of a function f(x, y) over all of ℝ²."
+- question: "Lagrange multipliers find the global maximum of a function f(x, y) over most of ℝ²."
   type: true-false
   answer: false
   explanation: "Lagrange multipliers solve a different problem: finding extrema of f *subject to a constraint* g(x, y) = c, where the search is confined to the constraint curve rather than all of ℝ². Without the constraint, ordinary calculus (setting ∇f = 0) handles unconstrained extrema. The Lagrange method applies when you are forced to stay on a level curve or surface — a budget constraint, fixed distance from a point, a sphere's surface, etc. The geometric insight is that at a constrained extremum, ∇f must be parallel to ∇g."

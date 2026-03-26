@@ -58,7 +58,7 @@ Calculate compressibility factors for CO₂ near critical point using van der Wa
   answer: true
   explanation: "At very high pressures, molecules are forced close together and the excluded volume correction (the b term) dominates. Because molecules physically occupy space, the effective volume available for molecular motion (V − b) is smaller than the container volume V. This means the gas resists compression more than an ideal gas would, pushing Z above 1. The attractive-force correction (a/V²) is significant only at moderate pressures; at high enough pressures, excluded volume always wins."
 
-- question: "The van der Waals parameters a and b are universal constants that apply equally well to all gas molecules, analogous to how universal gas constant R applies universally."
+- question: "The van der Waals parameters a and b are universal constants that apply equally well to most gas molecules, analogous to how universal gas constant R applies universally."
   type: true-false
   answer: false
   explanation: "R is truly universal — it appears in all ideal gas behavior by definition. The van der Waals a and b parameters are substance-specific: a reflects the strength of intermolecular attractions (large for polar or easily polarizable molecules, small for noble gases) and b reflects molecular size. They must be experimentally determined for each gas. Moreover, they are not strictly constant — b is essentially a molecular-volume parameter that is approximately constant, but a is somewhat temperature-dependent for quantitative accuracy. Different equations of state (Redlich-Kwong, Peng-Robinson) use different functional forms to capture this temperature dependence."

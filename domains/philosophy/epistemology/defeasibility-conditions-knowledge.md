@@ -58,7 +58,7 @@ Understand what counts as a defeater (both rebutting and undercutting) and how d
   answer: 1
   explanation: "A rebutting defeater directly contradicts the belief — evidence that the animal is a dog in disguise rebuts 'there is a sheep.' An undercutting defeater attacks the link between evidence and belief without asserting the belief is false — learning that the field routinely uses lifelike decoys undercuts the evidential weight of visual perception here without proving there is no sheep. Both types undermine knowledge claim by different mechanisms: one attacks the content, the other attacks the warrant."
 
-- question: "For a defeater to undermine knowledge on the defeasibility account, the knower must be aware of the defeater."
+- question: "For a defeater to undermine knowledge on the defeasibility account, the knower should be aware of the defeater."
   type: true-false
   answer: false
   explanation: "This is the crucial and counterintuitive feature of defeasibility theory. The defeater only needs to exist as a true proposition in the world — it need not be known by or even accessible to the believer. If you are looking at a stuffed animal while truly believing there's a sheep, the mere truth that it's a stuffed animal defeats your knowledge claim, even though you have no idea. Genuine knowledge requires stability against all true potential defeaters, not just against those the believer has encountered."

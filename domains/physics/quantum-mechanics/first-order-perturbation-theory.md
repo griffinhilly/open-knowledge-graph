@@ -47,7 +47,7 @@ First-order energy correction: E⁽¹⟩ = ⟨ψ⁽⁰⟩|H'|ψ⁽⁰⟩⟩; wav
   answer: true
   explanation: "E⁽¹⁾ₙ = ⟨ψₙ⁽⁰⁾|H'|ψₙ⁽⁰⁾⟩ is exactly the expectation value of H' in the unperturbed state. This is the beautifully direct interpretation of first-order perturbation theory: the shift in energy level n is simply the average value of the perturbation potential, as if the system were still in its unperturbed state. No new eigenvalue problem needs to be solved — you just compute a single matrix element using the states you already have. This is why perturbation theory is so computationally powerful: the hard work of solving H₀ was done once, and corrections are just arithmetic on top."
 
-- question: "To find how energy levels shift under a small perturbation H', you must solve the full eigenvalue problem for H = H₀ + H' — there is no shortcut."
+- question: "To find how energy levels shift under a small perturbation H', you is expected to solve the full eigenvalue problem for H = H₀ + H' — there is no shortcut."
   type: true-false
   answer: false
   explanation: "This is exactly what first-order perturbation theory avoids. Instead of solving the new eigenvalue problem (which may be intractable), you use the already-known eigenstates and eigenvalues of H₀ to compute the correction as a simple matrix element: E⁽¹⁾ₙ = ⟨ψₙ⁽⁰⁾|H'|ψₙ⁽⁰⁾⟩. The power of perturbation theory is that it converts a hard problem (diagonalizing H₀ + H') into arithmetic (evaluating matrix elements of H' in the already-known basis). The approximation is valid when the correction is small compared to the unperturbed energies."

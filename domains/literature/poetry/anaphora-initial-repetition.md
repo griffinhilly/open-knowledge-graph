@@ -61,7 +61,7 @@ Read poems with strong anaphora aloud (e.g., Whitman, Allen Ginsberg, Audre Lord
   answer: true
   explanation: "This is the mechanism behind 'I have a dream.' Each repetition does not merely restate — it raises the stakes by adding a new vision while calling on the emotional investment of all previous repetitions. By the eighth instance, the phrase has been transformed from a simple declaration into something that carries the entire cumulative argument within it. Repetition produces intensification, not boredom, because each instance adds rather than merely restates."
 
-- question: "Effective anaphora requires that the repeated phrase remain word-for-word identical across all iterations — any variation undermines the pattern and weakens the effect."
+- question: "Effective anaphora requires that the repeated phrase remain word-for-word identical across most iterations — any variation undermines the pattern and weakens the effect."
   type: true-false
   answer: false
   explanation: "Slight variations on an anaphoric phrase can carry meaning through transformation and deepen the effect rather than undermine it. The repetition establishes the pattern; variations within that pattern create meaning by directing attention to what changes. A poet who varies the phrase across iterations invites the reader to notice the transformation — what accumulates, what shifts, what grows more specific or more abstract. Word-for-word identity is not a requirement; rhythmic and semantic patterning at the line's opening position defines anaphora."

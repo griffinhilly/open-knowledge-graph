@@ -53,7 +53,7 @@ Gravity and seismic data constrain different physical properties (density and se
   answer: true
   explanation: "This is the core principle. Gravity constrains density distributions; seismics constrains velocity distributions. Each imposes independent constraints on different regions of model space. The intersection of models acceptable to both datasets is much smaller than the set acceptable to either alone. Even without a known empirical relationship between velocity and density, the simultaneous requirement to satisfy independent observations substantially shrinks the space of permissible models — which is the practical goal of joint inversion."
 
-- question: "Structural (cross-gradient) coupling in joint inversion enforces that seismic velocity and density must have the same numerical values at each point in the model."
+- question: "Structural (cross-gradient) coupling in joint inversion enforces that seismic velocity and density should have the same numerical values at each point in the model."
   type: true-false
   answer: false
   explanation: "Structural coupling requires that the spatial gradients of velocity and density are parallel — meaning structural boundaries and discontinuities appear in the same locations in both models. It says nothing about the absolute values or ratios of the two properties. A granite body might appear as a high-velocity, high-density anomaly, or as a moderate-velocity, very-high-density anomaly — either is acceptable as long as the boundary between granite and surrounding rock appears at the same position in both models. This flexibility is structural coupling's key advantage over petrophysical coupling."

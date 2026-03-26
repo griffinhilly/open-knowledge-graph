@@ -72,7 +72,7 @@ Compare the glycemic index and glycemic load of common foods (white bread vs. le
   answer: true
   explanation: "The food matrix matters enormously. Fat and protein slow gastric emptying — food leaves the stomach more slowly when mixed with other macronutrients — which delays glucose delivery to the small intestine and blunts the rate of absorption. This is why the glycemic response to a meal is not simply the sum of each food's individual GI contribution. Soluble fiber (which forms a viscous gel in the gut) similarly slows digestion. This has practical implications: a whole meal's glycemic impact is substantially lower than eating each component in isolation, and combining high-GI foods with protein, fat, or fiber is a practical strategy for moderating blood glucose responses."
 
-- question: "A food's glycemic index is a reliable measure of how healthy it is — lower GI foods are always better choices."
+- question: "A food's glycemic index is a reliable measure of how healthy it is — lower GI foods are generally better choices."
   type: true-false
   answer: false
   explanation: "GI measures one specific property: how quickly a food raises blood glucose relative to pure glucose, at a standardized carbohydrate dose. It says nothing about caloric density, fat content, micronutrient density, or fiber. A chocolate bar with high fat content may have a lower GI than a plain baked potato because fat slows digestion — but that does not make it healthier overall. Conversely, many nutrient-dense foods (some fruits, carrots) have moderately high GI values but are excellent nutritional choices. Overreliance on GI as a proxy for healthfulness is a common error; it is a useful tool for understanding glycemic response specifically, not a general health metric."

@@ -45,7 +45,7 @@ Make a reference card with each functional group's structure, name, and one repr
   answer: 1
   explanation: "The O–H bond in ethanol acts as a hydrogen-bond donor, allowing strong interactions with water molecules. Diethyl ether's oxygen can accept hydrogen bonds but cannot donate them (no O–H), so it is far less able to integrate into water's hydrogen-bond network. This single structural difference — the presence or absence of the O–H — is why the two compounds have such different physical properties despite the same molecular formula (C₂H₅OH vs. C₂H₅OC₂H₅)."
 
-- question: "An ether (R–O–R') and an alcohol (R–OH) with the same molecular formula are constitutional isomers that always have identical chemical reactivity because they contain the same atoms."
+- question: "An ether (R–O–R') and an alcohol (R–OH) with the same molecular formula are constitutional isomers that generally have identical chemical reactivity because they contain the same atoms."
   type: true-false
   answer: false
   explanation: "Same molecular formula does not mean same reactivity. Ethers lack the O–H bond and are comparatively inert — they resist oxidation and do not react with most nucleophiles. Alcohols, with their O–H, can be oxidized to aldehydes/ketones/carboxylic acids and undergo elimination and substitution reactions. The O–H bond is the reactive handle; without it, the oxygen's lone pairs are far less accessible. Reactivity is determined by functional group, not elemental composition."

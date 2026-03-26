@@ -62,7 +62,7 @@ Create a value scale with your chosen medium (pencil, charcoal, paint). Practice
   answer: true
   explanation: "Squinting reduces visual acuity, which collapses texture, color, and small detail into broader masses of light and dark. This makes it much easier to identify the big shapes of highlight, mid-tone, and shadow that organize the image before any detail is added. Artists use this technique as a quick check to see whether their value structure is reading clearly as simplified shapes — if it doesn't hold up when squinted at, it won't hold up at normal viewing distance either."
 
-- question: "Adding more dark values to a drawing always improves its sense of form and dimension."
+- question: "Adding more dark values to a drawing typically improves its sense of form and dimension."
   type: true-false
   answer: false
   explanation: "Indiscriminate darkening does not improve form — it can muddy the image and destroy the contrast that creates dimension. What matters is the deliberate placement of darks in service of the composition. Empty whites (preserved highlights) are just as powerful as deep darks; both require protection. A low-key drawing can feel heavy and oppressive if the darks are not balanced by deliberate light accents. The principle is intentional range and contrast, not simply 'darker is better.'"

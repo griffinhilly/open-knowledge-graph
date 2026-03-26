@@ -54,7 +54,7 @@ Calculate PAR for multiple risk factors in the same disease (e.g., smoking, obes
   answer: 1
   explanation: "PARs for different risk factors in the same disease do not add linearly because the same patient may simultaneously be a smoker, physically inactive, and hypertensive. That patient appears in all three PAR estimates. Summing them double- or triple-counts overlapping cases. The actual preventable burden from eliminating all three is bounded by 100% and is less than the arithmetic sum of individual PARs. PARs are best used for *ranking* risk factors' relative contributions, not for summing."
 
-- question: "A risk factor with a very high relative risk (e.g., RR = 100) always has a larger population attributable risk than a risk factor with a moderate relative risk (e.g., RR = 5)."
+- question: "A risk factor with a very high relative risk (e.g., RR = 100) usually has a larger population attributable risk than a risk factor with a moderate relative risk (e.g., RR = 5)."
   type: true-false
   answer: false
   explanation: "This is exactly the misconception PAR is designed to correct. PAR depends on both relative risk AND exposure prevalence. A risk factor with RR = 100 but prevalence 0.01% has a tiny PAR — almost no one is exposed, so eliminating it prevents almost no cases. A risk factor with RR = 5 affecting 40% of the population has a large PAR — the moderate individual risk is multiplied across a huge exposed group. Prevalence and relative risk together determine population impact."

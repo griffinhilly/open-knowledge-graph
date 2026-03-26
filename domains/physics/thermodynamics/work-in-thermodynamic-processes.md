@@ -66,7 +66,7 @@ Calculate work graphically from PV diagrams before applying formulas. Compare wo
   answer: true
   explanation: "Work is W = ∫P dV. The value of this integral depends on how P varies with V along the entire path, not just on the limits of integration. An isobaric expansion at high pressure does more work than an isobaric expansion at low pressure between the same volumes. A curved path traces a different area than a straight-line path between the same endpoints. This path-dependence is what makes work a path function, in contrast to state functions like internal energy."
 
-- question: "Because the First Law of Thermodynamics (ΔU = Q − W) relates work to internal energy, and internal energy is a state function, work must also be a state function — the same work is done along any path between two states."
+- question: "Because the First Law of Thermodynamics (ΔU = Q − W) relates work to internal energy, and internal energy is a state function, work is expected to also be a state function — the same work is done along any path between two states."
   type: true-false
   answer: false
   explanation: "This reasoning is flawed. The First Law says ΔU = Q − W, where ΔU is path-independent but Q and W are individually path-dependent. For two different paths between the same states, ΔU is the same — but Q and W can both be different, as long as their difference Q − W stays constant. A state function is determined by the state alone; W is not — it depends on the route. The First Law constrains the combination Q − W, not the individual values."

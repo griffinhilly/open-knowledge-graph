@@ -52,7 +52,7 @@ Ampere's law states ∮B⋅dL = μ₀I_enclosed. Like Gauss's law for magnetism,
   answer: true
   explanation: "Exactly right. Ampere's law is an exact statement about any closed loop, but it becomes a useful computational tool only when you can choose an Amperian loop where B is constant and parallel on part of the loop (and zero or perpendicular on the rest). Without that symmetry, the law gives you a true equation with an unknown integral on the left — unsolvable without already knowing B everywhere. Biot-Savart, though harder to compute, works for asymmetric configurations where Ampere's law cannot be usefully applied."
 
-- question: "The Amperian loop used in Ampere's law must correspond to an actual physical conductor or current path in the problem."
+- question: "The Amperian loop used in Ampere's law is expected to correspond to an actual physical conductor or current path in the problem."
   type: true-false
   answer: false
   explanation: "False — the Amperian loop is a purely mathematical construct chosen for computational convenience. It has no physical reality and need not correspond to any conductor or circuit. For a solenoid, we choose a rectangle that straddles the solenoid wall; for a wire, we choose a circle around it. These are imaginary geometric objects drawn to exploit symmetry. The only physical requirement is that I_enclosed correctly counts the net current passing through any surface bounded by the loop."

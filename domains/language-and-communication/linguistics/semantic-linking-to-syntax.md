@@ -56,7 +56,7 @@ Compare alternating predicates across languages and note which thematic roles sh
   answer: true
   explanation: "Yes — the agent-to-subject linking generalization is among the most robust cross-linguistic patterns in syntax. The initiator or causer of an event occupies the most prominent syntactic position. This is not a cultural convention but a structural regularity rooted in how languages map causal roles to grammatical prominence. The universality is not absolute (languages have passives, ergative alignment, etc.), but the default linking is consistently agent → subject, reflecting the conceptual primacy of causers."
 
-- question: "If a verb permits a particular argument alternation in English, it must permit the same alternation in every other language, because linking rules are universal."
+- question: "If a verb permits a particular argument alternation in English, it is expected to permit the same alternation in nearly every other language, because linking rules are universal."
   type: true-false
   answer: false
   explanation: "Linking regularities are cross-linguistically consistent tendencies, not absolute universals. While the basic agent-to-subject generalization holds widely, specific alternations (like the locative alternation or causative alternation) are filtered by language-specific grammatical rules. A verb that permits the locative alternation in English may not permit it in Japanese or German, even if the verb has similar semantic structure, because each language's linking rules interact with its morphosyntactic properties. Linking theory aims to explain cross-linguistic patterns, not predict identical behavior in all languages."

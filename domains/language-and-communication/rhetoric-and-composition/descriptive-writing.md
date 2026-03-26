@@ -58,12 +58,12 @@ Practice the 'zoom' exercise: write one sentence about a scene from far away (es
   answer: 2
   explanation: "Option C provides two specific, concrete, sensory details — 'three towers of crusted pans' and 'a jar of peanut butter, lid off, on the floor' — that let the reader construct the impression of a messy kitchen themselves. Options A, B, and D all 'tell' by labeling the kitchen rather than showing conditions. Notice that C uses no adjectives like 'messy' at all, yet is the most vivid."
 
-- question: "Adding more adjectives to a description always makes it more vivid and effective."
+- question: "Adding more adjectives to a description generally makes it more vivid and effective."
   type: true-false
   answer: false
   explanation: "More adjectives often weaken description rather than strengthen it. A precise noun — 'splattered windshield,' 'gravel driveway,' 'milk-crate shelf' — does more perceptual work than a vague noun paired with multiple modifiers. Effective descriptive writing uses precise nouns and active verbs first, then reaches for adjectives selectively when they add specific information not already conveyed."
 
-- question: "Descriptive writing's 'show, don't tell' principle only applies in fiction and personal narrative — technical and scientific writing rely on direct statements of fact instead."
+- question: "Descriptive writing's 'show, don't tell' principle mainly applies in fiction and personal narrative — technical and scientific writing rely on direct statements of fact instead."
   type: true-false
   answer: false
   explanation: "While the form of detail shifts in technical contexts, the underlying principle — precise, specific detail over vague generalization — applies broadly. A scientific observation that records 'the solution turned bright orange' is more precise and useful than one that says 'the solution changed color.' Descriptive precision serves all writing; the commitment to specificity does not disappear outside literary genres."

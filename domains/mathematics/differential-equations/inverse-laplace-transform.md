@@ -46,7 +46,7 @@ To recover f(t) from F(s), decompose F(s) = P(s)/Q(s) using partial fractions, t
   answer: 1
   explanation: "The denominator has two types of roots: a real root at s = −2 (from the factor s + 2) and complex conjugate roots at s = ±3i (from s² + 9 = 0). The real root contributes A/(s + 2), which inverts to Ae^{−2t}. The complex conjugate roots contribute (Bs + C)/(s² + 9), which inverts to a linear combination of cos(3t) and sin(3t) (since these roots have zero real part, α = 0, giving pure oscillation rather than exponentially modulated oscillation). Both types are present. Option C is wrong because real poles also contribute to the response."
 
-- question: "Complex conjugate poles in F(s) always produce purely sinusoidal terms in f(t) with no exponential envelope."
+- question: "Complex conjugate poles in F(s) generally produce purely sinusoidal terms in f(t) with no exponential envelope."
   type: true-false
   answer: false
   explanation: "Complex conjugate poles at s = α ± βi produce terms of the form e^{αt}cos(βt) and e^{αt}sin(βt) in f(t). If α = 0 (the poles are purely imaginary, on the imaginary axis), the result is pure oscillation with no growth or decay. But if α ≠ 0 — the poles have a nonzero real part — the oscillation is modulated by an exponential envelope: decaying if α < 0, growing if α > 0. For example, poles at s = −1 ± 2i give e^{−t}cos(2t) and e^{−t}sin(2t) — damped oscillations, not pure sinusoids."

@@ -49,7 +49,7 @@ In formal semantics, quantifiers denote generalized quantifiers (functions from 
   answer: true
   explanation: "On the wide-scope reading for 'someone': ∃y[∀x[loves(x,y)]] — there is some specific person that everyone loves. On the narrow-scope reading: ∀x[∃y[loves(x,y)]] — for each person, there is (possibly a different) someone they love. These have different truth conditions: the first entails the second, but not vice versa. Formal semantics locates this ambiguity at Logical Form (LF) — the level at which scope relations are explicitly represented, which may differ from surface word order."
 
-- question: "In formal semantics, 'every student' denotes the set of all students — the collection of individuals who have the property of being a student."
+- question: "In formal semantics, 'nearly every student' denotes the set of most students — the collection of individuals who have the property of being a student."
   type: true-false
   answer: false
   explanation: "This is the most tempting misconception about quantified expressions. 'Every student' does not denote a set or collection of individuals — that would give it type ⟨e,t⟩. Instead, it denotes a generalized quantifier: a function from properties to truth values, type ⟨⟨e,t⟩, t⟩. 'Every student passed' is true if and only if the property 'passed' holds of every individual in the student domain. The key distinction is between the quantifier as a second-order object and the extension of the noun 'student' as a set. Confusing these leads to type errors in compositional derivations."

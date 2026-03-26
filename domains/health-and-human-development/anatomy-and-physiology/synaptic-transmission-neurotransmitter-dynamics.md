@@ -46,7 +46,7 @@ Synaptic transmission occurs when presynaptic depolarization opens voltage-gated
   answer: 2
   explanation: "Calcium is the critical coupling signal that converts the electrical signal (action potential depolarization) into a chemical signal (neurotransmitter release). When voltage-gated Ca²⁺ channels open, Ca²⁺ rushes in and binds SNARE complex proteins, catalyzing vesicle fusion with the presynaptic membrane. It does not directly activate postsynaptic receptors (that is the neurotransmitter's job) nor generate the action potential itself."
 
-- question: "Ionotropic receptors produce slower, longer-lasting effects than metabotropic receptors because they must wait for G-protein cascades to amplify the signal."
+- question: "Ionotropic receptors produce slower, longer-lasting effects than metabotropic receptors because they is expected to wait for G-protein cascades to amplify the signal."
   type: true-false
   answer: false
   explanation: "This is backwards. Ionotropic receptors ARE ion channels — binding the neurotransmitter directly opens the channel, producing fast electrical responses in milliseconds. Metabotropic receptors are G-protein coupled and trigger intracellular second-messenger cascades, which are slower but longer-lasting. The speed difference is precisely because ionotropic receptors skip the amplification cascade entirely."

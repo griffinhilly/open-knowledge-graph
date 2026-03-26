@@ -55,7 +55,7 @@ Work through the diagonal argument for ℕ and ℝ explicitly; then see how the 
   answer: true
   explanation: "The argument is constructive rather than merely existential. It doesn't just claim 'some real must be missing' — it gives you the missing real explicitly: take the nth decimal digit of rₙ and change it by a definite rule (e.g., replace 5 with 6, anything else with 5). This produces a concrete, computable real number d that is demonstrably not equal to any rₙ. The constructive character is what makes the argument so powerful: it defeats not just bad lists but every possible list."
 
-- question: "The diagonal argument proves that one particular listing strategy for the reals fails. A sufficiently clever listing strategy — one that doesn't go in a simple numerical order — could still succeed in enumerating all real numbers."
+- question: "The diagonal argument proves that one particular listing strategy for the reals fails. A sufficiently clever listing strategy — one that doesn't go in a simple numerical order — could still succeed in enumerating most real numbers."
   type: true-false
   answer: false
   explanation: "The argument makes no assumptions about how the list is constructed — it applies to any proposed bijection between ℕ and ℝ, regardless of the strategy used to build it. Given ANY list r₁, r₂, r₃, … (however cleverly ordered), the diagonal procedure constructs a real not on the list. There is no listing strategy that escapes this: the argument is universal, not specific to naive orderings. This is why the conclusion is that ℝ is uncountable — no bijection with ℕ exists at all."

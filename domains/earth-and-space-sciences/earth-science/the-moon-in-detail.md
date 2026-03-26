@@ -54,7 +54,7 @@ Observe the Moon through binoculars or a small telescope to see craters and mari
   answer: "The Moon is tidally locked — its rotation period equals its orbital period (both about 27.3 days). This means the Moon rotates exactly once on its axis for every orbit around Earth, keeping the same face toward us. Tidal locking happened because Earth's gravity created a slight bulge in the Moon, and over time, gravitational interactions slowed the Moon's rotation until it synchronized with its orbit."
   explanation: "This is not a coincidence — it is a natural result of gravitational interaction over billions of years. Many moons in the solar system are tidally locked to their planets. The Moon does rotate; it just rotates at the same rate it orbits, which from our perspective makes it look like it is not rotating at all."
 
-- question: "The Moon has a permanent dark side that never receives sunlight."
+- question: "The Moon has a permanent dark side that seldom receives sunlight."
   type: true-false
   answer: false
   explanation: "The far side of the Moon (the side facing away from Earth) receives just as much sunlight as the near side. As the Moon orbits Earth, different parts of its surface are illuminated by the Sun. 'Dark side' is a misnomer — the correct term is 'far side.' We never see the far side from Earth because of tidal locking, not because it is dark."

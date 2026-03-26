@@ -59,7 +59,7 @@ Derive the Michaelis-Menten equation from first principles (rapid equilibrium as
   answer: 1
   explanation: "By definition, Km is the substrate concentration at which v = Vmax/2. Substituting [S] = Km into the Michaelis-Menten equation: v = Vmax × Km / (Km + Km) = Vmax/2. This is the most direct conceptual test of what Km means."
 
-- question: "A lower Km value always means the enzyme has a higher binding affinity for its substrate."
+- question: "A lower Km value usually means the enzyme has a higher binding affinity for its substrate."
   type: true-false
   answer: false
   explanation: "Km reflects substrate affinity only under the rapid-equilibrium assumption (where kcat << k-1). In the general steady-state derivation, Km = (k-1 + kcat) / k1, so it incorporates the catalytic rate as well. An enzyme with fast catalysis (high kcat) can have a high Km despite tight binding. Km is an operational parameter, not a pure binding constant."

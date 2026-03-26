@@ -60,7 +60,7 @@ Calculate energy-level spacings and Boltzmann populations for a simple system (e
   answer: true
   explanation: "Each spectral line corresponds to one transition between two specific energy levels: ΔE = hν. Since the energy levels are discrete (quantized), the allowed ΔE values are a specific set — not a continuum. Each ΔE produces photons at one frequency ν = ΔE/h. The pattern of line positions is a unique fingerprint of the atom's energy-level structure. Continuous spectra arise from different sources: blackbody radiation, bremsstrahlung, or transitions to or from a continuum of states (ionization)."
 
-- question: "If you heat a gas to a higher temperature, all rotational spectral lines become equally more intense because more molecules have energy to undergo transitions."
+- question: "If you heat a gas to a higher temperature, most rotational spectral lines become equally more intense because more molecules have energy to undergo transitions."
   type: true-false
   answer: false
   explanation: "Heating changes the *distribution* of population across levels, not all lines equally. At higher temperature, the Boltzmann distribution spreads population over more rotational levels (since kT is larger). Lines from low-J states weaken as population migrates to higher J levels; lines from intermediate-J transitions strengthen; and lines from very high J states appear. The envelope of line intensities shifts to higher J. For vibrational or electronic transitions (where ΔE >> kT), higher temperature still primarily populates the ground state and barely affects those line intensities."

@@ -65,7 +65,7 @@ Take a prose paraphrase of a short poem and compare it line by line to the origi
   answer: true
   explanation: "Strategic omission is the central mechanism of compression. By leaving out causal connectives, transitional explanations, and logical scaffolding, the poem forces readers to supply the missing links. The reader's construction of those links generates meaning more powerfully than if they were stated — the insight feels discovered rather than received. The gap between juxtaposed elements is where much of the poem's meaning lives."
 
-- question: "A long poem cannot be considered compressed because compression requires brevity."
+- question: "A long poem can seldom be considered compressed because compression requires brevity."
   type: true-false
   answer: false
   explanation: "Length and compression are independent. A long poem can be highly compressed if every word earns its maximum meaning and nothing is padding. A short poem can be uncompressed if it uses many words to say little. Compression is about the ratio of meaning to language — how much each word does — not absolute length. Paradise Lost is a long poem, but its density of allusion and syntactic economy make many passages highly compressed."

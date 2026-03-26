@@ -57,7 +57,7 @@ Construct prime models explicitly by omitting types and using the completeness t
   answer: true
   explanation: "This is the defining property of prime models: P is prime for T if and only if for every model M of T, there exists an elementary embedding j: P → M. An elementary embedding preserves all first-order formulas (not just quantifier-free ones), so P is not just a substructure of every model — it is an elementary substructure. This universal embedding property is precisely the sense in which P is 'minimal': you cannot remove any element without losing the ability to embed, because every other model must contain an isomorphic copy of P."
 
-- question: "A saturated model and a prime model of the same complete theory T are always isomorphic, because both represent canonical, uniquely determined structures."
+- question: "A saturated model and a prime model of the same complete theory T are typically isomorphic, because both represent canonical, uniquely determined structures."
   type: true-false
   answer: false
   explanation: "Prime and saturated models are opposite extremes. A prime model is as small as possible — it realizes only principal (isolated) types, containing only what the theory forces. A saturated model is as large as possible — it realizes every consistent type over every finite parameter set, containing far more than any theory forces. They coincide only in degenerate cases, such as a theory with exactly one countable model up to isomorphism (an ω-categorical theory), where the prime, saturated, and universal models all collapse to the same structure. In general, these are very different structures with very different cardinalities."

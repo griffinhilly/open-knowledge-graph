@@ -59,7 +59,7 @@ Make equal-sized groups until all objects are used, counting how many groups wer
   answer: true
   explanation: "This is the defining feature of the grouping model. You start with the total and the size of each group (e.g., groups of 4) and count how many complete groups you can form. This is different from the sharing model, where you start with the total and the number of groups, and find how many go in each group. Both are valid division, but they frame the question differently."
 
-- question: "The grouping model and the sharing model of division always give different numerical answers for the same division problem."
+- question: "The grouping model and the sharing model of division usually give different numerical answers for the same division problem."
   type: true-false
   answer: false
   explanation: "Both models always give the same quotient for the same division problem — they are two ways of understanding the same operation. For 12 ÷ 4: the grouping model says '4 items per group → 3 groups'; the sharing model says '4 groups → 3 items per group.' Both arrive at 3. The models differ in what you know and what you are finding, but the mathematics is identical. 12 ÷ 4 = 3 regardless of which model you use."

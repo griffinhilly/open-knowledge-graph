@@ -53,7 +53,7 @@ The bargaining theory does not claim wars never happen—it explains why rationa
   answer: 2
   explanation: "Incomplete information is the primary mechanism by which bargaining breaks down. When each side strategically misrepresents its strength, both may genuinely believe the true bargaining range lies in their favor — State A thinks it deserves 65% of the prize, State B also thinks it deserves 65%. Neither believes the other's signals because both know the other has incentives to bluff. Option B (accurate information) actually makes war less likely by allowing both sides to identify the real bargaining range."
 
-- question: "Bargaining theory implies that wars between rational states should never occur, because the costs of war always make a negotiated deal preferable."
+- question: "Bargaining theory implies that wars between rational states should seldom occur, because the costs of war typically make a negotiated deal preferable."
   type: true-false
   answer: false
   explanation: "False — this reverses the theory's conclusion. Bargaining theory starts from the puzzle that wars *should* be avoidable but clearly happen, then explains why rational actors sometimes cannot find or sustain deals despite their mutual preference for peace. The three mechanisms — incomplete information (misrepresentation incentives), indivisibility (some goods cannot be split), and commitment problems (deals may not be enforceable) — are structural reasons why even perfectly rational leaders can end up at war. The theory is an explanation of war, not a claim that it should be impossible."

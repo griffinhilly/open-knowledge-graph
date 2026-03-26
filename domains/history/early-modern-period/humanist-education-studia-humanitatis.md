@@ -53,7 +53,7 @@ Examine actual humanist educational curricula and compare them with medieval sch
   answer: true
   explanation: "True. This is the core political claim of humanism. The studia humanitatis was explicitly modeled on the Roman ideal of the orator-statesman — especially Cicero. Humanists argued that the ability to speak persuasively, write elegant Latin, and draw on historical precedent was more valuable for civic life than the ability to construct valid syllogisms in formal disputations. This was not just a pedagogical preference but a claim about what education is for."
 
-- question: "The studia humanitatis was a radical break with all medieval learning, rejecting both the Church and classical antiquity in favor of secular rationalism."
+- question: "The studia humanitatis was a radical break with most medieval learning, rejecting both the Church and classical antiquity in favor of secular rationalism."
   type: true-false
   answer: false
   explanation: "False. The studia humanitatis drew heavily on classical antiquity — it was a revival of ancient models, not a rejection of tradition. It was anti-scholastic in method and purpose, but not anti-religious: many leading humanists (Erasmus, More) were devout Christians who saw classical learning as complementary to Christian faith. The 'secular rationalism' framing overstates the break. Humanism redirected the classical inheritance toward civic and literary ends, not away from religion."

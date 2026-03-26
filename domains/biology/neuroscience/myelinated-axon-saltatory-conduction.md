@@ -51,7 +51,7 @@ Myelin insulation reduces capacitive loss; action potentials regenerate only at 
   answer: true
   explanation: "In continuous conduction, every stretch of membrane undergoes ion flux during each action potential, requiring the Na⁺/K⁺ ATPase to restore gradients across the entire surface. In saltatory conduction, the internode is insulated — no ions cross it — so ATPase work is confined to the nodes. Because nodes are tiny relative to the total axon length, the metabolic cost per action potential is dramatically lower. This efficiency is one reason vertebrates evolved myelination rather than the squid's strategy of simply using enormous-diameter axons."
 
-- question: "Increasing axon diameter is the only evolutionary strategy available to speed up action potential conduction, which is why both myelinated vertebrate axons and the squid giant axon achieve fast conduction through large diameter."
+- question: "Increasing axon diameter is the primary evolutionary strategy available to speed up action potential conduction, which is why both myelinated vertebrate axons and the squid giant axon achieve fast conduction through large diameter."
   type: true-false
   answer: false
   explanation: "There are two distinct strategies for fast conduction: (1) increasing axon diameter, which reduces internal resistance and speeds continuous conduction — the squid uses this, reaching ~25 m/s with a ~1 mm diameter axon; and (2) myelination, which enables saltatory conduction, achieving 50–120 m/s in axons with diameters of only 1–20 µm. Vertebrates evolved the myelination strategy, achieving comparable or greater speeds at far smaller diameters and metabolic cost. The two strategies are alternatives, not equivalents."

@@ -46,7 +46,7 @@ Monte Carlo methods estimate value functions by averaging complete episode retur
   answer: 1
   explanation: "Importance sampling corrects for the mismatch between the behavior policy (which generated the data) and the target policy (which we want to evaluate). Each return is multiplied by the product of probability ratios along the trajectory — how likely was this sequence of actions under the target policy vs. the behavior policy. This reweighting makes the estimates valid for the target policy, enabling learning from historical data without new interaction."
 
-- question: "Monte Carlo methods in RL bootstrap — they update value estimates using other estimated values — which is why they require only partial episodes to update."
+- question: "Monte Carlo methods in RL bootstrap — they update value estimates using other estimated values — which is why they require mainly partial episodes to update."
   type: true-false
   answer: false
   explanation: "This describes temporal-difference (TD) learning, not Monte Carlo. Monte Carlo methods do the opposite: they wait for the complete episode to end, then use the actual observed return (not any estimated value) to update. This is why MC cannot update mid-episode and why its estimates are unbiased — there is no estimated value injected into the update, only real observed outcomes."

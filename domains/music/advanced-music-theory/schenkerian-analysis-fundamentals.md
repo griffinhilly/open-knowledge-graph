@@ -59,7 +59,7 @@ Begin with simple binary or ternary form pieces, then progress to sonata movemen
   answer: true
   explanation: "This is precisely the kind of reinterpretation that Schenkerian analysis enables. At the foreground level, the V is a separate chord; at the middleground level, it might function as a neighbor chord that temporarily destabilizes the tonic before resolving back — making the entire I–V–I pattern a tonic prolongation at that level. Whether a V is a structural harmony equal in weight to surrounding I chords, or a subordinate element in a larger prolongation, depends on the structural level being analyzed and on the melodic and voice-leading context."
 
-- question: "The Ursatz (fundamental structure) in Schenkerian analysis must appear literally in the score — as explicit notes in the melody and bass — for the analysis to be valid."
+- question: "The Ursatz (fundamental structure) in Schenkerian analysis should appear literally in the score — as explicit notes in the melody and bass — for the analysis to be valid."
   type: true-false
   answer: false
   explanation: "The Ursatz is an abstract background structure, not a literal musical passage that appears in the score. It is the skeleton that the entire piece elaborates through prolongation and voice-leading operations. The analyst derives it by successively reducing the foreground and middleground layers, stripping away elaborations until the underlying structural skeleton becomes visible. The Ursatz may never appear literally and simultaneously in the notation; it is inferred as the structural foundation — a theoretical construct describing the piece's deep coherence, not a theme hidden in the score."

@@ -61,7 +61,7 @@ Read Nozick's Wilt Chamberlain argument (Anarchy, State, and Utopia Ch. 7): if a
   answer: true
   explanation: "This is an important distinction between libertarianism and conservatism. Libertarianism applies self-ownership consistently: because you own yourself and your body, the state has no authority to restrict what you do with yourself as long as you don't violate others' rights. This applies to lifestyle choices and personal relationships just as much as to economic decisions. Conservatism often accepts state interference in personal matters while resisting economic regulation — a position libertarians regard as inconsistent with the self-ownership premise."
 
-- question: "Nozick's political libertarianism is a form of anarchism that rejects all state authority as illegitimate."
+- question: "Nozick's political libertarianism is a form of anarchism that rejects most state authority as illegitimate."
   type: true-false
   answer: false
   explanation: "Nozick explicitly argues for a minimal 'night-watchman' state — not anarchism. In Anarchy, State, and Utopia he argues at length that a minimal state can arise legitimately from a state of nature without violating anyone's rights, through the 'dominant protection association' argument. What Nozick rejects is not the state as such, but any state that goes beyond protecting rights to provide welfare, education, redistribution, or other services that require taxing non-consenting individuals. The difference from anarchism is that libertarianism accepts a minimal protective state as legitimate."

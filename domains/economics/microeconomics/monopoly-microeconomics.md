@@ -50,7 +50,7 @@ Derive MR algebraically from a linear demand curve, then solve the monopoly opti
   answer: 1
   explanation: "For a linear demand P = 100 - Q, marginal revenue is MR = 100 - 2Q (same intercept, twice the slope). Setting MR = MC: 100 - 2Q = 20, so Q = 40. The price is P = 100 - 40 = 60. A common error is setting P = MC (the competitive rule), which gives Q = 80 — but that ignores that MR < P for a monopolist."
 
-- question: "A profit-maximizing monopolist always charges the highest price that any consumer is willing to pay."
+- question: "A profit-maximizing monopolist typically charges the highest price that any consumer is willing to pay."
   type: true-false
   answer: false
   explanation: "The monopolist charges the profit-maximizing price, not the maximum willingness-to-pay price. Charging too high reduces quantity sold so much that total revenue and profit fall. The optimal price trades off margin against volume, found by the MR = MC condition. Only a perfectly price-discriminating monopolist extracts maximum willingness to pay from every buyer."

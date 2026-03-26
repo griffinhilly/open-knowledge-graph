@@ -61,7 +61,7 @@ Use ideal gas property relations (T₂/T₁ = (P₂/P₁)^((γ-1)/γ)) for isent
   answer: true
   explanation: "The ideal Brayton efficiency is η = 1 − (P₁/P₂)^((γ−1)/γ) = 1 − 1/r_p^((γ−1)/γ). Since the exponent (γ−1)/γ is positive (≈ 0.286 for air with γ ≈ 1.4), r_p^((γ−1)/γ) increases monotonically with pressure ratio, so the subtracted term decreases and η increases. Real engines have a practical optimum because compressor irreversibilities grow at high pressure ratios and turbine inlet temperature is materials-limited — but these are departures from the ideal, not contradictions of it."
 
-- question: "In a real Brayton cycle, turbine irreversibilities are more damaging to net work output than compressor irreversibilities of the same fractional magnitude, because the turbine produces all the useful work."
+- question: "In a real Brayton cycle, turbine irreversibilities are more damaging to net work output than compressor irreversibilities of the same fractional magnitude, because the turbine produces most of the useful work."
   type: true-false
   answer: false
   explanation: "Compressor irreversibilities are typically more damaging in practice, precisely because of the large back work ratio. A 10% increase in compressor work (due to irreversibility) on a baseline of 400 kJ/kg cuts net work by 40 kJ/kg. Additionally, compressor fouling from airborne particles is a common real-world degradation mechanism. The claim that turbine irreversibilities are worse confuses gross output with net output — the compressor's large fraction of turbine work means the multiplied effect of compressor inefficiency is severe, and it is often the tighter design constraint."

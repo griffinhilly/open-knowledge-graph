@@ -51,7 +51,7 @@ For a group action of G on a finite set X and any x ∈ X, the orbit Orb(x) and 
   answer: true
   explanation: "Stab(x) = {g ∈ G : g·x = x} is closed under the group operation (if g and h fix x, then (gh)·x = g·(h·x) = g·x = x), contains the identity, and is closed under inverses (if g·x = x, then x = g⁻¹·(g·x) = g⁻¹·x). These three properties make it a subgroup. This fact is what allows Lagrange's theorem to be applied in the proof of the orbit-stabilizer theorem."
 
-- question: "If two points x and y in a set have the same stabilizer subgroup, they must lie in the same orbit."
+- question: "If two points x and y in a set have the same stabilizer subgroup, they is expected to lie in the same orbit."
   type: true-false
   answer: false
   explanation: "Having equal stabilizers does not imply being in the same orbit. Consider Z₂ = {e, r} acting on a three-element set {a, b, c} where r fixes both a and b but swaps nothing (trivial action on a and b) — both a and b have Stab = G, yet they are each their own orbit. The orbit-stabilizer theorem links the *size* of the orbit to the *size* of the stabilizer, but two points with equal-sized stabilizers can still be in different orbits."

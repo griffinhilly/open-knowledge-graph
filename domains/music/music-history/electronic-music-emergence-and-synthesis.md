@@ -47,7 +47,7 @@ Electronic music emerged in the early 20th century with experimental instruments
   answer: 2
   explanation: "The deepest shift was making timbre unbundled from physical constraints. Acoustic instruments have characteristic timbres determined by their construction — you cannot redesign a violin's timbre without redesigning the violin. Electronic synthesis revealed timbre as a set of independently controllable parameters (waveform, envelope, filter) and made it as designable as pitch and rhythm. This opened an entirely new compositional dimension. The other options overstate specific sociological changes that were more gradual and uneven."
 
-- question: "Musique concrète and elektronische Musik pursued the same fundamental strategy: both created music entirely from electronically generated tones with no acoustic source material."
+- question: "Musique concrète and elektronische Musik pursued the same fundamental strategy: both created music largely from electronically generated tones with no acoustic source material."
   type: true-false
   answer: false
   explanation: "These were complementary but distinct approaches. Musique concrète (Pierre Schaeffer, Paris) recorded real-world sounds — voices, objects, environments — and manipulated them through tape splicing, reversing, and speed-shifting. Elektronische Musik (Stockhausen, Cologne) generated sounds entirely from electronic oscillators, with no acoustic origin. Stockhausen's Gesang der Jünglinge (1956) was notable precisely for fusing both: blending a real recorded voice with synthesized tones. Conflating the two erases a significant historical and aesthetic distinction."

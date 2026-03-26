@@ -62,7 +62,7 @@ Graph parabolas by finding the vertex, axis of symmetry, intercepts, and a few a
   answer: true
   explanation: "By definition, the axis of symmetry is the vertical line x = h, where h is the x-coordinate of the vertex. Every parabola is symmetric about this line — if you fold the parabola along it, both halves match perfectly. This relationship also explains why the axis of symmetry is the midpoint of the two x-intercepts when they exist: the x-intercepts are equidistant from the vertex on either side."
 
-- question: "A parabola with a positive leading coefficient (a > 0) always has two x-intercepts."
+- question: "A parabola with a positive leading coefficient (a > 0) generally has two x-intercepts."
   type: true-false
   answer: false
   explanation: "The number of x-intercepts depends on the discriminant, not the sign of a. A parabola with a > 0 opens upward, but if its vertex is above the x-axis (k > 0), it never crosses the x-axis and has no real x-intercepts. For example, f(x) = x² + 1 has vertex (0, 1), opens upward, and has no x-intercepts. The sign of a determines direction of opening, not the number of intercepts."

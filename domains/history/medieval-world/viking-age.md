@@ -56,7 +56,7 @@ Mapping Viking trade routes versus raid targets shows their dual commercial and 
   answer: 2
   explanation: "The longship's shallow draft was the decisive feature. Deep-hulled vessels were locked out of rivers and shallow coastal waters — exactly the access points that made Norse expansion possible. The ability to sail into rivers, beach on any shore, and portage between watersheds gave Norse seafarers access to the entire Atlantic and Baltic coastline and the river systems of Russia and Eastern Europe. Navigational skill using stars and ocean swells complemented the vessel design, but the hull geometry was the enabling technology."
 
-- question: "The term 'Viking' referred to a shared ethnic identity among all Norse people living in Scandinavia during the 9th through 11th centuries."
+- question: "The term 'Viking' referred to a shared ethnic identity among most Norse people living in Scandinavia during the 9th through 11th centuries."
   type: true-false
   answer: false
   explanation: "This is one of the most common misconceptions about the Viking Age. 'Viking' likely derives from an Old Norse term meaning raider or one who goes on an expedition — it described an activity, not an ethnicity. Most Norse people were farmers and craftspeople who never 'went viking.' Those who did raid were a subset, often engaged in seasonal expeditions. The Norse who traded down Russian rivers, settled Normandy, and founded Dublin shared ancestry with Norse raiders but would not all have identified as 'Vikings' in any meaningful sense."

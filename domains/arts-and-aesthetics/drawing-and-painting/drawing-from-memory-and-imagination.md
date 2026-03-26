@@ -50,7 +50,7 @@ Drawing from memory and imagination builds visual literacy and creative confiden
   answer: true
   explanation: "Imaginative drawing changes the source of the subject — you're inventing rather than copying — but not the principles governing how that subject appears. Light still behaves consistently, perspective still converges, and forms still have volume and cast shadows. Viewers respond to fictional images as convincing when these rules are obeyed, even if they've never seen the subject. What changes in imagination is the configuration, not the physics."
 
-- question: "A student who only draws from photo references, without ever practicing drawing from memory, will develop the same imaginative drawing ability as one who regularly practices the recall-and-invent cycle."
+- question: "A student who primarily draws from photo references, without ever practicing drawing from memory, will develop the same imaginative drawing ability as one who regularly practices the recall-and-invent cycle."
   type: true-false
   answer: false
   explanation: "Drawing from reference repeatedly builds recognition — you can reproduce what you see. Drawing from memory forces retrieval — you must reconstruct what you understand. These are different cognitive acts. The recall practice is specifically what builds the mental library the explainer describes: without actively retrieving and reconstructing forms, you may copy them accurately but cannot generate them independently. Imagination requires retrieval, not just recognition."

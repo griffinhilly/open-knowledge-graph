@@ -51,7 +51,7 @@ Bayesian updating: posterior ∝ likelihood × prior. Posterior distribution of 
   answer: true
   explanation: "This is exactly what a Bayesian credible interval means — and it's the interpretation most people intuitively want from an interval estimate. The interval is derived from the posterior distribution P(θ|data), and the coverage is a direct probability statement about θ's location given all available information. This contrasts with the frequentist confidence interval, which describes a long-run property of the estimation procedure, not a probability about any particular θ."
 
-- question: "If two researchers start with different priors but observe the same data, they will always arrive at the same posterior distribution."
+- question: "If two researchers start with different priors but observe the same data, they will typically arrive at the same posterior distribution."
   type: true-false
   answer: false
   explanation: "Different priors lead to different posteriors for the same data — posterior ∝ likelihood × prior, so if the prior differs, the product differs. With large amounts of data, the likelihood dominates and posteriors from 'reasonable' priors converge. But convergence with large samples is not the same as equality: with finite data, especially sparse data, different priors can produce substantively different posteriors. The choice of prior genuinely matters, particularly in small-sample or low-signal settings."

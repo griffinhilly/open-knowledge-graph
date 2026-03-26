@@ -56,7 +56,7 @@ Look up actual latency and capacity numbers for each hierarchy level in a modern
   answer: 1
   explanation: "Cache is hardware-managed: the CPU automatically decides what to load into each cache level based on access patterns, with no program-level control. This is by design — it keeps the programming model simple and allows hardware to optimize across all running code. Programmers influence cache behavior indirectly by writing code with good locality (sequential access patterns, small hot data sets), which gives the hardware the information it needs to cache the right data."
 
-- question: "A cache miss means the requested data is lost and must be recomputed or re-fetched from disk."
+- question: "A cache miss means the requested data is lost and is expected to be recomputed or re-fetched from disk."
   type: true-false
   answer: false
   explanation: "A cache miss simply means the requested data is not currently in the cache at that level — it exists at a lower level of the hierarchy (DRAM or secondary storage) and must be fetched from there. No data is lost. The cost of a miss is time: the CPU must wait for the slower level to provide the data. Once fetched, the data is loaded into the faster cache level for subsequent accesses. A miss is a performance event, not a data-loss event."

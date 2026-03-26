@@ -49,7 +49,7 @@ If {Xₙ} are i.i.d. random variables with finite mean μ, then Sₙ/n = (X₁ +
   answer: 2
   explanation: "Independence is the key structural property that makes variances additive: for independent random variables, Var(X₁ + ··· + Xₙ) = Var(X₁) + ··· + Var(Xₙ) = nσ². Without independence, covariance terms appear and Var(Sₙ) could be much larger than nσ², preventing the bound σ²/(nε²) from going to zero. Identical distribution ensures each term contributes the same σ², but it is independence that allows addition of variances."
 
-- question: "The Weak Law of Large Numbers implies that individual sample paths of Sₙ/n must converge to μ at every outcome ω in the sample space."
+- question: "The Weak Law of Large Numbers implies that individual sample paths of Sₙ/n is expected to converge to μ at nearly every outcome ω in the sample space."
   type: true-false
   answer: false
   explanation: "This is the crucial distinction between the WLLN and the Strong Law. Convergence in probability means P(|Sₙ/n − μ| > ε) → 0: the probability mass outside any ε-neighborhood of μ goes to zero. But specific sample paths can still fluctuate outside that neighborhood forever, as long as the set of such paths has probability approaching zero. Almost sure convergence (P(Sₙ/n → μ) = 1), guaranteed by the Strong LLN, is the statement that essentially every sample path converges."

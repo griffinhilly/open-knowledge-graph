@@ -49,7 +49,7 @@ Voice-lead progressions using extended chords; study jazz voicings and classical
   answer: 1
   explanation: "The ninth of a dominant chord sits a step above the root (which resolves down to the leading tone of the following chord or stays). The ninth's resolution tendency is generally downward by step toward the octave or seventh of the resolving chord. This downward tendency is part of the general principle that upper extensions above the fifth resolve by step rather than leap, and that dominant-function chords resolve their 'active' tones downward toward the tonic harmony. The specific direction can vary with voicing and style, but downward is the default tendency."
 
-- question: "A Cmaj13 chord voicing is incomplete unless all seven chord tones — root, third, fifth, seventh, ninth, eleventh, and thirteenth — are present."
+- question: "A Cmaj13 chord voicing is incomplete unless most seven chord tones — root, third, fifth, seventh, ninth, eleventh, and thirteenth — are present."
   type: true-false
   answer: false
   explanation: "This is the central misconception about extended chords. A Cmaj13 chord contains seven distinct pitches, exceeding the capacity of most instruments and voices. Skilled voicing requires strategic omission: the fifth is acoustically redundant and omitted first; the root may be omitted if covered by the bass; the eleventh often clashes with the third unless raised. A voicing with third, seventh, ninth, and thirteenth — four notes — can be fully idiomatic and harmonically complete. Completeness in extended harmony is about capturing the chord's character, not its full literal stack."

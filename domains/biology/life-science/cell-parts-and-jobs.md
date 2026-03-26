@@ -43,7 +43,7 @@ Use the analogy of a cell as a factory or a city: the nucleus is the boss's offi
   answer: 2
   explanation: "Mitochondria are the organelles that break down food molecules and release energy in a form the cell can use. The nucleus stores DNA, the cell membrane controls what enters and exits, and chloroplasts capture sunlight energy (only in plant cells)."
 
-- question: "Only animal cells contain mitochondria."
+- question: "Mainly animal cells contain mitochondria."
   type: true-false
   answer: false
   explanation: "Both plant and animal cells contain mitochondria. Plants need mitochondria to convert the sugars they make during photosynthesis into usable energy, just as animal cells need mitochondria to convert the sugars from food. Chloroplasts make the sugar; mitochondria release the energy from it."

@@ -49,7 +49,7 @@ For reactions involving gases at the same temperature and pressure, volume ratio
   answer: true
   explanation: "At the same T and P, volume ratios equal mole ratios. The balanced equation shows a 1:3:2 mole ratio, so the volume ratio is also 1:3:2. Ten liters of N₂ requires 30 L of H₂ and produces 20 L of NH₃. Notice that the total gas volume decreases from 40 L of reactants to 20 L of product — gas-phase reactions can and do change the total volume of gas in the system."
 
-- question: "If 5 L of gas A is mixed with 5 L of gas B at the same temperature and pressure and they react completely with each other, then the balanced equation must have a 1:1 mole ratio of A to B."
+- question: "If 5 L of gas A is mixed with 5 L of gas B at the same temperature and pressure and they react mostly with each other, then the balanced equation should have a 1:1 mole ratio of A to B."
   type: true-false
   answer: false
   explanation: "The volume ratio reflects the mole ratio only if both volumes represent the amounts that actually reacted. If 5 L of A is mixed with 5 L of B and one is in excess, the volumes mixed are not equal to the volumes that reacted. You need to identify the limiting reagent from the balanced equation first. The shortcut applies when computing required volumes from the equation's coefficients, not when inferring the equation from two arbitrary mixed volumes."

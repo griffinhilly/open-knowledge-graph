@@ -48,7 +48,7 @@ Create small color swatches for each scheme using the same base hue, then build 
   answer: 2
   explanation: "Split-complementary uses a base color plus the two colors flanking its complement, producing strong contrast (like a complementary pair) but with less visual tension because the two accent colors soften the opposition. It is more dynamic than analogous or monochromatic, and slightly more stable than a straight complementary pair. For controlled energy without clash, split-complementary is the optimal choice."
 
-- question: "Placing complementary colors (like red and green) next to each other in full saturation always produces an unpleasant, clashing effect."
+- question: "Placing complementary colors (like red and green) next to each other in full saturation usually produces an unpleasant, clashing effect."
   type: true-false
   answer: false
   explanation: "Complementary colors at full saturation placed side by side do vibrate and can feel overwhelming — but this is a property to be managed, not avoided. When one color dominates and the other is used sparingly as an accent, complementary pairs create dynamic energy and strong focal points. Many successful artworks and designs use complementary schemes deliberately. The key is proportion and saturation, not avoidance."

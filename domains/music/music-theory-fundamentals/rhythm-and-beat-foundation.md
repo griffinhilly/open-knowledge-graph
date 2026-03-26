@@ -40,7 +40,7 @@ Confusing beat with rhythm (beat is regular; rhythm is the actual pattern). Mete
   answer: 2
   explanation: "Meter is the organization of beats into recurring groups — here, groups of three (triple meter). Rhythm is the actual pattern of durations a performer plays, which may differ from the beat. Tempo is how fast the beats occur, not how they are grouped. Dynamics concern loudness. The conductor's 1-2-3 pattern signals meter, not rhythm or tempo."
 
-- question: "The beat and the rhythm of a piece of music are always the same thing."
+- question: "The beat and the rhythm of a piece of music are typically the same thing."
   type: true-false
   answer: false
   explanation: "The beat is the steady, regular underlying pulse — like a metronome. Rhythm is the actual pattern of note durations that performers play, which frequently differs from the beat. For example, a singer might hold a note across two beats or fit several quick notes into one beat. You can tap the beat with your foot while the melody's rhythm does something entirely different."

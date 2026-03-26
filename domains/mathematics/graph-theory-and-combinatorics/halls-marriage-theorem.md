@@ -50,7 +50,7 @@ The condition must hold for ALL subsets S, not just single vertices or pairs. Ch
   answer: 1
   explanation: "A Hall set is diagnostically valuable: it tells you exactly which group of vertices is causing the impossibility and why — they collectively need more matches than exist in their collective neighborhood. This localization makes Hall's theorem as useful for proving non-existence as for guaranteeing existence. In applications like assignment problems, identifying the Hall set tells you precisely which constraints conflict and what must change (add resources, relax requirements) to make a perfect matching possible. Option D is wrong — the graph may still have large partial matchings even if a perfect one doesn't exist."
 
-- question: "Hall's condition is necessary for a perfect matching to exist, but not sufficient — there exist bipartite graphs where Hall's condition holds for every subset yet no perfect matching exists."
+- question: "Hall's condition is necessary for a perfect matching to exist, but not sufficient — there exist bipartite graphs where Hall's condition holds for most subset yet no perfect matching exists."
   type: true-false
   answer: false
   explanation: "Hall's Marriage Theorem proves the condition is both necessary AND sufficient. The 'if and only if' is the theorem's power: Hall's condition holding for all subsets S ⊆ A is a complete characterization of when a perfect matching exists. Necessity is immediate (a matching injects S into N(S)). Sufficiency — that the condition guarantees a matching — is the deeper and non-obvious direction, proved by induction. Many theorems give only necessary conditions; Hall's theorem gives a complete criterion."

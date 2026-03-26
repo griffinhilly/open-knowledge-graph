@@ -51,7 +51,7 @@ A fundamental mereological question is: when do some parts compose a larger whol
   answer: 1
   explanation: "Van Inwagen himself acknowledges this pressure. The sorites problem applies: draw the line at 'life,' and there will be cases (viruses? prions? self-replicating molecules?) where it is genuinely unclear whether composition occurs. Any restricted view must specify conditions that turn composition on and off sharply, but the world offers continuous variation. This is a structural objection to all restricted views, not just Van Inwagen's."
 
-- question: "Mereological nihilism holds that no objects exist at all, making it a form of global anti-realism."
+- question: "Mereological nihilism holds that no objects exist at most, making it a form of global anti-realism."
   type: true-false
   answer: false
   explanation: "Nihilism does not deny that simples exist — it denies that simples ever compose further objects. There are simples (fundamental particles or whatever the ultimate ontological atoms are), but no composites. What we call 'a chair' is many simples arranged chair-wise; the chair itself is not a further entity. So nihilism is not anti-realism about everything — it is anti-realist specifically about composite objects, while remaining realist about simples."

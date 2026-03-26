@@ -45,7 +45,7 @@ Geography operates across multiple scales—from local to global—and phenomena
   answer: 1
   explanation: "This is a paradigm case of scale as social construction. The county boundary system was created for state administrative purposes — it was not designed to correspond to indigenous land use or territorial identity. By insisting that claims be evaluated 'at the county scale,' the state is making a political choice about which scalar framework governs, one that structurally disadvantages claims that don't fit pre-existing boundaries. Recognizing this is the key critical move in geographic analysis."
 
-- question: "Moving from a neighborhood scale to a national scale of analysis always produces a more complete and accurate understanding of a geographic phenomenon."
+- question: "Moving from a neighborhood scale to a national scale of analysis generally produces a more complete and accurate understanding of a geographic phenomenon."
   type: true-false
   answer: false
   explanation: "Different scales reveal different — not more or less complete — aspects of a phenomenon. National scale data on unemployment reveals macroeconomic patterns but hides local clustering; neighborhood scale data reveals spatial concentration but misses the broader forces that shaped it. No single scale captures the full picture, which is precisely why multi-scalar analysis is necessary. The claim that 'larger scale = more accurate' mistakes abstraction for comprehensiveness."

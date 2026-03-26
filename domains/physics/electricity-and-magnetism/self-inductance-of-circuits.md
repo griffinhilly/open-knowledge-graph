@@ -55,7 +55,7 @@ Calculate inductance of simple geometries by integrating magnetic flux. Measure 
   answer: 1
   explanation: "L = μ₀N²A/ℓ. Doubling N gives L → μ₀(2N)²A/ℓ = 4μ₀N²A/ℓ — four times the original. The N² dependence means inductance is very sensitive to turns: each turn contributes both more flux and more flux linkage with all other turns. Option A (linear dependence) is the most common error, assuming a simple proportional relationship without noticing the exponent."
 
-- question: "A self-induced EMF resists any current flowing through an inductor, meaning inductors always oppose current."
+- question: "A self-induced EMF resists any current flowing through an inductor, meaning inductors usually oppose current."
   type: true-false
   answer: false
   explanation: "Self-inductance opposes changes in current, not current itself. A steady current flowing through an ideal inductor produces no self-induced EMF at all — dI/dt = 0, so ε = −L(dI/dt) = 0. The inductor only generates a back-EMF when you try to increase or decrease the current. This is the electromagnetic analogue of inertia: a massive object at constant velocity requires no force to maintain it, and an inductor at constant current requires no back-EMF. Confusing 'opposes changes in current' with 'opposes current' is the central misconception."

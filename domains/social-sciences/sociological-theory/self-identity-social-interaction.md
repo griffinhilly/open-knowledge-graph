@@ -48,7 +48,7 @@ The self is not a fixed essence but a dynamic product of social interaction. Ide
   answer: true
   explanation: "Charles Cooley's looking-glass self has three components: we imagine how we appear to others, we imagine their judgment of that appearance, and we develop a self-feeling (pride or shame) based on that imagined judgment. Crucially, it is the *imagined* appraisal — filtered through the perceiver's interpretations and the significance of the relationship — not the actual appraisal, that shapes self-concept."
 
-- question: "Having a multiple, context-dependent self undermines personal integrity because a person with genuine integrity behaves the same way in all social settings."
+- question: "Having a multiple, context-dependent self undermines personal integrity because a person with genuine integrity behaves the same way in most social settings."
   type: true-false
   answer: false
   explanation: "The sociological view does not equate multiplicity of identity with inauthenticity or lack of integrity. Different role identities activate different facets of a person in different contexts without requiring inconsistency in core values. A parent who is strict at work and playful at home is not being two-faced — they are responding appropriately to the genuine demands of different social relationships. Personal integrity concerns consistency of values and ethical commitments, not uniformity of behavior across contexts."

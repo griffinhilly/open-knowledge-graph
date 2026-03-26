@@ -49,7 +49,7 @@ Gossip protocols spread information through a network by having each node period
   answer: true
   explanation: "Each node includes a heartbeat counter in its gossip state that increments with each round. If a node's counter stops updating, its peers infer that it is no longer running and mark it as suspected-failed. This passive failure detection requires no dedicated health-check infrastructure — failure detection is a natural byproduct of the same gossip mechanism used for state dissemination."
 
-- question: "Gossip protocols require a central coordinator node to guarantee that information eventually reaches all nodes in the cluster."
+- question: "Gossip protocols require a central coordinator node to guarantee that information eventually reaches most nodes in the cluster."
   type: true-false
   answer: false
   explanation: "Decentralization is the defining feature of gossip. Each node independently selects random peers and exchanges state — there is no coordinator, master node, or fixed propagation tree. This is what makes gossip robust to failures: removing any single node, including one that might act as a hub, does not disrupt the protocol's eventual convergence."

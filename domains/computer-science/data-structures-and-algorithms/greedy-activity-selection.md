@@ -50,7 +50,7 @@ Trace the greedy algorithm by hand on a small activity set. Prove optimality via
   answer: 2
   explanation: "The greedy-choice property says the earliest-finishing activity a₁ is always in some optimal solution. The proof is an exchange argument: if an optimal solution uses some other activity a' instead of a₁, you can swap a' for a₁ without creating new conflicts (since a₁ finishes no later than a'), producing a valid solution of the same size. This swap argument is what makes the greedy approach provably correct — not just heuristically sensible. Option B (earliest start) is a common trap; it is not provably optimal."
 
-- question: "Sorting activities by shortest duration always maximizes the number of non-overlapping activities selected."
+- question: "Sorting activities by shortest duration usually maximizes the number of non-overlapping activities selected."
   type: true-false
   answer: false
   explanation: "This is a common misconception. A short activity positioned in the middle of the timeline can block two longer activities that together would have increased the total count. For example, given activities A(1–8), B(3–4), C(5–9), sorting by duration selects B(duration 1) first, then nothing else fits around it. Sorting by end time selects B(ends 4), then C(ends 9), giving 2 activities. Only end-time ordering is provably optimal."

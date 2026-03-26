@@ -54,7 +54,7 @@ Global workspace theory proposes that conscious contents correspond to informati
   answer: true
   explanation: "This is central to GWT's value as a theory. Modular unconscious processing continuously runs in parallel — visual cortex computes motion, shape, and color; auditory cortex processes pitch and location — and these outputs influence priming, motor responses, and other behavior. The global workspace is not needed for these influences; it is specifically required for the flexible, reportable availability that characterizes conscious experience."
 
-- question: "In GWT, stimuli that fail to reach consciousness produce no neural response at all."
+- question: "In GWT, stimuli that fail to reach consciousness produce no neural response at most."
   type: true-false
   answer: false
   explanation: "Unconscious stimuli produce robust early, local neural activation in sensory areas — they simply fail to trigger the ignition cascade that propagates activity globally. This is precisely what EEG masking studies find: unconscious stimuli generate normal early visual responses but lack the late (>300ms) widespread frontoparietal surge. The distinction is between local modular activation (present for all stimuli) and global broadcast (present only for conscious ones)."

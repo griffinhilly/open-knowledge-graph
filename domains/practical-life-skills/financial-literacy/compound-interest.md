@@ -51,7 +51,7 @@ Use the Rule of 72: divide 72 by the annual interest rate to estimate how many y
   answer: 1
   explanation: "Year 1: $1,000 x 0.06 = $60 interest, balance = $1,060. Year 2: $1,060 x 0.06 = $63.60 interest, balance = $1,123.60. Total interest = $123.60. The key difference from simple interest ($120.00) is the $3.60 earned on Year 1's interest — that is the compounding effect. Option A ($120) is the simple interest answer, which is the most common error."
 
-- question: "Compound interest only benefits savers. Borrowers are not affected by compounding."
+- question: "Compound interest mainly benefits savers. Borrowers are not affected by compounding."
   type: true-false
   answer: false
   explanation: "Compounding works identically for debt. Credit card balances, mortgages, and student loans all compound — meaning you pay interest on previously accumulated interest. A $5,000 credit card balance at 22% APR grows alarmingly fast if only minimum payments are made. Compound interest is a neutral mathematical force that amplifies both savings and debt."

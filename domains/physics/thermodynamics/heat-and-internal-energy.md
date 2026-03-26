@@ -61,7 +61,7 @@ Contrast the 'caloric' historical model (heat as a fluid) with the modern mechan
   answer: true
   explanation: "This is latent heat of fusion. At 0°C, the ice and water are in equilibrium — added energy goes entirely into the phase transition (breaking the hydrogen bond network of the crystal lattice), not into raising kinetic energy. Since temperature measures average kinetic energy of molecules, and kinetic energy isn't changing here, temperature stays constant while internal potential energy increases. This directly shows that internal energy and temperature are distinct quantities."
 
-- question: "A body with a higher temperature always contains more internal energy than a body at a lower temperature."
+- question: "A body with a higher temperature usually contains more internal energy than a body at a lower temperature."
   type: true-false
   answer: false
   explanation: "Internal energy depends on both temperature and the quantity of matter. A small, very hot object (like a candle flame at 600°C) contains far less internal energy than a massive cooler object (like a lake at 15°C). Temperature measures the average kinetic energy per molecule; internal energy is the total energy summed over all molecules. This distinction is one of the two key misconceptions identified in this topic."

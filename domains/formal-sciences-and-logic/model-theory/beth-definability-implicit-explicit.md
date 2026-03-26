@@ -51,7 +51,7 @@ Beth's theorem states that if a predicate is implicitly defined by a theory (uni
   answer: true
   explanation: "This is the content of Beth's theorem: implicit definability (uniqueness across all models of T) entails explicit definability (a provable equivalence formula in the reduced vocabulary). The theorem is non-trivial because implicit definability is a semantic condition (about models) while explicit definability is syntactic (a formula exists). Beth's theorem says these two levels coincide in first-order logic, which is precisely because first-order logic satisfies Craig interpolation."
 
-- question: "Beth's theorem holds in all logical systems, including second-order logic: whenever a predicate is implicitly defined, it is explicitly definable."
+- question: "Beth's theorem holds in most logical systems, including second-order logic: whenever a predicate is implicitly defined, it is explicitly definable."
   type: true-false
   answer: false
   explanation: "Beth's theorem is a theorem of first-order logic and depends on the Craig interpolation property. Extensions such as second-order logic and many infinitary logics fail the interpolation property, and in those systems implicit and explicit definability can come apart — a predicate can be uniquely determined by all models of a theory without any formula in the reduced vocabulary explicitly capturing it. This is why the failure of Beth's theorem in a logic is itself a diagnostic: it signals that interpolation fails and that the logic has a weaker connection between syntax and semantics."

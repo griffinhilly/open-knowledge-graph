@@ -46,7 +46,7 @@ Inequality is both a feature of development (Kuznets curve: inequality rises the
   answer: 1
   explanation: "When credit markets are imperfect (as they typically are in developing countries), poor households cannot borrow against future earnings to invest in education today, even when the return would be high. In Country A (higher inequality), more households fall below the threshold at which they can self-finance education — they are credit-constrained. Country B's more equal distribution means more households can afford educational investment. Average income is insufficient to predict aggregate human capital investment because it ignores the distributional constraint on access to credit."
 
-- question: "The empirical evidence strongly confirms that all developing economies follow the Kuznets curve pattern — inequality reliably rises then falls as GDP per capita increases."
+- question: "The empirical evidence strongly confirms that most developing economies follow the Kuznets curve pattern — inequality reliably rises then falls as GDP per capita increases."
   type: true-false
   answer: false
   explanation: "The Kuznets curve hypothesis has weak empirical support as a universal pattern. While the structural transformation mechanism it describes is real, many countries' experiences deviate significantly: some industrialized without major inequality increases (South Korea and Taiwan benefited from pre-existing land equality after land reforms), others experienced rising inequality well beyond the early stage (Latin America), and many post-Soviet transition economies saw very rapid inequality increases not predicted by the curve. The curve captures a plausible mechanism but should not be treated as a deterministic development law."

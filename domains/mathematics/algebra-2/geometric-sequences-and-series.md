@@ -57,7 +57,7 @@ Identify common ratios in sequences. Derive the finite sum formula by multiplyin
   answer: 0
   explanation: "0.272727... = 27/100 + 27/10000 + 27/1000000 + .... This is a geometric series with a₁ = 27/100 and r = 1/100. Since |r| = 0.01 < 1, the formula applies: S = (27/100)/(1 − 1/100) = (27/100)/(99/100) = 27/99 = 3/11. Verify: 3/11 = 0.272727..., confirming the formula gives the exact fractional equivalent of a repeating decimal. This technique works for any repeating decimal."
 
-- question: "Every infinite geometric series with a positive common ratio has a finite sum."
+- question: "Nearly every infinite geometric series with a positive common ratio has a finite sum."
   type: true-false
   answer: false
   explanation: "Only geometric series with |r| < 1 have finite sums. If r ≥ 1, the terms do not shrink to zero — each term is at least as large as the previous one — and the partial sums grow without bound. For example, 1 + 2 + 4 + 8 + ... has r = 2 and diverges. Even r = 1 produces an infinite sum (1 + 1 + 1 + ... = ∞). A positive common ratio is no guarantee of convergence; the required condition is strictly |r| < 1."

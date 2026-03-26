@@ -45,7 +45,7 @@ Derive the pressure formula step by step from Newton's laws applied to a single 
   answer: 2
   explanation: "Temperature is proportional to the average kinetic energy per molecule: (1/2)mv²_avg = (3/2)kT. It is not the total energy (which depends on how many molecules there are), not the speed of any single molecule, and not pressure directly (though pressure and temperature are related through PV = NkT)."
 
-- question: "In a gas at a fixed temperature, all molecules are moving at the same speed."
+- question: "In a gas at a fixed temperature, most molecules are moving at the same speed."
   type: true-false
   answer: false
   explanation: "Kinetic theory gives the *average* kinetic energy, but individual molecules have a wide distribution of speeds — some moving very slowly, others very fast. This distribution (the Maxwell-Boltzmann distribution) is a key result built on kinetic theory. The temperature fixes the average, not each individual molecule's speed."

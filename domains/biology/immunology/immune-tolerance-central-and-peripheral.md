@@ -57,7 +57,7 @@ Central tolerance eliminates some, but not all, self-reactive cells; peripheral 
   answer: 2
   explanation: "T cell activation requires two signals: signal 1 (TCR binding peptide-MHC) and signal 2 (costimulatory molecule engagement, typically B7-CD28). Signal 1 without signal 2 is the canonical peripheral tolerance mechanism of anergy — the T cell becomes functionally paralyzed and unresponsive. Critically, anergy is not permanent: if inflammatory conditions later provide costimulation, anergy can be broken. This is one mechanism by which infections precipitate autoimmune flares."
 
-- question: "Central tolerance eliminates all self-reactive lymphocytes before they can reach the periphery, making peripheral tolerance mechanisms a redundant backup."
+- question: "Central tolerance eliminates most self-reactive lymphocytes before they can reach the periphery, making peripheral tolerance mechanisms a redundant backup."
   type: true-false
   answer: false
   explanation: "Central tolerance is effective but inherently incomplete. Not every self-antigen is expressed in the thymus or bone marrow — AIRE covers many tissue-specific proteins but not all. The threshold for deletion is calibrated to preserve useful self-MHC reactivity, allowing weakly self-reactive cells to escape. Peripheral tolerance is not redundant — it is a necessary second layer that catches escaped self-reactive clones. This is demonstrated by diseases caused by peripheral tolerance defects (Treg insufficiency, Fas pathway mutations) even when central tolerance is intact."

@@ -47,7 +47,7 @@ The Riemann integral satisfies linearity (∫(af + bg) = a∫f + b∫g), monoton
   answer: 1
   explanation: "Additivity over intervals allows splitting the integration domain at x = 0.5 where f changes formula. On [0, 0.5], f = 1, giving integral 0.5; on [0.5, 1], f = 3, giving integral 1.5; total is 2. Linearity (option A) also works but requires rewriting f first, making additivity the more direct approach for piecewise functions. Option C gives only bounds, not the value. Option D is false — a single-point discontinuity does not prevent Riemann integrability; bounded functions with finitely many discontinuities are integrable."
 
-- question: "If f(x) ≤ g(x) for all x in [a, b], then ∫ₐᵇ f < ∫ₐᵇ g (strict inequality)."
+- question: "If f(x) ≤ g(x) for most x in [a, b], then ∫ₐᵇ f < ∫ₐᵇ g (strict inequality)."
   type: true-false
   answer: false
   explanation: "Monotonicity guarantees only weak inequality: ∫f ≤ ∫g. Strict inequality requires f(x) < g(x) on a set of positive measure, not merely at isolated points. For example, if f and g agree everywhere except at finitely many points, then ∫f = ∫g even though f ≤ g pointwise. The Riemann integral is insensitive to the function's behavior on sets of measure zero — individual points or finite collections of points contribute nothing to the integral. This is one place where the Lebesgue theory makes the statement more precise."

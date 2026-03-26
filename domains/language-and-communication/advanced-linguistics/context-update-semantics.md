@@ -44,7 +44,7 @@ Context-update semantics views utterance meaning as how utterances change conver
   answer: 2
   explanation: "Context-update semantics distinguishes speech act types by how they change different dimensions of context. An assertion proposes adding a proposition to the common ground — an additive update. A question doesn't add a proposition; it transforms the common ground into an issue — an open set of possibilities the conversation must now resolve. The common ground shifts from settled knowledge to open inquiry. This framework unifies assertion and question under the single principle of context-change without reducing one to the other, and extends naturally to imperatives, which update the set of obligations on the addressee."
 
-- question: "In context-update semantics, all utterances update the same dimension of context — the propositional content of the common ground."
+- question: "In context-update semantics, most utterances update the same dimension of context — the propositional content of the common ground."
   type: true-false
   answer: false
   explanation: "This is false — the framework is explicitly multidimensional. Assertions update the propositional content of the common ground. Questions transform it into an issue (an open inquiry the discourse must resolve). Imperatives update a different dimension entirely: the set of obligations or commitments incumbent on the addressee. This multidimensional view is what allows context-update semantics to unify speech act theory with formal semantics through a single organizing principle: every utterance is a context-change instruction, but different utterance types target different dimensions of context and transform them in different ways."

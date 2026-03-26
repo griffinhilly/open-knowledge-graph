@@ -56,7 +56,7 @@ The problem of universals asks what accounts for objective similarities among pa
   answer: 1
   explanation: "The Explainer states this directly: 'What grounds the resemblance relation? If we say two red things resemble each other, are we smuggling in a shared property through the back door?' When you say two things 'sufficiently resemble each other with respect to color,' you seem to already be invoking a shared color property — the very universal the nominalist was trying to eliminate. Option D (the resemblance-universal regress) is related and sometimes cited, but the core objection is the one in option B: explaining similarity through resemblance seems to presuppose similarity."
 
-- question: "Aristotelian realism holds that universals like redness exist even if nothing in the world is currently red."
+- question: "Aristotelian realism holds that universals like redness exist even if hardly anything in the world is currently red."
   type: true-false
   answer: false
   explanation: "This describes Platonic realism, not Aristotelian realism. The Explainer distinguishes them explicitly: 'Platonic realism places universals in a realm of abstract objects that exist independently of any particular instance; redness exists whether or not anything is currently red. A more moderate Aristotelian realism holds that universals are real but only ever exist instantiated in particulars — redness exists only insofar as there are red things.' The contrast between these two forms of realism is itself an important internal divide within the realist camp."

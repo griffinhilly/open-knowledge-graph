@@ -53,7 +53,7 @@ An isoquant is a curve showing all combinations of inputs that produce the same 
   answer: true
   explanation: "Moving along an isoquant from upper-left (lots of capital, little labor) to lower-right (lots of labor, little capital), the MRTS decreases. This is because diminishing marginal product applies to both inputs: as you add more labor, each additional worker contributes less to output (MP_L falls); as you remove capital, each remaining unit becomes more scarce and more productive (MP_K rises). Since MRTS = MP_L/MP_K, both forces push MRTS downward. The result is an isoquant that gets flatter as you move right — a convex curve bowing toward the origin."
 
-- question: "If the MRTS is constant at every point along an isoquant, this indicates the technology uses fixed input proportions — a Leontief production function."
+- question: "If the MRTS is constant at most point along an isoquant, this indicates the technology uses fixed input proportions — a Leontief production function."
   type: true-false
   answer: false
   explanation: "Constant MRTS indicates perfect substitutes, not fixed proportions. A constant MRTS produces straight-line isoquants: the substitution rate between inputs never changes. Leontief (fixed-proportion) technology is the opposite extreme, producing right-angle isoquants: the MRTS is zero along horizontal segments (adding labor does nothing) and undefined/infinite along vertical segments (adding capital does nothing). These are two distinct extreme cases. Leontief isoquants have a kink, not a constant slope."

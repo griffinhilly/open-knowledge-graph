@@ -54,7 +54,7 @@ Diaspora literature—writing by displaced persons, exiles, migrants, and refuge
   answer: true
   explanation: "True. Colonial languages became the languages of education, publication, and reach precisely because colonialism suppressed or marginalized indigenous languages. Writers like Jamaica Kincaid or Chimamanda Ngozi Adichie write in English while being fully aware they are working inside a language historically associated with the forces that caused their communities' displacement. This creates a distinctive tension in diasporic writing."
 
-- question: "Diaspora literature treats all forms of displacement as equivalent experiences, since all diasporic writers share the condition of living between cultures."
+- question: "Diaspora literature treats most forms of displacement as equivalent experiences, since most diasporic writers share the condition of living between cultures."
   type: true-false
   answer: false
   explanation: "False. The politics of displacement insists on distinctions: a refugee fleeing violence, an economic migrant seeking opportunity, and a postcolonial professional class voluntarily relocating have radically different relationships to displacement, choice, power, and belonging. Attentive reading asks which kind of displacement is in play, whose voice is telling the story, and who controls the conditions of representation."

@@ -62,7 +62,7 @@ Inductive arguments are weak versions of deductive arguments (they are different
   answer: false
   explanation: "Strength is assessed relative to the premises — how probable does the evidence make the conclusion? Even a strong inductive argument (large, representative sample, no counterexamples) can have a false conclusion if the world turns out differently than the evidence suggested. A false conclusion is not evidence of weak reasoning; it may simply reflect bad luck or undiscovered disconfirming evidence."
 
-- question: "A larger sample always produces a stronger inductive argument than a smaller sample."
+- question: "A larger sample usually produces a stronger inductive argument than a smaller sample."
   type: true-false
   answer: false
   explanation: "Size matters, but representativeness matters more. A large, biased sample can produce weaker support for a universal conclusion than a small, carefully stratified one. The Literary Digest poll of 1936 surveyed millions but predicted the wrong U.S. presidential winner because the sampling method systematically excluded certain demographics. Representativeness is often the binding constraint on inductive strength."

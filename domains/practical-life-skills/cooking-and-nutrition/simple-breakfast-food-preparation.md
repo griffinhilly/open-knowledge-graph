@@ -54,7 +54,7 @@ Breakfast must be elaborate or time-consuming; simple combinations of grain, fru
   answer: 1
   explanation: "Cereal provides carbohydrates (quick energy), milk provides protein (slows digestion and extends satiety), and a banana provides fiber and vitamins. Option A has carbohydrates but minimal protein or fiber. Option C is mostly carbohydrates and fat with little protein. Option D is light in protein and fiber. The three-part structure — carbs + protein + fiber/vitamins — is the nutritional target for an effective breakfast."
 
-- question: "A nutritious breakfast must include cooked food requiring a stove or oven to effectively restore energy after sleep."
+- question: "A nutritious breakfast is expected to include cooked food requiring a stove or oven to effectively restore energy after sleep."
   type: true-false
   answer: false
   explanation: "No cooking is required to restore blood glucose and provide the nutrients needed in the morning. A bowl of cereal with milk, a banana, yogurt, or fruit alone can accomplish this. The misconception that breakfast must be elaborate or cooked is one of the main reasons people skip it — once debunked, the simplicity of adequate breakfast preparation becomes clear."

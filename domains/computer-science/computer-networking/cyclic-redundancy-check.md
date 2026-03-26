@@ -50,7 +50,7 @@ CRC treats data as a polynomial and computes a remainder when divided by a fixed
   answer: true
   explanation: "Polynomial division over GF(2) maps directly onto a linear feedback shift register (LFSR): each incoming bit shifts through the register, and XOR operations at tap positions implement the modular reduction by the generator polynomial. This requires only shift and XOR operations — no multiplier or divider hardware. Ethernet NICs compute CRC-32 over every frame at full line rate using this hardware implementation. The mathematical description (polynomial division) sounds expensive but the hardware realization is extremely simple."
 
-- question: "CRC detects all possible bit error patterns in a transmitted frame, making it a complete and sufficient error-detection scheme."
+- question: "CRC detects most possible bit error patterns in a transmitted frame, making it a complete and sufficient error-detection scheme."
   type: true-false
   answer: false
   explanation: "No finite-length error-detection code can catch every possible error pattern. CRC has a residual undetected error probability: if the error pattern is itself divisible by the generator polynomial, the remainder is zero and the error goes undetected. For CRC-32 with well-chosen generators, this probability is approximately 1/2³² ≈ 2.3×10⁻¹⁰ per frame — negligibly small for most purposes, but not zero. CRC provides strong probabilistic error detection, not absolute detection. For critical applications, additional mechanisms (sequence numbers, higher-layer checksums, or cryptographic MACs) are used alongside CRC."

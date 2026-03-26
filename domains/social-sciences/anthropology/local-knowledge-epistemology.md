@@ -55,7 +55,7 @@ Study ethnobotany, traditional medicine practices that biomedicine validates, in
   answer: 1
   explanation: "Epistemic injustice (Miranda Fricker's term, applied here to colonial knowledge politics) refers to wrongs done to people in their capacity as knowers — their testimony and knowledge claims are dismissed not because the claims are demonstrably false, but because of who they are. In the colonial context, indigenous land management was classed as 'primitive' not because it failed on its own terms, but because delegitimizing it served dispossession. The political stakes of acknowledging it were too high. Epistemic injustice is therefore a form of power exercise, not a neutral epistemological assessment."
 
-- question: "The anthropological approach to indigenous knowledge requires accepting all traditional knowledge claims as valid, since cultural relativism demands we evaluate practices on their own terms without external judgment."
+- question: "The anthropological approach to indigenous knowledge requires accepting most traditional knowledge claims as valid, since cultural relativism demands we evaluate practices on their own terms without external judgment."
   type: true-false
   answer: false
   explanation: "Cultural relativism is a methodological stance, not a blanket endorsement. It means suspending the automatic use of Western scientific standards as the benchmark, not abandoning scrutiny altogether. The Explainer is explicit: some indigenous knowledge claims are accurate and robust; others are not. The goal is genuine dialogue and appropriate evaluation, not uncritical romanticization. Conflating cultural relativism with 'accept everything' is itself a misreading that undermines the serious epistemological point being made."

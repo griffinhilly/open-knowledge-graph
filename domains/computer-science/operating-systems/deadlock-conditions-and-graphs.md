@@ -59,7 +59,7 @@ Construct resource graphs for various scenarios; identify cycles and trace the c
   answer: true
   explanation: "With multiple instances, a cycle means deadlock is possible: the cycle shows a waiting pattern, but an instance held by a process outside the cycle might become available and break the deadlock. With single-instance resources, a cycle IS sufficient — there are no extra instances to break the chain. The number of instances per resource type is what changes the sufficiency condition."
 
-- question: "A cycle in a resource allocation graph always guarantees that deadlock exists, regardless of how many instances each resource type has."
+- question: "A cycle in a resource allocation graph usually guarantees that deadlock exists, regardless of how many instances each resource type has."
   type: true-false
   answer: false
   explanation: "With multiple instances of a resource type, a cycle is necessary but not sufficient for deadlock. Another instance of a requested resource may become available from a process outside the cycle, allowing one waiting process to proceed and dissolving the deadlock. Only when every resource type involved has exactly one instance does a cycle guarantee deadlock."

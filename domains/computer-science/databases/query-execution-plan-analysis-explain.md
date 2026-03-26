@@ -43,7 +43,7 @@ The EXPLAIN statement displays the optimizer's chosen execution plan, showing op
   answer: 1
   explanation: "EXPLAIN alone shows the optimizer's chosen plan — whether it uses a Seq Scan or Index Scan — without executing the query. EXPLAIN ANALYZE (option A) actually runs the query and returns real timing alongside estimates, which is valuable for diagnosing row count discrepancies, but it executes the query — undesirable for very slow queries or DML statements. EXPLAIN VERBOSE and BUFFERS are modifiers that still require ANALYZE to get actual rows."
 
-- question: "A Seq Scan in EXPLAIN output always indicates a missing index and should be replaced with an Index Scan."
+- question: "A Seq Scan in EXPLAIN output usually indicates a missing index and should be replaced with an Index Scan."
   type: true-false
   answer: false
   explanation: "Seq Scans are often the correct choice. For small tables, a full scan is cheaper than the overhead of index navigation. For queries that return a large fraction of rows, sequential I/O is more efficient than random index reads. A Seq Scan only suggests a problem when there is a highly selective filter on a large table that should be indexed. EXPLAIN output must be read in context — the question is always 'is this plan appropriate?' not 'is there a Seq Scan?'"

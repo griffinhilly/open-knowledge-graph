@@ -52,7 +52,7 @@ A bifurcation occurs when the qualitative behavior of solutions to dy/dx = f(y, 
   answer: true
   explanation: "This is the standard convention for bifurcation diagrams. The diagram compresses the entire family of phase portraits — one for each parameter value — into a single picture. Solid curves show where stable equilibria exist (attractors); dashed curves show unstable equilibria (repellers). At a bifurcation point, the curves meet, branch, or disappear. A saddle-node bifurcation shows a solid and dashed curve merging at a point; a pitchfork shows one solid curve splitting into two solids and a dashed."
 
-- question: "Small changes in a parameter always produce only small changes in the long-term behavior of a system described by a differential equation."
+- question: "Small changes in a parameter usually produce mainly small changes in the long-term behavior of a system described by a differential equation."
   type: true-false
   answer: false
   explanation: "This is the key intuition that bifurcation theory overturns. Away from a bifurcation point, small parameter changes typically produce small changes in behavior. But near a bifurcation point, an arbitrarily small change can cause a dramatic qualitative shift — equilibria appear, disappear, or exchange stability. A population model near a saddle-node bifurcation might support a stable population for parameter values just above the threshold, and no stable population at all for values just below. This sensitivity is not a mathematical curiosity — it describes real physical and biological systems (structural buckling, ecological collapse, climate tipping points)."

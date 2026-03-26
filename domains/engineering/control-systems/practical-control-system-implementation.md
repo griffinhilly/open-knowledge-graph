@@ -52,7 +52,7 @@ Real control systems face practical limitations: actuators saturate, measurement
   answer: true
   explanation: "Derivative kick occurs when a step change in setpoint creates an impulsively large derivative of the error signal (since the derivative of a step is theoretically infinite). If the D-term differentiates the error, a step setpoint change produces a very large, brief spike in the control output that can saturate or damage the actuator. Computing the derivative on the process output instead means setpoint steps don't cause a spike — the output changes smoothly — while the derivative still responds to deviations of the actual process from its current value."
 
-- question: "Increasing the sampling rate of a digital control system always improves stability, so sampling as fast as hardware allows is always the best approach."
+- question: "Increasing the sampling rate of a digital control system generally improves stability, so sampling as fast as hardware allows is generally the best approach."
   type: true-false
   answer: false
   explanation: "While sampling too slowly is harmful (inadequate phase margin from delay), sampling far faster than the closed-loop bandwidth provides diminishing returns and introduces new problems: more ADC quantization steps within each sample amplify noise, the derivative term becomes excessively noise-sensitive at high rates, and computational word-length limitations cause coefficient quantization issues that can actually destabilize the controller. The engineering guideline is to sample at 10–20× the closed-loop bandwidth — fast enough to minimize delay-related phase loss, but not so fast that noise amplification and numerical precision become the binding constraints."

@@ -57,7 +57,7 @@ Paint color will look exactly like it does in the paint can or store; all finish
   answer: 1
   explanation: "Color is not a fixed property of the pigment — it is an interaction between pigment, light source, and surrounding surfaces. The same paint can look warm under incandescent lamps, nearly gray in a north-facing room, and accurate under store fluorescent lights. The only reliable method is testing an actual painted swatch in the room itself, observed across different lighting conditions throughout the day. Paint chips are useful for narrowing candidates but cannot substitute for in-context testing."
 
-- question: "Flat finish paint is the best all-purpose choice for interior walls because it hides surface imperfections and works well in any room."
+- question: "Flat finish paint is the best most-purpose choice for interior walls because it hides surface imperfections and works well in any room."
   type: true-false
   answer: false
   explanation: "Flat finish is effective at hiding imperfections because it absorbs light, but it is only appropriate for low-traffic areas that will rarely need cleaning — like bedroom ceilings or formal dining rooms. In bathrooms, kitchens, hallways, and children's rooms, flat paint absorbs moisture, shows dirty marks, and degrades when wiped. Higher-sheen finishes (eggshell, satin, semi-gloss) are required wherever durability and washability matter. Finish choice must match the room's function."

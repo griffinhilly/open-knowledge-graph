@@ -47,7 +47,7 @@ Symbols function when concrete objects, actions, or characters come to represent
   answer: 2
   explanation: "Symbolic meaning in literary texts operates through accumulation and reinforcement. A single appearance of an image may carry cultural resonances, but it does not establish a functioning symbol — there is no pattern for the reader to register as meaningful. Symbols develop as a text returns to an image in varied contexts, layering textual meaning onto cultural associations. Cultural resonance (option A) contributes, but textual development is what activates the symbol and gives it text-specific significance. Authorial intention (option B) is not required — symbols work through textual patterns and reader interpretation."
 
-- question: "Symbols in literature are fixed in meaning: darkness always represents evil or the unknown, and light always represents hope or knowledge."
+- question: "Symbols in literature are fixed in meaning: darkness generally represents evil or the unknown, and light typically represents hope or knowledge."
   type: true-false
   answer: false
   explanation: "Symbolic meaning is contextual, not dictionary-determined. Darkness can represent comfort, intimacy, mystery, or death depending on the text. Light can represent harsh exposure, surveillance, or destruction as easily as hope. Meaning is built through the specific ways a text deploys an image, the contexts in which it appears, and the cultural associations it activates or subverts. Strong readers treat each text's symbolic vocabulary as partially invented by that text, rather than importing fixed meanings from a universal symbol dictionary."

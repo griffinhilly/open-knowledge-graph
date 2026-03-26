@@ -60,7 +60,7 @@ Trace insertion sort by hand on small arrays. Implement and test on sorted, reve
   answer: true
   explanation: "When the array is already sorted, each element is compared once against its left neighbor, finds it is already in place, and moves on with no shifts. The total work is exactly n-1 comparisons — O(n). This is the zero-inversion case: a sorted array has no inversions, and insertion sort does work proportional to the number of inversions. The O(n) best case is unique among simple sorting algorithms — selection sort is always O(n²) because it must scan for the minimum each pass regardless of input order."
 
-- question: "Insertion sort is always slower in practice than merge sort or quicksort, because those algorithms have better asymptotic complexity."
+- question: "Insertion sort is typically slower in practice than merge sort or quicksort, because those algorithms have better asymptotic complexity."
   type: true-false
   answer: false
   explanation: "Asymptotic notation describes growth rate, not actual speed for all inputs. Insertion sort outperforms merge sort and quicksort in two important real-world cases: (1) very small arrays (n < ~64), where insertion sort's constant factors are much lower than the recursive overhead of divide-and-conquer algorithms; and (2) nearly-sorted data, where insertion sort approaches O(n) while merge sort stays at O(n log n). This is why production sorting libraries routinely use insertion sort as the base case in hybrid algorithms — it is faster in practice for exactly these common scenarios."

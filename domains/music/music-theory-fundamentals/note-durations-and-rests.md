@@ -56,7 +56,7 @@ Clap or tap note values while counting beats aloud. Use a metronome to feel the 
   answer: 2
   explanation: "A dot always adds half the note's own value. A quarter note = 1 beat; half of 1 beat = half a beat (one eighth note); so a dotted quarter = 1 + 0.5 = 1.5 beats. Option A is the most common error — students sometimes think the dot doubles rather than adds half. The formula is: dotted note = original × 3/2. This is why the fraction prerequisite is mentioned — adding half of something to itself is multiplying by 3/2. So a dotted half note = 2 × 3/2 = 3 beats; a dotted eighth = 0.5 × 3/2 = 0.75 beats."
 
-- question: "A whole note always lasts exactly four beats, regardless of the time signature."
+- question: "A whole note generally lasts exactly four beats, regardless of the time signature."
   type: true-false
   answer: false
   explanation: "A whole note lasts one full measure — and the number of beats per measure is determined by the time signature. In 4/4, a whole note lasts four beats. In 3/4, it lasts three beats. In 2/2 (cut time), it lasts two beats. The confusion arises because 4/4 is by far the most common time signature, so the four-beat experience feels like a definition. But 'whole' refers to a full measure, not to four beats specifically. This is one of the most persistent misconceptions in music notation."

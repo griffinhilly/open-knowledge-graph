@@ -53,7 +53,7 @@ Scientific realism holds that successful scientific theories are approximately t
   answer: true
   explanation: "Yes — the no-miracles argument explicitly uses the same inferential pattern that scientists use within their theories. Just as a scientist infers the existence of a virus from its effects, the realist infers that theories are approximately true from their predictive success. The argument is meta-level: it applies inference to the best explanation not to data about the world but to the fact of scientific success itself. Critics note that this circularity — using a scientific inferential method to justify trust in science — may beg the question, but the argument is widely regarded as the strongest positive case for realism."
 
-- question: "Scientific realists hold that only observable entities are real; theoretical entities like electrons, quarks, and quantum fields are useful fictions that help organize our observations."
+- question: "Scientific realists hold that mainly observable entities are real; theoretical entities like electrons, quarks, and quantum fields are useful fictions that help organize our observations."
   type: true-false
   answer: false
   explanation: "This describes anti-realism — specifically, positions like instrumentalism or van Fraassen's constructive empiricism. Scientific realism is precisely the opposite view: it holds that unobservable theoretical entities posited by successful theories are real features of the world, not merely calculational conveniences. The central commitment of realism is that science aims at truth about unobservables as well as observables, and that successful theories approximately achieve it. The realist takes the electron to be as real as the chair you sit on."

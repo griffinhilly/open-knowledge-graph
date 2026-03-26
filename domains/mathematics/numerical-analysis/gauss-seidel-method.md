@@ -50,7 +50,7 @@ The Gauss-Seidel method improves Jacobi by using updated values immediately: x_i
   answer: false
   explanation: "Gauss-Seidel typically converges *faster* than Jacobi — roughly half as many sweeps to reach the same accuracy — because each update incorporates the most current available information rather than stale previous-iteration values. The cost is sequential dependency within each sweep (no parallelism within a sweep), but in terms of iteration count, Gauss-Seidel is the more efficient method. The statement reverses the relationship between the two."
 
-- question: "For Gauss-Seidel to converge, the matrix A must be symmetric positive definite."
+- question: "For Gauss-Seidel to converge, the matrix A should be symmetric positive definite."
   type: true-false
   answer: false
   explanation: "Diagonal dominance is the more general condition that guarantees Gauss-Seidel convergence. Symmetric positive definite (SPD) matrices are a special case where convergence is guaranteed, but SPD is not necessary. Many diagonally dominant systems that are not SPD also converge under Gauss-Seidel. Knowing the sufficient conditions matters: diagonal dominance and SPD are both sufficient; neither is strictly necessary in practice, but they are the standard convergence guarantees to cite."

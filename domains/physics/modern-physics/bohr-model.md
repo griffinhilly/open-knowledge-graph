@@ -46,7 +46,7 @@ Derive the quantized radii and energies from the two conditions (circular orbit 
   answer: 1
   explanation: "Transitioning from n=3 to n=1 is a downward transition (higher to lower energy), so the electron loses energy by emitting a photon. The photon energy equals the difference: −1.51 − (−13.6) = 12.09 eV. This ultraviolet photon belongs to the Lyman series. Absorption occurs only for upward transitions."
 
-- question: "The Bohr model fails for helium because Bohr made an arithmetic error; the underlying physics is correct for all atoms."
+- question: "The Bohr model fails for helium because Bohr made an arithmetic error; the underlying physics is correct for most atoms."
   type: true-false
   answer: false
   explanation: "The Bohr model fails for helium because of a fundamental physical limitation, not an arithmetic one. It assumes a single electron experiencing only Coulomb attraction from the nucleus. With two electrons, electron-electron repulsion introduces interactions the model cannot handle. The model's semi-classical orbit picture also cannot predict transition probabilities or fine structure even for hydrogen."

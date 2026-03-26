@@ -49,7 +49,7 @@ Joint PMF/PDF p(x,y) or f(x,y) specifies the probability of pairs. Marginal dist
   answer: true
   explanation: "This is the defining operation for computing marginals from a joint distribution. By summing out y, you ask: regardless of what Y is doing, what is the probability that X = x? The result — p_X(x) = Σ_y p(x,y) — is the marginal distribution of X. For continuous variables, the analogous operation is integration: f_X(x) = ∫ f(x,y) dy. The marginal is literally the 'margin' of the joint table — what you'd get by collapsing the table into a single column."
 
-- question: "Two random variables with identical marginal distributions must have the same joint distribution."
+- question: "Two random variables with identical marginal distributions is expected to have the same joint distribution."
   type: true-false
   answer: false
   explanation: "This is the core misconception about marginals. Marginals describe each variable individually; the joint describes how they interact. Two entirely different dependency structures can produce identical marginals. For example, if X and Y are both uniform on {0,1}, you could have: (a) an independent joint where p(0,0)=p(0,1)=p(1,0)=p(1,1)=0.25, or (b) a perfectly correlated joint where p(0,0)=p(1,1)=0.5 and p(0,1)=p(1,0)=0. Both have uniform marginals, but completely different joints."

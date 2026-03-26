@@ -61,7 +61,7 @@ Measure longer distances in the classroom or hallway with both types of measurin
   answer: true
   explanation: "A meter equals approximately 3.28 feet, so it is indeed the longer unit. This is why the same distance gives a smaller number in meters than in feet — you need fewer of the bigger unit to measure the same thing."
 
-- question: "When measuring the same hallway in both feet and meters, you will always get a larger number when using meters."
+- question: "When measuring the same hallway in both feet and meters, you will generally get a larger number when using meters."
   type: true-false
   answer: false
   explanation: "The opposite is true. Because a meter is larger than a foot, you need fewer meters to cover the same distance. A hallway that is 30 feet long is only about 9.1 meters long — the number of meters is smaller, not larger. Larger unit = smaller count."

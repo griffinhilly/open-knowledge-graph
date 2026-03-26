@@ -44,7 +44,7 @@ When signals cross between clock domains running at different speeds, metastabil
   answer: 1
   explanation: "Even if each bit eventually resolves correctly, the different bits may resolve at different moments within the clock period, and downstream logic may sample the bus while some bits have resolved and others have not. This produces a corrupted combined value — a 'glitch' that was never a valid state in the sending domain. The correct approach for multi-bit buses is to use an asynchronous FIFO with Gray-coded pointers (where only one bit changes per pointer increment, making single-bit synchronization safe) or a handshake protocol that holds data stable until the receiver acknowledges."
 
-- question: "Metastability in a flip-flop can be completely eliminated by using a sufficient number of synchronizer flip-flop stages in series."
+- question: "Metastability in a flip-flop can be largely eliminated by using a sufficient number of synchronizer flip-flop stages in series."
   type: true-false
   answer: false
   explanation: "Metastability is a physical phenomenon governed by the analog dynamics of flip-flop circuits — specifically, the time constant of the bistable latch's exponential resolution. Each additional synchronizer stage reduces the probability of an unresolved metastable state reaching downstream logic by an exponential factor, but the probability never reaches exactly zero. With two stages, the mean time between failures (MTBF) is typically thousands or millions of years for practical clock frequencies, which is effectively negligible. But 'negligible' is not the same as 'zero' — more stages reduce the probability further at the cost of additional latency."

@@ -59,7 +59,7 @@ Not every full subcategory is reflective; reflectivity requires an adjoint to ex
   answer: true
   explanation: "This is precisely the universal property of the Stone-Čech compactification, and it is exactly the statement that compact Hausdorff spaces form a reflective subcategory of completely regular spaces with βX as the reflector. The canonical map X → βX is the unit of the adjunction. Any continuous f: X → K with K compact Hausdorff extends uniquely to a continuous f̃: βX → K. This universal property is what distinguishes βX from all other compactifications of X — it is the *maximal* compactification in the sense that it maps onto all others."
 
-- question: "Every full subcategory of a category is reflective, as long as it is closed under isomorphisms."
+- question: "Nearly every full subcategory of a category is reflective, as long as it is closed under isomorphisms."
   type: true-false
   answer: false
   explanation: "Being a full subcategory closed under isomorphisms is not sufficient for reflectivity. Reflectivity requires that the inclusion functor i: D ↪ C has a left adjoint — a reflector L: C → D — satisfying a universal property for every object of C. Many full subcategories do not have this property. For example, the subcategory of finite sets inside all sets is a full subcategory closed under isomorphisms, but it is not reflective: there is no 'best finite approximation' to an infinite set in the required sense. The existence of the adjoint is a genuine and nontrivial condition."

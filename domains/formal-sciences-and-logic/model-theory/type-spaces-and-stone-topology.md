@@ -51,7 +51,7 @@ The set Sₙ(T) of all n-types over a complete theory T forms a topological spac
   answer: true
   explanation: "The complement of [φ] is [¬φ] — the set of types containing ¬φ — which is also a basic open set. So [φ] is open by definition, and its complement [¬φ] is also open, making [φ] closed as well. This clopen structure is characteristic of Stone spaces and reflects the Boolean algebra structure of formulas modulo logical equivalence. It means the topology is totally disconnected: connected components are single points."
 
-- question: "A theory with a unique countable model up to isomorphism (ω-categorical) must have infinitely many n-types for sufficiently large n."
+- question: "A theory with a unique countable model up to isomorphism (ω-categorical) is expected to have infinitely many n-types for sufficiently large n."
   type: true-false
   answer: false
   explanation: "This is precisely backwards. A theory is ω-categorical if and only if Sₙ(T) is finite for every n — the type space is a finite discrete set for each arity. The fewer types a theory has, the more constrained and 'simple' its models are. Infinitely many n-types is characteristic of non-ω-categorical theories with multiple non-isomorphic countable models."

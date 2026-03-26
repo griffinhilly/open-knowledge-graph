@@ -52,7 +52,7 @@ Unpolarized light becomes linearly polarized through selective absorption (polar
   answer: true
   explanation: "At Brewster's angle θ_B = arctan(n₂/n₁), the reflected and refracted rays are 90° apart. Under this condition, the p-polarized component (field in the plane of incidence) is not reflected at all, leaving the reflected beam entirely s-polarized (field perpendicular to the plane of incidence, i.e., parallel to the surface). This is exactly why polarized sunglasses oriented with a vertical transmission axis block horizontally polarized glare from roads and water."
 
-- question: "Adding a third polarizer between two crossed polarizers always reduces the total transmitted intensity compared to having only the two crossed polarizers."
+- question: "Adding a third polarizer between two crossed polarizers usually reduces the total transmitted intensity compared to having primarily the two crossed polarizers."
   type: true-false
   answer: false
   explanation: "Two perfectly crossed polarizers transmit 0% — they already block everything. Inserting a third polarizer at 45° between them allows 25% of the post-first-polarizer intensity to pass through. Going from 0% to 25% is an increase, not a decrease. This apparent paradox — adding an absorbing element increases transmission — arises because the intermediate polarizer changes the polarization direction of the light reaching the final polarizer, reducing the angle from 90° to 45°."

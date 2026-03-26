@@ -48,7 +48,7 @@ Dead code elimination removes statements whose results are never used. An assign
   answer: true
   explanation: "True — this cascading property is one of the defining characteristics of DCE and why compilers run it iteratively or use the aggressive (mark-from-observable-effects) approach. If x is dead, its definition `x = a * b + c` is removed. If a, b, and c were defined only to be used in that expression, their definitions are now dead. Removing those may make further upstream computations dead. The chain can propagate arbitrarily deep through the program's def-use graph."
 
-- question: "If a code block is never executed during any test run, a compiler can determine it is unreachable and safely eliminate it."
+- question: "If a code block is seldom executed during any test run, a compiler can determine it is unreachable and safely eliminate it."
   type: true-false
   answer: false
   explanation: "False. Unreachable code is a *static* (compile-time) property determined by control flow graph analysis — a block is unreachable if it has no predecessors other than itself in the CFG. Test execution is a *dynamic* property; code that was never executed during testing might be reachable under different inputs. A compiler cannot use test coverage data to decide what to eliminate — it would change the program's semantics for those untested inputs. Only static analysis proves unreachability."

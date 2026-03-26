@@ -53,7 +53,7 @@ Fit models with varying penalty parameters (lambda) and plot coefficient paths. 
   answer: true
   explanation: "This is the bias-variance tradeoff at the heart of regularization. Higher λ pulls coefficients further from OLS estimates (which minimize in-sample fit), introducing bias — the model no longer perfectly chases the training data's idiosyncratic patterns. At the same time, the model becomes less sensitive to the specific sample, reducing variance. At λ = 0, Ridge equals OLS (unbiased, high variance); as λ → ∞, all coefficients → 0 (maximum bias, near-zero variance). Optimal λ balances these forces."
 
-- question: "Ridge regression is the preferred regularization method when you believe only a sparse subset of predictors is truly relevant to the outcome."
+- question: "Ridge regression is the preferred regularization method when you believe primarily a sparse subset of predictors is truly relevant to the outcome."
   type: true-false
   answer: false
   explanation: "This describes the ideal scenario for Lasso, not Ridge. Ridge shrinks all coefficients but keeps every predictor in the model — it never produces a sparse solution. When the true signal is sparse, Ridge assigns small but nonzero coefficients to all irrelevant predictors, adding noise and complicating interpretation. Lasso's automatic variable selection directly suits this scenario. Ridge is preferable when many predictors each contribute small signals and you want to dampen collective noise without eliminating any."

@@ -48,7 +48,7 @@ Use a sports team analogy: carbs are the sprinters (quick energy), protein is th
   answer: 1
   explanation: "Fat is an essential macronutrient. Your body needs it to absorb fat-soluble vitamins (A, D, E, K), to cushion and protect internal organs, and to store energy for when food isn't available. Eliminating all fat would deprive your body of these critical functions. The goal is eating the right types and amounts of fat, not eliminating it entirely."
 
-- question: "Carbohydrates are only found in foods that taste sweet or starchy, like candy and bread."
+- question: "Carbohydrates are primarily found in foods that taste sweet or starchy, like candy and bread."
   type: true-false
   answer: false
   explanation: "Carbohydrates are in many foods that don't taste sweet or obviously starchy. Fruits, vegetables, milk, yogurt, and beans all contain significant carbohydrates. The sugar in milk (lactose) is a carbohydrate, and the fiber in vegetables is also a type of carbohydrate. Carbs are much more widespread in the food supply than most people realize."

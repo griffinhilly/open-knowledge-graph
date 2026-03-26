@@ -58,7 +58,7 @@ Parsing is not merely pattern-matching; successful parsers implement systematic 
   answer: true
   explanation: "CYK runs in O(n³) time, which is polynomial and manageable, but the number of distinct parse trees an ambiguous sentence can have may grow exponentially with sentence length and grammatical ambiguity. For very ambiguous inputs, the chart may fill with exponentially many analyses, making downstream disambiguation and processing expensive. This is the completeness-tractability tradeoff: by exploring all analyses, chart parsers cannot afford to be greedy, and some of the cost is unavoidable."
 
-- question: "Shift-reduce parsing is preferred when complete enumeration of all possible analyses is required, because its linear time complexity makes it fast enough to evaluate every possible parse."
+- question: "Shift-reduce parsing is preferred when complete enumeration of most possible analyses is required, because its linear time complexity makes it fast enough to evaluate most possible parse."
   type: true-false
   answer: false
   explanation: "Shift-reduce parsing is deterministic and greedy — it commits to one analysis at a time and does not systematically enumerate all analyses. Its linear time complexity comes precisely from not exploring alternatives. If complete enumeration is needed (for disambiguation, statistical ranking of parses, or theoretical completeness), chart parsing or another backtracking approach is required. Shift-reduce is preferred for high-throughput applications where speed matters more than guaranteed correctness on garden-path or highly ambiguous sentences."

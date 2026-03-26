@@ -46,7 +46,7 @@ For a nonlinear system y' = f(y), linearize near an equilibrium y* by computing 
   answer: 2
   explanation: "Hyperbolicity — Re(λ) ≠ 0 for all eigenvalues — is the essential condition for the Hartman-Grobman theorem. When satisfied, the nonlinear system near y* is topologically equivalent to the linearized system, so stable nodes, unstable nodes, saddles, and spirals all carry over from the linearization. The condition is local (applies near the equilibrium), not global, so the size of nonlinear terms far from y* is irrelevant. The condition says nothing about the sign of the real parts — saddles and sources (positive real parts) are also hyperbolic, and linearization correctly identifies them as unstable."
 
-- question: "Linearization of a nonlinear system at an equilibrium tells us about the global behavior of the system — whether all solutions throughout the phase plane eventually converge to that equilibrium."
+- question: "Linearization of a nonlinear system at an equilibrium tells us about the global behavior of the system — whether most solutions throughout the phase plane eventually converge to that equilibrium."
   type: true-false
   answer: false
   explanation: "Linearization is strictly a local technique. It approximates the nonlinear vector field near a specific equilibrium using the first-order Taylor expansion (the Jacobian), and the resulting stability classification applies only in a neighborhood of that equilibrium. A system can have a locally stable equilibrium (all nearby solutions converge to it) while having other equilibria that are unstable, or even globally divergent behavior far from y*. Global stability analysis requires different tools — Lyapunov functions, invariant sets, or phase portrait construction."

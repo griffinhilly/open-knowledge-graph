@@ -52,7 +52,7 @@ Ecological stoichiometry examines how elemental ratios (C:N:P) in organisms and 
   answer: true
   explanation: "This is the central practical prediction of ecological stoichiometry. Growth is limited by whichever element is in shortest supply relative to organismal demand. If an ecosystem is phosphorus-limited, adding nitrogen fertilizer accomplishes nothing because organisms cannot use additional nitrogen without sufficient phosphorus to pair it with in proteins and nucleic acids. This explains why nutrient addition experiments sometimes produce no response — and why correct diagnosis of the limiting nutrient is essential before any fertilization strategy."
 
-- question: "If the absolute amount of phosphorus in a lake doubles, primary productivity will always double proportionally."
+- question: "If the absolute amount of phosphorus in a lake doubles, primary productivity will typically double proportionally."
   type: true-false
   answer: false
   explanation: "Productivity depends on the elemental ratio relative to organismal demand, not on absolute quantities. If nitrogen is simultaneously scarce, doubling phosphorus without adding nitrogen shifts which element is limiting but does not proportionally increase productivity. Furthermore, if phosphorus was already in excess relative to the Redfield ratio, doubling it again has no productive effect. Stoichiometric thinking requires ratio analysis, not just counting individual elements."

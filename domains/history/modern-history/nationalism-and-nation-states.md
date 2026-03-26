@@ -48,7 +48,7 @@ Trace concrete case studies: Greek independence (1821), German unification under
   answer: 1
   explanation: "The civic/ethnic distinction is one of the most analytically important in nationalism studies. Civic nationalism (associated with the French revolutionary tradition) holds that anyone who accepts the laws and values of the nation can belong to it. Ethnic nationalism (associated with German Romantic thought) holds that membership is determined by birth, language, or cultural heritage. The distinction has profound implications for how each type treats minorities and immigrants."
 
-- question: "Nation-states are the natural and inevitable form of political organization, which explains why they have gradually replaced all earlier political structures worldwide."
+- question: "Nation-states are the natural and inevitable form of political organization, which explains why they have gradually replaced most earlier political structures worldwide."
   type: true-false
   answer: false
   explanation: "This is a common misconception — often called 'nationalist naturalism.' Nation-states are a historically specific modern construction, not a natural fact. For most of history, political authority was organized around dynasties, city-states, empires, or religious institutions that made no claim to represent a single ethnic or cultural 'people.' The apparent inevitability of the nation-state is itself a product of nationalist ideology."

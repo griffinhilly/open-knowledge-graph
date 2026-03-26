@@ -47,7 +47,7 @@ Set up a single strong light source (a lamp) and draw simple objects — sphere,
   answer: 3
   explanation: "A cast shadow is the shadow projected by an object onto another surface (the table beneath a sphere, the floor beside a cylinder). It is distinct from the form shadow, which is the shadow on the object itself. Cast shadows typically have harder edges near the object and softer edges further away, and their shape is determined by the light source direction and the geometry of the receiving surface."
 
-- question: "Shadows in a well-observed drawing should always be rendered as flat, dark gray areas with no variation in value."
+- question: "Shadows in a well-observed drawing should typically be rendered as flat, dark gray areas with no variation in value."
   type: true-false
   answer: false
   explanation: "This is one of the most common errors in beginner drawings. Shadows contain reflected light — secondary illumination bouncing from surrounding surfaces back into the shadow zone. This means the shadow is not uniformly dark: the core shadow (the area least reached by any light) is darkest, but reflected light lifts the values in the rest of the shadow area. Additionally, shadows often contain color from the surrounding environment."

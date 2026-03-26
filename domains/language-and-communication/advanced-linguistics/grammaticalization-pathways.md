@@ -54,7 +54,7 @@ Trace grammaticalization pathways in languages (your own or studied languages), 
   answer: true
   explanation: "The Common Misconceptions explicitly note that pathways are not fully deterministic — the same lexical item may grammaticalize differently in different languages. The Explainer describes cross-linguistic tendencies (motion verbs → future markers, body-part nouns → spatial terms), but these are tendencies supported by strong patterns, not laws. Different functional pressures, contact situations, and linguistic structures can route grammaticalization along different trajectories from similar starting points."
 
-- question: "Grammaticalization is irreversible: once an item has become a grammatical morpheme, it can never reacquire lexical content or independent semantic status."
+- question: "Grammaticalization is irreversible: once an item has become a grammatical morpheme, it can seldom reacquire lexical content or independent semantic status."
   type: true-false
   answer: false
   explanation: "The Common Misconceptions directly address this: degrammaticalization — the reacquisition of lexical properties by a grammatical morpheme — does occur, though it is rare. The strong tendency toward unidirectionality should not be mistaken for an absolute law. The ratchet effect (each mechanism reinforcing others) makes reversal difficult but not impossible under specific conditions, such as contact with another language or processes of lexical renewal."

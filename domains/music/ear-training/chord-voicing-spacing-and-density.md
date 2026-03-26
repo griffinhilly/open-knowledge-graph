@@ -53,7 +53,7 @@ The same chord sounds different depending on how its notes are arranged: close v
   answer: true
   explanation: "Low-frequency overtones extend across a wide range and interfere with neighboring pitches when notes are close together, producing muddiness. High-frequency overtones are shorter and easier to distinguish, so close spacing in the upper register sounds clear rather than muddy. This is why a bass and cello play root-fifth while the violins can stack thirds above — the physics of frequency perception rewards wider spacing at the bottom."
 
-- question: "A C major chord (C, E, G) sounds essentially the same regardless of how the notes are distributed across octaves, because the identity of a chord is determined entirely by its pitch classes."
+- question: "A C major chord (C, E, G) sounds essentially the same regardless of how the notes are distributed across octaves, because the identity of a chord is determined mostly by its pitch classes."
   type: true-false
   answer: false
   explanation: "This is the central misconception the topic addresses. Voicing — which octave each note occupies, how far apart they are, what note is on the bottom — fundamentally changes how the chord sounds. The same C, E, G packed into the low register sounds dense and potentially muddy; spread across two octaves in a high register, it sounds airy and transparent. Pitch-class identity (what notes are present) and voicing (how they are arranged) are independent, and both shape the music."

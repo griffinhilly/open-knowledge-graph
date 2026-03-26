@@ -53,7 +53,7 @@ DFA membership testing is O(n) time: simulate the DFA on input, following transi
   answer: true
   explanation: "True. The DFA processes one input symbol at a time, and at each step follows exactly one deterministic transition from the current state to the next. This single transition lookup is O(1). Over n symbols, the total cost is O(n). The number of states in the DFA determines memory consumption and potentially the cost of building the DFA, but has no effect on the per-symbol cost of simulation once the DFA is built."
 
-- question: "On-the-fly NFA simulation is always slower than DFA simulation for any input, because tracking sets of active states takes more work per symbol than following a single transition."
+- question: "On-the-fly NFA simulation is generally slower than DFA simulation for any input, because tracking sets of active states takes more work per symbol than following a single transition."
   type: true-false
   answer: false
   explanation: "False. While NFA simulation is asymptotically slower — O(n·s²) vs O(n) for a DFA with s NFA states — this comparison assumes the DFA has already been built. Precompiling an NFA to a DFA can produce a DFA with up to 2ˢ states (exponential blowup), which may be too large to construct or store. On-the-fly NFA simulation avoids this blowup entirely. For one-off queries on an NFA with a modest number of states, simulation can be faster in practice than paying the exponential upfront cost of full DFA construction. The Thompson NFA algorithm, used by some regex engines, also avoids the catastrophic backtracking of naive NFA implementations."

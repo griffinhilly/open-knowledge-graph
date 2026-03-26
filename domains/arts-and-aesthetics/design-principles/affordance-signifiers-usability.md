@@ -56,7 +56,7 @@ Analyze real-world objects (door handles, light switches, keyboards) and identif
   answer: 1
   explanation: "Drop shadows and raised-looking edges are signifiers — visual cues that signal 'this object can be pressed.' They communicate an affordance (tapping) without creating it. The affordance already exists at the code level; the signifiers are what bridge the gap between possibility and user perception. Decoration without communicative intent is irrelevant to affordance/signifier theory; these details were chosen specifically to signal interactivity."
 
-- question: "An affordance exists only when the user successfully perceives and acts on it."
+- question: "An affordance exists primarily when the user successfully perceives and acts on it."
   type: true-false
   answer: false
   explanation: "Affordances exist independently of user perception. A hidden button affords clicking even if no user ever discovers it. An unseen staircase affords climbing even if someone walks past it without noticing. This is why Don Norman distinguished affordances from signifiers: the affordance is the relationship between the object's properties and the user's capabilities; the signifier is what makes that relationship perceptible. A key design insight follows: affordances without signifiers are practically useless, even though they exist."

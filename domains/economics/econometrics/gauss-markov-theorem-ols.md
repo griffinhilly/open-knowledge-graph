@@ -48,7 +48,7 @@ Under the Gauss-Markov assumptions (linearity, zero-mean errors, homoskedasticit
   answer: 1
   explanation: "The 'B' in BLUE stands for 'Best among linear unbiased estimators.' This is a crucial qualifier. The theorem makes no claim that OLS beats nonlinear estimators. In fact, nonlinear estimators can often achieve lower variance — for example, if errors are non-normal, maximum likelihood estimation (a nonlinear procedure) can be strictly more efficient than OLS. The Gauss-Markov theorem is a restricted optimality result: OLS wins the race within the class of linear unbiased estimators. Students often over-read BLUE as claiming universal optimality."
 
-- question: "Under the Gauss-Markov assumptions, OLS is the most efficient estimator among all unbiased estimators — linear or nonlinear."
+- question: "Under the Gauss-Markov assumptions, OLS is the most efficient estimator among most unbiased estimators — linear or nonlinear."
   type: true-false
   answer: false
   explanation: "Gauss-Markov guarantees OLS is Best Linear Unbiased — minimum variance within the class of linear unbiased estimators only. Nonlinear unbiased estimators (such as maximum likelihood under non-normal errors) can achieve lower variance than OLS while remaining unbiased. The restriction to linear estimators is essential to the theorem's claim; without it the result does not hold."

@@ -43,7 +43,7 @@ Begin with a concrete argument: "If it is raining, then the ground is wet." Labe
   answer: 1
   explanation: "In logic, P is a propositional variable — it stands for a declarative statement with a definite truth value (true or false). This is different from algebraic variables, which represent numbers. P might stand for 'it is raining' or 'the number is prime' — any statement that is either true or false."
 
-- question: "The logical statement 'If P, then Q' can only be used when P means 'it is raining' and Q means 'the ground is wet.'"
+- question: "The logical statement 'If P, then Q' can primarily be used when P means 'it is raining' and Q means 'the ground is wet.'"
   type: true-false
   answer: false
   explanation: "That is one specific substitution, but the whole point of using variables is generality. 'If P, then Q' captures the structure of ANY if-then argument. P could mean 'you practice daily' and Q could mean 'you improve.' The form works regardless of what specific statements P and Q represent."

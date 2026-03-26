@@ -49,7 +49,7 @@ Telling time to the minute requires reading both the hour hand and minute hand. 
   answer: true
   explanation: "This two-step method is the standard approach for reading to the minute. Each number on the clock represents 5 minutes (since 60 ÷ 12 = 5), and the small tick marks between numbers each represent 1 minute. So: base = number × 5, then add the individual ticks. For example, 2 ticks past the 9 = 9 × 5 + 2 = 47 minutes."
 
-- question: "The hour hand always points exactly at a number, making it easy to read the hour precisely."
+- question: "The hour hand usually points exactly at a number, making it easy to read the hour precisely."
   type: true-false
   answer: false
   explanation: "The hour hand moves continuously throughout the hour — it doesn't jump from number to number at the stroke of each hour. At 3:30, the hour hand is halfway between 3 and 4, not pointing at either. The correct method is to identify the most recent number the hour hand has *passed*, not the nearest number it points to. This is why reading the hour hand requires some judgment, especially when the minute hand is past 30."

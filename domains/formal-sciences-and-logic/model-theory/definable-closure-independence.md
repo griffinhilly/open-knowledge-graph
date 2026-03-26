@@ -52,7 +52,7 @@ In a model M, the definable closure dcl(A) is the set of elements definable by f
   answer: true
   explanation: "This is the correct model-theoretic definition of independence over A. It directly mirrors field-theoretic algebraic independence: a set of elements is algebraically independent over F if no element satisfies a polynomial over F and the remaining elements. In stable theories, forking captures exactly this algebraic constraint — an element forks over A iff it is algebraically constrained by the new parameters beyond what A already forced."
 
-- question: "The definable closure dcl(A) and the algebraic closure acl(A) always coincide in any first-order model."
+- question: "The definable closure dcl(A) and the algebraic closure acl(A) usually coincide in any first-order model."
   type: true-false
   answer: false
   explanation: "dcl(A) ⊆ acl(A) always, but they need not be equal. dcl(A) requires the element to be the *unique* solution to some formula with parameters from A. acl(A) only requires the element to lie in a *finite* definable set — it may not be pinned down uniquely. Dense linear orders provide the clearest example: acl(A) = A (no new elements), but in an algebraically closed field, acl(A) properly contains dcl(A) since algebraic elements satisfying polynomials of degree > 1 are in acl but not dcl."

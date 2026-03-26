@@ -48,7 +48,7 @@ Type I error (α)=P(reject H₀|H₀ true). Type II error (β)=P(fail to reject|
   answer: true
   explanation: "For a fixed effect size and test design, α and β are linked: reducing one increases the other. Increasing sample size narrows the sampling distributions under both H₀ and H₁, allowing a stricter critical value (lower α) while keeping most of the H₁ distribution in the rejection region (lower β, higher power). Effect size is a property of reality, not a design choice; sample size is the primary lever the experimenter controls for reducing both error rates simultaneously."
 
-- question: "A test with significance level α = 0.01 is more statistically powerful than a test with α = 0.05, all else being equal."
+- question: "A test with significance level α = 0.01 is more statistically powerful than a test with α = 0.05, most else being equal."
   type: true-false
   answer: false
   explanation: "This is exactly backwards. A stricter significance level (α = 0.01) means a smaller rejection region — the critical value is pushed further into the tail. For the same sample size and effect size, more of the H₁ distribution falls in the non-rejection region, so β increases and power (= 1 − β) *decreases*. The test with α = 0.05 has more power. Stricter α makes it harder to reject H₀ — which hurts sensitivity, not helps it."

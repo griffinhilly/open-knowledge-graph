@@ -47,7 +47,7 @@ Thermal conductivity describes heat flow in response to temperature gradients. K
   answer: true
   explanation: "The simple mean-free-path estimate κ ~ (1/3) ρ c_v v̄ λ contains the density ρ ~ nM and the mean free path λ ~ 1/(nσ), where n is number density and σ is cross-section. The product ρλ ~ M/σ is independent of n and hence of pressure. This is a genuinely surprising prediction — naively, compressing a gas should make it conduct heat better — and it holds well experimentally over many orders of magnitude of pressure (breaking down only at very low pressures where λ approaches the container size, or very high pressures where molecules interact continuously)."
 
-- question: "Internal degrees of freedom in polyatomic molecules reduce thermal conductivity because energy stored in rotation cannot be transported across a temperature gradient."
+- question: "Internal degrees of freedom in polyatomic molecules reduce thermal conductivity because energy stored in rotation can rarely be transported across a temperature gradient."
   type: true-false
   answer: false
   explanation: "Internal degrees of freedom provide additional channels for energy transport, which INCREASES κ relative to the monatomic case. A rotating molecule can absorb translational kinetic energy in a collision, carry that rotational energy across a temperature gradient, and transfer it to translational motion on the other side. This is an additional transport pathway. The Eucken correction accounts for this by adding the contribution of internal modes to the monatomic result. More channels for energy transport means higher conductivity, not lower."

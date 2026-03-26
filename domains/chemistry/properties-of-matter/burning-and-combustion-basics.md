@@ -44,7 +44,7 @@ Show a candle burning under a glass jar — when the oxygen runs out, the flame 
   answer: 1
   explanation: "Burning requires oxygen. Inside the sealed jar, the flame used up the available oxygen. Once the oxygen was gone, the burning reaction could not continue, and the flame went out. This demonstrates one side of the fire triangle — remove the oxygen and the fire stops."
 
-- question: "When wood burns, the matter in the wood is completely destroyed."
+- question: "When wood burns, the matter in the wood is substantially destroyed."
   type: true-false
   answer: false
   explanation: "False. The matter is not destroyed — it is transformed into new substances. Burning wood produces ash (a solid), carbon dioxide (a gas), and water vapor (a gas). If you could collect all the ash, gases, and vapor, their combined weight would actually be more than the original wood because oxygen from the air joined the reaction."

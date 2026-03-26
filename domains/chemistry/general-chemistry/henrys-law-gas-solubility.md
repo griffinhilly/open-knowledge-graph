@@ -52,7 +52,7 @@ Henry's law states that the solubility of a gas is directly proportional to the 
   answer: true
   explanation: "Henry's law predicts dissolved concentration based on equilibrium between gas-phase and dissolved-phase molecules. When a gas reacts with water (e.g., HCl → H⁺ + Cl⁻; NH₃ + H₂O → NH₄⁺ + OH⁻), the dissolved molecules are consumed by the chemical reaction and converted to ions, removing them from the dissolved equilibrium. This continuously pulls more gas into solution beyond what the pressure-based equilibrium would predict. The total amount dissolved (as ions plus molecules) greatly exceeds Henry's law predictions, which is why HCl is described as deviating from ideal Henry's law behavior."
 
-- question: "Henry's law states that gas solubility is proportional to total atmospheric pressure, so at high altitude (where total pressure is lower), all dissolved gases in water should be equally reduced."
+- question: "Henry's law states that gas solubility is proportional to total atmospheric pressure, so at high altitude (where total pressure is lower), most dissolved gases in water should be equally reduced."
   type: true-false
   answer: false
   explanation: "Henry's law concerns the partial pressure of the specific gas in question, not total atmospheric pressure. At high altitude, total pressure is lower, but the key quantity for each gas is its own partial pressure (determined by its mole fraction times total pressure). The partial pressure of O₂ at altitude is lower, reducing dissolved oxygen in water — but this is because O₂'s partial pressure dropped, not because total pressure dropped uniformly. Gases whose partial pressures are maintained (e.g., by a pressurized system) are unaffected regardless of ambient atmospheric pressure."

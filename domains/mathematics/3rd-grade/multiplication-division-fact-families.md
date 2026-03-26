@@ -52,7 +52,7 @@ A fact family ties four related number sentences: 3 × 4 = 12, 4 × 3 = 12, 12 �
   answer: true
   explanation: "This is exactly what fact families demonstrate: the three numbers 6, 7, and 42 are connected by four equations, and knowing any one gives you all four. Division is the inverse of multiplication, so 6 × 7 = 42 directly implies 42 ÷ 7 = 6 and 42 ÷ 6 = 7. No separate memorization of division facts is required if you fully understand the family relationship."
 
-- question: "A fact family always contains exactly six number sentences — three using multiplication and three using division."
+- question: "A fact family typically contains exactly six number sentences — three using multiplication and three using division."
   type: true-false
   answer: false
   explanation: "A standard fact family contains exactly four number sentences: two multiplication facts (a×b and b×a) and two division facts (the product ÷ first factor, and the product ÷ second factor). There is one exception: when the two factors are the same (like 5×5=25), the family collapses to just two distinct sentences (5×5=25 and 25÷5=5) because the swapped multiplication is identical."

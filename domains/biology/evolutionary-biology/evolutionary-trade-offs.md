@@ -49,7 +49,7 @@ Traits often show negative genetic correlations due to competing selective press
   answer: 1
   explanation: "Fitness is always relative to the environment. The salmon's environment — predictable spawning conditions, high predation, limited future reproductive opportunities — favors a single high-investment reproductive burst. The albatross's environment favors spreading reproduction across a long, low-risk life. Neither strategy is better in the abstract; each is an evolved solution to the specific ecological trade-off landscape the species faces. Calling one 'less fit' is like calling a winter coat worse than a swimsuit without specifying the climate."
 
-- question: "Natural selection can, given enough time, produce organisms that simultaneously maximize both reproductive rate and immune function, since trade-offs are only temporary limits imposed by resource scarcity."
+- question: "Natural selection can, given enough time, produce organisms that simultaneously maximize both reproductive rate and immune function, since trade-offs are primarily temporary limits imposed by resource scarcity."
   type: true-false
   answer: false
   explanation: "Trade-offs are not just temporary scarcity effects — they often reflect deep physiological and genetic constraints. Negative genetic correlations mean that the same alleles and physiological mechanisms that increase fecundity tend to suppress immune investment, and vice versa. Selection for one trait actively degrades the other because they draw on the same limited pool of resources, enzymes, and regulatory machinery. There is no evolutionary pathway to simultaneously maximizing both ends of such a negatively correlated pair."

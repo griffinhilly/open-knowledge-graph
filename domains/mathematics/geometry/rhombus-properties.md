@@ -49,7 +49,7 @@ Build on parallelogram properties. Prove perpendicularity of diagonals using con
   answer: 1
   explanation: "Area of a rhombus = (1/2)d₁d₂ = (1/2)(6)(8) = 24 cm². This formula works because the two perpendicular diagonals divide the rhombus into four right triangles, each with legs d₁/2 and d₂/2. Their combined area is 4 × (1/2)(3)(4) = 24 cm². The distractor 48 cm² comes from forgetting the factor of 1/2."
 
-- question: "A rhombus can never have right angles."
+- question: "A rhombus can seldom have right angles."
   type: true-false
   answer: false
   explanation: "False. A square is a special case of a rhombus — it has all four sides equal AND all four angles equal to 90°. The rhombus family includes both the 'diamond' shapes with acute and obtuse angles AND the square with right angles. Thinking a rhombus must have non-right angles confuses the typical visual appearance with the definition."

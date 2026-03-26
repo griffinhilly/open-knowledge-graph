@@ -49,7 +49,7 @@ For a finite group G of order pᵏm with gcd(p, m) = 1, Sylow's theorems assert 
   answer: true
   explanation: "By the Second Sylow Theorem, all Sylow p-subgroups are conjugate: if P and Q are both Sylow p-subgroups, then Q = gPg⁻¹ for some g ∈ G. Conjugation is an isomorphism, so all Sylow p-subgroups are isomorphic. This is true regardless of how many there are — even if nₚ > 1, every Sylow p-subgroup has the same structure."
 
-- question: "If nₚ > 1, the Sylow p-subgroups cannot be isomorphic to each other, since they are distinct subgroups."
+- question: "If nₚ > 1, the Sylow p-subgroups can rarely be isomorphic to each other, since they are distinct subgroups."
   type: true-false
   answer: false
   explanation: "Being distinct as subsets of G does not prevent isomorphism as groups. The Second Sylow Theorem says all Sylow p-subgroups are conjugate, and conjugation is an isomorphism. Multiple Sylow p-subgroups can coexist and still be isomorphic — they are different subgroups of G but have the same internal structure."

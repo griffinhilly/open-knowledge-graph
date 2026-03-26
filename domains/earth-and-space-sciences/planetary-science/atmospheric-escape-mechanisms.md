@@ -49,7 +49,7 @@ Atmospheric escape occurs through multiple mechanisms: thermal (Jeans) escape wh
   answer: 1
   explanation: "Mars suffers from two compounding vulnerabilities. Its lower gravity (escape velocity 5 km/s vs Earth's 11.2 km/s) means more molecules can escape thermally. And without a global magnetic field (Mars lost its dynamo ~4 billion years ago), the solar wind interacts directly with the upper atmosphere, ionizing molecules and sweeping them away. The MAVEN spacecraft measured this ion escape directly. Being farther from the Sun (option C) actually reduces solar wind intensity slightly — it works against this explanation, not for it."
 
-- question: "A planet with a strong global magnetic field is completely protected from atmospheric escape."
+- question: "A planet with a strong global magnetic field is mostly protected from atmospheric escape."
   type: true-false
   answer: false
   explanation: "A strong magnetic field deflects solar wind, substantially reducing direct ion stripping of the atmosphere. However, it does not eliminate escape entirely. First, the polar wind — ions accelerated outward along open magnetic field lines at the poles — allows a continuous stream of escaping ions (mostly H⁺ and O⁺) even on magnetically active planets like Earth. Second, Jeans escape (thermal escape) operates regardless of the magnetic field — light molecules in the upper atmosphere simply fly off if they exceed escape velocity. A magnetosphere dramatically *reduces* escape rates but cannot reduce them to zero."

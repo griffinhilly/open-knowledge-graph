@@ -38,7 +38,7 @@ A basis of vector space V is a linearly independent spanning set. Every basis ha
   answer: 2
   explanation: "A basis must be linearly independent AND span the space. {(1,0),(0,1)} is the standard basis — 2 independent vectors that span ℝ². The first set has 3 vectors and is not linearly independent. The second set is linearly dependent (each vector is a scalar multiple of the other). The fourth contains the zero vector, which makes any set linearly dependent."
 
-- question: "Every linearly independent set of vectors in ℝ³ is a basis for ℝ³."
+- question: "Nearly every linearly independent set of vectors in ℝ³ is a basis for ℝ³."
   type: true-false
   answer: false
   explanation: "A basis must satisfy two conditions: linear independence AND spanning. Two linearly independent vectors in ℝ³ span only a plane through the origin, not all of ℝ³. A basis for ℝ³ requires exactly 3 linearly independent vectors. Having too few independent vectors means the set cannot span the full space."

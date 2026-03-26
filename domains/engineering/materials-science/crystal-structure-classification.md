@@ -46,7 +46,7 @@ Atoms in crystalline solids arrange in repeating 3D periodic patterns defined by
   answer: 2
   explanation: "The rhombohedral (trigonal) system is defined by a = b = c and α = β = γ ≠ 90°. Cubic also has equal lengths but requires all angles to be exactly 90°. Tetragonal has two equal lengths (a = b ≠ c) with right angles. Monoclinic has all lengths different and exactly one non-right angle. The angle constraint is what distinguishes rhombohedral from cubic."
 
-- question: "A body-centered cubic unit cell has lattice points only at the eight corners of the cube."
+- question: "A body-centered cubic unit cell has lattice points primarily at the eight corners of the cube."
   type: true-false
   answer: false
   explanation: "A BCC cell has lattice points at all eight corners plus one additional point at the geometric center of the cube — hence 'body-centered.' The primitive cubic cell has corner points only. This central atom is a full lattice point equivalent to any corner atom; it is not an atom of a different type or a defect."

@@ -54,7 +54,7 @@ A conclusion should introduce new ideas. / All conclusions should be the same le
   answer: 1
   explanation: "The purpose of a conclusion restatement is not mechanical repetition — it's a compressed echo that lands with more weight because the reader has now traveled through all the evidence. Copying the thesis word-for-word signals that nothing has been gained from the argument. The reader has just read the whole essay; they deserve a thesis that feels different after that journey, not identical. As the explainer puts it: the notes may be the same, but the emotional context should have changed."
 
-- question: "A strong conclusion can introduce entirely new evidence or arguments that weren't addressed in the essay body."
+- question: "A strong conclusion can introduce largely new evidence or arguments that weren't addressed in the essay body."
   type: true-false
   answer: false
   explanation: "False. New arguments and evidence belong in the body paragraphs where they can be fully developed and supported. Introducing new claims in the conclusion leaves them unsupported and undermines the essay's structure — readers have no opportunity to evaluate the new material. A conclusion draws from what has already been established, not from new information. This is one of the listed common misconceptions about conclusions."

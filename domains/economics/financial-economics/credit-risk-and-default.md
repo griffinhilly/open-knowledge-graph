@@ -54,7 +54,7 @@ Extract implied default probabilities from bond yield spreads and compare to his
   answer: true
   explanation: "Seniority governs the waterfall of claims in bankruptcy: secured senior creditors are paid first (typically recovering 60–80 cents on the dollar), followed by unsecured senior creditors (40–50 cents), then subordinated creditors (20–30 cents), with equity holders often receiving nothing. This ordering is why LGD differs systematically by seniority: higher seniority means lower LGD (higher recovery), which means lower expected loss even at the same PD."
 
-- question: "Market-implied default probabilities are always preferable to historical default rates because they are more accurate and forward-looking."
+- question: "Market-implied default probabilities are typically preferable to historical default rates because they are more accurate and forward-looking."
   type: true-false
   answer: false
   explanation: "Market-implied PD has the advantage of being forward-looking and updating in real time — it reflects current market sentiment about default risk. But it is also volatile, can be distorted by liquidity premiums and risk aversion (spreads can widen due to market fear, not just actual default risk), and requires assumptions about recovery rates to compute. Historical default rates are backward-looking and slower to update, but they are more stable and based on actual observed defaults. Neither is universally superior — analysts use both, recognizing their complementary strengths and limitations."

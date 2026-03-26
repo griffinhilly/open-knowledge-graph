@@ -50,7 +50,7 @@ The medial temporal lobe, including hippocampus, perirhinal cortex, and parahipp
   answer: 1
   explanation: "The perirhinal cortex supports familiarity — the sense that something has been encountered before, without full recollection of context. The hippocampus is more critical for full recollection: reconstructing the context, source, and relational details of an episode. Selective perirhinal damage therefore selectively impairs familiarity-based recognition while leaving hippocampal-dependent recollection relatively intact. This dissociation supports the view that recognition memory has two separable components with distinct neural bases."
 
-- question: "The hippocampus permanently stores all declarative memories; damage to the hippocampus decades after encoding will destroy those old memories."
+- question: "The hippocampus permanently stores most declarative memories; damage to the hippocampus decades after encoding will destroy those old memories."
   type: true-false
   answer: false
   explanation: "Semantic memories (general facts about the world) undergo systems consolidation over months and years, becoming progressively represented in distributed neocortical networks and independent of the hippocampus. Old, well-consolidated semantic memories can survive hippocampal damage largely intact. This explains why H.M.'s earliest childhood memories were relatively preserved despite total hippocampal removal. Episodic memories may remain hippocampus-dependent for longer due to their relational complexity, but even these become more distributed over time. The hippocampus is a binding and indexing system, not permanent storage."

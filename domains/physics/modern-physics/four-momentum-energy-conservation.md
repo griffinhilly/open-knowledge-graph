@@ -58,7 +58,7 @@ Four-momentum is not simply (E, pc⃗) with factors of c inconsistently applied.
   answer: true
   explanation: "Frame invariance is the defining property of a Lorentz scalar, and p_μp^μ = (E/c)² − |p⃗|² is precisely such a scalar. In the rest frame, p⃗ = 0 and E = mc², giving (mc)². In any boosted frame, E and |p⃗| each change but change in exactly the right way to keep the combination constant. This invariance is what makes the 'compute in one frame, equate in another' strategy for threshold calculations valid."
 
-- question: "When four-momentum is conserved in a particle collision, energy conservation and three-momentum conservation are separate, independent conditions that must each be checked."
+- question: "When four-momentum is conserved in a particle collision, energy conservation and three-momentum conservation are separate, independent conditions that is expected to each be checked."
   type: true-false
   answer: false
   explanation: "Conservation of four-momentum is a single four-vector equation p_A^μ + p_B^μ = p_C^μ + p_D^μ, which simultaneously enforces both energy conservation (the time component) and three-momentum conservation (the three spatial components). They are not independent conditions to verify separately — they are components of the same unified law. This unity is one of the main reasons four-vector notation is used: what would otherwise be four separate equations is expressed as one."

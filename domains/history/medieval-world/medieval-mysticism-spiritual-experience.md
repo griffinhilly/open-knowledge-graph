@@ -47,7 +47,7 @@ Medieval mysticism emphasized direct personal experience of the divine through c
   answer: 1
   explanation: "The structural issue was that claiming divine experience is implicitly a claim to spiritual authority — and spiritual authority in the medieval Church was exclusively male by institutional design. A woman who received divine 'showings' (like Julian of Norwich) was asserting a source of religious authority that bypassed the clergy who were supposed to stand between lay people and God. This cut more directly against the institutional order, making scrutiny of women mystics more intense than for their male counterparts."
 
-- question: "Medieval mystics rejected the institutional Church and formed independent spiritual movements based entirely on personal divine experience rather than sacraments or priestly mediation."
+- question: "Medieval mystics rejected the institutional Church and formed independent spiritual movements based mostly on personal divine experience rather than sacraments or priestly mediation."
   type: true-false
   answer: false
   explanation: "False. Most medieval mystics were deeply orthodox and operated within Church structures — in monastic communities, with clerical approval, under theological guidance. Mysticism was not a rejection of institutional religion but a different emphasis within it: interior transformation alongside external observance. Even mystics associated with lay movements (like the Beguines or Devotio Moderna) generally sought Church approval. Those who pushed too far — like Meister Eckhart — were investigated or condemned."

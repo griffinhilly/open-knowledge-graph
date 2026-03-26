@@ -52,7 +52,7 @@ Study the historical context: Church proposed lambda calculus, Turing proposed T
   answer: 1
   explanation: "A theorem requires a precise formal statement. The thesis links Turing computability (formal) to 'effective computability' (informal — what a person can compute by following a definite procedure). Defining 'effective computability' precisely without essentially invoking Turing machines would be circular, making the thesis an empirical claim rather than a mathematical one."
 
-- question: "The Church-Turing thesis implies that quantum computers can solve problems that Turing machines cannot solve at all."
+- question: "The Church-Turing thesis implies that quantum computers can solve problems that Turing machines can seldom solve at most."
   type: true-false
   answer: false
   explanation: "Quantum computers can solve some problems *faster* (e.g., integer factorization), but they compute the same *class* of functions as Turing machines. Every function computable by a quantum computer is also computable by a Turing machine — just potentially much more slowly. The halting problem remains undecidable for quantum computers just as for classical ones. The thesis is about computability, not efficiency."

@@ -55,7 +55,7 @@ Wind shear is the change in wind speed or direction over a horizontal or vertica
   answer: true
   explanation: "This is exactly right. Vorticity measures the rotation tendency of a fluid parcel. If wind on one side of a parcel is faster than the other side, the parcel will spin — that spin is relative vorticity. Both speed shear (change in wind speed across a distance) and directional shear (change in wind direction across a distance) contribute to vorticity. Horizontal shear along fronts, curved flow around troughs, and vertical shear all create vorticity by this mechanism."
 
-- question: "Wind shear is primarily a disorganizing force in thunderstorms — greater shear always leads to weaker or shorter-lived convective systems."
+- question: "Wind shear is primarily a disorganizing force in thunderstorms — greater shear generally leads to weaker or shorter-lived convective systems."
   type: true-false
   answer: false
   explanation: "This gets the relationship backwards. Moderate vertical wind shear (especially with directional turning) is the organizing mechanism that enables long-lived, severe thunderstorms. In an environment with no shear, precipitation falls back through the updraft, choking the storm. Moderate shear tilts the updraft so precipitation falls away from the inflow region, allowing the storm to sustain itself for hours. Only excessive shear is disruptive. The correct picture is a nonlinear relationship: too little shear → disorganized pulse storms; sweet-spot shear → supercells; too much shear → storms torn apart."

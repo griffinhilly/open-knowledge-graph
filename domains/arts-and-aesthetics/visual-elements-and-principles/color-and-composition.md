@@ -47,7 +47,7 @@ Color functions as a powerful compositional tool that affects spatial perception
   answer: 1
   explanation: "A small area of warm, saturated color surrounded by muted, cool tones becomes a powerful focal point — it commands attention far beyond its physical size. This is the color-contrast principle applied to visual hierarchy: the eye is drawn to areas of maximum contrast. Complementary contrast (red-orange against blue-green), warm-cool contrast, and saturation contrast all amplify each other here. This is why artists use a small accent of vivid warm color to establish the primary focal point of an otherwise cool, quiet composition — color hierarchy and spatial hierarchy are different dimensions the artist can use simultaneously."
 
-- question: "In a composition, larger elements always attract the viewer's attention before smaller ones, regardless of color."
+- question: "In a composition, larger elements generally attract the viewer's attention before smaller ones, regardless of color."
   type: true-false
   answer: false
   explanation: "Color can override size as an attention-directing tool. A small area of warm, saturated color surrounded by large areas of muted, cool tones will typically attract the eye before those larger areas. This is why a tiny red figure in a vast grey landscape commands immediate attention — color contrast defeats the size hierarchy. Artists exploit this to direct the viewer's gaze precisely: a large but tonally quiet area can serve as a supporting backdrop while a small but chromatically intense element becomes the primary focal point. Composition controls attention through multiple variables — size is one, but color is often the stronger one."

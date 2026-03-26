@@ -61,7 +61,7 @@ Reading actual cuneiform tablet translations, starting with the mundane (grain t
   answer: true
   explanation: "This rapid expansion illustrates a key insight: once a community possesses a technology for externalized, durable symbolic communication, the range of applications expands quickly beyond the original purpose. Cuneiform was invented for accounting around 3400-3100 BCE; the Epic of Gilgamesh dates to roughly 2100-2000 BCE with older oral traditions behind it. The same wedge-shaped marks that once recorded grain quantities were repurposed for narrative, legal, religious, and royal uses within a few centuries — writing is a cognitive amplifier, not just a record-keeping tool."
 
-- question: "Cuneiform was invented primarily to record religious rituals and communicate with the gods, and was only later adapted for economic record-keeping."
+- question: "Cuneiform was invented primarily to record religious rituals and communicate with the gods, and was primarily later adapted for economic record-keeping."
   type: true-false
   answer: false
   explanation: "This reverses the historical sequence. The earliest cuneiform tablets are accounting documents — grain tallies, livestock counts, labor records. The invention was driven by an administrative need in complex urban economies, not by religious motivation. Religion was certainly important in Sumerian society, but religious and literary texts came after the technology was already established for accounting. The administrative origin of writing is one of the best-documented findings in the archaeology of ancient Near Eastern literacy."

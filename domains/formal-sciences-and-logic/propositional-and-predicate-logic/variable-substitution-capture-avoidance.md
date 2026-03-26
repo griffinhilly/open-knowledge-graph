@@ -63,7 +63,7 @@ Practice substitution on simple formulas, identifying when capture would occur. 
   answer: true
   explanation: "This is the principle of α-equivalence: two formulas that differ only in the names of their bound variables express exactly the same logical content. ∀x P(x) says 'for everything, P holds of it'; ∀z P(z) says exactly the same thing. The bound variable name is a local placeholder — it has no meaning outside its quantifier's scope. α-renaming is the standard tool for avoiding variable capture: by choosing fresh variable names for bound variables, we ensure that free variables in substituted terms cannot be confused with locally bound variables."
 
-- question: "Substituting a ground term (a term with no variables, such as a constant c) for a free variable always risks variable capture."
+- question: "Substituting a ground term (a term with no variables, such as a constant c) for a free variable generally risks variable capture."
   type: true-false
   answer: false
   explanation: "Variable capture only occurs when the term being substituted contains free variables that could be captured by quantifiers in the formula. A ground term contains no variables at all — it cannot be captured by anything, because there is nothing to capture. Substituting the constant c for x in ∃y P(x, y) safely gives ∃y P(c, y), with no capture possible. This is precisely why proof procedures in logic — such as Henkin constructions and tableaux proofs — routinely use fresh constants (witness constants) as substitution terms: ground terms are automatically capture-free."

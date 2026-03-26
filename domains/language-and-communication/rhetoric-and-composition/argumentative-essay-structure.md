@@ -55,7 +55,7 @@ Outline an argumentative essay twice: once with the counterargument early and on
   answer: 1
   explanation: "A hostile audience feels dismissed if you launch immediately into arguments they have already rejected. The Rogerian approach — opening by presenting their position fairly and sympathetically — signals that you are not an adversary but a person who genuinely understands their concern. Only after that trust is established can you introduce your own position credibly. Classical and strongest-first arrangements risk losing hostile readers who disengage as soon as they feel unheard. Structure is audience-facing: the same argument needs different arrangements for different audiences."
 
-- question: "A well-constructed argumentative essay always places the counterargument at the end, after the writer's full case has been built."
+- question: "A well-constructed argumentative essay usually places the counterargument at the end, after the writer's full case has been built."
   type: true-false
   answer: false
   explanation: "There is no universal rule for counterargument placement. Both Classical arrangement (build your case first, then address opposition) and Rogerian arrangement (present the opposing view first to defuse resistance) are legitimate and effective depending on context. Classical works well for neutral or supportive audiences; Rogerian works better for hostile audiences who need to feel heard before engaging with a contrary argument. The choice is a strategic decision based on the claim, the audience, and the stakes — not a fixed convention."

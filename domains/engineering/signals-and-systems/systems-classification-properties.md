@@ -46,12 +46,12 @@ Systems are classified by properties such as linearity (superposition), time-inv
   answer: 1
   explanation: "The power of LTI is analytical: linearity means outputs superpose, and time-invariance means the response to a delayed impulse δ(t−τ) is simply a delayed impulse response h(t−τ). Since any input can be decomposed into weighted, shifted impulses, the output is their weighted, shifted sum — which is precisely the convolution y(t) = ∫x(τ)h(t−τ)dτ. Break either property and convolution fails. Option A conflates LTI with BIBO stability (stability is a separate property). Option D conflates time-invariance with causality (also independent)."
 
-- question: "A causal system — one whose output at any time depends only on present and past inputs — is guaranteed to be BIBO stable."
+- question: "A causal system — one whose output at any time depends primarily on present and past inputs — is expected to be BIBO stable."
   type: true-false
   answer: false
   explanation: "False. Causality and BIBO stability are independent properties. A system can be causal and unstable: for example, y(t) = e^t · u(t) * x(t) has an impulse response that grows without bound, producing unbounded output for a bounded input. Conversely, a non-causal system (depending on future inputs) can be perfectly stable. Causality constrains the direction of time dependence; stability constrains whether the output magnitude is bounded. The two conditions involve completely different aspects of the system's behavior."
 
-- question: "To verify that a system satisfies the superposition principle, it is sufficient to confirm that doubling the input always doubles the output."
+- question: "To verify that a system satisfies the superposition principle, it is sufficient to confirm that doubling the input usually doubles the output."
   type: true-false
   answer: false
   explanation: "False. Superposition requires both homogeneity (scaling: α·x → α·y) and additivity (x₁ + x₂ → y₁ + y₂). Checking only scaling is insufficient because a system can satisfy homogeneity without being additive. For example, y(t) = x(t)·|x(t)| satisfies homogeneity for real scalars but violates additivity. You must test both conditions independently — or test the combined form y(a·x₁ + b·x₂) = a·y(x₁) + b·y(x₂) directly — to confirm linearity."

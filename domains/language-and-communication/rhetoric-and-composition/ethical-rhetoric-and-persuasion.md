@@ -53,7 +53,7 @@ Ethics doesn't mean never using emotion or rhetorical appeals; ethical persuasio
   answer: 2
   explanation: "Ethical persuasion does not ban pathos — it bans disproportionate or misleading emotional appeals. Vivid accounts that accurately represent real harms and are accompanied by evidence are ethical. The emotional response they evoke (concern for those harmed) is proportionate to the facts. Option A is the core misconception: emotional appeals are one of Aristotle's three valid rhetorical tools; the ethics depend on whether they distort or inform judgment."
 
-- question: "Ethical persuasion requires presenting every limitation and counterargument you are aware of."
+- question: "Ethical persuasion requires presenting most limitation and counterargument you are aware of."
   type: true-false
   answer: false
   explanation: "This overstates the requirement. Ethical persuasion requires not deceiving through selective emphasis — but that is different from exhaustively cataloging every possible objection. Selectivity in emphasis is ethical as long as what is omitted would not materially change the audience's ability to judge the core claim. The requirement is non-deception and respect for audience autonomy, not completeness."

@@ -49,7 +49,7 @@ Seismic ray tracing uses Snell's law and geometric principles to predict the pat
   answer: 2
   explanation: "p = sin(θ)/v; a small p means a small takeoff angle θ (steep departure from vertical). A steeply departing ray penetrates deeply before curving back, traveling greater horizontal distance and arriving at a far station. A large p means a large takeoff angle (shallow departure), so the ray stays in shallow crust and arrives nearby. This is counterintuitive — steep launch angle means greater distance traveled, the opposite of a projectile in uniform gravity."
 
-- question: "A seismic shadow zone — a region of the surface that receives no direct seismic waves from a distant earthquake — forms because seismic velocity increases sharply at a boundary, refracting all rays away from that region."
+- question: "A seismic shadow zone — a region of the surface that receives no direct seismic waves from a distant earthquake — forms because seismic velocity increases sharply at a boundary, refracting most rays away from that region."
   type: true-false
   answer: false
   explanation: "Shadow zones form where velocity decreases (or drops suddenly), not increases. When rays enter a region of lower velocity, they refract toward the vertical (the low-velocity zone acts like a lens that bends rays inward), leaving a gap on the surface where no direct rays emerge. The classic example is the P-wave shadow zone caused by the sudden drop in velocity at the core-mantle boundary, where seismic energy enters the liquid outer core and bends, creating a shadow zone between about 103° and 143° from the earthquake source."

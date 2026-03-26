@@ -53,7 +53,7 @@ If T is an unbiased estimator of θ and S is a sufficient statistic, then φ = E
   answer: true
   explanation: "This follows directly from the variance decomposition: Var(T) = Var(E[T|S]) + E[Var(T|S)]. Since E[Var(T|S)] ≥ 0, we have Var(E[T|S]) ≤ Var(T). Equality holds when T is already a function of S — when no irrelevant noise exists to remove. This is the core guarantee of the Rao-Blackwell theorem."
 
-- question: "The Rao-Blackwell theorem guarantees that conditioning any unbiased estimator on a sufficient statistic always produces the UMVUE."
+- question: "The Rao-Blackwell theorem guarantees that conditioning any unbiased estimator on a sufficient statistic usually produces the UMVUE."
   type: true-false
   answer: false
   explanation: "Rao-Blackwellization guarantees an improvement (or no change) in variance, but the result is the UMVUE only when the sufficient statistic is also complete. The Lehmann-Scheffé theorem provides the extra step: if the sufficient statistic is complete, then any unbiased function of it is the unique UMVUE. Without completeness, the conditioned estimator may be improvable further, and multiple different unbiased functions of S with different variances could exist."

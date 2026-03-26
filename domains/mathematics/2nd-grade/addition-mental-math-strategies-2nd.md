@@ -52,7 +52,7 @@ Mental math strategies for addition include making tens, counting on, breaking a
   answer: true
   explanation: "Correct — the strategy exploits the base-10 structure of our number system. Multiples of ten are easy to add to anything because you simply increase the tens digit. By bridging to a multiple of ten first, you reduce the second step to adding to a number that ends in zero, which is straightforward."
 
-- question: "When using the 'breaking apart' strategy, you must split both addends by place value before adding."
+- question: "When using the 'breaking apart' strategy, you should split both addends by place value before adding."
   type: true-false
   answer: false
   explanation: "You can split just one number and leave the other intact. For example, to add 47 + 25, you might think '47 + 20 = 67, then 67 + 5 = 72' — only decomposing 25. Breaking apart both numbers is valid but not required. The strategy is flexible: decompose as much or as little as makes the calculation easier."

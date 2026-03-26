@@ -44,7 +44,7 @@ Build up from Bohr (n only) to include ℓ (angular momentum quantization from s
   answer: 2
   explanation: "ℓ ranges from 0 to n−1 inclusive. For n = 3, the allowed values are ℓ = 0, 1, 2 — three values. The common error is allowing ℓ = n = 3, but the constraint is ℓ ≤ n−1. Each value of ℓ corresponds to a subshell: s (ℓ=0), p (ℓ=1), d (ℓ=2)."
 
-- question: "In hydrogen, knowing the principal quantum number n is sufficient to completely specify the electron's quantum state."
+- question: "In hydrogen, knowing the principal quantum number n is sufficient to mostly specify the electron's quantum state."
   type: true-false
   answer: false
   explanation: "n determines the energy level of hydrogen, but specifying the quantum state requires all four quantum numbers: n, ℓ, m_ℓ, and m_s. For n = 2 alone, there are 8 distinct states: the ℓ=0 subshell has 1 orbital × 2 spin states = 2; the ℓ=1 subshell has 3 orientations (m_ℓ = −1, 0, +1) × 2 spin states = 6. Total: 8 states all sharing the same energy in hydrogen."

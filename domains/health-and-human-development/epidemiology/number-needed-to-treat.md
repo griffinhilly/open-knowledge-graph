@@ -44,7 +44,7 @@ Number needed to treat (NNT) is the reciprocal of attributable risk in a trial: 
   answer: 2
   explanation: "NNT scales inversely with baseline risk. If the trial population had twice the event rate of her patients, the ARR will be roughly half as large, and NNT will roughly double. The drug's relative risk reduction may be identical, but the absolute benefit — how many patients you must treat to prevent one event — is far less efficient at lower baseline risk. Applying a published NNT uncritically to a different population is a systematic error in clinical reasoning."
 
-- question: "An NNT of 5 is always more clinically significant than an NNT of 50."
+- question: "An NNT of 5 is typically more clinically significant than an NNT of 50."
   type: true-false
   answer: false
   explanation: "NNT must be interpreted in context: it depends on the severity of the outcome prevented, the duration of treatment, and the NNH for adverse effects. An NNT of 5 for preventing mild indigestion is far less significant than an NNT of 50 for preventing fatal stroke. Additionally, comparing NNT to NNH — the likelihood of being helped vs. harmed (LHH = NNH/NNT) — is the relevant clinical calculation, not the NNT alone."

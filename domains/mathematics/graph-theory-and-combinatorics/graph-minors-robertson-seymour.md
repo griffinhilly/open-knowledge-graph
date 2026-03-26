@@ -45,7 +45,7 @@ Compute minors by hand for small graphs, understanding how deletions and contrac
   answer: 2
   explanation: "Subdivision splits an edge by inserting a new vertex along it — it can only make the graph larger. Edge contraction, the key operation in the minor definition, merges two adjacent vertices into one and removes duplicate edges — it reduces the graph. This asymmetry is crucial: minors can be smaller than the original graph in fundamental ways, not just topologically refined. Wagner's theorem uses minors (not subdivisions) precisely because the extra power of contraction captures planarity more cleanly."
 
-- question: "Before the Robertson–Seymour theorem, it was already well understood that every minor-closed graph family must have a finite forbidden minor characterization."
+- question: "Before the Robertson–Seymour theorem, it was already well understood that nearly every minor-closed graph family should have a finite forbidden minor characterization."
   type: true-false
   answer: false
   explanation: "This is exactly what the theorem proved — and it was not obvious beforehand. There could in principle have been minor-closed families requiring infinitely many forbidden minors, making finite characterization impossible. Planarity was known to have a finite characterization (K₅ and K₃,₃ forbidden minors) by Kuratowski's theorem, but this was a special case, not a general principle. Robertson and Seymour's proof that the minor relation is a well-quasi-order on all graphs was a genuinely surprising and deep result."

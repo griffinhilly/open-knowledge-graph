@@ -54,7 +54,7 @@ Trace evolutionary tracks on the HR diagram for stars of 0.5, 1, 5, and 10 solar
   answer: 2
   explanation: "The threshold is approximately 8 solar masses. Below this, stars cannot ignite carbon fusion; electron degeneracy pressure halts collapse after the helium-burning phase, and the star ends as a white dwarf surrounded by a planetary nebula. Above this threshold, successive fusion stages proceed until iron accumulates in the core, at which point degeneracy pressure fails and the core collapses catastrophically."
 
-- question: "The Sun will eventually explode as a supernova because all stars end their lives in a supernova explosion."
+- question: "The Sun will eventually explode as a supernova because most stars end their lives in a supernova explosion."
   type: true-false
   answer: false
   explanation: "Only stars above roughly 8 solar masses end in supernovae. The Sun (1 solar mass) will exhaust its core hydrogen, expand into a red giant, expel its outer layers as a planetary nebula, and leave behind a white dwarf. This is a common misconception; the term 'stellar death' is dramatic but the Sun's fate is comparatively gentle."

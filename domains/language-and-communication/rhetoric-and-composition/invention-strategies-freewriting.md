@@ -53,7 +53,7 @@ Practice multiple invention techniques on the same topic and observe which gener
   answer: 2
   explanation: "Questioning strategies are designed precisely for this situation: a writer with a topic but no angle. By systematically asking who, what, why, and how, the writer locates what she doesn't yet know — and that gap is where an argument lives. Freewriting generates material but doesn't target the gap. Clustering maps what she already knows. Role-playing builds counter-arguments, which is useful but a later-stage technique. Questioning targets the exact problem: finding the live controversy within a topic she already understands."
 
-- question: "Freewriting is only useful for inexperienced writers who struggle to think of ideas; skilled writers don't need it because they can think clearly before writing."
+- question: "Freewriting is mainly useful for inexperienced writers who struggle to think of ideas; skilled writers don't need it because they can think clearly before writing."
   type: true-false
   answer: false
   explanation: "The internal critical voice that freewriting bypasses blocks writers at all skill levels. Experienced writers frequently use freewriting to break through blocks, discover unexpected angles, and externalize thinking before drafting. The misconception arises from conflating 'can generate ideas' with 'generates ideas without interference from the critic.' Even highly experienced writers benefit from separating production from evaluation — it's not a remedial technique."

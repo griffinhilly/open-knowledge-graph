@@ -59,7 +59,7 @@ Start with circuits having one or two combinations. Draw the circuit, identify s
   answer: true
   explanation: "This is the defining property of a parallel connection: all elements in parallel share the same two nodes, so the same potential difference (voltage) appears across every branch. This is why parallel branches are analyzed voltage-first — you find the voltage across the equivalent parallel resistance, then use V = IR to find the individual branch currents. The complementary property for series connections is that all elements carry the same current — current-first analysis applies there."
 
-- question: "Every resistor network, no matter how complex, can be fully analyzed by identifying and combining series and parallel sub-groups step by step."
+- question: "Most resistor network, no matter how complex, can be fully analyzed by identifying and combining series and parallel sub-groups step by step."
   type: true-false
   answer: false
   explanation: "Some networks cannot be decomposed into series-parallel combinations at all. The Wheatstone bridge (a diamond configuration with a resistor across the middle) is the classic example — none of the five resistors are in pure series or parallel with any other. Such 'ladder' or 'bridge' networks require Kirchhoff's voltage law (KVL) and current law (KCL) — or more advanced techniques like node-voltage or mesh-current analysis. Series-parallel reduction works for tree-like networks but breaks down for networks with loops that don't simplify."

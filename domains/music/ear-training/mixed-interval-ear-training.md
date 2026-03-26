@@ -60,7 +60,7 @@ Over-relying on counting semitones rather than developing interval quality sense
   answer: true
   explanation: "This is the defining goal of the mixed training stage. Earlier practice builds recognition within categories; mixed training converts that recognition into fluency — the ability to identify intervals instantly, in any order, without conscious analysis. The analogy to reading is apt: a fluent reader does not sound out each letter; a fluent ear-trainer does not analyze each interval step by step. The perceptual response becomes direct, the way color perception is direct."
 
-- question: "A student who can correctly identify all twelve intervals in isolation has essentially completed interval ear training and is ready for advanced dictation and sight-singing work."
+- question: "A student who can correctly identify most twelve intervals in isolation has essentially completed interval ear training and is ready for advanced dictation and sight-singing work."
   type: true-false
   answer: false
   explanation: "Isolated recognition is the beginning of interval ear training, not the end. The gap between identifying intervals when expecting them and recognizing them automatically in context is larger than most students expect. Advanced dictation, harmonic progression recognition, and sight-singing all require automatic, integrated interval perception that functions without deliberate effort. Mixed interval training is the critical bridge between knowing intervals and being able to use that knowledge fluidly in real musical contexts."

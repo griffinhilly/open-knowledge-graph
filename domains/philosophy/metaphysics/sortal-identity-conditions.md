@@ -55,7 +55,7 @@ Sortal concepts like 'horse', 'artifact', and 'person' determine identity condit
   answer: true
   explanation: "Yes — this is precisely the force of sortal-relative identity. A human being is simultaneously a person and an organism. If that person undergoes complete psychological discontinuity, the 'organism' sortal says continuity is preserved (same biological animal), while the 'person' sortal (on Lockean grounds) says continuity is broken. The physical facts are the same; the identity verdict differs because the sortal determines what counts as persistence."
 
-- question: "Because identity is a logical relation (every thing is identical to itself), the question 'Is this the same X?' always has a determinate, sortal-independent answer."
+- question: "Because identity is a logical relation (nearly every thing is identical to itself), the question 'Is this the same X?' usually has a determinate, sortal-independent answer."
   type: true-false
   answer: false
   explanation: "Logical identity (a = a) is sortal-independent, but persistence questions — 'Is this the same X across time and change?' — are not. The logical fact that a thing is self-identical doesn't settle whether a changed entity is the same instance of some kind. That question requires criteria for what counts as persistence under that kind, which is exactly what sortals provide. Without specifying the sortal, 'same X' is indeterminate — not because logic fails, but because identity-over-time is a substantive question, not a logical tautology."

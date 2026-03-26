@@ -65,7 +65,7 @@ Follow the beta-oxidation cycle step-by-step, calculating ATP yield per fatty ac
   answer: true
   explanation: "This is physiologically accurate and represents an important adaptive role of ketogenesis. After several days of fasting, the brain can derive up to 70% of its energy from beta-hydroxybutyrate and acetoacetate. Since the brain cannot use fatty acids directly, it would otherwise require continuous glucose production (via gluconeogenesis from amino acids — i.e., muscle breakdown). Ketones are a brain-accessible alternative that spares muscle protein. This is why prolonged fasting does not cause catastrophic protein loss as quickly as one might predict."
 
-- question: "Ketone body production indicates incomplete or pathological fat oxidation; under normal circumstances, fatty acids are always fully oxidized to CO₂ and water."
+- question: "Ketone body production indicates incomplete or pathological fat oxidation; under normal circumstances, fatty acids are generally fully oxidized to CO₂ and water."
   type: true-false
   answer: false
   explanation: "Ketogenesis is a normal, adaptive metabolic process during fasting, prolonged exercise, or carbohydrate restriction — not a sign of metabolic failure. Ketone bodies (acetoacetate, beta-hydroxybutyrate) are efficient, water-soluble fuels exported from the liver and used by peripheral tissues. The pathological form is diabetic ketoacidosis (DKA), which involves extreme, unregulated ketone overproduction due to absent insulin. But physiological ketosis is a healthy adaptation. The misconception that 'fats must burn to CO₂ or something is wrong' confuses the two."

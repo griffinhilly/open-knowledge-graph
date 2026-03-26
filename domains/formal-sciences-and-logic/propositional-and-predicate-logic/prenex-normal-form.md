@@ -52,7 +52,7 @@ A first-order formula is in prenex normal form (PNF) if all quantifiers are pull
   answer: true
   explanation: "True. There are systematic equivalences (prenex laws) for migrating each quantifier outward through every logical connective: through ∧, ∨, ¬, and →, with alpha-renaming applied whenever a variable conflict would arise. These rules can be applied repeatedly until all quantifiers reach the front. The resulting PNF formula is logically equivalent to the original (not just equisatisfiable — it has the same truth value in every interpretation)."
 
-- question: "A formula in prenex normal form whose prefix consists entirely of universal quantifiers (∀x ∀y ∀z ...) is logically equivalent to one whose prefix consists entirely of existential quantifiers, as long as the matrix is the same."
+- question: "A formula in prenex normal form whose prefix consists mostly of universal quantifiers (∀x ∀y ∀z ...) is logically equivalent to one whose prefix consists mostly of existential quantifiers, as long as the matrix is the same."
   type: true-false
   answer: false
   explanation: "False — the quantifier type profoundly changes the formula's meaning. ∀x P(x) asserts P holds for every element of the domain; ∃x P(x) asserts it holds for at least one. These have opposite truth conditions and cannot be made equivalent by changing only the prefix. The alternation pattern (which quantifiers are ∀ and which are ∃) determines the logical content of the formula and its position in the arithmetical hierarchy."

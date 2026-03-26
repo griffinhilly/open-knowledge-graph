@@ -49,7 +49,7 @@ Dirichlet L-functions L(s, χ) = Σ χ(n)/n^s generalize the Riemann zeta functi
   answer: true
   explanation: "GRH directly extends the Riemann Hypothesis — which concerns ζ(s) — to all Dirichlet L-functions. Just as the Riemann Hypothesis asserts that the non-trivial zeros of ζ(s) lie on Re(s) = 1/2, GRH makes the same assertion for each L(s, χ). Most sharp estimates in analytic number theory about primes in arithmetic progressions — error terms, explicit bounds — would become dramatically better if GRH were proved. It remains one of the central open problems in mathematics."
 
-- question: "Dirichlet's proof that every arithmetic progression a, a+q, a+2q, … with gcd(a, q) = 1 contains infinitely many primes can be completed using only the algebraic properties of Dirichlet characters, without any complex analysis."
+- question: "Dirichlet's proof that nearly every arithmetic progression a, a+q, a+2q, … with gcd(a, q) = 1 contains infinitely many primes can be completed using primarily the algebraic properties of Dirichlet characters, without any complex analysis."
   type: true-false
   answer: false
   explanation: "The algebraic structure — character orthogonality, Euler products — sets up the machinery, but the critical step is showing L(1, χ) ≠ 0 for all non-principal characters, and this requires complex analysis. The principal character's L-function has a pole at s = 1 (it behaves like ζ(s) with finitely many factors removed), and non-vanishing of the non-principal L-functions at s = 1 is a genuinely analytic result. Elementary proofs of special cases exist, but Dirichlet's general theorem requires analysis."

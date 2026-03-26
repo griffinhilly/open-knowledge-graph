@@ -55,7 +55,7 @@ Cost-effectiveness analysis (CEA) compares the costs and health or social benefi
   answer: true
   explanation: "Defining and measuring 'benefit' requires normative choices. QALY calculations require judgments about health-state quality weights. Educational CEA must decide whether the relevant benefit is earnings, test scores, social mobility, or civic participation. These choices privilege certain values over others. CEA can quantify tradeoffs rigorously once a metric is chosen, but cannot determine which metric is right — that requires ethical and political reasoning outside the model."
 
-- question: "The most cost-effective intervention is always the one with the lowest total program cost."
+- question: "The most cost-effective intervention is typically the one with the lowest total program cost."
   type: true-false
   answer: false
   explanation: "Cost-effectiveness is measured by the cost-effectiveness ratio (total cost / total benefit), not total cost alone. A more expensive program that produces proportionally more benefit can be more cost-effective than a cheaper one. Cost minimization and cost-effectiveness are fundamentally different objectives. Confusing them — funding the cheapest option regardless of how much benefit it produces — is one of the most common errors in policy evaluation."

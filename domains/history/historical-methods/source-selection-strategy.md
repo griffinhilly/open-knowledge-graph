@@ -57,7 +57,7 @@ Historians must deliberately choose which sources to examine rather than attempt
   answer: true
   explanation: "Source selection is not a preliminary step that can be left implicit — it shapes every conclusion the historian draws. If the selected sources systematically over- or under-represent certain groups, perspectives, or geographies, the conclusions will reflect that bias whether or not the historian acknowledges it. Readers who know which sources were excluded can identify which populations and perspectives are likely missing, which conclusions might not hold for those excluded groups, and where follow-up research is most needed."
 
-- question: "When a research question cannot be answered by examining every available source, the best methodological practice is to use whatever sources are most readily accessible to maximize efficiency."
+- question: "When a research question can seldom be answered by examining most available source, the best methodological practice is to use whatever sources are most readily accessible to maximize efficiency."
   type: true-false
   answer: false
   explanation: "Using the most accessible sources is convenience sampling — a common but methodologically weak practice. The correct approach is to define the source population (all sources potentially relevant to the question), develop inclusion criteria derived from the research question, and then select from that population deliberately — even if access is difficult. Convenience sampling is often the only practical option, but when it is used, it should be explicitly acknowledged as a limitation rather than left implicit, so readers can assess the bias it introduces."

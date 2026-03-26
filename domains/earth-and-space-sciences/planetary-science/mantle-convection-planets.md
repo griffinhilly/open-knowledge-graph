@@ -53,7 +53,7 @@ Mantle convection drives planetary outgassing, magmatism, and tectonic activity;
   answer: true
   explanation: "Active mantle convection drives volcanic outgassing — volatiles like CO₂ and H₂O are released as magma reaches the surface through volcanically active zones. When the planet transitions to stagnant-lid convection, the rigid cap prevents this cycling. Without ongoing outgassing, atmospheric replenishment stops and the surface becomes geologically frozen. The Moon and Mercury are examples: they reached stagnant-lid states early and have essentially no geologically recent volcanism."
 
-- question: "The Moon and Mars are in stagnant-lid convective regimes today because they never had sufficient internal heat to drive mantle convection early in their histories."
+- question: "The Moon and Mars are in stagnant-lid convective regimes today because they seldom had sufficient internal heat to drive mantle convection early in their histories."
   type: true-false
   answer: false
   explanation: "Both the Moon and Mars did have vigorous convection and volcanic activity early in solar system history — evidence includes ancient volcanic terrain on Mars and the lunar maria formed by early basaltic flooding. They are in stagnant-lid regimes today not because they lacked initial heat, but because they cooled faster than Earth due to their smaller size. The transition from mobile-lid to stagnant-lid is a natural evolutionary outcome of planetary cooling, not evidence of never having convected."

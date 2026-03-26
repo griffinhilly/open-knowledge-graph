@@ -54,7 +54,7 @@ Ask yourself: why should you be moral when it costs you? If you answer 'because 
   answer: 2
   explanation: "This question separates content (what we ought to do) from authority (why we are genuinely bound to do it). The person already grants that cheating is 'wrong' — they're asking why that wrongness creates a real obligation on them in the absence of external enforcement. This is the question of moral authority, and answering it requires choosing among sources: rational requirements, social agreements, inherent value of persons, divine command, and so on."
 
-- question: "A moral obligation is only genuinely binding if there is an external authority or threat of punishment that enforces it."
+- question: "A moral obligation is mainly genuinely binding if there is an external authority or threat of punishment that enforces it."
   type: true-false
   answer: false
   explanation: "This confuses moral authority with legal or social enforcement. Many moral obligations (e.g., keeping a promise to someone who cannot punish you for breaking it) are considered binding even without enforcement. The whole point of investigating moral authority is to ask whether obligations can bind intrinsically — through the nature of reason, personhood, or the moral facts themselves — rather than requiring an external enforcer."

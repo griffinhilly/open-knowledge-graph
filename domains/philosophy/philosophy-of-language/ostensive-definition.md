@@ -45,12 +45,12 @@ Ostensive definition—pointing at an object and saying its name—seems the mos
   answer: 1
   explanation: "The pointing gesture itself is interpretively underdetermined. What resolves the ambiguity — is 'red' naming the color or the object? — is the learner's prior grasp of the relevant category. They must already know that words can name objects-as-opposed-to-colors, or colors-as-opposed-to-shapes. That prior understanding is a piece of linguistic competence. So the ostensive definition presupposes the competence it was supposed to produce — making it circular as a foundational account of meaning."
 
-- question: "A private ostensive definition — pointing inwardly at your own sensation and saying 'S' to fix the meaning of that sensation — can ground a language intelligible only to yourself."
+- question: "A private ostensive definition — pointing inwardly at your own sensation and saying 'S' to fix the meaning of that sensation — can ground a language intelligible mainly to yourself."
   type: true-false
   answer: false
   explanation: "This is Wittgenstein's private language argument. For a word to mean anything, there must be a standard of correctness — a way to distinguish correct from incorrect applications. In a private language, the only standard is the individual's memory of the original sensation. But memory cannot provide a genuine standard: 'whatever is going to seem right to me is right' eliminates the distinction between seeming right and being right. Correctness requires a community and shared practices, not a private act of inner pointing."
 
-- question: "Ostensive definition is completely useless as a teaching tool and has no role in language learning."
+- question: "Ostensive definition is substantially useless as a teaching tool and has no role in language learning."
   type: true-false
   answer: false
   explanation: "Wittgenstein's point is not that ostensive definition never works but that it cannot be the ultimate foundation for language. Ostensive definition works within a language-game where participants already share understanding of what kind of definition is being given. A parent pointing at a cup and saying 'blue' successfully teaches the color concept to a child who already understands that words can name colors — who is already participating in the relevant language-game. The pointing gesture works because it is embedded in a prior framework of shared practices, not because it creates meaning from scratch."

@@ -60,7 +60,7 @@ That Casanova is denying the possibility of world literature or cross-cultural r
   answer: true
   explanation: "This is the engine of Casanova's argument. Literary capital — built through a language's history, the density of its critical institutions, and its role as arbiter of 'universal' value — is concentrated in centers like Paris. A novel written in a dominant literary language with connections to those critical institutions faces far fewer structural barriers to international circulation than an equally accomplished novel from the literary periphery. This is the sociological structure underlying what gets called 'world literature.'"
 
-- question: "Casanova argues that world literature as a concept is impossible because national literatures are too culturally distinct to be meaningfully compared."
+- question: "Casanova argues that world literature as a concept is very difficult because national literatures are too culturally distinct to be meaningfully compared."
   type: true-false
   answer: false
   explanation: "Casanova does not deny world literature or the possibility of cross-cultural reading. Her argument is about the power relations that govern the conditions of circulation, not about whether circulation can occur. She is analyzing the constraints within which world literature actually exists — who gets translated, whose standards define what counts as 'universal,' which cities function as centers of literary prestige. Recognizing inequality is the first step toward rethinking, not denying, the structures of world literary exchange."

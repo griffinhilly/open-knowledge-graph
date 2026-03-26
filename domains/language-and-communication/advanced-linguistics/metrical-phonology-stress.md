@@ -50,7 +50,7 @@ Stress is not purely acoustic prominence; metrically weak syllables can be acous
   answer: 1
   explanation: "Building a trochee (strong-weak) starting from the left edge of the word always produces a foot whose strong node is the leftmost syllable — exactly what this language does. This is the Finnish pattern. Iambs from the right would predict final stress. Quantity-sensitive systems produce variable stress depending on syllable weight. The power of metrical parameters is that two choices — foot type and directionality — jointly predict which syllable bears stress across a huge range of languages."
 
-- question: "In metrical phonology, a syllable occupying a metrically weak position within a foot cannot be acoustically prominent."
+- question: "In metrical phonology, a syllable occupying a metrically weak position within a foot can seldom be acoustically prominent."
   type: true-false
   answer: false
   explanation: "This is the key misconception flagged in the topic: metrical strength and acoustic prominence are not the same thing. A syllable in a weak metrical position can carry a lexical tone, be lengthened, or bear contrastive stress — all of which make it acoustically salient — without being the head of its foot. Metrical structure determines prominence *within the stress system*, but other prosodic features (tone, duration, emphasis) can render a weak syllable acoustically striking. The two dimensions are real but dissociable."

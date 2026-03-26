@@ -50,7 +50,7 @@ A basis for a topology is a collection of open sets such that every open set is 
   answer: true
   explanation: "This analogy is precise and useful. Just as every vector is a linear combination of basis vectors, every open set is a union of basis elements. Neither the topology nor the vector space needs to be specified element-by-element once a basis is given — the basis determines it completely. The analogy helps explain why bases are so useful: working with a few well-chosen generating sets is far more tractable than the full structure."
 
-- question: "In a metric space, every open set in the metric topology is an open ball B(x, r) for some center x and radius r."
+- question: "In a metric space, nearly every open set in the metric topology is an open ball B(x, r) for some center x and radius r."
   type: true-false
   answer: false
   explanation: "Open balls form a BASIS for the metric topology, meaning every open set is a union of open balls — but most open sets are not themselves open balls. For example, in ℝ with the Euclidean metric, (0,1) ∪ (2,3) is open (it is a union of open intervals, which are open balls in ℝ) but is not itself a single open interval. Confusing 'basis element' with 'open set' is one of the most common errors when first learning topology."

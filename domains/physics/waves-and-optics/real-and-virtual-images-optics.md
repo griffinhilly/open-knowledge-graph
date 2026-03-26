@@ -49,7 +49,7 @@ Real images form where light rays converge after refraction/reflection—they ca
   answer: true
   explanation: "True — and this surprises many students. Your eye does not require light to physically converge before reaching it; it receives diverging rays and uses its lens to focus them onto the retina. When you look at a virtual image (say, through a magnifying glass), diverging rays exit the glass and enter your eye, which automatically traces them backward to their apparent point of origin. The brain interprets this as a source at that location. A bathroom mirror produces a virtual image that you see clearly, even though placing a screen at the image location behind the mirror would show nothing."
 
-- question: "Real images are always larger than the object that produced them."
+- question: "Real images are typically larger than the object that produced them."
   type: true-false
   answer: false
   explanation: "False. Real images can be larger, smaller, or the same size as the object, depending on the object's distance from the lens or mirror. A camera produces a real image on its sensor that is much smaller than the scene being photographed. A projector produces a real image on a screen that is much larger than the film slide. What distinguishes real images is not their size but that they are inverted and that light physically converges at the image location. Magnification can be any negative value (inverted, real image); the magnitude can be greater or less than 1."

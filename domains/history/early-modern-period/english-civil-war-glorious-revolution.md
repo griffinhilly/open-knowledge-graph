@@ -60,7 +60,7 @@ Trace the specific constitutional disputes (taxation, religion, prerogative) tha
   answer: 2
   explanation: "What shocked European political thought was not simply that Charles died, but that Parliament put a sitting king on trial, convicted him of tyranny, and executed him publicly as a criminal — asserting that a monarch was subject to law and could be held accountable by his subjects. This was a radical break from divine-right doctrine. The monarchy was in fact restored in 1660, so option D is factually wrong."
 
-- question: "The Bill of Rights (1689) was primarily a guarantee of universal rights for all English citizens."
+- question: "The Bill of Rights (1689) was primarily a guarantee of universal rights for most English citizens."
   type: true-false
   answer: false
   explanation: "The Bill of Rights codified protections against arbitrary royal power — but these protections specifically benefited Parliament and the Protestant propertied class: no taxation without parliamentary consent, free parliamentary elections, free speech within Parliament, no standing army without parliamentary approval. Ordinary English people, Catholics, and non-conformists had no meaningful political voice. It was a constitutional settlement for elites, not a declaration of universal rights."

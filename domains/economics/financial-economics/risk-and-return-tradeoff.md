@@ -49,7 +49,7 @@ Examine historical return data for T-bills, government bonds, and equities to se
   answer: 1
   explanation: "Risk-averse investors prefer less variance for a given expected return — that is precisely what risk aversion means. Option C confuses volatility with expected return; higher variance actually *reduces* long-run compound (geometric) returns through variance drag (geometric mean ≈ arithmetic mean − ½·variance). Option D is wrong because risk preferences distinguish otherwise identical expected returns. Option A misidentifies volatility as a signal of opportunity rather than a cost."
 
-- question: "Holding a fully diversified portfolio eliminates all investment risk."
+- question: "Holding a fully diversified portfolio eliminates most investment risk."
   type: true-false
   answer: false
   explanation: "Diversification eliminates idiosyncratic (firm-specific) risk — factors affecting individual companies. But systematic risk, the component of returns correlated with the overall market (recessions, interest rate shifts, inflation surprises), cannot be diversified away because all assets move together during such events. In competitive markets, only systematic risk earns a risk premium, because idiosyncratic risk can be costlessly diversified away."

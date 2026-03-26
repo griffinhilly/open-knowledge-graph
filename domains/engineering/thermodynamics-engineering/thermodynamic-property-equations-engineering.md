@@ -54,7 +54,7 @@ Equations of state relate P, v, T and enable calculation of derived properties (
   answer: true
   explanation: "The Maxwell relations are exact derivative equalities derived by applying the equality of mixed partial derivatives to the fundamental relations. For example, from dh = T ds + v dP, we get (∂T/∂P)_s = (∂v/∂s)_P, and from dg = −s dT + v dP we get (∂s/∂P)_T = −(∂v/∂T)_P. The last relation is particularly useful: it connects entropy (unmeasurable directly) to the derivative of specific volume with temperature (measurable from P-v-T data). This lets engineers compute entropy changes purely from equation-of-state data."
 
-- question: "Steam tables and refrigerant property charts are independent empirical lookup tables with no theoretical connection to equations of state — each entry must be separately measured by calorimetry."
+- question: "Steam tables and refrigerant property charts are independent empirical lookup tables with no theoretical connection to equations of state — each entry should be separately measured by calorimetry."
   type: true-false
   answer: false
   explanation: "Steam tables and refrigerant charts are equations of state pre-evaluated on a grid. For water, the IAPWS-IF97 standard equation uses a mathematical function of T and P (or T and v in the two-phase region) whose coefficients were fit to experimental data, and then the function is evaluated at thousands of T-P grid points to generate the tables. All properties in the table (h, s, u, v) are computed from this single underlying equation of state using the fundamental thermodynamic relations — they are not each independently measured. This is why all properties in a given table are thermodynamically consistent with each other."

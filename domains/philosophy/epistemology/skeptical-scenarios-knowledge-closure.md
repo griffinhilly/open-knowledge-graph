@@ -65,7 +65,7 @@ Examine skeptical hypotheses (brain in a vat, evil demon, simulation) and identi
   answer: true
   explanation: "The tracking account requires that in nearby possible worlds, you would not falsely believe P. For H (I have hands), there is no nearby world where you lack hands but still believe you have them — nearby worlds are just slight variations on actual reality. BIV worlds are highly remote. So H is tracked. For not-BIV, the BIV world is, by hypothesis, indistinguishable from actuality — it is in some sense 'as close as it gets' experientially. So not-BIV is not tracked. This is precisely what allows the tracking theorist to preserve ordinary knowledge while denying closure."
 
-- question: "If epistemic closure is valid and you cannot know you are not a brain in a vat, then you cannot know any ordinary propositions — accepting closure forces acceptance of skepticism."
+- question: "If epistemic closure is valid and you can seldom know you are not a brain in a vat, then you can seldom know any ordinary propositions — accepting closure forces acceptance of skepticism."
   type: true-false
   answer: false
   explanation: "Closure combined with the inability to know not-BIV does yield the skeptical conclusion by modus tollens. But contextualism accepts closure while still preserving ordinary knowledge — by arguing that in ordinary contexts, you DO know not-BIV (because the BIV scenario is not a relevant alternative in that context). So closure is compatible with rejecting skepticism if knowledge is context-sensitive. Accepting closure does not force skepticism; it forces a choice between skepticism, denying closure, or contextualizing knowledge."

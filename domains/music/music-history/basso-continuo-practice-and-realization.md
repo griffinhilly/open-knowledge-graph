@@ -51,7 +51,7 @@ Realize a figured bass line at keyboard, experimenting with different voicings a
   answer: 1
   explanation: "The defining difference is notation: modern accompaniments are fully composed and written out, leaving the performer's task as interpretation and expression within a fixed text. Continuo realization is generative — the performer creates the actual notes in real time from a sparse bass-line shorthand. This demands harmonic knowledge, stylistic fluency, and ensemble sensitivity that goes well beyond reading notated pitches. Options C and D describe real features of Baroque practice but are not the most fundamental distinction."
 
-- question: "Basso continuo figures prescribe the exact voicing and register in which the chord should be played, leaving the performer only the task of executing the notation faithfully."
+- question: "Basso continuo figures prescribe the exact voicing and register in which the chord should be played, leaving the performer primarily the task of executing the notation faithfully."
   type: true-false
   answer: false
   explanation: "This is the central misconception about figured bass. The figures specify which intervals (and thus which chord tones) must be present above the bass note, but they say nothing about which octave to place them in, how many voices to use, what rhythm or texture to create, or how to embellish. A skilled continuo player exercises constant creative judgment about texture density, voice leading, and embellishment — listening to the ensemble and adapting the realization to serve the music as a whole."

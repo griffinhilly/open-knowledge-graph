@@ -50,7 +50,7 @@ Planetary surface and atmospheric albedo control the fraction of solar energy ab
   answer: true
   explanation: "A positive feedback means the system's response reinforces the initial change, regardless of direction. Ice-albedo feedback amplifies warming (less ice → lower albedo → more absorption → more warming) and amplifies cooling (more ice → higher albedo → less absorption → more cooling). This bidirectionality is why positive feedbacks can drive Earth into both ice ages (runaway cooling) and hothouse states (runaway warming)."
 
-- question: "An increase in a planet's average albedo always leads to a lower equilibrium surface temperature."
+- question: "An increase in a planet's average albedo typically leads to a lower equilibrium surface temperature."
   type: true-false
   answer: false
   explanation: "Albedo controls only the reflected fraction of solar radiation — it is just one side of the energy balance. Surface temperature also depends on the greenhouse effect, which operates on the absorbed fraction. Venus demonstrates this: despite albedo ~0.77 (vs. Earth's ~0.30), Venus has a much higher surface temperature because its dense CO₂ atmosphere traps outgoing infrared with near-perfect efficiency. A planet can have high albedo and still be very hot if its greenhouse effect is strong enough."

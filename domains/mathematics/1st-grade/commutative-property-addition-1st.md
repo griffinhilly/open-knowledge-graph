@@ -52,7 +52,7 @@ The order of addends doesn't change the sum: 3 + 5 = 5 + 3 = 8. Recognizing this
   answer: true
   explanation: "Yes — this is exactly what the commutative property states. No matter which order you add the two numbers, the total is the same (15). The blocks don't change; only the direction you count them changes."
 
-- question: "Because of the commutative property, you only need to memorize half as many addition facts AND half as many subtraction facts."
+- question: "Because of the commutative property, you primarily need to memorize half as many addition facts AND half as many subtraction facts."
   type: true-false
   answer: false
   explanation: "The commutative property applies to addition, not subtraction. 9 − 3 = 6, but 3 − 9 is a different (negative) result — you cannot simply flip a subtraction problem. So the memorization shortcut applies only to addition facts, not subtraction facts."

@@ -60,7 +60,7 @@ Comparing the original 1215 text (with its largely feudal, aristocratic concerns
   answer: true
   explanation: "True. The phrase 'free men' excluded the majority of England's population, who were unfree serfs (villeins) without legal standing to invoke the charter's protections. Freedom in the medieval legal sense was a specific status, not a universal condition. The clause was a baronial protection against arbitrary royal action, not a statement of universal human rights. Its later reading as universally applicable is the product of centuries of reinterpretation."
 
-- question: "The barons who forced King John to sign Magna Carta were primarily motivated by a desire to establish democratic rights for all English people."
+- question: "The barons who forced King John to sign Magna Carta were primarily motivated by a desire to establish democratic rights for most English people."
   type: true-false
   answer: false
   explanation: "False. The barons' motivation was self-interest within the feudal framework. They framed their rebellion not as revolution but as insisting the king fulfill his feudal obligations — the same kind of contractual duties that bound lords to their vassals. Their grievances were specific: arbitrary seizure of land, irregular taxation, abuse of wardship and marriage rights over noble heirs. They were not proto-democrats. The idea that Magna Carta was about popular rights is a retrospective myth built by later interpreters."

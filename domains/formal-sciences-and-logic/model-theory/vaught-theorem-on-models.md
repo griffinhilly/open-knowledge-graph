@@ -47,7 +47,7 @@ Vaught's theorem establishes an upper bound on the number of countable models of
   answer: 2
   explanation: "Vaught's theorem says the count is either 1 or ≥ ℵ₀. Any finite number ≥ 2 is ruled out, including 2, 3, and 7. Exactly ℵ₀ satisfies ≥ ℵ₀, so it is allowed. The continuum 2^ℵ₀ is also allowed. Vaught's conjecture (still open) asks whether the count must be either ≤ ℵ₀ or exactly 2^ℵ₀ — but the theorem itself only rules out finite numbers ≥ 2."
 
-- question: "Vaught's theorem implies that if a complete theory has more than 1 non-isomorphic countable model, it must have uncountably many."
+- question: "Vaught's theorem implies that if a complete theory has more than 1 non-isomorphic countable model, it should have uncountably many."
   type: true-false
   answer: false
   explanation: "Vaught's theorem says the count is either 1 or ≥ ℵ₀ — not necessarily uncountable. A complete theory can have exactly ℵ₀ (countably infinitely many) non-isomorphic countable models. Vaught's conjecture conjectures a stronger dichotomy (either ≤ ℵ₀ or 2^ℵ₀), but that conjecture is unproved in general. The theorem only rules out finite counts between 2 and ℵ₀."

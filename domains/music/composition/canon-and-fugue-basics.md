@@ -50,7 +50,7 @@ Canons and fugues are highly structured contrapuntal forms in which melodic mate
   answer: true
   explanation: "This is precisely what defines a strict canon: the dux (leader) presents a melody, and after a fixed time interval the comes (follower) replicates it exactly — same pitches, same rhythms, just offset in time. The word 'canon' means 'rule,' and the rule is exact imitation. Other canons may imitate at a fifth, a third, or another interval (transposing the pitch content), but they still replicate the rhythm and relative pitch intervals exactly."
 
-- question: "A fugue subject can be any melodically distinctive idea; a skilled composer can always write a suitable countersubject for it afterward."
+- question: "A fugue subject can be any melodically distinctive idea; a skilled composer can typically write a suitable countersubject for it afterward."
   type: true-false
   answer: false
   explanation: "The subject and countersubject must be conceived as an integrated system with invertible counterpoint in mind from the start. A subject chosen purely for melodic character may generate counterpoint problems that cannot be resolved when inversion is required later — the intervals between them may become dissonant in the swapped register. Fugue composition requires long-range thinking: the subject's design constrains and is constrained by the countersubject's design, and both must satisfy invertibility as a joint requirement."

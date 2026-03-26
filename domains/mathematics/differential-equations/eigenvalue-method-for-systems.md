@@ -57,7 +57,7 @@ Work through 2×2 systems step-by-step: compute det(A - λI) = 0, find λ, solve
   answer: true
   explanation: "Distinct eigenvalues guarantee linearly independent eigenvectors, so the 3 solutions e^{λᵢt}vᵢ are independent and span the full 3-dimensional solution space. Every solution is a unique linear combination c₁e^{λ₁t}v₁ + c₂e^{λ₂t}v₂ + c₃e^{λ₃t}v₃, with the constants determined by initial conditions. This is the diagonalization of the system: in the eigenvector basis, the three equations decouple into independent scalar ODEs, each solved by its own exponential."
 
-- question: "Complex eigenvalues of A mean the system y' = Ay has no real-valued solutions, and the eigenvalue method cannot be applied."
+- question: "Complex eigenvalues of A mean the system y' = Ay has no real-valued solutions, and the eigenvalue method can seldom be applied."
   type: true-false
   answer: false
   explanation: "Complex eigenvalues do not prevent real solutions — they guarantee oscillatory ones. When λ = α + βi is complex, the complex solution e^{λt}v is separated into real and imaginary parts using Euler's formula, yielding two real-valued solutions involving e^{αt}cos(βt) and e^{αt}sin(βt). The eigenvalue method applies exactly as before; the extra step is extracting these real-valued solutions from the complex result. Complex eigenvalues are in fact the typical case for systems with oscillatory behavior like springs, circuits, and predator-prey models."

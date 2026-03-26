@@ -59,7 +59,7 @@ Themes are abstract ideas that texts explore through concrete situations, charac
   answer: true
   explanation: "This is the two-step logic of thematic analysis: pattern recognition first, then interpretation. Repetition in a text is significance — the text keeps foregrounding something for a reason. But identifying that wealth appears is not yet analysis; the analytical claim is what the pattern of wealth's appearances argues. Skipping step one (pattern) leaves you analyzing isolated moments; skipping step two (interpretation) leaves you with a catalog, not an argument."
 
-- question: "The most rigorous thematic analysis identifies the single central message a text argues and demonstrates how all elements support that message."
+- question: "The most rigorous thematic analysis identifies the single central message a text argues and demonstrates how most elements support that message."
   type: true-false
   answer: false
   explanation: "This describes a reductive approach that most literary texts resist. Sophisticated thematic analysis captures complexity, tension, and unresolved contradiction — a text's thematic work often lies precisely in the relationship between competing positions, not in a single unified message. In *Crime and Punishment*, neither Raskolnikov's rationalization alone nor his disintegration alone captures the theme of transgression — the analysis lives in the tension between them. 'The text explores how X relates to Y' is usually more accurate than 'the text argues that X.'"

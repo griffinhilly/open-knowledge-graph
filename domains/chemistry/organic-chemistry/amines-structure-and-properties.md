@@ -68,7 +68,7 @@ Compare basicity of the series: NH₃, methylamine, dimethylamine, aniline, pyri
   answer: true
   explanation: "Basicity (toward H⁺) and nucleophilicity (toward carbon electrophiles) both depend on the availability of the nitrogen lone pair. An amine with a more available, less delocalized lone pair is both more willing to donate to H⁺ (more basic) and more willing to attack an electrophilic carbon (more nucleophilic). This is why arylamines like aniline are both weaker bases AND weaker nucleophiles than alkylamines — the resonance delocalization that reduces basicity also reduces nucleophilicity toward carbon electrophiles. The important caveat is steric effects: a bulky tertiary amine like triethylamine is a good base but a poor nucleophile because the alkyl groups block approach to carbon centers."
 
-- question: "Adding more alkyl groups to an amine always increases its basicity in aqueous solution."
+- question: "Adding more alkyl groups to an amine generally increases its basicity in aqueous solution."
   type: true-false
   answer: false
   explanation: "In the gas phase, basicity increases monotonically with alkylation (Me₃N > Me₂NH > MeNH₂ > NH₃) because each alkyl group donates electrons inductively to nitrogen. In aqueous solution, the trend breaks down: secondary amines are typically more basic than tertiary amines because solvation matters. A protonated tertiary amine (R₃NH⁺) is less effectively stabilized by hydrogen bonding with water than a protonated secondary amine (R₂NH₂⁺), which has more N–H bonds available for hydrogen bonding. The solvation penalty partially offsets the inductive benefit, so the aqueous trend is non-monotonic. This is a classic case where gas-phase logic must be qualified for solution-phase conditions."

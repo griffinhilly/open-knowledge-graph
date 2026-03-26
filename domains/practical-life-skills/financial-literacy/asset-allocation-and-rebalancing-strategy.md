@@ -64,7 +64,7 @@ Higher allocation to stocks is always better when a 90/10 portfolio crashes hard
   answer: true
   explanation: "True. When an asset class outperforms, its portfolio share grows above the target — rebalancing trims it (selling at elevated prices). When an asset class underperforms, its portfolio share falls below target — rebalancing adds to it (buying at depressed prices). This 'buy low, sell high' effect is automatic: it is a mathematical consequence of reverting to a fixed target after prices have moved, not a prediction that prices will reverse."
 
-- question: "A higher allocation to stocks is always better for long-term investors because stocks have historically outperformed bonds."
+- question: "A higher allocation to stocks is typically better for long-term investors because stocks have historically outperformed bonds."
   type: true-false
   answer: false
   explanation: "False. Stocks have higher long-run expected returns, but a portfolio concentrated in stocks can drop 50–60% in a severe bear market. An investor who panic-sells at the bottom because they couldn't tolerate the loss ends up worse than someone with a 60% stock allocation who stayed the course. The 'best' allocation is the highest one you can psychologically maintain through downturns without abandoning the strategy — not the one with the highest expected return in isolation."

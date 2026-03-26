@@ -49,7 +49,7 @@ Differential manometers measure pressure differences between two points by using
   answer: true
   explanation: "In an inclined manometer, a vertical rise of h appears as a tube-length reading of h/sin(θ). At θ = 10°, sin(10°) ≈ 0.174, so the tube length reading is approximately 5.8 times the actual vertical rise. This geometric amplification — with no change in manometric fluid — makes inclined manometers ideal for measuring small pressure differences that would be hard to read on a vertical tube. The pressure calculation still uses the vertical height h, not the along-tube length."
 
-- question: "A denser manometric fluid always provides greater sensitivity — a larger height reading — for a given pressure difference in a U-tube manometer."
+- question: "A denser manometric fluid usually provides greater sensitivity — a larger height reading — for a given pressure difference in a U-tube manometer."
   type: true-false
   answer: false
   explanation: "The opposite is true: a denser manometric fluid gives a *smaller* height reading for a given pressure difference. Since ΔP = ρ_m·g·h, a larger ρ_m means a smaller h for the same ΔP. High-density fluids like mercury produce compact, easy-to-handle readings for large pressure differences — but they have low sensitivity for small ΔP because the resulting column height is tiny. For small pressure differences, you want a *low-density* manometric fluid (inverted U-tube with air, or light oil) to amplify the reading."

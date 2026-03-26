@@ -54,7 +54,7 @@ Do abstract objects like numbers, properties, and propositions genuinely exist? 
   answer: true
   explanation: "The argument runs: (1) we are committed to the existence of entities our best theories quantify over; (2) our best scientific theories quantify over mathematical objects (sets, functions, numbers); (3) therefore we are committed to the existence of mathematical objects. This grounds abstract objects empirically by tying them to theoretical commitments we already accept when we accept physics, rather than grounding them in pure a priori Platonic intuition."
 
-- question: "Nominalists must deny that mathematical statements like '7 is prime' are true, since on their view there is no object '7' for the statement to be about."
+- question: "Nominalists should deny that mathematical statements like '7 is prime' are true, since on their view there is no object '7' for the statement to be about."
   type: true-false
   answer: false
   explanation: "This is a common mischaracterization. Most nominalist strategies preserve mathematical truth without ontological commitment to abstract objects. Fictionalists accept that '7 is prime' is true within a mathematical fiction. Modal structuralists paraphrase it as a claim about what would hold in any Peano-satisfying structure. Neither strategy declares mathematics false — they provide alternative analyses of what mathematical truth amounts to. Nominalism is a position about ontology, not about mathematical correctness."

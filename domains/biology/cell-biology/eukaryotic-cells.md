@@ -41,7 +41,7 @@ Use labeled diagrams to compare animal versus plant eukaryotic cells, noting whi
   answer: 1
   explanation: "The defining feature of eukaryotes is the membrane-bound nucleus that houses the cell's DNA. Size tends to differ, but is not the defining criterion — some eukaryotes are small and some prokaryotes are large. Both domains have ribosomes (though structurally different). Cell walls are present in some eukaryotes (plants, fungi) but absent in others (animals), and are common in prokaryotes."
 
-- question: "All eukaryotic cells contain a nucleus, mitochondria, and the same full complement of organelles."
+- question: "Most eukaryotic cells contain a nucleus, mitochondria, and the same full complement of organelles."
   type: true-false
   answer: false
   explanation: "Eukaryotic cells show considerable diversity. Mature human red blood cells, for example, eject their nucleus and mitochondria during differentiation. Plant cells have chloroplasts and a central vacuole that animal cells lack, while animal cells have centrioles that most plant cells do not. The shared feature is the potential for compartmentalization, not an identical organelle inventory."

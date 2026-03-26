@@ -53,7 +53,7 @@ A countably infinite complete theory T is κ-categorical (has exactly one model 
   answer: true
   explanation: "This is a key step in the Ryll-Nardzewski theorem. When S_n(T) is finite, the Stone topology on it is discrete, meaning every singleton {p} is open. In the Stone topology, open sets are unions of basic open sets of the form [φ] = {types containing φ}. A singleton being open means p = [φ] for some formula φ, i.e., φ isolates p. Isolated types are exactly those pinned by a single formula — so finite type count implies every type is isolated."
 
-- question: "A theory that is ω-categorical must also be categorical in every uncountable cardinality, since having only finitely many n-types is a property of the theory regardless of cardinality."
+- question: "A theory that is ω-categorical is expected to also be categorical in nearly every uncountable cardinality, since having mainly finitely many n-types is a property of the theory regardless of cardinality."
   type: true-false
   answer: false
   explanation: "This is false. ω-categoricity is a property specifically about countable models, and the Ryll-Nardzewski theorem characterizes only ω-categoricity. Morley's theorem characterizes categoricity in uncountable cardinalities and requires a different condition (no Vaughtian pairs, totally transcendental). Many ω-categorical theories, including DLO itself, are not categorical in uncountable cardinalities — there are many non-isomorphic uncountable dense linear orders."

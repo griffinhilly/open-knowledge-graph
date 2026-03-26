@@ -63,7 +63,7 @@ Maintenance planning is boring busywork. (Planning prevents expensive emergencie
   answer: false
   explanation: "False. The maintenance calendar is proactive, not reactive. Its purpose is to schedule tasks before failures occur — cleaning gutters in fall, servicing HVAC in spring, replacing filters every 1–3 months. The whole point is converting emergencies into planned events. Reactive maintenance (fixing after breakage) is exactly what the calendar is designed to prevent, because reactive repairs are typically more expensive and occur at the worst possible time."
 
-- question: "A homeowner who diligently follows a maintenance calendar will never need a repair budget reserve, since scheduled maintenance prevents all failures."
+- question: "A homeowner who diligently follows a maintenance calendar will seldom need a repair budget reserve, since scheduled maintenance prevents most failures."
   type: true-false
   answer: false
   explanation: "False. Preventive maintenance reduces the frequency and severity of failures but cannot eliminate all unplanned repairs. Systems can fail unexpectedly, appliances reach end of life sooner than expected, and storm damage can occur regardless of maintenance. The maintenance budget must include both scheduled task costs AND a reserve for unplanned repairs. Both components are necessary."

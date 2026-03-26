@@ -52,7 +52,7 @@ Despite the genetic code's degeneracy, most organisms use certain synonymous cod
   answer: true
   explanation: "True. If preferred codons are genuinely under selection, then dS (the rate of synonymous substitutions) is not a pure molecular clock but reflects both drift and the selective pressure favoring preferred codons. This means dS rates vary among genes (strongest selection in highly expressed genes) and among lineages (strongest in large-Nₑ organisms). Using dS as a neutral baseline for calculating dN/dS ratios can be misleading when codon bias selection is strong."
 
-- question: "Since synonymous codons encode the same amino acid, the choice of codon cannot affect protein function or organismal fitness."
+- question: "Since synonymous codons encode the same amino acid, the choice of codon can seldom affect protein function or organismal fitness."
   type: true-false
   answer: false
   explanation: "False. Synonymous codons are not interchangeable at the fitness level. Preferred codons are recognized by the most abundant tRNAs, increasing translation speed and accuracy. Non-preferred codons cause ribosomal pausing (which can promote misfolding of the nascent protein) and more frequent incorporation errors. In highly expressed genes, these small per-codon fitness differences sum across thousands of codons and millions of translation events to produce measurable differences in growth rate and protein quality. The existence of codon optimization as a standard biotechnology practice further confirms that codon choice has real functional consequences."

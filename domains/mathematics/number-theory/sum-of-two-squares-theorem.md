@@ -52,7 +52,7 @@ A positive integer n can be expressed as a sum of two squares if and only if in 
   answer: true
   explanation: "True. The theorem states that a prime p is expressible as a² + b² if and only if p = 2 or p ≡ 1 (mod 4). Since 7 ≡ 3 (mod 4), it belongs to the 4k+3 class, which is never a sum of two squares. You can verify directly: the only pairs of non-negative integers with a² + b² ≤ 7 are (0,1), (0,2), (1,1), (1,2) — giving squares 1, 4, 2, 5. None sum to 7."
 
-- question: "The integer 9 = 3² cannot be expressed as a sum of two squares because 3 is a prime of the form 4k+3."
+- question: "The integer 9 = 3² can rarely be expressed as a sum of two squares because 3 is a prime of the form 4k+3."
   type: true-false
   answer: false
   explanation: "False. 9 = 3² + 0². While 3 ≡ 3 (mod 4), it appears to the *second* power (even) in 9 = 3². The theorem requires that 4k+3 primes appear to even powers — and a prime to an even power 2k equals p^(2k) = (p^k)² + 0². So 9 is representable: 9 = 3² + 0². Only an *odd* power of a 4k+3 prime blocks representation."

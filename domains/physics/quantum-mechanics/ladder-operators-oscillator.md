@@ -46,7 +46,7 @@ Ladder operators â = √(mω/2ℏ)(x̂ + ip̂/mω) and â† lower and raise th
   answer: 1
   explanation: "From [â, â†] = 1 and H = ℏω(â†â + 1/2), compute the commutator [H, â†] = ℏω[â†â, â†] = ℏω(â†[â, â†]) = ℏωâ†. So Hâ† = â†H + ℏωâ†. Applying this to |n⟩: H(â†|n⟩) = (â†H + ℏωâ†)|n⟩ = â†(Eₙ|n⟩) + ℏω(â†|n⟩) = (Eₙ + ℏω)(â†|n⟩). The commutation relation alone — not a differential equation — proves â†|n⟩ is an eigenstate with energy exactly ℏω higher."
 
-- question: "The zero-point energy ℏω/2 of the quantum harmonic oscillator must be derived by solving the Schrödinger differential equation for the Hermite polynomial ground state wavefunction."
+- question: "The zero-point energy ℏω/2 of the quantum harmonic oscillator should be derived by solving the Schrödinger differential equation for the Hermite polynomial ground state wavefunction."
   type: true-false
   answer: false
   explanation: "The zero-point energy follows directly from the algebraic requirement that â|0⟩ = 0 (the ladder must have a lowest rung) and the form of the Hamiltonian H = ℏω(â†â + 1/2). Applying H to the ground state gives H|0⟩ = ℏω(0 + 1/2)|0⟩ = (ℏω/2)|0⟩ with no differential equations involved. The Hermite polynomial wavefunction is the coordinate-space representation of |0⟩, but the energy eigenvalue is determined purely by the algebra. This is the key point of the ladder operator method: the spectrum is fixed by operator algebra, not by solving differential equations."

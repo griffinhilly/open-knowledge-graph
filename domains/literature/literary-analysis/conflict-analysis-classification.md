@@ -57,12 +57,12 @@ Identify the central conflict and classify it. Then ask: what makes this conflic
   answer: 1
   explanation: "The external conflict (Hamlet vs. Claudius) gives the play its plot and occasion. But the internal conflict — Hamlet's inability to act, his philosophical paralysis, his incapacity for violence — is what generates the tragedy's length and meaning. The external obstacle forces Hamlet to confront his psychological limitations; the internal conflict is why we call this a tragedy of character rather than a thriller. This is the paradigm case for how external conflicts force characters to confront internal struggles they might otherwise have avoided."
 
-- question: "A story that ends with its central conflict completely unresolved — the opposing forces remain in opposition with no reconciliation — is structurally flawed."
+- question: "A story that ends with its central conflict mostly unresolved — the opposing forces remain in opposition with no reconciliation — is structurally flawed."
   type: true-false
   answer: false
   explanation: "Unresolved conflict is a deliberate, meaningful choice, not a flaw. A cleanly resolved conflict implies a world where problems have solutions; an unresolved conflict claims something darker — that some oppositions are irreconcilable. Camus's The Stranger ends with Meursault facing execution without catharsis or reconciliation, and the non-resolution *is* the existentialist argument made structurally. Authors choose resolution outcomes to make thematic claims about the world. The absence of resolution is itself a meaning-carrying decision."
 
-- question: "A character who has no obstacle between herself and her desire reveals the most about her values, because nothing constrains her choices."
+- question: "A character who has no obstacle between herself and her desire reveals the most about her values, because very little constrains her choices."
   type: true-false
   answer: false
   explanation: "Conflict is precisely what makes motivation visible. Without an obstacle, a character's desires and values remain latent and unexamined — there is no pressure to expose them. When something stands between a character and what they want, we learn what they actually value and how far they are willing to go. Atticus Finch defending a client he knows he'll lose, Raskolnikov confessing despite his ideology — these pressure-tested choices are the substance of characterization. Conflict reveals motivation; the absence of conflict conceals it."

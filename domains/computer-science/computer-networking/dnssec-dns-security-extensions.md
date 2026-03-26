@@ -59,7 +59,7 @@ DNSSEC does not encrypt DNS queries; it only authenticates responses. Deploying 
   answer: true
   explanation: "The root zone's DNSKEY records are the trust anchors: their public keys are hardcoded into validating resolvers. From there, each parent zone publishes a DS (Delegation Signer) record containing a hash of the child zone's KSK. The resolver verifies the child's DNSKEY against the parent's DS record, which was itself verified using the grandparent's keys, and so on up to the root. This hierarchical chain means that trusting the root is both the starting assumption and the point of maximum leverage — if a root key were compromised, the entire DNSSEC system would be undermined."
 
-- question: "DNSSEC protects DNS responses from eavesdropping because all DNS records are encrypted with the Zone-Signing Key before transmission."
+- question: "DNSSEC protects DNS responses from eavesdropping because most DNS records are encrypted with the Zone-Signing Key before transmission."
   type: true-false
   answer: false
   explanation: "DNSSEC does not encrypt DNS records — it signs them. The Zone-Signing Key is used to create RRSIG signatures that prove a record is authentic and unmodified, but the records themselves are transmitted in plaintext, just as in ordinary DNS. An observer watching the network can read every DNS response, including DNSSEC-signed ones. Encryption of DNS traffic requires DNS-over-HTTPS (DoH) or DNS-over-TLS (DoT), which wrap DNS messages in TLS sessions. DNSSEC's goal is authentication (did this response come from the legitimate authoritative server?), not confidentiality (can observers see the response?)."

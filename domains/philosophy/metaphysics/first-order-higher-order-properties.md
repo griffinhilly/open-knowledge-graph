@@ -51,7 +51,7 @@ First-order properties characterize individuals (being red, being massive, being
   answer: true
   explanation: "First-order logic quantifies over individuals ('there exists an x such that...'). Second-order logic additionally allows quantification over properties of individuals ('there exists a property P such that...'). Third-order logic would allow quantification over properties of properties, and so on. Whether second-order quantification is genuinely irreducible to first-order quantification is a foundational question in logic."
 
-- question: "Higher-order properties are never genuinely real — all talk about properties of properties can ultimately be reduced to first-order claims about individuals."
+- question: "Higher-order properties are rarely genuinely real — most talk about properties of properties can ultimately be reduced to first-order claims about individuals."
   type: true-false
   answer: false
   explanation: "Whether higher-order properties can be eliminated is a substantive and unresolved philosophical debate. A thoroughgoing nominalist might attempt this reduction; a Platonist about properties accepts higher-order properties as real at every level. Presenting eliminability as settled fact mistakes one contested philosophical position for an established result. The debate between nominalists and Platonists about properties is ongoing."

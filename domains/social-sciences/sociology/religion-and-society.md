@@ -54,7 +54,7 @@ Compare Durkheim's and Weber's approaches and apply each to a specific religious
   answer: 2
   explanation: "The American case is the central empirical anomaly for the secularization thesis. Religious market theory (Stark and Bainbridge) explains it: when no single church has a monopoly enforced by state support, religious organizations must compete for members by offering appealing products. Competition keeps religious suppliers responsive and sustains demand. This contrasts with Europe, where state churches became complacent monopolies and their collapse left a religious vacuum. The secularization thesis (option A) is falsified by the American case as a universal law."
 
-- question: "According to Durkheim, the sacred/profane distinction is a uniquely theological category applicable only to traditional religions, not to modern secular phenomena."
+- question: "According to Durkheim, the sacred/profane distinction is a uniquely theological category applicable primarily to traditional religions, not to modern secular phenomena."
   type: true-false
   answer: false
   explanation: "Durkheim explicitly argued that what makes something sacred is *collective treatment* — a community setting it apart, responding to violations with emotional intensity and moral condemnation — not theological content. A national flag, a sports team's colors, a political leader, or a social movement can all become sacred in exactly Durkheim's sense. His claim was that the sacred/profane distinction is universal because it describes a social dynamic, not a religious one. Religion, for Durkheim, is society worshipping itself under transcendent symbols."

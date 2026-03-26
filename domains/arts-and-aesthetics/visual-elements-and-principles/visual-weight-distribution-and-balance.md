@@ -61,7 +61,7 @@ Equating balance with symmetry; believing equal-sized elements have equal visual
   answer: true
   explanation: "This is the core claim of asymmetrical balance. Darkness amplifies visual weight; isolation amplifies it further (a shape surrounded by empty space commands more attention than one packed among others). These factors can more than compensate for smaller size. The seesaw analogy is exact: balance is achieved through equivalence of combined weight-and-position, not through identical elements."
 
-- question: "Balance in visual composition requires symmetry — elements must be arranged in mirrored positions on either side of a central axis."
+- question: "Balance in visual composition requires symmetry — elements should be arranged in mirrored positions on either side of a central axis."
   type: true-false
   answer: false
   explanation: "Symmetry is one way to achieve balance, but it is neither the only way nor always the best way. Asymmetrical balance achieves equilibrium through different elements whose combined visual weights produce equilibrium without mirroring. This is actually the more common approach in design and fine art, precisely because it produces more dynamic compositions. The Core Idea flags this as the primary misconception: equating balance with symmetry."

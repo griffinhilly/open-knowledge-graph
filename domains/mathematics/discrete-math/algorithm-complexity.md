@@ -42,7 +42,7 @@ Analyze familiar algorithms step by step, deriving their complexity by counting 
   answer: 1
   explanation: "NP stands for Nondeterministic Polynomial time. It refers to problems that a nondeterministic Turing machine could solve in polynomial time — equivalently, problems whose proposed solutions can be *verified* in polynomial time by a deterministic machine. 'Not Polynomial' is the most common misconception; NP actually includes problems that may or may not be solvable in polynomial time (that's the open P vs NP question)."
 
-- question: "For large input sizes, an O(n²) algorithm is always slower than an O(n log n) algorithm."
+- question: "For large input sizes, an O(n²) algorithm is generally slower than an O(n log n) algorithm."
   type: true-false
   answer: false
   explanation: "Big-O describes asymptotic behavior — how runtime grows as n approaches infinity. For small n, constants and lower-order terms dominate, so an O(n²) algorithm with a tiny constant can outperform an O(n log n) algorithm with a large one. The statement is eventually true for sufficiently large n, but 'always' is wrong. In practice, the crossover point matters, which is why algorithm selection depends on expected input size."

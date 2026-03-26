@@ -53,7 +53,7 @@ Compute execution time using the CPU time equation under different clock speeds 
   answer: 2
   explanation: "Amdahl's Law: Speedup = 1 / ((1 − f) + f/S) = 1 / (0.10 + 0.90/10) = 1 / 0.19 ≈ 5.3×. The unoptimized 10% forms a hard ceiling. The tempting wrong answer (10×) assumes the serial fraction disappears — but it doesn't. The remaining 10% now constitutes almost all of execution time, limiting the overall gain to roughly half the naive expectation."
 
-- question: "A processor with a higher clock frequency always executes a given program faster than a processor with a lower clock frequency."
+- question: "A processor with a higher clock frequency usually executes a given program faster than a processor with a lower clock frequency."
   type: true-false
   answer: false
   explanation: "False. CPU time = Instruction count × CPI × Clock cycle time. A higher clock frequency reduces cycle time but says nothing about CPI. If more pipeline stages are added to reach a higher frequency, CPI may increase (more hazards, longer stall penalties), leaving execution time unchanged or worse. Performance depends on all three factors together, which is why raw clock speed comparisons across architectures are misleading."

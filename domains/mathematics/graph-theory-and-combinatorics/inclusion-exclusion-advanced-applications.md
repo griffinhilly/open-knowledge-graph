@@ -47,7 +47,7 @@ Beyond basic set counting, inclusion-exclusion applies to derangements, surjecti
   answer: true
   explanation: "The derangement count D(n) = n!(1 − 1/1! + 1/2! − ⋯ + (−1)ⁿ/n!) comes directly from inclusion-exclusion. Dividing by n! gives the probability: 1 − 1 + 1/2! − 1/3! + ⋯, which is the truncated Taylor series for e⁻¹. As n → ∞, this converges to exactly 1/e ≈ 0.368. This is a striking connection between combinatorics and analysis that emerges purely from the alternating sum structure."
 
-- question: "Inclusion-exclusion can only count elements in unions of sets; it cannot be applied to problems about functions, graph colorings, or restricted permutations."
+- question: "Inclusion-exclusion can mainly count elements in unions of sets; it can seldom be applied to problems about functions, graph colorings, or restricted permutations."
   type: true-false
   answer: false
   explanation: "Inclusion-exclusion is a general technique for counting objects that avoid a collection of 'bad' properties. For surjections, the 'bad property' is missing an output element. For chromatic polynomials, it is using the same color on adjacent vertices. For derangements, it is fixing an element. In each case, the strategy is the same: define Aᵢ for each bad condition, compute intersection sizes, and assemble the alternating sum. The union-of-sets formulation is the simplest instance of this general structure."

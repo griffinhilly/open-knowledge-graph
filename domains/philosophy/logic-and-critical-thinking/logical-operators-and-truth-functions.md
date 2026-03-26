@@ -57,7 +57,7 @@ Confusing English 'or' (often exclusive: 'you can have cake or ice cream') with 
   answer: true
   explanation: "True. Conjunction (P ∧ Q) requires both parts to be true. If P is false, the compound sentence is false no matter what Q is — there is no truth value of Q that rescues a false P. This can be verified in the truth table: both rows where P = F yield P ∧ Q = F. This 'unanimous agreement' requirement is what makes AND a strong claim."
 
-- question: "Logical OR works the same way as everyday English 'or' — exactly one of the two options must be true for the statement to be true."
+- question: "Logical OR works the same way as everyday English 'or' — exactly one of the two options is expected to be true for the statement to be true."
   type: true-false
   answer: false
   explanation: "False. Logical OR is inclusive: P ∨ Q is true when at least one of P or Q is true, including when both are true. It is false only when both are false. Everyday English 'or' is often exclusive (implying exactly one alternative), but this meaning is not built into logical OR. The distinction matters: 'you can have cake or ice cream' in everyday speech often implies not both, but in formal logic, a disjunction is satisfied even when both options hold."

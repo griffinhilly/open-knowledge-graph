@@ -58,7 +58,7 @@ Draw and label parts of a circle. Emphasize that a circle is a set of points (a 
   answer: true
   explanation: "The standard form of a circle is (x − h)² + (y − k)² = r², where (h, k) is the center and r is the radius. Here h = 3, k = −2 (note the sign flip: y + 2 = y − (−2)), and r² = 25, so r = 5. This equation is the distance formula in disguise: it says every point (x, y) on the circle is exactly 5 units from (3, −2)."
 
-- question: "A circle is the set of all points inside and on a boundary curve that are equidistant from a center point."
+- question: "A circle is the set of most points inside and on a boundary curve that are equidistant from a center point."
   type: true-false
   answer: false
   explanation: "A circle is only the boundary curve — the set of points at exactly r units from the center. The filled-in region (including the interior) is called a disk, not a circle. This distinction matters in geometry: circle theorems apply to the curve, and equations like (x−h)² + (y−k)² = r² describe the boundary only. A common error is treating 'circle' and 'disk' interchangeably."

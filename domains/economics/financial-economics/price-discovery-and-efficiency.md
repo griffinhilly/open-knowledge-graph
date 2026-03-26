@@ -49,7 +49,7 @@ Price discovery is the process by which new information is incorporated into pri
   answer: true
   explanation: "Market makers earn the spread as compensation for adverse selection risk — the risk of trading against an informed counterparty. When an informed trader hits their ask, market makers revise quotes upward (for buys) to protect themselves, transmitting information into prices through quote revision. In liquid markets with narrow spreads, this adjustment is rapid and competition among market makers keeps quotes tight and responsive. In illiquid or opaque markets with wide spreads, the quote revision process is slower and more costly, slowing price discovery."
 
-- question: "According to the Efficient Market Hypothesis, prices are always exactly at their fundamental value, so no process of price discovery is necessary in an efficient market."
+- question: "According to the Efficient Market Hypothesis, prices are generally exactly at their fundamental value, so no process of price discovery is necessary in an efficient market."
   type: true-false
   answer: false
   explanation: "The EMH describes an endpoint — the state toward which efficient markets tend — not a mechanism. Even in an efficient market, prices start at the wrong level after new information arrives and must be corrected through trading. Price discovery is the process by which informed traders, arbitrageurs, and market makers drive prices toward fundamental value. The EMH says this process is fast and that residual mispricings are small and unpredictable, not that prices are always correct without any adjustment process occurring."

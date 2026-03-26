@@ -54,7 +54,7 @@ Calculate the energy equivalent of small mass changes and compare to chemical ve
   answer: 1
   explanation: "The mass defect Δm equals the difference between the sum of free nucleon masses and the actual nuclear mass. By E = mc², this corresponds to the binding energy — the energy that would need to be supplied to pull the nucleus apart. For helium-4, this is about 28.3 MeV. The nucleus is lighter because some mass has been permanently converted into the binding energy that holds it together. Option A treats mass as separately conserved, which special relativity shows is incorrect — it is total energy (including rest mass energy) that is conserved."
 
-- question: "E = mc² applies only to nuclear reactions and has no relevance to ordinary chemical processes."
+- question: "E = mc² applies primarily to nuclear reactions and has no relevance to ordinary chemical processes."
   type: true-false
   answer: false
   explanation: "E = mc² is a universal relationship between mass and energy that applies to every energy-releasing process, including chemical reactions. When hydrogen and oxygen form water, the products have slightly less rest mass than the reactants. The mass deficit is roughly a million times smaller per atom than in nuclear reactions — far below the precision of any chemical balance — but it is real. The formula is not limited to nuclear physics; nuclear reactions simply make the effect large enough to be striking."

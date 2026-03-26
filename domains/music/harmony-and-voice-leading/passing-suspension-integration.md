@@ -52,7 +52,7 @@ Not all non-harmonic tones sound like mere decoration; they can define melodic c
   answer: 2
   explanation: "Passing tones are defined partly by their metric placement: they belong on weak beats, where they connect two harmonic tones by step without creating accented dissonance. Placing a dissonant tone on a strong beat (beat 1 in 4/4) turns it into something else — effectively a suspension — because the ear treats strong-beat dissonances as requiring formal resolution. The distinction between passing tones and suspensions is not just about the notes played but where they fall in the metric hierarchy."
 
-- question: "A suspension always resolves upward by step to the next chord tone."
+- question: "A suspension typically resolves upward by step to the next chord tone."
   type: true-false
   answer: false
   explanation: "False. Suspensions resolve downward by step. This is one of their defining characteristics: the suspended note is held over from the previous beat, creating dissonance with the new harmony, and then falls by step to the expected consonance. Common figures include 4-3, 7-6, and 9-8. Upward resolution by step is characteristic of leading tones and certain appoggiatura figures, not suspensions."

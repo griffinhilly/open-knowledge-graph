@@ -53,7 +53,7 @@ The total mechanical energy E = K + U is conserved when only conservative forces
   answer: true
   explanation: "Since E = K + U and kinetic energy K = ½mv² ≥ 0 always, it follows that U = E − K ≤ E. A location where U > E would require K = E − U < 0, which is physically impossible — you cannot have negative kinetic energy. These classically forbidden regions can be read directly off a plot of U(x) by seeing where U exceeds the horizontal line at E."
 
-- question: "The energy conservation method E = K + U = constant can only be applied at turning points, where the particle is momentarily at rest."
+- question: "The energy conservation method E = K + U = constant can mainly be applied at turning points, where the particle is momentarily at rest."
   type: true-false
   answer: false
   explanation: "Energy conservation holds at every instant along the trajectory, not just at turning points. E = K + U is a constant of the motion. You can apply it at any point: if you know E and U at some location, you immediately get K = E − U and thus the speed at that point. Turning points are just a special case where K = 0, but the method is valid and useful throughout the entire trajectory."

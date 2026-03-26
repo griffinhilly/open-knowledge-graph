@@ -65,7 +65,7 @@ Start by conducting or tapping the beat while listening, then write the rhythm i
   answer: true
   explanation: "This is a mathematical constraint imposed by the time signature. The top number (4) indicates four beats per measure; the bottom number (4) indicates the quarter note equals one beat. Therefore every complete measure must contain exactly four quarter-note beats worth of duration, whether notated as one whole note, four quarter notes, eight eighth notes, or any combination. This provides an error-detection check completely independent of ear training."
 
-- question: "The most effective method for rhythmic dictation is to write down each note immediately as you hear it during the first playback, capturing every duration in real time."
+- question: "The most effective method for rhythmic dictation is to write down each note immediately as you hear it during the first playback, capturing nearly every duration in real time."
   type: true-false
   answer: false
   explanation: "Attempting to notate in real time during the first hearing is a common beginner mistake that leads to worse results, not better. Music doesn't pause while you write. Trying to notate immediately splits your attention between listening and writing, causing you to miss the overall rhythmic shape. The recommended approach is to listen first (conducting the beat and absorbing the global structure), then notate from audiation — your inner hearing of what you just heard — on subsequent hearings."

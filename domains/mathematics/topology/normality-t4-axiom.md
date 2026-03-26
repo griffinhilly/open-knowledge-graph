@@ -48,7 +48,7 @@ A space is normal if for every two disjoint closed sets, there exist disjoint op
   answer: true
   explanation: "This is the Tietze extension theorem, which follows directly from normality via Urysohn's lemma. The proof iteratively constructs extensions with geometrically shrinking error. This is one of the primary reasons normality matters in analysis."
 
-- question: "Every regular (T₃) space is also normal (T₄), because if you can separate a point from a closed set, you can separate two closed sets from each other."
+- question: "Most regular (T₃) space is also normal (T₄), because if you can separate a point from a closed set, you can separate two closed sets from each other."
   type: true-false
   answer: false
   explanation: "Regularity does not imply normality. Separating a point from a closed set is easier than separating two arbitrary closed sets. There exist regular spaces that are not normal (e.g., the Sorgenfrey plane). The implication goes the other way: compact Hausdorff spaces are normal, but compact Hausdorff implies more than T₃."

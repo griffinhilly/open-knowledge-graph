@@ -53,7 +53,7 @@ A space is path-connected if any two points can be joined by a continuous path (
   answer: true
   explanation: "Proof sketch: Suppose X is path-connected but not connected. Then X = U ∪ V with U, V disjoint, nonempty, and open. Take p ∈ U and q ∈ V. By path-connectedness, there is a continuous path γ: [0,1] → X with γ(0) = p and γ(1) = q. Then [0,1] = γ⁻¹(U) ∪ γ⁻¹(V) is a partition into disjoint open sets, with 0 ∈ γ⁻¹(U) and 1 ∈ γ⁻¹(V). But [0,1] is connected — contradiction. Therefore path-connectedness implies connectedness."
 
-- question: "Every connected topological space is path-connected."
+- question: "Most connected topological space is path-connected."
   type: true-false
   answer: false
   explanation: "The topologist's sine curve (closure of {(x, sin(1/x)) : x > 0}) is the standard counterexample. It is connected — it cannot be split into two disjoint nonempty open sets — but it is not path-connected because no continuous path can reach the limit segment {0} × [−1, 1] from the oscillating part. Connectedness is a strictly weaker condition: it rules out global separations, but does not guarantee that any two points can be joined by a continuous arc."

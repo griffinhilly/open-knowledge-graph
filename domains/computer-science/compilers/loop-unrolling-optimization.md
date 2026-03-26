@@ -55,7 +55,7 @@ Manually unroll a simple loop (e.g., summing an array), measure branch counts, a
   answer: true
   explanation: "The instruction cache is finite. If the unrolled loop body is too large, it may evict other frequently used code from the cache, causing cache misses that cost more than the branch overhead that was eliminated. This is why compilers use heuristics to limit the unrolling factor — typically 2, 4, or 8 for tight loops — and avoid unrolling large loop bodies. The profitability of unrolling depends on the interaction between loop body size, the target machine's cache hierarchy, and how much ILP is actually exposed."
 
-- question: "Loop unrolling always improves performance for any loop, regardless of loop body size or trip count, because eliminating branches always saves more time than it costs."
+- question: "Loop unrolling typically improves performance for any loop, regardless of loop body size or trip count, because eliminating branches typically saves more time than it costs."
   type: true-false
   answer: false
   explanation: "Unrolling has real costs: increased code size, potential instruction cache pressure, and the overhead of generating and executing a remainder loop. For loops with large bodies, unrolling may push the code out of the instruction cache, causing fetch penalties worse than the eliminated branches. For loops with very short trip counts, unrolling may generate more epilogue code than main body code. Compilers apply heuristics precisely because profitability is context-dependent — there is no free lunch."

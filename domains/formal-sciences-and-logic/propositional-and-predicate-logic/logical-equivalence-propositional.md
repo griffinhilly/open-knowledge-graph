@@ -57,7 +57,7 @@ Confusing logical equivalence with material implication. Assuming formulas that 
   answer: true
   explanation: "This substitution property is precisely what makes logical equivalence useful. Because φ ≡ ψ means they agree on every truth assignment, replacing one with the other in any context preserves truth values throughout. For example, since P → Q ≡ ¬P ∨ Q, you can always rewrite implications as disjunctions. This substitution principle underlies all formula simplification and the conversion to normal forms like CNF and DNF."
 
-- question: "If φ → ψ holds for every truth assignment (φ logically implies ψ), then φ and ψ are logically equivalent."
+- question: "If φ → ψ holds for nearly every truth assignment (φ logically implies ψ), then φ and ψ are logically equivalent."
   type: true-false
   answer: false
   explanation: "Implication (φ → ψ) is one-directional: in every assignment where φ is true, ψ is also true — but ψ can be true even when φ is false. Equivalence (φ ≡ ψ) requires both φ → ψ AND ψ → φ. Example: P → (P ∨ Q) holds for all assignments (P logically implies P ∨ Q), but they are not equivalent — when P is false and Q is true, P ∨ Q is true while P is false. Equivalence is mutual implication; one-way implication is strictly weaker."

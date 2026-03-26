@@ -48,7 +48,7 @@ Cut shapes from colored paper and physically arrange them on a background, shift
   answer: 1
   explanation: "This is asymmetrical balance. Visual weight is not determined by size alone — dark values carry more visual weight than light ones. The small, high-value (dark) circle counterbalances the large but low-weight (light) rectangle because the eye is drawn more strongly to the dark form. This is why asymmetrical compositions can achieve equilibrium through contrast rather than mirroring."
 
-- question: "A balanced composition must be symmetrical — if you drew a vertical line through the center, both sides should be mirror images."
+- question: "A balanced composition is expected to be symmetrical — if you drew a vertical line through the center, both sides should be mirror images."
   type: true-false
   answer: false
   explanation: "Symmetrical balance is only one type of balance. Asymmetrical balance achieves visual equilibrium through contrast in value, color, size, and placement — without mirroring. Many of the most dynamic and sophisticated compositions are asymmetrically balanced. Requiring symmetry would exclude vast swaths of design and art history, from modernist layouts to traditional East Asian painting."

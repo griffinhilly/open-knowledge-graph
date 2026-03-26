@@ -52,7 +52,7 @@ Gender relations are spatially organized and spaces shape gender identities and 
   answer: true
   explanation: "This is the key theoretical claim. Feminist geographers like those who developed spatial constraint theory argue that the ability to move through and occupy space is constitutive of social power, not just a reflection of it. When women face practical barriers to public space — through harassment, threat of violence, design that assumes male occupation — those barriers are themselves a form of inequality, not merely a symptom of power imbalances originating elsewhere."
 
-- question: "Spaces that appear gender-neutral — such as open-plan offices or public parks — are typically free from gendered coding and produce equivalent experiences for people of all genders."
+- question: "Spaces that appear gender-neutral — such as open-plan offices or public parks — are typically free from gendered coding and produce equivalent experiences for people of most genders."
   type: true-false
   answer: false
   explanation: "Spaces that appear superficially neutral often encode gendered assumptions in less visible ways: through norms about who 'belongs,' through design assumptions about likely occupants, or through policing of behavior. A 'gender-neutral' open-plan office may still have masculine coding in its culture — what kinds of interruptions are acceptable, who takes up space physically, whose comfort the design was built around. Appearing neutral is not the same as being neutral in effect."

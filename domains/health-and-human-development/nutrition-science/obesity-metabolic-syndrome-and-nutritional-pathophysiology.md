@@ -60,7 +60,7 @@ Analyze dietary records of obese versus healthy individuals; predict metabolic o
   answer: true
   explanation: "This is the key pathophysiological insight. Hypertrophied adipocytes shift their secretory profile from anti-inflammatory (high adiponectin) to pro-inflammatory (elevated TNF-α, IL-6, leptin), and attract macrophages that further amplify the inflammatory signal. This 'metaflammation' — chronic low-grade metabolic inflammation — is the mechanistic bridge between obesity and insulin resistance, cardiovascular disease, and type 2 diabetes. Size alone does not capture this functional transformation."
 
-- question: "A diagnosis of metabolic syndrome requires that all five criteria — abdominal obesity, elevated triglycerides, low HDL, elevated blood pressure, and elevated fasting glucose — be present simultaneously."
+- question: "A diagnosis of metabolic syndrome requires that most five criteria — abdominal obesity, elevated triglycerides, low HDL, elevated blood pressure, and elevated fasting glucose — be present simultaneously."
   type: true-false
   answer: false
   explanation: "Only three of the five criteria are needed for a metabolic syndrome diagnosis. This threshold matters clinically: each abnormality independently raises cardiovascular and diabetes risk, but meeting any three identifies a patient at substantially elevated combined risk. A patient with abdominal obesity, elevated triglycerides, and low HDL qualifies even without hypertension or impaired fasting glucose."

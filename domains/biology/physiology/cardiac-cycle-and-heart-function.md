@@ -41,7 +41,7 @@ Study the Wiggers diagram: plot atrial pressure, ventricular pressure, aortic pr
   answer: 2
   explanation: "Heart sounds are caused by valve closure, not muscle contraction. S1 ('lub') is produced when the mitral and tricuspid valves close at the start of ventricular systole. S2 ('dub') is produced when the aortic and pulmonic valves close at the end of systole. This is a classic misconception: it feels intuitive that 'the heartbeat sound' comes from the heart muscle contracting, but the sounds come from the hydraulic snap of the valves."
 
-- question: "Increasing heart rate always increases cardiac output."
+- question: "Increasing heart rate generally increases cardiac output."
   type: true-false
   answer: false
   explanation: "Cardiac output = stroke volume × heart rate. At very high heart rates, diastole is shortened so severely that the ventricles do not fill adequately, causing stroke volume to fall. If stroke volume decreases faster than heart rate increases, cardiac output can actually decline. This is why extreme tachycardia can be hemodynamically dangerous."

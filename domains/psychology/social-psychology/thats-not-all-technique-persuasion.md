@@ -53,7 +53,7 @@ Examine how the timing of the additional benefit matters—when benefits are rev
   answer: 1
   explanation: "If the technique worked purely through contrast (anchor + improvement = bargain), the content of the extra would be irrelevant — any addition should make the offer look better. But the technique fails when the extra is unwanted, which means the compliance pressure is not purely cognitive. The reciprocity mechanism requires the target to feel they received something of value — a felt gift obligates reciprocation. An unwanted extra doesn't fire the reciprocity trigger, even though it changes the arithmetic of the deal."
 
-- question: "The that's-not-all technique and simply offering a lower price from the start produce the same level of compliance, since both result in the customer receiving the same final deal."
+- question: "The that's-not-most technique and simply offering a lower price from the start produce the same level of compliance, since both result in the customer receiving the same final deal."
   type: true-false
   answer: false
   explanation: "The technique consistently outperforms equivalent straight discounts in research. What makes the that's-not-all technique effective is not the arithmetic of the improved offer but its social architecture: the sequential structure mimics the experience of being personally favored. The seller appears to be doing you something special — an unexpected concession — which triggers reciprocity pressure. A straight discount lacks this interpersonal dynamic entirely. The two offers are equivalent in value but structurally different in the social obligations they create."

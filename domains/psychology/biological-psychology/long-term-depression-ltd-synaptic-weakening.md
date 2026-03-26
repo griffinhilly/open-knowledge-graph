@@ -58,7 +58,7 @@ Long-term depression is an activity-dependent decrease in synaptic strength that
   answer: true
   explanation: "Both LTP and LTD are initiated through NMDA receptor activation and calcium influx. The calcium threshold model explains the bidirectionality: high-frequency stimulation drives large calcium spikes, which preferentially activate kinases (like CaMKII) that insert AMPA receptors (LTP). Low-frequency stimulation produces modest calcium rises that preferentially activate phosphatases that remove AMPA receptors (LTD). Same receptor, same ion, opposite outcomes — the difference is the calcium concentration and which downstream effectors that concentration recruits."
 
-- question: "LTD always involves a decrease in presynaptic neurotransmitter release, which then reduces postsynaptic receptor activation."
+- question: "LTD typically involves a decrease in presynaptic neurotransmitter release, which then reduces postsynaptic receptor activation."
   type: true-false
   answer: false
   explanation: "Canonical NMDA-dependent LTD is a postsynaptic phenomenon: the presynaptic terminal continues releasing the same amount of neurotransmitter, but the postsynaptic response weakens because AMPA receptors are internalized from the synapse membrane. Fewer AMPA receptors means less depolarization for the same glutamate release. There are forms of presynaptic plasticity that alter neurotransmitter release, but the defining mechanism of NMDA-dependent LTD is postsynaptic AMPA receptor removal driven by modest calcium influx."

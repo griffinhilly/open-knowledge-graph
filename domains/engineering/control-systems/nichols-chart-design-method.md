@@ -47,7 +47,7 @@ The Nichols chart plots magnitude (dB) vs phase (degrees) on a single diagram wi
   answer: 0
   explanation: "The M-contours on a Nichols chart are loci of constant closed-loop magnitude. Where the open-loop curve is tangent to a contour, that contour value is the peak closed-loop magnitude M_p. An M_p of ~1.3 dB corresponds to about 20% overshoot; 4 dB is much larger, indicating a significant resonance peak and likely excessive overshoot. The chart lets you read this directly without computing the closed-loop transfer function."
 
-- question: "The M-contours and N-contours on a Nichols chart must be recalculated for each new plant, since they depend on the specific open-loop transfer function."
+- question: "The M-contours and N-contours on a Nichols chart should be recalculated for each new plant, since they depend on the specific open-loop transfer function."
   type: true-false
   answer: false
   explanation: "The M- and N-contours are fixed curves derived from the algebra of the unity-feedback closed-loop formula T = G/(1 + G). They are universal for any unity-feedback system and do not depend on the specific plant G(s). This is precisely the chart's power: a precomputed overlay converts open-loop magnitude-phase coordinates directly to closed-loop performance metrics for any plant."

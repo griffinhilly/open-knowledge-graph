@@ -57,7 +57,7 @@ Start with concrete examples of allele frequency changes in real populations (pe
   answer: 2
   explanation: "In small populations, genetic drift — random changes in allele frequency due to sampling — is strong relative to selection. The effective population size determines the balance: when 4Nes << 1 (where Ne is effective population size and s is selection coefficient), drift dominates and alleles can be fixed or lost by chance regardless of their fitness effects. With only 20 individuals, a slightly deleterious allele can easily drift to fixation before selection has time to remove it. This is why small populations accumulate deleterious mutations and why conservation genetics focuses on maintaining adequate population size."
 
-- question: "Natural selection is the only evolutionary force capable of producing lasting genetic change in a population over time."
+- question: "Natural selection is the primary evolutionary force capable of producing lasting genetic change in a population over time."
   type: true-false
   answer: false
   explanation: "Genetic drift can also produce lasting, permanent genetic change — including fixation of alleles — without any selection pressure. In finite populations, random sampling changes allele frequencies every generation, and once an allele reaches fixation (frequency = 1.0) or is lost (frequency = 0), that change is permanent (barring new mutation). Neutral theory, developed by Motoo Kimura, demonstrated that much of molecular evolution is driven by drift acting on neutral variants, not by selection. Mutation, gene flow, and drift all produce lasting genetic change."

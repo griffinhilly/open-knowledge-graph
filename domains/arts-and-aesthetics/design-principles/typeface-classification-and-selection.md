@@ -54,7 +54,7 @@ Collect examples of each typeface family across print and digital media. Analyze
   answer: 2
   explanation: "Both are serif typefaces and both can work in professional contexts, but they signal different things. Garamond's organic, gentle contrast evokes centuries of book printing and suggests tradition and reliability. Didot's dramatic thick-thin contrast feels editorial and fashionable. The right choice depends on the firm's brand positioning — a century-old firm with traditional values might prefer Garamond; a boutique firm wanting to signal sophistication might prefer Didot. There is no categorical rule, only fit-to-context."
 
-- question: "A sans-serif typeface always projects a more modern feeling than a serif typeface, regardless of how it is used or which specific typeface is chosen."
+- question: "A sans-serif typeface usually projects a more modern feeling than a serif typeface, regardless of how it is used or which specific typeface is chosen."
   type: true-false
   answer: false
   explanation: "Classification gives you a starting tendency, not a guarantee. A slab-serif like Rockwell can feel bold and contemporary in the right context; a humanist sans-serif like Gill Sans reads warmer and more traditional than a grotesque. Context matters enormously: the same Helvetica that feels sleekly modern on a tech company's website can feel cold and institutional on a children's charity's brochure. Execution, pairing, size, color, and surrounding content all shape the perceived tone — sometimes overriding the categorical expectation."

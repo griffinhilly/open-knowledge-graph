@@ -49,7 +49,7 @@ Understand that exclamatory sentences often start with "What" or "How" to emphas
   answer: 2
   explanation: "An exclamatory sentence expresses strong emotion and ends with an exclamation mark. 'I cannot believe we won the championship!' conveys astonishment and excitement — it is exclamatory. Option A is imperative (a command), option B is interrogative (a question), and option D is declarative (a statement of fact). Notice that the exclamatory sentence here does not begin with 'What' or 'How' — any sentence can be exclamatory if it expresses strong emotion."
 
-- question: "An exclamatory sentence must begin with 'What' or 'How' to be grammatically correct."
+- question: "An exclamatory sentence should begin with 'What' or 'How' to be grammatically correct."
   type: true-false
   answer: false
   explanation: "While 'What' and 'How' are common ways to form exclamatory sentences ('What a goal!' or 'How incredible!'), they are not required. Any sentence can be exclamatory if its purpose is to express strong emotion and it ends with an exclamation mark. 'I passed!' and 'You won!' are exclamatory sentences that share their grammatical structure with ordinary declarative sentences. The defining feature of an exclamatory sentence is its purpose, not its opening word."

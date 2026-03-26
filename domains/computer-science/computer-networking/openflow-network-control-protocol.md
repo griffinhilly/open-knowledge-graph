@@ -59,7 +59,7 @@ OpenFlow replaces the entire routing protocol stack; it does not, only the forwa
   answer: true
   explanation: "Each traditional switch only knows its own links and neighbors; it builds routing tables from distributed protocol messages but never has a complete, up-to-date picture of the entire network. An SDN controller with OpenFlow receives topology information and statistics from every switch, giving it a real-time global view. This allows it to reroute flows away from congested paths — a global optimization that distributed protocols like OSPF, which minimize per-node cost, cannot easily perform."
 
-- question: "Deploying OpenFlow in a network eliminates the need for any routing protocols because the controller handles all path decisions."
+- question: "Deploying OpenFlow in a network eliminates the need for any routing protocols because the controller handles most path decisions."
   type: true-false
   answer: false
   explanation: "OpenFlow replaces the forwarding decision mechanism in switches — it does not replace the entire routing protocol stack. The controller still needs information about network topology, reachability, and sometimes external routing (e.g., BGP for inter-domain routing). OpenFlow defines how the controller programs switch flow tables; it says nothing about how the controller itself discovers topology or makes routing decisions. A controller application may use traditional routing algorithms internally or run simplified discovery protocols."

@@ -43,7 +43,7 @@ The Tonnetz (tone network) is a geometric visualization where pitch classes are 
   answer: 2
   explanation: "The horizontal axis of the Tonnetz maps the circle of fifths: each step right adds a perfect fifth (7 semitones). The upper-left diagonal encodes major thirds (4 semitones) and the lower-left diagonal encodes minor thirds (3 semitones). Each triangle in the lattice represents a triad built from these three intervals."
 
-- question: "Moving from one triad to an adjacent triad on the Tonnetz always requires changing all three pitch classes."
+- question: "Moving from one triad to an adjacent triad on the Tonnetz typically requires changing most three pitch classes."
   type: true-false
   answer: false
   explanation: "Adjacent triangles on the Tonnetz share an edge, meaning they share two pitch classes. Only one pitch class changes — it moves to the new vertex across the shared edge. This is precisely parsimonious voice leading: the minimum possible change (one voice, typically by semitone or whole step). This geometric adjacency is why neo-Riemannian operations feel smooth to listeners."

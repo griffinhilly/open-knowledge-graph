@@ -50,7 +50,7 @@ Found poetry constructs poems from existing texts—newspaper articles, advertis
   answer: true
   explanation: "Erasure works by the same logic as all poetic compression: what is removed is as significant as what remains. Choosing to blackout certain passages and let others breathe is not a neutral act of finding what was already there — it is the poet directing the reader's attention, controlling pace and emphasis, and creating a new field of meaning through strategic absence. This is exactly what lineation and white space do in conventional poetry: the silences shape the sound."
 
-- question: "Found poetry works by finding language that is already inherently poetic in its source context — the poet simply notices and extracts what was always present as poetry."
+- question: "Found poetry works by finding language that is already inherently poetic in its source context — the poet simply notices and extracts what was generally present as poetry."
   type: true-false
   answer: false
   explanation: "The transformation from source text to found poem is not extraction of pre-existing poetry — it is an act of reframing that creates poetic qualities through context shift. The words of a coroner's report, a cereal box, or a field guide are not poetic in their original context. When lifted and placed on a page with poetic lineation, spacing, and isolation, the same language acquires resonance, rhythm, and compression it did not have before. The change is produced by the framing, not discovered within the original. This is why found poetry demonstrates poetic principles rather than just illustrating that some prose is inherently poetic."

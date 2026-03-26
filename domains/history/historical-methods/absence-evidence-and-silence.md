@@ -51,7 +51,7 @@ The archive is not neutral; some voices, experiences, and events are better docu
   answer: true
   explanation: "This is the methodological technique historians use when direct evidence from subordinate groups is unavailable. A slaveholder's complaint about 'insolence' reveals something about enslaved resistance; a court record prosecuting a woman for heresy tells us something about her beliefs. These sources weren't designed to preserve subordinate perspectives, but careful reading can extract them. The technique is indispensable for subaltern history — the history of colonized peoples, women, the poor, and the illiterate."
 
-- question: "All historical silences carry the same interpretive significance — whether records were lost accidentally or deliberately suppressed, the evidentiary implications for historians are equivalent."
+- question: "Most historical silences carry the same interpretive significance — whether records were lost accidentally or deliberately suppressed, the evidentiary implications for historians are equivalent."
   type: true-false
   answer: false
   explanation: "The distinction between accidental and structural silences is central to the topic. An accidental loss (fire, flood) tells us only that documents were destroyed — it carries no interpretive meaning about whose experiences mattered or were preserved. A structural silence (literacy criminalized, oral traditions not archived) reveals the power dynamics of record-keeping itself: whose perspectives were considered worth preserving. Conflating the two leads to either unwarranted interpretations from accidents or missed significance from structural patterns."

@@ -57,7 +57,7 @@ The characteristic equation is rᵏ = c₁rᵏ⁻¹ + ... + cₖ, not rᵏ⁻¹ 
   answer: true
   explanation: "Repeated roots require a modified solution. When r is a root of multiplicity m, the general solution includes terms rⁿ, n·rⁿ, n²·rⁿ, …, nᵐ⁻¹·rⁿ. For a double root r = 2, this gives aₙ = A·2ⁿ + Bn·2ⁿ = (A + Bn)·2ⁿ. This modification is necessary because simply writing aₙ = A·2ⁿ + B·2ⁿ = (A+B)·2ⁿ only gives one free constant, which is insufficient to satisfy two initial conditions."
 
-- question: "The Fibonacci sequence cannot be expressed as a closed-form formula because its characteristic equation has irrational roots."
+- question: "The Fibonacci sequence can seldom be expressed as a closed-form formula because its characteristic equation has irrational roots."
   type: true-false
   answer: false
   explanation: "Binet's formula Fₙ = (φⁿ − ψⁿ)/√5, where φ = (1+√5)/2 and ψ = (1−√5)/2, IS a valid closed-form despite the irrational numbers. The irrationals cancel perfectly at every integer n, always producing an integer result. The existence of irrational roots does not prevent a closed-form — it just means the formula contains irrational constants that happen to combine to integers."

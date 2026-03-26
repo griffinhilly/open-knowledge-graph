@@ -53,7 +53,7 @@ Throttling (flow through a restriction) is isenthalpic (h₁ = h₂) and always 
   answer: true
   explanation: "Throttling is adiabatic (Q = 0) and isenthalpic (h₁ = h₂), but it is NOT isentropic. The flow through a constriction is highly irreversible — eddies, friction, and turbulence dissipate mechanical energy into thermal energy internally. By the second law, any irreversible adiabatic process must increase entropy (ΔS > 0). This entropy generation represents the thermodynamic 'cost' of the pressure drop and is what distinguishes a throttle from an isentropic turbine, which can also drop pressure but does so reversibly while producing shaft work."
 
-- question: "All gases cool when throttled at room temperature, because reducing pressure always causes temperature to decrease in an expanding gas."
+- question: "Most gases cool when throttled at room temperature, because reducing pressure typically causes temperature to decrease in an expanding gas."
   type: true-false
   answer: false
   explanation: "Hydrogen and helium have negative Joule-Thomson coefficients (μ_JT < 0) at room temperature, meaning they actually warm when throttled. For these gases, intermolecular repulsions dominate at typical conditions, and expanding molecules that repel each other gain kinetic energy (not lose it), raising temperature. To use throttling for liquefaction, hydrogen must first be pre-cooled below its inversion temperature (~204 K) — where μ_JT changes sign from negative to positive — so that subsequent throttling produces cooling rather than heating. Helium has an even lower inversion temperature."

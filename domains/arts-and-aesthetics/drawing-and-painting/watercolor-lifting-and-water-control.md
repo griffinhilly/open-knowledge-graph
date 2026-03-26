@@ -53,7 +53,7 @@ Watercolor can be lifted (lightened) by removing wet paint with a clean, damp br
   answer: true
   explanation: "Flooded paper has excess standing water that causes pigment to drift, pool, and bloom unpredictably as the water finds its own path across the surface. Wet paper (glistening without puddles) is the sweet spot for wet-on-wet blending: colors merge with soft, gradual gradations and stay roughly where placed. Flooded paper can produce beautiful atmospheric effects in skilled hands, but it is the least controlled of the four moisture states."
 
-- question: "Since all watercolor paints use gum arabic as a binder, all pigments lift equally well from dried washes with the same scrubbing effort."
+- question: "Since most watercolor paints use gum arabic as a binder, most pigments lift equally well from dried washes with the same scrubbing effort."
   type: true-false
   answer: false
   explanation: "Pigment behavior varies significantly with lifting, regardless of the shared binder. Staining pigments (phthalo blue, quinacridone magenta, Prussian blue) penetrate the paper fibers and are very difficult to remove — they leave a visible tint even after vigorous scrubbing. Granulating pigments (cerulean blue, raw umber, ultramarine) form larger particles that rest on the paper surface and lift more readily. Knowing which pigments stain is essential planning knowledge for watercolorists who rely on lifting as a correction technique."

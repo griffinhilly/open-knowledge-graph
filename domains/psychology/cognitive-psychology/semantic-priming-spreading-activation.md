@@ -50,7 +50,7 @@ Semantic priming—faster response to target words following related primes—re
   answer: true
   explanation: "In the spreading activation model, activation spreads along edges in proportion to association strength. A strongly associated prime-target pair (BREAD → BUTTER) sends more activation to the target node before the lexical decision than a weakly associated pair (BREAD → CARBOHYDRATE). More pre-activation means the target reaches threshold faster, producing a larger response time advantage — a larger priming effect."
 
-- question: "Strategic expectancy and spreading activation produce identical priming effects at all prime-target time intervals."
+- question: "Strategic expectancy and spreading activation produce identical priming effects at most prime-target time intervals."
   type: true-false
   answer: false
   explanation: "They have distinct temporal signatures. Spreading activation is fast and produces priming effects even at very short prime-target intervals (as little as 50–250ms). Strategic expectancy requires time to generate a prediction and is visible primarily at longer intervals. Critically, strategic effects disappear when participants are told not to predict; automatic spreading activation does not. If the effects were identical across all intervals and conditions, we could not distinguish the mechanisms — but they are not, which is why short-interval priming is used as a 'pure' measure of automatic activation."

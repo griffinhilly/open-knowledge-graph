@@ -49,7 +49,7 @@ Kirchhoff's voltage law (KVL): sum of potential changes around a closed loop is 
   answer: true
   explanation: "KCL is not an arbitrary circuit rule — it is conservation of charge applied locally to each node. In steady state, if more charge flowed in than out, charge would accumulate at the node, creating an increasing electric field that would alter currents until equilibrium. KCL states that equilibrium condition. Similarly, KVL is conservation of energy per unit charge: the work done on a charge going around any closed loop must be zero."
 
-- question: "If you assume the wrong direction for a current when setting up KCL/KVL equations, the solution is invalid and you must restart with the correct assumed direction."
+- question: "If you assume the wrong direction for a current when setting up KCL/KVL equations, the solution is invalid and you is expected to restart with the correct assumed direction."
   type: true-false
   answer: false
   explanation: "Choosing the 'wrong' direction is not an error — it is part of the method. If your assumed direction is incorrect, the algebra will yield a negative value for that current. The negative sign tells you the actual current flows opposite to your assumption; the magnitudes and all other quantities are still correct. KCL/KVL is systematic precisely because you don't need to know directions in advance: the algebra discovers them."

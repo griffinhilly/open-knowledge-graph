@@ -53,7 +53,7 @@ Not all vasculitis is autoimmune; infections can trigger vasculitis through dire
   answer: 1
   explanation: "ANCA-associated vasculitis is mechanistically distinctive: antibodies target intracellular enzymes (MPO or PR3) that are normally hidden inside neutrophil granules. When cytokines prime neutrophils during infection or systemic inflammation, these antigens transiently surface; ANCAs bind them, activating the neutrophil to attack the endothelium of small vessels. No immune complexes are deposited — hence 'pauci-immune' on biopsy. The pulmonary-renal syndrome (simultaneous hemoptysis and hematuria) results from the small vessel beds of both lungs and kidneys being targeted simultaneously."
 
-- question: "All vasculitis is autoimmune in origin; infectious organisms do not directly cause blood vessel inflammation."
+- question: "Most vasculitis is autoimmune in origin; infectious organisms do not directly cause blood vessel inflammation."
   type: true-false
   answer: false
   explanation: "Infections can trigger vasculitis through two mechanisms: direct invasion of vessel walls by pathogens (as in bacterial endocarditis seeding small vessels), and immune complex formation when antigen-antibody complexes deposit in vessel walls (as seen in hepatitis B-associated polyarteritis nodosa and hepatitis C-associated cryoglobulinemic vasculitis). Recognizing infectious triggers matters therapeutically: treating the underlying infection is essential alongside immunosuppression, and standard immunosuppression alone may worsen infectious vasculitis."

@@ -46,7 +46,7 @@ Perfect Bayesian equilibrium refines Bayesian Nash equilibrium by imposing consi
   answer: 1
   explanation: "BNE specifies strategies and prior beliefs but does not require that strategies remain optimal at every sequential decision point — it can sustain equilibria where players make non-credible threats that are never tested. PBE adds two requirements: (1) sequential rationality — strategies must be optimal at every information set, given beliefs — and (2) belief consistency via Bayes' rule on the equilibrium path. These requirements eliminate equilibria sustained by implausible off-path threats. PBE is essentially the combination of subgame perfect equilibrium's sequential rationality idea with Bayesian updating in games of incomplete information."
 
-- question: "In a Perfect Bayesian Equilibrium, Bayes' rule must be applied to update beliefs at every information set, including those that are never reached in equilibrium."
+- question: "In a Perfect Bayesian Equilibrium, Bayes' rule should be applied to update beliefs at nearly every information set, including those that are seldom reached in equilibrium."
   type: true-false
   answer: false
   explanation: "Bayes' rule can only be applied at information sets reached with positive probability — this is a mathematical requirement, not a design choice. Bayes' rule involves conditioning on an event, and conditioning on a probability-zero event is undefined. PBE therefore only requires Bayes' rule at on-path information sets. At off-path information sets (probability zero in equilibrium), beliefs are required to support sequentially rational play, but PBE leaves the actual belief values relatively unconstrained. This is a genuine limitation of PBE, which is why stronger refinements exist."

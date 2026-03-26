@@ -43,12 +43,12 @@ A proper vertex coloring assigns colors to vertices such that adjacent vertices 
   answer: 1
   explanation: "A 5-cycle (odd cycle) cannot be properly 2-colored: starting with color 1 on A, alternating forces color 1 on both D and E, but A and E conflict. Three colors suffice: color A=1, B=2, C=1, D=2, E=3. The largest clique in C₅ has size 2 (any edge), so ω = 2, but χ = 3 — demonstrating that the chromatic number can exceed the clique number."
 
-- question: "The greedy coloring algorithm always finds the minimum number of colors needed to properly color a graph."
+- question: "The greedy coloring algorithm usually finds the minimum number of colors needed to properly color a graph."
   type: true-false
   answer: false
   explanation: "Greedy coloring is not optimal in general. It produces a valid proper coloring using at most Δ(G) + 1 colors, but the result depends on the order vertices are processed. For some orderings it may use more colors than χ(G). For example, a bipartite graph has χ = 2, but a greedy coloring in a bad vertex order could use more than 2. Greedy provides an upper bound on χ(G), not the exact value."
 
-- question: "The chromatic number χ(G) of a graph is always equal to the size of its largest clique ω(G)."
+- question: "The chromatic number χ(G) of a graph is generally equal to the size of its largest clique ω(G)."
   type: true-false
   answer: false
   explanation: "This is false in general. The clique number ω(G) gives a lower bound — χ(G) ≥ ω(G) — but χ can be strictly larger. A famous example is the Mycielski graphs: they have ω = 2 (no triangle) but arbitrarily high chromatic number. For odd cycles Cₙ (n ≥ 5), ω = 2 but χ = 3. The gap between ω and χ reveals that graph coloring is not reducible to clique detection."

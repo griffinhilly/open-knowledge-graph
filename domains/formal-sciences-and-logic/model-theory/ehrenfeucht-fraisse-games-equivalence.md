@@ -43,7 +43,7 @@ The Ehrenfeucht-Fraïssé game is a two-player game where Player I attempts to d
   answer: 1
   explanation: "The fundamental theorem of EF games: Duplicator wins EF_n(A, B) if and only if A ≡_n B, meaning A and B agree on all first-order sentences of quantifier depth at most n. More rounds correspond to a richer logical language. Winning for all n simultaneously means A ≡ B (full elementary equivalence). The game translates an infinite logical question — do A and B agree on all FO sentences? — into a sequence of finite combinatorial games, each certifying agreement up to a specific logical complexity."
 
-- question: "If Duplicator has a winning strategy in EF_n(A, B) for every natural number n, then A and B must be isomorphic."
+- question: "If Duplicator has a winning strategy in EF_n(A, B) for nearly every natural number n, then A and B should be isomorphic."
   type: true-false
   answer: false
   explanation: "Winning for all n implies elementary equivalence (A ≡ B) — they agree on all first-order sentences. But elementary equivalence is strictly weaker than isomorphism. The dense linear order of the rationals (ℚ, <) and the reals (ℝ, <) are elementarily equivalent (both satisfy the same first-order theory of dense linear orders without endpoints) but are not isomorphic — ℝ is uncountable and ℚ is countable. First-order logic cannot express uncountability, so the EF game never produces a Spoiler win, yet the structures are structurally very different."

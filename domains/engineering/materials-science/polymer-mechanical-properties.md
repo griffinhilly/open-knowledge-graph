@@ -49,7 +49,7 @@ Polymers are large chains of atoms (typically carbon) linked by covalent bonds; 
   answer: false
   explanation: "T_g is not a first-order thermodynamic transition like melting — it has no latent heat and occurs over a temperature range, not at a single point. It reflects a kinetic phenomenon: chains gradually gain or lose segmental mobility as temperature changes, so the modulus transitions smoothly (though steeply) rather than discontinuously. This contrasts with the crystalline melting point T_m in semicrystalline polymers, which IS a true first-order transition with latent heat. The distinction matters for measurement: T_g is often defined as the midpoint of the modulus drop in a dynamic mechanical analysis scan."
 
-- question: "A semicrystalline polymer loses all structural integrity once temperature rises above its glass transition temperature T_g."
+- question: "A semicrystalline polymer loses most structural integrity once temperature rises above its glass transition temperature T_g."
   type: true-false
   answer: false
   explanation: "This is only true for fully amorphous polymers. In semicrystalline polymers (polyethylene, nylon, PEEK), crystalline lamellae are embedded in an amorphous matrix. Above T_g, the amorphous phase becomes rubbery — losing stiffness — but the crystalline regions remain intact and act as physical cross-links, maintaining structural integrity and significant stiffness. The material only loses structural integrity at the crystalline melting point T_m, which is much higher than T_g. This two-phase architecture is precisely what makes semicrystalline polymers useful engineering materials across wide temperature ranges."

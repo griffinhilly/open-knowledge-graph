@@ -57,7 +57,7 @@ Compare Hartree-Fock and experimental ionization energies to quantify correlatio
   answer: true
   explanation: "This is a rigorous result from the variational principle. The Hartree-Fock wavefunction — a single Slater determinant — is a restricted trial wavefunction. The exact wavefunction minimizes energy over all possible wavefunctions, and since the exact wavefunction has more freedom, it always finds at least as low an energy as Hartree-Fock. Equality holds only if the exact wavefunction happens to be a single Slater determinant (which is approximately true only for hydrogen-like atoms). For any multi-electron system with electron-electron interactions, the correlation energy E_corr = E_exact − E_HF is always negative."
 
-- question: "The Hartree-Fock method ignores electron-electron repulsion entirely, which is why post-HF methods are needed to obtain accurate energies."
+- question: "The Hartree-Fock method ignores electron-electron repulsion mostly, which is why post-HF methods are needed to obtain accurate energies."
   type: true-false
   answer: false
   explanation: "This is a fundamental misconception. The Hartree-Fock method explicitly includes electron-electron repulsion — it computes the energy of each electron in the average Coulomb field created by all other electrons. That is the defining feature of the self-consistent field calculation. What Hartree-Fock misses is not repulsion itself but the instantaneous correlation between electron positions (the mean-field approximation). Post-HF methods (configuration interaction, coupled cluster, Møller-Plesset perturbation theory) correct for this correlation, not for an absent repulsion term."

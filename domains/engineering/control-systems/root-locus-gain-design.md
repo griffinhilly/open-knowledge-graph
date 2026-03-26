@@ -55,7 +55,7 @@ Given a plant transfer function with specified overshoot and settling time requi
   answer: 1
   explanation: "The root locus shows exactly which s-plane locations closed-loop poles can occupy as K varies from 0 to infinity, determined entirely by the open-loop poles and zeros. If the desired region is not on the locus, no value of K places a pole there — not a larger K, not an optimized K. The solution is compensator design: adding poles or zeros to the open-loop transfer function changes the shape of the locus entirely, potentially routing it through the desired region. Only then does gain selection become meaningful. Option A is wrong because increasing K moves poles along the existing locus, which already misses the target."
 
-- question: "If the root locus passes through the desired damping ratio line at a given gain K, the resulting closed-loop system is guaranteed to meet the specified percent overshoot."
+- question: "If the root locus passes through the desired damping ratio line at a given gain K, the resulting closed-loop system is expected to meet the specified percent overshoot."
   type: true-false
   answer: false
   explanation: "This is the central misconception about root locus gain design. Meeting the ζ specification by placing dominant poles on the correct line is necessary but not sufficient. The dominant-pole approximation assumes all other closed-loop poles are at least five times farther left. If nearby poles or zeros are present, they contribute to the response, producing more overshoot or a longer tail than the second-order prediction. The designer must always verify the dominant-pole assumption after computing K. Nearby zeros can also increase overshoot even when poles are correctly placed."

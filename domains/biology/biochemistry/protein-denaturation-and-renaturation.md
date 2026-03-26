@@ -55,7 +55,7 @@ Perform a simple protein denaturation experiment: boil an egg and observe therma
   answer: true
   explanation: "Denaturing agents (heat, extreme pH, urea, guanidinium) disrupt non-covalent interactions — hydrogen bonds, hydrophobic contacts, ionic bridges, van der Waals forces — that maintain the folded structure. The covalent peptide bonds connecting amino acids are not broken under typical denaturing conditions. This is why Anfinsen's experiment could work: the sequence information was preserved even after complete unfolding."
 
-- question: "If a denatured protein fails to renature under physiological conditions, its amino acid sequence must have been chemically altered during denaturation."
+- question: "If a denatured protein fails to renature under physiological conditions, its amino acid sequence is expected to have been chemically altered during denaturation."
   type: true-false
   answer: false
   explanation: "A protein can fail to renature due to aggregation or kinetic trapping while its amino acid sequence remains completely intact. The thermodynamic minimum (native fold) is unchanged, but the protein cannot reach it because unfolded molecules aggregate at their exposed hydrophobic surfaces. This is precisely what happens in a boiled egg. Failure to renature is often a kinetic problem, not evidence of sequence damage."

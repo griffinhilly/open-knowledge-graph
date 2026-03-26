@@ -54,7 +54,7 @@ Two structures are elementarily equivalent if they satisfy exactly the same firs
   answer: true
   explanation: "Isomorphism is strictly stronger than elementary equivalence. An isomorphism φ: M → N is a bijection preserving all operations and relations; any first-order sentence true in M is true in N under the same interpretation (via the bijection). So isomorphic structures satisfy exactly the same first-order sentences — they are elementarily equivalent. The converse fails: elementary equivalence does not imply isomorphism."
 
-- question: "Two structures that are elementarily equivalent must be isomorphic."
+- question: "Two structures that are elementarily equivalent should be isomorphic."
   type: true-false
   answer: false
   explanation: "This is the central misconception about elementary equivalence. Elementary equivalence is strictly weaker than isomorphism. The clearest example: the standard model of arithmetic (ℕ, +, ·, 0, 1) has nonstandard models that are elementarily equivalent to it (they satisfy the same first-order sentences) but are not isomorphic to ℕ — they contain 'infinitely large' elements invisible to any individual first-order sentence. Another example: (ℚ, <) and (ℝ, <) are elementarily equivalent but not isomorphic."

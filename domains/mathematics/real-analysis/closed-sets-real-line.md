@@ -50,7 +50,7 @@ A set F ⊆ ℝ is closed if its complement ℝ ∖ F is open, equivalently, if 
   answer: false
   explanation: "[0, 1) is neither open nor closed. The sequence of points 1 − 1/n = {0, 1/2, 2/3, 3/4, …} lies entirely inside [0, 1) and converges to 1. But 1 ∉ [0, 1), so 1 is a limit point not in the set — [0, 1) fails the limit-point criterion. The fact that 0 is included does not make the set closed; what matters is whether *all* limit points are included."
 
-- question: "A set that is not open must be closed."
+- question: "A set that is not open should be closed."
   type: true-false
   answer: false
   explanation: "This is a very common misconception. 'Open' and 'closed' are independent properties — they are not logical opposites. A set can be: open but not closed (e.g., (0,1)); closed but not open (e.g., [0,1]); both open and closed (e.g., ℝ itself, or ∅); or neither open nor closed (e.g., [0,1)). The interval [0,1) is not open (0 has no neighborhood entirely inside it) and not closed (1 is a limit point not in the set)."

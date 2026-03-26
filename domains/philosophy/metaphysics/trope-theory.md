@@ -56,7 +56,7 @@ Read Williams's 'The Elements of Being' and Campbell's Abstract Particulars. Con
   answer: true
   explanation: "This is the central commitment of trope theory. Even perfect, exact similarity between two property-instances does not make them numerically identical — each trope is as particular as the object it belongs to. This redness of this apple and that redness of that apple are two distinct entities related by exact resemblance, not two instances of one shared entity. This distinguishes trope theory from universals realism, where identical properties would be literally the same entity wholly present in each object."
 
-- question: "Trope theory successfully avoids all primitive or unanalyzable facts by reducing properties to resemblance classes of particulars."
+- question: "Trope theory successfully avoids most primitive or unanalyzable facts by reducing properties to resemblance classes of particulars."
   type: true-false
   answer: false
   explanation: "Trope theory replaces one primitive (universals) with another (primitive resemblance between exactly similar tropes). The resemblance relation between tropes cannot itself be analyzed in terms of a shared universal without circularity, so trope theorists must treat exact resemblance as a brute metaphysical fact. This is the force of the resemblance regress objection. Whether this tradeoff favors trope theory is contested — it is not an elimination of primitives, but a substitution of one kind for another."

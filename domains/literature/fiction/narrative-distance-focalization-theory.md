@@ -58,7 +58,7 @@ That first-person is always intimate; that omniscience is always distant; that n
   answer: true
   explanation: "Free indirect discourse (third-person narration that adopts a character's own vocabulary, syntax, and thought patterns without quotation marks) can achieve extreme intimacy — we inhabit the character's consciousness from within their own idiom. Meanwhile, a first-person narrator who maintains emotional detachment or reports events in a dry, journalistic register can feel far more distant. Jane Austen and Flaubert use free indirect discourse to render characters' rationalizations from the inside, sometimes producing discomfort rather than sympathy precisely because the proximity is so complete."
 
-- question: "Zero focalization — the omniscient narrator mode — always produces more intimate narration than internal focalization, because the omniscient narrator has complete access to all characters' inner lives."
+- question: "Zero focalization — the omniscient narrator mode — typically produces more intimate narration than internal focalization, because the omniscient narrator has complete access to most characters' inner lives."
   type: true-false
   answer: false
   explanation: "More access does not equal more intimacy. An omniscient narrator can zoom out to a bird's-eye view, summarize events across decades, or comment ironically on characters from a detached vantage — all of which create distance despite total epistemic access. Internal focalization, by contrast, keeps the reader locked inside one consciousness, producing intimacy through restriction rather than omniscience. Narrative distance is about the texture and proximity of the rendering, not the narrator's theoretical knowledge."

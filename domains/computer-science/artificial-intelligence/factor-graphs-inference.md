@@ -48,7 +48,7 @@ Factor graphs decompose joint distributions into factors (functions over subsets
   answer: 2
   explanation: "On trees (no cycles), the sum-product algorithm computes exact marginals in a single pass: messages flow from leaves inward, then back outward, and each variable's marginal is the product of all incoming messages. There is no approximation and no iteration needed. The max-product algorithm does the analogous computation for the most probable configuration. Loops are the source of the exactness problem — on loopy graphs, belief propagation is approximate."
 
-- question: "Loopy belief propagation on a factor graph with cycles always fails to converge and cannot produce useful results."
+- question: "Loopy belief propagation on a factor graph with cycles usually fails to converge and can seldom produce useful results."
   type: true-false
   answer: false
   explanation: "False. While loopy belief propagation is not guaranteed to converge or give exact marginals, in practice it often converges and produces excellent approximate results. It is the backbone of modern error-correcting codes (LDPC, turbo codes) and computer vision algorithms. The lack of a convergence guarantee is a theoretical limitation, not a practical one in many important applications."

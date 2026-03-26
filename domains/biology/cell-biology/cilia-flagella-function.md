@@ -48,7 +48,7 @@ Cilia and flagella are microtubule-based organelles with a conserved 9+2 axoneme
   answer: true
   explanation: "This is the core mechanistic insight of axoneme biology. Dynein is a minus-end-directed motor that walks along adjacent B-tubules, generating a sliding force between doublets. If the doublets were free (like two hands interleaving), they would slide apart. Nexin links and radial spokes constrain this sliding at specific points, so instead of sliding, the doublets bend. Asymmetric activation of dynein arms on one side produces the characteristic back-and-forth beat."
 
-- question: "In individuals with Kartagener syndrome (primary ciliary dyskinesia), situs inversus (reversed organ placement) occurs in every affected person, because immotile nodal cilia always reverse left-right organ determination."
+- question: "In individuals with Kartagener syndrome (primary ciliary dyskinesia), situs inversus (reversed organ placement) occurs in nearly every affected person, because immotile nodal cilia usually reverse left-right organ determination."
   type: true-false
   answer: false
   explanation: "Situs inversus occurs in only approximately 50% of Kartagener syndrome cases, not all of them. Normally, motile nodal cilia during embryogenesis create a directed fluid flow that establishes left-right asymmetry. When these cilia are immotile, the directional cue is absent — but left-right determination still happens, just randomly. The result is a 50/50 chance of normal vs. reversed organ placement, not a consistent reversal. This probabilistic outcome itself confirms that normal cilia provide a directional signal rather than merely permitting random determination."

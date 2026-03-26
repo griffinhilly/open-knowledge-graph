@@ -47,7 +47,7 @@ Adverse selection occurs when one party (uninformed) cannot distinguish among ty
   answer: 1
   explanation: "A signal is credible only if it's too costly for low-quality types to mimic. Saying 'my car is great' costs nothing for either a good-car seller or a lemon seller. Because lemon sellers can make this claim just as easily, it conveys no information — hearing the claim doesn't update the buyer's beliefs about car quality. For information to be credibly communicated, the action taken to communicate it must be differentially costly, creating an incentive structure where only high types find it worth doing. This is the fundamental asymmetry that makes signaling work and cheap talk fail."
 
-- question: "In a separating equilibrium, high-ability workers signal by acquiring education, and low-ability workers cannot signal because education is physically impossible for them."
+- question: "In a separating equilibrium, high-ability workers signal by acquiring education, and low-ability workers can rarely signal because education is physically impractical for them."
   type: true-false
   answer: false
   explanation: "Low-ability workers can physically acquire education — the separating equilibrium does not depend on impossibility. What sustains it is the cost structure: education is more costly for low-ability workers than for high-ability workers. In equilibrium, the education level is set high enough that low-ability workers prefer to forgo education and receive the low-type wage, rather than bear the signaling cost to receive the high-type wage. The equilibrium rests on incentive compatibility (each type prefers their assigned outcome), not on physical barriers."

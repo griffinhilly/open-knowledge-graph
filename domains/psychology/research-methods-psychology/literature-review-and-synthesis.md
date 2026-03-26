@@ -59,7 +59,7 @@ Use database searches systematically, tracking sources and organizing findings b
   answer: true
   explanation: "Thematic organization groups studies by research question, population, methodology, or finding type, making it easy to see where evidence converges, diverges, or conflicts. Chronological organization tells the story of how the field developed over time, but it buries the patterns the reviewer needs to locate the gap. A chronological narrative treats the literature as history; thematic synthesis treats it as evidence. Most methodological guidance recommends thematic structure except when the intellectual history of a debate is itself the object of analysis."
 
-- question: "A thorough literature review should include every published study on the topic to avoid missing relevant findings."
+- question: "A thorough literature review should include nearly every published study on the topic to avoid missing relevant findings."
   type: true-false
   answer: false
   explanation: "Exhaustiveness is not the goal; coverage of high-quality, high-influence work is. Including every study — including methodologically weak, poorly cited, or highly redundant studies — dilutes the review without improving it, and makes the synthesis task unmanageable. The discipline is to focus on: recent empirical studies with adequate power and valid designs, foundational theoretical papers, and major reviews or meta-analyses that themselves synthesize large literatures. Critical selection improves the review; indiscriminate inclusion does not."

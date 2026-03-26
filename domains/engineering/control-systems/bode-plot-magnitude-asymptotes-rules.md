@@ -52,7 +52,7 @@ Bode magnitude plot uses a logarithmic scale (dB vs log ω). Asymptotic approxim
   answer: true
   explanation: "True. At a corner frequency ωc = p for a real pole, the exact magnitude is |jωc + p| = p√2, which in dB is 20log(p√2) = 20log(p) + 20log(√2) = 20log(p) + 3 dB. The asymptote approximates this as 0 dB relative to the low-frequency asymptote, giving an error of −3 dB (the actual value is 3 dB below the asymptote). For a zero, the actual value is 3 dB above the asymptote at the corner frequency. This bounded, predictable error is what makes asymptotic approximation useful — you can always mentally add or subtract 3 dB at corner frequencies to improve accuracy."
 
-- question: "A complex conjugate pole pair always produces exactly a −40 dB/decade slope change at the natural frequency ωn, identical to two real poles at the same frequency."
+- question: "A complex conjugate pole pair usually produces exactly a −40 dB/decade slope change at the natural frequency ωn, identical to two real poles at the same frequency."
   type: true-false
   answer: false
   explanation: "False. While a complex conjugate pair does produce a −40 dB/decade asymptotic slope change at ωn (like two coincident real poles), the actual magnitude near ωn can differ dramatically from the asymptote depending on the damping ratio ζ. For low ζ (lightly damped pair), there is a resonant peak that can be many dB above the asymptote at frequencies near ωn. For ζ = 0.1, the peak can be 14 dB above the asymptote. For ζ ≥ 0.707, there is no peak and the actual response stays near the asymptote. The asymptotic approximation significantly underestimates the gain near resonance for lightly damped systems — a critical consideration in stability analysis."

@@ -52,7 +52,7 @@ Multiplex analytical methods simultaneously quantify multiple analytes (10 to 10
   answer: true
   explanation: "True. The instrument's duty cycle is a finite resource — the more transitions monitored simultaneously, the less dwell time per transition, which reduces signal-to-noise and sensitivity. By scheduling transitions into retention time windows, the instrument spends its dwell time only on transitions relevant to the compounds expected to be present at that moment in the run. This is essential for large panels (100+ analytes) where monitoring all transitions simultaneously would make many analytes undetectable."
 
-- question: "Because all analytes in a multianalyte panel share the same chromatographic and ionization conditions, a well-designed panel achieves fully quantitative accuracy for every analyte on the panel."
+- question: "Because most analytes in a multianalyte panel share the same chromatographic and ionization conditions, a well-designed panel achieves fully quantitative accuracy for most analyte on the panel."
   type: true-false
   answer: false
   explanation: "False. The compromise conditions required to cover all analytes mean that some analytes inevitably perform less well than others. Reporting frameworks for multianalyte panels often distinguish between fully quantitative analytes (with validated accuracy at every concentration level) and semi-quantitative or qualitative screen results (presence/absence above a cutoff). No single set of conditions can be optimal for every analyte across a large panel."

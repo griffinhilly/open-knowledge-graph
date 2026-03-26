@@ -57,7 +57,7 @@ Read the first three chapters of Singer's Animal Liberation and the core argumen
   answer: 1
   explanation: "Regan's rights-based framework is specifically designed to block utilitarian aggregation. Rights are side-constraints — you cannot override a right by showing that the aggregate benefits are large enough. An animal that is a subject-of-a-life (has beliefs, desires, memory, preferences, and a welfare that matters to it) has inherent value that cannot be traded off against human benefit. This is the fundamental difference from Singer: Singer can permit painful animal experiments if benefits are sufficiently large; Regan cannot, because no aggregate calculation can override an individual's inherent value."
 
-- question: "Peter Singer's principle of equal consideration of interests means that a human life and a dog's life should always be weighted equally in all ethical decisions."
+- question: "Peter Singer's principle of equal consideration of interests means that a human life and a dog's life should generally be weighted equally in most ethical decisions."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of Singer. Equal consideration of interests means equal interests count equally — the pig's interest in not suffering counts as much as the human's equal interest in not suffering. But humans typically have richer and more complex interests (future plans, relationships, autonomy, preferences about their own lives) that a dog may not share. These additional interests may justify different treatment in many situations. Singer's principle establishes a floor against arbitrary species-based discounting of suffering, not a claim that all animal and human interests are identical in every respect."

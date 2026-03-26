@@ -50,7 +50,7 @@ Load balancers distribute incoming requests across multiple servers to balance l
   answer: true
   explanation: "Layer 7 load balancers operate at the HTTP application layer and can inspect any part of the HTTP request, including all headers. The User-Agent header identifies the client browser and device type, enabling the balancer to distinguish mobile from desktop clients. Other header-based routing examples include routing based on Accept-Language for localization, Authorization headers for authenticated vs. anonymous users, or custom headers set by API gateways. This flexibility is the core value proposition of Layer 7 over Layer 4."
 
-- question: "When a backend server fails, it must be manually removed from the load balancer's pool by an administrator — and manually re-added after recovery — to prevent traffic from reaching it."
+- question: "When a backend server fails, it is expected to be manually removed from the load balancer's pool by an administrator — and manually re-added after recovery — to prevent traffic from reaching it."
   type: true-false
   answer: false
   explanation: "Load balancers implement automatic health checking: they periodically send probe requests (TCP connection attempts, HTTP requests, or custom health check endpoints) to each backend server. If a server fails to respond within the configured threshold, the load balancer automatically removes it from the pool and stops sending traffic to it. When the server recovers and passes health checks, it is automatically restored to the pool. This automation is what makes load balancing a genuine high-availability solution, not just a performance tool — servers can crash or undergo maintenance without human intervention and without client-visible downtime."

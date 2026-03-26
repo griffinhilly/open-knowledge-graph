@@ -58,7 +58,7 @@ Trace a write() system call from user process through the kernel I/O stack: syst
   answer: 1
   explanation: "Programmed I/O requires the CPU to execute a loop reading or writing one word at a time between the device controller and memory — simple but wasteful, since moving bytes is not what CPUs are built for. With DMA, the CPU sets up the transfer (source address, destination address, byte count) and then resumes other work. The DMA controller independently manages the memory bus and transfers the entire block, sending a single interrupt only when done. This is why a modern system can simultaneously stream video from disk, receive network packets, and run application code — the CPU orchestrates I/O without performing the tedious data-movement work itself."
 
-- question: "A bug in a device driver will crash only the specific process that was using the device at the time, since drivers handle device-specific operations in isolated user-space processes."
+- question: "A bug in a device driver will crash mainly the specific process that was using the device at the time, since drivers handle device-specific operations in isolated user-space processes."
   type: true-false
   answer: false
   explanation: "Device drivers run in kernel mode with full hardware access — not in isolated user-space processes. A driver bug can corrupt kernel memory, write to arbitrary hardware registers, or corrupt shared data structures. Because all processes share the kernel, a crashed or misbehaving driver can hang or crash the entire system. This is why driver code is disproportionately represented in OS stability bugs, and why operating systems like Windows and Linux invest heavily in driver testing and sandboxing techniques."

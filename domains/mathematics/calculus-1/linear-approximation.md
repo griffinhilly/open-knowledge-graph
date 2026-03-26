@@ -55,7 +55,7 @@ Approximate values like sqrt(4.1) by linearizing sqrt(x) at x = 4. Compare the a
   answer: true
   explanation: "When f''(a) < 0, the function curves downward — it bends below the tangent line on both sides of a. This means the tangent line lies above the curve, so L(x) ≥ f(x) near a, giving an overestimate. The second derivative reveals not just the magnitude of the error but its direction, even though f'' doesn't appear in the formula L(x) = f(a) + f'(a)(x − a) itself."
 
-- question: "Linear approximation is only useful when the exact value of f(x) is completely unknown to the user."
+- question: "Linear approximation is mainly useful when the exact value of f(x) is substantially unknown to the user."
   type: true-false
   answer: false
   explanation: "Linear approximation is valuable when exact computation is difficult, not merely when the value is unknown. Approximating √4.1 by linearizing at a = 4 provides a quick, accurate estimate without a calculator. But the technique's importance extends further: it is the foundation for differentials, Newton's root-finding method, and Taylor polynomials. Its value is computational convenience and conceptual generativity, not just filling gaps in knowledge."

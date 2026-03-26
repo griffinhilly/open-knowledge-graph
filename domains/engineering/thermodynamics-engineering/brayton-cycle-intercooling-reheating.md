@@ -43,7 +43,7 @@ Intercooling (cooling air between compressor stages) reduces net compression wor
   answer: 1
   explanation: "In a simple Brayton cycle at high pressure ratio, the compressed air exits the compressor hotter than the turbine exhaust — so a heat exchanger between them would actually transfer heat the wrong way. Intercooling lowers the compressor outlet temperature, and reheating raises the turbine exhaust temperature. This reversal in relative temperatures makes the regenerator thermodynamically feasible: exhaust heat can now flow into the cooler compressed air before combustion, reducing the fuel needed."
 
-- question: "Adding intercooling to a Brayton cycle always increases overall thermal efficiency, even without a regenerator."
+- question: "Adding intercooling to a Brayton cycle usually increases overall thermal efficiency, even without a regenerator."
   type: true-false
   answer: false
   explanation: "Intercooling alone does NOT necessarily improve thermal efficiency — it may actually reduce it. While intercooling decreases compression work (improving net work output), it also reduces the average temperature at which heat is added (since the intercooled air enters the combustor at a lower temperature), which lowers cycle efficiency by the Carnot argument. The efficiency benefit of intercooling is only fully realized when paired with a regenerator that recovers the exhaust heat and compensates for the lower combustor inlet temperature."

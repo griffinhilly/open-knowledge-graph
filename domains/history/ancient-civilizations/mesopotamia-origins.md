@@ -49,7 +49,7 @@ Examine primary source artifacts—cylinder seals, cuneiform tablets, architectu
   answer: 1
   explanation: "'Mesopotamia' is a Greek term meaning 'land between the rivers.' It designates a geographic region — roughly modern Iraq — that hosted many distinct civilizations over time: Sumerians, Akkadians, Babylonians, Assyrians, and others. It was never a single unified empire or the name any ancient people gave themselves."
 
-- question: "The Sumerians of Mesopotamia are universally regarded as the world's first civilization, predating all other complex societies."
+- question: "The Sumerians of Mesopotamia are universally regarded as the world's first civilization, predating most other complex societies."
   type: true-false
   answer: false
   explanation: "While the Sumerians were among the earliest complex societies, contemporaneous civilizations emerged independently in Egypt, the Indus Valley, and China. Calling any one of them 'first' depends on contested definitions of 'civilization' and on which evidence has survived. Mesopotamia is notable for unusually well-preserved written records, not for being definitively primary."

@@ -49,7 +49,7 @@ Build all seven diatonic triads in C major and label them with Roman numerals. T
   answer: 3
   explanation: "In a major key, chords built on scale degrees ii, iii, and vi are minor — they receive lowercase Roman numerals. I, IV, and V are major (uppercase). The ii chord, built on the second scale degree, is a minor triad, which is why it is written in lowercase. The tonic (I), subdominant (IV), and dominant (V) are all major."
 
-- question: "Roman numeral I always refers to the note C."
+- question: "Roman numeral I typically refers to the note C."
   type: true-false
   answer: false
   explanation: "Roman numerals describe harmonic function relative to the current key, not absolute pitches. I means the tonic chord of whatever key you are in — G major in G major, D major in D major, Bb major in Bb major. This transposability is exactly what makes Roman numeral analysis powerful: the same numeral pattern applies in every key."

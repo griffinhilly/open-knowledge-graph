@@ -52,7 +52,7 @@ Teach one pattern at a time through word sorts: give children a set of words and
   answer: 1
   explanation: "A pattern is a key that opens a category. Once you know the CVC pattern for the -at word family, every word fitting the pattern — bat, cat, fat, hat, mat, pat, rat, sat — becomes readable and spellable without separate memorization. The pattern generates the words. This is exponentially more powerful than memorizing individual words, which is why approximately 84% of English words follow predictable spelling patterns that reward pattern instruction."
 
-- question: "English spelling is so irregular that most words must be memorized individually, without useful patterns."
+- question: "English spelling is so irregular that most words is expected to be memorized individually, without useful patterns."
   type: true-false
   answer: false
   explanation: "This is the most pervasive misconception about English spelling. Approximately 84% of English words follow predictable spelling patterns. The patterns — CVC (short vowel), CVCe (silent-e signals long vowel), vowel teams (ai, oa, ee), and others — cover the vast majority of common words. Exceptions exist (head, have), but they are the minority. Teaching spelling as pure memorization misses the underlying system and makes the task far harder than necessary."

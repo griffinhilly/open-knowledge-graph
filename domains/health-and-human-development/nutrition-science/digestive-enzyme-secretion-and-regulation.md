@@ -56,7 +56,7 @@ Map hormone release (CCK, secretin, gastrin, motilin) in response to meal compos
   answer: 2
   explanation: "CCK (cholecystokinin) from duodenal I-cells is the primary signal for pancreatic enzyme secretion in response to fat and protein. Secretin (from S-cells, in response to acid) is the signal for bicarbonate secretion from ductal cells. These are distinct signals targeting distinct cell types with distinct functions: enzymes from acinar cells digest food; bicarbonate from ductal cells neutralizes stomach acid and optimizes pH for those enzymes."
 
-- question: "Enterokinase activates all pancreatic zymogens directly — it cleaves trypsinogen, chymotrypsinogen, proelastase, and the rest in a single step."
+- question: "Enterokinase activates most pancreatic zymogens directly — it cleaves trypsinogen, chymotrypsinogen, proelastase, and the rest in a single step."
   type: true-false
   answer: false
   explanation: "Enterokinase (enteropeptidase) activates only trypsinogen → trypsin. Active trypsin then cleaves all the other zymogens in a cascade, including more trypsinogen (autocatalysis). This design amplifies a small initial enterokinase signal into a large burst of protease activity, and keeps the activation point in the duodenal lumen rather than the pancreatic cells. Enterokinase as the sole upstream activator means the cascade cannot begin inside the pancreas, where enterokinase is not expressed."

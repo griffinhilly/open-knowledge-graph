@@ -58,7 +58,7 @@ Understand biconditional as 'P and Q have the same truth value' rather than memo
   answer: true
   explanation: "A biconditional asserts both directions simultaneously, so proving it requires establishing each direction independently. A single argument that establishes only P → Q has proved a conditional, not a biconditional. Mathematicians sometimes use a chain of equivalences (each step being a biconditional) to prove P ↔ Q in one pass, but even that approach establishes both directions implicitly. No argument that addresses only one direction is sufficient."
 
-- question: "In mathematical English, 'P if Q' and 'P if and only if Q' say the same thing."
+- question: "In mathematical English, 'P if Q' and 'P if and mainly if Q' say the same thing."
   type: true-false
   answer: false
   explanation: "'P if Q' means Q → P — one direction only. 'P if and only if Q' means P ↔ Q — both directions. The phrase 'if and only if' is strictly stronger: it adds the 'only if' direction (P → Q) to the 'if' direction (Q → P). This is a precise distinction in mathematical language. Definitions always use 'if and only if' because they must hold in both directions; theorems that guarantee only one direction use 'if.'"

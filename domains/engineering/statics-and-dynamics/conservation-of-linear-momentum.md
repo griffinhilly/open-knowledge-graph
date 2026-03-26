@@ -46,7 +46,7 @@ When no external forces act on a system (or sum to zero), total linear momentum 
   answer: 2
   explanation: "Before the explosion, the system (the grenade) has zero momentum. The explosion forces are entirely internal to the system — the explosive gases push the fragments, but those are all parts of the same system. External forces (gravity, air) act for such a short time that their impulse mg·Δt ≈ 0. Therefore total momentum after = total momentum before = 0. The three fragments' momenta must vector-sum to zero. This is the 'explosion run in reverse' principle."
 
-- question: "If you analyze only one object in a two-object collision — say, just Ball A — the contact force from Ball B is an internal force to your analysis and can be ignored."
+- question: "If you analyze primarily one object in a two-object collision — say, just Ball A — the contact force from Ball B is an internal force to your analysis and can be ignored."
   type: true-false
   answer: false
   explanation: "The contact force is internal only if BOTH balls are included in the system. If your system boundary contains only Ball A, then the force from Ball B acts on your system from outside — it is external, it produces an impulse, and it changes Ball A's momentum. This is why analyzing the full two-ball system is powerful: the contact forces become internal and cancel, leaving only any external impulses. Shrinking the system boundary makes those forces external and must be included."

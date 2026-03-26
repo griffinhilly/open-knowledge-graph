@@ -49,7 +49,7 @@ The Gaussian integers ℤ[i] = {a + bi : a,b ∈ ℤ} form a unique factorizatio
   answer: true
   explanation: "Multiplicativity of the norm is the engine of Gaussian integer factorization theory. Because N(αβ) = N(α)N(β), any factorization in ℤ[i] produces a corresponding factorization of norms in ℤ. This means divisibility and primality questions in ℤ[i] can be partially reduced to ordinary integer arithmetic. In particular, an element with prime norm must be a Gaussian prime, because the only way to factor its norm in ℤ would require one factor to be 1 (a unit)."
 
-- question: "Every rational prime remains prime in ℤ[i] because ℤ[i] contains ℤ as a subring, and divisibility is preserved under ring extensions."
+- question: "Most rational prime remains prime in ℤ[i] because ℤ[i] contains ℤ as a subring, and divisibility is preserved under ring extensions."
   type: true-false
   answer: false
   explanation: "This is false. Rational primes fall into three categories in ℤ[i]: primes p ≡ 3 (mod 4) remain prime (inert); primes p ≡ 1 (mod 4) split into a product of two distinct Gaussian primes — for example, 5 = (2+i)(2−i); and p = 2 ramifies as 2 = −i(1+i)². Being prime in a subring does not guarantee primality in an extension ring; it is a property that must be checked in the new ring."

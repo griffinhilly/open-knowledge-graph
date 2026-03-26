@@ -55,7 +55,7 @@ Start with familiar examples: open and closed subsets of ℝ are the simplest Bo
   answer: 1
   explanation: "Suslin's theorem states: a set is Borel if and only if it is both analytic (Σ¹₁) and coanalytic (Π¹₁). Coanalytic means its complement is analytic. So if A is analytic and its complement is analytic (hence A is coanalytic), then A is Borel. This is one of the key boundary results in descriptive set theory — it characterizes the Borel sets from one level above via a clean intersection condition."
 
-- question: "Every subset of ℝ that can be explicitly described in a few sentences of mathematical English is a Borel set."
+- question: "Most subset of ℝ that can be explicitly described in a few sentences of mathematical English is a Borel set."
   type: true-false
   answer: false
   explanation: "Analytic sets (Σ¹₁) can be explicitly described as projections of Borel sets, yet they need not be Borel — there exist analytic non-Borel sets, constructible by diagonalization via universal sets. More generally, 'describable' is a vague notion; the hierarchy formalizes exactly which descriptions (open, Gδ, Fσ, analytic, etc.) correspond to which level of definitional complexity. Not all explicitly described sets land in the Borel σ-algebra."

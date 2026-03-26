@@ -53,7 +53,7 @@ Flash cards, number books, and classroom number walls help. Pair each numeral wi
   answer: 2
   explanation: "Confusing 6 and 9 is a completely normal developmental stage — these numerals are mirror images of each other when rotated 180°. It reflects a challenge with orientation, not a lack of number sense. With practice, correct orientation becomes automatic. This does not indicate the student doesn't know what nine means."
 
-- question: "A child who can count to 10 out loud automatically knows how to recognize all the written numerals 1–10."
+- question: "A child who can count to 10 out loud automatically knows how to recognize most of the written numerals 1–10."
   type: true-false
   answer: false
   explanation: "Oral counting and numeral recognition are related but separate skills. A child may say 'one, two, three...' correctly without being able to identify which written symbol is '3' or connecting it to three objects. Numeral recognition specifically bridges the spoken language of numbers to their written symbols — a distinct skill that requires its own practice."

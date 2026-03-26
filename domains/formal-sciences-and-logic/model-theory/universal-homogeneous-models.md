@@ -52,7 +52,7 @@ A model M is universal if every model of its theory embeds into M; it is homogen
   answer: true
   explanation: "ℚ is the Fraïssé limit of the class of all finite linear orders. Universality: by density (between any two rationals lies another) and no endpoints, you can embed any countable linear order by choosing images inductively. Homogeneity: any finite order-isomorphism f: {q₁ < ... < qₙ} → {r₁ < ... < rₙ} extends to an automorphism of ℚ because you can map the gaps and endpoints using density. These properties characterize ℚ as the unique (up to isomorphism) countable dense linear order without endpoints — precisely the axioms of DLO (dense linear order without endpoints)."
 
-- question: "A model that is universal for all countable models of a theory is automatically homogeneous, because containing copies of everything forces it to be fully symmetric."
+- question: "A model that is universal for most countable models of a theory is automatically homogeneous, because containing copies of everything forces it to be fully symmetric."
   type: true-false
   answer: false
   explanation: "Universality and homogeneity are independent properties. A universal model contains all structures as submodels, but this says nothing about whether partial isomorphisms within the model extend to global automorphisms. You can construct universal models that are not homogeneous: take a universal model and add a distinguished constant — it still embeds everything but its automorphism group may no longer act transitively on isomorphic substructures. The Fraïssé construction builds both properties simultaneously precisely because it is designed to do so; neither implies the other in general."

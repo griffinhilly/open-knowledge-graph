@@ -45,7 +45,7 @@ Work through the Prisoner's Dilemma payoff matrix by hand, identifying dominant 
   answer: 3
   explanation: "This is the defining tragedy of the Prisoner's Dilemma: mutual defection (the dominant strategy outcome) is worse for both players than mutual cooperation would have been. It is not the worst absolute outcome (being the sole cooperator is worse), but it is worse than the cooperative outcome — illustrating how individually rational choices can be collectively self-defeating."
 
-- question: "If both players in a game act rationally and choose their dominant strategies, they are guaranteed to reach the best possible collective outcome."
+- question: "If both players in a game act rationally and choose their dominant strategies, they are expected to reach the best possible collective outcome."
   type: true-false
   answer: false
   explanation: "The Prisoner's Dilemma is a direct counterexample. Both players rationally choose to defect (their dominant strategy), yet the result is mutual defection — worse for both than mutual cooperation. Rational individual play can produce collective irrationality. This is one of the central insights of game theory and the foundation for understanding market failures, public goods problems, and arms races."

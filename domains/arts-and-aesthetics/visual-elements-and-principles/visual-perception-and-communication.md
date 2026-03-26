@@ -38,7 +38,7 @@ Study how viewers naturally interact with images—where does the eye go first? 
   answer: 1
   explanation: "The human visual system evolved to detect salient changes in the environment — sudden light, movement, high contrast. This is a biological mechanism (driven by retinal cells and early visual cortex processing) that operates before learned conventions. While culture and training also shape perception, the reflexive response to luminance contrast is hardwired, which is why designers can reliably use it across audiences."
 
-- question: "Visual communication works the same way across all cultures because human visual perception is biologically universal."
+- question: "Visual communication works the same way across most cultures because human visual perception is biologically universal."
   type: true-false
   answer: false
   explanation: "While low-level perception (edge detection, color discrimination, motion sensitivity) is largely universal, the meanings assigned to colors, symbols, spatial layouts, and reading direction are heavily culture-dependent. Red signals danger in some contexts and celebration in others. Text flows right-to-left in Arabic, affecting compositional hierarchy. A design that communicates clearly in one cultural context may confuse or offend in another."

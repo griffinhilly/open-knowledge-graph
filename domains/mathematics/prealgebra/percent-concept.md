@@ -48,7 +48,7 @@ Use 10×10 grids to visualize percents as shaded portions of 100 squares. Connec
   answer: 1
   explanation: "Percents can exceed 100. 150% simply means 150 per 100, or 1.5 times the reference value. The misconception comes from thinking of percent as always a 'part of a whole' capped at 100, but percent is a ratio that scales to any value."
 
-- question: "If a jacket is '30% off,' the discount amount is always $30."
+- question: "If a jacket is '30% off,' the discount amount is generally $30."
   type: true-false
   answer: false
   explanation: "Percent is always relative to a base (the original price). 30% off a $200 jacket is $60; 30% off a $50 jacket is $15. The '$30' figure only applies if the original price happened to be $100. This is one of the most common real-world misconceptions about percents."

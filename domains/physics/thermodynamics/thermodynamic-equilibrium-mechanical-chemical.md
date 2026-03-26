@@ -60,7 +60,7 @@ Examine systems approaching equilibrium from non-equilibrium states: gas diffusi
   answer: true
   explanation: "Thermodynamic equilibrium requires three simultaneous conditions: thermal (uniform T), mechanical (uniform P, no net forces on movable boundaries), and chemical (uniform μ for each species, no net reaction). A system satisfying the first two can still be undergoing chemical reaction. A rigid insulated container with a slow-reacting mixture is in thermal and mechanical equilibrium throughout the reaction — but not thermodynamic equilibrium until the reaction reaches completion (Σνᵢμᵢ = 0). Partial equilibrium is common in practice and is often exploited as a useful approximation."
 
-- question: "A gas mixture at uniform temperature and pressure must be at thermodynamic equilibrium, since no driving forces remain for heat flow or mechanical work."
+- question: "A gas mixture at uniform temperature and pressure should be at thermodynamic equilibrium, since no driving forces remain for heat flow or mechanical work."
   type: true-false
   answer: false
   explanation: "Uniform T eliminates the driving force for heat flow, and uniform P eliminates the driving force for volume work. But these two conditions say nothing about whether chemical reactions are proceeding or whether species are diffusing due to chemical potential gradients. A mixture at uniform T and P can be far from chemical equilibrium — for example, H₂ + Cl₂ → 2HCl proceeds at uniform T and P until the equilibrium composition is reached. Thermodynamic equilibrium requires all three driving forces (thermal, mechanical, chemical) to vanish simultaneously."

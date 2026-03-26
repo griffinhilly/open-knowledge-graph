@@ -55,7 +55,7 @@ Have students measure sides and angles of many triangles, then classify each usi
   answer: 3
   explanation: "A right angle is exactly 90° and an obtuse angle is more than 90°. A triangle can have at most one of each, because the three angles must sum to exactly 180°. If a triangle had one right angle (90°) and one obtuse angle (more than 90°), the two angles alone would exceed 180°, leaving nothing for the third angle. The angle sum constraint makes right-obtuse impossible. The other combinations are all valid: an equilateral triangle has three 60° acute angles; a right isosceles triangle has a 90° angle and two equal 45° angles; an obtuse scalene is common."
 
-- question: "A triangle can have two obtuse angles as long as each one is only slightly greater than 90°."
+- question: "A triangle can have two obtuse angles as long as each one is mainly slightly greater than 90°."
   type: true-false
   answer: false
   explanation: "Even the smallest possible obtuse angle is just over 90°. Two angles each slightly over 90° would sum to just over 180° — but the three angles of a triangle must sum to exactly 180°, leaving zero or less for the third angle. This is impossible. The angle sum property is a hard constraint: you can have at most one obtuse (or right) angle in any triangle."

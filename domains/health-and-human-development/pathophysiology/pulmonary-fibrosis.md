@@ -60,7 +60,7 @@ Pulmonary fibrosis is not always progressive—some patterns are stable or impro
   answer: true
   explanation: "This is the defining mechanical consequence of fibrosis. Collagen deposition reduces lung compliance (stiffness increases), so patients must work harder to inhale — inspiratory effort rises while total lung capacity falls. However, the airways themselves are not obstructed: the FEV1/FVC ratio is preserved or even elevated (the lung expels what little air it can hold efficiently). This distinguishes fibrosis (restrictive) from asthma or COPD (obstructive), where airflow is impaired during exhalation."
 
-- question: "All forms of pulmonary fibrosis follow a UIP pattern and progressively worsen regardless of the underlying cause or treatment."
+- question: "Most forms of pulmonary fibrosis follow a UIP pattern and progressively worsen regardless of the underlying cause or treatment."
   type: true-false
   answer: false
   explanation: "This is a key misconception. UIP (usual interstitial pneumonia) is the pattern seen in IPF and carries the worst prognosis with relentless progression. But other interstitial pneumonia patterns — nonspecific interstitial pneumonia (NSIP), organizing pneumonia — have substantially better prognoses and may stabilize or improve with immunosuppression. Pattern recognition (via HRCT) directly guides prognosis and treatment selection. Pulmonary fibrosis is a spectrum of conditions, not a single entity."

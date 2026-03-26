@@ -51,7 +51,7 @@ Start with concrete examples like counting outfits (shirts × pants combinations
   answer: 1
   explanation: "Each of the 3 positions is an independent sequential choice with 10 options (0–9), and repetition is allowed, so each position always has 10 options regardless of previous choices. The multiplication principle gives 10 × 10 × 10 = 1,000. Option A (adding 10 three times = 30) confuses sequential choices with mutually exclusive alternatives — addition would be correct if you were choosing the password length (either 1 digit, or 2 digits, or 3 digits). Option C (10 × 9 × 8 = 720) would apply if repetition were forbidden — a different problem."
 
-- question: "If a task has two stages with m choices at stage one and n choices at stage two, the total number of outcomes is always m × n."
+- question: "If a task has two stages with m choices at stage one and n choices at stage two, the total number of outcomes is generally m × n."
   type: true-false
   answer: false
   explanation: "False — multiplication applies only when the stages are sequential and independent. If the tasks are mutually exclusive alternatives (you do one or the other, not both), you add: m + n total options. Additionally, if choices at stage two depend on what was chosen at stage one (e.g., 'pick a letter then pick a different letter'), n may not be constant — and you still multiply, but with the actual number of choices at each step. The multiplication principle requires sequential structure; the independence condition determines whether n is constant or varies."

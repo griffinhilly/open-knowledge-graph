@@ -46,7 +46,7 @@ René Descartes developed methodological doubt—systematically questioning all 
   answer: 1
   explanation: "The cogito's logical structure is self-certifying: to doubt is to think, and to think is to exist as something doing the thinking. The evil demon might deceive Descartes about everything in the external world — mathematics, the existence of his body, other people — but even a demon-deceived thinker must exist in order to be deceived. The doubt itself is the evidence. This is what makes the cogito the one claim that radical skepticism cannot touch: it becomes more certain the harder you try to doubt it."
 
-- question: "Descartes' rationalism holds that genuine knowledge must ultimately be grounded in sensory experience, since reason alone cannot access facts about the external world."
+- question: "Descartes' rationalism holds that genuine knowledge is expected to ultimately be grounded in sensory experience, since reason alone can seldom access facts about the external world."
   type: true-false
   answer: false
   explanation: "This is the empiricist position (associated with Locke, Hume, and Berkeley), not the rationalist one. Descartes argued that the senses are unreliable — they deceive us in dreams and illusions — and that knowledge must be grounded in reason and clear-and-distinct innate ideas. The criterion for genuine knowledge is not sensory verification but rational clarity: something counts as known if it can be grasped clearly and distinctly by the intellect alone, as demonstrated by the cogito itself, which requires no sensory input."

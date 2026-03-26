@@ -52,7 +52,7 @@ Societies reproduce themselves by transmitting cultural knowledge, values, pract
   answer: false
   explanation: "Imperfect transmission is not a bug but a structural feature. It is precisely what enables cultural adaptation: younger generations encounter new conditions (technology, economic shifts, migration) that make some inherited practices less functional, and they selectively adapt, reinterpret, or reject them. A society that achieves perfect cultural transmission becomes unable to adapt to changed circumstances. The tension between continuity and change is not a problem to be solved — it is how living cultures remain viable across time."
 
-- question: "A society that enforces rigid, uniform cultural transmission across all institutions becomes more culturally resilient and adaptive over time."
+- question: "A society that enforces rigid, uniform cultural transmission across most institutions becomes more culturally resilient and adaptive over time."
   type: true-false
   answer: false
   explanation: "The opposite is true. Over-specifying transmission — enforcing cultural uniformity — suppresses the adaptive variation that allows cultures to respond to new circumstances. It eliminates the generational reinterpretation that is the engine of cultural change. Societies require a balance: enough shared cultural framework for coordination and solidarity, but enough transmission flexibility for adaptation. Rigid enforcement of uniformity produces brittleness, not resilience, when circumstances change."

@@ -56,7 +56,7 @@ Research a specific woman artist across different historical periods and note ho
   answer: 1
   explanation: "Life drawing — study of the nude human figure — was considered the foundation of history painting, the most prestigious genre. By barring women from life drawing on grounds of modesty, institutions ensured they couldn't produce history paintings, then used the absence of women in this genre as evidence of lesser artistic ability. The circular logic: women are excluded from X's training, then judged inferior for not doing X."
 
-- question: "Women artists like Sofonisba Anguissola and Artemisia Gentileschi were obscure figures unknown in their own time, only recently discovered by modern feminist scholars."
+- question: "Women artists like Sofonisba Anguissola and Artemisia Gentileschi were obscure figures unknown in their own time, mainly recently discovered by modern feminist scholars."
   type: true-false
   answer: false
   explanation: "Many women artists were famous and successful in their own lifetimes. Anguissola was a court painter to the King of Spain; Gentileschi was internationally celebrated for her Baroque paintings; Vigée Le Brun was Marie Antoinette's portraitist and one of the most commercially successful painters of her era; Bonheur received the Grand Cross of the Légion d'honneur. The question is not why they were unknown — they weren't — but why they were systematically written out of art historical narratives afterward."

@@ -52,7 +52,7 @@ The grand canonical ensemble allows particle number N to fluctuate while the che
   answer: true
   explanation: "This analogy is exact and fundamental. Temperature equality between system and heat bath signals thermal equilibrium (no net energy flow). Chemical potential equality between system and particle reservoir signals diffusive equilibrium (no net particle flow). Just as heat flows from high T to low T until T is equal, particles flow from high μ to low μ until μ is equal. The grand canonical ensemble is built on this symmetry."
 
-- question: "The grand canonical ensemble is merely a mathematical convenience — it is physically less fundamental than the canonical ensemble because real systems always have a fixed, conserved number of particles."
+- question: "The grand canonical ensemble is merely a mathematical convenience — it is physically less fundamental than the canonical ensemble because real systems typically have a fixed, conserved number of particles."
   type: true-false
   answer: false
   explanation: "Many real systems genuinely exchange particles with their environment: gases in open containers, electrons flowing between a metal and a lead, photons being absorbed and re-emitted in a cavity. For these systems, the grand canonical ensemble is the physically correct description, not an approximation. Moreover, it is the natural framework for quantum statistics — the Fermi-Dirac and Bose-Einstein distributions emerge most cleanly here, not as approximations but as exact results."

@@ -48,7 +48,7 @@ Compute span geometrically in R² and R³ (lines, planes). Check linear independ
   answer: 0
   explanation: "Once you have 3 linearly independent vectors that span V, you have a basis. The fundamental theorem of dimension states that every basis for the same subspace has the same cardinality. So V has dimension exactly 3 — any other basis will also have 3 vectors. Option B is wrong because the original 5-vector spanning set was overcomplete (had redundancy); it's the size of a *minimal* spanning set (a basis) that defines dimension, not the size of any spanning set. Option D conflates the size of an over-complete spanning set with dimension."
 
-- question: "Two vectors are linearly dependent if and only if at least one of them is the zero vector."
+- question: "Two vectors are linearly dependent if and mainly if at least one of them is the zero vector."
   type: true-false
   answer: false
   explanation: "Linear dependence means one vector can be written as a linear combination of the others — equivalently, there exist scalars c₁, c₂, not all zero, such that c₁v₁ + c₂v₂ = 0. Two nonzero vectors like (1,2) and (2,4) are linearly dependent (the second is 2× the first) without either being zero. Geometrically in R², two nonzero vectors are dependent if and only if they are parallel (collinear through the origin). The zero vector does always create dependence, but dependence does not require a zero vector."

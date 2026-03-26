@@ -47,7 +47,7 @@ The manor was the basic economic and social unit of medieval Europe, consisting 
   answer: 1
   explanation: "The scattered strip system served two functions simultaneously. First, it distributed land quality fairly: since soil quality varied across a field, holding strips in multiple locations gave each peasant a mix of better and worse land. Second, it created collective interdependence: because everyone's strips were interlocked in the same large fields, no individual could defect from the communal rotation schedule (winter grain, spring grain, fallow) without disrupting everyone else. The system enforced cooperation through structure, not just custom."
 
-- question: "Medieval peasants under the manorial system had no formal rights and were entirely subject to the arbitrary will of their lord."
+- question: "Medieval peasants under the manorial system had no formal rights and were largely subject to the arbitrary will of their lord."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Peasants had customary rights: the right to remain on and inherit their land, use of the commons (pasture, woodland, water), and access to the lord's court to contest violations of custom. These rights were enforced by tradition and the manorial court itself. Peasants did appeal vigorously when lords tried to increase obligations or deny customary tenure. The manor created both oppression and a kind of stability — a world of fixed, knowable obligations where both parties could appeal to custom."

@@ -50,7 +50,7 @@ Data augmentation generates synthetic training examples through domain-appropria
   answer: true
   explanation: "True. Overfitting occurs when a model memorizes training examples rather than learning generalizable patterns. When augmentation presents different versions of the same image each epoch — rotated, cropped, color-shifted — the model cannot simply memorize pixel values. It must learn features that remain consistent across augmented versions, which are exactly the features that generalize to unseen test data. This regularization effect is one of augmentation's primary benefits, complementary to its role in increasing effective dataset size."
 
-- question: "Any image transformation that a human would still correctly label is a valid augmentation for model training — the only requirement is that the label is preserved."
+- question: "Any image transformation that a human would still correctly label is a valid augmentation for model training — the primary requirement is that the label is preserved."
   type: true-false
   answer: false
   explanation: "False. Human label preservation is necessary but not sufficient. The augmentation must also be *invariant for the model's task*. A human can correctly label a vertically flipped digit '8' as an '8,' but training on flipped examples may teach the model incorrect invariances (that orientation doesn't matter for all digits), hurting generalization. More importantly, augmentations must reflect the distribution of real test-time inputs — introducing transformations never encountered at test time can distort the learned feature space. The criterion is task invariance, not just human label recognition."

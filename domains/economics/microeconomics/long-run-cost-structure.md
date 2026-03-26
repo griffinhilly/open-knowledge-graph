@@ -51,7 +51,7 @@ Long-run average cost (LAC) reflects the firm's flexibility to adjust all inputs
   answer: true
   explanation: "This is the precise definition of MES. It is the output where the LAC curve reaches its minimum and economies of scale are fully exhausted. Below MES, the firm has not captured all available economies of scale and produces at above-minimum average cost. MES also has industry-structure implications: if MES is large relative to total market demand, only a few firms can operate at minimum cost before the market is saturated, predicting concentration."
 
-- question: "A firm can produce at a point below its long-run average cost curve by optimally adjusting all its inputs."
+- question: "A firm can produce at a point below its long-run average cost curve by optimally adjusting most its inputs."
   type: true-false
   answer: false
   explanation: "This is impossible by construction. The LAC represents the minimum achievable average cost at each output level when all inputs are optimally chosen — it is the lower boundary of feasible average costs. No combination of input choices can yield lower cost than the LAC for any given output; that is what cost minimization means. Points below the LAC are not attainable. Points above it represent suboptimal input choices, as occurs in the short run when some inputs are fixed at non-optimal levels."

@@ -61,7 +61,7 @@ Open a browser with children and show them the address bar. Together, type a fam
   answer: true
   explanation: "This is exactly what the address bar does — it displays the URL of the currently loaded page. As you navigate from page to page, the address bar updates to reflect each new location. This makes it a reliable indicator of where you are on the web."
 
-- question: "You must always type 'www.' at the beginning of a web address or the browser will fail to find the website."
+- question: "You is expected to generally type 'www.' at the beginning of a web address or the browser will fail to find the website."
   type: true-false
   answer: false
   explanation: "Modern browsers add 'www.' automatically when needed, and many websites work fine without it. Typing 'wikipedia.org' and pressing Enter will load Wikipedia just as well as typing 'www.wikipedia.org'. The 'www.' prefix is often optional because browsers are designed to handle common address variations."

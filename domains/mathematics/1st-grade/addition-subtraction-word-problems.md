@@ -33,7 +33,7 @@ Word problems present real-world situations requiring addition or subtraction. U
   answer: 1
   explanation: "The context — giving away — signals removal, which means subtraction: 9 - 4 = 5. The key is reading the situation, not just spotting numbers. Choosing addition because 'two numbers appear' is a common error; the operation must match the action described."
 
-- question: "You can always figure out whether to add or subtract by looking for keywords like 'more' or 'left' in the problem."
+- question: "You can usually figure out whether to add or subtract by looking for keywords like 'more' or 'left' in the problem."
   type: true-false
   answer: false
   explanation: "Keywords are a helpful starting clue, but they can mislead. 'More' can appear in subtraction problems ('How many more does Sam have than Alex?') and 'left' can appear in contexts that don't mean subtraction. The reliable strategy is to understand the full situation — what is happening in the problem — rather than pattern-matching on single words."

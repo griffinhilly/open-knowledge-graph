@@ -55,7 +55,7 @@ Perform a testcross analysis: identify parental and recombinant classes, calcula
   answer: 2
   explanation: "Recombination frequency = recombinants / total = (31 + 31) / 500 = 62/500 = 12.4%. The parental classes (Ab and aB, ~438 total) vastly outnumber the recombinant classes (AB and ab, 62 total), confirming the genes are linked. 12.4% recombination = 12.4 cM. The testcross design is essential: crossing with the homozygous recessive (ab/ab) makes each offspring's phenotype directly reveal which gamete type the heterozygous parent produced, since the recessive parent contributes only recessive alleles."
 
-- question: "A recombination frequency of 50% between two loci always means those loci are located on different chromosomes."
+- question: "A recombination frequency of 50% between two loci generally means those loci are located on different chromosomes."
   type: true-false
   answer: false
   explanation: "This is a critical misconception. Genes that are on the same chromosome but very far apart can recombine so frequently — through multiple crossovers — that they behave as if they assort independently, producing ~50% recombinant offspring. The 50% recombination frequency is the ceiling for any pair of loci, regardless of whether they are on the same or different chromosomes. 50% indicates independent assortment behavior, but it does not prove the genes are on different chromosomes. Only values significantly below 50% reliably indicate physical linkage."

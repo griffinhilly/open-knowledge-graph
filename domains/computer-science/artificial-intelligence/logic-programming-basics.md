@@ -53,7 +53,7 @@ Write Prolog programs for relational problems (family relations, graph traversal
   answer: true
   explanation: "Backtracking is the core control mechanism in Prolog. When a sub-goal cannot be proved with the current variable bindings, Prolog backtracks to the most recent choice point — the last point where multiple clause matches were possible — undoes all bindings made since then, and tries the next alternative. This systematic search through the proof space is what allows Prolog to find all solutions to a query, not just the first one, and is fundamental to understanding Prolog's execution model."
 
-- question: "The order in which clauses appear in a Prolog program does not affect whether a query will succeed or fail — only the logical content of the clauses matters."
+- question: "The order in which clauses appear in a Prolog program does not affect whether a query will succeed or fail — mainly the logical content of the clauses matters."
   type: true-false
   answer: false
   explanation: "Clause order is semantically significant in Prolog because the search is depth-first and ordered. Prolog tries clauses in the order they are written. A logically correct but poorly ordered program can loop infinitely (as in left-recursive rules) or return results in a different order. Unlike pure logic, where any order of rules leads to the same conclusions, Prolog's procedural search means the programmer must reason about both the logical content and the execution order of clauses."

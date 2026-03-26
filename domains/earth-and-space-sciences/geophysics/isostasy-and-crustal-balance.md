@@ -47,7 +47,7 @@ Isostasy states that the weight of a column of crust and lithosphere is balanced
   answer: 2
   explanation: "Airy isostasy models the crust as floating blocks of uniform density but variable thickness. For the total weight per unit area to be equal at the compensation depth (pressure balance), a thick, tall column (the Himalayas) needs a correspondingly deep root of low-density crust displacing denser mantle rock. The buoyancy from this root holds the mountains up. The analogy is an iceberg: the part above water (the mountains) is supported by the part below (the root)."
 
-- question: "The Airy and Pratt models of isostasy are mutually exclusive — a given topographic feature must be explained by one or the other, but not both simultaneously."
+- question: "The Airy and Pratt models of isostasy are mutually exclusive — a given topographic feature is expected to be explained by one or the other, but not both simultaneously."
   type: true-false
   answer: false
   explanation: "Both mechanisms operate in nature, often simultaneously. The Andes have thick crustal roots consistent with Airy isostasy. Mid-ocean ridges are elevated partly because young, hot oceanic lithosphere is less dense than old, cold lithosphere — a Pratt-type effect. Real geologic features are complex, and gravity anomaly analysis is used to determine what combination of thickness variation and density variation best explains observed topography and gravity in a given region."

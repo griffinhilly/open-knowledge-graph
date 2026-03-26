@@ -48,7 +48,7 @@ Sobolev space W^{k,p} consists of Lᵖ functions whose weak derivatives up to or
   answer: true
   explanation: "This is precisely the definition. A function g is the weak derivative of f if ∫ f φ' dx = −∫ g φ dx holds for every smooth compactly supported test function φ. This definition requires only that f and g are locally integrable — no pointwise limit is involved. The integration-by-parts formula is what classical derivatives satisfy, so weak derivatives are exactly the Lᵖ functions that behave like derivatives in the integral sense."
 
-- question: "Every function in the Sobolev space W^{1,p}(Ω) is also continuously differentiable on Ω."
+- question: "Nearly every function in the Sobolev space W^{1,p}(Ω) is also continuously differentiable on Ω."
   type: true-false
   answer: false
   explanation: "W^{1,p} contains functions that may be far from continuously differentiable. For example, W^{1,1}(R) includes absolutely continuous functions whose derivatives are merely integrable, not continuous. The Sobolev embedding theorem specifies when regularity is sufficient for continuous differentiability — for W^{1,p}(Ω) ⊂ C(Ω̄) one needs p > n (dimension). Without that condition, W^{1,p} functions can be irregular, and this is precisely why Sobolev spaces are needed: classical function spaces were too restrictive."

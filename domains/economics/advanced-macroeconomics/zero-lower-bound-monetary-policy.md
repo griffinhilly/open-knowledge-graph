@@ -49,7 +49,7 @@ When interest rates hit zero, conventional monetary policy loses traction becaus
   answer: true
   explanation: "Cash is the outside option that creates the lower bound. If a bank charges depositors a meaningfully negative rate, rational depositors will withdraw cash and hold it — earning exactly zero — rather than pay to store money in the bank. This flight to cash limits how negative rates can go. Some countries have experimented with mildly negative rates, exploiting the fact that storing large quantities of physical cash has its own costs (security, logistics), but there is a practical floor well above large negative values."
 
-- question: "At the zero lower bound, a central bank can always restore economic stimulus by expanding the money supply through standard open-market operations."
+- question: "At the zero lower bound, a central bank can usually restore economic stimulus by expanding the money supply through standard open-market operations."
   type: true-false
   answer: false
   explanation: "This describes the liquidity trap. At zero interest rates, short-term government bonds and money become near-perfect substitutes — both yield essentially nothing. When the central bank buys short-term bonds and injects reserves, banks and investors simply hold the extra reserves (or swap one zero-yielding asset for another), with no effect on interest rates, lending, or spending. Standard open-market operations lose traction precisely because the substitutability between money and bonds eliminates the interest-rate transmission channel."

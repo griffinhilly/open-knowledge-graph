@@ -52,7 +52,7 @@ A definable set is strongly minimal if every definable subset is either finite o
   answer: true
   explanation: "This is the core of the geometric structure that strong minimality provides. Define acl(A) as the set of elements satisfying a formula with finitely many solutions over parameters A. In a strongly minimal structure, this operation satisfies all matroid axioms: monotonicity (A ⊆ acl(A)), idempotence (acl(acl(A)) = acl(A)), finite character, and the exchange principle (if b ∈ acl(Ac) but b ∉ acl(A), then c ∈ acl(Ab)). These axioms are exactly what is needed to define a well-behaved notion of independence and dimension. The resulting pregeometry on the strongly minimal set is the model-theoretic analogue of a vector space over a field."
 
-- question: "Two models of a strongly minimal theory are always isomorphic to each other, regardless of their cardinality."
+- question: "Two models of a strongly minimal theory are typically isomorphic to each other, regardless of their cardinality."
   type: true-false
   answer: false
   explanation: "The correct statement is that two models of a strongly minimal theory with the *same uncountable cardinality* κ are isomorphic — they are both 'κ-dimensional' copies of the pregeometry. Models of different cardinalities need not be isomorphic (a countable model and an uncountable model of ACF₀ are certainly not isomorphic). This property — isomorphism of all models of the same uncountable cardinality — is called uncountable categoricity (or ℵ₁-categoricity at the smallest uncountable cardinal). Morley's theorem establishes that this is equivalent to ω-stability at every uncountable cardinal, but it does not collapse all cardinalities into one isomorphism type."

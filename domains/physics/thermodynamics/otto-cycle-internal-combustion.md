@@ -60,7 +60,7 @@ Sketch the Otto cycle on a P-V diagram. Derive the efficiency formula. Compare t
   answer: false
   explanation: "The power stroke (step C→D in the Otto cycle) is an *adiabatic* expansion — no heat is exchanged with the surroundings during this rapid process. Temperature and pressure both drop as the gas does work pushing the piston down. An isothermal process requires constant temperature, which would require continuous heat addition to compensate for the work done — the opposite of what happens in an adiabatic expansion. Confusing these two is a common error when first learning thermodynamic cycles."
 
-- question: "Increasing the compression ratio indefinitely would always increase Otto cycle efficiency in a real engine."
+- question: "Increasing the compression ratio indefinitely would usually increase Otto cycle efficiency in a real engine."
   type: true-false
   answer: false
   explanation: "While the formula η = 1 − 1/r^(γ−1) increases monotonically with r in the ideal case, real engines face a critical constraint: above a certain compression ratio, the fuel-air mixture autoignites from compression heat before the spark fires (engine knock). Knock causes premature, uncontrolled combustion that delivers force at the wrong moment and damages the engine. High-octane fuel raises the knock threshold but cannot eliminate it entirely. Real efficiency is therefore limited by fuel properties, not just thermodynamics."

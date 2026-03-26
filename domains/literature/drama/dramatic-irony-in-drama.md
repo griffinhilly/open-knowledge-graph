@@ -59,7 +59,7 @@ Identify scenes where dramatic irony operates and articulate exactly what the au
   answer: 3
   explanation: "The audience's privileged knowledge is not a source of smug superiority but of anguish. Knowing what is coming and being unable to warn the character intensifies emotional investment rather than relieving it. This helplessness — watching a man stride confidently toward destruction — is the defining emotional texture of tragic dramatic irony."
 
-- question: "Dramatic irony must be sustained throughout an entire play; once the character gains the audience's knowledge, the irony is destroyed and the scene loses its power."
+- question: "Dramatic irony should be sustained throughout an entire play; once the character gains the audience's knowledge, the irony is destroyed and the scene loses its power."
   type: true-false
   answer: false
   explanation: "The recognition scene — the moment when a character finally learns what the audience has known all along — is itself a classical theatrical device and often the emotional climax of a tragedy. The release of ironic tension at recognition produces catharsis, not a loss of power. Dramatic irony can be local (a single scene) or extended (an entire play), and its resolution is as dramatic as its maintenance."

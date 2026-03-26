@@ -53,7 +53,7 @@ Use a globe with a flashlight to demonstrate why the equator receives more inten
   answer: "Tropical (near the equator, roughly 0-23.5 degrees latitude) — warm to hot year-round with high precipitation in many areas. Temperate (mid-latitudes, roughly 23.5-66.5 degrees) — distinct seasons with warm summers and cool to cold winters. Polar (near the poles, above about 66.5 degrees) — cold year-round with very low precipitation, often covered in ice and snow."
   explanation: "These zones are determined primarily by the angle at which sunlight hits the surface, which is controlled by latitude. Local factors like altitude, ocean currents, and distance from the coast create important variations within each zone."
 
-- question: "All tropical areas are wet and covered in rainforest."
+- question: "Most tropical areas are wet and covered in rainforest."
   type: true-false
   answer: false
   explanation: "While many tropical areas receive heavy rainfall (tropical rainforests), the tropical zone also includes some of Earth's driest deserts. The Sahara Desert, for example, is near the Tropic of Cancer. The tropical zone is defined by temperature (warm year-round), not by precipitation. Global atmospheric circulation patterns create both wet tropical regions (near the equator where air rises) and dry tropical regions (around 30 degrees latitude where air sinks)."

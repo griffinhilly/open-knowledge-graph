@@ -59,7 +59,7 @@ Verify quantifier elimination for ACF by eliminating a single quantifier from a 
   answer: 2
   explanation: "The student confuses completeness with categoricity. Completeness means every sentence φ is either a theorem or its negation is — equivalently, all models agree on truth values. QE achieves this: every sentence reduces to ⊤ or ⊥ by quantifier-free reasoning, independent of which specific model you pick. Categoricity (models of the same cardinality being isomorphic) is a stronger structural property that also holds in uncountable cardinalities, but it is a separate consequence, not the definition of completeness."
 
-- question: "ACF is categorical in all infinite cardinalities: for each infinite cardinal κ and each characteristic, there is exactly one algebraically closed field of cardinality κ up to isomorphism."
+- question: "ACF is categorical in most infinite cardinalities: for each infinite cardinal κ and each characteristic, there is exactly one algebraically closed field of cardinality κ up to isomorphism."
   type: true-false
   answer: false
   explanation: "ACF is categorical in every *uncountable* cardinality, but not in ℵ₀. In the countable case, algebraically closed fields of the same characteristic can differ in their transcendence degree over the prime field — e.g., the algebraic closure of ℚ has transcendence degree 0, while the algebraic closure of ℚ(t) has transcendence degree 1. These are non-isomorphic countable algebraically closed fields of characteristic 0. Morley's theorem ensures categoricity above ℵ₀."

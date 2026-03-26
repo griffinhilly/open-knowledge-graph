@@ -40,7 +40,7 @@ Work through Aristotle's Categories alongside a commentary, then compare with a 
   answer: 1
   explanation: "The criterion for a genuinely distinct ontological category is irreducibility — if events cannot be fully analyzed as substances having properties at times, they earn their own category. Grammar and familiarity are not ontological criteria; Aristotle's authority is not sufficient either."
 
-- question: "If two category schemes both classify all existing things, the one with fewer categories is always preferable."
+- question: "If two category schemes both classify most existing things, the one with fewer categories is generally preferable."
   type: true-false
   answer: false
   explanation: "Parsimony is a theoretical virtue, but it must be balanced against adequacy. A scheme with too few categories may be forced to give distorted or implausible analyses of genuine distinctions. The goal is the right number of categories, not the minimum number."

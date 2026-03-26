@@ -59,7 +59,7 @@ Organize calculations in a table with columns for shape, area, x̄ᵢ, ȳᵢ, A�
   answer: 1
   explanation: "ȳ = ΣAᵢȳᵢ / ΣAᵢ = (8×6 + 6×2) / (8+6) = (48 + 12) / 14 = 60/14 ≈ 4.29 cm. Rectangle A is larger and its centroid is higher (ȳ = 6), so it pulls the composite centroid upward past the simple average of 4. Option A (simple average) ignores area weighting. Option C inverts which rectangle has more influence — the larger rectangle dominates."
 
-- question: "The centroid of a shape must always lie within the physical boundary of that shape."
+- question: "The centroid of a shape should typically lie within the physical boundary of that shape."
   type: true-false
   answer: false
   explanation: "The centroid is a mathematical balance point, and for concave shapes or shapes with holes, it can lie entirely outside the material. A C-shaped bracket, a ring, or a hollow square tube all have centroids located in the empty interior space. This is not an error — it is the correct geometric center for those shapes. The negative-area technique works precisely because the formula does not require the centroid to be located on material."

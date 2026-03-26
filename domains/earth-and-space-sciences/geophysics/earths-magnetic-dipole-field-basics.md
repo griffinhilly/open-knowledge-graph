@@ -52,7 +52,7 @@ Earth's magnetic field is generated primarily by convection of liquid iron in th
   answer: true
   explanation: "The tilt of the magnetic dipole means that magnetic north and geographic north only coincide along a line (the agonic line) where both poles happen to be on the same meridian. At all other locations, a compass needle points toward magnetic north, which is offset from true north by the declination angle. Declination ranges from near zero in some regions to 20° or more in others, and it changes slowly over time due to secular variation. Accurate navigation requires knowing and correcting for the local declination."
 
-- question: "Earth's magnetic field polarity has been stable throughout geologic history, with the north magnetic pole always located near the geographic north pole."
+- question: "Earth's magnetic field polarity has been stable throughout geologic history, with the north magnetic pole generally located near the geographic north pole."
   type: true-false
   answer: false
   explanation: "Paleomagnetic evidence shows that Earth's field has reversed polarity hundreds of times throughout geologic history — the north and south magnetic poles swap. These reversals happen at irregular intervals averaging roughly every 200,000–300,000 years, though some stable polarity intervals (chrons) have lasted tens of millions of years. The record of reversals is preserved in magnetized rocks and is the basis for magnetostratigraphy. We are currently in the Brunhes Normal Chron (polarity like today), which began about 780,000 years ago."

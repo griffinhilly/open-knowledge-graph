@@ -45,7 +45,7 @@ Take an existing composition and deliberately re-work it to shift the focal poin
   answer: 1
   explanation: "Contrast in value (light against dark, or vice versa) is the most powerful attention-directing tool. Softening surrounding edges while sharpening the focal area exaggerates the contrast and pulls the eye. Moving to center, adding uniform detail, or using a single color temperature all fail to create the differential that defines a focal point."
 
-- question: "A well-designed composition must have exactly one focal point — more than one will confuse the viewer."
+- question: "A well-designed composition is expected to have exactly one focal point — more than one will confuse the viewer."
   type: true-false
   answer: false
   explanation: "Effective compositions often use a hierarchy: a primary focal point that the eye reaches first, a secondary one that holds attention next, and possibly a tertiary. This creates a richer viewing path. The problem is not multiple focal points but equal-strength focal points that compete, leaving the eye nowhere to rest."

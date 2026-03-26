@@ -50,7 +50,7 @@ Animals share skeletal and muscular principles with humans but in different prop
   answer: true
   explanation: "A horse's limb contains the same bones as a human arm: humerus, radius, ulna, and carpals. The leg is dramatically elongated, with the carpals elevated to what appears to be a backward-bending joint — but this is the wrist. Understanding this homology means a student can apply human-anatomy knowledge to animal construction rather than treating animal limbs as alien structures."
 
-- question: "To draw an unfamiliar animal convincingly, you must study that specific species' anatomy in detail before you can draw it."
+- question: "To draw an unfamiliar animal convincingly, you is expected to study that specific species' anatomy in detail before you can draw it."
   type: true-false
   answer: false
   explanation: "The construction approach means you can draw any animal by applying the ribcage-pelvis-limb framework and analytically observing proportions from reference — which masses are larger, which joints more angled, where the weight sits. You are not memorizing species-specific anatomy from scratch; you are adjusting a universal structural logic. A giraffe is the same horse-structure with a dramatically elongated neck and legs; a bulldog compresses the same skeleton into a squat, wide package. The framework transfers."

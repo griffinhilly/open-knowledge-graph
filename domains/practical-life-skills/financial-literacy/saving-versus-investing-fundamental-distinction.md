@@ -56,7 +56,7 @@ Investing is for wealthy people (anyone can start with small amounts). Saving al
   answer: 1
   explanation: "Time horizon is the primary decision variable. A 20-year horizon means both people should be investing — keeping that money in savings accounts over 20 years would be a costly mistake given the historical growth differential. Risk tolerance is a secondary factor that shapes *how* they invest (more or less equity exposure, more or less volatility) but not *whether* they should invest. Choosing to save instead of invest due to risk aversion over a 20-year horizon is itself the riskier long-term decision."
 
-- question: "For long-term goals like retirement, keeping money in a savings account is always the safer choice because you avoid market risk."
+- question: "For long-term goals like retirement, keeping money in a savings account is typically the safer choice because you avoid market risk."
   type: true-false
   answer: false
   explanation: "Over long horizons, inflation risk becomes as real as market risk. Savings accounts typically earn 2–5%, while inflation erodes purchasing power by 2–3% annually — meaning your real return is minimal or zero. Broad stock market indices have historically returned 7–10% annually after inflation over 20-year periods. For someone with a long time horizon, *not* investing is a form of risk — the risk of falling behind inflation and losing real purchasing power. True safety over long horizons requires growth, not just stability."

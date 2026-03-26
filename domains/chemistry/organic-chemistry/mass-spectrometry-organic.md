@@ -56,7 +56,7 @@ Start by interpreting simple spectra: find the molecular ion, apply the nitrogen
   answer: 1
   explanation: "Chlorine has two major isotopes: 35Cl (75%) and 37Cl (25%), giving M:M+2 intensity ratio of approximately 3:1, so M+2 is about one-third of M+. Bromine's isotopes (79Br and 81Br) are nearly equal in abundance, giving M:M+2 ≈ 1:1. Carbon-13 produces a small M+1 peak, not M+2. The distinctive M+2 isotope pattern is one of the most reliable indicators of halogen presence in a mass spectrum."
 
-- question: "The base peak in a mass spectrum always corresponds to the molecular ion (M+)."
+- question: "The base peak in a mass spectrum generally corresponds to the molecular ion (M+)."
   type: true-false
   answer: false
   explanation: "The base peak is simply the most abundant (tallest) peak in the spectrum and is used as the 100% reference. It can be any fragment — in many compounds the molecular ion fragments so readily that M+ has very low abundance or is absent entirely. The base peak must be identified by its m/z value. For example, in many branched alkanes the molecular ion is weak and a stable carbenium ion fragment is the base peak."

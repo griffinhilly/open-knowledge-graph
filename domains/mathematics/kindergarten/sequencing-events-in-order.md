@@ -49,7 +49,7 @@ Children may not understand the concept of order. They may place cards randomly.
   answer: 1
   explanation: "Socks must go on before shoes because you cannot put socks on when shoes are already covering your feet. This is an example of logical order: some steps must happen before others are even possible. Sequencing is recognizing this necessity — 'before' and 'after' are not arbitrary but determined by what each step requires."
 
-- question: "The order in which you do a sequence of steps does not matter, as long as you complete all the steps."
+- question: "The order in which you do a sequence of steps does not matter, as long as you complete most of the steps."
   type: true-false
   answer: false
   explanation: "Order almost always matters in sequences. Many steps can only happen after earlier steps are complete. You cannot eat breakfast before you wake up; you cannot read a book before you open it. The point of sequencing is precisely that some things must come before others. Doing the steps in the wrong order often makes the sequence impossible or produces a wrong result."

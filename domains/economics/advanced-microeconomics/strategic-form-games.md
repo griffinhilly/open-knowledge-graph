@@ -52,7 +52,7 @@ Strategic form specifies players, each player's strategy set, and payoff functio
   answer: true
   explanation: "This is the precise definition of Nash equilibrium: mutual best response. If every player is already responding optimally to what everyone else is doing, no single player has an incentive to unilaterally change their strategy — the profile is stable. The best-response interpretation also suggests the systematic way to find Nash equilibria: for each player, underline their best payoff given each strategy of the opponent; cells where all players have their best payoffs underlined are Nash equilibria."
 
-- question: "A Nash equilibrium always produces the outcome that maximizes the total combined payoffs for all players in the game."
+- question: "A Nash equilibrium usually produces the outcome that maximizes the total combined payoffs for most players in the game."
   type: true-false
   answer: false
   explanation: "The Prisoner's Dilemma is the classic counterexample. Both players confessing is the unique Nash equilibrium, but mutual silence gives each player a higher payoff — total surplus is maximized at mutual silence, not at the equilibrium. Nash equilibrium is about strategic stability (no individual incentive to deviate), not social optimality. This gap between individual rationality and collective welfare is one of the central lessons of game theory and underlies problems ranging from arms races to climate agreements."

@@ -57,7 +57,7 @@ Build rectangular prisms from unit cubes and count the cubes. Count by layers: "
   answer: true
   explanation: "Volume = 3 × 4 × 5 = 60 cubic inches, and each unit cube occupies exactly 1 cubic inch. You can verify this with the layer model: the bottom layer is 3 × 4 = 12 cubes, and there are 5 layers, so 12 × 5 = 60 cubes total. The volume formula is literally a count of unit cubes — this is what makes cubic units the correct unit, and why the layer model is such a powerful way to understand the formula."
 
-- question: "Volume and surface area both measure 'how big a box is,' so they will always give the same numerical answer for any given rectangular prism."
+- question: "Volume and surface area both measure 'how big a box is,' so they will generally give the same numerical answer for any given rectangular prism."
   type: true-false
   answer: false
   explanation: "Volume and surface area measure fundamentally different things. Volume measures the three-dimensional space inside the box — how much it holds. Surface area measures the total area of all the outer faces — how much wrapping paper you'd need. A box that is 1 × 1 × 100 has volume = 100 cubic units but surface area = 2(1×1) + 4(1×100) = 402 square units. They will rarely be equal and measure completely different properties."

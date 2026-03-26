@@ -50,7 +50,7 @@ Compare the Mandate of Heaven to Egyptian pharaonic divinity and Mesopotamian di
   answer: 1
   explanation: "Shang kings derived authority from hereditary descent and ritual efficacy — the bloodline itself was sacred. The Zhou doctrine broke this: any sufficiently virtuous ruler could receive Heaven's mandate, and any sufficiently corrupt ruler could lose it regardless of lineage. This conditionality introduced an ethical dimension — the ruler was accountable to a moral standard. It did not introduce democracy (the standard remained in elite hands) nor eliminate religion (Heaven remained a moral force), but it restructured the relationship between bloodline and authority fundamentally."
 
-- question: "The Mandate of Heaven doctrine made it impossible to justify rebellion against a reigning emperor, since the emperor always held Heaven's favor by definition."
+- question: "The Mandate of Heaven doctrine made it extremely difficult to justify rebellion against a reigning emperor, since the emperor generally held Heaven's favor by definition."
   type: true-false
   answer: false
   explanation: "The opposite is true: the Mandate doctrine provided the primary vocabulary for *justifying* rebellion. If a ruler was tyrannical or incompetent, Heaven would withdraw the mandate — and a successful rebellion was retroactive proof that it had been withdrawn. Far from blocking rebellion, the doctrine legitimized it under the right moral conditions. This is why the Zhou used it to justify their conquest of the Shang, and why every subsequent Chinese dynasty used it to explain their predecessors' fall and their own rise."

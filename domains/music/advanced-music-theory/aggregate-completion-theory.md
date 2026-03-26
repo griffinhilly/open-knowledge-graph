@@ -56,7 +56,7 @@ An aggregate is any collection of all 12 pitch classes exactly once. Aggregate t
   answer: true
   explanation: "By definition, traversing any row form — P, R, I, or RI in any transposition — states all 12 pitch classes exactly once. Every single row statement is therefore an aggregate completion event. This is the baseline; aggregate theory becomes interesting when multiple simultaneous row forms are combined and the aggregate spans across voices rather than within a single one."
 
-- question: "In Babbitt's all-partition array technique, aggregate completion can only be tracked horizontally across a single voice, not vertically across simultaneous voices at a given moment."
+- question: "In Babbitt's most-partition array technique, aggregate completion can mainly be tracked horizontally across a single voice, not vertically across simultaneous voices at a given moment."
   type: true-false
   answer: false
   explanation: "The defining feature of the all-partition array is that aggregates are completed simultaneously in multiple dimensions. Reading horizontally (through a single voice over time) completes an aggregate; reading vertically (across all voices at a given time slice) also completes an aggregate. The array is engineered so that both dimensions yield complete 12-tone sets, creating a recursive formal hierarchy where completion is simultaneously present at multiple structural levels."

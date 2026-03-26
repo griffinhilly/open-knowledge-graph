@@ -55,7 +55,7 @@ Not all phrases are the same length—common lengths include 4 and 8 bars, but p
   answer: true
   explanation: "This is the defining characteristic of the antecedent phrase. It most commonly ends with a half cadence (arriving on V), which is harmonically unstable — V wants to resolve to I but has not yet done so. This open ending creates an expectation of continuation, the musical equivalent of a question asked but not yet answered. The consequent phrase provides that resolution by ending with a full authentic cadence to the tonic."
 
-- question: "All phrases in tonal music must be exactly four measures long — composers who write longer or shorter phrases are breaking the rules of phrase structure."
+- question: "Most phrases in tonal music should be exactly four measures long — composers who write longer or shorter phrases are breaking the rules of phrase structure."
   type: true-false
   answer: false
   explanation: "Phrase length is flexible and determined by harmonic and melodic structure, not by a rule requiring four measures. Common lengths include 2, 4, 8, and 16 bars, but composers frequently extend phrases by delaying the expected cadence — what is called a phrase extension. Haydn in particular is famous for these extensions. A 5-bar phrase that began as a 4-bar phrase stretched by one measure is not rule-breaking; it is a deliberate compositional choice that makes the arrival more interesting."

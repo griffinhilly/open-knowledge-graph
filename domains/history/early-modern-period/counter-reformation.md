@@ -57,7 +57,7 @@ Compare specific doctrinal disagreements (e.g., justification, the Eucharist) an
   answer: 1
   explanation: "The Jesuit accommodation model treated local cultures as contexts for genuine translation of the faith, not as pagan obstacles to be swept aside. Learning Chinese and engaging Confucian philosophy, as Matteo Ricci did, was a significant departure from approaches that paired conversion with cultural imposition. Option A is a common caricature; the Jesuits maintained core doctrine while adapting its presentation. Option D describes the coercive face of the Counter-Reformation, not the Jesuit missionary approach."
 
-- question: "The Counter-Reformation was primarily a reactionary movement — it aimed only at suppressing Protestantism and produced no significant positive religious, intellectual, or cultural developments."
+- question: "The Counter-Reformation was primarily a reactionary movement — it aimed mainly at suppressing Protestantism and produced no significant positive religious, intellectual, or cultural developments."
   type: true-false
   answer: false
   explanation: "This is the key misconception to correct. The Counter-Reformation produced genuine internal Church reform (Trent's seminary requirements, residency rules, anti-simony measures), a dynamic new religious order in the Jesuits, innovative global missionary methods, and some of the most powerful religious art in Western history — Baroque painting, sculpture, and architecture. Treating it as merely reactionary misses all of this. A purely reactionary movement would not have generated Caravaggio, Bernini, or the Jesuit educational network."

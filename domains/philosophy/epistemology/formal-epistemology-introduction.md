@@ -56,7 +56,7 @@ Formal epistemology applies mathematical and logical tools to traditional episte
   answer: true
   explanation: "This is precisely the diagnostic value of formal methods. When philosophers argue in ordinary language, it is often unclear whether they mean different things by the same words or disagree about a genuine substantive claim. Formalizing the dispute forces each side to specify their commitments exactly — and it becomes possible to check whether the disagreement is about which axioms to accept (a substantive philosophical dispute) or stems from using 'knowledge' in different senses (a verbal dispute that dissolves under analysis)."
 
-- question: "The Bayesian framework shows that rational belief must be binary — you either fully believe a proposition or you don't, based on whether its probability exceeds 0.5."
+- question: "The Bayesian framework shows that rational belief is expected to be binary — you either fully believe a proposition or you don't, based on whether its probability exceeds 0.5."
   type: true-false
   answer: false
   explanation: "This completely inverts Bayesianism's core move. Bayesian epistemology replaces binary belief with continuous credences precisely because many propositions merit neither full belief nor full disbelief. A rational agent might have credence 0.7 in a hypothesis — strongly believing it without being certain. The 0.5 threshold idea misapplies binary logic to a framework designed to model graduated uncertainty. Nothing in Bayesian epistemology collapses credences to a binary verdict."

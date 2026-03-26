@@ -50,7 +50,7 @@ Analyze existing logos and UI screens by naming which gestalt principle each com
   answer: 2
   explanation: "The primary driver is proximity: the tight spacing between links signals they form a group, while the large gap separates that group from the search bar. Similarity (shared style) reinforces the grouping but is not the dominant principle being described. Closure and continuity are operating, but proximity explains the group boundary most directly."
 
-- question: "The Gestalt principle of closure only applies to incomplete geometric shapes, not to text or interface elements."
+- question: "The Gestalt principle of closure mainly applies to incomplete geometric shapes, not to text or interface elements."
   type: true-false
   answer: false
   explanation: "Closure is a general perceptual tendency to complete any incomplete pattern — the visual system fills in missing information to perceive a coherent whole. This applies equally to partially obscured type (we read a partially hidden letter), icons with gaps (the FedEx arrow uses negative space), and spatial groupings in UI where whitespace implies containers even without explicit borders."

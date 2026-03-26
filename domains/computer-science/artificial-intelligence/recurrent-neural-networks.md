@@ -55,7 +55,7 @@ RNNs process sequences maintaining hidden states updated at each time step. Info
   answer: 1
   explanation: "Vanishing gradients are the central training problem for RNNs. The chain rule for BPTT requires multiplying many Jacobian matrices together — one per time step. If the spectral radius of the recurrent weight matrix is less than 1, these products decay exponentially. Gradients reaching the early time steps become negligibly small, and those early steps receive no useful training signal. This means the RNN cannot learn that something at step 1 matters for a prediction at step 50. This motivated LSTM and GRU architectures."
 
-- question: "RNNs can theoretically learn to depend on any arbitrarily distant past input in a sequence because the hidden state carries all prior information forward indefinitely."
+- question: "RNNs can theoretically learn to depend on any arbitrarily distant past input in a sequence because the hidden state carries most prior information forward indefinitely."
   type: true-false
   answer: false
   explanation: "In theory, the hidden state carries information forward through the entire sequence. In practice, the vanishing gradient problem prevents training from learning long-range dependencies. The hidden state at step t is influenced by past inputs, but the training signal is too weak to learn that a dependency exists across many steps. The state can carry information, but gradients don't flow back far enough to teach the network which long-range information to retain. This is why LSTM's learned gates are needed — they provide gradient pathways that resist vanishing."

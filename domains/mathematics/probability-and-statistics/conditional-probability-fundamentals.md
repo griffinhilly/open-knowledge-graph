@@ -44,7 +44,7 @@ Conditional probability P(A|B)=P(A∩B)/P(B) measures the probability of A given
   answer: 1
   explanation: "The law of total probability: P(defect) = P(defect|A)·P(A) + P(defect|B)·P(B) = (0.03)(0.70) + (0.08)(0.30) = 0.021 + 0.024 = 0.045 = 4.5%. The partition is {A, B} — every item comes from exactly one machine. You weight each conditional defect rate by how much production that machine accounts for. The simple average would only be correct if both machines produced equal volumes."
 
-- question: "P(A|B) and P(B|A) are always equal."
+- question: "P(A|B) and P(B|A) are generally equal."
   type: true-false
   answer: false
   explanation: "P(A|B) = P(A∩B)/P(B) and P(B|A) = P(A∩B)/P(A). These are equal only when P(A) = P(B). In general they differ substantially. For example, P(cancer | positive test) is very different from P(positive test | cancer). Confusing these two is the basis of many statistical fallacies, including the 'prosecutor's fallacy.' Bayes' theorem is precisely the tool for correctly relating P(A|B) to P(B|A)."

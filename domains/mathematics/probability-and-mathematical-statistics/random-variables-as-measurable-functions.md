@@ -54,7 +54,7 @@ Verify measurability for familiar random variables (indicator functions, constan
   answer: 1
   explanation: "For any Borel set B, Y⁻¹(B) = Ω if 1 ∈ B, and ∅ if 1 ∉ B. Both Ω and ∅ belong to every sigma-algebra by definition (sigma-algebras must contain Ω and be closed under complements). Therefore Y is measurable on any probability space, making it a valid random variable. Its distribution is a point mass at 1: P(Y = 1) = 1. This shows the formal definition includes deterministic constants as a special case — 'random' in the mathematical sense does not require uncertainty."
 
-- question: "Every function from Ω to ℝ is a random variable, as long as the probability space (Ω, ℱ, P) is well-defined."
+- question: "Nearly every function from Ω to ℝ is a random variable, as long as the probability space (Ω, ℱ, P) is well-defined."
   type: true-false
   answer: false
   explanation: "Measurability is an additional requirement. A function X: Ω → ℝ is a random variable only if, for every Borel set B ⊆ ℝ, the preimage X⁻¹(B) is in ℱ. Non-measurable functions from Ω to ℝ exist — their construction typically involves the Axiom of Choice (e.g., Vitali sets). ℱ is generally not the power set of Ω; it is a strict subset, so some functions will map events to sets outside ℱ, making probability statements about them undefined."

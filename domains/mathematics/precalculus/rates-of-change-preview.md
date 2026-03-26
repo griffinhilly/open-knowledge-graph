@@ -50,7 +50,7 @@ Compute average rates of change for various functions and intervals. Graph the s
   answer: 2
   explanation: "The difference quotient (f(1+h) − f(1))/h = (2 + h) simplifies to a linear expression in h. As h → 0, the expression approaches 2 — not 0, not infinity. This limiting value is exactly the derivative of f at x = 1, the instantaneous rate of change. The key insight is that algebra can be used to cancel the h in the denominator before taking the limit, resolving what looks like a 0/0 indeterminate form. The value 2 represents the slope of the tangent line to y = x² at x = 1 — the single number that captures how steeply the function rises at that exact point."
 
-- question: "The average rate of change of a function f on [a, b] always equals the instantaneous rate of change of f at the midpoint (a + b)/2 of the interval."
+- question: "The average rate of change of a function f on [a, b] usually equals the instantaneous rate of change of f at the midpoint (a + b)/2 of the interval."
   type: true-false
   answer: false
   explanation: "This is a tempting misconception, especially since the average rate of change is a single number that intuitively 'belongs' to the middle of the interval. But for most functions, the instantaneous rate at the midpoint is not the same as the average rate over the interval. For f(x) = x² on [1, 3], the average rate is 4, but the instantaneous rate at the midpoint x = 2 is 2(2) = 4 — in this case they happen to agree. But for f(x) = x³ on [0, 2], the average rate is (8−0)/2 = 4, and the instantaneous rate at x = 1 is 3(1²) = 3 ≠ 4. The Mean Value Theorem guarantees some point in the interval where they agree, but that point is generally not the midpoint."

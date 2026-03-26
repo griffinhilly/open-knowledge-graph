@@ -55,7 +55,7 @@ Breakers being 'off' means there's no electricity present (main lugs stay live);
   answer: 2
   explanation: "Arc flash occurs when voltage is sufficient to ionize the air gap between two conductors, creating a conductive plasma channel. The resulting arc can reach thousands of degrees Fahrenheit and produce a pressure wave — all in milliseconds, far faster than any reflex. You do not need to touch live metal directly; accidentally bringing a tool near two bus contacts simultaneously, or brushing an exposed conductor, can trigger an arc. This is why professional electricians wear arc flash PPE rated in calories per square centimeter."
 
-- question: "Turning off all individual circuit breakers in a panel de-energizes the bus bars, making them safe to touch."
+- question: "Turning off most individual circuit breakers in a panel de-energizes the bus bars, making them safe to touch."
   type: true-false
   answer: false
   explanation: "Individual circuit breakers switch their downstream circuits off, but the bus bars themselves remain energized as long as utility power is connected. The bus bars are what the breakers connect to — switching a breaker off means disconnecting a circuit from the bus bar, not de-energizing the bar. Only switching off the main breaker disconnects the bus bars from the main lugs — but even then, the main lugs and incoming cables remain live."

@@ -60,7 +60,7 @@ Uncertainty budgeting systematically identifies, categorizes, and quantifies all
   answer: true
   explanation: "The coverage factor k converts combined standard uncertainty to expanded uncertainty. For a normal distribution, k = 2 corresponds to approximately ±2 standard deviations, covering ~95% of the probability. This is the standard reporting convention under ISO GUM: the expanded uncertainty with k = 2 provides a 95% confidence interval. Regulatory and contractual contexts often require reporting with a stated coverage factor and coverage probability for this reason."
 
-- question: "A larger numerical value in an uncertainty budget always indicates poor laboratory practice and should be minimized by any means available."
+- question: "A larger numerical value in an uncertainty budget generally indicates poor laboratory practice and should be minimized by any means available."
   type: true-false
   answer: false
   explanation: "A large but complete uncertainty budget is more trustworthy than a small budget that omits real sources. The value of an uncertainty budget depends on whether it honestly accounts for all significant contributors. Artificially minimizing the reported uncertainty by ignoring contributions, cherry-picking favorable conditions, or using inappropriately optimistic Type B estimates is a form of misrepresentation — and more dangerous than a larger honest number. The goal is a correct, defensible uncertainty that enables sound decisions."

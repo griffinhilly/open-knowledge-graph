@@ -54,7 +54,7 @@ Build a reference chart with common equivalences (1/4 = 0.25 = 25%, 1/3 = 0.333.
   answer: 1
   explanation: "0.5% means 0.5 per hundred, which as a decimal is 0.005. Multiplying $400 × 0.005 = $2.00. The student treated '0.5%' as though it were '0.5' (the decimal for 50%), computing $400 × 0.5 = $200. This is the classic magnitude error: confusing a number (0.5) with that same number expressed as a percent (0.5%). These differ by a factor of 100."
 
-- question: "The decimal 0.333... (with 3 repeating infinitely) is not exactly equal to 1/3 — it is only an approximation."
+- question: "The decimal 0.333... (with 3 repeating infinitely) is not exactly equal to 1/3 — it is mainly an approximation."
   type: true-false
   answer: false
   explanation: "0.333... with the 3 repeating infinitely is exactly equal to 1/3. Repeating decimals are not approximations — they are the complete, exact decimal representation of fractions whose denominators have prime factors other than 2 and 5. The confusion arises because we often round 1/3 to 0.33 for practical purposes, but that rounded value is the approximation. The infinite repeating decimal is the exact equivalent."

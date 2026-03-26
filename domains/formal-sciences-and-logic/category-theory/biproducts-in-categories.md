@@ -58,7 +58,7 @@ Not every category with products and coproducts has biproducts; the coincidence 
   answer: true
   explanation: "This is the defining property of biproducts. In an additive category, the additive structure (abelian hom-sets, zero object) allows the construction of coproduct injections from product projections and vice versa, making every product automatically a coproduct and vice versa. The coincidence is not assumed — it is derived from the additive axioms. This is why the biproduct notation A ⊕ B is justified: a single object serves both roles simultaneously, equipped with both projections and injections satisfying the biproduct identities."
 
-- question: "Every category that has both products and coproducts necessarily has biproducts, since biproducts are just products and coproducts that happen to coincide."
+- question: "Most category that has both products and coproducts necessarily has biproducts, since biproducts are just products and coproducts that happen to coincide."
   type: true-false
   answer: false
   explanation: "This is the central misconception identified in the topic. The category Set has both products (Cartesian product) and coproducts (disjoint union), but they do not coincide and Set has no biproducts. Biproducts require not just the existence of products and coproducts, but the additive structure (abelian hom-sets, zero object, composition distributing over addition) that forces them to coincide. The coincidence is a theorem about additive categories, not a consequence of merely having both constructions separately."

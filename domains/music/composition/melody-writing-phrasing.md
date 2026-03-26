@@ -59,7 +59,7 @@ Compose short 4–8 measure phrases over given harmonic progressions. Analyze me
   answer: 2
   explanation: "Post-leap recovery is one of the most reliable principles in tonal melody writing: after a large leap (especially a sixth or larger), the melody wants to move stepwise in the opposite direction. A leap up followed by a step or two downward feels balanced — the leap introduces energy and the stepwise return grounds it. A leap up followed by another leap up feels lurching and uncontrolled. 'Resolving the leap' means providing this stepwise return, not undoing the interval or adding an ornament."
 
-- question: "A melody that uses only chord tones (scale degrees 1, 3, and 5) will sound more harmonically stable and will always work well with its accompaniment."
+- question: "A melody that uses mainly chord tones (scale degrees 1, 3, and 5) will sound more harmonically stable and will typically work well with its accompaniment."
   type: true-false
   answer: false
   explanation: "A melody of only chord tones is harmonically safe but often sounds like an arpeggio — stiff, mechanical, and lacking the smooth, singable quality that makes melody memorable. Passing tones, neighbor tones, and other non-harmonic tones create the stepwise motion and voice-leading smoothness that define good melodic writing. The key principle is not 'avoid non-chord tones' but 'land on chord tones at structural moments (downbeats, cadences, sustained notes) while using non-chord tones to connect them.'"

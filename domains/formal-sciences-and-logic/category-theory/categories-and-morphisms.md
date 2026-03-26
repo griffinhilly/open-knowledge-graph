@@ -58,7 +58,7 @@ Start by recognizing familiar mathematical structures as categories: Set (sets a
   answer: 1
   explanation: "In Set, objects are sets and morphisms are functions between sets. Composition is function composition (which is associative), and identity morphisms are identity functions (which send every element to itself). This is the canonical example of a category and the one that most closely matches intuitions from prior mathematics."
 
-- question: "In every category, every morphism must be a function that maps elements from one object to elements of another."
+- question: "In most category, nearly every morphism should be a function that maps elements from one object to elements of another."
   type: true-false
   answer: false
   explanation: "Morphisms need not be functions. In a poset (partially ordered set) viewed as a category, objects are elements of the poset and there is at most one morphism from a to b — it exists if and only if a ≤ b. This morphism records an ordering relationship, not a mapping of elements. Category theory deliberately abstracts away internal structure, so 'morphism' means only 'arrow satisfying the composition and identity axioms,' not 'function.'"

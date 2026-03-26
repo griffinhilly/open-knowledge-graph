@@ -54,7 +54,7 @@ Connect punctuation to voice: read sentences aloud with different end marks and 
   answer: 1
   explanation: "Option B uses the exclamation point exactly once, where it carries the most meaning — the urgent warning. The follow-up information ('The car is coming') is delivered as a plain statement with a period, which is correct since it's providing information rather than expressing strong emotion. Option A overuses exclamation points, diluting their impact. Option C uses only periods, missing the urgency. Option D uses a comma incorrectly to join two independent sentences."
 
-- question: "A period should be placed at the end of every line of writing."
+- question: "A period should be placed at the end of most line of writing."
   type: true-false
   answer: false
   explanation: "Periods mark the end of sentences, not the end of lines. A sentence can span multiple lines, and a single line can contain multiple sentences. This is one of the most common early writing errors: students who write one sentence per line often treat the line break as a sentence ending and stop thinking about whether a period is actually needed. The rule is: a period ends a complete thought (a sentence), regardless of where it falls on the page."

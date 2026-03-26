@@ -50,7 +50,7 @@ The EM algorithm iteratively estimates parameters of models with latent (unobser
   answer: 1
   explanation: "The E-step computes the 'responsibilities' — the posterior probabilities r_{ik} = P(component k | data point i, current parameters) — for every data point and every component. These soft assignments say 'how much' each Gaussian component is responsible for each observation. The M-step then uses these responsibilities as weights to update the means, covariances, and mixing proportions. EM never makes hard assignments (that would be k-means, not EM); the soft probabilistic assignment is the key to its smooth convergence."
 
-- question: "EM is guaranteed to converge to the global maximum of the likelihood function."
+- question: "EM is expected to converge to the global maximum of the likelihood function."
   type: true-false
   answer: false
   explanation: "EM guarantees only that the observed-data log-likelihood is non-decreasing at each iteration — it never goes down. However, it may converge to a local maximum, a saddle point, or a plateau rather than the global maximum. The algorithm is sensitive to initialization: different starting parameters can lead to different solutions. In mixture models, for instance, bad initializations can lead to degenerate solutions where one component collapses onto a single data point. Running EM multiple times from different starting points and taking the best solution is standard practice."

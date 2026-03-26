@@ -55,7 +55,7 @@ Compute partial sums for specific series (geometric, telescoping) and observe co
   answer: true
   explanation: "This is exactly the definition. The series Σ aₙ converges to S means the sequence {S_N} — where S_N = a₁ + ⋯ + aₙ — converges to S as N → ∞. This is not just a reformulation; it is the precise definition that makes infinite sums mathematically rigorous by reducing them to limits of sequences, which you already know how to handle."
 
-- question: "If the terms of a series approach zero, the series must converge."
+- question: "If the terms of a series approach zero, the series should converge."
   type: true-false
   answer: false
   explanation: "This is the most persistent misconception in infinite series. The harmonic series Σ 1/n is the canonical counterexample: each term 1/n → 0, but the partial sums grow without bound. Terms approaching zero is a necessary condition for convergence — if terms don't go to zero, the series definitely diverges — but it is not sufficient. The terms must shrink fast enough that their cumulative sum stays bounded."

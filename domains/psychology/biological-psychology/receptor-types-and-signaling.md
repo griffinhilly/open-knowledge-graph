@@ -63,7 +63,7 @@ Contrast the fast (milliseconds) timescale of ionotropic signaling with the slow
   answer: true
   explanation: "Although metabotropic signaling is slower (seconds to minutes vs. milliseconds), it is amplifying: one activated receptor can activate dozens of G-proteins, each activating multiple effector enzymes, each producing many second-messenger molecules. This cascade amplification means a small neurotransmitter signal can trigger a large cellular response. The misconception is equating 'slow' with 'weak' — metabotropic pathways can profoundly alter neuronal function, gene expression, and synaptic strength."
 
-- question: "Because GABA is the brain's main inhibitory neurotransmitter, all GABA receptors produce inhibition through the same mechanism."
+- question: "Because GABA is the brain's main inhibitory neurotransmitter, most GABA receptors produce inhibition through the same mechanism."
   type: true-false
   answer: false
   explanation: "GABA produces inhibition at both its receptor types but through fundamentally different mechanisms. GABA-A is ionotropic: ligand binding directly opens Cl⁻ channels, producing fast hyperpolarization in milliseconds. GABA-B is metabotropic: it works via G-proteins to open K⁺ channels and inhibit adenylyl cyclase, producing slower, more prolonged inhibition. Same neurotransmitter, same net direction (inhibitory), but entirely different receptor types, mechanisms, timescales, and pharmacological targets."

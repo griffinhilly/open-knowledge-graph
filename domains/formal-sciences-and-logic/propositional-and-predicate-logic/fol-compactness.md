@@ -60,7 +60,7 @@ Construct a non-standard model of arithmetic explicitly using compactness: add a
   answer: true
   explanation: "Second-order logic, which can quantify over sets and properties, can write a sentence that pins down ℕ uniquely up to isomorphism (the Dedekind-Peano axioms in second-order form). First-order logic cannot do this — any first-order theory with an infinite model has non-standard models of every infinite cardinality (Löwenheim-Skolem). But second-order logic loses compactness: a set of second-order sentences can be such that every finite subset is satisfiable while the whole set is not. The trade-off — expressivity vs. model-theoretic manageability — is a central theme of logic."
 
-- question: "Compactness means that every first-order theory can be captured by a finite set of axioms, since satisfiability is finitely determined."
+- question: "Compactness means that most first-order theory can be captured by a finite set of axioms, since satisfiability is finitely determined."
   type: true-false
   answer: false
   explanation: "This confuses two different things. Compactness says that unsatisfiability is finitely witnessed — if Γ is unsatisfiable, some finite subset is already unsatisfiable. It does not say that a satisfiable theory can be axiomatized finitely. Many important first-order theories (Peano arithmetic, the theory of real closed fields) require infinitely many axioms and cannot be finitely axiomatized. Compactness is about when a contradiction forces itself to be detectable in a finite piece of the theory, not about how many axioms are needed to describe a structure."

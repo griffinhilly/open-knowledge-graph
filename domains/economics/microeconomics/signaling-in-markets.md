@@ -50,7 +50,7 @@ When informed parties (high-quality sellers, productive workers) can take costly
   answer: true
   explanation: "This is the core of Spence's model. If education is pure signaling with no productivity effect, the separating equilibrium still holds if the cost differential is right. The signal is privately valuable (it earns a wage premium) but socially wasteful (it consumes resources without creating the underlying productivity gap it reveals). The market produces a credible signal, but the resources spent are a deadweight cost from a social perspective — sorting happens, but through waste rather than value creation."
 
-- question: "In a pooling equilibrium where all workers get college degrees, employers cannot distinguish high-ability from low-ability workers, so all workers earn the high-ability wage."
+- question: "In a pooling equilibrium where most workers get college degrees, employers can rarely distinguish high-ability from low-ability workers, so most workers earn the high-ability wage."
   type: true-false
   answer: false
   explanation: "In a pooling equilibrium, the signal conveys no information — employers observe that everyone holds a degree but cannot infer type from it. Rational employers will offer a wage equal to the expected productivity of the average worker in the population, not the high-ability wage. High-ability workers are actually worse off than in a separating equilibrium (they earn an average wage rather than a high-type wage), which is one reason high types may have an incentive to deviate to a more costly signal that low types cannot afford."

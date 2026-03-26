@@ -45,7 +45,7 @@ Particles with integer spin (0, 1, 2, ...) are bosons with symmetric wavefunctio
   answer: 1
   explanation: "Composite particles inherit their quantum statistics from their constituents. Helium-4 has 2 protons + 2 neutrons + 2 electrons = 6 fermions; paired half-integers sum to an integer, so He-4 is a boson and can condense into a single quantum state. Helium-3 has 5 fermions (odd), giving half-integer total spin, so it is a fermion and subject to the exclusion principle — many particles cannot pile into the same state."
 
-- question: "The Pauli exclusion principle states that two electrons cannot be in the same place at the same time."
+- question: "The Pauli exclusion principle states that two electrons can seldom be in the same place at the same time."
   type: true-false
   answer: false
   explanation: "The exclusion principle forbids two identical fermions from sharing the same *quantum state* — the same set of quantum numbers (n, l, m_l, m_s). It says nothing about spatial position directly. Two electrons can overlap significantly in space as long as they differ in at least one quantum number (e.g., opposite spins). Confusing state-exclusion with spatial exclusion is a common misconception."

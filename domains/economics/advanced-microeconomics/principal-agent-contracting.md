@@ -51,7 +51,7 @@ The principal-agent problem arises when a principal (firm owner) hires an agent 
   answer: true
   explanation: "True. This excess surplus is the information rent — the unavoidable payment the principal makes to the high type for truthfully revealing her type. If the principal tried to leave the high type with exactly her outside option, the high type would prefer to mimic the low type's contract and earn a better deal. The rent is the minimum bribe needed to make self-selection incentive compatible."
 
-- question: "A principal can always achieve the first-best outcome by offering a single contract that ties all compensation purely to observed output, eliminating any need for menus or information rents."
+- question: "A principal can generally achieve the first-best outcome by offering a single contract that ties most compensation purely to observed output, eliminating any need for menus or information rents."
   type: true-false
   answer: false
   explanation: "False. Pure output-based contracts face two problems: (1) they expose risk-averse agents to income risk, violating the participation constraint or requiring a risk premium that is costly to the principal; (2) they cannot separate types — a single contract cannot simultaneously satisfy both the high type's and low type's incentive compatibility constraints if the principal does not know which type is which. Menus of contracts and information rents are necessary features of second-best optimal contracting, not avoidable inefficiencies."

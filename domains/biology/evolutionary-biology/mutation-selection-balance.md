@@ -55,7 +55,7 @@ Natural populations maintain equilibrium between mutation introducing deleteriou
   answer: 2
   explanation: "Deviations from predicted q̂ are diagnostically valuable: they signal that factors beyond simple mutation-selection balance are operating. A 40-fold excess (1/25 vs 1/1000) is hard to explain by uncertainty in μ or s alone. Heterozygote advantage (heterozygotes have higher fitness than either homozygote) can stably maintain alleles well above mutation-selection equilibrium — this is the leading explanation for cystic fibrosis allele frequencies in European populations. Option A (drift) is plausible only in small populations; option B would require a mutation rate ~1,000× typical."
 
-- question: "Strong natural selection against a deleterious allele will eventually eliminate it entirely from a large population."
+- question: "Strong natural selection against a deleterious allele will eventually eliminate it mostly from a large population."
   type: true-false
   answer: false
   explanation: "This is the core misconception mutation-selection balance corrects. Even with selection coefficient s = 1 (lethal), mutation constantly reintroduces the allele at rate μ each generation. The equilibrium frequency q̂ ≈ √(μ/s) for recessives is never zero as long as μ > 0. Selection cannot drain a pool that is continuously refilled. The equilibrium exists precisely because removal (by selection) and introduction (by mutation) balance — stronger selection lowers the equilibrium frequency but never reaches zero."

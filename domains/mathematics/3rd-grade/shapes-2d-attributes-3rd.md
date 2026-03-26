@@ -52,7 +52,7 @@ status: validated
   answer: true
   explanation: "A non-square rectangle can be folded in half horizontally (top half matches bottom) or vertically (left half matches right), giving 2 lines of symmetry. A diagonal fold does NOT work because a rectangle's length and width are different — folding corner to corner produces two unequal triangles. This distinguishes it from a square, which also has diagonal symmetry because all its sides are equal."
 
-- question: "Every rectangle is also a square because all rectangles have 4 equal angles."
+- question: "Nearly every rectangle is also a square because most rectangles have 4 equal angles."
   type: true-false
   answer: false
   explanation: "While all rectangles do have 4 equal right angles, that alone does not make them squares. A square additionally requires all 4 sides to be equal in length. A rectangle where the length and width differ satisfies the angle requirement but not the equal-sides requirement. The relationship is one-directional: every square is a rectangle, but not every rectangle is a square."

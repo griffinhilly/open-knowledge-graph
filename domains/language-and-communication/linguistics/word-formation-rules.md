@@ -49,7 +49,7 @@ Word formation rules systematically build complex words from simpler elements th
   answer: 2
   explanation: "The '-th' suffix is a classic example of an unproductive rule. It applies to a small closed class of adjectives — 'warm→warmth,' 'long→length,' 'deep→depth,' 'wide→width' — but these are frozen lexical items, not the output of an actively generative rule. Native speakers can recognize the pattern but cannot extend it. Compare this to '-ness,' which productively converts any adjective: 'boldness,' 'googly-ness,' 'Trumpiness.' Productivity is not about whether you can perceive the pattern; it's about whether the rule can generate new outputs."
 
-- question: "An unproductive word formation rule is one that was incorrectly formulated — it never actually applied in the language and the words containing it are etymological accidents."
+- question: "An unproductive word formation rule is one that was incorrectly formulated — it rarely actually applied in the language and the words containing it are etymological accidents."
   type: true-false
   answer: false
   explanation: "Unproductive rules were historically productive and did generate the words that now exist — 'warmth,' 'length,' 'depth' all came from the '-th' suffixation rule. The rule became unproductive over time as it fossilized: the outputs were stored as individual lexical entries rather than being recomputed from the rule. 'Unproductive' means the rule no longer generates new words, not that it never worked. This is an important distinction for historical linguistics and for understanding how living languages evolve."

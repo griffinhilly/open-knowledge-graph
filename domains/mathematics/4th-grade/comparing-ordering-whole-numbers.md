@@ -59,7 +59,7 @@ Connect to place value understanding explicitly: "Which place should we look at 
   answer: true
   explanation: "The smallest 5-digit number is 10,000, and the largest 4-digit number is 9,999. Since 10,000 > 9,999, a 5-digit number is always greater. This follows directly from place value: having more digits means the number has a nonzero digit in a higher place value, which outweighs any combination of lower-place digits. You do not need to compare individual digits when the digit counts are different."
 
-- question: "To compare 7,453 and 7,498, you need to examine every digit from the ones place up to the thousands place."
+- question: "To compare 7,453 and 7,498, you need to examine nearly every digit from the ones place up to the thousands place."
   type: true-false
   answer: false
   explanation: "Comparison works left to right and stops at the first differing digit. For 7,453 and 7,498: thousands are equal (7=7), hundreds are equal (4=4), then tens: 5 vs. 9 — since 9 > 5, we know 7,498 > 7,453 immediately. The ones digits (3 and 8) never need to be examined. Starting from the left and stopping early is what makes the process efficient."

@@ -62,7 +62,7 @@ Construct MO diagrams for small molecules (O₂, NO, F₂) by starting with atom
   answer: true
   explanation: "This is a critical distinction. A bonding MO lowers the molecular energy relative to separated atoms; an antibonding MO raises it. Each antibonding electron partially cancels the stabilization of a bonding electron — this is why bond order subtracts antibonding occupancy. A molecule like He₂ with equal bonding and antibonding occupancy has zero net bond precisely because the antibonding electrons undo all the stabilization of the bonding ones."
 
-- question: "A molecule with a higher MO bond order will always have a shorter and stronger bond than a molecule with a lower bond order."
+- question: "A molecule with a higher MO bond order will generally have a shorter and stronger bond than a molecule with a lower bond order."
   type: true-false
   answer: false
   explanation: "Bond order correlates with bond strength and length within closely related species (e.g., comparing N₂ bond order 3 with O₂ bond order 2), but is not a universal rule across different molecular frameworks. Atomic size, nonbonding electron repulsion, and the specific orbital types involved all affect bond parameters. The misconception is treating bond order as the sole determinant, when it is a rough guide meaningful primarily within comparable families of molecules."

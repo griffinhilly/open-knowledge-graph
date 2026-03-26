@@ -53,7 +53,7 @@ A compensator transfer function (designed in root locus or Bode plots) must be r
   answer: true
   explanation: "This is the key practical advantage of active realizations. An ideal op-amp has infinite input impedance (draws no current from the preceding stage) and zero output impedance (maintains the designed output voltage regardless of the load). Real op-amps approximate this well within their bandwidth, effectively buffering the compensator from both the upstream signal source and the downstream load. This means the transfer function measured in isolation is what you get in the full circuit — a guarantee passive networks cannot provide."
 
-- question: "A transfer function with more zeros than poles (improper transfer function) can always be realized as a physical circuit by choosing appropriate resistor and capacitor values."
+- question: "A transfer function with more zeros than poles (improper transfer function) can generally be realized as a physical circuit by choosing appropriate resistor and capacitor values."
   type: true-false
   answer: false
   explanation: "A physically realizable circuit cannot have more zeros than poles. An improper transfer function would require pure differentiation of arbitrarily high order — for example, a transfer function with two more zeros than poles would require computing the second derivative of the input signal. In practice, this means amplifying high-frequency noise without bound, which is physically impossible and unstable. Before building any compensator, engineers must verify properness (degree of numerator ≤ degree of denominator) and, if the designed function is improper, add high-frequency poles to regularize it — accepting a tradeoff between ideal performance and physical realizability."

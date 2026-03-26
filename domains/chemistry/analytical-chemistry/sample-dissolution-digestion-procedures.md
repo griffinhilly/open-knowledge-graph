@@ -54,7 +54,7 @@ Compare digestion strategies for different matrices—minerals, silicates, polym
   answer: true
   explanation: "Contamination during digestion comes from multiple sources: impurities in the acids, leaching from the digestion vessel walls during heating, and airborne particles during handling. A blank taken through the full procedure captures all of these contributions. An unheated acid blank only accounts for dissolved impurities in the starting reagents, missing the contamination introduced by heat and vessel contact — which are often the largest sources for trace-level analyses."
 
-- question: "Choosing the strongest available acid and the highest achievable temperature always improves digestion completeness and should be the default approach when dissolving a difficult sample."
+- question: "Choosing the strongest available acid and the highest achievable temperature generally improves digestion completeness and should be the default approach when dissolving a difficult sample."
   type: true-false
   answer: false
   explanation: "More aggressive conditions introduce specific risks. Perchloric acid requires explosion-proof fume hoods; excessive temperatures in microwave vessels risk pressure buildup and unsafe venting. More importantly, volatile analytes (As, Se, Hg, Os) are lost at elevated temperatures in open systems, producing biased-low results — the opposite of complete recovery. Digestion method selection is a matrix- and analyte-specific decision that balances dissolution efficiency against analyte retention and safety."

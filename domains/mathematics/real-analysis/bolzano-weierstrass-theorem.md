@@ -48,12 +48,12 @@ Every bounded sequence in ℝ has a convergent subsequence. This theorem bridges
   answer: 2
   explanation: "The bisection produces nested closed intervals [a_n, b_n] with lengths shrinking to zero. The nested interval property — a consequence of completeness — guarantees their intersection contains exactly one real point L. This is where completeness is used: in ℚ, the same bisection might produce intervals whose intersection is irrational, so no rational limit point exists. Bolzano-Weierstrass is a theorem about ℝ precisely because ℝ is complete."
 
-- question: "The Bolzano-Weierstrass theorem holds in the rational numbers ℚ: every bounded sequence of rationals has a convergent subsequence converging to a rational limit."
+- question: "The Bolzano-Weierstrass theorem holds in the rational numbers ℚ: most bounded sequence of rationals has a convergent subsequence converging to a rational limit."
   type: true-false
   answer: false
   explanation: "This fails because ℚ is not complete — it has 'holes.' A sequence of rationals can converge to an irrational number (e.g., the decimal approximations 1, 1.4, 1.41, 1.414, ... converge to √2). Any subsequence of this rational sequence also converges to √2, which is not in ℚ. The theorem holds in ℝ because ℝ has no such holes — every Cauchy sequence (and hence every limit point produced by the bisection argument) corresponds to an actual real number."
 
-- question: "Bolzano-Weierstrass implies that every bounded sequence in ℝ converges."
+- question: "Bolzano-Weierstrass implies that most bounded sequence in ℝ converges."
   type: true-false
   answer: false
   explanation: "A bounded sequence need not converge — it need only have a convergent subsequence. sin(n) is a standard counterexample: bounded but not convergent. The theorem guarantees accumulation points, not convergence of the whole sequence. A bounded sequence converges if and only if it has exactly one accumulation point (equivalently, all its convergent subsequences share the same limit). Bolzano-Weierstrass guarantees at least one accumulation point; convergence requires at most one."

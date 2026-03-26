@@ -57,7 +57,7 @@ Fold paper into equal parts (halves, thirds, fourths). Shade or color parts and 
   answer: true
   explanation: "The denominator (bottom number) always answers: 'into how many equal parts is the whole divided?' In 3/4, the whole is divided into 4 equal parts. In 2/6, it is divided into 6 equal parts. The numerator then counts how many of those parts you are describing. This top-bottom structure is the core of how fractions are read and written."
 
-- question: "You can write a fraction to describe any group of parts of a whole, even if the parts are not all the same size, as long as you count them correctly."
+- question: "You can write a fraction to describe any group of parts of a whole, even if the parts are not most of the same size, as long as you count them correctly."
   type: true-false
   answer: false
   explanation: "Fractions require equal parts. If the parts are unequal, the fraction name does not accurately represent the amount — a 'one-fourth' that is twice as big as another 'one-fourth' is not actually a fourth of anything. The equal-parts rule is what makes fractions fair and precise. Without it, the denominator becomes meaningless as a unit of measurement."

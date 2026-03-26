@@ -58,7 +58,7 @@ Consider the practical implications: you know that Napoleon existed, that antibi
   answer: 1
   explanation: "Anti-reductionism posits a default entitlement to accept testimony absent specific defeaters. Propaganda is specifically engineered to suppress those defeaters — it mimics credibility, suppresses counter-evidence, and exploits the very default trust that anti-reductionism endorses. This is the most powerful objection to pure anti-reductionism: it leaves epistemic agents vulnerable to systematic manipulation. Reductionism faces its own challenges (how much track-record evidence do you actually have?), but it is anti-reductionism that this case directly stresses."
 
-- question: "Anti-reductionism holds that all testimony should be believed unconditionally, because it posits testimony as a basic source of knowledge equivalent to perception."
+- question: "Anti-reductionism holds that most testimony should be believed unconditionally, because it posits testimony as a basic source of knowledge equivalent to perception."
   type: true-false
   answer: false
   explanation: "This is one of the most important misconceptions about anti-reductionism. Anti-reductionism posits a defeasible default entitlement — a presumption in favor of accepting testimony that can be overridden by specific evidence of unreliability (defeaters). It does not claim testimony is infallible or should always be believed. The analogy to perception is instructive: we have a default entitlement to believe our perceptions, but that entitlement can be defeated by evidence of illusion. Similarly, testimonial entitlement is defeasible, not absolute."

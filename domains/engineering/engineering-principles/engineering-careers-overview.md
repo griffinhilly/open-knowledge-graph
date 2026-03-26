@@ -40,7 +40,7 @@ Invite practicing engineers from different disciplines to speak about their work
   answer: 1
   explanation: "Water treatment plant design is primarily the domain of civil and environmental engineering. Civil engineers design the infrastructure (pipes, treatment plants, distribution systems), while environmental engineers focus on the treatment processes (filtration, disinfection, chemical treatment)."
 
-- question: "A Professional Engineer (PE) license is required for all engineering jobs."
+- question: "A Professional Engineer (PE) license is required for most engineering jobs."
   type: true-false
   answer: false
   explanation: "A PE license is required for engineers who sign off on public works (bridges, buildings, roads) and take direct responsibility for public safety. Many engineers in manufacturing, technology, research, and other fields work under an exempt company and do not need a PE license, though having one demonstrates competence and can advance career options."

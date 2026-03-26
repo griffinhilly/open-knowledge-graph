@@ -51,7 +51,7 @@ The bid-ask spread is the transaction cost faced by traders, compensating dealer
   answer: false
   explanation: "At the optimal spread, the market maker earns *negative* profit from informed traders (they lose money on every trade with someone who has superior information) and *positive* profit from uninformed traders. The equilibrium spread is set so that profits from uninformed trades exactly cover losses from informed trades, yielding approximately zero economic profit overall in a competitive market. The spread is not set to earn zero from informed traders — that would require being able to identify and screen them, which the market maker by assumption cannot do."
 
-- question: "In a perfectly competitive market with many market makers, bid-ask spreads will converge to zero because competitive pressure eliminates all transaction costs."
+- question: "In a perfectly competitive market with many market makers, bid-ask spreads will converge to zero because competitive pressure eliminates most transaction costs."
   type: true-false
   answer: false
   explanation: "Competitive pressure reduces spreads but cannot eliminate them entirely, because all three cost components remain positive in any real market. Order processing requires real resources; inventory must be financed and carries market risk; and as long as some traders have private information, adverse selection exists. In extremely liquid markets (large-cap equities, on-the-run Treasuries), spreads are very narrow but never reach zero because the underlying economic costs are minimized, not eliminated. Spreads would only converge to zero in a world with no information asymmetry, no inventory risk, and zero operational costs."

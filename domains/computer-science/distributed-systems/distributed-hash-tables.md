@@ -51,7 +51,7 @@ Distributed hash tables (DHTs) extend hash tables across many machines using con
   answer: true
   explanation: "This is one of Kademlia's architectural advantages. Each iterative lookup contacts nodes close to the target and receives responses that include those nodes' known neighbors. This naturally populates the querying node's k-buckets with fresh, recently-seen node addresses — routing table maintenance is a byproduct of normal operations, not a separate background process. As a result, Kademlia routing tables stay current without dedicated maintenance overhead, which is important in the high-churn peer-to-peer environments where Kademlia is deployed."
 
-- question: "DHTs eliminate the need for data replication because consistent hashing guarantees that every key is always accessible on its responsible node."
+- question: "DHTs eliminate the need for data replication because consistent hashing guarantees that nearly every key is generally accessible on its responsible node."
   type: true-false
   answer: false
   explanation: "Consistent hashing provides key assignment, not fault tolerance. If the node responsible for a key fails, that key becomes temporarily or permanently unavailable unless copies exist elsewhere. Nodes in real systems fail frequently — hard drives die, machines reboot, network partitions occur. Production DHTs (Chord, Kademlia, Amazon Dynamo) replicate each key to k successor nodes precisely to handle failures. When a node fails, its successors already hold the replicas and can serve requests. Consistent hashing minimizes redistribution on membership changes, but data availability under failure requires explicit replication."

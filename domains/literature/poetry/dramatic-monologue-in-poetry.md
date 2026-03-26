@@ -61,7 +61,7 @@ Read 'My Last Duchess' and list every detail the Duke reveals about himself that
   answer: 1
   explanation: "What defines the dramatic monologue as a distinct form is not merely a fictional narrator but a specific situation: a speaker addressing a silent listener, revealing character through speech, often without understanding what they are revealing. The silent listener creates a performative context — the speaker is explaining, defending, or persuading — and it is that performative pressure that generates the gap between intended self-presentation and actual self-disclosure. Persona poems or first-person fiction lack this particular structure."
 
-- question: "In a dramatic monologue, the speaker is always aware of what their speech reveals about their true character."
+- question: "In a dramatic monologue, the speaker is typically aware of what their speech reveals about their true character."
   type: true-false
   answer: false
   explanation: "This is precisely what the form inverts. The dramatic monologue's defining quality is that the speaker is NOT fully aware of what they are revealing. The Duke in 'My Last Duchess' believes he is showing refinement and legitimate authority; the reader perceives self-incrimination. The self-revelation happens through what the speaker chooses to mention, how they phrase things, what they take for granted — all unconscious rhetorical choices that the reader interprets against the speaker's intent."

@@ -52,7 +52,7 @@ Composites fail through fiber breakage, matrix cracking, fiber-matrix debonding,
   answer: true
   explanation: "The rule of mixtures (iso-strain condition) gives composite modulus E₁ = Vf·Ef + Vm·Em, and each phase carries stress proportional to its modulus: σf/σm = Ef/Em. Since carbon or glass fibers are typically 3–10× stiffer than the epoxy matrix, fibers carry a disproportionate share of the applied load relative to their volume fraction. If Vf = 0.6 and Ef = 5·Em, fibers carry roughly 88% of the total load despite being only 60% of the volume. This is why fiber breakage in the longitudinal direction is catastrophic — fibers carry the vast majority of the load."
 
-- question: "A stronger fiber-matrix interface always produces a tougher composite, because stronger bonding means more force is required to propagate cracks through the material."
+- question: "A stronger fiber-matrix interface usually produces a tougher composite, because stronger bonding means more force is required to propagate cracks through the material."
   type: true-false
   answer: false
   explanation: "This is the critical misconception in composite design. A very strong interface leads to brittle, planar fracture: cracks pass straight through fiber-matrix interfaces without deflection, because the bond is strong enough to transmit the crack front. Very little energy is absorbed. A weaker interface promotes crack deflection, debonding along fibers, and fiber pullout — all of which require work and dissipate energy. The composite becomes tougher even though individual components are weaker. Optimal toughness requires engineered intermediate bonding, not maximum bonding."

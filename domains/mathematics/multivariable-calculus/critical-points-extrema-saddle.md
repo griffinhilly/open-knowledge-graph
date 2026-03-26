@@ -45,7 +45,7 @@ Critical points occur where ∇f = 0 (or partials fail to exist). A point is a l
   answer: 1
   explanation: "A saddle point requires the function to increase in some directions and decrease in others. In one dimension, 'direction' means only left or right. If f'(c) = 0 at a critical point, the second derivative test tells you whether the function curves up (minimum), curves down (maximum), or has a degenerate case (inflection point at a horizontal tangent). But there are no competing spatial directions — the 'saddle' structure requires at least two independent directions. Option A conflates inflection points (where curvature changes sign in 1D) with saddle points (a multidimensional phenomenon)."
 
-- question: "If ∇f(p) = 0 at a point p, then p must be either a local maximum or a local minimum."
+- question: "If ∇f(p) = 0 at a point p, then p is expected to be either a local maximum or a local minimum."
   type: true-false
   answer: false
   explanation: "∇f = 0 is a necessary condition for a local extremum but not a sufficient one. Saddle points also satisfy ∇f = 0 yet are neither maxima nor minima. The canonical example is f(x,y) = x² − y² at the origin: the gradient vanishes, but the function increases along the x-axis and decreases along the y-axis. To determine which case applies, you need additional information about the curvature — provided by the Hessian matrix and the second-derivative test."

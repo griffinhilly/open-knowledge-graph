@@ -51,7 +51,7 @@ Higher-order partial derivatives are obtained by differentiating partial derivat
   answer: 2
   explanation: "When the mixed partial derivatives are continuous, Clairaut's theorem guarantees f_xy = f_yx — so the four formally distinct second-order partial derivatives collapse to three independent ones: f_xx (pure second derivative in x), f_yy (pure second derivative in y), and f_xy = f_yx (the shared mixed partial). All three appear on the Hessian matrix, which is symmetric precisely because of this equality. Option A would be correct for a pathological function where mixed partials are not continuous."
 
-- question: "The Hessian matrix H of a function f(x,y) is always symmetric."
+- question: "The Hessian matrix H of a function f(x,y) is generally symmetric."
   type: true-false
   answer: false
   explanation: "The Hessian is symmetric only when Clairaut's theorem applies — that is, when the mixed partial derivatives f_xy and f_yx are continuous. Pathological functions exist where f_xy(0,0) ≠ f_yx(0,0), making the Hessian asymmetric at that point. In practice, virtually every function encountered in applied work has continuous mixed partials (and therefore a symmetric Hessian), but the theorem requires continuity as a hypothesis, not just existence of the mixed partials."

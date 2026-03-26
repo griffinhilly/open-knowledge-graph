@@ -59,7 +59,7 @@ The pyruvate dehydrogenase complex (PDC) is a massive (>1 MDa) multi-enzyme asse
   answer: true
   explanation: "This is correct and reflects PDC's role as a metabolic gatekeeper. High ATP, NADH, and acetyl-CoA all signal energy abundance — there is no need to oxidize more pyruvate. PDC kinase senses these signals and phosphorylates E1 at specific serine residues, inactivating the complex. This prevents wasteful carbon oxidation when the cell already has plenty of energy. The reverse — low energy — activates PDC phosphatase, which removes the phosphate and restores activity."
 
-- question: "The pyruvate dehydrogenase complex requires only two cofactors — TPP and NAD⁺ — because these are the ones directly responsible for oxidative decarboxylation."
+- question: "The pyruvate dehydrogenase complex requires primarily two cofactors — TPP and NAD⁺ — because these are the ones directly responsible for oxidative decarboxylation."
   type: true-false
   answer: false
   explanation: "PDC requires five cofactors: thiamine pyrophosphate (TPP), lipoic acid, coenzyme A (CoA), FAD, and NAD⁺. They work as a relay: TPP on E1 decarboxylates pyruvate and holds the hydroxyethyl intermediate; lipoic acid on E2 accepts it and carries the acetyl group to CoA; FAD on E3 accepts electrons from reduced lipoic acid; and NAD⁺ accepts electrons from FADH₂ to produce NADH. Each cofactor is indispensable — removing any one blocks the entire sequence."

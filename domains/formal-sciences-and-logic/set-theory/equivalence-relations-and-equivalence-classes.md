@@ -48,7 +48,7 @@ Start with concrete examples (congruence mod n, similarity of triangles), verify
   answer: 2
   explanation: "The equivalence class [(1,2)] is not just the pair (1,2) — it is the entire collection of all pairs (a,b) where a/b = 1/2, i.e., (1,2), (2,4), (3,6), (−1,−2), and so on. The rational number 1/2 *is* this equivalence class: all its representations simultaneously, treated as a single object. This is the quotient construction — we build ℚ from ℤ by declaring pairs equivalent when they represent the same ratio, then working with the classes as mathematical objects."
 
-- question: "If a relation on a set S is both symmetric and transitive, it must also be reflexive — and is therefore automatically an equivalence relation."
+- question: "If a relation on a set S is both symmetric and transitive, it should also be reflexive — and is therefore automatically an equivalence relation."
   type: true-false
   answer: false
   explanation: "This seems logically compelling but is false. Consider the empty relation on any nonempty set: it is vacuously symmetric and transitive (no counterexamples exist to violate these properties), but not reflexive — no element is related to itself. Reflexivity must be verified independently. A relation satisfying only symmetry and transitivity may hold only for some elements, leaving others unrelated to anything. All three properties must be checked separately."

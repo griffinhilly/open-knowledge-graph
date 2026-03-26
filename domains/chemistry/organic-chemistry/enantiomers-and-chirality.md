@@ -47,7 +47,7 @@ Practice CIP ranking on simple cases before complex ones. Use 3D models to confi
   answer: 2
   explanation: "R/S configuration and optical rotation (+/−) are completely independent naming systems. CIP R/S is determined by atomic-number priority rules; optical rotation is an experimentally measured physical property. An R-configured compound can be either (+) or (−) depending on its structure. There is no systematic relationship between the two. This is one of the most persistent misconceptions in stereochemistry."
 
-- question: "A molecule with two stereocenters must be chiral."
+- question: "A molecule with two stereocenters should be chiral."
   type: true-false
   answer: false
   explanation: "Meso compounds contain two or more stereocenters but are achiral overall because they possess an internal plane of symmetry (or other symmetry element). The classic example is meso-tartaric acid, which has one R and one S stereocenter but whose mirror image is superimposable on itself. Stereocenters are necessary but not sufficient for chirality; the overall molecular symmetry determines chirality."

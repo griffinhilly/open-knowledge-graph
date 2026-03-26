@@ -53,7 +53,7 @@ Forgetting the relationship to multiplication; confusing divisor and dividend.
   answer: 1
   explanation: "Multiplication facts already contain the division facts. Every multiplication fact — like 9 × 7 = 63 — generates two division facts: 63 ÷ 9 = 7 and 63 ÷ 7 = 9. A student who knows all their multiplication facts already knows all the division facts; they just need to learn to use them in reverse. Turning a division problem into a 'missing factor' question is the bridge."
 
-- question: "Division facts are a completely separate set of facts from multiplication facts, requiring independent memorization."
+- question: "Division facts are a substantially separate set of facts from multiplication facts, requiring independent memorization."
   type: true-false
   answer: false
   explanation: "Division and multiplication are inverse operations. Every multiplication fact (like 6 × 8 = 48) automatically gives you two division facts (48 ÷ 6 = 8 and 48 ÷ 8 = 6). These are three members of the same fact family. Division facts are not a separate category — they are the same numerical relationships viewed from a different direction. Students who understand this connection need to memorize far less."

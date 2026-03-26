@@ -55,7 +55,7 @@ A single photon cannot create a pair and conserve both energy and momentum simul
   answer: false
   explanation: "This is the key misconception. The energy threshold 1.022 MeV is necessary but not sufficient for pair production by a single photon. A photon in vacuum always has zero invariant mass squared, while any electron-positron pair has positive invariant mass squared. Four-momentum conservation is violated for single-photon pair production regardless of photon energy. A nucleus (or other particle to absorb recoil) is always required to provide the additional four-momentum that reconciles the invariant masses."
 
-- question: "In positron emission tomography (PET), the two annihilation gamma rays always have exactly equal energies in the lab frame when detected by the scanner."
+- question: "In positron emission tomography (PET), the two annihilation gamma rays usually have exactly equal energies in the lab frame when detected by the scanner."
   type: true-false
   answer: false
   explanation: "When the positron has kinetic energy before annihilation (as it does in PET — it is emitted with some energy from beta decay), the center-of-mass frame is not at rest in the lab. The two 511 keV photons are back-to-back in the CM frame but are Doppler-shifted in the lab, so they arrive with slightly different energies and a small time-of-flight difference. It is precisely this asymmetry that allows PET scanners to localize the annihilation site along the line of response."

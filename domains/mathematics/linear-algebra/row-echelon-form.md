@@ -48,7 +48,7 @@ A matrix is in row echelon form if non-zero rows appear before zero rows and eac
   answer: true
   explanation: "REF is not unique — different operation sequences yield different-looking results. But the pivot columns are determined by the matrix itself: they correspond to the columns that contain the leading nonzero entries of each row, and this set is invariant regardless of reduction path. This invariance is why rank (the count of pivots) is a well-defined property of the matrix."
 
-- question: "A system with more unknowns than equations always has infinitely many solutions."
+- question: "A system with more unknowns than equations usually has infinitely many solutions."
   type: true-false
   answer: false
   explanation: "Having more unknowns than equations guarantees at least one free variable IF the system is consistent — but the system might not be consistent. A zero row with a nonzero right-hand side (the equation 0 = c, c ≠ 0) is a contradiction that makes the system inconsistent with no solutions at all. More unknowns than equations is a necessary but not sufficient condition for infinitely many solutions."

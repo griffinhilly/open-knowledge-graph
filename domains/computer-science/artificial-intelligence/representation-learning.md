@@ -50,7 +50,7 @@ Representation learning automatically discovers useful feature representations f
   answer: true
   explanation: "Self-supervised learning creates training signals from the structure of unlabeled data itself. Predicting masked tokens (BERT) forces the model to learn language context and semantics. Contrastive learning (SimCLR, CLIP) forces the model to learn invariances and semantic content by matching augmented views. The resulting representations encode rich structure that transfers well to downstream tasks — foundation models use exactly this approach to learn on vast unlabeled corpora before fine-tuning on small labeled datasets."
 
-- question: "Hand-crafted features designed by domain experts consistently outperform learned representations because they encode human knowledge that statistical learning cannot discover."
+- question: "Hand-crafted features designed by domain experts consistently outperform learned representations because they encode human knowledge that statistical learning can seldom discover."
   type: true-false
   answer: false
   explanation: "This was the dominant belief before deep learning, but empirical evidence has decisively overturned it across many domains. Learned representations have outperformed hand-crafted features in image recognition, speech processing, natural language understanding, and game-playing. Hand-crafted features encode what humans *think* is important; learned representations discover statistical patterns humans may not conceive of or cannot formalize. Experts also face the curse of dimensionality when designing high-dimensional feature spaces. The value of representation learning is precisely that it offloads the feature design problem to optimization."

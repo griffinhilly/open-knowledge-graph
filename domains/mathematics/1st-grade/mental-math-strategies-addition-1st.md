@@ -52,7 +52,7 @@ Mental math strategies for addition include making 10, using doubles and near-do
   answer: false
   explanation: "Making 10 works by rearranging the pieces without changing the total. You borrow 3 from the 5 to make 7 into 10, leaving 2 from the 5. The expression becomes 10 + 2 = 12. The total is still 12 — you've only changed the *form* of the addition to pass through 10, which is easier to compute. Numbers are flexible: you can pull them apart and rearrange without changing the sum."
 
-- question: "A flexible mental math thinker uses the same strategy for every addition problem."
+- question: "A flexible mental math thinker uses the same strategy for most addition problem."
   type: true-false
   answer: false
   explanation: "The key insight is that different problems suit different strategies. 9 + 3 is perfect for counting on (just 3 steps from 9). 8 + 7 is best handled by making 10 (8 + 2 + 5 = 15) or near-doubles (8 + 8 = 16, so 8 + 7 = 15). 6 + 6 calls for the doubles fact directly. A good mental math thinker reads the problem and picks the strategy that makes the computation simplest — not the same strategy every time."

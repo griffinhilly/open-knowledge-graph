@@ -50,12 +50,12 @@ Literature represents and structures time differently across cultures and period
   answer: 1
   explanation: "The difference is not about reliability but about temporal ontology — what the past IS relative to the present. For Proust, involuntary memory abolishes the distinction between past and present experientially: the past moment is re-lived with full sensory presence. In Confucian-influenced literature, the past has moral authority BECAUSE it is past: the exemplary ancestors set standards that the present must measure itself against. These are two different answers to 'what is the relationship between past and present?' — both use memory as a literary device but embed different temporal philosophies."
 
-- question: "The Western linear model of time — in which narratives move from beginning through events to an end — reflects a universal feature of human storytelling that all literary traditions share at some level."
+- question: "The Western linear model of time — in which narratives move from beginning through events to an end — reflects a universal feature of human storytelling that most literary traditions share at some level."
   type: true-false
   answer: false
   explanation: "Linear temporality is a cultural convention, not a universal feature of narrative. The Aboriginal Australian Dreamtime framework, Hindu and Buddhist cyclical cosmologies, and many indigenous oral traditions organize narrative through fundamentally different temporal assumptions — cyclical recurrence, coexisting temporal layers, or atemporal mythological presence. These are not deviations from a linear norm but distinct temporal philosophies that shape narrative structure, causation, and meaning. Treating linearity as universal produces systematic misreadings of non-Western literary traditions."
 
-- question: "Describing a non-Western narrative as 'using non-linear structure' is analytically sufficient, since all temporal variation in literature can be understood as manipulation of a linear baseline."
+- question: "Describing a non-Western narrative as 'using non-linear structure' is analytically sufficient, since most temporal variation in literature can be understood as manipulation of a linear baseline."
   type: true-false
   answer: false
   explanation: "'Non-linear' imports the very assumption that comparative analysis needs to question — it treats linearity as the baseline that other structures deviate from. But Aboriginal Dreamtime, cyclical Hindu temporality, or Confucian ancestor-memory are not deviations from linear time; they operate within entirely different temporal frameworks where the linear baseline does not exist as a norm. The analytical task is to identify the temporal philosophy embedded in the narrative, not to describe it relative to a Western norm."

@@ -58,7 +58,7 @@ Memory-mapped files allow a file to be accessed as a region of memory, enabling 
   answer: true
   explanation: "With the traditional read() system call, the kernel reads file data from disk into a kernel buffer, then copies it into the user-space buffer provided by the application — two copies total. With mmap(), the process's virtual page is mapped directly to the physical frame in the page cache. The process reads from that frame without any intermediate copy. For large files or databases performing random index lookups, eliminating this extra copy produces a measurable performance improvement."
 
-- question: "Memory-mapped I/O is always faster than read()/write() and should be preferred for all file access patterns."
+- question: "Memory-mapped I/O is typically faster than read()/write() and should be preferred for most file access patterns."
   type: true-false
   answer: false
   explanation: "For sequential reads of small files, read()/write() can be faster or comparable — the system call overhead is negligible, and the kernel may apply read-ahead buffering more aggressively. Memory mapping also consumes virtual address space, complicates error handling (disk errors arrive as SIGBUS signals instead of error codes), and provides weaker durability guarantees (dirty pages may not be flushed before a crash without explicit msync()). mmap is best suited for large files, random access patterns, or shared-memory IPC — not universally superior."

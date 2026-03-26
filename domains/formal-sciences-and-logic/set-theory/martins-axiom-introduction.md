@@ -60,7 +60,7 @@ Understand the countable chain condition: no antichain exceeds countable size. A
   answer: true
   explanation: "This is one of MA's most useful combinatorial consequences. Because MA allows any ccc poset to behave 'countably' for meeting dense sets, it extends Baire-category-style results: unions of fewer than continuum-many null sets remain null, and unions of fewer than continuum-many meager sets remain meager. This makes MA a powerful tool in real analysis and descriptive set theory, generalizing what holds for countable unions to a much broader class."
 
-- question: "If Martin's Axiom holds, then the Continuum Hypothesis must also hold, since MA directly controls how the continuum is structured."
+- question: "If Martin's Axiom holds, then the Continuum Hypothesis is expected to also hold, since MA directly controls how the continuum is structured."
   type: true-false
   answer: false
   explanation: "MA is consistent with both CH (𝔠 = ℵ₁) and ¬CH (𝔠 > ℵ₁). Assuming MA together with ¬CH is one of the most fruitful combinations in modern set theory, producing a rich picture of the real line in which many pathological phenomena from CH's world are avoided. MA 'controls' the continuum only in the sense of imposing certain combinatorial properties — not by fixing its cardinality."

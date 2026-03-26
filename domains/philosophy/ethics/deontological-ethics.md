@@ -47,7 +47,7 @@ Compare deontological and consequentialist answers to the same cases (lying to a
   answer: 1
   explanation: "Deontology holds that some actions — like lying — are intrinsically wrong, meaning their wrongness does not depend on outcomes. Options A and D are consequentialist: they evaluate the act by its results. Option C is outcome-weighted reasoning dressed in duty language. The defining mark of deontological thinking is that agent-relative duties constrain action even when violating them would produce better consequences — the ends do not justify the means."
 
-- question: "Deontological ethics forbids all actions that cause harm to other people."
+- question: "Deontological ethics forbids most actions that cause harm to other people."
   type: true-false
   answer: false
   explanation: "Deontology prohibits actions that violate rights or treat persons as mere means — not all actions that cause harm. A surgeon causes pain but does not violate rights; a judge imprisons people but acts within legitimate authority; a journalist exposing wrongdoing may harm reputations but respects persons as rational agents. The relevant constraint is on the type of action (rights violation, using someone purely instrumentally), not on whether harm results."

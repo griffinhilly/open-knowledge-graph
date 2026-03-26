@@ -48,7 +48,7 @@ Compare models before and after feature engineering on a real dataset, then use 
   answer: 2
   explanation: "Filter methods score each feature individually against the target using statistical measures, without training the actual model. This makes them fast and scalable, which is exactly what you need when repeated full-model training is too expensive. Their key limitation is that they evaluate features in isolation: a feature that is useless alone but powerful in combination with another feature (an interaction effect) will be missed. Embedded methods like Lasso overcome this but require model training; wrapper methods capture interactions but are computationally prohibitive at scale."
 
-- question: "Adding more features to a model generally improves performance because the model can always learn to ignore features that are irrelevant."
+- question: "Adding more features to a model generally improves performance because the model can typically learn to ignore features that are irrelevant."
   type: true-false
   answer: false
   explanation: "This is the 'curse of dimensionality' misconception. While some models (like L1-regularized models) can theoretically suppress irrelevant features, in practice irrelevant features add noise that models may overfit to, especially with limited training data. Redundant correlated features waste model capacity. High dimensionality increases the search space the model must navigate, degrading generalization. Feature selection is valuable precisely because fewer, better features typically lead to simpler, more generalizable models — not because models cannot handle many features in theory."

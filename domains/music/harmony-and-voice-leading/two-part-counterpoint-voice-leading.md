@@ -50,7 +50,7 @@ Study Bach two-part inventions and analyze the motion between voices. Then write
   answer: 1
   explanation: "In four-part writing, a bass line and two inner voices can support the harmonic content while a soprano melody operates more freely. With only two voices, every interval is exposed and harmonically significant — there is no inner voice to fill in missing chord tones. Both voices must simultaneously function as melodic lines AND define the implied harmony. Every note choice is doubly constrained. This is why Bach's two-part inventions are considered advanced contrapuntal achievements rather than simplified exercises."
 
-- question: "In two-part counterpoint, the lower voice moving momentarily above the upper voice (voice crossing) is always forbidden because it destroys harmonic clarity."
+- question: "In two-part counterpoint, the lower voice moving momentarily above the upper voice (voice crossing) is typically forbidden because it destroys harmonic clarity."
   type: true-false
   answer: false
   explanation: "Voice crossing is not absolutely forbidden — it is occasionally used in two-part writing when the melodic logic requires it. However, it must be handled carefully because it can disorient the listener about which line is which, undermining voice identity. The key principle is that crossings should be brief, purposeful, and resolved. The statement is too absolute: the discipline of counterpoint permits voice crossing as a tool while cautioning against overuse."

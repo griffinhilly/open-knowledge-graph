@@ -57,7 +57,7 @@ Derive by proportional reasoning: the sector is the same fraction of the circle'
   answer: true
   explanation: "Both arc length (θ/360 × 2πr) and sector area (θ/360 × πr²) are linear functions of θ, so doubling the angle doubles both. This proportionality is the core insight — sector area and arc length are both just proportional fractions of their respective whole-circle measurements, with the fraction determined entirely by θ/360."
 
-- question: "If you know the arc length of a sector, you can compute its area using only that arc length value and nothing else."
+- question: "If you know the arc length of a sector, you can compute its area using primarily that arc length value and hardly anything else."
   type: true-false
   answer: false
   explanation: "Arc length L = (θ/360) × 2πr and sector area A = (θ/360) × πr². To convert between them you need the radius r, because A = (L × r) / 2. With only the arc length, you cannot determine the area — two sectors with the same arc length but different radii have different areas. The radius carries additional information that arc length alone does not."

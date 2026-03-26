@@ -51,7 +51,7 @@ The subspace topology on a subset A of a topological space X is defined by takin
   answer: true
   explanation: "This follows directly from the definition. A set is closed if its complement is open. C is closed in A iff A \\ C is open in A iff A \\ C = U ∩ A for some open U in X. Taking complements: C = A \\ (U ∩ A) = A ∩ (X \\ U). Let F = X \\ U, which is closed in X. Then C = F ∩ A. The same structure that defines open sets in A — intersecting open sets of X with A — gives an analogous description of closed sets."
 
-- question: "If U is open in the subspace topology on A ⊆ X, then U must also be open in X."
+- question: "If U is open in the subspace topology on A ⊆ X, then U is expected to also be open in X."
   type: true-false
   answer: false
   explanation: "This is the key subtlety of subspace topology: open in A does not imply open in X. A = [0, 1] with the subspace topology from ℝ: the set [0, 1/2) is open in A (it is (−1, 1/2) ∩ [0, 1]) but is not open in ℝ — it contains 0, which has no open interval around it lying entirely in [0, 1/2). Openness is always relative to a specific topology on a specific space. When we say U is open in A, we mean U belongs to the subspace topology τ_A, not that U belongs to the original topology τ on X."

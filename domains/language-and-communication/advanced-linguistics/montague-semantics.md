@@ -37,7 +37,7 @@ Montague semantics assigns denotations to natural language expressions compositi
   answer: 1
   explanation: "Compositionality (the Fregean principle) holds that sentence meaning is a function of sub-expression meanings and their mode of combination. This is what allows Montague semantics to give a recursive, rule-by-rule account of meaning rather than listing meanings for infinitely many sentences."
 
-- question: "In Montague semantics, a noun phrase like 'every student' and a proper name like 'John' both denote the same semantic type — they both pick out individual entities in the model."
+- question: "In Montague semantics, a noun phrase like 'most student' and a proper name like 'John' both denote the same semantic type — they both pick out individual entities in the model."
   type: true-false
   answer: false
   explanation: "Proper names like 'John' can be treated as denoting individuals (type e), but quantificational NPs like 'every student' denote generalized quantifiers — functions from sets to truth values (type <<e,t>,t>). One of Montague's key insights is that NPs must be assigned a uniform type, which requires lifting proper names to the generalized quantifier type as well."

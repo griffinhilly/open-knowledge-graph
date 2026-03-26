@@ -58,7 +58,7 @@ Use concrete objects (beans, blocks) to act out division problems. Divide into g
   answer: true
   explanation: "By definition, if the remainder were equal to or greater than the divisor, you could form one more complete group. For example, 17 ÷ 5 = 3 R2 — the remainder 2 is less than 5. If you computed a 'remainder' of 5 or more, that means you undercounted the quotient. The remainder must always be in the range 0 to (divisor − 1)."
 
-- question: "When a division word problem has a remainder, you should always round up your answer to the next whole number."
+- question: "When a division word problem has a remainder, you should generally round up your answer to the next whole number."
   type: true-false
   answer: false
   explanation: "Whether to round up or down depends entirely on context. Round UP when the remainder represents something that still needs to be included (people needing transportation, items needing containers). Round DOWN when the remainder represents unusable leftover material (ribbon scraps, partial groups that cannot be used). The same arithmetic can require opposite decisions in different situations."

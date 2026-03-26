@@ -58,7 +58,7 @@ Solve the corresponding equation first to find the boundary value, then determin
   answer: true
   explanation: "An inequality like x < 2 describes infinitely many values — all real numbers less than 2. Unlike an equation (which has a single solution point), an inequality defines a region. Graphically, this is represented with shading extending in one direction from a boundary value. Thinking the answer 'should be a number' is a common error that comes from confusing inequalities with equations."
 
-- question: "You must flip the inequality sign whenever you subtract a positive number from both sides of an inequality."
+- question: "You should flip the inequality sign whenever you subtract a positive number from both sides of an inequality."
   type: true-false
   answer: false
   explanation: "The sign only flips when you multiply or divide both sides by a negative number. Adding or subtracting any number (positive or negative) from both sides preserves the direction of the inequality. For example, x + 3 > 7 → x > 4 (subtracting 3, no flip). Only multiplication and division by negatives cause the flip, because they reverse the ordering relationship on the number line."

@@ -51,7 +51,7 @@ Multipole expansion approximates far-field potentials of localized charge and cu
   answer: true
   explanation: "With Q=0, the monopole term vanishes. With p≠0, the dipole term is the leading surviving term, and it falls off as 1/r². This is precisely the situation for polar molecules like water: the molecule is electrically neutral overall (Q=0), but the oxygen end pulls electron density from the hydrogens, creating a permanent charge separation and a nonzero dipole moment. At distances large compared to the molecule, water-water interactions are therefore primarily dipole-dipole in character."
 
-- question: "The monopole term in the multipole expansion always provides the best approximation to a charge distribution's far-field potential, regardless of the distribution's properties."
+- question: "The monopole term in the multipole expansion generally provides the best approximation to a charge distribution's far-field potential, regardless of the distribution's properties."
   type: true-false
   answer: false
   explanation: "The monopole term only dominates when Q ≠ 0. If the total charge is zero, the monopole term vanishes entirely, and the dipole term becomes the leading contribution. If both Q=0 and p=0, the quadrupole leads. 'Best approximation' depends entirely on which terms survive — the monopole is only 'best' when it is nonzero, and even then the dipole correction becomes important at shorter distances. The hierarchy of terms is the whole point of the expansion: different terms dominate at different conditions."

@@ -33,7 +33,7 @@ A differential equation is an equation involving a function and its derivatives.
   answer: 1
   explanation: "We need a function whose derivative equals itself. The exponential function y = e^x has this property. Scaling by any constant C still satisfies the equation: d(Ce^x)/dx = Ce^x = y. The general solution is y = Ce^x, where C is determined by an initial condition. The other options do not satisfy dy/dx = y."
 
-- question: "The solution to a differential equation is always a single specific number."
+- question: "The solution to a differential equation is generally a single specific number."
   type: true-false
   answer: false
   explanation: "Solutions to differential equations are functions, not numbers. The general solution is typically a family of functions parameterized by one or more constants (e.g., y = Ce^x). A particular solution is one member of that family, selected by applying an initial or boundary condition. The constants arise because integration — the reverse of differentiation — always introduces an arbitrary constant."

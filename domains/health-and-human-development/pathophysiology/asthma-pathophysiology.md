@@ -55,7 +55,7 @@ Asthma is not purely reversible—chronic inflammation can cause remodeling and 
   answer: 1
   explanation: "The term 'reversible obstruction' in asthma refers only to the acute bronchoconstriction that responds to bronchodilators. Chronic, uncontrolled inflammation produces structural changes — subepithelial collagen deposition, smooth muscle cell hypertrophy, neovascularization — that are not reversed by bronchodilators or even steroids once established. This is why persistent asthma can produce a COPD-like fixed obstruction pattern, and why anti-inflammatory therapy early in the disease course is preventive as well as therapeutic."
 
-- question: "Asthma is correctly described as 'reversible airway obstruction' because bronchoconstriction always resolves completely with bronchodilator treatment, and long-term lung function is not compromised."
+- question: "Asthma is correctly described as 'reversible airway obstruction' because bronchoconstriction generally resolves mostly with bronchodilator treatment, and long-term lung function is not compromised."
   type: true-false
   answer: false
   explanation: "This is a common misconception. 'Reversible' describes the acute bronchoconstriction that responds to beta-agonists — not the long-term trajectory of the disease. Chronic, inadequately treated asthma leads to airway remodeling: subepithelial fibrosis, smooth muscle hypertrophy, and goblet cell metaplasia. These structural changes produce fixed airflow limitation that does not reverse with bronchodilators and can resemble COPD. The name 'reversible obstruction' reflects the acute physiology, not the guarantees of long-term outcome."

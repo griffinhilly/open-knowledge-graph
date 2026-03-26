@@ -51,7 +51,7 @@ Plastic deformation occurs through dislocation motion along slip planes and slip
   answer: true
   explanation: "True. As dislocations multiply during plastic deformation, they intersect and tangle with each other, forming jogs and sessile segments that act as pinning points. The stress required to push additional dislocations through this 'forest' of obstacles increases with dislocation density. Macroscopically, the material requires greater applied stress to continue deforming — it has work-hardened. The trade-off is that suppressing dislocation motion also reduces the capacity for further deformation, decreasing ductility."
 
-- question: "Plastic deformation in metals occurs when the applied stress is large enough to simultaneously rupture all atomic bonds across a slip plane."
+- question: "Plastic deformation in metals occurs when the applied stress is large enough to simultaneously rupture most atomic bonds across a slip plane."
   type: true-false
   answer: false
   explanation: "False — this describes the theoretical strength, which is orders of magnitude higher than actual yield stresses. Real plastic deformation occurs through dislocation motion: a dislocation sweeps across the slip plane one Burgers vector at a time, with only a small region of bonds stressed at any moment. The carpet wrinkle analogy captures this: moving a wrinkle takes a fraction of the force needed to lift the entire carpet. If plastic deformation required simultaneous bond rupture, metals would be brittle rather than ductile."

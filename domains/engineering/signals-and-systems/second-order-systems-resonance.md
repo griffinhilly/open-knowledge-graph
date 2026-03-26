@@ -49,7 +49,7 @@ Second-order systems H(s) = ω_n²/(s² + 2ζω_n·s + ω_n²) exhibit resonance
   answer: true
   explanation: "This is the fundamental unity of time-domain and frequency-domain descriptions: they are two views of the same physics. In the time domain, low ζ causes underdamped ringing and overshoot after a step; higher ζ dampens this. In the frequency domain, low ζ produces a tall resonance peak; higher ζ flattens it. Both behaviors trace back to the same pole locations: poles close to the imaginary axis produce both time-domain oscillation and frequency-domain resonance. Moving poles leftward (increasing ζ) simultaneously reduces overshoot and peak magnitude."
 
-- question: "The resonant frequency of an underdamped second-order system is always equal to its natural frequency ω_n."
+- question: "The resonant frequency of an underdamped second-order system is generally equal to its natural frequency ω_n."
   type: true-false
   answer: false
   explanation: "The resonant frequency (where the frequency response magnitude peaks) is ω_r = ω_n√(1 − 2ζ²), which equals ω_n only when ζ = 0 (undamped). For any real underdamped system (0 < ζ < 1/√2), the resonant frequency is slightly below ω_n. The difference is small for light damping (ζ = 0.1 gives ω_r ≈ 0.99ω_n) but becomes significant as ζ increases. Above ζ = 1/√2, there is no resonance peak at all. The natural frequency ω_n is a system property; the resonant frequency ω_r depends on both ω_n and the damping ratio."

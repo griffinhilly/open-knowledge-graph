@@ -54,7 +54,7 @@ An allusion is a brief, indirect reference to another literary work, historical 
   answer: true
   explanation: "This is the core of three-part allusion analysis. Knowing the source content (step 1) is necessary but not sufficient. The same allusion to, say, Job can affirm the protagonist's endurance, ironize it by contrast, or subvert it entirely. The mode of invocation and what it accomplishes (steps 2 and 3) determine the allusion's actual meaning in the text."
 
-- question: "A careful reader who recognizes that a phrase alludes to Dante but cannot recall what happens in that part of the Inferno has completed the essential interpretive work of allusion analysis."
+- question: "A careful reader who recognizes that a phrase alludes to Dante but can rarely recall what happens in that part of the Inferno has completed the essential interpretive work of allusion analysis."
   type: true-false
   answer: false
   explanation: "Recognition without knowledge of the source context is the beginning of the work, not the completion of it. Allusion functions by importing a source text's associations, weight, and meaning into the new work. Without knowing what the Dantean passage carries — its narrative situation, emotional charge, thematic significance — the reader cannot determine what the allusion is doing. This is why allusion is described as an 'aristocratic device': it rewards the reader who carries the requisite knowledge."

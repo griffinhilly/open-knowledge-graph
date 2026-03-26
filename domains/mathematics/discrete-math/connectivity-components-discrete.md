@@ -53,7 +53,7 @@ Being connected is not the same as being complete. A tree is minimally connected
   answer: 1
   explanation: "A connected graph on n vertices requires at least n−1 edges. With exactly n−1 edges and no cycles, the graph is a tree — the minimally connected structure. With 8 vertices, that's 7 edges. Fewer than n−1 edges cannot connect all n vertices. Note that adding any edge to a tree creates exactly one cycle; removing any edge from a tree disconnects it. This minimal connectivity is why trees are foundational structures in graph theory and algorithm design."
 
-- question: "A complete graph (where every pair of vertices is directly connected by an edge) is the same thing as a connected graph."
+- question: "A complete graph (where nearly every pair of vertices is directly connected by an edge) is the same thing as a connected graph."
   type: true-false
   answer: false
   explanation: "Connected means there exists a path between any two vertices — not that a direct edge exists. A tree is connected but far from complete: it has only n−1 edges while a complete graph on n vertices has n(n−1)/2 edges. A path graph (vertices in a line) is connected but has no vertex with more than 2 neighbors. Complete graphs are connected, but connectedness is a much weaker property. Confusing the two leads to overestimating the number of edges needed to maintain connectivity."

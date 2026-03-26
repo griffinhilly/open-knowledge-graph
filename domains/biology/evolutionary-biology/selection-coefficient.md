@@ -55,7 +55,7 @@ Start with simple two-allele systems and calculate changes in allele frequency u
   answer: 1
   explanation: "The key threshold is s vs. 1/(2N). When s < 1/(2N), genetic drift is stronger than selection and the allele behaves as if neutral — it can increase or decrease by chance alone. For N = 1,000: 1/(2×1,000) = 0.0005, which exceeds s = 0.0001, so drift dominates and the allele can drift toward fixation despite being harmful. For N = 10,000,000: 1/(2×10,000,000) ≈ 0.00000005, far less than s, so selection dominates and reliably eliminates the allele. This is the foundation of nearly neutral theory: alleles that are effectively neutral in small populations are effectively selected against in large ones."
 
-- question: "A selection coefficient of s = 1 means that all individuals carrying the affected genotype will die before reaching reproductive age."
+- question: "A selection coefficient of s = 1 means that most individuals carrying the affected genotype will die before reaching reproductive age."
   type: true-false
   answer: false
   explanation: "s = 1 means the genotype has zero relative fitness — it contributes no offspring to the next generation compared to the most-fit genotype. This can happen through failure to reproduce, sterility, or any mechanism yielding zero reproductive output, not necessarily death before adulthood. Additionally, if the allele is recessive and h < 1, only the homozygous genotype (aa) has fitness 1 − s = 0; heterozygotes (Aa) may still reproduce and carry the allele forward. The selection coefficient is defined in terms of relative reproductive contribution, not survival."

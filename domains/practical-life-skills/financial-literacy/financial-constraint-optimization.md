@@ -49,7 +49,7 @@ Given limited income, you must allocate resources (after taxes and essentials) a
   answer: 2
   explanation: "Hard constraints are expenses where non-payment has immediate severe consequences: rent, minimum debt payments, utilities. Dining out is a preference — it can be reduced or eliminated without catastrophic consequence. Treating it as non-negotiable is the classic error this framework names: converting soft preferences into hard constraints artificially shrinks the discretionary margin and forecloses better allocations. This does not mean dining should be eliminated (psychological sustainability matters), but it must be recognized as a variable, not a fixed cost."
 
-- question: "A financially optimal budget that allocates every dollar to debt repayment and savings — leaving nothing for personal enjoyment — will reliably succeed over months and years."
+- question: "A financially optimal budget that allocates most dollar to debt repayment and savings — leaving very little for personal enjoyment — will reliably succeed over months and years."
   type: true-false
   answer: false
   explanation: "Theoretical optimality and practical sustainability are different things. A plan that cannot be maintained fails regardless of how mathematically sound it is on paper. The concept of psychological sustainability is central to financial constraint optimization: a budget that generates no discretionary enjoyment creates constant pressure that typically causes abandonment. A slightly suboptimal plan that is maintained for years outperforms a perfect plan abandoned in month three. A small sinking fund and discretionary allowance are not failures of optimization — they are inputs into a sustainable allocation."

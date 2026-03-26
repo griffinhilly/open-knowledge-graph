@@ -51,7 +51,7 @@ The original position is not a historical event but a thought experiment for rea
   answer: 1
   explanation: "Rawls's argument is that even under the veil, allowing inequalities that raise the floor for the worst-off position is rational. If a society with some inequality produces enough growth that the bottom 20% are better off than they would be under strict equality, a rational agent who might end up at the bottom should prefer it. The difference principle doesn't permit all inequality — only inequality that genuinely benefits those at the bottom. Option D is actually the utilitarian position that Rawls REJECTS; he argues agents would use maximin (protect the worst-case outcome) rather than expected utility maximization."
 
-- question: "The original position is a hypothetical contract that, while never actually agreed to, generates binding political obligations because rational agents would have agreed to it."
+- question: "The original position is a hypothetical contract that, while seldom actually agreed to, generates binding political obligations because rational agents would have agreed to it."
   type: true-false
   answer: false
   explanation: "The original position is not a hypothetical contract that generates obligations through hypothetical consent. It is a thought experiment — a device for reasoning about impartiality. Rawls uses it to identify what principles would be chosen by agents reasoning without bias. The source of justification for the principles is not 'you would have agreed' but rather that the original position models the appropriate conditions for impartial moral reasoning. Nozick's libertarian critique actually exploits this confusion, which is why Rawls is careful to distinguish the device from its purpose."

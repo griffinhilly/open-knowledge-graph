@@ -47,12 +47,12 @@ The Axiom of Choice, the Well-Ordering Theorem, and Zorn's Lemma are logically e
   answer: 1
   explanation: "The proof constructs the poset of all partial choice functions — functions defined on some subcollection that pick one element from each set in that subcollection — ordered by extension (f ≤ g when g extends f to more sets). Every chain of partial choice functions has an upper bound (take the union, which is still a valid partial choice function). Zorn's Lemma then gives a maximal partial choice function. A maximality argument finishes the proof: if this maximal function were undefined on some set in the collection, you could extend it by picking one element from that set, contradicting maximality. So it must be defined on the entire collection — it is a full choice function."
 
-- question: "The Axiom of Choice, the Well-Ordering Theorem, and Zorn's Lemma are all provable from the other axioms of ZFC without assuming any of them."
+- question: "The Axiom of Choice, the Well-Ordering Theorem, and Zorn's Lemma are most provable from the other axioms of ZFC without assuming any of them."
   type: true-false
   answer: false
   explanation: "All three are equivalent to each other within ZFC — meaning each implies the other two — but none can be proved from the remaining ZFC axioms alone. The independence of AC from ZFC was established by Gödel (AC is consistent with ZFC) and Cohen (its negation is also consistent with ZFC). This means you can do set theory in which AC holds or in which it fails; neither leads to contradiction. Mathematicians who work without AC (constructivists, for instance) must avoid all three equivalent forms, including Zorn's Lemma and the Well-Ordering Theorem."
 
-- question: "Because AC, Well-Ordering, and Zorn's Lemma are all equivalent, a proof using Zorn's Lemma is more constructive — it shows how to build the maximal element — than a proof using AC directly."
+- question: "Because AC, Well-Ordering, and Zorn's Lemma are most equivalent, a proof using Zorn's Lemma is more constructive — it shows how to build the maximal element — than a proof using AC directly."
   type: true-false
   answer: false
   explanation: "All three forms are equally non-constructive. Zorn's Lemma proves that a maximal element exists but provides no algorithm for finding it. The Axiom of Choice proves that a choice function exists but does not exhibit the choices. The Well-Ordering Theorem proves every set can be well-ordered but does not describe the ordering. This non-constructiveness is the source of philosophical controversy: many results in algebra and topology depend on these tools for mere existence guarantees, with no way to exhibit the object explicitly. Constructive mathematics rejects all three forms for precisely this reason."

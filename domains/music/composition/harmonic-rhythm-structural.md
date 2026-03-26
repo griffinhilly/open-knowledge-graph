@@ -59,7 +59,7 @@ Sketch harmonic progressions with varied chord-change rates: maintain one chord 
   answer: 2
   explanation: "Harmonic deceleration — slowing the rate of chord change — is the primary signal of structural arrival and rest. After active, forward-driving harmonic rhythm, sustaining one chord communicates 'we've arrived.' A tonic pedal (the root held beneath shifting upper harmonies) is a common variant: even if surface harmonies move slightly, the sustained bass note's slow rate anchors the listener's perception of stability. Rapid changes would create the opposite effect — forward drive, not arrival."
 
-- question: "Harmonic rhythm refers to the speed at which chords change, and this rate is always synchronized with the underlying metrical beat — each new beat must bring a new chord."
+- question: "Harmonic rhythm refers to the speed at which chords change, and this rate is generally synchronized with the underlying metrical beat — each new beat should bring a new chord."
   type: true-false
   answer: false
   explanation: "False. Harmonic rhythm operates independently of the metric beat. A composition can have one chord per measure (slow harmonic rhythm) even though the beat subdivides into eighth notes; it can also change chords multiple times within a single beat. Meter provides the rhythmic pulse; harmonic rhythm is overlaid onto that pulse and can move at any rate relative to it. One of the listed Common Misconceptions directly addresses this: harmonic rhythm and meter are separate, independent dimensions."

@@ -62,7 +62,7 @@ Examine different senses of 'emergence' and 'reduction'. Consider whether weak e
   answer: true
   explanation: "True. Weak emergence only says the higher-level property is surprising or not easily predicted from lower-level descriptions — it does not claim the property is irreducibly novel or beyond physical explanation. A physicalist can happily accept that consciousness is weakly emergent: it arises from physical processes in a complex and non-obvious way, but there is no ontological addition to the physical story. Only strong emergence, which posits properties that cannot in principle be explained physically, conflicts with physicalism."
 
-- question: "If consciousness is emergent, it must be a non-physical property, and physicalism about the mind is false."
+- question: "If consciousness is emergent, it is expected to be a non-physical property, and physicalism about the mind is false."
   type: true-false
   answer: false
   explanation: "False. This conflates weak and strong emergence. If consciousness is only weakly emergent, it arises from physical processes in a surprising way but remains fully explicable in physical terms — no dualism is implied. Emergence entails dualism only if the emergence is *strong*: irreducibly novel, not derivable in principle from physical facts. Weak emergence is entirely compatible with physicalism. The mistake of assuming emergence = non-physical is one of the most common errors in philosophy of mind."

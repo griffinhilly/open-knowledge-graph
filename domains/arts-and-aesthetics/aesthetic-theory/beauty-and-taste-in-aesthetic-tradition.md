@@ -46,7 +46,7 @@ Beauty and taste have evolved from ancient ideals of proportion and harmony to E
   answer: 1
   explanation: "Kant grounded aesthetic judgment in the structure of human cognition, making it potentially universal across all rational beings. Bourdieu's critique is sociological and demystifying: what gets called 'good taste' in any given society is not the expression of a universal faculty but the learned disposition of those with access to dominant cultural institutions. Survey data on aesthetic preferences tracked closely with class and education — undermining the claim that aesthetic judgment transcends social position. This is not just a philosophical disagreement but an empirical critique of Kantian idealization."
 
-- question: "According to Kant, a judgment of taste is purely subjective — it expresses nothing more than an individual's personal preference and carries no claim that others should agree."
+- question: "According to Kant, a judgment of taste is purely subjective — it expresses little more than an individual's personal preference and carries no claim that others should agree."
   type: true-false
   answer: false
   explanation: "This is the central misconception Kant's aesthetics was designed to correct. He argued that judgments of taste are unusual precisely because they are both subjective (based on a feeling, not a determinate concept) and universally demanding (we say 'this is beautiful,' not 'I happen to like this'). The claim to universal assent is what distinguishes aesthetic judgment from mere reports of personal pleasure. Kant calls this 'subjective universality' — a structure he thought was grounded in cognitive faculties common to all rational beings."

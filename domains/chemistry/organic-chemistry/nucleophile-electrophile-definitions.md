@@ -48,7 +48,7 @@ Identify nucleophilic and electrophilic sites in molecules by analyzing electron
   answer: 3
   explanation: "In protic solvents, nucleophilicity follows the reverse of basicity for halides: I⁻ > Br⁻ > Cl⁻ > F⁻. Although F⁻ is the strongest base (most tightly held electrons), it is also the most heavily solvated — protic solvents form strong hydrogen bonds around it, shielding its electrons and slowing attack on electrophiles. Iodide, being large and polarizable with loosely held electrons, is weakly solvated and attacks electrophiles readily. In aprotic solvents the order can reverse, illustrating that nucleophilicity is not the same as basicity."
 
-- question: "A stronger base is always a stronger nucleophile."
+- question: "A stronger base is typically a stronger nucleophile."
   type: true-false
   answer: false
   explanation: "Basicity (affinity for a proton, measured by pKa) and nucleophilicity (rate of attack on a carbon electrophile) are related but distinct properties that can be decoupled by solvent and steric effects. In protic solvents, large, polarizable species like I⁻ are strong nucleophiles despite being weak bases. Bulky bases like tert-butoxide are very basic but poor nucleophiles because steric hindrance blocks approach to carbon. The two properties diverge whenever size, polarizability, or solvation is the dominant factor."

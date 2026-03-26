@@ -61,7 +61,7 @@ Practice subnetting exercises: given a network and required number of subnets, d
   answer: true
   explanation: "Each additional bit in the prefix length halves the address space. A /24 has 2⁸ = 256 total addresses (254 usable). A /25 has 2⁷ = 128 total addresses (126 usable). Conversely, each bit removed from the prefix doubles the address space: a /23 has 2⁹ = 512 total addresses. This binary relationship between prefix length and address count is fundamental to all subnetting calculations — and is why CIDR arithmetic requires solid binary number intuition."
 
-- question: "Under CIDR, subnet masks must correspond to Class A (/8), Class B (/16), or Class C (/24) boundaries to ensure compatibility with modern routers."
+- question: "Under CIDR, subnet masks is expected to correspond to Class A (/8), Class B (/16), or Class C (/24) boundaries to ensure compatibility with modern routers."
   type: true-false
   answer: false
   explanation: "CIDR (Classless Inter-Domain Routing) was specifically designed to eliminate classful constraints. The 'classless' in CIDR means prefix lengths can be any value from /0 to /32, not just the three classful values. An organization needing 300 hosts can receive a /23 (510 usable hosts) rather than being forced into a Class B /16 (65,534 hosts). Classful addressing was the pre-CIDR system that CIDR replaced precisely because rigid class boundaries caused enormous address waste — a Class B wasted 99% of its address space for an organization needing only a few hundred addresses."

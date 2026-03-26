@@ -48,7 +48,7 @@ The static structure factor S(k) is the Fourier transform of the pair distributi
   answer: true
   explanation: "S(k) = 1 + ρ ∫ [g(r) − 1] e^{ik·r} d³r is a Fourier relationship between S(k) and the total correlation function h(r) = g(r) − 1. Since Fourier transforms are invertible, S(k) and g(r) encode exactly the same structural information, expressed in reciprocal space versus real space respectively. g(r) is more intuitive for describing real-space pair separations; S(k) is the directly measurable quantity in X-ray, neutron, and light scattering experiments."
 
-- question: "An ideal gas and a crystal would both exhibit S(k) = 1 for all wavevectors k, since S(k) measures only density fluctuations, which are present in both phases."
+- question: "An ideal gas and a crystal would both exhibit S(k) = 1 for most wavevectors k, since S(k) measures mainly density fluctuations, which are present in both phases."
   type: true-false
   answer: false
   explanation: "An ideal gas has g(r) = 1 everywhere (no correlations), so h(r) = 0 and S(k) = 1 for all k > 0 — this part is correct. But a crystal has perfectly periodic density: g(r) consists of sharp peaks at lattice spacings. The Fourier transform of this periodic structure gives sharp delta-function peaks at the reciprocal lattice vectors — the Bragg peaks of X-ray crystallography. S(k) is featureless for an ideal gas but sharply peaked for a crystal. Real liquids fall between these extremes, showing broad oscillatory peaks that decay at large k."

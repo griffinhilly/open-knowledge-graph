@@ -52,7 +52,7 @@ Direct quotations require quotation marks around the exact words spoken or quote
   answer: true
   explanation: "This is the American punctuation convention and is stated directly in the topic's Core Idea. The period or comma that closes a sentence or introduces a continuation always sits inside the closing quotation mark. This differs from British convention, which places punctuation according to logical ownership. For this topic (and standard American usage), the rule is consistent: commas and periods go inside."
 
-- question: "A question mark always goes inside the closing quotation mark."
+- question: "A question mark usually goes inside the closing quotation mark."
   type: true-false
   answer: false
   explanation: "Unlike commas and periods, question marks and exclamation points are placed according to ownership. If the question mark belongs to the quoted words, it goes inside: He asked, 'Should we leave?' If it belongs to the surrounding sentence, it goes outside: Did she say, 'Leave now'? The distinction matters: commas and periods follow a blanket rule (always inside), but question marks and exclamation points follow the ownership principle."

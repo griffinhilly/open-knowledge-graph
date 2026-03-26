@@ -51,7 +51,7 @@ An electric dipole consists of charges +q and −q separated by distance d, with
   answer: true
   explanation: "Correct. A point charge produces V = kq/r (falls as 1/r). A dipole has equal and opposite charges that nearly cancel at large distance; the small residual goes as V = (1/4πε₀)(p cos θ)/r², which falls as 1/r². This faster falloff is the signature of the dipole: its net charge is zero, so the monopole term vanishes, and the leading contribution is the dipole term at 1/r². Higher-order charge distributions (quadrupoles, etc.) fall off even more steeply."
 
-- question: "A dipole placed in a non-uniform electric field experiences no net translational force — only a torque."
+- question: "A dipole placed in a non-uniform electric field experiences no net translational force — mainly a torque."
   type: true-false
   answer: false
   explanation: "A net translational force on a dipole requires a non-uniform field. In a uniform field, the forces on +q and −q are equal and opposite, producing zero net force (but a torque). In a non-uniform field, the field strength at the +q position differs from the strength at the −q position, so the magnitudes of the two forces are unequal — the net force is non-zero. This is why polar molecules are attracted toward regions of stronger field in an inhomogeneous setup, and it underlies the physics of dielectrophoresis."

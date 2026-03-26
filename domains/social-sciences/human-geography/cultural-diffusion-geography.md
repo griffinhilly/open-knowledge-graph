@@ -60,7 +60,7 @@ Trace the spread of a specific cultural practice — agriculture, Islam, or a mu
   answer: 3
   explanation: "In stimulus diffusion, the specific cultural trait is not adopted, but the underlying idea inspires a local innovation. Chinese characters did not diffuse wholesale — but the stimulus of writing as a concept did, prompting Korea and Japan to develop their own scripts suited to their languages. This is fundamentally different from simple adoption (relocation or contagious) or rejection."
 
-- question: "Contagious diffusion always spreads faster than hierarchical diffusion because it requires no social connections — only geographic proximity."
+- question: "Contagious diffusion typically spreads faster than hierarchical diffusion because it requires no social connections — mainly geographic proximity."
   type: true-false
   answer: false
   explanation: "Speed depends heavily on context. In the modern era, hierarchical diffusion through dense social networks — media, internet, global travel — can be nearly instantaneous, spreading a trend from one global city to another before it reaches rural areas nearby. Contagious diffusion is constrained by geographic distance, which can be slow. The claim mistakes a general tendency for a universal rule."

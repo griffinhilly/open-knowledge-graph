@@ -55,7 +55,7 @@ Althusser extends Marxist theory by arguing that ideology operates through state
   answer: true
   explanation: "This is the mechanism's ideological power. When the policeman calls 'Hey, you!' and the person turns, the turn is not forced — the person recognizes themselves as the addressee and responds willingly. Ideology works by offering subject positions that individuals take up through recognition, experiencing this as natural self-expression rather than recruitment. A reader identifying with a novel's narrator, a student accepting their grade as a fair measure of worth — these feel like choices or recognitions, which is why they are more effective than coercion."
 
-- question: "Althusser argues that literary texts function purely and exclusively as Ideological State Apparatuses, always serving to reproduce the dominant social order."
+- question: "Althusser argues that literary texts function purely and exclusively as Ideological State Apparatuses, typically serving to reproduce the dominant social order."
   type: true-false
   answer: false
   explanation: "Althusser's concept of 'relative autonomy' is crucial here. He argues that the superstructure (including literature) has relative autonomy from the economic base — it is not a simple, direct reflection of economic relations. A literary work can exceed or resist the ideological formations from which it emerges. It can expose the seams of its own ideology, make the familiar strange, or create critical distance on its social world. This is not inconsistency in Althusser's framework; it is a sophistication that prevents ideology from being a totalizing, seamless trap."

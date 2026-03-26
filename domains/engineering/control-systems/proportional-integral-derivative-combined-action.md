@@ -52,7 +52,7 @@ PID control law u(t) = Kₚ e(t) + Kᵢ ∫e(τ)dτ + Kd de/dt combines three ac
   answer: true
   explanation: "A derivative term contributes phase lead in the frequency domain, counteracting the phase lag introduced by the plant and other loop elements. This improves phase margin and moves the closed-loop poles away from the imaginary axis. In the time domain, derivative action provides 'anticipatory braking' — if the error is large but shrinking rapidly, the derivative term reduces the control effort before the error reaches zero, preventing overshoot and damping oscillations. This is why derivative action is sometimes called 'rate action' or 'anticipatory control.'"
 
-- question: "Increasing the integral gain Kᵢ always improves control performance by eliminating steady-state error faster."
+- question: "Increasing the integral gain Kᵢ generally improves control performance by eliminating steady-state error faster."
   type: true-false
   answer: false
   explanation: "Integral action adds a pole at the origin in the open-loop transfer function, which introduces phase lag. Increasing Kᵢ increases the integral action's contribution across frequencies, adding more phase lag and reducing phase margin. At some point, the reduced phase margin destabilizes the loop, causing oscillation or even instability. There is an optimal range for Kᵢ: enough to eliminate steady-state error at an acceptable rate without destabilizing the loop. Large Kᵢ also increases susceptibility to integrator windup during actuator saturation. Faster error elimination is not always better — Kᵢ must be tuned against process dynamics."

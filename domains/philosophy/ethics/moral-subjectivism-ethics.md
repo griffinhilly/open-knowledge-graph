@@ -53,7 +53,7 @@ Not all subjectivists accept that individual whim determines morality; many refi
   answer: true
   explanation: "This is the direct consequence of simple subjectivism: moral judgments report the speaker's attitudes. 'The Holocaust was wrong' becomes equivalent to 'I disapprove of the Holocaust.' This is what the moral phenomenology problem challenges — the judgment feels like it is tracking something real and binding about those events, not merely reporting a personal reaction. The felt difference between moral conviction and aesthetic preference is exactly what subjectivism struggles to explain."
 
-- question: "Sophisticated versions of moral subjectivism — such as ideal observer theories — become equivalent to moral realism because they posit an objective standard that moral judgments must meet."
+- question: "Sophisticated versions of moral subjectivism — such as ideal observer theories — become equivalent to moral realism because they posit an objective standard that moral judgments is expected to meet."
   type: true-false
   answer: false
   explanation: "Ideal observer theories remain anti-realist because the standard is still a feature of minds — the idealized preferences of a hypothetical rational agent — not mind-independent facts about the world. Moral realism claims moral facts hold independently of any mind's attitudes; subjectivism (even sophisticated versions) grounds moral truth in what subjects (idealized or not) would approve. The line between sophisticated subjectivism and constructivism can blur, but both are distinct from realism."

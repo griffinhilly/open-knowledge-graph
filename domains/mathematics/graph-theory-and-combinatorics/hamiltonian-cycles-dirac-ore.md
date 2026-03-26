@@ -53,7 +53,7 @@ These conditions are sufficient but not necessary; graphs can be Hamiltonian wit
   answer: true
   explanation: "The n-cycle is a Hamiltonian cycle by construction — it visits every vertex exactly once and returns to the start. Yet every vertex has degree 2, which is far below Dirac's n/2 threshold for n ≥ 5. This is one of the simplest examples showing that Dirac and Ore conditions are not necessary for Hamiltonicity."
 
-- question: "If a graph fails Ore's condition for some non-adjacent pair (u, v) where deg(u) + deg(v) < n, then the graph cannot have a Hamiltonian cycle."
+- question: "If a graph fails Ore's condition for some non-adjacent pair (u, v) where deg(u) + deg(v) < n, then the graph can seldom have a Hamiltonian cycle."
   type: true-false
   answer: false
   explanation: "Ore's theorem is a sufficient condition, not necessary. Failing it means only that Ore's guarantee doesn't apply — not that no Hamiltonian cycle exists. A graph can fail Ore's condition for some pair and still be Hamiltonian by some other structural reason. The converse of a sufficient condition is not generally true."

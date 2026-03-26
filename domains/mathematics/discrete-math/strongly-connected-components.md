@@ -52,7 +52,7 @@ A strongly connected component (SCC) is a maximal subset of vertices where every
   answer: true
   explanation: "By definition, a strongly connected graph is one where the entire vertex set forms a single SCC — i.e., every vertex is reachable from every other vertex following directed edges. This is the meaning of 'strongly connected': mutual reachability holds globally. (Compare to 'weakly connected,' which only requires connectivity when edge directions are ignored.)"
 
-- question: "If vertices u and v are in the same strongly connected component, there must be a direct edge from u to v and from v to u."
+- question: "If vertices u and v are in the same strongly connected component, there should be a direct edge from u to v and from v to u."
   type: true-false
   answer: false
   explanation: "SCCs require mutual reachability via directed *paths*, not direct edges. u and v can be in the same SCC if there is a directed path u → w₁ → w₂ → v and a separate path v → x₁ → u, even if no direct u↔v edges exist. Requiring direct edges would be a much stricter condition (essentially requiring a tournament-style structure), and most real SCCs involve multi-hop paths."

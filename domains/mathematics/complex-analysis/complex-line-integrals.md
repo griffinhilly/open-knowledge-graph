@@ -53,7 +53,7 @@ Assuming all line integrals are path-independent; this is true only for holomorp
   answer: 1
   explanation: "Cauchy's theorem requires the function to be holomorphic on a *simply connected* domain containing the path. The unit circle encloses z = 0, where 1/z has a singularity — the domain ℂ\\{0} is not simply connected (there's a hole at the origin). The integral ∮ (1/z) dz = 2πi is one of the foundational results of complex analysis; its value reflects the path winding once around the singularity. Option D confuses 'holomorphic on a punctured plane' with 'holomorphic on a simply connected domain.'"
 
-- question: "Since a complex line integral along a closed path always returns to the starting point in the complex plane, it always evaluates to 0."
+- question: "Since a complex line integral along a closed path generally returns to the starting point in the complex plane, it typically evaluates to 0."
   type: true-false
   answer: false
   explanation: "Returning to the starting point does not make the integral zero — this confuses the path being closed geometrically with the integral being zero analytically. The integral is 0 for closed paths only when the integrand is holomorphic on a simply connected region containing the path. For f(z) = 1/z integrated around the origin, the path is closed but the integral is 2πi. The value depends on whether (and how) the path encircles singularities."

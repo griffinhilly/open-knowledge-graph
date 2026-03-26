@@ -63,12 +63,12 @@ Design filters by specifying the cutoff frequency first, then choosing component
   answer: 3
   explanation: "The requirement is to attenuate a *specific* narrow frequency (60 Hz) while passing all others — both below and above. A low-pass filter would block all frequencies above 60 Hz (eliminating most of the audio signal). A high-pass filter would block all frequencies below 60 Hz. A band-pass filter passes only the noise you want to remove. The correct choice is a band-stop (notch) filter, which attenuates a narrow band around the resonant frequency (here, 60 Hz) and passes everything else. The notch is implemented in a series RLC circuit by taking the output across the LC combination: the LC impedance is zero at resonance, short-circuiting the output at exactly the unwanted frequency."
 
-- question: "A passive RC filter attenuates signals at and above the cutoff frequency — signals below the cutoff pass through completely unattenuated."
+- question: "A passive RC filter attenuates signals at and above the cutoff frequency — signals below the cutoff pass through largely unattenuated."
   type: true-false
   answer: false
   explanation: "This describes the common misconception of a 'brick-wall' filter. Real passive filters have a gradual transition, not an abrupt cutoff. At the cutoff frequency ωc = 1/RC, the gain is 1/√2 ≈ 0.707 (-3 dB) — not zero. Below the cutoff, the signal is progressively less attenuated as frequency decreases; above the cutoff, it is progressively more attenuated. The roll-off rate for a first-order RC filter is -20 dB/decade — for every factor-of-10 increase in frequency beyond the cutoff, the gain drops by a factor of 10. Only an ideal (mathematical) filter has an instantaneous transition; real filters have a gradual passband-to-stopband transition whose steepness depends on filter order."
 
-- question: "A passive filter using only resistors, capacitors, and inductors can provide signal gain greater than unity at the resonant frequency of an RLC circuit."
+- question: "A passive filter using primarily resistors, capacitors, and inductors can provide signal gain greater than unity at the resonant frequency of an RLC circuit."
   type: true-false
   answer: false
   explanation: "Passive components can only attenuate — they cannot amplify. The maximum gain a passive filter can achieve is unity (0 dB), which occurs in the passband when the signal passes through essentially unchanged. Although a series RLC circuit can exhibit a resonant peak in the frequency response that *approaches* unity for a lightly damped circuit, it cannot exceed it. The apparent 'peaking' in high-Q RLC filters means the response near resonance is less attenuated than at other frequencies — but still ≤ 1. To achieve gain > 1, active elements (op-amps, transistors) are required. This is a fundamental distinction between passive and active filters."

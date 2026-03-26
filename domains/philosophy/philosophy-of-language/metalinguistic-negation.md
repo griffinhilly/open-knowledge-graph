@@ -47,7 +47,7 @@ Standard negation targets propositions ("It's not cold"); metalinguistic negatio
   answer: 1
   explanation: "In the metalinguistic reading, the negation doesn't deny that poor(x) is true — he is poor. The speaker is rejecting 'poor' as the best description for pragmatic reasons (connotation, register, degree). Formalizing it as ¬poor(x) produces a potentially false statement that misrepresents the speaker's communicative act. The metalinguistic reading requires a treatment that targets the appropriateness of the expression rather than its truth conditions."
 
-- question: "In metalinguistic negation, the speaker always denies that the proposition expressed by the negated word is true."
+- question: "In metalinguistic negation, the speaker generally denies that the proposition expressed by the negated word is true."
   type: true-false
   answer: false
   explanation: "This is the core distinction: metalinguistic negation targets the expression or its use, not the proposition. In 'He's not poor — he's destitute,' the proposition expressed by 'poor' may be perfectly true (he is poor). The speaker is not denying this but saying 'poor' is the wrong word — it fails to capture the situation adequately for pragmatic reasons. Confusing this with descriptive negation leads to formalizations that are literally false."

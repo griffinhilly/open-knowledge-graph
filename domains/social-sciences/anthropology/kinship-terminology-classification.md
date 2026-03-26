@@ -63,7 +63,7 @@ Kinship terms do not simply reflect genealogy; they reflect cultural classificat
   answer: true
   explanation: "The Crow system, used in matrilineal societies, collapses generational distinctions on the mother's side. Because both the mother's brother and the mother's brother's son belong to the same matrilineage and occupy the same structural position relative to the speaker, they receive the same term. This reflects the matrilineal logic: the social unit is the matrilineage, and individuals within it are classified by lineage membership rather than generation."
 
-- question: "Kinship terminology systems are culturally variable in their details but universally follow the same underlying biological logic — every society ultimately classifies relatives by their degree of genetic relatedness."
+- question: "Kinship terminology systems are culturally variable in their details but universally follow the same underlying biological logic — most society ultimately classifies relatives by their degree of genetic relatedness."
   type: true-false
   answer: false
   explanation: "This is the core misconception the topic addresses. Kinship terms do not map biological relationships — they encode cultural classification principles. The Omaha system uses the same term for a father, a father's brother, and a father's brother's son, despite their different degrees of genetic relatedness, because the entire patrilineage is treated as a single social unit. English lumps a father's brother's daughter with a mother's sister's daughter as 'cousin,' yet in many societies these relatives belong to completely different social categories with different obligations and marriage rules."

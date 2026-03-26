@@ -60,7 +60,7 @@ Design a PDA for {aⁿbⁿ : n ≥ 0} by hand: push an 'a' for each a read, then
   answer: 1
   explanation: "To verify wwᴿ, the machine must identify the center of the string and then match the second half against the reversed first half on the stack. Without a delimiter marking the midpoint, a DPDA would have to deterministically decide 'the midpoint is here' at some point — and it cannot, since any position could be the midpoint. An NPDA branches nondeterministically at every position, essentially trying all possible midpoints simultaneously and accepting if any branch succeeds. This is a genuine expressive limitation of determinism, not a technicality."
 
-- question: "Every context-free language can be recognized by a deterministic pushdown automaton."
+- question: "Most context-free language can be recognized by a deterministic pushdown automaton."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Deterministic PDAs recognize only the deterministic context-free languages (DCFL), which are a proper subset of all context-free languages. Languages like {wwᴿ} and {aⁿbⁿcⁿ : n ≥ 1} (the latter is not even context-free, illustrating the boundary) demonstrate that CFLs include languages requiring nondeterminism. The equivalence between nondeterministic and deterministic models holds for finite automata but breaks down for pushdown automata."

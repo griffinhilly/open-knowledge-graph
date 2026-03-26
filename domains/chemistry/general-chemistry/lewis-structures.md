@@ -61,7 +61,7 @@ Follow the step-by-step procedure systematically for dozens of molecules, includ
   answer: true
   explanation: "Ion charges directly modify the total valence electron count. Each unit of negative charge represents one extra electron that has been gained; each unit of positive charge represents one electron that has been lost. For SO₄²⁻: sulfur contributes 6, each oxygen contributes 6 (×4 = 24), plus 2 for the 2− charge, giving 6 + 24 + 2 = 32 total valence electrons. Forgetting to adjust for charge is one of the most common Lewis structure errors, especially for polyatomic ions."
 
-- question: "The central atom in a Lewis structure is always the most electronegative atom, because electronegative atoms attract more electrons and therefore form the most bonds."
+- question: "The central atom in a Lewis structure is generally the most electronegative atom, because electronegative atoms attract more electrons and therefore form the most bonds."
   type: true-false
   answer: false
   explanation: "This is backwards. The central atom is typically the LEAST electronegative atom (excluding hydrogen, which is always terminal). Highly electronegative atoms prefer to hold their electrons as lone pairs rather than share them broadly — they are 'greedy' with electrons. The central atom must form multiple bonds to different surrounding atoms, which requires willingness to share electrons with many partners. Carbon, nitrogen, and sulfur serve as central atoms more readily than oxygen or fluorine in most molecules."

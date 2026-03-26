@@ -50,7 +50,7 @@ Arranging existing material for specific ensembles requires understanding availa
   answer: true
   explanation: "This is the criterion the explainer offers for successful arrangement: the result should feel inevitable, not transplanted. When an arranger has correctly identified structural vs. idiomatic elements and re-voiced appropriately for the target ensemble, the result exploits the new ensemble's unique capabilities and sounds native to it. When arrangement merely copies, the idiomatic fingerprints of the original medium leak through, making the piece feel foreign to its new instrumentation."
 
-- question: "A direct note-for-note copy of a piece onto a new ensemble is generally the safest and most faithful approach to transcription, since it preserves all original content."
+- question: "A direct note-for-note copy of a piece onto a new ensemble is generally the safest and most faithful approach to transcription, since it preserves most original content."
   type: true-false
   answer: false
   explanation: "Note-for-note copying preserves the surface content but often fails because it carries the idiomatic characteristics of the original medium into a context where they don't work. A guitar arpeggio transferred note-for-note to oboe may be unplayable or sound wrong. A dense piano texture transferred unchanged to a wind ensemble may be unbalanced. Effective transcription requires identifying what is structural (must be preserved) and what is idiomatic (must be rethought), then translating the structural elements into the new medium's natural language."

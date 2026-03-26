@@ -59,7 +59,7 @@ Use a hamburger or sandwich model: the top bun is the topic sentence, the fillin
   answer: true
   explanation: "The concluding sentence 'closes the circle' — it reminds the reader of the main idea after all the details, but a word-for-word copy of the topic sentence feels redundant and flat. The best concluding sentences restate the idea in fresh language or explain why it matters, giving the paragraph a sense of completion rather than just repetition."
 
-- question: "A paragraph can cover several different topics, as long as all the sentences are long and detailed."
+- question: "A paragraph can cover several different topics, as long as most of the sentences are long and detailed."
   type: true-false
   answer: false
   explanation: "Length and detail do not make a paragraph — unity does. A paragraph is defined by having one main idea that all its sentences support. A collection of long, detailed sentences about unrelated topics is not a paragraph; it is unorganized writing. The moment a new idea needs to be developed, a new paragraph must begin."

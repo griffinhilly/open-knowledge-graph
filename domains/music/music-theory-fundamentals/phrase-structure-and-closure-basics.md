@@ -50,7 +50,7 @@ Musical phrases are like sentences—a series of notes and harmonies that form a
   answer: true
   explanation: "This is the functional role of cadences in phrase structure. A perfect authentic cadence (V→I, root position, tonic in soprano) gives maximum closure — the phrase feels finished. A half cadence gives minimum closure — continuation is required. A deceptive cadence surprises the ear and forces the phrase to extend. These are not just labels; they are the mechanisms by which composers control pacing and formal architecture."
 
-- question: "In tonal music, all phrase endings provide essentially the same level of closure — the differences are purely melodic, not harmonic."
+- question: "In tonal music, most phrase endings provide essentially the same level of closure — the differences are purely melodic, not harmonic."
   type: true-false
   answer: false
   explanation: "Cadence type is the primary determinant of closure strength, not melodic contour. A perfect authentic cadence (V→I in root position with tonic on top) creates the strongest sense of completion; a half cadence (ending on V) creates the strongest sense of incompletion. This harmonic hierarchy is how composers build large-scale formal architecture — strong cadences mark section boundaries, weak cadences keep momentum going."

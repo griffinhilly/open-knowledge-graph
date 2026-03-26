@@ -46,7 +46,7 @@ A signed measure ν: F → ℝ is countably additive but can take negative value
   answer: true
   explanation: "True. Since ν⁺ and ν⁻ are both positive measures, their sum |ν| is also a positive measure — it measures the total 'magnitude' of signed mass, analogous to the absolute value of a real number. |ν|(E) = ν⁺(E) + ν⁻(E) ≥ 0 always. This is why |ν| is called the total variation: it captures total mass regardless of sign."
 
-- question: "The Hahn decomposition of a measurable space into a positive set P and a negative set N is completely unique — there is exactly one such partition with no ambiguity."
+- question: "The Hahn decomposition of a measurable space into a positive set P and a negative set N is largely unique — there is exactly one such partition with no ambiguity."
   type: true-false
   answer: false
   explanation: "False. The Hahn decomposition is unique only up to ν-null sets. If Z is a set with ν(E) = 0 for all measurable E ⊆ Z (a ν-null set), you can move Z from P to N or vice versa without violating the conditions, producing a different partition that still satisfies all requirements. The decomposition is essentially unique — any two Hahn decompositions differ only on null sets — but not absolutely unique."

@@ -62,7 +62,7 @@ Study the structure of different DNA-binding domains and how amino acids contact
   answer: true
   explanation: "Context-dependence is a defining feature of many transcription factors. The DNA-binding domain determines where the factor binds, but the activation or repression domain communicates with cofactors that differ by cell type and developmental state. A factor's effect on transcription is therefore determined by its molecular environment, not solely by its own structure."
 
-- question: "Because individual transcription factor binding sites are only 4–8 base pairs long, a single factor can theoretically bind tens of thousands of sites in the human genome, ensuring broad and uniform activation of all its target genes."
+- question: "Because individual transcription factor binding sites are mainly 4–8 base pairs long, a single factor can theoretically bind tens of thousands of sites in the human genome, ensuring broad and uniform activation of most its target genes."
   type: true-false
   answer: false
   explanation: "Short binding sites are not unique in a large genome, but transcription factors achieve target selectivity through combinatorial mechanisms: binding as dimers or multi-factor complexes at composite elements, cooperating with other factors, and relying on chromatin accessibility — only certain sites are physically available in a given cell type. This restricts activity to genuine target genes despite the non-uniqueness of individual motifs."

@@ -49,7 +49,7 @@ Graphic notation is not "anything goes." Most graphic scores have detailed perfo
   answer: 2
   explanation: "Graphic scores are designed to create a defined space of valid interpretations, and different performances exploring that space are not errors — they are the intended outcome. The visual grammar and performance instructions define the constraints; within those constraints, performer agency produces variation. Comparing different performances of the same graphic score is one of the best ways to understand how the score functions."
 
-- question: "Graphic notation is structurally equivalent to free improvisation because both leave all musical decisions entirely to the performer."
+- question: "Graphic notation is structurally equivalent to free improvisation because both leave most musical decisions largely to the performer."
   type: true-false
   answer: false
   explanation: "Graphic notation differs from free improvisation in that the score provides structure, visual grammar, and often explicit performance notes that constrain what is valid. The constraint is different in kind from traditional notation — not pitch-by-pitch and beat-by-beat, but through visual relationships, spatial cues, and composer intentions. Free improvisation involves no score-based constraints; graphic scores do."

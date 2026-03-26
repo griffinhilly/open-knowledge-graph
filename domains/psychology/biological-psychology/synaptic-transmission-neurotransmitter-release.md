@@ -57,7 +57,7 @@ Synaptic transmission couples electrical signals in the presynaptic neuron to ch
   answer: true
   explanation: "Calcium binds to synaptotagmin, the calcium sensor on synaptic vesicles, which then activates the SNARE complex to drive membrane fusion. This calcium requirement is universal across chemical synapses. The action potential opens voltage-gated Ca²⁺ channels by depolarizing the terminal; the resulting calcium influx is what bridges the electrical signal to chemical release."
 
-- question: "The strength of synaptic transmission between two neurons is fixed once the synapse has formed and cannot be altered by neural activity."
+- question: "The strength of synaptic transmission between two neurons is fixed once the synapse has formed and can seldom be altered by neural activity."
   type: true-false
   answer: false
   explanation: "Synaptic strength is dynamically regulated at three points: (1) presynaptic calcium entry — modulatory receptors on the terminal can amplify or reduce Ca²⁺ influx per action potential; (2) vesicle availability — the size of the readily-releasable pool changes with recent activity; (3) postsynaptic receptor density — more receptors produce a larger response to the same amount of transmitter. This dynamic regulation is the molecular basis of short-term synaptic plasticity and ultimately forms the substrate for learning and memory."

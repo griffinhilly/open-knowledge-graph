@@ -58,7 +58,7 @@ Analyze harmonic rhythm in Romantic and contemporary works, observing how it art
   answer: 1
   explanation: "The emotional effect depends on BOTH harmonic rhythm (duration of stasis) AND which harmony is being sustained. A held dominant creates mounting tension because the ear is waiting for resolution — the dominant demands it. A held tonic feels open and settled because the tonic is home. Holding a dominant for three bars and then resolving it produces a fundamentally different arc than holding a tonic."
 
-- question: "Constant harmonic activity — changing chords on every beat throughout a piece — strengthens compositions by maintaining forward momentum."
+- question: "Constant harmonic activity — changing chords on nearly every beat throughout a piece — strengthens compositions by maintaining forward momentum."
   type: true-false
   answer: false
   explanation: "Constant activity creates uniformity, which deadens the ear just as surely as complete stasis. The power of harmonic rhythm as a compositional tool comes from VARIATION — contrast between motion and stasis, between fast and slow rates of change. Without contrast, even rapid chord changes become background noise. Carefully varied harmonic rhythm, with acceleration and broadening at the right moments, creates more compelling long-range pacing than unrelenting activity."

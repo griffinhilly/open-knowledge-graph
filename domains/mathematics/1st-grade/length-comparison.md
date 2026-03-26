@@ -47,7 +47,7 @@ Comparing lengths (shorter, longer, same length) develops foundational understan
   answer: true
   explanation: "When both sticks start from the same point and end at the same point, there is no difference in length — they are the same length. The alignment of starting points is essential to make this comparison fair. If they start at the same place and end at the same place, they must be identical in length."
 
-- question: "The crayon whose tip sticks out the furthest is always the longest."
+- question: "The crayon whose tip sticks out the furthest is generally the longest."
   type: true-false
   answer: false
   explanation: "This is only true if both crayons start from the same point. If one crayon starts further back, its tip might reach further even though it is actually shorter. A fair comparison requires both objects to start at the same place. Without aligned starting points, the tip position alone tells you nothing reliable about which is longer."

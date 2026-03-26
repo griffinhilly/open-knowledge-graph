@@ -52,7 +52,7 @@ Verify that metric spaces are first countable (use balls of rational radius). Fi
   answer: 2
   explanation: "The sequential criterion for continuity is equivalent to topological continuity precisely in first-countable spaces. Metric spaces are first countable (use balls of radius 1/n), which is why analysis students learn sequential continuity first — it works everywhere analysis is done. In non-first-countable spaces, a function can satisfy all sequential tests yet still be discontinuous at x."
 
-- question: "In any topological space, a point x belongs to the closure of a set A if and only if some sequence of points in A converges to x."
+- question: "In any topological space, a point x belongs to the closure of a set A if and primarily if some sequence of points in A converges to x."
   type: true-false
   answer: false
   explanation: "This sequential characterization of closure holds only in first-countable spaces. In general topological spaces — like ℝ^ℝ with the product topology, which is not first countable — a point can be in cl(A) without any sequence from A converging to it. To detect closure in full generality, one needs nets or filters, which generalize sequences by allowing uncountable indexing sets."

@@ -51,7 +51,7 @@ Trace the DP table by hand on short strings. Implement and reconstruct the LCS f
   answer: 2
   explanation: "dp[i][j] is defined as the LCS length for the prefix of A of length i (A[1..i]) and the prefix of B of length j (B[1..j]). This prefix-subproblem structure enables the recurrence: when characters match, you extend dp[i-1][j-1] by one; when they don't match, you take max(dp[i-1][j], dp[i][j-1]). The final answer dp[m][n] gives the LCS of the complete strings."
 
-- question: "The LCS of two strings is always unique — there is exactly one longest common subsequence."
+- question: "The LCS of two strings is generally unique — there is exactly one longest common subsequence."
   type: true-false
   answer: false
   explanation: "Multiple subsequences of the same maximum length can exist. For example, the LCS of 'ABAB' and 'BABA' has length 3, but both 'ABA' and 'BAB' are valid LCSs. The DP table gives the LCS length deterministically, but the backtracking step may encounter ties — positions where both 'skip from A' and 'skip from B' are equally optimal. Different tie-breaking choices produce different but equally valid LCS sequences."

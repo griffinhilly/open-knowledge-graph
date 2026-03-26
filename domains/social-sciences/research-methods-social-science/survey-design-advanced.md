@@ -63,7 +63,7 @@ Develop and pilot a questionnaire, test question wording variants, conduct cogni
   answer: true
   explanation: "A double-barreled question asks about two distinct issues in a single item. Respondents who support one but not the other must choose a single answer that misrepresents their view. The resulting data conflates agreement with two separate policies, making it impossible to know which sub-question the respondent was answering. Even perfectly honest responses produce uninterpretable data. This is a question construction error, not a respondent error — it is caught through cognitive interviewing before fieldwork begins."
 
-- question: "A survey with a low response rate is always more biased than one with a high response rate, because fewer respondents means less representation of the population."
+- question: "A survey with a low response rate is typically more biased than one with a high response rate, because fewer respondents means less representation of the population."
   type: true-false
   answer: false
   explanation: "Response rate alone does not determine bias. Bias depends on whether non-respondents differ systematically from respondents on the variables of interest. A survey with a 25% response rate may produce unbiased estimates if non-response is random. A survey with an 80% response rate may be severely biased if the 20% who did not respond share a systematic characteristic relevant to the outcome. Researchers assess non-response bias by comparing respondents to known population benchmarks and by characterizing non-respondents through follow-up — not simply by checking the response rate."

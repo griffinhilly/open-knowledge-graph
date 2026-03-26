@@ -54,7 +54,7 @@ Debt can be classified in multiple ways: secured debt (backed by collateral like
   answer: true
   explanation: "This is the defining characteristic of revolving credit. Unlike installment debt (e.g., a car loan with 60 fixed payments and a closing date), a revolving line lets you borrow, repay, and borrow again continuously. The account remains open indefinitely. This flexibility is what makes revolving credit both useful and potentially dangerous — there is no natural forcing function to eliminate the balance."
 
-- question: "Carrying a high balance on a revolving credit account only affects how much interest you pay — it does not impact your credit score."
+- question: "Carrying a high balance on a revolving credit account mainly affects how much interest you pay — it does not impact your credit score."
   type: true-false
   answer: false
   explanation: "Credit utilization (balance ÷ limit) is scored as an independent factor from payment history. A $2,400 balance on a $3,000 card represents 80% utilization, which scores as high-risk regardless of whether payments are on time. Credit scoring models treat utilization as a forward-looking signal of financial stress. This is why financial advisors recommend keeping revolving balances below 30% of limits — not just to reduce interest, but to protect the credit score."

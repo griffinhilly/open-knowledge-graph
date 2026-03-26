@@ -55,7 +55,7 @@ Calculate both VaR and ES for a portfolio at the same confidence level and obser
   answer: true
   explanation: "This is the core distinction. VaR answers 'how likely is a loss bigger than X?' — ES answers 'when losses are extreme, how extreme are they on average?' For capital adequacy, you need to hold enough capital to absorb the actual severity of bad outcomes. ES computes E[Loss | Loss > VaR], integrating over the entire tail. VaR only marks the threshold. Regulators (Basel III/IV) shifted to ES precisely because tail severity, not just tail probability, determines how much capital is needed."
 
-- question: "Two portfolios with identical VaR at the same confidence level must have identical risk profiles."
+- question: "Two portfolios with identical VaR at the same confidence level should have identical risk profiles."
   type: true-false
   answer: false
   explanation: "VaR gives no information about the shape or severity of losses beyond the threshold. Two portfolios can have identical VaR but radically different tails — one with losses clustering just above the threshold, another with a small probability of catastrophic losses far into the tail. ES distinguishes these; VaR does not. This is why identical VaR is not sufficient evidence of equivalent risk, and why ES is increasingly required for regulatory capital calculations."

@@ -50,7 +50,7 @@ A disposition is a property characterized by what it would manifestly produce un
   answer: 1
   explanation: "The partner structure is easy to miss: fragility is a property of the glass alone, but the manifestation (breaking) requires cooperation from something outside the glass — a striking force. The disposition is unilateral; the manifestation is bilateral. This relational structure means dispositions are not self-contained triggers waiting to fire autonomously. They are poised within a network of possible interactions with partner entities, which has consequences for how we understand causation and the ontology of powers."
 
-- question: "A disposition can manifest entirely on its own, without any external stimulus or partner entity contributing to the outcome."
+- question: "A disposition can manifest largely on its own, without any external stimulus or partner entity contributing to the outcome."
   type: true-false
   answer: false
   explanation: "Every disposition requires a stimulus condition (the trigger) and a manifestation partner (the co-contributor to the outcome). Fragility alone does not cause breaking — it requires a striking force as partner. Solubility requires a solvent. Even seemingly self-contained dispositions involve an environmental condition that plays the partner role. This relational structure is a core feature of dispositions, not a contingent fact about particular cases."

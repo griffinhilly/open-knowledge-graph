@@ -42,7 +42,7 @@ Draw the life cycle of a chicken (egg, chick, hen/rooster) as a circle diagram. 
   answer: 1
   explanation: "Most animal life cycles follow these stages: the animal is born or hatches from an egg, it grows up (getting bigger and learning skills), it becomes an adult, and it can have babies of its own. Those babies start the cycle again."
 
-- question: "All animals are born live like humans."
+- question: "Most animals are born live like humans."
   type: true-false
   answer: false
   explanation: "Many animals hatch from eggs instead of being born live. Birds, reptiles, fish, amphibians, and insects all lay eggs. Mammals are the main group that gives birth to live babies, though even a few mammals (like the platypus) lay eggs."

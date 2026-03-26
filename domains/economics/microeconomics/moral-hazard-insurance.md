@@ -55,7 +55,7 @@ Compare full vs. partial insurance coverage. Understand why full insurance reduc
   answer: true
   explanation: "Yes — a deductible makes the insured the residual claimant on small losses. If you must pay the first $500 of any damage, you have a direct financial incentive to prevent incidents that would cost less than $500 (or even somewhat more). This is precisely why deductibles exist from an incentive standpoint: they keep some 'skin in the game' so the insured's interests partially align with the insurer's interests in preventing the loss."
 
-- question: "Full insurance with zero deductible is optimal for a risk-averse individual because it completely eliminates financial risk, which is the goal of insurance."
+- question: "Full insurance with zero deductible is optimal for a risk-averse individual because it largely eliminates financial risk, which is the goal of insurance."
   type: true-false
   answer: false
   explanation: "This ignores the incentive effect — the key insight of moral hazard. While full insurance maximizes risk-sharing (good for the risk-averse individual), it eliminates all incentive to prevent the insured event. The optimal contract under unobservable effort trades off risk-bearing against incentive provision: some risk must be left with the insured to maintain prevention motivation. Full coverage is only optimal if effort is observable (and can be contractually required) or if the insured event is entirely unpreventable."

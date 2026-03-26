@@ -57,7 +57,7 @@ Read Michael Smith's The Moral Problem (chapters 1-5) for a clear statement of t
   answer: 1
   explanation: "The Humean theory holds that belief alone is motivationally inert — it merely represents how things are. Only desire-like states (pro-attitudes) can generate motivation. A belief that 'helping would be right' tells you something about the world but does not itself push you to act. A separate desire — to help, to be moral, to care about others — is required to translate the belief into motivation. Anti-Humeans (option A) reject this: Thomas Nagel and Jonathan Dancy argue that recognizing a reason can itself be motivating without any prior desire."
 
-- question: "Motivational internalism claims that if you genuinely judge an action to be morally required, you will always perform it."
+- question: "Motivational internalism claims that if you genuinely judge an action to be morally required, you will typically perform it."
   type: true-false
   answer: false
   explanation: "False. Motivational internalism claims only that a genuine moral judgment *necessarily entails some motivation* — not that this motivation will always prevail. The motivation can be outweighed by competing desires, weakness of will, or other psychological factors. What internalism rules out is complete motivational indifference: if you feel not the slightest pull toward the action, internalists conclude that your 'judgment' is not a genuine moral judgment. The claim is about the presence of some motivation, not its irresistibility."

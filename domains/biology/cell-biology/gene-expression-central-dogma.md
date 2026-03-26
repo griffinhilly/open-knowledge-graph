@@ -57,7 +57,7 @@ Central dogma is absolute—reverse transcriptase and alternative splicing permi
   answer: true
   explanation: "True. PTMs such as phosphorylation, glycosylation, ubiquitination, and acetylation add or remove chemical groups after the polypeptide is assembled. These changes alter the protein's charge, conformation, binding partners, stability, or targeting — functioning as molecular switches — without touching the underlying amino acid sequence. This layer of regulation allows rapid, reversible responses to signals without requiring new rounds of transcription and translation."
 
-- question: "The central dogma of molecular biology states that information cannot flow from RNA to DNA under any circumstances."
+- question: "The central dogma of molecular biology states that information can rarely flow from RNA to DNA under any circumstances."
   type: true-false
   answer: false
   explanation: "False. While the central dogma describes the normal direction of information flow (DNA → RNA → Protein), exceptions exist. Retroviruses like HIV use reverse transcriptase to copy RNA back into DNA, which is then integrated into the host genome. The central dogma is a powerful organizing principle but not an absolute law — it describes the default pathway. Treating it as inviolable is explicitly listed as a common misconception for this topic."

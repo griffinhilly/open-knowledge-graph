@@ -63,7 +63,7 @@ Compute the end ∫_c Hom(F(c), G(c)) for two specific functors F, G: C → Set 
   answer: true
   explanation: "This is the standard convention and intended analogy. An end ∫_c T(c,c) selects elements consistent with the wedge condition across all objects — like a product or limit, it requires something to hold everywhere simultaneously. A coend ∫^c T(c,c) identifies elements related by the coaction of morphisms — like a coproduct or colimit, it takes a sum and quotients by equivalence. The notation mirrors integration: subscript = integrate over all c simultaneously (limit flavor); superscript = sum over c with identifications (colimit flavor)."
 
-- question: "Dinatural transformations between bifunctors C^op × C → D can always be composed to form a new dinatural transformation, just as natural transformations between functors C → D compose."
+- question: "Dinatural transformations between bifunctors C^op × C → D can generally be composed to form a new dinatural transformation, just as natural transformations between functors C → D compose."
   type: true-false
   answer: false
   explanation: "This is a key difference between dinaturals and naturals. Given dinatural transformations α: S → T and β: T → U where S, T, U: C^op × C → D, the naive composite β_c ∘ α_c is generally NOT dinatural — the hexagon condition for dinaturality fails at the composite. This failure is precisely why ends and coends are defined using wedge universality rather than ordinary naturality: wedges are a restricted class of dinatural families (from/to a constant functor) for which universal properties can be stated cleanly without requiring general dinaturality composition."

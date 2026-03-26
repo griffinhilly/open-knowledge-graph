@@ -53,7 +53,7 @@ Inspect existing concrete cracks; assess their characteristics (depth, length, p
   answer: 3
   explanation: "Preparation is the most important — and most commonly skipped — step in concrete repair. Concrete patching compounds bond poorly to wet or contaminated surfaces, and most products require temperatures above 40°F to cure correctly. Applying to a damp surface at 38°F violates both conditions simultaneously. The patch may look fine initially but has not achieved a chemical bond with the existing concrete, so freeze-thaw cycling easily dislodges it. The compound, the crack width, and the backer rod are all secondary to surface prep and temperature."
 
-- question: "A hairline crack in a concrete driveway — under 1/8 inch wide, with both sides flush — is almost always a structural concern requiring professional assessment."
+- question: "A hairline crack in a concrete driveway — under 1/8 inch wide, with both sides flush — is almost usually a structural concern requiring professional assessment."
   type: true-false
   answer: false
   explanation: "Hairline cracks are cosmetic in the vast majority of cases. They result from shrinkage during initial cure or from surface-level freeze-thaw cycling, not from structural failure. The structural red flag is differential displacement — one side higher than the other — or horizontal cracks in basement walls that bow inward. A flush hairline crack still warrants attention (untreated, water infiltration will expand it), but the appropriate response is cleaning and filling with concrete crack filler, not professional structural assessment."

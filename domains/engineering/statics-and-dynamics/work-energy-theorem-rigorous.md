@@ -51,7 +51,7 @@ The work-energy theorem states that the net work done on a body equals its chang
   answer: true
   explanation: "The derivation is direct: start with F = ma, dot both sides with velocity v to get F·v = ma·v = m(dv/dt)v = d(½mv²)/dt. Integrate over time: ∫F·v dt = Δ(½mv²), and since ∫F·v dt = ∫F·ds = W, the result is W_net = ΔKE. No assumptions about force type, path shape, or system properties were made — it is a pure mathematical consequence of Newton's second law. This is why the theorem is universally applicable to all force types."
 
-- question: "The work-energy theorem cannot be directly applied to rigid bodies because internal forces between particles within the body complicate the calculation."
+- question: "The work-energy theorem can seldom be directly applied to rigid bodies because internal forces between particles within the body complicate the calculation."
   type: true-false
   answer: false
   explanation: "For a truly rigid body, internal forces come in Newton's third law pairs — equal and opposite — acting between particles that don't move relative to each other (by the rigid body assumption). These internal force pairs do zero net work, so they cancel out of the work-energy calculation. Only external forces remain. The theorem therefore applies cleanly to rigid bodies: W_net (external) = ΔKE. The complication only arises for deformable bodies or when internal energy changes (heat generation, plastic deformation) occur."

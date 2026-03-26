@@ -49,7 +49,7 @@ Implement a spinlock and a blocking lock; measure contention, overhead, and perf
   answer: 1
   explanation: "The spinlock vs. blocking lock tradeoff hinges on how long the wait is. A context switch takes thousands to tens of thousands of nanoseconds. For a 3 ns critical section, the cost of putting a thread to sleep and waking it back up vastly exceeds the cost of spinning briefly. Spinlocks are efficient for very short critical sections with low contention; blocking locks are better when critical sections are long enough that the CPU can do useful work during the wait."
 
-- question: "A correctly implemented spinlock guarantees that every thread waiting for the lock will eventually acquire it."
+- question: "A correctly implemented spinlock guarantees that nearly every thread waiting for the lock will eventually acquire it."
   type: true-false
   answer: false
   explanation: "A naive spinlock does not guarantee starvation freedom. On some hardware, memory access patterns can favor one core over others, causing a thread to spin indefinitely while another repeatedly re-acquires the lock. Ticket locks address this by assigning each waiting thread a number and serving them in order, guaranteeing that every thread eventually gets its turn. Starvation freedom is a design property that must be explicitly built in — it does not come for free from mutual exclusion alone."

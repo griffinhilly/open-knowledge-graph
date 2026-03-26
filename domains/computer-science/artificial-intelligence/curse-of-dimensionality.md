@@ -47,7 +47,7 @@ As feature count increases, the feature space volume grows exponentially, making
   answer: 2
   explanation: "This is perhaps the most counterintuitive consequence of the curse of dimensionality. As dimensions increase, the variance in distances between all pairs of points decreases relative to the mean distance, so all points cluster around the same expected distance from any reference. When nearest and farthest distances are nearly equal, 'nearest neighbor' is essentially random — there is no meaningful neighborhood structure. This breaks any algorithm that relies on locality or proximity, including k-NN, clustering, and kernel methods."
 
-- question: "Adding more features to a machine learning model with a fixed training set always improves or maintains test accuracy, since additional features provide the model with more information."
+- question: "Adding more features to a machine learning model with a fixed training set usually improves or maintains test accuracy, since additional features provide the model with more information."
   type: true-false
   answer: false
   explanation: "False — this is the core misconception that the curse of dimensionality refutes. As features increase, the feature space volume grows exponentially, making the fixed training set increasingly sparse. In sparse high-dimensional spaces, models can fit spurious patterns that happen by chance (overfitting), and distance-based notions of similarity break down. More features require exponentially more training data to avoid these problems; with a fixed dataset, adding features beyond a certain point actively hurts generalization."

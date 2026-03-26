@@ -46,7 +46,7 @@ Rounding numbers to the nearest ten or hundred helps with estimation. Before cal
   answer: 1
   explanation: "Estimation is the right tool when you need a quick answer and precision isn't required — 'Do I have enough?' is exactly that kind of question. Rounding each price up to the nearest dollar (always rounding up when checking if you have enough money) gives $5 + $7 + $4 = $16, which is safely under $20. You don't need the exact total of $14.79 to know you're fine. Using exact calculation (option A) works but is slower and harder mentally than estimation."
 
-- question: "Estimation is only useful in situations where calculating the exact answer is impossible or too difficult."
+- question: "Estimation is mainly useful in situations where calculating the exact answer is very difficult or too difficult."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Estimation has two uses: (1) providing a quick approximate answer when precision isn't needed, and (2) checking whether an exact calculation is reasonable — even when you have already computed exactly. The second use is arguably more important: after solving 238 × 47, an estimate of 200 × 50 = 10,000 tells you the exact answer should be in the thousands. If your calculator shows 11,186, that's plausible; if it shows 111,860, something went wrong. Estimation serves as a built-in error detector."

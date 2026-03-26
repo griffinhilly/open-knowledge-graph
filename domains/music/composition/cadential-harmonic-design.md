@@ -65,7 +65,7 @@ Compose 8-bar harmonic progressions ending with each cadence type, singing the s
   answer: true
   explanation: "This is the structural logic behind period form: the antecedent phrase ends with a half cadence (open, expectant), and the consequent phrase provides the answering authentic cadence (closed, resolved). The half cadence works as a question mark precisely because the dominant is the most unstable diatonic harmony — it strongly implies tonic resolution is coming, which is why the phrase cannot simply stop there."
 
-- question: "A weak or inconclusive cadence in a composition always represents a structural flaw that the composer should have corrected."
+- question: "A weak or inconclusive cadence in a composition generally represents a structural flaw that the composer should have corrected."
   type: true-false
   answer: false
   explanation: "Weak or inconclusive cadences are frequently intentional compositional choices that serve specific structural purposes. A half cadence maintains momentum. A deceptive cadence creates surprise and enables extension. A composer who places an inconclusive cadence when closure would be premature is making an architectural decision, not an error. The distinction between intentional inconclusiveness and failure to achieve closure is a matter of craft and context."

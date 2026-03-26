@@ -59,7 +59,7 @@ Believing a formula's truth value is intrinsic rather than relative to an assign
   answer: true
   explanation: "This is the compositionality principle of truth-functional semantics. Once you have a truth assignment for the atomic propositions, the valuation function recursively computes truth values bottom-up through the formula tree. Whether P means 'It is raining' or 'The number is prime' plays no role — only whether it is assigned T or F. This is what makes propositional logic formal and mechanical: the computation is purely syntactic once you have the assignment."
 
-- question: "A formula that is true under every truth assignment you have tested so far is therefore a tautology."
+- question: "A formula that is true under nearly every truth assignment you have tested so far is therefore a tautology."
   type: true-false
   answer: false
   explanation: "A tautology must be true under ALL 2ⁿ possible truth assignments (for n atomic propositions). Testing a subset — even a large one — does not establish tautologyhood, because untested assignments might falsify the formula. The only complete method is a truth table enumerating all 2ⁿ assignments, or a proof in a formal system. Tautology is a universal quantifier over all assignments, not a statistical claim."

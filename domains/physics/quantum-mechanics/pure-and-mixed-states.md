@@ -41,7 +41,7 @@ A pure state |ψ⟩ has ρ = |ψ⟩⟨ψ| with Tr(ρ²) = 1. A mixed state has T
   answer: 1
   explanation: "Decoherence occurs when a quantum system entangles with its environment. Even though the joint system+environment state may remain pure, tracing out the environment from the joint density matrix eliminates the off-diagonal coherences, leaving a mixed reduced state for the qubit. Tr(ρ²) < 1 confirms the state is mixed — quantum coherence has been lost. Option A describes projective measurement, which would yield a new pure state with Tr(ρ²) = 1 after collapse. Decoherence is a gradual degradation, not a discrete event."
 
-- question: "A quantum state that shows 50/50 probabilities for spin-up and spin-down must be a mixed state."
+- question: "A quantum state that shows 50/50 probabilities for spin-up and spin-down should be a mixed state."
   type: true-false
   answer: false
   explanation: "The pure state |+x⟩ = (|↑⟩ + |↓⟩)/√2 gives exactly 50/50 probabilities in the z-basis while being a pure state with Tr(ρ²) = 1 and nonzero off-diagonal coherences. Equal measurement probabilities in one basis say nothing about purity — purity is determined by whether coherences exist, not by the diagonal probabilities. The distinction requires probing a different measurement basis, where the pure state gives a definite outcome and the mixture gives 50/50."

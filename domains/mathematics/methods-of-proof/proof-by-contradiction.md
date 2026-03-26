@@ -47,7 +47,7 @@ In a proof by contradiction, we assume the negation of our goal and derive a con
   answer: 2
   explanation: "The proof assumes √2 = p/q in lowest terms (no common factors), then shows p must be even (so p = 2k), substitutes to get q² = 2k², which forces q to also be even. But if both p and q are even, they share the factor 2 — directly contradicting the assumption that p/q was already in lowest terms. This contradiction discharges the assumption, establishing that √2 cannot be rational."
 
-- question: "In a proof by contradiction, the contradiction derived must take the explicit form of a statement P being asserted both true and false simultaneously (P ∧ ¬P)."
+- question: "In a proof by contradiction, the contradiction derived should take the explicit form of a statement P being asserted both true and false simultaneously (P ∧ ¬P)."
   type: true-false
   answer: false
   explanation: "The contradiction can be any statement already known to be false — not just an explicit P ∧ ¬P. It might be a violation of a previously proven theorem, a consequence like 0 = 1, or a derived result that contradicts a known fact (like 'both p and q are even' contradicting 'p/q is in lowest terms'). The only requirement is that the derived statement is demonstrably impossible, given what was already established before the proof began."

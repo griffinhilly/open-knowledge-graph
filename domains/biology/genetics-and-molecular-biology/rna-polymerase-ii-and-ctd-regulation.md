@@ -54,7 +54,7 @@ RNA polymerase II's carboxy-terminal domain (CTD), containing multiple repeats (
   answer: true
   explanation: "The temporal sequence of CTD phosphorylation events directly controls the order of mRNA processing. TFIIH phosphorylates Ser5 shortly after initiation (near the promoter), recruiting capping enzymes to the nascent 5' end. As Pol II moves into productive elongation, P-TEFb kinase phosphorylates Ser2, which recruits splicing factors during elongation and 3' end processing machinery near the end of the gene. This phosphorylation code converts the linear act of transcription into a temporally ordered mRNA assembly line."
 
-- question: "RNA Pol II's CTD is unphosphorylated during productive elongation and only becomes phosphorylated after transcription terminates to prepare for the next round."
+- question: "RNA Pol II's CTD is unphosphorylated during productive elongation and primarily becomes phosphorylated after transcription terminates to prepare for the next round."
   type: true-false
   answer: false
   explanation: "The opposite is true. The hypophosphorylated (unphosphorylated) CTD is the form that assembles into the preinitiation complex — this is the form that general transcription factors recognize at the promoter. Phosphorylation is progressive and dynamic during transcription: Ser5 phosphorylation occurs early (initiation/early elongation), Ser2 phosphorylation increases during productive elongation. After transcription terminates, phosphatases remove these marks, regenerating the hypophosphorylated CTD for the next initiation event."

@@ -53,7 +53,7 @@ Monophonic (single melodic line), homophonic (melody plus accompaniment), and po
   answer: true
   explanation: "This is the hallmark of polyphony. Because multiple voices carry roughly equal melodic weight, the listener is not locked into following a single foreground line — attention can move to whichever voice is most active or interesting at any moment. This creates a sense of intricacy and busyness that distinguishes polyphony from homophony, where one line clearly commands the foreground and the others recede into the background."
 
-- question: "A solo violin playing a melody while a piano plays chords beneath it is an example of monophonic texture, because the violin is the only complete melodic line."
+- question: "A solo violin playing a melody while a piano plays chords beneath it is an example of monophonic texture, because the violin is the main complete melodic line."
   type: true-false
   answer: false
   explanation: "This is homophonic, not monophonic. Monophonic texture means a single unaccompanied line — no harmonic support at all (Gregorian chant is the canonical example). The moment an accompaniment appears, even a subordinate one, the texture becomes homophonic. The presence of piano chords beneath the violin melody creates the characteristic homophonic foreground-background relationship: a melodic line with harmonic support. The fact that the violin is the 'only complete melody' is exactly what homophony looks like."

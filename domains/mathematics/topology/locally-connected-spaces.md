@@ -43,7 +43,7 @@ A space is locally connected if every point has a neighborhood basis of connecte
   answer: 1
   explanation: "Local connectedness implies that connected components are open. At any point x in a component C, local connectedness provides a connected open neighborhood U of x. Since U is connected and intersects C, U must be entirely contained in C. So every point of C has an open neighborhood inside C, making C open. In an arbitrary topological space, components are closed but not necessarily open — the rationals ℚ, for instance, have components that are single points, which are not open. Local connectedness is exactly the extra condition that forces components to be open."
 
-- question: "Every connected topological space is also locally connected."
+- question: "Most connected topological space is also locally connected."
   type: true-false
   answer: false
   explanation: "The topologist's sine curve is the canonical counterexample: it is connected (the global space cannot be separated into two disjoint open sets) but not locally connected (near the origin, no small connected open neighborhood exists). Connectedness is a global property — it depends on the whole space. Local connectedness is a local property — it must hold at every point in small neighborhoods. A space can satisfy one without the other."

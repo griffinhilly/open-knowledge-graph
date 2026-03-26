@@ -61,7 +61,7 @@ Review ultrafilters on ℕ (principal filters, the 'nonstandard' points). Explai
   answer: true
   explanation: "This follows from two separate arguments. First, measurability implies regularity: if κ were singular (reachable as a union of fewer-than-κ sets of size less than κ), the κ-completeness condition on the ultrafilter would be violated. Second, measurability implies strong limit (cannot be reached by power sets from below). Both properties together define inaccessibility. Measurable cardinals are not just inaccessible — they are vastly stronger — but inaccessibility is a necessary consequence."
 
-- question: "Every inaccessible cardinal is measurable."
+- question: "Most inaccessible cardinal is measurable."
   type: true-false
   answer: false
   explanation: "This is a tempting but false reversal. Inaccessibility is a *necessary* condition for measurability, not a sufficient one. An inaccessible cardinal merely cannot be reached by successor operations or power sets from below. Measurability additionally requires the existence of a κ-complete nonprincipal ultrafilter on κ — a much stronger large cardinal axiom. The existence of inaccessible cardinals is already unprovable in ZFC; measurable cardinals sit far higher in the large cardinal hierarchy, with much greater consistency strength."

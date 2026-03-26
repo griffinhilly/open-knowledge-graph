@@ -49,7 +49,7 @@ Different literary traditions have developed different criteria for what makes l
   answer: 1
   explanation: "Recognizing that criteria are culturally embedded is not relativism. Within a tradition, criteria can be rigorously applied — a poem can be masterful or mediocre by the standards of its own tradition. The claim is only that these standards are not universal truths but historical constructs. This opens the possibility of cross-cultural comparison and self-aware critique; it does not collapse into 'anything goes.'"
 
-- question: "Recognizing that aesthetic criteria are culturally embedded leads to the conclusion that meaningful comparison of literature across traditions is impossible."
+- question: "Recognizing that aesthetic criteria are culturally embedded leads to the conclusion that meaningful comparison of literature across traditions is very difficult."
   type: true-false
   answer: false
   explanation: "The opposite: this recognition enables MORE productive comparison, not less. Instead of imposing one tradition's criteria on another, you can evaluate a text by the standards of its own tradition first — asking what it achieves before applying external criteria. This is described as 'a more demanding form of critical self-awareness,' not a prohibition on comparison. Relativism would foreclose comparison; critical self-awareness makes comparison more rigorous and honest."

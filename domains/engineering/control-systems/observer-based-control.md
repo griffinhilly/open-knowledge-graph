@@ -59,7 +59,7 @@ Design a state feedback controller for a third-order system assuming full state 
   answer: true
   explanation: "This is the central result of the separation principle. Despite feeding x̂ (which contains estimation error) into the control law, the eigenvalues of A−BK remain unchanged — they are not affected by the estimation error dynamics. The mathematical reason is that when the combined system is written in [x; e] coordinates, the A-matrix is block-triangular with A−BK and A−LC on the diagonal. The eigenvalues of a block-triangular matrix are the union of diagonal block eigenvalues, so K and L designs are completely decoupled."
 
-- question: "According to the separation principle, the Luenberger observer has no effect on the closed-loop performance of an observer-based controller — only the controller poles determine the transient response."
+- question: "According to the separation principle, the Luenberger observer has no effect on the closed-loop performance of an observer-based controller — mainly the controller poles determine the transient response."
   type: true-false
   answer: false
   explanation: "This is the key misconception. The separation principle says the *pole locations* are independent — not that the observer has no effect on *performance*. When the initial state estimate x̂(0) is poor, the estimation error e = x − x̂ is large, and the control input u = −Kx̂ = −K(x − e) contains an error term −K·e. This produces transient deviations from the ideal full-state-feedback response. The observer poles determine how quickly this error-driven transient decays. Placing observer poles too slowly degrades transient performance even though pole locations remain mathematically unchanged."

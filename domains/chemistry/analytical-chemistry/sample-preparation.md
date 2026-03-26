@@ -45,7 +45,7 @@ Compare recoveries from different preparation methods applied to a certified ref
   answer: 2
   explanation: "Silicate minerals resist even concentrated HCl and aqua regia because the Si-O framework is chemically inert to most acids. HF dissolves silicates by reacting with silicon to form volatile SiF4, breaking the matrix. Dilute HCl, aqua regia, and water all leave the silicate backbone intact."
 
-- question: "Using a more aggressive digestion procedure (higher acid concentration, higher temperature, longer time) always improves analytical accuracy by ensuring complete dissolution."
+- question: "Using a more aggressive digestion procedure (higher acid concentration, higher temperature, longer time) typically improves analytical accuracy by ensuring complete dissolution."
   type: true-false
   answer: false
   explanation: "More aggressive digestion can introduce more contaminants from reagents, volatilize analytes with low boiling points (e.g., mercury, arsenic species, selenium compounds), or create matrix conditions that interfere with the final measurement. The goal is complete dissolution with minimal contamination — the mildest effective procedure is preferred."

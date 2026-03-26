@@ -54,7 +54,7 @@ Implement or trace through a parsing algorithm on sample sentences, observing co
   answer: false
   explanation: "CKY requires the grammar to be in Chomsky Normal Form (CNF), where every rule is either A → BC or A → word. This is not a restriction on ambiguity but on rule structure. Any context-free grammar can be converted to CNF, but CKY cannot directly process arbitrary CFGs — the grammar must be preprocessed into CNF first. Earley parsing, by contrast, handles arbitrary context-free grammars directly without CNF conversion, and also handles ambiguous sentences by returning all possible parse trees."
 
-- question: "An O(n) neural parser will always be less accurate than an O(n³) chart parser, because higher time complexity reflects more thorough examination of the input."
+- question: "An O(n) neural parser will generally be less accurate than an O(n³) chart parser, because higher time complexity reflects more thorough examination of the input."
   type: true-false
   answer: false
   explanation: "Efficiency (time complexity) and accuracy are independent properties. An O(n) neural parser can outperform an O(n³) chart parser on typical benchmark text — it has learned patterns from large training corpora that let it make accurate predictions quickly. Complexity bounds describe how computation scales with input length, not how well the output matches the correct parse. In practice, modern neural parsers achieve state-of-the-art accuracy on standard benchmarks despite their speed. However, they fail differently: they are less robust to unusual constructions outside their training distribution, whereas a complete chart parser is bounded by its grammar coverage."

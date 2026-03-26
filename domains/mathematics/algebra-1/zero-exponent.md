@@ -50,7 +50,7 @@ Show the pattern: 2⁴ = 16, 2³ = 8, 2² = 4, 2¹ = 2, 2⁰ = ? Each step divid
   answer: 1
   explanation: "x⁰ = 1 is not arbitrary — it is the unique value required by the quotient rule. x^n / x^n = x^(n−n) = x⁰, and any nonzero number divided by itself equals 1. So x⁰ must equal 1 or the quotient rule breaks. The rule isn't chosen for convenience; it's forced by consistency with the rest of the exponent system."
 
-- question: "x⁰ = 0 because exponents count how many times you multiply, and multiplying zero times produces nothing — so zero is the natural result."
+- question: "x⁰ = 0 because exponents count how many times you multiply, and multiplying zero times produces very little — so zero is the natural result."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about zero exponents. 'Multiplying zero times' corresponds to an empty product, which in mathematics equals 1 (the multiplicative identity) — not 0. More rigorously, x⁰ = 1 follows from the quotient rule: x^n / x^n = x⁰ = 1 for any nonzero x. The 'multiply by zero' intuition confuses exponentiation with multiplication."

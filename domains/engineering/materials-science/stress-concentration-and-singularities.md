@@ -53,7 +53,7 @@ Geometric discontinuities—notches, holes, corners, cracks—create local stres
   answer: true
   explanation: "Kt for a circular hole in a wide plate equals 3 regardless of hole size, as long as the hole is small relative to the plate width. Kt depends on geometric shape and ratios, not absolute dimensions. This is a striking and often counterintuitive result: a 1 mm hole and a 100 mm hole in an otherwise identical plate have exactly the same peak-stress amplification factor."
 
-- question: "A sharp crack in an elastic material has an extremely high but finite stress concentration factor Kt, because the tip radius approaches — but never quite reaches — zero."
+- question: "A sharp crack in an elastic material has an extremely high but finite stress concentration factor Kt, because the tip radius approaches — but seldom quite reaches — zero."
   type: true-false
   answer: false
   explanation: "For a crack with zero tip radius, Kt is formally infinite — this is a stress singularity, not merely a very high Kt. The elastic stress field diverges as σ ∝ K/√r as the distance r from the crack tip approaches zero. The concept of Kt no longer applies; instead, linear elastic fracture mechanics (LEFM) uses the stress intensity factor K to characterize the crack tip field. The transition from Kt (for notches with finite radius) to K (for cracks) marks the boundary between stress concentration and fracture mechanics."

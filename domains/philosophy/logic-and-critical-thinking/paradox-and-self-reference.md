@@ -42,7 +42,7 @@ Paradoxes like the liar's paradox ('this statement is false') expose limits and 
   answer: 0
   explanation: "Russell's Paradox forced mathematicians to recognize that naive set comprehension — 'for any property P, there is a set of all things satisfying P' — is inconsistent. The collection {x : x ∉ x} cannot be a well-formed set without contradiction. This drove the reconstruction of set theory's foundations (Zermelo-Fraenkel axioms restrict which collections are legitimate sets). Option B overstates the lesson: self-reference is not always paradoxical — 'this sentence is in English' is fine. The problem is self-reference in contexts involving truth, membership, or definability."
 
-- question: "Self-reference always produces a paradox."
+- question: "Self-reference usually produces a paradox."
   type: true-false
   answer: false
   explanation: "'This sentence is in English' is self-referential and perfectly unproblematic. Self-reference only generates paradox when combined with concepts like truth, falsity, set membership, or provability. The sentence 'This sentence has five words' is self-referential and simply true (count them). The trouble arises from a specific combination: self-reference + truth predicates (Liar), or self-reference + membership conditions (Russell). Understanding this helps locate precisely where the conceptual underdefinition lies."

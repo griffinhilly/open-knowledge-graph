@@ -58,7 +58,7 @@ Plot relativistic kinetic energy versus velocity and compare to classical predic
   answer: false
   explanation: "Rest mass is Lorentz-invariant — it does not change with velocity. What changes with velocity is the Lorentz factor γ, which inflates momentum (p = γmv) and total energy (E = γmc²), but not the rest mass m. The concept of 'relativistic mass' (γm) was once used pedagogically but is now discouraged because it creates exactly this confusion. The difficulty in accelerating particles near c comes from γ making each joule buy less velocity, not from the mass growing."
 
-- question: "In a relativistic collision, kinetic energy is separately conserved — just as in classical elastic collisions — because the rest mass energies of particles are always preserved unchanged."
+- question: "In a relativistic collision, kinetic energy is separately conserved — just as in classical elastic collisions — because the rest mass energies of particles are generally preserved unchanged."
   type: true-false
   answer: false
   explanation: "In relativistic mechanics, it is total energy E = γmc² (and momentum) that is conserved, not kinetic energy alone. Rest mass energy can convert to kinetic energy and vice versa. Pair production converts photon energy into rest mass energy (creating particle-antiparticle pairs). Nuclear fission converts rest mass energy into kinetic energy. The classical separation of 'mass conservation' and 'kinetic energy conservation' collapses into one unified conservation law for total energy, where rest mass and kinetic energy are interconvertible forms."

@@ -61,7 +61,7 @@ Read Locke's Second Treatise (chapters on property and the state of nature) and 
   answer: true
   explanation: "This is the defining commitment of rights-based ethics that distinguishes it from consequentialism. Rights function as trumps or side-constraints against aggregate welfare calculations. The individual's rights must be respected even when, by the numbers, violation would improve overall outcomes. This is why the forced organ redistribution case is such a clear test: a utilitarian calculation might favor it, but a rights theorist must reject it because the healthy person's rights are violated regardless of how many people benefit."
 
-- question: "Rights-based ethical theories are committed to the view that all rights are absolute and can never be overridden under any circumstances."
+- question: "Rights-based ethical theories are committed to the view that most rights are absolute and can rarely be overridden under any circumstances."
   type: true-false
   answer: false
   explanation: "This is explicitly listed as a misconception. Most rights theories allow that rights can be overridden in extreme circumstances — self-defense, for example, may permit killing an aggressor despite their right not to be harmed. The claim is not that rights are absolute but that they set a high threshold that consequentialist calculation alone cannot meet. Threshold deontology formalizes this: rights can be overridden only when the stakes are catastrophically high, not merely when the aggregate benefit of violation is marginally positive."

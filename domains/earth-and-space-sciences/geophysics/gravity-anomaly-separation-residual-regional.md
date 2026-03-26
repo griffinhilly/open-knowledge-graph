@@ -52,7 +52,7 @@ Gravity anomalies measured at the surface reflect contributions from sources at 
   answer: true
   explanation: "Gravity is a potential field: every density contrast at every depth contributes to the measured value at the surface simultaneously. There is no way to look at a single gravity reading and know which part came from what depth. Processing — spectral filtering, upward continuation, polynomial subtraction — is required to exploit the depth-wavelength relationship and disentangle contributions from different depth ranges."
 
-- question: "Upward continuation is used to isolate the residual (shallow) anomaly because it removes deep-source contributions from the gravity field, leaving only signals from shallow structures."
+- question: "Upward continuation is used to isolate the residual (shallow) anomaly because it removes deep-source contributions from the gravity field, leaving primarily signals from shallow structures."
   type: true-false
   answer: false
   explanation: "This reverses the logic. Upward continuation preferentially attenuates shallow (short-wavelength) signals and preserves deep (long-wavelength) signals. Therefore, continuing the field upward produces the regional anomaly — the smooth, long-wavelength component from deep sources. To obtain the residual, you then subtract this continued (regional) field from the original data. The shallow ore body signal is what gets removed by continuation, not preserved."

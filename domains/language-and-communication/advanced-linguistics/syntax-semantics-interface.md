@@ -55,7 +55,7 @@ Syntax and semantics are not isomorphic; some semantic phenomena (scope, binding
   answer: true
   explanation: "This is precisely why binding theory illustrates the interface: the constraints are syntactic in form (stated over c-command relations, local domains) but semantic in consequence (they determine whether a pronoun can refer to a given antecedent). This means semantic interpretation cannot ignore syntactic structure — reference determination is partly a function of syntactic configuration, not just semantic context or world knowledge. Cross-linguistic variation in binding (e.g., long-distance reflexives in Chinese) shows that the boundary between syntactic and semantic resolution of binding is itself a research question."
 
-- question: "If the syntactic structure of a sentence uniquely determines its meaning, then all scope ambiguities should be resolvable by examining surface word order."
+- question: "If the syntactic structure of a sentence uniquely determines its meaning, then most scope ambiguities should be resolvable by examining surface word order."
   type: true-false
   answer: false
   explanation: "The existence of scope ambiguities like 'Every student read a book' directly contradicts this. The surface word order is fixed, yet two interpretations are available. The standard account (LF movement) posits that quantifier scope is determined at a level of representation (Logical Form) that is distinct from the surface order — meaning is not read off directly from the phonologically visible string. This is the central motivation for positing LF as an interface level: without it, the architecture cannot explain how identical surface forms can receive distinct semantic interpretations."

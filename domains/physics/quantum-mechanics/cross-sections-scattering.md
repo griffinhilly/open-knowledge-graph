@@ -47,7 +47,7 @@ Differential cross section dσ/dΩ = |f(θ,φ)|² gives scattering rate into sol
   answer: true
   explanation: "The squared modulus |f(θ,φ)|² has units of length² per steradian (since f has units of length). Integrating dσ/dΩ over a solid angle element dΩ gives an area — the effective cross section for scattering into that angular region. Integrating over all 4π steradians gives the total cross section σ_tot with pure area units. The 'per steradian' reflects that the differential cross section is a density over direction space."
 
-- question: "A particle that scatters with a very large total cross section must have physically struck a large target."
+- question: "A particle that scatters with a very large total cross section is expected to have physically struck a large target."
   type: true-false
   answer: false
   explanation: "The cross section is an effective area, not a geometric one. A small nucleus near a quantum mechanical resonance can present an enormous effective cross section to an incoming particle — far larger than its physical size — because the scattering amplitude f is resonantly enhanced. Conversely, a physically large target might have a small cross section if the interaction potential is weak. The total cross section measures interaction probability, not physical contact area."

@@ -70,7 +70,7 @@ Trying to apply all principles equally; believing some principles are more impor
   answer: 1
   explanation: "The large, saturated red circle uses contrast (in both color intensity and scale) to create emphasis — drawing the eye to a dominant focal point. The smaller muted shapes subordinate themselves, reinforcing hierarchy. This demonstrates how two principles (contrast and scale) work together through a single decision about one element (color and size of a shape)."
 
-- question: "A successful visual composition applies all design principles with roughly equal strength throughout."
+- question: "A successful visual composition applies most design principles with roughly equal strength throughout."
   type: true-false
   answer: false
   explanation: "Applying all principles with equal weight produces visual noise, not harmony — nothing dominates, nothing recedes, and the eye has no path through the work. Effective integration means choosing which principles to foreground based on the composition's intent. A serene landscape might emphasize unity and rhythm; a dynamic poster might foreground contrast and movement. Context, not equality, governs which principles lead."

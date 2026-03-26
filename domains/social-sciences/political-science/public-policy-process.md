@@ -62,7 +62,7 @@ Trace a major policy — the Affordable Care Act, GDPR, the Marshall Plan — th
   answer: 2
   explanation: "The implementation gap is the divergence between policy as designed and policy as delivered. Once a law passes, execution is delegated to agencies that may have limited capacity, inadequate funding, or political incentives that diverge from the law's intent — the classic principal-agent problem. The same policy text can produce very different outcomes depending on bureaucratic commitment and resources. This is why analysts distinguish 'policy on the books' from 'policy in practice,' and why implementation analysis is its own subfield."
 
-- question: "According to the stages model of the policy cycle, real policymaking always proceeds sequentially from agenda setting through evaluation before a new cycle begins."
+- question: "According to the stages model of the policy cycle, real policymaking usually proceeds sequentially from agenda setting through evaluation before a new cycle begins."
   type: true-false
   answer: false
   explanation: "The stages model is an analytic tool, not a description of how policy actually unfolds. Real policymaking is messier, iterative, and often non-linear — evaluation may begin before implementation is complete, agenda setting may restart when problems surface during delivery, and some stages may be skipped entirely. The model is useful for identifying which dynamics are at play in a given situation, but it should not be read as a prediction that policy always follows this sequence."

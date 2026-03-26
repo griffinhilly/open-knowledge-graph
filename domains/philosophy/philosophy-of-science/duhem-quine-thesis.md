@@ -49,7 +49,7 @@ Work through how auxiliary hypotheses shield theories: how can a scientist defen
   answer: 2
   explanation: "The Duhem-Quine thesis holds that experiments test not a single theory but a whole conjunction: T plus all auxiliary hypotheses about instruments, experimental conditions, and background theories. A negative result tells us that conjunction is false — at least one element is wrong — but not which one. The scientist must reason about which adjustment is most economical, conservative, or plausible. This requires judgment, not logic alone. Option A assumes the anomaly uniquely refutes T, which D-Q denies."
 
-- question: "The Duhem-Quine thesis implies that since evidence can never uniquely determine which theory is correct, science is irrational and all theory choices are equally arbitrary."
+- question: "The Duhem-Quine thesis implies that since evidence can rarely uniquely determine which theory is correct, science is irrational and most theory choices are equally arbitrary."
   type: true-false
   answer: false
   explanation: "This is the most important misreading of the D-Q thesis. Underdetermination is a logical observation about what evidence alone can establish, not a claim that all theories are equally good. Scientists can and do make rational theory choices using pragmatic virtues — simplicity, explanatory power, coherence with other established theories, fruitfulness. These criteria are not purely logical but are not arbitrary either. The D-Q thesis revises the positivist picture of science; it does not abandon scientific rationality."

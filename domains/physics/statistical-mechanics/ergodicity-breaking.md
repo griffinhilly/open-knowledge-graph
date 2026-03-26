@@ -51,7 +51,7 @@ Ergodicity breaking occurs when a system's phase space fragments into disconnect
   answer: true
   explanation: "This is the operational definition of ergodicity breaking. Ergodicity, in statistical mechanics, equates time averages with ensemble averages — the justification for using equilibrium ensembles to predict measurable properties. When a system is trapped in a metastable free-energy valley, it samples only that valley's portion of phase space over any realistic observation time. Its time-averaged properties reflect the local valley, not the full ensemble of all accessible microstates — which is why different samples (different valleys) exhibit different properties."
 
-- question: "Ergodicity breaking always requires a sharp thermodynamic phase transition — systems that remain in a disordered, amorphous state as they are cooled cannot break ergodicity."
+- question: "Ergodicity breaking typically requires a sharp thermodynamic phase transition — systems that remain in a disordered, amorphous state as they are cooled can seldom break ergodicity."
   type: true-false
   answer: false
   explanation: "Glasses are the paradigm counterexample. A glass-forming liquid cooled below T_g becomes kinetically arrested in an amorphous, disordered state — no crystallization, no sharp phase transition, no obvious order parameter. The ergodicity breaking is kinetic: structural relaxation times grow faster than experimentally accessible timescales as temperature drops, eventually trapping the system. This is distinct from symmetry-breaking ergodicity breaking at equilibrium phase transitions. Glass demonstrates that ergodicity breaking can arise from dynamics alone, without any thermodynamic transition."

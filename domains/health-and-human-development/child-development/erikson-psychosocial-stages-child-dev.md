@@ -65,7 +65,7 @@ Map each stage to specific social contexts (caregiver relationship, peer group, 
   answer: false
   explanation: "Erikson explicitly argued that the goal of each stage is a productive balance between the two poles, not elimination of the negative pole. Some capacity for mistrust is adaptive — a child who trusts everyone indiscriminately is vulnerable. The ego strength of this stage, hope, emerges from a balance weighted toward trust, not from pure trust. This is one of Erikson's most important departures from simpler models: healthy development requires tension, not the defeat of the negative pole."
 
-- question: "Erikson's psychosocial stages are strictly age-locked: unresolved conflicts from earlier stages cannot be revisited or reworked in later life."
+- question: "Erikson's psychosocial stages are strictly age-locked: unresolved conflicts from earlier stages can rarely be revisited or reworked in later life."
   type: true-false
   answer: false
   explanation: "Erikson's stages are not strictly age-locked. Earlier conflicts can recur and unresolved issues can be reworked later in development — for example, a person who did not develop a secure sense of trust in infancy may have opportunities to build it through later relationships. Erikson extended development across the full lifespan partly to acknowledge that development is not a one-shot process with permanent outcomes from each stage."

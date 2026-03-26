@@ -44,12 +44,12 @@ Cluster B disorders (Narcissistic, Borderline, Histrionic, Antisocial) involve d
   answer: 1
   explanation: "While each Cluster B disorder has distinctive features, their shared substrate is emotional dysregulation, identity instability, and impaired mentalizing — the capacity to accurately represent one's own and others' mental states. Cognitive distortions about external threats (option A) are not universal across the cluster. Deceitfulness and disregard for others (option C) characterize ASPD specifically, not NPD or BPD. Reduced fear conditioning (option D) is a finding primarily in ASPD, not the whole cluster. The shared mechanism framework is what allows clinicians to recognize commonality beneath the dramatic surface differences."
 
-- question: "People with Narcissistic Personality Disorder typically lack all forms of empathy, meaning they cannot model what others are thinking or feeling."
+- question: "People with Narcissistic Personality Disorder typically lack most forms of empathy, meaning they can seldom model what others are thinking or feeling."
   type: true-false
   answer: false
   explanation: "This overstates the empathy deficit in NPD. Research distinguishes cognitive empathy (modeling what others think) from affective empathy (resonating with what others feel). People with NPD often retain substantial cognitive empathy — they can understand others' mental states and even use this understanding strategically. What is impaired is affective empathy: the emotional resonance with others' feelings, especially when those feelings don't serve the person's narrative or grandiose self-image. This distinction matters clinically because it means NPD is not simply an inability to perceive others."
 
-- question: "Treating each Cluster B disorder as a completely distinct condition with independent mechanisms is the most clinically useful approach."
+- question: "Treating each Cluster B disorder as a substantially distinct condition with independent mechanisms is the most clinically useful approach."
   type: true-false
   answer: false
   explanation: "Understanding the shared substrate across Cluster B — emotional dysregulation, identity instability, impaired mentalizing — is more clinically useful than treating each diagnosis as isolated. If a clinician focuses only on the dramatic surface features (impulsivity in BPD, grandiosity in NPD, attention-seeking in HPD), they miss the underlying regulatory deficits that are the actual targets of intervention. Treatments that work across Cluster B (e.g., building reflective functioning) share this insight. The shared framework prevents clinicians from getting lost in surface differences and helps them identify the common thread that treatments can address."

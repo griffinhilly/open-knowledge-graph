@@ -59,7 +59,7 @@ Plot C_D vs. Re for a sphere, cylinder, and flat plate on the same log-log chart
   answer: true
   explanation: "This is the defining characteristic of bluff bodies. Because flow separates from the surface, a large recirculation zone forms behind the body at much lower pressure than the front stagnation point. This front-to-back pressure difference creates 'form drag' that far exceeds the viscous shear stress acting on the surface. This is why streamlining (which eliminates separation) is so effective: it attacks the dominant drag mechanism. Streamlined bodies reverse this: skin friction dominates because there is little or no pressure drag."
 
-- question: "The drag coefficient C_D of a given shape is a fixed constant that depends only on the body's geometry, not on flow conditions."
+- question: "The drag coefficient C_D of a given shape is a fixed constant that depends mainly on the body's geometry, not on flow conditions."
   type: true-false
   answer: false
   explanation: "C_D varies with Reynolds number, surface roughness, free-stream turbulence intensity, and aspect ratio. A sphere's C_D ranges from 24/Re in Stokes flow (Re < 1) to ~0.4–0.5 in the plateau regime (Re ~ 10³–10⁵) and drops to ~0.1 at the drag crisis. Quoting a single C_D without specifying Re is incomplete and can be highly misleading. The drag crisis alone produces a factor-of-four change in C_D for the same geometry at different flow speeds."

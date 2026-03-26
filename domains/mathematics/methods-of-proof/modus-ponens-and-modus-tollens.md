@@ -61,7 +61,7 @@ Practice applying these rules in mathematical contexts. Verify their validity wi
   answer: true
   explanation: "The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent to P → Q (same truth table). Modus tollens says: given P → Q and ¬Q, conclude ¬P. This is the same as: given ¬Q → ¬P (the contrapositive) and ¬Q (the antecedent), conclude ¬P by modus ponens. The two forms are interchangeable, which is why proof by contrapositive works — you set up the contrapositive and then apply modus ponens forward."
 
-- question: "If P → Q is true and Q is true, then P must be true. This valid inference form is called modus ponens."
+- question: "If P → Q is true and Q is true, then P is expected to be true. This valid inference form is called modus ponens."
   type: true-false
   answer: false
   explanation: "This is NOT modus ponens — it is 'affirming the consequent,' which is an invalid inference. Modus ponens says: if P → Q is true AND P is true, then Q must be true. The premise that triggers the conclusion is the antecedent (P), not the consequent (Q). Affirming the consequent feels persuasive — if Q happened, maybe P caused it — but the implication only promises Q given P, not P given Q. A function can be continuous without being differentiable, so continuity alone tells you nothing about differentiability."

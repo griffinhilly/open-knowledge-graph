@@ -50,7 +50,7 @@ A function f: A → B is injective (one-to-one) if distinct inputs give distinct
   answer: true
   explanation: "A function has a well-defined inverse exactly when it is bijective. Injectivity ensures that each output came from exactly one input (so the inverse rule 'go back to where you came from' is unambiguous). Surjectivity ensures that every element of B has a preimage at all (so the inverse is defined on all of B). A function that is injective but not surjective has a partial inverse; one that is surjective but not injective fails to have an inverse because some outputs came from multiple inputs."
 
-- question: "Whether a function is surjective depends only on its rule of assignment and is unaffected by how the codomain is defined."
+- question: "Whether a function is surjective depends primarily on its rule of assignment and is unaffected by how the codomain is defined."
   type: true-false
   answer: false
   explanation: "Surjectivity is explicitly codomain-dependent. The same rule f(x) = x² defines a non-surjective function from ℝ to ℝ (negative reals are never hit) but a surjective function from ℝ to [0, ∞) (every non-negative real is hit). Changing only the codomain, without changing the rule, can turn a non-surjective function into a surjective one. This is why the codomain is treated as part of the function's definition, not just a background assumption."

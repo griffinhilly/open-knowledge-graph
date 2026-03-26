@@ -59,7 +59,7 @@ Tidal heating dissipates orbital energy within moon interiors through friction, 
   answer: true
   explanation: "The traditional habitable zone defines the orbital distance at which stellar radiation can maintain liquid water on a surface. Tidal heating extends this concept dramatically: Europa and Enceladus receive enough tidal energy to maintain subsurface liquid water oceans despite being far from the Sun. This means the habitable zone is not solely a function of stellar distance — orbital architecture and tidal dissipation can sustain liquid water environments anywhere in a planetary system, fundamentally broadening the search for life."
 
-- question: "If Io's orbital eccentricity were suddenly reduced to zero, tidal heating would decrease significantly but would never reach zero because Io is so close to Jupiter."
+- question: "If Io's orbital eccentricity were suddenly reduced to zero, tidal heating would decrease significantly but would seldom reach zero because Io is so close to Jupiter."
   type: true-false
   answer: false
   explanation: "Zero eccentricity means a perfectly circular orbit, which means the planet-moon distance never changes. With constant distance, the tidal bulge remains static relative to the moon's surface, and there is no repeated flexing. No flexing means no frictional energy dissipation. Tidal heating would drop to zero — not merely decrease. The proximity to Jupiter amplifies heating for eccentric orbits, but eccentricity is the necessary condition for any heating to occur at all. A circular orbit at any distance produces zero tidal heating."

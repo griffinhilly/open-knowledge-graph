@@ -63,7 +63,7 @@ Compare the historical performance of a 100% stock portfolio against a 70/30 sto
   answer: true
   explanation: "True. If stocks have had a great year and your portfolio drifts from 70/30 stocks/bonds to 80/20, rebalancing means selling some stocks (which are now more expensive) and buying bonds (which are now relatively cheap). This is the buy-low-sell-high principle implemented automatically through a mechanical rule. While it feels counterintuitive to sell winners, it enforces discipline and prevents concentration from growing beyond your intended risk level."
 
-- question: "A perfectly diversified portfolio eliminates all investment risk."
+- question: "A perfectly diversified portfolio eliminates most investment risk."
   type: true-false
   answer: false
   explanation: "False. Perfect diversification eliminates unsystematic risk — the risk tied to specific companies, sectors, or countries — but leaves systematic risk (market-wide risk) intact. Even an index fund holding every publicly traded stock in the world will decline in a global recession or financial crisis. To reduce systematic risk, you need to diversify across asset classes that respond differently to the same economic conditions (e.g., stocks and bonds, or adding real estate and commodities)."

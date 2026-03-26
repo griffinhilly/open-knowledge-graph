@@ -56,7 +56,7 @@ All snacks are treats like candy; many fruits, vegetables, and nuts make equally
   answer: true
   explanation: "Correct. An apple provides fiber and natural sugar but digests relatively quickly on its own. Adding peanut butter introduces protein and healthy fat, both of which slow digestion and trigger satiety hormones. Combining at least two nutrient types (fiber, protein, or healthy fat) significantly extends the time before hunger returns compared to a single-nutrient snack."
 
-- question: "All snacking between meals is harmful to health because it adds extra calories."
+- question: "Most snacking between meals is harmful to health because it adds extra calories."
   type: true-false
   answer: false
   explanation: "The healthfulness of snacking depends on what you eat and why. A small, nutrient-dense snack (apple and peanut butter, carrots and hummus) eaten because you are genuinely hungry 2–3 hours after a meal can stabilize blood sugar and prevent overeating at the next meal. The problem is not snacking itself — it is choosing calorie-dense, nutrient-poor processed foods, or eating from habit or boredom rather than genuine hunger."

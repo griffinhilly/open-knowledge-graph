@@ -64,7 +64,7 @@ Start with the slice category C/X (comma category of Id_C ↓ const_X): objects 
   answer: true
   explanation: "Setting A = C, F = Id_C, B = 1 (one-object category), and G = const_X recovers C/X exactly. Objects of C/X are morphisms A→X in C (triples (A, *, f: A→X) with the B-component trivial), and morphisms are commutative triangles over X. This makes C/X a special case of the comma construction, not an independent concept. The coslice category X/C is the dual, recovering objects under X."
 
-- question: "The comma category (F↓G) is always a small category whenever A, B, and C are small categories."
+- question: "The comma category (F↓G) is generally a small category whenever A, B, and C are small categories."
   type: true-false
   answer: false
   explanation: "This is false. Even when A, B, and C are small, the comma category (F↓G) can be large because its objects include a morphism f: F(a)→G(b) in C for each pair (a,b), and the collection of such morphisms can be a proper class if the morphism sets in C are large. Smallness of a comma category requires additional conditions beyond the smallness of A, B, and C individually."

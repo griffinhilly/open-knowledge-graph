@@ -46,7 +46,7 @@ Adjusted R² = 1 - ((RSS/(n-k-1)) / (TSS/(n-1))) penalizes adding regressors via
   answer: 1
   explanation: "OLS finds the coefficient values that minimize RSS. When you add a new variable, OLS can always choose to set its coefficient to zero — reproducing the original model's RSS exactly. If any non-zero coefficient reduces RSS further, OLS will use it. So RSS can only stay the same or decrease, and R² = 1 − RSS/TSS can only stay the same or increase. This mechanical property means R² rewards model size regardless of whether the added variables are meaningful — the key flaw that adjusted R² corrects."
 
-- question: "Adjusted R² is always between 0 and 1, just like ordinary R²."
+- question: "Adjusted R² is typically between 0 and 1, just like ordinary R²."
   type: true-false
   answer: false
   explanation: "Adjusted R² can be negative. When the model explains almost nothing (RSS is close to TSS) and k is large, the degrees-of-freedom penalty can dominate, making the ratio RSS/(n−k−1) larger than TSS/(n−1), so adjusted R² = 1 − (that ratio) drops below zero. This is a signal that the model is essentially useless — it explains less variance per parameter than a model with just an intercept. Ordinary R² is bounded [0,1] because without the degrees-of-freedom correction, RSS ≤ TSS always."

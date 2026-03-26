@@ -50,7 +50,7 @@ Omniscient narration—in which the narrator knows all, sees into multiple chara
   answer: true
   explanation: "This is the defining feature that distinguishes omniscient from limited narration. In a first-person or limited third-person narrative, statements about inner life carry the fallibility of the observer. In omniscient narration, assertions like 'Mr. Casaubon secretly feared he had achieved nothing of lasting value' are delivered as facts, not interpretations. The reader is positioned to simply believe them. This is the authority effect — the genre contract of omniscience is that the narrator does not speculate about minds; it reports them."
 
-- question: "Because omniscient narrators know the outcome of the story from the beginning, they cannot create narrative suspense — the sense that events could go differently."
+- question: "Because omniscient narrators know the outcome of the story from the beginning, they can seldom create narrative suspense — the sense that events could go differently."
   type: true-false
   answer: false
   explanation: "Omniscience and suspense coexist in sophisticated fiction. The narrator's knowledge of the future can actually intensify dramatic irony — readers may sense doom coming while characters remain oblivious, creating painful tension. Tragedy often depends on this: watching characters make choices the reader knows are catastrophic is a different kind of suspense than not knowing what will happen. The quality that omniscience creates is fatalism — a sense of inevitability — but this is not the same as the absence of tension. It is a different register of narrative engagement."

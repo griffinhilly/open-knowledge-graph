@@ -52,7 +52,7 @@ Trace the sequence of decisions from 1945–1950: Yalta, Potsdam, the Iron Curta
   answer: 1
   explanation: "Kennan's original containment was political and economic — applying counter-pressure at strategic points to limit Soviet expansion, not military rollback or liberation. The more militarized version came later with NSC-68, which Kennan himself opposed. This distinction matters because 'containment' was not a single coherent strategy but an evolving and contested doctrine."
 
-- question: "The Cold War was fundamentally a bilateral conflict between the US and USSR; other nations played only peripheral roles."
+- question: "The Cold War was fundamentally a bilateral conflict between the US and USSR; other nations played mainly peripheral roles."
   type: true-false
   answer: false
   explanation: "Non-aligned states, colonial independence movements, and regional revolutionary struggles were central actors in Cold War dynamics, not bit players. Dozens of countries became proxy battlegrounds, and the Non-Aligned Movement gave newly independent states real leverage — often playing the superpowers against each other. Treating the Cold War as purely bilateral misses how global it actually was."

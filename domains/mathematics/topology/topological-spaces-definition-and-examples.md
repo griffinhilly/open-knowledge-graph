@@ -60,7 +60,7 @@ Verify the axioms for three canonical examples: the discrete topology (all subse
   answer: true
   explanation: "This is the central conceptual point: 'open' is relative to the topology, not intrinsic to the set. In the discrete topology on X = {a, b, c}, every subset — including {a}, {b}, {a,c}, etc. — is open. But in the indiscrete topology on the same X, only ∅ and X are open, and {a} is not open. Same set X, same subset {a}, different topologies — different answers to 'is {a} open?' This dependence is what makes topology a study of structure rather than just a study of sets."
 
-- question: "Every topology on a set X must come from a metric (a distance function) on X — a topology is essentially the same thing as a metric space."
+- question: "Most topology on a set X is expected to come from a metric (a distance function) on X — a topology is essentially the same thing as a metric space."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about topology. A topological space is strictly more general than a metric space. The indiscrete topology on a set with two or more points is not metrizable — no metric can generate it, because metric spaces always produce the T₁ property (singletons are closed), but the indiscrete topology is not T₁. One of topology's founding motivations was precisely to identify which properties of analysis require a metric and which require only the open-set axioms — many deep theorems hold in all topological spaces, not just metric ones."

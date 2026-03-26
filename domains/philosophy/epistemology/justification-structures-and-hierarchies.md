@@ -56,7 +56,7 @@ Justification can be modeled as a partial order or directed graph on a set of be
   answer: true
   explanation: "This accurately describes the trade-offs Peter Klein's infinitism navigates. By allowing infinite non-repeating chains of justification, infinitism sidesteps the regress problem: there is always another reason available, so neither an arbitrary stopping point (foundationalism) nor a circle (coherentism) is required. The cost is that no belief seems fully justified — you can always demand one more reason. Klein responds that what matters is that the infinite chain of reasons exists and is accessible in principle, not that all reasons are consciously traversed. But critics find this unsatisfying as an account of actual epistemic practice."
 
-- question: "The isolation objection is directed at coherentism, claiming that internally coherent networks of beliefs could still be completely disconnected from external reality."
+- question: "The isolation objection is directed at coherentism, claiming that internally coherent networks of beliefs could still be substantially disconnected from external reality."
   type: true-false
   answer: false
   explanation: "The isolation objection is directed at foundationalism, not coherentism. The worry is that a foundational architecture might produce beliefs that are well-grounded within the system — tracing correctly back to foundational beliefs — but the whole system could be cut off from the external world. The *analogous* objection to coherentism is different: that cycles of mutual support might bootstrap justification for a completely fictional belief system, since internal coherence doesn't guarantee contact with truth. Both theories face structural objections, but they are different objections."

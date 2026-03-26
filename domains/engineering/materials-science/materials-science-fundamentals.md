@@ -49,7 +49,7 @@ Materials science is the study of the structure, properties, processing, and per
   answer: true
   explanation: "This is Hall-Petch strengthening: smaller grain size means more grain boundaries, which impede dislocation motion and increase yield strength. Since processing (deformation, annealing temperature, aging treatments) controls grain size, the same alloy composition can be made stronger or more ductile by changing the processing route — leaving composition unchanged. This is a direct example of the processing → structure → properties chain operating at the microstructural length scale."
 
-- question: "Ceramics are generally preferred over metals in structural applications where the material must deform significantly before fracturing, because ceramics are harder and therefore tougher."
+- question: "Ceramics are generally preferred over metals in structural applications where the material should deform significantly before fracturing, because ceramics are harder and therefore tougher."
   type: true-false
   answer: false
   explanation: "Hardness and toughness are different — and often inversely related. Ceramics are extremely hard (resistant to surface indentation) but brittle: they fracture suddenly without significant plastic deformation. Toughness (energy absorbed before fracture) requires ductility — the ability to deform plastically and redistribute stress. Metals, especially ductile alloys, excel at toughness precisely because dislocations can move through metallic crystal structures. Ceramics are preferred for hardness, wear resistance, high-temperature stability, and chemical inertness — not for applications requiring tolerance for deformation before fracture."

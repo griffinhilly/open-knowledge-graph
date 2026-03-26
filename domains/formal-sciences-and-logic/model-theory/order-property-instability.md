@@ -49,7 +49,7 @@ A theory has the order property if there exists a formula φ(x,y) and sequences 
   answer: true
   explanation: "IP implies OP. If a formula φ(x, y) can encode all 2ⁿ subsets of any n-element set, it can in particular encode the linear order relation i < j (which is just one specific subset for each n). So the existence of IP guarantees the existence of a formula exhibiting OP as well. The implication runs one way: IP → OP → instability. The converse fails — a theory can have OP without IP, as DLO demonstrates."
 
-- question: "A theory with the order property must also have the independence property."
+- question: "A theory with the order property is expected to also have the independence property."
   type: true-false
   answer: false
   explanation: "OP does not imply IP. The order property only requires a formula that defines a linear ordering over index sets. The independence property requires a formula that can define *arbitrary* set membership patterns — all 2ⁿ subsets of any n-element set. These are different combinatorial capacities, and OP is the weaker one. DLO is the standard counterexample: it has OP (the formula x < y defines a linear order) but is NIP — it lacks the independence property entirely."

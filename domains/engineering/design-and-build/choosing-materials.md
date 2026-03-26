@@ -44,7 +44,7 @@ Present a design challenge (build a container to keep a plant watered for a week
   answer: 1
   explanation: "Each part of the hammer faces different demands. The head must be hard enough not to dent when hitting nails and heavy enough to deliver force. Steel meets those needs. The handle must be light (so the hammer is not too heavy), absorb shock (so your hand does not sting), and provide good grip. Wood meets those needs. Using steel for the handle would make it too heavy and painful to use. Using wood for the head would not drive nails."
 
-- question: "The strongest material is always the best choice for an engineering project."
+- question: "The strongest material is generally the best choice for an engineering project."
   type: true-false
   answer: false
   explanation: "Strength is only one property engineers consider. A bridge needs strong materials, but a rain jacket needs waterproof, flexible materials — strength is secondary. A packaging engineer needs lightweight, cushioning materials. A good engineer matches material properties to the specific needs of each design."

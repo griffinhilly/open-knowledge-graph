@@ -60,7 +60,7 @@ Study the different small-body populations and understand what their composition
   answer: true
   explanation: "In the early solar nebula, temperatures were high near the young Sun, so only refractory (high-melting-point) rocky and metallic material could condense in the inner solar system — explaining the rocky asteroids of the Main Belt. Far from the Sun, temperatures were cold enough for water ice, CO₂, CO, methane, and ammonia to freeze out. Comets — mixtures of ice and dust — formed in this cold outer region. The Kuiper Belt (30–50 AU) is the source of short-period comets; the Oort Cloud (extending to ~50,000 AU) is the reservoir for long-period comets. Their icy composition is thus a direct record of formation conditions."
 
-- question: "Asteroids are essentially uniform in composition — they are all rocky, silicate bodies similar to Earth's crust."
+- question: "Asteroids are essentially uniform in composition — they are most rocky, silicate bodies similar to Earth's crust."
   type: true-false
   answer: false
   explanation: "Asteroids span a wide compositional range reflecting different formation histories. C-type (carbonaceous) asteroids are rich in water-bearing minerals and organic compounds — primitive, unmelted bodies close to the original solar nebula composition. S-type (stony) asteroids are silicate-rich and partly differentiated. M-type (metallic) asteroids are thought to be the exposed iron-nickel cores of larger bodies that differentiated and were later shattered by collisions. This diversity is scientifically valuable: each type preserves a different chapter of early solar system history, and the metallic types provide direct evidence that asteroid-sized bodies once had molten interiors."

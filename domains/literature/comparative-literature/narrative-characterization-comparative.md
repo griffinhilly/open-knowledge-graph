@@ -58,7 +58,7 @@ That some cultures have more advanced narrative techniques. All cultures have ri
   answer: true
   explanation: "The connection between form and philosophy is one of comparative literature's central insights. Cyclical, cumulative, or associative narrative structures are not primitive versions of linear causality — they are expressions of worldviews in which repetition and variation carry meaning, time is not an arrow toward resolution, and the value of a story is not its forward momentum. The form encodes the culture's understanding of how events relate."
 
-- question: "Psychological realism — interior access to characters' minds and traceable arcs of development — is a universal feature of sophisticated storytelling, appearing in all mature literary traditions."
+- question: "Psychological realism — interior access to characters' minds and traceable arcs of development — is a universal feature of sophisticated storytelling, appearing in most mature literary traditions."
   type: true-false
   answer: false
   explanation: "Psychological realism is a historically specific invention, dominant in the European novel from roughly the 19th century onward. Murasaki Shikibu's Genji predates Flaubert by 900 years yet operates by entirely different characterization principles. West African griot narratives, Sanskrit epics, and Arabic maqama all constitute sophisticated literary traditions without deploying free indirect discourse or developmental psychology. Comparative analysis reveals these as coherent alternatives, not absences."

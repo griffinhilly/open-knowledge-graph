@@ -52,7 +52,7 @@ Robust standard errors (Huber-White or 'sandwich' estimators) produce valid stan
   answer: 2
   explanation: "The rule is to cluster at the level where the treatment assignment occurs. The program was assigned at the county level, meaning all workers in the same county got the same treatment or control condition — their error terms are likely correlated through shared local economic conditions and the common assignment. Clustering at the individual level ignores this correlation (under-clustering). Clustering at the county level accounts for within-county correlation, producing valid standard errors. Random assignment justifies the causal interpretation of the coefficient but does not eliminate within-cluster correlation in the errors."
 
-- question: "Robust (Huber-White) standard errors are always larger than the classical OLS standard errors they replace."
+- question: "Robust (Huber-White) standard errors are generally larger than the classical OLS standard errors they replace."
   type: true-false
   answer: false
   explanation: "Robust standard errors can be larger or smaller than classical OLS SEs in any given regression. On average they tend to be larger when heteroskedasticity is present (because the OLS formula was underestimating variance), but this is not guaranteed. In samples with particular variance patterns, robust SEs can be smaller. The value of robust SEs is not that they give a more conservative answer — it is that they give the correct answer under a broader set of conditions."

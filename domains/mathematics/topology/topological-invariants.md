@@ -46,7 +46,7 @@ Topological invariants are properties preserved under homeomorphisms—if two sp
   answer: 1
   explanation: "Removing a single point from ℝ leaves two disjoint open rays — the space is disconnected. Removing a single point from ℝ² leaves a punctured plane, which is still path-connected (you can route any path around the missing point). Since connectedness after point removal is a topological invariant (it depends only on the homeomorphism type), ℝ and ℝ² cannot be homeomorphic. This elegant argument requires no algebraic invariants. Note: both ℝ and ℝ² are simply connected with trivial fundamental group, so option C is actually wrong."
 
-- question: "If two topological spaces share the same fundamental group, they must be homeomorphic."
+- question: "If two topological spaces share the same fundamental group, they is expected to be homeomorphic."
   type: true-false
   answer: false
   explanation: "Invariants establish necessary conditions for homeomorphism, not sufficient ones. Two spaces can share their fundamental group — and even all their homotopy groups — while still failing to be homeomorphic. A single differing invariant rules out homeomorphism; shared invariants only tell you the spaces might be homeomorphic. Proving homeomorphism requires constructing an explicit bijective continuous map with continuous inverse."

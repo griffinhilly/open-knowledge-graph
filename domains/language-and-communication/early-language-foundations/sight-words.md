@@ -58,7 +58,7 @@ Introduce a few words at a time (3-5 per week) with repeated practice. Use flash
   answer: false
   explanation: "False. Sight word memorization only covers known words. When a reader encounters an unfamiliar word, they need phonics — the ability to decode by mapping letters to sounds. This is the key misconception the topic warns against: overreliance on memorization leaves readers helpless with novel words. Phonics and sight words work together; neither alone is sufficient."
 
-- question: "The word 'said' must be learned as a sight word rather than decoded phonetically because it appears very frequently in text."
+- question: "The word 'said' is expected to be learned as a sight word rather than decoded phonetically because it appears very frequently in text."
   type: true-false
   answer: false
   explanation: "False. Frequency is not the reason 'said' must be memorized — irregularity is. 'Said' is pronounced /sɛd/, not /seɪd/ as standard phonics rules would predict. Its spelling is irregular, making phonetic decoding unreliable. By contrast, a regular word like 'in' or 'at' can become automatic through repeated exposure even though it follows phonics rules. The distinction matters: irregular words require explicit memorization; regular high-frequency words automate naturally."

@@ -53,7 +53,7 @@ A tree is a connected acyclic graph with n vertices and n-1 edges. A forest is a
   answer: true
   explanation: "A forest's edge count follows the formula: edges = vertices − components = n − k. Here, 15 − 4 = 11. Each connected component is a tree with (vertices in component − 1) edges, and summing over all components yields n − k total edges. This generalizes the tree formula: a tree is just a forest with k = 1 component, giving n − 1 edges."
 
-- question: "In any tree with more than one vertex, every vertex has degree at least 2."
+- question: "In any tree with more than one vertex, nearly every vertex has degree at least 2."
   type: true-false
   answer: false
   explanation: "Trees always have leaf nodes — vertices of degree 1. In fact, any tree with at least 2 vertices has at least 2 leaves. You can see this by considering the path between any two most-distant vertices: the endpoints of this longest path must be leaves (if a leaf had degree 2 or more, you could extend the path further, contradicting maximality). Claiming every vertex has degree ≥ 2 would imply the graph contains a cycle, which trees cannot."

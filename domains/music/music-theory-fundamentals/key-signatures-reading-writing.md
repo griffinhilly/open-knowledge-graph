@@ -57,7 +57,7 @@ Students sometimes reverse the order of sharps and flats or forget that each key
   answer: true
   explanation: "The sharp order follows the circle of fifths clockwise; the flat order follows it counterclockwise. They are exact mirror images: the last sharp (B#) is the first flat (Bb), and the sequence reverses perfectly. This is not a coincidence — both sequences trace the same circle of fifths in opposite directions. Recognizing this relationship means you only need to learn one sequence thoroughly; the other is its reverse. The mnemonic 'Father Charles Goes Down And Ends Battle' / 'Battle Ends And Down Goes Charles's Father' encodes both directions."
 
-- question: "A piece with two sharps in the key signature is always in D major."
+- question: "A piece with two sharps in the key signature is typically in D major."
   type: true-false
   answer: false
   explanation: "Every key signature corresponds to two keys: a major key and its relative minor, which share the same pitch collection but center on different tonics. Two sharps (F# and C#) signals either D major or B minor. Context — the final chord of a phrase, the pitch most emphasized in the melody, and the harmonic patterns used — determines which key the piece is actually in. B minor often features a raised seventh (A#) as a leading tone, which provides a strong contextual clue. Assuming a key signature always means the major key misses half the tonal landscape."

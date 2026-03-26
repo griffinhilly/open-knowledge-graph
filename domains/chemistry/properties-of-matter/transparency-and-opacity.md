@@ -40,7 +40,7 @@ Give students a flashlight and a collection of materials: clear glass, frosted g
   answer: 1
   explanation: "Frosted glass is translucent. It allows some light to pass through, so the other side is not completely dark, but it scatters the light so you cannot see clear shapes. Transparent materials let you see clearly through them, and opaque materials block light completely."
 
-- question: "A thin material is always transparent."
+- question: "A thin material is typically transparent."
   type: true-false
   answer: false
   explanation: "False. Thickness does not determine transparency. Aluminum foil is extremely thin but completely opaque — no light passes through. A sheet of clear glass can be quite thick and still be perfectly transparent. The type of material matters more than the thickness."

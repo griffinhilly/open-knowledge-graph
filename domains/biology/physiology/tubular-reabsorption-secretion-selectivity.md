@@ -54,7 +54,7 @@ All filtered substances are not reabsorbed equally; glucose and amino acids are 
   answer: 2
   explanation: "Clearance of a substance exceeds GFR only when the nephron adds the substance to the filtrate beyond what was filtered — that is, by secretion. If clearance = GFR, the substance is filtered and not reabsorbed or secreted (like inulin). If clearance < GFR, the substance is net-reabsorbed. If clearance > GFR, the substance must be secreted. PAH is the classic example: at low plasma concentrations, PAH clearance approaches renal plasma flow because virtually all PAH is removed from blood in a single pass through filtration plus secretion."
 
-- question: "All useful substances that pass through the glomerular filter are eventually reabsorbed by the tubule, because the kidney's primary function is conservation."
+- question: "Most useful substances that pass through the glomerular filter are eventually reabsorbed by the tubule, because the kidney's primary function is conservation."
   type: true-false
   answer: false
   explanation: "Inulin, creatinine, and various organic acids pass through the filter but are only minimally reabsorbed or not reabsorbed at all — and PAH is actively secreted, making its clearance far exceed GFR. The kidney's function is not blanket conservation but selective handling: each substance has a characteristic profile determined by its transport proteins and their maxima. Useful substances like glucose and amino acids are fully reabsorbed under normal conditions, but the same carrier-mediated system means they can spill when concentrations are high. Waste products may be neither reabsorbed nor secreted (creatinine) or actively secreted (PAH, drugs, organic acids)."

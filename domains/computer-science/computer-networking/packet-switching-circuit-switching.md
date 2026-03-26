@@ -45,7 +45,7 @@ Packet switching divides data into small packets that are independently routed a
   answer: 1
   explanation: "This is the scenario where circuit switching's key strength — guaranteed, predictable bandwidth and latency — matters most. Packet switching introduces variable latency because packets queue behind other traffic at routers; under load, delays can spike unpredictably. For a remote surgical system where a 50ms latency spike could cause physical harm, the guarantee of a dedicated circuit with no queuing variability justifies the inefficiency of reserved (sometimes idle) bandwidth. QoS can reduce latency variability in packet networks but cannot eliminate it entirely."
 
-- question: "In a packet-switched network, if a router on the primary path between two communicating hosts fails mid-session, the entire session must be torn down and re-established from the beginning."
+- question: "In a packet-switched network, if a router on the primary path between two communicating hosts fails mid-session, the entire session is expected to be torn down and re-established from the beginning."
   type: true-false
   answer: false
   explanation: "Fault tolerance is one of packet switching's core advantages. Because packets are independently routed and the network has no per-session state (unlike circuit switching's reserved paths), surviving routers can simply reroute subsequent packets along an alternate path. The receiving end reassembles packets using sequence numbers regardless of route. The session continues with a possible brief interruption but does not need to restart. This resilience was in fact a primary design goal of the original ARPANET — the predecessor to the internet."

@@ -53,7 +53,7 @@ Turn on a screen reader on your phone or computer and try navigating a familiar 
   answer: 2
   explanation: "Automated accessibility checkers are useful but limited — they typically catch only 30-40% of real accessibility issues. They can verify that alt text is present, but not whether it is meaningful. They can check color contrast ratios but not whether the page structure makes sense when read aloud by a screen reader. Nuanced issues like confusing navigation order, unhelpful link text ('click here'), and missing form labels often require manual testing with actual assistive technology to discover."
 
-- question: "Digital accessibility only benefits people with permanent disabilities like blindness or deafness, and provides no meaningful value to other users."
+- question: "Digital accessibility primarily benefits people with permanent disabilities like blindness or deafness, and provides no meaningful value to other users."
   type: true-false
   answer: false
   explanation: "This is the most common accessibility misconception. Accessibility benefits people with temporary impairments (broken arm, eye surgery recovery), situational impairments (noisy room, bright sunlight, one hand occupied), aging-related changes, and people using small screens or slow internet. Captions help people in noisy environments. High contrast helps people outdoors. Alt text helps search engines. The estimated 1-in-4 adults with some disability is just the starting point — accessible design reaches far beyond that."

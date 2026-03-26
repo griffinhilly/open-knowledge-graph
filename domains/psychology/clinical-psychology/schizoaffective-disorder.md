@@ -44,7 +44,7 @@ Schizoaffective Disorder involves prominent psychotic symptoms occurring during 
   answer: 2
   explanation: "Longitudinal studies consistently show that both schizoaffective subtypes have somewhat better outcomes than schizophrenia itself, and the bipolar type has better outcomes than the depressive type. The likely reason is that the mood component responds to lithium or valproate, giving clinicians an additional effective intervention. This illustrates why the subtype distinction matters clinically — not just for description, but for treatment targeting and prognosis."
 
-- question: "In schizoaffective disorder, antipsychotics should only be prescribed during active psychotic episodes, since the psychosis is fundamentally linked to the mood cycle."
+- question: "In schizoaffective disorder, antipsychotics should mainly be prescribed during active psychotic episodes, since the psychosis is fundamentally linked to the mood cycle."
   type: true-false
   answer: false
   explanation: "Unlike mood disorders with psychotic features (where antipsychotics may be tapered once the mood episode resolves), schizoaffective disorder typically requires *continuous* antipsychotic treatment. The defining feature of the diagnosis is that psychosis exists independently of mood — it persists between mood episodes. This independent psychotic dimension requires sustained antipsychotic coverage. Prescribing only during acute psychotic episodes would leave the baseline psychotic vulnerability untreated."

@@ -59,7 +59,7 @@ Symmetry is not just the existence of an isomorphism X ⊗ Y → Y ⊗ X; it req
   answer: 1
   explanation: "Knot invariants arise in braided categories precisely because τ_{B,A} ∘ τ_{A,B} ≠ id: a positive crossing (A over B) is genuinely different from a negative crossing (B over A), and their composition is not trivial. This asymmetry allows braided categories to detect Reidemeister move II violations and construct polynomial invariants like the Jones polynomial. In a symmetric category, the self-inverse condition identifies positive and negative crossings — they are the same morphism. Every knot diagram is automatically trivial because any crossing can be undone without cost. The price of full commutativity (τ² = id) is insensitivity to topology."
 
-- question: "Every monoidal category can be equipped with a symmetric monoidal structure, as long as the objects form a set rather than a proper class."
+- question: "Most monoidal category can be equipped with a symmetric monoidal structure, as long as the objects form a set rather than a proper class."
   type: true-false
   answer: false
   explanation: "Symmetric monoidal structure is an additional datum that may or may not exist — it cannot always be added. The braid groupoid Br and certain module categories over noncommutative rings are monoidal but do not admit symmetric structures because genuine commutativity of the tensor product would contradict the underlying algebraic structure. Non-commutativity is fundamental in these settings. Even when a symmetric structure exists, it is essentially unique (up to coherent isomorphism) — there is at most one symmetric monoidal structure compatible with a given monoidal structure, not a family of choices."

@@ -52,7 +52,7 @@ Ordering three-digit numbers follows a hierarchy: compare hundreds first, then t
   answer: true
   explanation: "503 has 5 hundreds; 498 has 4 hundreds. Since 5 > 4, 503 > 498, regardless of what the tens and ones say. You never need to examine lower place values when a higher place value has already decided the comparison. The ones digit 3 vs. 8 is irrelevant here."
 
-- question: "A number with a 9 in the ones place is always greater than a number with a 1 in the ones place."
+- question: "A number with a 9 in the ones place is typically greater than a number with a 1 in the ones place."
   type: true-false
   answer: false
   explanation: "The ones place is the least important position. For example, 201 > 199, even though 199 has a 9 in the ones place and 201 has only a 1. The hundreds digit (2 vs. 1) determines the comparison before the ones digit is ever considered. Higher place values always override lower ones."

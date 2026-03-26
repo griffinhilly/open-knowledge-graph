@@ -45,7 +45,7 @@ An equilibrium is stable if small perturbations cause restoring forces (like a b
   answer: 2
   explanation: "Compressive loading reduces the effective bending stiffness of the column. Natural frequency is proportional to the square root of stiffness, so it decreases continuously toward zero as the load approaches the buckling load. At exactly the buckling load, d²V/dq² = 0 — stiffness vanishes, frequency reaches zero — marking the stability boundary. Buckling is a stability failure, not a material strength failure: it occurs when the potential energy well loses its local minimum, often well below the yield stress."
 
-- question: "A point where dV/dq = 0 and d²V/dq² = 0 must be a neutral equilibrium."
+- question: "A point where dV/dq = 0 and d²V/dq² = 0 is expected to be a neutral equilibrium."
   type: true-false
   answer: false
   explanation: "When d²V/dq² = 0, the second derivative test is inconclusive. You must examine higher-order derivatives to classify the equilibrium. Neutral equilibrium is one possible outcome (if the potential is genuinely flat in the neighborhood), but the point could also be stable or unstable depending on the sign of the leading higher-order even derivative."

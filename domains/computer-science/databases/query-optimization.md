@@ -59,7 +59,7 @@ Experiment with manual query rewrites and compare EXPLAIN outputs: move filters 
   answer: 1
   explanation: "For 5 tables: 5!/2 = 60 orderings. For 10 tables: 10!/2 = 1,814,400. The search space explodes factorially, making it computationally infeasible to evaluate every possible plan. Optimizers use dynamic programming (for small n) and greedy heuristics (for large n) to search this space efficiently. The insight that drives the optimization is that cheapest plans generally minimize intermediate result sizes — joining the most selective tables first keeps the data flowing through later joins as small as possible."
 
-- question: "A cost-based query optimizer always finds the globally optimal execution plan for a given query."
+- question: "A cost-based query optimizer typically finds the globally optimal execution plan for a given query."
   type: true-false
   answer: false
   explanation: "Query optimizers use approximations — dynamic programming for manageable join counts, greedy heuristics for larger ones, and statistical estimates that can be imprecise (especially for multi-column correlations). The optimizer finds the best plan it can evaluate within practical time constraints, not a guaranteed global optimum. This is explicitly acknowledged in the misconceptions section: the optimizer sacrifices optimality for tractability. In practice, the plan is usually good, but edge cases (correlated columns, unusual data distributions, very large join counts) can produce poor plans even with accurate statistics."

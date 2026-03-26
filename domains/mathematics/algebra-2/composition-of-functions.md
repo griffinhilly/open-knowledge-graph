@@ -41,7 +41,7 @@ Start by evaluating compositions at specific values: if f(x) = x^2 and g(x) = x+
   answer: 1
   explanation: "Apply g first: g(3) = 3² = 9. Then apply f to that result: f(9) = 2(9) + 1 = 19. A common error is applying f first: f(3) = 7, then g(7) = 49 — that computes g(f(3)), not f(g(3)). The order the functions are written in the notation tells you which to apply first (innermost first)."
 
-- question: "For any two functions f and g, f(g(x)) always equals g(f(x))."
+- question: "For any two functions f and g, f(g(x)) generally equals g(f(x))."
   type: true-false
   answer: false
   explanation: "Composition is not commutative in general. Using the same f(x) = 2x + 1 and g(x) = x²: f(g(x)) = 2x² + 1, but g(f(x)) = (2x+1)² = 4x² + 4x + 1 — clearly different expressions. There are special cases where they are equal (e.g., inverse functions), but this is not true in general."

@@ -50,7 +50,7 @@ The autonomic nervous system maintains homeostasis through complementary sympath
   answer: 1
   explanation: "At rest, parasympathetic (vagal) tone dominates cardiac control — the SA node is continuously slowed by acetylcholine acting on muscarinic receptors. Endurance training increases vagal tone, so athletes have a slower resting rate. Option C is partially true (less sympathetic input contributes) but the primary driver is increased parasympathetic dominance, not just sympathetic hypoactivity. This illustrates how the ANS is a continuously modulated dial, not a binary switch."
 
-- question: "The sympathetic and parasympathetic divisions use entirely different neurotransmitters at every synapse in their respective pathways."
+- question: "The sympathetic and parasympathetic divisions use mostly different neurotransmitters at most synapse in their respective pathways."
   type: true-false
   answer: false
   explanation: "Both divisions use acetylcholine at the preganglionic synapse (acting on nicotinic receptors in the ganglion). The distinction in neurotransmitter only applies postganglionic: sympathetic fibers release norepinephrine onto target organs; parasympathetic fibers release acetylcholine (acting on muscarinic receptors). Knowing this matters pharmacologically — ganglionic blockers affect both divisions, while muscarinic blockers or adrenergic blockers selectively target one division's end-organ effects."

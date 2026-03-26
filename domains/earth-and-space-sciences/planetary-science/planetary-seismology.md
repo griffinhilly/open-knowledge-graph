@@ -52,7 +52,7 @@ Seismic waves from quakes and impacts propagate through planetary interiors, ref
   answer: true
   explanation: "InSight's single broadband seismometer detected marsquakes whose seismic wave travel times and reflections revealed interior velocity boundaries, including the core-mantle boundary. The liquid state was inferred from seismic behavior (P-waves can pass through, S-waves cannot), just as Earth's liquid outer core was discovered seismically decades before any direct sampling was even conceivable. This is the power of seismology: access to interiors that are otherwise completely unreachable."
 
-- question: "Having only one seismometer on a planet makes it impossible to determine anything meaningful about planetary interior structure."
+- question: "Having primarily one seismometer on a planet makes it very difficult to determine anything meaningful about planetary interior structure."
   type: true-false
   answer: false
   explanation: "InSight operated with a single seismometer on Mars and still resolved crustal thickness, mantle seismic velocities, and core radius. Techniques such as surface wave dispersion analysis, receiver functions, and using independently located sources (like meteorite impacts) extract interior information from a single station. Fewer stations mean more uncertainty and creative analysis, but not a complete absence of information."

@@ -58,7 +58,7 @@ Build timelines alongside tense paradigms, placing events at specific points to 
   answer: false
   explanation: "They differ in aspect. 'I ate' (simple past) reports a completed event in the past with no direct link to the present. 'I have eaten' (present perfect) reports a completed action with current relevance — it implies the eating matters now (e.g., 'so I'm full'). Aspect describes the internal structure of the event: simple aspect presents the event as a neutral fact; perfect aspect frames the completed event as connected to the present moment."
 
-- question: "Using more than one tense within a single piece of writing is always an error that should be corrected."
+- question: "Using more than one tense within a single piece of writing is typically an error that should be corrected."
   type: true-false
   answer: false
   explanation: "Multiple tenses within a piece are often correct and necessary. A narrative in simple past routinely uses past perfect to signal flashbacks, and may use present tense for universal truths. The error is *unmotivated* tense shifts — changes without a clear reason — which leave readers uncertain about when events occur. Every deliberate tense shift should serve a purpose: establishing temporal sequence, marking a flashback, or expressing a general truth."

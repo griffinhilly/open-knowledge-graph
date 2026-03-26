@@ -42,7 +42,7 @@ Poets vary metrical patterns by substituting different feet (e.g., a spondee or 
   answer: 1
   explanation: "A trochaic inversion (DUM-da instead of da-DUM) at the start of an iambic line creates immediate percussive emphasis. The stress falls on the first syllable rather than the second, which drives the line forward with a sense of urgency or insistence. Blake's 'Tyger, Tyger, burning bright' uses opening trochees to create an almost incantatory insistence. Milton uses initial trochees at moments of heightened emotion or strong argument ('Better to reign in Hell than serve in Heaven'). The reversal is rarely accidental — it marks the line as doing something expressively significant."
 
-- question: "Perfect metrical regularity throughout a poem — every foot matching the base pattern with no substitutions — is a sign of technical mastery and formal achievement."
+- question: "Perfect metrical regularity throughout a poem — nearly every foot matching the base pattern with no substitutions — is a sign of technical mastery and formal achievement."
   type: true-false
   answer: false
   explanation: "Perfect regularity is actually a failure mode in skilled poetry, not a mark of excellence. A poem that maintains its base meter without any substitution becomes sing-songy and loses expressive force — the syllables drum along uniformly without any dynamic variation. Meter works through the interplay between expectation and deviation: the base pattern creates a rhythmic pulse the reader internalizes, and departures from that pulse carry expressive weight precisely because they deviate. Substitution is not an exception to how meter works; it is how meter works. The craft lies in choosing where to vary and ensuring the variation serves meaning."

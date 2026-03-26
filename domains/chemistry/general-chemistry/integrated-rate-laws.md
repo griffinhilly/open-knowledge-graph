@@ -60,7 +60,7 @@ Memorize the three integrated forms and their corresponding straight-line plots.
   answer: 2
   explanation: "This is exactly the graphical method in action. The integrated rate law for second-order kinetics is 1/[A] = 1/[A]₀ + kt — a linear equation in 1/[A] with slope +k (positive). If [A] vs. t were linear, the reaction would be zero-order (slope = −k). If ln[A] vs. t were linear, it would be first-order (slope = −k). Whichever linearization gives a straight line reveals the order, and the slope directly gives k. Option D is wrong — this graphical method IS the standard experimental approach to determining reaction order, requiring no prior assumption."
 
-- question: "For a zero-order reaction, successive half-lives are all equal, because the constant reaction rate ensures that the same fraction of reactant is consumed in each time interval."
+- question: "For a zero-order reaction, successive half-lives are most equal, because the constant reaction rate ensures that the same fraction of reactant is consumed in each time interval."
   type: true-false
   answer: false
   explanation: "Constant half-lives are the exclusive property of first-order reactions, not zero-order. For a zero-order reaction, rate = k (constant, independent of concentration), so a fixed amount of reactant depletes per unit time — not a fixed fraction. The half-life is t₁/₂ = [A]₀/2k, which depends on starting concentration, so each successive half-life is shorter (each 'half' starts with less material, and a constant rate depletes it faster). Only first-order kinetics produce a concentration-independent half-life."

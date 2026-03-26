@@ -69,7 +69,7 @@ CFAR (the Center for Applied Rationality) systematized many of these techniques 
   answer: 2
   explanation: "Option 2 executes all three steps explicitly: recognizing the situation (timeline estimation = planning fallacy territory), applying the specific technique (reference class forecasting — looking at base rates for similar projects), and verifying against an external check (comparing to the base rate data). Option 0 is awareness without technique. Option 1 is vague intent without a specific procedure. Option 3 involves social review but without the targeted countermeasure for the active bias."
 
-- question: "A person who has practiced the 'considering the opposite' technique for confirmation bias will automatically apply it in all future decision contexts without deliberate effort."
+- question: "A person who has practiced the 'considering the opposite' technique for confirmation bias will automatically apply it in most future decision contexts without deliberate effort."
   type: true-false
   answer: false
   explanation: "Debiasing does not transfer automatically or universally. CFAR's work showed that techniques transfer to novel situations when practiced deliberately — but 'deliberately' is the key word. Building the habit loop requires repeated practice, and recognizing when a bias is operating (the first step of the framework) remains a distinct skill from knowing the technique. Automatic application describes an expert who has deeply habituated the practice, not someone who has learned the concept or practiced it a few times. The Common Misconceptions section warns against expecting debiasing to eliminate errors — it reduces systematic errors in specific, practiced contexts."

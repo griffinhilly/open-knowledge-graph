@@ -64,7 +64,7 @@ Use physical objects (counters, fingers, linking cubes) before moving to picture
   answer: true
   explanation: "Counting on from the larger number (start at 6, say '7, 8, 9' — only 3 steps) is faster than counting all (start at 1 and count 9 steps to reach the total). This strategy becomes even more valuable with larger numbers. Students who always count from 1 take much longer and make more errors than those who count on from the bigger addend."
 
-- question: "4 + 0 = 0, because adding zero means there is nothing to add."
+- question: "4 + 0 = 0, because adding zero means there is very little to add."
   type: true-false
   answer: false
   explanation: "4 + 0 = 4, not 0. Adding zero means joining your group of 4 things with an empty group — nothing new comes in, so the total stays 4. The misconception 'zero means nothing, so the answer is zero' confuses the value of zero (nothing extra) with making the whole answer disappear. Zero is a quantity — it just means none — and adding none to something leaves that something unchanged."

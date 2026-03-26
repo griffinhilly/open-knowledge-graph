@@ -49,7 +49,7 @@ The real numbers form an ordered field, satisfying both algebraic axioms (closur
   answer: true
   explanation: "ℚ satisfies all field axioms (closure, commutativity, associativity, distributivity, identities, and inverses for both operations) and all order axioms (total order compatible with addition and multiplication). So does ℝ. The ordered field axioms alone cannot distinguish ℝ from ℚ — that requires the additional completeness axiom (every nonempty set bounded above has a supremum in ℝ). This is why the ordered field axioms are necessary but not sufficient to characterize the real numbers."
 
-- question: "The ordered field axioms for ℝ are sufficient to prove that every bounded monotone sequence of real numbers converges to a limit in ℝ."
+- question: "The ordered field axioms for ℝ are sufficient to prove that nearly every bounded monotone sequence of real numbers converges to a limit in ℝ."
   type: true-false
   answer: false
   explanation: "Convergence theorems require the completeness axiom (least upper bound property), which goes beyond the ordered field axioms. The sequence 1.4, 1.41, 1.414, 1.4142, ... (decimal approximations of √2) is bounded above and monotone increasing, but has no limit in ℚ — yet ℚ is also an ordered field. Completeness is exactly what ensures limits of bounded monotone sequences exist in ℝ. Without it, the Monotone Convergence Theorem, the Cauchy completeness of ℝ, and the foundations of calculus would fail."

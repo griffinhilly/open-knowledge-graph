@@ -51,7 +51,7 @@ NMDA-type glutamate receptors are voltage-dependent and require both glutamate b
   answer: true
   explanation: "This is the established molecular sequence for LTP induction. Ca²⁺ entering through NMDA receptors binds calmodulin, which activates CaMKII (calcium/calmodulin-dependent protein kinase II). CaMKII phosphorylates existing AMPA receptors, increasing their conductance, and also signals for the insertion of new AMPA receptors from intracellular stores into the postsynaptic membrane. The net result is more AMPA receptors at the synapse, producing a larger EPSP in response to the same presynaptic release — this is LTP. Blocking NMDA receptors (e.g., with AP5) prevents LTP."
 
-- question: "NMDA receptors are blocked by Mg²⁺ only at strongly depolarized membrane potentials; at resting potential they are freely permeable to Ca²⁺ whenever glutamate is bound."
+- question: "NMDA receptors are blocked by Mg²⁺ mainly at strongly depolarized membrane potentials; at resting potential they are freely permeable to Ca²⁺ whenever glutamate is bound."
   type: true-false
   answer: false
   explanation: "This is exactly backwards. At resting membrane potential (around −70 mV), Mg²⁺ sits in the pore and blocks ion flow. The block is *relieved* at depolarized potentials (above roughly −40 mV), where the positive membrane potential pushes the positively charged Mg²⁺ out of the pore. So NMDA receptors are open at depolarized potentials and blocked at rest. This counterintuitive feature — a channel that opens when the membrane is depolarized rather than closing — is what makes NMDA receptors useful as coincidence detectors."

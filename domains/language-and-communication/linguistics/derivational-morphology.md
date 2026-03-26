@@ -55,7 +55,7 @@ Take a complex derived word like "unbelievability" and peel it apart layer by la
   answer: 1
   explanation: "The hallmark of derivational morphology is creating a new lexeme — a new word that takes its own place in the mental lexicon, often with a different grammatical category. 'Happiness' is a noun; 'happy' is an adjective. Adding -ness changes the syntactic distribution, the meaning type, and opens new morphological possibilities (e.g., you can further derive 'unhappiness'). Inflectional morphology, by contrast, marks grammatical features (tense, number, case) without changing the word's basic category or lexical identity."
 
-- question: "The meaning of a derived word can always be reliably predicted by combining the meanings of its component morphemes."
+- question: "The meaning of a derived word can usually be reliably predicted by combining the meanings of its component morphemes."
   type: true-false
   answer: false
   explanation: "Lexicalization causes derived words to drift semantically from their compositional meaning. A 'department' is not a group of people who depart; a 'deadline' has nothing to do with death; 'understand' does not mean to stand under. Once a derived word is stored as a unit in the mental lexicon, its meaning can shift through use, metaphor, and cultural change. This semantic opacity is especially common in compounding but occurs in affixation too. Productive, newly coined forms tend to be more compositionally transparent; established, lexicalized forms often are not."

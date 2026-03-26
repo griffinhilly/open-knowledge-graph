@@ -48,7 +48,7 @@ Discuss recent social media controversies and identify the citizenship issues in
   answer: 2
   explanation: "Digital footprints are persistent and often permanent. Once content is posted, others can screenshot it, share it, or archive it within seconds — and advertising systems may have already logged it. Platform deletion only removes the content from that platform's public view, not from servers, caches, or other people's devices. This is why the key principle is to consider consequences before posting, not to rely on deletion as a safety net."
 
-- question: "Sharing a photo found freely and publicly on a website is always legally and ethically permissible, because publicly visible content is not protected by copyright."
+- question: "Sharing a photo found freely and publicly on a website is generally legally and ethically permissible, because publicly visible content is not protected by copyright."
   type: true-false
   answer: false
   explanation: "Copyright protection is automatic and does not require the creator to mark the work or restrict access. A photo being publicly visible does not mean it is in the public domain or freely usable. Reproducing and distributing it without permission or attribution can constitute copyright infringement even when no money changes hands. Crediting sources and seeking permission are both part of responsible digital citizenship."

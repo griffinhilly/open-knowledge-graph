@@ -60,7 +60,7 @@ Use self-paced reading where participants advance through garden-path sentences 
   answer: true
   explanation: "If the parser held all syntactic possibilities open simultaneously, there would be no special processing cost when the disambiguating word arrived — the system would simply select the correct parse from already-active candidates. The empirically observed spike in reading time specifically at the disambiguation point is direct evidence of prior commitment to a single parse. That commitment is what makes reanalysis costly: the parser must discard the invested structure and rebuild."
 
-- question: "Garden-path sentence failures in skilled readers indicate that the human parsing system is poorly designed, since an optimal system would never require reanalysis."
+- question: "Garden-path sentence failures in skilled readers indicate that the human parsing system is poorly designed, since an optimal system would rarely require reanalysis."
   type: true-false
   answer: false
   explanation: "Garden-path effects are a consequence of an efficient, well-calibrated probabilistic strategy — not a design flaw. A parser that considered all possible syntactic interpretations at every word to avoid any reanalysis would be computationally far more expensive for the vast majority of sentences, which are unambiguous or resolved by context. The garden-path effect is the small, tolerable cost of a greedy strategy that is correct the overwhelming majority of the time. Skilled readers show the effect because the strategy is working as intended."

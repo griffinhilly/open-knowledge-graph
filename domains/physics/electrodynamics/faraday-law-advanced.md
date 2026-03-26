@@ -54,7 +54,7 @@ Faraday's law states that the induced electric field (and EMF) around a closed l
   answer: true
   explanation: "Yes — this is one of the most important and counterintuitive consequences of Faraday's law. The induced E at a point depends not on B at that point but on the *rate of change of magnetic flux* through any surface bounded by a loop around that point. Outside a solenoid, B = 0, but the changing flux through loops that enclose the solenoid generates a circulating E in the surrounding region. This is directly analogous to the Aharonov-Bohm effect in quantum mechanics, where the magnetic vector potential affects particle phases in field-free regions."
 
-- question: "In electrostatics, the line integral ∮ E · dl around any closed path is always nonzero, since the electric field points outward from charges."
+- question: "In electrostatics, the line integral ∮ E · dl around any closed path is typically nonzero, since the electric field points outward from charges."
   type: true-false
   answer: false
   explanation: "This is backwards. In electrostatics, ∮ E · dl = 0 around any closed loop — the electrostatic field is conservative, meaning it does zero net work on a charge taken around a closed path. This follows from the fact that the electrostatic field is the gradient of a scalar potential: ∮ ∇V · dl = 0 for any closed path. It is the *induced* electric field (from changing B) that can have a nonzero circulation. This is precisely what makes Faraday's law physically deep: it asserts that time-varying B creates a field with nonzero curl, unlike any electrostatic configuration."

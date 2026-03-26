@@ -57,7 +57,7 @@ Shine a laser at a mirror and measure incident and reflected angles with a protr
   answer: 2
   explanation: "The law of reflection is not violated by diffuse surfaces — it holds perfectly at every microscopic facet. The scatter comes from the surface geometry: a rough surface has countless tiny facets each facing a slightly different direction. Parallel incoming rays obey the law at each facet, but because neighboring facets face different directions, the reflected rays spread in all directions. This is why you can see paper from any angle (scattered light reaches your eye) but it doesn't form an image (the reflected rays are not parallel)."
 
-- question: "The law of reflection applies only to light waves, not to sound or water waves."
+- question: "The law of reflection applies mainly to light waves, not to sound or water waves."
   type: true-false
   answer: false
   explanation: "The law of reflection follows from the general physics of wave behavior at boundaries — not from anything special about light. Water waves bounce off the edge of a tank, sound echoes off walls, and radar pulses reflect off aircraft — all obeying the same rule: angle of incidence equals angle of reflection, measured from the normal. This universality is one reason the law is considered fundamental."

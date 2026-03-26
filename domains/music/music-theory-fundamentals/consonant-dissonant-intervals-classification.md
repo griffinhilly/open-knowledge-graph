@@ -61,7 +61,7 @@ Listen carefully to pairs of consonant and dissonant intervals to internalize th
   answer: true
   explanation: "The tritone (augmented fourth or diminished fifth) divides the octave precisely in half and creates maximum tonal instability. In a dominant seventh chord, the tritone between the third and seventh is what drives the chord's resolution: the two voices move inward (diminished fifth resolving to a third) or outward (augmented fourth resolving to a sixth). Composers have used the tritone's tension and instability deliberately throughout tonal music, and 20th-century composers exploited unresolved tritones specifically for their unsettling effect — which only works because the expectation of resolution is so strong."
 
-- question: "In tonal music, larger intervals are always more dissonant than smaller intervals."
+- question: "In tonal music, larger intervals are generally more dissonant than smaller intervals."
   type: true-false
   answer: false
   explanation: "This is a common misconception: interval size and dissonance are not correlated. Major and minor thirds (smaller intervals) are imperfect consonances — restful and stable. Major and minor sixths (larger intervals) are also consonant. Meanwhile, the minor second (very small) and major seventh (large) are both dissonant. The tritone, a medium-sized interval, is the most dissonant. Consonance and dissonance reflect acoustic and functional properties of the interval, not its size. A student who relies on size as a proxy for dissonance will misclassify most intervals."

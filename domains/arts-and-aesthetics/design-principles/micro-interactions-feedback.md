@@ -52,7 +52,7 @@ Micro-interactions are brief, purposeful animations or state changes (button hov
   answer: true
   explanation: "This is explicitly the goal stated in the explainer: 'The best micro-interactions are so well-timed that users never consciously notice them — they simply feel that the interface works.' Micro-interactions are not meant to draw attention to themselves. When they work correctly, they disappear into the background of the experience, leaving only the feeling that the interface is trustworthy and responsive."
 
-- question: "Adding more micro-interactions to an interface always improves the user experience because they make the interface feel more alive and polished."
+- question: "Adding more micro-interactions to an interface generally improves the user experience because they make the interface feel more alive and polished."
   type: true-false
   answer: false
   explanation: "Micro-interactions must serve a communicative purpose — closing a specific feedback loop. Gratuitous animations slow down user flows, add visual noise, distract from content, and can make an interface feel condescending or toy-like. Each micro-interaction should answer a specific question a user might have about the system state. More is not better; purposeful is better."

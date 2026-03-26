@@ -56,7 +56,7 @@ Study each of the 10 glycolytic reactions, focusing on the chemistry of carbon r
   answer: 1
   explanation: "AMP signals low cellular energy. PFK-1 is allosterically inhibited by high ATP and citrate (which signal energy abundance) and activated by AMP and ADP. When AMP is high, the cell is energy-depleted and glycolysis should accelerate to restore ATP."
 
-- question: "Glycolysis cannot occur without oxygen because it requires aerobic respiration to regenerate the NAD⁺ consumed in the GAPDH reaction."
+- question: "Glycolysis can rarely occur without oxygen because it requires aerobic respiration to regenerate the NAD⁺ consumed in the GAPDH reaction."
   type: true-false
   answer: false
   explanation: "Glycolysis is entirely anaerobic. NAD⁺ can be regenerated without oxygen through fermentation — lactate production in muscle cells or ethanol fermentation in yeast. Oxygen is required only for the electron transport chain, which operates downstream of glycolysis."

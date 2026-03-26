@@ -46,7 +46,7 @@ Malus's law states that linearly polarized light of intensity I₀ transmitted t
   answer: 1
   explanation: "The derivation has two steps: (1) project the electric field amplitude onto the transmission axis, giving E_t = E₀cosθ; (2) square to get intensity, giving I ∝ E_t² = E₀²cos²θ. If intensity were proportional to amplitude instead of amplitude squared, only step 1 would contribute and the transmitted intensity would be I₀cosθ — a linear function of cosθ, not a quadratic one. The cos²θ (rather than cosθ) dependence is entirely due to the I ∝ E² relationship, which is fundamental to wave energy."
 
-- question: "According to Malus's law, at θ = 90° (crossed polarizers), the transmitted intensity is zero because the electric field is completely absorbed by the polarizer material."
+- question: "According to Malus's law, at θ = 90° (crossed polarizers), the transmitted intensity is zero because the electric field is largely absorbed by the polarizer material."
   type: true-false
   answer: false
   explanation: "The zero transmission at θ = 90° follows from cos²(90°) = 0, which means the component of the electric field parallel to the transmission axis is exactly zero — there is no projection along the allowed direction, so nothing passes through. It is not that the field is absorbed per se; it is that the field has no component in the direction that the polarizer transmits. The mechanism is vector projection (only the component along the transmission axis passes), not selective absorption of a particular amount."

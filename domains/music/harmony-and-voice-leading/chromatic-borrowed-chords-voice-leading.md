@@ -51,7 +51,7 @@ Borrowed chords are chords from the parallel major or minor key, introducing chr
   answer: true
   explanation: "This is the core principle of chromatic voice leading: chromatic tones resolve in the direction of their alteration. A flatted degree 'wants' to descend; a raised degree 'wants' to ascend. This mirrors the treatment of leading tones (raised 7̂ resolves up to 1̂) and chromatic passing tones. The logic is that the chromatic alteration creates a half-step tension that is released by moving in the direction the alteration points."
 
-- question: "Borrowed chords destabilize the home key because their chromatic tones cannot be resolved without leaving the tonal center."
+- question: "Borrowed chords destabilize the home key because their chromatic tones can seldom be resolved without leaving the tonal center."
   type: true-false
   answer: false
   explanation: "Modal borrowing works precisely because the chromatic tones can resolve smoothly back into the home key. The A♭ in a borrowed iv chord resolves down to G (diatonic in C major); the B in the borrowed viidim7 resolves up to C (the tonic). The listener's tonal sense of home is maintained by the root motion and by the stepwise resolution of the chromatic voice. A borrowed chord is a guest that 'leaves gracefully' — the departure is the color, and the resolution maintains coherence."

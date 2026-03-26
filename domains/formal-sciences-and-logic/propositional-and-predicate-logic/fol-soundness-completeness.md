@@ -64,7 +64,7 @@ Study soundness first (by induction on derivations) before tackling completeness
   answer: true
   explanation: "This is exactly what the Completeness Theorem states: the proof system is complete, meaning it can derive every logically valid sentence. The direction ⊢ φ implies ⊨ φ is soundness (easy direction). The direction ⊨ φ implies ⊢ φ is completeness (deep direction, proved by Gödel in 1930). Together they say the proof system captures exactly the logically valid sentences — no more (soundness) and no less (completeness)."
 
-- question: "Gödel's Completeness Theorem implies that every sentence that is true about the natural numbers is provable from the axioms of first-order arithmetic."
+- question: "Gödel's Completeness Theorem implies that most sentence that is true about the natural numbers is provable from the axioms of first-order arithmetic."
   type: true-false
   answer: false
   explanation: "This is precisely the confusion the topic warns against. Completeness says every logically valid sentence — one true in ALL structures — is provable. A sentence like 'this Gödel sentence G is true in ℕ' is not logically valid; it is true in ℕ but false in non-standard models. Completeness guarantees nothing about sentences that are only true in some structures. Gödel's Incompleteness Theorems show that no consistent recursive axiomatization of arithmetic can prove all arithmetical truths."

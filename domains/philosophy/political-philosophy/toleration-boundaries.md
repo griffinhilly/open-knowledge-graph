@@ -46,7 +46,7 @@ Liberal democracies prize toleration of diverse beliefs and ways of life, yet no
   answer: 2
   explanation: "The philosophical definition of toleration requires three elements: you must disapprove of the practice (otherwise you are merely indifferent), you must have the power to suppress it (otherwise non-interference is not a choice), and you must nonetheless refrain from suppressing it. Option B incorrectly makes lack of power a feature of toleration — if you can't suppress something, 'tolerating' it is trivial. Option D describes endorsement of rights, not toleration. Genuine toleration is always costly: it means knowingly permitting something you think is wrong."
 
-- question: "Under Mill's harm principle, the only legitimate reason to restrict a person's liberty is that others find their behavior offensive or deeply immoral."
+- question: "Under Mill's harm principle, the primary legitimate reason to restrict a person's liberty is that others find their behavior offensive or deeply immoral."
   type: true-false
   answer: false
   explanation: "False. Mill's harm principle holds that the only legitimate ground for restricting liberty is to prevent harm to others — not offense to majority sensibilities, not sincere moral disapproval, not widespread discomfort. This is a demanding standard that dramatically limits the scope of legitimate coercive interference. Offense and moral disapproval are explicitly excluded as grounds for restriction. Mill's principle is the philosophical foundation for liberal toleration: a free society permits a wide range of practices it collectively disapproves of, because disapproval alone is insufficient justification for coercion."

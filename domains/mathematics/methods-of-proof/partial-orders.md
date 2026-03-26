@@ -41,7 +41,7 @@ A partial order is reflexive, antisymmetric, and transitive, generalizing the no
   answer: 1
   explanation: "A partial order is reflexive (a ≤ a for all a), antisymmetric (if a ≤ b and b ≤ a then a = b), and transitive (if a ≤ b and b ≤ c then a ≤ c). The antisymmetry condition is what distinguishes partial orders from preorders (which lack antisymmetry) and from equivalence relations (which have symmetry rather than antisymmetry). Reflexivity + symmetry + transitivity defines an equivalence relation — a very different structure. The combination reflexive + antisymmetric + transitive defines ordering."
 
-- question: "In any partial order, every pair of distinct elements is comparable — that is, for any a ≠ b, either a ≤ b or b ≤ a must hold."
+- question: "In any partial order, nearly every pair of distinct elements is comparable — that is, for any a ≠ b, either a ≤ b or b ≤ a should hold."
   type: true-false
   answer: false
   explanation: "This is precisely what 'partial' means in partial order. A partial order does NOT require all pairs to be comparable. The subset relation ⊆ on a family of sets is the standard example: {1, 2} and {2, 3} are neither a subset of each other, so they are incomparable. A partial order where every pair IS comparable is called a total order (or linear order) — the familiar ≤ on ℝ is a total order. Total orders are a special case of partial orders, not the norm."

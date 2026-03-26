@@ -47,12 +47,12 @@ The thin lens equation 1/s_o + 1/s_i = 1/f relates object distance, image distan
   answer: 1
   explanation: "Real images (s_i > 0) form when s_o > f for a converging lens. The magnification formula m = −s_i/s_o is negative whenever s_i and s_o have the same sign, which is always the case for real images. Negative m means inverted. Option D is wrong: when s_o < f, a converging lens produces a virtual, upright image (m > 0)."
 
-- question: "A converging lens always produces a real image."
+- question: "A converging lens generally produces a real image."
   type: true-false
   answer: false
   explanation: "A converging lens produces a virtual image whenever the object is placed inside the focal length (s_o < f). In that case, 1/s_i = 1/f − 1/s_o becomes negative, giving s_i < 0 — the image is on the same side as the object and cannot be projected on a screen. This is the magnifying glass mode. 'Converging lens' describes the lens geometry, not a guarantee of image type."
 
-- question: "A positive value of magnification (m > 0) from the formula m = −s_i/s_o always means the image is larger than the object."
+- question: "A positive value of magnification (m > 0) from the formula m = −s_i/s_o generally means the image is larger than the object."
   type: true-false
   answer: false
   explanation: "The sign of m encodes orientation, not size. Positive m means the image is upright (virtual); negative m means inverted (real). The magnitude |m| encodes size ratio. A virtual image could have m = +0.5 — upright and smaller than the object. Size and orientation are two independent pieces of information packed into a single signed number."

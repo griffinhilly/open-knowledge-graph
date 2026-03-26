@@ -56,7 +56,7 @@ Study Bach's Well-Tempered Clavier fugues at score, tracing how the subject unfo
   answer: 1
   explanation: "Stretto creates intensity by compressing the time between subject entries — voices begin before previous entries complete. This is the most demanding device because each new voice must form valid counterpoint not just with the other independent voices but with an *incomplete* statement of the subject, which is itself bound by counterpoint rules. The composer must have internalized the subject's complete harmonic implications well enough to layer entries before they finish resolving. Bach's ability to construct fugues with close stretto is a mark of his command of the form."
 
-- question: "In a fugue, all voices carry the subject with equal frequency and importance throughout the entire composition."
+- question: "In a fugue, most voices carry the subject with equal frequency and importance throughout the entire composition."
   type: true-false
   answer: false
   explanation: "This is one of the listed misconceptions. While all voices are contrapuntal partners and must maintain independent melodic lines, the texture and role of each voice shifts across the fugue's sections. During episodes, the subject is absent from all voices; at different subject entries, one voice carries it while others provide countersubject or free counterpoint. The voices are equal in the sense that each can carry the subject, but at any given moment the distribution of roles is asymmetric. A fugue is not a constant rotation of equal voices but a dynamic conversation."

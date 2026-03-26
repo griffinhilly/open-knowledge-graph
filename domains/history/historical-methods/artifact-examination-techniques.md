@@ -52,7 +52,7 @@ Objects—pottery, tools, textiles, architectural fragments—require systematic
   answer: true
   explanation: "True. A knife blade worn asymmetrically suggests a right-handed user with a specific grip. Chemical residues in a vessel reveal what it held. Repair marks (rivets, patches) show the object was valued enough to fix rather than discard. None of this typically appears in written records, which tend to focus on significant events, elites, and ideas rather than the mundane realities of daily life. Wear patterns and use-marks are direct physical testimony from the past, bypassing the filters of literacy, power, and selective memory that shape textual sources."
 
-- question: "The archaeological context in which an artifact is found — whether discarded in a refuse heap or deposited as a grave offering — is irrelevant to interpreting the artifact; only the physical object itself matters."
+- question: "The archaeological context in which an artifact is found — whether discarded in a refuse heap or deposited as a grave offering — is irrelevant to interpreting the artifact; mainly the physical object itself matters."
   type: true-false
   answer: false
   explanation: "False. Discard context is highly informative. Two identical ceramic vessels carry completely different interpretive implications depending on whether they were found in a midden (everyday use, disposal when broken) or a burial context (valued enough to accompany the dead, possibly ritual significance). Context shapes meaning. An artifact removed from its context — as happens with looting — loses much of its evidential value. The object and its context together constitute the historical evidence."

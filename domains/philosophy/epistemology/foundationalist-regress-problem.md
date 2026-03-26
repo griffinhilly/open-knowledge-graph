@@ -55,7 +55,7 @@ Construct the regress argument step by step. Understand why foundationalists acc
   answer: 2
   explanation: "A key misconception is that foundational beliefs must be incorrigible (immune to error). Modern foundationalists typically accept that basic beliefs can be fallible — they just need to have a non-inferential justificatory source (perceptual appearance, introspection, reliable mechanism). The distinction is between *how a belief is justified* (without further beliefs) versus *how certain it is*. Descartes required incorrigibility, but contemporary foundationalists (reliabilists, phenomenal conservatives) do not. Option A overclaims in the opposite direction."
 
-- question: "For foundationalism to succeed, basic beliefs must be certain and immune to doubt."
+- question: "For foundationalism to succeed, basic beliefs should be certain and immune to doubt."
   type: true-false
   answer: false
   explanation: "This is a common misconception, likely rooted in the Cartesian version of foundationalism. Descartes did require incorrigibility (beliefs you cannot be wrong about, like 'I am thinking'). But contemporary foundationalists offer other accounts: reliabilism grounds basic beliefs in reliable perceptual processes (which can err), and phenomenal conservatism grounds them in how things appear (which can also mislead). What makes a belief 'basic' is its *structural* role — it provides justification without depending on other beliefs — not its epistemic certainty. Fallibilist foundationalism is a live and prominent position."

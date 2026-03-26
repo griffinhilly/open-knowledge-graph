@@ -64,7 +64,7 @@ Draw lock timelines for two concurrent transactions and determine whether their 
   answer: true
   explanation: "True. Basic 2PL allows releasing locks before commit (during the shrinking phase), which creates a risk: if T1 releases a lock and T2 reads the now-unlocked data, then T1 aborts, T2 has read data that was never committed. T2 must also abort — and if T3 read T2's data, T3 must abort too. Strict 2PL prevents this by ensuring that no transaction can read data from T1 until T1 has committed, since T1 holds its locks until then."
 
-- question: "Two-Phase Locking guarantees that deadlocks will never occur between transactions in a correctly implemented database."
+- question: "Two-Phase Locking guarantees that deadlocks will seldom occur between transactions in a correctly implemented database."
   type: true-false
   answer: false
   explanation: "False. 2PL guarantees serializability — that the concurrent execution is equivalent to some serial ordering — but says nothing about deadlocks. Deadlocks are a separate phenomenon caused by circular lock-wait dependencies, which can happen under any locking protocol. Databases handle deadlocks through separate mechanisms: deadlock detection (checking for cycles in the wait-for graph and aborting a victim) or deadlock prevention (using timestamps to impose a global ordering on lock acquisition)."

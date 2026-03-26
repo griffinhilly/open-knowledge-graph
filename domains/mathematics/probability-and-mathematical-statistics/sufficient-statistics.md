@@ -57,7 +57,7 @@ Sufficiency has profound consequences for estimation theory. The **Rao-Blackwell
   answer: 3
   explanation: "This is the direct meaning of sufficiency: once you have the sufficient statistic ΣXᵢ, the remaining individual data values (conditioned on the sum) are distributed independently of λ — they carry no further information about λ. The analogy: if you want to know how many heads a biased coin will produce, knowing the total number of heads in n flips (the sufficient statistic) tells you everything; the order of the flips adds nothing. Option C (wrong answer) is the common mistake of assuming more data always means more information — sufficiency is exactly the theorem that says a compressed summary can be lossless."
 
-- question: "A sufficient statistic must always reduce the data to a single scalar number."
+- question: "A sufficient statistic is expected to typically reduce the data to a single scalar number."
   type: true-false
   answer: false
   explanation: "Sufficient statistics can be vector-valued. For a Uniform(0, θ) distribution, the sufficient statistic is the sample maximum X_(n) — a single number. But for a Normal(μ, σ²) distribution with both parameters unknown, the sufficient statistic is the pair (X̄, S²) — a two-dimensional vector. More generally, k-parameter exponential family distributions have k-dimensional sufficient statistics. The dimensionality of the sufficient statistic reflects how many degrees of freedom the parameter has, not some general rule that compression must reach a single number."

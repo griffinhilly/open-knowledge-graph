@@ -54,7 +54,7 @@ Study the PCP (Probabilistically Checkable Proofs) theorem at an intuitive level
   answer: true
   explanation: "This is one of the foundational consequences of the PCP theorem. The theorem provides a characterization of NP where proofs can be checked by reading only a constant number of bits — this yields a gap in the MAX-3SAT instance (satisfiable vs. at most (1−ε)-satisfiable) that is NP-hard to close. Any polynomial-time approximation beyond this constant ratio would allow efficient discrimination of satisfiable from nearly-unsatisfiable instances, collapsing NP into P. This base inapproximability for MAX-3SAT propagates via gap-preserving reductions to other problems."
 
-- question: "Since every NP-hard problem is hard to solve exactly, no NP-hard optimization problem can be efficiently approximated to within any fixed constant ratio."
+- question: "Since most NP-hard problem is hard to solve exactly, no NP-hard optimization problem can be efficiently approximated to within any fixed constant ratio."
   type: true-false
   answer: false
   explanation: "This is the core misconception that hardness of approximation addresses. Many NP-hard optimization problems admit excellent approximation algorithms: Vertex Cover has a 2-approximation, various scheduling problems admit polynomial-time approximation schemes (PTAS) achieving (1+ε)-approximation for any ε > 0. NP-hardness of exact solution says nothing directly about approximability. Hardness of approximation is a *separate, additional* result showing that for specific problems, even approximation to within certain ratios is NP-hard. Some NP-hard problems are easy to approximate; others (like MAX-CLIQUE) are essentially impossible."

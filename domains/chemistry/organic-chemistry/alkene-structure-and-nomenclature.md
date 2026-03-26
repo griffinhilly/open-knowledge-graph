@@ -46,7 +46,7 @@ Practice E/Z assignment starting with disubstituted alkenes, then tetrasubstitut
   answer: 1
   explanation: "The pi bond is formed by sideways overlap of p orbitals perpendicular to the C-C axis. Rotation would twist one p orbital out of alignment with the other, breaking the overlap and effectively breaking the pi bond. The energy required (~60 kcal/mol) far exceeds available thermal energy at room temperature, so the two geometric isomers are permanently locked in their configurations and are distinct compounds with different physical properties."
 
-- question: "For a trisubstituted alkene, the cis/trans naming system works just as well as E/Z because one can always identify which groups are 'the same'."
+- question: "For a trisubstituted alkene, the cis/trans naming system works just as well as E/Z because one can usually identify which groups are 'the same'."
   type: true-false
   answer: false
   explanation: "Cis/trans nomenclature requires that each double-bond carbon bears two different substituents AND that one substituent on each carbon is the same group (to define 'same side' vs 'opposite side'). For a trisubstituted alkene — where one carbon bears two different groups and the other bears one group and one hydrogen — there is no unambiguous 'same' group to reference. The E/Z system using CIP priority rules assigns priority to any two different substituents unambiguously and always gives a definite answer."

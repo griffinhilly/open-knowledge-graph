@@ -51,7 +51,7 @@ Compare results from three differently-worded searches for the same question. Ex
   answer: 3
   explanation: "Search engines match words, not intentions. The more precisely your query names the specific thing you need, the more targeted the results. 'Rear derailleur cable tension adjustment road bike' uses the technical vocabulary of the actual topic, filtering out pages about other types of bikes and other types of repairs. The other queries describe a vague problem, not the specific solution being sought. When you don't know the technical term, do a broad search first to find it, then refine."
 
-- question: "Adding more words to a search query always produces better, more targeted results."
+- question: "Adding more words to a search query typically produces better, more targeted results."
   type: true-false
   answer: false
   explanation: "More words do not reliably improve results — specific, precise keywords outperform verbose descriptions. Writing a full sentence like 'how do I fix the clicking noise my bike makes when I pedal' introduces filler words the engine treats as signal. A query like 'bottom bracket click noise fix' is shorter but more targeted. The goal is relevant vocabulary, not length."

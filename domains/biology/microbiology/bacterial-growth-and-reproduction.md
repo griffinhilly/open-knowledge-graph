@@ -51,7 +51,7 @@ Plot actual growth data on both linear and semi-log graphs so students can see w
   answer: 2
   explanation: "Exponential growth means the population multiplies by a constant factor (doubling) in each equal time interval. On a log scale, multiplying by a constant factor corresponds to adding a constant amount to the log — so the log-transformed data plots as a straight line. The slope of that line is the growth rate constant. This is exactly why microbiologists prefer semi-log graphs for growth data: the log phase becomes a clean straight line, making the doubling time trivially readable from the slope. On a linear graph, exponential growth produces a curve so steep it is hard to analyze."
 
-- question: "During the lag phase, bacterial cells are not dividing and therefore are doing nothing metabolically significant."
+- question: "During the lag phase, bacterial cells are not dividing and therefore are doing very little metabolically significant."
   type: true-false
   answer: false
   explanation: "This is a common misconception. The lag phase is characterized by an absence of division, but not an absence of activity. Cells are actively sensing their new environment, inducing the genes and synthesizing the enzymes needed to metabolize available nutrients, building up pools of ribosomes and other cellular machinery, and repairing damage. The duration of the lag phase depends on how different the new environment is from the old one — cells moved into identical fresh medium may have almost no lag, while cells transferred to a new carbon source must synthesize entirely new enzymes before growth can begin. The lag is a preparation phase, not a dormancy phase."

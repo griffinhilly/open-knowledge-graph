@@ -51,7 +51,7 @@ Prove soundness first by structural induction on derivations. Then study the com
   answer: 1
   explanation: "Soundness goes from syntax to semantics: if you can derive φ (⊢ φ), then φ is logically valid (⊨ φ). It says the proof system never proves falsehoods. Completeness goes from semantics to syntax: if φ is logically valid (⊨ φ), then it is provable (⊢ φ). It says the proof system never misses a truth. The two directions are converses, not the same claim."
 
-- question: "A proof system for propositional logic that includes all valid natural deduction rules plus additional rules that derive some non-tautologies is guaranteed to be complete."
+- question: "A proof system for propositional logic that includes most valid natural deduction rules plus additional rules that derive some non-tautologies is very likely to be complete."
   type: true-false
   answer: false
   explanation: "Adding rules that derive non-tautologies breaks soundness — the system can now prove formulas that are not valid. A system can only be meaningfully 'complete' if it is also sound; an unsound system trivially 'proves' everything (including contradictions) and the notion of completeness loses its meaning. Completeness is only a virtue in the context of a sound system."

@@ -51,7 +51,7 @@ Look for interjections in dialogue and writing. Practice writing your own exclam
   answer: 2
   explanation: "'What an incredible performance that was!' is an exclamatory sentence — it expresses strong emotion and ends with an exclamation mark — but it contains no standalone interjection word. Options A (Oh), B (Ouch), and D (Well) all contain interjections that are set off by punctuation and stand outside the grammatical structure of the rest of the sentence."
 
-- question: "An exclamatory sentence must contain an interjection to express strong emotion."
+- question: "An exclamatory sentence is expected to contain an interjection to express strong emotion."
   type: true-false
   answer: false
   explanation: "Exclamatory sentences express strong emotion through their overall structure, content, and the exclamation mark — not through the presence of an interjection. 'The house is on fire!' is fully exclamatory with no interjection at all. Interjections and exclamatory sentences are two separate grammatical tools that can appear together or independently."

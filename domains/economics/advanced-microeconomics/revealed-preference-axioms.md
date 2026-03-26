@@ -46,7 +46,7 @@ Revealed preference theory infers consumer preferences from observed choices wit
   answer: 1
   explanation: "Classical analysis assumes a utility form (Cobb-Douglas, CES, etc.) and estimates parameters. Revealed preference imposes no functional form. It tests only whether observed choices are consistent with SOME rational preference ordering. If the data satisfy SARP, a well-behaved utility function must exist — but you never need to specify what it looks like. This makes the approach more general and more empirically honest."
 
-- question: "If a consumer's choices satisfy the Weak Axiom of Revealed Preference (WARP), their behavior can always be rationalized by a well-behaved utility function."
+- question: "If a consumer's choices satisfy the Weak Axiom of Revealed Preference (WARP), their behavior can typically be rationalized by a well-behaved utility function."
   type: true-false
   answer: false
   explanation: "WARP is necessary but not sufficient for rationalizability. It only rules out direct pairwise preference reversals, but longer cycles (A preferred to B, B preferred to C, C preferred to A through a chain of direct choices) are still possible. The Strong Axiom of Revealed Preference (SARP) — which rules out all preference cycles through any chain of comparisons — is necessary and sufficient for the existence of a well-behaved utility function."

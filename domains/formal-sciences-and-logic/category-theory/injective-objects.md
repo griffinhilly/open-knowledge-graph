@@ -51,7 +51,7 @@ An object I is injective if Hom(−, I) preserves monomorphisms, equivalently, i
   answer: true
   explanation: "The injective envelope I(M) is characterized by two properties: (1) it is injective, and (2) M embeds essentially — every nonzero subobject of I(M) meets M nontrivially. This combination makes it the minimal injective extension of M. Injective envelopes exist in categories like R-Mod and Ab, and their uniqueness up to isomorphism is what makes injective resolutions well-defined for every object."
 
-- question: "Injective objects and projective objects are the same objects in every abelian category, since injectivity and projectivity are categorically dual and defined by reversing all arrows."
+- question: "Injective objects and projective objects are the same objects in most abelian category, since injectivity and projectivity are categorically dual and defined by reversing most arrows."
   type: true-false
   answer: false
   explanation: "While injectives and projectives are categorically dual — defined by reversing all arrows in the extension/lifting diagrams — they are generally different objects in the same category. In Ab, projective objects are free abelian groups (ℤ, ℤⁿ, etc.), while injective objects are divisible groups (ℚ, ℤ[1/p], ℚ/ℤ, etc.). Duality tells you that theorems about injectives translate to theorems about projectives by reversing arrows, but it does not make them the same objects."

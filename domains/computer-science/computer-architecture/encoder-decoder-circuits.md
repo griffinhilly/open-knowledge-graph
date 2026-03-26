@@ -58,7 +58,7 @@ Design a 2-to-4 decoder and a 4-to-2 encoder from truth tables. Extend to a 3-to
   answer: true
   explanation: "True. A simple encoder is designed assuming exactly one of its 2^n input lines is active at any time. Its output lines are ORed together in ways that only produce a valid binary code for single-active-input scenarios. When two inputs are simultaneously active, their OR-combined outputs produce a code that may correspond to neither active input — it could be the code of a third, inactive input. Priority encoders solve this by using additional logic to identify and encode only the highest-priority active input."
 
-- question: "A decoder and a demultiplexer perform identical functions and can always be used interchangeably in digital circuit design."
+- question: "A decoder and a demultiplexer perform identical functions and can usually be used interchangeably in digital circuit design."
   type: true-false
   answer: false
   explanation: "False. A decoder and a demultiplexer are closely related but functionally distinct. A decoder takes an n-bit binary address and asserts the corresponding one-of-2^n output line — it translates an address into a selection. A demultiplexer routes a single data input signal to one of several output lines selected by a control address. The difference is that a DEMUX carries a data value through to the selected output, while a decoder simply asserts or deasserts selection lines. A decoder can be used as a DEMUX by treating the enable pin as the data input, but they are not interchangeable in general."

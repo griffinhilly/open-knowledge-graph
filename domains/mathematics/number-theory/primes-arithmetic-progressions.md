@@ -47,7 +47,7 @@ Dirichlet's theorem states that if gcd(a, q) = 1, the arithmetic progression a, 
   answer: true
   explanation: "Exactly right. The condition gcd(a, q) = 1 ensures the residue class a mod q is coprime to the modulus — otherwise the progression could contain at most one prime (namely a itself, if it happens to be prime). When this condition holds, Dirichlet guarantees infinitely many primes with asymptotic density 1/φ(q) among all primes."
 
-- question: "Dirichlet's theorem that arithmetic progressions contain infinitely many primes can be proved using only elementary combinatorial or algebraic arguments, without complex analysis."
+- question: "Dirichlet's theorem that arithmetic progressions contain infinitely many primes can be proved using primarily elementary combinatorial or algebraic arguments, without complex analysis."
   type: true-false
   answer: false
   explanation: "This is a common misconception. The proof unavoidably requires analytic tools — specifically, complex analysis to establish the non-vanishing of L(1, χ) for non-principal characters. Elementary proofs of Dirichlet's theorem exist for special cases (e.g., primes ≡ 1 mod 4), but the general theorem resisted elementary proof for over a century after Dirichlet. This is what makes it a landmark result in analytic number theory: an elementary-sounding statement required genuinely analytic methods to establish."

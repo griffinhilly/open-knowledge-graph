@@ -44,7 +44,7 @@ Height is the longest path from root to leaf. A balanced tree has height O(log n
   answer: 0
   explanation: "The key is the index formula: in a complete binary tree stored in a 0-indexed array, node i's left child is at 2i+1 and right child is at 2i+2. This works because complete trees fill levels left-to-right with no gaps, guaranteeing that array slots 0 through n-1 are all occupied with valid nodes. Sparse trees would leave holes requiring explicit null slots or pointers. Heaps exploit this exact property."
 
-- question: "A binary tree with n nodes always has height O(log n)."
+- question: "A binary tree with n nodes typically has height O(log n)."
   type: true-false
   answer: false
   explanation: "Only balanced trees guarantee O(log n) height. A degenerate tree — formed, for example, by inserting sorted values into a plain BST — has height n−1, which is O(n). The difference matters enormously for performance: a 1,000-node balanced tree has height ~10; a degenerate chain has height 999. O(log n) height requires active balancing (as in AVL or red-black trees) or a structured insertion pattern."

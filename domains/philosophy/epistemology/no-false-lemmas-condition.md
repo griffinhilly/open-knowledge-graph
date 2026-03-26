@@ -50,7 +50,7 @@ The no false lemmas condition, developed by Lehrer and others, proposes that kno
   answer: true
   explanation: "Gettier (1963) showed that justified true belief is not sufficient for knowledge — some JTBs are merely luckily true. The no false lemmas condition adds a fourth requirement: the justification must not essentially depend on any false intermediate proposition. It is an attempt to close the Gettier gap by requiring that the inferential route from evidence to belief be free of false steps."
 
-- question: "The no false lemmas condition successfully handles all Gettier cases, making it a complete theory of knowledge."
+- question: "The no false lemmas condition successfully handles most Gettier cases, making it a complete theory of knowledge."
   type: true-false
   answer: false
   explanation: "The condition handles Gettier cases where inference passes through a false lemma — a significant class. But it fails for non-inferential Gettier cases, such as barn facade scenarios where a perceptual belief is formed directly with no inferential chain. Because some Gettier cases involve no lemmas at all, the condition's scope is too narrow. This limitation motivates defeasibility approaches, which address a broader range of epistemic defeaters."

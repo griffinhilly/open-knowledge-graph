@@ -50,7 +50,7 @@ Selection efficacy depends on selection coefficient relative to drift. When |s| 
   answer: 2
   explanation: "This is a direct application of the efficacy threshold. In the common species (large Ne), 2Ne·|s| >> 1 for these mutations and purifying selection removes them. In the endangered species (Ne ≈ 500), the same mutations fall below the threshold — 2Ne·|s| < 1 — so drift dominates and they accumulate. The mutations aren't more common because of a higher mutation rate (options A and B) but because selection is too weak relative to drift to purge them. This mutational accumulation is a real conservation concern called genetic erosion or, in extreme cases, mutational meltdown."
 
-- question: "Natural selection is always more effective than genetic drift at determining allele frequencies, because selection is directional while drift is random."
+- question: "Natural selection is typically more effective than genetic drift at determining allele frequencies, because selection is directional while drift is random."
   type: true-false
   answer: false
   explanation: "Directionality does not guarantee dominance. Whether selection or drift governs allele frequencies depends on the ratio of |s| to 1/(2Ne). In small populations, drift can fix or eliminate alleles regardless of their fitness effects — beneficial alleles can be lost by drift and deleterious ones can fix. A strong directional signal (selection in a large-Ne population) beats random noise (drift). But a weak signal (selection in a small-Ne population) is overwhelmed by noise. 'Directional' means selection consistently pushes in one direction; it does not mean that push is strong enough to overcome drift."

@@ -53,7 +53,7 @@ Start with simple periodic signals (sine waves) to compute average power, then e
   answer: 1
   explanation: "The student's reasoning is incomplete. While it is true that power signals have infinite energy, not all signals with infinite energy are power signals. A signal like x(t) = t (linearly growing) has both infinite total energy and infinite average power — it belongs to neither class. To confirm a power signal, you must explicitly compute the average power P = lim(T→∞) (1/2T) ∫|x(t)|² dt and verify it converges to a finite, nonzero value."
 
-- question: "A signal that is bounded — meaning |x(t)| ≤ M for all t and some finite M — must have finite total energy."
+- question: "A signal that is bounded — meaning |x(t)| ≤ M for most t and some finite M — is expected to have finite total energy."
   type: true-false
   answer: false
   explanation: "This is a critical trap. A sine wave sin(2πft) is bounded (never exceeds 1), but its total energy is infinite because it persists over all time. Energy requires both bounded amplitude AND that the signal decays fast enough for the integral of |x(t)|² to converge. Boundedness controls amplitude; it says nothing about duration. A bounded signal that never decays to zero will have infinite energy and is a power signal, not an energy signal."

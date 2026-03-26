@@ -50,7 +50,7 @@ Drama operates through shared conventions—agreed-upon codes between performers
   answer: 1
   explanation: "Theatrical conventions are not universal properties of performance — they are learned, culturally situated codes that require an educated audience to function. Kabuki's stylized movements communicate emotion, character type, and narrative through a precise visual grammar that must be learned, just as a naturalistic audience learns that actors 'not seeing' them is a convention rather than a literal fact. The audience's confusion reflects the absence of the contract, not a failure of the performance or an objective difficulty in the form."
 
-- question: "The fourth wall is a natural feature of theatrical performance — it is inherent to what drama is, not a convention that audiences must learn."
+- question: "The fourth wall is a natural feature of theatrical performance — it is inherent to what drama is, not a convention that audiences should learn."
   type: true-false
   answer: false
   explanation: "The fourth wall is a deeply internalized convention of naturalistic theatre, not an innate property of performance. Ancient Greek theatre, Elizabethan drama, Brechtian theatre, and most non-Western forms do not observe it. What makes the fourth wall feel 'natural' to contemporary Western audiences is the thoroughness with which it has been reinforced by realistic television and film — but its invisibility as a convention is itself evidence of how successfully conventions can be internalized. Brecht's innovations were designed precisely to make this 'natural' convention visible as a convention."

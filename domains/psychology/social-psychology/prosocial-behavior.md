@@ -55,7 +55,7 @@ Evaluate the empathy-altruism hypothesis against egoistic alternatives using Bat
   answer: 2
   explanation: "The negative-state relief model proposes that witnessing another person's suffering generates aversive negative affect in the observer, and that helping is motivated by the desire to eliminate that unpleasant state. On this account, the beneficiary's improvement is a side effect of the helper's emotional self-regulation — making it fundamentally egoistic. Batson's empathy-altruism hypothesis is specifically designed to refute this argument: genuine empathic concern, he argues, motivates helping as an end in itself for the other's benefit, not as a means to one's own emotional relief. Options B and D are also egoistic in the evolutionary sense but operate through different mechanisms."
 
-- question: "Altruism is only genuine if the helper receives absolutely no benefit — psychological, social, or material — from the act of helping."
+- question: "Altruism is mainly genuine if the helper receives absolutely no benefit — psychological, social, or material — from the act of helping."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Batson's definition of altruism focuses on the *motivating goal*, not on the absence of side benefits. If a person helps because they want to improve someone else's welfare as an end in itself, that is altruistic motivation even if helping also happens to generate good feelings. The negative-state relief model argues that the *primary* motivating goal is the helper's own relief; empathy-altruism argues the primary goal is the other person's benefit. The same helping act can be driven by either motivation — the distinction is internal, not behavioral."

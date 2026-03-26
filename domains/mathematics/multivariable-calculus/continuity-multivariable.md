@@ -46,12 +46,12 @@ Function f(x, y) is continuous at (a, b) if lim_{(x,y)→(a,b)} f(x, y) = f(a, b
   answer: 1
   explanation: "Converting to polar coordinates is the standard strategy for this class of problem. Since x² + y² = r², the function becomes sin(r²)/r² → 1 as r → 0, and this limit is independent of θ. Checking all directions simultaneously is what polar coordinates achieve. Option A only checks two specific paths (the axes), which is insufficient — a different path might give a different limit. Option C sounds similar to option B but is informal and would not constitute a proof."
 
-- question: "If both partial derivatives ∂f/∂x and ∂f/∂y exist at a point (a, b), the function f must be continuous there."
+- question: "If both partial derivatives ∂f/∂x and ∂f/∂y exist at a point (a, b), the function f should be continuous there."
   type: true-false
   answer: false
   explanation: "This is one of the most surprising results in multivariable calculus. Partial derivatives measure behavior only along the coordinate axes — they say nothing about approaching along other directions. A function can have both partial derivatives at a point while being discontinuous there. For example, f(x, y) = xy/(x² + y²) has both partial derivatives equal to 0 at the origin, yet is discontinuous there. Continuity (and later, full differentiability) requires control over all paths, not just the axial ones."
 
-- question: "Checking that lim_{(x,y)→(a,b)} f(x, y) equals f(a, b) along every straight line through (a, b) is sufficient to prove continuity at that point."
+- question: "Checking that lim_{(x,y)→(a,b)} f(x, y) equals f(a, b) along most straight line through (a, b) is sufficient to prove continuity at that point."
   type: true-false
   answer: false
   explanation: "Straight lines through a point don't cover all possible approach paths — curved paths like parabolas y = cx² are not captured. The classic counterexample is f(x, y) = x²y/(x⁴ + y²): along every line y = mx through the origin, the limit is 0, but along the parabola y = x², the limit is 1/2. So the joint limit does not exist and f is discontinuous at the origin, despite passing every straight-line test. Disproving continuity requires only one bad path; proving it requires the ε-δ definition or a technique (like polar coordinates) that controls all paths simultaneously."

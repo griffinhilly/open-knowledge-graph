@@ -62,7 +62,7 @@ All clogs need chemical drain cleaners. (Plungers and snakes work for most clogs
   answer: 1
   explanation: "The Explainer quantifies the waste (3,000+ gallons/year) and explains the compounding problem: a worn washer wears the faucet seat further over time, eventually requiring a more expensive repair than a simple washer replacement. The fix is a $2 washer and 20 minutes of work. The misconception that a slow drip 'doesn't matter' costs real money and causes escalating damage."
 
-- question: "If all drains in a house are backing up simultaneously, a plunger is the appropriate first tool to try."
+- question: "If most drains in a house are backing up simultaneously, a plunger is the appropriate first tool to try."
   type: true-false
   answer: false
   explanation: "Multiple drains backing up simultaneously indicates a main-line blockage in the primary sewer line — not a single-fixture clog. This is beyond DIY scope and requires a plumber with professional equipment. A plunger is appropriate for an isolated single-fixture clog. Attempting to plunge multiple drains when the main line is blocked will accomplish nothing."

@@ -36,7 +36,7 @@ The dot product of two vectors u and v is the sum of products of corresponding c
   answer: 0
   explanation: "u · v = (2)(1) + (−1)(4) + (3)(0) = 2 − 4 + 0 = −2. Each pair of corresponding components is multiplied and the products are summed. The zero from the third pair contributes nothing, illustrating that components beyond the shared dimension vanish."
 
-- question: "If u · v = 0, then at least one of u or v must be the zero vector."
+- question: "If u · v = 0, then at least one of u or v should be the zero vector."
   type: true-false
   answer: false
   explanation: "Two nonzero vectors can have a zero dot product whenever they are orthogonal (perpendicular). For example, u = (1, 0) and v = (0, 1) are both nonzero but u · v = 0. Only the zero vector has a zero dot product with every other vector."

@@ -42,7 +42,7 @@ Curriculum learning trains models on examples in meaningful difficulty progressi
   answer: 2
   explanation: "The order examples appear in a dataset file is arbitrary — it reflects data collection logistics, not example difficulty. Valid difficulty measures must capture something meaningful about how learnable an example is for the model: training loss reflects current model confidence, decision boundary distance reflects classification ambiguity, and domain knowledge reflects human understanding of what constitutes a 'clear' instance. Using disk order as a curriculum would be no better than random ordering and might actually be worse if the data has systematic biases."
 
-- question: "Curriculum learning universally improves model performance compared to random example ordering and should always be used when training neural networks."
+- question: "Curriculum learning universally improves model performance compared to random example ordering and should typically be used when training neural networks."
   type: true-false
   answer: false
   explanation: "Curriculum learning is beneficial in specific settings — noisy labels, class imbalance, complex structured tasks — but it is not universally superior. In some settings, random ordering performs just as well or better, and designing a good curriculum requires careful definition of 'difficulty,' which can be task-specific and non-trivial. Anti-curriculum learning (hard-example mining), where harder examples are emphasized, also outperforms easy-to-hard ordering in certain situations, particularly when the model is already partially trained. The optimal strategy often depends on the dataset, model, and training phase."

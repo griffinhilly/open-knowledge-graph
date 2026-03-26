@@ -50,7 +50,7 @@ Leader election allows a group of processes to select one coordinator. Classic a
   answer: true
   explanation: "This is the honest tradeoff of randomization. By having each node wait a random duration before starting an election, the probability of simultaneous starts is very low but nonzero. The Raft paper explicitly acknowledges that split votes can occur and handles them by starting a new election term. This probabilistic approach is accepted in practice because split votes are rare and self-correcting — they do not produce a split brain, they just delay the election."
 
-- question: "In the Ring algorithm, the node with the highest ID always wins because it sends the most messages around the ring."
+- question: "In the Ring algorithm, the node with the highest ID generally wins because it sends the most messages around the ring."
   type: true-false
   answer: false
   explanation: "The highest-ID node wins not because of message volume but because the election message accumulates IDs as it travels the ring, and the node with the maximum ID in the completed message is declared leader. All nodes contribute one ID to the message; the winner is determined by the maximum value, not the number of messages sent. Every node contributes exactly one append operation."

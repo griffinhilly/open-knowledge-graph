@@ -51,7 +51,7 @@ Draw the transition state explicitly (trigonal bipyramidal, partial bonds to bot
   answer: 3
   explanation: "SN2 reactivity is methyl > primary > secondary >> tertiary, because the nucleophile must approach the backside of the electrophilic carbon through a trigonal bipyramidal transition state. Methyl bromide (CH₃Br) has no alkyl substituents blocking the backside, making it the most accessible. Tert-butyl bromide has three methyl groups flanking the reactive carbon, creating severe steric crowding that essentially prevents backside attack — SN2 at tertiary centers is so slow as to be negligible."
 
-- question: "In an SN2 reaction at a stereocenter, inversion of the spatial arrangement of substituents always results in a change from R to S configuration (or vice versa)."
+- question: "In an SN2 reaction at a stereocenter, inversion of the spatial arrangement of substituents generally results in a change from R to S configuration (or vice versa)."
   type: true-false
   answer: false
   explanation: "Backside attack always causes Walden inversion — the spatial arrangement of the three non-leaving substituents is flipped like an umbrella turning inside out. However, whether the R/S label changes depends on the CIP priority ranking of the incoming nucleophile relative to the other substituents. If the nucleophile has lower priority than the leaving group, the inversion of geometry coincides with an R→S or S→R change. But if the new substituent has higher priority than what it replaced, the spatial inversion can appear to leave the R/S designation unchanged, because the priority ranking that determines the label has also changed."

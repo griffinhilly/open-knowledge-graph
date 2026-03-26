@@ -57,7 +57,7 @@ Personal fable is purely maladaptive or pathological; all adolescents experience
   answer: true
   explanation: "True. The invulnerability dimension of the personal fable — 'my case is different' — is directly linked to risk-taking. If an adolescent believes their experiences are uniquely exceptional, they may discount statistical risks as applicable only to ordinary people. This has been linked empirically to unprotected sex, reckless driving, and substance use. The personal fable doesn't just make adolescents feel misunderstood; it can make danger feel irrelevant."
 
-- question: "Personal fable thinking occurs with equal intensity in all adolescents because it arises solely from the universal cognitive shift to formal operational thought."
+- question: "Personal fable thinking occurs with equal intensity in most adolescents because it arises solely from the universal cognitive shift to formal operational thought."
   type: true-false
   answer: false
   explanation: "False. While formal operational thought does provide the cognitive foundation for personal fable, the expression of personal fable thinking shows substantial individual and cultural variation. Adolescents in more collectivistic cultures tend to show weaker personal fable effects; those who have faced early adversity may have the invulnerability component undercut by direct experience of consequences. Universal cognitive development sets the stage, but context shapes the expression."

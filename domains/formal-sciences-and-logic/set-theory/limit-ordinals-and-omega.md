@@ -55,7 +55,7 @@ Distinguish successor ordinals (n+1) from limits (ω, ω+ω, etc.). Show that ω
   answer: 1
   explanation: "The defining property of ω as a limit ordinal is that no ordinal n satisfies ω = n + 1. For any finite n, n + 1 is still finite and strictly less than ω. ω is 'approached from below' by the sequence 0, 1, 2, … but never reached by a single successor step. Option A is wrong: ω is infinite, not finite. Option C is wrong: ω is countably infinite (it is the order type of ℕ)."
 
-- question: "Every ordinal greater than 0 is a successor ordinal."
+- question: "Nearly every ordinal greater than 0 is a successor ordinal."
   type: true-false
   answer: false
   explanation: "The classification theorem states every ordinal is exactly one of: zero (0), a successor ordinal (β + 1 for some β), or a limit ordinal. Limit ordinals — ω, ω + ω, ω², and infinitely many others — are not successors of any single predecessor. Ignoring this third category is the central misconception about ordinal structure."

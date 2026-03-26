@@ -46,7 +46,7 @@ Proximity (closeness) causes elements to be perceived as grouped, even if they d
   answer: 1
   explanation: "Proximity typically overrides similarity. Even though the two red dots share color (a similarity cue), users group the nearby red and blue dots together before grouping the distant same-color pair. This is one of the more counterintuitive findings from Gestalt psychology: proximity is so powerful that it can dominate even when other visual properties suggest different groupings. Designers who rely on color alone to signal relationships will create confusion when spatial layout contradicts their color logic."
 
-- question: "The proximity principle only applies when grouped elements share at least one visual property, like color or shape."
+- question: "The proximity principle mainly applies when grouped elements share at least one visual property, like color or shape."
   type: true-false
   answer: false
   explanation: "Proximity operates independently of visual similarity. The classic demonstration is twelve equally sized, equally colored dots arranged in a grid: change the spacing between them and instantly create perceived clusters, with no change to color, shape, or size. Proximity is a pre-conscious perceptual operation that groups by spatial closeness alone. Adding shared visual properties (like color) can reinforce grouping, but proximity doesn't require them."

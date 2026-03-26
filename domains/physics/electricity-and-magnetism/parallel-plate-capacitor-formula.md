@@ -47,7 +47,7 @@ A parallel plate capacitor with plate area A and separation d has capacitance C 
   answer: 1
   explanation: "Each plate acts as a sheet of charge. A positive sheet creates a field pointing away from it on both sides; a negative sheet creates a field pointing toward it on both sides. Between the plates, these fields point in the same direction and add: E_total = σ/ε₀. Outside, the fields from the positive and negative plates point in opposite directions and cancel: E_total ≈ 0. This superposition principle — not grounding, shielding, or the dielectric — is the physical explanation."
 
-- question: "Increasing the plate area of a parallel plate capacitor decreases its capacitance because the charge must spread out over a larger surface."
+- question: "Increasing the plate area of a parallel plate capacitor decreases its capacitance because the charge is expected to spread out over a larger surface."
   type: true-false
   answer: false
   explanation: "Larger plate area *increases* capacitance: C = ε₀A/d has A in the numerator. More area means the same total charge can be stored at a lower surface charge density σ = Q/A, which means a weaker electric field, which means less voltage per unit of stored charge — i.e., more charge per volt, which is higher capacitance. The misconception confuses charge density (which falls with area) with total charge storage ability (which rises)."

@@ -56,7 +56,7 @@ Do causal relations presuppose temporal order, or is temporal order derivative o
   answer: true
   explanation: "Backward causation means an effect temporally precedes its cause. If such cases are possible, then we have causes that are later than their effects in time — which means causal order and temporal order come apart. This undermines any simple identification of 'A causes B' with 'A is earlier than B,' since backward causation is precisely a counterexample to that identification. The possibility of backward causation shows the two concepts are logically distinct even if they typically align."
 
-- question: "The fundamental laws of classical mechanics and quantum mechanics are time-asymmetric — they describe processes that can unfold only in the forward temporal direction."
+- question: "The fundamental laws of classical mechanics and quantum mechanics are time-asymmetric — they describe processes that can unfold mainly in the forward temporal direction."
   type: true-false
   answer: false
   explanation: "This is false, and it is central to the puzzle of causal-temporal order. Newton's laws, electrodynamics, and the Schrödinger equation are all time-symmetric: reversing the time variable (and, in quantum mechanics, taking the complex conjugate) yields equally valid solutions running backward. The apparent asymmetry of the world — causes preceding effects, entropy increasing — is not a direct consequence of the fundamental laws themselves. It requires additional statistical or initial-condition explanations (such as the entropic arrow of time) that are not built into the equations."

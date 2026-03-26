@@ -62,7 +62,7 @@ Flume experiments or stream table simulations where flow velocity is varied to s
   answer: true
   explanation: "Sorting in geology refers to the uniformity of grain sizes in a deposit — well-sorted means most grains are roughly the same size; poorly sorted means a wide range of sizes mixed together. It has nothing to do with arrangement or organization by human hands. Sorting is a direct record of transport energy: steady, uniform flows (beaches, dunes) sort grains effectively because only particles of a specific size range can be transported at that energy level. Variable or catastrophic flows (floods, glaciers) deposit unsorted material because the energy conditions change too rapidly for selective deposition to occur."
 
-- question: "Deposition of sediment is always a slow, gradual process that occurs over years to centuries — catastrophic rapid deposition does not produce recognizable sedimentary structures."
+- question: "Deposition of sediment is generally a slow, gradual process that occurs over years to centuries — catastrophic rapid deposition does not produce recognizable sedimentary structures."
   type: true-false
   answer: false
   explanation: "Turbidity currents are underwater avalanches of sediment-laden water that flow down continental slopes at speeds up to 100 km/h, depositing entire graded beds (coarse-to-fine upward) in a matter of hours. Each bed records a single catastrophic event. The 1929 Grand Banks earthquake triggered a turbidity current that deposited graded beds over a vast area of the Atlantic seafloor in hours, snapping submarine telegraph cables in sequence. Recognizing the difference between gradual and catastrophic deposition is essential for interpreting the geological record correctly."

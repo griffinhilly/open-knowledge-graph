@@ -64,7 +64,7 @@ Design a complete schema for a real-world application (e.g., an e-commerce site)
   answer: true
   explanation: "Normalization and query performance are in tension. In practice, experienced schema designers normalize first and then selectively denormalize hot paths — for example, storing a user's display name directly on the orders table to avoid a join on every order listing. The discipline is to document every denormalization decision and accept its maintenance cost: when the source data changes, it must be updated in multiple places."
 
-- question: "Because schemas can always be altered later with ALTER TABLE, it is safe to defer schema design decisions until after the application reaches production."
+- question: "Because schemas can usually be altered later with ALTER TABLE, it is safe to defer schema design decisions until after the application reaches production."
   type: true-false
   answer: false
   explanation: "Schema changes on tables with millions of rows are expensive, slow, and risky in ways that application code refactoring is not. Adding a NOT NULL column requires backfilling every existing row; changing a data type may require rewriting indexes and running migrations during a maintenance window. Schema design deserves more upfront investment than almost any other software design decision — it is the hardest thing to change after the fact."

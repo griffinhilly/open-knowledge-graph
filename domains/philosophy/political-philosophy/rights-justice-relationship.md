@@ -60,7 +60,7 @@ Rights protect individuals against violations; justice concerns proper distribut
   answer: true
   explanation: "Nozick's entitlement theory holds that a distribution is just if it arises from a just starting point through voluntary transactions. The degree of inequality is irrelevant to justice; what matters is the historical process. This is what he means by calling rights 'side constraints' — they are not items on a utilitarian balance sheet to be weighed against equality, but absolute limits. A perfectly unequal outcome can be perfectly just on this view."
 
-- question: "Rights-foundationalism and justice-foundationalism agree that redistribution can be required by justice; they only disagree about how much redistribution is appropriate."
+- question: "Rights-foundationalism and justice-foundationalism agree that redistribution can be required by justice; they primarily disagree about how much redistribution is appropriate."
   type: true-false
   answer: false
   explanation: "This is a fundamental disagreement about priority, not degree. For Nozick, forced redistribution is a rights violation regardless of how much equality it produces — rights function as side constraints that cannot be overridden even for good outcomes. For Rawls, property rights are not pre-political constraints on justice; they derive from just principles and may require substantial redistribution. The dispute is about whether rights constrain justice or derive from it — not about where to set a shared dial."

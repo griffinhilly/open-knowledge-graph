@@ -33,7 +33,7 @@ A Markov chain {Xₙ} satisfies the Markov property: P(Xₙ₊₁ ∈ A | Xₙ =
   answer: 1
   explanation: "This is exactly the Markov property: P(Xₙ₊₁ ∈ A | X₀, ..., Xₙ) = P(Xₙ₊₁ ∈ A | Xₙ). The future distribution depends only on the present state, not the path taken to get there. This memoryless structure is what makes Markov chains analytically tractable."
 
-- question: "A time-homogeneous Markov chain must have the same transition probabilities at every time step — this is part of the basic definition of a Markov chain."
+- question: "A time-homogeneous Markov chain is expected to have the same transition probabilities at most time step — this is part of the basic definition of a Markov chain."
   type: true-false
   answer: false
   explanation: "Time-homogeneity is an additional assumption, not part of the bare definition. A Markov chain is defined solely by the Markov property (independence of the future from the past given the present). Non-homogeneous chains, where P(Xₙ₊₁ ∈ A | Xₙ = x) may vary with n, satisfy the Markov property but not time-homogeneity. Most classical theorems (stationary distributions, ergodicity) add time-homogeneity as a separate assumption."

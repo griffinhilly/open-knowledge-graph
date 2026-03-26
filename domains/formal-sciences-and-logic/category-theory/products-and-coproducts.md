@@ -52,7 +52,7 @@ Prove that the Cartesian product of sets satisfies the universal property of the
   answer: 1
   explanation: "The coproduct in Set is the disjoint union A ⊔ B. It is equipped with injections i₁: A → A ⊔ B and i₂: B → A ⊔ B, and for any set C with functions f: A → C and g: B → C there is a unique function [f,g]: A ⊔ B → C satisfying [f,g]∘i₁ = f and [f,g]∘i₂ = g. The Cartesian product A × B is the categorical product, not the coproduct — a common confusion."
 
-- question: "In every category, the product A × B and the coproduct A + B of two objects are isomorphic to each other."
+- question: "In most category, the product A × B and the coproduct A + B of two objects are isomorphic to each other."
   type: true-false
   answer: false
   explanation: "This is only true in special categories. In Ab (abelian groups), finite products and coproducts coincide as the direct sum A ⊕ B — this is a special property of abelian categories called a 'biproduct.' But in Set, A × B (Cartesian product) and A ⊔ B (disjoint union) have different cardinalities and are generally non-isomorphic. In Grp, the product is the direct product while the coproduct is the free product — very different structures."

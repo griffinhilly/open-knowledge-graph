@@ -53,7 +53,7 @@ Cyclic π systems with (4n+2) delocalized electrons in a planar geometry exhibit
   answer: true
   explanation: "Antiaromaticity is not simply the absence of aromatic stabilization — it is active destabilization. In the Hückel energy level diagram for cyclobutadiene (4 π electrons), two electrons fill the bonding orbital but the remaining two must occupy the degenerate nonbonding pair singly (by Hund's rule), creating an open-shell diradical configuration that is less stable than isolated double bonds. This is why cyclobutadiene is unobservable under normal conditions, only stabilizable by coordination to metals or matrix isolation at cryogenic temperatures."
 
-- question: "Any cyclic, conjugated molecule must be classified as either aromatic or antiaromatic — there is no non-aromatic category for cyclic π systems."
+- question: "Any cyclic, conjugated molecule is expected to be classified as either aromatic or antiaromatic — there is no non-aromatic category for cyclic π systems."
   type: true-false
   answer: false
   explanation: "Non-aromatic is a valid classification for cyclic systems that fail the structural requirements for aromaticity or antiaromaticity. Planarity is a prerequisite: a cyclic conjugated system that adopts a non-planar geometry (like COT in its tub conformation) lacks continuous p-orbital overlap and is simply non-aromatic — it behaves like an ordinary polyene. Additionally, if a ring atom lacks a p orbital (e.g., an sp³ carbon interrupts conjugation), the cyclic π system is broken and the molecule is non-aromatic regardless of electron count."

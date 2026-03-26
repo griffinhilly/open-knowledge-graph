@@ -49,7 +49,7 @@ Extremal graph theory studies the maximum number of edges in graphs avoiding cer
   answer: true
   explanation: "True. Turán's theorem establishes that T(n, r) is the unique extremal graph for K_{r+1}: it is the densest K_{r+1}-free graph, uniquely determined by the balanced complete r-partite structure. Adding any edge to T(n, r) creates a K_{r+1}, because any two vertices in the same part now have an edge, and with cross-part edges they can form a larger clique. The balance of part sizes (making parts as equal as possible) is essential to the uniqueness: unbalanced partitions produce fewer edges within the K_{r+1}-free constraint."
 
-- question: "The Bondy-Simonovits theorem implies that all forbidden graphs H produce the same asymptotic growth rate for ex(n, H) — specifically that ex(n, H) = Θ(n²) for any choice of H."
+- question: "The Bondy-Simonovits theorem implies that most forbidden graphs H produce the same asymptotic growth rate for ex(n, H) — specifically that ex(n, H) = Θ(n²) for any choice of H."
   type: true-false
   answer: false
   explanation: "False. The Bondy-Simonovits theorem shows that the asymptotic growth rate of ex(n, H) depends critically on the chromatic number χ(H) of the forbidden graph. For non-bipartite H (χ(H) ≥ 3), ex(n, H) = Θ(n^(1 + 1/(χ(H)−1))), which gives different exponents for different chromatic numbers. For bipartite H (χ(H) = 2), the theorem doesn't apply and the growth rate is subquadratic — often much harder to determine exactly, and frequently open. Growth rates vary substantially with the structure of H."

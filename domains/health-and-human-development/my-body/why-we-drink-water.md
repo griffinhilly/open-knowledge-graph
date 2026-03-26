@@ -40,7 +40,7 @@ Children sometimes think juice and soda count the same as water. Others think yo
   answer: 2
   explanation: "More than half of your body is water — about 60 percent. Water is in your blood, your muscles, your brain, and even your bones. It is not sloshing around loose; it is part of how everything in your body works."
 
-- question: "You only need to drink water when you feel thirsty."
+- question: "You mainly need to drink water when you feel thirsty."
   type: true-false
   answer: false
   explanation: "By the time you feel thirsty, your body has already been needing water for a while. Thirst is your body's way of saying it has been waiting too long. It is better to drink water throughout the day, especially when it is hot or when you are playing hard, so your body always has enough."

@@ -53,7 +53,7 @@ Solve problems with multiple work terms: a gas expanding against external pressu
   answer: 1
   explanation: "Both conventions are self-consistent and give the same ΔU — they just define đW with opposite signs. Physics convention: đW = +100 J (the gas does work), so ΔU = Q − 100. Engineering convention: đW = −100 J (work *on* system during expansion is negative, since the system is doing the pushing), so ΔU = Q + (−100) = Q − 100. Identical result. The danger is mixing conventions: never use the physics đW formula with the engineering sign for đW, or vice versa."
 
-- question: "Surface tension work (γdA) is negligible in all physical systems and can safely be ignored when applying the first law."
+- question: "Surface tension work (γdA) is negligible in most physical systems and can safely be ignored when applying the first law."
   type: true-false
   answer: false
   explanation: "Surface tension work is negligible at macroscopic scales where PdV dominates, but it is significant at small scales — for example, in living cells where membrane surface tension affects thermodynamics, in soap films, and in microfluidic systems. The general rule is that which work terms matter depends on the system and scale. Assuming PdV is always dominant ignores important physics at small scales and in specialized systems."

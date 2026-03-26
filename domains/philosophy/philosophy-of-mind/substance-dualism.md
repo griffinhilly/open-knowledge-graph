@@ -58,7 +58,7 @@ Read Descartes' Meditations II and VI alongside Princess Elisabeth's corresponde
   answer: 1
   explanation: "Both occasionalism and pre-established harmony were designed to handle the interaction problem — the incoherence of direct mind-body causation under substance dualism. Their shared solution strategy is to deny that mind and body actually interact, replacing interaction with coordination: occasionalism says God intervenes at every moment to produce correlated effects; pre-established harmony says God designed mind and body to run in parallel like synchronized clocks. Both preserve dualism at the cost of introducing divine intervention for every mental event."
 
-- question: "Substance dualism holds that mental properties like pain and thought cannot be fully explained by physical descriptions — this irreducibility of mental properties is what distinguishes it from physicalism."
+- question: "Substance dualism holds that mental properties like pain and thought can rarely be fully explained by physical descriptions — this irreducibility of mental properties is what distinguishes it from physicalism."
   type: true-false
   answer: false
   explanation: "This describes property dualism, not substance dualism. Property dualism holds that there is one substance (physical matter) but two irreducible kinds of properties — physical and phenomenal. Substance dualism makes a stronger claim: mind and body are not just different aspects of one thing but two entirely distinct substances (res cogitans and res extensa) with no properties in common. This is a common and important conflation to avoid: substance dualism is a more radical metaphysical claim than the mere irreducibility of mental descriptions."

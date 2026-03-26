@@ -60,7 +60,7 @@ Use base-10 blocks, bundled sticks, or ten-frames to show how numbers are compos
   answer: true
   explanation: "In 35, the 3 is in the tens place, representing 30. In 13, the 3 is in the ones place, representing only 3. The same digit is worth ten times more in the tens column than in the ones column. This is the core principle of place value: position determines value."
 
-- question: "To find the value of a digit in a number, you only need to know what the digit is — not where it appears."
+- question: "To find the value of a digit in a number, you mainly need to know what the digit is — not where it appears."
   type: true-false
   answer: false
   explanation: "This is precisely the misconception place value corrects. The digit '4' means four ones if it's in the ones place, but forty (4 tens) if it's in the tens place. You cannot know what a digit contributes to a number without knowing its position. That's why the system is called 'place value.'"

@@ -54,7 +54,7 @@ Proper names pose a distinctive problem for semantic theory: they seem to contri
   answer: false
   explanation: "The causal-historical account explicitly replaces descriptive knowledge with causal chain membership. You refer to Aristotle because you stand in the right causal chain of name transmission — you learned the name from teachers and books, who got it from others, reaching back to an original naming event. You do not need to know any true descriptions of Aristotle. In fact, you might hold entirely false beliefs about him and still successfully refer to him, as long as your use of the name is connected to that causal chain."
 
-- question: "The descriptivist account explains why we can say 'Aristotle might never have studied philosophy' without changing who the name refers to in that sentence."
+- question: "The descriptivist account explains why we can say 'Aristotle might seldom have studied philosophy' without changing who the name refers to in that sentence."
   type: true-false
   answer: false
   explanation: "This is precisely where descriptivism fails. If 'Aristotle' is a disguised description like 'the student of Plato who taught Alexander,' then in a world where Aristotle never studied philosophy, the description picks out someone else — not the same individual. But our intuition is that the sentence is coherently about the very person who actually existed, describing a path his life didn't take. Kripke's rigidity thesis explains this intuition: the name refers to the same individual in all possible worlds, regardless of which descriptions he satisfies."

@@ -71,7 +71,7 @@ Study each equation as a previously derived result (Gauss, Faraday, Ampère), th
   answer: true
   explanation: "Despite the name 'current,' the displacement current involves no motion of electric charges. It represents a changing electric flux — the rate at which the electric field strength is changing through a surface. Maxwell called it a 'current' because it plays the same mathematical role in Ampère's law as real current does, and because it has units of amperes. But physically, it is a field quantity, not a flow of charge. This is why displacement current exists in a vacuum between capacitor plates where no charges are present."
 
-- question: "Maxwell discovered all four of the equations that bear his name."
+- question: "Maxwell discovered most four of the equations that bear his name."
   type: true-false
   answer: false
   explanation: "This is a common misconception the topic explicitly addresses. Gauss's law for E was developed by Gauss; Gauss's law for B (no magnetic monopoles) was known before Maxwell; Faraday's law was Faraday's discovery; and the original Ampère's law was Ampère's. Maxwell's contribution was recognizing that Ampère's law was inconsistent for time-varying fields, adding the displacement current term to correct it, and synthesizing all four equations into a unified system — which revealed that light is an electromagnetic wave."

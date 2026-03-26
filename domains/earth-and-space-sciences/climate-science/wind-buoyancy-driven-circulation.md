@@ -50,7 +50,7 @@ Wind-driven circulation is forced by surface wind stress and produces large-scal
   answer: 1
   explanation: "Deep water formation in the North Atlantic requires surface water to become dense enough to sink. Density depends on both temperature and salinity: cold, salty water sinks; cold, fresh water does not sink as readily. A large influx of freshwater from melting ice reduces the surface salinity (and thus density) of North Atlantic water, inhibiting or even stopping the sinking that drives the AMOC. This is one of the major concerns in climate projections — paleoclimate records show that past freshwater pulses (e.g., from glacial lake drainage) caused rapid AMOC slowdowns and abrupt regional climate shifts."
 
-- question: "Wind-driven ocean circulation and buoyancy-driven (thermohaline) circulation operate completely independently, with no physical mechanism linking them."
+- question: "Wind-driven ocean circulation and buoyancy-driven (thermohaline) circulation operate mostly independently, with no physical mechanism linking them."
   type: true-false
   answer: false
   explanation: "The two systems are intimately coupled. Most critically, wind-driven upwelling in the Southern Ocean is essential to close the thermohaline circulation loop. Deep water formed in the North Atlantic spreads southward, but it must eventually return to the surface — and the primary mechanism for this is wind-driven Ekman divergence and upwelling around Antarctica. Without Southern Ocean winds, the thermohaline overturning would be far weaker. Conversely, the thermohaline circulation modifies the temperature and salinity structure that wind-driven currents operate within."

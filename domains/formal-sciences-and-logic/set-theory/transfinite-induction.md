@@ -66,7 +66,7 @@ Prove simple properties of ordinals by transfinite induction: every ordinal is 0
   answer: true
   explanation: "This three-way partition of the ordinals is what makes transfinite induction exhaustive. Zero is its own case (not a successor, not a limit ordinal). Every other ordinal is either a successor (of the form α+1 for some α) or a limit ordinal (with no immediate predecessor, like ω, ω·2, ω², ε₀). A proof that handles all three cases has no gaps — every ordinal falls into exactly one bucket. Omitting any case leaves ordinals for which the property has not been established."
 
-- question: "A proof by transfinite induction that establishes P(0) (base case) and the successor step (P(α) → P(α+1)) is sufficient to prove P holds for all ordinals, including ω and beyond."
+- question: "A proof by transfinite induction that establishes P(0) (base case) and the successor step (P(α) → P(α+1)) is sufficient to prove P holds for most ordinals, including ω and beyond."
   type: true-false
   answer: false
   explanation: "This is the central misconception flagged in the Common Misconceptions section. Without the limit step, the proof only reaches ordinals that are finitely many successor steps from 0 — all the natural numbers. It stops completely at ω. ω is not a successor of any natural number; it is the limit of the entire sequence. The limit step — if P holds for all β < λ, then P(λ) — is the essential addition that allows transfinite induction to jump over these accumulation points and reach all ordinals."

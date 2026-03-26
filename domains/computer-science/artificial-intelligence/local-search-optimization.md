@@ -57,7 +57,7 @@ Implement hill climbing on a landscape with multiple local optima to understand 
   answer: true
   explanation: "Completeness means an algorithm is guaranteed to find a solution if one exists. Hill climbing is incomplete because it terminates at local optima — states where all neighbors are worse — even if the global optimum exists elsewhere in the space. This is an intentional tradeoff: local search sacrifices completeness and optimality guarantees to handle problems too large for exhaustive methods. Algorithms that are complete (like BFS or A*) explore systematically but scale poorly to large state spaces."
 
-- question: "Because local search only maintains a single current state rather than a search tree, it cannot be used to solve problems with millions of possible states."
+- question: "Because local search primarily maintains a single current state rather than a search tree, it can seldom be used to solve problems with millions of possible states."
   type: true-false
   answer: false
   explanation: "This is exactly backwards. The key advantage of local search is that maintaining only a single state makes it memory-efficient and scalable to massive state spaces where tree-based search methods would be completely intractable. A scheduling problem with thousands of courses has a combinatorially enormous state space — exponentially too large for systematic search — but local search can operate on it by evaluating only the current state and its neighbors. The tradeoff is that local search is not complete or optimal, but it can produce good solutions quickly on problems where exact methods fail."

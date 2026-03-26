@@ -50,7 +50,7 @@ All conflicts are errors (some can be safely suppressed with precedence rules). 
   answer: 1
   explanation: "Precedence and associativity declarations are designed for operator-precedence ambiguities (arithmetic expressions, dangling-else). A reduce-reduce conflict typically means two competing production rules overlap, which is a structural grammar problem — not an operator-precedence problem. Suppressing it with '%left' makes the conflict disappear from the report but doesn't fix the underlying ambiguity; the parser simply picks one rule silently, which may produce incorrect parse trees for some inputs. Unlike shift-reduce conflicts (which often have natural resolutions), reduce-reduce conflicts almost always indicate genuine grammar design problems."
 
-- question: "Any conflict in an LALR grammar is evidence of a design error and must be eliminated by rewriting the grammar."
+- question: "Any conflict in an LALR grammar is evidence of a design error and should be eliminated by rewriting the grammar."
   type: true-false
   answer: false
   explanation: "This is false. Some conflicts — particularly the dangling-else shift-reduce conflict — have natural, semantically correct resolutions using precedence and associativity declarations. Operator precedence conflicts (e.g., 'a + b * c') are also routinely resolved via '%left' and '%right' rather than grammar rewrites. The key is understanding which conflicts have clear intended semantics that precedence declarations can safely encode, versus which conflicts signal genuine ambiguity requiring grammar restructuring."

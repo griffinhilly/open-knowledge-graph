@@ -56,7 +56,7 @@ Type Ia supernovae are thermonuclear explosions of white dwarfs in binary system
   answer: true
   explanation: "This is one of the defining features that distinguishes Type Ia from core-collapse (Type II) supernovae. In a core-collapse, the iron core implodes into a neutron star or black hole while the outer layers are blown off. In a Type Ia, the thermonuclear runaway releases enough energy (~10⁴⁴ J) to completely unbind the white dwarf — every layer is expelled, leaving only an expanding shell of radioactive debris (predominantly nickel-56, which decays to cobalt-56 and then iron-56). There is no compact remnant."
 
-- question: "All Type Ia supernovae have identical peak luminosities and can be used directly as standard candles without any calibration corrections."
+- question: "Most Type Ia supernovae have identical peak luminosities and can be used directly as standard candles without any calibration corrections."
   type: true-false
   answer: false
   explanation: "Type Ia supernovae are 'standardizable candles,' not 'standard candles.' Their intrinsic peak luminosities vary by roughly a factor of 10-15 from dimmest to brightest. The Phillips relation corrects for this variation: brighter events decline more slowly (broader light curves), and dimmer events fade faster. After applying this width-luminosity correction, the scatter in peak luminosity is reduced to about 5-7%, making them precise distance indicators. The raw, uncorrected brightness would be far too scattered for cosmological measurements."

@@ -54,7 +54,7 @@ Review the derivation from completing the square so students understand where it
   answer: 1
   explanation: "When D = 0, the ± in the formula adds and subtracts zero, collapsing to a single value: x = −b/(2a) = 6/6 = 1. Geometrically, the vertex of the parabola sits exactly on the x-axis — it touches but does not cross. This is called a repeated (or double) root. Students sometimes confuse D = 0 with no solution, but one solution is not the same as no solution."
 
-- question: "The quadratic formula must be memorized as an independent rule because it cannot be derived from techniques already learned in algebra."
+- question: "The quadratic formula is expected to be memorized as an independent rule because it can seldom be derived from techniques already learned in algebra."
   type: true-false
   answer: false
   explanation: "The quadratic formula is the direct result of completing the square on the general form ax² + bx + c = 0. Every step is the same completing-the-square procedure applied symbolically. Knowing the derivation means you understand where the formula comes from, can re-derive it if needed, and are less likely to misremember it. It is not a separate fact — it is a packaged version of something you already know how to do."

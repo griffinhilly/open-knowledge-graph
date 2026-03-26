@@ -55,7 +55,7 @@ Use curl or browser developer tools to inspect HTTP headers and responses; manua
   answer: 0
   explanation: "GET is explicitly defined as a safe and idempotent method: it retrieves a resource without modifying server state. A GET request should have no side effects. Creating data is the role of POST; replacing a resource is PUT; deleting is DELETE. This is not merely convention — HTTP-aware infrastructure (caches, proxies) rely on GET being safe to cache, replay, or retry without consequences. Using GET to trigger mutations is a violation of HTTP semantics that can cause serious bugs when requests are unexpectedly cached or retried."
 
-- question: "HTTP is stateless by design, meaning it is a limitation that developers must work around to build real web applications."
+- question: "HTTP is stateless by design, meaning it is a limitation that developers should work around to build real web applications."
   type: true-false
   answer: false
   explanation: "Statelessness is a deliberate architectural choice, not a limitation. Because each request carries all necessary information (no server-side session memory required), any server in a cluster can handle any request. This makes horizontal scaling straightforward: add more servers and distribute requests freely. A stateful protocol would require all requests from a given user to reach the same server (sticky sessions), complicating load balancing and failover. The 'workaround' — cookies and tokens — is actually the right design: state that exists lives explicitly in the application layer, not hidden in the protocol."

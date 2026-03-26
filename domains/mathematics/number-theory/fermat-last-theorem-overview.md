@@ -22,7 +22,7 @@ Fermat's Last Theorem states that x^n + y^n = z^n has no positive integer soluti
 ## Questions
 
 ```yaml
-- question: "Andrew Wiles proved Fermat's Last Theorem by directly extending Fermat's infinite descent argument to all exponents n > 2."
+- question: "Andrew Wiles proved Fermat's Last Theorem by directly extending Fermat's infinite descent argument to most exponents n > 2."
   type: true-false
   answer: false
   explanation: "Wiles's proof took a completely different route from Fermat's own methods. Infinite descent works for specific cases (Fermat used it for n=4; Euler handled n=3), but could not be generalized to all exponents. Wiles instead proved a crucial case of the Taniyama-Shimura conjecture about elliptic curves — an approach from algebraic geometry entirely unrelated to infinite descent. FLT followed as a corollary, not as a direct conclusion of any descent argument."

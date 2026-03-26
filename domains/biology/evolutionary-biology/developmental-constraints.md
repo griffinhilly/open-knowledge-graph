@@ -49,7 +49,7 @@ Developmental constraints limit which phenotypic variants are possible or viable
   answer: true
   explanation: "Pleiotropy is one of the primary mechanisms of developmental constraint. A single gene (such as a Hox gene) often controls multiple aspects of development. A mutation that improves, say, thoracic morphology may simultaneously deform limb patterning, since the same regulatory gene is involved in both. Selection cannot optimize one trait independently when the gene is pleiotropic — the traits evolve as a coupled package, constraining the achievable combinations."
 
-- question: "Developmental constraints prevent evolution from producing new adaptations by blocking all mutations that would alter the developmental program."
+- question: "Developmental constraints prevent evolution from producing new adaptations by blocking most mutations that would alter the developmental program."
   type: true-false
   answer: false
   explanation: "Developmental constraints do not block all change — they bias and channel evolution, making some phenotypic transitions easy and others nearly impossible. Many mutations occur and produce viable variation; constraints specifically limit the range of phenotypic outcomes that are viable or producible. Importantly, constraints can also explain convergent evolution: when lineages share similar developmental toolkits, those shared constraints channel independent evolution toward similar solutions — producing convergence rather than simply preventing change."

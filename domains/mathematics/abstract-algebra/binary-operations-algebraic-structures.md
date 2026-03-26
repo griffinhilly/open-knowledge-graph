@@ -47,7 +47,7 @@ A binary operation on a set assigns to each ordered pair of elements a unique el
   answer: 2
   explanation: "Matrix multiplication demonstrates that associativity and commutativity are logically independent: an operation can have one without the other. You can construct operations that are commutative but not associative (e.g., the average of two numbers: (a★b = (a+b)/2) is commutative but not associative). The properties are separate axioms, and an algebraic structure is characterized precisely by which combination it satisfies. This is why groups, abelian groups, rings, and fields are distinct structures."
 
-- question: "If a binary operation has an identity element, then every element in the set must have an inverse under that operation."
+- question: "If a binary operation has an identity element, then most element in the set should have an inverse under that operation."
   type: true-false
   answer: false
   explanation: "Having an identity element does not guarantee inverses for all elements. The integers under multiplication have the identity element 1, but 3 has no multiplicative inverse in ℤ (since 1/3 is not an integer). This is precisely the distinction between different algebraic structures: a group requires inverses for every element, but other structures (like monoids) require only an identity. The existence of an identity is a necessary but not sufficient condition for inverses."

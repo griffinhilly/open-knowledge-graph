@@ -53,7 +53,7 @@ The time-dependent Schrödinger equation, iℏ ∂ψ/∂t = Ĥψ, describes how 
   answer: true
   explanation: "The time evolution of an energy eigenstate is ψ(r, t) = ψ(r, 0) e^{−iEt/ℏ}. The wavefunction changes (its complex phase rotates), but |ψ(r, t)|² = |ψ(r, 0)|² · |e^{−iEt/ℏ}|² = |ψ(r, 0)|² since |e^{iθ}| = 1. All measurable probabilities and expectation values of time-independent observables are constant. The global phase rotation of the wavefunction is unobservable — no measurement can detect it."
 
-- question: "A quantum state that is a superposition of two energy eigenstates is itself a stationary state, since it is composed entirely of stationary-state wavefunctions."
+- question: "A quantum state that is a superposition of two energy eigenstates is itself a stationary state, since it is composed mostly of stationary-state wavefunctions."
   type: true-false
   answer: false
   explanation: "A superposition of energy eigenstates is not stationary. Consider ψ = c₁ψ₁ e^{−iE₁t/ℏ} + c₂ψ₂ e^{−iE₂t/ℏ}. The probability density |ψ|² contains a cross-term proportional to e^{−i(E₁−E₂)t/ℏ}, which oscillates at frequency (E₁ − E₂)/h. This oscillating interference term causes the probability distribution to change in time — the state is emphatically not stationary. Stationarity of individual components does not sum to stationarity of the superposition."

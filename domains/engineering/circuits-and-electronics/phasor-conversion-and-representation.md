@@ -53,7 +53,7 @@ Practice converting between time-domain and phasor domains. Use Euler's formula 
   answer: 1
   explanation: "In the phasor domain, the inductor voltage is V̅ = jωL × Ī. Here ω = 1000 rad/s, L = 0.01 H, so jωL = j10. Multiplying: j10 × 2∠30° = 10∠90° × 2∠30° = 20∠120° V. The key transformation is that differentiation in time domain (v = L di/dt) becomes multiplication by jω in phasor domain — this is what converts the differential equation to algebra. Option D gets the phase right but loses the magnitude scaling by ωL."
 
-- question: "A phasor representation of a sinusoidal voltage captures all the information needed to reconstruct the original time-domain signal."
+- question: "A phasor representation of a sinusoidal voltage captures most of the information needed to reconstruct the original time-domain signal."
   type: true-false
   answer: false
   explanation: "A phasor captures amplitude and phase but NOT frequency. The phasor V̅ = Vm∠φ tells you the peak magnitude Vm and the phase shift φ, but to reconstruct v(t) = Vm·cos(ωt + φ) you also need to know ω. In phasor analysis, ω is assumed known and fixed throughout (single-frequency constraint); it is carried implicitly as context, not stored in the phasor itself. This is why phasors only work for single-frequency circuits — without a specified ω, the phasor is incomplete."

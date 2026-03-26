@@ -42,7 +42,7 @@ The characteristic polynomial of A is det(A − λI), whose roots are eigenvalue
   answer: 2
   explanation: "The characteristic polynomial is p(λ) = det(A − λI). At λ = 0, this becomes det(A − 0) = det(A). So the constant term of p(λ) is always the determinant of A. This gives a useful check: since the constant term also equals the product of all eigenvalues (evaluated at λ = 0), the product of the eigenvalues equals det(A). Similarly, the coefficient of λⁿ⁻¹ is always −tr(A), connecting eigenvalue sums to the trace. These relationships hold even without solving for eigenvalues explicitly."
 
-- question: "Two matrices with the same characteristic polynomial must be similar to each other."
+- question: "Two matrices with the same characteristic polynomial should be similar to each other."
   type: true-false
   answer: false
   explanation: "Similarity implies the same characteristic polynomial — that direction holds. But the converse fails: two matrices can share a characteristic polynomial without being similar. The classic example involves the 2×2 identity matrix I and any diagonalizable matrix with both eigenvalues equal to 1; they have the same characteristic polynomial (λ−1)² but are similar only to I itself. More starkly, [[1,1],[0,1]] and [[1,0],[0,1]] have the same characteristic polynomial (λ−1)² but are not similar (one is diagonalizable, the other is not). The characteristic polynomial is a similarity invariant, but not a complete invariant."

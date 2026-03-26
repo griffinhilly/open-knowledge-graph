@@ -43,7 +43,7 @@ A triangle is a shape with three sides and three corners. Triangles can point in
   answer: 2
   explanation: "The only rule that determines whether a shape is a triangle is: three straight sides, three corners, fully closed. Side length, symmetry, and orientation don't matter. Equilateral (all sides equal), isosceles (two sides equal), and scalene (no sides equal) are all valid triangles. The misconception that triangles must be 'regular' or 'point up' is very common in early learners."
 
-- question: "A triangle must point upward to be recognized as a true triangle."
+- question: "A triangle should point upward to be recognized as a true triangle."
   type: true-false
   answer: false
   explanation: "Triangles can point in any direction — up, down, left, right, or at any angle — and remain triangles. Only the count of sides and corners defines a triangle. The idea that a 'real' triangle points upward comes from seeing triangles drawn that way on worksheets, but orientation is not part of the definition."

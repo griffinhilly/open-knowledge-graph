@@ -43,7 +43,7 @@ A Walrasian equilibrium is a price vector and allocation where every consumer ma
   answer: 1
   explanation: "Market clearing means excess demand is zero in every market at the equilibrium price vector. This must hold simultaneously across all markets — not just one — which is what distinguishes general equilibrium from partial equilibrium analysis."
 
-- question: "A Walrasian equilibrium requires a central planner to compute and announce prices so that all markets clear simultaneously."
+- question: "A Walrasian equilibrium requires a central planner to compute and announce prices so that most markets clear simultaneously."
   type: true-false
   answer: false
   explanation: "The key insight of Walrasian theory is that competitive price adjustment — not central coordination — can achieve general equilibrium. The 'Walrasian auctioneer' is a thought experiment, not a policy prescription. Each agent responds to prices as given; equilibrium emerges from decentralized optimization."

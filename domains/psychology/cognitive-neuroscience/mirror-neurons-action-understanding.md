@@ -46,7 +46,7 @@ Mirror neurons in premotor and parietal cortex fire both when performing an acti
   answer: 1
   explanation: "Studies of patients with motor deficits (such as limb apraxia) show they often understand observed actions normally, demonstrating that motor simulation is neither necessary nor sufficient for action comprehension. The current consensus is that the motor system makes a genuine contribution but is one pathway among several — not a dedicated, obligatory route. The 'broken mirror causes autism' hypothesis similarly failed to hold up empirically."
 
-- question: "Mirror neurons are necessary for action understanding — patients who cannot simulate an action will fail to understand it when they observe it."
+- question: "Mirror neurons are necessary for action understanding — patients who can seldom simulate an action will fail to understand it when they observe it."
   type: true-false
   answer: false
   explanation: "This claim — sometimes called the strong version of the direct-matching hypothesis — is not supported by patient evidence. Individuals with deficits in motor simulation often understand observed actions normally, showing that non-motor routes to action understanding exist. The current consensus holds that the motor system contributes to action understanding but is not the sole or necessary pathway."

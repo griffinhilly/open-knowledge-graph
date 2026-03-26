@@ -53,7 +53,7 @@ Layer sand, clay, and small pebbles in a clear container with water, let it sett
   answer: "Sedimentary rocks form from layers of material that accumulate gently, so organisms that die and get buried can be preserved. Igneous rocks form from melted rock that would destroy any remains, and metamorphic rocks form under heat and pressure that would crush or distort fossils."
   explanation: "The gentle, layer-by-layer formation of sedimentary rocks is ideal for preserving plant and animal remains. The extreme conditions that create igneous and metamorphic rocks would typically destroy organic material."
 
-- question: "All sedimentary rocks are made from pieces of other rocks that were broken down by weathering."
+- question: "Most sedimentary rocks are made from pieces of other rocks that were broken down by weathering."
   type: true-false
   answer: false
   explanation: "While many sedimentary rocks (like sandstone and shale) are made from rock fragments, others form differently. Limestone often forms from the accumulated shells and skeletons of marine organisms. Rock salt forms when water evaporates and leaves mineral crystals behind. These are called biochemical and chemical sedimentary rocks."

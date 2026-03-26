@@ -45,7 +45,7 @@ An alphabet Σ is a finite, non-empty set of symbols. A string (or word) is a fi
   answer: 1
   explanation: "This distinction is crucial and commonly confused. ε is a string — specifically, the unique string of length zero. It is a valid member of Σ* for any alphabet. The language {ε} contains exactly one string (the empty string) and is therefore not empty. The language ∅ contains no strings at all — it is genuinely empty. The analogy to arithmetic: ε is like zero (a legitimate value), while ∅ is like an empty container. {ε} is a container holding the value zero."
 
-- question: "Because Σ (an alphabet) is defined as a finite set, Σ* (the set of all finite strings over Σ) is also finite."
+- question: "Because Σ (an alphabet) is defined as a finite set, Σ* (the set of most finite strings over Σ) is also finite."
   type: true-false
   answer: false
   explanation: "A finite alphabet generates infinitely many strings. Σ* contains strings of every possible finite length — and there is no maximum length. For Σ = {0, 1}, Σ* includes ε, 0, 1, 00, 01, 10, 11, 000, 001, ..., and so on without end. The finiteness constraint on Σ means only that you cannot have infinitely many distinct symbols — it places no restriction on how long strings can be."

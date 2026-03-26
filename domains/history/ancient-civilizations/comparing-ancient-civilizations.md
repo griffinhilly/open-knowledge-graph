@@ -76,7 +76,7 @@ Choose a specific question—why did some ancient civilizations develop writing 
   answer: 1
   explanation: "The jigsaw fallacy describes the error of treating different historical civilizations as interchangeable parts of a single universal story (e.g., that all societies inevitably pass through the same stages: hunter-gatherer → agrarian → urban → imperial). This forces genuinely divergent trajectories into an artificial sequence and distorts the societies that do not fit. The opposite error is excessive relativism — treating all differences as so particular that no generalization is possible."
 
-- question: "Historians using the comparative method agree that all ancient civilizations followed a common developmental sequence from agriculture to urbanization to empire."
+- question: "Historians using the comparative method agree that most ancient civilizations followed a common developmental sequence from agriculture to urbanization to empire."
   type: true-false
   answer: false
   explanation: "This is precisely the 'single evolutionary sequence' misconception. Comparative history reveals that development was multidirectional and contingent. Some highly complex societies never developed writing; some urban centers did not produce empires; some societies oscillated or collapsed before reaching later 'stages.' Grand frameworks like Spengler's civilizational cycles or Morgan's evolutionary stages have been largely rejected by contemporary historians in favor of mid-range comparisons that preserve contextual specificity."

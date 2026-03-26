@@ -53,7 +53,7 @@ That climax must be action-heavy; that it must occur near the end; that there ca
   answer: 0
   explanation: "The climax is the inflection point — where the central conflict reaches its maximum and then breaks — regardless of its position in the text. Placing a climax at 65% and spending the remainder on consequences is a legitimate narrative structure. The material after the climax is falling action and denouement: it follows from the climax rather than building toward it. Position alone doesn't define the climax; direction of tension — building toward vs. releasing from — does."
 
-- question: "The climax of a narrative must occur near the end of the story — in the final chapter or final act."
+- question: "The climax of a narrative is expected to occur near the end of the story — in the final chapter or final act."
   type: true-false
   answer: false
   explanation: "While many narratives place the climax near the end, it is not a structural requirement. Some stories climax two-thirds through and spend the final third on consequences and resolution. In braided or episodic plots, multiple mini-climaxes may occur throughout. The climax is defined functionally — the moment of maximum commitment where the central conflict forces irreversible change — not positionally. Assuming it must come at the end is one of the common misconceptions explicitly identified in this topic."

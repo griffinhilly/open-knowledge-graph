@@ -57,7 +57,7 @@ After understanding the original argument, study the three main replies: the abi
   answer: 1
   explanation: "Lewis and Nemirow grant that Mary gains something when she leaves the room, but deny it is propositional knowledge (knowledge that some fact is the case). Instead, she gains know-how: the ability to recognize red when she sees it, to imagine the experience, to remember it. On this view, no new facts are acquired — only new skills. This preserves physicalism because abilities are not facts about the world. The phenomenal concepts strategy (option A) is a different physicalist reply that does accept new concepts but denies new facts."
 
-- question: "Jackson's knowledge argument concludes that the mind and body are made of entirely different substances — a form of substance dualism."
+- question: "Jackson's knowledge argument concludes that the mind and body are made of mostly different substances — a form of substance dualism."
   type: true-false
   answer: false
   explanation: "Jackson's conclusion is property dualism, not substance dualism. He does not claim that minds are non-physical things (substances) separate from brains. He claims that phenomenal properties — like the qualitative character of seeing red — are real features of the world that are not identical to or reducible to physical properties. Substance dualism (Descartes's view) holds that mind and body are distinct kinds of stuff; property dualism holds that they are distinct kinds of properties, potentially in the same substrate."

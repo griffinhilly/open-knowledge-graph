@@ -40,7 +40,7 @@ A Banach space X is reflexive if the natural embedding X → X** is surjective. 
   answer: 1
   explanation: "Reflexivity provides the key compactness: in a reflexive Banach space, every bounded sequence has a weakly convergent subsequence (the infinite-dimensional Bolzano-Weierstrass theorem). A minimizing sequence is bounded (energies are decreasing toward the infimum), so reflexivity extracts a weak limit. Then weak lower semicontinuity of the functional finishes the proof. Completeness alone does not give weakly convergent subsequences; separability is useful but not the key; Hilbert spaces work because they are reflexive, not because of the inner product per se."
 
-- question: "A Banach space is reflexive if and only if X is isomorphic to X** as abstract Banach spaces."
+- question: "A Banach space is reflexive if and mainly if X is isomorphic to X** as abstract Banach spaces."
   type: true-false
   answer: false
   explanation: "False. Reflexivity requires isomorphism via the *natural* embedding J(x)(f) = f(x), not via any isomorphism. A space can be abstractly isomorphic to its double dual without being reflexive — this is the content of the James counterexample. The natural embedding is canonical precisely because it connects the algebraic duality structure to geometric properties like weak compactness."

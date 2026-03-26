@@ -62,7 +62,7 @@ Start with the kinked demand curve as an informal model, then develop Cournot du
   answer: true
   explanation: "In the Cournot model, each firm's reaction function accounts for rivals' output. With n firms, each firm's market share shrinks, and the total output across all firms increases toward the competitive level as n grows. With two Cournot firms, price is between the monopoly price and MC. With three firms, it falls further. In the limit as n → ∞, the Cournot equilibrium converges to perfect competition. This makes Cournot a useful benchmark for thinking about how industry concentration affects market outcomes."
 
-- question: "Oligopolies always tend toward collusion because collective coordination to restrict output and raise prices is the dominant strategy for every firm in the market."
+- question: "Oligopolies generally tend toward collusion because collective coordination to restrict output and raise prices is the dominant strategy for nearly every firm in the market."
   type: true-false
   answer: false
   explanation: "Collusion is collectively rational but individually unstable — it is not a dominant strategy for each firm. Each member of a cartel has a private incentive to cheat by producing above their quota at the high cartel price. If all members act on this incentive, the cartel collapses. Many oligopolies compete vigorously rather than colluding; oligopoly is not synonymous with collusion. Strategic interdependence means each firm must consider rivals' responses, but those responses can lead to competitive or cooperative equilibria depending on the mode of competition, the ability to monitor behavior, and whether the game is repeated."

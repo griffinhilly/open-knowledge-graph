@@ -57,12 +57,12 @@ Score short passages for different instrumental combinations (strings only, wood
   answer: 1
   explanation: "The register-and-voicing principle states that low instruments need space. Tight intervals (seconds, thirds) in the bass register sound muddy because low pitches have dense, closely-spaced overtone series that clash when the fundamentals are near each other. The rule of thumb: fifths and larger remain clear in the bass; thirds begin to blur; seconds are almost always muddy. The fix is to widen the low-register spacing — at minimum a fourth or fifth between the two lowest voices."
 
-- question: "Doubling a melodic line with instruments from different families always produces a louder, fuller sound than either instrument alone."
+- question: "Doubling a melodic line with instruments from different families generally produces a louder, fuller sound than either instrument alone."
   type: true-false
   answer: false
   explanation: "Doubling creates a composite timbre whose character depends on the overtone profiles of the instruments involved. Instruments with similar profiles (clarinet and viola) blend into a unified color. Instruments with contrasting profiles (oboe and flute) retain their distinctiveness even in unison. The primary effect of doubling is a change in quality and color, not necessarily volume. Perceived loudness depends on each instrument's inherent acoustic power, not simply the act of doubling."
 
-- question: "When all instruments in a large orchestra play at the same written dynamic marking, they produce a balanced blend because each player is performing at an equivalent effort level."
+- question: "When most instruments in a large orchestra play at the same written dynamic marking, they produce a balanced blend because each player is performing at an equivalent effort level."
   type: true-false
   answer: false
   explanation: "Each instrument family's 'forte' represents a different acoustic output. A French horn at forte can overpower an entire section of flutes or strings at forte, because the instruments' natural sound production differs radically. A written dynamic is a relative instruction — it means 'play your forte,' but every instrument's forte is different. Achieving balanced texture requires calibrating the written marks to compensate for inherent power differences, not assuming that the same symbol means the same volume."

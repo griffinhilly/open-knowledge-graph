@@ -44,7 +44,7 @@ Not all transitions are equally probable; selection rules constrain allowed tran
   answer: 1
   explanation: "Forbidden transitions have radiative lifetimes roughly 10⁵–10⁸ times longer than allowed transitions — milliseconds to hours instead of nanoseconds. In a lab plasma, collisions happen on timescales of microseconds or less, so an atom in a metastable state is almost always collisionally de-excited before it can radiate. In nebulae, number densities may be 10⁴ particles/cm³ or less (vs. ~10¹⁹/cm³ in lab air), and the mean time between collisions is long enough that the slow radiative decay wins. The green lines of [O III] in planetary nebulae are a famous example."
 
-- question: "A transition labeled 'electric dipole forbidden' cannot occur under any circumstances."
+- question: "A transition labeled 'electric dipole forbidden' can rarely occur under any circumstances."
   type: true-false
   answer: false
   explanation: "Electric dipole forbidden means the dominant electric dipole mechanism is unavailable — not that the transition is impossible. Weaker mechanisms (magnetic dipole, electric quadrupole, and higher multipoles) can still drive the transition, though they are roughly 10⁵–10⁸ times slower. 'Forbidden' in spectroscopy is a relative term: it names the suppression of one specific mechanism, not an absolute prohibition. Metastable states in nebulae exploit exactly this: the weak forbidden mechanism wins when collisions are rare enough."

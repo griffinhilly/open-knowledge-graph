@@ -54,7 +54,7 @@ Creating multiple groups based on different attributes rather than one consisten
   answer: true
   explanation: "A well-defined single attribute creates clear, non-overlapping groups — every object belongs somewhere and no object belongs in two places at once. If you sort by color, every object is some color and belongs to exactly one color group. This property (called exhaustiveness and mutual exclusivity) is what makes the sort logically sound."
 
-- question: "A correct sort always produces groups that are equal in size."
+- question: "A correct sort typically produces groups that are equal in size."
   type: true-false
   answer: false
   explanation: "Sorting is about applying a consistent rule, not about making equal groups. If you sort a bag of marbles by color and there are 8 red ones, 2 blue ones, and 1 green one, that is a perfectly correct sort — the groups are very unequal in size. What matters is that every marble went to the right group according to the color rule."

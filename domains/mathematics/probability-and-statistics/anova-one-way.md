@@ -56,7 +56,7 @@ Run a simple experiment: measure plant heights under three different fertilizers
   answer: 1
   explanation: "MS_within measures within-group variability — the scatter that exists even if groups truly have identical means. Comparing the between-group signal to this noise baseline is what allows the test to distinguish real group differences from ordinary random variation. If MS_within is large (noisy data), only large between-group differences produce a notable F. Comparing group means to zero would ignore this baseline noise entirely."
 
-- question: "Running all pairwise t-tests instead of ANOVA controls the overall Type I error rate just as effectively."
+- question: "Running most pairwise t-tests instead of ANOVA controls the overall Type I error rate just as effectively."
   type: true-false
   answer: false
   explanation: "Each individual t-test has a false-positive rate of α. With k groups, there are k(k−1)/2 pairwise tests. If tests are independent, the probability of at least one false positive is 1 − (1−α)^m, where m is the number of tests. With 5 groups (10 tests) at α = 0.05, this rises to about 40%. ANOVA provides a single omnibus test that keeps the overall error rate at α, which is why it was developed in the first place."

@@ -52,7 +52,7 @@ Thinking mutually exclusive events are independent. Assuming events are independ
   answer: 2
   explanation: "Independence is defined as P(A|B) = P(A), which rearranges to P(A ∩ B) = P(A) · P(B) — the product rule. Options A and B describe mutually exclusive events (where P(A ∩ B) = 0 and the addition rule has no subtraction term), not independence. Option D describes symmetry of conditional probability, which holds in general and does not characterize independence."
 
-- question: "Mutually exclusive events are independent because, since they cannot occur simultaneously, neither one can influence the other."
+- question: "Mutually exclusive events are independent because, since they can rarely occur simultaneously, neither one can influence the other."
   type: true-false
   answer: false
   explanation: "This is the central misconception. Mutual exclusivity makes events maximally dependent, not independent. If A occurs, B is ruled out entirely — that is the strongest possible information one event can provide about another. Independence means observing one event gives zero information about the other, which requires P(A ∩ B) = P(A)·P(B) > 0. Mutual exclusivity forces P(A ∩ B) = 0, which violates independence whenever both events have positive probability."

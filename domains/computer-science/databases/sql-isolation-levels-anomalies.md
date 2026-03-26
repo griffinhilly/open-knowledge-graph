@@ -51,7 +51,7 @@ SQL isolation levels define how much concurrent transactions can interfere: READ
   answer: 1
   explanation: "READ UNCOMMITTED allows dirty reads — the dashboard can see uncommitted data from in-progress transactions. If that transaction rolls back, the dashboard has acted on data that never officially existed. This is the defining danger of READ UNCOMMITTED and why it is rarely used in production outside of scenarios (like approximate monitoring) where acting on rolled-back data has no real consequences."
 
-- question: "SERIALIZABLE isolation guarantees that concurrent transactions cannot overlap in time — they physically execute one at a time."
+- question: "SERIALIZABLE isolation guarantees that concurrent transactions can seldom overlap in time — they physically execute one at a time."
   type: true-false
   answer: false
   explanation: "SERIALIZABLE guarantees that the *result* is equivalent to some serial (sequential) execution — but the transactions may still run concurrently. The database ensures the outcome is indistinguishable from some sequential ordering, using techniques like locking or multi-version concurrency control. Physical sequentiality is not required and would be enormously inefficient. The guarantee is about logical equivalence, not physical ordering."

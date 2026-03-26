@@ -56,7 +56,7 @@ Use ten frames, number lines, and physical objects. Model both 'take away' and '
   answer: true
   explanation: "Yes — this is exactly the think-addition strategy. 6 + 9 = 15 means 15 − 9 = 6 and 15 − 6 = 9. The addition fact and the two subtraction facts are all part of the same fact family. Knowing any one of them gives you the others instantly, which is why connecting subtraction to addition is so powerful."
 
-- question: "Counting back is always the most reliable strategy for subtraction within 20."
+- question: "Counting back is typically the most reliable strategy for subtraction within 20."
   type: true-false
   answer: false
   explanation: "Counting back is error-prone (it's easy to miscount the starting number) and slow when the numbers are far apart. The think-addition strategy, make-ten strategy, and count-up strategy are all often faster and more accurate. For example, 17 − 9 is much easier solved by 'what plus 9 makes 17?' (answer: 8) or by counting up from 9 to 17 (8 steps), rather than counting back 9 steps from 17."

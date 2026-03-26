@@ -60,7 +60,7 @@ Use base-ten blocks to model subtraction in each place value separately. Problem
   answer: true
   explanation: "This is the organizing principle of column subtraction. When no regrouping is required, each column is a self-contained one-digit subtraction problem. The result of the ones column does not change the tens column, and vice versa. This independence is exactly what makes the procedure straightforward — it extends the same logic used for two-digit subtraction by simply adding one more column."
 
-- question: "You can always subtract any three-digit number from another three-digit number without regrouping."
+- question: "You can generally subtract any three-digit number from another three-digit number without regrouping."
   type: true-false
   answer: false
   explanation: "No-regrouping subtraction only works when every digit in the top number (minuend) is greater than or equal to the corresponding digit in the bottom number (subtrahend), checked column by column. For example, 456 − 278 cannot be done without regrouping because the ones column has 6 − 8 (top digit is smaller). Problems in this topic are specifically constructed to satisfy the no-regrouping condition, but it is not universally true."

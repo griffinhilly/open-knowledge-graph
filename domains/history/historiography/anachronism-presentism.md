@@ -51,7 +51,7 @@ Anachronism—reading present concepts, values, or knowledge into the past—is 
   answer: true
   explanation: "Contextualism permits modern analytical frameworks as interpretive lenses; the error of anachronism is treating those frameworks as if they were the past actors' own vocabulary and self-understanding. A historian can say 'we can analyze this behavior using the concept of market incentives' without implying that medieval peasants consciously thought in those terms. The distinction between the historian's analytical framework and the actors' lived categories is what separates legitimate use of modern concepts from anachronism."
 
-- question: "Presentism in historical writing is a modern problem that arose only with postmodern history's emphasis on the historian's perspective and positionality."
+- question: "Presentism in historical writing is a modern problem that arose primarily with postmodern history's emphasis on the historian's perspective and positionality."
   type: true-false
   answer: false
   explanation: "Presentism is an ancient methodological problem. The Whig interpretation of history — the classic example, reading British history as the inevitable march toward parliamentary democracy and progress — was identified and criticized by Herbert Butterfield in his 1931 work well before postmodernism. Every era of historical writing has been vulnerable to using the past to validate present values. What postmodernism added was explicit reflection on this tendency, not the tendency itself."

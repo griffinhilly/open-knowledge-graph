@@ -60,7 +60,7 @@ Practice with all input types: given m and b, given m and a point, given two poi
   answer: true
   explanation: "This is true. A line is determined by two pieces of information, but 'two points' does not directly give you slope or intercept — you must extract slope first using m = (y₂ − y₁)/(x₂ − x₁). Only after computing slope can you use either point in point-slope form to write the full equation. There is no shortcut that skips the slope calculation when given two arbitrary points. This is why the process is: compute slope → then write the equation using slope and one point."
 
-- question: "To write the equation of a line, you must always determine the y-intercept first."
+- question: "To write the equation of a line, you is expected to usually determine the y-intercept first."
   type: true-false
   answer: false
   explanation: "Point-slope form y − y₁ = m(x − x₁) lets you write a valid linear equation using any known point on the line — the y-intercept is not required. If you have slope 4 and the point (3, 11), you can immediately write y − 11 = 4(x − 3) without ever computing the y-intercept. You can then simplify to slope-intercept form afterward if needed, but the y-intercept is an intermediate result, not a prerequisite. Forcing yourself to find b first when it isn't given is a common inefficiency that often leads to extra arithmetic errors."

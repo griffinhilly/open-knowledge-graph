@@ -61,7 +61,7 @@ Write the same event as pure summary (one paragraph) and then as dramatized scen
   answer: true
   explanation: "The insight and quality of reflection determine a narrative's power, not the drama of the event itself. A dramatic event examined superficially is less compelling than an ordinary moment examined with genuine depth. Many of the strongest personal essays are built on quiet, everyday experiences because the writer found the insight others overlooked."
 
-- question: "In a personal narrative essay, the reflective turn must always appear as the final paragraph."
+- question: "In a personal narrative essay, the reflective turn should typically appear as the final paragraph."
   type: true-false
   answer: false
   explanation: "The reflective voice can appear throughout a narrative, not just at the end. Writers often weave present-day perspective into past-tense narration — 'I know now what I could not see then' — creating a layered effect. What matters is that reflection appears and makes meaning of the experience, not that it occupies a fixed structural position."

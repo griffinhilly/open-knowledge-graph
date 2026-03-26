@@ -60,7 +60,7 @@ Design a simple system using only one shape, repeating it at different scales an
   answer: true
   explanation: "This is precisely what 'repetition with variation' achieves. The circle at different sizes and opacities maintains the unifying thread (same shape = same system) while the variation (size, opacity) provides rhythm, hierarchy, and visual interest. The eye is drawn through the design by the pattern while being kept engaged by its variation. This is the same principle as a musical motif — recurring but not static."
 
-- question: "Visual unity in design requires all elements to look the same or match exactly."
+- question: "Visual unity in design requires most elements to look the same or match exactly."
   type: true-false
   answer: false
   explanation: "Unity is the perception that elements are part of an organized, intentional whole — it does not require sameness. A design achieves unity when nothing feels arbitrary: different elements can vary in size, weight, or position, but if they share underlying relationships (same family of shapes, same color palette, consistent spacing intervals), the viewer perceives coherence. Sameness produces monotony, not unity. Unity comes from organized relationships, which can include both repetition and thoughtful contrast."

@@ -54,7 +54,7 @@ Study Derrida's own readings of literary texts to see how deconstruction identif
   answer: 1
   explanation: "The 'a' is deliberate and demonstrative. In French, 'différance' and 'différence' are pronounced identically — the spelling difference is visible only in writing. This enacts Derrida's point: the written mark registers a distinction that speech cannot capture, challenging the traditional philosophical privileging of spoken presence over writing. The neologism also captures both operations simultaneously — to differ (spatial differentiation of signs) and to defer (temporal postponement of meaning)."
 
-- question: "According to Derrida, undecidability means that all interpretations of a text are equally valid, since no single meaning can be established."
+- question: "According to Derrida, undecidability means that most interpretations of a text are equally valid, since no single meaning can be established."
   type: true-false
   answer: false
   explanation: "This is explicitly rejected by Derrida. Undecidability names specific structural features of language where a text holds incompatible meanings that cannot be resolved from within the text's own resources — and the undecidable reading must be rigorously demonstrated in the text, not invented. Derrida distinguishes responsible close reading from interpretive free-for-all. Undecidability constrains certain closures of meaning; it does not license arbitrary interpretation."

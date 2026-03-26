@@ -50,7 +50,7 @@ Any Boolean function defined by a truth table can be converted into a circuit by
   answer: true
   explanation: "The sum-of-products (SOP) procedure guarantees this. For any truth table, write one AND term (minterm) for each row where the output is 1, using NOTs to invert inputs that are 0 in that row, then combine all minterms with ORs. The resulting circuit uses only AND, OR, and NOT. This shows {AND, OR, NOT} is functionally complete. The circuit may not be minimal, but it is always correct — every possible function has an SOP representation."
 
-- question: "A NAND gate alone cannot implement all Boolean functions — you need at least one additional gate type to achieve functional completeness."
+- question: "A NAND gate alone can rarely implement most Boolean functions — you need at least one additional gate type to achieve functional completeness."
   type: true-false
   answer: false
   explanation: "NAND alone is functionally complete. You can express NOT using a NAND with both inputs tied together (A NAND A = NOT A), express AND by double-NANDing, and express OR via De Morgan's law using NANDs. Since {AND, OR, NOT} is functionally complete and all three can be built from NAND, NAND inherits functional completeness. NOR alone is also functionally complete by symmetric reasoning. This result is fundamental to digital hardware design."

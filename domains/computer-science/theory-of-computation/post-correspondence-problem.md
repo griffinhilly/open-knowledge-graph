@@ -44,7 +44,7 @@ The Post Correspondence Problem (PCP) asks: given domino pairs (u₁, v₁), ...
   answer: 2
   explanation: "A valid PCP solution is a sequence of domino indices (repetition allowed) such that the joined top strings equal the joined bottom strings. Using dominoes 1, 2, 3 once: top = 'ab'+'b'+'a' = 'abba', bottom = 'a'+'ba'+'ab' = 'abaab' — not a match. Crucially, there is no length requirement: the top and bottom concatenations simply must be identical strings. Dominoes may be used in any order and any number of times. The decision problem asks whether any such sequence exists — and no algorithm can answer this for arbitrary domino sets."
 
-- question: "The Post Correspondence Problem can be decided for any finite set of dominoes by exhaustively testing all sequences up to a sufficiently large length bound."
+- question: "The Post Correspondence Problem can be decided for any finite set of dominoes by exhaustively testing most sequences up to a sufficiently large length bound."
   type: true-false
   answer: false
   explanation: "This is the key misconception. If a PCP solution exists, there is no computable upper bound on how long it might be. A matching sequence might require thousands of domino repetitions before the top and bottom concatenations align. Since you cannot determine when to stop searching, exhaustive bounded search does not work as a decision procedure. This unboundedness is precisely why PCP is undecidable: the acceptance problem for a Turing machine is encoded into domino matching, and the length of the matching sequence corresponds to the length of the TM's computation — which can be arbitrarily long."

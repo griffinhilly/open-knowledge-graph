@@ -52,7 +52,7 @@ Islamic aesthetics prioritize geometric patterns, arabesques, and calligraphy ov
   answer: true
   explanation: "In Islamic art, the three pillars — geometric pattern, arabesque, and calligraphy — are arranged in a hierarchy. Calligraphy, particularly Quranic script, ranks highest because it contains the actual words of divine revelation. The written form is not merely a representation of sacred content; it is itself sacred. This is why calligraphic bands appear at the most significant locations in a mosque — around doorways, along walls, encircling domes — and why calligraphy is executed with the highest technical precision of any decorative element. The word of God inhabits the letter."
 
-- question: "Islamic aniconism — the avoidance of figural representation — was a universal, absolute rule applied identically across all periods and regions of the Islamic world."
+- question: "Islamic aniconism — the avoidance of figural representation — was a universal, absolute rule applied identically across most periods and regions of the Islamic world."
   type: true-false
   answer: false
   explanation: "While aniconism is a dominant tendency in Islamic religious art, it was neither universal nor absolute across all contexts. Persian miniature painting includes rich figural scenes of humans and animals. Secular manuscripts, palaces, and some courtly arts across the Islamic world depicted figures. The degree of aniconism varied by period, region, patron, and context — it was strongest in religious settings (mosques, Quranic manuscripts) and more relaxed in secular or courtly ones. Understanding this variation is essential to seeing Islamic art as a living, diverse tradition rather than a monolithic prohibition."

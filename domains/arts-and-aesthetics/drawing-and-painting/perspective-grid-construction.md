@@ -53,7 +53,7 @@ A perspective grid is not a straitjacket—objects need not snap to grid lines, 
   answer: 2
   explanation: "The diagonal vanishing point is a construction tool, not a literal feature of the scene. You draw a diagonal from the nearest grid corner through the receding column lines; wherever the diagonal crosses each column line, you place a horizontal — and the proportional compression is automatically baked in. Without this, you'd have to calculate foreshortened intervals by hand for every depth level. The diagonal does the geometric work for you."
 
-- question: "Objects placed in a perspective grid scene must align precisely with grid lines to look spatially convincing."
+- question: "Objects placed in a perspective grid scene should align precisely with grid lines to look spatially convincing."
   type: true-false
   answer: false
   explanation: "The grid is a spatial armature, not a constraint that objects must snap to. You can place a figure, piece of furniture, or architectural element anywhere in the space — the grid simply provides a consistent reference for scale and spatial logic. The grid is construction scaffolding: once the spatial relationships are established, you draw over or erase it. Objects that happen to align with grid lines do so by choice, not necessity."

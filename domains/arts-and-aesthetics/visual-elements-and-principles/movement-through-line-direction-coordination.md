@@ -66,7 +66,7 @@ Assuming all lines function equally; not recognizing that line direction is inde
   answer: true
   explanation: "Line direction carries inherent directional energy rooted in physical experience, not in representation. Our response to horizontal lines as stable and diagonal lines as dynamic comes from their relationship to gravity and bodily experience — resting vs. falling — not from what they depict. An abstract painting of nothing but diagonal marks still feels more energetic than one of horizontal marks. This is why the topic notes that line direction is 'independent of subject matter.'"
 
-- question: "The directional energy of lines in a composition depends entirely on what objects those lines represent."
+- question: "The directional energy of lines in a composition depends largely on what objects those lines represent."
   type: true-false
   answer: false
   explanation: "Line direction has inherent perceptual energy that is independent of subject matter. A diagonal line in an abstract composition still feels dynamic whether or not it 'represents' anything. A horizontal line in a portrait still communicates calm even if it represents something specific. The emotional effect of line direction comes from the direction itself — its relationship to gravity and our physical experience — not from the narrative content of what is depicted."

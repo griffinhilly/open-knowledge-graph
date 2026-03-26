@@ -74,7 +74,7 @@ Compute Ext^1_Z(Z/2, Z) by hand: take a projective resolution of Z/2 (namely 0 �
   answer: true
   explanation: "This confirms the construction is correctly calibrated. For a left exact functor F, applying F to the injective resolution 0 → A → I⁰ → I¹ → ... and taking H⁰ of the resulting complex gives ker(F(I⁰) → F(I¹)). By left exactness of F, this kernel equals F(A) — the same result you would get by just applying F to A directly. The higher derived functors R^nF for n ≥ 1 are genuinely new groups that capture where exactness fails beyond degree zero."
 
-- question: "The value of R^nF(A) depends on which injective resolution of A is chosen, so a careful computation must specify which resolution is being used."
+- question: "The value of R^nF(A) depends on which injective resolution of A is chosen, so a careful computation should specify which resolution is being used."
   type: true-false
   answer: false
   explanation: "Independence from the choice of resolution is the central theorem that makes derived functors well-defined as functors of A. Any two injective resolutions of A are connected by a chain map unique up to homotopy, and chain-homotopic maps induce the same maps on cohomology. This independence is not obvious — it requires proof. If R^nF(A) depended on the resolution, it would not be a functor of A at all. The theorem is foundational: it is one of the first results established in any systematic treatment of homological algebra."

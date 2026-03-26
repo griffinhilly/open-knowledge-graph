@@ -55,7 +55,7 @@ The probability a mutant allele fixes depends on selection strength and populati
   answer: true
   explanation: "In a diploid population with Ne individuals, there are 2Ne allele copies. Each copy has an equal probability of being ancestral to all future alleles, so a new neutral mutation (present once) has probability 1/(2Ne) of fixing. This is a foundational result of neutral theory. It also leads to the elegant conclusion that neutral mutations fix at a rate equal to the mutation rate itself, independent of population size — because although larger populations have lower per-allele fixation probability, they also produce proportionally more new mutations."
 
-- question: "A strongly beneficial mutation with a large selection coefficient is virtually guaranteed to fix once it appears in a population, because strong selection overcomes drift."
+- question: "A strongly beneficial mutation with a large selection coefficient is virtually very likely to fix once it appears in a population, because strong selection overcomes drift."
   type: true-false
   answer: false
   explanation: "The fixation probability is approximately 2s regardless of how large s is within biologically realistic ranges. A mutation with s = 0.10 has only ~20% fixation probability; a mutation with s = 0.20 has ~40%. Even very strongly beneficial mutations are usually lost — because when a mutation first appears as a single copy, it is at the mercy of drift before selection has a chance to act. 'Virtually guaranteed' would require a fixation probability near 100%, which never occurs for a single new mutation. Most beneficial mutations are simply unlucky in their early generations."

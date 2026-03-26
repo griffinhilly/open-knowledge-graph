@@ -60,7 +60,7 @@ Provide collections of objects that can be moved (counters, blocks, coins). Enco
   answer: true
   explanation: "This is the order irrelevance principle. What matters is that every object is counted exactly once — not the sequence in which they are counted. Discovering this through hands-on experience is one of the key ideas in early number sense development."
 
-- question: "After a child counts 14 blocks correctly, moving those blocks into a circle means the child must recount them to know how many there are."
+- question: "After a child counts 14 blocks correctly, moving those blocks into a circle means the child is expected to recount them to know how many there are."
   type: true-false
   answer: false
   explanation: "Moving objects does not add or remove any, so the total stays the same. Recounting is only necessary if objects are added or taken away. The cardinality principle tells us that once we have a valid count, the last number said names the set — and that doesn't change when objects are rearranged. Children who feel compelled to recount after every rearrangement haven't yet internalized this principle."

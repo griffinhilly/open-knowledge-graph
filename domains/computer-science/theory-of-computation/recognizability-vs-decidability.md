@@ -55,7 +55,7 @@ A language is decidable if and only if both it and its complement are Turing-rec
   answer: true
   explanation: "This follows immediately from definitions. A decider always halts and correctly accepts strings in L and rejects strings not in L. This is strictly stronger than recognition, which only requires accepting strings in L (and allows looping on strings not in L). So any decider is also a recognizer — recognition is a weaker condition. The class of decidable languages is a proper subset of the Turing-recognizable (RE) languages."
 
-- question: "If a language L is Turing-recognizable, then L must be decidable — it just might take a very long time to compute the answer."
+- question: "If a language L is Turing-recognizable, then L is expected to be decidable — it just might take a very long time to compute the answer."
   type: true-false
   answer: false
   explanation: "This is the most common misconception in this area. Recognizability does not mean 'slow decidability' — these are categorically different. A recognizer for L can loop forever on inputs not in L; it never produces a 'no' answer for those inputs at all. A decider must halt on every input, including non-members. HALT_TM is the canonical counterexample: it is Turing-recognizable (simulate and wait for halting) but not decidable (there is no algorithm that always halts and correctly answers whether an arbitrary TM halts)."

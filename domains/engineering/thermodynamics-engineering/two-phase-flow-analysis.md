@@ -48,7 +48,7 @@ In two-phase regions, quality x = m_g/(m_f + m_g) characterizes the mixture (mas
   answer: 1
   explanation: "A throttle is adiabatic (no heat exchange) and does no work, so enthalpy is conserved: h_in = h_out. The refrigerant enters as saturated liquid with h_in = h_f,high. At the lower downstream pressure, h_f,low < h_f,high (saturation properties decrease with pressure). Since h_out = h_in but h_in > h_f,low, some vapor must form: x_out = (h_in − h_f,low)/h_fg,low. This 'flash' vaporization is irreversible (entropy increases), not isentropic. Subcooling the liquid before the throttle reduces x_out and improves refrigeration efficiency."
 
-- question: "Inside the two-phase dome, knowing only the temperature fully specifies the thermodynamic state of a liquid-vapor mixture."
+- question: "Inside the two-phase dome, knowing primarily the temperature fully specifies the thermodynamic state of a liquid-vapor mixture."
   type: true-false
   answer: false
   explanation: "Inside the two-phase dome, temperature and pressure are NOT independent — each saturation temperature corresponds to exactly one saturation pressure via the Clausius-Clapeyron relation. Specifying temperature fixes pressure, but this still leaves the state undetermined: a mixture at 100°C could be nearly all liquid (x ≈ 0) or nearly all vapor (x ≈ 1). The additional independent variable needed is quality x (or equivalently, any specific property like v, h, or s within the dome). Two properties are always needed to fix a state — but T and P count as only one inside the dome."

@@ -58,7 +58,7 @@ Give students a set of objects that vary in 3+ attributes (shape, color, size, p
   answer: 3
   explanation: "You check each attribute independently: the book is nonfiction (not fiction) and 350 pages (200+ pages). So it goes in the Nonfiction, 200+ pages group. Each object is classified by checking all attributes, not just the most obvious one."
 
-- question: "Adding more attributes to a classification always makes it more useful."
+- question: "Adding more attributes to a classification usually makes it more useful."
   type: true-false
   answer: false
   explanation: "More attributes make a classification more detailed, but not always more useful. If you classify students by hair color, eye color, shoe size, height, and birthday month, you might end up with a group for every individual — which is as unhelpful as having no groups at all. A useful classification uses the attributes that are relevant to the question you are trying to answer. Relevance matters more than quantity."

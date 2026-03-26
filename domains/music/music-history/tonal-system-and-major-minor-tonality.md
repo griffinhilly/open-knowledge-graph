@@ -57,7 +57,7 @@ Compare modal music (Palestrina, Gregorian chant) with early tonal music (Montev
   answer: 1
   explanation: "The multiple forms are historical traces of composers solving distinct problems. Harmonic minor raises the seventh degree to create a leading tone and strong dominant function. Melodic minor raises both sixth and seventh ascending to avoid the augmented second between scale degrees 6 and 7 that would disrupt smooth vocal lines. Natural minor is the unaltered form. Composers mixed them fluidly — these are complementary solutions, not competing definitions."
 
-- question: "Major-minor tonality is a natural acoustic phenomenon present in the music of all human cultures, because the major scale's overtone relationships make it universally pleasing."
+- question: "Major-minor tonality is a natural acoustic phenomenon present in the music of most human cultures, because the major scale's overtone relationships make it universally pleasing."
   type: true-false
   answer: false
   explanation: "Major-minor tonality is a specific historical development in European music, gradually solidifying from the Renaissance through the Baroque. Many musical traditions worldwide organize pitch differently — through pentatonic scales, non-Western modes, microtones, or other systems. The perception of major as 'natural' or 'pleasant' reflects cultural familiarity from centuries of exposure, not a universal acoustic property."

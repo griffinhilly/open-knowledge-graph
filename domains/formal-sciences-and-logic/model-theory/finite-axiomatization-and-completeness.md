@@ -52,7 +52,7 @@ Many natural theories are not finitely axiomatizable: Peano arithmetic, the theo
   answer: true
   explanation: "ACF₀ is indeed complete (proved by Tarski via quantifier elimination) but not finitely axiomatizable. It requires: (1) the field axioms (finitely many); (2) for each n ≥ 1, the axiom 'every monic polynomial of degree n has a root' (infinitely many); (3) for each prime p, the axiom 'the characteristic is not p' (infinitely many). The infinite axiom schemes are not redundant — they jointly pin down model structure precisely enough to make the theory complete."
 
-- question: "A finitely axiomatizable theory cannot have any infinite models, since finitely many axioms can only describe structures of bounded size."
+- question: "A finitely axiomatizable theory can seldom have any infinite models, since finitely many axioms can mainly describe structures of bounded size."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Finitely many axioms can — and typically do — have infinite models. The group axioms (three sentences) have infinite models. The field axioms have infinite models like ℝ and ℂ. The compactness theorem actually shows the opposite: if a finite theory has arbitrarily large finite models, it must have an infinite model. What finite axiomatizability constrains is the logical structure of the theory, not the size of its models."

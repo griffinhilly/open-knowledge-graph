@@ -55,7 +55,7 @@ Not reading carefully; performing wrong operations; forgetting a step; not check
   answer: true
   explanation: "A reasonableness check is the last line of defense against procedural errors. If a problem involves a student who started with 48 cards, gained some, then gave some away, an answer of 200 is obviously unreasonable given the numbers involved — even if the individual arithmetic steps were correct. Reasonableness checking catches order-of-operations errors that the arithmetic itself won't flag."
 
-- question: "A multi-step word problem always requires exactly two steps — one addition and one subtraction."
+- question: "A multi-step word problem usually requires exactly two steps — one addition and one subtraction."
   type: true-false
   answer: false
   explanation: "Multi-step problems can have any number of steps, and the operations can be any combination of addition and subtraction (or, in later grades, multiplication and division). The defining feature is simply that the problem cannot be solved with a single operation. The number and type of steps depends entirely on the events described in the problem."

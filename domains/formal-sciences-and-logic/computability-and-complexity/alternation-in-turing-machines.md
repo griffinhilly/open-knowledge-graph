@@ -52,7 +52,7 @@ An alternating Turing machine combines existential (∃) and universal (∀) sta
   answer: true
   explanation: "PTIME ⊆ PSPACE = APTIME. Under standard and widely-believed complexity-theoretic assumptions (specifically P ≠ PSPACE), this containment is strict: there exist problems solvable in polynomial space (and hence polynomial alternation time) that cannot be solved in polynomial deterministic time. This is the power of alternation — the two-player game-tree structure allows an ATM to explore an exponentially large computation tree in polynomial time by distributing the ∃/∀ responsibilities."
 
-- question: "An ATM with k alternations in polynomial time can always be simulated by a nondeterministic polynomial-time machine (an NTM), because ATMs are just generalized NTMs."
+- question: "An ATM with k alternations in polynomial time can typically be simulated by a nondeterministic polynomial-time machine (an NTM), because ATMs are just generalized NTMs."
   type: true-false
   answer: false
   explanation: "k alternations in polynomial time captures the kth level of the polynomial hierarchy Σₖ (or Πₖ). NTMs capture Σ₁ = NP — just one level. A Σ₂ problem (∃∀ alternation) requires access to an NP oracle and is believed not to be solvable in NP directly. If all polynomial-hierarchy levels collapsed to NP, the polynomial hierarchy itself would collapse — a consequence considered very unlikely. The ATM with k alternations is strictly more powerful than an NTM (k=1) for k ≥ 2, under standard assumptions."

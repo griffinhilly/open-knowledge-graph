@@ -41,7 +41,7 @@ Drop a piece of zinc or iron into a blue copper sulfate solution and watch the c
   answer: 1
   explanation: "Zinc (more reactive) replaces copper (less reactive) in the copper sulfate compound. Copper is pushed out and appears as free copper metal, while zinc takes copper's place in the compound, forming zinc sulfate."
 
-- question: "A single replacement reaction will always occur when you mix an element with a compound."
+- question: "A single replacement reaction will generally occur when you mix an element with a compound."
   type: true-false
   answer: false
   explanation: "A single replacement reaction only occurs if the free element is more reactive than the element it would replace. For example, copper cannot replace zinc in zinc sulfate because copper is less reactive than zinc. An activity series helps predict whether a given replacement will occur."

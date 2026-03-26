@@ -55,7 +55,7 @@ Pour water over two trays of soil — one bare, one with grass or mulch cover �
   answer: "Farmers in the Great Plains plowed up millions of acres of deep-rooted native prairie grasses to plant wheat. When a severe drought hit in the early 1930s, the crops failed and the exposed, dry topsoil — no longer held in place by grass roots — was picked up by wind and carried away in massive dust storms. The combination of poor land management and natural drought created one of the worst environmental disasters in US history."
   explanation: "The Dust Bowl led directly to modern soil conservation practices and the creation of the Soil Conservation Service (now the Natural Resources Conservation Service). It demonstrated that soil is a finite resource that can be destroyed by mismanagement, even in a country with seemingly unlimited farmland."
 
-- question: "It takes only a few years to replace topsoil lost to erosion."
+- question: "It takes mainly a few years to replace topsoil lost to erosion."
   type: true-false
   answer: false
   explanation: "Topsoil formation is extremely slow — it typically takes 100 to 500 years to form one centimeter of topsoil through the slow processes of weathering, organic matter accumulation, and biological activity. A single heavy rainstorm or windstorm can erode centimeters of topsoil in hours. This means that topsoil lost to erosion is effectively nonrenewable on any practical human timescale."

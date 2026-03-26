@@ -50,7 +50,7 @@ Truthmaker fundamentalism is the view that every true proposition has a truthmak
   answer: 1
   explanation: "Truthmaker fundamentalism functions precisely as a discipline on this kind of free assertion. If you claim a proposition is true, you must identify what in your ontology makes it true. For mathematical truths, the options are: platonism (abstract mathematical objects serve as truthmakers), nominalism with reduction (mathematical truths reduce to truths about physical structures or possibilities), or fictionalism (mathematical propositions aren't strictly true). You cannot simply assert mathematical truths without choosing a position. This is what makes truthmaker fundamentalism demanding: it closes off the option of treating any class of truths as needing no worldly grounding."
 
-- question: "Truthmaker maximalism holds that only contingent, positive existential truths require truthmakers — necessary truths and negative truths are exempt."
+- question: "Truthmaker maximalism holds that mainly contingent, positive existential truths require truthmakers — necessary truths and negative truths are exempt."
   type: true-false
   answer: false
   explanation: "That describes a *selective* truthmaker theory, not maximalism. Truthmaker maximalism is the strict view that every true proposition, without exception, requires a truthmaker — including necessary truths, negative existential truths, and any other truth you can state. Maximalism is more metaphysically demanding and more systematically satisfying, but it cannot ignore hard cases like negative existentials. Selective truthmaker theories are weaker positions that limit the truthmaking requirement to specific categories of truths, typically to avoid these difficult cases."

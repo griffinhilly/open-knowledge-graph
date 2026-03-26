@@ -50,7 +50,7 @@ A period is not the same as a phrase—a period is a grouping of two (sometimes 
   answer: 1
   explanation: "A period consists of two phrases — typically antecedent (ending inconclusively) + consequent (ending conclusively). A single 4-bar phrase with a conclusive tonic arrival is just that — one phrase. The student is confusing a single complete phrase with the two-phrase structure that defines a period. A period would typically be 8 bars: 4 bars ending on V, then 4 bars ending on I."
 
-- question: "In a parallel period, the consequent phrase introduces entirely new melodic material to contrast with the antecedent."
+- question: "In a parallel period, the consequent phrase introduces largely new melodic material to contrast with the antecedent."
   type: true-false
   answer: false
   explanation: "By definition, a parallel period has the consequent begin with the same or similar melodic material as the antecedent. It is the contrasting period where the consequent introduces new melodic material. The distinction is: parallel = similar opening material (the consequent echoes the antecedent before diverging harmonically); contrasting = different opening material (the consequent responds rather than echoes)."

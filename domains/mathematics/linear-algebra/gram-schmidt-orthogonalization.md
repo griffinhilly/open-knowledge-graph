@@ -45,7 +45,7 @@ The Gram-Schmidt process converts a linearly independent set {v₁, ..., vₖ} i
   answer: 1
   explanation: "When the columns of A are nearly linearly dependent, A has a large condition number κ. Forming AᵀA squares the condition number to κ², dramatically amplifying rounding errors. This can make the normal equations numerically useless even when the true solution is well-defined. QR decomposition avoids this: solving via the orthonormal Q and triangular R never squares the condition number. Option C is mathematically true but practically false — identical in exact arithmetic, but hugely different under floating-point. Option D is also true but misses the point: symmetric positive definite is not sufficient for stability when the condition number is enormous."
 
-- question: "The Gram-Schmidt process can be applied to any set of vectors, linearly independent or not, and always produces an orthonormal set of the same size as the input."
+- question: "The Gram-Schmidt process can be applied to any set of vectors, linearly independent or not, and generally produces an orthonormal set of the same size as the input."
   type: true-false
   answer: false
   explanation: "When a vector is linearly dependent on the preceding ones, its residual after subtracting all projections is the zero vector — which cannot be normalized (division by zero). The process breaks down at that vector. In practice, a linearly dependent vector is discarded, and the output set is smaller than the input. Gram-Schmidt produces an orthonormal basis for the *span* of the input vectors; if the inputs are linearly dependent, the span has dimension less than the number of input vectors."

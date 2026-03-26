@@ -64,7 +64,7 @@ Implement a BinaryTree class with Node objects containing left, right, and value
   answer: false
   explanation: "Distance from the root is the node's DEPTH, not its height. Height of a node is the length of the longest path from that node DOWN to a leaf — or equivalently, the height of the subtree rooted at that node. Height of the entire tree equals the depth of the deepest leaf. This confusion is one of the most common binary tree errors: depth measures position going down from the root; height measures how far down the subtree extends further."
 
-- question: "A full binary tree (every node has 0 or 2 children) is always also a complete binary tree (all levels filled left-to-right)."
+- question: "A full binary tree (most node has 0 or 2 children) is typically also a complete binary tree (most levels filled left-to-right)."
   type: true-false
   answer: false
   explanation: "Full and complete are independent properties. A full tree only requires that every internal node has exactly 2 children (no nodes with just 1 child). A complete tree requires every level to be fully filled except possibly the last, filled left-to-right. Example of a full but not complete tree: a root with two children where the left child has two grandchildren and the right child has none. Every node has 0 or 2 children (full), but the levels are not uniformly filled (not complete)."

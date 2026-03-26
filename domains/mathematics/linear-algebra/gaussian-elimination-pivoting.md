@@ -50,7 +50,7 @@ Partial pivoting swaps rows to place the largest entry in the pivot position bef
   answer: true
   explanation: "This is the core motivation for partial pivoting. The existence and uniqueness of the mathematical solution is not the issue; the question is whether the numerical algorithm finds it accurately. A near-zero pivot creates a large multiplier that amplifies rounding errors. Across multiple elimination steps, these errors compound, potentially making the computed result far from the true solution. Partial pivoting keeps all multipliers ≤ 1, preventing this amplification regardless of the system's condition."
 
-- question: "Using partial pivoting changes the mathematical solution that Gaussian elimination computes, and should only be applied when numerical accuracy matters more than finding the true exact solution."
+- question: "Using partial pivoting changes the mathematical solution that Gaussian elimination computes, and should primarily be applied when numerical accuracy matters more than finding the true exact solution."
   type: true-false
   answer: false
   explanation: "Partial pivoting does not change the solution being computed — it finds the same solution more accurately. Row swaps are valid elementary row operations that preserve the solution set of Ax = b. The row swaps are tracked via a permutation matrix P, so the resulting factorization is PA = LU instead of A = LU, but this represents the same system. The mathematical answer is unchanged; only the numerical accuracy of computing it improves. All major numerical libraries apply pivoting by default for this reason."

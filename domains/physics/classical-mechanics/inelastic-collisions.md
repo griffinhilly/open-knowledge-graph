@@ -58,7 +58,7 @@ Momentum is conserved in all collisions if no external forces act. The term 'ine
   answer: true
   explanation: "Momentum conservation follows directly from Newton's third law: the forces the two objects exert on each other are equal and opposite, so the impulses they exchange cancel, leaving total momentum unchanged. This applies to every type of collision — perfectly elastic, partially inelastic, perfectly inelastic, or anything in between — as long as no external forces (like friction with the ground or an applied push) act during the collision. This universality is why momentum conservation is the starting equation for every collision problem."
 
-- question: "In a perfectly inelastic collision, all of the kinetic energy before the collision is converted to heat and deformation — so kinetic energy after equals zero."
+- question: "In a perfectly inelastic collision, most of the kinetic energy before the collision is converted to heat and deformation — so kinetic energy after equals zero."
   type: true-false
   answer: false
   explanation: "If kinetic energy after were zero, the objects would be stationary after the collision — but that would require zero final momentum, violating momentum conservation (unless the initial momentum was also zero). A perfectly inelastic collision is one where the objects stick together and move with a common final velocity v_f = (m₁v₁ + m₂v₂)/(m₁ + m₂). This final velocity is generally nonzero, so the system retains kinetic energy. The perfectly inelastic collision is the *maximum* energy loss case, but the maximum is not 100% unless the initial total momentum happened to be zero."

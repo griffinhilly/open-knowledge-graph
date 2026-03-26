@@ -51,7 +51,7 @@ Temperate phages integrate at specific chromosomal attachment (att) sites. Inacc
   answer: true
   explanation: "Because the defective phage always carries the same bacterial DNA — determined by what flanked the att site at the time of imprecise excision — every transduction event delivers identical genetic cargo. This predictability and repeatability makes specialized transduction far more efficient than generalized transduction for any specific gene near the att site. It was this reliability that made specialized transduction a powerful tool for early fine-structure genetic mapping near phage integration sites, before modern molecular cloning techniques were available."
 
-- question: "Specialized transduction requires that the prophage excises precisely and completely from the bacterial chromosome, regenerating the original integration boundaries."
+- question: "Specialized transduction requires that the prophage excises precisely and mostly from the bacterial chromosome, regenerating the original integration boundaries."
   type: true-false
   answer: false
   explanation: "Specialized transduction results from precisely the opposite of precise excision. Normal (precise) excision is the exact reversal of integration — recombination between attL and attR regenerates intact phage and bacterial chromosomes with no gene exchange. Specialized transduction requires *imprecise* excision, where the recombination machinery cuts asymmetrically and at the wrong position, incorporating flanking bacterial DNA into the phage genome while leaving phage DNA behind. This happens rarely — roughly 10⁻⁵ to 10⁻⁶ of excision events — making it an infrequent but consequential mistake."

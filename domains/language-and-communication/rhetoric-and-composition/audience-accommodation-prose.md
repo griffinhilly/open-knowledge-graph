@@ -57,7 +57,7 @@ Rewrite the same argument for two different audiences and identify specific voca
   answer: true
   explanation: "Context provision is one of the primary levers of register accommodation. Expert audiences find unnecessary context condescending ('as you know...'); omitting it signals respect for their knowledge and familiarity with the discourse community. The choice of how much to explain is always audience-driven, not arbitrary."
 
-- question: "Using formal, complex vocabulary is always the safest register choice because it signals seriousness and careful thinking regardless of audience."
+- question: "Using formal, complex vocabulary is generally the safest register choice because it signals seriousness and careful thinking regardless of audience."
   type: true-false
   answer: false
   explanation: "Register is not a scale from 'bad/informal' to 'good/formal.' Mismatched register — even overly formal register applied to the wrong audience or genre — fails to serve the reader and can undermine the writer's ethos. A policy brief in academic prose for legislators, or a scholarly article in casual language for a journal, both fail for register reasons. The correct register is the one calibrated to the specific audience's knowledge, expectations, and trust."

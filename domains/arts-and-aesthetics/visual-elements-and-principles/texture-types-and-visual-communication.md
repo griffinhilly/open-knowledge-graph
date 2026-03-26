@@ -53,7 +53,7 @@ Create texture studies using various media—pencil, paint, ink, collage, mixed 
   answer: true
   explanation: "This is the physical basis for rendering visual texture convincingly. A smooth, reflective surface (glass, polished metal) concentrates reflected light into sharp, localized highlights with abrupt edges. A rough surface (stone, bark, fabric) scatters light in many directions, producing diffuse, softer value transitions with irregular patterns of tiny lights and darks. Understanding this light behavior is what lets artists render any surface from observation."
 
-- question: "Visual texture and tactile texture always match — a surface that looks rough in an artwork will also feel rough when physically touched."
+- question: "Visual texture and tactile texture usually match — a surface that looks rough in an artwork will also feel rough when physically touched."
   type: true-false
   answer: false
   explanation: "Visual and tactile texture are independent properties. A photograph of sandpaper looks gritty but feels like glossy photo paper. A charcoal drawing of rough bark has a smooth paper surface. They can align (as in impasto painting, where built-up paint creates actual physical ridges) or diverge entirely (as in any flat medium). Tactile texture is physical reality; visual texture is an illusion constructed through marks and value."

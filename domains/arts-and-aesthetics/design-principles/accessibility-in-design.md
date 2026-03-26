@@ -50,7 +50,7 @@ Audit an existing website using a contrast checker (e.g., WebAIM) and a screen r
   answer: 2
   explanation: "A 2.8:1 ratio falls well below the 4.5:1 AA minimum for normal text. This primarily affects users with low vision, but the curb-cut effect means it also degrades readability for the elderly (whose contrast sensitivity declines with age), users on low-quality screens, and anyone reading in bright sunlight. WCAG AA is the widely adopted compliance baseline; the design as proposed fails it."
 
-- question: "The curb-cut effect in accessibility design means that features built specifically for disabled users almost always create a worse experience for non-disabled users who are forced to encounter them."
+- question: "The curb-cut effect in accessibility design means that features built specifically for disabled users almost generally create a worse experience for non-disabled users who are forced to encounter them."
   type: true-false
   answer: false
   explanation: "The curb-cut effect is the opposite: accessibility improvements consistently benefit a much wider user base than the specific disability they target. Captions benefit users in noisy environments. High contrast benefits outdoor mobile users. Keyboard navigation benefits power users who prefer not to use a mouse. The name comes from sidewalk curb cuts, designed for wheelchair users, which turned out to benefit parents with strollers, delivery workers, and cyclists. Accessibility and usability are aligned, not in tension."

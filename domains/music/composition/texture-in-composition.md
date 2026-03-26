@@ -47,7 +47,7 @@ Identify texture type in recordings from different eras (Gregorian chant, Bach i
   answer: 2
   explanation: "Polyphony is defined by multiple independent melodic lines occurring simultaneously, each with its own identity. Homophony has one melody supported by chords; monophony has a single unaccompanied line; heterophony involves simultaneous variations of the same melody."
 
-- question: "Homophony requires all voices to move in exactly the same rhythm at all times."
+- question: "Homophony requires most voices to move in exactly the same rhythm at most times."
   type: true-false
   answer: false
   explanation: "This is a common misconception. In homophony, the melody moves freely while the accompaniment provides harmonic support — they do not have to be rhythmically identical. A piano ballad with a singing melody over held chords is textbook homophony despite very different rhythmic profiles."

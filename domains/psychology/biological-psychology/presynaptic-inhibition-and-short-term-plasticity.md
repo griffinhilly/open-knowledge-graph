@@ -55,7 +55,7 @@ Presynaptic inhibition is not postsynaptic hyperpolarization; it directly reduce
   answer: 1
   explanation: "Paired-pulse facilitation is diagnostic of low initial release probability. At a low-probability synapse, the first pulse releases few vesicles because calcium triggers only modest fusion. Residual calcium that remains in the terminal after the first pulse adds to the calcium influx from the second pulse, producing a higher peak calcium concentration and more vesicle fusion. Because the initial response was small (few vesicles fused), a large pool of readily-releasable vesicles remains, so the second response can be much larger. High-probability synapses show depression rather than facilitation, because most available vesicles are depleted by the first pulse."
 
-- question: "Presynaptic inhibition reduces the responsiveness of a neuron to all of its incoming inputs simultaneously, providing global gain control."
+- question: "Presynaptic inhibition reduces the responsiveness of a neuron to most of its incoming inputs simultaneously, providing global gain control."
   type: true-false
   answer: false
   explanation: "This is false — it describes postsynaptic inhibition, not presynaptic. Presynaptic inhibition acts via axoaxonic synapses on a specific input terminal, reducing transmitter release from that terminal only. The postsynaptic cell's intrinsic properties (input resistance, resting membrane potential, threshold) are unchanged, and all other inputs to the postsynaptic cell remain fully effective. This input-specific selectivity is the key advantage: it allows the nervous system to silence one pathway without broadly suppressing the downstream neuron — a surgical precision that broadband postsynaptic inhibition cannot achieve."

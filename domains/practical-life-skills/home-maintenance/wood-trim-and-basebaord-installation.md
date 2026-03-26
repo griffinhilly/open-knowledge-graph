@@ -60,7 +60,7 @@ All corners are exactly 45-degree angles (real corners are often imperfect); gap
   answer: true
   explanation: "At outside corners, the miter joint flexes as wood expands and contracts with humidity changes. Caulk applied to an outside miter will crack and look worse than no caulk at all. The correct approach is to ensure the miter fits tightly before fastening, cross-nail the joint for mechanical hold, and prime before painting so the paint film bridges the joint. Caulk is appropriate at inside corners, between trim and wall surfaces, and between trim and floors — not at outside miters."
 
-- question: "Because room corners are architectural features, they can be assumed to measure exactly 90 degrees, and inside corner baseboard can always be cut at 45 degrees for a clean fit."
+- question: "Because room corners are architectural features, they can be assumed to measure exactly 90 degrees, and inside corner baseboard can generally be cut at 45 degrees for a clean fit."
   type: true-false
   answer: false
   explanation: "Real corners are almost never exactly 90 degrees — framing shifts, drywall thickness varies, and settling changes angles over time. Assuming 45 degrees will typically produce a joint that either gaps or binds. The correct practice is to measure the actual corner angle (with a digital protractor or a scrap-wood test bevel) and cut to that measurement. For inside corners, the cope joint sidesteps the angle problem entirely: one piece runs straight to the wall and the second is shaped to overlap it, accommodating imperfect angles automatically."

@@ -49,7 +49,7 @@ Transcribe the harmonic rhythm of contrasting passages (a Baroque prelude vs. a 
   answer: 2
   explanation: "Accelerating harmonic rhythm mimics the feeling of increasing activity and forward momentum. As chords change more frequently, the listener senses energy building — a common technique in Baroque sequences and Romantic developmental passages. Holding a single chord creates stability or stasis, the opposite of urgency."
 
-- question: "A piece with a very slow tempo must also have a slow harmonic rhythm."
+- question: "A piece with a very slow tempo should also have a slow harmonic rhythm."
   type: true-false
   answer: false
   explanation: "Harmonic rhythm (rate of chord change) and tempo (rate of beat) are completely independent dimensions. A slow-tempo piece can have chords changing every single beat, creating a sense of thick, active harmony. Conversely, a fast piece might sit on one chord for many bars, producing a feeling of openness or suspension. Composers manipulate both independently to shape musical character."

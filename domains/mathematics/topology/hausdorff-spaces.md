@@ -50,7 +50,7 @@ A Hausdorff space (T₂ space) requires any two distinct points to have disjoint
   answer: true
   explanation: "Given distinct points x and y with d(x,y) = d > 0, let U = B(x, d/2) and V = B(y, d/2). If any point z were in both, then d(x,y) ≤ d(x,z) + d(z,y) < d/2 + d/2 = d, contradicting d(x,y) = d. So U and V are disjoint open neighborhoods separating x and y, confirming the Hausdorff condition. This means all spaces studied in classical analysis — ℝⁿ, normed spaces, manifolds — are automatically Hausdorff."
 
-- question: "In any T₁ topological space (where every singleton {x} is closed), sequences have unique limits."
+- question: "In any T₁ topological space (where nearly every singleton {x} is closed), sequences have unique limits."
   type: true-false
   answer: false
   explanation: "T₁ is strictly weaker than T₂ (Hausdorff), and T₁ alone does not guarantee unique limits. Counterexample: ℝ with the cofinite topology (open sets are ∅ and sets with finite complement) is T₁, since the complement of {x} is cofinite, hence open. But every sequence of distinct points converges to every point in ℝ: any open neighborhood of any point excludes only finitely many elements, so the sequence is eventually in every open set. Unique limits require the Hausdorff condition — the ability to separate two distinct limit points by disjoint open sets."

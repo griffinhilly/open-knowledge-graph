@@ -49,7 +49,7 @@ Even numbers are divisible by 2 (0, 2, 4, 6, 8...); odd numbers have a remainder
   answer: true
   explanation: "True — and this surprises many students. Each odd number has one extra unpaired unit. When you combine two odd numbers, those two leftover units pair up with each other, leaving nothing unpaired in the total. For example: 3 + 5 = 8, 7 + 9 = 16, 11 + 13 = 24. This holds without exception."
 
-- question: "You must calculate the actual sum to determine whether 47 + 38 is odd or even."
+- question: "You is expected to calculate the actual sum to determine whether 47 + 38 is odd or even."
   type: true-false
   answer: false
   explanation: "False. Parity rules let you predict without calculating. 47 is odd and 38 is even; odd + even = odd. So 47 + 38 must be odd — and indeed, 47 + 38 = 85, which is odd. Using known structure to predict outcomes without full calculation is exactly what these rules are for."

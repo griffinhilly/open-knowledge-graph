@@ -47,7 +47,7 @@ The genetic code is degenerate: 61 codons specify 20 amino acids, with most amin
   answer: true
   explanation: "Inosine (I), a modified base common at the wobble position of tRNA anticodons, can form base pairs with U, C, or A in the third codon position. This means one tRNA can decode three synonymous codons — for example, a tRNA reading GCU, GCC, and GCA (all encoding alanine). This is the core mechanism by which the cell needs only ~45 tRNA species to decode 61 sense codons. Without this flexibility, each of the 61 codons would require its own cognate tRNA."
 
-- question: "Wobble base pairing allows flexibility at all three positions of the codon-anticodon interaction, which is why the genetic code is degenerate."
+- question: "Wobble base pairing allows flexibility at most three positions of the codon-anticodon interaction, which is why the genetic code is degenerate."
   type: true-false
   answer: false
   explanation: "Wobble base pairing is specifically restricted to the third codon position. The first two positions require standard Watson-Crick base pairing (A-U, G-C), which is why changes at positions one or two almost always alter the amino acid specified. Degeneracy is concentrated at the third position precisely because wobble pairing there allows one tRNA to recognize multiple codons. If wobble occurred at all three positions, the specificity needed to translate the correct amino acid would be lost entirely."

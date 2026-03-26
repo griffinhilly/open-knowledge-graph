@@ -55,7 +55,7 @@ The surface energy budget partitions incoming solar radiation into reflected sho
   answer: true
   explanation: "When water is abundantly available, evapotranspiration dominates the energy partition. Crops transpire heavily, channeling most available energy into vaporizing water rather than warming the air. Bowen ratios below 0.5 are common for irrigated fields in summer. This is why agricultural regions tend to be cooler and more humid than nearby dry or urbanized areas receiving the same solar radiation. Contrast this with a harvested field or desert where virtually all energy becomes sensible heat."
 
-- question: "Albedo affects only how much incoming solar radiation is reflected and has no influence on how the remaining absorbed energy is partitioned into sensible heat, latent heat, and ground heat fluxes."
+- question: "Albedo affects mainly how much incoming solar radiation is reflected and has no influence on how the remaining absorbed energy is partitioned into sensible heat, latent heat, and ground heat fluxes."
   type: true-false
   answer: false
   explanation: "Albedo determines the absorbed shortwave radiation — the first term in the surface energy budget. This absorbed radiation combines with net longwave terms to produce the 'available energy' (net radiation) that is then partitioned among sensible heat, latent heat, and ground fluxes. A surface with high albedo (e.g., fresh snow: 80-90%) absorbs little energy, so *all three* of the outgoing flux terms are constrained to be small — the budget must balance. Albedo thus sets the total energy pie, not just the reflection slice."

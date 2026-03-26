@@ -44,7 +44,7 @@ Mark each paragraph of a story as 'scene' or 'summary' and map the ratio across 
   answer: 1
   explanation: "When narrative time slows to match or exceed story time, readers experience duration alongside the character — which is exactly how tension is produced. A one-sentence summary or a skip compresses the wait out of existence and eliminates the tension. Backstory is a digression, not a pacing tool. The scene renders the wait as something the reader lives through rather than is told about."
 
-- question: "Faster narrative pacing is always more effective than slow pacing at creating reader engagement and tension."
+- question: "Faster narrative pacing is typically more effective than slow pacing at creating reader engagement and tension."
   type: true-false
   answer: false
   explanation: "Pacing is not a dial to be turned up for maximum effect — it is a tool of contrast and rhythm. Some of the most tension-filled moments in fiction move achingly slowly: the reader's attention is held not by speed but by intensity of focus. Fast pacing can actually dissipate tension by moving past moments before their weight registers. Effective pacing is about matching speed to the psychological experience the author wants to create, not about maximizing velocity."

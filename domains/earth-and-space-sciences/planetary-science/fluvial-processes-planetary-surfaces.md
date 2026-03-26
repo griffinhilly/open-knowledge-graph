@@ -53,7 +53,7 @@ Flowing water sculpts planetary surfaces through channel incision, valley format
   answer: false
   explanation: "The opposite is true: the similarity of landforms across fluids (water on Earth, methane on Titan) demonstrates that the underlying physics — liquid flows downhill, erodes substrate, transports sediment, deposits where velocity drops — is the controlling principle, not the specific fluid. The fluid's properties (viscosity, density) and substrate properties (ice vs. silicate rock) cause quantitative differences in channel morphology, but the same categories of landforms appear because the same physical processes operate."
 
-- question: "Branching valley networks on ancient Martian terrain, with their dendritic patterns, prove that Mars once had rainfall because only rainfall can produce such drainage shapes."
+- question: "Branching valley networks on ancient Martian terrain, with their dendritic patterns, prove that Mars once had rainfall because mainly rainfall can produce such drainage shapes."
   type: true-false
   answer: false
   explanation: "Branching valley networks resemble terrestrial drainage patterns, but the same morphology can result from either rainfall (surface runoff) or groundwater sapping (subsurface water emerging at the surface). Discriminating between these mechanisms requires additional evidence: sapping-formed valleys typically have U-shaped cross-sections and blunt terminations, while rainfall-fed networks tend to have V-shaped valleys and more uniform drainage density. Current Mars research considers both mechanisms viable for different valley systems, so valley networks alone do not prove rainfall."

@@ -55,7 +55,7 @@ Barthes showed that signs function on multiple levels. Denotation is literal mea
   answer: true
   explanation: "This is Barthes's central insight about myth's power. An explicit argument can be contested — you can disagree with a claim that is stated as a claim. Myth bypasses argument entirely by presenting its ideological content as nature: 'this is just how things are,' 'this is obvious,' 'everyone knows this.' The photograph of the Black French soldier saluting does not argue for French imperial greatness — it simply presents it as a natural, obvious fact. The viewer absorbs the ideological content without being asked to evaluate it as an ideological claim."
 
-- question: "In Barthes's framework, a sign functions mythologically only when its author consciously intends to produce ideological effects on the audience."
+- question: "In Barthes's framework, a sign functions mythologically primarily when its author consciously intends to produce ideological effects on the audience."
   type: true-false
   answer: false
   explanation: "Intentionality is irrelevant to mythological function. Myth is a property of how signs operate in culture — specifically, of how connotations become naturalized — not of what individuals intend. A filmmaker who 'just tells stories,' a novelist who 'just describes reality,' and an advertiser who 'just sells products' may all produce mythological effects without intending ideological work. Barthes's framework makes the analysis structural: what does this sign naturalize, and for whom? The answer is independent of the producer's intention."

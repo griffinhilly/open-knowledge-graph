@@ -40,7 +40,7 @@ Capture TCP handshakes and data transmission using Wireshark; observe sequence n
   answer: 1
   explanation: "TCP guarantees the application receives a complete, ordered byte stream — not that every packet survives. Packets may be dropped and retransmitted transparently. UDP makes no delivery guarantees at all."
 
-- question: "TCP guarantees that every individual IP packet it sends will arrive at the destination."
+- question: "TCP guarantees that nearly every individual IP packet it sends will arrive at the destination."
   type: true-false
   answer: false
   explanation: "TCP guarantees the byte stream is delivered in order and without gaps, not that every underlying packet survives. Lost packets are detected via missing acknowledgments and silently retransmitted — the application never sees the individual packets."

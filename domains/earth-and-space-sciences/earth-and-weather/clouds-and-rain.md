@@ -48,7 +48,7 @@ Go outside and observe clouds, naming basic types (cumulus, stratus, cirrus). Ke
   answer: 1
   explanation: "All clouds are made of water droplets (or ice crystals). The difference in appearance is about thickness. Thin clouds let sunlight scatter through them, appearing white and bright. Thick, tall clouds block most sunlight from passing through, so their bottoms appear dark gray. The darker the cloud base, the taller and water-packed the cloud usually is -- and the more likely it is to produce rain."
 
-- question: "Every cloud you see will eventually produce rain."
+- question: "Most cloud you see will eventually produce rain."
   type: true-false
   answer: false
   explanation: "Most clouds never produce rain. The tiny droplets in many clouds are too small and light to fall -- they stay suspended in the air. Only when conditions cause droplets to grow large and heavy (by colliding and merging with other droplets) does rain fall. Many fair-weather cumulus clouds form and evaporate without ever producing a single raindrop."

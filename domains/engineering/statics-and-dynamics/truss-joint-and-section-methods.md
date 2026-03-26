@@ -56,7 +56,7 @@ Trusses are frameworks of straight two-force members connected at pin joints. Th
   answer: true
   explanation: "These three conditions together guarantee that no bending moment can be applied to the ends of a member. A pin transmits forces but not moments. A straight member with forces only at its ends (and no loads along its length) must have those end forces aligned with the member axis — otherwise there would be a net moment on the member. This is the definition of a two-force member. The axial-only assumption reduces each member's unknown from three force components (Fx, Fy, M) to one scalar (magnitude with sign indicating tension or compression), making the problem tractable."
 
-- question: "In the method of sections, you must always cut through exactly three members to ensure the resulting equilibrium system is uniquely solvable."
+- question: "In the method of sections, you should typically cut through exactly three members to ensure the resulting equilibrium system is uniquely solvable."
   type: true-false
   answer: false
   explanation: "You need the number of unknown cut member forces to be no greater than the number of available equilibrium equations. In 2D, you have three equations (ΣFx, ΣFy, ΣM). If your cut exposes only two unknown member forces (because the third cut member is already known or is a zero-force member), two equations suffice. Cutting through fewer than three unknowns is valid and sometimes advantageous. The constraint is that you cannot expose more unknowns than equations — cutting through four or more unknown members would give an indeterminate system."

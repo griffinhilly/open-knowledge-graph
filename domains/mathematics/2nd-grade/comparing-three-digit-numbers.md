@@ -57,7 +57,7 @@ Start by comparing numbers with very different hundreds digits (e.g., 721 vs. 38
   answer: 2
   explanation: "Always start at the leftmost (highest) place value: the hundreds. Here, both numbers have 5 hundreds, so they are equal at this position and you move to the tens. Comparing ones first or adding all digits are incorrect strategies that can give wrong results. Adding the digits (5+6+3=14 vs. 5+7+8=20) doesn't compare place values and would give nonsense comparisons."
 
-- question: "When comparing two three-digit numbers, you must examine all three digits before deciding which number is greater."
+- question: "When comparing two three-digit numbers, you should examine most three digits before deciding which number is greater."
   type: true-false
   answer: false
   explanation: "You only need to compare until you find a difference. If the hundreds digits differ, the comparison is done — the one with more hundreds is greater, regardless of the tens and ones. You only move to the tens if hundreds are equal, and only to ones if tens are also equal. Stopping at the first unequal digit is both faster and the logical basis of place-value comparison."

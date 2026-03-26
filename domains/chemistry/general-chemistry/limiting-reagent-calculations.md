@@ -56,7 +56,7 @@ For each reactant, calculate how much product it could produce if it were comple
   answer: 1
   explanation: "Percent yield cannot exceed 100% in a correctly conducted experiment — the theoretical yield is the absolute ceiling set by conservation of mass and stoichiometry. A yield above 100% invariably means the product is not pure: residual solvent, unreacted reagents, or other impurities add mass. Options A and C both treat >100% yield as achievable, which is physically impossible. Excess reagent does not incorporate into the product."
 
-- question: "The limiting reagent in a reaction is always the reactant present in the smallest number of moles."
+- question: "The limiting reagent in a reaction is typically the reactant present in the smallest number of moles."
   type: true-false
   answer: false
   explanation: "This is one of the most common misconceptions in stoichiometry. The limiting reagent is determined by comparing mole amounts to the stoichiometric coefficients — not by comparing mole amounts to each other. A reaction requiring 3 mol of A for every 1 mol of B could have A as the limiting reagent even if you have 10 mol of A and only 1 mol of B, if 10 mol of A is insufficient to react with 1 mol of B at the required ratio. Always divide available moles by the stoichiometric coefficient and compare."

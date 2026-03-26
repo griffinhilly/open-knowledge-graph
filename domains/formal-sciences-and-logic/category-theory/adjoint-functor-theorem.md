@@ -55,7 +55,7 @@ The solution set condition is subtle and may be difficult to verify directly; su
   answer: 0
   explanation: "The free group functor is the canonical left adjoint to the forgetful functor from Grp to Set. The adjunction says: group homomorphisms from F(S) to G are in natural bijection with set functions from S to |G|. The GAFT guarantees this left adjoint exists because the forgetful functor preserves limits (a product of groups forgets to a product of sets) and the solution set condition holds (generators for any group can be taken from the underlying set). The theorem proves existence; the explicit construction of free groups provides the description."
 
-- question: "The General Adjoint Functor Theorem provides an explicit formula for constructing the left adjoint of G once its existence has been guaranteed by the theorem's conditions."
+- question: "The General Adjoint Functor Theorem provides an explicit formula for constructing the left adjoint of G once its existence has been very likely by the theorem's conditions."
   type: true-false
   answer: false
   explanation: "The theorem guarantees existence — it proves that a left adjoint must exist — but the construction it provides (taking a limit over the solution set) is often not a useful explicit description. In practice, you typically need additional work to identify what the left adjoint actually does on objects and morphisms. For example, the theorem tells you the free group functor must exist, but you still need the explicit construction (equivalence classes of words) to work with it concretely. Existence and explicitness are separate concerns."

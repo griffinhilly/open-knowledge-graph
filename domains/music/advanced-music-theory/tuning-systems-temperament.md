@@ -54,7 +54,7 @@ Different tuning systems (just intonation, Pythagorean, equal temperament, meant
   answer: 1
   explanation: "(3/2)^12 = 531441/4096 ≈ 129.746, while 2^7 = 128. If the circle of fifths truly closed, twelve pure fifths would equal seven octaves — but they don't. The Pythagorean comma (≈ 1.01364, or about 23.5 cents) is this gap. Every tuning system must deal with it: Pythagorean tuning leaves the comma in one wide third, meantone spreads it through the thirds, equal temperament distributes it equally across all twelve fifths by making each fifth exactly 700 cents (2 cents narrower than the pure 701.96 cents)."
 
-- question: "In equal temperament, all musical intervals except the octave are tuned to pure frequency ratios, which is why equal temperament produces the most consonant chords of any tuning system."
+- question: "In equal temperament, most musical intervals except the octave are tuned to pure frequency ratios, which is why equal temperament produces the most consonant chords of any tuning system."
   type: true-false
   answer: false
   explanation: "This is the opposite of the truth. Equal temperament tunes all intervals (except the octave) to slightly impure ratios — the semitone is exactly 2^(1/12), an irrational number that matches no simple integer ratio. A pure perfect fifth is 3:2 = 1.5 exactly; the equal-tempered fifth is 2^(7/12) ≈ 1.4983, about 2 cents flat. This slight impurity is the price of universal transposability. Systems like just intonation and meantone produce purer (more consonant) intervals in their favored keys — equal temperament is the compromise that makes all keys equally (slightly) impure."

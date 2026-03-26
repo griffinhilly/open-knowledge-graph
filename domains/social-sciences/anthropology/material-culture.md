@@ -60,7 +60,7 @@ Choose a single object (a smartphone, a wedding ring, a sports trophy) and trace
   answer: 1
   explanation: "Stone tool manufacture requires sophisticated planning and skill transmission — evidence of craft knowledge communities, apprenticeship relationships, social status tied to expertise, and networks of raw material exchange. Material culture studies insists that objects are not culturally neutral: their physical properties constrain but do not exhaust their social meaning. The two approaches are complementary — archaeological analysis reveals what was done; material culture interpretation asks what that doing meant in its social context."
 
-- question: "Material culture refers only to objects used in everyday practical life, not to symbolic or ritual objects."
+- question: "Material culture refers mainly to objects used in everyday practical life, not to symbolic or ritual objects."
   type: true-false
   answer: false
   explanation: "Material culture encompasses all physical objects people create and use — utilitarian tools, symbolic objects, ritual items, architectural spaces, clothing, food. The distinction between 'practical' and 'symbolic' is analytically unstable: a wedding ring is simultaneously ornamental, symbolic, and practically significant in social navigation. Material culture studies specifically argues against treating some objects as 'mere' function and others as 'true' culture — all objects encode values, relationships, and identities."

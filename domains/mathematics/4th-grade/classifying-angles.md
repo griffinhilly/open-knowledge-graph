@@ -56,7 +56,7 @@ Start with the right angle as the benchmark -- use a corner of a sheet of paper.
   answer: true
   explanation: "Angle size is purely about rotation — the amount of opening between the rays. Ray length has no effect on the angle. A tiny triangle drawn in the corner of your paper and a giant triangle on the whiteboard can have identical angles. This is why we measure angles in degrees, not in length units."
 
-- question: "A right angle is only a right angle when one ray is pointing straight up and the other is pointing straight to the side."
+- question: "A right angle is primarily a right angle when one ray is pointing straight up and the other is pointing straight to the side."
   type: true-false
   answer: false
   explanation: "A right angle is exactly 90° of rotation between two rays, regardless of orientation. A tilted square still has four right angles. A corner in a photograph taken at an angle still shows right angles. The square symbol drawn at the vertex indicates a right angle — it does not require the rays to be horizontal and vertical."

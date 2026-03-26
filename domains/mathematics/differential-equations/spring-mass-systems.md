@@ -46,7 +46,7 @@ A spring-mass system with mass m, spring constant k, and damping c is governed b
   answer: 2
   explanation: "Critical damping (c² = 4mk) is the threshold condition where the system returns to equilibrium as quickly as possible without any oscillation. Option A is the most common misconception: overdamping uses more damping but returns more slowly than critical damping. The door closer is the textbook example of critical damping design — fast enough to close promptly, with no bounce-back."
 
-- question: "Adding more damping to a spring-mass system always makes it return to equilibrium faster."
+- question: "Adding more damping to a spring-mass system generally makes it return to equilibrium faster."
   type: true-false
   answer: false
   explanation: "Critical damping produces the fastest return to equilibrium. Adding more damping pushes the system into the overdamped regime, where return is actually slower. The relationship is not monotonic: underdamped systems oscillate before settling, critical damping is the fastest non-oscillatory return, and overdamped systems are sluggish. 'More damping = faster settling' is only true when moving from underdamped toward critical — not beyond it."

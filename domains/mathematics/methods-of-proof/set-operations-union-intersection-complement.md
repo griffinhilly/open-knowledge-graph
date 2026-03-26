@@ -54,7 +54,7 @@ Union (A ∪ B) combines all elements from two sets; intersection (A ∩ B) cont
   answer: false
   explanation: "De Morgan's laws for sets are not separate from the logical versions — they are the same rule applied to membership statements. The statement 'x ∈ (A ∪ B)ᶜ' means 'x ∉ A ∪ B', which means 'not (x ∈ A or x ∈ B)', which by the logical De Morgan's law means 'x ∉ A and x ∉ B', which means 'x ∈ Aᶜ and x ∈ Bᶜ', which means 'x ∈ Aᶜ ∩ Bᶜ'. The proof IS the logical law, applied through the definitions of the set operations. Set theory and logic are the same system expressed in two notations."
 
-- question: "For any two sets A and B, A ∪ B always contains strictly more elements than A ∩ B."
+- question: "For any two sets A and B, A ∪ B typically contains strictly more elements than A ∩ B."
   type: true-false
   answer: false
   explanation: "This is false in the case where A = B. If A and B are identical sets, then A ∪ B = A ∩ B = A — they contain exactly the same elements. More generally, A ∪ B = A ∩ B if and only if A = B. The union contains 'at least as many' elements as the intersection (formally, A ∩ B ⊆ A ∪ B always holds), but 'strictly more' fails when the sets are equal. This is a good example of why 'usually true' intuitions need to be checked against edge cases in mathematical reasoning."

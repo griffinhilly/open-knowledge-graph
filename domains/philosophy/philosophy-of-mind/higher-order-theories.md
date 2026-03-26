@@ -54,7 +54,7 @@ Distinguish HOT from HOP carefully — the former is thought-like and conceptual
   answer: 1
   explanation: "HOP theory (Lycan) replaces thought with quasi-perceptual inner monitoring. Because this monitoring is non-conceptual — more like noticing than judging — it does not require the creature to possess concepts for its own mental states. Animals and infants, who may lack the conceptual sophistication HOT demands, can still have an inner scanner that makes their states conscious. HOT theorists like Rosenthal do argue that dispositional HOTs mitigate this worry, but HOP was explicitly designed to accommodate pre-conceptual conscious creatures, making B the strongest answer."
 
-- question: "HOT theory faces an infinite regress problem: since the higher-order thought that makes a first-order state conscious must itself be conscious, we need a third-order thought to make it conscious, and so on forever."
+- question: "HOT theory faces an infinite regress problem: since the higher-order thought that makes a first-order state conscious is expected to itself be conscious, we need a third-order thought to make it conscious, and so on forever."
   type: true-false
   answer: false
   explanation: "This is a common misreading of HOT theory. The standard HOT position is that the higher-order thought that makes a first-order state conscious is itself typically *unconscious* — it does not need to be conscious to do its job. Consciousness is a relational property: the first-order state becomes conscious by virtue of being the *object* of a higher-order state, not by the HOT being conscious itself. An unconscious HOT is sufficient. The regress only threatens if you require each higher-order state to be conscious, which HOT theorists deny."

@@ -53,7 +53,7 @@ Texts often support multiple valid interpretations. Ambiguity can be intentional
   answer: true
   explanation: "This is the limit that distinguishes legitimate multiplicity from relativism. The claim that a text supports multiple valid interpretations does not mean it supports all interpretations. A reading must be grounded in what the text actually says — particular words, images, patterns, structural choices. If a proposed reading directly contradicts that evidence (e.g., claiming a poem is joyful when every image and tone is elegiac), it fails the basic standard of validity, regardless of how many other readings the text does support."
 
-- question: "Recognizing that a text supports multiple valid interpretations weakens analytical rigor, because it makes it impossible to argue that any one reading is better than another."
+- question: "Recognizing that a text supports multiple valid interpretations weakens analytical rigor, because it makes it extremely difficult to argue that any one reading is better than another."
   type: true-false
   answer: false
   explanation: "The opposite is true. Recognizing multiplicity deepens analytical rigor by requiring more precise work: you must articulate what textual evidence supports each reading, explain what level of the text each reading operates at, and show what is at stake in the difference between them. A reader who insists on one correct interpretation often stops reading carefully once they find evidence for their view. The analyst who maintains multiple readings must account for all the evidence — including evidence that creates tension between readings — which demands greater precision, not less."

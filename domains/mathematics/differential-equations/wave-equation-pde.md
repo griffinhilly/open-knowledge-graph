@@ -51,7 +51,7 @@ The wave equation ∂²u/∂t² = c²∂²u/∂x² models vibrating string displ
   answer: true
   explanation: "This is the finite propagation speed property of the wave equation, encoded directly in d'Alembert's formula. The wavefront travels at exactly speed c. Before time L/c, the wave has not yet reached x=L, so the displacement there remains zero. This locality property distinguishes the wave equation (hyperbolic) from the heat equation (parabolic), where disturbances propagate instantaneously."
 
-- question: "Like the heat equation, the wave equation predicts that a local disturbance propagates to all other positions instantaneously, though the effect diminishes rapidly with distance."
+- question: "Like the heat equation, the wave equation predicts that a local disturbance propagates to most other positions instantaneously, though the effect diminishes rapidly with distance."
   type: true-false
   answer: false
   explanation: "This describes the heat equation (parabolic), not the wave equation (hyperbolic). The heat equation exhibits infinite propagation speed — a temperature change at one point mathematically affects all other points at any positive time t, though the effect decays exponentially with distance. The wave equation, by contrast, has strictly finite propagation speed c: a point at distance d is completely unaffected until time t = d/c. This distinction between hyperbolic and parabolic PDEs is one of the most important in mathematical physics."

@@ -52,7 +52,7 @@ Practice by examining pairs of graphs and deciding isomorphism using cheap invar
   answer: 1
   explanation: "Disproving isomorphism only requires finding one invariant that differs. Applying cheap invariants (degree sequence first, then girth, triangle count, etc.) prunes the search immediately — if degree sequences differ, no bijection can exist, and you're done. Option A (enumerating all n! bijections) is what you'd do to prove isomorphism, not disprove it, and is computationally infeasible for large n. Option C is the fundamental misconception: graph drawings are arbitrary and visually different graphs may be isomorphic."
 
-- question: "Two graphs that are drawn differently on paper cannot be isomorphic."
+- question: "Two graphs that are drawn differently on paper can seldom be isomorphic."
   type: true-false
   answer: false
   explanation: "This is the most common misconception in graph isomorphism. A graph can be drawn in infinitely many ways — vertex positions and edge curves are arbitrary visual choices, not part of the mathematical structure. The same graph drawn as a neat square with diagonals and as a tangled mess of crossing lines is still the same graph. Isomorphism is about whether an edge-preserving bijection exists between vertex sets, not about visual similarity."

@@ -54,7 +54,7 @@ Ask: 'Does this premise actually address the conclusion being argued?' For insta
   answer: true
   explanation: "Truth and relevance are independent properties. A premise is true if it accurately describes the world; it is relevant if it actually bears on the question being argued. The statement 'The senator has red hair' might be entirely true but provides zero evidence for or against any policy position. Ad hominem attacks are often factually accurate — the arguer really did behave badly — yet they are irrelevant to whether the argument being made is sound. Confusing truth with relevance is one of the most common errors in informal argument evaluation."
 
-- question: "If a premise is irrelevant to a conclusion, pointing out the irrelevance automatically defeats the conclusion and shows it must be false."
+- question: "If a premise is irrelevant to a conclusion, pointing out the irrelevance automatically defeats the conclusion and shows it should be false."
   type: true-false
   answer: false
   explanation: "Irrelevance of a premise defeats that premise as support for the conclusion — it does not establish that the conclusion is false. The conclusion might be true, but for entirely different reasons. If someone argues 'X is true because Y' and Y is irrelevant to X, we have shown that this particular argument fails. But X might still be true based on other evidence. Identifying a relevance fallacy clears away bad support; it doesn't settle the underlying question."

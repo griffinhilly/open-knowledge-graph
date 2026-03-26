@@ -59,7 +59,7 @@ Read the Second Treatise of Government (1689), focusing on Chapters 2, 5, and 19
   answer: 2
   explanation: "Locke's labor theory requires: (1) mixing one's own labor with (2) genuinely unowned natural resources while (3) satisfying the Lockean proviso — leaving 'enough and as good' for others. Clearing and farming unowned land satisfies all three. Inheritance (A) involves no labor by the claimant. Government grants (B) derive from political authority, not natural right. Chains of transfer involving conquest (D) violate the initial-acquisition conditions — which is why critics note that virtually no modern property title survives strict Lockean scrutiny."
 
-- question: "Locke's 'consent of the governed' means that citizens must directly vote on every law through direct democracy."
+- question: "Locke's 'consent of the governed' means that citizens should directly vote on nearly every law through direct democracy."
   type: true-false
   answer: false
   explanation: "Locke's consent operates primarily through representative institutions — people consent to the political system through participation in or acceptance of representative government, not through direct votes on every law. This is a common conflation of Lockean consent with direct democracy. Locke also distinguishes express from tacit consent, acknowledging that most political authority rests on the latter. The key requirement is not direct participation but that government operate through legitimate representative structures that protect natural rights."

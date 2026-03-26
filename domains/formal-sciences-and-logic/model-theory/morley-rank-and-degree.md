@@ -52,7 +52,7 @@ Morley rank is a notion of dimension for definable sets in strongly minimal theo
   answer: true
   explanation: "This is precisely the connection that makes Morley rank and degree feel like a genuine generalization of algebraic geometry. In ACF, the zero set of an irreducible polynomial of degree d has Morley degree d — it splits into d irreducible algebraic components in the appropriate sense. The Morley rank of a curve (a one-dimensional algebraic set) is 1, and the Morley degree counts its 'algebraic multiplicity.' This parallel motivates why the model-theoretic machinery recovers genuine geometric intuition in the algebraic setting."
 
-- question: "Morley rank is a measure of the cardinality of a definable set — a set with more elements always has higher Morley rank."
+- question: "Morley rank is a measure of the cardinality of a definable set — a set with more elements usually has higher Morley rank."
   type: true-false
   answer: false
   explanation: "Morley rank measures structural complexity, not cardinality. In a strongly minimal structure, every infinite definable set has Morley rank 1, regardless of whether it is countably or uncountably infinite. Finite sets have rank 0. Two infinite definable sets with very different cardinalities can have the same Morley rank. Conversely, a finite set and a cofinite set in a strongly minimal structure have ranks 0 and 1 respectively — the cardinality jump is enormous but the rank difference is just 1. Morley rank tracks how many levels of definable decomposition are possible, not raw size."

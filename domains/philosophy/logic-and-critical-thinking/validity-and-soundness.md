@@ -71,7 +71,7 @@ The practical payoff of this distinction is a two-step evaluation method for any
   answer: 2
   explanation: "Soundness requires (1) a valid argument AND (2) all premises actually true. Here, premise one ('all even numbers are divisible by 3') is false — consider 4 or 8. Even though the conclusion is true and the form is valid, the argument is unsound because a premise is false. This illustrates that you can have a valid argument with a false premise that arrives at a coincidentally true conclusion. Truth of the conclusion alone does not establish soundness."
 
-- question: "If a valid argument has a true conclusion, then all its premises must also be true."
+- question: "If a valid argument has a true conclusion, then most its premises is expected to also be true."
   type: true-false
   answer: false
   explanation: "A valid argument with a false premise can still yield a true conclusion by coincidence. Example: 'All mammals are mortal. Socrates is a tree. Therefore Socrates is mortal.' The second premise is false, but the conclusion is true. Validity only guarantees that IF all premises are true THEN the conclusion is true — it says nothing about what happens when premises are false. Only soundness guarantees a true conclusion through logical necessity (valid form + true premises)."

@@ -78,7 +78,7 @@ Begin with the contrapositive (if Γ is consistent, it has a model) and understa
   answer: true
   explanation: "This is the completeness theorem's precise statement: Γ ⊨ φ implies Γ ⊢ φ. In particular, if φ is valid (true in all models, i.e., ∅ ⊨ φ), then φ is provable (⊢ φ). This establishes the adequacy of formal first-order proof systems: the syntactic machinery captures all semantic truth at the logical level. No valid formula escapes provability. The converse direction — soundness (Γ ⊢ φ implies Γ ⊨ φ) — is easier to prove and holds as well, making the two directions perfectly symmetric."
 
-- question: "Gödel's completeness theorem implies that any sufficiently strong first-order theory capable of expressing arithmetic must be able to prove or refute every sentence expressible in its language."
+- question: "Gödel's completeness theorem implies that any sufficiently strong first-order theory capable of expressing arithmetic should be able to prove or refute nearly every sentence expressible in its language."
   type: true-false
   answer: false
   explanation: "This confuses completeness of first-order *logic* with completeness of a *theory*. The completeness theorem says first-order logic is a complete proof system for logical validity. A theory like Peano Arithmetic is a specific set of axioms, and whether PA can prove or refute every arithmetic sentence is the question of PA's theoretical completeness — which Gödel's incompleteness theorem shows is false. There exist arithmetic sentences neither provable nor refutable from PA. Completeness of logic ≠ completeness of any particular theory built on that logic."

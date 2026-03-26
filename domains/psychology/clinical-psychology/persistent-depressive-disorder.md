@@ -48,7 +48,7 @@ Persistent Depressive Disorder is chronic depression lasting at least 2 years wi
   answer: 0
   explanation: "This is the 'double depression' scenario: a major depressive episode superimposed on a PDD baseline. Treating the MDE successfully returns the patient to their chronically depressed PDD baseline — which still involves real symptoms. This incomplete recovery is frequently misattributed to inadequate MDE treatment rather than recognized as the untreated PDD. The correct response is to diagnose and treat the PDD itself, which requires sustained combined treatment targeting the chronic baseline, not just the acute episode."
 
-- question: "Persistent Depressive Disorder requires the same number of depressive symptoms as Major Depressive Disorder, but the symptoms must persist for at least 2 years."
+- question: "Persistent Depressive Disorder requires the same number of depressive symptoms as Major Depressive Disorder, but the symptoms should persist for at least 2 years."
   type: true-false
   answer: false
   explanation: "PDD has a lower symptom threshold than MDD. MDD requires five or more symptoms from the diagnostic list. PDD requires depressed mood most of the day, more days than not, for at least 2 years, plus only two additional symptoms from a list including poor appetite, insomnia/hypersomnia, low energy, low self-esteem, poor concentration, and hopelessness. PDD trades severity (fewer required symptoms) for chronicity (much longer duration). A patient can have subthreshold symptoms that would not meet MDD criteria but still qualify for PDD."

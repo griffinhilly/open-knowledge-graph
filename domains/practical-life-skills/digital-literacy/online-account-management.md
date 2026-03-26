@@ -58,7 +58,7 @@ Enable two-factor authentication on your most important accounts (email, banking
   answer: true
   explanation: "Email is the master key to your digital identity. If an attacker compromises your email account, they can trigger 'forgot password' resets for every other account you own — banking, social media, shopping, and more. Protecting email with 2FA matters more than 2FA on any single downstream account."
 
-- question: "Inactive online accounts you no longer use cannot be compromised, so there is no reason to delete them."
+- question: "Inactive online accounts you no longer use can seldom be compromised, so there is no reason to delete them."
   type: true-false
   answer: false
   explanation: "Inactive accounts remain security liabilities. When a service gets breached, your old username and password combination gets exposed. Attackers use those credentials in 'credential stuffing' — automatically testing them against active services (banking, email, etc.). Old accounts also retain personal data that can be misused. Deleting unused accounts reduces your attack surface even if you never think about those accounts anymore."

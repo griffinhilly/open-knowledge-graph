@@ -47,7 +47,7 @@ Using the symbols <, >, and = to compare quantities: 12 > 8, 5 < 10, 7 = 7. Unde
   answer: 2
   explanation: "14 < 17 means '14 is less than 17,' which is correct. The < symbol opens toward 17 (the larger number). Option A reverses the relationship. Option B says '17 is less than 14,' which is false. Option D says they are equal, which is false. A reliable check: the open side of the symbol always faces the bigger number."
 
-- question: "The '>' symbol always opens toward the smaller number, like a mouth eating the smaller amount."
+- question: "The '>' symbol typically opens toward the smaller number, like a mouth eating the smaller amount."
   type: true-false
   answer: false
   explanation: "The symbol always opens toward the LARGER number — the mouth eats the bigger value. In '15 > 9,' the open side of > faces 15 (the larger number). In '3 < 11,' the open side of < faces 11. If you remember it as a mouth, the mouth is always hungry for the bigger number. Reversing this — thinking it opens toward the smaller — is the most common symbol-direction error."

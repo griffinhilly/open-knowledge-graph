@@ -61,7 +61,7 @@ Draft CTAs at three levels of commitment (awareness, engagement, direct action) 
   answer: true
   explanation: "The CTA should be the final note of the speech. Ending with a trailing summary, 'thank you for listening,' or vague well-wishes dissipates the emotional energy you have built and softens the ask at the worst possible moment. Delivered with confident directness at the speech's close, the CTA sends the audience out with a specific next step in mind rather than a warm but unactionable feeling."
 
-- question: "Asking for the highest-commitment action available (donating money, attending an event, writing a letter) is always more effective than asking for a small action, because it signals conviction and gets maximum results from receptive audience members."
+- question: "Asking for the highest-commitment action available (donating money, attending an event, writing a letter) is typically more effective than asking for a small action, because it signals conviction and gets maximum results from receptive audience members."
   type: true-false
   answer: false
   explanation: "Misjudging the audience's capacity is one of the most common CTA failures. Asking for a high-commitment action from a skeptical or unprepared audience triggers psychological resistance — people reject the request entirely rather than complying partially. The foot-in-the-door principle shows that small initial commitments prime audiences for larger asks later. An achievable CTA builds micro-commitment; an overreaching one closes the door."

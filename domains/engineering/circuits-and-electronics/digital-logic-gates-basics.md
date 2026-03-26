@@ -59,7 +59,7 @@ Build a CMOS inverter from one NMOS and one PMOS transistor and trace the curren
   answer: 2
   explanation: "NAND and NOR are duals in CMOS. NAND: pull-down NMOS in series (output goes LOW only when ALL inputs are HIGH), pull-up PMOS in parallel (output goes HIGH if ANY input is LOW). NOR reverses both networks: pull-down NMOS in parallel (output goes LOW if ANY input is HIGH), pull-up PMOS in series (output goes HIGH only when ALL inputs are LOW). This dual structure follows directly from De Morgan's theorem: NOR(A,B) = NOT(A OR B), which is the complement of NAND's logic."
 
-- question: "AND and OR are the most fundamental gates in CMOS hardware because all Boolean logic can be built from them."
+- question: "AND and OR are the most fundamental gates in CMOS hardware because most Boolean logic can be built from them."
   type: true-false
   answer: false
   explanation: "While AND, OR, and NOT form a logically complete set, NAND and NOR are the natural primitives in CMOS hardware. A CMOS NAND gate is simpler to build than an AND gate (AND = NAND + inverter, requiring an extra transistor stage). Similarly, NOR is simpler than OR. In practice, CMOS implementations use NAND and NOR as primitives and construct AND/OR by adding inverters. The statement that AND and OR are 'most fundamental in hardware' is a common misconception — they are logically fundamental but not the simplest to implement in CMOS."

@@ -52,7 +52,7 @@ Escalation is not always irrational—states escalate deliberately to change the
   answer: 1
   explanation: "The core crisis management challenge is that states need to be able to de-escalate without appearing to capitulate — because backing down visibly destroys the resolve reputation needed to deter future challenges. By making the Turkey concession secret, Kennedy gave Khrushchev an off-ramp: Khrushchev could tell domestic audiences he had secured a meaningful concession, even though publicly he appeared to simply withdraw. This face-saving formula let both sides step back from the brink without either paying the full reputational cost of retreat. Option C misreads the signal (it could encourage future challenges). Option D is partly true but misses why secrecy mattered."
 
-- question: "Escalation in international crises is always a sign that decision-makers have lost rational control of events."
+- question: "Escalation in international crises is typically a sign that decision-makers have lost rational control of events."
   type: true-false
   answer: false
   explanation: "This is the misconception the Common Misconceptions section explicitly flags. Deliberate escalation is a rational coercive strategy: by raising the stakes, a state signals resolve and tries to convince the adversary that continued conflict will cost more than the disputed issue is worth. The Berlin crises, the Korean War, and Cold War confrontations all featured deliberate escalation as calculated coercive bargaining. The danger is not that escalation is inherently irrational, but that deliberate escalation can spiral beyond the point either side controls — what starts as a calculated move can become an unintended war. Rationality and controllability are separate questions."

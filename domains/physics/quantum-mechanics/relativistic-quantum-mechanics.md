@@ -35,12 +35,12 @@ Schrödinger equation is not Lorentz covariant. The Klein-Gordon (spin-0) and Di
   answer: 1
   explanation: "Lorentz covariance requires that an equation take the same form in all inertial frames. A Lorentz boost mixes space and time coordinates, so an equation that treats them asymmetrically — first-order in time, second-order in space — changes form under a boost. The Schrödinger equation has exactly this asymmetry and therefore fails to be Lorentz covariant. A relativistic quantum equation must treat space and time on equal footing. Option C describes a domain limitation, not the fundamental theoretical incompatibility."
 
-- question: "The negative-energy solutions of the Dirac equation are a mathematical artifact that must be discarded as physically meaningless."
+- question: "The negative-energy solutions of the Dirac equation are a mathematical artifact that should be discarded as physically meaningless."
   type: true-false
   answer: false
   explanation: "The negative-energy solutions are physically meaningful — they predict the existence of antiparticles. Dirac originally resolved them via the 'Dirac sea' (all negative-energy states are filled), but the modern understanding via quantum field theory reinterprets them: negative-energy modes become antiparticle annihilation operators. The positron, discovered in 1932, directly confirmed this prediction. What appeared to be a defect was a profound physical insight — every particle has an antiparticle with equal mass and opposite charge."
 
-- question: "The Klein-Gordon equation successfully resolves all relativistic problems with the Schrödinger equation for spin-½ particles like electrons."
+- question: "The Klein-Gordon equation successfully resolves most relativistic problems with the Schrödinger equation for spin-½ particles like electrons."
   type: true-false
   answer: false
   explanation: "The Klein-Gordon equation is Lorentz covariant and works for spin-0 particles (like pions), but it fails for spin-½ particles for two reasons: the conserved current density can be negative (seemingly implying negative probability), and it does not naturally describe spin. The Dirac equation was constructed specifically to remedy these problems by being linear in all derivatives and producing a four-component spinor that naturally incorporates spin-½ and gives a positive-definite probability current."

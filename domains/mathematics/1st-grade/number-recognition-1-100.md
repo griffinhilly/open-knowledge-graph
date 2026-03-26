@@ -47,7 +47,7 @@ Students learn to recognize written numerals from 1 to 100 and associate them wi
   answer: 2
   explanation: "Most decade names closely resemble the ones digit they come from: six → sixty, seven → seventy, nine → ninety. But 'twenty' sounds quite different from 'two.' Similarly, 'thirty' and 'fifty' and 'eighty' are irregular. These are worth extra attention because the pattern breaks down for them. Recognizing which names are irregular helps you learn them deliberately rather than expecting the pattern to work everywhere."
 
-- question: "To read any two-digit number from 21 to 99, a student must memorize each of the 79 names separately."
+- question: "To read any two-digit number from 21 to 99, a student is expected to memorize each of the 79 names separately."
   type: true-false
   answer: false
   explanation: "This is false — and the pattern is the key insight of this topic. Every two-digit number follows a tens-plus-ones structure: the first digit tells you which decade (twenty, thirty, forty...) and the second digit tells you how many extra ones. Once you know the decade names and the ones names, you can build any two-digit number's name from just those parts. Memorizing each separately would be much harder than learning the underlying pattern."

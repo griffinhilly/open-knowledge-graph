@@ -60,7 +60,7 @@ Build diagrams progressively: first simple linear molecules (CO₂), then planar
   answer: true
   explanation: "This is not a guideline — it is a rigorous mathematical result. The overlap integral between two orbitals belonging to different irreducible representations of the molecular point group is exactly zero by symmetry. This means there is no matrix element connecting them in the Hamiltonian, and they cannot mix regardless of how close in energy they are. The selection rule simplifies MO construction enormously: you only need to consider combinations within each symmetry representation separately, ignoring all cross-representation interactions."
 
-- question: "All p-orbitals on different atoms in a polyatomic molecule will form bonding and antibonding MO combinations with each other."
+- question: "Most p-orbitals on different atoms in a polyatomic molecule will form bonding and antibonding MO combinations with each other."
   type: true-false
   answer: false
   explanation: "Orbital mixing requires matching symmetry, not just matching orbital type. A p-orbital on one atom will only combine with orbitals on other atoms that belong to the same symmetry representation under the molecule's point group. If the symmetry doesn't match, the overlap integral is zero and no MO combination forms — the orbital remains nonbonding. For example, in water, oxygen's 2px remains nonbonding because no hydrogen orbital combination has the same symmetry. The common misconception that all orbitals of the same type must combine comes from the diatomic case, where symmetry automatically matches."

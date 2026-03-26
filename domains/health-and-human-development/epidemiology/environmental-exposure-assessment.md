@@ -46,7 +46,7 @@ Environmental epidemiology requires accurate characterization of exposure to che
   answer: 1
   explanation: "The key advantage of biomarkers is that they measure internal dose — what was actually absorbed through all routes (ingestion, inhalation, dermal contact) combined. A residential history assumes people were exposed to what was measured in their environment, which may be false. Option D is wrong: many biomarkers reflect only recent exposure (e.g., urinary metabolites with short half-lives), making them poor for chronic exposures. Option C is also wrong — biomarkers can still be subject to differential misclassification if, for example, disease affects metabolism."
 
-- question: "Differential exposure misclassification always biases risk estimates toward the null, making associations appear smaller than they truly are."
+- question: "Differential exposure misclassification typically biases risk estimates toward the null, making associations appear smaller than they truly are."
   type: true-false
   answer: false
   explanation: "Only NON-differential misclassification consistently biases toward the null. Differential misclassification — where measurement error differs by disease status (e.g., cases recall exposures differently than controls) — can bias estimates in either direction: it can inflate associations, deflate them, or even reverse them. This unpredictability is precisely what makes differential misclassification more dangerous for causal inference than non-differential misclassification."

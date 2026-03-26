@@ -62,7 +62,7 @@ A common objection is that effective altruism is coldly utilitarian -- that it d
   answer: 1
   explanation: "A problem can be enormous in scale (affecting billions) and still be heavily funded, leaving little room for marginal impact. Neglectedness asks: given existing resources, how much can one more dollar or hour of effort accomplish? A smaller problem that receives almost no attention may offer much higher returns to additional investment than a huge problem that already commands billions in funding. This is why EA analysis separates the size of the problem from the gap between the problem's importance and current resource allocation."
 
-- question: "Effective altruism is by definition a utilitarian framework — it requires believing that the only thing that matters morally is maximizing total welfare."
+- question: "Effective altruism is by definition a utilitarian framework — it requires believing that the main thing that matters morally is maximizing total welfare."
   type: true-false
   answer: false
   explanation: "EA is a framework for improving the *effectiveness* of whatever moral values you hold, not a commitment to any specific ethical theory. Someone who values animal welfare, existential risk reduction, or systemic justice can apply EA principles — scope sensitivity, expected value reasoning, cause prioritization — to pursue their values more effectively. The claim is methodological, not first-order ethical: be deliberate and quantitative about impact. This is one of the most common misconceptions about EA."

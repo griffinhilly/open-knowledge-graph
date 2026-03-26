@@ -53,7 +53,7 @@ Different cultures and historical periods understood time differently—linear v
   answer: false
   explanation: "False. 'The Middle Ages' was invented retrospectively by Renaissance humanists who wanted to mark themselves off from both classical antiquity and what lay between. The medieval people themselves had no concept of living in a 'middle' era—the category was created by those who came after them and needed a label for what preceded their own self-proclaimed revival. This illustrates the general point that periodizations are constructions imposed on the past, not categories that historical actors lived in consciously."
 
-- question: "The sense that time accelerates—that each generation inhabits a world fundamentally different from its parents'—is a universal feature of human experience across all cultures and historical periods."
+- question: "The sense that time accelerates—that each generation inhabits a world fundamentally different from its parents'—is a universal feature of human experience across most cultures and historical periods."
   type: true-false
   answer: false
   explanation: "False. Reinhart Koselleck's concept of the Sattelzeit (roughly 1750–1850) captures how this very sense of temporal acceleration and radical break from the past is itself a historical development, not a universal feature of human consciousness. In cyclical time frameworks, the expectation is recurrence, not rupture. In sacred time frameworks, the most important events have already happened or are definitively anticipated. The feeling that 'we live in unprecedented times' is peculiarly modern and reflects a particular temporal framework—linear, progressive, secular—that developed historically."

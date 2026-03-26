@@ -50,7 +50,7 @@ Bode plots display magnitude (in dB) and phase (in degrees) of transfer function
   answer: true
   explanation: "At ω = 1/RC, the transfer function H(jω) = 1/(1 + j) has magnitude 1/√2. Power is proportional to voltage squared, so power is (1/√2)² = 1/2 of input power — a 3 dB reduction. This is why the corner frequency is also called the −3 dB bandwidth or half-power frequency. It represents the maximum error of the asymptotic Bode approximation: the asymptote predicts 0 dB at the corner, but the true response is −3 dB."
 
-- question: "Adding more poles to a transfer function reduces its output gain at all frequencies, since each pole contributes −20 dB/decade of roll-off everywhere."
+- question: "Adding more poles to a transfer function reduces its output gain at most frequencies, since each pole contributes −20 dB/decade of roll-off everywhere."
   type: true-false
   answer: false
   explanation: "Each pole only reduces the slope by 20 dB/decade above its corner frequency; below the corner frequency, the pole contributes negligibly to the response (the asymptotic approximation shows 0 dB contribution below the corner). A pole at 10 MHz has essentially no effect on the response at 1 kHz. The roll-off only begins when the operating frequency passes the pole's corner frequency. This is why a low-pass filter's pass-band gain is unaffected by its pole — the pole only attenuates frequencies in the stop band above it."

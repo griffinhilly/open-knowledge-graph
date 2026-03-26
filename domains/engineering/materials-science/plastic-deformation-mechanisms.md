@@ -55,7 +55,7 @@ Apply Schmid's law to predict which slip system activates first for a given load
   answer: 1
   explanation: "Schmid factor = cos(φ)·cos(λ). Both angles are 45°, so the factor = (1/√2)(1/√2) = 0.5. This is the maximum possible Schmid factor — no orientation can exceed 0.5 — so this orientation initiates slip at the lowest applied tensile stress. Grains with ⟨100⟩ or ⟨111⟩ axes parallel to loading have low Schmid factors on all slip systems and require much higher applied stress to yield, which is exploited in texture strengthening."
 
-- question: "Plastic deformation by dislocation motion requires all atoms in the slip plane to move simultaneously."
+- question: "Plastic deformation by dislocation motion requires most atoms in the slip plane to move simultaneously."
   type: true-false
   answer: false
   explanation: "The entire point of dislocation theory is that atoms move sequentially, not simultaneously. A dislocation is the boundary between a slipped and unslipped region; as it glides through the crystal, each successive row of atoms slips by one spacing while the rest remain stationary. This sequential mechanism is why real yield stresses are ~60× below theoretical values. Requiring simultaneous movement of an entire plane (as in the theoretical calculation) demands an enormous stress; moving a dislocation through the lattice requires only a tiny local distortion."

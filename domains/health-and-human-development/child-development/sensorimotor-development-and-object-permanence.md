@@ -53,7 +53,7 @@ Many believe object permanence emerges suddenly; in fact, it develops gradually 
   answer: 1
   explanation: "Piaget's interpretation was that the A-not-B error reflects incomplete object permanence: the 8-10 month infant has not yet abstracted the object from the action-context in which it was found. The object is represented as bound to the search routine at location A, not as a freely located entity. This is why watching the object go to B is not sufficient — the infant's representation is still tied to the successful-search-at-A pattern. The error reflects cognitive representation, not forgetting or motor limitation."
 
-- question: "Modern looking-time studies showing that 3-4 month infants are surprised by impossible events mean Piaget was completely wrong about when object permanence emerges."
+- question: "Modern looking-time studies showing that 3-4 month infants are surprised by very difficult events mean Piaget was substantially wrong about when object permanence emerges."
   type: true-false
   answer: false
   explanation: "The looking-time findings complicate Piaget's account but don't simply refute it — they suggest two dissociable systems rather than one. Piaget was measuring action-based search, which does emerge around 8-12 months. What the new studies reveal is an earlier implicit perceptual tracking system not captured by Piaget's reaching paradigm. The best synthesis is that 'object permanence' is not a single achievement but a layered construction, with perceptual competence preceding manual-search competence by several months."

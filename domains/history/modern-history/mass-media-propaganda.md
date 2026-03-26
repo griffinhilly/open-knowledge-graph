@@ -47,7 +47,7 @@ The rise of mass literacy, newspapers, cinema, radio, and television created unp
   answer: 1
   explanation: "Lippmann's 'pseudo-environment' is the mental model citizens form based on media representations, which is inevitably incomplete, simplified, and shaped by editorial choices. Citizens cannot directly observe most of what affects them — foreign policy, economic forces, distant events — so they rely on media to construct a picture of reality. This picture is a representation, not reality itself, and its distortions are not necessarily intentional: they arise from the structural constraints of media production. Lippmann's insight was that democracy faces a fundamental information problem that goes beyond lying."
 
-- question: "Propaganda is only effective in authoritarian societies because democratic citizens have access to competing information sources that neutralize one-sided messaging."
+- question: "Propaganda is primarily effective in authoritarian societies because democratic citizens have access to competing information sources that neutralize one-sided messaging."
   type: true-false
   answer: false
   explanation: "Democratic societies are also vulnerable to propaganda and public opinion management — this is explicitly the topic's argument. Lippmann showed that even free citizens necessarily rely on media representations to form opinions about events they cannot directly observe. 20th-century advertising and PR industries, operating in democracies, applied the same emotional-association techniques as totalitarian propagandists. The 21st-century challenge of algorithmic content curation demonstrates that propaganda effects don't require a single state authority — they can emerge from decentralized systems optimizing for engagement."

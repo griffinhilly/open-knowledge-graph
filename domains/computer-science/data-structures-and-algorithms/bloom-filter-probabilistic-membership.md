@@ -59,7 +59,7 @@ Implement a Bloom filter, measure false positive rates with different k and tabl
   answer: false
   explanation: "This is the core guarantee. When an element is inserted, all k of its hash positions are permanently set to 1. A membership query computes the same k positions — if all are 1, the answer is 'possibly yes'; if any is 0, the element was definitively never inserted. Since bits are never reset to 0, a false negative is structurally impossible in a standard Bloom filter."
 
-- question: "Increasing the number of hash functions k always reduces the false positive rate of a Bloom filter."
+- question: "Increasing the number of hash functions k typically reduces the false positive rate of a Bloom filter."
   type: true-false
   answer: false
   explanation: "More hash functions means more bits are set per insertion, filling the array faster. Past the optimal k = (m/n) · ln 2, adding more hash functions actually increases the false positive rate because the array becomes too dense. The optimal k balances two opposing effects: more checks per query (good) vs. more bits set per insertion (bad)."

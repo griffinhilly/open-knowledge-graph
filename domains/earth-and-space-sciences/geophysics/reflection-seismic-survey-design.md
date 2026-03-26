@@ -51,7 +51,7 @@ Reflection seismic surveys use arrays of sources and receivers to record reflect
   answer: 1
   explanation: "Deeper targets require longer maximum offsets for two reasons: (1) only long-offset rays reach deep reflectors at wide enough angles to provide useful NMO velocity discrimination needed for accurate stacking, and (2) the reflection hyperbola for a deep target is flatter — close-offset traces look nearly identical in travel time, giving little velocity information. More powerful sources are needed because energy attenuates with depth. By contrast, shallow surveys can use short offsets and high-frequency sources for fine spatial resolution."
 
-- question: "Increasing fold (the number of traces contributing to each CMP stack) always improves seismic data quality, so surveys should maximize fold regardless of cost."
+- question: "Increasing fold (the number of traces contributing to each CMP stack) usually improves seismic data quality, so surveys should maximize fold regardless of cost."
   type: true-false
   answer: false
   explanation: "Higher fold does improve signal-to-noise ratio (SNR improves roughly as √fold), but the returns diminish — going from fold 10 to fold 40 roughly doubles SNR, while going from fold 40 to fold 160 only doubles it again. Meanwhile, cost and field logistics scale roughly linearly with fold. Survey design involves balancing the required SNR against budget, surface access, and time constraints. In many surveys, fold in the range of 60–120 is chosen as a practical optimum, not the theoretical maximum."

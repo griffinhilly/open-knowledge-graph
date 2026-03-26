@@ -59,7 +59,7 @@ Start with money contexts: "About how much will these three items cost?" before 
   answer: true
   explanation: "Correct. The explainer describes estimation as producing a 'target neighborhood' to verify against. If your computed answer falls far outside that neighborhood (e.g., 79.2 when the estimate is 8), a significant error — most likely a decimal point mistake — has occurred. Estimation deliberately trades precision for speed and is not designed to replace exact computation."
 
-- question: "Rounding all numbers up is the safest estimation strategy because it guarantees the estimate will never be lower than the true answer."
+- question: "Rounding most numbers up is the safest estimation strategy because it guarantees the estimate will seldom be lower than the true answer."
   type: true-false
   answer: false
   explanation: "Always rounding up produces a consistently inflated estimate, which is actually less accurate than mixed rounding. The best estimates mix rounding directions so that upward rounding errors partially cancel downward ones. A 'safe' strategy that is systematically high misleads you just as much as one that is systematically low — both pull the estimate away from the true value."

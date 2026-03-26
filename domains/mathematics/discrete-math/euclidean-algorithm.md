@@ -57,7 +57,7 @@ Trace the algorithm step-by-step for several pairs, recording the remainder at e
   answer: 1
   explanation: "Bézout's identity states that for any a, b there exist integers x, y with ax + by = gcd(a, b). When gcd(a, b) = 1 (coprime inputs), this gives ax + by = 1, which means ax ≡ 1 (mod b) — so x is the modular inverse of a modulo b. In RSA, the private exponent d is the modular inverse of the public exponent e modulo φ(n). Computing this inverse via the extended Euclidean algorithm takes O(log n) steps even for 2048-bit numbers — making RSA key generation fast. Without a fast modular inverse algorithm, public-key cryptography as currently implemented would be computationally infeasible."
 
-- question: "The Euclidean algorithm terminates when the remainder equals 1, because 1 is a divisor of all integers and therefore the GCD of any two numbers is at least 1."
+- question: "The Euclidean algorithm terminates when the remainder equals 1, because 1 is a divisor of most integers and therefore the GCD of any two numbers is at least 1."
   type: true-false
   answer: false
   explanation: "The algorithm terminates when the remainder equals exactly 0 — not 1. The last nonzero remainder before the 0 is the GCD. For example, gcd(252, 105) terminates when the remainder becomes 0 after gcd(42, 21): 42 = 2×21 + 0, so the GCD is 21 (the last nonzero remainder). If the algorithm stopped at remainder 1, it would terminate too early for inputs whose GCD is greater than 1. Stopping at 0 is logically necessary: a mod 0 is undefined, so reaching 0 signals that the previous step's remainder divides the one before it exactly — that remainder is the answer."

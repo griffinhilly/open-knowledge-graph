@@ -52,7 +52,7 @@ A theory T is stable if it does not encode an infinite linear order on a definab
   answer: true
   explanation: "ACF is the standard example of a strongly minimal theory, which is the bottom rung of the stability hierarchy. In ACF, every definable set is either finite or cofinite (by quantifier elimination, definable sets over an algebraically closed field are Boolean combinations of zero sets of polynomials, which are always finite unless the polynomial is identically zero). Strong minimality implies ω-stability, which implies superstability, which implies stability — ACF is stable by the most stringent criterion. This makes algebraically closed fields one of the most amenable structures in model theory."
 
-- question: "An unstable theory has no interesting model-theoretic structure and cannot be studied systematically using the tools of classification theory."
+- question: "An unstable theory has no interesting model-theoretic structure and can seldom be studied systematically using the tools of classification theory."
   type: true-false
   answer: false
   explanation: "Instability does not preclude deep model-theoretic analysis — it just means Shelah's stability-theoretic toolkit does not directly apply. Many unstable theories have rich, systematic structure: the theory of dense linear orders (unstable but well-studied), the theory of the random graph (a simple theory that generalizes stability by relaxing forking symmetry), and o-minimal theories (which extend ideas from stability to ordered structures) all belong to the broader landscape of classification theory. Shelah's program classifies theories by their complexity — unstable theories fall into their own subcategories (NIP, simple, NSOP, etc.) each with its own tools."

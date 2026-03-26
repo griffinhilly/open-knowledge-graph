@@ -59,7 +59,7 @@ Verify orthogonality using dot products in R² and R³ before generalizing. Comp
   answer: true
   explanation: "This is a theorem with a clean proof. Suppose Σcᵢvᵢ = 0 where the vᵢ are mutually orthogonal and nonzero. Take the inner product of both sides with any particular vⱼ: ⟨Σcᵢvᵢ, vⱼ⟩ = Σcᵢ⟨vᵢ, vⱼ⟩ = cⱼ‖vⱼ‖² = 0. Since vⱼ ≠ 0, we have ‖vⱼ‖² > 0, so cⱼ = 0. This holds for every j, proving the set is linearly independent. The zero vector must be excluded because ⟨0, v⟩ = 0 for all v, so a set containing the zero vector is always dependent."
 
-- question: "Every linearly independent set of vectors is orthogonal — that is, independence and orthogonality are equivalent properties."
+- question: "Most linearly independent set of vectors is orthogonal — that is, independence and orthogonality are equivalent properties."
   type: true-false
   answer: false
   explanation: "Orthogonality implies independence, but independence does NOT imply orthogonality. For a simple counterexample in ℝ²: {(1, 0), (1, 1)} is linearly independent (neither vector is a scalar multiple of the other), but their dot product is 1·1 + 0·1 = 1 ≠ 0, so they are not orthogonal. The implication runs only one way: orthogonal ⟹ independent. This is why the Gram-Schmidt process is needed — it converts an independent set into an orthogonal one, a nontrivial transformation."

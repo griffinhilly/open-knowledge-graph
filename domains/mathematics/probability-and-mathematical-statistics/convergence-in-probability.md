@@ -48,7 +48,7 @@ A sequence {Xₙ} converges to X in probability if for all ε > 0, lim_{n→∞}
   answer: 1
   explanation: "The typewriter sequence is constructed on [0,1] with uniform probability: X₁ = 1_{[0,1]}, X₂ = 1_{[0,1/2]}, X₃ = 1_{[1/2,1]}, X₄ = 1_{[0,1/4]}, X₅ = 1_{[1/4,1/2]}, ... and so on, cycling through finer and finer intervals. The probability P(Xₙ = 1) → 0, so Xₙ → 0 in probability. But for every outcome ω ∈ [0,1], Xₙ(ω) = 1 infinitely often (the intervals eventually cover every point repeatedly), so Xₙ(ω) does not converge to 0 for any ω. Individual paths misbehave; only the probability of misbehavior vanishes."
 
-- question: "If Xₙ converges to X in probability, then for sufficiently large n, every realization of Xₙ will fall within ε of X with probability 1."
+- question: "If Xₙ converges to X in probability, then for sufficiently large n, most realization of Xₙ will fall within ε of X with probability 1."
   type: true-false
   answer: false
   explanation: "Convergence in probability means P(|Xₙ − X| > ε) → 0, not that it ever equals 0. The probability of a large deviation merely becomes arbitrarily small, not zero. Individual realizations can still land far from X; the claim is that such events become increasingly rare, not that they become impossible. Almost sure convergence requires a stronger statement: the set of sample paths that ever deviate from X by more than ε (eventually) has probability zero."

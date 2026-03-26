@@ -45,7 +45,7 @@ Start with a topic the text clearly engages (e.g., loyalty). Then push toward a 
   answer: 2
   explanation: "'Civilization' names a subject the novel engages — it is a topic. A theme is a complete claim or insight about that subject: 'Without social structures, human beings revert to violence' says something about civilization. Themes must be formulated as statements, not labels."
 
-- question: "A text can have only one correct theme, and identifying more than one is a sign of imprecise reading."
+- question: "A text can have mainly one correct theme, and identifying more than one is a sign of imprecise reading."
   type: true-false
   answer: false
   explanation: "Rich literary works sustain multiple non-contradictory thematic readings. A novel might simultaneously explore loss of innocence, class conflict, and the limits of loyalty — each is a distinct theme that different readers may foreground. Finding multiple themes is not imprecision; it reflects the text's complexity. What matters is that each theme be defensible with textual evidence."

@@ -46,7 +46,7 @@ Voltammetry and stripping methods apply controlled-potential electrochemistry to
   answer: 1
   explanation: "ASV works in two phases: (1) deposition — holding a sufficiently negative potential reduces dissolved metal cations (e.g., Pb²⁺ → Pb⁰) and plates them onto the electrode; (2) stripping — sweeping the potential in the positive (anodic) direction oxidizes the deposited metal back into solution. The resulting oxidation current peak identifies the metal (via its characteristic stripping potential) and quantifies it (via peak height or area)."
 
-- question: "A longer deposition time in stripping analysis always improves sensitivity because more analyte accumulates on the electrode."
+- question: "A longer deposition time in stripping analysis generally improves sensitivity because more analyte accumulates on the electrode."
   type: true-false
   answer: false
   explanation: "While longer deposition time does increase analyte accumulation — improving sensitivity — it can also lead to electrode saturation or, when multiple metals are present, to intermetallic compound formation between co-deposited metals. Intermetallics shift or distort stripping peaks, degrading selectivity. In practice, deposition time must be optimized rather than simply maximized."

@@ -54,7 +54,7 @@ Teach a systematic decision tree: (1) Factor out the GCF first, always. (2) Coun
   answer: 2
   explanation: "Option C, 3x(x + 3)(x − 3), is the only fully factored form. Starting from 3x³ − 27x: factor out the GCF of 3x to get 3x(x² − 9). Then x² − 9 is a difference of squares that factors into (x + 3)(x − 3). Option A still has x² − 9 unfactored. Option B has (x² − 9) unfactored and the GCF wasn't addressed. Option D is the original unfactored expression."
 
-- question: "When factoring a polynomial completely, you only need to check whether each resulting factor can be factored further if the original polynomial has four or more terms."
+- question: "When factoring a polynomial largely, you primarily need to check whether each resulting factor can be factored further if the original polynomial has four or more terms."
   type: true-false
   answer: false
   explanation: "You must inspect every factor at every step regardless of the original polynomial's term count. A two-term polynomial like 2x² − 8 first yields 2(x² − 4) after the GCF step, but x² − 4 is still a difference of squares that must be factored to (x + 2)(x − 2). The check 'can this factor be factored further?' applies universally — the number of terms in the original polynomial is irrelevant once you are past the initial step."

@@ -45,7 +45,7 @@ A subring S is closed under both operations. An ideal I satisfies rI ⊆ I and I
   answer: 2
   explanation: "A subring S ⊆ R is closed under ring operations on its own elements: for s₁, s₂ ∈ S, we need s₁s₂ ∈ S. An ideal I ⊆ R is strictly stronger: for any r ∈ R (not just r ∈ I) and any a ∈ I, we need ra ∈ I and ar ∈ I. This 'absorbing' property — the ideal swallows multiplication from the entire ambient ring — is exactly what allows quotient rings to be well-defined. Option A is backwards: ideals often do NOT contain 1 (if I is a proper ideal of a ring with 1, then 1 ∉ I)."
 
-- question: "Every subring of a commutative ring is also an ideal of that ring."
+- question: "Nearly every subring of a commutative ring is also an ideal of that ring."
   type: true-false
   answer: false
   explanation: "False. The integers ℤ are a subring of ℚ but not an ideal (as shown above). More generally, any ring R is a subring of itself; but the only ideal of a field (like ℚ) is {0} and the whole field. So ℤ ⊂ ℚ is a proper subring that is not an ideal. The confusion arises because closure under the subring's own multiplication is a weaker condition than absorbing all of R's multiplication. Every ideal is a subring, but not every subring is an ideal."

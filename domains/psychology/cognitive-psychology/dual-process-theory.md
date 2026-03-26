@@ -57,7 +57,7 @@ Use the Cognitive Reflection Test: items like 'A bat and ball cost $1.10 total; 
   answer: 1
   explanation: "This is the crucial nuance of dual-process theory: System 2 is NOT simply 'the accurate system.' In domains with genuine regularities where an expert has accumulated thousands of cases, System 1 encodes those patterns into fast, reliable intuitions. The physician's fast pattern recognition outperforms slow deliberate analysis because the domain contains the structure that makes fast pattern-matching reliable. Dual-process theory's real lesson is not 'slow down and think carefully' — it is 'know which mode of processing is appropriate for the domain.' Forcing System 2 deliberation onto an expert's reliable intuition can actually degrade performance."
 
-- question: "System 2 processing is more accurate than System 1 processing across all domains and types of tasks."
+- question: "System 2 processing is more accurate than System 1 processing across most domains and types of tasks."
   type: true-false
   answer: false
   explanation: "This is the most important misconception about dual-process theory. System 2 is more accurate for tasks requiring logical rule application in domains without extensive prior experience. But in domains of genuine expertise — chess, medicine, fire-fighting, music — fast System 1 processes often match or outperform deliberate System 2 analysis. A chess grandmaster's immediate intuitive move often beats their step-by-step calculation. The reason: expert System 1 has been trained on thousands of examples and encodes statistically reliable patterns. The correct framing is: System 2 outperforms System 1 in unfamiliar domains; in familiar structured domains, expert System 1 often wins."

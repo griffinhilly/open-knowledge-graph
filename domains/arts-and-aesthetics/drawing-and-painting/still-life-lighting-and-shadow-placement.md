@@ -51,7 +51,7 @@ Lighting in still life reveals form, creates mood, and guides the viewer's eye. 
   answer: true
   explanation: "Cast shadows create dark shapes on the table surface that interact with the composition: a long shadow can lead the viewer's eye across the arrangement, overlapping shadows can link separate objects visually, and the shape of a shadow on another object reveals that object's form. Thinking of shadows only as 'side effects' of where the lamp happens to be misses their active compositional role. Moving the light specifically to improve the shadow patterns is a legitimate and important creative decision."
 
-- question: "Moving a light source closer to a still life arrangement always improves the image by creating sharper, more dramatic shadows."
+- question: "Moving a light source closer to a still life arrangement generally improves the image by creating sharper, more dramatic shadows."
   type: true-false
   answer: false
   explanation: "Moving a light source closer creates harder shadow edges — this can increase drama, but it's not universally an improvement. A close, harsh source can create shadows so extreme that they overwhelm the composition or obscure detail. A narrow value range with softer shadows (from diffused or more distant light) can create a quiet, contemplative mood that may be exactly right for the subject. The 'right' position depends on the mood and composition you intend — not on some absolute measure of 'more shadow = better.'"

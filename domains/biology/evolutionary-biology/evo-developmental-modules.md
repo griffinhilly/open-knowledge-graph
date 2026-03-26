@@ -55,7 +55,7 @@ Developmental modules are semi-autonomous units that can evolve relatively indep
   answer: true
   explanation: "Yes. BMP4 is a key signaling molecule reused across different tissues, but its expression in each tissue is controlled by separate enhancer sequences. A mutation in the beak-specific enhancer can alter beak morphology (as seen in Darwin's finches) without affecting limb or tooth development, because those tissues use different regulatory modules for the same gene. This decoupling of gene expression across tissues is the molecular mechanism underlying phenotypic modularity."
 
-- question: "Developmental modules are completely independent of one another and share no genetic components, which is what allows them to evolve separately."
+- question: "Developmental modules are largely independent of one another and share no genetic components, which is what allows them to evolve separately."
   type: true-false
   answer: false
   explanation: "Modules are semi-autonomous — internally integrated and relatively decoupled from each other, but not completely independent. They frequently share the same toolkit genes (Hox genes, Shh, Wnt, BMP pathways) deployed in different contexts. The decoupling comes not from using entirely different genes but from using separate *regulatory* elements: different enhancers, pathway-specific feedback loops, and tissue-specific transcription factors that limit cross-talk between modules. Complete genetic independence is neither achievable nor necessary — sufficient decoupling is what matters."

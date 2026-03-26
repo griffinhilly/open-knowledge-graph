@@ -56,7 +56,7 @@ A country's current account reflects the difference between national saving and 
   answer: true
   explanation: "This is the intertemporal sustainability condition applied to its most favorable case. The US in the 19th century ran persistent current account deficits as European capital financed railroad and industrial expansion. The resulting productivity growth generated incomes that eventually repaid the debt. The CA = S − I identity shows a deficit means investment exceeds saving; if investment is productive, the future output it generates provides the repayment capacity. The formal condition g > r ensures the debt-to-GDP ratio is self-correcting without requiring a primary surplus."
 
-- question: "A country with a current account deficit is always consuming beyond its means, which is a sign of economic weakness."
+- question: "A country with a current account deficit is generally consuming beyond its means, which is a sign of economic weakness."
   type: true-false
   answer: false
   explanation: "A current account deficit means CA = S − I < 0, i.e., investment exceeds saving. This can reflect high investment (building productive capacity, not excess consumption) rather than low saving. A deficit is a sign of excess consumption if S is low and not offset by productive I; it is a sign of economic dynamism if I is high and generating future returns. The US, Australia, and many fast-growing emerging economies have run persistent deficits while remaining creditworthy. The relevant question is always: what is the deficit financing? Consumption-driven deficits with low growth are concerning; investment-driven deficits in high-growth economies may be entirely benign."

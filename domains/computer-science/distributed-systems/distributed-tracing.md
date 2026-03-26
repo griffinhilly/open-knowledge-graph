@@ -47,7 +47,7 @@ Distributed tracing tracks requests as they propagate through multiple services 
   answer: true
   explanation: "The trace ID is assigned once — typically at the entry point (API gateway or first service) — and propagated in headers through every service call for the lifetime of that request. Every span created anywhere in the call graph uses this same trace ID, which is how the tracing backend can assemble thousands of individual spans from many services into a single coherent trace tree."
 
-- question: "Capturing a full trace for every request is standard practice in high-throughput production systems because the per-trace storage overhead is negligible."
+- question: "Capturing a full trace for nearly every request is standard practice in high-throughput production systems because the per-trace storage overhead is negligible."
   type: true-false
   answer: false
   explanation: "Full-fidelity tracing of every request generates enormous data volumes in high-throughput systems. A service processing 100,000 requests/second would produce millions of spans per second, creating storage, ingestion, and query performance problems. Production systems use sampling strategies — head-based sampling (decide at request start whether to trace), tail-based sampling (decide after completion, keeping only errors or slow outliers), or probabilistic sampling (trace 1–10% of requests) — to manage volume while retaining diagnostic value."

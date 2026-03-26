@@ -50,7 +50,7 @@ A homomorphism between two structures is a map that respects the interpretation:
   answer: 1
   explanation: "An embedding is an injective homomorphism that also reflects relations: R^M holds on a tuple if and only if R^N holds on the image tuple. The two-way preservation plus injectivity ensures the image φ(M) is an isomorphic copy of M — no relational facts are lost or gained, and no two elements of M collapse to the same image element. A mere homomorphism might be non-injective (collapsing elements) or fail to reflect relations, so its image need not mirror M's structure. Surjectivity (option C) produces an isomorphism of the whole of M to N, not a substructure relationship."
 
-- question: "If φ: M → N is a homomorphism and R^N holds on (φ(a), φ(b)), then R^M must hold on (a, b) in M."
+- question: "If φ: M → N is a homomorphism and R^N holds on (φ(a), φ(b)), then R^M is expected to hold on (a, b) in M."
   type: true-false
   answer: false
   explanation: "False. This backward direction — reflection of relations — is NOT required by a mere homomorphism. It is the extra property (along with injectivity) that makes a map an embedding. Homomorphisms preserve relations only forward: R in M implies R in N on the image. But R holding in N on image elements does not guarantee R held in M on the preimages. A homomorphism can map elements into N in a way that satisfies additional relations not present in M. This is why embeddings are strictly stronger: they prevent the image from 'gaining' relational facts that didn't exist in the source."

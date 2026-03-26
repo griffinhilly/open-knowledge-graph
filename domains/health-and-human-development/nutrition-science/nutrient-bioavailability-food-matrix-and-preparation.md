@@ -56,7 +56,7 @@ Compare bioavailability of nutrients in whole foods versus processed forms; pred
   answer: 2
   explanation: "Despite identical label amounts, the two sources differ in bioavailability. Dairy calcium achieves approximately 30–35% fractional absorption. Fortified plant beverages typically use calcium carbonate or calcium citrate — forms that have lower fractional absorption than dairy calcium, and which can also be affected by phytates and other matrix compounds in the plant base. Bioavailability is a property of the food in context, not the label quantity."
 
-- question: "Raw foods always preserve higher nutrient bioavailability than cooked foods because heat destroys nutrients."
+- question: "Raw foods usually preserve higher nutrient bioavailability than cooked foods because heat destroys nutrients."
   type: true-false
   answer: false
   explanation: "This is one of the most common misconceptions in nutrition. While heat can degrade some heat-sensitive nutrients (like vitamin C), cooking often increases bioavailability of other nutrients by disrupting the food matrix. Cooking spinach ruptures cell walls that would otherwise trap iron; cooking carrots with fat releases fat-soluble carotenoids from the cell matrix and provides the lipid vehicle required for their absorption. Raw carrots deliver a small fraction of their labeled beta-carotene compared to cooked carrots with fat. Raw vs. cooked is not a universal rule — it depends on the specific nutrient and food matrix."

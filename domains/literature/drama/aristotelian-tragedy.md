@@ -60,7 +60,7 @@ Read Oedipus Rex alongside excerpts from Aristotle's Poetics, identifying each e
   answer: 2
   explanation: "Hamartia comes from an archery term meaning a 'miss' — emphasizing an error in action or judgment rather than a character defect. The mistranslation 'tragic flaw' (option A) has produced generations of bad literary analysis where students hunt for the character weakness that 'caused' the tragedy. Aristotle wants the hero's fall to feel undeserved — not a just punishment for being a certain kind of person. Oedipus's hamartia is his decision to investigate the murder, not a personality defect. Anagnorisis (option B) is the recognition scene, and peripeteia is the reversal (option D)."
 
-- question: "According to Aristotle, the tragic hero must die at the end of the play."
+- question: "According to Aristotle, the tragic hero should die at the end of the play."
   type: true-false
   answer: false
   explanation: "Aristotle does not require the hero's death. Tragedy is defined as a fall from prosperity to misery — this can be psychological, social, or relational rather than physical death. What matters is the reversal of fortune and its emotional effect on the audience. Some of Aristotle's cited examples involve exile or disgrace rather than death. The equation of tragedy with the hero's death is a common modern assumption that does not match Aristotle's actual definition."

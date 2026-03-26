@@ -29,7 +29,7 @@ Linear regression fits a model y = Xβ + ε to data by minimizing ||y − Xβ||�
   answer: 1
   explanation: "The fitted values ŷ = Xβ* = X(XᵀX)⁻¹Xᵀy = Py, where P = X(XᵀX)⁻¹Xᵀ is the orthogonal projection matrix onto col(X). This projection interpretation is the core geometric insight: we find the point in the column space of X closest to y, and the error is the perpendicular distance from y to that subspace."
 
-- question: "Solving the normal equations (XᵀX)β = Xᵀy directly by inverting XᵀX is always the preferred numerical method for computing β* in practice."
+- question: "Solving the normal equations (XᵀX)β = Xᵀy directly by inverting XᵀX is generally the preferred numerical method for computing β* in practice."
   type: true-false
   answer: false
   explanation: "Inverting XᵀX squares the condition number of X, making the calculation numerically unstable when X is near-singular (e.g., when predictors are nearly collinear). QR decomposition of X directly is preferred because it works with the original condition number of X, not its square. Most regression software (R, NumPy's lstsq, etc.) uses QR or SVD internally."

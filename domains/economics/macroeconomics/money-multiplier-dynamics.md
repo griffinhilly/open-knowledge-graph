@@ -53,7 +53,7 @@ Trace through a sequence of bank deposits and loans to see how an initial deposi
   answer: 2
   explanation: "The full multiplier formula is m = 1/(r + c). Each lending-redepositing round generates new deposits only to the extent that borrowed funds are redeposited at banks. When people hold more cash, they redeposit less of each loan, truncating the cycle earlier. A higher c raises the denominator, reducing m. This is why the multiplier is not just a function of central bank policy (r) but also of public behavior — a shift in cash preference changes the amount of money the system creates from any given injection of base money."
 
-- question: "The money multiplier is a fixed constant determined entirely by the required reserve ratio set by the central bank."
+- question: "The money multiplier is a fixed constant determined largely by the required reserve ratio set by the central bank."
   type: true-false
   answer: false
   explanation: "The money multiplier m = 1/(r + c) depends on two behavioral variables: r (the effective reserve ratio, which includes both required and excess reserves banks choose to hold) and c (the currency ratio, reflecting how much of their deposits the public prefers to hold as cash). The central bank sets the required reserve ratio but cannot control how many excess reserves banks decide to hold or how the public splits its money between deposits and cash. During the 2008 financial crisis, banks accumulated enormous excess reserves, causing the actual multiplier to collapse far below what the required reserve ratio alone would imply."

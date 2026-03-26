@@ -50,12 +50,12 @@ Demand characteristics are cues in the research environment that communicate to 
   answer: 2
   explanation: "The standard response is systematic post-experimental inquiry followed by sensitivity analysis. If the effect holds among hypothesis-unaware participants, confidence in its validity increases. If it disappears, the effect may have been an artifact of demand characteristics. Transparent reporting of both analyses lets readers judge the evidence. Omitting the inquiry results or simply noting limitations without the analysis is inadequate."
 
-- question: "Demand characteristics always lead research participants to artificially confirm the researcher's hypothesis."
+- question: "Demand characteristics usually lead research participants to artificially confirm the researcher's hypothesis."
   type: true-false
   answer: false
   explanation: "Demand characteristics produce multiple behavioral patterns. The 'good subject' effect (Orne) leads to hypothesis confirmation. But the 'screw you' effect leads some participants to deliberately oppose perceived expectations. Others respond in socially desirable ways that have nothing to do with the experimental manipulation. All three patterns contaminate the experiment's signal — they just distort it in different directions. Demand characteristics do not uniformly inflate effects; they systematically introduce noise aligned with participants' beliefs."
 
-- question: "In a double-blind study, participants cannot form hypotheses about the study's purpose, completely eliminating demand characteristic effects."
+- question: "In a double-blind study, participants can seldom form hypotheses about the study's purpose, substantially eliminating demand characteristic effects."
   type: true-false
   answer: false
   explanation: "Double-blind procedures prevent participants from knowing which condition they're in and prevent experimenters from inadvertently communicating expectations. But they do not prevent participants from forming hypotheses — participants still observe the study environment, read instructions, and infer context from the questions they're asked and the equipment they see. Double-blind reduces demand characteristic effects, particularly condition-based strategy, but cannot eliminate the participant's natural tendency to theorize about the study."

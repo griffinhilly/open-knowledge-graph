@@ -59,7 +59,7 @@ Use a "fact family triangle" — write the largest number at the top and the two
   answer: true
   explanation: "8, 5, and 13 form a fact family. The equation 8 + 5 = 13 tells you that 13 is the whole, and 8 and 5 are its two parts. Knowing the whole and one part, you can always find the missing part: 13 − 5 = 8. No separate calculation is needed because subtraction is built into the same three-number relationship."
 
-- question: "Subtraction facts must be memorized separately from addition facts because subtraction works in a completely different way."
+- question: "Subtraction facts is expected to be memorized separately from addition facts because subtraction works in a mostly different way."
   type: true-false
   answer: false
   explanation: "This is the core misconception the fact family concept is designed to fix. Subtraction facts are not separate — they come from the same three-number relationship as addition facts. A student who knows all addition families within 20 already has access to all corresponding subtraction facts. The operations are two views of the same underlying number relationship."

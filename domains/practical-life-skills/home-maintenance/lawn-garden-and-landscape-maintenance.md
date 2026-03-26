@@ -54,7 +54,7 @@ Lawns maintain themselves. (Grass needs weekly mowing and watering during dry pe
   answer: true
   explanation: "Mulch works as a physical light barrier — weed seeds require light to germinate, and a thick mulch layer prevents them from getting it. Mulch also retains soil moisture and regulates temperature as secondary benefits. This proactive approach is far more time-efficient than pulling weeds after they've sprouted, especially because weeds that have already germinated are harder to kill and may have set seed."
 
-- question: "Chemical herbicides are necessary for maintaining a healthy lawn — proper mowing height and watering practices cannot substitute for them."
+- question: "Chemical herbicides are necessary for maintaining a healthy lawn — proper mowing height and watering practices can seldom substitute for them."
   type: true-false
   answer: false
   explanation: "Most common lawn problems — weeds, thin grass, drought damage — can be managed effectively through proper cultural practices: mowing at the right height (3+ inches), watering deeply but infrequently, and overseeding bare patches. Taller grass shades the soil and inhibits weed germination. The Common Misconceptions section explicitly addresses this: many homeowners reach for chemicals as a first resort when mechanical practices would handle most care."

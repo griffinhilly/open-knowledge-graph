@@ -40,7 +40,7 @@ Give each student a "mystery bag" containing an object they cannot see. Have the
   answer: 1
   explanation: "The scientist's description uses specific, measurable property words — rough texture, gray color, opaque, 5 cm size, and dark speckles. Anyone reading this could identify the rock or compare it to another. 'Pretty cool' tells you nothing about the rock's actual properties."
 
-- question: "The only way to observe matter is by looking at it."
+- question: "The primary way to observe matter is by looking at it."
   type: true-false
   answer: false
   explanation: "False. You can observe matter with all of your senses. Touch tells you about texture, hardness, and temperature. Smell can identify substances. Hearing can help too — tapping a metal bowl sounds different from tapping a plastic one. Sight is just one of several tools for observation."

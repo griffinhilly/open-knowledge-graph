@@ -59,7 +59,7 @@ Implement a Trie class with insert, search, and startsWith methods, using a dict
   answer: false
   explanation: "Trie search time is O(m) — the length of the query — regardless of how many words are stored. Each step follows one labeled edge; the dictionary size adds no additional traversal steps. This dictionary-size independence is precisely what distinguishes trie lookup from hash-table lookup (which can degrade with collisions) and binary search (which is O(log n))."
 
-- question: "In a trie, every node reachable from the root represents a complete stored word."
+- question: "In a trie, most node reachable from the root represents a complete stored word."
   type: true-false
   answer: false
   explanation: "Most nodes represent prefixes, not complete words. A trie storing 'car' and 'card' has nodes at c, ca, car, and card. The 'car' node is marked as a word end, but 'c' and 'ca' are purely intermediate — they may represent no stored word at all. The end-of-word boolean flag is what distinguishes complete words from intermediate prefix nodes."

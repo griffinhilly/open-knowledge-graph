@@ -50,7 +50,7 @@ Affect is not emotion; affect is pre- or non-conscious intensity while emotion i
   answer: 1
   explanation: "Ahmed's emotional economies framework holds that affects like fear do not simply reside in individuals — they circulate through social bodies, accumulating around certain objects (immigrants, queers, criminals) and in doing so, organize communities and identities politically. A text producing fear is not just representing an idea; it is participating in these circuits, reinforcing or redirecting what fear 'sticks to.' Options A and C reduce the political to something individual; option D confuses Ahmed's framework with narratological concepts."
 
-- question: "Affect criticism abandons semantic interpretation entirely, focusing only on the reader's physical and emotional response to a text."
+- question: "Affect criticism abandons semantic interpretation largely, focusing primarily on the reader's physical and emotional response to a text."
   type: true-false
   answer: false
   explanation: "This is a common misreading. Affect criticism expands what counts as literary significance — it attends to rhythms, pacing, repetition, and sound alongside content — but it does not abandon interpretation. The claim is that a purely semantic approach misses important textual work, not that meaning is irrelevant. Affect criticism redirects close reading toward neglected features; it does not replace close reading with sensation-cataloging."

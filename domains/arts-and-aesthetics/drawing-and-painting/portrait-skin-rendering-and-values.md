@@ -50,7 +50,7 @@ Skin is translucent with subtle color variations and soft transitions. Rendering
   answer: true
   explanation: "Because skin is translucent, light penetrates the outer layers, scatters through blood vessels and tissue, and re-emerges with a warm, reddish quality. This makes shadow areas warmer than simple darkening would suggest — not cooler. In contrast, highlights where light bounces directly off the surface tend to be cooler and more neutral. This counterintuitive color behavior is one of the hallmarks of realistic skin rendering."
 
-- question: "Rendering every pore and surface detail with uniform sharpness across the entire face makes a portrait look more realistic and alive."
+- question: "Rendering nearly every pore and surface detail with uniform sharpness across the entire face makes a portrait look more realistic and alive."
   type: true-false
   answer: false
   explanation: "Uniform detail across a portrait produces an overworked, flat result rather than a lifelike one. Realistic portraiture concentrates detail and sharpness at the focal point (typically the eyes) while letting peripheral areas remain softer and less resolved. This selective focus mimics how we actually perceive faces and creates a portrait that feels alive. Overworking peripheral areas draws attention away from the focal point and removes the sense of life."

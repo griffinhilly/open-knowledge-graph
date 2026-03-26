@@ -57,7 +57,7 @@ Choose a technical or abstract concept and develop an extended metaphor or analo
   answer: true
   explanation: "True. A brief metaphor provides one flash of illumination. An extended metaphor maintained consistently becomes a lens the audience can wear for the entire speech — each new piece of information slots into a familiar structure, improving both comprehension and memory. The key is consistency: the power comes from the systematicity of the mapping, where every element of the unfamiliar domain maps to an element of the familiar one."
 
-- question: "A well-crafted conceptual metaphor works equally well for all audiences, because strong mappings transcend cultural background."
+- question: "A well-crafted conceptual metaphor works equally well for most audiences, because strong mappings transcend cultural background."
   type: true-false
   answer: false
   explanation: "False. Metaphors are not culturally neutral. The audience must understand the source domain for the mapping to work. A baseball metaphor is opaque to audiences unfamiliar with the sport; a warfare metaphor may resonate differently across cultures with different military histories. If the 'familiar' half of the metaphor is actually unfamiliar to the audience, the metaphor mystifies rather than clarifies. Effective speakers calibrate metaphors to their specific audience's knowledge and cultural background."

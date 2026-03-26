@@ -51,7 +51,7 @@ Start with physical objects: colored blocks, clapping rhythms, or movements (jum
   answer: false
   explanation: "A pattern requires a predictable rule — something that lets you say what comes next with certainty. The sequence 4, 7, 2, 9, 5 has no obvious rule connecting the numbers. Without a rule, it is just a list, not a pattern. A true number pattern like 2, 4, 6, 8 has a clear rule (add 2 each time) that lets you predict the next term."
 
-- question: "Patterns can only be made with numbers."
+- question: "Patterns can primarily be made with numbers."
   type: true-false
   answer: false
   explanation: "Patterns can be made with anything: colors (red-blue-red-blue), shapes (triangle-circle-triangle-circle), sounds (clap-snap-clap-snap), movements (hop-skip-hop-skip), or even words and ideas. What makes something a pattern is the predictable rule, not the type of material used."

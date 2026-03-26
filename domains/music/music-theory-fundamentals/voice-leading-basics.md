@@ -39,7 +39,7 @@ Voice leading is only for vocal music (it applies to all music). All voices must
   answer: 1
   explanation: "Smooth voice leading minimizes motion. C major (C-E-G) and F major (F-A-C) share C as a common tone — that voice can stay put. The remaining voices move by small intervals: E moves up a half step to F, and G moves up a whole step to A (or down). This creates efficient, smooth connections. Moving all voices by large intervals produces clunky, disjunct bass and soprano lines."
 
-- question: "In traditional voice leading, every voice must move to a different pitch when changing from one chord to the next — staying on the same note is considered poor technique."
+- question: "In traditional voice leading, nearly every voice is expected to move to a different pitch when changing from one chord to the next — staying on the same note is considered poor technique."
   type: true-false
   answer: false
   explanation: "Holding a common tone between two chords is often the ideal voice leading choice. If a pitch belongs to both chords, keeping that voice stationary reduces overall motion and creates a smooth connection. The goal is to minimize unnecessary motion — not to move for the sake of moving. Parallel 5ths, not held tones, are the primary concern to avoid."

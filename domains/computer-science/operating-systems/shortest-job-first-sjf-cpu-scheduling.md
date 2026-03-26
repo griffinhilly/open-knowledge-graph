@@ -59,7 +59,7 @@ Study the algorithm with concrete examples showing scheduling timelines. Compare
   answer: true
   explanation: "This is a provable optimality result. The argument is by exchange: given any schedule that does not run the shortest available job next, swapping the shortest job earlier always reduces (or maintains) total waiting time across all processes. Repeating this argument produces the SJF order, which is therefore optimal. This is the same reasoning behind greedy sorting: always process the cheapest operation first to minimize accumulated overhead."
 
-- question: "Preemptive SJF (Shortest Remaining Time First) is always preferable to non-preemptive SJF because it produces lower average waiting times."
+- question: "Preemptive SJF (Shortest Remaining Time First) is typically preferable to non-preemptive SJF because it produces lower average waiting times."
   type: true-false
   answer: false
   explanation: "While SRTF achieves lower or equal average waiting time, 'always preferable' is too strong. SRTF introduces additional context-switch overhead every time a shorter job arrives. More critically, SRTF severely worsens starvation: a long process can be perpetually preempted as short jobs keep arriving, potentially never completing. In systems where fairness or guaranteed progress matters, non-preemptive SJF or other algorithms may be preferred despite the slightly higher average wait time."

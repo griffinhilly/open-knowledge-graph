@@ -54,7 +54,7 @@ ACh is always excitatory. ACh at nicotinic receptors is excitatory; at muscarini
   answer: 1
   explanation: "Organophosphates inhibit acetylcholinesterase (AChE), causing ACh to accumulate at every cholinergic synapse. Because ACh is used at the neuromuscular junction (muscular effects), all autonomic preganglionic synapses (both sympathetic and parasympathetic), and parasympathetic postganglionic synapses (cardiac, glandular, smooth muscle effects), a single AChE inhibitor affects the entire peripheral nervous system simultaneously. This broad distribution is a key anatomical feature of the cholinergic system."
 
-- question: "Acetylcholine always produces excitatory effects because it is the neurotransmitter at the neuromuscular junction, which causes muscle contraction."
+- question: "Acetylcholine generally produces excitatory effects because it is the neurotransmitter at the neuromuscular junction, which causes muscle contraction."
   type: true-false
   answer: false
   explanation: "This is the core misconception about the cholinergic system. ACh's effect depends entirely on the receptor it binds. At nicotinic receptors (including the NMJ), ACh is excitatory via fast ionotropic signaling. At muscarinic receptors, ACh can be inhibitory — the classic example is M2 receptors in the heart, where ACh slows heart rate. The transmitter does not determine excitation or inhibition; the receptor type and the G-protein it couples to determine the effect."

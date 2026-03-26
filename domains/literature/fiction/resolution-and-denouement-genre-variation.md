@@ -52,7 +52,7 @@ That all stories need clear or happy endings; that denouement is wasted space; t
   answer: 1
   explanation: "Unlike genre fiction with specific resolution promises, literary fiction's contract is precisely the absence of such guarantees. When the story's subject is the difficulty of knowing or the persistence of loss, an ambiguous ending is not a failure — it is the only honest form. Works like The Remains of the Day or The Turn of the Screw end in irresolution not because the authors couldn't manage closure, but because closure would falsify what the fiction is actually about."
 
-- question: "Ambiguous or unresolved endings are always artistic failures that reveal an author's inability to complete their story."
+- question: "Ambiguous or unresolved endings are typically artistic failures that reveal an author's inability to complete their story."
   type: true-false
   answer: false
   explanation: "Ambiguous endings are a deliberate artistic tool in literary fiction. When a story's subject is irresolution, moral complexity, or the impossibility of tidy outcomes, an ambiguous ending is the formally appropriate choice — not a failure of craft. The key question is whether the ambiguity is calculated (serving the story's thematic purposes) or accidental (the author failed to make a choice). Genre determines whether ambiguity is a subversion or a contract breach."

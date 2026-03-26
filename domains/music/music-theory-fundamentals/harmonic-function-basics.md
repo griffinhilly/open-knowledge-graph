@@ -43,7 +43,7 @@ Function is determined by chord type rather than role (a major triad can be I, I
   answer: 2
   explanation: "The chord built on scale degree 5 (V) functions as the dominant. Its pull toward the tonic (I) comes from containing the leading tone (scale degree 7), which has a strong melodic tendency to resolve up to scale degree 1. The dominant–tonic (V–I) relationship is the central tension-resolution engine in tonal music."
 
-- question: "A major triad always functions as the tonic chord in a given key."
+- question: "A major triad usually functions as the tonic chord in a given key."
   type: true-false
   answer: false
   explanation: "Harmonic function is determined by the chord's role in the key, not by its quality (major, minor, etc.). In C major, both the I (C major) and the V (G major) and the IV (F major) chords are major triads, yet each has a distinct function. The same chord quality can serve any function depending on context."

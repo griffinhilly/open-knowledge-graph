@@ -52,7 +52,7 @@ Molecular polarity results from both bond polarity (electronegativity difference
   answer: true
   explanation: "Lone pairs on the central atom create asymmetry in the molecular geometry. In water (O with 2 lone pairs) and ammonia (N with 1 lone pair), the lone pair pushes the bonding pairs asymmetrically, creating a bent or pyramidal shape. The bond dipoles then point in directions that do not cancel. Compare with BF₃ (no lone pair, trigonal planar) — all three B-F dipoles cancel to zero. Or CH₄ (no lone pair, perfect tetrahedron) — also zero. The lone pair is geometrically equivalent to a substituent that contributes no bond dipole but distorts the shape, breaking the symmetry needed for cancellation."
 
-- question: "Any molecule containing bonds between atoms of different electronegativity must have a nonzero dipole moment."
+- question: "Any molecule containing bonds between atoms of different electronegativity should have a nonzero dipole moment."
   type: true-false
   answer: false
   explanation: "This confuses bond polarity with molecular polarity. Many molecules have polar bonds that cancel due to symmetric geometry: CO₂ (linear), CCl₄ (tetrahedral), BF₃ (trigonal planar), and SF₆ (octahedral) all have polar bonds but zero dipole moments because their symmetry causes perfect vector cancellation. The existence of polar bonds is a necessary but not sufficient condition for molecular polarity — the geometry must also prevent cancellation. This is why you cannot assess molecular polarity from the formula alone; you must know the three-dimensional structure."

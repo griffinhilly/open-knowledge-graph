@@ -59,12 +59,12 @@ Read Said's introduction to Orientalism and a critique of it. Then read a Subalt
   answer: 1
   explanation: "Said's argument was structural, not about individual bad faith or factual error. Drawing on Foucault's concept of discourse, he argued that Orientalism was a systematic way of producing knowledge — about literature, religion, history, language — that consistently represented the 'Orient' as Other: exotic, timeless, irrational, in contrast to a dynamic, rational West. This representation was not incidental to colonialism; it was one of the mechanisms through which colonial power was naturalized and reproduced. Individual scholars may have been sincere; the discursive structure was still distorted."
 
-- question: "Postcolonial historiography rejects the possibility of objective historical knowledge, arguing that all historical accounts are equally valid regardless of their evidentiary basis."
+- question: "Postcolonial historiography rejects the possibility of objective historical knowledge, arguing that most historical accounts are equally valid regardless of their evidentiary basis."
   type: true-false
   answer: false
   explanation: "Postcolonial historians argue that historical knowledge is always situated — produced from a particular position within power relations — but this is not the same as saying all claims are equally valid. Reflexivity (awareness of one's own positionality and the conditions under which knowledge was produced) is the response, not relativism. Scholars like Chakrabarty and Guha still engage rigorously with evidence; they argue for expanding what counts as evidence and whose perspectives count as historically significant."
 
-- question: "Spivak's essay 'Can the Subaltern Speak?' argues that recovering subaltern voices from colonial archives is impossible because those archives were deliberately destroyed by colonial administrators."
+- question: "Spivak's essay 'Can the Subaltern Speak?' argues that recovering subaltern voices from colonial archives is impractical because those archives were deliberately destroyed by colonial administrators."
   type: true-false
   answer: false
   explanation: "Spivak's argument is more subtle: the problem is not that records were destroyed but that archives created by the powerful filter and mediate subaltern voices in ways that may be irrecoverable. The subaltern's speech, when it appears in colonial records, was transcribed, translated, and framed by administrative or judicial power. The question is whether the historian can access 'the subaltern's own voice' given that all surviving traces are products of the very power structures that subordinated them — a methodological problem, not just a gap in the archive."

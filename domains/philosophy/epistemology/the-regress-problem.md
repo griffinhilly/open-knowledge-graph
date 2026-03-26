@@ -64,7 +64,7 @@ Draw the regress explicitly as a diagram with arrows representing 'is justified 
   answer: false
   explanation: "The topic explicitly addresses this misconception. The regress problem is about the *logical structure* of justificatory relations — whether 'justified by' can coherently apply to a belief that depends on an unjustified further belief. The psychological question (can humans hold infinitely many beliefs?) is relevant to evaluating infinitism as a solution, but the problem itself is logical and structural."
 
-- question: "The regress problem applies only in epistemology — it does not arise in ethics, mathematics, or law."
+- question: "The regress problem applies primarily in epistemology — it does not arise in ethics, mathematics, or law."
   type: true-false
   answer: false
   explanation: "The regress problem is structurally analogous across domains. In ethics: what justifies moral principles — and what justifies that justification? In mathematics: axioms are accepted without proof — are they justified, and if so, how? In law: what justifies the constitution's authority? In each domain, justification either bottoms out in something unjustified, goes circular, or regresses infinitely. The problem reveals a structural feature of 'justified by' that appears wherever that concept is applied."

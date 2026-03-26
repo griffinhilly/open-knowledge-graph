@@ -52,7 +52,7 @@ Anxiety disorders share excessive, persistent fear or worry but differ in trigge
   answer: 1
   explanation: "Both disorders share the same maintaining mechanism (avoidance conditioning), but what is being avoided differs fundamentally. For a specific phobia, the feared stimulus is circumscribed (spiders) — exposure means directly confronting spiders in a graduated hierarchy. For GAD, the 'threat' is diffuse, future-oriented uncertainty across multiple life domains — exposure means tolerating uncertainty and interrupting cognitive worry spirals. The same theoretical framework (exposure + extinction) underlies both, but the clinical implementation differs based on the specific symptom profile."
 
-- question: "Because anxiety disorders all share the same neurobiological mechanisms, the same exposure therapy protocol works equally well across all of them without modification."
+- question: "Because anxiety disorders most share the same neurobiological mechanisms, the same exposure therapy protocol works equally well across most of them without modification."
   type: true-false
   answer: false
   explanation: "Shared neurobiological mechanisms (amygdala hyperreactivity, prefrontal underactivation, avoidance conditioning) explain why exposure-based therapy is the core treatment for all anxiety disorders. But the protocols differ substantially based on what triggers the disorder and what form it takes. Treating a specific phobia requires confronting the specific feared object. Treating panic disorder requires confronting feared bodily sensations and breaking the 'fear of fear' cycle. Treating GAD requires tolerating uncertainty and reducing worry engagement. Same principle, different application."

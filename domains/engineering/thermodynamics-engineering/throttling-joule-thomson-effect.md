@@ -49,7 +49,7 @@ Throttling is an isenthalpic process where fluid pressure drops irreversibly wit
   answer: 1
   explanation: "For an ideal gas, enthalpy h = u + Pv depends only on temperature (u depends only on T, and Pv = RT also depends only on T). If enthalpy is conserved across the throttle, temperature must be unchanged. It is real gas intermolecular interactions — not absent in an ideal gas — that cause temperature to change when pressure changes at constant enthalpy."
 
-- question: "Throttling always causes a gas to cool, which is why it is universally used in refrigeration."
+- question: "Throttling typically causes a gas to cool, which is why it is universally used in refrigeration."
   type: true-false
   answer: false
   explanation: "Throttling cools a gas only when it is below its Joule-Thomson inversion temperature, where μ_JT > 0. Above the inversion temperature, throttling heats the gas. For most common gases (air, nitrogen, CO₂), the inversion temperature is well above room temperature, so throttling typically cools them. Hydrogen and helium at room temperature are above their inversion temperatures and actually warm up when throttled."

@@ -47,7 +47,7 @@ Flagella are helical, rotating appendages that propel bacteria through liquids, 
   answer: 1
   explanation: "Type IV pili extend, adhere, then retract (via PilT) to generate twitching motility on surfaces — but this does not propel bacteria through liquid. Swimming requires the helical rotation of flagellar filaments. Type IV pili also mediate natural transformation (DNA uptake uses the same extension-retraction mechanism). Option D is wrong: twitching is jerky surface movement, not swimming, and pili cannot rotate like flagella."
 
-- question: "Both flagella and pili are used by bacteria for locomotion — the difference is only whether they move in liquid or on surfaces."
+- question: "Both flagella and pili are used by bacteria for locomotion — the difference is mainly whether they move in liquid or on surfaces."
   type: true-false
   answer: false
   explanation: "Most pili and fimbriae are primarily adhesion structures, not motility structures — they anchor bacteria to surfaces and host cells. Type I pili (with FimH adhesins), for example, mediate adhesion to bladder epithelium and do not generate movement. Only Type IV pili produce motility (twitching), and that is a special case. The primary functional distinction between flagella and most pili is motility versus adhesion, not liquid versus surface — conflating the two misrepresents how these distinct molecular machines are used."

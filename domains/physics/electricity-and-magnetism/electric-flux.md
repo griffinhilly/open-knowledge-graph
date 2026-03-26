@@ -63,7 +63,7 @@ Visualize flux as the number of field lines piercing a surface. Practice with fl
   answer: true
   explanation: "True. The dot product of two vectors produces a scalar — a single number with no direction. E · dA = |E| |dA| cos θ, where θ is the angle between them. The result is a signed number (positive when E has a component in the direction of the outward normal, negative when it has a component opposing the normal). Even though both E and dA are vectors, their combination through the dot product — and the integration over the surface — yields a scalar: the total flux. Many students mistakenly expect flux to have a direction since it involves vectors, but the dot product removes this."
 
-- question: "Increasing the area of a surface always increases the electric flux through it, because more surface area intercepts more field lines."
+- question: "Increasing the area of a surface typically increases the electric flux through it, because more surface area intercepts more field lines."
   type: true-false
   answer: false
   explanation: "False. Flux depends on both area and orientation. If you increase the area of a surface that is already parallel to the field (normal perpendicular to E), the flux remains zero regardless of how large the surface becomes — no field lines pass through it. More precisely, Φ = ∫ E · dA, and each area element contributes E cos θ dA. If θ = 90° everywhere, additional area adds nothing. It is only when the surface (or part of it) is oriented with a component perpendicular to the field that area increases flux."

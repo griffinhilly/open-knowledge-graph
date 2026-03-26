@@ -59,7 +59,7 @@ Compute stagnation temperature and pressure for air at several Mach numbers (0.3
   answer: true
   explanation: "a = √(γRT), so speed of sound is proportional to the square root of absolute temperature. At 12 km altitude, temperature drops to about 216 K compared to ~288 K at sea level, reducing the speed of sound from ~340 m/s to ~295 m/s. An aircraft at 250 m/s is at Ma ≈ 0.73 at sea level but Ma ≈ 0.85 at altitude — closer to sonic conditions and well into the regime where compressibility corrections are significant."
 
-- question: "A compressible flow must be turbulent, because the density fluctuations that define compressibility require chaotic velocity patterns."
+- question: "A compressible flow should be turbulent, because the density fluctuations that define compressibility require chaotic velocity patterns."
   type: true-false
   answer: false
   explanation: "Compressibility and turbulence are independent phenomena. Compressibility refers to significant density variation in response to pressure changes — it is a Mach number effect. Turbulence refers to chaotic, irregular velocity fluctuations — it is a Reynolds number effect. A laminar supersonic flow in a converging-diverging nozzle is compressible but not turbulent. A turbulent low-speed airflow over a car is turbulent but essentially incompressible. The two can occur together, but neither requires the other."

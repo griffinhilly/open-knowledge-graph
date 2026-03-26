@@ -53,7 +53,7 @@ Combined cycles cascade a Brayton cycle (topping) with a Rankine cycle (bottomin
   answer: true
   explanation: "The pinch point is the minimum temperature difference between the flue gas and the water-steam streams in the HRSG. Thermodynamics requires the flue gas to always be hotter than the fluid it is heating. A smaller pinch (5–10°C) means the heat exchanger extracts heat from the exhaust down to lower temperatures, recovering more energy — but the smaller driving temperature difference means slower heat transfer per unit area, requiring more heat exchanger surface and therefore higher capital cost. A larger pinch (20–30°C) is cheaper to build but leaves more recoverable heat in the stack exhaust."
 
-- question: "Combined-cycle plants achieve higher thermal efficiency than standalone gas turbines primarily because they burn fuel more completely in the combined system."
+- question: "Combined-cycle plants achieve higher thermal efficiency than standalone gas turbines primarily because they burn fuel more mostly in the combined system."
   type: true-false
   answer: false
   explanation: "Combustion completeness is not the mechanism. Combined-cycle efficiency gains come entirely from thermodynamic heat recovery — the Brayton cycle's exhaust heat is captured and converted to additional work by the Rankine bottoming cycle, rather than being discharged to the atmosphere. The fuel input may actually be similar or even less than running both cycles separately; the point is that the same heat input yields more total work output. The efficiency improvement is a second-law recovery story, not a combustion chemistry story."

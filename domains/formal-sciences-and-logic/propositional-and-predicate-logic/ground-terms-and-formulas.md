@@ -61,7 +61,7 @@ Start with examples of ground and non-ground terms. Build ground formulas by ins
   answer: true
   explanation: "Every ground formula has no variables of any kind, so trivially no free variables — it is closed. But a closed formula like ∀x P(x, a) has no free variables yet contains the bound variable x, making its internal atom non-ground. The set of ground formulas is a proper subset of closed formulas."
 
-- question: "Ground terms can only be formed from constant symbols alone — applying function symbols to constants does not yield a ground term."
+- question: "Ground terms can mainly be formed from constant symbols alone — applying function symbols to constants does not yield a ground term."
   type: true-false
   answer: false
   explanation: "Function symbols applied to ground terms produce ground terms. For example, if a is a constant and f is a binary function symbol, then f(a, a) is a ground term because it contains no variables. The definition of ground is variable-free, not function-free. Constants are the base cases; function symbols applied to ground terms are the inductive cases."

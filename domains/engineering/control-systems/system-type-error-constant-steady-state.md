@@ -48,7 +48,7 @@ System type is the number of free integrators in the open-loop transfer function
   answer: 1
   explanation: "Adding one integrator upgrades the system from Type 0 to Type 1. For a Type 0 system, the step error is e∞ = 1/(1+Kₚ) — finite and nonzero regardless of gain. The integrator makes Kₚ = ∞, reducing step error to zero. The tradeoff is that the integrator adds 90° of phase lag, which typically reduces phase margin and can destabilize the loop — the opposite of option C. Parabolic tracking with finite error requires Type 2 (two integrators)."
 
-- question: "A Type 0 feedback control system will always achieve zero steady-state error for a constant step reference input if the open-loop gain is made sufficiently large."
+- question: "A Type 0 feedback control system will typically achieve zero steady-state error for a constant step reference input if the open-loop gain is made sufficiently large."
   type: true-false
   answer: false
   explanation: "For a Type 0 system, the position error constant Kₚ = lim(s→0) G(s) is finite, giving e∞ = 1/(1+Kₚ). Increasing the gain increases Kₚ and reduces the error, but e∞ approaches zero only as Kₚ → ∞, which is never achieved with finite gain. No finite gain makes e∞ exactly zero for a Type 0 system. Zero step error requires a free integrator (Type 1 or higher), which makes Kₚ truly infinite."

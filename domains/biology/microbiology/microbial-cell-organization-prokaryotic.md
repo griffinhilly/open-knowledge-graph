@@ -56,7 +56,7 @@ Compare prokaryotic and eukaryotic cell structures using electron micrographs, c
   answer: 2
   explanation: "In eukaryotes, the nuclear membrane physically separates transcription (nucleus) from translation (cytoplasm), forcing them to occur sequentially. In prokaryotes, the absence of this barrier enables coupled transcription-translation: ribosomes attach to the mRNA and begin translating it while RNA polymerase is still moving along the DNA template. This is a functional advantage, not a limitation — it allows gene expression to respond in minutes, far faster than the eukaryotic cycle of transcription, RNA processing, nuclear export, and translation."
 
-- question: "Prokaryotic cells lack any spatial organization of their internal components, with all molecules freely distributed throughout the cytoplasm."
+- question: "Prokaryotic cells lack any spatial organization of their internal components, with most molecules freely distributed throughout the cytoplasm."
   type: true-false
   answer: false
   explanation: "While prokaryotes lack membrane-bound organelles, they have significant spatial organization. The chromosome is compacted and localized in the nucleoid region through supercoiling and nucleoid-associated proteins. Ribosomes, storage granules, and specialized inclusions (gas vesicles, magnetosomes) occupy distinct regions. Transcription and translation are spatially coupled. The absence of a nuclear membrane does not mean the absence of internal structure — it means structure is achieved through non-membrane mechanisms."

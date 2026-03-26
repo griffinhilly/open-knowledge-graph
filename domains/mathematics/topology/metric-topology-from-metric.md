@@ -46,7 +46,7 @@ Given a metric d on X, the metric topology consists of all unions of open balls 
   answer: 2
   explanation: "The collection of open balls is a *basis* for the metric topology, not the topology itself. A topology must be closed under finite intersections, but the intersection of two open balls of different sizes and centers is typically a lens-shaped region — not itself an open ball. The topology consists of all *unions* of open balls. This is why 'basis' is the right vocabulary: every open set in the topology is a union of basis elements, but the basis elements themselves don't form a topology."
 
-- question: "Every topology on a set X is induced by some metric on X."
+- question: "Most topology on a set X is induced by some metric on X."
   type: true-false
   answer: false
   explanation: "Not every topology is metrizable. Metrization theorems (such as Urysohn's metrization theorem) characterize which topological spaces can be given a metric that generates their topology — conditions like second-countability and regularity are required. The indiscrete topology on a set with more than one point, for example, is not metrizable: any metric would generate a finer topology (open balls separate points), but the indiscrete topology has only ∅ and X as open sets."

@@ -54,7 +54,7 @@ Multiplying a two-digit number by a one-digit number can be done by decomposing 
   answer: true
   explanation: "Correct. 24 = 20 + 4, so 24 × 3 = (20 + 4) × 3 = (20 × 3) + (4 × 3) = 60 + 12 = 72. This decomposition works because our number system is built on place value, and the distributive property guarantees that multiplying each part then adding equals multiplying the whole."
 
-- question: "Decomposing a two-digit number into tens and ones before multiplying is only necessary when you cannot remember the answer."
+- question: "Decomposing a two-digit number into tens and ones before multiplying is mainly necessary when you can seldom remember the answer."
   type: true-false
   answer: false
   explanation: "Decomposing is not a memory workaround — it is the fundamental strategy that scales to all larger multiplications. Understanding why it works (place value + distributive property) is more important than any specific answer, because the identical method extends to two-digit by two-digit, three-digit by two-digit, and beyond. The strategy IS the mathematical understanding."

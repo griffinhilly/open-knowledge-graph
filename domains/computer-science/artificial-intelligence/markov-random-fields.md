@@ -55,7 +55,7 @@ Implement inference in a simple MRF for image denoising or texture synthesis usi
   answer: true
   explanation: "This is the defining local Markov property of an MRF. Given all of a variable's neighbors, knowing the values of variables further away in the graph adds no information about the variable's distribution. This property is what makes local inference algorithms like Gibbs sampling practical: to sample a new value for a variable, you only need to look at its neighborhood, not the entire graph. The Hammersley-Clifford theorem proves this Markov property is equivalent to the clique-factorization structure of the joint distribution."
 
-- question: "Potential functions in an MRF are probability distributions — each potential function must be non-negative and sum to 1 over its clique's configurations."
+- question: "Potential functions in an MRF are probability distributions — each potential function should be non-negative and sum to 1 over its clique's configurations."
   type: true-false
   answer: false
   explanation: "Potential functions are not probability distributions and have no normalization requirement. They are arbitrary non-negative functions that encode compatibility (how 'good' a particular assignment of values to a clique is) — they can take any positive real value. The full joint distribution is proportional to the product of all potential functions, and the partition function Z provides the global normalization. Confusing potentials with probabilities is a common source of confusion when first working with MRFs."

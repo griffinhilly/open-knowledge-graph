@@ -49,7 +49,7 @@ The mechanical philosophy conceptualized nature as a vast machine operating thro
   answer: 1
   explanation: "Boyle's contribution was to show that 'messy' chemical phenomena — combustion, air pressure, acid reactions — were not governed by special elemental qualities (fire, air, earth, water) but by the same mechanical principles of particles pushing particles. This extension of the mechanical framework from astronomy and mechanics to chemistry was a major expansion of its explanatory scope. It demonstrated that the 'how' of chemical processes could be given in purely mechanical terms, without appeal to the inherent qualities or purposes of substances."
 
-- question: "The mechanical philosophy claimed that physical explanations must ultimately appeal to the purpose or goal that natural processes serve."
+- question: "The mechanical philosophy claimed that physical explanations should ultimately appeal to the purpose or goal that natural processes serve."
   type: true-false
   answer: false
   explanation: "This is the exact opposite of the mechanical philosophy's central commitment. The mechanical philosophy eliminated final causes — purposes and goals — from physical explanation. Nature, on this view, has no purposes; it is matter in motion governed by contact forces. Descartes argued that nature is simply extension (matter) and motion: no intentions, no goals, no meanings. The phrase 'the mechanical philosophy' itself implies a machine analogy — and machines don't have goals. Their behavior is fully explained by the arrangement and motion of their parts."

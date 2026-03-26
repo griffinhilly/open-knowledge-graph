@@ -58,7 +58,7 @@ Review developmental trauma cases with particular attention to timing of trauma 
   answer: true
   explanation: "In early childhood, external regulation through the caregiver relationship is the primary mechanism for HPA axis calibration. Physical proximity, predictable responsiveness, and attunement with a caregiver directly modulate cortisol levels and autonomic activation in young children — their stress-response systems cannot yet self-regulate effectively. Attachment-based interventions work through this mechanism: by providing a regulated, attuned caregiver relationship, they offer the neurobiological conditions for the child's HPA axis and amygdala reactivity to recalibrate toward lower baseline activation."
 
-- question: "All children exposed to significant adverse childhood experiences will develop lasting psychological problems and require professional intervention."
+- question: "Most children exposed to significant adverse childhood experiences will develop lasting psychological problems and require professional intervention."
   type: true-false
   answer: false
   explanation: "This is one of the key misconceptions directly addressed by the ACE research. Individual differences in temperament, genetic factors, prior attachment security, and available protective relationships significantly moderate outcomes. A child with the same ACE score as another may show resilience — maintaining adaptive functioning — due to the presence of at least one stable, caring adult relationship, strong social support, or individual factors like emotion regulation capacity. The dose-response relationship describes population-level risk, not individual destiny. Resilience is possible and is the goal of intervention."

@@ -52,7 +52,7 @@ Identify edited sites by comparing cDNA sequences to genomic DNA; measure editin
   answer: 1
   explanation: "Inosine is not identical to guanosine, but it is read as guanosine by the ribosome because their base-pairing geometries are similar enough that tRNAs recognizing G also recognize I. This functional equivalence is what makes A-to-I editing consequential: changing one nucleotide can alter the amino acid at that position. In GluA2, a single A-to-I edit changes a glutamine codon to an arginine codon — a substitution that fundamentally alters calcium permeability of the receptor channel."
 
-- question: "RNA editing is a rare mechanism affecting only a handful of specialized transcripts, making it a minor contributor to protein diversity in mammals."
+- question: "RNA editing is a rare mechanism affecting primarily a handful of specialized transcripts, making it a minor contributor to protein diversity in mammals."
   type: true-false
   answer: false
   explanation: "Estimates based on transcriptome sequencing suggest that more than 50% of human genes show evidence of A-to-I editing. Most editing occurs in non-coding regions — Alu elements in introns and UTRs — where it influences RNA folding, stability, and interactions with RNA-binding proteins. Editing in coding sequences is rarer but functionally critical. RNA editing is a widespread, physiologically important regulatory layer, not a curiosity confined to a few genes."

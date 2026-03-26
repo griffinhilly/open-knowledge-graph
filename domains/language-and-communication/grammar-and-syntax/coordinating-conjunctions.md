@@ -54,7 +54,7 @@ Memorize the FANBOYS acronym, then practice identifying which type of elements e
   answer: 2
   explanation: "'Yet' is not a synonym for 'but.' Both introduce contrast, but 'yet' carries an additional sense of surprise or contradiction against expectation. She practiced every day and would reasonably expect to improve — 'yet' signals that the expected outcome was violated. 'But' would state a simple contrast; 'yet' adds the feeling of unexpectedness."
 
-- question: "A comma is required before every coordinating conjunction."
+- question: "A comma is required before nearly every coordinating conjunction."
   type: true-false
   answer: false
   explanation: "A comma before a coordinating conjunction (FANBOYS) is only required when the conjunction joins two independent clauses — meaning both sides have a subject and verb and could stand alone as sentences. When a conjunction joins two words ('bread and butter'), two phrases ('tired but happy'), or any non-clause elements, no comma is needed."

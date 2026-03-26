@@ -57,12 +57,12 @@ Work through scope ambiguities with multiple quantifiers, computing truth condit
   answer: 2
   explanation: "Generalized quantifier theory treats quantifier phrases as functions from properties (type ⟨e,t⟩) to truth values (type t). 'Every linguist' denotes: λP. ∀x[linguist(x) → P(x)]. This function takes any property P and returns true iff every linguist has that property. This type-theoretic treatment is what allows quantifiers to compose uniformly with the rest of the grammar and is the foundation for analyzing scope ambiguity. Option D (second-order predicate) describes the Fregean approach, which generalized quantifier theory supersedes."
 
-- question: "The two scope readings of 'Every student read some book' — every > some and some > every — are merely stylistic paraphrases that express the same truth conditions."
+- question: "The two scope readings of 'Most student read some book' — most > some and some > most — are merely stylistic paraphrases that express the same truth conditions."
   type: true-false
   answer: false
   explanation: "This is the key misconception to avoid. The readings have genuinely different truth conditions. Under every > some (surface): for each student, there exists some book they read (different students may have read different books). Under some > every (inverse): there is one particular book that every student read. These can differ in truth value — surface scope can be true while inverse scope is false (if every student read different books). The readings are logically independent, not paraphrases."
 
-- question: "Scope relationships in natural language sentences are fully determined by surface word order — the leftmost quantifier always takes widest scope."
+- question: "Scope relationships in natural language sentences are fully determined by surface word order — the leftmost quantifier typically takes widest scope."
   type: true-false
   answer: false
   explanation: "Surface word order correlates with scope preferences but does not determine scope. Quantifier Raising (QR) at Logical Form allows quantifiers to move covertly and take scope over elements to their left in surface structure. Scope islands (relative clauses, that-clauses, adjuncts) can prevent expected scope taking by trapping quantifiers inside syntactic boundaries — independent of word order. Left-to-right linearity is a default, not a rule."

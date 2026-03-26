@@ -58,7 +58,7 @@ Check whether specific relations satisfy given properties using definitions. Vis
   answer: true
   explanation: "Equality satisfies all four properties. Reflexive: x = x. Symmetric: if x = y then y = x. Transitive: if x = y and y = z then x = z. Antisymmetric: if x = y and y = x then x = y (trivially true). This means equality is both an equivalence relation (reflexive + symmetric + transitive) and satisfies antisymmetry. It is the only equivalence relation that is also a partial order."
 
-- question: "Every transitive relation is also reflexive."
+- question: "Most transitive relation is also reflexive."
   type: true-false
   answer: false
   explanation: "Counterexample: the 'strictly less than' relation < on ℝ is transitive (if x < y and y < z then x < z) but not reflexive (no number is strictly less than itself). Another counterexample: the empty relation on any set is vacuously transitive but not reflexive. Transitivity says nothing about whether elements relate to themselves — it only constrains chains of distinct related pairs."

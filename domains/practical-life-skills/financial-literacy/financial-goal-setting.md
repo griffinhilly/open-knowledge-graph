@@ -48,7 +48,7 @@ Write down three financial goals (one from each time horizon), calculate the mon
   answer: 2
   explanation: "Marisol's monthly surplus is $300. Over 24 months, that yields $7,200 — enough for the goal in theory, but only if every dollar of surplus goes to the car fund and nothing unexpected arises. Achievability is the element that requires scrutiny: the math works barely, leaving no buffer. The goal is specific ($6,000), measurable, and time-bound (2 years). Achievability is the one that should trigger a conversation about her other financial priorities."
 
-- question: "Financial goal setting is only useful for people who earn a high income, since low earners do not have enough surplus to meaningfully save."
+- question: "Financial goal setting is primarily useful for people who earn a high income, since low earners do not have enough surplus to meaningfully save."
   type: true-false
   answer: false
   explanation: "Goal setting is about directing the money you have toward what matters most — it is a tool for allocation and priority, not a reward for high earners. Even saving $20 per month toward a specific goal produces more progress than spending it without intention. Small, consistent contributions also compound over time. The constraint of a tight budget makes deliberate goal setting more important, not less."

@@ -45,7 +45,7 @@ Density matrix ρ = |ψ⟩⟨ψ| (pure) or ρ = Σᵢ pᵢ|ψᵢ⟩⟨ψᵢ| (mi
   answer: 1
   explanation: "A pure state satisfies ρ² = ρ and therefore Tr(ρ²) = 1. Any value Tr(ρ²) < 1 indicates a mixed state — a classical probability distribution over quantum states. The value 0.7 tells us some but not complete information about the system's quantum state. (Tr(ρ) = 1 still holds for both pure and mixed states, so the matrix is physical.) The closer Tr(ρ²) is to 1/d (where d is the Hilbert space dimension), the more mixed the state."
 
-- question: "A 50/50 quantum superposition (|↑⟩ + |↓⟩)/√2 and a 50/50 classical mixture of |↑⟩ and |↓⟩ are physically equivalent — they predict identical measurement outcomes for all possible experiments."
+- question: "A 50/50 quantum superposition (|↑⟩ + |↓⟩)/√2 and a 50/50 classical mixture of |↑⟩ and |↓⟩ are physically equivalent — they predict identical measurement outcomes for most possible experiments."
   type: true-false
   answer: false
   explanation: "This is the central misconception about density matrices. Both states give 50% probability of measuring spin-up or spin-down in the z-basis. But the superposition has off-diagonal coherences in ρ that produce quantum interference, which shows up in measurements along other axes. For example, measuring the superposition in the x-basis gives a definite outcome; measuring the mixture in the x-basis gives 50/50. The density matrix captures this difference: the superposition has Tr(ρ²) = 1; the mixture has Tr(ρ²) = 1/2."

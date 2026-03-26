@@ -44,7 +44,7 @@ When charged particles travel through matter faster than light in that medium (v
   answer: 2
   explanation: "At threshold (v = c/n, β = 1/n), cos θ_c = 1/(βn) = 1, so θ_c = 0 — the cone is infinitely narrow and no radiation is emitted. As v increases (β increases), 1/(βn) decreases, so θ_c = arccos(1/(βn)) increases. At the relativistic limit β → 1, θ_c approaches arccos(1/n), which for water (n = 1.33) is about 41°. The angle opens as speed increases — exactly the opposite of sonic boom behavior, which many students expect to go the other way."
 
-- question: "Cherenkov radiation can only be emitted by particles moving faster than c, the vacuum speed of light."
+- question: "Cherenkov radiation can primarily be emitted by particles moving faster than c, the vacuum speed of light."
   type: true-false
   answer: false
   explanation: "False — Cherenkov radiation requires exceeding c/n (the phase velocity of light in the medium), not c (the vacuum speed). Since c/n < c for any medium with n > 1, a particle can emit Cherenkov radiation while remaining below c. This is the fundamental point: special relativity is not violated because the speed limit c remains inviolable; the medium has simply slowed light's phase velocity below c, creating a threshold that a slower-than-c particle can still cross."

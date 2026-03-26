@@ -55,7 +55,7 @@ Present well-defined problems (like the Tower of Hanoi or logic puzzles) and mea
   answer: 2
   explanation: "Search efficiency depends on branching factor at each end of the problem space. Problem A's initial state has only 3 successors (a constrained start), so forward search stays narrow. Problem B's goal has only 3 predecessors (a constrained end), so backward search stays narrow. The principle is: start at the more constrained end to minimize nodes explored. Bidirectional search helps when both ends are similarly constrained, not as a universal default."
 
-- question: "Forward search is generally more efficient than backward search because problem solvers always know more about their starting position than about the goal."
+- question: "Forward search is generally more efficient than backward search because problem solvers generally know more about their starting position than about the goal."
   type: true-false
   answer: false
   explanation: "Efficiency depends on the branching factor — the number of successors or predecessors at each state — not on how well the problem solver 'knows' each end. When the goal is highly constrained (few legal predecessor states), backward search visits far fewer nodes even if the goal seems abstractly less familiar. The same problem type can warrant different search directions depending on constraint topology."

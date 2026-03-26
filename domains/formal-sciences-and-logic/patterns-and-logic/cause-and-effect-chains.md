@@ -57,7 +57,7 @@ Use familiar chain reactions: "If you forget to set your alarm, then you oversle
   answer: 1
   explanation: "Each link in the chain is necessary. If B does not happen, then C has no cause, so C does not happen, and therefore D does not happen. Breaking any link in a cause-and-effect chain prevents all subsequent effects. This is why understanding the chain (not just the start and end) matters — it reveals which steps are critical and where interventions can change the outcome."
 
-- question: "Two events happening one after the other always means the first caused the second."
+- question: "Two events happening one after the other generally means the first caused the second."
   type: true-false
   answer: false
   explanation: "Just because event A happens before event B does not mean A caused B. The rooster crows before the sun rises, but the rooster does not cause the sunrise. This confusion — assuming that sequence implies causation — is called the 'post hoc' fallacy. A real cause-and-effect relationship requires a mechanism: a logical or physical connection explaining how A leads to B."

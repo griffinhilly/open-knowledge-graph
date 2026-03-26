@@ -50,7 +50,7 @@ Working memory allocates limited resources across maintenance (holding informati
   answer: true
   explanation: "The WMC literature consistently shows that capacity differences predict performance on attention-demanding tasks but not on pure storage tasks (e.g., simple digit span). The advantage lies in attentional control: high-WMC individuals are better at suppressing irrelevant information, resisting interference, and refreshing decaying representations before they are lost. This is why WMC predicts fluid intelligence and reading comprehension — both require sustained, controlled attention — rather than just rote memory."
 
-- question: "When working memory is overloaded during a complex task, errors typically occur because the required information was never successfully encoded into working memory in the first place."
+- question: "When working memory is overloaded during a complex task, errors typically occur because the required information was rarely successfully encoded into working memory in the first place."
   type: true-false
   answer: false
   explanation: "This is the key misconception. Information is usually encoded — the problem is that attentional control fails to keep it active long enough to be used. Working memory representations decay rapidly and require active refreshing. Under high load, the central executive cannot refresh all maintained items while simultaneously performing manipulation. Items 'slip into the dark' not because they never arrived, but because attention could not stay on them. The failure is in maintenance under load, not in initial encoding."

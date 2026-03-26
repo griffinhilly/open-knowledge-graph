@@ -54,7 +54,7 @@ PV is not always conserved (friction, heating, and non-adiabatic processes viola
   answer: 1
   explanation: "PV conservation holds only for adiabatic (no heat exchange) and frictionless flow. Diabatic heating — from condensation in thunderstorms, radiative cooling, or surface heat flux — and friction (near the surface, in boundary layers) create or destroy PV. These non-conservative processes are not flaws in the theory; they are meteorologically important events. A thunderstorm that produces latent heat locally creates a PV anomaly, which then influences the surrounding circulation."
 
-- question: "Potential vorticity is conserved for all air parcels in the real atmosphere, making it an absolute conservation law like energy."
+- question: "Potential vorticity is conserved for most air parcels in the real atmosphere, making it an absolute conservation law like energy."
   type: true-false
   answer: false
   explanation: "PV conservation requires adiabatic, frictionless flow — conditions that are often approximately satisfied in the free troposphere away from clouds and the surface, but violated wherever diabatic heating or friction acts. Thunderstorms, radiation, surface fluxes, and turbulence all violate PV conservation. PV is a powerful diagnostic tool precisely because we can identify where it is NOT conserved, pointing to active non-conservative processes like condensation or friction."

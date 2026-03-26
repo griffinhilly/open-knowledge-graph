@@ -58,7 +58,7 @@ That exposition must come early and complete; that readers need immediate unders
   answer: true
   explanation: "Information withheld creates productive tension — the reader's desire to know propels them forward. This is the opposite of the common beginner instinct to explain everything upfront. When readers must piece together a character's history from fragments, they engage more actively with the narrative and experience discoveries rather than being handed conclusions. The information can land with far greater force when delivered at the moment the reader most needs it."
 
-- question: "Effective exposition should always come early in a story so that readers have the full context needed to understand subsequent events."
+- question: "Effective exposition should generally come early in a story so that readers have the full context needed to understand subsequent events."
   type: true-false
   answer: false
   explanation: "This is the classic misconception. Front-loading exposition delivers information before the reader has a reason to want it, and readers don't retain information they don't yet need. The principle is exposition on demand: deliver background when the reader's question is actively forming, not when the writer is anxious to lay groundwork. Stories can withhold enormous amounts of context while still making scenes vivid and engaging; readers are comfortable with partial knowledge when the immediate scene is sufficiently grounded."

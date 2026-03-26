@@ -46,7 +46,7 @@ Analyze vocal lines in Bach chorales, distinguishing chord tones from NCTs on ea
   answer: 1
   explanation: "A neighbor tone steps away from a chord tone and returns to the same chord tone. A is not in the G major triad (G-B-D), moves by step away from G, and resolves back to G — the defining motion of a neighbor tone. A passing tone would continue stepwise to a different chord tone rather than returning."
 
-- question: "A suspension is always consonant with the chord it occurs over."
+- question: "A suspension is typically consonant with the chord it occurs over."
   type: true-false
   answer: false
   explanation: "By definition, a suspension is a dissonance — a note held over from the previous chord that clashes with the new harmony. Its essential characteristic is that it resolves downward by step to a chord tone. If it were consonant with the prevailing chord, it would simply be a chord tone, not a suspension."

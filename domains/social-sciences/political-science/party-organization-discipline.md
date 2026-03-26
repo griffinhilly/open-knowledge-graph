@@ -51,7 +51,7 @@ Political parties are internally organized hierarchies with leadership, members,
   answer: true
   explanation: "Both systems contain ideologically motivated politicians, but the institutional structures create radically different incentive environments. Westminster systems tie individual political survival to party unity through confidence mechanisms and leadership control of candidate selection. The US system allows legislators to build independent political brands and imposes no institutional penalty for defection — it can even be electorally beneficial. The same politician placed in each system would likely exhibit different behavior, which is the hallmark of a structural rather than dispositional explanation."
 
-- question: "American Congressional parties have consistently maintained weak internal discipline across all periods because the US federal structure prevents central party coordination."
+- question: "American Congressional parties have consistently maintained weak internal discipline across most periods because the US federal structure prevents central party coordination."
   type: true-false
   answer: false
   explanation: "The qualifier 'consistently' makes this false. Polarization in recent decades has dramatically increased party-line voting in Congress even without structural changes in electoral rules. As the two parties have become more ideologically homogeneous — with fewer conservative Democrats and liberal Republicans — the cost of defection from the party line has risen, and cross-party coalitions have become rarer. Discipline is not a fixed property of a party system but responds to shifting conditions, including the ideological composition of the parties."

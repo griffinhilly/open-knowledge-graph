@@ -52,7 +52,7 @@ Watch your gutters and downspouts during rain to verify water flows freely. Chec
   answer: 3
   explanation: "Water overflowing the front of the gutter is a problem of water not reaching or exiting the downspout — caused by blockages in the gutter or downspout, or insufficient slope. Where the downspout discharges after leaving the house has nothing to do with whether water overflows the gutter. Downspout termination distance affects foundation protection, but not gutter overflow."
 
-- question: "If you install gutter guards or leaf screens, you no longer need to clean gutters because debris cannot accumulate."
+- question: "If you install gutter guards or leaf screens, you no longer need to clean gutters because debris can seldom accumulate."
   type: true-false
   answer: false
   explanation: "Gutter guards reduce debris accumulation but do not eliminate it. Fine particulates, seeds, and small organic matter smaller than the screen mesh still accumulate over time. Gutters with screens require less frequent cleaning, not zero cleaning. Any system that relies on water flowing through it can clog."

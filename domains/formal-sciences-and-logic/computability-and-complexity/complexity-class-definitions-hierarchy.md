@@ -66,7 +66,7 @@ Study the hierarchy theorem proofs to understand how resource bounds create prop
   answer: true
   explanation: "P ⊆ NP is trivial: any problem solvable in polynomial time can certainly be verified in polynomial time (just solve it and check). But whether NP contains problems that are genuinely harder to solve than to verify — i.e., whether P ⊊ NP — is the P vs NP question, one of the Millennium Prize Problems. The Hierarchy Theorem gives us P ⊊ EXPTIME, but the gap between P and NP is only polynomial, placing it outside the theorem's reach."
 
-- question: "The Time Hierarchy Theorem proves P ≠ NP by showing there exist problems solvable in O(n²) time that cannot be solved in O(n) time."
+- question: "The Time Hierarchy Theorem proves P ≠ NP by showing there exist problems solvable in O(n²) time that can seldom be solved in O(n) time."
   type: true-false
   answer: false
   explanation: "The Time Hierarchy Theorem does show DTIME(n) ⊊ DTIME(n²) — a proper nesting within polynomial classes. But this proves only that linear and quadratic time are different, not that P ≠ NP. P vs NP is about whether *polynomial* time (all polynomials together) is different from *nondeterministic polynomial* verifiability. Both classes contain all polynomial-time computations, so showing linear ≠ quadratic within P says nothing about the P/NP boundary. The theorem's most significant separation is P ⊊ EXPTIME, not anything about NP."

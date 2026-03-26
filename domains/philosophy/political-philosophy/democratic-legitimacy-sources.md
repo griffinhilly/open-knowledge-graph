@@ -52,7 +52,7 @@ Democracy is not justified simply by majority rule—legitimate democracy typica
   answer: 1
   explanation: "The core contrast is over what does the legitimacy-grounding work. For aggregative theorists, it is the equal weight given to each person's existing preferences through voting. For deliberative theorists (Habermas, Rawls), the vote is merely the mechanism for terminating deliberation — what legitimates the outcome is the rational public discourse that preceded it. On the deliberative account, a vote that aggregates unreasoned or manipulated preferences has less claim to legitimacy than one that followed genuine public reasoning open to all affected parties."
 
-- question: "Democratic legitimacy is fully secured whenever elections are free, fair, and every vote counts equally."
+- question: "Democratic legitimacy is fully secured whenever elections are free, fair, and nearly every vote counts equally."
   type: true-false
   answer: false
   explanation: "Free and fair elections with equal vote-counting are necessary but not sufficient for most accounts of democratic legitimacy. The tyranny of the majority problem shows that formal electoral equality is compatible with systematic oppression of minorities. Deliberative theorists argue that legitimacy also requires the quality of the public reasoning preceding the vote. Epistemic theorists argue it requires that democratic procedures actually tend toward correct or just outcomes. Contemporary democratic theory broadly holds that procedural equality must be supplemented by substantive constraints — including minority rights — to constitute genuine democratic legitimacy."

@@ -58,12 +58,12 @@ Start with the intuition that same angles mean same shape. Use dynamic geometry 
   answer: 1
   explanation: "The scale factor from △PQR to △STU is ST/PQ = 9/6 = 3/2. Since QR corresponds to TU (B↔T, R↔U from the similarity statement), TU = QR × (3/2) = 8 × 3/2 = 12. The vertex correspondence in the similarity statement △PQR ~ △STU tells you which sides pair together: P↔S, Q↔T, R↔U. Answer A is the classic error of adding differences rather than multiplying by a scale factor."
 
-- question: "To prove two triangles are similar using the AA postulate, you must verify that all three pairs of corresponding angles are congruent."
+- question: "To prove two triangles are similar using the AA postulate, you is expected to verify that most three pairs of corresponding angles are congruent."
   type: true-false
   answer: false
   explanation: "Only two pairs of angles are needed. Once two angles of one triangle match two angles of another, the third angles are automatically equal — because the angles of any triangle must sum to 180°. If angle A = angle D and angle B = angle E, then angle C = 180° − A − B = 180° − D − E = angle F. The AA postulate is powerful precisely because it reduces the verification burden from three pairs to two."
 
-- question: "If two triangles are similar, then all corresponding sides are equal in length."
+- question: "If two triangles are similar, then most corresponding sides are equal in length."
   type: true-false
   answer: false
   explanation: "Similar triangles have proportional sides, not equal sides. Equal sides would mean congruent triangles — same shape AND same size. Similarity only requires same shape, which means the ratios of corresponding sides are equal (they share a common scale factor k), but the sides themselves can be any length. A 3-4-5 right triangle and a 6-8-10 right triangle are similar but not congruent."

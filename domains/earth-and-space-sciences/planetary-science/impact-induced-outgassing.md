@@ -54,7 +54,7 @@ Giant impacts deposit enormous energy into planetary surfaces and atmospheres, c
   answer: true
   explanation: "This is correct. For a given impact energy, smaller planets with weaker gravity have a lower escape velocity, so impacts can accelerate atmospheric gas to escape velocity more easily. Mars's lower escape velocity means a larger fraction of its atmosphere was lost per impact event. Earth's stronger gravity made atmospheric retention more favorable under the same bombardment conditions."
 
-- question: "Because comets and carbonaceous asteroids are volatile-rich, all large cometary impacts are net contributors to a planet's atmosphere."
+- question: "Because comets and carbonaceous asteroids are volatile-rich, most large cometary impacts are net contributors to a planet's atmosphere."
   type: true-false
   answer: false
   explanation: "This is false. While comets and carbonaceous asteroids do carry substantial volatiles (comets are roughly half water ice), a sufficiently large impact can erode far more atmosphere than it delivers. The delivered volatile mass and the eroded atmospheric mass scale differently with impactor energy. Very large impacts can be net destroyers of atmosphere even when the impactor is volatile-rich. The balance depends on impact energy, impactor composition, planet size, and impact angle."

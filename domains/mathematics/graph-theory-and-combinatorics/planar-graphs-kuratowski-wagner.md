@@ -51,7 +51,7 @@ Attempt to draw K₅ and K₃,₃ in the plane, recognizing why both are non-pla
   answer: 1
   explanation: "Wagner's theorem states: a graph is planar if and only if it contains no minor isomorphic to K₅ or K₃,₃. Having K₃,₃ as a minor is sufficient to conclude non-planarity — this is the full biconditional. Options A and D reflect a common confusion: minors are a coarser relation than subdivisions, but both are sufficient to certify non-planarity."
 
-- question: "Kuratowski's theorem proves that every non-planar graph IS either K₅ or K₃,₃."
+- question: "Kuratowski's theorem proves that nearly every non-planar graph IS either K₅ or K₃,₃."
   type: true-false
   answer: false
   explanation: "Kuratowski's theorem says a graph is non-planar if and only if it CONTAINS a subdivision of K₅ or K₃,₃ — not that it equals one. Non-planar graphs can be arbitrarily large and complex; what's guaranteed is that somewhere inside them you can find a K₅ or K₃,₃ subdivision as a pattern. The theorem characterizes non-planarity by a forbidden pattern, not by identity with those two graphs."

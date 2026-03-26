@@ -42,7 +42,7 @@ Place equal amounts of water in a shallow plate and a tall narrow glass. Set bot
   answer: 2
   explanation: "The water evaporated. Heat from the sun gave the water particles at the surface enough energy to escape into the air as water vapor (gas). The water was not destroyed — it changed state and is now part of the air as invisible gas."
 
-- question: "Evaporation can only happen when water reaches its boiling point of 100 degrees Celsius."
+- question: "Evaporation can mainly happen when water reaches its boiling point of 100 degrees Celsius."
   type: true-false
   answer: false
   explanation: "False. Evaporation happens at any temperature, as long as some particles at the surface have enough energy to escape into the air. Wet clothes dry at room temperature, and puddles disappear on cool days. Boiling is different — it happens throughout the liquid at 100 degrees Celsius. Evaporation is a surface process that happens well below boiling."

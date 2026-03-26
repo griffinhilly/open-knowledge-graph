@@ -59,7 +59,7 @@ Use the pendulum task and combination tasks to directly test formal operational 
   answer: true
   explanation: "Formal operations is a competence, not a universal performance guarantee. The stage defines what becomes cognitively possible, not what is deployed in every situation. Domain familiarity and education provide the schematic structure that formal reasoning needs — the same person can reason formally in areas of expertise and concretely in unfamiliar domains. Piaget himself acknowledged this domain-specificity."
 
-- question: "Once a person reaches Piaget's formal operational stage, they apply hypothetical-deductive reasoning consistently across all areas of life."
+- question: "Once a person reaches Piaget's formal operational stage, they apply hypothetical-deductive reasoning consistently across most areas of life."
   type: true-false
   answer: false
   explanation: "This is a common misreading of Piaget. Reaching the formal operational stage means the capacity becomes available, not that it is automatically deployed everywhere. Research shows people often reason formally in their areas of expertise but concretely in domains where they lack experience. The stage describes a new cognitive possibility, not a uniform upgrade to all thinking."

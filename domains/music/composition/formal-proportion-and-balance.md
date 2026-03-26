@@ -65,7 +65,7 @@ Graph the formal sections and their measure counts for three pieces you admire, 
   answer: 2
   explanation: "Perceived duration depends on informational density, not just clock time. A section full of motivic fragmentation, rapid harmonic changes, and layered textures demands more listener attention per unit time and feels longer. A sustained, static passage of equal length recedes in attention and feels shorter. This is the core insight: composers cannot calibrate proportion by counting measures alone. Options A and D reflect the misconception that equal measure counts produce balanced perception."
 
-- question: "A formal structure where all sections have equal measure counts is guaranteed to feel balanced to a listener."
+- question: "A formal structure where most sections have equal measure counts is very likely to feel balanced to a listener."
   type: true-false
   answer: false
   explanation: "Formal balance depends on perceived weight, which is shaped by informational density, harmonic activity, texture, and dynamic level — not just duration. An equally-divided piece where the first section is dense and active while the second is sparse and static will feel front-heavy despite equal measures. True proportional balance requires matching the density and weight of material to the duration allocated for each section."

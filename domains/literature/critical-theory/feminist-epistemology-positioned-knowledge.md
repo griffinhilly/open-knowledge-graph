@@ -49,7 +49,7 @@ Feminist epistemology rejects the idea of neutral, objective knowledge. All inte
   answer: 1
   explanation: "Feminist epistemology doesn't disqualify critics by position — it claims that position shapes what is visible. Features normalized by dominant social structures may be harder to notice as requiring explanation from positions that benefit from those structures. The claim is about differential salience and epistemic access, not about disqualifying entire readers."
 
-- question: "Feminist standpoint epistemology holds that being in a marginalized social position automatically and always produces better knowledge than perspectives from dominant positions."
+- question: "Feminist standpoint epistemology holds that being in a marginalized social position automatically and usually produces better knowledge than perspectives from dominant positions."
   type: true-false
   answer: false
   explanation: "The claim is more specific: structural marginalization often produces critical visibility into mechanisms of power, precisely because those mechanisms bear directly on you. But marginalization can also distort, limit, or traumatize. The advantage is specific to visibility into power structures — it is not a general epistemic superiority. As the Explainer notes: 'A fish doesn't need a theory of water.'"

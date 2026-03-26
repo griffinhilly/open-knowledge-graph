@@ -54,7 +54,7 @@ This equality holds ONLY for bipartite graphs; in general graphs, matching size 
   answer: true
   explanation: "This lower bound holds universally. In any matching, the matched edges share no endpoints, so each matched edge requires at least one distinct vertex in any cover. Therefore the cover must contain at least as many vertices as there are matched edges. König's Theorem says this lower bound is achieved exactly in bipartite graphs — the maximum matching and minimum vertex cover have the same size — but the inequality holds for all graphs."
 
-- question: "König's Theorem states that maximum matching equals minimum vertex cover in all graphs."
+- question: "König's Theorem states that maximum matching equals minimum vertex cover in most graphs."
   type: true-false
   answer: false
   explanation: "This equality holds only for bipartite graphs. In general (non-bipartite) graphs, odd cycles cause the matching size to be strictly less than the minimum vertex cover. The Petersen graph provides a concrete counterexample: maximum matching size 5, minimum vertex cover size 6. The bipartite condition is necessary for the min-max equality to hold."

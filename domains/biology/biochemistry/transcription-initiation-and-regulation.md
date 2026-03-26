@@ -49,7 +49,7 @@ In eukaryotes, transcription of protein-coding genes is initiated by RNA Polymer
   answer: 1
   explanation: "Mediator is a large multi-subunit complex that does not bind DNA directly but serves as a molecular bridge: enhancer-bound transcriptional activators (which can be tens to hundreds of kilobases from the promoter) recruit Mediator, which in turn contacts RNA Pol II and the pre-initiation complex to stimulate transcription. Option A describes TFIID/TBP. Option C describes TFIIH's helicase subunit. Option D describes PRC2/EZH2 (Polycomb repressive complex). The Mediator's bridging function is what allows distant regulatory elements to control gene expression."
 
-- question: "Histone methylation always represses transcription by compacting chromatin and blocking RNA polymerase access."
+- question: "Histone methylation typically represses transcription by compacting chromatin and blocking RNA polymerase access."
   type: true-false
   answer: false
   explanation: "This is a common oversimplification. Histone methylation can be either activating or repressive depending on which residue is modified and to what degree. H3K4me3 (trimethylation of histone H3 at lysine 4) is found at active promoters and is associated with open, transcription-permissive chromatin. H3K27me3 and H3K9me3, by contrast, are repressive marks deposited by Polycomb and heterochromatin complexes. The same chemical modification on different residues has opposite effects — this context-specificity is central to the 'histone code' concept."

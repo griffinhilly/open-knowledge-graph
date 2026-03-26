@@ -43,7 +43,7 @@ Non-standard units (paperclips, blocks, handspans) teach measurement concepts be
   answer: 1
   explanation: "Gaps between units mean fewer units fit across the object, so you get a smaller count than the true length. Proper measurement requires units placed end-to-end with no gaps and no overlaps. Gaps undercount; overlaps overcount. The discipline of placing units carefully without gaps is foundational to accurate measurement."
 
-- question: "A book that measures 8 paperclips long must be longer than a book that measures 6 crayons long."
+- question: "A book that measures 8 paperclips long is expected to be longer than a book that measures 6 crayons long."
   type: true-false
   answer: false
   explanation: "This is false — you cannot compare the two lengths without knowing the sizes of the units. A crayon is much longer than a paperclip. '6 crayons' could easily represent a longer book than '8 paperclips.' The number in a measurement only has meaning relative to the size of the unit used. This is exactly why we eventually standardize units — so comparisons across measurements are meaningful."

@@ -49,7 +49,7 @@ In screening, the uninformed principal moves first by offering a menu of contrac
   answer: true
   explanation: "This is a fundamental result of screening theory. Because the principal cannot observe types, it must make the high type's contract genuinely more attractive than the low type's to prevent the high type from mimicking the low type. This extra attractiveness constitutes an information rent — the premium the principal pays for being uninformed. Under full information (observable types), the principal would extract all surplus. Under asymmetric information, the high type retains a rent."
 
-- question: "In a screening equilibrium, the contract offered to the highest type is distorted below the efficient level, following the general principle that all contracts involve distortions."
+- question: "In a screening equilibrium, the contract offered to the highest type is distorted below the efficient level, following the general principle that most contracts involve distortions."
   type: true-false
   answer: false
   explanation: "This reverses the 'no distortion at the top' result. In standard screening models, the highest type receives an efficient contract — no distortion. Distortions are applied to lower types' contracts to make them unattractive to higher types. Once the highest type is already at the top of the menu, there is no type above it that needs to be deterred from mimicking it, so no distortion is needed. Distortions propagate downward, not to the top."

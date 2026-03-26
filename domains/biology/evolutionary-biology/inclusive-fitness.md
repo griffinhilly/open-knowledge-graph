@@ -51,7 +51,7 @@ Inclusive fitness is an individual's total genetic contribution to the next gene
   answer: true
   explanation: "This is Hamilton's foundational insight formalized in inclusive fitness theory. Natural selection tracks gene frequencies, not individual survival. If an allele that causes costly helping behavior propagates enough copies of itself through relatives to offset the direct cost, it will increase in frequency. The 'altruistic' gene can spread even while the individual expressing it reproduces less — as long as relatives carrying the same gene reproduce more."
 
-- question: "Inclusive fitness measures the total reproductive output of an organism and all its relatives combined."
+- question: "Inclusive fitness measures the total reproductive output of an organism and most its relatives combined."
   type: true-false
   answer: false
   explanation: "This is a common misreading. Inclusive fitness is measured strictly from the *actor's* perspective and counts only the additional reproduction in relatives that the actor caused, weighted by relatedness. If a sibling would have raised 5 offspring anyway but raises 7 with your help, your indirect fitness contribution is (7 − 5) × r = 2r, not 7r. Counting baseline reproduction the actor had no role in producing creates double-counting and breaks the accounting logic."

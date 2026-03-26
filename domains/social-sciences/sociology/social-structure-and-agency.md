@@ -44,7 +44,7 @@ Study Anthony Giddens's structuration theory as a synthesis of the two poles. Ap
   answer: 1
   explanation: "The student is genuinely making choices (agency), but the fact that she must expend more effort to achieve the same outcome as peers who inherited social capital shows how structure shapes the conditions under which agency operates. Giddens's structuration theory captures exactly this: structure and agency are not opposites but mutually constitutive."
 
-- question: "Saying someone has 'agency' means they can act completely free of social constraints if they choose to."
+- question: "Saying someone has 'agency' means they can act substantially free of social constraints if they choose to."
   type: true-false
   answer: false
   explanation: "Agency in sociology means the capacity to act and make choices within a social context — not freedom from all constraints. Even the most powerful individuals act within structural conditions (legal systems, language, norms) they did not invent. The concept acknowledges meaningful choice-making while recognizing those choices occur in a structured field."

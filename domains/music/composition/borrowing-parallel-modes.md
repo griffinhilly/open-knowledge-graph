@@ -48,7 +48,7 @@ Compose phrases in a major key, then introduce one borrowed chord to observe its
   answer: 1
   explanation: "The iv chord (Cm) comes from G minor — it contains B♭, the flatted third of G minor — and is borrowed temporarily to darken the progression. Because the outer harmonies are G major (I) and a dominant D returning to G, the key never changes: this is mode mixture, not modulation. Modulation would require establishing the new key with its own cadence; here the Cm resolves straight into D–G without any such establishment."
 
-- question: "A borrowed chord in a major-key piece always signals a modulation to the parallel minor."
+- question: "A borrowed chord in a major-key piece generally signals a modulation to the parallel minor."
   type: true-false
   answer: false
   explanation: "This is the central misconception about modal borrowing. A borrowed chord is a temporary color — it reaches into the parallel minor for one chord without establishing that key or abandoning the original tonic. Modulation requires establishing a new tonal center, typically through a cadence in the new key. Borrowing is specifically defined by its lack of modulation: the original tonic is maintained throughout."

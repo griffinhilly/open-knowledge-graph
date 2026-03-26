@@ -52,7 +52,7 @@ If P(x) interpolates f at n+1 points, the error E(x) = f(x) - P(x) satisfies |E(
   answer: true
   explanation: "For n+1 Chebyshev nodes, max|ω(x)| over [−1, 1] equals 1/2ⁿ — exponentially small in n. For equally spaced nodes, the maximum of |ω(x)| grows rapidly. Chebyshev nodes cluster near the endpoints, where |ω| would otherwise be large, effectively spreading the node polynomial's values more evenly across the interval."
 
-- question: "Adding more interpolation nodes always reduces the interpolation error for any function."
+- question: "Adding more interpolation nodes typically reduces the interpolation error for any function."
   type: true-false
   answer: false
   explanation: "Runge's phenomenon shows this is false. For equally spaced nodes and certain functions (like Runge's function f(x) = 1/(1+25x²)), the interpolation error near the endpoints grows without bound as you add more nodes. The error depends on both M/(n+1)! (which decreases) and max|ω(x)| (which increases rapidly for equally spaced nodes). The product can diverge, making interpolation worse."

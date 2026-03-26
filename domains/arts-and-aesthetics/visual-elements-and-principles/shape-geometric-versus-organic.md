@@ -51,7 +51,7 @@ Geometric shapes are more skillful to draw or more appropriate for formal work. 
   answer: 2
   explanation: "Combining geometric and organic shapes creates productive visual tension. The geometric frame provides order and structure; the organic element provides vitality and irregularity. This contrast energizes a composition in ways that neither type alone can achieve. Purely geometric compositions can feel sterile; purely organic ones can feel chaotic — the dialogue between them is where much of visual interest lives."
 
-- question: "Geometric shapes must be mathematically perfect — drawn with a ruler and compass — to qualify as geometric in art and design."
+- question: "Geometric shapes is expected to be mathematically perfect — drawn with a ruler and compass — to qualify as geometric in art and design."
   type: true-false
   answer: false
   explanation: "What makes a shape geometric is its visual character: regular, precise-looking edges that suggest order and construction. Hand-drawn geometric shapes that are slightly imperfect still read as geometric and still communicate stability and rationality. Requiring mathematical perfection is a misconception that confuses the mathematical definition of a shape with its visual function in art and design."

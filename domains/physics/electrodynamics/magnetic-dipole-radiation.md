@@ -49,7 +49,7 @@ When electric dipole moment vanishes, magnetic dipole moment m and electric quad
   answer: true
   explanation: "Correct. 'Forbidden' in spectroscopy means forbidden by the electric dipole selection rules, not absolutely forbidden. M1 and E2 transitions still occur, but their rates are suppressed by (a₀/λ)² ~ α² where α ≈ 1/137 is the fine structure constant, giving suppression of about (1/137)² ≈ 5 × 10⁻⁵. Lifetimes of E1 transitions are typically ~10 ns; forbidden transitions can have lifetimes of milliseconds, seconds, or even longer. These slow transitions are critical in astrophysics (nebular forbidden lines), quantum computing (long-lived qubit states), and metrology."
 
-- question: "Magnetic dipole (M1) and electric quadrupole (E2) radiation have the same angular distribution as electric dipole (E1) radiation, differing only in their total radiated power."
+- question: "Magnetic dipole (M1) and electric quadrupole (E2) radiation have the same angular distribution as electric dipole (E1) radiation, differing mainly in their total radiated power."
   type: true-false
   answer: false
   explanation: "M1 radiation has the same angular distribution as E1 (∝ sin²θ, the donut pattern), but E2 radiation has a different angular distribution — for the simplest case ∝ sin²θ cos²θ, with more lobes and different nodal surfaces. M1 and E1 also differ in the polarization pattern: for M1, it is the magnetic field that traces the donut pattern, while the electric field orientation is swapped relative to E1. These differences in angular distribution and polarization mean M1 and E2 emissions have observably different intensity patterns on the sky and are distinguishable in astronomical observations."

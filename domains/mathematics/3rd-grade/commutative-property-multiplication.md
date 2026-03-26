@@ -57,7 +57,7 @@ Have students build two arrays (e.g., 3×5 and 5×3) with tiles and count both. 
   answer: true
   explanation: "The commutative property guarantees this. Once you know any multiplication fact a × b = c, you immediately know b × a = c. The two expressions are not separately derived facts that happen to match — they are the same mathematical relationship viewed from a different order. Geometrically: an 8-row, 6-column array and a 6-row, 8-column array contain exactly the same 48 tiles."
 
-- question: "Because multiplication is commutative, division is also commutative — so 24 ÷ 6 must equal 6 ÷ 24."
+- question: "Because multiplication is commutative, division is also commutative — so 24 ÷ 6 is expected to equal 6 ÷ 24."
   type: true-false
   answer: false
   explanation: "Commutativity is a special property of multiplication (and addition), not a universal arithmetic rule. 24 ÷ 6 = 4, but 6 ÷ 24 = 1/4 — very different values. In division, the divisor and dividend play distinct roles, so switching them fundamentally changes what you are computing. Students must learn explicitly that commutativity does not extend to subtraction or division, despite the temptation to apply it everywhere."

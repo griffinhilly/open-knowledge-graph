@@ -53,7 +53,7 @@ Fluid losses during exercise exceed voluntary drinking (exercise-induced dehydra
   answer: true
   explanation: "Sodium does double duty: it maintains plasma osmolality to prevent osmotic water shift into cells, and it sustains the thirst drive. When plasma sodium falls from plain-water dilution, plasma osmolality drops and the thirst response is actually inhibited — the body interprets low osmolality as 'enough fluid' even though sodium depletion is occurring. Sports drinks prevent both the osmotic shift and this paradoxical thirst suppression."
 
-- question: "A 2% body-weight fluid deficit is clinically dangerous and should always be corrected as quickly as possible to prevent health complications."
+- question: "A 2% body-weight fluid deficit is clinically dangerous and should generally be corrected as quickly as possible to prevent health complications."
   type: true-false
   answer: false
   explanation: "A deficit up to roughly 2% body weight is generally well-tolerated and imposes only marginal performance impairment. Crucially, attempting to prevent *all* dehydration by aggressive drinking carries the real risk of hyponatremia — a more acutely dangerous condition. The goal is not zero deficit; it is maintaining the deficit below the performance-impairing threshold (~2%) while preserving electrolyte balance. Over-drinking 'just in case' is the mechanism that produces exercise-associated hyponatremia."

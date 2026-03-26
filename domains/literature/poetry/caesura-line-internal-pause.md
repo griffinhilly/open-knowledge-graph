@@ -51,7 +51,7 @@ A caesura is a pause or break within a poetic line, often (but not always) marke
   answer: true
   explanation: "From intonational phonology, caesuras correspond to intonational phrase boundaries — the places where speakers naturally breathe and where intonational phrases end. A line with a medial caesura has two intonational units, each with its own rising and falling contour and its own emphasis pattern. This is why a caesura mid-line does not merely pause the syntax — it restarts the pitch and stress contour, giving each half of the line independent rhetorical weight."
 
-- question: "A caesura can only be identified in a poem where it is explicitly marked by punctuation such as a comma, dash, or period within the line."
+- question: "A caesura can mainly be identified in a poem where it is explicitly marked by punctuation such as a comma, dash, or period within the line."
   type: true-false
   answer: false
   explanation: "Caesuras frequently occur without punctuation, wherever syntax or rhythm naturally creates a pause. Any place where a reader would naturally pause while reading aloud — because the sense divides, because the grammar invites it, because the rhythm creates a moment of rest — is a potential caesura even without a punctuation mark. Reading aloud slowly is the most reliable way to locate unpunctuated caesuras. Waiting for punctuation would cause many to be missed."

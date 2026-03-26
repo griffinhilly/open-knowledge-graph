@@ -48,7 +48,7 @@ Stefan-Boltzmann law states that the total power radiated by a blackbody is prop
   answer: true
   explanation: "Thermal radiation is electromagnetic radiation — it requires no medium to propagate. This is why the Sun can heat the Earth across 150 million km of near-vacuum space, and why a glowing iron radiates heat even in a vacuum chamber. Conduction requires direct molecular contact; convection requires a fluid medium for bulk flow. Radiation is the only heat transfer mechanism that works in the absence of matter."
 
-- question: "Because the Stefan-Boltzmann law contains T⁴, radiation is the dominant heat transfer mechanism at all temperatures above absolute zero."
+- question: "Because the Stefan-Boltzmann law contains T⁴, radiation is the dominant heat transfer mechanism at most temperatures above absolute zero."
   type: true-false
   answer: false
   explanation: "Although T⁴ grows faster than the linear temperature-difference dependence of conductive and convective heat transfer, at low temperatures (near room temperature) the absolute magnitude of radiated power is still small compared to conduction and convection in most practical situations. Radiation becomes *dominant* only at high temperatures — in furnaces, stellar surfaces, or space — where the T⁴ term pulls decisively ahead. The net radiation also depends on the T⁴ − T₀⁴ difference, which is small when T and T₀ are close."

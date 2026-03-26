@@ -62,7 +62,7 @@ Start with money: $0.50 is 50 cents, half a dollar. Use base-ten blocks where th
   answer: true
   explanation: "True. 0.25 = 25/100. Simplifying: 25/100 ÷ 25/25 = 1/4. Decimals and fractions are not two different types of numbers — they are two different notations for the same quantities. Every terminating decimal can be written as a fraction with a power-of-ten denominator. Recognizing this connection is essential for comparing, adding, and making sense of decimal arithmetic."
 
-- question: "A decimal with more digits after the decimal point always represents a larger number than one with fewer digits."
+- question: "A decimal with more digits after the decimal point typically represents a larger number than one with fewer digits."
   type: true-false
   answer: false
   explanation: "False. 0.125 has three decimal places, but it equals 125/1000 = 1/8, which is less than 0.5 (= 1/2). More digits do not mean a larger value — place value determines size. This is exactly the misconception the Explainer warns about: treating 0.125 as 'bigger' because 125 > 5 ignores what those digits actually represent (125 thousandths vs 500 thousandths)."

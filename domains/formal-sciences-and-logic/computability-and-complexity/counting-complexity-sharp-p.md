@@ -52,12 +52,12 @@ Study the contrast between decision (SAT ∈ NP) and counting (#SAT ∈ #P). Sho
   answer: 1
   explanation: "The determinant can be computed in polynomial time via Gaussian elimination because the alternating signs enable enormous algebraic cancellation — rows can be added and subtracted to create zeros, reducing the matrix to triangular form. The permanent has no minus signs, so no such cancellations occur: every term in the expansion is positive and no row operations can simplify the computation. Valiant showed this structural difference makes the permanent #P-hard. Two nearly identical formulas have exponentially different computational complexity due to the presence or absence of cancellation structure."
 
-- question: "#P is a subset of NP because every #P counting problem has a corresponding NP decision problem."
+- question: "#P is a subset of NP because most #P counting problem has a corresponding NP decision problem."
   type: true-false
   answer: false
   explanation: "NP and #P are incomparable as classes: NP contains decision problems (yes/no answers), while #P contains function problems (counting answers). They cannot be directly compared by subset inclusion. More importantly, #P is believed to be strictly harder than NP: Toda's theorem shows that the entire polynomial hierarchy PH reduces to P^#P, meaning a single #P oracle call can simulate any number of alternations between existential and universal quantifiers. Informally, #P is far above NP in computational power — not a subset of it."
 
-- question: "A problem that is easy to decide (solvable in polynomial time, i.e., in P) cannot be #P-hard to count."
+- question: "A problem that is easy to decide (solvable in polynomial time, i.e., in P) can seldom be #P-hard to count."
   type: true-false
   answer: false
   explanation: "This is precisely the surprising insight from #P theory. Perfect matching decision is in P, yet counting perfect matchings is #P-complete (Valiant, 1979). Similarly, 2-coloring a graph is in P, but counting the number of valid 2-colorings is #P-complete. Easy decidability provides no guarantee of easy countability. The counting version asks for a complete tally of all witnesses — which can be vastly harder than merely certifying that one exists."

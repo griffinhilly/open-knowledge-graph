@@ -49,7 +49,7 @@ Birefringent materials have direction-dependent refractive indices, with differe
   answer: true
   explanation: "Isotropy means the material's optical properties are the same in all directions. Glass has no preferred axis along which light propagates differently. Birefringence specifically arises from *anisotropic* crystal structures — ones where the atomic arrangement differs along different axes, causing light of different polarizations to 'feel' a different electrical environment. The contrast with isotropic glass clarifies why birefringence is special and why not all transparent materials produce wave-plate effects."
 
-- question: "The extraordinary ray in a birefringent crystal always travels faster than the ordinary ray."
+- question: "The extraordinary ray in a birefringent crystal usually travels faster than the ordinary ray."
   type: true-false
   answer: false
   explanation: "Whether the extraordinary ray is faster or slower depends on the material. In a positive uniaxial crystal (e.g., quartz), nₑ > nₒ, so the extraordinary ray travels *slower*. In a negative uniaxial crystal (e.g., calcite), nₑ < nₒ, so the extraordinary ray travels *faster*. The sign of the birefringence (nₑ − nₒ) depends on the crystal's specific structure. What is universal is that the two rays travel at *different* speeds — but which is faster varies by material."

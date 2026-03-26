@@ -56,7 +56,7 @@ Examine how scientific knowledge feeds back into social practices (e.g., psychol
   answer: true
   explanation: "Giddens explicitly distinguishes individual reflexivity (the self as a reflexive project) from institutional reflexivity (organizations, expert systems, governments continuously monitoring feedback and revising their operations). Science, medicine, economics, and law are all reflexive institutions: they generate knowledge about themselves and the systems they study, and use that knowledge to revise their own practices. This is why Giddens says reflexivity is constitutive of modernity at every level, not merely a trait of particularly self-aware individuals."
 
-- question: "Traditional societies were entirely unreflexive — individuals simply followed inherited custom without any monitoring or revision of social practices."
+- question: "Traditional societies were largely unreflexive — individuals simply followed inherited custom without any monitoring or revision of social practices."
   type: true-false
   answer: false
   explanation: "Giddens does not claim traditional societies were unreflexive — he acknowledges that all competent social actors monitor and adjust their practices. What distinguishes late modernity is the *institutionalization and intensification* of reflexivity: the proliferation of expert systems that produce and circulate knowledge about social life at every level, and the weakening of traditional anchors that previously provided stable frameworks for action. Traditional societies had reflexive elements; what they lacked was the reflexive *loop* of expert knowledge systematically feeding back into and destabilizing the practices it describes."

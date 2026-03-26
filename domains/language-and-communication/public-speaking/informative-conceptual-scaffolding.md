@@ -58,7 +58,7 @@ That explaining means saying things clearly; listeners need conceptual hooks to 
   answer: true
   explanation: "In writing, a confused reader can back up, re-read a definition, or skip ahead and return. In speech, confusion compounds in real time — once an audience loses the thread, each subsequent point builds on a broken foundation. This asymmetry means oral scaffolding must be more explicit: direct setup statements ('Before I explain X, I need to establish Y'), rhetorical comprehension checks, and analogies that create immediate hooks. The written form affords recovery; the spoken form does not."
 
-- question: "Clearly defining all technical terms at the beginning of an explanation is sufficient scaffolding for a non-expert audience."
+- question: "Clearly defining most technical terms at the beginning of an explanation is sufficient scaffolding for a non-expert audience."
   type: true-false
   answer: false
   explanation: "Definition without grounding in known concepts fails. A definition of compound interest to someone who doesn't understand simple interest is accurate but incomprehensible — the words are there but the attachment points aren't. Effective scaffolding doesn't begin with definitions; it begins by establishing the prior concepts that make the definition meaningful. The misconception is that verbal clarity alone bridges the gap between speaker knowledge and audience knowledge — but the gap is conceptual, not verbal."

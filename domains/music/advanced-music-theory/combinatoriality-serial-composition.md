@@ -58,7 +58,7 @@ Combinatoriality occurs when different rows or row forms can be played simultane
   answer: true
   explanation: "This is the definition of hexachordal combinatoriality. Each hexachord contains six distinct pitch classes, so two hexachords that are pitch-class complements cover all twelve without duplication. When two voices each complete their first hexachord simultaneously, the combined sound is a chromatic aggregate — all twelve pitch classes heard exactly once. This is what allows polyphonic twelve-tone writing to preserve the aggregate-completion property of the single-line twelve-tone system."
 
-- question: "Any twelve-tone row can achieve all-combinatoriality, since all 48 row forms are transformations of the same underlying pitch content."
+- question: "Any twelve-tone row can achieve most-combinatoriality, since most 48 row forms are transformations of the same underlying pitch content."
   type: true-false
   answer: false
   explanation: "All-combinatoriality — where a row's hexachords form aggregates with transpositions of P, I, R, and RI simultaneously — is only possible for rows whose hexachords belong to one of six specific set-class types. The property depends on the interval content of the hexachord, not merely on the existence of the 48 standard row forms. Most rows do not have this property. Schoenberg carefully designed his later rows to be combinatorial, which is why they required that intentional selection: combinatoriality is a structural constraint on the row's construction, not an automatic consequence of twelve-tone writing."

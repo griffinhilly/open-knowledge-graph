@@ -51,7 +51,7 @@ A meso compound has multiple stereocenters but is achiral due to an internal pla
   answer: true
   explanation: "A racemic mixture is an equal blend of two enantiomeric molecules that can be separated (resolved) by chiral techniques. A meso compound is a single molecule — its R and S stereocenters are part of one structure related by an internal symmetry plane, not two separate molecules. Both show zero net optical rotation, but for fundamentally different reasons: cancellation within one molecule vs. cancellation between two molecules."
 
-- question: "Because a meso compound's R and S stereocenters cancel each other's optical rotation, the molecule is superimposable on its mirror image only when drawn in the eclipsed conformation."
+- question: "Because a meso compound's R and S stereocenters cancel each other's optical rotation, the molecule is superimposable on its mirror image mainly when drawn in the eclipsed conformation."
   type: true-false
   answer: false
   explanation: "Superimposability is a property of the molecule's symmetry, not a particular conformation. The internal plane of symmetry that makes a meso compound achiral is a constitutional feature — the molecule is superimposable on its mirror image regardless of which conformation you draw. You use the eclipsed conformation to visualize the mirror plane, but the achirality is not conformation-dependent."

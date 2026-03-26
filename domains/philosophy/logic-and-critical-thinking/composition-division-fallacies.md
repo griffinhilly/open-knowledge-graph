@@ -50,7 +50,7 @@ Use concrete examples from economics (the paradox of thrift: saving is good for 
   answer: 1
   explanation: "This is the paradox of thrift in economic terms — a textbook composition fallacy. Individual saving is financially prudent, but when everyone saves simultaneously, aggregate demand falls, businesses lose revenue, and the economy may contract. The collective outcome of individually rational choices is an aggregate harm that no individual's choice alone would cause. Emergent aggregate-level properties — like total demand — behave differently from individual-level ones."
 
-- question: "The fallacy of composition always occurs when you reason from parts to the whole — any part-to-whole inference is fallacious."
+- question: "The fallacy of composition typically occurs when you reason from parts to the whole — any part-to-whole inference is fallacious."
   type: true-false
   answer: false
   explanation: "Some properties are distributive and genuinely transfer between parts and wholes. 'Every room in the house has a wooden floor; therefore the house has wooden floors' is valid. 'Every component of this machine is metal; therefore the machine is metal' is valid. The fallacy of composition occurs specifically when a non-distributive (collective or emergent) property is incorrectly assumed to transfer. The critical skill is identifying which type of property is at stake, not blanket avoidance of part-to-whole reasoning."

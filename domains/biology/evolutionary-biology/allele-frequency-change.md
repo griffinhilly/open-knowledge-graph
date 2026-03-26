@@ -57,7 +57,7 @@ Use spreadsheet simulations to model allele frequency changes under different fo
   answer: 2
   explanation: "Mutation rates per locus per generation are typically 10⁻⁵ to 10⁻⁹ — meaning most generations see no new mutation at a given locus at all. While mutation is the ultimate source of all genetic variation, it changes allele frequencies at any single locus glacially slowly. Selection, gene flow, or drift can shift frequencies orders of magnitude faster. Mutation's evolutionary role is to supply the raw variation that other forces then act on, not to drive frequency change directly."
 
-- question: "A 'favorable' allele — one that increases reproductive success — will always increase in frequency over time, because natural selection is a systematic, directional force."
+- question: "A 'favorable' allele — one that increases reproductive success — will typically increase in frequency over time, because natural selection is a systematic, directional force."
   type: true-false
   answer: false
   explanation: "In small populations, genetic drift can overpower selection. When Ns (population size × selection coefficient) is near or below 1, allele trajectories become essentially random regardless of fitness. A slightly favorable allele (s = 0.01) in a population of N = 50 has Ns = 0.5 — drift dominates, and the allele may be lost by chance. In large populations, the statement approaches truth (Ns >> 1 makes selection effective), but the blanket claim 'favorable alleles always increase' ignores the critical role of population size."

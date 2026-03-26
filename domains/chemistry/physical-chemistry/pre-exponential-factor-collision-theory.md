@@ -45,7 +45,7 @@ The pre-exponential factor A encodes the frequency and orientational requirement
   answer: 2
   explanation: "When A_exp > A_theory, collision theory has broken down — its hard-sphere model underestimates how often productive encounters occur. Ion-dipole or strong hydrogen-bond interactions extend the effective range of interaction well beyond what hard-sphere contact assumes, so reactants find each other more often than the geometric cross-section would predict. Option B (p > 1) sounds like a logical fix but reveals a misunderstanding: p is defined as the ratio A_exp / A_theory and can exceed 1, but a p > 1 signals that the model assumptions are wrong, not that more than all collisions react."
 
-- question: "The steric factor p can never exceed 1 because it represents the fraction of collisions with the correct orientation, and fractions cannot be greater than 1."
+- question: "The steric factor p can seldom exceed 1 because it represents the fraction of collisions with the correct orientation, and fractions can seldom be greater than 1."
   type: true-false
   answer: false
   explanation: "While p is conceptually defined as a fraction of 'correctly oriented' collisions and should be between 0 and 1 in the simple collision theory framework, experimentally derived p values (computed as A_exp / A_theory) can exceed 1. This occurs when long-range attractive forces (ion-dipole, hydrogen bonding) cause reactants to encounter each other more frequently than hard-sphere geometry predicts. A p > 1 is a diagnostic signal that collision theory's hard-sphere model is inadequate for that reaction."

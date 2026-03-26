@@ -60,7 +60,7 @@ Categorical properties are those with intrinsic natures that characterize how th
   answer: true
   explanation: "This is the defining feature of categorical properties. Unlike dispositions (fragility, solubility, conductivity) which are characterized by what an object *would do* if conditions were met, categorical properties are purely occurrent: the shape of a crystal, the spatial arrangement of atoms, the charge distribution in a molecule. These are features of how things are, not what they would do. The categorical/dispositional distinction tracks the difference between occurrent features and modal (would-be) features."
 
-- question: "The debate between categoricalism and pure dispositionalism is merely semantic — both views make the same predictions about the physical world and agree on all substantive questions."
+- question: "The debate between categoricalism and pure dispositionalism is merely semantic — both views make the same predictions about the physical world and agree on most substantive questions."
   type: true-false
   answer: false
   explanation: "This is a substantive metaphysical dispute with real consequences. Categoricalism implies that properties have intrinsic natures that are logically independent of their causal roles — the same categorical basis could, in principle, give rise to different dispositions in different possible worlds. Pure dispositionalism implies that properties are exhausted by their causal roles — there is nothing to a property beyond what it does. These views differ on the nature of laws of nature, the analysis of counterfactuals, and the structure of modality."

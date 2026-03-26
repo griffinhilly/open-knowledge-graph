@@ -55,7 +55,7 @@ Calculate spin-orbit coupling constant for representative atoms; observe how fin
   answer: true
   explanation: "This is the correct physical picture. In the electron's rest frame, the positive nucleus appears to orbit the electron, generating a magnetic field (like a current loop). The electron's spin magnetic moment interacts with this field, with the interaction energy depending on whether the spin is aligned or opposed to the orbital angular momentum. This L·S interaction is the origin of spin-orbit coupling and the reason it is called a relativistic effect — the rest-frame transformation is relativistic."
 
-- question: "For very heavy atoms like uranium, L-S (Russell-Saunders) coupling is still the appropriate framework for spin-orbit interactions because the coupling is so strong that all orbital momenta couple together first."
+- question: "For very heavy atoms like uranium, L-S (Russell-Saunders) coupling is still the appropriate framework for spin-orbit interactions because the coupling is so strong that most orbital momenta couple together first."
   type: true-false
   answer: false
   explanation: "In heavy atoms, spin-orbit coupling becomes so strong that each individual electron's spin and orbital angular momenta couple together before coupling to other electrons. This is j-j coupling: each electron first forms its own total angular momentum j = l + s, and then these individual j values combine to give the total J. L-S coupling assumes spin-spin and orbit-orbit interactions are stronger than spin-orbit interactions — valid for light atoms but completely wrong for heavy atoms where spin-orbit dominates."

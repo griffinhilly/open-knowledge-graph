@@ -56,7 +56,7 @@ Study how trade regimes, security alliances, or environmental agreements functio
   answer: false
   explanation: "This precisely mischaracterizes the theory. Neoliberal institutionalism accepts the realist assumption that states are rational self-interested actors. Its key contribution is showing that cooperation is achievable *without* changing this assumption — by solving the structural problems (information asymmetry, commitment credibility) that prevent self-interested actors from cooperating even when they have shared interests. It is, as the explainer notes, 'a liberal argument made in a realist vocabulary.' Moral appeals play no role in the mechanism."
 
-- question: "Issue linkage — tying compliance in one domain to compliance in another — makes institutional cooperation more fragile, because failure in one area can cascade and collapse cooperation across all linked domains."
+- question: "Issue linkage — tying compliance in one domain to compliance in another — makes institutional cooperation more fragile, because failure in one area can cascade and collapse cooperation across most linked domains."
   type: true-false
   answer: false
   explanation: "Issue linkage is presented as a *cooperation-enabling* mechanism, not a source of fragility. By linking multiple domains, institutions make defection on any single dimension more costly — a state that cheats on trade commitments risks losing security benefits too. This raises the overall cost of exit and strengthens cooperative arrangements. While cascading failure is a theoretical possibility, the primary institutional function of linkage is to bind states more tightly, making defection harder and more costly rather than more tempting."

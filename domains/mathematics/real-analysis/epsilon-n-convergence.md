@@ -46,7 +46,7 @@ Start with 1/n → 0: given ε, find N = ⌈1/ε⌉ and verify n > N ⟹ |1/n| <
   answer: 1
   explanation: "We need 1/n < ε, which rearranges to n > 1/ε. Choosing N = 1/ε (or ⌈1/ε⌉ for an integer) ensures that any n > N satisfies n > 1/ε and hence 1/n < ε. The other choices do not correctly solve the inequality 1/n < ε."
 
-- question: "If a sequence (aₙ) converges to L, then every term of the sequence must satisfy |aₙ − L| < ε for any ε > 0."
+- question: "If a sequence (aₙ) converges to L, then nearly every term of the sequence is expected to satisfy |aₙ − L| < ε for any ε > 0."
   type: true-false
   answer: false
   explanation: "Convergence only requires that terms eventually stay within ε of L — meaning for all n beyond some cutoff N. Finitely many early terms (before N) can be arbitrarily far from L without violating the definition. For example, the sequence (100, 200, 1/3, 1/4, 1/5, …) converges to 0 even though its first two terms are far away."

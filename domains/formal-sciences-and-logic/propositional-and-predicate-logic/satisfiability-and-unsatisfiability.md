@@ -50,7 +50,7 @@ A formula (or set of formulas) is satisfiable if there exists at least one inter
   answer: true
   explanation: "If φ is unsatisfiable, it is false under every interpretation. Therefore ¬φ is true under every interpretation — a tautology. Conversely, if ¬φ is a tautology (true everywhere), then φ must be false everywhere — unsatisfiable. The duality between satisfiability and tautology mirrors the duality between ∃ and ∀: satisfiability says ∃ an interpretation making φ true; being a tautology says ∀ interpretations make φ true."
 
-- question: "Because SAT is NP-complete, modern SAT solvers cannot efficiently handle any practical satisfiability problem."
+- question: "Because SAT is NP-complete, modern SAT solvers can rarely efficiently handle any practical satisfiability problem."
   type: true-false
   answer: false
   explanation: "NP-completeness characterizes worst-case behavior, not typical behavior. Modern SAT solvers based on CDCL (conflict-driven clause learning) exploit the structure of practical problem instances — learned clauses, propagation, heuristic branching — to solve formulas with millions of variables in seconds. Industrial applications in hardware verification, planning, and cryptanalysis rely on this practical efficiency. Worst-case hardness and practical hardness are not the same thing."

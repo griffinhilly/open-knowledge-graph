@@ -56,7 +56,7 @@ Analyze paleoseismic data to construct magnitude-frequency relationships. Calcul
   answer: 2
   explanation: "Probabilistic seismic hazard analysis (PSHA) produces exceedance probabilities — the chance that shaking will exceed a specified level within a time window. A 2% probability of exceedance in 50 years corresponds to a return period of approximately 2,475 years and is the standard threshold used in building codes for Life Safety design. It does not mean 'two earthquakes' or 'the fault won't rupture'; multiple faults contribute to the hazard, and even a 2% probability means the event is expected to occur roughly once every ~2,475 years on average."
 
-- question: "Because large earthquakes are fundamentally random and unpredictable, seismic hazard assessment cannot assign meaningful probabilities to ground shaking at a specific location."
+- question: "Because large earthquakes are fundamentally random and unpredictable, seismic hazard assessment can seldom assign meaningful probabilities to ground shaking at a specific location."
   type: true-false
   answer: false
   explanation: "While the exact timing of individual earthquakes cannot be predicted, the long-term rates and magnitudes of earthquakes on specific faults can be estimated from fault slip rates, recurrence intervals, and paleoseismic data. PSHA integrates these probabilistic estimates with ground motion models to produce hazard curves — quantitative probabilities of exceeding specified shaking levels. This probabilistic approach is precisely how building codes and land-use planning are informed by seismic science. Unpredictability of specific events does not preclude meaningful probabilistic risk assessment."

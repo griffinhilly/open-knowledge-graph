@@ -49,7 +49,7 @@ Practice caulk bead laying on scrap material first to maintain consistent pressu
   answer: 2
   explanation: "Touch-dry (30–60 minutes) and fully cured are different stages. Curing is when the interior of the caulk cross-links into a durable, flexible rubber — most caulks require at least 24 hours. Exposing the joint to water before full cure stresses the material and causes cracking. This is where most bathroom caulk failures originate, and it's why reading the manufacturer's cure time is non-optional in wet applications."
 
-- question: "Silicone caulk is the best all-purpose choice for interior trim and baseboards because it is the most durable and water-resistant caulk available."
+- question: "Silicone caulk is the best most-purpose choice for interior trim and baseboards because it is the most durable and water-resistant caulk available."
   type: true-false
   answer: false
   explanation: "Silicone is the right choice for wet environments (tubs, sinks, windows), but it is a poor choice for painted interior trim — pure silicone cannot be painted, so paint will bead up and peel. Acrylic latex caulk ('painter's caulk') is the correct choice for dry interior trim because it accepts paint readily, tools easily, and cleans up with water. Durability is irrelevant if the caulk prevents a proper painted finish."

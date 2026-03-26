@@ -57,7 +57,7 @@ Use Frye's system to map a literary tradition you know well: identify which myth
   answer: 1
   explanation: "Romance (summer) presents the fullest idealization of the heroic — the quest narrative where the hero triumphs against a threatening world. Irony and satire (winter) is its polar opposite: a world from which the heroic has been evacuated or deflated. Together they represent the maximum distance between literary modes. Comedy and tragedy (spring and autumn) are the middle seasons, which is why both can blend into each other more readily than romance and irony can."
 
-- question: "Frye intended his four mythoi as a claim that all literary works ultimately mean the same thing, since they all reduce to the same structural patterns."
+- question: "Frye intended his four mythoi as a claim that most literary works ultimately mean the same thing, since they most reduce to the same structural patterns."
   type: true-false
   answer: false
   explanation: "Frye explicitly framed his system as a descriptive grammar of literary forms — analogous to noting that two sentences share syntactic structure — not as a claim that structurally similar works have identical meaning. Identifying that a Nigerian novel and a Greek tragedy share the tragic mythos illuminates structural kinship; it does not reduce both to the same meaning. The grammar is the scaffolding; the specific historical, cultural, and political meanings that fill that scaffolding remain distinct."

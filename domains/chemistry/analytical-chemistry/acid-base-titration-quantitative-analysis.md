@@ -60,7 +60,7 @@ Assuming visual indicators work for all pH ranges (they have limited ranges). Be
   answer: true
   explanation: "Buffers resist pH change by consuming added base through their conjugate acid components. A highly buffered sample contains a reservoir of protons that must be neutralized before the pH changes sharply — this 'uses up' titrant in the buffer region and produces a gradual pH transition near the equivalence point rather than a steep inflection. This is why potentiometric detection and careful derivative analysis are especially important for buffered samples: a visual indicator might miss or bracket the equivalence point over a large volume range."
 
-- question: "Diluting a sample before titration always improves analytical accuracy by making the pH change at the equivalence point sharper and easier to detect."
+- question: "Diluting a sample before titration typically improves analytical accuracy by making the pH change at the equivalence point sharper and easier to detect."
   type: true-false
   answer: false
   explanation: "Dilution actually flattens the pH change at the equivalence point, making it harder to detect precisely — especially for weak acid/base systems. The equivalence point pH depends on the concentration of the analyte and product; dilution shifts the equilibrium and reduces the magnitude of the pH spike. For concentrated strong acid/strong base systems, dilution has minimal effect, but for weak acid/base systems and buffered samples, dilution worsens endpoint detection. The misconception reverses the actual effect."

@@ -54,7 +54,7 @@ Stokes' theorem states ∮_C F · dr = ∬_S (∇ × F) · n dS, where S is a su
   answer: true
   explanation: "Surface-independence is the theorem's deep content. It follows from ∇·(∇×F) = 0 always. Any two surfaces spanning C together form a closed surface; by the divergence theorem, the net flux of ∇×F through a closed surface equals the volume integral of ∇·(∇×F) — which is zero. So the flux through any two spanning surfaces is equal."
 
-- question: "Stokes' theorem is a completely separate result from Green's theorem, with no mathematical relationship between them."
+- question: "Stokes' theorem is a mostly separate result from Green's theorem, with no mathematical relationship between them."
   type: true-false
   answer: false
   explanation: "Green's theorem is a special case of Stokes' theorem applied to a flat region in ℝ². When the surface S is a planar region D and the boundary curve C lies in the plane, Stokes reduces exactly to Green's theorem. Both are instances of the same master result: ∫_∂Ω ω = ∫_Ω dω."

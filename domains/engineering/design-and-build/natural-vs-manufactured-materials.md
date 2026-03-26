@@ -40,7 +40,7 @@ Bring in a collection of objects and materials: a wooden block, a rock, a plasti
   answer: 2
   explanation: "Plastic is manufactured — it is made in factories by processing petroleum (a natural raw material) through chemical reactions. Wood comes from trees, wool comes from sheep, and cotton comes from cotton plants. All three are natural materials used with minimal processing."
 
-- question: "Manufactured materials are created from nothing in factories — they do not come from natural raw materials."
+- question: "Manufactured materials are created from hardly anything in factories — they do not come from natural raw materials."
   type: true-false
   answer: false
   explanation: "Almost every manufactured material starts as a natural raw material. Glass is made from sand. Steel is made from iron ore. Plastic is made from petroleum. Concrete is made from limestone, sand, and gravel. Manufacturing processes transform natural materials into new materials with different properties — they do not create something from nothing."

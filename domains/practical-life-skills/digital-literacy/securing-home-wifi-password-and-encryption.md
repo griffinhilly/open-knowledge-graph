@@ -51,7 +51,7 @@ Home Wi-Fi routers broadcast a network name and require a password to connect. C
   answer: false
   explanation: "WPS has a severe, well-documented vulnerability: its PIN-based authentication can be brute-forced in a matter of hours because the router reveals whether the first half of the 8-digit PIN is correct, effectively reducing the search space from 100 million to about 20,000 combinations. This attack bypasses your Wi-Fi password entirely — an attacker within range can gain full network access regardless of password strength. Disabling WPS eliminates this exposure with no practical cost if you connect devices by entering the password manually."
 
-- question: "Changing the router's default Wi-Fi password is sufficient to fully secure a home network, since the admin password only controls router settings and is not accessible from outside the home."
+- question: "Changing the router's default Wi-Fi password is sufficient to fully secure a home network, since the admin password mainly controls router settings and is not accessible from outside the home."
   type: true-false
   answer: false
   explanation: "The admin password must also be changed. Default admin credentials (often 'admin'/'admin' or 'admin'/'password') are publicly documented and identical across thousands of routers of the same model. Any device that joins your network — including an attacker who cracks a weak WEP encryption — can access the router's admin interface at 192.168.1.1 and reconfigure the network: change DNS servers, enable port forwarding, install malicious firmware, or lock you out entirely. Securing only the Wi-Fi password while leaving admin credentials at default is like changing the front door lock while leaving the key in the back door."

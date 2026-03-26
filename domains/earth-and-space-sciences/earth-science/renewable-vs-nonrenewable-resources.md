@@ -50,7 +50,7 @@ Bring in examples of both categories: a piece of wood (renewable — trees can b
   answer: "Fossil fuels formed from the remains of ancient organisms buried and transformed over millions of years under specific heat and pressure conditions. While the process is natural, it takes far too long (millions of years) to produce new fossil fuels on any human timescale. We are using them thousands of times faster than nature creates them, making them effectively nonrenewable for our purposes."
   explanation: "This is the key concept — 'renewable' and 'nonrenewable' are defined relative to human timescales. A resource is nonrenewable if we cannot replace it within a human lifetime or even within many generations. Fossil fuels are a one-time inheritance from Earth's geological past."
 
-- question: "Renewable resources can never be depleted or used up."
+- question: "Renewable resources can seldom be depleted or used up."
   type: true-false
   answer: false
   explanation: "Renewable resources can be depleted if they are consumed faster than they regenerate. Overfishing can collapse fish populations. Clear-cutting forests faster than they can regrow leads to deforestation. Over-pumping groundwater faster than rainfall recharges it can drain aquifers. 'Renewable' means replaceable, not inexhaustible — sustainable management is still required."

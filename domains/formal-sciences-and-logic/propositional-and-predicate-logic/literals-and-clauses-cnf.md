@@ -62,7 +62,7 @@ Start with propositional formulas and convert them to CNF step-by-step using dis
   answer: true
   explanation: "A formula is in CNF if it is a conjunction of clauses, where each clause is a disjunction of literals. (A ∨ B) ∧ C fits exactly: the first clause is (A ∨ B) — a disjunction of two positive literals — and the second clause is (C) — a single positive literal (unit clause). No conversion is needed. Recognizing when a formula is already in CNF (or very nearly so) is a useful practical skill that avoids unnecessary transformation steps."
 
-- question: "Converting any propositional formula to CNF using distributive laws (distributing ∨ over ∧) always produces a result of the same size or smaller than the original formula."
+- question: "Converting any propositional formula to CNF using distributive laws (distributing ∨ over ∧) generally produces a result of the same size or smaller than the original formula."
   type: true-false
   answer: false
   explanation: "Distributing ∨ over ∧ can cause exponential blowup. Each application of A ∨ (B ∧ C) ≡ (A ∨ B) ∧ (A ∨ C) can double the number of clauses. A formula with n nested alternations of ∨ and ∧ can produce a CNF with 2ⁿ clauses. This is precisely why Tseitin's transformation is preferred in practice: it avoids the blowup by introducing auxiliary variables, producing a CNF of linear size at the cost of equisatisfiability rather than full equivalence."

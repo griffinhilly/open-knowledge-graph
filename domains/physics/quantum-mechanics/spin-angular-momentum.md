@@ -51,7 +51,7 @@ Spin is intrinsic angular momentum with no classical analog. Electrons have s = 
   answer: true
   explanation: "s is intrinsic — it characterizes the type of particle and cannot be altered by external fields, temperature, or any interaction. What can change is m_s (the spin projection along a chosen axis), which takes values +1/2 or −1/2. For example, a magnetic field or a measurement can flip an electron from spin-up to spin-down (changing m_s), but the value s = 1/2 is invariant."
 
-- question: "Because orbital angular momentum and spin obey the same commutator algebra [Ĵ_i, Ĵ_j] = iℏ ε_{ijk} Ĵ_k, spin must take the same integer values (l = 0, 1, 2, ...) as orbital angular momentum."
+- question: "Because orbital angular momentum and spin obey the same commutator algebra [Ĵ_i, Ĵ_j] = iℏ ε_{ijk} Ĵ_k, spin should take the same integer values (l = 0, 1, 2, ...) as orbital angular momentum."
   type: true-false
   answer: false
   explanation: "The commutator algebra alone allows any non-negative half-integer value (0, 1/2, 1, 3/2, ...). Orbital angular momentum is restricted to integers by an *additional* requirement: the spatial wavefunction must be single-valued under a 2π rotation (ψ must return to itself, not −ψ). Spin states live in a separate spin Hilbert space where no such single-valuedness constraint applies, so s = 1/2 is mathematically consistent. Nature uses this freedom: electrons, protons, and neutrons all have s = 1/2."

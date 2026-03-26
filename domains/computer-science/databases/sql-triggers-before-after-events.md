@@ -54,7 +54,7 @@ Triggers are database objects that automatically execute SQL code in response to
   answer: true
   explanation: "Although BEFORE triggers are the natural tool for cancellation (they can raise an error before the write occurs), AFTER triggers run inside the same transaction as the triggering statement. Raising an exception inside an AFTER trigger will roll back the entire transaction, including the data change. This is less common than using BEFORE for validation, but it is possible. Both trigger types run within the same transaction boundary."
 
-- question: "Because triggers fire automatically regardless of which application modifies the data, they are the best place to enforce all business logic in a database application."
+- question: "Because triggers fire automatically regardless of which application modifies the data, they are the best place to enforce most business logic in a database application."
   type: true-false
   answer: false
   explanation: "Triggers are appropriate for cross-cutting concerns that must be enforced regardless of which application touches the data — audit logging, referential integrity, derived column maintenance. But placing general business logic in triggers creates serious maintainability problems: triggers fire invisibly, making debugging difficult. Trigger chains (one trigger firing another) can produce complex, opaque execution paths and even infinite loops. The standard guidance is to keep business logic in the application layer where it's visible and testable, using triggers only for concerns genuinely tied to the data layer."

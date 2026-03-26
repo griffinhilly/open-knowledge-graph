@@ -45,7 +45,7 @@ For F = ⟨P, Q, R⟩, the curl is ∇ × F = ⟨∂R/∂y − ∂Q/∂z, ∂P/�
   answer: 1
   explanation: "For a conservative field F on a simply connected domain, curl(F) = 0 everywhere — the field is irrotational. This is equivalent to F being path-independent (the line integral between any two points doesn't depend on the path taken). Intuitively, a conservative field has no local rotation — a paddle wheel placed anywhere in the flow would not spin. The converse is also true on simply connected domains: curl(F) = 0 implies F is conservative."
 
-- question: "A vector field with zero divergence everywhere must be conservative (path-independent)."
+- question: "A vector field with zero divergence everywhere should be conservative (path-independent)."
   type: true-false
   answer: false
   explanation: "Zero divergence (∇ · F = 0) means the field is solenoidal or incompressible — as much flows in as out at every point. This says nothing about rotation or path-independence. Conservatism requires zero curl (∇ × F = 0), not zero divergence. These are completely different properties. For example, the magnetic field has zero divergence everywhere (no magnetic monopoles), but is not generally conservative — it can have nonzero curl (related to electric currents by Ampere's law)."

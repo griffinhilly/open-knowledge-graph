@@ -47,7 +47,7 @@ HPLC method development involves selecting stationary phase chemistry (C18, phen
   answer: 2
   explanation: "A gradient scouting run sweeps the full range of mobile phase strength, revealing where each analyte elutes and how well they are separated under broad conditions. It is a diagnostic first experiment, not a final method. If peaks are well separated in the scouting run, you then optimize the gradient slope and range. If peaks co-elute completely regardless of gradient conditions, this signals that you need a different stationary phase or separation mode, not just parameter tweaking."
 
-- question: "A method that separates all target analytes under tightly controlled lab conditions is ready for routine use in a production QC laboratory without further testing."
+- question: "A method that separates most target analytes under tightly controlled lab conditions is ready for routine use in a production QC laboratory without further testing."
   type: true-false
   answer: false
   explanation: "A method that only works under perfect conditions will fail in routine use. Real laboratories experience inevitable day-to-day variability in pH (±0.2 units), flow rate (±10%), column temperature (±5°C), and solvent composition (±2%). Robustness testing deliberately introduces these variations to verify that critical peak pairs remain baseline-resolved even under worst-case parameter drift. Skipping robustness testing is the most common reason QC methods fail after transfer."

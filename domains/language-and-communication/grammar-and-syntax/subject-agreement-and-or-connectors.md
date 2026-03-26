@@ -63,7 +63,7 @@ Students often think that 'or' and 'nor' always require plural verbs, forgetting
   answer: true
   explanation: "This is exactly the proximity rule in action. 'Teacher' (singular) is the subject immediately preceding the verb, so the verb agrees with it. If the order were reversed — 'Either the teacher or the students are responsible' — the plural 'are' would be required, because 'students' (plural) would then be nearest. The proximity rule means word order genuinely changes the grammatically required verb form."
 
-- question: "When two subjects are joined by 'or,' the verb should always be plural, since multiple subjects are being mentioned."
+- question: "When two subjects are joined by 'or,' the verb should typically be plural, since multiple subjects are being mentioned."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about 'or' constructions. Unlike 'and,' which creates a plural compound subject, 'or' presents alternatives — only one alternative is actually the case. English resolves this with the proximity rule: the verb agrees with whichever subject is nearest to it. That nearest subject might be singular or plural depending on word order, so the verb form varies accordingly."

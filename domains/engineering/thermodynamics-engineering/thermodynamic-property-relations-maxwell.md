@@ -49,7 +49,7 @@ Maxwell relations are derived from the equality of mixed partial derivatives of 
   answer: true
   explanation: "This is the practical power of Maxwell relations. Entropy is not accessible to a thermometer or pressure gauge. But (∂S/∂V)_T = (∂P/∂T)_V means that measuring how pressure varies with temperature at constant volume (a PVT experiment) tells you how entropy varies with volume at constant temperature. Combined with specific heat measurements (which give (∂S/∂T) at constant pressure or volume), you can integrate along any path in state space to build a complete entropy surface. This is literally how steam tables and refrigerant property tables are constructed."
 
-- question: "The Maxwell relation (∂S/∂V)_T = (∂P/∂T)_V applies only to ideal gases; for real gases and liquids, the relationship between entropy and PVT variables requires a different approach."
+- question: "The Maxwell relation (∂S/∂V)_T = (∂P/∂T)_V applies primarily to ideal gases; for real gases and liquids, the relationship between entropy and PVT variables requires a different approach."
   type: true-false
   answer: false
   explanation: "Maxwell relations are substance-independent — they hold for any material in thermodynamic equilibrium, including real gases, liquids, and solids. The relation (∂S/∂V)_T = (∂P/∂T)_V is derived from the exactness of the Helmholtz free energy differential, which holds universally. For an ideal gas, (∂P/∂T)_V = nR/V, giving a simple result. For a van der Waals gas, the same relation with the van der Waals P(T,V) yields a different but equally rigorous entropy expression. Real-fluid property tables (steam, refrigerants) are built by applying Maxwell relations to empirical equations of state that fit real experimental data."

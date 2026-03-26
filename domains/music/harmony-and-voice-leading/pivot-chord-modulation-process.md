@@ -57,7 +57,7 @@ The pivot chord does not need to be a common chord (like I or V); any shared har
   answer: 1
   explanation: "The defining quality of pivot chord modulation is smoothness: the transition chord belongs to both keys, so voices continue moving naturally with no sudden harmonic jolt. Without a pivot, the new key arrives abruptly — the listener perceives an unannounced break rather than a gradual reorientation. Abrupt modulation is a legitimate technique for dramatic effect, but it is the opposite of pivot chord modulation's seamlessness."
 
-- question: "Pivot chord modulation works because a chord's harmonic function is inherent in its notes — a G major chord always functions as a dominant regardless of context."
+- question: "Pivot chord modulation works because a chord's harmonic function is inherent in its notes — a G major chord usually functions as a dominant regardless of context."
   type: true-false
   answer: false
   explanation: "This is the exact misconception the topic corrects. Harmonic function is fundamentally contextual — the same G major chord functions as V (dominant, creating tension toward C) in C major and as I (stable tonic) in G major. The chord's notes never change; its function is assigned by the progression surrounding it. The pivot chord exploits this contextual nature: it sounds like one function on approach and a different function on departure, all without any notes changing."

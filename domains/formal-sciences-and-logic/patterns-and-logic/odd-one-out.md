@@ -45,12 +45,12 @@ Present groups of 4-5 items where one is different. Start with obvious differenc
   answer: 2
   explanation: "The most common answer is carrot — apple, banana, and grape are all fruits, while carrot is a vegetable. But the other answers also have valid logic: apple is the only one starting with a vowel, banana is the only yellow one, and grape is the smallest. The 'best' answer depends on which attribute creates the cleanest grouping. Fruit vs. vegetable is the most fundamental classification, making carrot the strongest answer — but the question is worth discussing."
 
-- question: "In an odd-one-out problem, there is always exactly one correct answer."
+- question: "In an odd-one-out problem, there is generally exactly one correct answer."
   type: true-false
   answer: false
   explanation: "Different attributes can identify different odd ones out. In the set {2, 4, 7, 8}, 7 is the odd one out by parity (the only odd number), but 2 is the odd one out by digit count if you consider that the others are all composed of straight-line segments. The 'best' answer is the one supported by the most relevant or fundamental attribute, but multiple answers can be logically valid."
 
-- question: "A student picks the odd one out in a group but cannot explain why. Has the student solved the problem?"
+- question: "A student picks the odd one out in a group but can seldom explain why. Has the student solved the problem?"
   type: true-false
   answer: false
   explanation: "Identifying the odd one out requires stating the attribute that makes the others similar and the chosen item different. Without an explanation, the answer might be a guess, an intuition, or based on a superficial impression. The reasoning IS the solution — the item choice alone is just a claim without support. Logical thinking requires justification."

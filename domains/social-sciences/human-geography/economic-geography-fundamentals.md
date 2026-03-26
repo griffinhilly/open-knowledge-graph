@@ -58,7 +58,7 @@ Compare regional GDP maps within countries to identify patterns of uneven develo
   answer: 1
   explanation: "Agglomeration economies are external benefits that firms gain from proximity to other firms. A cluster of tech firms attracts specialized engineers, component suppliers, and venture capital — none of which any single firm could sustain alone. These shared benefits (called localization economies) often exceed the costs of local competition, creating self-reinforcing clusters like Silicon Valley or Detroit's auto industry."
 
-- question: "According to Weber's industrial location model, firms always locate as close as possible to their final consumer markets."
+- question: "According to Weber's industrial location model, firms usually locate as close as possible to their final consumer markets."
   type: true-false
   answer: false
   explanation: "Weber's model minimizes total transport costs for inputs and outputs, weighted by their volume and transport rates. If raw materials lose significant weight during processing (a high material index), firms locate near the material source to avoid hauling waste. If the final product is bulky or perishable, firms locate near markets. The optimal location depends on the specific cost tradeoffs — not a universal preference for market proximity."

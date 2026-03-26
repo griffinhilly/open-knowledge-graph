@@ -51,7 +51,7 @@ Start with simple one-radical equations. Emphasize the isolation step before squ
   answer: 1
   explanation: "Squaring loses sign information: both 3² and (−3)² equal 9, so squaring both sides of an equation can create a true equation from a false one (e.g., 3 ≠ −3, but 9 = 9). Cubing is one-to-one: only 3³ = 27, and only (−3)³ = −27. So cubing cannot turn a false equation into a true one, and no extraneous solutions are introduced. This is the deeper reason the checking step is essential for even-index roots but not for odd-index roots."
 
-- question: "Squaring both sides of a radical equation is a fully reversible algebraic step that preserves all solutions without introducing new ones."
+- question: "Squaring both sides of a radical equation is a fully reversible algebraic step that preserves most solutions without introducing new ones."
   type: true-false
   answer: false
   explanation: "Squaring is not reversible in general because it discards sign information. Both a = b and a = −b lead to a² = b² after squaring, so squaring can produce a true equation from a false one. This is exactly how extraneous solutions arise: squaring turns the unsatisfiable statement '√x = −3' into the satisfiable 'x = 9', which passes algebra but fails the original equation. The solving process is only complete after checking all solutions in the original equation."

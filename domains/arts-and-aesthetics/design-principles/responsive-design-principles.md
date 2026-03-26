@@ -60,7 +60,7 @@ Take a desktop layout and redesign it for mobile in wireframe form, requiring yo
   answer: 1
   explanation: "Breakpoints are designer-defined viewport widths at which layout rules change — they are not device specifications. Designing 'for iPhone' or 'for iPad' is the wrong mental model: you are designing for *ranges of width*, and the specific device that happens to fall in that range is incidental. This distinction matters because new screen sizes appear constantly; breakpoints defined by content logic remain stable as the device landscape evolves."
 
-- question: "Responsive design ensures a website works well on all devices, including touch targets, performance, and gesture interactions."
+- question: "Responsive design ensures a website works well on most devices, including touch targets, performance, and gesture interactions."
   type: true-false
   answer: false
   explanation: "Responsive design primarily addresses *layout at different viewport widths*. It does not automatically handle touch target sizing (at least 44×44px for fingers), performance (serving appropriately sized images, minimizing requests), or gesture-based interaction patterns like swipe navigation. A site can be fully responsive — its grid fluently adapts — and still be painful to use on mobile because buttons are too small to tap accurately or images take 8 seconds to load on a 4G connection. These are separate considerations that require deliberate additional work."

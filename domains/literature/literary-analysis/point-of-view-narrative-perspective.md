@@ -49,7 +49,7 @@ Read two versions of the same scene in different points of view (many writing te
   answer: 2
   explanation: "Third-person limited uses 'he', 'she', or 'they' pronouns but restricts interiority to one character — the reader sees the world through that character's perspective without being inside the story as 'I'. Omniscient would grant access to multiple minds; objective would grant access to none."
 
-- question: "A third-person omniscient narrator is always reliable because, unlike a first-person narrator, it stands outside the story and has no personal stake in the events."
+- question: "A third-person omniscient narrator is typically reliable because, unlike a first-person narrator, it stands outside the story and has no personal stake in the events."
   type: true-false
   answer: false
   explanation: "Omniscience refers to access (what information is available), not to reliability (whether the narrator is truthful or unbiased). A third-person narrator can be ironic, selective, or editorially biased. Omniscience does not remove the possibility of narratorial manipulation; it only changes the mechanism. Reliability is a separate analytical category from perspective."

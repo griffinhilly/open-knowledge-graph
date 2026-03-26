@@ -55,7 +55,7 @@ You already know how to build a budget — a plan that maps out expected income 
   answer: true
   explanation: "A cash flow deficit occurs when total money going out exceeds total money coming in over the period. This means you are drawing down savings, taking on debt, or some combination. A deficit cannot continue indefinitely — eventually savings are exhausted. Recognizing a deficit is the first step toward correcting it through expense reduction, income increases, or both."
 
-- question: "If your monthly budget is balanced — that is, planned income equals planned expenses — you are guaranteed to always have sufficient cash available when bills come due."
+- question: "If your monthly budget is balanced — that is, planned income equals planned expenses — you are very likely to usually have sufficient cash available when bills come due."
   type: true-false
   answer: false
   explanation: "A balanced budget only means totals are equal over the period; it says nothing about timing. If a large expense (annual insurance premium, quarterly tax payment, car repair) falls due before income arrives, you can face a cash shortfall even with a balanced budget. Cash flow management addresses this by forecasting known future outflows and setting aside money monthly rather than scrambling when the bill arrives."

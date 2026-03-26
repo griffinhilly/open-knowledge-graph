@@ -34,7 +34,7 @@ Consistency models define what values a read can return after a write in a repli
   answer: 1
   explanation: "Linearizability (also called atomic consistency) requires that operations appear to execute instantaneously at some point between their invocation and completion, preserving real-time order. Sequential consistency only requires that all nodes observe operations in the same order, but that order does not need to match wall-clock time. Linearizability is therefore strictly stronger."
 
-- question: "Under eventual consistency, if a client writes a value to one replica and then immediately reads from a different replica, the read is guaranteed to return the new value."
+- question: "Under eventual consistency, if a client writes a value to one replica and then immediately reads from a different replica, the read is very likely to return the new value."
   type: true-false
   answer: false
   explanation: "Eventual consistency only guarantees that replicas will *eventually* converge to the same value if no new writes occur — it makes no promise about when. A read immediately after a write may return a stale value from a replica that has not yet received the update. This is the fundamental tradeoff: lower latency and higher availability at the cost of temporarily stale reads."

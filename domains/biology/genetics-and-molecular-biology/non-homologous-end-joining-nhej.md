@@ -58,7 +58,7 @@ Compare NHEJ and homologous recombination in terms of template requirement, accu
   answer: true
   explanation: "V(D)J recombination deliberately introduces DSBs at recombination signal sequences to rearrange gene segments. After RAG recombinase cuts the DNA, NHEJ is required to rejoin the coding ends. Crucially, the imprecision of NHEJ — the insertion or deletion of a few nucleotides at the junctions — is not a bug but a feature: it generates additional sequence diversity at the junctions (junctional diversity), enormously expanding the repertoire of possible receptor sequences. Patients with NHEJ defects show severe combined immunodeficiency precisely because V(D)J recombination cannot complete."
 
-- question: "NHEJ is a backup or last-resort DSB repair pathway, used only when homologous recombination is unavailable."
+- question: "NHEJ is a backup or last-resort DSB repair pathway, used mainly when homologous recombination is unavailable."
   type: true-false
   answer: false
   explanation: "NHEJ is the dominant DSB repair pathway in mammalian cells, not a backup. It operates throughout the cell cycle, including G1 when HR cannot function. It is also faster than HR — completing within minutes. The characterization as 'backup' likely arises from its error-prone nature compared to HR, but error-prone does not mean secondary. In many contexts — telomere maintenance, V(D)J recombination, CRISPR knockouts — NHEJ is the primary and essential pathway, not an alternative."

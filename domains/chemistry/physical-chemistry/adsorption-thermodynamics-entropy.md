@@ -52,7 +52,7 @@ Adsorption is the accumulation of adsorbate molecules on a surface, driven by en
   answer: false
   explanation: "The adsorbate's entropy DECREASES upon adsorption. A gas-phase molecule freely translates and rotates in three dimensions; once pinned to a surface it loses these degrees of freedom. ΔS_ads is negative. The favorable driving force for adsorption is the enthalpy release (bond formation), not entropy."
 
-- question: "A surface that binds reaction intermediates with a very large, negative ΔH_ads will always be a more effective catalyst than one with moderate binding."
+- question: "A surface that binds reaction intermediates with a very large, negative ΔH_ads will typically be a more effective catalyst than one with moderate binding."
   type: true-false
   answer: false
   explanation: "This violates Sabatier's principle. If the surface binds intermediates or products too strongly, they cannot desorb and the surface becomes poisoned — catalytic activity collapses. An effective catalyst must bind reactants strongly enough to lower the activation barrier but weakly enough for products to desorb. The optimal binding strength lies between too weak and too strong."

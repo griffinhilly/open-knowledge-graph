@@ -50,7 +50,7 @@ The orthogonal projection of vector b onto a subspace W is the unique point proj
   answer: false
   explanation: "False. This formula works only when {u₁, u₂} is an orthonormal basis — each vector has unit length and they are mutually orthogonal. For a general (non-orthonormal) basis, the formula overcounts or undercounts contributions because the basis vectors are not independent in the inner-product sense. The correct formula for a non-orthonormal basis requires the Gram matrix (AᵀA)⁻¹Aᵀ — precisely the least-squares normal equation. This is why Gram-Schmidt, which converts any basis to an orthonormal one, is so useful."
 
-- question: "The orthogonal projection of b onto W always lies strictly between b and the origin."
+- question: "The orthogonal projection of b onto W typically lies strictly between b and the origin."
   type: true-false
   answer: false
   explanation: "False. The projection can be anywhere in W — including at the origin (if b ⊥ W, the projection is 0) or at b itself (if b ∈ W, the projection is b). The projection minimizes distance from b to W, but that doesn't constrain where in W the projected point falls. For example, if b is perpendicular to the line W, proj_W(b) = 0."

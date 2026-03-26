@@ -55,7 +55,7 @@ Compare the same theorem proved in natural deduction and in LK side by side. Pra
   answer: 2
   explanation: "In natural deduction, rules are either introduction rules (proving a connective) or elimination rules (using a connective). In LK, for each connective there is a right rule (decomposing it on the right of ⊢, i.e., in the conclusion) and a left rule (decomposing it on the left of ⊢, i.e., as an assumption). This two-sided structure makes the symmetry between hypothesis-use and conclusion-proof explicit. Natural deduction does have both introduction and elimination rules, but they are not organized symmetrically around a turnstile — that reorganization is what gives LK its structural clarity."
 
-- question: "The cut rule in LK is unsound — it can produce invalid derivations, which is why Gentzen proved it must be eliminated from any valid proof."
+- question: "The cut rule in LK is unsound — it can produce invalid derivations, which is why Gentzen proved it should be eliminated from any valid proof."
   type: true-false
   answer: false
   explanation: "This is the central misconception about cut-elimination. The cut rule is perfectly sound — any derivation using cut derives only valid sequents. Cut-elimination shows that cut is *eliminable* (redundant) — every proof using cut can be transformed into a cut-free proof of the same sequent. The reason to care about cut-free proofs is not soundness but the subformula property they carry, which enables consistency proofs and analytic proof search. Soundness is never in question."

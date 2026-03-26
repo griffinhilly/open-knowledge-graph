@@ -45,7 +45,7 @@ The same core speech adapted for different contexts (in-person versus virtual, l
   answer: 0
   explanation: "In a video call, eye contact is created by looking at the camera lens, not at the faces on screen. Looking at the faces (the natural instinct) makes you appear to look downward to remote viewers. This is the key technological mediation: the camera angle replaces physical gaze direction. The other options reflect misconceptions — microphones in video calls are close to the speaker, pacing needs vary by individual not by medium, and visual aids are often easier to share remotely."
 
-- question: "A speaker who delivers the same speech with identical energy, pacing, and gesture in every context is demonstrating consistency — a mark of a polished public speaker."
+- question: "A speaker who delivers the same speech with identical energy, pacing, and gesture in most context is demonstrating consistency — a mark of a polished public speaker."
   type: true-false
   answer: false
   explanation: "Identical delivery across all contexts is a sign of inattentiveness, not polish. What reads as engaging in one environment actively fails in another: auditorium energy overwhelms an intimate room, conversational pacing disappears in a large hall. Good speakers diagnose each context's constraints and adapt delivery accordingly. Their voice and message remain consistent; the delivery tools change to ensure the message lands as intended."

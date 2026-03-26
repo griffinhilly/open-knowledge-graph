@@ -62,7 +62,7 @@ The practical framework that emerges from this distinction is: **when your predi
   answer: 2
   explanation: "A good map doesn't need to be perfectly detailed — maps are useful precisely because they simplify. But they must reliably predict observations (they track the territory) and must not systematically mislead (a map that consistently points the wrong way is worse than no map). Simplicity alone isn't a virtue: an oversimplified map that misses critical features fails at its job."
 
-- question: "The map-territory distinction implies that because our beliefs are always imperfect representations, we can never have confident knowledge about the world."
+- question: "The map-territory distinction implies that because our beliefs are typically imperfect representations, we can seldom have confident knowledge about the world."
   type: true-false
   answer: false
   explanation: "The map-territory distinction does not imply radical skepticism. It says maps can be wrong — not that all maps are equally unreliable or that accurate knowledge is impossible. A map can be very good: reliably predicting observations, compressing reality usefully, successfully guiding action. The lesson is to remain open to updating when evidence conflicts with the map, not to abandon all confidence in beliefs."

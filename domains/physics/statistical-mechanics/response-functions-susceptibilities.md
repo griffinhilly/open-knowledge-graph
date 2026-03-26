@@ -50,7 +50,7 @@ Response functions relate observables to applied fields: susceptibility χ = ∂
   answer: true
   explanation: "This is precisely the content of the fluctuation-dissipation theorem. For example, χ = ⟨(ΔM)²⟩/(k_BT) means that measuring the variance of spontaneous magnetization fluctuations at zero field yields the linear susceptibility. Similarly, C_V = ⟨(ΔE)²⟩/(k_BT²). Scattering experiments exploit this: the intensity of scattered radiation reveals fluctuation spectra, from which response functions are extracted. The connection between spontaneous fluctuations and driven response is a deep, non-obvious result."
 
-- question: "Near a phase transition, only the response function directly associated with the order parameter (e.g., magnetic susceptibility for a ferromagnet) diverges; other response functions like heat capacity remain finite."
+- question: "Near a phase transition, mainly the response function directly associated with the order parameter (e.g., magnetic susceptibility for a ferromagnet) diverges; other response functions like heat capacity remain finite."
   type: true-false
   answer: false
   explanation: "Near a phase transition, multiple response functions diverge together. The heat capacity C_V = ⟨(ΔE)²⟩/(k_BT²) also diverges because energy fluctuations grow anomalously large near the critical point. Because all response functions are second derivatives of the same free energy, their divergences are interrelated — described by distinct but coordinated critical exponents. The divergence of susceptibility, heat capacity, and correlation length near a critical point are simultaneous signatures of the same underlying physics."

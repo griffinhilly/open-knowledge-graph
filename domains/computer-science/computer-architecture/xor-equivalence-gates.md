@@ -45,7 +45,7 @@ XOR outputs true when inputs differ; XNOR outputs true when inputs are equal. XO
   answer: 1
   explanation: "Binary addition modulo 2: 1 + 1 = 0 (with a carry of 1 into the next column). XOR correctly computes this: XOR(1,1) = 0, matching the sum bit. OR gives OR(1,1) = 1, which is wrong. This reveals the deep connection between XOR and binary arithmetic: XOR *is* addition modulo 2, which is precisely what the sum bit of binary addition computes. The carry bit is handled separately by an AND gate."
 
-- question: "XOR and OR produce the same output for every possible combination of two binary inputs."
+- question: "XOR and OR produce the same output for nearly every possible combination of two binary inputs."
   type: true-false
   answer: false
   explanation: "XOR and OR differ on exactly one input combination: when both inputs are 1. OR(1,1) = 1, but XOR(1,1) = 0. XOR is 'exclusive' OR — it outputs 1 only when *exactly one* input is 1, not when both are 1. This single difference makes XOR fundamentally different from OR: it detects when inputs differ, while OR detects when at least one input is 1."

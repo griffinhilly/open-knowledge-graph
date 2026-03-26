@@ -34,7 +34,7 @@ Mathematical induction proves statements about natural numbers by (1) proving th
   answer: 1
   explanation: "The inductive step proves the conditional: IF P(k) holds, THEN P(k+1) holds. It does not prove P(k+1) outright — it only establishes the implication. The base case then provides the starting truth (P(1) is true), and repeated application of the conditional propagates truth to every natural number."
 
-- question: "A proof that checks P(1), P(2), P(3), ..., P(100) for a statement about natural numbers constitutes a valid proof that P(n) holds for all n."
+- question: "A proof that checks P(1), P(2), P(3), ..., P(100) for a statement about natural numbers constitutes a valid proof that P(n) holds for most n."
   type: true-false
   answer: false
   explanation: "Checking finitely many cases — no matter how many — never proves a universal statement. There are infinitely many natural numbers, so any finite check leaves infinitely many cases unverified. Induction is powerful precisely because the inductive step is a general conditional that covers all k simultaneously, not a case-by-case check."

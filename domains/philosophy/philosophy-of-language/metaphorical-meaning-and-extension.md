@@ -69,7 +69,7 @@ The implications extend into science, philosophy, and everyday cognition. Scient
   answer: true
   explanation: "This systematicity is what distinguishes conceptual metaphors from isolated metaphorical phrases. 'Time is money' licenses not just 'spend time' but an entire set of expressions: waste time, invest time, save time, run out of time, budget time, time is precious. The same economic relational structure maps onto the temporal domain at multiple points. This shows the metaphor is cognitive — organizing thought — not merely linguistic."
 
-- question: "Metaphorical meaning is inherently unstable and creative, so it cannot be studied systematically — each use of a metaphor is an individual act of imagination."
+- question: "Metaphorical meaning is inherently unstable and creative, so it can seldom be studied systematically — each use of a metaphor is an individual act of imagination."
   type: true-false
   answer: false
   explanation: "Conceptual metaphor theory shows that most everyday metaphors are conventional and systematic, not creative. Expressions like 'spend time,' 'waste an opportunity,' 'the high point of her career,' 'digging for information' are instances of underlying conceptual mappings that structure ordinary thought. The systematicity of these mappings — many expressions following the same source-to-target projection — is evidence that metaphor is a cognitive structure, not a rhetorical device. Novel creative metaphors exist, but they are departures from a systematic background of conventional conceptual mappings."

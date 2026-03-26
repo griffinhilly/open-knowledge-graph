@@ -60,7 +60,7 @@ Use place-value charts side by side, comparing digit by digit from left to right
   answer: 1
   explanation: "The student is applying the 'longer means bigger' misconception. Compare by place value: in the tenths place, 0.9 has 9 and 0.125 has 1. Since 9 tenths > 1 tenth, 0.9 is larger immediately. Rewriting both with trailing zeros confirms: 0.900 vs. 0.125 — 900 thousandths vs. 125 thousandths. The number of decimal digits is irrelevant; only the place value of the first differing digit determines which is larger."
 
-- question: "A decimal with more digits after the decimal point is always greater than a decimal with fewer digits."
+- question: "A decimal with more digits after the decimal point is generally greater than a decimal with fewer digits."
   type: true-false
   answer: false
   explanation: "This is one of the two most common decimal misconceptions. 0.9 has one decimal place; 0.125 has three. Yet 0.9 > 0.125, because 9 tenths > 1 tenth. The number of digits after the decimal point tells you the smallest place value represented, not the size of the number. Only the leftmost differing digit determines which decimal is larger."

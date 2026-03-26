@@ -52,7 +52,7 @@ Map each endocrine gland to its hormone(s), stimulus for release, target organ(s
   answer: 1
   explanation: "Lipid solubility lets steroids diffuse into cells and bind intracellular (cytoplasmic or nuclear) receptors. The receptor-hormone complex then acts as a transcription factor, altering gene expression. Producing new mRNA and translating it into functional proteins takes hours to days. Peptide hormones bind membrane surface receptors and activate second-messenger cascades (cAMP, IP3, DAG) that modify existing enzymes immediately — hence the rapid, transient effects."
 
-- question: "Because steroid hormones are lipid-soluble and enter cells easily, they act more rapidly than water-soluble peptide hormones, which must work through surface receptors."
+- question: "Because steroid hormones are lipid-soluble and enter cells easily, they act more rapidly than water-soluble peptide hormones, which should work through surface receptors."
   type: true-false
   answer: false
   explanation: "This is a common and important misconception. Lipid solubility determines where the receptor is (inside the cell vs. on the membrane), not how fast the response is. Steroids bind nuclear receptors and change gene expression — a slow process requiring new protein synthesis (hours to days). Peptide hormones activate pre-existing signaling proteins via second messengers, producing effects within seconds to minutes. Faster access to the receptor does not mean faster physiological effect."

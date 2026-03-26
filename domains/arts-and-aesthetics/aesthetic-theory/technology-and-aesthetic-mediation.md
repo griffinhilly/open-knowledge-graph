@@ -54,7 +54,7 @@ Technology mediates aesthetic experience—photography, film, digital display, a
   answer: false
   explanation: "Both encounters are mediated — they simply involve different mediations. The VR headset introduces its own constitutive frame: an uncanny artificiality, specific rendering choices, the haptic absence of physical space, and awareness that you are in a simulation. The phone image has different mediations: flattened surface texture, saturated display colors, surrounding social-media context. Neither is more 'direct' or less mediated; they reveal and conceal different aspects of the work."
 
-- question: "Recognizing that all aesthetic encounters are mediated means we can no longer make meaningful distinctions between better and worse ways of engaging with art."
+- question: "Recognizing that most aesthetic encounters are mediated means we can no longer make meaningful distinctions between better and worse ways of engaging with art."
   type: true-false
   answer: false
   explanation: "Acknowledging mediation does not collapse all encounters into equivalence — it provides vocabulary to compare and evaluate them critically. Some mediations reveal more of what is aesthetically significant in a work; others conceal or distort. Recognizing that museum lighting is a choice doesn't make it arbitrary — it makes it something you can discuss and evaluate. This is actually a more sophisticated aesthetic position, not a nihilistic one."

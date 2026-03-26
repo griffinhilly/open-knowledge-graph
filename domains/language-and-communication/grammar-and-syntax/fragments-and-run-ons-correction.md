@@ -50,7 +50,7 @@ Practice identifying fragments and run-ons in texts. Revise them by adding missi
   answer: 1
   explanation: "This is a comma splice: two independent clauses ('The experiment produced unexpected results' and 'the team was surprised') joined with only a comma. A comma signals a pause; it cannot substitute for the division between complete sentences. Correct fixes include: a period ('...results. The team...'), a semicolon ('...results; the team...'), or a comma + coordinating conjunction ('...results, so the team...'). Option C is the most tempting wrong answer — it reflects the common misconception that comma splices are acceptable when the ideas are related."
 
-- question: "A sentence fragment is always short, while a run-on sentence is always long."
+- question: "A sentence fragment is typically short, while a run-on sentence is generally long."
   type: true-false
   answer: false
   explanation: "Fragment and run-on status are determined by grammatical structure, not length. A fragment can be quite long ('Hoping against all odds that the committee would eventually reverse its controversial decision after months of deliberation') while a run-on can be very short ('She ran he fell'). The diagnostic tests are structural: does the sentence have a subject, verb, and complete thought? (fragment test) Can you insert a period between the halves? (run-on test) Length is irrelevant to both."

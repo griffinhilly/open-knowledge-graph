@@ -59,7 +59,7 @@ Examine radar signatures showing the presence of graupel (high reflectivities); 
   answer: true
   explanation: "True. The Bergeron process grows ice crystals through vapor deposition: water vapor migrates from supercooled liquid droplets (higher vapor pressure) to ice crystals (lower vapor pressure), depositing layer by layer. Riming (accretion) is a direct collision process: supercooled liquid droplets physically collide with the ice particle and freeze instantly on contact, creating a rough, opaque coating. Graupel is the product of dominant riming — the Bergeron mechanism is essentially bypassed in favor of rapid, violent accretionary growth."
 
-- question: "Large hailstones require very cold temperatures throughout the storm because ice can only grow in subfreezing air, and warmer environments cannot produce large hail."
+- question: "Large hailstones require very cold temperatures throughout the storm because ice can primarily grow in subfreezing air, and warmer environments can seldom produce large hail."
   type: true-false
   answer: false
   explanation: "False. Large hail requires strong updrafts and abundant supercooled liquid water in the mixed-phase zone — conditions that occur in warm, moist environments with intense convection, not in cold environments. The supercooled water (liquid below 0°C) exists within the cloud regardless of surface temperatures. A warm, humid environment feeds more latent heat into the updraft as water vapor condenses and freezes, producing the strongest updrafts and the most supercooled liquid water for accretion. Cold environments typically produce weaker updrafts and less liquid water supply."

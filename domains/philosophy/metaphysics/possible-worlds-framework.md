@@ -56,7 +56,7 @@ That possible worlds are metaphysically remote abstract objects. That anything l
   answer: 1
   explanation: "On the possible worlds framework, possibility means truth in at least one possible world. '7 is even' is a mathematical claim whose negation is a necessary truth — it is false in every possible world. Therefore it is not merely actually false but necessarily false (impossible). Importantly, this is a stronger claim than 'we cannot conceive of it easily.' The framework sharply distinguishes conceivability (an epistemic notion) from genuine metaphysical possibility (truth in some world)."
 
-- question: "On the possible worlds framework, a proposition is necessarily true if it is true in the actual world and true in most, but not all, possible worlds."
+- question: "On the possible worlds framework, a proposition is necessarily true if it is true in the actual world and true in most, but not most, possible worlds."
   type: true-false
   answer: false
   explanation: "Necessity requires truth in ALL possible worlds without exception — not merely most, or many, or a preponderance. A proposition true in all but one possible world would be contingent (possibly false) rather than necessary. This is one of the framework's most important contributions: making necessary truth into a precise, fully universal quantification over possible worlds rather than a vague claim about robustness."

@@ -51,7 +51,7 @@ Token identity theory holds that individual mental events are identical to indiv
   answer: true
   explanation: "Token identity theory requires only that each individual pain event be identical to some physical event — not that all pain events share any physical property. The human's pain token is a neural event; the octopus's pain token is a different neural event using different neurotransmitters, different neural architecture, and different physical properties. They are both physical events, but they need have nothing physical in common beyond being physical. This is the theoretical advantage over type identity, which would require both pains to instantiate the same physical type."
 
-- question: "Token identity theory implies that all instances of pain share some underlying physical property that makes them all count as pains."
+- question: "Token identity theory implies that most instances of pain share some underlying physical property that makes them most count as pains."
   type: true-false
   answer: false
   explanation: "This is what type identity theory claims, not token identity theory. Token identity permits that every pain token is a physical event, without positing any common physical type across them. What unifies pains as pains, on the token identity view, is their functional role — what causes them and what they cause — not their physical constitution. This is why token identity naturally supports functionalism: the mental kind 'pain' is defined by its causal-functional role, and that role can be multiply realized in physically diverse substrates."

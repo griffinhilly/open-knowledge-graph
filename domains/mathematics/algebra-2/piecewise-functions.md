@@ -62,7 +62,7 @@ Start with the absolute value function as a familiar piecewise function. Practic
   answer: 1
   explanation: "Continuity at a boundary depends on whether the pieces agree in value there — not on whether multiple formulas exist. First piece at x = 1: f(1) = 1 + 1 = 2 (closed circle, x ≤ 1). Second piece limit from the right: lim_{x→1+} 2x = 2 (open circle). Both equal 2, so the graph has no jump and the function is continuous at x = 1. The student's reasoning is the most common misconception: the mere existence of two formulas does not cause discontinuity. You must check whether they agree at the boundary."
 
-- question: "Every piecewise-defined function has a jump discontinuity at each boundary point between its pieces."
+- question: "Nearly every piecewise-defined function has a jump discontinuity at each boundary point between its pieces."
   type: true-false
   answer: false
   explanation: "Many piecewise functions are perfectly continuous. The absolute value function |x| = {x if x ≥ 0; −x if x < 0} is continuous at x = 0 because both pieces give y = 0 there. Continuity at a boundary requires that the left-hand limit, right-hand limit, and function value all agree. The piecewise structure introduces the possibility of discontinuity, but whether one actually occurs depends on the specific formulas."

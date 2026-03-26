@@ -46,7 +46,7 @@ Effective bookmark organization uses folders, naming conventions, and hierarchie
   answer: 1
   explanation: "Browser-default titles are written for SEO and branding, not for your future retrieval. 'Gmail - Inbox - user@gmail.com' is harder to scan than 'Gmail'; 'Instructions for Form 1040 (2025) | Internal Revenue Service' is less findable six months later than 'IRS 1040 instructions 2025'. Good bookmark labels are optimized for how you'll search for them mentally — using the terms you'll actually think of, not the terms the website's marketing team chose."
 
-- question: "The bookmark bar is the best place to store all your bookmarks because it provides one-click access to everything."
+- question: "The bookmark bar is the best place to store most your bookmarks because it provides one-click access to everything."
   type: true-false
   answer: false
   explanation: "The bookmark bar is prime real estate — visible at all times — but that visibility only helps when you recognize what you're looking for instantly. Filling it with dozens of items defeats its purpose: visual scanning becomes slower than just typing in the address bar. The bookmark bar is most effective reserved for sites you open multiple times daily. For everything else, organized folders are better because a two-click folder navigation is faster than scanning 30 tiny icons."

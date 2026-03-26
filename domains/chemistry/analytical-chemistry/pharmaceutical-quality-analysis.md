@@ -49,7 +49,7 @@ Pharmaceutical analysis determines active pharmaceutical ingredient content, imp
   answer: true
   explanation: "Accelerated stability conditions (40°C/75% RH) stress the drug product to speed up degradation kinetics, allowing prediction of long-term behavior in months rather than years. These results are used to support early approval timelines and set preliminary shelf-life estimates while real-time data at 25°C/60% RH accumulates. The two datasets together establish the approved shelf life and storage conditions."
 
-- question: "The 95–105% of label claim acceptance criterion for API content applies universally to all pharmaceutical dosage forms."
+- question: "The 95–105% of label claim acceptance criterion for API content applies universally to most pharmaceutical dosage forms."
   type: true-false
   answer: false
   explanation: "While 95–105% is a common range for solid oral dosage forms, acceptance criteria are set individually in each pharmacopeial monograph and regulatory submission. Narrow therapeutic index drugs (e.g., anticoagulants, thyroid hormones) may have tighter specifications (e.g., 90–110% or even narrower), while some biologics or modified-release products have different acceptance windows. The criterion is product-specific, not universal."

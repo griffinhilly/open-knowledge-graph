@@ -47,7 +47,7 @@ The within estimator controls for unit-specific time-invariant unobserved hetero
   answer: 1
   explanation: "The within estimator identifies coefficients from how a given unit's outcome changes when its own regressor changes over time — pure within-unit variation. The between estimator identifies from differences in time-averaged outcomes across units — pure across-unit variation. These are genuinely different sources of variation, and they estimate the same population coefficient only if the model is correctly specified. The within estimator discards all cross-unit information; the between estimator discards all within-unit dynamics."
 
-- question: "The within estimator eliminates omitted variable bias from all sources of confounding, whether or not the confounders change over time."
+- question: "The within estimator eliminates omitted variable bias from most sources of confounding, whether or not the confounders change over time."
   type: true-false
   answer: false
   explanation: "The within estimator only eliminates bias from time-invariant confounders. If an unobserved variable changes over time and correlates with the regressor, the within estimator does not remove that bias. For example, if a firm improves its management in the same year it increases R&D spending, the within estimator cannot separate the R&D effect from the management improvement. Strict exogeneity — requiring errors to be uncorrelated with regressors in all periods — rules out such time-varying confounders."

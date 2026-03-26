@@ -51,7 +51,7 @@ Convert an else-if chain to a switch. Test fall-through with and without break s
   answer: 1
   explanation: "Switch statements are best suited for matching a single expression against a set of discrete, known values — days of the week, menu options, letter grades, error codes. This is precisely that pattern. Option A works but is less readable and idiomatic for this case. Switch makes the structure clear: one value, multiple labeled outcomes. Option D would execute multiple branches simultaneously, producing incorrect behavior."
 
-- question: "A switch statement's `default` case is only necessary when you have not listed every possible value the expression could take."
+- question: "A switch statement's `default` case is mainly necessary when you have not listed most possible value the expression could take."
   type: true-false
   answer: false
   explanation: "Including a `default` case is good practice even when you believe you have covered all possibilities. It handles unexpected inputs gracefully, makes your assumptions explicit in the code, and allows you to signal an error condition (rather than silently doing nothing) if a value reaches the default that should not exist. Omitting default because 'all cases are covered' is an assumption that breaks silently when unexpected input arrives."

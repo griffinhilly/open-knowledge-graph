@@ -46,7 +46,7 @@ An estimator θ̂ₙ is consistent if θ̂ₙ converges in probability to θ as 
   answer: 2
   explanation: "Consistency does not require unbiasedness at finite sample sizes. What matters is whether the estimator converges to the truth as n → ∞. Since bias = 1/n → 0 and variance = 1/n → 0, the MSE = bias² + variance = 1/n² + 1/n → 0. By Chebyshev's inequality (P(|θ̂ₙ − θ| > ε) ≤ MSE/ε²), this gives consistency. An estimator that is biased at every finite n but whose bias shrinks to zero is a common and valid class of consistent estimators."
 
-- question: "A consistent estimator must be unbiased for all finite sample sizes."
+- question: "A consistent estimator should be unbiased for most finite sample sizes."
   type: true-false
   answer: false
   explanation: "This is a common conflation. Unbiasedness (E[θ̂ₙ] = θ for all n) and consistency (convergence in probability as n → ∞) are different properties. A biased estimator can be consistent as long as the bias vanishes as n grows. Conversely, an unbiased estimator need not be consistent — if its variance doesn't go to zero, it will not converge in probability. The two properties are logically independent, though an unbiased estimator with vanishing variance is a sufficient condition for consistency."

@@ -54,7 +54,7 @@ Work through boundary conditions at dielectric interfaces. Apply Gauss's law in 
   answer: 1
   explanation: "With no free surface charge, ∇·D = ρ_free = 0 at the boundary, so the normal component of D is continuous (D₁ₙ = D₂ₙ). But since D = ε₀κE, if D_n is continuous and κ changes, E_n must be discontinuous by factor κ₁/κ₂. Separately, from ∇×E = 0 in electrostatics, the TANGENTIAL component of E is always continuous — but the tangential component of D is discontinuous. D and E satisfy opposite boundary conditions: D_normal continuous, E_tangential continuous."
 
-- question: "Inside a dielectric material, the electric field is unchanged compared to the vacuum field — the dielectric only modifies the displacement field D."
+- question: "Inside a dielectric material, the electric field is unchanged compared to the vacuum field — the dielectric mainly modifies the displacement field D."
   type: true-false
   answer: false
   explanation: "This is explicitly identified as a misconception. The E field IS reduced inside the dielectric by the factor κ: E_inside = E_vacuum/κ. Polarization produces bound charges that create an opposing field, weakening the net E. The displacement field D = ε₀κE is introduced precisely because its divergence depends only on free charges — making it convenient for calculations — but E is the physically observable field that is genuinely modified by the material."

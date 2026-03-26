@@ -50,7 +50,7 @@ Colligative properties depend on the number of dissolved particles, not their id
   answer: true
   explanation: "CaCl₂ dissociates into three ions per formula unit (Ca²⁺ + 2 Cl⁻, i ≈ 3), while NaCl produces two ions (i ≈ 2). Since ΔTb = Kb × m × i, the CaCl₂ solution has a higher effective particle concentration and a larger boiling point elevation. This is why the van't Hoff factor is crucial: failing to account for ionization leads to underestimating the colligative effect of electrolytes."
 
-- question: "Because colligative properties depend only on particle count, a 1 molal solution of any strong electrolyte will always produce exactly the colligative effect predicted by multiplying its ideal van't Hoff factor by the molal constant."
+- question: "Because colligative properties depend primarily on particle count, a 1 molal solution of any strong electrolyte will generally produce exactly the colligative effect predicted by multiplying its ideal van't Hoff factor by the molal constant."
   type: true-false
   answer: false
   explanation: "In concentrated solutions, opposite-charged ions can associate transiently into ion pairs, reducing the effective number of independent particles below the ideal integer value. A 1 molal NaCl solution behaves as if i ≈ 1.9 rather than exactly 2. The van't Hoff factor is only truly 'ideal' at infinite dilution; at realistic concentrations, ion pairing makes the actual colligative effect somewhat smaller than the simple calculation predicts."

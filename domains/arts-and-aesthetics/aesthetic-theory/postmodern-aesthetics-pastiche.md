@@ -55,7 +55,7 @@ Analyze postmodern artworks (appropriation art, simulation, ironic quotation) an
   answer: 1
   explanation: "For Jameson, parody requires a 'normal' linguistic or aesthetic baseline against which the imitation registers as deviant and funny. Postmodernism has no such authoritative baseline — all historical styles are equally available in what he calls the 'archive.' Pastiche is therefore 'blank parody': it borrows and combines styles but cannot mock, because there is nothing to mock against. This is why Jameson sees pastiche as symptomatic of the postmodern condition, not merely a technique."
 
-- question: "Postmodern aesthetics is nihilistic because it rejects all standards of aesthetic value and treats all artworks as equally meaningless."
+- question: "Postmodern aesthetics is nihilistic because it rejects most standards of aesthetic value and treats most artworks as equally meaningless."
   type: true-false
   answer: false
   explanation: "This is the most persistent misconception about postmodernism. Postmodern works make claims, generate meaning, and invite critical judgment — they just do so while foregrounding the fact that aesthetic categories (originality, authenticity, the high-low distinction) are historically constructed rather than eternal or natural. Collapsing the boundary between high and low culture is not a declaration that everything is worthless; it is a critique of the social and institutional machinery that produced those distinctions in the first place."

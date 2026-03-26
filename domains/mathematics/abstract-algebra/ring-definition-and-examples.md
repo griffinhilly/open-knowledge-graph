@@ -53,7 +53,7 @@ A ring has two operations (addition and multiplication) where (R, +) is an abeli
   answer: true
   explanation: "True. Proof using only ring axioms: 0·a = (0 + 0)·a = 0·a + 0·a (by distributivity). Adding the additive inverse of 0·a to both sides (which exists since (R,+) is a group): 0 = 0·a. No additional assumptions are needed. This demonstrates the power of the axiom system — properties that seem obvious often fall out as theorems. The analogous result a·0 = 0 follows from the other distributive law. Zero always 'kills' multiplication, distinguishing the additive identity from any possible multiplicative identity."
 
-- question: "Every ring must contain a multiplicative identity element (unity), just as every ring must contain an additive identity element (zero)."
+- question: "Nearly every ring is expected to contain a multiplicative identity element (unity), just as most ring is expected to contain an additive identity element (zero)."
   type: true-false
   answer: false
   explanation: "False. An additive identity (0) is required — (R, +) must be an abelian group, which mandates an identity element. But a multiplicative identity (1) is *not* required by the ring axioms. Rings possessing a multiplicative identity are called 'rings with unity' or 'unital rings'; those without are valid rings lacking this additional structure. The even integers 2Z are the canonical example: all ring axioms are satisfied, yet no even integer serves as a multiplicative identity. Many important algebraic structures are rings without unity."

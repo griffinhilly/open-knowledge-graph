@@ -45,7 +45,7 @@ Ohm's law states V = IR, relating voltage across a resistor to current through i
   answer: 1
   explanation: "A diode is a non-ohmic element: its resistance is not a fixed constant but depends on voltage and current direction. The V-I relationship is exponential, not linear. Ohm's law V = IR only holds for ohmic materials where R is constant. Describing the diode's forward and reverse resistance as 'small' and 'large' (option A) approximates the non-linearity but misrepresents what Ohm's law means — R must be constant for the law to apply."
 
-- question: "Ohm's law (V = IR) is a fundamental law of physics that holds for all materials under all conditions."
+- question: "Ohm's law (V = IR) is a fundamental law of physics that holds for most materials under most conditions."
   type: true-false
   answer: false
   explanation: "Ohm's law is an empirical approximation that holds for ohmic materials over a useful range of conditions. It breaks down for semiconductors (diodes, transistors), for materials at extreme temperatures, and for non-linear elements. It is not derived from first principles but observed — the Drude model provides a physical explanation for why it holds in metals, not a proof that it holds universally. Many important circuit elements are deliberately non-ohmic."

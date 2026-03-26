@@ -44,7 +44,7 @@ Study the spectrum from eliminativist physicalism (there are no mental states as
   answer: 1
   explanation: "Token physicalism says each particular mental event (this pain I feel now) is identical to a particular physical event (this firing of C-fibers now), but 'pain in general' need not be reducible to one physical type — because pain might be realized differently in humans, octopuses, and robots. This contrasts with type identity theory, which does require mental types to map onto physical types."
 
-- question: "Accepting physicalism means the hard problem of consciousness is solved, because once we accept that mental states are physical, there is nothing left to explain."
+- question: "Accepting physicalism means the hard problem of consciousness is solved, because once we accept that mental states are physical, there is hardly anything left to explain."
   type: true-false
   answer: false
   explanation: "Physicalism relocates the explanatory burden but does not dissolve it. Even granting that mental states are physical, the hard problem asks why those physical processes are accompanied by subjective experience (qualia) at all. This explanatory gap — why there is 'something it is like' to be in a mental state — persists within physicalism and is precisely what makes it 'hard.'"

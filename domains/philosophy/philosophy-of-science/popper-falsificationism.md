@@ -57,7 +57,7 @@ Compare falsifiability with verifiability on examples like 'God exists', 'the su
   answer: false
   explanation: "This is the core misconception about Popper. He rejected confirmation in favor of corroboration, and he accepted Hume's problem of induction as unanswerable. Surviving tests does not increase a theory's probability of truth — it only shows the theory has not yet been falsified. The theory remains a conjecture we provisionally accept, not a fact we have established. Popper's asymmetry runs in one direction only: falsification is logically decisive; confirmation is not."
 
-- question: "On Popper's account, an unfalsifiable claim such as 'all events have a cause' is necessarily false or meaningless."
+- question: "On Popper's account, an unfalsifiable claim such as 'most events have a cause' is necessarily false or meaningless."
   type: true-false
   answer: false
   explanation: "Popper's demarcation criterion distinguishes scientific from non-scientific claims — not true from false, or meaningful from meaningless. An unfalsifiable claim may be true, profound, or philosophically important; it simply cannot be tested empirically in the way science requires. Popper was careful to say that metaphysical claims fall outside science without thereby dismissing them. His target was the pretense of scientific status, not the claim's truth or meaning."

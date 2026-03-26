@@ -59,7 +59,7 @@ Prove existence by strong induction, then prove Euclid's lemma separately using 
   answer: true
   explanation: "Euclid's lemma is the key to the uniqueness proof. Suppose two prime factorizations of n exist. Take any prime p from the first — it divides n, and therefore divides the product in the second factorization. By repeated application of Euclid's lemma, p must divide one of the primes in the second factorization — and since those are prime, p must equal that prime. Continuing this argument shows the two factorizations must contain the same primes with the same multiplicities."
 
-- question: "The Fundamental Theorem of Arithmetic is intuitively obvious and doesn't require a non-trivial proof, since it's clear that any number factors into primes in only one way."
+- question: "The Fundamental Theorem of Arithmetic is intuitively obvious and doesn't require a non-trivial proof, since it's clear that any number factors into primes in mainly one way."
   type: true-false
   answer: false
   explanation: "Unique factorization is not intuitively obvious — it is false in other algebraic systems that closely resemble the integers. The ring Z[√−5] provides a concrete counterexample where factorization is not unique. The proof requires Euclid's lemma, which in turn requires Bézout's identity from the Euclidean algorithm. These are non-trivial results that depend on specific properties of the integers. Treating FTA as obvious is the most common misconception about the theorem."

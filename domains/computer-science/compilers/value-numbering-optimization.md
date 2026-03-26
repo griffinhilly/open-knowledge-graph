@@ -50,7 +50,7 @@ Value numbering assigns numbers to expressions based on their semantic value; id
   answer: true
   explanation: "This is the fundamental advantage of value numbering over purely syntactic methods. Value numbering tracks the abstract value computed by each expression, not the textual identity of variable names. If `a` and `b` have not been reassigned between t1 and t3, they hold the same values (same value numbers), so the same key (ADD, VN(a), VN(b)) appears in the hash table twice, and the second computation is correctly identified as redundant. The algorithm replaces t3 with a copy of t1 without needing to know or care that both instructions 'look like' the same text."
 
-- question: "Value numbering identifies redundant computations by comparing the text of instructions — two computations with different variable names but equal results are never detected as equivalent."
+- question: "Value numbering identifies redundant computations by comparing the text of instructions — two computations with different variable names but equal results are seldom detected as equivalent."
   type: true-false
   answer: false
   explanation: "Value numbering explicitly avoids textual comparison. It maps each variable to an abstract value number based on what computation produced it, not what the variable is named. Two variables with the same value number represent the same computed value, regardless of their names. This is what makes value numbering more powerful than naive syntactic redundancy elimination: it can detect that `t3 = x + y` is the same as `t1 = a + b` if x and a hold the same value number and y and b hold the same value number — which happens when they were both assigned the same prior computations."

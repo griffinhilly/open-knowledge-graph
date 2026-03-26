@@ -51,7 +51,7 @@ A function is injective (one-to-one) if different inputs map to different output
   answer: true
   explanation: "Injective: if 2m = 2n, then m = n — distinct inputs give distinct outputs. Not surjective: the odd integers (1, 3, 5, ...) are in the codomain ℤ but are never outputs of 2n. This illustrates that injectivity and surjectivity are independent properties: a function can have one without the other."
 
-- question: "A bijection between an infinite set and one of its proper subsets is impossible — it would violate the principle that a whole is greater than its parts."
+- question: "A bijection between an infinite set and one of its proper subsets is impractical — it would violate the principle that a whole is greater than its parts."
   type: true-false
   answer: false
   explanation: "This is false — and it is the defining counterintuitive feature of infinite sets. The function n ↦ 2n bijects ℤ with the even integers, a proper subset of ℤ. Dedekind used this property as the *definition* of an infinite set: a set is infinite if and only if it can be put into bijection with a proper subset of itself. The intuition that 'whole > part' holds for finite sets but breaks down for infinite ones."

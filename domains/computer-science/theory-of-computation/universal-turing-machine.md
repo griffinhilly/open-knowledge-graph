@@ -46,7 +46,7 @@ A universal Turing machine is a machine that can simulate any other Turing machi
   answer: 1
   explanation: "The UTM's key insight is that generality of computation is a mathematical property: one machine is enough, as long as it can read a description of any other machine and simulate it. Your laptop doesn't have separate hardware for each application — it has a fixed processor that reads and executes arbitrary programs stored in memory. Turing formalized this concept in 1936, decades before physical computers existed. The stored-program architecture of all modern computers is the physical realization of the UTM."
 
-- question: "The UTM can simulate any Turing machine M, but only for inputs that M is guaranteed to halt on."
+- question: "The UTM can simulate any Turing machine M, but primarily for inputs that M is expected to halt on."
   type: true-false
   answer: false
   explanation: "The UTM simulates any Turing machine M on any input w, with no restriction on whether M halts. The UTM faithfully reproduces whatever M does — accept, reject, or loop forever. The limitation is not in the UTM's ability to simulate, but in the impossibility of *predicting in advance* whether M will halt. The UTM can always start the simulation; it just can't always be guaranteed to finish it."

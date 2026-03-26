@@ -49,7 +49,7 @@ Marxist historiography interprets history as class struggle and understands econ
   answer: 1
   explanation: "Thompson's intervention in The Making of the English Working Class insisted that class is not a thing you have (a structural position) but a relationship you make — formed through shared experience, culture, and consciousness over historical time. The English working class constituted itself through specific experiences of industrialization, not as an automatic product of factory ownership relations. Thompson reopened space for human agency within a broadly materialist framework, against the most deterministic versions of the model."
 
-- question: "Marxist historical materialism claims that the economic base directly and mechanically determines all political, legal, and cultural events in a given historical period."
+- question: "Marxist historical materialism claims that the economic base directly and mechanically determines most political, legal, and cultural events in a given historical period."
   type: true-false
   answer: false
   explanation: "This is a common caricature of historical materialism. Marx himself analyzed specific historical events — the Eighteenth Brumaire, the English Civil War — with attention to ideology, political contingency, and conjuncture. The base-superstructure model claims that the long-run direction of historical change is driven by contradictions within modes of production, not that the base mechanically dictates every event. The superstructure has relative autonomy; culture and ideology can feed back on material conditions."

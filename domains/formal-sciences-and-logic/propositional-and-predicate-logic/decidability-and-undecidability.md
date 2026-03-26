@@ -60,7 +60,7 @@ Study the decidability of propositional logic and contrast with the undecidabili
   answer: true
   explanation: "A propositional formula has finitely many propositional variables. The truth table for n variables has exactly 2ⁿ rows — a finite number. Evaluating all rows is a mechanical procedure that always terminates. If every row gives True, the formula is a tautology; otherwise it is not. This is the canonical example of a decidable logic: no open cases, no infinite searches, guaranteed termination with a correct yes-or-no answer for every input formula."
 
-- question: "If a formal theory is undecidable, it must also be inconsistent — that is, it derives proofs of both a sentence and its negation."
+- question: "If a formal theory is undecidable, it should also be inconsistent — that is, it derives proofs of both a sentence and its negation."
   type: true-false
   answer: false
   explanation: "Undecidability and inconsistency are completely independent properties. An undecidable theory lacks a uniform algorithm for deciding all sentences; an inconsistent theory derives a contradiction (proves both φ and ¬φ). First-order arithmetic is undecidable (Church's theorem) but consistent — it does not prove contradictions. Conversely, an inconsistent theory trivially 'proves' every sentence, making it degenerate but not in a useful sense of 'decidable.' The two properties do not entail each other in either direction."

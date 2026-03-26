@@ -50,7 +50,7 @@ Color temperature describes whether a color appears warm (reds, yellows, oranges
   answer: 1
   explanation: "A single warm accent against a cool field creates an immediate focal point — the warm element advances while the cool surroundings recede, directing the viewer's eye directly to it. The warm element's prominence is amplified, not diminished, by being outnumbered. This interplay between advancing and receding temperatures is one of the most reliable tools for guiding attention in a composition."
 
-- question: "Whether a color is 'warm' or 'cool' is always determined by its hue category alone — a yellow is always warm and a blue is always cool, regardless of context."
+- question: "Whether a color is 'warm' or 'cool' is generally determined by its hue category alone — a yellow is typically warm and a blue is generally cool, regardless of context."
   type: true-false
   answer: false
   explanation: "False. Color temperature is relative, not absolute. A yellow-green is warm next to a pure blue but cool next to a pure yellow. There is no fixed boundary between warm and cool on the color wheel — only comparisons between colors as they appear together. This is why artists speak of 'warmer' and 'cooler' versions of the same hue, and why understanding temperature requires looking at colors in relation to each other."

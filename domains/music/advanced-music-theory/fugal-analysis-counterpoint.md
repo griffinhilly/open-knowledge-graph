@@ -47,7 +47,7 @@ Fugal analysis examines how the subject, answer, countersubject, and episodes cr
   answer: 1
   explanation: "Episodes are transitional passages that lack a complete subject statement. They develop motivic material — often from the countersubject or the subject's tail — and perform the crucial harmonic function of modulating between key areas, setting up the next subject entry in a new tonal center. They are not where new themes appear (a fugue derives everything from its subject) and they are not inversions of the subject (that would still be a subject entry). Option A describes a development technique (inversion), not an episode."
 
-- question: "In stretto, subject entries overlap: a new voice enters with the subject before the previous entry has finished. Stretto always occurs at the same time interval between entries throughout a fugue."
+- question: "In stretto, subject entries overlap: a new voice enters with the subject before the previous entry has finished. Stretto typically occurs at the same time interval between entries throughout a fugue."
   type: true-false
   answer: false
   explanation: "Stretto intervals vary. Bach and other composers frequently tighten the time interval between entries as the fugue progresses, creating increasing urgency as entries overlap more closely. A fugue might introduce stretto at a four-bar interval and later compress it to one bar or even half a bar. The compression itself is a compositional technique for building intensity. The stretto interval is determined by what the subject's melodic and harmonic profile allows — not all subjects permit tight stretto, and the best subjects are designed to admit it at multiple time intervals."

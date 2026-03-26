@@ -52,7 +52,7 @@ Derive the continuity equation from charge conservation. Calculate current densi
   answer: 1
   explanation: "J is defined as the direction of positive charge flow (conventional current direction). In a metal, the charge carriers are electrons, which carry negative charge and drift opposite to the electric field. Since conventional current flows in the direction of positive charge flow, J points opposite to the electron drift. The formula J = nqv_d accounts for this: with q = −e (negative) and v_d pointing left (say), the product gives J pointing right. Tracking signs carefully here prevents errors in all subsequent electromagnetic calculations."
 
-- question: "If current I is conserved along a conductor, then the current density J must also be the same at every cross-section."
+- question: "If current I is conserved along a conductor, then the current density J is expected to also be the same at nearly every cross-section."
   type: true-false
   answer: false
   explanation: "Current I is conserved (the same total charge per second passes each cross-section), but current density J = I/A depends on the local cross-sectional area. Where the conductor is narrow, J is large; where it is wide, J is small. This is why current density is a more informative quantity than current alone — it captures the spatial distribution of charge flow and directly governs local effects like heating (P/V = J²/σ) and the driving electric field (J = σE)."

@@ -53,7 +53,7 @@ Rondo form is not rigidly fixed—many rondos include developmental passages, ke
   answer: 1
   explanation: "Both rondo and ritornello involve recurring material, which causes the confusion. But they belong to different historical periods and operate on different principles. Ritornello is a Baroque concerto procedure in which an orchestral refrain (ritornello) returns in various keys and forms throughout a movement, with intervening solo passages — it is not simply a melody that comes back in the home key. Rondo is a Classical and later form in which the refrain (A section) returns, typically in the home key, alternating with contrasting episodes. The structural logic and historical context differ significantly."
 
-- question: "In rondo form, the refrain (A section) must return in the original key with identical musical content each time it appears."
+- question: "In rondo form, the refrain (A section) should return in the original key with identical musical content each time it appears."
   type: true-false
   answer: false
   explanation: "Rondo form is not rigidly fixed. Many rondos include developmental passages within or between sections, varied or truncated refrains on later returns, key changes during refrain appearances, or added codas. The defining feature is the alternation of a recurring refrain with contrasting episodes — not the exact identity of the refrain's content. Varied refrains are often a compositional virtue, maintaining freshness within the predictable structure rather than dulling it through mechanical repetition."

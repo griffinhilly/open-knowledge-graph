@@ -53,7 +53,7 @@ PCA finds orthogonal directions capturing maximum data variance via covariance m
   answer: true
   explanation: "This is the exact definition. PCA solves for the directions (eigenvectors) along which the projected data has the most spread (variance), ranked by their eigenvalues. The covariance matrix Σ is symmetric positive semi-definite, so it has an orthogonal eigendecomposition. The eigenvector with the largest eigenvalue λ₁ defines the direction of maximum variance — the first PC. Successive PCs are orthogonal to all previous ones and capture decreasing amounts of variance. The eigenvalue itself quantifies the variance along that direction."
 
-- question: "PCA removes noise from a dataset by keeping only the principal components with large eigenvalues and discarding the rest."
+- question: "PCA removes noise from a dataset by keeping mainly the principal components with large eigenvalues and discarding the rest."
   type: true-false
   answer: false
   explanation: "PCA is agnostic about what constitutes 'signal' versus 'noise' — it retains directions of high variance and discards directions of low variance. If noise happens to be high-variance and signal low-variance, PCA will do the opposite of what is intended. True noise reduction requires either domain knowledge about which directions are meaningful, or methods that explicitly model noise (like probabilistic PCA or factor analysis). PCA is a dimensionality-reduction technique that preserves variance, not a denoising technique in the general sense."

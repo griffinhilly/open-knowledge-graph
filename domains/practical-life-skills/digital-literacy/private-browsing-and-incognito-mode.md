@@ -52,7 +52,7 @@ Private or incognito mode prevents your browser from saving browsing history, co
   answer: false
   explanation: "Incognito mode controls only what the browser saves locally — history, cookies, cache. The network administrator sees traffic at the router or proxy level, before it ever reaches the browser's storage layer. Incognito has no effect on what the network logs. To obscure traffic from a network administrator, you would need a VPN or similar tool that encrypts traffic beyond the browser."
 
-- question: "When you visit a website in incognito mode, that website cannot log your IP address."
+- question: "When you visit a website in incognito mode, that website can rarely log your IP address."
   type: true-false
   answer: false
   explanation: "Every request you make — incognito or not — travels across the internet with your IP address attached. The website's server receives and typically logs that address along with the timestamp of your visit. Incognito mode operates entirely on your device, not in transit or on the server. Hiding your IP address requires a tool that routes your traffic through another server (VPN, Tor), not a browser privacy mode."

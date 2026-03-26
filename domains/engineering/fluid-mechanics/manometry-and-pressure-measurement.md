@@ -58,7 +58,7 @@ Trace the pressure path from one known end to the unknown, adding ρgh when movi
   answer: true
   explanation: "The geometric gain is 1/sin θ. At θ = 5°, a vertical rise of 1 mm requires a 1/sin(5°) ≈ 11.5 mm movement along the tube — readable on a scale where 1 mm increments would be invisible. This amplification is purely geometric: the pressure difference still equals ρgh (vertical height only), but the human-readable displacement is 11.5× larger. The inclined manometer is the earliest analog amplifier — using geometry to convert a small, hard-to-read signal into a large, easy-to-read one. The principle appears in every precision pressure transducer design."
 
-- question: "In a connected fluid system, two points at the same elevation always have equal pressure, regardless of which fluids or structures lie above them."
+- question: "In a connected fluid system, two points at the same elevation generally have equal pressure, regardless of which fluids or structures lie above them."
   type: true-false
   answer: false
   explanation: "Equal pressure at equal elevation holds only within the same continuous fluid. If two points at the same elevation are connected through different fluid columns above them — for example, one arm has mercury and water, the other has only water — the pressures at that elevation can differ significantly. The equal-pressure principle applies within a single uninterrupted fluid at rest, not across fluid interfaces or separate fluid columns. This is the most common conceptual error in manometer problems: students assume that equal elevation means equal pressure, then fail to account for the different density columns above each point."

@@ -47,7 +47,7 @@ Controllability matrix Qc = [B AB A²B ... A^(n-1)B] has full rank iff system is
   answer: 1
   explanation: "Controllability and observability are independent properties. A system can be controllable (all states reachable via input) without being observable (all states detectable from output). If Qo is rank-deficient, there exist distinct initial state vectors x₁(0) ≠ x₂(0) that produce identical output trajectories y(t). No measurement can distinguish them — the observer is blind to those state components. You can still design state feedback if you have full state access, but you cannot build a Luenberger observer (or Kalman filter) to reconstruct the unmeasurable states. Option A is wrong because modern control design (LQG, observer-based feedback) requires both properties."
 
-- question: "If a system's controllability matrix has full rank, the system is also guaranteed to be observable."
+- question: "If a system's controllability matrix has full rank, the system is also very likely to be observable."
   type: true-false
   answer: false
   explanation: "Controllability and observability are dual but entirely independent structural properties. A system can have any combination: controllable and observable, controllable but not observable, observable but not controllable, or neither. Controllability depends on the pair (A, B) — whether the input matrix B, through powers of A, can reach all of state space. Observability depends on the pair (A, C) — whether the output matrix C, through powers of A, can distinguish all initial states. Changing B (adding or removing actuators) affects controllability but not observability, and vice versa for changing C. There is no implication between the two rank conditions."

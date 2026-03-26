@@ -47,7 +47,7 @@ Hayden White's *Metahistory* (1973) argued that historical narratives are not ne
   answer: 1
   explanation: "White's claim is logical, not primarily psychological. He is not saying historians emotionally commit before looking at evidence (though he notes ideological influences); he is saying that the relationship between facts and narrative form is one of underdetermination. No set of historical facts compels one emplotment rather than another — a tragic account of the French Revolution is no more or less 'supported' by the evidence than a romantic or satirical one. The choice of form goes beyond what the evidence requires, which is why different historians can use the same facts and produce narratives with incompatible meanings."
 
-- question: "Hayden White claimed that historical narratives are fictions and therefore cannot be meaningfully distinguished from novels."
+- question: "Hayden White claimed that historical narratives are fictions and therefore can seldom be meaningfully distinguished from novels."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of White. He did not claim history IS fiction — he claimed history shares narrative strategies with literature (emplotment, rhetorical tropes, ideological commitments) that historians had not examined. Historical writing is constrained by evidence in ways novels are not. White's point was that form shapes meaning even in evidence-constrained writing, not that evidence is irrelevant. He explicitly rejected the conflation of history with fiction that his critics attributed to him."

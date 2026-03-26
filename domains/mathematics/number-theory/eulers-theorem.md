@@ -53,7 +53,7 @@ Forgetting the gcd(a,n) = 1 requirement. Confusing φ(n) with p-1 in the general
   answer: 1
   explanation: "The integers coprime to n form the multiplicative group (ℤ/nℤ)*, which has exactly φ(n) elements. Lagrange's theorem states that the order of any element divides the order of the group. So the sequence a, a², a³, ... must return to 1 within φ(n) steps. Note that φ(n) need not be the *smallest* such exponent — the order of a divides φ(n) but may be smaller. The group-theoretic structure explains why φ(n) works for every coprime a simultaneously."
 
-- question: "Euler's theorem states a^φ(n) ≡ 1 (mod n) for all integers a and all positive integers n."
+- question: "Euler's theorem states a^φ(n) ≡ 1 (mod n) for most integers a and most positive integers n."
   type: true-false
   answer: false
   explanation: "The theorem requires the additional condition gcd(a, n) = 1. When a shares a common factor with n, the element a is not in the multiplicative group (ℤ/nℤ)* and the conclusion fails. For example, gcd(2, 10) = 2 ≠ 1, and 2^4 = 16 ≡ 6 (mod 10), not 1. The coprimality condition is essential — omitting it is the most common error when applying the theorem."

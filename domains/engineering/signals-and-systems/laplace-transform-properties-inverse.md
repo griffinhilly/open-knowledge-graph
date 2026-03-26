@@ -52,7 +52,7 @@ The Laplace transform has linearity, differentiation, integration, and shifting 
   answer: true
   explanation: "Each pole in the left half-plane (negative real part) contributes a decaying exponential or damped sinusoid to the impulse response. Since all such terms vanish as t→∞, the response decays to zero — the definition of bounded-input bounded-output stability. A pole at s = 0 gives a constant (marginally stable); poles in the right half-plane give growing exponentials (unstable). This is why pole-zero plots are the primary stability analysis tool: stability is immediately visible from whether all poles lie left of the imaginary axis."
 
-- question: "Computing the inverse Laplace transform always requires evaluating the complex contour integral definition directly."
+- question: "Computing the inverse Laplace transform generally requires evaluating the complex contour integral definition directly."
   type: true-false
   answer: false
   explanation: "The contour integral (Bromwich integral) is the formal definition of the inverse transform, but in practice it is almost never computed directly — it requires residue calculus and is reserved for cases not covered by tables. The practical method is partial fraction decomposition: factor the denominator of F(s), expand into a sum of simple first-order (and second-order for complex poles) fractions, then read off the inverse transform of each term from a table. Each term A/(s−p) inverts to Ae^{pt}u(t). This is why transform tables and partial fractions are the core computational skills, not contour integration."

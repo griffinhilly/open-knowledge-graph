@@ -59,7 +59,7 @@ Blood pH is maintained near 7.4 through three mechanisms: the bicarbonate buffer
   answer: true
   explanation: "Respiratory compensation via altered ventilation rate begins within minutes of a pH change, as the brainstem's chemoreceptors rapidly detect rising CO₂ and falling pH. Renal compensation — increasing H⁺ secretion and bicarbonate reabsorption — requires hours to days to achieve maximal effect. This difference in timescale is clinically important: in acute metabolic acidosis, the respiratory system acts first as a bridge while the slower but more complete renal correction catches up."
 
-- question: "In metabolic acidosis, if respiratory compensation is working effectively, the patient's blood pH will return completely to 7.4."
+- question: "In metabolic acidosis, if respiratory compensation is working effectively, the patient's blood pH will return substantially to 7.4."
   type: true-false
   answer: false
   explanation: "Respiratory compensation can only partially offset a metabolic acid-base disorder — it never fully corrects it and never overshoots. If the pH were fully corrected to 7.4, the brainstem stimulus for hyperventilation would disappear and breathing would normalize, allowing pH to fall again. The compensation stabilizes at a new lower pCO₂ and a pH between 7.4 and the nadir of the disorder, buying time for the kidneys to achieve more complete correction. Full normalization requires renal compensation."

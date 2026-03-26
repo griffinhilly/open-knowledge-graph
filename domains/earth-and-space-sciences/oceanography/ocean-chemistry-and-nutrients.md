@@ -46,7 +46,7 @@ Trace the path of a nitrogen atom from atmospheric N₂ through marine fixation,
   answer: 2
   explanation: "Ocean acidification describes a decrease in pH from ~8.1 toward lower values — the ocean is becoming less alkaline, not actually acidic. The term is misleading; the ocean is still basic. The drop from 8.2 to 8.1 since the industrial era represents a ~26% increase in hydrogen ion concentration, which has real biological consequences even without crossing pH 7."
 
-- question: "Waters with the highest dissolved nutrient concentrations will always support the greatest marine biological production."
+- question: "Waters with the highest dissolved nutrient concentrations will typically support the greatest marine biological production."
   type: true-false
   answer: false
   explanation: "Biological production depends on multiple co-limiting factors. Light availability, iron, and mixing depth interact with nutrient concentrations. Polar waters can be nutrient-rich but light-limited in winter. Parts of the Southern Ocean and equatorial Pacific are nutrient-rich but iron-limited (high-nutrient, low-chlorophyll zones). Nutrients are necessary but not sufficient for high productivity."

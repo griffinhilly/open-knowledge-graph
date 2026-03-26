@@ -57,7 +57,7 @@ Combine ¹H NMR, ¹³C NMR, and IR data to determine structures. Use molecular f
   answer: 2
   explanation: "The combination of a very broad O-H stretch from 2500–3300 cm⁻¹ (caused by strong hydrogen bonding in the carboxylic acid dimer) and a C=O stretch near 1710 cm⁻¹ is characteristic of a carboxylic acid. A ketone would lack the broad O-H absorption; an aldehyde would show a distinctive pair of weak C-H stretches near 2720 and 2820 cm⁻¹; an ester C=O would be higher (1735 cm⁻¹) and lacks the O-H stretch."
 
-- question: "Fewer peaks in a ¹³C NMR spectrum always indicate that a molecule has fewer total carbon atoms."
+- question: "Fewer peaks in a ¹³C NMR spectrum generally indicate that a molecule has fewer total carbon atoms."
   type: true-false
   answer: false
   explanation: "The number of ¹³C peaks equals the number of *chemically distinct* carbon environments, not the total carbon count. A highly symmetric molecule like benzene (C₆H₆) gives only one ¹³C peak because all 6 carbons are equivalent. Para-xylene (C₈H₁₀) gives only 4 peaks despite 8 carbons. Fewer peaks mean higher molecular symmetry, not fewer atoms."

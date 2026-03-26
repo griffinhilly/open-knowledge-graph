@@ -52,7 +52,7 @@ The uncertainty principle Δx Δp ≥ ℏ/2 emerges from the canonical commutati
   answer: true
   explanation: "This is the central conceptual point. The bound follows from the commutation relation [x̂, p̂] = iℏ via the Robertson inequality, which is a purely mathematical consequence of the Hilbert space structure of quantum mechanics. A particle described by a narrow position-space wavepacket necessarily has a broad spread in momentum — this is built into the wavefunction before any measurement occurs. The 'disturbance picture' (measuring position disturbs momentum) is a useful heuristic but is not the fundamental explanation."
 
-- question: "A quantum particle can in principle be prepared in a state with both perfectly definite position and perfectly definite momentum; the uncertainty principle only limits how well we can subsequently measure both properties."
+- question: "A quantum particle can in principle be prepared in a state with both perfectly definite position and perfectly definite momentum; the uncertainty principle mainly limits how well we can subsequently measure both properties."
   type: true-false
   answer: false
   explanation: "No such preparation is possible. A state with perfectly definite position would be a δ-function in position space, whose Fourier transform is a plane wave — spread uniformly over all momenta. A state with perfectly definite momentum is a plane wave in position space — completely delocalized. Since x̂ and p̂ have no common eigenstates (a mathematical consequence of [x̂, p̂] ≠ 0), there is no state in which both observables are simultaneously sharp. The uncertainty principle is a statement about the structure of quantum states, not about measurement procedures."

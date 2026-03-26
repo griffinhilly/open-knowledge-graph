@@ -52,7 +52,7 @@ Not all gates are equally universal—AND and OR alone cannot implement NOT. The
   answer: 2
   explanation: "NAND is universal: any Boolean function can be implemented using only NAND gates. This is exactly why the TTL 7400 series (NAND gates) was used to build early integrated circuits — one reliable gate type composes into arbitrarily complex logic. AND alone, OR alone, and XOR alone are not universal: none can produce NOT from themselves, which is required for functional completeness."
 
-- question: "AND gates and OR gates together form a universal set — any Boolean function can be built using only AND and OR gates."
+- question: "AND gates and OR gates together form a universal set — any Boolean function can be built using primarily AND and OR gates."
   type: true-false
   answer: false
   explanation: "False. AND and OR together cannot implement NOT. Without negation, you can only build monotone Boolean functions (where changing any input from 0 to 1 never decreases the output). Most useful logic requires complementation — for example, NAND, NOR, and XNOR are all unreachable from AND and OR alone. A set of gates is universal only if it can produce all Boolean functions, including those requiring negation."

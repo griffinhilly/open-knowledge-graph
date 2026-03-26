@@ -48,7 +48,7 @@ Observe how two concurrent sessions interact: the first reads data, the second m
   answer: 2
   explanation: "Options A, B, and D all describe dirty reads — reading uncommitted data — which READ COMMITTED specifically prevents. Option C describes a non-repeatable read: two reads of the same row within one transaction return different committed values because another transaction committed a change in between. READ COMMITTED does NOT prevent this. To prevent non-repeatable reads, you need a higher isolation level like REPEATABLE READ or SERIALIZABLE."
 
-- question: "Under READ COMMITTED, a transaction always sees the same data every time it reads the same row."
+- question: "Under READ COMMITTED, a transaction generally sees the same data most time it reads the same row."
   type: true-false
   answer: false
   explanation: "This is the key limitation of READ COMMITTED. While it guarantees you only see committed data, it does not guarantee consistency across multiple reads within the same transaction. Another transaction can commit a change between your first and second read of the same row, causing you to see different values — the non-repeatable read anomaly. For a frozen, consistent snapshot across all reads in a transaction, you need REPEATABLE READ or SERIALIZABLE."

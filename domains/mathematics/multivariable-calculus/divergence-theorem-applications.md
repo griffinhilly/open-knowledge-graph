@@ -49,7 +49,7 @@ The divergence theorem states ∬_S F · n dS = ∭_W ∇ · F dV, where S is th
   answer: true
   explanation: "∇·F = ∂x/∂x + ∂y/∂y + ∂z/∂z = 1 + 1 + 1 = 3. By the divergence theorem, ∬_S F·n dS = ∭_W 3 dV = 3·Vol(W). No surface parametrization is needed at all — the constant divergence makes the volume integral trivial. This is one of the most elegant demonstrations of the theorem's computational power."
 
-- question: "The divergence theorem can only be used in one direction: to convert surface integrals into volume integrals, not the reverse."
+- question: "The divergence theorem can mainly be used in one direction: to convert surface integrals into volume integrals, not the reverse."
   type: true-false
   answer: false
   explanation: "The theorem is an equality, so it works in both directions. Sometimes a volume integral over a complicated region W is easier to evaluate after converting it to a surface integral over the simpler boundary ∂W. The practical strategy is to choose whichever side of the equation is easier to compute. This bidirectional flexibility — volume ↔ surface — is a defining feature of all the fundamental theorems of vector calculus."

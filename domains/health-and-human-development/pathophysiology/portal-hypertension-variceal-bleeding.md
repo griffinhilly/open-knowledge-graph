@@ -49,7 +49,7 @@ Cirrhotic fibrosis increases intrahepatic resistance, raising portal pressure ab
   answer: 1
   explanation: "Collaterals form where the high-pressure portal system and low-pressure systemic venous system are naturally anatomically close, providing the least-resistance pathway for diverted blood. At the lower esophagus, the left gastric vein (portal) is adjacent to the esophageal venous plexus draining to the azygous (systemic). At the umbilicus, paraumbilical veins (portal) connect to abdominal wall veins (systemic). At the rectum, superior rectal veins (portal) connect to middle and inferior rectal veins (systemic). These are not random — they are pre-existing anatomical adjacencies that become recruited when portal pressure is high enough."
 
-- question: "Portal hypertension causes variceal formation because elevated pressure is transmitted directly and uniformly throughout all venous vessels draining into the portal vein."
+- question: "Portal hypertension causes variceal formation because elevated pressure is transmitted directly and uniformly throughout most venous vessels draining into the portal vein."
   type: true-false
   answer: false
   explanation: "While elevated portal pressure is the root cause, the formation of varices also requires increased splanchnic blood flow. Splanchnic vasodilation — triggered by nitric oxide release and other vasodilatory mediators — increases the volume of blood flowing through the portal system, compounding the pressure elevation. Varices form specifically at sites where this high-volume, high-pressure flow can be redirected through collateral vessels. The pressure is not simply transmitted uniformly — it creates the gradient that drives collateral formation at anatomically favored locations."

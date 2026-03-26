@@ -53,7 +53,7 @@ Calculate bias and variance of simple estimators analytically. Compare sample me
   answer: true
   explanation: "True. Consistency is an asymptotic property: the estimator converges in probability to the true parameter as n → ∞. This is compatible with having nonzero bias at every finite n, as long as the bias shrinks to zero sufficiently fast (and variance also shrinks). For example, an estimator with E[θ̂] = θ + 1/n and Var[θ̂] → 0 is biased for every n yet consistent. Unbiasedness (E[θ̂] = θ for all n) and consistency are independent properties."
 
-- question: "An unbiased estimator is always consistent."
+- question: "An unbiased estimator is generally consistent."
   type: true-false
   answer: false
   explanation: "False. Unbiasedness means E[θ̂] = θ at every sample size — the estimator aims correctly on average. But it says nothing about whether estimates cluster more tightly around θ as n grows. An unbiased estimator could have constant or even growing variance, meaning larger samples provide no additional accuracy. Consistency requires both that the estimator aims at θ and that its variance shrinks to zero as n → ∞. Unbiasedness guarantees the aim; it does not guarantee convergence."

@@ -49,7 +49,7 @@ Structural transformation is the reallocation of labor from low-productivity agr
   answer: 1
   explanation: "The push factor — agricultural productivity growth — frees workers from subsistence farming by letting fewer farmers feed the same population. The pull factor — rising non-agricultural demand driven by Engel's Law (as incomes rise, people spend a smaller share on food) — creates the jobs to absorb those workers. Both are necessary: a labor surplus without industrial demand leads to unemployment, not transformation; rising industrial demand without agricultural productivity leaves everyone tied to feeding the population."
 
-- question: "Premature deindustrialization means a country never develops a manufacturing sector before transitioning to services."
+- question: "Premature deindustrialization means a country rarely develops a manufacturing sector before transitioning to services."
   type: true-false
   answer: false
   explanation: "Premature deindustrialization refers to the manufacturing share peaking at a much lower income level and output share than it did in earlier developers — countries have a manufacturing phase, but it is shallower and shorter. Workers often move directly from agriculture into low-productivity informal services rather than high-productivity factories. The concern is not the absence of manufacturing but the truncation of the manufacturing-led phase that historically drove the largest productivity gains."

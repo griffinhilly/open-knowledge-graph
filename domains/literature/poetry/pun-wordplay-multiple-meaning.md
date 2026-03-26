@@ -41,7 +41,7 @@ A pun exploits multiple meanings or similar-sounding words for effect—sometime
   answer: 2
   explanation: "Ordinary ambiguity is usually invisible: context disambiguates 'bank' to financial institution or riverbank so efficiently that we never notice the potential double meaning. A pun is structurally designed to defeat that disambiguation — it places the word in a context where *both* meanings are activated and neither can be dismissed. The reader is forced to hold both at once. This is the source of the pun's effect, whether comic (the sudden awareness of double-dealing) or poignant (Mercutio's grave/solemn)."
 
-- question: "In serious or tragic contexts, puns are always a sign of poor craft and should be avoided."
+- question: "In serious or tragic contexts, puns are generally a sign of poor craft and should be avoided."
   type: true-false
   answer: false
   explanation: "Shakespeare regularly deployed puns in his tragedies at moments of greatest intensity. Mercutio's 'Ask for me tomorrow and you shall find me a grave man' — grave meaning both solemn and a burial place — is simultaneously comic and heartbreaking, performing tonal complexity that a straightforward statement could not. Far from being poor craft, the pun in tragic contexts can be the most precise instrument available for capturing registers that are genuinely simultaneous rather than sequential."

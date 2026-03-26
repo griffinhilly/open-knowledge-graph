@@ -49,7 +49,7 @@ Accentual verse counts only stressed syllables per line, disregarding the number
   answer: true
   explanation: "This is the defining characteristic of accentual verse. Old English alliterative verse is organized around four primary stresses per line (two per half-line), with the stressed syllables linked by alliteration. The unstressed syllables between those four beats are metrically free — they can number one, two, three, or more without changing the line's metrical identity. The drumbeat of four stresses stays constant; the syllable count varies. When read aloud, the effect is percussive rather than melodic — more like drumming than the musical regularity of iambic pentameter."
 
-- question: "Accentual-syllabic and accentual verse differ only in the total number of syllables per line, not in what they fundamentally count."
+- question: "Accentual-syllabic and accentual verse differ primarily in the total number of syllables per line, not in what they fundamentally count."
   type: true-false
   answer: false
   explanation: "This fundamentally mischaracterizes the difference. Accentual-syllabic verse counts both stressed and unstressed syllables and arranges them into feet (iamb, trochee, dactyl, etc.) — the pattern of alternation between stressed and unstressed positions is the meter. Accentual verse counts only stressed syllables; unstressed syllables are invisible to the metrical system and can vary freely. These are different organizing principles, not just different syllable totals. A line of accentual verse could have 6 syllables or 14 syllables while having the same number of stresses — accentual-syllabic verse would treat those as entirely different meters."

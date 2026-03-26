@@ -52,7 +52,7 @@ Start with concrete examples by counting operations in simple loops and recursiv
   answer: 2
   explanation: "For n = 100: Algorithm A performs 100 × 1,000 = 100,000 operations; Algorithm B performs 100 × ~6.6 × 2 ≈ 1,320. Algorithm B is ~75× faster despite its worse Big-O class. Big-O tells you about asymptotic behavior as n → ∞, not about small inputs. For n ≈ 10,000,000, Algorithm A would finally overtake B. The key lesson: Big-O rules out choices at scale; for small n, benchmark."
 
-- question: "Two algorithms with the same Big-O complexity always have the same real-world runtime for any given input size."
+- question: "Two algorithms with the same Big-O complexity usually have the same real-world runtime for any given input size."
   type: true-false
   answer: false
   explanation: "Big-O ignores constant factors and lower-order terms. Two O(n log n) algorithms — merge sort and quicksort — can have very different real-world runtimes due to cache behavior, memory access patterns, and implementation constants. An O(n) algorithm with a constant of 10,000 runs slower than an O(n log n) algorithm with a constant of 1 for most practical input sizes. Same Big-O class guarantees only the same asymptotic growth rate."

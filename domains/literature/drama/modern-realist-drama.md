@@ -54,7 +54,7 @@ Read A Doll's House and Death of a Salesman in sequence, noting how both use a r
   answer: 1
   explanation: "Modern realist drama uses the realistic domestic setting and psychologically motivated characters as vehicles for social critique. Nora's departure is not primarily designed for catharsis or spectacle — it is a diagnosis of an institution (marriage under bourgeois patriarchy) that the play has been systematically exposing. The realistic mode makes the critique land as social fact, not theatrical fantasy."
 
-- question: "Chekhov's plays are structurally plotless — nothing of significance happens and there is no underlying dramatic arc."
+- question: "Chekhov's plays are structurally plotless — very little of significance happens and there is no underlying dramatic arc."
   type: true-false
   answer: false
   explanation: "Chekhov's plays have carefully constructed arcs; what they lack is the conventional well-made-play structure of rising action leading to a climactic confrontation and neat resolution. Characters change, relationships shift, estates are sold, illusions are shattered — but these arcs are diffuse and atmospheric rather than concentrated into a single dramatic collision. The distinction is formal, not a matter of dramatic content."

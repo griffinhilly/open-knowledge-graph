@@ -43,7 +43,7 @@ Practice discounting single cash flows at varying rates and horizons to build in
   answer: 2
   explanation: "At 5%: PV = 1000 / 1.05^20 ≈ $377. At 10%: PV = 1000 / 1.10^20 ≈ $149. That is a drop of about $228, or roughly 60%. This illustrates the extreme sensitivity of long-horizon present values to the discount rate — a consequence of exponential discounting. Doubling the rate does not halve PV because the relationship is exponential, not linear."
 
-- question: "The discount rate used to compute present value only needs to account for expected inflation; there is no reason to adjust for risk."
+- question: "The discount rate used to compute present value mainly needs to account for expected inflation; there is no reason to adjust for risk."
   type: true-false
   answer: false
   explanation: "The discount rate has (at least) three components: time preference (people prefer money now even with no inflation), expected inflation (a dollar loses purchasing power over time), and a risk premium (uncertain cash flows are worth less than certain ones). Even after adjusting for inflation using real cash flows, you must still discount for time preference and risk. Ignoring the risk component leads to systematically overvaluing risky assets."

@@ -66,7 +66,7 @@ Use impulse-momentum when time is explicitly involved in the problem. Choose bet
   answer: true
   explanation: "Momentum is a vector, and the impulse-momentum principle gives separate equations per direction: ∫F_x dt = Δ(mv_x) and ∫F_y dt = Δ(mv_y). If there is no external horizontal impulse (no friction, no horizontal applied force), x-momentum is conserved. If gravity acts vertically throughout the interaction, it contributes an impulse mg·Δt in the y-direction, so y-momentum is not conserved. The explainer states: 'conserved in x does not imply conserved in y.'"
 
-- question: "In impulse-momentum analysis, the impulse due to gravity can always be neglected because collisions happen too quickly for gravity to have any effect."
+- question: "In impulse-momentum analysis, the impulse due to gravity can generally be neglected because collisions happen too quickly for gravity to have any effect."
   type: true-false
   answer: false
   explanation: "Whether gravitational impulse is negligible depends entirely on the duration of the interaction. For very brief impacts — a bat-ball contact of ~0.001 s — the gravitational impulse mg·Δt is tiny compared to the contact impulse and can be neglected. But for slower interactions lasting seconds — a rocket firing, two skaters pushing apart, a ball rolling — mg·Δt accumulates to a significant value. The explainer distinguishes these cases explicitly: gravitational impulse 'is often small for very brief impacts... but is significant for slower interactions.'"

@@ -59,7 +59,7 @@ Start with plane curves where torsion is zero and verify that a circle of radius
   answer: true
   explanation: "κ = |dT/ds|. For a straight line, T is constant — the direction of travel never changes — so dT/ds = 0 and κ = 0 everywhere. This matches the intuition that a line has no bending. A common misconception is that curvature is 'undefined' for a straight line; it is defined and equals zero."
 
-- question: "Torsion τ can only be zero or positive; a negative value indicates a computational error in the Frenet-Serret calculations."
+- question: "Torsion τ can primarily be zero or positive; a negative value indicates a computational error in the Frenet-Serret calculations."
   type: true-false
   answer: false
   explanation: "Torsion can be negative. Its sign encodes the handedness of the twist: a right-handed helix has positive torsion and a left-handed helix has negative torsion. Negative torsion is geometrically meaningful, not an error. This is analogous to how the sign of a cross product encodes orientation."

@@ -55,7 +55,7 @@ Transient Climate Response (TCR) is the temperature change during a period of ri
   answer: true
   explanation: "This 'committed warming' or 'warming in the pipeline' is a direct consequence of the ocean's enormous heat capacity. Even at current CO₂ concentrations, Earth's energy budget is out of balance — more energy is entering the system than leaving. The deep ocean is gradually absorbing this excess, but it does so slowly. Until the ocean equilibrates with the current forcing, surface temperatures will continue to rise even without further emissions. Estimates suggest 0.3–0.5°C of additional committed warming is already locked in from past and present emissions."
 
-- question: "TCR is always a better predictor of long-term climate consequences than ECS, because TCR is derived from observations rather than theoretical models."
+- question: "TCR is generally a better predictor of long-term climate consequences than ECS, because TCR is derived from observations rather than theoretical models."
   type: true-false
   answer: false
   explanation: "TCR and ECS serve different purposes — neither is universally 'better.' TCR is more useful for near-term projections (next 50–100 years) because it describes the transient warming we actually experience while emissions continue. ECS is essential for long-term consequences: it captures the full committed warming, including the centuries-long tail of ocean heat uptake that will unfold even after emissions cease. TCR systematically underestimates ultimate consequences, while ECS overestimates near-term change. Policy decisions on different timescales need both numbers."

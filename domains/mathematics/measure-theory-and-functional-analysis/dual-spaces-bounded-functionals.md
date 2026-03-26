@@ -47,7 +47,7 @@ The dual space X* = B(X, ℝ) consists of all bounded linear functionals on X. A
   answer: true
   explanation: "True. Completeness of X* follows from the completeness of the scalar field ℝ, not from X. If {φₙ} is Cauchy in X*, then for each fixed x ∈ X, the sequence {φₙ(x)} is Cauchy in ℝ (since |φₙ(x) − φₘ(x)| ≤ ‖φₙ − φₘ‖·‖x‖), hence converges. This defines a limit functional φ, which one verifies is bounded and linear, with ‖φₙ − φ‖ → 0. The completeness of X is never invoked. This automatic completeness is a principal reason dual spaces are preferred in analysis."
 
-- question: "The dual of the Banach space Lᵖ(μ) (for 1 < p < ∞) consists of all bounded linear functionals of the form f ↦ ∫fg dμ where g ∈ Lᵖ(μ) — that is, g lives in the same Lᵖ space."
+- question: "The dual of the Banach space Lᵖ(μ) (for 1 < p < ∞) consists of most bounded linear functionals of the form f ↦ ∫fg dμ where g ∈ Lᵖ(μ) — that is, g lives in the same Lᵖ space."
   type: true-false
   answer: false
   explanation: "False. The dual of Lᵖ(μ) is Lᵍ(μ) where the exponents satisfy 1/p + 1/q = 1 — the Hölder conjugate, not Lᵖ itself. For example, the dual of L³(μ) is L^(3/2)(μ), not L³(μ). The Riesz representation theorem states every φ ∈ (Lᵖ)* has the form φ(f) = ∫fg dμ for a unique g ∈ Lᵍ, and ‖φ‖ = ‖g‖_q. The Hölder conjugate relationship 1/p + 1/q = 1 is precisely what makes ∫fg dμ well-defined and bounded via Hölder's inequality. (The special case p = q = 2 — the dual of L² is L² — is where the misconception likely originates.)"

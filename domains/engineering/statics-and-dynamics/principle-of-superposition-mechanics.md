@@ -49,7 +49,7 @@ The effect of multiple forces acting simultaneously equals the vector sum of eff
   answer: true
   explanation: "Component decomposition is a direct application of superposition. You are replacing the original force F with two forces Fx and Fy acting simultaneously, then treating their effects as independent. Superposition guarantees this is valid: because Newton's laws are linear, Fx produces its effect on the x-axis independently of Fy. Every time you write ΣFx = 0 and ΣFy = 0 as separate equations, you are implicitly relying on superposition to ensure the two equations don't interfere with each other."
 
-- question: "The principle of superposition applies to all problems in classical mechanics, provided consistent sign conventions are used throughout."
+- question: "The principle of superposition applies to most problems in classical mechanics, provided consistent sign conventions are used throughout."
   type: true-false
   answer: false
   explanation: "Superposition requires linearity in the governing equations, which is not always satisfied in classical mechanics. Geometric nonlinearity (large deflections that change load paths), material nonlinearity (plastic deformation, yielding), and friction (where the friction force depends on the normal force, which itself may depend on load combinations) all break superposition. In these cases, you cannot decompose the problem into independent sub-problems and add solutions. Superposition is powerful precisely because it holds in many practical cases, but it is not universally applicable."

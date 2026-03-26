@@ -53,7 +53,7 @@ Conduct a classroom waste audit — sort one day's trash into recyclable, compos
   answer: "Producing aluminum from raw ore (bauxite) requires enormous amounts of electricity for the smelting process — it is one of the most energy-intensive materials to produce. Recycling aluminum simply involves melting it down and reshaping it, which uses about 95% less energy than making it from ore. The aluminum itself is not degraded by recycling and can be recycled indefinitely."
   explanation: "Aluminum is the poster child for recycling because the energy savings are so dramatic. Steel recycling saves about 60-75% of the energy. Glass recycling saves about 30%. Plastic recycling saves less energy and the material degrades with each cycle. Understanding these differences helps prioritize which materials to focus recycling efforts on."
 
-- question: "All materials can be recycled an unlimited number of times without any loss in quality."
+- question: "Most materials can be recycled an unlimited number of times without any loss in quality."
   type: true-false
   answer: false
   explanation: "Metals (aluminum, steel) and glass can be recycled indefinitely without quality loss — the material properties are preserved through melting and reforming. However, most plastics degrade with each recycling cycle (the polymer chains shorten), so they can typically only be recycled once or twice before the material is too degraded for further use. Paper fibers also shorten with recycling, limiting it to about 5-7 cycles."

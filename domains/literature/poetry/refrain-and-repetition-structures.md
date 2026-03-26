@@ -54,7 +54,7 @@ Study refrains in folk songs, blues, and contemporary poetry (e.g., Sappho's fra
   answer: 3
   explanation: "The student's argument assumes that the satisfaction of a returning refrain depends on metrical expectation. But the refrain creates its own structural expectation through recurrence — once a reader has encountered the refrain once, they anticipate its next appearance, and the satisfaction of its return operates at the level of structural pattern, not just metrical rhythm. This is why refrains work in contemporary free verse (as in Ginsberg's 'America'), folk song, and blues: the pattern-and-return dynamic is not dependent on meter."
 
-- question: "A refrain that changes even one word between its first and last appearance is no longer functioning as a refrain, because a refrain must be verbally identical each time."
+- question: "A refrain that changes even one word between its first and last appearance is no longer functioning as a refrain, because a refrain should be verbally identical each time."
   type: true-false
   answer: false
   explanation: "Variation is a recognized and powerful technique within refrain structure. A nearly-identical refrain — one word changed, one line added or removed — can register transformation while preserving the structural familiarity of repetition. The slight change draws attention precisely because the reader expects sameness; the deviation signals that something has shifted in the poem's world. This technique allows the refrain to serve both its structural function (unity, pattern) and an expressive one (registering change or development)."

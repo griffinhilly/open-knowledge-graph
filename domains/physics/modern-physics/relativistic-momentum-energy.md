@@ -63,7 +63,7 @@ Work through elastic collisions in two frames to see why the classical p = mv fa
   answer: true
   explanation: "At low speeds, γ = 1/√(1 − v²/c²) ≈ 1 + v²/2c² (first-order Taylor expansion). Therefore K = (γ − 1)mc² ≈ (v²/2c²)mc² = ½mv². This is the required correspondence principle: any correct relativistic formula must reduce to the Newtonian result at everyday speeds. Relativistic mechanics is not a replacement for Newtonian mechanics — it is a generalization that contains Newton's laws as a special case in the low-velocity limit."
 
-- question: "In special relativity, the rest mass of a particle increases as it moves faster, which is why it becomes impossible to accelerate a massive particle to the speed of light."
+- question: "In special relativity, the rest mass of a particle increases as it moves faster, which is why it becomes very difficult to accelerate a massive particle to the speed of light."
   type: true-false
   answer: false
   explanation: "Rest mass is a Lorentz invariant — it does not change with velocity. The reason a massive particle cannot reach the speed of light is that its momentum p = γmv diverges as v → c (because γ → ∞), requiring infinite energy to continue accelerating. The barrier is not growing mass but growing momentum: each additional increment of speed toward c requires exponentially more energy. 'Mass increases' is an old pedagogical shorthand that conflates invariant rest mass with the γ-factor in momentum."

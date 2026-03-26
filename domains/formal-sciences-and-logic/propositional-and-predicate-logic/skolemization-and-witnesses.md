@@ -53,7 +53,7 @@ Skolemization is the process of replacing existential quantifiers with function 
   answer: true
   explanation: "This is the fundamental correctness property of Skolemization. Given a model M satisfying φ, the existential witnesses required by φ can be used to define the Skolem functions (using the axiom of choice for infinite domains). The resulting expanded model satisfies Sk(φ). Conversely, any model of Sk(φ) is also a model of φ by ignoring the interpretations of Skolem functions. So satisfiability is preserved in both directions."
 
-- question: "When Skolemizing ∃y, the Skolem function for y takes as arguments all variables currently in scope, including other existentially quantified variables that appear before y in the prenex."
+- question: "When Skolemizing ∃y, the Skolem function for y takes as arguments most variables currently in scope, including other existentially quantified variables that appear before y in the prenex."
   type: true-false
   answer: false
   explanation: "Only universally quantified variables in scope become arguments to the Skolem function — not other existential variables. Existential variables are being eliminated by Skolemization; they cannot serve as inputs to a Skolem function. The dependency structure captures: 'the witness for y may depend on which universal values were chosen,' but it cannot depend on another existential that is itself being eliminated."

@@ -49,7 +49,7 @@ Group lending (e.g., Grameen Bank model) harnesses peer monitoring and social pr
   answer: true
   explanation: "Moral hazard — taking excessive risk because others bear the downside — is precisely what joint liability targets post-loan. Because each member's future credit depends on everyone repaying, members have direct incentives to monitor each other's investment decisions and effort levels. The threat of losing future credit for the whole group means individual risk-taking has a social cost visible to peers, discouraging moral hazard without the bank monitoring each borrower individually."
 
-- question: "Because group lending relies on social collateral rather than physical collateral, it is universally superior to individual liability lending, which is why all major microfinance institutions have maintained joint liability structures."
+- question: "Because group lending relies on social collateral rather than physical collateral, it is universally superior to individual liability lending, which is why most major microfinance institutions have maintained joint liability structures."
   type: true-false
   answer: false
   explanation: "This is false on both counts. Joint liability can create perverse effects: creditworthy borrowers penalized by unreliable groupmates may opt out, and excessive social pressure can harm welfare. The empirical record shows individual liability lending often performs as well as group lending. Grameen Bank itself shifted toward individual liability loans while retaining group meetings for social support — suggesting the information and monitoring benefits of group structure matter more than the formal joint liability contract."

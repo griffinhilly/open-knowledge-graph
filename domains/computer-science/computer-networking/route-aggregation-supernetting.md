@@ -50,7 +50,7 @@ Route aggregation combines multiple routing table entries with consecutive CIDR 
   answer: true
   explanation: "True. This is the primary motivation for aggregation. Without it, each individual network would require a separate routing table entry — the global Internet routing table would contain billions of entries (one per customer network). Aggregation allows ISPs to advertise summary routes covering hundreds or thousands of customer networks in a single entry. The global BGP table currently holds over a million entries even with aggressive aggregation; without it, routing infrastructure would be untenable. Reduced table size also speeds up longest-prefix-match lookups, reducing forwarding latency."
 
-- question: "Any two numerically adjacent /24 networks (e.g., 10.0.1.0/24 and 10.0.2.0/24) can always be aggregated into a single /23 prefix."
+- question: "Any two numerically adjacent /24 networks (e.g., 10.0.1.0/24 and 10.0.2.0/24) can usually be aggregated into a single /23 prefix."
   type: true-false
   answer: false
   explanation: "False — adjacency is necessary but not sufficient; alignment is also required. A valid /23 must start on a /23 boundary (an address where bit 23 is 0 in the third octet). 10.0.0.0/24 and 10.0.1.0/24 are properly aligned and aggregate to 10.0.0.0/23. But 10.0.1.0/24 and 10.0.2.0/24 cannot form a valid /23 together: no single /23 covers exactly these two; any /23 covering 10.0.1.0 would cover 10.0.0.0, while any /23 covering 10.0.2.0 would cover 10.0.3.0. Alignment ensures the aggregate is a well-defined CIDR block."

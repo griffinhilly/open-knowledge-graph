@@ -51,7 +51,7 @@ Planetary mass is determined through orbital dynamics: a planet's mass is inferr
   answer: true
   explanation: "Rock has density ~3–8 g/cm³ depending on composition; water ice is ~1 g/cm³. A planet composed predominantly of these materials will have a mean density well above 1.5 g/cm³ for any realistic mass. Hydrogen and helium are the only abundant materials with sufficiently low density to bring a planet's mean density below ~1.5 g/cm³ — they must form a significant fraction of the planet's mass. This is why density is such a powerful compositional diagnostic: very low density is nearly unambiguous evidence for a gas-dominated envelope."
 
-- question: "Radial velocity measurements give you the planet's full, true mass in all cases, as long as the spectral data is precise enough."
+- question: "Radial velocity measurements give you the planet's full, true mass in most cases, as long as the spectral data is precise enough."
   type: true-false
   answer: false
   explanation: "Radial velocity yields M sin i — the planet's mass multiplied by the sine of the orbital inclination. Since inclination is generally unknown from radial velocity data alone, you get a minimum mass, not the true mass. If the orbit is face-on (i = 0°), you would detect no Doppler shift at all despite the planet's gravity. Inclination can only be independently constrained by other observations — most usefully, a transit detection, which requires i close to 90°. Without inclination information, radial velocity gives a lower bound on mass, and the true mass could be significantly larger."

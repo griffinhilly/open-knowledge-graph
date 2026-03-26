@@ -55,7 +55,7 @@ The habitable zone is defined by stellar luminosity and planet properties that a
   answer: true
   explanation: "Habitable zone distance scales as the square root of stellar luminosity: d_HZ ∝ √L. For a star with L = 4 L_Sun, d_HZ ∝ √4 = 2, so the habitable zone is located roughly twice as far as Earth's orbit. This scaling follows from the requirement that a planet receive a similar flux of stellar radiation — since flux falls as 1/d², a star four times brighter requires a planet twice as far to receive the same flux."
 
-- question: "The outer boundary of the habitable zone is defined by the point at which CO₂ in the atmosphere freezes out, making any greenhouse effect impossible beyond that distance."
+- question: "The outer boundary of the habitable zone is defined by the point at which CO₂ in the atmosphere freezes out, making any greenhouse effect impractical beyond that distance."
   type: true-false
   answer: false
   explanation: "The outer HZ boundary is the maximum greenhouse limit, not the CO₂ freezing point. In fact, CO₂ accumulates in the atmospheres of cold outer-HZ planets because low temperatures slow the silicate weathering cycle that normally removes atmospheric CO₂. The limitation is that at very high CO₂ pressures, Rayleigh scattering reflects incoming starlight faster than greenhouse warming increases — so adding more CO₂ ultimately cools rather than warms. CO₂ ice cloud formation at even colder temperatures is a separate (and debated) possible extension of the outer boundary."

@@ -54,7 +54,7 @@ Compare control strategies for three diseases with different transmission routes
   answer: 1
   explanation: "Dengue cannot spread directly from human to human — it requires the Aedes aegypti mosquito as a biological intermediate. A dengue patient cannot infect anyone directly. The mosquito bites an infectious person, acquires the virus, and later transmits it to a new susceptible host. Isolating human cases does not kill or prevent mosquitoes from biting. The effective control levers are insecticide-treated bed nets, indoor residual spraying, and larval source reduction — all targeting the vector, not the human host."
 
-- question: "Quarantining infectious individuals is an effective control measure for all communicable diseases because it removes the source of transmission regardless of how the disease spreads."
+- question: "Quarantining infectious individuals is an effective control measure for most communicable diseases because it removes the source of transmission regardless of how the disease spreads."
   type: true-false
   answer: false
   explanation: "Isolation and quarantine directly interrupt person-to-person transmission, making them effective for respiratory diseases (influenza, COVID-19, measles). But they are largely irrelevant for vector-borne diseases (malaria, dengue), where the vector — not direct human contact — carries the pathogen, and for waterborne diseases (cholera, typhoid), where contaminated water reaches people independently of proximity to infectious individuals. Misapplying an isolation strategy to these diseases wastes resources and fails to interrupt transmission."

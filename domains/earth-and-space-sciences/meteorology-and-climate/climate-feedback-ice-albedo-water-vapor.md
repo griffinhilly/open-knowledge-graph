@@ -58,7 +58,7 @@ Compare global mean temperature and sea ice extent from satellite data. Use radi
   answer: true
   explanation: "This is a textbook positive feedback loop in the climate system. Ice reflects 60–90% of incident solar radiation; open ocean or exposed land absorbs most of it. When initial warming melts some ice, the newly exposed surface absorbs more energy, warming the surface further, melting more ice. This self-reinforcing cycle is observed today in the Arctic, where sea ice decline contributes to the Arctic warming roughly 2–3 times faster than the global average — a phenomenon called Arctic amplification."
 
-- question: "Because the water vapor feedback is a positive feedback, removing all anthropogenic CO₂ from the atmosphere would cause water vapor to continue warming the climate indefinitely."
+- question: "Because the water vapor feedback is a positive feedback, removing most anthropogenic CO₂ from the atmosphere would cause water vapor to continue warming the climate indefinitely."
   type: true-false
   answer: false
   explanation: "Water vapor is a feedback, not an independent forcing. If CO₂ were removed and temperatures dropped, the cooler atmosphere would hold less water vapor, reducing this greenhouse effect further. The system would find a new equilibrium rather than continuing to warm. Positive feedbacks amplify perturbations from an initial forcing — they do not cause runaway warming on their own without a sustained forcing to maintain the temperature departure. True runaway warming (like Venus) requires the forcing to exceed specific thresholds that are far beyond current projections for Earth."

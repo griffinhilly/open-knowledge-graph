@@ -42,7 +42,7 @@ Start with exponential growth dy/dx = ky (solution: y = Ce^(kx)) as the motivati
   answer: 1
   explanation: "C arises from the constant of integration and is determined by an initial condition. If you know y(0) = 5, then 5 = Ce^0 = C, so C = 5. C does not cancel when differentiating — d/dx(Ce^(3x)) = 3Ce^(3x) = 3y, which confirms the solution. The constant encodes the starting value of the system."
 
-- question: "When solving a separable equation dy/dx = f(x)g(y), you can always safely divide both sides by g(y) before integrating."
+- question: "When solving a separable equation dy/dx = f(x)g(y), you can usually safely divide both sides by g(y) before integrating."
   type: true-false
   answer: false
   explanation: "Division by g(y) is only valid when g(y) ≠ 0. If g(y) = 0 for some constant value y = c, then y = c is an equilibrium solution that the separation-of-variables process will miss entirely. Always check whether g(y) = 0 has solutions and handle them separately."

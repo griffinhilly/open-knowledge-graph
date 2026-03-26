@@ -47,7 +47,7 @@ States and political actors have long commissioned art to legitimize power, prom
   answer: 2
   explanation: "The visual mechanisms of political rhetoric — idealization, heroic narrative, monumental scale — are consistent across eras. What changes in the 20th century is scale and systematization: official aesthetic doctrines were codified, deviation was censored, and mass media (posters, film, radio) saturated entire populations. Roman and Baroque court art served elites; Soviet and Nazi propaganda was a weapon aimed at millions. Option B is wrong — the Versailles Hall of Mirrors was thoroughly political propaganda for absolutism."
 
-- question: "A work of art with genuine formal or aesthetic merit cannot simultaneously function as effective political propaganda — if a work serves an ideological agenda, its artistic quality is necessarily compromised."
+- question: "A work of art with genuine formal or aesthetic merit can seldom simultaneously function as effective political propaganda — if a work serves an ideological agenda, its artistic quality is necessarily compromised."
   type: true-false
   answer: false
   explanation: "This is the binary the topic explicitly dismantles. David's *Oath of the Horatii* is simultaneously a masterpiece of Neoclassical composition and a vehicle for republican ideology. Riefenstahl's *Triumph of the Will* displays extraordinary cinematic technique precisely in service of fascist spectacle — the formal mastery amplifies the political effect. Aesthetic merit and propagandistic function can not only coexist but reinforce each other."

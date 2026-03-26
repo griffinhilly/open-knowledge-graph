@@ -50,7 +50,7 @@ The most probable radius is not where the wavefunction amplitude is largest (it'
   answer: 1
   explanation: "In the effective radial potential, angular momentum contributes a term ℓ(ℓ+1)ℏ²/(2mr²) that acts like a centrifugal barrier, repelling radial probability away from r = 0 for any ℓ > 0. For 2p (ℓ=1), this barrier is nonzero, suppressing probability near the nucleus. For 2s (ℓ=0), there is no such barrier, so the 2s wavefunction can reach the nucleus. This penetration means 2s electrons experience more of the nuclear charge (less shielding by inner electrons), which lowers their energy below 2p in multi-electron atoms — driving the energy-level splitting that underlies the periodic table."
 
-- question: "The Bohr radius a₀ ≈ 0.53 Å is the most probable electron-nucleus distance for all hydrogen orbitals (all values of n and ℓ)."
+- question: "The Bohr radius a₀ ≈ 0.53 Å is the most probable electron-nucleus distance for most hydrogen orbitals (most values of n and ℓ)."
   type: true-false
   answer: false
   explanation: "The Bohr radius a₀ is the most probable radius only for the 1s (n=1, ℓ=0) orbital, where the radial probability density P(r) = r²|R(r)|² peaks at exactly a₀. For excited states (higher n), the peak of P(r) moves to larger radii — roughly n²a₀ for states with ℓ = n−1. This is why electrons in higher shells are farther from the nucleus, have lower ionization energies, and are more available for chemical bonding. The Bohr model accidentally got the most probable radius right for the ground state."

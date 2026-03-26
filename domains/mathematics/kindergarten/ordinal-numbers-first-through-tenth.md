@@ -50,7 +50,7 @@ Mixing up ordinal and cardinal numbers (saying 'first' means 1 item rather than 
   answer: 1
   explanation: "'Fourth' is an ordinal number because it tells you the position of the crayon — which one to pick up — not how many crayons exist. Cardinal numbers (one, two, three...) answer 'how many?' Ordinal numbers (first, second, third...) answer 'which one?' or 'in what position?' The word 'fourth' gives you location in a sequence, not a count."
 
-- question: "Ordinal numbers and counting numbers always refer to the same quantity."
+- question: "Ordinal numbers and counting numbers typically refer to the same quantity."
   type: true-false
   answer: false
   explanation: "Ordinal and cardinal numbers are related but serve different purposes. 'Three apples' (cardinal) tells you how many. 'The third apple' (ordinal) tells you which one — its position in a sequence. The ordinal 'third' connects to the counting number 3, but 'third' doesn't mean there are three things — it means this thing is at position 3. If only two apples are in a bowl, there is no 'third apple.'"

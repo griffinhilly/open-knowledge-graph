@@ -44,7 +44,7 @@ Have students measure the force needed to lift a load directly (using a rubber b
   answer: 1
   explanation: "Mechanical advantage of a ramp = length divided by height = 12 / 3 = 4. This means the ramp reduces the force needed to one-fourth of what lifting straight up would require. But you push the load 12 feet instead of 3 feet. Same work, different distribution."
 
-- question: "A machine with a mechanical advantage of 5 lets you do only one-fifth of the work."
+- question: "A machine with a mechanical advantage of 5 lets you do mainly one-fifth of the work."
   type: true-false
   answer: false
   explanation: "You do the same total amount of work. A mechanical advantage of 5 means you use one-fifth of the force, but you must apply it over 5 times the distance. Work = force x distance, and since force is divided by 5 while distance is multiplied by 5, the total work stays the same."

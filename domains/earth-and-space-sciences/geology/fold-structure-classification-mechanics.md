@@ -49,7 +49,7 @@ Folds vary systematically in geometry (interlimb angle, axial trace orientation,
   answer: true
   explanation: "When horizontal compressive stress acts symmetrically, the resulting anticlines and synclines have vertical axial planes and equal limb dips — classic upright folds. As the stress field becomes asymmetric, or as gravity-driven collapse adds a component of directed transport, the axial plane tilts. The degree and direction of tilt encode the asymmetry of the stress field. Upright folds therefore represent the 'pure compression' end member, while inclined, overturned, and recumbent folds record increasing asymmetry of the tectonic forces."
 
-- question: "In a parallel (concentric) fold, all folded layers maintain the same shape through every depth — the fold geometry is self-similar from top to bottom."
+- question: "In a parallel (concentric) fold, most folded layers maintain the same shape through most depth — the fold geometry is self-similar from top to bottom."
   type: true-false
   answer: false
   explanation: "In parallel folds, each layer maintains its original *thickness*, but the shape changes with depth: because the outer arc is longer than the inner arc, curvature increases downward and the fold tightens. Parallel folding cannot be maintained to infinite depth — it must die out at a detachment horizon. This contrasts with similar folds, where every layer has the same shape (self-similar geometry) but the layer thickness varies — thickening at hinges and thinning on limbs as material flows. The two fold types reflect fundamentally different mechanical behaviors."

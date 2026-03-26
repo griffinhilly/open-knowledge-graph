@@ -59,7 +59,7 @@ All neurons have similar basic shapes. Not all neurons fit neatly into classific
   answer: true
   explanation: "This is correct and is the core functional implication of morphological diversity. A pyramidal neuron with an extensive apical dendrite spanning multiple cortical layers can receive inputs from many sources: local interneurons (basal dendrites), long-range projections from other cortical areas (apical dendrites), and subcortical inputs. A stellate interneuron with dendrites radiating only a short distance can only sample inputs from its immediate neighborhood. The physical reach of the dendritic tree is literally the neuron's 'territory' for collecting information."
 
-- question: "All neurons in the mammalian nervous system are multipolar — having multiple dendrites and a single axon — because this is the only morphology compatible with complex neural computation."
+- question: "Most neurons in the mammalian nervous system are multipolar — having multiple dendrites and a single axon — because this is the main morphology compatible with complex neural computation."
   type: true-false
   answer: false
   explanation: "Multiple morphological classes exist in the mammalian nervous system. Bipolar neurons (with one dendritic process and one axon from opposite soma poles) are found in the retina, olfactory epithelium, and cochlea. Pseudounipolar neurons (appearing to have one process that splits into two branches) populate the dorsal root ganglia and carry somatosensory signals. Multipolar neurons are the most common type in the brain, but the diversity of neuron types reflects the diversity of computational tasks — different morphologies enable different signal processing roles."

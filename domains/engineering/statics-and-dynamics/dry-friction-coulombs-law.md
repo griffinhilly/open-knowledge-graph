@@ -57,7 +57,7 @@ Identify which friction state applies (equilibrium, impending, or sliding) befor
   answer: 2
   explanation: "The correct procedure is: assume static equilibrium, solve for the required friction force from equilibrium equations, then compare to F_s,max = μ_s·N. If the required friction is less than or equal to the maximum, the crate stays put and friction equals the required value. If equilibrium would require more friction than the surface can provide, sliding occurs and you switch to F = μ_k·N. The friction state must be determined before you can write the correct friction equation — there is no shortcut."
 
-- question: "The friction force between two surfaces always equals μ_s × N, regardless of the magnitude of the applied load."
+- question: "The friction force between two surfaces usually equals μ_s × N, regardless of the magnitude of the applied load."
   type: true-false
   answer: false
   explanation: "F = μ_s·N gives the maximum static friction force — the upper limit, not the actual value. For any applied load that does not cause impending motion, the actual friction force is less than this maximum and is determined by equilibrium. Only at the instant of impending slip does the friction force reach μ_s·N. This reactive character distinguishes friction from most other forces in statics: you cannot write the friction force directly from geometry; you must first determine the friction state."

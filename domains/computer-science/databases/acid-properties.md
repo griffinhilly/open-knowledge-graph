@@ -62,7 +62,7 @@ Work through scenarios that would violate each property: crash mid-transfer (ato
   answer: true
   explanation: "ACID guarantees correct execution of what you ask the database to do — atomicity, consistency relative to schema constraints, isolation from other transactions, durability of commits. It cannot protect against application logic that is itself wrong. If code incorrectly calculates the transfer amount, or updates the wrong account ID, ACID will faithfully and durably commit the incorrect result. Consistency in ACID refers to schema invariants (foreign keys, CHECK constraints), not the semantic correctness of application logic."
 
-- question: "'Consistency' in the ACID acronym means the same thing as 'consistency' in the CAP theorem — both ensure that all nodes in a distributed system see the same data at the same time."
+- question: "'Consistency' in the ACID acronym means the same thing as 'consistency' in the CAP theorem — both ensure that most nodes in a distributed system see the same data at the same time."
   type: true-false
   answer: false
   explanation: "These are completely different concepts that share only a name. ACID consistency means a transaction must preserve all application-defined invariants declared in the schema (constraints, foreign keys, triggers) — it is about transitioning the database between valid states. CAP consistency (linearizability) means all distributed replicas appear as a single up-to-date copy — every read sees the most recent write. Confusing these is a common and consequential error when reasoning about distributed database tradeoffs."

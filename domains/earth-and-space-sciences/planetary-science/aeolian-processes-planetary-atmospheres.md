@@ -59,7 +59,7 @@ Calculate threshold wind speeds for particle motion under different planetary gr
   answer: true
   explanation: "This is correct. Saltation hop length and height depend on gravity: lower gravity means particles launched upward travel higher and farther before returning to the surface. Each impact can then mobilize more particles. This is why Mars, despite its thin atmosphere, maintains active saltation — the low gravity amplifies the efficiency of each bounce, extending the chain reaction of particle mobilization even when wind energy is limited."
 
-- question: "A denser planetary atmosphere always produces more active aeolian processes because higher-density air exerts greater force on surface particles."
+- question: "A denser planetary atmosphere typically produces more active aeolian processes because higher-density air exerts greater force on surface particles."
   type: true-false
   answer: false
   explanation: "Venus disproves this claim. Its atmosphere is 90× denser than Earth's yet surface winds are extremely weak, limiting mechanical aeolian transport. Shear stress on particles scales as ρ × u² (density × velocity squared), so a very dense atmosphere with near-zero wind speed produces negligible shear stress. Titan, with a thick nitrogen atmosphere and low gravity, has active aeolian dune fields — showing that the combination of density, wind speed, and gravity together determines aeolian effectiveness, not density alone."

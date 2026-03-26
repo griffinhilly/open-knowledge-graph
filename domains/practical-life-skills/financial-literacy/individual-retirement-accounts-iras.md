@@ -47,7 +47,7 @@ IRAs are self-directed retirement accounts with tax advantages; traditional IRAs
   answer: 2
   explanation: "Traditional wins here because deduction and withdrawal happen at different rates. She avoided $2,590 in taxes when deducting at 37% and will pay only $840 at 12% — a net benefit of $1,750 over Roth. The Roth would have cost her $2,590 upfront with no recovery. The core principle: deduct at the higher rate, pay at the lower rate. The investments inside the account don't change this calculation — both accounts shelter the same compounding; the difference is only when taxes are collected."
 
-- question: "A Roth IRA is always superior to a Traditional IRA because all future growth is tax-free, making it the better choice regardless of current or expected future tax brackets."
+- question: "A Roth IRA is generally superior to a Traditional IRA because most future growth is tax-free, making it the better choice regardless of current or expected future tax brackets."
   type: true-false
   answer: false
   explanation: "This is the most common IRA misconception. The math of Traditional vs. Roth is actually equivalent when tax rates are identical — both shelter compounding from annual taxation, and the difference is only when taxes are paid. A person in a 35% bracket today who expects to be in a 15% bracket in retirement will pay fewer lifetime taxes using a Traditional IRA (deducting at 35%, paying at 15%). Roth only dominates when future tax rates exceed current rates. The decision is always about the rate comparison, not a blanket preference for either account."

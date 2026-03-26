@@ -56,7 +56,7 @@ Present matched pairs of a fragment/run-on and its corrected version, asking lea
   answer: 2
   explanation: "Option C fuses two independent clauses ('She was exhausted' and 'she kept working') with no punctuation or conjunction between them — a classic run-on. Option A is correct (semicolon + transitional adverb). Option B is correct (coordinating conjunction after a comma). Option D is a different kind of error (faulty parallelism) but not a run-on."
 
-- question: "A very long sentence with many clauses is always a run-on sentence."
+- question: "A very long sentence with many clauses is generally a run-on sentence."
   type: true-false
   answer: false
   explanation: "Length is irrelevant to the run-on diagnosis. A run-on is defined by structure: two or more independent clauses joined without proper punctuation or conjunction. A long sentence with multiple properly connected clauses — using semicolons, coordinating conjunctions, or subordinating conjunctions — is a well-formed sentence, not a run-on."

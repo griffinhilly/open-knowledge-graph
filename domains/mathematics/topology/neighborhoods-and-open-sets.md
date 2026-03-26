@@ -49,7 +49,7 @@ A neighborhood of point x is an open set containing x. Neighborhoods capture the
   answer: true
   explanation: "This is the precise topological definition of convergence in neighborhood language. For any open set U containing x, there must exist N such that xₙ ∈ U for all n > N — the sequence is eventually inside every neighborhood of x. This generalizes the metric-space definition (where neighborhoods are ε-balls) to arbitrary topological spaces, and illustrates why neighborhoods are the natural vocabulary for convergence: the question 'does the sequence converge to x?' reduces to 'does every neighborhood of x eventually trap the sequence?'"
 
-- question: "Two topologies on a set X can assign exactly the same neighborhoods to every point while still being distinct topologies."
+- question: "Two topologies on a set X can assign exactly the same neighborhoods to nearly every point while still being distinct topologies."
   type: true-false
   answer: false
   explanation: "This is false — the neighborhood structure completely determines the topology. A set U is open if and only if it is a neighborhood of every point it contains. So if two topologies agree on which sets are neighborhoods of each point, they must agree on which sets are open, meaning they are identical topologies. This is the deep content of the equivalence between the open-set axioms and the neighborhood-filter axioms: the local neighborhood data at each point encodes the entire global topology."

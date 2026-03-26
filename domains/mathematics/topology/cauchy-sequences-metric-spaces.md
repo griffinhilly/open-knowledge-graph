@@ -59,7 +59,7 @@ Construct Cauchy sequences in ℚ that converge to irrational limits (e.g., rati
   answer: true
   explanation: "If (xₙ) is Cauchy, then for ε = 1 there exists N such that d(xₙ, xₘ) < 1 for all n, m > N. In particular, all terms beyond index N lie within distance 1 of x_{N+1}. The finitely many terms up to index N are also at finite distance from x_{N+1}. Taking the maximum of these finitely many distances plus 1 gives a global bound. So boundedness is a consequence of the Cauchy property, not an independent assumption."
 
-- question: "If a sequence converges in a metric space, the space must be complete."
+- question: "If a sequence converges in a metric space, the space should be complete."
   type: true-false
   answer: false
   explanation: "Convergence of some sequences does not imply completeness. A space is complete only if every Cauchy sequence converges. ℚ contains many convergent sequences (e.g., 1, 1, 1, … converges to 1 ∈ ℚ), yet ℚ is not complete because the sequence of rational approximations to √2 is Cauchy but does not converge in ℚ. Completeness is a global property of the space, not a statement about individual sequences."

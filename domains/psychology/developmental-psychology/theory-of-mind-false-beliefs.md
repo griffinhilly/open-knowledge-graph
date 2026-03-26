@@ -56,7 +56,7 @@ False-belief understanding is not all-or-nothing; partial understanding emerges 
   answer: 2
   explanation: "The dissociation between implicit (looking) and explicit (verbal) measures reveals that theory of mind is not all-or-nothing. A precursor system — possibly sensitivity to agent expectations — operates early but below the level of conscious, verbalizable reasoning. The age-4 transition marks when children can use this understanding explicitly to answer direct questions and make deliberate inferences. Development is a gradual building of representational capacity, not a sudden switch. This also explains why the 'false-belief ability' emerges slowly rather than appearing overnight."
 
-- question: "A child who fails the Sally-Anne task must not understand what the experimenter is asking them."
+- question: "A child who fails the Sally-Anne task is expected to not understand what the experimenter is asking them."
   type: true-false
   answer: false
   explanation: "This reverses the correct interpretation. Children who fail the task typically understand the question perfectly well — they just cannot reason from Sally's perspective. They answer with the actual location of the marble because their own knowledge of reality is cognitively dominant: they cannot simultaneously hold the true state of the world AND Sally's false belief, then set aside their own knowledge to answer from hers. The failure is a representational limitation, not a comprehension failure."

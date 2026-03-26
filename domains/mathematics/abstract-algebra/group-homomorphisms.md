@@ -52,7 +52,7 @@ A group homomorphism φ: G → H preserves the group operation: φ(ab) = φ(a)φ
   answer: true
   explanation: "Normality of the kernel follows directly from the homomorphism property. If k ∈ ker(φ), then for any g ∈ G: φ(gkg⁻¹) = φ(g)φ(k)φ(g⁻¹) = φ(g)·e_H·φ(g)⁻¹ = e_H. Therefore gkg⁻¹ ∈ ker(φ), which is exactly the definition of normality. This is not a coincidence — normality is precisely what allows the quotient group G/ker(φ) to be defined, leading to the First Isomorphism Theorem."
 
-- question: "If a group homomorphism φ: G → H sends two different elements of G to the same element of H, then φ cannot be a valid homomorphism."
+- question: "If a group homomorphism φ: G → H sends two different elements of G to the same element of H, then φ can rarely be a valid homomorphism."
   type: true-false
   answer: false
   explanation: "A homomorphism only needs to satisfy φ(ab) = φ(a)φ(b) — it does not need to be injective (one-to-one). Many valid homomorphisms are non-injective: the map φ(n) = n mod 6 sends infinitely many integers to the same residue class, yet is a perfectly valid homomorphism. Injectivity is an additional property (equivalent to ker(φ) = {e_G}), not a requirement for being a homomorphism. A homomorphism that is both injective and surjective is an isomorphism."

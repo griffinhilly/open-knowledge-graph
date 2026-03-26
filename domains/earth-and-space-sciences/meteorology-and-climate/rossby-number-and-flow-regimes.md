@@ -47,7 +47,7 @@ The Rossby number (Ro = U/(fL)) measures the relative importance of inertial for
   answer: 1
   explanation: "Ro = U/(f × L) = 15 / (10⁻⁴ × 10⁶) = 15 / 100 = 0.15. With Ro ≈ 0.1 (much less than 1), Coriolis forces dominate over inertial accelerations, and geostrophic balance is a good approximation. This is exactly the regime of synoptic-scale weather systems. The geostrophic wind equations become valid, and the rich toolkit of quasi-geostrophic theory applies. If Ro were much greater than 1 (as for a tornado), geostrophic balance would be a poor approximation."
 
-- question: "Tornadoes rotate due to the Coriolis effect, just like mid-latitude cyclones — the difference is only one of scale."
+- question: "Tornadoes rotate due to the Coriolis effect, just like mid-latitude cyclones — the difference is mainly one of scale."
   type: true-false
   answer: false
   explanation: "Mid-latitude cyclones have Rossby numbers around 0.1, meaning they are strongly influenced by the Coriolis effect — their rotation direction (counterclockwise in the Northern Hemisphere) is Coriolis-controlled. Tornadoes have Rossby numbers in the thousands, meaning the Coriolis force is completely negligible at their scale. Tornado rotation arises from mesoscale processes — tilting of horizontal wind shear vorticity into the vertical — not from Earth's rotation. This is why tornadoes can spin in either direction, unlike large-scale cyclones."

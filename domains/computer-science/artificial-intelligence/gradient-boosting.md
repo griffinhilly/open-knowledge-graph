@@ -48,12 +48,12 @@ Gradient boosting fits weak learners sequentially to residuals, focusing on rema
   answer: 1
   explanation: "For squared error, the residual equals the negative gradient — so fitting residuals and fitting the negative gradient are identical in that special case. For any other loss function, gradient boosting fits trees to the negative gradient of the loss (the pseudo-residuals), not the raw residual. This is why the method is called 'gradient' boosting and why it generalizes to classification, quantile regression, and ranking tasks: the pseudo-residuals adapt to whatever loss function is being minimized. AdaBoost reweights examples (C); XGBoost uses the Hessian additionally (D) for better split-finding, but the base algorithm fits the negative gradient."
 
-- question: "Reducing the learning rate in gradient boosting always decreases final model accuracy because each tree contributes less to the ensemble."
+- question: "Reducing the learning rate in gradient boosting usually decreases final model accuracy because each tree contributes less to the ensemble."
   type: true-false
   answer: false
   explanation: "A smaller learning rate typically improves generalization accuracy, provided the number of trees is increased accordingly. A small learning rate makes each additive step more conservative, acting as regularization that prevents large, overconfident updates. The tradeoff is computational: more trees are needed to reach the same training loss. Standard practice is to use a small learning rate (e.g., 0.05) and determine the optimal number of trees via early stopping on a validation set. This combination consistently outperforms a large learning rate with fewer trees."
 
-- question: "In gradient boosting, each tree is trained to predict the original target values, and the residuals from each tree are used only to select subsequent tree split points."
+- question: "In gradient boosting, each tree is trained to predict the original target values, and the residuals from each tree are used primarily to select subsequent tree split points."
   type: true-false
   answer: false
   explanation: "Each tree in gradient boosting is explicitly trained to predict the current residuals (or negative gradients) — these ARE the target values for each successive tree, not just a criterion for split selection. The tree's structure and leaf values are both fitted to minimize the residuals of the current ensemble. Only the first prediction uses the original targets (typically set to the mean for regression); every subsequent tree fits a supervised signal derived entirely from the current ensemble's errors, not the original labels."

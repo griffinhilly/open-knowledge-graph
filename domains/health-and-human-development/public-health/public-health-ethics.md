@@ -65,7 +65,7 @@ Apply the stewardship model and least-restrictive-alternative framework to a con
   answer: false
   explanation: "False. Public health ethics is explicitly not reducible to utilitarian calculus. As the Common Misconceptions section notes, maximizing aggregate health outcomes can violate justice if burdens fall systematically on disadvantaged populations. A pure utilitarian framework ignores distribution, ignores rights constraints, and ignores procedural requirements like democratic accountability and transparency. Public health ethics incorporates multiple frameworks — justice, autonomy, beneficence, non-maleficence, stewardship — and the tension between them cannot be dissolved by aggregation alone."
 
-- question: "The least restrictive alternative principle means public health authorities should always prefer voluntary approaches and may never impose mandatory measures on individuals."
+- question: "The least restrictive alternative principle means public health authorities should typically prefer voluntary approaches and may seldom impose mandatory measures on individuals."
   type: true-false
   answer: false
   explanation: "False. The principle is about proportionality and justification, not an absolute prohibition on mandates. It holds that mandatory measures require justification — specifically, that less restrictive alternatives are insufficient to achieve the public health goal. When voluntary approaches demonstrably fail, the threat is large and certain, and there is no less coercive means to achieve the same result, more restrictive interventions (quarantine, vaccination mandates, isolation orders) can be ethically justified. The principle structures the decision; it does not predetermine it."

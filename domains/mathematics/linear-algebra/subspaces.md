@@ -52,7 +52,7 @@ A subspace W of vector space V is a nonempty subset closed under addition and sc
   answer: true
   explanation: "True. If W is a nonempty subspace and w ∈ W, then 0·w = 0 must be in W by closure under scalar multiplication. The zero vector is guaranteed — it is a theorem, not an extra axiom. A subset that does not contain 0 cannot be a subspace, which is why the fastest way to disprove a subspace claim is to check whether 0 is in the set."
 
-- question: "A nonempty subset of ℝ² that is closed under vector addition must be a subspace."
+- question: "A nonempty subset of ℝ² that is closed under vector addition is expected to be a subspace."
   type: true-false
   answer: false
   explanation: "False. Closure under addition alone is insufficient — you also need closure under scalar multiplication. Consider the set of all vectors with integer coordinates: {(m, n) : m, n ∈ ℤ}. This is closed under addition, but (0.5)·(1, 0) = (0.5, 0) is not in the set, so it fails scalar closure. Both conditions are required."

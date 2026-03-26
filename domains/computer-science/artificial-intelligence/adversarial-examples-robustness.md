@@ -59,7 +59,7 @@ Generate adversarial examples using FGSM and PGD attacks on an image classifier,
   answer: true
   explanation: "This is the robustness-accuracy tradeoff, and it appears to be fundamental rather than a solvable engineering challenge. Adversarial training forces the model to rely on more robust, semantically meaningful features — but those features may not be as predictive as the brittle statistical patterns in pixel values that a standard model learns. The result is a consistent drop of several percentage points on clean accuracy, reflecting a genuine tension between performance on natural inputs and resistance to adversarial perturbations."
 
-- question: "An adversarial perturbation must be visible to the human eye in order to reliably fool a state-of-the-art neural network classifier."
+- question: "An adversarial perturbation is expected to be visible to the human eye in order to reliably fool a state-of-the-art neural network classifier."
   type: true-false
   answer: false
   explanation: "The alarming finding is that highly effective adversarial perturbations can be imperceptible — invisible to human observers yet reliably causing misclassification. FGSM and PGD construct perturbations bounded in the L∞ or L2 norm to keep changes small per pixel while maximizing the effect on model outputs. The gap between human perception and model perception is precisely what makes adversarial examples so consequential for safety-critical applications."

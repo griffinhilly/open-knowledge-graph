@@ -58,7 +58,7 @@ Observe and video-record toddlers' responses to frustration (toy removal, task f
   answer: true
   explanation: "Cognitive reappraisal requires the child to hold the emotion in working memory while simultaneously generating an alternative interpretation of the situation — a dual-processing demand that depends on prefrontal maturation and working memory capacity. These executive function resources are not yet available to toddlers and young preschoolers. Behavioral strategies (distraction, physical movement) do not require this capacity — they work by changing the external situation or discharging arousal directly. The developmental sequence runs from external/caregiver regulation → behavioral strategies → cognitive strategies, tracking the maturation of executive function."
 
-- question: "Problem-focused coping is the most effective strategy for all childhood stressors because it directly addresses the source of distress."
+- question: "Problem-focused coping is the most effective strategy for most childhood stressors because it directly addresses the source of distress."
   type: true-false
   answer: false
   explanation: "Problem-focused coping is most effective when the stressor is *controllable* — when taking action can reduce or eliminate the source of distress. For *uncontrollable* stressors (a parent's illness, a natural disaster, a friend moving away), problem-focused coping is ineffective or even harmful because no action can change the situation. In those cases, emotion-focused strategies (acknowledging feelings, reappraisal, seeking social support) are more adaptive. Children who apply problem-focused coping rigidly to uncontrollable stressors show worse outcomes than those who flexibly match strategy to context."

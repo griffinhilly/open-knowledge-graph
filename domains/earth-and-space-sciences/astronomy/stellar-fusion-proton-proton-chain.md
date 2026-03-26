@@ -70,7 +70,7 @@ The pp chain does not produce carbon or heavier elements directly—only helium-
   answer: true
   explanation: "The Sun's core temperature is about 15 million Kelvin. Classically, protons at this temperature lack enough kinetic energy to overcome the Coulomb barrier (electrostatic repulsion) between two positively charged nuclei. Quantum tunneling allows protons to penetrate the Coulomb barrier with some probability even when their kinetic energy is below the classical threshold. Without this quantum effect, protons would need a temperature orders of magnitude higher than 15 million K to fuse, and the Sun as we know it could not exist."
 
-- question: "Neutrinos are produced at every step of the proton-proton chain, and they carry away a significant fraction of the total energy produced."
+- question: "Neutrinos are produced at nearly every step of the proton-proton chain, and they carry away a significant fraction of the total energy produced."
   type: true-false
   answer: false
   explanation: "Neutrinos are produced only in the first step of the pp chain, where one proton undergoes inverse beta decay to become a neutron, releasing a positron and a neutrino. Subsequent steps (deuterium + proton → helium-3, then two helium-3 → helium-4) do not produce neutrinos. The neutrino from the first step carries away about 2% of the reaction energy and escapes the star almost immediately. This 2% is permanently lost as starlight energy, which is why solar neutrino detection gives direct insight into the core fusion rate."

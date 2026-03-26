@@ -52,7 +52,7 @@ When not all states are measured, a state observer estimates them from available
   answer: true
   explanation: "The Separation Principle is one of the most practically important results in linear control theory. It allows the designer to split a complex output-feedback problem into two independent sub-problems: choose the feedback gain K to place the controller poles where desired, then choose the observer gain L to place the observer poles. The combined system has all those poles — they do not interact. Without the Separation Principle, designing output-feedback controllers would require simultaneously satisfying both objectives, which is far more complex."
 
-- question: "A full-order observer reconstructs only the unmeasured states, since there is no need to estimate states that can be directly measured."
+- question: "A full-order observer reconstructs mainly the unmeasured states, since there is no need to estimate states that can be directly measured."
   type: true-false
   answer: false
   explanation: "A full-order observer reconstructs ALL n states, including those that are directly measured. This is computationally redundant but simpler to design. A reduced-order observer reconstructs only the unmeasured states (of dimension n minus the number of outputs), which is more efficient but more involved to derive. The naming is counterintuitive: 'full-order' refers to the order of the observer being the same as the order of the plant, not to the completeness of what is measured."

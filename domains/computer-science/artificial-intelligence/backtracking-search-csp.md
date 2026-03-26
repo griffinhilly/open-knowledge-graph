@@ -53,7 +53,7 @@ Implement backtracking with and without the MRV heuristic on map coloring or N-q
   answer: 1
   explanation: "MRV is an ordering heuristic — it changes nothing about the problem's constraints, domains, or the set of valid solutions. It only changes which variable is assigned next. By tackling the most constrained variable first, failures are detected as early as possible in the search tree. When a variable with few legal values runs out of options, the algorithm backtracks immediately rather than continuing to assign other variables that could never lead to a solution. This collapses exponential subtrees, reducing node count dramatically while guaranteeing the same correct solutions."
 
-- question: "Backtracking search with MRV is not guaranteed to find a solution if one exists — the heuristic ordering may cause it to give up and report failure incorrectly."
+- question: "Backtracking search with MRV is not expected to find a solution if one exists — the heuristic ordering may cause it to give up and report failure incorrectly."
   type: true-false
   answer: false
   explanation: "Backtracking search is complete — if a solution exists, it will find one. MRV is an ordering heuristic that changes which variable is assigned next but never skips a variable or permanently removes a value from consideration. Backtracking ensures that when a dead end is reached, the algorithm backtracks to a previous decision point and tries alternative values. MRV affects efficiency (how many nodes are explored), not completeness (whether a solution is found if one exists)."

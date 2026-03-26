@@ -56,7 +56,7 @@ Open sets determine all other topological concepts. A function f : X → Y is co
   answer: 1
   explanation: "The topology axioms require that both ∅ and X itself belong to any topology — these are the only sets that must be open in every topology. Everything else depends on the choice of topology. The discrete topology makes every subset open; the indiscrete topology makes only ∅ and X open. Singletons are not always open (they fail in the indiscrete topology). Finite subsets are not always open (they may be absent from a topology). 'Openness' is a property conferred by the topology, not intrinsic to the set."
 
-- question: "In a topological space, an arbitrary (possibly infinite) intersection of open sets is always open."
+- question: "In a topological space, an arbitrary (possibly infinite) intersection of open sets is generally open."
   type: true-false
   answer: false
   explanation: "The open-set axioms only guarantee that finite intersections of open sets are open. Infinite intersections can fail to be open. A classic example in ℝ with the standard topology: the open intervals (−1/n, 1/n) are open for every positive integer n, but their intersection ⋂ₙ (−1/n, 1/n) = {0}, a single point, which is not open in ℝ. The restriction to finite intersections is not an oversight — it is carefully designed to exclude this failure while preserving enough structure for the theory to work."

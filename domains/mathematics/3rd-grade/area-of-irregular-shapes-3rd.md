@@ -58,7 +58,7 @@ Provide grid paper and irregular shapes (drawn on or physical). Have students co
   answer: true
   explanation: "Area is defined as the number of unit squares needed to cover a shape — this definition applies to *any* shape, regardless of how irregular it is. The multiplication shortcut (length × width) only works for rectangles. For everything else, you return to the original counting definition: tile the interior with unit squares and count. The shape's boundary determines what is 'inside'; anything inside contributes to the area."
 
-- question: "A shape with a longer perimeter always has a greater area than a shape with a shorter perimeter."
+- question: "A shape with a longer perimeter usually has a greater area than a shape with a shorter perimeter."
   type: true-false
   answer: false
   explanation: "Perimeter and area are independent measurements — one does not determine the other. A long, thin rectangle (like 1 × 20 units) has a perimeter of 42 units but an area of only 20 square units. A compact square (5 × 5) has a perimeter of 20 units but an area of 25 square units. The thin rectangle has a bigger perimeter but smaller area. This is why the two concepts must be kept strictly separate."

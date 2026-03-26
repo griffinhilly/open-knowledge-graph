@@ -58,7 +58,7 @@ Join a low-stakes call with a friend or family member to practice toggling mute,
   answer: false
   explanation: "Downloading a file only requires download bandwidth and tolerates speed fluctuations — it just takes longer. A video call requires consistent bandwidth in both directions (upload for your camera, download for everyone else's) plus low latency. Speed fluctuations that are harmless during file downloads cause visible freezing or audio choppiness during video calls."
 
-- question: "Selecting 'Share Screen' and choosing a specific application window guarantees that only that window is visible to other participants."
+- question: "Selecting 'Share Screen' and choosing a specific application window guarantees that primarily that window is visible to other participants."
   type: true-false
   answer: false
   explanation: "Some platforms default to sharing your entire desktop rather than just the selected window, and even window-specific sharing can expose notifications that pop up over your shared content. Best practice: close sensitive content, preview what you're sharing before participants see it, and ask a participant to confirm the correct content is visible. Relying on the platform to limit sharing without verification is a common source of accidental disclosure."

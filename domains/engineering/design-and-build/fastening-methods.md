@@ -43,7 +43,7 @@ Set up testing stations: have students join two craft sticks using different met
   answer: 2
   explanation: "An outdoor birdhouse faces rain, wind, and temperature changes. Masking tape would peel off when wet. White school glue dissolves in water. Rubber bands would stretch and rot. Waterproof wood glue creates a permanent, water-resistant bond, and screws provide strong mechanical clamping that does not weaken when wet."
 
-- question: "Using more glue always makes a joint stronger."
+- question: "Using more glue generally makes a joint stronger."
   type: true-false
   answer: false
   explanation: "A thin, even layer of glue on both surfaces creates the strongest bond because it maximizes surface contact and dries rigid. A thick glob of glue creates a weak, flexible layer between the pieces. In woodworking, excess glue that squeezes out when pieces are pressed together is actually a sign of a good joint — the surfaces are close together with a thin adhesive layer."

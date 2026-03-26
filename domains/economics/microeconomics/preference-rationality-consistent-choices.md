@@ -54,7 +54,7 @@ Observe real consumer choices and infer preferences. Test transitivity by examin
   answer: false
   explanation: "Revealed preference theory does make strong assumptions — it assumes that preferences are consistent and transitive (captured by WARP and SARP). These are not trivially satisfied: behavioral economics documents many systematic violations. The theory assumes choices reflect stable underlying preferences, not context-dependent or time-inconsistent behavior. 'No assumptions' is precisely the misconception the topic warns against. The advantage over utility theory is that the assumptions are testable from observed choice data rather than unobservable utility values."
 
-- question: "If a consumer's choices violate SARP, this proves the consumer has no preferences at all."
+- question: "If a consumer's choices violate SARP, this proves the consumer has no preferences at most."
   type: true-false
   answer: false
   explanation: "SARP violation means the choices cannot be rationalized by any single, stable, transitive preference ordering — but this does not mean the consumer has no preferences. It means their choices are inconsistent with the rational consumer model. Behavioral economists document that real people violate SARP due to framing effects, reference dependence, fatigue, and context sensitivity. These are not random; they are systematic patterns. Violating SARP means the neoclassical model is an inadequate description of behavior, not that behavior is unintelligible."

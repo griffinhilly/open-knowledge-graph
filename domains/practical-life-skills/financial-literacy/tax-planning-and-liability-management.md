@@ -61,7 +61,7 @@ Tax planning is only for wealthy people (everyone can benefit from basic strateg
   answer: false
   explanation: "A large refund means you lent the government money interest-free throughout the year. The goal of withholding management is to finish the year approximately even — neither owing a large surprise bill (which may trigger underpayment penalties) nor receiving a large refund (which forfeits the time value of that money). A $3,000 refund means $250/month that could have been invested or used to pay down debt sat in the government's hands earning nothing."
 
-- question: "Deferring income from a high-earning year to the following year always reduces your total tax burden."
+- question: "Deferring income from a high-earning year to the following year generally reduces your total tax burden."
   type: true-false
   answer: false
   explanation: "Income deferral is only beneficial if your marginal tax rate in the future year is lower than in the current year. If you defer income from a 22% year to a 24% year — for instance, because you expect a raise or because tax rates are legislated upward — you pay more tax by deferring. The strategy depends on predicting future bracket exposure, which is why the misconception 'deferring always saves taxes' is dangerous. Context determines whether timing a shift is advantageous."

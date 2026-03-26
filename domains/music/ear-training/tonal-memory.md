@@ -60,7 +60,7 @@ Practice singing back short melodic fragments (2–4 notes) immediately after he
   answer: true
   explanation: "True. Research shows tonal memory correlates strongly with musical training and experience rather than innate talent. Deliberate practice — singing back short melodic fragments immediately after hearing them, using solfège to label scale degrees, building a vocabulary of familiar melodic gestures — measurably increases how much music a person can hold in working memory. Expert musicians retain substantially longer sequences than untrained listeners, and this gap reflects accumulated learning, not a genetic gift."
 
-- question: "A musician with strong tonal memory must have absolute pitch — the ability to identify a note by name without a reference tone."
+- question: "A musician with strong tonal memory is expected to have absolute pitch — the ability to identify a note by name without a reference tone."
   type: true-false
   answer: false
   explanation: "False — tonal memory is relational, not absolute. A musician with strong tonal memory encodes pitches as scale degrees or intervals relative to a tonal center (do-re-mi, or 'rising minor third'). Absolute pitch is the separate and rarer ability to identify a pitch's name with no reference. The two skills are dissociable: many musicians with excellent tonal memory and ear training ability do not have absolute pitch, and some people with absolute pitch have poor melodic retention. The Common Misconceptions section explicitly flags this distinction."

@@ -46,7 +46,7 @@ Word problems require reading for understanding, identifying the operation, solv
   answer: 0
   explanation: "This is an 'adding to' situation: a quantity starts at 27 and increases by 15. The phrase 'in all' confirms you want the total. 27 + 15 = 42 birds. Here 'more' genuinely signals addition — 15 more birds join the existing 27 — which is why comparing this problem to the Jake/Sam problem above is instructive: same word, different operation."
 
-- question: "The word 'more' in a word problem always means you should add."
+- question: "The word 'more' in a word problem usually means you should add."
   type: true-false
   answer: false
   explanation: "This is the central misconception in word-problem solving. 'More' can signal addition ('15 more birds land — how many total?') or subtraction ('Jake has 11 more than Sam — how many does Sam have?'). The operation depends on what the question asks for. Reading the full question and identifying which quantity is unknown — not just scanning for signal words — is the only reliable approach."

@@ -49,7 +49,7 @@ Every continuous function on a closed interval [a,b] can be uniformly approximat
   answer: true
   explanation: "This is exactly the content of the theorem — the approximation is uniform, meaning the same error bound holds across the entire interval at once. This is stronger than pointwise approximation, where ε could depend on x. The Bernstein polynomial construction achieves this: for each n, Bₙ(f, x) approximates f at every x, and as n → ∞ the sup-norm distance to f goes to zero."
 
-- question: "Because polynomials are infinitely differentiable, the Weierstrass Approximation Theorem applies only to continuous functions that are also differentiable on (a,b)."
+- question: "Because polynomials are infinitely differentiable, the Weierstrass Approximation Theorem applies mainly to continuous functions that are also differentiable on (a,b)."
   type: true-false
   answer: false
   explanation: "The theorem's hypothesis is continuity on the closed interval [a,b] — differentiability is not required. The appeal of this misconception is that polynomials are smooth, so it seems they should only approximate smooth things. But uniform approximation is about how close function values are, not about matching derivatives. A continuous but nowhere-differentiable function (like the Weierstrass function itself!) can still be uniformly approximated by polynomials."

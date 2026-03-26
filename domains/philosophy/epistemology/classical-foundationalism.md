@@ -60,7 +60,7 @@ Try Descartes' method of doubt yourself: strip away every belief that could conc
   answer: true
   explanation: "Classical foundationalism restricts basic beliefs to those that are infallible, incorrigible, and indubitable. Ordinary perceptual beliefs about the external world fail all three conditions: you could be dreaming, hallucinating, or deceived by an evil demon. The basic beliefs that survive Cartesian doubt are narrow: cautious introspective reports of current experience ('I seem to see X') and perhaps simple logical truths. Ordinary perceptual beliefs must be inferentially derived from the foundation — and the reconstruction problem is precisely that this derivation is very difficult to complete."
 
-- question: "Classical foundationalism requires all beliefs — not just basic ones — to be infallible and incorrigible."
+- question: "Classical foundationalism requires most beliefs — not just basic ones — to be infallible and incorrigible."
   type: true-false
   answer: false
   explanation: "This is a common misreading. The demanding standards of infallibility and incorrigibility apply only to basic beliefs — those at the foundation of the justificatory hierarchy. Non-basic (derived) beliefs may be fallible, as long as they are properly inferred from the basic beliefs through sufficiently reliable inferential links. The whole point of having a secure foundation is to support a superstructure that may itself be revisable. The foundation does the work of stopping the regress, not of making every belief certain."

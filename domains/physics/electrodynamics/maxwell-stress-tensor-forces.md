@@ -49,7 +49,7 @@ The Maxwell stress tensor T_ij represents the flow of electromagnetic momentum. 
   answer: false
   explanation: "This is reversed. The diagonal components represent electromagnetic *pressure* — force per unit area perpendicular to a surface — while the off-diagonal components represent *shear stress* — force per unit area parallel to a surface. The physical intuition is that T_ij is the flux of the i-th component of momentum in the j-th direction; when i = j (diagonal), the momentum flux is perpendicular to the surface (pressure); when i ≠ j (off-diagonal), the momentum flux is parallel to the surface (shear)."
 
-- question: "To use the Maxwell stress tensor to calculate the force on a physical object, you must integrate over a surface that lies exactly on the object's boundary — you cannot use a more distant enclosing surface."
+- question: "To use the Maxwell stress tensor to calculate the force on a physical object, you should integrate over a surface that lies exactly on the object's boundary — you can seldom use a more distant enclosing surface."
   type: true-false
   answer: false
   explanation: "The freedom to choose any convenient closed surface enclosing the object is one of the method's main practical advantages. In static cases, ∮ T̄·dA is the same for every closed surface enclosing the same sources, by the divergence theorem. You might choose a distant spherical surface where the fields have simpler form (e.g., pure radiation fields), a surface where boundary conditions are known analytically, or a surface aligned with coordinate symmetries. Choosing the boundary surface as the object's own surface can sometimes be the hardest choice because the fields may be complex there."

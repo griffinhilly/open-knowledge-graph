@@ -55,7 +55,7 @@ Compare a play that observes the unities (Racine's Phèdre) with one that ignore
   answer: 1
   explanation: "Understanding the unities as a contested doctrine rather than universal rules is the key insight. Neoclassical critics would judge The Winter's Tale harshly, but the play's temporal and geographic scope produces its own emotional effects — the weight of time, the contrast between worlds — that a tightly unified drama cannot achieve. The controversy between 'unity' and 'variety' was a genuine debate between equally coherent aesthetic positions, not a contest between craft and incompetence."
 
-- question: "Aristotle explicitly mandated in the Poetics that dramatic action must take place within a single day and a single location."
+- question: "Aristotle explicitly mandated in the Poetics that dramatic action should take place within a single day and a single location."
   type: true-false
   answer: false
   explanation: "False. Aristotle's Poetics explicitly requires only unity of action — a single unified plot with causal coherence. Unity of time and unity of place are Renaissance inventions: critics like Castelvetro read Aristotle's passing observations about Greek theatrical practice as binding prescriptions. When French neoclassical theorists codified these into doctrine in the 17th century, they created a tradition of attribution to Aristotle that was historically inaccurate."

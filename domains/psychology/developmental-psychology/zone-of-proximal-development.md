@@ -54,7 +54,7 @@ The ZPD is not identical across all domains; a child may have a large ZPD in lan
   answer: 2
   explanation: "Piaget held that developmental stages unfold through internal maturation and that instruction ahead of biological readiness is largely ineffective. Vygotsky inverts the priority: instruction leads development. Good teaching creates ZPDs and accelerates cognitive growth rather than waiting for it to spontaneously emerge. This is why Vygotsky's framework had such profound influence on educational practice."
 
-- question: "A child's ZPD is a fixed, stable property that remains constant across all domains of learning."
+- question: "A child's ZPD is a fixed, stable property that remains constant across most domains of learning."
   type: true-false
   answer: false
   explanation: "The ZPD is domain-specific: a child may have a large ZPD in language but a small one in mathematics. It also shifts over time — as assisted performance becomes independent performance, the zone moves upward. The ZPD is a dynamic, task-specific measure of the gap between current independent competence and what social interaction can currently enable."

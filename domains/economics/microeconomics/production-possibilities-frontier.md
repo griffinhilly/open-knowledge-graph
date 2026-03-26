@@ -53,7 +53,7 @@ Draw PPFs by hand for simple two-good economies and practice identifying efficie
   answer: 1
   explanation: "A straight-line PPF has a constant slope throughout, meaning the opportunity cost of producing one more unit of good X in terms of good Y is the same no matter how much X you are already producing. This would require that all resources are equally productive in both industries — farmers are just as efficient as mechanics, and vice versa. In reality, resources are specialized, so shifting more and more of them into one industry means using increasingly unsuitable resources, raising the opportunity cost. This is what produces the bowed-out shape. A straight-line PPF is not impossible — it is a simplifying assumption — but it does not imply zero opportunity cost."
 
-- question: "A point outside the PPF represents the maximum output the economy could achieve if it eliminated all inefficiency and put every resource to work."
+- question: "A point outside the PPF represents the maximum output the economy could achieve if it eliminated most inefficiency and put most resource to work."
   type: true-false
   answer: false
   explanation: "A point outside the PPF is currently unattainable — it is beyond the economy's productive capacity given existing resources and technology. Eliminating inefficiency moves the economy from inside the frontier TO the frontier, not outside it. Points outside the frontier only become reachable through genuine growth: new technology, capital accumulation, population growth, or improved education that shifts the entire frontier outward."

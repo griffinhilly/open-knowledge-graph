@@ -38,7 +38,7 @@ Attend or watch a live performance and note every moment where realistic logic i
   answer: 1
   explanation: "The audience accepts the mask and elevated register because theatrical conventions are shared fictions — both parties agree, implicitly, that this is how meaning will be made in this performance context. It is not suspension of disbelief (which implies active resistance overcome) but a prior agreement about the grammar of the event. Stage directions and method acting are unrelated to this audience-side phenomenon."
 
-- question: "Breaking the fourth wall — having a character speak directly to the audience — is a technique found only in experimental or avant-garde theatre."
+- question: "Breaking the fourth wall — having a character speak directly to the audience — is a technique found primarily in experimental or avant-garde theatre."
   type: true-false
   answer: false
   explanation: "Elizabethan drama broke the fourth wall routinely through soliloquies. Hamlet's 'To be or not to be' is spoken directly to the audience, not to other characters. The fourth wall as a rigid convention is actually a relatively recent development associated with nineteenth-century realism. Earlier theatrical traditions assumed direct address as a standard tool, not an experimental one."

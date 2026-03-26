@@ -58,7 +58,7 @@ Compute GCDs first by prime factorization to build intuition, then learn the Euc
   answer: 2
   explanation: "Coprime (also called relatively prime) means the two integers share no common factors other than 1, i.e., gcd(a, b) = 1. This does not require either number to be prime itself — for example, 8 and 9 are coprime (gcd = 1) even though neither is prime. Coprimality is crucial because Bézout's identity, applied when gcd = 1, guarantees an integer x such that ax ≡ 1 (mod b) — i.e., a has a multiplicative inverse modulo b. This is the foundation of modular arithmetic and public-key cryptography."
 
-- question: "The Bézout coefficients x and y in the equation ax + by = gcd(a, b) are always positive integers."
+- question: "The Bézout coefficients x and y in the equation ax + by = gcd(a, b) are generally positive integers."
   type: true-false
   answer: false
   explanation: "Bézout coefficients are integers that may be positive, negative, or zero — this surprises many students who expect coefficients in a sum to be positive. For example, gcd(12, 18) = 6, and the Bézout representation is 12·(−1) + 18·1 = 6, where x = −1. In general, if (x₀, y₀) is one solution, then infinitely many solutions exist by adjusting with multiples of b/gcd and a/gcd, and both positive and negative coefficients are possible. Finding the specific coefficients requires the extended Euclidean algorithm."

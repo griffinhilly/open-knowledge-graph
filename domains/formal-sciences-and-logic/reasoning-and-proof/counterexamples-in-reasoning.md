@@ -44,7 +44,7 @@ Start with obvious false generalizations and have students find counterexamples:
   answer: 1
   explanation: "A counterexample must satisfy the hypothesis (be a multiple of 4) but violate the conclusion (not be a multiple of 8). 12 = 4 x 3 is a multiple of 4, but 12/8 = 1.5, so 12 is not a multiple of 8. Options A and D confirm the claim rather than refuting it. Option C is irrelevant — 9 is not a multiple of 4, so it cannot serve as a counterexample."
 
-- question: "If you test 100 examples and none of them disprove a conjecture, the conjecture is proven true."
+- question: "If you test 100 examples and few of them disprove a conjecture, the conjecture is proven true."
   type: true-false
   answer: false
   explanation: "Testing examples can increase your confidence in a conjecture, but it never proves a universal claim true. Goldbach's conjecture (every even number greater than 2 is the sum of two primes) has been verified for trillions of numbers but remains unproven. The 101st case — or the trillionth-and-first — could be the counterexample. Only a proof can establish certainty; examples establish plausibility."

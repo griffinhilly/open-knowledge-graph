@@ -60,12 +60,12 @@ It is important to distinguish connected components from **path-components**. Th
   answer: 1
   explanation: "Removing 0 and 1 from ℝ creates three maximal connected pieces: (−∞, 0), (0, 1), and (1, ∞). Each open interval is connected and cannot be merged with another without crossing a removed point. Option A is wrong because (−∞, 0) and (0, 1) are separated by the missing point 0 — they cannot be joined in X. Option C is wrong: removing even a single point from ℝ disconnects it (ℝ \\ {0} has two components)."
 
-- question: "Connected components of a topological space are always open sets."
+- question: "Connected components of a topological space are generally open sets."
   type: true-false
   answer: false
   explanation: "Connected components are always closed — the closure of a connected set is connected, so the closure of a component is still connected and contained in the component by maximality, meaning the component equals its own closure. However, components are not necessarily open. In the rational numbers ℚ with the subspace topology, every component is a single point — closed but not open. Components are open only when the space is locally connected, which is an additional assumption not required by the definition."
 
-- question: "If two points in a topological space cannot be connected by a continuous path, they must lie in different connected components."
+- question: "If two points in a topological space can rarely be connected by a continuous path, they should lie in different connected components."
   type: true-false
   answer: false
   explanation: "The topologist's sine curve is the canonical counterexample. The point (0, 0) on the vertical accumulation segment and any point on the sine graph cannot be connected by a path — the curve oscillates infinitely fast near the y-axis, preventing a continuous path from crossing. Yet the entire space is connected, so all points lie in the same connected component. Path-connectedness implies connectedness, but not conversely; failing to be path-connected does not imply lying in different connected components."

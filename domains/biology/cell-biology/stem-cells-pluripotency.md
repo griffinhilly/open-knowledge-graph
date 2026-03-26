@@ -43,7 +43,7 @@ Pluripotent stem cells (embryonic stem cells, induced pluripotent stem cells) ca
   answer: 2
   explanation: "The Oct4/Sox2/Nanog network operates as a transcriptional master regulator: these factors bind thousands of genomic loci, activating genes needed for the undifferentiated state and repressing genes that would trigger specialization. Crucially, they also activate each other's expression, creating a positive feedback loop that is self-sustaining as long as external signals (like LIF in mouse ES cells) are present. The open chromatin architecture of pluripotent cells complements this — differentiation genes are poised but suppressed. When the circuit is disrupted, the balance tips and lineage commitment follows."
 
-- question: "When a stem cell differentiates into a specialized cell type, it permanently deletes the genes required for all other cell fates from its genome."
+- question: "When a stem cell differentiates into a specialized cell type, it permanently deletes the genes required for most other cell fates from its genome."
   type: true-false
   answer: false
   explanation: "Differentiation involves epigenetic silencing, not genetic deletion. Differentiated cells contain the same complete genome as the fertilized egg from which they descended. Genes for irrelevant cell types are silenced through DNA methylation and repressive histone modifications, but the underlying DNA sequences are preserved. The proof is Yamanaka's 2006 demonstration: introducing just four transcription factors (Oct4, Sox2, Klf4, c-Myc) into adult skin or liver cells reprogrammed them to iPSCs with broad differentiation potential — impossible if the genes had been physically removed."

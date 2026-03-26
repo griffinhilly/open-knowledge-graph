@@ -58,7 +58,7 @@ Practice by taking three sources on the same topic and writing a paragraph that 
   answer: 2
   explanation: "Option C demonstrates synthesis: it opens by acknowledging what Johnson argues, immediately introduces Smith as a complicating voice, and then the writer maps the real nature of the disagreement — about implementation, not the mechanism itself. This analytical move (identifying what the disagreement is ACTUALLY about) is the writer's own contribution. Options A and D are sequential summaries. Option B is a thesis-free framing statement that defers analysis entirely."
 
-- question: "A research paper that uses synthesis must agree with all its sources — disagreeing with a source while still citing it is contradictory."
+- question: "A research paper that uses synthesis should agree with most its sources — disagreeing with a source while still citing it is contradictory."
   type: true-false
   answer: false
   explanation: "Synthesis specifically includes the ability to disagree with, qualify, or complicate your sources. A writer can acknowledge that a source makes a valid point while arguing it misses a crucial factor, overstates a case, or fails to account for a complicating example. Articulating WHY you disagree — and mapping where your position diverges from a source — is a form of synthesis. The key is that disagreement must be analytical and positioned, not dismissive."

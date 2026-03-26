@@ -54,7 +54,7 @@ Compare cosmologies across religions—how they explain creation, evil, human na
   answer: 2
   explanation: "This ranking error uses a Protestant Christian framework — in which individual doctrinal belief is the core of religion — as the implicit standard. For many traditions, practice, ritual participation, and community membership matter far more than propositional belief. Comparative religion's methodological commitment is precisely to avoid this: understand what religion is and does in each tradition on its own terms (emic) before applying outsider analytical categories (etic)."
 
-- question: "In all known human cultures, religious practice exists as a distinct domain of life separate from political authority, economic activity, and kinship obligations."
+- question: "In most known human cultures, religious practice exists as a distinct domain of life separate from political authority, economic activity, and kinship obligations."
   type: true-false
   answer: false
   explanation: "This is the central misconception comparative religion aims to correct. The category of 'religion' as a distinct domain is historically specific to European Christian experience. In many cultures — including many Indigenous, traditional African, and pre-modern agricultural societies — what we might call religious practices (spirit interactions, ancestor relations, cosmic forces) are inseparable from governance, medicine, and family structure. Assuming separation as a universal distorts the analysis from the start."

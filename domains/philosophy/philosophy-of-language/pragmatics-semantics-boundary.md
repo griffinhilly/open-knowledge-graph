@@ -53,7 +53,7 @@ Pragmatics is just context—pragmatics studies how context and speaker intentio
   answer: 1
   explanation: "Indexicals like 'I,' 'here,' and 'now' show that context can determine truth conditions — the very content of what is literally said — not merely what is implied beyond what is said. This is semantic context-dependence, not pragmatic implicature. The minimalist view that semantics provides a context-independent core is challenged precisely by indexicals, which require context as an input to produce any truth-evaluable semantic content at all."
 
-- question: "The boundary between semantics and pragmatics is a pre-theoretical, natural distinction that all major theories of language agree upon in its basic outline."
+- question: "The boundary between semantics and pragmatics is a pre-theoretical, natural distinction that most major theories of language agree upon in its basic outline."
   type: true-false
   answer: false
   explanation: "The boundary is a theoretical construct, and different theories draw it in different places. Minimalists like Cappelen and Lepore draw a sharp line: semantics handles grammatically encoded content and explicit indexicals; everything else is pragmatics. Contextualists argue that pragmatic processes routinely enter truth conditions, blurring the boundary. The disagreement is not about minor details but about the fundamental nature of meaning and what linguistic forms encode. The boundary's location is one of the central empirical disputes in philosophy of language."

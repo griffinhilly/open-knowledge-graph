@@ -60,7 +60,7 @@ Construct the first few iterations visually. Show that points remaining have ter
   answer: true
   explanation: "Both parts are true and together make the Cantor set paradoxical. 'Nowhere dense' means every open interval (a, b) ⊂ [0,1] contains points not in the Cantor set — in fact, it contains an entire removed middle-third interval. Yet the Cantor set bijects with {0,1}^ℕ and has the same cardinality as [0,1] itself. This shows that 'size' in the sense of density (containing an interval) is completely decoupled from 'size' in the sense of cardinality. A set can be simultaneously nowhere dense and uncountable."
 
-- question: "Since the Cantor construction removes intervals whose lengths sum to 1 — equal to the full length of [0,1] — the Cantor set must be empty."
+- question: "Since the Cantor construction removes intervals whose lengths sum to 1 — equal to the full length of [0,1] — the Cantor set is expected to be empty."
   type: true-false
   answer: false
   explanation: "Measure zero means zero total length, not zero points. Points are dimensionless and do not contribute to measure. The removed intervals are open (they exclude their endpoints), and the Cantor set consists of all points not in any removed interval. Endpoints of removed intervals are countably many, but the Cantor set also contains irrational points like 1/4 (whose ternary expansion 0.020202... uses only digits 0 and 2). Removing intervals that collectively cover the 'length' of a set does not remove all points."

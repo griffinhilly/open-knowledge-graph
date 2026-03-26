@@ -47,7 +47,7 @@ Comparing two-digit numbers first examines the tens digits. If they differ, the 
   answer: 1
   explanation: "When the tens digits are equal — both numbers have 7 tens — the tens cannot break the tie. You then move to the ones: 3 < 6, so 73 < 76. This is the second step of the comparison rule: start at the tens, move to ones only if needed. Option 2 is wrong because equal tens do not mean equal numbers — you still need to check ones."
 
-- question: "When comparing 62 and 57, you must look at the ones digits to determine which number is greater."
+- question: "When comparing 62 and 57, you should look at the ones digits to determine which number is greater."
   type: true-false
   answer: false
   explanation: "62 has 6 tens and 57 has 5 tens. Since the tens digits differ, the comparison is decided by the tens alone: 6 tens > 5 tens, so 62 > 57. You never need to look at the ones digits when the tens are already different. The rule is: compare tens first; only move to ones if tens are equal."

@@ -55,7 +55,7 @@ Start with simple problems, use manipulatives to act out the situation, draw pic
   answer: true
   explanation: "'How many are left?' means something was removed or used, so the quantity shrank. That reliably signals subtraction. Recognizing these situation cues helps you connect the real-world story to the correct operation."
 
-- question: "If you see the word 'more' in a word problem, you should always add."
+- question: "If you see the word 'more' in a word problem, you should typically add."
   type: true-false
   answer: false
   explanation: "'More' can signal different operations depending on the situation. 'She got 4 more' means addition, but 'How many more does A have than B?' is a comparison requiring subtraction (A − B). The word alone isn't enough — you must understand what is happening in the story."

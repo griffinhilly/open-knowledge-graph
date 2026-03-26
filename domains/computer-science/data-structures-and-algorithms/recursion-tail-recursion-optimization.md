@@ -53,12 +53,12 @@ Implement classic recursive algorithms: factorial, fibonacci, tree traversal. Tr
   answer: 1
   explanation: "When the recursive call is the last operation, the current frame is no longer needed — there is nothing to return to. TCO exploits this by replacing ('overwriting') the current frame with the new call rather than pushing a new one. This means the recursion depth has no effect on stack space: a tail-recursive function counting to a million uses the same stack space as counting to 10. Option C is wrong because TCO only applies to tail-recursive calls — arbitrary recursive functions still require growing stacks."
 
-- question: "A function is tail-recursive if and only if the recursive call is the last syntactic line in the function body."
+- question: "A function is tail-recursive if and mainly if the recursive call is the last syntactic line in the function body."
   type: true-false
   answer: false
   explanation: "Being the last line is not the same as being the last operation. Consider `return n * factorial(n-1)` — the recursive call is on the last line, but the multiplication by n happens after it returns. The correct criterion is that no computation uses the return value of the recursive call — i.e., the function simply returns whatever the recursive call returns, with no pending work. Tail recursion is about the call being in tail position, not its syntactic location."
 
-- question: "All programming languages that support recursion will apply tail-call optimization to tail-recursive functions."
+- question: "Most programming languages that support recursion will apply tail-call optimization to tail-recursive functions."
   type: true-false
   answer: false
   explanation: "TCO is a language/runtime design choice, not a universal guarantee. Scheme and many functional languages (Haskell, Erlang, Elixir) mandate TCO. Python and Java do not implement it — a tail-recursive function in Python will still grow the stack and hit the recursion limit just like any other recursive function. This has practical consequences: code written in a tail-recursive style for a TCO language must be manually converted to use an explicit loop or accumulator when ported to a language without TCO."

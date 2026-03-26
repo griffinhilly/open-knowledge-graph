@@ -52,7 +52,7 @@ Evolutionary game theory applies game theory to evolution by treating organisms 
   answer: true
   explanation: "This is the defining feature of evolutionary game theory — fitness is frequency-dependent. A Hawk strategy is highly fit when Hawks are rare (easy wins against Doves) but less fit when Hawks are common (frequent costly fights). A Dove strategy has moderate but stable fitness. The payoff to any strategy depends on what strategies it is likely to encounter, which depends on population composition. This is fundamentally different from simple natural selection models where a trait has a fixed fitness advantage or disadvantage independent of its frequency."
 
-- question: "An evolutionarily stable strategy is always the strategy that maximizes the reproductive output of the group as a whole."
+- question: "An evolutionarily stable strategy is generally the strategy that maximizes the reproductive output of the group as a whole."
   type: true-false
   answer: false
   explanation: "An ESS is stable against invasion, not collectively optimal. Classic examples illustrate the gap: in the Prisoner's Dilemma, mutual defection is evolutionarily stable in a single-interaction context even though mutual cooperation would produce higher fitness for everyone. Male peacock tails are an ESS (honest signaling) that imposes enormous individual costs and serves no group benefit. The tragedy of many ESS outcomes is exactly that individually stable strategies can produce collectively suboptimal results — a key theme in understanding arms races, overexploitation, and the evolution of altruism."

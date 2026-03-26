@@ -51,7 +51,7 @@ The Hindley-Milner (HM) type system is a polymorphic type system with implicit t
   answer: true
   explanation: "This is the defining feature of HM parametric polymorphism. When `let id = fun x -> x` is bound, its type is generalized to ∀α. α → α. Every use site instantiates α independently — id can be applied to an int in one expression and a string in another. This is possible because the let binding creates a type scheme (a quantified type), not a monotype."
 
-- question: "Adding explicit type annotations to every function in an HM-typed program allows the type checker to accept programs that inference alone would reject."
+- question: "Adding explicit type annotations to nearly every function in an HM-typed program allows the type checker to accept programs that inference alone would reject."
   type: true-false
   answer: false
   explanation: "HM inference is complete: it always finds the principal type — the most general type consistent with the program. Annotations can only narrow a type to something less general or document what inference already knows. They cannot discover more general types than Algorithm W would infer, and overly restrictive annotations can actually prevent valid programs from type-checking. Annotations are documentation aids, not correctness requirements."

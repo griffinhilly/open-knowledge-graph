@@ -45,7 +45,7 @@ Identify every noun and verb in a short poem and ask what sensory world they con
   answer: 2
   explanation: "Options A, B, and D all use figurative language (metaphor, simile, and metaphor respectively). Option C creates vivid sensory experience — visual (brown and cracked) and olfactory (char and yeast) — through precise literal description. This illustrates the key misconception: imagery does not require figures of speech. A concrete, sensory description is imagery."
 
-- question: "Packing more images into a poem always creates a stronger sensory effect for the reader."
+- question: "Packing more images into a poem usually creates a stronger sensory effect for the reader."
   type: true-false
   answer: false
   explanation: "Over-saturated imagery competes with itself — each image demands attention, and when too many images compete simultaneously, none lands with full force. Imagist poets like Pound and Williams argued for restraint: a single precisely rendered image carries more weight than a dozen vague ones. Negative space and silence are compositional tools as important as the images themselves. Intensity comes from selection and precision, not volume."

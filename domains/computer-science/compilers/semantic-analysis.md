@@ -49,12 +49,12 @@ Semantic analysis checks the AST for semantic correctness beyond syntax. It veri
   answer: 1
   explanation: "Type checking is bottom-up because an expression's type is computed from its children. The type of `a + b` cannot be determined until the types of `a` and `b` are known. Literals have base types (e.g., `3` is int); variables get their types from symbol table lookups; operators combine the types of their operands according to typing rules. This is a natural post-order traversal of the AST: process children, then combine their results at the parent. Option D has a grain of truth about type inference but does not explain why basic type checking is bottom-up."
 
-- question: "Semantic analysis can catch all runtime errors, so a program that passes semantic analysis will execute without errors."
+- question: "Semantic analysis can catch most runtime errors, so a program that passes semantic analysis will execute without errors."
   type: true-false
   answer: false
   explanation: "Semantic analysis catches a specific class of errors detectable at compile time from the program's static structure: undeclared variables, type mismatches, arity errors, contextual constraint violations. It cannot catch dynamic errors that depend on runtime values — array index out of bounds, null pointer dereferences, division by zero (when the divisor is a variable), or any error whose occurrence depends on input data. Static analysis is inherently incomplete for this reason: the set of runtime behaviors is undecidable in general. Semantic analysis is the last line of defense the compiler can offer, not a guarantee of correct execution."
 
-- question: "The output of semantic analysis is the same AST produced by the parser, since semantic analysis only checks for errors without modifying the tree."
+- question: "The output of semantic analysis is the same AST produced by the parser, since semantic analysis mainly checks for errors without modifying the tree."
   type: true-false
   answer: false
   explanation: "Semantic analysis produces a *decorated* (or annotated) AST — the original tree augmented with type information at each node. This decoration is not optional; it is essential for the next compiler phase. Code generation must know the type of every expression to emit correct machine code (e.g., whether `+` should compile to an integer add instruction, a floating-point add, or a string concatenation). Without type annotations on the AST, the code generator would need to re-derive types, duplicating work. The decorated AST is the primary output that later phases consume."

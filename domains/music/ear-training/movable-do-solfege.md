@@ -63,7 +63,7 @@ Practice transposing a simple melody to multiple keys while keeping the solfège
   answer: true
   explanation: "This is one of the two characteristic half steps in the major scale pattern (mi–fa and ti–do). Because movable-do assigns syllables to scale degrees, the intervallic relationships between syllables are invariant across keys. Mi is always scale degree 3 and fa always scale degree 4, and that step is always a half step in major. This is precisely what makes movable-do useful for training relative pitch."
 
-- question: "When a melody is transposed from C major to G major, a movable-do singer must reassign all the solfège syllables to different pitches."
+- question: "When a melody is transposed from C major to G major, a movable-do singer should reassign most of the solfège syllables to different pitches."
   type: true-false
   answer: false
   explanation: "Transposing keeps the same solfège syllables — the syllables follow the tonal function, not the specific pitches. 'Do–re–mi' remains 'do–re–mi' in every major key; only the absolute pitches change. This is the entire point of movable-do: the syllables capture the relational structure of the melody, which is why they are equally valid (and identical) across transpositions."

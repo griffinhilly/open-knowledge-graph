@@ -55,7 +55,7 @@ Study the proportions in classical architecture, typography, and nature (the gol
   answer: 2
   explanation: "Distinct scale levels create a reading order the viewer follows automatically: the eye moves to the largest element first, then steps down through progressively smaller ones. This is visual hierarchy established through scale. Unity (A) comes from repetition of consistent elements; balance (B) concerns equilibrium of visual weight, not reading order; the golden ratio (D) is one proportional system among many, not the outcome of using multiple scales."
 
-- question: "A design where all elements are roughly the same size will feel balanced and harmonious because no single element dominates."
+- question: "A design where most elements are roughly the same size will feel balanced and harmonious because no single element dominates."
   type: true-false
   answer: false
   explanation: "Uniform size produces flatness, not harmony. When everything is the same scale, the viewer has no visual cue about where to look first, making the composition feel undifferentiated and difficult to navigate. Harmony in design comes from elements that relate to each other in meaningful ratios and establish clear hierarchy — not from eliminating size differences. Balance is a separate property from scale and hierarchy."

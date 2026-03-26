@@ -46,7 +46,7 @@ Unity is the principle that brings diverse elements together into a cohesive, in
   answer: 1
   explanation: "Proximity is the primary strategy here: the spatial grouping of the five links — separated from other content by white space — is what makes them read as a navigational unit. Repetition and similarity also contribute (same style, same typeface), but those would be present even if the links were scattered around the page. The clustering effect of proximity is what creates the perception of a single unit from separate elements."
 
-- question: "Unity in design is best achieved by making every element identical — using the same color, shape, size, and weight throughout the composition."
+- question: "Unity in design is best achieved by making nearly every element identical — using the same color, shape, size, and weight throughout the composition."
   type: true-false
   answer: false
   explanation: "Unity is not uniformity. Total sameness produces monotony, not coherence. Unity is a sense of belonging — elements feel like they are part of the same whole. It can be achieved through repetition (same elements used multiple times), similarity (elements share qualities without being identical), proximity (grouping), and continuity (visual pathways). The goal is a composition where variety and difference feel like intentional departures from a coherent foundation, not like accidents."

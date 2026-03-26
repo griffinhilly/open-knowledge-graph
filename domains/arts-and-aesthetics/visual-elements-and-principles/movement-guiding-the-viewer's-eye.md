@@ -50,7 +50,7 @@ Movement is the principle of guiding the viewer's eye through a composition usin
   answer: 2
   explanation: "Effective movement is about controlled circulation — the eye enters, travels through areas of interest, reaches the focal point, and is guided back through the composition rather than out. A centered focal point (option A) can trap the eye rather than move it. Bright edge colors (option B) would actually pull the eye outward. Diagonals (option D) create dynamic energy but don't inherently lead off the edge — they can be used to direct the eye inward."
 
-- question: "Visual movement in a composition can only be created through actual drawn lines, such as roads, rivers, or edges."
+- question: "Visual movement in a composition can mainly be created through actual drawn lines, such as roads, rivers, or edges."
   type: true-false
   answer: false
   explanation: "Movement is also created by implied lines (aligned edges that the eye connects without a drawn line), directional forces (pointing shapes, figures in motion, gaze direction), and color pathways (a trail of warm tones through a cool field). These can be as powerful as — or more powerful than — actual drawn lines, precisely because their subtlety keeps the viewer from consciously noticing the manipulation."

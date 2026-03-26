@@ -57,7 +57,7 @@ Exergy balance extends the second law to control volumes, quantifying the maximu
   answer: true
   explanation: "True. The first law is satisfied — energy is conserved in the heat transfer. But heat flowing from a hot reservoir to a cold one generates entropy (Ṡ_gen = Q/T_cold − Q/T_hot > 0 for finite ΔT), and that entropy generation destroys exergy at rate T₀Ṡ_gen. This is why heat exchangers with large temperature differences are significant sources of exergy destruction even when no energy is 'lost.'"
 
-- question: "A device that converts 95% of its input energy into useful output (near-perfect first-law efficiency) must also have near-perfect second-law (exergy) efficiency."
+- question: "A device that converts 95% of its input energy into useful output (near-perfect first-law efficiency) should also have near-perfect second-law (exergy) efficiency."
   type: true-false
   answer: false
   explanation: "False. A throttle valve, for example, converts essentially 100% of its inlet enthalpy into outlet enthalpy (ΔH ≈ 0, first-law efficiency ≈ 100%) yet destroys significant exergy through irreversible pressure drop. The second-law efficiency measures how close actual performance is to the reversible limit in terms of useful work potential, not energy quantity. A device can be first-law efficient while performing far below its thermodynamic optimum."

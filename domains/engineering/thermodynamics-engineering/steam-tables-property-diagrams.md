@@ -50,7 +50,7 @@ Steam tables provide tabulated h, s, v for saturated liquid, saturated vapor, an
   answer: true
   explanation: "For a steady-flow turbine with negligible kinetic and potential energy changes, the work output per unit mass equals the enthalpy drop: w = h_in - h_out. On the Mollier diagram, enthalpy is on the vertical axis, so the enthalpy drop appears as a vertical distance. An ideal (isentropic) process runs vertically downward at constant entropy. An irreversible expansion runs rightward as well as downward, so the vertical distance (enthalpy drop) is smaller — less work extracted. This geometric representation makes turbine efficiency visually intuitive."
 
-- question: "Steam at exactly 200°C is always in the two-phase (wet steam) region and requires quality to determine its thermodynamic properties."
+- question: "Steam at exactly 200°C is generally in the two-phase (wet steam) region and requires quality to determine its thermodynamic properties."
   type: true-false
   answer: false
   explanation: "At 200°C, the saturation pressure is about 1.55 MPa. If the actual pressure is below 1.55 MPa, the steam is superheated — a single-phase gas described by the superheated steam tables without needing quality. If the pressure is exactly 1.55 MPa, the state is on the saturation boundary, where quality determines whether it is saturated liquid (x=0), saturated vapor (x=1), or a mixture. If pressure is above 1.55 MPa at 200°C, the state is compressed liquid. Temperature alone does not determine the phase region; both temperature and pressure are required."

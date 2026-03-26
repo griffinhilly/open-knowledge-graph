@@ -50,7 +50,7 @@ Practice writing full and noble-gas shorthand configurations for elements across
   answer: 1
   explanation: "When transition metals form ions, electrons are removed from the highest principal quantum number first — the 4s electrons are lost before the 3d. So Fe²⁺ = [Ar]3d⁶, not [Ar]3d⁴4s². This is counterintuitive because 4s fills before 3d in neutral atoms (Aufbau), but energetics shift upon ionization so 4s becomes higher in energy than 3d."
 
-- question: "According to Hund's rule, two electrons in the same subshell always pair up in the same orbital before occupying empty orbitals."
+- question: "According to Hund's rule, two electrons in the same subshell generally pair up in the same orbital before occupying empty orbitals."
   type: true-false
   answer: false
   explanation: "Hund's rule states the opposite: electrons fill empty degenerate orbitals one at a time with parallel spins before any pairing occurs. Pairing is energetically costly due to electron-electron repulsion. Carbon (1s²2s²2p²), for example, has its two 2p electrons in separate p orbitals, not the same one."

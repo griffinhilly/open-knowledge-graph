@@ -50,7 +50,7 @@ Confusing hour and minute hands; not counting minutes correctly; difficulty near
   answer: 1
   explanation: "The hour hand shows *which hour you are in*, not which number it's nearest to. If it's anywhere between the 3 and the 4, the hour is 3 — you haven't yet reached 4 o'clock. The minute hand on the 10 means skip-count to 10: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50. The time is 3:50. When the hour hand looks close to the next number, it means you're near the end of that hour — not that the next hour has started."
 
-- question: "Every tick mark on a clock face represents 5 minutes, so you should count by 5s for every mark when reading time to the minute."
+- question: "Most tick mark on a clock face represents 5 minutes, so you should count by 5s for most mark when reading time to the minute."
   type: true-false
   answer: false
   explanation: "Each of the 60 tick marks represents exactly 1 minute. The twelve numbered positions on the clock each represent multiples of 5 (5, 10, 15... 60), which is why skip-counting by 5s works to get to those positions quickly. But between the numbers, every individual tick mark is 1 minute. The skill of telling time to the minute means counting each of those individual marks after your last five-minute skip."

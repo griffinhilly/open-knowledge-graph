@@ -52,7 +52,7 @@ Personal anecdotes are always weak evidence. / Statistical evidence is always st
   answer: 2
   explanation: "Different skeptics reject arguments for different reasons. A reader who doubts the human reality needs the story; a reader who thinks 'that's just one person' needs the statistics; a reader who questions the mechanism needs the expert testimony; a reader who asks 'would it actually work here?' needs the comparative cases. Each layer addresses a different objection. This is evidence hierarchy as deliberate strategy, not just thoroughness."
 
-- question: "Statistical evidence is always the strongest type of evidence for any argument, regardless of the claim being made."
+- question: "Statistical evidence is typically the strongest type of evidence for any argument, regardless of the claim being made."
   type: true-false
   answer: false
   explanation: "Evidence hierarchy is claim-relative, not universal. Statistics are most powerful for general causal claims that require population-level data. But for a claim about lived experience or emotional reality, statistics would be oddly cold and miss the point — a personal narrative from an affected community member carries more direct warrant weight. The 'strongest' evidence is whatever most directly addresses what the specific claim requires to be believed."

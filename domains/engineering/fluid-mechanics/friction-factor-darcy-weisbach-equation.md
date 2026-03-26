@@ -47,7 +47,7 @@ The Darcy-Weisbach equation h_f = f(L/D)(V²/2g) relates head loss to friction f
   answer: 1
   explanation: "This is the 'hydraulically rough' or 'fully rough' regime. At very high Re, the viscous sublayer at the pipe wall becomes thinner than the roughness elements. Turbulent eddies interact directly with roughness protrusions, and pressure drag from those elements dominates over viscous wall stress. The Colebrook equation reduces to 1/√f = −2 log₁₀(ε/3.7D), which is independent of Re — the flat rightward portion of the Moody diagram. Option A is true for laminar flow but fails at very high Re in rough pipes."
 
-- question: "In turbulent pipe flow, increasing the flow velocity always decreases the friction factor."
+- question: "In turbulent pipe flow, increasing the flow velocity generally decreases the friction factor."
   type: true-false
   answer: false
   explanation: "This is true in laminar flow (f = 64/Re) and in the smooth-pipe turbulent regime, but NOT in the hydraulically rough regime. Once Re is high enough that the viscous sublayer is thinner than the roughness elements, f becomes constant — independent of velocity. The Moody diagram shows a clear transition: f decreases with Re in the smooth-pipe region, then levels off to a horizontal asymptote in the fully rough regime. Applying the laminar intuition to turbulent rough-pipe flow is a common error."

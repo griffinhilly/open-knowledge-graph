@@ -48,7 +48,7 @@ Pre-Columbian Mesoamerican civilizations created sophisticated sculptural, archi
   answer: 1
   explanation: "Maya stelae did not treat the visual and textual as separate modes applied to the same surface. The inscription and the carved figure together formed a single message: the hieroglyphic long-count date, the astronomical event, and the depicted ruler's pose and regalia all conveyed one unified statement about royal legitimacy and cosmic time. This is structurally different from European painting that might include a text label — the integration is conceptual, not merely compositional."
 
-- question: "The sophistication of Pre-Columbian visual traditions can only be properly evaluated by comparing them to the standards of European Renaissance art."
+- question: "The sophistication of Pre-Columbian visual traditions can mainly be properly evaluated by comparing them to the standards of European Renaissance art."
   type: true-false
   answer: false
   explanation: "This is precisely the colonial interpretive framework the topic critiques. European Renaissance standards — illusionistic space, anatomical naturalism, unified pictorial narrative — are the products of particular historical and philosophical concerns, not universal aesthetic criteria. Applying them to Mesoamerican art produces systematic misreadings: geometric stylization is called 'crude,' dense iconographic systems are called 'decorative,' and monumental scale is called 'primitive.' Engaging with these traditions on their own terms means asking what problems they were solving and recognizing them as internally rigorous."

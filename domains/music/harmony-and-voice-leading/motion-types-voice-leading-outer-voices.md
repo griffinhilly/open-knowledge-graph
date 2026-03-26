@@ -53,7 +53,7 @@ Draw melody lines for each voice on a staff, then trace the direction and interv
   answer: 1
   explanation: "When soprano and bass move in opposite directions, they cannot arrive at the same perfect interval they started on — if they were a fifth apart moving in contrary motion, they cannot still be a fifth apart afterward. This geometric fact structurally prevents the most dangerous voice-leading errors. Simultaneously, contrary outer-voice motion creates the breathing quality of opening and closing textures. Option C is too narrow (it's about structural protection, not just singability), and option D overstates it — contrary motion is a strong preference, not an absolute rule."
 
-- question: "Parallel motion between two voices always creates a voice-leading error in traditional four-part harmony."
+- question: "Parallel motion between two voices usually creates a voice-leading error in traditional four-part harmony."
   type: true-false
   answer: false
   explanation: "Only parallel perfect intervals — parallel fifths and parallel octaves — are errors. Parallel thirds and parallel sixths are not only permitted but are the harmonic backbone of tonal part writing. When soprano and alto both move up a third in the same direction by the same interval, the voices retain their independence because the interval is imperfect and doesn't cause acoustic merging. The rule against parallel motion is actually a rule against parallel *perfect* intervals specifically."

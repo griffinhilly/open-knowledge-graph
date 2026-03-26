@@ -60,7 +60,7 @@ Take a paragraph from a draft and challenge yourself to cut it by one-third with
   answer: true
   explanation: "True. 'She seemed to hesitate' is not equivalent to 'she hesitated' — the word 'seemed' carries genuine meaning about the observer's uncertainty. Removing it changes the claim. Concision means removing words that do NOT contribute to meaning, not removing words mechanically. A word that adds nuance, precision, or voice is earning its place, even if it makes the sentence longer. This is the judgment the skilled editor develops."
 
-- question: "Cutting words from a sentence always improves concision."
+- question: "Cutting words from a sentence typically improves concision."
   type: true-false
   answer: false
   explanation: "False. Cutting words that carry meaning makes the sentence less precise, not more concise in any useful sense. 'The very large building' might correctly become 'the skyscraper,' but 'he ran quickly' doesn't always become 'he sprinted' — if the pace matters (not just speed), the original may be more accurate. Concision is about eliminating words that don't contribute, not about achieving minimum length. Indiscriminate cutting can produce obscurity."

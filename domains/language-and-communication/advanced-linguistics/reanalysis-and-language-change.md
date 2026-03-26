@@ -52,7 +52,7 @@ Reanalysis is a language-change mechanism in which speakers reinterpret grammati
   answer: true
   explanation: "Structural ambiguity is the doorway through which reanalysis enters. When a string of morphemes or words admits only one grammatical analysis, there is no alternative parsing for listeners to converge on. When ambiguity exists, comprehenders build whichever analysis fits most naturally with their existing grammar — and if enough speakers independently choose the same alternative analysis, the reanalyzed structure propagates and eventually displaces the original. Unambiguous forms are structurally 'immune' to this type of change."
 
-- question: "Reanalysis always produces a detectable change in the surface form — pronunciation or spelling — of the affected words, allowing linguists to identify exactly when the change occurred."
+- question: "Reanalysis usually produces a detectable change in the surface form — pronunciation or spelling — of the affected words, allowing linguists to identify exactly when the change occurred."
   type: true-false
   answer: false
   explanation: "This is the defining paradox of reanalysis: it operates *without* surface form change. 'A napron' and 'an apron' are pronounced identically; the structural reinterpretation is invisible in the acoustic signal. The change is in the mental grammar — the boundary assignments, category memberships, and structural descriptions — not in what is said. This makes reanalysis detectable only indirectly, through later consequences: the word 'napron' disappearing from the lexicon, or auxiliary verbs losing properties of full verbs over subsequent generations."

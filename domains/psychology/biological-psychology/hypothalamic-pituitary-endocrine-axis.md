@@ -58,7 +58,7 @@ Pituitary is the 'master gland' / endocrine system works independently of nervou
   answer: 1
   explanation: "Portal vessels are a short-circuit — tiny amounts of hypothalamic releasing hormones reach the pituitary at high local concentrations without being diluted in the general circulation. This allows the hypothalamus to command pituitary secretion with very small quantities of hormone. If releasing hormones had to travel through systemic blood, the concentrations reaching the pituitary would be far too low to have the required effect."
 
-- question: "The pituitary gland is correctly called the 'master gland' of the endocrine system because it directly controls all peripheral hormone secretion."
+- question: "The pituitary gland is correctly called the 'master gland' of the endocrine system because it directly controls most peripheral hormone secretion."
   type: true-false
   answer: false
   explanation: "The pituitary is not the master gland — the hypothalamus is. While the pituitary controls peripheral glands (thyroid, adrenals, gonads) via tropic hormones, the pituitary itself executes commands from the hypothalamus. The hypothalamus integrates neural input from across the brain (amygdala, hippocampus, brainstem) and converts it into hormonal instructions. Calling the pituitary the master gland misses one critical level in the hierarchy."

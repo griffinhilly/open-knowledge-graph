@@ -58,12 +58,12 @@ Memorize the precise statement: every chain has an upper bound (not necessarily 
   answer: 2
   explanation: "{1, 2} is maximal: no proper subset of {1, 2, 3} strictly contains {1, 2} (you would need to add element 3, but {1, 2, 3} is not a proper subset). Yet {1, 2} is not a maximum: it does not contain {1, 3} or {2, 3}, so it is not above every element of P. The same is true of {1, 3} and {2, 3} — there are three maximal elements, none of which is a maximum. This is the canonical illustration of the maximal-vs-maximum distinction that Zorn's lemma's conclusion requires you to understand precisely."
 
-- question: "Zorn's lemma guarantees a unique maximal element whenever every chain in the poset has an upper bound."
+- question: "Zorn's lemma guarantees a unique maximal element whenever nearly every chain in the poset has an upper bound."
   type: true-false
   answer: false
   explanation: "Zorn's lemma guarantees at least one maximal element — it says nothing about uniqueness. A poset can have many maximal elements that are pairwise incomparable. In a ring, there are typically infinitely many maximal ideals. In the vector space basis example, different Zorn applications from different starting points can yield different bases. The lemma's power is existence, not uniqueness. Uniqueness, when it holds, must be proved by separate arguments."
 
-- question: "In Zorn's lemma, the upper bound for a chain C must itself be a member of the chain C."
+- question: "In Zorn's lemma, the upper bound for a chain C should itself be a member of the chain C."
   type: true-false
   answer: false
   explanation: "This is a critical precision error. The upper bound u must be in P (the whole poset) and must satisfy c ≤ u for all c ∈ C — but u need not be in C itself. In the vector space example, the union of a chain of linearly independent sets is an upper bound that is typically not a member of the chain (the chain consists of individual sets, and their union is usually strictly larger than any of them). Requiring the upper bound to be in the chain would be asking for a maximum of the chain, which is a strictly stronger condition."

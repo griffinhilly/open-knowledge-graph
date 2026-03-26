@@ -59,7 +59,7 @@ Everything must be fully cooked in advance; all foods freeze equally well; meal 
   answer: true
   explanation: "Soups and braises are among the best foods for meal prep precisely because refrigeration improves them. As they sit, proteins continue to break down slightly, fats emulsify further, and flavors meld and deepen. They reheat without degrading — a bowl of soup is as good on day three as day one (often better). This contrasts with foods that actively suffer from being stored cooked: dressed salads wilt, fried foods lose their crunch, and delicate proteins like fish become rubbery. When building a prep repertoire, starting with soups, stews, and braises minimizes risk of quality loss."
 
-- question: "Effective meal prep requires fully cooking and assembling all meals before storage — partially prepared components don't count as real meal prep."
+- question: "Effective meal prep requires fully cooking and assembling most meals before storage — partially prepared components don't count as real meal prep."
   type: true-false
   answer: false
   explanation: "This is a common misconception that limits people's approach to meal prep. Component cooking — making flexible building blocks rather than complete assembled meals — is often more practical and produces better results. Pre-cooked grains, roasted vegetables, marinated proteins, and prepared dressings are 'real' prep that dramatically speeds weeknight cooking without requiring full meal assembly. In fact, some components are better stored separately: salad greens kept dry and dressing stored apart, assembled only at eating time, preserve quality far better than a pre-assembled salad that wilts in the container."

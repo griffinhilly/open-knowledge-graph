@@ -51,7 +51,7 @@ The ability to hear the relative length of notes—whole vs. half vs. quarter vs
   answer: true
   explanation: "Duration is measured in beats, not seconds. If your internal pulse stops while a long note sounds, you have no reference against which to count the elapsed beats. Sustaining the beat through long notes — by tapping a foot, nodding, or counting silently — is not a crutch but the actual mechanism of duration measurement."
 
-- question: "A whole note always lasts four seconds, because 'whole' refers to an absolute unit of time independent of tempo."
+- question: "A whole note generally lasts four seconds, because 'whole' refers to an absolute unit of time independent of tempo."
   type: true-false
   answer: false
   explanation: "Note values are proportional, not absolute. A whole note lasts four beats — but one beat's duration in seconds depends entirely on the tempo. At 60 bpm a beat is 1 second, so a whole note is 4 seconds. At 120 bpm a beat is 0.5 seconds, so a whole note is 2 seconds. The term 'whole' refers to the whole measure in common time, not to any fixed time span."

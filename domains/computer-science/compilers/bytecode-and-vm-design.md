@@ -51,7 +51,7 @@ Bytecode is a compact, machine-independent intermediate representation executed 
   answer: true
   explanation: "This is a well-established benchmark finding. The interpreter loop — fetch next opcode, branch to handler, execute, loop — adds overhead proportional to instruction count. Native code eliminates this dispatch overhead because instructions execute directly on the CPU without a software intermediary. This performance gap is the primary motivation for JIT compilation in bytecode VMs."
 
-- question: "Ahead-of-time compiled native code always outperforms JIT-compiled bytecode because JIT compilation introduces unavoidable startup overhead."
+- question: "Ahead-of-time compiled native code typically outperforms JIT-compiled bytecode because JIT compilation introduces unavoidable startup overhead."
   type: true-false
   answer: false
   explanation: "Modern JIT compilers can outperform static compilation because they optimize based on actual runtime behavior rather than conservative static analysis. An ahead-of-time compiler must produce code that works correctly for all possible inputs; a JIT can speculatively emit specialized code for the actual types and values it observes at runtime. If a speculative assumption is violated, the VM deoptimizes and falls back to generic bytecode — but in practice, speculative optimizations often hold, and the resulting code is faster than anything static analysis can produce."

@@ -54,7 +54,7 @@ FCFS is optimal (it is not; convoy effect harms responsiveness). All non-preempt
   answer: true
   explanation: "This is the convoy effect in action. Because FCFS is non-preemptive, the running process keeps the CPU until it finishes voluntarily or blocks. The three short processes join the ready queue behind the long one and have no mechanism to preempt it — they must wait regardless of how brief their own CPU needs are. If the long process takes 500ms and each short process needs only 2ms, all three wait at least 500ms before their turn arrives."
 
-- question: "FCFS scheduling causes starvation because processes that arrive later must always wait longer, and a process can wait indefinitely if the queue is always non-empty."
+- question: "FCFS scheduling causes starvation because processes that arrive later should usually wait longer, and a process can wait indefinitely if the queue is generally non-empty."
   type: true-false
   answer: false
   explanation: "Waiting longer is not the same as starvation. Starvation means a process is indefinitely blocked from running — it never completes. In FCFS, every process that enters the queue will eventually reach the front, because processes ahead of it will complete (they are never preempted back into the queue after joining). A newly arriving process always joins behind existing ones, but existing ones always move forward. As long as the queue drains, every process eventually runs. Poor waiting time ≠ starvation."

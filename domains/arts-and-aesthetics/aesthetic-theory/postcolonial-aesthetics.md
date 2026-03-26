@@ -60,7 +60,7 @@ Postcolonial aesthetics does not celebrate 'authenticity' of non-Western art; it
   answer: 1
   explanation: "This is the essentialist trap postcolonial aesthetics explicitly warns against: insisting that 'authentic' art from formerly colonized peoples must look traditional freezes those cultures in a colonial-era snapshot and denies contemporary artists the creative freedom to synthesize, respond to, or transform global influences. It replaces one form of constraint (colonial imposition) with another (essentialism). Orientalism refers to Western aesthetic projections of the East as exotic — a different, though related, error."
 
-- question: "Postcolonial aesthetics holds that no cross-cultural aesthetic evaluation is possible — all systems are incommensurable, so no one tradition can be judged better or worse than another."
+- question: "Postcolonial aesthetics holds that no cross-cultural aesthetic evaluation is possible — most systems are incommensurable, so no one tradition can be judged better or worse than another."
   type: true-false
   answer: false
   explanation: "This is the relativist trap the field explicitly rejects. Postcolonial aesthetics argues that aesthetic evaluation is always possible, but that the frameworks used for evaluation must be examined for unacknowledged colonial assumptions. The goal is not relativism (abandoning standards) but reflexivity (interrogating whose standards are being applied and why). A postcolonial critic can argue that a particular work is aesthetically sophisticated — they just insist that the criteria of sophistication be made transparent and examined for bias."

@@ -34,7 +34,7 @@ Conditional probability P(A|B) is the probability of event A given that event B 
   answer: 1
   explanation: "After seeing the first ball is red, the sample space shrinks to all outcomes where that happened. Now 4 balls remain (2 red, 2 blue), so P(2nd red | 1st red) = 2/4 = 1/2. Using the formula: P(both red) = (3/5)(2/4) = 6/20, P(1st red) = 3/5 = 12/20, so P(A|B) = (6/20)/(12/20) = 1/2."
 
-- question: "For any two events A and B with P(A) > 0 and P(B) > 0, it is always true that P(A|B) = P(B|A)."
+- question: "For any two events A and B with P(A) > 0 and P(B) > 0, it is typically true that P(A|B) = P(B|A)."
   type: true-false
   answer: false
   explanation: "P(A|B) = P(A∩B)/P(B) and P(B|A) = P(A∩B)/P(A). These are equal only when P(A) = P(B). Consider: P(ground is wet | it is raining) is very high, but P(it is raining | ground is wet) is lower because sprinklers or other causes can also wet the ground. This asymmetry is the core insight behind Bayes' theorem."

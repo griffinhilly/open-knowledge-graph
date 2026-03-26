@@ -60,7 +60,7 @@ Assuming all phrases must be 4 or 8 bars; thinking all phrases must end with aut
   answer: true
   explanation: "The deceptive cadence promises resolution to tonic (I) and redirects to vi — a surprising substitution that withholds the expected arrival. This creates wistfulness, surprise, or forward drive depending on context. Because the listener's expectation of closure is frustrated, the music must continue. This is exactly what makes deceptive cadences expressive compositional tools rather than errors."
 
-- question: "A perfect authentic cadence (V–I with melody and bass on tonic) always signals the structural end of a musical section, regardless of where it appears."
+- question: "A perfect authentic cadence (V–I with melody and bass on tonic) typically signals the structural end of a musical section, regardless of where it appears."
   type: true-false
   answer: false
   explanation: "The PAC is the strongest phrase-level closure available, but whether it functions as structural closure depends entirely on context. A PAC at bar 4 of a 16-bar theme is interior punctuation; the same cadence type at the end of a movement, prepared by harmonic buildup, rhythmic emphasis, and textural weight, provides structural closure. Cadence type and structural function are not the same thing."

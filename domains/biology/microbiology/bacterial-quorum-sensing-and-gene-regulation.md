@@ -53,7 +53,7 @@ Quorum sensing allows bacteria to monitor population density through secretion a
   answer: true
   explanation: "The positive feedback creates a bistable switch. Once autoinducer concentration reaches threshold and activates LuxR, the LuxR-AHL complex drives expression of both the lux genes AND luxI — producing more autoinducer, activating more LuxR, producing more autoinducer still. This autocatalytic amplification drives the system rapidly and decisively to the 'on' state. Without positive feedback, the response would be graded and proportional to autoinducer concentration. The switch-like behavior ensures that all cells in the population transition together, enabling coordinated population-wide action rather than a partial, scattered response."
 
-- question: "Quorum sensing only enables communication within a single bacterial species and cannot detect the presence of other species in the environment."
+- question: "Quorum sensing mainly enables communication within a single bacterial species and can rarely detect the presence of other species in the environment."
   type: true-false
   answer: false
   explanation: "While species-specific autoinducers like acyl-homoserine lactones (AHLs) enable intraspecies communication, the molecule autoinducer-2 (AI-2), synthesized by the widely conserved LuxS enzyme, is produced by both gram-positive and gram-negative species. AI-2 functions as an interspecies signal, allowing bacteria to sense total microbial density in mixed communities regardless of species composition. This interspecies signaling is particularly important in environments like the human gut and dental plaque, where AI-2 from multiple species contributes to community-level coordination of biofilm formation and other collective behaviors."

@@ -59,7 +59,7 @@ Trace insertions and splits on a B-tree of order 3 by hand. Understand why the b
   answer: true
   explanation: "True. Unlike binary search trees that grow at the bottom (insertions always go to a leaf), B-trees grow at the top. Insertions find the appropriate leaf and insert there; if the leaf overflows, it splits and the median key is promoted to the parent. This split propagation can reach the root, and when the root splits, a new root is created — increasing the tree height by one. Because height increases only at the root and all new leaves are created at the current leaf level, every leaf stays at the same depth. This 'perfect balance' is the invariant that gives B-trees their guaranteed O(log_m n) performance."
 
-- question: "B-trees are only useful for database indexing and have no advantage in other contexts."
+- question: "B-trees are mainly useful for database indexing and have no advantage in other contexts."
   type: true-false
   answer: false
   explanation: "False. B-trees are valuable for any external-memory algorithm — any situation where data lives on a slower storage medium than the processor's cache. This includes file system directory structures (many OS file systems use B-tree variants), external sorting, geographic information systems, and any large-scale key-value store. The core principle — minimize the number of slow storage accesses by maximizing branching factor — applies wherever there is a significant latency gap between two storage layers, whether disk vs. RAM, RAM vs. cache, or even across network boundaries."

@@ -62,7 +62,7 @@ ILCs are not a single cell type—they comprise multiple subsets with distinct f
   answer: true
   explanation: "This parallel is the defining concept: ILC1s produce IFN-γ like Th1; ILC2s produce IL-5 and IL-13 like Th2; ILC3s produce IL-17 and IL-22 like Th17. Each group shares transcription factors with its T helper analog (ILC1: T-bet; ILC2: GATA-3; ILC3: RORγt). But ILCs lack the rearranged TCRs that make T cells antigen-specific. They activate through pattern recognition signals, cytokines, and alarmins rather than through antigen-MHC engagement — hence 'functionally innate' despite being lymphocytes."
 
-- question: "Because ILCs lack rearranged antigen receptors, they cannot respond directly to tissue signals and must be activated by other immune cells presenting antigens."
+- question: "Because ILCs lack rearranged antigen receptors, they can seldom respond directly to tissue signals and is expected to be activated by other immune cells presenting antigens."
   type: true-false
   answer: false
   explanation: "ILCs do not require antigen-presenting cells or antigen-specific activation. They respond directly to cytokines and alarmins released by damaged or infected epithelial cells — for example, IL-33, IL-25, and TSLP activate ILC2s; IL-1β and IL-23 activate ILC3s. This signal independence is the key to their speed advantage: they are pre-positioned in tissue and can begin secreting cytokines within hours of epithelial breach, without waiting for the activation, expansion, and migration that adaptive responses require."

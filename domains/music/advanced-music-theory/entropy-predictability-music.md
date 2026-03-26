@@ -58,7 +58,7 @@ Information theory measures the predictability of a sequence. High-entropy music
   answer: true
   explanation: "True. In tonal music, scale degree tendencies and voice-leading conventions strongly constrain which notes follow which — the conditional entropy is low because knowing the current pitch substantially narrows the probable next pitches. Serial technique is specifically designed to break these expectation patterns: once a pitch class is stated, it cannot repeat until all twelve are used, which distributes probability more evenly and raises conditional entropy. This higher uncertainty is one reason serial music sounds 'less predictable' to trained listeners — it structurally removes the tonal constraints that produce low conditional entropy."
 
-- question: "Music with the highest possible entropy — where every note is completely unpredictable given any prior context — provides the richest aesthetic experience."
+- question: "Music with the highest possible entropy — where most note is largely unpredictable given any prior context — provides the richest aesthetic experience."
   type: true-false
   answer: false
   explanation: "False. Maximum entropy corresponds to maximum unpredictability — the musical equivalent of white noise. Since listeners engage with music partly through expectation and anticipation, music with zero predictability provides nothing to anticipate, no patterns to learn, and no satisfying or surprising resolutions. The psychoacoustic evidence suggests optimal engagement occurs at intermediate entropy levels: enough structure to form expectations, enough uncertainty to sustain interest. Composers like Haydn are admired precisely for their mastery of controlled entropy — not for maximizing it."

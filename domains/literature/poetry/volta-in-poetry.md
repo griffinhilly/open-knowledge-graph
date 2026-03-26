@@ -54,7 +54,7 @@ Read the whole poem, then ask: where does the speaker change their mind, reframe
   answer: 2
   explanation: "The volta can coincide with a structural break or a transition word, but neither is necessary — it can be a tonal shift, a new image, or a single word that reframes everything. Option A is the most tempting wrong answer: many powerful voltas have no explicit connective. Option B often coincides with the volta but doesn't define it — form and meaning don't always align. The question to ask is always: where does the poem change direction or surprise itself?"
 
-- question: "In a Shakespearean sonnet, the volta always occurs at the beginning of the closing couplet."
+- question: "In a Shakespearean sonnet, the volta generally occurs at the beginning of the closing couplet."
   type: true-false
   answer: false
   explanation: "The closing couplet is the conventional location in Shakespearean sonnets, but 'always' makes this false. Shakespeare often begins or complicates the volta slightly before the couplet — or delays the full turn to the final line. The volta is a conceptual and argumentative pivot, not a fixed structural rule. Treating it as a fixed location mistakes formal convention for definition."

@@ -46,7 +46,7 @@ Molecular degrees of freedom include translational (3), rotational (2 for linear
   answer: 0
   explanation: "Heat capacity C_V = (f/2)R, where f is the number of active degrees of freedom. A monatomic gas has f = 3, so C_V = (3/2)R. A diatomic gas with active translation and rotation has f = 5, so C_V = (5/2)R. Since the diatomic gas requires more energy per mole per degree of temperature rise, the same amount of heat produces a smaller temperature increase in the diatomic gas. The monatomic gas, with fewer modes to distribute energy into, heats up faster."
 
-- question: "According to the equipartition theorem, a diatomic gas at very high temperature (where vibrational modes are fully active) should have C_V = (7/2)R at all temperatures."
+- question: "According to the equipartition theorem, a diatomic gas at very high temperature (where vibrational modes are fully active) should have C_V = (7/2)R at most temperatures."
   type: true-false
   answer: false
   explanation: "C_V = (7/2)R only when all 7 degrees of freedom (3 translational, 2 rotational, 2 vibrational) are active. But degrees of freedom freeze out at low temperatures — a quantum effect. At room temperature, vibrational modes are frozen (kT ≪ ℏω_vib), giving C_V ≈ (5/2)R. Only at high temperatures where kT ≫ ℏω_vib does the full (7/2)R emerge. Classical physics predicts (7/2)R at all temperatures; the observed staircase in C_V vs. T requires quantum mechanics."

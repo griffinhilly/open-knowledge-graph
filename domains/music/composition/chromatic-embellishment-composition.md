@@ -51,7 +51,7 @@ Chromatic tones enrich diatonic harmony and melody through strategic passing ton
   answer: true
   explanation: "This is the core principle of chromatic embellishment. The chromatic note does not need scale membership or chord membership to function — its function is purely voice-leading. It creates smooth half-step motion from one diatonic point to another, which the ear accepts as ornamental decoration rather than harmonic content. This distinguishes chromatic embellishment from chromaticism that alters harmonic function (like secondary dominants or modal mixture)."
 
-- question: "Adding more chromatic tones to a melody always increases its expressivity, regardless of how many are already present."
+- question: "Adding more chromatic tones to a melody generally increases its expressivity, regardless of how many are already present."
   type: true-false
   answer: false
   explanation: "Chromatic density has a point of diminishing returns that quickly becomes negative. One or two chromatic passing tones per phrase add expressivity and fluidity; dense chromaticism on every beat blurs harmonic function and makes the key ambiguous. The analogy in the Explainer — chromaticism as seasoning — captures this precisely: the right amount enhances the dish, too much ruins it. Chopin achieves dense chromaticism while preserving tonal clarity only because the diatonic harmonic structure remains clearly audible."

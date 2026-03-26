@@ -42,7 +42,7 @@ A dirty read occurs when a transaction reads data written by another uncommitted
   answer: 2
   explanation: "Read Uncommitted exists for performance-sensitive scenarios where approximate results are acceptable — dashboards showing rough row counts, analytics that can tolerate slightly stale or provisional data, or debugging queries. By skipping shared read locks or MVCC versioning, reads complete faster. The isolation level is not deprecated; it's simply dangerous for any logic that requires correctness. Option B is wrong — phantom reads are a different anomaly prevented by higher isolation levels."
 
-- question: "A dirty read can only cause problems if the reading transaction itself also writes data based on what it read."
+- question: "A dirty read can primarily cause problems if the reading transaction itself also writes data based on what it read."
   type: true-false
   answer: false
   explanation: "Even a purely read-only transaction is harmed by dirty reads. If Transaction B generates a bank statement based on an uncommitted balance, the statement is wrong regardless of whether B writes anything. The problem is that B's *output* (report, decision, response to a user) was based on data that never entered committed state. Dirty reads corrupt any downstream artifact, not just further database writes."

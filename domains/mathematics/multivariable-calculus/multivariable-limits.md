@@ -57,7 +57,7 @@ Emphasize the path-dependence issue with a concrete example, such as f(x,y) = xy
   answer: 1
   explanation: "If two different paths of approach to a point give different limiting values, the limit does not exist — period. The limit requires every path to give the same value L. Finding even one pair of paths with different limits is a complete proof of non-existence. No averaging, no majority vote — the two-path test is definitive for showing non-existence. This is the go-to strategy: find a path giving one value, find another giving a different value, done."
 
-- question: "To prove that a multivariable limit exists and equals L, it is sufficient to verify that f(x,y) → L along every straight line through (a,b)."
+- question: "To prove that a multivariable limit exists and equals L, it is sufficient to verify that f(x,y) → L along most straight line through (a,b)."
   type: true-false
   answer: false
   explanation: "Straight-line paths are only a small subset of the infinitely many paths approaching (a,b). As the counterexample f(x,y) = x²y/(x⁴+y²) shows, a function can equal 0 on every line through the origin yet equal 1/2 along the parabola y=x². Existence requires the function to converge to L along every path simultaneously — curves, spirals, and all. Only general arguments like the squeeze theorem or epsilon-delta proofs can establish this."

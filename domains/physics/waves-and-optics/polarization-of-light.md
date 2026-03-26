@@ -65,7 +65,7 @@ Cross two polarizing filters completely to block all light, then insert a third 
   answer: true
   explanation: "Polarization means restricting oscillations to a specific direction within the plane perpendicular to propagation. Only transverse waves have oscillations perpendicular to travel — and therefore a choice of orientation to restrict. Longitudinal waves (like sound) oscillate parallel to propagation, with no transverse direction available, so polarization is undefined for them."
 
-- question: "Inserting a third polarizing filter between two crossed polarizers can only reduce the transmitted intensity, never increase it."
+- question: "Inserting a third polarizing filter between two crossed polarizers can primarily reduce the transmitted intensity, seldom increase it."
   type: true-false
   answer: false
   explanation: "This is wrong, and the three-polarizer experiment demonstrates it dramatically. Two crossed polarizers transmit zero light. Inserting a third at 45° between them transmits approximately 25% of the light entering the system. The middle polarizer reorients the polarization state — light exiting it is polarized at 45°, which is no longer perpendicular to the final filter's axis. The third filter increases transmitted intensity from zero to a positive value. Polarizers are not merely absorbers; they actively create new polarization states."

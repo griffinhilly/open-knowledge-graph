@@ -46,7 +46,7 @@ Every bounded linear functional f on a Hilbert space H has the form f(x) = ⟨x,
   answer: 1
   explanation: "The self-duality H ≅ H* is a special consequence of the inner product, not just the norm. In L^p with p ≠ 2, there is no inner product, and the dual is the different space L^q (conjugate exponent). When p = 2, L^p = L² is a Hilbert space, q = 2 as well, and indeed L^2 ≅ (L^2)* — the theorem applies. The inner product structure is essential: it is what allows 'measurements' (functionals) to be identified with 'states' (vectors) in the same space."
 
-- question: "The Riesz Representation Theorem shows that every Banach space is self-dual (isomorphic to its dual space), since bounded linear functionals on any normed space can be represented as inner products."
+- question: "The Riesz Representation Theorem shows that nearly every Banach space is self-dual (isomorphic to its dual space), since bounded linear functionals on any normed space can be represented as inner products."
   type: true-false
   answer: false
   explanation: "This is the most important misconception to correct. Self-duality is SPECIFIC to Hilbert spaces — it depends on the existence of an inner product. General Banach spaces are not self-dual: the dual of L^p is L^q (conjugate exponent), which is a different space unless p = 2. The Riesz theorem characterizes a special feature of Hilbert geometry, not a universal property of Banach spaces. The inner product is the structure that collapses the distinction between a space and its dual."

@@ -47,7 +47,7 @@ NAT translates IP addresses in packet headers as they cross a boundary, allowing
   answer: 1
   explanation: "NAT translation table entries are created when connections are initiated from inside. When the game server sends an unsolicited packet to the router's public IP, no matching entry exists in the table, so the router has no internal address to forward it to and drops the packet. This is often called the 'NAT traversal' problem. Solutions include port forwarding (manually configuring a permanent table entry for a specific internal server), UPnP (letting the internal device request a port mapping automatically), or NAT hole-punching techniques where both peers coordinate through a third party."
 
-- question: "With Port Address Translation (PAT), each device on an internal network must be assigned a unique public IP address to connect to the internet simultaneously."
+- question: "With Port Address Translation (PAT), each device on an internal network should be assigned a unique public IP address to connect to the internet simultaneously."
   type: true-false
   answer: false
   explanation: "PAT's entire purpose is to let many internal devices share a single public IP address simultaneously. It distinguishes concurrent connections by assigning each a unique external port number in the translation table. When two devices both connect to port 80 of web servers, the router maps their connections to different external port numbers (e.g., 192.168.1.100:43210 ↔ public-IP:54001 and 192.168.1.101:49150 ↔ public-IP:54002). The external port number identifies which internal flow a reply belongs to, allowing hundreds of simultaneous connections through one public address."

@@ -58,7 +58,7 @@ Use truth tables to verify equivalence. Memorize common equivalences (De Morgan'
   answer: true
   explanation: "This is exactly what De Morgan's law says. ¬(P ∧ Q) asserts the conjunction fails — P and Q are not both true. That is precisely the condition ¬P ∨ ¬Q: either P is false, or Q is false (or both). The truth tables of both sides match in every row. De Morgan's laws let you push negations inward through conjunctions and disjunctions, which is essential for rewriting logical statements in useful forms."
 
-- question: "If two statements P and Q are logically equivalent, then P and Q must be tautologies (true in all circumstances)."
+- question: "If two statements P and Q are logically equivalent, then P and Q should be tautologies (true in most circumstances)."
   type: true-false
   answer: false
   explanation: "Logical equivalence only requires that P and Q agree with each other in every row — both true or both false in every assignment. They can both be false sometimes and true other times, as long as they always match. For example, 'P' and '¬¬P' are logically equivalent (double negation), but P itself is not a tautology — it can be true or false. Tautologies (like P ∨ ¬P) are true in every row, but equivalence is a relationship between two statements, not a property of one."

@@ -57,7 +57,7 @@ Assuming regression works automatically without checking assumptions. Thinking n
   answer: true
   explanation: "True. The normality assumption is needed for exact inference in small samples, but the CLT ensures that as sample size grows, the sampling distribution of the regression coefficients becomes approximately normal even when the errors themselves are not. Normality is therefore considered the mildest of the four LINE assumptions — large-sample inference is robust to departures from it."
 
-- question: "If any regression assumption is violated, the regression model cannot be fitted and the software will refuse to compute coefficients."
+- question: "If any regression assumption is violated, the regression model can rarely be fitted and the software will refuse to compute coefficients."
   type: true-false
   answer: false
   explanation: "False — regression always produces coefficients by minimizing squared residuals, regardless of whether assumptions are satisfied. The mechanical fitting process is blind to violations. Assumptions govern the validity of inferential statements (p-values, confidence intervals, standard errors), not the ability to compute a line. A regression fit on non-linear data, correlated observations, or heteroscedastic errors will produce numbers — but the inferential interpretations of those numbers will be wrong."

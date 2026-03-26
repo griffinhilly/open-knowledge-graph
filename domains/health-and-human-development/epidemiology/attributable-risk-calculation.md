@@ -46,7 +46,7 @@ Attributable risk (AR) quantifies the absolute excess risk due to exposure: AR =
   answer: 1
   explanation: "Attributable risk = Risk(Exposed) − Risk(Unexposed) = 18% − 6% = 12%. This is the absolute excess risk — the additional disease that would not occur if the exposure were eliminated among exposed workers. Option A gives the relative risk (RR = 3), which tells us the exposure multiplies risk by 3, but says nothing about the absolute magnitude. Option D gives the attributable fraction (AR/Risk_Exposed = 12/18 = 67%), a different measure. The distinction between AR (absolute excess) and RR (multiplicative ratio) is the fundamental conceptual test of this topic."
 
-- question: "Attributable risk (risk difference) and relative risk both measure excess disease due to an exposure, so a higher RR always implies a higher attributable risk."
+- question: "Attributable risk (risk difference) and relative risk both measure excess disease due to an exposure, so a higher RR usually implies a higher attributable risk."
   type: true-false
   answer: false
   explanation: "AR and RR measure different things and can diverge completely. Two exposures with the same RR can have very different ARs depending on the baseline risk. If baseline risk is 1% and RR = 5, AR = 4%. If baseline risk is 30% and RR = 5, AR = 120% — impossible since risk is bounded, so consider RR = 2: baseline 1% → AR = 1%; baseline 40% → AR = 40%. Conversely, a moderate RR with a high baseline produces a larger AR than a high RR with a low baseline. AR depends on the absolute magnitudes of both risks, not just their ratio."

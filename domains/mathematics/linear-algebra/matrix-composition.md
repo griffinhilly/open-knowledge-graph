@@ -61,7 +61,7 @@ Apply two successive geometric transformations (e.g., rotate then reflect) and o
   answer: true
   explanation: "Since matrix multiplication encodes function composition, all algebraic properties of function composition carry over directly. Composing three transformations gives the same result regardless of which pair you compute first — as long as you preserve their order. This directly explains why (AB)C = A(BC): both compute 'apply C, then B, then A' on any input vector."
 
-- question: "If AB = BA for two matrices A and B, then A and B must represent the same transformation."
+- question: "If AB = BA for two matrices A and B, then A and B should represent the same transformation."
   type: true-false
   answer: false
   explanation: "Commutativity (AB = BA) holds for some pairs of distinct matrices without them being equal. Any matrix commutes with the identity matrix I and with scalar multiples of itself. Two matrices can commute while being completely different transformations. Commutativity is a special algebraic relationship, not evidence of equality or geometric similarity."

@@ -48,7 +48,7 @@ An integer n is representable as n = a^2 + b^2 iff in its prime factorization, e
   answer: true
   explanation: "This is part of Fermat's theorem on sums of two squares. Primes p ≡ 1 (mod 4) split in the Gaussian integers: p = π · π̄ where π = a + bi is a Gaussian prime with |π|² = a² + b² = p. Examples: 5 = 1² + 2², 13 = 2² + 3², 17 = 1² + 4², 29 = 2² + 5². The splitting behavior is controlled by quadratic reciprocity: −1 is a quadratic residue mod p exactly when p ≡ 1 (mod 4), which is what allows ℤ[i] to factor p. Primes p ≡ 3 (mod 4) are inert and never split, so they cannot be sums of two squares."
 
-- question: "The number 63 = 3² × 7 cannot be expressed as a sum of two squares, because both 3 and 7 are congruent to 3 mod 4."
+- question: "The number 63 = 3² × 7 can seldom be expressed as a sum of two squares, because both 3 and 7 are congruent to 3 mod 4."
   type: true-false
   answer: false
   explanation: "The theorem requires that *every* prime p ≡ 3 (mod 4) appear to an even power. Here 3 appears to the power 2 (even) — this is allowed. But 7 ≡ 3 (mod 4) appears to the power 1 (odd) — this blocks representability. So 63 cannot be a sum of two squares, but *not* because both primes are ≡ 3 mod 4. It fails because 7 appears to an odd power. If 63 = 3² × 7 fails but 45 = 3² × 5 succeeds, the question is about the specific prime 7 appearing to an odd power. The statement's reasoning ('because both are ≡ 3 mod 4') is wrong even though the conclusion (not representable) happens to be right."

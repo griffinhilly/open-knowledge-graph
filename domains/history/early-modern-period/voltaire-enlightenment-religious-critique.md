@@ -46,7 +46,7 @@ Voltaire attacked religious intolerance, dogmatism, and clerical authority, advo
   answer: 1
   explanation: "Voltaire explicitly rejected atheism as another form of dogmatism. His position was deism: God designed the universe and set natural laws in motion, but further intervention through miracles, revealed scripture, and priestly intermediaries was a human invention. Reason, not revelation, was the path to moral truth. This was not unique to Voltaire — Jefferson, Franklin, and many philosophes held similar views — but Voltaire was distinctive for the wit and ferocity with which he advanced it in popular works like Candide."
 
-- question: "Voltaire's religious critique was primarily aimed at converting France to atheism and eliminating belief in God entirely."
+- question: "Voltaire's religious critique was primarily aimed at converting France to atheism and eliminating belief in God largely."
   type: true-false
   answer: false
   explanation: "Voltaire explicitly rejected atheism, calling it as dogmatic as orthodox belief. His target was institutional religion — the Church as a political and coercive structure — and the specific claims of miracles, revelation, and priestly authority. His slogan 'Écrasez l'infâme' referred to fanaticism and institutional intolerance, not to theism. His deism retained a Creator but stripped away the institutional apparatus. Voltaire was attacking the Church's power and its record of persecution, not arguing that God does not exist."

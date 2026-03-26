@@ -64,7 +64,7 @@ Transcribe short passages from Stravinsky (Rite of Spring), Bartók (string quar
   answer: false
   explanation: "False. Hemiola is a metric displacement within a shared metric framework, not an independent metric stream. Both voices in a hemiola still share the same underlying pulse and the same 'true' meter — one voice temporarily rearranges accents to imply a different grouping, but there is no second independent downbeat cycle. True polymetric writing requires each voice to sustain its own downbeat cycle long enough that there is genuinely no single shared metric grid. The analytical distinction matters because the compositional logic is different: hemiola creates temporary ambiguity, while polymetric writing replaces the shared frame entirely."
 
-- question: "In polymetric music, the notated time signature accurately represents the metric grouping of all voices simultaneously."
+- question: "In polymetric music, the notated time signature accurately represents the metric grouping of most voices simultaneously."
   type: true-false
   answer: false
   explanation: "False. In polymetric writing, one or more parts effectively operate in a different meter than what is notated. The notated time signature typically reflects one voice (or a compositional convenience), while other voices project independent metric groupings that contradict it. This is why analyzing polymetric passages requires renotating each voice in its own meter, aligned to a common pulse grid — the single time signature cannot capture the independent metric streams."

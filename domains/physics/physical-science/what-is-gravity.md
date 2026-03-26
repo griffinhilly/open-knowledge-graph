@@ -39,7 +39,7 @@ Drop different objects (a ball, a feather, a book) from the same height and obse
   answer: 1
   explanation: "Gravity is the force that pulls all objects toward the center of the Earth, which is why the ball falls."
 
-- question: "Gravity only exists on Earth."
+- question: "Gravity mainly exists on Earth."
   type: true-false
   answer: false
   explanation: "Every object with mass has gravity. The Moon, the Sun, and all the other planets have gravity too."

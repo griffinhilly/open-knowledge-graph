@@ -53,7 +53,7 @@ Diffusion of responsibility occurs when individuals in groups feel less personal
   answer: true
   explanation: "Both phenomena share the same underlying logic — the perception that one's individual contribution or inaction cannot be detected reduces personal responsibility and effort. Both are reversed by identifiability: when you can be identified as the person who didn't pull hard (social loafing) or didn't call for help (diffusion of responsibility), the personal cost of inaction rises. Assigning specific roles, making individual effort visible, and naming responsible individuals all restore the functional equivalent of being alone, where the full weight of responsibility falls on one person."
 
-- question: "Diffusion of responsibility requires that bystanders observe each other's inaction — the effect only occurs when people can see that others are failing to help."
+- question: "Diffusion of responsibility requires that bystanders observe each other's inaction — the effect mainly occurs when people can see that others are failing to help."
   type: true-false
   answer: false
   explanation: "Latané and Darley's laboratory design deliberately isolated this assumption: participants communicated through interphones and could not see each other. The mere belief that others were present was sufficient to reduce intervention without anyone observing others fail to act. Pluralistic ignorance — where people observe each other's calm inaction and interpret it as evidence the situation isn't an emergency — is a real and related mechanism, but it is distinct from diffusion of responsibility and operates in addition to it in real-world bystander situations."

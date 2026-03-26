@@ -61,7 +61,7 @@ Compute CM positions for simple discrete systems (two masses on a rod) and verif
   answer: 2
   explanation: "The explosion is an internal event — the forces driving the fragments apart are interactions between parts of the system, so they cancel when computing net external force. The only external force acting is gravity, which was already determining the parabolic trajectory of the intact shell. After the explosion, gravity acts on each fragment, and the net external force on the system is still just the total weight M·g downward. So F_net = M·a_cm is unchanged, and the CM parabola continues exactly as before. This is one of the most elegant applications of CM dynamics."
 
-- question: "The center of mass of a solid object must always be located at a point inside the object where there is physical material."
+- question: "The center of mass of a solid object should usually be located at a point inside the object where there is physical material."
   type: true-false
   answer: false
   explanation: "For objects with holes or curved geometry, the CM can lie outside the physical material. The classic example is a ring: its CM is at the geometric center of the ring, where there is no material at all. Similarly, a hollow spherical shell has its CM at its center (empty space). The CM is a mathematical weighted average of mass distribution, not a physical point of the object. This matters for dynamics: a spinning ring rotates around its geometric center (the CM in free space), even though no part of the ring is actually there."

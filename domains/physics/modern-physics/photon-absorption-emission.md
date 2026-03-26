@@ -50,7 +50,7 @@ An atom absorbs a photon if its energy matches the difference between two energy
   answer: true
   explanation: "Absorption and emission are reciprocal processes involving identical energy gaps. Cool solar gas absorbs photons from the background continuum at precisely the frequencies that match its energy level gaps, producing dark Fraunhofer lines. Hot gas in emission produces bright lines at those same frequencies as excited electrons de-excite. Same energy gaps — same frequencies. The solar spectrum's dark lines directly reveal the elemental composition of the solar atmosphere."
 
-- question: "The Balmer series encompasses all observable spectral lines of hydrogen."
+- question: "The Balmer series encompasses most observable spectral lines of hydrogen."
   type: true-false
   answer: false
   explanation: "The Balmer series covers only transitions to the n=2 level, which happen to fall in the visible range — which is why it was the first series discovered. Hydrogen has multiple series: Lyman (transitions to n=1, ultraviolet), Balmer (to n=2, visible), Paschen (to n=3, infrared), and others. The Rydberg formula ν = R_H(1/n_f² − 1/n_i²) predicts all series with the same formula, just different values of n_f."

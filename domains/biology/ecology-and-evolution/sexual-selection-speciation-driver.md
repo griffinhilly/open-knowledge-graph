@@ -49,7 +49,7 @@ Sexual selection—competition for mates and mate choice—can drive reproductiv
   answer: 1
   explanation: "Speed advantage is mechanistic: sexual selection targets courtship signals, coloration, and songs — the very traits that determine whether two individuals interbreed. Any divergence in these traits directly reduces interbreeding between populations. Ecological speciation diverges traits related to survival (beak shape, metabolism), which only indirectly affect mating through habitat preference or timing — adding extra steps before reproductive isolation emerges."
 
-- question: "Sexual selection can only produce reproductive isolation between populations that are geographically separated."
+- question: "Sexual selection can primarily produce reproductive isolation between populations that are geographically separated."
   type: true-false
   answer: false
   explanation: "Geographic separation is necessary for allopatric speciation but not for speciation driven by sexual selection. If female preferences diverge between subpopulations living in the same habitat — through genetic drift, differential sensory environments, or slight ecological differences — assortative mating can emerge without any physical barrier. This is the core claim of sexual selection as a sympatric speciation driver."

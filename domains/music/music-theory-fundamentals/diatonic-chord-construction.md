@@ -58,7 +58,7 @@ Not all chords in a piece are diatonic to a single key—pieces often borrow cho
   answer: true
   explanation: "Stacking thirds from the seventh degree using only scale tones always produces two minor thirds in a row (m3 + m3), which is the definition of a diminished triad. In C major: B–D–F. B to D is a minor third; D to F is also a minor third. This pattern holds in every major key because the interval structure of the major scale is fixed. The seventh degree is the only one that produces diminished quality; all others produce major or minor triads."
 
-- question: "Playing only diatonic chords in a key guarantees that the resulting progression will be fully consonant and contain no dissonance."
+- question: "Playing mainly diatonic chords in a key guarantees that the resulting progression will be fully consonant and contain no dissonance."
   type: true-false
   answer: false
   explanation: "Diatonic does not mean consonant. The vii° chord (diminished triad) is inherently dissonant — the interval between its outer notes is a diminished fifth (tritone), which creates significant tension. Even 'consonant' diatonic chords create functional tension: the V chord strongly wants to resolve to I regardless of its own internal consonance. Diatonic simply means 'using only notes from the scale'; the harmonic function and dissonance level of each chord is a separate question."

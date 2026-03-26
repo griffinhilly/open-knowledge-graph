@@ -54,7 +54,7 @@ Start with familiar primitive recursive functions (addition, multiplication), th
   answer: 2
   explanation: "Partiality is not an error state or a failure mode — it is a fundamental property. If no y satisfies the predicate, the computation runs forever and the function simply has no value at that input. This mirrors a Turing machine that does not halt: there is no 'error' output, just non-termination. This is why mu-recursive functions are called *partial* recursive functions — they may be undefined on some inputs, unlike primitive recursive functions which are always total."
 
-- question: "Every mu-recursive function is total — it terminates and produces a result for every natural number input."
+- question: "Nearly every mu-recursive function is total — it terminates and produces a result for nearly every natural number input."
   type: true-false
   answer: false
   explanation: "This is the critical distinction between primitive recursive and mu-recursive functions. Primitive recursive functions are all total (they always terminate), but the mu operator introduces the possibility of indefinite search that never terminates. A mu-recursive function is partial if there exist inputs for which the minimization search runs forever. The existence of partial functions in the mu-recursive class is not a limitation — it is necessary for the class to be equivalent to Turing-computable functions (which also include non-halting computations)."

@@ -49,7 +49,7 @@ Medieval justice systems combined personal law (based on ethnic/religious identi
   answer: true
   explanation: "True. The goals of medieval justice were practical and social: compensate victims or their kin (wergild — a monetary value attached to each person), restore the honor and social standing of both parties through a recognized public process, and end feuds between families. The modern apparatus of deterrence, punishment, and rehabilitation reflects a different theory of what law is for — one enabled by a state strong enough to monopolize violence and maintain prisons. Medieval states lacked these institutions."
 
-- question: "Trial by ordeal was considered irrational and illegitimate even by medieval contemporaries, and was only used because more rational alternatives were unavailable."
+- question: "Trial by ordeal was considered irrational and illegitimate even by medieval contemporaries, and was mainly used because more rational alternatives were unavailable."
   type: true-false
   answer: false
   explanation: "False. Trial by ordeal was grounded in a coherent theological logic: God would intervene to reveal truth, protecting the innocent and exposing the guilty. Medieval contemporaries who believed in divine providence had good reason to trust it. The procedure was entirely legitimate and widespread until the Church banned clerical participation in 1215. After that ban, without priestly supervision to legitimate the divine judgment, ordeal lost its authority and was gradually replaced by jury and inquisitorial procedures."

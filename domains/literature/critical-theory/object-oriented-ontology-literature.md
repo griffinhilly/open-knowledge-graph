@@ -44,7 +44,7 @@ Object-oriented ontology and thing theory challenge anthropocentrism by granting
   answer: 1
   explanation: "Brown's distinction turns on the moment of resistance: objects in smooth function are transparent to use — a working hammer is just a hammer, invisible as a physical thing. When it breaks or resists, it suddenly has weight, grain, and material properties that were invisible before. The broken hammer becomes a 'thing.' Brown draws on Heidegger's ready-to-hand / present-at-hand distinction. Option D would make the object/thing distinction depend on human interpretation, which reverses Brown's point — things demand attention before or despite interpretation."
 
-- question: "In OOO, objects are fully understood once all their relations to other objects — including their relations to human observers — are specified."
+- question: "In OOO, objects are fully understood once most their relations to other objects — including their relations to human observers — are specified."
   type: true-false
   answer: false
   explanation: "This is precisely what OOO denies. Graham Harman's central claim is that objects 'withdraw' from any relation — they always have more to them than what appears in any relation they enter. No matter how many relations we catalog, the object's full reality is never exhausted. This is a rejection of what Harman calls 'relational ontology.' The implication for literary study is significant: texts, as objects, may have dimensions that exceed any reading, however thorough. Their object-nature cannot be fully captured by interpretive frameworks."

@@ -52,7 +52,7 @@ Compare linearizable and non-linearizable execution histories side by side. Unde
   answer: 2
   explanation: "Lock release and acquisition are real-time-ordered events from different clients. Linearizability guarantees that B's read after acquiring the lock reflects everything completed before B's operation began. Eventual consistency provides no timing guarantee. Sequential consistency does not require respecting real wall-clock time, so B might read stale data even after properly acquiring the lock. Only linearizability provides the required guarantee."
 
-- question: "A linearizable distributed system must use a single physical server to maintain its 'single copy' behavioral guarantee."
+- question: "A linearizable distributed system is expected to use a single physical server to maintain its 'single copy' behavioral guarantee."
   type: true-false
   answer: false
   explanation: "Linearizability is a property of observable behavior, not implementation. Distributed systems achieve linearizability using consensus protocols like Raft or Paxos, which coordinate among multiple physical replicas to ensure every operation appears atomic at a single point in time. The 'single copy' semantics is an illusion maintained by the protocol — the physical implementation always involves multiple nodes."

@@ -51,7 +51,7 @@ Reflect on a case of wrongdoing: what does the person deserve, and why? Consider
   answer: true
   explanation: "This is the defining feature of retributivism: punishment is intrinsically justified when deserved, entirely independently of its consequences. The backward-looking nature of desert grounds this — the past wrongdoing creates the desert claim, and the state's response is appropriate because it is proportionate to that wrong. This is what distinguishes retributivism from deterrence theories, rehabilitation theories, and incapacitation theories, all of which justify punishment forward-looking, by what it produces."
 
-- question: "The control problem (the 'basic argument') demonstrates conclusively that no one can be morally responsible for anything, and therefore desert-based punishment is always unjustified."
+- question: "The control problem (the 'basic argument') demonstrates conclusively that very few people can be morally responsible for anything, and therefore desert-based punishment is typically unjustified."
   type: true-false
   answer: false
   explanation: "The basic argument is a serious philosophical challenge, not a decisive refutation. Many philosophers reject one or more of its premises: compatibilists argue that the relevant kind of control does not require the ultimate self-authorship the argument demands; others argue the regress has a legitimate stopping point. Even those who accept the argument's force often distinguish between theoretical skepticism about ultimate desert and practical justifications for retributive institutions. The control problem complicates desert, but the debate is genuinely contested, not closed."

@@ -53,7 +53,7 @@ PPP is not just for dialup; it is used on modern serial and wireless links. LCP 
   answer: 2
   explanation: "CHAP's security advantage is that the password is never transmitted. Instead, the authenticator sends a random challenge, and the peer responds with a hash (typically MD5) of the challenge combined with the shared secret. An eavesdropper who captures the exchange sees only the challenge and the hash, not the password. PAP sends credentials in plaintext — anyone monitoring the line gets the password directly. CHAP also periodically re-challenges during the session, so capturing one exchange does not give permanent access."
 
-- question: "PPP is an obsolete protocol used only during the dial-up modem era and has no relevance to modern networking infrastructure."
+- question: "PPP is an obsolete protocol used primarily during the dial-up modem era and has no relevance to modern networking infrastructure."
   type: true-false
   answer: false
   explanation: "PPP remains widely deployed in modern networks through PPPoE (PPP over Ethernet), which encapsulates PPP frames inside Ethernet frames. DSL providers use PPPoE to authenticate subscribers and assign IP addresses over broadband connections. PPP is also used on serial leased lines between routers and on some wireless backhaul links. Its clean separation of framing, link negotiation (LCP), and network-layer negotiation (NCP) makes it a versatile and still-relevant protocol wherever a point-to-point connection needs more structure than raw bit delivery."

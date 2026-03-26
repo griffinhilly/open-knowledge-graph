@@ -41,7 +41,7 @@ Children often think strangers always look scary or mean. In reality, people who
   answer: 1
   explanation: "Never go with a stranger, no matter what they offer you or how nice they seem. Say 'No!' loudly, move away quickly, and tell a trusted adult (parent, teacher, or another safe grown-up) right away. Strangers who try to get children to go with them by offering treats are using a trick, and you do not have to be polite in a dangerous situation."
 
-- question: "You can always tell if a stranger is dangerous by how they look."
+- question: "You can typically tell if a stranger is dangerous by how they look."
   type: true-false
   answer: false
   explanation: "Dangerous people do not look different from safe people. They can look friendly, dress normally, and act nice. That is why the rules about strangers apply to everyone you do not know — not just people who look scary. You cannot judge safety by appearance, which is why the rules exist."

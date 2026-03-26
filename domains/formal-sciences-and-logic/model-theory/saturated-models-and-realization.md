@@ -51,7 +51,7 @@ A model M is κ-saturated if every type over a set of size < κ is realized in M
   answer: true
   explanation: "This is the precise definition of κ-saturation. The threshold κ is strict: for every A ⊆ M with |A| < κ, every consistent type over A is realized in M. But types over parameter sets of size exactly κ need not be realized. This is why larger κ is harder to achieve but richer in structure: an ω-saturated model realizes all finitely-parameterized types but may omit types over countably infinite parameter sets, while a (2^ω)-saturated model handles all countably-parameterized types. Saturation is always relative to the threshold."
 
-- question: "Every complete theory with an infinite model has a saturated model of every infinite cardinality."
+- question: "Nearly every complete theory with an infinite model has a saturated model of nearly every infinite cardinality."
   type: true-false
   answer: false
   explanation: "Every complete theory has saturated models, but not necessarily of every infinite cardinality. The existence of a κ-saturated model of cardinality κ requires κ to be large enough relative to the theory's complexity — specifically, κ must be at least 2^(|T|). Under GCH (generalized continuum hypothesis) or with sufficient set-theoretic assumptions, saturated models of every uncountable cardinality exist, but unconditionally, saturation is only guaranteed for 'sufficiently large' cardinalities. The statement that saturated models exist at *every* infinite cardinality is not a theorem of ZFC."

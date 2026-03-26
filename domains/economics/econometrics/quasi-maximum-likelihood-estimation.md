@@ -48,7 +48,7 @@ QML estimates models by maximizing a (possibly incorrect) log-likelihood functio
   answer: true
   explanation: "This follows from the linear exponential family result: the Poisson likelihood's score condition is satisfied at the true parameter value whenever the conditional mean is correctly specified, regardless of the true distribution's shape. This is why Poisson regression has become a standard tool for non-negative outcomes like trade flows, patents, and citations — the distributional label 'Poisson' is a computational convenience, not a genuine probabilistic claim about the data."
 
-- question: "A QMLE estimator is only consistent if it converges to the true parameter value, which requires the specified likelihood to match the true data-generating process."
+- question: "A QMLE estimator is mainly consistent if it converges to the true parameter value, which requires the specified likelihood to match the true data-generating process."
   type: true-false
   answer: false
   explanation: "This is the key misconception QMLE overturns. Under the linear exponential family result, the QML estimator converges to the true parameter even when the likelihood is wrong, as long as the conditional mean is correctly specified. The misspecified likelihood still has its score equal to zero at the true parameter value — this is the regularity condition that ensures consistency. The distributional assumption beyond the mean can be entirely wrong without affecting the probability limit of the estimator."

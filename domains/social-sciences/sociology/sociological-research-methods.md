@@ -56,7 +56,7 @@ Reading classic sociological studies—Durkheim's Suicide (quantitative), Willia
   answer: 1
   explanation: "When the goal is understanding meaning and process — why something is happening in a particular context — qualitative methods like in-depth interviews are best suited. They allow the researcher to discover unexpected factors and follow leads. A national survey would be too broad; secondary statistics wouldn't capture the specific companies; an RCT would be impractical and wouldn't generate explanatory hypotheses."
 
-- question: "A survey of 100,000 randomly selected people will always produce more valid results than a survey of 1,000 people."
+- question: "A survey of 100,000 randomly selected people will generally produce more valid results than a survey of 1,000 people."
   type: true-false
   answer: false
   explanation: "Sample size is only one factor in validity. The famous 1936 Literary Digest poll predicted a landslide loss for Roosevelt despite 2.4 million responses — because the sampling frame (car owners and phone subscribers) systematically excluded poorer voters. Question wording, response bias, and the fit between the sample and the target population matter at least as much as sheer size. A well-designed survey of 1,000 randomly selected people can be far more valid than a massive but poorly designed one."

@@ -60,7 +60,7 @@ Not all relations are functions. A function must map every domain element to exa
   answer: true
   explanation: "This is the fundamental equivalence-classes theorem. Reflexivity guarantees every element is in at least one class (it belongs to its own class). Symmetry and transitivity together guarantee that being in the same class is a consistent, well-defined grouping. The resulting classes are disjoint (no element can belong to two different classes) and exhaustive (every element belongs to exactly one). This partition interpretation is often the most useful way to think about equivalence relations."
 
-- question: "A function that is injective (one-to-one) must also be surjective (onto)."
+- question: "A function that is injective (one-to-one) is expected to also be surjective (onto)."
   type: true-false
   answer: false
   explanation: "Injection and surjection are independent properties. The function f: ℤ → ℤ defined by f(n) = 2n is injective (distinct inputs give distinct outputs) but not surjective (odd integers are never in the image). A function can be injective without being surjective, surjective without being injective, both (bijection), or neither. Only when domain and codomain are finite sets of equal size does injectivity force surjectivity — but that is a special case, not a general rule."

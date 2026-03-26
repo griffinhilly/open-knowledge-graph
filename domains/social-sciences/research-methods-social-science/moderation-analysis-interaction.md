@@ -59,7 +59,7 @@ Moderation asks whether the effect of X on Y depends on the value of a third var
   answer: false
   explanation: "A significant b3 means only that the slopes of X differ across levels of M — it says nothing about whether those slopes are individually significant. It is possible that X has no meaningful effect at any level of M but that the slopes differ just enough to produce a significant interaction. Simple slope tests are required to evaluate the effect of X at specific, substantively meaningful values of M. A complete moderation analysis reports both the interaction coefficient and the simple slopes."
 
-- question: "In a moderation model, the coefficient on X (b1) represents the effect of X averaged across all values of M in the sample."
+- question: "In a moderation model, the coefficient on X (b1) represents the effect of X averaged across most values of M in the sample."
   type: true-false
   answer: false
   explanation: "This is the most common misinterpretation of moderation coefficients. b1 is a conditional effect: the effect of X when M = 0. It is not an average across M — it is the effect at one specific value of M. The 'average effect of X' interpretation applies to main-effects-only models, not models with an interaction term. This is why centering M is so important: it determines what 'M = 0' means, and therefore what b1 describes."

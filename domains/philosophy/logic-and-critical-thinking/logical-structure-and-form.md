@@ -52,7 +52,7 @@ Deductive argument validity depends on form, not content. The same valid form re
   answer: true
   explanation: "True. 'All fish are mammals. Sharks are fish. Therefore, sharks are mammals.' has the valid universal syllogism form — the conclusion follows necessarily from the premises — even though the first premise is false. Validity is entirely about form: does the conclusion follow from the premises? It is not about whether the premises are actually true. That stricter standard is soundness (valid + true premises)."
 
-- question: "If an argument has a true conclusion, then the argument must be valid."
+- question: "If an argument has a true conclusion, then the argument is expected to be valid."
   type: true-false
   answer: false
   explanation: "False. An argument can reach a true conclusion through entirely invalid reasoning. 'Some birds can fly. Penguins are birds. Therefore, the Earth is round.' has a true conclusion, but the premises provide zero support for it — the argument is completely invalid. The conclusion's truth here is accidental, not established by the argument. A valid argument guarantees that true premises produce a true conclusion; it cannot guarantee anything in reverse about a conclusion that happens to be true."

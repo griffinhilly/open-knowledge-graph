@@ -54,7 +54,7 @@ That foreignization is always better or more authentic. Venuti is critiquing pow
   answer: 2
   explanation: "Venuti's critique is fundamentally about cultural politics and power, not aesthetics or accuracy. He argues that domestication absorbs foreign cultures into the target culture's dominant norms, rendering the translator invisible and making the asymmetry of global translation markets (far more translated into English than out of it) invisible as well. Foreignization is his political counter-strategy — not a claim that strange translations are more beautiful or more accurate, but that they resist the erasure of cultural difference and make visible the act and politics of translation."
 
-- question: "According to Venuti, foreignizing translation is always preferable to domesticating translation because it produces a more faithful representation of the source text."
+- question: "According to Venuti, foreignizing translation is typically preferable to domesticating translation because it produces a more faithful representation of the source text."
   type: true-false
   answer: false
   explanation: "This is the key misconception Venuti himself warns against. Foreignization is a political strategy to resist cultural assimilation and make the translator's work visible — it is not a universal standard for quality or fidelity. Venuti acknowledges that domestication is sometimes necessary and ethical; the question is whether the choice is made consciously with awareness of its cultural-political implications, or invisibly as an unexamined default. Claiming foreignization is 'always better' would itself be a kind of aesthetic essentialism that Venuti's politically-grounded argument resists."

@@ -46,12 +46,12 @@ The complex permittivity ε(ω) = ε'(ω) + iε''(ω) encodes both oscillatory r
   answer: 1
   explanation: "ε''(ω) describes the out-of-phase, dissipative component of the medium's response to the driving field — the part that converts electromagnetic energy into heat. A large ε'' means strong absorption per cycle and rapid attenuation of the wave (short skin depth). ε'(ω) (the real part) describes the in-phase, reactive response — energy stored and returned per cycle — which governs the phase velocity and refractive index."
 
-- question: "A material transparent in the visible range (ε'' ≈ 0 at visible frequencies) must have a structurally featureless real permittivity ε'(ω) at those same frequencies, since there is no local absorption to drive any dispersion."
+- question: "A material transparent in the visible range (ε'' ≈ 0 at visible frequencies) is expected to have a structurally featureless real permittivity ε'(ω) at those same frequencies, since there is no local absorption to drive any dispersion."
   type: true-false
   answer: false
   explanation: "The Kramers-Kronig relations guarantee the opposite: absorption features (peaks in ε'') at other frequencies — in the UV or IR — produce dispersive features in ε' at those frequencies, and the integral over all frequencies determines ε' everywhere, including in the transparent window. A material can be transparent at visible frequencies while having absorption bands elsewhere that, through Kramers-Kronig, create detectable structure in ε' even in the transparent region."
 
-- question: "The real and imaginary parts of the complex permittivity ε(ω) are independent functions that must each be measured separately to fully characterize a material's electromagnetic response."
+- question: "The real and imaginary parts of the complex permittivity ε(ω) are independent functions that is expected to each be measured separately to fully characterize a material's electromagnetic response."
   type: true-false
   answer: false
   explanation: "The Kramers-Kronig relations, derived from causality, relate ε'(ω) and ε''(ω) by a Hilbert transform pair. Knowing ε'' across all frequencies determines ε', and vice versa. This is why measuring absorption over a broad spectral range is sufficient to reconstruct the full complex permittivity. The interdependence is not an approximation — it is an exact consequence of the requirement that effects follow causes."

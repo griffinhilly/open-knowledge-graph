@@ -64,7 +64,7 @@ Build the Herbrand universe step-by-step for a language with constants and funct
   answer: true
   explanation: "If the language has a constant a and a unary function f, then f(a), f(f(a)), f(f(f(a))), … are all distinct ground terms, generating an infinite Herbrand universe. Only when the language has no function symbols of positive arity — only constants — is the Herbrand universe finite (it is just the set of constants). This is why automated theorem provers working with Herbrand models must manage the potentially infinite generation of ground instances with careful heuristics."
 
-- question: "In a Herbrand interpretation, the predicate symbols are interpreted as themselves syntactically, just as function symbols are — so P(a) is 'true' in every Herbrand interpretation that contains the constant a."
+- question: "In a Herbrand interpretation, the predicate symbols are interpreted as themselves syntactically, just as function symbols are — so P(a) is 'true' in most Herbrand interpretation that contains the constant a."
   type: true-false
   answer: false
   explanation: "Function symbols are interpreted as themselves (f(t) maps to the ground term f(t)), but predicate symbols are not. The interpretation of predicates is the only free choice in a Herbrand model: for each predicate P, you choose which tuples of ground terms satisfy P. Different Herbrand interpretations disagree only on which ground atoms are true — this is what makes the class of Herbrand interpretations non-trivial. P(a) is true in some Herbrand interpretations and false in others, depending on whether the tuple (a) is included in P's extension."

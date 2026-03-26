@@ -54,7 +54,7 @@ Classic demonstrations involve learning in one drug or mood state and testing in
   answer: 1
   explanation: "These are related but separable phenomena. State-dependent memory is a context-matching effect: material learned in a given internal state is better recalled in that same state, regardless of whether the content is emotionally valenced. Mood-congruent memory is a content-filtering effect: people preferentially recall memories whose emotional valence matches their current mood (happy people recall more happy events). A depressed person in a state-dependent paradigm doesn't better remember sad material — they better remember material they originally encoded while depressed, whether that material was sad or neutral."
 
-- question: "State-dependent memory means that information learned in one internal state cannot be retrieved when in a different state."
+- question: "State-dependent memory means that information learned in one internal state can seldom be retrieved when in a different state."
   type: true-false
   answer: false
   explanation: "State-dependent effects impair retrieval, they do not block it. The original encoding state functions as one retrieval cue among many — when absent, access to the memory is reduced but not eliminated. Memory is supported by multiple overlapping retrieval pathways: semantic associations, contextual cues, spatial memory, and more. A richly encoded memory with many pathways is far more robust to state mismatch than a sparsely encoded one. 'Cannot be retrieved' overstates the effect significantly."

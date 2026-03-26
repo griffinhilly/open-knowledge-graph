@@ -49,7 +49,7 @@ Bacterial flagella are rigid, helical protein filaments composed of flagellin th
   answer: 0
   explanation: "The signaling logic is: attractant binding → inhibit CheA kinase → reduce phosphorylation of CheY → less phospho-CheY at the motor switch → less CW rotation → less tumbling → longer runs. Phospho-CheY is the 'tumble signal' — when it binds the flagellar motor switch, it promotes CW rotation and bundle dispersal. Attractants suppress CheA, drain the phospho-CheY pool, and the motor defaults to CCW (run). This inverted logic (less signal = more running) ensures that the cell runs *toward* attractants and tumbles *away* from repellents."
 
-- question: "The bacterial flagellum generates thrust using the same bending and undulating mechanism as eukaryotic flagella, differing only in its energy source (proton motive force instead of ATP)."
+- question: "The bacterial flagellum generates thrust using the same bending and undulating mechanism as eukaryotic flagella, differing mainly in its energy source (proton motive force instead of ATP)."
   type: true-false
   answer: false
   explanation: "Bacterial and eukaryotic flagella are completely unrelated in structure and mechanism — a classic example of convergent evolution for a similar function. Bacterial flagella are rigid, helical filaments that rotate like propellers, driven by a rotary motor powered by proton flow. Eukaryotic flagella (and cilia) contain a '9+2' microtubule axoneme and generate movement through dynein-powered sliding of microtubule doublets — a bending/undulating mechanism driven by ATP hydrolysis. They share only the word 'flagellum' and the broad function of motility."

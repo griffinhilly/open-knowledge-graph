@@ -57,7 +57,7 @@ Choose one design concept and adapt it for three different contexts (e.g., deskt
   answer: true
   explanation: "Correct. Legibility at 65 mph from 300 feet imposes constraints that standard typefaces were not designed for: wide letter spacing, carefully tested character distinctiveness (especially for easily confused letters like I, l, 1), and specific stroke weights optimized for retroreflective sign material. These are not matters of aesthetic preference — they are functional requirements derived from the specific context of use. Standard typefaces enlarged to signage size often fail these requirements because their design assumed close-range reading."
 
-- question: "Responsive design — adapting a layout to different screen sizes — is sufficient to make a design fully context-appropriate across all devices and environments."
+- question: "Responsive design — adapting a layout to different screen sizes — is sufficient to make a design fully context-appropriate across most devices and environments."
   type: true-false
   answer: false
   explanation: "Responsive design addresses screen size and layout, but context-appropriate design is much broader. It also requires accounting for: input method (mouse vs. touch vs. voice), available attention (focused desk work vs. crowded subway), bandwidth (high-speed WiFi vs. 2G mobile), accessibility needs, ambient conditions (bright sunlight vs. dim indoor), and the user's emotional state and purpose. A responsive design can be pixel-perfect on a mobile screen and still be completely inappropriate for its context of use."

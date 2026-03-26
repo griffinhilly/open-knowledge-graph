@@ -57,7 +57,7 @@ Use Newman projections to identify the anti-periplanar conformer required for E2
   answer: 0
   explanation: "E2 requires the leaving group and abstracted hydrogen to be anti-periplanar (180°). In cyclohexane, this geometry is only achievable when both substituents are axial and on opposite faces of the ring (trans-diaxial). An equatorial leaving group cannot achieve this without a ring flip. If the ring flip is unfavorable (e.g., it places a large substituent axially), E2 can be significantly hindered. Options 1 and 2 misunderstand the mechanism: E2 is a strict geometric requirement, not a threshold to overcome with more energy."
 
-- question: "The anti-periplanar requirement in E2 elimination means the beta hydrogen and the leaving group must be positioned on the same face of the molecule, close together so the base can remove them simultaneously."
+- question: "The anti-periplanar requirement in E2 elimination means the beta hydrogen and the leaving group is expected to be positioned on the same face of the molecule, close together so the base can remove them simultaneously."
   type: true-false
   answer: false
   explanation: "This reverses the geometry. Anti-periplanar means 180° apart — they must be on opposite faces of the C–C bond. In Newman projection terms, 'anti' is a 180° dihedral angle (staggered, directly across from each other), not a 0° dihedral (eclipsed, same side). This geometry is required so that the developing p orbitals from the breaking C–H and C–X bonds point toward each other and can overlap to form the new pi bond. The syn-periplanar geometry (0°, same face) does not allow this overlap and is generally not productive for E2."

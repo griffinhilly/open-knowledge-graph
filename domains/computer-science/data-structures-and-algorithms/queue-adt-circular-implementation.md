@@ -58,7 +58,7 @@ Implement both array and linked-list queues. Trace enqueue and dequeue operation
   answer: true
   explanation: "True. Neither operation moves existing elements. Enqueue writes to the rear index and increments it (with wrap-around). Dequeue reads from the front index and increments it. All work is constant regardless of queue size — which is exactly the improvement over the naive shifting approach."
 
-- question: "A linked-list queue is always more efficient than a circular array queue because it avoids the need for resizing."
+- question: "A linked-list queue is typically more efficient than a circular array queue because it avoids the need for resizing."
   type: true-false
   answer: false
   explanation: "False. The comparison is more nuanced. A linked-list queue avoids resizing but incurs per-element heap allocation overhead and stores data in non-contiguous memory, hurting cache performance. A circular array keeps all elements contiguous in memory, which is cache-friendly and avoids allocation costs — at the price of a fixed capacity or occasional resizing. Neither is universally superior."

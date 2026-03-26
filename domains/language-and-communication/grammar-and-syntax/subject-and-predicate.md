@@ -54,7 +54,7 @@ Identify the subject by asking "Who or what is this sentence about?" and the pre
   answer: 2
   explanation: "The predicate includes the verb and everything that extends or completes it: 'finished the race in record time.' The predicate is not just the verb alone — it includes the object ('the race') and the modifier ('in record time'). The subject is 'The exhausted marathon runner' — that whole noun phrase."
 
-- question: "The subject of a sentence is always the first word or the first noun in the sentence."
+- question: "The subject of a sentence is generally the first word or the first noun in the sentence."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about subjects. The subject is whoever or whatever performs the action (or is being described), which can appear anywhere in the sentence. In 'Into the room walked three strangers,' the subject is 'three strangers,' not 'room,' which comes first. Find the verb first, then ask who or what."

@@ -53,7 +53,7 @@ Tone is the author's attitude toward subject matter, conveyed through word choic
   answer: true
   explanation: "This is precisely why the three terms need to be kept separate. Each has a different source: tone comes from the narrator's craft choices (diction, what gets lingered on), atmosphere from sensory description of the setting, and mood from the cumulative effect on the reader. They can align or diverge productively. When all three operate simultaneously through different mechanisms, collapsing them into a single term would prevent the analyst from describing how the text actually works."
 
-- question: "Because mood is the emotional feeling a text produces in the reader, identifying mood is entirely subjective and cannot be grounded in specific textual evidence."
+- question: "Because mood is the emotional feeling a text produces in the reader, identifying mood is largely subjective and can seldom be grounded in specific textual evidence."
   type: true-false
   answer: false
   explanation: "Mood is reader-side in the sense that it describes the emotional experience of reading, but it is deliberately engineered through craft choices — diction, pacing, imagery, sensory description — that can be identified and cited as textual evidence. A claim about mood that cannot be linked to specific textual mechanisms is impressionistic and unsupported. The fact that mood is experienced by readers does not mean it is arbitrary; it means the analysis should explain which textual features produce which effects."

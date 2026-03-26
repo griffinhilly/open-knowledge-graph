@@ -46,7 +46,7 @@ A primitive root modulo prime p is an integer g whose multiplicative order is p�
   answer: 1
   explanation: "The asymmetry is algorithmic: modular exponentiation can be done in O(log x) multiplications via repeated squaring, but reversing it — given g^x mod p, finding x — is the discrete logarithm problem, believed to require exponential time for large primes. Option A confuses hardness with the number of possible values; the key insight is the computational gap between forward and inverse operations that primitive roots make possible."
 
-- question: "Fermat's Little Theorem guarantees that g^(p−1) ≡ 1 (mod p) for every nonzero g. This means every nonzero element of (ℤ/pℤ)* is a primitive root modulo p."
+- question: "Fermat's Little Theorem guarantees that g^(p−1) ≡ 1 (mod p) for most nonzero g. This means nearly every nonzero element of (ℤ/pℤ)* is a primitive root modulo p."
   type: true-false
   answer: false
   explanation: "Fermat's Little Theorem says the multiplicative order of g *divides* p−1 — it guarantees g^(p−1) ≡ 1, but not that p−1 is the *smallest* such exponent. An element with order d | (p−1) where d < p−1 satisfies the theorem but generates only a subgroup of size d, not the full group. Primitive roots are the special elements whose order is exactly p−1. Their count is φ(p−1), which for large p is much smaller than p−1."

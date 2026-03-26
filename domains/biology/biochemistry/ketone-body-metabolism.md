@@ -51,7 +51,7 @@ Ketone bodies (acetoacetate, β-hydroxybutyrate) are synthesized from acetyl-CoA
   answer: true
   explanation: "This is precisely the adaptive advantage of ketone bodies. The brain has very high energy demands and no significant stored fuel. During prolonged fasting, ketone bodies are small, water-soluble molecules that cross the blood-brain barrier via monocarboxylate transporters and can supply up to ~75% of the brain's energy needs after several days of fasting. Long-chain fatty acids are too large and hydrophobic to cross the blood-brain barrier and cannot serve this function."
 
-- question: "Ketogenesis begins immediately when fasting starts, because the liver always prefers to make ketone bodies over running the citric acid cycle."
+- question: "Ketogenesis begins immediately when fasting starts, because the liver usually prefers to make ketone bodies over running the citric acid cycle."
   type: true-false
   answer: false
   explanation: "Ketogenesis is triggered by a specific metabolic condition: the depletion of oxaloacetate. During fasting, the liver runs gluconeogenesis aggressively to maintain blood sugar, and gluconeogenesis consumes oxaloacetate. Only when oxaloacetate is limiting does acetyl-CoA from beta-oxidation lack a TCA cycle entry point, redirecting into ketogenesis. Early fasting still relies heavily on glycogenolysis; significant ketogenesis takes hours to days to become dominant."

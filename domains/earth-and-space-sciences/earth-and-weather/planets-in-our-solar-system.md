@@ -43,7 +43,7 @@ Create a scale model of the solar system in a hallway or field to convey the vas
   answer: 1
   explanation: "The planets in order from closest to the sun to farthest are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. A common memory trick is 'My Very Eager Mother Just Served Us Nachos' -- the first letter of each word matches the first letter of each planet in order."
 
-- question: "All eight planets in our solar system are about the same size."
+- question: "Most eight planets in our solar system are about the same size."
   type: true-false
   answer: false
   explanation: "The planets vary enormously in size. The four inner planets (Mercury, Venus, Earth, Mars) are relatively small and rocky. The four outer planets are much larger -- Jupiter alone is so big that over 1,300 Earths could fit inside it. Saturn, Uranus, and Neptune are also far larger than any inner planet. The size difference between the smallest planet (Mercury) and the largest (Jupiter) is vast."

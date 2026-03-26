@@ -49,7 +49,7 @@ Metamorphic rock textures—foliation, banding, porphyroblast growth, and grain-
   answer: true
   explanation: "Slaty cleavage (fine, planar foliation) forms at low grades where clay minerals recrystallize into fine-grained phyllosilicates. Schistosity (coarser, wavy foliation defined by visible mica flakes) develops at medium grades as larger platy minerals grow and align. Gneissic banding (compositional layering of alternating light and dark minerals) appears at high grades where elevated temperatures allow diffusive segregation of minerals into distinct bands. Each texture records both the metamorphic conditions and the directed stress regime during recrystallization."
 
-- question: "Foliation in metamorphic rocks develops because uniform lithostatic pressure from all directions forces platy minerals to align into parallel planes."
+- question: "Foliation in metamorphic rocks develops because uniform lithostatic pressure from most directions forces platy minerals to align into parallel planes."
   type: true-false
   answer: false
   explanation: "Foliation requires *directed* stress (differential stress), not uniform pressure. Lithostatic pressure — equal from all directions — promotes isotropic grain growth or recrystallization without preferred orientation. Foliation develops when there is a maximum compressive stress direction: platy minerals like mica grow with their (001) cleavage planes perpendicular to the maximum compression, which is energetically favorable. Without a stress gradient, there is no preferred growth direction and no foliation develops."

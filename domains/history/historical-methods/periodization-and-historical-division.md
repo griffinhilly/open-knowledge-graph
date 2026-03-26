@@ -55,7 +55,7 @@ Take a region and draw multiple periodizations: one using rulers/dynasties, one 
   answer: true
   explanation: "This is one of the most important insights about periodization: marker events typically matter for specific sectors of experience, not for life in general. A dynastic succession or the fall of a capital city changes political structures but may leave rural agricultural life, trade patterns, or cultural practices largely undisturbed. Political periodization reflects the experience of political actors; its boundaries often do not coincide with economic, cultural, or social transitions. Recognizing this mismatch is central to critically reading any periodization."
 
-- question: "The 'Middle Ages' is a natural historical period with clear beginning and end points that all historians recognize as marking genuine universal transitions in human experience."
+- question: "The 'Middle Ages' is a natural historical period with clear beginning and end points that most historians recognize as marking genuine universal transitions in human experience."
   type: true-false
   answer: false
   explanation: "The 'Middle Ages' is a constructed periodization, not a natural boundary. Its start and end dates are debated (does it begin with the fall of Rome in 476? With Constantine's conversion? Does it end in 1453, 1492, 1517?), and each candidate boundary reflects a different analytical concern. More fundamentally, 'the Middle Ages' as a label was coined by Renaissance humanists who wanted to distinguish their era from ancient Rome — it encodes their perspective, not a universal reality. For historians of sub-Saharan Africa, South Asia, or East Asia, the 'Middle Ages' is not a meaningful organizing category at all."

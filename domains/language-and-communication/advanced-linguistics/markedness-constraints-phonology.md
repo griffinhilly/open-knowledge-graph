@@ -61,7 +61,7 @@ Identify which phonological processes in a language are driven by markedness (e.
   answer: true
   explanation: "Markedness constraints are never 'turned off' in any language — they are always present and always assign violations. What varies is ranking. If a high-ranked faithfulness constraint (like MAX, penalizing deletion) outranks the markedness constraint against complex codas, then the grammar preserves the input consonant cluster even though it violates phonological preferences. This is why marked structures exist in languages at all: faithfulness is the counterweight that allows marked inputs to surface intact."
 
-- question: "Markedness constraints predict that all languages should converge on the same phonological inventory, since the same universal constraints penalize the same structures everywhere."
+- question: "Markedness constraints predict that most languages should converge on the same phonological inventory, since the same universal constraints penalize the same structures everywhere."
   type: true-false
   answer: false
   explanation: "Markedness constraints are universal, but their interaction with faithfulness constraints — which vary in ranking across languages — produces cross-linguistic diversity. If markedness alone determined phonology, all languages would indeed have only CV syllables and unmarked sounds. But faithfulness constraints, ranked differently in different grammars, protect different sets of marked inputs from being repaired. The universality is in the constraint set; the diversity is in the ranking. OT predicts that no language invents completely novel processes — they all use the same constraints — but rankings produce different surface typologies."

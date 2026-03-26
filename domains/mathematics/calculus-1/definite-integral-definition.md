@@ -38,7 +38,7 @@ Connect to Riemann sums by computing limits of sums for simple functions (polyno
   answer: 1
   explanation: "The definite integral computes signed area. On [0, 2] the function is below the x-axis, contributing negative area; on [2, 4] it is above, contributing positive area. The integral gives the net result. If the two pieces happen to be equal, the integral is 0 — but that is a coincidence of this function, not a general rule about functions that cross the axis."
 
-- question: "The definite integral of a continuous function f from a to b always equals the area enclosed between the curve y = f(x) and the x-axis on [a, b]."
+- question: "The definite integral of a continuous function f from a to b usually equals the area enclosed between the curve y = f(x) and the x-axis on [a, b]."
   type: true-false
   answer: false
   explanation: "The definite integral computes signed area: regions where f(x) < 0 contribute negative values. To find the geometric area (always non-negative), you must integrate the absolute value of f, or split the integral at the zeros and take the absolute value of each piece."

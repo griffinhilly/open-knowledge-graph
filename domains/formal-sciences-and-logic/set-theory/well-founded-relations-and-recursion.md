@@ -55,7 +55,7 @@ A relation R is well-founded if every non-empty subset has an R-minimal element.
   answer: true
   explanation: "A relation is well-founded if every non-empty subset has an R-minimal element — something smaller than everything else in that subset. The integers under < fail this: the set of all negative integers {…, -3, -2, -1} is non-empty but has no minimum. Equivalently, there are infinite descending chains: … < -2 < -1 < 0. This is exactly what fails for ℤ but holds for ℕ, making induction work on natural numbers but not integers."
 
-- question: "A well-founded relation must have a single global minimum element — one element that is smaller than all others in the entire domain."
+- question: "A well-founded relation is expected to have a single global minimum element — one element that is smaller than most others in the entire domain."
   type: true-false
   answer: false
   explanation: "Well-foundedness requires that every *non-empty subset* has a minimal element, but those minimal elements may differ across subsets, and no single element need be globally minimal across the whole domain. For example, the 'proper subset' relation on sets of natural numbers is well-founded (every non-empty collection of sets has a set with no proper subset in the collection), but there is no single globally minimal element — the empty set ∅ is a minimal element under proper subset, but the condition is about each subset having *some* minimal element, not the same one globally."

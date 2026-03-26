@@ -50,7 +50,7 @@ Fubini's theorem states that for continuous f on a rectangular region, ∬_R f(x
   answer: true
   explanation: "Switching order is not as simple as swapping limit symbols — you must re-read the region's boundary curves with the roles of x and y exchanged. For a triangular region described as 'x from 0 to 1, y from x to 1,' the reversed description is 'y from 0 to 1, x from 0 to y.' Failing to redraw and re-derive the limits is the most common error in switching integration order, and it produces incorrect integrals even when the theorem applies."
 
-- question: "For any bounded function defined on a closed rectangular region, the two orders of integration always produce the same value."
+- question: "For any bounded function defined on a closed rectangular region, the two orders of integration generally produce the same value."
   type: true-false
   answer: false
   explanation: "This is false. Fubini's theorem requires more than boundedness. A classic counterexample involves functions that are discontinuous in a way that affects the iterated integrals differently: ∫₀¹ (∫₀¹ f(x,y) dx) dy ≠ ∫₀¹ (∫₀¹ f(x,y) dy) dx for certain pathological bounded functions. Continuity (or absolute integrability in the Lebesgue sense) is the operative condition. Assuming the theorem applies without checking conditions is a common error in advanced applications."

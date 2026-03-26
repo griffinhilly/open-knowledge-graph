@@ -51,7 +51,7 @@ A particle in equilibrium experiences zero net force in all directions, requirin
   answer: 1
   explanation: "Newton's second law states ΣF = ma. Constant velocity means zero acceleration (a = 0), therefore ΣF = 0. The puck is in equilibrium even though it is moving. Equilibrium does not mean 'at rest' — it means 'not accelerating.' On frictionless ice, gravity and the normal force balance vertically, and there is no horizontal net force. The misconception that motion requires a continuous net force is a pre-Newtonian intuition that statics explicitly corrects."
 
-- question: "A particle in equilibrium must be at rest; an object moving at constant velocity is not in equilibrium."
+- question: "A particle in equilibrium is expected to be at rest; an object moving at constant velocity is not in equilibrium."
   type: true-false
   answer: false
   explanation: "Equilibrium is defined by zero net force (ΣF = 0), which by Newton's second law means zero acceleration (a = 0). Zero acceleration is consistent with any constant velocity, including zero velocity (rest). A car cruising at a steady 60 mph on a level highway is in translational equilibrium — engine force balances drag and friction, net force is zero, acceleration is zero. Rest is a special case of equilibrium, not its definition."

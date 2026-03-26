@@ -51,7 +51,7 @@ DMA controllers transfer data between I/O devices and memory without CPU interve
   answer: true
   explanation: "True — this is the primary performance benefit of DMA. Once the CPU writes the source address, destination address, byte count, and direction to the DMA controller's registers, it is free to execute other code. The DMA controller independently manages the bus cycles required to complete the transfer. The CPU is not involved again until it receives the completion interrupt. This overlap of I/O and computation is what enables high-bandwidth I/O without sacrificing CPU throughput."
 
-- question: "DMA eliminates the need for interrupts entirely, since the data transfer occurs without CPU involvement."
+- question: "DMA eliminates the need for interrupts largely, since the data transfer occurs without CPU involvement."
   type: true-false
   answer: false
   explanation: "False. DMA does not eliminate interrupts — it dramatically reduces their number. Without DMA (interrupt-driven I/O), the device raises one interrupt per word transferred, potentially thousands for a large block. With DMA, the DMA controller raises exactly one interrupt at the end of the entire transfer to notify the CPU of completion. The completion interrupt is essential: without it, the CPU would not know when the data is ready and would have to poll the DMA controller's status register, which is inefficient. DMA replaces thousands of fine-grained interrupts with one coarse-grained one."

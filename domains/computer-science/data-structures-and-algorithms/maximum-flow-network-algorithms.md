@@ -64,7 +64,7 @@ Implement Ford-Fulkerson with DFS, then Edmonds-Karp with BFS. Trace augmenting 
   answer: true
   explanation: "Edmonds-Karp uses BFS to always choose the shortest augmenting path (fewest edges), which guarantees at most O(VE) augmentations and O(VE²) total time — regardless of capacity values. Basic Ford-Fulkerson with DFS can fail to terminate when edge capacities are irrational numbers, because augmenting paths can approach the maximum flow asymptotically without ever reaching it."
 
-- question: "Many combinatorial problems like bipartite matching require their own specialized algorithms and cannot be reduced to max-flow."
+- question: "Many combinatorial problems like bipartite matching require their own specialized algorithms and can seldom be reduced to max-flow."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Bipartite matching, edge-disjoint paths, circulation with lower bounds, and many scheduling problems all reduce to max-flow. For bipartite matching, you add a super-source connected to one partition and a super-sink connected to the other, set all capacities to 1, and run max-flow. The maximum flow value gives the maximum matching size. Recognizing problems as disguised max-flow instances is one of the most valuable skills in algorithm design."

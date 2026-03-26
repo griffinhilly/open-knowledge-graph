@@ -63,7 +63,7 @@ Present classic base-rate problems (like the lawyer-engineer task) where base-ra
   answer: true
   explanation: "Research consistently shows that frequency formats dramatically improve base-rate integration. When the base rate is embedded in a natural frequency format, it is easier to process and harder to ignore. This appears to reflect how our reasoning systems evolved — we track repeated discrete events better than abstract probabilities. The practical implication: communicating risk as frequencies is not just a stylistic preference but a measurable intervention that improves reasoning in patients, clinicians, and the general public."
 
-- question: "Base-rate neglect is an unavoidable feature of human cognition that cannot be meaningfully reduced by training or by changing how information is presented."
+- question: "Base-rate neglect is an unavoidable feature of human cognition that can seldom be meaningfully reduced by training or by changing how information is presented."
   type: true-false
   answer: false
   explanation: "False. Base-rate neglect varies substantially with presentation format and training. Natural frequency formats restore near-Bayesian performance in many tasks where percentage formats produce severe neglect. Explicit training in probabilistic reasoning and Bayesian updating also increases integration. The bias reflects a mismatch between presentation format and the representational formats our intuitive systems handle well — change the format, and the 'unavoidable' bias largely disappears."

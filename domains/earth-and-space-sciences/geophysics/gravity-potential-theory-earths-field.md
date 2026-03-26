@@ -45,7 +45,7 @@ The gravitational potential U satisfies Laplace's equation ∇²U = 0 in mass-fr
   answer: 1
   explanation: "Poisson's equation ∇²U = −4πGρ applies wherever mass is present (ρ ≠ 0). Laplace's equation ∇²U = 0 is the special case when ρ = 0 — i.e., in mass-free regions such as the air above the ground. The gravity field vector is recovered from the potential as g = −∇U (the negative gradient), not the Laplacian."
 
-- question: "A gravity anomaly observed at Earth's surface can arise only from density variations in the upper crust, not from deeper mantle structure."
+- question: "A gravity anomaly observed at Earth's surface can arise mainly from density variations in the upper crust, not from deeper mantle structure."
   type: true-false
   answer: false
   explanation: "Gravity anomalies integrate the effect of all density contrasts along the entire vertical column beneath the measurement point. Deep density variations — such as thickened oceanic crust, subducting slabs, or mantle plumes — can produce measurable gravity anomalies at the surface. The challenge of gravity interpretation is precisely that signals from different depths superimpose, making it an underdetermined inverse problem."

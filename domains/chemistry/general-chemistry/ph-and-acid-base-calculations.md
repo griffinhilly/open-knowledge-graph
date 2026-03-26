@@ -51,7 +51,7 @@ Build problem-solving fluency across four solution types: strong acid/base (dire
   answer: 1
   explanation: "Sodium ion is a spectator (conjugate of the strong base NaOH). Acetate is the conjugate base of the weak acid acetic acid; it undergoes hydrolysis: C₂H₃O₂⁻ + H₂O → HC₂H₃O₂ + OH⁻, making the solution basic. This is the salt hydrolysis concept — a salt of a weak acid and strong base produces a basic solution."
 
-- question: "Adding a small amount of strong acid to a buffer solution does not change its pH at all."
+- question: "Adding a small amount of strong acid to a buffer solution does not change its pH at most."
   type: true-false
   answer: false
   explanation: "Buffers resist pH change but do not prevent it entirely. The Henderson-Hasselbalch equation shows that adding acid consumes conjugate base ([A⁻] decreases, [HA] increases), shifting the ratio and slightly lowering pH. The buffer absorbs the shock — it just cannot prevent every change. A buffer is overwhelmed entirely when one component is exhausted."

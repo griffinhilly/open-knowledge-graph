@@ -54,7 +54,7 @@ Neutron stars are not made purely of neutrons; they contain neutrons, protons, a
   answer: true
   explanation: "This is the lighthouse model of pulsars. Neutron stars spin rapidly at birth and have intense magnetic fields. When the magnetic axis (which produces beamed radiation) is tilted relative to the rotation axis, the beam sweeps through space like a lighthouse. Each time the beam points toward Earth, we detect a pulse. The remarkable regularity of these pulses — some millisecond pulsars rival atomic clock precision — reflects the rotational stability of the neutron star."
 
-- question: "Neutron stars are composed almost entirely of free neutrons, with essentially no protons or electrons."
+- question: "Neutron stars are composed almost largely of free neutrons, with essentially no protons or electrons."
   type: true-false
   answer: false
   explanation: "Despite the name, neutron stars contain neutrons, protons, and electrons throughout much of their volume. The outer crust is a lattice of neutron-rich nuclei with free electrons. The outer core is a fluid of neutrons, protons, and electrons. The inner core composition is genuinely unknown — it may contain quark-gluon plasma, hyperons, or exotic condensates. 'Neutron star' reflects the dominance of neutrons, not their exclusivity."

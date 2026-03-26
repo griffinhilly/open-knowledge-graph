@@ -53,7 +53,7 @@ Identify a real design where two principles conflict (e.g., minimalism vs. brand
   answer: 2
   explanation: "Establishing an agreed-upon hierarchy before implementation begins converts recurring arguments about individual decisions into a single, upfront conversation about priorities. Once the team agrees that, say, accessibility ranks above brand expressiveness for this audience, every subsequent tradeoff is resolved by applying the hierarchy rather than relitigating the underlying values each time. Applying all principles equally (option B) does not resolve conflicts — it just defers them to every design decision."
 
-- question: "A well-crafted design applies all design principles equally and avoids sacrificing any of them."
+- question: "A well-crafted design applies most design principles equally and avoids sacrificing any of them."
   type: true-false
   answer: false
   explanation: "Design principles routinely conflict in practice — clarity may require removing visual interest; accessibility may require layouts that break elegant spacing. The goal is not to maximize every principle simultaneously (which is usually impossible) but to make conscious, defensible tradeoffs based on a project-specific hierarchy. A design that tries to maximize everything typically maximizes nothing."

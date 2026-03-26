@@ -53,7 +53,7 @@ Understand the cut rule and why it seems necessary (it allows inlining proofs of
   answer: 1
   explanation: "Cut-free proofs have better structural properties (the subformula property, finite search space) but they are not shorter. Eliminating a cut can produce a proof exponentially or even tower-exponentially longer than the original. Lemmas compress proofs by hiding complexity; removing them unwinds that compression. This is why automated theorem provers (like resolution-based systems) allow a form of cut in practice — cuts can keep proofs tractably short even though they sacrifice the subformula property. The tradeoff is: structural purity vs. proof length."
 
-- question: "Cut-free proofs are always shorter than proofs that use the cut rule, because they avoid the overhead of computing intermediate lemmas."
+- question: "Cut-free proofs are typically shorter than proofs that use the cut rule, because they avoid the overhead of computing intermediate lemmas."
   type: true-false
   answer: false
   explanation: "This reverses the actual relationship. The cut rule allows proofs to use intermediate lemmas (the cut formula φ), which can dramatically compress proof length. Eliminating cuts removes this compression, and the result can be exponentially or non-elementarily longer. This blowup is not a defect in the proof system — it reflects a real information-theoretic asymmetry: lemmas hide complexity that must be fully spelled out in a direct proof. Cut elimination is valuable for its structural and metalogical consequences, not for producing shorter proofs."

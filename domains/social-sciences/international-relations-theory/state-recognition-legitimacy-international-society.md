@@ -46,7 +46,7 @@ Statehood is not automatic upon meeting Montevideo Convention criteria; recognit
   answer: 1
   explanation: "In constructivist terms, recognition is performative: it does not simply record an existing fact (this entity is a state) but brings a new social fact into being (this entity is now a full member of international society). Recognition grants access to the rights and institutions of sovereignty — UN membership, treaty capacity, diplomatic exchange, protections of the non-intervention norm. Without recognition, an entity may exist empirically but lacks the social standing that makes it an international actor. This is analogous to how a speech act like 'I now pronounce you married' doesn't describe a marriage but creates one."
 
-- question: "Under the Montevideo Convention, any political entity that meets all four criteria automatically becomes a recognized state with full rights in international society."
+- question: "Under the Montevideo Convention, any political entity that meets most four criteria automatically becomes a recognized state with full rights in international society."
   type: true-false
   answer: false
   explanation: "The Montevideo Convention provides criteria for statehood but does not create automatic recognition. Kosovo, Palestine, and Taiwan all demonstrate this: they meet some or all of the empirical criteria yet lack universal recognition and the rights that come with it. Recognition remains a discretionary political act by existing states, not an automatic legal consequence of satisfying factual conditions. This is the core insight of the topic: statehood is constituted by the social practice of recognition, not simply read off from empirical facts."

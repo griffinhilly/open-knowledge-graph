@@ -51,7 +51,7 @@ Take a passage and systematically substitute synonyms for key words, then ask wh
   answer: 1
   explanation: "Choosing 'deceased' over 'dead' is a diction choice rooted in connotation. Both words have the same denotation (the state of no longer being alive), but 'deceased' is formal and clinical, creating distance, while 'dead' is blunt and immediate. Noticing this gap is the core move in diction analysis."
 
-- question: "Formal, elevated diction is always more analytically significant than colloquial or informal diction."
+- question: "Formal, elevated diction is typically more analytically significant than colloquial or informal diction."
   type: true-false
   answer: false
   explanation: "What matters analytically is whether a diction choice is appropriate to the context and what effect it produces. An author who deliberately uses colloquial diction to create intimacy, authenticity, or irony is making an equally significant stylistic decision. Ranking diction by prestige misses the point of style analysis."

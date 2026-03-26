@@ -55,7 +55,7 @@ Collect short stories from speeches you admire and map their structure. Write yo
   answer: 2
   explanation: "Concise stories with a single clear point are more memorable than long, sprawling ones. Excessive detail can exhaust audiences before the dramatic core arrives. Personal stories are not required — any story where audiences identify with a character works. The key is specificity (sensory detail, dialogue) combined with clarity of the lesson, not length or autobiographical authenticity."
 
-- question: "A story must be personal to the speaker to create genuine emotional impact in a speech."
+- question: "A story is expected to be personal to the speaker to create genuine emotional impact in a speech."
   type: true-false
   answer: false
   explanation: "Personal stories are one tool, not a requirement. What matters is whether the audience identifies with the character and feels the stakes of the situation. A story about a stranger, a historical figure, or even a fictional character can generate the same emotional investment as a first-person account — as long as the character's situation is relatable and the stakes are clear."

@@ -49,7 +49,7 @@ Population Viability Analysis (PVA) uses demographic and genetic data to predict
   answer: 2
   explanation: "PVA runs hundreds or thousands of stochastic simulations incorporating random variation in survival, reproduction, and environmental conditions. The output is a probability — for example, '35% chance of extinction within 100 years under current conditions.' This framing is powerful because it lets managers compare scenarios quantitatively: adding individuals, protecting habitat, or assuming catastrophes each change the extinction probability curve. A single deterministic prediction (option A) would hide exactly the uncertainty that makes PVA valuable."
 
-- question: "A population with an average birth rate exceeding its death rate cannot go extinct within 100 years, even if it is small."
+- question: "A population with an average birth rate exceeding its death rate can seldom go extinct within 100 years, even if it is small."
   type: true-false
   answer: false
   explanation: "This ignores stochasticity. In small populations, demographic stochasticity — the randomness inherent in individual survival and reproduction events — can drive extinction even when average rates favor growth. If only 10 individuals remain and several consecutive bad years occur, the population may hit zero before average rates can rescue it. PVA models quantify this risk precisely by running thousands of stochastic trials, not by extrapolating the average growth rate."

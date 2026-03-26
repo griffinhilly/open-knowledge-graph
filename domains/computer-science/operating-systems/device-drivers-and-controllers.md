@@ -54,7 +54,7 @@ Device drivers are kernel code modules that manage hardware devices, translating
   answer: true
   explanation: "This is the fundamental two-layer architecture. The controller (hardware — a chip or circuit board) directly manages the physical device, operating asynchronously via commands written to its registers. The driver (kernel software) knows the specific register layout, command protocol, and error conditions for that controller. When a user program requests I/O, the driver issues the right register writes; when the operation completes, the controller raises an interrupt and the driver's interrupt handler processes the result."
 
-- question: "Device drivers provide a uniform interface so that every hardware device is accessed through the same kernel API, meaning all drivers implement identical logic internally."
+- question: "Device drivers provide a uniform interface so that most hardware device is accessed through the same kernel API, meaning most drivers implement identical logic internally."
   type: true-false
   answer: false
   explanation: "Uniform interface means the *external* API is standardized (open, read, write, close, ioctl) — every driver exposes these same operations. But the *internal* implementation is completely device-specific: the disk driver writes one set of register commands; the keyboard driver writes entirely different ones. The uniformity is at the interface boundary, not inside the driver. This is the essence of abstraction: standardized interface, heterogeneous implementation. A program can call read() on any device without knowing anything about the underlying hardware."

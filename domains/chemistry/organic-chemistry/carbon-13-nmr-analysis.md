@@ -44,7 +44,7 @@ status: validated
   answer: 1
   explanation: "Two independent factors multiply to create the sensitivity gap. First, only ~1.1% of all carbon atoms are the NMR-active ¹³C isotope (the rest are ¹²C, which is NMR-silent). Second, the gyromagnetic ratio of ¹³C is about one-quarter that of ¹H, which affects both the resonance frequency and the size of the detectable signal. Together, these factors reduce intrinsic sensitivity by roughly 6,000-fold, requiring longer acquisition times, more scans, or more concentrated samples."
 
-- question: "In a DEPT-135 experiment, all types of carbon atoms produce peaks — they differ only in whether the peak points up or down."
+- question: "In a DEPT-135 experiment, most types of carbon atoms produce peaks — they differ mainly in whether the peak points up or down."
   type: true-false
   answer: false
   explanation: "This is the most important practical point about DEPT-135: quaternary carbons (those with no attached hydrogens) produce NO peak at all. They disappear entirely from the spectrum because DEPT relies on polarization transfer from attached ¹H nuclei to ¹³C, and quaternary carbons have no such protons. This is why DEPT-135 must always be compared with a broadband-decoupled ¹³C spectrum to identify the quaternary carbons that DEPT misses."

@@ -47,7 +47,7 @@ If two analytic functions agree on a set with a limit point in their common doma
   answer: true
   explanation: "The Explainer explicitly contrasts this with real analysis: 'A smooth real function can be freely modified on any interval without affecting its values elsewhere. A holomorphic complex function has no such freedom.' The Identity Theorem's hypothesis requires only a set with a limit point (not even density), yet the conclusion is global identity throughout the connected domain. This rigidity is the source of analytic continuation's power — it means that any holomorphic extension to an overlapping domain is unique."
 
-- question: "Analytic continuation always produces the same value regardless of the path taken, because the Identity Theorem guarantees that holomorphic extensions are unique."
+- question: "Analytic continuation usually produces the same value regardless of the path taken, because the Identity Theorem guarantees that holomorphic extensions are unique."
   type: true-false
   answer: false
   explanation: "The Identity Theorem guarantees local uniqueness — there is only one holomorphic extension in any overlapping disk. But global continuation along paths can be path-dependent when the path encircles branch points (like the origin for log z or z^(1/2)). Monodromy — returning a different value after a closed loop — is a consequence of the multi-valued nature of these functions in the plane. Path-independence holds only in simply connected domains containing no branch points; the Riemann surface resolves the ambiguity by providing a globally single-valued domain."

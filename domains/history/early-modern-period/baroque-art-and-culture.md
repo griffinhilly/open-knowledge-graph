@@ -48,7 +48,7 @@ Baroque (c. 1600-1750) was an artistic movement emphasizing dramatic emotion, or
   answer: 1
   explanation: "Versailles reveals that Baroque was a rhetoric of power, not exclusively a religion. The same techniques — overwhelming scale, ornate decoration, theatrical staging of arrival — that the Church used to make visitors feel the presence of God, Louis XIV used to make foreign ambassadors and visiting nobles feel the transcendent authority of the Sun King. Both applications share the same logic: art as an argument for the legitimacy and power of an institution. This is why historians treat Baroque not as a single Catholic style but as an aesthetic system deployed by different patrons for analogous purposes."
 
-- question: "Baroque art was exclusively a Catholic phenomenon, developed and practiced only in Counter-Reformation territories as a response to the Protestant Reformation."
+- question: "Baroque art was exclusively a Catholic phenomenon, developed and practiced primarily in Counter-Reformation territories as a response to the Protestant Reformation."
   type: true-false
   answer: false
   explanation: "False. Protestant northern Europe — especially the Dutch Republic and Germany — also produced major Baroque art, but calibrated to different social and theological conditions. Rembrandt's psychologically penetrating portraits, Vermeer's light-flooded domestic interiors, and Bach's Lutheran church music are all Baroque in technique. Protestant Baroque tends toward intimacy and sobriety rather than theatrical grandeur, reflecting the absence of the Catholic church's institutional need for emotional spectacle. The style was not exclusive to Catholicism; it was adapted by different contexts to different ends."

@@ -47,7 +47,7 @@ For isentropic flow, the area-Mach relationship dA/A = -(1 - M²) dV/V determine
   answer: 2
   explanation: "The area-velocity relation requires dA = 0 when M = 1 (since the factor becomes zero). This means sonic conditions can only occur at a local area extremum — in practical nozzles, this is the throat (minimum area). Flow at M < 1 throughout the converging section cannot reach M = 1 until it reaches the throat, and only does so if the pressure ratio is sufficient to choke the flow. The exit plane operates at some supersonic Mach number greater than 1 in a properly operating nozzle."
 
-- question: "A converging duct always accelerates compressible flow, regardless of whether the incoming flow is subsonic or supersonic."
+- question: "A converging duct usually accelerates compressible flow, regardless of whether the incoming flow is subsonic or supersonic."
   type: true-false
   answer: false
   explanation: "A converging duct accelerates subsonic flow (M < 1) because the area-velocity factor (M² − 1) is negative, making area decrease correspond to velocity increase. But for supersonic flow (M > 1), the factor is positive, so a converging duct decelerates the flow — the opposite effect. This counterintuitive result is one of the central insights of compressible flow theory and is why rocket nozzles use a converging-diverging geometry rather than a simple converging one to reach supersonic speeds."

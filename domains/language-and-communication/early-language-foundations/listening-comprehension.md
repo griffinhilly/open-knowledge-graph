@@ -51,7 +51,7 @@ Read aloud regularly and ask questions at multiple levels: literal ("What color 
   answer: 1
   explanation: "Listening comprehension is an active construction process. The listener uses vocabulary, background knowledge, and inference to build a mental model — a representation of the scene, its characters, and their relationships. This happens in real time, not after the fact. A child who merely records sounds without building meaning is not comprehending; comprehension requires active mental engagement at every moment."
 
-- question: "Listening comprehension is passive — children who can hear clearly and recognize all the vocabulary words in a sentence will automatically understand its full meaning."
+- question: "Listening comprehension is passive — children who can hear clearly and recognize most of the vocabulary words in a sentence will automatically understand its full meaning."
   type: true-false
   answer: false
   explanation: "Listening comprehension is an active process requiring attention, mental image-building, background knowledge activation, and inference-drawing. A child may know every word in a sentence yet still fail to connect them into a coherent mental model — especially when causation, unstated implications, or inferential gaps are involved. Passive hearing is not comprehension."

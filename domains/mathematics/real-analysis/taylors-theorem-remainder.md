@@ -51,7 +51,7 @@ Taylor's Theorem states that a smooth function f can be approximated by a polyno
   answer: true
   explanation: "This is precisely right. The n-th Taylor polynomial has terms f⁽ᵏ⁾(a)/k! · (x−a)ᵏ. The Lagrange remainder is f⁽ⁿ⁺¹⁾(c)/(n+1)! · (x−a)ⁿ⁺¹ for some c ∈ (a, x). Structurally it is the next Taylor term, but with the derivative evaluated at the intermediate point c instead of a. You cannot find c explicitly, but you can bound f⁽ⁿ⁺¹⁾ over the interval to get a concrete error bound without knowing c."
 
-- question: "If a smooth function f has a Taylor series that converges for all x, then the series necessarily converges to f(x)."
+- question: "If a smooth function f has a Taylor series that converges for most x, then the series necessarily converges to f(x)."
   type: true-false
   answer: false
   explanation: "This is a subtle but important falsehood. A function can be smooth (have derivatives of all orders everywhere) and have a convergent Taylor series that converges to the wrong value — or converges to f(x) only at the center. The canonical example is f(x) = e^{−1/x²} (defined as 0 at x = 0): all its derivatives at 0 are 0, so its Taylor series is identically 0, converging everywhere — but not to f(x) for x ≠ 0. Taylor's theorem with remainder identifies the actual condition: the series converges to f(x) at x if and only if Rₙ(x) → 0 as n → ∞."

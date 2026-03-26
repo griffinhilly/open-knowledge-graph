@@ -56,7 +56,7 @@ The Compactness Theorem asserts that an infinite set Σ of first-order sentences
   answer: true
   explanation: "This follows from combining compactness with the upward and downward Löwenheim-Skolem theorems (which themselves use compactness in their proofs). If a theory has an infinite model, it cannot pin down the exact cardinality of its models — it will have models of every infinite cardinality. This is a profound limitation of first-order logic: no first-order theory can uniquely characterize a specific infinite structure up to isomorphism, including the natural numbers. The rationals, reals, and complex numbers all share this non-categoricity at the first-order level."
 
-- question: "The Compactness Theorem guarantees that if every finite subset of Σ has a model, then Σ has a finite model."
+- question: "The Compactness Theorem guarantees that if nearly every finite subset of Σ has a model, then Σ has a finite model."
   type: true-false
   answer: false
   explanation: "This is a critical misreading. Compactness guarantees that Σ has *some* model — it makes no claim about whether that model is finite or infinite. In fact, the canonical application of compactness is to construct *infinite* models with prescribed properties (like non-standard arithmetic). The theorem says: satisfiability of the whole set is equivalent to satisfiability of all finite subsets. What kind of model exists depends on what Σ says — if Σ asserts 'there are infinitely many elements,' the model compactness guarantees will be infinite."

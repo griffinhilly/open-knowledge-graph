@@ -49,7 +49,7 @@ Horizontal gene transfer (HGT) moves genes between distantly related organisms w
   answer: true
   explanation: "This mosaic genome structure is a fundamental feature of prokaryotic evolution. Through transformation, transduction, or conjugation, individual genes can be acquired from entirely unrelated donors throughout an organism's existence. The recipient's lineage is determined by vertical inheritance of its core genome, but acquired genes carry the evolutionary history of their donors. A single bacterium can therefore contain ancient core genes tracing back to its lineage alongside recently acquired genes from cyanobacteria, archaea, or other donors — all within the same cell."
 
-- question: "Because bacteria reproduce asexually (without meiosis or gamete fusion), they cannot transfer genetic material to other bacteria during their lifetimes."
+- question: "Because bacteria reproduce asexually (without meiosis or gamete fusion), they can seldom transfer genetic material to other bacteria during their lifetimes."
   type: true-false
   answer: false
   explanation: "Bacteria transfer genetic material extensively through HGT mechanisms that are entirely independent of sexual reproduction: transformation (uptake of free environmental DNA), transduction (phage-mediated gene delivery), and conjugation (direct cell-to-cell plasmid transfer through a pilus). These operate during the organisms' lifetimes, between distantly related species, and even across domain boundaries. Asexual reproduction means genes flow vertically without recombination, but HGT provides an alternative route for acquiring new genetic information that is, if anything, more promiscuous than sexual reproduction."

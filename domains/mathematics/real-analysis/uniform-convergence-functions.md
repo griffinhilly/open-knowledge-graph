@@ -52,7 +52,7 @@ A sequence of functions (fₙ) converges uniformly to f on a set S if for every 
   answer: true
   explanation: "This is the key theorem separating uniform from pointwise convergence. If fₙ are all continuous on S and fₙ → f uniformly, then f is continuous on S. The proof uses the uniform N to control all three parts of the ε/3 argument simultaneously — something pointwise convergence cannot do because different points need different N values."
 
-- question: "If fₙ → f pointwise on S, then the limit function f inherits all the properties of the individual fₙ (continuity, integrability, differentiability)."
+- question: "If fₙ → f pointwise on S, then the limit function f inherits most of the properties of the individual fₙ (continuity, integrability, differentiability)."
   type: true-false
   answer: false
   explanation: "Pointwise convergence does not preserve these properties. The canonical counterexample: fₙ(x) = xⁿ on [0,1] is a sequence of continuous, differentiable functions, but the pointwise limit is discontinuous. Uniform convergence is required to guarantee that such properties pass to the limit."

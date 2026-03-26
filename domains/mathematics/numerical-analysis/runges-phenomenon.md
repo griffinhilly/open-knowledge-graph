@@ -50,7 +50,7 @@ For certain smooth functions like f(x) = 1/(1+x²), polynomial interpolation on 
   answer: true
   explanation: "f(x) = 1/(1+25x²) is infinitely differentiable on [−1,1] — it has no real singularities on the real line. The problem arises from complex singularities at x = ±i/5, which are close to the real axis. These cause the higher derivatives to grow rapidly even though the function looks smooth. Runge's phenomenon is a reminder that smoothness on the real line is not sufficient to guarantee convergence of high-degree polynomial interpolation — the behavior in the complex plane also matters. This is precisely what makes the phenomenon surprising and important."
 
-- question: "Increasing the degree of a polynomial interpolant by adding more equally spaced nodes is always a reliable strategy for improving approximation accuracy over the entire interval."
+- question: "Increasing the degree of a polynomial interpolant by adding more equally spaced nodes is typically a reliable strategy for improving approximation accuracy over the entire interval."
   type: true-false
   answer: false
   explanation: "This is exactly what Runge's phenomenon disproves. For functions with complex singularities near the real axis (like 1/(1+25x²)), polynomial interpolation on equally spaced nodes diverges near the endpoints as the degree increases — the approximation actively gets worse, not better. The key lesson is that accuracy depends on both the number of nodes AND their placement. More nodes with poor placement can increase error. Chebyshev nodes or piecewise polynomial methods (splines) are needed for reliable high-accuracy approximation."

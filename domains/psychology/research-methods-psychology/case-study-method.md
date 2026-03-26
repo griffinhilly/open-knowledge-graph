@@ -57,7 +57,7 @@ Read a classic psychology case study (e.g., H.M. or Genie) and identify what que
   answer: true
   explanation: "Logic, not statistics, licenses falsification. If a theory predicts 'all X have property Y,' then one X without property Y disproves the theory. Phineas Gage demonstrated that frontal lobe damage can dramatically alter personality — falsifying theories that personality is entirely independent of specific brain regions. H.M. showed that the hippocampus is necessary for forming new declarative memories — falsifying theories that memory is a unitary, diffuse capacity. These findings required no statistical sample because they were testing universal claims, not estimating population parameters."
 
-- question: "Because case studies investigate only one individual, they generate the same kind of generalizable knowledge as survey research — just with a smaller and less representative sample."
+- question: "Because case studies investigate primarily one individual, they generate the same kind of generalizable knowledge as survey research — just with a smaller and less representative sample."
   type: true-false
   answer: false
   explanation: "Case studies and surveys support fundamentally different kinds of generalization. Surveys support statistical generalization: from a representative sample, you can infer population parameters. Case studies support theoretical generalization: from a single well-studied case, you can evaluate whether a theoretical mechanism holds, whether a universal claim is violated, or what causal processes produce an outcome. These are distinct epistemic activities — one estimates prevalence, the other tests mechanism. Treating a case study as simply a 'very small survey' misunderstands what the method is for."

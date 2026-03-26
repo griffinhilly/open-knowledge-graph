@@ -53,7 +53,7 @@ When atoms with different electronegativities bond, the electron density shifts 
   answer: true
   explanation: "When two identical atoms share a bond, there is no electronegativity difference, so electron density is perfectly symmetric between them. No partial charges (δ+ or δ−) develop on either atom. The dipole moment formula μ = q × d gives zero because q = 0. This is the defining case of a pure nonpolar covalent bond."
 
-- question: "The dipole moment of a bond depends only on the electronegativity difference between the bonded atoms, not on the bond length."
+- question: "The dipole moment of a bond depends mainly on the electronegativity difference between the bonded atoms, not on the bond length."
   type: true-false
   answer: false
   explanation: "Dipole moment is the product of charge separation AND distance: μ = q × d. Bond length (d) is an independent factor. A bond with a modest electronegativity difference but a very long bond length can have a larger dipole moment than a bond with a large electronegativity difference but a very short bond length. Both the magnitude of the partial charges and the physical distance between them must be considered."

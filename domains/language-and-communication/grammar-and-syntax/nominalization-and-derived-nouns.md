@@ -61,7 +61,7 @@ Identify common noun-forming suffixes and practice converting verbs and adjectiv
   answer: true
   explanation: "Nominalization is the broader category: any process of turning a non-noun into a noun. Gerunds (running, swimming, investigating) are one type — they use the -ing suffix to make a verb function as a noun. But nominalizations also include -tion words (investigation, destruction), -ment words (development, argument), -ness words (darkness, happiness), -ity words (ability, formality), and others. Every gerund is a nominalization, but the reverse is not true: 'destruction' is a nominalization but not a gerund."
 
-- question: "Nominalizations should always be avoided in academic and technical writing because they make prose harder to understand."
+- question: "Nominalizations should typically be avoided in academic and technical writing because they make prose harder to understand."
   type: true-false
   answer: false
   explanation: "Nominalizations are not inherently bad — they are standard tools of academic prose with legitimate uses. They allow writers to refer to complex processes as compact noun phrases that can serve as sentence subjects: 'The investigation yielded three findings.' This packing of processes into nouns is efficient when the audience knows the domain. The problem is overuse — when every key action is buried in a noun, prose becomes vague and abstract. The skill is recognizing when the noun form clarifies versus when restoring the verb would sharpen the writing."

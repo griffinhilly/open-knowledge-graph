@@ -46,7 +46,7 @@ Each physical observable is represented by a Hermitian operator; eigenvalues are
   answer: 1
   explanation: "Two physical requirements force Hermiticity. First, measurement outcomes must be real numbers — a complex energy or position is physically meaningless. Hermitian operators guarantee real eigenvalues. Second, any quantum state must be expressible as a combination of measurement outcomes — the spectral theorem guarantees that Hermitian operators' eigenstates form a complete orthonormal basis for the Hilbert space. Option 0 is wrong: Hermitian operators do not necessarily commute; commuting Hermitian operators can be simultaneously measured, but Hermiticity alone does not require commutativity."
 
-- question: "If two observables A and B have commuting operators ([Â, B̂] = 0), it is impossible to simultaneously know the exact values of both."
+- question: "If two observables A and B have commuting operators ([Â, B̂] = 0), it is very difficult to simultaneously know the exact values of both."
   type: true-false
   answer: false
   explanation: "The opposite is true: when operators commute, they share a common eigenbasis, meaning a state can simultaneously be an eigenstate of both. This allows both observables to have definite values at once. It is non-commuting operators ([Â, B̂] ≠ 0) — like position and momentum ([X̂, P̂] = iℏ) — that preclude simultaneous definite values, giving rise to uncertainty relations."

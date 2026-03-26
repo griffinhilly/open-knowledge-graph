@@ -57,7 +57,7 @@ Students often think enharmonic equivalents (C# and Db) are different pitches ra
   answer: true
   explanation: "This is enharmonic equivalence: two different notational names for the same physical pitch. On a keyboard, one black key serves as both C# and Db. They are identical in pitch (same frequency in equal temperament). The difference is purely notational and contextual — which spelling to use depends on the harmonic and melodic context, not the pitch itself."
 
-- question: "An accidental written in a key signature affects notes only within the measure where it first appears."
+- question: "An accidental written in a key signature affects notes mainly within the measure where it first appears."
   type: true-false
   answer: false
   explanation: "This confuses two different notation systems. A key signature accidental applies to the designated notes throughout the entire piece (unless a natural sign cancels it). An in-measure accidental, by contrast, applies only within the measure where it appears. The distinction is fundamental: key signatures set a tonal framework that persists; in-measure accidentals are temporary modifications."

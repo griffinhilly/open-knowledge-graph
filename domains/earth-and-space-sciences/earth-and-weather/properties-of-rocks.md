@@ -48,7 +48,7 @@ Give children a collection of diverse rocks and a simple recording sheet. Have t
   answer: 2
   explanation: "Scratching tests hardness. A rock that can be scratched by a fingernail is relatively soft. A rock that cannot be scratched by a fingernail is harder. Geologists use a hardness scale (called the Mohs scale) to rank minerals from 1 (very soft, like talc) to 10 (very hard, like diamond). Hardness is one of the most useful properties for identifying rocks and minerals."
 
-- question: "You can always identify a rock just by looking at its color."
+- question: "You can typically identify a rock just by looking at its color."
   type: true-false
   answer: false
   explanation: "Color alone is not enough to identify a rock. Many different rocks can be gray, white, or black. For example, both granite and limestone can appear gray, but they are very different rocks. Scientists use multiple properties together -- hardness, texture, luster, and more -- to identify rocks accurately."

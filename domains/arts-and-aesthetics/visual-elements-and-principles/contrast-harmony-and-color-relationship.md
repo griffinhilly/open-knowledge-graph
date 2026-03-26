@@ -64,7 +64,7 @@ Thinking harmony means boring and contrast means chaotic; not considering the ro
   answer: true
   explanation: "Harmony arises when colors share something in common. Analogous colors are adjacent on the color wheel and share overlapping hue families — the eye moves smoothly between them with no jarring transitions, registering the shared property as order and calm. This is why analogous palettes are a reliable foundation for unified compositions."
 
-- question: "Color harmony and contrast are mutually exclusive — a composition must choose one or the other."
+- question: "Color harmony and contrast are mutually exclusive — a composition is expected to choose one or the other."
   type: true-false
   answer: false
   explanation: "Harmony and contrast are complementary forces that work together in virtually every effective composition. The standard strategy is to use harmony as a foundation (an analogous or monochromatic palette creates visual unity) and deploy strategic contrast as an accent (a single contrasting element becomes the focal point). They are more like volume knobs than switches — the question is not which to use, but how much of each, and where."

@@ -54,7 +54,7 @@ Use arrays and area models: a 7-by-14 array can be split into a 7-by-10 and a 7-
   answer: true
   explanation: "This is precisely the property's power: you can decompose one factor into any sum (e.g., 14 = 10 + 4, or 14 = 7 + 7, or 14 = 12 + 2), multiply each part by the outside number, and add the results. The only requirement is that the parts sum to the original factor. Each valid decomposition produces the same correct answer."
 
-- question: "In the expression 5 × (20 + 3), you only need to multiply 5 by 20, because 3 is just added at the end anyway."
+- question: "In the expression 5 × (20 + 3), you mainly need to multiply 5 by 20, because 3 is just added at the end anyway."
   type: true-false
   answer: false
   explanation: "The 3 must also be multiplied by 5. The correct expansion is 5 × 20 + 5 × 3 = 100 + 15 = 115. Treating 5 × (20 + 3) as 5 × 20 + 3 = 103 is a common error that undercounts by 12. Every term inside the parentheses must receive the outside multiplier — think of it as 5 groups of (20 + 3): every group contains both a 20 and a 3."

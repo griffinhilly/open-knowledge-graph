@@ -63,7 +63,7 @@ Practice decoding real National Weather Service surface analysis maps. Learn the
   answer: true
   explanation: "Frontal symbols mark the current position of the front on the map; the triangles (cold front) or semicircles (warm front) point in the direction of movement. A cold front with blue triangles pointing eastward is advancing eastward. The common misconception is thinking the symbols show only current position but not direction — in fact, the orientation of the pips (triangles/semicircles) is specifically designed to encode movement direction, helping forecasters quickly assess where fronts will be in the coming hours."
 
-- question: "A forecaster can fully diagnose current conditions and predict 24–72 hour evolution using only a surface analysis map showing isobars, fronts, and station models."
+- question: "A forecaster can fully diagnose current conditions and predict 24–72 hour evolution using primarily a surface analysis map showing isobars, fronts, and station models."
   type: true-false
   answer: false
   explanation: "Surface maps show only the lowest level of the atmosphere. Skilled forecasters always pair them with upper-air charts — particularly the 500 hPa height map showing jet stream position. Surface lows move in the direction of the 500 hPa flow, and the relationship between surface features and upper-level troughs and ridges determines whether systems intensify or weaken. A surface low under an upper-level trough will deepen; one under a ridge will weaken. Without upper-air data, surface analysis is incomplete and 24–72 hour forecasts will be unreliable."

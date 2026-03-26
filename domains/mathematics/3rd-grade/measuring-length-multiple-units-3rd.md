@@ -44,7 +44,7 @@ Objects can be measured in inches, feet, centimeters, or meters. Knowing approxi
   answer: 1
   explanation: "The friend used inches. Since 1 foot = 12 inches, a 36-foot hallway = 36 × 12 = 432 inches. The hallway's physical length did not change at all — only the unit changed. The number got larger because inches are smaller than feet, so you need more of them. This is the core insight: different units give different numbers for the same real-world length. Option D is the wrong intuition — 432 looks very different from 36, but both are correct measurements of the same hallway."
 
-- question: "A longer object always has a bigger number when measured than a shorter object."
+- question: "A longer object usually has a bigger number when measured than a shorter object."
   type: true-false
   answer: false
   explanation: "False — it depends on the units. A 2-meter table and a 100-centimeter door: the table is longer, but 2 (meters) is a smaller number than 100 (centimeters). If you compare measurements in different units, the bigger number doesn't necessarily mean the bigger object. You can only compare measurements directly when they use the same unit. This is why unit awareness matters: 2 meters vs. 100 centimeters requires converting to the same unit before comparing."

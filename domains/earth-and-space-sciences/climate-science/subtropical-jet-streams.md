@@ -60,7 +60,7 @@ Jet streams are not fixed in position; they meander (forming ridges and troughs)
   answer: true
   explanation: "These are mechanistically distinct features that happen to look similar (both are upper-tropospheric wind maxima). The subtropical jet is a direct consequence of upper-tropospheric poleward flow being deflected by Coriolis as it exits the Hadley cell. The polar jet forms at ~50–60° latitude along the polar front, driven by baroclinic instability where cold polar air meets warmer mid-latitude air. Both are maintained by thermal wind balance, but their energy sources differ."
 
-- question: "Jet streams maintain a nearly fixed east-west path throughout the year, shifting only slightly with the seasons."
+- question: "Jet streams maintain a nearly fixed east-west path throughout the year, shifting primarily slightly with the seasons."
   type: true-false
   answer: false
   explanation: "Jet streams meander substantially and continuously, forming large-amplitude ridges and troughs (Rossby wave patterns) that evolve on timescales of days to weeks. They also migrate poleward in summer and equatorward in winter. This variability in position and amplitude is precisely what drives mid-latitude weather changes — when the jet develops persistent large meanders, weather systems stagnate and extreme events (heat waves, floods, cold snaps) become more likely."

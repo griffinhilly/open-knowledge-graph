@@ -51,7 +51,7 @@ Error detection techniques use redundant information (checksums, parity bits, or
   answer: true
   explanation: "Detection only needs to signal 'something went wrong' — a single bit change suffices to indicate corruption. Correction must pinpoint *which* bit(s) need flipping, which requires enough redundancy to uniquely identify the error position. Hamming codes, for example, use parity bits at power-of-two positions so the syndrome (pattern of parity failures) directly encodes the error location. More correction capability = more redundant bits per message."
 
-- question: "Because modern error correction codes can fix corrupted data automatically, they have replaced error detection protocols in all layers of modern networks."
+- question: "Because modern error correction codes can fix corrupted data automatically, they have replaced error detection protocols in most layers of modern networks."
   type: true-false
   answer: false
   explanation: "Real networks use both, at different layers, based on tradeoffs. Ethernet uses CRC (detection) at the link layer; TCP uses checksums (detection) at the transport layer; 5G wireless uses FEC (correction) where retransmission adds too much latency. Detection + retransmission dominates when error rates are low and retransmission is fast. Correction dominates where retransmission is impractical. The two approaches are complementary, not substitutes."

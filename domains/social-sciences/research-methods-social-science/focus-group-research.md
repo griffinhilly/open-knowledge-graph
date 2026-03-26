@@ -52,7 +52,7 @@ Moderate a pilot focus group, analyze interactions and consensus-building proces
   answer: 2
   explanation: "A fully homogeneous group (all nurses with identical views) tends toward confirmation rather than discussion — participants agree without generating new analytical material. A fully heterogeneous group (people with no shared vocabulary or experience) may not engage productively at all. The balance is calibrated to the research question: shared professional vocabulary enables engagement; variation in seniority, specialty, or opinion produces productive disagreement. The goal is generative interaction, not representativeness."
 
-- question: "An effective focus group moderator primarily asks follow-up questions to individual participants' responses, much like a skilled interviewer, to ensure all perspectives are thoroughly explored."
+- question: "An effective focus group moderator primarily asks follow-up questions to individual participants' responses, much like a skilled interviewer, to ensure most perspectives are thoroughly explored."
   type: true-false
   answer: false
   explanation: "The moderator role differs sharply from the interview style. Interviewers follow up on individual responses to probe for elaboration in a respondent-to-researcher dialogue. Focus group moderators instead orchestrate inter-participant interaction: drawing out quieter voices, preventing domination by vocal members, and redirecting discussion so participants engage with each other rather than directing all responses to the researcher. The key move is 'What does everyone think about what she just said?' rather than moving sequentially through question items."

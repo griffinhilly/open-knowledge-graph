@@ -59,7 +59,7 @@ Construct P-T paths from metamorphic minerals showing burial and exhumation. Map
   answer: true
   explanation: "In subduction, cold oceanic crust is dragged rapidly to great depth. Because the slab descends faster than it can heat up conductively, pressure increases much more quickly than temperature — producing an unusual high-P, low-T gradient that falls into the blueschist and eclogite stability fields. This contrasts with continental collision, where crustal thickening raises both pressure and temperature more proportionally, typically producing amphibolite and granulite facies. The distinctive blueschist minerals (glaucophane, lawsonite) are diagnostic markers of ancient subduction zones."
 
-- question: "Regional metamorphism produces uniform mineral assemblages throughout an orogenic belt, since all rocks experience the same overall tectonic event."
+- question: "Regional metamorphism produces uniform mineral assemblages throughout an orogenic belt, since most rocks experience the same overall tectonic event."
   type: true-false
   answer: false
   explanation: "Regional metamorphism produces strongly zoned assemblages because rocks at different positions in the orogen experienced different pressure-temperature conditions. Position (depth, proximity to the collision core) determines both pressure (from weight of overlying rock) and temperature (from geothermal gradient and heat generation). The result is a systematic spatial variation in metamorphic grade — what petrologists call metamorphic facies belts — from greenschist facies at low P-T, through amphibolite and granulite facies at high P-T. This zonation is the primary tool for reconstructing the geometry of ancient orogens."

@@ -53,7 +53,7 @@ In metric spaces and first-countable spaces, limit points can be detected by seq
   answer: 2
   explanation: "The definition of limit point requires every neighborhood to contain a point of A DIFFERENT from x. Option B is too weak — it would make any point of A trivially a limit point of itself. Option D is too restrictive — sequences do not characterize limit points in all topological spaces, only in first-countable ones."
 
-- question: "If x is a limit point of A, then x must be an element of A."
+- question: "If x is a limit point of A, then x should be an element of A."
   type: true-false
   answer: false
   explanation: "Limit points need not belong to A. For example, 0 is a limit point of A = {1/n : n ∈ ℕ} but 0 ∉ A. The closure cl(A) = A ∪ A' explicitly includes limit points that lie outside A — that is precisely what closure adds."

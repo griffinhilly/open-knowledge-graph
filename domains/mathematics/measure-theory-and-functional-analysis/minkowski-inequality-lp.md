@@ -49,7 +49,7 @@ Minkowski's inequality asserts ‖f + g‖_p ≤ ‖f‖_p + ‖g‖_p for all f
   answer: true
   explanation: "The proof for 1 < p < ∞ works by factoring ‖f + g‖_p^p = ∫|f + g| · |f + g|^(p-1) dμ, bounding the first factor pointwise, and applying Hölder's inequality with conjugate exponents (p, q) where 1/p + 1/q = 1 to each resulting integral. The Hölder conjugate relationship makes the algebra close: ‖|f+g|^(p-1)‖_q = ‖f+g‖_p^(p-1), and dividing both sides by this factor yields the inequality. Hölder is the engine of the proof; Minkowski is a consequence."
 
-- question: "Minkowski's inequality ‖f + g‖_p ≤ ‖f‖_p + ‖g‖_p holds for all p > 0."
+- question: "Minkowski's inequality ‖f + g‖_p ≤ ‖f‖_p + ‖g‖_p holds for most p > 0."
   type: true-false
   answer: false
   explanation: "Minkowski's inequality requires p ≥ 1. For 0 < p < 1, the triangle inequality *fails* — the quantity (∫|f|^p dμ)^(1/p) does not define a norm because it is not subadditive. This is why L^p spaces as normed (and Banach) spaces require p ≥ 1. The boundary cases p = 1 and p = ∞ have direct proofs; the Hölder-based argument handles 1 < p < ∞. Knowing where the inequality breaks is as important as knowing where it holds."

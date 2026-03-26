@@ -55,7 +55,7 @@ Read Epictetus's Enchiridion and selected letters of Seneca (especially On the S
   answer: 1
   explanation: "On the Stoic view, emotions ARE judgments. Grief is the judgment 'something truly bad has happened.' Since external goods — including friendships, which are 'preferred' — are preferred indifferents (not genuinely good or bad), the grief rests on a cognitive error about value. The Stoic response is not to suppress the feeling but to correct the underlying judgment. The sage has eupatheiai ('good emotions') rather than no emotions at all."
 
-- question: "Stoic ethics teaches that the path to eudaimonia requires suppressing all emotions in order to maintain rational control."
+- question: "Stoic ethics teaches that the path to eudaimonia requires suppressing most emotions in order to maintain rational control."
   type: true-false
   answer: false
   explanation: "This is the most persistent misconception about Stoicism. Stoics did not advocate emotional suppression but emotional REPLACEMENT: correcting the false value-judgments that produce destructive pathē (fear, grief, anger) and replacing them with eupatheiai — appropriate emotional responses grounded in accurate value assessments. The Stoic sage is not emotionally blank; they experience joy at virtuous activity, warmth toward others, and concern without distress at things beyond their control."

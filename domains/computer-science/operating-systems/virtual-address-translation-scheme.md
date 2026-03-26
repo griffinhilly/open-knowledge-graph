@@ -47,7 +47,7 @@ Paging divides virtual and physical spaces into fixed-size pages; a page table m
   answer: 1
   explanation: "A flat page table needs one entry per virtual page. A 64-bit address space with 4 KB pages has 2^52 possible pages — storing one 8-byte entry per page would require 32 petabytes per process. Multi-level page tables solve this by only allocating page table nodes for virtual address ranges the process actually uses. Unmapped regions (the vast majority of a 64-bit space) require no page table storage at all, making the structure sparse and practical."
 
-- question: "On a TLB hit, the CPU must still access main memory once to verify the cached translation has not been invalidated."
+- question: "On a TLB hit, the CPU is expected to still access main memory once to verify the cached translation has not been invalidated."
   type: true-false
   answer: false
   explanation: "The entire purpose of the TLB is to eliminate page table memory accesses for the common case. On a TLB hit, the cached virtual-to-physical translation is used directly in a single cycle — no main memory access is needed for address translation. If TLB entries required verification on every access, the performance benefit would be entirely lost. Entries are invalidated by the OS on context switches and explicit flushes; between invalidations, cached translations are trusted."

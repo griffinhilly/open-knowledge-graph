@@ -53,7 +53,7 @@ Cardinal numbers measure the 'size' of sets: the cardinality of S is the equival
   answer: true
   explanation: "This is one of the most surprising results in set theory. Cantor showed that ℚ is countably infinite by constructing an enumeration: list all fractions a/b (in lowest terms, a ∈ ℤ, b ∈ ℕ⁺) in a grid and traverse it diagonally, skipping duplicates. This visits every rational number exactly once, providing a bijection with ℕ. Intuitively, ℚ seems 'denser' than ℕ (between any two integers lie infinitely many rationals), yet they have the same cardinality. Density on the number line is a different concept from cardinality. Any set that can be listed in a sequence indexed by ℕ (even with a clever non-obvious ordering) is countably infinite."
 
-- question: "Since the set of integers ℤ contains the natural numbers ℕ as a proper subset, ℤ must have strictly greater cardinality than ℕ."
+- question: "Since the set of integers ℤ contains the natural numbers ℕ as a proper subset, ℤ is expected to have strictly greater cardinality than ℕ."
   type: true-false
   answer: false
   explanation: "This is the central misconception the topic addresses. For infinite sets, containing a set as a proper subset does NOT imply strictly greater cardinality. The bijection f : ℕ → ℤ defined by the interleaving 0 → 0, 1 → 1, 2 → −1, 3 → 2, 4 → −2, … pairs every natural number with a unique integer and covers all integers. Since a bijection exists, |ℕ| = |ℤ|, even though ℕ ⊊ ℤ. The property 'a proper subset can be in bijection with the whole set' is actually characteristic of infinite sets (Dedekind's definition of infinite). For finite sets, every proper subset does have strictly smaller cardinality."

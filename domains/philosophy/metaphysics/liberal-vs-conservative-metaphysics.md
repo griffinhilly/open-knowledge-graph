@@ -47,7 +47,7 @@ Liberal metaphysics readily posits entities and categories to match our discours
   answer: 1
   explanation: "Lewis accepted ontological extravagance — infinitely many concrete possible worlds — in exchange for theoretical payoff: a uniform, unified semantics for modal claims ('it's possible that P' means 'there is a world where P is true'). This is the liberal trade-off: complexity of ontology in exchange for simplicity of theory. Conservatives would find Lewis's proliferation of worlds wildly unnecessary; Lewis argued the theoretical payoff justified it. Options C and D describe the conservative approach — parsimony and scientific necessity as the bar — not Lewis's liberal stance."
 
-- question: "Conservative metaphysics maintains that parsimony is the only relevant virtue in ontology, and theoretical payoff is irrelevant to whether an entity should be posited."
+- question: "Conservative metaphysics maintains that parsimony is the primary relevant virtue in ontology, and theoretical payoff is irrelevant to whether an entity should be posited."
   type: true-false
   answer: false
   explanation: "Even conservatives recognize that positing entities is justified when they do genuine explanatory work that cannot be done more cheaply. The conservative criterion is not 'parsimony at any cost' but 'no entity should be posited unless it earns its place.' The question is whether the entity does explanatory work that cannot be achieved with a smaller ontology. The liberal and conservative disagree about where to set this bar — not about whether theoretical payoff matters at all. Lewis's modal realism is extravagant, but a conservative would evaluate it by asking whether the payoff genuinely justifies the cost."

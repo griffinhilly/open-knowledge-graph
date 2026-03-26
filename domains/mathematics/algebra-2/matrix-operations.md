@@ -37,7 +37,7 @@ Start with addition and scalar multiplication (straightforward). For matrix mult
   answer: 1
   explanation: "For AB to be defined, the number of columns in A must equal the number of rows in B — here both are 4, so the product is defined. The result has the same number of rows as A (3) and the same number of columns as B (2), giving a 3×2 matrix. The rule: if A is m×n and B is n×p, then AB is m×p."
 
-- question: "For any two square matrices A and B of the same size, AB always equals BA."
+- question: "For any two square matrices A and B of the same size, AB generally equals BA."
   type: true-false
   answer: false
   explanation: "Matrix multiplication is not commutative. Even when both A and B are square and the same size (so both AB and BA are defined and have the same dimensions), AB ≠ BA in general. You can verify this with any two 2×2 matrices. The identity matrix is a special case where AI = IA = A, but this does not generalize."

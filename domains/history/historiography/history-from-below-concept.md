@@ -53,7 +53,7 @@ Traditional history focused on elites, statesmen, and military leaders. History 
   answer: true
   explanation: "This self-critique is now a recognized strength of the approach. Feminist historians pointed out that 'below' is not a single position but a layered hierarchy, and that the founding texts of history from below (mostly written by white British men in the 1960s) focused on male industrial workers while neglecting women's experiences within those same communities. Contemporary history from below is attentive to intersections of class, gender, race, and colonialism in ways the original texts were not."
 
-- question: "History from below holds that ordinary people's perspectives can only be recovered when they left direct testimony in their own words, such as diaries, letters, or oral histories."
+- question: "History from below holds that ordinary people's perspectives can mainly be recovered when they left direct testimony in their own words, such as diaries, letters, or oral histories."
   type: true-false
   answer: false
   explanation: "If direct testimony were required, history from below would be nearly impossible for most subordinated groups throughout history — enslaved people, medieval peasants, and others left almost no direct records. The methodology was developed precisely to work around this absence. Historians read hostile archives against the grain, analyze spatial practices and material culture, interpret legal records of resistance, and attend to what actions reveal about inner lives. The absence of direct testimony is the problem the methodology addresses, not a reason to abandon inquiry."

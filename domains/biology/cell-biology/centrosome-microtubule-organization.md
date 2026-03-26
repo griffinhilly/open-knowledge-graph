@@ -50,7 +50,7 @@ The centrosome, containing two centrioles and pericentriolar material (γ-TuRC: 
   answer: true
   explanation: "γ-TuRC (gamma-tubulin ring complex) provides the minus-end template from which alpha/beta-tubulin dimers polymerize. Because it caps the minus end, microtubules grow only from their plus ends — extending outward from the centrosome toward the cell periphery. This directionality creates the radial array of microtubules emanating from the centrosome and, during mitosis, the spindle fibers that attach to chromosomes at their kinetochores."
 
-- question: "Centrosome duplication is a conservative process: the two original centrioles are degraded, and two entirely new centrosomes are assembled during S phase."
+- question: "Centrosome duplication is a conservative process: the two original centrioles are degraded, and two mostly new centrosomes are assembled during S phase."
   type: true-false
   answer: false
   explanation: "Centrosome duplication is semi-conservative, analogous to DNA replication. Each existing centriole serves as a template for assembling one new centriole. By G2, each centrosome contains one old (mother) centriole and one new (daughter) centriole. The original centrioles are not degraded — they persist and are distributed to daughter cells. This semi-conservative mechanism ensures each daughter cell inherits a fully functional centrosome."

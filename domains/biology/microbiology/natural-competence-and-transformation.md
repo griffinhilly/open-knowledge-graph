@@ -46,7 +46,7 @@ Some bacteria develop natural competence—the ability to take up naked DNA from
   answer: 2
   explanation: "The single-stranded DNA that enters the cytoplasm is coated by RecA (or its homolog), which enables it to search the chromosome for complementary sequences and catalyze strand exchange — homologous recombination. Double-stranded DNA cannot undergo RecA-mediated homologous recombination directly; it requires denaturation to single strands first. The degradation of one strand during transport therefore directly enables integration. Options A and D each capture a partial truth but miss the mechanistic requirement for RecA-mediated integration."
 
-- question: "All bacterial species are capable of natural transformation if exposed to sufficient concentrations of exogenous DNA from related species."
+- question: "Most bacterial species are capable of natural transformation if exposed to sufficient concentrations of exogenous DNA from related species."
   type: true-false
   answer: false
   explanation: "Natural competence is not universal — it is present in specific species (Streptococcus pneumoniae, Bacillus subtilis, Haemophilus influenzae, Neisseria gonorrhoeae, among others) but absent in many common bacteria including most E. coli strains. Competence requires specific expression of uptake machinery proteins (surface receptors, type IV pilus-like structures, nucleases, RecA) — a dedicated genetic program. Simply exposing a non-competent bacterium to DNA does not enable transformation. Laboratory transformation of non-competent E. coli requires artificial methods (heat shock, electroporation) that bypass the need for the natural competence program."

@@ -51,7 +51,7 @@ Every real number has a unique continued fraction expansion [a_0; a_1, a_2, ...]
   answer: true
   explanation: "True. Expanding a rational number p/q via the continued fraction algorithm is equivalent to running the Euclidean algorithm on p and q. Since the Euclidean algorithm always terminates (remainders strictly decrease and are non-negative integers), the continued fraction expansion of any rational number terminates in finitely many steps."
 
-- question: "Any irrational number with a periodic continued fraction expansion must be transcendental."
+- question: "Any irrational number with a periodic continued fraction expansion is expected to be transcendental."
   type: true-false
   answer: false
   explanation: "False. It is exactly the opposite: any irrational with a periodic continued fraction is a quadratic irrational (a root of a degree-2 polynomial with integer coefficients), which is algebraic, not transcendental. Transcendental numbers like e and π cannot have periodic continued fraction expansions."

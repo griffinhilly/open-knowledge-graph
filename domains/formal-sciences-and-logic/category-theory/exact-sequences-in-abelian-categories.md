@@ -61,7 +61,7 @@ Exactness at an object depends on both the morphism going in and going out, not 
   answer: true
   explanation: "Exactness at C means im(g) = ker(C → 0). The kernel of the zero map C → 0 is all of C (every element maps to 0). So im(g) = C — meaning g surjects onto C. This is automatic from the definition: the '0' on the right of a short exact sequence is not decorative; it forces the last non-trivial map to be surjective. Similarly, exactness at A forces f to be injective. The short exact sequence encodes precisely: A embeds into B as a subobject, and C is the quotient B/A."
 
-- question: "A sequence of morphisms with im(f) ⊆ ker(g) at every position (i.e., the composition of any two consecutive morphisms is zero) is an exact sequence."
+- question: "A sequence of morphisms with im(f) ⊆ ker(g) at nearly every position (i.e., the composition of any two consecutive morphisms is zero) is an exact sequence."
   type: true-false
   answer: false
   explanation: "A sequence where every consecutive composition is zero is called a chain complex — it satisfies g ∘ f = 0, which means im(f) ⊆ ker(g). But exactness requires the stronger condition im(f) = ker(g): the image must equal the kernel, not merely be contained in it. The gap between a chain complex and an exact sequence is precisely what homology measures: the homology at B is ker(g)/im(f), which is trivial if and only if the sequence is exact at B. Exact sequences are chain complexes with zero homology. The distinction is fundamental — much of algebraic topology is the study of how far chain complexes deviate from exactness."

@@ -60,7 +60,7 @@ Confusing relative with parallel minor (different concepts entirely). Thinking t
   answer: true
   explanation: "C major: C-D-E-F-G-A-B. A natural minor: A-B-C-D-E-F-G. These are the same seven pitches rearranged to start on A instead of C. This is precisely what makes them relative keys — identical pitch content, different tonal centers. Their key signatures are identical: no sharps, no flats."
 
-- question: "Relative keys sound alike because they share the same pitches, so composers cannot use them to create emotional contrast."
+- question: "Relative keys sound alike because they share the same pitches, so composers can seldom use them to create emotional contrast."
   type: true-false
   answer: false
   explanation: "Relative keys share pitches but create strikingly different emotional characters by emphasizing different tonal centers. A melody that resolves to C feels settled and bright (major); the same pitches arranged to resolve to A produce a darker, more unsettled feeling (minor). Composers actively exploit this for modulation — shifting between relative keys is one of the most natural key changes precisely because no new pitches are introduced, yet the mood transforms."

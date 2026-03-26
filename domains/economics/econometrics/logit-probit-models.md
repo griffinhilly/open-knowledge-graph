@@ -62,7 +62,7 @@ Estimate a labor force participation model (binary) using LPM, logit, and probit
   answer: false
   explanation: "Logit and probit coefficients cannot be compared in magnitude because they are on different scales. The logit model uses the logistic function and the probit model uses the standard normal CDF, which have different variances. Logit coefficients are typically about 1.6–1.8 times larger than probit coefficients for the same data, simply due to the scale difference between the two link functions. To compare model fit, use log-likelihood or information criteria (AIC/BIC), not coefficient magnitudes. Marginal effects from the two models ARE comparable because they are in probability units."
 
-- question: "In a logit model, the marginal effect of a predictor variable on P(Y=1) is constant across all observations, analogous to a slope coefficient in linear regression."
+- question: "In a logit model, the marginal effect of a predictor variable on P(Y=1) is constant across most observations, analogous to a slope coefficient in linear regression."
   type: true-false
   answer: false
   explanation: "The marginal effect in a logit model is dP/dX = F'(X'β) × β, where F' is the derivative of the logistic function. F' equals p(1-p), which reaches its maximum of 0.25 when p = 0.5 and approaches 0 near the extremes. This means the marginal effect is largest when predicted probability is near 0.5 and nearly zero when probability is near 0 or 1. A predictor that shifts probability from 0.49 to 0.51 has a much larger marginal effect than one shifting probability from 0.01 to 0.03, even if the coefficient is the same. This non-constancy is why marginal effects must be computed — and why 'effect at the mean' and 'average marginal effect' can differ."

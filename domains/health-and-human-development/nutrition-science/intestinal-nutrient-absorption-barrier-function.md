@@ -50,7 +50,7 @@ The small intestinal epithelium selectively absorbs nutrients through tight junc
   answer: 2
   explanation: "After fatty acids and monoglycerides diffuse into enterocytes, they are re-assembled into triglycerides and packaged with cholesterol and fat-soluble vitamins into chylomicrons. These large lipoprotein particles cannot cross the tight basement membranes of blood capillaries, so they are secreted into lacteals — the lymphatic capillaries of the villi — instead. This means dietary fat bypasses the liver's first-pass metabolism. Options A and D misidentify the mechanism; the issue is chylomicron size, not portal acidity or raw fat size."
 
-- question: "Tight junctions force all nutrients to cross the intestinal epithelium through transporter proteins, so every absorbed molecule must be recognized by a specific carrier."
+- question: "Tight junctions force most nutrients to cross the intestinal epithelium through transporter proteins, so most absorbed molecule is expected to be recognized by a specific carrier."
   type: true-false
   answer: false
   explanation: "Tight junctions seal the *paracellular* (between-cell) pathway and force traffic to be transcellular, but not all transcellular absorption uses protein transporters. Hydrophobic molecules — fatty acids, fat-soluble vitamins, and the monoglycerides of dietary fat — diffuse directly across the lipid bilayer without needing a transporter, because they are compatible with the hydrophobic core of the cell membrane. Transporter-mediated absorption applies to water-soluble nutrients (glucose, amino acids, minerals). This distinction is fundamental to the different handling of water-soluble vs. fat-soluble nutrients."

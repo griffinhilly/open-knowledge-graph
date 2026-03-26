@@ -59,7 +59,7 @@ Define the dead state (environment at T₀, P₀) explicitly for your analysis. 
   answer: true
   explanation: "This is the definition of the dead state. Exergy measures the departure from equilibrium with the environment. When a system is at T₀ and P₀ (ambient temperature and pressure), every term in the exergy formula goes to zero: (U − U₀) = 0, (V − V₀) = 0, (S − S₀) = 0. The system has nowhere left to go spontaneously, and no work can be extracted by interacting with an environment at the same state."
 
-- question: "Exergy, like energy, is conserved in all real thermodynamic processes."
+- question: "Exergy, like energy, is conserved in most real thermodynamic processes."
   type: true-false
   answer: false
   explanation: "This is the crucial distinction between exergy and energy. The first law guarantees that energy is conserved — it cannot be created or destroyed. Exergy, by contrast, is destroyed whenever entropy is generated (the Gouy-Stodola theorem: exergy destruction = T₀ × entropy generation rate). Any irreversibility — friction, heat transfer across a finite temperature difference, mixing, combustion — destroys exergy permanently. You end with the same amount of energy but less of it is useful. This is the thermodynamic definition of 'waste.'"

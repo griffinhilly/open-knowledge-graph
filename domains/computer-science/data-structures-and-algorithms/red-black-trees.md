@@ -58,7 +58,7 @@ Study the five properties and understand why they imply logarithmic height (the 
   answer: true
   explanation: "Property 5 requires every root-to-leaf path to have the same number of black nodes. Adding a black node on the new path increases its black count while leaving all other paths unchanged — an immediate violation. Inserting red avoids this, though it may create a consecutive-reds violation (property 4) if the parent is also red. A property-4 violation is fixable by local recoloring or at most two rotations; a property-5 violation would require rebalancing every other path in the tree."
 
-- question: "Red-black trees are more strictly balanced than AVL trees, so their height is always shorter for the same number of nodes."
+- question: "Red-black trees are more strictly balanced than AVL trees, so their height is typically shorter for the same number of nodes."
   type: true-false
   answer: false
   explanation: "AVL trees are more strictly balanced: they maintain the invariant that child subtree heights differ by at most 1, keeping height close to log₂(n). Red-black trees allow a longer worst-case height (up to 2 log₂(n+1)) because paths can alternate red and black nodes. Red-black trees trade some lookup efficiency for cheaper modification operations. This is why standard library containers (std::map, Java's TreeMap) typically use red-black trees — modifications are more common than pure lookups in general-purpose use."

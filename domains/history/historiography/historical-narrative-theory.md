@@ -50,7 +50,7 @@ Historical narrative is not neutral presentation but an active shaping of meanin
   answer: true
   explanation: "This is one of the central insights of narrative theory. The starting point of a narrative shapes which events appear as causes and which appear as effects or background. A history of the Civil War that ends at Appomattox makes reunion the outcome; one that continues through Reconstruction and its reversal makes the meaning of the war fundamentally different. Beginning and ending points are interpretive choices with causal implications."
 
-- question: "Acknowledging that historical narratives are constructed — shaped by selection, arrangement, and emplotment — means they cannot be evaluated against evidence, and all narratives are equally valid."
+- question: "Acknowledging that historical narratives are constructed — shaped by selection, arrangement, and emplotment — means they can seldom be evaluated against evidence, and most narratives are equally valid."
   type: true-false
   answer: false
   explanation: "Recognizing that narrative is constructed does not collapse into relativism. Historians remain bound by evidential accountability: they cannot invent events, misrepresent sources, or ignore inconvenient evidence. Within the constraint of the historical record, multiple valid narratives are possible — but not all are equally well-supported. The distinction is between 'constructed' (interpretive choices are made) and 'fictional' (unconstrained by evidence). Narrative theory does not conflate them."

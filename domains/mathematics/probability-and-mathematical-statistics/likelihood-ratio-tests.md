@@ -51,7 +51,7 @@ The likelihood ratio test rejects H₀ when Λ = L(θ̂₀|X)/L(θ̂|X) < c, whe
   answer: true
   explanation: "Since the null parameter space Θ₀ is a subset of the full parameter space Θ, any parameter value allowed under H₀ is also allowed in the unrestricted optimization. The unrestricted MLE therefore achieves a likelihood at least as high as the constrained MLE. This means sup_{θ∈Θ} L(θ|x) ≥ sup_{θ∈Θ₀} L(θ|x), so Λ = L(θ̂₀)/L(θ̂) ≤ 1. Since likelihoods are non-negative, Λ ≥ 0. The bound Λ ∈ [0,1] is not an assumption but a logical consequence of the nested structure of H₀ within H₁."
 
-- question: "The likelihood ratio test is only applicable when the null hypothesis specifies a single fixed value of the parameter (a simple null hypothesis)."
+- question: "The likelihood ratio test is primarily applicable when the null hypothesis specifies a single fixed value of the parameter (a simple null hypothesis)."
   type: true-false
   answer: false
   explanation: "The LRT was designed specifically to generalize beyond simple null hypotheses. The Neyman-Pearson lemma handles simple nulls (H₀: θ = θ₀ vs. H₁: θ = θ₁) by comparing two fixed likelihoods. The LRT extends this to composite hypotheses — where H₀ specifies a set of parameter values — by replacing fixed likelihoods with the best achievable likelihood under each model (the constrained and unconstrained MLEs). This is precisely the LRT's contribution: a universal framework for testing any constraint on a parametric model, simple or composite."

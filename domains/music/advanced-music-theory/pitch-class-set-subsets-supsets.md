@@ -62,7 +62,7 @@ Analyze a Webern piece, mapping subset relationships between its pitch sets and 
   answer: true
   explanation: "Subset containment (A ⊆ B) and transpositional equivalence (A = TnC for some C) are entirely independent claims. A trichord might be extracted from a governing hexachord (subset relationship) while also being a transposition of a trichord from a different section of the piece (equivalence relationship). Both can hold simultaneously without contradiction. Conflating them — e.g., assuming that shared pitch classes between two sets establish a structural connection — leads to overclaiming."
 
-- question: "If pitch-class set A is a subset of set B, then A must be transpositionally or inversionally equivalent to at least one other subset of B."
+- question: "If pitch-class set A is a subset of set B, then A should be transpositionally or inversionally equivalent to at least one other subset of B."
   type: true-false
   answer: false
   explanation: "Subset containment makes no guarantee about transformation equivalences. Set B may contain subsets with distinct interval-class profiles, none of which are Tn or TnI related to each other. A can be a unique subset of B with no other subset of the same cardinality sharing its prime form. Equivalence relationships are about interval structure; subset relationships are about membership. They must be tracked separately."

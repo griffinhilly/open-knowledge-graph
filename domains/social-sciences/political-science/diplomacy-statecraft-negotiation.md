@@ -51,7 +51,7 @@ Diplomacy is the practice of managing relations between states through negotiati
   answer: true
   explanation: "This is the functional logic of diplomatic immunity. An ambassador who could be arrested whenever bilateral relations deteriorated would be useless as a communication channel — precisely when communication matters most. States that despise each other still maintain embassies and honor immunity because the back-channel for crisis management, signals, and negotiation is worth more than the satisfaction of any single punitive act. The Vienna Convention codifies this near-absolute protection."
 
-- question: "In international negotiation, states always negotiate over their true underlying interests, not the positions they state publicly — experienced diplomats simply need to identify and agree on those interests directly."
+- question: "In international negotiation, states generally negotiate over their true underlying interests, not the positions they state publicly — experienced diplomats simply need to identify and agree on those interests directly."
   type: true-false
   answer: false
   explanation: "States routinely negotiate over stated positions that diverge significantly from their underlying interests. Positions are shaped by domestic politics, prestige, historical claims, and bargaining strategy — they are often not a clean statement of what the state actually needs. Identifying the gap between positions and interests requires diplomatic skill and intelligence, not just open communication. The whole point of the positions-interests distinction is that states frequently obscure or conflate the two, and that doing so often prevents them from reaching agreements that would serve their real goals."

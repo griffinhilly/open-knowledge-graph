@@ -51,7 +51,7 @@ Incidence density (also called incidence rate) is the frequency of new cases per
   answer: true
   explanation: "Person-time is simply the sum of each individual's time at risk, independent of outcome. 3 + 5 + 2 + 4 = 14 person-years. A participant contributes their full time at risk whether or not they develop disease — they only stop contributing person-time at the point of disease onset, loss to follow-up, or study end, whichever comes first. This is why the denominator correctly reflects actual observation time rather than inflating it for participants who left early."
 
-- question: "Incidence density and cumulative incidence will always yield the same estimate of disease frequency when applied to the same cohort."
+- question: "Incidence density and cumulative incidence will typically yield the same estimate of disease frequency when applied to the same cohort."
   type: true-false
   answer: false
   explanation: "They measure related but different things and produce different numbers. Cumulative incidence is a proportion (cases / persons at risk at start), measured over a defined fixed period, assuming everyone is followed the same length of time. Incidence density is a rate (cases / person-time), which accounts for variable follow-up. They give equivalent information only when follow-up is equal for all participants and there is no censoring. When follow-up varies — the common real-world situation — they diverge, and incidence density is the appropriate measure."

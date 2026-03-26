@@ -56,7 +56,7 @@ Calculate entropy generation for simple processes (throttling, mixing, friction)
   answer: 2
   explanation: "Entropy generation S_gen is a direct measure of destroyed work potential (lost exergy). A component with high S_gen is consuming thermodynamic availability — work that could theoretically have been extracted from the system but is instead being irrecoverably destroyed. Second-law (entropy) analysis gives engineers a prioritized map of inefficiency: the component generating the most entropy is the one where improvements yield the greatest gains in overall system efficiency. This is the fundamental engineering value of entropy analysis — it transforms the abstract second law into an actionable diagnostic tool."
 
-- question: "Entropy always increases in every thermodynamic process."
+- question: "Entropy typically increases in nearly every thermodynamic process."
   type: true-false
   answer: false
   explanation: "False — this is one of the most common misstatements of the second law. The second law states that entropy of an *isolated* system never decreases. An open system or a system in thermal contact with its surroundings can absolutely decrease in entropy — a refrigerator decreases the entropy of its contents by rejecting heat to the surroundings. The total entropy of the system plus surroundings never decreases, but the entropy of a subsystem can decrease if it rejects heat. Sloppy application of this principle leads to confusion in engineering calculations where subsystems exchange heat with the environment."

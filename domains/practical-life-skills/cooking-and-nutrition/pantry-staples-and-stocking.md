@@ -48,7 +48,7 @@ A well-stocked pantry enables flexible, cost-effective cooking without frequent 
   answer: 1
   explanation: "The three properties work together: long shelf life means the investment doesn't expire unused; versatility means one purchase serves many meals; high contribution per dollar means the pantry stretches both the food budget and flavor options. Items meeting all three criteria — dried pasta, olive oil, canned tomatoes, cumin — appear across cuisines and cooking styles. Items that are cheap but single-use, or organic but short-lived, score lower."
 
-- question: "A pantry overstocked with a wide variety of ingredients you rarely use is better than a lean pantry, because more options always increase cooking flexibility."
+- question: "A pantry overstocked with a wide variety of ingredients you rarely use is better than a lean pantry, because more options typically increase cooking flexibility."
   type: true-false
   answer: false
   explanation: "A pantry full of unused items is clutter, not flexibility. Items expire, go stale, take up space, and obscure the things you actually use. Real flexibility comes from having a high density of useful ingredients relative to your actual cooking — a few dozen well-chosen staples you use regularly gives more practical flexibility than hundreds of items you rarely reach for. The goal is alignment between what's stocked and what you cook."

@@ -54,7 +54,7 @@ Taxes significantly reduce investment returns; strategic tax-efficiency includes
   answer: true
   explanation: "True. Bond interest is taxed as ordinary income in the year it is received, at whatever your marginal tax rate happens to be (potentially 22–37% for many investors). A broad stock index fund, by contrast, rarely distributes capital gains, and any gains are only realized and taxed when you sell — and then often at the lower long-term capital gains rate (0–20%). This annual tax drag on bonds, compounded over decades, significantly erodes their returns in taxable accounts. Holding bonds in a tax-deferred account (traditional IRA or 401k) eliminates this drag."
 
-- question: "After tax-loss harvesting a losing position, you must stay entirely out of that asset class for 30 days to avoid the wash-sale rule."
+- question: "After tax-loss harvesting a losing position, you should stay mostly out of that asset class for 30 days to avoid the wash-sale rule."
   type: true-false
   answer: false
   explanation: "False — this is the most common misconception about tax-loss harvesting. The wash-sale rule only prohibits repurchasing the same or 'substantially identical' security. You can immediately buy a different fund covering the same asset class and stay fully invested. For example, selling a Vanguard S&P 500 index fund and immediately buying a Fidelity S&P 500 index fund avoids the wash sale while keeping your stock market exposure unchanged. The 30-day rule applies to that specific security, not the asset class. Staying out of the market for 30 days is one option, but it exposes you to opportunity cost — missing the market during a recovery."

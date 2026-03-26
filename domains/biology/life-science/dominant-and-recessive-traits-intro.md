@@ -42,7 +42,7 @@ Use Punnett squares — simple grids that show all possible allele combinations 
   answer: 1
   explanation: "If brown (B) is dominant over blue (b), both parents can have the genotype Bb — they appear brown-eyed because they have a dominant B allele, but they each also carry a recessive b allele. When both parents happen to pass their b allele to a child, the child is bb and has blue eyes. This occurs with a 25% probability for each child of two Bb parents."
 
-- question: "A dominant allele is always more common in a population than a recessive allele."
+- question: "A dominant allele is typically more common in a population than a recessive allele."
   type: true-false
   answer: false
   explanation: "Dominant and recessive describe how alleles interact when paired — not how common they are. A dominant allele can be rare (like the allele for polydactyly, or extra fingers), and a recessive allele can be very common. The terms describe gene expression, not population frequency."

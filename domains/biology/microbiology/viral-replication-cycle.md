@@ -39,7 +39,7 @@ Use bacteriophages as the model system — they're simpler and illustrate both l
   answer: 1
   explanation: "In the lysogenic cycle, the phage genome integrates into the bacterial chromosome as a prophage. It then replicates silently with every cell division — the host does all the work. The phage can persist this way for many generations until an inducing signal (such as UV damage) triggers excision and entry into the lytic cycle. Options A describes the lytic cycle, C is incorrect (integration into the chromosome is the defining feature), and D would prevent lysogeny from occurring."
 
-- question: "All viruses must kill their host cell as part of their replication cycle in order to release new virions."
+- question: "Most viruses should kill their host cell as part of their replication cycle in order to release new virions."
   type: true-false
   answer: false
   explanation: "Lysis is only one release mechanism. Many enveloped viruses (including HIV and influenza) exit by budding — the virus acquires a membrane envelope as it pushes through the host cell membrane, and the host cell survives the process, at least initially. Lysogenic phages can persist indefinitely in the host chromosome without killing the cell at all. Killing the host is the lytic strategy, not a universal feature of viral replication."

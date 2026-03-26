@@ -59,7 +59,7 @@ Use numerical methods (Newton-Raphson) to extract implied volatility from market
   answer: true
   explanation: "This is the defining procedure. All other Black-Scholes inputs (stock price, strike, time to expiration, risk-free rate) are directly observable. Volatility is not, so implied volatility inverts the relationship: given the market price, what sigma makes the model price match? Because Black-Scholes has no closed-form inverse for sigma, this requires numerical methods (typically Newton-Raphson iteration using vega as the derivative). The result is a market-consensus forward-looking volatility estimate."
 
-- question: "According to Black-Scholes theory, all options on the same underlying asset with the same expiration date should have the same implied volatility."
+- question: "According to Black-Scholes theory, most options on the same underlying asset with the same expiration date should have the same implied volatility."
   type: true-false
   answer: false
   explanation: "Black-Scholes assumes constant volatility across all strikes, so in theory all options on the same underlying at the same expiration should have the same implied vol. But in practice they do not — the volatility smile and skew are empirically pervasive, especially in equity markets where lower strikes carry higher implied vols. This reveals that Black-Scholes' constant-volatility assumption is wrong: real markets price in heavier tails and asymmetric crash risk that a single sigma cannot capture."

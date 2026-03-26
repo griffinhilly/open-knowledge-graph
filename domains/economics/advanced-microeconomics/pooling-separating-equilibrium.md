@@ -49,7 +49,7 @@ In signaling games, a separating equilibrium is one where different types take d
   answer: true
   explanation: "In a separating equilibrium, the education consumed purely as a signal has no productive value of its own in the Spence model (or has value only to high types). Society expends real resources — tuition, time, effort — on an activity whose only function is to sort workers that employers cannot observe directly. This is deadweight loss. The information is revealed, but at a real cost that has no counterpart in a world where types are directly observable."
 
-- question: "A pooling equilibrium is always more efficient than a separating equilibrium because it avoids the deadweight loss of costly signaling."
+- question: "A pooling equilibrium is typically more efficient than a separating equilibrium because it avoids the deadweight loss of costly signaling."
   type: true-false
   answer: false
   explanation: "Pooling avoids signaling costs, but it causes high-ability workers to be paid the average wage rather than their marginal product, potentially inducing them to exit the market, reduce effort, or accept misallocation. This market unraveling can impose its own efficiency loss. Neither outcome is unambiguously superior: separating wastes resources on signaling; pooling suffers from adverse selection and potential market breakdown. The efficient outcome depends on the parameters."

@@ -54,7 +54,7 @@ Start by analyzing simple loops and nested loops, counting operations as a funct
   answer: 2
   explanation: "The outer loop runs n iterations and the inner loop runs log n iterations per outer iteration, giving n × log n total operations. This is O(n log n), the complexity of efficient sorting algorithms like merge sort. It grows much more slowly than O(n²) — for n=1,000,000, O(n log n) is about 20 million operations while O(n²) is a trillion."
 
-- question: "Big-O notation always describes the worst-case running time of an algorithm."
+- question: "Big-O notation typically describes the worst-case running time of an algorithm."
   type: true-false
   answer: false
   explanation: "Big-O describes an upper bound on growth rate, but it can be applied to best-case, average-case, or worst-case scenarios. For example, quicksort has O(n log n) average-case but O(n²) worst-case — both expressed in Big-O. The confusion arises because worst-case analysis is the most common and practically useful, so Big-O is often used for worst-case by convention, but the notation itself does not specify which case."

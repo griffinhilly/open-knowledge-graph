@@ -51,7 +51,7 @@ The nuclear binding energy is the energy released when nucleons (protons and neu
   answer: true
   explanation: "This is the mass defect: when nucleons bind together, the energy released (the binding energy) comes at the cost of mass, precisely as E = mc² predicts. The bound nucleus is lighter than its separated parts because some mass has been converted to the energy that holds it together. There are no exceptions — every stable or long-lived nucleus has a positive binding energy and therefore a mass defect."
 
-- question: "Heavier nuclei always have greater binding energy per nucleon than lighter nuclei."
+- question: "Heavier nuclei typically have greater binding energy per nucleon than lighter nuclei."
   type: true-false
   answer: false
   explanation: "The binding energy per nucleon curve peaks at iron-56 (≈8.8 MeV/nucleon) and *decreases* for heavier nuclei. In heavy elements like uranium, the Coulomb repulsion between the many protons grows (∝Z²) while the short-range strong force cannot compensate at large nuclear radii, reducing the per-nucleon binding energy to about 7.6 MeV/nucleon. This is precisely why fission of heavy nuclei releases energy — the fragments are closer to the iron peak and more tightly bound per nucleon."

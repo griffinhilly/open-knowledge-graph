@@ -52,7 +52,7 @@ Mental math strategies for subtraction include counting back (for small amounts)
   answer: true
   explanation: "Addition and subtraction are inverse operations — they undo each other. Knowing 6 + 8 = 14 immediately tells you that 14 - 8 = 6 and 14 - 6 = 8. This is the 'think-addition' strategy: instead of subtracting, ask 'what do I add?' and use a memorized addition fact to find the answer instantly."
 
-- question: "Counting back is the best mental math strategy for all subtraction problems."
+- question: "Counting back is the best mental math strategy for most subtraction problems."
   type: true-false
   answer: false
   explanation: "Counting back works well for small differences (like 12 - 3) but is slow and error-prone for larger ones (like 15 - 8 or 13 - 9). A flexible math thinker chooses the strategy that fits the problem: counting up when numbers are close, think-addition when you know the fact family, and decomposing when crossing a ten. No single strategy is best for every problem."

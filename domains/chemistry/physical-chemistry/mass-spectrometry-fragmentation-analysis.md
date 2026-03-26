@@ -45,7 +45,7 @@ Mass spectrometry ionizes molecules and measures mass-to-charge ratios of result
   answer: 2
   explanation: "The McLafferty rearrangement requires three structural elements: a carbonyl (or C=C), a gamma hydrogen (on the carbon three bonds from the carbonyl oxygen), and a beta bond that can cleave. It proceeds through a six-membered cyclic transition state. Acetone has no gamma carbon (only alpha carbons), so it cannot rearrange. 2-Pentanone has a propyl chain: the propyl group's terminal CH₃ provides gamma hydrogens, enabling the rearrangement. The aromatic ring in option D is rigid and cannot adopt the required geometry."
 
-- question: "The most abundant ion in a mass spectrum (the base peak) is always the molecular ion."
+- question: "The most abundant ion in a mass spectrum (the base peak) is typically the molecular ion."
   type: true-false
   answer: false
   explanation: "The base peak is simply the most abundant ion — it is defined as 100% relative abundance on the spectrum, but it can be any fragment. For many compounds, the molecular ion is unstable and fragments so readily that M⁺• has very low abundance or is not observed at all. The base peak is typically the most stable fragment cation produced by alpha-cleavage or other rearrangements. For example, in many aldehydes and ketones, the acylium ion (RC≡O⁺) is the base peak, not the molecular ion."

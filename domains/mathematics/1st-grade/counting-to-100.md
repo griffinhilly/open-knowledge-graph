@@ -51,7 +51,7 @@ Counting from 1 to 100 builds fluency with the number sequence and reveals the p
   answer: true
   explanation: "True. These round tens are the boundary points in the count to 100. Each marks the completion of a full group of ten. Recognizing them as landmarks helps students navigate the counting sequence — they know that after 39 comes 40, after 59 comes 60, and so on. These are also the first numbers where you see only a tens digit (and no ones digit above zero)."
 
-- question: "After learning to count to 29, a student must learn a completely new pattern for the numbers 30 through 39."
+- question: "After learning to count to 29, a student should learn a mostly new pattern for the numbers 30 through 39."
   type: true-false
   answer: false
   explanation: "False. The pattern for 30–39 (thirty-one, thirty-two... thirty-nine) is identical to the pattern for 20–29 (twenty-one, twenty-two... twenty-nine). Only the tens name changes. The student already knows the ones-digit rhythm; she just attaches 'thirty' to the front instead of 'twenty.' This is exactly why the pattern makes counting to 100 manageable."

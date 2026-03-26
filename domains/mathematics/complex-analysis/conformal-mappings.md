@@ -57,7 +57,7 @@ Thinking all angle-preserving functions are holomorphic; orientation-reversing m
   answer: true
   explanation: "This is the critical analytical fact underlying all applications of conformal maps to physics and engineering. If u is harmonic (∇²u = 0) in the w-plane, and w = f(z) is conformal, then u ∘ f is harmonic in the z-plane. This means you can transform a boundary value problem for the Laplacian from a complicated domain to a simple one (like the unit disk), solve it there, and pull the solution back. Without this preservation property, conformal maps would be geometrically interesting but analytically useless for differential equations."
 
-- question: "Orientation-reversing maps, like complex conjugation f(z) = z̄, are not angle-preserving and therefore cannot be conformal."
+- question: "Orientation-reversing maps, like complex conjugation f(z) = z̄, are not angle-preserving and therefore can rarely be conformal."
   type: true-false
   answer: false
   explanation: "Orientation-reversing maps do preserve angles — but they reverse orientation. Complex conjugation maps the angle θ to −θ, so the absolute angle between two curves is preserved even though their signed orientation flips. A conformal map in the strict sense is angle-preserving and orientation-preserving, which is why we require holomorphicity rather than just angle-preservation. But the statement as written — that orientation-reversing maps cannot preserve angles — is false. This is noted in the Common Misconceptions: 'orientation-reversing maps (like conjugation) also preserve angles.'"

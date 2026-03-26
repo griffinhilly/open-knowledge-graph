@@ -53,7 +53,7 @@ Circular orbits in a 1/r gravitational potential are stable: small radial or tan
   answer: true
   explanation: "This is the central stability criterion. At the circular orbit radius r₀, U_eff has a minimum: dU_eff/dr = 0 (the circular orbit condition) and d²U_eff/dr² > 0 (stability). A small displacement from r₀ moves the orbit into a region of higher U_eff, which generates a restoring force — exactly like a ball in a bowl. The positive second derivative is the mathematical signature of stability; a maximum (negative second derivative) at r₀ would make the orbit unstable to any perturbation."
 
-- question: "All stable circular orbits precess — the fact that Earth's orbit appears to repeat annually is due to the very slow rate of precession."
+- question: "Most stable circular orbits precess — the fact that Earth's orbit appears to repeat annually is due to the very slow rate of precession."
   type: true-false
   answer: false
   explanation: "Precession is not a universal feature of stable orbits. For the 1/r² force specifically, ω_r = ω_orbit, so the orbit repeats exactly after one revolution — zero precession. Earth's orbit genuinely closes annually (to high accuracy) rather than slowly rotating. Precession occurs for other force laws and for real orbits when perturbations from other planets are present (Mercury precesses noticeably), and general relativity adds an additional correction. But in a pure two-body 1/r² problem, stable orbits are exactly closed ellipses."

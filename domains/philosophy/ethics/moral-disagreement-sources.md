@@ -57,7 +57,7 @@ Take a case of deep moral disagreement (e.g., on capital punishment). Map out wh
   answer: false
   explanation: "Disagreement is evidence of difficulty, not evidence of groundlessness. Scientists persistently disagree about contested empirical questions without that proving science is merely subjective. Moral realists specifically hold that moral facts can exist even where we disagree about them. Moreover, much moral disagreement turns out to be empirical or conceptual — the value bedrock may be more widely shared than surface disagreements suggest."
 
-- question: "Resolving an empirical disagreement that underlies a moral dispute will always be sufficient to bring the parties to full moral agreement."
+- question: "Resolving an empirical disagreement that underlies a moral dispute will generally be sufficient to bring the parties to full moral agreement."
   type: true-false
   answer: false
   explanation: "Empirical resolution removes one layer of disagreement but may not reach deeper layers. For example, two people might agree that capital punishment does not deter crime, yet one might still support it on retributive grounds — the idea that wrongdoers deserve punishment regardless of deterrence. That is now a value disagreement that the factual resolution cannot touch. Empirical resolution is sometimes necessary and often narrows the dispute, but underlying conceptual or value differences can persist."

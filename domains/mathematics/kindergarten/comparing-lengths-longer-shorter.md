@@ -53,7 +53,7 @@ Children may compare only a part of an object, or not align objects properly for
   answer: true
   explanation: "This is exactly right. With both objects starting from the same point, the one that extends further is longer. This is the definition of direct comparison: observe which object reaches past the other from a common starting position."
 
-- question: "A bigger or heavier object is always longer than a smaller or lighter object."
+- question: "A bigger or heavier object is generally longer than a smaller or lighter object."
   type: true-false
   answer: false
   explanation: "Length is one specific measurable attribute — how far an object extends from end to end. An object can be bigger (wider, heavier, or taller) without being longer. For example, a thick, heavy wooden block could be shorter in length than a thin, light piece of string. Confusing 'bigger' with 'longer' is a common error that this comparison activity is designed to correct."

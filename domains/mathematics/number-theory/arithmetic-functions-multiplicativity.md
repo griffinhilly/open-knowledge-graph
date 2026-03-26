@@ -65,7 +65,7 @@ Multiplicativity also has deep algebraic consequences. The **Dirichlet convoluti
   answer: true
   explanation: "By the Fundamental Theorem of Arithmetic, every positive integer n factors uniquely as n = p₁^{a₁} · p₂^{a₂} · ... · pₖ^{aₖ} where the prime power factors are pairwise coprime. Multiplicativity then gives f(n) = f(p₁^{a₁}) · f(p₂^{a₂}) · ... · f(pₖ^{aₖ}). Knowing f(p^k) for every prime p and every exponent k therefore determines f everywhere. This is what makes multiplicative functions computationally tractable."
 
-- question: "A completely multiplicative function satisfies f(mn) = f(m)f(n) only when gcd(m, n) = 1."
+- question: "A substantially multiplicative function satisfies f(mn) = f(m)f(n) primarily when gcd(m, n) = 1."
   type: true-false
   answer: false
   explanation: "This describes merely multiplicative, not completely multiplicative. A completely multiplicative function satisfies f(mn) = f(m)f(n) for ALL positive integers m and n, with no coprimality restriction. Complete multiplicativity is strictly stronger: every completely multiplicative function is multiplicative, but not vice versa. The identity function f(n) = n is completely multiplicative; Euler's totient φ is only multiplicative."

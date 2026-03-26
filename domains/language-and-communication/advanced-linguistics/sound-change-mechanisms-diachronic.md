@@ -58,7 +58,7 @@ Sound changes are systematic, not random; even when phonetically abrupt, changes
   answer: true
   explanation: "If sound change were random or probabilistic, cognate sets would show random variation, and linguists could not project systematic correspondences backward to proto-forms with confidence. Regularity is the foundation of the comparative method: when English 'father,' Latin 'pater,' and Sanskrit 'pitā' show a systematic f/p/p correspondence rather than random variation, that regularity is evidence of a rule-governed change (Grimm's Law) operating from a common ancestor. Reconstruct the rule, reconstruct the proto-form. Remove regularity and the comparative method collapses."
 
-- question: "Sound changes occur suddenly and categorically — all speakers shift simultaneously — which is what gives sound laws their 'no exceptions' character."
+- question: "Sound changes occur suddenly and categorically — most speakers shift simultaneously — which is what gives sound laws their 'no exceptions' character."
   type: true-false
   answer: false
   explanation: "Sound changes proceed gradually through variation in the speech community before categorical adoption. A new variant starts as occasional, then becomes more frequent among certain speakers or in certain environments, then spreads — typically over generations — until it becomes categorical. The 'no exceptions' principle refers to the scope of application (every word in the conditioning environment), not to the speed of the change. The change may spread over a century or more. This gradualism is captured in sociolinguistic research on sound change in progress, which consistently observes variable intermediate stages before categorical establishment."

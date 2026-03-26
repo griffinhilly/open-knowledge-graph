@@ -48,7 +48,7 @@ LAG accesses a previous row in the window, LEAD accesses a following row, and FI
   answer: true
   explanation: "PARTITION BY resets the window for each group. LAG navigating backward stops at the partition boundary — there is no 'previous row' for the first row of each partition, so LAG returns NULL (or the default value if you specify one as the third argument). This is by design: comparing January's revenue to December's makes sense within a single product or region, but mixing data across partitions would produce nonsensical results. The partition acts as a logical fence that confines row navigation."
 
-- question: "LEAD and LAG are equivalent to window-aggregate functions like SUM OVER — they compute a value derived from all rows in the window frame."
+- question: "LEAD and LAG are equivalent to window-aggregate functions like SUM OVER — they compute a value derived from most rows in the window frame."
   type: true-false
   answer: false
   explanation: "LAG and LEAD are offset functions, not aggregate functions. They access a specific row at a fixed offset from the current row (the previous row, the next row, or the nth row back/forward), returning that row's column value directly. Aggregate window functions like SUM, AVG, and COUNT compute a summary statistic across all rows in the window frame. The distinction matters: LAG returns a raw value from a specific row, while SUM returns a computed value derived from many rows. Offset functions do not respect window frame specifications the same way aggregates do."

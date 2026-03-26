@@ -58,7 +58,7 @@ Start by showing that different orders give different answers: "Does 2 + 3 x 4 e
   answer: true
   explanation: "Parentheses are the tool for overriding default priority. Anything inside parentheses is evaluated first, regardless of what operations appear outside them. (5 + 3) × 4 means 'add first, then multiply' — the parentheses say so explicitly. Without them, multiplication would happen first by default, giving a different answer."
 
-- question: "According to the order of operations, multiplication must always be performed before division when both appear in an expression."
+- question: "According to the order of operations, multiplication should generally be performed before division when both appear in an expression."
   type: true-false
   answer: false
   explanation: "Multiplication and division have equal priority. When both appear in an expression (without parentheses), they are evaluated left to right — whichever appears first from left to right is done first. In 20 ÷ 4 × 2, division comes first (left to right): 20 ÷ 4 = 5, then 5 × 2 = 10. Treating division as lower priority gives the wrong answer of 2.5. The same equal-priority rule applies to addition and subtraction."

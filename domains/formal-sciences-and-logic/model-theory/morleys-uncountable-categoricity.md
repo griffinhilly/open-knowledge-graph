@@ -45,7 +45,7 @@ Morley's Categoricity Theorem states: if a countable theory is categorical in so
   answer: 1
   explanation: "Morley's theorem has a specific direction: it says that uncountable categoricity at any cardinality implies uncountable categoricity at all cardinalities. It does not say anything about the relationship between ℵ₀-categoricity and uncountable categoricity — those are independent phenomena. In fact, DLO is ℵ₀-categorical (by back-and-forth) but has many non-isomorphic models of every uncountable cardinality. Option C might sound plausible but is wrong: the theorem does not establish any such rule. The correct statement is that the two categoricity regimes (countable and uncountable) are simply independent of each other for countable theories."
 
-- question: "A countable theory that is categorical in some uncountable cardinality must be ω-categorical (categorical in ℵ₀)."
+- question: "A countable theory that is categorical in some uncountable cardinality is expected to be ω-categorical (categorical in ℵ₀)."
   type: true-false
   answer: false
   explanation: "This is false and illustrates the independence of the two categoricity regimes. Morley's theorem shows that uncountable categoricity forces ω-*stability* (a constraint on the number of types over countable parameter sets), but ω-stability is weaker than ω-categoricity. The theory of algebraically closed fields of characteristic p (ACF_p) is the canonical example: it is categorical in every uncountable cardinality (uncountably categorical) but has many non-isomorphic countable models (not ℵ₀-categorical). Uncountable categoricity and ℵ₀-categoricity constrain structure in different ways and do not imply each other."

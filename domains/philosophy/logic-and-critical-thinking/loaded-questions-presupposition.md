@@ -57,7 +57,7 @@ Thinking all multi-part questions are loaded (they're not, if neutrally phrased)
   answer: true
   explanation: "Yes. The question presupposes that you have been cheating. Answering 'no' to 'Have you stopped?' means 'No, I have not stopped' — confirming you cheated and continue to cheat. Answering 'yes' means 'Yes, I have stopped' — confirming you cheated but stopped. Both direct answers accept the presupposition of past cheating. This is why loaded questions are rhetorical traps: any direct answer, including the apparently safer 'no,' concedes the embedded false assumption."
 
-- question: "All questions with multiple parts or embedded structure contain hidden false presuppositions and are therefore loaded questions."
+- question: "Most questions with multiple parts or embedded structure contain hidden false presuppositions and are therefore loaded questions."
   type: true-false
   answer: false
   explanation: "This is a common over-generalization. A question can be multi-part or structurally complex without embedding any false or unwarranted presupposition. 'What did you have for breakfast, and did you enjoy it?' has two parts but both are neutrally phrased — they presuppose only that you exist and ate breakfast, which is reasonable. Loaded questions are defined specifically by embedding a *false or unwarranted* presupposition that forecloses neutral ground. Complexity alone does not make a question loaded."

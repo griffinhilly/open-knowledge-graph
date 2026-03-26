@@ -49,7 +49,7 @@ Sharpe ratio = (return − risk-free rate) / volatility measures return per unit
   answer: true
   explanation: "Yes — the ratios measure different things. Sharpe uses total standard deviation; Treynor uses beta. A portfolio with high idiosyncratic volatility (high standard deviation) but low market sensitivity (low beta) could have a low Sharpe but a high Treynor. Conversely, a portfolio highly correlated with the market might have high beta relative to its standard deviation, giving a high Sharpe but a low Treynor. The two ratios can produce any relative ranking."
 
-- question: "A portfolio with a higher Sharpe ratio is always a better investment than one with a lower Sharpe ratio."
+- question: "A portfolio with a higher Sharpe ratio is generally a better investment than one with a lower Sharpe ratio."
   type: true-false
   answer: false
   explanation: "The Sharpe ratio is only the right metric for investors who hold the portfolio as their entire investment. For a diversified institutional investor evaluating one sleeve of a multi-asset portfolio, the Treynor ratio is more appropriate — and the Sharpe-superior fund may have a worse Treynor ratio, making it the inferior choice in that context. 'Better' depends on the investor's situation: whether they can diversify away the idiosyncratic risk determines which measure is relevant."

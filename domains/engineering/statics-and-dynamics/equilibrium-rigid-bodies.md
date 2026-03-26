@@ -48,7 +48,7 @@ Choose the moment point strategically to eliminate the most unknowns simultaneou
   answer: 2
   explanation: "In 2D, three independent equilibrium equations are available (ΣFx = 0, ΣFy = 0, ΣM = 0). A simply supported beam has exactly three unknown reactions (one horizontal pin component and two vertical supports), making it statically determinate — three equations solve three unknowns. Choosing four unknowns would make the system indeterminate."
 
-- question: "When summing moments for a rigid body in equilibrium, the moment reference point must be located at the body's center of mass."
+- question: "When summing moments for a rigid body in equilibrium, the moment reference point should be located at the body's center of mass."
   type: true-false
   answer: false
   explanation: "The moment equilibrium condition ΣM_O = 0 holds for any reference point O when the body is in static equilibrium. The choice of reference point is a mathematical convenience, not a physical requirement. Strategically placing the reference point at the intersection of two or more unknown forces eliminates those unknowns from the moment equation, simplifying the algebra significantly."

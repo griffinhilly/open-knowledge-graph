@@ -60,7 +60,7 @@ Buying is always better long-term when in expensive markets or with short timeli
   answer: true
   explanation: "A 20% down payment on a $500,000 home is $100,000 that now sits in illiquid home equity. If that same capital were invested in a diversified portfolio earning 7% real returns, it would grow to roughly $387,000 in 20 years. That $287,000 gain is the opportunity cost — it is real value that the homeowner forfeits. Most casual rent-vs-buy comparisons omit this entirely, making ownership look more attractive than a complete analysis supports. The full comparison must credit the renter with these returns."
 
-- question: "Renting is always 'throwing money away' because rent payments build no equity and leave you with nothing to show after years of payments."
+- question: "Renting is typically 'throwing money away' because rent payments build no equity and leave you with hardly anything to show after years of payments."
   type: true-false
   answer: false
   explanation: "This is the most persistent misconception in personal finance. Rent buys something real: housing services, maintenance responsibility transferred to the landlord, and flexibility to move. Mortgage payments are not pure equity-building either — a substantial portion of early payments is interest (which also 'disappears'), plus property taxes and maintenance costs that produce no equity at all. A renter who invests the down payment and the monthly savings between rent and full ownership costs can accumulate substantial wealth. Whether renting or buying is better financially depends on the market, the time horizon, and what the renter does with the difference — not on any universal rule."

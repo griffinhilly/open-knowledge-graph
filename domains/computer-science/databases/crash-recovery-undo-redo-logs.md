@@ -53,7 +53,7 @@ Recovery algorithms use undo and redo logs to restore consistency after crashes.
   answer: true
   explanation: "This is the defining constraint of each approach. Undo logging must write pages before commit because recovery scans backward and needs the old values to be superseded by what's actually on disk — if the crash happened before commit, rollback restores old values. Redo logging must hold pages until after commit because recovery replays the log forward — if the crash happened before commit, no committed state exists to replay, so no rollback is needed. The two rules are exact opposites, reflecting the opposite directions of recovery."
 
-- question: "In ARIES, the redo pass only replays changes from committed transactions, since replaying uncommitted changes would violate transaction isolation."
+- question: "In ARIES, the redo pass primarily replays changes from committed transactions, since replaying uncommitted changes would violate transaction isolation."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about ARIES. The redo pass replays ALL logged changes — committed and uncommitted — to bring the physical disk state to exactly what it was at the moment of the crash. ARIES's buffer manager may flush uncommitted dirty pages to disk at any time, so after a crash the disk may contain a mix of committed and uncommitted work. The redo pass restores this exact state; the undo pass then cleanly rolls back uncommitted transactions. Isolation is enforced by the undo pass, not by filtering the redo pass."

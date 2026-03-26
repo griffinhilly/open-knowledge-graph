@@ -47,7 +47,7 @@ The Gibbs phase rule F = C - P + 2 predicts the degrees of freedom in a system w
   answer: 1
   explanation: "An azeotrope is a special composition where the vapor and liquid in equilibrium have exactly the same composition. At this point, the phase envelope pinches to a single point on the T-xy diagram, and the relative volatility becomes 1. Distillation separates components by exploiting the difference in vapor and liquid compositions — when these are equal, there is nothing to separate. Simple distillation starting at 80% can concentrate ethanol up to 95.6% but cannot cross the azeotrope. To exceed 95.6% purity requires breaking the azeotrope with a third component (extractive distillation), pressure-swing distillation (azeotrope composition shifts with pressure), or a membrane."
 
-- question: "For a binary mixture (C=2) in two-phase equilibrium, fixing temperature completely determines the pressure and the compositions of both phases."
+- question: "For a binary mixture (C=2) in two-phase equilibrium, fixing temperature substantially determines the pressure and the compositions of both phases."
   type: true-false
   answer: false
   explanation: "F = C − P + 2 = 2 − 2 + 2 = 2 for a binary two-phase system. Fixing temperature uses one degree of freedom, leaving one more — pressure can still vary independently. Unlike a pure substance (C=1, P=2, F=1) where fixing T on the vapor-pressure curve automatically sets P, a binary system has an extra degree of freedom from its composition. The two-phase region in binary systems is a surface in T-P-composition space, not a curve. You must fix both T and P to constrain the compositions of both phases (and even then, fixing one composition determines the other through phase equilibrium, not independently)."

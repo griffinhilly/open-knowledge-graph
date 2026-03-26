@@ -50,12 +50,12 @@ Language is left-hemisphere dominant in approximately 95% of right-handers and 7
   answer: 1
   explanation: "The temporal asymmetry hypothesis proposes that the left hemisphere develops an advantage for rapidly-changing acoustic signals (the temporal fine structure distinguishing phonemes), while the right hemisphere is better suited for slowly-varying features like pitch contour and prosody. Language, which depends on rapid phoneme discrimination, naturally recruits the hemisphere better at that temporal resolution. Option A implies a genetic hard-wired module, which the plasticity evidence contradicts. Option C is partly true as a description but doesn't explain the mechanism."
 
-- question: "Language lateralization is genetically fixed before birth, so early left-hemisphere damage always produces lasting aphasia."
+- question: "Language lateralization is genetically fixed before birth, so early left-hemisphere damage usually produces lasting aphasia."
   type: true-false
   answer: false
   explanation: "The plasticity evidence directly contradicts this. Early left-hemisphere damage (especially before age 5–8) typically results in good language recovery as the right hemisphere assumes language functions across Broca's and Wernicke's homologs. The same damage in adulthood produces persistent aphasia with only partial recovery. This contrast demonstrates that lateralization is a developmental outcome shaped by experience, not a hard-wired anatomical blueprint. The right hemisphere has the architectural capacity for language — under normal development it simply doesn't win the competition for language circuits."
 
-- question: "The right hemisphere makes no meaningful contribution to language: it processes only visuospatial information."
+- question: "The right hemisphere makes no meaningful contribution to language: it processes primarily visuospatial information."
   type: true-false
   answer: false
   explanation: "The right hemisphere contributes substantially to pragmatic aspects of language — emotional prosody, metaphor, sarcasm, irony, and discourse-level coherence. Patients with right hemisphere strokes often retain intact syntax and vocabulary but lose the ability to detect implied meaning, appreciate humor, or comprehend how context changes the meaning of an utterance (e.g., a sarcastic 'Nice work'). A purely left-hemisphere account of language undercounts what natural communication actually requires."

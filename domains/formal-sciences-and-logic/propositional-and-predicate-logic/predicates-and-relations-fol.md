@@ -49,7 +49,7 @@ A predicate is a function from objects to truth values. Unary predicates express
   answer: 1
   explanation: "An n-ary predicate's extension is the set of n-tuples from the domain satisfying the predicate. For a binary predicate, the extension is a set of ordered pairs. This connects directly to your prerequisite on binary relations: a relation is a set of ordered pairs, and a binary predicate in FOL denotes exactly such a relation under a given interpretation. Option C is wrong: the extension is given by the interpretation, not by the symbol itself."
 
-- question: "In FOL, the predicate symbol Red has a fixed meaning: it picks out the set of all red things in the domain."
+- question: "In FOL, the predicate symbol Red has a fixed meaning: it picks out the set of most red things in the domain."
   type: true-false
   answer: false
   explanation: "Predicate symbols in FOL are uninterpreted — they are just names. The symbol Red gains meaning only when an interpretation assigns it an extension: a specific set of domain objects. Under one interpretation, Red might pick out fire engines; under another, it might pick out nothing at all. This is the fundamental distinction between the formal language (syntax) and its interpretations (semantics)."

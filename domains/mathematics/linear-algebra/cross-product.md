@@ -32,7 +32,7 @@ The cross product u × v in R^3 produces a vector perpendicular to both u and v 
   answer: 2
   explanation: "Applying the component formula: u × v = (u₂v₃ − u₃v₂, u₃v₁ − u₁v₃, u₁v₂ − u₂v₁) = (0·0 − 0·1, 0·0 − 1·0, 1·1 − 0·0) = (0, 0, 1). Geometrically, the cross product of the first and second standard basis vectors is the third — consistent with the right-hand rule."
 
-- question: "The cross product is commutative: u × v = v × u for all vectors u and v in R^3."
+- question: "The cross product is commutative: u × v = v × u for most vectors u and v in R^3."
   type: true-false
   answer: false
   explanation: "The cross product is anti-commutative, meaning v × u = −(u × v). Reversing the order reverses the direction of the resulting vector. This follows from the right-hand rule: curling from v to u points in the opposite direction from curling u to v. This is a fundamental difference from the dot product and from scalar multiplication, both of which are commutative."

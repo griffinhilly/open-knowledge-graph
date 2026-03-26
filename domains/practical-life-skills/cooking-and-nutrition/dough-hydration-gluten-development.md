@@ -69,7 +69,7 @@ Make doughs at different hydration levels (60%, 65%, 70%) and observe difference
   answer: true
   explanation: "This is the principle behind autolyse and no-knead techniques. Once water is added to flour, the proteins glutenin and gliadin begin hydrating and forming bonds spontaneously. A resting period of 30–60 minutes (or a long overnight fermentation) allows substantial gluten development without mechanical work. Many modern artisan bread recipes exploit this, requiring only periodic gentle folds rather than traditional 8–10 minute kneading."
 
-- question: "A higher hydration dough (80%+) will always produce better bread than a lower hydration dough (65%)."
+- question: "A higher hydration dough (80%+) will generally produce better bread than a lower hydration dough (65%)."
   type: true-false
   answer: false
   explanation: "Higher hydration can produce a more open, airy crumb, but it is not universally better. Very wet doughs (80%+) are difficult to shape — they spread rather than hold their form and require specialized techniques like baking in a covered vessel or loaf pan. A 65% dough is often easier to handle and perfectly appropriate for sandwich loaves, rolls, and many other breads. The 'better' hydration depends entirely on the desired outcome and the baker's skill level."

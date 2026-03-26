@@ -64,7 +64,7 @@ The Vibrio fischeri LuxI/LuxR system is the canonical model — trace how light 
   answer: true
   explanation: "This captures the adaptive logic of quorum sensing. Attacking the host with a handful of bacteria would be futile — the immune system could easily overwhelm a small population. By coordinating virulence factor secretion and biofilm formation only when population density is high enough for the attack to succeed, the bacteria maximize their collective effectiveness. Quorum sensing is essentially a timing mechanism that waits for sufficient numbers before committing metabolic resources to behaviors that pay off only at scale."
 
-- question: "Quorum quenching is a poor therapeutic strategy because it does not kill bacteria and therefore cannot clear an infection."
+- question: "Quorum quenching is a poor therapeutic strategy because it does not kill bacteria and therefore can rarely clear an infection."
   type: true-false
   answer: false
   explanation: "The non-bactericidal nature of quorum quenching is a feature, not a flaw. It reduces virulence — preventing biofilm formation and virulence factor production — without killing bacteria, which means it exerts far less selective pressure for resistance evolution than conventional antibiotics. While it may need to be combined with immune clearance or traditional antibiotics to fully resolve an infection, its advantage is precisely that it targets pathogenicity rather than survival, undermining the 'arms race' dynamic of antibiotic resistance."

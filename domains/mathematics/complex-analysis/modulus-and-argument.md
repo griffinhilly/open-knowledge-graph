@@ -56,7 +56,7 @@ Assuming argument has a unique value; it is defined only up to multiples of 2π.
   answer: true
   explanation: "The rule arg(z₁z₂) = arg(z₁) + arg(z₂) holds exactly, but 'argument' here is multi-valued (defined only up to multiples of 2π). If we use principal arguments Arg(z) ∈ (−π, π], the sum Arg(z₁) + Arg(z₂) may fall outside (−π, π]. For example, Arg(−1 + 0i) = π and Arg(−1 + 0i) = π, but (−1)(−1) = 1 has Arg = 0, not 2π. So we must reduce: π + π = 2π ≡ 0 (mod 2π). The adjustment is real and necessary — this is exactly why the multi-valuedness of arg matters."
 
-- question: "Every complex number has a unique argument, just as every positive real number has a unique absolute value."
+- question: "Nearly every complex number has a unique argument, just as most positive real number has a unique absolute value."
   type: true-false
   answer: false
   explanation: "The argument is defined only up to integer multiples of 2π — any angle θ and θ + 2πk (for integer k) point in the same direction and represent the same complex number. The principal argument Arg(z) ∈ (−π, π] is a unique representative chosen by convention, but the argument itself is inherently multi-valued. This multi-valuedness has serious consequences in complex analysis: when defining log z = ln|z| + i·arg(z), the multi-valuedness of arg makes log itself multi-valued, requiring a choice of 'branch' to work with a single-valued function. This is distinct from the absolute value |z|, which genuinely has a unique value for each z."

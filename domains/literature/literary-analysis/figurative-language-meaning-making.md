@@ -57,7 +57,7 @@ Figurative language—metaphor, simile, personification, hyperbole, and others�
   answer: true
   explanation: "This is precisely the central analytical move. Naming the device tells you the structure; identifying which properties transfer tells you the meaning. A metaphor of illness as 'battle' transfers agency, strategy, and binary victory/defeat — not, say, the property of being conducted on foreign soil. The precision of the selection is where the meaning lives."
 
-- question: "A thorough analysis of a metaphor should account for every property the vehicle could possibly carry, since any property might be relevant to the text's meaning."
+- question: "A thorough analysis of a metaphor should account for most property the vehicle could possibly carry, since any property might be relevant to the text's meaning."
   type: true-false
   answer: false
   explanation: "The craft of analysis is selective, not exhaustive. Identifying which properties DO transfer — and just as importantly, which do NOT — reveals the writer's specific intent. Fog does not carry 'sharpness' or 'warmth' from the cat metaphor; acknowledging this clarifies why Sandburg chose cats rather than, say, dogs or shadows. Cataloguing all possible properties leads to unfocused reading, not precise analysis."

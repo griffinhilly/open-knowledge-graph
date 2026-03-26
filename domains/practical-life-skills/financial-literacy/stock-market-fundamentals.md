@@ -69,7 +69,7 @@ Look up a company you know well, read its income statement and balance sheet, ca
   answer: true
   explanation: "True. Gambling is zero-sum: for every winner there is an equal loser, and no new value is created. A stock represents a real ownership stake in a company that employs people, builds products, and generates revenues. As the company creates value over time, stockholders' claims on that value grow. The economy and productive enterprises tend to expand over long periods, which is why broad equity markets have historically appreciated over time — something impossible in a zero-sum game."
 
-- question: "A stock with a high P/E ratio is always overvalued and should be avoided."
+- question: "A stock with a high P/E ratio is typically overvalued and should be avoided."
   type: true-false
   answer: false
   explanation: "False. A high P/E ratio means investors are paying more per dollar of current earnings, which typically reflects expectations of high future growth. If a company is growing rapidly, investors rationally pay a premium for today's modest earnings because they expect future earnings to be much larger. Whether a stock is 'overvalued' depends on whether actual future growth justifies the premium — context and comparison to peers matter enormously. A low P/E on a declining company may be more expensive in the long run than a high P/E on a fast-growing one."

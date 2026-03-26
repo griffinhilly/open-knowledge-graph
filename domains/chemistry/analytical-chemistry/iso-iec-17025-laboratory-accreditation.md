@@ -46,7 +46,7 @@ ISO/IEC 17025 is the international standard specifying requirements for laborato
   answer: 1
   explanation: "Metrological traceability means there is an unbroken chain of calibrations connecting the laboratory's result back to a recognized reference — ultimately to SI units. Using NIST-certified reference materials establishes that link. Traceability does not mean NIST verified the specific result or approved the method; it means the number carries a defined meaning that is reproducible and comparable across laboratories."
 
-- question: "ISO/IEC 17025 accreditation covers all test methods a laboratory performs, not just those listed in the accreditation scope."
+- question: "ISO/IEC 17025 accreditation covers most test methods a laboratory performs, not just those listed in the accreditation scope."
   type: true-false
   answer: false
   explanation: "Accreditation is strictly scope-limited. Accrediting bodies grant approval for specific test methods on specific sample matrices, as listed in the laboratory's scope of accreditation. Tests performed outside this scope are not covered by accreditation, even if the laboratory's general quality system is strong."

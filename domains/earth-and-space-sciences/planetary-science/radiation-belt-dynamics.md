@@ -43,7 +43,7 @@ Charged particles trapped in planetary magnetic fields form radiation belts. Par
   answer: 1
   explanation: "The outer belt is dominated by energetic electrons whose population can be dramatically enhanced or depleted within hours by geomagnetic storms, coronal mass ejections, and electromagnetic wave-particle interactions. The inner belt, by contrast, is dominated by high-energy protons produced by the slow, steady CRAND (cosmic ray albedo neutron decay) process, making it far more stable on short timescales."
 
-- question: "A particle trapped in Earth's magnetic belt executes only one motion: it spirals around a magnetic field line as it travels between the northern and southern hemispheres."
+- question: "A particle trapped in Earth's magnetic belt executes primarily one motion: it spirals around a magnetic field line as it travels between the northern and southern hemispheres."
   type: true-false
   answer: false
   explanation: "Trapped particles actually execute three simultaneous motions: (1) gyration — rapid spiraling around a field line due to the Lorentz force; (2) bounce — oscillation back and forth between magnetic mirror points near the poles; and (3) azimuthal drift — slow longitudinal drift around the planet (electrons drift eastward, protons westward) due to field gradient and curvature. All three motions together create the donut-shaped shell characteristic of a radiation belt."

@@ -48,7 +48,7 @@ Distributed databases replicate data across sites for fault tolerance and scalab
   answer: 1
   explanation: "Asynchronous replication acknowledges writes to the client as soon as the primary stores them, before replicas have confirmed receipt. If the primary crashes in the window between the write and replication, that write is lost — replicas never received it. In this inventory scenario, replicas still show inventory = 1, and a new primary elected from a replica would allow another sale, causing overselling. This is the fundamental risk of asynchronous replication: data loss on primary failure. It is an acceptable tradeoff when consistency is less critical than availability, but not for inventory management."
 
-- question: "Synchronous replication provides higher availability than asynchronous replication because it guarantees all replicas are always up to date."
+- question: "Synchronous replication provides higher availability than asynchronous replication because it guarantees most replicas are generally up to date."
   type: true-false
   answer: false
   explanation: "Synchronous replication provides *consistency*, not higher availability — in fact, it reduces availability. Because synchronous replication waits for every replica to confirm a write before acknowledging it to the client, any slow or unreachable replica causes writes to block or fail. If a network partition or replica failure occurs, the system may become unavailable for writes until the partition heals. Asynchronous replication commits locally and continues operating even if replicas are lagging or temporarily unreachable, providing higher availability at the cost of potential inconsistency."

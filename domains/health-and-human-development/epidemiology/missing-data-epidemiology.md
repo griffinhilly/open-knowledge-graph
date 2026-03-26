@@ -49,7 +49,7 @@ Missing data can introduce bias and reduce precision. Data may be Missing Comple
   answer: 2
   explanation: "This is the MAR scenario. MAR means: conditional on observed variables (here, age), the probability of being missing does not depend on the missing value itself. Older patients have higher missingness, but among patients of the same age, the missing biomarker values are not systematically different from observed ones. This satisfies MAR, making multiple imputation including age in the imputation model a valid approach. MCAR would require that even age had no relationship to missingness — a stronger assumption."
 
-- question: "'Missing at Random' (MAR) means that the missing observations are a random subset of all observations, similar to randomly discarding data."
+- question: "'Missing at Random' (MAR) means that the missing observations are a random subset of most observations, similar to randomly discarding data."
   type: true-false
   answer: false
   explanation: "MAR is one of the most poorly named concepts in statistics. It does NOT mean data are missing by random chance — that is MCAR. MAR means missingness depends only on *observed* variables, not on the value of the missing variable itself. A study where younger patients are systematically less likely to have lab results recorded is NOT MCAR (missingness is related to age), but it may be MAR if the missing lab values, conditional on age, are not systematically different from observed lab values. MCAR is a special case of MAR where no observed variable predicts missingness either."

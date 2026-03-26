@@ -59,7 +59,7 @@ In every topology, ∅ and X are both open and both closed — they are **clopen
   answer: true
   explanation: "By the axioms, both ∅ and X are always in τ, so they are open. Their complements are X and ∅ respectively, which are also in τ — so they are closed too. Being both open and closed (clopen) is not a contradiction; it's a feature of the definition. This surprises students who carry Euclidean intuitions about 'open' and 'closed' being mutually exclusive, but the topological definitions simply do not require that."
 
-- question: "A set that is not open in a given topology must be closed in that topology."
+- question: "A set that is not open in a given topology is expected to be closed in that topology."
   type: true-false
   answer: false
   explanation: "Open and closed are not complementary categories in topology — a set can be neither. For example, in the standard topology on ℝ, the half-open interval [0,1) is neither open (it contains the boundary point 0 with no open neighborhood inside the set) nor closed (its complement (−∞,0) ∪ [1,∞) is not open). The misconception that 'not open means closed' is a carryover from everyday language, but the topological definition of closed is a separate condition: a set is closed if its complement is open."

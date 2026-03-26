@@ -59,7 +59,7 @@ Confusing epistemic gap with metaphysical gap; assuming an epistemic gap proves 
   answer: true
   explanation: "Yes. The epistemic gap says our explanatory methods seem insufficient to capture phenomenal experience, not that consciousness is non-physical. A physicalist can say: 'I believe consciousness is physical, but our current third-person scientific framework is not yet suited to describe first-person phenomenal facts.' This position — explanatory pessimism within a physicalist framework — takes the epistemic gap seriously without drawing metaphysical conclusions from it. The gap is a challenge for explanation, not a refutation of physicalism."
 
-- question: "The epistemic gap establishes that consciousness cannot ultimately be explained in physical terms."
+- question: "The epistemic gap establishes that consciousness can seldom ultimately be explained in physical terms."
   type: true-false
   answer: false
   explanation: "The epistemic gap is a claim about the apparent limits on explanation, not about ultimate metaphysical facts. Even granting the strongest version — that no third-person physical description will ever fully capture phenomenal experience — this shows something about the structure of our knowledge and explanatory tools, not about what consciousness is. An optimist about explanation can accept the gap as a current challenge without thinking it is permanent. A pessimist may think the gap is principled but still compatible with physicalism. Concluding from the gap that consciousness is non-physical requires an additional controversial premise that the epistemic gap entails a metaphysical divide."

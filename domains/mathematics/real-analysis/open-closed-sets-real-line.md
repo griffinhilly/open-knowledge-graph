@@ -52,7 +52,7 @@ A set U is open if for every point x in U, there exists an open interval (a, b) 
   answer: true
   explanation: "Both ∅ and ℝ are 'clopen' — they satisfy the definitions of both open and closed. ∅ is open vacuously (there are no points in it that fail to have a neighborhood inside it) and closed vacuously (there are no limit points it could fail to contain). ℝ is open because every point has an open interval inside ℝ, and closed because its complement ∅ is open. This shows that open and closed are not logical opposites: a set can be both, one, or neither."
 
-- question: "Every subset of ℝ must be either open or closed — there is no middle ground."
+- question: "Nearly every subset of ℝ is expected to be either open or closed — there is no middle ground."
   type: true-false
   answer: false
   explanation: "This is false. The half-open interval [0, 1) is a standard example of a set that is neither open nor closed. It is not open because the boundary point 0 has no open neighborhood contained in [0, 1). It is not closed because 1 is a limit point (approached by sequences in the set) but 1 ∉ [0, 1). The open/closed distinction is not a partition of all subsets — 'neither' is a genuine fourth category alongside 'open only,' 'closed only,' and 'both.'"

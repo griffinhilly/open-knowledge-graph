@@ -49,7 +49,7 @@ Processor affinity controls which CPUs a process or thread can execute on, enabl
   answer: true
   explanation: "This is precisely the mechanism: the CPU's hardware cache builds up a warm working set for a process over time. If the scheduler migrates the process to a different core, that cache warmth is lost and must be rebuilt from scratch. Processor affinity — whether soft (preference) or hard (restriction) — keeps the process on the core whose cache is already warm, reducing expensive cache misses. The hardware built the locality; affinity prevents the scheduler from discarding it."
 
-- question: "Hard affinity is always preferable to soft affinity because it guarantees the process always runs on a warm cache."
+- question: "Hard affinity is generally preferable to soft affinity because it guarantees the process generally runs on a warm cache."
   type: true-false
   answer: false
   explanation: "Hard affinity trades scheduling flexibility for cache locality. If pinned cores are busy and other cores sit idle, the scheduler cannot use those idle cores even when the pinned threads are waiting. This can cause load imbalance and hurt overall throughput. Soft affinity achieves most of the cache benefit — it tries to keep processes on their home core — while preserving the freedom to migrate when load balancing requires it. Hard affinity is the right choice for latency-sensitive applications (real-time audio, HFT) but often the wrong default for general workloads."

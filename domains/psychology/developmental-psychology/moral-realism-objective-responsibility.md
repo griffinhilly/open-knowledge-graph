@@ -58,7 +58,7 @@ Moral realism persists unchanged throughout childhood; all preconventional child
   answer: true
   explanation: "This is the defining feature of objective responsibility: the magnitude of the outcome determines the judgment, not the actor's intent. In the cups paradigm, children around ages 5–7 consistently rate the accidentally clumsy child (who broke many cups) as naughtier than the deliberately mischievous one (who broke fewer). This is counterintuitive from an adult moral perspective but coherent from a developmental one — observable consequences are the most salient information available to a child with limited theory-of-mind capacity."
 
-- question: "Moral realism disappears uniformly at a fixed age — once children pass the developmental transition, they always weight intentions over outcomes in moral judgments."
+- question: "Moral realism disappears uniformly at a fixed age — once children pass the developmental transition, they generally weight intentions over outcomes in moral judgments."
   type: true-false
   answer: false
   explanation: "The transition is gradual and context-sensitive, not a uniform switch. Even older children can revert to outcome-based reasoning when the harm is severe enough, and cultural contexts that emphasize behavioral outcomes can prolong outcome-based moral reasoning. The shift is better described as the progressive overriding of a default bias toward observable consequences by the developing capacity to represent and weight intentions — a process that varies by child, context, and situation, not a clean developmental threshold."

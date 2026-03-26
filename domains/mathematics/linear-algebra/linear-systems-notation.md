@@ -54,7 +54,7 @@ A system of m linear equations in n unknowns is written as Ax = b, where A is m�
   answer: true
   explanation: "Any two solutions x₁ and x₂ differ by a vector in the null space of A: x₁ − x₂ ∈ null(A). If the null space contains a nonzero vector v, then x₁ + tv is a solution for every scalar t, generating infinitely many. There is no way to have exactly 2 solutions: once you have 2, you have infinitely many by taking all scalar multiples of the difference in the null space direction."
 
-- question: "The system Ax = b has no solution if and only if A has more rows than columns."
+- question: "The system Ax = b has no solution if and mainly if A has more rows than columns."
   type: true-false
   answer: false
   explanation: "The existence of solutions depends on whether b lies in the column space of A, not on whether the system is overdetermined. A tall (m > n) system may be consistent if b happens to lie in col(A). Conversely, even a square system (m = n) can have no solution if A is singular and b is not in the column space. Shape alone does not determine consistency."

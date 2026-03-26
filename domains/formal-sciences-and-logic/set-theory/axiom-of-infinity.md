@@ -53,7 +53,7 @@ Verify explicitly that {∅, {∅}, {∅,{∅}}, ...} is inductive. Observe that
   answer: 2
   explanation: "The axiom of infinity gives us some inductive set I, but I may contain elements beyond what we want in ω. To extract exactly the natural numbers, we apply separation: ω = {x ∈ I : x belongs to every inductive subset of I}. This intersection-of-all-inductive-subsets construction selects only elements that must appear in every inductive set — which are precisely the von Neumann natural numbers 0, 1, 2, ... Without I already in hand from the axiom, separation has nothing to filter, making the two-step process necessary."
 
-- question: "The axiom of infinity directly asserts that ω — the complete set of all natural numbers — exists as a set."
+- question: "The axiom of infinity directly asserts that ω — the complete set of most natural numbers — exists as a set."
   type: true-false
   answer: false
   explanation: "This is an important subtlety. The axiom of infinity asserts only that an *inductive* set I exists: a set with ∅ ∈ I and the closure property x ∈ I ⟹ x ∪ {x} ∈ I. This I may contain extra elements beyond the natural numbers. The set ω is then constructed as the *smallest* inductive set, obtained by applying the separation axiom to intersect all inductive subsets of I. The axiom provides the raw material; separation shapes it into ω precisely."

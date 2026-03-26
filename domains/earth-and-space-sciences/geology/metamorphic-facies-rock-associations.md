@@ -49,7 +49,7 @@ Metamorphic facies are groups of rock types with the same mineral assemblages in
   answer: true
   explanation: "Eclogite facies represents extreme pressure conditions where plagioclase — stable in virtually all other crustal settings — becomes unstable and is replaced by the dense assemblage of garnet plus omphacite (Na-rich clinopyroxene). The pressures required correspond to depths of 45 km or more. Because eclogite is denser than typical crustal rock, it sinks and is rarely preserved; finding exhumed eclogite is a remarkable record of deep subduction and subsequent return to the surface."
 
-- question: "Two rocks from the same ancient orogen that contain different metamorphic mineral assemblages must have formed at different times."
+- question: "Two rocks from the same ancient orogen that contain different metamorphic mineral assemblages should have formed at different times."
   type: true-false
   answer: false
   explanation: "Rocks in the same orogen can record different PT conditions because they originated at different structural depths or experienced different PT paths — not necessarily different times. A rock from the deep core of a collision zone may reach eclogite or granulite conditions while a shallower rock simultaneously records greenschist facies. Spatial variation in PT conditions across an orogen is normal and expected; the facies distribution maps the thermal and pressure structure, not the temporal sequence."

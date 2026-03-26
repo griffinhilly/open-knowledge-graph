@@ -50,7 +50,7 @@ The compactness theorem states that if every finite subset of an infinite set Γ
   answer: true
   explanation: "Correct. Logical consequence means Γ ∪ {¬φ} is unsatisfiable. By compactness, if this set is unsatisfiable, then some finite subset Δ ∪ {¬φ} (where Δ ⊆ Γ is finite) is already unsatisfiable — meaning Δ ⊨ φ. So whenever Γ ⊨ φ, some finite Δ ⊆ Γ witnesses it. Logical consequence in propositional logic is always finitely witnessed."
 
-- question: "Compactness of propositional logic means that all infinite sets of formulas can always be satisfied simultaneously."
+- question: "Compactness of propositional logic means that most infinite sets of formulas can generally be satisfied simultaneously."
   type: true-false
   answer: false
   explanation: "This misreads the theorem. Compactness does not say all infinite sets are satisfiable — it says that if an infinite set is finitely satisfiable (every finite subset is satisfiable), then it is satisfiable. An infinite set can certainly be unsatisfiable: {p, ¬p, q, ...} is unsatisfiable because the finite subset {p, ¬p} is already unsatisfiable. Compactness constrains how unsatisfiability arises (always from a finite culprit), not whether it can arise."

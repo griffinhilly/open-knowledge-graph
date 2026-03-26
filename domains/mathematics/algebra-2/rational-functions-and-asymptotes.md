@@ -52,7 +52,7 @@ Analyze the function algebraically before graphing: find domain restrictions, fa
   answer: 1
   explanation: "When the numerator and denominator have equal degree (both degree 3 here), the horizontal asymptote is the ratio of leading coefficients: 3/6 = 1/2. The rule: if deg(numerator) < deg(denominator), HA is y = 0; if equal, HA is leading-coefficient ratio; if numerator's degree is greater by 1, there's an oblique asymptote (no horizontal). Answer A is wrong — y = 0 only applies when the denominator has higher degree."
 
-- question: "A rational function's graph can never cross its horizontal asymptote."
+- question: "A rational function's graph can seldom cross its horizontal asymptote."
   type: true-false
   answer: false
   explanation: "This is a common but incorrect belief. Horizontal asymptotes describe end behavior — what happens as x → ±∞ — but say nothing about behavior at finite x-values. The graph is free to cross the horizontal asymptote for finite values of x; it just must eventually approach the asymptote as x grows very large. Vertical asymptotes, by contrast, cannot be crossed because the function is literally undefined at those x-values."

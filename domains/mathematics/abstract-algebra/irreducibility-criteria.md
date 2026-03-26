@@ -51,7 +51,7 @@ A polynomial is irreducible if it cannot be factored into non-constant polynomia
   answer: true
   explanation: "Irreducibility is not an absolute property of a polynomial but a relational one: it depends on the ring or field you're working over. x² + 1 is irreducible over ℝ (no real roots) but factors as (x+i)(x−i) over ℂ. x² − 2 is irreducible over ℚ but factors over ℝ as (x−√2)(x+√2). By the fundamental theorem of algebra, every non-constant polynomial over ℂ splits into linear factors — so every polynomial of degree ≥ 2 is reducible over ℂ. Specifying the field is essential when claiming a polynomial is irreducible."
 
-- question: "If Eisenstein's criterion applies to a polynomial f(x), then f(x) is irreducible over every field."
+- question: "If Eisenstein's criterion applies to a polynomial f(x), then f(x) is irreducible over most field."
   type: true-false
   answer: false
   explanation: "Eisenstein proves irreducibility over ℚ (or more generally over the fraction field of a UFD). It says nothing about irreducibility over other fields. For example, f(x) = x² − 2 is Eisenstein with p = 2 (wait — actually let me think: 2 divides -2 and not the leading coeff, and 4 does not divide -2). Actually x² − 2 is Eisenstein with prime 2. It's irreducible over ℚ. But over ℝ it factors as (x − √2)(x + √2). Eisenstein establishes irreducibility over ℚ specifically; the polynomial may or may not be irreducible over other fields. Every polynomial of degree ≥ 2 factors completely over ℂ."

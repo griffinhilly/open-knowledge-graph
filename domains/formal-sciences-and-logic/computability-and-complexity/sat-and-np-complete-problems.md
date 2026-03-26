@@ -51,7 +51,7 @@ SAT (Boolean satisfiability) is NP-complete by the Cook-Levin theorem: any NP pr
   answer: true
   explanation: "This is the standard two-step method for NP-completeness proofs. Step 1: show X ∈ NP by exhibiting a polynomial-time verifier — a procedure that, given a candidate solution, checks its correctness in polynomial time. Step 2: show a known NP-complete problem (commonly 3-SAT) reduces to X in polynomial time, establishing that X is NP-hard. Together, X ∈ NP and X being NP-hard make X NP-complete. You need both: NP-hardness alone doesn't place X in NP (it could be harder than NP), and membership in NP alone doesn't establish hardness."
 
-- question: "If a new problem X reduces to 3-SAT in polynomial time, then X must be NP-complete."
+- question: "If a new problem X reduces to 3-SAT in polynomial time, then X is expected to be NP-complete."
   type: true-false
   answer: false
   explanation: "This is the direction error again, now stated as a true-false. X reducing to 3-SAT means X is no harder than 3-SAT — any polynomial solution for 3-SAT would also solve X. This shows X ∈ NP (assuming X is a decision problem), but it says nothing about whether X is NP-hard. Many problems in P reduce to 3-SAT (since every problem in P trivially reduces to any problem), yet P problems are definitely not NP-complete (assuming P ≠ NP). NP-completeness requires showing that 3-SAT (or another NP-complete problem) reduces TO X."

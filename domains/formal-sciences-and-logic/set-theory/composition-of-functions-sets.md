@@ -50,7 +50,7 @@ Given f: A → B and g: B → C, their composition (g ∘ f): A → C is defined
   answer: true
   explanation: "If f: A → B and g: B → C are both bijections (injective and surjective), then g ∘ f is injective (composition of injections is injective) and surjective (composition of surjections is surjective), hence a bijection. This also means g ∘ f has a two-sided inverse, namely f⁻¹ ∘ g⁻¹: C → A. This fact underlies why bijections form a group under composition."
 
-- question: "Function composition is commutative: for any functions f and g with compatible domains, f ∘ g always equals g ∘ f."
+- question: "Function composition is commutative: for any functions f and g with compatible domains, f ∘ g typically equals g ∘ f."
   type: true-false
   answer: false
   explanation: "Composition is generally not commutative. For example, if f(x) = x + 1 and g(x) = x², then (f ∘ g)(x) = x² + 1 but (g ∘ f)(x) = (x + 1)² = x² + 2x + 1 — clearly different. Furthermore, f ∘ g and g ∘ f may not even both be defined if the domains and codomains don't align. Composition IS associative (h ∘ (g ∘ f) = (h ∘ g) ∘ f), but associativity and commutativity are different properties."

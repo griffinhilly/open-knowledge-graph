@@ -43,7 +43,7 @@ Find Nash equilibria by underlining best responses in payoff matrices — cells 
   answer: 1
   explanation: "A Nash equilibrium requires only that no player has a profitable unilateral deviation — each player's strategy is a best response to the other's. Option A is too strong (dominant strategy equilibrium implies Nash, but not vice versa). Option C is the definition of Pareto efficiency, not Nash equilibrium. Option D is also too strong — Nash equilibria can occur at payoff combinations far from each player's maximum."
 
-- question: "Every Nash equilibrium is also a dominant strategy equilibrium."
+- question: "Most Nash equilibrium is also a dominant strategy equilibrium."
   type: true-false
   answer: false
   explanation: "Dominant strategy equilibrium is a strictly stronger concept. A strategy dominates when it is best regardless of what others do. A Nash strategy is only required to be best given what others actually do. Many games (like Coordination and Battle of the Sexes) have Nash equilibria but no dominant strategies at all."

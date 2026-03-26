@@ -66,7 +66,7 @@ Take a simple eight-measure melody and write out three distinct harmonizations u
   answer: true
   explanation: "Strong-beat melody notes are structural tones that the ear hears as defining the harmony. Placing a non-chord tone on a strong beat creates dissonance that sounds like an error rather than an ornament. Skilled harmonization anchors chord tones to strong beats and reserves weak beats for non-chord tones — identifying structural tones is the first step in any harmonization."
 
-- question: "The most effective melodic harmonizations change the chord on every beat so that every melody note belongs to the chord currently sounding."
+- question: "The most effective melodic harmonizations change the chord on nearly every beat so that nearly every melody note belongs to the chord currently sounding."
   type: true-false
   answer: false
   explanation: "This is one of the most persistent beginner mistakes. Holding a chord across a non-chord tone is nearly always more graceful than assigning a new chord to every note. Over-harmonization produces choppy progressions and destroys harmonic rhythm — one of the most expressive levers in harmonization. Slower harmonic rhythm creates spaciousness and inevitability; dense chord changes belong only where the music genuinely requires that density."

@@ -57,7 +57,7 @@ Solve inclined-plane problems systematically: decompose weight into components p
   answer: 2
   explanation: "For most material pairs, μ_k < μ_s. Before sliding, static friction can provide up to μ_s N of resistance. Once sliding begins, friction drops to the fixed value μ_k N. This is why furniture is hardest to move when you first push it — you must overcome maximum static friction to initiate motion, but once it's sliding, the required force drops. Contact area and momentum are irrelevant; the coefficient values are the explanation."
 
-- question: "The friction force acting on a stationary object always equals μ_s × N, where μ_s is the coefficient of static friction and N is the normal force."
+- question: "The friction force acting on a stationary object usually equals μ_s × N, where μ_s is the coefficient of static friction and N is the normal force."
   type: true-false
   answer: false
   explanation: "This is the central misconception about static friction. Static friction is variable — it takes whatever value maintains equilibrium, which can be anywhere from zero up to μ_s N. It equals μ_s N only when the object is on the verge of sliding (impending motion). A box sitting undisturbed on a floor with no applied force has zero static friction, not μ_s N."

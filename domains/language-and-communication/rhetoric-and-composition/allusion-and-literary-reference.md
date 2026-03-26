@@ -55,7 +55,7 @@ Collect allusions from literature and essays you admire. Analyze what the allusi
   answer: 1
   explanation: "The operative test for an allusion is audience calibration: does your reader know the reference well enough to activate its associations? Source prestige is irrelevant. An allusion to a well-known film or cultural moment can work as powerfully as one to Homer, provided the audience shares the reference. The novelist's reasoning is correct; the colleague's reasoning conflates cultural status with rhetorical effectiveness."
 
-- question: "An allusion is most effective when the writer briefly explains its source so that all readers, regardless of background, can access the meaning."
+- question: "An allusion is most effective when the writer briefly explains its source so that most readers, regardless of background, can access the meaning."
   type: true-false
   answer: false
   explanation: "Explaining an allusion destroys its effect. Allusions work precisely because the meaning is carried by the reader's recognition — the writer invokes a reference and the reader's prior knowledge completes the meaning. Once you explain it, you've replaced the allusion with a plain statement. The constraint is real: an allusion that requires explanation for its audience is the wrong allusion — the solution is to choose a reference the audience actually knows, not to add footnotes."

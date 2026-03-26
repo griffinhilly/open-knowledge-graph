@@ -56,7 +56,7 @@ Turgor pressure weakens plants—it provides rigidity. Vacuoles only store waste
   answer: false
   explanation: "Turgor pressure provides structural rigidity to plant cells — it is what keeps them firm and the plant upright. The combination of the inflated vacuole pushing outward and the rigid cell wall resisting that pressure creates a taut, strong structure (like an inflated balloon inside a cardboard box). Loss of turgor, not its presence, causes weakness: wilted plants have lost turgor. Cell walls are strong enough to withstand normal turgor levels without rupturing."
 
-- question: "Vacuoles serve only as waste storage sites in plant cells."
+- question: "Vacuoles serve primarily as waste storage sites in plant cells."
   type: true-false
   answer: false
   explanation: "Vacuoles are multipurpose organelles. They store water, nutrients (sugars, proteins, phosphate), pigments (like anthocyanins that give flowers and fruits their red, blue, and purple colors), and waste products. They also function as a degradative compartment containing hydrolytic enzymes for recycling cellular components — analogous to animal cell lysosomes. Describing vacuoles as 'only waste storage' misses their structural, pigmentation, nutritional, and recycling roles."

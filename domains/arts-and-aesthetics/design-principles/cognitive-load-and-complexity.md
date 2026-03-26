@@ -55,7 +55,7 @@ That reducing cognitive load means removing features. Often, better organization
   answer: 1
   explanation: "Unlabeled icons force users to either memorize what each button does or experiment to find out — both are forms of extraneous cognitive load. A sparse interface that requires guessing, hunting, or memorization can impose higher cognitive load than a denser interface where everything is clearly organized and labeled. Cognitive load is about mental effort, not visual density. Options A, C, and D all have more elements but impose less load because the organization and labeling do the interpretive work for the user."
 
-- question: "Reducing cognitive load in a design always requires reducing the number of features or visible elements."
+- question: "Reducing cognitive load in a design generally requires reducing the number of features or visible elements."
   type: true-false
   answer: false
   explanation: "This is the misconception stated in the topic's Common Misconceptions section. Cognitive load is about mental effort, not element count. Better labeling, consistent layout, chunking, visual hierarchy, and familiar conventions can dramatically reduce load while keeping all features present. An interface with 30 well-organized, clearly labeled options can impose less load than one with 5 cryptically designed ones."

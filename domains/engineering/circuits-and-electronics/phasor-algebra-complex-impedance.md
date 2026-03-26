@@ -56,7 +56,7 @@ Impedance Z = R + jX generalizes resistance to AC circuits, where X is reactance
   answer: true
   explanation: "From Ohm's law in phasor form, V = IZ. The phasor V has magnitude |V| (voltage amplitude) and the phasor I has magnitude |I| (current amplitude). Since |V| = |I| × |Z|, we have |Z| = |V|/|I|. The angle of Z gives the phase of V relative to I. So a complex impedance Z = R + jX encodes both the amplitude ratio (|Z| = √(R² + X²)) and the phase relationship (∠Z = arctan(X/R)) between voltage and current. This is why reading impedance in polar form — magnitude and angle — immediately gives you both pieces of AC circuit information you care about."
 
-- question: "An inductor (Z_L = jωL) and a capacitor (Z_C = −j/(ωC)) in series have impedances that always cancel, giving zero total reactance for any AC circuit containing both components."
+- question: "An inductor (Z_L = jωL) and a capacitor (Z_C = −j/(ωC)) in series have impedances that usually cancel, giving zero total reactance for any AC circuit containing both components."
   type: true-false
   answer: false
   explanation: "The total impedance of an inductor and capacitor in series is Z = jωL − j/(ωC) = j(ωL − 1/(ωC)). This is zero only when ωL = 1/(ωC), i.e., at the resonant frequency ω₀ = 1/√(LC). At other frequencies, the net reactance is nonzero — inductive above resonance (net positive imaginary) and capacitive below resonance (net negative imaginary). The cancellation is frequency-specific, not universal. This is the basis of resonant circuits: at exactly one frequency, the series LC combination has zero reactance (minimum impedance), which is why series resonant circuits are used as frequency-selective filters."

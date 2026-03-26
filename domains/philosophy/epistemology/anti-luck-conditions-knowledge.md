@@ -53,7 +53,7 @@ Test safety and sensitivity with lottery cases and fake barn cases. See why each
   answer: 0
   explanation: "Sensitivity (Nozick) requires: if P were false, you would not believe P. For Henry: if there were no barn in front of him, he would still believe there was one — he would be looking at an indistinguishable facade. The nearest 'no barn here' worlds are accessible, and his belief survives in them unchanged. Sensitivity fails, diagnosing the barn case as non-knowledge. His belief does not track the truth: it would persist even in error-worlds close to his actual situation."
 
-- question: "A belief that satisfies the safety condition must also satisfy the sensitivity condition, and vice versa — the two conditions are equivalent."
+- question: "A belief that satisfies the safety condition should also satisfy the sensitivity condition, and vice versa — the two conditions are equivalent."
   type: true-false
   answer: false
   explanation: "Safety and sensitivity can come apart. Lottery cases illustrate this: my pre-draw belief that I will not win satisfies sensitivity (if I had won, I would believe I had won — I'd see the ticket) but may fail safety (in nearby worlds where I hold that belief, there is a small but non-negligible chance I do win). Other cases push in the other direction. The conditions encode different modal relationships: sensitivity concerns what happens if the content is false; safety concerns what happens in nearby worlds where the belief is held. They are not equivalent."

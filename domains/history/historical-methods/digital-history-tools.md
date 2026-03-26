@@ -57,7 +57,7 @@ Use a free digital history tool (e.g., Google Ngram Viewer, Voyant Tools for tex
   answer: 2
   explanation: "An OCR error doesn't just affect one document — it affects every search that would have matched the misread text. A 19th-century newspaper with archaic typefaces may systematically misread certain letterforms, meaning searches for specific terms may miss hundreds of genuine matches without flagging the absence. OCR errors are also not random: they reflect systematic limitations of the algorithm with specific scripts, typefaces, and scan qualities, meaning they can bias corpus studies in predictable directions rather than producing neutral noise."
 
-- question: "Digitizing an archival collection makes its contents accessible to all researchers equally, eliminating the geographic and institutional barriers of traditional archival research."
+- question: "Digitizing an archival collection makes its contents accessible to most researchers equally, eliminating the geographic and institutional barriers of traditional archival research."
   type: true-false
   answer: false
   explanation: "Digitization transforms inequality in access but does not eliminate it. The digitized record skews toward materials written in major European languages, held in well-funded institutions, from periods and topics that received digitization funding. Materials that were never preserved, are held in under-resourced archives, or are in languages with limited OCR support remain inaccessible. Paywalls persist for researchers without institutional database subscriptions. The gaps in digital access often reproduce — and can make invisible — the same biases present in original archival preservation."

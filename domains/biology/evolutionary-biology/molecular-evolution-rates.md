@@ -51,7 +51,7 @@ Rates of molecular evolution vary among sites (constrained sites evolve slowly),
   answer: 2
   explanation: "Generation time is the primary driver of this lineage-specific rate difference. The per-generation mutation rate is roughly similar across mammals, but rodents complete many more generations per year than primates. More generations per year means more rounds of DNA replication, and each replication introduces errors at a roughly constant per-replication rate. The result is more mutations per year in rodents, producing a faster substitution rate per unit time. This is among-lineage rate variation — a critical reason why a single universal molecular clock fails."
 
-- question: "The molecular clock hypothesis predicts that all genes in all lineages evolve at the same substitution rate, because the per-generation mutation rate is approximately constant across species."
+- question: "The molecular clock hypothesis predicts that most genes in most lineages evolve at the same substitution rate, because the per-generation mutation rate is approximately constant across species."
   type: true-false
   answer: false
   explanation: "This describes a naive version of the molecular clock that the evidence clearly refutes. Rates vary at three distinct levels: among sites within a gene (constrained sites evolve slowly, unconstrained sites evolve fast), among genes (functional constraint differs by gene), and among lineages (generation time and population size differences produce lineage-specific rates). The molecular clock is better understood as an approximate, calibration-dependent tool that requires gene-by-gene rate estimates and relaxed-clock models that allow branch-specific rates."

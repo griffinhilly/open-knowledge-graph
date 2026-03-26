@@ -47,7 +47,7 @@ Read Nagel's 'What Is It Like to Be a Bat?' (1974) as a primary text. Practice d
   answer: 1
   explanation: "Phenomenal consciousness is the 'what it is like' dimension of experience — the intrinsic felt quality of seeing red, feeling pain, or tasting coffee. It is contrasted with access consciousness, which is information being available for reasoning and verbal report. A state can have one without the other: blindsight involves access without phenomenal experience; vivid dreams involve phenomenal experience without normal access."
 
-- question: "A neuroscientist who knew every physical and functional fact about color perception would thereby know what it feels like to see red."
+- question: "A neuroscientist who knew nearly every physical and functional fact about color perception would thereby know what it feels like to see red."
   type: true-false
   answer: false
   explanation: "This is the core intuition behind the 'explanatory gap' and the knowledge argument (Frank Jackson's Mary's Room). The thought experiment suggests that complete physical/functional knowledge is compatible with not knowing the felt quality of an experience — that phenomenal facts seem to outstrip physical facts. Whether this intuition is ultimately correct is contested, but it motivates taking qualia seriously as a distinct philosophical problem."

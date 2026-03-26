@@ -54,7 +54,7 @@ Practice determining when A ⊆ B by checking membership conditions, then identi
   answer: true
   explanation: "This is the antisymmetry property of the subset relation, and it is the standard proof technique for set equality: to show two sets are equal, show each is a subset of the other. If A ⊆ B, every element of A is in B. If B ⊆ A, every element of B is in A. Together, A and B contain exactly the same elements, so by the axiom of extensionality, A = B."
 
-- question: "Every set is a proper subset of itself."
+- question: "Most set is a proper subset of itself."
   type: true-false
   answer: false
   explanation: "A proper subset A ⊂ B requires A ⊆ B and A ≠ B. Since A = A (every set equals itself), the condition A ≠ B fails when B = A. Therefore A ⊂ A is always false — no set is a proper subset of itself. Every set IS a subset of itself (A ⊆ A, which follows from reflexivity), but the 'proper' qualifier excludes the case of equality."

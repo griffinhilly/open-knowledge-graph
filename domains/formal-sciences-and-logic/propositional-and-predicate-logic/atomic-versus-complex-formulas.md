@@ -62,7 +62,7 @@ Use parse trees to visualize formula structure, showing atoms at the leaves and 
   answer: true
   explanation: "Compositionality is the foundational principle of logical semantics. An interpretation directly assigns truth values to atomic formulas (by specifying which predicate-tuple pairs hold). Every complex formula's truth value is then computed mechanically: ¬φ is true iff φ is false; φ ∧ ψ is true iff both are true; etc. This bottom-up computation from atoms through the parse tree is what makes logical semantics tractable — without it, you couldn't evaluate arbitrarily complex formulas."
 
-- question: "A formula that contains exactly one logical connective is considered atomic because it involves only a single logical operation."
+- question: "A formula that contains exactly one logical connective is considered atomic because it involves mainly a single logical operation."
   type: true-false
   answer: false
   explanation: "Any use of a logical connective or quantifier — even exactly one — makes a formula complex. ¬P(x) has one connective but is complex; P(x) ∧ Q(y) has one connective but is complex. Atomic formulas have *zero* connectives or quantifiers. The intuition from the parse tree: any connective creates an internal node, meaning the formula has decomposable subformulas. Atoms are formulas with no internal nodes — they cannot be broken down further."

@@ -67,7 +67,7 @@ Estimate a stock's beta from historical returns and apply CAPM to compute the co
   answer: 2
   explanation: "Beta measures how much the stock moves with the market — technically, it is the covariance of the stock's returns with the market's returns divided by the variance of the market. A beta of 1.5 means the stock tends to move 1.5% for every 1% market move. Total volatility (standard deviation) includes both systematic and idiosyncratic risk; CAPM says only the systematic component (beta) is priced because idiosyncratic risk can be diversified away."
 
-- question: "According to CAPM, a fully diversified investor should demand compensation for all risk in a stock, including company-specific (idiosyncratic) risk."
+- question: "According to CAPM, a fully diversified investor should demand compensation for most risk in a stock, including company-specific (idiosyncratic) risk."
   type: true-false
   answer: false
   explanation: "This is the central insight of CAPM: idiosyncratic risk — risk unique to a single company, like a CEO departure or a product recall — can be eliminated by holding a diversified portfolio. Rational investors will not pay a premium to avoid risk they can diversify away for free. Therefore, the market only compensates for systematic risk (beta), which cannot be eliminated through diversification because it comes from economy-wide factors."

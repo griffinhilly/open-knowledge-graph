@@ -62,7 +62,7 @@ Plan a week of meals making sure each meal includes something from every food gr
   answer: true
   explanation: "Pasta (a refined grain) provides carbohydrates and some B vitamins, but is low in vitamins A, C, and K, low in fiber, and provides little protein or calcium. A plate centered on pasta and missing vegetables, protein, and dairy leaves most micronutrient needs unaddressed. Adding vegetables (vitamins, minerals, fiber), a protein source (amino acids, iron), and perhaps dairy or a healthy fat covers far more nutritional ground with no more total calories. This is the logic behind MyPlate's half-plate-of-produce guidance."
 
-- question: "All fats should be minimized in a balanced diet because fat is an unhealthy macronutrient."
+- question: "Most fats should be minimized in a balanced diet because fat is an unhealthy macronutrient."
   type: true-false
   answer: false
   explanation: "This is one of the three misconceptions listed in the topic. Healthy fats from nuts, avocado, olive oil, and fish are important for hormone production, fat-soluble vitamin absorption (A, D, E, K), and cell membrane integrity. The concern is with saturated and trans fats, not with fat as a category. Eliminating fat as a food group is as misguided as eliminating carbohydrates — the framework's lesson is that all major nutrient categories play a role, and the goal is proportion and food quality within each group, not elimination."

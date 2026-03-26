@@ -55,7 +55,7 @@ Cytokines are not simply 'pro-inflammatory' or 'anti-inflammatory'—the same cy
   answer: 1
   explanation: "Redundant cytokines like IL-4 and IL-13 overlap in function but are not identical: IL-4 acts primarily on lymphoid cells in secondary lymphoid organs, while IL-13 acts more on epithelial and smooth muscle cells at tissue sites. This provides both robustness (losing one doesn't ablate the entire response) and spatial precision (different tissues can be modulated independently). Redundancy is a design feature, not a flaw."
 
-- question: "IL-6 is a straightforwardly pro-inflammatory cytokine that always promotes inflammation regardless of cellular or tissue context."
+- question: "IL-6 is a straightforwardly pro-inflammatory cytokine that usually promotes inflammation regardless of cellular or tissue context."
   type: true-false
   answer: false
   explanation: "No cytokine has a fixed 'pro-inflammatory' or 'anti-inflammatory' identity. IL-6 promotes Th17 differentiation (inflammatory) but also suppresses Treg development in certain contexts, drives acute-phase responses, and has distinct effects in different tissues. The same molecule's functional outcome depends on which cells receive it, what co-signals are present, and what tissue the interaction occurs in. This context dependence is fundamental to cytokine biology."

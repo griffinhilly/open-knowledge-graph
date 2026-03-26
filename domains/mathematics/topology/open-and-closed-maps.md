@@ -57,7 +57,7 @@ Work through explicit examples: show that the projection map ℝ² → ℝ is op
   answer: true
   explanation: "This is the precise distinction between the two properties, and it explains why they are logically independent. Continuity: for every open V ⊆ Y, f⁻¹(V) is open in X. Openness: for every open U ⊆ X, f(U) is open in Y. The direction is reversed. A map can be continuous but not open (e.g., sin : ℝ → [−1, 1]), open but not continuous (a bijection between a discrete and an indiscrete space), both, or neither."
 
-- question: "A map that is both continuous and open must be a homeomorphism."
+- question: "A map that is both continuous and open is expected to be a homeomorphism."
   type: true-false
   answer: false
   explanation: "A homeomorphism requires continuous + open + bijective. Continuous and open alone are not enough. The projection π : ℝ² → ℝ is both continuous and open, but it is not bijective (many points map to the same value), so it is not a homeomorphism. You need bijectivity as well. The equivalent characterization of a homeomorphism is: bijective, continuous, and either open or closed (since for a bijection, openness and closedness are equivalent)."

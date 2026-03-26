@@ -48,7 +48,7 @@ Firms differentiate products (horizontally or vertically) to relax price competi
   answer: true
   explanation: "Differentiation is fundamentally about escaping price competition. When a firm's product is distinct, customers who value that specific variant will not immediately defect to a rival on a small price increase — they bear a switching cost equal to the mismatch between their preferences and the rival's product. This reduced elasticity is the source of the markup. Brand investment, product design, and location choice are all strategies for increasing this mismatch cost."
 
-- question: "In long-run monopolistic competition equilibrium, prices equal marginal cost — just as in perfect competition — because free entry eliminates all pricing power."
+- question: "In long-run monopolistic competition equilibrium, prices equal marginal cost — just as in perfect competition — because free entry eliminates most pricing power."
   type: true-false
   answer: false
   explanation: "Free entry eliminates economic profit, but not the markup. Firms still face downward-sloping demand curves (because their products are differentiated), so they still charge above marginal cost. What free entry does is ensure that the markup is exactly large enough to cover fixed costs, leaving zero profit. Prices exceeding marginal cost is a permanent feature of monopolistic competition, even at long-run equilibrium."

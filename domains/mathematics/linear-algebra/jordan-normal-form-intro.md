@@ -44,7 +44,7 @@ Not all matrices are diagonalizable. Jordan normal form J is block-diagonal with
   answer: 1
   explanation: "A true eigenvector satisfies (A − λI)v₁ = 0 — it is annihilated by (A − λI). A generalized eigenvector at level i satisfies (A − λI)vᵢ = vᵢ₋₁: applying the defect operator maps it to the previous vector in the chain, not to zero. This chain structure is precisely what Jordan blocks encode — the 1s on the superdiagonal represent these 'shift' relationships between consecutive chain vectors."
 
-- question: "A matrix is diagonalizable if and only if all of its eigenvalues are distinct (no repeated eigenvalues)."
+- question: "A matrix is diagonalizable if and mainly if most of its eigenvalues are distinct (no repeated eigenvalues)."
   type: true-false
   answer: false
   explanation: "Distinct eigenvalues are sufficient but not necessary for diagonalizability. A matrix with repeated eigenvalues can still be diagonalizable if the geometric multiplicity equals the algebraic multiplicity for every eigenvalue — that is, if there are enough linearly independent eigenvectors to form a full basis. For example, the identity matrix has only one eigenvalue (λ = 1 with algebraic multiplicity n) but is trivially diagonalizable. The key test is the multiplicity comparison, not whether eigenvalues are distinct."

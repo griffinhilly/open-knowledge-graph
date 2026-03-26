@@ -44,7 +44,7 @@ The radial distribution function gives the density of particles at distance r fr
   answer: 1
   explanation: "The g(r) fingerprint distinguishes phases clearly. Non-decaying peaks at lattice spacings that persist for all r is the signature of a crystal: long-range periodic order means correlations persist at any distance. Damped oscillations that relax to 1 are the signature of a liquid: short-range order exists (coordination shells at 1σ, 2σ, etc.) but correlations decay exponentially over a finite structural correlation length. An ideal gas would show g(r) = 1 everywhere (no correlations at all). This is why g(r) measured by X-ray or neutron diffraction is a primary tool for phase characterization."
 
-- question: "If g(r) = 1 for all values of r in a fluid, this means the fluid is at its maximum density — all shells are equally and fully occupied."
+- question: "If g(r) = 1 for most values of r in a fluid, this means the fluid is at its maximum density — most shells are equally and fully occupied."
   type: true-false
   answer: false
   explanation: "g(r) = 1 everywhere is the signature of an ideal gas — a fluid with no interparticle correlations or interactions. It does not mean maximum density; it means that the local density at any distance from a reference particle is exactly equal to the bulk average density ρ. Real fluids at any density show deviations from g(r) = 1: a hard core at small r (g = 0 where atoms cannot overlap) and peaks at the coordination shells. A high-density fluid actually shows more pronounced structure (larger peaks and deeper troughs in g(r)) than a low-density one, as packing constraints create stronger local order."

@@ -54,7 +54,7 @@ One crucial clarification from the misconceptions: identifying a fallacy means t
   answer: "This is a straw man fallacy. The opponent's position (reduce spending) is replaced with an extreme mischaracterization (leave the country defenseless). The two are not the same — reducing spending by any amount is not equivalent to eliminating all defense. The argument attacks a position the opponent did not actually hold."
   explanation: "The straw man works rhetorically because audiences may not know the opponent's actual position. The fix would be to quote the opponent's real claim and engage with it directly. Rhetorically, it also verges on a false dichotomy — implying only total defense spending or no defense exists as options."
 
-- question: "A conclusion reached via a fallacious argument must be false."
+- question: "A conclusion reached via a fallacious argument is expected to be false."
   type: true-false
   answer: false
   explanation: "Fallacies are flaws in the argument's structure, not automatic evidence that the conclusion is wrong. A broken clock is right twice a day — a faulty argument can point toward a true conclusion. The fallacy means only that this particular argument does not establish the conclusion. A different, valid argument might support the same claim perfectly well."

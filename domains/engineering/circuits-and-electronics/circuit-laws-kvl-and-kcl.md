@@ -49,7 +49,7 @@ Kirchhoff's Voltage Law (KVL) states the sum of voltages around any loop equals 
   answer: 0
   explanation: "KVL states that the sum of all voltage rises and drops around any closed loop is zero. The 12 V source is a rise (+12), and the resistor drops are −3, −5, −4 V. Sum: 12 − 3 − 5 − 4 = 0. This is exactly energy conservation: a charge that travels around the loop returns to its starting potential, gaining and losing exactly equal amounts of energy."
 
-- question: "KCL implies that current is partially 'used up' or consumed by a resistor, so the current leaving a resistor is always less than the current entering it."
+- question: "KCL implies that current is partially 'used up' or consumed by a resistor, so the current leaving a resistor is typically less than the current entering it."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about current and KCL. Resistors convert electrical energy into heat, but they do not consume charge. The same current that enters a resistor exits the other side — KCL guarantees it. What changes across a resistor is voltage (potential energy per charge), not current (charge flow rate). 'Voltage drops' across resistors; current is conserved."

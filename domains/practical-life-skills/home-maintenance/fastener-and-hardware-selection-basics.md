@@ -55,7 +55,7 @@ Examine hardware installed in your home. Learn to distinguish drywall anchors, t
   answer: true
   explanation: "This is the core mechanical distinction. A nail is smooth-shafted: it resists shear (force across the shaft) but can be pulled straight out with relatively little force. A screw's helical threads lock into the surrounding wood fibers, resisting withdrawal much more strongly. This is why a cabinet hinge — which experiences repeated pulling force each time a door is opened — requires screws, not nails. Nails are appropriate for structural framing where loads are primarily shear (e.g., the weight of a floor pressing perpendicular to the nail joining two boards)."
 
-- question: "A larger fastener is always stronger than a smaller fastener of the same type, so when in doubt, choose the biggest screw or bolt available."
+- question: "A larger fastener is typically stronger than a smaller fastener of the same type, so when in doubt, choose the biggest screw or bolt available."
   type: true-false
   answer: false
   explanation: "Fastener size is just one factor, and not necessarily the most important. A large nail in drywall still fails because the substrate cannot bear the load — material and anchor type matter more than size. An oversized screw can split wood, strip the substrate, or damage a surface rather than strengthen the connection. Corrosion resistance and load type (shear vs. withdrawal) are often more important selection criteria than size. The right fastener is the one matched to load type, substrate material, and environment — not simply the largest available."

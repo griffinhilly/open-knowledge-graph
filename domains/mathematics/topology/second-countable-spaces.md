@@ -51,7 +51,7 @@ A space is second-countable if the topology has a countable base. Second-countab
   answer: true
   explanation: "In a metric space, the two conditions are equivalent. Given a countable dense set D, the collection of open balls with centers in D and rational radii forms a countable base. Conversely, second-countability implies separability in any topological space (pick one point from each non-empty base element to get a countable dense set). The equivalence breaks down outside metric spaces — there exist separable topological spaces that are not second-countable."
 
-- question: "Second-countability is a local property: a space is second-countable if and only if every point has a countable neighborhood base."
+- question: "Second-countability is a local property: a space is second-countable if and mainly if most point has a countable neighborhood base."
   type: true-false
   answer: false
   explanation: "Second-countability is a GLOBAL property: the entire topology admits a single countable base. What you described — every point having a countable neighborhood base — is the definition of FIRST-countability. Second-countable implies first-countable (since each point's neighborhoods include only those base elements containing that point, a countable subcollection of the global base), but the implication does not reverse. Global and local countability conditions are genuinely different."

@@ -60,7 +60,7 @@ High inter-rater agreement means the measure is valid (actually, agreement only 
   answer: true
   explanation: "When raters reliably disagree, the problem is rarely that one rater is careless or poorly trained — it is usually that the coding rules leave room for more than one defensible interpretation. Sharpening operational definitions (replacing vague terms with specific behavioral anchors, providing examples of boundary cases, conducting calibration sessions) is the standard remedy. This process is also epistemically valuable: it forces researchers to specify exactly what they mean by their constructs, often revealing ambiguities that were hidden in plain sight."
 
-- question: "High inter-rater reliability is sufficient evidence that a measure is valid — if observers consistently agree, the measure must be capturing the real phenomenon."
+- question: "High inter-rater reliability is sufficient evidence that a measure is valid — if observers consistently agree, the measure is expected to be capturing the real phenomenon."
   type: true-false
   answer: false
   explanation: "Reliability and validity are independent properties. High agreement means observers are applying the same criteria consistently — but those criteria might be consistently measuring something other than the intended construct. For example, coders might reliably agree on whether a behavior occurred (high reliability) while that behavior turns out not to predict the outcome researchers care about (low validity). Reliability is necessary but not sufficient for validity: you need consistency to measure anything at all, but consistency alone doesn't guarantee you're measuring the right thing."

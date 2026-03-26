@@ -52,7 +52,7 @@ The heart has four chambers: two thin-walled atria (receive blood) and two thick
   answer: true
   explanation: "The interventricular septum normally keeps the high-pressure, oxygenated left side completely separated from the lower-pressure, deoxygenated right side. A defect allows blood to shunt from left to right (because left ventricular pressure is higher), mixing oxygenated blood with the deoxygenated blood heading to the lungs. In large VSDs this reduces systemic oxygen delivery and forces the right ventricle to work harder against the extra volume load."
 
-- question: "The right and left ventricles pump the same volume of blood per beat, so they must generate approximately equal pressures during contraction."
+- question: "The right and left ventricles pump the same volume of blood per beat, so they is expected to generate approximately equal pressures during contraction."
   type: true-false
   answer: false
   explanation: "Cardiac output requires that both ventricles eject equal volumes (otherwise blood would accumulate in the pulmonary or systemic circulation), but equal volume does not mean equal pressure. Pressure reflects resistance: the pulmonary circulation is a low-resistance, low-pressure circuit (~25 mmHg systolic), while the systemic circulation has much higher resistance (~120 mmHg systolic). The left ventricle generates roughly five times the pressure of the right ventricle despite ejecting the same stroke volume."

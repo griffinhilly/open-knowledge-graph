@@ -57,7 +57,7 @@ Study well-characterized pathogens (Vibrio cholerae, Escherichia coli) and trace
   answer: 1
   explanation: "Pathogenicity islands are characterized by two features: their distinct GC content (reflecting different ancestral origin from the rest of the chromosome) and their acquisition through horizontal gene transfer. Their modular organization means a single transfer event can convert a harmless commensal into a pathogen with a full complement of adhesins, invasins, and secretion systems — no gradual mutational accumulation required. This is why new pathogenic strains can emerge so rapidly, and why commensal and pathogenic strains of the same species can be genetically very similar outside of a few key islands."
 
-- question: "Most bacterial virulence factors are constitutively expressed at maximum levels throughout infection to ensure the pathogen is always capable of causing disease."
+- question: "Most bacterial virulence factors are constitutively expressed at maximum levels throughout infection to ensure the pathogen is generally capable of causing disease."
   type: true-false
   answer: false
   explanation: "Constitutive maximum expression would be counterproductive: metabolically costly, wasteful when conditions don't favor infection success, and likely to trigger premature immune detection before the bacterial population is large enough to mount a successful attack. Most virulence factors are tightly regulated. Quorum sensing activates toxins and invasins only when cell density signals that a coordinated attack can succeed. Two-component systems respond to environmental cues (temperature, pH, iron availability, osmolarity) to switch virulence programs on or off as infection progresses through different tissue environments."

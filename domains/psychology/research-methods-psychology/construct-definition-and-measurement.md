@@ -54,7 +54,7 @@ Start with a domain definition: 'Depression is persistent sadness and loss of in
   answer: 2
   explanation: "The nominal definition — a clear theoretical statement of what the construct is and is not — must precede all other steps. Without it, item writing has no principled basis for inclusion or exclusion, and the resulting scale may systematically miss important facets or capture adjacent constructs. Jumping straight to item writing (option A) is the most common mistake; factor analysis can only find structure in what was measured, it cannot recover facets that were never included."
 
-- question: "A highly reliable measure is guaranteed to be a valid measure of the intended construct."
+- question: "A highly reliable measure is very likely to be a valid measure of the intended construct."
   type: true-false
   answer: false
   explanation: "Reliability and validity are distinct properties. Reliability means a measure produces consistent results; validity means it measures what it claims to measure. A bathroom scale that always reads 10 pounds too high is perfectly reliable but systematically invalid. In psychology, a scale can reliably measure mood when it was intended to measure depression — consistent results, wrong target. Reliability is necessary but not sufficient for validity."

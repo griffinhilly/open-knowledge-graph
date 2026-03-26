@@ -59,7 +59,7 @@ Design low-, medium-, and high-order Butterworth filters with identical edge fre
   answer: true
   explanation: "The asymptotic rolloff rate for an Nth-order Butterworth filter is 20N dB/decade. For N = 8, this gives 20 × 8 = 160 dB/decade. Equivalently, this is 8 × 6 = 48 dB/octave. The 20N dB/decade rule is specific to Butterworth designs; other filter families achieve different (often steeper) rolloffs at the same order by accepting ripple."
 
-- question: "A higher-order filter always produces better performance than a lower-order filter for any given application."
+- question: "A higher-order filter generally produces better performance than a lower-order filter for any given application."
   type: true-false
   answer: false
   explanation: "Higher order provides a sharper transition band, which is sometimes necessary — but it comes with real costs. High-order IIR filters are more sensitive to coefficient quantization and can become unstable in fixed-point arithmetic. They introduce more phase distortion (group delay variation), which can degrade performance in communications and audio applications. In analog hardware, each additional pole requires an additional reactive component (inductor or capacitor), adding cost and size. Higher order is only better if the sharper transition is actually required and the additional complexity can be managed."

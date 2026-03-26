@@ -60,7 +60,7 @@ Reproduce a race condition: have two threads increment a shared counter 1,000,00
   answer: true
   explanation: "All three requirements are necessary. Mutual exclusion prevents two threads from being in the critical section simultaneously. Progress ensures the system doesn't deadlock when threads want to enter. Bounded waiting ensures no thread starves indefinitely. A solution providing mutual exclusion but allowing starvation (violating bounded waiting) is incorrect; so is one preventing deadlock but occasionally allowing simultaneous access (violating mutual exclusion)."
 
-- question: "Race conditions are easy to detect in testing because they always produce a clearly wrong result or cause the program to crash."
+- question: "Race conditions are easy to detect in testing because they generally produce a clearly wrong result or cause the program to crash."
   type: true-false
   answer: false
   explanation: "Race conditions are notoriously difficult to detect precisely because they manifest intermittently. The outcome depends on the timing of thread interleaving, which varies with CPU load, scheduling decisions, and other environmental factors. A program with a race condition may run correctly thousands of times before the interleaving that exposes the bug occurs — and may never reproduce the bug in a controlled testing environment, even though it fails in production under load."

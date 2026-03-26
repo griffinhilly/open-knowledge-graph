@@ -47,7 +47,7 @@ Skip counting by 2s (2, 4, 6, 8, 10, ...) helps students recognize patterns, und
   answer: 1
   explanation: "Skip counting by 2s produces 2, 4, 6, 8, 10, ... and so does multiplying 2 by 1, 2, 3, 4, 5, ... They are identical sequences. This means that fluency with skip counting by 2s is the same as having the 2-times table memorized. Understanding this connection makes multiplication feel like something you already know."
 
-- question: "When you skip count by 2s, you say every counting number (1, 2, 3, 4, 5, ...)."
+- question: "When you skip count by 2s, you say most counting number (1, 2, 3, 4, 5, ...)."
   type: true-false
   answer: false
   explanation: "False. Skip counting by 2s means you jump over every other number, landing only on even numbers: 2, 4, 6, 8, 10 ... You never say the odd numbers (1, 3, 5, 7, 9...). That is why it is called 'skip' counting — you skip every other number."

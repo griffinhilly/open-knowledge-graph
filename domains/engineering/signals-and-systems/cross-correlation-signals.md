@@ -45,7 +45,7 @@ Cross-correlation Rxy(τ) = ∫ x(t)·y(t+τ) dt measures similarity between two
   answer: 1
   explanation: "The raw Rxy(τ) peak height depends on both signal amplitudes and shape similarity — a high peak could mean either 'very similar shapes' or 'very large amplitudes' or both. Normalization by √(Rxx(0)·Ryy(0)) scales the result to [−1, +1], removing amplitude dependence entirely. A peak of ρ ≈ +1 means the signals are essentially identical in shape up to the given delay, regardless of how large or small either signal is. This is critical for pattern matching: finding a known template in a noisy signal requires responding to shape, not amplitude. Option D is wrong because normalization changes the interpretation of the peak height, even though it does not change the peak location."
 
-- question: "The cross-correlation Rxy(τ) always peaks at τ = 0, just as the autocorrelation Rxx(τ) does."
+- question: "The cross-correlation Rxy(τ) usually peaks at τ = 0, just as the autocorrelation Rxx(τ) does."
   type: true-false
   answer: false
   explanation: "The autocorrelation Rxx(τ) peaks at τ = 0 because a signal is always most similar to an unshifted version of itself — any shift reduces overlap. Cross-correlation Rxy(τ) peaks at the lag τ₀ that best aligns signal x with signal y. If y is a delayed version of x (e.g., an echo), the peak is at τ = τ₀, not zero. If x and y have no time delay relationship and are uncorrelated, there may be no sharp peak at all. The cross-correlation peak location is information — it reveals the relative time alignment between two signals, which is exactly what makes it useful for delay estimation."

@@ -45,7 +45,7 @@ Nutrient density quantifies nutrient content per unit of energy; nutrient-rich f
   answer: 1
   explanation: "This is the 'double burden of malnutrition' — being calorie-sufficient while micronutrient-deficient. Energy-dense, nutrient-poor foods deliver calories with little protein, fiber, vitamins, or minerals per calorie. A person can overeat calories and still be deficient in iron, vitamin D, or calcium. This is why reducing obesity cannot simply mean reducing calories — it must mean replacing energy-dense choices with nutrient-dense ones."
 
-- question: "A food with high energy density will always have low nutrient density."
+- question: "A food with high energy density will generally have low nutrient density."
   type: true-false
   answer: false
   explanation: "Energy density (calories per gram) and nutrient density (nutrients per calorie) are inversely related on average but not always. Nuts are energy-dense — high fat content means many calories per gram — yet also nutrient-dense, rich in protein, healthy fats, minerals, and fiber per calorie. The relationship holds broadly (vegetables are both low-energy-dense and nutrient-dense) but is not absolute. Nutrient density measures the nutrient-to-calorie ratio; a food can pack many calories per gram while still delivering many nutrients per calorie."

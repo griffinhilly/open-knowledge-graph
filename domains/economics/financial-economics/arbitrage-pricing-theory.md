@@ -55,7 +55,7 @@ Understand the no-arbitrage derivation: if a diversified portfolio with zero fac
   answer: 1
   explanation: "Alpha in a factor model measures return unexplained by the model's risk factors. Positive alpha means the fund earns more than its systematic exposures (market, size, value) warrant. This can mean genuine manager skill (true alpha) or that the three-factor model is incomplete and the fund actually earns a premium for exposure to a fourth risk factor the model omits. Distinguishing these interpretations requires additional analysis. The APT framework treats alpha as the benchmark: active management is only valuable if it produces true alpha after controlling for factor exposures."
 
-- question: "APT specifies a precise, theoretically derived list of macroeconomic factors (such as inflation, GDP growth, and interest rates) that must be used to price assets correctly."
+- question: "APT specifies a precise, theoretically derived list of macroeconomic factors (such as inflation, GDP growth, and interest rates) that is expected to be used to price assets correctly."
   type: true-false
   answer: false
   explanation: "This is a key limitation of APT relative to CAPM. APT's theory is agnostic about which factors to use — it says that whatever systematic risk factors drive returns must be compensated, but it does not identify what those factors are. Factor identification is purely empirical, which means practitioners must search for co-movements in returns that command a premium. This flexibility allows APT to fit real-world complexity but also opens the door to data mining: factors can be added post-hoc until almost any return pattern is 'explained.'"

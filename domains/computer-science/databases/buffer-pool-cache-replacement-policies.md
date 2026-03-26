@@ -49,7 +49,7 @@ Buffer pools cache frequently accessed pages in memory to minimize disk I/O. Pag
   answer: 1
   explanation: "The clock algorithm approximates LRU with less bookkeeping. When the clock hand encounters a frame with reference bit = 1, it gives it a second chance: reset the bit to 0 and move on. Only when the hand returns to a frame and finds the bit still 0 (meaning no access occurred in the interim) does it evict that frame. This avoids LRU's expensive per-access list updates while still approximating recency — recently accessed pages have their bit reset to 1 before the hand can revisit them."
 
-- question: "LRU is the most commonly implemented replacement policy in real database buffer pools because it provides the best performance in all workloads."
+- question: "LRU is the most commonly implemented replacement policy in real database buffer pools because it provides the best performance in most workloads."
   type: true-false
   answer: false
   explanation: "Despite LRU's theoretical appeal, most real database systems use the clock algorithm (or variants like Clock-Pro or 2Q) rather than true LRU. The reason is overhead: LRU requires updating a precise access ordering on every page access — typically maintaining a doubly-linked list — which adds synchronization cost in concurrent systems. The clock algorithm approximates LRU's behavior with a single reference bit and no per-access list manipulation. Additionally, LRU performs poorly on sequential scans (where every page is accessed exactly once and then not again), and real systems often use special-purpose policies for scan patterns."

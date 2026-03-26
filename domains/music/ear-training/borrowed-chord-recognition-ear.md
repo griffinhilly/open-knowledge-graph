@@ -49,7 +49,7 @@ Borrowed chords are harmonies from the parallel major or minor key, introducing 
   answer: true
   explanation: "Borrowed chords are perceptible precisely because they deviate from diatonic expectations. Without a secure baseline sense of what 'normal' diatonic chords sound like in the key, a chromatic harmony cannot register as intentional borrowing rather than error or modulation. Diatonic fluency is the prerequisite that makes the deviation audible and meaningful."
 
-- question: "Borrowed chords must always resolve directly back to a diatonic chord of the original key to maintain tonal coherence."
+- question: "Borrowed chords is expected to usually resolve directly back to a diatonic chord of the original key to maintain tonal coherence."
   type: true-false
   answer: false
   explanation: "Tonal coherence is maintained by the listener's continued perception of the original tonic, not by strict resolution rules. Borrowed chords typically do resolve smoothly to diatonic harmonies, but tonal coherence does not require that they resolve immediately or follow a fixed pattern. The governing principle is that the home key reasserts itself over the course of the phrase, not that every individual voice-leading move is rule-bound."

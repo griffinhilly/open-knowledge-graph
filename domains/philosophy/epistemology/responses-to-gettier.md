@@ -56,7 +56,7 @@ For each proposed fourth condition, construct a case that satisfies JTB plus tha
   answer: 1
   explanation: "The problem is fundamental, not technical. The number 7 is prime — but the primality of 7 does not cause anything. Abstract objects are causally inert. Yet we know mathematical truths. If the causal theory is taken literally, it implies we cannot know mathematics (implausible) or it must be extended to cover non-causal 'appropriate connections' (which threatens to make the theory so flexible it no longer rules out anything). This limitation reveals the causal theory as a partial response rather than a general solution."
 
-- question: "The repeated failure of proposed fourth conditions for knowledge — no-false-lemmas, causal theory, defeasibility — proves that knowledge cannot be analyzed into simpler necessary and sufficient conditions."
+- question: "The repeated failure of proposed fourth conditions for knowledge — no-false-lemmas, causal theory, defeasibility — proves that knowledge can seldom be analyzed into simpler necessary and sufficient conditions."
   type: true-false
   answer: false
   explanation: "The failures show only that the proposed conditions are insufficient, not that no correct analysis exists. It is logically possible that the right set of conditions has not yet been found. However, the pattern of failures — each fix generating its own counterexamples — led many epistemologists to suspect the analysis project itself is misguided, perhaps because 'knowledge' is a family-resemblance concept that resists the kind of sharp definition the project seeks. Suspicion is not proof, and the distinction matters philosophically."

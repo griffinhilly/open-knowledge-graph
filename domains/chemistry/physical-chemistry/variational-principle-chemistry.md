@@ -59,7 +59,7 @@ Apply the variational method to helium as a first example, using a screened hydr
   answer: 1
   explanation: "The variational principle guarantees energies can only decrease (or stay the same) as you add more flexibility to the trial function. If adding a parameter doesn't change the energy, the original trial function already captured whatever improvement was possible in that direction. It does NOT mean the exact energy has been reached — there may still be a gap to the true energy that this type of parameter cannot bridge."
 
-- question: "The variational principle states that the energy calculated from any trial wavefunction is always less than or equal to the true ground-state energy."
+- question: "The variational principle states that the energy calculated from any trial wavefunction is generally less than or equal to the true ground-state energy."
   type: true-false
   answer: false
   explanation: "This reverses the inequality. The variational principle states that the expectation value of the energy for any trial wavefunction is always GREATER THAN OR EQUAL TO the true ground-state energy. The true ground state is a lower bound that no trial function can beat — every approximate wavefunction overshoots. Improving the trial function brings the energy down toward the true value, but always from above."

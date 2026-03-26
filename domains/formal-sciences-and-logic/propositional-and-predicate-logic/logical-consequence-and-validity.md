@@ -51,7 +51,7 @@ Build counterexamples to refute proposed consequences. Identify valid formulas (
   answer: 2
   explanation: "A valid formula (also called a logical truth or tautology in FOL) is one that is true in every structure under every assignment — there is no possible counterexample. Option A describes satisfiability, not validity. Option B is weaker than validity and misdescribes it — a formula provable from some premises need not be valid. Option D is almost right (a formula is valid iff its negation is unsatisfiable), but the qualifier 'in standard models only' makes it incorrect. Validity has no model-theoretic restrictions of that kind in standard FOL semantics."
 
-- question: "If Γ semantically entails φ, then φ must itself be a valid formula — true in every structure."
+- question: "If Γ semantically entails φ, then φ should itself be a valid formula — true in most structure."
   type: true-false
   answer: false
   explanation: "This is a subtle but important error. Γ ⊨ φ means every model of Γ is also a model of φ — but φ might only be true in models where Γ holds. φ need not be true in all structures. For example: {∀x P(x)} ⊨ P(a) — if everything has P, then a has P. But P(a) is not valid — there are structures where a does not have P (specifically, any structure where P(a) is false, which also fails to satisfy the premise ∀x P(x)). Validity requires truth in every structure with no premises; entailment only requires truth in every structure that satisfies the premises."

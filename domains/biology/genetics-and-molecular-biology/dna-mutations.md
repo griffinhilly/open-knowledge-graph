@@ -43,7 +43,7 @@ Use a codon table to classify point mutations as silent, missense, or nonsense. 
   answer: 2
   explanation: "A single-base deletion shifts the reading frame for every codon after the deletion site. Because codons are non-overlapping triplets, removing one base changes which bases are grouped together from that point forward, typically producing a garbled amino acid sequence and often a premature stop codon. Degeneracy only helps when the same codon is produced — it cannot rescue a frameshift."
 
-- question: "A transition mutation that changes a codon from GCU to GCC will always result in a change in the amino acid sequence of the protein."
+- question: "A transition mutation that changes a codon from GCU to GCC will typically result in a change in the amino acid sequence of the protein."
   type: true-false
   answer: false
   explanation: "Both GCU and GCC encode alanine. This is a silent (synonymous) mutation — a consequence of the degeneracy of the genetic code, where multiple codons specify the same amino acid. The DNA sequence changes, but the protein sequence does not."

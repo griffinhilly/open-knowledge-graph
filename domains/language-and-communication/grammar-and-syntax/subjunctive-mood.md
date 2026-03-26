@@ -59,7 +59,7 @@ Identify subjunctive triggers — verbs like insist, recommend, suggest, demand,
   answer: true
   explanation: "The indicative 'was' in an if-clause signals that the speaker treats the condition as a real possibility — perhaps the speaker doesn't know for certain whether she was actually the director. This is the correct use of the indicative. If the speaker knew she was NOT the director and was speaking hypothetically, the subjunctive 'were' would be appropriate. The choice between 'was' and 'were' after 'if' is not a formality preference — it encodes the speaker's epistemic stance toward the condition's reality."
 
-- question: "The subjunctive mood has completely disappeared from modern standard English and survives only as an error in overly formal writing."
+- question: "The subjunctive mood has largely disappeared from modern standard English and survives primarily as an error in overly formal writing."
   type: true-false
   answer: false
   explanation: "The subjunctive is alive in modern formal English in two main contexts: (1) the past subjunctive — 'If I were you,' 'If he were here' — in counterfactual conditionals; and (2) the present subjunctive — 'I insist that she be present,' 'The rules require that students submit by Friday' — after verbs of demand and recommendation. It has retreated from casual speech but remains standard in formal writing and persists in fixed expressions: 'if need be,' 'come what may,' 'so be it.'"

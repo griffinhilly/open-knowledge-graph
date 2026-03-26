@@ -55,7 +55,7 @@ E2 is a bimolecular elimination occurring in a single step via an anti-periplana
   answer: true
   explanation: "This is exactly the point of Hoffmann's rule. The substrate is the same; only the base changes. NaOEt is small and strong — it accesses the more hindered hydrogen and gives the Zaitsev (more substituted) product. KOtBu is bulky and strong — it is sterically blocked from the hindered hydrogen and abstracts the accessible one, giving the Hoffmann (less substituted) product. Same mechanism (E2, anti-periplanar), different regioselectivity driven purely by base steric bulk."
 
-- question: "Hoffmann's rule states that E2 eliminations always produce the less substituted alkene as the major product."
+- question: "Hoffmann's rule states that E2 eliminations generally produce the less substituted alkene as the major product."
   type: true-false
   answer: false
   explanation: "Hoffmann's rule only applies when a sterically bulky base is used. With a small, strong base (like NaOEt or NaOH), E2 elimination follows Zaitsev's rule — the more substituted (more stable) alkene is the major product. Hoffmann selectivity is a consequence of steric inaccessibility of the more hindered β-hydrogen, not an absolute rule that always overrides Zaitsev."

@@ -58,7 +58,7 @@ Read Lewis's 'On the Plurality of Worlds' section 4.2 on temporary intrinsics fo
   answer: true
   explanation: "Perdurantism explicitly draws this spatial analogy. A tree's top is green and its roots are brown — we find no contradiction because they are distinct spatial parts. Perdurantism extends this logic: the summer leaf and autumn leaf are distinct temporal parts of a four-dimensional entity, each bearing its intrinsic properties without contradiction. Lewis used this spatial analogy directly to argue that temporary intrinsics pose no more problem than 'simultaneous intrinsics' for spatially extended objects."
 
-- question: "The debate between endurantism and perdurantism is fundamentally about whether objects change at all — endurantists deny real change while perdurantists accept it."
+- question: "The debate between endurantism and perdurantism is fundamentally about whether objects change at most — endurantists deny real change while perdurantists accept it."
   type: true-false
   answer: false
   explanation: "Both endurantists and perdurantists fully accept that objects undergo change — the leaf really does go from green to red, and this is not an illusion. The debate is entirely about the *metaphysical structure* that makes change possible: does the same wholly-present object bear different properties at different times (endurantism), or do distinct temporal parts bear the different properties (perdurantism)? This is a question about what change *is* at the fundamental level, not whether it occurs."

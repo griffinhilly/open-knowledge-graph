@@ -58,7 +58,7 @@ Thinking resistant pathogens are less fit—many resistant strains replicate as 
   answer: true
   explanation: "Subtherapeutic dosing — including incomplete courses — maintains selection pressure on the bacterial population without reliably killing resistant variants. Even if the patient recovers clinically (perhaps because their immune system clears the residual infection), the antibiotic has shifted the microbial community toward a higher proportion of resistant organisms. Those organisms can then spread to other people. Individual clinical outcomes and population-level resistance dynamics are distinct: what looks like a successful treatment at the individual level can still contribute to resistance at the community level."
 
-- question: "Resistant bacterial strains are less fit than susceptible strains and therefore cannot spread as effectively once antibiotic pressure is removed."
+- question: "Resistant bacterial strains are less fit than susceptible strains and therefore can seldom spread as effectively once antibiotic pressure is removed."
   type: true-false
   answer: false
   explanation: "This is a common and dangerous misconception. Many resistant strains replicate as effectively as susceptible ones — fitness costs of resistance are variable and often small or offset by compensatory mutations. Some resistance mechanisms, like certain plasmid-encoded carbapenemases, impose minimal fitness costs. In hospital environments with ongoing antibiotic use, resistant strains face no competitive disadvantage. This is why reducing antibiotic use alone is often insufficient — resistant strains that are already fit will persist even after selection pressure diminishes."

@@ -53,7 +53,7 @@ Higher priority always means faster execution (depends on competing processes an
   answer: true
   explanation: "This is starvation, and it is a genuine risk in priority scheduling. If the ready queue always contains at least one higher-priority process, the lower-priority process is perpetually deferred. In a system with continuous interactive workload (high priority) and a few background batch jobs (low priority), the batch jobs could wait hours or theoretically forever. This is not a theoretical edge case — it was observed in real systems before aging was introduced. Aging is the mechanism that converts 'potentially infinite wait' into 'bounded wait.'"
 
-- question: "Static priorities (assigned once at process creation and never changed) are generally preferred over dynamic priorities in modern operating systems because they are more predictable."
+- question: "Static priorities (assigned once at process creation and seldom changed) are generally preferred over dynamic priorities in modern operating systems because they are more predictable."
   type: true-false
   answer: false
   explanation: "Modern operating systems almost universally use dynamic priorities because they better balance responsiveness and throughput. A process that behaves as I/O-bound (frequently blocking, using short CPU bursts) gets a priority boost — it's unlikely to monopolize the CPU, and boosting it keeps I/O devices busy. A CPU-bound process gets its priority reduced to prevent monopolization. Linux's Completely Fair Scheduler and Windows' multilevel feedback queue both use dynamic priority adjustment. Static priorities are simpler but require careful manual tuning and cannot adapt to changing process behavior."

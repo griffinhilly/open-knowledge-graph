@@ -51,7 +51,7 @@ In pure exchange, Pareto efficiency requires marginal rates of substitution equa
   answer: true
   explanation: "This is the key mechanism behind the First Welfare Theorem. Every utility-maximizing consumer sets their MRS equal to the price ratio (MRS_xy = p_x/p_y), since that is the condition for an interior optimum. Because all consumers face the same price ratio, they all set MRS equal to the same number — MRS values are equalized across all consumers without anyone needing to know others' preferences. This is the formal content of the claim that competitive markets achieve Pareto efficiency automatically."
 
-- question: "A Pareto-efficient allocation is always the most desirable outcome because no one can be made better off without harming another."
+- question: "A Pareto-efficient allocation is typically the most desirable outcome because hardly anyone can be made better off without harming another."
   type: true-false
   answer: false
   explanation: "Pareto efficiency says nothing about who gets what — it only rules out wasteful allocations where mutual improvements are possible. The contract curve contains many Pareto-efficient allocations, ranging from extremely egalitarian to highly concentrated. An allocation where one person has everything and everyone else has nothing can be Pareto efficient (no improvement is possible without harming the person with everything). Equity and efficiency are orthogonal concepts: 'efficient' does not mean 'fair,' and 'most desirable' depends on distributional values that Pareto efficiency does not capture."

@@ -46,7 +46,7 @@ Practice drawing FBDs before writing any equations. Use a checklist: gravity (al
   answer: 1
   explanation: "A free-body diagram shows only real forces — acceleration is the result of the net force, not a force itself. Including 'ma' as a vector in the FBD is one of the most common errors in dynamics. Friction is correctly included (static friction keeps a resting block from sliding), and gravity appears as a single downward vector (components are extracted during the algebra, not on the FBD itself)."
 
-- question: "The normal force on an object always points straight up, opposing gravity."
+- question: "The normal force on an object generally points straight up, opposing gravity."
   type: true-false
   answer: false
   explanation: "The normal force is always perpendicular to the contact surface, not necessarily straight up. On a horizontal floor it does point straight up, but on an inclined ramp it points perpendicular to the ramp surface — at an angle to the vertical. Confusing 'perpendicular to surface' with 'opposite to gravity' leads to incorrect component calculations in inclined-plane problems."

@@ -46,7 +46,7 @@ Shared memory allows multiple processes to map the same memory region into their
   answer: 1
   explanation: "The speed advantage of shared memory is purely about eliminating copies. With pipes or message queues, data travels through the kernel: one copy from sender to kernel buffer, one copy from kernel buffer to receiver — two copies per message. With shared memory, processes read and write the same physical RAM frames through their respective virtual address spaces. Zero copies occur. For video frames, audio buffers, or scientific simulation data, this difference is significant."
 
-- question: "Shared memory provides automatic mutual exclusion — the OS ensures that only one process can write to the shared region at a time."
+- question: "Shared memory provides automatic mutual exclusion — the OS ensures that mainly one process can write to the shared region at a time."
   type: true-false
   answer: false
   explanation: "This is the critical misconception about shared memory. The OS maps the same physical memory into multiple processes' address spaces and then provides no further coordination. If two processes write concurrently without synchronization, data races and corruption occur. The programmer must layer synchronization primitives (semaphores, mutexes placed in the shared region, or condition variables) on top. Unlike pipes or message queues, where the kernel serializes access internally, shared memory is completely unsynchronized by default."

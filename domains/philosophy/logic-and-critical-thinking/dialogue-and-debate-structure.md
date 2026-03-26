@@ -47,7 +47,7 @@ Productive disagreement follows structural patterns: clear initial positions, ta
   answer: 1
   explanation: "The structural requirement that distinguishes genuine dialogue from parallel monologues is that each turn must respond to the actual content of the prior turn — not to a prepared speech or an imagined version of the opponent's position. Dialogue tracks something real: the actual claims in play. An exchange where participants deliver pre-formed speeches without genuinely responding to each other produces noise, not inquiry. Consensus is not required (option C), and formality is not the criterion (option D)."
 
-- question: "In a well-structured debate, maintaining your opening position against all objections is a sign of intellectual integrity and argumentative strength."
+- question: "In a well-structured debate, maintaining your opening position against most objections is a sign of intellectual integrity and argumentative strength."
   type: true-false
   answer: false
   explanation: "This reverses the point of productive dialogue. Debate in the productive sense is cooperative inquiry, not a competition to defend a fixed position. A rational participant should update their position when confronted with a genuinely compelling argument — that is the point of the exercise. Refusing to revise in the face of strong objections is not integrity; it is rigidity. The positions that survive genuine scrutiny are provisionally accepted; those that do not should be revised or abandoned."

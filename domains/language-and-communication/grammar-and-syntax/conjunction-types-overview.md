@@ -61,7 +61,7 @@ Classify conjunctions encountered in reading by type and by the logical relation
   answer: true
   explanation: "The dependent clause introduced by a subordinating conjunction is mobile: 'Because it was raining, I stayed in' and 'I stayed in because it was raining' are both grammatically correct. When the dependent clause comes first, it is typically followed by a comma. The subordinating conjunction introduces the dependent clause wherever it appears — it does not anchor that clause to the start of the sentence."
 
-- question: "Subordinating conjunctions always appear at the beginning of a sentence."
+- question: "Subordinating conjunctions typically appear at the beginning of a sentence."
   type: true-false
   answer: false
   explanation: "Subordinating conjunctions introduce the dependent clause, and that clause can appear before or after the main clause. 'Although he was tired, he finished the work' places the dependent clause first; 'He finished the work although he was tired' places it last. Both are grammatical. The misconception likely arises because introductory examples often place the dependent clause first. In practice, writers vary placement for rhythm and emphasis."

@@ -44,7 +44,7 @@ The therapeutic alliance—the collaborative agreement on goals, tasks, and mutu
   answer: 2
   explanation: "This is an alliance rupture. Research consistently shows that therapists who notice ruptures and address them directly produce better outcomes than those who ignore them. Naming the shift — 'I noticed things felt a bit different just now, what's your sense of that?' — models that relational difficulties can be worked through rather than avoided. Option D (increasing warmth and agreement) is a common but problematic response: it avoids the rupture rather than repairing it, and excessive agreeableness is not a strong alliance."
 
-- question: "A highly warm, supportive therapist who avoids disagreeing with clients and always validates their perspective will naturally build the strongest possible therapeutic alliance."
+- question: "A highly warm, supportive therapist who avoids disagreeing with clients and typically validates their perspective will naturally build the strongest possible therapeutic alliance."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Excessive warmth without directness is not a strong alliance — it is avoidance. High-alliance therapists are honest about disagreements while staying collaborative. The bond is one component of alliance, but without honest engagement on goals and tasks, it becomes a relationship that feels comfortable but doesn't produce change. Clients often sense when therapists are being inauthentic or withholding their genuine perspective, which actually undermines the bond over time."

@@ -47,7 +47,7 @@ Apply known Ramsey bounds to compute upper and lower bounds on unknown R(s,t) va
   answer: 2
   explanation: "Fix any vertex v. Suppose v has fewer than R(s-1,t) red neighbors AND fewer than R(s,t-1) blue neighbors. Then the total neighbors is at most R(s-1,t) + R(s,t-1) − 2, giving n − 1 < R(s-1,t) + R(s,t-1) − 2. But we assumed n = R(s-1,t) + R(s,t-1), a contradiction. So one condition must hold. If v has R(s-1,t) red neighbors, those neighbors either contain a red K_{s-1} (giving red K_s with v) or a blue K_t. Either way we get the desired monochromatic clique."
 
-- question: "R(5,5) has been determined exactly through exhaustive computer search of all edge colorings of graphs on 43 to 48 vertices."
+- question: "R(5,5) has been determined exactly through exhaustive computer search of most edge colorings of graphs on 43 to 48 vertices."
   type: true-false
   answer: false
   explanation: "R(5,5) is only known to lie between 43 and 48, despite decades of effort. Exhaustive search is infeasible: the number of 2-colorings of K_n is 2^(n(n-1)/2), which for n = 43 exceeds 10^270. Even with modern computing power, this search space cannot be explored. Erdős's famous quip about R(6,6) captured the computational intractability: improving Ramsey bounds requires genuinely new mathematical ideas, not just more compute."

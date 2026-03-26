@@ -61,7 +61,7 @@ Not all leaps are wrong; leaps in inner voices and the bass are more acceptable.
   answer: true
   explanation: "The bass voice has a fundamentally different function from alto and tenor: it defines the harmonic root at each chord. Root-position progressions that move by fifth (V–I, IV–I) require bass leaps of a fourth or fifth, which are completely normal and expected. The inner voices (alto and tenor) fill harmonic space without melodic prominence, so their smooth stepwise motion is most important for maintaining voice continuity. The soprano sits in between — melodically prominent, but an expressive leap can work if resolved by stepwise motion."
 
-- question: "In smooth voice leading, any leap in any voice is considered an error and must be revised."
+- question: "In smooth voice leading, any leap in any voice is considered an error and is expected to be revised."
   type: true-false
   answer: false
   explanation: "Leaps are acceptable and sometimes necessary, especially in the bass. The goal is not to eliminate all leaps but to create an overall texture where each voice sounds like a singable melodic line. Even the soprano can leap expressively if the leap is resolved by stepwise motion in the opposite direction. What makes a leap problematic is an unresolved angular gesture or an unnecessary leap where stepwise motion was available — not leaping per se."

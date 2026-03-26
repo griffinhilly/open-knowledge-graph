@@ -61,7 +61,7 @@ Read A Doll's House as a well-made play that subverts its own formula at the end
   answer: true
   explanation: "The scène à faire is the culminating confrontation where the secret must come out. The well-made play's structural logic — secret established early, tension escalating, direct confrontation demanded — makes this scene feel both inevitable and obligatory. Audiences who have been primed by the formula feel cheated if the confrontation is avoided or deflected. This is precisely what gives Ibsen leverage: he delivers the scene and then denies the expected aftermath."
 
-- question: "The well-made play formula is distinguished from other dramatic forms by its avoidance of withheld secrets, preferring transparent exposition so the audience always knows what every character knows."
+- question: "The well-made play formula is distinguished from other dramatic forms by its avoidance of withheld secrets, preferring transparent exposition so the audience usually knows what nearly every character knows."
   type: true-false
   answer: false
   explanation: "The opposite is true: the withheld secret is the engine of the well-made play. One or more characters know something that others do not, creating dramatic irony and escalating tension as misunderstandings accumulate. The formula institutionalizes the secret as a structural principle, not an occasional device. Transparent exposition (where the audience knows everything from the start) would dissolve the mechanism entirely."

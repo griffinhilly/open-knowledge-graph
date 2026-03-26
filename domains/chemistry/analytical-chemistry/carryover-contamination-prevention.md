@@ -52,7 +52,7 @@ Carryover contamination occurs when residual analyte from one sample remains in 
   answer: false
   explanation: "The explainer describes carryover as 'insidious' precisely because 'it produces results that look perfectly normal but are systematically wrong.' A contaminated blank or low-concentration sample produces a peak with normal shape, correct retention time, and expected detector response. There are no automated error flags. The only way to detect carryover is systematic assessment: running a blank after the highest-concentration sample and checking whether signal appears above the method detection limit. Carryover is a silent error that requires deliberate testing to uncover."
 
-- question: "Running a blank after every high-concentration sample (bracketing blanks) serves primarily to detect method detection limit errors rather than to assess carryover between samples."
+- question: "Running a blank after nearly every high-concentration sample (bracketing blanks) serves primarily to detect method detection limit errors rather than to assess carryover between samples."
   type: true-false
   answer: false
   explanation: "Bracketing blanks — running a blank after every high-concentration sample — are specifically described as a carryover safety net, particularly in clinical and forensic contexts where a false positive result can have serious consequences. The blank should contain no signal above the MDL; if it does, carryover from the preceding high-concentration sample has occurred. The method detection limit (MDL) is a separate concept relating to the lowest concentration detectable above background noise, not to sample-to-sample contamination between injections."

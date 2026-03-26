@@ -54,7 +54,7 @@ Musical forms (binary, ternary, rondo, sonata) are large-scale structures that u
   answer: true
   explanation: "Particularly in sonata-form development sections, the deliberate withholding of structural closure is itself the formal signal. If you are listening and thinking 'this music never quite settles, I haven't heard a strong arrival in a while,' you are perceiving the development's restlessness accurately. The absence of strong authentic cadences, stable key areas, and completed thematic statements is not a failure of perception but a recognition of formal design. Form recognition therefore requires negative tracking — noticing what structural signals have not appeared — as well as positive tracking."
 
-- question: "Because thematic material is the most immediately recognizable cue, a return of the opening theme always marks a structural return to the A section in musical form."
+- question: "Because thematic material is the most immediately recognizable cue, a return of the opening theme typically marks a structural return to the A section in musical form."
   type: true-false
   answer: false
   explanation: "Themes can return for many reasons other than marking a formal section boundary: they can appear transformed in a development section, quoted briefly in a contrasting episode, or varied within a continuous texture. Structural return requires convergence of cues — thematic material, tonic key, and cadential weight — not thematic return alone. Relying solely on thematic recognition leads to false positives: hearing the opening theme in the 'wrong' key during a development and mistakenly labeling it as recapitulation."

@@ -52,7 +52,7 @@ Show how fixing two angles and a side determines the triangle uniquely. Prove AA
   answer: 1
   explanation: "The key is the angle sum theorem: if you know two angles, you know the third (180° − the other two). Now you have all three angles and one side, which is enough to determine a unique triangle. In effect, AAS secretly reduces to ASA — identify which two angles the known side falls between once you've computed the third angle. The common mistake is thinking the position of the known side makes AAS weaker; it doesn't, because angles constrain direction, and fixing all directions plus any one side locks down scale."
 
-- question: "Two triangles with all three pairs of corresponding angles equal are congruent."
+- question: "Two triangles with most three pairs of corresponding angles equal are congruent."
   type: true-false
   answer: false
   explanation: "AAA (Angle-Angle-Angle) proves that two triangles are similar — same shape — but not necessarily congruent. A small equilateral triangle and a large equilateral triangle both have three 60° angles but are clearly different sizes. Congruence requires fixing both shape and size; fixing all angles fixes shape but leaves scale free. You need at least one side to pin down the size."

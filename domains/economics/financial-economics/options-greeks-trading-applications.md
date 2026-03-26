@@ -54,7 +54,7 @@ Construct a delta-hedged long call position and observe how rebalancing frequenc
   answer: true
   explanation: "This is the vega effect. Vega measures an option's sensitivity to changes in implied volatility — the market's expectation of future price swings. Long options are long vega: if implied vol rises (e.g., due to market uncertainty or an approaching catalyst), option prices increase even with no movement in the underlying. This is why buying options before earnings announcements can be profitable purely from a vega perspective, regardless of which direction the stock moves."
 
-- question: "Once a position is delta-hedged, the trader has eliminated all meaningful risk and no further risk management is required."
+- question: "Once a position is delta-hedged, the trader has eliminated most meaningful risk and no further risk management is required."
   type: true-false
   answer: false
   explanation: "Delta hedging eliminates only first-order directional risk. It leaves the trader exposed to gamma (delta changing as price moves, requiring costly rebalancing), vega (exposure to changes in implied volatility), theta (time decay eroding option value each day), and rho (sensitivity to interest rate changes). A sophisticated options trader must monitor all five Greeks simultaneously. Delta neutrality is the starting point of risk management, not the end."

@@ -47,7 +47,7 @@ Beyond locutionary and illocutionary acts, perlocution describes effects achieve
   answer: 1
   explanation: "Austin distinguished between perlocutionary effects that are 'aimed at' (intended) and those that are merely 'brought about' (unintended causal consequences). The humiliation here was causally produced by the speech act but was not the speaker's goal. This matters for responsibility: we generally hold speakers more accountable for illocutionary acts (deliberate choices about what speech act to perform) than for unintended perlocutionary effects that depend on the hearer's psychology in ways the speaker could not fully control."
 
-- question: "If a speaker correctly performs the illocutionary act of warning — using the right words in the right context with the right uptake — the listener is guaranteed to feel alarmed."
+- question: "If a speaker correctly performs the illocutionary act of warning — using the right words in the right context with the right uptake — the listener is expected to feel alarmed."
   type: true-false
   answer: false
   explanation: "Illocutionary success and perlocutionary success are independent. A warning is successfully performed as a warning when the conventional conditions are met and the hearer understands that a warning has been issued. Whether the hearer actually feels alarmed is a causal consequence that depends on their background beliefs, emotional state, and judgment — none of which the speaker controls. The same warning can alarm one hearer and be dismissed by another. Perlocutionary success can never be guaranteed by any conventional formula."

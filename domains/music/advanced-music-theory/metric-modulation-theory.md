@@ -57,7 +57,7 @@ Study Carter's instrumental works, which pioneered metric modulation. Compose an
   answer: 1
   explanation: "Metric modulation produces an instantaneous, mathematically precise new tempo derived from a note value that existed in the previous meter. Accelerando is a gradual continuum of speed change with no fixed endpoint. This exactness is why composers like Elliott Carter could create intricate multi-layer temporal structures — the tempo ratios are audibly derivable from the notated rhythmic relationship."
 
-- question: "Metric modulation always results in a faster tempo, because it uses a subdivision as the new beat."
+- question: "Metric modulation usually results in a faster tempo, because it uses a subdivision as the new beat."
   type: true-false
   answer: false
   explanation: "Metric modulation can produce a slower tempo depending on which note value is chosen as the pivot. If a longer note value (e.g., a dotted quarter, or a half note) becomes the new beat, the new tempo is slower than the original. The direction depends entirely on the ratio between the pivot note and the original beat unit — subdivisions yield faster tempos, augmented values yield slower ones."

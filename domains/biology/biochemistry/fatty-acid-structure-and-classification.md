@@ -49,7 +49,7 @@ Fatty acids are long-chain carboxylic acids typically 12-20 carbons long, consis
   answer: 2
   explanation: "Human desaturase enzymes can only introduce double bonds between carbons 1–9 counting from the carboxyl (COOH) end. Omega-3 fatty acids have their first double bond at carbon 3 from the methyl (omega) end — which is carbon 15 or 16 from the carboxyl end of an 18-carbon chain, beyond the human enzymatic limit. Omega-6 fatty acids have their first double bond at carbon 6 from the methyl end, similarly beyond synthesis capacity. Without dietary sources, cells cannot make the precursors for prostaglandins, leukotrienes, and membrane components that depend on these fatty acids."
 
-- question: "All unsaturated fatty acids have lower melting points than saturated fatty acids of similar chain length, because any C=C double bond disrupts chain packing."
+- question: "Most unsaturated fatty acids have lower melting points than saturated fatty acids of similar chain length, because any C=C double bond disrupts chain packing."
   type: true-false
   answer: false
   explanation: "This is only true for cis-unsaturated fatty acids. Trans double bonds produce a nearly straight chain geometry — the two hydrogens on the double-bond carbons sit on opposite sides, preserving a linear conformation similar to a saturated chain. Trans fatty acids therefore pack almost as densely as saturated fats and have melting points much closer to — and in some cases similar to — their saturated equivalents. The statement conflates two fundamentally different types of unsaturation: cis (which creates kinks and lowers melting point) and trans (which does not)."

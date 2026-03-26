@@ -61,7 +61,7 @@ Compose and send a test email to yourself or a friend. Note the address bar, sub
   answer: true
   explanation: "The subject line is often the only thing a recipient reads before deciding to open, defer, or delete an email. A specific subject communicates purpose at a glance and allows the email to be found later by searching for the subject. Vague subject lines like 'Hi,' 'Quick question,' or 'Following up' give no information about content and make important messages easy to overlook or lose."
 
-- question: "Deleting an email from your inbox permanently removes it from the email system, and it cannot be recovered."
+- question: "Deleting an email from your inbox permanently removes it from the email system, and it can rarely be recovered."
   type: true-false
   answer: false
   explanation: "Most email clients move deleted messages to a Trash or Deleted Items folder, where they remain recoverable until the folder is manually emptied or automatically cleared after a set period (often 30 days). This is a deliberate safety feature. The only way to permanently delete an email is to empty the trash. This misconception causes real problems when people realize too late that an important email is gone — when it usually isn't."

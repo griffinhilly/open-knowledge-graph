@@ -46,7 +46,7 @@ Start with the simplest case — a stock paying a constant, perpetual dividend �
   answer: 2
   explanation: "DCF theory defines intrinsic value as the present value of all future cash flows attributable to shareholders — dividends, buybacks, and terminal value. Market price is what the stock trades for today, which may differ from intrinsic value. Book value is an accounting measure, not a forward-looking cash flow concept. P/E multiples are a relative valuation shortcut, not the theoretical definition of intrinsic value."
 
-- question: "If two analysts use the same earnings forecasts and the same DCF model but reach very different intrinsic value estimates, they must have made a calculation error."
+- question: "If two analysts use the same earnings forecasts and the same DCF model but reach very different intrinsic value estimates, they should have made a calculation error."
   type: true-false
   answer: false
   explanation: "Small differences in discount rate or long-term growth rate assumptions produce dramatically different valuations because these inputs affect a perpetuity-like calculation. A 1 percentage point change in the discount rate or terminal growth rate can shift estimated intrinsic value by 30-50%. This is a feature of the math, not an error — it reflects the genuine uncertainty in stock valuation and why 'valuation is an art as much as a science.'"

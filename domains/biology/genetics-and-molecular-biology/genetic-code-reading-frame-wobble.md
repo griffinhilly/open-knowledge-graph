@@ -49,7 +49,7 @@ The genetic code is degenerate—multiple codons encode the same amino acid—ye
   answer: 1
   explanation: "Wobble base pairing allows the first position of the tRNA anticodon (which pairs with the third position of the mRNA codon) to form non-Watson-Crick pairs. For example, inosine (I) in the anticodon can pair with U, C, or A in the third codon position, allowing a single tRNA to recognize three synonymous codons. This is not imprecise — it is a precisely evolved mechanism that balances decoding efficiency with accuracy. It also explains why the third codon position is the 'wobble position' and why most synonymous codons differ only at position 3."
 
-- question: "Because the genetic code is degenerate, any point mutation at the third position of a codon always produces a silent (synonymous) mutation."
+- question: "Because the genetic code is degenerate, any point mutation at the third position of a codon usually produces a silent (synonymous) mutation."
   type: true-false
   answer: false
   explanation: "While many third-position mutations are silent — especially in codon families where all four variants encode the same amino acid (like Ala: GCU, GCC, GCA, GCG) — this is not universal. In some codon families, the third position does distinguish amino acids. For example, CAA and CAG encode glutamine, but CAU and CAC encode histidine — a third-position A→U change in CA codons does change the amino acid. The degeneracy of the code means that third-position changes are often but not always silent."

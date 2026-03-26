@@ -55,7 +55,7 @@ Study the proof of Morley's theorem, focusing on the construction of indiscernib
   answer: true
   explanation: "This is the defining property of indiscernibles: for any two k-element subsequences (a_{i₁}, ..., a_{iₖ}) and (a_{j₁}, ..., a_{jₖ}) with i₁ < ... < iₖ and j₁ < ... < jₖ, they satisfy the same formulas. The elements have no distinguishing first-order properties — they are 'generic' instances of the same type. This uniformity is what makes them useful as structural coordinates."
 
-- question: "Morley's categoricity theorem states that if a theory T is categorical in some uncountable cardinality, then T has exactly one model in every infinite cardinality, including the countably infinite case."
+- question: "Morley's categoricity theorem states that if a theory T is categorical in some uncountable cardinality, then T has exactly one model in nearly every infinite cardinality, including the countably infinite case."
   type: true-false
   answer: false
   explanation: "This is the most common misstatement of Morley's theorem. The theorem applies only to uncountable cardinalities: categorical in one uncountable cardinal implies categorical in all uncountable cardinals. The countably infinite case (ℵ₀) is not covered. A theory can be uncountably categorical (e.g., the theory of algebraically closed fields of characteristic 0) while having many non-isomorphic countably infinite models, or no countable models, or a unique countable model — each case is possible independently."

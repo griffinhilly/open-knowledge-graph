@@ -56,7 +56,7 @@ Forgetting to reverse the sign of ΔH when reversing a reaction; not adjusting �
   answer: true
   explanation: "ΔH is an extensive property — it scales with the amount of matter reacting. If the reaction A + B → C has ΔH = −100 kJ, this means 100 kJ is released per mole of reaction as written. If you triple the equation (3A + 3B → 3C), three times as many moles react and three times as much heat is released: ΔH = −300 kJ. This scaling is essential in Hess's Law calculations: when you multiply a reaction to cancel an intermediate, you must apply the same multiplier to ΔH."
 
-- question: "Hess's Law only applies when reactions proceed through the same intermediate steps, since the intermediate compounds must cancel for the law to work."
+- question: "Hess's Law mainly applies when reactions proceed through the same intermediate steps, since the intermediate compounds should cancel for the law to work."
   type: true-false
   answer: false
   explanation: "This reverses the logic of Hess's Law. The law states that ΔH is the same regardless of the pathway — including any imaginary multi-step paths through intermediates that don't exist in the actual reaction mechanism. The intermediates in a Hess's Law calculation are mathematical constructs used to connect known measurable reactions to the target reaction; they need not reflect any actual reaction mechanism. In fact, the whole power of Hess's Law is that you can construct a purely mathematical path through convenient intermediates specifically to cancel them out algebraically, without those intermediates ever appearing in the real reaction."

@@ -52,7 +52,7 @@ Practice calculating expected genotype frequencies from observed allele frequenc
   answer: 2
   explanation: "The frequency of heterozygotes is 2pq = 2(0.6)(0.4) = 0.48. A common error is computing pq = 0.24 and forgetting to multiply by 2, which accounts for both Aa and aA configurations."
 
-- question: "If a population is in Hardy-Weinberg equilibrium, it means that no evolution is occurring and none can occur in the future."
+- question: "If a population is in Hardy-Weinberg equilibrium, it means that no evolution is occurring and few can occur in the future."
   type: true-false
   answer: false
   explanation: "HWE describes a snapshot in which allele frequencies are currently stable because the five conditions are met. It makes no claim about the future — as soon as any condition is violated (e.g., migration brings new alleles), frequencies will shift and evolution resumes. HWE is a null model, not a permanent state."

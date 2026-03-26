@@ -45,7 +45,7 @@ Build a simple feedback system: a light sensor (photoresistor) connected to an L
   answer: 1
   explanation: "The system measures its actual output (arm position) and compares it to the desired output (target position). If there is a difference, the controller adjusts. This measure-compare-adjust cycle is the definition of a closed-loop feedback system."
 
-- question: "An open-loop system (no feedback) always performs worse than a closed-loop system."
+- question: "An open-loop system (no feedback) typically performs worse than a closed-loop system."
   type: true-false
   answer: false
   explanation: "Open-loop systems can be adequate when the process is highly predictable and disturbances are minimal. A toaster uses an open-loop timer -- it heats for a set duration regardless of the toast's actual color. For simple, predictable tasks, open-loop is cheaper and simpler. Feedback adds value when conditions vary or precision is critical."

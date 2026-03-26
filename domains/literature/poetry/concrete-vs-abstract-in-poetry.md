@@ -53,7 +53,7 @@ Highlight every concrete image in a poem in one color and every abstract stateme
   answer: 2
   explanation: "The final line's force depends entirely on the concrete preparation that preceded it. Without the extended, particular description of two paths in a yellow wood, the claim 'that has made all the difference' would be empty — different how, about what? The concrete scene makes the abstraction legible and resonant. This is the characteristic motion of lyric poetry: from seen to meant, from physical to philosophical. The concrete is the evidence; the abstract is the verdict. The verdict only lands because the evidence has been carefully laid out first."
 
-- question: "'Show, don't tell' means that good poetry should eliminate abstract language and rely entirely on concrete imagery."
+- question: "'Show, don't tell' means that good poetry should eliminate abstract language and rely mostly on concrete imagery."
   type: true-false
   answer: false
   explanation: "This is the most common misapplication of the principle. 'Show, don't tell' means abstraction should be earned through concrete particulars rather than asserted in a vacuum — not that abstraction is forbidden. The most powerful poems often end with an abstraction that the preceding concrete images have made fully resonant. The principle targets *unearned* abstraction — statements of emotion or meaning dropped in without the concrete groundwork that makes them credible. Concrete and abstract are not categories of good and bad; the interplay between them is what generates poetic meaning."

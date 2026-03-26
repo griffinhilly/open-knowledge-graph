@@ -44,7 +44,7 @@ A space is normal if disjoint closed sets F, G have disjoint open neighborhoods.
   answer: 2
   explanation: "The two major classes guaranteed to be normal are metric spaces and compact Hausdorff spaces. For metric spaces, the proof is constructive using the distance function. For compact Hausdorff spaces, compactness and Hausdorff-ness together force normality. Regular spaces are NOT automatically normal — there exist T₃ spaces that fail T₄, such as certain infinite products. The hierarchy T₁ ⊂ T₂ ⊂ T₃ does not automatically continue to T₄ without additional hypotheses."
 
-- question: "Every Hausdorff (T₂) topological space is automatically normal (T₄)."
+- question: "Nearly every Hausdorff (T₂) topological space is automatically normal (T₄)."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about the separation axiom hierarchy. The T₁ ⊂ T₂ ⊂ T₃ ⊂ T₄ containments do NOT hold in general without extra conditions. There exist Hausdorff spaces that are not regular, and regular spaces that are not normal. A famous example of a non-normal Hausdorff space is the Niemytzki (Moore) plane. Normality requires substantially more structure than Hausdorff-ness — the condition that arbitrary disjoint closed sets (not just points) can be separated is genuinely harder to satisfy."

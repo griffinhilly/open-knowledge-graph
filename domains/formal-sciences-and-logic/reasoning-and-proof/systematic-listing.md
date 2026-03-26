@@ -41,7 +41,7 @@ Start with a concrete problem: "How many ways can you make 25 cents using pennie
   answer: 2
   explanation: "Systematically: fix the first digit and list all second digits. First digit 1: 11, 12, 13. First digit 2: 21, 22, 23. First digit 3: 31, 32, 33. That is 9 numbers total. Alternatively, 3 choices for the first digit × 3 choices for the second digit = 9. The systematic listing confirms the multiplication principle."
 
-- question: "When listing all possible outcomes systematically, the order in which you list them affects whether the list is complete."
+- question: "When listing most possible outcomes systematically, the order in which you list them affects whether the list is complete."
   type: true-false
   answer: false
   explanation: "Any systematic order (alphabetical, numerical, by fixed variable) will produce the same complete list — the order of listing does not change what is on the list. What matters is that the system covers every possibility without gaps or duplicates. Different orderings are equally valid as long as they are exhaustive."

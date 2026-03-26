@@ -44,7 +44,7 @@ For transformation (u, v) = T(x, y), the Jacobian J = ∂(x, y)/∂(u, v) = det(
   answer: 1
   explanation: "The change-of-variables formula is ∬_D f(x,y) dA = ∬_S f(x(u,v), y(u,v)) |J| du dv. Without the Jacobian factor, the area elements du dv in (u,v)-space are not the same size as the corresponding dA in (x,y)-space. Here, ∂x/∂u = 2u, ∂x/∂v = 0, ∂y/∂u = 0, ∂y/∂v = 1, so J = 2u and |J| = 2u. The correct integral is ∬ f(u², v) · 2u du dv. Omitting 2u gives the wrong answer even though f is correctly transformed."
 
-- question: "The Jacobian determinant of a coordinate transformation is always positive, since it represents an area scaling factor."
+- question: "The Jacobian determinant of a coordinate transformation is typically positive, since it represents an area scaling factor."
   type: true-false
   answer: false
   explanation: "The Jacobian determinant can be negative, which indicates that the transformation reverses orientation (like a reflection). This is why the change-of-variables formula uses |J|, the absolute value — we want the magnitude of area scaling regardless of orientation. A negative Jacobian is not an error; it just means the transformation flips the orientation of the coordinate system."

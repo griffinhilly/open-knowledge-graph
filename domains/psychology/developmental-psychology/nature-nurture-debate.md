@@ -67,7 +67,7 @@ Work through concrete examples: identical twins reared apart (high genetic simil
   answer: true
   explanation: "Heritability is population-specific and environment-specific. If a population is raised in highly variable environments (some with severe malnutrition, some with abundant food), environmental factors account for more variance in height, lowering heritability even with identical gene pools. Conversely, if everyone has near-identical environments, genetic differences explain most remaining variance. Heritability is a statistical property of a population in a context, not a fixed property of a trait."
 
-- question: "Because identical twins share 100% of their DNA, any differences between identical twins raised apart must be caused by the environment."
+- question: "Because identical twins share 100% of their DNA, any differences between identical twins raised apart should be caused by the environment."
   type: true-false
   answer: false
   explanation: "While environmental experiences do cause differences between identical twins raised apart, other non-environmental factors also contribute. Random developmental noise (stochastic variation in cell division, gene expression timing) creates biological differences even with identical DNA. Epigenetic changes that diverge over a lifetime — methylation patterns, gene expression changes in response to aging — are technically environmental in origin but are not simply caused by differences in upbringing. The logic 'identical DNA + different outcome = environment' is broadly correct but obscures finer-grained developmental mechanisms."

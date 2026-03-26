@@ -54,7 +54,7 @@ When a voltage source is applied to an RC circuit, the capacitor charges exponen
   answer: true
   explanation: "v_C(τ) = V(1 − e⁻¹) = V × 0.6321... ≈ 63.2% of V, always. The universality comes from the normalized form of the solution — the time constant τ = RC is the natural unit of time for any RC circuit, and after exactly one such unit, the exponent is −1 regardless of what the actual second-count is. This is why τ is so useful: a large RC circuit and a small RC circuit both reach 63% of their final voltage after exactly one of their respective time constants."
 
-- question: "Increasing only the capacitance in an RC circuit speeds up the transient response, since a larger capacitor stores more energy and charges faster."
+- question: "Increasing primarily the capacitance in an RC circuit speeds up the transient response, since a larger capacitor stores more energy and charges faster."
   type: true-false
   answer: false
   explanation: "Increasing C slows the transient — τ = RC increases proportionally. A larger capacitor requires more charge to reach the same voltage (Q = CV), and since the charging current is limited by R, it takes longer. Thinking of C as 'storing more energy' is not wrong, but it leads to the wrong intuition here: more storage capacity at the same charging rate means it takes longer to fill, not shorter. To speed up an RC circuit, you must decrease R, decrease C, or both."

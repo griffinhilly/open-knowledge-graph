@@ -58,7 +58,7 @@ Confusing Ksp with solubility in g/L; forgetting to include stoichiometric coeff
   answer: true
   explanation: "This is a critical point that students frequently miss. Ksp is a product of ion concentrations raised to stoichiometric powers. For AgCl, Ksp = s². For CaF₂, Ksp = 4s³. If both had Ksp = 1.0 × 10⁻¹⁰, AgCl would have s = 1.0 × 10⁻⁵ M while CaF₂ would have s ≈ 2.9 × 10⁻⁴ M — nearly 30 times more soluble. You cannot rank solubilities simply by comparing Ksp values across salts with different formulas; you must solve for s in each case."
 
-- question: "A salt with a smaller Ksp always has a lower molar solubility than a salt with a larger Ksp."
+- question: "A salt with a smaller Ksp generally has a lower molar solubility than a salt with a larger Ksp."
   type: true-false
   answer: false
   explanation: "This is false when the salts have different dissolution stoichiometries. The relationship between Ksp and molar solubility s depends on the formula: for MX (1:1), Ksp = s²; for MX₂ (1:2), Ksp = 4s³. A salt with formula MX₂ and Ksp = 1 × 10⁻¹⁰ has s ≈ 2.9 × 10⁻⁴ M, while a salt with formula MX and Ksp = 1 × 10⁻⁸ (a larger Ksp) has s = 1 × 10⁻⁴ M. The 1:2 salt is actually more soluble despite having the smaller Ksp. Direct Ksp comparison is only valid for salts with the same stoichiometry."

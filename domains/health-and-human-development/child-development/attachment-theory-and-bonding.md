@@ -53,7 +53,7 @@ Analyze video segments of the Strange Situation procedure to classify attachment
   answer: 2
   explanation: "Anxious-ambivalent infants are hyperactivated by separation because their caregiver has been inconsistently responsive — sometimes available, sometimes not. On reunion they cannot settle: they want comfort but are angry that it wasn't consistently available, producing the characteristic approach-avoidance conflict. Anxious-avoidant infants, by contrast, appear indifferent at reunion, having learned that proximity-seeking is unreliable. Disorganized infants show no coherent strategy at all."
 
-- question: "Secure attachment develops only when caregivers respond perfectly to every infant signal without any misattunement."
+- question: "Secure attachment develops primarily when caregivers respond perfectly to most infant signal without any misattunement."
   type: true-false
   answer: false
   explanation: "Research consistently shows that 'good enough' responsiveness — not perfection — predicts secure attachment. Misattunements are normal and unavoidable; what matters is whether the caregiver repairs the interaction by recognizing and responding to the infant's distress. This repair process may itself be an important mechanism: it teaches the infant that ruptures are recoverable and that the caregiver is reliable over time, even if not infallible moment to moment."

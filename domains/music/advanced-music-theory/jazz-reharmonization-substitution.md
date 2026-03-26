@@ -54,7 +54,7 @@ Reharmonization is not just about complexity. The best reharmonizations serve th
   answer: 1
   explanation: "Coltrane changes divide the octave into three equal major-third intervals (e.g., B major → G major → Eb major), with each tonal center approached by its own ii-V progression. Because major thirds divide the octave into exactly three equal parts, returning to the starting pitch closes the cycle. This creates rapid tonal movement while maintaining strong V-I resolutions — a dramatic intensification of harmonic rhythm that challenges both the improviser and the listener to follow three tonic areas in quick succession."
 
-- question: "A reharmonization that increases harmonic complexity always produces a more sophisticated musical result."
+- question: "A reharmonization that increases harmonic complexity typically produces a more sophisticated musical result."
   type: true-false
   answer: false
   explanation: "More complexity does not automatically improve a reharmonization. The best reharmonizations serve the melody and the specific musical moment — sometimes a simpler harmonic context makes the melody sing more clearly. Adding chord substitutions without considering whether they support or obscure the tune's character is precisely the mistake described in the common misconceptions for this topic. Sophistication in reharmonization means knowing when not to substitute as much as knowing when to."

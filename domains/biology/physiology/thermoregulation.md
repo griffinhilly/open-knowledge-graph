@@ -57,7 +57,7 @@ Draw both the heating and cooling responses as complete feedback loops, naming s
   answer: 2
   explanation: "NSAIDs block cyclooxygenase (COX) enzymes, preventing the conversion of arachidonic acid to prostaglandin E2 (PGE2). Without PGE2, the hypothalamic set point falls back toward 37°C. With a lower set point, the body 'perceives' itself as too warm at fever temperature and activates heat-dissipation (sweating, vasodilation) — the fever 'breaks.' NSAIDs do not directly cool the body or neutralize cytokines."
 
-- question: "Fever and hyperthermia are both caused by the same mechanism — a thermoregulatory system overwhelmed by excess heat — and differ only in severity."
+- question: "Fever and hyperthermia are both caused by the same mechanism — a thermoregulatory system overwhelmed by excess heat — and differ mainly in severity."
   type: true-false
   answer: false
   explanation: "They are mechanistically distinct. In fever, the hypothalamic set point is actively reset to a higher value by pyrogens — the body is working correctly to reach its new target. In hyperthermia (e.g., heat stroke), the set point remains normal but heat gain exceeds the system's ability to dissipate — a failure of capacity. This difference matters for treatment: antipyretics work for fever but not heat stroke."

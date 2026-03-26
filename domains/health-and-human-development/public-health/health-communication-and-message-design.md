@@ -51,7 +51,7 @@ Design a communication campaign for a specific public health goal in a specific 
   answer: 2
   explanation: "Messenger credibility is audience-specific, not universal. Clinical recommendations carry weight with patients who trust medical authority, but communities with documented historical reasons for distrust (medical exploitation, neglect, unethical research) may find the same message more credible from trusted community insiders. Evidence consistently shows that for vaccine-hesitant populations, peer educators and community health workers outperform institutional messengers. Providing scientific data without addressing trust (option A) typically fails because the credibility of the source determines reception."
 
-- question: "Loss-framed health messages ('If you don't get screened, you risk missing a treatable cancer') are more persuasive than gain-framed messages for all types of health behavior change."
+- question: "Loss-framed health messages ('If you don't get screened, you risk missing a treatable cancer') are more persuasive than gain-framed messages for most types of health behavior change."
   type: true-false
   answer: false
   explanation: "The relative effectiveness of loss vs. gain framing depends on the health behavior being promoted. Loss framing tends to work better for prevention and detection behaviors where inaction carries a clear, salient risk. Gain framing ('Screening gives you peace of mind and the best chance for early treatment') can outperform loss framing for detection behaviors in lower-anxiety populations. Neither framing dominates universally — formative research identifying the audience's existing risk perception determines which frame is most likely to be effective."

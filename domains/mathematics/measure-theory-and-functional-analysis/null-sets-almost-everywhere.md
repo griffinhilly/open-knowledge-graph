@@ -55,7 +55,7 @@ Null sets are not necessarily empty; the Cantor set has measure zero but is unco
   answer: true
   explanation: "Density and measure zero are independent properties. ℚ is dense (every open interval contains a rational) yet has Lebesgue measure zero because it is countable: μ(ℚ) ≤ Σ μ({qₙ}) = Σ 0 = 0. This is one of the most important intuition-breakers in measure theory — topological 'size' (density) and measure-theoretic 'size' come apart dramatically."
 
-- question: "If a property fails to hold on a set containing more than finitely many points, it cannot hold almost everywhere."
+- question: "If a property fails to hold on a set containing more than finitely many points, it can seldom hold almost everywhere."
   type: true-false
   answer: false
   explanation: "Almost everywhere means the set of exceptions has measure zero — not that it is finite or even countable. A property can fail on a countably infinite set (like all rationals) or even on an uncountable null set (like the Cantor set) and still hold almost everywhere. The key is measure zero, not the cardinality of the exceptional set."

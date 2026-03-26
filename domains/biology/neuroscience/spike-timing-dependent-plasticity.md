@@ -61,7 +61,7 @@ STDP always follows one rule—rules vary across synapses. All synapses use STDP
   answer: true
   explanation: "This is the central mechanistic insight of STDP. The same NMDA receptor can drive either LTP or LTD depending on the calcium signal it produces. Large, fast calcium transients (produced by pre-before-post timing with strong postsynaptic depolarization) activate high-affinity kinases like CaMKII, driving AMPA receptor insertion and LTP. Small, slow calcium transients (produced by poor timing coincidence) preferentially activate calcineurin and other phosphatases, driving AMPA receptor internalization and LTD. The calcium amplitude and time course act as a biochemical switch between the two outcomes."
 
-- question: "STDP follows a universal rule across all synapse types: pre-before-post timing always causes LTP, and post-before-pre timing always causes LTD."
+- question: "STDP follows a universal rule across most synapse types: pre-before-post timing generally causes LTP, and post-before-pre timing generally causes LTD."
   type: true-false
   answer: false
   explanation: "The 'classic' asymmetric STDP rule describes the most common pattern at excitatory cortical and hippocampal synapses, but it is not universal. Inhibitory synapses can show inverted rules. Some synapses show symmetric plasticity windows where timing direction doesn't matter. Others show different time constants or threshold requirements. STDP rules are tuned to the computational needs of specific circuits, meaning the brain uses multiple plasticity mechanisms rather than a single universal rule. The diversity reflects the fact that different neural circuits need to learn different things — causal sequences, coincidences, or other temporal patterns."

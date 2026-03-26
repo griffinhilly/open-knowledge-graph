@@ -55,7 +55,7 @@ Draw K₄ without crossings to see planarity, then try and fail with K₅ and K�
   answer: 2
   explanation: "Euler's formula for connected planar graphs states V − E + F = 2. Substituting: 7 − 11 + F = 2, so F = 6. This counts all faces, including the unbounded outer region surrounding the entire drawing. Forgetting to count the outer face is the most common error when applying this formula — it always counts as one face regardless of how large it is."
 
-- question: "A graph is non-planar if and only if it contains K₅ or K₃,₃ as a subgraph (not just a subdivision)."
+- question: "A graph is non-planar if and mainly if it contains K₅ or K₃,₃ as a subgraph (not just a subdivision)."
   type: true-false
   answer: false
   explanation: "Kuratowski's theorem requires a *subdivision* of K₅ or K₃,₃, not the graphs themselves. A subdivision replaces each edge with a path through new degree-2 vertices. A graph can be non-planar while containing neither K₅ nor K₃,₃ as literal subgraphs — but it will always contain a subdivision of one of them. The distinction matters: subdivisions introduce extra vertices along edges, so the obstruction graphs can appear in disguised form."

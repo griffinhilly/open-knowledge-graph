@@ -58,7 +58,7 @@ A non-chord tone is not a mistake—it is a compositional tool used intentionall
   answer: false
   explanation: "Both types occur on *weak* beats — this is a defining characteristic. Placing a non-chord tone on a strong beat creates a dissonance where the harmony is most exposed, which sounds like a mistake rather than smooth decoration. The weak-beat placement is what makes passing and neighbor tones ornamental: the ear hears them as connecting gestures between the chord tones on strong beats. A non-chord tone on a strong beat that then resolves is a different device (suspension or appoggiatura), not a passing or neighbor tone."
 
-- question: "A non-chord tone in a melody always indicates a harmonization error — the composer should have used a chord that makes the note consonant."
+- question: "A non-chord tone in a melody usually indicates a harmonization error — the composer should have used a chord that makes the note consonant."
   type: true-false
   answer: false
   explanation: "This is the core misconception the topic addresses: non-chord tones are intentional compositional tools, not errors. Passing tones and neighbor tones are used deliberately to create smooth, stepwise motion between chord tones — they are what makes melodies singable and flowing rather than arpeggiated and angular. Every tonal melody uses non-chord tones as decoration. The skill is using them correctly (on weak beats, moving by step, between chord tones) so they read as smooth decoration rather than unwanted dissonance."

@@ -63,7 +63,7 @@ Rehearse multiple times with progressively reduced notes. Aim to know the speech
   answer: 2
   explanation: "The extemporaneous method treats rigid, unchanging phrasing as a diagnostic signal: the speaker has fallen back on rote recall rather than generating language from genuine understanding. The expectation is that natural language arises easily from content mastery, so sections where wording varies freely across rehearsals are ready — while sections where the same phrases recur need deeper preparation of the material itself, not more memorization."
 
-- question: "Extemporaneous speaking requires less preparation than manuscript delivery, because the speaker does not need to write out every word."
+- question: "Extemporaneous speaking requires less preparation than manuscript delivery, because the speaker does not need to write out most word."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about extemporaneous speaking. The method actually requires more preparation: the speaker must internalize the full content and structure deeply enough that natural language can flow from any point in the outline without a written script. Manuscript delivery can lean on the written text as a crutch. Extemporaneous delivery requires the same coverage without that crutch — which demands more thorough preparation, not less."

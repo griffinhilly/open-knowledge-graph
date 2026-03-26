@@ -48,7 +48,7 @@ Sequential consistency guarantees that there exists a total order on all operati
   answer: 1
   explanation: "Sequential consistency only requires a total order that is consistent with each process's program order — the order operations appeared from each process's perspective. Linearizability adds a stricter constraint: the total order must also be consistent with real-time. If operation A completed before operation B began (in wall-clock time), then A must appear before B in the total order. This additional constraint makes linearizability stronger and more expensive to implement but provides the intuitive guarantee that completed operations are visible to later operations."
 
-- question: "Under sequential consistency, if process A's write completes before process B's read begins (measured in real time), process B is guaranteed to see the value written by A."
+- question: "Under sequential consistency, if process A's write completes before process B's read begins (measured in real time), process B is expected to see the value written by A."
   type: true-false
   answer: false
   explanation: "This guarantee is provided by linearizability, not sequential consistency. Sequential consistency only requires that a valid total ordering of all operations exists — one that preserves each process's program order. That total order can place B's read before A's write even if A's write completed first in real time. This is precisely the relaxation that makes sequential consistency weaker than linearizability and easier to implement: distributed systems can buffer, batch, and reorder operations across nodes without violating sequential consistency, as long as each individual node's operations stay in order."

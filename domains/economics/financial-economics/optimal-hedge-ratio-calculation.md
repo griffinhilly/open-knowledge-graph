@@ -48,7 +48,7 @@ The optimal hedge ratio minimizes the variance of a hedged position: h* = ρ(σ_
   answer: 0
   explanation: "Hedge effectiveness equals ρ², which is the R² from the regression of ΔS on ΔF. R² = 0.64 means the correlation is ρ = √0.64 = 0.80, and the hedge eliminates 64% of spot price variance. The remaining 36% is basis risk — the portion of spot price movement uncorrelated with futures — which cannot be eliminated regardless of the number of contracts held. R² values in the 0.6–0.8 range are common for cross-hedges and still represent meaningful risk reduction."
 
-- question: "A cross-hedge using crude oil futures to hedge jet fuel price exposure can eliminate all jet fuel price risk if enough futures contracts are held."
+- question: "A cross-hedge using crude oil futures to hedge jet fuel price exposure can eliminate most jet fuel price risk if enough futures contracts are held."
   type: true-false
   answer: false
   explanation: "No number of futures contracts eliminates all basis risk when the correlation ρ < 1. The minimum-variance hedge ratio is optimal — it reduces variance as much as the available instrument allows — but residual variance equal to (1 − ρ²) × Var(ΔS) remains. For a cross-hedge where two commodities are related but distinct, ρ < 1 always, so basis risk is unavoidable. The only way to eliminate all price risk is a perfect hedge: ρ = 1, matched maturity, and identical underlying."

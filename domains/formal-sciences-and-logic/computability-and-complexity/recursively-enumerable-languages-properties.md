@@ -52,7 +52,7 @@ The class RE of recursively enumerable languages is closed under union and inter
   answer: true
   explanation: "This is the characterization RE ∩ co-RE = decidable. If L is decidable, a machine that always halts witnesses both L and co-L as semi-decidable. Conversely, if both L and co-L are RE (say, semi-decided by M and M'), run both in parallel. Every input is in either L or co-L, so exactly one of M or M' will eventually accept. When one accepts, halt. This gives a decider. The argument crucially uses that one of them will halt — you just don't know which one will go first."
 
-- question: "Since RE is closed under both union and intersection, it follows by De Morgan's laws that RE must also be closed under complement."
+- question: "Since RE is closed under both union and intersection, it follows by De Morgan's laws that RE is expected to also be closed under complement."
   type: true-false
   answer: false
   explanation: "De Morgan's laws apply to sets but don't transfer computational closure properties. RE closure under union and intersection does not imply closure under complement because the complement of an RE language is not necessarily RE — it may be in co-RE but not RE itself. If RE were closed under complement, then every RE language would be decidable (run the RE machine and the co-RE machine in parallel; one will halt), which would mean RE = co-RE = decidable, contradicting the undecidability of the halting problem."

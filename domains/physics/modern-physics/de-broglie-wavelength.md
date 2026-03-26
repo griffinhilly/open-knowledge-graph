@@ -57,7 +57,7 @@ Calculate de Broglie wavelengths for electrons, protons, and a baseball to get a
   answer: 1
   explanation: "λ = h/(mv). The baseball's mass (~0.15 kg) is ~10²⁸ times greater than an electron's, so its momentum is ~10²⁸ times larger and its wavelength is ~10²⁸ times shorter — on the order of 10⁻³⁴ m, far smaller than any atomic nucleus. No physical obstacle or slit can produce diffraction at that scale. The de Broglie relation applies to ALL matter; quantum effects simply vanish at macroscopic scales because h is so small."
 
-- question: "A slower particle always has a shorter de Broglie wavelength than a faster particle of the same mass."
+- question: "A slower particle usually has a shorter de Broglie wavelength than a faster particle of the same mass."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about the de Broglie relation. λ = h/p = h/(mv): wavelength is *inversely* proportional to momentum. A slower particle has less momentum, so it has a *longer* wavelength, not shorter. The intuition fails because in everyday wave experience (e.g., sound), speed is tied to wavelength differently. For matter waves, slower means more wavelike (longer λ), which is why ultra-cold atoms — slowed to near absolute zero — exhibit dramatic quantum wave effects like Bose-Einstein condensation."

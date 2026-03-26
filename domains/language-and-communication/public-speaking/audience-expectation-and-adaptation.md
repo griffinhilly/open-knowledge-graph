@@ -52,7 +52,7 @@ Before giving a speech, list what the audience likely expects in terms of length
   answer: 2
   explanation: "Meeting expectations earns trust; stretching pleasantly surprises within the existing frame (more depth than expected, slightly warmer tone than expected). Subverting breaks the frame itself — the audience's mental template becomes wrong, and they must update it. Subversion carries higher reward (genuine impact, memorability) and higher risk (confusion, credibility damage if the purpose isn't clear). The key is that stretching works with the audience's expectations while subverting works against them, requiring the speaker to manage the disorientation intentionally."
 
-- question: "The safest and most effective strategy for public speakers is always to meet the audience's expectations precisely — any deviation from expectations reduces speaker credibility."
+- question: "The safest and most effective strategy for public speakers is typically to meet the audience's expectations precisely — any deviation from expectations reduces speaker credibility."
   type: true-false
   answer: false
   explanation: "Meeting expectations earns trust and reduces cognitive friction, but it is not always the most effective choice. Stretching expectations can increase engagement; subverting them can create memorable impact. The goal is deliberate choice: a speaker who always meets expectations produces forgettable, predictable speeches. Strategic violations of expectations — when signaled as intentional and ultimately coherent — can be more persuasive than perfectly conventional delivery. The common misconception is that expectation management is only about risk mitigation; in reality, strategic subversion is a positive rhetorical tool."

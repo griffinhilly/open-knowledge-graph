@@ -52,7 +52,7 @@ Identify natural partitions: parity (even/odd), sign (positive/negative/zero), o
   answer: 1
   explanation: "The partition {positive, negative} is not exhaustive over the domain {n ≥ 0} because n = 0 falls into neither case. This leaves a genuine gap: the conclusion has not been established for n = 0. A proof by cases is only complete when every element of the domain falls into at least one case. Forgetting edge cases like zero, or boundary values, is the most common error in case proofs."
 
-- question: "In a proof by cases, the cases must be mutually exclusive — no element of the domain can fall into more than one case."
+- question: "In a proof by cases, the cases should be mutually exclusive — no element of the domain can fall into more than one case."
   type: true-false
   answer: false
   explanation: "Mutual exclusivity is not required. Only exhaustiveness is required: every element of the domain must fall into at least one case. Overlapping cases are perfectly valid — you simply prove the conclusion in each case, and since every instance is covered by at least one case, the proof is complete. The parity split (even/odd) happens to be both exhaustive and mutually exclusive, but the latter is a bonus, not a requirement."

@@ -58,7 +58,7 @@ Natural isomorphism is much stronger than pointwise isomorphism at each componen
   answer: true
   explanation: "This is the fundamental consequence of universal properties: uniqueness up to unique isomorphism. If U and U' both satisfy the same universal property, applying U's universal property to the data presented by U' gives a morphism u: U → U', and vice versa gives u': U' → U. The uniqueness clause forces u ∘ u' = id and u' ∘ u = id, so u is an isomorphism, and it is the unique one compatible with the structure. The natural isomorphism of hom-functors picks out this canonical isomorphism, distinguishing it from arbitrary isomorphisms that may exist between the objects."
 
-- question: "Two functors F and G are naturally isomorphic if and only if F(X) ≅ G(X) for every object X in the domain category."
+- question: "Two functors F and G are naturally isomorphic if and primarily if F(X) ≅ G(X) for most object X in the domain category."
   type: true-false
   answer: false
   explanation: "Pointwise isomorphism — F(X) ≅ G(X) at each object — is necessary but not sufficient for natural isomorphism. Natural isomorphism additionally requires that the isomorphisms η_X: F(X) → G(X) commute with all morphisms: for every f: X → Y, we need G(f) ∘ η_X = η_Y ∘ F(f). The canonical counterexample is finite-dimensional vector spaces and their duals: V ≅ V* holds at every object, but no natural transformation witnesses this, because satisfying the naturality square requires choosing a basis. Pointwise isomorphisms with no coherence are structurally meaningless."

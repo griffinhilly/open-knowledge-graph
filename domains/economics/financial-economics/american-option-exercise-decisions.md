@@ -50,7 +50,7 @@ Use binomial trees to solve the optimal exercise boundary and compare American a
   answer: 1
   explanation: "For a deep in-the-money put (e.g., the right to sell at $50 when the stock is at $2), exercising now yields ~$48 that can earn interest. If that interest exceeds the remaining time value of keeping the put alive, early exercise is rational. This is the key asymmetry: puts face an interest-opportunity cost that can dominate their time value; calls don't, because exercising a call means paying the strike price and forgoing interest on those funds."
 
-- question: "An American call on a non-dividend-paying stock is always worth more than an otherwise identical European call because of the early exercise right."
+- question: "An American call on a non-dividend-paying stock is typically worth more than an otherwise identical European call because of the early exercise right."
   type: true-false
   answer: false
   explanation: "Because early exercise is never optimal for calls on non-dividend-paying stocks, the early exercise right has zero practical value. The American and European call are worth exactly the same in this case. The pricing premium for American options over European options only materializes for puts (where early exercise can be optimal) or for calls on dividend-paying stocks."

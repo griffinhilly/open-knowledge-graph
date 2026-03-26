@@ -58,7 +58,7 @@ Encourage students to use the 'counting up' strategy for problems where the numb
   answer: 1
   explanation: "The actual answer to 91 - 47 is 44, so the estimate of ~40 is accurate. The computed answer of 54 is 10 too high — a regrouping error. Estimation is a built-in check: when the computed result is far from the estimate, it flags an error before it becomes a wrong answer. The student should recompute, not discard the estimate."
 
-- question: "The standard borrowing algorithm is the most accurate subtraction method and should be used for every problem within 100."
+- question: "The standard borrowing algorithm is the most accurate subtraction method and should be used for most problem within 100."
   type: true-false
   answer: false
   explanation: "All correct strategies give the same accurate answer. The issue is efficiency, not accuracy. For problems like 83 - 78 where numbers are close, counting up takes 5 steps while borrowing takes many more. Fluent students select the strategy that fits the numbers: counting up for close numbers, the standard algorithm or subtract-tens-then-ones for larger differences. Using borrowing for every problem is like taking the longest route when a shortcut exists."

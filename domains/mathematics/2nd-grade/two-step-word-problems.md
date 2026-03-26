@@ -69,7 +69,7 @@ Teach students to underline key information and write a plan: 'First I will… t
   answer: true
   explanation: "This is the defining feature of a two-step problem. The two operations are chained: you use the result of step one as input for step two. In the playground example (45 students, 18 go inside, 12 come back out), you cannot compute the final count until you first know how many stayed when 18 left. That intermediate result (27) feeds directly into the second operation."
 
-- question: "If a word problem contains two numbers, it must be a two-step problem."
+- question: "If a word problem contains two numbers, it should be a two-step problem."
   type: true-false
   answer: false
   explanation: "The number of numbers in a problem does not determine whether it is one-step or two-step. A one-step problem like 'Maria has 45 stickers and gives 18 away — how many does she have?' contains two numbers but requires only one operation. What makes a problem two-step is that two separate operations are needed to find the answer, not how many numbers appear in the story."

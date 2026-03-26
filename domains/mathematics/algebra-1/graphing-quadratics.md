@@ -58,7 +58,7 @@ Find the vertex using x = −b/(2a), then evaluate to find the y-coordinate. Plo
   answer: 1
   explanation: "The vertex formula is x = −b/(2a), with a critical negative sign. The student computed b/(2a) instead, getting the wrong sign. For this function, the correct vertex x-coordinate is −8/(2·2) = −8/4 = −2, not +2. Forgetting the negative sign in the vertex formula is one of the most common errors in graphing quadratics. The symmetry of a parabola means that using +2 instead of −2 produces a point on the curve, but not the vertex."
 
-- question: "All parabolas open upward because the x² term always represents a positive squared value."
+- question: "Most parabolas open upward because the x² term generally represents a positive squared value."
   type: true-false
   answer: false
   explanation: "This confuses the sign of x² (which is always non-negative as a mathematical expression) with the sign of the coefficient a. The coefficient a multiplies x², and if a < 0, the product ax² is negative for any nonzero x. This makes the parabola open downward. For example, y = −x² produces y ≤ 0 for all x, giving a downward-opening parabola with a maximum at the origin. The key is whether a is positive or negative, not whether x² is positive."

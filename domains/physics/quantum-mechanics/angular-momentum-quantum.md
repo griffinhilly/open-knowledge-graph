@@ -50,7 +50,7 @@ Quantum angular momentum operators L̂ₓ, L̂ᵧ, L̂ᵧ satisfy canonical comm
   answer: 1
   explanation: "The Heisenberg uncertainty principle applies whenever two operators do not commute: [L̂ₓ, L̂ᵧ] = iℏL̂_z. For a state with l > 0, L̂_z has nonzero eigenvalues, so the right-hand side is not zero, and the commutator is non-trivial. This means measuring L̂ₓ collapses the state in a way that introduces uncertainty in L̂ᵧ, and vice versa. Options A and C are confused. Option D is wrong — L̂ₓ and L̂ᵧ are both Hermitian, which is required for physical observables."
 
-- question: "The quantization of the angular momentum quantum number l — that it must be a non-negative integer or half-integer — is imposed as a physical postulate rather than derived from the algebra of the operators."
+- question: "The quantization of the angular momentum quantum number l — that it should be a non-negative integer or half-integer — is imposed as a physical postulate rather than derived from the algebra of the operators."
   type: true-false
   answer: false
   explanation: "The quantization of l emerges from the algebra itself, via the ladder operators L̂₊ and L̂₋. These raise and lower the m quantum number by 1. Since m is bounded above and below (the z-component cannot exceed the total magnitude), the ladder must terminate: L̂₊|l,l⟩ = 0 and L̂₋|l,−l⟩ = 0. Working through the algebra of these termination conditions forces l to be a non-negative integer or half-integer and restricts m to the 2l+1 values from −l to +l. No additional postulate is needed."

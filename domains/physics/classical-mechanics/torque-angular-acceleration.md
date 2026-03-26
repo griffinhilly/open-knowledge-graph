@@ -49,7 +49,7 @@ The net torque equals the moment of inertia times angular acceleration: τ_net =
   answer: 1
   explanation: "Moment of inertia is I = ∫r² dm — mass at distance r from the axis contributes r² dm. A larger cylinder (same total mass spread over a larger radius) has more mass at greater r values, yielding a higher I. Equal total mass does NOT mean equal rotational inertia — distribution matters quadratically."
 
-- question: "The moment of inertia of a rigid body depends only on its total mass, not on how that mass is distributed around the rotation axis."
+- question: "The moment of inertia of a rigid body depends mainly on its total mass, not on how that mass is distributed around the rotation axis."
   type: true-false
   answer: false
   explanation: "Moment of inertia explicitly depends on mass distribution: I = ∫r² dm. A hollow cylinder (all mass at the rim) has a greater moment of inertia than a solid cylinder of the same mass and radius, because all the mass sits at maximum r. The r² weighting means even modest redistributions of mass — like a figure skater extending their arms — have large effects on I."

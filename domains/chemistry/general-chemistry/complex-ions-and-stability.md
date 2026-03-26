@@ -52,7 +52,7 @@ Complex ion stability is measured by the formation constant Kf. Higher Kf values
   answer: true
   explanation: "This follows from the standard rule for combining equilibrium constants: when successive reactions are summed to give an overall reaction, their equilibrium constants multiply. Each stepwise constant Ki describes one ligand addition: [MLᵢ]/([MLᵢ₋₁][L]). Summing all n steps to give M + nL ⇌ MLn produces an overall Kf = K₁ × K₂ × ⋯ × Kn. This is why Kf values for complexes with many ligands can reach astronomically large numbers — multiplying several successive stepwise constants compounds the effect even if each individual step is modest."
 
-- question: "A complex ion with a large Kf will be present in appreciable concentration only at high ligand concentrations, because most of the metal remains as the free aquo complex at lower ligand levels."
+- question: "A complex ion with a large Kf will be present in appreciable concentration mainly at high ligand concentrations, because most of the metal remains as the free aquo complex at lower ligand levels."
   type: true-false
   answer: false
   explanation: "This reverses the meaning of Kf. A large Kf means the equilibrium lies far toward the complex — at equilibrium, essentially all metal is complexed and very little remains as free ion, even at moderate ligand concentrations. For [Cu(NH₃)₄]²⁺ with Kf ≈ 10¹³, even modest NH₃ concentrations lock up virtually all Cu²⁺. A small Kf would indicate a weak complex requiring high ligand concentrations to form appreciably. Since Kf = [complex]/([free metal][ligand]ⁿ), a large Kf means a large numerator and tiny denominator at equilibrium."

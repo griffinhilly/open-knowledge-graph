@@ -55,7 +55,7 @@ Using histograms for categorical data (requires bar charts). Thinking the bin wi
   answer: true
   explanation: "The mean collapses a distribution to a single number and cannot reveal multimodality. If test scores cluster around 60 and again around 90, the mean might be around 75 — a value that represents nobody in either group. A histogram immediately reveals the two-group structure. This is why visualizing the full distribution, not just summary statistics, is essential before drawing conclusions from data."
 
-- question: "The height of a histogram bar always equals the number of observations in that bin, regardless of how the histogram is constructed."
+- question: "The height of a histogram bar typically equals the number of observations in that bin, regardless of how the histogram is constructed."
   type: true-false
   answer: false
   explanation: "Histogram bars can represent frequency (raw count), relative frequency (proportion), or frequency density (proportion divided by bin width). When all bins have equal width, height is proportional to count and the shapes look the same. But when bin widths vary, using raw count or relative frequency as bar height is misleading — a wider bin looks taller simply because it spans more of the number line. In this case, frequency density (so that bar area = proportion) is the correct representation. Always check the y-axis label before interpreting histogram bar heights."

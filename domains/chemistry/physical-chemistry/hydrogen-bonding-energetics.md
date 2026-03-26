@@ -43,7 +43,7 @@ Measure or calculate hydrogen bond strengths for water dimer, methanol-water, an
   answer: 1
   explanation: "Oxygen is far more electronegative than sulfur (3.44 vs 2.58 on the Pauling scale), creating a large δ+ on the hydrogen. This enables strong O–H···O hydrogen bonds (≈20 kJ/mol) between water molecules. H₂S can only form weak S–H···S contacts because sulfur's lower electronegativity makes the hydrogen much less positive. The high boiling point of water (100°C vs −60°C for H₂S) directly reflects the energy cost of breaking these hydrogen-bond networks."
 
-- question: "Any two molecules with an O–H bond and a lone pair on a nearby electronegative atom are always engaged in a significant hydrogen bond."
+- question: "Any two molecules with an O–H bond and a lone pair on a nearby electronegative atom are typically engaged in a significant hydrogen bond."
   type: true-false
   answer: false
   explanation: "Geometry matters enormously. A hydrogen bond requires a near-linear X–H···Y angle (ideally 170–180°) and a short H···Y distance (typically < 2.5 Å). Many O–H···O contacts found in crystal structures are too bent or too long to be energetically meaningful. A highly distorted geometry means poor orbital overlap and weak electrostatic alignment, reducing the interaction to something barely above van der Waals strength."

@@ -50,7 +50,7 @@ Lexical errors mean the entire file is unusable (often you can skip characters a
   answer: 1
   explanation: "The primary goal of error recovery is to give the programmer as much diagnostic information as possible in a single compilation. If the scanner halts on the first error, the programmer fixes it, recompiles, and discovers the next error — an expensive cycle. By recovering (e.g., skipping bad characters and resuming), the scanner produces enough valid tokens for the parser to continue, potentially surfacing many independent errors at once. Recovery does not fix errors or guarantee validity downstream — it just limits the blast radius of each individual error."
 
-- question: "A single lexical error in one part of a source file typically makes all tokens after it invalid and unusable by the parser."
+- question: "A single lexical error in one part of a source file typically makes most tokens after it invalid and unusable by the parser."
   type: true-false
   answer: false
   explanation: "Most lexical errors are local. A stray illegal character, an unterminated string, or a malformed number literal does not corrupt the rest of the file. Panic-mode recovery skips the offending character(s) and resumes scanning from the next plausible token boundary. The parser receives valid tokens for the surrounding code, even if a few are missing or replaced with error tokens. This locality is the key insight that makes error recovery worthwhile."

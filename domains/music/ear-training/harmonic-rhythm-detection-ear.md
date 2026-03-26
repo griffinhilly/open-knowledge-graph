@@ -58,7 +58,7 @@ Tap or conduct while listening, noting the exact moments when chord changes occu
   answer: true
   explanation: "In most tonal music, when a new chord begins, the bass moves to the root (or sometimes the third or fifth) of that chord. Tracking bass motion therefore gives you the timing of most harmonic changes even when no melodic accent marks them. It is not infallible — passing tones in the bass can move without a chord change — but it is far more reliable than waiting for melodic or rhythmic accents, which may coincide with or follow the actual harmonic event."
 
-- question: "A listener must identify the specific chord names (e.g., 'IV' or 'V7') at each change before they can accurately map the harmonic rhythm of a passage."
+- question: "A listener should identify the specific chord names (e.g., 'IV' or 'V7') at each change before they can accurately map the harmonic rhythm of a passage."
   type: true-false
   answer: false
   explanation: "Identifying chord names and detecting harmonic rhythm events are distinct skills that can be decoupled. You can accurately locate when chord changes occur — the harmonic rhythm map — by tracking bass motion and shifts in vertical quality, without yet naming the chords. This separation is practically valuable: tracking 'when does it change?' first, then analyzing 'what is the chord?' afterward, reduces cognitive overload and makes harmonic transcription more tractable."

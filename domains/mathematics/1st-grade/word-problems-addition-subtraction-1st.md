@@ -54,7 +54,7 @@ Word problems translate real situations into math. 'Maria has 5 apples. She gets
   answer: true
   explanation: "'How many fewer' compares two amounts and asks for the difference — that's subtraction. For example, 'Mia has 7 crayons. Jay has 4. How many fewer does Jay have?' → 7 − 4 = 3. Comparison phrases like 'how many fewer,' 'how many more,' and 'what is the difference' all call for subtraction, even when nothing is physically taken away."
 
-- question: "If you see the word 'more' in a word problem, you should always use addition."
+- question: "If you see the word 'more' in a word problem, you should usually use addition."
   type: true-false
   answer: false
   explanation: "'More' can appear in both addition and subtraction contexts. 'She got 3 more apples' signals addition (joining). But 'How many more apples does she have than him?' signals subtraction (comparing). Signal words are useful clues, but the reliable strategy is to read the whole situation and ask: is something being combined, or is something being taken away or compared? Signal words alone can mislead you."

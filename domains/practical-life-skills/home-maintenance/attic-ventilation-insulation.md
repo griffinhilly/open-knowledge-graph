@@ -55,7 +55,7 @@ Visit your attic with a flashlight and a ruler. Measure the depth of existing in
   answer: 2
   explanation: "A warm attic in winter is a diagnostic sign that insulation on the attic floor (the ceiling of the rooms below) is inadequate. Heat from the living space is escaping upward, raising the attic temperature — the opposite of what a well-insulated home produces. This wastes energy and creates dangerous conditions: in snowy climates, a warm roof surface melts snow unevenly; meltwater runs to the cold eaves, refreezes, and forms ice dams that force water under shingles. The desired state is a cold attic in winter, close to outdoor temperature."
 
-- question: "Adding more insulation to an attic always improves energy efficiency because a higher R-value always reduces heat loss more than it creates other problems."
+- question: "Adding more insulation to an attic usually improves energy efficiency because a higher R-value generally reduces heat loss more than it creates other problems."
   type: true-false
   answer: false
   explanation: "More insulation creates problems when it blocks soffit vents, disrupting the passive ventilation system. Insulation piled over soffit vents traps humid air that rises from the living space. Without ventilation to carry it away, this moisture condenses on cold roof sheathing, promoting mold, rot, and structural damage. The cost of repairing moisture damage far exceeds the savings from the marginal R-value gained. The correct approach is to use baffles that protect the ventilation channel while allowing insulation to extend to the eaves."

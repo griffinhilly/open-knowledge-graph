@@ -42,7 +42,7 @@ Viewing L²([0, 2π]) as a Hilbert space with orthonormal basis {e^(inx)}, Fouri
   answer: 1
   explanation: "The inner product ⟨f, g⟩ = (1/2π)∫fg̅dx on L² makes the complex exponentials {eⁱⁿˣ} an orthonormal basis, and the Fourier coefficient cₙ = ⟨f, eₙ⟩ is exactly the orthogonal projection of f onto eₙ. Parseval's theorem then says ∑|cₙ|² = ‖f‖² — the infinite-dimensional Pythagorean theorem — and completeness of the system guarantees L² convergence for all f ∈ L². L¹ lacks an inner product, so there's no natural notion of 'projection,' and Fourier series can fail to converge in L¹ norm. The Hilbert space structure of L² is what makes p = 2 so special."
 
-- question: "If f ∈ L²([0, 2π]) and ‖f − Sₙ(f)‖₂ → 0, then the Fourier partial sums Sₙ(f)(x) converge to f(x) for every x ∈ [0, 2π]."
+- question: "If f ∈ L²([0, 2π]) and ‖f − Sₙ(f)‖₂ → 0, then the Fourier partial sums Sₙ(f)(x) converge to f(x) for nearly every x ∈ [0, 2π]."
   type: true-false
   answer: false
   explanation: "L² norm convergence does not imply pointwise convergence at every x. L² functions are equivalence classes (defined up to sets of measure zero), so 'the value at x' isn't even well-defined. Pointwise convergence is a separate question that requires f to have additional regularity. Without further hypotheses, you can only conclude that the approximation is good 'on average' in the L² sense — the squared error integrates to zero — but the series may misbehave at particular points."

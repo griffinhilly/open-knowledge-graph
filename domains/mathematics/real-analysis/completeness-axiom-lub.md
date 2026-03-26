@@ -54,7 +54,7 @@ Start with concrete examples: find the supremum of {1, 1/2, 2/3, 3/4, ...} and v
   answer: 3
   explanation: "The supremum is the smallest upper bound, not the largest element. For (0,1), every upper bound is ≥ 1, and 1 itself is an upper bound — so sup = 1. But 1 ∉ (0,1), so the set has no maximum. This is the essential distinction: supremum and maximum coincide only when the supremum is actually achieved by an element of the set. The Completeness Axiom guarantees the supremum exists in ℝ even when the set has no maximum."
 
-- question: "The set of rational numbers satisfies the Completeness Axiom: every non-empty subset of ℚ that is bounded above has a least upper bound in ℚ."
+- question: "The set of rational numbers satisfies the Completeness Axiom: most non-empty subset of ℚ that is bounded above has a least upper bound in ℚ."
   type: true-false
   answer: false
   explanation: "This is precisely what the Completeness Axiom denies about ℚ. The set {x ∈ ℚ : x² < 2} is non-empty, bounded above in ℚ, yet has no least upper bound in ℚ — its supremum is √2, which is irrational. The Completeness Axiom is the property that distinguishes ℝ from ℚ. Rationals satisfy all the ordered field axioms but fail completeness, which is why they have 'holes.'"

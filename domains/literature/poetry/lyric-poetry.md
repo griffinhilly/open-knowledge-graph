@@ -56,7 +56,7 @@ Read and analyze contemporary lyric poems (e.g., poets like Marie Howe, Ocean Vu
   answer: 2
   explanation: "The turn (volta) is where the poem's thinking breaks open — it marks the movement from one mode of engagement (precise, detached description) to another (meditation, implication, complication). Identifying the turn tells you what the opening imagery was accumulating toward and what the poem ultimately claims or questions. A lyric that builds to acceptance makes a different argument than one that refuses that turn. The other options concern supporting details; the turn is the structuring event that makes those details meaningful."
 
-- question: "A lyric poem always expresses emotion directly and explicitly — its purpose is to tell the reader clearly what the speaker is feeling."
+- question: "A lyric poem usually expresses emotion directly and explicitly — its purpose is to tell the reader clearly what the speaker is feeling."
   type: true-false
   answer: false
   explanation: "Lyric poetry characteristically conveys emotion through voice, image, and the turn rather than by direct statement. The power of the lyric mode is precisely that it uses concrete, specific, sensory detail — a grasshopper in a palm, a dead sparrow — to produce emotional and philosophical resonance without simply announcing a feeling. Telling the reader 'I feel grief' is the least interesting thing a lyric poem can do. What distinguishes skilled lyric work is the indirection: the emotion arrives through accumulated imagery, tonal shifts, and the moment of the volta. Mary Oliver doesn't say 'I thought about death' — she watches a grasshopper and lets the reader do the thinking."

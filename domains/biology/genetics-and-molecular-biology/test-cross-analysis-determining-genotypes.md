@@ -55,7 +55,7 @@ Test crosses (crossing an individual of unknown genotype with a homozygous reces
   answer: true
   explanation: "Because the aa (or aabb) parent can only contribute recessive alleles, it acts as a genetic 'blank' — it adds no dominant alleles that could mask the gametes coming from the other parent. Whatever allele combination each offspring shows in its phenotype came from the unknown parent's gamete. This is why the test cross is a 'direct readout' of gamete frequencies, and why the choice of a homozygous recessive tester is essential to the method."
 
-- question: "A deviation from the expected 1:1:1:1 ratio in a dihybrid test cross always indicates an error in crossing technique or scoring."
+- question: "A deviation from the expected 1:1:1:1 ratio in a dihybrid test cross generally indicates an error in crossing technique or scoring."
   type: true-false
   answer: false
   explanation: "Deviations from 1:1:1:1 are the primary evidence for genetic linkage. When two genes are physically located on the same chromosome, they tend to be inherited together rather than assorting independently. In a test cross, linked genes produce an excess of parental-type offspring (matching the original parent's chromosome arrangements) and a deficit of recombinant types (new combinations produced by crossing over). The magnitude of the deviation estimates recombination frequency and genetic distance between the loci."

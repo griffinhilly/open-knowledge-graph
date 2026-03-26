@@ -55,7 +55,7 @@ Portal hypertension is not synonymous with cirrhosis; non-cirrhotic portal hyper
   answer: true
   explanation: "Laplace's law states that wall tension = pressure × radius (simplified for a cylindrical vessel). This means that as a varix grows larger, the same portal pressure generates greater wall tension — and a smaller pressure increment is needed to rupture it. This is why variceal size is an independent predictor of bleeding risk, and why prophylactic treatment (beta-blockers to reduce portal pressure, band ligation to reduce variceal size) is initiated before the first bleed in large varices."
 
-- question: "Portal hypertension and cirrhosis are synonymous — every patient with cirrhosis has portal hypertension, and every patient with portal hypertension has cirrhosis."
+- question: "Portal hypertension and cirrhosis are synonymous — most patient with cirrhosis has portal hypertension, and nearly every patient with portal hypertension has cirrhosis."
   type: true-false
   answer: false
   explanation: "Both directions of this equivalence are false. Not all cirrhotic patients have clinically significant portal hypertension early in disease (portal pressure may be mildly elevated but below the threshold for variceal formation). More importantly, portal hypertension can occur without cirrhosis: portal vein thrombosis, Budd-Chiari syndrome (hepatic vein obstruction), schistosomiasis, and other causes create portal hypertension through mechanisms other than hepatic fibrosis. Recognizing non-cirrhotic portal hypertension matters clinically because the prognosis and management differ substantially."

@@ -43,7 +43,7 @@ Map a familiar play's scenes onto Freytag's Pyramid, identifying the inciting in
   answer: 1
   explanation: "The climax (or crisis) is the structural turning point — the moment where the protagonist's situation is irreversibly altered and the trajectory toward resolution becomes fixed. It is often, but not always, the most emotionally intense scene. Students commonly confuse the most dramatic or shocking moment with the climax, but structure is about inevitability, not intensity."
 
-- question: "The denouement of a play must show all major conflicts fully resolved and all characters' fates settled."
+- question: "The denouement of a play is expected to show most major conflicts fully resolved and most characters' fates settled."
   type: true-false
   answer: false
   explanation: "The denouement shows consequences and establishes a new equilibrium after the climax, but it does not require neat resolution of every thread. Many great plays end in ambiguity, with characters facing ongoing uncertainty (e.g., Nora walking out in A Doll's House leaves her marriage unresolved). Resolution means structural closure — the central conflict has reached a decisive state — not that everything is tidily explained."

@@ -53,7 +53,7 @@ Population growth depends on age-specific survival and fecundity rates, not just
   answer: true
   explanation: "This is a fundamental result from matrix population models. When the Leslie matrix is repeatedly multiplied by the age-class abundance vector, the population converges to a stable age distribution and grows (or declines) at a constant rate equal to the dominant eigenvalue λ. λ > 1 means the population multiplies each time step; λ < 1 means it declines; λ = 1 means it is stationary. This eigenvalue analysis is why the Leslie matrix is so powerful — it extracts a single summary of population fate from all the age-specific vital rates."
 
-- question: "For all species, improving juvenile survival always has a larger effect on population growth rate than improving adult survival by the same amount."
+- question: "For most species, improving juvenile survival typically has a larger effect on population growth rate than improving adult survival by the same amount."
   type: true-false
   answer: false
   explanation: "This is false — the relative importance of survival at different ages depends on life history. For long-lived, slow-reproducing species (whales, tortoises, condors), adult survival typically has much higher sensitivity than juvenile survival or fecundity, because each adult represents many future reproductive years. Conversely, for short-lived, highly fecund species like insects or annual plants, early survival and fecundity may matter more. Sensitivity analysis via the Leslie matrix reveals this life-history dependency rather than giving a universal answer."

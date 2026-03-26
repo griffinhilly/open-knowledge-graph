@@ -51,7 +51,7 @@ A derivation is a sequence of rule applications producing a string from the star
   answer: true
   explanation: "The parse tree records which production rules were applied and how nonterminals relate to each other in the derivation — it does not record the order in which nonterminals were expanded. A leftmost derivation expands the leftmost nonterminal at each step; a rightmost derivation expands the rightmost. Both can produce representations of the same tree, just traversed in different orders. The tree is therefore a more fundamental object than the derivation sequence: it shows how the string is structured, not merely a particular order in which the structure was assembled."
 
-- question: "If a grammar is ambiguous, it is impossible to generate an unambiguous grammar for the same language."
+- question: "If a grammar is ambiguous, it is extremely difficult to generate an unambiguous grammar for the same language."
   type: true-false
   answer: false
   explanation: "Ambiguity is a property of the grammar, not always of the language. Many ambiguous grammars can be rewritten as unambiguous grammars that generate exactly the same set of strings. The standard approach for arithmetic expressions is to introduce separate nonterminals that encode precedence: a grammar with distinct rules for expressions, terms, and factors forces a unique parse tree for every valid string. Only languages that are *inherently ambiguous* — a specific, provable property — have no unambiguous grammar. Most practical programming language grammars fall into the rewritable category."

@@ -45,7 +45,7 @@ Treating proportions as rigid rules rather than average relationships that vary 
   answer: 1
   explanation: "The eyes sit at approximately the horizontal midpoint of the whole head — not the face, but the entire skull from crown to chin. Most beginners place the eyes too high, in the upper third, because the face (the part with features) occupies only the lower half of the head. Measuring from the crown down to find the true midpoint corrects this persistent error."
 
-- question: "Standard facial proportions, such as the rule that eyes sit at the head's midpoint, apply equally and accurately to all human faces regardless of age or ancestry."
+- question: "Standard facial proportions, such as the rule that eyes sit at the head's midpoint, apply equally and accurately to most human faces regardless of age or ancestry."
   type: true-false
   answer: false
   explanation: "Standard proportions describe statistical averages for adult faces, not universal laws. Children have proportionally larger craniums and smaller lower faces — a child's eyes sit noticeably above the midpoint. Different ancestral backgrounds produce characteristic variations in nose width, brow prominence, jaw shape, and eye spacing. Treating the standard framework as universal leads to portraits that look generically 'correct' but fail to capture individual or ethnic specificity."

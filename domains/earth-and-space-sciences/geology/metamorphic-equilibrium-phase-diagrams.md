@@ -59,7 +59,7 @@ Mineral assemblages in metamorphic rocks reflect equilibrium at specific pressur
   answer: 2
   explanation: "This is the critical caveat of metamorphic petrology: equilibrium is an idealization. Diamond is thermodynamically unstable at the surface (graphite has lower free energy), but the conversion requires breaking and reforming strong C-C bonds — a kinetically hindered process at low temperatures. Diamond persists as a metastable relic because the activation energy barrier is enormous. This is why identifying which minerals achieved equilibrium (and which are metastable relics) is the central interpretive skill, not just reading stability fields off a phase diagram."
 
-- question: "A metamorphic rock that equilibrated in the amphibolite facies will always display only amphibolite-facies mineral assemblages when examined at Earth's surface."
+- question: "A metamorphic rock that equilibrated in the amphibolite facies will generally display mainly amphibolite-facies mineral assemblages when examined at Earth's surface."
   type: true-false
   answer: false
   explanation: "Metamorphic minerals can be preserved metastably outside their stability fields during exhumation. As a rock is uplifted from depth, it passes through lower P-T conditions where its high-grade minerals are no longer thermodynamically stable. However, if temperature drops quickly enough that reaction kinetics are too slow, the original minerals survive as relics. This is why high-pressure minerals like eclogite assemblages and even ultra-high-pressure phases (coesite, diamond) are found in surface outcrops."

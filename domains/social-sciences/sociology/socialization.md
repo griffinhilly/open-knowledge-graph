@@ -40,7 +40,7 @@ Trace a single norm (e.g., gender expectations around clothing) across multiple 
   answer: 2
   explanation: "Peer groups are a classic agent of secondary socialization — they shape role-specific and context-specific behavior after the foundational primary socialization of early childhood (mainly family) has already occurred. The peer group is the agent; the process is secondary socialization because it refines identity in a particular social context rather than establishing core selfhood."
 
-- question: "Because socialization shapes an individual's values and behavior from a young age, it is impossible for a person to meaningfully resist or reinterpret the norms they were taught."
+- question: "Because socialization shapes an individual's values and behavior from a young age, it is impractical for a person to meaningfully resist or reinterpret the norms they were taught."
   type: true-false
   answer: false
   explanation: "Socialization is not deterministic. Individuals are active participants who negotiate, contest, and selectively internalize social norms. Sociologists document countless examples of resistance — subcultures, counter-movements, and individual deviance all demonstrate that socialization sets tendencies, not fixed outcomes. Goffman's work on self-presentation highlights how people strategically manage the scripts they have learned rather than simply enacting them."

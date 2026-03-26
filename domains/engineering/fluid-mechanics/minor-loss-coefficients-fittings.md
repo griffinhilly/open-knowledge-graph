@@ -47,7 +47,7 @@ Pipe fittings (elbows, tees, valves) and sudden expansions/contractions cause lo
   answer: 0
   explanation: "K is highly sensitive to valve position because closing a valve constricts the flow passage, causing jet-like flow through the gap, severe recirculation zones downstream, and turbulent energy dissipation. A gate valve at half-close can have K = 5–20, compared to K ≈ 0.1 when fully open — a 50–200× increase. A nearly-closed gate valve can easily become the dominant resistance in a piping system, making it effectively a throttle that the pump must overcome. This is why throttling with gate valves (as opposed to variable-speed pumps) is energetically wasteful."
 
-- question: "The term 'minor losses' refers to losses that are always smaller in magnitude than pipe friction (major) losses."
+- question: "The term 'minor losses' refers to losses that are typically smaller in magnitude than pipe friction (major) losses."
   type: true-false
   answer: false
   explanation: "The 'minor/major' distinction describes the nature of the loss — localized at a fitting versus distributed along a pipe — not its relative size. In short systems with many fittings, minor losses routinely exceed major losses and control pump selection. Long, straight pipelines (like water transmission mains) are the opposite case where fitting losses are genuinely small compared to distributed pipe friction. Engineers must always calculate both and sum them; assuming minor losses are negligible without checking leads to systematic pump undersizing."

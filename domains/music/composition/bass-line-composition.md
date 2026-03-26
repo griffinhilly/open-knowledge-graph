@@ -59,7 +59,7 @@ Write bass lines for a I–V–vi–IV progression using three different approac
   answer: 1
   explanation: "The walking bass is the clearest example of the dual role described in this topic: every note relates to the surrounding harmony (harmonic function), while the continuous stepwise motion and passing tones create an independent melodic line (melodic function). Option A is wrong because the bass never abandons harmonic function — passing tones and approach notes are chosen precisely for their harmonic relationship to the target chord. Option C describes a static bass, which is a different archetype."
 
-- question: "A bass line that plays root-position chords on every beat is the strongest possible approach because it gives listeners the clearest sense of the underlying harmony."
+- question: "A bass line that plays root-position chords on nearly every beat is the strongest possible approach because it gives listeners the clearest sense of the underlying harmony."
   type: true-false
   answer: false
   explanation: "Root-position bass is harmonically unambiguous but melodically inert — it treats the bass as a chord-placement mechanism rather than a melodic voice. The bass line has a second role: it must travel somewhere with its own melodic logic. A bass that never uses inversions, passing tones, or melodic contour sacrifices that voice-leading dimension entirely. Harmonic clarity is one value, but a well-composed bass line achieves harmonic clarity while also creating a compelling melodic shape."

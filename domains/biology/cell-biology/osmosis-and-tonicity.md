@@ -45,7 +45,7 @@ Start with simple solutions of known solute concentrations, predict water moveme
   answer: 1
   explanation: "A high-salt solution is hypertonic relative to the cell interior. The solute concentration outside exceeds that inside, so water moves by osmosis out of the cell toward the higher external solute concentration. This causes the cell to shrink and wrinkle (crenate). Lysis (option A) is the opposite scenario — it occurs in hypotonic solutions when water rushes into the cell."
 
-- question: "Two solutions with identical total solute concentrations always have identical tonicity effects on a cell."
+- question: "Two solutions with identical total solute concentrations usually have identical tonicity effects on a cell."
   type: true-false
   answer: false
   explanation: "Tonicity depends not only on solute concentration but also on membrane permeability to each solute. A solute that freely crosses the membrane (like urea) equilibrates across it and therefore does not sustain an osmotic gradient — it contributes nothing to effective tonicity. A solute that cannot cross (like NaCl in most contexts) maintains the gradient and drives net water movement. Two solutions with equal total solute concentrations can differ dramatically in tonicity if their solutes have different permeabilities."

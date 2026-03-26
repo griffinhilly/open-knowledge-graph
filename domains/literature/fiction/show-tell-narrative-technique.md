@@ -53,7 +53,7 @@ Always show, never tell—actually, successful fiction uses both. Telling can be
   answer: 2
   explanation: "The student misunderstands that telling prose can be a precise artistic choice. Flat, declarative telling after an emotionally charged event can be more powerful than effusive showing — the restraint creates shock through understatement. Reader distance is a dimension the writer adjusts deliberately; pulling back at a moment of extremity can produce a more devastating effect than dramatizing every sensation. The rule 'always show, never tell' fails to account for this strategic use of distance."
 
-- question: "Showing is always more emotionally effective than telling because it gives the reader direct access to the character's inner world."
+- question: "Showing is generally more emotionally effective than telling because it gives the reader direct access to the character's inner world."
   type: true-false
   answer: false
   explanation: "This is the core misconception the 'always show, never tell' rule produces. Telling can be more powerful than showing in specific contexts — particularly when understatement, irony, or controlled distance is the desired effect. A narrator who flatly states 'She left him' after a long tense scene may produce more emotional resonance than one who dramatizes the goodbye in full. The choice between showing and telling controls reader distance, and distance can be deployed for effect. Neither mode is inherently superior."

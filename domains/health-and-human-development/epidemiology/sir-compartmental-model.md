@@ -50,7 +50,7 @@ The SIR model divides a population into Susceptible, Infected, and Recovered com
   answer: true
   explanation: "The peak of I occurs when dI/dt = 0, which requires β(I/N)S − γI = 0, simplifying to S/N = γ/β = 1/R₀. At this exact moment — when the susceptible fraction first equals 1/R₀ — new infections precisely balance recoveries. After this point, susceptibles continue to be depleted, Rₑ stays below 1, and I declines. This is also the instant the herd immunity threshold is first crossed."
 
-- question: "In an SIR epidemic, the epidemic ends only when essentially all susceptibles have been infected — the final uninfected individuals are those who happened to avoid contact with any infectious person by chance."
+- question: "In an SIR epidemic, the epidemic ends mainly when essentially most susceptibles have been infected — the final uninfected individuals are those who happened to avoid contact with any infectious person by chance."
   type: true-false
   answer: false
   explanation: "The SIR model shows that a predictable fraction of susceptibles always escapes infection, determined by the final size equation: ln(S∞/S₀) = −R₀(1 − S∞/N). The epidemic self-extinguishes before reaching all susceptibles because the susceptible pool is depleted enough that Rₑ < 1, and the epidemic shrinks to zero before infecting everyone. The survivors are 'saved' by the depletion dynamics of the epidemic, not by chance avoidance — and the exact fraction is a deterministic function of R₀ alone."

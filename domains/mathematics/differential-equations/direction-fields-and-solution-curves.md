@@ -54,7 +54,7 @@ Start by plotting direction fields by hand for simple equations like dy/dx = x o
   answer: 1
   explanation: "Horizontal arrows mean the slope is zero at that height: f(3) = 0. This means y(x) = 3 is a constant solution (equilibrium) — if you start there, you stay there. But this does NOT mean all solutions are attracted to y = 3; stability depends on the signs of f(y) near y = 3, which you can read directly from the direction field."
 
-- question: "A direction field for y' = f(x, y) determines a single unique solution curve — the one that best fits all the arrows in the field."
+- question: "A direction field for y' = f(x, y) determines a single unique solution curve — the one that best fits most of the arrows in the field."
   type: true-false
   answer: false
   explanation: "A direction field represents an entire family of solutions — one through each point in the plane. The field specifies the slope at every point, so any different initial condition gives a different solution curve. You need an initial condition to select a single solution from the family. The field shows the structure of all solutions simultaneously, which is its geometric power."

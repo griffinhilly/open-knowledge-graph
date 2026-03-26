@@ -49,7 +49,7 @@ Eco argues that interpretation is a process of unlimited semiosis—every interp
   answer: 2
   explanation: "Eco uses the dictionary precisely as a model of semiosis: every definition is itself a sign requiring further interpretation. This is not a design failure — it is the structure of meaning. Signs do not bottom out at unmediated reality; they redirect to other signs. This is Peirce's interpretant chain, which Eco adapts. The correct response is not to despair about circularity but to recognize that meaning is relational and processual, not anchored in a fixed external referent."
 
-- question: "Eco's concept of unlimited semiosis implies that any interpretation of a text is as valid as any other, since meaning never reaches a stable conclusion."
+- question: "Eco's concept of unlimited semiosis implies that any interpretation of a text is as valid as any other, since meaning seldom reaches a stable conclusion."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of unlimited semiosis, and Eco explicitly rejects it. The fact that meaning is open-ended does not mean all readings are equally plausible. Eco argues that the intentio operis — what the text makes available based on its language, structure, genre conventions, and codes — constrains interpretation without closing it off. An interpretation that requires ignoring or contradicting the text's own structural signals is not freer reading; it is overinterpretation. Unlimited semiosis describes the open-ended process of meaning-making; it does not collapse the distinction between interpretation and overinterpretation."

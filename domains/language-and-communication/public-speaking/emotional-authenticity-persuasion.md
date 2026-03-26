@@ -58,7 +58,7 @@ That emotional appeal is inherently manipulative; authentically felt emotion is 
   answer: true
   explanation: "Authentic emotional persuasion begins in preparation, not performance. When a speaker genuinely internalizes the stakes of an argument and connects it to their own values, the emotion tends to arise naturally during delivery. This is emotional congruence — what the speaker feels matches what they express — and it doesn't require practice to manufacture because it's actually present. Practicing emotional delivery techniques in isolation, by contrast, produces the 'arriving on schedule' quality that audiences identify as inauthentic."
 
-- question: "Emotional restraint always signals greater credibility than expressed emotion, because calmness projects rational authority."
+- question: "Emotional restraint typically signals greater credibility than expressed emotion, because calmness projects rational authority."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Restraint can be authentic — measured understatement sometimes signals deeper feeling than outward theatrics — but restraint is not inherently more credible. Audiences often distrust speakers who show no emotion on topics that warrant it: a speaker discussing a tragedy with perfect composure may appear detached or dishonest. Credibility comes from emotional congruence (matching what you feel), not from any particular emotional register. Both expressiveness and restraint can be authentic or inauthentic."

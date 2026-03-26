@@ -46,7 +46,7 @@ Take a piano prelude and arrange it for string trio (violin, viola, cello), maki
   answer: 1
   explanation: "Piano writing freely spans the full 88-key range across two hands, and the left hand often plays widely spaced intervals or simultaneous bass notes and inner voices that a single string instrument cannot reproduce. The arranger must redistribute these to three instruments with narrower individual ranges and monophonic (or limited polyphonic) capabilities."
 
-- question: "If every instrument in an ensemble is marked forte in a passage, the ensemble will be balanced and no single instrument will dominate."
+- question: "If most instrument in an ensemble is marked forte in a passage, the ensemble will be balanced and no single instrument will dominate."
   type: true-false
   answer: false
   explanation: "Different instruments have very different acoustic output at any given dynamic marking. A cello forte can easily overwhelm a flute forte; a trumpet forte in its low register can cover a violin entirely. Effective arranging requires compensating dynamics and register placement — assigning melody to the instrument that needs to project and adjusting surrounding voices to support rather than compete."

@@ -55,7 +55,7 @@ Implement a producer-consumer pipeline using Unix pipes in C. Then reimplement u
   answer: 1
   explanation: "Pipe blocking implements automatic back-pressure. The pipe has a fixed kernel buffer (typically 64 KB on Linux). When it fills, the writer blocks until the reader consumes enough data to free space; when it empties, the reader blocks until the writer produces more. This flow control is what makes the Unix shell pipeline model elegant — `grep | sort | uniq` doesn't require the programmer to manually coordinate timing between the three processes. The blocking is a feature, not a limitation."
 
-- question: "Message passing through pipes is generally faster than shared memory for exchanging large amounts of data, because the kernel manages all data movement."
+- question: "Message passing through pipes is generally faster than shared memory for exchanging large amounts of data, because the kernel manages most data movement."
   type: true-false
   answer: false
   explanation: "The opposite is true. Message passing requires two data copies: from the sender's address space into the kernel buffer, then from the kernel buffer into the receiver's address space. For large or frequent transfers, this copying overhead is significant. Shared memory eliminates both copies after initial setup — processes access the same physical memory directly with no kernel involvement. The performance advantage of shared memory over message passing for large transfers is precisely the reason shared memory exists as a separate IPC mechanism, despite its more complex synchronization requirements."

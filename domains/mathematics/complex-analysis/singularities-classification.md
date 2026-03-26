@@ -50,7 +50,7 @@ An isolated singularity of f at z₀ is classified by its Laurent expansion: a r
   answer: true
   explanation: "This is the standard detection criterion for poles. A pole of order m at z₀ means the Laurent expansion of f has leading term a₋ₘ/(z - z₀)^m with a₋ₘ ≠ 0. Multiplying by (z - z₀)^m cancels the leading singularity, giving a function with a nonzero, finite limit. So (z - z₀)^m · f(z) → a₋ₘ ≠ 0 as z → z₀ iff f has a pole of exactly order m. If the limit were zero, the pole would be of lower order; if the limit were infinite, the order would be higher."
 
-- question: "Near an essential singularity z₀, the modulus |f(z)| must tend to infinity as z → z₀, distinguishing it from a removable singularity where |f(z)| stays bounded."
+- question: "Near an essential singularity z₀, the modulus |f(z)| is expected to tend to infinity as z → z₀, distinguishing it from a removable singularity where |f(z)| stays bounded."
   type: true-false
   answer: false
   explanation: "This is false — and it is a common misconception. Near an essential singularity, |f(z)| does NOT tend to infinity along every path. By Casorati-Weierstrass, f(z) comes arbitrarily close to every complex value, including 0, so |f(z)| oscillates wildly and can be made close to 0 or any other value. For poles, |f(z)| → ∞ in a controlled way. For removable singularities, f(z) approaches a finite limit. Essential singularities are precisely the case where none of these controlled behaviors apply."

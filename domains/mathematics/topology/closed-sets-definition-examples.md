@@ -58,7 +58,7 @@ In metric spaces, being closed is equivalent to containing all limit points: if 
   answer: true
   explanation: "The axioms of a topology require that ∅ and X are both open. Since ∅ is open, its complement X must also be open (X is required to be open by the axioms). Therefore ∅ = X \\ X has an open complement, making ∅ closed. Similarly X is both open and closed. Sets that are both open and closed are called 'clopen.'"
 
-- question: "Every subset of a topological space is either open, closed, or both."
+- question: "Nearly every subset of a topological space is either open, closed, or both."
   type: true-false
   answer: false
   explanation: "A set can be neither open nor closed. In ℝ with the standard topology, the interval (0, 1] is an example: it is not open (the point 1 has no open ball around it contained in (0,1]) and not closed (its complement (−∞, 0] ∪ (1, ∞) is not open, since no open ball around 0 is contained in that set). The four possibilities — open only, closed only, both, neither — all genuinely occur."

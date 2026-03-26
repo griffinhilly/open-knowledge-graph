@@ -64,7 +64,7 @@ Reconstruct Putnam's Twin Earth scenario in detail: Earth has H2O in lakes and o
   answer: true
   explanation: "This is the core claim of externalism, illustrated by the Twin Earth case. Oscar believes 'water is drinkable' and Twin-Oscar believes 'water is drinkable,' but their beliefs have different truth conditions: Oscar's is true iff H2O is drinkable; Twin-Oscar's is true iff XYZ is drinkable. The environmental differences — not any difference in internal states — account for the difference in content. Externalism thus breaks the assumption that mental content supervenes solely on internal physical states."
 
-- question: "Externalism about mental content implies that people cannot have privileged access to their own thoughts, since they may not know what their words actually refer to."
+- question: "Externalism about mental content implies that people can seldom have privileged access to their own thoughts, since they may not know what their words actually refer to."
   type: true-false
   answer: false
   explanation: "Externalists typically defend compatibility between externalism and privileged self-knowledge. Oscar knows he is thinking about water — he has direct access to the fact of his thought. He may not know the molecular structure of water (H2O), but that is knowledge about chemistry, not knowledge about his own mental state. The externalist separates knowing *that* you are thinking about water from knowing the complete nature of water's microstructure. Privileged access concerns the former; externalism concerns the latter. The two do not conflict."

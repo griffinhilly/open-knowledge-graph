@@ -56,7 +56,7 @@ Compare a Classical and Romantic symphony (e.g., Beethoven's Fifth with a Brahms
   answer: true
   explanation: "Correct. Chromaticism in the Romantic era served emotional ends: Wagner's sustained harmonic tension in Tristan und Isolde creates a feeling of yearning and irresolution that mirrors the opera's themes. Brahms uses unexpected modulations to heighten dramatic weight at structural climaxes. Harmonic expansion was a toolkit for expression, not innovation for its own sake. This follows directly from the Romantic philosophical principle that form and technique serve content."
 
-- question: "The Romantic era represented a clean break from Classical values, rejecting formal structures entirely in favor of pure emotional expression."
+- question: "The Romantic era represented a clean break from Classical values, rejecting formal structures mostly in favor of pure emotional expression."
   type: true-false
   answer: false
   explanation: "This overstates the break. Beethoven's middle period bridges Classical and Romantic. Brahms is often called 'the Classical Romantic' — he maintained rigorous formal architecture within deeply Romantic emotional language. The Romantic era challenged Classical constraints and bent them toward expressive ends, but many Romantic composers continued working with and within classical forms. The continuity was as important as the departure."

@@ -49,7 +49,7 @@ Study a simple ISA like MIPS or RISC-V. Encode a few instructions by hand into t
   answer: 0
   explanation: "The ISA is the contract between software and hardware — it defines what instructions exist, how they are encoded, and what they do. The microarchitecture is the internal engineering that fulfills that contract, and can vary enormously between implementations. For example, Intel and AMD both implement the x86 ISA using completely different internal designs."
 
-- question: "A RISC processor always executes programs faster than a CISC processor running the same task."
+- question: "A RISC processor typically executes programs faster than a CISC processor running the same task."
   type: true-false
   answer: false
   explanation: "RISC vs. CISC describes instruction set design philosophy, not performance. Modern CISC processors (like x86) translate complex instructions into micro-operations internally and use deep pipelines, out-of-order execution, and branch prediction to achieve high throughput. Whether RISC or CISC is faster depends heavily on the workload, compiler, and specific implementation — not the ISA philosophy alone."

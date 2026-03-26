@@ -48,7 +48,7 @@ Attention has limited capacity: we cannot process multiple streams of informatio
   answer: 1
   explanation: "Automaticity — not expanded capacity — is the mechanism. Well-practiced tasks migrate away from controlled, resource-demanding processing toward automatic processing that runs in parallel and requires little central bottleneck involvement. The capacity of the bottleneck itself does not grow; the demand placed on it by familiar tasks shrinks. This is why the dual-task ceiling is partly a function of skill level, not just fixed cognitive architecture."
 
-- question: "The attentional bottleneck is a fixed, early-stage filter that prevents all but one stream of sensory information from receiving any further processing."
+- question: "The attentional bottleneck is a fixed, early-stage filter that prevents most but one stream of sensory information from receiving any further processing."
   type: true-false
   answer: false
   explanation: "Broadbent's early-filter model proposed this, but evidence undermined it — the cocktail party effect (hearing your name across a noisy room) shows unattended information can receive at least partial semantic processing. Modern consensus places the bottleneck primarily at central response selection and decision stages, not at early sensory filtering. The bottleneck location is also not fixed: it varies with task demands, consistent with late-selection and capacity models."

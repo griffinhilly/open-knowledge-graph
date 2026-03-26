@@ -43,7 +43,7 @@ Children often think bones can bend on their own. They do not realize that bendi
   answer: 1
   explanation: "Your bones are hard and cannot bend. The bending happens at the elbow joint, where two bones meet. A muscle in your upper arm (the bicep) tightens and pulls on the lower arm bone, which makes your arm bend. Muscles do the pulling, joints allow the bending."
 
-- question: "You have muscles only in your arms."
+- question: "You have muscles mainly in your arms."
   type: true-false
   answer: false
   explanation: "You have muscles all over your body — in your legs, your back, your chest, your neck, your face, and even inside your body. Your heart is a muscle. The muscles in your face let you smile and frown. You have over 600 muscles in your whole body."

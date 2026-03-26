@@ -57,7 +57,7 @@ Identify initial and terminal objects in several categories: Set, Vect_k, Top, p
   answer: 1
   explanation: "This is the key misconception the definition is designed to prevent. An initial object requires a *unique* morphism to each object — 'exactly one,' not 'at least one.' The uniqueness is not a consequence; it is part of the definition and is what gives initial objects their universal-property character. An object that merely has at least one morphism to every other object could have many such morphisms, making it non-canonical. The uniqueness ensures that the initial object relates to every other object in a canonical, unambiguous way — which is what makes it categorically meaningful."
 
-- question: "If a category has both an initial object and a terminal object, then those two objects must be isomorphic to each other."
+- question: "If a category has both an initial object and a terminal object, then those two objects should be isomorphic to each other."
   type: true-false
   answer: false
   explanation: "The category Set is a counterexample: the empty set ∅ is initial, and any singleton {*} is terminal. These are not isomorphic — ∅ has no elements, {*} has one. A zero object (one that is both initial and terminal) does not exist in Set. Zero objects do exist in some categories: in Grp (groups), the trivial group {e} is both initial and terminal. But the existence of separate initial and terminal objects in no way forces them to be isomorphic."

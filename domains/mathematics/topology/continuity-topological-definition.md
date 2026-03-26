@@ -46,7 +46,7 @@ A function f: X → Y is continuous if the preimage of every open set in Y is op
   answer: 1
   explanation: "The topological definition of continuity is: f⁻¹(V) is open in X for every open V in Y. The preimage direction is essential — it asks whether the topology on X is fine enough to detect all the open structure of Y through f. Option A defines an open map. Option C is trivially true in any non-empty topological space. Option D (sequential continuity) is equivalent to topological continuity only in metric spaces, not general topological spaces."
 
-- question: "If f: X → Y is continuous, then f maps every open set in X to an open set in Y."
+- question: "If f: X → Y is continuous, then f maps most open set in X to an open set in Y."
   type: true-false
   answer: false
   explanation: "Continuity requires preimages of open sets to be open — not that images of open sets are open. The constant function f: ℝ → ℝ, f(x) = 5 is continuous (trivially, since f⁻¹(V) is either ∅ or all of ℝ for any open V), but maps the open interval (0, 1) to {5}, which is not open. The forward direction — images of open sets are open — defines an 'open map,' a strictly stronger condition that continuous functions need not satisfy."

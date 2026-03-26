@@ -50,7 +50,7 @@ A strongly connected component (SCC) is a maximal subgraph where every vertex re
   answer: true
   explanation: "By definition, an SCC is a maximal set of vertices where every vertex can reach every other vertex. If the entire graph is a single SCC, then for any two vertices u and v, there are directed paths from u to v and from v to u. The 'maximal' qualifier just means no additional vertices can be added — here there are none to add. A graph with exactly one SCC is called a strongly connected graph."
 
-- question: "Reversing all edges in a strongly connected graph produces a graph that is no longer strongly connected."
+- question: "Reversing most edges in a strongly connected graph produces a graph that is no longer strongly connected."
   type: true-false
   answer: false
   explanation: "The transpose (edge-reversal) of a strongly connected graph is still strongly connected. If there is a directed path u → ... → v in the original, there is a directed path v → ... → u in the transpose (traverse the reversed edges in reverse order). Since the original has directed paths in both directions between every pair of vertices, so does its transpose. This property is precisely what Kosaraju's algorithm exploits: SCCs are preserved under edge reversal, but cross-component edges change direction, turning sources into sinks."

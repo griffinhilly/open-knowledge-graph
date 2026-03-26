@@ -51,7 +51,7 @@ Monorhyme is the practice of using a single rhyme sound throughout an entire poe
   answer: true
   explanation: "True. The rhyme sound saturates every line-ending, so its phonetic character — whether the dominant vowel is open or closed, bright or dark, the consonants harsh or soft — permeates the whole poem. A poem written on an '-ight' rhyme (light, night, flight, white) will feel and sound different from one on an '-ound' rhyme (ground, wound, sound, around). The choice of dominant phoneme is as much a compositional decision as theme or form."
 
-- question: "Monorhyme is essentially an extreme version of AABB couplet rhyming — the same principle extended to all lines rather than alternating pairs."
+- question: "Monorhyme is essentially an extreme version of AABB couplet rhyming — the same principle extended to most lines rather than alternating pairs."
   type: true-false
   answer: false
   explanation: "False. The difference is not merely quantitative. In AABB, the rhyme sound resets every two lines; the repetition is localized. In monorhyme, the same sound accumulates across the entire poem, producing cumulative effects — hypnotic musicality, incantatory rhythm, a hammering insistence — that are qualitatively different from couplet rhyme. The sustained repetition can reinforce themes of obsession, ritual, or invocation in ways no couplet scheme can achieve. It is a different formal tool, not just 'more AABB.'"

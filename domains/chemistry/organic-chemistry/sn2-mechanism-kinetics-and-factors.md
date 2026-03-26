@@ -58,7 +58,7 @@ The SN2 reaction is a one-step bimolecular nucleophilic substitution occurring v
   answer: true
   explanation: "Polar protic solvents form hydrogen bonds with nucleophilic anions (Br⁻, CN⁻, N₃⁻), surrounding them in a solvent cage that ties up their electron pairs and dramatically reduces nucleophilicity. Polar aprotic solvents cannot hydrogen-bond with anions (no O–H or N–H bonds), leaving the nucleophile's electrons fully available for back-side attack. The million-fold rate enhancement observed for some reactions makes solvent choice one of the most powerful variables in SN2 chemistry."
 
-- question: "A stronger base is always a better nucleophile in SN2 reactions, because both properties measure the ability to donate an electron pair."
+- question: "A stronger base is generally a better nucleophile in SN2 reactions, because both properties measure the ability to donate an electron pair."
   type: true-false
   answer: false
   explanation: "Nucleophilicity (a kinetic property — how fast an electron pair attacks carbon) and basicity (a thermodynamic property — how strongly an electron pair bonds to a proton) frequently diverge. In protic solvents, large polarizable atoms like I⁻ and RS⁻ are excellent nucleophiles because their diffuse electron clouds are less tightly solvated, even though they are weaker bases than F⁻ or RO⁻. Fluoride is a strong base but a poor SN2 nucleophile in protic media. The two properties track together in aprotic solvents more closely, but the universal equation of basicity with nucleophilicity fails."

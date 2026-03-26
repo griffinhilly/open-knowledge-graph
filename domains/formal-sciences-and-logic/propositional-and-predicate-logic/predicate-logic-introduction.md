@@ -63,7 +63,7 @@ Thinking predicate logic is just different notation. Confusing when to use unive
   answer: true
   explanation: "This formula uses a universal quantifier ranging over a domain of objects — a feature predicate logic adds that propositional logic lacks entirely. In propositional logic, you can only have atomic propositions and truth-functional connectives. There is no mechanism to say 'for all objects x in the domain.' Predicate logic's ability to express universal and existential claims about entire domains is precisely what makes it strictly more expressive."
 
-- question: "Because predicate logic is undecidable, it is impossible to prove any theorem in first-order logic — all proofs must be carried out informally."
+- question: "Because predicate logic is undecidable, it is very difficult to prove any theorem in first-order logic — most proofs should be carried out informally."
   type: true-false
   answer: false
   explanation: "Undecidability means there is no algorithm that correctly decides validity for *all* first-order formulas. It does not mean proofs are impossible. For specific formulas, proofs can often be constructed (and verified mechanically). Proof assistants like Coq and Lean verify first-order proofs formally. Undecidability only means you can't write a program that halts on all inputs with a correct yes/no answer — you can still enumerate and check valid proofs, you just can't guarantee finding them for every formula."

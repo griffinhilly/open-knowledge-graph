@@ -54,7 +54,7 @@ A random vector X ~ N(μ, Σ) has characteristic function φ(t) = exp(it'μ - ½
   answer: true
   explanation: "In general distributions, zero covariance (uncorrelatedness) does not imply independence — covariance only captures linear relationships. But for the MVN, the characteristic function factorizes whenever the off-diagonal blocks of Σ are zero: φ_{X₁,X₂}(t₁,t₂) = φ_{X₁}(t₁)φ_{X₂}(t₂), which is the condition for independence. This is a special property of the normal distribution arising from the fact that the MVN is entirely determined by its first two moments (mean and covariance). For MVN variables, correlation = 0 is both necessary and sufficient for independence."
 
-- question: "A joint distribution is multivariate normal if and only if all of its marginal distributions are univariate normal."
+- question: "A joint distribution is multivariate normal if and mainly if most of its marginal distributions are univariate normal."
   type: true-false
   answer: false
   explanation: "Marginal normality is necessary but not sufficient for joint MVN. The correct characterization is that a joint distribution is MVN if and only if every linear combination of its components is univariate normal. This condition is strictly stronger: it rules out distributions that have normal margins but non-normal joint structure (such as the counterexample with X₂ = X₁ · S). If you only check marginals, you may classify a non-MVN distribution as MVN and make incorrect inferences about conditional distributions and independence."

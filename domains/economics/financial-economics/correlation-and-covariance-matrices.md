@@ -53,7 +53,7 @@ Correlations between asset returns determine diversification benefits. Low or ne
   answer: true
   explanation: "The covariance matrix Σ has asset variances on its diagonal (σᵢ²) and pairwise covariances off-diagonal (Cov(Rᵢ,Rⱼ)). Negative covariance means the assets tend to move in opposite directions — when one falls, the other tends to rise — which reduces overall portfolio variance. The correlation matrix standardizes these entries to [-1, +1], making the magnitude of co-movement easier to interpret across assets with different return scales."
 
-- question: "A well-diversified portfolio constructed using historical correlations will perform as predicted during a market crash because diversification reduces portfolio risk in all market conditions."
+- question: "A well-diversified portfolio constructed using historical correlations will perform as predicted during a market crash because diversification reduces portfolio risk in most market conditions."
   type: true-false
   answer: false
   explanation: "This is the central practical failure of naive mean-variance optimization. Historical correlations are estimated in one market regime (normal times) and can be wildly inaccurate during another (crisis). The correlation instability phenomenon — correlations spiking toward 1 during crashes — causes diversification benefits to evaporate exactly when they are most needed. A portfolio that looks well-hedged in calm markets can suffer simultaneous losses across all positions in a crisis. Robust portfolio construction must account for regime-dependent correlations and stress testing, not just historical averages."

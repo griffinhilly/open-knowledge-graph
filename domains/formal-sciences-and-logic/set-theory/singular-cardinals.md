@@ -60,7 +60,7 @@ Verify that ℵ₁, ℵ₂, and ℵ_{ω₁} are regular (their cofinality equals
   answer: true
   explanation: "A cardinal κ is regular when cf(κ) = κ. For ℵ₁: any collection of countably many cardinals each less than ℵ₁ (i.e., countable cardinals) has union at most countable. So no sequence of length ≤ ℵ₀ can be cofinal in ℵ₁, which means cf(ℵ₁) = ℵ₁ — it is regular. Every uncountable successor cardinal is regular in ZFC. Limit cardinals whose index has smaller cofinality, like ℵ_ω, are singular."
 
-- question: "Singular cardinals are rare and exotic: regular cardinals predominate in the hierarchy, and singular ones appear only at isolated points."
+- question: "Singular cardinals are rare and exotic: regular cardinals predominate in the hierarchy, and singular ones appear primarily at isolated points."
   type: true-false
   answer: false
   explanation: "Singular cardinals vastly outnumber regular ones by density. Every successor cardinal (ℵ₁, ℵ₂, ℵ₃, ...) is regular, but every limit cardinal whose index has smaller cofinality is singular: ℵ_ω, ℵ_{ω+ω}, ℵ_{ω²}, ℵ_{ω_ω}, and many others are all singular. The singular cardinals are densely packed throughout the hierarchy; the regular cardinals are the exceptions, not the rule."

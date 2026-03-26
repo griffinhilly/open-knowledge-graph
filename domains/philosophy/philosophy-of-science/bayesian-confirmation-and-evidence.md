@@ -54,7 +54,7 @@ Learn Bayes' theorem and apply it to simple scientific examples. Study how it ha
   answer: true
   explanation: "This is the Bayesian resolution of Hempel's ravens paradox. 'All ravens are black' is logically equivalent to 'All non-black things are non-ravens.' A green apple is a non-black non-raven, consistent with this equivalent statement. Bayes' theorem confirms this technically: a green apple very slightly raises P(all ravens are black) because it eliminates one non-black object from the sample space without revealing a non-black raven. The Bayesian response is that this confirmation is real but negligible — the sample space of non-black things is enormous, so each instance provides only infinitesimal update."
 
-- question: "Evidence confirms a hypothesis independently of competing hypotheses — the degree of confirmation depends only on the two-place relationship between E and H."
+- question: "Evidence confirms a hypothesis independently of competing hypotheses — the degree of confirmation depends mainly on the two-place relationship between E and H."
   type: true-false
   answer: false
   explanation: "Bayesian confirmation is inherently comparative. P(H|E) = P(E|H)P(H)/P(E), and P(E) = P(E|H)P(H) + P(E|¬H)P(¬H) — the denominator explicitly depends on how well alternatives to H also predict E. A hypothesis that uniquely predicts E gains massive confirmation when E is observed; a hypothesis that predicts E no better than its competitors gains almost none. Evidence is always evidence relative to alternatives: 'data confirms theory' is always implicitly a comparison."

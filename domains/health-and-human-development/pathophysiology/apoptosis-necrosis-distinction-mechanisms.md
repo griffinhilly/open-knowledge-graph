@@ -49,7 +49,7 @@ Apoptosis is programmed cell death initiated by caspase cascades, producing memb
   answer: 1
   explanation: "The intrinsic apoptotic pathway depends on mitochondrial outer membrane permeabilization — pro-apoptotic Bax forms pores, releasing cytochrome c, which assembles the apoptosome and activates caspase-9. Bcl-2 directly antagonizes Bax, maintaining mitochondrial membrane integrity and preventing cytochrome c release. When Bcl-2 is overexpressed, chemotherapy-induced cellular stress cannot trigger the cascade, and cells survive. This is why Bcl-2 inhibitors (like venetoclax) were developed as targeted anticancer agents."
 
-- question: "Necrosis is simply a more severe form of the same programmed cell death machinery as apoptosis, differing only in the degree of cellular stress applied."
+- question: "Necrosis is simply a more severe form of the same programmed cell death machinery as apoptosis, differing primarily in the degree of cellular stress applied."
   type: true-false
   answer: false
   explanation: "Necrosis and apoptosis are qualitatively different processes, not points on a severity spectrum. Apoptosis is an active, ATP-requiring program executed by caspase cascades that maintains membrane integrity and produces phagocytosable apoptotic bodies. Necrosis is passive collapse — it occurs when injury overwhelms the cell's homeostatic capacity, the plasma membrane ruptures, and intracellular contents spill out. Necrosis requires no caspase activation and cannot be blocked by caspase inhibitors. The distinction is mechanistic, not quantitative."

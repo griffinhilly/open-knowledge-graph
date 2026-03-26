@@ -45,7 +45,7 @@ Use a castle defense analogy: the skin is the outer wall, mucus and tears are th
   answer: 2
   explanation: "After fighting an infection, certain white blood cells called memory cells remain in the body. If the same germ enters again, these memory cells recognize it immediately and mount a rapid, powerful response — often destroying the germ before you even feel sick. This is called immunity, and it is the principle behind vaccines."
 
-- question: "Fever is caused by germs attacking the body and is always harmful."
+- question: "Fever is caused by germs attacking the body and is typically harmful."
   type: true-false
   answer: false
   explanation: "Fever is actually an immune response — the body deliberately raises its temperature to create an environment that is harder for many germs to survive in. A moderate fever is a sign that the immune system is fighting an infection. Only very high fevers (above 104°F / 40°C) are potentially dangerous and may need medical attention."

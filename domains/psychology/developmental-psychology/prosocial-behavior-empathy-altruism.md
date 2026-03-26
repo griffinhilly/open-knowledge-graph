@@ -55,7 +55,7 @@ Prosocial behavior is not innate altruism; it develops markedly through parental
   answer: 2
   explanation: "Induction's power is not primarily behaviorist — it is not just reward/punishment. By explicitly linking the child's action to another person's inner state ('your sister felt sad'), induction teaches the child to attend to others' emotions, which builds empathic capacity itself. This means induction is building the very motivational machinery that will generate prosocial behavior in new situations. Punishment tells a child what not to do; induction teaches them why, activating the empathic concern that makes future helping intrinsically motivated."
 
-- question: "Children cannot show genuine prosocial behavior until they pass false-belief tasks around age 4, because helping requires understanding what another person actually needs."
+- question: "Children can seldom show genuine prosocial behavior until they pass false-belief tasks around age 4, because helping requires understanding what another person actually needs."
   type: true-false
   answer: false
   explanation: "This is incorrect. Rudimentary prosocial behaviors appear in the second year of life — well before children pass false-belief tasks. An 18-month-old will retrieve a dropped object for a struggling adult; a 2-year-old may offer comfort to a crying child. This early helping is supported by global empathy — diffuse emotional resonance that does not require accurate perspective-taking. Theory of mind refines and targets prosocial behavior (helping becomes more precisely tailored to what the other person needs), but it is not a prerequisite for helping to begin."

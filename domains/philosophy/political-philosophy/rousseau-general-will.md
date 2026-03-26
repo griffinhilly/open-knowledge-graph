@@ -60,7 +60,7 @@ Read The Social Contract Books I–II. The key puzzle is how the general will ca
   answer: true
   explanation: "Rousseau is explicit that factions corrupt the deliberative process required for general will formation. When citizens join factions, their individual judgment becomes subordinated to sectional interest — they vote for what benefits their group, not what is good for all. Rousseau therefore preferred a form of direct democracy without formal parties, where each citizen independently tries to identify the common good. Whether this ideal is practically achievable is debated, but it accurately represents Rousseau's view."
 
-- question: "Rousseau's phrase 'forced to be free' means that any decision made by the majority represents a citizen's own will, and therefore compliance is always an expression of freedom rather than coercion."
+- question: "Rousseau's phrase 'forced to be free' means that any decision made by the majority represents a citizen's own will, and therefore compliance is typically an expression of freedom rather than coercion."
   type: true-false
   answer: false
   explanation: "This is a common misreading. 'Forced to be free' does NOT mean that majority decisions are automatically expressions of individual will. It means that compliance with the *general will* — what one would rationally will from the standpoint of equal citizenship — is compliance with one's own highest rational will, not coercion. But the majority can be wrong; a majority acting from private interest produces the will of all, not the general will. Rousseau's paradox only applies when the citizen is genuinely being compelled to act as their own rational self would dictate — not whenever any majority decides."

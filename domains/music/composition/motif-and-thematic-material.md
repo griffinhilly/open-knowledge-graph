@@ -47,7 +47,7 @@ A motif is a short, distinctive musical idea (melodic, rhythmic, or harmonic) th
   answer: 1
   explanation: "A motif should be short enough to fragment, rhythmically distinctive enough to remain recognizable when transformed, and harmonically flexible enough to function in multiple keys. A complete harmonized melody (options A and C) is a theme — too self-contained to develop further without essentially restating it. A chord sequence without melodic identity (option D) lacks the distinctive profile that makes a motif recognizable through transformations. Option B describes the properties that make a fragment maximally productive as compositional material."
 
-- question: "A motif and a theme are both short musical ideas, differing only in length."
+- question: "A motif and a theme are both short musical ideas, differing primarily in length."
   type: true-false
   answer: false
   explanation: "Length is a symptom of the difference, not the cause. A motif is defined by being a generative cell — incomplete, transformable, recognizable through manipulation. A theme is a self-contained musical statement with a beginning, middle, and end, complete enough to stand alone as a formal unit. Themes are often built from motifs. The distinction matters for compositional function: themes are presented, motifs are developed."

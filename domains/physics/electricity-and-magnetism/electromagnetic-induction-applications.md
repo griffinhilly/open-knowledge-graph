@@ -62,7 +62,7 @@ Derive the EMF output of a simple AC generator as a function of time, then use t
   answer: true
   explanation: "In both cases, a changing magnetic flux induces currents in a conductor, and those currents by Lenz's law create forces opposing the change that caused them. In electromagnetic braking this opposition is the desired effect — the retarding torque slows a spinning disk smoothly. In transformer cores the same opposition wastes energy as heat. Same physics, different engineering contexts: one is designed in, the other is designed out."
 
-- question: "An AC generator produces direct current (DC) because the coil always rotates in the same direction within the magnetic field."
+- question: "An AC generator produces direct current (DC) because the coil typically rotates in the same direction within the magnetic field."
   type: true-false
   answer: false
   explanation: "Rotating a coil in a fixed magnetic field produces a continuously reversing EMF: as the coil turns, the flux through it varies as Φ = NBAcos(ωt), giving EMF = NBAω sin(ωt) — a sinusoid that changes sign every half revolution. This is alternating current (AC). The fact that the coil rotates in one direction does not prevent the induced EMF from alternating; it is the changing angle between the coil and field that drives the oscillation."

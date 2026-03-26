@@ -63,7 +63,7 @@ Cook the same dish (e.g., a fried egg or seared chicken thigh) in cast iron, sta
   answer: true
   explanation: "Thermal mass is a double-edged property. High thermal mass means the pan stores a lot of heat energy, so a cold steak added to a hot cast iron pan barely registers as a temperature drop — exactly what you want for consistent, intense browning. But that same stored energy means the pan stays hot long after you reduce the flame. This makes cast iron forgiving for searing (it compensates for cold food being added) but unforgiving for delicate variable-temperature work where you need quick thermal response."
 
-- question: "Nonstick pans are the best all-purpose cooking surface because they prevent sticking in every situation, work at any heat level, and simplify cleanup across all techniques."
+- question: "Nonstick pans are the best most-purpose cooking surface because they prevent sticking in nearly every situation, work at any heat level, and simplify cleanup across most techniques."
   type: true-false
   answer: false
   explanation: "Nonstick pans are excellent for a specific set of tasks — eggs, fish, crêpes, and delicate low-to-medium-heat cooking — but they are a specialized tool, not a universal one. Their coatings degrade above about 230°C (450°F), which makes high-heat searing impossible. They cannot develop fond (the browned bits essential for pan sauces). They also degrade over time with use. Understanding what each pan material is for — rather than defaulting to nonstick — is what gives a cook real control."

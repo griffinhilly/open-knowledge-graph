@@ -60,7 +60,7 @@ Construct ray diagrams for object distances greater than, equal to, and less tha
   answer: true
   explanation: "This is what 'real' means in optics: reflected rays actually converge at the image location. A screen placed there displays a focused image because light physically arrives at that point. Real images form in front of a concave mirror — same side as the object and incoming light — not behind it. Virtual images, by contrast, form where rays only appear to diverge from; no screen can capture them."
 
-- question: "A concave mirror always produces a real image, regardless of where the object is placed."
+- question: "A concave mirror usually produces a real image, regardless of where the object is placed."
   type: true-false
   answer: false
   explanation: "A concave mirror produces a real image only when the object is placed beyond the focal point F. When the object is between F and the mirror surface, the reflected rays diverge and form a virtual, upright, magnified image behind the mirror. When the object is exactly at F, the reflected rays emerge parallel and no image forms at all. Object position relative to F completely determines whether the image is real or virtual."

@@ -57,7 +57,7 @@ Use physical examples: railroad tracks (parallel), the corner of a book (perpend
   answer: true
   explanation: "Parallelism is defined by lines never meeting and staying equidistant — orientation is irrelevant. Lines can be parallel at any angle: horizontal, vertical, or diagonal. Students who think parallel lines must be horizontal or vertical are confusing a specific common example with the general definition."
 
-- question: "All lines that intersect are perpendicular."
+- question: "Most lines that intersect are perpendicular."
   type: true-false
   answer: false
   explanation: "Intersection only means the lines cross. Two lines can cross at any angle — 30°, 45°, 60°, 80°, etc. Perpendicular is reserved for the specific case of a 90-degree intersection. The vast majority of intersecting line pairs are not perpendicular."

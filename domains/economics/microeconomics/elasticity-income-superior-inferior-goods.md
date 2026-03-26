@@ -43,7 +43,7 @@ Income elasticity of demand measures how quantity demanded responds to changes i
   answer: 2
   explanation: "Income elasticity = %ΔQ / %ΔY = 20%/10% = 2.0. Any income elasticity greater than 1 classifies a good as a luxury (or superior) good: demand rises more than proportionally with income. This is a subset of normal goods (positive elasticity), with the additional condition that elasticity exceeds 1. Inferior goods have negative elasticity; perfectly inelastic goods have elasticity of zero."
 
-- question: "An 'inferior good' is inferior because consumers dislike it — they buy it only when they cannot afford anything better."
+- question: "An 'inferior good' is inferior because consumers dislike it — they buy it mainly when they can seldom afford anything better."
   type: true-false
   answer: false
   explanation: "'Inferior' in economics is a technical term describing the income-demand relationship, not product quality or consumer preference. Bus rides and instant noodles are genuinely useful goods that consumers choose rationally given their budget. They are classified as inferior only because rising income leads consumers to substitute toward more preferred alternatives when they can afford to. The good doesn't change — the available options do. Confusing the economic classification with a quality judgment is the most common misconception about inferior goods."

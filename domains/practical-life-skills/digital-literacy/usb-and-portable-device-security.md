@@ -53,7 +53,7 @@ Encrypt a folder on a USB drive using your operating system's built-in tools (Bi
   answer: 1
   explanation: "File deletion removes the pointer (directory entry) that tells the OS where the file is stored, but the actual data bytes remain on the drive until overwritten by new data. Standard file-recovery tools can reconstruct deleted files from these remaining bytes. To truly erase sensitive data, you must securely wipe the drive (overwrite every sector with random data) or use full-drive encryption from the start — so that even recovered bytes are unreadable without the decryption key."
 
-- question: "Disabling the autorun feature on your operating system eliminates all security risks from plugging in an unknown USB drive."
+- question: "Disabling the autorun feature on your operating system eliminates most security risks from plugging in an unknown USB drive."
   type: true-false
   answer: false
   explanation: "Disabling autorun closes one specific attack vector — the automatic execution of malware when a drive is connected. But it does not eliminate all risks. A user can still manually browse and open malicious files on the drive. Some firmware-level USB attacks (e.g., BadUSB) do not rely on the file system or autorun at all — they make the drive impersonate a keyboard and type commands. Social engineering remains effective regardless of autorun settings. The only safe approach for unknown drives is not to plug them in at all."

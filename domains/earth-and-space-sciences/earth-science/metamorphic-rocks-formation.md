@@ -51,7 +51,7 @@ Show transformation sequences: shale → slate → schist → gneiss, with incre
   answer: "The mineral composition stays essentially the same (both are mainly calcium carbonate), but the texture changes. The small, dull grains of limestone recrystallize into larger, interlocking crystals, giving marble its smooth texture and ability to be polished. The chemical ingredients are the same, but heat and pressure reorganized them."
   explanation: "This example shows that metamorphism is about reorganization, not new ingredients. The calcium carbonate crystals in limestone grow larger and lock together more tightly under heat and pressure, producing the distinctive look and feel of marble."
 
-- question: "A rock must melt in order to become a metamorphic rock."
+- question: "A rock should melt in order to become a metamorphic rock."
   type: true-false
   answer: false
   explanation: "Metamorphism specifically means change without melting. Heat and pressure cause minerals to recrystallize and rearrange while the rock stays solid. If the rock melts, the process has crossed into igneous territory — the cooled result would be an igneous rock, not metamorphic."

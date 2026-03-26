@@ -44,7 +44,7 @@ Every finite abelian group is isomorphic to a direct product of cyclic groups. T
   answer: 1
   explanation: "When the elementary divisors are coprime — gcd(4, 3) = 1 — the direct product Z₄ × Z₃ is isomorphic to the cyclic group Z₁₂. Two finite abelian groups are isomorphic iff they have identical lists of elementary divisors; both Z₄ × Z₃ and Z₁₂ have elementary divisors {4, 3}. Option D is wrong: Z₁₂ has elements of every order dividing 12, including order 4 (the element 3), so the argument fails. The 'looks different' intuition is exactly what the classification theorem corrects by reducing the isomorphism question to comparing two lists of integers."
 
-- question: "Every abelian group of prime-power order p^n is cyclic, isomorphic to Z_{p^n}."
+- question: "Nearly every abelian group of prime-power order p^n is cyclic, isomorphic to Z_{p^n}."
   type: true-false
   answer: false
   explanation: "Cyclic is only one of the possibilities. For p² there are already two non-isomorphic abelian groups: Z_{p²} (cyclic) and Z_p × Z_p (non-cyclic — every non-identity element has order p). For p³ there are three. The Fundamental Theorem's power is enumerating all possibilities via partitions, not just the cyclic case. Assuming prime-power groups must be cyclic is the most common error when first applying the classification theorem."

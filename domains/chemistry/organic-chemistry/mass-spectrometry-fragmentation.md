@@ -44,7 +44,7 @@ Mass spectrometry ionizes molecules and measures mass/charge (m/z) of resulting 
   answer: 1
   explanation: "The McLafferty rearrangement produces an even-mass fragment from an even-mass molecular ion (both are even here, consistent with no nitrogen). It requires a carbonyl group with a hydrogen on the γ-carbon, proceeding through a six-membered cyclic transition state to expel a neutral alkene. The loss of propylene (42 = C₃H₆) is a classic McLafferty signature. α-Cleavage (option A) would produce an acylium ion at a different position, and water loss is only 18 mass units."
 
-- question: "The base peak in a mass spectrum always corresponds to the molecular ion, because the intact molecule is the most abundant species detected."
+- question: "The base peak in a mass spectrum usually corresponds to the molecular ion, because the intact molecule is the most abundant species detected."
   type: true-false
   answer: false
   explanation: "The base peak is the tallest peak (most abundant ion) in the spectrum, but it represents the most stable fragment — which is very often NOT the molecular ion. Many molecular ions are unstable and fragment before reaching the detector. Highly stable fragments like the tropylium cation (m/z = 91) or acylium ions can dominate the spectrum even though they have lower masses than M⁺. The molecular ion, when it appears, may be a relatively weak peak."

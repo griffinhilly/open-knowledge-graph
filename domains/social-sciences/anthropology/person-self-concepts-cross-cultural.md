@@ -47,7 +47,7 @@ Western individualism treats the person as a bounded, autonomous, self-contained
   answer: 1
   explanation: "This is the core insight of the dividual concept: exchange does not link already-formed persons — it makes persons. In this framework, a person is not a bounded container of relationships but a composite entity whose composition changes with every act of giving and receiving. This is not a metaphor Melanesians use to describe themselves; it is embedded in how kinship, marriage, and obligation actually work. Option A describes the Western individual model, where exchange is between pre-existing autonomous persons."
 
-- question: "The Western conception of the bounded individual — autonomous, self-contained, and separable from social relationships — represents a universal feature of human personhood across all societies."
+- question: "The Western conception of the bounded individual — autonomous, self-contained, and separable from social relationships — represents a universal feature of human personhood across most societies."
   type: true-false
   answer: false
   explanation: "Extensive anthropological evidence, from Melanesia (the dividual), South Asia (relational personhood tied to caste and dharma), and many other contexts, demonstrates that the bounded individual is a specific cultural model, not a human universal. It is so deeply embedded in Western institutions (law, medicine, psychology, economics) that it can appear natural, but that appearance is itself a cultural achievement. Recognizing its particularity is the key defamiliarizing insight of cross-cultural personhood research."

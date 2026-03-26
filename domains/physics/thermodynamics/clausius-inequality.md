@@ -55,7 +55,7 @@ Prove the Clausius inequality from the Carnot cycle and second law. Apply it to 
   answer: 2
   explanation: "The most tempting wrong answer is (a): entropy S does return to its initial value for any cycle (it is a state function), so ΔS_cycle = 0. But ∮(đQ/T) is NOT the same as ΔS — the equality dS = đQ/T holds only on reversible paths. For an irreversible cycle, ∮(đQ/T) < 0. The Clausius inequality says ∮(đQ/T) ≤ 0, with the zero applying only to fully reversible cycles."
 
-- question: "For any cyclic process, ∮(đQ/T) = 0, because entropy is a state function and must return to its initial value after a complete cycle."
+- question: "For any cyclic process, ∮(đQ/T) = 0, because entropy is a state function and should return to its initial value after a complete cycle."
   type: true-false
   answer: false
   explanation: "Entropy S is a state function, so ΔS = 0 for any cycle — that part is correct. But ∮(đQ/T) equals ΔS only along reversible paths. For irreversible cycles, ∮(đQ/T) < 0 (strictly negative), which is precisely the content of the Clausius inequality. Confusing ΔS_cycle = 0 with ∮(đQ/T) = 0 is the classic error here."

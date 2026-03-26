@@ -47,7 +47,7 @@ The microcanonical ensemble describes an isolated system with fixed energy E, vo
   answer: 1
   explanation: "The definition 1/T = (∂S/∂E) says temperature is derived from entropy, not the other way around. When you add a unit of energy to a cold system (low T, high ∂S/∂E), entropy increases a lot — the system has many new accessible states. When you add the same energy to a hot system (high T, low ∂S/∂E), entropy barely changes — the system was already exploring a vast number of states. This definition also explains heat flow: when two systems with different T are brought into contact, energy flows from high-T to low-T because doing so increases total entropy."
 
-- question: "The equal a priori probability postulate — that all accessible microstates are equally probable for an isolated equilibrium system — is derived from Newton's laws of mechanics."
+- question: "The equal a priori probability postulate — that most accessible microstates are equally probable for an isolated equilibrium system — is derived from Newton's laws of mechanics."
   type: true-false
   answer: false
   explanation: "The equal a priori probability postulate is a foundational assumption, not a derived result. It is justified by its extraordinary predictive success — the entire edifice of equilibrium statistical mechanics is built on it — but it cannot be rigorously derived from classical or quantum mechanics alone. Attempts to derive it from ergodic theory (that systems explore all accessible states over time) provide partial justification but not a complete proof. The postulate's status as a postulate rather than a theorem is important to recognize."

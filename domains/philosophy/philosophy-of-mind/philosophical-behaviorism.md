@@ -55,7 +55,7 @@ Read Ryle's The Concept of Mind, especially the chapter on 'Descartes' Myth.' Wo
   answer: 2
   explanation: "The super-spartan thought experiment is designed to pump the intuition that someone can be in pain even with no behavioral dispositions to show it. If pain just IS the disposition to wince, cry out, etc., then the super-spartan feels nothing — but that conclusion seems clearly wrong. The intuition is that pain has a felt, qualitative character that behavioral dispositions cannot capture. This is the qualia objection to behaviorism."
 
-- question: "Philosophical behaviorism claims that we can only know about other minds through behavioral evidence."
+- question: "Philosophical behaviorism claims that we can mainly know about other minds through behavioral evidence."
   type: true-false
   answer: false
   explanation: "This is a crucial distinction. Philosophical (logical) behaviorism makes a stronger, conceptual claim: mental states just are behavioral dispositions — not merely that we infer them from behavior. The claim is about what mental terms mean, not just our epistemic access. A view that says 'we can only know about minds through behavior' is epistemological. Behaviorism makes an ontological/semantic claim: pain isn't a hidden inner state that causes behavior; it IS the relevant set of dispositions."

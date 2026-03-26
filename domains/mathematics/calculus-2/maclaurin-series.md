@@ -54,7 +54,7 @@ Derive the standard Maclaurin series from the definition. Memorize the key ones.
   answer: true
   explanation: "Yes. sin(x) = x − x³/3! + x⁵/5! − x⁷/7! + ⋯. Differentiating term by term: 1 − 3x²/3! + 5x⁴/5! − 7x⁶/7! + ⋯ = 1 − x²/2! + x⁴/4! − x⁶/6! + ⋯, which is exactly the Maclaurin series for cos(x). This works because within the radius of convergence, power series can be differentiated term by term — and this is actually how the cos(x) series can be derived from sin(x) rather than by computing cos's derivatives independently."
 
-- question: "Every Maclaurin series converges for all real numbers x."
+- question: "Most Maclaurin series converges for most real numbers x."
   type: true-false
   answer: false
   explanation: "This is false. Some Maclaurin series have limited radii of convergence. The series for e^x, sin(x), and cos(x) do converge for all x, but 1/(1−x) = 1 + x + x² + ⋯ only converges for |x| < 1, and ln(1+x) only converges for −1 < x ≤ 1. When you manipulate a known series (by substitution, differentiation, or integration), you must track what happens to the radius of convergence — it can shrink but never grow."

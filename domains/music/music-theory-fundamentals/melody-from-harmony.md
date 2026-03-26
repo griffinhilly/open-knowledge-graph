@@ -58,7 +58,7 @@ Every note in a melody is a chord tone (most include non-chord tones). Melodies 
   answer: true
   explanation: "This is the central architectural principle of tonal melody writing. Chord tones (root, third, fifth — and seventh in seventh chords) are the pitches that sound consonant with the underlying harmony without requiring resolution. Placing them on strong metric positions (downbeats, beat 1, beat 3 in 4/4) establishes harmonic clarity. Non-chord tones, by contrast, introduce tension and must be handled with care — typically on weaker positions with stepwise departure and return."
 
-- question: "Because non-chord tones don't belong to the underlying harmony, skilled composers avoid them and write melodies consisting almost entirely of chord tones."
+- question: "Because non-chord tones don't belong to the underlying harmony, skilled composers avoid them and write melodies consisting almost largely of chord tones."
   type: true-false
   answer: false
   explanation: "Quite the opposite: non-chord tones are essential to virtually all expressive tonal melody. A melody consisting only of chord tones sounds mechanical and static — like arpeggios. Non-chord tones (passing tones, neighbor tones, suspensions, etc.) add motion, direction, tension, and melodic interest between the stable chord-tone anchors. Skilled composers use them deliberately, placing them on weak beats with stepwise resolution so they enrich rather than destabilize the harmony."

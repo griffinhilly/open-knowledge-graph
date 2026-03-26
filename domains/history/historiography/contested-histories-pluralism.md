@@ -49,7 +49,7 @@ Different groups tell fundamentally different histories of the same past—indig
   answer: true
   explanation: "This is the core claim of pluralism: not that facts are invented, but that the selection, framing, and evaluation of facts reflects the position of whoever is doing the historical work. A history of World War II written from the perspective of atomic bomb survivors organizes different facts, treats different sources as authoritative, and answers different questions than one written from the perspective of Allied military planners — not because either is lying, but because they are responding to different questions with different evidence and different stakes."
 
-- question: "A multiperspectival approach to contested histories aims to synthesize competing accounts into a single neutral narrative that transcends all particular perspectives."
+- question: "A multiperspectival approach to contested histories aims to synthesize competing accounts into a single neutral narrative that transcends most particular perspectives."
   type: true-false
   answer: false
   explanation: "A 'neutral synthesis' is itself a choice — and it typically defaults to the dominant perspective, since the frame, emphasis, and silences of the synthesis reflect someone's position. Multiperspectival history instead holds competing accounts in view simultaneously, asks why they diverge where they do, and uses that divergence to illuminate the power relations and documentation practices that shaped what was preserved. The goal is not to transcend perspective but to understand what each perspective reveals and conceals."

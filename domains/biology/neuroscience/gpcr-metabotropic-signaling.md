@@ -61,7 +61,7 @@ All neurotransmitter effects are fast and direct—GPCRs enable neuromodulation.
   answer: false
   explanation: "False. The slowness of GPCR signaling is not a binding-site limitation but a consequence of the intracellular signaling cascade. Neurotransmitter binding to the GPCR is fast; what takes time is the sequential activation of the G-protein (GDP-GTP exchange), the diffusion of active Gα and Gβγ to their effectors, the production of second messengers (cAMP, IP₃), the activation of protein kinases (PKA, PKC), and the phosphorylation of downstream targets. Each step introduces delay but also provides amplification: one activated receptor can activate many G-proteins, each activating many effector molecules. The slow timescale is intrinsic to the cascade architecture."
 
-- question: "The Gβγ dimer released when a G-protein activates is functionally inert — it serves only to facilitate G-protein assembly and is not itself a signaling molecule."
+- question: "The Gβγ dimer released when a G-protein activates is functionally inert — it serves primarily to facilitate G-protein assembly and is not itself a signaling molecule."
   type: true-false
   answer: false
   explanation: "False. Gβγ was long considered a passive scaffold, but it is now recognized as an active signaling module. Gβγ directly gates G-protein-activated inwardly rectifying potassium channels (GIRKs), hyperpolarizing neurons and reducing excitability. It also modulates voltage-gated calcium channels, inhibiting neurotransmitter release at presynaptic terminals. These are direct, fast-acting ion channel effects distinct from the Gα-mediated second messenger pathways. The Gβγ dimer thus provides an additional layer of combinatorial output from GPCR activation."

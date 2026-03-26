@@ -44,7 +44,7 @@ Build a branching hierarchy diagram from the top: nervous system → CNS/PNS →
   answer: 2
   explanation: "These are classic 'fight-or-flight' responses driven by the sympathetic branch of the autonomic nervous system. The sympathetic system mobilizes the body's resources for action: increasing heart rate, dilating pupils to improve vision, and shunting blood to muscles. The parasympathetic branch produces opposite effects (slowed heart rate, constriction of pupils) under 'rest-and-digest' conditions."
 
-- question: "The sympathetic nervous system is only active during emergencies and fight-or-flight situations."
+- question: "The sympathetic nervous system is mainly active during emergencies and fight-or-flight situations."
   type: true-false
   answer: false
   explanation: "This is a common misconception. The sympathetic nervous system provides tonic (continuous baseline) regulation of many functions including blood pressure, body temperature, and vascular tone — even when you are sitting still. It is not an on/off emergency switch; rather, both sympathetic and parasympathetic branches are always active, with their relative balance shifting depending on the body's needs."

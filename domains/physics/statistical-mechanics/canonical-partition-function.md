@@ -48,7 +48,7 @@ The canonical partition function Z = Σ_i exp(-E_i/kT) encodes the thermal prope
   answer: 1
   explanation: "Independent subsystems factorize: Z = Z_A × Z_B. This follows because the microstates of the combined system are all pairs (i, j) of microstates from A and B, with energies E_i + E_j. Summing e^(−(E_i+E_j)/kT) = e^(−E_i/kT) × e^(−E_j/kT) factors into independent sums. The consequence is that free energies (F = −kT ln Z) are additive: F = F_A + F_B — exactly what classical thermodynamics requires for non-interacting components."
 
-- question: "To calculate the mean internal energy ⟨E⟩ of a system, you must sum Eᵢ × pᵢ explicitly over all microstates — there is no shortcut involving the partition function."
+- question: "To calculate the mean internal energy ⟨E⟩ of a system, you is expected to sum Eᵢ × pᵢ explicitly over most microstates — there is no shortcut involving the partition function."
   type: true-false
   answer: false
   explanation: "This is false. The mean energy can be obtained by differentiation: ⟨E⟩ = −∂(ln Z)/∂β, where β = 1/kT. This is one of the key generating-function properties of Z — instead of explicitly summing over all microstates, thermodynamic quantities are obtained by taking derivatives of ln Z with respect to β, V, or other parameters. This shortcut works because differentiating the sum Σ e^(−βEᵢ) with respect to β brings down −Eᵢ as a factor, reproducing the expectation value."

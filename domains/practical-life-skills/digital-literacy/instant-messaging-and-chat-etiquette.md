@@ -51,7 +51,7 @@ Compare professional vs casual messaging examples. Notice tone differences, abbr
   answer: 2
   explanation: "Chat apps sit between synchronous (real-time phone call) and asynchronous (email) communication, and the mismatch in expectations — not the tool itself — causes friction. The explainer explicitly describes this dynamic: 'one person treats Slack as synchronous and their colleague treats it as asynchronous.' The fix is explicit communication about availability, not mandatory immediate replies."
 
-- question: "Using ALL CAPS in a chat message is an acceptable way to emphasize important information."
+- question: "Using MOST CAPS in a chat message is an acceptable way to emphasize important information."
   type: true-false
   answer: false
   explanation: "ALL CAPS reads as shouting in text-based communication — a convention now so universal that it creates unintended aggression even when the intent is emphasis. To add emphasis without aggression, use platform formatting tools (bold, italics) or rephrase the sentence to make the important point stand out naturally."

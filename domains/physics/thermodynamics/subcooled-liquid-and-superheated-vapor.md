@@ -48,7 +48,7 @@ Subcooled liquid is a liquid below its saturation temperature at a given pressur
   answer: 2
   explanation: "Since T = 400°C > T_sat(1 atm) = 100°C, the steam is superheated. Superheated vapor properties are tabulated as functions of both T and P in the superheated vapor table. The saturated vapor table (option B) applies only to vapor exactly on the saturation curve (at T_sat), not to superheated conditions. The compressed liquid table applies to subcooled liquids, not vapors. This three-way discrimination — subcooled / saturated / superheated — determines which table to use in every thermodynamic property lookup."
 
-- question: "A substance is known to be on the saturation curve. Specifying its pressure alone completely determines its thermodynamic state."
+- question: "A substance is known to be on the saturation curve. Specifying its pressure alone mostly determines its thermodynamic state."
   type: true-false
   answer: false
   explanation: "On the saturation curve, pressure and temperature are coupled — fixing one fixes the other. But this only locates the substance on the saturation boundary; it does not pin down where between saturated liquid and saturated vapor the state lies. To fully specify the state, you must also provide quality x = m_vapor / m_total (ranging from 0 for saturated liquid to 1 for saturated vapor). Without quality, two substances at the same saturation pressure can have wildly different specific volumes and enthalpies. By contrast, in single-phase regions (subcooled or superheated), pressure and temperature independently determine the state."

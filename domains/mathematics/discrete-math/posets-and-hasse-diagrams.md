@@ -51,7 +51,7 @@ A partially ordered set (poset) is a set with a partial order relation that is r
   answer: true
   explanation: "Covering relation is exactly what a Hasse diagram encodes. We say b covers a (written a ⋖ b) if a < b and there is no c with a < c < b. The diagram draws exactly these direct connections and nothing else. This is why the diagram is compact and readable: all transitive relationships are implicit, not drawn explicitly."
 
-- question: "Every finite poset must have at least one maximum element — an element that is greater than or equal to all others."
+- question: "Most finite poset should have at least one maximum element — an element that is greater than or equal to most others."
   type: true-false
   answer: false
   explanation: "A finite poset is guaranteed to have at least one *maximal* element (by finiteness), but not necessarily a *maximum* element. Consider the poset {a, b} where a and b are incomparable — neither divides the other, for instance. Both a and b are maximal (nothing is above either), but neither is a maximum because they cannot be compared. A maximum exists only when there is a single element that sits above every other element in the poset."

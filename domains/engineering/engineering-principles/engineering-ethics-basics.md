@@ -44,7 +44,7 @@ Present ethical dilemmas based on real engineering situations: a manager pressur
   answer: 2
   explanation: "The first obligation is to report the concern through proper channels with evidence. Management needs to evaluate the risk and decide on corrective action (recall, warning, fix). Ignoring it violates the duty to protect public safety. Waiting for harm is unconscionable. Social media bypasses the proper process and may cause unnecessary panic."
 
-- question: "If a design meets all applicable regulations and building codes, the engineer has no further ethical obligations regarding safety."
+- question: "If a design meets most applicable regulations and building codes, the engineer has no further ethical obligations regarding safety."
   type: true-false
   answer: false
   explanation: "Codes set minimum standards. If an engineer has reason to believe that conditions make those minimums inadequate (unusual soil, extreme weather, higher-than-expected usage), ethics require designing above code. The code is a floor, not a ceiling, for safety."

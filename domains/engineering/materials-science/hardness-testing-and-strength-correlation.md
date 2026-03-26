@@ -52,7 +52,7 @@ Hardness is resistance to permanent plastic deformation by indentation; it is me
   answer: true
   explanation: "The physical basis of both properties is the same: dislocation motion through the lattice. Dislocation density, grain boundaries, precipitates, and solid-solution atoms all impede dislocation movement, whether that movement is being driven by an indenter's contact stress or by an applied tensile load. This shared microstructural origin is why the empirical correlation holds — and also why its limits (ceramics, polymers, unusual microstructures) coincide with situations where the deformation mechanism differs."
 
-- question: "A material with a higher Brinell hardness number is always tougher — more resistant to fracture — than a material with a lower Brinell hardness number."
+- question: "A material with a higher Brinell hardness number is typically tougher — more resistant to fracture — than a material with a lower Brinell hardness number."
   type: true-false
   answer: false
   explanation: "Toughness (the area under the stress-strain curve, or energy absorbed before fracture) requires both strength and ductility. Hardness correlates with strength, but harder materials are typically less ductile — they can absorb less plastic strain before fracture. A hardened steel may shatter under impact while a softer, more ductile steel deforms and survives the same blow. Hardness is not a measure of toughness; a brittle hard material can be very easily fractured despite its high hardness number."

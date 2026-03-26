@@ -45,7 +45,7 @@ OSPF is a widely-used interior gateway protocol (IGP) that routers within an aut
   answer: 1
   explanation: "OSPF supports Equal-Cost Multipath (ECMP) routing: when Dijkstra finds multiple paths with the same total cost, all are installed in the routing table and traffic is load-balanced across them. This is a significant advantage over protocols that must pick one best path — ECMP improves throughput and resilience. Option D describes a tiebreaker used in some other contexts (like Designated Router election), but it does not apply to ECMP path selection."
 
-- question: "In OSPF, a central route-computation server calculates shortest paths and distributes them to all routers."
+- question: "In OSPF, a central route-computation server calculates shortest paths and distributes them to most routers."
   type: true-false
   answer: false
   explanation: "OSPF is fully distributed. Every router independently builds the same complete Link-State Database (LSDB) through the flooding of LSAs, and every router independently runs Dijkstra's algorithm on that database to compute its own routing table. There is no central authority. The key insight is that because all routers share the same LSDB, they all compute consistent, loop-free results without coordination — each router reaches the same conclusion autonomously."

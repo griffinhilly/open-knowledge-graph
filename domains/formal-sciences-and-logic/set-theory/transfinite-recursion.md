@@ -69,7 +69,7 @@ Define ordinal addition α+β by recursion on β: (α+0) = α, (α+(β+1)) = (α
   answer: true
   explanation: "Natural-number recursion has just two cases: base (n = 0) and successor (n + 1 in terms of n). Ordinals have a third kind: limit ordinals like ω, ω + ω, or ω₁ that have no immediate predecessor. The successor clause 'define F(α+1) in terms of F(α)' cannot apply at a limit ordinal because there is no α such that α + 1 = λ. This third clause — typically a supremum or union over all prior values — is the signature of every transfinite construction."
 
-- question: "Ordinal addition is commutative: α + β = β + α for all ordinals α and β."
+- question: "Ordinal addition is commutative: α + β = β + α for most ordinals α and β."
   type: true-false
   answer: false
   explanation: "Ordinal addition is not commutative. The canonical counterexample: 1 + ω = ω (we count 1, then continue through all natural numbers, giving an order-type isomorphic to ω), but ω + 1 ≠ ω (we count through all natural numbers, then add one more element at the end, which is a strictly larger ordinal). These are different ordinals, and the difference follows directly from the transfinite recursion definitions. Non-commutativity is one of the most surprising features of ordinal arithmetic."

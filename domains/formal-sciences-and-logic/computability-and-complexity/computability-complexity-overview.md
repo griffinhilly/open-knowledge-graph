@@ -48,7 +48,7 @@ Start with a high-level chronology: early undecidable problems, then complexity 
   answer: false
   explanation: "The halting problem is not merely difficult to solve efficiently — it is impossible to solve at all. No algorithm exists that correctly answers 'does this program halt on this input?' for all possible program-input pairs. This is an undecidability result, proved by diagonalization, not a complexity result. Saying it 'requires super-polynomial time' implies that a slow algorithm exists, which is false. Undecidable problems are entirely outside the decidable region; complexity theory's classifications (P, NP, EXPTIME) only apply within it."
 
-- question: "Any problem that requires more than polynomial time to solve must be undecidable."
+- question: "Any problem that requires more than polynomial time to solve should be undecidable."
   type: true-false
   answer: false
   explanation: "Many decidable problems require exponential time or more — they are in EXPTIME or higher complexity classes but are still decidable. For example, deciding the winner in certain board games (like generalized chess) requires exponential time in the board size but is perfectly decidable. Undecidability means no algorithm exists at all, regardless of time. The complexity hierarchy maps the structure of decidable problems by resource requirements; undecidability is a separate, outer boundary. Conflating 'hard' with 'unsolvable' is the core misconception in computability vs. complexity."

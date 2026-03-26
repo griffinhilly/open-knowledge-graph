@@ -57,7 +57,7 @@ Alliteration repeats initial consonant sounds across words, creating acoustic te
   answer: true
   explanation: "Phonaesthesia (or sound symbolism) is precisely the alignment between sound quality and semantic content. Hard stops (/k/, /t/, /p/) create percussive, emphatic effects; fricatives (/s/, /f/, /sh/) produce smoother, more sinuous or hissing qualities; liquids (/l/, /r/) feel flowing. When a poet uses /f/ alliteration in a passage about fury, or /m/ sounds in a passage about warmth and fullness (as Keats does in 'mists and mellow fruitfulness'), the sound reinforces the meaning. Identifying this alignment is the first step in strong alliteration analysis."
 
-- question: "Alliteration always functions to reinforce and amplify the meaning of the words it connects — when a reader notices a tension between the sound and the meaning, this indicates a flaw in the poem's technique."
+- question: "Alliteration usually functions to reinforce and amplify the meaning of the words it connects — when a reader notices a tension between the sound and the meaning, this indicates a flaw in the poem's technique."
   type: true-false
   answer: false
   explanation: "Alliteration can work against meaning to create irony, and this is not a flaw but a deliberate effect. When sound contradicts semantic content — say, gentle /l/ sounds in a violent passage, or aggressive /k/ sounds in a tender one — the tension itself carries expressive weight. Strong analysis asks whether alliteration reinforces, counterpoints, or ironically frames the semantic content. Assuming sound always serves meaning is the same error as assuming all literary devices operate straightforwardly. The relationship between sound and sense is an interpretive question."

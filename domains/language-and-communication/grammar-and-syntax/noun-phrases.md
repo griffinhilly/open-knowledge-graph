@@ -45,7 +45,7 @@ Bracket noun phrases in real sentences, starting with simple examples ("the dog"
   answer: 2
   explanation: "The full noun phrase includes the determiner 'The,' the adjective 'exhausted,' the head noun 'runner,' and the prepositional phrase 'near the finish line,' which modifies the noun. You can confirm it is one unit by replacing the whole string with a pronoun: 'She collapsed.'"
 
-- question: "Every noun that appears in a sentence is the head of its own independent noun phrase."
+- question: "Nearly every noun that appears in a sentence is the head of its own independent noun phrase."
   type: true-false
   answer: false
   explanation: "This is a key misconception. Nouns inside prepositional phrases (e.g., 'finish line' in 'near the finish line') or relative clauses are parts of a larger noun phrase, not independent NPs. Only the head noun of the outermost phrase anchors an independent noun phrase in the sentence."

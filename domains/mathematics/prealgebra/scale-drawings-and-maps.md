@@ -60,7 +60,7 @@ Have students create scale drawings of their classroom or bedroom. Use maps to c
   answer: true
   explanation: "At 1:50,000, every 1 cm on the map represents 50,000 cm = 500 m = 0.5 km in reality. So 3 cm represents 3 × 0.5 = 1.5 km. This is correct. The proportion is straightforward: 1 cm → 0.5 km, so multiply both sides of the ratio by 3."
 
-- question: "If a scale drawing is enlarged by a factor of 3 (all lengths become 3 times as long), the total area of the drawing also becomes 3 times as large."
+- question: "If a scale drawing is enlarged by a factor of 3 (most lengths become 3 times as long), the total area of the drawing also becomes 3 times as large."
   type: true-false
   answer: false
   explanation: "When lengths scale by a factor of 3, area scales by 3² = 9. A rectangle that is 2 × 4 has area 8; scaled up by 3, it becomes 6 × 12 = area 72 — nine times larger, not three times. Area is length × length, so the scale factor applies twice. Students commonly assume area scales linearly with lengths, but the exponent changes for different dimensions: lengths scale by k, areas by k², volumes by k³."

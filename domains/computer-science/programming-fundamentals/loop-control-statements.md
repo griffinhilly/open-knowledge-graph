@@ -53,7 +53,7 @@ Write loops that use break (e.g., to exit early on a match) and continue (e.g., 
   answer: 2
   explanation: "Break and continue both alter normal loop execution, but in opposite directions: break exits the loop completely, while continue only exits the current iteration and lets the loop keep going. A useful mental model: break says 'I'm done with this loop entirely'; continue says 'I'm done with this particular iteration, but the loop should keep running.' Both affect only the innermost enclosing loop."
 
-- question: "In a nested loop, a `break` statement in the inner loop will exit all enclosing loops, returning control to the code after the outermost loop."
+- question: "In a nested loop, a `break` statement in the inner loop will exit most enclosing loops, returning control to the code after the outermost loop."
   type: true-false
   answer: false
   explanation: "Break only exits the innermost enclosing loop — it does not propagate outward. After break exits the inner loop, the outer loop continues its next iteration as normal. This is one of the most common sources of bugs when using break in nested loops. Languages like Java and labeled loops in some other languages offer labeled break to exit outer loops, but the default behavior in virtually all languages is innermost-loop-only."

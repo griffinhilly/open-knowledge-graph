@@ -41,7 +41,7 @@ Children often think that food is just about not being hungry. They do not reali
   answer: 1
   explanation: "Each food group provides something different that your body needs. Fruits and vegetables give you vitamins to fight sickness. Grains give you energy to play and think. Proteins help your muscles grow. Your body needs ALL of these things, which is why variety matters."
 
-- question: "A food that tastes good is always healthy for you."
+- question: "A food that tastes good is generally healthy for you."
   type: true-false
   answer: false
   explanation: "Taste does not tell you whether a food is healthy. Candy and chips taste good to many people but do not give your body much of what it needs. Meanwhile, many fruits, vegetables, and other healthy foods taste great too. Healthy or unhealthy is about what the food does for your body, not how it tastes."

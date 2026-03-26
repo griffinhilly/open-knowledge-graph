@@ -66,7 +66,7 @@ Plan a week of meals for a fixed budget (e.g., $50) and shop for it, comparing u
   answer: 1
   explanation: "Bulk buying only saves money when you consume everything before it spoils. Here, the shopper paid for 5 kg but only used 3 kg. Their effective cost is $8 ÷ 3 kg = $2.67/kg — more expensive than the 1 kg bag they were trying to beat. This is the central caveat to bulk buying: the unit price advantage is real only if you fully use the quantity purchased. Spoilage transforms a seeming savings into an overpayment. The honest accounting question is always: how much of this will I actually use?"
 
-- question: "Fresh vegetables are almost always more nutritious than frozen vegetables because fresh produce is unprocessed and closer to its natural state."
+- question: "Fresh vegetables are almost typically more nutritious than frozen vegetables because fresh produce is unprocessed and closer to its natural state."
   type: true-false
   answer: false
   explanation: "This is a widespread misconception that steers budget shoppers away from an excellent option. Frozen vegetables are flash-frozen shortly after harvest, at peak ripeness, which locks in nutrients very effectively. Fresh produce, by contrast, may spend days in transit and on store shelves, during which time vitamins degrade — particularly water-soluble vitamins like C and B vitamins. In many cases, frozen vegetables retain more nutrients than 'fresh' produce that has traveled long distances. Frozen vegetables are also cheaper, consistently available year-round, and produce no waste. They are not a nutritional compromise — they are a legitimate and often superior alternative."

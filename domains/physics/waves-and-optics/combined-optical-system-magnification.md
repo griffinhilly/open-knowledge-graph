@@ -56,7 +56,7 @@ Magnification and resolution are separate properties—high magnification withou
   answer: true
   explanation: "The objective forms a real, inverted, magnified intermediate image inside the microscope tube. The eyepiece then acts as a simple magnifier of this intermediate image — it produces a virtual, enlarged image but does not re-invert it. The observer therefore sees an image that is inverted relative to the original specimen. This is why moving a microscope slide to the left causes the observed image to move right — a common surprise for new users."
 
-- question: "Increasing the magnification of a microscope objective always increases the amount of fine detail visible in the final image."
+- question: "Increasing the magnification of a microscope objective generally increases the amount of fine detail visible in the final image."
   type: true-false
   answer: false
   explanation: "Resolution — the ability to distinguish fine detail — depends on numerical aperture (NA = n sin θ), not on magnification. Magnification determines how large an already-resolved feature appears; it cannot reveal detail below the resolution limit. A very high magnification objective with low NA produces empty magnification: the diffraction-limited blur is simply displayed at larger scale. Fine structure below ~λ/(2NA) is invisible regardless of how much the image is magnified."

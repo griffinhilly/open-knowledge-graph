@@ -44,7 +44,7 @@ Children often think bones are dry, dead sticks like the ones they see in Hallow
   answer: 2
   explanation: "Children are born with about 270 bones, which is actually more than adults have (about 206). As you grow, some of the smaller bones fuse together to form bigger, stronger bones. That is why children end up with fewer bones than they started with — some of them join together."
 
-- question: "Bones are dead, dry, and cannot heal if they break."
+- question: "Bones are dead, dry, and can rarely heal if they break."
   type: true-false
   answer: false
   explanation: "Bones are very much alive. They have blood flowing through them, living cells that constantly rebuild and repair them, and nerves that can feel pain. If a bone breaks, your body can heal it — a doctor helps set the bone in the right position (sometimes with a cast), and your body grows new bone material to fill in the break over several weeks."

@@ -49,7 +49,7 @@ Price a 5-year, 5% coupon bond at market rates of 3%, 5%, and 7% to observe the 
   answer: 2
   explanation: "When market rates exceed the coupon rate, existing bonds must offer a compensating discount to attract buyers. Discounting the fixed cash flows (5% × $1,000 = $50 per year plus $1,000 at maturity) at 8% yields a present value below $1,000. The bond trades at a discount so that its effective return matches the 8% available in the market."
 
-- question: "A bond's coupon rate and its yield to maturity are always the same number."
+- question: "A bond's coupon rate and its yield to maturity are generally the same number."
   type: true-false
   answer: false
   explanation: "The coupon rate is fixed at issuance and determines the dollar amount of coupon payments. The yield to maturity reflects current market interest rates and changes continuously with supply and demand. They are equal only when the bond trades at exactly par (face value) — which happens only when market rates happen to equal the coupon rate, rarely the case after the initial issuance date."

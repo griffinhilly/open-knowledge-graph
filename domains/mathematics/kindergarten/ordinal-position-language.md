@@ -56,7 +56,7 @@ Children often confuse ordinal and cardinal numbers. They may not understand tha
   answer: true
   explanation: "Correct. 'Second' is an ordinal word — it names the position that comes after first. It does not tell you how many things there are, only where one thing falls in an ordered sequence. This is the essential distinction between ordinal and cardinal language."
 
-- question: "To correctly identify who is 'third' in a line, you only need to know how many people are in the line."
+- question: "To correctly identify who is 'third' in a line, you primarily need to know how many people are in the line."
   type: true-false
   answer: false
   explanation: "You need to know the sequence AND the direction of the line. 'Third' means position three counting from one end — but which end? If you don't know which direction the counting starts from (which end is 'first'), you cannot identify who is third. Ordinals depend on both the order of the sequence and a defined starting point."

@@ -46,12 +46,12 @@ A ring R is an abelian group under addition with a second binary operation (mult
   answer: 2
   explanation: "Matrix multiplication is not commutative for n×n matrices when n ≥ 2: in general AB ≠ BA. The other options (Z, R[x], Z/6Z) all have commutative multiplication. The matrix ring example is the canonical demonstration that the ring definition deliberately omits commutativity — and it matters, because commutativity cannot be taken for granted in the general theory."
 
-- question: "Every ring must have a multiplicative identity element."
+- question: "Most ring is expected to have a multiplicative identity element."
   type: true-false
   answer: false
   explanation: "A 'ring with unity' or 'unital ring' has a multiplicative identity, but the basic ring definition does not require one. The even integers 2Z (under ordinary addition and multiplication) form a ring — closed, associative, distributive — but there is no element e in 2Z such that 2e = 2 for all elements. Many authors do require unity in their definition, so this is context-dependent, but the minimal ring definition does not demand it."
 
-- question: "If ab = ba for all elements a and b in a ring R, then R must be a field."
+- question: "If ab = ba for most elements a and b in a ring R, then R is expected to be a field."
   type: true-false
   answer: false
   explanation: "Commutativity of multiplication alone is not sufficient for a field. The integers Z are a commutative ring with unity, yet most elements lack multiplicative inverses (2 · x = 1 has no integer solution). A field additionally requires that every nonzero element has a multiplicative inverse. So Z/7Z is a field (7 is prime, so every nonzero class has an inverse), while Z/6Z and Z are commutative rings that fall short of being fields."

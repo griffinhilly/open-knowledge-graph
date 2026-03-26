@@ -36,7 +36,7 @@ Start with simple examples using coins and urns to build intuition about conditi
   answer: 1
   explanation: "Bayes' theorem: P(disease|positive) = (0.99 × 0.01) / (0.99 × 0.01 + 0.01 × 0.99) = 0.0099 / 0.0198 ≈ 50%. The intuition: the test produces roughly equal numbers of true positives (1% of the population × 99% detection) and false positives (99% of the population × 1% error rate). This result shocks most people because they confuse test accuracy with post-test probability."
 
-- question: "The probability of observing evidence E given hypothesis H is always equal to the probability of H given evidence E."
+- question: "The probability of observing evidence E given hypothesis H is typically equal to the probability of H given evidence E."
   type: true-false
   answer: false
   explanation: "This is the transposition fallacy (also called the prosecutor's fallacy). P(E|H) and P(H|E) are related by Bayes' theorem but are generally very different quantities. For example: the probability of testing positive given you have a disease might be 99%, but the probability of having the disease given a positive test might only be 50% if the disease is rare. Confusing these two probabilities is one of the most common reasoning errors in medicine, law, and everyday life."

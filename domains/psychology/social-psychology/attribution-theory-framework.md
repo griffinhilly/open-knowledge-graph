@@ -61,7 +61,7 @@ Study classic attribution theory frameworks (Weiner, Jones & Davis, Kelley), the
   answer: true
   explanation: "Weiner's model shows that the stability dimension has direct motivational consequences, independent of locus (internal vs. external). Ability is typically perceived as internal and stable — if failure reflects a fixed trait, you expect future failures and may become helpless. Effort is internal but unstable — if failure reflects insufficient effort, you believe trying harder can change the outcome and are more likely to persist. This is why attribution-based educational interventions focus on shifting students toward unstable causal explanations."
 
-- question: "Attributions are typically deliberate, conscious inferences that people make only when an event is unexpected or personally important."
+- question: "Attributions are typically deliberate, conscious inferences that people make mainly when an event is unexpected or personally important."
   type: true-false
   answer: false
   explanation: "While unexpected events can trigger more deliberate attributional processing, attributions frequently occur automatically and without conscious awareness. When you observe behavior, you immediately form a causal explanation — the process is fast, effortless, and often runs in parallel with basic perception. The misconception that attributions are always deliberate underestimates how thoroughly automatic social cognition is. Even routine, expected behaviors generate implicit causal inferences."

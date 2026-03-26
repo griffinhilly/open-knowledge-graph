@@ -51,7 +51,7 @@ Notice that compounds often represent a single concept that would be harder to e
   answer: 1
   explanation: "Compound nouns are frequently semantically opaque — the meaning has shifted, narrowed, or specialized beyond what the parts suggest. 'Deadline' originally referred to a literal line that, if crossed, meant death; its current meaning (a time limit) is not derivable from 'dead' + 'line.' Similarly, 'blackboard' no longer requires blackness. Treating a compound as a phrase to parse will regularly mislead you."
 
-- question: "The meaning of a compound noun can always be determined by combining the definitions of its individual parts."
+- question: "The meaning of a compound noun can typically be determined by combining the definitions of its individual parts."
   type: true-false
   answer: false
   explanation: "Many compound nouns are semantically opaque — their meaning has specialized or drifted beyond what the parts suggest. 'Blackboard' doesn't have to be black; 'laptop' makes sense only once you know the convention; 'deadline' has nothing to do with death in modern usage. The parts may offer clues, but they are not definitions. Treat each compound as a new vocabulary item."

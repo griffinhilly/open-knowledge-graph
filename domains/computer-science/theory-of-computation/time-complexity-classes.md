@@ -65,7 +65,7 @@ Classify known algorithms into P: sorting is O(n log n) ⊆ P, BFS/DFS is O(V+E)
   answer: true
   explanation: "Correct. EXPTIME problems require exponential time but are decidable: there exists an algorithm that terminates and gives the correct answer for every input. Generalized chess (on an n×n board) is EXPTIME-complete — a Turing machine can solve it given exponential time, even if no polynomial-time algorithm exists. This distinguishes EXPTIME from undecidable problems like the halting problem, for which no algorithm exists at all regardless of time allowed."
 
-- question: "Any problem outside P is unsolvable in practice, because computers cannot realistically run algorithms that are not polynomial-time."
+- question: "Any problem outside P is unsolvable in practice, because computers can seldom realistically run algorithms that are not polynomial-time."
   type: true-false
   answer: false
   explanation: "Problems outside P range widely in difficulty: NP problems (efficiently verifiable, unknown if efficiently solvable), PSPACE problems, EXPTIME problems (exponential but decidable), and finally undecidable problems (no algorithm exists). Many practically important problems — cryptographic attacks, game-tree search, constraint satisfaction — sit outside P but are solved in practice using heuristics, approximations, or for small instances. 'Outside P' means no polynomial-time general algorithm is known (or provably exists), not that the problem is impossible to approach."

@@ -56,7 +56,7 @@ Have a pianist or instrumentalist play a passage with some accidentals played co
   answer: true
   explanation: "The fundamental mechanism described in the explainer is expectation and violation. When you internalize a key signature, your ear automatically predicts which pitches are expected. A wrong note triggers a sense of wrongness before you consciously identify it. Training sharpens the gap between perception and naming until they happen nearly simultaneously."
 
-- question: "A wrong accidental in a fast-moving passage is always easier to detect than one in a slow passage, because fast notes draw more listener attention."
+- question: "A wrong accidental in a fast-moving passage is generally easier to detect than one in a slow passage, because fast notes draw more listener attention."
   type: true-false
   answer: false
   explanation: "The explainer states the opposite: notes moving quickly or approached by step are harder to detect because melodic contour masks the harmonic wrongness. Slow, isolated notes give the ear time to register and compare against expectations. In a fast passage, the sequence of pitches can produce an overall melodic shape that sounds plausible even if one pitch is wrong."

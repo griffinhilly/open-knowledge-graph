@@ -52,7 +52,7 @@ Distinguish facilitation from inhibition with concrete task examples (simple ari
   answer: 1
   explanation: "The dominant response is the one with the highest habit strength — the behavior that practice has made most automatic and likely for a given stimulus. Arousal increases the probability of emitting this response. For a skilled typist, the dominant response to a keyboard prompt is accurate typing — arousal helps. For a beginner, the dominant response is slow, error-prone typing — arousal hurts. The dominant response is not about effort or physical strength, but about what learning and repetition have made most probable."
 
-- question: "Social facilitation theory predicts that the presence of others will always improve task performance."
+- question: "Social facilitation theory predicts that the presence of others will generally improve task performance."
   type: true-false
   answer: false
   explanation: "Social facilitation theory predicts that presence of others *exaggerates the current level of mastery*, not that it universally improves performance. For well-practiced, simple tasks, the dominant response is correct and performance improves. For novel or complex tasks, the dominant response is an error and performance deteriorates (social inhibition). The same mechanism — arousal strengthening the dominant response — produces opposite outcomes depending entirely on task mastery."

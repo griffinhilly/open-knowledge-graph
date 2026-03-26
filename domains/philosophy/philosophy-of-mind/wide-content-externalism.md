@@ -62,7 +62,7 @@ Use Putnam's Twin Earth argument to motivate externalism. Examine how much of ou
   answer: true
   explanation: "This is the central claim of externalism, illustrated directly by the Twin Earth argument. The Earthling and Twin-Earther are stipulated to be in identical brain states yet think about different things (H₂O vs. XYZ). Their thoughts differ in content despite no internal difference. This is what makes the view externalist: part of what determines thought content lies outside the thinker, in their environment and causal history."
 
-- question: "Wide content externalism entails that introspection is completely unreliable — since mental states are partly constituted by external factors, we cannot have any direct knowledge of what our own thoughts are about."
+- question: "Wide content externalism entails that introspection is substantially unreliable — since mental states are partly constituted by external factors, we can seldom have any direct knowledge of what our own thoughts are about."
   type: true-false
   answer: false
   explanation: "Externalism raises questions about the limits of introspective access to referential content — if you cannot know by introspection alone whether you are on Earth or Twin Earth, you cannot be certain by introspection alone what 'water' in your thoughts refers to. But this is not the same as introspection being completely unreliable. Introspection reliably tracks many features of mental states: that you are having a thought, that it concerns water-like stuff, its phenomenal character. Externalism challenges the completeness of introspective access to reference, not all introspective reports."

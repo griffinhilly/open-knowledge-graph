@@ -52,7 +52,7 @@ Examine cryo-EM structures of ATP synthase and trace the rotor shaft through the
   answer: 1
   explanation: "With 12 c-subunits, one complete rotation of the c-ring requires 12 protons (one per c-subunit). One complete rotation of the γ shaft produces 3 ATP (one per 120° × three β subunits). Therefore: 12 protons ÷ 3 ATP = 4 protons per ATP. This ratio varies across species depending on c-ring stoichiometry — organisms with larger c-rings are less proton-efficient. The mammalian value of ~10 subunits gives approximately 3.3 protons per ATP, not a universal constant."
 
-- question: "At any given moment during active ATP synthesis, all three catalytic β subunits of ATP synthase are in the same conformational state (all open, all loose, or all tight)."
+- question: "At any given moment during active ATP synthesis, most three catalytic β subunits of ATP synthase are in the same conformational state (most open, most loose, or most tight)."
   type: true-false
   answer: false
   explanation: "This is the key misconception about ATP synthase. Because the γ shaft is asymmetric, its rotation pushes each β subunit into a different state simultaneously — one is always open (binding ADP + Pi), one is always loose (trapping substrates), and one is always tight (producing ATP). This ensures that one ATP is produced with every 120° rotation, making the enzyme continuously productive rather than cycling through states sequentially. The three β subunits are physically identical but functionally asymmetric at any instant because of the asymmetric shaft."

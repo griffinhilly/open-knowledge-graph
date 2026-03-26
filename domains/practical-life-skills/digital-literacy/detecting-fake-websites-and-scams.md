@@ -52,7 +52,7 @@ Fake websites mimic legitimate ones to steal credentials or money. Red flags inc
   answer: false
   explanation: "HTTPS confirms that data between your browser and the server is encrypted and cannot be intercepted in transit. It says nothing about who controls the server. A phishing site can and routinely does use HTTPS, meaning your credentials are securely transmitted to the attacker — the encryption is working perfectly, just not in your favor. The padlock means 'this connection is private'; it does not mean 'this site is legitimate.' Its absence is a strong red flag; its presence is not a green light."
 
-- question: "Urgency messages like 'Your account will be suspended in 24 hours' are a reliable indicator of a scam because legitimate institutions never communicate time-sensitive account issues."
+- question: "Urgency messages like 'Your account will be suspended in 24 hours' are a reliable indicator of a scam because legitimate institutions rarely communicate time-sensitive account issues."
   type: true-false
   answer: false
   explanation: "The claim that legitimate institutions never communicate urgently is an overclaim. Real institutions do sometimes send time-sensitive alerts — password breach notifications, genuine fraud alerts. The key insight is not that urgency is always fake, but that artificial urgency is a scammer's primary tool for preventing you from pausing to verify. The correct response is to slow down: navigate directly to the official site by typing its URL, call the institution's known phone number, or check through an app you already have installed — rather than clicking the link in the urgent message."

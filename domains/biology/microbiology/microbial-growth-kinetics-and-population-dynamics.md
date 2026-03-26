@@ -53,7 +53,7 @@ Microbial populations exhibit four distinct growth phases: lag phase (adaptation
   answer: true
   explanation: "The lag phase is a period of intense metabolic activity, not dormancy. Cells are upregulating gene expression to produce the molecular machinery (transport proteins, metabolic enzymes, additional ribosomes) required for the new nutrient conditions. Cell numbers barely change because the cells are not yet dividing at their full rate, but their internal composition is changing dramatically. This is why the lag phase length correlates with how different the new environment is from the previous one — more preparation is needed when conditions differ more."
 
-- question: "In a batch culture, the stationary phase occurs when bacterial cells have completely stopped dividing due to nutrient depletion."
+- question: "In a batch culture, the stationary phase occurs when bacterial cells have largely stopped dividing due to nutrient depletion."
   type: true-false
   answer: false
   explanation: "Stationary phase is a dynamic equilibrium, not a halt to division. Both growth (new cell divisions) and death continue, but at approximately equal rates — so the net viable cell count stabilizes. Nutrient depletion and waste accumulation slow growth rates, but division doesn't stop entirely until the death phase. During stationary phase, cells also activate stress-response programs and undergo physiological changes (cell shrinkage, thickened walls). The phrase 'completely stopped dividing' overstates what happens."

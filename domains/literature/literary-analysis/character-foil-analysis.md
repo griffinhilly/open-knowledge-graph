@@ -49,7 +49,7 @@ A foil is a character whose qualities or values contrast sharply with another ch
   answer: 1
   explanation: "Without Laertes, Hamlet's paralysis might seem like the only natural response to his situation. With Laertes, it becomes a specific, chosen mode of being — Laertes acts immediately, proving that immediate action was possible. The foil doesn't just contrast; it frames the protagonist's behavior as a choice the text asks us to examine. That's what makes foil analysis valuable rather than merely descriptive."
 
-- question: "A foil is most effective when it contrasts with the protagonist in every possible way — the more dimensions of opposition, the stronger the foil."
+- question: "A foil is most effective when it contrasts with the protagonist in nearly every possible way — the more dimensions of opposition, the stronger the foil."
   type: true-false
   answer: false
   explanation: "Foils must share enough with the protagonist to make the contrast meaningful. Total opposition eliminates the common baseline that gives the contrast weight. Laertes works as Hamlet's foil because they share the same situation, not despite their similarities. A character who differs from the protagonist in every way has no common ground from which to illuminate the protagonist's specific choices."

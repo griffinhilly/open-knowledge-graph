@@ -59,7 +59,7 @@ Revision means fixing grammar and typos. / Good writers get it right the first t
   answer: 2
   explanation: "The core logic is simple: if you polish a sentence in a paragraph that your structural revision later determines should be cut entirely, you've wasted that polishing effort. Structural revision may add, delete, or reorganize entire sections — all the sentence-level work within deleted sections disappears. Working globally first means sentence-level effort is always applied to text that has survived the structural test. This is why global-to-local ordering is more efficient, not just more principled."
 
-- question: "Experienced writers rarely need multiple revision passes because they develop the ability to address all composition levels — argument, paragraphs, sentences, and word choice — simultaneously in a single draft."
+- question: "Experienced writers rarely need multiple revision passes because they develop the ability to address most composition levels — argument, paragraphs, sentences, and word choice — simultaneously in a single draft."
   type: true-false
   answer: false
   explanation: "Multiple-pass revision is not a remedial technique for struggling writers — it is a recognition that structural and surface thinking are cognitively incompatible. Experienced writers often produce cleaner first drafts, but they still separate revision concerns because the cognitive incompatibility does not disappear with skill. In fact, experienced writers often revise more deliberately, not less, because they understand the cost of polishing sentences they will later cut. The misconception that 'good writers get it right the first time' leads students to under-revise."

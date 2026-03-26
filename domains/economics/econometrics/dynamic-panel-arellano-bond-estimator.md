@@ -49,7 +49,7 @@ The Arellano-Bond estimator addresses Yᵢₜ = αYᵢₜ₋₁ + X'ᵢₜβ + �
   answer: false
   explanation: "This conflates two distinct estimators. The within estimator (fixed effects) is precisely the estimator that *creates* Nickell bias when a lagged dependent variable is present — it demeans the data, but the demeaned lagged DV remains correlated with the demeaned error. Arellano-Bond uses *first-differencing* to remove αᵢ and then applies GMM, using lagged levels of Y as instruments for the endogenous differenced lagged DV. The key is the instrumental variables step — first-differencing alone is necessary but not sufficient."
 
-- question: "In an Arellano-Bond model, using more lag levels as instruments is always better because it incorporates more information from the data."
+- question: "In an Arellano-Bond model, using more lag levels as instruments is generally better because it incorporates more information from the data."
   type: true-false
   answer: false
   explanation: "As T grows, the instrument count grows quadratically, creating instrument proliferation. A very large instrument matrix relative to the number of groups N leads to two problems: the Hansen/Sargan test statistic becomes biased toward non-rejection (it overfits), and finite-sample bias increases. Practitioners routinely limit the lag depth to the first two or three lags regardless of T to keep the instrument count manageable. The rule of thumb is that the instrument count should not exceed N."

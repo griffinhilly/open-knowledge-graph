@@ -47,7 +47,7 @@ Noncompetitive inhibition occurs when an inhibitor binds to the enzyme at a site
   answer: 1
   explanation: "On a Lineweaver-Burk plot, the y-intercept equals 1/Vmax and the x-intercept equals −1/Km. An unchanged x-intercept means Km is unchanged (substrate binding affinity unaffected); a higher y-intercept means Vmax is reduced (catalytic efficiency decreased). This pattern is the hallmark of pure noncompetitive inhibition. Competitive inhibition does the opposite: the x-intercept changes (higher apparent Km) while the y-intercept stays the same. Uncompetitive and mixed inhibition produce different patterns with both intercepts shifting."
 
-- question: "In noncompetitive inhibition, adding excess substrate can partially restore enzyme velocity because the inhibitor must eventually be displaced from its binding site."
+- question: "In noncompetitive inhibition, adding excess substrate can partially restore enzyme velocity because the inhibitor is expected to eventually be displaced from its binding site."
   type: true-false
   answer: false
   explanation: "This misconception imports competitive inhibition logic into a different mechanism. Noncompetitive inhibitors bind at an allosteric site entirely separate from the active site, so there is no competition between substrate and inhibitor — they bind different pockets and can occupy the enzyme simultaneously. Adding substrate increases occupancy of the active site but has no effect on the inhibitor's binding site. The fraction of inhibitor-bound enzyme (EI + ESI) remains constant regardless of substrate concentration, and that fraction is permanently catalytically inactive."

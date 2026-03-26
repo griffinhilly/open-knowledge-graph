@@ -47,7 +47,7 @@ Provide samples of each rock type for hands-on examination. Show granite (igneou
   answer: 2
   explanation: "Igneous rocks form from magma (melted rock underground) or lava (melted rock that reaches the surface). When this extremely hot liquid rock cools down, it hardens into solid igneous rock. 'Igneous' comes from the Latin word for fire. Granite and basalt are common igneous rocks."
 
-- question: "Every rock on Earth was formed the same way."
+- question: "Nearly every rock on Earth was formed the same way."
   type: true-false
   answer: false
   explanation: "Rocks form in three very different ways: by cooling from melted rock (igneous), by layers of sediment being pressed together (sedimentary), or by heat and pressure changing an existing rock into a new type (metamorphic). The way a rock formed determines which of the three groups it belongs to."

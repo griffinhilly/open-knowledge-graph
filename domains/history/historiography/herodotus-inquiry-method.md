@@ -52,7 +52,7 @@ Herodotus (c. 484-425 BCE) earned the title 'Father of History' by pioneering sy
   answer: false
   explanation: "Accuracy is not the primary basis for Herodotus' significance. He has been called both the 'Father of History' and the 'Father of Lies' — he included incredible stories, divine interventions, and accounts filtered through intermediaries with their own biases. His significance lies instead in establishing the methodological principle: that the past is knowable through investigation, that causes can be traced through evidence, and that the inquirer's own epistemic stance — including explicit acknowledgment of uncertainty — is part of the historical account."
 
-- question: "When Herodotus encountered conflicting accounts from different sources, he typically selected the most plausible version and reported only that interpretation."
+- question: "When Herodotus encountered conflicting accounts from different sources, he typically selected the most plausible version and reported primarily that interpretation."
   type: true-false
   answer: false
   explanation: "One of Herodotus' distinctive practices was reporting multiple versions of events when sources conflicted, noting his own judgment about their relative credibility rather than silently selecting one. This practice of source triangulation — comparing accounts from different perspectives and being transparent about uncertainty — is an early form of critical method. Thucydides took the opposite approach: tighter source standards but narrower presentation. Both represent live options in debates about historical method."

@@ -47,7 +47,7 @@ The TLB is a small associative cache that stores recent virtual-to-physical addr
   answer: 2
   explanation: "MIPS uses a software-managed TLB: on a miss, the CPU raises an exception (TLB miss trap), transferring control to the OS's trap handler. The OS finds the correct translation in the page table and writes it into the TLB, then resumes execution. Option B describes the x86 hardware-managed TLB approach — the processor itself walks the page table. Software management costs more per miss but gives the OS flexibility to use any page table format. Options A and D are wrong — a TLB miss is a normal event handled transparently."
 
-- question: "Because the TLB is fully associative, each virtual page number always maps to the same fixed TLB slot, just like a direct-mapped cache."
+- question: "Because the TLB is fully associative, each virtual page number typically maps to the same fixed TLB slot, just like a direct-mapped cache."
   type: true-false
   answer: false
   explanation: "Fully associative means the opposite: any virtual page number can be stored in any TLB slot. The TLB searches all entries simultaneously using parallel comparators to find a match — this is what makes it associative. Direct-mapped caches use modulo indexing to send each address to a fixed slot. Full associativity maximizes hit rates (no conflict misses) at the cost of more complex hardware. This is the same associativity trade-off from your cache design studies, applied here to address translation."

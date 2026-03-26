@@ -55,7 +55,7 @@ Compare the profit and welfare outcomes of standard monopoly pricing vs. each ty
   answer: 1
   explanation: "Perfect discrimination charges each buyer exactly their willingness to pay, so every unit where value exceeds marginal cost is sold — no deadweight loss. But consumer surplus is entirely extracted: every buyer pays their maximum, leaving them no better off than not buying. The social total surplus equals the competitive outcome, but it flows entirely to the producer. Option A is wrong because consumer surplus is zero, not positive. Option C is wrong because consumers are not better off — they pay their full reservation price."
 
-- question: "Price discrimination always harms consumers relative to what they would experience under single-price monopoly."
+- question: "Price discrimination usually harms consumers relative to what they would experience under single-price monopoly."
   type: true-false
   answer: false
   explanation: "Under a single-price monopoly, price-sensitive consumers are priced out entirely. If third-degree discrimination leads the firm to serve those consumers at a lower price (because it can now charge the inelastic segment more), those price-sensitive buyers are better off than under uniform monopoly pricing. Whether discrimination harms consumers on net depends on whether it expands or contracts total output and which groups face higher vs. lower prices."

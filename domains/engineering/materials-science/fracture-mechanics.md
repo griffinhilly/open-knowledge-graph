@@ -61,7 +61,7 @@ Apply the fracture mechanics equation K = Yσ√(πa) to calculate critical crac
   answer: 2
   explanation: "From σ_c = √(2Eγ/πa), critical stress is proportional to 1/√a. Doubling a gives σ_c(new) = √(2Eγ/π·2a) = σ_c / √2 ≈ 0.71 × σ_c. The critical stress *decreases* — longer cracks are more dangerous, not less. This explains why tiny scratches on glass can cause catastrophic failure at stresses far below the theoretical crystal strength: a crack tip concentrates stress locally, and longer cracks lower the globally applied stress needed to reach that critical local concentration."
 
-- question: "A stronger material (higher yield strength) is always more resistant to fracture than a weaker material."
+- question: "A stronger material (higher yield strength) is typically more resistant to fracture than a weaker material."
   type: true-false
   answer: false
   explanation: "Strength and fracture toughness are distinct properties that often trade off against each other. High-strength alloys achieved through cold work, precipitation hardening, or other microstructural refinement have high yield strength but restricted plastic zone sizes at crack tips — less energy is absorbed before fracture, giving lower KIc. Many high-strength steels fail catastrophically at lower applied stresses than lower-strength variants when cracks are present. The strength-toughness tradeoff is one of the central constraints of structural materials selection."

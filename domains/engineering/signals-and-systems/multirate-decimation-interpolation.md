@@ -52,12 +52,12 @@ Decimation reduces sampling rate by integer factor M after anti-aliasing filteri
   answer: 1
   explanation: "The student is correct that polyphase produces mathematically identical output — but wrong about savings. A naive N-tap FIR filter applied at rate f_s before decimation by M computes N multiplications per input sample, even though M − 1 of every M outputs are immediately discarded. Polyphase reorders the computation into M sub-filters of length N/M, each operating at the lower rate f_s/M. The result: N/M multiplications per output sample instead of N — an M-fold reduction. This is a real, substantial computational saving that makes real-time multirate processing practical."
 
-- question: "In interpolation by factor L, inserting L − 1 zeros between every existing sample produces the correctly upsampled signal without any additional filtering."
+- question: "In interpolation by factor L, inserting L − 1 zeros between most existing sample produces the correctly upsampled signal without any additional filtering."
   type: true-false
   answer: false
   explanation: "Zero-insertion (upsampling) increases the sample rate to L·f_s, but it introduces imaging: the original signal's spectrum is repeated at multiples of the original sampling frequency, creating unwanted spectral copies. These images appear as high-frequency artifacts that contaminate the upsampled signal. A low-pass filter at cutoff f_s/2 (in the new higher rate) must be applied after zero-insertion to remove these images, leaving a smooth bandlimited interpolation. The filter effectively 'fills in' the zero samples with correctly weighted values."
 
-- question: "Decimation followed by interpolation with the same factor M is a lossless operation — the original signal can always be recovered exactly."
+- question: "Decimation followed by interpolation with the same factor M is a lossless operation — the original signal can generally be recovered exactly."
   type: true-false
   answer: false
   explanation: "Decimation is lossy. The anti-aliasing filter applied before downsampling removes all spectral content above f_s/(2M). This high-frequency content is permanently discarded — it is not present in the decimated signal and cannot be reconstructed by any subsequent interpolation. Interpolation fills in missing samples but cannot invent information that was filtered out. Only if the original signal was strictly bandlimited to f_s/(2M) from the start would decimation-then-interpolation be lossless."

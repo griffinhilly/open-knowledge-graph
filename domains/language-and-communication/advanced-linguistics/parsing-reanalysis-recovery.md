@@ -56,7 +56,7 @@ Garden-path effects are not mere linguistic puzzles but windows into real-time p
   answer: true
   explanation: "Working memory capacity is one of the strongest individual-differences predictors of garden-path recovery. This is evidence that reanalysis is not a simple look-up but an active, resource-demanding process: the parser must retain the failed structure (to know what needs to be revised), identify where the structural error occurred, and rebuild a new representation — all while new words continue to arrive. Higher working memory allows more cognitive resources to be allocated to this simultaneous holding and rebuilding."
 
-- question: "Garden-path effects occur because the parser simultaneously evaluates all possible syntactic parses and becomes confused when multiple interpretations are equally probable."
+- question: "Garden-path effects occur because the parser simultaneously evaluates most possible syntactic parses and becomes confused when multiple interpretations are equally probable."
   type: true-false
   answer: false
   explanation: "This describes the parallel parsing hypothesis, which garden-path effects actually argue against. If the parser held all possible parses simultaneously, there would be no garden-path effect — the correct parse would always be active and available when disambiguating information arrived. The fact that readers show processing difficulty specifically at the disambiguation point, and require active reanalysis, is evidence for a serial, commitment-based parser that adopts a single interpretation early and pays a cost when it turns out to be wrong."

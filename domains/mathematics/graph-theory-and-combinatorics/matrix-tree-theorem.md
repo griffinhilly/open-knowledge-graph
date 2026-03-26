@@ -46,7 +46,7 @@ The Matrix Tree Theorem (Kirchhoff's theorem) states that the number of spanning
   answer: true
   explanation: "The Laplacian is positive semidefinite, so all eigenvalues are ≥ 0. For a connected graph, exactly one eigenvalue is 0 (the graph has one connected component), and the remaining n−1 eigenvalues are strictly positive. The Matrix Tree Theorem uses the product of these nonzero eigenvalues; if any were negative or zero (beyond the one guaranteed zero), it would break the formula. The strict positivity is a consequence of the Laplacian's spectral theory, not an assumption of the theorem."
 
-- question: "For any graph, different choices of which row and column to delete from the Laplacian can yield different cofactor values, so the Matrix Tree Theorem only approximately counts spanning trees."
+- question: "For any graph, different choices of which row and column to delete from the Laplacian can yield different cofactor values, so the Matrix Tree Theorem primarily approximately counts spanning trees."
   type: true-false
   answer: false
   explanation: "This is false — all diagonal cofactors of the Laplacian are exactly equal, giving the same integer count τ(G). This is part of what makes the theorem remarkable: the result is independent of which vertex you 'ground' by deleting its row and column. The equality follows from the matrix-algebraic properties of L (it has rank n−1 with a very specific null structure), not from approximation. The theorem gives an exact count, not an estimate."

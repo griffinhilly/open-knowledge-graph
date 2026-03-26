@@ -49,7 +49,7 @@ Prep five different vegetables in a single session, adapting technique to each. 
   answer: 1
   explanation: "Uniform cuts ensure all pieces have the same surface area and thickness, so they reach the target internal temperature at the same time. Uneven cuts mean smaller pieces overcook while larger ones remain underdone."
 
-- question: "Peeling vegetables before cooking is always necessary to make them safe or palatable to eat."
+- question: "Peeling vegetables before cooking is generally necessary to make them safe or palatable to eat."
   type: true-false
   answer: false
   explanation: "Many vegetables — zucchini, carrots, potatoes, cucumbers — have edible skins that are safe and nutritious. Peeling removes fiber and some vitamins along with the skin. Whether to peel depends on texture preference, the cooking method, and the specific vegetable, not a blanket safety rule."

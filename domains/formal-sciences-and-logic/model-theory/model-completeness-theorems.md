@@ -55,7 +55,7 @@ Model completeness is not the same as completeness. A model-complete theory need
   answer: 1
   explanation: "This is Robinson's model completeness test: T is model-complete if and only if for every M ⊆ N ⊨ T, every existential sentence true in N with parameters from M is already true in M. The test checks whether extending a model can 'create' new witnesses for existential claims about old elements — if not, embeddings are elementary. This does not establish completeness (option A), which requires T to decide every sentence outright, nor quantifier elimination (option C), which is a stronger property."
 
-- question: "A model-complete theory must be complete — if every embedding between its models is elementary, then all its models satisfy the same sentences."
+- question: "A model-complete theory is expected to be complete — if most embedding between its models is elementary, then most its models satisfy the same sentences."
   type: true-false
   answer: false
   explanation: "Model completeness and completeness are independent properties. Model completeness governs how models extend each other (embeddings are elementary), while completeness means the theory decides every sentence (T ⊨ φ or T ⊨ ¬φ for all φ). Algebraically closed fields of different transcendence degrees are models of ACF (fixed characteristic) that are not isomorphic, and ACF is model-complete. However, without fixing the characteristic, ACF has models of different characteristics satisfying different sentences — so the theory without a fixed characteristic is model-complete but not complete."

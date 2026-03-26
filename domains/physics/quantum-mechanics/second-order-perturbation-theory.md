@@ -44,7 +44,7 @@ Second-order energy correction: E⁽²⟩ = Σ_{k≠n} |⟨k|H'|n⟩|² / (E_n�
   answer: 2
   explanation: "The perturbation here is the dipole-dipole interaction between the two atoms. At first order, E_n^(1) = ⟨n|H'|n⟩ — the expectation value of the dipole-dipole interaction in the unperturbed ground state. Since the atoms have no permanent dipoles, this expectation value averages to zero over all orientations (the ground state has no preferred dipole orientation). At second order, however, the perturbation mixes in excited states with non-zero dipole matrix elements. These 'virtual excitations' create temporary induced dipoles that attract, giving a net second-order energy shift proportional to −C/r⁶. The van der Waals force is genuinely a second-order quantum effect."
 
-- question: "Second-order perturbation theory is only needed when the first-order energy correction E_n^(1) = ⟨n|H'|n⟩ is exactly zero."
+- question: "Second-order perturbation theory is primarily needed when the first-order energy correction E_n^(1) = ⟨n|H'|n⟩ is exactly zero."
   type: true-false
   answer: false
   explanation: "Second-order perturbation theory captures corrections that are of order (H')² — a systematically smaller contribution than the first-order (H')¹ term. You may need it even when the first-order correction is nonzero, if you want a more accurate approximation. More commonly, it is *most crucial* when the first-order correction happens to be zero (as for the van der Waals force), since in that case second order gives the leading nonzero correction. But 'needing' second order does not require first order to vanish — it depends on the required precision."

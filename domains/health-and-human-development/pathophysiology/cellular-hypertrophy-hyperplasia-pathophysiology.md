@@ -48,7 +48,7 @@ Hypertrophy is increase in cell size through accumulation of contractile protein
   answer: 1
   explanation: "The defining characteristic of hyperplasia (versus neoplasia) is that it retains normal growth controls: it requires a sustained stimulus and regresses when the stimulus is removed. Neoplastic cells acquire autonomous growth-promoting mutations and proliferate without external signal. Pathologic hyperplasia is clinically important not because it is itself uncontrolled, but because it creates an expanded population of proliferating cells in which subsequent mutations can accumulate, increasing cancer risk — but it has not yet crossed the threshold to autonomy."
 
-- question: "Hypertrophy and hyperplasia are both adaptive responses available to all cell types in the body, including neurons and cardiac myocytes."
+- question: "Hypertrophy and hyperplasia are both adaptive responses available to most cell types in the body, including neurons and cardiac myocytes."
   type: true-false
   answer: false
   explanation: "The available adaptive response depends on whether the cell can divide. Permanent cells — neurons, cardiac myocytes, and skeletal muscle fibers — have exited the cell cycle and cannot re-enter it to proliferate. These cells can only hypertrophy. Labile cells (intestinal epithelium, bone marrow) cycle continuously and can undergo hyperplasia. Stable cells (hepatocytes, smooth muscle) are quiescent in G0 but can re-enter the cycle when stimulated and can do both. This cell-type classification directly determines the pathology observed in different organs."

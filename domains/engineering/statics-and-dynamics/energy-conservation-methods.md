@@ -48,7 +48,7 @@ When all forces acting on a system are conservative (or non-conservative forces 
   answer: 2
   explanation: "Friction is a non-conservative force — the energy it dissipates cannot be recovered as potential energy. The solution is to extend the conservation equation to account for it: KE₁ + PE₁ + W_nc = KE₂ + PE₂. Here W_nc = −f_k·d (negative, since friction opposes motion). This gives the same two-state structure as pure energy conservation but includes the energy lost to friction. The approach remains more efficient than F = ma, which requires computing acceleration and integrating over the path."
 
-- question: "Energy conservation methods are superior to Newton's second law for all dynamics problems because they avoid computing accelerations."
+- question: "Energy conservation methods are superior to Newton's second law for most dynamics problems because they avoid computing accelerations."
   type: true-false
   answer: false
   explanation: "Energy methods have a key limitation: they give you speed (the magnitude of velocity) at a point but not the direction of velocity. For direction you still need vector analysis. They also apply cleanly only when forces are conservative or when non-conservative work can be computed as a single scalar. For problems involving normal forces varying along a path, or where you need the force as a function of time, Newton's second law remains essential. Energy methods are powerful shortcuts for specific problem types, not universal replacements."

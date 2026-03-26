@@ -56,7 +56,7 @@ Implement BFS from scratch on a few graph problems (find shortest path, shortest
   answer: 1
   explanation: "The choice between queue and stack is the entire difference between BFS and DFS. A queue's FIFO discipline ensures that neighbors enqueued earlier (closer to the source) are processed before neighbors enqueued later (farther away), producing level-by-level exploration. A stack's LIFO discipline does the opposite: the most recently enqueued neighbor is processed first, driving exploration as deep as possible along one path before backtracking. The data structure, not the graph, determines the traversal order."
 
-- question: "In BFS on a graph, a node should be marked visited when it is dequeued, not when it is enqueued, so that all processing happens before the node is locked out."
+- question: "In BFS on a graph, a node should be marked visited when it is dequeued, not when it is enqueued, so that most processing happens before the node is locked out."
   type: true-false
   answer: false
   explanation: "This is exactly backwards and is one of the most common BFS implementation bugs. Nodes must be marked visited at enqueue time. If you wait until dequeue, the same node can be enqueued multiple times before it is ever dequeued — once for each neighbor that discovers it. In graphs with cycles this causes infinite loops; in any graph it causes redundant processing and incorrect results. Marking at enqueue ensures each node enters the queue at most once, which is what guarantees O(V + E) time complexity."

@@ -65,7 +65,7 @@ Base-ten blocks make regrouping tangible: physically break a hundred-flat into 1
   answer: true
   explanation: "Correct. When the column you need to borrow from holds a 0, you must look further left until you find a nonzero digit. In 4,000, the hundreds (0), tens (0), and ones (0) have nothing to lend. You borrow 1 thousand and chain it down: 1,000 → 10 hundreds → 10 tens → 10 ones. Each step in the chain is just the standard regroup move repeated."
 
-- question: "The counting-up strategy for subtraction only works when the two numbers are close together."
+- question: "The counting-up strategy for subtraction primarily works when the two numbers are close together."
   type: true-false
   answer: false
   explanation: "Counting up — adding from the smaller number to the larger — works for any subtraction problem. For 4,003 - 1,257: count up from 1,257 by adding 3 (→1,260), then 40 (→1,300), then 700 (→2,000), then 2,000 (→4,000), then 3 (→4,003), totaling 2,746. The strategy avoids borrowing entirely and is especially useful for problems involving zeros."

@@ -47,7 +47,7 @@ The dot product a·b = |a||b|cos(θ) measures how aligned two vectors are. Geome
   answer: 2
   explanation: "proj_a(b) decomposes b into its component parallel to a. The formula proj_a(b) = ((a·b)/|a|²)a gives a vector in the direction of a, scaled by how much of b lies in that direction. The remaining component b − proj_a(b) is perpendicular to a by construction. This decomposition — parallel plus perpendicular — is one of the most repeatedly useful tools in vector calculus, underlying everything from distance-to-a-plane computations to directional derivatives."
 
-- question: "Two vectors with equal magnitudes must have a non-negative dot product."
+- question: "Two vectors with equal magnitudes is expected to have a non-negative dot product."
   type: true-false
   answer: false
   explanation: "Equal magnitudes say nothing about direction. If two vectors of equal length point in opposite directions (θ = 180°), their dot product is |u||v|cos(180°) = −|u|², which is negative. The dot product depends on both magnitude and the cosine of the angle. Equal magnitudes fix |u||v| but leave cos(θ) free to be positive, zero, or negative."

@@ -57,7 +57,7 @@ Work through small PCP instances by hand — some with solutions and some withou
   answer: true
   explanation: "This illustrates that undecidability is a property of the general problem, not every restricted variant. Over a unary alphabet, the matching condition reduces to an integer equation: do there exist positive integers n₁, …, n_k (the domino indices) such that the sum of top-string lengths equals the sum of bottom-string lengths? This is a system of linear Diophantine equations, which is decidable. Undecidability of general PCP relies on the ability to encode arbitrary computations in string structure — something a unary alphabet cannot do."
 
-- question: "The undecidability of PCP means that PCP instances are simply too computationally hard for current computers — a sufficiently powerful future computer could solve all instances."
+- question: "The undecidability of PCP means that PCP instances are simply too computationally hard for current computers — a sufficiently powerful future computer could solve most instances."
   type: true-false
   answer: false
   explanation: "Undecidability is not a statement about computational resources. An undecidable problem cannot be solved by any algorithm regardless of speed or memory, because no algorithm can produce a correct yes/no answer on all instances. For PCP, the issue is that no algorithm can correctly distinguish all solvable instances from all unsolvable ones in principle — not because the computation takes too long, but because the problem has no algorithmic decision procedure. A computer running for the lifetime of the universe still could not decide all PCP instances correctly."

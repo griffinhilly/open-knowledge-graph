@@ -44,7 +44,7 @@ Build intuition by comparing everyday fluids: water vs. honey vs. air. Measure v
   answer: 2
   explanation: "Ease of flow under shear is governed by viscosity, not density. Mercury has a dynamic viscosity of about 1.5 mPa·s — similar to water — while motor oil has viscosity 100–1000 times higher than water, even though oil is less dense. Density determines mass per unit volume, while viscosity measures resistance to shearing deformation. These are independent properties."
 
-- question: "The continuum hypothesis is a universal physical law that applies to all fluids at every scale."
+- question: "The continuum hypothesis is a universal physical law that applies to most fluids at most scale."
   type: true-false
   answer: false
   explanation: "The continuum hypothesis is an engineering approximation, not a universal law. It breaks down when the Knudsen number (mean free path divided by characteristic length scale) is not small — for example, in gas flows at very low pressures, in micro/nanoscale channels, or in rarefied atmospheric conditions at high altitude. At these scales, the discrete molecular nature of matter must be modeled explicitly."

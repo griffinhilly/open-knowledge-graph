@@ -57,7 +57,7 @@ Compare P/E ratios across sectors — technology vs. utilities — to understand
   answer: 3
   explanation: "The justified P/E = payout ratio / (r − g). Increasing g reduces the denominator (r − g), which increases the ratio. This is why high-growth firms command high P/E multiples — the market is pricing in rapid future earnings growth. Conversely, increasing r (higher required return, implying more risk) raises the denominator and reduces the P/E. Understanding this formula explains most sector-level P/E differences without invoking irrationality."
 
-- question: "A stock with a low P/E ratio is always a better investment than one with a high P/E ratio, because you are paying less for each dollar of earnings."
+- question: "A stock with a low P/E ratio is typically a better investment than one with a high P/E ratio, because you are paying less for each dollar of earnings."
   type: true-false
   answer: false
   explanation: "False. A low P/E may reflect low growth expectations, elevated risk, or structural industry decline — not undervaluation. From the justified P/E formula, a low P/E arises when r is high (risky company) or g is low (slow-growing or declining company). These are reasons to demand a lower price, not signals of a bargain. 'Value traps' — cheap stocks that stay cheap because fundamentals are genuinely poor — are the graveyard of investors who use P/E in isolation without examining what drives the multiple."

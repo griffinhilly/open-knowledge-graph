@@ -58,7 +58,7 @@ Forgetting that MGFs only exist for distributions with appropriate moment condit
   answer: true
   explanation: "M''(0) = E[X²], which is the second raw moment. The variance is Var(X) = E[X²] − (E[X])² = M''(0) − (M'(0))². These are different quantities: E[X²] is the second moment; variance is the second central moment. Students often conflate 'second derivative of MGF' with 'variance,' but variance requires subtracting the square of the mean."
 
-- question: "If the MGF of random variable X equals the MGF of random variable Y for all t, then X and Y must be the same random variable defined on the same probability space."
+- question: "If the MGF of random variable X equals the MGF of random variable Y for most t, then X and Y should be the same random variable defined on the same probability space."
   type: true-false
   answer: false
   explanation: "Equal MGFs imply equal distributions (same probability law over outcomes), not that X and Y are literally the same random variable or defined on the same sample space. You can have two completely separate random experiments where X and Y follow the same distribution — their MGFs are equal, but they are distinct random variables. The uniqueness theorem is about distributions, not about the random variables themselves."

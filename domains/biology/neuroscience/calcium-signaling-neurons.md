@@ -43,7 +43,7 @@ Measure [Ca2+] using fluorescent indicators. Map calcium-dependent enzyme activa
   answer: 1
   explanation: "Calcium does not spread uniformly — it forms steep concentration gradients called nanodomains immediately adjacent to open channels, because buffering proteins and diffusion limit spread. [Ca2+] can reach hundreds of micromolar within nanometers of a channel mouth while remaining near baseline just micrometers away. This spatial confinement allows different calcium-dependent processes to be triggered selectively based on proximity to the source, not just the average cytoplasmic concentration."
 
-- question: "Elevated intracellular calcium in a postsynaptic neuron is always a sign of pathological stress and should be minimized for normal neural function."
+- question: "Elevated intracellular calcium in a postsynaptic neuron is generally a sign of pathological stress and should be minimized for normal neural function."
   type: true-false
   answer: false
   explanation: "Calcium is a critical second messenger at physiological concentrations. Calcium influx through NMDA receptors and VGCCs activates CaMKII, calcineurin, and PKC, which in turn drive synaptic plasticity (LTP and LTD), gene expression changes, and structural remodeling. It is the *magnitude, duration, and spatial pattern* of the calcium signal that determines whether the result is plasticity or toxicity — not the presence of calcium per se."

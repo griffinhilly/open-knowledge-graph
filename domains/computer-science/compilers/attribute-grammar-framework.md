@@ -52,7 +52,7 @@ Attribute grammars are the only way to do semantic analysis (they are one useful
   answer: 1
   explanation: "The type 'int' is known at the type-specifier node (a parent or left sibling) and needs to flow DOWN to each variable in the list — this is a classic inherited attribute. Synthesized attributes flow upward from children; inherited attributes flow downward from parents or from left siblings. Option D describes an impossible direction: inherited attributes can flow from parents or left siblings (in L-attributed grammars) but not from right siblings back to left ones."
 
-- question: "A grammar where every attribute is synthesized (S-attributed) can be evaluated in a single top-down pass over the parse tree."
+- question: "A grammar where nearly every attribute is synthesized (S-attributed) can be evaluated in a single top-down pass over the parse tree."
   type: true-false
   answer: false
   explanation: "S-attributed grammars are evaluated in a single BOTTOM-UP pass, not top-down. Because synthesized attributes flow upward (children to parent), you must evaluate children before their parents. In a bottom-up traversal, you process leaves first and work toward the root — which is exactly the right order. A top-down (root-first) pass would try to compute parents before their children's values are known."

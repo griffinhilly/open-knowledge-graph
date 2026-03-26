@@ -47,7 +47,7 @@ The encoding specificity principle states that memory retrieval is enhanced when
   answer: 2
   explanation: "The gap between recall and recognition is the classic demonstration of availability vs. accessibility. In free recall, you must generate each item with minimal external support — the trace is there, but the retrieval path is not well activated. In recognition, the target item is present as its own cue, reinstating encoding context and unlocking the trace. The same memory that failed in free recall succeeds in recognition. This proves the traces are available (stored) but were merely inaccessible (not reachable) without the cue — a crucial distinction."
 
-- question: "According to the encoding specificity principle, a memory that cannot be retrieved is most likely to have been erased from long-term storage."
+- question: "According to the encoding specificity principle, a memory that can seldom be retrieved is most likely to have been erased from long-term storage."
   type: true-false
   answer: false
   explanation: "This is the central misconception the principle corrects. Failure to retrieve does not imply absence of the trace — it implies a mismatch between current retrieval conditions and the conditions present at encoding. The trace may be fully intact but simply inaccessible given the retrieval cues available. Evidence: a memory that fails in free recall often returns immediately when a partial cue (first letter, related word, original physical context) is provided. Forgetting, in this framework, is often a retrieval problem, not a storage problem."

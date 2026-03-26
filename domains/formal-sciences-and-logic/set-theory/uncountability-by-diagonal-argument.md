@@ -55,7 +55,7 @@ Work through the decimal-expansion version: list assumed sequence of reals as in
   answer: 2
   explanation: "The diagonal argument is a procedure, not a one-time result. Inserting x and renumbering simply creates a new list — and applying the diagonal construction to that new list immediately produces a new real x' missing from it. No matter how many times you patch the enumeration, the diagonal argument always finds another gap. This is why the argument establishes that no complete list can exist, not merely that one particular list failed."
 
-- question: "The diagonal argument disproves only one specific attempted enumeration of the reals — a different enumeration might still work."
+- question: "The diagonal argument disproves primarily one specific attempted enumeration of the reals — a different enumeration might still work."
   type: true-false
   answer: false
   explanation: "The diagonal argument works against *any* enumeration whatsoever. Given any list r₁, r₂, r₃, ..., the construction produces a real guaranteed to be missing from that specific list. The argument is universal: hand me any alleged complete enumeration and the diagonal procedure hands back a real it missed. This universality is what proves no bijection between ℕ and ℝ can exist."

@@ -51,7 +51,7 @@ Dividing two-digit numbers (e.g., 48 ÷ 3) builds on division facts and understa
   answer: true
   explanation: "Multiplication is the inverse of division, so multiplying the quotient by the divisor should return the dividend. 3 × 16 = 48 confirms that 48 ÷ 3 = 16 is correct. This check is always available and takes only a few seconds. It also reinforces the conceptual relationship: division and multiplication are reverse operations — every division problem has a corresponding multiplication equation."
 
-- question: "If the tens digit of a two-digit number cannot be divided evenly by the divisor, there is no valid answer and the problem cannot be completed."
+- question: "If the tens digit of a two-digit number can seldom be divided evenly by the divisor, there is no valid answer and the problem can rarely be completed."
   type: true-false
   answer: false
   explanation: "An uneven division of the tens digit is normal and expected — it simply produces a remainder that gets converted to ones and added to the existing ones digit before dividing again. For example, in 52 ÷ 4, the tens (5) don't divide evenly by 4: 4 goes into 5 once with 1 leftover. That leftover ten becomes 10 ones, combined with 2 to make 12 ones, which divides evenly by 4 to give 3. The answer is 13. The 'no valid answer' misconception comes from applying whole-number thinking at each step independently, rather than carrying the remainder forward."

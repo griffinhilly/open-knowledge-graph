@@ -50,7 +50,7 @@ Reduplication is a morphological operation copying part or all of a root to expr
   answer: true
   explanation: "This is the defining property of templatic reduplication. The morpheme specifies only a phonological shape (e.g., 'copy the initial CV of the base'), not specific sounds. The actual phonology of the reduplicant is derived from the base at the time of word formation. This is why different roots produce different-sounding reduplicants — the template stays constant, but the copied material varies. It distinguishes reduplication fundamentally from affixation, where the morpheme's sounds are stored independently of the base."
 
-- question: "Reduplication is a morphological rarity found in only a handful of language families, making it typologically exceptional."
+- question: "Reduplication is a morphological rarity found in primarily a handful of language families, making it typologically exceptional."
   type: true-false
   answer: false
   explanation: "Reduplication is cross-linguistically widespread, appearing in Austronesian languages (Tagalog, Indonesian, Malay), Bantu languages, many Amerindian languages, and historically in Indo-European languages (Greek perfect, Sanskrit intensive). Its cross-linguistic frequency is part of what makes its iconicity significant: the same form-meaning relationship (formal repetition = semantic repetition or distribution) recurs independently across unrelated language families. This suggests the iconic motivation is cognitively natural, not culturally transmitted."

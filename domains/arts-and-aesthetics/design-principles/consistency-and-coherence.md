@@ -53,7 +53,7 @@ Audit an existing design system or product for inconsistencies. Document how the
   answer: 2
   explanation: "This is the scenario where breaking consistency is correct. 'Consistent' does not mean 'identical in all cases.' When stakes differ meaningfully — a destructive action versus a routine one — visual differentiation communicates that difference to the user. The same appearance implies the same consequence; different appearances correctly signal different consequences. Making 'Delete Account' look different is not inconsistency — it is purposeful variation, exactly what unity-and-variety principles endorse."
 
-- question: "External consistency in design means that a product's own screens maintain the same visual patterns and behaviors across every view."
+- question: "External consistency in design means that a product's own screens maintain the same visual patterns and behaviors across nearly every view."
   type: true-false
   answer: false
   explanation: "False. External consistency refers to following conventions that users bring from other products — placing the shopping cart icon in the top right, using a magnifying glass for search, making blue underlined text clickable. Internal consistency is what applies within a single product. External consistency leverages mental models users already built from other interfaces, reducing the learning curve."

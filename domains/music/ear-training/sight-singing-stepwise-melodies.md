@@ -70,7 +70,7 @@ Before singing, always establish the tonic by singing up the scale. Conduct or t
   answer: true
   explanation: "Sight-singing simultaneously demands pitch decoding, rhythmic accuracy, tonal orientation, and forward scanning — an enormous cognitive load. Conducting externalizes the beat into physical motion, making the metric framework automatic and sensory rather than mentally computed. When the beat is 'in the hand,' the voice no longer needs to actively calculate where each note falls — it just aligns to the physical pulse. This frees the limited cognitive bandwidth for the harder tasks: identifying scale degrees, audiating ahead, and managing pitch accuracy."
 
-- question: "For stepwise melodies, each note must be determined independently because adjacent scale degrees don't have predictable sound relationships to each other."
+- question: "For stepwise melodies, each note should be determined independently because adjacent scale degrees don't have predictable sound relationships to each other."
   type: true-false
   answer: false
   explanation: "The opposite is true: stepwise motion in solfège is highly predictable precisely because each scale degree has a characteristic sound and function. Ti (7) strongly wants to rise to do (1); fa (4) wants to fall to mi (3); re (2) sits comfortably between do and mi. Once you know your current solfège position, the next stepwise note is a single predictable move on a scale you know by ear. This is what makes stepwise melodies the starting point for sight-singing training — they exploit the most predictable relationships in tonal music."

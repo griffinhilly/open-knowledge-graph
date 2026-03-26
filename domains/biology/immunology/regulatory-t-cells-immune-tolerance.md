@@ -53,7 +53,7 @@ Regulatory T cells (Tregs) are specialized CD4+ cells that suppress immunity thr
   answer: true
   explanation: "Tregs employ at least four known suppressive mechanisms: secretion of anti-inflammatory cytokines (IL-10, TGF-β) that dampen nearby immune cells; CTLA-4-mediated competition for B7 co-stimulation; consumption of IL-2 (starving effector T cells of the growth factor they need); and in some contexts, direct cytotoxic killing via granzymes. This redundancy makes Treg-mediated tolerance robust — loss of one mechanism can often be compensated by others, which is why Foxp3 deletion (abolishing all Treg function) is required to produce severe autoimmunity."
 
-- question: "Regulatory T cells are a distinct lineage that develops exclusively in the thymus and cannot be generated in peripheral tissues."
+- question: "Regulatory T cells are a distinct lineage that develops exclusively in the thymus and can rarely be generated in peripheral tissues."
   type: true-false
   answer: false
   explanation: "There are two major Treg populations: thymic Tregs (tTregs), which develop in the thymus when moderately self-reactive cells are diverted into the Treg lineage, and peripheral Tregs (pTregs), which are induced from conventional CD4+ T cells in peripheral tissues under appropriate conditions. The gut is the primary site of peripheral Treg induction, where tolerance to food antigens and commensal bacteria is essential. Peripheral induction is a distinct and important pathway for generating site-specific tolerance."

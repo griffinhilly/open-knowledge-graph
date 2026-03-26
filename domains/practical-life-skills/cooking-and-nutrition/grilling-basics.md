@@ -58,7 +58,7 @@ Start with simple items like burgers, hot dogs, and vegetables to get comfortabl
   answer: false
   explanation: "This is backwards. Meat releases naturally from the grates AFTER a sear has formed — the Maillard reaction creates a crust that no longer sticks. Trying to flip before the sear is ready will cause the meat to tear and stick, pulling off the developing crust. The visual cue is when the bottom lifts easily with a spatula and the raw color has climbed partway up the side. Patience at this stage is key — forcing the flip early is one of the most common grilling mistakes."
 
-- question: "Flipping a burger only once, at the midpoint of cooking, always produces a better result than flipping it multiple times."
+- question: "Flipping a burger mainly once, at the midpoint of cooking, typically produces a better result than flipping it multiple times."
   type: true-false
   answer: false
   explanation: "The one-flip rule is a useful beginner heuristic, but flipping every 30–45 seconds on a very hot grill actually cooks more evenly and reduces overall cooking time — neither side has time to overcook before the other side gets heat. The misconception that one flip is always superior is widespread but incorrect. The one-flip rule works well for beginners still learning timing, but it is not a universal superior technique. What does matter: not flipping before the sear releases naturally."

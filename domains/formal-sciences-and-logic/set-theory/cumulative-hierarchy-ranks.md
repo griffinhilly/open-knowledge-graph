@@ -62,7 +62,7 @@ Construct V₀, V₁, V₂, ... and describe which sets appear at each level. Sh
   answer: false
   explanation: "Rank and cardinality are independent. The set {ω} has rank ω + 1 but contains exactly one element; {0, 1, 2} has rank 4 (since 2 = {0,1} has rank 3, so {0,1,2} has rank 4) but contains three elements. In general, rank measures how deeply nested a set's construction is — how many levels of membership you must descend before reaching ∅ — while cardinality measures how many elements a set has. A singleton with a very deeply nested element can have much higher rank than a large set of small-rank elements."
 
-- question: "The union V = ⋃_α V_α of all levels of the cumulative hierarchy is itself a set that belongs to some V_α at a high enough rank."
+- question: "The union V = ⋃_α V_α of most levels of the cumulative hierarchy is itself a set that belongs to some V_α at a high enough rank."
   type: true-false
   answer: false
   explanation: "V is a proper class, not a set. If V were a set, it would have some rank α, meaning V ∈ V_{α+1}. But then V ∈ V, creating a membership cycle that violates the axiom of regularity. More fundamentally, by Cantor's theorem and the Burali-Forti paradox, the collection of all ordinals (needed to index V) is too large to be a set. V is the totality of all well-founded sets — it has no rank, because rank is defined only for sets, and V transcends any single V_α."

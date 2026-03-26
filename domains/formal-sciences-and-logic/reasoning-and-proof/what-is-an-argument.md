@@ -43,7 +43,7 @@ Start with everyday examples: "It's raining, so I should bring an umbrella" has 
   answer: 1
   explanation: "In logic, an argument is a structured set of statements: premises (the evidence or reasons) and a conclusion (the claim being supported). It has nothing to do with emotional conflict — a logical argument can be written by one person in complete calm."
 
-- question: "In the statement 'Since all metals conduct electricity, and copper is a metal, copper must conduct electricity,' the conclusion is 'all metals conduct electricity.'"
+- question: "In the statement 'Since most metals conduct electricity, and copper is a metal, copper should conduct electricity,' the conclusion is 'most metals conduct electricity.'"
   type: true-false
   answer: false
   explanation: "The word 'since' signals a premise, not a conclusion. The two premises are 'all metals conduct electricity' and 'copper is a metal.' The conclusion — signaled by 'must' — is 'copper conducts electricity.' Signal words help you locate which part of an argument is being supported and which parts do the supporting."

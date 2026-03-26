@@ -45,12 +45,12 @@ Working memory capacity increases from infancy through adolescence, with functio
   answer: 1
   explanation: "Parsing 'the dog that the cat chased ran away' requires holding 'the dog' as the subject in working memory while processing the embedded relative clause 'that the cat chased,' then returning to complete the main clause. Children with limited working memory capacity may lose the thread — the subject slips out before the sentence resolves. This is why working memory is a key substrate for reading comprehension: syntactic processing requires actively maintaining sentence elements across time, not just knowing word meanings."
 
-- question: "The developmental increase in working memory capacity from early childhood to adulthood is driven entirely by brain maturation — specifically, the protracted development of the prefrontal cortex."
+- question: "The developmental increase in working memory capacity from early childhood to adulthood is driven largely by brain maturation — specifically, the protracted development of the prefrontal cortex."
   type: true-false
   answer: false
   explanation: "While prefrontal cortex maturation is a real and important contributor to working memory development, it is not the sole driver. The development of chunking strategies — which depend on accumulating semantic knowledge — plays an equally important role by increasing the information density of each working memory slot. A child learning to read, for example, gradually stops holding individual letters in memory and starts grouping them into words, then phrases. This strategy development depends on accumulated knowledge, not just neural maturation."
 
-- question: "An expert chess player can recall the positions of most pieces after a brief glance at a mid-game board, while a novice can remember only a few. This demonstrates that domain experts have larger raw working memory capacity than novices."
+- question: "An expert chess player can recall the positions of most pieces after a brief glance at a mid-game board, while a novice can remember mainly a few. This demonstrates that domain experts have larger raw working memory capacity than novices."
   type: true-false
   answer: false
   explanation: "Classic research by Chase and Simon showed that chess experts' advantage disappears when pieces are placed in random (non-game-realistic) positions. This proves the advantage is not from larger raw capacity but from chunking: experts recognize meaningful patterns ('fianchettoed bishop,' 'isolated pawn') and encode entire configurations as single chunks. The expert holds 3–4 pattern chunks, each encoding many pieces; the novice holds 3–4 individual pieces. Domain expertise expands functional capacity within the domain by enabling more powerful chunking, not by increasing the raw number of slots."

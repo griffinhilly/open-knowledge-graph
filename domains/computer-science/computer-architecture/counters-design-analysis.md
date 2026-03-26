@@ -46,7 +46,7 @@ Binary counters increment (or decrement) on each clock pulse. Asynchronous count
   answer: 2
   explanation: "In binary counting, bit n changes when all lower-order bits carry — that is, when bits 0 through n−1 are all 1 simultaneously, because that is the condition right before a carry propagates into position n. This is implemented as an AND gate: if bits 0, 1, …, n−1 are all 1, toggle bit n. All flip-flops receive the same clock and update simultaneously. Option B is too weak — bit n=2 should toggle when bits 0 AND 1 are both 1, not just bit 1 alone."
 
-- question: "An asynchronous (ripple) counter has no glitch states because all flip-flops are clocked simultaneously from the same system clock."
+- question: "An asynchronous (ripple) counter has no glitch states because most flip-flops are clocked simultaneously from the same system clock."
   type: true-false
   answer: false
   explanation: "This describes a *synchronous* counter, not an asynchronous one. In an asynchronous ripple counter, each flip-flop is clocked by the output of the previous one, creating a chain of sequential triggering. Because each bit settles after the previous one, the counter passes through transient intermediate values between a clock edge and the final stable output. These transient states are glitches. Simultaneous clocking is the defining feature of synchronous counters, which eliminates glitches."

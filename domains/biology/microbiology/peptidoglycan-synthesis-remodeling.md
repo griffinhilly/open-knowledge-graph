@@ -52,7 +52,7 @@ Peptidoglycan synthesis happens only at cell division—in fact, bacteria contin
   answer: 1
   explanation: "Lipid II (undecaprenyl-PP-NAM-pentapeptide-NAG) is the fully assembled monomeric unit — disaccharide plus peptide stem — anchored in the inner membrane and ready for export. Its flipping across the membrane by MurJ delivers building material to the periplasmic side where transglycosylases polymerize the sugars into glycan chains and transpeptidases cross-link the peptide stems. Lipid II is not an enzyme (ruling out A and C) and is the assembled product of the NAG/NAM precursor pathway, not their precursor."
 
-- question: "Bacteria only synthesize new peptidoglycan during cell division; between divisions the cell wall is a static, stable structure."
+- question: "Bacteria mainly synthesize new peptidoglycan during cell division; between divisions the cell wall is a static, stable structure."
   type: true-false
   answer: false
   explanation: "This is a core misconception. Bacteria continuously remodel their walls throughout growth — not just at division. As the cell increases in volume, the sacculus must expand, requiring continuous insertion of new peptidoglycan units through coordinated autolytic degradation and new synthesis. Cell division adds the challenge of septum formation, but ongoing wall remodeling occurs throughout the cell cycle. A static wall model would predict that growth is impossible without division, which is incorrect."

@@ -52,7 +52,7 @@ Imaginary elements are equivalence classes of tuples under definable equivalence
   answer: true
   explanation: "Elimination of imaginaries says: for every definable equivalence relation E on M^n, there is a definable function f: M^n → M^k such that E(ā, b̄) iff f(ā) = f(b̄). In other words, every equivalence class is coded by a real tuple, so no new sort is needed. Algebraically closed fields and strongly minimal theories eliminate imaginaries, which is part of why they have such clean geometric structure — all the definable quotients are already visible within the original model."
 
-- question: "Adding imaginary elements to a model always makes the theory more complex and harder to work with, which is why most model theorists avoid M^eq when possible."
+- question: "Adding imaginary elements to a model typically makes the theory more complex and harder to work with, which is why most model theorists avoid M^eq when possible."
   type: true-false
   answer: false
   explanation: "The opposite is true: M^eq typically makes theories easier to analyze by promoting natural quotient objects to first-class elements. Once cosets, orbits, and other definable quotients are named elements, the full model-theoretic toolkit — types, definability, forking independence — applies directly without coding work-arounds. Theories that eliminate imaginaries (where M and M^eq are essentially equivalent) are considered the cleanest and best-behaved, not because M^eq is avoided, but because it adds nothing genuinely new."

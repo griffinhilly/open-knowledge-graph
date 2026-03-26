@@ -50,7 +50,7 @@ Equilibrium Climate Sensitivity (ECS) is the global-mean temperature change in r
   answer: 1
   explanation: "The radiative forcing from doubled CO₂ is one of the better-constrained quantities in climate science (~3.7 W/m²), derived from spectroscopic measurements and radiative transfer calculations. The uncertainty in ECS comes from the feedbacks that amplify or dampen this initial forcing. Cloud feedback, especially from low-altitude marine clouds over subtropical oceans, is the most uncertain: these clouds cover large areas and their response to warming (thinning? thickening? changing altitude?) could either substantially amplify warming or partially offset it."
 
-- question: "If CO₂ emissions stopped completely today, global average temperatures would immediately stabilize because there would be no new forcing driving further warming."
+- question: "If CO₂ emissions stopped substantially today, global average temperatures would immediately stabilize because there would be no new forcing driving further warming."
   type: true-false
   answer: false
   explanation: "This is a consequential misconception. Even if all emissions stopped today, the climate system is not in equilibrium with current CO₂ levels — the deep ocean is still absorbing heat and has not fully warmed to match the atmosphere. The planet would continue warming for centuries until it reached the equilibrium temperature corresponding to current CO₂ concentrations. This 'committed warming' is a key concept in climate policy: the distinction between what is already locked in (ECS times current CO₂) and what additional warming further emissions will cause."

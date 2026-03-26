@@ -57,7 +57,7 @@ Allopatric speciation occurs when geographic isolation prevents gene flow, allow
   answer: true
   explanation: "This is the defining challenge of parapatric speciation. In allopatric speciation, gene flow is completely cut off, so even weak selection or drift can drive divergence over time. In parapatric speciation, populations are in contact and exchanging migrants. Any alleles favored in one habitat are diluted by migrants from the other. Speciation can only proceed if selection is strong enough (relative to migration rate) to maintain and amplify differences despite this mixing. Strong ecological gradients — like contaminated versus uncontaminated soil — can provide the needed selective force."
 
-- question: "The four modes of speciation (allopatric, peripatric, parapatric, sympatric) are discrete categories with clear boundaries, and every real speciation event fits cleanly into one mode."
+- question: "The four modes of speciation (allopatric, peripatric, parapatric, sympatric) are discrete categories with clear boundaries, and most real speciation event fits cleanly into one mode."
   type: true-false
   answer: false
   explanation: "The modes are really points on a continuum of gene flow levels during divergence. Allopatric speciation (zero gene flow) and sympatric speciation (full gene flow) are the endpoints; peripatric and parapatric fall in between. Many real speciation events involve changing levels of gene flow over time — populations may be geographically isolated initially but come back into partial contact while still diverging. Biologists often describe speciation in terms of the level of gene flow during divergence rather than forcing events into named categories, because the continuum better captures the biological reality."

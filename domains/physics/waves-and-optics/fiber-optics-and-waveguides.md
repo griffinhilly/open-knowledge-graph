@@ -44,7 +44,7 @@ Optical fibers guide light over long distances through total internal reflection
   answer: 1
   explanation: "In a step-index fiber, total internal reflection preserves all ray angles — rays entering at steeper angles bounce more frequently and travel longer zigzag paths than rays traveling near the axis. These different paths (modes) arrive at the far end at slightly different times, broadening the pulse. Graded-index fiber compensates by varying the refractive index so off-axis rays pass through lower-density material and travel faster, nearly equalizing arrival times."
 
-- question: "In an optical fiber, the cladding must have a higher refractive index than the core to ensure total internal reflection occurs at the boundary."
+- question: "In an optical fiber, the cladding should have a higher refractive index than the core to ensure total internal reflection occurs at the boundary."
   type: true-false
   answer: false
   explanation: "This is backwards. Total internal reflection requires light to travel from a denser medium (higher refractive index) toward a less dense medium (lower refractive index) at an angle exceeding the critical angle. Therefore the core must have the higher refractive index and the cladding must have the lower one. If the cladding were denser than the core, light would refract outward at the boundary rather than reflect inward, and the fiber would not guide light."

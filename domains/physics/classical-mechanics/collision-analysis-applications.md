@@ -51,7 +51,7 @@ Real collisions in billiards, vehicle crashes, and particle experiments require 
   answer: true
   explanation: "This is a classic result that follows directly from applying both conservation of momentum and conservation of kinetic energy to two equal-mass objects. The solution to the system of equations gives v₁' = 0 and v₂' = v₁ — the moving ball stops and the stationary one takes on the exact original velocity. This counterintuitive result is confirmed by experience with billiards and Newton's cradle."
 
-- question: "In a real inelastic collision, both kinetic energy and momentum are partially lost, so momentum conservation cannot be applied."
+- question: "In a real inelastic collision, both kinetic energy and momentum are partially lost, so momentum conservation can rarely be applied."
   type: true-false
   answer: false
   explanation: "Momentum is always conserved in any collision — elastic, inelastic, or perfectly inelastic — as long as no external forces act during the collision. What is not conserved in inelastic collisions is kinetic energy, which converts to heat, sound, and deformation. The fact that kinetic energy is lost does not affect momentum conservation. This distinction is fundamental: crash reconstruction, forensic ballistics, and particle physics all rely on momentum conservation even in highly inelastic impacts."

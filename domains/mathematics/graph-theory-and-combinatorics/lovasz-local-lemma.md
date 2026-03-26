@@ -52,7 +52,7 @@ The condition ep(d+1) ≤ 1 is sufficient but not necessary; the actual threshol
   answer: true
   explanation: "The union bound P(∪Aᵢ) ≤ ΣP(Aᵢ) becomes vacuous when the sum exceeds 1, since all probabilities are at most 1. In problems with many bad events — even individually unlikely ones — the sum easily exceeds 1, and the union bound cannot prove that any avoidance is possible. The LLL exploits limited dependency structure to prove positivity of P(no bad event) in exactly these situations. This is why the LLL is so important in combinatorics: it handles regimes where the naive probabilistic argument completely breaks down."
 
-- question: "The LLL condition ep(d+1) ≤ 1 is both necessary and sufficient: if this condition fails, it is impossible to simultaneously avoid all bad events."
+- question: "The LLL condition ep(d+1) ≤ 1 is both necessary and sufficient: if this condition fails, it is very difficult to simultaneously avoid most bad events."
   type: true-false
   answer: false
   explanation: "The condition ep(d+1) ≤ 1 is sufficient but not necessary. It is a clean, checkable threshold that guarantees P(no bad event) > 0, but the actual threshold at which simultaneous avoidance becomes impossible can be considerably weaker — the LLL is not tight at this bound. In some structured settings, stronger variants (such as the asymmetric LLL) give tighter conditions. The Common Misconceptions section of this topic makes this point explicitly: failing the ep(d+1) ≤ 1 condition does not prove impossibility."

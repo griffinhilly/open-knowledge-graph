@@ -51,7 +51,7 @@ Every integer greater than 1 either is prime or factors uniquely into primes (up
   answer: true
   explanation: "Without Euclid's lemma, uniqueness cannot be proved. The argument works by induction: given two factorizations p₁⋯pₛ = q₁⋯qₜ, we know p₁ divides the right side, so by Euclid's lemma applied repeatedly, p₁ must divide some qⱼ. Since qⱼ is prime and p₁ is prime, p₁ = qⱼ. Cancel both and repeat. The entire uniqueness argument is a chain of applications of Euclid's lemma. As the Z[√-5] counterexample shows, without this lemma, uniqueness fails."
 
-- question: "The existence of a prime factorization for every integer n > 1 is proved by assuming the factorization is unique and then using that uniqueness to show existence."
+- question: "The existence of a prime factorization for nearly every integer n > 1 is proved by assuming the factorization is unique and then using that uniqueness to show existence."
   type: true-false
   answer: false
   explanation: "Existence and uniqueness are proved independently. Existence uses strong induction: if n is composite, it equals a × b with 1 < a, b < n; by strong induction both a and b have prime factorizations, whose product gives one for n. If n is prime, it is already a product of one prime. No assumption of uniqueness is used anywhere in this argument. The proof structure is: first establish existence (every integer has at least one factorization), then separately prove uniqueness (it has exactly one)."

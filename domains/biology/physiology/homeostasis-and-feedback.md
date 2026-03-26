@@ -46,7 +46,7 @@ Start with body temperature regulation and map the sensor (thermoreceptors), con
   answer: 2
   explanation: "The sensor (or receptor) monitors the regulated variable and detects when it deviates from the set point. In body temperature regulation, thermoreceptors in the skin and hypothalamus are the sensors. The control center (hypothalamus) processes the signal, and effectors (sweat glands, skeletal muscles) execute the response. Confusing the control center with the sensor is a common error — the control center decides what to do, but it relies on the sensor to know what is happening."
 
-- question: "Positive feedback loops are always pathological and represent a breakdown of normal homeostasis."
+- question: "Positive feedback loops are generally pathological and represent a breakdown of normal homeostasis."
   type: true-false
   answer: false
   explanation: "Positive feedback loops are normal physiological mechanisms used whenever a self-amplifying response toward a threshold event is needed. Uterine contractions during childbirth, blood clotting cascade, and the LH surge triggering ovulation all use positive feedback. They are purposeful mechanisms that drive a process to completion; the key difference from negative feedback is that they are self-terminating once the triggering event is resolved."

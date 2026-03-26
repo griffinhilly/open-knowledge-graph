@@ -67,7 +67,7 @@ Build a decision flowchart: start with substrate class, then evaluate the nucleo
   answer: true
   explanation: "Correct. Both SN1 and E1 begin with ionization of the substrate to form a carbocation. That intermediate can then be captured by a nucleophile (giving the substitution product) or lose an adjacent proton (giving the elimination product). Because both pathways originate from the same intermediate, they compete simultaneously whenever conditions favor ionization. A reaction described as 'SN1' is more precisely described as 'predominantly SN1, with SN1/E1 competition.'"
 
-- question: "A strong, small base like hydroxide (HO⁻) always gives elimination as the major product on primary substrates, because base strength is the key factor in E2 selectivity."
+- question: "A strong, small base like hydroxide (HO⁻) generally gives elimination as the major product on primary substrates, because base strength is the key factor in E2 selectivity."
   type: true-false
   answer: false
   explanation: "Base strength is necessary but not sufficient for E2 selectivity. On a primary substrate, the carbon backside is unhindered, so even hydroxide — which is both a strong base and a good nucleophile — performs SN2 faster than E2. Elimination becomes dominant over substitution when the base is both strong AND sterically bulky (like tert-butoxide), making proton abstraction preferred over backside attack. On tertiary substrates SN2 is blocked regardless, but on primary substrates the substrate accessibility matters more than base strength alone."

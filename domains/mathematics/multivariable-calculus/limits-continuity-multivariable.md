@@ -52,7 +52,7 @@ For a multivariable function, lim_(x,y)→(a,b) f(x,y) = L if for every ε > 0 t
   answer: true
   explanation: "The limit lim_{(x,y)→(a,b)} f(x,y) = L must hold for every possible path of approach simultaneously. If even one path gives a different value, the limit does not exist. This is the path test: a sufficient condition for non-existence. It cannot prove existence, because you cannot check all paths by testing finitely many."
 
-- question: "Showing that lim_{(x,y)→(0,0)} f(x,y) = 0 along every straight line through the origin is sufficient to prove the limit equals 0."
+- question: "Showing that lim_{(x,y)→(0,0)} f(x,y) = 0 along nearly every straight line through the origin is sufficient to prove the limit equals 0."
   type: true-false
   answer: false
   explanation: "Straight lines form only a subset of the infinitely many paths to the origin. A function can give the limit 0 along every line y = mx yet approach a different value along a curved path such as y = x². The limit exists only if the function approaches the same value along every conceivable path — including parabolas, spirals, oscillating curves, and others."

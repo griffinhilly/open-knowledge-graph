@@ -54,7 +54,7 @@ Point defects—missing atoms (vacancies) and extra atoms in interstitial positi
   answer: true
   explanation: "Vacancies are thermodynamically inevitable because their formation increases entropy — there are astronomically many ways to arrange even a small number of vacancies among lattice sites. The free energy G = H − TS is minimized at the equilibrium concentration n_v/N = exp(−Q_v/kT), not at zero. Only at absolute zero does the entropic driving force vanish. Any finite-temperature crystal has an equilibrium density of vacancies that no processing step can remove."
 
-- question: "Interstitial defects in a crystal are always detrimental to material properties and should be minimized during processing."
+- question: "Interstitial defects in a crystal are generally detrimental to material properties and should be minimized during processing."
   type: true-false
   answer: false
   explanation: "Interstitial solutes are among the most powerful strengthening mechanisms in engineering materials. Carbon atoms in interstitial sites of iron create the martensite and pearlite microstructures that make steel hard and strong; nitrogen interstitials strengthen stainless steels. Self-interstitials in a pure metal do raise energy and can degrade properties, but intentionally introduced interstitial solutes are a designed feature, not a flaw."

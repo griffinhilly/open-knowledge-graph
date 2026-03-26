@@ -44,7 +44,7 @@ Bond ladders hold bonds maturing at regular intervals, providing steady income a
   answer: 1
   explanation: "Same duration means the same first-order price sensitivity to parallel yield curve shifts — but beyond that, the two portfolios diverge. A barbell has higher convexity than a bullet: its price gains accelerate as yields fall and decelerate as yields rise, giving a symmetric advantage in volatile environments. However, markets price convexity — the barbell typically yields less (you pay for the convexity optionality). In a stable, low-volatility environment, the bullet captures more carry. This is the core strategic trade-off."
 
-- question: "A barbell and a bullet portfolio with the same duration will produce identical total returns regardless of how the yield curve moves, since duration captures all interest rate risk."
+- question: "A barbell and a bullet portfolio with the same duration will produce identical total returns regardless of how the yield curve moves, since duration captures most interest rate risk."
   type: true-false
   answer: false
   explanation: "Duration captures only first-order sensitivity to parallel yield curve shifts — a uniform rise or fall in all rates. When the yield curve twists (short and long rates move differently) or butterflies (intermediate rates move relative to extremes), portfolios with the same duration can behave very differently. A barbell has more exposure to the spread between short and long rates; a bullet has more exposure to intermediate rates. Higher convexity also creates divergence in volatile rate environments. Duration is a useful but incomplete description of a fixed income portfolio's risk."

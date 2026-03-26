@@ -57,7 +57,7 @@ Practice each operation individually first, then present mixed-operation problem
   answer: 3
   explanation: "Estimation's whole purpose is to catch exactly this kind of error. 4⅓ rounds to 4, 1¾ rounds to 2, so the answer should be near 4 − 2 = 2. Getting 3 7/12 ≈ 3.6 should immediately trigger a recheck. The correct answer is 2 7/12 — the student likely forgot to regroup (borrow a whole as a fraction) when the fraction part of the top number was smaller than the fraction part of the bottom."
 
-- question: "To subtract mixed numbers, you must always convert to improper fractions first because regrouping doesn't work with fractions."
+- question: "To subtract mixed numbers, you is expected to generally convert to improper fractions first because regrouping doesn't work with fractions."
   type: true-false
   answer: false
   explanation: "Regrouping works perfectly with fractions — it's analogous to borrowing in whole-number subtraction. When the fraction part of the top number is too small, you borrow 1 from the whole number and convert it to a fraction with the current denominator (e.g., for thirds: borrow 1 = 3/3). The direct subtraction approach is fully valid; converting to improper fractions is an alternative strategy, not a requirement."

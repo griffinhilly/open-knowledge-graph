@@ -51,7 +51,7 @@ Ripple carry adders chain full adders with carry propagation through all stages.
   answer: true
   explanation: "In the worst case, a carry must propagate through every bit position from the least significant to the most significant. Each stage contributes one full-adder carry delay. For an N-bit ripple carry adder the worst-case delay is N × d. This linear relationship contrasts with carry-lookahead adders, which achieve O(log N) delay by computing carry signals in parallel using generate and propagate logic."
 
-- question: "In a ripple carry adder, all full adders compute their sum and carry-out simultaneously once the input bits A and B are applied to all stages."
+- question: "In a ripple carry adder, most full adders compute their sum and carry-out simultaneously once the input bits A and B are applied to most stages."
   type: true-false
   answer: false
   explanation: "This is the central misconception about ripple carry adders. While A[i] and B[i] are available immediately to all stages, each full adder cannot produce a correct carry-out until it receives the correct carry-in from the previous stage. The carry ripples sequentially: stage 0 settles first, then stage 1 one propagation delay later, then stage 2, and so on. Only after all carries have propagated through every stage is the full N-bit sum valid."

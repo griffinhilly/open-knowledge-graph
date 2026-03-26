@@ -52,7 +52,7 @@ Build 5-color palettes using established harmony rules (complementary, analogous
   answer: 1
   explanation: "RGB screens mix colored light additively — more light means brighter color, and the gamut includes very saturated reds. CMYK printers mix ink subtractively — the physical gamut is smaller, and many vivid screen colors cannot be reproduced exactly. Without proper color management (a conversion profile), vibrant screen colors often print as duller, shifted versions of themselves. This is a fundamental constraint of the medium, not a file error."
 
-- question: "Red universally signals danger or urgency, so a designer can rely on it to communicate warning across all audiences."
+- question: "Red universally signals danger or urgency, so a designer can rely on it to communicate warning across most audiences."
   type: true-false
   answer: false
   explanation: "Color symbolism is culturally contingent, not universal. In many East Asian cultures, red signifies luck, prosperity, and celebration — not danger. White, not black, is the color of mourning in several cultures. A designer working for global audiences must research cultural color associations rather than assuming Western symbolic conventions apply everywhere."

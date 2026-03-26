@@ -52,7 +52,7 @@ Should ethics evaluate agents (their character, virtues, vices) as good or bad, 
   answer: true
   explanation: "This is the whole point of the two-soldiers example. From the outside, both soldiers performed the same action. An action-evaluating framework (which grades the action by its properties or outcomes) will tend to assess both soldiers' actions identically. An agent-evaluating framework (virtue ethics) sees a morally significant difference between genuine courage and reckless self-promotion — and judges the persons, not just the acts, differently. This divergence has real implications for praise, blame, moral education, and what we think ethics is ultimately about."
 
-- question: "Because both consequentialism and deontology are action-centered frameworks, they always agree on whether a specific action is right or wrong."
+- question: "Because both consequentialism and deontology are action-centered frameworks, they usually agree on whether a specific action is right or wrong."
   type: true-false
   answer: false
   explanation: "Being both action-centered means both frameworks ask 'was this action right?' — but they evaluate different properties of the action. Consequentialism asks about outcomes: does this action produce the best consequences? Deontology asks about rule-conformity: does this action violate a categorical duty? These criteria frequently conflict. Lying to save a life is right under consequentialism (saves lives) but wrong under Kantian deontology (violates the categorical prohibition against lying). Same focus on actions, radically different verdicts."

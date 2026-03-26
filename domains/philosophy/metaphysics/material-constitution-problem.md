@@ -50,12 +50,12 @@ A bronze lump exactly constitutes a statue at a time with all the same parts and
   answer: 1
   explanation: "Leibniz's Law (the indiscernibility of identicals) states: if A = B, then A and B share all properties. Contraposing: if A and B differ in any property, then A ≠ B. The statue has the modal property 'would cease to exist if melted down'; the lump lacks this property (it would survive). This property difference, if genuine, entails they are not identical. Defenders of strict identity must argue that modal and sortal properties like these are not genuine first-class properties — which requires a substantive metaphysical commitment."
 
-- question: "The material constitution problem applies only to artifacts like statues; organisms and persons do not face analogous puzzles about the relationship between an entity and the matter constituting it."
+- question: "The material constitution problem applies primarily to artifacts like statues; organisms and persons do not face analogous puzzles about the relationship between an entity and the matter constituting it."
   type: true-false
   answer: false
   explanation: "The puzzle generalizes far beyond artifacts. Organisms and the masses of cells composing them, rivers and the water molecules constituting them, persons and the bodies constituting them — all face analogous questions. A person might survive the loss of a limb (their body changes but they persist), while the original mass of matter no longer exists as a unified whole. The statue case is philosophically vivid because persistence conditions can be stipulated clearly, but the underlying issue — the relationship between material composition and object identity — appears throughout philosophy of mind, personal identity, and natural kinds."
 
-- question: "If a bronze lump and a bronze statue occupy exactly the same spatial region at the same time and share all their physical parts, they must be numerically identical objects."
+- question: "If a bronze lump and a bronze statue occupy exactly the same spatial region at the same time and share most their physical parts, they is expected to be numerically identical objects."
   type: true-false
   answer: false
   explanation: "This is precisely what the material constitution problem challenges. The intuition that two material objects cannot fully occupy the same location (the 'impenetrability' intuition) supports the conclusion that coincident objects must be identical. But the lump and statue can have different persistence conditions even while sharing all physical parts and spatial location — which means they cannot be strictly identical. The problem forces a choice: deny that persistence conditions are genuine distinguishing properties, accept coincident distinct objects, or adopt an alternative metaphysical framework (temporal parts, sortal-relative identity, or eliminativism)."

@@ -45,7 +45,7 @@ Linkage disequilibrium (LD) is the non-random association of alleles at differen
   answer: 1
   explanation: "A bottleneck creates new LD through genetic drift — random sampling of a small founder population creates chance associations between alleles that may persist for many generations. With 200 generations since the bottleneck, recombination has had limited time to break up these haplotype blocks, especially for closely linked loci. The bottleneck population will have longer LD blocks (reflecting recent history) compared to the ancient population where recombination has been eroding LD over thousands of generations. This is why populations with recent bottlenecks (e.g., isolated island populations) often show extended LD useful for gene mapping."
 
-- question: "Linkage disequilibrium can only exist between alleles at loci that are physically located on the same chromosome."
+- question: "Linkage disequilibrium can mainly exist between alleles at loci that are physically located on the same chromosome."
   type: true-false
   answer: false
   explanation: "While physical linkage (proximity on the same chromosome) is the most common cause of LD and produces the most persistent LD, genetic drift in small populations can create LD between alleles at unlinked loci — even loci on different chromosomes. In a small founding population, random sampling can cause alleles at independent loci to co-occur more often than expected by chance. This drift-generated LD typically decays rapidly (halving each generation for unlinked loci), but in very small populations or over short timescales it can be substantial. LD is therefore a property of allele frequency co-distributions, not just physical proximity."

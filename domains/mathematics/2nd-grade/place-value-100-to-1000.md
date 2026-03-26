@@ -56,7 +56,7 @@ Use base-ten blocks or drawings to represent three-digit numbers. Start with num
   answer: 1
   explanation: "The tens digit in 250 is 5, so there are 5 tens (worth 50), in addition to 2 hundreds (worth 200) and 0 ones. The classic mistake is reading '25' from the first two digits and concluding '25 tens' — but that conflates the hundreds and tens digits into a single number. Each digit is read independently in its own place. 250 = 2 hundreds + 5 tens + 0 ones."
 
-- question: "The digit 3 always represents the value 3, regardless of where it appears in a number."
+- question: "The digit 3 typically represents the value 3, regardless of where it appears in a number."
   type: true-false
   answer: false
   explanation: "False. This is precisely what place value means. The digit 3 in 300 represents 3 × 100 = 300. The same digit 3 in 30 represents 3 × 10 = 30. In 3, it represents 3 × 1 = 3. The digit alone is not the value — the digit combined with its position is the value. This is the fundamental principle of our number system."

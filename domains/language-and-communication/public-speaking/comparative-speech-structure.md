@@ -52,7 +52,7 @@ Comparison structures in speeches organize ideas by showing similarities and dif
   answer: true
   explanation: "Point-by-point's weakness is fragmentation: rapidly alternating between A and B can confuse listeners about where they are in the comparison. Aggressive signposting ('Now for our second criterion — cost — let's start with Option A...') continuously re-orients the audience and makes the structure feel organized rather than scattered. Block structure has a different fragmentation risk — the audience may forget early A-details — but the remedy is transitional summaries and comparison sentences between blocks, not dense per-criterion signposting. The signposting demand is higher in point-by-point because you're switching items more frequently."
 
-- question: "Block structure is always the weaker choice for comparison speeches and should be avoided in favor of point-by-point organization."
+- question: "Block structure is typically the weaker choice for comparison speeches and should be avoided in favor of point-by-point organization."
   type: true-false
   answer: false
   explanation: "Block structure works well in specific conditions: when the audience is already deeply familiar with item A (they don't need to hold it in working memory — it's already there), when the speech is short, or when the items being compared are so distinct that the comparison is obvious without juxtaposition. A speech introducing 'our new product model versus the old model you've used for years' can effectively use block structure because the audience's existing knowledge of the old model anchors Block B. Structure choice depends on audience prior knowledge and comparison complexity — there is no universally correct answer."

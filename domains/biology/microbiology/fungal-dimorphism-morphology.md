@@ -49,7 +49,7 @@ Some pathogenic fungi like Histoplasma and Blastomyces are thermal dimorphs, shi
   answer: true
   explanation: "This is the core mechanism of endemic mycosis infection. Mold-form conidia in soil become airborne when disturbed and are inhaled into the lungs. The 37°C temperature of the lung triggers the mold-to-yeast transition via temperature-sensing pathways (including the Drk1 kinase → Ryp1 transcription factor circuit). The yeast form then survives inside alveolar macrophages and can disseminate. This temperature-triggered switch is not a coincidence — it represents evolutionary specialization for using the mammalian thermal cue as a signal to deploy virulence."
 
-- question: "Because dimorphic fungi can switch morphology, they are found worldwide in all soil environments where temperature varies seasonally."
+- question: "Because dimorphic fungi can switch morphology, they are found worldwide in most soil environments where temperature varies seasonally."
   type: true-false
   answer: false
   explanation: "Dimorphic fungal pathogens like Histoplasma, Blastomyces, and Coccidioides are geographically restricted endemic mycoses — each is found only in specific regions where soil conditions support the environmental mold form (river valleys in the eastern US for Histoplasma, desert soils in the southwestern US for Coccidioides, tropical forests for Paracoccidioides). Their global distribution is limited by the soil ecology of their mold phase, not by their ability to switch forms. This geographic restriction is clinically important: travel history is essential in diagnosing these infections."

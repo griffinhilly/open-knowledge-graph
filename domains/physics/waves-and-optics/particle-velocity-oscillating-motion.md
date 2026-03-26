@@ -47,7 +47,7 @@ Particles in a wave do not propagate along with the wave—they remain near thei
   answer: 2
   explanation: "At maximum displacement (crest or trough), the particle is at its turning point — like a ball thrown upward at its peak, momentarily at rest before reversing. From v = -Aω cos(kx - ωt): when displacement is maximum, sin(kx - ωt) = ±1, which forces cos(kx - ωt) = 0, giving zero velocity. The 90° phase difference between displacement and velocity is the key relationship: maximum displacement coincides with zero speed, and zero displacement coincides with maximum speed."
 
-- question: "A particle in a medium that carries a wave must be moving whenever the wave is moving."
+- question: "A particle in a medium that carries a wave should be moving whenever the wave is moving."
   type: true-false
   answer: false
   explanation: "At maximum displacement (a crest or trough), a particle is momentarily at rest even as the wave pattern continues traveling. The particle's velocity is governed by its phase in the oscillation cycle, not by whether the wave is propagating. This is the fundamental distinction: wave propagation does not require particles to be in constant motion — at any given instant, particles at the crests and troughs are stationary while those at equilibrium positions are moving fastest."

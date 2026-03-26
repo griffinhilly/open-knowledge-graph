@@ -45,7 +45,7 @@ Biodiversity at any time reflects the balance between speciation and extinction 
   answer: 2
   explanation: "The fossil record shows that full ecosystem recovery from mass extinctions typically requires 5–10 million years. While speciation occurs continuously, the diversification needed to replace the ecological functions of lost lineages is a deep-time process. 'Halting the causes of extinction' and 'recovering lost biodiversity' operate on completely different timescales — the former is a matter of policy and decades, the latter of geological time. This asymmetry makes ongoing extinctions effectively irreversible on any human-relevant timescale."
 
-- question: "Mass extinctions eliminate species randomly, with all lineages facing roughly equal extinction probability regardless of their ecological characteristics."
+- question: "Mass extinctions eliminate species randomly, with most lineages facing roughly equal extinction probability regardless of their ecological characteristics."
   type: true-false
   answer: false
   explanation: "False. Mass extinctions are selective — certain traits consistently predict survival or extinction during catastrophic events. Being geographically widespread, ecologically generalist, and small-bodied tend to improve survival odds. This selectivity is consequential because it means extinctions don't simply reduce diversity uniformly — they disproportionately eliminate the dominant, specialized groups that characterized the pre-extinction world. The traits favoring success in normal times (specialization, large body size, ecological dominance) are often the very traits that increase extinction risk during catastrophes."

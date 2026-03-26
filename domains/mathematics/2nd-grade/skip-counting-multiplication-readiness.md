@@ -50,7 +50,7 @@ Skip counting by 2s, 5s, and 10s models repeated addition and becomes the founda
   answer: 1
   explanation: "Skip counting by 5s is not a separate trick — it IS repeated addition of 5, which is the definition of multiplication by 5. Every step adds another group of 5 to the total. Skip counting builds multiplication fluency directly; it's the physical, oral form of multiplication before the abstract symbol × is introduced. Students who skip count fluently have already partially learned their times tables without realizing it."
 
-- question: "Skip counting by 2s and multiplying by 2 are two completely different mathematical operations."
+- question: "Skip counting by 2s and multiplying by 2 are two mostly different mathematical operations."
   type: true-false
   answer: false
   explanation: "They are the same operation expressed differently. Skip counting by 2s — saying 2, 4, 6, 8 — is repeated addition of 2: 2+2+2+2. And repeated addition of 2 is multiplication by 2: 4 × 2 = 8. The only difference is notation: skip counting is the oral/sequential form; multiplication is the compact symbolic form. Recognizing this equivalence is the key readiness concept: you're doing multiplication before you write the × symbol."

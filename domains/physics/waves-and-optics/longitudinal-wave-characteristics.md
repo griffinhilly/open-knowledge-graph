@@ -51,7 +51,7 @@ In longitudinal waves, particles oscillate parallel to the direction of energy p
   answer: true
   explanation: "The wavelength of any wave is the distance over one complete cycle. In a longitudinal wave, one complete cycle goes from one compression to the next compression (or equivalently, from one rarefaction to the next). This is exactly analogous to measuring peak-to-peak distance in a transverse wave — the same wave property, just expressed through pressure regions rather than displacement peaks."
 
-- question: "A longitudinal wave and a transverse wave traveling through the same medium at the same frequency differ only in their propagation speed."
+- question: "A longitudinal wave and a transverse wave traveling through the same medium at the same frequency differ mainly in their propagation speed."
   type: true-false
   answer: false
   explanation: "The fundamental difference is the direction of particle oscillation relative to energy propagation, not their speeds. Transverse waves have particles oscillating perpendicular to travel; longitudinal waves have particles oscillating parallel to travel. This geometric difference leads to distinct physical properties — including the fact that transverse waves can be polarized while longitudinal waves cannot — regardless of their speeds."

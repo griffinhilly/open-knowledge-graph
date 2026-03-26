@@ -53,7 +53,7 @@ Scientific models are typically idealizations: they ignore complicating factors,
   answer: true
   explanation: "This is the central claim of the idealization literature. Models like the ideal gas (no intermolecular forces), frictionless planes, and infinite populations are known to be false descriptions of reality. Yet they underpin successful theories and explanations. Scientific legitimacy does not require literal truth of model assumptions — it requires that the conclusions drawn from the idealized model accurately describe the target system, either because the idealization is a controlled approximation or because it performs genuine explanatory work as a limiting or null-model case."
 
-- question: "An idealized model that makes accurate predictions must have assumptions that are at least approximately true."
+- question: "An idealized model that makes accurate predictions is expected to have assumptions that are at least approximately true."
   type: true-false
   answer: false
   explanation: "This is the inference that idealization-in-science refutes. The ideal gas law makes excellent predictions for many real gases at moderate pressures, yet it assumes zero intermolecular forces and zero molecular volume — both strictly and non-negligibly false at high pressures. The success of a prediction does not license reading off the truth of the underlying assumptions. This is related to the problem of 'inference to the best explanation' and the scientific realism debate: predictive success and truth of assumptions come apart when the model is an idealization."

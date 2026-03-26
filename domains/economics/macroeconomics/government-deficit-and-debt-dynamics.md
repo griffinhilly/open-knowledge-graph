@@ -47,7 +47,7 @@ The government deficit is spending minus revenues in any year; accumulated defic
   answer: 1
   explanation: "The primary surplus (or deficit) excludes interest payments because interest is determined by past borrowing decisions and bond market conditions — it cannot be changed by this year's policy choices. The primary balance is what policymakers can actually control through spending and tax decisions. A government can run a primary surplus (spending < revenue, excluding interest) while still running an overall deficit if interest payments are large enough. This distinction is crucial for assessing fiscal effort versus inherited debt burden."
 
-- question: "A government that runs a perfectly balanced budget (total spending equals total revenues) will always keep its debt-to-GDP ratio stable."
+- question: "A government that runs a perfectly balanced budget (total spending equals total revenues) will generally keep its debt-to-GDP ratio stable."
   type: true-false
   answer: false
   explanation: "A 'balanced budget' in the overall sense (including interest payments) is different from a zero primary deficit. If the overall budget balances, interest payments are being covered by current revenues — meaning the government is running a primary surplus equal to its interest payments. However, even with a zero primary deficit (excluding interest), if r > g, the debt-to-GDP ratio still rises via the snowball effect. The common confusion is equating 'balanced budget' with 'stable debt' — these are only the same when r = g."

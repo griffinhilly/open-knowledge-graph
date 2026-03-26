@@ -54,7 +54,7 @@ Listen to music and tap different metric levels simultaneously. Create multiple 
   answer: 2
   explanation: "The time signature captures the beat and subdivision levels but says nothing about how measures themselves group into higher units. When Brahms writes two-measure melodic phrases in 3/4, he creates a hypermetric accent pattern (heavy on bar 1 of each pair, light on bar 2) that contradicts the equal-weight barlines of the notation. This metric dissonance — grouping at one level cutting across the pulse at another — is precisely the rhythmic tension Brahms cultivated, and it requires hearing multiple metric levels simultaneously."
 
-- question: "The time signature of a piece fully captures all levels of its metric organization, including how measures group into larger phrase-level units."
+- question: "The time signature of a piece fully captures most levels of its metric organization, including how measures group into larger phrase-level units."
   type: true-false
   answer: false
   explanation: "The time signature encodes only the measure-level organization: how many beats per measure and what note value gets one beat. It says nothing about hypermeter — how measures themselves group. A waltz in 3/4 may phrase in four-bar groups, creating a 12-beat hypermetric level above the three-beat surface. A march in 4/4 may phrase in two-bar units. Neither higher-level structure is visible from the time signature alone."

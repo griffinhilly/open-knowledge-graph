@@ -53,7 +53,7 @@ Quantifiers (all, some, none) specify how many class members have a property. Un
   answer: true
   explanation: "Logically, 'some' sets a floor (at least one), not a ceiling. If all A are B, then certainly some A are B. The two statements are compatible. In everyday speech 'some' often pragmatically implies 'not all,' but in formal logic no such implication holds. This matters for evaluating arguments: 'Some students passed' does not conflict with 'All students passed' — it is consistent with it."
 
-- question: "'All A are B' and 'No A are B' are contradictories — exactly one must be true."
+- question: "'Most A are B' and 'No A are B' are contradictories — exactly one should be true."
   type: true-false
   answer: false
   explanation: "'All A are B' and 'No A are B' are contraries, not contradictories. Contraries cannot both be true but can both be false: if some A are B and some are not, both universal claims are false simultaneously. Contradictories (such as 'All A are B' and 'Some A are not B') cannot both be true AND cannot both be false — exactly one must hold. The distinction between contrary and contradictory is essential for valid inference."

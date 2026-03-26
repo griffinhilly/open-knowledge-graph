@@ -44,7 +44,7 @@ Property dualism claims that while the world may be entirely physical at the sub
   answer: 2
   explanation: "The evolutionary argument is widely considered the strongest objection. If conscious mental properties are causally inert — mere shadows of neural events — then evolution would have no mechanism to preserve them. Selection acts on behavior, which is physical; causally inert properties cannot contribute to survival or reproduction. The persistence of consciousness across the animal kingdom therefore demands explanation that epiphenomenalism cannot provide. Options A and D are factually wrong; B is a philosophical objection but not the strongest empirical one."
 
-- question: "Property dualism avoids all the problems of substance dualism by accepting only one substance."
+- question: "Property dualism avoids most of the problems of substance dualism by accepting mainly one substance."
   type: true-false
   answer: false
   explanation: "Property dualism avoids the interaction problem (how two substances communicate) but introduces its own severe problem: the exclusion problem. If mental properties are non-physical and the physical world is causally closed, mental properties appear causally redundant. Property dualism trades one problem for another rather than dissolving dualist difficulties. It occupies a 'precarious middle ground' — more defensible than substance dualism in some respects, but not problem-free."

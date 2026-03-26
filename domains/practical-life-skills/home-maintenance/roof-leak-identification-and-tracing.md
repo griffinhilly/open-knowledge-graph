@@ -58,7 +58,7 @@ Water drips directly from where the roof leaks (water travels laterally along ro
   answer: 1
   explanation: "Penetrations are the highest-risk points because they interrupt the continuous roof surface and rely on flashing — thin metal sheets sealed with roofing cement or butyl tape — to redirect water. These seals degrade from UV exposure and thermal cycling over years. A large uninterrupted roof plane sheds water effectively; it's only where the plane is interrupted (chimneys, vents, skylights, valleys) that failures concentrate."
 
-- question: "A small water stain on the ceiling indicates a minor, localized leak that only needs a small patch on the roof directly above it."
+- question: "A small water stain on the ceiling indicates a minor, localized leak that mainly needs a small patch on the roof directly above it."
   type: true-false
   answer: false
   explanation: "Stain size tells you almost nothing about the breach location or severity. Water can travel 4–10 feet along structural members before dripping, so a small stain may result from a significant breach far away. Additionally, the roof structure can spread water widely before it reaches the ceiling material. The correct approach is to trace the water path uphill in the attic to find the actual entry point — which may require a completely different repair in a different location."

@@ -58,7 +58,7 @@ Set body text at a fixed size (12px) and try leading values from 100% to 200%. N
   answer: true
   explanation: "This is the core systemic relationship between line length and leading. At the end of a long line, the eye must scan back a long distance to find the start of the next line. If vertical separation between lines is tight, this return journey is more likely to land on the wrong line — re-reading the previous line or skipping to the one below. Generous leading creates a clear vertical target for each line. Narrow columns can survive tight leading precisely because the short horizontal distance makes line-tracking easy even without extra vertical space."
 
-- question: "A leading of 130% of the type size is equally appropriate for all body text regardless of the typeface or column width, as long as the type size stays constant."
+- question: "A leading of 130% of the type size is equally appropriate for most body text regardless of the typeface or column width, as long as the type size stays constant."
   type: true-false
   answer: false
   explanation: "The 120–150% guideline is a starting point, not a fixed rule. Optimal leading depends on the typeface's x-height (typefaces with tall x-heights like Verdana need more leading than typefaces with small x-heights like Garamond), the line length (longer lines need more leading), and the rendering environment (light text on dark backgrounds often needs more leading). Two typefaces at the same size and percentage leading can read very differently because their internal proportions differ. The guideline requires judgment based on the specific type-length-face combination."

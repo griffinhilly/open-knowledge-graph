@@ -55,7 +55,7 @@ Dry-brine a chicken breast (salt it and refrigerate uncovered for 1-24 hours) an
   answer: 2
   explanation: "Dry brining works through a two-stage mechanism. Initially, salt draws surface moisture out through osmosis. As the salt concentration equilibrates inside the meat, dissolved proteins change conformation in ways that allow muscle fibers to hold onto more liquid when heated. The practical result: modified proteins don't squeeze out their water as readily when heat causes muscle fibers to contract, so the brined breast stays juicier throughout cooking. Option A is wrong — the mechanism is physical, not just perceptual. Option B describes the first stage accurately but misses the critical second stage (protein modification and moisture retention)."
 
-- question: "A marinade is more effective than a dry brine for adding deep, all-the-way-through flavor to a thick steak, because the liquid completely surrounds the meat."
+- question: "A marinade is more effective than a dry brine for adding deep, most-the-way-through flavor to a thick steak, because the liquid mostly surrounds the meat."
   type: true-false
   answer: false
   explanation: "Being surrounded by liquid doesn't determine penetration depth. Most flavor compounds in a marinade only travel a few millimeters into dense protein, regardless of how completely the surface is covered. A dry brine (salt directly applied) actually penetrates more effectively over time: salt draws surface moisture out, dissolves, and is drawn back in as the salt concentration equalizes. For flavor deep inside thick cuts, brining is generally superior to marinating, and injection (physically carrying flavor inward) is the most direct method."

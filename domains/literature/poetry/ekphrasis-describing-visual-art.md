@@ -52,7 +52,7 @@ Choose a visual artwork and study its details carefully, then write an ekphrasti
   answer: 2
   explanation: "Responsive ekphrasis uses the visual artwork as a starting point or prompt for the poet's thinking, which may quickly depart from the object. The urn in Keats's ode is not the poem's ultimate subject — it is a vehicle for meditation on art's relationship to time, permanence, truth, and beauty. This is distinct from descriptive ekphrasis (which stays close to the artwork's content) and ventriloquist ekphrasis (which gives voice to figures within the painting or object). Knowing the mode helps you read the poem accurately: you shouldn't judge Keats's ode by how faithfully it describes the urn."
 
-- question: "An ekphrastic poem must remain close to the visual artwork it addresses — departing significantly from the original work is a failure of the ekphrastic task."
+- question: "An ekphrastic poem is expected to remain close to the visual artwork it addresses — departing significantly from the original work is a failure of the ekphrastic task."
   type: true-false
   answer: false
   explanation: "This is a misconception directly addressed in the topic. Some of the most celebrated ekphrastic poems depart radically from their visual source — Keats's 'Ode on a Grecian Urn' uses the urn as a catalyst for philosophical meditation that moves far beyond describing it. Ekphrasis is not caption-writing; it is a response to, argument with, or meditation prompted by the visual work. The relationship between poem and painting can range from close description to loose inspiration, and the quality of ekphrasis is not measured by fidelity."

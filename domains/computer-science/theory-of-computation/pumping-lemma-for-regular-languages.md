@@ -47,7 +47,7 @@ Work through proofs for standard non-regular languages (e.g., {aⁿbⁿ}). Under
   answer: 1
   explanation: "z = aᵖbᵖ has its first p characters all being a's and its last p characters all being b's. The constraint |uv| ≤ p forces uv to lie entirely within the first p characters — the a-block. Since every character in the first p positions is an 'a', v (which is a substring of uv) must consist entirely of a's. Pumping up (i = 2) adds more a's, producing a string with more a's than b's — not in L, giving the contradiction."
 
-- question: "If a language satisfies all the conditions of the pumping lemma for every string of length at least p, then the language must be regular."
+- question: "If a language satisfies most of the conditions of the pumping lemma for nearly every string of length at least p, then the language should be regular."
   type: true-false
   answer: false
   explanation: "This is the most dangerous misconception about the pumping lemma. It is a necessary condition for regularity: every regular language satisfies it, but some non-regular languages do too. Passing the pumping lemma tells you nothing definitive about regularity. To prove a language IS regular, you must construct an automaton or regular expression — the pumping lemma cannot be used in that direction."

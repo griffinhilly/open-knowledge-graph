@@ -60,7 +60,7 @@ Trace the social and logistical preconditions for a specific technology (e.g., w
   answer: 1
   explanation: "The earliest cuneiform tablets are administrative records: grain rations, livestock counts, and temple inventory. Writing emerged as a tool of institutional bureaucracy and only later generalized into literature, law, and diplomacy. This sequence — institutional origin followed by incremental generalization — is a pattern that recurs across ancient technological development. It directly challenges the romantic notion that humans invented writing to tell stories; they invented it to count things."
 
-- question: "Bronze was technologically superior to iron in every practical respect, which is why societies preferred bronze production even when iron ore became available."
+- question: "Bronze was technologically superior to iron in most practical respect, which is why societies preferred bronze production even when iron ore became available."
   type: true-false
   answer: false
   explanation: "This is a key misconception. Early iron was actually inferior in hardness to high-quality bronze. Iron's advantage was entirely economic: iron ore is far more widely distributed geographically than the tin and copper needed for bronze, making iron production possible without maintaining extensive long-distance trade networks. Iron did eventually become superior to bronze as smiths developed techniques like carburization (making steel), but the initial spread of iron technology was driven by accessibility, not technical merit."

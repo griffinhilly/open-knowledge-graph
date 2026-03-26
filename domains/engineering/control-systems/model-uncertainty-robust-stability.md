@@ -52,7 +52,7 @@ Real plants differ from models due to unmodeled dynamics, parameter variation, a
   answer: true
   explanation: "The robust stability condition for multiplicative uncertainty is |T(jω)| ≤ 1/W(ω) at all frequencies. At high frequencies, unmodeled dynamics, parasitic resonances, and pure time delays make W(ω) large — the uncertainty bound grows. For the inequality to hold where W is large, T must be small. This means the closed-loop transfer function must roll off at high frequencies, limiting bandwidth. This is not a restriction imposed by robust stability analysis on top of good design — it is a quantitative expression of the intuition that controllers should not be tuned too aggressively into frequency ranges where the model is unreliable."
 
-- question: "A system with large gain and phase margins is guaranteed to remain stable for any bounded uncertainty in the plant model."
+- question: "A system with large gain and phase margins is very likely to remain stable for any bounded uncertainty in the plant model."
   type: true-false
   answer: false
   explanation: "Gain and phase margins provide conservative stability guarantees only for specific types of perturbation — simultaneous gain and phase changes at specific frequencies (crossover frequencies). They do not protect against all bounded uncertainties. For example, a plant with excellent gain and phase margins can still be destabilized by an unmodeled high-frequency resonance if the controller has high gain at that resonance frequency. Complete robustness guarantees require frequency-domain conditions like the complementary sensitivity bound, which must hold across all frequencies, not just at crossover points."

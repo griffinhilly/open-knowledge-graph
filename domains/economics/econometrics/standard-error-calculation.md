@@ -54,7 +54,7 @@ Compare conventional, robust, and clustered standard errors in applied examples.
   answer: true
   explanation: "Within-cluster correlation means many observations contain the same information — they are not truly independent. Conventional SEs treat all observations as independent, overstating effective sample size and producing artificially small SEs and inflated t-statistics. A t-statistic of 2.5 with conventional SEs might drop to 0.9 with clustered SEs, flipping the conclusion entirely. This is why SE choice is a validity issue, not a cosmetic one."
 
-- question: "Clustered standard errors are always larger than robust (Huber-White) standard errors for the same regression."
+- question: "Clustered standard errors are typically larger than robust (Huber-White) standard errors for the same regression."
   type: true-false
   answer: false
   explanation: "Clustered SEs are typically larger than robust SEs when within-cluster correlation is substantial, because they effectively reduce the information content to the number of clusters. But if errors are nearly independent within clusters — meaning observations in the same cluster are not actually similar — clustered SEs can be similar to or even smaller than robust SEs. The relationship depends on the actual correlation structure in the data, not a universal rule."

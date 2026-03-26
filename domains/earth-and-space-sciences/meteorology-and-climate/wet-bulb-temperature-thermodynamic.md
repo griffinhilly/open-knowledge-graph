@@ -47,7 +47,7 @@ The wet-bulb temperature is the equilibrium temperature reached when air is satu
   answer: 1
   explanation: "Human thermoregulation depends on evaporative cooling: sweat evaporates from skin, removing latent heat. This process requires that the ambient air be below saturation. When wet-bulb temperature approaches ~35°C (skin temperature), the gradient driving evaporation nearly vanishes — the body cannot cool itself regardless of how much it sweats. City A's 26°C wet-bulb still allows effective sweating. City B's 35°C wet-bulb is near the physiological lethal threshold, making it far more dangerous despite the lower dry-bulb temperature."
 
-- question: "In completely saturated air (100% relative humidity), the wet-bulb temperature is higher than the dry-bulb temperature because saturation stores more heat."
+- question: "In mostly saturated air (100% relative humidity), the wet-bulb temperature is higher than the dry-bulb temperature because saturation stores more heat."
   type: true-false
   answer: false
   explanation: "In saturated air, evaporation from a wet surface cannot occur because the air cannot hold any more water vapor. With no evaporation, there is no evaporative cooling, and the wet thermometer reads the same temperature as the dry thermometer. At 100% RH, wet-bulb temperature = dry-bulb temperature = dew point. They converge to the same value, not with wet-bulb above dry-bulb. The wet-bulb temperature can never exceed the dry-bulb temperature."

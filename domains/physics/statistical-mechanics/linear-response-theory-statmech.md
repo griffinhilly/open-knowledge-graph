@@ -51,7 +51,7 @@ When a weak external field is applied to a system in equilibrium, the response i
   answer: true
   explanation: "True. This is the core message of the fluctuation-dissipation connection embedded in the Kubo formula. A system that fluctuates easily in equilibrium is precisely one that can be easily pushed into a new state by a small external perturbation. Mathematically, susceptibility is proportional to the integral of the equilibrium correlation function, so large fluctuations mean large susceptibility."
 
-- question: "To use the Kubo formula to calculate a system's linear response, you must first solve the dynamics of the perturbed Hamiltonian H + H'."
+- question: "To use the Kubo formula to calculate a system's linear response, you is expected to first solve the dynamics of the perturbed Hamiltonian H + H'."
   type: true-false
   answer: false
   explanation: "False. This is the wrong approach that linear response theory supersedes. The Kubo formula expresses the response function entirely in terms of equilibrium expectation values in the unperturbed system — ⟨[B(t), A(0)]⟩₀ uses the unperturbed equilibrium state. The entire point is that you do not need to solve the perturbed problem; equilibrium correlators contain all the information about the linear response."

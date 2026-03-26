@@ -53,7 +53,7 @@ Study the tableau construction at a high level: understand that rows represent T
   answer: 1
   explanation: "A polynomial-time reduction from SAT to Clique means that any SAT instance can be converted to a Clique instance in polynomial time. Since every NP problem already reduces to SAT (by Cook-Levin), every NP problem now reduces to Clique through the chain. Clique is also in NP (a clique of size k can be verified in polynomial time by checking all edges). Therefore Clique is NP-complete. The cascade of reductions — each far simpler than Cook-Levin — is the key payoff of establishing the first NP-complete problem."
 
-- question: "The Cook-Levin tableau construction directly proves that 3-SAT (where every clause has exactly three literals) is NP-complete."
+- question: "The Cook-Levin tableau construction directly proves that 3-SAT (where nearly every clause has exactly three literals) is NP-complete."
   type: true-false
   answer: false
   explanation: "The tableau construction proves that general SAT is NP-complete. To show 3-SAT is NP-complete, a separate polynomial-time reduction from SAT to 3-SAT is needed — one that introduces auxiliary Boolean variables to break long clauses into groups of exactly three literals. This reduction is relatively straightforward but is a distinct step. Cook-Levin does the heavy lifting for SAT; the SAT-to-3-SAT reduction handles the rest."

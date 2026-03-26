@@ -45,7 +45,7 @@ Calculate the mass defect and binding energy of deuterium and helium-4 numerical
   answer: 2
   explanation: "Binding energy per nucleon peaks near iron (A ≈ 56). Heavy nuclei like uranium have lower binding energy per nucleon than iron; splitting them produces mid-mass fragments closer to the iron peak — higher binding energy per nucleon — and the energy difference is released. Light nuclei like hydrogen also have lower binding energy per nucleon than iron; fusing them produces helium, which is closer to the peak. In both cases, the products are more tightly bound, and that extra binding energy is released."
 
-- question: "Heavier nuclei always have greater binding energy per nucleon than lighter nuclei, which is why larger atoms tend to be more stable."
+- question: "Heavier nuclei generally have greater binding energy per nucleon than lighter nuclei, which is why larger atoms tend to be more stable."
   type: true-false
   answer: false
   explanation: "Binding energy per nucleon is not monotonically increasing with mass number. It rises steeply for the lightest nuclei, peaks near iron-56, and then gradually declines for heavier nuclei. This means very heavy nuclei (like uranium) and very light nuclei (like hydrogen) both have lower binding energy per nucleon than iron. The stability peak is at iron, not at the heaviest element."

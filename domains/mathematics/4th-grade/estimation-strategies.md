@@ -70,7 +70,7 @@ Always embed estimation in context: "About how much will these four items cost?"
   answer: true
   explanation: "This is the deepest purpose of estimation: reasonableness checking. After you compute an exact answer, a quick estimate tells you whether the answer is plausible. If your exact calculation gives 7,990 but your estimate says ~800, you know immediately that something went wrong. Estimation catches order-of-magnitude errors before they matter."
 
-- question: "A good estimator always rounds numbers to the same place value regardless of the problem."
+- question: "A good estimator usually rounds numbers to the same place value regardless of the problem."
   type: true-false
   answer: false
   explanation: "Good estimation requires matching the strategy to the context. Rounding to hundreds is fast but imprecise; rounding to tens is slower but more accurate. For some calculations, compatible numbers are better than rounding at all. A rigid 'always round to hundreds' rule produces estimates that are too rough to catch common errors. Choosing the rounding place (or strategy) based on how much precision you need is part of what makes estimation a thinking skill."

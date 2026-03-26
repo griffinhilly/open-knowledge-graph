@@ -59,7 +59,7 @@ DFS can visit vertices in many different orders depending on starting vertex and
   answer: true
   explanation: "This is BFS's defining property. Because BFS uses a queue and processes vertices in FIFO order, it finishes all vertices at distance d before reaching any at distance d+1. The first time a vertex is discovered, it is reached via the shortest possible route. DFS makes no such guarantee — it may find a vertex after following a long chain when a two-hop path existed."
 
-- question: "DFS is faster than BFS in the worst case because it finds the target vertex sooner without exploring all levels."
+- question: "DFS is faster than BFS in the worst case because it finds the target vertex sooner without exploring most levels."
   type: true-false
   answer: false
   explanation: "Both DFS and BFS run in O(V + E) time — they visit every vertex and edge exactly once. DFS may happen to find a target quickly in a specific case, but in the worst case (e.g., the target is at the opposite end of the graph), it explores just as much as BFS. The difference between the algorithms is not efficiency but the *structure* they expose: DFS reveals back-edges and cycle structure; BFS reveals shortest paths."

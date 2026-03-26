@@ -54,12 +54,12 @@ Compare school curricula and pedagogy with family socialization patterns across 
   answer: 2
   explanation: "The ideological power of cultural reproduction lies precisely in appearing meritocratic. Schools do not explicitly exclude working-class students — they assess all students by the same standards. But those standards are shaped around the cultural capital that dominant-class students already possess from home socialization, giving them an invisible advantage. Because the selection criterion appears neutral (academic quality), the resulting class reproduction looks like the natural sorting of talent rather than the transmission of inherited privilege."
 
-- question: "Cultural reproduction theory implies that upward social mobility through education is impossible for working-class students."
+- question: "Cultural reproduction theory implies that upward social mobility through education is impractical for working-class students."
   type: true-false
   answer: false
   explanation: "Reproduction is a tendency, not an absolute barrier. Mobility does occur. However, Bourdieu argues that it typically requires working-class students to undergo a significant cultural conversion — acquiring a new habitus aligned with dominant-class expectations — rather than simply gaining knowledge. He calls this cohort the 'sacrificed generation' because the conversion often involves distancing from one's original class culture and social world. Mobility is possible but carries costs that dominant-class students do not face."
 
-- question: "According to Bourdieu, schools primarily disadvantage working-class students by teaching content that only middle-class students find interesting or relevant."
+- question: "According to Bourdieu, schools primarily disadvantage working-class students by teaching content that primarily middle-class students find interesting or relevant."
   type: true-false
   answer: false
   explanation: "The mechanism is more subtle than differential content interest. Schools reproduce inequality by valuing particular cultural *styles* — language register, modes of reasoning, social comportment, aesthetic tastes — that dominant-class students arrive already possessing through their habitus. It is not that working-class students find the curriculum less interesting; it is that the implicit cultural curriculum favors students whose home socialization has pre-aligned them with school expectations. They receive an invisible subsidy, focusing cognitive energy on content rather than on decoding an unfamiliar cultural code."

@@ -56,7 +56,7 @@ Some planetary atmospheres exhibit temperature inversions where upper layers are
   answer: true
   explanation: "This is correct. Convection is driven by buoyancy: warm air rises because it is less dense than its surroundings. In an inversion, upper air is *warmer* and therefore less dense than the air trying to rise into it — the rising parcel is denser than its new environment and sinks back. This suppresses vertical mixing, which is why pollutants and water vapor are trapped below the inversion, and why the stratosphere has so little weather despite containing significant heat."
 
-- question: "A thermal inversion can only form in a planetary atmosphere if the atmosphere contains a greenhouse gas — a molecule that traps outgoing infrared radiation."
+- question: "A thermal inversion can primarily form in a planetary atmosphere if the atmosphere contains a greenhouse gas — a molecule that traps outgoing infrared radiation."
   type: true-false
   answer: false
   explanation: "Thermal inversions require an absorber of *incoming* stellar radiation at altitude, not a greenhouse gas. Greenhouse gases trap outgoing IR at lower altitudes; inversions form when a species absorbs incident short-wave radiation high in the atmosphere, depositing heat there. Ozone absorbs UV, TiO/VO on hot Jupiters absorb visible/near-IR stellar light, and photochemical hazes absorb solar radiation — none of these are classical greenhouse gases. The distinction between absorbing incoming vs. trapping outgoing radiation is key."

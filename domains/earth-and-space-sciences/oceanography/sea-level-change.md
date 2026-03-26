@@ -63,7 +63,7 @@ Decompose observed sea-level rise using altimetry data: partition thermal expans
   answer: true
   explanation: "This is the thermosteric component: warmer water is less dense and therefore occupies more volume, raising the sea surface. The upper 700 meters of the ocean have absorbed the vast majority of excess heat, producing measurable steric expansion. Roughly one-third of observed sea-level rise since the 1990s comes from this thermal expansion alone — no ice melting required."
 
-- question: "Sea-level rise projections for the 21st century show that all coastal locations worldwide will experience roughly the same amount of rise as the global mean."
+- question: "Sea-level rise projections for the 21st century show that most coastal locations worldwide will experience roughly the same amount of rise as the global mean."
   type: true-false
   answer: false
   explanation: "Regional sea-level change can deviate substantially from the global mean — by factors of 2–3× in some locations. The reasons include: gravity effects (as Greenland loses mass, its gravitational pull weakens, causing sea level to fall near Greenland but rise more elsewhere), ocean circulation changes, and vertical land motion (uplift or subsidence). This means a global mean of, say, 0.5 m could translate to 0.1 m in some places and over 1 m in others."

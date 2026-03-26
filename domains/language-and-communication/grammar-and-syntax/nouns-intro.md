@@ -41,7 +41,7 @@ Sort lists of words into categories — people, places, things, ideas — before
   answer: 2
   explanation: "Courage names an idea or quality that cannot be physically touched or seen — it is abstract. Mountain and teacher are concrete nouns (physical, observable things or people). London is a proper noun (a specific named place). Abstract nouns are often overlooked because students associate nouns with physical objects, but ideas, emotions, and qualities are equally valid nouns."
 
-- question: "Abstract nouns like 'happiness' and 'justice' are not really nouns because they cannot be physically touched or seen."
+- question: "Abstract nouns like 'happiness' and 'justice' are not really nouns because they can seldom be physically touched or seen."
   type: true-false
   answer: false
   explanation: "A noun is defined by its grammatical function — naming an entity — not by whether it is tangible. Abstract nouns name concepts, qualities, states, and ideas. They behave grammatically just like concrete nouns: they can be subjects ('Justice was served'), objects ('She sought happiness'), and can take articles and plurals. The 'can you touch it?' test correctly identifies many nouns but fails for the abstract category."

@@ -46,7 +46,7 @@ Composite materials combine two or more constituent materials with different pro
   answer: 2
   explanation: "In the longitudinal direction, the fiber and matrix are bonded together so they deform by the same amount — they share the same strain (isostrain or Voigt condition). When strain is equal, each phase contributes stiffness in proportion to its volume fraction, yielding E_L = V_f·E_f + V_m·E_m. In the transverse direction the opposite holds: fiber and matrix carry the same stress (isostress or Reuss condition), and the inverse rule of mixtures applies, giving a stiffness dominated by the weaker phase (the matrix). Option D describes the transverse case, not the longitudinal one."
 
-- question: "The strong directional dependence (anisotropy) of fiber-reinforced composites is an inherent limitation that designers must compensate for by adding more material."
+- question: "The strong directional dependence (anisotropy) of fiber-reinforced composites is an inherent limitation that designers is expected to compensate for by adding more material."
   type: true-false
   answer: false
   explanation: "Anisotropy is not a limitation — it is a deliberate design tool. By controlling fiber orientation and laminate stacking sequence, engineers 'program' the mechanical properties to match the load environment. A wing skin loaded primarily in bending along its span gets a nearly unidirectional layup for maximum stiffness in that direction. An aircraft fuselage subjected to multi-axial loading might use a quasi-isotropic layup (0°/±45°/90° plies) to spread stiffness uniformly. No homogeneous material can be tuned this way; anisotropy is one of the primary reasons composites are chosen over metals in high-performance applications."

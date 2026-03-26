@@ -54,7 +54,7 @@ Review the axioms of probability first. Then see how sigma-algebras enable handl
   answer: 1
   explanation: "Finite additivity only guarantees that P(A ∪ B) = P(A) + P(B) for finitely many disjoint events. It says nothing about infinite collections. For continuous distributions, we need P([a,b]) = ∫ᵃᵇ f(x)dx to be consistent with the axioms, which requires countable additivity — the ability to take limits of sums. Without it, even basic results like P(ℝ) = 1 cannot be proved from the behavior on individual points. Countable additivity is an independent axiom, not derivable from finite additivity."
 
-- question: "In a probability space (Ω, ℱ, P), every subset of Ω is an event to which P assigns a probability."
+- question: "In a probability space (Ω, ℱ, P), nearly every subset of Ω is an event to which P assigns a probability."
   type: true-false
   answer: false
   explanation: "Only subsets of Ω that belong to the sigma-algebra ℱ are events. ℱ is a carefully chosen subcollection of P(Ω) — the set of all subsets — that excludes non-measurable sets. This is a critical distinction: you cannot ask 'what is the probability of this subset?' unless that subset is in ℱ. The entire purpose of the sigma-algebra component is to restrict which subsets count as legitimate events."

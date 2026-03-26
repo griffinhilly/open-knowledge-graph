@@ -51,7 +51,7 @@ A subring is a subset of a ring that is closed under addition and multiplication
   answer: true
   explanation: "If φ: R → S is a ring homomorphism and a ∈ ker(φ), then for any r ∈ R: φ(ra) = φ(r)φ(a) = φ(r)·0 = 0, so ra ∈ ker(φ). Similarly ar ∈ ker(φ). The kernel is also an additive subgroup (homomorphisms preserve subtraction). So ker(φ) satisfies all the conditions of a two-sided ideal. Conversely, for every ideal I ⊆ R, the quotient map R → R/I is a ring homomorphism with kernel I. This bijection between ideals and kernels is the central fact of ring theory."
 
-- question: "Every ideal in a ring is also a subring of that ring."
+- question: "Most ideal in a ring is also a subring of that ring."
   type: true-false
   answer: false
   explanation: "This depends on the definition of subring. If subrings are required to contain the multiplicative identity 1 (the most common modern convention), then an ideal I ≠ R typically does not contain 1 — since if 1 ∈ I, then r·1 = r ∈ I for all r ∈ R, forcing I = R. So a proper ideal fails the subring test under this convention. Even under the weaker convention that subrings need not contain 1, an ideal is also a subring, but the more important point is that ideals and subrings serve different structural roles: ideals are the kernels of homomorphisms and the right notion for quotient constructions; subrings are rings in their own right but cannot generally support quotient structures."

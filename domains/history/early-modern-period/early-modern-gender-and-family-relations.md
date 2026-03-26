@@ -52,7 +52,7 @@ Early modern Europe witnessed significant shifts in family structure, marriage p
   answer: false
   explanation: "Legal consolidation often had the opposite effect. As centralized states replaced the locally variable authority of feudalism with more uniform national legal codes, they typically encoded coverture — the merger of a wife's legal identity with her husband's — more systematically. Women's access to property, contracts, and legal standing diminished in many regions even as literacy rates among elite women rose. The assumption that modernization straightforwardly benefited women is one of the key misconceptions this period corrects."
 
-- question: "European colonizers applied their patriarchal gender norms consistently and uniformly to indigenous women across all colonial contexts."
+- question: "European colonizers applied their patriarchal gender norms consistently and uniformly to indigenous women across most colonial contexts."
   type: true-false
   answer: false
   explanation: "Colonial gender norms were applied unevenly and selectively. Indigenous women were simultaneously exploited, converted, and sometimes granted strategic status as intermediaries between colonial and indigenous societies. Colonial encounters forced Europeans to confront different gender systems, which they often labeled as evidence of barbarism — but in practice, European colonizers made pragmatic accommodations and adaptations depending on the specific colonial context, trading relationship, and demographic reality. Uniformity was a colonial ideology, not a colonial practice."

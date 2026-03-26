@@ -48,7 +48,7 @@ Categories can be represented as prototypes (ideal or average members) or as exe
   answer: true
   explanation: "This is a distinctive prediction of exemplar theory: since classification draws on stored memories of specific instances, more stored exemplars improve accuracy — especially for atypical members, whose unusual features are preserved in exemplar storage rather than averaged away in a prototype. Prototype theory predicts that once the central tendency is learned, additional typical instances yield diminishing returns and atypical members remain hard to classify."
 
-- question: "Prototype theory holds that every member of a category must share the defining features of the prototype."
+- question: "Prototype theory holds that nearly every member of a category should share the defining features of the prototype."
   type: true-false
   answer: false
   explanation: "This is a fundamental misunderstanding of prototype theory. Rosch explicitly rejected the classical 'necessary and sufficient features' view. In prototype theory, category membership is graded — determined by *degree of similarity* to the prototype — and no single feature is necessary for membership. That's why penguins count as birds despite lacking wings adapted for flight: they share enough other features. Prototype theory describes categories as having fuzzy boundaries and family resemblance structure, not strict definitional boundaries."

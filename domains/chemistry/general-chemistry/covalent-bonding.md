@@ -41,7 +41,7 @@ Start with simple homonuclear diatomics (H₂, O₂, N₂) and build up to heter
   answer: 2
   explanation: "Higher bond order (more shared electron pairs) pulls the nuclei closer together, shortening the bond, while simultaneously making the bond harder to break, increasing the bond energy. N₂ (triple bond) has the shortest and strongest bond; F₂ (single bond) has the longest and weakest. Bond length and bond energy move in opposite directions as bond order increases."
 
-- question: "All covalent bonds involve equal sharing of electrons between the two bonded atoms."
+- question: "Most covalent bonds involve equal sharing of electrons between the two bonded atoms."
   type: true-false
   answer: false
   explanation: "Equal sharing only occurs in homonuclear bonds (e.g., H₂, Cl₂) where both atoms have identical electronegativity. In heteronuclear bonds (e.g., H₂O, HCl), the more electronegative atom pulls the shared electrons closer, creating an unequal (polar) distribution. Covalent bonding exists on a spectrum from purely covalent to polar covalent to ionic, based on the electronegativity difference between the atoms."

@@ -58,7 +58,7 @@ Scope is a semantic phenomenon resolved post-syntactically via lambda abstractio
   answer: true
   explanation: "On the inverse scope reading (∃ > ∀), the sentence means: there exist two papers y such that for every student x, x read y. Here the papers are fixed — the same pair for all students. For this meaning, 'two papers' must have wide scope, taking the predicate 'λy. every student read y' as its argument. This requires covert Quantifier Raising of 'two papers' above 'every student' at LF. This is precisely what makes the sentence ambiguous: the surface form is identical, but the two LF representations yield logically distinct truth conditions."
 
-- question: "Binding is primarily determined by linear order: a pronoun can always be bound by any quantificational expression that precedes it in the sentence."
+- question: "Binding is primarily determined by linear order: a pronoun can generally be bound by any quantificational expression that precedes it in the sentence."
   type: true-false
   answer: false
   explanation: "Binding requires c-command — a structural dominance relation in the syntactic tree — not just linear precedence. In 'She recommended every professor's book,' the pronoun 'she' precedes 'every professor' but cannot be bound by it, because 'every professor' does not c-command the subject position where 'she' sits. The structural position matters, not the order. This shows that binding is a syntactic phenomenon reflecting tree structure, and scope-taking is subject to similar structural constraints."

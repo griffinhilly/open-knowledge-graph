@@ -56,7 +56,7 @@ Read sentences and identify the verb, then ask: 'Is something happening (action)
   answer: true
   explanation: "This is a crucial insight about the action/stative distinction. Some verbs shift categories depending on context. 'Think' in 'I think you're right' is stative (expressing a belief); 'think' in 'I'm thinking about the problem' is used as an action (describing an ongoing process). Similarly, 'have' in 'she has a car' is stative (possessing), but 'she's having lunch' is action (eating). The distinction lives in usage, not in the word itself."
 
-- question: "All action verbs describe physical movement or visible activity."
+- question: "Most action verbs describe physical movement or visible activity."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about action verbs. Mental processes like 'think,' 'decide,' 'consider,' 'imagine,' and 'realize' are all action verbs — they describe events that happen (internally) with a beginning and end. The test is not whether you can see the action, but whether the verb describes an event (action) or a condition that simply exists (stative). 'She decided to leave' describes an event just as clearly as 'she ran to the door.'"

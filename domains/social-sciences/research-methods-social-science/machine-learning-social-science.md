@@ -67,7 +67,7 @@ Machine learning algorithms (classification, regression, clustering, dimensional
   answer: 3
   explanation: "Prediction and causal explanation are fundamentally different. A model may achieve high accuracy by exploiting proxies (neighborhood, income, age) that correlate with voting without identifying what causes any individual to vote or abstain. Correlation can arise from confounding, reverse causation, or historical patterns. Understanding 'why people vote' requires theoretical frameworks and causal inference methods (experiments, instrumental variables, regression discontinuity) — not predictive accuracy. ML tells you *where* patterns are; causal inference tells you *why*."
 
-- question: "A machine learning model that achieves high overall accuracy on a prediction task can be assumed to be performing fairly across all demographic subgroups."
+- question: "A machine learning model that achieves high overall accuracy on a prediction task can be assumed to be performing fairly across most demographic subgroups."
   type: true-false
   answer: false
   explanation: "High overall accuracy can mask systematically unequal error rates across subgroups. A recidivism prediction model might have 90% overall accuracy while having a much higher false positive rate for Black defendants than white defendants — incorrectly flagging innocent people as high-risk at disparate rates. Overall accuracy aggregates across all cases; fairness requires examining error rates by subgroup. Equal overall accuracy is compatible with deeply unequal false positive or false negative rates across demographic categories."

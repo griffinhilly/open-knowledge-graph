@@ -59,7 +59,7 @@ Translate English statements like 'all integers are even or odd' into symbolic f
   answer: true
   explanation: "A universal statement claims P(x) holds for every x in the domain. Finding even one x for which P(x) is false immediately falsifies the statement — there is no room for exceptions in a 'for all' claim. This asymmetry is fundamental: proving requires covering all cases (typically via an arbitrary element argument); disproving requires finding just one failure. The counterexample method is both sufficient and definitive for disproving universals."
 
-- question: "Checking 1,000 specific cases of a universal statement about all integers provides strong evidence for its truth, but not a complete proof."
+- question: "Checking 1,000 specific cases of a universal statement about most integers provides strong evidence for its truth, but not a complete proof."
   type: true-false
   answer: false
   explanation: "This phrasing sounds reasonable but is mathematically incorrect: checking specific cases provides no logical evidence for a universal statement over an infinite domain, regardless of how many cases are checked. It is not a matter of 'almost a proof' — examples simply do not accumulate into a proof. The only exception is when the domain is finite and you have checked every element. The confusion here — treating many confirming instances as partial evidence — is the most common logical error students make with universal statements."

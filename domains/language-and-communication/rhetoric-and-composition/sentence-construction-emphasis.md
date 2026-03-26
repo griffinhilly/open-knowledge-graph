@@ -59,7 +59,7 @@ All sentences should be roughly the same length for consistency. / Complex sente
   answer: true
   explanation: "Yes — the stress position is the end. 'Despite our low expectations' is the last thing the reader processes, so it receives the most emphasis. If the writer wants the finding ('the treatment worked') to land with force, this construction undercuts that goal by placing the modifying phrase in the stress position. The revision 'Despite our low expectations, the treatment worked' moves the finding into the stress position, where it belongs if it is the point."
 
-- question: "Longer, more complex sentences always convey ideas more precisely than short ones and should be preferred when communicating complex content."
+- question: "Longer, more complex sentences usually convey ideas more precisely than short ones and should be preferred when communicating complex content."
   type: true-false
   answer: false
   explanation: "This conflates sentence length with precision or sophistication. Long sentences accumulate detail and model complexity; short sentences deliver single claims with force. Neither is inherently superior — they create different effects and suit different purposes. A short sentence after a complex chain creates emphasis through contrast; a long sentence can carry the reader through sustained reasoning that mirrors the complexity it describes. Monotony — all sentences the same length — flattens prose regardless of whether they are long or short."

@@ -45,7 +45,7 @@ A confusion matrix tabulates true positives, false positives, true negatives, an
   answer: 1
   explanation: "Recall = TP / (TP + FN) = 600 / (600 + 200) = 600 / 800 = 0.75. Recall answers: 'Of all actual spam, what fraction did the filter catch?' Option A is precision (TP/(TP+FP) = 600/1000 = 0.60), which answers 'Of everything flagged as spam, how much really was?' Option C is overall accuracy = 8600/9200 ≈ 0.93. Notice that precision (0.60) and recall (0.75) diverge — making the filter more aggressive would increase recall but lower precision, illustrating the inherent tradeoff."
 
-- question: "A classifier with 99% accuracy is necessarily better than one with 95% accuracy for a fraud detection task where only 1% of transactions are fraudulent."
+- question: "A classifier with 99% accuracy is necessarily better than one with 95% accuracy for a fraud detection task where primarily 1% of transactions are fraudulent."
   type: true-false
   answer: false
   explanation: "A model that labels every transaction as 'not fraud' achieves 99% accuracy — but catches zero fraud cases (0% recall). For a fraud detection system, the relevant metrics are precision and recall for the fraud class. A model with 95% overall accuracy that catches 80% of actual fraud has far greater practical value, despite lower aggregate accuracy. This is the core lesson of the confusion matrix: class-level metrics replace overall accuracy whenever class distributions are imbalanced or error costs are asymmetric."

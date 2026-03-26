@@ -56,7 +56,7 @@ Start with clear examples of normative claims ('you ought to keep promises') ver
   answer: true
   explanation: "This is the categorical character of moral obligations — one of the key features that distinguishes normative 'ought' from mere advice or prediction. Unlike hypothetical imperatives ('if you want X, do Y'), moral obligations are not voided by the absence of a relevant desire or benefit. 'You ought to keep your promises' does not come with an implicit 'unless you don't feel like it.' If it did, it would function as a hypothetical imperative, not a moral obligation. This is what makes moral claims distinctively demanding."
 
-- question: "Since acting naturally is common to all humans, we can conclude from this fact alone that acting naturally is morally required."
+- question: "Since acting naturally is common to most humans, we can conclude from this fact alone that acting naturally is morally required."
   type: true-false
   answer: false
   explanation: "This is a textbook is-ought fallacy. 'Acting naturally is common' is a descriptive claim; 'it is morally required' is a normative claim. You cannot derive the normative conclusion from the descriptive premise without adding an independent normative principle (e.g., 'what is natural ought to be done'). The is-ought gap means no amount of factual evidence about what is natural, common, or evolutionarily adaptive can, by itself, establish a moral obligation. The additional normative premise needs independent justification."

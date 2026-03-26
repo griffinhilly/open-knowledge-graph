@@ -50,7 +50,7 @@ Ordered logit and probit apply when the dependent variable has more than two ord
   answer: true
   explanation: "This is exactly the parallel regression (proportional odds) assumption: the β coefficients are constant across all thresholds. Intuitively, a one-unit increase in x shifts the latent propensity by β regardless of whether you're comparing 'category 1 vs. 2+' or 'categories 1–4 vs. 5.' Only the intercepts (threshold values μ) differ across comparisons. When this assumption fails — when the effect of a predictor changes depending on which transition you're examining — you need a generalized ordered logit with threshold-specific slopes."
 
-- question: "In ordered logit, a variable with a positive coefficient always increases the probability of the highest outcome category."
+- question: "In ordered logit, a variable with a positive coefficient generally increases the probability of the highest outcome category."
   type: true-false
   answer: false
   explanation: "This is only guaranteed for the extreme top category under specific distributional conditions. For middle categories, the marginal effect is non-monotone: a positive shift in the latent index can *decrease* the probability of an intermediate category while increasing the probabilities of the top and bottom extremes simultaneously, or it can increase the probability of high categories while decreasing low ones. The direction depends on where probability mass is concentrated relative to the threshold locations. Always compute category-specific marginal effects."

@@ -59,7 +59,7 @@ Collect ambiguous sentences and rewrite each one two ways — once assigning the
   answer: true
   explanation: "This is the 'silent failure' quality of pronoun ambiguity. The writer knows their intended meaning and assumes the reader recovered it. The reader makes an assignment based on grammatical cues and assumes they understood correctly. Neither party has a signal that the communication failed. This makes pronoun ambiguity particularly serious in professional and academic writing, where precision matters and misunderstandings may not surface until they cause real problems."
 
-- question: "The best way to fix pronoun ambiguity in a passage is to eliminate all pronouns and always use the full noun phrase instead."
+- question: "The best way to fix pronoun ambiguity in a passage is to eliminate most pronouns and generally use the full noun phrase instead."
   type: true-false
   answer: false
   explanation: "This is the over-correction misconception identified in the topic. Eliminating all pronouns produces stilted, repetitive prose: 'Maria called Sofia, and Maria told Sofia that Maria needed Sofia to help Maria.' The goal is clarity, not pronoun avoidance. Pronouns serve an important function when reference is unambiguous — they allow prose to flow naturally without repetition. The correct approach is targeted intervention: replace or restructure only where ambiguity genuinely exists."

@@ -50,7 +50,7 @@ When composing with text, prosody—the relationship between musical and textual
   answer: true
   explanation: "The Explainer explicitly gives this example: 'a line that enjambs into the next might call for an elided or evaded cadence that pushes forward rather than settling.' Enjambment in poetry creates forward momentum; a strong cadential close at that point would fracture the syntactic unit and impose a sense of completion that the text refuses. Good phrase alignment mirrors the text's grammar — an open-ended line gets an open-ended harmonic gesture."
 
-- question: "Text painting — where musical gestures mirror the literal meaning of words — is always the most effective way to set text expressively."
+- question: "Text painting — where musical gestures mirror the literal meaning of words — is typically the most effective way to set text expressively."
   type: true-false
   answer: false
   explanation: "The Explainer describes text painting as one layer of good text setting, but frames it as potentially 'overt (Baroque madrigal style) or subtle (a single chromatic inflection).' Overt word painting is not always appropriate — it can seem mechanical or comical if applied indiscriminately, and the Explainer's core principle is that music serves the text, which requires judgment about when to illustrate, when to underscore, and when to let the language speak plainly. Text painting is a powerful tool, not a universal prescription."

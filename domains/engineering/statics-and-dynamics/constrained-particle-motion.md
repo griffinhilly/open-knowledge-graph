@@ -50,7 +50,7 @@ When a particle is constrained to move along a surface or curve, constraint forc
   answer: true
   explanation: "Work equals force times displacement in the direction of the force. Constraint forces are always perpendicular to the direction of motion (that is precisely what it means to 'constrain' a path — the force enforces the geometry without driving motion along it). Since the angle between force and displacement is 90°, the dot product F·ds = 0, and no work is done. This is why work-energy methods can ignore constraint forces entirely — they cancel out of the energy accounting."
 
-- question: "A particle constrained to move along a surface will always remain on the surface as long as the constraint force is acting."
+- question: "A particle constrained to move along a surface will generally remain on the surface as long as the constraint force is acting."
   type: true-false
   answer: false
   explanation: "Constraint forces maintain contact only when they are compressive (surface pushing) or tensile in the correct direction (string pulling). When the required constraint force reverses sign — a surface would need to pull the particle, or the speed exceeds what centripetal balance allows — the physical constraint fails. The particle leaves the surface at the instant N = 0. This is why checking the sign of N throughout the motion is essential: if it ever goes negative, the particle has already left the constrained path."

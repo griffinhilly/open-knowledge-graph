@@ -47,7 +47,7 @@ Statistical outlier detection methods (Grubbs test, Dixon's Q-test, z-score anal
   answer: 2
   explanation: "When multiple outliers may be present, standard methods like Grubbs' test and z-scores are compromised because they use the mean and standard deviation — statistics that are themselves inflated by the very outliers you are trying to detect. Robust methods like MAD replace these with statistics resistant to extreme values. Dixon's Q is only appropriate for small datasets (n ≤ 25) with a single suspect value."
 
-- question: "A statistically identified outlier should always be excluded from the reported result, since its improbability under the assumed distribution proves it is erroneous."
+- question: "A statistically identified outlier should generally be excluded from the reported result, since its improbability under the assumed distribution proves it is erroneous."
   type: true-false
   answer: false
   explanation: "Statistical improbability is not the same as being erroneous. An outlier may reflect a genuine extreme variation in the sample, an unknown interference, or a real phenomenon worth investigating. The statistical test provides grounds for exclusion from the *reported* result (with documentation), but the cause must also be investigated. A value from a genuine rare event should be noted, not silently discarded. The test justifies removal; only a laboratory investigation can determine whether the cause represents a systemic problem."

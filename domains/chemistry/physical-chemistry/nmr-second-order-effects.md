@@ -54,7 +54,7 @@ Simulate and measure ABX or AA'BB' spectra; calculate full Hamiltonian eigenvalu
   answer: true
   explanation: "This is one of the practically useful consequences of second-order effects. Because roofing always makes a multiplet lean toward its coupling partner, inspecting the direction of roofing in a complex spectrum tells you which signals are chemically coupled. If two doublets point toward each other (inner lines taller, outer lines shorter), they are coupled to each other. This is a routine technique for assigning connectivity in spectra of complex molecules, particularly aromatic systems where many signals cluster near each other in chemical shift."
 
-- question: "If an NMR spectrum shows more lines than the first-order n+1 rule predicts for a given spin system, this always indicates a sample impurity contributing additional signals."
+- question: "If an NMR spectrum shows more lines than the first-order n+1 rule predicts for a given spin system, this generally indicates a sample impurity contributing additional signals."
   type: true-false
   answer: false
   explanation: "Extra lines can arise from second-order effects, not impurities. In a strongly coupled spin system (small Δν/J), quantum mechanical mixing causes transitions that are 'forbidden' under first-order analysis to become partially allowed. These so-called 'combination lines' appear as additional peaks in the spectrum. An ABC system (three mutually coupled protons with similar chemical shifts) can show significantly more lines than the 3 × (n+1) first-order prediction. Before concluding a spectrum shows impurities, the chemist should check whether the extra lines could be second-order combination lines by examining the Δν/J ratio and simulating the expected pattern."

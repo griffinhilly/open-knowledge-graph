@@ -56,7 +56,7 @@ Analyze four-part chorale excerpts and mark which chord members are doubled in e
   answer: true
   explanation: "The harmonic rule has a voice-leading rationale. When the third carries obligatory motion (as the leading tone does), having two voices on it creates two voices both needing to move to the same destination — a near-certain setup for parallel octaves. The rule is not arbitrary convention; it derives from understanding what the doubled pitch will need to do next."
 
-- question: "Doubling the root in a root-position triad always avoids parallel fifths and octaves."
+- question: "Doubling the root in a root-position triad usually avoids parallel fifths and octaves."
   type: true-false
   answer: false
   explanation: "Root doubling is the default because it tends to produce the most voice-leading freedom, but 'always avoids parallels' is too strong. Depending on what the preceding and following chords are, even a root-doubled voicing can produce parallel fifths or octaves in the voice motion. Voice leading context — not just the static doubling choice — determines whether parallels arise."

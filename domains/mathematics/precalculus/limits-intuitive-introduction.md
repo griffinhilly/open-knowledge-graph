@@ -52,7 +52,7 @@ Start with numerical examples: build tables of function values approaching the t
   answer: 1
   explanation: "The limit as x → 3 depends on what g(x) does for x close to (but not equal to) 3. For all x ≠ 3, g(x) = x², and x² → 9 as x → 3. The special value g(3) = 100 is irrelevant to the limit — the limit is about approach, not arrival. This is the core distinction: the limit can exist and differ from f(a), or f(a) may not even be defined. Option A is the classic misconception that conflates the limit with the function's value."
 
-- question: "If lim_{x→a} f(x) = L, then f(a) must equal L."
+- question: "If lim_{x→a} f(x) = L, then f(a) should equal L."
   type: true-false
   answer: false
   explanation: "The limit and the function's value at the point are independent. A limit describes what f(x) approaches as x gets close to a — it explicitly does not depend on f(a). The function might have f(a) = L (making it continuous at a), or f(a) might differ from L (a removable discontinuity), or f(a) might not even be defined (like 0/0 forms). All three situations are compatible with lim_{x→a} f(x) = L existing."

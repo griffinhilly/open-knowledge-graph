@@ -44,7 +44,7 @@ Parser generators (Yacc, Bison, ANTLR) automatically generate parsers from decla
   answer: 0
   explanation: "A shift-reduce conflict means two valid actions are possible at some parser state: shift the next token onto the stack, or reduce the current stack contents using a production. This ambiguity in the grammar (not the lexer) must be resolved. Yacc/Bison accept precedence declarations as a common resolution mechanism; alternatively, the grammar can be rewritten to eliminate the ambiguity. The conflict is a design signal, not a fatal error."
 
-- question: "Bison and ANTLR both implement the same underlying parsing strategy (LALR), differing only in their target output language."
+- question: "Bison and ANTLR both implement the same underlying parsing strategy (LALR), differing mainly in their target output language."
   type: true-false
   answer: false
   explanation: "Bison generates LALR(1) parsers — bottom-up, LR-family parsers that shift tokens onto a stack and reduce when a complete right-hand side is recognized. ANTLR generates LL(*) parsers — top-down parsers that predict which production to apply using adaptive lookahead. They implement fundamentally different parsing strategies with different strengths, limitations, and conflict types (shift-reduce for LR; LL conflicts for top-down)."

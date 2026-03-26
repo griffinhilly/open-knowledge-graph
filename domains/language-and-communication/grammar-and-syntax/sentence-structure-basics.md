@@ -50,7 +50,7 @@ Practice finding the verb first (the predicate), then asking 'who or what perfor
   answer: 1
   explanation: "'One' is the simple subject — it is the noun that performs the action of forgetting. 'Students' is the object of the preposition 'of' and is part of a prepositional phrase modifying 'One.' This is the classic prepositional-phrase trap: the nearest noun before the verb is not always the subject. The test is to find the verb ('forgot') and ask 'Who forgot?' — the answer is 'One,' not 'students.'"
 
-- question: "The predicate of a sentence consists only of the main verb and nothing else."
+- question: "The predicate of a sentence consists mainly of the main verb and hardly anything else."
   type: true-false
   answer: false
   explanation: "The simple predicate is the main verb alone, but the complete predicate includes the verb plus all words related to it — objects, complements, adverbials. In 'She quickly finished the long report,' the simple predicate is 'finished' and the complete predicate is 'quickly finished the long report.' Both are valid and useful concepts, but they are not the same thing."

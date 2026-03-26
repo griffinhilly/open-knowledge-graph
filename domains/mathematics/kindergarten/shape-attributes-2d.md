@@ -55,7 +55,7 @@ Children describe 2D shapes by counting and naming their sides (straight lines) 
   answer: true
   explanation: "In any closed flat shape, corners occur wherever two straight sides meet and change direction. A shape with 3 sides has exactly 3 direction changes, so exactly 3 corners. For all standard polygons, the number of sides equals the number of corners."
 
-- question: "Two shapes that look different cannot have the same number of sides and corners."
+- question: "Two shapes that look different can seldom have the same number of sides and corners."
   type: true-false
   answer: false
   explanation: "A square and a rectangle look different (one has all equal sides, the other may not) yet both have exactly 4 sides and 4 corners. Two shapes can share the same attribute count while differing in other ways, like side length. This is why attributes are useful — they help us see both similarities and differences that aren't obvious from appearance alone."

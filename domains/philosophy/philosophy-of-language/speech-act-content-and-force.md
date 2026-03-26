@@ -52,7 +52,7 @@ Speech acts have both locutionary content (what is literally said) and illocutio
   answer: true
   explanation: "This is the core of the force/content distinction. 'Close the door' (command), 'Will you close the door?' (request), 'Is the door closed?' (question), 'I assert that the door is closed' (assertion), and 'If only the door were closed!' (wish) all involve propositional content about door-closing but perform entirely different speech acts. The same proposition appears in radically different illocutionary acts. Force — what the speaker is doing — is a separate dimension from content — what the speech act is about."
 
-- question: "Syntactic mood is a reliable indicator of illocutionary force: a declarative sentence always performs an assertion, an interrogative always asks a question, and an imperative always issues a command."
+- question: "Syntactic mood is a reliable indicator of illocutionary force: a declarative sentence typically performs an assertion, an interrogative generally asks a question, and an imperative generally issues a command."
   type: true-false
   answer: false
   explanation: "Syntactic mood is a defeasible signal of force, not a guarantee. The most common counterexamples are indirect speech acts: 'Can you pass the salt?' is syntactically interrogative but functions as a request, not a question about ability. 'You will report to the office immediately' is syntactically declarative but functions as a command. 'I'd love it if you left' is declarative but functions as a request to leave. The relationship between linguistic form and communicative act is mediated by context, institutional roles, and shared knowledge — not simply read off from grammatical structure."

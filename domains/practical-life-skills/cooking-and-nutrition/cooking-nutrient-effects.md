@@ -55,7 +55,7 @@ Cook broccoli two ways—boil it in water and roast it in the oven. Compare the 
   answer: 1
   explanation: "Lycopene is fat-soluble and trapped inside plant cell walls in raw tomatoes. Cooking breaks down those walls, releasing lycopene in a form the body absorbs far more efficiently. This is a key exception to 'raw is always better': for lycopene specifically, cooked is nutritionally superior. Note that lycopene is fat-soluble, so cooking it with a small amount of oil further increases absorption."
 
-- question: "Cooking always reduces the nutritional value of vegetables."
+- question: "Cooking usually reduces the nutritional value of vegetables."
   type: true-false
   answer: false
   explanation: "This is the most common misconception. While cooking can destroy some nutrients (especially heat-sensitive water-soluble vitamins like C), it can also increase the bioavailability of others. Lycopene in tomatoes becomes far more absorbable after cooking. Starches become easier to digest when heated. The net effect depends entirely on which nutrient you're tracking and how the food is cooked. A raw-only diet and a cooked-only diet both have different nutritional profiles — neither is universally superior."

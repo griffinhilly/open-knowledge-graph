@@ -50,7 +50,7 @@ Panel data combines observations across units (individuals, firms, countries) ov
   answer: true
   explanation: "True. Fixed-effects estimation exploits within-unit variation — how each unit changes over time — rather than between-unit variation (how units differ from each other). By doing so, it implicitly holds constant any characteristic that does not change within a unit over the observation window: industry type for firms, country geography, individual innate ability. These time-invariant unobservables are the prime source of confounding in cross-sectional studies, and panel data's within structure neutralizes them without requiring measurement."
 
-- question: "Collecting panel data on the same individuals over multiple years automatically eliminates all sources of omitted variable bias from a regression."
+- question: "Collecting panel data on the same individuals over multiple years automatically eliminates most sources of omitted variable bias from a regression."
   type: true-false
   answer: false
   explanation: "False. Panel data with fixed effects eliminates bias from time-invariant omitted variables — factors that are constant for each unit over the observation window. It does not address time-varying omitted variables: factors that change over time within units and are correlated with the treatment. For example, if workers who receive job training also change their effort level simultaneously, the within-estimator still conflates training and effort effects. Panel data is powerful but not a complete solution to endogeneity."

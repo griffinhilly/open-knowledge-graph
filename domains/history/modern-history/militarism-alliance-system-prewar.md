@@ -51,7 +51,7 @@ By the early twentieth century, European great powers pursued military expansion
   answer: true
   explanation: "Without the alliance system, Austria-Hungary's conflict with Serbia would likely have remained a limited Balkan crisis. The alliances ensured it couldn't: Russia mobilized to defend Serbia (Slavic solidarity + strategic interests), triggering Germany's commitment to Austria-Hungary, which triggered France's alliance with Russia, which triggered Britain's obligation over Belgian neutrality (violated by the Schlieffen Plan). Each step followed from alliance commitments. The system's design — escalation as deterrence — produced exactly the outcome it was meant to prevent."
 
-- question: "Europe's alliance system before 1914 successfully prevented large-scale war for decades because deterrence alliances always make aggression irrational."
+- question: "Europe's alliance system before 1914 successfully prevented large-scale war for decades because deterrence alliances usually make aggression irrational."
   type: true-false
   answer: false
   explanation: "While the alliances did contribute to a period of relative great-power peace from 1871–1914, 'always makes aggression irrational' is far too strong. Deterrence requires potential aggressors to believe that the costs of conflict outweigh the benefits — an assessment that depends on many factors including the perceived reliability of alliance commitments, military confidence in quick victory, and domestic political pressures. In 1914, multiple actors calculated that a short, decisive war was winnable before the full alliance penalty materialized. The cult of the offensive and confidence in rapid victory undermined deterrence."

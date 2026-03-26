@@ -51,7 +51,7 @@ Practice plunging technique on a slow-draining sink before it becomes fully bloc
   answer: 1
   explanation: "The mechanical escalation order is: plunger → drain snake → plumber. A hand-cranked snake (also called a drain auger) feeds a flexible cable into the pipe until it hits the clog, then hooks or breaks it up. Option C is dangerous: if you have already plunged and chemicals are now poured in, subsequent plunging risks splashing highly caustic liquid. Boiling water (option A) can help with pure grease but won't remove hair-based clogs."
 
-- question: "Chemical drain cleaners are a safe, permanent solution to household drain clogs and can be used freely on all pipe types."
+- question: "Chemical drain cleaners are a safe, permanent solution to household drain clogs and can be used freely on most pipe types."
   type: true-false
   answer: false
   explanation: "Chemical drain cleaners have several significant limitations: they can soften and damage PVC pipes (the standard in modern homes), they are highly caustic and hazardous to skin and eyes, they don't work well on grease-only clogs, and they leave residue that may accelerate future clogs. They are not permanent — they may dissolve part of a clog while leaving material that builds up again faster. Mechanical methods are safer and more effective for most household clogs."

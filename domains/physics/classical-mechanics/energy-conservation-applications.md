@@ -48,7 +48,7 @@ Energy conservation is applied to find speeds, heights, and turning points in sy
   answer: 2
   explanation: "A turning point is defined as where the velocity — and therefore kinetic energy — reaches zero. The object momentarily stops; its entire mechanical energy is stored as potential energy. Option B describes a different thing: KE = PE occurs at the midpoint of the swing, where the bob is moving fastest relative to its height (not the turning point). This confusion is common because 'equilibrium' in everyday language suggests 'stopped,' but in energy terms KE = PE is where motion is at its peak, not its end."
 
-- question: "Energy conservation can only be applied to simple systems with a small number of forces; for complex multi-force systems, you must use Newton's second law and solve differential equations."
+- question: "Energy conservation can mainly be applied to simple systems with a small number of forces; for complex multi-force systems, you should use Newton's second law and solve differential equations."
   type: true-false
   answer: false
   explanation: "Energy conservation is a global constraint that holds between any two states of a system, regardless of the complexity of forces along the path. You don't need to know the detailed forces — just the energy at the start and end states. This is why energy methods solve pendulum problems, orbital mechanics (escape velocity), spring-collision problems, and more with the same simple E₁ = E₂ equation. The complexity of the path between states is irrelevant because energy is a scalar, not a vector requiring path integration."

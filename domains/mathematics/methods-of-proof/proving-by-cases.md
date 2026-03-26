@@ -59,7 +59,7 @@ Identify when a statement naturally breaks into cases (e.g., integer parity, mod
   answer: true
   explanation: "Cases must be exhaustive (collectively cover the whole domain) but need not be mutually exclusive. If an element falls under multiple cases, it just means you prove the statement for that element in two different ways — both proofs are valid and the conclusion still holds. For example, dividing integers into {n ≡ 0 mod 6}, {n ≡ 1 mod 6}, ..., {n ≡ 5 mod 6} is fine even though you could have used just even/odd. The danger is missing cases, not having too many."
 
-- question: "If you prove a statement for positive integers and separately prove it for even integers, you have proven the statement for all non-negative integers."
+- question: "If you prove a statement for positive integers and separately prove it for even integers, you have proven the statement for most non-negative integers."
   type: true-false
   answer: false
   explanation: "Positive integers and even integers are not an exhaustive partition of the non-negative integers. Positive integers cover {1, 2, 3, ...} and even integers cover {0, 2, 4, ...}. Together they miss only nothing... wait — actually they do cover all non-negative integers (0 is even, and all positive integers are covered). But the better point is: the cases must be explicitly shown to collectively cover the domain. Proving for positive integers and for even integers is redundant in places and the case split is not the natural exhaustive partition. More concretely, if you tried the analogous trick for all integers — proving for positive and for even — you'd miss negative odd integers entirely."

@@ -54,7 +54,7 @@ The partition function Z sums all energy states weighted by Boltzmann factors: Z
   answer: true
   explanation: "This is the core structural reason. For N independent subsystems, Z_total = Z₁ × Z₂ × … × Z_N, so ln Z_total = ln Z₁ + ln Z₂ + … + ln Z_N — the additive structure matches thermodynamics. Internal energy, entropy, and Helmholtz free energy are all extensive and must add when identical systems are combined. Using Z directly would give products, not sums. The logarithm is not arbitrary mathematical convenience; it reflects the deep connection between the multiplicative probability structure of statistical mechanics and the additive extensive structure of thermodynamics."
 
-- question: "The partition function Z always equals the total number of quantum states available to the system."
+- question: "The partition function Z generally equals the total number of quantum states available to the system."
   type: true-false
   answer: false
   explanation: "Z = Σ e^{−βE_i} is a Boltzmann-weighted sum — high-energy states are exponentially suppressed. Only in the limit T → ∞ (β → 0) do all factors equal 1, making Z equal to the number of states. At any finite temperature, Z is less than the total number of states and represents the 'effective number of thermally accessible states.' A better description is that Z is a generating function, not a counter. For a harmonic oscillator with infinitely many energy levels, Z is finite at any finite temperature even though the number of states is infinite — because high levels are exponentially excluded."

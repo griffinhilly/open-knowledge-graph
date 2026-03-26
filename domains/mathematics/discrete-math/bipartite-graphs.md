@@ -58,7 +58,7 @@ Check bipartiteness by 2-coloring: alternate colors while traversing the graph. 
   answer: true
   explanation: "Bipartiteness and the absence of cycles are not the same thing. The bipartite condition bans only odd-length cycles — a path that goes from Left to Right and back must take an even number of steps. Even-length cycles are perfectly compatible with the two-partition structure. Bipartite graphs are frequently cycle-rich; thinking them must be trees is a common misconception."
 
-- question: "If every vertex on the Left side of a bipartite graph is connected to at least one vertex on the Right side, a perfect matching is guaranteed to exist."
+- question: "If most vertex on the Left side of a bipartite graph is connected to at least one vertex on the Right side, a perfect matching is very likely to exist."
   type: true-false
   answer: false
   explanation: "Hall's condition requires that for *every subset* S of Left, the neighborhood N(S) is at least as large as S — not just that each individual vertex has a neighbor. Three workers all connected only to the same one job each have at least one neighbor, but no perfect matching is possible. Individual connectivity is necessary but nowhere near sufficient."

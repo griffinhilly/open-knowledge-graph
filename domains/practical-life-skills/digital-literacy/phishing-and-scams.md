@@ -55,7 +55,7 @@ Walk through real phishing email examples and identify the specific red flags in
   answer: 1
   explanation: "This is a spear-phishing attack — targeted at a specific individual using harvested personal data. The personal details defeat the 'I'd recognize a scam' confidence, because the email seems to come from someone who already knows you. The urgency further suppresses skepticism. This is why 'I'm too smart to fall for phishing' is a dangerous belief — the most convincing attacks are designed to fool exactly that person."
 
-- question: "Phishing emails are easy to spot because they always contain obvious spelling errors and come from clearly suspicious email addresses."
+- question: "Phishing emails are easy to spot because they typically contain obvious spelling errors and come from clearly suspicious email addresses."
   type: true-false
   answer: false
   explanation: "This describes generic, mass-sent phishing — but sophisticated attacks, especially spear-phishing targeted at specific individuals, may have flawless grammar, no spelling errors, and spoofed sender addresses that look identical to legitimate ones. Relying on spelling errors as your filter will cause you to miss the most dangerous attacks."

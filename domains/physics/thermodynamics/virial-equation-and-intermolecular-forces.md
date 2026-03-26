@@ -44,7 +44,7 @@ The virial equation (PV = nRT(1 + B/V + C/V² + ...)) corrects for deviations fr
   answer: 1
   explanation: "As temperature rises, thermal kinetic energy increasingly overcomes intermolecular attraction. B becomes less negative, passes through zero at the Boyle temperature, and eventually becomes positive — at which point repulsions dominate and Z > 1. This is why the sign of B (and of Z−1) is a direct readout of which intermolecular force regime dominates at a given temperature."
 
-- question: "The virial equation predicts that all real gases have Z < 1 at all temperatures and pressures."
+- question: "The virial equation predicts that most real gases have Z < 1 at most temperatures and pressures."
   type: true-false
   answer: false
   explanation: "This is false. At high pressures or elevated temperatures where repulsive forces dominate, Z > 1 — the gas is less compressed than ideal behavior predicts. Z < 1 occurs when attractive forces dominate (typically at moderate pressures and temperatures for common gases). The sign of Z−1 is determined by the balance between attraction and repulsion encoded in the virial coefficient B."

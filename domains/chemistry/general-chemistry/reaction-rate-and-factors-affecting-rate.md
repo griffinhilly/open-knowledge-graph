@@ -55,7 +55,7 @@ Observe how changing one factor at a time affects reaction rate in experiments o
   answer: true
   explanation: "For reactions involving solid reactants, only molecules at the exposed surface can collide with other reactants — the interior is inaccessible. Grinding increases the surface-to-volume ratio of the solid, making more reactant molecules available for collision at any instant without changing the total amount of reactant. This explains why powdered sugar dissolves almost instantly while a sugar cube dissolves slowly, why powdered iron rusts faster than an iron bar, and why industrial catalysts are manufactured as fine particles or porous coatings — maximizing active surface area maximizes the rate of surface-dependent reactions."
 
-- question: "Doubling the concentration of a reactant always doubles the reaction rate."
+- question: "Doubling the concentration of a reactant typically doubles the reaction rate."
   type: true-false
   answer: false
   explanation: "Whether doubling concentration doubles the rate depends on the reaction order, which must be determined experimentally — it cannot be assumed from stoichiometry. For a first-order reaction (rate = k[A]¹), doubling [A] doubles the rate. For a second-order reaction (rate = k[A]²), doubling [A] quadruples the rate. For a zero-order reaction (rate = k), changing concentration has no effect on rate. The statement implicitly assumes all reactions are first-order in the relevant reactant, which is incorrect. The rate law and reaction orders are empirical properties of specific reactions, not consequences of how many molecules appear in the balanced equation."

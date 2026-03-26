@@ -45,7 +45,7 @@ Objects moving relative to an observer appear contracted in the direction of mot
   answer: 1
   explanation: "L = L₀/γ = 10/2 = 5 m. The contraction is by a factor of 1/γ, not γ, so L < L₀. The proper length is the maximum; all other observers measure shorter. Critically, contraction affects *only the dimension parallel to the velocity* — a cube moving at 0.866c becomes a flat slab (5 m deep, 10 m tall and wide) in the direction of travel. The transverse dimensions are unchanged because the Lorentz transformation only mixes the coordinate along the motion with time."
 
-- question: "Length contraction affects all three spatial dimensions of a moving object equally."
+- question: "Length contraction affects most three spatial dimensions of a moving object equally."
   type: true-false
   answer: false
   explanation: "Length contraction applies only to the dimension parallel to the direction of motion. Dimensions perpendicular to the velocity are unchanged — a consequence of how the Lorentz transformation works. It mixes only the spatial coordinate along the motion with the time coordinate; transverse coordinates transform trivially (no mixing). So a sphere moving at relativistic speed becomes an oblate ellipsoid — flattened in the direction of travel, unchanged in cross-section."

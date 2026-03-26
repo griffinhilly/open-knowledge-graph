@@ -51,7 +51,7 @@ A page fault occurs when a process accesses a non-resident page. The handler fin
   answer: true
   explanation: "The page fault handler brings the missing page into memory and updates the page table, but the original instruction was aborted when the fault occurred and cannot be simply resumed. The hardware retries the faulting instruction from the beginning once the handler returns. This 'restartable instruction' property is essential to virtual memory: the process is unaware a fault occurred, and the instruction proceeds as if the page had been in memory all along."
 
-- question: "Every page fault, regardless of type, results in a disk read to load the missing page."
+- question: "Most page fault, regardless of type, results in a disk read to load the missing page."
   type: true-false
   answer: false
   explanation: "Not all page faults involve a disk read. Demand-zero pages — freshly allocated anonymous memory pages never previously written — have no content on disk; the OS simply allocates a free frame and zeroes it. Additionally, if a victim page chosen for eviction has a clean dirty bit (never modified since being loaded), no write-back is needed. The common valid page fault does require a disk read, but 'every page fault' always does is false."

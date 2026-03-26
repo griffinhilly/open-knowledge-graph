@@ -62,7 +62,7 @@ Sort shapes using Venn diagrams and hierarchical charts. Emphasize that classifi
   answer: true
   explanation: "True. A rectangle is defined as a parallelogram with four right angles. Since it satisfies the definition of parallelogram (two pairs of parallel sides), every rectangle is a parallelogram. The hierarchy runs: square → rectangle → parallelogram → quadrilateral → polygon. Any true statement about all parallelograms applies automatically to all rectangles and all squares — this is the power of the hierarchical classification system."
 
-- question: "A square is not a rectangle because squares have all four sides equal, while rectangles require unequal side lengths."
+- question: "A square is not a rectangle because squares have most four sides equal, while rectangles require unequal side lengths."
   type: true-false
   answer: false
   explanation: "False. The definition of a rectangle is a parallelogram with four right angles — it says nothing about side lengths being unequal. A square satisfies this requirement perfectly (it has four right angles), so it is a rectangle. The belief that rectangles must have unequal side lengths comes from familiarity with typical-looking rectangles, not from the mathematical definition. This is one of the most common errors in shape classification."

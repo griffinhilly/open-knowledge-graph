@@ -47,7 +47,7 @@ Making change means returning money after a transaction. If a purchase costs 15�
   answer: 1
   explanation: "Change is 50 − 37 = 13¢. The fewest coins: 1 dime (10¢) + 3 pennies (3¢) = 4 coins. Counting up from 37¢ naturally leads here: 'go to 40¢ (3 pennies), then to 50¢ (1 dime)' — 4 coins total. The 13-penny option uses the right total but the most coins. Using fewest coins is the practical goal because it is easier to count and verify, and it's what cashiers and vending machines aim for."
 
-- question: "The only correct way to calculate change is to write out the subtraction problem (amount paid minus cost) before deciding which coins to return."
+- question: "The primary correct way to calculate change is to write out the subtraction problem (amount paid minus cost) before deciding which coins to return."
   type: true-false
   answer: false
   explanation: "Counting up from the price to the amount paid is a completely valid — and often faster — strategy. Starting at the cost and adding coins until you reach the amount paid gives the exact same answer as subtraction, without needing paper or mental arithmetic. In real transactions, cashiers often count up by instinct: 'Your total is 83¢, you gave me a dollar — 84, 85, 90, one dollar' (2 pennies, 1 nickel, 1 dime = 17¢ change). The counting-up method also naturally produces the fewest coins."

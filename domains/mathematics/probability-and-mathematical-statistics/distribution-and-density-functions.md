@@ -47,7 +47,7 @@ The cumulative distribution function F(x) = P(X ≤ x) uniquely determines the d
   answer: 1
   explanation: "The Cantor distribution's CDF (the Devil's staircase) increases entirely on the Cantor set, which has Lebesgue measure zero. This means the distribution concentrates all its probability on a measure-zero set — it is not absolutely continuous with respect to Lebesgue measure. If a PDF f existed, we would need ∫_B f dλ = μ_X(B) for all Borel B, but the derivative is zero a.e., so any Radon-Nikodym density would be zero a.e. and integrate to zero, not 1 — a contradiction. The Cantor distribution is the canonical example of a third type: singular continuous (no atoms, but also no PDF)."
 
-- question: "Any random variable whose CDF is everywhere continuous must have a probability density function."
+- question: "Any random variable whose CDF is everywhere continuous should have a probability density function."
   type: true-false
   answer: false
   explanation: "A continuous CDF means the distribution has no atoms — no individual point x with positive probability P(X = x) > 0. But continuity of the CDF is weaker than absolute continuity of the distribution with respect to Lebesgue measure. The Cantor distribution is the definitive counterexample: its CDF is continuous, yet no PDF exists because the distribution is singular continuous, concentrating probability on the Cantor set (a measure-zero set with no isolated points). For a PDF to exist, you need the stronger condition that the distribution is absolutely continuous with respect to Lebesgue measure."

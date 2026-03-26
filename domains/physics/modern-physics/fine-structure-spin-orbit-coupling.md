@@ -64,7 +64,7 @@ Spin-orbit coupling is a relativistic effect, not explained by a classical spinn
   answer: true
   explanation: "This is the correct physical mechanism. In the lab frame, the nucleus is stationary and creates only an electric field E. Transforming to the electron's rest frame via special relativity, the moving nucleus produces a magnetic field B ~ v × E/c². This magnetic field interacts with the electron's spin magnetic moment μ_s, with energy −μ_s·B. Expanding this in terms of orbital angular momentum L (since v × E ∝ L for a central potential) gives the S·L coupling term."
 
-- question: "Spin-orbit coupling is a purely quantum-mechanical effect that has no connection to special relativity — it arises entirely from the intrinsic quantum property of electron spin."
+- question: "Spin-orbit coupling is a purely quantum-mechanical effect that has no connection to special relativity — it arises mostly from the intrinsic quantum property of electron spin."
   type: true-false
   answer: false
   explanation: "Spin-orbit coupling is explicitly a relativistic effect. The magnetic field that the electron experiences is a relativistic transformation of the nuclear electric field (v × E/c²); this is zero in the non-relativistic limit. The Thomas precession correction is also purely relativistic, arising from the non-inertial character of the electron's rest frame under Lorentz boosts. The fine structure, of which spin-orbit coupling is a part, emerges from the first-order relativistic corrections to the Schrödinger equation — formalized in the Dirac equation."

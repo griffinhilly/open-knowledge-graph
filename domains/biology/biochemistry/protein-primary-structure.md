@@ -61,7 +61,7 @@ Study the genetic code and practice translating mRNA sequences into amino acid s
   answer: true
   explanation: "Because primary structure — the amino acid sequence specified by the gene — encodes all the information needed for folding, proteins with identical sequences fold into identical native structures (Anfinsen's dogma). This is why a single gene reliably produces millions of copies of the same functional protein. The sequence is the blueprint; the fold is the structure it encodes."
 
-- question: "Two proteins with completely different amino acid sequences cannot share a similar three-dimensional fold."
+- question: "Two proteins with largely different amino acid sequences can rarely share a similar three-dimensional fold."
   type: true-false
   answer: false
   explanation: "Convergent evolution can produce proteins with similar folds despite very different sequences, as similar structural solutions arise independently to solve similar functional problems. Homologous proteins from distantly related species may also retain a conserved structural scaffold while diverging substantially in sequence. Sequence similarity predicts structural similarity probabilistically, but the relationship is not absolute."

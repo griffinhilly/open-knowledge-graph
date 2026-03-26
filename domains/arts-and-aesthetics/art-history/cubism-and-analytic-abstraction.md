@@ -54,7 +54,7 @@ Cubism (1907-1914) fragmented objects into geometric planes and presented multip
   answer: true
   explanation: "This is the core of what Cubism argued against. Linear perspective organizes all lines to converge at a vanishing point that corresponds to a single, stationary eye at one moment in time. This creates a coherent illusion of depth but freezes the viewpoint. Cubism claimed this was a convention, not a truth — our actual experience of objects is built from multiple viewpoints accumulated over time. Rejecting the single fixed viewpoint was therefore not just a stylistic choice but a philosophical position about representation and perception."
 
-- question: "Analytic Cubism was a move toward complete non-objectivity — the subjects of Analytic Cubist paintings are entirely unrecognizable beneath the geometric fragmentation."
+- question: "Analytic Cubism was a move toward complete non-objectivity — the subjects of Analytic Cubist paintings are mostly unrecognizable beneath the geometric fragmentation."
   type: true-false
   answer: false
   explanation: "Analytic Cubism retained recognizable subjects — guitars, bottles, newspapers, human figures are all still present, though fragmented into overlapping geometric facets. A viewer who looks carefully can reconstruct the object from its planes and fragments. This is part of the visual experience Cubism intended: you must actively work to reassemble the subject, becoming aware of the painting as a constructed surface. Complete non-objectivity (no recognizable subject at all) came later in Mondrian, Malevich, and abstract expressionism. Analytic Cubism sits between representation and abstraction."

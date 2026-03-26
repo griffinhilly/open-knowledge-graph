@@ -59,7 +59,7 @@ All voice-leading rules must be followed without exception; rules are learned pr
   answer: true
   explanation: "True — this is the underlying principle. When two voices move in parallel to a perfect fifth or octave, they begin to blend into a single sound rather than functioning as two independent contrapuntal lines. The entire purpose of four-part writing is to maintain four distinct, singable, melodically interesting voices simultaneously. Parallel motion at these intervals defeats that purpose by acoustically fusing two of those voices. The rule is not aesthetic whim; it follows from the psychoacoustics of how the ear groups simultaneous sounds."
 
-- question: "In four-part SATB writing, the three upper voices (soprano, alto, tenor) must all remain within an octave of the bass voice."
+- question: "In four-part SATB writing, the three upper voices (soprano, alto, tenor) is expected to most remain within an octave of the bass voice."
   type: true-false
   answer: false
   explanation: "False — the spacing rule applies to the three upper voices relative to each other: soprano, alto, and tenor should generally stay within an octave of each other. The bass voice may sit considerably further below the tenor without violating spacing rules. This is why large gaps between bass and tenor (even two octaves) appear regularly in Bach chorales, while gaps larger than an octave between any two adjacent upper voices are typically avoided. Misapplying this rule to the bass will cause you to flag correct writing as errors."

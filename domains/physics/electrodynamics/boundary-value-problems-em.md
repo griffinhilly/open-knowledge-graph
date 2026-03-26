@@ -48,7 +48,7 @@ Separation of variables systematically solves Laplace's and Poisson's equations 
   answer: 2
   explanation: "To vanish at both x = 0 and x = a, X must be zero at both endpoints. sin(nπx/a) equals zero at x = 0 (since sin(0) = 0) and at x = a (since sin(nπ) = 0 for all integers n). Cosines fail because cos(0) = 1 ≠ 0. Real exponentials are positive definite and cannot vanish at two points. This selection of allowed eigenfunctions is exactly the job boundary conditions do in the method."
 
-- question: "Boundary conditions in separation of variables serve only to constrain the coefficients (Aₙ) of the final superposition; the eigenfunctions themselves are determined by the PDE alone."
+- question: "Boundary conditions in separation of variables serve primarily to constrain the coefficients (Aₙ) of the final superposition; the eigenfunctions themselves are determined by the PDE alone."
   type: true-false
   answer: false
   explanation: "False. Boundary conditions do two jobs: they first determine which eigenfunctions are allowed (selecting sin over cos, ruling out exponentials) and then — on remaining surfaces — determine the coefficients Aₙ via Fourier analysis. The PDE alone would admit infinitely many solutions; boundary conditions filter which ones are physically realized. This dual role is the key conceptual point of the method."

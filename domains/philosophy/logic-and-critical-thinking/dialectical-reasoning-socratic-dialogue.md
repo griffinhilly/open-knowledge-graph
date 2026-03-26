@@ -58,7 +58,7 @@ Confusing dialectic with debate or rhetorical combat. Thinking Socratic question
   answer: true
   explanation: "Aporia is not mere failure to agree; it is the discovery that a question is harder and more complex than naive confidence assumed. Beginning a dialogue thinking you understand what justice is and ending it knowing that you do not — and knowing specifically where your previous definition broke down — represents genuine intellectual progress. Socrates treated this as the beginning of real inquiry, not its end. Many Platonic dialogues, including the Euthyphro and Meno, end in exactly this state."
 
-- question: "Dialectical reasoning and debate are essentially the same practice, differing only in their formality — both aim to produce the strongest possible argument for one's position."
+- question: "Dialectical reasoning and debate are essentially the same practice, differing primarily in their formality — both aim to produce the strongest possible argument for one's position."
   type: true-false
   answer: false
   explanation: "They differ fundamentally in goal and criterion of success. In debate, you are committed to a position and success means defeating the opposing position — rhetoric, consistency, and winning matter. In dialectic, you are committed to truth and success means developing a position that survives the strongest possible objections — even if that means abandoning or radically revising your starting view. Debate treats an objection as something to overcome; dialectic treats an objection as a tool for testing and refining. This is why the principle of charity is essential in dialectic but often irrelevant (or even counterproductive) in debate."

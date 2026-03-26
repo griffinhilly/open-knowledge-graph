@@ -51,7 +51,7 @@ In series circuits, the same current flows through all elements. Total resistanc
   answer: true
   explanation: "True — this is the defining property of a series circuit and follows directly from KCL. Because all components are connected end to end in a single chain with no branch points, there is only one path for charge to flow. KCL states that current into any node equals current out; with no branches, the same current I passes through every element. The resistors do not 'use up' current; charge that enters one end exits the other in the same quantity. Each resistor's resistance affects the voltage drop across it (V = IR), but not the current, which is set by the total resistance and supply voltage."
 
-- question: "Adding more resistors in series always increases the total voltage available to each existing component in the circuit."
+- question: "Adding more resistors in series usually increases the total voltage available to each existing component in the circuit."
   type: true-false
   answer: false
   explanation: "False — adding resistors in series increases total resistance, which reduces the total current (I = V_source / R_total). Since the voltage across each existing component is V = I · R_component, a smaller I means less voltage across every existing element. Each new series resistor 'steals' some of the supply voltage, reducing what is available to the others. The only way to increase voltage across a component is to decrease total series resistance (remove other resistors) or increase the supply voltage."

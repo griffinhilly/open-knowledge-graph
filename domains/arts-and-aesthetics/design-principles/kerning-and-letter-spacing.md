@@ -52,7 +52,7 @@ Practice with font pairs that have obvious kerning issues (e.g., AV, To, Yo). Co
   answer: 1
   explanation: "Uppercase letters have more uniform heights than mixed-case text, which makes tighter spacing feel cramped and crowded. The solution is tracking — increasing uniform spacing across the whole word or line — not pair-specific kerning. This is a standard typographic rule: uppercase and small caps text typically benefits from added tracking to breathe properly."
 
-- question: "Mathematically equal spacing between letters will always appear optically equal to a trained eye."
+- question: "Mathematically equal spacing between letters will typically appear optically equal to a trained eye."
   type: true-false
   answer: false
   explanation: "False — this is the central misconception kerning corrects. Different letter shapes create different amounts of apparent whitespace even when the measured gap is identical. Straight-sided letters (like H and I) feel closer than combinations with angled or overhanging strokes (like A and V, or T and o). Good typography requires optical equality, not mathematical equality."

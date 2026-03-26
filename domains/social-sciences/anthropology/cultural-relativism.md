@@ -60,7 +60,7 @@ Work through a case study (e.g., female genital cutting, animal sacrifice, arran
   answer: 2
   explanation: "Boas formulated cultural relativism in explicit opposition to 19th-century evolutionary anthropology, which ranked cultures from 'savage' to 'civilized' with Western European society conveniently at the top. This ranking naturalized colonial domination — framing conquest as progress and 'civilizing' as a moral duty. Boas showed the evidence did not support it: cultural variation was too complex and historically contingent to be ordered on a single linear scale. Cultural relativism was a methodological and political corrective, not a claim that no moral evaluation was ever possible."
 
-- question: "Cultural relativism, as practiced by professional anthropologists, means that moral criticism of practices in other cultures is never justified."
+- question: "Cultural relativism, as practiced by professional anthropologists, means that moral criticism of practices in other cultures is rarely justified."
   type: true-false
   answer: false
   explanation: "This confuses methodological relativism with moral relativism. Cultural relativism as a methodological principle requires temporarily suspending evaluation to understand a practice within its own context — but it does not foreclose all moral judgment. Most anthropologists maintain that describing and understanding a practice before evaluating it is good methodology, not a permanent ethical commitment to non-judgment. The discipline actively debates where the limits of relativism lie, particularly regarding genocide, torture, and other potential human rights violations."

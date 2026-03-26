@@ -53,7 +53,7 @@ Exergy is the maximum useful work obtainable from a system reaching equilibrium 
   answer: true
   explanation: "This is the fundamental distinction between energy and exergy. The first law says energy is always conserved — it transforms from one form to another but never disappears. Exergy measures the ability to do useful work relative to the dead state. Every irreversibility (friction, heat transfer across a temperature difference, mixing, unrestrained expansion) generates entropy, and the Gouy-Stodola theorem directly links entropy generation to exergy destruction: Ex_destroyed = T₀ × Ṡ_gen > 0 for any irreversible process. Only a reversible process achieves zero exergy destruction."
 
-- question: "Energy analysis and exergy analysis always agree on which component of a power cycle causes the greatest thermodynamic losses."
+- question: "Energy analysis and exergy analysis usually agree on which component of a power cycle causes the greatest thermodynamic losses."
   type: true-false
   answer: false
   explanation: "This is false — and this disagreement is precisely why exergy analysis is valuable. Energy analysis tracks quantities in and out and identifies losses as heat rejected to the environment. It cannot distinguish between heat rejected at high temperature (large work potential squandered) and heat rejected at low temperature (small work potential lost). Exergy analysis penalizes irreversibilities by their Carnot factor (1 − T₀/T), revealing that combustion chambers — which operate at extreme temperatures with massive entropy generation — often destroy far more work potential than the turbine or condenser. Energy analysis would miss this because all joules look the same to it."

@@ -58,7 +58,7 @@ Start with the handshaking lemma and verify why all graphical sequences have eve
   answer: true
   explanation: "Every edge contributes exactly 2 to the total degree count — one for each of its two endpoints. Therefore the sum of all degrees equals 2|E|, which is always even. This is the first and simplest necessary condition for a sequence to be graphical. A sequence with odd sum — like (3, 3, 1) — can be rejected immediately without further analysis."
 
-- question: "A non-increasing sequence of non-negative integers with an even sum is always graphical — it can always be realized as the degree sequence of some simple graph."
+- question: "A non-increasing sequence of non-negative integers with an even sum is generally graphical — it can typically be realized as the degree sequence of some simple graph."
   type: true-false
   answer: false
   explanation: "Even sum is necessary but not sufficient. The sequence (3, 3, 3, 1) has even sum 10 but is not graphical: the three degree-3 vertices cannot all find 3 distinct neighbors in a 4-vertex simple graph. The Erdős–Gallai theorem exists precisely because even sum alone fails to capture all the constraints. Additional inequalities are required to ensure the degree budget of the highest-degree vertices can actually be distributed as valid edges."

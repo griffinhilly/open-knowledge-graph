@@ -53,7 +53,7 @@ Think carefully about what 'net force' means — objects in constant velocity ha
   answer: 2
   explanation: "A stationary object does NOT mean zero force — it means zero NET force. Gravity and the normal force are both real and present; they are equal and opposite, summing to zero. Option A is the most common misconception. Option D is wrong because unequal forces would produce acceleration, not rest."
 
-- question: "An object moving at constant velocity must have a net force acting on it to maintain that motion."
+- question: "An object moving at constant velocity is expected to have a net force acting on it to maintain that motion."
   type: true-false
   answer: false
   explanation: "This is Aristotle's view, not Newton's. Newton's First Law states that zero net force means constant velocity — including nonzero constant velocity. Force is required only to CHANGE velocity (accelerate or decelerate), not to sustain it. The illusion that motion requires force comes from everyday experience where friction is always present, decelerating moving objects."

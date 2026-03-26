@@ -58,7 +58,7 @@ Children may not understand that zero is a real number. They might think countin
   answer: true
   explanation: "Zero is a number just like 1, 2, or 5. It names a precise quantity: none. Saying 'zero apples' gives just as much information as saying 'five apples.' Zero belongs to the counting family and has its own place on the number line."
 
-- question: "Counting always has to start at 1, because there is no reason to count when there is nothing."
+- question: "Counting usually has to start at 1, because there is no reason to count when there is very little."
   type: true-false
   answer: false
   explanation: "You can start counting at zero. When you count backward — 5, 4, 3, 2, 1, 0 — zero is the endpoint, not a missing step. Zero is a valid number that represents 'none,' and recognizing it as a real number is one of the most important early math ideas."

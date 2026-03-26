@@ -58,7 +58,7 @@ Financial independence requires very high income (savings rate matters more); it
   answer: 1
   explanation: "Person A saves $10,000/year and needs 25x their $190,000 in annual spending = $4.75M. Person B saves $24,000/year and needs 25x their $36,000 in spending = $900,000. Despite earning far less, Person B reaches FI in roughly 15 years while Person A takes over 40. Savings rate controls both how fast assets accumulate and how large the target needs to be."
 
-- question: "A higher income always means you will reach financial independence sooner than someone with a lower income."
+- question: "A higher income generally means you will reach financial independence sooner than someone with a lower income."
   type: true-false
   answer: false
   explanation: "Income is not the primary determinant — savings rate is. A high earner with a 5% savings rate may never reach FI while a moderate earner with a 40% savings rate can get there in 15 years. High income enables a high savings rate but doesn't guarantee one. The FI framework reveals that lifestyle inflation (spending more as income rises) is the main reason high earners don't become financially independent."

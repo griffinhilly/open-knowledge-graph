@@ -56,7 +56,7 @@ Observe how norms form in newly created groups (classroom, online community) and
   answer: true
   explanation: "Internalized norms are self-sustaining: people follow them because they believe they are right, independent of whether anyone is watching or enforcing. External sanctions can enforce behavioral compliance, but compliance evaporates when enforcement weakens or disappears — when people leave the group, when monitoring decreases, or when the costs of sanctions seem low. Internalized norms travel with the person and persist across contexts. This is why organizations, religions, and political movements invest heavily in practices that promote internalization rather than relying solely on rules and penalties."
 
-- question: "Pluralistic ignorance occurs when all group members privately endorse a norm while publicly acting as if they doubt it, creating a false impression of widespread skepticism."
+- question: "Pluralistic ignorance occurs when most group members privately endorse a norm while publicly acting as if they doubt it, creating a false impression of widespread skepticism."
   type: true-false
   answer: false
   explanation: "Pluralistic ignorance is the reverse: all group members privately doubt or reject the norm while publicly conforming to it — creating a false impression of widespread endorsement. Because everyone sees others' public compliance and interprets it as genuine belief, each member concludes they are the only one who privately disagrees. This sustains norms that no one actually endorses: everyone complies to avoid social disapproval, everyone's compliance reinforces everyone else's false inference that the norm is genuinely popular."

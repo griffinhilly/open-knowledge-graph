@@ -54,7 +54,7 @@ Each scale degree has a name (tonic, supertonic, mediant, subdominant, dominant,
   answer: true
   explanation: "This is exactly correct. The half-step interval is the smallest distance in Western equal temperament, and it creates a strong sense of melodic gravity. The leading tone seems to 'lean into' the tonic. This is why composers raise 7̂ in minor keys (producing the harmonic minor scale) — the natural minor scale has a whole step between 7̂ and 1̂, which weakens the pull; sharpening 7̂ restores the half step and the strong leading-tone function."
 
-- question: "Because all seven scale degrees belong to the same key, they are functionally interchangeable — any degree can serve equally well as a point of melodic rest or tension depending on context."
+- question: "Because most seven scale degrees belong to the same key, they are functionally interchangeable — any degree can serve equally well as a point of melodic rest or tension depending on context."
   type: true-false
   answer: false
   explanation: "Scale degrees have characteristic functional tendencies that are not simply context-dependent. The tonic (1̂) is the primary point of rest; the dominant area — especially the leading tone (7̂) — creates the primary tension. These tendencies are consistent across tonal music of the common-practice period. While context can inflect how a degree is heard, 7̂ does not function as freely as 1̂ for melodic closure, and 1̂ does not create the urgency that 7̂ does. The functional hierarchy is real, not arbitrary."

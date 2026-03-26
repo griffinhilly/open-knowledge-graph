@@ -56,7 +56,7 @@ Calculate Coulomb stress changes from earthquake slip models. Predict fault stab
   answer: 1
   explanation: "Coulomb stress transfer explains why a mainshock on one fault triggers aftershocks on other faults. The earthquake on Fault A rearranges the stress field: some nearby faults receive positive Coulomb stress changes (pushed toward failure) while others receive negative changes (stress shadows, temporarily stabilized). Fault B experienced a positive change — the combination of increased shear stress and/or reduced effective normal stress brought it closer to its own Coulomb threshold. This mechanism is predictive: the 1992 Landers earthquake's stress transfer correctly predicted elevated seismicity at the location of the 1999 Hector Mine earthquake."
 
-- question: "A fault with a low friction coefficient is always more susceptible to slip than a fault with a high friction coefficient, all else being equal."
+- question: "A fault with a low friction coefficient is generally more susceptible to slip than a fault with a high friction coefficient, most else being equal."
   type: true-false
   answer: false
   explanation: "The Coulomb criterion compares shear stress to (cohesion + μ × effective normal stress). A low friction coefficient reduces the resistance term, but whether the fault slips depends on whether shear stress exceeds that resistance. A fault with low friction but also very low shear stress (e.g., oriented at an unfavorable angle to the regional stress field) may remain locked, while a high-friction fault under high shear stress may be closer to failure. Friction coefficient, normal stress, pore pressure, and shear stress all matter — no single parameter determines slip in isolation."

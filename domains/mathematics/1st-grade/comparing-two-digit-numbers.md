@@ -43,7 +43,7 @@ Comparing two-digit numbers uses place value: compare tens first; if tens are eq
   answer: 1
   explanation: "When the tens digits are equal, we move to the ones place to break the tie. 58 and 52 both have 5 tens — so we compare the ones: 8 ones > 2 ones, therefore 58 > 52. Option C is the classic trap: equal tens does not mean equal numbers."
 
-- question: "When comparing 48 and 51, you must look at both the tens digit and the ones digit to determine which number is greater."
+- question: "When comparing 48 and 51, you should look at both the tens digit and the ones digit to determine which number is greater."
   type: true-false
   answer: false
   explanation: "Only the tens digits are needed here. 51 has 5 tens and 48 has only 4 tens — since 5 tens > 4 tens, 51 > 48 without any need to examine the ones digits. You only need the ones when the tens are equal."

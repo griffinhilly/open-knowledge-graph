@@ -60,7 +60,7 @@ Identify pivot chords in modulating passages in scores. Compose modulations to c
   answer: true
   explanation: "True — this is the mechanism of pivot chord modulation. The pivot chord sounds natural in the original key as part of an expected progression. At the same time, it belongs to the new key. The music then moves to a chord that only makes sense in the new key (typically V or V7 of the new key), and the listener retroactively reinterprets the pivot as having belonged to the new key all along. The listener doesn't hear a 'break' — they hear continuity that gradually clarifies into a new tonal center. This smooth reinterpretation is why pivot chord modulation sounds more organic than a direct, abrupt key change."
 
-- question: "Modulation in tonal music always requires a pivot chord — there is no other way to move convincingly between keys."
+- question: "Modulation in tonal music usually requires a pivot chord — there is no other way to move convincingly between keys."
   type: true-false
   answer: false
   explanation: "False — pivot chord modulation is the most common and smooth technique, but it is not the only one. Direct modulation (sometimes called 'phrase modulation') simply asserts the new key at the start of a new phrase without any pivot chord preparation — common in popular music and late Romantic repertoire. Enharmonic modulation reinterprets a chord's spelling (treating G# as Ab, for example) to pivot between distantly related keys that share no diatonic chords. Chromatic modulation uses chromatically altered chords to shift tonal centers. The pivot chord technique is one tool among several, distinguished by its smoothness in closely related key modulations."

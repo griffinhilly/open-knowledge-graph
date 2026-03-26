@@ -52,7 +52,7 @@ Simulate adding randomly chosen stocks to a portfolio and plot how the portfolio
   answer: 1
   explanation: "Diversification reduces risk by combining assets whose returns are not perfectly correlated. Fifty tech stocks may move together during sector downturns, leaving substantial correlated (sector-specific) risk. True diversification requires low correlation across holdings, not merely a large number of them. This is the correlation insight: what matters is how assets move relative to each other, not how many you hold."
 
-- question: "Adding a highly volatile asset to a portfolio always increases the portfolio's overall risk."
+- question: "Adding a highly volatile asset to a portfolio typically increases the portfolio's overall risk."
   type: true-false
   answer: false
   explanation: "Portfolio risk (variance) depends not just on each asset's individual variance but on the covariances among all holdings. If a volatile asset has a low or negative correlation with existing holdings, its addition can reduce the portfolio's overall variance — the losses on existing assets tend to occur when this asset gains, and vice versa. Standalone volatility is not the right metric; what matters is the correlation structure."

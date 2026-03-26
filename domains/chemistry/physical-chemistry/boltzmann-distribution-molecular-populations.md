@@ -61,7 +61,7 @@ Calculate population distributions for simple systems (two-level atoms, harmonic
   answer: true
   explanation: "As T → ∞, k_BT becomes arbitrarily large compared to any finite energy spacing. Every Boltzmann factor e^(-E_i/k_BT) approaches e^0 = 1 regardless of E_i, so all levels carry equal weight. This is the high-temperature limit where thermal energy completely overwhelms energy level differences, and the distribution becomes uniform."
 
-- question: "In a two-level system, raising the temperature always increases the fraction of molecules in the ground state."
+- question: "In a two-level system, raising the temperature generally increases the fraction of molecules in the ground state."
   type: true-false
   answer: false
   explanation: "Raising temperature increases the population of excited states and *decreases* the fraction in the ground state. The Boltzmann distribution spreads population across more states as temperature rises. At very low T, nearly all molecules are in the ground state; as T increases, population flows into excited states. The ground state fraction N₀/N_total = 1/(1 + e^(-ε/k_BT)) decreases monotonically as T increases."

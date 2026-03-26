@@ -53,7 +53,7 @@ Draw two parallel lines cut by a transversal and label all eight angles. Identif
   answer: 2
   explanation: "Knowing one angle determines all eight. Vertical angles at the same intersection are equal; supplementary adjacent pairs sum to 180°. So if one angle is 65°, its vertical angle is also 65°, and the two adjacent angles are each 115°. The same pattern repeats at the second intersection via the parallel-line relationships. This gives exactly two distinct measures: 65° and 115° = 180° − 65°."
 
-- question: "When a transversal crosses two parallel lines, all eight angles formed are equal to each other."
+- question: "When a transversal crosses two parallel lines, most eight angles formed are equal to each other."
   type: true-false
   answer: false
   explanation: "Only some angle pairs are equal. Corresponding angles, alternate interior angles, and alternate exterior angles are equal. But co-interior (same-side interior) angles are supplementary — they sum to 180°, not equal each other. If all eight were equal, they would each have to be 90°, which is only true when the transversal is perpendicular to the parallel lines."

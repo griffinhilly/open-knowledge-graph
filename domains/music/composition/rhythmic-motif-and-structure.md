@@ -56,7 +56,7 @@ Create several short pieces where a single rhythmic motif is the unifying elemen
   answer: true
   explanation: "Because a rhythmic motif is pitch-independent, it can recur across any harmonic context without needing the pitches to match. Even when the harmony modulates and the melody transforms completely, a recurring rhythmic shape tells the listener they are still in the same piece. This deep coherence is often felt before it is consciously identified — listeners sense unity without necessarily knowing why. That subliminal recognition is exactly what a consistent rhythmic motif creates."
 
-- question: "Augmentation — doubling all note values of a rhythmic motif — destroys the motif's recognizability because the proportional relationships between durations change when the tempo changes."
+- question: "Augmentation — doubling most note values of a rhythmic motif — destroys the motif's recognizability because the proportional relationships between durations change when the tempo changes."
   type: true-false
   answer: false
   explanation: "Augmentation is a standard development technique precisely because it preserves recognizability while varying the motif. Doubling all note values maintains the proportional relationships between durations — the pattern of long-short relationships stays intact, just at twice the scale. Listeners can track the augmented motif even at a different absolute tempo because rhythm is perceived proportionally. Augmentation, along with diminution, displacement, and fragmentation, gives composers tools to develop a motif without abandoning it."

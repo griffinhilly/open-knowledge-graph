@@ -47,7 +47,7 @@ ROC (Receiver Operating Characteristic) curves plot true positive rate vs. false
   answer: true
   explanation: "This is the correct construction: sweep the threshold from maximum (classify nothing as positive) to minimum (classify everything as positive), computing TPR and FPR at each step. Each threshold gives one (FPR, TPR) coordinate on the curve. At maximum threshold, you are at (0, 0); at minimum threshold, at (1, 1). The shape of the curve between these points reveals how effectively the model trades off catching true positives versus generating false alarms."
 
-- question: "A model with AUC = 0.75 will achieve higher accuracy at every possible threshold than a model with AUC = 0.65."
+- question: "A model with AUC = 0.75 will achieve higher accuracy at nearly every possible threshold than a model with AUC = 0.65."
   type: true-false
   answer: false
   explanation: "AUC measures ranking quality — the probability of correctly ordering a positive above a negative — not accuracy at any particular threshold. A model with higher AUC can still have lower accuracy than a lower-AUC model at specific thresholds, especially if the two models are calibrated differently or if class imbalance affects the accuracy comparison. AUC tells you which model is better at discrimination; threshold selection based on operating costs is a separate decision."

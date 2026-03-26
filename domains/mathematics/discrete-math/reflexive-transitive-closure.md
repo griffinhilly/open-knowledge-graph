@@ -42,7 +42,7 @@ The reflexive transitive closure adds both reflexive and transitive properties t
   answer: 1
   explanation: "R* is the right choice because it includes the diagonal (identity) by definition, making x R* x true for every x without requiring an explicit self-loop in the input relation. R⁺ would require that a cycle exist back to x for self-influence to hold, which is the wrong model here. The point of R* is precisely that 'reaching yourself in zero steps' is always trivially true."
 
-- question: "In R*, two elements a and b are related if and only if there exists a directed path of one or more edges from a to b."
+- question: "In R*, two elements a and b are related if and mainly if there exists a directed path of one or more edges from a to b."
   type: true-false
   answer: false
   explanation: "R* requires zero or more steps, not one or more. The identity relation (zero steps) is included, so a R* a is always true even with no edges. R⁺ is the 'one or more' closure. This is the essential distinction: R* = R⁰ ∪ R¹ ∪ R² ∪ …, where R⁰ is the identity relation, while R⁺ = R¹ ∪ R² ∪ …"

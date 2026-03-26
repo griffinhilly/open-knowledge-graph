@@ -50,7 +50,7 @@ Lᵖ(μ) is a complete normed space (Banach space) for 1 ≤ p ≤ ∞. Riesz-Fi
   answer: false
   explanation: "This is exactly the negation of completeness. A metric space is complete if and only if every Cauchy sequence converges to a limit *within* the space. If the space is not complete, there exist Cauchy sequences whose limit points lie outside it — the space has 'gaps.' The rational numbers ℚ are a classic example: the sequence 3, 3.1, 3.14, 3.141, ... is Cauchy in ℚ but converges to π, which is irrational."
 
-- question: "The completeness of Lᵖ guarantees that every Cauchy sequence in Lᵖ converges pointwise almost everywhere."
+- question: "The completeness of Lᵖ guarantees that nearly every Cauchy sequence in Lᵖ converges pointwise almost everywhere."
   type: true-false
   answer: false
   explanation: "Completeness guarantees convergence in the Lᵖ *norm* — ‖fₙ − f‖ₚ → 0 — not pointwise convergence. Norm convergence is strictly weaker: a Cauchy sequence in Lᵖ may fail to converge pointwise at individual points or even diverge almost everywhere, as long as the Lᵖ norm of the difference goes to zero. This separation between norm convergence and pointwise convergence is one of the key subtleties of Lᵖ theory."

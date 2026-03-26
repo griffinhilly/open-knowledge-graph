@@ -54,7 +54,7 @@ Compute efficiency for engines described by Q_H and Q_C values, then relate thos
   answer: 1
   explanation: "A heat engine's working fluid must return to its initial state after each cycle (otherwise it could only run once). Rejecting Q_C to the cold reservoir is the mechanism that resets the fluid's state. No engine — regardless of design, materials, or working fluid — can complete a cycle using only a single thermal reservoir and produce net work. This is the Kelvin-Planck statement of the second law. It is not an engineering limitation that clever design can overcome; it is a fundamental law of nature."
 
-- question: "An engine with 30% thermal efficiency wastes 70% of its input heat purely due to engineering imperfections like friction and heat loss — a perfect engine could theoretically convert all input heat to work."
+- question: "An engine with 30% thermal efficiency wastes 70% of its input heat purely due to engineering imperfections like friction and heat loss — a perfect engine could theoretically convert most input heat to work."
   type: true-false
   answer: false
   explanation: "Even a perfect (reversible Carnot) engine rejects heat to a cold reservoir. The second law requires heat rejection; it is not an engineering flaw. Some of the 70% may be due to irreversibilities (friction, heat transfer across finite temperature differences), but a fraction is thermodynamically unavoidable. The Carnot efficiency e = 1 − T_C/T_H sets the maximum achievable efficiency for any engine between those reservoirs — and for typical temperature ratios, this maximum is well below 100%."

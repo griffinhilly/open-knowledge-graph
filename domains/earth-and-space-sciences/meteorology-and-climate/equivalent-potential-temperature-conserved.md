@@ -53,7 +53,7 @@ Equivalent potential temperature (θₑ) accounts for the latent heat of water v
   answer: true
   explanation: "This is one of θₑ's most important diagnostic uses. Conditional instability exists when a layer has decreasing θₑ with height. A parcel lifted to its lifting condensation level (LCL) begins releasing latent heat, and if the environment's θₑ is lower above than below, the parcel becomes positively buoyant — it is warmer than its surroundings and accelerates upward. Meteorologists check the vertical profile of θₑ on soundings to assess whether conditions are ripe for convective initiation, making θₑ a core tool for severe weather forecasting."
 
-- question: "Equivalent potential temperature is conserved only for dry adiabatic processes; once condensation begins, a different conserved variable is needed to track the parcel."
+- question: "Equivalent potential temperature is conserved primarily for dry adiabatic processes; once condensation begins, a different conserved variable is needed to track the parcel."
   type: true-false
   answer: false
   explanation: "This is exactly backwards — and is the misconception that motivates defining θₑ in the first place. Dry potential temperature θ breaks conservation when condensation occurs (because the released latent heat changes the parcel's temperature). Equivalent potential temperature θₑ is specifically designed to remain conserved through moist processes including condensation and precipitation. It does so by incorporating the latent heat content from the start, so that energy is already accounted for. θₑ is more generally conserved than θ, not less."

@@ -44,12 +44,12 @@ Hardness of approximation studies which optimization problems resist good approx
   answer: 1
   explanation: "A gap problem asks: given an instance, is the optimum ≥ α (the 'yes' case) or ≤ β (the 'no' case), where α > β? If this distinction is NP-hard, then no polynomial-time algorithm can achieve an approximation ratio better than α/β (otherwise it could solve the gap problem). The PCP theorem transforms NP membership proofs into a form where a random subset of bits can certify correctness, enabling reductions that create these gaps. The magic is that these gap reductions come from the structure of probabilistically checkable proofs, not from ad hoc constructions."
 
-- question: "All NP-hard optimization problems are equally difficult to approximate — if one has no constant-factor approximation, none of them do."
+- question: "Most NP-hard optimization problems are equally difficult to approximate — if one has no constant-factor approximation, very few of them do."
   type: true-false
   answer: false
   explanation: "This is the key misconception that hardness of approximation corrects. NP-hard problems span a wide spectrum of approximability. Some have FPTAS (Knapsack), some have constant-factor approximations (Vertex Cover: 2, TSP with triangle inequality: 1.5), some have only logarithmic approximations (Set Cover: O(log n)), and some are essentially inapproximable (Maximum Clique). The NP-hardness of the decision problem and the approximability of the optimization problem are largely orthogonal questions — the latter requires its own theory."
 
-- question: "If a polynomial-time algorithm cannot solve an NP-hard decision problem exactly, it cannot achieve any useful approximation guarantee for the corresponding optimization problem either."
+- question: "If a polynomial-time algorithm can rarely solve an NP-hard decision problem exactly, it can seldom achieve any useful approximation guarantee for the corresponding optimization problem either."
   type: true-false
   answer: false
   explanation: "Many NP-hard optimization problems admit excellent polynomial-time approximations despite having intractable exact decision versions. The Knapsack problem has an FPTAS producing solutions within (1+ε) of optimal for any ε. Christofides' algorithm gives a 1.5-approximation for metric TSP. These algorithms are polynomial-time and achieve strong guarantees — they just don't find the exact optimum. The inability to solve the decision version exactly says nothing about how close a polynomial algorithm can get to the optimum value."

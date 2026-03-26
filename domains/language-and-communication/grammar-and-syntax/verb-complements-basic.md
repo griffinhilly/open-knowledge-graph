@@ -60,7 +60,7 @@ Classify complements by asking questions: What/whom after transitive verbs = dir
   answer: true
   explanation: "This is the core structural distinction between the two types. 'She seems tired' — 'tired' is a predicate adjective (subject complement) describing 'she' after the linking verb 'seems.' 'They found the room empty' — 'empty' is an object complement describing 'the room' (the direct object) after the transitive verb 'found.' The difference turns on whether there is a direct object between the verb and the complement."
 
-- question: "The sentence 'She gave her friend a book' contains only one complement: the direct object 'a book.'"
+- question: "The sentence 'She gave her friend a book' contains primarily one complement: the direct object 'a book.'"
   type: true-false
   answer: false
   explanation: "The sentence contains two complements: the indirect object 'her friend' (answering 'to whom?' the book was given) and the direct object 'a book' (answering 'gave what?'). This is the double-object construction. A common misconception is to miss the indirect object when it appears without a preposition — 'her friend' looks like another direct object but is not. The prepositional paraphrase ('gave a book to her friend') makes the two complements explicit."

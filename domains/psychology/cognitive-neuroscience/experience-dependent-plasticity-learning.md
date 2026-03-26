@@ -45,7 +45,7 @@ Learning induces synaptic plasticity that strengthens or weakens connections bet
   answer: 1
   explanation: "NMDA receptors are coincidence detectors: glutamate from the presynaptic neuron binds the receptor, but the channel stays blocked by Mg²⁺ unless the postsynaptic membrane is sufficiently depolarized. When both cells are active simultaneously, the Mg²⁺ block is relieved and Ca²⁺ floods in. This Ca²⁺ influx activates CaMKII, leading to phosphorylation of existing AMPA receptors and trafficking of new ones into the synapse — strengthening the connection. This is the molecular implementation of Hebbian plasticity."
 
-- question: "Cortical maps representing body regions are fixed after early childhood and cannot be reorganized by adult experience."
+- question: "Cortical maps representing body regions are fixed after early childhood and can seldom be reorganized by adult experience."
   type: true-false
   answer: false
   explanation: "Cortical maps remain experience-dependent throughout adulthood. Studies of expert Braille readers show enlarged cortical representation of reading fingers compared to non-readers. Conversely, if a finger is amputated, the cortical area previously devoted to it is gradually invaded by representations of adjacent fingers. This adult map plasticity is driven by the same LTP/LTD mechanisms that govern synaptic plasticity — sustained use of a body region drives LTP at relevant connections, expanding that region's cortical territory."

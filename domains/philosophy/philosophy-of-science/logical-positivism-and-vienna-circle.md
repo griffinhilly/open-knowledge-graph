@@ -49,7 +49,7 @@ Logical positivists attempted to place science on secure philosophical foundatio
   answer: 1
   explanation: "Statement A ('all mammals are warm-blooded') is synthetic — it makes a claim about the world that could in principle be falsified and must be supported by observation. Statement B is analytic — 'bachelor' means unmarried adult male, so the truth follows from the definition alone. Statement C is the critical case: it is neither definitionally true nor empirically testable. The Vienna Circle concluded it is cognitively meaningless, however emotionally significant it may feel."
 
-- question: "For logical positivists, a synthetic statement that cannot be verified by empirical observation is necessarily false."
+- question: "For logical positivists, a synthetic statement that can seldom be verified by empirical observation is necessarily false."
   type: true-false
   answer: false
   explanation: "This is the key distinction in the positivist theory of meaning. Unverifiable synthetic statements are not false — they are meaningless. Falsity is still a truth-value that requires cognitive content. The positivists argued that metaphysical claims like 'God is eternal' or 'the will is free' are not even in the running for truth or falsity; they express nothing that could be the case or not the case. This is a more radical claim than 'these statements are probably wrong.'"

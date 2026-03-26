@@ -51,7 +51,7 @@ The Joule-Thomson coefficient μ = (∂T/∂P)_h = (1/Cp)[T(∂V/∂T)_p - V] ca
   answer: true
   explanation: "For most gases encountered in everyday conditions, the inversion temperature at low pressure is well above room temperature (e.g., nitrogen ~621 K, oxygen ~764 K). Below the inversion temperature, intermolecular attractions dominate, pulling molecules apart requires work against the attractive potential, and this energy comes from kinetic energy — cooling the gas. Thus μ > 0 and throttling produces cooling. This is the basis of the Linde-Hampson liquefaction cycle for air separation."
 
-- question: "Throttling a gas always produces cooling because expansion allows molecules to move farther apart, reducing their kinetic energy."
+- question: "Throttling a gas usually produces cooling because expansion allows molecules to move farther apart, reducing their kinetic energy."
   type: true-false
   answer: false
   explanation: "Throttling is isenthalpic, not isentropic, and its temperature effect depends on the Joule-Thomson coefficient μ. If μ > 0 (below the inversion temperature), throttling cools the gas. If μ < 0 (above the inversion temperature), throttling heats it. If μ = 0 (ideal gas or exactly at the inversion point), temperature is unchanged. Hydrogen and helium at room temperature heat when throttled. Cooling occurs only when attractive intermolecular forces dominate over molecular volume effects — this is not guaranteed at all temperatures and pressures."

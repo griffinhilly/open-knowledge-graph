@@ -48,7 +48,7 @@ Alkene double bonds cannot rotate freely, creating distinct geometric isomers (c
   answer: 2
   explanation: "Geometric isomers are distinct compounds, not just naming conventions. Z-2-butene and E-2-butene have the same atoms connected in the same order, but their different three-dimensional arrangements produce different dipole moments, intermolecular interactions, melting points, boiling points, and reactivities. The lab partner is confusing constitutional isomers with geometric isomers — E and Z isomers have the same connectivity but different geometries."
 
-- question: "A Z-alkene and an E-alkene are always physically identical compounds — the E/Z label is just a naming convention."
+- question: "A Z-alkene and an E-alkene are generally physically identical compounds — the E/Z label is just a naming convention."
   type: true-false
   answer: false
   explanation: "E and Z isomers are genuinely different compounds with different physical properties. Because the double bond cannot rotate, substituents are locked in space: Z puts higher-priority groups on the same side (affecting dipole moment, steric interactions, and reactivity), while E puts them on opposite sides. These spatial differences produce measurable differences in melting point, boiling point, dipole moment, and biological activity."

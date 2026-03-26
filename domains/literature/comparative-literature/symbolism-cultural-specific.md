@@ -49,7 +49,7 @@ Symbols carry meaning differently across cultures and periods. A river may symbo
   answer: 1
   explanation: "The Symbolist movement (Baudelaire, Mallarmé, Verlaine) made symbolic indeterminacy into a poetic program. Where conventional symbolic usage deploys images as vehicles for specific meanings (the dove = peace, the cross = Christianity), the Symbolists sought images that evoked complex clusters of feeling and suggestion that no literal paraphrase could reproduce. The symbol was not decoration pointing toward meaning — it was the irreducible core of the poem, working through resonance rather than reference. This is why Symbolist poems resist summary: the attempt to state 'what the poem means' destroys what the poem actually is."
 
-- question: "The cherry blossom is a universal symbol of beauty that carries essentially the same meaning across all literary traditions that use it."
+- question: "The cherry blossom is a universal symbol of beauty that carries essentially the same meaning across most literary traditions that use it."
   type: true-false
   answer: false
   explanation: "In Japanese literary aesthetics, the cherry blossom (sakura) carries a dense specific resonance connected to mono no aware — the pathos of impermanence, the beauty of transience — as well as national and seasonal symbolism through its role as a kigo (seasonal word) in haiku. A reader who understands cherry blossoms only as 'pretty flowers' will miss the specific theological and cultural weight the image carries in Japanese literary tradition. Symbols derive their meaning from the semiotic systems in which they operate, and those systems are culturally and historically specific."

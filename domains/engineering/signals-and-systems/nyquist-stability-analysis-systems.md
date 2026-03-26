@@ -49,7 +49,7 @@ The Nyquist criterion uses the frequency response H(jω) plotted in the complex 
   answer: true
   explanation: "From N = Z - P, where N is the net clockwise encirclement count and P is the known number of open-loop RHP poles, Z = N + P gives the exact count of closed-loop RHP poles. This is more information than most stability tests: the Routh-Hurwitz criterion only tells you whether all poles are in the left half plane; Nyquist tells you exactly how many are not."
 
-- question: "A feedback system with a gain margin greater than 6 dB is guaranteed to be robustly stable against all reasonable plant variations."
+- question: "A feedback system with a gain margin greater than 6 dB is expected to be robustly stable against most reasonable plant variations."
   type: true-false
   answer: false
   explanation: "Gain margin measures robustness along only one dimension — how much gain can increase before instability. A system can have a large gain margin but a small or negative phase margin (stable but fragile against phase delay), or vice versa. Real plant variations typically affect both gain and phase simultaneously, so neither margin alone guarantees robustness. Standard design guidelines require both: gain margin > 6 dB AND phase margin > 45°. Additionally, these margins each apply at one crossover frequency; non-minimum-phase systems can have multiple crossings requiring examination of the full Nyquist plot."

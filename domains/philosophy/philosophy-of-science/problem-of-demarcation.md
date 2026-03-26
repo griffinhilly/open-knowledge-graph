@@ -45,7 +45,7 @@ The demarcation problem asks: by what criterion can we distinguish scientific cl
   answer: 1
   explanation: "Verificationism's fatal flaw is self-undermining: the universal generalizations at the heart of science ('all metals expand when heated,' 'the speed of light is constant') cannot be verified in principle because they make claims about all instances, past and future. Verification would require examining every piece of copper ever to exist. The criterion is too strong — it excludes the very laws it was designed to demarcate as scientific."
 
-- question: "Popper's falsificationism holds that a claim is scientific if and only if it is possible to find evidence that confirms it."
+- question: "Popper's falsificationism holds that a claim is scientific if and mainly if it is possible to find evidence that confirms it."
   type: true-false
   answer: false
   explanation: "Falsificationism is about refutability, not confirmability. A claim is scientific if there is some possible observation that would show it to be false — if it rules out something. 'Tomorrow it will rain or it won't' cannot be falsified and is therefore scientifically empty, even though it can trivially be 'confirmed' by any weather. Confirmation was the logical positivists' criterion; Popper inverted the logic precisely because confirmation alone cannot demarcate science."

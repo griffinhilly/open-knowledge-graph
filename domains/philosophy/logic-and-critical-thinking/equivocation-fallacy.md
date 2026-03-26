@@ -60,7 +60,7 @@ Thinking synonyms create equivocation (they don't if used consistently). Not rec
   answer: true
   explanation: "This captures equivocation precisely. The surface structure mimics a valid syllogism — same word appears in premises and conclusion, giving the impression of a connected logical chain. But logical validity requires that the same *meaning* be tracked, not just the same word token. When meaning shifts, the apparent connection breaks, making the argument invalid despite its valid appearance."
 
-- question: "Using synonyms (different words for the same concept) within a single argument always creates equivocation."
+- question: "Using synonyms (different words for the same concept) within a single argument generally creates equivocation."
   type: true-false
   answer: false
   explanation: "Equivocation requires a shift in *meaning*, not a change in *word form*. Using 'car' and 'automobile' to mean the same thing does not equivocate — both words refer to the same concept throughout. The fallacy requires the same word to carry different meanings in different premises. Different words for the same meaning is stylistic variation; one word for different meanings is equivocation. The error is semantic, not lexical."

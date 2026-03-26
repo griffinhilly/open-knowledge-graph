@@ -55,7 +55,7 @@ Test exactness using the condition ∂M/∂y = ∂N/∂x for a differential M dx
   answer: 2
   explanation: "State functions have exact differentials by definition: integrating an exact differential between two points gives the same result regardless of path. Since U depends only on the current thermodynamic state (not on history or process), dU is exact and ΔU is path-independent. The reversibility of the process is irrelevant to whether dU is exact — U is a state function under all conditions. What changes between reversible and irreversible paths is how Q and W are individually distributed, not ΔU."
 
-- question: "An inexact differential like đQ cannot be integrated — it is mathematically undefined as an integral."
+- question: "An inexact differential like đQ can rarely be integrated — it is mathematically undefined as an integral."
   type: true-false
   answer: false
   explanation: "Inexact differentials can absolutely be integrated along a specific path. You can calculate the heat Q absorbed during a particular isothermal expansion by integrating đQ along that path and obtain a well-defined numerical result. What you cannot do is evaluate the integral using only the initial and final states — unlike exact differentials, the result depends on which path you take. Inexact means path-dependent, not unintegrable."

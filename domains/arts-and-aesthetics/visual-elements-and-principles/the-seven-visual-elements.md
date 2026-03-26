@@ -61,7 +61,7 @@ Learn each element individually before studying combinations. Sketch examples of
   answer: true
   explanation: "True. Negative space gives the eye rest, defines the silhouette of positive elements, and can itself carry meaning — a famous example is the hidden arrow in the FedEx logo, formed entirely by negative space between letters. Compositions that ignore negative space often feel crowded or unbalanced. Both positive and negative space are active compositional choices."
 
-- question: "Form is essentially a larger or more detailed version of shape — the two elements differ only in complexity, not in kind."
+- question: "Form is essentially a larger or more detailed version of shape — the two elements differ mainly in complexity, not in kind."
   type: true-false
   answer: false
   explanation: "False. Shape and form differ in dimension, not complexity. Shape is two-dimensional: it has height and width but no depth — a circle, a square, a leaf outline. Form is three-dimensional: it has height, width, and depth — a sphere, a cube, a sculpture. In two-dimensional art, form is suggested through shading and perspective (creating the illusion of depth), but the conceptual distinction is fundamental and not a matter of detail level."

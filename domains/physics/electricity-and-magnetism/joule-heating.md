@@ -49,7 +49,7 @@ Power dissipated in a resistor is P = IV = I²R = V²/R. Microscopically, the el
   answer: false
   explanation: "They are all the same equation expressed differently. Starting from P = IV and using V = IR (Ohm's law), substitute V = IR to get P = I(IR) = I²R, or substitute I = V/R to get P = (V/R)V = V²/R. All three forms are algebraically equivalent and describe the same physical phenomenon. The choice of form depends only on which two quantities you know directly: I and R → use I²R; V and R → use V²/R; I and V → use IV."
 
-- question: "A resistor with lower resistance always dissipates less power than a resistor with higher resistance connected in the same circuit."
+- question: "A resistor with lower resistance generally dissipates less power than a resistor with higher resistance connected in the same circuit."
   type: true-false
   answer: false
   explanation: "Whether lower R means less or more power depends on what is held fixed. If voltage V is fixed (e.g., both resistors connected to the same voltage source), P = V²/R increases as R decreases — the lower-resistance resistor dissipates *more* power. If current I is fixed (e.g., series circuit), P = I²R decreases as R decreases — the lower-resistance resistor dissipates less. Never assume the direction of the R-P relationship without specifying whether V or I is held constant."

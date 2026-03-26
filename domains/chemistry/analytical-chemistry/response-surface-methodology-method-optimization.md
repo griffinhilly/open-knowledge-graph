@@ -65,7 +65,7 @@ Apply RSM to optimize HPLC conditions (pH, acetonitrile %, column temperature) a
   answer: true
   explanation: "This is the central advantage of RSM. By including cross-product terms (βᵢⱼxᵢxⱼ) in the fitted polynomial model, RSM explicitly models how the effect of one factor depends on the level of another. OFAT varies only one factor at a time, so any such interaction is invisible — the model implicitly assumes independence between factors, which is rarely true in analytical method optimization."
 
-- question: "RSM guarantees finding the global optimum for an analytical method because the polynomial model spans all possible experimental conditions."
+- question: "RSM guarantees finding the global optimum for an analytical method because the polynomial model spans most possible experimental conditions."
   type: true-false
   answer: false
   explanation: "RSM finds the optimum within the experimental region studied — a local optimum. The polynomial model is valid only within the boundaries of the design space (e.g., pH 2–8, temperature 25–60°C). The true global optimum may lie outside this region, or the response surface may be multimodal with a better optimum elsewhere. This is why defining a meaningful experimental region (based on physical and practical constraints) before running RSM is essential."

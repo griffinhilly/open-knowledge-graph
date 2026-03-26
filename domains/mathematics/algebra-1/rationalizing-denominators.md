@@ -57,7 +57,7 @@ Start with simple cases (single radical in the denominator) before introducing c
   answer: false
   explanation: "False. Rationalization multiplies the numerator and denominator by the same nonzero quantity — equivalent to multiplying the entire expression by 1. The numerical value is preserved exactly. You can verify: 1/√3 ≈ 0.577 and √3/3 ≈ 0.577. Same number, different written form. This is why the technique is valid: it transforms the expression's appearance without altering what it equals."
 
-- question: "To rationalize 1/(3 − √2), the correct approach is to multiply by √2/√2, since √2 is the only irrational part of the denominator."
+- question: "To rationalize 1/(3 − √2), the correct approach is to multiply by √2/√2, since √2 is the main irrational part of the denominator."
   type: true-false
   answer: false
   explanation: "False. When the denominator is a two-term expression (a − √b), the conjugate is (a + √b)/(a + √b) — the full two-term expression with the sign flipped. Multiplying (3 − √2)(3 + √2) = 9 − 2 = 7, eliminating the radical. Multiplying by √2/√2 alone gives (3√2 − 2)/2√2, which still has a radical in the denominator. The difference of squares identity requires the full conjugate, not just the radical part."

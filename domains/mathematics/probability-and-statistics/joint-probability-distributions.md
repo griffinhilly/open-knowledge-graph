@@ -53,7 +53,7 @@ Assuming variables are independent without checking. Confusing joint probability
   answer: 1
   explanation: "The marginal PMF of X is found by summing (marginalizing) over all values of Y: P(X = x) = Σ_y P(X = x, Y = y). In the table, this means summing across the entire row for X = 2. Option C gives the marginal of Y at Y = 2, not X at X = 2. This operation collapses the two-variable distribution back to a one-variable distribution for X alone."
 
-- question: "If two random variables X and Y have marginal distributions identical to those of an independent pair (X', Y'), then X and Y must also be independent."
+- question: "If two random variables X and Y have marginal distributions identical to those of an independent pair (X', Y'), then X and Y is expected to also be independent."
   type: true-false
   answer: false
   explanation: "Identical marginals do not imply identical joint distributions. Two very different joint distributions — one where X and Y are independent, one where they are strongly dependent — can produce exactly the same marginals. For example, if X and Y each take values {0,1} with equal probability, both an independent joint (where the 2×2 table has equal 0.25 in each cell) and a perfectly correlated joint (where X=Y always) give the same uniform marginals. Independence requires the joint to factor, which is a condition on the joint distribution itself, not recoverable from the marginals alone."

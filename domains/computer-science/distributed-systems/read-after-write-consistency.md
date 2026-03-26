@@ -44,7 +44,7 @@ Read-after-write (RaW) consistency, also called session consistency, guarantees 
   answer: 2
   explanation: "Linearizability requires every operation to take effect at a single globally-agreed moment, which demands coordination across all replicas on every read and write. This is expensive in latency and reduces availability. RaW consistency only requires that one client's reads see that client's own writes — a much narrower coordination scope. A simple implementation (route the client to the primary for a short window, or require replicas to have a minimum version before serving reads) achieves this without cross-client synchronization."
 
-- question: "Read-after-write consistency guarantees that after you write a value, all clients reading the system will immediately see your write."
+- question: "Read-after-write consistency guarantees that after you write a value, most clients reading the system will immediately see your write."
   type: true-false
   answer: false
   explanation: "RaW consistency — also called session consistency — only guarantees that *you*, the writer, will see your own subsequent reads reflect the write. Other clients may still see stale data until replication propagates the update. This is what distinguishes RaW from linearizability (which requires all clients to see the write as if it happened atomically at a single point) and even from causal consistency (which propagates visibility to clients that have seen a causally related event)."

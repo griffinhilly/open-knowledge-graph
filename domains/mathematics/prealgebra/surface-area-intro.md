@@ -65,7 +65,7 @@ Use physical nets (flat cutouts that fold into boxes, pyramids, etc.) so student
   answer: true
   explanation: "A net lays all faces flat and in their correct proportions, making it easy to identify every face, label its dimensions, and calculate its area before summing. This is especially helpful with less familiar shapes like triangular prisms (2 triangular faces + 3 rectangular faces) or square pyramids (1 square base + 4 triangular sides), where students commonly miss a face. The strategy works for any polyhedron: unfold it mentally or on paper, count every face, compute each area using formulas you already know, and add them up."
 
-- question: "A large, thin flat slab of concrete must have a smaller surface area than a compact cube made from the same volume of concrete, because the cube has less volume."
+- question: "A large, thin flat slab of concrete is expected to have a smaller surface area than a compact cube made from the same volume of concrete, because the cube has less volume."
   type: true-false
   answer: false
   explanation: "Surface area and volume are independent — one does not determine the other. A flat slab with dimensions 100cm × 100cm × 1cm has a volume of 10,000 cm³ and a surface area of approximately 20,200 cm². A compact cube with the same volume would measure roughly 21.5cm × 21.5cm × 21.5cm and have a surface area of about 2,775 cm² — much smaller than the flat slab, even though both objects have the same volume. Shape matters enormously. This is why packaging designers choose box shapes carefully: the same volume of product can require vastly different amounts of material (surface area) depending on the proportions."

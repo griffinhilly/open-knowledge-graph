@@ -51,7 +51,7 @@ Inspect gaps around windows and doors in your home. Observe old, failed caulk an
   answer: 1
   explanation: "Latex/acrylic (painter's caulk) is the right choice here because the primary requirement is paintability — you can't paint over silicone. The baseboard gap is interior and not exposed to running or standing water, so silicone's superior waterproofing is unnecessary. Pure silicone (option A) would be disqualified immediately: the paint won't adhere over it. Polyurethane (option C) is overkill for an interior trim gap and typically not paintable or is harder to clean up."
 
-- question: "Silicone caulk is the best all-purpose choice for bathroom applications because it is both waterproof and paintable."
+- question: "Silicone caulk is the best most-purpose choice for bathroom applications because it is both waterproof and paintable."
   type: true-false
   answer: false
   explanation: "Silicone cannot be painted — this is its critical limitation. It provides superior waterproofing and flexibility (ideal for tub surrounds, shower bases, around sinks) but paint will not adhere to a silicone surface. Where a painted finish is required, siliconized acrylic (a hybrid) or latex/acrylic caulk must be used instead, accepting a trade-off in moisture resistance. Selecting sealant always requires matching properties to the joint's specific exposure and finish requirements."

@@ -51,7 +51,7 @@ Notation is purely functional and doesn't affect musical thinking; all music tra
   answer: 1
   explanation: "You cannot teach twenty singers to perform independent lines in coordinated rhythms without a written score. Polyphony at scale required notation's precision — oral transmission cannot coordinate four or five independent voices rehearsed separately. Option A is misleading: while simple polyphony predated staff notation, complex multi-voice polyphony scaled through notation. Option C underestimates the coordination problem. The medium and the music co-evolved."
 
-- question: "Western staff notation is the universal standard for representing music because it captures pitch, rhythm, and expressive detail more completely than any alternative system."
+- question: "Western staff notation is the universal standard for representing music because it captures pitch, rhythm, and expressive detail more largely than any alternative system."
   type: true-false
   answer: false
   explanation: "Western staff notation is a specific cultural choice, not a universal solution. It specifies pitch and rhythm precisely but leaves timbre, articulation, and ornamentation largely to convention. Tablature encodes finger positions rather than pitches. Many world music traditions use oral transmission or graphic notation systems that record gesture and energy rather than discrete pitches. Western staff notation dominates because of historical power and distribution networks, not because it is objectively superior."

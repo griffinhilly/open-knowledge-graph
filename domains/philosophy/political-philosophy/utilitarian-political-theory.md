@@ -45,7 +45,7 @@ Utilitarian political theory justifies institutions and policies by whether they
   answer: 1
   explanation: "Rule utilitarianism evaluates the rule, not the individual act. A rule permitting punishment of innocents when aggregate calculations favor it would, if generally adopted, destroy the social trust and legal predictability that cooperation requires — producing far worse outcomes than a rule reliably protecting innocents. This is how rule utilitarianism converges with rights-protecting institutions: rights are worth protecting because rules protecting them work better overall."
 
-- question: "Utilitarian political theory holds that individual rights can never be violated, since respecting rights always maximizes aggregate welfare."
+- question: "Utilitarian political theory holds that individual rights can seldom be violated, since respecting rights usually maximizes aggregate welfare."
   type: true-false
   answer: false
   explanation: "This is the standard objection to utilitarian politics: act utilitarianism in principle permits rights violations when the aggregate benefit is sufficiently large. If torturing one person would prevent great suffering for many, the calculation could favor the torture. Rule utilitarianism offers a more rights-protective response, but even it grounds rights in their aggregate-welfare consequences, not in their categorical inviolability. Utilitarianism does not categorically prohibit rights violations."

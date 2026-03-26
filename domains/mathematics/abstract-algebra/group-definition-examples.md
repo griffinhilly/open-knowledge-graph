@@ -53,7 +53,7 @@ A group is a set G with a binary operation satisfying four axioms: closure, asso
   answer: true
   explanation: "This is a provable theorem about groups: suppose e and e′ are both identity elements. Then e = e ∗ e′ (since e′ is an identity) = e′ (since e is an identity). So e = e′. The proof works for any group, no matter what the set or operation is — this is the abstraction payoff. You prove uniqueness once for abstract groups and it immediately applies to all groups: integer addition, rational multiplication, rotations, permutations, and every other example simultaneously."
 
-- question: "Whether a set forms a group depends only on the properties of the set, not on which binary operation is used."
+- question: "Whether a set forms a group depends mainly on the properties of the set, not on which binary operation is used."
   type: true-false
   answer: false
   explanation: "Both the set and the operation together determine whether a group exists. The integers ℤ form a group under addition (every integer has an additive inverse −n) but not under multiplication (2 has no multiplicative inverse in ℤ). The set is the same; the operation changes everything. This is why the proper notation specifies both: (ℤ, +) is a group, (ℤ, ×) is not. Students who think of 'the integers' as simply being or not being a group are missing half the definition."

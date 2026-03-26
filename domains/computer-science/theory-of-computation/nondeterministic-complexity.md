@@ -59,7 +59,7 @@ For each NP problem, identify the certificate explicitly (e.g., for 3-SAT: a sat
   answer: 2
   explanation: "A certificate for NP must be short (polynomial-size) and checkable quickly (polynomial-time). For SAT, a single satisfying assignment of variables is exactly this: it has n bits (polynomial in input size) and checking it requires plugging values into the formula and evaluating it — linear time. Option A is a certificate for unsatisfiability, which is a co-NP question. Option B is exponential in size — not a valid certificate. Option D describes a polynomial-time solver, which would put SAT in P (unproven)."
 
-- question: "The fact that a problem's solution can be verified in polynomial time proves that the problem cannot be solved in polynomial time."
+- question: "The fact that a problem's solution can be verified in polynomial time proves that the problem can seldom be solved in polynomial time."
   type: true-false
   answer: false
   explanation: "This is the central confusion about NP. Easy verification tells us the problem is in NP; it says nothing about whether the problem is in P. If P = NP (which has not been ruled out), then every problem in NP — including SAT and graph coloring — would be solvable in polynomial time. The conjecture that P ≠ NP (that efficient verification does not imply efficient solving) is widely believed but unproven. Until it is settled, we cannot conclude that any specific NP problem requires super-polynomial solving time."

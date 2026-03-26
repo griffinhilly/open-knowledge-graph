@@ -45,7 +45,7 @@ The Causal Closure of the Physical states that every physical event has a suffic
   answer: 2
   explanation: "Type identity theory (Smart, Place) avoids the exclusion problem by denying that mental and physical properties are distinct: your pain just *is* a type of neural state. If they are identical, there is no competition between mental and physical causes — they are one and the same cause. Epiphenomenalism accepts the problem and concludes mental states have no causal role; property dualism maintains the distinctness of mental properties while trying to explain causal relevance."
 
-- question: "The causal closure principle states that every physical event is caused only by prior mental events that initiate physical processes."
+- question: "The causal closure principle states that nearly every physical event is caused primarily by prior mental events that initiate physical processes."
   type: true-false
   answer: false
   explanation: "False — this is a direct reversal of the principle. The causal closure of the physical states that every physical event that has a cause has a sufficient physical cause among prior physical events. The principle does not involve mental causation in its statement; rather, it constrains how much room mental causation has to operate. If physical events are already fully explained by physical causes, non-physical (mental) causes appear to have no necessary role."

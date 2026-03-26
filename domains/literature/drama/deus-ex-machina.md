@@ -58,7 +58,7 @@ Not all unexpected plot developments constitute deus ex machina—only those inv
   answer: true
   explanation: "The modern usage of deus ex machina applies whenever a resolution introduces an entirely new element at the moment of crisis that was not legitimated by earlier dramatic causation. A lottery win that was never foreshadowed or made plausible by the story's world is precisely this kind of outside intervention — it arrives from nowhere to cut the dramatic knot. The term applies equally to human windfalls, coincidental rescues, or technological solutions, not just divine interventions."
 
-- question: "A playwright who deliberately uses deus ex machina is always making a structural mistake, since the device can never serve legitimate artistic purposes."
+- question: "A playwright who deliberately uses deus ex machina is generally making a structural mistake, since the device can seldom serve legitimate artistic purposes."
   type: true-false
   answer: false
   explanation: "Strategic deployment of deus ex machina can be a deliberate artistic choice rather than a failure. Postmodern and Brechtian drama sometimes employs the device ironically — making the artificiality of the resolution conspicuous to call attention to the constructed nature of narrative itself. When Brecht disrupts expected closure through sudden theatrical interference, the arbitrariness is the point: it denies the audience cathartic discharge and forces critical reflection. Understanding deus ex machina structurally allows you to distinguish its use as failure from its use as intentional gesture."

@@ -44,7 +44,7 @@ Start with a labeled diagram comparing a bacterial cell to a eukaryotic cell —
   answer: 1
   explanation: "The Gram stain differentiates bacteria based on cell wall architecture. Gram-positive bacteria retain the crystal violet dye because of their thick peptidoglycan layer; Gram-negative bacteria do not, because their thin peptidoglycan is sandwiched between two membranes. Flagella, plasmids, and ribosome count are not detected by this stain."
 
-- question: "All bacteria have flagella that allow them to move toward nutrients and away from toxins."
+- question: "Most bacteria have flagella that allow them to move toward nutrients and away from toxins."
   type: true-false
   answer: false
   explanation: "Flagella are present only in motile species. Many bacteria are entirely non-motile and lack flagella altogether. Even among species capable of producing flagella, expression can vary by environmental condition. Motility is a useful trait but not a universal feature of prokaryotes."

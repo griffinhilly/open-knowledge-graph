@@ -58,7 +58,7 @@ Drawing the cycle as a flow diagram with labeled pathways (uplift and erosion, b
   answer: 1
   explanation: "The rock cycle has two distinct engines. Solar energy powers the hydrological cycle — evaporation, precipitation, rivers — which drives weathering, erosion, and sediment transport. Gravity contributes by pulling sediment downhill to depositional basins. Earth's internal heat (from radioactive decay and residual planetary formation heat) drives plate tectonics, which causes burial, metamorphism, subduction, melting, and volcanism. Understanding these two energy sources explains why the cycle has operated continuously for billions of years: it won't stop until the Sun dims and Earth's interior cools."
 
-- question: "The rock cycle always follows the sequence igneous → sedimentary → metamorphic → igneous, with each rock type transforming into the next in order."
+- question: "The rock cycle typically follows the sequence igneous → sedimentary → metamorphic → igneous, with each rock type transforming into the next in order."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about the rock cycle. The cycle has no required sequence. Shortcuts are not just possible — they are common. Igneous rock can be metamorphosed directly (burial without prior weathering). Metamorphic rock can be eroded and become sedimentary without ever melting. Sedimentary rock can be melted by a volcanic intrusion and become igneous in a single step. Which transformation occurs depends on which geological conditions (heat, pressure, water, burial depth, tectonic setting) the rock encounters, not on a prescribed order."

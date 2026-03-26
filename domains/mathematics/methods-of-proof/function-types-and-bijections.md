@@ -56,7 +56,7 @@ Verify these properties for specific functions using definitions. Draw diagrams 
   answer: true
   explanation: "Injectivity and surjectivity are genuinely independent. The function f(x) = eˣ from ℝ to ℝ is injective (distinct inputs give distinct outputs) but not surjective (negative numbers have no preimage). A constant function f(x) = 0 from ℝ to ℝ is surjective only if the codomain is {0}, but fails injectivity for any domain with more than one element. A bijection requires both properties simultaneously, and many functions have neither."
 
-- question: "If a function f: A → B is injective, then every element of B must be the output of some element of A."
+- question: "If a function f: A → B is injective, then most element of B should be the output of some element of A."
   type: true-false
   answer: false
   explanation: "This is the definition of surjectivity, not injectivity. Injectivity says: different inputs give different outputs (if f(x) = f(y) then x = y). It says nothing about whether every element of B is reached. A function can be injective while leaving many elements of B with no preimage — for instance, f: {1,2} → {1,2,3} defined by f(1)=1, f(2)=2 is injective but 3 ∈ B has no preimage. Confusing these two properties is one of the most common errors in beginning set theory."

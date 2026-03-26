@@ -62,7 +62,7 @@ Compare basicity (pKa values) of conjugate bases to rank leaving group ability. 
   answer: true
   explanation: "This is exactly right. The tosylate anion (TsO⁻) is the conjugate base of toluenesulfonic acid, a strong acid (pKₐ ≈ −1). The departing anion is stabilized by resonance delocalization of the negative charge across multiple sulfonate oxygen atoms, making TsO⁻ a weak base and excellent leaving group. Crucially, this conversion does not alter the stereochemistry at the carbon bearing the leaving group, preserving the substrate's configuration for subsequent stereospecific reactions."
 
-- question: "A better nucleophile is always also a better leaving group, because both properties reflect the stability of the species."
+- question: "A better nucleophile is generally also a better leaving group, because both properties reflect the stability of the species."
   type: true-false
   answer: false
   explanation: "Nucleophilicity and leaving group ability are distinct and often inversely correlated in polar aprotic solvents. Nucleophilicity measures how readily a species attacks an electrophile (a kinetic, forward-reaction property). Leaving group ability measures how readily a species departs with bonding electrons (a thermodynamic stability property). Hydroxide (OH⁻) is a good nucleophile but a terrible leaving group. Iodide (I⁻) is both a good nucleophile and a good leaving group. Tosylate is an excellent leaving group but a weak nucleophile. The confusion is one of the most common in organic chemistry."

@@ -50,7 +50,7 @@ Choosing a filter depends on the application's frequency requirements, attenuati
   answer: true
   explanation: "Each additional filter order adds 20 dB/decade of rolloff (for Butterworth) or equivalent attenuation increase for Chebyshev and Bessel. A first-order Butterworth rolls off at 20 dB/decade; a second-order at 40 dB/decade; an nth-order at 20n dB/decade. This is a fundamental property: more poles in the transfer function mean steeper attenuation beyond the cutoff. The tradeoff is complexity (more components), cost, and in active filters, the need for more op-amp stages, each with its own gain-bandwidth limitations."
 
-- question: "For audio signal processing applications below 1 MHz, active RC filters are always inferior to passive LC filters because they require a power supply."
+- question: "For audio signal processing applications below 1 MHz, active RC filters are generally inferior to passive LC filters because they require a power supply."
   type: true-false
   answer: false
   explanation: "For signal-level applications below a few MHz, active RC filters are generally preferred over passive LC designs. Active filters can provide gain (not just attenuation), buffer impedance between stages, and achieve high-order responses without inductors — which are bulky, expensive, have parasitic resistance, and behave non-ideally at low frequencies where they must be physically large. The power supply requirement is a minor cost compared to these advantages. Passive LC filters become necessary at RF frequencies (above ~100 MHz) where op-amp bandwidth becomes a limiting constraint."

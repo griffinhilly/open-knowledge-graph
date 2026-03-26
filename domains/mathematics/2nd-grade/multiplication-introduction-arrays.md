@@ -47,7 +47,7 @@ An array is a rectangular arrangement showing rows and columns. The product is r
   answer: 3
   explanation: "Both 5 × 4 and 4 × 5 correctly represent the situation — and both equal 20. This is precisely the point of commutativity: you can read the array as 5 rows of 4 (5 × 4) or 4 columns of 5 (4 × 5), and the product is the same. Option A (addition) finds how many total rows and columns exist, not how many desks."
 
-- question: "In a 3×5 array (3 rows, 5 columns), there are exactly 3 items in every row."
+- question: "In a 3×5 array (3 rows, 5 columns), there are exactly 3 items in nearly every row."
   type: true-false
   answer: false
   explanation: "In a 3×5 array, there are 3 rows and 5 columns. Each row contains 5 items; each column contains 3 items. So rows have 5 items each, not 3. The misconception comes from confusing the row count with the row size — '3 rows' tells you how many rows there are, not how many items are in each one."

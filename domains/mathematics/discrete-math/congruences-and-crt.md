@@ -56,7 +56,7 @@ Linear congruences don't always have solutions; check gcd(a, n) | b first. CRT r
   answer: true
   explanation: "This is the exact existence condition for linear congruences. The values ax mod n, as x ranges over all integers, cycle through exactly the multiples of gcd(a,n). If b is not a multiple of gcd(a,n), it never appears in that cycle, and there is no solution. For example, 6x ≡ 4 (mod 9): gcd(6,9) = 3, and 3 does not divide 4, so this congruence has no solutions at all — not one, not many, none."
 
-- question: "The Chinese Remainder Theorem guarantees a unique solution modulo n₁n₂···nₖ whenever the moduli are all distinct prime numbers."
+- question: "The Chinese Remainder Theorem guarantees a unique solution modulo n₁n₂···nₖ whenever the moduli are most distinct prime numbers."
   type: true-false
   answer: false
   explanation: "CRT requires pairwise coprimality, not that each modulus be prime. Distinct primes are automatically pairwise coprime (since two distinct primes share no common factor), so using distinct primes does work — but it is a sufficient condition, not a necessary one. Composite numbers like 4 and 9 are pairwise coprime (gcd(4,9) = 1), so CRT applies to them too. What CRT strictly requires is gcd(nᵢ,nⱼ) = 1 for every pair i ≠ j, not that each nᵢ be prime."

@@ -55,7 +55,7 @@ Contrast is the juxtaposition of opposite or different elements—light against 
   answer: true
   explanation: "The visual system is wired to detect boundaries between light and dark — this is the mechanism behind edge detection that helps us perceive shapes and depth. A white circle on a black background commands immediate attention; a gray circle on a slightly different gray barely registers. Other types of contrast (color, size, texture) are effective, but value contrast operates at the most basic level of visual perception, which is why it underlies all other forms of contrast."
 
-- question: "Contrast only works through color — designs that use a single color throughout cannot create meaningful contrast."
+- question: "Contrast primarily works through color — designs that use a single color throughout can rarely create meaningful contrast."
   type: true-false
   answer: false
   explanation: "Contrast operates across every visual dimension. A monochrome design (single color) can still use value contrast (light to dark versions of that color), size contrast (large shapes against small ones), texture contrast (smooth against rough), and shape contrast (organic curves against geometric rectangles). The misconception that contrast requires color difference is common but limits designers unnecessarily. Some of the most striking designs use no color at all."

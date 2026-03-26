@@ -44,7 +44,7 @@ Start with clear identification of the "outer" and "inner" functions. Practice w
   answer: 3
   explanation: "Identify outer = sin(u) and inner = 3x². Differentiate outer: cos(u) = cos(3x²). Differentiate inner: 6x. Multiply: 6x · cos(3x²). Option A forgets to multiply by the inner derivative. Option B applies the inner derivative inside the trig function — a common error of 'differentiating inside the argument' instead of multiplying outside. Option C has the wrong sign (sin differentiates to +cos, not -cos)."
 
-- question: "The chain rule is only needed when a function is raised to a power, like (3x + 1)⁵."
+- question: "The chain rule is mainly needed when a function is raised to a power, like (3x + 1)⁵."
   type: true-false
   answer: false
   explanation: "The chain rule applies to any composite function — whenever one function is nested inside another. sin(x²), e^(3x), ln(x² + 1), and √(x + 1) all require the chain rule even though none of them is a polynomial raised to a power. The trigger is composition, not exponents specifically."

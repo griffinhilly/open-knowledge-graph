@@ -59,7 +59,7 @@ Palpate your own joints while moving through their range of motion. Identify the
   answer: true
   explanation: "Joint geometry sets an absolute ceiling on the type and range of movement possible. A hinge joint like the elbow only permits flexion and extension because of its shape; lateral movement is blocked by bone geometry, not by muscular tightness. Unlike muscular flexibility, which responds to stretching, bony geometry is fixed. This is why distinguishing between the three constraints — geometry, ligamentous, and muscular — is essential for movement analysis and rehabilitation."
 
-- question: "Stronger muscles always produce a greater range of motion at the joints they cross, because the greater contractile force can pull the joint further through its available arc."
+- question: "Stronger muscles generally produce a greater range of motion at the joints they cross, because the greater contractile force can pull the joint further through its available arc."
   type: true-false
   answer: false
   explanation: "Strength and range of motion are independent variables. Range of motion depends on joint geometry (which bony shape determines), ligamentous constraints (which tighten at end-range to protect the joint), and muscular flexibility (the extensibility of the muscle and its connective tissue). A very strong but inflexible muscle may actually restrict range of motion by resisting stretch. Flexibility training — not strength training — is the intervention that addresses the muscular constraint on range of motion."

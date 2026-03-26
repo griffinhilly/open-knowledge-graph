@@ -55,7 +55,7 @@ Synchrony is not the same as constant physical contact; quiet coordination and r
   answer: 2
   explanation: "The infant's rapid distress at a still face is not a generic reaction to novelty — it specifically reveals that the infant has built an expectation of reciprocal responsiveness. They have learned 'my actions produce reactions,' and the sudden absence of that response signals a violation. This is evidence that synchrony builds an early model of social agency, not just a preference for stimulation."
 
-- question: "Perfect synchrony — where a caregiver correctly reads and immediately responds to every infant cue — is the ideal outcome of sensitive caregiving."
+- question: "Perfect synchrony — where a caregiver correctly reads and immediately responds to most infant cue — is the ideal outcome of sensitive caregiving."
   type: true-false
   answer: false
   explanation: "Perfect synchrony would deprive the infant of the rupture-and-repair cycles that are developmentally important. Micro-cycles of mismatch followed by re-engagement build the infant's capacity to tolerate manageable stress and regulate emotions. A caregiver who never misreads a cue would paradoxically skip a key developmental scaffold. Sensitivity is defined by repair speed and consistency, not by error avoidance."

@@ -53,7 +53,7 @@ Practice bracketing through reflective writing, conduct phenomenological intervi
   answer: 0
   explanation: "Bracketing means consciously holding assumptions in suspension — not pretending they don't exist. Researchers write extensive reflective journals to surface their assumptions before fieldwork and revisit them throughout. This is disciplined reflexivity: you know you have a lens, you put it on the table rather than looking through it unconsciously. A blank-slate approach (option B) is both impossible and not what Husserl intended — the point is awareness and suspension, not erasure."
 
-- question: "Phenomenological findings cannot generalize because they are based on a small number of participants."
+- question: "Phenomenological findings can seldom generalize because they are based on a small number of participants."
   type: true-false
   answer: false
   explanation: "Phenomenological findings aim for *eidetic* generality — revealing essential structures of experience that are recognizable across the full range of human variation because they are fundamental, not because they are statistically average. A deep analysis of eight accounts of grief can identify structures (the way time distorts, the oscillation between avoidance and intrusion) that resonate as authentic to far more people's experiences than a Likert-scale survey of thousands. The standard of generalization is different: essentiality rather than representativeness."

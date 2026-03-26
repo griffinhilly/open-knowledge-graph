@@ -61,7 +61,7 @@ Practice converting between percentages and ratios. Calculate what 1% of your in
   answer: true
   explanation: "The Rule of 72 states that doubling time ≈ 72 ÷ interest rate. At 24% APR: 72 ÷ 24 = 3 years. This is not intuitive — most people underestimate how fast high-interest debt grows. Internalizing this rule transforms how you evaluate carrying balances: a $5,000 balance could become $10,000 in just 3 years if unpaid."
 
-- question: "Because percentages are relative, a 2% annual fee on any investment is always a small cost and can safely be ignored when comparing financial products."
+- question: "Because percentages are relative, a 2% annual fee on any investment is generally a small cost and can safely be ignored when comparing financial products."
   type: true-false
   answer: false
   explanation: "A 2% annual fee on a $100,000 portfolio is $2,000 per year — money that isn't invested and therefore doesn't compound on your behalf. Over 30 years, this compounds against you, potentially costing hundreds of thousands in lost wealth. Percentage framing obscures absolute dollar costs; converting rates to dollar amounts is the first step in evaluating whether a fee is truly negligible."

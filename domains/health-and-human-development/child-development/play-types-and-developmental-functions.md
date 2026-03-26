@@ -60,7 +60,7 @@ Observe preschool and school-age children in naturalistic settings and classify 
   answer: 1
   explanation: "Parten's sequence is a hierarchy of social-cognitive complexity, not just social preference. Parallel play requires only awareness of others with similar materials — no coordination. Cooperative play requires the child to understand and maintain their role, coordinate with others' roles, share a goal, negotiate conflicts, and delay personal gratification. These demands require theory of mind, communication, and executive control that emerge gradually across early childhood."
 
-- question: "Solitary play in a 5-year-old always indicates social withdrawal or difficulty forming peer relationships."
+- question: "Solitary play in a 5-year-old usually indicates social withdrawal or difficulty forming peer relationships."
   type: true-false
   answer: false
   explanation: "While solitary play was historically treated as a developmental deficit relative to social play, research shows not all solitary play is equivalent. Some solitary play in older children reflects purposeful, mature independent activity — reading, constructing, creating — that does not indicate social difficulties. The key distinction is between withdrawn, anxious solitary behavior and constructive, goal-directed solitary engagement. Parten's sequence describes the capacity for complex social play, not a requirement to abandon simpler forms."

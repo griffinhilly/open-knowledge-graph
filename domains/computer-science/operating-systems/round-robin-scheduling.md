@@ -52,7 +52,7 @@ Trace through RR scheduling with different time quanta to observe context switch
   answer: true
   explanation: "This is Round-Robin's defining guarantee and why it underpins time-sharing systems. Because every process is preempted after at most one quantum and moved to the back of the ready queue, no process can monopolize the CPU indefinitely. Even a process with a 10-second burst will only hold the CPU for one quantum at a time before other processes get their turn. This prevents the starvation that can occur in priority scheduling and the convoy effect in FCFS."
 
-- question: "Reducing the time quantum in Round-Robin always improves overall system performance."
+- question: "Reducing the time quantum in Round-Robin generally improves overall system performance."
   type: true-false
   answer: false
   explanation: "This is false and is the central design tension in Round-Robin. A smaller quantum improves response time (processes wait less for their first CPU turn) but increases the proportion of CPU time spent on context switching. If the quantum falls below the context-switch overhead, the system spends more time switching than computing — throughput collapses. Performance is not monotonically improved by reducing the quantum; there is a sweet spot that balances responsiveness against overhead."

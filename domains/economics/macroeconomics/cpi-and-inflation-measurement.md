@@ -62,7 +62,7 @@ Calculate a simple two-good CPI by hand across three periods. Then examine the a
   answer: true
   explanation: "This is the substitution bias built into CPI's fixed-basket design. When the price of one good rises relative to substitutes, rational consumers buy less of it and more of the cheaper alternative — maintaining roughly the same utility at lower cost than the fixed basket implies. By holding quantities constant, the CPI measures how much it would cost to buy the original basket rather than how much it costs to achieve the same living standard. This produces a systematic upward bias in measured inflation, estimated at roughly 0.3–0.5 percentage points per year."
 
-- question: "Falling prices (deflation) is always beneficial because it increases consumers' purchasing power."
+- question: "Falling prices (deflation) is typically beneficial because it increases consumers' purchasing power."
   type: true-false
   answer: false
   explanation: "Deflation can be economically harmful in ways that rising prices are not. When prices fall, consumers may delay purchases expecting further declines, reducing aggregate demand. Firms facing falling revenues may cut wages and employment. Debtors face a real debt burden that rises as the price level falls — the nominal debt stays fixed while income and asset values decline. Japan's 'Lost Decade' is the canonical example of deflationary stagnation. A falling CPI is not straightforwardly good news."

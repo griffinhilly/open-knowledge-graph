@@ -54,7 +54,7 @@ Complement deficiency does not uniformly impair immunity; early component defici
   answer: 2
   explanation: "Early classical pathway components (C1q, C2, C4) have a critical clearance function: they tag immune complexes and apoptotic debris for phagocytosis. When this clearance fails, debris accumulates. Uncleared apoptotic cells release nuclear antigens (DNA, histones, ribonucleoproteins) that are normally hidden from immune surveillance. These become a persistent source of self-antigens that can trigger and sustain autoimmune responses. C1q deficiency is the strongest known genetic risk factor for SLE — not because complement directly prevents autoimmunity, but because its clearance function prevents self-antigen exposure."
 
-- question: "Complement deficiency always increases susceptibility to bacterial infections, because complement is a central component of innate immune defense."
+- question: "Complement deficiency generally increases susceptibility to bacterial infections, because complement is a central component of innate immune defense."
   type: true-false
   answer: false
   explanation: "The direction of clinical consequence depends entirely on where in the cascade the deficiency falls. Early classical pathway deficiencies (C1, C2, C4) are primarily associated with autoimmune disease — particularly SLE — because these components are essential for clearing immune complexes and apoptotic debris, not primarily for killing bacteria. Terminal component deficiencies (C5–C9) do impair MAC formation and increase bacterial infection risk (especially Neisseria). Alternative pathway deficiencies increase susceptibility to encapsulated organisms. The clinical phenotype is specific to the component's function, not a generic 'immunosuppression.'"

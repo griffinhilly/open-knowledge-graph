@@ -51,7 +51,7 @@ A production function exhibits constant returns to scale if f(tK, tL) = t·f(K, 
   answer: true
   explanation: "For a Cobb-Douglas function f(K,L) = K^α · L^β, returns to scale equals the degree of homogeneity, which is α + β. Here α + β = 0.5 + 0.5 = 1, which means f(tK, tL) = t¹ · f(K,L) — exactly constant returns. If you double both inputs, output exactly doubles. This is the replication argument: a factory can be perfectly duplicated, producing a proportional increase in output."
 
-- question: "A firm that exhibits diminishing marginal returns to labor must also exhibit decreasing returns to scale."
+- question: "A firm that exhibits diminishing marginal returns to labor is expected to also exhibit decreasing returns to scale."
   type: true-false
   answer: false
   explanation: "These are distinct concepts. Diminishing marginal returns to labor means ∂²f/∂L² < 0 — holding K fixed, each additional unit of labor adds less output than the last. Returns to scale measures what happens when both K and L increase proportionally. The Cobb-Douglas function K^0.5 · L^0.5 shows diminishing MPL (and diminishing MPK) but constant returns to scale. A firm can exhibit IRS, CRS, or DRS while simultaneously having diminishing marginal returns to each individual input. Conflating the two is one of the most common errors in producer theory."

@@ -60,7 +60,7 @@ Students think groups always make more conservative decisions than individuals; 
   answer: true
   explanation: "This is precisely what distinguishes group polarization from groupthink. Groupthink requires active suppression of dissent — social pressure closes off minority views. Group polarization operates through a different mechanism: the pool of arguments available within the group is already skewed before discussion begins, so even genuine, open discussion surfaces a biased sample of reasons. Each member updates on the novel arguments they hear (which are predominantly in the prevailing direction), producing individual shifts that aggregate to group polarization. No silencing required."
 
-- question: "Groups always make riskier decisions than individuals because group discussion dilutes personal caution."
+- question: "Groups usually make riskier decisions than individuals because group discussion dilutes personal caution."
   type: true-false
   answer: false
   explanation: "This was the original 'risky shift' hypothesis, and it was wrong. Groups shift toward whichever direction the majority already leans — riskier if the group leans risky, more cautious if the group leans cautious. The general principle is polarization toward the prevailing pole, not a universal drift toward risk. The risky shift was observed in specific experimental contexts where groups happened to lean toward risk; subsequent research showed the symmetric effect when groups leaned toward caution. 'Risky shift' was a misnomer for the broader phenomenon."

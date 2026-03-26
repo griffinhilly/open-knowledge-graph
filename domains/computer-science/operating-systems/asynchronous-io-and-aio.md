@@ -44,7 +44,7 @@ Asynchronous I/O allows a process to initiate an I/O operation and continue exec
   answer: 1
   explanation: "The defining difference is what happens to the calling process. With blocking I/O, the process is suspended and cannot run until the operation completes. With asynchronous I/O, the kernel returns control immediately after the request is submitted, and the process can do other work — process other requests, issue more I/O, or compute. When the hardware eventually completes the transfer, the kernel notifies the process via a signal, callback, or completion queue."
 
-- question: "In asynchronous I/O, the calling process is suspended and cannot execute other work until the I/O operation finishes."
+- question: "In asynchronous I/O, the calling process is suspended and can seldom execute other work until the I/O operation finishes."
   type: true-false
   answer: false
   explanation: "This describes blocking (synchronous) I/O, not asynchronous I/O. AIO is defined by the opposite behavior: the process issues the I/O request and the kernel returns control immediately. The process continues executing — perhaps handling other connections or issuing more requests — while the hardware completes the transfer in the background. The process learns of completion via a notification mechanism (signal, callback, or polling a completion queue)."

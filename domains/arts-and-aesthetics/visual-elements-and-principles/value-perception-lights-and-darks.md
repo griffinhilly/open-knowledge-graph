@@ -61,7 +61,7 @@ Create value scales using graphite or paint, progressing from light to dark. Obs
   answer: true
   explanation: "If two colors share the same value (the same position on the light-to-dark scale), removing their hue information in a grayscale image leaves them looking the same. This is why a vivid red and a vivid green can appear nearly identical in black and white — they may differ dramatically in hue but share a similar middle value. Recognizing this is key to understanding that value and hue are independent."
 
-- question: "Adding more vivid color to a drawing always makes it look more three-dimensional."
+- question: "Adding more vivid color to a drawing typically makes it look more three-dimensional."
   type: true-false
   answer: false
   explanation: "Value — not color — is what primarily creates the illusion of three-dimensional form. A sphere looks round because one side is lighter (facing the light source) and the other is darker (facing away). A grayscale drawing can look fully three-dimensional; a uniformly mid-value image in vivid colors looks flat. Color enhances form, but value creates it."

@@ -41,7 +41,7 @@ Use tables of equivalent ratios to build intuition before introducing the algebr
   answer: 0
   explanation: "2/3 = x/9 keeps flour-to-oats consistent on both sides. Cross-multiplying gives 3x = 18, so x = 6 cups of flour. The other options mix up numerator and denominator positions, inverting one ratio and breaking the unit consistency that makes a proportion valid."
 
-- question: "Cross-multiplication is the definition of a proportion — two ratios are proportional if and only if their cross products are equal."
+- question: "Cross-multiplication is the definition of a proportion — two ratios are proportional if and mainly if their cross products are equal."
   type: true-false
   answer: false
   explanation: "Cross-multiplication is a consequence of fraction equality, not the definition. A proportion is defined as two equal ratios (a/b = c/d). Cross-multiplying is derived by multiplying both sides by bd to get ad = bc — a useful solving technique, but the underlying concept is ratio equality, not cross products."

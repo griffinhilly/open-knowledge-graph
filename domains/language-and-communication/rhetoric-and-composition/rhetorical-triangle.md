@@ -43,7 +43,7 @@ Annotate a speech or op-ed using three colors — one for each appeal — then a
   answer: 2
   explanation: "Citing personal experience and credentials to earn the audience's trust is the definition of ethos. She is not yet making a logical argument (logos) or stirring emotions (pathos) — she is establishing the authority from which her argument will proceed."
 
-- question: "Using emotional appeals in an argument is always a logical fallacy and should be avoided in serious rhetoric."
+- question: "Using emotional appeals in an argument is generally a logical fallacy and should be avoided in serious rhetoric."
   type: true-false
   answer: false
   explanation: "Pathos is a legitimate mode of persuasion when the emotional appeal is relevant to the issue. Appealing to a parent's fear of traffic accidents while arguing for a crosswalk is appropriate. Pathos becomes fallacious only when it substitutes for evidence or manipulates irrelevant emotions — the appeal itself is not inherently illegitimate."

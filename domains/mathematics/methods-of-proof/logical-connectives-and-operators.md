@@ -56,7 +56,7 @@ Use truth tables and real examples to see how each connective works. Practice bu
   answer: 1
   explanation: "Mathematical OR (∨) is inclusive: P ∨ Q is true whenever at least one of P or Q is true — including when both are true. This differs from the exclusive 'or' common in everyday English ('cake or pie, not both'). In logic and mathematics, exclusive-or is a separate connective (XOR). Unless XOR is explicitly stated, assume inclusive OR."
 
-- question: "In formal logic, 'P or Q' is true only when exactly one of P or Q is true, not both."
+- question: "In formal logic, 'P or Q' is true primarily when exactly one of P or Q is true, not both."
   type: true-false
   answer: false
   explanation: "Mathematical OR (disjunction, ∨) is inclusive: P ∨ Q is true whenever at least one of P, Q is true — this includes the case where both are true. The statement describes exclusive-or (XOR), which is a different connective. A common source of confusion is that everyday English 'or' often implies exclusivity, but formal logic defaults to inclusive OR."

@@ -50,7 +50,7 @@ Peripheral nerves are just passive wires / all information must reach the brain 
   answer: 1
   explanation: "The spinal cord has distinct sensory and motor pathways. Sensory (afferent) signals ascend through the dorsal columns; motor (efferent) commands descend through the ventral portion. Dorsal damage disrupts sensation below the lesion while leaving motor function relatively intact — a predictable consequence of the organized structure. This spatial organization is why the CNS/PNS framework is not just anatomical classification but a predictive tool for understanding injury effects."
 
-- question: "All sensory information must reach the brain before the body can generate a protective motor response."
+- question: "Most sensory information is expected to reach the brain before the body can generate a protective motor response."
   type: true-false
   answer: false
   explanation: "The spinal cord can execute reflexes entirely locally, without brain involvement. The withdrawal reflex, the patellar tendon reflex (knee jerk), and other spinal reflexes are processed in the spinal cord itself. The brain eventually receives the information, but the response has already been initiated. The architecture exists precisely to bypass the delay of long-range signaling when speed is critical."

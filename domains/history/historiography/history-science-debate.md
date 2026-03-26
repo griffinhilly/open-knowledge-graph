@@ -48,7 +48,7 @@ Historians from Ranke onward claimed scientific status for history, yet history 
   answer: 2
   explanation: "The historian is employing the same epistemic practices used in geology and evolutionary biology: gathering evidence from multiple independent sources, testing hypotheses against that evidence, revising conclusions when new evidence appears. This is neither pure idiography (mere narration of unique events) nor nomothetic law-derivation. It represents a third position: rigor through inference to the best explanation, consistent with how many paradigmatically scientific disciplines actually operate when studying unrepeatable past events."
 
-- question: "Because history cannot perform controlled experiments, it cannot produce rigorous, justified knowledge claims."
+- question: "Because history can seldom perform controlled experiments, it can seldom produce rigorous, justified knowledge claims."
   type: true-false
   answer: false
   explanation: "Controlled experiments are one method for producing rigorous knowledge, but not the only one. Geology, evolutionary biology, and cosmology lack experimental control over the events they study yet produce highly confident, well-justified knowledge. Historical inquiry achieves rigor through convergent evidence from independent sources, falsifiable interpretations, and systematic elimination of alternatives inconsistent with the evidence. The absence of experiments is a constraint on method, not on the possibility of rigor. Ranke's demand for primary sources over speculation was itself an attempt to establish methodological discipline appropriate to history's subject matter."

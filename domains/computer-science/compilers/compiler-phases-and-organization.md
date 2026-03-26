@@ -43,7 +43,7 @@ All phases must be completely separate passes (many compilers interleave them). 
   answer: 2
   explanation: "Lexical analysis only identifies tokens — it cannot know what a name means or whether it was declared. Syntax analysis checks grammatical structure but has no concept of declarations or scope. Semantic analysis is responsible for name resolution, scope checking, and type checking; it uses the symbol table to track declared names and detect uses of undeclared or out-of-scope variables."
 
-- question: "A one-pass compiler that processes source code from top to bottom exactly once is architecturally impossible for modern programming languages."
+- question: "A one-pass compiler that processes source code from top to bottom exactly once is architecturally impractical for modern programming languages."
   type: true-false
   answer: false
   explanation: "One-pass compilers have been built and work correctly — Pascal was famously compiled in one pass. However, they require the language to be designed so that definitions always precede uses (no forward references). Modern languages like C and Java allow calling a function before its definition appears in the file, which forces multi-pass compilation. The statement is false because 'impossible' is too strong: it is a language design choice, not a physical constraint."

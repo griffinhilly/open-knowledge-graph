@@ -47,7 +47,7 @@ The boundary layer is the thin region near a surface where viscous effects are i
   answer: 1
   explanation: "As the outer inviscid flow accelerates around the front of the body (favorable gradient — pressure falling, velocity increasing), the boundary layer stays healthy and attached. Past the point of maximum velocity, the outer flow decelerates and pressure rises — this is the adverse gradient. The slow near-wall fluid must push against rising pressure with momentum already depleted by viscosity. At the separation point, near-wall momentum is exhausted, the flow reverses, and the boundary layer detaches. The separated region extends over the rear of the body as a low-pressure wake."
 
-- question: "A laminar boundary layer always produces less total drag than a turbulent boundary layer on the same body, because turbulent flow has higher skin friction."
+- question: "A laminar boundary layer typically produces less total drag than a turbulent boundary layer on the same body, because turbulent flow has higher skin friction."
   type: true-false
   answer: false
   explanation: "This is true only for bodies where separation does not occur (e.g., thin flat plates in favorable pressure gradients). For bluff bodies and airfoils at high angle of attack, the laminar boundary layer separates earlier because it has less near-wall momentum, creating a large low-pressure wake that dominates total drag via pressure drag. The turbulent boundary layer has higher skin friction but stays attached much longer, producing a smaller wake and far less pressure drag. For these bodies, the turbulent case has lower total drag despite higher friction — the golf ball dimple example is the clearest illustration."

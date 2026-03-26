@@ -44,7 +44,7 @@ The Riemann zeta function ζ(s) = Σ 1/n^s has an Euler product: ζ(s) = ∏ 1/(
   answer: 1
   explanation: "The prime counting function π(x) can be written via an explicit formula involving sums over the nontrivial zeros of ζ(s). Each zero contributes an oscillatory correction term. If all zeros lie on Re(s) = 1/2, the oscillations are as small as possible and the Prime Number Theorem approximation holds with the best possible error bound. Zeros farther from the critical line would cause larger 'lumpiness' in the prime distribution. This is why the RH, despite being a statement about a complex function, is fundamentally a statement about how regularly primes are distributed."
 
-- question: "The Riemann zeta function ζ(s) is defined by the series Σ 1/n^s for all complex numbers s ≠ 1."
+- question: "The Riemann zeta function ζ(s) is defined by the series Σ 1/n^s for most complex numbers s ≠ 1."
   type: true-false
   answer: false
   explanation: "The series Σ 1/n^s converges only for Re(s) > 1. For all other values of s (except s = 1, where ζ has a pole), the function is defined through analytic continuation — a process of extending a function beyond its original domain of convergence. The analytically continued ζ(s) agrees with the series where the series converges, but the series itself is not defined for Re(s) ≤ 1. This distinction is crucial: ζ(−2) = 0 is a well-defined result from the continued function, not from the series."

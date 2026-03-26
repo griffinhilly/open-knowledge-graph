@@ -56,7 +56,7 @@ Use online tools like Line of Action or Quickposes set to 30-second or 1-minute 
   answer: 2
   explanation: "The line of action is not a visible edge — it is an invisible force axis that describes how the whole body is moving or oriented. In a figure bending forward, it might be a long C-curve from head through spine to hands. In a leaping dancer, it could be an S-curve. You discover it by asking: what is the main direction of movement? Then you put down that line first, in one committed stroke, before drawing anything else."
 
-- question: "A good gesture drawing should always show a clear, complete outline of the figure."
+- question: "A good gesture drawing should generally show a clear, complete outline of the figure."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about gesture drawing. A gesture drawing may have no clear outline at all — just directional energy lines, pressure-weighted marks indicating where the body is heavy or suspended, and loose indications of limbs. The goal is to capture movement and life, not to record edges. Trying to produce a clean outline defeats the purpose of the exercise, which is to develop the habit of seeing forces and action first."

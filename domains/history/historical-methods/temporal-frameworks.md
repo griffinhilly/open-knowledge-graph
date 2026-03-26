@@ -52,7 +52,7 @@ Historical time is not a neutral container but a constructed framework that shap
   answer: true
   explanation: "This is Braudel's central methodological claim. A diplomatic historian working only at the event level may correctly describe a peace negotiation while missing that demographic exhaustion (conjunctural) made both parties ready to negotiate. A structural historian working only at the longue durée may correctly identify that Mediterranean geography constrained trade routes while missing that a specific decision opened a particular route at a particular moment. The three scales are complementary layers that together produce a richer causal picture than any single scale can provide."
 
-- question: "The Gregorian calendar provides a neutral, universal framework for organizing historical time, and all past societies can be understood as operating within this timeline."
+- question: "The Gregorian calendar provides a neutral, universal framework for organizing historical time, and most past societies can be understood as operating within this timeline."
   type: true-false
   answer: false
   explanation: "The Gregorian calendar is one particular temporal framework, not a neutral container the past comes packaged in. Chinese history organized time by dynastic reigns and sexagenary cycles; Islamic history counts from the Hijra (622 CE); medieval European societies used the Julian calendar, which diverges from the Gregorian by ten days by the early modern period. When a medieval chronicler records 'the 23rd year of the king's reign,' they are recording time relationally. Historians must translate between these frameworks without assuming the Gregorian system is the natural one."

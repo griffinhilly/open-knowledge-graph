@@ -49,7 +49,7 @@ SOR accelerates Gauss-Seidel by introducing a relaxation parameter ω: x_i^{(k+1
   answer: true
   explanation: "Substituting ω = 1: x_i^{(k+1)} = (1 − 1)x_i^{(k)} + 1·x_i^{GS} = 0 + x_i^{GS} = x_i^{GS}. The current value is ignored and the update is exactly the Gauss-Seidel step. This shows that SOR is a generalization of Gauss-Seidel, with ω = 1 as the special case. The ω parameter blends the current value with the Gauss-Seidel update, and ω = 1 means 'take the G-S update with weight 1 and the current value with weight 0.'"
 
-- question: "SOR is guaranteed to converge for any positive value of ω, provided the system Ax = b has a unique solution."
+- question: "SOR is very likely to converge for any positive value of ω, provided the system Ax = b has a unique solution."
   type: true-false
   answer: false
   explanation: "SOR is only guaranteed to converge when 0 < ω < 2. Outside this range — particularly for ω ≥ 2 — the iteration diverges regardless of the matrix properties. Within (0, 2), convergence still depends on the matrix (diagonal dominance or positive definiteness are sufficient conditions). The bound ω < 2 is a hard theoretical requirement, not a practical guideline. Choosing ω = 2.1, for example, will cause the iterates to grow without bound even for well-conditioned systems."

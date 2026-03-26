@@ -47,7 +47,7 @@ Discourse Representation Theory models discourse by building structured Discours
   answer: 1
   explanation: "DRT distinguishes anaphora resolution (finding an existing referent) from presupposition accommodation (adding a missing referent when required). 'My neighbor got back from her trip' presupposes that a trip occurred. When this isn't established in the current DRS, the interpreter accommodates — inferring that a trip must exist and adding it as a new discourse referent with the conditions that the speaker's neighbor took it. Accommodation is licensed when the presupposition is plausible and consistent with the existing model. The DRS does not crash; it dynamically expands."
 
-- question: "In DRT, each sentence is interpreted independently, and pronouns find their antecedents only within the sentence that contains them."
+- question: "In DRT, each sentence is interpreted independently, and pronouns find their antecedents primarily within the sentence that contains them."
   type: true-false
   answer: false
   explanation: "This describes sentence-level semantics, not DRT. DRT's central innovation is that discourse is interpreted by building a single, cumulative Discourse Representation Structure across multiple sentences. A discourse referent introduced in one sentence (e.g., 'A woman entered' — introduces referent x) remains accessible to subsequent sentences ('She was happy' — the pronoun 'she' picks up x). Pronouns can resolve to any discourse referent currently in scope within the DRS, regardless of which sentence introduced it."

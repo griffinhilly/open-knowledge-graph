@@ -50,7 +50,7 @@ Black holes form when massive stellar cores collapse catastrophically, creating 
   answer: true
   explanation: "The event horizon is a causal boundary defined by spacetime geometry, not a physical surface. For a supermassive black hole, tidal forces at the horizon are actually gentle (they scale inversely with the square of the Schwarzschild radius, which is large). The infalling observer would detect no special local physics at the crossing — the dramatic consequences (inability to return or communicate) only become apparent afterward, as their future light cone no longer intersects the exterior universe."
 
-- question: "The event horizon of a black hole acts as a physical solid boundary that infalling matter collides with and cannot pass through."
+- question: "The event horizon of a black hole acts as a physical solid boundary that infalling matter collides with and can seldom pass through."
   type: true-false
   answer: false
   explanation: "The event horizon is a causal boundary in spacetime geometry — a surface defined by which regions of spacetime can send signals to distant observers — not a physical surface with material properties. Matter and observers freely cross it without experiencing any local barrier. The horizon's significance is entirely about the causal structure of future trajectories: after crossing, no worldline can return to the exterior. There is nothing to 'hit.'"

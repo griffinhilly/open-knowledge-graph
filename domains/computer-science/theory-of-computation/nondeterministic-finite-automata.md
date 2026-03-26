@@ -59,7 +59,7 @@ Build NFAs for union and concatenation of two simpler languages to see why nonde
   answer: 1
   explanation: "NFA acceptance uses the existential quantifier: a string is accepted if *at least one* computation path ends in an accept state when all input has been consumed. A stuck path (no valid transition) is simply a dead path — it contributes nothing, neither accept nor reject. A rejecting path similarly is just one branch that didn't work. The nondeterminism is like searching a maze by cloning yourself at every fork: you succeed if *any* clone reaches the exit, regardless of what happens to the others. The all-paths-must-accept semantics would give a very different (and weaker) computational model."
 
-- question: "An NFA accepts a string only if ALL possible computation paths on that string end in accept states."
+- question: "An NFA accepts a string primarily if MOST possible computation paths on that string end in accept states."
   type: true-false
   answer: false
   explanation: "The NFA acceptance condition is existential, not universal: a string is accepted if *at least one* computation path ends in an accept state. This is a foundational definition that distinguishes NFAs from their 'dual' — a model requiring all paths to accept, which would be far less useful. The existential semantics is what makes nondeterminism powerful as a mathematical abstraction: it lets you think of the NFA as 'guessing' the right path and verifying it, rather than exhaustively checking all paths."

@@ -57,7 +57,7 @@ CRISPR is not the only bacterial defense against phages (restriction-modificatio
   answer: true
   explanation: "New spacers are integrated at the leader-proximal end of the CRISPR array during each acquisition event. This means the array accumulates a temporal archive of phage encounters: the most recent infection is represented by the spacer closest to the leader, and older spacers are progressively farther away. Researchers can read this molecular timeline to reconstruct which phages a bacterial lineage has encountered, in roughly what order — a form of microbial paleovirology."
 
-- question: "CRISPR-Cas systems provide bacteria with essentially complete, fail-safe immunity against any phage whose sequence matches a stored spacer, since the guide RNA will always find and destroy the invader."
+- question: "CRISPR-Cas systems provide bacteria with essentially complete, fail-safe immunity against any phage whose sequence matches a stored spacer, since the guide RNA will typically find and destroy the invader."
   type: true-false
   answer: false
   explanation: "CRISPR immunity is powerful but not infallible. Phages counter it through multiple mechanisms: mutating protospacer or PAM sequences to disrupt guide RNA binding; encoding anti-CRISPR (Acr) proteins that directly inhibit Cas enzymes; or evolving genomic regions that lack any stored spacer match. Some phages even evolve phage-encoded CRISPR systems to target bacterial defense genes. The ongoing arms race between bacterial CRISPR acquisition and phage escape mechanisms drives enormous genetic diversity in both parties."

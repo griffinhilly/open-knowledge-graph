@@ -54,7 +54,7 @@ Read Sider's Four-Dimensionalism Chapter 2 for the B-theory and Crisp's 'Present
   answer: 1
   explanation: "B-theorists do not deny that change occurs — they analyze it differently. Change is the fact that an object has different properties at different times: 'the leaf was green in July and is brown in October' is true just in case the leaf's temporal stage at July has the property green and its stage at October has the property brown. No temporal flow is needed — only the four-dimensional manifold with tenseless earlier-than relations. This refutes the misconception that B-theorists claim nothing changes."
 
-- question: "B-theorists claim that nothing genuinely changes because they hold that all times exist equally in a static four-dimensional block."
+- question: "B-theorists claim that hardly anything genuinely changes because they hold that most times exist equally in a static four-dimensional block."
   type: true-false
   answer: false
   explanation: "This is the most common mischaracterization of B-theory. B-theorists do analyze change: they understand it as an object having different properties at different times (or across temporal stages), without requiring an objective flow of time. The block universe view says that change is tenseless temporal variation in properties, not the passage of a privileged present. B-theorists accept all ordinary facts about change; they just don't think those facts require genuine temporal becoming."

@@ -53,7 +53,7 @@ Core a lake, identify varves under microscope and count them to establish a varv
   answer: 1
   explanation: "The defining advantage of varved records is temporal resolution. Counting annual laminations gives a direct year-by-year chronology — much like tree rings — without relying on radiocarbon dating, which has calibration uncertainties of decades to centuries. Ocean sediment cores typically have centimeter-scale sampling that represents decades to centuries of accumulation, and their chronology depends on radiocarbon or orbital tuning. A well-preserved varved sequence can resolve individual years and even seasonal events, which is orders of magnitude finer than most ocean records."
 
-- question: "All lakes with high sedimentation rates will produce annual laminations (varves) that can be used to construct year-by-year paleoclimate records."
+- question: "Most lakes with high sedimentation rates will produce annual laminations (varves) that can be used to construct year-by-year paleoclimate records."
   type: true-false
   answer: false
   explanation: "Varve formation requires specific conditions beyond high sedimentation: the lake must have strong seasonal contrasts in sediment input or biological productivity, and — critically — the sediment layers must not be disrupted by bioturbation (mixing by bottom-dwelling organisms) or deep-water circulation. This typically requires a stratified or meromictic lake (with permanently stagnant bottom waters devoid of oxygen, which kills the burrowing organisms that would otherwise mix the sediment). Many lakes have high sedimentation rates but no seasonal lamination structure, producing homogeneous sediment that cannot be counted like varves."

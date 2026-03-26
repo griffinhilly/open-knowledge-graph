@@ -47,7 +47,7 @@ Estimate sustainable growth rate from payout ratio and ROE. Compare model predic
   answer: 1
   explanation: "The Gordon Growth Model is derived from a geometric series that only converges when g < r. When g ≥ r, the sum of discounted future dividends is infinite (or undefined), reflecting the economically impossible claim that the firm grows faster than the required return forever. No firm can sustain g ≥ r indefinitely — it would eventually exceed the size of the entire economy. The model's constraint g < r is not a mathematical quirk but an economic requirement."
 
-- question: "In the Gordon Growth Model, a firm with a higher sustainable growth rate will always command a higher stock price, all else equal."
+- question: "In the Gordon Growth Model, a firm with a higher sustainable growth rate will typically command a higher stock price, most else equal."
   type: true-false
   answer: false
   explanation: "This is true only when g < r and D₁ is held constant — but D₁ is not independent of g. Higher growth requires more reinvestment, which means a lower payout ratio and thus a lower current dividend D₁. The two effects partially offset: higher g raises the price through the denominator but lowers it through D₁. Additionally, if g rises toward r, the denominator approaches zero and the price formula breaks down. The full relationship requires the sustainable growth rate identity (g = ROE × retention) to assess the net effect."

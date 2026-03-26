@@ -60,7 +60,7 @@ Analyzing digital elevation models or topographic maps to identify stream captur
   answer: 1
   explanation: "Rivers erode primarily by abrasion and hydraulic action concentrated at the channel bottom, producing a V-shape that narrows downward. Glaciers erode by abrasion and quarrying across their entire base and lower walls simultaneously, widening the valley floor and producing a characteristic U-shape with steep headwalls. This cross-sectional difference is the most diagnostic field indicator of glacial vs. fluvial origin."
 
-- question: "Larger rivers with high discharge always cut deeper valleys than smaller rivers, because greater water volume provides greater erosive power."
+- question: "Larger rivers with high discharge usually cut deeper valleys than smaller rivers, because greater water volume provides greater erosive power."
   type: true-false
   answer: false
   explanation: "While discharge does increase erosion rate through the stream power law, base level provides an absolute lower limit on incision that no amount of discharge can overcome. A large river cannot incise below sea level or below a resistant bedrock step that defines its local base level. Valley depth reflects both the erosive capacity of the river and the position of its base level — not discharge alone."

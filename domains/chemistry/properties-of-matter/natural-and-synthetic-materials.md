@@ -44,7 +44,7 @@ Give students a collection of objects and have them sort into "natural" and "syn
   answer: 2
   explanation: "Nylon is a synthetic material — it was invented by scientists and is manufactured in factories from chemicals. Wool, granite, and wood are all natural materials: wool comes from sheep, granite comes from the earth, and wood comes from trees."
 
-- question: "Natural materials are always better than synthetic materials."
+- question: "Natural materials are typically better than synthetic materials."
   type: true-false
   answer: false
   explanation: "False. Neither type is always better — it depends on the job. Natural cotton is comfortable and breathable for clothing, but synthetic nylon is lighter, stronger, and dries faster, making it better for parachutes and tents. Each material — natural or synthetic — has its own set of properties, and the best choice depends on what you need."

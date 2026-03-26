@@ -57,7 +57,7 @@ Contrast Enlightenment rationalism with medieval and early-modern appeals to aut
   answer: false
   explanation: "This is a common misconception the topic directly addresses. Many Enlightenment thinkers were deists — they believed in a God who created the universe and set it in motion but did not intervene in it. Deism was fully compatible with Enlightenment rationalism: a rational God created a rational universe discoverable by rational inquiry. The Enlightenment's critique targeted appeals to authority and tradition as substitutes for evidence and reasoning, not religion per se."
 
-- question: "The Enlightenment's claim to universal reason was applied consistently across all peoples and cultures in the 18th century."
+- question: "The Enlightenment's claim to universal reason was applied consistently across most peoples and cultures in the 18th century."
   type: true-false
   answer: false
   explanation: "The Enlightenment's supposed universalism was applied selectively. The same discourse that proclaimed universal human rights also provided intellectual cover for colonial domination of non-European peoples, who were frequently excluded from the 'universal' it claimed to defend. This contradiction — universal rights for some, colonial domination for others — became a major fault line in the centuries that followed."

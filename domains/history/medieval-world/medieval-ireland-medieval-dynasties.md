@@ -52,7 +52,7 @@ Medieval Ireland remained fragmented among competing Irish dynasties even after 
   answer: true
   explanation: "This phenomenon — described by the Latin phrase Hibernis ipsis Hiberniores — is well-documented. Normans who arrived as conquerors intermarried with Irish nobility, adopted Brehon law, spoke Irish, and became patrons of Irish culture. It illustrates the topic's core insight: formal political control and cultural transformation are different things. The Irish cultural world was coherent and attractive enough to absorb newcomers rather than be displaced by them."
 
-- question: "The Anglo-Norman invasion of 1169-1170 quickly established effective English feudal control over all of Ireland within a few decades, subduing native Irish dynasties through the superior organization of the feudal system."
+- question: "The Anglo-Norman invasion of 1169-1170 quickly established effective English feudal control over most of Ireland within a few decades, subduing native Irish dynasties through the superior organization of the feudal system."
   type: true-false
   answer: false
   explanation: "The Norman conquest was always geographically incomplete. Effective control was largely confined to the Pale and scattered coastal towns. Native Irish dynasties in Connacht, Ulster, and Munster retained real territorial power and cultural autonomy throughout the medieval period. The resilience of Irish political structures (tanistry, kin-based succession) and the adaptability of incoming Normans produced a hybrid landscape rather than a comprehensive feudal conquest."

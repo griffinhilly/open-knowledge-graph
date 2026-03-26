@@ -56,7 +56,7 @@ First-person is more intimate than third-person—it is closer, but not necessar
   answer: 2
   explanation: "First-person narration is filtered through a consciousness that may be self-deceived, self-justifying, or emotionally incapable of seeing its own patterns. The speaking self narrating in retrospect has biases about the experiencing self they are describing. A third-person limited narrator, positioned outside the character, can describe behavior, habits, and contradictions that the character would rationalize away. This is the common misconception the topic addresses: proximity does not equal accuracy."
 
-- question: "A first-person narrator telling a story about their adolescence can only report what they knew and perceived at the time those events occurred."
+- question: "A first-person narrator telling a story about their adolescence can primarily report what they knew and perceived at the time those events occurred."
   type: true-false
   answer: false
   explanation: "A retrospective first-person narrator possesses the knowledge of both the experiencing self (what they knew then) and the speaking self (what they know now). The narrator looking back can describe the full arc of events they have since learned about, comment on their past self's naivety, or note what they now understand that they missed at the time. The gap between these two selves — what they knew then vs. what they know now — is one of the primary sources of dramatic irony and narrative tension in first-person fiction."

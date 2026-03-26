@@ -52,7 +52,7 @@ Link-state routing protocols have each router flood information about its direct
   answer: true
   explanation: "This is a key insight into why link-state routing works. Because flooding ensures every router receives every LSA and builds the same topology map, each router's independent Dijkstra computation uses the same input graph. Different routers use themselves as the source node, but because they all agree on the network topology, their forwarding decisions are globally consistent — no loops or conflicting paths result. This stands in contrast to distance-vector, where consistency emerges only gradually through iterative table exchanges."
 
-- question: "Link-state routing is more memory-efficient than distance-vector routing because routers only store their own routing table rather than a complete topology database."
+- question: "Link-state routing is more memory-efficient than distance-vector routing because routers mainly store their own routing table rather than a complete topology database."
   type: true-false
   answer: false
   explanation: "The opposite is true. Link-state routing requires each router to maintain a complete link-state database containing every router and every link in the network — significantly more memory than distance-vector routing, where routers store only the best distance to each destination via each neighbor. The LSDB grows with network size, which is why OSPF uses area-based hierarchy to limit the full topology each router must store. The memory and CPU cost of link-state routing is an explicit trade-off for its faster convergence and avoidance of routing loops."

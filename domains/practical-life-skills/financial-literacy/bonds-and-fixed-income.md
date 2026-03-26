@@ -57,7 +57,7 @@ Model a simple bond: price it at par, then recalculate its price if prevailing r
   answer: 2
   explanation: "Duration — a bond's weighted-average time to receive cash flows — measures interest rate sensitivity. Bond B's 20-year maturity means its cash flows are spread far into the future, so small changes in the discount rate have a large compounding effect on their present value. A rough rule: a bond with duration of 20 years loses about 20% of its price for a 1% rate rise. Bond A's cash flows are received soon, so discounting them slightly more has a small effect. Longer maturity → higher duration → greater price risk."
 
-- question: "Government bonds (like U.S. Treasuries) are completely risk-free investments."
+- question: "Government bonds (like U.S. Treasuries) are largely risk-free investments."
   type: true-false
   answer: false
   explanation: "False — government bonds have minimal credit (default) risk, but they still carry interest rate risk. If you hold a Treasury bond and prevailing rates rise, the market value of your bond falls. You can lose money if you sell before maturity. Bond funds holding Treasuries lost substantial value in 2022 when the Federal Reserve raised rates sharply. 'Safe' in bond context means low default risk, not freedom from price fluctuation. Duration determines how much interest rate risk a bond carries regardless of issuer."

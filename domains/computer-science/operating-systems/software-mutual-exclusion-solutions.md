@@ -44,7 +44,7 @@ Peterson's and Dekker's algorithms solve the two-process critical section proble
   answer: 2
   explanation: "Peterson's algorithm depends on a specific memory ordering: the write to `flag[i]` must be visible to the other process before the read of `turn`. Modern CPUs and compilers routinely reorder stores and loads for performance. Under weak memory models (which all major architectures use), both processes can read stale values of the other's flag, both see turn == the other's ID, and both enter the critical section simultaneously — breaking mutual exclusion. This is not theoretical; it is reproducible. Fixing it requires memory barriers (fence instructions), which are hardware support — defeating the purpose of a software-only solution."
 
-- question: "A mutual exclusion solution that uses only a `flag` array (with no `turn` variable) can satisfy all three critical section requirements: mutual exclusion, progress, and bounded waiting."
+- question: "A mutual exclusion solution that uses primarily a `flag` array (with no `turn` variable) can satisfy most three critical section requirements: mutual exclusion, progress, and bounded waiting."
   type: true-false
   answer: false
   explanation: "Without a tiebreaker like `turn`, a flags-only approach can fail mutual exclusion. If both processes read each other's flag before either sets its own, both see the flag as false and both proceed into the critical section simultaneously. This race condition is not a corner case — it happens reliably when processes interleave at exactly the wrong moment. The `turn` variable is not redundant; it is precisely what resolves the tie and ensures at most one process proceeds."

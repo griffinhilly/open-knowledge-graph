@@ -57,7 +57,7 @@ Place each fallacy next to its valid counterpart: affirming the consequent besid
   answer: true
   explanation: "Validity is a structural property, not a content property. An argument form like modus ponens — 'If P then Q; P; therefore Q' — is valid for any propositions substituted for P and Q, regardless of subject matter. You can verify validity by inspecting the form in abstraction from content. This is what makes it a formal property: it belongs to the logical skeleton, not to what the sentences actually mean."
 
-- question: "If an argument commits a formal fallacy, its conclusion must be false."
+- question: "If an argument commits a formal fallacy, its conclusion is expected to be false."
   type: true-false
   answer: false
   explanation: "A formally fallacious argument proves nothing — but that is different from proving the conclusion is false. The conclusion might be true for entirely independent reasons. If someone argues 'If it rains the streets are wet; the streets are wet; therefore it rained,' the streets might actually be wet from rain. The fallacy is about the argument's failure to provide proof, not about the conclusion's truth value. This is one of the most important insights in critical thinking: finding a fallacy attacks the argument, not necessarily the claim."

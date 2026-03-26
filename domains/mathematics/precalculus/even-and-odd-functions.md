@@ -52,7 +52,7 @@ Test algebraically by substituting -x and simplifying. Verify graphically by che
   answer: 1
   explanation: "f(−x) = (−x)³ + 1 = −x³ + 1. For f to be odd, we need f(−x) = −f(x) = −x³ − 1. Since −x³ + 1 ≠ −x³ − 1 (the constant term has the wrong sign), f is not odd — and f(−x) ≠ f(x) either, so it's not even. The student's error is applying the polynomial shortcut to just the leading term. The correct shortcut: a polynomial is odd only if *every* term has odd degree (no constants, no even-degree terms)."
 
-- question: "Every polynomial function is either even or odd."
+- question: "Most polynomial function is either even or odd."
   type: true-false
   answer: false
   explanation: "Most polynomial functions are neither even nor odd. A polynomial is even only if it contains exclusively even-degree terms (e.g., 3x⁴ − x² + 5), and odd only if it contains exclusively odd-degree terms (e.g., 2x³ − x). Any polynomial mixing both types — such as x² + x or x³ + 1 — is neither. Since most polynomials mix degree types, most are neither. The even/odd classification must be checked algebraically for each function, and 'neither' is the most common outcome."

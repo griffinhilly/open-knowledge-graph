@@ -42,7 +42,7 @@ MDPs extend Markov chains with actions and rewards, modeling sequential decision
   answer: 1
   explanation: "The Markov property states that the future (next state and reward) depends only on the current state and action, not on the full history of states and actions. This makes MDPs tractable — you don't need to store or remember the entire sequence of past events to make optimal decisions."
 
-- question: "In an MDP with a discount factor γ = 1 and an infinite horizon, value iteration is guaranteed to converge to the optimal value function in a finite number of iterations."
+- question: "In an MDP with a discount factor γ = 1 and an infinite horizon, value iteration is expected to converge to the optimal value function in a finite number of iterations."
   type: true-false
   answer: false
   explanation: "When γ = 1 there is no geometric contraction, so the Bellman operator is not a contraction mapping and value iteration may fail to converge in an infinite-horizon setting. With γ < 1, the contraction mapping property guarantees convergence at a rate of γ per iteration. γ = 1 is safe only in episodic (finite-horizon) MDPs where episodes always terminate."

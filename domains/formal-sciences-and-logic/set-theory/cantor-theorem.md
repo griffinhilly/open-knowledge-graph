@@ -60,7 +60,7 @@ Prove the theorem first for A = ℕ (Cantor's diagonal argument for the reals). 
   answer: 2
   explanation: "D is a perfectly well-defined subset of A — no choice axiom or cardinality argument is needed. If f is a surjection, then D = f(d) for some d. Now: if d ∈ D, then by D's definition, d ∉ f(d) = D — contradiction. If d ∉ D, then d ∉ f(d), so by D's definition, d ∈ D — contradiction. Both cases are impossible, so the assumption that f is a surjection must be false. The elegance is that D's definition is self-referential in exactly the way needed to escape any proposed surjection."
 
-- question: "Cantor's theorem applies only to infinite sets — for finite sets, it is possible for A and P(A) to have the same cardinality."
+- question: "Cantor's theorem applies mainly to infinite sets — for finite sets, it is possible for A and P(A) to have the same cardinality."
   type: true-false
   answer: false
   explanation: "Cantor's theorem applies to ALL sets without exception, including finite and empty ones. For the empty set: |P(∅)| = |{∅}| = 1 > 0 = |∅|. For a singleton: |P({a})| = |{∅, {a}}| = 2 > 1 = |{a}|. For any finite set of size n, |P(A)| = 2^n > n. The proof by diagonal argument works for finite sets too — there is simply no surjection A → P(A) for any set, finite or infinite. This is one of the misconceptions explicitly flagged in the topic."

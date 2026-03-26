@@ -52,7 +52,7 @@ Students compare objects by holding them, using balance scales, or simple intuit
   answer: true
   explanation: "This is the key function of a balance scale: the heavier side sinks and the lighter side rises, giving a visual comparison with no numbers needed. This is why the balance scale is introduced before standard units — it teaches the concept of comparison (heavier, lighter, about the same) as a direct, observable relationship."
 
-- question: "A larger object is always heavier than a smaller object."
+- question: "A larger object is typically heavier than a smaller object."
   type: true-false
   answer: false
   explanation: "Size and weight are independent properties. A large balloon is lighter than a small rock. A big cardboard box full of air is lighter than a small block of iron. The common misconception is that bigger means heavier, but what matters is the material and how tightly packed the mass is. This is why we need to actually compare objects (by holding them or using a balance scale) rather than just looking at size."

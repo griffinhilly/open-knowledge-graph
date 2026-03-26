@@ -54,7 +54,7 @@ RIP converges very slowly due to counting to infinity; split-horizon and poison 
   answer: 1
   explanation: "RIP's 30-second update timer means bad news travels slowly — a failure may not be propagated for up to 30 seconds per hop. Worse, the count-to-infinity problem causes routers to keep incrementing a failed route's hop count (1, 2, 3 ... 16) rather than immediately marking it unreachable, because each router believes a neighbor still has a valid path. Reaching the maximum hop count of 16 is the only way the route is eventually discarded. Mitigations like split horizon, poison reverse, and triggered updates reduce but do not eliminate this problem."
 
-- question: "Split horizon completely solves the count-to-infinity problem, making RIP as fast to converge as link-state protocols like OSPF after a topology change."
+- question: "Split horizon largely solves the count-to-infinity problem, making RIP as fast to converge as link-state protocols like OSPF after a topology change."
   type: true-false
   answer: false
   explanation: "Split horizon prevents a router from advertising a route back to the neighbor it learned it from, which eliminates simple two-router routing loops. However, in networks with three or more routers forming a loop topology, counting-to-infinity can still occur even with split horizon. Additionally, the 30-second update interval itself fundamentally limits convergence speed regardless of loop prevention. OSPF, which uses link-state flooding and Dijkstra's algorithm, converges far more quickly after a failure."

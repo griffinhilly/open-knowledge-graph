@@ -49,7 +49,7 @@ A Latin square of order n is an n×n array filled with n symbols such that each 
   answer: true
   explanation: "Every valid Sudoku grid satisfies the Latin square condition (each digit 1–9 appears exactly once in each row and exactly once in each column). The 3×3 box constraint is an additional regional requirement layered on top. This makes Sudoku a proper constrained Latin square — all valid Sudoku grids are Latin squares, but not all Latin squares are valid Sudoku grids. The extra constraint dramatically restricts the solution space compared to the full set of 9×9 Latin squares."
 
-- question: "Two Latin squares are orthogonal if, when superimposed cell by cell, at least one ordered pair of symbols appears in every cell of the resulting grid."
+- question: "Two Latin squares are orthogonal if, when superimposed cell by cell, at least one ordered pair of symbols appears in nearly every cell of the resulting grid."
   type: true-false
   answer: false
   explanation: "Orthogonality requires that *every* ordered pair appears *exactly once* across all n² cells — not merely that every pair appears somewhere. If n = 3, there are 9 ordered pairs from a 3-symbol alphabet, and the 3×3 superposition has exactly 9 cells; each pair must fill exactly one cell. If any pair appears twice or is absent, the squares are not orthogonal. This precise balance — every combination equally represented — is what makes orthogonal Latin squares powerful for experimental design and their nonexistence for certain orders significant."

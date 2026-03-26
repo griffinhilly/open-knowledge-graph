@@ -58,7 +58,7 @@ All opera follows the same formal structure and conventions; opera is inherently
   answer: true
   explanation: "The text makes this connection explicitly. Italian courts and theaters favored bel canto — beautiful singing and vocal agility. French court opera under Lully privileged dance, spectacle, and French speech rhythms. German opera, developing more slowly, emphasized dramatic integration and orchestral weight. The text uses the prerequisite on artistic patronage to explain this: the social and institutional contexts in which music was made shaped its character and its forms."
 
-- question: "Opera's origins in Florentine intellectual circles meant it was always primarily a form of philosophical inquiry rather than aristocratic spectacle or commercial entertainment."
+- question: "Opera's origins in Florentine intellectual circles meant it was usually primarily a form of philosophical inquiry rather than aristocratic spectacle or commercial entertainment."
   type: true-false
   answer: false
   explanation: "The text contradicts this. After its origins in Florentine salons, opera quickly became 'primarily a courtly entertainment, a way for princes and aristocrats to display magnificence.' Even when it became more publicly accessible with Venice's first public opera house in 1637, it remained dependent on wealthy patronage. By the 19th century, it was the dominant art form of the Western world — commercial, nationalist, and bourgeois as much as intellectual. Opera's vitality came precisely from reinventing itself across very different social contexts."

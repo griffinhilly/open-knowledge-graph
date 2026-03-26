@@ -52,7 +52,7 @@ Take a single claim and support it four different ways — once with each eviden
   answer: 1
   explanation: "Testimony's persuasive force derives entirely from source credibility — and credibility only works if the audience recognizes it. A speaker cannot assume an audience knows who Dr. Chen is. If credentials are left unestablished, the quote functions as mere assertion. The other options are useful but secondary: accuracy, recency, and verifiability strengthen the argument, but if the audience doesn't know why Chen's opinion should be trusted, none of that matters."
 
-- question: "Statistics are the most persuasive form of evidence because they provide objective, quantifiable data that audiences cannot easily dismiss."
+- question: "Statistics are the most persuasive form of evidence because they provide objective, quantifiable data that audiences can rarely easily dismiss."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Research consistently shows that vivid examples often outperform data in changing attitudes, because human cognition is wired to engage with specific stories far more viscerally than with numbers. Statistics establish scope and significance, but they risk numbing the audience if not contextualized. A single compelling case study can move an audience more than a page of data — which is exactly why skilled speakers combine both types rather than relying on statistics alone."

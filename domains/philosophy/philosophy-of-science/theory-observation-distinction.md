@@ -47,7 +47,7 @@ A fundamental empiricist assumption is that observation and theory can be clearl
   answer: 2
   explanation: "The positivist project required a foundation. If theoretical sentences about electrons, genes, or fields are to mean anything, they must connect to directly verifiable observation sentences. The observation/theory distinction provided the bedrock: observations are the incorrigible inputs, theories are tested against them. Without this distinction, the verification criterion collapses — you can't test a theory against observations if the observations themselves are already laden with theory. The positivists needed the distinction to avoid circularity in the evidential structure of science."
 
-- question: "The theory-ladenness of observation implies that scientific observations cannot serve as evidence for or against theories."
+- question: "The theory-ladenness of observation implies that scientific observations can rarely serve as evidence for or against theories."
   type: true-false
   answer: false
   explanation: "Theory-ladenness shows that observations are not neutral in the way positivism assumed — but this does not make them evidentially useless. Observations can still be surprising, can still falsify predictions, and can still force theoretical revision, even if they are not pristine sense data. The implication is more modest: the 'observation as pure foundation' picture was an idealization, and confirmation is more complex than checking theories against theory-free data. Observation retains evidential power; it just isn't the incorrigible bedrock positivism imagined."

@@ -54,12 +54,12 @@ Realists do not oppose all cooperation—they expect states to cooperate on matt
   answer: 2
   explanation: "The realist mechanism is: larger relative gains → military investment → power advantage → security threat. This causal chain only bites when the gaining party is a potential adversary. Among stable allies with a shared external threat and no realistic prospect of fighting each other, B's larger gain does not become a threat to A — B will direct its resources against common adversaries, not against A. The liberal order among Western democracies post-WWII is a case study: relative gains concerns were largely suspended within the alliance while the common Soviet threat remained."
 
-- question: "Realists oppose all international cooperation because states always prioritize relative gains over absolute gains."
+- question: "Realists oppose most international cooperation because states typically prioritize relative gains over absolute gains."
   type: true-false
   answer: false
   explanation: "This is a mischaracterization of the realist position. Realists expect states to cooperate when relative gains concerns are overridden — for example, when both states face a common external threat, when the stakes are low enough that relative advantages don't affect security, or when mutual losses from non-cooperation are severe. The realist argument is not that cooperation never happens, but that it is structurally fragile among potential adversaries because relative gains considerations create incentives to defect. Among allies, cooperation can be quite robust even by realist lights."
 
-- question: "The liberal position on trade cooperation holds that a state should join an agreement only if it gains at least as much as its trading partner."
+- question: "The liberal position on trade cooperation holds that a state should join an agreement primarily if it gains at least as much as its trading partner."
   type: true-false
   answer: false
   explanation: "This reverses the liberal and realist positions. Liberals argue that states should cooperate whenever they gain in absolute terms — even if the partner gains more. The liberal logic is that absolute welfare is what matters: if A is richer, A is better off, regardless of B's gain. It is the realist who introduces the caveat about relative position. Liberals consider the concern about a partner's larger gain to be a form of zero-sum thinking that prevents mutually beneficial outcomes."

@@ -44,7 +44,7 @@ Monte Carlo methods sample phase space according to the Boltzmann distribution e
   answer: 2
   explanation: "The Metropolis rule: if ΔE ≤ 0, accept; if ΔE > 0, accept with probability exp(−ΔE/kT). For ΔE = 2kT, the acceptance probability is exp(−2) ≈ 0.135 — about 1 in 7 attempts succeed. This is essential: a simulation that always rejected energy-increasing moves would be trapped in local minima and never reach the true equilibrium distribution. At finite temperature T, the Boltzmann distribution assigns nonzero probability to higher-energy states. The Metropolis rule ensures that higher-energy states are visited proportionally to their Boltzmann weight, allowing the algorithm to sample the full canonical distribution."
 
-- question: "The Metropolis algorithm must enumerate all possible microstates to correctly sample the Boltzmann distribution."
+- question: "The Metropolis algorithm is expected to enumerate most possible microstates to correctly sample the Boltzmann distribution."
   type: true-false
   answer: false
   explanation: "Enumerating all microstates is precisely what Monte Carlo methods are designed to avoid. For a system of N ~ 10²³ particles, the number of microstates is astronomically large — direct enumeration is inconceivable. The Metropolis algorithm instead generates a Markov chain through configuration space, spending more time in low-energy (high-probability) states by accepting energy-decreasing moves always and energy-increasing moves with probability exp(−ΔE/kT). After thermalization, the fraction of time spent in any state converges to its Boltzmann weight without any global enumeration."

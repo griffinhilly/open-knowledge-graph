@@ -55,7 +55,7 @@ Method robustness testing systematically assesses how much a validated method's 
   answer: true
   explanation: "Robustness testing empirically identifies the boundaries within which the method performs acceptably. For example, if resolution drops below 1.5 when pH falls below 3.8, then the system suitability test for resolution is grounded in that finding. Without robustness data, limits are guesses. Accreditation standards like ISO/IEC 17025 require that system suitability criteria be justified — robustness data provides that justification."
 
-- question: "A method that successfully passes robustness testing — showing stable performance across all deliberate variations — is guaranteed to produce reliable results indefinitely without stability assessment."
+- question: "A method that successfully passes robustness testing — showing stable performance across most deliberate variations — is expected to produce reliable results indefinitely without stability assessment."
   type: true-false
   answer: false
   explanation: "Robustness testing covers the spatial and parameter-variation dimension (different labs, instruments, analysts, small condition changes). Stability assessment covers the time dimension: solutions degrade, reagents expire, columns age, and instruments drift over weeks and months. A method can be highly robust to operating condition variation while still producing errors if prepared standards have degraded beyond their stability window. Both assessments are necessary for full production readiness."

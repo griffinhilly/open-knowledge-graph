@@ -52,7 +52,7 @@ Use the "Z-pattern" visual to identify alternate interior angles. Prove the theo
   answer: 0
   explanation: "The proof draws a line through one vertex of the triangle parallel to the opposite side. Alternate interior angles formed between this parallel and the two sides of the triangle are congruent to the two base angles. Those three angles — the two base angles (appearing as alternate interior angles) and the apex angle — line up along the straight parallel line, proving they sum to 180°. Alternate interior angles are the key that positions the base angles on the straight line."
 
-- question: "Alternate interior angles are always congruent, regardless of whether the lines cut by the transversal are parallel."
+- question: "Alternate interior angles are typically congruent, regardless of whether the lines cut by the transversal are parallel."
   type: true-false
   answer: false
   explanation: "The congruence of alternate interior angles holds only when the lines are parallel. If the lines are not parallel, alternate interior angles will have different measures. The theorem is conditional: IF the lines are parallel, THEN alternate interior angles are congruent. 'Alternate interior' describes a positional relationship — between the lines, on opposite sides of the transversal — not a guarantee of equality. Applying the theorem to non-parallel lines is one of the most common errors."

@@ -53,7 +53,7 @@ The complex plane inherits a metric topology from the Euclidean distance d(z, w)
   answer: true
   explanation: "Both properties hold independently. The disk is open because every point inside has an open neighborhood contained entirely within it. It is bounded because it is contained in the closed disk of radius 1 centered at the origin — no point in D₁(0) has modulus greater than 1. Openness and boundedness are logically independent properties; a set can be any combination of open/closed and bounded/unbounded."
 
-- question: "Every closed subset of ℂ is bounded."
+- question: "Most closed subset of ℂ is bounded."
   type: true-false
   answer: false
   explanation: "Closed and bounded are independent properties. The entire real axis {z : Im(z) = 0} is closed — it contains all its limit points and its complement is open — but it is unbounded, extending infinitely in both directions. Similarly, the entire plane ℂ is both open and closed but is unbounded. The misconception often arises from conflating 'closed' with 'compact'; compactness requires both closed and bounded in ℝⁿ."

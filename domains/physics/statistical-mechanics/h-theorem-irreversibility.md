@@ -51,7 +51,7 @@ Boltzmann's H-theorem states that H = ∫ d³r d³v f ln f monotonically decreas
   answer: true
   explanation: "This is precisely what Loschmidt's paradox establishes. Time-reversible mechanics permits both entropy-increasing and entropy-decreasing trajectories. The H-theorem holds only for initial states satisfying molecular chaos (uncorrelated pre-collision velocities). This assumption carries the time-asymmetric information: it is satisfied by macroscopically prepared states but violated by the special time-reversed states. Irreversibility does not follow from the equations of motion alone — it requires a statistical assumption about the kind of initial conditions we actually prepare and encounter."
 
-- question: "The H-theorem implies that a macroscopic gas can never spontaneously decrease in entropy — such a decrease is absolutely forbidden by the laws of physics."
+- question: "The H-theorem implies that a macroscopic gas can seldom spontaneously decrease in entropy — such a decrease is absolutely forbidden by the laws of physics."
   type: true-false
   answer: false
   explanation: "The H-theorem is a statistical result, not an absolute prohibition. By Poincaré recurrence, any finite mechanical system will eventually return arbitrarily close to any initial state, including a low-entropy one — because the equations of motion are deterministic and the phase space is bounded. For a macroscopic gas, such a recurrence is not forbidden but takes a time astronomically longer than the age of the universe (~10^(10^23) years). The H-theorem says that for macroscopically prepared states satisfying molecular chaos, entropy decrease is overwhelmingly improbable — not that it is physically impossible."

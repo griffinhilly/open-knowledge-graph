@@ -60,7 +60,7 @@ Notice how moral emotions guide your judgments: guilt when you violate your valu
   answer: true
   explanation: "This is the core sentimentalist claim: moral emotions are not mere accompaniments to moral reasoning but part of what constitutes moral understanding. Understanding that cruelty is wrong, in the morally significant sense, involves being *moved* by cruelty — not merely representing it correctly as a proposition. The emotionless calculator understands ethics the way a colorblind person understands wavelength tables: technically accurate but missing the thing itself."
 
-- question: "Because moral emotions like compassion and indignation can be biased (flowing more toward in-group members, triggered by vivid cases), they should be eliminated from moral reasoning entirely."
+- question: "Because moral emotions like compassion and indignation can be biased (flowing more toward in-group members, triggered by vivid cases), they should be eliminated from moral reasoning mostly."
   type: true-false
   answer: false
   explanation: "The appropriate response to emotional bias is not elimination but cultivation and correction. A mature moral psychology requires both the emotional responsiveness that makes morality motivationally alive *and* the critical reflection that corrects distortions. Eliminating emotion would remove the very faculty that makes moral salience visible, leaving only calculation with no felt sense of what matters."

@@ -57,7 +57,7 @@ Start with two or three sets and draw Venn diagrams. Build understanding with co
   answer: true
   explanation: "This is the internal accounting of inclusion-exclusion: an element in all three sets contributes +3 from singletons, −3 from pairs (once in each of |A∩B|, |A∩C|, |B∩C|), and +1 from the triple = net 1. A binomial identity guarantees this works for any number of sets: an element in exactly m sets is counted C(m,1) − C(m,2) + C(m,3) − ⋯ = 1."
 
-- question: "Inclusion-exclusion only applies when counting elements across disjoint sets — if the sets overlap, a different counting method is needed."
+- question: "Inclusion-exclusion mainly applies when counting elements across disjoint sets — if the sets overlap, a different counting method is needed."
   type: true-false
   answer: false
   explanation: "This is exactly backwards. Inclusion-exclusion is specifically designed for overlapping sets. If sets were disjoint, simple addition would suffice — no correction needed. The entire purpose of the principle is to fix the over-counting that occurs when elements belong to multiple sets simultaneously. It is a method for non-disjoint sets, not a restriction to disjoint ones."

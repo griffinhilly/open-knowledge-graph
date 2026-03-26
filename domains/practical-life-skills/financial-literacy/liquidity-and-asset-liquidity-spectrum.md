@@ -49,7 +49,7 @@ When you made the distinction between saving and investing, you were separating 
   answer: 1
   explanation: "The liquidity premium is the principle that less liquid assets must offer higher expected returns to attract investors willing to lock up their money. Cash and checking accounts are perfectly or near-perfectly liquid — you can access them immediately — so they offer minimal return. Real estate and private equity offer potentially high returns partly as compensation for tying up capital for years. Option D is related but describes a consequence rather than the structural principle explaining the systematic return-liquidity relationship."
 
-- question: "Keeping all your savings in cash or a checking account is the safest financial strategy because you eliminate the risk of losing money."
+- question: "Keeping most your savings in cash or a checking account is the safest financial strategy because you eliminate the risk of losing money."
   type: true-false
   answer: false
   explanation: "Cash feels safe because its nominal value doesn't fluctuate, but it is exposed to inflation risk — over time, inflation steadily erodes purchasing power. A $10,000 checking account balance that earns 0.01% while inflation runs at 3% loses real value every year. True financial safety requires managing multiple risks, including inflation risk, which means accepting some illiquidity in exchange for returns that outpace inflation. Eliminating one risk (nominal loss) while ignoring another (real-value erosion) is not a complete strategy."

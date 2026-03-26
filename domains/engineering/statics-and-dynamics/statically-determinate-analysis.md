@@ -52,7 +52,7 @@ A structure or system is statically determinate if all support reactions and int
   answer: true
   explanation: "Pin-and-roller gives 2 + 1 = 3 unknowns, matching the 3 equilibrium equations exactly — determinate. Replacing the roller with a pin adds one more unknown (now 2 + 2 = 4), exceeding the 3 available equations. The extra reaction force cannot be found from statics alone; it depends on how the beam flexes under load, which depends on the material's stiffness EI. This is the transition from statics (forces from equilibrium) to mechanics of materials (forces from compatibility of deformations)."
 
-- question: "A statically determinate structure is always stronger and safer than a statically indeterminate structure with the same loading, because its forces can be uniquely solved from equilibrium."
+- question: "A statically determinate structure is typically stronger and safer than a statically indeterminate structure with the same loading, because its forces can be uniquely solved from equilibrium."
   type: true-false
   answer: false
   explanation: "Determinacy refers to analytical tractability, not structural performance. Statically indeterminate structures have multiple load paths — if one member fails, others can redistribute the load. Determinate structures lack redundancy: if one critical member or support fails, the entire structure can collapse. Indeterminate structures are typically stronger and more robust under overload or partial failure. Determinacy is valuable for analysis simplicity and for understanding how forces flow, not as a measure of structural quality."

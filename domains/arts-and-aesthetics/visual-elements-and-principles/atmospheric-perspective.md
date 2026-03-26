@@ -42,7 +42,7 @@ Study landscape photographs or paintings and note the value and saturation shift
   answer: 1
   explanation: "Atmospheric perspective produces a consistent set of changes as objects recede: value rises (objects get lighter), saturation drops (colors go gray), and hue shifts toward cool blue-gray as scattered sky light dominates. Foreground objects show their true dark, saturated, warm local color; distant objects are washed out and cool."
 
-- question: "Atmospheric perspective is only effective in outdoor landscape paintings and cannot meaningfully be applied to interior scenes."
+- question: "Atmospheric perspective is mainly effective in outdoor landscape paintings and can seldom meaningfully be applied to interior scenes."
   type: true-false
   answer: false
   explanation: "While the effect is most dramatic in open landscapes, any scene with significant depth — a long cathedral nave, a tunnel, a deep forest interior — benefits from subtle atmospheric handling. The principle is physical (air scatters light over distance), so it applies wherever depth exists."

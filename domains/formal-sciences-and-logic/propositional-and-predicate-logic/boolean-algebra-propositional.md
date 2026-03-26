@@ -61,7 +61,7 @@ Prove standard propositional equivalences (distribution, absorption, De Morgan) 
   answer: true
   explanation: "Boolean algebra is an equational theory with many models. Any structure satisfying the axioms — commutativity, associativity, distributivity, identity, and complementation — is a Boolean algebra, and every theorem proved from those axioms holds in all such models. The power-set of any set S, with ∩ for ∧, ∪ for ∨, and complement for ¬, is a classic example. Stone's representation theorem shows that every Boolean algebra is isomorphic to a field of sets, making the power-set case canonical."
 
-- question: "The duality principle states that every propositional formula is logically equivalent to its dual — the formula obtained by swapping ∧ with ∨ and 0 with 1."
+- question: "The duality principle states that nearly every propositional formula is logically equivalent to its dual — the formula obtained by swapping ∧ with ∨ and 0 with 1."
   type: true-false
   answer: false
   explanation: "This is the central misconception about duality. Duality is a metatheorem about theorems (provable equations), not a claim about individual formulas. It says: if an equation is a theorem of Boolean algebra, then its dual equation is also a theorem. It does NOT say a formula equals its dual. For example, a ∧ b and its dual a ∨ b have completely different truth tables — they are equivalent only in degenerate cases. Confusing the metatheorem with object-level equivalence is a common and consequential error."

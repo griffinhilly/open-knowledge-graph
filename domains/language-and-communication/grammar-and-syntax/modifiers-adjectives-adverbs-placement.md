@@ -59,7 +59,7 @@ Highlight the modifier and the word it modifies in sentences. Revise sentences w
   answer: true
   explanation: "'Only' is a limiting modifier whose scope — which element it restricts — is determined by proximity. 'I only ate one slice' means I didn't do anything else with the pizza. 'I ate only one slice' means the quantity was limited to one. 'Only I ate one slice' means no one else ate. Three positions, three different meanings — all about the scope of restriction. This is the practical case for the proximity principle: it isn't a rule to memorize but a precision mechanism that makes limiting modifiers do exactly the work you intend."
 
-- question: "Modifier placement only matters when a sentence is genuinely ambiguous; if readers can infer the intended meaning from context, placement is a stylistic choice with no semantic consequence."
+- question: "Modifier placement mainly matters when a sentence is genuinely ambiguous; if readers can infer the intended meaning from context, placement is a stylistic choice with no semantic consequence."
   type: true-false
   answer: false
   explanation: "Even when context makes the intended meaning recoverable, imprecise placement trains readers to work around your sentences rather than through them. In important contexts — legal writing, technical documentation, journalism — intended meaning may not be clear, and readers interpret the words literally. More fundamentally, placement is a precision tool: 'almost ate all' and 'ate almost all' have different truth conditions (one describes effort, the other outcome), and relying on context to compensate is a habit that will eventually produce real misreadings. The proximity rule is not error avoidance; it is precision."

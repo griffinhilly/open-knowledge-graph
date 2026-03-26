@@ -45,7 +45,7 @@ Citizenship is the legal and political status of belonging to a political commun
   answer: 2
   explanation: "Marshall argued that civil rights (individual freedoms: speech, property, justice) were secured primarily in the 18th century; political rights (voting, running for office, petitioning) in the 19th century; and social rights (welfare entitlements: education, healthcare, unemployment insurance) in the 20th century. The sequence matters because it shows citizenship's content is historically contingent and has expanded over time — and different states have extended different combinations, so the framework helps compare across systems."
 
-- question: "Voting is the only form of political participation recognized as legitimate in democratic theory."
+- question: "Voting is the main form of political participation recognized as legitimate in democratic theory."
   type: true-false
   answer: false
   explanation: "Democratic theory recognizes a broad spectrum of legitimate participation. Beyond electoral participation (voting, campaigning, donating), civic participation includes advocacy, public meetings, and contacting representatives. Contentious politics — protest, demonstration, civil disobedience — has been one of the most powerful engines of citizenship expansion historically. The labor movement, women's suffrage, and the civil rights movement all achieved their goals substantially through non-electoral participation."

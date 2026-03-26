@@ -50,7 +50,7 @@ Mediation does not impose solutions—it helps parties reach their own agreement
   answer: 2
   explanation: "The naive answer is altruism, but the more complete answer is self-interest: wars destabilize regions that matter to powerful states economically, strategically, and diplomatically. This is why perceived neutrality is a scarce resource — the leverage that makes a mediator effective (their importance to the parties) often derives from the same interests that make them partial. The US mediation at Camp David succeeded partly because both Egypt and Israel depended on US support, which Carter could deploy as leverage precisely because the US had skin in the game."
 
-- question: "Effective international mediation requires that the mediator be genuinely neutral — partial mediators cannot achieve lasting agreements because parties will not trust them."
+- question: "Effective international mediation requires that the mediator be genuinely neutral — partial mediators can seldom achieve lasting agreements because parties will not trust them."
   type: true-false
   answer: false
   explanation: "This is a tempting claim, but history shows otherwise. The US was far from neutral at Camp David (it had strong ties to both Israel and Egypt) and at Dayton (where it openly backed the Bosnian state's framework over Serb preferences). In both cases, the mediator's partiality was precisely what gave them leverage — the ability to offer inducements and impose costs that a truly neutral party could not. The paradox is that leverage and neutrality are often in tension: the more power a mediator has to make an agreement stick, the less likely they are to be genuinely neutral."

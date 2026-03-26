@@ -55,7 +55,7 @@ Examine real conflicts: free speech versus social harm, religious liberty versus
   answer: 1
   explanation: "Rights in political systems are defeasible — they hold unless overridden by sufficiently weighty competing considerations through proportionate means. Mill's harm principle (restriction is justified only to prevent harm to others) actually supports this restriction: direct incitement to imminent violence is the paradigm case of speech that causes harm to others. The key analytical tool is proportionality: was the restriction necessary, was the harm serious, and was the least liberty-restricting means used? Option A is a common misconception — rights are not absolute in any actual constitutional system."
 
-- question: "Freedom of speech, as a negative liberty, means the state has an absolute duty never to restrict expression under any circumstances."
+- question: "Freedom of speech, as a negative liberty, means the state has an absolute duty rarely to restrict expression under any circumstances."
   type: true-false
   answer: false
   explanation: "False. Rights are defeasible, not absolute — they hold unless overridden by sufficiently weighty competing considerations through proportionate means. Negative liberty means the state's primary obligation is to refrain from interference, but even negative liberties have limits: incitement to imminent violence, perjury, fraud, and immediate threats are classic examples where restriction is justified under the harm principle or proportionality analysis. Conflating 'negative liberty' with 'absolute liberty' is the most common misconception about rights in political philosophy."

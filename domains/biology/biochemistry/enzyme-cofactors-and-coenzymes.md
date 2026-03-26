@@ -46,7 +46,7 @@ Map out the roles of common coenzymes (NAD⁺, FAD, ATP, NADPH, CoA) across meta
   answer: 1
   explanation: "NAD⁺ accepts electrons (becoming NADH) during oxidation reactions and donates them elsewhere during reduction reactions. This shuttling role is what makes it a coenzyme rather than a structural component. It is loosely associated with enzymes and dissociates after each catalytic cycle, carrying its electron cargo to the next reaction in the pathway."
 
-- question: "All coenzymes are permanently (covalently) bound to their enzymes and cannot transfer to other enzymes."
+- question: "Most coenzymes are permanently (covalently) bound to their enzymes and can seldom transfer to other enzymes."
   type: true-false
   answer: false
   explanation: "Many coenzymes — including NAD⁺, FAD, and Coenzyme A — are loosely (non-covalently) associated with enzymes and dissociate after each reaction, allowing them to carry electrons or functional groups to other enzymes. Only prosthetic groups (a subset of cofactors) are permanently bound. The mobility of most coenzymes is essential to their function as metabolic shuttles."

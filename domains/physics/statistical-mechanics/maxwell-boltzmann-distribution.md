@@ -38,7 +38,7 @@ The Maxwell-Boltzmann distribution gives the probability that a classical partic
   answer: 1
   explanation: "v_mp ∝ sqrt(T), so doubling T gives v_mp → sqrt(2T/T) · v_mp = sqrt(2) · v_mp ≈ 1.41 · v_mp. Speed scales as the square root of temperature, not linearly. A common error is assuming a linear relationship because kinetic energy is proportional to T — but speed is the square root of kinetic energy."
 
-- question: "At thermal equilibrium, all molecules in an ideal gas have kinetic energy equal to (3/2)kT."
+- question: "At thermal equilibrium, most molecules in an ideal gas have kinetic energy equal to (3/2)kT."
   type: true-false
   answer: false
   explanation: "(3/2)kT is the average kinetic energy per molecule. Individual molecules are distributed across a broad range of energies according to the Maxwell-Boltzmann distribution — some have much more, some much less. Only the mean value equals (3/2)kT. The distribution has a long high-energy tail, which is physically important: those rare fast molecules are responsible for chemical reactions, evaporation, and atmospheric escape."

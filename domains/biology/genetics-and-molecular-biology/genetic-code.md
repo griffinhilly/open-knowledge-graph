@@ -46,7 +46,7 @@ Practice reading codon tables until patterns emerge (e.g., the first two bases o
   answer: 1
   explanation: "Degeneracy means redundancy — multiple codons map to the same amino acid (e.g., both UUU and UUC code for phenylalanine). It does NOT mean imprecision; each individual codon maps to exactly one amino acid. Students often confuse the technical meaning of 'degenerate' (redundant) with its colloquial meaning (degraded or flawed)."
 
-- question: "The genetic code is absolutely identical in every living organism on Earth."
+- question: "The genetic code is absolutely identical in most living organism on Earth."
   type: true-false
   answer: false
   explanation: "The code is described as 'nearly universal,' not absolutely universal. A handful of exceptions exist — notably in mitochondrial genomes of various organisms, where a few codon assignments differ from the standard table (e.g., UGA codes for tryptophan in some mitochondria rather than serving as a stop codon). This near-universality is still remarkable evidence for common ancestry."

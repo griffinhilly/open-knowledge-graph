@@ -55,7 +55,7 @@ PMTUD requires ICMP Fragmentation Needed messages; blocking ICMP breaks PMTUD. M
   answer: 1
   explanation: "PMTUD's goal is to discover and avoid fragmentation, not just work around it. Fragmentation wastes bandwidth on duplicate headers, adds reassembly latency, and forces full packet retransmission if any fragment is lost. By setting DF, the sender forces routers to send ICMP Fragmentation Needed when a packet is too large rather than silently fragmenting it. This feedback tells the sender exactly how much to shrink its packets, enabling efficient large transfers without fragmentation overhead."
 
-- question: "Blocking all ICMP traffic at a firewall improves security without affecting TCP functionality like Path MTU Discovery."
+- question: "Blocking most ICMP traffic at a firewall improves security without affecting TCP functionality like Path MTU Discovery."
   type: true-false
   answer: false
   explanation: "ICMP is not optional for correct TCP operation. PMTUD depends entirely on receiving ICMP Fragmentation Needed messages from bottleneck routers. Blocking ICMP creates a black hole: oversized packets with DF set are dropped silently, the sender never receives feedback, and large transfers stall. The firewall administrator may believe they're improving security, but they're breaking a fundamental IP mechanism. Selective ICMP filtering — allowing Fragmentation Needed (Type 3, Code 4) while blocking echo requests — is the correct approach."

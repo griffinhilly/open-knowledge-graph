@@ -57,7 +57,7 @@ Practice typing text in a word processor. Learn one shortcut at a time (save, co
   answer: true
   explanation: "Core shortcuts like Ctrl+C (copy), Ctrl+V (paste), Ctrl+Z (undo), Ctrl+S (save), and Ctrl+A (select all) are standard across virtually all Windows and web applications because developers follow shared conventions. This is what makes them worth learning — you invest the muscle memory once and benefit in every program you use."
 
-- question: "The Shift key is only used to type capital letters."
+- question: "The Shift key is primarily used to type capital letters."
   type: true-false
   answer: false
   explanation: "Shift accesses the upper character on any key that has two characters — so Shift+1 produces !, Shift+2 produces @, Shift+/ produces ?, and so on. Shift is a general modifier key that unlocks a second layer of characters, not just a capitalization button. This is one of three main modifier keys (Ctrl, Alt, Shift) that each create their own layer of commands."

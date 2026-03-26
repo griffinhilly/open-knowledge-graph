@@ -52,7 +52,7 @@ Boundary conditions encode field behavior at interfaces. At perfect conductors: 
   answer: true
   explanation: "This is the physical reasoning behind the boundary condition. A perfect conductor has zero resistance, so by Ohm's law (J = σE), any nonzero tangential E would drive an infinite surface current — which is unphysical. Free charges in the conductor redistribute instantly to cancel any tangential E. The result is tangential E = 0 at a perfect conductor surface. This is why the tangential E condition at a conductor is more restrictive than at a general dielectric interface."
 
-- question: "Boundary conditions are separate postulates that must be added to Maxwell's equations — they contain physical information that Maxwell's equations alone do not capture."
+- question: "Boundary conditions are separate postulates that should be added to Maxwell's equations — they contain physical information that Maxwell's equations alone do not capture."
   type: true-false
   answer: false
   explanation: "Boundary conditions are *derived from* Maxwell's equations — they are what Maxwell's equations say in the limiting case where the integration region is a thin pillbox or loop at an interface. Applying Gauss's law to an infinitesimally thin pillbox gives the normal component conditions; applying Faraday's and Ampère's laws to a thin rectangular loop gives the tangential conditions. They introduce no independent physical postulates — they are Maxwell's equations applied at boundaries."

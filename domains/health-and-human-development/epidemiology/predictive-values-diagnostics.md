@@ -45,7 +45,7 @@ Positive predictive value (PPV) is the probability a positive test result indica
   answer: 1
   explanation: "Low PPV in population screening is mathematically inevitable and clinically acceptable. Screening applies a test to a low-prevalence population to catch disease before symptoms, accepting false positives as the cost of not missing true cases. The standard response is two-stage design: positive screens advance to a more specific confirmatory test applied to a population now enriched for disease (high effective prevalence), yielding high PPV at the confirmation stage. Abandoning the program because of low first-stage PPV misunderstands the design intent of screening."
 
-- question: "A test with 99% sensitivity and 99% specificity will always have a PPV above 90% in any clinical setting where it is applied."
+- question: "A test with 99% sensitivity and 99% specificity will generally have a PPV above 90% in any clinical setting where it is applied."
   type: true-false
   answer: false
   explanation: "PPV depends on prevalence, not just test characteristics. As shown by the Bayesian calculation, a 99%/99% test applied to a population with 1-in-1,000 prevalence has PPV ≈ 9%. The test's technical performance is excellent, but when false positives from 999 healthy people outnumber true positives from 1 diseased person, most positive results are false. PPV can range from near 0% (very low prevalence) to near 100% (very high prevalence) for the same test. Treating sensitivity and specificity as 'accuracy' is the most dangerous misconception in diagnostic test interpretation."

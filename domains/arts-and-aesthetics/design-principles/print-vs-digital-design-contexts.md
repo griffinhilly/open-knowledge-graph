@@ -64,7 +64,7 @@ Take the same content (e.g., a brand one-pager) and design it as both a print PD
   answer: 1
   explanation: "The fundamental material difference is permanence and fixed vs. fluid dimensions. A printed booklet is locked to a physical size; a website must respond to screens from phone to widescreen monitor. Digital also introduces interactive states, hover effects, loading behavior, responsive breakpoints, and accessibility concerns — none of which have print analogues. The same visual principles apply, but the production realities demand different files entirely."
 
-- question: "A design that looks polished and complete on screen will transfer to print with only minor adjustments, since the underlying visual principles are the same."
+- question: "A design that looks polished and complete on screen will transfer to print with primarily minor adjustments, since the underlying visual principles are the same."
   type: true-false
   answer: false
   explanation: "This is the central misconception the topic addresses. The same visual principles (hierarchy, balance, color relationships) apply to both, but the material constraints differ enough to require explicit rethinking: color mode must shift from RGB to CMYK, resolution must increase from screen to 300 DPI, layout must shift from fluid to fixed with bleed and trim marks, and all interactivity is lost. These are systematic failures, not minor tweaks."

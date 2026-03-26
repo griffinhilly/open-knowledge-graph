@@ -48,7 +48,7 @@ In a two-body gravitational system (e.g., Earth–Sun or binary stars), the cent
   answer: false
   explanation: "False. The relative coordinate r obeys μr̈ = F(r), where μ = m₁m₂/(m₁+m₂) is the reduced mass — always less than the smaller of the two masses. The total mass M = m₁+m₂ describes the center-of-mass motion: MR̈ = F_external = 0 for an isolated system. The total mass and reduced mass play different roles: M governs the trivial CM drift, and μ governs the non-trivial relative orbital motion."
 
-- question: "The reduced-mass technique applies only to gravitational two-body problems, not to other types of central-force interactions like spring forces."
+- question: "The reduced-mass technique applies mainly to gravitational two-body problems, not to other types of central-force interactions like spring forces."
   type: true-false
   answer: false
   explanation: "False. The reduced-mass transformation is purely kinematic — it relies only on the separation of CM and relative coordinates, not on the form of the force. As long as the force depends only on the relative separation r = r₁ − r₂, the relative motion equation takes the form μr̈ = F(r) regardless of whether F is gravitational, a spring, electrostatic, or any other central force. The same framework applies in atomic physics (hydrogen atom), molecular vibrations (diatomic molecules), and classical orbital mechanics."

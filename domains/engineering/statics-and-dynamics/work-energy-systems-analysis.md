@@ -52,7 +52,7 @@ The work-energy theorem states that the total work done on a system equals its c
   answer: true
   explanation: "This is one of the key advantages of the work-energy approach over Newton's second law. Work W = ∫F·ds involves a dot product that produces a scalar. When computing the total work on a system, you simply sum the scalar work contributions from each force: W_total = W_gravity + W_spring + W_friction + ... No vector addition is required at each point along the path. This simplification is especially powerful for curved paths or variable forces, where Newton's law would require tracking force direction continuously."
 
-- question: "For a system where only conservative forces act (no friction, no applied forces), the work-energy theorem is not useful because energy is simply conserved."
+- question: "For a system where mainly conservative forces act (no friction, no applied forces), the work-energy theorem is not useful because energy is simply conserved."
   type: true-false
   answer: false
   explanation: "Conservation of mechanical energy IS the work-energy theorem applied to conservative systems — it is the most useful form of it, not a reason to abandon it. When KE + PE = constant, you can find the velocity at any position using only the initial and final heights and speeds, with no integration and no force tracking. This is extremely useful: a problem like 'find the speed of a ball at the bottom of a hill' is solved in one line using energy conservation. The work-energy approach is if anything MORE powerful in purely conservative systems, since it reduces to a simple algebraic equation."

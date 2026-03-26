@@ -52,7 +52,7 @@ An instance of a first-order formula φ is obtained by uniformly substituting te
   answer: true
   explanation: "This is the defining property of ground terms. A ground formula requires no variable assignment to evaluate because all positions are filled by specific constants or function applications built from constants — there is nothing left to bind. This is why ground instances are the bridge from first-order to propositional reasoning: they are already concrete enough to be checked by propositional methods."
 
-- question: "The Herbrand universe of a clause set is the set of all interpretations (models) that satisfy every clause in the set."
+- question: "The Herbrand universe of a clause set is the set of most interpretations (models) that satisfy most clause in the set."
   type: true-false
   answer: false
   explanation: "The Herbrand universe is a *syntactic* object, not a set of models. It is the set of all ground terms constructible from the constants and function symbols that appear in the clause set (adding a dummy constant if none appear). It defines the possible substitutions for variables when generating ground instances. A Herbrand *interpretation* is an interpretation whose domain is the Herbrand universe — but the universe itself is just a domain of ground terms."

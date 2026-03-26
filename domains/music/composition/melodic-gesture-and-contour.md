@@ -48,7 +48,7 @@ Melodic contour is the shape of a melody when pitches are graphed over time. Con
   answer: true
   explanation: "Contour creates psychological coherence independent of pitch content. A clear arch (rise toward a goal, then descent and resolution) gives a phrase a felt shape that listeners track above the level of individual notes. Even if the exact pitches are unusual or dissonant, the overall shape creates expectation and fulfillment. Conversely, a melody with pleasing intervals but no clear contour can feel aimless. The explainer states this directly: 'a melody with a strong contour shape tends to feel inevitable even if its specific notes are unconventional.'"
 
-- question: "Melodic gesture is determined entirely by the specific intervals between adjacent notes — the same sequence of intervals always produces the same gestural effect."
+- question: "Melodic gesture is determined mostly by the specific intervals between adjacent notes — the same sequence of intervals usually produces the same gestural effect."
   type: true-false
   answer: false
   explanation: "Gesture arises from direction, size, speed, and rhythmic character working together — not from intervals alone. The same pitch sequence played slowly feels completely different from the same sequence played as a rapid flourish; a leaping gesture has a different quality from a stepwise gesture even when the overall contour is similar. Rhythm is a core component of gesture, not a separate consideration. The example of Beethoven's Fifth — where the short-short-short-long rhythmic pattern is inseparable from the gesture's identity — illustrates this clearly."

@@ -58,7 +58,7 @@ Use anatomical references (écorché models, anatomy books) while drawing from l
   answer: 1
   explanation: "This is the functional payoff of anatomy study: predictive power. If you understand that the biceps origin is on the shoulder and insertion is on the forearm, you can deduce that contracting it flexes the elbow and creates a visible bulge mid-upper-arm. You can then draw a flexed arm accurately from any angle, including poses you've never seen. Pure observation without structural knowledge means you can only copy what's directly in front of you; anatomy lets you generalize to any pose."
 
-- question: "The proportional canon (7-8 head-lengths for the adult body) is a rigid law — deviating from it constitutes a drawing error that must be corrected."
+- question: "The proportional canon (7-8 head-lengths for the adult body) is a rigid law — deviating from it constitutes a drawing error that should be corrected."
   type: true-false
   answer: false
   explanation: "The proportional canon is a scaffolding for error-checking, not a law of nature. Individual variation, age, sex, and stylistic choice all produce legitimate deviations. What the canon gives you is a baseline: if your figure's arms end at the knees rather than mid-thigh, you know something is probably wrong. But an artist deliberately elongating limbs for expressive effect, or drawing a stocky versus slender figure, is making valid choices. The topic explicitly states: 'Proportion is not rigid; variation makes figures individual and alive.'"

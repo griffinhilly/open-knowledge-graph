@@ -50,7 +50,7 @@ Backtracking is a depth-first search strategy that explores solution space, undo
   answer: true
   explanation: "This is the defining efficiency gain of backtracking. By checking constraints at each step, the algorithm detects infeasible partial solutions early and prunes entire subtrees from consideration. A brute-force approach generates all complete assignments and checks each one — exponential in the number of variables. Backtracking avoids enumerating every extension of a failed partial assignment."
 
-- question: "Constraint propagation in backtracking only updates the domain of the variable currently being assigned; it leaves all other variables' domains unchanged."
+- question: "Constraint propagation in backtracking mainly updates the domain of the variable currently being assigned; it leaves most other variables' domains unchanged."
   type: true-false
   answer: false
   explanation: "Constraint propagation does the opposite: when you assign a value to one variable, it removes that value — and any values made illegal by the assignment — from the domains of all constrained neighbor variables. This forward propagation can eliminate values from many variables simultaneously, detecting future failures early without even trying to assign those variables. If propagation reduces a neighbor's domain to zero values, the algorithm backtracks immediately."

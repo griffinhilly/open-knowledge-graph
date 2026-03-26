@@ -51,7 +51,7 @@ Draw energy grade lines (EGL) and hydraulic grade lines (HGL) on pipe system ske
   answer: 1
   explanation: "The HGL represents z + P/(ρg) — the sum of elevation and pressure head. When the HGL drops below the pipe centerline, P/(ρg) is negative at that elevation, meaning gauge pressure is below atmospheric. Physically, the fluid is being 'pulled' into tension. If the pressure drops to the vapor pressure of the liquid, cavitation occurs — vapor bubbles form and collapse violently, causing noise, erosion, and loss of pumping capacity. This is why engineers check HGL position when designing pipe systems at high elevations."
 
-- question: "The hydraulic grade line (HGL) and energy grade line (EGL) are always parallel to each other along a pipe because both represent forms of energy conservation."
+- question: "The hydraulic grade line (HGL) and energy grade line (EGL) are generally parallel to each other along a pipe because both represent forms of energy conservation."
   type: true-false
   answer: false
   explanation: "The EGL and HGL differ by exactly the velocity head V²/(2g). They are parallel only when velocity is constant along the pipe (constant cross-section). Wherever the pipe changes diameter, velocity changes, so the gap between EGL and HGL changes — they diverge or converge. At a constriction (higher velocity), the HGL drops closer to the EGL; at an expansion (lower velocity), the HGL rises toward the EGL. Thinking they are always parallel leads to errors in pressure prediction."

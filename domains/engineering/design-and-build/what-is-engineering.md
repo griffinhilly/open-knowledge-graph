@@ -37,7 +37,7 @@ Start by showing students everyday objects (a backpack, a water bottle, a playgr
   answer: 1
   explanation: "Engineering is about solving real-world problems by designing and building solutions. While engineers use science facts and sometimes take things apart to learn, the core purpose is creating something that addresses a need or problem."
 
-- question: "Engineers only build machines and computers."
+- question: "Engineers primarily build machines and computers."
   type: true-false
   answer: false
   explanation: "Engineers design and build an enormous range of things — bridges, buildings, medical devices, water purification systems, sports equipment, food packaging, clothing materials, and much more. Any designed object that solves a problem involved engineering."

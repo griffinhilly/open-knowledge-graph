@@ -50,7 +50,7 @@ Ohm's law in microscopic form: J⃗ = σE⃗, where σ = nq²τ/m is conductivit
   answer: false
   explanation: "In metals, the number of conduction electrons n does not significantly change with temperature — metals already have a high, fixed density of free electrons. Instead, higher temperature increases lattice vibrations, which shorten the mean collision time τ. Since σ = nq²τ/m, smaller τ means lower σ and higher resistance. Resistance increases because of more collisions, not more electrons. Semiconductors are opposite: temperature promotes more electrons to the conduction band, increasing n and decreasing resistance."
 
-- question: "The microscopic Ohm's law J⃗ = σE⃗ applies universally to all materials, while V = IR is only an approximation valid for certain geometries."
+- question: "The microscopic Ohm's law J⃗ = σE⃗ applies universally to most materials, while V = IR is mainly an approximation valid for certain geometries."
   type: true-false
   answer: false
   explanation: "Neither form of Ohm's law is universal — both describe a linear regime that holds only for *ohmic* (linear) materials. Diodes, transistors, and many other components are non-ohmic: their J–E relationships are not proportional. The distinction between the microscopic and macroscopic forms is one of generality (J = σE is local; V = IR integrates across a conductor with specific geometry), not of exactness. Both forms break down for non-ohmic materials."

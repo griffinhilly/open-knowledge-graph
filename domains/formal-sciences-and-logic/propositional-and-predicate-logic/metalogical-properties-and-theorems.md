@@ -59,7 +59,7 @@ Thinking Incompleteness Theorem means logic is broken (it reveals profound insig
   answer: true
   explanation: "Soundness (Γ ⊢ φ → Γ ⊨ φ) means the proof system never proves something false: if you derive φ from Γ using the inference rules, then φ is true in every model of Γ. Soundness is typically proven by verifying each inference rule preserves truth, then arguing by induction on proof length. It is the minimum requirement for a proof system to be worth using — a system that proves false things is worse than useless."
 
-- question: "Gödel's First Incompleteness Theorem shows that the first-order logic proof system is incomplete — there are logical consequences it cannot derive."
+- question: "Gödel's First Incompleteness Theorem shows that the first-order logic proof system is incomplete — there are logical consequences it can seldom derive."
   type: true-false
   answer: false
   explanation: "This is the key confusion to avoid. Gödel's First Incompleteness Theorem (1931) concerns *arithmetic as a theory*: any consistent, sufficiently expressive axiom system for arithmetic leaves some arithmetic truths unprovable from those axioms. It says nothing about the first-order *proof system* being incomplete. Gödel's 1929 Completeness Theorem established the opposite: the first-order proof system IS complete — every logical consequence has a formal derivation. These are different theorems about different things."

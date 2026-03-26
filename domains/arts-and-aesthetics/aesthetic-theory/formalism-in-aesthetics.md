@@ -54,7 +54,7 @@ Formalism (Bell, Fry, Greenberg) argues that aesthetic value lies in pure formal
   answer: true
   explanation: "This is the formalist case for modernism and abstraction. If aesthetic value lies in formal properties, then representational content is at best irrelevant and at worst a distraction that pulls viewers into ordinary emotional responses rather than aesthetic ones. Abstract work — which eliminates representation — can be seen as presenting significant form without the interference of subject matter. Greenberg later extended this argument to claim each medium should explore its own unique formal properties."
 
-- question: "A painting depicting a battle scene and a painting depicting a flower arrangement can never have equal aesthetic value, because the greater emotional significance of the battle content elevates its aesthetic worth."
+- question: "A painting depicting a battle scene and a painting depicting a flower arrangement can rarely have equal aesthetic value, because the greater emotional significance of the battle content elevates its aesthetic worth."
   type: true-false
   answer: false
   explanation: "This reverses formalism's central claim. For Bell and Fry, subject matter is aesthetically irrelevant. The aesthetic value of each painting depends entirely on its formal properties — line, color, composition, spatial relationships. If the battle painting and the flower painting share the same dynamic compositional structure and formal qualities, they share the same aesthetic value. Emotional responses to 'what it depicts' are not aesthetic responses at all."

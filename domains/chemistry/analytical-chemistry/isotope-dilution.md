@@ -59,7 +59,7 @@ Spike a biological sample with a deuterium-labeled internal standard, carry it t
   answer: true
   explanation: "This is the defining property of IDMS. Full equilibration ensures that labeled and native analyte enter every separation and cleanup step as a uniform mixture. Whatever fraction is lost, it is the same fraction for both species, leaving the ratio unchanged. The ratio encodes concentration without depending on how much was recovered."
 
-- question: "Isotope dilution mass spectrometry eliminates all sources of analytical error, making it an absolute measurement that requires no calibration."
+- question: "Isotope dilution mass spectrometry eliminates most sources of analytical error, making it an absolute measurement that requires no calibration."
   type: true-false
   answer: false
   explanation: "IDMS is extraordinarily accurate but not error-free. Its self-correcting property only works if the spike is fully equilibrated with the native analyte before any separation. If the native analyte is protein-bound while the spike is free in solution, they will not experience the same losses, biasing the ratio. Additionally, deuterium isotope effects can introduce chromatographic artifacts. IDMS is designated a definitive method because its errors are small and well-characterized — not because they are zero."

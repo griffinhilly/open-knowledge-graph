@@ -53,7 +53,7 @@ Join dependencies generalize functional and multivalued dependencies to cases wh
   answer: true
   explanation: "Correct. 5NF is defined precisely as the condition where every join dependency is implied by the table's candidate keys. A join dependency implied by a key is trivial — it doesn't represent redundancy because the key already uniquely determines the other attributes. If all non-trivial join dependencies have been eliminated through decomposition, the resulting projections store independent facts and no redundant rows remain. 5NF is the theoretical endpoint of lossless decomposition."
 
-- question: "If a table satisfies 5NF, it is always practical to use that schema in a production database without further consideration."
+- question: "If a table satisfies 5NF, it is typically practical to use that schema in a production database without further consideration."
   type: true-false
   answer: false
   explanation: "False. Reaching 5NF often requires decomposing a table into three or more projections. Reconstructing data then requires multi-way joins, which can be computationally expensive. In practice, most databases deliberately stop at BCNF or 4NF because: (1) 5NF violations are rare in typical business data; (2) detecting join dependencies requires domain knowledge about business rules, not just data inspection; (3) the performance cost of extra joins often outweighs the benefit of eliminating subtle redundancy."

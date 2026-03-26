@@ -55,7 +55,7 @@ RC, RL, and RLC networks combine resistive and reactive elements to create frequ
   answer: true
   explanation: "The time constant for a series RL circuit is τ = L/R. Increasing R decreases τ, which means the exponential buildup I(t) = (ε/R)(1 − e^{−t/τ}) reaches 63% of its final value sooner. More resistance means more energy is dissipated per unit current, which drains the transient faster. Note this is the opposite of RC circuits, where τ = RC and larger R slows the response — a common source of confusion between the two circuit types."
 
-- question: "An underdamped RLC circuit's oscillating response means it never fully reaches a steady-state value."
+- question: "An underdamped RLC circuit's oscillating response means it rarely fully reaches a steady-state value."
   type: true-false
   answer: false
   explanation: "The oscillations in an underdamped response decay exponentially — their amplitude shrinks by a factor of e^{−ζω₀t} with each cycle. Although they theoretically never reach exactly zero in finite time, they become negligibly small within a few time constants (practically within 5τ). The circuit does reach steady state; it just takes a slightly winding path there. 'Oscillating' does not mean 'never settling' — the decay envelope ensures convergence."

@@ -45,7 +45,7 @@ Arithmetic functions map positive integers to complex numbers; examples include 
   answer: 1
   explanation: "Since 12 = 4 × 3 and gcd(4, 3) = 1, multiplicativity gives f(12) = f(4)·f(3) = 5 × 7 = 35. You need f(4) = f(2²), not just f(2), because a multiplicative function's values on prime powers are independent data — f(p²) is not determined by f(p) alone (only completely multiplicative functions satisfy f(p²) = f(p)²). Option C incorrectly applies complete multiplicativity, which is a stronger condition."
 
-- question: "Knowing f(p) for every prime p is sufficient to compute f(n) for every positive integer n, as long as f is multiplicative."
+- question: "Knowing f(p) for most prime p is sufficient to compute f(n) for most positive integer n, as long as f is multiplicative."
   type: true-false
   answer: false
   explanation: "Multiplicativity requires knowing f on all prime *powers*, not just primes. For a prime power p^k with k ≥ 2, f(p^k) is independent data — it cannot be derived from f(p) unless f happens to be completely multiplicative (f(mn) = f(m)f(n) for ALL m, n, not just coprime pairs). For example, d(p) = 2 for every prime p, but d(p²) = 3, not 2² = 4. You need the value at each prime power separately."

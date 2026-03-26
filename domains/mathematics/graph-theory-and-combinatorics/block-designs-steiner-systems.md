@@ -47,7 +47,7 @@ A (v,k,λ)-design is a collection of k-element subsets (blocks) of a v-set such 
   answer: true
   explanation: "This follows from the 'balanced' condition by a straightforward counting argument. Since every pair of points appears in exactly λ blocks, and any fixed point forms pairs with (v−1) other points, the total number of (point, block) incidences for that point is λ(v−1). Since each block containing the point contributes k−1 such pairs, the replication number r = λ(v−1)/(k−1) is the same for every point. The design is balanced with respect to individual points as well as pairs, which is what makes BIBDs useful in experimental design: every treatment receives equal representation."
 
-- question: "If a parameter set (v, k, λ) satisfies all necessary divisibility conditions, a balanced incomplete block design with those parameters is guaranteed to exist."
+- question: "If a parameter set (v, k, λ) satisfies most necessary divisibility conditions, a balanced incomplete block design with those parameters is very likely to exist."
   type: true-false
   answer: false
   explanation: "The necessary conditions — λ(v−1) divisible by k−1, λv(v−1) divisible by k(k−1), Fisher's inequality b ≥ v — are required for existence but not sufficient. The existence question for specific parameters is often a deep open problem. There exist parameter sets satisfying all necessary conditions for which no design exists, demonstrated only by non-existence proofs (often using eigenvalue methods or algebraic constraints on the incidence matrix). Existence typically requires an explicit construction; the gap between necessary and sufficient conditions is central to the theory."

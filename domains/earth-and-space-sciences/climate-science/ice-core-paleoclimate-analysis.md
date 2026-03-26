@@ -55,7 +55,7 @@ Ice cores are not infinitely precise; dating uncertainty and layer-counting ambi
   answer: 2
   explanation: "Ice cores do preserve ancient CO₂ (answer A is wrong). Bubble contamination is a minor, quantifiable concern, not a fundamental limitation (B is overstated). Correlation does not establish causation (D is wrong). The key issue is that in Antarctic records, Antarctic temperature often leads CO₂ slightly at glacial terminations, suggesting CO₂ amplifies but may not initiate warming. Careful phase analysis and dating uncertainty are required before inferring causation."
 
-- question: "δ¹⁸O in ice cores is a pure temperature proxy, entirely unaffected by factors such as moisture source or the pathway precipitation takes from ocean to ice sheet."
+- question: "δ¹⁸O in ice cores is a pure temperature proxy, largely unaffected by factors such as moisture source or the pathway precipitation takes from ocean to ice sheet."
   type: true-false
   answer: false
   explanation: "This is a key limitation stated in the Common Misconceptions. The δ¹⁸O signal reflects Rayleigh distillation, which depends on the moisture source region, the trajectory of air masses, and the degree of rainout along the path — not just the temperature at the deposition site. A shift in storm tracks or moisture sources can change δ¹⁸O independent of local temperature, complicating paleoclimate interpretation."

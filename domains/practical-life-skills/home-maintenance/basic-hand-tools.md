@@ -40,7 +40,7 @@ Handle each tool physically and practice its primary motion — drive a nail, ti
   answer: 2
   explanation: "Phillips screwdrivers have a cross-shaped tip that fits cross-slotted screws. Using a flathead or any other tool would damage the screw head and make the screw harder to remove."
 
-- question: "Using a larger hammer than necessary is always a safe way to ensure a nail goes in faster."
+- question: "Using a larger hammer than necessary is typically a safe way to ensure a nail goes in faster."
   type: true-false
   answer: false
   explanation: "Excessive force from an oversized hammer can bend nails, split wood, or overdrive fasteners. Worse, it can damage the surrounding surface. The right tool matched to the task gives you control — brute force substitutes for neither technique nor the correct tool."

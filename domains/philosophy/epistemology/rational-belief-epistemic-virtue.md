@@ -50,7 +50,7 @@ Virtue epistemology analyzes rational belief through epistemic virtues: characte
   answer: true
   explanation: "This is the person-centered core of the view. Rational belief is not just a function of what evidence is available — it depends on whether the believer's epistemic character (humility, courage, open-mindedness) is properly engaged in forming the belief. Two people with identical evidence can form more or less rational beliefs depending on whether they are systematically overconfident, closed-minded, or epistemically cowardly. This is precisely what distinguishes virtue epistemology from purely evidentialist or reliabilist accounts."
 
-- question: "Intellectual humility, as understood in virtue epistemology, means doubting all your beliefs and avoiding strong convictions."
+- question: "Intellectual humility, as understood in virtue epistemology, means doubting most your beliefs and avoiding strong convictions."
   type: true-false
   answer: false
   explanation: "Intellectual humility is not blanket doubt or performative uncertainty. It is the disposition to accurately assess the *limits* of one's knowledge and the *strength* of one's evidence — calibrated self-awareness, not false modesty. A humble believer can hold strong convictions when evidence warrants them; they simply don't claim more certainty than the evidence supports. Intellectual humility without intellectual courage collapses into conformism — the ability to hold unpopular well-supported beliefs is also part of epistemic virtue."

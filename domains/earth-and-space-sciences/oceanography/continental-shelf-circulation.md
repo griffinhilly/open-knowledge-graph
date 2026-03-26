@@ -61,7 +61,7 @@ Shelf circulation is not always wind-dominated; density effects and river discha
   answer: false
   explanation: "This is a common misconception. While the shelf break front (where lighter shelf water meets denser slope water) inhibits continuous direct exchange, water mass exchange does occur — through intermittent processes including eddies spinning off from boundary currents, wind-driven upwelling events drawing slope water onto the shelf, and dense water cascading off the shelf during winter cooling. These exchanges are critical for nutrient supply to shelf ecosystems, pollutant dispersal, and carbon export to the deep ocean. The shelf break is a partial barrier that shapes the character of exchange, not an absolute boundary."
 
-- question: "Continental shelf circulation is always dominated by wind forcing; density effects from river discharge and buoyancy are secondary factors that can usually be neglected."
+- question: "Continental shelf circulation is generally dominated by wind forcing; density effects from river discharge and buoyancy are secondary factors that can usually be neglected."
   type: true-false
   answer: false
   explanation: "The dominant forcing varies by shelf and season. On shelves with large river inputs — such as the Louisiana shelf influenced by the Mississippi River, or the East China Sea influenced by the Yangtze — buoyancy-driven circulation from freshwater discharge can rival or exceed wind-driven currents, especially in spring when river discharge peaks. Tidal mixing over shallow banks can also be the dominant dynamic structuring agent in regions like the North Sea or Georges Bank. Assuming wind dominance leads to systematic errors in predicting tracer transport, fisheries distributions, and hypoxia extent."

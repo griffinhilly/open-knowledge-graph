@@ -49,7 +49,7 @@ Build a library of known benchmarks (p-integrals, exponential decay). Practice b
   answer: 1
   explanation: "The Limit Comparison Test says: if lim f/g = L where 0 < L < ∞, then ∫f and ∫g share the same convergence behavior. Here L = 1, which is finite and positive, so the two integrals behave identically at infinity. Since ∫1/x⁴ converges (p-integral with p = 4 > 1), the original integral converges. The technique is to identify the dominant term in the denominator — here x⁴ — and use 1/x⁴ as the benchmark; the lower-order x + 1 terms become negligible as x → ∞."
 
-- question: "If 0 ≤ f(x) ≤ g(x) on [1,∞) and ∫₁^∞ g(x) dx diverges, then ∫₁^∞ f(x) dx must also diverge."
+- question: "If 0 ≤ f(x) ≤ g(x) on [1,∞) and ∫₁^∞ g(x) dx diverges, then ∫₁^∞ f(x) dx should also diverge."
   type: true-false
   answer: false
   explanation: "This reverses the valid direction of the test. The Direct Comparison Test transmits convergence downward (if the larger g converges, the smaller f must converge) and divergence upward (if the smaller f diverges, the larger g must diverge). A divergent upper bound proves nothing about the smaller function. Counterexample: 1/x² ≤ 1/x on [1,∞); ∫1/x diverges, yet ∫1/x² converges (p = 2 > 1)."

@@ -44,7 +44,7 @@ When a firm can vary multiple inputs (labor and capital), isoquants represent al
   answer: 2
   explanation: "Perfect substitutes have isoquants that are straight lines with constant (and negative) slope. The MRTS is constant — one robot always replaces exactly three workers regardless of how many of each are employed. This is the polar opposite of convex isoquants (where MRTS changes with the ratio) and L-shaped isoquants (perfect complements, where no substitution is possible). Real production processes almost never have perfect substitutes; this case sets an extreme benchmark."
 
-- question: "Isoquants slope downward because using more of one input reduces output, which must be offset by using more of the other input."
+- question: "Isoquants slope downward because using more of one input reduces output, which is expected to be offset by using more of the other input."
   type: true-false
   answer: false
   explanation: "Isoquants do slope downward, but not because using more of one input reduces output. Both labor and capital are productive — using more of either, holding the other constant, generally increases output. Isoquants slope downward because we are constraining output to be constant: if you gain more of one productive input, you can release some of the other and still produce the same amount. The downward slope reflects a trade-off between inputs, not a productivity penalty."

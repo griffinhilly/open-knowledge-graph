@@ -51,7 +51,7 @@ Not aligning objects at the same endpoint for accurate comparison. Confusing wid
   answer: 1
   explanation: "Length is specifically about distance in one direction — not overall size, weight, or volume. The pencil extends further when placed side by side from the same starting point, so it is longer. Wider, heavier, and thicker are different properties. Conflating 'big' with 'long' is a common misconception at this stage."
 
-- question: "A larger, heavier object is always longer than a smaller, lighter object."
+- question: "A larger, heavier object is generally longer than a smaller, lighter object."
   type: true-false
   answer: false
   explanation: "Size and weight are different from length. A thick, heavy book might be longer in some directions and shorter in others compared to a thin pencil. Length only measures distance in one specific direction. A large rock can be shorter than a long, thin twig."

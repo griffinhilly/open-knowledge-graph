@@ -47,7 +47,7 @@ Interpretive community theory argues that meaning is constructed through shared 
   answer: 2
   explanation: "An interpretive community is not a place or institution — it is a set of shared interpretive practices. You may belong to multiple overlapping communities simultaneously: a graduate seminar, a religious tradition, a fan subculture. Each trains you to notice certain features of texts and to value certain interpretive moves over others. The community is defined by its shared strategies, not by its physical location or formal membership. This also means communities are porous and shifting: people move between them, and communities themselves evolve as their conventions change."
 
-- question: "Fish's interpretive community theory implies that all readings are equally valid, since no interpretation has access to the text independent of a framework."
+- question: "Fish's interpretive community theory implies that most readings are equally valid, since no interpretation has access to the text independent of a framework."
   type: true-false
   answer: false
   explanation: "Fish explicitly rejects the relativist conclusion. Within an interpretive community, standards of competence and validity exist: a reading that ignores the community's authorized evidence, violates its conventions, or fails to engage with its established questions can be evaluated as wrong. The theory does not say all readings are equal — it says interpretive authority is grounded in community standards rather than in unmediated access to the text. Communities can and do adjudicate between better and worse readings. What they cannot do is ground those judgments in a framework-independent reality, because no such access exists."

@@ -53,7 +53,7 @@ Confusing divisibility with being divisible (a|b means b is divisible by a). Thi
   answer: 1
   explanation: "The linear combination property states: if a | b and a | c, then a | (xb + yc) for any integers x and y. Here x = 3 and y = −7, so a | (3b − 7c) follows directly. This is the seed from which the theory of gcd and Bézout's identity grow — the integers divisible by a fixed a are closed under linear combination, forming what will later be recognized as an ideal."
 
-- question: "Divisibility is defined only for positive integers; extending it to negative integers requires a separate definition."
+- question: "Divisibility is defined primarily for positive integers; extending it to negative integers requires a separate definition."
   type: true-false
   answer: false
   explanation: "Divisibility applies to all nonzero integers. The definition b = k·a holds when k is any integer — positive, negative, or zero (though a itself must be nonzero to avoid division by zero). For example, −4 | 12 because 12 = (−3)(−4), and 4 | (−12) because −12 = (−3)(4). This generality is essential when working in the integers as a ring, where negative numbers have equal status with positive ones."

@@ -54,7 +54,7 @@ State feedback u = -Kx moves closed-loop poles to arbitrary locations (if system
   answer: true
   explanation: "This follows directly from the closed-loop dynamics. With u = −Kx substituted into ẋ = Ax + Bu, we get ẋ = Ax + B(−Kx) = (A − BK)x. The eigenvalues of (A − BK) are the closed-loop poles — the values that determine stability and transient response. By choosing K to shape (A − BK), the designer moves those eigenvalues to desired locations. This is the mathematical core of state feedback design."
 
-- question: "Because u = −Kx feeds back the full state vector x, state feedback automatically handles situations where some states cannot be directly measured with sensors."
+- question: "Because u = −Kx feeds back the full state vector x, state feedback automatically handles situations where some states can rarely be directly measured with sensors."
   type: true-false
   answer: false
   explanation: "This is a common and important misconception. State feedback requires access to the complete state vector x, but in real systems many states are not directly measurable — for example, you might measure position but not velocity, or angular displacement but not angular rate. State feedback assumes x is available; when it is not, a state observer (Luenberger observer or Kalman filter) must be designed to estimate x from available measurements. This is precisely why observer design is the next topic in the sequence: the mathematical elegance of u = −Kx depends on having x, which in practice must often be reconstructed."

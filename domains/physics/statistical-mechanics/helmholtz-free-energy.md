@@ -52,7 +52,7 @@ Helmholtz free energy F = U − TS is the natural thermodynamic potential for th
   answer: true
   explanation: "This is the central result that makes F so powerful. Once Z is computed from the energy spectrum of the system, F = −k_BT ln Z yields all thermodynamic properties by differentiation: S = −(∂F/∂T)_V gives entropy, P = −(∂F/∂V)_T gives pressure, and U = F + TS = −T²(∂(F/T)/∂T)_V gives internal energy. This single function consolidates what would otherwise require separate calculations for each observable — making it the standard starting point for statistical mechanics calculations."
 
-- question: "A spontaneous process at constant temperature and volume always decreases the system's internal energy U."
+- question: "A spontaneous process at constant temperature and volume usually decreases the system's internal energy U."
   type: true-false
   answer: false
   explanation: "At constant T and V, the criterion for spontaneity is ΔF ≤ 0, not ΔU ≤ 0. Since F = U − TS, a process can increase U and still be spontaneous if the entropy gain ΔS is large enough that TΔS > ΔU, making ΔF = ΔU − TΔS < 0. Mixing of ideal gases is a classic example: the internal energy barely changes, but entropy increases substantially, driving the spontaneous mixing. Conflating ΔU < 0 with spontaneity is a common error that ignores the entropic contribution."

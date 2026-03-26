@@ -40,7 +40,7 @@ Match pictures of baby animals to their parents. Look at how puppies look like t
   answer: 2
   explanation: "A horse's baby (called a foal) will look like a small horse because baby animals are always the same kind of animal as their parents. Dogs have puppies, cats have kittens, horses have foals. Babies look like their parents."
 
-- question: "All baby animals can take care of themselves as soon as they are born."
+- question: "Most baby animals can take care of themselves as soon as they are born."
   type: true-false
   answer: false
   explanation: "Most baby animals need their parents to take care of them. Baby birds need their parents to bring them food. Baby mammals drink their mother's milk. Some baby animals, like sea turtles, are more independent, but most need help from their parents to survive."

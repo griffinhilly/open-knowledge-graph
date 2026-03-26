@@ -59,7 +59,7 @@ Analyze speeches that use personal narrative and identify elements of setup, con
   answer: false
   explanation: "This reverses the mechanism. Transportation suspends critical faculties — transported listeners are less likely to counterargue, generate objections, or scrutinize claims than listeners processing a direct argument. Arguments invite analysis ('Is that statistic reliable? Does the premise support the conclusion?'); stories invite absorption ('What happens next?'). The persuasive power of narrative comes precisely from bypassing the scrutiny that arguments face. This is not a weakness of audiences — it is how narrative engagement works — but it also explains why narrative can be used manipulatively."
 
-- question: "For a speaker to create audience identification with a narrative character, the character must closely resemble the audience in demographics, profession, or personal history."
+- question: "For a speaker to create audience identification with a narrative character, the character is expected to closely resemble the audience in demographics, profession, or personal history."
   type: true-false
   answer: false
   explanation: "Identification is produced by shared stakes, not shared demographics. Audiences identify with a character when they recognize an underlying human concern — security, fairness, belonging, achievement — regardless of surface differences. A corporate executive can identify with a child's story about wanting to belong; a young student can identify with an elderly person's fear of loss. Effective narrative persuasion designs the situation so the fundamental human tension is one the audience already knows from their own experience, independent of how different the character's circumstances appear."

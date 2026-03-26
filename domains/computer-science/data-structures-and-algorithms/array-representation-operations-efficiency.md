@@ -52,7 +52,7 @@ Implement insertion and deletion at different positions, measure performance, an
   answer: 2
   explanation: "Every element at indices 0 through 9999 must shift right by one to vacate index 0. This is O(n) in the worst case (insertion at position 0), and also O(n) on average for insertion at a random position (n/2 shifts). This is the direct cost of contiguous memory: creating a gap at any position requires moving everything after it. Linked lists avoid this by using pointers instead of adjacency."
 
-- question: "Appending to the end of a Python list (dynamic array) always takes O(n) time because the array may need to be resized."
+- question: "Appending to the end of a Python list (dynamic array) usually takes O(n) time because the array may need to be resized."
   type: true-false
   answer: false
   explanation: "Appending takes amortized O(1) time. When the array is full, it reallocates to a new block roughly twice as large and copies all n elements — that resize is O(n). But because capacity doubles, the next n appends each take O(1) with no copying. Spreading the O(n) resize cost over those n appends gives an amortized cost of O(1) per append. The occasional expensive resize does not change the long-run average."

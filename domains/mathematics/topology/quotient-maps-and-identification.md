@@ -47,7 +47,7 @@ A quotient map q: X → Y is a surjective function where Y carries the quotient 
   answer: 1
   explanation: "Identifying the endpoints of [0,1] produces a space homeomorphic to S¹ (the circle). Intuitively, the interval is 'bent' so its two ends meet at a single point, forming a loop. The quotient topology makes this rigorous: an open set in the quotient must have a preimage that is open in [0,1], and the neighborhoods of the identified endpoint must include open sets from both ends of the interval simultaneously — exactly the behavior of a neighborhood of a point on a circle."
 
-- question: "Every surjective continuous map from one topological space to another is a quotient map."
+- question: "Most surjective continuous map from one topological space to another is a quotient map."
   type: true-false
   answer: false
   explanation: "A continuous bijection that is not a homeomorphism provides a counterexample: the map f: [0,1) → S¹ given by f(t) = e^{2πit} is a continuous bijection, but its inverse is not continuous (the circle topology is 'finer' in the relevant sense). So f is surjective and continuous but not a quotient map — there are open sets in S¹ whose preimages are not open in [0,1). A quotient map requires the stronger condition: V is open in Y if AND ONLY IF f⁻¹(V) is open in X."

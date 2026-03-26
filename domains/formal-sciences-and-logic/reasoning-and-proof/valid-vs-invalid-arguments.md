@@ -44,7 +44,7 @@ Present pairs of arguments with the same premises but different conclusions, and
   answer: 1
   explanation: "Option B follows the structure: All A are B; X is A; therefore X is B. This is valid — if both premises are true, the conclusion must be true. Option A jumps from 'some' to 'all.' Option C affirms the consequent (the ground could be wet from a sprinkler). Option D uses 'most,' which does not guarantee the conclusion for any specific individual."
 
-- question: "A valid argument with false premises always produces a false conclusion."
+- question: "A valid argument with false premises usually produces a false conclusion."
   type: true-false
   answer: false
   explanation: "Validity guarantees that IF the premises are true, the conclusion is true. But when the premises are false, the conclusion can be either true or false — validity makes no promise either way. 'All prime numbers are even. 4 is prime. Therefore 4 is even.' Both premises are false, but the conclusion happens to be true. The argument is valid (the structure is correct) but not sound."

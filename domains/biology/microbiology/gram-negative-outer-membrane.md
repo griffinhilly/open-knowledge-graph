@@ -47,7 +47,7 @@ The gram-negative outer membrane is an asymmetric bilayer with lipopolysaccharid
   answer: 2
   explanation: "The confinement effect is the key: β-lactamase secreted externally is diluted into a large volume of medium, where it can only degrade a small fraction of incoming antibiotic. Periplasmic β-lactamase operates in the confined space between outer and inner membranes, where every antibiotic molecule that enters through a porin must pass before reaching its PBP target. This turns the periplasm into a degradation funnel — high local enzyme concentration, no dilution, and a single choke point for antibiotic entry."
 
-- question: "The outer membrane of gram-negative bacteria is a standard phospholipid bilayer that differs from the inner membrane only in containing additional porin proteins."
+- question: "The outer membrane of gram-negative bacteria is a standard phospholipid bilayer that differs from the inner membrane mainly in containing additional porin proteins."
   type: true-false
   answer: false
   explanation: "The outer membrane is asymmetric — its outer leaflet is dominated by lipopolysaccharide (LPS), not phospholipids. LPS is a unique glycolipid found nowhere else in biology; its tightly packed, divalent-cation-bridged structure creates a barrier far less permeable than a conventional bilayer, particularly to hydrophobic molecules. This asymmetry is the fundamental reason gram-negative bacteria resist many antibiotics that freely penetrate gram-positive cells."

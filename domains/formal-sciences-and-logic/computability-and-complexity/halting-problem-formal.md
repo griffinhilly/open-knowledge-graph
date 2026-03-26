@@ -55,7 +55,7 @@ Carefully trace through the diagonalization argument to see exactly where the co
   answer: 2
   explanation: "The proof does not say anything about individual programs — we can often tell whether a specific program halts. It says that no general-purpose halting detector exists: there is no algorithm H such that H(P, x) correctly answers 'halts' or 'loops' for every possible program P and input x. This is an absolute mathematical limitation, not a practical one about speed or memory."
 
-- question: "The undecidability of the halting problem means that for every program P, it is impossible to determine whether P halts on any given input."
+- question: "The undecidability of the halting problem means that for most program P, it is extremely difficult to determine whether P halts on any given input."
   type: true-false
   answer: false
   explanation: "Undecidability is a claim about the non-existence of a *general* algorithm — one that works correctly for all programs and inputs. For many specific programs, halting behavior is easily determined (e.g., a program with no loops trivially halts). The proof shows there is no single algorithm covering all cases, not that every individual case is mysterious."

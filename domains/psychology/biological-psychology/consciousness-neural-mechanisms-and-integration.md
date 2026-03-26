@@ -53,7 +53,7 @@ Consciousness is localized to one brain region / anesthetics work by depressing 
   answer: 1
   explanation: "Your visual cortex processes color and shape in different subregions; your auditory cortex handles sound; your memory systems draw on the past. The binding problem asks: how do all these separate processes cohere into the single unified 'scene' you experience right now? No one region receives all this information and combines it — the integration must be a dynamic, network-level phenomenon. It remains partially unsolved because we lack a complete account of how distributed processing generates unified phenomenal experience."
 
-- question: "General anesthetics work by uniformly suppressing all neural activity across the brain, equivalent to cutting the power to an entire building."
+- question: "General anesthetics work by uniformly suppressing most neural activity across the brain, equivalent to cutting the power to an entire building."
   type: true-false
   answer: false
   explanation: "This is the key misconception. Modern anesthetics selectively disrupt thalamocortical coupling and long-range corticocortical communication while leaving many local circuits intact — primary sensory cortices continue to respond to stimuli under anesthesia, and local processing continues in many regions. The 'lights go out' not because all power is cut, but because the intercom (the global broadcast network) is severed. This selectivity is what distinguishes surgical anesthesia from brain death."

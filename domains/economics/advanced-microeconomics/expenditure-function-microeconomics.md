@@ -58,7 +58,7 @@ Confusing expenditure function with expenditure itself. Thinking the expenditure
   answer: true
   explanation: "These two functions are inverses of each other: e(p, v(p, m)) = m and v(p, e(p, u)) = u. The primal problem (maximize utility given income) and the dual problem (minimize expenditure given utility) yield the same underlying preference structure, just represented from opposite perspectives. Any welfare question you can answer with one representation you can answer with the other — the choice between them is purely a matter of mathematical convenience."
 
-- question: "Because achieving higher utility always requires more spending, the expenditure function is convex in u."
+- question: "Because achieving higher utility generally requires more spending, the expenditure function is convex in u."
   type: true-false
   answer: false
   explanation: "The expenditure function is non-decreasing in u (higher utility targets require at least as much spending), but the relevant convexity property is concavity in prices, not convexity in utility. The concavity in prices reflects the consumer's ability to substitute toward relatively cheaper goods when a price rises, which means expenditure does not rise as fast as a proportional price increase would suggest. The confusion between 'non-decreasing' and 'convex' is a common error."

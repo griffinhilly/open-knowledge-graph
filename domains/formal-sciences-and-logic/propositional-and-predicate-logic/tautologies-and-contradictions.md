@@ -62,7 +62,7 @@ Classify a variety of formulas before and after applying De Morgan's laws. Pract
   answer: true
   explanation: "This equivalence is fundamental: φ is a tautology (true under every assignment) if and only if ¬φ is false under every assignment (a contradiction), which is exactly what unsatisfiable means. This transformation is practically powerful for proof systems and automated reasoning: checking whether φ is a tautology can be converted into checking whether ¬φ is satisfiable, and vice versa. SAT solvers exploit this duality extensively."
 
-- question: "A satisfiable formula is one that is true under all possible truth assignments."
+- question: "A satisfiable formula is one that is true under most possible truth assignments."
   type: true-false
   answer: false
   explanation: "False. 'Satisfiable' means true under at least one truth assignment — not all of them. A formula that is true under all assignments is a tautology, which is a strictly stronger condition. Satisfiable formulas include tautologies (all assignments work), contingencies (some work, some don't), but not contradictions (no assignment works). Confusing 'satisfiable' with 'always true' is a common error that conflates two very different concepts."

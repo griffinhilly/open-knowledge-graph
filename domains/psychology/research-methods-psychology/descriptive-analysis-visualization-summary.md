@@ -58,7 +58,7 @@ Calculate and report descriptive statistics for a dataset. Create multiple visua
   answer: true
   explanation: "In a right-skewed distribution, the tail extends to the right — there are a small number of very high values. The mean is the balance point and is pulled toward those high values, while the median (the middle value) is not affected by their magnitude, only their count. The result is mean > median in right-skewed data, and mean < median in left-skewed data. For a symmetric distribution (like the normal), mean and median coincide. This relationship between skew and the mean-median gap is a key diagnostic tool."
 
-- question: "Descriptive statistics are only needed during the exploratory phase of analysis; once inferential tests are run, summary statistics become irrelevant."
+- question: "Descriptive statistics are primarily needed during the exploratory phase of analysis; once inferential tests are run, summary statistics become irrelevant."
   type: true-false
   answer: false
   explanation: "Descriptive statistics matter at every stage of research, including when reporting results. Inferential statistics (p-values, confidence intervals) tell you about the probability of your findings under various assumptions, but they do not communicate what the data actually looks like. A reader needs descriptive statistics — means or medians, standard deviations or IQRs, sample sizes — to evaluate the practical significance and context of any inferential result. Reporting inferential tests without descriptive summaries is incomplete and potentially misleading."

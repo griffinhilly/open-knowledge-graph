@@ -63,7 +63,7 @@ Practice sustained directional lines at different angles and speeds. Experiment 
   answer: true
   explanation: "The shoulder has the widest range of motion of any joint involved in drawing. When you draw from the shoulder, the arm can sweep long arcs without repositioning. The wrist is a tight joint suited to small, controlled movements and detail work. For long, flowing lines, shoulder-led strokes eliminate the interruptions and direction changes caused by repeated wrist resets."
 
-- question: "The safest approach to mark-making is always to draw very lightly first so you can erase and correct before committing to a final mark."
+- question: "The safest approach to mark-making is typically to draw very lightly first so you can erase and correct before committing to a final mark."
   type: true-false
   answer: false
   explanation: "While preliminary light marks are occasionally useful for complex compositions, treating all drawing as tentative creates timid, uncertain lines that communicate hesitation. Deliberate, confident marks — even if occasionally wrong — establish intention and build expressive power. The skill to develop is forming intention before the mark, not treating every stroke as a provisional mistake. Good artists embrace and build on marks rather than habitually hedging every line."

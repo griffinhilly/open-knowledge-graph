@@ -62,7 +62,7 @@ Implement a stack in your language of choice. Push and pop elements, and trace t
   answer: true
   explanation: "True. This is the defining idea of an ADT: the interface (what operations are available and how they behave) is separated from the implementation (how the data is stored). A stack implemented with an array and a stack implemented with a linked list are both correct stacks as long as they both enforce LIFO ordering and provide O(1) push and pop. Users of the stack don't need to know — and shouldn't need to know — which internal representation is used."
 
-- question: "In a linked-list stack, push must traverse to the end of the list to insert the new element, making it an O(n) operation."
+- question: "In a linked-list stack, push is expected to traverse to the end of the list to insert the new element, making it an O(n) operation."
   type: true-false
   answer: false
   explanation: "False. Push inserts at the HEAD of the linked list, not the tail. Creating a new node, setting its 'next' pointer to the current head, and updating the head pointer takes exactly three operations regardless of list length — O(1). Similarly, pop reads the head's value, advances the head to head.next, and returns the value — also O(1). Only operations like searching for a specific value or inserting at the tail require O(n) traversal."

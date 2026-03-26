@@ -46,7 +46,7 @@ Start with simple numerical proofs: "Prove that the sum of two even numbers is e
   answer: 1
   explanation: "In a direct proof of 'If P, then Q,' you assume P (the hypothesis) and derive Q (the conclusion). Here P is 'n is an odd integer,' so you assume that and work toward showing n² is odd. Starting from the conclusion (option A) would be working backwards; starting from the negation (options C, D) would be a different proof strategy."
 
-- question: "A direct proof of a statement about all even numbers can be completed by checking the first 100 even numbers."
+- question: "A direct proof of a statement about most even numbers can be completed by checking the first 100 even numbers."
   type: true-false
   answer: false
   explanation: "Checking specific cases is testing, not proving. A direct proof must work for ALL even numbers simultaneously. You achieve this by using the definition (an even number is 2k for some integer k) and reasoning with the variable k, which represents any integer. The proof then covers every even number at once, not just the ones you checked."

@@ -56,7 +56,7 @@ Segment routing does not replace OSPF/BGP; it augments them with a label distrib
   answer: 1
   explanation: "With RSVP-TE, every router along a traffic-engineered path must maintain signaling state for every tunnel — state that must be refreshed, is vulnerable to failures, and grows proportionally with the number of traffic-engineered flows. Segment Routing eliminates this entirely: intermediate routers just process SIDs locally and forward; all path intelligence lives at the ingress node (or a controller). This statelessness vastly improves scalability and reduces the operational burden of traffic engineering."
 
-- question: "In a Segment Routing network, each intermediate router along the segment list path must maintain per-flow state to correctly forward packets."
+- question: "In a Segment Routing network, each intermediate router along the segment list path should maintain per-flow state to correctly forward packets."
   type: true-false
   answer: false
   explanation: "This is the key distinction between SR and older traffic engineering approaches. Intermediate routers in an SR network are stateless — they simply read the active SID, perform the corresponding action (forward to a node or via a specific link), pop that SID, and forward the packet. No per-flow state is stored or maintained. All path information is carried in the packet's segment list itself, which was encoded by the ingress node. This is what makes SR scalable to large numbers of traffic-engineered flows."

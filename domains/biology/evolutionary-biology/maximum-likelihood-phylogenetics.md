@@ -52,7 +52,7 @@ Maximum likelihood phylogenetics finds the tree and evolutionary model that maxi
   answer: true
   explanation: "This is the Felsenstein pruning algorithm. At each internal node, you cannot observe the ancestral sequence directly, so you must average over all possible ancestral states. Each path through the tree — assigning specific nucleotides to all internal nodes — has a probability determined by the substitution model's rate matrix and the branch lengths. Summing these probabilities over all possible ancestral assignments gives the marginal likelihood of observing the tip nucleotides at that site, given the tree and model."
 
-- question: "The ML tree returned by phylogenetic software is guaranteed to be the tree with the highest possible likelihood across all possible topologies for the given alignment."
+- question: "The ML tree returned by phylogenetic software is very likely to be the tree with the highest possible likelihood across most possible topologies for the given alignment."
   type: true-false
   answer: false
   explanation: "There is no guarantee. Heuristic search explores only a fraction of tree space, moving from tree to tree by local rearrangements. It can get trapped in local optima — regions where no simple branch swap improves the likelihood, even though a better tree exists elsewhere in tree space. The returned tree has the highest likelihood found during the search, not the highest possible. This is why researchers often run multiple searches from different starting trees."

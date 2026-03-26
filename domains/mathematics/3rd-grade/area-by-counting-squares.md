@@ -64,7 +64,7 @@ Start with grid paper and have students draw and count squares inside shapes. Th
   answer: true
   explanation: "This is the definition of area measured in square centimeters. Each unit square has sides of 1 cm and covers 1 cm² of space. An area of 12 cm² means exactly 12 such squares fit inside the shape without gaps or overlaps. The number and the unit together tell the complete story."
 
-- question: "Two shapes with the same perimeter always have the same area."
+- question: "Two shapes with the same perimeter usually have the same area."
   type: true-false
   answer: false
   explanation: "Perimeter (the total boundary length) and area (the interior space) are independent measurements. A 1×5 rectangle has perimeter 12 and area 5; a 3×3 square also has perimeter 12 but area 9. Same perimeter, different area. Confusing the two is the most common misconception in early measurement."

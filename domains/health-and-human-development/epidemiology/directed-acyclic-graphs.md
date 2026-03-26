@@ -48,7 +48,7 @@ A directed acyclic graph (DAG) is a visual representation of causal assumptions 
   answer: 1
   explanation: "BP is a mediator on the causal path E → BP → CVD. Adjusting for a mediator blocks the indirect pathway, so the model captures only the direct effect of E on CVD via routes that do not go through BP. To estimate the total effect of exercise, BP should NOT be adjusted for. This is one of the most common mistakes in observational epidemiology: including every 'relevant' variable without asking whether a variable is a mediator, confounder, or collider in the DAG."
 
-- question: "In a DAG analysis, adjusting for more variables always provides a better causal estimate because each additional covariate removes another source of potential confounding."
+- question: "In a DAG analysis, adjusting for more variables generally provides a better causal estimate because each additional covariate removes another source of potential confounding."
   type: true-false
   answer: false
   explanation: "This is the central error DAGs are designed to prevent. Adjusting for a collider opens a spurious non-causal path, introducing bias. Adjusting for a mediator blocks the causal path you want to estimate. The correct adjustment set depends on the causal structure — the DAG — not on maximizing the number of covariates. 'Adjust for everything' is not a valid causal inference strategy; it can actively worsen estimates."

@@ -48,7 +48,7 @@ Read a complete recipe twice before touching any ingredients. Practice convertin
   answer: 2
   explanation: "Reading a recipe end-to-end before touching any ingredients — the mise en place mindset — reveals hidden requirements: a dough that needs 2 hours to rise, a sauce that starts before the main, an ingredient you need to marinate overnight. Discovering these mid-cook is a common cause of ruined dishes. The other options are secondary concerns at best."
 
-- question: "A recipe is a rigid formula — substituting one ingredient for another will always produce an inferior result."
+- question: "A recipe is a rigid formula — substituting one ingredient for another will typically produce an inferior result."
   type: true-false
   answer: false
   explanation: "Most recipes are templates that tolerate reasonable substitutions. Chicken thighs can often replace chicken breasts, chicken broth can replace vegetable broth in many dishes, and dried herbs can substitute for fresh (using about one-third the amount). Baking is more sensitive to exact ratios than stovetop cooking, but even there, many substitutions are well-documented. Understanding *why* each ingredient is in the recipe helps you judge when substitution is safe."

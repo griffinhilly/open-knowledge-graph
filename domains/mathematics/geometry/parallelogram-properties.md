@@ -60,7 +60,7 @@ Prove each property from the definition using diagonal-created triangles and alt
   answer: 2
   explanation: "Congruent diagonals is a property of rectangles, not of parallelograms in general. A parallelogram's diagonals always bisect each other (meeting at their mutual midpoints), but they are not necessarily the same length. To have congruent diagonals, a parallelogram must also have right angles — making it a rectangle. Students frequently assume congruent diagonals apply to all parallelograms, but this is the specific additional condition that defines rectangles within the parallelogram family. Similarly, perpendicular diagonals define rhombuses."
 
-- question: "In any parallelogram, the two diagonals are always congruent (equal in length) to each other."
+- question: "In any parallelogram, the two diagonals are generally congruent (equal in length) to each other."
   type: true-false
   answer: false
   explanation: "Congruent diagonals is a property of rectangles specifically — it requires that all angles be right angles. In a general parallelogram, the diagonals bisect each other (they meet at their mutual midpoints) but are not necessarily equal in length. You can verify this by drawing a very 'slanted' parallelogram where the two diagonals are visibly different lengths. This is one of the most persistent misconceptions because students conflate 'bisect each other' (always true) with 'are congruent' (only true for rectangles)."

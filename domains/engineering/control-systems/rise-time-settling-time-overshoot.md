@@ -50,7 +50,7 @@ Rise time, settling time, and overshoot are time-domain performance metrics. Ris
   answer: true
   explanation: "Percent overshoot depends only on ζ (via the formula %OS = 100·exp(−πζ/√(1−ζ²))), so changing ωn while holding ζ constant does not affect overshoot at all. Rise time tr ≈ (π − arccos ζ)/(ωn·√(1−ζ²)) is inversely proportional to ωn — doubling ωn halves the rise time. This approximate independence of the two parameters (overshoot controlled by ζ, speed controlled by ωn) is the core insight for second-order system design."
 
-- question: "A critically damped system (ζ = 1) responds more slowly than an overdamped system (ζ > 1) because higher damping always slows the response."
+- question: "A critically damped system (ζ = 1) responds more slowly than an overdamped system (ζ > 1) because higher damping generally slows the response."
   type: true-false
   answer: false
   explanation: "Counterintuitively, critical damping (ζ = 1) is actually the fastest non-overshooting response — it is faster than any overdamped system (ζ > 1). An overdamped system has two distinct real poles; as ζ increases beyond 1, one pole moves very close to the origin, creating a slow mode that drags out the response. Critical damping balances the two poles at the same location, giving the fastest approach to steady state without overshoot. This is why 'critically damped' is the design target when overshoot is forbidden."

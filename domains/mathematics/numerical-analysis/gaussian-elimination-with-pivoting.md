@@ -52,7 +52,7 @@ Gaussian elimination with partial (row) or complete (row and column) pivoting re
   answer: true
   explanation: "This is the crucial point of the topic. The condition number measures sensitivity of the solution to perturbations in the data — a well-conditioned system has a unique, stable solution. But Gaussian elimination without pivoting can still fail numerically by encountering a small pivot, amplifying floating-point rounding errors catastrophically even though the mathematical problem is perfectly well-posed. Condition number and pivot behavior are separate issues. Pivoting addresses the numerical algorithm's stability, not the problem's inherent sensitivity."
 
-- question: "Complete pivoting is always preferred over partial pivoting in practice because it provides a stronger stability guarantee."
+- question: "Complete pivoting is typically preferred over partial pivoting in practice because it provides a stronger stability guarantee."
   type: true-false
   answer: false
   explanation: "Despite its stronger theoretical guarantee, complete pivoting is rarely used in practice. It requires searching the entire remaining submatrix (O(n²) entries per step) rather than just one column (O(n) entries), and it also permutes column order, complicating the recovery of the solution. For virtually all problems in scientific computing, partial pivoting provides sufficient stability at much lower overhead. The better guarantee of complete pivoting does not justify its cost in practice — partial pivoting is the standard choice."

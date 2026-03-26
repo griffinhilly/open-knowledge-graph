@@ -46,7 +46,7 @@ Grammatical number marks quantification distinctions on nouns and their modifier
   answer: 0
   explanation: "Grammatical dual is a morphological category: the language has a distinct form (affix, stem change, or separate word paradigm) that is obligatorily used for exactly two referents, separate from both singular and plural forms. This is different from using the number word 'two' with a plural noun (as in English 'two cats') — in a dual language, using the plural form for two referents would be grammatically wrong, just as using plural for singular is wrong in English. The dual is a slot in the morphological system, not an optional emphasis marker."
 
-- question: "All human languages obligatorily distinguish singular from plural in their noun morphology, even if the specific forms differ from English."
+- question: "Most human languages obligatorily distinguish singular from plural in their noun morphology, even if the specific forms differ from English."
   type: true-false
   answer: false
   explanation: "This is false. Japanese, Mandarin, and many other languages do not obligatorily mark number on nouns. A Japanese noun like 猫 (neko, 'cat') is used whether one or many cats are meant — context and explicit quantifiers carry the information. This doesn't mean speakers can't distinguish one from many; it means the grammar does not grammaticalize that distinction in the morphology. The typological insight is that languages differ not just in *how* they mark number but in *whether* they obligatorily mark it at all."

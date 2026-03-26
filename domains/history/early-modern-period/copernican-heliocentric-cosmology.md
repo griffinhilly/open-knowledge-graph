@@ -52,7 +52,7 @@ Examine the mathematical advantages of heliocentric models by comparing epicycle
   answer: 1
   explanation: "In the heliocentric model, retrograde motion is a perspective effect: as faster-moving Earth overtakes a slower outer planet (like Mars or Jupiter), the outer planet appears to move backward against the fixed stars — just as a car you're passing appears to move backward relative to the road. This requires no epicycles; it emerges naturally from the geometry of orbits at different speeds. This elegant explanation was one of the most compelling mathematical advantages of Copernicus's model."
 
-- question: "Copernicus's original heliocentric model successfully eliminated all epicycles from planetary astronomy."
+- question: "Copernicus's original heliocentric model successfully eliminated most epicycles from planetary astronomy."
   type: true-false
   answer: false
   explanation: "Copernicus's model reduced the need for epicycles significantly by explaining retrograde motion geometrically, but it did not eliminate epicycles entirely. Copernicus retained circular orbits, and because planetary orbits are actually ellipses, some smaller epicycles were still needed to match observational data. It was Kepler's elliptical orbit laws (published 1609–1619) that finally eliminated the need for epicycles altogether."

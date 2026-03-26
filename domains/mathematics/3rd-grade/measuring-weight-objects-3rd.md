@@ -49,7 +49,7 @@ Weight can be measured in ounces, pounds, grams, or kilograms. Using a balance s
   answer: true
   explanation: "There are 1,000 grams in a kilogram, so a kilogram is 1,000 times heavier than a gram. The reference examples in this topic (paperclip ≈ 1 g, textbook ≈ 1 kg) are the standard anchor objects for developing unit intuition. Building these reference points — a few representative objects for each unit — is what allows you to judge whether a measurement is reasonable."
 
-- question: "You can always use any weight unit for any object, as long as you write the correct number — the unit itself doesn't matter."
+- question: "You can typically use any weight unit for any object, as long as you write the correct number — the unit itself doesn't matter."
   type: true-false
   answer: false
   explanation: "The unit matters because it determines whether the number is meaningful. Saying a baby weighs '3,628 grams' is technically accurate but impractical and harder to interpret than '8 pounds.' More importantly, using the wrong unit produces absurd numbers that signal a mistake — recording a bicycle as '5 grams' immediately reveals an error. Choosing the right unit is part of the measurement skill, not just a stylistic choice."

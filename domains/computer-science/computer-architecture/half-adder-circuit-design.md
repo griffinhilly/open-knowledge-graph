@@ -51,7 +51,7 @@ A half adder adds two single bits, producing sum (via XOR) and carry (via AND). 
   answer: false
   explanation: "The assignments are reversed. The XOR gate produces the sum bit — it outputs 1 exactly when the two inputs differ (one 1 and one 0), which matches the sum column of the addition truth table. The AND gate produces the carry bit — it outputs 1 only when both inputs are 1, which is the only case where a carry is generated (1+1=10)."
 
-- question: "A half adder is sufficient for the second-least-significant bit position (bit 1) of a multi-bit adder, since carries only propagate from that position forward."
+- question: "A half adder is sufficient for the second-least-significant bit position (bit 1) of a multi-bit adder, since carries primarily propagate from that position forward."
   type: true-false
   answer: false
   explanation: "Bit position 1 must accept a possible carry-out from bit position 0. A half adder has no carry-in input, so it cannot incorporate that carry — it would silently drop it, producing wrong results. Only the least significant bit (bit 0) can use a half adder; all higher positions require full adders that accept carry-in."

@@ -50,7 +50,7 @@ Compare American and European option prices on the same underlying using approxi
   answer: 1
   explanation: "For a deep-in-the-money put, the stock is near zero and intrinsic value is approximately K. At this point, further downside is limited (the stock can't fall below zero), but receiving K immediately earns interest. When interest rates are high, the present value of K received now versus at expiration is significant. The residual optionality (the stock recovering) is worth little since recovery from near-zero is unlikely. The rational investor weighs interest earned against optionality sacrificed."
 
-- question: "An American call option on a non-dividend-paying stock is always worth more than an otherwise identical European call, because the early exercise feature has positive value."
+- question: "An American call option on a non-dividend-paying stock is typically worth more than an otherwise identical European call, because the early exercise feature has positive value."
   type: true-false
   answer: false
   explanation: "For non-dividend-paying stocks, early exercise of an American call is never optimal — you always do better by selling the option than by exercising it. Therefore, the early exercise feature has zero value, and American and European calls on non-dividend stocks are priced identically. This is the key insight: having a right that you should never use adds nothing to the option's value."

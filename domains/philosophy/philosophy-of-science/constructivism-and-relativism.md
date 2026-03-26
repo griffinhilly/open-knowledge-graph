@@ -49,7 +49,7 @@ Social constructivism argues that scientific knowledge is not discovered but soc
   answer: true
   explanation: "This is the distinguishing claim of the strong programme (associated with David Bloor): that scientific knowledge, including what gets accepted as true or false, is causally explained by social factors — institutional authority, professional norms, power relations — rather than by the world itself. This is the 'relativistic edge' of constructivism. Weak constructivism, by contrast, accepts social influences on practice while allowing that the content of successful theories is constrained by mind-independent reality."
 
-- question: "Accepting that scientific observation is theory-laden commits one to strong constructivism and the view that science cannot achieve objective knowledge."
+- question: "Accepting that scientific observation is theory-laden commits one to strong constructivism and the view that science can rarely achieve objective knowledge."
   type: true-false
   answer: false
   explanation: "Theory-ladenness — the idea that what scientists observe is shaped by background theories, instruments, and concepts — is now mainstream in philosophy of science and accepted by many scientific realists. It does not entail strong constructivism. Realists can acknowledge that observations are theory-laden while still holding that our best theories are approximately true descriptions of a mind-independent world. Theory-ladenness is a claim about the epistemology of observation; strong constructivism is a much stronger claim about the metaphysics of scientific truth."

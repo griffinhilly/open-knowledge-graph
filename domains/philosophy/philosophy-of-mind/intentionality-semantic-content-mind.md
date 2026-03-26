@@ -54,7 +54,7 @@ Intentionality is the property of being about something—thoughts represent obj
   answer: true
   explanation: "This is exactly what the Twin Earth thought experiment demonstrates. Earth residents and Twin Earth residents have identical brain states when thinking 'water,' but their thoughts represent different substances (H₂O vs. XYZ) because they live in different environments. Content is partly constituted by the external environment, not fixed entirely by what is inside the head."
 
-- question: "Intentionality is a general property of all physical states — rocks, thermostats, and minds alike all 'point toward' things in some sense, so there is no special problem about how minds represent."
+- question: "Intentionality is a general property of most physical states — rocks, thermostats, and minds alike most 'point toward' things in some sense, so there is no special problem about how minds represent."
   type: true-false
   answer: false
   explanation: "The standard view is that thermostats and rocks have at most derived intentionality — they represent things only in the sense that we assign them that interpretation. A thermostat 'represents' temperature only because we designed and interpret it that way. Mental states are thought to have original or intrinsic intentionality: beliefs are about things not because someone else assigned them meaning but because of their own internal nature or environmental connections. Whether this distinction ultimately holds is debated, but it is the distinction that makes intentionality a special philosophical problem rather than a trivial feature of all physical systems."

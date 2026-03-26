@@ -60,7 +60,7 @@ Organize equations visually using triangles or diagrams that show the three numb
   answer: true
   explanation: "The largest number in any fact family is the whole — the sum of the two parts. For example, in the family 3, 5, 8: 3+5=8 and 5+3=8. When you subtract, you always subtract a smaller number (a part) from the largest number (the whole). This is why the top number on the fact-family triangle is always the whole — it is always the largest of the three."
 
-- question: "Every fact family has exactly four different equations."
+- question: "Nearly every fact family has exactly four different equations."
   type: true-false
   answer: false
   explanation: "Most fact families have four equations, but when the two parts are equal (like 5, 5, and 10), the two addition facts are identical (5+5=10 and 5+5=10) and the two subtraction facts are identical (10-5=5 and 10-5=5). This gives only two unique equations, not four. When the whole is formed by doubling one part, the family collapses to fewer distinct facts."

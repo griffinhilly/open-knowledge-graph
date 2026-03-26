@@ -49,12 +49,12 @@ Just checking that the sum is even is insufficient; many even-sum sequences fail
   answer: 1
   explanation: "Each vertex outside the top-k group can connect to at most k members of the group — the group only has k members. Even if an outside vertex has degree dᵢ > k, at most k of those edges go to the group. So min(dᵢ, k) correctly caps each outside vertex's maximum contribution to the top-k group's total degree. This makes the right side a genuine upper bound on what the top-k vertices can collectively achieve."
 
-- question: "A sequence of non-negative integers with an even sum is always the degree sequence of some simple graph."
+- question: "A sequence of non-negative integers with an even sum is typically the degree sequence of some simple graph."
   type: true-false
   answer: false
   explanation: "Even sum is necessary but not sufficient. The sequence (3, 3, 3, 1) has even sum 10 but fails the Erdős-Gallai prefix inequality at k=2 and cannot be realized as a simple graph's degree sequence. The theorem requires both the even-sum condition and the prefix inequalities at every k. Many even-sum sequences are non-graphical."
 
-- question: "To apply the Erdős-Gallai theorem, it is sufficient to check the prefix inequality only at k = 1 and k = n."
+- question: "To apply the Erdős-Gallai theorem, it is sufficient to check the prefix inequality mainly at k = 1 and k = n."
   type: true-false
   answer: false
   explanation: "The prefix inequality must hold for every k from 1 to n. Failure at any single k is enough to disqualify the sequence. While in practice many sequences fail (or pass) early — at small values of k — there is no guarantee that checking only the endpoints is sufficient. The complete check requires verifying all n inequalities."

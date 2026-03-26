@@ -47,7 +47,7 @@ The principle of virtual work extends from statics into dynamics when combined w
   answer: 1
   explanation: "A slider-crank mechanism has one degree of freedom: specifying the crank angle completely determines the position of the connecting rod and piston through the geometric constraints. Once the crank angle θ is known, the constraint equations give the rod angle and piston displacement uniquely. This is exactly the power of generalized coordinates: they encode the constraints, so only the true independent degrees of freedom appear. Six Cartesian coordinates per body (option D) would over-specify the system; the constraints reduce it to one."
 
-- question: "When the principle of virtual work is formulated in generalized coordinates, the constraint forces (e.g., normal forces at frictionless supports) appear in the generalized force Qᵢ and must be included explicitly."
+- question: "When the principle of virtual work is formulated in generalized coordinates, the constraint forces (e.g., normal forces at frictionless supports) appear in the generalized force Qᵢ and is expected to be included explicitly."
   type: true-false
   answer: false
   explanation: "Constraint forces at frictionless contacts are perpendicular to the virtual displacements that satisfy the constraints, so they do zero virtual work. When computing the generalized force Qᵢ = ∂(δW)/∂(δqᵢ), only applied forces contribute — constraint forces have already been eliminated by the choice of admissible virtual displacements. This is the fundamental reason for using generalized coordinates: you never need to solve for constraint forces at all, greatly simplifying the equations of motion."

@@ -52,7 +52,7 @@ A sequence (fₙ) converges uniformly to f on S if for every ε > 0, there exist
   answer: true
   explanation: "This is the defining difference between uniform and pointwise convergence. In pointwise convergence, the required N can depend on both ε and the specific point x — different points may need different N values. Uniform convergence demands a single N that works everywhere simultaneously. Geometrically: the entire graph of fₙ must fit inside the ε-tube around the graph of f for all sufficiently large n."
 
-- question: "If fₙ → f pointwise and each fₙ is continuous, then f must also be continuous."
+- question: "If fₙ → f pointwise and each fₙ is continuous, then f should also be continuous."
   type: true-false
   answer: false
   explanation: "Pointwise convergence does not preserve continuity. The standard counterexample is fₙ(x) = xⁿ on [0, 1]: each fₙ is continuous, but the pointwise limit is 0 on [0, 1) and 1 at x = 1, which is discontinuous. Continuity is preserved by uniform convergence (the Uniform Limit Theorem), but not by pointwise convergence. This is precisely why the stronger condition of uniform convergence matters in analysis."

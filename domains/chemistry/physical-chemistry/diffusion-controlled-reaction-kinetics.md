@@ -49,7 +49,7 @@ Diffusion-controlled reactions reach a rate limit when reactants meet by diffusi
   answer: 1
   explanation: "In a diffusion-controlled reaction, there is no significant activation barrier — essentially every encounter leads to reaction. The rate increase with temperature is therefore not due to overcoming a barrier, but because higher temperature reduces solvent viscosity (via the Stokes-Einstein relation), which increases diffusion coefficients and allows reactants to encounter each other more frequently. The apparent activation energy (typically 10–20 kJ/mol) reflects the temperature dependence of viscosity, not a chemical barrier."
 
-- question: "A diffusion-controlled reaction has a large activation energy that can only be overcome at high temperatures, which is why such reactions are faster at elevated temperatures."
+- question: "A diffusion-controlled reaction has a large activation energy that can primarily be overcome at high temperatures, which is why such reactions are faster at elevated temperatures."
   type: true-false
   answer: false
   explanation: "This describes activation-controlled kinetics, not diffusion-controlled kinetics. In diffusion-controlled reactions, the activation barrier is negligible — the chemical step occurs essentially instantaneously upon every encounter. The rate is limited by how fast reactants diffuse together, not by overcoming an energy barrier. The small apparent activation energy (10–20 kJ/mol) reflects the temperature dependence of viscosity via the Stokes-Einstein relation, not a chemical transition state."

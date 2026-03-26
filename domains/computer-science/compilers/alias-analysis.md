@@ -46,7 +46,7 @@ Alias analysis determines whether two memory references can refer to the same lo
   answer: 2
   explanation: "'May-alias' means the compiler cannot rule out aliasing — it is possible, even if unlikely in the specific execution. Because the optimization is only safe when pointers definitely don't alias, and because the compiler's job is to produce correct code for all valid inputs (not just typical ones), it must block the transformation. This is the fundamental conservatism of alias analysis: a false 'no-alias' claim could silently miscompile the program, while a false 'may-alias' claim only misses an optimization opportunity."
 
-- question: "Under C's strict aliasing rules, type-based alias analysis (TBAA) can determine that an int* and a float* must alias each other, since they could point to the same memory."
+- question: "Under C's strict aliasing rules, type-based alias analysis (TBAA) can determine that an int* and a float* is expected to alias each other, since they could point to the same memory."
   type: true-false
   answer: false
   explanation: "Under C's strict aliasing rules, an int* and a float* cannot alias — accessing an object through a pointer of the wrong type (except char*) is undefined behavior. TBAA exploits this language guarantee to conclude that differently-typed pointers are independent, enabling more aggressive optimization. The common violation of this rule (casting between unrelated pointer types in systems code) is why GCC provides -fno-strict-aliasing and why memcpy must be used for type-punning rather than direct pointer casts."

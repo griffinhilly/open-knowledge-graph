@@ -58,7 +58,7 @@ Read Hume's Treatise 1.3.14 on the idea of necessary connexion, then Mackie's 'C
   answer: true
   explanation: "This is Hume's central empiricist insight and the foundation of the regularity theory. We never directly observe causation or necessity — we observe fire reliably followed by heat, repeatedly. The feeling that we 'see' necessity is, Hume argued, a projection of our habituated expectations onto the external world. The regularity theory takes this austerity seriously by grounding causation entirely in objective regularities rather than unobservable metaphysical connections."
 
-- question: "According to the regularity theory, a genuine cause must be a necessary condition for its effect — without the cause, the effect could not have occurred."
+- question: "According to the regularity theory, a genuine cause is expected to be a necessary condition for its effect — without the cause, the effect could not have occurred."
   type: true-false
   answer: false
   explanation: "The regularity theory requires that C-type events be invariably followed by E-type events, but does not require that E cannot occur without C. Overdetermination — where two simultaneous, each-sufficient causes both produce the effect — is precisely a case where neither cause is strictly necessary (the other would have produced the effect anyway). This is one of the hard cases that exposes the theory's limits. Confusing causation with necessity is exactly the metaphysical excess Hume wanted to eliminate."

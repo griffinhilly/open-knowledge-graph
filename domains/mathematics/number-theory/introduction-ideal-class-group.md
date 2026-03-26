@@ -59,7 +59,7 @@ For ℤ[√−5], the class group is ℤ/2ℤ, so h = 2. There are exactly two i
   answer: 2
   explanation: "h(K) = 1 means every fractional ideal is principal — the class group is trivial. For rings of algebraic integers, being a PID is equivalent to being a UFD, so h = 1 is the precise condition for unique factorization to hold. Option A sounds correct but is the consequence, not the definition: the PID property is the direct interpretation of h = 1, and unique factorization follows from it."
 
-- question: "In a ring of algebraic integers with h(K) > 1, every element fails to factor uniquely into irreducibles."
+- question: "In a ring of algebraic integers with h(K) > 1, most element fails to factor uniquely into irreducibles."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about the ideal class group. When h > 1, the ring is not a UFD, meaning unique factorization fails for *some* elements — but many elements still factor uniquely. The class group quantifies the global obstruction to unique factorization; it is not a statement that every element is problematic. In ℤ[√−5] with h = 2, for example, the element 5 = (√−5)² factors uniquely, while 6 = 2·3 = (1+√−5)(1−√−5) does not."

@@ -59,7 +59,7 @@ Edit passages with intentional tense errors, identifying each shift as either ju
   answer: true
   explanation: "The historical present ('Caesar crosses the Rubicon') is a legitimate technique that creates immediacy and vividness. It is not an error. The requirement is consistency: once you choose the historical present for a passage, every verb in that passage must follow suit. Mixing historical present with past tense within the same passage creates the exact confusion that tense consistency rules are designed to prevent."
 
-- question: "An unexpected shift from past to present tense mid-paragraph always signals a deliberate stylistic choice by the writer."
+- question: "An unexpected shift from past to present tense mid-paragraph generally signals a deliberate stylistic choice by the writer."
   type: true-false
   answer: false
   explanation: "Most mid-paragraph tense shifts in student writing are accidental — the writer drifts into present tense because it feels vivid in the moment, not because they intended a stylistic effect. A deliberate choice (like switching to the historical present) should be established clearly at the start of a passage and maintained consistently. Random mid-sentence or mid-paragraph shifts without clear purpose are errors, not style."

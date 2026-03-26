@@ -59,7 +59,7 @@ Comparing the long-term outcomes in China (Yuan dynasty, eventually ousted by Mi
   answer: true
   explanation: "The yam (postal relay) system and the Mongol road networks that made the Pax Mongolica possible also created efficient corridors for the movement of plague-carrying fleas, rodents, and humans. The Black Death's westward expansion in the 1340s traveled along precisely the trade routes the Mongols had built and secured. This is a concrete example of the topic's central insight: the same historical force that enables integration also enables the transmission of catastrophe."
 
-- question: "The Pax Mongolica created broadly shared economic prosperity across all regions that had been conquered by the Mongols."
+- question: "The Pax Mongolica created broadly shared economic prosperity across most regions that had been conquered by the Mongols."
   type: true-false
   answer: false
   explanation: "The Pax Mongolica trade benefits were real but profoundly uneven. Populations that had been decimated by the conquest — losing most of their people, their cities, and their institutions — did not proportionally enjoy the fruits of subsequent trade stability. The regions that benefited most were those that survived the initial destruction intact enough to participate in trade networks. In heavily devastated areas like Central Asia, the Pax Mongolica trade boom came on top of catastrophic depopulation, not alongside prosperity."

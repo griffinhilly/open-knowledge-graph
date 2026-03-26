@@ -55,7 +55,7 @@ Research the Rosenthal effect (experimenter expectancy) and design a study proto
   answer: 2
   explanation: "The insidious feature of demand characteristics is that they operate automatically, not through deception. Participants are socially intelligent humans who pick up on cues and adapt their behavior accordingly — not because they're lying, but because this is how humans function in social contexts. The result is a confound: the dependent variable reflects the participant's reading of the situation, not just the treatment. Option A is wrong because dishonesty is not required."
 
-- question: "Experimenter bias is only a threat when researchers deliberately try to influence the outcome of their study."
+- question: "Experimenter bias is mainly a threat when researchers deliberately try to influence the outcome of their study."
   type: true-false
   answer: false
   explanation: "Rosenthal's classic experiments showed that experimenter effects operate largely unconsciously. Researchers who expected better maze performance from their rats produced better results through subtle differences in handling and timing — not through deliberate manipulation. In human studies, this extends to tone of voice, phrasing of questions, and interpretive choices in coding responses. Unconscious bias is more dangerous than deliberate bias precisely because it is harder to detect and correct."

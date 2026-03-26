@@ -59,7 +59,7 @@ The membrane is solid—it is fluid at physiological temperature. Proteins float
   answer: true
   explanation: "Double bonds in unsaturated fatty acid tails introduce geometric kinks (cis configuration) that prevent adjacent lipid tails from packing closely together. Looser packing means the tails move more freely, increasing lateral diffusion rates and lowering the temperature at which the membrane transitions to a gel. Bacteria that lack cholesterol use this mechanism to regulate fluidity in response to temperature — increasing unsaturated fatty acid content when cold to prevent membrane solidification."
 
-- question: "Cholesterol reduces membrane fluidity at all temperatures, making it a liability for cells that must function across variable temperature ranges."
+- question: "Cholesterol reduces membrane fluidity at most temperatures, making it a liability for cells that is expected to function across variable temperature ranges."
   type: true-false
   answer: false
   explanation: "Cholesterol's effect is temperature-dependent: at physiological temperatures it modestly reduces fluidity; at low temperatures it prevents the membrane from solidifying. This buffering effect is precisely why cholesterol maintains the membrane in its functional liquid-crystalline state across a wider temperature range. Rather than being a liability, cholesterol is what allows animal cells to maintain membrane function despite temperature fluctuations — animal cells contain up to 50% membrane cholesterol for this reason."

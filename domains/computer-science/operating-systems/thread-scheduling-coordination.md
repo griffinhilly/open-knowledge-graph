@@ -58,7 +58,7 @@ Implement simple concurrent programs with race conditions, observe the failures,
   answer: 2
   explanation: "When many threads compete for a single lock protecting a short critical section, most threads spend most of their time blocked, waiting. This is lock contention: the serialization imposed by the lock prevents parallel execution, reducing throughput below even single-threaded performance in extreme cases. The solution is to reduce contention — finer-grained locks, lock-free algorithms, or redesigning to reduce shared state. This is the core tension of concurrent programming: locks prevent races but limit parallelism."
 
-- question: "A race condition can only occur when two threads run simultaneously on multiple CPU cores; single-core systems are immune."
+- question: "A race condition can primarily occur when two threads run simultaneously on multiple CPU cores; single-core systems are immune."
   type: true-false
   answer: false
   explanation: "Even on a single core, the OS scheduler can preempt a thread between any two machine instructions and switch to another thread. Thread A can be halfway through a read-modify-write when thread B runs and modifies the same data. When A resumes, it operates on a stale value. Preemptive scheduling produces race conditions regardless of the number of cores. Multi-core systems do enable truly simultaneous access, but single-core systems are not safe — they just require a context switch to trigger the race."

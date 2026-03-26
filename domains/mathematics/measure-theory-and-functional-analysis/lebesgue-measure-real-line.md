@@ -51,7 +51,7 @@ The Lebesgue measure on ℝ is the unique measure on the Borel σ-algebra satisf
   answer: true
   explanation: "This property is called completeness of Lebesgue measure. If a set N has measure zero, the Carathéodory condition is easily verified for any subset S ⊆ N (since μ*(A ∩ S) ≤ μ*(N) = 0 for all A). Borel sets do not include all such subsets. Completeness matters for integration: you want to be able to modify a function on a null set without changing its integrability or integral value."
 
-- question: "Every subset of ℝ is Lebesgue measurable."
+- question: "Most subset of ℝ is Lebesgue measurable."
   type: true-false
   answer: false
   explanation: "Non-measurable sets exist — the classic example is the Vitali set, constructed using the axiom of choice by selecting one representative from each equivalence class of reals modulo the rationals. Such sets violate the Carathéodory condition. Non-measurability is not a defect of the theory; it is precisely why the theory restricts to measurable sets. The existence of non-measurable sets shows that not every set has a well-defined size consistent with countable additivity and translation invariance."

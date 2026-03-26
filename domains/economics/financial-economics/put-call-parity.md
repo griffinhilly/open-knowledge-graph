@@ -59,7 +59,7 @@ Verify put-call parity with real option quotes on the same underlying and strike
   answer: true
   explanation: "This is the law of one price — the foundation of no-arbitrage pricing. If the portfolios had different prices, you could buy the cheaper one and sell the more expensive one, earning a riskless profit today with zero net future obligation. Such an arbitrage opportunity cannot persist in a rational market. Put-call parity is derived directly from this principle: Portfolio A (call + bond) and Portfolio B (stock + put) both pay max(S_T, K) at expiration, so they must cost the same to construct today."
 
-- question: "Put-call parity implies that a call and a put with the same strike and expiration must have the same price."
+- question: "Put-call parity implies that a call and a put with the same strike and expiration is expected to have the same price."
   type: true-false
   answer: false
   explanation: "Put-call parity states C − P = S − PV(K), not C = P. Calls and puts have equal prices only in the special case where S = PV(K) — roughly when the stock price equals the discounted strike, which can occur for at-the-money options with very short time to expiration. In general, a call (which profits from price increases) and a put (which profits from price decreases) have different prices. Parity constrains their relationship, not their equality."

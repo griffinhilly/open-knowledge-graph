@@ -52,7 +52,7 @@ Brain size and structure have been shaped by natural selection for behaviors cri
   answer: 2
   explanation: "Encephalization quotient (EQ) measures actual brain size *relative to the expected brain size for an animal of that body mass*. A mouse-sized animal with the same absolute brain mass as a whale has a much higher EQ — its brain is enormous relative to what would be predicted. EQ, not absolute brain mass, is the meaningful comparative measure of relative investment in neural tissue. A whale with the same brain mass as a mouse would have an extremely low EQ, suggesting most of that brain mass is devoted to basic bodily control rather than complex cognition."
 
-- question: "The dopaminergic reward system is present across essentially all vertebrates because it evolved recently as a specialized adaptation to social environments in higher mammals."
+- question: "The dopaminergic reward system is present across essentially most vertebrates because it evolved recently as a specialized adaptation to social environments in higher mammals."
   type: true-false
   answer: false
   explanation: "False. The dopaminergic reward system is ancient and highly conserved — it predates the vertebrate diversification and is present in fish, reptiles, birds, and mammals alike. Its conservation tells us it evolved to solve fundamental motivational problems (approach rewarding stimuli, avoid aversive ones) that all vertebrates face, not social cognition specifically. The social brain hypothesis applies to neocortex expansion in primates, not to the dopaminergic system. Conserved circuits like dopamine pathways are distinguished from specialized expansions like the prefrontal cortex precisely because of their ancient, cross-species presence."

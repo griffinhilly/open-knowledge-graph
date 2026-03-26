@@ -47,7 +47,7 @@ Compositionality does not require all parts to contribute equally to meaning, no
   answer: 1
   explanation: "'She kicked the bucket' is an idiom meaning 'she died.' Its meaning cannot be computed from the meanings of 'kick,' 'the,' and 'bucket' plus grammatical rules — the whole means something entirely different from the sum of its parts. This is the canonical challenge to compositionality. The other sentences have compositional meanings (even with quantifier scope ambiguity or fictional reference)."
 
-- question: "Compositionality means that knowing the meaning of each word in a sentence is always sufficient to understand the sentence."
+- question: "Compositionality means that knowing the meaning of each word in a sentence is typically sufficient to understand the sentence."
   type: true-false
   answer: false
   explanation: "Syntactic structure — how words are combined — is equally essential. 'The dog bit the man' and 'The man bit the dog' use the same words but have different meanings because the grammatical roles differ. Compositionality requires both the meanings of parts AND the rules for combining them; neither alone is sufficient."

@@ -58,7 +58,7 @@ Cookies are small files that websites store on your browser to remember informat
   answer: true
   explanation: "When you visit a website, the page may load resources from multiple sources: the site's own server (which may set first-party cookies) and embedded third-party scripts or images from ad networks, analytics providers, or social media buttons (each of which may set their own third-party cookies). Your browser stores all of them, tagged by the domain that set each one. The first-party cookie remembers your login; the third-party cookie logs the visit for the ad network. Both are written in the same browser session."
 
-- question: "Blocking all cookies in your browser settings fully prevents advertising networks from tracking your browsing behavior."
+- question: "Blocking most cookies in your browser settings fully prevents advertising networks from tracking your browsing behavior."
   type: true-false
   answer: false
   explanation: "Cookies are only one layer of a multi-layer tracking system. Browser fingerprinting identifies your device by passively reading its configuration — screen resolution, installed fonts, browser plugins, GPU, time zone, language settings — and combining these into a near-unique identifier. This requires no storage on your device and cannot be blocked by cookie settings. Even with all cookies disabled, a fingerprinting script can recognize your browser on return visits. Full protection requires fingerprint-resistant browsers or extensions, not just cookie blocking."

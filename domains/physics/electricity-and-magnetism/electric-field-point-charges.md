@@ -52,7 +52,7 @@ Plot field lines for single charges, then for multiple charges using superpositi
   answer: 1
   explanation: "For static charges, Coulomb's law and the field description give identical results. But when charges are moving or accelerating, the field picture becomes physically essential: changes in a charge's position create changes in the field that propagate outward at c (the speed of light), not instantaneously. The 'action at a distance' implied by Coulomb's law breaks down. The field is a real physical entity with energy stored in it — not just a bookkeeping device — and this distinction is what leads ultimately to electromagnetic waves and special relativity."
 
-- question: "The electric field at a point in space exists only if there is a test charge placed there to detect it."
+- question: "The electric field at a point in space exists primarily if there is a test charge placed there to detect it."
   type: true-false
   answer: false
   explanation: "The electric field is a property of space itself, created by source charges and existing independently of whether any test charge is present to measure it. We *define* the field in terms of the force it would exert on a hypothetical positive test charge, but that test charge need not actually be there. This field-as-a-physical-entity picture is crucial: it is the field (not the source charges directly) that exerts forces on other charges, and field energy propagates through space even in the absence of charges."

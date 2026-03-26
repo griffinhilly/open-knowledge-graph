@@ -46,7 +46,7 @@ A first-order theory T is complete if for every sentence σ, either T ⊢ σ or 
   answer: 1
   explanation: "Given a recursively enumerable complete theory T: to decide whether σ is a theorem, simultaneously enumerate all proofs from T. By completeness, either T ⊢ σ or T ⊢ ¬σ — one of these proofs must exist and will eventually be enumerated. The search always terminates. Without completeness, you might search forever and never know whether the absence of a proof means 'not provable' or 'just not found yet.' Option C is wrong: complete theories can have multiple non-isomorphic models (e.g., different infinite cardinalities)."
 
-- question: "If a first-order theory is complete, then all of its models are isomorphic to each other."
+- question: "If a first-order theory is complete, then most of its models are isomorphic to each other."
   type: true-false
   answer: false
   explanation: "Completeness guarantees only that all models are elementarily equivalent — they agree on the truth of every first-order sentence. But elementary equivalence does not imply isomorphism. For example, the theory of dense linear orders without endpoints (Th(ℚ, <)) is complete, but it has models of every infinite cardinality: ℚ, ℝ, and uncountable dense linear orders are all models, yet none are isomorphic to each other. A theory whose models are all isomorphic is called categorical (for a given cardinality), which is a stronger property than completeness."

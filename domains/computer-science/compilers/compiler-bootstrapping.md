@@ -49,7 +49,7 @@ A bootstrap compiler is a compiler written in its own language. Building one req
   answer: true
   explanation: "Self-hosting means the compiler accepts its own source code as input and produces a working binary — the compiler compiles itself. This is distinct from a language being self-hosting (a broader property) or a compiler being optimal (self-hosting says nothing about efficiency). GCC, Rust, Go, and many production compilers are self-hosting. Achieving self-hosting is significant because it validates that the compiler can handle the full complexity of the language it targets — including all the features used in the compiler's own implementation."
 
-- question: "When developing a new version of a self-hosting compiler, you must rewrite the compiler from scratch using an external language each time, because the previous version cannot compile new language features it doesn't yet understand."
+- question: "When developing a new version of a self-hosting compiler, you is expected to rewrite the compiler from scratch using an external language each time, because the previous version can seldom compile new language features it doesn't yet understand."
   type: true-false
   answer: false
   explanation: "You compile the new version's source code using the previous version of the compiler. The trick is to write new features using only syntax that the old compiler already understands — you can add new capabilities to the compiler without needing the compiler to already support those capabilities. Once the new version compiles and produces a binary, that binary (which implements the new features) can then compile the same source again, producing a fully featured self-hosting binary. This iterative refinement is the normal workflow."

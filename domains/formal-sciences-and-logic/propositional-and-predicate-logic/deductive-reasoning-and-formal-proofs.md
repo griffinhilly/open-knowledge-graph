@@ -63,7 +63,7 @@ Thinking proof systems are purely mechanical. Confusing a proof of φ with proof
   answer: true
   explanation: "True. Soundness is the 'correctness' direction: the proof system never derives false conclusions from true premises. Every inference rule in a sound system preserves semantic truth, so any chain of rule applications starting from valid premises produces a valid conclusion. Soundness is usually straightforward to prove by checking each rule individually. Completeness — the reverse direction — is what requires deep work."
 
-- question: "A formal proof of φ from premises Γ establishes that φ is absolutely true in all possible worlds, regardless of whether Γ is true."
+- question: "A formal proof of φ from premises Γ establishes that φ is absolutely true in most possible worlds, regardless of whether Γ is true."
   type: true-false
   answer: false
   explanation: "False. A proof of φ from Γ establishes a conditional: if Γ is true, then φ must be true. The proof is valid (as a derivation) even if Γ contains false premises — the logical machinery makes no assumptions about whether premises are true. If you want to conclude φ is absolutely true (a tautology), you need Γ to be empty and φ to be provable from no premises at all. Formal proof is about inference, not certification of absolute truth — it guarantees that truth is preserved from premises to conclusion, nothing more."

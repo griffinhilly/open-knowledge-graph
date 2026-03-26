@@ -46,7 +46,7 @@ Functionalism identifies mental states with their functional roles—the causal 
   answer: 2
   explanation: "Multiple realizability is the core functionalist commitment: the same mental state can be realized in different physical substrates as long as the functional organization is preserved. If the alien's internal states are caused by harm, cause avoidance behavior, and bear the right relations to other internal states, those states are pain — regardless of whether they involve neurons. Option A is exactly the 'species chauvinism' that functionalism was designed to refute. Option D introduces qualia considerations that functionalists argue are either reducible to functional roles or are a separate problem."
 
-- question: "Functionalism implies that two beings with completely different functional organizations but identical physical substrates must have the same mental states."
+- question: "Functionalism implies that two beings with largely different functional organizations but identical physical substrates should have the same mental states."
   type: true-false
   answer: false
   explanation: "Functionalism individuates mental states by functional organization, not by physical substrate. Two beings with identical physical composition but different causal organization — different patterns of how internal states connect to inputs, outputs, and each other — would have different mental states according to functionalism. The physical substrate is irrelevant; what matters is the functional role. This is the 'software, not hardware' point: the same hardware can run different programs, and what matters is which program is running."

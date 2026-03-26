@@ -38,7 +38,7 @@ Plant a seed in a cup and watch it grow over several days. Compare it to a plast
   answer: 1
   explanation: "Plants are alive because they do the things all living things do: they grow, they need water and nutrients, and they can reproduce by making seeds. Being green or being outside does not make something alive."
 
-- question: "Plants are not alive because they cannot walk or talk."
+- question: "Plants are not alive because they can seldom walk or talk."
   type: true-false
   answer: false
   explanation: "Walking and talking are things some animals do, but they are not requirements for being alive. Plants are alive because they grow, need water and light, and can make seeds for new plants. Being alive does not require moving from place to place."

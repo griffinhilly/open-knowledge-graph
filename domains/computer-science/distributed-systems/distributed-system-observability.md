@@ -55,7 +55,7 @@ Trace a multi-step request (HTTP → service A → service B → database) by ha
   answer: true
   explanation: "A trace is a practical implementation of the happened-before relation formalized by Lamport. Each parent-child span relationship encodes causality: the parent span called the child, so the child's start happened-after the parent initiated the call, and the parent's continuation happened-after the child completed. This partial ordering lets engineers reason about which events could have influenced which others — the same conceptual foundation as Lamport clocks and the Chandy-Lamport algorithm."
 
-- question: "If every service in a distributed system writes detailed, timestamped structured logs, those logs alone are sufficient to reconstruct the causal sequence of events for any specific user request."
+- question: "If nearly every service in a distributed system writes detailed, timestamped structured logs, those logs alone are sufficient to reconstruct the causal sequence of events for any specific user request."
   type: true-false
   answer: false
   explanation: "Timestamps alone cannot reconstruct causality in distributed systems because clocks are not perfectly synchronized across machines. More fundamentally, even with perfect timestamps, you cannot determine which log entries from Service A belong to the same request as specific entries from Service B without a shared correlation identifier. Logs tell you what each service did and when; tracing tells you which actions across services were causally connected to the same request."

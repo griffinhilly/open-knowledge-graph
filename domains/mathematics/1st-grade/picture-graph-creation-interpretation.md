@@ -55,7 +55,7 @@ A picture graph uses pictures or symbols to show data. Each symbol stands for on
   answer: true
   explanation: "The key is essential — it's the definition of the graph's language. Without it, you don't know if each picture stands for 1 item, 2 items, 5 items, or 10 items. A graph with a key of 'each symbol = 5' looks identical to one with 'each symbol = 1' but produces completely different data. Reading the key is always the first step."
 
-- question: "To read a picture graph, you simply count all the pictures in each row to find the totals."
+- question: "To read a picture graph, you simply count most of the pictures in each row to find the totals."
   type: true-false
   answer: false
   explanation: "Counting pictures only gives the right answer when the key says each picture = 1. If the key says each picture = 2, 5, or 10, you must multiply the count by the key value. Simply counting pictures ignores the key and produces a smaller, incorrect number. The correct process is: check key → count pictures → multiply by key value."

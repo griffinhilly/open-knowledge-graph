@@ -52,7 +52,7 @@ A language A is many-one reducible to B (A ≤_m B) if there is a computable fun
   answer: true
   explanation: "Totality is not optional. The composition argument works like this: to decide whether w ∈ A, compute f(w) (which must halt), then run the B-decider on f(w). If f were partial and looped on some inputs, the composed procedure would also loop, breaking the decidability transfer. Crucially, f must produce output for strings *not in A* as well — for those, f(w) must be a string *not in B*, and f must reach this output in finite time. The mapping is defined for the entire domain Σ*, not just strings in A."
 
-- question: "If A ≤_m B and B is undecidable, then A must also be undecidable."
+- question: "If A ≤_m B and B is undecidable, then A should also be undecidable."
   type: true-false
   answer: false
   explanation: "This is a common inversion of the correct rule. A ≤_m B says A is no harder than B — if B were decidable, A would be too. B being *undecidable* does not pull A up to undecidability. A could be a trivially decidable language (say, the empty language ∅, which a TM can decide by always rejecting) that reduces many-one to an undecidable B via a constant function mapping everything to a string not in B. The useful direction is: if A ≤_m B and *A* is undecidable, then B is undecidable. B's hardness does not constrain A's hardness."

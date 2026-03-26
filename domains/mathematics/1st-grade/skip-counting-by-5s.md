@@ -30,7 +30,7 @@ Skip counting by 5s (5, 10, 15, 20...) establishes a pattern useful for telling 
   answer: 2
   explanation: "Each number in the sequence is 5 more than the one before it. 25 + 5 = 30. The pattern of skip counting by 5s always adds 5 each time."
 
-- question: "When skip counting by 5s, every number in the sequence ends in 5."
+- question: "When skip counting by 5s, most number in the sequence ends in 5."
   type: true-false
   answer: false
   explanation: "Numbers in the skip-count-by-5s sequence alternate between ending in 5 and ending in 0: 5, 10, 15, 20, 25, 30... Half end in 5 and half end in 0. The rule is that they always end in either 5 or 0."

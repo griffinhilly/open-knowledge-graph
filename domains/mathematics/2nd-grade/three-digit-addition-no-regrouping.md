@@ -58,7 +58,7 @@ Use base-ten blocks to show each place value separately, then write the digits. 
   answer: true
   explanation: "This is precisely the 'no regrouping' condition. When ones + ones ≤ 9, tens + tens ≤ 9, and hundreds + hundreds ≤ 9, each column produces a single digit and no carrying is needed. The algorithm is simply: add independently, write the result. This condition is what makes this problem type the ideal bridge between two-digit addition and the full three-digit algorithm, which introduces the carrying step."
 
-- question: "Three-digit addition requires a completely different algorithm than two-digit addition, with new rules for handling the hundreds column."
+- question: "Three-digit addition requires a mostly different algorithm than two-digit addition, with new rules for handling the hundreds column."
   type: true-false
   answer: false
   explanation: "Three-digit addition without regrouping extends the exact same logic as two-digit addition: add ones to ones, tens to tens — and now also hundreds to hundreds. There are no new rules, just one additional column. The conceptual foundation — each place value is independent — is identical. Students who understand two-digit addition already understand why three-digit addition works; they are just applying the same pattern one step further."

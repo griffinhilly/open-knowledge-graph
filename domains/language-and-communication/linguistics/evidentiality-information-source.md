@@ -50,7 +50,7 @@ Study a language with obligatory evidential marking to observe morpheme placemen
   answer: 1
   explanation: "Evidentiality answers 'how do you know this?' (direct perception, inference, hearsay), while epistemic modality answers 'how certain are you?' (possible, probable, certain). The two can interact — inferential evidentials often carry implications of lower certainty — but they are grammatically distinct in languages that encode both. English blurs this distinction by using modal verbs ('must', 'might') to do some evidential work ('She must have left' = inference from evidence), but the grammaticalization is incomplete. Languages like Quechua grammatically separate the two systems."
 
-- question: "In English, evidentiality is grammatically obligatory — speakers must always indicate their source of information using modal verbs like 'must' or 'might.'"
+- question: "In English, evidentiality is grammatically obligatory — speakers is expected to generally indicate their source of information using modal verbs like 'should' or 'might.'"
   type: true-false
   answer: false
   explanation: "English evidentiality is optional and lexical, not obligatory and morphological. English speakers can signal their epistemic source through adverbs ('reportedly,' 'obviously,' 'apparently') and modal expressions ('I heard that,' 'I saw with my own eyes'), but they can also leave the source entirely unspecified. By contrast, languages with obligatory evidential marking (Quechua, Turkish, Korean) require speakers to grammatically commit to a source category on every assertion — omission is not possible without violating grammatical rules. English modal verbs ('must have') express some evidential meaning but are not the same as dedicated evidential morphemes."

@@ -46,7 +46,7 @@ In a normal space, if F and G are disjoint closed sets, there exists a continuou
   answer: 1
   explanation: "Normality is defined as: for any two disjoint closed sets, there exist disjoint open sets containing them. This is a purely set-theoretic separation condition — it gives you two open sets that don't overlap. Urysohn's Lemma goes further: it builds a continuous function that equals 0 on one closed set and 1 on the other, varying continuously throughout the entire space. Building a globally continuous function with prescribed values requires coordinating the topology across the whole space, not just finding two disjoint open sets. The lemma reveals that normality is strong enough to support this function-theoretic construction."
 
-- question: "Urysohn's Lemma applies to all Hausdorff spaces, since normal spaces are simply Hausdorff spaces with an additional separation property."
+- question: "Urysohn's Lemma applies to most Hausdorff spaces, since normal spaces are simply Hausdorff spaces with an additional separation property."
   type: true-false
   answer: false
   explanation: "Not all Hausdorff spaces are normal. Hausdorff (T₂) requires that any two distinct points can be separated by disjoint open sets. Normal spaces additionally require that any two disjoint closed sets can be separated by disjoint open sets — a strictly stronger condition. There exist Hausdorff spaces that are not normal (the Sorgenfrey plane is a classic example), and Urysohn's Lemma does not apply to them. Normal spaces form a proper subclass of Hausdorff spaces."

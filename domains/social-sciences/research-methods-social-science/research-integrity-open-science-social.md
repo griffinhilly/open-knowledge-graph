@@ -48,7 +48,7 @@ Research integrity requires transparency about methods, data, and decisions. Ope
   answer: false
   explanation: "While fraud exists, it is not the primary cause of the replication crisis. The crisis arises from structural features: researcher degrees of freedom (many legitimate-seeming analytical choices that can be steered toward significance, even unconsciously) combined with publication bias (journals preferentially publish significant results, making null results invisible). These mechanisms produce inflated false-positive rates even when every researcher is acting in complete good faith. The crisis would persist even with zero fraud."
 
-- question: "Preregistration prevents researchers from conducting any analyses beyond those specified in advance, eliminating all researcher flexibility in data analysis."
+- question: "Preregistration prevents researchers from conducting any analyses beyond those specified in advance, eliminating most researcher flexibility in data analysis."
   type: true-false
   answer: false
   explanation: "Preregistration does not prohibit additional analysis — it creates transparency by distinguishing pre-specified (confirmatory) analyses from post-hoc (exploratory) ones. Researchers remain free to explore their data fully; they must simply label exploratory findings as such. The value of preregistration is accountability and clarity about inferential status, not restriction of scientific creativity. A preregistered study can have a rich exploratory section, as long as it is clearly labeled."

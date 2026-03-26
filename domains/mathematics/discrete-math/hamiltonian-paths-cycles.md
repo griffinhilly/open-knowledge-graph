@@ -47,7 +47,7 @@ A Hamiltonian path visits every vertex exactly once; a Hamiltonian cycle does so
   answer: true
   explanation: "Dirac's theorem (1952) states exactly this: if G is a simple graph with n ≥ 3 vertices and every vertex has degree ≥ n/2, then G contains a Hamiltonian cycle. This is one of the few positive sufficient conditions for Hamiltonian cycles. Note that it is a sufficient but not necessary condition — graphs can have Hamiltonian cycles with much lower degree requirements. Dirac's condition is also useful precisely because it is checkable in polynomial time, unlike the Hamiltonian problem itself."
 
-- question: "If a graph contains an Eulerian circuit, it must also contain a Hamiltonian cycle."
+- question: "If a graph contains an Eulerian circuit, it should also contain a Hamiltonian cycle."
   type: true-false
   answer: false
   explanation: "These properties are completely independent. An Eulerian circuit (traversing every edge once and returning to the start) requires all vertices to have even degree. A Hamiltonian cycle (visiting every vertex once and returning) requires the right global structure but has no simple degree characterization. A complete graph K₃ (triangle) has both; a graph like two triangles sharing a single vertex has an Eulerian circuit but no Hamiltonian cycle (the shared vertex would have to be visited twice). The contrast between these problems is one of the most instructive examples in combinatorics."

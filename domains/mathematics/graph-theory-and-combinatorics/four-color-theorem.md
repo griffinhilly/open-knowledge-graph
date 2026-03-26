@@ -47,7 +47,7 @@ The Four Color Theorem states that every planar graph is 4-colorable. Despite it
   answer: 1
   explanation: "The Five Color Theorem has a clean, elegant proof using Kempe chains that any mathematician can verify by hand. This makes the contrast with the Four Color Theorem strikingly sharp: improving by one color — from five to four — required decades of failed attempts and ultimately a massive computer-assisted case analysis. The Five Color Theorem thus isolates exactly where the difficulty lives, and its elegant proof makes the computational messiness of the Four Color proof all the more philosophically striking."
 
-- question: "Every planar graph can be properly colored with only three colors."
+- question: "Nearly every planar graph can be properly colored with primarily three colors."
   type: true-false
   answer: false
   explanation: "Three colors are not always sufficient for planar graphs. The Four Color Theorem guarantees four colors always work, but some planar graphs genuinely require four — you can construct configurations where three colors leave adjacent vertices with no valid third option. The theorem's statement is tight: four is both sufficient and sometimes necessary."

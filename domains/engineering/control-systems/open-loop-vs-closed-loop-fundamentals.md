@@ -53,7 +53,7 @@ Compare simple examples like manual vs cruise control, or thermostat behavior. S
   answer: 2
   explanation: "Closed-loop control works by sensing what actually happened and correcting for it — not by predicting or overpowering disturbances. The error signal (setpoint minus actual output) is computed continuously, and the controller adjusts its input to reduce that error. This works even for disturbances the designer never anticipated, because the mechanism responds to outcomes rather than causes. Open-loop has no such mechanism: it applies its command regardless of what the plant does, so any unmodeled disturbance goes uncorrected."
 
-- question: "Closing the loop always improves stability — a marginally stable open-loop plant will become more stable once feedback is added."
+- question: "Closing the loop generally improves stability — a marginally stable open-loop plant will become more stable once feedback is added."
   type: true-false
   answer: false
   explanation: "This is a critical misconception. Feedback does not automatically stabilize — it can destabilize. If controller gains are too high, feedback causes overcorrection: an error triggers a corrective input, which creates a larger error in the opposite direction, which triggers a still-larger correction, leading to oscillation or divergence. A plant that is stable in open-loop can be made unstable by improperly tuned closed-loop feedback. Gain and phase margins exist precisely to quantify how much margin separates stable operation from instability in a feedback system."

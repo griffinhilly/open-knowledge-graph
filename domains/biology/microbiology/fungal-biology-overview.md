@@ -56,7 +56,7 @@ Compare fungal cells to bacterial and plant cells side by side to establish what
   answer: true
   explanation: "True. Fungal spores are primarily reproductive structures — they disperse the organism and generate new individuals, either as clones (asexual spores) or genetically diverse offspring (sexual spores). Bacterial endospores are survival structures — they are dormant, stress-resistant forms that allow certain bacteria to survive extreme conditions, not to reproduce. Confusing them leads to incorrect predictions about life cycles and antimicrobial strategies."
 
-- question: "All fungi are multicellular organisms that grow as branching filaments."
+- question: "Most fungi are multicellular organisms that grow as branching filaments."
   type: true-false
   answer: false
   explanation: "False. Yeasts are unicellular fungi that reproduce primarily by budding rather than growing as filaments. Saccharomyces cerevisiae (baker's yeast) is the canonical example. The distinction between yeast and mold represents two fundamentally different body plans within the fungal kingdom. Some fungi are even dimorphic — capable of switching between yeast (unicellular) and mold (multicellular filamentous) forms depending on temperature."

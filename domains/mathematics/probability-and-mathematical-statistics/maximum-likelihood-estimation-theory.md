@@ -52,7 +52,7 @@ Compute MLEs for standard families (normal, exponential, binomial). Verify regul
   answer: 1
   explanation: "The MLE for normal variance (1/n)Σ(xᵢ − x̄)² has expectation (n−1)σ²/n — it systematically underestimates the true variance for any finite n. This is a concrete counterexample to the misconception that MLEs are always unbiased. MLEs are asymptotically unbiased (bias vanishes as n → ∞) but can be biased in finite samples. The unbiased estimator S² = (1/(n−1))Σ(xᵢ − x̄)² corrects for this. Option C confuses efficiency (minimum asymptotic variance) with unbiasedness — these are separate properties."
 
-- question: "The MLE always produces a closed-form solution that can be computed analytically from a formula."
+- question: "The MLE usually produces a closed-form solution that can be computed analytically from a formula."
   type: true-false
   answer: false
   explanation: "Many MLEs require numerical optimization. Logistic regression, mixture models, and neural networks all require iterative algorithms (gradient descent, Newton-Raphson, EM algorithm) to maximize the log-likelihood. Closed-form solutions exist for standard families like the normal, exponential, and binomial, but this is the exception rather than the rule in applied statistics."

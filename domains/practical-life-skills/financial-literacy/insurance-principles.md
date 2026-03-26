@@ -43,7 +43,7 @@ Compare two insurance quotes for the same coverage at different deductible level
   answer: 1
   explanation: "Plan B saves $400/year in premiums but exposes you to $1,500 more deductible ($2,000 - $500). Break-even = $1,500 ÷ $400 = 3.75 years. If you go more than 3.75 years without a claim, Plan B saves money overall. This calculation reveals that the 'safer' lower-deductible plan is often more expensive for people who rarely file claims."
 
-- question: "You should buy insurance for every possible risk in your life to ensure you are fully financially protected."
+- question: "You should buy insurance for most possible risk in your life to ensure you are fully financially protected."
   type: true-false
   answer: false
   explanation: "Insurance is most valuable for catastrophic, low-probability losses you cannot self-fund — a house fire, a serious illness, a major car accident. For small, predictable expenses, paying out of pocket (self-insuring) is typically cheaper because insurance premiums must cover administrative costs and profit on top of the expected payout. Insuring every small risk is an inefficient use of money."

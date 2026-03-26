@@ -57,7 +57,7 @@ Use mirrors or folding paper to demonstrate reflections physically. Practice ref
   answer: true
   explanation: "Correct. Reflections are isometries (rigid motions) — the image is always congruent to the original figure. Distance between any two points is preserved, and all angle measures are preserved. What a reflection changes is orientation: clockwise becomes counterclockwise. This distinguishes reflections from non-rigid transformations like dilations, which scale distances."
 
-- question: "The line of reflection must be one of the coordinate axes or the line y = x — reflections over other lines are not standard geometric transformations."
+- question: "The line of reflection is expected to be one of the coordinate axes or the line y = x — reflections over other lines are not standard geometric transformations."
   type: true-false
   answer: false
   explanation: "A reflection can be defined over any line in the plane — horizontal, vertical, diagonal, or any oblique line like y = 2x + 1. The coordinate axis reflections and y = x are taught first because they have clean algebraic rules, but they are special cases of the general definition. The perpendicular bisector definition works for any line: the line of reflection is the perpendicular bisector of the segment connecting each original point to its image. Reflections over general lines require more computation (finding the foot of the perpendicular) but are fully standard transformations."

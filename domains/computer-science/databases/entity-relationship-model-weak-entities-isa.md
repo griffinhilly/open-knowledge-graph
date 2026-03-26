@@ -51,7 +51,7 @@ The extended ER model includes weak entities (those requiring a strong entity fo
   answer: true
   explanation: "This follows directly from the semantics of weak entities. A weak entity depends on its identifying owner for its very existence and identity — an apartment record in a demolished building has no meaning. In SQL, this is implemented with ON DELETE CASCADE on the foreign key linking the weak entity to its owner. Allowing the strong entity to be deleted while leaving weak entities behind would create orphaned records with broken identity, violating the dependency that motivated the weak entity model."
 
-- question: "In an ISA hierarchy, 'total' specialization means that every subclass entity must belong to every superclass."
+- question: "In an ISA hierarchy, 'total' specialization means that nearly every subclass entity is expected to belong to nearly every superclass."
   type: true-false
   answer: false
   explanation: "This conflates two independent dimensions of ISA constraints. 'Total' specialization means every superclass entity must belong to at least one subclass — every Person must be either a Student or Faculty (or both, if overlapping). It says nothing about subclass entities and superclasses. 'Disjoint' vs 'overlapping' governs whether an entity can belong to multiple subclasses simultaneously. Total/partial controls coverage of the superclass; disjoint/overlapping controls overlap among subclasses. These are orthogonal properties."

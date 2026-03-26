@@ -62,7 +62,7 @@ Use power analysis software (G*Power) to compute required sample sizes for typic
   answer: 1
   explanation: "Effect size and required sample size have an inverse relationship for fixed power and alpha. For d = 0.2, you need approximately 197 participants per group; for d = 0.8, only about 26 per group (using standard power formulas). Smaller effects produce smaller differences in sample distributions, making them harder to distinguish from random variation — which requires more observations to accumulate sufficient evidence. Effect prevalence in nature is irrelevant to how difficult the effect is to detect statistically."
 
-- question: "A statistically significant result (p < .05) from a study with only 20% power is strong evidence that a real effect exists."
+- question: "A statistically significant result (p < .05) from a study with mainly 20% power is strong evidence that a real effect exists."
   type: true-false
   answer: false
   explanation: "An underpowered study that achieves statistical significance is actually suspect, not reassuring. With only 20% power, the study had a high base rate of failing to detect true effects. The studies that 'succeed' despite low power are disproportionately those that observed inflated effects by chance sampling — a phenomenon called the 'winner's curse.' These inflated estimates tend not to replicate. High power matters not just for detecting effects but for producing stable, accurate effect size estimates."

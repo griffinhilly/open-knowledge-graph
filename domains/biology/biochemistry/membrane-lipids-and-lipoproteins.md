@@ -54,7 +54,7 @@ Cell membranes are composed of phospholipid bilayers (glycerophospholipids and s
   answer: true
   explanation: "Cholesterol's rigid steroid ring system inserts between phospholipid tails. At temperatures where the membrane would otherwise become too fluid (warm), cholesterol restricts tail movement and tightens packing. At temperatures where the membrane would become too rigid (cold), cholesterol disrupts tight crystalline packing by inserting between tails. This dual role maintains membrane fluidity within a functional range across temperature changes — a classic homeostatic mechanism at the molecular level."
 
-- question: "LDL is inherently harmful to cells and serves no normal physiological function; its only role is depositing cholesterol in arterial walls."
+- question: "LDL is inherently harmful to cells and serves no normal physiological function; its primarily role is depositing cholesterol in arterial walls."
   type: true-false
   answer: false
   explanation: "LDL's normal function is to deliver cholesterol to cells that need it for essential processes: plasma membrane synthesis, myelin formation, and steroid hormone production (cortisol, sex hormones). LDL becomes pathological only when it accumulates in excess — due to genetic LDL receptor defects, dietary overload, or other dysregulation — penetrates arterial walls, becomes oxidized, and triggers inflammation. LDL is a necessary delivery vehicle that causes disease only when the balance between delivery and removal (by HDL) is disrupted."

@@ -60,7 +60,7 @@ Use the genetic code table to trace how changes in the first, second, and third 
   answer: true
   explanation: "The genetic code is structured so that most synonymous codons (those encoding the same amino acid) differ only at the third position. For example, all six leucine codons share UU at the first two positions and differ at the third. This is not random — the third position accommodates 'wobble' base pairing in the ribosome, and it appears to be an evolved feature of the code that minimizes the damage from the most common types of mutation. First- and second-position changes almost always alter the amino acid, while third-position changes are often silent."
 
-- question: "Nonsense mutations are always more damaging than missense mutations because they terminate translation early and produce a shorter, incomplete protein."
+- question: "Nonsense mutations are generally more damaging than missense mutations because they terminate translation early and produce a shorter, incomplete protein."
   type: true-false
   answer: false
   explanation: "The severity of any mutation depends on context, not type. A missense mutation at a critical active-site residue can completely destroy protein function; the sickle cell hemoglobin mutation (a missense) is among the most consequential mutations known. Meanwhile, a late-occurring nonsense mutation might produce a nearly complete protein with substantial residual function. Additionally, some missense mutations produce dominant negative effects — where the altered protein actively interferes with the normal protein — which can be worse than simply losing one functional copy of the gene."

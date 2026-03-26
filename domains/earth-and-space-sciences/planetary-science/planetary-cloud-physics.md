@@ -52,7 +52,7 @@ Cloud formation across planets depends on atmospheric composition, available con
   answer: true
   explanation: "The condensation physics is universal: any volatile substance will form clouds when the atmospheric temperature and pressure cross its condensation curve and condensation nuclei are available. What differs between planets is *which* substance condenses (water on Earth, methane on Titan, sulfuric acid on Venus) and *where* in the atmosphere condensation occurs, determined by the local temperature-pressure profile. This universality is what allows planetary scientists to predict cloud layers on exoplanets from atmospheric composition data alone."
 
-- question: "A planet with very high albedo will always have a lower surface temperature than a similar planet with lower albedo."
+- question: "A planet with very high albedo will generally have a lower surface temperature than a similar planet with lower albedo."
   type: true-false
   answer: false
   explanation: "This is the key misconception this topic targets. Albedo determines how much incoming solar radiation is reflected — higher albedo means less absorbed sunlight, which alone would lower surface temperature. But clouds also trap outgoing infrared radiation. If a planet's cloud deck is both highly reflective AND strongly opaque to infrared, the greenhouse effect can dominate, producing high surface temperatures despite high albedo. Venus is the canonical counterexample: albedo ≈ 0.75 yet surface temperature ≈ 460°C. Surface temperature depends on the balance between absorbed solar radiation and outgoing infrared, not on albedo alone."

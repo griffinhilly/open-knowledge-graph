@@ -68,7 +68,7 @@ The language of statistics formalizes the distinction with parallel notation. **
   answer: 1
   explanation: "Selection bias occurs when the mechanism used to select the sample systematically excludes or over-represents certain groups. NBA fans skew male, younger, and — because NBA players are exceptionally tall — may be taller-than-average themselves. The sample is not drawn from the full population; it is drawn from a self-selected subset. This is distinct from sampling error, which is the unavoidable random variation even in a perfect random sample. Sampling error shrinks as n grows; selection bias does not — it is baked into the sampling method."
 
-- question: "A sample of 10,000 people is always more representative of a population than a sample of 500 people."
+- question: "A sample of 10,000 people is generally more representative of a population than a sample of 500 people."
   type: true-false
   answer: false
   explanation: "Sample size does not guarantee representativeness — the sampling method does. A 10,000-person sample drawn from phone book listings in one city will be less representative of the national population than a 500-person nationally stratified random sample. The Literary Digest's 2.4-million-person sample failed to predict FDR's landslide because of systematic selection bias. Bigger is better only when the sampling method is sound; more observations from a biased sample just give you a more precise estimate of the wrong thing."

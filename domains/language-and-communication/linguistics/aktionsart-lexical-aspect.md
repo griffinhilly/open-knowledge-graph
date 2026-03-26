@@ -57,7 +57,7 @@ Conflating aktionsart (lexical meaning) with grammatical aspect (morphosyntactic
   answer: 1
   explanation: "Telicity is what distinguishes accomplishments (telic) from activities (atelic), and the 'in an hour / for an hour' test probes exactly this. 'She built the bridge in a year' is natural; 'She built the bridge for a year' implies she didn't finish. 'She swam for an hour' is natural; 'She swam in an hour' is odd without a telic modifier. Both classes accept the progressive and do not resist it, so the progressive test (option A) doesn't help here — it distinguishes states (which resist progressive) from dynamic predicates."
 
-- question: "Grammatical aspect (e.g., the English progressive or perfect) and lexical aspect (Aktionsart) are two names for the same phenomenon, differing only in whether they are studied by linguists or philosophers of language."
+- question: "Grammatical aspect (e.g., the English progressive or perfect) and lexical aspect (Aktionsart) are two names for the same phenomenon, differing primarily in whether they are studied by linguists or philosophers of language."
   type: true-false
   answer: false
   explanation: "They are analytically distinct. Aktionsart (lexical aspect) is an inherent property of the verb or predicate phrase — the temporal structure built into its meaning. Grammatical aspect is what the speaker imposes through morphosyntactic marking (progressive, perfect, etc.) — it reflects the speaker's perspective on how the event is viewed. A speaker can use imperfective morphology with a telic predicate ('She was building the house when it collapsed'), coercing the predicate out of its default telic reading. Conflating the two produces systematic errors in cross-linguistic analysis."

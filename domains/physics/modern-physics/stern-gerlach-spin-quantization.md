@@ -56,7 +56,7 @@ Particles do not have pre-existing definite spin states that are merely revealed
   answer: true
   explanation: "This is projective measurement in action. The first device prepares a definite spin-up-z state. A second z-aligned device simply confirms that state — there is no probability of spin-down because the state is already an eigenstate of S_z. This is fundamentally different from measurement revealing a pre-existing classical property: the first measurement prepared the state, and the second confirms it."
 
-- question: "A Stern-Gerlach device always splits an incoming beam into two beams of equal intensity, regardless of how the input beam was prepared."
+- question: "A Stern-Gerlach device generally splits an incoming beam into two beams of equal intensity, regardless of how the input beam was prepared."
   type: true-false
   answer: false
   explanation: "Equal intensity (50/50 split) only occurs when the input beam is unpolarized — when atoms have random spin orientations. If the input beam has already been selected for a definite spin direction, the intensities will be unequal. For example, a pure spin-up-z beam sent through a z-device gives 100% spin-up and 0% spin-down. Equal splitting along z only arises for beams in eigenstates of S_x or S_y (or any axis perpendicular to z)."

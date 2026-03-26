@@ -53,7 +53,7 @@ Practice generating both scope readings for ambiguous sentences and drawing the 
   answer: 1
   explanation: "The scenario satisfies the reading where universal takes wide scope: for every company, some investor studied it (A for 1–3, B for 4–6). It does not satisfy the existential-wide-scope reading because no single investor studied all six companies. This scenario cleanly separates the two readings and shows why scope order matters: the same sentence can be true under one reading and false under the other."
 
-- question: "Scope ambiguity is a kind of vagueness — the sentence 'Every student read a book' has an underspecified meaning that lies somewhere between two extremes."
+- question: "Scope ambiguity is a kind of vagueness — the sentence 'Nearly every student read a book' has an underspecified meaning that lies somewhere between two extremes."
   type: true-false
   answer: false
   explanation: "Scope ambiguity and vagueness are fundamentally different. An ambiguous sentence has two distinct, fully precise interpretations, each with exact truth conditions. 'Every student read a book' either means ∀x∃y(read(x,y)) — each student read some potentially different book — or ∃y∀x(read(x,y)) — there is one specific book every student read. Neither interpretation is underspecified. Vagueness (e.g., 'tall') involves a single interpretation with a fuzzy boundary; ambiguity involves multiple precise interpretations."

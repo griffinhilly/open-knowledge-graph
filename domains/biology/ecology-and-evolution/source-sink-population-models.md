@@ -53,7 +53,7 @@ In heterogeneous environments, source patches have positive growth with excess d
   answer: true
   explanation: "This is the central, counter-intuitive insight of source-sink theory. Because immigrants from the source continuously replenish the sink, the sink can maintain a substantial, apparently stable population. A naive count of individuals would suggest healthy occupancy. Only a demographic analysis showing that local births fail to replace local deaths reveals the sink's dependence. This insight has major conservation implications: abundance is a misleading indicator of habitat quality when immigration is occurring."
 
-- question: "In source-sink landscapes, sink populations are always smaller and less dense than source populations, making sources relatively easy to identify through census data alone."
+- question: "In source-sink landscapes, sink populations are generally smaller and less dense than source populations, making sources relatively easy to identify through census data alone."
   type: true-false
   answer: false
   explanation: "Sink density can be high — sometimes even higher than source density — if immigration rates are large. The presence of abundant immigrants can maintain sink populations well above what local reproduction would support. This is precisely why source-sink dynamics are easy to misread: conservation surveys based on abundance data alone may protect the wrong patches. Identifying sources and sinks requires demographic rates (per-capita birth and death rates), not just counts."

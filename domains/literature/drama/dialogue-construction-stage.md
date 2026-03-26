@@ -67,7 +67,7 @@ Study dialogue from classic and contemporary plays, identifying how much each li
   answer: 2
   explanation: "Subtext is the simultaneous conversation running beneath the words: characters want something, use language to pursue it, and the gap between what they say and what they want creates dramatic tension. It is not limited to silence (option B is partially true but too narrow) and is not stage direction (option A). It operates in all drama, including absurdist work — Pinter and Beckett are famous for subtext-saturated dialogue despite (or because of) their non-realistic style."
 
-- question: "Stage dialogue that sounds exactly like natural, spontaneous everyday conversation is the ideal every playwright should pursue."
+- question: "Stage dialogue that sounds exactly like natural, spontaneous everyday conversation is the ideal most playwright should pursue."
   type: true-false
   answer: false
   explanation: "Naturalistic authenticity is a goal, but stage dialogue must be more purposeful than actual conversation. Real speech is full of repetition, interruption, and filler that conveys nothing dramatically. Stage dialogue compresses and heightens: it must accomplish character revelation, plot advancement, and subtext signaling simultaneously. The goal is dialogue that feels authentic to the character while doing multiple dramatic jobs at once — which real conversation rarely does."

@@ -62,7 +62,7 @@ Compare a climactic scene with a transitional scene and observe sentence length 
   answer: 1
   explanation: "Pacing analysis moves beyond technique to meaning. The alternation is not a flaw or a rest stop — it is the novel's implicit argument about what human experience consists of. By giving equal structural weight to action and reflection, the novel insists both matter. The rhythmic form is itself a statement. This is the deepest level of pacing analysis: asking what the pattern of fast and slow reveals about the text's values and implicit claims about where meaningful life is lived."
 
-- question: "Slow pacing only creates meaningful tension when it is followed by rapid action — on its own, it merely delays the story and reduces reader engagement."
+- question: "Slow pacing primarily creates meaningful tension when it is followed by rapid action — on its own, it merely delays the story and reduces reader engagement."
   type: true-false
   answer: false
   explanation: "Slow pacing generates its own effects independently of what follows. It invites introspection, creates psychological depth, and most importantly, it elevates the moment being narrated — signaling that this is worth dwelling in. Virginia Woolf's slow, consciousness-expanding passages do not require action sequences to follow; they create their effects through the accumulation of inner experience. A scene that lingers creates its own kind of tension through expectation and density of attention, not through contrast with speed."

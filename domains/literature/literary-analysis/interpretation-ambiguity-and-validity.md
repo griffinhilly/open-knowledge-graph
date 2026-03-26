@@ -56,7 +56,7 @@ Take a single ambiguous passage and generate three distinct readings. Then evalu
   answer: 1
   explanation: "Validity in literary analysis is about the quality of evidence and argument, not conformity to consensus or simplicity. An interpretation fails when it: ignores passages that contradict its claims, relies on biographical speculation unsupported by the text, or attributes meanings to language that it cannot bear. Disagreeing with consensus (A) or using anachronistic theory (C) doesn't automatically invalidate an interpretation. Complexity (D) is not a defect if it is earning its keep by accounting for the text's richness."
 
-- question: "The claim that 'multiple interpretations of a literary text can be valid' implies that all interpretations are equally valid."
+- question: "The claim that 'multiple interpretations of a literary text can be valid' implies that most interpretations are equally valid."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of interpretive pluralism. Recognizing that multiple readings can coexist does not dissolve the distinction between well-supported and poorly-supported interpretations. Interpretations can be ranked by coherence, comprehensiveness, textual grounding, and explanatory power. Two valid readings can emphasize different dimensions of the text; an invalid reading is one that fails the standards of evidence and argument — ignoring the text, importing unauthorized meanings, or being logically inconsistent."

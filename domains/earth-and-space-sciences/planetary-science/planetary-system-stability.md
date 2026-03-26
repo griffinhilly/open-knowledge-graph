@@ -50,7 +50,7 @@ Planetary systems are fundamentally chaotic—minute perturbations can lead to r
   answer: true
   explanation: "This is a well-established empirical result from numerical stability studies. The mutual Hill radius R_H = a[(m₁+m₂)/(3M*)]^(1/3) normalizes orbital separation by the planets' gravitational sphere of influence. Spacings larger than ~3.5 mutual Hill radii mean orbits cannot cross regardless of how eccentricities evolve (Hill stability). Observed exoplanet systems cluster near this stability boundary, suggesting systems are as tightly packed as dynamics allow."
 
-- question: "A planetary system that has appeared dynamically stable for the past 4 billion years is guaranteed to remain stable indefinitely into the future."
+- question: "A planetary system that has appeared dynamically stable for the past 4 billion years is expected to remain stable indefinitely into the future."
   type: true-false
   answer: false
   explanation: "This is false — it is the key misconception the subject addresses. Formally chaotic systems can remain quiescent for enormous stretches before suddenly destabilizing. In chaotic systems, eccentricities grow slowly through secular interactions until orbits cross, then instability unfolds rapidly within a few thousand years. Past stability provides no guarantee of future stability. We may simply be observing the solar system during its quiescent phase. Stability assessments are probabilistic (what fraction of simulations survive?) not deterministic guarantees."

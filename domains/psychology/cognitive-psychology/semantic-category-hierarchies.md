@@ -58,7 +58,7 @@ Measure naming latencies, feature generation, and typicality ratings across diff
   answer: true
   explanation: "Cross-linguistic research consistently shows that children acquire basic-level terms earliest. This is predicted by the cognitive economy account: basic-level categories represent the optimal trade-off between informativeness and abstraction. Superordinate labels are too abstract to carry concrete predictive information; subordinate labels are too specific to be worth the cognitive cost for everyday communication. Basic-level terms tend to be short, frequent, and morphologically simple across languages."
 
-- question: "Semantic category membership is all-or-nothing — a creature either fully belongs to a category like 'bird' or it does not, with no gradation between members."
+- question: "Semantic category membership is most-or-very little — a creature either fully belongs to a category like 'bird' or it does not, with no gradation between members."
   type: true-false
   answer: false
   explanation: "Typicality effects demonstrate that category membership is graded, not binary. Members vary in how representative they are: robins are more typical birds than penguins; chairs are more typical furniture than beanbags. This graded structure is reflected in processing speed, ease of feature generation, and cross-cultural agreement. The category has a prototype at its center and increasingly peripheral members toward its edges — not a sharp boundary separating members from non-members."

@@ -61,7 +61,7 @@ Measure fluorescence lifetime and quantum yield for aromatic compounds; examine 
   answer: false
   explanation: "Quantum yield and lifetime are related but independent. Φ_f = k_f / (k_f + k_nr) and τ_f = 1 / (k_f + k_nr). A high quantum yield means k_f >> k_nr, but the actual lifetime depends on the absolute magnitudes of both rate constants — not just their ratio. Two molecules could have identical Φ_f but vastly different lifetimes if one has both k_f and k_nr scaled up proportionally. High quantum yield and long lifetime often correlate in practice, but neither guarantees the other."
 
-- question: "All excited-state molecules will eventually emit a photon and return to the ground state; nonradiative decay pathways only delay this emission."
+- question: "Most excited-state molecules will eventually emit a photon and return to the ground state; nonradiative decay pathways primarily delay this emission."
   type: true-false
   answer: false
   explanation: "Nonradiative decay pathways (internal conversion, vibrational relaxation, intersystem crossing followed by nonradiative T₁ decay) return the molecule to the ground state without emitting any photon — the electronic energy is entirely converted to heat. For many molecules, especially flexible ones, nonradiative decay completely dominates and no photon is emitted at all. This is precisely what the fluorescence quantum yield measures: only the fraction Φ_f of excited molecules actually emit fluorescence; the rest (1 − Φ_f) decay nonradiatively."

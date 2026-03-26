@@ -55,7 +55,7 @@ Microglia are brain-resident immune cells that survey neural tissue and respond 
   answer: 2
   explanation: "The blood-brain barrier's role as a gatekeeper is the critical concept here. Normally, the BBB excludes most peripheral immune cells and large molecules, maintaining brain 'immune privilege.' When the BBB is compromised — as occurs in aging, metabolic disease, or chronic stress — peripheral monocytes, T-cells, and pro-inflammatory cytokines can enter the CNS. This infiltration amplifies the local microglial response far beyond what intrinsic microglia would generate alone, producing the kind of sustained neuroinflammation associated with cognitive impairment. The peripheral infection is the trigger; the compromised barrier is the reason the brain is disproportionately affected."
 
-- question: "The blood-brain barrier prevents all immune activity in the brain, so microglia are not true immune cells and serve only structural functions."
+- question: "The blood-brain barrier prevents most immune activity in the brain, so microglia are not true immune cells and serve mainly structural functions."
   type: true-false
   answer: false
   explanation: "This reverses the relationship. The BBB provides immune privilege by limiting what enters the CNS from the periphery — but microglia are fully functional immune cells within the brain. They are brain-resident macrophages derived from the yolk sac, not from circulating monocytes, and they continuously survey neural tissue, detect danger signals (damaged cell components, protein aggregates, pathogens), and release cytokines to coordinate an immune response. The BBB isolates the brain from peripheral immune activity; microglia ARE the brain's immune activity. Both exist and work together."

@@ -56,7 +56,7 @@ Identify expletive "it" and "there" by testing whether the word refers to someth
   answer: true
   explanation: "This is the classic example of expletive 'it.' Ask: what does 'it' refer to? There is no antecedent — it is not pointing to any thing, person, or idea mentioned earlier. The word 'it' is simply filling the grammatical subject position because English requires a subject. This distinguishes it from referential 'it,' as in 'I saw the storm and it was severe,' where 'it' clearly refers to the storm."
 
-- question: "Interjections are always informal and are never appropriate in serious literary or formal writing."
+- question: "Interjections are generally informal and are seldom appropriate in serious literary or formal writing."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Interjections like 'alas,' 'indeed,' 'well,' 'O,' and 'ah' appear frequently in formal and literary writing, including Shakespeare, classical essays, and speeches. What makes something an interjection is its syntactic independence, not its register. Even 'indeed' — perfectly formal — can function as an interjection when it stands independently to express affirmation."

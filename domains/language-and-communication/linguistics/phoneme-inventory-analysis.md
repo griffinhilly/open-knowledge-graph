@@ -50,7 +50,7 @@ Practice identifying minimal pairs in transcribed data, then construct a phoneme
   answer: 1
   explanation: "The same physical sounds can have entirely different phonemic status in different languages. Korean speakers are trained (by their language) to treat aspiration as a meaningful distinction because Korean minimal pairs depend on it. English speakers are trained to ignore that distinction because English never uses it to distinguish words. Phonemic status is a property of the language's contrastive system, not of the sounds themselves. Option A is partly true (exposure shapes perception) but misses the structural point."
 
-- question: "Any two sounds that are acoustically different must be separate phonemes — in every language, distinct sounds signal distinct meanings."
+- question: "Any two sounds that are acoustically different is expected to be separate phonemes — in most language, distinct sounds signal distinct meanings."
   type: true-false
   answer: false
   explanation: "This is the central misconception in phoneme inventory analysis. Acoustic difference (being different phones) does not entail phonemic difference. The English sounds [pʰ] and [p] are acoustically distinct but are allophones of a single phoneme /p/ in English — no minimal pair distinguishes them. Phonemic status requires a contrastive function: the substitution must change meaning. The same sounds that are allophones in English are separate phonemes in Korean, because Korean has minimal pairs distinguished by aspiration."

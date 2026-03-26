@@ -52,7 +52,7 @@ Gross motor milestones have rigid, universal timelines that apply equally across
   answer: 1
   explanation: "The 'Back to Sleep' finding illustrates that motor milestones are shaped by affordance — the opportunities the environment provides — not solely by neural maturation. Reducing tummy time reduced practice in prone positions, shifting those specific milestone timings. The core cephalocaudal and proximodistal sequences were preserved. This is the key point: timing can vary with environment, but the biological sequence is largely intact."
 
-- question: "If an infant skips crawling entirely and moves directly from sitting to walking, this is necessarily evidence of developmental delay or disorder."
+- question: "If an infant skips crawling largely and moves directly from sitting to walking, this is necessarily evidence of developmental delay or disorder."
   type: true-false
   answer: false
   explanation: "The common misconception is that motor milestones must occur in a single fixed sequence. In reality, some milestone pathways vary across individuals and cultures — crawling, in particular, is not universal. The broader cephalocaudal and proximodistal sequences are preserved, but specific locomotion routes can differ. What matters more than the presence of any single milestone is the pattern across multiple skills and whether the child is progressing overall."

@@ -44,7 +44,7 @@ Demonstrate reaction time: have one student drop a ruler while another tries to 
   answer: 1
   explanation: "This is a reflex arc -- a shortcut where the sensory nerve signal goes to the spinal cord and the spinal cord immediately sends a motor signal back to the muscles to pull away, without waiting for the brain to process the information. The signal does eventually reach the brain (which is when you consciously feel the pain), but the withdrawal happens first because the spinal cord path is shorter and faster. This speed can prevent serious burns."
 
-- question: "The central nervous system includes the brain, spinal cord, and all the nerves in your arms and legs."
+- question: "The central nervous system includes the brain, spinal cord, and most of the nerves in your arms and legs."
   type: true-false
   answer: false
   explanation: "The central nervous system (CNS) includes only the brain and spinal cord. The nerves branching out to the arms, legs, organs, and skin are part of the peripheral nervous system (PNS). The division is based on location: 'central' refers to the brain and spinal cord protected inside the skull and vertebral column, while 'peripheral' refers to everything extending outward from there."

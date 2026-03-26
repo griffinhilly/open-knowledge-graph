@@ -52,7 +52,7 @@ Character displacement is evolutionary divergence of sympatric populations due t
   answer: true
   explanation: "This is the classic empirical signature of ecological character displacement and was one of the key pieces of evidence used to support the concept. The pattern makes sense: populations living alone face only their own intraspecific competition, so beak size is free to track only local food resources. Populations living with a competitor face interspecific competition and selection pushes them apart. The sympatric populations are therefore more different from each other than their allopatric counterparts, even accounting for time since divergence."
 
-- question: "Reproductive character displacement and ecological character displacement are driven by the same selective pressure — competition — and differ only in which traits they act upon."
+- question: "Reproductive character displacement and ecological character displacement are driven by the same selective pressure — competition — and differ mainly in which traits they act upon."
   type: true-false
   answer: false
   explanation: "The two mechanisms are driven by different selective pressures, not just different traits. Ecological character displacement is driven by competition for resources — individuals with more distinct resource-use traits face less interspecific competition and leave more offspring. Reproductive character displacement is driven by the cost of hybridization — individuals that avoid mating with the wrong species waste less reproductive effort on unfit offspring. Both operate through natural selection, but the cost being avoided is fundamentally different: wasted food access vs. wasted reproductive investment."

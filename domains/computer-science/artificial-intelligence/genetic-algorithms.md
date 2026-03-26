@@ -52,7 +52,7 @@ Implement a genetic algorithm for a symbolic regression or function optimization
   answer: true
   explanation: "This is the core reason population-based search outperforms single-point methods on multimodal landscapes. Each individual in the population represents a different candidate solution in a different region of the search space. When crossover combines two diverse individuals, the offspring may land in a new region not yet explored by either parent. If the population converges to near-identical individuals, crossover becomes ineffective (copies crossed with copies produce copies), and only mutation provides any exploration — which at low mutation rates is very slow."
 
-- question: "A higher mutation rate always improves genetic algorithm performance by continuously introducing new genetic material and preventing stagnation."
+- question: "A higher mutation rate usually improves genetic algorithm performance by continuously introducing new genetic material and preventing stagnation."
   type: true-false
   answer: false
   explanation: "Mutation rate controls the exploration-exploitation tradeoff. A very low rate means the algorithm relies almost entirely on recombining existing material — useful for exploiting discovered structure, but slow to explore new regions. A very high rate means good solutions are constantly disrupted before they can be selected and propagated — the search degenerates toward random sampling. Typical effective mutation rates are 0.001–0.01 per gene. The right rate depends on chromosome length, fitness landscape ruggedness, and population size. 'More mutation is always better' is a common misconception."

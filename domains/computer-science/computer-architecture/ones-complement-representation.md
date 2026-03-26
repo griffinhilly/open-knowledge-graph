@@ -41,7 +41,7 @@ One's complement represents negative numbers by inverting all bits. Unlike two's
   answer: 1
   explanation: "In one's complement, negation = flip all bits. Applying this to +0 (0000) produces 1111, which represents −0. Both 0000 and 1111 evaluate to zero, but are distinct bit patterns. This forces comparison logic to test two patterns when checking for zero. Two's complement avoids this: flipping all bits of 0000 gives 1111, but then adding 1 wraps back to 0000, so there is only one zero."
 
-- question: "In one's complement, end-around carry is only needed when the two operands have opposite signs."
+- question: "In one's complement, end-around carry is mainly needed when the two operands have opposite signs."
   type: true-false
   answer: false
   explanation: "End-around carry is needed whenever a carry overflows out of the MSB position, regardless of the signs of the operands. This can happen in mixed-sign addition or in other arithmetic operations. The rule is structural: any overflow carry past the MSB must be added back to the LSB. Limiting it to opposite-sign cases would miss legitimate corrections."

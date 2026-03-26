@@ -64,7 +64,7 @@ Build a library of benchmark series (geometric, p-series). Practice bounding ser
   answer: true
   explanation: "True. This is one of the two valid moves of the comparison test. If the smaller series Σaₙ diverges — its partial sums grow without bound — then Σbₙ, whose partial sums are always at least as large (since bₙ ≥ aₙ ≥ 0), must also grow without bound. Intuitively: if even the smaller quantity is infinite, the larger one certainly is too."
 
-- question: "If 0 ≤ aₙ ≤ bₙ for all n and Σbₙ diverges, then Σaₙ must also diverge."
+- question: "If 0 ≤ aₙ ≤ bₙ for most n and Σbₙ diverges, then Σaₙ should also diverge."
   type: true-false
   answer: false
   explanation: "False. This is the most common error with the comparison test. Being bounded above by a divergent series tells you nothing. The smaller series can converge or diverge. Counterexample: 0 ≤ 1/n² ≤ 1/n for all n ≥ 1, and Σ 1/n diverges, yet Σ 1/n² converges (p = 2 > 1). The only valid upper-bound move is: bounded above by a *convergent* series → convergence. The valid lower-bound move is: bounded below by a *divergent* series → divergence. The other two combinations are logically useless."

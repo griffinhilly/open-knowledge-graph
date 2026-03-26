@@ -54,7 +54,7 @@ Stereotypes are automatically activated in the presence of relevant social cues,
   answer: true
   explanation: "The priming logic is straightforward: if seeing a category prime (e.g., a briefly flashed face) speeds up recognition of associated traits, the two concepts must be linked in memory so that activating one spreads activation to the other. This is the same mechanism as general semantic priming ('nurse' speeds recognition of 'hospital'). The fact that stereotype priming follows this same pattern confirms that social categories and stereotyped traits are linked through the same kind of associative structure — not stored as explicit beliefs but as spreading-activation connections."
 
-- question: "A person who shows strong implicit stereotype activation must harbor some level of explicit prejudice toward the stereotyped group, even if they deny it."
+- question: "A person who shows strong implicit stereotype activation is expected to harbor some level of explicit prejudice toward the stereotyped group, even if they deny it."
   type: true-false
   answer: false
   explanation: "This is the key misconception the implicit-explicit dissociation corrects. Implicit stereotype activation can be found in people with genuinely low explicit prejudice — it reflects cultural exposure and the cognitive structure of associative memory, not conscious endorsement. People absorb stereotypic associations from media, language, and social environment without necessarily agreeing with them at the level of explicit attitudes. The dissociation between implicit measures and explicit ones is real, not explained away by concealment. Someone can sincerely believe a stereotype is wrong and still show implicit activation of it."

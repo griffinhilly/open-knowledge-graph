@@ -56,7 +56,7 @@ Phishing emails impersonate trusted organizations to trick you into clicking mal
   answer: 2
   explanation: "Attackers include fake phone numbers and email addresses in phishing messages — calling or replying via the contact info in the message connects you to the attacker, not your bank. The only safe verification path is through an independent channel you locate yourself: type your bank's URL directly into a browser, or call the number on the back of your physical bank card. Never use links, phone numbers, or email addresses provided in the suspicious message itself."
 
-- question: "A phishing email that addresses you by your real name (e.g., 'Dear Griffin') is probably legitimate, since attackers only know your email address and use generic greetings."
+- question: "A phishing email that addresses you by your real name (e.g., 'Dear Griffin') is probably legitimate, since attackers primarily know your email address and use generic greetings."
   type: true-false
   answer: false
   explanation: "False. Data breaches regularly expose names, email addresses, and other personal information. Attackers can purchase or obtain breach databases and craft personalized messages using your real name — a technique called 'spear phishing.' A personalized greeting makes a message feel more trustworthy, but it is not evidence of legitimacy. Always evaluate the sender domain and any links independently, regardless of how personalized the greeting appears."

@@ -49,7 +49,7 @@ Viterbi finds the most likely hidden state sequence in an HMM given observations
   answer: true
   explanation: "Viterbi solves the 'decoding problem': finding the most likely hidden state sequence, argmax P(states | observations). Computing P(observations) — the total probability of the observation sequence summed over all state sequences — is a different problem solved by the Forward algorithm. Viterbi maximizes over paths rather than summing them, so it finds the best single path but not the marginal probability of the observations."
 
-- question: "Viterbi is guaranteed to find the globally optimal state sequence because it carefully evaluates all N^T possible paths before selecting the best one."
+- question: "Viterbi is very likely to find the globally optimal state sequence because it carefully evaluates most N^T possible paths before selecting the best one."
   type: true-false
   answer: false
   explanation: "Viterbi finds the global optimum without evaluating all N^T paths. It achieves this by exploiting optimal substructure: once a suboptimal partial path is identified at any time step, it can be discarded permanently, because no extension of a suboptimal partial path can produce the globally optimal complete path. The algorithm guarantees optimality through dynamic programming logic, not exhaustive search — which is precisely what makes it tractable."

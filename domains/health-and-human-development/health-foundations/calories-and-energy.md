@@ -46,7 +46,7 @@ Start with the concrete idea that food is fuel, like gasoline for a car. Use rea
   answer: 2
   explanation: "10 grams of fat × 9 cal/g = 90 calories from fat. 10 grams of carbohydrates × 4 cal/g = 40 calories from carbs. Total: 90 + 40 = 130 calories. This shows why fatty foods are more calorie-dense -- gram for gram, fat contains more than twice the energy of carbohydrates or protein."
 
-- question: "You only burn calories when you are exercising or physically active."
+- question: "You mainly burn calories when you are exercising or physically active."
   type: true-false
   answer: false
   explanation: "Your body burns calories 24 hours a day, even while sleeping. Your heart needs energy to beat, your lungs need energy to breathe, your brain needs energy to think, and your cells need energy to maintain and repair themselves. In fact, most of the calories you burn each day (roughly 60-75%) go toward these basic life-sustaining functions, called your basal metabolic rate. Exercise adds to this baseline, but it's not the only time your body uses energy."

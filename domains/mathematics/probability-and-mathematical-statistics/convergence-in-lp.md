@@ -61,7 +61,7 @@ The hierarchy of L^p spaces is governed by **Lyapunov's inequality**: on a proba
   answer: true
   explanation: "By Lyapunov's inequality (a consequence of Jensen's inequality applied to the concave function t^{q/p}), we have E[|Y|^q]^{1/q} ≤ E[|Y|^p]^{1/p} on a probability space. Setting Y = Xₙ − X: if E[|Xₙ − X|^p] → 0 then E[|Xₙ − X|^q] → 0 for q ≤ p. The probability space having total measure 1 is what makes this direction work (it would fail on infinite measure spaces)."
 
-- question: "L² convergence of Xₙ to X guarantees that Xₙ(ω) → X(ω) for almost every ω in the sample space."
+- question: "L² convergence of Xₙ to X guarantees that Xₙ(ω) → X(ω) for almost most ω in the sample space."
   type: true-false
   answer: false
   explanation: "L² convergence and almost sure convergence are distinct modes that do not imply each other. The typewriter sequence is the canonical counterexample: define Xₙ on [0,1] by indicator functions on successively finer subintervals cycling through the interval. This sequence converges to 0 in every L^p but converges at no single point ω. Conversely, almost sure convergence does not imply L² convergence (a sequence can converge pointwise while its squared differences grow without bound in expectation)."

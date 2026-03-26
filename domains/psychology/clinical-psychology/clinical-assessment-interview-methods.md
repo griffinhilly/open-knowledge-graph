@@ -49,7 +49,7 @@ Clinical interviews systematically gather information about symptom onset, sever
   answer: true
   explanation: "Inter-rater reliability is indeed higher for structured instruments. The SCID follows a fixed decision-tree script that systematically queries every DSM criterion, leaving little room for clinician judgment to vary. The tradeoff is flexibility: structured interviews cannot adapt to what the patient brings, may feel mechanical, and can miss clinically important information that doesn't fit the predetermined categories. Semi-structured approaches try to preserve the reliability advantage while allowing the clinician to respond to the person's narrative."
 
-- question: "A patient reports depressed mood throughout the interview but never mentions anhedonia. A skilled clinician should record anhedonia as absent."
+- question: "A patient reports depressed mood throughout the interview but rarely mentions anhedonia. A skilled clinician should record anhedonia as absent."
   type: true-false
   answer: false
   explanation: "Absence of mention is not evidence of absence. Patients often don't volunteer symptoms because they don't recognize them as relevant, use different language ('nothing feels fun anymore' rather than 'anhedonia'), or are embarrassed. A skilled clinician probes: asking directly 'Have you lost interest in activities you used to enjoy?' may reveal anhedonia the patient simply didn't think to mention. The goal of the interview is a complete clinical picture, not a transcription of what the patient chose to say unprompted."

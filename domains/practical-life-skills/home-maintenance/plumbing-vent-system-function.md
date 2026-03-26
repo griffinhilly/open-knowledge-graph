@@ -55,7 +55,7 @@ All fixtures have individual vent pipes (many share common vents); vent pipes ne
   answer: 1
   explanation: "P-traps are the first and only line of defense against sewer gas entry — their water seal physically blocks the gas pathway from the sewer into your living space. The vent pipe's job is to protect this seal. When water drains, the rushing flow tends to drag air along with it, creating a partial vacuum. Without fresh air entering through the vent, that vacuum would siphon the trap water out. Vents admit air through the roof, equalizing pressure before any vacuum can develop."
 
-- question: "Every drain fixture in a properly plumbed house requires its own dedicated vent pipe running separately to the roof."
+- question: "Most drain fixture in a properly plumbed house requires its own dedicated vent pipe running separately to the roof."
   type: true-false
   answer: false
   explanation: "Code-compliant plumbing allows multiple fixtures to share common vents, provided they are within code-specified distances and elevation differences from each other. Wet vents serve both drainage and venting functions simultaneously through a single pipe. The vent tree structure mirrors the drainage tree — a main stack collects branch vents from multiple fixtures. Requiring individual dedicated vents for every fixture would be impractical and expensive."

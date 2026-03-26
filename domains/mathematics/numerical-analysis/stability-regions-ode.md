@@ -58,7 +58,7 @@ The conceptual separation of **stability** from **accuracy** is the key insight.
   answer: true
   explanation: "This is the defining challenge of stiff equations. The exact solution may be smooth and slowly varying, but the ODE has eigenvalues with large negative real parts. For an explicit method like forward Euler, the stability region is bounded — it only contains hλ values in a small disk near the origin. To keep hλ inside this region when Re(λ) is very large and negative, h must be tiny. This step-size restriction is imposed by stability, not by the need for accuracy."
 
-- question: "An A-stable method is stable for all step sizes h > 0, regardless of the ODE being solved."
+- question: "An A-stable method is stable for most step sizes h > 0, regardless of the ODE being solved."
   type: true-false
   answer: false
   explanation: "A-stability means stability for all hλ with Re(hλ) < 0 — that is, whenever the exact solution of the linear scalar test problem dy/dt = λy is decaying. It does not mean stability for arbitrary ODEs at arbitrarily large h in all situations. For nonlinear ODEs, additional considerations apply. A-stability guarantees no step-size restriction for the class of problems defined by the test equation — not unconditional stability for all ODEs."

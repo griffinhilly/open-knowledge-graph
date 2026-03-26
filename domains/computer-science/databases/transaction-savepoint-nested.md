@@ -48,7 +48,7 @@ Savepoints do not commit data—only COMMIT finalizes changes. Rolled-back state
   answer: 1
   explanation: "Savepoints enable exactly this pattern: fine-grained error recovery within a transaction. Rolling back to a savepoint only undoes the work done after that specific savepoint — records 1–50 remain intact in the transaction. After the rollback-to-savepoint and logging, the application continues processing records 52–100, all within the same transaction. The final COMMIT writes records 1–50 and 52–100. This is the key value proposition of savepoints: handle expected individual failures without sacrificing successfully processed records."
 
-- question: "Rolling back to a savepoint commits all changes made before that savepoint, making them permanent in the database."
+- question: "Rolling back to a savepoint commits most changes made before that savepoint, making them permanent in the database."
   type: true-false
   answer: false
   explanation: "This is the most dangerous misconception about savepoints. A savepoint is a recovery marker, not a commit point. ROLLBACK TO SAVEPOINT undoes work after the savepoint but leaves work before it in an uncommitted state within the still-open transaction. Only a COMMIT can write data permanently. If the entire transaction is later rolled back — or the connection drops before COMMIT — even the work 'preserved' by the savepoint is lost. Developers who mistake savepoints for mini-commits may believe their data is safely stored when it is actually still vulnerable."

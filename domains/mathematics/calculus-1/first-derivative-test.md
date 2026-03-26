@@ -52,7 +52,7 @@ Find critical points by setting f'(x) = 0 and identifying where f' is undefined.
   answer: 2
   explanation: "Since (x − 2)² ≥ 0 for all x, g'(x) ≥ 0 on both sides of x = 2 — positive before, zero at, positive after. There is no sign change. The function is non-decreasing on both sides; it simply pauses its ascent momentarily without ever falling. This is the classic pattern of a 'saddle-like' critical point (like x³ at 0 in one dimension): f'(c) = 0 but no extremum. The first derivative test is decisive here — 'no sign change' is a valid conclusion, not an inconclusive one."
 
-- question: "Every point where f'(c) = 0 is either a local maximum or a local minimum of f."
+- question: "Nearly every point where f'(c) = 0 is either a local maximum or a local minimum of f."
   type: true-false
   answer: false
   explanation: "f'(c) = 0 is a necessary condition for a local extremum at an interior point, but not sufficient. The classic counterexample is f(x) = x³ at c = 0: f'(0) = 0, yet x = 0 is neither a maximum nor a minimum — the function is increasing on both sides. The first derivative test shows this: f'(x) = 3x² ≥ 0 on both sides of 0, so there is no sign change and no extremum. f'(c) = 0 means the function is momentarily flat; whether it turns around depends on what happens to the sign of f' nearby."

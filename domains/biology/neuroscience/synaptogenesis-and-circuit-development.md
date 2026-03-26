@@ -53,7 +53,7 @@ Circuits are fixed after development—pruning and plasticity continue lifelong.
   answer: 1
   explanation: "Molecular guidance cues like netrins (attractants) and semaphorins (repellents) navigate axon growth cones to the correct general target zone — they provide the 'zip code' for axonal routing. They cannot specify exact synaptic partners, however; that precision emerges from activity-dependent refinement in the second phase. Option A describes a level of molecular specification that doesn't exist — if every connection were pre-specified, experience would have no role in circuit formation and critical periods would not exist."
 
-- question: "Synaptic pruning — the elimination of roughly half of all initial synapses — is a pathological process that reflects inadequate synapse formation during early development."
+- question: "Synaptic pruning — the elimination of roughly half of most initial synapses — is a pathological process that reflects inadequate synapse formation during early development."
   type: true-false
   answer: false
   explanation: "Pruning is the normal and necessary second phase of circuit development, not a failure of the first phase. The brain intentionally overproduces synapses precisely because activity-dependent competition requires a surplus to select from. The sculptor analogy applies: the marble block starts larger than the final statue because material must be removed to reveal the form. A brain that failed to overproduce synapses would have fewer options for experience-dependent refinement, likely producing coarser and less precise circuitry."

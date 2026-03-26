@@ -53,7 +53,7 @@ Division facts (24 ÷ 6 = 4) arise from multiplication facts (6 × 4 = 24). Flue
   answer: true
   explanation: "The three facts 7 × 9 = 63, 63 ÷ 7 = 9, and 63 ÷ 9 = 7 form a fact family — they all express the same numerical relationship, just from different angles. Multiplication and division are inverse operations, so a single multiplication fact gives you both related division facts for free. This is why division fluency does not require a completely separate memorization effort."
 
-- question: "To become fluent at division facts, students need to memorize an entirely separate set of division facts from their multiplication facts."
+- question: "To become fluent at division facts, students need to memorize an largely separate set of division facts from their multiplication facts."
   type: true-false
   answer: false
   explanation: "Division facts are not a separate set — they are multiplication facts read backwards. If you know all the multiplication facts through 9 × 9, you already have access to every division fact within 100. The key skill is recognizing that 24 ÷ 6 = ? is the same question as 6 × ? = 24. Fluency comes from practicing this reframing quickly, not from memorizing a second set of facts."

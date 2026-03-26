@@ -54,7 +54,7 @@ Compare prioritarianism side by side with utilitarianism and egalitarianism on a
   answer: 1
   explanation: "Rawls's maximin principle focuses entirely on the worst-off group: inequalities are just only if they benefit those at the bottom. Prioritarianism gives extra weight to benefits to all worse-off people, with weight smoothly increasing as well-being decreases. A benefit to the second-poorest matters more than a benefit to someone in the middle, even if the absolute worst-off is unaffected. Prioritarianism is sensitive to the entire distribution weighted by absolute level, not just its minimum."
 
-- question: "Prioritarianism holds that equality has intrinsic moral value — a perfectly equal distribution is always preferable to an unequal one, even if the equal distribution leaves everyone worse off."
+- question: "Prioritarianism holds that equality has intrinsic moral value — a perfectly equal distribution is generally preferable to an unequal one, even if the equal distribution leaves everyone worse off."
   type: true-false
   answer: false
   explanation: "This describes strict egalitarianism, not prioritarianism. Prioritarianism explicitly rejects intrinsic concern with equality. Parfit's leveling-down objection exposes the problem: pure egalitarianism seems to endorse making everyone equally miserable rather than allowing an unequal but Pareto-superior distribution. Prioritarianism avoids this by focusing on absolute well-being levels rather than the gap between people — it cares about how badly off someone is, not how much worse off they are than others."

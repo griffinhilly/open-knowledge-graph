@@ -49,7 +49,7 @@ Kleene's recursion theorem states that for any computable function φ, there exi
   answer: true
   explanation: "This is precisely what the recursion theorem states: for any total computable function f (mapping indices to indices), there exists an index e such that φ_e = φ_{f(e)}. The program at index e 'behaves the same' as the program at index f(e), even though they may have different indices (different code). This is why no computable transformation can be designed to always change the behavior of programs — the fixed point is inescapable."
 
-- question: "The Kleene recursion theorem implies that self-referential programs — programs that reason about their own code — are paradoxical and cannot be defined within standard computational models."
+- question: "The Kleene recursion theorem implies that self-referential programs — programs that reason about their own code — are paradoxical and can seldom be defined within standard computational models."
   type: true-false
   answer: false
   explanation: "The theorem implies exactly the opposite: self-reference is not paradoxical but is an inescapable, well-defined feature of any sufficiently powerful computational system. Quines, programs that inspect their own indices, and programs that simulate themselves are all constructively guaranteed to exist. Far from being paradoxical, self-reference is the engine behind major results in computability — including the undecidability of the halting problem and Rice's theorem — all of which work precisely because programs can legitimately refer to themselves."

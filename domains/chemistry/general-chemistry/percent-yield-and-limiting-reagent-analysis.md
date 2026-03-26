@@ -58,7 +58,7 @@ Assuming percent yield is always 100%; forgetting to account for the limiting re
   answer: true
   explanation: "This is precisely the definition: theoretical yield is a calculation from stoichiometry, assuming the reaction goes to complete conversion of the limiting reagent with no side reactions, no equilibrium limitations, and no physical losses. It is a ceiling — the best possible outcome — not a prediction of what you will actually get. Real reactions almost always fall short due to side reactions, incomplete conversion, product loss during isolation, and transfer losses."
 
-- question: "A percent yield above 90% is impossible in real chemistry because reactions can never be perfectly efficient."
+- question: "A percent yield above 90% is very difficult in real chemistry because reactions can rarely be perfectly efficient."
   type: true-false
   answer: false
   explanation: "Percent yields above 90% — and even approaching 100% — are achievable for simple, fast, irreversible reactions with efficient workup. For example, many precipitation reactions, some addition reactions with excess reagent, and simple acid-base neutralizations can give very high yields. However, a reported percent yield *above* 100% always signals an error: the isolated 'product' contains impurities, residual solvent, or byproducts that inflated the measured mass."

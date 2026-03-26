@@ -44,7 +44,7 @@ Data sharding partitions data across multiple nodes to enable horizontal scaling
   answer: 1
   explanation: "The critical failure mode of a poor shard key is the hot spot: when one shard receives significantly more traffic than others, horizontal scaling provides no benefit — the overloaded shard becomes the bottleneck. Country has low cardinality (around 200 values) and highly uneven traffic — the US and India alone represent a huge fraction of most platforms' user bases. Sharding on country concentrates traffic on those two shards. user_id has high cardinality and, with a good hash, uniform distribution — every shard gets roughly equal traffic."
 
-- question: "Hash sharding is strictly better than range sharding because it always distributes load evenly and eliminates hot spots."
+- question: "Hash sharding is strictly better than range sharding because it typically distributes load evenly and eliminates hot spots."
   type: true-false
   answer: false
   explanation: "Hash sharding eliminates hot spots from natural key ordering, but at the cost of range query efficiency. When your workload involves range scans — such as 'find all orders placed last week' or 'list users with IDs between 10000 and 20000' — hash sharding forces scatter-gather queries that contact every shard. Range sharding handles these queries efficiently by routing to a single shard. The right choice depends on access patterns: hash sharding suits key-value lookups and point queries; range sharding suits analytics and ordered traversals. Neither is universally better."

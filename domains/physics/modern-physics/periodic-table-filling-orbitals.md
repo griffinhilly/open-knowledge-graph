@@ -53,7 +53,7 @@ Memorize the aufbau sequence and use it to write electron configurations for ele
   answer: 1
   explanation: "In multi-electron atoms, electron-electron repulsion and nuclear shielding shift orbital energies relative to the hydrogen-like case. The 4s orbital penetrates closer to the nucleus than 3d (higher electron density near the origin), experiencing stronger nuclear attraction and sitting at lower energy during filling. So the aufbau principle places the 19th electron in 4s, giving potassium alkali-metal character. Once 3d is filled, it can drop below 4s in energy, which is why transition metals lose their 4s electrons first in ionization."
 
-- question: "All elements in the same column of the periodic table have identical electron configurations."
+- question: "Most elements in the same column of the periodic table have identical electron configurations."
   type: true-false
   answer: false
   explanation: "Elements in the same column share the same valence electron configuration — the outermost electrons that determine chemical behavior — but their complete configurations differ. Sodium (Na, period 3) is [Ne] 3s¹ and potassium (K, period 4) is [Ar] 4s¹: both have a single valence s-electron but different core electrons and principal quantum numbers. It is the shared valence configuration, not the total configuration, that gives column-mates similar chemical properties."

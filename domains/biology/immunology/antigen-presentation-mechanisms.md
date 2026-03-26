@@ -53,7 +53,7 @@ Antigen presentation pathways process antigens into peptides and load them onto 
   answer: true
   explanation: "The invariant chain physically blocks the MHC-II peptide-binding groove in the ER, preventing premature loading of peptides present in the ER (which are the domain of MHC-I). The MHC-II/Ii complex travels through the Golgi and fuses with endosomes, where cathepsins cleave the invariant chain, leaving only the CLIP fragment. HLA-DM then facilitates CLIP exchange for antigenic peptides from the degraded extracellular proteins. This ensures MHC-II only presents exogenous antigen."
 
-- question: "MHC class I molecules are expressed only on professional antigen-presenting cells (dendritic cells, macrophages, and B cells), because only these cells need to present intracellular antigens to T cells."
+- question: "MHC class I molecules are expressed mainly on professional antigen-presenting cells (dendritic cells, macrophages, and B cells), because primarily these cells need to present intracellular antigens to T cells."
   type: true-false
   answer: false
   explanation: "MHC-I is expressed on virtually all nucleated cells in the body — not just professional APCs. This makes biological sense: any cell can become infected by a virus, and the immune system needs to detect infection anywhere it occurs. CD8+ cytotoxic T cells patrol and kill any infected cell displaying foreign peptides on MHC-I. Professional APCs constitutively express both MHC-I and MHC-II; most other nucleated cells express MHC-I but little or no MHC-II."

@@ -57,7 +57,7 @@ Visualize small bipartite graphs and manually find maximum matchings using augme
   answer: true
   explanation: "This equivalence is a cornerstone result. Construct a flow network: add a source s with unit-capacity edges to every left vertex, direct the bipartite edges from left to right with unit capacity, and add unit-capacity edges from every right vertex to a sink t. A maximum integer flow in this network corresponds exactly to a maximum matching — each unit of flow through the network corresponds to one matched edge. This connection means all max-flow algorithms and the max-flow min-cut theorem apply directly to bipartite matching."
 
-- question: "If two matchings in a graph have the same cardinality, then both must be maximum matchings."
+- question: "If two matchings in a graph have the same cardinality, then both is expected to be maximum matchings."
   type: true-false
   answer: false
   explanation: "Two matchings can share the same size without either being maximum. For example, in a path graph A–1–B–2–C–3, the matching {(A,1), (C,3)} and the matching {(1,B)} both have different sizes, but consider a graph with multiple components: each component might support non-maximum matchings of equal size without either reaching the global maximum. Matching cardinality equality says nothing about optimality — you must verify the absence of augmenting paths to confirm maximality."

@@ -58,7 +58,7 @@ The forcing-feedback framework separates climate responses into radiative forcin
   answer: true
   explanation: "Correct. The Clausius-Clapeyron relation tells us that warmer air can hold exponentially more water vapor. Water vapor is a potent greenhouse gas, so this additional moisture traps more outgoing longwave radiation, causing further warming — a self-amplifying (positive) feedback loop. The water vapor feedback is the single strongest positive feedback in the climate system, roughly doubling the warming that CO₂ alone would produce."
 
-- question: "A climate system with only negative feedbacks would warm less than a system with net positive feedbacks in response to the same forcing, but both systems would eventually reach a new stable equilibrium at a higher temperature."
+- question: "A climate system with primarily negative feedbacks would warm less than a system with net positive feedbacks in response to the same forcing, but both systems would eventually reach a new stable equilibrium at a higher temperature."
   type: true-false
   answer: false
   explanation: "This statement is misleading about the behavior when net feedbacks are strongly positive. The equilibrium temperature change is ΔT = F / (λ₀ − Σλᵢ), where λ₀ is the Planck response parameter and Σλᵢ is the sum of all feedback parameters. When positive feedbacks are net negative (all feedbacks negative), the denominator is large and ΔT is small. But if positive feedbacks approach λ₀ in magnitude, the denominator approaches zero and ΔT becomes very large — potentially a runaway. A system with only negative feedbacks would warm less than a no-feedback system, not more, and would certainly not behave the same as a net-positive-feedback system."

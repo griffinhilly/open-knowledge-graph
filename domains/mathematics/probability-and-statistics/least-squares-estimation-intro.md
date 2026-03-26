@@ -60,7 +60,7 @@ A common misconception is that least squares requires normally distributed error
   answer: 2
   explanation: "Squaring residuals does make them positive, but that's not the main reason — absolute values also achieve this. The key advantages of squaring are: (1) the squared-loss function is differentiable everywhere, allowing calculus to yield closed-form solutions for slope and intercept; (2) it penalizes large deviations much more heavily than small ones (the penalty grows quadratically), making it sensitive to outliers. This is both an advantage (it 'notices' big errors) and a drawback (a single outlier can pull the line dramatically). Absolute-value loss (leading to least absolute deviations regression) gives a more robust fit but lacks a closed-form solution."
 
-- question: "A regression model with R² = 0.95 is guaranteed to make accurate predictions for new observations drawn from the same population."
+- question: "A regression model with R² = 0.95 is expected to make accurate predictions for new observations drawn from the same population."
   type: true-false
   answer: false
   explanation: "High R² means the model explains a large proportion of the variance in the *training data*, but this does not guarantee accurate predictions on new data. The model could be overfitting (capturing noise specific to the sample), the new observations might fall outside the range of training data (extrapolation failure), or the relationship might not hold in new contexts. R² is a measure of in-sample fit, not predictive accuracy. Cross-validation or out-of-sample testing is the correct way to assess predictive performance."

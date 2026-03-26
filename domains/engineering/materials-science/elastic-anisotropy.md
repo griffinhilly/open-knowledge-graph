@@ -51,7 +51,7 @@ Elastic properties vary with crystallographic direction in non-cubic crystals du
   answer: true
   explanation: "This is the physical basis for treating engineering metals as isotropic in most calculations. When millions of grains are randomly oriented, the elastic anisotropy of individual crystals cancels statistically — stiff directions in some grains are aligned with soft directions in neighboring grains. The aggregate response is an average that is effectively direction-independent. This is why textbook formulas give single values for E, G, and ν rather than direction-dependent tensors. However, the averaging only holds for truly random texture — the instant preferred crystallographic orientation is introduced (e.g., by rolling), anisotropy appears at the engineering scale."
 
-- question: "Cubic crystal symmetry means that cubic materials like iron and copper are elastically isotropic — their Young's modulus is the same in every direction."
+- question: "Cubic crystal symmetry means that cubic materials like iron and copper are elastically isotropic — their Young's modulus is the same in most direction."
   type: true-false
   answer: false
   explanation: "This is the key misconception: cubic symmetry reduces the number of independent elastic constants from 21 (triclinic) to 3 (C₁₁, C₁₂, C₄₄), but it does NOT make the crystal isotropic. Isotropy requires an additional condition: 2C₄₄ = C₁₁ − C₁₂ (Zener anisotropy ratio A = 1). Most cubic metals have A ≠ 1 — copper has A ≈ 3.2, meaning it is highly anisotropic despite cubic symmetry. Iron has A ≈ 2.4. Only when A = 1 is a cubic crystal truly isotropic. Cubic symmetry constrains the form of the elastic tensor, but the specific values of the three constants determine whether anisotropy remains."

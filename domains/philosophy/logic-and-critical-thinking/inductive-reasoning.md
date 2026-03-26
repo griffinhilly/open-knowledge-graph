@@ -46,7 +46,7 @@ Examine sample-size effects: compare 'I saw one white swan, so all swans are whi
   answer: 1
   explanation: "The inference is inductive — the conclusion generalizes beyond what was observed. A large, diverse sample makes it strong, but it remains defeasible: the discovery of black swans in Australia is the famous historical example of a well-supported inductive conclusion being overturned. Calling it 'fallacious' confuses deductive invalidity with a broader error; inductive arguments are not expected to be deductively valid."
 
-- question: "An inductive argument is defective if its conclusion could be false even when all its premises are true."
+- question: "An inductive argument is defective if its conclusion could be false even when most its premises are true."
   type: true-false
   answer: false
   explanation: "The possibility that the conclusion could be false with true premises is not a flaw — it is the defining feature of inductive arguments. Deductive arguments guarantee their conclusions; inductive arguments only support them with varying degrees of probability. Holding induction to deductive standards misunderstands its nature. The question is not 'could the conclusion be wrong?' but 'how probable does the conclusion become given the premises?'"

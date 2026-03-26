@@ -44,7 +44,7 @@ Trace the Na⁺/K⁺ pump cycle step-by-step: 3 Na⁺ out, 2 K⁺ in, 1 ATP hydr
   answer: 1
   explanation: "3 positive charges leave and 2 positive charges enter per cycle, for a net outward movement of 1 positive charge. This makes the cell interior slightly more negative, contributing to the resting membrane potential. The pump is electrogenic — it moves charge, not just concentration."
 
-- question: "Active transport always moves molecules from a region of low concentration to a region of high concentration."
+- question: "Active transport usually moves molecules from a region of low concentration to a region of high concentration."
   type: true-false
   answer: false
   explanation: "Active transport moves substances against their electrochemical gradient, which combines both concentration and electrical charge. For charged ions, a molecule can be at lower concentration inside the cell but the electrical gradient may favor its entry. The relevant driving force is the electrochemical potential, not concentration alone."

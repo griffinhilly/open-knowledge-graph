@@ -65,7 +65,7 @@ Every metric on X induces a topology — the **metric topology** — by declarin
   answer: true
   explanation: "This is a central insight: a metric is structure *imposed on* a set, not inherent to it. The Euclidean metric, taxicab metric, and discrete metric on ℝ² are all valid metrics, but they produce different open balls and different families of open sets. The Euclidean and taxicab metrics on ℝ² are actually topologically equivalent (they generate the same open sets), but the discrete metric generates a strictly different topology — every subset is open. The same set, different structures."
 
-- question: "Every metric on a vector space is equivalent to the metric induced by some norm on that space."
+- question: "Most metric on a vector space is equivalent to the metric induced by some norm on that space."
   type: true-false
   answer: false
   explanation: "Metrics are more general than norms. A norm requires a vector space and satisfies homogeneity (‖λv‖ = |λ|‖v‖) and the triangle inequality; every norm induces a metric via d(x, y) = ‖x − y‖. But you can put metrics on vector spaces that no norm induces — for instance, the discrete metric on ℝ (d = 0 or 1) cannot come from any norm, since norms scale with scalar multiplication. Metrics apply to any set; norms require vector space structure. The Common Misconceptions section flags this directly."

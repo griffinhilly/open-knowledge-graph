@@ -51,7 +51,7 @@ Historians are situated in particular times, places, and social positions that s
   answer: false
   explanation: "False. Positionality is not a defect of bad historians — it applies equally to the most rigorous scholars. The issue is not lack of rigor but unavoidable situatedness: which questions seem worth asking, which sources seem relevant, which patterns are visible all depend on where you stand. Rigorous method can reduce some distortions, but it cannot produce the 'view from nowhere' that positionality critique targets."
 
-- question: "Acknowledging positionality and bias in one's historical work means accepting that all historical interpretations are equally valid."
+- question: "Acknowledging positionality and bias in one's historical work means accepting that most historical interpretations are equally valid."
   type: true-false
   answer: false
   explanation: "False. The explainer explicitly states: 'This does not mean all interpretations are equally valid (evidence still matters, arguments can still be better or worse).' Recognizing positionality means being honest about the conditions under which knowledge was produced — it is a standard of intellectual honesty, not a license for relativism. A poorly evidenced interpretation from a marginalized perspective is still poor history."

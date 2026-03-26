@@ -46,7 +46,7 @@ Just intonation uses frequency ratios based on the harmonic series (3:2, 5:4, et
   answer: 1
   explanation: "A just perfect fifth is a 3:2 ratio — the second and third harmonics of the overtone series. 5:4 is the just major third, 4:3 is the just perfect fourth, and 9:8 is the just major second. The 3:2 ratio produces zero beats between the two tones, giving the pure, locked-in sound characteristic of just intonation."
 
-- question: "Just intonation is universally superior to equal temperament because all of its intervals are mathematically pure ratios."
+- question: "Just intonation is universally superior to equal temperament because most of its intervals are mathematically pure ratios."
   type: true-false
   answer: false
   explanation: "Just intonation produces acoustically pure intervals within a fixed key but creates the 'comma problem' when modulating: stacking pure fifths or thirds generates small pitch discrepancies (commas) that make distant keys sound out of tune. Equal temperament distributes these discrepancies evenly so every key is equally usable — a genuine trade-off, not a deficiency."

@@ -49,7 +49,7 @@ A matching is a set of edges with no common vertices. A perfect matching covers 
   answer: true
   explanation: "Hall's theorem is an if-and-only-if result. A perfect matching exists precisely when Hall's condition holds for ALL subsets. A single violating subset S with |N(S)| < |S| means there are more vertices in S than distinct neighbors to match them to — at least |S| − |N(S)| vertices in S must go unmatched. The necessity direction of Hall's theorem confirms this directly."
 
-- question: "In a bipartite graph where |X| = |Y|, a perfect matching is guaranteed to exist."
+- question: "In a bipartite graph where |X| = |Y|, a perfect matching is very likely to exist."
   type: true-false
   answer: false
   explanation: "Equal set sizes are not sufficient for a perfect matching. A bipartite graph with |X| = |Y| can still violate Hall's condition: for instance, if every vertex in X connects only to the same single vertex in Y. Hall's theorem requires that |N(S)| ≥ |S| for every subset S ⊆ X — a condition about the structure of neighborhoods, not just overall set sizes."

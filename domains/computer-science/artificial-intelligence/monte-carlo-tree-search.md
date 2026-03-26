@@ -47,7 +47,7 @@ MCTS builds a game tree incrementally through random simulations. Each iteration
   answer: 1
   explanation: "At decision time, you choose the most-visited child of the root — not the highest UCB1 score and not the highest average reward. The UCB1 formula is used during tree traversal to balance exploration and exploitation while building the tree. But at the end, visit count is the most reliable signal: a move that has been visited many times has had its average reward estimate refined by many simulations. A move with high average reward but few visits might be a statistical fluke. The most-visited child represents the algorithm's most confident recommendation."
 
-- question: "MCTS requires that the game be played to a terminal state before any useful information is obtained, meaning it cannot return a move recommendation until the search is complete."
+- question: "MCTS requires that the game be played to a terminal state before any useful information is obtained, meaning it can seldom return a move recommendation until the search is complete."
   type: true-false
   answer: false
   explanation: "MCTS is an 'anytime' algorithm — at any point during the search, the most-visited child of the root is a valid move recommendation. You can stop after 10 iterations or 10 million, and the algorithm will give you its best current estimate. This is a significant practical advantage: in time-constrained settings (like competitive game play), you run MCTS for the available time budget and then immediately use the current recommendation. The recommendation simply improves with more iterations."

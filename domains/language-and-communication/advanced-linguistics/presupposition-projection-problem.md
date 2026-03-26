@@ -56,7 +56,7 @@ Presuppositions differ from entailments; they are asymmetric under negation and 
   answer: true
   explanation: "This is the defining property of presuppositions and the primary diagnostic used to identify them. 'The king of France is bald' and 'The king of France is not bald' both presuppose that France has a king. If France has no king, both sentences are infelicitous — they suffer a truth-value gap. Regular entailments disappear under negation: 'She managed to finish the exam' entails it was difficult, but 'She didn't manage to finish the exam' does not."
 
-- question: "Presuppositions always project out of any embedding environment — conditional, modal, or interrogative — because they are background assumptions rather than asserted content."
+- question: "Presuppositions usually project out of any embedding environment — conditional, modal, or interrogative — because they are background assumptions rather than asserted content."
   type: true-false
   answer: false
   explanation: "This is the misconception the projection problem directly addresses. Presuppositions project in some environments but are filtered or suspended in others. A conditional like 'If there is a king of France, then the king of France is bald' filters the existential presupposition. A modal like 'Maybe John knows that Mary left' lets the complement presupposition (Mary left) project, but with reduced force. Factive verbs typically project through negation. The point is that different operators treat presuppositions differently — which is precisely what makes the projection problem hard."

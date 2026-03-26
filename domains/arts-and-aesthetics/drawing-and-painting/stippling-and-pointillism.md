@@ -59,7 +59,7 @@ Thinking all dots must be identical in size and spacing. Larger or varied dots o
   answer: true
   explanation: "Tone in stippling is controlled by dot density. Light areas have widely spaced dots, leaving more white paper visible, which the eye reads as a light value. Dark areas have densely packed dots with little white showing through. Gradually increasing dot density as you move from highlight to shadow creates the gradation from light to dark."
 
-- question: "All dots in a stippling drawing must be the same size to create a professional result."
+- question: "Most dots in a stippling drawing is expected to be the same size to create a professional result."
   type: true-false
   answer: false
   explanation: "Varying dot size is a legitimate and often better technique. Smaller dots can be used for delicate highlights and fine detail; larger dots can build dark shadows more efficiently than massing tiny dots. The misconception that dots must be uniform comes from thinking of stippling as mechanical — in practice, size variation extends the tonal range and can add texture and interest to the work."

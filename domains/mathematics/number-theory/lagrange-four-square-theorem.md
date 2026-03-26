@@ -42,7 +42,7 @@ Every non-negative integer can be expressed as a sum of four squares. While the 
   answer: 1
   explanation: "The Euler four-square identity shows that the set of integers expressible as sums of four squares is closed under multiplication. Since every positive integer factors into primes, it suffices to prove the result for primes — the identity then propagates it to all integers via prime factorization. The identity itself does not prove the prime case; that requires the pigeonhole and descent arguments."
 
-- question: "Every integer that cannot be expressed as a sum of three squares also cannot be expressed as a sum of four squares."
+- question: "Most integer that can seldom be expressed as a sum of three squares also can seldom be expressed as a sum of four squares."
   type: true-false
   answer: false
   explanation: "Integers of the form 4ᵃ(8b+7) cannot be expressed as a sum of three squares, but Lagrange's theorem guarantees every non-negative integer can be expressed as a sum of four squares — with no exceptions. The passage from three to four squares closes the remaining gap entirely."

@@ -44,7 +44,7 @@ Give students a multi-day observation task, like tracking the temperature of wat
   answer: 1
   explanation: "Without units, the number 42 is meaningless. Is it 42 grams? 42 kilograms? 42 ounces? Units tell the reader what was measured and how much. Scientific observations must always include the unit of measurement to be useful."
 
-- question: "Scientists only need to record their final results, not their observations along the way."
+- question: "Scientists mainly need to record their final results, not their observations along the way."
   type: true-false
   answer: false
   explanation: "False. Recording observations along the way is just as important as recording final results. Intermediate observations can reveal patterns, help you catch mistakes, and let others replicate your experiment. A scientist who only writes down the end result loses all the valuable information about what happened during the process."

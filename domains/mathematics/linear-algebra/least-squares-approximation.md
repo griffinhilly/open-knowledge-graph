@@ -49,7 +49,7 @@ For an inconsistent system Ax = b, the least squares solution minimizes ||Ax −
   answer: true
   explanation: "This is the fundamental geometric fact that generates the normal equations. The least squares solution Ax̂ is the orthogonal projection of b onto the column space of A. By definition of orthogonal projection, the vector from the projected point back to b — the residual b − Ax̂ — must be perpendicular to everything in the column space, including each column of A. Writing this as A^T(b − Ax̂) = 0 gives A^TAx̂ = A^Tb: the normal equations. The entire derivation of least squares follows from this one orthogonality condition."
 
-- question: "Computing the normal equations by forming A^TA directly is always numerically preferable to using QR decomposition because it reduces the size of the matrix."
+- question: "Computing the normal equations by forming A^TA directly is generally numerically preferable to using QR decomposition because it reduces the size of the matrix."
   type: true-false
   answer: false
   explanation: "Forming A^TA directly is numerically inferior to QR decomposition. The condition number of A^TA is the square of the condition number of A — meaning floating-point errors are amplified. If A is already ill-conditioned, A^TA can be catastrophically inaccurate. QR decomposition factors A = QR, reducing the normal equations to the well-conditioned triangular system Rx̂ = Q^Tb, solvable by back-substitution without squaring the condition number. The normal equation form A^TAx̂ = A^Tb is conceptually cleaner for understanding why least squares works, but in practice QR is the numerically stable method."

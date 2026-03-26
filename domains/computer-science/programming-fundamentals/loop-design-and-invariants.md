@@ -57,7 +57,7 @@ That invariants are optional or academic; that invariants change during the loop
   answer: true
   explanation: "This is the 'initialization' requirement of loop invariant reasoning. The invariant must hold when execution first reaches the top of the loop, before any iterations run. For example, if the invariant is 'sum equals the sum of arr[0..i-1],' then before the first iteration (i=0), sum must equal the empty sum, which is 0. If the initialization step fails — e.g., sum was not set to 0 before the loop — the invariant never properly holds and the correctness proof breaks down immediately."
 
-- question: "A loop invariant is a condition whose variable values remain constant (unchanged) throughout every iteration."
+- question: "A loop invariant is a condition whose variable values remain constant (unchanged) throughout nearly every iteration."
   type: true-false
   answer: false
   explanation: "A loop invariant is a *relationship* that remains true, not a fixed value. The variables involved typically change each iteration — that is the point of the loop. The invariant for a summation loop is 'sum equals the sum of arr[0..i-1]': both sum and i change every iteration, but the relationship between them is always preserved. Confusing 'invariant' with 'constant value' is a fundamental misunderstanding. What is invariant is the truth of the statement, not the values of the variables."

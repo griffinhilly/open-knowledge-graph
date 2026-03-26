@@ -47,7 +47,7 @@ The second law can be stated as: dS_universe ≥ 0. For any real (irreversible) 
   answer: 2
   explanation: "In a reversible process, σ = 0. The gas gains +Q/T, but the reservoir releases that same heat Q at temperature T, so ΔS_surroundings = −Q/T. Thus ΔS_total = Q/T − Q/T = 0. In an irreversible process, the surroundings gain more entropy than the system loses (or vice versa), leaving a positive surplus σ > 0. Zero entropy generation is the defining signature of a reversible process."
 
-- question: "Irreversible processes violate microscopic physical laws — the time-reversed version of a free gas expansion would be physically impossible under Newton's equations."
+- question: "Irreversible processes violate microscopic physical laws — the time-reversed version of a free gas expansion would be physically very difficult under Newton's equations."
   type: true-false
   answer: false
   explanation: "Microscopic laws (Newton's equations, Schrödinger's equation) are time-symmetric — they look identical run forwards or backwards. The time-reversed process (all gas molecules spontaneously contracting to one corner) is not forbidden by the equations of motion; it is merely overwhelmingly improbable. The number of microstates with the gas expanded vastly outnumbers those with it contracted. Entropy increase is a statistical phenomenon — the near-certainty of what happens to a system with very many degrees of freedom — not a prohibition imposed on top of mechanics."

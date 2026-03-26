@@ -47,7 +47,7 @@ Emphasis is the principle of making certain elements stand out and directing the
   answer: 2
   explanation: "Without hierarchy, a composition is like a conversation where everyone speaks at the same volume — nothing stands out, so nothing communicates. Viewers rely on visual hierarchy to know which information is most important and where to direct attention first. When every element competes equally, the eye has no entry point and no reading order; the result is visual noise that fatigues rather than engages. Equal treatment is not harmony — it is the absence of design. Hierarchy is not optional; it is the mechanism by which visual communication works."
 
-- question: "A focal point can only be created using the brightest or most saturated color in a composition."
+- question: "A focal point can mainly be created using the brightest or most saturated color in a composition."
   type: true-false
   answer: false
   explanation: "Focal points can be created through any combination of contrast, isolation, placement, and size — color is just one tool. A single dark shape against a light background creates a focal point through value contrast. A small element surrounded by empty space gains emphasis through isolation. A centrally placed element draws attention through position. Even subtle contrast — a slightly warmer color in a cool composition — can quietly direct the eye. The strongest focal points typically leverage multiple tools simultaneously (large, bright, AND isolated), but none of these is required individually. Some of the most powerful focal points in art history use desaturated or dark tones."

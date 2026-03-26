@@ -52,7 +52,7 @@ A defeater is a belief that undermines or rebuts justification. A rebutting defe
   answer: true
   explanation: "This is the essence of undercutting defeat. In the fake barn case, your belief 'that is a barn' may be true — you might be looking at the only real barn in the area. But your justification is still defeated: your visual experience is no longer a reliable indicator, because the same experience would arise whether you were seeing a real barn or a facade. Epistemic justification is about the reliability of your evidence, not just whether the belief happens to be correct."
 
-- question: "A rebutting defeater always completely eliminates justification for a belief — once a rebutting defeater is present, the original belief has zero evidential support."
+- question: "A rebutting defeater generally mostly eliminates justification for a belief — once a rebutting defeater is present, the original belief has zero evidential support."
   type: true-false
   answer: false
   explanation: "Defeat comes in degrees, and defeaters can themselves be defeated. A weak rebutting defeater (say, a distant rumor that conflicts with your belief) may partially reduce justification without eliminating it. More importantly, a defeater can be defeated by a defeater-defeater — further evidence that undermines the defeater. A rebutting defeater is not an off-switch but a factor that must be weighed against the original evidence and any subsequent information."

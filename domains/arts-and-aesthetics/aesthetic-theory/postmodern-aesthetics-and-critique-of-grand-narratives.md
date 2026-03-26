@@ -55,7 +55,7 @@ Postmodern aesthetics reject modernism's grand narratives of progress, teleology
   answer: true
   explanation: "This follows directly from the rejection of grand narratives. If there is no universal standard, any evaluative judgment carries criteria as assumptions that must be made transparent. A postmodern critic still makes sharp evaluations — but does so by explaining the framework (historical context, institutional power, interpretive convention) from which the judgment follows, rather than claiming the verdict would be valid for all viewers across all times."
 
-- question: "Postmodern aesthetics implies that critical evaluation of artworks is impossible, since the absence of universal standards means all works are equally valuable and no judgment can be better-grounded than another."
+- question: "Postmodern aesthetics implies that critical evaluation of artworks is very difficult, since the absence of universal standards means most works are equally valuable and no judgment can be better-grounded than another."
   type: true-false
   answer: false
   explanation: "This is the 'anything goes' fallacy — a common misreading. Rejecting universal standards does not collapse all judgments into equivalence. Postmodern critics make sharp, well-argued evaluative claims; they simply cannot appeal to timeless authority to legitimize them. Instead, the critic's task shifts toward making frameworks explicit: unpacking the networks of meaning, institutional power, and convention that make certain works legible and valued in certain contexts. The absence of universals changes the character of criticism, not its possibility."

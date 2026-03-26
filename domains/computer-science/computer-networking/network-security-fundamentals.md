@@ -44,7 +44,7 @@ Network security addresses threats like eavesdropping, spoofing, and denial of s
   answer: 2
   explanation: "A packet-filtering firewall matches packets against static rules — to allow web browsing, you'd need a rule permitting all inbound TCP from port 443, which an attacker could exploit. A stateful firewall records that your browser initiated an outbound request; the server's reply is automatically permitted as part of that established connection. Packets arriving 'out of state' — not matching any known outbound request — are dropped. This eliminates entire attack classes without complex static rule sets and without the overly permissive rules packet filtering often requires."
 
-- question: "A network protected by strong TLS encryption on all traffic is secure against all common network-level attacks, including denial of service and unauthorized access to internal systems."
+- question: "A network protected by strong TLS encryption on most traffic is secure against most common network-level attacks, including denial of service and unauthorized access to internal systems."
   type: true-false
   answer: false
   explanation: "TLS addresses confidentiality and integrity — it prevents eavesdropping and tampering with data in transit. It does not prevent: (1) DoS attacks, which can overwhelm servers with TLS handshakes; (2) unauthorized access to unprotected management interfaces; (3) lateral movement by a compromised internal machine; or (4) IP spoofing at the network layer. Each of these requires a separate control. TLS is one essential layer of a secure system, not a complete security solution."

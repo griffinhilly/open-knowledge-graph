@@ -46,7 +46,7 @@ Public health surveillance systems monitor disease occurrence to detect outbreak
   answer: 2
   explanation: "Passive surveillance depends on a chain: illness → care-seeking → clinical suspicion → testing → positive result → reporting. Cases fall out at every step, especially mild or asymptomatic infections that never prompt care-seeking. This is a predictable structural feature of passive systems, not a signal of lower burden. Active surveillance proactively finds cases, increasing sensitivity. Without additional evidence, option A is an unwarranted assumption; the structural difference in surveillance design is the parsimonious explanation."
 
-- question: "Underreporting in passive surveillance systems is a data quality failure that, with better training and incentives, could be eliminated entirely."
+- question: "Underreporting in passive surveillance systems is a data quality failure that, with better training and incentives, could be eliminated mostly."
   type: true-false
   answer: false
   explanation: "Underreporting is not primarily a data quality failure — it is a structural feature of passive surveillance. Even a perfectly compliant reporting system would miss cases where patients don't seek care, clinicians don't consider the diagnosis, or tests aren't available. Mild or asymptomatic infections will always be systematically underrepresented. Recognizing underreporting as a structural feature — rather than a correctable error — is essential for interpreting surveillance data correctly."

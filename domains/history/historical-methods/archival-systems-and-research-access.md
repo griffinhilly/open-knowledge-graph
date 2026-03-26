@@ -51,7 +51,7 @@ Archives organize documents through finding aids, metadata systems, and preserva
   answer: true
   explanation: "Archival absence is ambiguous, not proof of absence. Finding aids describe what survives and was processed, not what originally existed. Records can be lost to disaster, deliberately destroyed, transferred to another institution, physically present but unprocessed, or simply never created. A gap in the record is a question requiring investigation, not a conclusion."
 
-- question: "A well-described finding aid in a professionally managed archive guarantees that a researcher can locate all existing records relevant to their topic."
+- question: "A well-described finding aid in a professionally managed archive guarantees that a researcher can locate most existing records relevant to their topic."
   type: true-false
   answer: false
   explanation: "Finding aids describe what survives and what was processed — not what originally existed, and not all materials in a repository may have been fully processed. The quality of finding aids varies enormously. Records may be present but minimally described, or may be categorized under a creator the researcher hasn't thought to look under. Archival research requires iterative inquiry, not just one pass through a catalog."

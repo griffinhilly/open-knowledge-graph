@@ -44,7 +44,7 @@ Practice computing RR, OR, AR, and PAF from 2×2 contingency tables. Then interp
   answer: 1
   explanation: "Population attributable fraction (PAF) depends on both the strength of association (RR) and the prevalence of the exposure. If 60% of the population is sedentary, even an RR of 1.3 can account for a huge share of all diabetes cases. A lung cancer RR of 15 is dramatic, but if few people smoke, fewer total cases are attributable. This is why absolute and population-level measures must accompany relative risk when setting priorities."
 
-- question: "A relative risk of 8.0 always indicates a greater public health burden than a relative risk of 1.4."
+- question: "A relative risk of 8.0 generally indicates a greater public health burden than a relative risk of 1.4."
   type: true-false
   answer: false
   explanation: "Relative risk captures how much more likely an outcome is in the exposed group compared to the unexposed — it does not account for how common the exposure is or how frequent the baseline outcome is. An RR of 8.0 on an exposure affecting 0.1% of the population may cause far fewer total cases than an RR of 1.4 applied to an exposure affecting 70% of the population. Public health impact requires examining attributable risk and population attributable fraction alongside relative measures."

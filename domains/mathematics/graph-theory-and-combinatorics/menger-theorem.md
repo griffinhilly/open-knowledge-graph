@@ -53,7 +53,7 @@ Draw a graph and find all edge-disjoint paths between two vertices by hand. Then
   answer: true
   explanation: "Yes — edge-disjoint paths only require paths to share no edges, so they can pass through the same intermediate vertices. Internally vertex-disjoint paths cannot share any intermediate vertex. A vertex shared by multiple edge-disjoint paths acts as no bottleneck for edge connectivity but would be a bottleneck for vertex connectivity. The two measures are genuinely distinct, and the common misconception is to confuse them."
 
-- question: "Menger's theorem applies only to weighted networks with edge capacities, since it is essentially a special case of the max-flow min-cut theorem."
+- question: "Menger's theorem applies primarily to weighted networks with edge capacities, since it is essentially a special case of the max-flow min-cut theorem."
   type: true-false
   answer: false
   explanation: "This reverses the relationship. Menger's theorem applies to unweighted graphs; the connection to max-flow is that an unweighted graph can be modeled as a flow network where every edge has unit capacity. Max-flow min-cut then gives Menger's theorem as a consequence. But Menger's theorem itself is a result about unweighted graphs — it doesn't require any notion of capacity beyond 'each edge can carry at most one unit of flow.'"

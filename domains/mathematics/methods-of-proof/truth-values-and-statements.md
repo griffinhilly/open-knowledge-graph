@@ -52,7 +52,7 @@ Start with simple examples (e.g., '2 + 2 = 4' is true, '5 > 10' is false) and no
   answer: 1
   explanation: "Substituting a specific value for the variable converts a predicate into a statement. '3 > 0' is a genuine statement — it is true. The key distinction is between a predicate like 'x > 0' (truth depends on x, so no single truth value) and a statement like '3 > 0' (definite truth value regardless of context). Option A is wrong: substitution is precisely one of the two ways to produce a statement from a predicate. Option C is wrong for this example — once x is replaced by a specific number, no domain ambiguity remains."
 
-- question: "A false sentence is not a mathematical statement — it must be true to count as a statement."
+- question: "A false sentence is not a mathematical statement — it is expected to be true to count as a statement."
   type: true-false
   answer: false
   explanation: "This is one of the most common misconceptions about statements. A statement is defined by its *capacity* to have a truth value, not by the value itself. '5 > 10' is a perfectly good mathematical statement — it is simply false. '2 + 2 = 5' is a statement; it is false. The truth value of a statement can be true or false; what disqualifies a sentence from being a statement is being a question, command, or open sentence — not being false."

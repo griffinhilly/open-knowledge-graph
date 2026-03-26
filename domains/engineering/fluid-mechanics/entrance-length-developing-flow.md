@@ -58,7 +58,7 @@ Sketch the velocity profile evolution from uniform at the inlet to parabolic (la
   answer: true
   explanation: "The laminar hydrodynamic entrance length formula is L_e/D ≈ 0.05·Re. At Re = 2,000 (near the laminar-turbulent transition), this gives L_e ≈ 100 diameters. This proportionality arises because higher Re means the viscous boundary layer grows more slowly relative to the convective transport of momentum — the fluid 'outruns' the diffusion of viscous effects inward. In a 2 cm pipe, 100 diameters is 2 meters of pipe before fully developed conditions can be assumed — a non-trivial engineering consideration."
 
-- question: "The hydrodynamic entrance length and thermal entrance length of a pipe are always equal, since both depend on the same boundary layer growth process."
+- question: "The hydrodynamic entrance length and thermal entrance length of a pipe are generally equal, since both depend on the same boundary layer growth process."
   type: true-false
   answer: false
   explanation: "The hydrodynamic entrance length governs velocity profile development (driven by viscous diffusion), while the thermal entrance length governs temperature profile development (driven by thermal diffusion). These are equal only when the Prandtl number Pr = ν/α = 1, meaning viscous and thermal diffusivities are identical. For common engineering fluids, Pr departs significantly from 1: liquid metals have Pr ≪ 1 (thermal diffusivity dominates, so temperature develops faster), while oils have Pr ≫ 1 (viscous diffusivity dominates). Treating the two entrance lengths as interchangeable leads to errors in heat transfer calculations."

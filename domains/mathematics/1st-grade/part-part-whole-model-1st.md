@@ -55,7 +55,7 @@ Use visual diagrams showing circles or boxes divided to show parts and the whole
   answer: true
   explanation: "Yes — the whole equals the sum of its parts, so if you know the whole and one part, subtracting gives the other part. For example: whole = 9, one part = 4, missing part = 9 − 4 = 5. This is exactly what subtraction does in the part-part-whole model."
 
-- question: "The part-part-whole model is only useful for addition problems."
+- question: "The part-part-whole model is mainly useful for addition problems."
   type: true-false
   answer: false
   explanation: "This is the key misconception to avoid. The part-part-whole model applies equally to addition and subtraction. Addition uses the model to find the whole from two known parts (part + part = whole). Subtraction uses the same model to find a missing part when the whole and one part are known (whole − part = missing part). They are not separate operations — they are two ways of navigating the same three-number relationship."

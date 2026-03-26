@@ -54,7 +54,7 @@ Treaty design—including ratification procedures, enforcement mechanisms, and a
   answer: true
   explanation: "This is a core insight of treaty design theory: formal legal architecture cannot substitute for aligned interests, it can only make aligned interests easier to act on. When states genuinely benefit from cooperation and face low defection temptation, elaborate enforcement is redundant — states comply because compliance is in their interest, not because sanctions compel it. Elaborate enforcement mechanisms are most necessary when the treaty tries to change the behavior of states that would benefit from defection."
 
-- question: "Making ratification more difficult always produces better treaty outcomes because it selects only states with the strongest commitment."
+- question: "Making ratification more difficult generally produces better treaty outcomes because it selects primarily states with the strongest commitment."
   type: true-false
   answer: false
   explanation: "Harder ratification is a tradeoff, not an improvement. It increases the signaling value of commitment for states that do ratify — a state that overcomes a difficult ratification process has demonstrated substantial domestic support. But it also raises the barrier to entry, reducing participation. A treaty with deep commitments from few states may be less effective than a broader agreement with shallower commitments, depending on the issue area. The Kyoto/Paris contrast illustrates this: higher participation under Paris despite weaker formal commitments may produce more total emissions reduction."

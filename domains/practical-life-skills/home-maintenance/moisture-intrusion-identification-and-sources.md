@@ -53,7 +53,7 @@ Inspect water-damaged areas in your home and trace stains upward to find the sou
   answer: 1
   explanation: "Cold pipes in a warm basement cause condensation: warm, humid air contacts the cold surface, drops below its dew point, and releases moisture as liquid water on the pipe exterior. This is physics (temperature differential), not a plumbing failure. The diagnostic clue is that it occurs when interior humidity is high and the pipe is cold — not correlated with rain or pipe use. The fix is insulating the pipe to eliminate the cold surface, not sealing the exterior or checking for leaks."
 
-- question: "If you find and completely dry a water-damaged area, the moisture problem is resolved — dry surfaces indicate that the intrusion source has stopped."
+- question: "If you find and mostly dry a water-damaged area, the moisture problem is resolved — dry surfaces indicate that the intrusion source has stopped."
   type: true-false
   answer: false
   explanation: "Drying addresses the symptom, not the source. If the entry point isn't identified and repaired, moisture will return. Additionally, if the material was wet long enough (moisture content above 20% for days), mold growth and rot may have already begun inside walls even after the surface dries out. A musty odor persisting after drying indicates ongoing biological activity from earlier moisture. Identifying and fixing the source must follow drying, not end with it."

@@ -52,7 +52,7 @@ The Kaplan-Meier estimator is a non-parametric method for estimating survival pr
   answer: true
   explanation: "Censoring is not the same as a missing outcome. If a participant was followed for 3 years without experiencing the event before dropping out, we know they survived for at least 3 years. The KM estimator uses this information: the participant remains in the risk set for all event times up to their censoring point, contributing to the numerator and denominator of conditional survival estimates throughout that window. Treating such an observation as missing would waste real data."
 
-- question: "If a Kaplan-Meier curve never drops below 0.5, it means all participants in the study survived to the end of follow-up."
+- question: "If a Kaplan-Meier curve seldom drops below 0.5, it means most participants in the study survived to the end of follow-up."
   type: true-false
   answer: false
   explanation: "A KM curve that never reaches 0.5 means the median survival time cannot be estimated — not that all participants survived. This occurs when fewer than half the cohort experienced the event during follow-up, which can happen because of a high censoring rate, a short follow-up period, or genuinely excellent survival. The curve staying above 0.5 could reflect either a truly favorable outcome or heavy censoring, and distinguishing these interpretations requires examining the data carefully."

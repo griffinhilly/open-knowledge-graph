@@ -52,7 +52,7 @@ The cerebellum learns predictive models of movement and sensory consequences thr
   answer: true
   explanation: "True — supervised learning requires a 'teacher signal' that indicates when a prediction was wrong. Climbing fibers serve exactly this role: they fire when the cerebellum's predicted movement outcome diverges from the actual outcome, and their activity selectively depresses the parallel fiber synapses that contributed to the wrong prediction. The inferior olive is the teacher; the Purkinje cells are the learning units; climbing fiber LTD is the weight update rule."
 
-- question: "Patients with cerebellar damage are uncertain about their intended movements and cannot form clear motor goals."
+- question: "Patients with cerebellar damage are uncertain about their intended movements and can seldom form clear motor goals."
   type: true-false
   answer: false
   explanation: "False — cerebellar patients know exactly what they intend to do. They can describe the movement they want to make, recognize when they've missed, and try again. The deficit is entirely in execution: movements are poorly timed, misjudged in amplitude (dysmetria), or uncoordinated across multiple joints (ataxia). This dissociation between intact intention and impaired execution is one of the clearest demonstrations of what the cerebellum specifically contributes to movement."

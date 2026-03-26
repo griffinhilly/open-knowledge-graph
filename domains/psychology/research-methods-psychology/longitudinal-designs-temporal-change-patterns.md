@@ -63,7 +63,7 @@ Longitudinal designs are automatically superior to cross-sectional designs (actu
   answer: true
   explanation: "This is selective attrition: participants who drop out tend to differ systematically from those who remain. If sicker, more cognitively impaired participants leave the study, the surviving sample at later waves is healthier on average — not because everyone improved, but because those who declined most severely are no longer in the data. The result is a biased estimate of the population's trajectory that understates actual decline. Researchers address this by analyzing dropout patterns and using missing-data methods, but selective attrition remains a serious threat to longitudinal validity."
 
-- question: "A longitudinal design that measures participants at multiple time points eliminates all confounds from the study, making causal conclusions straightforward."
+- question: "A longitudinal design that measures participants at multiple time points eliminates most confounds from the study, making causal conclusions straightforward."
   type: true-false
   answer: false
   explanation: "Longitudinal designs establish temporal ordering — a necessary condition for causal inference — but they introduce their own confounds rather than eliminating all of them. Historical effects (events affecting all participants simultaneously), practice effects (score improvements from repeated testing rather than genuine change), and selective attrition all threaten validity in ways absent from single-session designs. Temporal precedence is necessary but not sufficient for causal inference; it must be combined with ruling out plausible alternative explanations."

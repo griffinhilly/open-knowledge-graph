@@ -52,7 +52,7 @@ Socialism emphasizes economic equality, collective ownership or control of produ
   answer: true
   explanation: "This is one of the sharpest internal divisions within the left. Marxism (especially the Leninist tradition) argues that a transitional socialist state — led by a vanguard party representing the working class — is necessary to break the power of capital and build toward communism. Anarchism rejects this: it holds that the state is inherently oppressive regardless of who controls it, and that a 'transitional' state will simply reproduce domination. These different theories of the state lead to very different revolutionary strategies."
 
-- question: "All major socialist traditions agree that the working class must seize state power through revolutionary means to achieve socialist goals."
+- question: "Most major socialist traditions agree that the working class should seize state power through revolutionary means to achieve socialist goals."
   type: true-false
   answer: false
   explanation: "Democratic socialism explicitly rejects this. It holds that socialist goals — public ownership, economic equality, worker control — can and should be achieved through electoral politics and gradual legislative reform. The Scandinavian welfare states are often cited as partial implementations of democratic socialist policy achieved without revolution. Revolutionary socialism and democratic socialism share a critique of capitalism but fundamentally disagree on strategy and on whether existing democratic institutions can be the vehicle for transformation."

@@ -50,7 +50,7 @@ Use the "F-pattern" or "sliding" visual: if you slide one intersection along the
   answer: 2
   explanation: "The converse of the Corresponding Angles Postulate is equally valid: if corresponding angles are congruent, the lines are parallel. This bidirectional relationship is what makes the postulate powerful as a proof tool — it lets you conclude parallelism from angle evidence, not just find angle measures when you already know the lines are parallel. Option A describes only the forward direction and misses the equally important converse."
 
-- question: "Corresponding angles formed by a transversal and two parallel lines are always supplementary (add up to 180°)."
+- question: "Corresponding angles formed by a transversal and two parallel lines are typically supplementary (add up to 180°)."
   type: true-false
   answer: false
   explanation: "Corresponding angles formed by a transversal and two parallel lines are congruent — they have equal measure — not supplementary. Two angles are supplementary when they add up to 180°; two angles are congruent when they are equal. For example, if the transversal hits both parallel lines at a 65° angle, all four corresponding angle pairs each measure 65°. Supplementary pairs at each intersection are adjacent angles (a linear pair), not corresponding angles."

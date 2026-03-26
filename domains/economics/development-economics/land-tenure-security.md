@@ -44,7 +44,7 @@ In many developing economies, customary or insecure land tenure discourages long
   answer: 1
   explanation: "Banks require collateral to lend, and a legal title converts an informally held asset into a legally recognized one that can be pledged as security. This is the 'dead capital' argument associated with Hernando de Soto: developing-world farmers may sit on valuable land assets they cannot leverage because they lack formal title. Titling activates these assets as collateral and expands access to credit, which is itself a prerequisite for investment in inputs, equipment, and improvements."
 
-- question: "Formal land titling programs always improve outcomes for all community members by securing their property rights."
+- question: "Formal land titling programs usually improve outcomes for most community members by securing their property rights."
   type: true-false
   answer: false
   explanation: "Titling has well-documented unintended consequences that can harm some community members. Communal tenure systems often function as informal insurance — families in crisis can access community land or receive help with implicit reciprocity. Titling converts land into a tradeable commodity: families in distress may sell their titled plots permanently rather than adjusting temporarily within a communal system, losing a safety net. Titling can also entrench existing inequalities if powerful individuals claim the best land during registration, and women are particularly vulnerable in contexts where customary access runs through male relatives but formal titles register individual (typically male) owners."

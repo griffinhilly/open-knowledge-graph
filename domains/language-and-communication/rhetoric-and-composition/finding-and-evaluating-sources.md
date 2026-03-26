@@ -61,7 +61,7 @@ Conduct a research session on a genuine question, starting with database searche
   answer: true
   explanation: "This is exactly why lateral reading was developed. Unreliable sources — advocacy pieces, pseudoscientific articles, predatory journal papers — can be very polished internally. They select and cite real sources selectively, construct consistent arguments, and appear professional. Their problems — cherry-picked evidence, discredited authors, publication in non-peer-reviewed venues — are typically visible only from outside, by checking how the source is regarded by the broader scholarly community."
 
-- question: "Wikipedia should be avoided entirely during the research process because it is not a credible academic source."
+- question: "Wikipedia should be avoided mostly during the research process because it is not a credible academic source."
   type: true-false
   answer: false
   explanation: "Wikipedia is inappropriate as a cited source in most academic writing, but dismissing it from the research process misses its genuine utility. A well-developed Wikipedia article provides rapid orientation to a new field, identifies key scholars and debates, and — most usefully — its references section is often the fastest route to the primary and secondary sources you actually need. The correct use is: treat Wikipedia as a map to find credible sources, not a destination to cite."

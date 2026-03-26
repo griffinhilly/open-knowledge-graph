@@ -56,7 +56,7 @@ Cognitive aging is not uniform decline across abilities; fluid and crystallized 
   answer: true
   explanation: "This is the central empirical finding in cognitive aging research. Fluid abilities (processing speed, working memory, novel problem-solving) begin a gradual decline from the mid-twenties. Crystallized abilities (vocabulary, expert knowledge, cultural learning) continue accumulating as long as a person remains cognitively engaged. The divergence explains why older adults can excel in their fields of expertise despite slower raw processing — they are drawing from a larger and deeper knowledge base."
 
-- question: "Cognitive aging represents uniform decline across all mental abilities, with older adults being consistently worse than younger adults on any cognitive task."
+- question: "Cognitive aging represents uniform decline across most mental abilities, with older adults being consistently worse than younger adults on any cognitive task."
   type: true-false
   answer: false
   explanation: "This is the core misconception the fluid–crystallized distinction corrects. Cognitive aging is highly selective: fluid abilities decline while crystallized abilities are preserved or continue growing. Older adults frequently outperform younger adults on tasks drawing on accumulated knowledge, vocabulary, or practiced expertise. They fall behind on novel tasks under time pressure. The uniform-decline model is not supported by lifespan data — cross-sectional studies overestimate decline by conflating age with cohort differences, and longitudinal studies show more selective trajectories."

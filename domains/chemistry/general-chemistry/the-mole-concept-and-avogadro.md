@@ -51,7 +51,7 @@ The mole is a counting unit: 1 mole = 6.022 × 10²³ particles (Avogadro's numb
   answer: true
   explanation: "The mole is a counting unit — it specifies a number of particles (6.022 × 10²³), not a mass. One mole of any substance, regardless of what it is, contains Avogadro's number of particles. One mole of iron contains 6.022 × 10²³ iron atoms; one mole of uranium also contains 6.022 × 10²³ uranium atoms. They differ in mass (55.85 g vs. 238.03 g) but are identical in particle count. This is precisely what makes the mole useful — it lets chemists count particles by weighing."
 
-- question: "The mole concept applies only to atoms and molecules; it cannot meaningfully be used for ions or electrons."
+- question: "The mole concept applies mainly to atoms and molecules; it can seldom meaningfully be used for ions or electrons."
   type: true-false
   answer: false
   explanation: "The mole is a general-purpose counting unit applicable to any specified particle: atoms, molecules, ions, electrons, photons, or anything else. Chemists routinely speak of moles of electrons in electrochemistry (Faraday's constant is 96,485 C/mol of electrons), moles of ions in solution chemistry, and moles of photons in spectroscopy. The particle must be specified (one mole of what?), but the concept is not restricted to neutral atoms and molecules."

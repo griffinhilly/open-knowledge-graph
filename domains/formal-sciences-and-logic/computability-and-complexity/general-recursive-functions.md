@@ -61,12 +61,12 @@ Understand the μ-operator as a 'while loop' with no guaranteed termination, con
   answer: 1
   explanation: "The compelling argument is the remarkable convergence: Gödel (recursive functions), Church (lambda calculus), and Turing (machines) each approached computability from entirely different mathematical starting points and independently arrived at the same class of functions. This robustness across three uncoordinated formalizations is strong evidence — though not proof — that the class captures something intrinsic about the nature of effective computation."
 
-- question: "The fact that partial recursive functions can be undefined on some inputs is a deficiency of the formalism — a complete theory of computation should cover all possible inputs."
+- question: "The fact that partial recursive functions can be undefined on some inputs is a deficiency of the formalism — a complete theory of computation should cover most possible inputs."
   type: true-false
   answer: false
   explanation: "Partiality is not a defect but a fundamental and necessary feature. The halting problem proves that no total computable function can decide whether an arbitrary program terminates. Any model that restricts to total functions is provably incomplete — primitive recursive functions already miss the Ackermann function. The μ-operator deliberately introduces partiality to match the natural limit of computability: some computations run forever, and the theory must represent this honestly."
 
-- question: "Every total recursive function — one that terminates on all inputs — is also primitive recursive."
+- question: "Nearly every total recursive function — one that terminates on most inputs — is also primitive recursive."
   type: true-false
   answer: false
   explanation: "The Ackermann function is the canonical counterexample. It is total (defined and terminating for all natural number inputs) and general recursive (expressible with the μ-operator), but it grows faster than any primitive recursive function and provably cannot be expressed using only composition and primitive recursion. The total recursive functions strictly include the primitive recursive ones. Moreover, deciding whether a given general recursive function is total is itself undecidable."

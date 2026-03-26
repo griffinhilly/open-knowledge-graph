@@ -64,7 +64,7 @@ Analyze modulation strategies in Classical sonatas and Romantic song literature,
   answer: false
   explanation: "Target key choice is fundamentally an emotional and structural decision, not a technical convenience. The dominant produces expected tension; the relative major/minor creates soft color contrast; the mediant offers a warmer surprise; the flat submediant gives a sudden bright lift. Each choice carries characteristic emotional character that should serve the formal goals of the passage. A modulation to the dominant because it's 'easiest' — when the piece calls for a warmer, more unexpected color — is a compositional mistake even if it is technically smooth."
 
-- question: "A direct modulation — changing key abruptly without a pivot chord or gradual preparation — is a compositional error that always produces unwanted disruption."
+- question: "A direct modulation — changing key abruptly without a pivot chord or gradual preparation — is a compositional error that generally produces unwanted disruption."
   type: true-false
   answer: false
   explanation: "Direct modulation is a deliberate technique with specific expressive uses. When a composition calls for disruption, surprise, or a jarring emotional shift, a direct modulation is the appropriate tool. Beethoven and Schubert used it intentionally to destabilizing effect. It becomes an error only when the composer intends a smooth transition but neglects the preparation — not when disruption itself is the goal. The distinction is between unintended and intended effects, not between 'allowed' and 'forbidden' techniques."

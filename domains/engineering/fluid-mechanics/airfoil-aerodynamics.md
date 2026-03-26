@@ -59,7 +59,7 @@ Plot the pressure coefficient C_p distribution over a NACA 0012 airfoil at sever
   answer: true
   explanation: "True, and this is a fundamental result of thin airfoil theory that holds approximately for most practical subsonic airfoil shapes regardless of camber. The aerodynamic center's fixed location (independent of alpha) makes it the natural reference point for stability analysis — if you know C_m at the aerodynamic center at one angle of attack, you know it at all angles of attack. This is why aircraft wing spars are often placed near the quarter-chord and why tail sizing calculations are referenced to the aerodynamic center. The center of pressure (where the resultant force acts) is a different point that moves as alpha changes."
 
-- question: "An airfoil with greater thickness will always stall at a lower angle of attack than a thinner airfoil of the same camber."
+- question: "An airfoil with greater thickness will generally stall at a lower angle of attack than a thinner airfoil of the same camber."
   type: true-false
   answer: false
   explanation: "False — the relationship between thickness and stall angle is not monotonically negative. Very thin airfoils actually tend to stall more abruptly via leading-edge separation bubbles, often at relatively low angles of attack, with little warning. Moderate thickness delays this leading-edge stall mechanism and often yields a higher C_L,max and a more gradual trailing-edge stall that pilots can detect (through buffeting) before full separation. Very thick airfoils eventually have worse characteristics from increased form drag, but 'thicker = lower stall angle' is a misconception — the Common Misconceptions section explicitly notes this."

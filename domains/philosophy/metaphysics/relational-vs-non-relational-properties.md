@@ -51,7 +51,7 @@ Intrinsic (non-relational) properties belong to objects independently of other e
   answer: true
   explanation: "This is precisely what makes relational properties relational. 'Being the tallest person in the room' is gained or lost as other people enter or leave, without any change to the person in question. Similarly, 'being heavier than Sam' changes if Sam's weight changes, with no change to the object. The property's truth value depends on external facts, not on the intrinsic nature of the object."
 
-- question: "By carefully examining an object in complete isolation — with no reference to anything else — you can discover all of its properties."
+- question: "By carefully examining an object in complete isolation — with no reference to anything else — you can discover most of its properties."
   type: true-false
   answer: false
   explanation: "You can discover its intrinsic properties by examining it in isolation, but not its relational properties. Relational properties — like being heavier than Sam, being north of Paris, being the oldest in a group — are constituted by relations to other entities and cannot be found by examining the object alone. A complete catalog of an object's intrinsic properties would miss everything relational about it."

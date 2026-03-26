@@ -64,7 +64,7 @@ Start with patterns: give sequences and ask students to find the common differen
   answer: 2
   explanation: "Arithmetic sequences are discrete linear functions. When plotted, the points fall exactly on a straight line. The slope of that line is the common difference d — in this case, 3. The first term a₁ determines the y-intercept (specifically, the y-intercept of the underlying line is a₁ − d = 5 − 3 = 2). Option B is the classic confusion: a₁ is the value of the first term, not the slope. The rate of change between terms — which is what slope measures — is d."
 
-- question: "A decreasing arithmetic sequence (where each term is smaller than the previous) is not truly arithmetic because the common difference must be positive."
+- question: "A decreasing arithmetic sequence (where each term is smaller than the previous) is not truly arithmetic because the common difference is expected to be positive."
   type: true-false
   answer: false
   explanation: "A sequence is arithmetic if the difference between consecutive terms is constant — regardless of sign. A negative common difference (d < 0) produces a decreasing sequence that is perfectly arithmetic. For example, 20, 15, 10, 5, 0, −5, ... has d = −5 and is arithmetic. The formula aₙ = a₁ + (n − 1)d works exactly the same way; d being negative simply means the sequence decreases rather than increases."

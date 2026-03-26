@@ -57,7 +57,7 @@ Use the analogy of software and hardware: the same program can run on different 
   answer: 1
   explanation: "Identity theory (type physicalism) says mental state types are identical to brain state types, implying only creatures with that specific brain structure can have those mental states. Functionalism avoids this by saying what defines a mental state is its causal/functional role, which could be realized by any system — silicon chips, octopus neurons, human neurons — that plays the right role. This is multiple realizability, functionalism's main advantage over identity theory."
 
-- question: "Functionalism entails that any machine that reliably produces outputs matching human responses to all inputs must be conscious."
+- question: "Functionalism entails that any machine that reliably produces outputs matching human responses to most inputs is expected to be conscious."
   type: true-false
   answer: false
   explanation: "This is precisely what critics like Searle (Chinese Room) and Chalmers (hard problem) deny. Functionalism defines mental states by their causal/functional role, but consciousness — qualia, subjective experience — may not be fully captured by functional description alone. A system could fulfill all functional criteria while there is 'nothing it is like' to be that system. Functionalism's relationship to consciousness remains contested."

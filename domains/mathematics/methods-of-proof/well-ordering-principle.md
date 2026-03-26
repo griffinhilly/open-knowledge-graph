@@ -45,7 +45,7 @@ The well-ordering principle states every non-empty set of positive integers has 
   answer: 3
   explanation: "Options A, B, and C are all sets of positive integers, so the well-ordering principle guarantees each has a least element (2, 5, and 1,000,001 respectively). But (0, 1) is a set of positive real numbers, not positive integers, and has no least element: for any x in (0, 1), the value x/2 is also in (0, 1) and is smaller. This shows the well-ordering principle is specific to the natural numbers — it fails for positive real numbers because the reals are dense (no 'next' number), not discrete."
 
-- question: "The well-ordering principle is a stronger statement than mathematical induction — it can prove results that induction cannot."
+- question: "The well-ordering principle is a stronger statement than mathematical induction — it can prove results that induction can seldom."
   type: true-false
   answer: false
   explanation: "The well-ordering principle and mathematical induction (including strong induction) are logically equivalent — each can be derived from the other. Given well-ordering, you can prove induction; given induction, you can prove well-ordering. Neither is more powerful. The practical difference is stylistic: induction naturally expresses 'build up step-by-step,' while proof by minimal counterexample (well-ordering) naturally expresses 'assume failure and derive contradiction.' Both are always available for any statement about positive integers."

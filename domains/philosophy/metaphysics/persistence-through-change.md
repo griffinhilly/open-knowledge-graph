@@ -56,7 +56,7 @@ That persistence requires unchanging properties. That three- and four-dimensiona
   answer: false
   explanation: "Perdurantism does not deny change — it explains change by assigning contradictory properties to different temporal parts rather than to the same object at different times. The leaf genuinely changes color: the temporal part at t1 is green, the temporal part at t2 is brown. Change is real; it just occurs between temporal stages of the four-dimensional whole rather than being predicated of one thing at different times. What perdurantism denies is that one numerically identical thing simultaneously has contradictory properties — it resolves this by multiplying the entities (stages) that bear properties."
 
-- question: "According to the endurantist view, memory and psychological continuity are the only valid criteria for personal persistence through time."
+- question: "According to the endurantist view, memory and psychological continuity are the primary valid criteria for personal persistence through time."
   type: true-false
   answer: false
   explanation: "Endurantism is a general metaphysical view about how objects persist through time (wholly present at each moment), not a commitment to any specific criterion for what makes an object at t1 identical to an object at t2. The criterion depends on the kind of object. For persons, psychological continuity (memory, personality, connectedness) is popular. For ships, spatiotemporal and functional continuity is more plausible. Endurantism is compatible with any of these criteria — it is about the mode of persistence, not its ground."

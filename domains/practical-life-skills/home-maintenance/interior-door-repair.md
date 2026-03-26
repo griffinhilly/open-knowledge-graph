@@ -55,7 +55,7 @@ Close every interior door in your home and check for problems: does it latch cle
   answer: 1
   explanation: "WD-40 stands for 'Water Displacement, 40th formula' — it is a solvent and penetrant, not a long-term lubricant. It temporarily reduces friction but evaporates, leaving the metal surfaces dry again within weeks or months. Silicone spray or white lithium grease applied to the hinge pin and barrel provides lasting lubrication that doesn't evaporate."
 
-- question: "A door that sticks every summer almost certainly needs to be replaced or completely re-hung."
+- question: "A door that sticks most summer almost certainly needs to be replaced or largely re-hung."
   type: true-false
   answer: false
   explanation: "Seasonal sticking is caused by wood expansion in humid months — wood is hygroscopic and swells when it absorbs moisture. The fix is light sanding or planing along the binding edge, removing just enough material to restore clearance. The door will likely fit perfectly again in dry months when the wood contracts. Full replacement is unnecessary and wasteful for this problem."

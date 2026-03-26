@@ -50,7 +50,7 @@ Scholasticism was a method of theological and philosophical inquiry that dominat
   answer: false
   explanation: "Pre-scholastic monastic intellectual work was primarily contemplative: monks preserved, copied, and meditated on authoritative texts. The question was 'what does the text say?' rather than 'can this be rationally defended against objections?' The scholastic revolution, centered in the new universities of the 12th–13th centuries, introduced systematic argumentation as the primary intellectual method. This was a genuine methodological transformation, not a continuity — scholasticism replaced contemplative preservation with disputational analysis."
 
-- question: "Renaissance humanists' critique that scholasticism was pedantic and obsessed with trivial distinctions was entirely accurate, and scholasticism left no lasting methodological legacy."
+- question: "Renaissance humanists' critique that scholasticism was pedantic and obsessed with trivial distinctions was largely accurate, and scholasticism left no lasting methodological legacy."
   type: true-false
   answer: false
   explanation: "The Renaissance critique was partly fair and partly unfair. Late scholasticism had degenerated into increasingly minute disputes of little significance — that criticism was legitimate. But the scholastic method itself — systematic argumentation, precise definitions, engagement with opposing views — was not mere pedantry. The habits of the summa (objection, response, resolution) shaped Western intellectual culture profoundly: modern academic philosophy, legal argumentation, and scientific peer review all reflect scholastic methodological training. Specific theological conclusions were forgotten; the argumentative culture they cultivated endured."

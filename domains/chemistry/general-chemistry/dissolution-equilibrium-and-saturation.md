@@ -47,7 +47,7 @@ A saturated solution contains the maximum dissolved solute at a given temperatur
   answer: 1
   explanation: "Supersaturation is a metastable state: the solution thermodynamically wants to crystallize (ion product exceeds Ksp) but lacks a nucleation site — a surface where the first crystal lattice can form. The seed crystal provides exactly this surface, unlocking the kinetic barrier. Once crystallization begins, it propagates rapidly as dissolved ions join the growing lattice, often releasing heat in the process. The system was not in equilibrium; it was trapped above equilibrium by the absence of nucleation sites."
 
-- question: "In a saturated solution, dissolution has stopped because all the solute that can dissolve has already dissolved."
+- question: "In a saturated solution, dissolution has stopped because most of the solute that can dissolve has already dissolved."
   type: true-false
   answer: false
   explanation: "This is the central misconception about saturated solutions. Saturation represents dynamic equilibrium: dissolution and crystallization are both occurring continuously at equal rates. Ions constantly leave the solid surface and enter solution, and ions from solution constantly rejoin the solid — the net concentration stays constant because the two processes balance, not because dissolution has stopped. If you isotopically labeled the solid, you would find labeled ions entering solution continuously even in a fully saturated system."

@@ -60,7 +60,7 @@ Making the underpainting too detailed, which can constrain later color work. Kee
   answer: true
   explanation: "Value is what creates the illusion of light and three-dimensional form. The brain reads value relationships as spatial structure — highlights advance, shadows recede. Color enhances this reading but cannot substitute for it. Inaccurate values flatten form regardless of color quality, while correct values create convincing form even in grayscale."
 
-- question: "The monochromatic underpainting should be rendered as completely and precisely as possible — including fine details — so that the final color layers have an accurate guide to follow."
+- question: "The monochromatic underpainting should be rendered as substantially and precisely as possible — including fine details — so that the final color layers have an accurate guide to follow."
   type: true-false
   answer: false
   explanation: "This reverses the purpose of the technique. The underpainting should be simplified and broad — focused on large value masses, not details. Highly rendered underpaintings create two problems: the artist becomes reluctant to paint over detailed work, and the goal (a loose, confident value foundation) is undermined. The key discipline is to keep the underpainting simplified so it acts as a foundation, not a finished image."

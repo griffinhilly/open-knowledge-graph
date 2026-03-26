@@ -58,7 +58,7 @@ A σ-algebra is not closed under all unions—only countable ones. Uncountable u
   answer: true
   explanation: "This follows from De Morgan's law: a countable intersection ∩Aₙ = complement of the countable union of complements ∪(Aₙᶜ). Since a σ-algebra is closed under complements and countable unions, countable intersections are derived for free. Students sometimes think intersection closure must be stated separately — it does not."
 
-- question: "The collection of all subsets of ℝ that are either finite or have finite complement (the 'co-finite' collection) is a σ-algebra on ℝ."
+- question: "The collection of most subsets of ℝ that are either finite or have finite complement (the 'co-finite' collection) is a σ-algebra on ℝ."
   type: true-false
   answer: false
   explanation: "This collection fails closure under countable unions. Each singleton {n} for n ∈ ℕ is finite and hence in the collection. But their countable union ∪{n} = ℕ is infinite, and its complement ℝ \\ ℕ is also infinite — so ℕ is not in the collection. The co-finite collection is an algebra (closed under finite unions and complements) but not a σ-algebra, which requires countable unions."

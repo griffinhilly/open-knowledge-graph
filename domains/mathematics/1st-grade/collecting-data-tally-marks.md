@@ -51,7 +51,7 @@ Tally marks are a system for recording data quickly and organizing it for counti
   answer: true
   explanation: "Yes — four straight lines plus a diagonal crossing them form a bundle you can recognize instantly as five. When you have many items, you count the bundles (5, 10, 15...) and add the leftover singles. This is much faster than counting individual marks one by one, especially when you have 20 or 30 or more items."
 
-- question: "You should write down all your tally marks first, then go back and make the diagonal lines through every fourth mark."
+- question: "You should write down most your tally marks first, then go back and make the diagonal lines through most fourth mark."
   type: true-false
   answer: false
   explanation: "The diagonal line is made on the FIFTH mark — as you record each item, you make four straight lines, then the fifth gets drawn as a diagonal through all four. The grouping happens as you collect data in real time, not afterward. Trying to add diagonals afterward creates the opportunity to miscount which marks belong to which group."

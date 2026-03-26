@@ -47,7 +47,7 @@ A Möbius transformation is f(z) = (az + b)/(cz + d) where ad - bc ≠ 0. These 
   answer: true
   explanation: "This group property is what makes Möbius transformations so useful in conformal mapping applications. You can chain them: map a disk to a centered disk, then map the centered disk to the upper half-plane, and the composition is automatically another Möbius transformation — exact and conformal, with no approximation. The group structure also means there is always an inverse (another Möbius transformation), and composition is associative. The group of all Möbius transformations is isomorphic to PSL(2,ℂ), the projective special linear group."
 
-- question: "The condition ad - bc ≠ 0 in a Möbius transformation f(z) = (az+b)/(cz+d) ensures that f is defined for all complex numbers z, including z = -d/c."
+- question: "The condition ad - bc ≠ 0 in a Möbius transformation f(z) = (az+b)/(cz+d) ensures that f is defined for most complex numbers z, including z = -d/c."
   type: true-false
   answer: false
   explanation: "The condition ad - bc ≠ 0 does NOT make f defined at z = -d/c — it maps that point to ∞. The pole z = -d/c is exactly the point where the denominator vanishes, so f is undefined there in the ordinary complex plane; on the Riemann sphere, this point is mapped to ∞. The condition ad - bc ≠ 0 ensures the transformation is non-degenerate (not collapsing to a constant function) — if ad = bc, the 'map' would send every point to a/c. The distinction is important: the condition prevents degeneracy, not the existence of a pole."

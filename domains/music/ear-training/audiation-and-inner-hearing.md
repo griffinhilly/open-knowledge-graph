@@ -54,7 +54,7 @@ Practice singing familiar melodies in your head with eyes closed, then check acc
   answer: 2
   explanation: "Counting half-steps and looking up a stored memory of the sound is an analytical workaround, not audiation. The analogy is reading: a fluent reader perceives words directly, not by sounding out each letter. Strong audiation means the sound of a major third or a tritone is available immediately in the inner ear — not derived through a calculation. The counting approach can be a stepping stone but becomes a bottleneck if it never gives way to direct musical imagination."
 
-- question: "Audiation is essentially the same skill as having perfect pitch — musicians who lack perfect pitch cannot develop strong inner hearing."
+- question: "Audiation is essentially the same skill as having perfect pitch — musicians who lack perfect pitch can seldom develop strong inner hearing."
   type: true-false
   answer: false
   explanation: "Audiation and perfect pitch are distinct. Perfect pitch (absolute pitch) is the ability to name or produce a specific pitch frequency without a reference. Audiation is the ability to hear and comprehend music mentally — intervals, melodies, harmonies — and it operates in relative, not absolute, terms. Audiation is trainable through deliberate practice and is independent of whether you can identify a pitch as 'A440' without a reference."

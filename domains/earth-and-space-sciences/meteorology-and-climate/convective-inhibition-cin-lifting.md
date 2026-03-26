@@ -52,7 +52,7 @@ CIN represents the energy required to lift a parcel from the surface to its Leve
   answer: true
   explanation: "CIN acts as a selective filter. It suppresses weak, disorganized convection that would otherwise tap the available energy gradually and inefficiently. With moderate CIN present, only forcing mechanisms strong enough to overcome the cap — cold fronts, drylines, strong outflow boundaries — can trigger storms. When those triggers arrive, a large accumulated CAPE reservoir releases at once, producing fewer but significantly more intense updrafts. Many significant tornado outbreaks occur in environments with high CAPE and a moderate cap that broke in the afternoon."
 
-- question: "An atmosphere with very high CAPE (above 4000 J/kg) will always produce severe thunderstorms, regardless of CIN."
+- question: "An atmosphere with very high CAPE (above 4000 J/kg) will generally produce severe thunderstorms, regardless of CIN."
   type: true-false
   answer: false
   explanation: "CAPE represents potential energy, but that energy cannot be released unless a parcel reaches its LFC. Very high CIN (above 200 J/kg) can effectively cap the atmosphere all day even with enormous CAPE, if no lifting mechanism provides sufficient forcing. These 'busted' severe weather days are a known forecasting challenge — soundings show extreme instability, but no storms fire. The cap may even strengthen through the day as warm, dry air advects into the lower troposphere. High CAPE + high CIN + no trigger = clear skies despite an explosive atmosphere below."

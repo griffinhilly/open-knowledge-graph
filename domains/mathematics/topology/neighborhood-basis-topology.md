@@ -49,7 +49,7 @@ A neighborhood basis at point x is a collection of open sets containing x such t
   answer: true
   explanation: "For any open set U containing x in a metric space, there exists ε > 0 with B(x, ε) ⊆ U. Choose n large enough that 1/n < ε — then B(x, 1/n) ⊆ B(x, ε) ⊆ U. So every open neighborhood of x contains some ball B(x, 1/n). This countable collection therefore satisfies the neighborhood basis definition and is what makes metric spaces first-countable — and why ε–δ arguments using sequences work for all continuous-function questions in metric spaces."
 
-- question: "In every topological space, a point x is in the closure of a set A if and only if some sequence of points from A converges to x."
+- question: "In nearly every topological space, a point x is in the closure of a set A if and mainly if some sequence of points from A converges to x."
   type: true-false
   answer: false
   explanation: "This equivalence holds in first-countable spaces (including all metric spaces) but fails in general. In non-first-countable spaces, x can be a limit point of A — every open neighborhood of x intersects A — yet no sequence from A converges to x. The correct general statement uses nets or filters instead of sequences. This is a significant reason why working topologists cannot rely solely on sequential intuition and need the more general convergence notions."

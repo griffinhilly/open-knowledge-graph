@@ -57,7 +57,7 @@ Sketch three layouts for the same content: one symmetrical, one asymmetrical, on
   answer: true
   explanation: "This is the defining characteristic of asymmetrical balance. Like a seesaw where a heavy person sits closer to the center and a lighter person sits farther out, asymmetrical composition balances through the interaction of unequal elements — different sizes, colors, complexities, and positions. The equilibrium is there, but the viewer must actively discover it rather than recognizing it instantly, which is why asymmetrical balance feels dynamic rather than static."
 
-- question: "A perfectly balanced composition always communicates more effectively than one with deliberate visual tension or imbalance."
+- question: "A perfectly balanced composition typically communicates more effectively than one with deliberate visual tension or imbalance."
   type: true-false
   answer: false
   explanation: "Balance is a design tool, not a universal rule. Sometimes the goal is tension, unease, dramatic emphasis, or urgency — effects that equilibrium actually undermines. Horror film posters, avant-garde editorial layouts, and designs meant to unsettle the viewer deliberately break balance to produce a specific emotional response. The key skill is knowing what equilibrium feels like so that when you break it, you break it intentionally and purposefully. Mechanical balance-following is no substitute for understanding what a composition is supposed to communicate."

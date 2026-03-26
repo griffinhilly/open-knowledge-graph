@@ -54,7 +54,7 @@ A function f(x, y) is differentiable at (a, b) if it can be well-approximated by
   answer: true
   explanation: "Differentiability implies the existence of partial derivatives. The formal definition of differentiability requires that there exist constants L₁ and L₂ such that the linear approximation using L₁h + L₂k vanishes faster than √(h²+k²). When this holds, restricting to h=0 or k=0 recovers the limit definitions of f_y and fₓ respectively — so both must exist and equal L₂ and L₁. The implication goes one way: differentiability ⟹ partial derivatives exist (but not conversely)."
 
-- question: "If both partial derivatives of f(x,y) exist at every point in ℝ², then f is differentiable at every point in ℝ²."
+- question: "If both partial derivatives of f(x,y) exist at most point in ℝ², then f is differentiable at nearly every point in ℝ²."
   type: true-false
   answer: false
   explanation: "Existence of partial derivatives does not guarantee differentiability. A classic counterexample: f(x,y) = xy/√(x²+y²) for (x,y) ≠ (0,0) and f(0,0) = 0. Both fₓ(0,0) and f_y(0,0) exist (both equal 0), yet f is not differentiable at the origin because the linear approximation using 0·h + 0·k does not vanish faster than √(h²+k²) when approaching along the line y = x. The partial derivatives only measure axis-aligned rates of change, missing the function's behavior in other directions."

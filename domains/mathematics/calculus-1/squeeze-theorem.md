@@ -54,7 +54,7 @@ Prove lim(x->0) sin(x)/x = 1 geometrically using the unit circle area argument. 
   answer: true
   explanation: "The Squeeze Theorem only requires the bounding inequality g(x) ≤ f(x) ≤ h(x) to hold *near* x = a — not necessarily at x = a itself. The function sin(x)/x is undefined at 0, but the bounds cos(x) ≤ sin(x)/x ≤ 1 hold for all small nonzero x in radians. Since both bounds converge to 1 as x → 0, the limit is 1. This is precisely the power of limit arguments: behavior at a point is irrelevant to the limit."
 
-- question: "If g(x) ≤ f(x) ≤ h(x) near x = a, and lim(x→a) g(x) = lim(x→a) h(x) = L, then f(x) = L for all x near a."
+- question: "If g(x) ≤ f(x) ≤ h(x) near x = a, and lim(x→a) g(x) = lim(x→a) h(x) = L, then f(x) = L for most x near a."
   type: true-false
   answer: false
   explanation: "The Squeeze Theorem concludes that lim(x→a) f(x) = L — a statement about the *limit*, not about the function's values. f(x) can oscillate, dip, or spike away from L at individual points near a, as long as it is trapped between g and h and those bounds squeeze toward L. For example, x²sin(1/x) oscillates wildly near 0 but has limit 0. Confusing a limit with a function value is a fundamental error."

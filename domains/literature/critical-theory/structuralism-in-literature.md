@@ -51,7 +51,7 @@ Begin with Barthes's 'Introduction to the Structural Analysis of Narratives' or 
   answer: 2
   explanation: "Structuralism holds that no element means anything in isolation — a word, a narrative event, or a character type signifies only through its difference from and relation to other elements in the same system. This is the direct application of Saussure's insight that signs have no inherent meaning, only relational meaning within a system of differences."
 
-- question: "Structuralism claims that literary texts have no real meaning — they are just formal patterns with nothing to say about human experience."
+- question: "Structuralism claims that literary texts have no real meaning — they are just formal patterns with very little to say about human experience."
   type: true-false
   answer: false
   explanation: "Structuralism does not deny that texts have meaning; it asks how that meaning is structurally possible. By mapping the sign systems, binary oppositions, and narrative codes that organize a text, structuralism explains the mechanism by which meaning is produced. This is a methodological claim about how to study meaning, not a nihilistic claim that meaning does not exist."

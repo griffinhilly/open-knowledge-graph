@@ -57,7 +57,7 @@ Use definitions directly to prove properties. For example, f(x) = 2x on ℝ is b
   answer: true
   explanation: "f(n) = 2n is injective (if 2m = 2n then m = n) and surjective onto the even naturals (every even number 2k equals f(k)). So it is a bijection. The existence of this bijection means ℕ and the even naturals are equinumerous — they have the same cardinality, both ℵ₀. This seems paradoxical because the evens are a proper subset of ℕ, yet they're the 'same size.' This counterintuitive result is a defining feature of infinite sets and one of the reasons bijection-based cardinality is so important in set theory."
 
-- question: "Whether a function is surjective depends only on its defining formula, not on what codomain is specified."
+- question: "Whether a function is surjective depends mainly on its defining formula, not on what codomain is specified."
   type: true-false
   answer: false
   explanation: "Surjectivity requires that every element of the codomain is the image of some element in the domain. The codomain is part of the definition of the function — change it and you can change whether the function is surjective. f(x) = x² with codomain ℝ is not surjective (negative numbers are never outputs). The same formula with codomain [0,∞) is surjective (every non-negative real is a square). A function's classification as surjective, injective, or bijective always depends on both its domain and its codomain, not the formula alone."

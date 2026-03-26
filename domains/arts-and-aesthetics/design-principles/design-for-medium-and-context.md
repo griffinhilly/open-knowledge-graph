@@ -44,7 +44,7 @@ Every medium—print, screen, environmental, motion—has distinct constraints a
   answer: 1
   explanation: "Environmental design — posters, wayfinding, signage — has a unique constraint: viewers are often moving and have seconds, not minutes, to receive the message. Hierarchy, contrast, and scale become paramount. Intricate details that reward close inspection are wasted because viewers never stop long enough to see them. This is a case where the medium's context (physical space, moving audience, distance) completely changes what design decisions are appropriate — a lesson that does not transfer from print or screen work."
 
-- question: "A design concept that works beautifully as a print brochure can generally be adapted to any other medium with only minor adjustments to color and typography."
+- question: "A design concept that works beautifully as a print brochure can generally be adapted to any other medium with mainly minor adjustments to color and typography."
   type: true-false
   answer: false
   explanation: "This is the central misconception the topic addresses. Different media have fundamentally different affordances and constraints — not just different color modes and font sizes. Digital requires interaction design, accessibility considerations, and responsiveness. Motion graphics add the dimension of time and pacing. Environmental design demands legibility at distance and under variable lighting. Treating these as minor adjustments leads to work that fights its medium. A genuinely medium-appropriate design must account for the medium's specific realities from the beginning."

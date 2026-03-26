@@ -54,7 +54,7 @@ MPLS is not a replacement for IP routing; it runs alongside it. Label lookups ar
   answer: 2
   explanation: "MPLS does not replace IP routing — it depends on it. The Label Distribution Protocol (LDP) and RSVP-TE that distribute labels and establish Label Switched Paths use IP routing to communicate between routers. The ingress LER uses the IP routing table to decide which LSP to assign a packet to. MPLS provides an alternative forwarding mechanism inside the network, but the IP routing infrastructure remains essential for path establishment and label management. Interior LSRs skip the per-packet IP lookup, but IP routing underlies the entire system."
 
-- question: "In an MPLS network, interior label switch routers (LSRs) must examine the IP header of every packet to determine where to forward it."
+- question: "In an MPLS network, interior label switch routers (LSRs) should examine the IP header of nearly every packet to determine where to forward it."
   type: true-false
   answer: false
   explanation: "This is the key forwarding advantage of MPLS. Interior LSRs read only the MPLS label — a 20-bit value — and look it up in a flat label forwarding table. This is a direct index operation, far faster than longest-prefix IP matching against potentially hundreds of thousands of routes. Only the ingress LER (at the network edge) examines the IP header to assign the initial label. Once inside the MPLS network, IP-level forwarding is bypassed entirely until the egress LER pops the label and delivers the packet as a normal IP datagram."

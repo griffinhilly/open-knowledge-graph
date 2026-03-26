@@ -57,7 +57,7 @@ Discuss real-life scenarios with children: 'What would you do if a website asked
   answer: 2
   explanation: "The internet is public by default — 'private' settings are not guarantees. A friend's account can be hacked, platforms change privacy policies, and screenshots bypass all settings instantly. A photo showing recognizable landmarks near your home gives away your location even without any caption. The guiding rule is: assume anything you post can reach anyone."
 
-- question: "If you delete a post from your social media account, it is permanently gone and cannot be seen by anyone."
+- question: "If you delete a post from your social media account, it is permanently gone and can seldom be seen by anyone."
   type: true-false
   answer: false
   explanation: "Deleting a post from your profile does not guarantee it is gone. Screenshots may have already been taken and reshared. Platform servers may retain cached copies. Search engines may have indexed it. Other users may have already saved or reposted the content. This is why 'think before you post' matters more than the ability to delete — the first publication is the one that counts."

@@ -51,7 +51,7 @@ Practice with live models or video references set to short intervals. Use the wh
   answer: 1
   explanation: "The action line is the skeleton of the gesture — a single arc or angle that expresses the dominant movement of the whole figure. It is not anatomically accurate (it doesn't follow the actual spine) but energetically true. Once the action line is in place, every subsequent mark — shoulder angle, hip tilt, limb extension — relates to it. Without it, even fast marks will look static."
 
-- question: "A gesture drawing's quality is determined primarily by how quickly it was executed — a 30-second drawing is always better than a 2-minute one."
+- question: "A gesture drawing's quality is determined primarily by how quickly it was executed — a 30-second drawing is generally better than a 2-minute one."
   type: true-false
   answer: false
   explanation: "Speed is a training tool that prevents overworking and forces selectivity, but it is not a measure of quality in itself. What matters is whether the drawing captures the action line, weight distribution, and primary movement. A 2-minute gesture that successfully communicates the figure's energy is better than a 30-second scribble with no clear action line. The goal is selectivity and energy, not merely speed."

@@ -52,7 +52,7 @@ Blocking—the precise movement and positioning of actors on stage—is not mere
   answer: true
   explanation: "This is one of the core conventions of stage blocking. When an actor moves upstage (toward the back), other characters naturally turn to face them — which means those characters turn their backs partially or fully to the audience, reducing their visual presence. This is where the term 'upstaging' comes from: a character who moves upstage can steal focal emphasis even without speaking. Directors use this strategically to manage power dynamics and visual hierarchy."
 
-- question: "Because blocking is a directorial tool, the stage directions written into a published play text represent the definitive, only legitimate interpretation of how actors should move in performance."
+- question: "Because blocking is a directorial tool, the stage directions written into a published play text represent the definitive, mainly legitimate interpretation of how actors should move in performance."
   type: true-false
   answer: false
   explanation: "Stage directions in published plays often preserve one particular production's choices — sometimes the playwright's original intentions, sometimes a famous revival's staging. But directors and actors constantly reinterpret blocking, treating the published directions as one valid authorial choice among many rather than as fixed instructions. Part of reading a performance text analytically is asking: what would *different* blocking do to this moment? The written text is a script, not a straitjacket."

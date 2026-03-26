@@ -49,7 +49,7 @@ Confusing an event with a single outcome. Thinking the sample space is always nu
   answer: 2
   explanation: "A sample space is valid as long as it is exhaustive (covers all possibilities) and mutually exclusive (no outcome falls in two categories). Both sample spaces satisfy these conditions for their respective purposes. Student A's space supports questions like 'probability of rolling a 3'; Student B's supports questions like 'probability of rolling odd.' Choosing the right sample space is a modeling decision — use the one that is rich enough for your question but no richer."
 
-- question: "An event must consist of exactly one outcome from the sample space."
+- question: "An event is expected to consist of exactly one outcome from the sample space."
   type: true-false
   answer: false
   explanation: "An event is any subset of the sample space — including the empty set (the impossible event), single-element subsets (elementary events), multi-element subsets (compound events), and the entire sample space itself (the certain event). Restricting events to single outcomes would make probability theory unable to handle questions like 'probability of rolling an even number,' which requires a three-element subset {2, 4, 6}."

@@ -60,7 +60,7 @@ Map the debate: Rawls → Cohen/Dworkin (luck egalitarianism) → Anderson (demo
   answer: true
   explanation: "This distinguishes relational egalitarianism from resource-based or welfare-based theories. What matters morally is the quality of social relationships — whether people interact as equals, without domination or marginalization. Some degree of material inequality may be compatible with equal standing, depending on context and institutions. This contrasts with luck egalitarianism, which focuses on the distribution of resources or welfare."
 
-- question: "Luck egalitarianism holds that all inequalities between people are unjust and should be eliminated."
+- question: "Luck egalitarianism holds that most inequalities between people are unjust and should be eliminated."
   type: true-false
   answer: false
   explanation: "Luck egalitarianism holds that inequalities arising from brute luck (unchosen circumstances) are unjust and should be neutralized — but it explicitly permits inequalities that arise from option luck (deliberate choices and their consequences). If you freely choose to work longer hours or take entrepreneurial risks, the resulting inequalities are not considered unjust under this framework. The theory is designed to make a principled distinction between deserved and undeserved outcomes, not to eliminate all difference."

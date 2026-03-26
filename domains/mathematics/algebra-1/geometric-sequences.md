@@ -63,7 +63,7 @@ Compare directly with arithmetic sequences: one adds, the other multiplies. Iden
   answer: false
   explanation: "The exponent must be n−1, not n. The first term (n = 1) requires zero multiplications by r — it is simply a₁ × r⁰ = a₁ × 1 = a₁. The second term requires one multiplication (r¹), the third requires two (r²), and so on. Using r^n instead would give a₁ × r for the first term, which is actually the second term. This off-by-one error is one of the most common mistakes when applying the formula."
 
-- question: "A geometric sequence with a negative common ratio will always decrease toward zero."
+- question: "A geometric sequence with a negative common ratio will generally decrease toward zero."
   type: true-false
   answer: false
   explanation: "A negative common ratio causes the sequence to alternate in sign, but does not determine whether it grows or shrinks. If |r| > 1 (e.g., r = −3), the terms grow in absolute value while flipping sign: 2, −6, 18, −54, ... If |r| < 1 (e.g., r = −0.5), the terms do shrink toward zero while alternating. The behavior depends entirely on whether |r| is greater than, equal to, or less than 1 — the sign of r only controls the alternating pattern."

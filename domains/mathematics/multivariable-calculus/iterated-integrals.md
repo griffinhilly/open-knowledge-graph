@@ -44,7 +44,7 @@ A double integral ∬ f(x,y) dA can be computed as an iterated integral ∫∫ f
   answer: 1
   explanation: "Fubini's theorem states that ∫ₐᵇ ∫_c^d f(x,y) dy dx = ∫_c^d ∫ₐᵇ f(x,y) dx dy for continuous f on a rectangle. The order can be reversed without changing the value. This is useful because one order may be algebraically much simpler. Option C is wrong — that would require f(x,y) to factor as g(x)h(y)."
 
-- question: "When switching the order of integration for a non-rectangular region, the numerical bounds of integration stay the same — only the variable labels change."
+- question: "When switching the order of integration for a non-rectangular region, the numerical bounds of integration stay the same — primarily the variable labels change."
   type: true-false
   answer: false
   explanation: "The bounds change substantively, not just in label. For example, ∫₀¹ ∫₀ˣ f dy dx becomes ∫₀¹ ∫_y^1 f dx dy — the inner bound shifts from 'x' (a function of the outer variable) to 'y' and '1'. You must re-describe the same 2D region from the new outer variable's perspective, which requires sketching the region and reading the new bounds directly from the geometry."

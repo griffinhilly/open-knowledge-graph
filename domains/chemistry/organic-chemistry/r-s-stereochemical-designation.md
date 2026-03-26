@@ -50,7 +50,7 @@ The Cahn-Ingold-Prelog system assigns R (Rectus) or S (Sinister) to any chiral s
   answer: true
   explanation: "This is the 'phantom atom' rule for handling unsaturation. A C=O carbon is treated as bonded to two oxygens (one real, one phantom), and the oxygen is treated as bonded to two carbons. This lets the standard atomic-number ranking handle alkenes, carbonyls, and other unsaturated groups without any special-case rules."
 
-- question: "A molecule designated (S) must be levorotatory — it rotates plane-polarized light to the left."
+- question: "A molecule designated (S) is expected to be levorotatory — it rotates plane-polarized light to the left."
   type: true-false
   answer: false
   explanation: "R/S describes absolute configuration (spatial geometry); (+)/(−) describes optical rotation (an experimentally measured physical property). There is no systematic relationship between the two. Some S-configured compounds are dextrorotatory (+), others are levorotatory (−). The Latin origins of S (sinister = left) are a historical naming coincidence, not a rule about optical behavior."

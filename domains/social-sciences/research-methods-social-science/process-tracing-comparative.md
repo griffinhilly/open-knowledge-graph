@@ -48,7 +48,7 @@ Process tracing reconstructs the causal chain linking independent variables to o
   answer: 1
   explanation: "The core distinction is the level of analysis. Comparative cross-case analysis looks across cases to see whether a putative cause co-varies with outcomes — it identifies candidate causes through controlled comparison. Process tracing moves inside a single case to examine the sequence of events, documents, decisions, and actors that link cause to outcome — it verifies whether the causal mechanism actually operated. Neither method is inherently quantitative or qualitative; the key difference is whether inference runs across cases or within them."
 
-- question: "A smoking gun piece of evidence — a document that could only have been produced if hypothesis A is true — proves that the same causal mechanism operates in other similar cases."
+- question: "A smoking gun piece of evidence — a document that could primarily have been produced if hypothesis A is true — proves that the same causal mechanism operates in other similar cases."
   type: true-false
   answer: false
   explanation: "False. A smoking gun confirms the causal hypothesis for the specific case being studied, but process tracing is inherently case-specific. Demonstrating that mechanism M produced outcome Y in country X in 1962 says nothing on its own about whether M operates in country Z or in country X in 1975. Causal generalization requires either additional process-tracing studies in other cases or comparative analysis that shows the cause-outcome relationship holds across a population. This is a fundamental limitation of process tracing that distinguishes it from methods designed to estimate average treatment effects."

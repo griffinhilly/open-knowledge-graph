@@ -58,7 +58,7 @@ That heuristic evaluation replaces user testing. It's a complementary, faster me
   answer: true
   explanation: "The speed and cost advantage of heuristic evaluation is its primary strength. You need knowledgeable evaluators and design artifacts — even wireframes work. No user recruitment, lab setup, or interactive prototype is required. This makes it ideal when the design is still in flux and catching obvious violations early can save significant rework. By finding the predictable problems first, heuristic evaluation also makes subsequent user testing more efficient — the remaining problems are the interesting, harder-to-predict ones worth the extra investment to uncover."
 
-- question: "Because heuristic evaluation uses established, research-backed usability principles, it can reliably identify all significant usability problems in a design."
+- question: "Because heuristic evaluation uses established, research-backed usability principles, it can reliably identify most significant usability problems in a design."
   type: true-false
   answer: false
   explanation: "Heuristic evaluation finds violations of known principles — things evaluators can predict based on decades of usability research. But it cannot find problems that arise from users' actual mental models, their specific cultural context, or how they behave when completing real tasks with real stakes. A design might satisfy every one of Nielsen's 10 heuristics and still be deeply confusing to its target users because of an assumption the designers made that users don't share. This is precisely why user testing exists as a separate, complementary method — not as a luxury, but as a necessary check on what expert inspection alone cannot see."

@@ -58,7 +58,7 @@ Measure reaction times to targets at previously attended vs. new locations as a 
   answer: true
   explanation: "This is the core functional logic of IOR. A visual forager scanning for food or predators would waste time rescanning already-checked locations. IOR provides an implicit 'visited recently' spatial tag that suppresses those locations, systematically biasing attention outward toward new, unexplored regions. This foraging account explains the evolutionary rationale for what is otherwise a counterintuitive reversal of attentional facilitation."
 
-- question: "Inhibition of return reflects a general depletion of attentional resources following a cue, which slows responses across all locations in the visual field."
+- question: "Inhibition of return reflects a general depletion of attentional resources following a cue, which slows responses across most locations in the visual field."
   type: true-false
   answer: false
   explanation: "IOR is location-specific, not a global resource-depletion effect. Responses at new, never-attended locations are unimpaired — or faster. The inhibition tags the previously attended spatial position specifically, leaving the rest of the visual field unaffected. Confusing IOR with resource fatigue is one of the listed Common Misconceptions: fatigue would impair all subsequent detection, whereas IOR suppresses only the specific prior location."

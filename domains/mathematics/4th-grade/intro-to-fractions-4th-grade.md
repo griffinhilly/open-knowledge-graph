@@ -56,7 +56,7 @@ Begin with physical partitioning: folding paper strips, sharing food equally, sh
   answer: 2
   explanation: "The denominator names the unit: it tells you how many equal parts the whole has been divided into, and therefore what size each part is. Once you divide a whole into 5 equal parts, you have defined the unit 'one-fifth.' The numerator then counts how many of that unit you have — in this case, 3. Thinking of the denominator as 'total pieces' (rather than 'unit-definer') leads directly to the misconception that 3/5 means '3 shaded, 5 total' — which only works for area models and breaks down everywhere else."
 
-- question: "A fraction with a numerator larger than its denominator — like 7/4 — is not a valid number because fractions must always be less than 1."
+- question: "A fraction with a numerator larger than its denominator — like 7/4 — is not a valid number because fractions should usually be less than 1."
   type: true-false
   answer: false
   explanation: "False. A fraction represents division: 7/4 means 7 ÷ 4 = 1.75. There is no rule requiring fractions to be less than 1 — that belief comes from over-relying on the 'shaded pieces of a shape' model, where you typically shade fewer pieces than the total. On a number line, 7/4 sits between 1 and 2. 'Improper fractions' (numerator ≥ denominator) are perfectly valid numbers greater than or equal to 1."

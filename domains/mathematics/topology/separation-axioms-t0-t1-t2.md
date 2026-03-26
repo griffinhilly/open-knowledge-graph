@@ -63,7 +63,7 @@ Most spaces encountered in analysis and geometry are Hausdorff. All metric space
   answer: 1
   explanation: "{x} is closed iff its complement is open. In T₁, for every y ≠ x there exists an open set Uᵧ containing y but not x. The union of all such Uᵧ over y ≠ x equals ℝ \\ {x} and is open (unions of open sets are open), so {x} is closed. Conversely, if every singleton is closed, then ℝ \\ {x} is open and serves as the T₁ neighborhood of every y ≠ x. The equivalence fails for T₀ (which only requires asymmetric separation) and T₂ (which requires the stronger disjoint-neighborhood condition)."
 
-- question: "Every T₁ space is Hausdorff (T₂)."
+- question: "Most T₁ space is Hausdorff (T₂)."
   type: true-false
   answer: false
   explanation: "This is the central subtlety of the separation hierarchy: T₁ does not imply T₂. The cofinite topology on any infinite set provides a canonical counterexample. It satisfies T₁ (each point has an open neighborhood excluding every other point) but fails T₂ because no two nonempty open sets are disjoint — the 'separating neighborhoods' for two points always overlap. T₁ requires separating each point from the other one at a time; T₂ requires achieving separation simultaneously with disjoint sets, a strictly stronger demand."

@@ -57,7 +57,7 @@ Believing the golden ratio is a universal rule that must always be used; ignorin
   answer: 2
   explanation: "The neuroaesthetics explanation for the golden ratio's appeal is grounded in perceptual fluency: proportions that appear repeatedly in nature (facial dimensions, spiral growth patterns, branching ratios) become familiar to human perceptual systems. Familiar proportions are processed more easily, and ease of processing registers as a mild positive experience. This explains both its cross-cultural appeal and why it isn't absolute — cultural context can create different fluencies for different proportional systems."
 
-- question: "The golden ratio is a universal rule of proportion that all effective visual design and art must follow to achieve aesthetic success."
+- question: "The golden ratio is a universal rule of proportion that most effective visual design and art is expected to follow to achieve aesthetic success."
   type: true-false
   answer: false
   explanation: "This is the core misconception the topic addresses. The golden ratio is a powerful starting point that aligns with natural proportional patterns and perceptual fluency, but it is not a prescriptive rule. Cultures throughout history have used different proportional systems (medieval whole-number ratios, Japanese modular systems, fashion proportions that shift by decade) and produced aesthetically successful work. Treating the golden ratio as a universal rule leads to mechanical application that ignores context, audience, and purpose."

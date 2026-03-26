@@ -57,7 +57,7 @@ Tfh are not simply CD4+ T cells in the germinal center—they have specific tran
   answer: 1
   explanation: "CXCR5 is a chemokine receptor that follows a gradient of CXCL13 produced by follicular stromal cells. Upregulation of CXCR5, combined with downregulation of CCR7 (which normally retains T cells in the T zone), physically relocates the differentiating Tfh cell into the B cell follicle. This migration is a prerequisite for function — the Tfh cell cannot deliver CD40L or IL-21 to B cells if it is not in the right compartment. CXCR5 is the navigational mechanism; CD40L and IL-21 are the effector signals."
 
-- question: "Tfh cells distribute survival and differentiation signals equally to all germinal center B cells, ensuring broad support for the immune response."
+- question: "Tfh cells distribute survival and differentiation signals equally to most germinal center B cells, ensuring broad support for the immune response."
   type: true-false
   answer: false
   explanation: "Tfh help is competitive and affinity-dependent, not uniform. In the germinal center light zone, B cells compete to capture antigen from follicular dendritic cells. B cells with higher-affinity antigen receptors capture more antigen and display more peptide-MHC II on their surface. Tfh cells form more stable conjugates with these high-antigen-display B cells, delivering proportionally stronger CD40L and IL-21 signals. Low-affinity B cells receive less help and are more likely to undergo apoptosis. This selective delivery is the mechanism of affinity-based selection — not a flaw but the essential feature generating increasingly potent antibodies."

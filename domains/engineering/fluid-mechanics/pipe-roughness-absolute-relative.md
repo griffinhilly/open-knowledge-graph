@@ -51,7 +51,7 @@ Absolute roughness (ε, actual surface irregularity height) becomes significant 
   answer: true
   explanation: "This is a key result from the Moody chart. When Re is large enough that the viscous sublayer is negligibly thin compared to ε, the roughness elements protrude fully into the turbulent core and generate eddies whose magnitude is independent of viscosity. Friction losses are then proportional to velocity squared, meaning the friction factor — defined as the ratio of head loss to velocity head — becomes constant. On the Moody chart, the fully rough curves are horizontal at large Re. The friction factor depends only on ε/D in this regime."
 
-- question: "A pipe with a larger absolute roughness value (ε) will always have a higher friction factor than a pipe with a smaller ε, regardless of pipe diameter."
+- question: "A pipe with a larger absolute roughness value (ε) will generally have a higher friction factor than a pipe with a smaller ε, regardless of pipe diameter."
   type: true-false
   answer: false
   explanation: "Friction factor in turbulent flow is governed by relative roughness ε/D, not absolute roughness ε. A large-diameter pipe with high absolute roughness can have a lower friction factor than a small-diameter pipe with low absolute roughness if its relative roughness is smaller. For example, a 1000-mm pipe with ε = 1 mm (ε/D = 0.001) will have a lower friction factor than a 20-mm pipe with ε = 0.1 mm (ε/D = 0.005). The physical reason is that what matters is how large the bumps are relative to the flow channel, not their absolute size."

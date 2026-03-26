@@ -54,7 +54,7 @@ A topological manifold is a Hausdorff space with a countable basis where every p
   answer: true
   explanation: "This is correct and captures the key insight about manifolds: the manifold definition is about *local* structure only. Both T² and S² satisfy the locally Euclidean condition — any sufficiently small neighborhood of any point is homeomorphic to an open disk in ℝ². Their global structures are radically different (they are not homeomorphic to each other), but locally they cannot be distinguished by topology alone. This is precisely why the manifold concept is powerful: it separates local structure (where calculus works) from global structure (which requires more sophisticated tools)."
 
-- question: "A manifold's global topology can always be determined by examining the charts (local coordinate systems) in its atlas."
+- question: "A manifold's global topology can typically be determined by examining the charts (local coordinate systems) in its atlas."
   type: true-false
   answer: false
   explanation: "This is false — and it is the central subtlety of manifold theory. Individual charts only reveal local structure (homeomorphic to ℝⁿ). The global topology is encoded in *how charts overlap*, not in any single chart. The transition maps between overlapping charts — and their compatibility conditions — determine the manifold's global structure. For instance, a cylinder and a Möbius band have identical local structure (both are locally flat 2D strips), but their atlas transition maps differ in orientation, revealing their global difference. Distinguishing global topology requires tools like homology, homotopy groups, and the Euler characteristic."

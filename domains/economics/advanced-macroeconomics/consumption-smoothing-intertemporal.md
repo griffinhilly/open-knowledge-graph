@@ -53,7 +53,7 @@ The permanent income hypothesis asserts that rational agents spread consumption 
   answer: true
   explanation: "A temporary shock affects only one period's income. When spread over a lifetime of, say, 40 remaining years, the impact on permanent income is roughly 1/40 of the shock. Since consumption tracks permanent income, the marginal propensity to consume out of transitory income is very close to zero. Almost all of the temporary windfall should be saved. This is the sharpest empirical prediction of the PIH and one of its most tested implications."
 
-- question: "The permanent income hypothesis implies that households with higher current incomes always consume more than households with lower current incomes."
+- question: "The permanent income hypothesis implies that households with higher current incomes generally consume more than households with lower current incomes."
   type: true-false
   answer: false
   explanation: "The PIH says consumption tracks permanent income, not current income. A young doctor in residency (high permanent income, low current income) may consume more than a retired worker on a comfortable pension (moderate permanent income, moderate current income). Conversely, a farmer who had a one-time bumper crop has high current income but low permanent income and should save most of it, consuming little. Current income is only relevant insofar as it updates the estimate of permanent income."

@@ -53,7 +53,7 @@ Thinking the box always contains 50% of the data (true only for symmetric distri
   answer: true
   explanation: "By definition, Q1 is the 25th percentile and Q3 is the 75th percentile, so the middle 50% of observations fall between them — exactly the region spanned by the box. This is a definitional property of quartiles and holds regardless of the distribution's shape. Note that 50% of values (observations) is different from 50% of visual area; in a skewed distribution the box may look asymmetric while still containing exactly half the data."
 
-- question: "An outlier flagged by the 1.5 × IQR rule must be an error and should be removed before any analysis."
+- question: "An outlier flagged by the 1.5 × IQR rule is expected to be an error and should be removed before any analysis."
   type: true-false
   answer: false
   explanation: "The 1.5 × IQR rule identifies unusually extreme values for investigation, not automatic deletion. Outliers can be genuine observations — a legitimately exceptional measurement, a real extreme case, or even the most important finding in the dataset. Whether to remove an outlier requires domain knowledge: Was it recorded correctly? Does the phenomenon naturally produce extremes? Blindly removing outliers inflates apparent precision and can introduce serious bias. The rule's purpose is to flag, not to condemn."

@@ -44,7 +44,7 @@ A power series ∑aₙ(x - c)ⁿ converges uniformly on any closed interval insi
   answer: 2
   explanation: "For any x in [−r, r], |aₙxⁿ| ≤ |aₙ|rⁿ = Mₙ. The M-test requires ΣMₙ < ∞. Since r < R, the series ∑|aₙ|rⁿ converges (this is what having a radius of convergence means). If we tried r = R (option B), ∑|aₙ|Rⁿ might diverge, and the M-test would fail. Using just |aₙ| (option A) ignores the x-dependence entirely and doesn't give a valid bound for all n."
 
-- question: "A power series that converges pointwise at every point of (−R, R) necessarily converges uniformly on that entire open interval."
+- question: "A power series that converges pointwise at most point of (−R, R) necessarily converges uniformly on that entire open interval."
   type: true-false
   answer: false
   explanation: "Pointwise convergence on an open interval does not imply uniform convergence on that same interval. The theorem guarantees uniform convergence only on closed sub-intervals [−r, r] with r strictly less than R. Near the endpoints, the partial sums may converge more and more slowly, preventing uniformity on the full open interval. This is precisely why the Weierstrass M-test is applied to a compact sub-interval: the bound Mₙ = |aₙ|rⁿ is only summable because r < R."

@@ -61,12 +61,12 @@ The practical test for intellectual humility is simple: for any belief you hold 
   answer: 1
   explanation: "Calibrated uncertainty means the confidence level tracks the strength of evidence — not a fixed moderate level (option A), not refusing to assign probabilities (option C), and not a domain-based blanket rule (option D). Evolution has extraordinary converging evidence; 95% confidence is calibrated. Complex policy outcomes depend on many interacting variables with weak prediction records; 55% may be appropriate. The contrast between well-established scientific consensus and contested predictive questions is exactly the kind of discrimination that calibrated uncertainty requires."
 
-- question: "Saying 'I don't know' in response to a question is always a sign of intellectual failure or laziness."
+- question: "Saying 'I don't know' in response to a question is typically a sign of intellectual failure or laziness."
   type: true-false
   answer: false
   explanation: "This is the misconception the topic directly addresses. 'I don't know' is often the most accurate and intellectually honest statement when evidence is genuinely insufficient. Fabricating a confident answer where none is warranted is a calibration failure — it expresses more confidence than the evidence supports. Comfort with 'I don't know' is a marker of calibrated thinking, not a failure of it. The intellectually humble response recognizes when knowledge is absent and says so rather than papering over genuine uncertainty with false confidence."
 
-- question: "Intellectual humility requires treating all opposing views with equal respect, even when some have far more evidence behind them than others."
+- question: "Intellectual humility requires treating most opposing views with equal respect, even when some have far more evidence behind them than others."
   type: true-false
   answer: false
   explanation: "Intellectual humility means calibrating confidence to evidence, not equalizing confidence across all positions. A person who gives equal credence to germ theory and miasma theory is not being humble — they are being miscalibrated. True intellectual humility involves accurately assessing where the evidence actually lies, being open to updating when new evidence arrives, and acknowledging uncertainty where it genuinely exists. The virtue is in accuracy, not in manufactured balance between strong and weak claims."

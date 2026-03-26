@@ -53,7 +53,7 @@ Two structures M and N are isomorphic if there exists a bijection f: M → N tha
   answer: true
   explanation: "This is the fundamental theorem of isomorphisms: an isomorphism f: M → N is a bijection that preserves all atomic formulas, and by induction on formula complexity, it preserves the truth of every first-order formula. Intuitively, renaming elements by f produces an indistinguishable copy — no formula can detect whether you're evaluating it on M or on its f-image in N. Isomorphism is the strongest notion of structural equivalence precisely because it preserves all logical properties, not just atomic ones."
 
-- question: "Two structures that satisfy exactly the same first-order sentences must be isomorphic."
+- question: "Two structures that satisfy exactly the same first-order sentences is expected to be isomorphic."
   type: true-false
   answer: false
   explanation: "This is false, and it is one of model theory's most important lessons. Elementary equivalence (satisfying the same sentences) is strictly weaker than isomorphism. A classic example: (ℚ, <) and any countable dense linear order without endpoints are elementarily equivalent to each other, but a countable dense linear order and an uncountable one (like ℝ) also satisfy the same first-order sentences — yet they cannot be isomorphic since they have different cardinalities. Compactness and Löwenheim-Skolem theorems guarantee the existence of models of different sizes that are elementarily equivalent."

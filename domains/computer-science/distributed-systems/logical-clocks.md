@@ -46,7 +46,7 @@ Without synchronized physical clocks, distributed systems need logical mechanism
   answer: 2
   explanation: "Lamport clocks guarantee: if A happened-before B, then clock(A) < clock(B). But the converse does not hold: clock(A) < clock(B) does not imply A happened-before B. Two processes executing independently will have increasing clocks even with no causal connection. Clock(X) = 10 < 15 = clock(Y) tells us only that Y did not happen-before X — it is consistent with X happening-before Y OR with X and Y being concurrent. To detect concurrency precisely, you need vector clocks, which track one counter dimension per process."
 
-- question: "If event A has a strictly smaller Lamport timestamp than event B, then A must have happened-before B."
+- question: "If event A has a strictly smaller Lamport timestamp than event B, then A is expected to have happened-before B."
   type: true-false
   answer: false
   explanation: "This is the most important misconception about Lamport clocks. The guarantee runs only one direction: happened-before implies lower timestamp. The converse fails. Two concurrent events on separate processes will accumulate increasing timestamps independently — A's clock can be lower than B's simply because A's process has executed fewer events, not because of any causal link. Lamport timestamps can detect when events are NOT concurrent (if B's timestamp ≤ A's, then B cannot have happened-before A), but they cannot confirm causality from timestamp order alone."

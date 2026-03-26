@@ -59,7 +59,7 @@ All homes have identical systems. (House designs and systems vary by age, locati
   answer: true
   explanation: "The drain-waste-vent system relies on both gravity and air. Without vent pipes allowing air in, a partial vacuum forms as water flows out, slowing or stopping drainage — the same principle as covering the top of a straw. This is a real interdependency within the plumbing system itself, and it illustrates why systems have more internal connections than they appear to."
 
-- question: "The electrical, plumbing, and HVAC systems in a home operate completely independently of one another."
+- question: "The electrical, plumbing, and HVAC systems in a home operate mostly independently of one another."
   type: true-false
   answer: false
   explanation: "This is the central misconception. These systems share dependencies: electricity powers the furnace, water heater, well pump, and air handler. A power outage affects heating, cooling, and sometimes water simultaneously. Understanding these connections is what allows a homeowner to make sense of symptoms that seem unrelated but share a root cause."

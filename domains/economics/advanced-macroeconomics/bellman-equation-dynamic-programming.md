@@ -62,7 +62,7 @@ The Bellman equation decomposes a dynamic optimization problem into current peri
   answer: true
   explanation: "This is the foundation of dynamic programming. If there existed a better continuation from some future state, the agent could improve the overall plan by switching to it — contradicting the assumption that the original plan was globally optimal. The principle implies that optimizing myopically at each state (using the value function to summarize the future) is equivalent to optimizing globally across all time periods at once. This is a non-trivial insight: it converts a global infinite-dimensional problem into a local one-period problem solved at each state."
 
-- question: "To apply the Bellman equation, an agent must first solve for the optimal decisions in all future periods before determining what to do in the current period."
+- question: "To apply the Bellman equation, an agent is expected to first solve for the optimal decisions in most future periods before determining what to do in the current period."
   type: true-false
   answer: false
   explanation: "This misunderstands the recursive structure. The Bellman equation says: given the value function V (which summarizes all future payoffs), the optimal current decision is found by maximizing today's payoff plus βV(x'). You don't need to know tomorrow's specific decision to make today's — you only need V, which can be found iteratively without any temporal ordering. Value function iteration starts from an arbitrary guess and converges to V* without ever solving 'future periods first.' The recursion works precisely because the value function decouples today's optimization from the infinite sequence of future decisions."

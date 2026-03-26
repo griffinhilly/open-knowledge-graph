@@ -45,7 +45,7 @@ Mixed partial derivatives are equal when they are continuous: ∂²f/∂x∂y = 
   answer: 1
   explanation: "Clairaut's theorem (also called Schwarz's theorem) requires continuity of both mixed partials at the point, not merely their existence. Differentiability alone is insufficient — there exist differentiable functions whose mixed partials exist at a point but are discontinuous there, and for these the mixed partials can differ. The continuity condition is sufficient (not necessary), so any smooth function you encounter in practice will satisfy it."
 
-- question: "For any differentiable function f(x, y), the mixed partial derivatives ∂²f/∂x∂y and ∂²f/∂y∂x are always equal."
+- question: "For any differentiable function f(x, y), the mixed partial derivatives ∂²f/∂x∂y and ∂²f/∂y∂x are typically equal."
   type: true-false
   answer: false
   explanation: "Differentiability alone is not sufficient. Clairaut's theorem requires the mixed partials themselves to be continuous. A canonical counterexample: f(x,y) = xy(x²−y²)/(x²+y²) for (x,y) ≠ (0,0) and f(0,0) = 0, where ∂²f/∂x∂y at the origin equals 1 but ∂²f/∂y∂x at the origin equals −1. The function is differentiable but its mixed partials are discontinuous at the origin."

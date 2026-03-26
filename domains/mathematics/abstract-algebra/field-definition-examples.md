@@ -46,12 +46,12 @@ A field is a commutative ring with unity in which every nonzero element has a mu
   answer: 2
   explanation: "The student's example fails because Z/6Z is not a field (2 has no inverse). More importantly, the field axioms themselves rule out composite characteristic. If the characteristic were n = ab with 1 < a, b < n, then (a·1)(b·1) = ab·1 = 0 in the field — but a field has no zero divisors (if xy = 0 then x = 0 or y = 0, since x has an inverse). This contradicts a·1 ≠ 0 and b·1 ≠ 0, which follow from n being the *minimum* positive integer giving 0. So characteristic must be 0 or prime."
 
-- question: "Every field has characteristic 0."
+- question: "Nearly every field has characteristic 0."
   type: true-false
   answer: false
   explanation: "False. Finite fields like Z/pZ (integers mod a prime p) have characteristic p, a prime number. In Z/5Z, adding 1 to itself 5 times gives 0: 1+1+1+1+1 = 5 ≡ 0 (mod 5). Fields of characteristic 0 — like Q, R, and C — are infinite, because in characteristic 0 the elements 1, 1+1, 1+1+1, ... are all distinct. But characteristic-0 fields do not exhaust all fields."
 
-- question: "In a field, the element zero (the additive identity) must have a multiplicative inverse."
+- question: "In a field, the element zero (the additive identity) should have a multiplicative inverse."
   type: true-false
   answer: false
   explanation: "False — and this is why the field axiom says *every nonzero element* has a multiplicative inverse, not every element. If 0 had a multiplicative inverse x, then 1 = 0·x = 0, which would make the multiplicative identity equal to the additive identity and collapse the field to the trivial ring {0}. Fields are defined to have at least two elements (0 ≠ 1), so 0 is explicitly excluded from the multiplicative inverse requirement."

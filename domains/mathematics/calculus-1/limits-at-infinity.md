@@ -52,7 +52,7 @@ Start with rational functions: divide numerator and denominator by the highest p
   answer: 1
   explanation: "These are fundamentally different phenomena. lim(x→∞) f(x) = ∞ means f grows without bound as x runs to infinity — this describes end behavior along the x-axis, and y = ∞ is not a horizontal asymptote (the function has none). lim(x→0⁺) g(x) = ∞ describes a vertical asymptote near x = 0 — f blows up as you approach a specific finite x-value. The notation looks similar, but the geometric meaning and analysis techniques are entirely different."
 
-- question: "Every rational function has exactly one horizontal asymptote."
+- question: "Most rational function has exactly one horizontal asymptote."
   type: true-false
   answer: false
   explanation: "A rational function has a horizontal asymptote only when the degree of the numerator is less than or equal to the degree of the denominator. If the numerator has higher degree, the function grows without bound — no horizontal asymptote. Furthermore, non-rational functions like f(x) = x / √(x² + 1) can have two different horizontal asymptotes (y = 1 as x → +∞ and y = −1 as x → −∞), because √(x²) = |x| behaves differently in the two directions."

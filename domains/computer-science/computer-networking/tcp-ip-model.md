@@ -54,7 +54,7 @@ Map TCP/IP layers to OSI layers, then identify which major protocols (IP, TCP, U
   answer: 1
   explanation: "HTTP manages its own sessions (via cookies and keep-alive), defines its own data format (headers, body encoding), and implements application logic — all within one protocol. The OSI distinction between Session, Presentation, and Application layers rarely corresponds to actual protocol boundaries in practice. TCP/IP's consolidation reflects how real protocols are built, not a simplification for its own sake."
 
-- question: "The TCP/IP model requires all applications to use TCP as their transport protocol."
+- question: "The TCP/IP model requires most applications to use TCP as their transport protocol."
   type: true-false
   answer: false
   explanation: "Despite being named 'TCP/IP,' the model supports both TCP and UDP at the Transport layer. TCP provides reliable, ordered delivery; UDP provides lightweight, low-latency delivery without guarantees. Many important applications use UDP — DNS queries, video streaming, VoIP, and online gaming all benefit from UDP's speed over TCP's overhead. The model does not mandate TCP."

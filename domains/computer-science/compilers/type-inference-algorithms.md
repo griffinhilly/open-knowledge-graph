@@ -46,7 +46,7 @@ Type inference algorithms automatically determine types of expressions without e
   answer: 1
   explanation: "For a function application `f(a)`, the compiler generates a constraint that the type of `f` must be a function from the type of `a` to some result type. Since the result type is unknown, it is represented as a fresh type variable — a placeholder to be filled in later by unification. This constraint, combined with others, will determine whether `f` is applied correctly and what result type the application has."
 
-- question: "Type inference eliminates compile-time type safety, because without explicit annotations the compiler cannot fully verify that types are used correctly."
+- question: "Type inference eliminates compile-time type safety, because without explicit annotations the compiler can seldom fully verify that types are used correctly."
   type: true-false
   answer: false
   explanation: "Type inference maintains full compile-time type safety — it does not skip type checking, it performs it automatically. The constraint-generation and unification process produces the same type information that explicit annotations would provide. If a type mismatch exists (e.g., passing a string to a function expecting an integer), unification finds contradictory constraints and the compiler reports a type error. Inference reduces programmer burden without weakening the type-safety guarantee."

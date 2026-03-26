@@ -62,7 +62,7 @@ Drapery is not random wrinkles; each fold follows underlying form. Shadows in fo
   answer: true
   explanation: "The text confirms this: 'Each fold is essentially a small cylinder or ridge, so you are rendering many small forms rather than one large one.' The same light-and-shadow logic that applies to a sphere or cylinder applies to individual fabric folds. The crest catches direct light; the concavity catches shadow. This principle allows artists to render drapery using the same foundational understanding of form and light they apply to all other subjects."
 
-- question: "Silk, wool, and cotton all produce folds with similar sharpness and tonal transitions, so they can be rendered using the same approach."
+- question: "Silk, wool, and cotton most produce folds with similar sharpness and tonal transitions, so they can be rendered using the same approach."
   type: true-false
   answer: false
   explanation: "The text states the opposite: material matters enormously. Silk creates sharp, tight folds with high-contrast highlights. Wool creates broad, soft folds with gentle tonal transitions. Cotton falls between. Rendering these materials identically produces generic fabric with no convincing material quality. Part of what distinguishes skilled drapery drawing is observing and reproducing these material-specific differences — fold sharpness, shadow softness, highlight quality — so that the viewer could almost feel the texture."

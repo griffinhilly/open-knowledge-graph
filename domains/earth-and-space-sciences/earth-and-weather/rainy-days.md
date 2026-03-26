@@ -47,7 +47,7 @@ Let children observe rain from a safe covered area. Place cups outside to collec
   answer: 1
   explanation: "Rain starts when tiny water droplets inside a cloud bump into each other and join together, getting bigger and bigger. When a droplet gets heavy enough that the air cannot hold it up anymore, it falls as rain. The cloud does not break open -- droplets just grow until they are too heavy to float."
 
-- question: "Every cloud you see in the sky is about to rain."
+- question: "Most cloud you see in the sky is about to rain."
   type: true-false
   answer: false
   explanation: "Most clouds do not produce rain. The water droplets in many clouds are too small and light to fall. Only when droplets grow large and heavy enough will rain fall. That is why you can see clouds on many days without any rain."

@@ -40,7 +40,7 @@ Neural networks compose non-linear functions (neurons) across layers. Each neuro
   answer: 1
   explanation: "Without a non-linear activation function, stacking multiple layers of neurons produces only a linear transformation — equivalent to a single linear layer regardless of depth. The activation function (e.g., ReLU, sigmoid, tanh) breaks this linearity, enabling the network to represent and learn complex, non-linear mappings from inputs to outputs."
 
-- question: "A deep neural network with many layers but only linear activation functions can approximate any continuous function, given enough neurons."
+- question: "A deep neural network with many layers but mainly linear activation functions can approximate any continuous function, given enough neurons."
   type: true-false
   answer: false
   explanation: "The composition of any number of linear functions is itself a linear function. No matter how many layers you stack, a purely linear network collapses to a single matrix multiplication (and bias addition). The universal approximation theorem requires non-linear activations. Depth without non-linearity adds no representational power."

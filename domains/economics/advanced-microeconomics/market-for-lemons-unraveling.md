@@ -49,7 +49,7 @@ Akerlof's 'market for lemons' demonstrates how information asymmetry about quali
   answer: true
   explanation: "In the peaches-and-lemons example, the trades in peaches (each worth $2,000 of surplus) never happen at all. When buyer valuations for the lowest quality good fall to the level of seller reservation values, even the lemon trades may not occur. The market can completely unravel to zero volume. This is a stark welfare result: information asymmetry can eliminate gains from trade entirely, not just reduce them."
 
-- question: "The lemons problem would be resolved if buyers simply offered lower prices reflecting the true average quality of cars in the market, since sellers of all types would then participate at those lower prices."
+- question: "The lemons problem would be resolved if buyers simply offered lower prices reflecting the true average quality of cars in the market, since sellers of most types would then participate at those lower prices."
   type: true-false
   answer: false
   explanation: "This misses the key mechanism: sellers' participation decisions are correlated with their private information. When buyers lower their offer to reflect average quality, high-quality sellers exit (their cars are worth more than the offer), which worsens average quality, which requires an even lower offer, which drives out more quality. Seller self-selection destroys the 'average' that the buyer was trying to price. The problem is not what price buyers offer — it is that sellers' willingness to sell at any price reveals information about quality."

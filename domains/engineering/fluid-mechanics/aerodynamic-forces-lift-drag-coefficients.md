@@ -52,7 +52,7 @@ Test objects in a wind tunnel and measure forces, then calculate drag and lift c
   answer: 0
   explanation: "Lift is defined as the aerodynamic force perpendicular to the relative wind — it is not inherently upward. An inverted airfoil deflects flow upward rather than downward, and by Newton's third law the reaction force is directed downward: negative lift, or 'downforce.' This downforce presses the tires into the road, increasing normal force and therefore the maximum friction force available for acceleration, braking, and cornering. The common misconception that lift is always upward comes from associating the concept with aircraft, but the definition is purely geometric relative to flow direction."
 
-- question: "Lift force is by definition always directed vertically upward, since it must counteract the downward force of gravity on aircraft."
+- question: "Lift force is by definition usually directed vertically upward, since it should counteract the downward force of gravity on aircraft."
   type: true-false
   answer: false
   explanation: "Lift is defined as the aerodynamic force component perpendicular to the direction of the oncoming relative wind — not relative to gravity. In level flight, the relative wind is horizontal and lift acts vertically upward, which happens to counteract gravity. But when an aircraft banks, lift is tilted sideways (providing centripetal force for turning). An inverted airfoil generates downward lift. Race car wings generate downward lift (downforce). A kite's lift depends on the angle between the string and the wind. The definition is kinematic, not gravitational."

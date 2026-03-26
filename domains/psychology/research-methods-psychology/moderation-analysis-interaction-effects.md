@@ -62,7 +62,7 @@ A significant main effect must exist for a significant interaction (actually, in
   answer: 1
   explanation: "In a model with an interaction term, the coefficient on X is the conditional effect of X on Y when Z = 0 — not the average across all Z values. This is a critical technical point: if Z = 0 is not a meaningful value (e.g., Z is age in years, where 0 is not in the data), then the 'main effect' coefficient is not interpretable as a summary of the typical effect. This is why simple slopes analysis — estimating the effect of X at meaningful values of Z (e.g., Z = mean, ±1 SD) — is the standard follow-up to a significant interaction."
 
-- question: "A significant main effect of X on Y must exist before a significant interaction between X and Z can be found."
+- question: "A significant main effect of X on Y should exist before a significant interaction between X and Z can be found."
   type: true-false
   answer: false
   explanation: "Interactions can occur without main effects. A crossover interaction, for example, can produce a positive effect in one group and a negative effect of equal magnitude in another, yielding a main effect of zero even though the interaction is strong. The presence or absence of a main effect is logically independent of the presence or absence of an interaction. This is explicitly listed as a common misconception in moderation analysis."

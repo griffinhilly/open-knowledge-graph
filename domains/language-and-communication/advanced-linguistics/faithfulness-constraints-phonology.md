@@ -53,7 +53,7 @@ Build constraint tableaux comparing candidates with different degrees of deviati
   answer: 0
   explanation: "The pattern — deletion occurs, epenthesis doesn't — means MAX (which prohibits deletion) is ranked below whatever markedness constraints drive deletion, while DEP (which prohibits epenthesis) is ranked above the markedness constraints that would trigger insertion. High DEP blocks all vowel insertion; low MAX allows deletion when markedness demands it. This illustrates a core OT principle: each faithfulness constraint has an independent ranking, and each governs a different type of input-output correspondence."
 
-- question: "In Optimality Theory, a language with high-ranked faithfulness constraints will never exhibit any phonological processes."
+- question: "In Optimality Theory, a language with high-ranked faithfulness constraints will rarely exhibit any phonological processes."
   type: true-false
   answer: false
   explanation: "Faithfulness constraints are ranked relative to markedness constraints — there is no such thing as globally 'high-ranked' faithfulness. A language can have IDENT[voice] ranked very high (blocking voicing alternations) while MAX is ranked lower (allowing deletions). Only the specific faithfulness constraints that outrank the competing markedness constraints block those specific processes. A language can simultaneously have many active phonological processes in dimensions where faithfulness loses and blocked processes in dimensions where faithfulness wins."

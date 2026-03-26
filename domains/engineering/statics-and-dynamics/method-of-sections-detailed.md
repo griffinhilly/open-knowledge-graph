@@ -51,7 +51,7 @@ The method of sections analyzes trusses by making an imaginary cut through the s
   answer: true
   explanation: "True. Three equilibrium equations (ΣFx = 0, ΣFy = 0, ΣM = 0) can solve for at most three unknowns. If the cut exposes more than three unknown member forces, the free body is statically indeterminate and cannot be solved by equilibrium alone. The three-member cut is the key practical constraint on where you can make the section."
 
-- question: "The method of sections replaces the method of joints and should be used for all truss analysis problems."
+- question: "The method of sections replaces the method of joints and should be used for most truss analysis problems."
   type: true-false
   answer: false
   explanation: "False. The two methods are complementary, not mutually exclusive. The method of sections is efficient for finding forces in a small number of interior members without analyzing the whole truss. The method of joints is preferable when all member forces are needed, or for simple trusses where joint analysis terminates quickly. Engineers routinely combine both: section cuts for key interior members, joint equations to fill in the rest."

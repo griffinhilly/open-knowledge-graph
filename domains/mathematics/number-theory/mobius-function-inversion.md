@@ -47,7 +47,7 @@ The Möbius function μ(n) is 0 if n has a squared prime factor, and (-1)^k if n
   answer: true
   explanation: "If n = p·q·r for distinct primes p, q, r, then n is squarefree (no prime appears twice), so μ(n) = (−1)³ = −1. This is correct. The key is that 'product of k distinct primes' already implies squarefree — if the primes are distinct, none can appear twice. Compare with μ(12) = 0: 12 has two distinct prime factors but is not squarefree because 2 appears squared."
 
-- question: "Möbius inversion only works when f is a multiplicative function — it fails for arbitrary arithmetic functions."
+- question: "Möbius inversion primarily works when f is a multiplicative function — it fails for arbitrary arithmetic functions."
   type: true-false
   answer: false
   explanation: "The Möbius inversion formula f(n) = Σ_{d|n} μ(n/d)g(d) holds for any arithmetic function f — multiplicativity is not required. It is a general inversion result over the divisibility lattice. The formula follows from the single orthogonality identity Σ_{d|n} μ(d) = [n=1], which holds regardless of what f looks like. What multiplicativity helps with is efficient computation and nice Dirichlet series structure, not the inversion identity itself."

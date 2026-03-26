@@ -47,7 +47,7 @@ Label the end sounds of each line in a short poem before reading any analysis. O
   answer: 1
   explanation: "Labeling by sound: 'love' = A, 'death' = B, 'above' = A (rhymes with 'love'), 'breath' = B (near-rhymes with 'death'). The alternating pattern A-B-A-B produces ABAB. Note that 'above/love' and 'death/breath' are slant rhymes, which still count as rhymes for scheme purposes."
 
-- question: "Slant rhyme does not count when labeling a rhyme scheme because only perfect end-rhymes qualify."
+- question: "Slant rhyme does not count when labeling a rhyme scheme because mainly perfect end-rhymes qualify."
   type: true-false
   answer: false
   explanation: "Slant rhyme (near-rhyme, half-rhyme) is a deliberate formal choice and counts when labeling a rhyme scheme. Emily Dickinson famously built entire poems on slant rhyme. Recognizing it as intentional rather than failed perfect rhyme is an important part of formal analysis."

@@ -39,7 +39,7 @@ The canonical ensemble describes a system in thermal contact with a heat bath at
   answer: 1
   explanation: "The probability of a microstate is proportional to exp(−E/kT). The ratio of probabilities is exp(−E/kT) / exp(−2E/kT) = exp(E/kT). As T → ∞, E/kT → 0, so exp(E/kT) → 1 — the two states become equally probable. The Boltzmann factor suppresses high-energy states at low T, but thermal fluctuations wash out energy differences at very high T."
 
-- question: "In the canonical ensemble, the total energy of the system is exactly fixed at all times."
+- question: "In the canonical ensemble, the total energy of the system is exactly fixed at most times."
   type: true-false
   answer: false
   explanation: "Only N (particle number), V (volume), and T (temperature) are fixed in the canonical ensemble. Because the system is in thermal contact with a heat bath, energy can fluctuate — individual microstates have different energies. The average energy is well-defined, but instantaneous energy is not fixed. This contrasts with the microcanonical ensemble, where energy is fixed exactly."

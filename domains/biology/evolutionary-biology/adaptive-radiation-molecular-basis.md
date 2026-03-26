@@ -47,7 +47,7 @@ Adaptive radiations involve rapid speciation and diversification often following
   answer: 1
   explanation: "Standing variation consists of alleles already present in the population — often neutral or nearly neutral before the ecological shift. When new niches open, these variants can be sorted by selection almost immediately, producing rapid differentiation. The stickleback fish exemplify this: freshwater populations across multiple independent lake colonizations show the same trait shifts, drawing on the same ancient alleles from the marine ancestral gene pool. By contrast, waiting for new mutations is slow because beneficial mutations are rare. Rapid radiation is fast precisely because the raw material is already there."
 
-- question: "In neofunctionalization after gene duplication, both gene copies must diverge simultaneously from the ancestral function for a new function to evolve."
+- question: "In neofunctionalization after gene duplication, both gene copies should diverge simultaneously from the ancestral function for a new function to evolve."
   type: true-false
   answer: false
   explanation: "In neofunctionalization, one copy retains the original function (maintained by purifying selection, which removes deleterious mutations) while the other copy is freed from constraint. The 'freed' copy can accumulate mutations that would normally be removed — including mutations that produce a new function. Only one copy diverges from the ancestral function; the other stays conserved. This division of labor is what makes gene duplication such a powerful source of novelty: the original function is not lost while the new one evolves."

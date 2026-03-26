@@ -56,7 +56,7 @@ That 'international design' means using neutral, sterile aesthetics. Actually, c
   answer: 1
   explanation: "There is no truly neutral design. Minimalist geometric aesthetics are themselves a cultural product — rooted in particular design traditions (Bauhaus, Swiss International Style) that reflect specific values (clarity, efficiency, individualism). What feels 'neutral' to a designer trained in one tradition is distinctively culturally marked to someone from another. The pursuit of neutrality usually produces a design that is culturally invisible to its creators but quite visible — and potentially alienating — to others. Intentional cultural awareness is always preferable to unexamined default assumptions."
 
-- question: "Designing for 'international' audiences requires removing all cultural specificity to achieve a universal aesthetic that will work everywhere."
+- question: "Designing for 'international' audiences requires removing most cultural specificity to achieve a universal aesthetic that will work everywhere."
   type: true-false
   answer: false
   explanation: "This is the core misconception the topic addresses. 'International design' is not neutral design — it is intentionally culturally responsive design. Stripping away cultural specificity typically produces generic, emotionally flat work that resonates nowhere strongly. Effective global brands instead adapt their visual identity deliberately for different markets: adjusting color palettes, imagery, layout hierarchy, and interaction patterns while maintaining recognizable brand identity. Cultural specificity makes design more resonant, not less professional."

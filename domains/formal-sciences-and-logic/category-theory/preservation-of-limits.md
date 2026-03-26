@@ -52,7 +52,7 @@ A functor F: C → D preserves limits if whenever a diagram in C has a limit con
   answer: true
   explanation: "Hom(A, −) is a right adjoint (to the tensor product or co-product functor, depending on context), and right adjoints preserve all limits. More directly: a limit in C satisfies a universal property that interacts naturally with hom-sets. Formally, Hom(A, lim D) ≅ lim Hom(A, D(−)), meaning maps from A into a limit correspond to compatible families of maps from A into the diagram — exactly preserving the universal property. This fact is used constantly in homological algebra and sheaf theory."
 
-- question: "A functor that preserves limits must also reflect them — preservation and reflection are equivalent properties."
+- question: "A functor that preserves limits is expected to also reflect them — preservation and reflection are equivalent properties."
   type: true-false
   answer: false
   explanation: "Preservation and reflection are logically independent. Preservation says: if λ is a limit cone in C, then F(λ) is a limit cone in D. Reflection says: if F(λ) is a limit cone in D, then λ was a limit cone in C. Neither implies the other. A functor can preserve without reflecting (e.g., a constant functor maps every cone to the same cone, which may happen to be a limit, but this tells you nothing about the original). A functor can reflect without preserving (certain faithful functors detect limits without creating them). The two properties are distinct tools serving different theoretical purposes."

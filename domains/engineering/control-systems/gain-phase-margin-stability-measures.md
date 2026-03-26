@@ -54,7 +54,7 @@ Gain margin (GM) is the amount the loop gain can increase before instability (dB
   answer: true
   explanation: "GM and PM measure robustness along two independent axes. A large GM means the gain could increase substantially (a factor of ~31× for 30 dB) before the instability condition is met at the phase crossover frequency. But this says nothing about what happens at the gain crossover frequency, where PM is measured. If PM is small, a small amount of added phase lag — from a transport delay, an unmodeled resonance, or a temperature-dependent component — can drive the loop to instability regardless of how large the GM is."
 
-- question: "Phase margin and gain margin measure the same aspect of stability robustness, so a system with a large gain margin is guaranteed to also have an adequate phase margin."
+- question: "Phase margin and gain margin measure the same aspect of stability robustness, so a system with a large gain margin is very likely to also have an adequate phase margin."
   type: true-false
   answer: false
   explanation: "GM and PM are independent measures, evaluated at different frequencies. GM is measured at the phase crossover frequency (where phase = −180°); PM is measured at the gain crossover frequency (where gain = 0 dB). In many practical systems — especially those with transport delays, complex resonance structures, or lightly damped modes — these frequencies are well separated. A system can have GM = 25 dB (safe against gain variations) but PM = 5° (nearly unstable from phase lag), or vice versa. Both margins must be checked."

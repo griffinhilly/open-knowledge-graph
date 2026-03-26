@@ -50,7 +50,7 @@ Integrability theory determines when demand functions can be recovered from unde
   answer: true
   explanation: "This is the content of the integrability theorem: the Slutsky conditions are necessary AND sufficient for rationalizability. If both hold, one can integrate the expenditure function from the Hicksian demands, then invert to recover the utility function. The demand system, the expenditure function, and the utility function are three equivalent representations of the same consumer behavior, and the Slutsky conditions are the key that unlocks movement between them."
 
-- question: "A negative semidefinite Slutsky matrix means all cross-substitution effects are negative — all goods are complements."
+- question: "A negative semidefinite Slutsky matrix means most cross-substitution effects are negative — most goods are complements."
   type: true-false
   answer: false
   explanation: "Negative semidefiniteness constrains the OWN-price substitution effects: it requires that compensated own-price effects sᵢᵢ ≤ 0 (compensated demand curves slope downward). Cross effects sᵢⱼ can be positive (substitutes) or negative (complements) and are unconstrained by negative semidefiniteness. NSD is a matrix condition on quadratic forms: for any vector v, v'Sv ≤ 0. This is satisfied even when many individual cross-entries are positive."

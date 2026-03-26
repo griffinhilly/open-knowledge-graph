@@ -57,7 +57,7 @@ Plot velocity vs substrate concentration (hyperbolic curve); extract Vmₐₓ an
   answer: 1
   explanation: "Enzyme active sites are finite and specific binding pockets. Once every enzyme molecule has substrate bound (fully saturated), the rate is limited entirely by how fast the ES complex converts to product (k_cat × [E]_total = Vmax). Adding more substrate cannot increase the rate further because there are no free active sites to bind it. This saturation behavior is the defining feature of enzyme kinetics and is absent in simple bimolecular reactions, which have no binding capacity limit."
 
-- question: "The Michaelis constant Km is equal to the dissociation constant (Kd) of the enzyme-substrate complex, so a lower Km always indicates tighter enzyme-substrate binding."
+- question: "The Michaelis constant Km is equal to the dissociation constant (Kd) of the enzyme-substrate complex, so a lower Km usually indicates tighter enzyme-substrate binding."
   type: true-false
   answer: false
   explanation: "Km = (k₋₁ + k_cat)/k₁, while Kd = k₋₁/k₁. These are equal only when k_cat << k₋₁ — that is, when product formation is slow compared to substrate release. For many efficient enzymes, k_cat is significant relative to k₋₁, and Km > Kd. Furthermore, even if Km did equal Kd, tighter binding (lower Kd) is not always beneficial: an enzyme that holds substrate too tightly may release product slowly, reducing turnover. True catalytic efficiency is best measured by k_cat/Km (the specificity constant), not by Km or Kd alone."

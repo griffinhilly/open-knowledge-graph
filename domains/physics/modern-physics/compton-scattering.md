@@ -64,7 +64,7 @@ Derive the Compton formula using 2D conservation of energy and momentum, treatin
   answer: true
   explanation: "The Compton formula Δλ = (h/m_e c)(1 − cos θ) is independent of the incident wavelength. The absolute shift depends only on the scattering angle and fundamental constants. This is one of the formula's most striking features, and it was confirmed by Compton's data across multiple X-ray energies. The fractional shift Δλ/λ does depend on the incident wavelength — which is why the effect is only observable with X-rays (λ ~ 0.1 nm) and not with visible light (λ ~ 500 nm)."
 
-- question: "Compton scattering was primarily significant for confirming that light travels at the speed c in all inertial frames."
+- question: "Compton scattering was primarily significant for confirming that light travels at the speed c in most inertial frames."
   type: true-false
   answer: false
   explanation: "Compton scattering proved that photons carry momentum (p = h/λ) and interact as particles in elastic collisions — not anything about the speed of light. The speed of light was already firmly established. The revolutionary insight from Compton's experiment was photon momentum: Einstein had proposed p = h/λ, but the photoelectric effect couldn't test it (photons were absorbed, not scattered). Compton's experiment — where photons bounced off electrons at measurable angles with predictable momentum transfer — was the decisive test."

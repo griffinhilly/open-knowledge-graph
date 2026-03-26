@@ -53,7 +53,7 @@ Speak the text rhythmically and identify natural stress patterns and phrasal gro
   answer: true
   explanation: "Long notes, high notes, and strong metric positions are all musically prominent — they naturally draw the listener's attention. When such a position is occupied by a syllable that is linguistically weak (unstressed, semantically minor), the music and language are working against each other. The word sounds mispronounced, listeners may mishear it, and the setting feels awkward even to listeners who can't articulate why. Skilled text setting aligns prominence across all dimensions: stressed syllables get prominent musical positions."
 
-- question: "A rising melodic contour on a descending emotional text (e.g., 'falling into darkness') creates expressive tension and is therefore always more interesting than a descending contour on the same text."
+- question: "A rising melodic contour on a descending emotional text (e.g., 'falling into darkness') creates expressive tension and is therefore usually more interesting than a descending contour on the same text."
   type: true-false
   answer: false
   explanation: "Contradicting text meaning with melodic contour is not automatically interesting — it is usually confusing or ineffective unless the composer has a specific dramatic reason for the contrast. Prosody calls for contour to reinforce textual meaning: descending text generally warrants a descending melodic line that makes the setting feel inevitable. Deliberate contrapuntal irony (e.g., a cheerful melody on sad words) can be powerful in specific dramatic contexts, but it requires justification, not just avoidance of 'obvious' choices."

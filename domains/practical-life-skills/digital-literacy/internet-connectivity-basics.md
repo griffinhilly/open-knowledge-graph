@@ -53,7 +53,7 @@ Check your own internet connection settings and identify your provider, connecti
   answer: 3
   explanation: "Fiber-optic connections transmit data as light through glass cables, with far greater bandwidth potential and signal stability than copper-based alternatives (DSL, cable). DSL uses phone lines and is the slowest, often relegated to rural areas. Cable is fast and widely available but shares bandwidth with neighbors, causing congestion. 5G mobile data can be fast but fluctuates with tower load and physical obstacles. Fiber is currently the gold standard for home internet, though availability varies by region."
 
-- question: "A WiFi password using WPA2 encryption prevents unauthorized devices from joining your local network, which means your internet connection is secure from all outside threats."
+- question: "A WiFi password using WPA2 encryption prevents unauthorized devices from joining your local network, which means your internet connection is secure from most outside threats."
   type: true-false
   answer: false
   explanation: "A WiFi password only controls who can join your local network — it prevents strangers from connecting to your router and using your bandwidth or seeing local traffic. It does nothing against threats that operate at higher levels: a phishing email, a malicious website, or malware you download all bypass WiFi security entirely because they reach you through the internet connection itself, which your password-protected WiFi happily carries. Think of the WiFi password as locking the front door — necessary, but not a substitute for security inside the house."

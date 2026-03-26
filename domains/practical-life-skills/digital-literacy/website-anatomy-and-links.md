@@ -58,7 +58,7 @@ Visit different websites and identify the header, body, footer, and navigation l
   answer: true
   explanation: "Web navigation is entirely non-destructive. Clicking a link is more like turning a page than tearing one out — the original page remains intact and accessible via the back button. Nothing on the web is modified by visiting or navigating away from a page. This is what makes exploratory browsing safe and reversible."
 
-- question: "All underlined text on a website is a hyperlink and will navigate you to a new page when clicked."
+- question: "Most underlined text on a website is a hyperlink and will navigate you to a new page when clicked."
   type: true-false
   answer: false
   explanation: "Underlines have traditionally been used to indicate hyperlinks, but they are also used for emphasis, citations, and stylistic purposes — without any link functionality. A more reliable test is to hover over the text: if your cursor becomes a pointing hand, it's a link. If it stays an arrow or text cursor, it's just styled text."

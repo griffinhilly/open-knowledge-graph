@@ -35,7 +35,7 @@ Item response functions mathematically describe the relationship between a perso
   answer: 1
   explanation: "In a 1PL or 2PL IRT model, the difficulty parameter b is the ability level (θ) at which the probability of a correct response equals 0.50. An item with b = 1.5 is harder than average because only people with θ ≥ 1.5 have better-than-even odds of answering it correctly. This is a direct read-off from the ICC's horizontal axis."
 
-- question: "In item response theory, two items with the same difficulty parameter (b) will always produce identical item characteristic curves."
+- question: "In item response theory, two items with the same difficulty parameter (b) will typically produce identical item characteristic curves."
   type: true-false
   answer: false
   explanation: "Two items can share the same difficulty (b) but differ in their discrimination (a) parameter. The discrimination parameter controls how steeply the ICC rises around b. A high-discrimination item has a steep S-curve that sharply differentiates people just above and below the difficulty threshold, while a low-discrimination item has a flatter curve and is less useful for distinguishing ability levels near b. Matching only on difficulty does not make two ICCs identical."

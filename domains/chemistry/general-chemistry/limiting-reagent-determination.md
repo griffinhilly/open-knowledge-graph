@@ -45,7 +45,7 @@ In most reactions, one reactant (limiting reagent) is completely consumed while 
   answer: 1
   explanation: "First identify the limiting reagent: divide each by its stoichiometric coefficient — N₂: 2/1 = 2; H₂: 3/3 = 1. H₂ has the smaller ratio, so H₂ is limiting. Calculate yield from the limiting reagent: 3 mol H₂ × (2 mol NH₃ / 3 mol H₂) = 2 mol NH₃. Theoretical yield is always calculated from the limiting reagent's moles. Using 2 mol N₂ would give 4 mol NH₃, but that assumes N₂ is limiting — it is not; H₂ runs out first, preventing more than 2 mol NH₃ from forming."
 
-- question: "If you have more grams of Reactant A than Reactant B in a reaction mixture, Reactant B must be the limiting reagent."
+- question: "If you have more grams of Reactant A than Reactant B in a reaction mixture, Reactant B should be the limiting reagent."
   type: true-false
   answer: false
   explanation: "Grams alone cannot determine the limiting reagent. A large mass of a high-molecular-weight substance may represent far fewer moles than a small mass of a light substance. For example, 100 g of iron (MW = 56) provides 1.79 mol, while 10 g of hydrogen (MW = 2) provides 5 mol. You must always convert to moles and compare mole-to-coefficient ratios. The limiting reagent has the smallest ratio of (moles available)/(stoichiometric coefficient) — which cannot be determined from mass alone."

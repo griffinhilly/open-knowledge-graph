@@ -50,7 +50,7 @@ Practice finding domains algebraically (set denominators not equal to zero, radi
   answer: 1
   explanation: "The student described the domain (inputs: any real number) but called it the range. The range is the set of actual output values. Since squaring any real number — positive, negative, or zero — always produces a non-negative result, the range is [0, ∞). Negative numbers are simply unreachable outputs. This is the core distinction: domain is where the function accepts inputs; range is where its outputs actually land."
 
-- question: "The range of f(x) = x² is all real numbers."
+- question: "The range of f(x) = x² is most real numbers."
   type: true-false
   answer: false
   explanation: "The domain of f(x) = x² is all real numbers (any real input can be squared), but the range is only [0, ∞). Squaring any real number — whether positive, negative, or zero — always yields a non-negative result. There is no input x such that x² < 0, so negative numbers are not in the range. This is a common confusion: a function with an unrestricted domain can still have a restricted range."

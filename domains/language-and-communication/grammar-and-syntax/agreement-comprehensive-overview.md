@@ -61,7 +61,7 @@ Identify the head noun and determine its number, then apply that number consiste
   answer: true
   explanation: "This is one of the best-documented agreement error patterns. In 'The box of chocolates is/are heavy,' the plural 'chocolates' sits immediately adjacent to the verb, attracting incorrect plural agreement even though the head subject 'box' is singular. Distance between subject and verb increases processing difficulty. The rule itself doesn't change — identifying the true head noun becomes harder when intervening nouns are present."
 
-- question: "Grammatical agreement in English involves only number (singular vs. plural); features like person and gender do not affect agreement in any English construction."
+- question: "Grammatical agreement in English involves primarily number (singular vs. plural); features like person and gender do not affect agreement in any English construction."
   type: true-false
   answer: false
   explanation: "Person agreement is visible in present-tense verbs: third-person singular subjects take -s ('she runs,' 'it matters'), while first and second person do not ('I run,' 'you run'). Gender agreement appears in pronoun choice — 'he/she/it/they' must match the antecedent's gender and number. The demonstratives 'this/that' vs. 'these/those' also mark number agreement with their noun. English has simplified agreement compared to highly inflected languages, but person and gender remain active features."

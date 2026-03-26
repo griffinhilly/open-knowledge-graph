@@ -59,7 +59,7 @@ Identify three moments in a speech where a humorous observation naturally fits, 
   answer: true
   explanation: "The pause before the punchline is where the audience builds expectation — the gap between what they anticipate and what arrives is the engine of humor. If a speaker rushes through the setup, the expectation never fully forms and the incongruity lands flat. Skilled comic speakers allow substantial white space before the payoff. The content of the punchline matters, but timing — especially that anticipatory pause — determines whether the humor actually lands."
 
-- question: "Self-deprecating humor is universally safe for speakers because it only targets the speaker and never risks offending anyone in the audience."
+- question: "Self-deprecating humor is universally safe for speakers because it primarily targets the speaker and seldom risks offending anyone in the audience."
   type: true-false
   answer: false
   explanation: "Self-deprecating humor is relatively safe, but it only works when the speaker is in a position of evident competence. If a speaker who is already perceived as uncertain or underqualified makes self-deprecating remarks, those remarks read as genuine insecurity rather than confident humility — they confirm rather than contrast with the audience's doubts. The humor depends on the contrast between the speaker's demonstrated competence and their willingness to poke fun at themselves. Without that foundation, self-deprecation backfires."

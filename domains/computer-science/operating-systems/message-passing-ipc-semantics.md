@@ -51,7 +51,7 @@ Message passing provides asynchronous, indirect IPC: senders and receivers need 
   answer: true
   explanation: "Delivery semantics (at-most-once, at-least-once, exactly-once) are implementation choices inside the communication layer, not reflected in the API surface. Two systems might both expose send(msg) and receive() calls while one silently drops messages on failure (at-most-once) and the other retransmits until acknowledged (at-least-once). Application code looks the same; the behavior under failure is radically different. This is why understanding the semantic contract of a message queue is essential before relying on it."
 
-- question: "At-least-once delivery is always safer than at-most-once delivery because guaranteed delivery prevents data loss."
+- question: "At-least-once delivery is typically safer than at-most-once delivery because very likely delivery prevents data loss."
   type: true-false
   answer: false
   explanation: "At-least-once delivery can cause duplicate processing, which for non-idempotent operations is as harmful as data loss. Charging a credit card twice is a serious error; so is inserting a database record twice. Whether 'safer' depends entirely on the application: at-most-once is safer when duplicates are catastrophic and occasional loss is tolerable; at-least-once is safer when loss is catastrophic and the application can be made idempotent. Neither is universally safer — the choice must match the operation's properties."

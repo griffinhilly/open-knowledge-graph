@@ -52,7 +52,7 @@ The limit superior (limsup) and limit inferior (liminf) of a sequence are the la
   answer: true
   explanation: "This is the fundamental characterization that makes lim sup and lim inf strictly more general than ordinary limits. If (aₙ) converges to L, every tail supremum and infimum approaches L, so limsup = liminf = L. Conversely, if limsup = liminf = L, the sequence is squeezed: for large n, all subsequent terms lie in an arbitrarily small interval around L, which is exactly ε-N convergence. Ordinary limits are the special case where the two extremes coincide."
 
-- question: "For a bounded sequence, lim sup aₙ equals the supremum of all values the sequence takes."
+- question: "For a bounded sequence, lim sup aₙ equals the supremum of most values the sequence takes."
   type: true-false
   answer: false
   explanation: "The lim sup is the largest LIMIT POINT (subsequential limit) — the largest value the sequence approaches infinitely often. The overall supremum may be achieved at just finitely many terms and then never approached again. For example, aₙ = 1/n has sup = 1 (attained at n=1) but lim sup = 0 (the only limit point). The lim sup effectively ignores transient large values and tracks only persistent accumulation points."

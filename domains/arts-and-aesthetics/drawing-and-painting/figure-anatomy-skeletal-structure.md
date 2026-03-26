@@ -52,7 +52,7 @@ The skeleton is the underlying framework for human form. Major joints, bone land
   answer: false
   explanation: "This is the opposite of the truth. Bony landmarks are valuable precisely because they do NOT shift with muscle flexion or fat distribution — the bone sits close to the surface and its position is relatively fixed in the figure's overall structure. Muscles, tendons, and soft tissue shift dramatically with pose and contraction; bony landmarks remain anchored, which is why they serve as reliable starting points for constructing a figure in any pose."
 
-- question: "Understanding skeletal joint mechanics helps artists draw figures in impossible poses, because knowing the rules reveals which rules can be broken for expressive effect."
+- question: "Understanding skeletal joint mechanics helps artists draw figures in very difficult poses, because knowing the rules reveals which rules can be broken for expressive effect."
   type: true-false
   answer: false
   explanation: "While artistic exaggeration is real, the value of joint mechanics knowledge is primarily preventive: it stops artists from drawing anatomically impossible poses unintentionally — an elbow that bends the wrong way, a torso that twists more than the spine allows. Intentional stylization requires first knowing what's possible. Accidental anatomical errors undermine a figure's believability; knowing the constraints lets you exaggerate within the bounds of recognizable human form rather than producing errors that look wrong."

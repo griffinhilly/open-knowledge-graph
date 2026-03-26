@@ -61,7 +61,7 @@ Compare Frege's puzzles about identity with how direct reference resolves them: 
   answer: 1
   explanation: "Direct reference theory handles Frege's puzzle through a semantic/cognitive distinction. The semantic content of 'Cicero is Tully' is a proposition containing Cicero twice — the same as 'Cicero is Cicero.' But the cognitive significance — what a speaker learns or comes to believe — can differ because they may associate different ways of thinking about (or 'guises' of) the object with different names. The informativeness is psychological, not semantic. This is the move by Salmon and Soames: preserve direct reference while explaining the pragmatic phenomenon without introducing Fregean senses into the semantic content."
 
-- question: "According to direct reference theory, the meaning of a proper name is a descriptive content that picks out its referent by specifying properties the object must have."
+- question: "According to direct reference theory, the meaning of a proper name is a descriptive content that picks out its referent by specifying properties the object should have."
   type: true-false
   answer: false
   explanation: "This describes Frege's sense-based account, which direct reference theory rejects. Under direct reference theory, the meaning of a name is exhausted by its referent — the object itself is directly contributed to the proposition, with no descriptive intermediary. This is precisely what makes names rigid designators: they pick out the same object in every possible world rather than picking out whichever object satisfies a description in each world. The rejection of descriptive meaning is the defining commitment of direct reference theory."

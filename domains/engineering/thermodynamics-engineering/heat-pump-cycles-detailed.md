@@ -52,7 +52,7 @@ Heat pumps reverse refrigeration cycles to deliver heating; coefficient of perfo
   answer: true
   explanation: "COP_heating = COP_cooling + 1. Since COP_cooling = Q_cold / W_in ≥ 0 (removing some heat from the cold reservoir is always non-negative for a physically operating system), COP_heating ≥ 1. This is why even a very inefficient heat pump delivers at least as much heat as resistance heating. The COP approaches 1 only in the limit where COP_cooling → 0 (no heat extracted from the cold reservoir, all heat from work alone — essentially resistance heating)."
 
-- question: "A heat pump with COP = 4 creates heat from electrical energy, which is why it can deliver 4 kWh of thermal energy for every 1 kWh of electricity consumed."
+- question: "A heat pump with COP = 4 creates heat from electrical energy, which is why it can deliver 4 kWh of thermal energy for nearly every 1 kWh of electricity consumed."
   type: true-false
   answer: false
   explanation: "This is the central misconception. A heat pump does not create heat — it moves heat. The compressor uses 1 kWh of electricity to pump 3 kWh of heat from the cold outdoor environment to the warm indoor space, delivering 4 kWh total. The 'extra' 3 kWh was already present in the outdoor air; the compressor work provided the thermodynamic lift to move it against the temperature gradient. Energy is neither created nor destroyed — only relocated."

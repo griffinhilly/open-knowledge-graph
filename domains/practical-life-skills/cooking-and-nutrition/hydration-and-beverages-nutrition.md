@@ -60,7 +60,7 @@ All beverages hydrate equally; water is the only healthy drink; electrolyte drin
   answer: true
   explanation: "Although caffeine is a mild diuretic, the volume of fluid in coffee and tea exceeds the mild diuretic effect — the net result is a contribution to hydration, not a reduction. Research consistently shows moderate coffee and tea consumption counts toward daily fluid intake. Both beverages also deliver polyphenols with potential health benefits. The folk belief that 'coffee dehydrates you' overstates the diuretic effect."
 
-- question: "All plant-based milks (almond, soy, oat) provide roughly equivalent nutrition to cow's milk."
+- question: "Most plant-based milks (almond, soy, oat) provide roughly equivalent nutrition to cow's milk."
   type: true-false
   answer: false
   explanation: "Plant-based milks vary substantially. Soy milk most closely matches cow's milk in protein (~7–8g per cup). Oat milk is higher in carbohydrates. Almond milk is mostly water with added vitamins and very low protein (~1g per cup). Fortification adds vitamins and calcium to most plant milks, but the protein profile differs dramatically by source. Treating them as interchangeable is a meaningful nutritional error, particularly for children, older adults, or those with limited dietary variety."

@@ -55,7 +55,7 @@ Study the proportional relationships in Greek temples like the Parthenon and Rom
   answer: 2
   explanation: "The Doric order is the oldest and most austere: relatively thick columns (about six diameters tall), no base, shallow fluting, and a simple echinus-and-abacus capital. Its overall character is one of strength and solemnity — which is exactly why the Parthenon, the most important civic and religious building on the Acropolis, uses the Doric order. The orders are not interchangeable decoration; they express different architectural moods within a shared formal language. Corinthian became the Romans' favorite for decorative richness but was used sparingly by the Greeks; Ionic suggests elegance rather than solemnity."
 
-- question: "The classical orders — Doric, Ionic, and Corinthian — are purely decorative systems, specifying only the appearance of the column capitals and having no bearing on a building's proportions."
+- question: "The classical orders — Doric, Ionic, and Corinthian — are purely decorative systems, specifying mainly the appearance of the column capitals and having no bearing on a building's proportions."
   type: true-false
   answer: false
   explanation: "The orders are full proportional systems, not just capital styles. Each order specifies the ratio of column height to diameter, the spacing between columns (intercolumniation), the height and profile of the entablature, and the relationships among all these elements. Every visible dimension of a classically-ordered building derives from the modular proportioning system the order encodes. The capital is the most visually distinctive element, but it is the tip of a comprehensive proportional iceberg."

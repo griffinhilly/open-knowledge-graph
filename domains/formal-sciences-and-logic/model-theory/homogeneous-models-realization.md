@@ -55,7 +55,7 @@ Study homogeneous universal models in the theory of dense linear orders (the rat
   answer: true
   explanation: "True — this is one of the most important consequences of homogeneity, and it gives types a geometric meaning. In a homogeneous model, realizing the same type is equivalent to lying in the same automorphism orbit. Since types encode all first-order properties an element has relative to a parameter set, two elements with identical types are structurally indistinguishable — and homogeneity ensures this indistinguishability translates into an actual symmetry of the model. This is why stability theory can treat 'same type' as a meaningful equivalence relation with algebraic and geometric content."
 
-- question: "Universality and homogeneity are the same property stated in different terms: a model that is universal for its theory must also be homogeneous, and vice versa."
+- question: "Universality and homogeneity are the same property stated in different terms: a model that is universal for its theory should also be homogeneous, and vice versa."
   type: true-false
   answer: false
   explanation: "False — they are distinct properties. A universal model must contain an isomorphic copy of every model of the theory of appropriate cardinality. A homogeneous model must have every partial isomorphism between finite subsets extend to a full automorphism. These conditions are logically independent: a model can be universal without being homogeneous (it contains all models but has few automorphisms), or homogeneous without being universal (it has rich symmetry but doesn't embed all models). Saturated models achieve both simultaneously, which is why they are the canonical choice for stability-theoretic analysis."

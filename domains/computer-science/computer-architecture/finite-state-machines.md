@@ -52,7 +52,7 @@ Design FSMs for simple problems like a sequence detector or vending machine cont
   answer: 2
   explanation: "In a Moore machine, outputs are a function of the current state only — not the current inputs. Each state has a fixed output associated with it. This means the light color is determined entirely by which state the FSM is currently in, regardless of what the sensor is doing right now. A Mealy machine would instead allow the output to vary based on both state and input."
 
-- question: "A Mealy machine always requires more states than an equivalent Moore machine to recognize the same behavior."
+- question: "A Mealy machine usually requires more states than an equivalent Moore machine to recognize the same behavior."
   type: true-false
   answer: false
   explanation: "It is actually the opposite: a Mealy machine often requires *fewer* states than the equivalent Moore machine. In a Mealy FSM, outputs are associated with transitions (state + input), so a single state can produce different outputs depending on the input. A Moore FSM must create separate states to produce different outputs, which can increase the state count. Both models are equally expressive — any FSM in one form can be converted to the other."

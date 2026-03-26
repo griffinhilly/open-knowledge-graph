@@ -49,7 +49,7 @@ Rather than tracking all Cartesian coordinates, generalized coordinates (q₁, q
   answer: true
   explanation: "Choosing θ as the generalized coordinate means writing the position as x = L sin θ, y = −L cos θ. Any value of θ gives a point on the circle of radius L — you cannot represent an off-circle position using θ. The constraint x²+y²=L² is built into the parameterization. This is what 'building in the constraints' means: the generalized coordinate parameterizes only the physically accessible configurations, making the constraint implicit rather than explicit."
 
-- question: "For a system of N particles subject to k holonomic constraints, the degrees of freedom always equals 3N − k, regardless of whether any non-holonomic constraints are also present."
+- question: "For a system of N particles subject to k holonomic constraints, the degrees of freedom usually equals 3N − k, regardless of whether any non-holonomic constraints are also present."
   type: true-false
   answer: false
   explanation: "The formula DOF = 3N − k holds only for holonomic constraints. Non-holonomic constraints (velocity constraints that cannot be integrated to position constraints, like rolling without slipping) restrict the accessible velocity directions but do NOT reduce the number of generalized coordinates needed to specify the configuration. A system with 3N − k holonomic degrees of freedom plus m non-holonomic constraints still requires 3N − k generalized coordinates; the non-holonomic constraints appear separately as constraints on the generalized velocities q̇ᵢ."

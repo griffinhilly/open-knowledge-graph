@@ -46,7 +46,7 @@ Derrida's différance (combining difference and deferral) reveals that meaning c
   answer: 1
   explanation: "Deconstructive reading informed by the trace does not simply reverse hierarchies — that would just replace one stable binary with another. Instead, it shows how the suppressed term (absence) always already leaves its trace within the dominant term (presence). 'Presence' only means something in relation to 'absence'; it contains the trace of what it excludes. This destabilizes the hierarchy not by flipping it but by revealing it was never a clean opposition — the dominant term was always constituted by its supposed opposite. The goal is to show the text's complexity, not to champion the other side."
 
-- question: "According to Derrida, différance demonstrates that meaning in language is impossible — no sign ever communicates anything to anyone."
+- question: "According to Derrida, différance demonstrates that meaning in language is very difficult — no sign ever communicates anything to anyone."
   type: true-false
   answer: false
   explanation: "This is a common overreading of Derrida. Différance does not claim that meaning is impossible — only that meaning is never fully present or self-identical, never arrives at a final, transparent destination. Communication happens, texts mean, readers interpret. But no text fully controls its own meaning, and no reading captures a stable, singular content. Derrida's point is that this is the permanent condition of language, not a failure to be fixed. The misreading arises from conflating 'meaning is unstable and never fully present' with 'meaning is absent.' The trace marks a constitutive absence within signs, not the absence of meaning altogether."

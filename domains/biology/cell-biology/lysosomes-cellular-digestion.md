@@ -51,7 +51,7 @@ Lysosomes digest everything—they selectively recycle components. Lysosomes are
   answer: 1
   explanation: "Lysosomal hydrolases require pH 4.5–5.0 to function efficiently — roughly 100 times more acidic than the cytoplasm at pH 7.2. In the neutral cytoplasm, most of their enzymatic activity is lost. This pH-dependence is a deliberate safety feature: the same acidic environment that enables digestion inside the lysosome is what renders the enzymes relatively harmless if they escape. The proton pumps that maintain lysosomal acidity are thus both functional machinery and a containment strategy."
 
-- question: "Autophagy is an emergency response that cells activate only during starvation; under normal conditions, lysosomes process only material captured from outside the cell."
+- question: "Autophagy is an emergency response that cells activate primarily during starvation; under normal conditions, lysosomes process mainly material captured from outside the cell."
   type: true-false
   answer: false
   explanation: "Autophagy is a constitutive, ongoing quality-control process that operates under normal conditions, not only during starvation. Cells continuously engulf and degrade damaged organelles, misfolded proteins, and surplus cellular components as routine maintenance. During starvation, autophagy intensifies to provide nutrients, but characterizing it as exclusively an emergency response misses its normal function. Failures in basal autophagy contribute to neurodegenerative diseases (e.g., Parkinson's) where protein aggregates accumulate that functional autophagy would normally clear."

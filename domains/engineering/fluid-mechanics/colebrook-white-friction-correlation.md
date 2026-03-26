@@ -51,7 +51,7 @@ The Colebrook-White equation implicitly relates friction factor f to Reynolds nu
   answer: true
   explanation: "Explicit approximations have errors below 2–3% relative to the Colebrook-White equation, which is well within the uncertainty introduced by pipe roughness itself (which varies by surface preparation, aging, and corrosion). Engineering decisions based on friction factor rarely require more than ~5% accuracy; the explicit formulas provide this while allowing direct calculation without iteration."
 
-- question: "In the Colebrook-White equation, increasing Reynolds number always decreases the friction factor, regardless of pipe roughness."
+- question: "In the Colebrook-White equation, increasing Reynolds number generally decreases the friction factor, regardless of pipe roughness."
   type: true-false
   answer: false
   explanation: "In the fully turbulent (completely rough) regime at high Reynolds numbers, friction factor becomes independent of Re—it plateaus at a value determined only by ε/D. Increasing Re further has no effect because the viscous sublayer is already too thin to matter. The friction factor decreases with Re only in the transitionally rough regime where both terms in the equation matter. This Re-independence of f at high Re is visible as the flat lines on the right side of the Moody diagram."

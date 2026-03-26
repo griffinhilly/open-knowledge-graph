@@ -45,7 +45,7 @@ Oxygen minimum zones (OMZs) are persistent low-oxygen regions at intermediate de
   answer: 2
   explanation: "Denitrification uses nitrate (NO₃⁻) as an electron acceptor instead of oxygen, converting it to nitrogen gas (N₂) that escapes to the atmosphere. Because N₂ is largely unusable by most marine life, this permanently removes a critical nutrient from the biosphere, reducing phytoplankton growth in downstream surface waters. Hydrogen sulfide (option D) is produced by sulfate reduction — a separate anaerobic pathway that occurs only in the most extreme OMZs after nitrate is also depleted."
 
-- question: "Oxygen minimum zones occur at the ocean surface beneath highly productive regions, where intense photosynthesis consumes all available dissolved oxygen."
+- question: "Oxygen minimum zones occur at the ocean surface beneath highly productive regions, where intense photosynthesis consumes most available dissolved oxygen."
   type: true-false
   answer: false
   explanation: "OMZs occur at intermediate depths (200–1,000 m), not at the surface. Surface waters are well-oxygenated by air-sea gas exchange and photosynthesis — oxygen is produced and replenished there. It is the decomposition of organic matter sinking from those productive surface waters that depletes oxygen at intermediate depths, combined with sluggish circulation that fails to resupply oxygen quickly enough. The surface is where oxygen originates, not where it is depleted."

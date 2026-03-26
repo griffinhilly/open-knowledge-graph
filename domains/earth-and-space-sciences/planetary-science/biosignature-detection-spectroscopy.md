@@ -55,7 +55,7 @@ Model transmission spectra for biosignature gases. Evaluate false-positive mecha
   answer: 2
   explanation: "The thermodynamic disequilibrium strategy is the key insight: O₂ and CH₄ are reactive and should not coexist in significant quantities without a continuous biological source replenishing both. Their simultaneous presence is extremely hard to sustain abiotically, making the combination far more compelling than either gas alone. Planet B's oxygen, by contrast, could plausibly have an abiotic explanation."
 
-- question: "A biosignature gas detected on an exoplanet is always sufficient to confirm biological activity if it is present at concentrations higher than those found on lifeless planets in our solar system."
+- question: "A biosignature gas detected on an exoplanet is typically sufficient to confirm biological activity if it is present at concentrations higher than those found on lifeless planets in our solar system."
   type: true-false
   answer: false
   explanation: "No single gas provides unambiguous confirmation of life. Every biosignature candidate has known abiotic production pathways. The strategy is to look for chemical disequilibrium across multiple gases, in the context of the stellar environment, planetary mass, temperature, and water vapor. Concentration levels alone are not diagnostic without ruling out abiotic sources."

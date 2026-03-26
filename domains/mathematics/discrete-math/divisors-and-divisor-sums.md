@@ -44,7 +44,7 @@ The divisor function τ(n) counts the number of positive divisors of n, and σ(n
   answer: 2
   explanation: "Multiplicativity states: if gcd(a, b) = 1, then τ(ab) = τ(a)τ(b). The coprimality condition is essential — without it, shared prime factors cause divisors to be counted multiple times. For example, τ(4) = 3 and τ(6) = 4, but τ(24) = 8, not 12, because gcd(4, 6) = 2 ≠ 1. Option A is the classic error — blindly multiplying divisor counts without checking coprimality."
 
-- question: "τ(mn) = τ(m) × τ(n) is true for all positive integers m and n."
+- question: "τ(mn) = τ(m) × τ(n) is true for most positive integers m and n."
   type: true-false
   answer: false
   explanation: "This holds only when gcd(m, n) = 1. When m and n share common prime factors, their divisors interact and τ(mn) < τ(m)τ(n). Counterexample: τ(4) = 3 and τ(6) = 4, but τ(24) = 8, not 12. The multiplicativity property is powerful precisely because it applies across coprime factors — which is why the prime factorization (whose prime power components are always pairwise coprime) is the right framework for computing τ."

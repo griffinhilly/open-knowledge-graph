@@ -62,7 +62,7 @@ Harmonize folk melodies with progressions; analyze how Bach harmonizes chorales;
   answer: true
   explanation: "True. Non-harmonic tones are melodic embellishments — they decorate the structural melody notes but are not chord tones themselves. Assigning a new chord to every melody note (including passing tones and neighbor tones) results in over-harmonization, which blurs the harmonic rhythm and weakens the sense of progression. The skill is knowing which beats are structurally important enough to require a chord change and which carry embellishing tones that should be sustained over an existing chord."
 
-- question: "The chord that contains the melody note as a chord tone is always the best harmonization choice."
+- question: "The chord that contains the melody note as a chord tone is typically the best harmonization choice."
   type: true-false
   answer: false
   explanation: "False. Most melody notes are chord tones in several different chords. The best choice among them depends on the harmonic progression: which chord connects smoothly to the previous and next chord? Which functional category (tonic, pre-dominant, dominant) does this moment in the phrase call for? Does the choice support a cadential arrival later? Note-matching alone gives no answers to these questions, and locally 'correct' chords can produce globally weak or directionless progressions."

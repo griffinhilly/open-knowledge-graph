@@ -56,7 +56,7 @@ Act out simple sentences with toys or puppets ("The bear hugs the rabbit" -- whi
   answer: false
   explanation: "Repetition and comprehension are distinct skills. A child can echo a sentence phonetically without parsing its structure — without knowing who is the agent, who is the patient, or what the relationship between them is. Comprehension requires assigning semantic roles, not just reproducing the sound sequence."
 
-- question: "Because English word order reliably places the subject before the verb and the object after it, children who know all the vocabulary in a sentence can understand any English sentence."
+- question: "Because English word order reliably places the subject before the verb and the object after it, children who know most of the vocabulary in a sentence can understand any English sentence."
   type: true-false
   answer: false
   explanation: "The SVO strategy works for simple active sentences but breaks down with non-canonical structures like passives ('The cat was chased by the dog'), relative clauses, and ditransitives. Understanding these requires building a grammatical model that tracks syntactic roles independently of linear word position — vocabulary alone is insufficient."

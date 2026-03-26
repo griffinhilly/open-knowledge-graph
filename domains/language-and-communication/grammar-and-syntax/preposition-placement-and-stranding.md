@@ -57,7 +57,7 @@ Recognize that ending sentences with prepositions is acceptable in modern Englis
   answer: true
   explanation: "True. These constructions are not errors — they are standard English syntax in which the object of a preposition has moved to the front of the clause, leaving the preposition in its natural position at the end. Native speakers produce these automatically. The prescriptive rule is an artificial 17th-century imposition that conflicts with how English has always worked."
 
-- question: "In formal academic writing, ending a sentence with a preposition is always a grammatical error that must be corrected."
+- question: "In formal academic writing, ending a sentence with a preposition is generally a grammatical error that should be corrected."
   type: true-false
   answer: false
   explanation: "False. Formal contexts often call for avoiding terminal prepositions as a matter of register and audience expectation — but not because stranding is grammatically wrong. The decision is rhetorical: will the terminal preposition distract this audience? Can I rephrase naturally? If the 'corrected' pied-piped version sounds contorted, the stranded form may be preferable even in formal writing. Grammar and style are different concerns."

@@ -51,7 +51,7 @@ From a joint distribution table, select a column or row and normalize it to sum 
   answer: 1
   explanation: "Independence means the conditional distribution of X given Y=y equals the marginal distribution of X for every value y. If all conditional distributions are identical to each other, knowing Y changes nothing about our picture of X — this is precisely the definition of independence. Option A is wrong: the joint can assign unequal probabilities to cells while still having identical conditional distributions (just scale each row by its marginal). Options C and D are unjustified — neither variable need be constant."
 
-- question: "The conditional distribution P(X | Y = y) is always well-defined for any value y that Y can take."
+- question: "The conditional distribution P(X | Y = y) is typically well-defined for any value y that Y can take."
   type: true-false
   answer: false
   explanation: "The conditional distribution requires dividing by P(Y=y). If P(Y=y) = 0, this division is undefined. In the discrete case, this means conditioning on a value y that has zero probability. In the continuous case, every individual value has probability zero, which is why continuous conditional distributions are defined via density ratios f(x,y)/f_Y(y) — but this still requires f_Y(y) > 0."

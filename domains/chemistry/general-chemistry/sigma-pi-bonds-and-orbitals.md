@@ -51,7 +51,7 @@ A sigma (σ) bond is formed by direct orbital overlap along the internuclear axi
   answer: true
   explanation: "Correct. The lateral overlap of pi bonds places electron density in two lobes above and below the molecular plane, away from the shielding nuclei. This exposed electron density is far more accessible to incoming electrophiles than sigma electrons, which are concentrated along the axis between the two nuclei. This is why alkenes and alkynes undergo addition reactions at their double and triple bonds, and why pi bonds are the reactive sites in organic chemistry. The sigma bond underneath is more stable and less accessible."
 
-- question: "A pi (π) bond is stronger than a sigma (σ) bond between the same two atoms, because pi bonds involve two lobes of orbital overlap while sigma bonds involve only one."
+- question: "A pi (π) bond is stronger than a sigma (σ) bond between the same two atoms, because pi bonds involve two lobes of orbital overlap while sigma bonds involve mainly one."
   type: true-false
   answer: false
   explanation: "Sigma bonds are stronger than individual pi bonds. Head-on overlap (sigma) is more effective than lateral overlap (pi) because the orbitals directly face each other along the internuclear axis, maximizing orbital overlap. The 'two lobes' of a pi bond represent one bond formed by parallel p orbitals, not two separate overlapping regions. The overall double bond is stronger than a single bond — because sigma + pi > sigma alone — but the pi component itself contributes less bond energy than the sigma component. This is confirmed by bond dissociation energies: breaking the pi bond of C=C costs ~260 kJ/mol; breaking the sigma requires ~350 kJ/mol."

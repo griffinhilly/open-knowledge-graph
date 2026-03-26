@@ -52,7 +52,7 @@ Proper storage extends ingredient shelf life, preserves nutrition, and prevents 
   answer: true
   explanation: "When spices are ground, the particle size decreases dramatically, increasing the surface area exposed to air by orders of magnitude. The volatile aromatic compounds responsible for flavor and fragrance oxidize and evaporate much faster from the larger exposed surface. A whole peppercorn might retain its flavor for years; the same pepper once ground may go stale in months. This is why chefs who care about flavor grind spices fresh, and it's the same principle that makes freshly ground coffee taste better than pre-ground."
 
-- question: "Refrigerating all produce is the safest default because cold temperatures universally slow deterioration."
+- question: "Refrigerating most produce is the safest default because cold temperatures universally slow deterioration."
   type: true-false
   answer: false
   explanation: "Cold-sensitive produce — including tomatoes, basil, avocados, bananas, and most tropical fruits — undergoes cellular damage when refrigerated. The cold ruptures cell membranes that evolved for warmer climates, causing mushy texture, off-flavors, and nutrient loss. A refrigerated tomato loses its characteristic aroma compounds and becomes mealy. These items should be stored at room temperature. The rule 'refrigerate everything' is a misconception that causes food quality loss rather than preservation."

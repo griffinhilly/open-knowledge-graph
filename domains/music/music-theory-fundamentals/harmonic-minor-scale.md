@@ -53,7 +53,7 @@ Harmonic minor only raises the 7th from major, forgetting it also lowers 3 and 6
   answer: 2
   explanation: "F♮ to G♯ spans three half steps: F→F♯→G→G♯. This is an augmented second — enharmonically the same size as a minor third but spelled differently because the notes are on adjacent letter names (F and G). This distinctive gap is the acoustic signature of harmonic minor and is why the scale sounds exotic or tense compared to natural minor. Historically, this interval was considered awkward for vocal melody, which motivated the melodic minor scale."
 
-- question: "In minor-key tonal music, composers use only the harmonic minor scale — the natural minor is a separate theoretical construct with no practical role in tonal composition."
+- question: "In minor-key tonal music, composers use mainly the harmonic minor scale — the natural minor is a separate theoretical construct with no practical role in tonal composition."
   type: true-false
   answer: false
   explanation: "Both scales serve different roles in the same key. Natural minor commonly appears in descending melodic lines and modal passages, while harmonic minor provides the logic for harmonization — especially the V chord, which uses the raised 7th to create dominant function. A real minor-key piece typically alternates between both forms: the melody follows whichever version fits the harmonic context of each moment. Natural minor and harmonic minor are not competitors; they are complementary tools."

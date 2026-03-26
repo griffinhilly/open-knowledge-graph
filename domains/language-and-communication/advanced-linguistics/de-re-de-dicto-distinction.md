@@ -58,7 +58,7 @@ Work through belief reports with definite descriptions, distinguishing readings 
   answer: true
   explanation: "True. De re belief tracks the individual, not the description. The belief was attributed to Jane Smith as a specific person in the world. Her no longer being mayor changes the extension of 'the mayor' but does not affect the referent of the de re attribution — John's belief is still about Jane. By contrast, the de dicto attribution tracks the role: whether it remains true depends on whether John still believes whoever is currently mayor is corrupt."
 
-- question: "A de dicto attitude is only possible when the subject of the attitude verb does not know who or what the description actually refers to."
+- question: "A de dicto attitude is primarily possible when the subject of the attitude verb does not know who or what the description actually refers to."
   type: true-false
   answer: false
   explanation: "False. The de re / de dicto distinction is about the logical form of the attribution — specifically, the scope of the description relative to the intensional operator — not about the subject's epistemic state. One can have de dicto attitudes about descriptions even while knowing their referents. For example, 'Jane believes the mayor is corrupt' can be de dicto (about whoever is mayor) even if Jane knows she herself is the mayor. De dicto concerns how the belief is described, not what the believer knows."

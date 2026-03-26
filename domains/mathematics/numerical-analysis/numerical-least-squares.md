@@ -51,7 +51,7 @@ Implement least squares using both normal equations and QR decomposition on an o
   answer: 1
   explanation: "The key advantage of QR is numerical stability: factoring A = QR and solving Rx = Q^T b never forms A^T A, so the condition number remains κ(A) rather than κ(A)^2. Since Q is orthogonal, multiplying by Q^T is a rotation/reflection that preserves vector lengths. Both methods find the same least squares solution; QR just computes it more accurately when A is ill-conditioned. Option A is false (QR is often slower than forming normal equations for tall matrices); option D reverses the reality."
 
-- question: "The normal equations always give an accurate least squares solution as long as A has full column rank."
+- question: "The normal equations usually give an accurate least squares solution as long as A has full column rank."
   type: true-false
   answer: false
   explanation: "Full column rank guarantees A^T A is invertible and a unique solution exists, but it does not guarantee numerical accuracy. If A has a large condition number, forming A^T A squares it, amplifying rounding errors far beyond what QR would produce. The issue is purely numerical: even when the mathematical problem is well-defined, the normal equations approach can produce a computed solution far from the true solution due to floating-point error accumulation."

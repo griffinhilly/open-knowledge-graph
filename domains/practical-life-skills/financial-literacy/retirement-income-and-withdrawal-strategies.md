@@ -54,7 +54,7 @@ The 4% rule suggests withdrawing 4% of portfolio value in year one, then adjusti
   answer: true
   explanation: "Roth conversions are a legitimate tax-smoothing strategy. Traditional IRA money was contributed pre-tax and will be taxed as ordinary income when withdrawn (including RMDs). Converting to a Roth in years when taxable income is lower — such as the gap between retirement and when Social Security and RMDs begin — allows paying tax at a lower marginal rate now and enjoying tax-free withdrawals later. This also reduces future RMD balances, which can otherwise push retirees into higher brackets and trigger Medicare surcharges."
 
-- question: "Roth IRAs have the same required minimum distribution rules as traditional IRAs — withdrawals must begin at age 73."
+- question: "Roth IRAs have the same required minimum distribution rules as traditional IRAs — withdrawals is expected to begin at age 73."
   type: true-false
   answer: false
   explanation: "Roth IRAs are exempt from required minimum distributions during the account owner's lifetime. This is a key distinguishing advantage: the money can grow tax-free indefinitely and be passed to heirs. Traditional IRAs and 401(k)s require minimum distributions beginning at age 73 because those funds were contributed pre-tax and the IRS requires eventual taxation. Roth accounts, funded with after-tax dollars, have no such obligation during the owner's life."

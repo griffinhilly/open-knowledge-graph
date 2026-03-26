@@ -50,7 +50,7 @@ Genetic heterogeneity means different genes can produce the same phenotype (locu
   answer: true
   explanation: "Complementation is the definitive test for locus heterogeneity. If each parent's mutation is in a different gene, their children inherit one functional copy of each gene from the unaffected parent at the other locus — and both genes are functional, producing a normal phenotype. This directly demonstrates that the same phenotype arose from two different genetic causes. Historically, complementation testing has been a primary tool for determining whether distinct mutations represent one gene or multiple genes."
 
-- question: "Allelic heterogeneity means that people with different mutations in the same gene will always show the same clinical phenotype, since they share the same underlying genetic locus."
+- question: "Allelic heterogeneity means that people with different mutations in the same gene will typically show the same clinical phenotype, since they share the same underlying genetic locus."
   type: true-false
   answer: false
   explanation: "Allelic heterogeneity is precisely the phenomenon where different mutations in the same gene produce different clinical outcomes. CFTR is the textbook case: the ΔF508 mutation causes severe cystic fibrosis with lung disease and pancreatic insufficiency, while other CFTR mutations cause only male infertility or chronic pancreatitis. The clinical spectrum maps onto residual protein function — mutations that prevent the protein from reaching the cell surface at all produce severe disease; those that allow a partially functional channel produce milder phenotypes. 'Same gene, same disease' is the misconception."

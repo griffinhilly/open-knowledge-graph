@@ -51,7 +51,7 @@ Prove that universal formulas are preserved under substructures by showing how a
   answer: 0
   explanation: "Existential sentences are preserved under embeddings (extensions). If ∃x R(x,x) holds in M — say element a witnesses R(a,a) — then after embedding f: M → N, the element f(a) still exists in N and R(f(a),f(a)) holds (because embeddings preserve atomic formulas). So N inherits the existential witness. Option B is wrong: existential sentences go *upward* under extensions, not downward; a substructure of M might lack the witness. Option C is much stronger than what the preservation theorem guarantees."
 
-- question: "If a purely universal sentence holds in a substructure M of N, then it must also hold in the larger structure N."
+- question: "If a purely universal sentence holds in a substructure M of N, then it is expected to also hold in the larger structure N."
   type: true-false
   answer: false
   explanation: "False — the direction is reversed. Universal sentences are preserved *downward*: if ∀x φ(x) holds in N, then it holds in every substructure M of N (because M has fewer elements and each one is already in N where φ holds). But the reverse is not guaranteed. A purely universal sentence might hold in M simply because M lacks the counterexample elements — those elements might exist in N. For example, 'every element squared is non-negative' holds in ℝ (as a substructure of ℂ), but ℂ contains elements like i where i² = −1 < 0, violating it."

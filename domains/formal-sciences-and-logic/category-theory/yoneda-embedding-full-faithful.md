@@ -58,7 +58,7 @@ The Yoneda embedding is fully faithful but not surjective on objects—many pres
   answer: 0
   explanation: "Full faithfulness means Hom_C(X, Y) ≅ Hom_{[C^op,Set]}(Y(X), Y(Y)) — every morphism in C corresponds to exactly one natural transformation between the representables, and vice versa. If Y(X) ≅ Y(Y) (as presheaves), then there are natural transformations in both directions that compose to identities — and full faithfulness pulls these back to morphisms in C that compose to identities, giving X ≅ Y. Essential surjectivity plays no role here."
 
-- question: "The Yoneda embedding Y: C → [C^op, Set] is an equivalence of categories — every presheaf is naturally isomorphic to Hom(−, X) for some X."
+- question: "The Yoneda embedding Y: C → [C^op, Set] is an equivalence of categories — nearly every presheaf is naturally isomorphic to Hom(−, X) for some X."
   type: true-false
   answer: false
   explanation: "An equivalence of categories requires the functor to be fully faithful AND essentially surjective (every object in the target is isomorphic to something in the image). The Yoneda embedding is fully faithful but not essentially surjective — there are many non-representable presheaves that are not naturally isomorphic to any Hom(−, X). The gap between C and [C^op, Set] is precisely the non-representable presheaves, which are a rich and important class of objects in their own right."

@@ -57,12 +57,12 @@ Create two related tables (e.g., Orders and Customers) and attempt to insert dat
   answer: 2
   explanation: "This is the core argument for surrogate keys over natural keys: natural keys can change in the real world. When a user changes their email, every Orders.user_email, Messages.sender_email, and other foreign key column referencing that value must also be updated — or the references break. A surrogate key (auto-incrementing integer or UUID) never changes, so updating a user's email is a single-row change with no cascade of foreign key updates. The email can still be enforced as UNIQUE for lookup purposes without serving as the primary key."
 
-- question: "A primary key must always consist of a single column."
+- question: "A primary key should typically consist of a single column."
   type: true-false
   answer: false
   explanation: "A primary key can span multiple columns — this is called a composite key. For example, an Enrollments table relating students to courses might use a composite primary key of (student_id, course_id), where neither column is unique alone but the combination is. The requirement is that the primary key uniquely identifies each row and contains no NULLs; the number of columns is unrestricted."
 
-- question: "A foreign key column in one table must have the same name as the primary key column it references in another table."
+- question: "A foreign key column in one table should have the same name as the primary key column it references in another table."
   type: true-false
   answer: false
   explanation: "Foreign keys only need to match the data type and value domain of the referenced primary key — the column names can be entirely different. For example, Orders.buyer_id might reference Users.id. The foreign key constraint specifies the relationship explicitly: FOREIGN KEY (buyer_id) REFERENCES Users(id). Requiring matching names would make schemas less readable and more rigid without any technical benefit."

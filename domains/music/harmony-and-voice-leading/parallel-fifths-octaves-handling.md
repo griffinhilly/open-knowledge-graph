@@ -57,7 +57,7 @@ All parallel fifths are equally forbidden; parallel fifths in inner voices are m
   answer: true
   explanation: "This is the principled explanation for why parallel thirds (and sixths) are encouraged while parallel fifths and octaves are avoided. Imperfect consonances — thirds and sixths — are harmonious but not so acoustically fused that voices lose independence. Two voices moving in parallel thirds feel related and harmonious while remaining distinctly audible as separate lines. Perfect consonances (fifths and octaves) cause the opposite: the intervals are so powerful that voices merge."
 
-- question: "The rule against parallel perfect fifths is absolute and applies equally in all musical styles and genres."
+- question: "The rule against parallel perfect fifths is absolute and applies equally in most musical styles and genres."
   type: true-false
   answer: false
   explanation: "The rule reflects a principle — maintain voice independence — that is specific to the goals of four-part tonal counterpoint. In rock music, parallel fifths (power chords) are intentionally used precisely for their fused, monolithic sound. In medieval organum and modal styles, parallel fifths create an archaic, open texture that is musically intentional. Understanding the purpose of the rule reveals when breaking it serves an expressive goal versus when it is a careless lapse."

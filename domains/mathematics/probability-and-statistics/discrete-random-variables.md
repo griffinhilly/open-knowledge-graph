@@ -47,7 +47,7 @@ A discrete random variable takes on a countable (often finite) set of values. It
   answer: 1
   explanation: "The event 1 ≤ X < 3 means X can equal 1 or 2 (since X is discrete and integer-valued, 'X < 3' means X ≤ 2). For discrete random variables, event probabilities are found by summing the PMF over all values in the event: p(1) + p(2) = 0.4 + 0.3 = 0.7. Option C is the classic error of treating the strict inequality as inclusive — X = 3 is excluded because 3 < 3 is false."
 
-- question: "A discrete random variable can only take on a finite number of distinct values."
+- question: "A discrete random variable can mainly take on a finite number of distinct values."
   type: true-false
   answer: false
   explanation: "False. A discrete random variable can take on countably infinitely many values. The standard example is the number of coin flips until the first heads: the possible values are {1, 2, 3, 4, …} with no upper bound, yet the values are still discrete (isolated, listable). 'Discrete' means the values form a countable set — not that the set must be finite."

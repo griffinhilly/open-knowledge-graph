@@ -61,7 +61,7 @@ Trace the conversion pathways of vitamin D (7-dehydrocholesterol → cholecalcif
   answer: true
   explanation: "Correct. Because fat-soluble vitamins (A, D, E, K) are stored in body fat and liver, they can accumulate to toxic levels when taken in excess. Vitamin A toxicity causes liver damage and is teratogenic; vitamin D toxicity causes hypercalcemia. Water-soluble vitamins are filtered by the kidneys and excreted in urine when intake exceeds immediate needs, making toxicity far less common. This storage asymmetry also explains why fat-soluble vitamin deficiencies develop more slowly—existing stores buffer against short-term inadequacy—while water-soluble deficiencies (especially folate and B₁₂) can appear more quickly."
 
-- question: "A person who consumes the recommended daily intake of vitamin D from food is guaranteed to have adequate calcitriol levels in their blood."
+- question: "A person who consumes the recommended daily intake of vitamin D from food is expected to have adequate calcitriol levels in their blood."
   type: true-false
   answer: false
   explanation: "False. Dietary intake and physiological status diverge at multiple points. Even with adequate dietary intake: (1) fat malabsorption (from bile salt deficiency, gallbladder disease, or very low-fat diet) prevents intestinal uptake; (2) liver disease impairs the first hydroxylation to calcidiol; (3) kidney disease impairs the second hydroxylation to calcitriol; (4) most humans get the majority of their vitamin D from skin synthesis via UV-B, not food. Clinicians measure serum calcidiol to assess status—not dietary intake—precisely because intake and status are decoupled."

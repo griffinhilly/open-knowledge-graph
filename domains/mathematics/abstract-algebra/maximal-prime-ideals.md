@@ -49,7 +49,7 @@ A maximal ideal M of a ring R is an ideal properly contained in R such that no i
   answer: true
   explanation: "If M is maximal, then R/M is a field. Every field is an integral domain (it has no zero divisors). Since R/M is an integral domain, M is prime. The chain is: M maximal ⟹ R/M is a field ⟹ R/M is an integral domain ⟹ M is prime. The reverse implication fails: prime does not imply maximal."
 
-- question: "In a commutative ring with unity, every prime ideal is also maximal."
+- question: "In a commutative ring with unity, nearly every prime ideal is also maximal."
   type: true-false
   answer: false
   explanation: "In ℤ, the ideal (0) is prime because ℤ has no zero divisors (if ab = 0 in ℤ, then a = 0 or b = 0). But (0) is not maximal because (0) ⊊ (2) ⊊ ℤ — the ideal (2) sits strictly between (0) and all of ℤ. However, in a principal ideal domain, every nonzero prime ideal is maximal. The claim holds in special settings but fails in general."

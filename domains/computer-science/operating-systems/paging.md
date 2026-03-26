@@ -57,7 +57,7 @@ Work through a manual TLB lookup: given a logical address, extract page number a
   answer: 1
   explanation: "The page table lives in main memory. Without the TLB, translating any logical address requires first reading the page table entry from memory (one access), then reading the actual data or instruction (second access). This doubles the effective memory access time for every single operation — every instruction fetch, every data read, every data write. The TLB is a small fast hardware cache (typically 64–1024 entries) of recent page-to-frame mappings; on a TLB hit, translation adds essentially zero overhead. Because programs exhibit locality, TLB hit rates above 99% are typical, making paging's performance overhead negligible in practice."
 
-- question: "Paging completely eliminates memory fragmentation."
+- question: "Paging mostly eliminates memory fragmentation."
   type: true-false
   answer: false
   explanation: "False. Paging eliminates *external* fragmentation — scattered free blocks that individually cannot accommodate a process even when their total size is sufficient. Because any free frame can hold any page, there are no unusable gaps between allocations. However, paging introduces *internal* fragmentation: the last page allocated to a process is rarely completely full. If a process needs 4097 bytes with 4 KB pages, it occupies two pages but uses only 1 byte of the second, wasting 4095 bytes. On average, half a page is wasted per process — a small, predictable cost compared to the unpredictable waste of external fragmentation."

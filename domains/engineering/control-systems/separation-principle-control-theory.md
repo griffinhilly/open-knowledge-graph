@@ -51,7 +51,7 @@ The separation principle states that state feedback design and observer design c
   answer: true
   explanation: "This is correct engineering practice. The separation principle guarantees combined stability regardless of relative pole speeds, but practical performance depends on estimation quality. If observer poles are too slow, x̂ lags behind x during transients, and the controller u = -Kx̂ acts on stale estimates. Placing observer poles 2–5× faster ensures the estimation error decays on a much shorter timescale than the controlled state, so x̂ ≈ x during most of the system's response."
 
-- question: "The separation principle holds for all dynamical systems — linear, nonlinear, and time-varying — as long as both the state feedback controller and the observer are individually designed to be stable."
+- question: "The separation principle holds for most dynamical systems — linear, nonlinear, and time-varying — as long as both the state feedback controller and the observer are individually designed to be stable."
   type: true-false
   answer: false
   explanation: "The separation principle holds exactly only for linear time-invariant (LTI) systems. For nonlinear systems, the estimation error dynamics generally depend on the control input u, destroying the block-triangular structure that makes poles split cleanly. Combining a stable nonlinear controller with a stable nonlinear observer does not guarantee stability of the combined system — the separation into independent subproblems is a special property of linearity, not a universal truth."

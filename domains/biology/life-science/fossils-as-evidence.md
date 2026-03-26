@@ -44,7 +44,7 @@ Show real fossils or high-quality replicas alongside images of the modern organi
   answer: 1
   explanation: "In undisturbed rock, the deepest layers were deposited first and are the oldest. Since life on Earth began with simple, single-celled organisms and became more complex over billions of years through evolution, the oldest layers contain the simplest fossils and newer layers contain more complex ones. This pattern is consistent worldwide and is one of the strongest pieces of evidence for evolution."
 
-- question: "Every organism that has ever lived left behind a fossil."
+- question: "Nearly every organism that has ever lived left behind a fossil."
   type: true-false
   answer: false
   explanation: "Fossilization is extremely rare. It requires specific conditions: the organism must be buried quickly in sediment before it decomposes, and minerals must gradually replace its hard parts. Most organisms decompose completely without leaving any trace. Scientists estimate that fossils represent less than 1% of all species that have ever existed."

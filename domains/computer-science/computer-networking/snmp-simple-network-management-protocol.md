@@ -54,7 +54,7 @@ SNMP is not real-time; it uses pull-based polling (except traps). GET operations
   answer: 1
   explanation: "Community strings in SNMPv1 and SNMPv2c are sent in plaintext with every request — any attacker who can sniff network traffic (or is on the same network segment) can read the community string and then use it to query or even modify device configurations. The default 'public' (read) and 'private' (read-write) community strings are widely known. An attacker with the read-write community string can send SNMP SET operations to reconfigure routers and switches. SNMPv3 was introduced specifically to address this, adding HMAC-based authentication and AES/DES encryption."
 
-- question: "SNMP uses TCP as its transport protocol because management data must be delivered reliably to the network manager."
+- question: "SNMP uses TCP as its transport protocol because management data should be delivered reliably to the network manager."
   type: true-false
   answer: false
   explanation: "SNMP runs over UDP, not TCP. Management traffic is designed to be low-overhead, and the assumption is that occasional lost messages are acceptable — the manager can simply retry a failed GET request. Using TCP would add connection overhead, handshake latency, and flow control mechanisms to every management query, which is unnecessary for periodic polling. UDP's connectionless, fire-and-forget nature suits SNMP's use case, where polling traffic is low-stakes and retries are built into the management software."

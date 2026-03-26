@@ -43,7 +43,7 @@ An operation is idempotent if applying it multiple times has the same effect as 
   answer: 1
   explanation: "This scenario captures the core distinction. 'Add $100' is non-idempotent: applying it twice changes the outcome (adds $200 instead of $100). 'Set balance to $600' is idempotent: applying it twice leaves the balance at $600 — the second application has no additional effect. HTTP PUT is designed to be idempotent (setting a resource to a specific state), while POST for incremental operations typically is not. Idempotency depends on the operation's semantics, not the HTTP method alone."
 
-- question: "If an operation fails and returns an error response, the client can safely retry it because a failed operation cannot have partially changed server state."
+- question: "If an operation fails and returns an error response, the client can safely retry it because a failed operation can rarely have partially changed server state."
   type: true-false
   answer: false
   explanation: "This is the core problem idempotency solves. In a distributed system, 'failure' is ambiguous: a timeout means the client never received a response, but the server may have already completed the operation successfully before the response was lost in transit. The operation may have fully executed on the server — it is the confirmation that was lost. Retrying a non-idempotent operation in this scenario causes double execution. The client has no way to distinguish 'request never arrived' from 'request completed but response was lost' without additional mechanisms like idempotency keys."

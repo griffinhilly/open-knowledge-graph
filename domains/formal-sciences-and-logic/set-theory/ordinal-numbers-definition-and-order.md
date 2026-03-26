@@ -60,7 +60,7 @@ Study small ordinals: 0 = ∅, 1 = {0}, 2 = {0,1}, 3 = {0,1,2}. Visualize ω as 
   answer: true
   explanation: "This is the elegant economy of von Neumann ordinals: 0 = ∅, 1 = {0}, 2 = {0, 1}, and n < m simply means n ∈ m. Every ordinal is the set of all smaller ordinals, so the 'less than' relation is built into the set structure itself. This is not a coincidence — it is a deliberate design choice that makes ordinals self-contained mathematical objects with their order encoded internally rather than added on separately."
 
-- question: "Two sets with the same cardinality always have the same ordinal number, because ordinals and cardinals both measure the 'size' of sets."
+- question: "Two sets with the same cardinality generally have the same ordinal number, because ordinals and cardinals both measure the 'size' of sets."
   type: true-false
   answer: false
   explanation: "Ordinals capture order type; cardinals capture size. The sets {0, 1, 2, ...} (order type ω) and {0, 1, 2, ..., ω} (order type ω + 1) have the same cardinality (both countably infinite) but different ordinals. Even for finite sets, every 3-element set has the same cardinality, but {a, b, c} ordered differently gives different order types — though for finite well-orderings, cardinality and ordinal happen to coincide. The distinction matters crucially in the transfinite setting."

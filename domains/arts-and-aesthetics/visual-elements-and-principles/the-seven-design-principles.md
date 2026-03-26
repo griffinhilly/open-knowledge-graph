@@ -55,7 +55,7 @@ Learn principles by finding real examples in art and design. Create compositions
   answer: 1
   explanation: "Elements are your vocabulary — the individual visual building blocks (a red circle, a curved line, a rough texture). Principles are the grammar — the rules for arranging those elements into a composition that communicates effectively. Just as words alone don't make a sentence meaningful, elements alone don't make a composition effective. The principles govern how elements interact: contrast tells you to put different elements against each other; balance tells you how to distribute visual weight; emphasis tells you what to make stand out."
 
-- question: "An effective design always uses all seven principles — balance, contrast, emphasis, movement, pattern, rhythm, and unity — to ensure nothing is missing."
+- question: "An effective design usually uses most seven principles — balance, contrast, emphasis, movement, pattern, rhythm, and unity — to ensure hardly anything is missing."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about the principles. Requiring all seven in every design would produce cluttered, unfocused compositions. Different design contexts call for different principles. A minimalist layout might focus almost entirely on balance and unity. A high-energy poster might prioritize contrast, movement, and rhythm. The principles are more like dials on a mixing board than boxes on a checklist — the skill is knowing which ones to turn up for a specific goal."

@@ -53,7 +53,7 @@ Crater morphology transitions from simple (raised rim, bowl-shaped) to complex (
   answer: true
   explanation: "The Moon lacks atmosphere, running water, and plate tectonics, so craters degrade only through micrometeorite bombardment and occasional larger impacts. A fresh lunar crater can retain sharp rims and bright rays for hundreds of millions of years. This makes rim sharpness and ray preservation powerful relative age indicators on the lunar surface."
 
-- question: "A larger crater is always more degraded than a smaller crater on the same planetary surface."
+- question: "A larger crater is generally more degraded than a smaller crater on the same planetary surface."
   type: true-false
   answer: false
   explanation: "Crater size and degradation state are independent variables. Size depends on impactor energy; degradation depends on time elapsed since formation and the intensity of surface processes. A large fresh crater can be sharper and less degraded than a tiny ancient crater that has been filled with regolith and battered by later impacts. Geologists assess degradation by rim sharpness, ejecta preservation, and superimposed crater density — not by diameter."

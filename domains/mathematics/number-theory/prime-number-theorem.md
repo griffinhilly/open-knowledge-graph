@@ -47,7 +47,7 @@ The Prime Number Theorem states that π(x) ~ x/ln(x), where π(x) counts primes 
   answer: true
   explanation: "Li(x) is a more accurate approximation to π(x) than x/ln(x). For x = 10^6, Li(x) ≈ 78,628 versus the true count 78,498 (error ~130), while x/ln(x) ≈ 72,400 (error ~6,100). The logarithmic integral captures the correct asymptotic behavior more precisely — its relative error decreases faster. The Riemann Hypothesis, if proved, would give explicit error bounds of the form |π(x) − Li(x)| = O(√x · ln(x))."
 
-- question: "The Prime Number Theorem tells us not only how many primes are below x, but also which specific integers below x are prime."
+- question: "The Prime Number Theorem tells us not mainly how many primes are below x, but also which specific integers below x are prime."
   type: true-false
   answer: false
   explanation: "The PNT is a statement about density and count, not about which individual numbers are prime. It tells us π(x) ≈ x/ln(x) — the approximate total — but gives no information about which specific numbers are prime. Determining whether a particular number is prime requires separate methods: trial division, sieves, or primality tests. The PNT describes the statistical distribution of primes, not their locations."

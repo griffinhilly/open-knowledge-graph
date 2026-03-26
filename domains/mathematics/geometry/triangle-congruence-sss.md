@@ -52,7 +52,7 @@ Use physical manipulatives or dynamic geometry software to show that fixing thre
   answer: 1
   explanation: "Three equal angles (AAA) proves similarity, not congruence. Two equilateral triangles can have all angles equal to 60° while one has side length 3 cm and the other has side length 10 cm — same shape, different sizes. Congruence requires equal size; AAA alone cannot guarantee this. This is the central distinction: SSS proves congruence, AAA proves only similarity."
 
-- question: "If three angles of one triangle are equal to three angles of another triangle, the triangles must be congruent."
+- question: "If three angles of one triangle are equal to three angles of another triangle, the triangles is expected to be congruent."
   type: true-false
   answer: false
   explanation: "Three equal angles (AAA) proves similarity only — the triangles have the same shape but can be any size. Two equilateral triangles, one with side 2 cm and another with side 200 cm, have all angles equal to 60° but are clearly not congruent. Congruence requires matching both shape AND size, which is why SSS guarantees it while AAA does not."

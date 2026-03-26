@@ -56,7 +56,7 @@ Start with factorial and Fibonacci, tracing the call tree by hand. Then implemen
   answer: 2
   explanation: "Without a base case, each call to the function spawns another call, which spawns another — the call stack accumulates frames indefinitely. Most environments impose a stack size limit, and when it is exceeded, the program crashes with a stack overflow error (or RecursionError in Python). The function does not self-terminate, and most languages do not statically detect this at compile time."
 
-- question: "A recursive solution to a problem is always faster and uses less memory than an equivalent iterative solution."
+- question: "A recursive solution to a problem is generally faster and uses less memory than an equivalent iterative solution."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Each recursive call creates a new stack frame with its own local variables, consuming memory proportional to the call depth. An iterative loop reuses the same memory. For deep recursions (e.g., large n in factorial), this overhead is substantial. Some algorithms (like tree traversals) are more naturally expressed recursively, but efficiency claims require analysis — recursion is not inherently better."

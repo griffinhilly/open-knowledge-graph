@@ -52,7 +52,7 @@ RL learns from interaction with an environment. Agents select actions, receive r
   answer: true
   explanation: "The cumulative discounted return is Σ γᵗrₜ. When γ = 1, all future rewards count equally — a reward 100 steps away is worth as much as one received now. When γ = 0, only the immediate reward matters. Intermediate values of γ create exponential discounting: a reward t steps away is worth γᵗ of its face value. Far-sighted behavior (γ → 1) is appropriate when long-term planning matters; myopic behavior (small γ) is appropriate in environments with high uncertainty or very long time horizons where the future is too uncertain to plan for."
 
-- question: "Model-free reinforcement learning methods are always superior to model-based methods because they avoid making assumptions about the environment's transition dynamics."
+- question: "Model-free reinforcement learning methods are generally superior to model-based methods because they avoid making assumptions about the environment's transition dynamics."
   type: true-false
   answer: false
   explanation: "The model-free vs model-based tradeoff is not about superiority — each excels in different conditions. Model-based methods are far more sample-efficient: by learning a model of the environment, the agent can simulate experiences and plan without interacting with the real environment repeatedly. Model-free methods (like Q-learning) are more robust because they don't depend on the accuracy of a learned model — an incorrect model can lead to catastrophically wrong planning. In low-data regimes, model-based methods win; in complex environments where accurate models are hard to learn, model-free methods are often preferred."

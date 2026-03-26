@@ -54,12 +54,12 @@ Reproduce a deadlock experimentally: open two sessions, have each lock a differe
   answer: 1
   explanation: "Deadlock aborts are not bugs — they are the normal resolution mechanism for lock cycles, and the correct response is to retry the transaction. Application code should always handle deadlock-induced aborts with automatic retry logic. Option A is wrong because no data corruption has occurred; the rollback ensures atomicity. Option C describes lock ordering, which is a prevention strategy, not a recovery response. Option D might reduce future deadlocks but at the cost of concurrency, and it is not the immediate correct response to an abort."
 
-- question: "Imposing a global lock-ordering rule (e.g., always lock rows in ascending primary key order) prevents deadlocks by eliminating the 'hold and wait' Coffman condition."
+- question: "Imposing a global lock-ordering rule (e.g., typically lock rows in ascending primary key order) prevents deadlocks by eliminating the 'hold and wait' Coffman condition."
   type: true-false
   answer: false
   explanation: "Global lock ordering prevents deadlocks by eliminating the *circular wait* condition, not hold-and-wait. Transactions still hold locks while waiting for others — hold-and-wait remains present. What cannot happen is a cycle: if every transaction acquires locks in the same order, no transaction can be waiting for a lock that precedes one it already holds. Mutual exclusion, hold-and-wait, and no-preemption remain; it is circular wait specifically that the global ordering breaks."
 
-- question: "A wait-for graph cycle involving three transactions always requires aborting at least two transactions to resolve the deadlock."
+- question: "A wait-for graph cycle involving three transactions typically requires aborting at least two transactions to resolve the deadlock."
   type: true-false
   answer: false
   explanation: "Any cycle in a wait-for graph can be broken by removing a single edge, which corresponds to aborting one transaction and releasing all its locks. When the victim's locks are released, the transactions that were waiting for them can proceed — the cycle is fully dissolved with one abort. The database typically chooses the victim to minimize rollback cost (fewest rows modified, youngest transaction). Aborting two or more is unnecessary and wasteful."

@@ -51,7 +51,7 @@ Atomic operations execute indivisibly without interruption, enabling lock-free s
   answer: true
   explanation: "CAS is implemented as a single hardware instruction (e.g., CMPXCHG on x86, LDREX/STREX on ARM) available in user mode. Mutex lock acquisition, by contrast, often requires a system call (futex on Linux) when there is contention, which involves a kernel trap and context-switch overhead. CAS-based lock-free operations run entirely in user space, avoiding this overhead for short operations. This is one reason lock-free data structures can outperform mutex-based ones in high-throughput scenarios."
 
-- question: "Lock-free algorithms using CAS never cause threads to wait, so they are always faster than mutex-based algorithms for the same operation."
+- question: "Lock-free algorithms using CAS seldom cause threads to wait, so they are generally faster than mutex-based algorithms for the same operation."
   type: true-false
   answer: false
   explanation: "Lock-free means no thread ever blocks indefinitely (a liveness guarantee), but it does not mean threads never waste time. Under high contention, many threads may repeatedly fail their CAS and retry in tight loops — a form of livelock that burns CPU cycles without making progress. A mutex allows contending threads to sleep and yield the CPU, which can be more efficient when contention is sustained. Lock-free code excels for short critical sections with low-to-moderate contention; mutexes can be better when contention is high or critical sections are long."

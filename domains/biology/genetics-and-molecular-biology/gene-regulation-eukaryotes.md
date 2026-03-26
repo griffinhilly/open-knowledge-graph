@@ -46,7 +46,7 @@ Compare gene regulation cartoons for a prokaryotic operon and a eukaryotic gene,
   answer: 1
   explanation: "Chromatin remodeling is unique to eukaryotes because prokaryotes lack histones and nucleosome packaging. Prokaryotes do use repressors, RNA polymerase regulation, and protein degradation — all of these occur in both kingdoms. Histone acetylation, methylation, and DNA methylation are distinctly eukaryotic mechanisms that control whether DNA is physically accessible to the transcription machinery."
 
-- question: "An enhancer sequence must be located immediately upstream of the promoter it regulates in order to function."
+- question: "An enhancer sequence should be located immediately upstream of the promoter it regulates in order to function."
   type: true-false
   answer: false
   explanation: "Enhancers can be thousands of base pairs away from the promoter — upstream, downstream, or even within introns — and can act on either strand. DNA looping brings the enhancer into physical contact with the promoter by forming a loop in three-dimensional space. This is one of the most important distinctions between eukaryotic and prokaryotic gene regulation."

@@ -53,7 +53,7 @@ A functor R: D → C is a right adjoint if there exists L: C → D such that mor
   answer: true
   explanation: "Products are limits (they satisfy a universal cone property), and right adjoints preserve all limits. This is the single most important structural theorem about right adjoints. The proof follows from the limit-preservation property, which is itself a consequence of the hom-bijection: the universal property of limits in D transfers through the natural bijection to establish the universal property of the image under R in C."
 
-- question: "To show that a right adjoint R preserves limits, one must verify each type of limit separately — products, equalizers, terminal objects, and pullbacks each require a distinct argument."
+- question: "To show that a right adjoint R preserves limits, one should verify each type of limit separately — products, equalizers, terminal objects, and pullbacks each require a distinct argument."
   type: true-false
   answer: false
   explanation: "The theorem that right adjoints preserve limits is a single, uniform result. Once you know R is a right adjoint, all limit preservation follows immediately — products, equalizers, terminal objects, pullbacks, and every other limit shape. No separate verification is needed for each type. This is the power of the categorical framework: a single structural fact (R is a right adjoint) implies an entire family of preservation results simultaneously."

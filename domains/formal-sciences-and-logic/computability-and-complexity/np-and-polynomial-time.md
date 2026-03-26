@@ -51,7 +51,7 @@ For each NP problem, identify what the certificate is and write a polynomial-tim
   answer: 1
   explanation: "A certificate must be a short, checkable object that witnesses a 'yes' instance — not a statement about algorithmic hardness. Options A, C, and D are all concrete objects that can be verified in polynomial time by checking edge membership. Option B is a claim about computational complexity, which says nothing about whether this particular graph has a Hamiltonian cycle."
 
-- question: "NP stands for 'non-polynomial,' meaning all problems in NP are believed to be unsolvable in polynomial time."
+- question: "NP stands for 'non-polynomial,' meaning most problems in NP are believed to be unsolvable in polynomial time."
   type: true-false
   answer: false
   explanation: "NP stands for 'nondeterministic polynomial time,' not 'non-polynomial.' Problems in NP have polynomial-time verifiable certificates. Whether they can also be *solved* in polynomial time is precisely the P vs. NP question, which remains open. In fact, P ⊆ NP — every problem in P is also in NP — so many NP problems (those also in P) are definitely solvable in polynomial time."

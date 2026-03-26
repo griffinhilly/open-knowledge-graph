@@ -48,12 +48,12 @@ Examine records of three different dynasty transitions and identify how the Mand
   answer: 1
   explanation: "In the Mandate of Heaven framework, cosmic events — floods, droughts, earthquakes, eclipses — were not merely natural disasters but political signals. They were interpreted as Heaven communicating displeasure with the ruler's governance. A ruler who experienced repeated calamities faced growing political pressure: officials and rivals could plausibly argue that Heaven was withdrawing its mandate, lending moral and religious legitimacy to criticism or even rebellion. This made natural disasters politically dangerous beyond their immediate material effects."
 
-- question: "The Mandate of Heaven made Chinese rulers accountable by requiring them to govern virtuously, but it also made political change impossible without overt revolution."
+- question: "The Mandate of Heaven made Chinese rulers accountable by requiring them to govern virtuously, but it also made political change impractical without overt revolution."
   type: true-false
   answer: false
   explanation: "The Mandate of Heaven actually legitimized political change without requiring a theory of revolution in the Western sense. A new dynasty did not need to claim popular sovereignty or natural rights — it claimed that Heaven had mandated the transfer of power. This made dynastic change ideologically palatable within the existing cosmological framework. The old dynasty's fall was reframed not as illegitimate overthrow but as the natural consequence of lost virtue. The concept thus operated simultaneously as stabilizing ideology (legitimizing current rule) and as a mechanism for accepting change (legitimizing overthrow of failed rulers)."
 
-- question: "The Mandate of Heaven was a self-refuting concept: because success automatically proved legitimacy and failure automatically proved its loss, it could never be used to question a ruler currently in power."
+- question: "The Mandate of Heaven was a self-refuting concept: because success automatically proved legitimacy and failure automatically proved its loss, it could rarely be used to question a ruler currently in power."
   type: true-false
   answer: false
   explanation: "The concept was powerful precisely because omens and calamities could be interpreted as warning signs while a ruler was still in power. Floods, droughts, eclipses, and famines served as ongoing indicators of heavenly disposition that court officials actively monitored and debated. A ruler experiencing such events could face real political pressure from officials arguing Heaven was signaling its displeasure — this was not a challenge that required waiting for the ruler's fall. The retrospective infallibility applied to interpreting completed transfers of power, but the concept also provided real-time political leverage during a reign."

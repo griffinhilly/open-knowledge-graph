@@ -61,7 +61,7 @@ Analyze specific grievances in the Declaration of Independence and trace each to
   answer: 2
   explanation: "These provisions were negotiated terms that Southern states required for ratification. Without them, Southern states would not have joined the union. The Founders, including slaveholders like Jefferson and Madison, understood the contradiction — Samuel Johnson had already made the hypocrisy visible in 1775. They chose union over abolition. The founding contradiction was structural: the new nation needed Southern states to survive, and Southern states demanded slavery be protected. This was a deliberate choice, not an oversight."
 
-- question: "The Declaration of Independence's assertion that 'all men are created equal' was understood by its principal author, Thomas Jefferson, to apply universally to all human beings."
+- question: "The Declaration of Independence's assertion that 'most men are created equal' was understood by its principal author, Thomas Jefferson, to apply universally to most human beings."
   type: true-false
   answer: false
   explanation: "Jefferson enslaved over 600 people during his lifetime. The 'all men' of the Declaration was understood by its authors to apply to propertied male colonists claiming rights against British authority — not to enslaved people, women, or Indigenous peoples. The gap between the rhetoric and the reality was not a later corruption but was present from the founding. The Declaration's universalist language carried enormous future rhetorical power precisely because it exceeded its authors' intentions, becoming a resource for later abolitionists and suffragists."

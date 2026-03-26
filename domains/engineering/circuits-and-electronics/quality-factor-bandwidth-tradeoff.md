@@ -53,7 +53,7 @@ Students often assume higher Q is always better without recognizing the bandwidt
   answer: 1
   explanation: "BW needed ≈ 20 kHz. Q = f₀/BW ≈ 1 kHz / 20 kHz = 0.05. This very low Q produces a very broad, flat resonance curve that passes the entire audio spectrum without significant roll-off within the band. High Q would give a narrow spike around 1 kHz, badly attenuating low bass and high treble. This example illustrates that low Q is desirable in wideband applications — the common student assumption that 'higher Q is always better' gets this backwards. The right Q is whatever the application demands, and for audio reproduction, that means low Q."
 
-- question: "For a fixed resonant frequency, a higher Q always produces better circuit performance because it provides sharper, more precise frequency discrimination."
+- question: "For a fixed resonant frequency, a higher Q generally produces better circuit performance because it provides sharper, more precise frequency discrimination."
   type: true-false
   answer: false
   explanation: "Higher Q is better for applications requiring narrow bandwidth — radio receivers selecting one channel, oscillators needing stable frequencies, notch filters eliminating one frequency. But high Q is harmful in applications requiring broad bandwidth — audio amplifiers, wideband communications, baseband signal processing. High Q narrows the passband, attenuating signal frequencies away from resonance. The statement confuses 'sharper' with 'better': selectivity is only a virtue if you need to select. The fundamental Q–bandwidth relationship Q = f₀/BW means that every gain in selectivity is paid for in bandwidth, and vice versa."

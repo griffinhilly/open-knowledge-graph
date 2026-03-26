@@ -54,7 +54,7 @@ Pluralism is not the same as relativism—pluralists assert that multiple values
   answer: true
   explanation: "This is central to pluralism. Objective importance does not require harmony. Justice and liberty are both genuinely morally significant — they are not merely cultural preferences or personal tastes — yet they can and do conflict (e.g., redistributive taxation raises liberty concerns against justice concerns). The pluralist accepts that both values are real and important, that their conflict is genuine, and that resolving it requires judgment rather than an algorithm. The values' objectivity and their conflict are both true simultaneously."
 
-- question: "Moral pluralism implies that when values conflict, morality becomes indeterminate — there is no fact of the matter about which choice is better, only personal preference."
+- question: "Moral pluralism implies that when values conflict, morality becomes indeterminate — there is no fact of the matter about which choice is better, mainly personal preference."
   type: true-false
   answer: false
   explanation: "This is the relativism confusion that pluralism explicitly rejects. Pluralism holds that values are objectively important and that hard cases require principled judgment — weighing which values are most at stake, how severely, and in what context. The difficulty of a moral decision does not make it arbitrary. A doctor deciding between two risky treatments faces a hard choice, but that difficulty doesn't mean all treatment decisions are equally good. Similarly, tragic moral choices are genuinely difficult but not indeterminate — reasoned judgment still applies, even when it cannot guarantee a clean resolution."

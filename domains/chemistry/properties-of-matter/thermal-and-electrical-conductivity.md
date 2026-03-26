@@ -44,7 +44,7 @@ Place metal, wooden, and plastic spoons in a cup of hot water. After a few minut
   answer: 1
   explanation: "Metal is an excellent heat conductor — heat from the hot soup travels quickly through the metal to the handle. Wood is a poor heat conductor (a good insulator) — heat moves through it very slowly. Both spoons are in equally hot soup; the difference is how fast each material lets the heat travel."
 
-- question: "A metal doorknob feels colder than a wooden door on a winter morning, so the metal must be at a lower temperature."
+- question: "A metal doorknob feels colder than a wooden door on a winter morning, so the metal should be at a lower temperature."
   type: true-false
   answer: false
   explanation: "False. Both the doorknob and the door are at the same room temperature. Metal feels colder because it is a better conductor — it pulls heat away from your warm hand faster than wood does. The wood insulates, so heat leaves your hand slowly and your hand stays warm. The temperature difference is in how fast your hand loses heat, not in the actual temperature of the objects."

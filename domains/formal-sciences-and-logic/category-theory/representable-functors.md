@@ -61,7 +61,7 @@ Show that the forgetful functor from Grp to Set is representable by the free gro
   answer: 1
   explanation: "Representability requires a *natural* isomorphism, not just a pointwise bijection. Naturality means: for every morphism f: B → C, the bijection α commutes with the induced maps — F(f) on the F-side must correspond to post-composition with f on the Hom-side. A bijection at a single object B might be completely ad hoc, failing to respect morphisms from B to other objects. Checking naturality is what distinguishes a genuine representation (the bijection 'works with the category structure') from an accidental set-level coincidence at one point."
 
-- question: "Every functor F: C → Set is representable, since for any functor we can always construct a representing object by taking a colimit."
+- question: "Nearly every functor F: C → Set is representable, since for any functor we can usually construct a representing object by taking a colimit."
   type: true-false
   answer: false
   explanation: "Representability is a non-trivial condition that most functors do not satisfy. A functor F: C → Set is representable only if there exists an object A and a *natural* isomorphism F ≅ Hom(A, -). There is no general construction that produces a representing object for an arbitrary functor. The Yoneda lemma characterizes representability precisely: F is representable iff there is a universal element u ∈ F(A) such that every element of every F(B) is of the form F(f)(u) for a unique f: A → B. This is a strong condition that many functors fail. For example, a functor that sends all objects to a fixed set with more than one element may not be representable."

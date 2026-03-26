@@ -63,7 +63,7 @@ Start with simple elimination puzzles: "Three friends each have a different pet.
   answer: 1
   explanation: "The clue uses negation ('is NOT') to eliminate certain arrangements. You take the logical tool of negation and apply it to narrow down possibilities. This is the core logic puzzle technique: each clue eliminates some options, and eventually only one valid arrangement remains."
 
-- question: "Logic puzzles can always be solved by guessing and checking."
+- question: "Logic puzzles can typically be solved by guessing and checking."
   type: true-false
   answer: false
   explanation: "While guess-and-check can sometimes work for simple puzzles, it becomes impractical as puzzles grow more complex. A 4-person puzzle might have dozens of possible arrangements. Systematic deduction — using each clue to eliminate impossibilities — is far more reliable and efficient. The goal of logic puzzles is to practice this systematic approach, not to develop guessing skills."

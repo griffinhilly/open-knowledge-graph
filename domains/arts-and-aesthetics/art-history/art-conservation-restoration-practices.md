@@ -56,7 +56,7 @@ Study before-and-after conservation photographs to see how dramatically restorat
   answer: true
   explanation: "True — and this is one of the most important insights about conservation. Artworks accumulate interventions over centuries: a 15th-century painting may have been cleaned in the 18th century, repainted in the 19th, and revarnished in the 20th. Each intervention left traces. What viewers call the 'original' is often a palimpsest of multiple hands. This is why reversibility and minimal intervention matter — and why the question of what counts as authentic is genuinely contested rather than simply answered by pointing to 'what the artist made.'"
 
-- question: "Restoration objectively returns an artwork to its original pristine state, removing all subjective judgment from the process."
+- question: "Restoration objectively returns an artwork to its original pristine state, removing most subjective judgment from the process."
   type: true-false
   answer: false
   explanation: "False. Restoration involves interpretation and judgment at every step: determining what the 'original' state was, which layers belong to the artist and which to later hands, and how to reconstruct missing or damaged areas. These decisions inevitably reflect the aesthetic preferences and technological capabilities of the restorers' own era. Even 'objective' technical analyses — X-ray fluorescence, pigment sampling — require interpretive frameworks. The Sistine Chapel debate shows that even experts with full access to technical data can reach opposing conclusions about what the original looked like."

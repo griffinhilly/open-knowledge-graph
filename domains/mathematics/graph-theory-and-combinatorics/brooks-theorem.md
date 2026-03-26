@@ -47,7 +47,7 @@ Brooks' theorem says AT MOST Δ colors suffice (not exactly Δ), and the excepti
   answer: 1
   explanation: "C₇ is an odd cycle with maximum degree Δ = 2. By Brooks' Theorem, odd cycles are one of only two exception families requiring Δ+1 = 3 colors. You can 2-color any even cycle (alternating colors around the ring work out), but odd cycles force a color conflict at the wrap-around. Options A, C, and D all describe graphs that are not complete graphs or odd cycles, so they satisfy χ ≤ Δ."
 
-- question: "Brooks' Theorem says every graph can be properly colored with exactly Δ colors."
+- question: "Brooks' Theorem says nearly every graph can be properly colored with exactly Δ colors."
   type: true-false
   answer: false
   explanation: "The theorem gives an upper bound: χ(G) ≤ Δ for graphs that are not complete graphs or odd cycles. 'At most Δ' does not mean 'exactly Δ.' A bipartite graph with Δ = 5 only requires 2 colors; a tree with Δ = 10 only requires 2 colors. Brooks' Theorem rules out needing more than Δ colors (outside the two exception families) but says nothing about whether fewer might suffice."

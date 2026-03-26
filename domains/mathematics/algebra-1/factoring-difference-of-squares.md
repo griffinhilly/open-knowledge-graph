@@ -57,7 +57,7 @@ Start by having students FOIL (a + b)(a − b) to discover the pattern themselve
   answer: false
   explanation: "(x + 7)(x + 7) = x² + 14x + 49, not x² + 49. A sum of squares cannot be factored over the real numbers at all — there is no pair of real binomials whose product eliminates all middle terms while producing a plus sign between the squared terms. The difference of squares pattern requires subtraction: x² − 49 = (x + 7)(x − 7)."
 
-- question: "In the pattern a² − b² = (a + b)(a − b), the variable a must represent a single variable like x, not a compound expression like 3x or 2y³."
+- question: "In the pattern a² − b² = (a + b)(a − b), the variable a should represent a single variable like x, not a compound expression like 3x or 2y³."
   type: true-false
   answer: false
   explanation: "a and b can represent any algebraic expression. In 9x² − 25, a = 3x and b = 5, giving (3x + 5)(3x − 5). In 4y⁶ − 1, a = 2y³ and b = 1. The pattern is fully general — 'a' and 'b' are placeholders for whatever expressions, when squared, produce the two terms of the difference."

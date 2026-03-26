@@ -50,7 +50,7 @@ When the wave vector becomes imaginary (above the cutoff frequency for the mediu
   answer: false
   explanation: "TIR requires that Maxwell's boundary conditions be satisfied at the interface, which forces the existence of a field in the second medium. That field is evanescent: it decays exponentially with distance from the interface and carries zero net power. The fields are real and measurable — frustrated TIR, near-field microscopy, and attenuated total reflectance spectroscopy all exploit this non-zero evanescent field. 'Total reflection' refers to the power balance, not the field amplitude."
 
-- question: "Because evanescent waves carry no net power, they have no physical consequences and cannot be detected or exploited in technology."
+- question: "Because evanescent waves carry no net power, they have no physical consequences and can seldom be detected or exploited in technology."
   type: true-false
   answer: false
   explanation: "Evanescent fields are physically significant despite carrying no net power in the decay direction. Near-field optical microscopy uses evanescent waves to achieve resolution beyond the classical diffraction limit. Attenuated total reflectance spectroscopy places a sample in contact with the evanescent field to measure its absorption spectrum. Optical fiber couplers operate by overlapping evanescent tails of two fibers. Frustrated TIR itself is the basis for some optical switches and sensors. Zero net power flux is not the same as zero physical effect."

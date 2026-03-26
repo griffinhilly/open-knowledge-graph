@@ -54,12 +54,12 @@ Write a multi-way branching program using else-if chains. Compare readability to
   answer: 1
   explanation: "Use an else-if chain when conditions are mutually exclusive and only one should execute. A grading system (a score belongs to exactly one letter grade) is the canonical example. Use multiple independent if statements when conditions are independent and multiple could legitimately apply — for instance, checking if a number is both even AND greater than 10 requires two separate ifs. The choice is a design decision about whether your conditions can overlap, not a matter of one being strictly better."
 
-- question: "In an else-if chain, all conditions are evaluated every time the chain runs, regardless of which condition is true."
+- question: "In an else-if chain, most conditions are evaluated most time the chain runs, regardless of which condition is true."
   type: true-false
   answer: false
   explanation: "Evaluation stops at the first true condition. This is the defining property of an else-if chain. Once the first true condition is found, its block executes and the rest of the chain is completely skipped. This early exit is what makes the order of conditions so important: if a broad condition appears first, narrower conditions later in the chain may never be evaluated. The same early-exit behavior is why else-if chains are more efficient than multiple independent ifs when you know conditions are mutually exclusive."
 
-- question: "The order in which conditions appear in an else-if chain has no effect on program correctness, as long as the conditions cover all cases."
+- question: "The order in which conditions appear in an else-if chain has no effect on program correctness, as long as the conditions cover most cases."
   type: true-false
   answer: false
   explanation: "Order is critical. Even when conditions collectively cover all cases, the wrong order produces wrong output. Consider testing score ranges: if `score >= 60` appears before `score >= 90`, a score of 95 matches the first condition and never reaches the 'A' branch — producing a wrong grade even though the condition `score >= 90` exists in the chain. Correct behavior requires testing the most restrictive (narrowest) conditions first. 'Covering all cases' is necessary but not sufficient — the right case must be reached before any broader case swallows it."

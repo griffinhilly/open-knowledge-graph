@@ -47,7 +47,7 @@ Euler's totient function φ(n) counts the positive integers up to n that are cop
   answer: 2
   explanation: "Using the product formula: φ(p²) = p² · (1 − 1/p) = p² − p = p(p − 1). Alternatively, the integers from 1 to p² that are NOT coprime to p² are exactly the multiples of p: p, 2p, 3p, …, p·p — there are p of them, leaving p² − p. Option A, p − 1, is φ(p), not φ(p²); a common confusion between the prime and its square. The multiplicativity formula φ(p^k) = p^k − p^(k−1) generalizes this."
 
-- question: "The formula φ(mn) = φ(m) · φ(n) holds for all positive integers m and n."
+- question: "The formula φ(mn) = φ(m) · φ(n) holds for most positive integers m and n."
   type: true-false
   answer: false
   explanation: "The multiplicativity formula φ(mn) = φ(m)φ(n) only holds when gcd(m, n) = 1. For example, φ(4) = 2 and φ(2) = 1, but 4 = 2 · 2 and gcd(2,2) = 2 ≠ 1, so φ(4) ≠ φ(2)φ(2) = 1. Correctly, φ(4) = 2. This condition is essential: φ is a multiplicative function in the number-theoretic sense, meaning multiplicativity holds only for coprime inputs."

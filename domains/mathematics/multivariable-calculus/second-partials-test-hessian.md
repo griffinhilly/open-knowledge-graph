@@ -46,7 +46,7 @@ The Hessian H = [[f_xx, f_xy], [f_xy, f_yy]] classifies critical points. If det(
   answer: 2
   explanation: "D = 0 is exactly the degenerate case where the second-order approximation is neither positive definite, negative definite, nor indefinite — it is semidefinite. The second partial test cannot distinguish between a local minimum, local maximum, and saddle in this case. Higher-order terms in the Taylor expansion are needed. For example, f(x,y) = x⁴ + y⁴ has D = 0 at the origin but a local minimum, while f(x,y) = x³ − y³ also has D = 0 there but a saddle."
 
-- question: "At a critical point where f_xx > 0 and f_yy > 0, the point must be a local minimum."
+- question: "At a critical point where f_xx > 0 and f_yy > 0, the point should be a local minimum."
   type: true-false
   answer: false
   explanation: "This is the most tempting misconception. f_xx > 0 and f_yy > 0 means the surface curves upward in the x- and y-directions individually, but the mixed partial f_xy can introduce a 'twist' that tilts the surface into a saddle shape in an oblique direction. For example, f(x,y) = x² + y² − 4xy has f_xx = 2 > 0, f_yy = 2 > 0, but f_xy = −4, giving D = 4 − 16 = −12 < 0 — a saddle point. The determinant D captures whether the curvature is consistent in ALL directions, not just along the axes."

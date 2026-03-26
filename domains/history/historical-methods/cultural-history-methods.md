@@ -56,7 +56,7 @@ Cultural history examines how people made meaning through beliefs, practices, ri
   answer: 1
   explanation: "Thick description is Geertz's term for interpretive analysis that goes beyond recording the bare behavioral fact ('thin description': the man winked) to explaining what it means within its cultural context (he gave a conspiratorial wink to mock a friend's performance). Cultural historians apply this by asking not just what happened but what it meant to participants and what it communicated within their symbolic order. Option A is the most common misconception — thick description is not about quantity of detail but about depth of interpretive context. Options C and D describe archival practices, not Geertz's epistemological point."
 
-- question: "Cultural history treats culture as a unified, coherent system of shared meanings that all members of a society hold in common, recoverable through careful reading of sources."
+- question: "Cultural history treats culture as a unified, coherent system of shared meanings that most members of a society hold in common, recoverable through careful reading of sources."
   type: true-false
   answer: false
   explanation: "This is a crucial misconception that cultural history has had to actively resist. Cultures are not unified wholes — they are sites of conflict, where different groups (defined by gender, class, ethnicity, religion) contest the meaning of shared practices, symbols, and events. A court case, a ritual, or a work of art may mean very different things to different participants. The best cultural history treats meaning-making as always social, always partial, and always contested rather than presenting a single coherent 'mentalité' of a period."

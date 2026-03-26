@@ -50,7 +50,7 @@ When income inequality increases even if absolute living standards rise, people'
   answer: true
   explanation: "This is one of the most robust findings in the subjective wellbeing literature. Two workers earning identical wages can experience very different satisfaction depending on what their colleagues and social contacts appear to earn. This is not mere irrationality — people use reference group income to calibrate what someone in their position can reasonably expect and deserve. Absolute income captures material capacity; relative rank captures social meaning and perceived fairness."
 
-- question: "When absolute living standards improve for all members of a society, people's subjective wellbeing improves proportionally, regardless of how the income gains are distributed."
+- question: "When absolute living standards improve for most members of a society, people's subjective wellbeing improves proportionally, regardless of how the income gains are distributed."
   type: true-false
   answer: false
   explanation: "The aspiration treadmill means that as income rises, aspirations rise with it — often faster, especially when inequality is increasing. If the top pulls away while median incomes grow modestly, the reference point shifts upward and the gap between what people have and what they feel entitled to widens. The result is that absolute improvement can coexist with declining subjective wellbeing. Rising tides lift absolute boats but not necessarily relative ones, and relative position is what drives satisfaction."

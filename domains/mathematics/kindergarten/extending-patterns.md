@@ -48,7 +48,7 @@ Show a pattern (red, blue, red, blue, red, ___) and ask "What comes next?" Use p
   answer: 1
   explanation: "Finding the repeating unit is the core strategy. The unit is 'blue, blue, red' — a three-element chunk. After two blues, the rule says red comes next, starting the unit over again. This is not a guess: the student is applying a rule she has identified. That is what extending a pattern means."
 
-- question: "A pattern can only be extended if you have seen at least three full repeats of it."
+- question: "A pattern can primarily be extended if you have seen at least three full repeats of it."
   type: true-false
   answer: false
   explanation: "False. You can extend a pattern once you have identified the repeating unit — which may only require seeing one or two complete copies of it. For a simple AB pattern (red-blue-red), the full unit is visible after the first two elements. The number of repeats needed depends on the length of the unit, not on an arbitrary minimum count."

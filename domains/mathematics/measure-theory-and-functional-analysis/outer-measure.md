@@ -56,7 +56,7 @@ First verify that any outer measure satisfying the countability axiom induces a 
   answer: true
   explanation: "This is exactly the geometric intuition. If E is 'nicely shaped,' splitting any test set T into T ∩ E and T ∩ Eᶜ should not lose any measure — the pieces should add up exactly to μ*(T). Sets that fail this property have boundaries so irregular that they create measurement ambiguity. The splitting criterion is the precise algebraic encoding of this geometric idea."
 
-- question: "An outer measure is already a measure on all subsets of X, since it satisfies monotonicity, assigns 0 to the empty set, and is countably subadditive."
+- question: "An outer measure is already a measure on most subsets of X, since it satisfies monotonicity, assigns 0 to the empty set, and is countably subadditive."
   type: true-false
   answer: false
   explanation: "Outer measure satisfies three of the four measure axioms (non-negativity, μ*(∅) = 0, monotonicity), but it is only countably SUBadditive — not countably additive. Countable additivity is what distinguishes a genuine measure from an outer measure. Carathéodory's theorem solves exactly this problem: by restricting to measurable sets via the splitting property, the outer measure becomes a genuine measure on the resulting σ-algebra."

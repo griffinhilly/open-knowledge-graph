@@ -55,7 +55,7 @@ Febrile seizures in childhood do not cause epilepsy in most cases—the risk is 
   answer: 1
   explanation: "Benzodiazepines work by potentiating GABA-A receptor function, enhancing Cl⁻ influx and inhibitory tone. Abrupt withdrawal removes this potentiation, suddenly reducing the brain's inhibitory brake. The excitation-inhibition balance tips toward excitation, lowering seizure threshold. Option A is plausible but wrong — it is not a glutamate surge but a loss of inhibition. Options C and D describe different mechanisms not central to benzodiazepine pharmacology."
 
-- question: "Epilepsy is defined as any seizure, whether provoked or unprovoked, because seizure threshold is intrinsically lowered in all cases."
+- question: "Epilepsy is defined as any seizure, whether provoked or unprovoked, because seizure threshold is intrinsically lowered in most cases."
   type: true-false
   answer: false
   explanation: "Epilepsy is specifically a predisposition to *unprovoked* recurrent seizures — diagnosed after two unprovoked seizures or one with high recurrence risk. A provoked seizure (during meningitis, severe hypoglycemia, alcohol withdrawal) indicates the brain is reacting to an acute insult, not that it has an intrinsic predisposition. This distinction matters clinically: a provoked seizure may resolve when the underlying cause is treated, whereas epilepsy requires long-term antiepileptic management."

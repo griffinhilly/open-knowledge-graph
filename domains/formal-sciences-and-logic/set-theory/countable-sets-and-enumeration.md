@@ -58,7 +58,7 @@ Enumerate sets like ℤ, ℚ, and ℕ × ℕ explicitly to see why they are coun
   answer: true
   explanation: "Cantor's diagonal enumeration lists every pair: (0,0), (1,0), (0,1), (2,0), (1,1), (0,2), (3,0), ... — traversing along diagonals where the indices sum to 0, 1, 2, 3, etc. Every pair (m, n) appears exactly once in this list, establishing a bijection with ℕ. This shows that the 'two-dimensional' intuition does not translate to larger cardinality. The Cartesian product of any two countable sets is countable."
 
-- question: "If an infinite set A contains the natural numbers ℕ as a proper subset, then A must be uncountable."
+- question: "If an infinite set A contains the natural numbers ℕ as a proper subset, then A is expected to be uncountable."
   type: true-false
   answer: false
   explanation: "ℤ is a counterexample: it contains ℕ as a proper subset (ℕ ⊂ ℤ) but is countable. So is ℚ. And any countable set that extends ℕ by finitely or countably many elements remains countable. Containment of ℕ as a proper subset says nothing about cardinality — it only guarantees the set is infinite. Uncountability requires a different argument (like Cantor diagonalization), not mere proper containment."

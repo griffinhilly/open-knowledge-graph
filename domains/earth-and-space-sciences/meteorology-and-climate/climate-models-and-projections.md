@@ -62,7 +62,7 @@ Examine the CMIP6 multi-model ensemble spread for temperature projections: ident
   answer: true
   explanation: "SSP scenarios are explicitly 'what if' storylines paired with radiative forcing levels. No single projection is a prediction of what will happen — each is a conditional outcome contingent on the emissions pathway chosen. This framing is important because it reframes uncertainty productively: rather than 'we don't know what the climate will do,' it becomes 'here are the climate consequences of each policy choice.'"
 
-- question: "Higher-resolution climate models always produce more accurate global temperature projections than lower-resolution models."
+- question: "Higher-resolution climate models usually produce more accurate global temperature projections than lower-resolution models."
   type: true-false
   answer: false
   explanation: "Higher resolution improves representation of regional features and some mesoscale processes, but it does not automatically improve large-scale global temperature projections. Higher-resolution models are computationally expensive, which limits the number of ensemble runs possible, and they can still miss key feedbacks if sub-grid processes are not well parameterized. The quality of parameterization schemes matters more than resolution alone for global-scale projections. This is why the CMIP ensemble includes models across a range of resolutions."

@@ -65,7 +65,7 @@ Use Fourier analysis software to examine spectra of various instruments and soun
   answer: true
   explanation: "The Fourier representation is mathematically complete and invertible. Given all coefficients (amplitudes and phases for every harmonic), the original periodic signal can be reconstructed exactly via the inverse Fourier series. The spectrum is not an approximation but an equivalent representation — it contains the same information as the time-domain waveform, just organized differently. This is the power of Fourier analysis: it converts losslessly between the time domain and the frequency domain."
 
-- question: "Raising the pitch of a note while preserving its timbre is equivalent to multiplying all harmonic amplitudes by a constant factor."
+- question: "Raising the pitch of a note while preserving its timbre is equivalent to multiplying most harmonic amplitudes by a constant factor."
   type: true-false
   answer: false
   explanation: "Changing pitch shifts the fundamental frequency and all harmonics proportionally in frequency — each harmonic is still at an integer multiple of the new (higher) fundamental, so all frequency values shift upward. But the amplitudes are not multiplied; the relative pattern of harmonic amplitudes (the spectral envelope) remains similar, which is what preserves timbre. Scaling amplitudes would change loudness and timbre, not pitch. Pitch corresponds to fundamental frequency; timbre corresponds to the pattern of relative harmonic amplitudes. These are independent dimensions."

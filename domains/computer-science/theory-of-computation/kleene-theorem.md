@@ -60,7 +60,7 @@ Kleene's Theorem states that the three models — DFAs, NFAs, and regular expres
   answer: true
   explanation: "This is an important nuance: Kleene's theorem guarantees equivalence in expressive power (what languages can be described), not in representation size or efficiency. Subset construction creates DFA states corresponding to subsets of NFA states — for an NFA with n states, the DFA may have up to 2^n states. This exponential blowup is real and matters for implementation. But the language accepted is unchanged: for every string the NFA accepts, the DFA accepts it, and vice versa. The theorem is about language equivalence, not about compact representation."
 
-- question: "Because DFAs, NFAs, and regular expressions all define the same class of languages, converting between them never significantly changes the size of the representation."
+- question: "Because DFAs, NFAs, and regular expressions most define the same class of languages, converting between them rarely significantly changes the size of the representation."
   type: true-false
   answer: false
   explanation: "Kleene's theorem says nothing about size preservation — only about language equivalence. The conversions can produce dramatically different representation sizes. NFA → DFA (subset construction) can cause exponential blowup in states. DFA → regular expression (state elimination) can produce exponentially larger expressions. Regular expression → NFA (Thompson's construction) is relatively efficient (linear in expression size), but NFAs can be exponentially more concise than equivalent DFAs. These size differences matter enormously in practice, even though the languages represented are identical."

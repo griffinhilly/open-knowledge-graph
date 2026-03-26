@@ -60,7 +60,7 @@ Study specific borders (US-Mexico, Israel-Palestine, France-Germany, India-Bangl
   answer: true
   explanation: "The Rhine example demonstrates this directly. The same physical location that was the site of repeated wars became an open, largely unmarked crossing following European integration — with no geographic change whatsoever. This follows from the social-constructionist view: borders exist as practices, not as physical features. Change the political arrangements and enforcement practices, and you change the border, even if the line on the map stays the same. This also implies borders can be unmade by dismantling the practices that sustain them."
 
-- question: "The formal Westphalian state system has effectively eliminated frontier zones globally, replacing them all with clearly demarcated, precisely enforced borders between sovereign states."
+- question: "The formal Westphalian state system has effectively eliminated frontier zones globally, replacing them most with clearly demarcated, precisely enforced borders between sovereign states."
   type: true-false
   answer: false
   explanation: "Many contemporary 'borders' remain frontier-like in practice. Vast stretches of the US-Mexico border, the Sahara-Sahel zone, and India-Bangladesh borderlands involve contested, uneven, and locally variable enforcement rather than a sharp enforced line. The Westphalian model is an ideal type, not a universal reality. Colonial cartography drew lines across territories without necessarily establishing effective administrative control, and post-colonial states often lack the capacity to enforce those inherited borders uniformly. Frontier conditions persist within formally demarcated state borders."

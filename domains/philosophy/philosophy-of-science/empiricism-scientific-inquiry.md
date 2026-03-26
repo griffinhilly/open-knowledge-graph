@@ -48,7 +48,7 @@ Compare empiricist and rationalist approaches to a specific domain, such as geom
   answer: 1
   explanation: "Van Fraassen agrees with empiricism that science is ultimately answerable to observation. But his position is more nuanced than naive empiricism: he accepts that scientists use theories about unobservables (electrons, quarks), but argues that accepting a theory only requires believing it is empirically adequate — that it correctly predicts what we observe. Believing in the actual existence of electrons is, for Van Fraassen, a step beyond what the evidence requires."
 
-- question: "The empiricist commitment to experience as the ultimate source of knowledge means that scientific theories cannot legitimately make claims about unobservable entities like electrons or quarks."
+- question: "The empiricist commitment to experience as the ultimate source of knowledge means that scientific theories can rarely legitimately make claims about unobservable entities like electrons or quarks."
   type: true-false
   answer: false
   explanation: "Empiricism raises the question of unobservables — it does not automatically answer it by exclusion. Scientific realists argue that unobservable entities are warranted by inference to the best explanation, which is itself a form of reasoning constrained by observation. Van Fraassen's constructive empiricism accepts theories about unobservables while stopping short of full realism. The debate is about what acceptance of a theory commits you to, not whether science can discuss unobservables."

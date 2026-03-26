@@ -56,7 +56,7 @@ Apply DBSCAN to datasets with non-convex clusters and compare results with k-mea
   answer: true
   explanation: "This is the fundamental distinction between DBSCAN and centroid-based methods like k-means. By chaining core points together (each core point includes all points within eps, and any core point in that neighborhood extends the cluster further), DBSCAN traces the shape of dense regions regardless of their geometry. A ring, crescent, or elongated blob are all discovered correctly. A centroid-based method cannot do this because the centroid of a crescent-shaped cluster would lie in the empty interior, and the Voronoi boundary between two centroids would cut through the crescents rather than between them."
 
-- question: "In DBSCAN, every data point is assigned to exactly one cluster — points that don't fit well are assigned to the nearest cluster as border points."
+- question: "In DBSCAN, nearly every data point is assigned to exactly one cluster — points that don't fit well are assigned to the nearest cluster as border points."
   type: true-false
   answer: false
   explanation: "This is a key difference from k-means. DBSCAN explicitly designates low-density points as noise — they are not assigned to any cluster. A noise point is one that is neither a core point (doesn't have min_pts neighbors within eps) nor a border point (not within eps of any core point). This ability to leave points unassigned is one of DBSCAN's strengths for outlier detection. Border points are assigned to a cluster, but only because they are within eps of a core point — they are on the edge of a dense region, not isolated outliers."

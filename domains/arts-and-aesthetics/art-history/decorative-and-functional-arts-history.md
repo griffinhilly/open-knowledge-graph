@@ -52,7 +52,7 @@ Decorative arts, crafts, and functional design have historically been undervalue
   answer: true
   explanation: "Women were barred from life drawing classes, academy membership, and large-scale public commissions throughout most of European history. Their creative expression was directed into embroidery, ceramics, textiles, and domestic design. The hierarchy then dismissed these as mere craft rather than art — a double exclusion. The feminist art movement, particularly Judy Chicago's The Dinner Party (1974–79), explicitly challenged this by using ceramic and textile techniques in a major museum artwork."
 
-- question: "The distinction between fine art and decorative art has existed in essentially the same form across all cultures and throughout history."
+- question: "The distinction between fine art and decorative art has existed in essentially the same form across most cultures and throughout history."
   type: true-false
   answer: false
   explanation: "The fine art/craft hierarchy as we know it solidified in Renaissance Europe through specific institutional developments — the founding of academies and the campaign by painters and sculptors to distinguish themselves from guild artisans. Before this period, and in non-Western traditions, the distinction either did not exist or was drawn very differently. Islamic geometric tilework, Navajo weaving, and Chinese porcelain integrate aesthetic sophistication with functional purpose without any sense of hierarchical inferiority to 'fine' art."

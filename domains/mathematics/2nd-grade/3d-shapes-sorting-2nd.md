@@ -49,7 +49,7 @@ Three-dimensional shapes include cubes, rectangular prisms, cylinders, cones, an
   answer: true
   explanation: "True. A cone has one circular flat face and one curved surface tapering to a point. When placed on its curved side, the pointed end constrains the rolling so the cone traces a circle around the tip. This is different from a sphere (rolls straight in any direction) and a cylinder (rolls straight in one direction). The geometry of the surface determines the motion — understanding this is the payoff of sorting by properties."
 
-- question: "When sorting 3D shapes, each shape can belong to only one group at a time."
+- question: "When sorting 3D shapes, each shape can belong to primarily one group at a time."
   type: true-false
   answer: false
   explanation: "False. Shapes can belong to multiple groups depending on which properties are shared. A cylinder has a curved surface AND flat faces, so it belongs in both a 'curved surface' group and a 'can stack flat' group. A cone has one flat face and one curved surface, placing it in both groups as well. Recognizing that shapes can satisfy multiple rules simultaneously is an important part of thinking with categories."

@@ -47,7 +47,7 @@ Drawing pressure and pencil angle directly control line weight, darkness, and te
   answer: 2
   explanation: "Varying pressure within a single stroke creates a calligraphic line that begins delicate (light pressure, thin and faint) and grows bold (heavy pressure, dark and wide). This continuous change communicates where the surface catches light versus turns into shadow, giving the illusion of three-dimensional form with a single mark. Drawing two separate lines misses the point — the smooth gradation within one stroke is what makes the form readable."
 
-- question: "Pressing harder with any pencil will always produce a darker, more expressive mark."
+- question: "Pressing harder with any pencil will typically produce a darker, more expressive mark."
   type: true-false
   answer: false
   explanation: "Pencil grade matters as much as pressure. A hard pencil (like a 2H or HB) has a narrow tonal range — even maximum pressure produces only a medium gray. A soft pencil (like a 4B or 6B) responds dramatically to pressure changes, spanning from a near-invisible whisper to a deep, rich black. Using maximum pressure on the wrong pencil grade gives you less than the full range. Matching grade to task is part of controlling your marks, not a secondary concern."

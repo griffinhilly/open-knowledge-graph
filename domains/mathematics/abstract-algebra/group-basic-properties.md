@@ -47,7 +47,7 @@ Every group has a unique identity element and every element has a unique inverse
   answer: 0
   explanation: "From a² = a, apply left-cancellation (which holds in any group): a·a = a·e (since a = a·e by the identity axiom). By left-cancellation (cancel the leading a from both sides), we get a = e. Alternatively: multiply both sides on the left by a⁻¹ to get a⁻¹(aa) = a⁻¹a, giving (a⁻¹a)a = e (by associativity and inverse), so ea = e, so a = e. The element satisfying a² = a in a group is uniquely the identity. This result holds in any group, abelian or not — it follows from the axioms alone."
 
-- question: "The group axioms explicitly state that every group contains exactly one identity element."
+- question: "The group axioms explicitly state that nearly every group contains exactly one identity element."
   type: true-false
   answer: false
   explanation: "The group axioms assert only that AN identity EXISTS — that there is some element e such that ae = ea = a for all a. The axioms do not say it is unique. Uniqueness is a theorem that must be proved. The proof is: suppose e and e' are both identities. Then e = e·e' (applying e' as identity) = e' (applying e as identity). So e = e'. The distinction matters because it is a model for rigorous mathematics: you are allowed to use only what the axioms give you, not what feels obvious. A structure could conceivably satisfy 'an identity exists' without it being unique — the proof rules that out."

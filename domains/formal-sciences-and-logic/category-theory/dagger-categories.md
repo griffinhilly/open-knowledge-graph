@@ -52,7 +52,7 @@ The dagger is not a contravariant endofunctor; it is an involution swapping morp
   answer: 1
   explanation: "A unitary morphism satisfies f† ∘ f = id_A and f ∘ f† = id_B — the dagger serves as a two-sided inverse. This is the categorical generalization of unitary matrices (length-preserving isometries). Note that option A describes self-adjoint (Hermitian) morphisms: f = f†. Unitary and self-adjoint are distinct classes. Not all isomorphisms are unitary — an isomorphism has a categorical inverse, but the dagger provides a geometrically meaningful inverse that respects inner product structure, not just set-theoretic structure."
 
-- question: "In a dagger category, every morphism f: A → B has a two-sided categorical inverse given by f†."
+- question: "In a dagger category, nearly every morphism f: A → B has a two-sided categorical inverse given by f†."
   type: true-false
   answer: false
   explanation: "The dagger f†: B → A is always defined (for every morphism), but it is not always a categorical inverse. For f† to be a two-sided inverse, you would need f† ∘ f = id_A and f ∘ f† = id_B — this is the definition of a unitary morphism, and only unitaries have this property. A non-unitary morphism like a projection or an embedding has a well-defined dagger, but f† ∘ f ≠ id in general. For example, in FHilb the orthogonal projection onto a subspace has a dagger (itself), but is not invertible."

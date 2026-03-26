@@ -50,7 +50,7 @@ Multipole expansion systematically expresses electromagnetic fields far from loc
   answer: 1
   explanation: "The multipole expansion comes from expanding 1/|r − r'| in powers of r'/r using Legendre polynomials. Each multipole of order ℓ corresponds to P_ℓ(cos θ)/r^(ℓ+1): the monopole (ℓ=0) goes as 1/r, dipole (ℓ=1) as 1/r², quadrupole (ℓ=2) as 1/r³. Each successive term gains one more factor of 1/r. In the far field (r ≫ r'), each successive term gains a factor of r'/r ≪ 1 — making it negligible compared to the previous. This is why truncating at low order is valid far from the source."
 
-- question: "For a system with zero net charge (electric monopole = 0), the dipole term is guaranteed to be the leading contribution to the electrostatic potential at large distances."
+- question: "For a system with zero net charge (electric monopole = 0), the dipole term is expected to be the leading contribution to the electrostatic potential at large distances."
   type: true-false
   answer: false
   explanation: "The monopole term vanishes for a neutral system, making the dipole the next candidate — but the dipole moment can also be zero. CO₂ (linear, symmetric) and CH₄ (tetrahedral) are neutral AND have zero dipole moment. In such cases the quadrupole term leads. A charge distribution with zero total charge AND zero dipole moment will have its potential dominated by the quadrupole. The multipole expansion is a hierarchy: each term leads only if all lower-order terms vanish."

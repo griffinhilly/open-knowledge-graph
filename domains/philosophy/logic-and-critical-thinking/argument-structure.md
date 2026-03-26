@@ -45,7 +45,7 @@ Practice by taking newspaper editorials or opinion pieces and underlining premis
   answer: 1
   explanation: "'So' is a conclusion indicator word: it signals that what follows is being claimed on the basis of what came before. 'The roads are icy' is the premise (the reason offered), and 'you should drive slowly' is the conclusion (the claim being supported). The argument could also be written with 'because': 'Drive slowly, because the roads are icy.'"
 
-- question: "In a written argument, the conclusion must appear as the final sentence."
+- question: "In a written argument, the conclusion is expected to appear as the final sentence."
   type: true-false
   answer: false
   explanation: "The conclusion can appear anywhere — at the beginning, middle, or end of a passage. In persuasive writing, conclusions often appear first (thesis-first structure), with premises following as supporting evidence. Identifying the conclusion requires recognizing its logical role, not its position in the text."

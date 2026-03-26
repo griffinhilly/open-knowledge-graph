@@ -48,7 +48,7 @@ Cardinality estimation predicts how many rows result from query operations to gu
   answer: 1
   explanation: "For equality conditions on uniformly distributed columns, selectivity = 1/NDV = 1/200 = 0.005. With 1,000,000 rows, the optimizer estimates 5,000 matching rows. This is the baseline formula. Non-uniform distributions require histograms or most-common-value lists to refine the estimate — if 90% of rows have one value, a uniform assumption drastically underestimates that value's selectivity and overestimates all others."
 
-- question: "When estimating the combined selectivity of multiple filter conditions (e.g., WHERE a = 1 AND b = 2), databases multiply the individual selectivities together. This is always accurate."
+- question: "When estimating the combined selectivity of multiple filter conditions (e.g., WHERE a = 1 AND b = 2), databases multiply the individual selectivities together. This is generally accurate."
   type: true-false
   answer: false
   explanation: "The independence assumption — multiply individual selectivities — is standard practice but is only accurate when the columns are truly uncorrelated. Many real-world columns correlate: age and retirement status, city and state, product category and price range. When columns correlate, the actual combined selectivity may be much higher or lower than the product predicts. Correlated predicates are one of the most common causes of severe cardinality estimation errors and the query plan failures that follow."

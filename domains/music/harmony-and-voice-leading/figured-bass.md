@@ -63,7 +63,7 @@ Practice reading figured bass by playing the bass note in the left hand and iden
   answer: true
   explanation: "6/4 specifies a chord with a 6th and a 4th above the bass. Since the fifth of the chord sits in the bass, this describes a second-inversion triad (also called a 'six-four chord'). For example, in C major, bass note G with '6/4' indicates the second-inversion C major chord (G–C–E). This contrasts with '6' alone (or 6/3), which indicates first inversion."
 
-- question: "An accidental attached to a figure in figured bass raises or lowers all of the intervals in the chord, not just the one it accompanies."
+- question: "An accidental attached to a figure in figured bass raises or lowers most of the intervals in the chord, not just the one it accompanies."
   type: true-false
   answer: false
   explanation: "An accidental in figured bass modifies only the specific interval it directly accompanies. For example, a sharp next to '6' raises only the 6th above the bass, leaving the 3rd unchanged. Each figure is independent; an accidental applies to exactly one interval. Misapplying an accidental to the whole chord produces incorrect realizations — a common error for students new to the notation."

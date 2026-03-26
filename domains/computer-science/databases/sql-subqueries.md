@@ -64,7 +64,7 @@ Convert a JOIN-based query to an equivalent subquery and back — this builds in
   answer: true
   explanation: "In standard SQL, a subquery in the FROM clause (derived table) must be aliased so the outer query can reference it by name. For example: `SELECT * FROM (SELECT id, salary FROM employees) AS emp_data WHERE salary > 50000`. Without the alias `AS emp_data`, most databases throw a syntax error. The alias gives the temporary result set a name that can be used in the outer query's SELECT, WHERE, and JOIN clauses."
 
-- question: "A correlated subquery always executes once per outer row, making it slower than an equivalent JOIN regardless of the database optimizer used."
+- question: "A correlated subquery typically executes once per outer row, making it slower than an equivalent JOIN regardless of the database optimizer used."
   type: true-false
   answer: false
   explanation: "Modern query optimizers frequently detect correlated subqueries and rewrite them internally as joins. The *logical* execution model is once per outer row, but the *physical* execution plan often differs significantly. The SQL standard defines semantics, not execution strategy. That said, you should check execution plans when performance matters — the optimizer may not always rewrite, and a correlated subquery touching a large table without an index can genuinely perform poorly. Write for clarity first, optimize after profiling."

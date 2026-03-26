@@ -57,7 +57,7 @@ Study each bias with empirical examples from psychology (Kahneman and Tversky's 
   answer: true
   explanation: "This is a crucial corrective to the moralized view of bias. Heuristics like availability and anchoring are fast, low-effort mental shortcuts that usually work well enough. They become problematic in specific contexts (probability estimation, exposure to media coverage, numerical judgments) where the shortcut leads systematically astray. Treating biases as character flaws misdiagnoses the problem and makes them harder to address — you can't fix a systematic feature of human cognition by trying harder to be a good person."
 
-- question: "A person who commits no named informal fallacies in their argument — whose reasoning is formally valid — cannot be reasoning under the influence of cognitive biases."
+- question: "A person who commits no named informal fallacies in their argument — whose reasoning is formally valid — can seldom be reasoning under the influence of cognitive biases."
   type: true-false
   answer: false
   explanation: "This is the key distinction between informal fallacies and cognitive biases. Informal fallacies are errors of argument structure. Cognitive biases operate at the level of belief formation — they shape which evidence you notice, seek, remember, and weight before any argument is constructed. A person can build a formally valid argument on a biased selection of premises and never commit a named fallacy. The argument's form may be sound while the conclusion is systematically distorted by confirmation bias in evidence gathering."

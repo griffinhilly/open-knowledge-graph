@@ -48,7 +48,7 @@ Traffic shaping smooths bursty traffic to match a specified rate, buffering exce
   answer: true
   explanation: "Shaping holds excess packets in a queue until enough tokens are available for transmission — packets are delayed, not dropped. This is its defining characteristic and the key difference from policing. The tradeoff is that buffers add latency and jitter, which matters for real-time applications but is generally acceptable for bulk transfers like file downloads or TCP streams."
 
-- question: "Policing is always preferable to shaping because it never adds latency to network traffic."
+- question: "Policing is generally preferable to shaping because it seldom adds latency to network traffic."
   type: true-false
   answer: false
   explanation: "While policing avoids adding latency (excess packets are dropped immediately, not queued), it causes packet loss, which is often worse. Lost packets force TCP retransmission, wasting bandwidth and adding overall delay. For applications where packet loss is costly (file transfers, video streaming), shaping's added latency is usually preferable. Policing is appropriate at network boundaries where the operator has no buffer obligation — not as a universal improvement."

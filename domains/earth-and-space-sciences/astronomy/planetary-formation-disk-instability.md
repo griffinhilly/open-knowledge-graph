@@ -50,7 +50,7 @@ In sufficiently massive and cool protoplanetary disks, the disk itself can becom
   answer: true
   explanation: "This is one of the most striking features of the disk instability mechanism. Because it works by direct gravitational collapse of the disk itself — rather than the incremental bottom-up process of core accretion — it can produce a giant planet in as little as hundreds to thousands of years. Core accretion typically requires millions of years to form a giant planet. This dramatic timescale difference is precisely why disk instability is invoked for planets at large orbital separations where core accretion cannot operate fast enough before the disk disperses."
 
-- question: "A protoplanetary disk with Toomre Q < 1 will always fragment directly into planetary-mass objects, regardless of other disk properties."
+- question: "A protoplanetary disk with Toomre Q < 1 will typically fragment directly into planetary-mass objects, regardless of other disk properties."
   type: true-false
   answer: false
   explanation: "Q < 1 is necessary but not sufficient for fragmentation. Even a gravitationally unstable disk (Q < 1) may not fragment if its cooling timescale is too long. In that case, the disk develops spiral density waves — a non-fragmenting response that redistributes angular momentum and mass without forming bound clumps. The disk may also heat up due to the energy released by these waves, raising Q back above 1 and suppressing fragmentation. True fragmentation into bound objects requires Q < 1 AND rapid enough cooling, typically expressed as the cooling timescale being less than a few times the orbital period."

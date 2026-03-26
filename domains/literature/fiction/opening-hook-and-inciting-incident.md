@@ -53,7 +53,7 @@ That hooks must be dramatic or action-filled; that the inciting incident must oc
   answer: 1
   explanation: "Hook and inciting incident can coincide — opening in media res at the destabilizing event uses the urgency of that event itself as the hook. But conceptually they operate at different levels: the hook is attentional (sentence/paragraph level), the inciting incident is structural (plot level). Treating them as identical leads to misdiagnosis of openings where they are deliberately separated."
 
-- question: "An effective opening hook must be dramatic or action-filled to successfully arrest a reader's attention."
+- question: "An effective opening hook should be dramatic or action-filled to successfully arrest a reader's attention."
   type: true-false
   answer: false
   explanation: "Hooks work through voice, image, question, situation, or action — and a quiet, precise voice can arrest attention as surely as an explosion. 'Call me Ishmael' creates a gap through mystery and character; it contains no action. The test is whether the reader wants to find out what happens next, not whether the opening contains violence or conflict."

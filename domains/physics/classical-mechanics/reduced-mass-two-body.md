@@ -50,7 +50,7 @@ The two-body problem can be reduced to a one-body problem using the reduced mass
   answer: 2
   explanation: "μ = m₁m₂/(m₁+m₂) = m·m/(m+m) = m²/(2m) = m/2. The reduced mass is always less than or equal to the smaller individual mass. For equal masses, it is exactly half. This makes physical sense: both bodies participate equally in the relative motion, so the effective inertia for the relative coordinate is shared between them. Only in the limit m₂ → ∞ does μ → m₁, recovering the one-body idealization where the light body orbits a stationary heavy one."
 
-- question: "The reduced mass μ = m₁m₂/(m₁+m₂) is an approximation that becomes exact only when one body is much more massive than the other."
+- question: "The reduced mass μ = m₁m₂/(m₁+m₂) is an approximation that becomes exact mainly when one body is much more massive than the other."
   type: true-false
   answer: false
   explanation: "The reduced mass is an exact quantity — the change of variables to center-of-mass and relative coordinates is an exact transformation, valid for any mass ratio. The limiting form μ ≈ m₁ when m₂ ≫ m₁ is an approximation derived from the exact formula, not the formula itself. Using μ in the one-body equivalent problem gives results that are mathematically identical to solving the full two-body system, not approximately equal."

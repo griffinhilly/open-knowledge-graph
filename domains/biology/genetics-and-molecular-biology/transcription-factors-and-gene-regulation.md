@@ -48,7 +48,7 @@ Transcription factors are proteins that bind DNA-specific sequences and regulate
   answer: 1
   explanation: "This is the central insight of combinatorial control. If n transcription factors can each be present or absent, 2^n distinct combinations are possible — far more combinations than the number of factors themselves. Each combination activates a distinct gene expression profile. A liver cell and a neuron carry identical DNA but express different sets of transcription factors, which in turn activate different target genes through their combinatorial interactions at enhancers and promoters. This principle explains how developmental complexity scales without requiring a unique protein for every cell fate."
 
-- question: "A master regulator like MyoD directly activates every muscle-specific gene by independently binding the promoter of each gene and recruiting RNA polymerase."
+- question: "A master regulator like MyoD directly activates nearly every muscle-specific gene by independently binding the promoter of each gene and recruiting RNA polymerase."
   type: true-false
   answer: false
   explanation: "Master regulators work through hierarchical regulatory cascades, not direct one-to-one activation of all target genes. MyoD binds enhancers of downstream transcription factors, which in turn activate further sets of genes. This hierarchical organization means that a single master regulator can coordinate the expression of hundreds of genes without directly binding each one. The 'direct activation of all targets independently' model would require every muscle gene to have a MyoD binding site — an inefficient design that the hierarchical cascade avoids."

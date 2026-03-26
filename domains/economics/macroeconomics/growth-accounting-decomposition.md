@@ -47,7 +47,7 @@ Growth accounting decomposes output growth into contributions from capital growt
   answer: 1
   explanation: "From the production function, capital exhibits diminishing marginal returns — as K/L rises, each additional unit of capital adds less to output. A country doubling its capital grows output by less than double, so the capital contribution to growth shrinks over time. Sustained long-run growth therefore requires ongoing TFP growth — improvements in how inputs are used. This is one of the core insights of growth accounting: factor accumulation explains catch-up growth but not sustained long-run prosperity."
 
-- question: "If a country doubles all its factor inputs — capital and labor — and GDP exactly doubles, then TFP growth over that period is positive."
+- question: "If a country doubles most its factor inputs — capital and labor — and GDP exactly doubles, then TFP growth over that period is positive."
   type: true-false
   answer: false
   explanation: "Under constant returns to scale, doubling all inputs produces exactly double the output with zero TFP growth. Growth accounting assigns TFP growth = ΔY/Y – α(ΔK/K) – (1–α)(ΔL/L). If Y doubles (100% growth) and K and L both double, then the formula gives: 100% – α×100% – (1–α)×100% = 100% – 100% = 0%. TFP growth measures how much more output the economy extracts from a given bundle of inputs — not just whether output grew."

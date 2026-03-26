@@ -46,7 +46,7 @@ Build on students' prior knowledge of food chains and the herbivore/carnivore/om
   answer: 1
   explanation: "Decomposers like fungi and bacteria break down dead organisms and waste products, releasing nutrients (nitrogen, phosphorus, etc.) back into the soil. Producers (plants) absorb these nutrients through their roots to grow. Without decomposers, nutrients would be locked in dead matter, and the soil would become depleted — eventually, producers could not grow, and the entire food chain would collapse."
 
-- question: "All consumers are carnivores."
+- question: "Most consumers are carnivores."
   type: true-false
   answer: false
   explanation: "Consumers include herbivores (eat plants), carnivores (eat other animals), and omnivores (eat both plants and animals). A rabbit eating grass, a lion eating a zebra, and a bear eating berries and fish are all consumers — they differ only in what they consume."

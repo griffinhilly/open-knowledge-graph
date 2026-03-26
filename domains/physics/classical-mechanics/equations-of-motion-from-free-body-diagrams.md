@@ -60,7 +60,7 @@ Start with single-force cases, then progressively add forces (gravity + normal, 
   answer: 2
   explanation: "The normal force is determined by the perpendicular force equation, independent of the horizontal motion. Since the car accelerates horizontally but not vertically, aᵧ = 0. Applying Newton's second law in the vertical direction: N − mg = 0, so N = mg. The horizontal acceleration is irrelevant to the vertical force balance. This shows why N = mg only holds when perpendicular acceleration is zero — on an incline, N = mg cos θ < mg; in an accelerating elevator, N ≠ mg. The formula N = mg is a consequence of zero vertical acceleration, not a general law."
 
-- question: "The direction of the net force on an object always matches the direction of the object's velocity."
+- question: "The direction of the net force on an object typically matches the direction of the object's velocity."
   type: true-false
   answer: false
   explanation: "Net force determines the direction of acceleration, not velocity. A ball thrown upward has upward velocity but downward net force (gravity). A car braking while moving forward has forward velocity and backward net force. A planet in circular orbit has velocity tangent to the orbit but net force (gravity) pointing toward the center — perpendicular to velocity. Net force and velocity can point in the same direction, opposite directions, or at any angle. Confusing the direction of force with the direction of motion is one of the most common conceptual errors in introductory mechanics."

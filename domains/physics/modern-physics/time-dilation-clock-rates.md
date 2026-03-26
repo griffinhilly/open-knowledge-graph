@@ -45,7 +45,7 @@ Moving clocks run slow compared to stationary clocks by a factor of γ = 1/√(1
   answer: 2
   explanation: "Both option A and B are correct descriptions of the same physical reality from different frames — which is why option C is the best answer. In the Earth frame, time dilation extends the muon's lab-frame half-life by γ ≈ 22, giving ~48 μs to traverse the ~15 km. In the muon's rest frame, length contraction reduces the 15 km to ~680 m, which takes only ~2.3 μs of proper time — within the half-life. Both calculations give the same answer (the muon survives) because proper time is invariant. This is the canonical experimental confirmation of relativistic time dilation."
 
-- question: "If Alice observes Bob's clock running slow, and Bob simultaneously observes Alice's clock running slow, then one of them must be making an error."
+- question: "If Alice observes Bob's clock running slow, and Bob simultaneously observes Alice's clock running slow, then one of them should be making an error."
   type: true-false
   answer: false
   explanation: "False. This symmetry is real and contains no contradiction. The apparent paradox arises from assuming there is a single objective 'present moment' shared by both observers — that there exists a unique instant where both clocks can be directly compared. Special relativity denies this: simultaneity is frame-dependent. When Bob says 'at this moment, Alice's clock reads T while mine reads T₀,' he is referring to events that are not simultaneous in Alice's frame. Both observers are correct about what they each observe, but they are observing different pairs of events."

@@ -59,7 +59,7 @@ Conduct practice interviews with feedback, analyze interview transcripts for the
   answer: true
   explanation: "This is one of the foundational epistemological commitments of qualitative methodology. The interviewer's identity, demeanor, framing choices, and probes all influence what the respondent says, how they say it, and what they omit. The transcript is the product of a social interaction, not a neutral download of pre-existing mental content. This doesn't make interview data unreliable — it means the conditions of production must be documented (through reflective memos) and treated as analytically relevant rather than as noise to be minimized."
 
-- question: "A more detailed interview guide with many specific sub-questions produces better qualitative data than a shorter, more open-ended guide, because it ensures all topics are covered systematically."
+- question: "A more detailed interview guide with many specific sub-questions produces better qualitative data than a shorter, more open-ended guide, because it ensures most topics are covered systematically."
   type: true-false
   answer: false
   explanation: "Over-specified guides can constrain the interview, preventing respondents from raising topics the researcher did not anticipate — which is often where the most valuable qualitative data lives. They also produce interview transcripts that resemble surveys rather than conversations, reducing the depth and spontaneity of responses. A good interview guide is a scaffold, not a script. It organizes priorities and suggests probes but leaves room for the respondent to lead. The goal is to elicit meaning and experience, not to systematically cover a checklist."

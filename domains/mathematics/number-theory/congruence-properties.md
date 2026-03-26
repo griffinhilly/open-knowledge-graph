@@ -46,7 +46,7 @@ Congruences mod n form an equivalence relation: a ≡ b (mod n) iff n|(a-b). The
   answer: 1
   explanation: "Because congruences are closed under multiplication, squaring is always valid: if a ≡ b (mod n), then a² = a·a ≡ b·b = b² (mod n). This is a direct application of the multiplicative property. Option A (division while keeping modulus unchanged) only works when the divisor is coprime to n. Option C (square roots) has no general guarantee in modular arithmetic — square roots may not exist, or may not be unique. Option D makes no sense as a manipulation of a congruence."
 
-- question: "If a ≡ b (mod n) and c divides both a and b, then a/c ≡ b/c (mod n) always holds."
+- question: "If a ≡ b (mod n) and c divides both a and b, then a/c ≡ b/c (mod n) generally holds."
   type: true-false
   answer: false
   explanation: "This is false when gcd(c, n) > 1. The classic example: 6 ≡ 2 (mod 4). Dividing by c = 2 gives 3 ≡ 1 (mod 4), which is false (4 does not divide 3 − 1 = 2). Division preserves the congruence at the same modulus only when gcd(c, n) = 1. When gcd(c, n) = d > 1, cancelling c requires dividing the modulus by d: a/c ≡ b/c (mod n/d). This rule is the most common source of errors in elementary number theory computations."

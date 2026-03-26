@@ -60,7 +60,7 @@ Generate autoregressive signal using known AR coefficients. Estimate AR model or
   answer: true
   explanation: "An AR(p) model is an all-poles system — its transfer function H(z) = 1/A(z) has poles but no zeros. Poles create resonances in the spectral estimate. A single pair of complex conjugate poles close to the unit circle creates a sharp narrow peak in the power spectrum. Representing the same narrow peak with an MA model (all zeros) requires very high order because zeros produce spectral nulls, not peaks; you need many zeros arranged to create a peak by cancellation. For signals dominated by resonances (speech formants, EEG rhythms, vibrating structures), AR models are the natural, parsimonious choice."
 
-- question: "AR, MA, and ARMA models are different types of signals — AR signals have different fundamental properties than MA signals and cannot be represented by each other."
+- question: "AR, MA, and ARMA models are different types of signals — AR signals have different fundamental properties than MA signals and can rarely be represented by each other."
   type: true-false
   answer: false
   explanation: "AR, MA, and ARMA are MODELS, not signal types. An underlying physical process doesn't 'know' which model is being applied to it. In fact, any ARMA process can be approximated arbitrarily well by a sufficiently high-order AR model (due to the all-poles approximation of rational spectra). The choice of model family is about parsimony: for a signal dominated by resonances, AR captures the structure efficiently; for signals with spectral notches, MA is efficient; for signals with both, ARMA is most compact. This is a modeling choice, not a description of the signal's intrinsic nature."

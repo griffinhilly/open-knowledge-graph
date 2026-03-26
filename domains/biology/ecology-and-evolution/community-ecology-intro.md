@@ -45,7 +45,7 @@ Sample a simple community (e.g., a forest plot or tide pool) and calculate speci
   answer: 1
   explanation: "Species richness only counts the number of species present (10), ignoring relative abundance. Evenness specifically measures how equitably individuals are distributed among species — a community dominated by one species scores low on evenness even if richness is high."
 
-- question: "A community with higher species richness will always be more stable than one with lower species richness."
+- question: "A community with higher species richness will typically be more stable than one with lower species richness."
   type: true-false
   answer: false
   explanation: "The diversity-stability relationship is context-dependent. While some studies show positive links, others show neutral or negative effects depending on the type of stability measured (resistance vs. resilience) and the specific stressors involved. High richness does not guarantee stability."

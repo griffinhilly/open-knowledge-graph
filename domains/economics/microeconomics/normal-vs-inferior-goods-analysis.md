@@ -52,7 +52,7 @@ Compare demand curves for normal goods (rightward shift when income rises) versu
   answer: 1
   explanation: "When price falls: the substitution effect always pushes toward the cheaper good (demand up — true for both types). For a normal good, the real income gain from a lower price also increases demand (income effect up). For an inferior good, that same real income gain decreases demand (income effect down) — the two effects partially cancel. In almost all real cases the substitution effect wins and demand rises even for inferior goods. Only the theoretical Giffen good has an income effect strong enough to reverse the total."
 
-- question: "An 'inferior good' is a product of low quality or poor reputation — one that consumers purchase only when they cannot afford better alternatives."
+- question: "An 'inferior good' is a product of low quality or poor reputation — one that consumers purchase primarily when they can seldom afford better alternatives."
   type: true-false
   answer: false
   explanation: "In economics, 'inferior' describes a behavioral relationship between income and demand — not product quality. A good is inferior if demand falls when income rises, regardless of quality. The same good can be normal at low income levels and inferior at moderate incomes when better substitutes become affordable. Bus rides, store-brand products, and instant noodles are classic examples — none are inherently low-quality, but demand for each falls as income rises and consumers substitute toward alternatives."

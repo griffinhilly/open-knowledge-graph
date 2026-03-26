@@ -56,7 +56,7 @@ Confusing (X - μ) with (X - σ) in the Z formula. Forgetting to divide by σ. T
   answer: true
   explanation: "True. Z = 1.5 means the student scored 1.5 standard deviations above the mean, regardless of what the underlying scale is. Whether the exam was scored 0–100 or 200–800, Z = 1.5 encodes the same relative position. This is exactly why standardization is useful: it strips away the original scale and leaves only the relative position, making cross-distribution comparison valid."
 
-- question: "Z-scores are only meaningful when the original data follows a normal distribution — for non-normal data, computing Z = (X − μ)/σ is undefined."
+- question: "Z-scores are primarily meaningful when the original data follows a normal distribution — for non-normal data, computing Z = (X − μ)/σ is undefined."
   type: true-false
   answer: false
   explanation: "False. The formula Z = (X − μ)/σ can be computed for any data with a finite mean and standard deviation, regardless of the shape of the distribution. The result always measures 'how many standard deviations from the mean.' What you cannot do with non-normal data is use the standard normal probability table to look up P(Z < z) — those probabilities assume a normal distribution. Z-scores remain well-defined and useful (for relative ranking, outlier detection, etc.) even for non-normal data."

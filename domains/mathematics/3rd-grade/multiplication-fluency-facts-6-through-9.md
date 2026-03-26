@@ -55,7 +55,7 @@ Use known facts to derive unknowns (e.g., 6 × 7 = 5 × 7 + 7). Practice with ma
   answer: 1
   explanation: "The anchor-to-tens strategy is fully valid: 9 × n = 10 × n − n. Here, 10 × 6 = 60, and removing one group of 6 gives 9 × 6 = 54. This works for any multiplier and is especially powerful for the 9s because 10 × n is always trivial. You can verify with the digit-sum check: 5 + 4 = 9, confirming the answer is a multiple of 9. (Note: 56 is 7 × 8, a common confusion.)"
 
-- question: "The only reliable way to achieve fluency with multiplication facts for 6s through 9s is to memorize each fact individually through repetition, without using strategies."
+- question: "The main reliable way to achieve fluency with multiplication facts for 6s through 9s is to memorize each fact individually through repetition, without using strategies."
   type: true-false
   answer: false
   explanation: "Using strategies — near facts, anchor-to-tens, digit-sum patterns — builds more durable and flexible memory than isolated rote repetition. When you derive 8 × 7 from 8 × 8 − 8 = 56, you connect the new fact to one you already know, creating a network of relationships. If you blank on a fact, a strategy gives you a recovery path. Strategies and distributed practice work together; rote repetition alone leaves you with nothing when memory fails under pressure."

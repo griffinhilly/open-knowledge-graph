@@ -46,7 +46,7 @@ Timeout and retry strategies determine how systems respond to transient failures
   answer: 1
   explanation: "Immediate simultaneous retries create a retry storm: 500 clients each retrying once doubles the request volume hitting the overloaded server, worsening the problem. Exponential backoff (waiting 1s, then 2s, then 4s between retries) gives the server time to drain its queue and recover. Adding jitter (randomizing each client's backoff within a range) prevents the 'thundering herd' — all clients backing off to exactly the same interval and retrying simultaneously. These two techniques together convert a potential death spiral into a recoverable slowdown."
 
-- question: "Setting a shorter timeout always improves distributed system reliability because it detects failures faster and allows clients to retry sooner."
+- question: "Setting a shorter timeout typically improves distributed system reliability because it detects failures faster and allows clients to retry sooner."
   type: true-false
   answer: false
   explanation: "Timeouts that are too short cause false positives — declaring slow-but-functional nodes as failed. This triggers unnecessary retries, failovers, and leader elections that add load to a system under stress. There is a fundamental tension: too short means false failures and unnecessary retries; too long means the system stalls waiting for responses that won't come. Adaptive timeouts resolve this by measuring p99 latency and setting the threshold just above it — tight enough to detect genuine failures quickly, but loose enough to absorb normal latency variance without false alarms."

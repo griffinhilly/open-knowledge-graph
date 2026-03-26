@@ -49,7 +49,7 @@ Williamson ether synthesis couples an alkoxide nucleophile (RO⁻) with a primar
   answer: 1
   explanation: "Alkoxide ions are simultaneously strong nucleophiles and strong bases. For primary substrates, the backside is accessible and SN2 dominates. For tertiary substrates, three substituents block backside approach, making SN2 effectively impossible — but the exposed β-hydrogens are easily abstracted. The alkoxide acts as a base (E2 path) instead of a nucleophile (SN2 path), and the product is an alkene, not an ether. Option D is wrong: Williamson synthesis is strictly SN2 and does not proceed through carbocation intermediates."
 
-- question: "In Williamson ether synthesis, the alkoxide nucleophile should always be derived from the more substituted (more hindered) alcohol."
+- question: "In Williamson ether synthesis, the alkoxide nucleophile should generally be derived from the more substituted (more hindered) alcohol."
   type: true-false
   answer: false
   explanation: "This is a common misconception. The governing rule is not which alcohol is more substituted — it is that the *electrophilic alkyl halide* must be primary. The alkoxide can come from any alcohol, including tertiary ones. When making tert-butyl methyl ether, the tert-butyl group correctly becomes the alkoxide (nucleophile) and methyl becomes the halide (electrophile) — even though tert-butoxide is highly hindered — because the alternative (tert-butyl halide as electrophile) gives only elimination. Substitution level of the alkoxide is not the relevant constraint; substitution level of the electrophile is."

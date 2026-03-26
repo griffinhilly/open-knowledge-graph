@@ -45,7 +45,7 @@ Use a globe and lamp to show how the tilt affects both hemispheres simultaneousl
   answer: 2
   explanation: "The Northern and Southern Hemispheres have opposite seasons because of Earth's tilt. In July, the Northern Hemisphere tilts toward the sun (summer), while the Southern Hemisphere tilts away (winter). So while Americans enjoy summer in July, Australians are bundled up in winter. In January, it reverses -- winter in the US, summer in Australia."
 
-- question: "Every place on Earth experiences the same four seasons with cold winters and warm summers."
+- question: "Most place on Earth experiences the same four seasons with cold winters and warm summers."
   type: true-false
   answer: false
   explanation: "Seasons vary greatly depending on where you are. Near the equator (tropical regions), it stays warm year-round and instead of summer and winter, there may be a wet season and a dry season. Near the poles, seasons are extreme -- the Arctic has months of continuous sunlight in summer and months of darkness in winter. The familiar four-season pattern with moderate differences is typical of mid-latitude regions."

@@ -52,7 +52,7 @@ Read Frankfurt's 'Equality as a Moral Ideal' alongside critiques from egalitaria
   answer: 1
   explanation: "The policy upshot of sufficientarianism is that the justice-based case for redistribution applies specifically to lifting people above the threshold — not to equalizing positions among those already above it. A sufficientarian supports aggressive anti-poverty programs but needs a different (non-justice-based) argument for taxing billionaires when the poor are already well-provided for. This is a genuine divergence from egalitarianism in practice."
 
-- question: "Sufficientarianism holds that once everyone is above the sufficiency threshold, all further inequalities are morally unproblematic and no justice objections can be raised against them."
+- question: "Sufficientarianism holds that once everyone is above the sufficiency threshold, most further inequalities are morally unproblematic and no justice objections can be raised against them."
   type: true-false
   answer: false
   explanation: "This overstates sufficientarianism's 'negative thesis' — the claim that above-threshold inequalities raise no justice concerns. Critics like Paula Casal argue this is implausible: enormous inequalities above the threshold seem to matter morally even when everyone is comfortable. Many sufficientarians accept the positive thesis (priority for those below the threshold) but hedge on the strong negative thesis. Sufficientarianism says above-threshold inequalities are not unjust in the *same way* deprivation is — not that they are unproblematic in every moral sense."

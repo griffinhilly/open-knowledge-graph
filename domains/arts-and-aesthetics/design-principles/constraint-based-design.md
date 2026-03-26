@@ -56,7 +56,7 @@ That constraints are obstacles that reduce design quality. In reality, too much 
   answer: true
   explanation: "This is the central claim of constraint-based design applied to poetry. The formal constraint forces the poet to make every word earn its place, to find rhymes that serve meaning rather than imposing it, and to achieve completeness within a bounded space. The constraint is the challenge that enables creative excellence — not a ceiling on what's possible, but the condition that makes certain kinds of achievement possible at all. The same logic applies across design disciplines."
 
-- question: "Removing all constraints from a design brief always leads to more creative and higher-quality outcomes."
+- question: "Removing most constraints from a design brief typically leads to more creative and higher-quality outcomes."
   type: true-false
   answer: false
   explanation: "Unlimited freedom is typically paralyzing rather than liberating. Without constraints, there is no basis for preferring one design decision over another — every choice is arbitrary. Constraints eliminate options systematically, making the remaining decisions meaningful. As the explainer notes: 'When you can do anything, you do not have to decide what matters most. When resources are limited, every choice becomes meaningful.' Some of the most celebrated design work in history emerged from severe constraint."

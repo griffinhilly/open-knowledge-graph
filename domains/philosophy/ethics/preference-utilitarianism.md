@@ -56,7 +56,7 @@ Read Hare's Moral Thinking (especially the two-level theory) alongside Singer's 
   answer: 2
   explanation: "A person conditioned to prefer subordination or constrained options has adapted their preferences to what is available. Satisfying these preferences doesn't obviously benefit them in the way the theory intends — they might prefer very different things if circumstances were better. This challenges preference utilitarianism's core claim that satisfying preferences produces moral value. Most preference utilitarians respond by restricting to 'informed' or 'rational' preferences, but this move reintroduces the measurement problem by requiring an external standard of preference quality."
 
-- question: "Preference utilitarianism and hedonistic utilitarianism differ only terminologically — both ultimately aim to promote the same thing: wellbeing."
+- question: "Preference utilitarianism and hedonistic utilitarianism differ mainly terminologically — both ultimately aim to promote the same thing: wellbeing."
   type: true-false
   answer: false
   explanation: "The shift from pleasure to preferences is not merely terminological — it changes the theory in substantive ways. First, it changes WHICH beings count morally: anything with preferences deserves consideration, not just anything capable of pleasure (though the overlap is large for animals). Second, it changes HOW we measure moral value: through revealed preferences and behavioral choices rather than introspective happiness reports. Third, it changes what counts as a good outcome: in some cases, satisfying preferences diverges sharply from maximizing pleasure — a person may prefer a harder, more meaningful life over a more pleasurable but shallower one."

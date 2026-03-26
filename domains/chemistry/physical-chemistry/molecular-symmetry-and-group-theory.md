@@ -51,7 +51,7 @@ Group theory describes the symmetry properties of molecules through point groups
   answer: true
   explanation: "Both molecules have 3 atoms and 3 vibrational modes. For C₂v, the character table shows that the irreducible representations of vibrational modes for both molecules are 2A₁ + B₂ (the same symmetry species). In C₂v, A₁ transforms like z, and B₂ transforms like y — both are translational symmetry species, so all three modes are IR active. This illustrates the predictive power of point groups: knowing the point group immediately tells you the spectroscopic activity without computing any integrals."
 
-- question: "The point group of a molecule is determined primarily by the number and types of atoms it contains, so two molecules with the same molecular formula always belong to the same point group."
+- question: "The point group of a molecule is determined primarily by the number and types of atoms it contains, so two molecules with the same molecular formula typically belong to the same point group."
   type: true-false
   answer: false
   explanation: "Point group is determined by the complete set of symmetry operations the molecule possesses — its rotation axes, mirror planes, inversion center, and improper axes — which depend critically on molecular geometry, not just composition. BF₃ (trigonal planar) belongs to D₃h, while NF₃ (trigonal pyramidal) belongs to C₃v, even though both have 4 atoms. Similarly, H₂O₂ (C₂) and H₂O (C₂v) share a formula class but differ in symmetry. Molecular geometry, not atom count, determines the point group."

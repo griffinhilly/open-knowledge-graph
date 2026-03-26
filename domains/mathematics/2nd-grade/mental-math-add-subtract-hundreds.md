@@ -64,7 +64,7 @@ Build on the mental-math-tens skill explicitly. Show the parallel: just as 47 + 
   answer: true
   explanation: "200 is 2 hundreds. Subtract 2 hundreds from the 7 hundreds in 740: 7 − 2 = 5 hundreds. The tens digit (4) and ones digit (0) are untouched. Result: 540. The strategy works because subtracting a multiple of 100 affects only the hundreds column — the tens and ones are irrelevant."
 
-- question: "Adding 300 to any number always changes three digits in the result."
+- question: "Adding 300 to any number typically changes three digits in the result."
   type: true-false
   answer: false
   explanation: "Adding 300 changes only the hundreds digit (unless that causes regrouping into the thousands, which won't happen within the range of these problems). The tens and ones digits stay completely the same. For example, 450 + 300 = 750: only the hundreds digit changed from 4 to 7. The idea that '300 is a three-digit number so it changes three digits' is an intuitive but false conclusion."

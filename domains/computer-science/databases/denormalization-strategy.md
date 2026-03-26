@@ -55,7 +55,7 @@ Identify schemas where joins are expensive, evaluate whether denormalization imp
   answer: true
   explanation: "This is exactly the trade-off denormalization makes. By storing pre-joined or pre-aggregated data redundantly, reads no longer need to perform expensive joins. But every redundant copy is a potential inconsistency — writes must now maintain multiple copies in sync. This shift of complexity from reads to writes is the defining characteristic of denormalization and the reason it should be done deliberately rather than casually."
 
-- question: "Denormalization always improves database performance and should be applied to any schema that has query performance issues."
+- question: "Denormalization usually improves database performance and should be applied to any schema that has query performance issues."
   type: true-false
   answer: false
   explanation: "Denormalization improves read performance for specific query patterns — typically those dominated by multi-table joins. It does not help (and may hurt) write-heavy workloads, random-access patterns already solved by indexes, or queries that scan aggregates not precomputed by the denormalization. A database with poor performance may have its bottleneck in missing indexes, poor query planning, insufficient memory for the buffer pool, or lock contention — none of which denormalization addresses. Applying it blindly adds consistency risk without guaranteed benefit."

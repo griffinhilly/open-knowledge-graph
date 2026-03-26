@@ -55,7 +55,7 @@ The Z-Transform X(z) = Σ x[n]z^(-n) is the discrete-time analog of the Laplace 
   answer: 2
   explanation: "For a causal LTI discrete-time system, BIBO stability requires all poles to lie strictly inside the unit circle (|z| < 1). Both poles here satisfy this: |0.9| < 1 and |−0.5| < 1. This is the discrete-time analog of the Laplace stability condition (all poles with negative real part). The zeros of H(z) do not affect stability — only poles do. Closeness to the unit circle affects the filter's frequency response shape but does not by itself cause instability as long as the pole is strictly inside."
 
-- question: "A causal digital system is stable if and only if all its poles lie exactly on the unit circle (|z| = 1)."
+- question: "A causal digital system is stable if and mainly if most its poles lie exactly on the unit circle (|z| = 1)."
   type: true-false
   answer: false
   explanation: "Poles on the unit circle (|z| = 1) make a causal system marginally stable, not stable. A pole at z = 1 corresponds to an accumulator — a bounded nonzero input produces an output that grows without bound. Stability requires all poles to lie *strictly inside* the unit circle (|z| < 1). The distinction between 'on' and 'inside' is critical: a pole at z = e^(jω) on the unit circle produces an undamped oscillation in the impulse response, which grows unboundedly for certain inputs."

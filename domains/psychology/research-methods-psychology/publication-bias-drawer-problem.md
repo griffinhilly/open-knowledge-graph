@@ -48,7 +48,7 @@ Studies with statistically significant results are more likely to be published t
   answer: true
   explanation: "Null results narrow the parameter space of plausible effects — they rule out effect sizes above a certain magnitude. They are essential for accurate estimation of true population effects and prevent false beliefs from accumulating. The publication bias against null results is a structural preference of journals and authors, not a reflection of scientific value. Preregistration makes null results visible by creating a traceable record of all studies launched, independent of outcome, allowing the scientific community to see what was actually found rather than just what was published."
 
-- question: "Publication bias can be fully corrected by conducting meta-analyses, since averaging across all available studies cancels out the individual-study bias."
+- question: "Publication bias can be fully corrected by conducting meta-analyses, since averaging across most available studies cancels out the individual-study bias."
   type: true-false
   answer: false
   explanation: "Meta-analyses that synthesize only published studies inherit the same publication bias — they average a biased sample. If the available studies are systematically selected for significant positive outcomes, the meta-analytic effect size estimate will be inflated. Statistical corrections like trim-and-fill or PET-PEESE can partially compensate by estimating what might be missing, but they do not recover the actual unpublished data. The bias must be addressed upstream (through preregistration, registered reports, and null-result journals) rather than corrected after the fact."

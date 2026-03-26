@@ -58,7 +58,7 @@ Comparing IRT models requires examining fit statistics (likelihood ratio tests, 
   answer: true
   explanation: "Global fit statistics (LRT, AIC, BIC) summarize fit across all items and examinees. A model can achieve good aggregate fit while specific items have response patterns that deviate substantially from the model's predicted item response functions. Item-level infit and outfit statistics are essential diagnostics precisely because global fit can mask local misfitting items. A test with five badly misfitting items among fifty is not trustworthy even if global statistics look acceptable."
 
-- question: "When a likelihood ratio test shows the 3PL fits significantly better than the Rasch model, the 3PL should always be selected for the final test."
+- question: "When a likelihood ratio test shows the 3PL fits significantly better than the Rasch model, the 3PL should generally be selected for the final test."
   type: true-false
   answer: false
   explanation: "Statistical significance of the likelihood ratio test is necessary but not sufficient for model selection in IRT. The psychometrician must also weigh the practical utility of the models, the size of the fit improvement relative to added parameters (via AIC/BIC), the stability of parameter estimates, item-level fit, and the intended use of the test. The Rasch model's sample-independent calibration property may be worth the marginal fit cost — a judgment that no statistical test can make automatically."

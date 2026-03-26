@@ -46,7 +46,7 @@ Have students dissolve sugar, salt, and sand in separate cups of water, stir, an
   answer: 2
   explanation: "The salt dissolved. Its particles separated and spread evenly throughout the water, becoming too small to see. The salt is still there — you can taste it, and if you let the water evaporate, the salt will be left behind. Dissolving is not the same as melting or being destroyed."
 
-- question: "Every solid will dissolve in water if you stir long enough."
+- question: "Most solid will dissolve in water if you stir long enough."
   type: true-false
   answer: false
   explanation: "False. Many solids do not dissolve in water no matter how long you stir. Sand, rocks, plastic, and wood will not dissolve in water. Whether something dissolves depends on the properties of both the solute and the solvent, not on how long you stir."

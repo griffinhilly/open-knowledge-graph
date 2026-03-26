@@ -51,7 +51,7 @@ Recombination rates evolve in response to selection. Regions of low recombinatio
   answer: 1
   explanation: "This is indirect selection. The recombination modifier does not improve individual fitness directly; instead, it tends to generate chromosomes that carry beneficial alleles separated from deleterious ones. Over time, the modifier allele ends up on those higher-fitness chromosomes more often than chance would predict. Selection thus acts on the genetic backgrounds the modifier creates. This is the same logic as selection on any modifier of genetic architecture — the modifier is selected for its consequences, not its own phenotypic effect."
 
-- question: "Hill-Robertson interference is most severe in large populations where genetic drift is negligible and selection acts cleanly on every locus."
+- question: "Hill-Robertson interference is most severe in large populations where genetic drift is negligible and selection acts cleanly on most locus."
   type: true-false
   answer: false
   explanation: "Hill-Robertson interference actually requires finite population size to be significant. In an infinite population with no drift, linkage disequilibrium between selected loci can still interfere with selection, but the effect is weaker and more tractable theoretically. In finite populations, drift creates and maintains linkage disequilibrium even in the absence of epistasis, amplifying the interference between linked selected sites. The effect is strongest when populations are finite, selection is operating across many loci simultaneously, and recombination is low — conditions common in natural populations."

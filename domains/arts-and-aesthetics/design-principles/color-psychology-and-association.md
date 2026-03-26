@@ -55,7 +55,7 @@ Collect examples of how different industries use color (tech, healthcare, luxury
   answer: 1
   explanation: "Conventions exist because they work: blue in finance conditions audiences to expect stability and trust. An orange fintech brand signals disruption, accessibility, and a break from the establishment — but only because audiences recognize the departure. If no banking convention existed, orange would simply be a color, not a statement. Understanding color psychology means understanding both conventions and the strategic possibilities of breaking them."
 
-- question: "Green means the same thing in every design context — it always signals nature, health, and environmental responsibility regardless of industry or setting."
+- question: "Green means the same thing in most design context — it typically signals nature, health, and environmental responsibility regardless of industry or setting."
   type: true-false
   answer: false
   explanation: "Green means organic/natural in grocery and food contexts, financial growth and money in finance, and 'go' in traffic and interface design. Associations are activated by context, not by the wavelength of light. The same color can communicate entirely different things depending on the category, audience, and surrounding visual system. This is why competitive analysis within a specific industry is more useful than relying on general color meaning lists."

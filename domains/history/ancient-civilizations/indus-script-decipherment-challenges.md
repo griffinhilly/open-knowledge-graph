@@ -52,7 +52,7 @@ All undeciphered scripts will eventually be deciphered—some may remain impossi
   answer: 1
   explanation: "The fundamental question is whether 'decipherment' is even the right goal. Farmer, Sproat, and Witzel argued the marks may be non-linguistic — more like heraldic symbols or administrative tokens — based on sign frequency distributions and the absence of long texts. Rao et al. used entropy analysis to argue the distribution resembles linguistic systems. This matters enormously: if the marks are linguistic, we search for a language and grammar; if they are not, we look for a semiotic system encoding categories, identities, or religious content without representing speech."
 
-- question: "All ancient scripts that have survived in sufficient quantity will eventually be deciphered with enough scholarly effort."
+- question: "Most ancient scripts that have survived in sufficient quantity will eventually be deciphered with enough scholarly effort."
   type: true-false
   answer: false
   explanation: "Decipherment requires either a bilingual text or a known language family to constrain interpretation. If neither exists and no living linguistic tradition descended from the script's language, decipherment may be categorically impossible regardless of how many examples are recovered. The Indus script illustrates this: 4,000+ objects have been found, yet scholars are no closer to consensus. Some scripts remain opaque not from lack of effort but from lack of the comparative framework needed to anchor interpretation. More data helps but cannot substitute for the missing bilingual anchor."

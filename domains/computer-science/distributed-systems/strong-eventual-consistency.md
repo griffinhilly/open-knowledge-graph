@@ -51,7 +51,7 @@ Strong eventual consistency (SEC) strengthens eventual consistency by requiring 
   answer: true
   explanation: "This is the defining property of SEC, which distinguishes it from plain eventual consistency. 'Same updates in, same state out' — regardless of delivery order. This is not a liveness guarantee (it doesn't say when convergence happens) but a safety guarantee about the convergence value. The property is achieved through CRDT operations that are commutative and idempotent by construction, making the final state a function of the update *set* alone, not the update *sequence*."
 
-- question: "To maintain strong eventual consistency, replicas must refuse concurrent writes during a network partition and wait for the partition to heal before accepting new updates."
+- question: "To maintain strong eventual consistency, replicas should refuse concurrent writes during a network partition and wait for the partition to heal before accepting new updates."
   type: true-false
   answer: false
   explanation: "This confuses SEC with strong consistency (CP systems in CAP terms). SEC is explicitly designed for AP systems: every replica accepts writes during a partition, maintaining high availability. The CRDT properties (commutativity, idempotence) ensure that when the partition heals and updates propagate, all replicas automatically converge — without requiring any coordination, consensus, or write rejection during the partition. Refusing writes during partitions is the approach of systems like Zookeeper or Paxos-based databases, not CRDT-based SEC systems."

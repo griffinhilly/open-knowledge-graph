@@ -52,7 +52,7 @@ Bandwidth is the frequency range over which a system responds adequately (typica
   answer: true
   explanation: "Power is proportional to the square of amplitude. When amplitude drops to 1/√2 ≈ 0.707, power becomes (1/√2)² = 0.5 — exactly half. In decibels: 20·log₁₀(0.707) ≈ -3 dB (amplitude), or equivalently 10·log₁₀(0.5) = -3 dB (power). This is the standard -3 dB point definition used consistently in signals and systems, control theory, and RF engineering. Signals below this frequency pass with minimal attenuation; above it, they are progressively suppressed."
 
-- question: "Increasing the bandwidth of a closed-loop control system always improves its performance, since higher bandwidth means the system can respond to a wider range of input frequencies."
+- question: "Increasing the bandwidth of a closed-loop control system typically improves its performance, since higher bandwidth means the system can respond to a wider range of input frequencies."
   type: true-false
   answer: false
   explanation: "More bandwidth means more noise sensitivity — the system responds faithfully to sensor noise, quantization errors, and high-frequency disturbances in addition to the desired input. In physical systems, this manifests as actuator chatter, mechanical wear, and excessive energy consumption. Additionally, increasing loop gain to widen bandwidth reduces phase margin, pushing the system toward instability. The engineering goal is the *minimum* bandwidth that satisfies tracking and disturbance rejection specifications, not the maximum achievable. The noise-bandwidth tradeoff is fundamental and cannot be avoided."

@@ -58,7 +58,7 @@ Follow a checklist systematically for several functions of increasing complexity
   answer: 1
   explanation: "A horizontal asymptote describes the limit as x → ±∞, not what happens at finite x values. A function can cross its horizontal asymptote any number of times and still approach that value at infinity. The common misconception is treating asymptotes as uncrossable barriers. Only vertical asymptotes (where the function is undefined) cannot be crossed."
 
-- question: "If f'(c) = 0, then f must have a local extremum at x = c."
+- question: "If f'(c) = 0, then f is expected to have a local extremum at x = c."
   type: true-false
   answer: false
   explanation: "A critical point where f'(c) = 0 is only a *candidate* for a local extremum. The first derivative test requires f' to actually *change sign* at c. If f'(x) > 0 on both sides of c (or < 0 on both sides), c is neither a local max nor a local min — it may be an inflection point with a horizontal tangent, like x = 0 for f(x) = x³."

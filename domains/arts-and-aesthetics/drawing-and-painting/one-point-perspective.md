@@ -43,7 +43,7 @@ Draw a horizon line and single vanishing point, then construct a simple box in s
   answer: 1
   explanation: "In one-point perspective, all horizontal receding edges (those moving away from the viewer) converge to the single vanishing point on the horizon line. This convergence is what creates the illusion of depth. The lines representing where walls meet ceiling and floor recede toward that point."
 
-- question: "In one-point perspective, the vanishing point must always be placed at the center of the composition."
+- question: "In one-point perspective, the vanishing point should generally be placed at the center of the composition."
   type: true-false
   answer: false
   explanation: "The vanishing point can be placed anywhere on the horizon line — off-center, near an edge, or even outside the picture plane entirely. Centering the vanishing point produces a symmetrical, head-on view; moving it to one side creates a more dramatic, oblique sense of space."

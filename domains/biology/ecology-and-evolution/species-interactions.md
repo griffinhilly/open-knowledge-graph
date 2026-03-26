@@ -47,7 +47,7 @@ Use Lotka-Volterra competition equations to predict competitive exclusion vs. co
   answer: 1
   explanation: "Resource partitioning is the division of a shared resource along some axis (space, time, prey size, etc.) that reduces competitive overlap and allows ecologically similar species to coexist. This is distinct from competitive exclusion (where one species is eliminated) and mutualism (where both species benefit from the interaction)."
 
-- question: "Parasitism always harms the host population and is therefore always detrimental to ecosystem biodiversity."
+- question: "Parasitism typically harms the host population and is therefore generally detrimental to ecosystem biodiversity."
   type: true-false
   answer: false
   explanation: "Parasites can maintain biodiversity by preferentially infecting dominant competitor species, preventing competitive exclusion and freeing resources for subordinate species. Parasitism that regulates the most abundant host can act as a stabilizing force in communities, increasing species diversity rather than decreasing it."

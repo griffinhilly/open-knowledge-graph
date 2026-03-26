@@ -50,7 +50,7 @@ A discrete random variable is a function from sample space to the integers or a 
   answer: true
   explanation: "Multiple random variables can be defined on the same sample space — they are just different functions from Ω to ℝ. Rolling a die: X(ω) = ω (the number showing), Y(ω) = 1 if even else 0, and Z(ω) = (ω − 3.5)² are all valid random variables on the same sample space {1,2,3,4,5,6}. This is a key structural point: the sample space is fixed by the experiment; the random variable is a choice of how to summarize it numerically."
 
-- question: "A discrete random variable must always take integer values."
+- question: "A discrete random variable should generally take integer values."
   type: true-false
   answer: false
   explanation: "A discrete random variable must take values in a *countable* set, but that set need not be integers. For example, a random variable could take values {0, 0.5, 1, 1.5, 2, ...} or any other countably infinite set. What makes it discrete is the presence of gaps between possible values and countability, not whether the values are whole numbers. The integers are the most common case, but not the only one."

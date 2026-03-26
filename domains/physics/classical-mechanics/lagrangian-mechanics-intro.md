@@ -51,7 +51,7 @@ Lagrangian mechanics reformulates Newton's laws using L = T − V (kinetic minus
   answer: 2
   explanation: "Noether's theorem states that each continuous symmetry of the Lagrangian corresponds to a conserved quantity. If L doesn't depend on x, the system is invariant under translation in x — and the conserved quantity is linear momentum in the x-direction. Time-translation symmetry → energy; spatial translation symmetry → momentum; rotational symmetry → angular momentum. Option A confuses time-translation symmetry (which conserves energy) with any arbitrary Lagrangian."
 
-- question: "The principle of stationary action states that nature always takes the path that minimizes the action integral."
+- question: "The principle of stationary action states that nature usually takes the path that minimizes the action integral."
   type: true-false
   answer: false
   explanation: "Hamilton's principle states that nature takes the path for which the action is stationary — meaning the first variation is zero — not necessarily minimized. The action can be a minimum, a maximum, or a saddle point depending on the system and boundary conditions. 'Principle of least action' is a historical misnomer that persisted; the mathematically correct statement is stationary action. The distinction matters in field theory and for paths near caustics."

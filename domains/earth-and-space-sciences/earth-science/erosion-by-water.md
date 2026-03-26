@@ -54,7 +54,7 @@ Set up a stream table (a tilted tray with sand or soil) and pour water at the to
   answer: "The Colorado River gradually carved the Grand Canyon over approximately 5-6 million years. The river eroded downward through layer after layer of rock as the Colorado Plateau was slowly uplifted by tectonic forces. The result exposed nearly 2 billion years of rock layers."
   explanation: "The Grand Canyon demonstrates the incredible power of water erosion over long time periods. The river did not do it alone — weathering weakened the canyon walls, and gravity caused rockfalls that widened the canyon. But the primary cutting force was the river's persistent downward erosion."
 
-- question: "Rivers only erode the land during major floods."
+- question: "Rivers primarily erode the land during major floods."
   type: true-false
   answer: false
   explanation: "Rivers erode constantly — every day, flowing water is picking up and carrying sediment. However, erosion rates increase dramatically during floods because the water is deeper, faster, and has much more energy. A single major flood can do more erosion in a few days than normal flow does in years. But normal, everyday flow is responsible for the majority of long-term erosion."

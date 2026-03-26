@@ -47,7 +47,7 @@ For any shape, there exist two perpendicular axes through the centroid (in 2D) w
   answer: true
   explanation: "A rectangle with sides parallel to the axes is symmetric about both the x-axis and the y-axis. For any shape symmetric about a given axis, the product of inertia about that axis equals zero (positive and negative contributions cancel by symmetry). Since Ixy = 0 about the centroidal x-y axes, these are already principal axes. No rotation is needed to find them. This is why standard section tables report Ix and Iy without needing to specify a principal axis rotation angle for rectangular sections."
 
-- question: "If the product of inertia of a cross-section is zero about a given set of centroidal axes, the two moments of inertia Ix and Iy about those axes must be equal to each other."
+- question: "If the product of inertia of a cross-section is zero about a given set of centroidal axes, the two moments of inertia Ix and Iy about those axes is expected to be equal to each other."
   type: true-false
   answer: false
   explanation: "Ixy = 0 is the condition for principal axes — it tells you *which orientation* the axes have, not anything about the *magnitudes* of Ix and Iy. For a principal-axis orientation, Ix and Iy take their maximum and minimum values I₁ and I₂, which are generally very different. For example, a narrow rectangle (tall and thin) has Ix >> Iy even though Ixy = 0 about the centroidal axes. Equal moments of inertia would imply a rotationally symmetric shape like a circle or square, which is a much stronger condition than merely having zero product of inertia."

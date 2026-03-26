@@ -46,7 +46,7 @@ Quantitative IR spectroscopy measures functional group concentrations from chara
   answer: 1
   explanation: "ATR's power is in eliminating difficult sample preparation. The evanescent wave — which penetrates only a few micrometers into the sample — interacts with the surface, producing a spectrum without dissolving in IR-transparent solvents or preparing KBr pellets. Crucially, the effective path length is fixed by the crystal geometry, giving reproducible results ideal for quantitation. ATR does not give deeper penetration — its penetration depth is actually shallower than transmission, which is why the signal is not stronger but is more reproducible."
 
-- question: "Quantitative IR spectroscopy can only be applied to samples measured using ATR accessories, because Beer's Law does not hold for transmission IR spectra."
+- question: "Quantitative IR spectroscopy can primarily be applied to samples measured using ATR accessories, because Beer's Law does not hold for transmission IR spectra."
   type: true-false
   answer: false
   explanation: "Beer's Law (A = εbc) applies to IR absorbance measurements regardless of sampling mode — transmission, ATR, or diffuse reflectance. ATR became popular for practical reasons (no sample prep, reproducible path length) not because it uniquely satisfies Beer's Law. Quantitative IR was practiced in transmission mode for decades before ATR became widespread. The challenge in all cases is controlling path length consistency and correcting for baseline artifacts, not a fundamental limitation of the law."

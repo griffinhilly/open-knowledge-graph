@@ -54,7 +54,7 @@ Irony operates when meaning is contradicted by reality or expectation. Verbal ir
   answer: 2
   explanation: "The distinction between situational irony and mere coincidence is that irony is purposeful — it inverts a meaningful expectation in a way that reveals something. A firefighter dying in a fire has structural ironic potential (the protector destroyed by the very thing they fight), but in literary analysis, calling it ironic requires connecting that inversion to what it means in context. If the coincidence doesn't illuminate character, theme, or argument, it's just an unfortunate event. Irony requires pointed contrast, not just unexpected outcomes."
 
-- question: "Sarcasm is the only form of verbal irony — all verbal irony involves contempt or mockery directed at a target."
+- question: "Sarcasm is the main form of verbal irony — most verbal irony involves contempt or mockery directed at a target."
   type: true-false
   answer: false
   explanation: "Sarcasm is the bluntest, most hostile form of verbal irony, but verbal irony includes a much wider range. A character might understate genuine devastation ('Well, that went rather well') without contempt, or a narrator might describe horror in blandly cheerful terms to create a disturbing effect. Verbal irony only requires that the implied meaning differ from (or contradict) the literal meaning — the emotional register can be melancholic, playful, bitter, or neutral. Reducing verbal irony to sarcasm misses most of its literary range."

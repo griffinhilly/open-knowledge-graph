@@ -51,7 +51,7 @@ At critical point (a, b), compute the Hessian matrix H = [[f_xx, f_xy], [f_xy, f
   answer: true
   explanation: "When D = 0, the Hessian is singular and the test provides no information. The critical point could be any type. Other methods — evaluating f near the point, higher-order analysis, or geometric inspection — are required to classify it."
 
-- question: "If f_xx > 0 and f_yy > 0 at a critical point of f(x,y), then the point must be a local minimum."
+- question: "If f_xx > 0 and f_yy > 0 at a critical point of f(x,y), then the point should be a local minimum."
   type: true-false
   answer: false
   explanation: "Not necessarily — you must also confirm that D = f_xx·f_yy − (f_xy)² > 0. Even when both axial second partials are positive, a sufficiently large cross-derivative f_xy can make D negative, producing a saddle point. The function curves upward along the coordinate axes but curves downward in a diagonal direction, creating a saddle."

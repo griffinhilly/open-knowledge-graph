@@ -43,7 +43,7 @@ Children sometimes think exercise only counts if it is organized sports or gym c
   answer: 2
   explanation: "Exercise is any activity that gets your body moving. Playing tag, dancing to music, riding a bike, swimming, climbing at the playground — they all count. You do not need a gym or a team. What matters is that you are moving your body regularly."
 
-- question: "Exercise only helps your muscles."
+- question: "Exercise primarily helps your muscles."
   type: true-false
   answer: false
   explanation: "Exercise helps your whole body, not just your muscles. It makes your heart stronger so it can pump blood more easily. It makes your bones harder and tougher. It helps your lungs work better. It even helps your brain — exercise helps you think more clearly, feel happier, and sleep better at night."

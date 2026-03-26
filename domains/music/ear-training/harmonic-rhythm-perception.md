@@ -61,7 +61,7 @@ Listen to progressions with fast harmonic rhythm (new chord each beat or half-be
   answer: true
   explanation: "Cadential slowing of harmonic rhythm is one of the clearest structural signals in tonal music. As a phrase approaches its cadence, chord changes typically become less frequent, often settling on a dominant chord that is held for several beats before resolving to tonic. This extended dominant creates anticipation and signals closure. The opposite pattern — compressed harmonic rhythm leading into a cadence — is much rarer and would feel rushed rather than conclusive. Recognizing this ebb-and-flow in harmonic density is a key component of form perception."
 
-- question: "Harmonic rhythm always aligns with metric accents (strong beats), since chord changes naturally emphasize the beat on which they arrive."
+- question: "Harmonic rhythm generally aligns with metric accents (strong beats), since chord changes naturally emphasize the beat on which they arrive."
   type: true-false
   answer: false
   explanation: "Harmonic rhythm frequently syncopates — landing on weak beats, off-beats, or across bar lines. Jazz harmony, Romantic chromaticism, and contemporary popular music regularly place chord changes in metrically weak positions to create rhythmic interest, forward lean, or surprise. Hearing harmonic rhythm requires actively separating the harmonic layer from the metric layer in your attention, which is exactly the skill this training develops. Assuming they always coincide is a major listening obstacle."

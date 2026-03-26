@@ -44,7 +44,7 @@ Energy depends only on principal quantum number: E_n = −13.6 eV / n². Each le
   answer: 2
   explanation: "The degeneracy is 2n². For n = 3: l can be 0, 1, or 2. The m_l count for each l is 2l+1: 1 + 3 + 5 = 9 spatial states. With 2 spin states each, total = 18 = 2(3²). Option B counts only spatial states (n² = 9) and forgets spin. Option A counts only the number of l values, not the m_l sublevels within each. Option D incorrectly excludes l = 2 (the 3d orbitals), which are fully accessible at n = 3."
 
-- question: "The fact that hydrogen's energy depends only on n, and not on l, holds for all central potentials — it is a universal quantum mechanical result."
+- question: "The fact that hydrogen's energy depends mainly on n, and not on l, holds for most central potentials — it is a universal quantum mechanical result."
   type: true-false
   answer: false
   explanation: "The l-degeneracy is specific to the Coulomb potential V(r) ∝ 1/r, which has a hidden symmetry (SO(4)) beyond the rotational symmetry (SO(3)) that all central potentials share. For any other central potential — a harmonic oscillator, a finite square well, the screened potential of multi-electron atoms — states with different l at the same n generally have different energies. This is precisely why s, p, d orbitals split in energy in atoms beyond hydrogen."

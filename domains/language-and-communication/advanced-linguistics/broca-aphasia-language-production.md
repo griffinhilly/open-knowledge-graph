@@ -42,7 +42,7 @@ Broca's aphasia, from left inferior frontal damage, causes agrammatism: impaired
   answer: 1
   explanation: "Broca's aphasics rely on a pragmatic heuristic: assign agent role to the first noun. This works for active sentences ('The girl rode the bicycle') where word order matches canonical agent-first structure, but fails for passives, where the first noun is the patient, not the agent. The patient interprets 'The bicycle was ridden by the girl' as 'bicycle acted on girl.' This shows that even comprehension in Broca's aphasia is impaired for syntactically complex structures — it is not fully preserved. Option D overstates the comprehension deficit; simple active sentences are understood."
 
-- question: "Broca's aphasics have fully intact comprehension for all sentence types, because Wernicke's area — responsible for language comprehension — is undamaged."
+- question: "Broca's aphasics have fully intact comprehension for most sentence types, because Wernicke's area — responsible for language comprehension — is undamaged."
   type: true-false
   answer: false
   explanation: "Comprehension is 'relatively' preserved in Broca's aphasia, not fully intact. For simple active sentences where word order provides an unambiguous cue to meaning, comprehension is adequate. But for syntactically complex sentences — passives, center-embedded clauses, object relative clauses — Broca's aphasics fail, because understanding these requires active grammatical parsing that depends on the damaged frontal region. The division of language into 'production = Broca's' and 'comprehension = Wernicke's' is an oversimplification."

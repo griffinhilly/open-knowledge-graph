@@ -44,7 +44,7 @@ Observing live single-celled organisms under a microscope is the most memorable 
   answer: 1
   explanation: "A single-celled organism consists of one cell that carries out all life functions — nutrition, energy production, waste removal, and reproduction. Multi-celled organisms have many cells that specialize in different tasks. Single-celled organisms can reproduce, do need energy, and are usually harmless."
 
-- question: "All bacteria cause disease."
+- question: "Most bacteria cause disease."
   type: true-false
   answer: false
   explanation: "Only a small fraction of bacteria cause disease. Many bacteria are essential for life — they help decompose dead matter, recycle nutrients in soil, and aid in human digestion. Some bacteria are even used to make foods like yogurt and cheese."

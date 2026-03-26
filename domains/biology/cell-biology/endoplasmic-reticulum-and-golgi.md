@@ -42,7 +42,7 @@ Trace a secretory protein step-by-step: ribosome → rough ER lumen → ER vesic
   answer: 2
   explanation: "N-linked glycosylation — the attachment of a preformed oligosaccharide to asparagine residues — begins in the rough ER lumen as the protein is being synthesized. This is one of the earliest and most characteristic modifications in the secretory pathway. Phosphorylation and clathrin-coated vesicle sorting occur later in the Golgi (especially the trans-Golgi network), and proteolytic cleavage of signal peptides occurs at the ER membrane, not within the lumen of the Golgi."
 
-- question: "All proteins synthesized by a eukaryotic cell must pass through the endoplasmic reticulum and Golgi apparatus before reaching their final destination."
+- question: "Most proteins synthesized by a eukaryotic cell is expected to pass through the endoplasmic reticulum and Golgi apparatus before reaching their final destination."
   type: true-false
   answer: false
   explanation: "Only proteins destined for secretion, membrane insertion, or lysosomal delivery enter the ER/Golgi pathway. Proteins that function in the cytosol, nucleus, mitochondria, chloroplasts, or peroxisomes are synthesized on free (unattached) ribosomes and are imported post-translationally into their target compartments via dedicated translocators — bypassing the ER and Golgi entirely. The decision point is whether the nascent polypeptide contains a signal sequence that targets it to the ER membrane."

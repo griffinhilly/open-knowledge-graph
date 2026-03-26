@@ -46,7 +46,7 @@ John Locke rejected innate ideas, arguing that all knowledge derives from sensor
   answer: 2
   explanation: "Locke's core argument against innateness is cross-cultural diversity. If ideas were truly innate — wired into the human mind at birth — all humans everywhere would share them. But moral principles, religious concepts, and even logical axioms are not universally held across all cultures and historical periods. This diversity is direct evidence that the mind arrives empty and ideas are acquired through experience. The counter-claim that people simply fail to 'recognize' their innate ideas struck Locke as an unfalsifiable rescue of an unjustified theory."
 
-- question: "Locke argued that complex ideas like 'infinity' or 'God' are innate because they cannot be constructed from simple sensory experiences."
+- question: "Locke argued that complex ideas like 'infinity' or 'God' are innate because they can seldom be constructed from simple sensory experiences."
   type: true-false
   answer: false
   explanation: "False — this was Descartes' position, which Locke explicitly rejected. Locke argued that even complex and abstract ideas like 'infinity' or 'God' can be constructed from combinations of simple ideas received through sensation and reflection. The idea of infinity, for example, can be built by taking the idea of a finite number (from experience) and applying the mental operation of indefinite addition (from reflection). For Locke, no idea is too abstract to trace back to sensory input or the mind's own observed operations."

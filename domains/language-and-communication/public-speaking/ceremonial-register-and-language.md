@@ -47,12 +47,12 @@ Ceremonial speaking (eulogies, award presentations, dedications) employs formal 
   answer: 1
   explanation: "Register is not just vocabulary — it is a complete set of coordinated choices. Ceremonial formal register involves longer sentences with subordination and balanced constructions, Latinate vocabulary, traditional formulas, and sometimes slight archaism. These elements work together as a system. A speaker might choose formal words but construct them in casual, clipped sentences — the mismatch signals mixed register. True ceremonial register requires all these elements to be aligned."
 
-- question: "Using formal ceremonial register means avoiding all personal anecdotes and emotional content in favor of abstract, dignified language."
+- question: "Using formal ceremonial register means avoiding most personal anecdotes and emotional content in favor of abstract, dignified language."
   type: true-false
   answer: false
   explanation: "Ceremonial register governs *how* language is used, not *what* is said. Personal anecdotes and emotional content are entirely appropriate — often essential — in ceremonial speeches like eulogies and award presentations. The register shapes the diction and structure through which those personal details are expressed. 'He exemplified the kind of quiet generosity that transforms communities' uses a personal insight in formal register. Register and emotional content are independent dimensions of a speech."
 
-- question: "Register mismatches in ceremonial speaking almost always go in the direction of excessive formality, because speakers over-prepare and produce overly stiff language."
+- question: "Register mismatches in ceremonial speaking almost typically go in the direction of excessive formality, because speakers over-prepare and produce overly stiff language."
   type: true-false
   answer: false
   explanation: "Register mismatches almost always go in the direction of *informality*, because conversational speech is most people's default mode. Under pressure or inadequate preparation, speakers slip into casual diction — 'he was a great guy,' 'she really helped everyone out' — rather than maintaining elevated ceremonial language. Excessive stiffness is a less common failure mode and is generally less damaging than inappropriate informality, because stiff language at least honors the occasion's gravity."

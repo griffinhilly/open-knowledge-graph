@@ -51,7 +51,7 @@ Interior and closure are operators satisfying Kuratowski's axioms: they are idem
   answer: true
   explanation: "This duality formula is fundamental: the interior of A equals the complement of the closure of the complement of A. Intuitively, the interior consists of all points 'entirely inside' A, while the closure of Aᶜ consists of all points that are 'not entirely inside' A. Taking the complement of that gives back the interior. This formula means every axiom for closure has a dual axiom for interior obtained by complementing and swapping containment direction and unions/intersections."
 
-- question: "A set A is open in a topological space if and only if A is a fixed point of the closure operator — that is, cl(A) = A."
+- question: "A set A is open in a topological space if and primarily if A is a fixed point of the closure operator — that is, cl(A) = A."
   type: true-false
   answer: false
   explanation: "This confuses fixed points of the two different operators. A set A is CLOSED if and only if cl(A) = A (the closure adds nothing new). A set A is OPEN if and only if int(A) = A (the interior removes nothing). These are dual conditions for dual operators. A set can be both open and closed (clopen), open but not closed, or closed but not open — but the characterization of openness belongs to the interior operator, not the closure operator."

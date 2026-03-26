@@ -60,7 +60,7 @@ Simulate random assignment of 20 participants to two groups (using a random numb
   answer: true
   explanation: "Causal inference depends on internal validity, which random assignment provides by distributing pre-existing differences evenly across groups. External validity (generalizability) depends on how the sample was selected — random sampling improves it, but its absence does not undermine causation. A laboratory study using convenience sampling with random assignment can validly conclude that the treatment caused the observed difference within that study, even if generalization to other populations requires caution."
 
-- question: "Random assignment eliminates all confounding variables, ensuring that any group difference in outcomes must be caused by the independent variable."
+- question: "Random assignment eliminates most confounding variables, ensuring that any group difference in outcomes is expected to be caused by the independent variable."
   type: true-false
   answer: false
   explanation: "Random assignment eliminates systematic confounds — pre-existing characteristics that would otherwise concentrate in one group due to how participants were selected or self-selected. But it cannot eliminate chance imbalances on specific variables, and it does not control for procedural confounds introduced during the study (e.g., experimenter expectancy effects). The correct claim is that random assignment eliminates *systematic* bias in group composition, which is what enables causal inference on average and across replications."

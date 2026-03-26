@@ -53,7 +53,7 @@ Deconstruct published studies and identify all variable types. Practice writing 
   answer: 2
   explanation: "A control variable is one measured and statistically or experimentally accounted for to remove its potential influence on the IV-DV relationship. A confound is a threat — an uncontrolled variable correlated with both IV and DV that provides an alternative explanation for results. Room temperature, once measured and controlled, is no longer a confound; it has become a control variable. The key distinction: a confound is the problem; a control variable is the remedy."
 
-- question: "A confound and a control variable describe the same third-party influence on a study — the only difference is terminological."
+- question: "A confound and a control variable describe the same third-party influence on a study — the primary difference is terminological."
   type: true-false
   answer: false
   explanation: "They describe fundamentally different things. A confound is a threat: a variable that is correlated with both the IV and DV, providing an alternative explanation for any observed relationship. A control variable is a remedy: a factor that has been measured and statistically or experimentally held constant to prevent it from confounding results. You 'control for' potential confounds by converting them into control variables. One is the problem, the other is the solution — conflating them misrepresents the logic of research design."

@@ -64,7 +64,7 @@ Begin with one-step disconnections and verify that the forward synthesis works. 
   answer: false
   explanation: "Retrosynthetic analysis works backward: from target C to precursor B to starting material A, using the retrosynthetic arrow (⇒), not forward reaction arrows. Working forward (A → B → C) is the forward synthesis. The retrosynthetic approach reverses the direction of thinking — each step asks 'what simpler molecule could give me this target?' rather than 'what can I make from this starting material?'"
 
-- question: "A retrosynthetic disconnection and its corresponding forward reaction must use identical reagents and conditions."
+- question: "A retrosynthetic disconnection and its corresponding forward reaction should use identical reagents and conditions."
   type: true-false
   answer: false
   explanation: "Retrosynthetic arrows show logical disconnections, not actual reactions. A disconnection reveals the structural relationship between target and precursor, but the forward reaction requires specific reagents, solvents, temperatures, and workup not captured in the disconnection notation. For example, disconnecting an alcohol's C–C bond implies Grignard chemistry, but the forward step also requires anhydrous conditions, careful addition order, and acidic workup."

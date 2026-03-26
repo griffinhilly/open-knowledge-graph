@@ -55,7 +55,7 @@ Track personal social comparison instances over a week, noting direction (upward
   answer: 1
   explanation: "Festinger's core claim is that similar others provide the most informative self-evaluation benchmark because a comparison to someone at roughly the same level reveals where you stand. But people also compare strategically: selecting downward targets serves self-enhancement, and selecting upward targets serves self-improvement. The similarity preference is strongest when the goal is accuracy, not when emotional motives dominate target selection."
 
-- question: "According to social comparison theory, people always choose comparison targets who are as similar to themselves as possible."
+- question: "According to social comparison theory, people typically choose comparison targets who are as similar to themselves as possible."
   type: true-false
   answer: false
   explanation: "Festinger's original formulation did emphasize similar others for accurate self-evaluation, but decades of research show that comparison target selection is strategic and motivated. People select downward targets when they want to feel better (self-enhancement) and upward targets when they want inspiration or improvement goals. If people always preferred similar others, downward comparison as a self-esteem boost would not occur — but it reliably does."

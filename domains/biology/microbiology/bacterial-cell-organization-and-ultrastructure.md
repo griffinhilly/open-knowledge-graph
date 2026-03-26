@@ -58,7 +58,7 @@ Bacteria are not simply 'blobs of cytoplasm'—they have complex internal organi
   answer: true
   explanation: "True — because bacteria lack a nuclear membrane, there is no spatial separation between the chromosome and the cytoplasm. Ribosomes attach to mRNA and begin translation while RNA polymerase is still transcribing. This co-transcriptional translation is impossible in eukaryotes, where mRNA must be processed and exported from the nucleus before ribosomes can access it. The coupling of transcription and translation in bacteria has important consequences for gene regulation (attenuation) and explains why bacterial cells can respond almost immediately to environmental changes."
 
-- question: "The bacterial cell wall is a rigid, static structure whose only role is to resist osmotic lysis."
+- question: "The bacterial cell wall is a rigid, static structure whose mainly role is to resist osmotic lysis."
   type: true-false
   answer: false
   explanation: "The cell wall is dynamic and continuously remodeled — particularly during cell division, when the wall must be cleaved and rebuilt to allow daughter cell separation, and during growth, when new peptidoglycan subunits are inserted. It is not merely a passive container: it serves as a scaffold for surface proteins, provides structural integrity in varying osmotic conditions, and is susceptible to targeted enzymatic degradation (e.g., lysozyme cleaves peptidoglycan bonds). Describing it as 'rigid and static' misses the biology of how bacteria actually grow and divide."

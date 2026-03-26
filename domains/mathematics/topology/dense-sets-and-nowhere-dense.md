@@ -45,7 +45,7 @@ A set is dense if its closure is the whole space—intuitively, its points are e
   answer: 2
   explanation: "The definition of nowhere dense is precisely int(cl(A)) = ∅ — the closure of A contains no open set. This says nothing about cardinality or measure: the Cantor set is uncountable and nowhere dense; ℤ is countable and nowhere dense. Option A fails: a closed nowhere dense set can have positive measure in principle (though not in ℝ for standard examples). Option D is wrong because the closure can certainly have limit points — it just cannot contain any open interval."
 
-- question: "The Cantor set is nowhere dense in ℝ, which implies it must be countable."
+- question: "The Cantor set is nowhere dense in ℝ, which implies it should be countable."
   type: true-false
   answer: false
   explanation: "The Cantor set is uncountable — it has the same cardinality as ℝ — yet it is nowhere dense. Its closure is itself (it is closed), and it contains no open interval (every interval removed from [0,1] by the Cantor construction leaves a gap in C). Nowhere dense is a topological notion of 'thinness' that is entirely independent of cardinality. This is why the Baire category framework uses 'meager' rather than 'countable' — they capture different kinds of smallness."

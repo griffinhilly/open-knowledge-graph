@@ -60,7 +60,7 @@ Walk through a three-cycle PCR diagram showing how the discrete target-length pr
   answer: 1
   explanation: "PCR's defining power is sensitivity through exponential amplification. Each cycle doubles the number of copies: 30 cycles yield approximately 2³⁰ ≈ 10⁹ copies from a single starting molecule. This is why PCR revolutionized forensics — a single hair follicle, a microscopic blood drop, or a degraded ancient bone fragment can provide enough template. The caveat (addressed in Common Misconceptions) is that Taq lacks proofreading, so amplifying tiny degraded samples may introduce errors — for accuracy-critical applications, high-fidelity polymerases are used."
 
-- question: "After the first few PCR cycles, the dominant accumulating products are the variable-length strands produced when polymerase extends past the target region, since these are synthesized in every cycle."
+- question: "After the first few PCR cycles, the dominant accumulating products are the variable-length strands produced when polymerase extends past the target region, since these are synthesized in nearly every cycle."
   type: true-false
   answer: false
   explanation: "Variable-length products (where polymerase extends beyond the target because there is no defined endpoint on early cycle templates) do accumulate, but only linearly — they increase by a fixed number per cycle. Starting at cycle 3, defined-length products bounded by both primers begin to appear, and these accumulate exponentially. By cycles 5–6, the defined-length products vastly outnumber everything else. The exponential growth of target-length products is what makes PCR analytically useful; the early variable-length products become negligible relative to the exponentially amplified target."

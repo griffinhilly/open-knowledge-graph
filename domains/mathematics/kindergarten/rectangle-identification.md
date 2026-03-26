@@ -43,7 +43,7 @@ A rectangle is a shape with four sides and four corners, where opposite sides ar
   answer: 1
   explanation: "The correct rule is: 4 sides, 4 square corners, and opposite sides equal. Option A is wrong because it excludes squares. Option C describes common rectangles but is not a definition. Option D describes squares only."
 
-- question: "Every rectangle is also a square."
+- question: "Most rectangle is also a square."
   type: true-false
   answer: false
   explanation: "A rectangle only needs opposite sides to be equal — the two long sides match and the two short sides match, but they don't all need to be the same length. A door shape is a rectangle but not a square. Only rectangles where ALL four sides are equal qualify as squares."

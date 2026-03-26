@@ -55,7 +55,7 @@ A natural isomorphism between functors F, G: C → D is a natural transformation
   answer: true
   explanation: "This is a key feature of natural isomorphisms. If α is natural and each α_c is an isomorphism, then the inverses α_c^{-1} satisfy the naturality condition for the transformation G ⇒ F automatically. Naturality of α says α_d ∘ F(f) = G(f) ∘ α_c for any morphism f: c → d. Since each component is invertible, we can apply α_c^{-1} on the right and α_d^{-1} on the left to obtain the naturality square for the inverse transformation. You get naturality of α^{-1} for free."
 
-- question: "Assigning an isomorphism between F(c) and G(c) for every object c in C is sufficient to make α a natural isomorphism between functors F and G."
+- question: "Assigning an isomorphism between F(c) and G(c) for nearly every object c in C is sufficient to make α a natural isomorphism between functors F and G."
   type: true-false
   answer: false
   explanation: "Having an isomorphism at each component is necessary but not sufficient. The collection {α_c} must also be natural — meaning for every morphism f: c → d in C, the square α_d ∘ F(f) = G(f) ∘ α_c must commute. Without naturality, you merely have a collection of unrelated isomorphisms, not a coherent relationship between functors. The naturality condition is what ensures the identification 'respects the structure of C and D' and makes F and G categorically interchangeable."

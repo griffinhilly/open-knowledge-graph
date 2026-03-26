@@ -49,7 +49,7 @@ Capacitors in series experience the same charge Q but different voltages; total 
   answer: true
   explanation: "Capacitors in parallel: C_eq = C₁ + C₂ + ... (direct sum). Resistors in series: R_eq = R₁ + R₂ + ... (direct sum). Both exhibit direct addition because the relevant quantity accumulates in the same direction: parallel capacitors add effective plate area, series resistors add path length for current. This is part of the broader duality between C and R: the combination rules for capacitors are exactly swapped relative to resistors, which the topic explicitly notes as a useful memory anchor."
 
-- question: "When capacitors are connected in series, they all have the same voltage across their terminals."
+- question: "When capacitors are connected in series, they most have the same voltage across their terminals."
   type: true-false
   answer: false
   explanation: "In series, all capacitors carry the same charge Q — not the same voltage. The voltage across each capacitor is V = Q/C, so capacitors with different capacitances will have different voltages. Specifically, smaller capacitors carry larger voltage drops (for the same Q, smaller C means larger V = Q/C). Equal voltage is the defining property of parallel connection, not series. Confusing which quantity is shared (charge in series, voltage in parallel) is the most common error in capacitor network problems."

@@ -52,7 +52,7 @@ Externalism denies the existence of internal representational states—externali
   answer: 1
   explanation: "The division of linguistic labor explains how ordinary speakers can competently use words like 'gold' or 'water' without personally knowing the science. When you say 'that ring is gold,' your word 'gold' refers to whatever the experts determine gold really is (atomic number 79), even if you couldn't pass a chemistry test. Reference is socially distributed — the community defers to the relevant experts, and this collective practice fixes the extension. Your individual ignorance doesn't prevent you from referring correctly."
 
-- question: "According to Putnam's semantic externalism, two people with exactly the same internal mental states must have words with exactly the same meaning and reference."
+- question: "According to Putnam's semantic externalism, two people with exactly the same internal mental states should have words with exactly the same meaning and reference."
   type: true-false
   answer: false
   explanation: "This is precisely what the Twin Earth thought experiment refutes. The Earthling and Twin Earther are molecule-for-molecule identical — same mental states, same internal representations — yet their word 'water' has different extensions (H₂O vs. XYZ). If meanings were entirely in the head, identical mental states would guarantee identical meanings. The fact that they don't is Putnam's key evidence that external, worldly facts co-determine meaning."

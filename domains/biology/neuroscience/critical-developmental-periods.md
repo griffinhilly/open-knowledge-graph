@@ -35,7 +35,7 @@ During critical periods in early development, the brain is exquisitely sensitive
   answer: 2
   explanation: "Critical period closure is primarily gated by the maturation of fast-spiking parvalbumin-positive GABAergic interneurons. As these interneurons mature and form perineuronal nets (extracellular matrix structures around them), the excitation/inhibition balance shifts to favor inhibition, making it harder for activity patterns to trigger the synaptic changes that reshape circuits. Reducing GABAergic inhibition experimentally — even in adult animals — can reopen a version of the critical period."
 
-- question: "After a critical period closes, the affected neural circuit becomes completely rigid and no synaptic plasticity of any kind is possible in that region."
+- question: "After a critical period closes, the affected neural circuit becomes mostly rigid and no synaptic plasticity of any kind is possible in that region."
   type: true-false
   answer: false
   explanation: "Critical period closure reduces plasticity dramatically but does not eliminate it. Adult brains retain forms of synaptic plasticity (LTP, LTD, homeostatic plasticity) throughout life. What closes is the exceptional, experience-driven rapid circuit reorganization characteristic of the critical period. Crucially, experimental interventions (reducing GABAergic inhibition, enriched environments, certain drugs) can partially reopen critical period-like plasticity even in adults, which is why this research has therapeutic implications for amblyopia and other developmental conditions."

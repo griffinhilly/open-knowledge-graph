@@ -55,7 +55,7 @@ Take sentences with relative clauses and test whether removing the clause change
   answer: 2
   explanation: "'That' introduces restrictive relative clauses and takes no commas; 'which' introduces nonrestrictive clauses and requires commas. Option C is correct: the clause 'that I submitted last week' restricts which report is meant, so 'that' is correct and no commas appear. Option A incorrectly uses commas with 'that.' Option B uses 'which' without commas, mixing the conventions. Option D correctly uses 'which' but omits the closing comma."
 
-- question: "In the sentence 'Maria, who studied all night, passed the exam,' removing the relative clause changes which person the sentence is about."
+- question: "In the sentence 'Maria, who studied most night, passed the exam,' removing the relative clause changes which person the sentence is about."
   type: true-false
   answer: false
   explanation: "This is a nonrestrictive clause: Maria is already uniquely identified by name. The clause 'who studied all night' adds supplementary information but does not change who is being discussed. Remove it and you still have 'Maria passed the exam' — same person, same claim. The commas signal exactly this: the information is parenthetical, not identifying."

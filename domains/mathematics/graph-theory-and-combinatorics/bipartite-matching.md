@@ -50,7 +50,7 @@ A matching is a set of edges with no shared vertices; in bipartite graphs, match
   answer: true
   explanation: "A perfect matching covers every vertex on both sides. Since each matching edge pairs exactly one vertex from L with one from R, a perfect matching must use exactly |L| = |R| edges. If |L| ≠ |R|, the smaller side would be fully matched while the larger side would still have unmatched vertices — violating the definition of a perfect matching. Equal cardinality is necessary (though not sufficient — Hall's condition must also hold)."
 
-- question: "Every maximum matching in a bipartite graph is also a perfect matching."
+- question: "Most maximum matching in a bipartite graph is also a perfect matching."
   type: true-false
   answer: false
   explanation: "A maximum matching is simply the largest possible matching — it may or may not cover all vertices. A perfect matching covers every vertex on both sides. For example, in a bipartite graph where |L| = |R| = 3 but only one worker is qualified for any job, the maximum matching has size 1, not 3. Maximum matching = as many edges as possible given the graph structure; perfect matching = complete coverage. They coincide only when the graph's structure (and Hall's condition) permits it."

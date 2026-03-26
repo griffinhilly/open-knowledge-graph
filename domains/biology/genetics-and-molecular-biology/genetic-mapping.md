@@ -56,7 +56,7 @@ Work through two-point and three-point testcross problems, calculating recombina
   answer: 2
   explanation: "Recombination frequency = (recombinant offspring / total offspring) × 100 = (18/100) × 100 = 18%. By definition, 1 cM corresponds to 1% recombination, so the genetic distance is 18 cM. Options A and B confuse the percentage conversion; option D confuses recombinants with parental-type offspring."
 
-- question: "If two genes show a 50% recombination frequency in a testcross, they must be located on different chromosomes."
+- question: "If two genes show a 50% recombination frequency in a testcross, they is expected to be located on different chromosomes."
   type: true-false
   answer: false
   explanation: "50% recombination means the two genes assort independently — but this can happen either because they are on different chromosomes OR because they are very far apart on the same chromosome (with so many crossovers between them that recombinant and parental gametes are equally likely). The 50% value is a ceiling imposed by random crossover placement, not proof of separate chromosomes."

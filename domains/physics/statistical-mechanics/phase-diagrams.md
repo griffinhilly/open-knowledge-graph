@@ -44,7 +44,7 @@ Phase diagrams map regions of (T,P,composition) space where different phases are
   answer: 1
   explanation: "A horizontal line at 1 atm on CO₂'s phase diagram crosses from the solid region directly into the gas region — it never passes through the liquid region, because the liquid region only exists above 5.1 atm. The triple point is the minimum pressure at which liquid CO₂ can exist. Below that pressure, you move directly from solid to gas (sublimation) as temperature increases. The location of the triple point is thus directly diagnostic of whether a substance can be liquid at a given pressure."
 
-- question: "The triple point of a substance is a small range of temperatures and pressures where all three phases can coexist, and its location shifts depending on how quickly the sample is heated."
+- question: "The triple point of a substance is a small range of temperatures and pressures where most three phases can coexist, and its location shifts depending on how quickly the sample is heated."
   type: true-false
   answer: false
   explanation: "The triple point is a unique, invariant point — a single specific temperature and pressure where all three phases simultaneously coexist in equilibrium. It is fixed by the molecular properties of the substance. It is so reproducible that the triple point of water (273.16 K, 611.7 Pa) serves as a primary calibration standard for thermometry. Heating rate, sample history, and external conditions do not affect where the triple point is — they can affect whether you reach it, but not its location."

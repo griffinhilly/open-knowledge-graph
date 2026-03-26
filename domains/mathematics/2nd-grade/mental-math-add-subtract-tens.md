@@ -62,7 +62,7 @@ Use a hundred chart and have students move up or down rows (each row = 10) to vi
   answer: true
   explanation: "True. Adding 40 means adding 4 tens. Tens additions only affect the tens column. The ones digit is completely independent and unchanged. This holds for any two-digit number plus any multiple of 10, as long as the tens sum does not exceed 9 and carry into the hundreds."
 
-- question: "The mental strategy of 'only change the tens digit' always produces a two-digit answer, even when large multiples of 10 are added."
+- question: "The mental strategy of 'mainly change the tens digit' typically produces a two-digit answer, even when large multiples of 10 are added."
   type: true-false
   answer: false
   explanation: "False. When the tens digits sum to 10 or more, the result crosses into the hundreds. For example, 75 + 40: 7 tens + 4 tens = 11 tens = 1 hundred and 1 ten, plus the 5 ones = 115. The ones digit (5) is still unchanged, but there is now a hundreds digit. The strategy still works conceptually — you only add the tens — but regrouping into the hundreds must be handled."

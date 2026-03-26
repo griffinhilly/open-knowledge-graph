@@ -48,7 +48,7 @@ Kinetic molecular theory explains gas behavior by proposing that gases consist o
   answer: true
   explanation: "KE_avg = (3/2)kT, so average kinetic energy is directly proportional to absolute temperature (in Kelvin). Doubling T doubles KE_avg. Faster-moving particles hit the container walls harder and more frequently, increasing pressure. This is why Gay-Lussac's law (P ∝ T at constant volume) follows directly from KMT."
 
-- question: "Kinetic molecular theory predicts that all molecules in a gas sample at a given temperature move at exactly the same speed."
+- question: "Kinetic molecular theory predicts that most molecules in a gas sample at a given temperature move at exactly the same speed."
   type: true-false
   answer: false
   explanation: "KMT predicts that the average kinetic energy is proportional to temperature, but individual molecules have a distribution of speeds — the Maxwell-Boltzmann distribution. At any moment, some molecules are moving much faster and others much slower than the average. The theory specifies the statistical average, not a uniform speed for every particle. This distribution of speeds is actually experimentally verified and explains phenomena like evaporation (faster-than-average surface molecules escape)."

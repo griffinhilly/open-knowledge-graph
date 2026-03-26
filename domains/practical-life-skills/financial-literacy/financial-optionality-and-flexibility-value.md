@@ -54,7 +54,7 @@ Financial optionality—the ability to make choices in the future—has real eco
   answer: true
   explanation: "Correct. Liquid reserves, low fixed costs, and portable skills create genuine economic value by expanding the set of available future choices. But this value is invisible on a standard net worth calculation, which only captures assets minus liabilities. A person with high net worth but high fixed costs and no liquidity may have far less real freedom than someone with lower net worth but excellent financial flexibility."
 
-- question: "The financially optimal strategy is always to minimize cash holdings and maximize investment returns, since holding cash is a drag on performance."
+- question: "The financially optimal strategy is generally to minimize cash holdings and maximize investment returns, since holding cash is a drag on performance."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Cash and liquid reserves provide optionality — the right to respond to future opportunities and threats. That right has real value, especially under uncertainty. A portfolio perfectly optimized for returns but with no liquidity may actually destroy value by forcing you to sell assets at the wrong time, take on bad debt, or miss opportunities that require capital. The optimal balance between returns and optionality depends on your circumstances."

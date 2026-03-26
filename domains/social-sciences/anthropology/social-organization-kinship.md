@@ -59,7 +59,7 @@ Trace through the daily social consequences of living in a matrilineal, uxoriloc
   answer: 1
   explanation: "Virilocal (patrilocal) means the wife moves to her husband's family's community. The result is that fathers, sons, and brothers remain together across generations, forming a core of related men. Wives arrive from outside and their kin networks within the community are weak. Daily labor cooperation, inheritance, and mutual care flow along the lines of male kinship. This is the opposite of uxorilocal (matrilocal) systems, where related women form the stable core."
 
-- question: "The nuclear family — a married couple and their dependent children — is a biological universal that functions as the primary social unit in all known human societies."
+- question: "The nuclear family — a married couple and their dependent children — is a biological universal that functions as the primary social unit in most known human societies."
   type: true-false
   answer: false
   explanation: "The nuclear family as *the* primary social unit is a historically recent and culturally specific arrangement, associated with industrial modernity and Euro-American norms. In many societies, the lineage, clan, or extended family is the primary unit of property, obligation, and identity. Individual nuclear families may exist within larger kin structures, but they are not the organizing units of social, economic, or political life. Assuming the nuclear family is universal is one of the most common ethnocentric errors in cross-cultural analysis."

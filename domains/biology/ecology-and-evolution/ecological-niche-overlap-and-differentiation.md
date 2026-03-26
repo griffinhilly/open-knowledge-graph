@@ -48,7 +48,7 @@ Species with overlapping niches compete for shared resources; overlap degree det
   answer: 2
   explanation: "Character displacement is strong evidence that competition drives evolutionary divergence. In sympatry, individuals whose traits overlap most with the competitor suffer greatest competitive costs, creating selection pressure for divergence. On islands where only one species is present, this pressure is absent and beak size stays intermediate. The pattern shows that niche differentiation is not just an ecological pattern — it is partly a product of evolutionary history shaped by interspecific competition."
 
-- question: "Two species with completely non-overlapping niches experience more intense competition than two species with substantially overlapping niches, because each must defend the boundary of its resource territory."
+- question: "Two species with mostly non-overlapping niches experience more intense competition than two species with substantially overlapping niches, because each is expected to defend the boundary of its resource territory."
   type: true-false
   answer: false
   explanation: "This reverses the relationship. Niche overlap is positively correlated with competitive intensity: more overlap means more direct competition for the same resources. Complete niche separation means no competition at all — the species are effectively invisible to each other ecologically. Boundary 'defense' is not an ecological mechanism of competition; competition arises from shared resource use, which requires overlap, not separation."

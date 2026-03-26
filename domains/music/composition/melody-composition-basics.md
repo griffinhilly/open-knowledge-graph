@@ -61,7 +61,7 @@ Melodies must be technically complex or virtuosic to be effective; the most memo
   answer: true
   explanation: "Placing the climax around two-thirds through the phrase allows tension to build through ascending motion beforehand, and then lets the melody settle downward toward a point of rest afterward. An early climax front-loads the tension with nowhere to go; a late climax doesn't allow time for resolution. The two-thirds placement is a cross-cultural convention found in a wide range of melodic traditions."
 
-- question: "To make a melody easier to sing, a composer should eliminate all large leaps and write entirely in stepwise motion."
+- question: "To make a melody easier to sing, a composer should eliminate most large leaps and write largely in stepwise motion."
   type: true-false
   answer: false
   explanation: "Stepwise motion is the default fabric of good melody writing, but well-placed leaps are expressive and necessary. A melody of pure steps can wander without direction or energy. The key is strategic placement: use leaps at moments needing emphasis or surprise, then follow them with stepwise motion in the opposite direction. Avoiding all leaps would produce melodies that, paradoxically, can feel harder to engage with and less memorable."

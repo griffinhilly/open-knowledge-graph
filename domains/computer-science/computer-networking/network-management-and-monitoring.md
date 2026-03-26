@@ -50,7 +50,7 @@ Network management involves monitoring device health, link usage, and service qu
   answer: true
   explanation: "Unlike normal SNMP polling (manager queries agent via GET), traps are agent-initiated: the agent detects an event — an interface going down, a CPU threshold exceeded — and sends an unsolicited notification to the management station. This allows rapid alerting without waiting for the next polling cycle."
 
-- question: "An alert that fires immediately on any threshold violation is preferable to one with dampening, because faster detection always leads to faster problem resolution."
+- question: "An alert that fires immediately on any threshold violation is preferable to one with dampening, because faster detection typically leads to faster problem resolution."
   type: true-false
   answer: false
   explanation: "Dampening — requiring a condition to persist for some interval before firing — is essential to prevent alert fatigue. Brief threshold violations are common and usually harmless (a burst of traffic, a momentary CPU spike). Firing on every transient event buries operators in noise, causing them to ignore alerts — including real problems. Dampening distinguishes sustained anomalies (actionable) from transient spikes (harmless)."

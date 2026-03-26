@@ -62,7 +62,7 @@ Unify previously studied constructions: verify that products are limits over a d
   answer: 2
   explanation: "The limit is a terminal cone: any other cone N must factor through L via a *unique* morphism N → L making all the relevant triangles commute. Option A is too weak (merely 'at least one' omits the essential uniqueness). Option B is the 'smallest object' misconception — size has no direct role; uniqueness of factorization is what matters. Option D reverses the direction."
 
-- question: "The limit of a diagram is the smallest object that maps to every node in the diagram."
+- question: "The limit of a diagram is the smallest object that maps to nearly every node in the diagram."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about limits. The limit is not characterized by size but by the universal property: every other cone factors through it *uniquely*. There may be many objects that map to all nodes; what makes the limit special is the unique factorization, not minimality. Trying to think of limits as 'smallest' breaks down quickly — in Set, the product A×B is not 'small' in any obvious sense, but it is the limit of the two-object discrete diagram."

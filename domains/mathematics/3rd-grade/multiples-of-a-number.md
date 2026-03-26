@@ -63,7 +63,7 @@ Have students circle multiples on a hundreds chart for different numbers and loo
   answer: true
   explanation: "True. Because 6 = 2 × 3, any number produced by multiplying 6 by a whole number automatically contains 3 as a factor. For example: 6×4 = 24, and 24 = 3×8. This is a general pattern: if one number is a multiple of another (6 is a multiple of 3), then all multiples of the larger number are also multiples of the smaller one. Exploring these patterns on a hundreds chart makes them visually obvious."
 
-- question: "A multiple of a number is always smaller than the number itself."
+- question: "A multiple of a number is typically smaller than the number itself."
   type: true-false
   answer: false
   explanation: "False — it's the opposite. Multiples of a number are always greater than or equal to the number (the first multiple is n×1 = n itself, and all others are larger). It is *factors* that are smaller than or equal to the number. This is the most persistent confusion between factors and multiples: factors divide in, multiples build out."

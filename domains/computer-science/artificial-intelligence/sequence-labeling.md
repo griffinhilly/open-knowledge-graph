@@ -49,7 +49,7 @@ Sequence labeling assigns labels to each element in a sequence (part-of-speech t
   answer: true
   explanation: "The Viterbi algorithm is a dynamic programming approach that efficiently finds the most probable path through a sequence of states or labels — it applies to any model where the score of a label sequence decomposes into local scores at each position and at each adjacent pair. Both HMMs and linear-chain CRFs have this factorization structure, so Viterbi works for both. The partition function (for training) is computed with the forward algorithm in both cases. The algorithms are shared; the difference is what is being computed — joint probability in HMMs, conditional probability in CRFs."
 
-- question: "A CRF's main advantage over an HMM is that it captures label-to-label dependencies that HMMs fundamentally cannot model."
+- question: "A CRF's main advantage over an HMM is that it captures label-to-label dependencies that HMMs fundamentally can rarely model."
   type: true-false
   answer: false
   explanation: "HMMs do model label dependencies — they are the core of the HMM design, encoded as transition probabilities P(tag_t | tag_{t-1}). The CRF's actual advantage is discriminative modeling: it directly models P(labels|observations) without requiring a generative story for how observations arise. This allows arbitrary feature functions on the input, such as 'does the current word end in -tion?' or 'is the next word capitalized?' — features that would be awkward or impossible for an HMM to use without expanding its state space enormously."

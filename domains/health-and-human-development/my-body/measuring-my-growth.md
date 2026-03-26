@@ -42,7 +42,7 @@ Children often focus on a single number (their height or weight) and compare it 
   answer: 1
   explanation: "Doctors look at the pattern of growth over time, not a single measurement. They want to see that you are growing steadily — following a consistent curve on the chart. A child can be shorter than average and still be perfectly healthy if they are growing at a steady rate. It is a sudden change in the pattern, not the number itself, that tells the doctor to look more closely."
 
-- question: "Gaining weight as a child is always a bad sign."
+- question: "Gaining weight as a child is generally a bad sign."
   type: true-false
   answer: false
   explanation: "Gaining weight is a normal and important part of growing up. As you get taller, your bones get bigger, your muscles grow, and your organs develop — all of which add weight. Children are supposed to gain weight as they grow. Doctors only look into it further if the pattern of weight gain changes suddenly or is out of proportion with height."

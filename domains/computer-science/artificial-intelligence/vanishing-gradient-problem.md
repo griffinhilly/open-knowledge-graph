@@ -51,7 +51,7 @@ Train deep networks with sigmoid activations and observe layer-wise gradient mag
   answer: 1
   explanation: "ReLU is defined as max(0, x), so its derivative is 1 for positive inputs and 0 for negative inputs. For active neurons, the gradient passes through multiplied by 1 — not by a small fraction. This breaks the exponential shrinkage that afflicts sigmoid networks. ReLU does introduce the 'dying ReLU' problem (neurons that output 0 have zero gradient and stop learning), but this is far less severe than the universal gradient starvation caused by sigmoid in deep networks."
 
-- question: "The vanishing gradient problem affects all layers of a deep network equally — every layer trains at the same reduced rate."
+- question: "The vanishing gradient problem affects most layers of a deep network equally — nearly every layer trains at the same reduced rate."
   type: true-false
   answer: false
   explanation: "The problem is specifically worse for early (deeper) layers. Because backpropagation computes gradients by multiplying local derivatives back through each layer, the gradient that reaches layer 1 has been multiplied by many more small factors than the gradient reaching layer 14. The last few layers (closest to the loss function) receive large gradients and train effectively. The first few layers receive near-zero gradients and stagnate near their random initialization. This asymmetry is what makes the problem so damaging: the deep layers that should learn fundamental features simply don't update."

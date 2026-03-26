@@ -53,7 +53,7 @@ Estimate regressions on social science datasets, create visualizations of relati
   answer: 1
   explanation: "Statistical significance tells you the association is unlikely to be due to chance in the sample, not that education causes higher income. Causation requires ruling out confounders and ideally experimental or quasi-experimental designs. Options A, C, and D each reflect common over-interpretations of OLS output."
 
-- question: "A regression model with R² = 0.85 is always preferable to one with R² = 0.45 for making causal inferences in social science."
+- question: "A regression model with R² = 0.85 is generally preferable to one with R² = 0.45 for making causal inferences in social science."
   type: true-false
   answer: false
   explanation: "R² measures how much variance the model explains, not whether the model is correctly specified or whether coefficients have causal interpretations. Adding irrelevant variables always increases R², and a model with many controls can have high R² while introducing collider bias or multicollinearity that undermines inference."

@@ -33,7 +33,7 @@ Equal groups are sets containing the same number of objects. Recognizing and cou
   answer: 1
   explanation: "Equal groups means every group contains the same number. Four plates each with 2 cookies is equal because each plate has exactly 2. The other options have groups with different amounts, so they are unequal."
 
-- question: "If you count how many groups there are, that tells you the total number of objects in all the groups."
+- question: "If you count how many groups there are, that tells you the total number of objects in most of the groups."
   type: true-false
   answer: false
   explanation: "Counting the number of groups only tells you how many groups exist, not how many objects are inside them. To find the total, you must count — or add — the objects across all groups. For example, 4 groups of 3 gives 3 + 3 + 3 + 3 = 12, not 4."

@@ -58,7 +58,7 @@ Liberal democracy is not simply majority rule plus individual rights—it requir
   answer: true
   explanation: "True — this is the logic of constitutional liberalism. At a founding moment of reasoned deliberation, the polity agrees to protect certain rights by constitutionalizing them, making them difficult or impossible to override by future majorities. The constitution is a pre-commitment: today's citizens bind tomorrow's majorities. This explains why constitutional amendments require supermajorities or special procedures — the higher bar reflects the foundational status of constitutional rights."
 
-- question: "Liberalism and democracy are complementary principles that never genuinely conflict in a well-designed liberal democracy."
+- question: "Liberalism and democracy are complementary principles that seldom genuinely conflict in a well-designed liberal democracy."
   type: true-false
   answer: false
   explanation: "False — the tension is structural, not contingent. Democracy authorizes majority rule; liberalism constrains what majorities may do. A religiously homogeneous majority voting to restrict minority worship is exercising democratic will while violating liberal rights. Constitutional constraints, separation of powers, and judicial review exist precisely *because* this conflict is real and recurring. Calling liberal democracy 'stable' means managing the tension through institutional design, not eliminating it."

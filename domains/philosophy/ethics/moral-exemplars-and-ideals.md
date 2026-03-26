@@ -47,7 +47,7 @@ Virtue ethics often appeals to exemplars—people of excellent character—as mo
   answer: 1
   explanation: "The explainer defines Zagzebski's taxonomy: heroes perform extraordinary acts under duress (illuminating courage and fortitude in crisis); saints are motivated by pure benevolence or devotion (illuminating moral motivation); sages embody wisdom and understanding of how to live well (illuminating phronesis). These are analytical distinctions about what aspect of moral excellence each type makes visible — not descriptions of personality or publicity. The hero shows us what virtue looks like under extreme pressure; the sage shows us what integrated practical wisdom looks like across a whole life."
 
-- question: "For a person to serve as a moral exemplar in the philosophically relevant sense, they must have lived in ideal circumstances free from serious moral difficulty or ambiguity."
+- question: "For a person to serve as a moral exemplar in the philosophically relevant sense, they should have lived in ideal circumstances free from serious moral difficulty or ambiguity."
   type: true-false
   answer: false
   explanation: "The explainer says the opposite: 'part of what makes historical exemplars instructive is that their virtue was developed under conditions of real difficulty and moral ambiguity, not in ideal circumstances.' A person who is virtuous only when everything goes right shows nothing philosophically useful about virtue. It is precisely the exemplar's navigation of hard cases — conflicting obligations, incomplete information, real sacrifice — that reveals what virtue looks like when it matters most. Ideal circumstances don't test virtue; difficulty reveals it."

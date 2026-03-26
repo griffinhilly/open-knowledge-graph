@@ -66,7 +66,7 @@ Read or watch Act One of Waiting for Godot with the question: what dramatic conv
   answer: true
   explanation: "This is the central claim of Camus's absurdism applied to drama. Aristotle defined catharsis as the purgation and clarification of emotion through structured dramatic action — organized pity and fear discharged in a meaningful resolution. Absurdist theatre systematically denies this: there is no resolution, so no discharge; no meaningful sequence, so no organizing emotional structure; no clarification, only deepening confusion. The anxiety persists past the final curtain. This is intentional — the form makes the philosophical claim visceral rather than intellectual. To experience the denial of catharsis IS to experience the absurdist condition."
 
-- question: "The term 'Theatre of the Absurd' refers primarily to plays that are random, illogical, and anarchically anti-theatrical, rejecting all craft and convention."
+- question: "The term 'Theatre of the Absurd' refers primarily to plays that are random, illogical, and anarchically anti-theatrical, rejecting most craft and convention."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about absurdism, which conflates 'absurd' (philosophical term for the confrontation between human meaning-hunger and cosmic silence) with 'silly,' 'random,' or 'incoherent.' Absurdist theatre is highly crafted: it precisely deploys theatrical conventions in order to deform or negate them. The circular repetition in Ionesco, the degradation of language in Beckett, the non-arrival of Godot — these are deliberate formal choices, not failures of craft. The 'violations' of theatrical convention are as controlled and purposeful as Chekhov's realistic stage directions."

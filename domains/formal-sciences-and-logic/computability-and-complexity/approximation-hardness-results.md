@@ -46,7 +46,7 @@ For NP-hard optimization problems, approximation algorithms find near-optimal so
   answer: 1
   explanation: "A PTAS guarantees that for any desired accuracy ε, you can get within (1+ε) of optimal in polynomial time — but 'polynomial' can mean O(n^{1/ε}) or worse, so the algorithm may be impractical for very small ε. The PTAS represents a strong approximability result: it says the problem can be solved arbitrarily accurately (though not exactly) in polynomial time. This is much stronger than a constant-factor approximation and distinguishes PTAS problems (like Euclidean TSP) from those that resist constant-factor approximation."
 
-- question: "Because all NP-hard optimization problems are equally hard to solve exactly, they are also equally hard to approximate."
+- question: "Because most NP-hard optimization problems are equally hard to solve exactly, they are also equally hard to approximate."
   type: true-false
   answer: false
   explanation: "NP-hardness is a binary property (hard or not), but approximability is a continuous landscape with fine structure. Many NP-hard problems — like Vertex Cover — admit constant-factor approximation algorithms (2-approximation). Some admit a PTAS (arbitrarily good approximation in polynomial time). Others, like the clique problem, resist any constant-factor approximation unless P = NP. Hardness of approximation reveals this rich hierarchy, showing that NP-hard problems differ drastically in how well they can be approximated."

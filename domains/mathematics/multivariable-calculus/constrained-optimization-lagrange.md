@@ -32,7 +32,7 @@ To optimize f(x, y) subject to constraint g(x, y) = 0, solve ∇f = λ∇g at ex
   answer: 0
   explanation: "The gradient of f(x, y) = xy is (∂f/∂x, ∂f/∂y) = (y, x). The gradient of g(x, y) = x + y - 10 is (∂g/∂x, ∂g/∂y) = (1, 1). Setting ∇f = λ∇g gives the system y = λ and x = λ, meaning x = y. Combined with the constraint x + y = 10, you get x = y = 5 and a maximum of f = 25."
 
-- question: "If ∇f = λ∇g yields a unique solution point, that point is guaranteed to be the global maximum of f subject to g(x, y) = 0."
+- question: "If ∇f = λ∇g yields a unique solution point, that point is expected to be the global maximum of f subject to g(x, y) = 0."
   type: true-false
   answer: false
   explanation: "Lagrange's condition ∇f = λ∇g identifies candidates for extrema — points where the constraint curve is tangent to a level curve of f. A unique solution could be a maximum, a minimum, or (in degenerate cases) neither. To determine which, you must evaluate f at all candidate points and compare values, or use second-order conditions. On a compact (closed and bounded) constraint, the maximum and minimum both exist, so the highest and lowest values among candidates are indeed the extrema — but you cannot know which is which without comparing."

@@ -48,7 +48,7 @@ Crystals are periodic 3D arrangements of atoms in space, classified into seven c
   answer: 1
   explanation: "The description precisely defines BCC: corner atoms (shared among 8 unit cells, contributing 8 × 1/8 = 1 effective atom) plus one atom at the body center (entirely inside the unit cell) = 2 atoms per unit cell. FCC has atoms at corners plus one atom at the center of each of the 6 faces (6 × 1/2 = 3 effective face-center atoms, plus 1 corner = 4 atoms per unit cell). The body-center atom is at coordinates (1/2, 1/2, 1/2) — equidistant from all corners. Common BCC metals include iron (at room temperature), tungsten, and chromium."
 
-- question: "Placing additional lattice points at body centers or face centers within a unit cell is a geometric option available only to the cubic crystal system."
+- question: "Placing additional lattice points at body centers or face centers within a unit cell is a geometric option available primarily to the cubic crystal system."
   type: true-false
   answer: false
   explanation: "Body-centering and face-centering are available in multiple crystal systems, giving rise to the 14 Bravais lattices across 7 crystal systems. For example, body-centered tetragonal (BCT) is a distinct Bravais lattice used by martensite in steel. Face-centered orthorhombic and body-centered orthorhombic also exist. The 14 Bravais lattices are the exhaustive classification of all possible periodic 3D lattice types consistent with crystallographic symmetry — most crystal systems have 2–4 Bravais variants, not just a simple primitive cell."

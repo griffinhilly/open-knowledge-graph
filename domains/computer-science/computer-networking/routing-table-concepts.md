@@ -46,7 +46,7 @@ A routing table maps destination addresses to outgoing interfaces and next-hop a
   answer: 1
   explanation: "0.0.0.0/0 has the shortest possible prefix (zero bits must match), so it matches every possible destination address. But because longest-prefix match always selects the most specific entry, the default route loses to any more specific entry and is only used as a last resort when no other match exists. This is the opposite of how students often imagine it: longer (more specific) prefixes always win, so the very shortest prefix always loses in competition."
 
-- question: "A router always selects the route with the lowest metric when multiple entries match a destination address."
+- question: "A router generally selects the route with the lowest metric when multiple entries match a destination address."
   type: true-false
   answer: false
   explanation: "False — the primary selection criterion is prefix length (specificity), not metric. The router first applies longest-prefix match: among all entries whose network address and mask match the destination, it selects the one with the most bits matching. Metrics are only consulted to break ties among routes with equal prefix lengths from different sources. A route with a higher metric but a longer prefix will always win over a shorter-prefix route with a lower metric."

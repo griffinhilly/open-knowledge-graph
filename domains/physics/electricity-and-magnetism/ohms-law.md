@@ -60,7 +60,7 @@ Verify Ohm's law experimentally (or through simulation) by plotting V vs. I for 
   answer: false
   explanation: "This reverses the causal direction. Voltage (potential difference, maintained by a power supply or battery) drives current through the resistance. Writing R = V/I is a definition used to measure resistance from applied voltage and resulting current — not a causal statement that current causes voltage. For a fixed ohmic resistor, the ratio V/I equals R, but voltage is the cause and current is the effect. You set the voltage; the current follows from it and the resistance."
 
-- question: "Ohm's law is a fundamental law of physics, like conservation of energy, and applies to all electrical conductors."
+- question: "Ohm's law is a fundamental law of physics, like conservation of energy, and applies to most electrical conductors."
   type: true-false
   answer: false
   explanation: "Ohm's law is an empirical relationship — it describes the behavior of certain materials (metals, carbon resistors) under certain conditions, not a universal physical law. Semiconductors, diodes, transistors, electrolytes, and plasmas do not obey V = IR. Even for ohmic materials, the relationship is approximate: resistance depends on temperature, so extreme conditions can cause nonlinearity. The distinction matters because assuming universal applicability leads to incorrect analysis of real-world non-ohmic devices — which include nearly all the components that make modern electronics functional."

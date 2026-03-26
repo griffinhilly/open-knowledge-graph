@@ -34,7 +34,7 @@ Multivariable regression simultaneously models associations between an outcome a
   answer: 1
   explanation: "Logistic regression models the log odds of the outcome. Coefficients are on the log-odds scale, so the coefficient of 0.69 is the natural log of the odds ratio. Exponentiating gives e^0.69 ≈ 2.0 — the adjusted odds ratio. Logistic regression does not directly yield risk differences or relative risks (though marginal methods can approximate them)."
 
-- question: "Adding more covariates to a multivariable regression model always improves confounding control and should be done whenever additional variables are available."
+- question: "Adding more covariates to a multivariable regression model usually improves confounding control and should be done whenever additional variables are available."
   type: true-false
   answer: false
   explanation: "This is a common and consequential misconception. Including colliders (variables causally downstream of both exposure and outcome) opens backdoor paths and introduces bias. Adjusting for mediators blocks the causal pathway of interest, underestimating the total effect. Including many variables with sparse data causes overfitting and inflated standard errors. Model specification must be guided by a causal DAG or explicit epidemiologic reasoning, not by statistical availability."

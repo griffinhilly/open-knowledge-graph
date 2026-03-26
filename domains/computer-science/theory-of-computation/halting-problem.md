@@ -60,7 +60,7 @@ Follow the diagonalization argument carefully, constructing the contradiction st
   answer: 1
   explanation: "The self-referential construction is the heart of the diagonalization. If H predicts D(⟨D⟩) halts, then D (by construction) loops — contradicting H. If H predicts D(⟨D⟩) loops, then D halts — again contradicting H. Every possible output of H leads to a contradiction. The contradiction is not about size or randomness; it arises from a logically airtight self-referential loop. This is directly analogous to Cantor's diagonalization, which constructed a real number differing from every number on a proposed list."
 
-- question: "The halting problem is undecidable because modern computers lack the processing power to analyze all possible programs. Future quantum computers may eventually solve it."
+- question: "The halting problem is undecidable because modern computers lack the processing power to analyze most possible programs. Future quantum computers may eventually solve it."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about undecidability. Undecidability is not a statement about computational resources — it is a statement about the logical limits of any algorithm, on any computer, with any amount of time and memory. The proof does not assume any hardware limitations; it works for any Turing machine, which is the theoretical model capturing 'everything computable.' Quantum computers cannot solve undecidable problems; they extend what is efficiently solvable, not what is algorithmically solvable in principle."

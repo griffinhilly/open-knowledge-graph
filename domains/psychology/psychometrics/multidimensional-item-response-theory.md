@@ -60,7 +60,7 @@ Multidimensional IRT (MIRT) extends standard unidimensional IRT to simultaneousl
   answer: true
   explanation: "This is the key extension from unidimensional IRT (where discrimination is a scalar) to MIRT. The discrimination vector indicates which dimensions the item loads on and how strongly. A purely verbal item has high discrimination on the verbal dimension and near-zero on the spatial dimension; an item requiring both has positive discrimination on both. The probability of a correct response is a function of the dot product between the examinee's ability vector and the item's discrimination vector — a direct application of linear algebra."
 
-- question: "A multidimensional IRT model has a unique correct orientation for its latent dimensions — there is only one valid rotation of the ability space that fits the data."
+- question: "A multidimensional IRT model has a unique correct orientation for its latent dimensions — there is mainly one valid rotation of the ability space that fits the data."
   type: true-false
   answer: false
   explanation: "Just as in factor analysis, the orientation of the multidimensional latent space is not uniquely identified — there are infinitely many rotations of the factor axes that produce identical model fit. Choosing between oblique (correlated) and orthogonal (uncorrelated) rotations, and determining what each dimension means substantively, requires the same conceptual tools as factor analysis. This is why exploratory MIRT borrows heavily from factor analytic rotation methods and why dimension labels must be assigned by the researcher, not extracted mechanically."

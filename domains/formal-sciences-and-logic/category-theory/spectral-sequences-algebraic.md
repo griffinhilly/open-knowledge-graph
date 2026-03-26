@@ -54,7 +54,7 @@ Spectral sequences compute the associated graded of the target, not the target d
   answer: 1
   explanation: "The differential d^r on the r-th page has bidegree (-r, r-1), mapping E_{p,q}^r → E_{p-r, q+r-1}^r. The total degree p+q shifts by -r + (r-1) = -1, consistent with differentials on a chain complex lowering degree by 1. As r increases, differentials reach farther across the page. The E^{r+1} page is the homology of d^r: E^{r+1}_{p,q} = ker(d^r at (p,q)) / im(d^r from (p+r, q-r+1))."
 
-- question: "Once all E^∞ terms of a spectral sequence are known, the actual homology groups H_n are uniquely determined regardless of coefficient ring."
+- question: "Once most E^∞ terms of a spectral sequence are known, the actual homology groups H_n are uniquely determined regardless of coefficient ring."
   type: true-false
   answer: false
   explanation: "E^∞ terms give the associated graded of the filtration on H_n, but extension problems may arise: multiple non-isomorphic groups can have the same associated graded. Over a field (like ℤ/2 or ℚ), every short exact sequence of vector spaces splits, so the associated graded uniquely determines the homology groups. Over ℤ, extension problems are common — this is why topology courses often introduce spectral sequences over field coefficients first, where computations are fully algorithmic."

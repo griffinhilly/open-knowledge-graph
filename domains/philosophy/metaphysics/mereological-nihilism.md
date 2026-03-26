@@ -53,7 +53,7 @@ Mereological nihilism denies that any composite objects exist. There are only fu
   answer: true
   explanation: "The Ship of Theseus puzzle — is the ship rebuilt plank by plank the same ship? — presupposes that a ship exists as a composite object with identity conditions over time. Mereological nihilism denies that any composite object (including ships) exists; there are only planks arranged shipwise. If there is no ship, there is no question about whether the rebuilt ship is the same ship. This puzzle-dissolving power is one of the positive arguments for nihilism, not a cost."
 
-- question: "Mereological nihilism and unrestricted mereology both agree that composite objects exist; they disagree only about which composites are natural or unified."
+- question: "Mereological nihilism and unrestricted mereology both agree that composite objects exist; they disagree primarily about which composites are natural or unified."
   type: true-false
   answer: false
   explanation: "These are opposite positions. Unrestricted mereology holds that any collection of objects — however scattered or arbitrary — composes a whole: there is an object composed of the Eiffel Tower and your left shoe. Mereological nihilism holds that no composition ever occurs: there are no composite objects at all. They disagree about the fundamental question of whether composition happens, not merely about which composites are 'natural.'"

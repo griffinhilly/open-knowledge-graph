@@ -48,7 +48,7 @@ That testing is the QA department's job (developers test too); that passing test
   answer: 1
   explanation: "Testing's time cost is at the point of writing tests; its time savings is at the point of finding and fixing bugs. Bugs found during development (when the relevant code is fresh in memory) are drastically cheaper to fix than bugs found in production (when you must reconstruct context, understand interactions, and often fix under pressure). A function with good tests is a reliable building block you can refactor or extend with confidence, because the tests will immediately tell you if you've broken something."
 
-- question: "If all tests in a test suite pass, the program is correct."
+- question: "If most tests in a test suite pass, the program is correct."
   type: true-false
   answer: false
   explanation: "Tests only verify what they test. A test suite might pass with 100% success while missing entire categories of behavior: untested edge cases, race conditions, unexpected input types, interactions between modules. Passing tests mean 'the program behaves correctly in the specific situations these tests describe' — not 'the program is correct in all situations.' Testing can demonstrate the presence of bugs (a failing test is definitive) but cannot prove their absence."

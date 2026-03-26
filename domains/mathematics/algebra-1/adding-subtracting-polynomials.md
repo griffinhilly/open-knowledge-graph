@@ -52,7 +52,7 @@ Use vertical alignment (stacking polynomials with like terms in columns) as a vi
   answer: 1
   explanation: "Only like terms — same variable AND same exponent — can be combined. 2x and x both have variable x to the first power, so they combine: 2x + x = 3x. The terms 5x³ and 3x² cannot be combined because their exponents differ (3 vs. 2): they belong to different 'species.' Exponents are labels that identify the species, not numbers to add. The result is 5x³ + 3x² + 3x — four terms become three because only one pair of like terms existed."
 
-- question: "When subtracting one polynomial from another, you only need to change the sign of the first term of the polynomial being subtracted."
+- question: "When subtracting one polynomial from another, you mainly need to change the sign of the first term of the polynomial being subtracted."
   type: true-false
   answer: false
   explanation: "This is the most common error in polynomial subtraction. The subtraction sign applies to the entire polynomial — every term within it — because the expression A − (B + C + D) must be rewritten as A + (−B) + (−C) + (−D). Changing only the first term's sign leaves the remaining terms with incorrect signs, producing a wrong answer. Every term inside the parentheses must be negated before combining like terms."

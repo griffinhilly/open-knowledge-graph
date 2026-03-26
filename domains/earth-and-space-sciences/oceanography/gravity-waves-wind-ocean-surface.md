@@ -50,7 +50,7 @@ Surface ocean waves are gravity-driven waves where gravity provides the restorin
   answer: true
   explanation: "Wave-induced orbital motion decreases exponentially with depth. At a depth of roughly half the wavelength (L/2), particle displacement is less than 4% of what it is at the surface — effectively negligible. This defines the deep-water limit: waves whose wavelength is short relative to water depth 'feel' no bottom and travel according to deep-water wave theory. When depth decreases below L/2, the wave begins to interact with the seafloor, slowing, steepening, and eventually breaking."
 
-- question: "Larger ocean waves always travel faster than smaller ones."
+- question: "Larger ocean waves generally travel faster than smaller ones."
   type: true-false
   answer: false
   explanation: "In deep water, wave speed depends on wavelength (or equivalently, period) — not on wave height. A long-period swell of modest height travels faster than a high-amplitude short-period wave. This is dispersion: c = √(gλ/2π) for deep-water gravity waves, where λ is wavelength and g is gravitational acceleration. Wave height does not appear in this relationship. This is why swell from a distant storm sorts by period, not by how big the waves were."

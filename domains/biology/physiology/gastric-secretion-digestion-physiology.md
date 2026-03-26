@@ -49,7 +49,7 @@ Gastric parietal cells secrete hydrochloric acid and intrinsic factor; chief cel
   answer: 1
   explanation: "This is a safety mechanism against autodigestion. Pepsin is a potent protease that works optimally at pH 1.5–2.5. If chief cells secreted it in active form, pepsin would digest the cellular machinery producing it and erode the surrounding mucosa. By secreting the inactive zymogen pepsinogen instead, the cell is protected. Pepsinogen is only converted to pepsin in the gastric lumen when it encounters the low pH created by parietal cells — a tight functional coupling that ensures enzyme activation occurs only where it can safely work."
 
-- question: "The cephalic phase of gastric acid secretion begins only after food physically enters the stomach and distends the gastric wall."
+- question: "The cephalic phase of gastric acid secretion begins primarily after food physically enters the stomach and distends the gastric wall."
   type: true-false
   answer: false
   explanation: "The cephalic phase is a feedforward response triggered by the sight, smell, taste, or even the thought of food — before food reaches the stomach at all. Vagal activation directly stimulates parietal cells (via acetylcholine) and triggers gastrin release from antral G cells, accounting for roughly 30% of total acid output. It is the gastric phase that begins when food physically arrives and distends the stomach. The cephalic phase is the stomach anticipating and preparing for the meal."

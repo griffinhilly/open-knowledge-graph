@@ -72,7 +72,7 @@ Identify potential attachment sites for modifying phrases. Rewrite ambiguous sen
   answer: 1
   explanation: "This is a scope-of-modification ambiguity. 'Old' can take narrow scope (modifying only 'men,' leaving 'women' unspecified for age) or wide scope (modifying the entire conjoined phrase 'men and women'). The word 'old' itself is unambiguous — the ambiguity is structural. Option D is wrong: the late-closure heuristic is a processing preference, not a rule, and context or world knowledge can override it. Punctuation or restructuring ('old men and old women' vs. 'old men, and women') would resolve the ambiguity."
 
-- question: "Syntactic ambiguity is always caused by words that have multiple meanings, so it can be resolved by replacing ambiguous words with more precise synonyms."
+- question: "Syntactic ambiguity is generally caused by words that have multiple meanings, so it can be resolved by replacing ambiguous words with more precise synonyms."
   type: true-false
   answer: false
   explanation: "Syntactic ambiguity arises from structural attachment — a phrase can attach to more than one location in the sentence tree — not from word-level meaning. In 'I saw the man with the telescope,' every word is unambiguous: 'telescope' means telescope, 'man' means man, 'saw' means saw. The ambiguity is purely structural (did I use the telescope, or did he have it?). Replacing words doesn't fix this; only reorganizing the sentence structure — placing modifiers adjacent to their intended heads — eliminates structural ambiguity."

@@ -53,7 +53,7 @@ Clinical assessment involves systematic evaluation of presenting problems, sympt
   answer: true
   explanation: "Reliability and validity are logically independent. A test is reliable if it produces consistent results; it is valid if it measures what it purports to measure. A scale that consistently measures neuroticism when it claims to measure depression is highly reliable but invalid for its stated purpose. Reliability is a necessary but not sufficient condition for validity — you cannot have a valid test without some reliability, but you can absolutely have a reliable test that is invalid."
 
-- question: "Once a DSM-5 diagnosis is established through a thorough initial assessment, it should be treated as a stable fact and used to guide all subsequent treatment decisions."
+- question: "Once a DSM-5 diagnosis is established through a thorough initial assessment, it should be treated as a stable fact and used to guide most subsequent treatment decisions."
   type: true-false
   answer: false
   explanation: "A clinical diagnosis is best understood as a working hypothesis — useful for communication, treatment selection, and research linkage, but always provisional. The Explainer explicitly calls diagnosis 'a hypothesis, not a fact' that 'should be held tentatively and updated as the clinical relationship develops.' Premature closure — failing to revise a diagnosis as new information emerges — is a recognized clinical error. Presentations change, comorbidities become apparent, initial diagnoses prove incorrect, and differential diagnoses shift. Treating a diagnosis as settled fact rather than as a hypothesis risks anchoring bias and suboptimal treatment."

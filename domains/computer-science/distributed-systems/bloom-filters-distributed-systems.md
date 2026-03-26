@@ -52,7 +52,7 @@ Implement a simple Bloom filter (bit array + hash functions). Observe false posi
   answer: 1
   explanation: "This is precisely how Bloom filters are used in anti-entropy protocols. 'NOT IN SET' results (the ~9,850 keys) are guaranteed correct — those keys are definitely absent from Node A and must be sent for synchronization. 'IN SET' results (the 150 keys) are probably present on Node A but could include false positives — keys that happen to hash to all-set bits. Those false positives will trigger unnecessary data transfer (sending data A already has), but that is a small, tolerable cost. The critical efficiency gain is that Node B avoids sending thousands of keys it knows Node A already has, based on the reliable 'NOT IN SET' guarantees."
 
-- question: "A Bloom filter can definitively confirm that an element IS in the set — if all k hash positions return 1, the element was definitely added."
+- question: "A Bloom filter can definitively confirm that an element IS in the set — if most k hash positions return 1, the element was definitely added."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about Bloom filters. A positive result ('all k bits are set') only means the element is *probably* in the set — it cannot be confirmed definitively. Those k bits could have been set by the insertions of other elements; this is a false positive. The only definitive answer a Bloom filter can give is a *negative* one: if any bit is 0, the element was definitely never added. The positive direction is always probabilistic, and the false positive rate is determined by the filter's parameters (bit array size m, number of hash functions k, and number of inserted elements n)."

@@ -69,7 +69,7 @@ Read translated postcolonial authors alongside critical essays about their trans
   answer: true
   explanation: "Retaining untranslatable terms is a deliberate strategy, not a failure. It forces the target language to acknowledge that it cannot contain everything — refusing the colonial assumption that all meaning can be fully rendered in the dominant language. The 'failure' to translate is a political act: it preserves the foreignness of the source and signals that the reader must meet the text, not the other way around."
 
-- question: "When an author translates their own work (self-translation), the two versions are always identical in meaning, differing only in language."
+- question: "When an author translates their own work (self-translation), the two versions are typically identical in meaning, differing mainly in language."
   type: true-false
   answer: false
   explanation: "Self-translators typically make strategic choices that cause the two versions to diverge. They may explain what is opaque in one version, withhold what is explained in another, reframe material for a different cultural audience, or make different political interventions with the same source material. Samuel Beckett's English and French versions of his own works diverge in significant ways. Postcolonial self-translators often use the distance between languages as an opportunity to address different audiences differently — the result is two interventions, not two reproductions."

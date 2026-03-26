@@ -44,7 +44,7 @@ Vectors x and y in a Hilbert space are orthogonal if ⟨x,y⟩ = 0. For a closed
   answer: 2
   explanation: "Idempotence P² = P means that once you project onto M, re-applying P leaves you in M unchanged — P fixes every vector in its own range. Both P = 0 and P = I satisfy P² = P, but so does every orthogonal projection onto any subspace. The geometric meaning is: a vector already in M is its own nearest point in M, so projecting it again does nothing. This is the opposite of 'collapsing to zero.'"
 
-- question: "If P_M x = x for some nonzero vector x, then x must not be in the subspace M."
+- question: "If P_M x = x for some nonzero vector x, then x should not be in the subspace M."
   type: true-false
   answer: false
   explanation: "P_M x = x means x is fixed by the projection — its nearest point in M is itself, which happens precisely when x ∈ M. The statement has it backwards: P_M x = x if and only if x is already in M. Conversely, P_M x = 0 would mean the nearest point of x in M is the origin, which occurs when x ∈ M⊥."

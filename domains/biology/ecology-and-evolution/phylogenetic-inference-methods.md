@@ -61,7 +61,7 @@ Phylogenetic trees are reconstructed using methods that make different assumptio
   answer: true
   explanation: "This accurately describes both the strength and limitation of distance methods. They collapse the full character matrix into a single pairwise distance for each species pair (typically the fraction of differing sites, corrected for multiple substitutions), then apply clustering algorithms like neighbor-joining. Advantages include computational speed for large datasets. The limitation is information loss: two very different patterns of change can produce identical distances, discarding phylogenetic signal that parsimony and likelihood methods retain by examining individual characters."
 
-- question: "Bayesian phylogenetics produces a single best-supported tree, just like maximum likelihood, and is distinguished only by being computationally more efficient."
+- question: "Bayesian phylogenetics produces a single best-supported tree, just like maximum likelihood, and is distinguished primarily by being computationally more efficient."
   type: true-false
   answer: false
   explanation: "Bayesian phylogenetics differs fundamentally from maximum likelihood in both output and computation. Rather than returning a single tree that maximizes the likelihood, Bayesian inference samples from the posterior distribution of trees using MCMC — producing a set of sampled trees summarized as a consensus with posterior probability support values at each node, directly quantifying uncertainty. Maximum likelihood reports bootstrap support, a resampling measure, not a true probability. Computationally, Bayesian methods are typically more demanding than ML, not more efficient."

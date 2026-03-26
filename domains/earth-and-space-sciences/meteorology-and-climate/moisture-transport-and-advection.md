@@ -52,7 +52,7 @@ Wind carries water vapor and other atmospheric properties horizontally in a proc
   answer: 1
   explanation: "This is orographic precipitation — the direct consequence of moisture advection meeting topography. Winds advect humid marine air onshore; when that air hits a mountain range, it is forced to rise. Rising air cools at the dry adiabatic lapse rate, then more slowly once condensation begins. The moisture condenses and falls as precipitation on the windward slope. The leeward side receives air that has already surrendered its moisture, creating a rain shadow. Without the wind to advect moisture from the ocean, there would be no supply for this precipitation."
 
-- question: "Warm advection — the transport of warmer air into a region by the wind — always increases precipitation at the destination because warm air holds more water vapor."
+- question: "Warm advection — the transport of warmer air into a region by the wind — usually increases precipitation at the destination because warm air holds more water vapor."
   type: true-false
   answer: false
   explanation: "Warm advection increases the *capacity* to hold moisture, but precipitation requires more than capacity — it requires moisture convergence (more water vapor flowing in than flowing out), a lifting mechanism, and actual condensation. Warm advection can even suppress precipitation if it creates a stable, subsiding air mass. For example, warm anticyclonic advection often brings clear skies, not rain. The necessary condition for sustained precipitation is moisture convergence, not simply the presence of warm or moist air."

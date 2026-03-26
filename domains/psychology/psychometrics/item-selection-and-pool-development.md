@@ -64,7 +64,7 @@ The tension that makes item selection genuinely hard is **statistical quality ve
   answer: true
   explanation: "True. Reliability — the proportion of score variance attributable to true differences between people — depends on items that produce variance in scores. If every test-taker answers an item correctly (p-value = 1.0), that item has zero variance. Zero-variance items cannot correlate with anything, including the total test score, so their discrimination index is zero. They contribute no information about individual differences and do not improve reliability. They may still serve other purposes (e.g., gauging absolute mastery of a critical safety item), but they are statistically inert for reliability purposes."
 
-- question: "The goal of item selection is to maximize the average discrimination index across all selected items, regardless of other considerations."
+- question: "The goal of item selection is to maximize the average discrimination index across most selected items, regardless of other considerations."
   type: true-false
   answer: false
   explanation: "False. Item selection is constrained optimization: the goal is to maximize reliability (which discrimination indices contribute to) *within* the requirement that each content area specified in the test blueprint meets its item quota. A purely statistical approach that ignores the content blueprint would sacrifice content validity — the test might be internally consistent but measure only a narrow part of the intended construct. Additionally, item difficulty distribution matters: an overly narrow difficulty range reduces the test's ability to differentiate across the ability spectrum. Discrimination is one important criterion, not the sole objective."

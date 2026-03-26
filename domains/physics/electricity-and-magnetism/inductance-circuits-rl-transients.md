@@ -52,7 +52,7 @@ Self-inductance L relates induced EMF to changing current: ε = −L dI/dt. RL c
   answer: true
   explanation: "The defining equation is ε = −L(dI/dt). An instantaneous change in current means dI/dt → ∞, which would require ε → ∞. Real circuits cannot sustain infinite voltage, so instantaneous current jumps through an inductor are physically impossible. This is directly analogous to the constraint on capacitors (voltage cannot jump instantaneously because that would require infinite current, since I = C dV/dt). These continuity constraints are the key initial conditions in transient circuit analysis."
 
-- question: "Increasing the resistance in an RL circuit always increases the time it takes for the current to reach its final steady-state value."
+- question: "Increasing the resistance in an RL circuit generally increases the time it takes for the current to reach its final steady-state value."
   type: true-false
   answer: false
   explanation: "The time constant is τ = L/R, so increasing R *decreases* τ — the circuit reaches steady state faster in absolute time. This seems counterintuitive: more resistance means more 'friction,' yet the circuit charges faster? The resolution is that the final current (ε/R) is also smaller when R is larger. The inductor has less total change to accomplish, and despite unchanged inductance, arrives at the smaller target more quickly. Think of the mechanical analogy: a mass under constant force with high drag has a low terminal velocity that it reaches quickly."

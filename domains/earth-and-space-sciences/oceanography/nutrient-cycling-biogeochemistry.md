@@ -63,7 +63,7 @@ Phosphorus is not universally limiting in oceans; nitrogen often limits in lower
   answer: true
   explanation: "This profile is a direct biological fingerprint. Oxygen is produced at the surface by photosynthesis and consumed at depth by respiration; nutrients are consumed at the surface during growth and regenerated at depth during decomposition. The two profiles mirror each other because they are driven by the same biology: every molecule of organic matter produced at the surface simultaneously incorporates nutrients and produces oxygen, and every molecule decomposed at depth releases nutrients and consumes oxygen. Physical mixing alone would tend to homogenize both profiles; their divergence with depth is what biology imposes."
 
-- question: "Phosphorus is the primary nutrient limiting marine primary productivity in all ocean regions."
+- question: "Phosphorus is the primary nutrient limiting marine primary productivity in most ocean regions."
   type: true-false
   answer: false
   explanation: "Nutrient limitation varies by ocean region and cannot be generalized to a single nutrient. In the subtropical open ocean, nitrogen (as nitrate) is often the limiting macronutrient. In high-nutrient, low-chlorophyll regions like the Southern Ocean, subarctic Pacific, and equatorial Pacific, iron limits productivity despite abundant nitrate and phosphate. Phosphorus limitation may apply in some freshwater systems but is not the universal rule in marine environments. The identity of the limiting nutrient must be determined empirically for each region, and it can shift with season, depth, and physical forcing."

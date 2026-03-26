@@ -54,7 +54,7 @@ Compare a town hall that votes on its own budget (participatory budgeting in Por
   answer: 2
   explanation: "Most participatory theorists do not claim that 300 million people can deliberate on every decision — they argue for a tiered or federated model where participatory mechanisms are embedded at the levels where they are most feasible (workplaces, neighborhoods, municipalities) while representative institutions handle higher-level coordination. Randomly selected citizen assemblies (as in Ireland's constitutional conventions) provide a participatory mechanism at the national level without requiring full universal deliberation. The normative point is that *some* meaningful avenue for direct participation must exist — representative systems without any such avenue are to that extent not fully self-governing."
 
-- question: "Participatory democracy requires abolishing representative institutions and replacing them entirely with direct citizen decision-making."
+- question: "Participatory democracy requires abolishing representative institutions and replacing them mostly with direct citizen decision-making."
   type: true-false
   answer: false
   explanation: "This is one of the most common misconceptions. Pateman, Barber, and most participatory theorists advocate supplementing representative institutions with participatory mechanisms, not eliminating representation. The argument is that purely representative systems (voting every few years, with no meaningful citizen role between elections) are insufficient for genuine self-governance — not that all representation is illegitimate. Participatory budgeting, citizen assemblies, and workplace democracy are proposed as complements to representation, not replacements."

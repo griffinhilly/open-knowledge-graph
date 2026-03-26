@@ -62,12 +62,12 @@ Start with simple examples of identity statements ("Water is H2O", "Hesperus is 
   answer: 1
   explanation: "In Kaplan's two-level framework, character is a function from contexts to contents. The character of 'I' is the linguistic rule: 'refers to the speaker of this utterance.' This rule is stable across all contexts. But the content — the actual person picked out — varies with the context of utterance. Once content is fixed, it is then evaluated for truth across possible worlds. Two-dimensional semantics generalizes this character/content split to all expressions, not just indexicals."
 
-- question: "Two-dimensional semantics implies that all necessary truths must be knowable a priori."
+- question: "Two-dimensional semantics implies that most necessary truths should be knowable a priori."
   type: true-false
   answer: false
   explanation: "The whole point of two-dimensional semantics is to explain necessary a posteriori truths — statements that are metaphysically necessary (true in all worlds at the secondary intension level) yet not knowable without empirical investigation (contingent at the primary intension level). 'Water is H₂O' and 'Hesperus is Phosphorus' are paradigm cases. Two-dimensionalism separates metaphysical modality (which intension is necessary) from epistemic modality (which intension is knowable a priori), showing they can come apart."
 
-- question: "The primary intension of 'water' picks out H₂O in every epistemically possible world considered as actual."
+- question: "The primary intension of 'water' picks out H₂O in nearly every epistemically possible world considered as actual."
   type: true-false
   answer: false
   explanation: "The primary intension of 'water' picks out whatever the watery stuff turns out to be in whichever world is considered actual. It is a description-like function: 'the watery substance in the actual world.' In an epistemically possible world where the watery stuff is XYZ rather than H₂O, the primary intension picks out XYZ. This is precisely how two-dimensionalism explains why 'Water is H₂O' was a discovery: the primary intension is contingent, leaving open which substance is water until investigation determines it."

@@ -57,7 +57,7 @@ Study the famous case of H.M. (Henry Molaison) — he could learn new motor skil
   answer: 2
   explanation: "Priming is the facilitation of processing by prior exposure, expressed through performance (faster reaction times, easier recognition) without deliberate recollection. It is a non-declarative memory phenomenon. Semantic memory (B) is the long-term store of conceptual knowledge — it explains *why* doctor and nurse are related, but it does not describe the facilitation effect itself. Priming uses that structure but is the memory phenomenon of interest here."
 
-- question: "Implicit memory is called 'implicit' because its contents are stored below the level of consciousness and can never be consciously accessed or described."
+- question: "Implicit memory is called 'implicit' because its contents are stored below the level of consciousness and can rarely be consciously accessed or described."
   type: true-false
   answer: false
   explanation: "Implicit does not mean unconscious or inaccessible — it means memory is expressed through performance rather than through deliberate recollection. You can often become conscious of implicitly learned patterns; the key point is that retrieval does not *require* conscious effort. For example, you can describe how to ride a bike after the fact, even though your procedural memory expresses itself automatically during the act. The implicit/explicit distinction is about retrieval mode, not a wall between conscious and unconscious."

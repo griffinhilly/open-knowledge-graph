@@ -52,7 +52,7 @@ Meta-analysis combines effect estimates from multiple studies to derive an overa
   answer: true
   explanation: "Fixed-effects models treat the only source of uncertainty as within-study sampling error. Random-effects models add a second source of uncertainty: the variance in true effects across the distribution of study populations and settings (τ²). This additional variance appropriately widens the confidence interval, reflecting greater uncertainty about where the 'average' true effect falls. The wider interval is not a weakness — it is a more honest representation of uncertainty when heterogeneity exists."
 
-- question: "An I² of 0% in a meta-analysis proves that all studies are estimating the same underlying true effect, making the fixed-effects pooled estimate straightforwardly valid."
+- question: "An I² of 0% in a meta-analysis proves that most studies are estimating the same underlying true effect, making the fixed-effects pooled estimate straightforwardly valid."
   type: true-false
   answer: false
   explanation: "I² = 0% means the observed variation between studies is no greater than expected by chance — it does not prove the true effects are identical. The Q-test (which I² is derived from) has very low statistical power when there are few studies: with only 5 or 6 studies, the test may fail to detect substantial heterogeneity. A meta-analysis with few small studies could return I² = 0% even when true effects differ meaningfully across populations. Absence of evidence for heterogeneity is not evidence of absence."

@@ -59,7 +59,7 @@ Have students measure several similar objects (pencils, crayons, leaf lengths) i
   answer: 2
   explanation: "The tallest column of X's marks the value that appears most often in the data — the mode. In this data set, 4 inches appears 4 times and 5 inches appears 4 times, so those two values would tie for tallest column. The tallest stack does NOT show the longest measurement (that's the rightmost value on the number line) or the total count (that's all X's added together)."
 
-- question: "On a line plot, the number line must begin at zero."
+- question: "On a line plot, the number line should begin at zero."
   type: true-false
   answer: false
   explanation: "The number line on a line plot should span from the smallest value in the data set to the largest — it does not need to start at zero. If the shortest measurement is 4 inches and the longest is 7 inches, the number line should run from 4 to 7. Starting at zero would waste space and make the data harder to read. What matters is that the intervals between tick marks are consistent."

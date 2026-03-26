@@ -50,7 +50,7 @@ A bounded operator T: X → Y is compact if it maps bounded sets to relatively c
   answer: true
   explanation: "In ℝⁿ (or any finite-dimensional normed space), a set is compact if and only if it is closed and bounded (Heine-Borel). Every bounded linear operator maps bounded sets to bounded sets. In finite dimensions, bounded sets are relatively compact — their closures are compact. Therefore, every bounded linear operator maps bounded sets to relatively compact sets, satisfying the definition of a compact operator. This is why compactness of operators is trivial in finite dimensions but non-trivial in infinite dimensions, where bounded sets are not generally relatively compact."
 
-- question: "A compact operator T: X → Y maps every bounded sequence (xₙ) to a sequence (Txₙ) that converges in Y."
+- question: "A compact operator T: X → Y maps most bounded sequence (xₙ) to a sequence (Txₙ) that converges in Y."
   type: true-false
   answer: false
   explanation: "The definition of compactness guarantees only that every bounded sequence has a convergent SUBSEQUENCE in the image — not that the full sequence converges. The operator extracts a convergent subsequence from any bounded sequence, but the original sequence need not converge. This is the standard compactness condition: relatively compact means the closure is compact, which is equivalent to every sequence having a convergent subsequence. Confusing 'has a convergent subsequence' with 'converges' is a common error in functional analysis."

@@ -51,7 +51,7 @@ Synaptic strength changes through activity-dependent plasticity: long-term poten
   answer: true
   explanation: "This is the defining property of the NMDA receptor that enables associative learning. At resting potential, a Mg²⁺ ion physically blocks the channel even when glutamate is bound. The block is only relieved when the postsynaptic membrane is already depolarized (typically by AMPA receptor activation). Both conditions must be met simultaneously — 'coincidence detection' — and it is this requirement that makes the NMDA receptor the molecular substrate for Hebbian learning: only synapses whose presynaptic activity correlates with postsynaptic firing get strengthened."
 
-- question: "Long-term depression (LTD) uses a completely different receptor and ion channel than LTP, which is why weak stimulation produces the opposite outcome."
+- question: "Long-term depression (LTD) uses a largely different receptor and ion channel than LTP, which is why weak stimulation produces the opposite outcome."
   type: true-false
   answer: false
   explanation: "LTD and LTP both depend on the NMDA receptor and Ca²⁺ influx — the same receptor and the same ion. What differs is the amplitude and kinetics of the Ca²⁺ signal. High-frequency or coincident stimulation produces a large, rapid Ca²⁺ rise that activates kinases (particularly CaMKII), leading to AMPA receptor phosphorylation and insertion (LTP). Weak or asynchronous stimulation produces a smaller, slower Ca²⁺ signal that preferentially activates phosphatases, leading to AMPA receptor dephosphorylation and internalization (LTD). Same receptor, same ion, opposite outcomes — determined by the pattern of activity."

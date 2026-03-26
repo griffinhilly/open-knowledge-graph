@@ -51,7 +51,7 @@ Trace CYK on a small example (e.g., balanced parentheses grammar). Fill the tabl
   answer: 1
   explanation: "T[1,n] represents the entire string — the set of nonterminals that can derive w[1..n]. The string belongs to the language if and only if the start symbol S can derive the entire string, which means S must appear in T[1,n]. Finding S in any other cell would mean S derives some proper substring of w, not w itself. The cell T[1,n] is the unique cell whose span covers the whole input."
 
-- question: "CYK is a top-down parsing algorithm: it starts with the start symbol and expands production rules until it either matches the input or exhausts all possibilities."
+- question: "CYK is a top-down parsing algorithm: it starts with the start symbol and expands production rules until it either matches the input or exhausts most possibilities."
   type: true-false
   answer: false
   explanation: "CYK is a bottom-up algorithm. It starts by filling the table for individual characters (substrings of length 1), then builds up to substrings of length 2, 3, and so on, until it reaches the full string. At each step, it combines previously computed results for shorter substrings. Top-down parsing (like recursive-descent) starts with the start symbol and tries to expand it to match the input — the opposite direction. CYK's bottom-up approach is what makes the dynamic programming recurrence well-founded: when computing T[i,j], all smaller subproblem cells T[i,k] and T[k+1,j] have already been computed."

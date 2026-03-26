@@ -53,7 +53,7 @@ In compressible flow, kinetic energy and enthalpy are interchangeable via the st
   answer: true
   explanation: "This is the direct consequence of energy conservation for adiabatic, no-work flow. The steady-flow energy equation gives h₀ = h + V²/2 = const along a streamline when there is no heat transfer and no shaft work. Because h = cₚT for a calorically perfect gas, T₀ = T + V²/(2cₚ) is also constant. The stagnation temperature represents the total thermal equivalent of the flow's energy — it can be partitioned between internal energy (static temperature) and kinetic energy differently at different locations, but the total is conserved."
 
-- question: "At M = 1 (sonic flow), the static temperature equals the stagnation temperature because all kinetic energy has been converted into thermal energy at the throat."
+- question: "At M = 1 (sonic flow), the static temperature equals the stagnation temperature because most kinetic energy has been converted into thermal energy at the throat."
   type: true-false
   answer: false
   explanation: "This is exactly backwards. At M = 1, the flow is moving at the speed of sound — it has significant kinetic energy. The isentropic relation gives T/T₀ = 2/(γ+1), which for air (γ = 1.4) yields T/T₀ = 0.833. Static temperature is about 17% lower than stagnation temperature at the sonic point. Static temperature equals stagnation temperature only at M = 0 (a fluid at rest), where all energy is internal. As M increases, an increasing fraction of the total energy is kinetic, so static temperature progressively drops below stagnation temperature."

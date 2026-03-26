@@ -51,7 +51,7 @@ Breadth-first search systematically explores a graph level by level, visiting al
   answer: true
   explanation: "This is the defining 'wavefront' property of BFS, enforced by the FIFO queue. When a distance-k vertex is processed, its unvisited neighbors (at distance k+1) are enqueued *after* any distance-k vertices already in the queue. Therefore, all distance-k vertices are fully dequeued and processed before any distance-(k+1) vertex is reached. This level-by-level expansion is exactly why BFS finds shortest paths: each wave of exploration travels exactly one step further than the previous wave."
 
-- question: "Without the visited-marking step, BFS on a graph with cycles would eventually terminate because vertices would stop being enqueued once all paths are explored."
+- question: "Without the visited-marking step, BFS on a graph with cycles would eventually terminate because vertices would stop being enqueued once most paths are explored."
   type: true-false
   answer: false
   explanation: "Without visited marking, BFS on a cyclic graph loops indefinitely. In a cycle A−B−C−A: processing A enqueues B and C; processing B re-enqueues A (not yet marked visited from B's view); processing the re-enqueued A enqueues B and C again — and the queue never empties. Visited marking prevents a vertex from being enqueued more than once, ensuring each vertex is processed exactly once. Without it, BFS neither terminates nor finds shortest paths correctly. The visited flag is what gives BFS its O(V+E) runtime guarantee."

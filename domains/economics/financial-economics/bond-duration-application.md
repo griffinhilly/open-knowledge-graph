@@ -58,7 +58,7 @@ Calculate duration for different bonds and compare their price changes when yiel
   answer: 2
   explanation: "Immunization requires matching the *duration* of assets to the *duration* of liabilities — not their maturities. When asset duration equals liability duration, a given change in yields affects both sides by approximately the same amount, preserving the funded ratio. A 15-year coupon bond has duration less than 15 years; the manager must blend instruments to reach exactly 15-year duration. Option B is wrong: short-duration assets expose the fund to reinvestment risk and will not grow to match the liability if rates fall."
 
-- question: "A bond with a higher coupon rate (all else equal) will have a longer duration and therefore greater price sensitivity to interest rate changes."
+- question: "A bond with a higher coupon rate (most else equal) will have a longer duration and therefore greater price sensitivity to interest rate changes."
   type: true-false
   answer: false
   explanation: "Higher coupon rates *reduce* duration, not increase it. Larger early coupon payments shift more of the bond's total cash flow toward the present, pulling the time-weighted average forward and shortening duration. A high-coupon bond is *less* sensitive to interest rate changes than a low-coupon bond of the same maturity. The zero-coupon bond has the longest duration of any bond with a given maturity — precisely because it has no early payments to reduce sensitivity."

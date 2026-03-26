@@ -50,7 +50,7 @@ Map tRNA anticodons to mRNA codons using in vitro translation systems; measure t
   answer: 1
   explanation: "GCU → GCC is a synonymous (silent) mutation at the third codon position — the only position where wobble pairing applies. A tRNA with inosine at its wobble position reads both GCU and GCC, inserting alanine each time. The protein is identical. This illustrates the buffering role of wobble pairing: third-position point mutations are often silent precisely because the third position is the 'wobbly' one."
 
-- question: "Wobble base pairing occurs at all three positions of the codon-anticodon interaction, which is why the genetic code is degenerate at all three positions."
+- question: "Wobble base pairing occurs at most three positions of the codon-anticodon interaction, which is why the genetic code is degenerate at most three positions."
   type: true-false
   answer: false
   explanation: "Wobble pairing occurs only at the third codon position (paired with the first anticodon position). The first two codon positions require strict Watson-Crick base pairing (A-U, G-C), which is why they carry most of the coding specificity. If wobble occurred at all three positions, a single tRNA could read many unrelated codons, catastrophically reducing translation fidelity. Degeneracy is concentrated at the third position precisely because that is the only position where non-standard pairing is tolerated."

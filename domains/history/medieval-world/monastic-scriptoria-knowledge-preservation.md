@@ -51,7 +51,7 @@ Scriptoria were workshops in monasteries where monks painstakingly copied manusc
   answer: true
   explanation: "Monks copied texts they found useful — classical Latin authors like Virgil were valued for language and moral content, Cicero for rhetoric and philosophy. Works deemed irrelevant, dangerous, or redundant were not copied and often vanished. The surviving ancient canon is a product of monastic cultural decisions, making it simultaneously a preservation achievement and an act of selection."
 
-- question: "Monastic scriptoria served primarily as passive repositories — monks stored and guarded manuscripts brought to them by outside parties, copying only when explicitly commissioned by scholars or patrons."
+- question: "Monastic scriptoria served primarily as passive repositories — monks stored and guarded manuscripts brought to them by outside parties, copying mainly when explicitly commissioned by scholars or patrons."
   type: true-false
   answer: false
   explanation: "Scriptoria were active production centers driven by monastic communities' own judgments. Monks prepared materials from scratch (including tanning parchment from animal skins), trained scribes over years, and decided what to copy without necessarily waiting for outside requests. Their role was closer to publisher and editor than archivist or copier-for-hire."

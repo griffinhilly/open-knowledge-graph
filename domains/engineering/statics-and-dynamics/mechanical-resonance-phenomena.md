@@ -44,7 +44,7 @@ When periodic external forces are applied to an oscillatory system, the response
   answer: 1
   explanation: "At resonance (Ω = ωₙ) in a damped system, the magnification factor peaks at 1/(2ζ). With ζ = 0.02: MF = 1/(2×0.02) = 1/0.04 = 25. Option C would apply if ζ = 0.01. The formula 1/(2ζ) means lighter damping gives larger resonant amplification — a ζ = 0.01 structure would reach 50× at resonance."
 
-- question: "Adding mass to a mechanical structure always increases its risk of resonance with a fixed driving frequency."
+- question: "Adding mass to a mechanical structure generally increases its risk of resonance with a fixed driving frequency."
   type: true-false
   answer: false
   explanation: "Adding mass lowers the natural frequency (ωₙ = √(k/m) — increasing m decreases ωₙ). Whether this increases or decreases resonance risk depends entirely on where ωₙ was relative to the excitation frequency before the change. If the excitation is above ωₙ, adding mass moves ωₙ further from the excitation — reducing risk. If the excitation is below ωₙ, adding mass moves ωₙ toward the excitation — increasing risk. The relationship is not monotonic; what matters is the ratio Ω/ωₙ."

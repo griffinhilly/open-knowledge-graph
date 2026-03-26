@@ -48,7 +48,7 @@ EXPTIME is the class of languages decidable in time 2^(p(n)) for polynomial p; E
   answer: true
   explanation: "The time hierarchy theorem establishes that strictly more time allows you to decide strictly more languages. This yields P ≠ EXPTIME as a mathematical theorem — not a conjecture, not an open problem. EXPTIME-complete problems are proven to lie outside P. This contrasts sharply with NP vs. P, which remains the most famous unsolved problem in theoretical computer science. Whenever you encounter an EXPTIME-complete problem, you know with certainty — not just strong suspicion — that no polynomial-time algorithm can exist for it."
 
-- question: "If P = NP were someday proved, it would follow that all EXPTIME-complete problems are also solvable in polynomial time, since NP ⊆ EXPTIME."
+- question: "If P = NP were someday proved, it would follow that most EXPTIME-complete problems are also solvable in polynomial time, since NP ⊆ EXPTIME."
   type: true-false
   answer: false
   explanation: "P ≠ EXPTIME is proved by the time hierarchy theorem *independently* of whether P = NP. Even in a hypothetical world where P = NP, EXPTIME-complete problems would still require super-polynomial time. The chain NP ⊆ EXPTIME means NP is contained in EXPTIME; if P = NP then P ⊆ EXPTIME. But the hierarchy theorem guarantees P ≠ EXPTIME regardless, so EXPTIME-complete problems remain outside P even if P equals NP. EXPTIME-hardness is thus a stronger guarantee than NP-hardness precisely because it does not depend on any unresolved conjecture."

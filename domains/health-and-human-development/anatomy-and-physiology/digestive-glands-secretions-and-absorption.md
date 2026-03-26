@@ -50,7 +50,7 @@ Salivary glands, gastric glands, pancreas, and liver secrete enzymes and other s
   answer: false
   explanation: "Bile is not an enzyme and does not break chemical bonds. It is a detergent — a mixture of bile salts, phospholipids, and cholesterol — that physically emulsifies fat into tiny droplets without catalyzing any chemical reaction. The actual chemical hydrolysis of fat is performed by pancreatic lipase. Bile's role is to create the conditions (small droplet surface area) that allow lipase to work efficiently. After digestion, bile salts are reabsorbed in the terminal ileum and recycled to the liver (enterohepatic circulation)."
 
-- question: "After a meal, all absorbed nutrients from the small intestine first travel to the liver via the portal circulation before reaching the rest of the body."
+- question: "After a meal, most absorbed nutrients from the small intestine first travel to the liver via the portal circulation before reaching the rest of the body."
   type: true-false
   answer: false
   explanation: "This is true for carbohydrates (monosaccharides) and amino acids, which enter portal capillaries and travel to the liver. However, dietary fats are absorbed as chylomicrons into lymphatic lacteals, which drain into the thoracic duct and then into the subclavian vein — bypassing the portal system entirely. Chylomicrons reach peripheral tissues (including adipose and muscle) via systemic circulation before the liver processes them. The liver only encounters fat-derived remnant particles after peripheral tissues have removed most fatty acids."

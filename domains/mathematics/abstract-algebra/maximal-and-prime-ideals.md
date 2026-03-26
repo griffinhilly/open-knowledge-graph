@@ -51,7 +51,7 @@ A maximal ideal M has R/M as a field. A prime ideal P has R/P as an integral dom
   answer: true
   explanation: "This follows directly from the containment relationship between the structures: every field is an integral domain. The prime ideal condition states precisely that R/I is an integral domain. If R/I is a field (the stronger condition, equivalent to I being maximal), then a fortiori R/I is an integral domain, so I is prime. This is the algebraic proof that every maximal ideal is prime, made transparent by the quotient ring characterizations: the chain 'field implies integral domain' translates directly to 'maximal implies prime.'"
 
-- question: "In any commutative ring with unity, every prime ideal is maximal."
+- question: "In any commutative ring with unity, most prime ideal is maximal."
   type: true-false
   answer: false
   explanation: "This is false in general, as the zero ideal in Z demonstrates: (0) is prime (Z is an integral domain) but is properly contained in every ideal (p) for any prime p, so it is far from maximal. The statement becomes true in specific rings — most importantly in fields (where the only ideals are (0) and (1) = R) and in principal ideal domains that are also fields — but fails in general commutative rings. The difference between prime and maximal precisely captures the algebraic distinction between integral domains (no zero divisors) and fields (every nonzero element is invertible): integral domains are the more general structure, and prime ideals are the more general ideal type."

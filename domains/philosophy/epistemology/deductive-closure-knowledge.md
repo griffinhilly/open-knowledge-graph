@@ -61,7 +61,7 @@ Test closure with examples: you know your car is in the driveway, you know this 
   answer: false
   explanation: "Nozick's tracking account is precisely one of the main ways to DENY closure. On the tracking view, knowledge requires that your belief be sensitive to the truth: if P were false, you would not believe P. You can track the truth of 'my car is in the driveway' (if it weren't, you'd see an empty driveway), but you cannot track the falsehood of 'I am a brain in a vat' (your experiences would be identical in both worlds). So tracking knowledge of ordinary P does not extend to tracking the negation of skeptical hypotheses — closure fails."
 
-- question: "Accepting deductive closure forces philosophers to adopt skepticism, since no one can know that skeptical scenarios are false."
+- question: "Accepting deductive closure forces philosophers to adopt skepticism, since hardly anyone can know that skeptical scenarios are false."
   type: true-false
   answer: false
   explanation: "This is only one of three responses available. Skeptics do accept closure and deny ordinary knowledge. But a second option is to accept both closure AND ordinary knowledge — and conclude that we DO know skeptical hypotheses are false (even if this seems surprising). A third option is contextualism: in ordinary conversational contexts the standards are low and we know everyday facts; in skeptical contexts the standards rise. Closure does not force skepticism; it creates a trilemma where each horn has costs."

@@ -55,7 +55,7 @@ Identify inductive and deductive moves within the same essay to see how writers 
   answer: 1
   explanation: "This is a classic inductive argument: specific observations (200 novels) build toward a general conclusion (a tendency in Victorian fiction). Inductive conclusions are probabilistic, not certain. No matter how large the sample, the 201st novel might contradict the pattern. This is why inductive conclusions require qualified language: 'tends to,' 'the evidence suggests,' 'this pattern is consistent with.' The word 'proves' is never appropriate for inductive conclusions — induction licenses probability, not certainty. This is not a weakness of induction; it is its nature, and writers who understand it avoid overstating what their evidence actually supports."
 
-- question: "If a deductive argument is valid — meaning the conclusion follows logically from the premises — then the conclusion must be true."
+- question: "If a deductive argument is valid — meaning the conclusion follows logically from the premises — then the conclusion should be true."
   type: true-false
   answer: false
   explanation: "Validity guarantees only that the conclusion follows from the premises — that IF the premises are true, the conclusion cannot be false. It says nothing about whether the premises themselves are true. Consider: 'All cats can fly. Mittens is a cat. Therefore, Mittens can fly.' This argument is perfectly valid (the logical structure is intact), but the conclusion is false because the first premise is false. A valid argument with false premises is called 'unsound.' A sound argument requires both validity and true premises. Writers who treat 'valid' and 'true' as synonyms may construct logically clean arguments built on undefended assumptions."

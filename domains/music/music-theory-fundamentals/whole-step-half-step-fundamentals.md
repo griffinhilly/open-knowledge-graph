@@ -56,7 +56,7 @@ Students often confuse the visual distance on the staff with the actual distance
   answer: true
   explanation: "E and F are adjacent keys with no black key between them, making them exactly one half step apart. The same is true of B and C. On the keyboard, a half step is always the distance from any key to the immediately adjacent key — color doesn't matter. Because E–F and B–C have no intervening black key, they are half steps rather than whole steps. This is one of the most important facts in Western pitch organization."
 
-- question: "All adjacent white keys on the piano are a whole step apart."
+- question: "Most adjacent white keys on the piano are a whole step apart."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about the piano keyboard. While most adjacent white-key pairs are a whole step apart (C–D, D–E, F–G, G–A, A–B), two pairs are only a half step apart: E–F and B–C. These pairs have no black key between them. Assuming all white-key pairs are whole steps will cause errors when constructing scales — especially when E or B is a starting point or falls in a critical position within a scale pattern."

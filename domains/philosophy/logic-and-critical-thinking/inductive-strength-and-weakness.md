@@ -51,7 +51,7 @@ Inductive arguments make conclusions probable rather than certain. An inductive 
   answer: true
   explanation: "This is the defining feature of inductive reasoning that separates it from deductive reasoning. Even an excellent inductive argument — large sample, highly representative, modest conclusion — only makes the conclusion probable, not certain. The classic example: observing millions of white swans across Europe over centuries strongly supports 'all swans are white.' The premises are all true. Yet the conclusion is false (black swans exist in Australia). Strength is about the degree of support, not a guarantee of truth."
 
-- question: "A larger sample always makes an inductive argument stronger than a smaller sample."
+- question: "A larger sample generally makes an inductive argument stronger than a smaller sample."
   type: true-false
   answer: false
   explanation: "Sample size is one of three key factors determining strength, and the others can override it. A large, biased sample can be weaker than a small, carefully representative one. Polling 10,000 people from a single demographic group tells you less about the general population than polling 200 people drawn systematically across all relevant subgroups. Representativeness — whether the sample reflects the diversity of the population — is often the more critical variable. Size amplifies whatever bias is already present rather than correcting it."

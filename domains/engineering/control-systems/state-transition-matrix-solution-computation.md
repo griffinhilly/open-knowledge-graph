@@ -52,7 +52,7 @@ The state transition matrix Φ(t) = eAt solves the homogeneous state equation �
   answer: true
   explanation: "Each eigenvalue λᵢ of A contributes a mode eλᵢt to Φ(t). Real negative eigenvalues → exponential decay. Real positive eigenvalues → exponential growth (unstable). Complex pairs σ ± jω → oscillation at frequency ω with growth/decay rate σ. Purely imaginary pairs → undamped oscillation. So reading the eigenvalues directly tells you the qualitative behavior of all modes without computing the full matrix exponential. This is why stability analysis focuses on eigenvalue locations in the complex plane."
 
-- question: "A linear system whose state transition matrix Φ(t) does not decay to zero is always unstable and will produce unbounded output for any input."
+- question: "A linear system whose state transition matrix Φ(t) does not decay to zero is typically unstable and will produce unbounded output for any input."
   type: true-false
   answer: false
   explanation: "A system with purely imaginary eigenvalues (e.g., λ = ±jω) has a transition matrix that oscillates at constant amplitude — Φ(t) does not decay to zero, but the system is marginally stable, not unstable. For bounded inputs, outputs remain bounded (BIBO stable in some formulations). Only when eigenvalues have strictly positive real parts does Φ(t) grow without bound and produce unbounded outputs. The distinction between asymptotic stability (all eigenvalues strictly in left half-plane), marginal stability (eigenvalues on imaginary axis), and instability (any eigenvalue in right half-plane) is critical for control design."

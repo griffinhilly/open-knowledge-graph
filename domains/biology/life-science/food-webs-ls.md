@@ -46,7 +46,7 @@ Start by reviewing simple food chains, then combine several that share organisms
   answer: 1
   explanation: "A food chain shows just one linear path (e.g., grass → mouse → snake → hawk), but real ecosystems are far more complex. A mouse also eats seeds and berries, and it is also eaten by owls and foxes — not just snakes. A food web captures all of these connections, giving a much more realistic picture of how energy flows and how species depend on each other."
 
-- question: "If a food web has many interconnections, removing one species will always collapse the entire ecosystem."
+- question: "If a food web has many interconnections, removing one species will typically collapse the entire ecosystem."
   type: true-false
   answer: false
   explanation: "Highly interconnected food webs tend to be more resilient, not less. If one prey species declines, predators may have alternative food sources to switch to. Simple food webs with few connections are more fragile — if a key species disappears, the whole chain can break. That said, losing certain species (like top predators or primary producers) can cause significant disruptions even in complex webs."

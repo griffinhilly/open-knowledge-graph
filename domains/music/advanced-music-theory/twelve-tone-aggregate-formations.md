@@ -61,7 +61,7 @@ Analyze a Schoenberg twelve-tone work, marking where aggregates complete and cor
   answer: 1
   explanation: "When all 12 pitch classes sound quickly (early aggregate completion), the chromatic field becomes saturated — every note has been 'accounted for,' creating a sense of completeness or closure analogous to a cadence in tonal music. Delayed aggregate completion prolongs a state of chromatic incompleteness and extends harmonic tension. This is the compositional significance of aggregate timing: it provides a non-tonal mechanism for shaping tension, release, and phrase articulation."
 
-- question: "Partial aggregates — passages where only 9 or 10 of the 12 pitch classes have sounded — are musically insignificant because they fail to satisfy the aggregate criterion."
+- question: "Partial aggregates — passages where mainly 9 or 10 of the 12 pitch classes have sounded — are musically insignificant because they fail to satisfy the aggregate criterion."
   type: true-false
   answer: false
   explanation: "Partial and near-aggregates create intermediate harmonic states that composers exploit deliberately. Withholding one or two pitch classes from completion prolongs a state of chromatic incompleteness — a kind of unresolved expectation. This can articulate phrase boundaries, signal impending closure, or create directed momentum toward the moment of aggregate completion. These gradations between 'no aggregate' and 'complete aggregate' are part of the harmonic vocabulary of serial music, not failures or irrelevances."

@@ -51,7 +51,7 @@ Phospholipids are synthesized via the Kennedy pathway: glycerol-3-phosphate is a
   answer: true
   explanation: "The Lands cycle is a phospholipid remodeling system: phospholipase A₂ removes the fatty acid at the sn-2 position, and a lysophospholipid acyltransferase installs a different one. This post-synthetic remodeling is how cells generate the enormous diversity of phospholipid molecular species (hundreds of combinations of head groups, chain lengths, and saturation levels) from a relatively simple synthetic pathway, enabling precise tuning of membrane fluidity and curvature."
 
-- question: "Once a phospholipid is assembled via the Kennedy pathway, its fatty acid composition is permanently fixed and cannot be changed without degrading and resynthesizing the entire molecule."
+- question: "Once a phospholipid is assembled via the Kennedy pathway, its fatty acid composition is permanently fixed and can seldom be changed without degrading and resynthesizing the entire molecule."
   type: true-false
   answer: false
   explanation: "This is incorrect. The Lands cycle specifically provides a mechanism for remodeling phospholipid fatty acid composition without resynthesis. Phospholipase A₂ cleaves the sn-2 fatty acid, and acyltransferases install a replacement. This is how cells fine-tune membrane properties — adjusting fluidity, curvature, and signaling capacity — in response to changing needs. The Kennedy pathway synthesizes the structural scaffold; the Lands cycle customizes the content."

@@ -54,7 +54,7 @@ An MST is not necessarily unique (ties in edge weights yield different MSTs with
   answer: 1
   explanation: "The cut property is the structural reason greedy works for MSTs: for any way you divide the graph's vertices into two groups, the cheapest edge crossing that cut must appear in some MST. This means every locally greedy choice has a global guarantee. The minimum Hamiltonian path problem lacks this property — adding the locally cheapest edge can foreclose globally optimal solutions. MST belongs to a matroid structure where local optima are global; TSP does not."
 
-- question: "A weighted connected graph always has exactly one minimum spanning tree."
+- question: "A weighted connected graph typically has exactly one minimum spanning tree."
   type: true-false
   answer: false
   explanation: "When two or more edges have equal weights, different spanning trees can be constructed that each achieve the same minimum total weight. For example, if edges (A,B) and (C,D) both weigh 5, and either could be included in a valid MST, there may be multiple MSTs all sharing the same optimal cost. Uniqueness is only guaranteed when all edge weights are distinct. This is explicitly noted as a common misconception in the topic."

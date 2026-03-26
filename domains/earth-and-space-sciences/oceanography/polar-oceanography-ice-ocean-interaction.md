@@ -61,7 +61,7 @@ Arctic and Antarctic ice have different properties and climate impacts: Arctic s
   answer: true
   explanation: "True. This is the core mechanism linking polar ice formation to global ocean circulation. Freezing concentrates salt in the remaining liquid, producing extremely dense brine. This cold, hypersaline water sinks to the seafloor and spreads through the deep ocean basins, forming the dense bottom water that drives the thermohaline conveyor belt. Polar ice formation is thus a global climate phenomenon, not just a local weather event."
 
-- question: "As Arctic sea ice retreats due to polar amplification, the resulting increase in open water always increases ocean biological productivity in that region."
+- question: "As Arctic sea ice retreats due to polar amplification, the resulting increase in open water usually increases ocean biological productivity in that region."
   type: true-false
   answer: false
   explanation: "False. While reduced ice cover allows more sunlight to penetrate, increased meltwater from retreating ice creates a fresh, buoyant surface layer that strongly stratifies the water column. This stratification prevents upwelling of nutrient-rich deep water, which often limits productivity as much as light does. The net biological response depends on whether light or nutrients are the limiting factor — and in many polar regions, freshwater-driven stratification shifts the limiting factor from light to nutrients, undermining or even reversing the productivity gain from more open water."

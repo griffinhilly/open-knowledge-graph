@@ -50,7 +50,7 @@ The Arrhenius equation k = A exp(-Eₐ/RT) quantitatively relates rate constants
   answer: true
   explanation: "This is the precise mechanistic definition of catalysis. A catalyst provides an alternative reaction pathway with a lower Eₐ, so more collisions carry enough energy to proceed — increasing k exponentially. However, ΔG = ΔH − TΔS for the overall reaction is set by the reactant and product identities, which the catalyst does not change. The equilibrium constant K is related to ΔG (not to the kinetics), so the catalyst does not shift the equilibrium position — it only reaches it faster. A catalyst speeds the forward and reverse reactions equally, leaving Keq unchanged. This is why a catalyst cannot cause a thermodynamically unfavorable reaction to proceed — it can only accelerate thermodynamically allowed reactions."
 
-- question: "Doubling the absolute temperature of a reaction always approximately doubles the rate constant."
+- question: "Doubling the absolute temperature of a reaction typically approximately doubles the rate constant."
   type: true-false
   answer: false
   explanation: "The relationship is exponential, not linear. Doubling T from 300 K to 600 K changes exp(−Eₐ/RT) from exp(−Eₐ/300R) to exp(−Eₐ/600R). For a typical Eₐ of 60 kJ/mol, this changes the exponent from −24 to −12 — increasing k by exp(12) ≈ 160,000-fold, far more than doubling. For a smaller Eₐ or a smaller temperature jump, the factor is smaller. The common empirical rule of thumb that a 10°C rise roughly doubles the rate works for reactions with Eₐ ≈ 50–80 kJ/mol near room temperature, but it is an approximation that breaks down at other temperatures and activation energies."

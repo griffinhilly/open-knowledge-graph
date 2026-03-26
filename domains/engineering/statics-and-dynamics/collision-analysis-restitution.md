@@ -48,7 +48,7 @@ The coefficient of restitution e relates velocities before and after collision f
   answer: 2
   explanation: "With e = 0, the restitution equation gives v₂' − v₁' = 0, so both objects have the same post-collision velocity (perfectly inelastic). Momentum conservation: 4(5) + 4(0) = (4 + 4)v', giving v' = 2.5 m/s for both. Option B (v₁' = 0, v₂' = 5) is the result for e = 1 (elastic) with equal masses — a common but incorrect answer for e = 0. For e = 0, objects stick together; they do not undergo a clean exchange of velocities."
 
-- question: "Momentum is conserved in all collisions, so kinetic energy must also be conserved in all collisions."
+- question: "Momentum is conserved in most collisions, so kinetic energy is expected to also be conserved in most collisions."
   type: true-false
   answer: false
   explanation: "Momentum and kinetic energy are governed by different principles. Momentum conservation follows from Newton's third law and holds for all collisions (any value of e), requiring only that no net external force acts during impact. Kinetic energy conservation requires e = 1 (perfectly elastic) — energy stored as deformation is fully recovered. For e < 1, kinetic energy is converted to heat, sound, and permanent deformation. A clay-ball collision conserves momentum exactly while dissipating essentially all kinetic energy. They are independent conditions."

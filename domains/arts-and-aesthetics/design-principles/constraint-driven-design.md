@@ -58,7 +58,7 @@ Choose a design problem and deliberately add constraints (e.g., only two colors,
   answer: 1
   explanation: "The 140-character limit is a canonical example of a constraint producing something that wouldn't exist without it. Forcing users to express ideas in under 140 characters created a new literary form: concise, punchy, aphoristic. Writers who mastered it developed a distinctive style. When Twitter raised the limit to 280 characters, many users — and Twitter's own research — found that 280-character tweets felt verbose and the distinctive compression was diluted. The constraint was generative, not merely restrictive."
 
-- question: "Removing constraints from a design problem always improves the quality of potential solutions because it expands the solution space and enables more creative options."
+- question: "Removing constraints from a design problem generally improves the quality of potential solutions because it expands the solution space and enables more creative options."
   type: true-false
   answer: false
   explanation: "More options do not reliably produce better outcomes — this is the 'paradox of choice' applied to design. An unconstrained problem has no defined boundaries, making it unclear what counts as a good solution, what to prioritize, or when you're done. Constraints eliminate irrelevant decisions, clarify the problem space, and force designers to prioritize the essential. Early video game designers produced iconic aesthetics precisely because limited colors, sprite sizes, and sound chips forced creative problem-solving within tight limits — unlimited resources often produce bloated, unfocused results."

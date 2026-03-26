@@ -62,7 +62,7 @@ Build intuition through qualitative experiments: pushing a bar magnet into a coi
   answer: 3
   explanation: "There are three ways to change magnetic flux: change the magnitude of B, change the area of the loop, or change the angle between B and the loop. Options A (changing angle), B (changing effective field), and C (changing B magnitude) all change flux and produce an EMF. Option D holds all three constant — constant B, constant area, constant angle — so flux is constant, dΦ/dt = 0, and no EMF is induced. This is the only configuration with zero EMF."
 
-- question: "A coil placed in a very strong magnetic field will experience a larger induced EMF than the same coil placed in a weaker field, all else being equal."
+- question: "A coil placed in a very strong magnetic field will experience a larger induced EMF than the same coil placed in a weaker field, most else being equal."
   type: true-false
   answer: false
   explanation: "The induced EMF depends on the *rate of change* of magnetic flux (ε = −dΦ/dt), not on flux magnitude. A coil in a very strong but perfectly constant field has dΦ/dt = 0 and thus ε = 0. A coil in a weak but rapidly changing field can have a very large induced EMF. Field strength matters only insofar as it determines how much flux changes per unit time — not as a static quantity."

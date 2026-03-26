@@ -48,7 +48,7 @@ Referential integrity ensures that foreign key values correspond to existing pri
   answer: 1
   explanation: "CASCADE propagates deletes automatically through every table that references the deleted row, and through tables that reference those tables, and so on. A single top-level delete can silently cascade through the entire dependency chain, removing large amounts of data with no confirmation prompt. The database is doing exactly what was configured — the danger is that the developer did not think through all downstream effects. This is why 'default to RESTRICT and use CASCADE only when you can articulate why automatic deletion is the correct business behavior' is the safer practice."
 
-- question: "Referential integrity enforcement applies only when you delete rows from a parent table — not during INSERT or UPDATE operations on the child table."
+- question: "Referential integrity enforcement applies primarily when you delete rows from a parent table — not during INSERT or UPDATE operations on the child table."
   type: true-false
   answer: false
   explanation: "Referential integrity is enforced in both directions. When you INSERT a row into a child table with a foreign key value that does not exist in the parent table, the database rejects the INSERT. Similarly, an UPDATE that changes a child row's foreign key to a non-existent parent value is rejected. ON DELETE and ON UPDATE cascading actions address modifications to the *parent* table, but the database also continuously checks that child rows never reference non-existent parents."

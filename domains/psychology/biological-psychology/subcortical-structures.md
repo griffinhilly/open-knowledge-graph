@@ -64,7 +64,7 @@ Work bottom-up: brainstem controls survival, thalamus routes information, basal 
   answer: true
   explanation: "The brainstem (midbrain, pons, medulla) contains the cardiac and respiratory centers that regulate heartbeat and breathing automatically, as well as the reticular activating system that maintains arousal. Damage here can cause coma or death. The cortex handles higher functions — perception, language, reasoning — whose loss is profoundly disabling but not immediately fatal. This reflects the evolutionary hierarchy: brainstem structures are oldest and control the most essential functions."
 
-- question: "The cerebellum's only function is to coordinate motor movements; it plays no role in cognitive functions."
+- question: "The cerebellum's mainly function is to coordinate motor movements; it plays no role in cognitive functions."
   type: true-false
   answer: false
   explanation: "The cerebellum contributes to timing and precision across multiple domains, not just motor coordination. Research has extended its role to cognitive timing, language processing, and even emotional regulation. The cerebellum compares intended and actual outputs and issues correction signals — a computational role applicable far beyond motor control. Assuming it is purely a motor structure misses that the same timing and error-correction mechanism applies to cognitive tasks."

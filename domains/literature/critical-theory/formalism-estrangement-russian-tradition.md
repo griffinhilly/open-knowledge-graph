@@ -57,7 +57,7 @@ Formalism does not ignore content and context; it argues that form and content a
   answer: true
   explanation: "This is the core Formalist position, and it explains why paraphrase is inadequate for literary analysis. The Formalists did not ignore content; they rejected the idea that content could be separated from form and studied independently. How something is said — syntax, rhythm, arrangement, device — is constitutive of what is being said. Changing the form creates a different text with different meaning, not the same meaning in different packaging."
 
-- question: "A careful paraphrase of a poem's content — preserving all its ideas and images in plain prose — captures what the poem means in a more accessible form."
+- question: "A careful paraphrase of a poem's content — preserving most its ideas and images in plain prose — captures what the poem means in a more accessible form."
   type: true-false
   answer: false
   explanation: "This is precisely the claim Formalism denies. For Shklovsky, paraphrase produces a different object because the form is the meaning. A poem that uses disrupted syntax to make perception slow and effortful creates an experience that cannot survive translation into smooth prose that reads automatically. The 'same ideas' in plain language are not the same text — the formal devices that create estrangement are stripped away, and with them the distinctive literary effect that gives the work its meaning."

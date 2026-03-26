@@ -62,7 +62,7 @@ Use concrete examples with marked quantifiers. Identify bound vs. free variables
   answer: true
   explanation: "A sentence has no free variables — all variables are bound by quantifiers, which internally specify their range of values. The quantifiers handle the 'what does x refer to?' question internally, so no external assignment is needed. This is precisely why sentences are the natural objects of logical theorems, axioms, and model theory: '∀x (x > 0 → x² > 0)' is either true or false in the natural numbers, period, with no additional information needed."
 
-- question: "A free variable in a formula means the formula has no truth value and is logically meaningless until all variables are bound by quantifiers."
+- question: "A free variable in a formula means the formula has no truth value and is logically meaningless until most variables are bound by quantifiers."
   type: true-false
   answer: false
   explanation: "Free variables are not undefined — they are parameters awaiting an assignment. Given a structure and a variable assignment (a function mapping free variables to domain elements), any formula, open or closed, has a determinate truth value. The open formula P(x) is meaningful: it is true of exactly the elements x in the domain that satisfy P. In fact, open formulas are central to predicate logic — they define predicates, and substituting terms for free variables is how universal instantiation works."

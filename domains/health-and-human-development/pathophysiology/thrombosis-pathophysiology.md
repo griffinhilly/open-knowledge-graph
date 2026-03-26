@@ -56,7 +56,7 @@ Not all thrombi are occlusive—some are mural and do not obstruct flow initiall
   answer: 1
   explanation: "DVT is primarily driven by stasis, which allows the coagulation cascade to proceed, producing a fibrin mesh that traps red blood cells — a 'red thrombus.' Arterial thrombosis at a plaque rupture site is primarily driven by vessel wall injury, which directly activates platelets via exposed collagen, producing a platelet-rich 'white thrombus.' This distinction has direct therapeutic implications: anticoagulants (heparin, warfarin, direct oral anticoagulants) are highly effective against fibrin-rich red clots; antiplatelet agents (aspirin, clopidogrel) are the mainstay for platelet-rich white clots."
 
-- question: "All three components of Virchow's triad must be present simultaneously for thrombosis to occur."
+- question: "Most three components of Virchow's triad should be present simultaneously for thrombosis to occur."
   type: true-false
   answer: false
   explanation: "Each arm of Virchow's triad is independently sufficient to promote thrombosis. Vessel wall injury alone (as in atherosclerotic plaque rupture) can trigger acute arterial thrombosis. Stasis alone (as in prolonged immobility or AF) can trigger DVT or atrial thrombus. Hypercoagulability alone (as in Factor V Leiden mutation) increases thrombotic risk without vascular damage or stasis. However, risk is multiplicative when multiple arms combine — a patient with Factor V Leiden who takes oral contraceptives faces 30–50× baseline risk because two arms interact synergistically."

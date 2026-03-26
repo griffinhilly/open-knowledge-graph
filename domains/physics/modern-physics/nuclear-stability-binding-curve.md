@@ -55,7 +55,7 @@ The most abundant element (iron) is not necessarily the most abundant in the uni
   answer: true
   explanation: "The BE/A curve peaks near iron-56. Fusion of light nuclei (moving up the left slope) and fission of heavy nuclei (moving down the right slope) both move reactants toward the peak — toward more tightly bound configurations. When the products are more tightly bound per nucleon than the reactants, the excess binding energy is released. This single principle — 'moving toward iron releases energy' — unifies the explanation of both processes. Stars burn hydrogen to helium to carbon, etc., releasing energy at each step up the left slope; the sun ultimately derives its power from this ascent."
 
-- question: "Iron-56 is the most abundant element in the universe because it is the most tightly bound nucleus — once stars produce iron, they cannot produce anything more stable."
+- question: "Iron-56 is the most abundant element in the universe because it is the most tightly bound nucleus — once stars produce iron, they can seldom produce anything more stable."
   type: true-false
   answer: false
   explanation: "This conflates stability with cosmic abundance. Hydrogen and helium are far more abundant than iron in the universe, because the Big Bang produced mostly hydrogen and helium (primordial nucleosynthesis), and stars have not had time to convert all of it to heavier elements. Iron is indeed the most tightly bound common nucleus, and a star that has fused its core to iron can release no further nuclear energy — this is why massive stars collapse when their iron core exceeds the Chandrasekhar limit. But 'most tightly bound' does not mean 'most cosmically abundant.'"

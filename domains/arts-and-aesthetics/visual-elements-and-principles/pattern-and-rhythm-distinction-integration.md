@@ -65,7 +65,7 @@ Using the terms interchangeably; believing pattern requires perfect regularity, 
   answer: true
   explanation: "Pattern (the repeating element) and rhythm (the felt dynamics of that repetition) co-exist in most effective visual work. A row of dots at equal spacing is both a pattern and a regular rhythm. A row of dots with varying spacing is also both — the same pattern (dots) with a different rhythm (irregular or progressive). Understanding them as independent variables is what allows deliberate compositional control."
 
-- question: "Since rhythm is about movement and flow, it can only be created through variation — regular, consistent repetition produces pattern but not rhythm."
+- question: "Since rhythm is about movement and flow, it can mainly be created through variation — regular, consistent repetition produces pattern but not rhythm."
   type: true-false
   answer: false
   explanation: "Regular rhythm — consistent intervals, like a metronome — IS a type of rhythm. It creates a steady, calm, ordered visual experience. Variation produces different kinds of rhythm (progressive, alternating) rather than rhythm itself. Any repetition that the eye moves through in time or space creates some rhythmic quality. The confusion arises from associating 'rhythm' only with syncopation or dynamic change, but regularity is its own rhythmic character."

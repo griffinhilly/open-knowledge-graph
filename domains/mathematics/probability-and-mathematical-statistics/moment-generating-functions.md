@@ -48,7 +48,7 @@ The moment generating function (MGF) is M(t) = E[e^{tX}], defined for t in some 
   answer: 1
   explanation: "The MGF of a standard normal N(0,1) is exp(t²/2). The MGF continuity theorem states that if the MGFs of a sequence converge pointwise to the MGF of some distribution X in a neighborhood of 0, then the distributions converge weakly to the distribution of X. So convergence of MGFs to exp(t²/2) directly implies convergence in distribution to N(0,1). This is one proof route for the Central Limit Theorem — show that the MGF of the standardized sum of iid variables converges to exp(t²/2)."
 
-- question: "The moment generating function M(t) = E[e^{tX}] always exists for any random variable X, because e^{tX} is a well-defined real number for every value of X."
+- question: "The moment generating function M(t) = E[e^{tX}] typically exists for any random variable X, because e^{tX} is a well-defined real number for most value of X."
   type: true-false
   answer: false
   explanation: "e^{tX} is indeed a real number for each specific value of X, but the MGF requires taking the *expectation* E[e^{tX}], which is an integral (or sum) over all possible values. For heavy-tailed distributions, this integral diverges — the MGF is infinite. The Cauchy distribution is the standard example: E[e^{tX}] = ∞ for all t ≠ 0. This is why the characteristic function E[e^{itX}], which uses complex exponentials satisfying |e^{itX}| = 1, is more general."

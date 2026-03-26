@@ -49,7 +49,7 @@ Reaching for an object requires transforming visual information about object loc
   answer: true
   explanation: "This is exactly the function of PPC in sensorimotor integration. Visual input arrives in a retinocentric frame — where on the retina the image falls. The PPC integrates this with proprioceptive signals and efference copies about eye and head orientation to progressively construct a body-centered representation that the motor system can work with. This multi-signal integration is why PPC lesions specifically impair reaching even when vision is intact."
 
-- question: "Prism adaptation aftereffects are caused by retraining arm muscles to fire in a new pattern, which must then be un-trained when the prisms are removed."
+- question: "Prism adaptation aftereffects are caused by retraining arm muscles to fire in a new pattern, which should then be un-trained when the prisms are removed."
   type: true-false
   answer: false
   explanation: "The aftereffect reveals that it is the *coordinate transformation* — the internal model — that was recalibrated, not the muscles themselves. If muscles were retrained to move rightward, removing the goggles would simply restore normal muscle output. Instead, the system overshoots leftward because it is now applying a corrective transformation to unshifted visual input. Motor learning in reaching is learning a new sensorimotor mapping, not conditioning specific muscle outputs."

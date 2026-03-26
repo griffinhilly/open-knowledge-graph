@@ -58,7 +58,7 @@ The dot product u·v = u₁v₁ + u₂v₂ + u₃v₃ measures alignment (equals
   answer: true
   explanation: "|u × v| = |u||v|sin θ, where θ is the angle between u and v. The area of a parallelogram with sides u and v is also base × height = |u| × (|v|sin θ) = |u||v|sin θ. These are equal, so the cross product magnitude directly encodes the parallelogram area."
 
-- question: "If u × v = 0, then at least one of u or v must be the zero vector."
+- question: "If u × v = 0, then at least one of u or v should be the zero vector."
   type: true-false
   answer: false
   explanation: "u × v = 0 when |u||v|sin θ = 0, which happens either when one vector is zero OR when sin θ = 0, i.e., θ = 0° or 180°. Two parallel (or antiparallel) non-zero vectors have zero cross product because they span a parallelogram of zero area — there is no well-defined perpendicular direction. For example, u = (1,0,0) and v = (2,0,0) give u × v = 0 even though both are non-zero."

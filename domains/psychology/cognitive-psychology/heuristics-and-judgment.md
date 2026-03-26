@@ -62,7 +62,7 @@ Use the availability heuristic: ask participants to estimate causes of death and
   answer: true
   explanation: "This is one of the most striking findings in anchoring research. Even after being told 'this number came from a spinning wheel' or 'this anchor is random,' participants' subsequent estimates are still significantly pulled toward the anchor. Cognitive awareness does not neutralize the bias. This is important because it rules out explanations based on subjects thinking the anchor is informative — the effect operates at a level below deliberate reasoning."
 
-- question: "Heuristics are cognitive shortcuts that reliably produce worse judgments than formal statistical models across all real-world decision environments."
+- question: "Heuristics are cognitive shortcuts that reliably produce worse judgments than formal statistical models across most real-world decision environments."
   type: true-false
   answer: false
   explanation: "This is the misconception that Gigerenzer's ecological rationality framework directly rebuts. Fast-and-frugal heuristics are tuned to the statistical structure of natural environments, and in those environments they frequently match or exceed the performance of complex statistical models. They fail predictably when removed from those environments — when retrievability diverges from frequency, when base rates are available but ignored — but they are not uniformly inferior. The lesson is that heuristics are environment-specific, not simply bad."

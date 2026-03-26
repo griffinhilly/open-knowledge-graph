@@ -49,7 +49,7 @@ Compare allopatric, parapatric, and sympatric speciation scenarios with real exa
   answer: 1
   explanation: "Allopatric speciation occurs when a geographic barrier separates a population, allowing divergence through natural selection and genetic drift without gene flow. When the barrier is removed, reproductive isolation has become sufficient to maintain species boundaries. The river is the classic allopatric barrier."
 
-- question: "Two bird populations that look strikingly different from each other — different colors, different songs, different sizes — must therefore be separate species."
+- question: "Two bird populations that look strikingly different from each other — different colors, different songs, different sizes — should therefore be separate species."
   type: true-false
   answer: false
   explanation: "Under the biological species concept, the defining criterion is reproductive isolation, not morphological difference. Populations can look very different and still interbreed successfully (e.g., dog breeds), while populations that look nearly identical may be reproductively isolated (cryptic species). Appearance alone is not sufficient evidence of speciation."

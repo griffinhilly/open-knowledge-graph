@@ -62,7 +62,7 @@ Steelmanning also has a **discursive benefit** that goes beyond personal epistem
   answer: 1
   explanation: "A steelman must represent the strongest version of a position that actual advocates hold or would recognize as theirs. Constructing a compelling argument no one actually believes and then refuting it is a sophisticated form of misrepresentation — it creates the appearance of intellectual rigor while still avoiding engagement with the real opposing view. The misconception section explicitly flags this: 'a hypothetical that nobody believes becomes a different kind of distortion.'"
 
-- question: "Successfully steelmanning an argument means you must ultimately agree with it."
+- question: "Successfully steelmanning an argument means you should ultimately agree with it."
   type: true-false
   answer: false
   explanation: "Steelmanning means engaging with the strongest form of a position — not adopting it. You can reconstruct an opposing argument so compellingly that its advocates recognize it as their own, engage with it genuinely, and still conclude it is wrong. What changes is that any disagreement you maintain is based on the real argument, not a weakened version. The practice eliminates lazy dismissal; it does not require abandoning your position."

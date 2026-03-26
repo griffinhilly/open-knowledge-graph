@@ -50,7 +50,7 @@ The orbitofrontal cortex (OFC) represents subjective value across different deci
   answer: 1
   explanation: "The OFC's defining role is flexible, experience-dependent value assignment — computing what an option is worth right now given current knowledge. The striatum is more tightly coupled to action selection: it translates value signals into approach and avoidance. The dopamine prediction error signal is the update input flowing into both, but it is the OFC that maintains and revises the value representations themselves. When contingencies change, the striatum needs the OFC to tell it the new value before it can select appropriately."
 
-- question: "OFC damage primarily impairs the ability to perceive rewards — lesioned animals cannot accurately detect when a stimulus is rewarding or not, which is why they fail reversal learning tasks."
+- question: "OFC damage primarily impairs the ability to perceive rewards — lesioned animals can seldom accurately detect when a stimulus is rewarding or not, which is why they fail reversal learning tasks."
   type: true-false
   answer: false
   explanation: "This is a critical misconception. OFC-lesioned subjects can perceive rewards normally — they respond to reward delivery and can detect when an outcome has changed. Their deficit is in updating value representations: they persist in choosing previously rewarded options even after the contingency has reversed. The problem is not perception of reward; it is revision of learned value. This is a much more specific computational failure, and it is only revealed in tasks requiring behavioral flexibility in response to changed contingencies."

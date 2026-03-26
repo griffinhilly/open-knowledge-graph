@@ -42,7 +42,7 @@ Sylow theorems classify groups of certain orders. Every group of order p² is ab
   answer: 1
   explanation: "The second Sylow theorem establishes that all Sylow p-subgroups are conjugate. A subgroup H is normal in G if and only if gHg⁻¹ = H for all g ∈ G — i.e., it is its own conjugate. If H is the unique Sylow p-subgroup, every conjugate of H is also a Sylow p-subgroup, and since there is only one, that conjugate must be H itself. Uniqueness and normality are equivalent here via conjugacy — this is the logical bridge in every 'n_p = 1 implies normal' argument."
 
-- question: "If a group G has order pq where p < q are distinct primes and q ≡ 1 (mod p), then G must be cyclic."
+- question: "If a group G has order pq where p < q are distinct primes and q ≡ 1 (mod p), then G should be cyclic."
   type: true-false
   answer: false
   explanation: "When q ≡ 1 (mod p), the number of Sylow p-subgroups n_p can equal q (since q ≡ 1 mod p and q | q — satisfying both Sylow constraints). So the Sylow p-subgroup need not be unique or normal, and a non-abelian group of order pq exists in this case. It is only when q ≢ 1 (mod p) that the constraints force n_p = 1, making both Sylow subgroups normal, so G ≅ Z_pq (cyclic). The condition q ≡ 1 (mod p) is precisely the obstruction to cyclicity for groups of order pq."

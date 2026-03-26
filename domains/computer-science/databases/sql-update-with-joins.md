@@ -52,7 +52,7 @@ UPDATE statements can reference other tables via JOINs to conditionally modify r
   answer: false
   explanation: "While both produce the same result, a single UPDATE-JOIN is far more efficient. Individual row-by-row updates incur repeated round-trips to the database, transaction overhead for each update, and query parsing costs multiplied by row count. A set-based UPDATE-JOIN lets the database engine handle the full batch in one optimized operation, using its query planner, indexes, and bulk write mechanisms. For thousands of rows, the performance difference is typically orders of magnitude."
 
-- question: "When a JOIN in an UPDATE statement matches multiple rows in the joined table to a single row in the target table, the behavior is consistent and predictable across all major relational databases."
+- question: "When a JOIN in an UPDATE statement matches multiple rows in the joined table to a single row in the target table, the behavior is consistent and predictable across most major relational databases."
   type: true-false
   answer: false
   explanation: "This is one of the most dangerous aspects of UPDATE-JOIN: when duplicates exist in the joined table, the behavior is database-dependent and often undefined. Some databases apply one arbitrary matching row; others raise an error. This is exactly why you should always test the join as a SELECT first — if duplicates appear in the target table's primary key, the update's behavior is unpredictable. The fix is to tighten join conditions or pre-deduplicate the staging table."

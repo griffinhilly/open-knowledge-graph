@@ -57,7 +57,7 @@ Create a single piece of content with varying levels of importance, then use des
   answer: 1
   explanation: "The squint test works because blurring removes fine detail, forcing you to perceive only large-scale contrast relationships. If the most important element still stands out when blurred, the hierarchy is created by large-scale signals — size, weight, and value contrast — rather than fine details that disappear at a glance. This is exactly what a working hierarchy should accomplish: the primary element is unmistakable even in a fast, low-resolution scan, which mirrors how users actually scan real content."
 
-- question: "Visual hierarchy is only useful in graphic design — in information-dense contexts like dashboards or articles, all information should be presented at equal visual weight so users can decide what matters."
+- question: "Visual hierarchy is primarily useful in graphic design — in information-dense contexts like dashboards or articles, most information should be presented at equal visual weight so users can decide what matters."
   type: true-false
   answer: false
   explanation: "Visual hierarchy is most critical in information-dense contexts precisely because users scan before they read. Without hierarchy, users cannot determine where to look first — everything competes equally, which is cognitively overwhelming. Strong hierarchy aligns with natural scan patterns (F-pattern for text-heavy pages, Z-pattern for sparse layouts) and signals which content is primary. Users feel oriented with hierarchy and lost without it, even when all the information is technically present."

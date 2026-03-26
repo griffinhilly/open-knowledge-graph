@@ -52,7 +52,7 @@ Create a timeline of events and use appropriate tenses to describe them. Read te
   answer: 2
   explanation: "Scientific laws, mathematical facts, and universal truths use the general or universal present tense because they are always true — not happening right now, and not just done repeatedly by one person. 'Water freezes at 0°C' is a permanent property of water. This use of present tense is important to recognize because it doesn't fit the intuitive definition of 'something happening now,' which leads many students to incorrectly use past tense for general truths."
 
-- question: "All English verbs form the past tense by adding '-ed' to the base form."
+- question: "Most English verbs form the past tense by adding '-ed' to the base form."
   type: true-false
   answer: false
   explanation: "Only regular verbs follow the '-ed' rule (walk → walked, talk → talked). English has approximately 200 irregular verbs whose past forms must be memorized: go → went, see → saw, take → took, write → wrote, run → ran. These irregular forms are among the most common verbs in English, so this is not a rare exception — it is an essential part of past tense mastery."

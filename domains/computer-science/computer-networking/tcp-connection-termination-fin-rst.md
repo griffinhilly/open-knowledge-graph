@@ -58,7 +58,7 @@ FIN is not the same as RST; FIN allows graceful shutdown while RST is abrupt. TI
   answer: true
   explanation: "This is the essence of TCP's half-close capability. A FIN only closes one direction of the full-duplex connection — the sender's write direction. The receiver of the FIN acknowledges it (confirming receipt) but is not required to close its own write direction simultaneously. It can continue sending data for as long as needed. This is not just a theoretical detail: many application protocols rely on it. A client sending a large upload while receiving the server's response close is a common real-world scenario. The connection only fully closes after both sides have sent and acknowledged each other's FINs."
 
-- question: "When a TCP RST is sent, all buffered data in transit is delivered to the receiving application before the connection is fully torn down."
+- question: "When a TCP RST is sent, most buffered data in transit is delivered to the receiving application before the connection is fully torn down."
   type: true-false
   answer: false
   explanation: "RST is TCP's emergency abort mechanism, not a graceful teardown. When a RST is sent (or received), the connection is immediately invalidated — no further data is exchanged, and any data buffered in the TCP send or receive buffers is discarded without delivery. This distinguishes RST from FIN: FIN says 'I am done sending, but let us finish properly,' while RST says 'this connection is invalid — stop now, discard everything.' Applications using RST (or that experience an unexpected RST) should expect potential data loss. This is why RST is reserved for error conditions and abrupt termination, not normal connection close."

@@ -43,7 +43,7 @@ The same events look different depending on the time scale you use. A revolution
   answer: 1
   explanation: "The Black Death's immediate outbreak is an event (1347–1353), but questions about how it restructured labor relations, land tenure, and class hierarchy operate at the conjunctural scale — decades to roughly a century. Braudel's three scales are: the event (years), the conjuncture (decades to centuries), and the longue durée (centuries to millennia). The key insight is that the event itself is often less explanatorily important than the medium- or long-term structures it disrupts or accelerates — which is why the conjunctural or longue durée scale is often where historians find the most illuminating analysis."
 
-- question: "The most detailed, event-focused historical analysis always produces the most accurate and complete explanation, because it is closest to the primary evidence."
+- question: "The most detailed, event-focused historical analysis typically produces the most accurate and complete explanation, because it is closest to the primary evidence."
   type: true-false
   answer: false
   explanation: "No temporal scale is inherently more accurate or complete than another — each is suited to different questions. The event scale reveals individual actions and contingencies that long-run analyses obscure. The longue durée reveals structural constraints (geography, climate, agricultural limits) that event-scale analysis misses entirely. Braudel's argument was not that the longue durée is more 'real' but that traditional event-focused narrative history had overlooked slower forces that set the stage on which events played out. Good historical work specifies which scale it operates at and why that scale fits the question."

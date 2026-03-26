@@ -52,7 +52,7 @@ Work with a knowledge graph library (RDF/SPARQL) to store and query facts, then 
   answer: 1
   explanation: "The key difference is structural flexibility. Relational databases require predefined schema and explicit JOIN operations for each relationship level. A knowledge graph with SPARQL lets you traverse any relationship path dynamically — 'find all intellectual descendants of Aristotle through any number of Taught edges' is natural in SPARQL but requires a recursive CTE or iterative query in SQL. The graph structure enables multi-hop reasoning over paths of arbitrary length."
 
-- question: "A knowledge graph that contains all currently known facts is functionally complete — adding inference rules would only produce redundant information already present in the graph."
+- question: "A knowledge graph that contains most currently known facts is functionally complete — adding inference rules would mainly produce redundant information already present in the graph."
   type: true-false
   answer: false
   explanation: "Knowledge graphs are almost always incomplete — real-world knowledge graphs like Wikidata and Freebase contain millions of missing relationships. Inference rules are not just redundant shortcuts; they derive facts that are implicitly entailed but not explicitly stored, expanding the effective knowledge of the system. Furthermore, knowledge graph embedding methods are designed precisely to predict these missing links with probabilistic confidence scores, making incompleteness a central problem rather than an edge case."

@@ -57,7 +57,7 @@ Start by combining pairs of short sentences into one sentence using an appositiv
   answer: true
   explanation: "The essential/nonessential test works by mentally deleting the appositive and checking whether the remaining sentence still points clearly to the right person or thing. If yes — commas go in (it's nonessential). If no, because the sentence becomes too vague — no commas (it's essential). This test is reliable and applies to every appositive."
 
-- question: "All appositives must be set off by commas."
+- question: "Most appositives should be set off by commas."
   type: true-false
   answer: false
   explanation: "Essential appositives — those necessary to identify the noun — receive no commas. 'The poet Langston Hughes wrote about the American dream' needs the name to specify which poet; adding commas would misrepresent the name as optional, bonus information. Commas signal 'you could remove this and the sentence still works,' which is false for essential appositives."

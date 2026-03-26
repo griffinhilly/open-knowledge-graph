@@ -41,7 +41,7 @@ Start with concrete examples: compound interest, population growth, radioactive 
   answer: 2
   explanation: "Every 3 hours, the population doubles — so after t hours it has doubled t/3 times. The base is 2 (the growth factor), and the exponent is t/3. Option A is a linear model (adding instead of multiplying). Option B would double every 1 hour, not every 3. Option D uses 2/3 as a decay factor, which would produce decreasing values."
 
-- question: "After two half-lives have passed, a radioactive substance has completely decayed to zero."
+- question: "After two half-lives have passed, a radioactive substance has largely decayed to zero."
   type: true-false
   answer: false
   explanation: "After each half-life, half of the *remaining* substance decays — not half of the original. After one half-life: 50% remains. After two: 25% remains. After three: 12.5%. The quantity follows A(t) = A_0 · (1/2)^(t/h) and approaches zero asymptotically but never reaches it."

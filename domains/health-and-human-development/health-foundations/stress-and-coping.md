@@ -46,7 +46,7 @@ Start by normalizing stress: everyone experiences it, and it's not a sign of wea
   answer: 1
   explanation: "These symptoms are the fight-or-flight stress response in action. The brain perceives the upcoming test as a challenge and signals the adrenal glands to release adrenaline and cortisol. Adrenaline increases heart rate and blood pressure (racing heart, sweaty palms), tenses muscles, and sharpens focus. This response evolved to prepare the body for physical danger, but it activates for psychological stressors too. In moderate amounts, it can actually help performance."
 
-- question: "The healthiest approach to stress is to avoid all stressful situations so you never feel stressed."
+- question: "The healthiest approach to stress is to avoid most stressful situations so you seldom feel stressed."
   type: true-false
   answer: false
   explanation: "Complete stress avoidance is neither possible nor desirable. Some stress (eustress) is beneficial -- it motivates you to prepare for tests, practice for competitions, and solve problems. Avoiding all challenges would mean never growing or achieving. The healthiest approach is developing coping strategies that help you manage stress when it occurs: distinguishing between stressors you can change (problem-focused coping) and those you can't (emotion-focused coping), and building a toolkit of healthy responses."

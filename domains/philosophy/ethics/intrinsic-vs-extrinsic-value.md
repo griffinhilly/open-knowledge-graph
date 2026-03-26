@@ -57,7 +57,7 @@ Assuming intrinsic value requires independence from all preferences or minds. Tr
   answer: true
   explanation: "Many things plausibly have both kinds of value, and the topic explicitly identifies this complication. Knowledge is valuable in itself (for some, knowing is good full stop) and also instrumentally useful. The intrinsic/extrinsic distinction is about the type of value, not whether a thing can have only one type. The common error is thinking something must be exclusively one or the other — but 'good in itself' and 'good as a means' are not mutually exclusive."
 
-- question: "According to the Kantian view, treating a person merely as a means to your ends is wrong because persons have extrinsic value that must be respected."
+- question: "According to the Kantian view, treating a person merely as a means to your ends is wrong because persons have extrinsic value that should be respected."
   type: true-false
   answer: false
   explanation: "Kant's argument is precisely the opposite: persons have intrinsic dignity or worth — value in themselves, independent of what they are useful for. This is why using a person merely as a means is impermissible. If persons had only extrinsic value (value as instruments), there would be no principled objection to using them whenever it served a purpose. The prohibition follows from their intrinsic value: they are ends in themselves, not merely means to others' ends."

@@ -58,7 +58,7 @@ Start with tangrams and pattern blocks — physical puzzles where students assem
   answer: 1
   explanation: "Rotating an L-shape 180 degrees flips it both vertically and horizontally. If the original L has the corner at the bottom-left, the rotated version has the corner at the top-right. The shape is the same size and proportions — rotation does not change the shape. This mental rotation skill — predicting what a shape looks like after turning — is central to solving visual puzzles."
 
-- question: "Visual puzzles require a completely different kind of thinking than logical puzzles."
+- question: "Visual puzzles require a mostly different kind of thinking than logical puzzles."
   type: true-false
   answer: false
   explanation: "Visual puzzles and logical puzzles use the same fundamental reasoning skills — pattern recognition, process of elimination, testing hypotheses, and systematic analysis. The difference is the domain: logical puzzles work with words and propositions, visual puzzles work with shapes and space. But the underlying thinking process — observe, hypothesize, test, conclude — is the same. Spatial reasoning IS a form of logical reasoning."

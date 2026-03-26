@@ -47,7 +47,7 @@ European Modernists discovered African masks and Japanese prints, integrating no
   answer: 2
   explanation: "Japonisme involved genuine two-way exchange: Japanese woodblock prints influenced European Impressionists and Post-Impressionists, while Japanese artists were simultaneously incorporating Western perspective and oil painting into their own practices. The exchange was bilateral, even though it occurred under conditions of dramatic power asymmetry — Japan faced military pressure from Western nations during the same period. The African art case lacked this reciprocity: African artists were not simultaneously incorporated into European critical conversations about their influence."
 
-- question: "Because all art traditions have always borrowed and transformed from others throughout history, cross-cultural artistic exchange should be evaluated purely on its aesthetic results."
+- question: "Because most art traditions have usually borrowed and transformed from others throughout history, cross-cultural artistic exchange should be evaluated purely on its aesthetic results."
   type: true-false
   answer: false
   explanation: "Aesthetic results alone cannot account for the moral and political dimensions of exchange. Who receives credit, who is named, who is compensated, and whether source traditions are understood on their own terms — these are not aesthetic questions, but they matter. Cross-cultural exchange can be simultaneously artistically generative and exploitative. Responsible art history requires holding both truths: the question is not whether borrowing is legitimate, but whether the terms of exchange are reciprocal and whether credit is given."

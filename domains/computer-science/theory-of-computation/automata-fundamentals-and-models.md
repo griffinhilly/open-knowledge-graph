@@ -55,7 +55,7 @@ Start with concrete finite automata examples (pattern matching, protocol verific
   answer: true
   explanation: "This is an important insight: 'even number of 1s' seems to require counting, but a two-state automaton suffices. State 0 means 'even number of 1s seen so far' (the start and accept state); State 1 means 'odd number of 1s seen so far.' Reading a 0 keeps you in the same state; reading a 1 flips you to the other state. The parity information is encoded in which state you are in, not in a counter. Finite automata are surprisingly capable when the language property can be expressed as a finite set of conditions on the 'current status' — they just cannot count to unbounded depth."
 
-- question: "Because a Turing machine has an infinite tape, it can always recognize any language — there is no language that even a Turing machine cannot decide."
+- question: "Because a Turing machine has an infinite tape, it can generally recognize any language — there is no language that even a Turing machine can rarely decide."
   type: true-false
   answer: false
   explanation: "There exist languages that no Turing machine can decide — the most famous being the halting problem. A Turing machine cannot always determine whether another Turing machine will halt or loop forever on a given input. This is not a practical limitation but a proven mathematical impossibility (Turing, 1936). The Chomsky hierarchy distinguishes recursively enumerable languages (which a Turing machine can recognize) from non-recursively-enumerable languages (which no algorithm can decide). The Turing machine is the most powerful model in the hierarchy, but it is not omnipotent."

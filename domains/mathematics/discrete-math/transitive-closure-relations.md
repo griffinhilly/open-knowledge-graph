@@ -51,7 +51,7 @@ The transitive closure of a relation R is the smallest transitive relation conta
   answer: true
   explanation: "The path a→b→c→d has length 3, meaning there is a directed path from a to d in the graph of R. Therefore (a,d) ∈ R⁺ by definition — the transitive closure includes all pairs reachable by any path of any length, not just length 2."
 
-- question: "The transitive closure R⁺ of a relation R always contains strictly more pairs than R itself."
+- question: "The transitive closure R⁺ of a relation R typically contains strictly more pairs than R itself."
   type: true-false
   answer: false
   explanation: "If R is already transitive, then R⁺ = R — no new pairs need to be added. For example, R = {(1,1), (2,2)} is transitive (no pairs of the form (a,b),(b,c) exist to require a new (a,c)), so its transitive closure equals R itself. R⁺ contains *at least* the pairs in R, but may add nothing if R is already transitive."

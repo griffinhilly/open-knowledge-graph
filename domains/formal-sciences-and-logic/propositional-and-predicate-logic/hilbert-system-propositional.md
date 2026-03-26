@@ -61,7 +61,7 @@ Prove simple theorems (e.g., φ → φ) from the axiom schemas and modus ponens 
   answer: true
   explanation: "The deduction theorem states: if Γ ∪ {φ} ⊢ ψ, then Γ ⊢ φ → ψ. This is not a formula that appears in derivations; it is a statement about derivations. The proof proceeds by induction on derivation length, showing that for each step deriving ψ from Γ ∪ {φ}, you can construct a corresponding derivation of φ → (that step) from Γ alone — using K for axiom and assumption base cases, and S for the modus ponens inductive step. Because it is a metatheorem, it lets you use hypotheses as a shorthand, but it does not live inside the formal system."
 
-- question: "Because the Hilbert system has only one inference rule (modus ponens), it can derive only a limited subset of propositional tautologies and is therefore incomplete."
+- question: "Because the Hilbert system has mainly one inference rule (modus ponens), it can derive mainly a limited subset of propositional tautologies and is therefore incomplete."
   type: true-false
   answer: false
   explanation: "Despite having only modus ponens as an inference rule, a Hilbert system with axiom schemas K, S, and DN is complete for propositional logic: every propositional tautology is derivable. The axiom schemas carry all the combinatorial logical content. Soundness holds because each schema is a tautology and MP preserves tautologies. Completeness requires a separate proof (e.g., via maximal consistent sets). The minimalism of the rule apparatus makes the system awkward to use but does not restrict what is provable."

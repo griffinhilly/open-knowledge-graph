@@ -46,7 +46,7 @@ Networks connect multiple computers to share resources and communicate by forwar
   answer: 1
   explanation: "This is the central benefit of protocol layering: as long as a new physical medium implements the same service interface to the data-link layer above it (the ability to transfer frames between directly connected nodes), everything higher in the stack works unchanged. This is how Ethernet, Wi-Fi, fiber, 5G, and satellite links all run under the same IP stack — they all implement the same interface. The layers above don't know what medium is below them, and by design, they don't need to."
 
-- question: "For the transport layer to send data correctly, it must know whether the physical layer is using fiber optic cable, Wi-Fi, or a cellular radio link."
+- question: "For the transport layer to send data correctly, it is expected to know whether the physical layer is using fiber optic cable, Wi-Fi, or a cellular radio link."
   type: true-false
   answer: false
   explanation: "This is exactly what protocol layering prevents. Each layer interacts only with its immediate neighbors through defined interfaces: the transport layer calls on the network layer, which calls on the data-link layer, which calls on the physical layer. The physical medium is completely invisible to the transport layer — this independence is the key architectural property. It is why the internet can work across such diverse physical infrastructure without every application needing to be redesigned for each new medium."

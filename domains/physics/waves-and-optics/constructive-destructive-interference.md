@@ -50,7 +50,7 @@ Constructive interference occurs when two coherent waves of equal frequency comb
   answer: true
   explanation: "The condition for constructive interference is Δ = nλ for any whole number n. Two full wavelengths (Δ = 2λ) satisfies this with n = 2: the second wave arrives having completed exactly two extra full cycles, so it is perfectly back in phase with the first wave. Amplitude addition occurs."
 
-- question: "When two waves undergo perfect destructive interference, all of the energy carried by the waves is permanently destroyed at that point."
+- question: "When two waves undergo perfect destructive interference, most of the energy carried by the waves is permanently destroyed at that point."
   type: true-false
   answer: false
   explanation: "Energy is conserved — it is redistributed, not destroyed. At points of destructive interference the amplitude (and therefore intensity) is zero, but the energy that 'disappears' there reappears at nearby points of constructive interference. The overall energy in the interference pattern equals the sum of the energies of the original waves. This is why noise-cancelling headphones don't violate thermodynamics: the cancelled sound energy is dissipated elsewhere in the system."

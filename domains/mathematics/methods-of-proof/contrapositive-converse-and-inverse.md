@@ -54,7 +54,7 @@ Test with concrete examples: 'If even, then divisible by 2' versus its converse,
   answer: true
   explanation: "There are only two distinct logical forms among the four: the original (p → q) and its contrapositive (¬q → ¬p) are equivalent; the converse (q → p) and the inverse (¬p → ¬q) are equivalent to each other. The converse and inverse are not equivalent to the original. So when the original is true, the contrapositive is true, but the converse and inverse may be true or false — and whatever truth value the converse has, the inverse shares it."
 
-- question: "If a conditional p → q is true, its converse q → p must also be true."
+- question: "If a conditional p → q is true, its converse q → p is expected to also be true."
   type: true-false
   answer: false
   explanation: "This is the most common error in conditional logic. The converse is not logically equivalent to the original. A conditional and its converse can have different truth values. The example from the topic is conclusive: 'If a function is differentiable, it is continuous' is true; the converse 'If a function is continuous, it is differentiable' is false (|x| at 0 is a counterexample). Only the contrapositive is guaranteed to have the same truth value as the original."

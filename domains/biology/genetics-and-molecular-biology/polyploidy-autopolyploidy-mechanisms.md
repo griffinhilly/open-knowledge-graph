@@ -54,7 +54,7 @@ Predict chromosome pairing in triploids (3n) and tetraploids (4n) and infer meio
   answer: 2
   explanation: "Colchicine binds to tubulin and prevents microtubule polymerization, which disassembles the mitotic spindle. Without a spindle, chromosomes cannot be pulled to opposite poles during anaphase. The cell completes DNA replication (chromosomes are duplicated) but cannot segregate them, so cytokinesis either fails to occur or produces a single cell with twice the normal chromosome complement. If this happens in cells that give rise to gametes, or early in development, the resulting organism or its offspring may be polyploid. This technique is widely used to create new polyploid crop varieties."
 
-- question: "All polyploid organisms are sterile because the presence of extra chromosome sets always disrupts meiosis too severely to produce viable gametes."
+- question: "Most polyploid organisms are sterile because the presence of extra chromosome sets generally disrupts meiosis too severely to produce viable gametes."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about polyploidy. While odd-ploidy polyploids (3n, 5n) are typically sterile because their chromosome sets cannot be divided evenly, even-ploidy polyploids (4n, 6n, 8n) can achieve normal or near-normal fertility. Over evolutionary time, selection favors mechanisms that promote orderly bivalent pairing in even-ploidy polyploids, and many successful crop plants (wheat 6n, potato 4n, strawberry 8n) are polyploids that reproduce sexually. Polyploidy has been one of the most important mechanisms of speciation in plants."

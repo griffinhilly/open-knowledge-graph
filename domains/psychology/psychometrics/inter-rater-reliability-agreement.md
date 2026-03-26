@@ -57,7 +57,7 @@ Using simple percent agreement without accounting for chance agreement. Assuming
   answer: true
   explanation: "This is the central insight of kappa: it measures agreement *above and beyond* what would be expected by chance. When both raters systematically use the same dominant category (because it is very prevalent), their observed agreement P_o approaches P_e, making the numerator (P_o − P_e) approach 0. Kappa thus correctly reveals that the raters are not adding independent information — they are just reflecting the base rate. This is why percent agreement alone is an inadequate reliability metric."
 
-- question: "A kappa of .80 is widely accepted as indicating good inter-rater reliability and can be applied as a universal threshold across all measurement contexts."
+- question: "A kappa of .80 is widely accepted as indicating good inter-rater reliability and can be applied as a universal threshold across most measurement contexts."
   type: true-false
   answer: false
   explanation: "Kappa thresholds are context-dependent. In high-stakes clinical or legal settings (e.g., psychiatric diagnosis, neuroimaging interpretation), a kappa of .80 might be inadequate. In exploratory research with complex behavioral coding, a kappa of .60 might be acceptable. Standards also vary by number of categories, prevalence of categories, and the consequences of rater disagreement. The common misconception is treating any single threshold as universal — a sign that the researcher hasn't thought through the specific demands of their measurement context."

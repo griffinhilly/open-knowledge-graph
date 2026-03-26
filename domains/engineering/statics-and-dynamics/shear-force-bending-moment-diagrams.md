@@ -57,7 +57,7 @@ Find all support reactions first, then move along the beam from left to right, c
   answer: 2
   explanation: "The relationship dV/dx = -w(x) means the slope of the shear diagram equals the negative distributed load intensity. For a uniform load, w is constant, so dV/dx is constant — producing a straight line (linear shear diagram). The shear starts at the left reaction (positive), decreases linearly to zero at midspan, and continues to the right reaction (negative). The bending moment diagram, being the integral of the shear diagram, is then parabolic — not the shear diagram itself."
 
-- question: "The maximum bending moment in a beam always occurs at the midspan of the beam."
+- question: "The maximum bending moment in a beam usually occurs at the midspan of the beam."
   type: true-false
   answer: false
   explanation: "The maximum bending moment occurs where the shear diagram crosses zero (V = 0), which is only at midspan for symmetric loading on a simply-supported beam. For a concentrated load placed off-center, the zero-crossing shifts toward the heavier reaction. For a cantilever beam, the maximum moment is at the fixed support, not midspan. Always locate the zero-crossing of the shear diagram — not midspan — to identify the critical cross-section."

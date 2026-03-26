@@ -54,7 +54,7 @@ Practice combining pairs of simple sentences using different subordinating conju
   answer: 2
   explanation: "'Because' is a causal conjunction — it asserts that exhaustion was the reason she ran faster. 'Although' is a concessive conjunction — it acknowledges the exhaustion but says it didn't stop her. These are opposite logical claims encoded in the word choice. Substituting one for the other silently reverses the meaning of the sentence. Subordinating conjunctions are not interchangeable; each one specifies a distinct logical relationship."
 
-- question: "Starting a sentence with 'because' is always a grammar error."
+- question: "Starting a sentence with 'because' is typically a grammar error."
   type: true-false
   answer: false
   explanation: "This is one of the most common misconceptions about subordinating conjunctions. Starting a sentence with 'because' is perfectly correct as long as the because-clause is attached to an independent clause: 'Because it rained, we canceled the picnic' is grammatically correct. The actual error is leaving the because-clause as a fragment with no main clause: 'Because it rained.' The rule is: attach the dependent clause to a main clause — don't leave it stranded."

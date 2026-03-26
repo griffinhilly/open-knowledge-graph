@@ -52,7 +52,7 @@ Visualize decision boundaries in 2D for different classifiers (logistic regressi
   answer: true
   explanation: "This is a fundamental property of linear classifiers, not a training failure. If the true decision boundary is nonlinear (classes overlap or are interleaved in ways no hyperplane can separate), the linear model's boundary cannot represent the correct partition. Training longer refines the placement of the line, but the line is still a line — it cannot curve to match a circular or spiral boundary. Adding more data also doesn't help: more examples of a problem the model cannot represent just confirms it. This is the model's inductive bias at work."
 
-- question: "A more complex decision boundary always leads to better classification performance because it can capture more patterns in the data."
+- question: "A more complex decision boundary usually leads to better classification performance because it can capture more patterns in the data."
   type: true-false
   answer: false
   explanation: "More complex boundaries can fit training data better, but they tend to overfit — capturing noise and idiosyncrasies of the training set that do not generalize to new data. A model with a very complex boundary may achieve near-perfect training accuracy while performing poorly on a held-out test set. The optimal boundary is the simplest one that correctly represents the true structure of the problem, not the most complex one that fits every training point. This is the bias-variance tradeoff: high-complexity models reduce bias but increase variance."

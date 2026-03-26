@@ -49,7 +49,7 @@ Gene trees can differ from species trees because genes take time to coalesce aft
   answer: 1
   explanation: "ILS probability depends on the ratio of internodal time to effective population size, measured in coalescent units. In adaptive radiations, the intervals between successive speciation events are very short. There is little time for gene lineages in the ancestral populations to coalesce before the next split happens, so multiple ancient alleles get distributed across the new species and may sort into discordant gene trees. The same problem occurs with large ancestral population sizes, because more variation is present to sort discordantly."
 
-- question: "When a gene tree disagrees with the established species tree, one of the two trees must be wrong — the goal of phylogenomics is to identify and discard the incorrect gene tree."
+- question: "When a gene tree disagrees with the established species tree, one of the two trees is expected to be wrong — the goal of phylogenomics is to identify and discard the incorrect gene tree."
   type: true-false
   answer: false
   explanation: "This is the central misconception the topic corrects. Gene trees and species trees are tracking different but real histories. A gene tree that disagrees with the species tree is not an error — it accurately reflects the genealogy of those gene copies, which happens to differ from the species branching pattern because of ILS, hybridization, or other processes. The goal of phylogenomics is not to discard discordant gene trees but to use the distribution of gene trees across the genome to estimate the species tree while explicitly accounting for the biological processes that cause discordance."

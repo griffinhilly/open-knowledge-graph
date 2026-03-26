@@ -53,7 +53,7 @@ Trace through simple programs by hand, noting which statements execute and in wh
   answer: 1
   explanation: "Tracing the execution: counter=0 (0 < 3, print), counter=1 (1 < 3, print), counter=2 (2 < 3, print), counter=3 (3 < 3 is false, stop). That's 3 executions for counter values 0, 1, and 2. Off-by-one errors are among the most common bugs, and they result from not tracing carefully: the loop condition is checked at value 3 (which fails), so the body runs for 0, 1, and 2 — three times total."
 
-- question: "If a statement appears earlier in the source code file, it will always execute before a statement that appears later in the file."
+- question: "If a statement appears earlier in the source code file, it will generally execute before a statement that appears later in the file."
   type: true-false
   answer: false
   explanation: "Written order and execution order are not the same. A branch might skip over an entire block of code, meaning statements later in the file execute while statements earlier in the file do not. A loop might cause earlier statements (inside the loop body) to execute many more times than a single later statement. The key skill in debugging is tracing the actual execution path rather than reading the file linearly like prose."

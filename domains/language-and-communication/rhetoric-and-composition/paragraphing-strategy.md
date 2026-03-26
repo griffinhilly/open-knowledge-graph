@@ -54,7 +54,7 @@ Paragraphs are rhetorical units that bundle related ideas; strategic paragraphin
   answer: true
   explanation: "During drafting, writers are focused on generating content and following their thinking — worrying about paragraph breaks interrupts that process. It is easier to evaluate where breaks belong after the ideas are on the page, because that's when you can see whether adjacent passages share a unified idea or whether a transition marks a genuine conceptual shift. Auditing paragraphs in revision — looking for ones doing too many jobs (split them) or ideas unnecessarily separated (merge them) — is more efficient and effective than planning breaks in advance."
 
-- question: "In academic writing, longer paragraphs always signal stronger, more sophisticated thinking — a one-sentence paragraph indicates a superficial idea that hasn't been developed."
+- question: "In academic writing, longer paragraphs usually signal stronger, more sophisticated thinking — a one-sentence paragraph indicates a superficial idea that hasn't been developed."
   type: true-false
   answer: false
   explanation: "Paragraph length is a rhetorical tool, not a quality measure. A strategically placed one-sentence paragraph can carry enormous weight precisely because of its brevity — it creates emphasis through contrast and stops the reader at a crucial moment. Long paragraphs signal that an idea requires sustained, interrelated development; short paragraphs signal urgency, finality, or deliberate isolation of a key claim. Treating length as inherently correlated with quality misunderstands how paragraph length functions as a rhetorical signal."

@@ -45,7 +45,7 @@ Prove O, Ω, and Θ relationships from the formal definition by explicitly findi
   answer: 2
   explanation: "If f(n) = O(n), then there exist constants C and n₀ with f(n) ≤ C·n for n ≥ n₀. Since n ≤ n² for large n, the same C works to show f(n) ≤ C·n² — so f is also O(n²). Big-O is an upper bound, not an equality; saying a function is O(n²) does not mean it grows like n². Option A is a common misconception: O(n) does not exclude O(n²). Option B is wrong because Θ(n² + 100n) = Θ(n²) — lower-order terms are dropped."
 
-- question: "An algorithm with O(n²) worst-case complexity always performs exactly n² operations on an input of size n."
+- question: "An algorithm with O(n²) worst-case complexity typically performs exactly n² operations on an input of size n."
   type: true-false
   answer: false
   explanation: "Big-O gives an asymptotic upper bound, not an exact count. The actual number of operations might be 3n² + 5n + 2, or it might be n²/2 + 10. Constants and lower-order terms are deliberately ignored. Additionally, the worst-case complexity says nothing about how the algorithm performs on average or best-case inputs — an O(n²) algorithm might run in O(n) time on already-sorted data."

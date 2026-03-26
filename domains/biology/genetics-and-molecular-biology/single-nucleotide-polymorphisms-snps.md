@@ -53,7 +53,7 @@ Single nucleotide polymorphisms (SNPs) are single-base variations that occur ~1 
   answer: true
   explanation: "This is the core principle that makes GWAS practical. Because nearby positions on a chromosome tend to be inherited together (they are in linkage disequilibrium), a tag SNP that correlates with the other variants in its LD block serves as a proxy for all of them. Genotyping arrays that include well-chosen tag SNPs can therefore survey hundreds of thousands of common variants across the genome without needing to directly genotype every single SNP. If the tag SNP shows disease association, the entire LD block — potentially containing dozens of variants — is implicated and can be fine-mapped."
 
-- question: "If a SNP is identified in a GWAS as strongly associated with a disease, it must be a nonsynonymous coding SNP that alters protein function."
+- question: "If a SNP is identified in a GWAS as strongly associated with a disease, it is expected to be a nonsynonymous coding SNP that alters protein function."
   type: true-false
   answer: false
   explanation: "GWAS associations do not require the identified SNP (or even the causal variant in the same LD block) to be coding. Many GWAS hits map to intronic or intergenic regions, where the functional variant may affect gene regulation — a promoter element, an enhancer, a splice site — rather than the amino acid sequence of a protein. The tag SNP itself is often not in a coding region; it simply flags a chromosomal neighborhood. Fine-mapping and functional follow-up are required to identify the actual causal variant and its mechanism. Assuming GWAS hits must be nonsynonymous coding variants is one of the most common misinterpretations of the field."

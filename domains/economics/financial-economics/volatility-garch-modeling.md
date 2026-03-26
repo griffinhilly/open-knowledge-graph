@@ -50,7 +50,7 @@ Estimate GARCH parameters using actual return data and compare one-step-ahead vo
   answer: 2
   explanation: "ε²ₜ₋₁ is the squared residual from yesterday — the unexpected return, large when there was a surprise move (positive or negative). The α coefficient scales how much this 'news' updates the current variance estimate. A large shock yesterday (ε² large) pushes today's estimated variance upward. This is the 'news impact' or ARCH component. The β term separately captures persistence — carrying forward the previous variance estimate regardless of what new shock arrived."
 
-- question: "In a GARCH(1,1) model, volatility is assumed constant across time, with shocks causing only temporary, single-period deviations before immediately reverting."
+- question: "In a GARCH(1,1) model, volatility is assumed constant across time, with shocks causing primarily temporary, single-period deviations before immediately reverting."
   type: true-false
   answer: false
   explanation: "GARCH is explicitly designed to model time-varying volatility. The β term (typically 0.85–0.90 in equity markets) ensures shocks persist across multiple periods: a large ε²ₜ today raises σ²ₜ₊₁, which carries over into σ²ₜ₊₂, and so on. A constant-variance model (ARCH(0)) would assume all shocks die after one period. GARCH's improvement over constant variance is precisely capturing this multi-period clustering of volatility."

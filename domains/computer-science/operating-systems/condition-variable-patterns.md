@@ -54,7 +54,7 @@ Implement bounded buffers and reader-writer locks using condition variables; tes
   answer: 1
   explanation: "When producers and consumers share one condition variable, signal() wakes one thread — but it might wake another producer. That producer checks whether the buffer is not-full (it still is, since an item was just added), goes back to sleep, and no consumer is ever woken. The item sits in the buffer forever. The fix is either separate condition variables (one per condition) or broadcast() so all waiters recheck. This illustrates why signal() requires careful reasoning about which waiter gets woken."
 
-- question: "Using `if (!condition) wait(cv, lock)` instead of `while (!condition) wait(cv, lock)` is safe as long as the signaling thread always holds the lock when it calls signal()."
+- question: "Using `if (!condition) wait(cv, lock)` instead of `while (!condition) wait(cv, lock)` is safe as long as the signaling thread typically holds the lock when it calls signal()."
   type: true-false
   answer: false
   explanation: "Holding the lock during signal() is necessary but not sufficient to make `if` safe. The problem is barging: after the signaling thread calls signal() and releases the lock, a third thread can acquire the lock before the waiting thread does, and change the condition back to false. The waiting thread then wakes with the condition false — a bug. Additionally, POSIX explicitly permits spurious wakeups (wakeups with no corresponding signal()) for implementation reasons, making `while` necessary regardless of lock discipline."

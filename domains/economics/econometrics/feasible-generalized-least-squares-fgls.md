@@ -49,7 +49,7 @@ FGLS estimates the error covariance matrix from residuals, then applies GLS usin
   answer: true
   explanation: "As sample size grows, the first-stage estimate Ω̂ converges to the true Ω, so the FGLS transformation converges to the true GLS transformation. In the limit, the two estimators are asymptotically equivalent: both achieve the Gauss-Markov lower bound under the correctly specified covariance model. This is why the FGLS tradeoff depends heavily on sample size — in small samples, the estimation error in Ω̂ can dominate, but in large samples it becomes negligible."
 
-- question: "FGLS is always more efficient than OLS because it corrects for non-spherical errors, so it should be the default estimator whenever heteroskedasticity or autocorrelation is suspected."
+- question: "FGLS is generally more efficient than OLS because it corrects for non-spherical errors, so it should be the default estimator whenever heteroskedasticity or autocorrelation is suspected."
   type: true-false
   answer: false
   explanation: "This is the most dangerous misconception about FGLS. Efficiency gains require that (a) the covariance structure is correctly specified and (b) the sample is large enough for step-1 estimation to be precise. If either condition fails, FGLS can have *higher* mean squared error than OLS. In small samples with misspecified covariance structure, the two-step estimation introduces noise that can more than offset the efficiency gains. This is why practitioners often prefer heteroskedasticity-robust standard errors for moderate samples — they require no assumption about the form of heteroskedasticity."

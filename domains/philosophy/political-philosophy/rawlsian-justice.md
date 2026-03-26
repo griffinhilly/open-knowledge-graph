@@ -56,7 +56,7 @@ Read A Theory of Justice Part I and the later revisions in Justice as Fairness: 
   answer: 3
   explanation: "The Difference Principle permits inequalities only if they benefit the least advantaged group. Option D fits: the inequality (higher physician pay) produces an outcome (better healthcare access for the worst-off) that improves their position. Option B is wrong because Rawls rejects the idea that natural talents generate moral entitlement to their full fruits — talent is morally arbitrary. Option C is explicitly ruled out by the Difference Principle, which maximizes the floor, not the average. Option A is wrong because Rawls does not demand equal outcomes — only that inequalities serve the worst-off."
 
-- question: "Rawls's theory of justice requires that all citizens have equal economic outcomes."
+- question: "Rawls's theory of justice requires that most citizens have equal economic outcomes."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of Rawls. He explicitly permits inequalities — the Difference Principle is not an equality principle but a maximin principle: maximize the minimum. Economic inequalities are just when they make the least advantaged as well-off as possible, which often means allowing incentive structures that generate inequality while raising everyone's floor. What Rawls demands is not equal outcomes but that the distribution pass the test of benefiting the worst-off group."

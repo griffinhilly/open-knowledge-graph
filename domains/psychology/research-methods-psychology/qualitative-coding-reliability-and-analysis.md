@@ -56,7 +56,7 @@ Code an interview transcript using inductive and deductive approaches. Compare y
   answer: false
   explanation: "Saturation is a functional criterion — reached when new data yield no new codes or themes — not a numerical one. The number of interviews needed to reach saturation depends on the heterogeneity of the phenomenon and the specificity of the research question. A homogeneous, narrowly defined phenomenon may saturate at 8 interviews; a heterogeneous, complex one may require many more. Reporting saturation requires documenting *when* new material stopped emerging, not claiming a magic number was reached."
 
-- question: "Inductive coding and deductive coding are mutually exclusive approaches — a researcher must choose one before beginning analysis and apply it throughout."
+- question: "Inductive coding and deductive coding are mutually exclusive approaches — a researcher should choose one before beginning analysis and apply it throughout."
   type: true-false
   answer: false
   explanation: "Most rigorous qualitative analyses blend both approaches. Researchers often begin inductively — reading and re-reading data to allow codes to emerge without pre-existing categories — then apply theoretical frameworks deductively as organizing structures. The choice reflects epistemological stance (grounded theory resists premature theory-imposition; framework analysis uses theory as scaffolding from the start), but in practice, most analyses involve iterative movement between bottom-up emergence and top-down conceptual organization."

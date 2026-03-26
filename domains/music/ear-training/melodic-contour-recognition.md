@@ -60,7 +60,7 @@ Draw contour graphs while listening to short melodies. Use graphic notation (lin
   answer: true
   explanation: "This is the defining characteristic of melodic contour. Contour captures only the directional shape — ascending, descending, arch, inverted arch, undulating — without encoding the specific intervals or pitch heights. A stepwise ascending scale and a series of large ascending leaps share an 'ascending' contour. A melody in C major and one in F# minor can share an arch contour. Contour is a higher-level abstraction that strips away interval-specific information."
 
-- question: "To accurately recognize the contour of a melody, a listener must be able to identify the specific pitches and intervals involved."
+- question: "To accurately recognize the contour of a melody, a listener should be able to identify the specific pitches and intervals involved."
   type: true-false
   answer: false
   explanation: "Contour recognition explicitly does not require knowing specific pitches or intervals — that's its value as a foundational skill. A listener can correctly identify that a melody has an arch contour (rises toward the middle, descends at the end) without knowing a single note name or interval size. This is why contour training precedes interval training: it builds perceptual skill at the shape level, which doesn't demand the fine-grained discrimination that pitch and interval recognition require."

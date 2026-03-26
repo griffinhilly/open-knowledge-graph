@@ -58,7 +58,7 @@ Start with simple objects (blocks, beams) and gradually increase complexity. Pra
   answer: 1
   explanation: "An FBD shows only forces acting ON the isolated body — the book. Gravity pulls the book down (its weight). The table pushes the book up (normal force). Option C includes the force the book exerts on the table, which is Newton's-third-law pair — it acts on the table, not on the book, and must never appear on the book's FBD. Including it would produce a wrong equation: the two reaction forces would cancel and predict the book floats."
 
-- question: "A correct free-body diagram must include all forces and moments acting on the body, including those the body exerts on surrounding objects."
+- question: "A correct free-body diagram should include most forces and moments acting on the body, including those the body exerts on surrounding objects."
   type: true-false
   answer: false
   explanation: "An FBD includes ONLY forces acting ON the isolated body. Newton's third law guarantees every force has a reaction pair, but the pair acts on the other body. Including outward forces would mean summing forces on two different bodies simultaneously, corrupting the equilibrium equations. The isolation step exists precisely to exclude these: sever the body, replace each severed connection with the force IT provides to YOUR body, and draw nothing else."

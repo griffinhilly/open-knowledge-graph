@@ -59,7 +59,7 @@ Apply Kelley's three dimensions (consensus, consistency, distinctiveness) to con
   answer: true
   explanation: "Correct. The self-serving bias describes the asymmetric pattern where people tend to make internal attributions for successes ('I worked hard and I'm skilled') and external attributions for failures ('the test was unfair,' 'I had bad luck'). This protects and enhances self-esteem. It is the reverse of the fundamental attribution error — which applies to explaining others' behavior — and both are systematic, not random deviations from Kelley's rational covariation logic."
 
-- question: "According to Kelley's covariation model, people making attributions function like detectives — gathering all available consensus, consistency, and distinctiveness information before reaching any conclusion about cause."
+- question: "According to Kelley's covariation model, people making attributions function like detectives — gathering most available consensus, consistency, and distinctiveness information before reaching any conclusion about cause."
   type: true-false
   answer: false
   explanation: "Kelley's model is a normative description of how attributions *should* be made if the person were a fully rational 'naive scientist.' In practice, most attributions are fast, automatic, and made with incomplete information — often on the basis of a single observation with no consensus or consistency data at all. The model describes the logic of attribution, not the psychological reality. Real attributers frequently bypass the covariation analysis and rely on cognitive shortcuts, producing systematic biases like the fundamental attribution error."

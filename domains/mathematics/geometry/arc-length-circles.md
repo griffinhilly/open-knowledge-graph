@@ -52,7 +52,7 @@ Derive the formula from proportional reasoning: the arc is the same fraction of 
   answer: 0
   explanation: "Arc length = (45/360) × 2π(10) = (1/8) × 20π = 2.5π cm. A common error is using the diameter (20) instead of the radius (10), giving 5π — option B. Another error is multiplying the angle directly by π without applying the fraction, yielding 45π — option D."
 
-- question: "Two arcs with the same central angle measurement always have the same arc length."
+- question: "Two arcs with the same central angle measurement generally have the same arc length."
   type: true-false
   answer: false
   explanation: "Arc length depends on both the central angle AND the radius. Two 60° arcs with radii of 3 cm and 9 cm have arc lengths of π cm and 3π cm respectively. The angle determines the fraction of the circumference traveled; the radius determines how large that circumference is. Arc measure (degrees) and arc length (linear distance) are fundamentally different quantities."

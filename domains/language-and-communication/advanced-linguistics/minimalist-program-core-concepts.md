@@ -36,7 +36,7 @@ The Minimalist Program seeks the most parsimonious principles explaining univers
   answer: 1
   explanation: "Merge is the single recursive operation that builds syntactic structure by combining two objects (words or phrases) into a new constituent. Its binary and recursive character is what allows hierarchical sentence structure to be generated from a flat lexical list. The other options describe Move, island constraints, and theta-role assignment — distinct components of grammar."
 
-- question: "In later formulations of the Minimalist Program, Move (syntactic displacement) and Merge are entirely separate operations with no theoretical relationship to each other."
+- question: "In later formulations of the Minimalist Program, Move (syntactic displacement) and Merge are mostly separate operations with no theoretical relationship to each other."
   type: true-false
   answer: false
   explanation: "A key theoretical move in late minimalism is reanalyzing Move as Internal Merge — Merge applied to an element already present in the current syntactic workspace. This unification reduces the primitive operations of the grammar from two to one, satisfying the minimalist desideratum of parsimony. External Merge (combining two new objects) builds initial structure; Internal Merge (re-merging an existing element) produces displacement effects."

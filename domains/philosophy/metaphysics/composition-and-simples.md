@@ -59,7 +59,7 @@ Read van Inwagen's Material Beings chapters 2-4 for the Special Composition Ques
   answer: true
   explanation: "True — this is precisely the kind of consequence universalism embraces (and critics find absurd). Universalism holds that any collection of objects whatsoever composes a mereological sum. The scattered, causally unrelated shoe-Tower sum exists just as much as a hammer does. The universalist response to the apparent absurdity is that these 'junk' sums are ontologically harmless: they have no causal powers beyond their parts, no natural boundaries, and no interesting unified properties. The world contains them but is not thereby burdened."
 
-- question: "Mereological nihilism denies that matter exists in arrangements that have the appearance of chairs and tables — according to nihilism, there is simply nothing where we think a chair is."
+- question: "Mereological nihilism denies that matter exists in arrangements that have the appearance of chairs and tables — according to nihilism, there is simply very little where we think a chair is."
   type: true-false
   answer: false
   explanation: "False — this is the most common misreading of nihilism. Mereological nihilism fully accepts that simples exist arranged in chair-like, table-like, and person-like ways. It denies that these arrangements constitute a single composite object over and above the simples. So when you see a 'chair,' nihilism says there are simples arranged chair-wise — the simples are real, their arrangement is real, the causal powers are real. What doesn't exist is a further thing called 'the chair' that has these simples as parts."

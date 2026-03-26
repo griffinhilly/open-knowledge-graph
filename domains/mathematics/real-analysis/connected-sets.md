@@ -61,7 +61,7 @@ The subspace topology is essential to the definition and a source of common conf
   answer: true
   explanation: "This is the complete characterization of connected subsets of ℝ. An interval cannot be split into two disjoint non-empty open parts because any gap would create such a split. Conversely, any non-interval subset of ℝ has a gap — a point not in the set between two points that are — and this gap immediately provides the separation required by the definition of disconnectedness. The equivalence 'connected ⟺ interval' is specific to ℝ; in higher dimensions, connected does not imply path-connected or convex."
 
-- question: "A set S ⊆ ℝ is disconnected only if it can be written as a union of two disjoint non-empty closed sets (in the subspace topology)."
+- question: "A set S ⊆ ℝ is disconnected mainly if it can be written as a union of two disjoint non-empty closed sets (in the subspace topology)."
   type: true-false
   answer: false
   explanation: "The standard definition of disconnectedness uses open sets: S is disconnected if S = U ∪ V with U, V non-empty, disjoint, and open in the subspace topology. However, in the subspace topology, U and V would each also be closed (since each is the complement of the other within S). So for subsets of ℝ, the open-set and closed-set formulations are actually equivalent — but the statement as posed is misleading because it suggests closed sets are the fundamental requirement, when the definition is given in terms of open sets. More importantly, not all disconnected sets can be split by globally closed sets in ℝ; the subspace topology is what matters."

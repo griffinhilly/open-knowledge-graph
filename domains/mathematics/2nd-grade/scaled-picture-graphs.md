@@ -63,7 +63,7 @@ Begin by asking students to draw a picture graph where each picture = 1, then sh
   answer: true
   explanation: "The key tells you what each symbol is worth. Without it, you have no way to know whether a star means 1, 2, 5, or 10 units. Two graphs with identical arrangements of symbols but different keys represent completely different data. Reading the key is the first required step — it is the decoding tool that connects symbol count to real quantity."
 
-- question: "A scaled picture graph and a regular picture graph (where each symbol = 1) always show the same number of symbols for the same data."
+- question: "A scaled picture graph and a regular picture graph (where each symbol = 1) generally show the same number of symbols for the same data."
   type: true-false
   answer: false
   explanation: "Scaling is specifically designed to reduce the number of symbols. If 30 students chose soccer and the scale is 5, you draw only 6 symbols. On a one-to-one graph, you'd draw 30 symbols. The fewer symbols are the whole point of scaling — it makes large data sets manageable and graphs with many categories readable without becoming crowded."

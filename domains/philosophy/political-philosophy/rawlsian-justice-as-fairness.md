@@ -61,7 +61,7 @@ Apply the original position to specific distributive questions. Compare Rawls's 
   answer: false
   explanation: "The veil of ignorance is a hypothetical thought experiment, not a historical claim. Rawls does not think societies actually formed this way. The device is a method for achieving impartiality: by imagining that choosers don't know their own place, talents, race, or conception of the good, we strip away all the biases that normally distort our judgments about fairness. The original position is a philosophical tool for reasoning, not a description of historical events. Confusing it with a historical state of nature conflates Rawls with earlier social contract theorists like Hobbes or Locke."
 
-- question: "Behind the veil of ignorance, Rawls argues that rational agents would choose strict equality of all social resources, since any inequality risks being the person at the bottom."
+- question: "Behind the veil of ignorance, Rawls argues that rational agents would choose strict equality of most social resources, since any inequality risks being the person at the bottom."
   type: true-false
   answer: false
   explanation: "This is a common misreading of Rawls. He argues that rational choosers would accept inequality — but only inequality that makes the worst-off position better than it would be under strict equality. The key insight is that if economic inequalities genuinely raise the floor (by creating productive incentives that grow overall wealth), rational self-interested choosers behind the veil should prefer that arrangement to strict equality that leaves everyone lower. They choose the difference principle, not strict equality, because the difference principle maximizes the minimum position."

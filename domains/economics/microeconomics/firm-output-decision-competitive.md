@@ -47,7 +47,7 @@ A competitive firm facing a constant market price maximizes profit by producing 
   answer: 2
   explanation: "The firm produces where P = MC, but only operates when P ≥ min AVC (the shutdown point). Below min AVC, quantity supplied = 0. So the short-run supply curve traces the MC curve for all prices at or above the minimum of AVC. This is distinct from the long-run threshold (min ATC) — in the short run, fixed costs are sunk, so the relevant floor is AVC, not ATC."
 
-- question: "A competitive firm that is earning an economic loss should always shut down in the short run to minimize its losses."
+- question: "A competitive firm that is earning an economic loss should usually shut down in the short run to minimize its losses."
   type: true-false
   answer: false
   explanation: "A loss-making firm should shut down only if price falls below minimum average variable cost. If P is between min AVC and min ATC, the firm is losing money but covers its variable costs — operating costs less than shutting down, because fixed costs must be paid regardless. Shutting down when P > min AVC means forfeiting revenue that would have partially offset unavoidable fixed costs. The shutdown rule is about variable costs, not total costs."

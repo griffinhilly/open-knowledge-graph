@@ -52,7 +52,7 @@ Antipsychotics block dopamine activity to reduce psychotic symptoms. Typical ant
   answer: true
   explanation: "The dopamine hypothesis of schizophrenia is pathway-specific: mesolimbic overactivity drives positive symptoms, while mesocortical hypoactivity contributes to negative symptoms (flat affect, poverty of speech, reduced motivation) and cognitive deficits. Typical antipsychotics block D2 everywhere, including the already-underactive mesocortical pathway, compounding its deficit. This is why typicals are poor at treating negative symptoms and may actually worsen them — a major clinical limitation that atypicals partially address."
 
-- question: "Atypical antipsychotics are safer than typical antipsychotics in all respects, having fewer side effects without introducing any new risks."
+- question: "Atypical antipsychotics are safer than typical antipsychotics in most respects, having fewer side effects without introducing any new risks."
   type: true-false
   answer: false
   explanation: "Atypicals reduce EPS but introduce a distinct class of side effects: metabolic syndrome — weight gain, dyslipidemia, and elevated blood glucose — which significantly increases cardiovascular risk with long-term use. Clozapine additionally carries risk of agranulocytosis, requiring regular blood monitoring. The choice between typical and atypical antipsychotics involves matching each drug's side effect profile to a patient's individual risk factors. Atypicals represent a tradeoff, not a clear overall superiority."

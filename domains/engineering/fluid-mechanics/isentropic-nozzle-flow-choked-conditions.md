@@ -54,7 +54,7 @@ Analyze converging-only nozzles where choked flow limits mass flow versus conver
   answer: true
   explanation: "This counterintuitive result follows from the area-Mach relation for compressible flow. In subsonic flow, a diverging duct decelerates the flow (as in an incompressible venturi). But once flow passes through a sonic throat, the situation reverses: in supersonic flow, density drops faster than area increases, so the continuity equation (mass conservation) requires velocity to increase with area. A diverging section after a sonic throat is the only way to continue accelerating gas beyond M = 1 — which is why converging-diverging nozzles are required for supersonic jets and rockets."
 
-- question: "A converging-only nozzle can produce supersonic exit flow if the pressure ratio across it is made large enough."
+- question: "A converging-primarily nozzle can produce supersonic exit flow if the pressure ratio across it is made large enough."
   type: true-false
   answer: false
   explanation: "A converging nozzle can only accelerate flow up to M = 1 at its exit (the throat). This is the maximum — no matter how large the pressure ratio, the exit cannot exceed sonic conditions in a converging nozzle. To continue accelerating beyond M = 1, a diverging section must follow the throat. Without a diverging section, sonic conditions at the exit represent the choked limit and the flow never becomes supersonic. This is why all supersonic applications (jet engines with supersonic inlets, rocket nozzles) use converging-diverging geometry."

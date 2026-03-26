@@ -55,7 +55,7 @@ Analyze classic psychology studies and evaluate whether they would pass modern I
   answer: 1
   explanation: "No participant was physically harmed — the shocks were fake. The ethical problem was psychological: participants genuinely believed they were harming someone, and many experienced severe distress, anxiety, and lasting guilt. This is what shaped modern ethics standards around psychological harm, not just physical harm. Option C is false — Milgram had departmental approval; it was the *absence of IRB-style review* that the field later corrected."
 
-- question: "Deception in psychological research is always unethical and cannot be approved by an IRB, regardless of the research question or debriefing procedures."
+- question: "Deception in psychological research is generally unethical and can seldom be approved by an IRB, regardless of the research question or debriefing procedures."
   type: true-false
   answer: false
   explanation: "Deception occupies a contested but explicitly permitted space in research ethics. The APA ethical code allows deception when the study cannot be conducted otherwise, when participants are thoroughly debriefed afterward, and when no lasting harm is expected. The bar is higher for studies involving significant psychological threat (like Milgram) than for minor misdirection (like priming studies). The key safeguard is debriefing — a restorative process that corrects false beliefs and checks for distress."

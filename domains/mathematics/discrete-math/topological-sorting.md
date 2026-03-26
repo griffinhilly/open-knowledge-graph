@@ -49,7 +49,7 @@ Topological sorting arranges vertices of a directed acyclic graph (DAG) in a lin
   answer: true
   explanation: "A topological ordering requires that for every edge u → v, u appears before v in the sequence. In a cycle A → B → C → A, A must come before B, B before C, and C before A — which means A must come before itself. No linear sequence can satisfy this. The existence of any cycle makes topological sorting impossible, which is why topological sort is defined only for DAGs (directed acyclic graphs)."
 
-- question: "Every directed graph has at least one valid topological ordering."
+- question: "Most directed graph has at least one valid topological ordering."
   type: true-false
   answer: false
   explanation: "Only directed acyclic graphs (DAGs) admit a topological ordering. Any graph with a directed cycle has no valid topological ordering, because a cycle creates a requirement that some vertex appear before itself in the sequence — an impossibility. The existence of a topological ordering is equivalent to the graph being a DAG."

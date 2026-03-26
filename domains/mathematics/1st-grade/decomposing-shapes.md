@@ -48,7 +48,7 @@ Decomposing shapes means breaking larger shapes into smaller pieces. This develo
   answer: true
   explanation: "Composing (putting shapes together) and decomposing (taking them apart) are reverse operations. Two congruent right triangles, placed with matching sides together, form a rectangle. This is exactly the reverse of decomposing a rectangle by cutting it corner to corner — the same relationship that addition and subtraction have with numbers."
 
-- question: "Decomposing a square always produces the same pieces, no matter where you draw the cut."
+- question: "Decomposing a square usually produces the same pieces, no matter where you draw the cut."
   type: true-false
   answer: false
   explanation: "The pieces you get depend entirely on where and how you draw the cut. Cutting a square from corner to corner produces two triangles. Cutting it straight across the middle produces two rectangles. Cutting it at a different angle produces different shapes altogether. The square contains many possible decompositions — you choose which one by choosing where to draw the line."

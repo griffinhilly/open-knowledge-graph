@@ -55,7 +55,7 @@ Identify what flooring you actually have (many homeowners confuse laminate for h
   answer: 1
   explanation: "Natural stone (marble, travertine, limestone, slate) contains calcium carbonate, which reacts with acids — including the acetic acid in vinegar. The acid etches the surface, creating a dull, rough finish that cannot be reversed without professional honing and repolishing. Vinegar is one of the most common home-cleaning mistakes on stone floors precisely because it's promoted as a 'natural, safe' cleaner. pH-neutral cleaners are the correct choice for stone. The misconception that 'natural' equals safe for all surfaces is the core error."
 
-- question: "Steam mops are a safe and effective cleaning method for all hard floor types, including hardwood, laminate, and tile."
+- question: "Steam mops are a safe and effective cleaning method for most hard floor types, including hardwood, laminate, and tile."
   type: true-false
   answer: false
   explanation: "Steam mops are only truly safe on sealed tile and some vinyl (LVP/LVT). The intense heat and moisture from steam penetrates into wood grain and laminate seams, causing hardwood polyurethane finishes to cloud and peel, and causing laminate fiberboard cores to swell. The damage is often slow and cumulative — the floor looks fine for months before visibly deteriorating — which makes the harm easy to attribute to other causes. Sealed tile can withstand steam because the ceramic surface and sealed grout don't absorb moisture the way wood-based flooring does."

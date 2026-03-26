@@ -44,7 +44,7 @@ RNA polymerase catalyzes the formation of a phosphodiester bond between the 3'-O
   answer: 1
   explanation: "Both polymerases synthesize in the 5'→3' direction (C is wrong). Both use magnesium (A is wrong). The substrate specificity is the reverse of D. The critical functional difference is primer requirement: DNA polymerase cannot start a new chain because it requires a free 3'-OH to attack the incoming dNTP. RNA polymerase has an active site geometry that allows it to hold two NTPs and catalyze formation of the first phosphodiester bond de novo — no pre-existing chain is needed. This is why primase (an RNA polymerase) must lay down RNA primers before DNA polymerase can replicate DNA."
 
-- question: "In eukaryotes, a single RNA polymerase transcribes all types of RNA, carrying out the same division of labor as the core enzyme does in prokaryotes."
+- question: "In eukaryotes, a single RNA polymerase transcribes most types of RNA, carrying out the same division of labor as the core enzyme does in prokaryotes."
   type: true-false
   answer: false
   explanation: "Eukaryotes divide transcriptional labor among three RNA polymerases with distinct targets: Pol I transcribes large ribosomal RNAs (28S, 18S, 5.8S) in the nucleolus; Pol II transcribes all protein-coding mRNAs plus snRNAs and microRNAs; Pol III transcribes tRNAs, 5S rRNA, and other small structural RNAs. Each is recruited by its own set of general transcription factors and regulated independently. This division allows each polymerase to be tuned for its product — Pol I operates at extraordinary speed for ribosome biogenesis; Pol II's C-terminal domain coordinates co-transcriptional mRNA processing."

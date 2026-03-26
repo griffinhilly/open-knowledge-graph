@@ -55,7 +55,7 @@ Observe night in different settings (urban, rural, during different seasons and 
   answer: true
   explanation: "This double work is definitional for the form. The physical darkness of the poem's setting is almost always also doing metaphorical work — grief, fear, creative anxiety, spiritual desolation, freedom, intimacy. The two levels operate together: the literal night enables the metaphorical darkness to be present without being named directly, which is why nocturnes can approach subjects that feel unspeakable in daylight. Keats uses darkness to explore the appeal of dissolution; Hopkins uses it for spiritual desolation — same literal setting, entirely different metaphorical registers."
 
-- question: "The nocturne is always a poem of despair or foreboding, because night universally represents danger and the threat of death in Western literary tradition."
+- question: "The nocturne is generally a poem of despair or foreboding, because night universally represents danger and the threat of death in Western literary tradition."
   type: true-false
   answer: false
   explanation: "While darkness can carry associations of threat and mortality, nocturnes span a wide emotional range. Night can be the site of freedom (from social surveillance and performance), of intimacy, of revelation, of creative possibility. Keats's 'Ode to a Nightingale' treats darkness as appealing dissolution; other nocturnes explore solitary peace or the expansiveness of night thought. The nocturne's meaning turns on what kind of darkness the poem inhabits — threat, freedom, grief, desire, desolation — not on a fixed symbolic valence."

@@ -51,7 +51,7 @@ Build a personal balance sheet in a spreadsheet, listing every asset at current 
   answer: 0
   explanation: "Net worth = Assets − Liabilities = ($15,000 + $8,000) − ($5,000 + $20,000) = $23,000 − $25,000 = −$2,000. Both debts are liabilities regardless of what they funded. Many people accidentally omit one debt category or confuse gross assets with net worth."
 
-- question: "A person earning $150,000 per year must have a higher net worth than someone earning $60,000 per year."
+- question: "A person earning $150,000 per year should have a higher net worth than someone earning $60,000 per year."
   type: true-false
   answer: false
   explanation: "Net worth is determined by what you own minus what you owe — not by income. A high earner who spends everything, carries large loan balances, and has minimal savings can have a lower (or even negative) net worth than a moderate earner who saves consistently and carries little debt. Income affects the potential to accumulate net worth, but spending and debt patterns determine the actual outcome."

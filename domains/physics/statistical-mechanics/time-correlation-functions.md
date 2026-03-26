@@ -52,7 +52,7 @@ Time-correlation functions C(t) = ⟨A(t)A(0)⟩ measure how observables decorre
   answer: true
   explanation: "This is the central result connecting equilibrium fluctuations to non-equilibrium transport. D = (1/3) ∫₀^∞ ⟨v(t)·v(0)⟩ dt expresses a non-equilibrium property (how fast a diffusing particle spreads) purely in terms of equilibrium fluctuations. The fluctuation-dissipation theorem guarantees this connection: the same thermal fluctuations that randomize velocities at equilibrium also determine how energy is dissipated when the system is perturbed."
 
-- question: "A time-correlation function C(t) that starts at a larger initial value C(0) always corresponds to a larger transport coefficient."
+- question: "A time-correlation function C(t) that starts at a larger initial value C(0) generally corresponds to a larger transport coefficient."
   type: true-false
   answer: false
   explanation: "C(0) and the transport coefficient are not directly proportional. The transport coefficient is the time integral of C(t), which depends on both C(0) and the relaxation timescale τ. A system with a small C(0) but a very long τ (slow decay) can have a much larger diffusion coefficient than one with a large C(0) that decays almost instantly. The interplay between fluctuation magnitude and fluctuation lifetime determines transport, not either quantity alone."

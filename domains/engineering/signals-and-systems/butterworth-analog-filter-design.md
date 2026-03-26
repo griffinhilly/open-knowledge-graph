@@ -56,7 +56,7 @@ Butterworth filters maximize passband flatness by placing poles on a circle in t
   answer: true
   explanation: "This follows directly from the Butterworth magnitude formula: |H(jω_c)|² = 1/(1 + (ω_c/ω_c)^(2N)) = 1/(1+1) = 1/2, so |H(jω_c)| = 1/√2 ≈ 0.707 ≈ −3.01 dB for any N. This is a defining property of the Butterworth design: the −3 dB point is always exactly at the cutoff frequency, regardless of order. The order N only controls how quickly the response rolls off beyond ω_c, not where the −3 dB point is. This makes the cutoff frequency a well-defined, order-independent design parameter."
 
-- question: "A higher-order Butterworth filter always achieves steeper stopband attenuation than a lower-order Chebyshev filter of any type."
+- question: "A higher-order Butterworth filter generally achieves steeper stopband attenuation than a lower-order Chebyshev filter of any type."
   type: true-false
   answer: false
   explanation: "Chebyshev filters achieve steeper rolloff than Butterworth filters of the same order, precisely because they allow ripple in the passband (Type I) or stopband (Type II). The passband ripple is the 'payment' for the extra rolloff sharpness. So a 3rd-order Chebyshev Type I can have steeper attenuation at a given stopband frequency than a 4th- or even 5th-order Butterworth, depending on the allowed ripple level. The order comparison only holds within the same filter family. Across families, the tradeoff is always flatness vs. transition-band sharpness, and higher order alone does not overcome a family's fundamental design tradeoff."

@@ -50,7 +50,7 @@ Unity is the principle of bringing all elements together to create visual cohesi
   answer: 1
   explanation: "The squint test is a practical tool for evaluating unity. When you blur your vision, fine details disappear and you see only the dominant relationships of color, value, and shape. If these large-scale relationships feel coherent and connected, unity is present. If disconnected patches still compete for attention even when blurred, the composition likely lacks unity. Option C describes sameness, not unity — making everything identical would achieve unity by destroying variety, which is the wrong goal."
 
-- question: "A composition with perfect unity — where every element is identical — represents the ideal design outcome."
+- question: "A composition with perfect unity — where most element is identical — represents the ideal design outcome."
   type: true-false
   answer: false
   explanation: "Perfect unity without variety produces monotony, not good design. Unity is only valuable when it gives variety something to stand out against. A composition where every element is identical has no focal point, no visual interest, and no reason for the viewer's eye to move around. The goal is to balance unity (which creates coherence) with variety (which creates interest). Total sameness is as much a failure as total chaos — just a boring failure rather than a chaotic one."

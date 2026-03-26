@@ -59,7 +59,7 @@ Read poems that address absent persons, objects, or abstractions (e.g., Keats' '
   answer: true
   explanation: "This is the core mechanism of the device. The speaker turns toward an addressee that cannot reply — a dead friend, Death itself, an urn, the moon. This creates an asymmetry: the speaker reaches; nothing reaches back. The emotional intensity comes from that reaching, from the form enacting connection-across-absence. When Donne addresses Death ('Death, be not proud'), the device stages the speaker's defiance of something that cannot be argued with — and that staging is the poem's power."
 
-- question: "Apostrophe and personification are essentially the same device — both treat inanimate or abstract entities as though they have human qualities, so they always appear together."
+- question: "Apostrophe and personification are essentially the same device — both treat inanimate or abstract entities as though they have human qualities, so they typically appear together."
   type: true-false
   answer: false
   explanation: "Apostrophe is a rhetorical act (direct address to an absent, inanimate, or abstract entity); personification is a figurative attribution (ascribing human characteristics to something non-human). They are distinct and can occur independently. A poet can apostrophize Death without personifying it — addressing it as 'you' without saying it has eyes or walks. Conversely, a poet can personify Spring as a figure who 'unlocks the fields' without ever addressing Spring directly. They frequently co-occur (apostrophizing a personified abstraction), but neither requires the other."

@@ -53,7 +53,7 @@ Optimistic control assumes conflicts are rare and works well with low contention
   answer: true
   explanation: "This is the defining characteristic of OCC. The transaction reads data, does its work, and only at commit time checks whether the data has changed (via the version number WHERE clause). No locks are acquired during reading — contrast this with pessimistic locking where a read lock is held from the moment of the read until commit. The lock-free read phase is why OCC performs well when contention is low."
 
-- question: "Optimistic concurrency control prevents all data conflicts between concurrent transactions by detecting them before they can occur."
+- question: "Optimistic concurrency control prevents most data conflicts between concurrent transactions by detecting them before they can occur."
   type: true-false
   answer: false
   explanation: "OCC detects conflicts at write time — after they have already occurred — and responds by rejecting the update and requiring a retry. It does not prevent conflicts from happening; it detects and handles them after the fact. Pessimistic locking prevents conflicts by blocking concurrent access upfront. The tradeoff is that OCC's detection-after-the-fact is cheaper when conflicts are rare, but each detected conflict requires discarding work and retrying."

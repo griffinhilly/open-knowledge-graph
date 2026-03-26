@@ -64,7 +64,7 @@ Take a simple melody and compose multiple harmonic accompaniments, listening to 
   answer: true
   explanation: "The goal of harmonic support is a clearly differentiated texture: a distinct melodic line on top and a supportive harmonic layer below. Doubling the melody in an inner voice focuses the texture's attention on that pitch in multiple registers simultaneously, making the melody feel blended into the accompaniment rather than leading it. Good voicing keeps harmonic material in the middle and lower registers, leaving acoustic space for the melody above."
 
-- question: "Richer, more chromatically complex harmony always enhances a melody by adding musical interest and depth."
+- question: "Richer, more chromatically complex harmony usually enhances a melody by adding musical interest and depth."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Simple, clear harmony often serves melody better than chromatically dense accompaniment. When harmony is complex, the listener's attention is divided between the melodic line and the dense harmonic activity — the melody can be obscured rather than enhanced. The right harmonic complexity is determined by the melody's character and expressive goals, not by a general principle that more is better."

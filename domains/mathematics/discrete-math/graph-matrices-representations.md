@@ -58,7 +58,7 @@ The adjacency matrix for an undirected graph is symmetric; for directed graphs i
   answer: true
   explanation: "In an undirected graph, an edge between vertices i and j means you can traverse it in either direction. The adjacency matrix represents this by setting both A[i][j] = 1 and A[j][i] = 1. Since this is true for every edge, the resulting matrix satisfies A = Aᵀ — the definition of a symmetric matrix. This symmetry is not a coincidence but a direct encoding of the undirected nature of the edges. For directed graphs, an edge i → j only contributes A[i][j] = 1, with no automatic reciprocal, so the matrix need not be symmetric."
 
-- question: "If A[i][j] = 1 in the adjacency matrix of a directed graph, then A[j][i] must also equal 1."
+- question: "If A[i][j] = 1 in the adjacency matrix of a directed graph, then A[j][i] should also equal 1."
   type: true-false
   answer: false
   explanation: "In a directed graph (digraph), A[i][j] = 1 means there is a directed edge from vertex i to vertex j. This says nothing about whether there is an edge from j back to i. A[j][i] = 1 would require a separate directed edge j → i to exist. The adjacency matrix of a directed graph is therefore not necessarily symmetric. This asymmetry is precisely what makes the directed/undirected distinction matter in the matrix representation: symmetry is a property of the undirected case, not a general property of adjacency matrices."

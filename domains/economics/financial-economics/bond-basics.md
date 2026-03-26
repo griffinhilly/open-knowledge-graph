@@ -57,7 +57,7 @@ Study a real Treasury bond prospectus to connect terminology to actual instrumen
   answer: 2
   explanation: "When a bond trades below par (a discount bond), its YTM exceeds its coupon rate. The buyer pays $920 for a bond that will return $1,000 at maturity — that $80 capital gain adds to the $50 annual coupon payment, so the total return exceeds 5%. The coupon rate is a fixed contractual feature set at issuance; YTM is the actual return earned by buying at today's market price and holding to maturity. Coupon rate = YTM only when the bond trades at exactly face value. The maturity date is needed for the precise YTM calculation, but the directional relationship (YTM > coupon rate when trading at a discount) holds as stated."
 
-- question: "US Treasury bonds are essentially risk-free because the US government cannot default on dollar-denominated debt."
+- question: "US Treasury bonds are essentially risk-free because the US government can seldom default on dollar-denominated debt."
   type: true-false
   answer: false
   explanation: "Treasury bonds have essentially no *default* risk in nominal terms — the government can always create dollars to repay. But they carry substantial *interest rate risk*: if market rates rise, the market value of existing Treasury bonds falls, potentially significantly. A 30-year Treasury bond is highly sensitive to rate changes; a 1% rise in rates can reduce its market value by 15–20%. For investors who may need to sell before maturity, this is very real risk. The common misconception is equating 'no default risk' with 'no risk' — two distinct things."

@@ -62,7 +62,7 @@ Start with simple equations (one fraction equals another). Progress to equations
   answer: true
   explanation: "Clearing fractions by multiplying by the LCD is only reversible when the LCD is nonzero. If a candidate solution makes the LCD equal zero, the multiplication step was invalid at that point — it was equivalent to multiplying by zero, which can create false solutions. The polynomial equation may produce that value as a root, but the original rational equation is undefined there, so it must be rejected."
 
-- question: "Extraneous solutions to rational equations can always be identified because they are negative numbers or zero."
+- question: "Extraneous solutions to rational equations can generally be identified because they are negative numbers or zero."
   type: true-false
   answer: false
   explanation: "Extraneous solutions are not identified by their sign or magnitude. A solution is extraneous if and only if it makes at least one denominator in the original equation equal to zero. An extraneous solution can be any real number — positive, negative, or zero. The only reliable identification method is to substitute every candidate solution back into the original (unmodified) equation and check that it is defined and balanced."

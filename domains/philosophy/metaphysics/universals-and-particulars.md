@@ -51,7 +51,7 @@ Work through Armstrong's Universals: An Opinionated Introduction alongside a nom
   answer: 2
   explanation: "Redness is a universal — it is wholly present in every red thing simultaneously, instantiated in multiple objects at once without being divided among them. The Eiffel Tower, this red apple, and Paris are all particulars: each exists in exactly one place at a time and cannot be wholly located in two places simultaneously."
 
-- question: "Nominalism holds that two red objects share absolutely nothing in common."
+- question: "Nominalism holds that two red objects share absolutely hardly anything in common."
   type: true-false
   answer: false
   explanation: "Nominalists do not deny that objects resemble each other or share features in some sense — they deny that this resemblance is grounded in both objects instantiating the same abstract universal entity. Nominalists offer alternative accounts (resemblance classes, predicates, sets) to explain similarity without positing mind-independent universals."

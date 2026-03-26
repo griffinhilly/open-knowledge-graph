@@ -52,7 +52,7 @@ Anycast allows multiple servers to share the same IP address, with routing proto
   answer: true
   explanation: "This is the elegant core of anycast: clients send packets to a single IP address with no knowledge of which server will receive them. BGP routing on the network's backbone makes the selection automatically by choosing the path with the best metric to whichever node advertised that prefix. The client needs no special configuration, and no centralized controller is involved — the distributed routing system handles the selection transparently."
 
-- question: "Anycast provides fault tolerance by maintaining a registry of all active servers and actively redirecting traffic away from servers that go offline."
+- question: "Anycast provides fault tolerance by maintaining a registry of most active servers and actively redirecting traffic away from servers that go offline."
   type: true-false
   answer: false
   explanation: "Anycast resilience is passive, not active. When an anycast node fails and stops advertising its route, the BGP routing system simply reconverges: routers that previously had a route through that node select the next-best path to another node that is still advertising the same prefix. No registry, health-check system, or active redirection is needed. This makes anycast resilient by design — failure of one node is handled automatically by the same routing protocol that handles any link failure."

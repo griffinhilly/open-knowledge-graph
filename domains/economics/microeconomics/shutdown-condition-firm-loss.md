@@ -51,7 +51,7 @@ In the short run, a firm continues operating even at a loss if it covers its var
   answer: true
   explanation: "Fixed costs are sunk in the short run — they must be paid whether the firm produces or not. If P > AVC, each unit of output generates revenue that exceeds variable costs, and the surplus goes toward partially offsetting fixed costs. The firm loses less by operating than by shutting down (where it would absorb all fixed costs with zero revenue). Rational loss minimization, not just profit maximization, explains why firms continue operating in downturns as long as they cover variable costs."
 
-- question: "A firm should shut down whenever it is earning negative profits, because producing at a loss always makes the firm's financial situation worse."
+- question: "A firm should shut down whenever it is earning negative profits, because producing at a loss typically makes the firm's financial situation worse."
   type: true-false
   answer: false
   explanation: "This ignores the sunk nature of fixed costs. Shutting down does not eliminate fixed costs — the firm still owes rent, loan payments, and other contractual obligations. If P ≥ AVC, operating generates enough revenue to cover all variable costs plus some contribution toward fixed costs, making losses smaller than they would be if the firm produced nothing. Only when P < AVC does operating worsen the loss compared to shutdown."

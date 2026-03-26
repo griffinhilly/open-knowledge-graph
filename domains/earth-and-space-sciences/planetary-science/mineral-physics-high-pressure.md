@@ -46,12 +46,12 @@ Mineral compositions and crystal structures transform dramatically under the ext
   answer: 1
   explanation: "A more massive planet has a steeper pressure gradient — pressure increases faster with depth. Phase transitions are governed by pressure-temperature conditions, not by depth per se. So on a larger planet, the olivine-wadsleyite transition occurs at a shallower absolute depth, and the lower mantle is dominated by even higher-pressure phases like post-perovskite that may not appear on Earth at all. Interior structure changes qualitatively, not just in scale, with planetary size."
 
-- question: "Seismic discontinuities within a planet's mantle always indicate boundaries between regions of different chemical composition."
+- question: "Seismic discontinuities within a planet's mantle usually indicate boundaries between regions of different chemical composition."
   type: true-false
   answer: false
   explanation: "Phase transitions produce sharp changes in seismic velocity even when chemistry is constant. Earth's 410 km and 660 km discontinuities arise from olivine transforming to wadsleyite and ringwoodite breaking down into bridgmanite + ferropericlase — the same chemical elements, just reorganized into denser crystal structures. Inferring composition purely from discontinuities without knowing the pressure-temperature phase diagram would conflate compositional boundaries with phase transition boundaries."
 
-- question: "A diamond anvil cell experiment squeezes olivine to 13 GPa and finds that the atoms rearrange into a new crystal structure with higher density. The new phase must therefore have a different chemical formula than the original olivine."
+- question: "A diamond anvil cell experiment squeezes olivine to 13 GPa and finds that the atoms rearrange into a new crystal structure with higher density. The new phase is expected to therefore have a different chemical formula than the original olivine."
   type: true-false
   answer: false
   explanation: "Phase transitions change crystal structure, not chemical composition. Wadsleyite and ringwoodite have the same chemical formula as olivine (Mg,Fe)₂SiO₄ — the same atoms are present, just packed into a denser lattice arrangement that minimizes energy under high pressure. The higher density and different seismic velocity arise from the structural reorganization, not from a change in what elements are present."

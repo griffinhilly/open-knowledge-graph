@@ -45,7 +45,7 @@ Evaluating development policies requires isolating causal effects through RCTs, 
   answer: 2
   explanation: "External validity (generalizability) is the core concern. An RCT in rural Kenya measures the average treatment effect for that specific population, at that time, with that implementation. Urban Bangladesh may differ in financial infrastructure, social norms, credit markets, and economic shocks. What works in one context may have no effect, or even a negative effect, in another. This is not a flaw in the RCT's internal validity — within Kenya the estimate is credible — but a fundamental limit of any single-site evaluation."
 
-- question: "A well-designed randomized controlled trial always provides more credible causal estimates than a quasi-experimental method such as regression discontinuity or instrumental variables."
+- question: "A well-designed randomized controlled trial typically provides more credible causal estimates than a quasi-experimental method such as regression discontinuity or instrumental variables."
   type: true-false
   answer: false
   explanation: "Method quality depends on execution and assumptions, not on the method label. A poorly implemented RCT — with high attrition, contamination between treatment and control, or compliance problems — can produce less credible estimates than a well-designed regression discontinuity that cleanly exploits a sharp, arbitrary cutoff. The evaluator's job is to match the method to the question and defend the identifying assumptions. No method is automatically superior."

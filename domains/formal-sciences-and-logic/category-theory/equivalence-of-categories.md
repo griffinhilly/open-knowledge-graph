@@ -54,7 +54,7 @@ Verify that the inclusion of the full subcategory of finite sets {∅, {1}, {1,2
   answer: 1
   explanation: "Essentially surjective means every object of D is *isomorphic* to some F(c) — not necessarily equal. Surjective on objects would be too strict (closer to isomorphism). All three conditions are necessary: faithful ensures F reflects structural distinctions, full ensures no morphisms are missed, and essentially surjective ensures every object of D is 'reached' up to isomorphism."
 
-- question: "If two categories are equivalent, they must also be isomorphic as categories."
+- question: "If two categories are equivalent, they is expected to also be isomorphic as categories."
   type: true-false
   answer: false
   explanation: "Equivalence is strictly weaker than isomorphism. Isomorphism requires GF = Id_C and FG = Id_D exactly (functors are inverses on the nose). Equivalence only requires natural isomorphisms GF ≅ Id_C and FG ≅ Id_D, so objects may be sent to isomorphic rather than identical objects. The inclusion of a skeleton into FinSet is an equivalence but not an isomorphism."

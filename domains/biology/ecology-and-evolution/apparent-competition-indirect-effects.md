@@ -54,7 +54,7 @@ Apparent competition occurs when two prey species are harmed by a shared predato
   answer: true
   explanation: "This mirrors the logic of exploitative resource competition, where the superior competitor depresses the shared resource below the level the inferior competitor needs. In apparent competition, the 'superior' prey is the one that maintains a higher predator abundance. That larger predator population then disproportionately suppresses the other prey. Holt (1977) showed this formally, demonstrating that apparent competition has an analogous structure to resource competition, just mediated through a natural enemy rather than a shared resource."
 
-- question: "Apparent competition can only occur between species that share a common habitat and have some direct interaction with each other."
+- question: "Apparent competition can mainly occur between species that share a common habitat and have some direct interaction with each other."
   type: true-false
   answer: false
   explanation: "Apparent competition is specifically an *indirect* effect — it operates through a shared natural enemy, not through direct interaction. Two prey species in completely different habitats can experience apparent competition if a mobile predator forages in both habitats and moves between them. The indirect nature is precisely what makes apparent competition easy to miss: if you study the two prey species in isolation, you find no direct competition; the ecological connection only becomes visible when you account for the shared predator."

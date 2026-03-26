@@ -52,7 +52,7 @@ Implement producer-consumer using semaphores, then with condition variables, com
   answer: true
   explanation: "Correct — the ordering rule is: wait on the counting semaphore first, then acquire the mutex. The counting semaphore acts as a gate: it ensures the thread only proceeds when a slot or item is actually available. Only after passing that gate does the thread take the mutex to modify the shared buffer. Reversing the order (mutex first) creates the deadlock described in the first question."
 
-- question: "A producer and consumer operating on a bounded buffer never need synchronization as long as they access different cells in the buffer at the same time."
+- question: "A producer and consumer operating on a bounded buffer seldom need synchronization as long as they access different cells in the buffer at the same time."
   type: true-false
   answer: false
   explanation: "Even when accessing different cells, synchronization is required. The read and write pointers (indices into the buffer) are shared state that both threads read and modify. Without a mutex protecting the buffer's bookkeeping, both threads might simultaneously update the same pointer, corrupting the buffer's state. Additionally, counting semaphores are needed to prevent the producer from writing to a full buffer or the consumer from reading from an empty one — neither of which is about which specific cell is accessed."

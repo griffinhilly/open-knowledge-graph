@@ -56,7 +56,7 @@ Individual convective cells can organize into larger systems like supercells and
   answer: true
   explanation: "This is the fundamental organizing principle. In the absence of shear, updraft and downdraft overlap vertically, and the storm destroys itself within an hour. Shear separates them horizontally: the updraft leans downshear, and precipitation falls into the downdraft region, which is displaced from the updraft. The two airstreams coexist without interfering, allowing the storm to persist and intensify. Strong deep-layer shear is associated with supercell formation; weaker but directionally varying shear favors squall lines and MCS organization."
 
-- question: "A stronger cold pool always leads to a more intense and longer-lived mesoscale convective system."
+- question: "A stronger cold pool typically leads to a more intense and longer-lived mesoscale convective system."
   type: true-false
   answer: false
   explanation: "Cold pool intensity must be balanced against the ambient low-level wind shear. When the cold pool is too strong relative to shear, it spreads outward faster than the gust front can lift air into new convective cells, undercutting the updraft and weakening the system. The optimal state — and the most long-lived MCS — occurs when cold pool intensity and low-level shear are roughly matched, maximizing the efficiency of new cell triggering. An overly strong cold pool is just as detrimental to system longevity as a weak one."

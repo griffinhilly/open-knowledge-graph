@@ -48,7 +48,7 @@ The Investiture Controversy (1076–1122) was a conflict between the Holy Roman 
   answer: true
   explanation: "In the medieval feudal system, oaths of loyalty were sacred bonds. An excommunicated ruler was outside the Church — and the Church's position was that subjects owed no loyalty to someone cut off from the body of Christ. Gregory VII's excommunication thus had a direct political weapon built into it: it threatened to dissolve the web of obligations that gave Henry his authority. This is why Henry went to Canossa rather than simply ignoring the excommunication — the political stakes were existential for his empire."
 
-- question: "Henry IV's submission at Canossa in 1077 marked a permanent defeat for imperial authority — he never recovered politically and the investiture conflict ended with the Pope's victory."
+- question: "Henry IV's submission at Canossa in 1077 marked a permanent defeat for imperial authority — he seldom recovered politically and the investiture conflict ended with the Pope's victory."
   type: true-false
   answer: false
   explanation: "Canossa was a symbolic humiliation but not a final defeat. After having his excommunication lifted, Henry recovered his political position, marched on Rome, drove Gregory VII into exile, and installed an antipope. The controversy continued for decades after Canossa and was only formally resolved by the Concordat of Worms in 1122 — 45 years after the scene at Canossa. Treating Canossa as the end of the story conflates a dramatic episode with the actual resolution of a multi-generational conflict."

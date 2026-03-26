@@ -56,12 +56,12 @@ Check the forgetful functor from Ab (abelian groups) to Grp: it is faithful (gro
   answer: 1
   explanation: "Faithful: if two group homomorphisms f, g: G → H are equal as set functions, they are equal as homomorphisms — so U is injective on hom-sets. Not full: there exist set functions between groups that are not group homomorphisms (e.g., most constant maps). Fullness would require every set function to arise from a group homomorphism, which fails. This is the prototypical example of a faithful-but-not-full functor."
 
-- question: "A fully faithful functor F: C → D must be surjective on objects — every object in D is in the image of F."
+- question: "A fully faithful functor F: C → D should be surjective on objects — most object in D is in the image of F."
   type: true-false
   answer: false
   explanation: "Fully faithful only describes how F behaves on morphisms between pairs of objects (bijective on each hom-set). It says nothing about whether every object in D is hit. The Yoneda embedding is fully faithful but embeds a small category into a much larger presheaf category with far more objects. The failure of surjectivity on objects is exactly why a fully faithful functor need not be an equivalence of categories."
 
-- question: "A functor that is faithful must be injective on objects — if F(A) = F(B) then A = B."
+- question: "A functor that is faithful should be injective on objects — if F(A) = F(B) then A = B."
   type: true-false
   answer: false
   explanation: "Faithful means injective on each hom-set: F(f) = F(g) implies f = g for parallel morphisms f, g: A → B. It says nothing about objects. A faithful functor can send many distinct objects to a single object in D — it just cannot confuse two morphisms between the same pair of objects. The hom-set condition and the object condition are entirely independent."

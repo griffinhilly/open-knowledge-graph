@@ -56,7 +56,7 @@ Draw and label diagrams for exothermic and endothermic one-step reactions, then 
   answer: 1
   explanation: "In a multi-step energy profile, peaks are transition states (maximum-energy configurations that cannot be isolated) and valleys between peaks are reaction intermediates (real chemical species in local energy minima with finite, if brief, lifetimes). This distinction is critical: transition states exist for only a molecular vibration (~femtoseconds), while intermediates can sometimes be detected spectroscopically or even isolated under the right conditions."
 
-- question: "A reaction with a large negative ΔH (highly exothermic) must have a small activation energy, since releasing a large amount of energy implies the reactants are already close to the transition state."
+- question: "A reaction with a large negative ΔH (highly exothermic) should have a small activation energy, since releasing a large amount of energy implies the reactants are already close to the transition state."
   type: true-false
   answer: false
   explanation: "Activation energy (Ea) and reaction enthalpy (ΔH) are independent quantities. Ea measures the energy barrier from reactants to the transition state; ΔH measures the energy difference between reactants and products. A reaction can be strongly exothermic (large negative ΔH) yet still have a high Ea — meaning it is thermodynamically favorable but kinetically slow. Combustion of diamond is a classic example: highly exothermic but effectively does not occur at room temperature due to an enormous kinetic barrier."

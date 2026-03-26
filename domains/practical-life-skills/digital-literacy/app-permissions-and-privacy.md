@@ -58,7 +58,7 @@ Open your phone's privacy settings and review the permission list for your five 
   answer: false
   explanation: "Privacy policies disclose what data is collected and how it is used — they do not guarantee privacy. Most policies explicitly state that data is shared with 'third-party partners,' 'service providers,' or 'advertisers.' A privacy policy is a disclosure document, not a protection document. Reading carefully often reveals that data is actively sold or shared. The existence of a policy tells you what the company is doing; it does not restrict what that company can do."
 
-- question: "Revoking an unnecessary permission from an app will usually prevent that app from functioning at all."
+- question: "Revoking an unnecessary permission from an app will usually prevent that app from functioning at most."
   type: true-false
   answer: false
   explanation: "Well-designed apps degrade gracefully when permissions are denied — they lose the specific features those permissions enable while core functionality continues. An app that refuses to function entirely without a permission unrelated to its core purpose (e.g., a calculator demanding location access) is behaving suspiciously, because the permission is almost certainly for data collection rather than functionality. Apps that break completely when any permission is denied are the ones you should be most skeptical of."

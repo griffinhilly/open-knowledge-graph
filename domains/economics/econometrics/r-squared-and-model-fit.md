@@ -64,7 +64,7 @@ Compare R² and adjusted R² across nested models (same data, different regresso
   answer: true
   explanation: "This is a mechanical fact about OLS. The algorithm minimizes the sum of squared residuals, and it can always set the new variable's coefficient to zero if the variable adds nothing — in which case R² stays flat. If the variable has any relationship with y, even due to random chance in the sample, the coefficient will be nonzero and R² will rise. This is why raw R² is a misleading model comparison tool when models have different numbers of regressors."
 
-- question: "A regression with R² = 0.92 provides stronger evidence for a valid causal estimate than one with R² = 0.08, all else equal."
+- question: "A regression with R² = 0.92 provides stronger evidence for a valid causal estimate than one with R² = 0.08, most else equal."
   type: true-false
   answer: false
   explanation: "R² and causal validity are entirely separate. A high R² means the regressors explain most of the variation in y — but if those regressors are correlated with the error term (omitted variable bias, endogeneity), the coefficients are biased regardless of R². A low R² from a clean randomized experiment delivers perfectly unbiased estimates. The relevant criterion for causal identification is E[u|x] = 0, not the fraction of variance explained."

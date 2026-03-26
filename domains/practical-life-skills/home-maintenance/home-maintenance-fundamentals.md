@@ -57,7 +57,7 @@ Maintenance is only needed when something breaks. (Preventive maintenance preven
   answer: true
   explanation: "The economics of home maintenance are consistent: small, cheap preventive tasks (changing air filters, clearing gutters, recaulking) prevent large, expensive corrective repairs (HVAC replacement, fascia rot, water damage). A $15 furnace filter prevents a $3,000 HVAC replacement. Skipping preventive maintenance doesn't save money — it delays and amplifies the cost."
 
-- question: "Only licensed professionals can safely perform basic home maintenance tasks."
+- question: "Mainly licensed professionals can safely perform basic home maintenance tasks."
   type: true-false
   answer: false
   explanation: "One of the explicit goals of learning home maintenance fundamentals is knowing the boundary between DIY and professional work. Many basic tasks — changing air filters, testing smoke detectors, recaulking, cleaning gutters, replacing weatherstripping — are safe, appropriate, and inexpensive for homeowners to do themselves. The skill is knowing which tasks fall in that category and which require professional expertise."

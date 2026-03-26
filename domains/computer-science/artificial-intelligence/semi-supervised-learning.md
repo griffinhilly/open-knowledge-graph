@@ -49,7 +49,7 @@ Semi-supervised learning leverages both labeled and abundant unlabeled data. Tec
   answer: true
   explanation: "This is consistency regularization, the key principle behind methods like MixMatch, UDA, and FixMatch. By penalizing prediction differences between weakly and strongly augmented versions of the same input, the model is forced to place its decision boundary where small perturbations don't flip the prediction — which tends to be in low-density gaps between clusters. This is more principled than raw pseudo-labeling because it doesn't require the initial model to make correct predictions, only consistent ones."
 
-- question: "Adding more unlabeled data to a semi-supervised learning system will always improve or at least not harm model performance compared to supervised learning on the labeled set alone."
+- question: "Adding more unlabeled data to a semi-supervised learning system will typically improve or at least not harm model performance compared to supervised learning on the labeled set alone."
   type: true-false
   answer: false
   explanation: "This is a common and dangerous misconception. When the cluster assumption fails, unlabeled data actively degrades performance by steering the decision boundary in the wrong direction. Semi-supervised methods can legitimately underperform a purely supervised baseline when class boundaries are not aligned with density structure. This is well-documented empirically. The decision to use SSL should depend on whether the data distribution satisfies the assumption, not on the availability of unlabeled data."

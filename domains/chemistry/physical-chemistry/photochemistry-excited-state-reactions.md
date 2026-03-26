@@ -50,7 +50,7 @@ Excited electronic states have different geometries, orbital occupancy, and reac
   answer: 1
   explanation: "Excited-state potential energy surfaces have completely different topography from the ground-state surface. For retinal, the excited-state surface has a minimum near the perpendicular (90°) geometry and slopes downhill toward the trans product — the reaction is nearly barrierless. This is why it occurs in femtoseconds despite being hindered thermally. The photon does not heat the molecule or mechanically break the bond; it promotes the electron to a state where the reaction coordinate is downhill rather than uphill."
 
-- question: "Providing more photons of higher energy is always sufficient to make any thermally forbidden reaction proceed photochemically."
+- question: "Providing more photons of higher energy is generally sufficient to make any thermally forbidden reaction proceed photochemically."
   type: true-false
   answer: false
   explanation: "Whether a reaction is photochemically allowed depends on orbital symmetry in the excited state, not just energy input. Some reactions that are thermally forbidden are photochemically allowed (like thermal conrotatory vs. photochemical disrotatory ring closures), but photochemical excitation still must produce an excited state with the right symmetry for the desired product. Additionally, the excited molecule can deactivate via fluorescence, phosphorescence, or non-reactive pathways before reaching the photoproduct. Simply increasing photon energy or intensity does not override these symmetry constraints."

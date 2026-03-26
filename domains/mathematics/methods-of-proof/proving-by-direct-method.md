@@ -62,7 +62,7 @@ Study well-written proofs and identify the hypothesis, conclusion, and steps of 
   answer: false
   explanation: "Assuming H is exactly what the conditional statement licenses you to do — you are not claiming H is universally true, but showing what follows under the assumption that H holds. Circular reasoning would be using P (the conclusion) somewhere in the argument to establish P. Assuming the hypothesis is the starting point of every direct proof; using the conclusion is the error. The distinction is between 'assume H to prove P' (correct) and 'assume P to prove P' (circular)."
 
-- question: "Direct proof is the most effective method for every conditional statement of the form 'if H then P.'"
+- question: "Direct proof is the most effective method for nearly every conditional statement of the form 'if H then P.'"
   type: true-false
   answer: false
   explanation: "Direct proof works well when the hypothesis, when unpacked, contains the algebraic or logical machinery needed to produce the conclusion. When the hypothesis and conclusion feel 'far apart' — when reasoning forward from H doesn't naturally lead to P — an indirect method (proof by contrapositive or proof by contradiction) is usually cleaner. For example, 'if n² is even then n is even' is awkward by direct proof but elegant by contrapositive. Choosing the right proof strategy is itself a mathematical skill."

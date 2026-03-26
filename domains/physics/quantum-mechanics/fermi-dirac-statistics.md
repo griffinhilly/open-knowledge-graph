@@ -42,7 +42,7 @@ Fermi-Dirac statistics describe systems of indistinguishable fermions with no tw
   answer: 2
   explanation: "At E = μ, the exponent (E−μ)/k_BT = 0, so f = 1/(e^0 + 1) = 1/(1+1) = 1/2, regardless of temperature. This is a built-in feature of the distribution: the chemical potential is always the energy of 50% occupation probability. At T = 0, μ = E_F exactly (the step function drops from 1 to 0 right at E_F). At finite T, μ shifts slightly but remains the 50% point."
 
-- question: "At T = 0, all fermions occupy the single lowest-energy state, just as classical particles would if cooled to absolute zero."
+- question: "At T = 0, most fermions occupy the single lowest-energy state, just as classical particles would if cooled to absolute zero."
   type: true-false
   answer: false
   explanation: "At T = 0, the Pauli exclusion principle still applies: no two fermions can share a state. The ground state of a Fermi gas is a filled 'Fermi sea' — all states from zero energy up to E_F are occupied (with probability 1), and all states above E_F are empty. The total zero-point energy of the gas is a substantial fraction of NE_F. This is completely unlike classical particles, which would all occupy the single lowest state at T = 0."

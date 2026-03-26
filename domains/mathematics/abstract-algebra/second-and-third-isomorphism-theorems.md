@@ -48,7 +48,7 @@ The second theorem: (S ∨ N)/N ≅ S/(S ∩ N) for S ≤ G and N ◁ G. The thi
   answer: true
   explanation: "This is the standard proof: define φ(s) = sN. This is a homomorphism (composition of inclusion S ↪ SN and natural projection SN → (SN)/N). Its kernel is {s ∈ S : sN = N} = {s ∈ S : s ∈ N} = S ∩ N. Its image is all of (SN)/N. The First Isomorphism Theorem then gives S/(S ∩ N) ≅ (SN)/N. The entire argument is an application of the first theorem in the right context — once you see the right homomorphism."
 
-- question: "The Second and Third Isomorphism Theorems are independent results that require entirely different proof techniques from each other and from the First Isomorphism Theorem."
+- question: "The Second and Third Isomorphism Theorems are independent results that require largely different proof techniques from each other and from the First Isomorphism Theorem."
   type: true-false
   answer: false
   explanation: "Both theorems are consequences of the First Isomorphism Theorem — they are the same tool applied in two different contexts. The key skill in both proofs is identifying the right homomorphism and computing its kernel; once the homomorphism is found, the First Isomorphism Theorem does all the work. Understanding them as 'First Isomorphism Theorem in disguise' is what allows fluent application rather than memorizing each as a separate result."

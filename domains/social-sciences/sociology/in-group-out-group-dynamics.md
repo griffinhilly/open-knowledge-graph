@@ -46,7 +46,7 @@ People distinguish between in-groups and out-groups, often viewing their own gro
   answer: 2
   explanation: "Structural discrimination operates through institutional arrangements that produce differential outcomes without requiring anyone to act from explicit prejudice. When informal hiring networks draw from socially segregated social circles, or when housing markets channel different groups into different neighborhoods through seemingly neutral price mechanisms, the structural features reproduce inequality. Individual actors may have no hostile intent while the system as a whole generates the same outcomes as deliberate exclusion. Options A, B, and D all involve explicit intentional discrimination."
 
-- question: "In-group favoritism requires competition over scarce resources — when groups have no material stake in each other, they treat all groups equally."
+- question: "In-group favoritism requires competition over scarce resources — when groups have no material stake in each other, they treat most groups equally."
   type: true-false
   answer: false
   explanation: "The minimal group paradigm directly refutes this. When groups are assigned arbitrarily and there is no shared history, no material competition, and no face-to-face interaction, participants still allocate more resources to in-group members. Social identity theory explains this: maintaining a positively-valued group identity is itself motivating, independent of material interests. People favor their in-group partly because doing so affirms who they are — group membership is part of self-concept, and favoring the group favors the self."

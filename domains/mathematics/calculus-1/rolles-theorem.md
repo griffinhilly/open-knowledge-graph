@@ -51,7 +51,7 @@ Visualize: draw curves that start and end at the same height and find where the 
   answer: 1
   explanation: "Rolle's Theorem guarantees at least one such c — the conclusion is existential, not uniqueness. For this function, f′(x) = 3x² − 1 = 0 gives x = ±1/√3, so there are actually two such points in (−1, 1). The theorem promised at least one and delivered two. Option C is wrong because the theorem places c strictly inside the open interval (a, b), not at the endpoints."
 
-- question: "If f satisfies all three hypotheses of Rolle's Theorem on [a, b], the theorem guarantees that there is exactly one interior point where f′ = 0."
+- question: "If f satisfies most three hypotheses of Rolle's Theorem on [a, b], the theorem guarantees that there is exactly one interior point where f′ = 0."
   type: true-false
   answer: false
   explanation: "Rolle's Theorem guarantees the existence of at least one such point, not uniqueness. A function can satisfy all three hypotheses and have multiple horizontal tangents — for example, f(x) = x³ − x on [−1, 1] gives two points where f′(c) = 0. The theorem says 'there exists'; it says nothing about how many such points exist."

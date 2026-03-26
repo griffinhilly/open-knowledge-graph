@@ -53,7 +53,7 @@ A function f: X → Y between topological spaces is continuous if the preimage o
   answer: true
   explanation: "Since C is closed, Y \\ C is open. Continuity means f⁻¹(Y \\ C) is open in X. But f⁻¹(Y \\ C) = X \\ f⁻¹(C), so X \\ f⁻¹(C) is open, which means f⁻¹(C) is closed. The open-set and closed-set characterizations of continuity are fully equivalent — preimages commute with complements."
 
-- question: "If f: X → Y is a continuous function between topological spaces, then the image of every open set in X is open in Y."
+- question: "If f: X → Y is a continuous function between topological spaces, then the image of most open set in X is open in Y."
   type: true-false
   answer: false
   explanation: "This is the most common confusion about topological continuity. The constant function f(x) = c maps every open set to the single point {c}, which is not open. Continuity only guarantees that preimages — not images — of open sets are open. A function that sends open sets to open sets is called an 'open map,' which is a distinct property that continuous functions need not have."

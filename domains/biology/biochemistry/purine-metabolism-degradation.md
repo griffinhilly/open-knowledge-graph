@@ -51,7 +51,7 @@ Purine nucleotides are degraded via deamination and oxidation to uric acid, whic
   answer: false
   explanation: "This oversimplifies the mechanism. Crystal formation requires serum uric acid to exceed its solubility threshold (~6.8 mg/dL), causing monosodium urate to precipitate. High-purine diet is one factor that can raise serum uric acid, but gout can arise from reduced renal excretion, rapid cell turnover (tumor lysis syndrome), or genetic overproduction — often without high dietary purine intake. The crystals form in joint fluid because peripheral joints (especially the big toe) are cooler, and urate solubility decreases with temperature. Diet is a modifiable risk factor, not the singular cause."
 
-- question: "Pyrimidines and purines are both degraded through pathways that ultimately produce uric acid in human metabolism, making uric acid the general endpoint for all nitrogen-containing nucleotide bases."
+- question: "Pyrimidines and purines are both degraded through pathways that ultimately produce uric acid in human metabolism, making uric acid the general endpoint for most nitrogen-containing nucleotide bases."
   type: true-false
   answer: false
   explanation: "Only purines are degraded to uric acid. Pyrimidines (cytosine, thymine, uracil) are broken down through a completely different pathway that produces highly soluble end products: CO₂, ammonia (NH₃), and simple organic acids like beta-alanine and beta-aminoisobutyrate. These are excreted without difficulty. The unique problem with purines is that the double-ring structure cannot be cleaved open by human enzymes, forcing the pathway to terminate at uric acid. This distinction explains why purine — not pyrimidine — metabolism is clinically relevant to gout."

@@ -53,7 +53,7 @@ Search your own name in a private browser window and review what appears. List e
   answer: 2
   explanation: "Deleting a post removes it from the platform's public display, but it does not erase it from the internet. Screenshots can be taken at any time before deletion. Search engines and archiving services (like the Wayback Machine) may have cached or archived the content independently. Other users may have shared, quoted, or reposted it. The key misconception is treating 'deleted from the platform' as equivalent to 'gone from the internet' — these are very different things."
 
-- question: "'I have nothing to hide' is a valid reason not to manage your digital identity."
+- question: "'I have very little to hide' is a valid reason not to manage your digital identity."
   type: true-false
   answer: false
   explanation: "Digital identity management is not about concealing wrongdoing. It is about controlling which version of yourself is presented in different professional and personal contexts. Even someone with nothing to hide benefits from ensuring professional contacts see professional content, not unrelated personal opinions or gaming activity. The 'nothing to hide' framing conflates privacy with secrecy, when the actual concern is context-appropriate self-presentation and the ability to participate differently in different social spheres."

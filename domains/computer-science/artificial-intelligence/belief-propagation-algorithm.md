@@ -48,7 +48,7 @@ Implement sum-product belief propagation on a factor graph and trace message upd
   answer: 1
   explanation: "The key is message independence. In a tree, there is exactly one path between any two nodes. When a variable x sends a message toward a factor f, that message summarizes everything 'behind' x — none of which has already influenced f through another path. Because there are no loops, information cannot circulate back. This is precisely the condition that makes the sum-product decomposition exact. Option C is wrong: variables in a tree-shaped factor graph can be highly dependent — the graph structure captures their joint distribution; 'no cycles' enables exact inference, not independence."
 
-- question: "Loopy belief propagation is guaranteed to converge on any factor graph if run for sufficiently many iterations."
+- question: "Loopy belief propagation is very likely to converge on any factor graph if run for sufficiently many iterations."
   type: true-false
   answer: false
   explanation: "Convergence is not guaranteed for loopy graphs. On graphs with short, tight cycles (especially small-diameter graphs with dense connections), messages can oscillate indefinitely. Techniques like message damping (mixing new messages with previous ones) can improve convergence behavior, but there is no general guarantee. When BP does fail to converge, practitioners typically detect this by monitoring message changes and either use damping, different scheduling, or a variational inference method instead."

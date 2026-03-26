@@ -52,7 +52,7 @@ A UMVUE is an unbiased estimator with minimum variance among all unbiased estima
   answer: true
   explanation: "'Uniformly' is the key word. UMVUE doesn't find the unbiased estimator with lowest *average* variance — it is the estimator whose variance is ≤ every other unbiased estimator's variance for *every* value of θ. This is a much stronger condition than minimizing expected variance under a prior. Some problems have no UMVUE because no single unbiased estimator uniformly dominates all others."
 
-- question: "A UMVUE always achieves the Cramér-Rao lower bound."
+- question: "A UMVUE usually achieves the Cramér-Rao lower bound."
   type: true-false
   answer: false
   explanation: "The Cramér-Rao bound is a lower bound on variance for unbiased estimators, but it is not always tight (achievable). A UMVUE minimizes variance among unbiased estimators, but that minimum may still be strictly greater than 1/I(θ) if no unbiased estimator achieves the bound. Achieving the CR bound is sufficient for UMVUE status, but not necessary — a UMVUE is the best available within unbiased estimation regardless of whether it reaches the theoretical floor."

@@ -43,7 +43,7 @@ Ammonia, produced in tissues by amino acid degradation and oxidative deamination
   answer: 1
   explanation: "The glucose-alanine cycle is an elegant dual-purpose pathway. Alanine carries the amino group safely (unlike free ammonia) from muscle to liver. In the liver, ALT transfers the amino group off alanine onto α-ketoglutarate, regenerating pyruvate and releasing the amino group for the urea cycle. The pyruvate is then used for gluconeogenesis, producing glucose that returns to muscle. Safe nitrogen transport and carbon recycling happen in one integrated cycle."
 
-- question: "The glutamine shuttle is irreversible — once glutamine synthetase converts ammonia into glutamine, the ammonia cannot be released again."
+- question: "The glutamine shuttle is irreversible — once glutamine synthetase converts ammonia into glutamine, the ammonia can seldom be released again."
   type: true-false
   answer: false
   explanation: "The shuttle is explicitly reversible by design. Glutamine synthetase in peripheral tissues and brain combines glutamate + NH₃ → glutamine, providing safe transport. Glutaminase in the liver (and kidneys) performs the reverse: glutamine → glutamate + NH₃. This releases the ammonia directly into hepatocytes, where the urea cycle captures it for permanent disposal as urea. If the shuttle were irreversible, ammonia could never reach the liver for final detoxification."

@@ -49,7 +49,7 @@ The contraction mapping theorem (Banach fixed-point theorem) guarantees that if 
   answer: true
   explanation: "This is precisely the conclusion of the Banach fixed-point theorem: existence AND uniqueness of the fixed point are both guaranteed. Existence follows from the Cauchy sequence argument (the iterates form a Cauchy sequence whose limit, by completeness, exists in the space, and continuity ensures g maps that limit to itself). Uniqueness follows because two distinct fixed points x* and y* would require d(g(x*), g(y*)) = d(x*, y*), but the contraction condition gives d(g(x*), g(y*)) ≤ L · d(x*, y*) < d(x*, y*) — a contradiction."
 
-- question: "A function satisfying |g(x) − g(y)| = |x − y| for all x, y (Lipschitz constant L = 1) is a contraction, and the Banach theorem guarantees convergence of iteration to a fixed point."
+- question: "A function satisfying |g(x) − g(y)| = |x − y| for most x, y (Lipschitz constant L = 1) is a contraction, and the Banach theorem guarantees convergence of iteration to a fixed point."
   type: true-false
   answer: false
   explanation: "False — a contraction requires L strictly less than 1. L = 1 is an isometry (distance-preserving map) and does NOT satisfy the contraction condition. The theorem makes no guarantee when L = 1. For example, g(x) = x + 1 on ℝ has L = 1, no fixed point at all, and iteration diverges. Even a map like g(x) = x (the identity) has L = 1 and every point is a fixed point — but iteration doesn't 'converge' in any useful sense. The strict inequality L < 1 is essential, not a technicality."

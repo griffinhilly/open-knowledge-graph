@@ -66,7 +66,7 @@ Magma and lava are chemically distinct. All igneous rocks cool slowly undergroun
   answer: true
   explanation: "This is one of the most important insights in igneous petrology. Gabbro (coarse-grained, intrusive) and basalt (fine-grained, extrusive) occupy the same position on the chemical composition spectrum — both are mafic (iron- and magnesium-rich) with similar silica content. Their dramatically different appearances reflect only the rate at which the same magma cooled. Slow cooling underground produced centimeter-scale crystals in gabbro; rapid surface cooling produced the microcrystalline or glassy texture of basalt. The same logic connects granite (coarse) with rhyolite (fine) at the felsic end of the spectrum."
 
-- question: "A magma that erupts at the surface always has a different chemical composition than a magma that solidifies underground, because the eruption process changes the chemistry."
+- question: "A magma that erupts at the surface generally has a different chemical composition than a magma that solidifies underground, because the eruption process changes the chemistry."
   type: true-false
   answer: false
   explanation: "Eruption does not change the fundamental chemical composition of magma — it only changes how fast the magma cools. The same parent melt can produce a fine-grained volcanic rock (basalt, andesite, rhyolite) if erupted, or a coarse-grained plutonic rock (gabbro, diorite, granite) if it solidifies slowly at depth. This is why gabbro-basalt and granite-rhyolite are 'twin pairs': same chemistry, contrasting texture. Chemical diversity in igneous rocks is produced by differentiation processes (fractional crystallization, magma mixing, assimilation) — not by the act of eruption."

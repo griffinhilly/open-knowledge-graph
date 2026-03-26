@@ -48,7 +48,7 @@ A square is a shape with four equal sides and four corners (right angles). All s
   answer: true
   explanation: "Size does not determine whether a shape is a square. As long as all four sides remain equal to each other and all four corners are right angles, the shape is a square — no matter how large or small. A postage stamp and a floor tile can both be squares."
 
-- question: "If a shape has four equal sides, it must be a square."
+- question: "If a shape has four equal sides, it is expected to be a square."
   type: true-false
   answer: false
   explanation: "Four equal sides are necessary but not sufficient. A rhombus (like a diamond shape) also has four equal sides, but its corners are NOT right angles — they come in two angles (acute and obtuse). A square requires BOTH conditions together: four equal sides AND four right-angle corners. Just checking one condition can lead to misidentifying shapes."

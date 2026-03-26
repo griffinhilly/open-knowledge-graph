@@ -45,7 +45,7 @@ Pierre Nora's concept of *lieux de mémoire* (sites of memory) refers to physica
   answer: 2
   explanation: "Nora explicitly argues that sites of memory are not neutral preservation but active construction — they select which past to commemorate, in whose name, and for what present purpose. When communities debate whether to preserve or remove a monument, the dispute is precisely about whose memory is being institutionalized. The historian's observation is a direct application of Nora's insight that lieux de mémoire encode present concerns as much as past events."
 
-- question: "Lieux de mémoire are distinguished from ordinary historical sites by how accurately and completely they preserve the original events they commemorate."
+- question: "Lieux de mémoire are distinguished from ordinary historical sites by how accurately and mostly they preserve the original events they commemorate."
   type: true-false
   answer: false
   explanation: "What defines a lieu de mémoire is not accuracy of preservation but *function*: it serves as an anchor for collective identity, condensing complex histories into symbols around which communities organize. Nora's critical insight is that these sites construct rather than merely record the past — they are always selective, often contested, and mobilized for present purposes. Their power comes from their symbolic role, not their archival completeness."

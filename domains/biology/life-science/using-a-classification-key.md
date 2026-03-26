@@ -41,7 +41,7 @@ Have students USE a key before they BUILD one. Start with a simple key for ident
   answer: 1
   explanation: "Dichotomous comes from a Greek word meaning 'divided into two.' In a dichotomous key, each step presents exactly two choices — for example, 'Has wings / Does not have wings.' Each choice leads either to the next pair of choices or to an identification. This binary branching structure is what makes the key systematic and reliable."
 
-- question: "A dichotomous key can only be used to identify animals."
+- question: "A dichotomous key can primarily be used to identify animals."
   type: true-false
   answer: false
   explanation: "Dichotomous keys can be used to identify any group of things — animals, plants, rocks, minerals, insects, or even non-biological objects. The key works for anything that can be distinguished by observable characteristics. Scientists use dichotomous keys for plants, fungi, bacteria, and minerals, among many other things."

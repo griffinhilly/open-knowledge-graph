@@ -35,7 +35,7 @@ In type theory, linguistic expressions are assigned types (e.g., t for truth val
   answer: 2
   explanation: "⟨e,t⟩ is the type of a function from individuals (type e) to truth values (type t). 'Runs' takes an entity — say, Maria — and returns true or false depending on whether that entity runs. This is the canonical type for one-place predicates."
 
-- question: "A quantifier phrase like 'every student' has the same semantic type as a simple predicate like 'runs', namely ⟨e,t⟩."
+- question: "A quantifier phrase like 'nearly every student' has the same semantic type as a simple predicate like 'runs', namely ⟨e,t⟩."
   type: true-false
   answer: false
   explanation: "Quantifiers are higher-order: they take a property (type ⟨e,t⟩) and return a truth value (type t), giving them type ⟨⟨e,t⟩,t⟩. 'Every student runs' composes by applying the quantifier to the predicate, not by applying a predicate to an entity. Treating quantifiers as type ⟨e,t⟩ would collapse the distinction between predicates and determiners."

@@ -52,7 +52,7 @@ The total differential df = (∂f/∂x)dx + (∂f/∂y)dy represents the change 
   answer: true
   explanation: "This is subtle but important: dx and dy in the total differential are not fixed increments — they are free variables representing an arbitrary direction of displacement. This is what makes df a linear map on displacements (a 1-form), not a specific number. Only when you substitute specific values Δx and Δy do you get a numerical approximation to Δf."
 
-- question: "If a function f(x, y) has partial derivatives ∂f/∂x and ∂f/∂y at a point, then the total differential df = (∂f/∂x)dx + (∂f/∂y)dy is guaranteed to be a valid linear approximation to Δf near that point."
+- question: "If a function f(x, y) has partial derivatives ∂f/∂x and ∂f/∂y at a point, then the total differential df = (∂f/∂x)dx + (∂f/∂y)dy is very likely to be a valid linear approximation to Δf near that point."
   type: true-false
   answer: false
   explanation: "Existence of partial derivatives is not sufficient for differentiability. A function can have both partial derivatives at a point yet fail to be differentiable there — meaning the total differential does not accurately approximate the change in all directions. Differentiability (the stronger condition) requires that Δf equals df plus an error term that is o(|(Δx, Δy)|). This is why multivariable differentiability is defined separately from the existence of partial derivatives."

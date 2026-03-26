@@ -61,7 +61,7 @@ Start with a simple no-knead bread recipe that uses a long overnight fermentatio
   answer: true
   explanation: "Both are correct. Yeast produces CO₂ during fermentation, which inflates the gluten network and causes the dough to rise. But during the same period, enzymes in the flour break down starches and proteins into flavor compounds that don't exist in raw dough. Long, slow fermentation prioritizes flavor development; short, fast fermentation prioritizes rise. This is why cold-retarded doughs taste more complex than quickly-fermented ones at identical ingredient ratios."
 
-- question: "You can only develop strong gluten structure in bread dough by kneading it thoroughly — resting without kneading produces insufficient gluten development."
+- question: "You can mainly develop strong gluten structure in bread dough by kneading it thoroughly — resting without kneading produces insufficient gluten development."
   type: true-false
   answer: false
   explanation: "Gluten development requires wheat proteins (glutenin and gliadin) to hydrate and bond — this can happen through time and water alone, without mechanical kneading. No-knead bread methods rely on long fermentation at higher hydration levels to develop the gluten network. Kneading accelerates the process but is not the only path. The windowpane test (stretching dough thin enough to see light through) confirms sufficient gluten development regardless of how it was achieved."

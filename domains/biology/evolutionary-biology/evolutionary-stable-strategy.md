@@ -42,7 +42,7 @@ An evolutionary stable strategy (ESS) is a strategy that, once fixed in a popula
   answer: 1
   explanation: "The mixed-strategy ESS in Hawk-Dove means individuals probabilistically vary their behavior — playing Hawk with probability p* and Dove with probability (1 − p*) — calibrated so the expected fitness gain from each pure strategy is identical. At this equilibrium, no mutant playing a different probability does better. Note that the same equilibrium can also manifest as a polymorphism (a stable population mix of pure Hawk and pure Dove individuals), but in both cases the mechanism is fitness equalization, not conscious choice or a compromise phenotype."
 
-- question: "An evolutionarily stable strategy (ESS) must always be a single pure strategy; mixed or probabilistic strategies cannot be evolutionarily stable because selection favors definite behaviors."
+- question: "An evolutionarily stable strategy (ESS) is expected to generally be a single pure strategy; mixed or probabilistic strategies can seldom be evolutionarily stable because selection favors definite behaviors."
   type: true-false
   answer: false
   explanation: "This is a common misconception. An ESS can be a mixed strategy (where each individual plays each pure strategy with some probability), a pure strategy (if one strategy outperforms all others when common), or a polymorphism (a stable population mix of pure types maintained by frequency-dependent selection). The Hawk-Dove ESS is typically a mixed strategy or polymorphism. The defining criterion is the invasion test — not the strategy type."

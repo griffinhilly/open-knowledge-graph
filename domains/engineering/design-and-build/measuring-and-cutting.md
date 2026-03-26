@@ -40,7 +40,7 @@ Start with measuring everyday objects to the nearest half-inch and centimeter. T
   answer: 1
   explanation: "Once you cut a piece of material too short, you cannot add the missing length back. You have to throw away the piece and cut a new one, wasting both material and time. Measuring twice — verifying your measurement before cutting — catches errors when they are still free to fix."
 
-- question: "When using a ruler, you should always start measuring from the very edge of the ruler."
+- question: "When using a ruler, you should typically start measuring from the very edge of the ruler."
   type: true-false
   answer: false
   explanation: "Many rulers have a small gap between the edge and the zero mark. If you measure from the edge instead of from zero, every measurement will be slightly too long. Always find where the zero mark is on your ruler and start from there. Some experienced builders start from the 1-inch mark and subtract 1 from their reading to avoid the end of the ruler entirely."

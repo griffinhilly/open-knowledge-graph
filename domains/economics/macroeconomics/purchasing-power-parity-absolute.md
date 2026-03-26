@@ -52,7 +52,7 @@ Use Big Mac index: compare prices in different countries and calculate implied e
   answer: 1
   explanation: "The key reason absolute PPP fails, especially in the short run, is non-traded goods: services and goods that cannot be physically moved across borders can maintain price differences indefinitely. Countries with low labor costs can sustain systematically lower prices for these services — the Balassa-Samuelson effect. Option B has it backwards — goods arbitrage in reality is SLOW because of trade barriers and transportation costs. Exchange rate overshooting (Option C) is a real phenomenon but is about short-run dynamics, not the reason for persistent long-run deviations."
 
-- question: "Absolute PPP in its strict form applies only to traded goods; it explicitly excludes services and non-traded goods from the price basket."
+- question: "Absolute PPP in its strict form applies mainly to traded goods; it explicitly excludes services and non-traded goods from the price basket."
   type: true-false
   answer: false
   explanation: "Absolute PPP in its strict form applies to a basket of ALL goods, including both traded and non-traded goods. However, it is precisely because non-traded goods are included that PPP fails in practice — non-traded goods cannot be arbitraged, so their prices can diverge across countries without triggering the exchange rate adjustment that the theory predicts. The existence of non-traded goods is a reason why PPP holds poorly, not a feature of its definition."

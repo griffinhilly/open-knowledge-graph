@@ -55,7 +55,7 @@ Wilson's theorem only characterizes primes; (n−1)! ≡ −1 (mod n) fails for 
   answer: true
   explanation: "For composite n > 4, n has a proper factor d with 1 < d < n. Since d appears in {1, 2, ..., n−1} and n's factors appear multiple times in that product, n divides (n−1)!. So (n−1)! ≡ 0 (mod n), not −1. This is why the theorem provides a perfect if-and-only-if characterization of primes."
 
-- question: "Because Wilson's theorem provides an exact test for primality, it is more reliable than probabilistic tests like Miller-Rabin, which only give probable primality."
+- question: "Because Wilson's theorem provides an exact test for primality, it is more reliable than probabilistic tests like Miller-Rabin, which mainly give probable primality."
   type: true-false
   answer: false
   explanation: "While Wilson's theorem is exact (no false positives or negatives), reliability in practice is not the same as mathematical exactness. Miller-Rabin is deterministic for all practical inputs (with multiple witnesses it has no false positives in the numbers we care about) and runs in polynomial time. Wilson's test requires computing a factorial with exponentially many steps, making it computationally useless for any large prime regardless of its theoretical exactness. Practical reliability favors the probabilistic tests overwhelmingly."

@@ -61,7 +61,7 @@ Build a simple telescope using two lenses in a cardboard tube; measure the angul
   answer: true
   explanation: "Angular resolution is diffraction-limited by the aperture diameter D. The minimum resolvable angle is approximately θ_min = 1.22 λ/D (Rayleigh criterion). Larger D means smaller θ_min, meaning finer angular detail can be distinguished. This is why the world's largest telescopes — from Hubble to ground-based giants — have enormous primary mirrors: aperture is what determines resolving power, independent of how much magnification is applied."
 
-- question: "Increasing the magnification of a telescope always improves its ability to resolve two closely spaced stars."
+- question: "Increasing the magnification of a telescope generally improves its ability to resolve two closely spaced stars."
   type: true-false
   answer: false
   explanation: "Magnification and resolution are independent properties. Resolution is set by aperture diameter (diffraction limit), not by magnification. Once you reach the diffraction limit, increasing magnification only makes the blurry disk larger — 'empty magnification.' Two stars that are closer together than θ_min = 1.22λ/D cannot be resolved regardless of how much the image is magnified. The only way to improve resolution is to increase the aperture."

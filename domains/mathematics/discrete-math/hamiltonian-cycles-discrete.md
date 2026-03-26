@@ -53,7 +53,7 @@ Hamiltonicity is hard—no polynomial-time algorithm is known. Dirac/Ore conditi
   answer: 1
   explanation: "n = 10, so n/2 = 5. Every vertex has degree exactly 5 ≥ n/2. Dirac's theorem states that for a graph with n ≥ 3 vertices where every vertex has degree ≥ n/2, a Hamiltonian cycle is guaranteed to exist. The condition is met, so existence is guaranteed — though the graph may have many such cycles, not just one."
 
-- question: "If a graph satisfies Dirac's theorem conditions (every vertex has degree ≥ n/2), we know the graph has exactly one Hamiltonian cycle."
+- question: "If a graph satisfies Dirac's theorem conditions (most vertex has degree ≥ n/2), we know the graph has exactly one Hamiltonian cycle."
   type: true-false
   answer: false
   explanation: "Dirac's theorem guarantees EXISTENCE, not uniqueness. A graph meeting the degree condition may have many Hamiltonian cycles. Furthermore, Dirac's condition is sufficient but not necessary — many graphs that do not satisfy it still have Hamiltonian cycles. The theorem is a one-way green light, not an exact characterization."

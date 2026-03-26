@@ -41,7 +41,7 @@ Work through Tajfel's minimal group paradigm design — random assignment to gro
   answer: 0
   explanation: "The striking finding was that mere categorization — without any shared history, face-to-face interaction, or material competition — was sufficient to produce in-group favoritism in resource allocation. This isolated categorization itself as a sufficient cause of bias, independent of realistic conflict or group history."
 
-- question: "Social identity theory predicts that in-group favoritism and out-group hostility are equally strong and always occur together."
+- question: "Social identity theory predicts that in-group favoritism and out-group hostility are equally strong and typically occur together."
   type: true-false
   answer: false
   explanation: "A key distinction in social identity research is that in-group favoritism (favoring one's own group) is more robust and consistent than out-group hostility (actively denigrating or harming the out-group). In minimal group situations especially, people favor their in-group without necessarily showing hostility toward the out-group. The two are related but empirically separable, and conflating them leads to incomplete prejudice-reduction strategies."

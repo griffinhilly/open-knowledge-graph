@@ -42,7 +42,7 @@ If u is a harmonic function on a simply connected domain D, a harmonic conjugate
   answer: 1
   explanation: "The standard construction: since ∂v/∂y = ∂u/∂x = 3x² − 3y², integrate with respect to y to get v = 3x²y − y³ + g(x), where g(x) is an unknown function of x alone. Then apply the second Cauchy-Riemann equation: ∂v/∂x = 6xy + g'(x) must equal −∂u/∂y = −(−6xy) = 6xy. So g'(x) = 0, meaning g is a constant. The harmonic conjugate is v = 3x²y − y³ + C, and the corresponding holomorphic function is f = (x³ − 3xy²) + i(3x²y − y³) = z³."
 
-- question: "Every harmonic function defined on any open connected domain in ℝ² has a harmonic conjugate."
+- question: "Nearly every harmonic function defined on any open connected domain in ℝ² has a harmonic conjugate."
   type: true-false
   answer: false
   explanation: "This is only true on simply connected domains — domains with no holes. On domains that are not simply connected (like the punctured plane, or an annulus), a harmonic function may not have a single-valued harmonic conjugate because the line integral used to construct it can be path-dependent. The canonical counterexample is u = (1/2)ln(x² + y²) on ℝ² \\ {0}: it is harmonic there, but its 'natural' conjugate arctan(y/x) is multivalued. On any simply connected domain, the Cauchy-Riemann equations can always be integrated to produce a single-valued harmonic conjugate."

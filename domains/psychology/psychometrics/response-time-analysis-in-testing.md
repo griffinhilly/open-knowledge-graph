@@ -46,7 +46,7 @@ Response times provide additional information about test performance beyond accu
   answer: 0
   explanation: "Raw response times are right-skewed: most responses cluster around a mode but there is a long tail of very slow responses. This skew violates the normality assumptions of standard linear models. Taking the logarithm compresses the long tail and produces an approximately normal distribution, enabling the log-normal model that is standard in psychometric RT analysis. The other options mischaracterize what the transformation accomplishes — it is a distributional fix, not a correction for the speed-accuracy tradeoff or a method for outlier removal."
 
-- question: "An examinee who answers all items faster than the group average is likely guessing and should have their score adjusted downward."
+- question: "An examinee who answers most items faster than the group average is likely guessing and should have their score adjusted downward."
   type: true-false
   answer: false
   explanation: "Speed alone is not evidence of guessing. A high-ability examinee may genuinely respond faster than average — mastery reduces processing time. The diagnostic signal is not absolute speed but the combination of unusual speed with unexpected accuracy patterns relative to item difficulty. Fast-incorrect responses on easy items, or fast-correct responses on hard items, are the meaningful patterns. Adjusting scores simply for being fast would penalize high-ability examinees who process items quickly and correctly."

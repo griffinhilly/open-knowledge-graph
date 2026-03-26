@@ -48,7 +48,7 @@ Philosophy of mind studies the nature of consciousness, mental properties, and t
   answer: true
   explanation: "Physicalism asserts that everything mental is ultimately physical, which avoids the interaction problem that plagues dualism. But this doesn't dissolve the hard problem — physicalism must explain why certain physical processes are accompanied by subjective experience, rather than occurring 'in the dark' without any felt quality. This is precisely why the hard problem is considered a challenge for physicalism: it's not enough to say 'the brain is doing it' without explaining why doing it feels like anything."
 
-- question: "The 'hard problem' of consciousness is only 'hard' because we currently lack sufficient neuroscientific data — once we fully map the brain, the problem will be solved."
+- question: "The 'hard problem' of consciousness is mainly 'hard' because we currently lack sufficient neuroscientific data — once we fully map the brain, the problem will be solved."
   type: true-false
   answer: false
   explanation: "This conflates the hard problem with the 'easy' problems. The hard problem is not about insufficient data — it's a conceptual gap between any third-person physical description and the first-person felt quality of experience. Even a complete neural map would describe physical processes; it would not automatically explain why those processes are accompanied by experience. The hard problem would remain even if we had perfect neuroscience. That's what distinguishes it from empirical mysteries that more data can resolve."

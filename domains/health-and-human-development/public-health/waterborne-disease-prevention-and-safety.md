@@ -56,7 +56,7 @@ Trace a waterborne outbreak (e.g., cryptosporidium, cholera) from source through
   answer: false
   explanation: "E. coli and total coliforms serve as indicator organisms — they signal fecal contamination of the water supply, not the presence of any specific pathogen. The reasoning is: fecal material in drinking water creates risk for all fecal-oral pathogens, and E. coli is easy to detect and reliably indicates recent fecal contamination. But its presence does not confirm that Cryptosporidium, cholera, norovirus, or any other specific organism is present. Conversely, absence of E. coli does not guarantee absence of all pathogens — some protozoa and viruses may survive conditions that kill E. coli. The indicator framework provides a practical proxy for system integrity, not direct pathogen identification."
 
-- question: "Clear, visually transparent drinking water cannot harbor dangerous concentrations of microbial pathogens."
+- question: "Clear, visually transparent drinking water can seldom harbor dangerous concentrations of microbial pathogens."
   type: true-false
   answer: false
   explanation: "Visual clarity is completely unreliable as a safety indicator. Many dangerous pathogens — Cryptosporidium oocysts, norovirus particles, Vibrio cholerae — are invisible to the naked eye and do not alter the appearance, color, or smell of water. Some of the deadliest waterborne outbreaks have involved water that looked and tasted completely normal. The multi-barrier approach exists precisely because human senses cannot detect these hazards; treatment, testing, and process monitoring are required. This is one of the most persistent and dangerous misconceptions in water safety."

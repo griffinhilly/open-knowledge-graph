@@ -62,7 +62,7 @@ Calculate your actual monthly essential expenses from your budget (not total spe
   answer: true
   explanation: "True. The standard 3–6 month guideline encodes risk. Three months is appropriate for stable, predictable income. Six months or more is appropriate when income is variable, job searches take longer, or dependents rely on the income. A freelancer's income can stop abruptly between contracts, and the timeline to find new work is harder to predict — both factors push the target higher."
 
-- question: "An emergency fund is essentially money doing nothing — the opportunity cost of not investing it outweighs the protection it provides."
+- question: "An emergency fund is essentially money doing hardly anything — the opportunity cost of not investing it outweighs the protection it provides."
   type: true-false
   answer: false
   explanation: "False. The opportunity cost of keeping an emergency fund in a high-yield savings account is the premium paid for financial stability — and it is real but small compared to the downside it prevents. Without an emergency fund, any disruption forces recourse to high-interest debt. Credit card rates (often 20%+) far exceed the returns foregone by not investing the emergency fund. The 'doing nothing' framing ignores what the fund is actually doing: eliminating the risk of a short-term crisis compounding into long-term debt."

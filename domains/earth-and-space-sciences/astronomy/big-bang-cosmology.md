@@ -66,7 +66,7 @@ Study the timeline of the universe from the Planck epoch through nucleosynthesis
   answer: true
   explanation: "Big Bang nucleosynthesis (BBN) in the first ~3 minutes produced essentially all of the primordial helium-4, deuterium, and lithium-7 in the universe. The hydrogen-to-helium ratio is a direct prediction of BBN, and its agreement with observed cosmic abundances is one of the three independent pillars of Big Bang cosmology. Stars do produce helium and heavier elements, but stars started from a universe that was already 25% helium — they did not create that helium. Stellar nucleosynthesis accounts for elements heavier than lithium."
 
-- question: "The cosmic microwave background is detectable in a specific direction in the sky — pointing back toward the location of the Big Bang — rather than from all directions equally."
+- question: "The cosmic microwave background is detectable in a specific direction in the sky — pointing back toward the location of the Big Bang — rather than from most directions equally."
   type: true-false
   answer: false
   explanation: "The CMB comes uniformly from all directions because recombination happened everywhere in the universe simultaneously — not at one location. When photons were freed at recombination, they came from every point in the cosmos. The CMB 'surface of last scattering' is a spherical shell around us at a distance of ~46 billion light-years in every direction. This isotropy (with tiny fluctuations of one part in 100,000) is itself evidence that the universe is spatially homogeneous on large scales."

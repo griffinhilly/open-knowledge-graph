@@ -53,7 +53,7 @@ Simulate allele frequency changes in small vs. large populations using coin-flip
   answer: 1
   explanation: "Genetic drift is a statistical sampling phenomenon — each generation, by chance, some alleles are over- or under-represented in offspring relative to their frequency in the parents. It is not driven by fitness (that is natural selection), does not create new variants (that is mutation), and is not caused by migration (that is gene flow)."
 
-- question: "Genetic drift will always push a population toward better-adapted alleles over time, because random chance tends to eliminate harmful variants."
+- question: "Genetic drift will generally push a population toward better-adapted alleles over time, because random chance tends to eliminate harmful variants."
   type: true-false
   answer: false
   explanation: "Drift is fitness-blind — it operates on allele frequencies by chance alone, regardless of whether an allele is beneficial, neutral, or harmful. A deleterious allele can increase in frequency or even reach fixation purely by chance, especially in small populations. Evolution through drift does not trend toward improvement."

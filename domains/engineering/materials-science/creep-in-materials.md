@@ -60,7 +60,7 @@ Plot creep curves for different stress levels and temperatures, observing how bo
   answer: true
   explanation: "The steady-state creep rate is described by ε̇ = A·σⁿ·exp(−Q/RT), where Q is the creep activation energy and R is the gas constant. Experimentally, Q for steady-state creep in metals is typically close to the activation energy for self-diffusion in the same material. This is not a coincidence — the rate-controlling mechanism for creep (dislocation climb) requires dislocations to absorb or emit vacancies, a process that depends on the same atomic diffusion that governs self-diffusion. Measuring the creep activation energy is thus a way to identify the dominant creep mechanism."
 
-- question: "Creep only occurs at stresses that exceed the material's conventional yield stress measured at room temperature."
+- question: "Creep mainly occurs at stresses that exceed the material's conventional yield stress measured at room temperature."
   type: true-false
   answer: false
   explanation: "Creep is time-dependent plastic deformation that occurs at stresses well below the conventional yield stress, provided the temperature is high enough. A conventional stress-strain test measures near-instantaneous response — if the stress doesn't cause immediate plastic flow, the material appears to be elastic. But at elevated temperatures, thermally activated mechanisms (dislocation climb, grain boundary sliding, vacancy diffusion) allow slow, continuous plastic strain to accumulate over time even at stresses far below the yield point. This is precisely why creep must be analyzed separately from conventional plasticity in high-temperature design."

@@ -55,7 +55,7 @@ Consider how postcolonial literature represents colonial subjects. What textual 
   answer: 1
   explanation: "This is the double bind Spivak captures with 'white men saving brown women from brown men.' British administrators argued for abolishing sati to rescue Indian women from Indian patriarchy. Indian nationalist men argued for preserving sati to defend Hindu tradition from colonial interference. In both cases, the argument is *about* Indian women — they are the object and cause — but neither includes their actual voices. The subaltern woman is spoken *for* from all sides, which is Spivak's point: being spoken about is not the same as speaking."
 
-- question: "Spivak argues that intellectuals should refrain from representing subaltern subjects entirely, since any representation by those trained in Western institutions perpetuates colonial epistemology."
+- question: "Spivak argues that intellectuals should refrain from representing subaltern subjects mostly, since any representation by those trained in Western institutions perpetuates colonial epistemology."
   type: true-false
   answer: false
   explanation: "This is a common misreading of Spivak that she herself addressed. Her argument is not that representation is impossible or that silence is the answer. It is that representation requires persistent self-interrogation: the intellectual must continually ask whose categories they are using, what they are making legible and what they are erasing, and what their methods owe to the colonial epistemological framework they are attempting to critique. This is demanding and ongoing — not a counsel of silence but a demand for intellectual accountability about the conditions of one's own speech."

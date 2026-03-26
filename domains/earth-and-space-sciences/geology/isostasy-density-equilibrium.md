@@ -59,7 +59,7 @@ Calculate crustal thickness needed to support topographic loads. Apply Archimede
   answer: true
   explanation: "This is the fundamental analogy of isostasy. Continental crust (~2.7 g/cm³) is less dense than oceanic crust (~3.0 g/cm³), which is less dense than the mantle (~3.3 g/cm³). Just as wood floats higher in water than iron, continental crust floats higher on the mantle than oceanic crust — which is why continents sit 4–5 km above the ocean floor. The compensation depth is like the waterline in an Archimedes' principle problem: below it, total pressure from any crustal column must be equal."
 
-- question: "Isostatic equilibrium means that high-elevation regions always have thicker crust than low-elevation regions."
+- question: "Isostatic equilibrium means that high-elevation regions usually have thicker crust than low-elevation regions."
   type: true-false
   answer: false
   explanation: "This is only true under the Airy model of isostasy, which explains elevation through crustal thickness variations. The Pratt model shows that elevation can also be supported by density variations — less dense rock at the same thickness floats higher. In practice, both mechanisms operate. Additionally, high plateaus like the Tibetan Plateau have thick crust, but some high-elevation ocean ridges have relatively thin crust that floats higher simply because it is hotter (and therefore less dense) than surrounding oceanic crust. Thickness alone does not determine elevation; it is the product of thickness and density that determines buoyancy."

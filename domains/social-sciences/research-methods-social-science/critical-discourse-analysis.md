@@ -53,7 +53,7 @@ Apply CDA to media representations of a marginalized group, analyze policy docum
   answer: 1
   explanation: "CDA combines systematic textual analysis (grammatical patterns, word choice, metaphor counts) with analysis of discursive practice (production and circulation of texts) and social practice (power structures and ideological formations). Unlike mere political commentary, CDA builds an evidence-anchored argument connecting observable textual features to social consequences. Unlike value-neutral content analysis, CDA is transparent about its normative commitments — it aims to expose and challenge relations of domination while showing its interpretive moves clearly enough for others to evaluate them."
 
-- question: "CDA assumes that all language use reproduces oppression and serves dominant power interests."
+- question: "CDA assumes that most language use reproduces oppression and serves dominant power interests."
   type: true-false
   answer: false
   explanation: "This is one of the listed common misconceptions about CDA. CDA treats discourse as a site of *struggle* — language can reproduce inequality but also resist it. Dominated groups use language to challenge power, subvert dominant frames, and articulate counter-narratives. CDA analyzes both how language entrenches power and how it can be used to contest it. Assuming all discourse is oppressive would actually undermine CDA's political project, which depends on the possibility of critical, emancipatory discourse."

@@ -58,7 +58,7 @@ Thinking the transition is purely linear or complete—countries often have a du
   answer: true
   explanation: "Omran's model is not just historical description — it is a planning tool. If a country is in Stage 2, its chronic disease burden is about to rise sharply; building cardiovascular care infrastructure before that wave arrives is far more effective than responding after the fact. Using epidemiological measurement tools (cause-of-death distributions, age-specific mortality rates) to locate a population in the transition is the foundation of evidence-based health system planning."
 
-- question: "All countries eventually follow a clean, sequential progression through the three stages of the epidemiologic transition, completing each stage before the next begins."
+- question: "Most countries eventually follow a clean, sequential progression through the three stages of the epidemiologic transition, completing each stage before the next begins."
   type: true-false
   answer: false
   explanation: "Many countries experience overlapping or simultaneous stages, resulting in a dual burden rather than a clean sequential transition. Transition speed and patterns vary by country, region, and urban-rural divide. Some scholars have added a fourth stage (Age of Delayed Degenerative Diseases) for high-income countries, suggesting the model is not a destination but a moving target. The assumption of clean linear progression is the most common error in applying this framework."

@@ -57,7 +57,7 @@ Bread several pieces using the full three-step process, then compare with skippi
   answer: 2
   explanation: "Crunch in fried coatings comes from rapid browning of surface elements in hot oil — the more surface area exposed to oil, the more browning occurs. Panko's coarser, flakier texture gives each breadcrumb a more irregular, expanded shape with more surface area than a dense fine breadcrumb. More surface contact with hot oil means more Maillard reaction (browning), which means more crunch. Fine breadcrumbs pack together more densely, creating a tighter, denser crust — suitable for some applications but less dramatically crispy."
 
-- question: "Thicker breading always produces a crispier, better result because it provides more crunch and better insulation for the protein inside."
+- question: "Thicker breading usually produces a crispier, better result because it provides more crunch and better insulation for the protein inside."
   type: true-false
   answer: false
   explanation: "Very thick coatings have two problems: they cook unevenly (the outside may burn while the inside is still raw dough), and they tend to separate from the protein during frying as the thick coating's structural integrity breaks down. The ideal is a thin, even, well-adhered coating at each layer — light flour coat, complete but thin egg coverage, and a firm but not bulky breadcrumb layer. A good fried crust should release cleanly from the protein with no soggy patches."

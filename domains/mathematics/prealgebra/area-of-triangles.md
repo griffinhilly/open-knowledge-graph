@@ -62,7 +62,7 @@ Start by drawing a rectangle, cutting it diagonally, and showing that each trian
   answer: 1
   explanation: "All three base-height pairs give the same area because there is only one area for a given triangle. Using (base 5, height 12): A = (1/2)(5)(12) = 30. Using (base 10, height 6): A = (1/2)(10)(6) = 30. So (1/2)(13)(h) = 30, giving h = 60/13 ≈ 4.6. This confirms that you can choose any side as the base as long as you use the *corresponding* perpendicular height."
 
-- question: "The height of a triangle is always one of its three sides."
+- question: "The height of a triangle is typically one of its three sides."
   type: true-false
   answer: false
   explanation: "The height (altitude) of a triangle is the perpendicular distance from a chosen base to the opposite vertex — it is not a side of the triangle unless the triangle is a right triangle and you use the legs as base and height. For non-right triangles, the height is a separate segment drawn from the vertex perpendicular to the base (or the extended base). Using a slant side as the height is the most common error in computing triangle area."

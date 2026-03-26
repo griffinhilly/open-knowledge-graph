@@ -59,7 +59,7 @@ Use tools like Modular Scale (modularscale.com) to generate a scale, then apply 
   answer: true
   explanation: "This is the core principle: when every type size is produced by multiplying or dividing the same base by the same ratio, all sizes are proportionally related — the same way musical notes in a scale sound harmonious because they share mathematical frequency ratios. Ad hoc sizing (14px here, 17px there, 36px headline) produces sizes with no mathematical relationship to each other, which is why they feel subtly inconsistent even when no single size is obviously wrong."
 
-- question: "A designer should always use the exact sizes their modular scale generates, even when a size falls awkwardly close to the one above or below it."
+- question: "A designer should typically use the exact sizes their modular scale generates, even when a size falls awkwardly close to the one above or below it."
   type: true-false
   answer: false
   explanation: "A modular scale is scaffolding, not law. If a scale step produces a size too similar to an adjacent step, or doesn't work at a specific breakpoint, it should be adjusted. The goal is proportional harmony and visual coherence, not mathematical purity. The scale provides a principled starting point and a shared language; the designer's eye and the content's needs do the final tuning. Treating it as rigid produces designs that feel mechanically correct but visually wrong."

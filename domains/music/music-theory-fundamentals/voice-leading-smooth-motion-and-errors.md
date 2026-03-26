@@ -57,7 +57,7 @@ Students sometimes think parallel fifths and octaves are always forbidden; they 
   answer: true
   explanation: "This is precisely the reason parallel fifths are avoided in the classical style. Four-part writing aims to maintain four independent melodic lines that combine into harmonic progressions. When two voices move in parallel fifths, they fuse acoustically — the listener perceives them as a single thickened voice rather than two distinct parts. The harmonic texture loses its differentiation, and the counterpoint loses one of its 'voices' perceptually. This is also why parallel octaves are problematic: two voices moving in octaves collapse to one pitch-class and one perceived line."
 
-- question: "Good voice leading requires every voice to move in a different direction at every chord change."
+- question: "Good voice leading requires most voice to move in a different direction at most chord change."
   type: true-false
   answer: false
   explanation: "This overgeneralizes contrary motion as a rule. Voice leading principles prioritize small intervals and independence of voices — not necessarily contrary motion at every step. Some parallel motion is entirely acceptable, particularly when voices are widely spaced. What is avoided is specific problematic motion: parallel fifths, parallel octaves, and large unnecessary leaps. Voices can move in the same direction (parallel motion) as long as they are not creating parallel fifths or octaves."

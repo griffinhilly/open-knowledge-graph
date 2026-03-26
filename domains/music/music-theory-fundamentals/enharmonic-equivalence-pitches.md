@@ -60,7 +60,7 @@ Practice enharmonic spelling of notes and chords in different keys. Rewrite pass
   answer: false
   explanation: "Spelling signals harmonic function. A chord spelled G♯–B–D♯ reads as an augmented chord in a sharp-key context; respelled A♭–B–E♭, it reads as an A♭ minor chord in a flat-key context. A trained reader uses spelling to quickly identify the key, the chord's function within it, and its resolution tendency — all before any analysis begins. Incorrect spelling forces the reader to mentally 'undo' the notation before understanding the harmony. In performance, correct spelling helps musicians understand direction and phrasing; in analysis, it determines what labels and functions apply."
 
-- question: "Two enharmonically equivalent notes always serve the same harmonic function within a musical passage."
+- question: "Two enharmonically equivalent notes generally serve the same harmonic function within a musical passage."
   type: true-false
   answer: false
   explanation: "Enharmonic equivalence is acoustic, not harmonic. C♯ and D♭ produce the same frequency on a piano, but they carry different meanings depending on the key and context. C♯ typically functions as part of a D major or A major chord (or as a leading tone to D); D♭ typically belongs to A♭ major or D♭ major (or functions as a flattened third in other contexts). The entire premise of enharmonic modulation is that the same pitch can be heard and analyzed differently depending on how it's spelled and how the surrounding harmony directs the listener's expectation."

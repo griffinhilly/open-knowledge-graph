@@ -56,7 +56,7 @@ Collect comic or absurd examples of misplaced modifiers to make the error memora
   answer: 2
   explanation: "'Having finished the report' implies a person who finished the report. But the subject of the main clause is 'the printer' — printers do not finish reports. The modifier dangles because its implied actor is absent from the sentence. Fixed: 'Having finished the report, she used the printer to make copies.' In options A and B, the implied subject of the opening phrase correctly matches the main clause subject."
 
-- question: "A dangling modifier can always be corrected simply by moving it closer to the word it is supposed to modify."
+- question: "A dangling modifier can usually be corrected simply by moving it closer to the word it is supposed to modify."
   type: true-false
   answer: false
   explanation: "False. A dangling modifier lacks a logical subject in the sentence — the intended actor either does not appear or is not the grammatical subject. Repositioning alone will not fix it because there is no correct position without restructuring. You must either rewrite the main clause so the correct subject appears, or restructure the opening phrase into a full subordinate clause."

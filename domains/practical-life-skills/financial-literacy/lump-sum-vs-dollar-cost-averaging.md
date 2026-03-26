@@ -60,7 +60,7 @@ Dollar-cost averaging guarantees lower average cost when it only works if the as
   answer: true
   explanation: "This is DCA's genuine and primary advantage — it is psychological, not mathematical. If a lump-sum investor watches their entire $60,000 drop 20% the following week, the pain is intense and often triggers panic selling. With DCA, later purchases are at lower prices, which feels like 'getting a deal' rather than 'sitting on a loss.' For investors prone to loss aversion, this framing can prevent the worst behavioral mistake: selling at the bottom. Better psychological sustainability can produce better actual outcomes even with lower expected value."
 
-- question: "Dollar-cost averaging always produces a lower average cost per share than investing a lump sum."
+- question: "Dollar-cost averaging usually produces a lower average cost per share than investing a lump sum."
   type: true-false
   answer: false
   explanation: "DCA produces a lower average cost than buying the *same number of shares* each period (because fixed dollar amounts automatically buy more shares when prices are low). But compared to lump-sum investing the same total dollar amount on day one, DCA does NOT guarantee lower average cost. In a rising market, each DCA installment buys at a progressively higher price — the average cost ends up higher than the initial lump-sum price. The math only favors DCA if the market dips after you start."

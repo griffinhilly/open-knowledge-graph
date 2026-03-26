@@ -44,7 +44,7 @@ A function f: X → Y is continuous if for every open set V in Y, the preimage f
   answer: 1
   explanation: "The choice is not arbitrary — it reflects the actual structure of continuous functions. Continuous functions preserve open-set structure when you pull back along f (preimage direction), but not when you push forward (image direction). The constant function counterexample makes this vivid: it is continuous by the preimage definition yet maps open sets to non-open sets. The preimage definition correctly captures what it means for f to 'respect' the topology on the codomain: if V is declared open in Y, then f must present an open region in X that maps into V."
 
-- question: "A continuous function f: X → Y always maps open sets in X to open sets in Y."
+- question: "A continuous function f: X → Y usually maps open sets in X to open sets in Y."
   type: true-false
   answer: false
   explanation: "False. This is the most common confusion about topological continuity. The correct statement is the reverse: f is continuous if and only if the *preimage* of every open set in Y is open in X. The constant function f(x) = 0 from ℝ to ℝ is continuous but maps every open interval to the single point {0}, which is not open. Functions that map open sets to open sets are called 'open maps' — a strictly stronger and entirely separate condition from continuity."

@@ -44,7 +44,7 @@ Practice calculating ΔTb and ΔTf for both electrolyte and nonelectrolyte solut
   answer: 2
   explanation: "Colligative properties depend on the number of dissolved particles, not the chemical identity or mass of the solute. NaCl dissociates into Na⁺ and Cl⁻ (i ≈ 2), effectively producing ~2 mol of particles per mol of NaCl dissolved. Glucose does not dissociate (i = 1). ΔTf = iKfm, so the NaCl solution has roughly twice the freezing point depression. Option D is wrong because it's particle count, not ionic character per se, that matters."
 
-- question: "Two solutions at the same molality must have the same boiling point elevation if they are at the same temperature and pressure."
+- question: "Two solutions at the same molality should have the same boiling point elevation if they are at the same temperature and pressure."
   type: true-false
   answer: false
   explanation: "Boiling point elevation depends on the total concentration of dissolved particles (ΔTb = iKbm), so the van't Hoff factor i matters. A 1.0 m NaCl solution (i ≈ 2) has roughly twice the boiling point elevation of a 1.0 m glucose solution (i = 1). Equal molality does not guarantee equal colligative effects unless the solutes have the same degree of dissociation."

@@ -61,7 +61,7 @@ Assuming all communication is person-to-person transmission. Underestimating the
   answer: true
   explanation: "Re = R₀ × (fraction of population still susceptible). At the very start of an outbreak in a naive population, almost everyone is susceptible, so that fraction is near 1, and Re ≈ R₀. As immunity accumulates through infection or vaccination, Re diverges downward from R₀."
 
-- question: "A pathogen with a higher R₀ will always spread more rapidly through a population than one with a lower R₀."
+- question: "A pathogen with a higher R₀ will generally spread more rapidly through a population than one with a lower R₀."
   type: true-false
   answer: false
   explanation: "R₀ describes spread in a fully susceptible population — a theoretical baseline. Real spread is governed by Re, which accounts for existing immunity and behavioral interventions. A pathogen with R₀ = 15 in a population with 94% immunity has Re < 1 and will not spread; a pathogen with R₀ = 3 in a fully naive population will spread rapidly. The common misconception is treating R₀ as a real-time indicator of spread."

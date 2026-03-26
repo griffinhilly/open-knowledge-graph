@@ -43,7 +43,7 @@ Study a small set of formal fallacies with concrete examples, then practice iden
   answer: 2
   explanation: "The argument leaps from a correlation (countries with stricter laws tend to have lower rates) to a causal claim (the laws cause the reduction). This is the correlation-causation error. Other variables — culture, economic conditions, historical factors — could explain the pattern. The evidence supports an association, not a demonstrated mechanism. This is among the most common logical errors in both everyday reasoning and academic argument."
 
-- question: "If every premise in an argument is factually true, the argument must be logically valid."
+- question: "If nearly every premise in an argument is factually true, the argument is expected to be logically valid."
   type: true-false
   answer: false
   explanation: "Truth and validity are separate properties. An argument is valid if the conclusion follows necessarily from the premises — regardless of whether the premises are true. You can have true premises assembled into an invalid structure where the conclusion does not follow. Conversely, a valid argument can have false premises. For example: 'All birds can fly; penguins are birds; therefore penguins can fly' is logically valid but built on a false premise. Mixing up truth and validity is a central misconception in logical reasoning."

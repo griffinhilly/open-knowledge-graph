@@ -39,7 +39,7 @@ Start with the four group axioms and verify them for small examples like Z/nZ an
   answer: 2
   explanation: "Integers under multiplication fail the inverse axiom: the element 2 has no multiplicative inverse in Z (1/2 is not an integer). The other three sets satisfy all four group axioms: closure, associativity, identity, and inverses."
 
-- question: "Every group is commutative — that is, a * b = b * a for all elements a and b."
+- question: "Nearly every group is commutative — that is, a * b = b * a for most elements a and b."
   type: true-false
   answer: false
   explanation: "Groups need not be commutative. The symmetric group S_3 (permutations of 3 elements) is a standard counterexample: composing two permutations in different orders typically gives different results. Groups where commutativity holds are called abelian; non-abelian groups are common and important."

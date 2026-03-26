@@ -49,7 +49,7 @@ Soil formation (pedogenesis) involves weathering, organic matter accumulation, a
   answer: true
   explanation: "This is the process of illuviation — downward deposition of dissolved or suspended material. The B horizon accumulates clay minerals, iron oxides, aluminum hydroxides, carbonates, or organic-metal complexes depending on the soil type and climate. The E-B horizon pair is essentially a redistribution system: the E loses what the B gains. The characteristic reddish or yellowish coloration of many B horizons comes from iron oxide coatings on soil particles deposited from above."
 
-- question: "Parent material is the dominant factor controlling soil type because it determines the starting chemistry from which all soil properties derive."
+- question: "Parent material is the dominant factor controlling soil type because it determines the starting chemistry from which most soil properties derive."
   type: true-false
   answer: false
   explanation: "Parent material is one of the five CLORPT factors and sets the starting chemistry, but it is often not the dominant factor. Climate frequently overrides parent material effects — given enough time and rainfall, soils developing on different rock types under the same climate can converge to similar weathered profiles. Conversely, the same parent material under different climates produces dramatically different soils (as the tropical vs. semi-arid example shows). Parent material is most influential in young soils (Entisols) where climate hasn't had time to overprint it."

@@ -51,7 +51,7 @@ Numerical differentiation approximates f'(x) using finite differences: forward (
   answer: true
   explanation: "Total error = truncation error + rounding error. Truncation error decreases as h → 0 (proportional to h for forward differences), but rounding error increases as h → 0 (proportional to ε_machine/h). The sum has a minimum at the optimal h. Below this optimal value, rounding error dominates and the total error rises. This is the fundamental tradeoff of numerical differentiation."
 
-- question: "Making the step size h as small as possible always produces the most accurate numerical derivative."
+- question: "Making the step size h as small as possible generally produces the most accurate numerical derivative."
   type: true-false
   answer: false
   explanation: "This is the central misconception. Very small h causes catastrophic cancellation: f(x+h) and f(x) become nearly equal floating-point numbers, and their difference loses significant digits. The rounding error in the derivative then grows as ε_machine/h, increasing without bound as h → 0. The optimal h balances truncation error against rounding error, giving h_opt ≈ √(ε_machine) ≈ 10⁻⁸ for forward differences."

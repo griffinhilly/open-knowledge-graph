@@ -64,7 +64,7 @@ Confusing form with harmony alone—form is about section relationships and arch
   answer: true
   explanation: "Form and harmony are related but distinct. Harmony operates locally, chord by chord; form operates at the scale of sections and their relationships. A piece in ternary form (ABA) has its form defined by the return of the A section after a contrasting B section — this is an architectural relationship that could exist regardless of what specific chords appear. The common misconception is equating form with harmonic content; the correction is recognizing form as the level above harmony, organizing sections into an overall architecture."
 
-- question: "In ternary form (ABA), the B section must always be in a different key from the A section."
+- question: "In ternary form (ABA), the B section should usually be in a different key from the A section."
   type: true-false
   answer: false
   explanation: "Contrast in the B section can come from many sources: different melodic material, different texture or register, different rhythmic character, a different harmonic area — or a combination. While a contrasting key is common in tonal ternary pieces, it is not a defining requirement. What defines ternary form is the structural relationship: statement (A), contrast (B), return (A). The contrast can be achieved without a key change, and requiring one would misidentify form based on a single feature rather than the sectional relationship."

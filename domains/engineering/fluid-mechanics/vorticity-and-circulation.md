@@ -54,7 +54,7 @@ Compute the vorticity field for several known flows: solid-body rotation (unifor
   answer: 1
   explanation: "Kelvin's theorem states that total circulation around any material loop in inviscid, barotropic flow is conserved. Since the flow starts at rest (total circulation = 0), the total must remain zero. When the airfoil develops bound circulation +Γ (necessary for lift via the Kutta-Joukowski theorem), an equal and opposite starting vortex −Γ must be shed into the wake. You can actually observe this starting vortex in flow visualizations: it trails behind the wing as it accelerates. This elegant result connects the abstract conservation law to the practical mechanism of aerodynamic lift."
 
-- question: "A fluid parcel following a curved path must be rotating about its own axis, so curved streamlines always indicate non-zero vorticity."
+- question: "A fluid parcel following a curved path is expected to be rotating about its own axis, so curved streamlines typically indicate non-zero vorticity."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about vorticity. A free vortex has perfectly circular streamlines yet zero vorticity in the fluid away from the center. Vorticity measures the LOCAL spin of a fluid parcel — whether a tiny paddle wheel immersed in the fluid would rotate. In a free vortex, the velocity gradient structure is exactly such that the parcel's curved path involves zero net spin. Curved streamlines indicate curved paths, not parcel rotation. Only solid-body rotation (a forced vortex) has both curved streamlines AND non-zero vorticity."

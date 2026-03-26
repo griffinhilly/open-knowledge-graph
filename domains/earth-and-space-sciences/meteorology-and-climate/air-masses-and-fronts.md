@@ -65,7 +65,7 @@ Trace the life cycle of a mid-latitude cyclone from formation to occlusion. For 
   answer: true
   explanation: "Because the warm front slopes very gently (1:200 or shallower), the zone where warm air overrides cold air extends far ahead of the surface front — hundreds of kilometers in some cases. Clouds and precipitation therefore develop long before the front reaches the surface. An observer sees the cloud deck thicken and lower progressively over many hours: high cirrus → cirrostratus → altostratus → nimbostratus, with rain beginning well before the surface front arrives."
 
-- question: "Every front passage is accompanied by precipitation, because the lifting of air at the frontal boundary always produces clouds dense enough to generate rain or snow."
+- question: "Most front passage is accompanied by precipitation, because the lifting of air at the frontal boundary usually produces clouds dense enough to generate rain or snow."
   type: true-false
   answer: false
   explanation: "Dry fronts exist when the contrasting air masses have very different temperatures but similar, low moisture content. Lifting can produce clouds — even thick ones — without generating precipitation if the air is too dry for cloud droplets to coalesce into raindrops. Fronts mark temperature and humidity boundaries, and while precipitation is common, it is not inevitable. The moisture content of both air masses determines whether lifting produces precipitation."

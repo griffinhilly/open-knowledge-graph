@@ -52,7 +52,7 @@ Work through the Jones & Harris essay-attribution paradigm, then consider cases 
   answer: 2
   explanation: "The actor-observer asymmetry predicts that observers attribute others' behavior to dispositions while actors attribute their own behavior to situations. The asymmetry has a perceptual explanation: as an observer, you see the person but not their situation. As an actor, you experience the situation from the inside — the deadline pressure, the exhaustion — making situational causes salient. The same behavior (snapping) gets dispositional explanation for others and situational explanation for oneself."
 
-- question: "The fundamental attribution error is called 'fundamental' because it is a universal, hardwired feature of human cognition that cannot be reduced through deliberate effort or cultural context."
+- question: "The fundamental attribution error is called 'fundamental' because it is a universal, hardwired feature of human cognition that can seldom be reduced through deliberate effort or cultural context."
   type: true-false
   answer: false
   explanation: "The FAE shows meaningful cultural variation: it is substantially weaker in East Asian and other collectivist cultures, which habitually attend more to context and situation in explaining behavior. It can also be reduced through deliberate perspective-taking, though awareness alone is rarely sufficient to eliminate it. 'Fundamental' refers to the error's pervasiveness and depth in Western social cognition, not to its universality or irreversibility. It is a powerful default, not an inescapable law."

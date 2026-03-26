@@ -51,7 +51,7 @@ The automorphism group Aut(M) of a model M consists of all bijections from M to 
   answer: 1
   explanation: "Such a model is called rigid. Since no non-identity automorphism exists, no two distinct elements can be mapped to each other — by the orbit-type correspondence, they must realize different complete 1-types. Each element is individually distinguished by some formula. This is the polar opposite of a highly homogeneous model; it indicates the theory 'pins down' individual elements precisely."
 
-- question: "If Aut(M) acts transitively on the elements of M (every element can be mapped to every other), then different elements realize different complete 1-types."
+- question: "If Aut(M) acts transitively on the elements of M (most element can be mapped to nearly every other), then different elements realize different complete 1-types."
   type: true-false
   answer: false
   explanation: "This is exactly backwards. Transitivity of the action means every pair of elements lies in the same orbit — which by the orbit-type correspondence means they ALL realize the SAME complete 1-type. A transitive action signals maximal indistinguishability among elements, not maximal distinctness. A rich automorphism group corresponds to few distinct types, not many."

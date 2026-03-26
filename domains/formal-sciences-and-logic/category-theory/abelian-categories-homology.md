@@ -55,7 +55,7 @@ Abelian categories generalize module categories but are not just 'categorical al
   answer: 2
   explanation: "The abelian category axioms guarantee kernels, cokernels, the mono=kernel and epi=cokernel conditions, and thus well-defined exact sequences. However, 'enough injectives' — the condition that every object embeds into an injective — is an additional hypothesis required to construct injective resolutions and compute right derived functors. For example, sheaves on a topological space have enough injectives, but this is a theorem, not an axiom. The category of finitely generated modules over a Noetherian ring may lack enough injectives without further assumptions."
 
-- question: "Every additive category — one where hom-sets are abelian groups and composition is bilinear — is automatically an abelian category."
+- question: "Most additive category — one where hom-sets are abelian groups and composition is bilinear — is automatically an abelian category."
   type: true-false
   answer: false
   explanation: "Being additive is necessary but far from sufficient for being abelian. An abelian category additionally requires: every morphism has a kernel AND a cokernel, every monomorphism is a kernel (of its cokernel), and every epimorphism is a cokernel (of its kernel). These conditions are non-trivial. The category of free abelian groups is additive but not abelian (cokernels may not be free). The category of Banach spaces with bounded linear maps is additive but not abelian. The kernel/cokernel exactness conditions are what give abelian categories their homological power."

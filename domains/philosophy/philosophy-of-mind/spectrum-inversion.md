@@ -54,7 +54,7 @@ Start with Locke's original version (Essay II.xxxii.15), then move to the modern
   answer: 2
   explanation: "The inference from 'I can coherently conceive of X' to 'X is genuinely possible' is contested in philosophy of mind. The functionalist move is to accept the conceivability claim while denying the modal step: perhaps inversion seems conceivable because we cannot directly inspect the functional dependencies between qualia and their roles, but in any physically possible world similar to ours, genuine functional identity would require phenomenal identity. This doesn't dissolve the intuition but limits its force — conceivability arguments must show genuine possibility, not just imaginability."
 
-- question: "For the inverted spectrum scenario to challenge functionalism, the inverted person must make different color discriminations or use color words differently than a non-inverted person."
+- question: "For the inverted spectrum scenario to challenge functionalism, the inverted person is expected to make different color discriminations or use color words differently than a non-inverted person."
   type: true-false
   answer: false
   explanation: "This is the most important misconception about the scenario. The entire point is that the inverted person's behavior is identical: they stop at red lights, call tomatoes red, describe red as a warm color, and make every color discrimination the same way. The inversion is purely phenomenal — what-it-is-like for them to see red is qualitatively different from what-it-is-like for you, but this difference leaves no behavioral trace. If behavior differed, functionalism could accommodate the case; it is the behavioral indistinguishability with phenomenal difference that creates the problem."

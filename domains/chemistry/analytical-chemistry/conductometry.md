@@ -59,7 +59,7 @@ Conduct a conductometric titration of HCl with NaOH, measuring conductance after
   answer: 2
   explanation: "The Grotthuss mechanism (proton hopping) allows charge to be transported without a proton physically moving across the solution. Instead, a proton transfers to an adjacent water molecule, which then transfers to the next, creating a 'relay' that propagates charge much faster than ionic migration. This is why H⁺ molar conductivity (~350 S·cm²/mol) is roughly 5-7× higher than typical ions like Na⁺ (~50) or K⁺ (~74). OH⁻ similarly benefits from this mechanism in reverse."
 
-- question: "In a conductometric titration of HCl with NaOH, conductance reaches a maximum at the equivalence point because all H⁺ has been consumed and the solution now contains only Na⁺ and Cl⁻ at their highest combined concentration."
+- question: "In a conductometric titration of HCl with NaOH, conductance reaches a maximum at the equivalence point because most H⁺ has been consumed and the solution now contains primarily Na⁺ and Cl⁻ at their highest combined concentration."
   type: true-false
   answer: false
   explanation: "Conductance reaches a MINIMUM at the equivalence point, not a maximum. Before the endpoint, fast H⁺ is replaced by slow Na⁺ — conductance falls. At the endpoint, H⁺ is fully consumed and no excess OH⁻ has accumulated, so only Na⁺ and Cl⁻ are present, giving the lowest conductance of the titration. After the endpoint, each volume of NaOH added introduces both Na⁺ and OH⁻ (and OH⁻ is very mobile), causing conductance to rise steeply. The common misconception confuses 'endpoint = special event' with 'endpoint = conductance maximum.'"

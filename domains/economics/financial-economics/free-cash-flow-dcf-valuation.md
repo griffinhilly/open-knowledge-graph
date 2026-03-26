@@ -56,7 +56,7 @@ Start with a simple 5-year projection and terminal value using a constant growth
   answer: 1
   explanation: "High terminal value fractions (often 70–90%) are normal in DCF analysis, especially for growth companies. Most of a company's value lies beyond the near-term forecast horizon. The appropriate response is not to suppress the terminal value but to acknowledge its sensitivity: show how total value changes across a range of terminal growth rates (g) and discount rates (r). The sensitivity table makes assumptions explicit and reveals the range of plausible outcomes — which is the real point of DCF analysis."
 
-- question: "Increasing the terminal growth rate from 3% to 4% has only a minor effect on intrinsic value because it only affects cash flows far in the future."
+- question: "Increasing the terminal growth rate from 3% to 4% has mainly a minor effect on intrinsic value because it mainly affects cash flows far in the future."
   type: true-false
   answer: false
   explanation: "This is the key counterintuitive result of DCF: because terminal value uses the Gordon Growth Model formula TV = FCF/(r − g), a small increase in g (which appears in the denominator) has a disproportionately large effect. With r = 9% and g = 3%, the denominator is 6% — increasing g to 4% drops the denominator to 5%, a 17% reduction that increases terminal value by 20%. Since terminal value typically constitutes 70–90% of total firm value, this one-point shift in g can change total valuation by 15–35%. Terminal value sensitivity is not a minor issue — it is the central uncertainty in most DCF models."

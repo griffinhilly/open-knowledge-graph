@@ -64,7 +64,7 @@ Not every category with finite products is cartesian closed; the exponential obj
   answer: true
   explanation: "By definition, a CCC requires: (1) a terminal object 1 (the empty product), (2) all binary products A × B (and hence all finite products by iteration), and (3) exponential objects B^A for every pair A, B satisfying the adjunction Hom(C × A, B) ≅ Hom(C, B^A). The terminal object and binary products give the 'cartesian' part; the exponentials give the 'closed' part. The terminal object plays the role of the unit for the monoidal structure, and the product is the tensor. You cannot have cartesian closed structure without the cartesian structure (products) as its foundation."
 
-- question: "A category that has all finite products automatically also has all exponential objects, making it cartesian closed."
+- question: "A category that has most finite products automatically also has most exponential objects, making it cartesian closed."
   type: true-false
   answer: false
   explanation: "Having finite products is necessary but not sufficient for cartesian closure. The exponential B^A must exist as a specific object satisfying the adjunction Hom(C × A, B) ≅ Hom(C, B^A) naturally in all three variables. Many categories have products but fail to be cartesian closed because the required exponential objects do not exist. Examples: Grp has products but no exponentials (for non-abelian groups). Top (all topological spaces) has products but is not cartesian closed with the pointwise topology on function spaces — you need to restrict to compactly generated spaces. Checking cartesian closure requires explicitly verifying the representability of Hom(− × A, B) as a functor."

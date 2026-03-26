@@ -60,7 +60,7 @@ Handle a variety of pencil grades, charcoal types, and paper textures. Make samp
   answer: true
   explanation: "Wood panels (hardboard or birch plywood) are rigid and, when sanded after priming, can be very smooth. This makes them ideal for detailed work and thin glazes where a moving or textured surface would interfere. Canvas, by contrast, has a woven tooth and a slight give that encourages bold, textured brushwork — excellent for impasto but harder to use for minute detail."
 
-- question: "Using expensive, premium-grade materials will always produce better results than using affordable materials with a thorough understanding of tool-surface interaction."
+- question: "Using expensive, premium-grade materials will generally produce better results than using affordable materials with a thorough understanding of tool-surface interaction."
   type: true-false
   answer: false
   explanation: "Material knowledge consistently outperforms price. An artist who understands tooth, sizing, absorbency, and surface compatibility will coax better results from cheap materials than an uninformed artist will from expensive ones. The common misconception is that price and quality are the same thing — but a $5 sheet of rough watercolor paper matched correctly to the medium will outperform a $20 smooth sheet chosen carelessly."

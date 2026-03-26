@@ -59,7 +59,7 @@ Paxos requires synchrony; Paxos is simple to implement; Paxos provides strong le
   answer: true
   explanation: "This is Paxos's safety guarantee, and it is unconditional — it holds regardless of timing, message loss, or how many proposers are competing. The mechanism is Phase 1: any proposer with a higher ballot number must first poll a majority of acceptors. If a value was previously decided by a majority, at least one acceptor in any future quorum must have accepted it and will report it in Phase 1. The new proposer is then forced to re-propose that value. Safety is preserved even in the worst asynchronous scenarios that violate liveness."
 
-- question: "A Paxos system with a single designated proposer (leader) is guaranteed to always make progress, because competing proposers can no longer issue conflicting Prepare messages."
+- question: "A Paxos system with a single designated proposer (leader) is expected to typically make progress, because competing proposers can no longer issue conflicting Prepare messages."
   type: true-false
   answer: false
   explanation: "Leader election improves liveness in practice, but it does not guarantee progress. In an asynchronous network, no algorithm can guarantee both safety and liveness (the FLP impossibility result). A leader can crash or become network-partitioned, and detecting this reliably requires eventually correct failure detectors — which themselves cannot be perfectly guaranteed in asynchronous systems. Paxos guarantees safety always; it guarantees liveness only under favorable conditions (bounded message delays, correct failure detection). A leader helps by eliminating dueling proposers, but it does not solve the fundamental asynchrony problem."

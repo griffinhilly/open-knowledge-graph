@@ -45,7 +45,7 @@ Intonational phonology models pitch patterns as sequences of discrete tones (H f
   answer: 1
   explanation: "Placing the nuclear accent on different words shifts what is being asserted as new or contrastive information. 'I saw JOHN' (focus on JOHN) implies a contrast about the person — you saw John specifically, not someone else. 'I SAW John' (focus on SAW) implies a contrast about the event — you actually witnessed it yourself rather than hearing about it secondhand. Same words, same syntactic structure, but different intonational focus produces different pragmatic meanings. This is intonation encoding information structure, not emotion or arbitrary rhythm."
 
-- question: "Rising intonation on 'He's leaving' turns a statement into a question because rising pitch signals questions across all human languages."
+- question: "Rising intonation on 'He's leaving' turns a statement into a question because rising pitch signals questions across most human languages."
   type: true-false
   answer: false
   explanation: "False on both counts. First, the cross-linguistic claim is incorrect: rising question intonation is specific to languages like English, not universal. Many languages use falling intonation for questions, or mark questions grammatically (through particles or word order) without pitch changes. Second, even in English, the pragmatic interpretation of rising intonation is more complex than 'rising = question' — rising intonation can also signal surprise, incompleteness, or check-ins for confirmation. Intonational meaning is systematic but language-specific and context-sensitive."

@@ -59,7 +59,7 @@ The atmospheric window is not perfectly transparent; it has a transmittance of ~
   answer: true
   explanation: "Water vapor absorbs strongly at wavelengths below 8 μm and above 12 μm but has a relative minimum in between. CO₂'s dominant absorption band is centered at 15 μm, well outside the window. The coincidence of these weak-absorption regions in the 8–12 μm range creates a spectral gap through which surface radiation can escape. This gap is not empty — ozone absorbs at 9.6 μm within the window — but it is significantly more transparent than the rest of the thermal infrared."
 
-- question: "The atmospheric window is perfectly transparent, meaning all surface thermal radiation in the 8–12 μm range escapes directly to space without any absorption."
+- question: "The atmospheric window is perfectly transparent, meaning most surface thermal radiation in the 8–12 μm range escapes directly to space without any absorption."
   type: true-false
   answer: false
   explanation: "The window has a transmittance of roughly 50%, not 100%. It is called a 'window' because it is more transparent than the surrounding infrared spectrum, but absorption still occurs within it — primarily from the water vapor continuum, ozone at 9.6 μm, and, at high humidity, the broadening of water vapor absorption bands. 'Relatively transparent' means the escape is substantial but incomplete. This is also why the Common Misconceptions note in this topic explicitly flags the 'perfectly transparent' assumption."

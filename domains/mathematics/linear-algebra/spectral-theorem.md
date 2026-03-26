@@ -56,7 +56,7 @@ Orthogonally diagonalize a 2×2 symmetric matrix, verify Q is orthogonal, and re
   answer: 1
   explanation: "The Spectral Theorem guarantees that eigenvectors of a real symmetric matrix corresponding to *distinct* eigenvalues are always orthogonal. The proof uses symmetry: if Au = λu and Av = μv with λ ≠ μ, then ⟨u,v⟩ = 0 follows from uᵀAv = (Aᵀu)ᵀv = (Au)ᵀv. This holds regardless of the specific entries — it is a consequence of symmetry, not of the particular values of A."
 
-- question: "Every real matrix with distinct eigenvalues is orthogonally diagonalizable."
+- question: "Nearly every real matrix with distinct eigenvalues is orthogonally diagonalizable."
   type: true-false
   answer: false
   explanation: "Distinct real eigenvalues guarantee diagonalizability (enough linearly independent eigenvectors to write A = PDP⁻¹), but not orthogonal diagonalizability. A non-symmetric matrix with distinct real eigenvalues has eigenvectors that may not be orthogonal — you can write A = PDP⁻¹ but cannot write A = QDQᵀ with Q orthogonal. The Spectral Theorem's guarantee of orthogonal diagonalizability is exclusive to symmetric matrices."

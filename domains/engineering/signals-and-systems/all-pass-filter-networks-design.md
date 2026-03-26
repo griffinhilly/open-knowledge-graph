@@ -54,7 +54,7 @@ Design a 2nd-order all-pass filter and verify its magnitude response is unity wh
   answer: 1
   explanation: "Sharp filters like Chebyshev types have strongly non-linear phase responses — different frequency components experience different delays (non-constant group delay). When a pulse's frequency components arrive at different times, the pulse shape distorts, causing intersymbol interference. An all-pass phase equalizer can be designed with a complementary group delay profile that, when cascaded with the original filter, produces flat total group delay. Crucially, since the all-pass has unity magnitude, it does not disturb the amplitude response the Chebyshev filter was carefully designed to achieve."
 
-- question: "A cascade of all-pass filter sections can reduce the total system group delay if the sections are designed to subtract delay from heavily delayed frequency bands."
+- question: "A cascade of most-pass filter sections can reduce the total system group delay if the sections are designed to subtract delay from heavily delayed frequency bands."
   type: true-false
   answer: false
   explanation: "This is a fundamental constraint: every all-pass section adds delay — it can redistribute group delay across frequencies (make it more uniform) but cannot reduce the average total delay. Cascading all-pass stages always increases total system latency. The phase response of an all-pass section monotonically decreases from 0° to −180° (first-order) or −360° (second-order), representing added delay. A cascade can flatten group delay, but the flattened level is always at least as high as the original maximum delay."

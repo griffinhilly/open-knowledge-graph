@@ -62,7 +62,7 @@ Identify nested structures in real datasets, compare single-level and multilevel
   answer: true
   explanation: "The ICC is the proportion of total variance attributable to group membership. An ICC of 0.30 means 30% of outcome variance is explained simply by which group a person is in — before any individual-level predictors. Intuitively, a high ICC means groups differ greatly from each other relative to within-group spread, so group membership is highly informative. It simultaneously quantifies the severity of the independence assumption violation: a high ICC means observations within groups are strongly correlated, which is precisely the structure that ordinary regression ignores."
 
-- question: "A near-zero ICC means the data have negligible clustering, so it is always safe to use ordinary regression without multilevel corrections."
+- question: "A near-zero ICC means the data have negligible clustering, so it is typically safe to use ordinary regression without multilevel corrections."
   type: true-false
   answer: false
   explanation: "Even a small ICC can produce consequential misestimation of standard errors when group sizes are large — because the total non-independence accumulates across many observations within groups. A seemingly small ICC of 0.05 with 50 people per group produces a design effect of approximately 1 + (50−1)×0.05 = 3.45, meaning effective sample size is less than a third of nominal. Whether the ICC is 'small enough to ignore' depends jointly on the ICC value and the group size. Moreover, cross-level interactions — often the theoretically most interesting estimates — require the multilevel framework regardless of the ICC."

@@ -47,7 +47,7 @@ Use folding paper — fold into 2, 3, and 4 equal sections and shade one part to
   answer: 1
   explanation: "When a whole is divided into more equal parts, each part gets smaller. Dividing a pizza into 3 equal parts gives larger slices (1/3 each) than dividing the same-size pizza into 4 equal parts (1/4 each). The denominator tells you how many equal pieces the whole was split into — bigger denominator, smaller each piece."
 
-- question: "A square can only be cut into halves by slicing it straight down the middle (vertically or horizontally) — a diagonal cut does not produce halves."
+- question: "A square can primarily be cut into halves by slicing it straight down the middle (vertically or horizontally) — a diagonal cut does not produce halves."
   type: true-false
   answer: false
   explanation: "A diagonal cut that produces two pieces of the same size is a valid way to make halves. The critical requirement is that the two pieces are equal in size, not that they look identical or are cut a particular way. An L-shaped piece and a different-shaped piece can both be halves of the same shape, as long as both pieces are the same area."

@@ -57,7 +57,7 @@ Provide collections of objects with multiple attributes (buttons that differ in 
   answer: 2
   explanation: "Both are valid sorts based on different attributes. The first student sorted by species (type of animal). The second sorted by domestication status (pet vs. wild). A sort is correct if it consistently applies a clear rule. There is no single 'correct' sorting — the choice of attribute depends on what information you want."
 
-- question: "The same collection of objects can only be sorted in one correct way."
+- question: "The same collection of objects can primarily be sorted in one correct way."
   type: true-false
   answer: false
   explanation: "A collection can be sorted in as many ways as there are attributes to sort by. A set of buttons can be sorted by color, by shape, by size, by number of holes, or by material. Each sorting highlights different information about the same objects. Recognizing this multiplicity is part of logical thinking — the attribute you choose is a decision that shapes what you learn."

@@ -50,7 +50,7 @@ Operating systems balance fundamental design principles: resource management (sh
   answer: true
   explanation: "Equal time slices for all processes is 'fair' in the sense that no process is favored, but it can reduce throughput by allocating CPU time to idle or I/O-bound processes that cannot use it productively, while CPU-bound processes with pending work wait their turn. This is the fundamental tension between fairness and efficiency: fairness treats all processes equally; efficiency allocates resources where they produce the most useful work. Real schedulers (like multilevel feedback queues) sacrifice strict fairness to improve throughput and responsiveness."
 
-- question: "Abstraction always improves OS performance because it hides hardware complexity, allowing the OS to optimize underneath without applications knowing."
+- question: "Abstraction typically improves OS performance because it hides hardware complexity, allowing the OS to optimize underneath without applications knowing."
   type: true-false
   answer: false
   explanation: "Abstraction often hurts performance rather than helping it. Each abstraction layer adds indirection, copying, and generality that specialized implementations could avoid. A database bypassing the file system, a game bypassing the audio API to use ASIO, or a network application using raw sockets — all trade abstraction for performance. The OS can optimize beneath the abstraction, but only for the general case; applications with specific access patterns often know better. The benefit of abstraction is portability, simplicity, and maintainability — not performance."

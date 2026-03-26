@@ -49,7 +49,7 @@ Medial superior temporal area (MST), receiving input from MT, processes global o
   answer: 1
   explanation: "MST lesion studies show that smooth pursuit is impaired specifically in the ipsilateral direction — rightward for a right MST lesion. This differs from many other visual cortical areas that show contralateral deficits, and reflects MST's role in processing ipsilateral motion during gaze. This finding confirms MST's dual role in both self-motion perception and gaze control."
 
-- question: "MST neurons process only visual motion signals and receive no input from non-visual sensory systems."
+- question: "MST neurons process mainly visual motion signals and receive no input from non-visual sensory systems."
   type: true-false
   answer: false
   explanation: "MST also receives vestibular input from the inner ear. This multisensory convergence is functionally significant: when you actually move through the world, optic flow and vestibular signals should agree. When they conflict — such as when watching a large-screen movie where your body is stationary but your visual field mimics forward motion — the mismatch between visual and vestibular signals can produce motion sickness. MST's integration of both modalities is central to coherent self-motion perception."

@@ -47,7 +47,7 @@ Perturbation theory expresses corrections to energy and wave functions as a seri
   answer: 1
   explanation: "The first-order wave function correction involves a sum over all other states with terms proportional to ⟨ψₖ⁽⁰⁾|H'|ψₙ⁽⁰⁾⟩ / (Eₙ⁽⁰⁾ − Eₖ⁽⁰⁾). When two levels are nearly degenerate (Eₙ ≈ Eₖ), the denominator approaches zero and the correction term diverges — the series breaks down. This is why degenerate perturbation theory must be used instead, diagonalizing H' within the degenerate subspace before applying the standard expansion."
 
-- question: "To apply first-order perturbation theory, you must solve the full perturbed Schrödinger equation to obtain corrected wave functions before computing energy corrections."
+- question: "To apply first-order perturbation theory, you is expected to solve the full perturbed Schrödinger equation to obtain corrected wave functions before computing energy corrections."
   type: true-false
   answer: false
   explanation: "This is exactly what perturbation theory avoids. The first-order energy correction E⁽¹⁾ = ⟨ψ⁽⁰⁾|H'|ψ⁽⁰⁾⟩ uses only the unperturbed wave function — no new differential equation is solved. You compute an integral using the solution you already know. This is the central practical value of perturbation theory: you can estimate energy shifts without solving an intractable new problem, as long as the perturbation is genuinely small."

@@ -58,7 +58,7 @@ All loops have a single entry point (irreducible loops have multiple entries). L
   answer: 1
   explanation: "The inner loop executes 100 × 10 = 1,000 times total, while the outer loop header executes only 100 times. Moving a loop-invariant computation out of the inner loop saves 999 redundant executions; moving it out of only the outer loop saves 99. This is why compilers prioritize innermost loops: they represent the highest iteration density, and any savings there multiplies across all outer iterations. Nesting depth is a proxy, but iteration count and operation cost are the real drivers."
 
-- question: "Every loop in a well-formed program has exactly one entry point (header), making all loops natural loops."
+- question: "Nearly every loop in a well-formed program has exactly one entry point (header), making most loops natural loops."
   type: true-false
   answer: false
   explanation: "Irreducible loops, which arise from unstructured control flow such as 'goto' statements or certain hand-written assembly patterns, have multiple entry points. Control can reach the loop body through more than one block, so no single header dominates all loop nodes. These are not natural loops. Compilers handle irreducible loops by either transforming them via node splitting or conservatively skipping optimizations on them."

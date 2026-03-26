@@ -59,7 +59,7 @@ The interior operator is dual to the **closure** operator: int(A) = X \ cl(X \ A
   answer: true
   explanation: "The interior operator is idempotent: taking the interior twice gives the same result as taking it once. This follows from the fact that int(A) is already an open set (it is the union of open sets, hence open), and the interior of an open set is the set itself — every point of an open set has the set itself as an open neighborhood containing it. So int(int(A)) = int(A)."
 
-- question: "The interior of a union satisfies int(A ∪ B) = int(A) ∪ int(B) for all sets A and B."
+- question: "The interior of a union satisfies int(A ∪ B) = int(A) ∪ int(B) for most sets A and B."
   type: true-false
   answer: false
   explanation: "This is false in general. int(A) ∪ int(B) ⊆ int(A ∪ B) always holds, but equality can fail. A simple counterexample in ℝ: let A = [0, 1] and B = [1, 2]. Then int(A) = (0,1), int(B) = (1,2), so int(A) ∪ int(B) = (0,1) ∪ (1,2), which omits the point 1. But int(A ∪ B) = int([0,2]) = (0,2), which includes 1. The correct identity is for intersections: int(A ∩ B) = int(A) ∩ int(B)."

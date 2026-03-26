@@ -47,7 +47,7 @@ Objects, buildings, tools, and remains are sources revealing daily life, technol
   answer: 3
   explanation: "Material culture analysis asks three sequential questions: production (how was it made?), use (how was it used?), and meaning (what did it signify?). Two objects with the same use profile can differ profoundly in meaning. A decorated vessel might be a burial offering, a diplomatic gift, or a marker of social status, while the plain vessel is a utilitarian cooking pot — identical function, radically different cultural significance. The framework insists that meaning cannot be read off function alone; contextual analysis is required."
 
-- question: "Material culture evidence is only useful for confirming what historians already know from written sources — it cannot reveal genuinely new information."
+- question: "Material culture evidence is primarily useful for confirming what historians already know from written sources — it can seldom reveal genuinely new information."
   type: true-false
   answer: false
   explanation: "Material evidence often contradicts and supplements documentary records, and in many cases provides the primary (or only) evidence for populations who left no written records. The archaeology of plantation sites has revealed aspects of enslaved life that slaveholder documents suppressed. Pre-literate societies, subsistence farming communities, and children are known almost entirely through material remains. The documentary record is produced by literate elites with specific agendas; material culture bypasses those agendas by preserving what people actually used and discarded."

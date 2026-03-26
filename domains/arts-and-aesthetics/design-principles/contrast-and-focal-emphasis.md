@@ -55,7 +55,7 @@ Create a simple layout with equal visual weight across elements, then progressiv
   answer: 1
   explanation: "Value contrast — the difference between light and dark — is processed pre-attentively by the visual system and tends to create the strongest focal pull. A white headline on a black background commands attention before the viewer consciously registers the words. Color contrast can be powerful, but it is partly dependent on value relationships: two colors that differ in hue but share the same value (lightness) may have surprisingly little contrast. Designers often check hierarchy by desaturating a design to grayscale: if the hierarchy disappears, value contrast is insufficient."
 
-- question: "Adding more contrast to a design always improves its visual clarity and helps guide the viewer's eye more effectively."
+- question: "Adding more contrast to a design usually improves its visual clarity and helps guide the viewer's eye more effectively."
   type: true-false
   answer: false
   explanation: "Contrast requires calibration. Too little contrast produces monotony — the viewer's eye wanders without direction. Too much contrast — every element vying for attention with maximum difference from its neighbors — produces visual chaos, where the hierarchy collapses into noise. The goal is a graduated hierarchy of contrast: maximum contrast for the most important element, moderate contrast for supporting elements, quiet baseline for everything else. More contrast is not inherently better; calibrated contrast is."

@@ -46,7 +46,7 @@ Composing shapes means combining smaller shapes to create larger ones. This deve
   answer: true
   explanation: "True. A rectangle, for example, can be split into two squares, two triangles, or two smaller rectangles depending on how and where you cut it. There is rarely just one way to decompose a shape. This flexibility is part of what makes composing and decomposing so powerful — it means the same shape holds multiple hidden relationships simultaneously."
 
-- question: "When two shapes are combined, the new shape always has more sides than either of the original shapes."
+- question: "When two shapes are combined, the new shape generally has more sides than either of the original shapes."
   type: true-false
   answer: false
   explanation: "False. When shapes are joined along a full edge, that shared edge disappears from both shapes, often reducing the total side count. For example, two squares placed side by side form a rectangle with 4 sides — the same number as each original square, not more. Two triangles joined along their longest sides form a rectangle with 4 sides, fewer than the combined 6 sides of the two triangles. The number of sides in the composed shape depends on which edges are joined and how they align."

@@ -43,7 +43,7 @@ For any instant during plane motion, there exists a point (the instantaneous cen
   answer: 1
   explanation: "The IC gives the correct velocity field for this instant, but the IC itself is generally moving — it has a non-zero velocity as the mechanism evolves. Computing acceleration requires accounting for this motion of the IC. For a purely rotating body about a truly fixed axis, a = ω²·r works. For a body in general plane motion, the acceleration of any point involves both the centripetal acceleration and Coriolis-like terms arising because the reference point (the IC) is accelerating. Using only a = ω²·r toward the IC introduces error in all but the simplest special cases."
 
-- question: "The instantaneous center of rotation must always lie within the physical boundary of the moving body."
+- question: "The instantaneous center of rotation should generally lie within the physical boundary of the moving body."
   type: true-false
   answer: false
   explanation: "The IC is a geometric point determined by the intersection of perpendiculars to known velocity directions. It can lie anywhere in the plane — including far outside the body. For example, a rod with one end constrained to slide horizontally and the other vertically has an IC that traces a circle far outside the rod itself. For a body in near-pure-translation (very small ω), the IC approaches infinity. What matters is the mathematical construction, not whether the IC corresponds to a physical material point of the body."

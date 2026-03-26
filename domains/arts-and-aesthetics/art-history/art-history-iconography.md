@@ -49,7 +49,7 @@ Take a single complex painting (e.g., Van Eyck's Arnolfini Portrait or Botticell
   answer: 2
   explanation: "Panofsky's three levels are sequential. Pre-iconographic: a man holds metal keys (pure visual description). Iconographic: keys are the conventional attribute of Saint Peter (using a cultural codebook). Iconological: what does commissioning this image in this way reveal about the patron's religious identity, piety-display, or theological commitments? The final step — connecting to theology and social function — is iconological, not merely iconographic."
 
-- question: "Because historical paintings were made with deliberate symbolic programs, every visual detail in a pre-modern work carries intentional iconographic meaning that the trained viewer should decode."
+- question: "Because historical paintings were made with deliberate symbolic programs, most visual detail in a pre-modern work carries intentional iconographic meaning that the trained viewer should decode."
   type: true-false
   answer: false
   explanation: "Iconographic overreading is a recognized methodological error. Many details in historical paintings reflect practical constraints (available pigments, workshop conventions, compositional balance) rather than symbolic intent. The dog in Van Eyck's Arnolfini Portrait may signify fidelity — or it may simply be a dog the couple owned. Iconographic interpretation requires corroborating evidence from period sources, not just the presence of an object that could carry symbolic meaning."

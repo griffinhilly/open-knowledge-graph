@@ -43,7 +43,7 @@ Classify reactions into the four ΔH/ΔS categories and predict the temperature 
   answer: 3
   explanation: "ΔG = ΔH − TΔS. With ΔH > 0 and ΔS > 0, ΔG = positive − T(positive). As T increases, the −TΔS term grows more negative and eventually dominates, making ΔG < 0. The crossover temperature is T = ΔH/ΔS = 50,000 J / 200 J·K⁻¹ = 250 K; above this temperature, the reaction is spontaneous."
 
-- question: "A reaction is thermodynamically spontaneous (ΔG < 0), so it must proceed at a measurable rate under ordinary conditions."
+- question: "A reaction is thermodynamically spontaneous (ΔG < 0), so it should proceed at a measurable rate under ordinary conditions."
   type: true-false
   answer: false
   explanation: "Spontaneity (ΔG < 0) describes thermodynamic favorability — the direction a system would eventually reach equilibrium — but says nothing about the rate. The conversion of diamond to graphite is spontaneous under standard conditions, yet it is immeasurably slow. Kinetics and thermodynamics are independent: a reaction can be thermodynamically spontaneous yet kinetically inert due to a high activation energy barrier."

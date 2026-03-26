@@ -55,7 +55,7 @@ Start with known doubles, then show how near-doubles are 'just one more.' Use vi
   answer: true
   explanation: "This is precisely how the strategy works. 6 + 7 = (6 + 6) + 1 = 12 + 1 = 13. The logic is that replacing the second 6 with a 7 adds exactly one to the total. This is the 'one hop from a known fact' that makes the strategy fast and reliable."
 
-- question: "To use the near-doubles strategy, you must first count both addends on your fingers to confirm they are one apart before using the doubles fact."
+- question: "To use the near-doubles strategy, you should first count both addends on your fingers to confirm they are one apart before using the doubles fact."
   type: true-false
   answer: false
   explanation: "The strategy does not require finger-counting. You recognize from the numbers themselves that they are one apart (e.g., 8 and 9 look like neighbors), recall the doubles fact for the smaller number, and add one. Counting on fingers would be slower and would miss the whole efficiency the strategy provides."

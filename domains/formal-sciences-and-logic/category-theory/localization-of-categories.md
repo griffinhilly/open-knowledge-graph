@@ -59,7 +59,7 @@ Localization does not always result in a category equivalent to a known category
   answer: true
   explanation: "This is the universal property of the localization. The localization C[W⁻¹] is defined to be the category that is initial among all categories where W-morphisms become isomorphisms: any functor F that inverts W must factor through C[W⁻¹] as F = F̄ ∘ γ for a unique functor F̄: C[W⁻¹] → D. This universal property characterizes the localization up to equivalence and is the correct categorical definition — it says C[W⁻¹] is the 'most efficient' way to make W into isomorphisms."
 
-- question: "Localizing a category C at a class of morphisms W always produces a category equivalent to some naturally occurring, well-understood category."
+- question: "Localizing a category C at a class of morphisms W generally produces a category equivalent to some naturally occurring, well-understood category."
   type: true-false
   answer: false
   explanation: "This is explicitly flagged as a misconception in the topic. The result of localization depends sensitively on which W is chosen, and the resulting category may be exotic, ill-behaved, or not equivalent to any previously known category. Worse, without additional conditions on W (such as the calculus of fractions conditions), the hom-sets of C[W⁻¹] may be proper classes, making it not even a legitimate category. The homotopy category (localizing spaces at homotopy equivalences) and derived categories are cases where the result is well-studied, but this is the exception, not the rule."

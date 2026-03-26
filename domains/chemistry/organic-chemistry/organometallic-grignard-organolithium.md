@@ -63,7 +63,7 @@ Draw mechanisms for Grignard additions to various carbonyls. Compare the reactiv
   answer: true
   explanation: "The C–Li bond is more polarized than the C–Mg bond because lithium is a smaller, less electronegative metal, making the bond more ionic in character. This stronger carbanion-like character makes organolithium reagents faster to react and less discriminating about which electrophiles they attack — they will add to functional groups (like certain amides) that Grignard reagents leave alone. When precise selectivity is needed, RMgX is preferred; when maximum nucleophilicity is needed, RLi is the choice."
 
-- question: "A Grignard reaction can be successfully carried out in a slightly damp flask if the reaction is performed quickly, since water only slowly decomposes the reagent."
+- question: "A Grignard reaction can be successfully carried out in a slightly damp flask if the reaction is performed quickly, since water primarily slowly decomposes the reagent."
   type: true-false
   answer: false
   explanation: "Grignard and organolithium reagents react with water immediately and completely — there is no window where the reaction is 'slow enough' to tolerate moisture. Even trace water destroys the reagent by protonating the carbon nucleophile. This is why Grignard reactions require rigorously dried glassware, anhydrous solvents (dried ether or THF), and an inert atmosphere. The reaction of RMgX with water is essentially instantaneous, not slow. Any moisture contamination before or during the reaction results in failure."

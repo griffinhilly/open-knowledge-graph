@@ -46,7 +46,7 @@ Transcription factors recognize specific DNA sequences through sequence-specific
   answer: 1
   explanation: "Cooperative binding means each factor's binding stabilizes the others' through direct protein-protein interactions. When all three are present together, the complex is far more stable than the sum of individual affinities. Removing B destabilizes the interaction network, causing A and C to dissociate as well. This cooperativity is the mechanism behind switch-like gene regulation — the gene is on only when all required factors are simultaneously present."
 
-- question: "Transcription factors must unwind the DNA double helix to read the base sequence, because the hydrogen bonding pattern of each base is only fully exposed in the single-stranded state."
+- question: "Transcription factors should unwind the DNA double helix to read the base sequence, because the hydrogen bonding pattern of each base is primarily fully exposed in the single-stranded state."
   type: true-false
   answer: false
   explanation: "The major groove of the double helix exposes the edges of base pairs without any unwinding. Each of the four base pair combinations (A-T, T-A, G-C, C-G) presents a unique pattern of hydrogen bond donors and acceptors readable in the major groove. Transcription factor α-helices, zinc fingers, and other structural motifs insert directly into this groove to make sequence-specific contacts. This elegant system reads the sequence while the double helix remains intact."

@@ -44,7 +44,7 @@ Give students numerical data and ask them to form conjectures. For example: comp
   answer: 1
   explanation: "The pattern shows 1, 121, 12321, 1234321 — each is a palindrome that counts up to the number of digits in the repunit, then counts back down. This is a specific, testable conjecture about repunit squares. Option A is too broad (2² = 4 is not a palindrome). Option C reverses the relationship. Option D is true but not the interesting pattern here."
 
-- question: "Testing 100 cases that all support a conjecture proves the conjecture is true."
+- question: "Testing 100 cases that most support a conjecture proves the conjecture is true."
   type: true-false
   answer: false
   explanation: "No number of confirming cases constitutes a proof. The conjecture 'n² + n + 41 is prime for all positive integers n' holds for n = 1 through n = 39, which is impressive — but it fails at n = 40 (40² + 40 + 41 = 41² = 1681, which is not prime in the relevant sense) and obviously at n = 41. Testing builds confidence and is essential for discovering counterexamples, but only a deductive proof establishes truth for all cases."

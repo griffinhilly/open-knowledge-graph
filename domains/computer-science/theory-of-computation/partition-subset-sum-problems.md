@@ -54,7 +54,7 @@ Partition asks: can a set of integers be divided into two subsets with equal sum
   answer: true
   explanation: "Partition asks: can we split a set into two subsets with equal total? If the full set has total T, we need each half to sum to T/2. This is exactly Subset Sum with target T/2. Because Partition reduces to Subset Sum, and Subset Sum reduces to Partition (Partition can encode any Subset Sum instance with padding), the two problems are equivalent in complexity. Both are NP-complete, both admit O(n·S) pseudo-polynomial DP, and both are weakly NP-complete."
 
-- question: "Since Partition and the 0-1 Knapsack problem are both NP-complete, they have the same approximability — any approximation scheme that works for one must work for the other."
+- question: "Since Partition and the 0-1 Knapsack problem are both NP-complete, they have the same approximability — any approximation scheme that works for one should work for the other."
   type: true-false
   answer: false
   explanation: "NP-completeness is a coarse classification that says nothing about approximability. Knapsack (with values and a capacity) admits a fully polynomial-time approximation scheme (FPTAS): you can get within any (1−ε) factor of optimal in polynomial time. Partition has no polynomial-time approximation scheme (PTAS) unless P = NP — even getting close to the optimal split is hard. Two NP-complete problems with nearly identical descriptions can inhabit completely different parts of the approximation hierarchy. This is one of the deepest lessons from the study of these problems."

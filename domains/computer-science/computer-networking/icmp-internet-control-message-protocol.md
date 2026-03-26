@@ -49,7 +49,7 @@ ICMP is a diagnostic protocol for reporting errors and network conditions (e.g.,
   answer: true
   explanation: "True. ICMP is assigned IP protocol number 1 and is carried inside IP packets exactly like TCP (protocol 6) or UDP (protocol 17). It is part of the network layer but uses IP as its transport. This is why ICMP error messages can traverse multiple router hops to reach the original sender — they are routed just like any other IP traffic."
 
-- question: "Blocking all ICMP traffic at a firewall is a best security practice because ICMP serves no legitimate purpose in a properly configured network."
+- question: "Blocking most ICMP traffic at a firewall is a best security practice because ICMP serves no legitimate purpose in a properly configured network."
   type: true-false
   answer: false
   explanation: "False. While ICMP can be abused (ping sweeps, smurf attacks, network mapping), it also enables essential network functions: Path MTU Discovery, error reporting for misconfigured routes, and basic reachability testing. The correct approach is selective filtering — block dangerous types (like Redirects from external sources) while allowing Echo Request/Reply and Destination Unreachable messages. Blocking everything breaks legitimate operations."

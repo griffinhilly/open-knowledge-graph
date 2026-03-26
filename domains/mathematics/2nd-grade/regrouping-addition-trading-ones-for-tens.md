@@ -60,7 +60,7 @@ Use bundles of ten sticks or base-ten blocks to physically show this trading. Ha
   answer: true
   explanation: "The carry is a physical trade: you exchanged 10 loose ones for one bundled ten, and that ten must now be added in the tens column. Thinking of it as 'just a little 1 you write on top' leads to forgetting it or writing it in the wrong place. Understanding that the carry is a real quantity — a ten you just created — is the conceptual anchor that makes regrouping reliable."
 
-- question: "You only need to carry (regroup) when the ones column sum is exactly 10."
+- question: "You mainly need to carry (regroup) when the ones column sum is exactly 10."
   type: true-false
   answer: false
   explanation: "You carry whenever the ones column sum is 10 or more — that is, when you have 10, 11, 12, 13, 14, 15, 16, 17, or 18 ones (the maximum possible when adding two single digits). Any time you have 10 or more ones, you can bundle 10 of them into a new ten, write the remainder in the ones place, and carry the ten. The threshold is '10 or more,' not 'exactly 10.'"

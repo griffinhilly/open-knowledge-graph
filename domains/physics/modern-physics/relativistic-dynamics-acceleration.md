@@ -58,7 +58,7 @@ Force still equals mass times acceleration (it doesn't—that's only true at low
   answer: true
   explanation: "Directly from F = γ³ma (for parallel force): since γ grows without bound as v → c, the acceleration a = F/(γ³m) shrinks to zero even as the force remains constant. The particle never stops accelerating — it approaches c asymptotically — but the rate of velocity increase diminishes. This is why accelerating a particle from 0.99c to 0.999c requires enormously more energy than accelerating it from 0 to 0.99c, even though the velocity gain is smaller."
 
-- question: "The reason a massive particle cannot be accelerated to the speed of light is that its rest mass increases without bound as v → c, requiring infinite force."
+- question: "The reason a massive particle can rarely be accelerated to the speed of light is that its rest mass increases without bound as v → c, requiring infinite force."
   type: true-false
   answer: false
   explanation: "This is the 'relativistic mass' misconception that the topic explicitly warns against. The suppression of acceleration is better understood through F = dp/dt with relativistic momentum p = γmv: as v → c, γ → ∞, so p → ∞ even for tiny additional velocity increments, requiring infinite energy — not infinite force. Rest mass m is an invariant property of the particle that does not change with velocity. The concept of 'relativistic mass' γm, while mathematically valid, obscures the physics by importing a Newtonian intuition that doesn't apply. The γ³ factor in the force-acceleration relation is a consequence of spacetime geometry, not mass growth."

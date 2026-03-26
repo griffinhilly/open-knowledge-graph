@@ -47,7 +47,7 @@ Problem-solving and reasoning capabilities advance from concrete, trial-and-erro
   answer: 2
   explanation: "Even 4-year-olds can solve analogies with familiar content. Performance collapses when the domain is unfamiliar because analogical reasoning requires *relational* similarity — not surface similarity — and the child must inhibit the more accessible surface features to find the abstract structure. Without domain knowledge (knowing what violins and orchestras *do* relative to each other), the child has no relational scaffold to work from."
 
-- question: "A child's failure on a formal logic task using unfamiliar content is reliable evidence that they cannot yet reason logically in any domain."
+- question: "A child's failure on a formal logic task using unfamiliar content is reliable evidence that they can seldom yet reason logically in any domain."
   type: true-false
   answer: false
   explanation: "This is the core misconception this topic corrects. Reasoning ability is domain-specific before it is domain-general: children can demonstrate sophisticated logical and causal reasoning in knowledge-rich, familiar domains well before they pass formal logical tasks using unfamiliar content. Assessing only with unfamiliar tasks systematically underestimates children's capacities."

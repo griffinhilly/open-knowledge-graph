@@ -58,7 +58,7 @@ Create a reference table with all 20 amino acids, grouping by class, and note th
   answer: 1
   explanation: "Lysine has a pKa of ~10.5 — at physiological pH it is almost always fully protonated (positively charged). It can donate protons but cannot efficiently accept them from a substrate at pH 7.4. Histidine's imidazole has a pKa near 6.0, close enough to physiological pH that a small change in local environment can shift it between protonated (proton donor) and deprotonated (proton acceptor) forms. This catalytic versatility is why histidine appears in the active sites of proteases, phosphatases, and many other enzymes."
 
-- question: "Hydrophobic amino acids are destabilizing to protein structure because they cannot form hydrogen bonds or ionic interactions with other residues."
+- question: "Hydrophobic amino acids are destabilizing to protein structure because they can rarely form hydrogen bonds or ionic interactions with other residues."
   type: true-false
   answer: false
   explanation: "Hydrophobic amino acids are a primary source of protein stability through the hydrophobic effect: burying nonpolar side chains away from water releases ordered water molecules from around hydrophobic surfaces, increasing entropy. This entropic gain is generally considered the dominant thermodynamic driving force for protein folding. The inability to form hydrogen bonds does not make them destabilizing — it is precisely their avoidance of water that stabilizes the folded state."

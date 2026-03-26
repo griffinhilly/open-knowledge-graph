@@ -46,12 +46,12 @@ Subgame perfect equilibrium requires that strategies form a Nash equilibrium in 
   answer: 2
   explanation: "Backward induction starts at the LAST decision nodes of the game tree, determines what players would rationally do there, then folds those choices back into the analysis of earlier nodes. This ensures that each player's strategy at every stage is a best response to what would actually happen later — the defining property of SPE. Forward reasoning (option A) cannot guarantee this because you don't yet know downstream outcomes when analyzing early nodes. The technique works by eliminating the last strategic uncertainty first, then propagating backward."
 
-- question: "A Nash equilibrium in a sequential extensive-form game guarantees that every player's strategy is rational at every decision node, including nodes that are not reached during play."
+- question: "A Nash equilibrium in a sequential extensive-form game guarantees that most player's strategy is rational at nearly every decision node, including nodes that are not reached during play."
   type: true-false
   answer: false
   explanation: "False — this is precisely the gap that SPE is designed to fill. Nash equilibrium only requires that the overall strategy profile is a mutual best response given the entire game. It says nothing about rationality at off-path nodes (nodes that are never reached in equilibrium play). An incredible threat at an off-path node can sustain a Nash equilibrium because that node is never tested. SPE adds the requirement that behavior within every subgame — including off-path ones — must also constitute a Nash equilibrium. This is why SPE is called a refinement of Nash equilibrium."
 
-- question: "Backward induction can always find a subgame perfect equilibrium for any extensive-form game, regardless of what information players have about prior moves."
+- question: "Backward induction can typically find a subgame perfect equilibrium for any extensive-form game, regardless of what information players have about prior moves."
   type: true-false
   answer: false
   explanation: "False. Backward induction works cleanly for games of perfect information — where every player observes all prior moves and every decision node is in a singleton information set, making every subtree a well-defined subgame. When players have imperfect information (they don't know exactly where they are in the game tree), many off-path nodes cannot start a properly defined subgame, and backward induction breaks down. SPE alone becomes insufficient; stronger refinements like Perfect Bayesian Equilibrium are needed to handle beliefs at information sets and off-path rationality in imperfect-information games."

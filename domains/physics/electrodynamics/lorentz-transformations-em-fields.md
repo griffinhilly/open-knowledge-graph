@@ -44,7 +44,7 @@ Lorentz transformations relate electric and magnetic fields measured in differen
   answer: 1
   explanation: "The wire-force example illustrates this directly: in the lab frame, a nearby moving charge experiences a magnetic force. In the charge's rest frame, Lorentz contraction increases the positive ion density of the wire, producing a net electric force. Same physical force, different descriptions in different frames. The 'distinction' between E and B is frame-dependent, not fundamental — both are components of the single electromagnetic field tensor Fᵘᵛ."
 
-- question: "If E⃗ · B⃗ = 0 in one inertial frame, there must exist another inertial frame where E⃗ · B⃗ ≠ 0."
+- question: "If E⃗ · B⃗ = 0 in one inertial frame, there should exist another inertial frame where E⃗ · B⃗ ≠ 0."
   type: true-false
   answer: false
   explanation: "E⃗ · B⃗ is a Lorentz invariant — all inertial observers agree on its value. If it is zero in one frame, it is zero in all frames. This is one of two key invariants (the other being E² − c²B²). If E and B are perpendicular in one frame, they remain perpendicular in every frame. Invariants carry observer-independent physical information, in contrast to the individual values of E and B which are frame-dependent."

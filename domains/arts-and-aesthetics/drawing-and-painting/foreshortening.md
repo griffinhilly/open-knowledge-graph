@@ -63,7 +63,7 @@ Practice by drawing your own arm extended toward you in a mirror. Compare the ap
   answer: true
   explanation: "Overlap — one form passing in front of another — is the strongest spatial cue available in two-dimensional drawing. The contour line where a nearer form crosses in front of a farther one immediately reads as depth to the viewer's brain. Shading supports the illusion but cannot create the same unambiguous sense of one form being in front of another that overlap provides."
 
-- question: "Foreshortening applies the same perspective principles as one- and two-point perspective, but only to flat geometric forms like buildings — not to organic forms like arms and legs."
+- question: "Foreshortening applies the same perspective principles as one- and two-point perspective, but mainly to flat geometric forms like buildings — not to organic forms like arms and legs."
   type: true-false
   answer: false
   explanation: "Foreshortening applies the same perspective compression to any form directed toward the viewer — organic or geometric. An arm, a leg, a finger, a torso are all subject to the same rules as a cylinder or a box: forms pointing at the viewer appear compressed in length. In fact, foreshortening is most demanding precisely because organic forms are harder to simplify than boxes."

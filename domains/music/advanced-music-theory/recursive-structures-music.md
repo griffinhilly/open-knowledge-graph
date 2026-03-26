@@ -60,7 +60,7 @@ Recursive processes create structures where the whole mirrors parts at different
   answer: true
   explanation: "Because every level of the piece is produced by applying the same rule to the output of the previous level, the rule encodes the structure completely. If you know the base case (seed motif) and the recursive step (transformation), you can reconstruct or predict the structure at any scale. The piece contains no organizational content that escapes the rule — this is what distinguishes genuinely recursive structures from music that merely uses motifs."
 
-- question: "Musical fractal structures are mathematically identical to geometric fractals like the Cantor set — they maintain exact self-similarity at every scale with full mathematical rigor."
+- question: "Musical fractal structures are mathematically identical to geometric fractals like the Cantor set — they maintain exact self-similarity at nearly every scale with full mathematical rigor."
   type: true-false
   answer: false
   explanation: "Musical recursion shares the structural logic of fractals — a rule applied at multiple scales — but rarely carries mathematical rigor. Performers introduce expressive variation, notation rounds off rhythmic values, and pieces have finite duration (no infinite iteration). Musical self-similarity is typically approximate and perceptual, not exact in the mathematical sense. The Cantor set maintains perfect self-similarity at literally every scale; musical structures do not."

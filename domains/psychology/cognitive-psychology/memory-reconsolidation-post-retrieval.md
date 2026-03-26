@@ -54,7 +54,7 @@ Review evidence from animal models showing disruption of reconsolidation (e.g., 
   answer: 2
   explanation: "When a memory is retrieved, it enters a labile state. If new information is present during that window, the restabilizing memory may incorporate it. The detective's question triggers retrieval of the robbery memory, which is then reconsolidated alongside the 'red jacket' suggestion — producing a memory that feels authentic but contains post-event misinformation. Source monitoring errors (option B) can also occur, but reconsolidation specifically explains why the *original* memory representation appears to change, not merely why the person confuses two separate memories."
 
-- question: "Once a memory has been reconsolidated after retrieval, it is permanently fixed and cannot be modified by future retrievals."
+- question: "Once a memory has been reconsolidated after retrieval, it is permanently fixed and can seldom be modified by future retrievals."
   type: true-false
   answer: false
   explanation: "Reconsolidation does not produce a final, immune-to-change state. Each new retrieval can again destabilize the memory and open another lability window. This means memories may be modified repeatedly across a lifetime of remembering — each time a memory is retrieved, it risks being updated by whatever information is present in that moment. The implication is that frequently recalled memories may drift furthest from their original form, because each retrieval is an opportunity for modification."

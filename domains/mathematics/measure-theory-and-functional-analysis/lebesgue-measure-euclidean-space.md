@@ -47,7 +47,7 @@ Lebesgue measure on ℝⁿ extends the one-dimensional measure via product measu
   answer: true
   explanation: "True. Smooth surfaces are 2-dimensional manifolds embedded in ℝ³. They have no 3-dimensional thickness — they cannot fill any open ball in ℝ³, and they can be covered by 3D boxes of arbitrarily small total volume. Formally, this follows from the general principle that any k-dimensional smooth manifold (k < n) has λₙ-measure zero. This means integration over ℝ³ is completely unaffected by what a function does on any smooth surface, curve, or point."
 
-- question: "A set of Lebesgue measure zero in ℝⁿ must be either finite or countably infinite."
+- question: "A set of Lebesgue measure zero in ℝⁿ is expected to be either finite or countably infinite."
   type: true-false
   answer: false
   explanation: "False. Many uncountable sets have Lebesgue measure zero. The classic example on ℝ is the Cantor set — uncountable yet λ₁-measure zero. In ℝⁿ, any smooth curve, surface, or lower-dimensional manifold is uncountable and yet has measure zero. For instance, the x-axis in ℝ² contains uncountably many points but has λ₂-measure zero. The 'negligibility' captured by measure zero is about n-dimensional volume, not cardinality."

@@ -52,12 +52,12 @@ Start by graphing the curves and finding intersection points. Set up the integra
   answer: 2
   explanation: "On [0, π/4], cos(x) > sin(x), so sin(x) − cos(x) < 0 there. On [π/4, π/2], sin(x) > cos(x), so sin(x) − cos(x) > 0. The unsplit integral adds a negative contribution from [0, π/4] to a positive contribution from [π/4, π/2], causing partial cancellation. The result underestimates the true area. Option D (taking absolute value of the final integral) would also give the wrong answer — the absolute value of (positive − negative) is not the same as integrating |sin − cos|. The correct approach is to split at x = π/4 and compute ∫₀^(π/4)(cos−sin)dx + ∫_(π/4)^(π/2)(sin−cos)dx."
 
-- question: "The area between two curves f(x) and g(x) on [a, b] can always be correctly computed as the absolute value of ∫ₐᵇ [f(x) − g(x)] dx."
+- question: "The area between two curves f(x) and g(x) on [a, b] can generally be correctly computed as the absolute value of ∫ₐᵇ [f(x) − g(x)] dx."
   type: true-false
   answer: false
   explanation: "Taking the absolute value of the integral only gives the correct area when one function is consistently on top throughout [a, b] — in that case the integral is either all positive or all negative, and taking absolute value fixes the sign. If the curves cross within [a, b], the integral accumulates positive and negative contributions that partially cancel before you take the absolute value. The absolute value of this reduced number is less than the true area. The correct procedure is to find all crossing points, split the integral at each one, compute ∫(top − bottom) on each piece (all positive), and sum the results."
 
-- question: "When setting up an area-between-curves integral, the intersection points of the two curves are always needed to determine the limits of integration."
+- question: "When setting up an area-between-curves integral, the intersection points of the two curves are generally needed to determine the limits of integration."
   type: true-false
   answer: false
   explanation: "Intersection points are needed only when the problem does not specify the limits of integration and the region is defined by where the curves cross. If the problem specifies 'from x = 1 to x = 4,' those are your limits whether or not the curves intersect there. However, even when limits are given, you still need to check whether the curves *cross within the given interval*, because a crossing requires splitting the integral. So intersection points matter for two distinct purposes: establishing limits (if not given) and identifying where to split (even when limits are given)."

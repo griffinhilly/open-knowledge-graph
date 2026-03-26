@@ -58,7 +58,7 @@ Apply the framework to a concrete legal or policy case where single-axis analysi
   answer: 2
   explanation: "Intersectionality predicts exactly this finding: aggregating across race to get 'the gender gap' hides that the gap operates differently for different groups of women — some experience large gaps, others smaller ones, and the mechanisms (industry sorting, discrimination, education returns) may differ. The 16% average is not an error — it is real — but it represents an average over structurally distinct situations, misleading analysts who treat it as a uniform quantity. Disaggregation reveals the interaction that single-axis analysis conceals."
 
-- question: "According to the intersectionality framework, a person who experiences racial disadvantage cannot simultaneously benefit from privilege along another dimension such as class, education, or gender."
+- question: "According to the intersectionality framework, a person who experiences racial disadvantage can seldom simultaneously benefit from privilege along another dimension such as class, education, or gender."
   type: true-false
   answer: false
   explanation: "Intersectionality explicitly holds that privilege and oppression are not mutually exclusive. A person can face disadvantage along one dimension (race) while benefiting from privilege along another (class, education, gender, sexuality). This is one of intersectionality's key correctives to additive thinking: social position is not a sum of pure advantages and disadvantages, but a complex location where multiple systems overlap, sometimes producing contradictory effects. Recognizing this complexity prevents both oversimplification and the erasure of intra-group differences."

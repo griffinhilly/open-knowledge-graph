@@ -62,7 +62,7 @@ Demonstrate on the number line: subtracting a positive means moving left, subtra
   answer: true
   explanation: "This is the 'add the opposite' rule directly: subtracting 3 is the same as adding −3. Both expressions give −7 + (−3) = −10. Same signs, so add the absolute values (7 + 3 = 10) and keep the negative sign. This example shows that the conversion rule always works, even when the subtracted number is positive."
 
-- question: "Subtracting a negative number always produces a negative result."
+- question: "Subtracting a negative number generally produces a negative result."
   type: true-false
   answer: false
   explanation: "Subtracting a negative is the same as adding a positive, which increases the value — the result depends on both numbers. 3 − (−5) = 3 + 5 = 8, which is positive. Even −2 − (−10) = −2 + 10 = 8, also positive. The result can be positive, negative, or zero depending on the starting value and the size of the subtracted negative. The 'two negatives' in a subtraction expression signal that you move right (add), not that the answer is negative."

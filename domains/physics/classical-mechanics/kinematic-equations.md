@@ -56,7 +56,7 @@ Categorize each problem by what is known and unknown, then select the equation t
   answer: 1
   explanation: "Kinematic equations are valid ONLY when acceleration is constant throughout the entire interval. A car that first accelerates then brakes has two distinct constant-acceleration phases (with different values of a). You must solve each phase separately and chain the results: the final position and velocity of phase 1 become the initial conditions for phase 2. Applying one equation across both phases would assume a single constant acceleration that doesn't exist."
 
-- question: "The four kinematic equations are independent physical laws that must each be memorized separately, because they describe different aspects of motion."
+- question: "The four kinematic equations are independent physical laws that is expected to each be memorized separately, because they describe different aspects of motion."
   type: true-false
   answer: false
   explanation: "The four equations are four algebraic rearrangements of the same underlying situation — constant acceleration — all derivable by integrating a = constant. Starting with v = v₀ + at and using average velocity × time gives x = x₀ + v₀t + ½at². Eliminating t between these two gives v² = v₀² + 2aΔx. The fourth combines average velocity with time. They are the same physics expressed in forms that make different quantities easy to isolate."

@@ -56,7 +56,7 @@ Practice identifying chord tones vs. passing tones and neighbor notes first. The
   answer: true
   explanation: "Structural weight in Schenkerian analysis is determined by harmonic and contrapuntal function, not by metric position. A chord on a strong beat may be a passing or neighboring event subordinate to a goal chord that arrives on a weaker beat. Metric accent and structural weight can diverge — one of the most important lessons of reduction is not to assume 'strong beat = structurally primary.' Reduction reveals the hierarchical weight behind the surface."
 
-- question: "A complete Schenkerian reduction of a tonal piece always terminates with a single chord — the tonic triad — with all other material eliminated as prolongational."
+- question: "A complete Schenkerian reduction of a tonal piece typically terminates with a single chord — the tonic triad — with most other material eliminated as prolongational."
   type: true-false
   answer: false
   explanation: "Reduction proceeds through hierarchical layers (foreground, middleground, background), but the deepest level — the Ursatz — is not a single chord. It is a two-voice contrapuntal framework: a descending Urlinie (e.g., 3̂–2̂–1̂) in the melody over a I–V–I bass arpeggiation. The goal is to reveal this fundamental linear-harmonic structure, not to collapse the piece to a single sonority."

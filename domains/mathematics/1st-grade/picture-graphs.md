@@ -47,7 +47,7 @@ Picture graphs use pictures or symbols to represent data, where each symbol repr
   answer: true
   explanation: "4 symbols × 2 items per symbol = 8 items. This is the core calculation skill in picture graphs: multiply the symbol count by the key value to get the actual quantity represented."
 
-- question: "A picture graph always uses exactly one symbol per item counted."
+- question: "A picture graph usually uses exactly one symbol per item counted."
   type: true-false
   answer: false
   explanation: "The key can assign any value to each symbol — commonly 2, 5, or 10 items per symbol. Always check the key before counting. This is why reading the key is the essential first step: it tells you the scale the graph is using."

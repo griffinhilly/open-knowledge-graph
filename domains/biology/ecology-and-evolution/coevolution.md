@@ -60,7 +60,7 @@ Study paired examples such as the Heliconia plant and hummingbird bill length ma
   answer: true
   explanation: "In antagonistic coevolution (e.g., host-parasite, predator-prey arms races), any gain by one species reduces the relative fitness of the other. This means both species must keep evolving just to stay even — like running to stay in place, as the Red Queen does in Lewis Carroll. Standing still evolutionarily means falling behind as the partner evolves. This hypothesis is especially well-supported in host-parasite systems, where rapid parasite evolution maintains pressure on host immune defenses."
 
-- question: "Coevolution always involves tight pairwise relationships between exactly two specific species."
+- question: "Coevolution typically involves tight pairwise relationships between exactly two specific species."
   type: true-false
   answer: false
   explanation: "Diffuse coevolution describes reciprocal selection between a species and an entire community of interacting partners rather than a single counterpart. A plant may evolve chemical defenses in response to a guild of herbivorous insects, not any single species. Recognizing diffuse vs. pairwise coevolution matters: pairwise coevolution predicts tight trait matching and vulnerability when one partner is lost, while diffuse coevolution produces generalized strategies and more robustness to the loss of individual interactors."

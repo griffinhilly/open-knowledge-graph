@@ -50,7 +50,7 @@ The fundamental frequency is the lowest resonant frequency of an object. Overton
   answer: true
   explanation: "This is the correct two-part picture. Pitch is our perceptual response to the fundamental (lowest resonant) frequency — a string vibrating at 440 Hz sounds like A4 regardless of what instrument plays it. Timbre is the 'tone color' that distinguishes a violin from an oboe on the same note, and it is physically encoded in the overtone recipe: which harmonics are present and at what relative amplitudes. A pure sine wave has no overtones and sounds clinical and electronic; a rich instrument tone contains many harmonics at characteristic levels."
 
-- question: "A pure tone containing only the fundamental frequency has a richer, more complex timbre than a musical instrument playing the same pitch."
+- question: "A pure tone containing primarily the fundamental frequency has a richer, more complex timbre than a musical instrument playing the same pitch."
   type: true-false
   answer: false
   explanation: "The opposite is true. A pure sine wave (single frequency, no overtones) is the simplest possible sound — it sounds like an electronic test tone. Musical instruments sound rich and complex precisely because they excite many overtones simultaneously. The more overtones present, and the more varied their amplitudes, the more characteristically 'instrumental' the timbre. Richness comes from the presence of harmonics, not their absence."

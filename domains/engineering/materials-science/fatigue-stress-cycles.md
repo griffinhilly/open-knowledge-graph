@@ -50,7 +50,7 @@ Fatigue is progressive damage accumulation and crack growth under cyclic loading
   answer: true
   explanation: "This is the defining and counterintuitive characteristic of fatigue. A material that easily survives a single load of 200 MPa may fracture after 10⁶ cycles at only 80 MPa — well below its yield strength. Cyclic loading accumulates invisible damage (dislocations, microcracks at stress concentrations) that a single static load would not produce. This is why fatigue is responsible for the majority of mechanical failures in engineering practice and why fatigue design requires a different analytical framework from static stress analysis."
 
-- question: "All engineering materials have an endurance limit — a stress amplitude below which they can withstand an unlimited number of load cycles without failure."
+- question: "Most engineering materials have an endurance limit — a stress amplitude below which they can withstand an unlimited number of load cycles without failure."
   type: true-false
   answer: false
   explanation: "Only ferrous metals (steels, cast irons) exhibit a true endurance limit where the S-N curve becomes horizontal. Nonferrous metals — including aluminum alloys, titanium alloys, and copper alloys — show no horizontal asymptote. Their S-N curves continue declining even at very high cycle counts. This has major engineering consequences: aluminum aircraft components must be designed for a *finite* fatigue life (e.g., 10⁷ cycles), and every flight cycle counts toward that limit. There is no stress amplitude low enough to guarantee infinite life in aluminum, which drives retirement schedules for aircraft structures."

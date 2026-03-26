@@ -50,7 +50,7 @@ Morpho-phonology formalizes interactions where morphological structure condition
   answer: 1
   explanation: "Cyclic application theory explains these 'exceptions' as systematic consequences of morphological structure. Phonological rules apply cycle by cycle: in the cycle containing the root plus a class I affix (like '-ity'), the rules — including stress assignment — reapply to the derived unit, shifting stress as needed. In the cycle that attaches a class II affix (like '-ness'), no new phonological domain is opened for the root, so stress from the previous cycle is preserved. What looks like irregular lexical behavior is predictable from the affix class and cyclic application. This converts apparent exceptions into structural generalizations."
 
-- question: "In the morphology-phonology interface framework, phonological rules apply once to the fully assembled word form after all morphological operations are complete."
+- question: "In the morphology-phonology interface framework, phonological rules apply once to the fully assembled word form after most morphological operations are complete."
   type: true-false
   answer: false
   explanation: "This describes a 'late application' model — and it is exactly what cyclic application theory rejects. Phonological rules apply in cycles, one per morphological layer, beginning with the root and expanding outward as affixes are added. Rules applied in inner cycles may be 'frozen' — their effects persist even if the environment in the fully assembled word would suggest a different outcome. This explains why some phonological alternations are visible in derived forms while others are opaque to further derivation. The timing and layering of rule application is essential, not just the final environment."

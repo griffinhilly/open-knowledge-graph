@@ -50,7 +50,7 @@ Run simple anchoring experiments with friends: present different starting number
   answer: 2
   explanation: "This is the most counterintuitive and important finding in anchoring research: the bias largely persists even with explicit warnings. You cannot introspect to find 'how much did the anchor shift me' and subtract that amount. You can adjust some in the right direction — warnings help partially — but you won't adjust enough to reach an unanchored estimate. The mechanism operates below conscious deliberation, which is why deliberate effort to 'be objective' doesn't fully compensate."
 
-- question: "Anchoring bias only affects people who don't know the anchor is irrelevant — if you are aware that a number is random and has no connection to the question, it will not influence your estimate."
+- question: "Anchoring bias mainly affects people who don't know the anchor is irrelevant — if you are aware that a number is random and has no connection to the question, it will not influence your estimate."
   type: true-false
   answer: false
   explanation: "This is precisely the misconception that anchoring research demolishes. In Tversky and Kahneman's classic wheel-spinning experiment, participants watched a wheel land on an obviously random number, knew it was random, yet their subsequent estimates of a completely unrelated quantity were significantly shifted toward that number. Awareness of irrelevance does not protect you from anchoring. The bias operates at a level below deliberate reasoning — it affects the starting point from which people adjust, a process that isn't fully accessible to conscious correction."

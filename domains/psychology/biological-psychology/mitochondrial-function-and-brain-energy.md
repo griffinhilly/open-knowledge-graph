@@ -56,7 +56,7 @@ Measure ATP levels and ROS production during neural activity using fluorescent i
   answer: 1
   explanation: "During intense activity, Ca²⁺ floods into neurons through NMDA receptors and voltage-gated channels. Mitochondria normally buffer this calcium safely, but if activity is sustained too long, calcium overload opens the mitochondrial permeability transition pore (mPTP). This collapses the proton gradient that drives ATP synthesis, halts energy production, and releases cytochrome c into the cytoplasm — triggering the apoptotic cascade. This is the mechanistic link between excitotoxicity (excess glutamate → excess Ca²⁺) and neuronal death in stroke and prolonged seizures."
 
-- question: "Reactive oxygen species (ROS) produced by neuronal mitochondria are entirely harmless under normal physiological conditions and only become damaging during disease."
+- question: "Reactive oxygen species (ROS) produced by neuronal mitochondria are mostly harmless under normal physiological conditions and mainly become damaging during disease."
   type: true-false
   answer: false
   explanation: "ROS are a normal byproduct of oxidative phosphorylation — leaked electrons react with oxygen to form superoxide and hydrogen peroxide even under healthy conditions. They continuously damage local proteins and lipids, and neurons have antioxidant defenses to manage this baseline damage. Over decades, cumulative ROS damage — especially to mitochondrial DNA, which lacks protective histones and sits near the ETC — contributes to the aging process itself. ROS are not exclusively pathological; they are an unavoidable cost of high-throughput energy production."

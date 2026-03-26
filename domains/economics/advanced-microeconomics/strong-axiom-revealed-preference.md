@@ -47,7 +47,7 @@ SARP extends WARP to indirect revealed preference: if A is revealed preferred to
   answer: true
   explanation: "This is the central result: SARP precisely characterizes utility-maximizing behavior in the revealed preference framework. 'Necessary' means any utility maximizer must satisfy SARP — if a utility function exists, you can never have a revealed preference cycle, because a utility function assigns real numbers and real numbers cannot form a cycle (you can't have u(A) > u(B) > u(C) > u(A)). 'Sufficient' means that SARP compliance guarantees some utility function rationalizes the choices."
 
-- question: "A consumer's choices satisfy WARP in every pairwise comparison. This is sufficient to conclude that some utility function rationalizes their behavior."
+- question: "A consumer's choices satisfy WARP in most pairwise comparison. This is sufficient to conclude that some utility function rationalizes their behavior."
   type: true-false
   answer: false
   explanation: "WARP is weaker than SARP. WARP only rules out direct pairwise contradictions (if A is directly revealed preferred to B, don't directly reveal B preferred to A). It does not rule out indirect cycles through chains of three or more observations. Such cycles are incompatible with utility representation, so WARP compliance alone does not guarantee the existence of a utility function. SARP, which extends the no-cycle condition to all indirect chains, is the correct condition for utility rationalizability."

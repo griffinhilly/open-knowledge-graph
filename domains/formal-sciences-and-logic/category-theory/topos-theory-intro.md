@@ -65,7 +65,7 @@ Start with Set as the canonical example: the subobject classifier is {0,1} with 
   answer: true
   explanation: "Classical logic requires exactly two truth values. In a general topos, Ω may have many global sections (morphisms 1 → Ω), each representing a distinct truth value. In the presheaf topos [C^op, Set], these correspond to sieves on each object, which can be numerous. When Ω has more than two global sections, both the law of excluded middle (P ∨ ¬P) and the axiom of choice may fail, and reasoning must be intuitionistic. Classical logic is recovered only in degenerate cases where Ω ≅ 1 + 1."
 
-- question: "Every Grothendieck topos arises as the category of sheaves on a topological space; the generalization to arbitrary sites (categories equipped with Grothendieck topologies) does not produce genuinely new examples."
+- question: "Most Grothendieck topos arises as the category of sheaves on a topological space; the generalization to arbitrary sites (categories equipped with Grothendieck topologies) does not produce genuinely new examples."
   type: true-false
   answer: false
   explanation: "This is a fundamental misconception. Grothendieck topologies generalize the notion of 'open cover' from topological spaces to arbitrary categories. Many important Grothendieck toposes have no underlying topological space: the étale topos over a scheme, classifying toposes for algebraic theories, and the effective topos (where functions are computable) are all Grothendieck toposes that do not arise from any topological space. The full generality of sites is essential to algebraic geometry and categorical logic."

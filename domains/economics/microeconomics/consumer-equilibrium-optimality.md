@@ -55,7 +55,7 @@ Use diagrams showing the tangency condition. Test sensitivity analysis: how does
   answer: 1
   explanation: "MU₁/P₁ = MU₂/P₂ is the 'bang-per-buck' condition: marginal utility per dollar is equalized across goods. If MU₁/P₁ > MU₂/P₂, shifting a dollar from good 2 to good 1 raises total utility — a beneficial reallocation remains. At equilibrium, this arbitrage is exhausted. The condition says nothing about equal spending (D) or equal total utility (C)."
 
-- question: "Consumer equilibrium always occurs at the tangency between the budget line and an indifference curve."
+- question: "Consumer equilibrium generally occurs at the tangency between the budget line and an indifference curve."
   type: true-false
   answer: false
   explanation: "Tangency is the condition for interior solutions, but corner solutions are also optimal. If a consumer optimally buys only good 1 (spending all income on it), the MRS at that corner may still exceed P₁/P₂ — but they cannot reduce good 2 below zero. At a corner the tangency condition fails, yet the consumer is at their constrained optimum. Recognizing this exception is essential to a full understanding of consumer theory."

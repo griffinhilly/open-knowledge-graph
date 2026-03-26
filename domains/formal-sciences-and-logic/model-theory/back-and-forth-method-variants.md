@@ -47,7 +47,7 @@ The back-and-forth method (Ehrenfeucht-Fraïssé games) generalizes beyond finit
   answer: 1
   explanation: "Density is the key: for any two elements a < b in a dense linear order, there exists c with a < c < b. When extending the partial map to a new element x (which must fit between two already-mapped elements), density guarantees there is always a suitable match in the other structure — something that fits in the required interval. Without density, the construction could fail if you need to insert a new element between two consecutive elements. Density + no endpoints together ensure every finite partial isomorphism can be extended."
 
-- question: "If Duplicator can always respond in the forward direction (Spoiler plays in A, Duplicator responds in B) for arbitrarily many rounds, the union of the partial maps gives a total isomorphism from A to B."
+- question: "If Duplicator can typically respond in the forward direction (Spoiler plays in A, Duplicator responds in B) for arbitrarily many rounds, the union of the partial maps gives a total isomorphism from A to B."
   type: true-false
   answer: false
   explanation: "Forward-only extendability gives only a total elementary embedding from A to B — every element of A gets matched, but elements of B that are never named by Spoiler may be left unmapped. The resulting map need not be surjective. For a total isomorphism, you need the backward direction too: Spoiler must also be able to play in B, and Duplicator must respond in A. This is the essential 'back' step that drags every element of B into the map, ensuring surjectivity."

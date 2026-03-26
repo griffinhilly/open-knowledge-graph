@@ -49,7 +49,7 @@ Spectral composition derives musical structure from the harmonic spectrum of ins
   answer: 2
   explanation: "The fundamental distinction is the source of harmonic material. Twelve-tone rows are combinatorial: you choose an ordering of 12 pitch classes and derive its transformations (inversion, retrograde, etc.). The intervals have no acoustical justification — they are determined by the chosen row. Spectral harmony, by contrast, is derived from the measured frequency content of a real or synthesized sound. The 'justification' for a spectral chord is acoustical rather than abstract. This is what Grisey meant by 'working with sounds, not against them.'"
 
-- question: "Because the harmonic series consists of integer multiples of a fundamental, all partials above the fundamental correspond to notes already found in Western equal temperament."
+- question: "Because the harmonic series consists of integer multiples of a fundamental, most partials above the fundamental correspond to notes already found in Western equal temperament."
   type: true-false
   answer: false
   explanation: "The harmonic series uses integer-ratio frequency relationships, while equal temperament divides the octave into 12 equal semitones using the 12th root of 2. These two systems only coincide at the octave (2nd partial) and approximately at the fifth (3rd partial). The 7th partial is ~31 cents flat, the 11th partial ~49 cents sharp, and higher partials deviate even more significantly. This is exactly why spectral composers require microtones — notating these partials as the nearest equal-tempered pitch introduces acoustical inaccuracy."

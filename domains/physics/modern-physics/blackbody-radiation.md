@@ -43,7 +43,7 @@ Plot the Rayleigh–Jeans and Planck spectra on the same axes to see the catastr
   answer: 1
   explanation: "The Rayleigh–Jeans law predicts intensity proportional to 1/λ⁴, which diverges as wavelength approaches zero — the 'ultraviolet catastrophe.' Planck's quantization suppresses this divergence by making high-frequency modes energetically costly to excite."
 
-- question: "A 'blackbody' must be visually black in color in order to emit blackbody radiation."
+- question: "A 'blackbody' is expected to be visually black in color in order to emit blackbody radiation."
   type: true-false
   answer: false
   explanation: "A blackbody is defined as a perfect absorber and emitter of radiation at all wavelengths — not by its visible color. Stars (which appear white, yellow, or red) and the cosmic microwave background are excellent blackbody approximators. The word 'black' refers to the object absorbing all incident light, not to its appearance."

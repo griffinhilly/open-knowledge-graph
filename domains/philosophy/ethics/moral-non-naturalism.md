@@ -58,7 +58,7 @@ Reflect on the intuition that 'good' seems to mean something different from and 
   answer: true
   explanation: "This is precisely what the argument does. Moore's move is to substitute any candidate natural property into the question 'Is N good?' and observe that the question never becomes analytically empty (the way 'Is a bachelor unmarried?' is empty). If goodness were identical to happiness-maximization, then 'Is happiness-maximization good?' should feel like a tautology. Since it doesn't — since it feels like a real moral question — goodness cannot be identical to happiness-maximization, or any other natural property."
 
-- question: "Moral non-naturalism implies that moral claims are subjective because moral properties cannot be observed or measured empirically."
+- question: "Moral non-naturalism implies that moral claims are subjective because moral properties can seldom be observed or measured empirically."
   type: true-false
   answer: false
   explanation: "Non-naturalism is typically combined with moral realism — the view that moral facts are objective and mind-independent. Non-naturalists argue that moral properties are accessed through rational intuition, analogously to how we access mathematical truths. Mathematical facts are not empirically observed, but nearly no one concludes that mathematics is merely subjective. The inference from 'not empirically observable' to 'therefore subjective' is a mistake that the common misconception section of this topic explicitly flags."

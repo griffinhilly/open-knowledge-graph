@@ -50,7 +50,7 @@ Businesses produce three core financial statements — an income statement, a ba
   answer: 1
   explanation: "Salary growth shows on the income statement (more inflow), but says nothing about net worth. Someone whose salary doubled while taking on proportionally more debt, or spending every additional dollar, may have flat or declining net worth. The balance sheet question — are assets growing faster than liabilities? — is the real test. The income statement measures flow (what happened this period); the balance sheet measures stock (where you actually stand)."
 
-- question: "A person who consistently earns more than they spend is guaranteed to have a growing net worth."
+- question: "A person who consistently earns more than they spend is very likely to have a growing net worth."
   type: true-false
   answer: false
   explanation: "Net income (income minus expenses) contributes to net worth only if the surplus is saved or invested and not offset by growing liabilities. Someone making minimum payments on debt that is accumulating faster in principal than they're paying down will have positive net income but declining net worth. Income-statement health and balance-sheet health are related but distinct. A rising income can coexist with a flat or negative net worth if spending and debt rise in parallel."

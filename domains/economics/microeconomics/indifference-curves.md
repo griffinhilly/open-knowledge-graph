@@ -50,7 +50,7 @@ Sketch indifference maps by hand before encountering special cases (perfect subs
   answer: 3
   explanation: "If curves cross at X, transitivity of preferences implies a contradiction. A bundle on the higher curve is preferred to X, but X is also on the lower curve, making it indifferent to other points on that curve that should be ranked as worse. Crossing curves violate the consistency required by well-behaved preferences."
 
-- question: "Indifference curves are convex to the origin primarily because of diminishing marginal utility — consuming more of a good always produces less additional satisfaction."
+- question: "Indifference curves are convex to the origin primarily because of diminishing marginal utility — consuming more of a good typically produces less additional satisfaction."
   type: true-false
   answer: false
   explanation: "Convexity reflects a diminishing marginal rate of substitution (MRS), which captures a preference for variety: as you give up more of one good, each remaining unit becomes more valuable relative to the good you are gaining. While related to diminishing marginal utility, these are distinct concepts — MRS can be diminishing even when cardinal utility behaves differently, and convexity is defined by the preference structure, not by a cardinal measure of satisfaction."

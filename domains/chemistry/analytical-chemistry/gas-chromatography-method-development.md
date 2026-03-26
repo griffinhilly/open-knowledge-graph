@@ -52,7 +52,7 @@ Use GC retention index systems and polarity matching between analyte and station
   answer: true
   explanation: "The van Deemter equation describes how plate height (a measure of band broadening) varies with carrier gas velocity. At very low velocities, longitudinal diffusion dominates and peaks spread; at very high velocities, mass transfer resistance dominates and peaks spread. There is a minimum plate height (maximum efficiency) at an intermediate velocity. In practice, methods often run slightly above this optimum to save time at a small cost in resolution."
 
-- question: "A longer GC column always produces better separation than a shorter column and should always be preferred for complex mixtures."
+- question: "A longer GC column usually produces better separation than a shorter column and should generally be preferred for complex mixtures."
   type: true-false
   answer: false
   explanation: "Longer columns do provide more theoretical plates and therefore higher resolution capacity, but this comes with direct costs: longer analysis time and higher inlet pressure requirements. For mixtures where target analytes are well resolved on a 30 m column, doubling the length to 60 m provides little benefit while doubling run time. Method development involves balancing resolution against throughput — a shorter column with optimized temperature programming often outperforms a longer column run under suboptimal conditions."

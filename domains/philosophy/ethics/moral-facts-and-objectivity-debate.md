@@ -54,7 +54,7 @@ Denying objective moral facts doesn't commit you to nihilism or the view that an
   answer: 2
   explanation: "Error theory (Mackie) holds that moral sentences purport to describe mind-independent moral facts — unlike expressivism, which denies they are fact-assertions at all. But since Mackie believes no such facts exist, all positive moral claims are literally false. This distinguishes error theory from expressivism: rather than reinterpreting what moral language does, error theory says moral language is trying to do what it appears to do (assert facts) but systematically failing."
 
-- question: "The fact that nearly all human societies condemn murder is strong evidence that 'murder is wrong' is an objective moral fact."
+- question: "The fact that nearly most human societies condemn murder is strong evidence that 'murder is wrong' is an objective moral fact."
   type: true-false
   answer: false
   explanation: "Widespread agreement does not establish objectivity. Many false beliefs have been held nearly universally. A moral realist cannot simply point to agreement to prove mind-independent facts; an anti-realist can explain near-universal condemnation of murder through convergent expressions of attitude or parallel social constructions without positing objective facts. As the topic notes, 'agreement alone doesn't establish objectivity — widespread false belief is possible.'"

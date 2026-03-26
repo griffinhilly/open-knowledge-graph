@@ -49,7 +49,7 @@ Relying on a single income source creates vulnerability to job loss or industry 
   answer: 2
   explanation: "Two active income streams are more stable than one — the retail job buffers against losing the salaried position. But both streams still require the person's time and physical presence, meaning illness, disability, or personal crisis could disrupt both simultaneously. This is better than full concentration in one job, but it is not the same as having uncorrelated passive income (which flows even if you cannot work). The answer recognizes real but limited improvement — avoiding the trap of thinking diversification is either all-or-nothing."
 
-- question: "A person has two income streams from two different companies in the same industry. This provides the same diversification benefit as two streams from completely unrelated industries."
+- question: "A person has two income streams from two different companies in the same industry. This provides the same diversification benefit as two streams from substantially unrelated industries."
   type: true-false
   answer: false
   explanation: "The key to diversification is correlation — how likely streams are to fail under the same conditions. Two streams in the same industry are highly correlated: a sector recession, regulatory change, or industry-wide disruption would hit both simultaneously. This is why a second job at another tech company provides much weaker protection than a rental property or freelance work in an unrelated field. The portfolio logic applies directly: diversification only works when the risks are not moving together."

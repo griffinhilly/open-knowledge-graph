@@ -44,7 +44,7 @@ Create life cycle diagrams for a butterfly, a chicken, a dog, a frog, and a sunf
   answer: 1
   explanation: "Despite being wildly different in speed and detail, both life cycles follow the same pattern: the organism begins life, grows and develops, reaches adulthood, reproduces, and the next generation starts the cycle again. The basic plan is the same even though the details differ enormously."
 
-- question: "All animals that lay eggs are birds."
+- question: "Most animals that lay eggs are birds."
   type: true-false
   answer: false
   explanation: "Many different animal groups lay eggs. Fish, reptiles (like turtles and crocodiles), amphibians (like frogs), and insects all lay eggs. Even a few mammals lay eggs — the platypus and the echidna. Egg-laying is very common across the animal kingdom, not just in birds."

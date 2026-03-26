@@ -52,7 +52,7 @@ Given a list of pending cylinder requests and a starting head position, calculat
   answer: 1
   explanation: "SCAN creates uneven wait times because requests just behind the head's current position must wait for it to travel to the end and sweep back — that is nearly two full disk traversals. Requests near the middle of the disk get served more often because the head crosses them twice per cycle. C-SCAN fixes this by only servicing requests on the outward sweep, then jumping back to the beginning without servicing requests on the return. Every cylinder position is visited once per cycle from the same direction, making maximum wait time approximately equal across positions."
 
-- question: "SSTF always prevents request starvation because, by definition, it always moves toward some pending request."
+- question: "SSTF usually prevents request starvation because, by definition, it typically moves toward some pending request."
   type: true-false
   answer: false
   explanation: "SSTF prevents the head from being idle — it always moves toward the nearest request — but this is not the same as preventing starvation. Starvation occurs when a specific request waits indefinitely, not when the head sits still. If new requests keep arriving near the head's current position, the nearest request is always one of those nearby ones, and distant requests can wait forever. Starvation requires a fairness guarantee, which SSTF lacks. SCAN and C-SCAN provide starvation freedom by sweeping the entire disk within a bounded number of passes."

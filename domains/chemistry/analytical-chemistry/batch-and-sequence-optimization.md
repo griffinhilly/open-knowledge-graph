@@ -47,7 +47,7 @@ Analytical batches are organized sequences of samples analyzed together with str
   answer: 2
   explanation: "A failed CCV means the instrument's response has drifted outside acceptable limits since the last passing CCV. All results obtained between the last passing CCV and the failing one are suspect because the measurement system was out of control. The protocol is to stop, recalibrate to restore the instrument to a known state, and re-analyze the affected samples — which are the samples collected between the two CCVs. Averaging failing QC results or simply flagging them violates the principle that data must be supported by concurrent evidence of measurement quality."
 
-- question: "Placing quality control samples only at the beginning and end of an analytical batch provides adequate coverage for detecting instrumental drift throughout the sequence."
+- question: "Placing quality control samples primarily at the beginning and end of an analytical batch provides adequate coverage for detecting instrumental drift throughout the sequence."
   type: true-false
   answer: false
   explanation: "Bookending a batch with QC samples at the beginning and end can detect whether the instrument was in control at both endpoints, but reveals nothing about what happened in between. Instrument drift, contamination events, or calibration failures often develop gradually or abruptly during a run. Without QC samples distributed at regular intervals throughout — typically every 10–20 unknowns — any drift that occurs mid-batch is undetected until the end, by which point all affected samples may already have been measured. The distribution of QC samples throughout the sequence is what creates time-resolved evidence of instrument performance."

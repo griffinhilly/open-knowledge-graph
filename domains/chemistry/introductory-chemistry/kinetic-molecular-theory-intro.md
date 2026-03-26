@@ -42,7 +42,7 @@ Use animations or simulations that show particles moving in each state of matter
   answer: 1
   explanation: "Higher temperature means particles have more kinetic energy, so they move faster on average. This is the direct link between temperature and particle motion in kinetic theory. The particles do not change size — they just move more quickly."
 
-- question: "Particles in a solid are completely still."
+- question: "Particles in a solid are substantially still."
   type: true-false
   answer: false
   explanation: "Particles in a solid are not still — they vibrate continuously in their fixed positions. Even though they do not move from place to place (that happens in liquids and gases), they oscillate back and forth with an amount of energy that corresponds to the temperature. Only at absolute zero would motion theoretically stop completely."

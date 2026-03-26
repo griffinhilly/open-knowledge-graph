@@ -56,7 +56,7 @@ Draw dashed lines on L-shapes to show the decomposition. Have students label the
   answer: 2
   explanation: "Correct multiplication is only useful if the dimensions fed into it are correct. The critical prerequisite step is determining any missing side lengths from the labeled dimensions. In rectilinear shapes, opposite sides along any straight line must total the same amount, which is how missing lengths are derived. Skipping this step means the rectangle dimensions are wrong, and even perfect multiplication produces the wrong area."
 
-- question: "To find the area of a rectilinear shape, you must always split it into rectangles and add the parts — the subtraction method is not a valid alternative."
+- question: "To find the area of a rectilinear shape, you should typically split it into rectangles and add the parts — the subtraction method is not a valid alternative."
   type: true-false
   answer: false
   explanation: "Both strategies are equally valid and always produce the same answer. The 'add the parts' method decomposes the shape into non-overlapping rectangles, computes each area, and sums them. The 'subtract the missing piece' method computes the area of a bounding rectangle and subtracts the rectangular notch. The choice between them depends on which side lengths are easier to work with — not on which method is more correct."

@@ -44,7 +44,7 @@ Enthalpy (H = U + PV) combines internal energy with flow work. It is the appropr
   answer: 2
   explanation: "In open systems with flowing fluids, the energy carried by each mass element includes its internal energy U plus the work done to push it into (or pull it out of) the control volume — the flow work PV. Enthalpy H = U + PV automatically captures both. This is why all steady-flow energy balances (turbines, compressors, nozzles, heat exchangers) use H rather than U. Turbines do not operate at constant volume — they are open systems with continuous flow."
 
-- question: "Enthalpy is a useful thermodynamic quantity only in chemistry; engineers working with machines and flow systems should use internal energy instead."
+- question: "Enthalpy is a useful thermodynamic quantity primarily in chemistry; engineers working with machines and flow systems should use internal energy instead."
   type: true-false
   answer: false
   explanation: "The opposite is true for open systems. Engineers use enthalpy routinely for steady-flow devices because the PV flow-work term is physically significant whenever fluid enters or exits a control volume. Turbines, compressors, pumps, nozzles, and heat exchangers are all analyzed using enthalpy. Internal energy is more natural for closed systems where no mass crosses the boundary (e.g., a piston-cylinder with a sealed piston)."

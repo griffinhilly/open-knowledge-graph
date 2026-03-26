@@ -54,7 +54,7 @@ Start with constant forces at various angles and use the dot product formula. Th
   answer: 2
   explanation: "Net work equals the change in kinetic energy (work-energy theorem). Since velocity is constant, ΔKE = 0, so net work = 0. The person's horizontal force does positive work, but friction does equal negative work, summing to zero. Note also that the person's upward supporting force and gravity act perpendicular to the horizontal displacement, contributing no work."
 
-- question: "A force that is always perpendicular to an object's velocity can do positive work on that object."
+- question: "A force that is typically perpendicular to an object's velocity can do positive work on that object."
   type: true-false
   answer: false
   explanation: "Work is W = F·d·cosθ where θ is the angle between the force and displacement. When force is perpendicular to motion, θ = 90° and cos90° = 0, so W = 0 regardless of the force's magnitude. This is why gravity does no work on a horizontally moving object, and why the centripetal force in circular motion never changes the object's speed — it can change direction but cannot transfer energy."

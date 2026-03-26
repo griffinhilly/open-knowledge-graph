@@ -51,7 +51,7 @@ Diagram chasing is a proof technique using commutative diagrams: proving stateme
   answer: true
   explanation: "This is the definition of a commutative diagram. For a simple square with f: A→B, g: B→D, h: A→C, k: C→D, commutativity means g∘f = k∘h — both paths from A to D agree. For more complex diagrams with multiple squares or triangles, commutativity asserts this equality for every pair of objects connected by multiple paths. The entire technique of diagram chasing rests on this: when you reach object D via one path and know the result, you can substitute the other path (which may land somewhere more convenient for your argument) and obtain the same result."
 
-- question: "Diagram chasing only works for diagrams composed of squares; triangular diagrams require a different technique because there is only one path between most pairs of objects."
+- question: "Diagram chasing mainly works for diagrams composed of squares; triangular diagrams require a different technique because there is mainly one path between most pairs of objects."
   type: true-false
   answer: false
   explanation: "Diagram chasing applies to any commutative diagram, regardless of shape. In a commutative triangle A→B→C and A→C, commutativity asserts that the two paths from A to C agree: h∘g = f (where f: A→C, g: A→B, h: B→C). This is a usable constraint — knowing a morphism is zero or has a certain property along one path immediately constrains the other. Complex diagrams in homological algebra often combine squares, triangles, and longer sequences; chasing elements through them uses the same move repeatedly: follow one path, use commutativity to switch to another path, apply hypotheses about specific morphisms, and conclude."

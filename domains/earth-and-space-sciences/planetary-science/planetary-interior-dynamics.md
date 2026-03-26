@@ -48,7 +48,7 @@ Start with Earth's interior structure, then apply concepts to other terrestrial 
   answer: 1
   explanation: "Planetary interiors are heated by two main processes: (1) accretional heat — the kinetic energy of impactors and gravitational compression during formation, which was intense enough to melt entire planetary bodies early in solar system history; and (2) radiogenic heat — ongoing decay of long-lived radioactive isotopes (primarily uranium-235, uranium-238, thorium-232, and potassium-40) in the rocky mantle and crust. These two sources power convection, volcanism, and magnetic field generation over geological timescales."
 
-- question: "All terrestrial planets (Earth, Mars, Venus, Mercury) have the same basic internal layer structure because they formed from similar materials."
+- question: "Most terrestrial planets (Earth, Mars, Venus, Mercury) have the same basic internal layer structure because they formed from similar materials."
   type: true-false
   answer: false
   explanation: "Although all terrestrial planets differentiated into metal-rich cores and silicate mantles/crusts, their present-day structures differ significantly based on size, composition, and thermal history. Mars has a smaller core and a thicker lithosphere that has largely ceased convecting. Mercury has an anomalously large core relative to its size. Venus lacks plate tectonics despite being similar in size to Earth. Smaller planets lose heat faster, stalling their interior dynamics much earlier — so planetary size is a major determinant of current interior activity."

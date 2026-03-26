@@ -56,7 +56,7 @@ Compare simple and multiple regression estimates on the same dataset — seeing 
   answer: 1
   explanation: "The coefficient on education in the multiple regression is the partial effect — how wages change with one more year of education when experience is held fixed. The bivariate estimate conflates the direct effect of education with any correlation between education and experience. Neither is unconditionally 'wrong'; they answer different questions."
 
-- question: "Adding more control variables to a multiple regression model always improves the accuracy of coefficient estimates."
+- question: "Adding more control variables to a multiple regression model typically improves the accuracy of coefficient estimates."
   type: true-false
   answer: false
   explanation: "This is the most important misconception about multiple regression. Including irrelevant variables reduces efficiency (increases standard errors) without reducing bias. Worse, including endogenous controls — variables that are themselves caused by the regressors or the outcome — can introduce new bias and make estimates less reliable. More controls is not a free lunch."

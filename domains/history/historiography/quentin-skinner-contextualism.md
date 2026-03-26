@@ -47,7 +47,7 @@ Quentin Skinner argues that understanding historical texts requires recovering t
   answer: 1
   explanation: "Skinner needs the surrounding literature to reconstruct the linguistic context — to know what could be said in that time and place, what was conventional and what was transgressive, what positions Hobbes was arguing against, and what conventions made his arguments intelligible. Without this, the historian risks imposing a modern reading on terms that meant something specific in Hobbes's polemical situation. The pamphlet literature is the evidence for what was 'in the air' linguistically and politically."
 
-- question: "Skinner's contextualism implies that historical texts like Machiavelli's Prince have nothing to teach modern readers because they were written for audiences in different historical circumstances."
+- question: "Skinner's contextualism implies that historical texts like Machiavelli's Prince have very little to teach modern readers because they were written for audiences in different historical circumstances."
   type: true-false
   answer: false
   explanation: "Skinner does not argue that historical texts are irrelevant to modern readers — he argues that we must first understand what they were doing before extracting lessons. In fact, his method often reveals texts to be richer and stranger than perennialist readings suggest. Recovering the original illocutionary context can make a text more instructive, not less, by showing that its apparent meaning conceals a more specific and surprising argument. The goal is historically accurate understanding, which can then inform (though not directly determine) contemporary thought."

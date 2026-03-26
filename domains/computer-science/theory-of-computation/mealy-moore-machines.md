@@ -45,7 +45,7 @@ Mealy and Moore machines extend finite automata with output. Moore machines outp
   answer: 1
   explanation: "Both Moore and Mealy machines can model the traffic light. In the Moore model, the light color is a property of the current state (e.g., the 'RED phase' state always outputs RED), which is perfectly natural when output represents the stable condition of a phase. In the Mealy model, the output is on the transition (e.g., when the timer fires in RED state, output GREEN). Neither is wrong — they are equivalent in power. The student confuses 'output depends on input' (Mealy's definition) with 'output must depend on input' (a false requirement)."
 
-- question: "A Mealy machine is strictly more powerful than a Moore machine — it can recognize languages or compute functions that a Moore machine cannot, because its output depends on both state and input."
+- question: "A Mealy machine is strictly more powerful than a Moore machine — it can recognize languages or compute functions that a Moore machine can rarely, because its output depends on both state and input."
   type: true-false
   answer: false
   explanation: "Mealy and Moore machines are equivalent in computational power. Every Mealy machine can be converted to a Moore machine that computes the same input-output function, and vice versa. The difference is where output is associated (transitions vs states), which affects machine size and output timing — but not what functions can be computed. Both are transducers that map finite input sequences to finite output sequences."

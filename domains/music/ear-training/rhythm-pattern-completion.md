@@ -55,7 +55,7 @@ An instructor or app plays a short rhythmic pattern (2-4 bars) and then pauses. 
   answer: 2
   explanation: "If you can write it but cannot perform it fluently, the completion is not genuinely internalized. Rhythm pattern completion is about developing predictive pattern sense — an embodied, physical sense of rhythmic inevitability — not just notational accuracy. Writing rhythms you cannot perform is a sign the completion came from reasoning about notation, not from hearing and feeling the pattern. Tapping or singing the completion before writing it is the reliable method."
 
-- question: "For rhythm pattern completion, there is always exactly one correct answer — the one that exactly mirrors the original pattern."
+- question: "For rhythm pattern completion, there is typically exactly one correct answer — the one that exactly mirrors the original pattern."
   type: true-false
   answer: false
   explanation: "Multiple completions can be musically valid. Exact repetition of the original is often the most reliable choice, but variations that honor the established architecture — the same call-response shape, the same metric weight at phrase boundaries, the same overall character — are also correct. The goal is to sound inevitable, and several rhythmic figures can share that quality. The common misconception is over-constraining the task to a single right answer."

@@ -49,7 +49,7 @@ A polynomial many-one reduction from L₁ to L₂ is a polynomial-time computabl
   answer: false
   explanation: "The reduction shows A is *no harder than* B — not that A is harder. If A reduces to B, it means B is at least as capable as A: any efficient solver for B can solve A via the reduction. B is the 'harder' one (at least as hard as A). The confusion is common because reductions feel like they put A 'on top of' B, but the hardness flows the other way: the target of the reduction (B) is the one that must be powerful enough to handle the source (A)."
 
-- question: "The 'many-one' in polynomial many-one reduction means the reduction function f must map different instances of A to different instances of B (i.e., f must be injective)."
+- question: "The 'many-one' in polynomial many-one reduction means the reduction function f should map different instances of A to different instances of B (i.e., f should be injective)."
   type: true-false
   answer: false
   explanation: "'Many-one' means the opposite: multiple different inputs to A can map to the same input for B — f need not be injective, and often isn't. The 'many-to-one' mapping is what gives the name. The only requirements are that f is polynomial-time computable and that x ∈ A ⟺ f(x) ∈ B. The function can collapse many distinct A-instances to the same B-instance. Bijectivity (one-to-one and onto) would be a Turing reduction or an isomorphism, which is a strictly stronger notion than many-one reduction."

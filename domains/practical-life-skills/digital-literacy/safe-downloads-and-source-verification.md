@@ -51,7 +51,7 @@ Download a file from a trusted source while noting the verification steps: check
   answer: 1
   explanation: "Legitimate PDFs open in a PDF viewer, not as executable programs. A 'Run' prompt means the file is an executable (.exe, .msi, etc.) — its actual extension reveals this. Many systems hide file extensions by default, so 'invoice.pdf' might actually be 'invoice.pdf.exe' with the .exe suffix hidden. The OS behavior (asking to run rather than open) exposes what the file really is. This is a classic malware delivery technique."
 
-- question: "A file that has a .pdf extension is safe to open because PDF files cannot contain malware."
+- question: "A file that has a .pdf extension is safe to open because PDF files can rarely contain malware."
   type: true-false
   answer: false
   explanation: "This is false on two counts. First, PDF files can contain malicious code — PDFs support JavaScript and other active content that has been exploited in attacks. Second, a file named 'document.pdf' might actually be 'document.pdf.exe' with the true extension hidden by the operating system. The file name and visible extension are not reliable guarantees of what a file contains or will do when opened."

@@ -50,7 +50,7 @@ The chromatic number is the minimum colors needed so no adjacent vertices share 
   answer: true
   explanation: "Every pair of vertices in a clique is adjacent, so each vertex in a k-clique needs a distinct color. If G contains a clique of size ω(G), then at least ω(G) colors are required for that clique alone. This lower bound χ(G) ≥ ω(G) always holds. It is useful when tight, but can be very loose: graphs exist with ω(G) = 2 (no triangles) but χ(G) arbitrarily large."
 
-- question: "If a graph G has clique number ω(G) = 5, then its chromatic number must be exactly 5."
+- question: "If a graph G has clique number ω(G) = 5, then its chromatic number should be exactly 5."
   type: true-false
   answer: false
   explanation: "ω(G) = 5 gives the lower bound χ(G) ≥ 5, but the chromatic number could be 6, 10, or any larger value. The clique number is a lower bound, not an exact value. Perfect graphs are a special class where χ(G) = ω(G) always holds, but this is a deep result (the perfect graph theorem), not a general fact. For arbitrary graphs, χ can far exceed ω."

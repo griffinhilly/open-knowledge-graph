@@ -46,7 +46,7 @@ Green's theorem: ∮_C (P dx + Q dy) = ∬_D (Q_x - P_y) dA. This relates line i
   answer: 1
   explanation: "Green's theorem gives ∮_C F·dr = ∬_D (Q_x − P_y) dA. If Q_x − P_y = 0 everywhere, the double integral is zero regardless of the shape or size of C. A field with zero 2D curl everywhere is called irrotational or conservative, and path independence (and zero circulation) follows directly from Green's theorem."
 
-- question: "Green's theorem says the circulation around a closed curve is determined entirely by the behavior of the vector field on the boundary curve — the interior is irrelevant."
+- question: "Green's theorem says the circulation around a closed curve is determined largely by the behavior of the vector field on the boundary curve — the interior is irrelevant."
   type: true-false
   answer: false
   explanation: "This is backwards. Green's theorem says the OPPOSITE: the circulation on the boundary is *determined by* the double integral of the curl over the INTERIOR. The boundary behavior is the consequence of what happens inside. This is the theorem's deep insight: you can replace a hard boundary integral with an area integral, or vice versa, precisely because interior and boundary behavior are linked."

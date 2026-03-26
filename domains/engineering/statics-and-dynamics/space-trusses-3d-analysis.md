@@ -49,7 +49,7 @@ Space trusses are three-dimensional frameworks where all members are two-force m
   answer: false
   explanation: "Space truss members carry axial loads only — exactly like 2D truss members. Joints are spherical pins (ball-and-socket), which cannot transmit moments, so members cannot develop bending moments regardless of geometry. The reason 3D analysis requires more equations is simply that equilibrium must be satisfied in three spatial dimensions (ΣFx = ΣFy = ΣFz = 0) rather than two. The physics — members as two-force elements — is identical to 2D; only the dimensionality of the equilibrium system changes."
 
-- question: "A space truss that satisfies m = 3n − 6 is guaranteed to be rigid and stable under any loading."
+- question: "A space truss that satisfies m = 3n − 6 is expected to be rigid and stable under any loading."
   type: true-false
   answer: false
   explanation: "m = 3n − 6 is a necessary but not sufficient condition for determinacy and stability. A truss can satisfy the member count while still being geometrically unstable if members are arranged so that some are redundant in one region while another region is a mechanism. The classic failure mode is adding extra members in one part of the truss while leaving a joint elsewhere under-constrained. Stability requires both the correct member count AND an appropriate geometric arrangement — satisfying the equation is not enough on its own."

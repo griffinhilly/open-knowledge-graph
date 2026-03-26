@@ -51,7 +51,7 @@ The Fourier transform X(f) = |X(f)|e^(jφ(f)) can be represented as magnitude |X
   answer: true
   explanation: "This follows from the Hermitian symmetry of the Fourier transform of real signals: X(−f) = X*(f) (complex conjugate). Taking magnitudes: |X(−f)| = |X*(f)| = |X(f)| — even symmetry. Taking arguments: φ(−f) = arg(X*(f)) = −arg(X(f)) = −φ(f) — odd symmetry. This symmetry means that for real signals, the positive-frequency half of the spectrum completely determines the signal; the negative-frequency half contains redundant information. In practice, it means you only need to plot and work with positive frequencies when analyzing real signals."
 
-- question: "The magnitude spectrum of a signal contains all the information needed to reconstruct the original signal, since it shows the amplitude of every frequency component present."
+- question: "The magnitude spectrum of a signal contains most of the information needed to reconstruct the original signal, since it shows the amplitude of nearly every frequency component present."
   type: true-false
   answer: false
   explanation: "Both magnitude AND phase are required for reconstruction. The magnitude spectrum tells you how much of each frequency is present, but not when or in what phase. Two completely different signals can have identical magnitude spectra but entirely different phase spectra — and they will look and sound nothing alike. A pure cosine and a pure sine at the same frequency have the same magnitude spectrum but differ by a 90° phase shift. A signal and its mirror image can have the same magnitude spectrum but opposite phase. Phase is not redundant — it encodes the temporal structure that the magnitude spectrum discards."

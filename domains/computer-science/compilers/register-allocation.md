@@ -53,7 +53,7 @@ Register allocation assigns variables to CPU registers and memory locations. A v
   answer: true
   explanation: "Spilling inserts a store before the variable's definition and a load before each of its uses, replacing register access with memory access. If the variable is inside a loop that executes N times, these loads and stores execute N times per loop iteration — potentially millions of times at runtime. A variable used once outside any loop incurs the memory access cost only once. Good allocators use loop depth and use frequency as part of their spill cost heuristic to minimize the runtime penalty of spilling."
 
-- question: "Two variables that are never simultaneously live can still interfere and must be given different registers if they are both used in the same basic block."
+- question: "Two variables that are seldom simultaneously live can still interfere and is expected to be given different registers if they are both used in the same basic block."
   type: true-false
   answer: false
   explanation: "Interference is defined entirely by live range overlap — two variables interfere if and only if they are simultaneously live at some program point. Being in the same basic block is irrelevant; what matters is whether both are alive at the same time. If x's live range ends before y's begins (even within the same block), they have no edge in the interference graph and can share a register. This is precisely why live variable analysis must be computed before building the interference graph."

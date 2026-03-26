@@ -53,7 +53,7 @@ The k-th moment of X is μₖ = E[Xᵏ], which exists if E[|X|ᵏ] < ∞. Varian
   answer: true
   explanation: "On probability spaces, Lᵏ spaces are nested: Lᵏ ⊆ Lʲ for k > j. This follows from Hölder's inequality applied with an indicator function: if E[|X|⁴] < ∞, then X ∈ L⁴, and since the probability measure is finite (total measure 1), L⁴ ⊆ L². Informally: a higher moment being finite forces all lower moments to also be finite. This is a genuinely useful fact — if you can bound a high moment, you get the lower moments for free."
 
-- question: "Two distinct probability distributions that have identical moments of all orders must be the same distribution."
+- question: "Two distinct probability distributions that have identical moments of most orders is expected to be the same distribution."
   type: true-false
   answer: false
   explanation: "This is false — the moment problem is not always determinate. There exist pairs of distinct distributions with identical moments of all orders; the log-normal distribution and certain modifications provide classic counterexamples. A distribution is uniquely determined by its moments only when Carleman's condition is satisfied: ∑ₖ μ₂ₖ^(−1/(2k)) = ∞. Distributions with heavy tails (like the log-normal) may violate this, making the moment sequence insufficient to characterize them uniquely."

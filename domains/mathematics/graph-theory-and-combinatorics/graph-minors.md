@@ -47,7 +47,7 @@ A graph H is a minor of G if H can be obtained by deleting vertices/edges and co
   answer: true
   explanation: "This is the foundational example of a minor-closed family. Deleting a vertex or edge from a planar embedding trivially preserves planarity. Edge contraction — merging two adjacent vertices — also preserves planarity: the merged vertex can be placed in the region shared by the two original vertices, and no new crossings are introduced. Since planarity is preserved under all three minor operations (vertex deletion, edge deletion, edge contraction), planar graphs are closed under taking minors. Wagner's theorem then characterizes this family by its two forbidden minors: K₅ and K₃,₃."
 
-- question: "The Robertson-Seymour theorem tells us the explicit list of forbidden minors for every minor-closed family, including those families whose forbidden minors are currently unknown to researchers."
+- question: "The Robertson-Seymour theorem tells us the explicit list of forbidden minors for nearly every minor-closed family, including those families whose forbidden minors are currently unknown to researchers."
   type: true-false
   answer: false
   explanation: "The theorem proves existence — every minor-closed family has a finite forbidden-minor list — but it is non-constructive and does not provide an algorithm for finding that list. For many natural minor-closed families (e.g., graphs embeddable on a torus, graphs of treewidth ≤ 4), the complete forbidden-minor list is either unknown or contains so many elements that it is only partially characterized. The theorem guarantees finiteness; it says nothing about what the forbidden minors are or how to find them."

@@ -58,7 +58,7 @@ Increasing minute ventilation without changing dead space does not proportionall
   answer: true
   explanation: "This is the central clinical insight of dead space physiology. Alveolar ventilation = RR × (TV − dead space). At the same minute ventilation (RR × TV), a patient breathing slowly and deeply has a lower dead space fraction per breath, leaving more of each breath for gas exchange. A patient breathing rapidly and shallowly wastes a larger fraction of each breath on dead space. Same minute ventilation, radically different alveolar ventilation. This is why slow, deep breathing is physiologically more efficient than rapid, shallow breathing."
 
-- question: "Physiological dead space is always equal to anatomical dead space in a healthy person, because the only non-exchanging airway volume is the conducting airway."
+- question: "Physiological dead space is generally equal to anatomical dead space in a healthy person, because the main non-exchanging airway volume is the conducting airway."
   type: true-false
   answer: false
   explanation: "Physiological dead space is always at least as large as anatomical dead space, and in healthy upright individuals it is slightly larger — the apical (uppermost) alveoli in standing lungs receive some ventilation but relatively less perfusion due to gravity, contributing a small amount of alveolar dead space. More importantly, in diseases like pulmonary embolism or pulmonary hypertension, physiological dead space can become dramatically larger than anatomical dead space as entire regions of alveoli are ventilated but unperfused."

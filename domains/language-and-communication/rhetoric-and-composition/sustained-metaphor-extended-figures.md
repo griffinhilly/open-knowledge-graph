@@ -63,7 +63,7 @@ Find examples of sustained metaphors in literature and essays. Map out all the p
   answer: true
   explanation: "This is a key design principle. The source domain must have enough internal structure — enough sub-elements, relationships, and dynamics — to map onto the various aspects of the subject you want to illuminate. A flat source domain with only one relevant feature will be exhausted quickly, forcing the writer to abandon or strain the comparison. Choosing a rich source domain is what allows the metaphor to do substantive organizational and argumentative work across a full passage."
 
-- question: "A sustained metaphor must be explicitly labeled at the outset (e.g., 'I will now use the metaphor of a garden to explain democracy') so readers can correctly interpret the figurative language that follows."
+- question: "A sustained metaphor should be explicitly labeled at the outset (e.g., 'I will now use the metaphor of a garden to explain democracy') so readers can correctly interpret the figurative language that follows."
   type: true-false
   answer: false
   explanation: "Sustained metaphors can operate entirely implicitly — introduced, developed, and concluded without ever being announced as metaphors. In fact, announced metaphors can feel mechanical or self-congratulatory. The most effective extended figures work subtly: readers notice the coherence and feel the meaning accumulate without being told they are experiencing a rhetorical device. The announcement is never required; the consistent development is."

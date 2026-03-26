@@ -49,7 +49,7 @@ Publication bias occurs when studies with significant positive results are more 
   answer: true
   explanation: "This is an accurate description of the trim-and-fill method. In the 'trim' step, studies on the over-represented side of the funnel are iteratively removed to estimate the true center. In the 'fill' step, hypothetical mirror-image studies are imputed on the under-represented side. The adjusted pooled estimate reflects what the meta-analysis might look like if missing studies had been published. A substantially different adjusted estimate is a red flag that the original pooled effect was inflated."
 
-- question: "Adding more published studies to a meta-analysis always reduces the distortion caused by publication bias, because larger samples yield more accurate estimates."
+- question: "Adding more published studies to a meta-analysis usually reduces the distortion caused by publication bias, because larger samples yield more accurate estimates."
   type: true-false
   answer: false
   explanation: "This is the most dangerous misconception about publication bias. Adding more published studies increases precision — but if those studies are themselves subject to the same publication bias (positive results favored), pooling them simply yields a more precise estimate of the inflated value. Publication bias is systematic, not random, so increasing sample size does not average it out. The problem is not noise but selection: the literature is a biased sample of all studies conducted, and more observations from a biased sample compound rather than correct the bias."

@@ -55,7 +55,7 @@ Study 2-3 undecidable problems and their reduction relationships. The Post Corre
   answer: 1
   explanation: "Grammar ambiguity — whether some string has two distinct parse trees — is undecidable for context-free grammars, proved by reduction from PCP. No algorithm can correctly decide ambiguity for all grammars. Checking finite test inputs cannot work: a grammar might be unambiguous on all strings up to any given length yet ambiguous for some longer string. The common misconception is that exhaustive testing can serve as a decision procedure; for undecidable problems it cannot, regardless of how many cases are checked."
 
-- question: "Undecidability only arises in problems that are explicitly about programs and Turing machines. Natural mathematical problems — like solving polynomial equations — are always decidable."
+- question: "Undecidability primarily arises in problems that are explicitly about programs and Turing machines. Natural mathematical problems — like solving polynomial equations — are generally decidable."
   type: true-false
   answer: false
   explanation: "Hilbert's Tenth Problem — determining whether a polynomial Diophantine equation has integer solutions — is undecidable, despite being a purely number-theoretic question with no mention of programs or machines. The proof encodes Turing machine computation into Diophantine equations, showing that the set of solvable instances can represent any recursively enumerable set. Undecidability pervades mathematics; it appears in number theory, formal language theory, logic, and tiling problems — not just problems about computation."

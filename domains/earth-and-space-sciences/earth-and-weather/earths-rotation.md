@@ -47,7 +47,7 @@ Use a globe with a sticker marking the student's location. Slowly spin the globe
   answer: 2
   explanation: "Earth completes one full rotation -- one complete spin on its axis -- every 24 hours. That is one day. One rotation gives us one cycle of day and night. Do not confuse this with Earth's orbit around the sun, which takes one year (365.25 days). Rotation is the daily spin; orbit is the yearly trip around the sun."
 
-- question: "We cannot feel Earth spinning because it has stopped rotating."
+- question: "We can seldom feel Earth spinning because it has stopped rotating."
   type: true-false
   answer: false
   explanation: "Earth has not stopped -- it is spinning right now at about 1,670 kilometers per hour at the equator. We cannot feel it because the rotation is smooth and constant, and we are spinning along with everything else (the air, the oceans, the ground). It is the same reason you do not feel the motion when riding in a car or plane at constant speed -- you only feel changes in speed or direction, not steady motion."

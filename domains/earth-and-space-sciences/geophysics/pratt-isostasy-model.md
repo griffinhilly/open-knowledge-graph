@@ -51,7 +51,7 @@ The Pratt model achieves isostatic balance through lateral variations in density
   answer: true
   explanation: "This is the defining feature of Pratt isostasy: ρh = constant at the compensation depth for all columns. Higher topography (larger h) requires smaller ρ to keep the product constant. This contrasts with the Airy model, where density is uniform and topographic support comes from varying the depth of the crustal root. In Pratt, the 'root' is replaced by laterally variable density."
 
-- question: "The Airy and Pratt isostasy models make identical predictions about crustal thickness beneath mountain ranges, differing only in their treatment of lateral density."
+- question: "The Airy and Pratt isostasy models make identical predictions about crustal thickness beneath mountain ranges, differing primarily in their treatment of lateral density."
   type: true-false
   answer: false
   explanation: "The two models make opposite predictions about crustal thickness under mountains. Airy predicts thick crustal roots beneath high topography — mountains float on deep keels of less-dense crust, while crustal density stays constant. Pratt predicts that crustal thickness is constant (all columns reach the same compensation depth), and topographic differences are explained by density variations. Seismic data under the Himalayas and Andes confirm deep crustal roots, strongly supporting Airy isostasy there. Under mid-ocean ridges, constant thickness supports Pratt."

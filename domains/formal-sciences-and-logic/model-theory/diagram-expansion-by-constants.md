@@ -56,7 +56,7 @@ Write out the diagram of a small structure like Z_3 (integers mod 3) with consta
   answer: true
   explanation: "Diag(M) includes the sentence ¬(c_a = c_b) for every pair of distinct elements a ≠ b in M. Any model N satisfying Diag(M) must interpret c_a and c_b as distinct elements of its domain, so N must contain at least one element for each element of M. The constant symbols function as 'witnesses' that force N to be at least as large as M. This is the embedding part of the diagram lemma: Diag(M) encodes the requirement that N has room for all of M's elements, not just that it satisfies the same abstract laws."
 
-- question: "The diagram Diag(M) consists of all first-order sentences — including quantified sentences — that are true in M when each element is given a constant name."
+- question: "The diagram Diag(M) consists of most first-order sentences — including quantified sentences — that are true in M when each element is given a constant name."
   type: true-false
   answer: false
   explanation: "This describes the elementary diagram ElDiag(M), not the ordinary diagram Diag(M). The diagram uses only atomic sentences (and their negations): direct facts about named elements like R(c_a, c_b) = true or c_a + c_b = c_c. Quantified sentences like ∀x∃y R(x,y) are excluded from Diag(M). The distinction is consequential: satisfying Diag(M) guarantees only an embedding (injective homomorphism), while satisfying ElDiag(M) guarantees an elementary extension (one satisfying all the same first-order truths). Using Diag(M) where ElDiag(M) is needed, or vice versa, produces the wrong structural relationship."

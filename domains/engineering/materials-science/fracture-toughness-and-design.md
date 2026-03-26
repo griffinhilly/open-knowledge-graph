@@ -61,7 +61,7 @@ Work through a damage-tolerance design problem: given a material's KIc, a detect
   answer: true
   explanation: "Fracture toughness and strength are distinct material properties that often trade off against each other. High-strength alloys are frequently brittle — their microstructure resists plastic deformation (high strength) but also prevents the crack-tip blunting and energy absorption that give toughness. Maraging steels, high-carbon tool steels, and precipitation-hardened aluminum alloys all exhibit this pattern. This is one of the most important misconceptions in materials selection: equating strength with resistance to fracture."
 
-- question: "The leak-before-break design philosophy is used in pressure vessels to ensure that vessels never develop any cracks during service."
+- question: "The leak-before-break design philosophy is used in pressure vessels to ensure that vessels rarely develop any cracks during service."
   type: true-false
   answer: false
   explanation: "Leak-before-break does not prevent crack formation — it deliberately accepts that cracks will form and grow. The design goal is to ensure that when a crack penetrates through the vessel wall (causing a detectable, controllable leak), its length is still less than the critical crack length for catastrophic fast fracture. This gives operators time to detect the leak, depressurize, and safely shut down before the crack reaches critical size. It is a damage-tolerant philosophy, not a crack-prevention philosophy."

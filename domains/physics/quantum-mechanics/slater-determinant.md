@@ -49,7 +49,7 @@ A Slater determinant is an antisymmetric N-electron wavefunction written as a de
   answer: true
   explanation: "Correct. The antisymmetry requirement is built into the determinant's mathematical structure: swapping two electrons (swapping two columns) changes the sign of the wavefunction, satisfying the fermionic antisymmetry condition. And two electrons in the same orbital (identical rows) gives a determinant of zero — Pauli exclusion is a consequence of linear algebra, not an additional rule bolted on to the formalism."
 
-- question: "The Slater determinant provides an exact description of the N-electron ground state in Hartree-Fock theory because it correctly accounts for all electron-electron interactions."
+- question: "The Slater determinant provides an exact description of the N-electron ground state in Hartree-Fock theory because it correctly accounts for most electron-electron interactions."
   type: true-false
   answer: false
   explanation: "The Slater determinant is the best single-determinant approximation to the many-electron wavefunction, but it is not exact. It correctly handles exchange (Pauli exclusion) via its antisymmetric structure, but it treats electrons as moving in independent average fields — missing correlation, the tendency of electrons to dynamically avoid each other beyond what Pauli requires. The correlation energy (exact energy minus Hartree-Fock energy) is always negative and nonzero for real systems."

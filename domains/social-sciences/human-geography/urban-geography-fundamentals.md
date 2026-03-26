@@ -60,7 +60,7 @@ Apply urban structure models to actual cities using satellite imagery and land u
   answer: 2
   explanation: "Harris and Ullman's multiple nuclei model explicitly accounts for cities that have several centers of activity rather than one CBD. Burgess assumes a single central core with expanding rings; Hoyt assumes a single center with wedge-shaped sectors along transit lines; Von Thünen is an agricultural land use model, not an urban structure model."
 
-- question: "Burgess's concentric zone model is a universal description of how all cities are structured."
+- question: "Burgess's concentric zone model is a universal description of how most cities are structured."
   type: true-false
   answer: false
   explanation: "The concentric zone model was developed from 1920s Chicago and is an ideal type — a simplified, hypothetical construct — not a universal law. Cities in the Global South often display inverted patterns, with wealthier residents near the center and informal settlements at the periphery, precisely the opposite of Burgess's prediction. The model is a useful analytical starting point, not an empirical claim about all cities."

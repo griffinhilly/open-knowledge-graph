@@ -47,7 +47,7 @@ An integer a has a multiplicative inverse modulo n (written a⁻¹) if aa⁻¹ �
   answer: 1
   explanation: "From the equation 3 · 5 + 7 · (−2) = 1, taking both sides mod 7 gives 3 · 5 ≡ 1 (mod 7), so 3⁻¹ ≡ 5 (mod 7). To solve 3x ≡ 5 (mod 7), multiply both sides by 3⁻¹ = 5: x ≡ 5 · 5 = 25 ≡ 4 (mod 7). Verification: 3 · 4 = 12 = 7 + 5 ≡ 5 (mod 7). ✓ A common error is to use s and t from Bézout's identity without carefully identifying which coefficient goes with which modulus."
 
-- question: "Every nonzero integer has a multiplicative inverse modulo any positive integer n."
+- question: "Most nonzero integer has a multiplicative inverse modulo any positive integer n."
   type: true-false
   answer: false
   explanation: "This is false. The inverse of a mod n exists if and only if gcd(a, n) = 1. For example, 6 has no inverse mod 9, because gcd(6, 9) = 3 ≠ 1. An inverse exists for every nonzero element only when n is prime — then gcd(a, n) = 1 for all 1 ≤ a < n, giving every nonzero residue an inverse. This is one of the properties that makes prime moduli special in cryptography."

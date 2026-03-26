@@ -44,7 +44,7 @@ The floor function ⌊x⌋ returns the greatest integer ≤ x, while the ceiling
   answer: 1
   explanation: "When leftover elements still need a group, you need ⌈n/k⌉ groups — enough groups so no element is left behind. ⌈15/4⌉ = ⌈3.75⌉ = 4. Option A gives ⌊15/4⌋ = 3, which counts only complete groups — three groups of 4 handle 12 elements, leaving 3 unprocessed. Option C gives the real number, not an integer count. Option D happens to give the right answer but for the wrong reason — you use floor when counting complete groups and ceiling when counting groups needed to accommodate everyone."
 
-- question: "For any real number x, ⌊x⌋ always rounds x toward zero."
+- question: "For any real number x, ⌊x⌋ generally rounds x toward zero."
   type: true-false
   answer: false
   explanation: "Floor rounds toward negative infinity, not toward zero. For positive numbers, these happen to be the same direction (⌊3.7⌋ = 3 moves toward zero). But for negative numbers they diverge: ⌊−1.2⌋ = −2, which moves away from zero (further negative), not toward it. The correct statement is: floor returns the greatest integer ≤ x, which is always at or to the left of x on the number line — toward negative infinity."

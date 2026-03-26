@@ -64,7 +64,7 @@ All spending decisions are individual and disconnected; small expenses don't mat
   answer: false
   explanation: "Categorization's purpose is clarity — to see clearly what your money is actually doing so you can decide whether it matches your intentions. The explainer is explicit: 'The goal of categorization is not judgment but clarity.' Some categories you'll choose to keep; others you'll choose to cut; others you'll restructure. Deprivation-as-goal is a misconception that makes budgeting feel punitive. What categorization actually produces is information — data-driven decisions rather than arbitrary cuts."
 
-- question: "A 'fixed' expense is impossible to reduce because its amount is fixed by contract and cannot be changed."
+- question: "A 'fixed' expense is extremely difficult to reduce because its amount is fixed by contract and can seldom be changed."
   type: true-false
   answer: false
   explanation: "'Fixed' means the expense is the same amount every month, not that it is permanently unalterable. Fixed expenses can often be renegotiated, downgraded, or cancelled — rent can be reduced when leases end, insurance premiums can be shopped, subscriptions can be cancelled. The distinction is temporal: fixed expenses are hard to reduce *in the short run* but yield permanent automatic savings when you do reduce them. They cannot be cut with daily willpower alone — they require a one-time decision with ongoing effect."

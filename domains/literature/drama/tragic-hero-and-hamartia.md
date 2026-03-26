@@ -57,7 +57,7 @@ Analyze Oedipus, Macbeth, and Willy Loman as tragic heroes across different peri
   answer: 2
   explanation: "For Aristotle, tragedy requires that the hero's ruin arise from their own nature or choices — from hamartia — not from external accident. Pity and fear are necessary but not sufficient: a natural disaster story can evoke both emotions without being a tragedy in the technical sense. Aristotle's distinction between tragedy and catastrophe is precisely this: catastrophe is bad things happening; tragedy is a great person contributing to their own destruction through what made them great. Pure victimhood, however pitiable, produces melodrama, not tragedy."
 
-- question: "Hamartia always refers to a stable character flaw — like pride, jealousy, or ambition — that consistently drives the hero's decisions throughout the play."
+- question: "Hamartia usually refers to a stable character flaw — like pride, jealousy, or ambition — that consistently drives the hero's decisions throughout the play."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of the concept. Hamartia means 'error' or 'misjudgment' — it can be an inherited situation, a moment of ignorance, or a single catastrophic decision rather than a recurring personality defect. Oedipus's hamartia involves acting on incomplete information; it is not that he is chronically proud. This distinction matters for analysis: a hero who makes one irreversible misjudgment is very different from one whose flawed character consistently undermines them, and the plays read differently once you identify which type you're analyzing."

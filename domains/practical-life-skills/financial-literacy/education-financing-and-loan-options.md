@@ -54,7 +54,7 @@ Scholarships are only for exceptional students when many target specific demogra
   answer: 1
   explanation: "The correct priority is free money first (grants and scholarships that require no repayment), then federal loans (which have protections and income-driven repayment), and private loans only as a last resort. The Pell Grant and merit scholarship both require no repayment, so they should be drawn before any borrowing. Federal loans come before private loans because of their superior protections and consistent terms."
 
-- question: "The best financial strategy for education is always to borrow as little as possible — even if it means attending a less suitable program."
+- question: "The best financial strategy for education is generally to borrow as little as possible — even if it means attending a less suitable program."
   type: true-false
   answer: false
   explanation: "Minimizing debt at all costs is not the right goal. The goal is to graduate with the least debt burden that still enables you to attend the best program for your goals. Choosing a significantly worse program purely to avoid borrowing may reduce lifetime earnings more than the debt would have cost. The real strategy is to prioritize free money, use federal loans wisely, and avoid private loans — not to sacrifice program quality unnecessarily."

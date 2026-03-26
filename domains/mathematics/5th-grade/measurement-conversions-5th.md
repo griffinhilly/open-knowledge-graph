@@ -53,7 +53,7 @@ Embed conversions in word problems that require multiple steps. Use tables and c
   answer: 1
   explanation: "Step 1: multiply to get total cups (3 × 5 = 15 cups). Step 2: convert to quarts (15 ÷ 4 = 3.75 quarts). Here, computing comes first, then converting — because both measurements are in the same unit (cups) for the multiplication step. Option A confuses 'per batch' with 'per quart.' Option C is the classic error of multiplying instead of dividing by the conversion factor."
 
-- question: "In a multi-step measurement problem, the best strategy is always to convert all units at the very end, after performing all calculations."
+- question: "In a multi-step measurement problem, the best strategy is typically to convert most units at the very end, after performing most calculations."
   type: true-false
   answer: false
   explanation: "The timing of conversion depends on the problem structure. When units are mixed within a single quantity (e.g., 3 feet 7 inches), you must convert before computing, or the arithmetic breaks down. When all values share a common unit and you just need a different unit for the final answer, converting after computing works fine. 'Always convert at the end' is a false rule that fails on mixed-unit problems."

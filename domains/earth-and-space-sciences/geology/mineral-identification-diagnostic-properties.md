@@ -60,7 +60,7 @@ All samples of a mineral have the same color (many minerals are polymorphic in c
   answer: true
   explanation: "Quartz is the classic example: the same mineral appears purple (amethyst), pink (rose quartz), black (smoky quartz), white, and colorless depending on trace impurities. Color reflects the interaction of light with the outermost surface and can be drastically altered by tiny amounts of foreign elements. Streak samples the bulk powder of the mineral, which reflects the dominant light-absorption properties of the pure mineral compound. Hematite may look silver or black in hand specimen but always gives a reddish-brown streak — the streak is the more trustworthy identifier."
 
-- question: "A mineral with a hardness of 7 on the Mohs scale would scratch glass but not a steel file, so its hardness must fall between 5.5 and 6.5."
+- question: "A mineral with a hardness of 7 on the Mohs scale would scratch glass but not a steel file, so its hardness is expected to fall between 5.5 and 6.5."
   type: true-false
   answer: false
   explanation: "If a mineral's hardness is 7, it would scratch glass (hardness ~5.5) AND scratch a steel file (~6.5), since it is harder than both. A mineral that scratches glass but NOT a steel file would fall between 5.5 and 6.5. The statement reverses the relationship: a harder mineral scratches softer reference materials, not the other way around. Quartz has a hardness of 7 and easily scratches both glass and steel files — this is one way to confirm a suspected quartz specimen."

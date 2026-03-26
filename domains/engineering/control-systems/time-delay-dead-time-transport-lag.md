@@ -47,7 +47,7 @@ Time delay (transport lag, e^(-sτ)) introduces phase lag proportional to freque
   answer: 1
   explanation: "Dead-time phase lag at frequency ω is ωτ radians. At ωc = 10 rad/s with τ = 0.1 s: lag = 10 × 0.1 = 1 radian = 57.3°. This is larger than the designed 45° phase margin, meaning the actual phase at crossover drops to −180° − (57.3° − 45°) = past the instability threshold. The loop goes unstable. This illustrates why bandwidth must be reduced in proportion to dead time."
 
-- question: "Because dead time (e^(−sτ)) only introduces phase lag without any magnitude attenuation, a well-designed controller can cancel its effect by implementing an e^(+sτ) lead compensator."
+- question: "Because dead time (e^(−sτ)) primarily introduces phase lag without any magnitude attenuation, a well-designed controller can cancel its effect by implementing an e^(+sτ) lead compensator."
   type: true-false
   answer: false
   explanation: "Canceling e^(−sτ) would require a controller term e^(+sτ), which predicts future inputs — a non-causal operation impossible for any physically realizable controller. A causal system can only use current and past information. This is the fundamental reason dead time sets a hard limit on achievable bandwidth: it cannot be cancelled, only managed. The Smith Predictor works around this by predicting the plant output using a model, but it relies on an accurate internal model and is not true cancellation."

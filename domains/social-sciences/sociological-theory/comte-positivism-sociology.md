@@ -51,7 +51,7 @@ Positivism isn't just quantification—Comte meant systematic observation follow
   answer: 2
   explanation: "An appeal to 'the breakdown of the moral fabric' is exactly the kind of explanation Comte classified as metaphysical: it invokes an abstract entity that cannot be directly observed or measured, gesturing toward causation without specifying any observable social indicators. Comte would argue that positive sociology must replace this kind of explanation with observable, comparable social facts. This scenario illustrates why the positivist critique of metaphysical reasoning was substantive — not merely terminological."
 
-- question: "Comte's positivism means that sociology must use quantitative methods and statistical analysis, because 'positive' knowledge is numerical and data-driven."
+- question: "Comte's positivism means that sociology should use quantitative methods and statistical analysis, because 'positive' knowledge is numerical and data-driven."
   type: true-false
   answer: false
   explanation: "Positivism in Comte's sense means systematic observation following the scientific method — comparison across cases, empirical grounding, and theory constrained by observable facts. It does not specify quantitative methods in particular. Comte himself did not produce systematic statistical research; the empirical turn he envisioned was instantiated more rigorously by Durkheim. The conflation of positivism with quantification is a common misconception — it confuses a methodological commitment (empirical observation over speculation) with a specific research tool."

@@ -50,7 +50,7 @@ Spinal circuits coordinate antagonistic muscles through reciprocal inhibition an
   answer: 2
   explanation: "Reciprocal inhibition is the spinal interneuron mechanism that automatically relaxes the antagonist muscle when the agonist contracts. Without this wiring, activating the biceps would not simultaneously suppress the triceps — both could contract together (co-contraction), producing joint stiffness and impaired smooth movement. Voluntary motor commands and sensory pathways are anatomically separate from this local inhibitory circuit. This illustrates how much of 'voluntary' movement coordination is actually handled by automatic spinal circuitry — not by the brain micromanaging every muscle."
 
-- question: "The brain must continuously send signals down the spinal cord for a person to sustain rhythmic movements like walking or swimming."
+- question: "The brain is expected to continuously send signals down the spinal cord for a person to sustain rhythmic movements like walking or swimming."
   type: true-false
   answer: false
   explanation: "False. Central pattern generators (CPGs) in the spinal cord can sustain rhythmic locomotor patterns without continuous descending brain input once they are initiated. The brain's role is to turn CPGs on and off, adjust their speed, and modify them for terrain or task demands — not to command each individual muscle activation. Evidence from spinalized animals demonstrating treadmill stepping is the clearest demonstration of this spinal autonomy. Continuous cortical input is needed for fine voluntary motor tasks (like piano playing), but not for stereotyped rhythmic patterns like locomotion."

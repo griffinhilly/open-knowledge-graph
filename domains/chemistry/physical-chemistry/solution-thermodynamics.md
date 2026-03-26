@@ -53,7 +53,7 @@ Measure or analyze vapor pressure data for a binary liquid mixture (e.g., ethano
   answer: 2
   explanation: "In an ideal solution, by definition ΔmixH = 0 (unlike-molecule interactions are identical to like-molecule interactions) and ΔmixV = 0. Therefore ΔmixG = −TΔmixS, which is always negative because mixing increases entropy (ΔmixS = −R Σ xi ln xi > 0 since ln xi < 0 for all xi < 1). Option A describes non-ideal behavior with negative deviations from Raoult's law. Option B reverses the truth — entropy of mixing is always positive (non-zero) even in ideal solutions."
 
-- question: "If the Gibbs energy of mixing (ΔmixG) is negative for two liquids, the solution must be behaving ideally."
+- question: "If the Gibbs energy of mixing (ΔmixG) is negative for two liquids, the solution should be behaving ideally."
   type: true-false
   answer: false
   explanation: "All spontaneous mixing produces ΔmixG < 0 — this is simply the criterion for the mixing process to occur spontaneously. It says nothing about whether behavior is ideal or not. Ideal mixing additionally requires ΔmixH = 0 and ΔmixV = 0. A strongly non-ideal solution (e.g., acetone-chloroform with large negative excess Gibbs energy) still has ΔmixG < 0. The excess Gibbs energy G^E = ΔmixG − ΔmixG(ideal) is the quantity that captures deviation from ideality; G^E = 0 characterizes ideal solutions, not simply ΔmixG < 0."

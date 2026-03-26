@@ -47,7 +47,7 @@ Conditional (or derived) factor demand x(w, y) gives the quantity of input used 
   answer: true
   explanation: "When all input prices scale by the same factor, relative prices are unchanged, so the cost-minimizing input bundle (the tangency between the isocost line and the isoquant) is unchanged. Only the total cost doubles. This homogeneity property is a consequence of cost minimization, not an assumption — and it can be tested empirically to check whether firms behave as cost minimizers."
 
-- question: "Conditional factor demand and Marshallian (unconditional) input demand answer the same question from different angles, so they always give the same input quantities at the optimum."
+- question: "Conditional factor demand and Marshallian (unconditional) input demand answer the same question from different angles, so they usually give the same input quantities at the optimum."
   type: true-false
   answer: false
   explanation: "They answer different questions. Conditional factor demand asks: given that output is fixed at y, what inputs minimize cost? Marshallian input demand asks: given input and output prices, what inputs maximize profit, allowing output to adjust? They coincide only at the profit-maximizing output level. For any other output level, conditional demands reflect the cost-minimizing mix for that target while Marshallian demands reflect the full output-and-input optimization."

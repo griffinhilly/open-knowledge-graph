@@ -58,7 +58,7 @@ Design a voltage-divider bias circuit by choosing the bias resistors to make the
   answer: 0
   explanation: "This is the core stabilization mechanism: RE acts as a negative feedback element in the DC bias path. VB is held approximately constant by the stiff voltage divider (if the stiff divider condition is met). As IC rises, VE = IC × RE rises with it, reducing VBE = VB − VE. A lower VBE means the transistor is driven less hard, so IC decreases back toward its original value. The feedback gain is negative, so it is self-correcting. Without RE (or if RE is bypassed at DC), this stabilizing path is absent and thermal runaway becomes possible."
 
-- question: "Voltage-divider bias eliminates the need for the stiff divider condition because the emitter resistor RE alone provides all the stabilization needed, regardless of how large the base current is relative to the divider current."
+- question: "Voltage-divider bias eliminates the need for the stiff divider condition because the emitter resistor RE alone provides most of the stabilization needed, regardless of how large the base current is relative to the divider current."
   type: true-false
   answer: false
   explanation: "The emitter resistor provides negative feedback only if VB stays approximately constant when IC changes. VB stays constant only if the divider current is much larger than the base current (the stiff divider condition, typically ID ≥ 10 × IB). If the divider current is comparable to the base current, changes in IC cause changes in IB which change the current through R2, which changes VB — the base voltage is no longer fixed, and the feedback mechanism is undermined. The stiff divider condition and the emitter resistor work together; neither alone is sufficient."

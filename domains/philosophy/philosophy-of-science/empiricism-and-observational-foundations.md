@@ -46,7 +46,7 @@ Scientific empiricism holds that knowledge comes from sensory experience and obs
   answer: 1
   explanation: "Bridgman's operationalism tries to anchor theoretical terms in concrete measurement procedures. But this creates a fragmentation problem: if 'temperature' means what a mercury thermometer measures, then what a thermocouple measures is technically a *different* concept — 'thermocouple temperature' — with no guarantee they track the same underlying quantity. Scientific unity requires that multiple instruments converge on measuring the *same* theoretical property, which operationalism cannot account for. The definition turns out to be too tight: it eliminates theoretical reference by fracturing it into infinitely many operation-specific concepts."
 
-- question: "Scientific empiricism holds that a single careful observation contradicting a well-established theory is always sufficient to refute it."
+- question: "Scientific empiricism holds that a single careful observation contradicting a well-established theory is typically sufficient to refute it."
   type: true-false
   answer: false
   explanation: "The Duhem-Quine thesis shows that theories face evidence as interconnected wholes, not statement by statement. Any contradiction between a theoretical prediction and an observation can be resolved by revising auxiliary hypotheses rather than the core theory. A conflicting observation is an invitation to investigate which assumption to revise — the core claim, the measurement procedure, the background conditions — not an automatic refutation. This is why scientists routinely 'save' theories from anomalies by modifying peripheral assumptions."

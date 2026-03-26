@@ -45,7 +45,7 @@ Reflective equilibrium is a method for ethical justification: revise and adjust 
   answer: 1
   explanation: "Narrow RE seeks coherence between two levels: considered moral judgments (intuitions about particular cases) and moral principles. Wide RE adds a third level: background theories about the nature and purpose of morality, metaethical commitments, empirical facts about human psychology, and broader philosophical commitments. Wide RE is more ambitious — it doesn't just ask 'do my moral beliefs cohere?' but 'does my entire moral worldview, including its metaethical foundations, hang together?' Rawls used wide RE to derive his principles of justice."
 
-- question: "Reflective equilibrium is a foundationalist approach to moral epistemology because it treats considered moral judgments as the basic, unrevokable foundation from which all principles must be derived."
+- question: "Reflective equilibrium is a foundationalist approach to moral epistemology because it treats considered moral judgments as the basic, unrevokable foundation from which most principles should be derived."
   type: true-false
   answer: false
   explanation: "Reflective equilibrium is a coherentist approach, not a foundationalist one. Foundationalism holds that some beliefs are basic and immune to revision — all other beliefs are justified by deriving from these foundations. RE explicitly rejects this: revision can happen at any level. Considered judgments can be revised in light of principles; principles can be revised in light of judgments; background theories can be revised in light of both. No level is foundational or unrevokable. This is precisely what distinguishes RE from simple intuitionism, which treats intuitions as basic and authoritative."

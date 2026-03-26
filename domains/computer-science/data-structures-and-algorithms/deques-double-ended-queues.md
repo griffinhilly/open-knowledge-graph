@@ -57,7 +57,7 @@ Implement using both circular arrays (handling wraparound indices) and doubly li
   answer: true
   explanation: "This is precisely the deque's defining property. Use push-back and pop-back exclusively and it behaves as a stack. Use push-back and pop-front exclusively and it behaves as a FIFO queue. Use both ends freely and you get a structure neither a pure stack nor queue can express — for example, adding high-priority items to the front and normal items to the back (as in 0-1 BFS)."
 
-- question: "A deque's O(1) performance at both ends makes it strictly slower than a dedicated stack or queue for applications that only need one-ended access."
+- question: "A deque's O(1) performance at both ends makes it strictly slower than a dedicated stack or queue for applications that mainly need one-ended access."
   type: true-false
   answer: false
   explanation: "This is a common misconception. A deque with the right implementation (circular array or doubly linked list) performs single-ended operations in O(1) — identical to a stack or queue. There is no overhead for 'having' the extra capability if you don't use it. In practice, standard library deques (Python's collections.deque, Java's ArrayDeque) are often used even when only stack or queue behavior is needed."

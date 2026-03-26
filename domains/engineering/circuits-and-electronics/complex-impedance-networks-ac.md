@@ -54,7 +54,7 @@ Impedance Z = R + jX extends Ohm's law to AC circuits: V̅ = Z I̅. The real par
   answer: true
   explanation: "For parallel branches, the total admittance Y_total = Y₁ + Y₂ + ···, then Z_total = 1/Y_total. This mirrors DC: for parallel resistors, G_total = G₁ + G₂ (conductances add) and R_total = 1/G_total. Admittance Y = G + jB has a real part (conductance G = R/|Z|²) and an imaginary part (susceptance B). The parallel admittance rule lets you analyze complex AC networks using the same step-by-step reduction that works for DC resistor networks."
 
-- question: "An inductor and a capacitor in series always have zero total impedance because their reactances have opposite signs and cancel completely."
+- question: "An inductor and a capacitor in series usually have zero total impedance because their reactances have opposite signs and cancel substantially."
   type: true-false
   answer: false
   explanation: "Inductive reactance X_L = ωL and capacitive reactance X_C = −1/(ωC) are opposite in sign, so they partially cancel in series. But they are equal in magnitude only at the resonant frequency ω₀ = 1/√(LC). At that specific frequency, X_L + X_C = 0 and total reactance is zero (series resonance). At any other frequency, the magnitudes differ and a net reactance remains. Well above resonance, the inductor dominates (Z ≈ jωL); well below resonance, the capacitor dominates (Z ≈ 1/jωC). Zero total impedance is a special case, not the general rule."

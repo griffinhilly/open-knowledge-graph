@@ -58,7 +58,7 @@ Tension is not always equal to an object's weight. In a pulley system, the tensi
   answer: true
   explanation: "This follows directly from Newton's Second Law applied to any segment: zero mass means zero net force, so the tension forces at both ends of any segment must be equal. This idealization is what makes rope problems tractable — you can refer to 'the tension T' as a single value rather than tracking how it varies along the length. When the idealization breaks down (massive rope, frictional pulley), tension is no longer uniform."
 
-- question: "The tension in the rope of a pulley system always equals the weight of the heavier object."
+- question: "The tension in the rope of a pulley system generally equals the weight of the heavier object."
   type: true-false
   answer: false
   explanation: "Tension in a pulley system is strictly less than the weight of either object when both are accelerating. If the tension equaled the heavier weight, that object would experience zero net force and wouldn't accelerate — contradicting the assumption that the system moves. Tension represents the force the rope exerts, which must be less than the heavier weight (to allow downward acceleration) and greater than the lighter weight (to pull it upward). The formula T = 2·m_A·m_B·g / (m_A + m_B) confirms this."

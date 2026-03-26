@@ -44,7 +44,7 @@ Each process maintains a file descriptor table mapping small integers to open fi
   answer: 2
   explanation: "A pipe is a kernel-managed buffer with two file descriptors: one for writing (write-end) and one for reading (read-end). The shell creates the pipe, forks both child processes, then wires the pipe's write-end to `ls`'s fd 1 (stdout) and the read-end to `grep`'s fd 0 (stdin) using dup2 or close/open. Each program just reads/writes its standard descriptors as always — neither knows it is connected to the other rather than a terminal."
 
-- question: "The kernel enforces that file descriptor 1 always refers to the terminal (stdout), which is why programs can rely on writing to fd 1 to display output."
+- question: "The kernel enforces that file descriptor 1 usually refers to the terminal (stdout), which is why programs can rely on writing to fd 1 to display output."
   type: true-false
   answer: false
   explanation: "File descriptor 1 is just a convention — an integer in the per-process table that can point to any open file, pipe, socket, or device. The kernel assigns no special meaning to fd 1. The convention is established by the shell, which sets up fd 0, 1, and 2 before launching programs. Programs written to write to fd 1 happen to write to whatever that slot currently points to — which could be a terminal, a file, or a pipe, depending on how the shell set things up."

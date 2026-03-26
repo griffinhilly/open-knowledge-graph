@@ -52,7 +52,7 @@ Construct power indices for major states across time (using military spending, G
   answer: true
   explanation: "This is a central argument in structural realist IR theory, associated especially with Kenneth Waltz. Bipolar systems concentrate attention and resources between two rivals who develop sophisticated mutual understanding; the alliance structure is simpler (most states align with one pole or the other); and the stakes of miscalculation are obvious to both sides. Multipolar systems generate more complex alliance webs, more opportunities to misjudge another state's intentions, and more uncertainty about which coalitions will form — all of which increase the probability of war through miscalculation."
 
-- question: "A state's 'capabilities' and its 'power' are the same concept — more capabilities always translate directly into more power in international relations."
+- question: "A state's 'capabilities' and its 'power' are the same concept — more capabilities usually translate directly into more power in international relations."
   type: true-false
   answer: false
   explanation: "Capabilities are the material potential (military forces, GDP, technology, population) that a state commands. Power is the ability to produce intended effects in interactions with other actors. The two can diverge significantly: a materially weak state can 'punch above its weight' through superior diplomacy, coalition-building, or the strength of its cause; a materially strong state can fail to coerce a weaker adversary with sufficient resolve. Joseph Nye's concept of soft power — attraction and persuasion rather than coercion — captures dimensions of power that capabilities alone cannot measure."

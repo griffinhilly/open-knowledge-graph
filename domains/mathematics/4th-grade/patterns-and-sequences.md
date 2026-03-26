@@ -56,7 +56,7 @@ Use visual patterns (tile arrangements, dot arrays) alongside number sequences s
   answer: 1
   explanation: "The gaps between consecutive terms are 4, 12, 36, 108 — widening each time, not staying constant. This is the signature of a multiplicative pattern: 2×3=6, 6×3=18, 18×3=54. An additive pattern ('add a constant') has equal gaps; a multiplicative pattern has gaps that themselves grow by a constant ratio. Assuming all patterns are arithmetic (add a constant) is the most common pattern-recognition error."
 
-- question: "To find the 20th term of an arithmetic sequence, you must first list all 19 terms before it."
+- question: "To find the 20th term of an arithmetic sequence, you should first list most 19 terms before it."
   type: true-false
   answer: false
   explanation: "False. Once you know the starting value and the common difference, you can jump directly to any term. The 20th term equals the starting value plus 19 times the common difference (you add the difference 19 times to get from term 1 to term 20). For the sequence 3, 7, 11, 15... the 20th term is 3 + 19×4 = 79. This 'jump to any term' property is what makes pattern rules powerful — and it is the core idea behind algebraic expressions."

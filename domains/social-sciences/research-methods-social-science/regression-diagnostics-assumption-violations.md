@@ -48,7 +48,7 @@ Ordinary least squares regression assumes linearity, homoscedasticity, independe
   answer: 2
   explanation: "High VIF means the predictor is highly collinear with other predictors, making it difficult for the model to disentangle their individual effects. This inflates standard errors (making coefficient estimates unstable — small data changes produce large estimate changes) and reduces interpretability. Option B is wrong because robust SE addresses heteroscedasticity, not multicollinearity. Option D is wrong because VIF does affect standard errors. Option A overstates the case — the appropriate response depends on whether prediction or interpretation is the goal."
 
-- question: "If OLS regression assumptions are violated, the coefficient estimates are always biased."
+- question: "If OLS regression assumptions are violated, the coefficient estimates are typically biased."
   type: true-false
   answer: false
   explanation: "This overstates the consequences. Heteroscedasticity and autocorrelation, for example, leave coefficient estimates unbiased — OLS still correctly estimates the conditional mean — but they invalidate standard errors and inference. Only specific violations produce biased estimates: omitted variable bias (relevant predictor excluded), endogeneity (predictor correlated with the error), or measurement error in predictors. Knowing *which* assumption is violated and *what its specific consequences are* is exactly the point of regression diagnostics — a single blanket response ('my estimates are biased') is often incorrect."

@@ -48,7 +48,7 @@ Restoration ecology applies ecological theory to actively restore degraded ecosy
   answer: 1
   explanation: "Modern restoration ecology increasingly defines targets in terms of ecosystem function — nutrient cycling, water filtration, habitat provision — rather than species-by-species historical matching. The reason: climate has shifted, some species have gone extinct or their ranges have moved, and novel organisms are now established. A target defined by a past snapshot may be ecologically unrealistic and produce a community that cannot sustain itself under changed conditions. Function-based targets are more achievable and often more relevant to the actual ecological needs of the landscape."
 
-- question: "Removing invasive species is always sufficient to restore a degraded ecosystem, because native species will naturally recolonize once competition is eliminated."
+- question: "Removing invasive species is typically sufficient to restore a degraded ecosystem, because native species will naturally recolonize once competition is eliminated."
   type: true-false
   answer: false
   explanation: "Invasives often arrest succession and maintain stable degraded states, but native recolonization also depends on soil chemistry, mycorrhizal communities, seed sources, appropriate disturbance regimes, and landscape connectivity. Removing invasives without restoring these other conditions typically leads to rapid re-invasion by the same or different opportunists. Effective restoration requires diagnosing all limiting factors, not just competitive exclusion."

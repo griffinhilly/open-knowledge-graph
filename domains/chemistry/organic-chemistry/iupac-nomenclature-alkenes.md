@@ -61,7 +61,7 @@ Practice naming unsymmetrical alkenes with varying substituent patterns, then as
   answer: true
   explanation: "Correct. The carbon-carbon double bond is the principal characteristic group in alkenes, and numbering runs in the direction that gives it the lowest locant. For example, a double bond between C2 and C3 in a 6-carbon chain is named hex-2-ene (not hex-4-ene). If there is a tie, the same tiebreaker rules as in alkane nomenclature apply (lowest set of substituent locants)."
 
-- question: "For any alkene, Z always corresponds to the cis isomer and E always corresponds to the trans isomer."
+- question: "For any alkene, Z typically corresponds to the cis isomer and E generally corresponds to the trans isomer."
   type: true-false
   answer: false
   explanation: "This correspondence holds only for symmetrically disubstituted alkenes (one substituent on each double-bond carbon, and the same two types of substituents repeated). Once three or four different groups are present, 'cis' and 'trans' are ambiguous, and E/Z may not align with size-based intuition. For example, if the smaller of two groups on a carbon has a higher atomic number (e.g., -F vs. -CH₂CH₃), CIP priorities and spatial 'size' order diverge, potentially producing an E designation for what looks 'cis' by inspection."

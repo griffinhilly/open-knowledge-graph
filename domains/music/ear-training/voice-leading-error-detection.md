@@ -58,7 +58,7 @@ Listen to four-part progressions with correct voice leading, then ones with para
   answer: 2
   explanation: "Parallel perfect intervals are forbidden precisely because of acoustic fusion, not dissonance. Perfect fifths and octaves are the most consonant intervals (simple frequency ratios), which is exactly why parallels are problematic: two voices moving in parallel perfect consonance blend so completely that they sound like a single reinforced voice, not two independent lines. The style's governing ideal is four distinct melodic strands; parallel fifths or octaves momentarily reduce the texture from four to three (or fewer) effective voices. Contrary fifths — arriving at a fifth from opposite directions — are perfectly acceptable."
 
-- question: "Parallel fifths are a voice-leading error that must be avoided in all musical styles and traditions."
+- question: "Parallel fifths are a voice-leading error that should be avoided in most musical styles and traditions."
   type: true-false
   answer: false
   explanation: "Parallel fifths are specifically forbidden in common-practice tonal harmony (roughly Baroque through Romantic eras) where independent voice leading is the governing ideal. They appear intentionally in medieval organum (where parallel perfect intervals were the compositional style), in modal folk music, in Debussy's impressionist parallel chord streams, in jazz and popular music, and in contemporary composition. Understanding this restriction as style-specific, not universal, is essential: the rule belongs to a particular tradition and its particular aesthetic values."

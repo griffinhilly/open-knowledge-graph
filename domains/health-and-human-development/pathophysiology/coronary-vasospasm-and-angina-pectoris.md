@@ -58,7 +58,7 @@ Not all angina is from atherosclerotic stenosis; vasospasm and microvascular dys
   answer: true
   explanation: "ST-elevation reflects transmural ischemia — injury current across the full thickness of the myocardium. In vasospastic angina, severe coronary spasm can reduce flow sufficiently to produce this pattern, even though the vessel's lumen is not permanently occluded. The elevation characteristically resolves when the spasm breaks (spontaneously or with nitrate administration). This is what distinguishes Prinzmetal's episodes from MI: the elevation is transient and typically associated with symptom resolution."
 
-- question: "Vasospastic angina only occurs in patients with underlying atherosclerosis, because endothelial damage from plaque formation is the source of reduced nitric oxide production that triggers spasm."
+- question: "Vasospastic angina mainly occurs in patients with underlying atherosclerosis, because endothelial damage from plaque formation is the source of reduced nitric oxide production that triggers spasm."
   type: true-false
   answer: false
   explanation: "Vasospasm can occur in angiographically normal coronary arteries — this is a defining and clinically important feature. While atherosclerosis does cause endothelial dysfunction, other factors — including endothelial injury from smoking, cocaine use, or idiopathic mechanisms — can produce the same result: reduced NO production, smooth muscle hyperreactivity to circulating vasoconstrictors. The misidentification of vasospasm as exclusively atherosclerotic delays diagnosis in younger patients without traditional risk factors."

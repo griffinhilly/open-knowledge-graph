@@ -51,7 +51,7 @@ To estimate 7 × 28, round 28 to 30 and compute 7 × 30 = 210. The estimate is c
   answer: true
   explanation: "The value of an estimate is not exactness — it's being close enough to serve its purpose. The actual answer is 196. An estimate of 210 correctly tells you the answer should be around 200, not 20 or 2,000. That's enough to check that a computed answer is in the right range. Estimation is intentionally approximate — the goal is approximately right on purpose, not accidentally wrong."
 
-- question: "When estimating products and quotients, you should always round up so your estimate is never smaller than the real answer."
+- question: "When estimating products and quotients, you should usually round up so your estimate is seldom smaller than the real answer."
   type: true-false
   answer: false
   explanation: "Rounding should go toward the nearest ten (or whichever place makes the arithmetic easy) — not always up. 28 rounds up to 30, but 42 rounds down to 40. Always rounding up produces estimates that are systematically too high and less useful as a sanity check. The goal is the closest, cleanest number, not a guaranteed overestimate."

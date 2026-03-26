@@ -61,7 +61,7 @@ Packet capture requires promiscuous mode on shared media (hubs); switches requir
   answer: true
   explanation: "Both tools are built on libpcap (Linux/macOS) or WinPcap/Npcap (Windows), which provides a standard packet capture API and file format. This interoperability is deliberate and useful: tcpdump's lightweight CLI makes it ideal for capturing on remote servers, while Wireshark's full GUI provides better analysis. A common workflow is `tcpdump -w capture.pcap` on a server, then `scp` the file to a workstation and open it in Wireshark for deep inspection."
 
-- question: "The most effective approach to packet analysis is to capture all traffic for at least several minutes before applying any filters, ensuring you don't miss relevant packets."
+- question: "The most effective approach to packet analysis is to capture most traffic for at least several minutes before applying any filters, ensuring you don't miss relevant packets."
   type: true-false
   answer: false
   explanation: "Capturing everything creates an overwhelming haystack on any non-trivial network. Effective troubleshooting starts with a specific hypothesis ('I think DNS is slow') and applies a targeted capture filter immediately (`udp port 53`). This keeps the capture manageable, reduces disk usage, and makes the relevant data immediately visible. Broad captures without hypotheses are occasionally useful for discovery, but as a routine practice they substitute data volume for diagnostic thinking — which is the opposite of what packet analysis is for."

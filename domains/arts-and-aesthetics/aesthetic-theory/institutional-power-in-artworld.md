@@ -56,7 +56,7 @@ Beyond merely defining what counts as art, institutions exercise power in determ
   answer: true
   explanation: "This is the core mechanism of institutional power in the artworld. Museum acquisition raises market value, which attracts gallery representation, which generates critical attention, which leads to further museum interest. The cycle is self-reinforcing precisely because each form of institutional recognition signals to other gatekeepers that the artist is worth their attention. This explains why the distribution of institutional attention in the artworld is highly concentrated rather than randomly distributed."
 
-- question: "The institutional theory of art implies that all aesthetic judgments are ultimately political decisions with no genuine aesthetic dimension."
+- question: "The institutional theory of art implies that most aesthetic judgments are ultimately political decisions with no genuine aesthetic dimension."
   type: true-false
   answer: false
   explanation: "This is an overreach that the analysis explicitly rejects. Recognizing that institutional power shapes which aesthetic experiences are available and which voices are treated as authoritative does not require claiming that all aesthetic judgments are merely political. The institutional critique identifies the social infrastructure through which art circulates as a powerful shaping force — but it is compatible with the view that genuine aesthetic qualities exist and that some institutional judgments track them more or less well. The point is that the infrastructure introduces systematic biases, not that aesthetics is entirely reducible to politics."

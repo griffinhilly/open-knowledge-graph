@@ -53,7 +53,7 @@ Collisions are classified by the coefficient of restitution e, which relates rel
   answer: true
   explanation: "Momentum conservation applies to ALL collisions because the internal forces between colliding objects are equal and opposite (Newton's third law), contributing zero net impulse to the system. External forces (gravity, friction) also act during a collision, but the collision duration is so brief that their impulse is negligible. Momentum conservation is exact and universal for collisions. Kinetic energy conservation, by contrast, only holds for perfectly elastic collisions (e = 1) — it is the special case, not the rule."
 
-- question: "In a perfectly inelastic collision, all kinetic energy is lost."
+- question: "In a perfectly inelastic collision, most kinetic energy is lost."
   type: true-false
   answer: false
   explanation: "A perfectly inelastic collision (e = 0) means the objects move together after impact — maximum deformation and maximum kinetic energy loss for given initial conditions. However, unless one object was already stationary in the center of mass frame, the combined mass is still moving, and some kinetic energy remains. Total energy is conserved (thermodynamics), but it's redistributed: the kinetic energy that disappears becomes heat, sound, and deformation energy. Only in the special case where both objects have equal mass and one is initially stationary does all kinetic energy convert to other forms."

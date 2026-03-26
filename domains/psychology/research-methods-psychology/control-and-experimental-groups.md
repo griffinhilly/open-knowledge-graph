@@ -58,7 +58,7 @@ Critique studies that lack control groups — predict what conclusions cannot va
   answer: true
   explanation: "True. Random assignment distributes pre-existing characteristics (health, motivation, personality, social support) evenly across groups in expectation. No individual participant characteristic can systematically favor one condition. This is why random assignment is the gold standard for causal inference: it makes the control group a valid counterfactual — the best available estimate of what the experimental group would have done without treatment."
 
-- question: "A no-treatment control group is always the most appropriate comparison condition when testing a new medical treatment."
+- question: "A no-treatment control group is typically the most appropriate comparison condition when testing a new medical treatment."
   type: true-false
   answer: false
   explanation: "False. When an effective treatment for the condition already exists, an active control — comparing to the current best practice — is more appropriate both ethically and scientifically. A new antidepressant that outperforms placebo but not existing antidepressants has limited clinical value, and exposing participants in the no-treatment arm to unnecessary suffering is hard to justify. The active control answers the more meaningful clinical question: 'Does this treatment work better than what we already have?'"

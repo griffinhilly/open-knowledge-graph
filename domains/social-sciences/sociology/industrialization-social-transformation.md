@@ -46,7 +46,7 @@ Industrialization restructured society profoundly: moving populations from rural
   answer: 2
   explanation: "The extended family in agrarian societies was a total institution: it produced food, cared for the sick and elderly, educated children, managed inheritance, and formed the basis of political loyalty. Industrialization disaggregated all of these functions to specialized external institutions — factories, schools, hospitals, pension schemes, legal systems. Once stripped of these functions, the household shrank to what remained: reproduction, socialization of young children, and emotional support. Option D is the most tempting distractor — land inheritance was certainly disrupted — but it only captures part of the transformation."
 
-- question: "The distinction between 'public' life (work, politics, economy) and 'private' life (family, emotion, domesticity) existed in all known societies and predates industrialization."
+- question: "The distinction between 'public' life (work, politics, economy) and 'private' life (family, emotion, domesticity) existed in most known societies and predates industrialization."
   type: true-false
   answer: false
   explanation: "This is the key sociological insight about industrialization's depth of transformation. In pre-industrial agricultural societies, the household was simultaneously the economic unit, the school, the welfare system, and a political entity — work and family were not separate spheres. The idea that 'home' is a private emotional refuge separate from 'public' economic and political life is an artifact of moving production outside the household. The modern public/private boundary, so naturalized that it seems timeless, was actually constructed by industrialization."

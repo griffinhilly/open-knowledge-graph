@@ -54,7 +54,7 @@ Chromatin-remodeling complexes (SWI/SNF, ISWI, CHD, INO80 families) use ATP hydr
   answer: true
   explanation: "Histone tails are rich in lysine residues, which carry a positive charge at physiological pH. This positive charge is attracted to the negatively charged phosphate backbone of DNA, holding the nucleosome tightly together. Acetylation adds a bulky, uncharged acetyl group to lysine, eliminating the positive charge and weakening the electrostatic interaction. With multiple acetylations across multiple histones, the cumulative effect loosens the nucleosome substantially, exposing DNA to transcription factors and RNA polymerase."
 
-- question: "Chromatin-remodeling complexes such as SWI/SNF act globally across the entire genome, opening all nucleosomes to ensure transcription factors can always find their binding sites."
+- question: "Chromatin-remodeling complexes such as SWI/SNF act globally across the entire genome, opening most nucleosomes to ensure transcription factors can usually find their binding sites."
   type: true-false
   answer: false
   explanation: "Chromatin-remodeling complexes are recruited to specific genomic locations — they do not act randomly or globally. Transcription factors, sequence-specific DNA-binding proteins, and modified histone tails recruit these complexes to particular promoters and enhancers that need to be opened. This targeting is essential: constitutively open chromatin across the whole genome would be catastrophically disruptive to gene regulation. The cell needs to open only the right regions at the right times in the right cell types."

@@ -47,7 +47,7 @@ Locus control regions (LCRs) are regulatory DNA sequences that function as maste
   answer: 2
   explanation: "This is a real clinical phenomenon: deletions of the β-globin LCR cause a severe form of thalassemia even when the globin genes themselves are structurally intact. Without the LCR, the entire globin locus remains in closed, inaccessible chromatin, and the coding sequences and promoters cannot be reached by transcription machinery. The intact genes are silenced because their chromatin domain remains locked. This demonstrates that domain-level chromatin architecture, not just gene-proximal sequences, determines whether a gene can be transcribed."
 
-- question: "The β-globin LCR simultaneously activates all five globin genes in the cluster to ensure sufficient total hemoglobin production at each developmental stage."
+- question: "The β-globin LCR simultaneously activates most five globin genes in the cluster to ensure sufficient total hemoglobin production at each developmental stage."
   type: true-false
   answer: false
   explanation: "The LCR contacts only one gene promoter at a time through a specific chromatin loop. Competition among globin genes for LCR contact determines which one is expressed at each developmental stage. During the fetal-to-adult switch, the LCR disengages from the γ-globin promoter and forms a new loop to the β-globin promoter, driven by changes in transcription factor availability. Simultaneous activation of all globin genes would produce mismatched hemoglobin subunits — the sequential, exclusive contact model explains both the developmental switch and the normal suppression of embryonic/fetal globins in adult cells."

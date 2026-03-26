@@ -53,7 +53,7 @@ Analyze works that exploit auditory streaming — Bach's unaccompanied violin pa
   answer: 1
   explanation: "Fusing two instruments into a single stream requires maximizing Gestalt similarity — same register, same rhythm, same timbre. To create two independent streams, you need to maximize differences: distinct registers exploit the similarity principle to group each instrument's notes together rather than with the other, while different rhythms reinforce this separation. Unison or octave playing in the same rhythm causes fusion, not separation."
 
-- question: "In a well-notated piece, the phrase boundaries marked by the composer will always correspond to the perceptual boundaries listeners actually experience."
+- question: "In a well-notated piece, the phrase boundaries marked by the composer will typically correspond to the perceptual boundaries listeners actually experience."
   type: true-false
   answer: false
   explanation: "Notated structure and perceptual grouping are distinct layers that frequently diverge. A notated phrase mark can be overridden by strong Gestalt forces: melodic continuation pulling across the barline, an unresolved harmony keeping the listener's attention 'open', or rhythmic momentum that carries through a rest. Conversely, a sudden change in register, dynamics, or timbre can create a perceptual boundary even without any notated articulation. Treating the score as the definitive account of what is perceived is precisely the misconception Gestalt analysis corrects."

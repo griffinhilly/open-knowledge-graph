@@ -51,7 +51,7 @@ Record a speech with the sound off and ask a viewer to guess the emotional tone 
   answer: 1
   explanation: "Nervous energy has to go somewhere. Suppressing fidgeting without replacing it produces stiff, unnatural stillness that reads as anxiety or discomfort. The effective solution is not to eliminate hand movement but to redirect it: give the hands specific, purposeful gestures tied to key moments in the speech. This gives nervous energy an outlet while simultaneously reinforcing the verbal message."
 
-- question: "Planned, rehearsed gestures will always appear fake to an audience because genuine nonverbal communication must be spontaneous and uncontrived."
+- question: "Planned, rehearsed gestures will generally appear fake to an audience because genuine nonverbal communication should be spontaneous and uncontrived."
   type: true-false
   answer: false
   explanation: "Skilled performers in every physical discipline — actors, musicians, athletes — deliberately rehearse specific physical behaviors until they become second nature. The goal of practice is to internalize movements so they feel spontaneous from the inside while being appropriate and visible from the outside. A concert pianist practices finger movements deliberately for thousands of hours; this doesn't make the performance 'fake.' The same applies to gestures in public speaking."

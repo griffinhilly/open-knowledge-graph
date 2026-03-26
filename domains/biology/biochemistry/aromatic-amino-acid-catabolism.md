@@ -53,7 +53,7 @@ Phenylalanine is converted to tyrosine by phenylalanine hydroxylase; tyrosine is
   answer: true
   explanation: "True — the major catabolic route for tryptophan is the kynurenine pathway, which opens the indole ring and produces several intermediates, including quinolinate. Quinolinate is a direct precursor for NAD+ synthesis. This is why tryptophan is considered a niacin equivalent in nutrition: adequate dietary tryptophan can partially compensate for niacin (vitamin B3) deficiency, since NAD+ can be synthesized from either."
 
-- question: "Phenylalanine and tyrosine are catabolized through entirely separate biochemical pathways with no shared intermediates or enzymatic steps."
+- question: "Phenylalanine and tyrosine are catabolized through largely separate biochemical pathways with no shared intermediates or enzymatic steps."
   type: true-false
   answer: false
   explanation: "False — phenylalanine is first converted to tyrosine by phenylalanine hydroxylase, after which both amino acids enter the same downstream degradation pathway. This convergence is why tyrosine is described as the metabolic hub: whether the aromatic carbon enters as phenylalanine or tyrosine, it passes through the same sequence leading to fumarate (glucogenic) and acetoacetate (ketogenic). The two pathways are not separate; they merge at tyrosine."

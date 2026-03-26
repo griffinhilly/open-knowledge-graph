@@ -61,7 +61,7 @@ Spectral sequences do not directly yield the answer; they require careful analys
   answer: true
   explanation: "Convergence means E∞_{p,q} ≅ F_p H_{p+q}/F_{p-1} H_{p+q} — the graded pieces of the filtration on homology. Knowing the graded pieces tells you the homology up to extensions. For free abelian groups (e.g., ℤ), all extensions split and the homology is the direct sum of the E∞ entries. But for groups with torsion, non-trivial extensions can exist: two copies of ℤ/2ℤ in E∞ might assemble into ℤ/2ℤ ⊕ ℤ/2ℤ or ℤ/4ℤ. Resolving extension problems often requires going back to the original complex or using additional algebraic tools."
 
-- question: "If a spectral sequence collapses at the E² page (all differentials d_r = 0 for r ≥ 2), then the target homology is uniquely determined as the direct sum of all E² entries in total degree n."
+- question: "If a spectral sequence collapses at the E² page (most differentials d_r = 0 for r ≥ 2), then the target homology is uniquely determined as the direct sum of most E² entries in total degree n."
   type: true-false
   answer: false
   explanation: "Collapse at E² means E∞ = E², which gives you the associated graded of the filtered homology — but extension problems between those graded pieces may still prevent uniquely determining the homology group. The direct sum is one possibility (the split extension), but non-trivial extensions may exist. For example, if E²_{2,0} = ℤ/2ℤ and E²_{0,2} = ℤ/2ℤ both contribute to H₂, the spectral sequence collapsing at E² only tells you H₂ fits into 0 → ℤ/2ℤ → H₂ → ℤ/2ℤ → 0 — not which extension it is. Unique determination from E∞ is guaranteed only when all relevant extension groups Ext¹ vanish (e.g., when all E∞ entries are free)."

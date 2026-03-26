@@ -60,7 +60,7 @@ Not seeing the connection; confusing which number is the divisor.
   answer: true
   explanation: "This is the inverse-relationship strategy in action. Division 'undoes' multiplication, so any division problem a ÷ b can be rephrased as '? × b = a.' Knowing 7 × 6 = 42 directly answers 42 ÷ 6 = 7. This reframing lets students use their multiplication fluency to answer division questions."
 
-- question: "Division facts must be memorized completely separately from multiplication facts because the two operations are unrelated."
+- question: "Division facts is expected to be memorized largely separately from multiplication facts because the two operations are unrelated."
   type: true-false
   answer: false
   explanation: "Multiplication and division are inverse operations — they are deeply related, not separate. Every division fact is a rearrangement of a multiplication fact. Because of this, students who know their multiplication tables already know all their division facts; they just need to learn to access them from the other direction. Treating them as unrelated means doing twice the memorization work unnecessarily."

@@ -55,7 +55,7 @@ Master the C₂ᵥ and D₂ₕ character tables first. Classify the three modes 
   answer: 1
   explanation: "The mutual exclusion rule states that for centrosymmetric molecules (those with an inversion center), no normal mode can be both IR and Raman active. IR-active modes must be antisymmetric under inversion (they change the dipole); Raman-active modes must be symmetric under inversion (they change the polarizability). These are mutually exclusive symmetry requirements. CO₂'s symmetric stretch is Raman active and IR inactive; its asymmetric stretch is IR active and Raman inactive. The two spectra are complementary, giving non-overlapping but jointly complete information."
 
-- question: "To determine whether a vibrational mode of a molecule is IR active, one must solve the Schrödinger equation to calculate the vibrational wavefunction and its dipole moment integral."
+- question: "To determine whether a vibrational mode of a molecule is IR active, one should solve the Schrödinger equation to calculate the vibrational wavefunction and its dipole moment integral."
   type: true-false
   answer: false
   explanation: "This is precisely what group theory allows you to bypass. By determining the molecule's point group, constructing Γ_total from atomic displacement coordinates, subtracting Γ_trans and Γ_rot, and decomposing what remains using the reduction formula, you identify which irreducible representations each vibrational mode belongs to. You then look up whether those representations appear in the x, y, or z column of the character table. No wavefunctions are computed — the result follows entirely from the molecular geometry and the character table."

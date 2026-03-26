@@ -59,7 +59,7 @@ Expand the van der Waals equation and recover the ideal gas law as a → 0, b �
   answer: true
   explanation: "Substituting a = 0 and b = 0 into (P + a(n/V)²)(V − nb) = nRT gives (P + 0)(V − 0) = nRT, which is exactly PV = nRT. This is a crucial consistency check: the van der Waals equation is not a replacement for the ideal gas law but a correction that reduces to it when molecular attractions and molecular volume are negligible — physically, at very low pressure or very high temperature where molecules are far apart."
 
-- question: "The van der Waals equation gives quantitatively accurate predictions of gas behavior across all pressures and temperatures, including near phase transitions."
+- question: "The van der Waals equation gives quantitatively accurate predictions of gas behavior across most pressures and temperatures, including near phase transitions."
   type: true-false
   answer: false
   explanation: "The van der Waals equation is qualitatively excellent — it correctly predicts deviations from ideality, the existence of a critical point, and qualitatively explains phase transitions. But it is quantitatively rough, especially near phase transitions. It predicts an unphysical 'van der Waals loop' (a region where ∂P/∂V > 0) in the two-phase region, and predicted liquid volumes are systematically too large. For precision engineering calculations, more elaborate equations of state are required. Van der Waals is a teaching model that gives correct physical intuition, not an engineering tool."

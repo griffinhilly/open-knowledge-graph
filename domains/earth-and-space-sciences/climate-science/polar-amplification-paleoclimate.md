@@ -48,7 +48,7 @@ Polar regions warm more than the tropics during climate transitions (Polar Ampli
   answer: 1
   explanation: "A model that matches the global mean but flattens the equator-to-pole gradient is distributing warming incorrectly — too much in the tropics, too little at the poles. This implies that polar-amplifying feedbacks (cloud changes, ocean heat transport, vegetation-albedo interactions) are incompletely captured. The Eocene is especially diagnostic: polar amplification was substantial even without significant ice sheets, implicating feedbacks beyond ice-albedo alone — which a model may miss if it relies too heavily on that mechanism."
 
-- question: "Ice-albedo feedback is the only mechanism responsible for polar amplification in Earth's climate history."
+- question: "Ice-albedo feedback is the primary mechanism responsible for polar amplification in Earth's climate history."
   type: true-false
   answer: false
   explanation: "False. Ice-albedo feedback is dominant during glacial-interglacial cycles, but other mechanisms contribute: changes in poleward atmospheric and oceanic heat transport, high-latitude cloud feedbacks, and vegetation-albedo changes (e.g., boreal forest replacing tundra absorbs more radiation). Evidence from the ice-free Eocene — where polar amplification still occurred despite minimal ice sheets — demonstrates that ice-albedo feedback alone cannot explain all instances of polar amplification in the paleoclimate record."

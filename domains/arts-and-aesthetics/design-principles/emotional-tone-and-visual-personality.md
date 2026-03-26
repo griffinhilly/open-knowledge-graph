@@ -52,7 +52,7 @@ Select a brand or concept and list its personality traits (sophisticated, playfu
   answer: 1
   explanation: "Visual personality is not a layer — it is embedded in every decision the designer made. The grid proportions, the weight of whitespace, the typeface style, the photography approach, the icon geometry — all of these communicate emotional tone. Adding personality 'at the end' means revisiting hundreds of individual decisions, each of which already says something. This is why personality must be defined before visual exploration begins: it is the filter through which all those decisions are made."
 
-- question: "Because emotional responses to visual design vary between individuals and cultures, designers cannot reliably predict how a target audience will perceive a design's personality."
+- question: "Because emotional responses to visual design vary between individuals and cultures, designers can seldom reliably predict how a target audience will perceive a design's personality."
   type: true-false
   answer: false
   explanation: "While individual variation exists, substantial patterns in how people perceive visual tone are consistent enough to design with professionally. Sharp angles reliably feel more aggressive than soft curves; geometric sans-serifs reliably feel more modern than humanist serifs; cool palettes reliably feel more clinical than warm ones. These are tendencies, not laws — context always matters — but the patterns are reliable enough that brand identity work, advertising, and packaging design all exploit them systematically and successfully."

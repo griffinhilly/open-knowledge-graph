@@ -49,7 +49,7 @@ The PMF p(x)=P(X=x) of a discrete random variable assigns probability to each va
   answer: true
   explanation: "True. The two validity conditions for a PMF are p(x) ≥ 0 for all x and ∑p(x) = 1. Assigning p(x) = 0 to some values satisfies both conditions — a zero probability just means that outcome never occurs. For example, a die that never lands on 6 would have p(6) = 0 while still being a valid PMF."
 
-- question: "For a discrete random variable, all PMF values must be equal — each outcome gets the same share of the probability budget."
+- question: "For a discrete random variable, most PMF values is expected to be equal — each outcome gets the same share of the probability budget."
   type: true-false
   answer: false
   explanation: "False. Equal probabilities (a uniform distribution) are a special case, not a requirement. A valid PMF only requires nonnegativity and that all values sum to 1. A loaded die, for example, might have p(6) = 0.5 and p(1) = p(2) = p(3) = p(4) = p(5) = 0.1 — a completely valid PMF where outcomes have unequal probabilities."

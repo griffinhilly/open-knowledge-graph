@@ -60,7 +60,7 @@ Derive material indices for several common design scenarios (light stiff panel, 
   answer: true
   explanation: "The material index is derived from the governing physical equations for a specific function and objective. A light stiff beam requires maximizing E^(1/2)/ρ; a light strong beam requires maximizing σ_y^(2/3)/ρ; a minimum-cost pressure vessel requires a different index still. Materials that rank highly on one index may rank poorly on another. Steel excels in some applications and is outperformed by wood, ceramics, or composites in others — which is exactly why systematic derivation of indices is necessary."
 
-- question: "On an Ashby chart, adding more hard constraints to a design problem always narrows the candidates down to a single optimal material."
+- question: "On an Ashby chart, adding more hard constraints to a design problem usually narrows the candidates down to a single optimal material."
   type: true-false
   answer: false
   explanation: "Hard constraints eliminate materials that fail non-negotiable limits (temperature, corrosion, cost ceiling), reducing the candidate field to a shortlist of material families. But the Ashby methodology typically produces a shortlist, not a single answer — further narrowing requires detailed property data, processing cost, and availability analysis. When two performance objectives conflict (light AND cheap), no single material maximizes both; a Pareto front of non-dominated solutions results, and the choice among them depends on trade-off preferences."

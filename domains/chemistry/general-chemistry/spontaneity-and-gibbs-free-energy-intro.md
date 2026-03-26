@@ -47,7 +47,7 @@ The Gibbs free energy change (ΔG = ΔH - TΔS) combines enthalpy and entropy to
   answer: 2
   explanation: "Melting ice has positive ΔH (energy absorbed to break hydrogen bonds) and positive ΔS (liquid is more disordered than solid). At low temperatures, ΔG = ΔH − TΔS is positive because TΔS is small. At high temperatures, TΔS grows until it exceeds ΔH and ΔG turns negative. The crossover is the melting point. Option D is incorrect because ΔH does not change with temperature in this simplified treatment — it is T that acts as the switch through the TΔS term."
 
-- question: "A reaction that releases heat (negative ΔH) is always spontaneous under standard conditions."
+- question: "A reaction that releases heat (negative ΔH) is typically spontaneous under standard conditions."
   type: true-false
   answer: false
   explanation: "Exothermic reactions are spontaneous at all temperatures only when ΔS is also positive. If ΔH is negative but ΔS is also negative, ΔG = ΔH − TΔS becomes positive at high temperatures (where the −TΔS term, which is positive when ΔS is negative, becomes large enough to outweigh ΔH). Spontaneity requires ΔG < 0, which depends on the combination of both ΔH and ΔS, weighted by temperature."

@@ -27,7 +27,7 @@ Constrained optimization models engineering problems: maximizing profit subject 
   answer: 1
   explanation: "The Lagrange condition is ∇f = λ∇g: the gradient of the objective must be parallel to the gradient of the constraint at any constrained optimum. The gradient of f is not zero in general (that would be an unconstrained critical point), and the constraint gradient ∇g points normal to the constraint surface."
 
-- question: "At a constrained optimum, the gradient of the objective function f must equal the zero vector."
+- question: "At a constrained optimum, the gradient of the objective function f should equal the zero vector."
   type: true-false
   answer: false
   explanation: "At a free (unconstrained) optimum, ∇f = 0. But at a constrained optimum, ∇f is typically nonzero — it is parallel to ∇g (the constraint normal). The condition ∇f = λ∇g says the objective 'wants' to move in the same direction the constraint prevents it from moving. Setting ∇f = 0 would mean the unconstrained optimum already satisfies the constraint, which is a coincidence, not the general case."

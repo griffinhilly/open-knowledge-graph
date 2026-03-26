@@ -50,7 +50,7 @@ Viscosity η measures resistance to flow, resulting from momentum transfer betwe
   answer: true
   explanation: "In kinetic theory, viscosity arises from molecules exchanging momentum between layers moving at different speeds. Molecules from a fast-moving layer carry extra forward momentum when they collide with a slow-moving layer, and vice versa. Higher temperature means higher mean molecular speed, which means more effective momentum transfer — so gas viscosity increases with temperature. This is opposite to everyday intuition built on liquids (which thin when heated), so it surprises many students on first encounter."
 
-- question: "Since liquid viscosity decreases with increasing temperature, a highly viscous liquid like glycerol must have weaker intermolecular forces than a low-viscosity liquid like water."
+- question: "Since liquid viscosity decreases with increasing temperature, a highly viscous liquid like glycerol is expected to have weaker intermolecular forces than a low-viscosity liquid like water."
   type: true-false
   answer: false
   explanation: "High viscosity in liquids reflects strong or extensive intermolecular forces, not weak ones. Glycerol has three hydroxyl groups, enabling extensive hydrogen bonding across a large molecule, giving it viscosity roughly 1500 times that of water. The correct relationship is the opposite: stronger intermolecular forces → higher activation energy Eₐ for flow → higher viscosity at a given temperature. Temperature decreases viscosity in all liquids because thermal energy helps overcome these forces, but the starting level is set by the strength of those forces."

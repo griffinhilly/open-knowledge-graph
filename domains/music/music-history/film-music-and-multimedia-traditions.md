@@ -44,7 +44,7 @@ Film music developed as composers adapted concert-music techniques to serve narr
   answer: 2
   explanation: "Synchronization, leitmotif use, and harmonic language are all specific techniques or constraints that serve a deeper common challenge: music for media must work in two directions simultaneously — it must enhance the narrative or experience, and it must make musical sense on its own terms. A video game score that loops indefinitely, a film score timed to specific frames, and a TV score supporting dialogue all face this same fundamental tension between serving the medium and maintaining musical integrity."
 
-- question: "Film music was an entirely new art form with no meaningful connection to prior concert music or operatic traditions."
+- question: "Film music was an largely new art form with no meaningful connection to prior concert music or operatic traditions."
   type: true-false
   answer: false
   explanation: "Film music inherited extensively from concert and operatic traditions. The leitmotif technique — recurring themes associated with characters or ideas — came directly from Wagner's operas. Major 20th-century concert composers including Prokofiev, Copland, Shostakovich, and Britten wrote significant film scores as serious artistic projects. Film provided a new organizing structure (narrative in place of tonal form), but the harmonic language, orchestration, and dramatic techniques came from the concert hall."

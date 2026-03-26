@@ -46,7 +46,7 @@ Double integrals compute area (∬_R 1 dA), volume under a surface (∬_R f dA f
   answer: 1
   explanation: "Volume under z = f(x,y) above region R is ∬_R f(x,y) dA, where each infinitesimal area element dA supports a column of height f(x,y). Here f = x² + y², so the setup is ∬_R (x² + y²) dA over the unit disk. Option A gives the area of R (= π), not the volume. Option C integrates over the wrong region (a square, not a disk). This integral is most naturally evaluated in polar coordinates: ∫₀²π ∫₀¹ r² · r dr dθ."
 
-- question: "The integral ∬_R 1 dA always equals 1, regardless of the shape or size of the region R."
+- question: "The integral ∬_R 1 dA generally equals 1, regardless of the shape or size of the region R."
   type: true-false
   answer: false
   explanation: "∬_R 1 dA gives the area of R. When f(x,y) = 1, each infinitesimal area element dA contributes exactly dA to the integral — summing these up gives the total area of the region. A unit square gives 1, a circle of radius 2 gives 4π, and so on. The result is 1 only if R happens to have area 1."

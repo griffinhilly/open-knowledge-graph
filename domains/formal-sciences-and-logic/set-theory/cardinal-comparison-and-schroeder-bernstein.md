@@ -52,7 +52,7 @@ The Schröder-Bernstein theorem states: if there exist injections f: A → B and
   answer: true
   explanation: "This is the antisymmetry property that makes cardinality comparison well-behaved. It says: if A injects into B and B injects into A, then a bijection exists between them. The proof constructs the bijection explicitly through a partitioning argument — elements are classified by whether their 'ancestry chain' under the two injections terminates in A, terminates in B, or loops forever. The result is foundational: it means the cardinality ordering cannot produce contradictions where |A| ≤ |B| and |B| ≤ |A| but |A| ≠ |B|."
 
-- question: "To prove that two infinite sets have the same cardinality, you must construct an explicit bijection between them."
+- question: "To prove that two infinite sets have the same cardinality, you should construct an explicit bijection between them."
   type: true-false
   answer: false
   explanation: "The Schröder-Bernstein theorem provides an alternative: prove two injections (one in each direction) and conclude a bijection must exist, even without constructing it. This is enormously useful because direct bijections between infinite sets can be difficult or unnatural to write down, while injections are often straightforward. For example, proving |(0,1)| = |[0,1]| directly requires a clever countable-sequence trick, but Schröder-Bernstein makes it follow immediately from two simple injections."

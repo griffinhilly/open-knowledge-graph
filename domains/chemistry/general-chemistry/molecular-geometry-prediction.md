@@ -48,7 +48,7 @@ The Valence Shell Electron Pair Repulsion (VSEPR) theory predicts molecular shap
   answer: 1
   explanation: "Water has tetrahedral electron geometry (4 groups: 2 bonds + 2 lone pairs). Lone pairs are held closer to the central atom and spread out over a wider angular region than bonding pairs, exerting stronger repulsion on neighboring groups. The two lone pairs squeeze the two O–H bonds closer together, compressing the bond angle below the ideal 109.5°. Each additional lone pair adds more compression: NH₃ (1 lone pair) has 107°; H₂O (2 lone pairs) has 104.5°. Option 2 is wrong — water does not have trigonal planar electron geometry (which requires 3 electron groups, not 4)."
 
-- question: "The electron geometry and molecular geometry of a molecule are always identical."
+- question: "The electron geometry and molecular geometry of a molecule are typically identical."
   type: true-false
   answer: false
   explanation: "They differ whenever the central atom has lone pairs. Electron geometry includes lone pairs in determining spatial arrangement; molecular geometry describes only where the atoms are. For example, NH₃ has tetrahedral electron geometry but trigonal pyramidal molecular geometry, and H₂O has tetrahedral electron geometry but bent molecular geometry. Electron and molecular geometry are the same only when all electron groups are bonding pairs (e.g., CH₄ is tetrahedral in both)."

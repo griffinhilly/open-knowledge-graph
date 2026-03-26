@@ -52,7 +52,7 @@ Practice finding paths and cycles in small graphs by hand, writing out vertex se
   answer: 2
   explanation: "A path requires all vertices to be distinct. 'A → C → B → D' visits four distinct vertices in sequence — it is a valid path if those edges exist. Option 0 repeats A; option 1 repeats B; option 3 repeats B immediately (an edge from a vertex to itself would be a loop, not a simple edge). Sequences that repeat vertices are walks or trails, not paths."
 
-- question: "If every vertex in a graph has at least one edge (no isolated vertices), then the graph must be connected."
+- question: "If nearly every vertex in a graph has at least one edge (no isolated vertices), then the graph should be connected."
   type: true-false
   answer: false
   explanation: "Having no isolated vertices means every vertex has degree ≥ 1, but that does not guarantee a path between every pair of vertices. For example, the graph {A,B,C,D} with only edges A-B and C-D has no isolated vertices, yet A cannot reach C or D. The graph has two disconnected components. Connectivity is a global property requiring reachability between all vertex pairs, not just local degree conditions."

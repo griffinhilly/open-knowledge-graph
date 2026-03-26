@@ -48,7 +48,7 @@ Begin by analyzing simple I–IV–V–I progressions in C major to match the ab
   answer: 1
   explanation: "The fifth scale degree in any key receives the numeral V. Because the chord built there in a major key is major, it is written in uppercase: V. Writing 'D' is the most common beginner error — it confuses the pitch name with the functional label. The whole point of Roman numerals is to be key-independent."
 
-- question: "The Roman numeral 'V' always refers to the same pitch class (e.g., the note G) regardless of which key you are in."
+- question: "The Roman numeral 'V' generally refers to the same pitch class (e.g., the note G) regardless of which key you are in."
   type: true-false
   answer: false
   explanation: "Roman numerals track harmonic function, not absolute pitch. V in C major is G, but V in G major is D, and V in F major is C. Confusing numerals with pitch classes is the most common misconception in learning this system."

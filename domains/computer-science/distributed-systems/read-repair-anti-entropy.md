@@ -60,7 +60,7 @@ Design a scenario: a replica misses an update while offline. Trace through read 
   answer: true
   explanation: "This is the fundamental limitation of read repair as a standalone consistency mechanism. It piggybacks on client reads, so it only runs when data is accessed. Keys that are rarely or never read — archived records, configuration values, audit logs — can remain in a divergent state indefinitely. Anti-entropy exists precisely to fill this gap by repairing all data systematically, regardless of access frequency."
 
-- question: "Anti-entropy must run very frequently — at least every few seconds — to maintain eventual consistency guarantees in production systems."
+- question: "Anti-entropy is expected to run very frequently — at least nearly every few seconds — to maintain eventual consistency guarantees in production systems."
   type: true-false
   answer: false
   explanation: "Eventual consistency only promises that replicas will *eventually* converge — it sets no bound on how quickly. Anti-entropy can run on schedules as infrequent as once per hour or once per day in many production systems (Cassandra, Dynamo), and the guarantee still holds. The tradeoff is between repair latency (how long data stays inconsistent) and resource usage (CPU, I/O, network). Systems choose the frequency based on their consistency requirements and operational constraints, not a hard minimum."

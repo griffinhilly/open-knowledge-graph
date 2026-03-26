@@ -56,7 +56,7 @@ Evaluate definite integrals using the notation F(x) evaluated from a to b = F(b)
   answer: 1
   explanation: "The antiderivative F(x) = x⁴/4 is correct, but FTC Part 2 requires F(b) - F(a): F(2) - F(0) = 16/4 - 0 = 4. The student computed F(a) - F(b) = F(0) - F(2) = -4. Reversing the limits changes the sign of the definite integral. This is one of the most common computational errors in applying FTC Part 2 — the direction of integration (lower limit to upper limit) is encoded in the subtraction order."
 
-- question: "When applying FTC Part 2, you must use the specific antiderivative that satisfies F(a) = 0; otherwise the formula gives an incorrect answer."
+- question: "When applying FTC Part 2, you is expected to use the specific antiderivative that satisfies F(a) = 0; otherwise the formula gives an incorrect answer."
   type: true-false
   answer: false
   explanation: "Any antiderivative works. If F and G are both antiderivatives of f, they differ by a constant: G(x) = F(x) + C. Then G(b) - G(a) = [F(b) + C] - [F(a) + C] = F(b) - F(a). The constant C cancels regardless of its value. This is why you don't write '+C' in definite integral evaluations and why choosing the simplest antiderivative (C = 0) is always valid."

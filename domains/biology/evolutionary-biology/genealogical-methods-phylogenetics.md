@@ -51,7 +51,7 @@ Genealogical methods use genetic data to infer population history and evolutiona
   answer: 1
   explanation: "Coalescent methods shine precisely where traditional phylogenetics struggles most: recently diverged lineages where gene tree variation due to incomplete lineage sorting is high, and where the distinction between population history and species history becomes critical. For distantly related taxa, traditional methods work well because gene trees and species trees are effectively identical. Coalescent methods add the most value when population-level processes are still shaping the genomic record."
 
-- question: "In phylogenetics, all genes within an organism share the same genealogical history, so using multiple loci simply provides more data to estimate the single correct species tree."
+- question: "In phylogenetics, most genes within an organism share the same genealogical history, so using multiple loci simply provides more data to estimate the single correct species tree."
   type: true-false
   answer: false
   explanation: "Different genes can have different genealogies due to incomplete lineage sorting, recombination, and gene flow. A gene that coalesced in the ancestral population before a speciation event may show a genealogy that contradicts the true species tree. This gene tree discordance is not error — it reflects the stochastic nature of the coalescent process. Coalescent-based methods are built on this reality, modeling the distribution of gene trees rather than forcing all genes onto a single topology."

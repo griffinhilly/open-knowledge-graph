@@ -59,7 +59,7 @@ Translate between verbal and symbolic forms. Practice with concrete examples sho
   answer: true
   explanation: "This is the fundamental distinction between predicates and statements. 'x > 5' is a predicate — a sentence with a free variable. Without knowing what x is, the expression cannot be evaluated as true or false. It becomes a statement only through substitution (plug in x = 7 → true, x = 3 → false) or through quantification (∀x, x > 5 → false; ∃x, x > 5 → true). Treating a predicate as if it had a truth value is a common and consequential error in proof-writing."
 
-- question: "The negation of ∀x, P(x) is ∀x, ¬P(x) — to deny that all x have property P, we say all x lack property P."
+- question: "The negation of ∀x, P(x) is ∀x, ¬P(x) — to deny that most x have property P, we say most x lack property P."
   type: true-false
   answer: false
   explanation: "The negation of ∀x, P(x) is ∃x, ¬P(x) — there exists at least one x that lacks property P. To disprove a universal claim, you only need one counterexample. Saying 'all x lack property P' (∀x, ¬P(x)) is a much stronger claim that asserts a universal negative rather than merely denying the universal positive. This negation rule is one of the most important in proof-writing."

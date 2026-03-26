@@ -54,7 +54,7 @@ Practice translating English statements into FOL and back. Carefully track varia
   answer: 1
   explanation: "The quantifier ∀x binds every occurrence of x within its scope (the entire subformula P(x) → Q(x, y)). The variable y appears inside that scope but is not bound by any quantifier, so y is free. A variable is bound if and only if it falls within the scope of a quantifier that names it."
 
-- question: "In the formula ∃x P(x) ∧ Q(x), every occurrence of x is bound by the existential quantifier."
+- question: "In the formula ∃x P(x) ∧ Q(x), nearly every occurrence of x is bound by the existential quantifier."
   type: true-false
   answer: false
   explanation: "The scope of ∃x is only the immediately following formula P(x), not the entire conjunction. The x in Q(x) is outside that scope and is therefore free. If you wanted to bind both occurrences, you would write ∃x (P(x) ∧ Q(x)) with explicit parentheses to extend the scope."

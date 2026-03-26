@@ -56,7 +56,7 @@ While full first-order logic is undecidable, certain restricted fragments are de
   answer: true
   explanation: "Löwenheim proved in 1915 that the monadic fragment of FOL is decidable. With only unary predicates, you can classify objects into categories (is-red(x), is-large(x)) but cannot express relational structure between objects (is-connected-to(x,y), is-parent-of(x,y)). This limits the combinatorial complexity enough that satisfiability remains decidable. The moment you introduce binary predicates, you can start encoding relational structure that enables computation simulation, and undecidability becomes possible."
 
-- question: "Since full first-order logic is undecidable, all fragments of first-order logic obtained by restricting the set of allowed formulas are also undecidable."
+- question: "Since full first-order logic is undecidable, most fragments of first-order logic obtained by restricting the set of allowed formulas are also undecidable."
   type: true-false
   answer: false
   explanation: "Undecidability of full FOL means there exists no algorithm for the full language — not that every restriction is also undecidable. Many practically important fragments are decidable: monadic FOL (Löwenheim, 1915), the Bernays-Schönfinkel class (∃*∀*), the Ackermann class (∃*∀∃*), the two-variable fragment, and propositional logic itself. Restricting predicate arity, quantifier prefix, or variable count can block the encoding of Turing machine computations, recovering decidability. The entire field of decidable fragments demonstrates that undecidability lives in specific logical features, not in FOL-style reasoning as such."

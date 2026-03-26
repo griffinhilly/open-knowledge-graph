@@ -49,7 +49,7 @@ Nitrogen, phosphorus, and silica cycling couples physical ocean transport with b
   answer: 1
   explanation: "Subtropical gyres are defined by convergent surface flow (Ekman transport pushes surface water toward the gyre center) and downwelling. This circulation actively subducts surface water and its nutrients downward, away from the euphotic zone. The result is a stratified water column with a strong permanent thermocline that prevents nutrient-rich deep water from mixing upward. Despite ample sunlight and warm temperatures, phytoplankton are starved of dissolved nitrogen, phosphorus, and other nutrients. These 'blue-water deserts' are oligotrophic precisely because the physical circulation works against nutrient replenishment — the opposite of upwelling zones."
 
-- question: "Nitrogen is the primary limiting nutrient for marine primary productivity in all regions of the open ocean."
+- question: "Nitrogen is the primary limiting nutrient for marine primary productivity in most regions of the open ocean."
   type: true-false
   answer: false
   explanation: "While nitrogen (as nitrate or ammonium) limits productivity in much of the open ocean, this is not universal. In High Nutrient Low Chlorophyll (HNLC) regions — the Southern Ocean, the equatorial Pacific, and the subarctic Pacific — iron is the limiting nutrient because nitrogen is abundant but iron is vanishingly scarce. In some coastal and estuarine environments, phosphorus can be limiting. Silica specifically limits diatoms, which require it for their frustules. Liebig's Law means productivity is constrained by whichever nutrient is in shortest supply relative to biological demand in that specific location — and that nutrient varies by ocean region and season."

@@ -57,7 +57,7 @@ Study single-unit and fMRI recordings from ventral temporal cortex revealing cat
   answer: true
   explanation: "This hierarchical organization is a well-established principle. V1 neurons respond to oriented edges in a small region of visual space. As you move anteriorly through the ventral stream, receptive fields progressively enlarge and feature preferences become increasingly complex — from contours and textures in V4 to whole objects and faces in IT. This progression implements the progressive abstraction needed for invariant object recognition."
 
-- question: "Category-selective regions like the fusiform face area (FFA) respond exclusively to their preferred category — a face-selective neuron produces no response at all to non-face objects."
+- question: "Category-selective regions like the fusiform face area (FFA) respond exclusively to their preferred category — a face-selective neuron produces no response at most to non-face objects."
   type: true-false
   answer: false
   explanation: "This is a common misconception. The FFA is 'face-selective' in the sense that it responds more strongly to faces than other stimuli — not that it is silent to everything else. fMRI studies show the FFA responds to many object categories, just less strongly than to faces. Understanding it as a region with a strong prior toward face-like stimuli (holistic, fine-grained individuation) is more accurate than treating it as a binary face-detector switch."

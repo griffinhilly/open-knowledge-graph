@@ -48,7 +48,7 @@ After Mycenaean collapse, Greece entered a 300-year period (c. 1100–800 BCE) o
   answer: 1
   explanation: "Bronze required imported tin and copper, which Mycenaean palaces controlled through long-distance trade networks. Iron ore was abundant in mainland Greece and could be worked by local craftsmen without palace-mediated redistribution. This reduced the economic and military monopoly that controlling bronze supply had given elites — a structural shift that aligned with the decentralized, village-based political organization emerging during the Dark Ages. Note that early Greek iron was initially inferior to good bronze in quality, so the shift was not immediately about weapon superiority."
 
-- question: "The Greek Dark Ages were primarily a period of civilizational stagnation that contributed nothing to the development of classical Greek culture."
+- question: "The Greek Dark Ages were primarily a period of civilizational stagnation that contributed very little to the development of classical Greek culture."
   type: true-false
   answer: false
   explanation: "The Dark Ages were transformative, not merely destructive. Three centuries of decentralized village governance (oikos-based communities) created the face-to-face assembly culture that would crystallize into the polis. The collapse of palace hierarchy eliminated centralized control and created space for participatory governance. The adoption of the Phoenician alphabet democratized literacy in ways the palace-scribe Linear B system never could. Classical Greek democracy and civic culture arose because of the specific political and material conditions the Dark Ages created — not despite them."

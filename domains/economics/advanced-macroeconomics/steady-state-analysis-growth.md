@@ -51,7 +51,7 @@ A steady state in growth models is a balanced-growth path where all variables gr
   answer: true
   explanation: "A higher savings rate s shifts up the investment curve sf(k), raising its intersection with the breakeven investment line (n + δ)k. This produces a higher k*. Raising s doesn't change the breakeven line — it only changes how much saving is available to accumulate capital — so the new steady state has more capital per worker and correspondingly higher output and consumption (up to the Golden Rule level)."
 
-- question: "If a steady state has a positive eigenvalue, the economy is guaranteed to converge to it eventually as long as the initial conditions are close enough."
+- question: "If a steady state has a positive eigenvalue, the economy is very likely to converge to it eventually as long as the initial conditions are close enough."
   type: true-false
   answer: false
   explanation: "A positive eigenvalue means the system is locally unstable in that direction — perturbations grow, not shrink, along the corresponding eigenvector. Convergence requires all eigenvalues to have negative real parts. A saddle point (one negative, one positive) has only a one-dimensional stable manifold; initial conditions not on it diverge. 'Close to steady state' is not sufficient for convergence when a positive eigenvalue exists."

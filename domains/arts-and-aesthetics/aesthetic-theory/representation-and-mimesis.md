@@ -60,7 +60,7 @@ Trace the history of representational art from realism through impressionism to 
   answer: true
   explanation: "Aristotle argued that poetry (including tragedy) is more philosophical than history because history tells us what happened (particular facts), while tragedy shows us what tends to happen — the logic of cause and effect in human affairs. By selecting, arranging, and intensifying events, the playwright reveals universal patterns about how character leads to action and action leads to consequence. This makes mimesis in Aristotle's sense not merely imitative but interpretive and revelatory."
 
-- question: "Fully abstract art — art with no recognizable objects or figures — has completely escaped the tradition of mimesis and has no relationship to representation whatsoever."
+- question: "Fully abstract art — art with no recognizable objects or figures — has substantially escaped the tradition of mimesis and has no relationship to representation whatsoever."
   type: true-false
   answer: false
   explanation: "Even the most radical abstract art maintains a relationship to representation, if only through deliberate refusal. Abstract artists were reacting against specific mimetic assumptions: that art must depict recognizable objects, that a single-viewpoint illusion is 'truth,' that accuracy to external appearance is the goal. To revolt against the mimetic tradition, you must know what you are revolting against. Understanding mimesis means understanding what each subsequent artistic revolution — from Impressionism to Cubism to abstraction — was pushing back on."

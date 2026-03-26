@@ -48,7 +48,7 @@ Phase transformations occur through nucleation of stable new-phase embryos and s
   answer: 1
   explanation: "The C-curve shape arises from two opposing temperature dependencies. Nucleation rate increases with undercooling (lower ΔG*, more embryos crossing critical size). Growth rate decreases with lower temperature because atomic diffusion — required to rearrange atoms into the new phase — follows Arrhenius kinetics and slows exponentially. Near the equilibrium temperature, driving force is too small for fast nucleation. At very low temperatures, diffusion is too slow for growth. The nose marks where both constraints are best simultaneously satisfied."
 
-- question: "Increasing undercooling below the equilibrium transformation temperature always accelerates phase transformations because it simultaneously increases both the nucleation rate and the growth rate."
+- question: "Increasing undercooling below the equilibrium transformation temperature generally accelerates phase transformations because it simultaneously increases both the nucleation rate and the growth rate."
   type: true-false
   answer: false
   explanation: "Increasing undercooling raises the thermodynamic driving force, which increases the nucleation rate by lowering ΔG*. However, growth rate is governed by atomic diffusion, which decreases exponentially at lower temperatures. At sufficient undercooling, diffusion becomes so slow that even though nucleation is fast, nuclei can barely grow. This is why quenching steel fast enough completely suppresses diffusional transformations like pearlite — the C-curve is bypassed because time runs out before growth can occur."

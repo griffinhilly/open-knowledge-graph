@@ -57,7 +57,7 @@ Linear perspective is the only way to show depth. Depth always requires realisti
   answer: true
   explanation: "Occlusion (overlapping) is the most basic and automatic depth cue. When one shape partially covers another, the visual system immediately reads the covered shape as farther away — regardless of content, color, or style. Even two plain geometric forms on a white background create an unambiguous spatial relationship when one overlaps the other. This works in purely abstract art, diagrams, and icons as readily as in representational painting."
 
-- question: "Objects placed higher in a composition always appear farther from the viewer than objects placed lower."
+- question: "Objects placed higher in a composition usually appear farther from the viewer than objects placed lower."
   type: true-false
   answer: false
   explanation: "Higher placement tends to read as more distant because we associate it with a receding ground plane in everyday experience. But this is a tendency, not a rule — context overrides it. In scenes with a sky or ceiling plane, higher elements may appear closer. Bird's-eye views, water reflections, and abstract compositions can establish spatial logics where vertical position means something different. The cue works as a default assumption, not an absolute."

@@ -54,7 +54,7 @@ Conduct source monitoring experiments where items are studied under different so
   answer: 2
   explanation: "Cryptomnesia is a specific type of reality monitoring error: a previously encountered external idea is later recalled as an original self-generated thought, because the source tag (external story) has faded while the content remains accessible. The novelist genuinely believes the idea is hers — this is not plagiarism as typically understood but a failure of the source monitoring system. It demonstrates that content memory can outlast source memory, leaving ideas 'orphaned' from their origins."
 
-- question: "Older memories are always harder to source-attribute accurately than recent ones, because source information fades proportionally with time."
+- question: "Older memories are typically harder to source-attribute accurately than recent ones, because source information fades proportionally with time."
   type: true-false
   answer: false
   explanation: "Source confusion can occur immediately — even for memories formed minutes ago — when the encoding conditions make sources difficult to distinguish. The key variable is not elapsed time but the distinctiveness of the source conditions at encoding: inattention, divided attention, similarity between sources, and high cognitive load all reduce source specificity regardless of how recent the event was. Highly distinctive or emotionally salient events may retain source information for years, while low-distinctiveness events may be source-confused within hours."

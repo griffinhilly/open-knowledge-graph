@@ -50,7 +50,7 @@ Radiation does not simply travel downward or upward; it propagates in all direct
   answer: 1
   explanation: "Transmittance is T = exp(−τ), where optical depth τ is proportional to concentration. Doubling concentration doubles τ, which exponentially reduces T. This nonlinearity means that adding more of an already-abundant absorber (like CO₂ near its saturation bands) produces diminishing returns — a logarithmic forcing relationship rather than a linear one."
 
-- question: "Greenhouse gases absorb outgoing infrared radiation uniformly across all infrared wavelengths, so every part of the infrared spectrum is equally attenuated."
+- question: "Greenhouse gases absorb outgoing infrared radiation uniformly across most infrared wavelengths, so nearly every part of the infrared spectrum is equally attenuated."
   type: true-false
   answer: false
   explanation: "Molecular absorption occurs only at specific wavelengths (vibrational and rotational transition bands), not uniformly. CO₂ absorbs strongly near 15 μm; water vapor has bands across a wide range; but the 8–12 μm atmospheric window is relatively transparent. This spectral selectivity is why the window exists and why different gases have different radiative forcing efficiencies."

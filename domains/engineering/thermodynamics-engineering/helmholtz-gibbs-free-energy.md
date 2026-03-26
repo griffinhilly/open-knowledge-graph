@@ -53,7 +53,7 @@ Helmholtz free energy A = U - TS represents maximum useful work for systems at c
   answer: true
   explanation: "ΔG = 0 is the condition for equilibrium at constant T and P — the system has minimized its Gibbs free energy. ΔG < 0 means the system can still lower its free energy by converting more reactants to products, so the forward reaction proceeds spontaneously. ΔG > 0 means the reverse is spontaneous. The common error is thinking 'spontaneous' and 'at equilibrium' are synonymous — they are not. Equilibrium is the state toward which spontaneous processes drive the system."
 
-- question: "A reaction with ΔG < 0 will proceed to completion, consuming all reactants and converting them entirely to products."
+- question: "A reaction with ΔG < 0 will proceed to completion, consuming most reactants and converting them mostly to products."
   type: true-false
   answer: false
   explanation: "ΔG < 0 (at standard conditions, ΔG°) means products are favored at equilibrium — K_eq > 1. But this does not mean complete conversion. The reaction proceeds until ΔG = 0 (equilibrium), at which point both reactants and products are present. How far it goes depends on the magnitude of K_eq: a very large K means nearly complete conversion, but true completion (K → ∞) is only asymptotically approached. ΔG < 0 indicates direction and tendency, not completion."

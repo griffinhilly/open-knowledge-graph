@@ -52,7 +52,7 @@ Green's theorem relates a line integral around a closed curve C to a double inte
   answer: true
   explanation: "This is one of Green's theorem's elegant applications. Because ∬_D 1 dA = ½ ∮_C (x dy − y dx), the area of D is computable from the boundary curve C. Other equivalent formulas are ∮_C x dy and −∮_C y dx. This converts a 2D computation into a 1D one, which is especially useful for regions bounded by parameterizable curves."
 
-- question: "Green's theorem only helps when the line integral is difficult and the double integral is easy — if the double integral is harder, you cannot apply the theorem in reverse."
+- question: "Green's theorem primarily helps when the line integral is difficult and the double integral is easy — if the double integral is harder, you can rarely apply the theorem in reverse."
   type: true-false
   answer: false
   explanation: "Green's theorem is a two-way trade. You can go either direction: convert a difficult line integral into a double integral, or convert a difficult double integral into a line integral along the boundary. The strategic skill is recognizing which side of the trade is simpler in each problem. A double integral over a complicated region might become tractable as a line integral around a simple boundary."

@@ -48,7 +48,7 @@ Clebsch-Gordan coefficients ⟨j₁, m₁; j₂, m₂ | j, m_j⟩ expand coupled
   answer: true
   explanation: "The z-component operator is Jz = J₁z + J₂z. The uncoupled state |j₁, m₁; j₂, m₂⟩ is an eigenstate of J₁z with eigenvalue ℏm₁ and of J₂z with eigenvalue ℏm₂, so it is an eigenstate of Jz with eigenvalue ℏ(m₁ + m₂). Since coupled states |J, M⟩ are eigenstates of Jz with eigenvalue ℏM, only coupled states with M = m₁ + m₂ are non-orthogonal to the uncoupled state. This is an exact selection rule — not an approximation — and it eliminates most CG coefficients from the outset."
 
-- question: "For two spin-½ particles, the Clebsch-Gordan decomposition yields four total states, all of which are symmetric under exchange of particle labels."
+- question: "For two spin-½ particles, the Clebsch-Gordan decomposition yields four total states, most of which are symmetric under exchange of particle labels."
   type: true-false
   answer: false
   explanation: "The decomposition yields a triplet (J=1) and a singlet (J=0). The three triplet states |1,1⟩, |1,0⟩, |1,−1⟩ are symmetric under particle exchange, but the singlet |0,0⟩ = (1/√2)(|↑↓⟩ − |↓↑⟩) is antisymmetric — it reverses sign when particle labels are swapped. The CG coefficient structure encodes this symmetry difference: a + sign in the triplet M=0 state, a − sign in the singlet. This matters because identical fermions require antisymmetric total wavefunctions, constraining which spin states are available for a given spatial state."

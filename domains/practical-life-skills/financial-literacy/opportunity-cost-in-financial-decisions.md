@@ -56,7 +56,7 @@ People often only count explicit monetary costs, ignoring what they could have e
   answer: false
   explanation: "Opportunity cost is not just the explicit monetary cost — it is the value of the best alternative foregone, which includes non-monetary factors: time spent, flexibility lost, skills developed, investment returns compounded over time, and quality of life. Two options priced identically can have very different opportunity costs. For example, two jobs paying the same salary might differ dramatically in opportunity cost if one offers career-building experience and flexible hours while the other does not."
 
-- question: "Opportunity cost applies only to large financial decisions like buying a house or car; everyday small purchases are too minor for it to matter."
+- question: "Opportunity cost applies mainly to large financial decisions like buying a house or car; everyday small purchases are too minor for it to matter."
   type: true-false
   answer: false
   explanation: "Opportunity cost applies to every decision, and small recurring costs are especially significant because they compound. $100/month in unused subscriptions is not $100 — it's $100 per month plus its 30-year investment value. The concept matters at every scale; in fact, habitual small decisions often have larger cumulative opportunity costs than one-time large purchases because they repeat indefinitely. The goal is not anxiety about every coffee but conscious awareness of patterns."

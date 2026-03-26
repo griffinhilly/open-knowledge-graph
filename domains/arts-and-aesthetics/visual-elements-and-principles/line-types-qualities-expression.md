@@ -52,7 +52,7 @@ Practice drawing various line types—straight, curved, thick, thin, rough, smoo
   answer: 1
   explanation: "Implied lines are paths the viewer's eye follows based on the alignment of elements — gazes, gestures, pointing objects, or a row of dots — even when no visible mark connects them. A row of figures all looking in the same direction creates a powerfully directed implied line. Implied lines are often more effective than actual lines for guiding attention because they engage the viewer's perceptual inference without adding visual clutter. Recognizing and designing with implied lines is as important as controlling actual marks."
 
-- question: "All lines in a composition must be visible marks physically drawn on the surface in order to effectively direct the viewer's eye and organize the composition."
+- question: "Most lines in a composition should be visible marks physically drawn on the surface in order to effectively direct the viewer's eye and organize the composition."
   type: true-false
   answer: false
   explanation: "Implied lines — created by aligned gazes, gestures, edges of objects, or repeated elements — direct attention just as powerfully as actual drawn lines. A figure pointing, a series of objects aligned along a path, or multiple characters looking at the same thing all create implied lines of attention. These invisible directional forces are essential compositional tools precisely because they guide the viewer without adding the visual density of a drawn line. Skilled artists use both actual and implied lines in concert."

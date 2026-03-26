@@ -54,7 +54,7 @@ Implement 2SLS by hand (running two OLS regressions) and then compare to softwar
   answer: 1
   explanation: "The first-stage F-statistic tests instrument relevance — how much variation in the endogenous variable x does the instrument explain? With F = 4.2 (well below the rule-of-thumb threshold of 10), the instrument is weak. Weak instruments cause 2SLS to perform poorly in finite samples: estimates are biased toward OLS (which has the original endogeneity problem), and standard errors become unreliable. Note that a low F-statistic does not indicate exclusion restriction violation — that is a separate issue that F-stat cannot detect."
 
-- question: "Having more instruments than endogenous variables (overidentification) allows the researcher to fully verify that all instruments satisfy the exclusion restriction via the Hansen-Sargan J-test."
+- question: "Having more instruments than endogenous variables (overidentification) allows the researcher to fully verify that most instruments satisfy the exclusion restriction via the Hansen-Sargan J-test."
   type: true-false
   answer: false
   explanation: "The J-test provides only a partial check. It tests whether all instruments yield the same coefficient estimate — if one instrument is invalid (correlated with the error), using it alone would produce a different estimate than using the others. A significant J-test flags inconsistency among instruments. However, the test cannot identify which instrument is invalid, and crucially, if all instruments are invalid in the same direction, the J-test may not detect the problem at all. A passing J-test is not proof of validity — it is merely absence of detected inconsistency."

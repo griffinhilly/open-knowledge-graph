@@ -51,7 +51,7 @@ A degree sequence is the list of degrees of all vertices in a graph, typically w
   answer: true
   explanation: "This follows directly from the handshaking lemma: the sum of all vertex degrees equals exactly twice the number of edges (each edge contributes 1 to each of its two endpoints' degrees). Therefore the degree sum is always even. An odd-sum sequence violates this, so no simple graph — or any graph without self-loops — can realize it. This is the quickest test for ruling out a sequence: check parity first."
 
-- question: "Two graphs with the same degree sequence must be isomorphic — they have the same structure."
+- question: "Two graphs with the same degree sequence should be isomorphic — they have the same structure."
   type: true-false
   answer: false
   explanation: "Many non-isomorphic graphs share the same degree sequence. For example, both the path P₄ and the star K₁,₃ have three vertices of degree 1 in related configurations, and there exist pairs of 6-vertex non-isomorphic graphs with degree sequence (2,2,2,2,2,2) — one being a 6-cycle, the other being two disjoint triangles. The degree sequence is a coarse summary of graph structure; it tells you the 'shape' of connectivity in aggregate but not which specific vertices are connected."

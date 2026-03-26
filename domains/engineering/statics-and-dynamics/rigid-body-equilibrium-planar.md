@@ -50,7 +50,7 @@ For a rigid body in two-dimensional equilibrium, three independent equations mus
   answer: 2
   explanation: "A fixed support prevents all translation and all rotation at the attachment point. In 2D, preventing translation requires two force components (x and y); preventing rotation requires a moment couple. This gives three unknowns. A roller provides only one unknown (force perpendicular to the surface); a pin provides two (x and y force components, free to rotate). Correctly counting unknowns per support type is essential for determining whether a system is statically determinate before setting up equations."
 
-- question: "For a planar rigid body in equilibrium, the moment equation ΣM = 0 can only be validly applied about the body's centroid."
+- question: "For a planar rigid body in equilibrium, the moment equation ΣM = 0 can primarily be validly applied about the body's centroid."
   type: true-false
   answer: false
   explanation: "The moment equation ΣM = 0 is valid about any point in the plane — not just the centroid, not just a support point. The choice of moment center affects which unknowns appear in the equation (forces through the chosen point contribute zero moment), but the equilibrium condition itself holds about any point. This freedom to choose the moment center strategically — placing it where unknowns intersect to eliminate them from the equation — is the key to efficient analysis."

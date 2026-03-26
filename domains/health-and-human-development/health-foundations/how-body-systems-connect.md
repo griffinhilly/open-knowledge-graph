@@ -55,7 +55,7 @@ Use a concrete scenario: trace what happens when you run a race. Muscles need en
   answer: 1
   explanation: "Red blood cells carry oxygen from the lungs to every cell in the body. With too few red blood cells, oxygen delivery drops across all tissues. Muscles don't get enough oxygen to produce energy efficiently (fatigue and weakness). The lungs try to compensate by breathing faster (shortness of breath). The brain gets less oxygen (difficulty concentrating). This demonstrates how a problem in the circulatory system cascades to every other system because they all depend on oxygen delivery."
 
-- question: "Each organ system operates independently and only communicates with other systems during emergencies."
+- question: "Each organ system operates independently and mainly communicates with other systems during emergencies."
   type: true-false
   answer: false
   explanation: "Organ systems communicate and depend on each other continuously, not just during emergencies. Every heartbeat delivers oxygen from the respiratory system via the circulatory system. Every breath removes carbon dioxide that cells throughout the body produced while burning fuel provided by the digestive system. The nervous system coordinates all of this constantly. Interdependence is the normal state, not an emergency response."

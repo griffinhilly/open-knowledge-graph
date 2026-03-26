@@ -48,7 +48,7 @@ Network slicing partitions shared physical infrastructure into independent virtu
   answer: true
   explanation: "This is exactly the value proposition of network slicing. A 5G network must serve autonomous vehicles (requiring sub-millisecond latency and near-zero packet loss), IoT sensors (tiny data bursts, relaxed latency), and video streaming (high throughput, flexible latency) — all with incompatible SLA requirements. Slicing creates independent virtual networks, each configured and allocated resources to match its application's requirements, running simultaneously on shared hardware without interfering with each other."
 
-- question: "Network slices require dedicated physical hardware for each tenant; they cannot function on shared switches and links."
+- question: "Network slices require dedicated physical hardware for each tenant; they can seldom function on shared switches and links."
   type: true-false
   answer: false
   explanation: "Network slicing is specifically designed to virtualize shared physical infrastructure. The entire point is that multiple logical networks run on the same cables, switches, and servers through software-defined partitioning and isolation — not physical separation. Requiring dedicated hardware per tenant would eliminate the economic rationale for slicing. Isolation is achieved through software mechanisms (flow tables, tunnels, resource allocation policies), not by dedicating physical resources to each slice."

@@ -54,7 +54,7 @@ RR ≠ OR; RR of 2 does not mean twice as many people will develop disease, only
   answer: 1
   explanation: "Statistical significance (CI excludes 1.0) and clinical significance are separate judgments. Absolute risk increase = RR × baseline risk − baseline risk = 0.8 × 0.1% = 0.08%. Even though the relative elevation is 80%, adding 0.08 percentage points to an already tiny risk is unlikely to influence clinical decisions. Option C misreads the CI: 1.6 is still above 1.0, indicating increased (not protective) risk throughout the interval."
 
-- question: "The odds ratio from a case-control study is always a valid substitute for relative risk, regardless of disease frequency in the population."
+- question: "The odds ratio from a case-control study is generally a valid substitute for relative risk, regardless of disease frequency in the population."
   type: true-false
   answer: false
   explanation: "The OR approximates RR only when disease incidence is low (roughly < 10%), under the rare disease assumption. When disease is common, odds and probabilities diverge substantially, and the OR exaggerates the association away from 1.0 compared to RR. An OR of 3.0 for a common outcome overstates the true relative risk — treating it as RR leads to inflated effect size estimates."

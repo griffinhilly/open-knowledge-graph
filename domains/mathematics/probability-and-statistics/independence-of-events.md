@@ -49,7 +49,7 @@ Events A and B are independent if P(A|B)=P(A), equivalently P(A∩B)=P(A)P(B). I
   answer: true
   explanation: "By the product rule for independent events: P(A ∩ B) = P(A) · P(B) = 0.4 × 0.5 = 0.2. This is direct application of the definition. Note that this product rule is not valid for dependent events — if A and B were dependent, you would need P(A ∩ B) = P(A) · P(B | A), and P(B | A) ≠ P(B)."
 
-- question: "If three events are pairwise independent — every pair satisfies the product rule — then the three events are mutually independent."
+- question: "If three events are pairwise independent — most pair satisfies the product rule — then the three events are mutually independent."
   type: true-false
   answer: false
   explanation: "Pairwise independence does not imply mutual independence. Classic counterexample: flip a fair coin twice. Let A₁ = heads on flip 1, A₂ = heads on flip 2, A₃ = exactly one head total. Every pair is independent (P(Aᵢ ∩ Aⱼ) = P(Aᵢ)P(Aⱼ) for each pair). But P(A₁ ∩ A₂ ∩ A₃) = 0 (you can't have two heads AND exactly one head), while P(A₁)P(A₂)P(A₃) = 1/8 ≠ 0. Mutual independence requires all subsets — not just pairs — to satisfy the product rule."

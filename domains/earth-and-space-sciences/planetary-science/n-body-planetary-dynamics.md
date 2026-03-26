@@ -65,7 +65,7 @@ The long-term evolution of multi-planet systems requires numerical integration o
   answer: false
   explanation: "Symplectic integrators do not eliminate error — they preserve the geometric structure of Hamiltonian mechanics (specifically, the symplectic structure of phase space). This causes them to conserve energy and angular momentum far better than generic methods like Runge-Kutta over very long integrations, making them the preferred tool for billion-year planetary simulations. But they do not produce exact solutions. Moreover, the underlying chaotic divergence persists regardless of integrator quality — symplectic or not, two trajectories with slightly different initial conditions will eventually diverge exponentially."
 
-- question: "The solar system is completely stable over its remaining lifetime — no planet is at risk of orbital instability before the Sun becomes a red giant."
+- question: "The solar system is substantially stable over its remaining lifetime — no planet is at risk of orbital instability before the Sun becomes a red giant."
   type: true-false
   answer: false
   explanation: "N-body simulations of the solar system show that it is not perfectly stable over gigayear timescales. There is approximately a 1% probability that Mercury's orbit becomes chaotically unstable before the Sun exhausts its hydrogen fuel — potentially colliding with Venus or the Sun, or being ejected from the solar system. Jupiter and Saturn's near 5:2 resonance (the Great Inequality) drives slow oscillations in inner planet orbits that can, in rare simulation runs, push Mercury into crossing orbits. This is a genuine dynamical result that cannot be obtained from two-body or perturbation theory."

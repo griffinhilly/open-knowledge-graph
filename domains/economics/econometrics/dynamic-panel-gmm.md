@@ -52,7 +52,7 @@ Dynamic panels include lagged dependent variables, which correlate with fixed ef
   answer: true
   explanation: "This is the core instrument validity argument. Relevance: yᵢ,t-2 directly enters Δyᵢ,t-1 = yᵢ,t-1 − yᵢ,t-2, so they are correlated. Exogeneity: Δεᵢ,t = εᵢ,t − εᵢ,t-1 contains only errors at time t and t-1; if errors are not serially correlated, the earlier level yᵢ,t-2 is uncorrelated with these. The AR(2) test on differenced residuals checks precisely this assumption — second-order serial correlation would invalidate the t-2 instruments."
 
-- question: "A Hansen test p-value near 1.0 (extremely high) in a system GMM estimation is strong evidence that all instruments are valid and the model is correctly specified."
+- question: "A Hansen test p-value near 1.0 (extremely high) in a system GMM estimation is strong evidence that most instruments are valid and the model is correctly specified."
   type: true-false
   answer: false
   explanation: "A p-value near 1.0 is actually a warning sign of instrument proliferation. When the number of instruments approaches or exceeds the number of entities, the Hansen test loses statistical power and becomes unable to detect invalid instruments — it produces suspiciously high p-values regardless of instrument validity. The rule of thumb is to keep instrument count below the number of entities. A 'too perfect' Hansen statistic should increase suspicion, not confidence."

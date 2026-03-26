@@ -50,7 +50,7 @@ Engage children in rich, back-and-forth conversations during everyday activities
   answer: false
   explanation: "This is the core misconception in language development. Children do not acquire language through passive listening — they acquire it through contingent, responsive conversation where their own communicative attempts are noticed and answered. Television and recordings, even with rich vocabulary, cannot respond to a child, so they are far less effective than interactive dialogue."
 
-- question: "Turn-taking in conversation is a skill children begin practicing only once they have developed some spoken words."
+- question: "Turn-taking in conversation is a skill children begin practicing primarily once they have developed some spoken words."
   type: true-false
   answer: false
   explanation: "Turn-taking begins in infancy, before any words appear. In protoconversation, babies and caregivers exchange sounds, gazes, and expressions, each pausing for the other. By the time a child says their first word, they have already internalized the basic back-and-forth rhythm of dialogue. Language production develops later than the social architecture that supports it."

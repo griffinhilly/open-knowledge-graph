@@ -53,7 +53,7 @@ Start by solving 2x2 systems as review, then extend to 3x3. Use Gaussian elimina
   answer: 0
   explanation: "Each equation in three variables defines a plane. A unique solution means there is exactly one point (x, y, z) satisfying all three equations simultaneously — one point all three planes share. Options B and C describe configurations with no solution (inconsistent). Option D describes infinitely many solutions (dependent). The geometry of three planes in 3D offers exactly these outcomes: one point, a line or plane of overlap, or no overlap."
 
-- question: "A system of three linear equations in three variables always has exactly one solution, since three equations should uniquely determine three unknowns."
+- question: "A system of three linear equations in three variables typically has exactly one solution, since three equations should uniquely determine three unknowns."
   type: true-false
   answer: false
   explanation: "Three equations and three unknowns do not guarantee a unique solution. The system can be inconsistent (no solution — the planes have no common intersection point) or dependent (infinitely many solutions — the planes share a line or are identical). The algebraic signals during elimination reveal which case applies: a contradiction (0 = 5) means inconsistent; a tautology (0 = 0) means dependent. Assuming uniqueness without checking leads to incorrect conclusions."

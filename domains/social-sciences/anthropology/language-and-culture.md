@@ -57,7 +57,7 @@ Examine cross-linguistic examples where grammatical structure encodes something 
   answer: 2
   explanation: "Code-switching requires MORE linguistic competence, not less — the speaker must master multiple registers and know when each is appropriate. Linguistic anthropologists understand it as performance of different identities and navigation of power structures. Options A and B reflect common folk misconceptions. Option D conflates language use with psychological identity."
 
-- question: "The strong Sapir-Whorf hypothesis — that humans cannot think thoughts they have no words for — is well-supported by evidence from cross-linguistic research."
+- question: "The strong Sapir-Whorf hypothesis — that humans can seldom think thoughts they have no words for — is well-supported by evidence from cross-linguistic research."
   type: true-false
   answer: false
   explanation: "The strong version is now rejected. People clearly can think things they struggle to express, and speakers of different languages can understand concepts that their own language doesn't lexicalize. What research does support is the weak version: language shapes habitual attention and makes certain distinctions cognitively easier or more automatic — not impossible to make without the word."

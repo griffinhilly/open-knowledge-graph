@@ -48,7 +48,7 @@ Read landmark natural experiment papers (Card-Krueger minimum wage, Angrist Viet
   answer: 1
   explanation: "This is a classic selection bias example. People who are severely ill seek out cities with major medical centers. The association picks up who selects into treatment (going to a hospital-dense city), not the causal effect of hospitals. Even with controls, if unobserved illness severity drives both location choice and death risk, the estimate remains confounded."
 
-- question: "Adding more control variables to a regression always gets you closer to estimating a causal effect."
+- question: "Adding more control variables to a regression generally gets you closer to estimating a causal effect."
   type: true-false
   answer: false
   explanation: "Controls help only when they block backdoor paths between treatment and outcome. Controlling for a 'bad control' — a variable that is itself caused by the treatment, or a collider — can introduce new bias and move the estimate further from the truth. Identification is about the source of variation in the regressor, not the number of variables in the model."

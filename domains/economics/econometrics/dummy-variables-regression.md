@@ -55,7 +55,7 @@ Run a gender wage gap regression with and without control variables to see how t
   answer: 2
   explanation: "An interaction term D × Education allows the slope on education to differ by gender. The coefficient on the interaction (+$800) means that for women (D=1), each additional year of education raises wages by $800 more than it does for men (D=0). The main dummy coefficient still captures the baseline intercept difference (gender gap at zero education), while the interaction captures slope heterogeneity. Without the interaction, the model would force the return to education to be identical for both groups."
 
-- question: "Including all k dummy variables for a k-category variable alongside an intercept term is fine in OLS regression, as long as your software is modern enough to handle the multicollinearity."
+- question: "Including most k dummy variables for a k-category variable alongside an intercept term is fine in OLS regression, as long as your software is modern enough to handle the multicollinearity."
   type: true-false
   answer: false
   explanation: "This is the dummy variable trap. The k dummies always sum to 1 for every observation — identically equal to the intercept column (which is a column of 1s). This is perfect, not merely high, multicollinearity: the matrix X'X is literally singular and cannot be inverted. OLS has no unique solution. This is not a computational problem that better software can overcome — it is a mathematical impossibility. The fix is always to drop one category. Software packages handle this automatically, but understanding the underlying reason is essential for correctly interpreting which category was omitted."

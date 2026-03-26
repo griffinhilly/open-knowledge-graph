@@ -58,7 +58,7 @@ Physically interpret each degree of freedom: three independent directions of tra
   answer: false
   explanation: "Each quadratic term independently contributes (1/2)kT. The kinetic energy ½mv² is one quadratic term contributing (1/2)kT, and the potential energy ½kx² is a second quadratic term also contributing (1/2)kT. The total average energy is therefore kT, not (1/2)kT. This is why vibrational modes contribute twice as much to heat capacity as translational or rotational modes — they have two quadratic terms, not one."
 
-- question: "The equipartition theorem gives reliable predictions for heat capacities of all real gases at any temperature."
+- question: "The equipartition theorem gives reliable predictions for heat capacities of most real gases at any temperature."
   type: true-false
   answer: false
   explanation: "The equipartition theorem is a classical result assuming all modes can absorb energy continuously. Quantum mechanics restricts modes to discrete energy levels — if kT is much smaller than the level spacing ħω, the mode is frozen and contributes nothing. This quantum freezing makes classical equipartition an overestimate at low temperatures or for modes with large energy spacing (like vibrations in light diatomic molecules). The theorem gives good predictions only when kT >> ħω for the relevant mode."

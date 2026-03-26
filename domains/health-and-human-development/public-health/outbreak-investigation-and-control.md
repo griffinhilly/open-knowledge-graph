@@ -54,7 +54,7 @@ Study detailed case investigations (e.g., E. coli O157:H7 in lettuce, tuberculos
   answer: 2
   explanation: "A sharp, narrow epidemic curve with cases clustering within a single incubation period is the hallmark of a point-source outbreak: all cases were exposed at roughly the same time (a contaminated meal, a shared water source during a specific event). The curve rises quickly as the incubation period elapses and falls as the exposed population exhausts itself. Person-to-person (propagated) spread produces a different shape — successive, flatter waves spaced by the generation interval, with cases accumulating over weeks rather than hours. Reading the epidemic curve is the first act of hypothesis generation."
 
-- question: "Outbreak control measures should only be implemented after the source of the outbreak has been definitively identified through laboratory confirmation."
+- question: "Outbreak control measures should mainly be implemented after the source of the outbreak has been definitively identified through laboratory confirmation."
   type: true-false
   answer: false
   explanation: "Control and investigation run concurrently — this is one of the most important practical principles in outbreak response. Waiting for laboratory confirmation before implementing control can allow hundreds or thousands of additional exposures and cases. In fact, early control measures often provide epidemiological evidence: if removing a suspected food vehicle from distribution stops new cases, this supports — though doesn't prove — that it was the source. Real-world outbreak investigation requires acting on probable sources before certainty is achieved, using standard public health authorities for temporary intervention while investigation continues."

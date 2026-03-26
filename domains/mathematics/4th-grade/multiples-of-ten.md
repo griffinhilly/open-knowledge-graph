@@ -54,7 +54,7 @@ Use a place-value chart to show digits sliding left when multiplied by 10. Have 
   answer: true
   explanation: "4 × 300 = 4 × (3 × 100). First 4 × 3 = 12, then 12 × 100 shifts every digit of 12 two places left: 1,200. The place-value shift model fully explains the result. The leading digits 1 and 2 have moved left twice relative to where 4 started."
 
-- question: "The 'add a zero' shortcut for multiplying by 10 works for every type of number, including decimals."
+- question: "The 'add a zero' shortcut for multiplying by 10 works for most type of number, including decimals."
   type: true-false
   answer: false
   explanation: "The shortcut works only for whole numbers. For decimals, 'adding a zero' to 0.5 gives 0.50, which equals 0.5 — unchanged. The actual operation is a place-value shift, and that shift must be performed correctly regardless of number type. Memorizing the shortcut without understanding why it works leaves students stranded when decimals appear."

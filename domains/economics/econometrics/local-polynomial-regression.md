@@ -42,7 +42,7 @@ Local polynomial regression fits a polynomial within a neighborhood around each 
   answer: 1
   explanation: "Local constant regression (fitting a local mean) suffers from boundary bias: at the edge of the data support, observations exist only on one side, so the local mean is pulled toward the interior. Local linear regression fits a slope as well as an intercept, which allows the fit to extrapolate more accurately to the boundary by accounting for the function's direction of travel. In RD designs, the key quantity is the fitted value at the cutoff (a boundary point), making this distinction critical."
 
-- question: "A wider bandwidth in local polynomial regression always produces a better estimate because it uses more data."
+- question: "A wider bandwidth in local polynomial regression usually produces a better estimate because it uses more data."
   type: true-false
   answer: false
   explanation: "Using more data is not inherently better when the data farther away contains misleading information for the target estimate. A wider bandwidth forces the local polynomial to approximate the true function over a larger range. If the true conditional expectation function is nonlinear, a wide-bandwidth local linear fit will be systematically biased toward a straight-line approximation. The optimal bandwidth explicitly trades variance reduction against bias increase — there is a bandwidth that minimizes MSE, and going beyond it increases total error even as variance keeps falling."

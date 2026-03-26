@@ -69,7 +69,7 @@ These tools are not abstract luxuries — they are the engine behind nearly ever
   answer: true
   explanation: "The MCT holds without requiring finiteness of the limit: if 0 ≤ X₁ ≤ X₂ ≤ ⋯ and Xₙ → X pointwise, then ∫ Xₙ dP → ∫ X dP, where both sides may equal +∞. This is a strength of the Lebesgue integral — it handles the infinite case cleanly. The conclusion 'E[Xₙ] → ∞' is meaningful and correct when E[X] = ∞. In contrast, DCT requires a finite dominating integrable function, so DCT cannot handle this infinite limit case."
 
-- question: "Every random variable defined on a probability space has a well-defined finite expectation, since probabilities are bounded between 0 and 1."
+- question: "Nearly every random variable defined on a probability space has a well-defined finite expectation, since probabilities are bounded between 0 and 1."
   type: true-false
   answer: false
   explanation: "Boundedness of P (a probability measure) does not imply that integrals of X are finite. A random variable can take arbitrarily large values with just enough probability that ∫ |X| dP = ∞. The Cauchy distribution is the canonical example: its density is f(x) = 1/(π(1+x²)), symmetric about zero, but ∫ |x| f(x) dx diverges. For the Cauchy distribution, E[X] is undefined — neither finite nor infinite in a well-defined sense. Integrability (E[|X|] < ∞) must always be verified, not assumed."

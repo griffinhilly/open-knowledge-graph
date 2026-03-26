@@ -44,7 +44,7 @@ Seq2seq models encode variable-length inputs and decode to variable-length outpu
   answer: 1
   explanation: "Beam search maintains the top-k partial sequences at each step and selects the highest-scoring complete sequence. It is strictly better than greedy decoding (k=1) because it considers more candidates, but it does not exhaustively search all possible outputs. The global optimum can still be missed if it was never in the beam. Beam search is a practical approximation, not an exact algorithm."
 
-- question: "In a seq2seq model without attention, the decoder can only use information about the first few input tokens because LSTM hidden states decay over time."
+- question: "In a seq2seq model without attention, the decoder can primarily use information about the first few input tokens because LSTM hidden states decay over time."
   type: true-false
   answer: false
   explanation: "This conflates two issues. In a standard seq2seq model, the decoder uses the encoder's final hidden state — which ideally summarizes the entire input, not just the early tokens. The problem is not that early tokens are forgotten but that the final hidden state is a fixed-size vector that must encode everything, and very long sequences overload this fixed capacity. Attention solves a different problem: it lets the decoder actively query specific positions at each generation step, rather than relying solely on one summary vector."

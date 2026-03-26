@@ -57,7 +57,7 @@ Connect to the binomial theorem first as the m=2 special case. Count arrangement
   answer: 2
   explanation: "The coefficient of a^k₁ b^k₂ c^k₃ in (a+b+c)ⁿ is the multinomial coefficient n!/(k₁!k₂!k₃!). Here n=4, k₁=2, k₂=1, k₃=1, so the coefficient is 4!/(2!·1!·1!) = 24/2 = 12. A common error is to use C(4,2) = 6 (option B), which only accounts for choosing the positions for a but ignores the subsequent distribution of b and c. The multinomial coefficient counts all the ways to assign the four 'slots' to a (2 slots), b (1 slot), and c (1 slot)."
 
-- question: "The binomial theorem is a special case of the multinomial theorem that applies only when all exponents in the expansion are equal."
+- question: "The binomial theorem is a special case of the multinomial theorem that applies mainly when most exponents in the expansion are equal."
   type: true-false
   answer: false
   explanation: "The binomial theorem is the m=2 special case of the multinomial theorem — it applies when there are exactly two terms being summed, regardless of the exponents. The multinomial theorem covers (x₁ + x₂ + ⋯ + xₘ)ⁿ for any number of terms m; setting m=2 gives exactly the binomial theorem with the familiar binomial coefficients C(n,k) = n!/(k!(n−k)!). Exponent equality is irrelevant."

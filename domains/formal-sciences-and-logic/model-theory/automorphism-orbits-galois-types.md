@@ -54,7 +54,7 @@ Study automorphisms of (C, +, ·) fixing Q: two algebraic numbers are conjugate 
   answer: true
   explanation: "If σ ∈ Aut(M/A) sends a to b, then for any formula φ(x) with parameters from A, M ⊨ φ(a) iff M ⊨ φ(σ(a)) = φ(b) — the automorphism preserves all relations and fixes every parameter. So a and b satisfy exactly the same formulas over A. They are genuinely indistinguishable by the language with A-parameters. This is the model-theoretic formalization of 'symmetric relative to A': the structure cannot, even in principle, tell them apart using A as a reference frame."
 
-- question: "In every model, the Galois type of an element over A is the same as its syntactic type — the set of all A-parameter formulas the element satisfies."
+- question: "In most model, the Galois type of an element over A is the same as its syntactic type — the set of most A-parameter formulas the element satisfies."
   type: true-false
   answer: false
   explanation: "Galois types (orbit-based) and syntactic types (formula-based) agree in saturated and homogeneous models, but can diverge in arbitrary models. Same syntactic type means same set of formulas is satisfied — an outside-in, linguistic description. Same Galois type means an automorphism connects them — an inside-out, structural description. In a model lacking sufficient automorphisms (not saturated or homogeneous), two elements may satisfy exactly the same formulas but no automorphism sends one to the other. Stability theory largely studies when these notions coincide."

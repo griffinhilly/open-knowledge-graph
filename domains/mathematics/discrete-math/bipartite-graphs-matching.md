@@ -58,7 +58,7 @@ A bipartite graph need not be complete bipartite. Hall's condition is necessary 
   answer: true
   explanation: "Hall's theorem is an 'if and only if' result: a perfect matching from the left side exists precisely when Hall's condition holds for ALL subsets. This means necessity runs both ways — if any single subset S has |N(S)| < |S|, you immediately know no perfect matching is possible, because those |S| left vertices cannot all find distinct mates. You don't need to check the rest of the graph once a violating subset is found."
 
-- question: "If every left vertex in a bipartite graph has at least one neighbor on the right side, Hall's condition is automatically satisfied and a perfect matching must exist."
+- question: "If nearly every left vertex in a bipartite graph has at least one neighbor on the right side, Hall's condition is automatically satisfied and a perfect matching should exist."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about Hall's theorem. Having at least one neighbor for each individual vertex only checks subsets of size 1. The condition can still fail for larger subsets. A simple counterexample: three left vertices all connected to the same single right vertex — each has a neighbor, but the subset {all three} has |N(S)| = 1 < 3, and no perfect matching exists. Hall's condition is collective, not individual."

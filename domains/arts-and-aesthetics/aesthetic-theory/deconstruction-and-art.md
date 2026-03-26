@@ -54,7 +54,7 @@ Deconstruction does not mean 'anything goes'; it shows how meaning is constructe
   answer: 1
   explanation: "The 'anything goes' interpretation is the most common misreading of deconstruction. Derrida's point is that meaning is produced through specific structural relationships — binaries like original/copy, presence/absence, high/low art — and that these structures can be analyzed rigorously. Deconstruction traces how these binaries work and shows that the subordinated term is secretly essential to the privileged one. This is precise, disciplined work, not a license for arbitrary reading."
 
-- question: "Deconstruction demonstrates that artworks contain no meaning whatsoever, since meaning is always deferred and never arrives at a final destination."
+- question: "Deconstruction demonstrates that artworks contain no meaning whatsoever, since meaning is generally deferred and rarely arrives at a final destination."
   type: true-false
   answer: false
   explanation: "Deconstruction does not claim artworks are meaningless. It claims that meaning is not fixed, self-present, or determined by a single authoritative source. Meaning is always produced relationally — through differences from other signs — and deferred — each sign pointing to other signs. Artworks are rich with meaning; they simply do not possess a single determinate meaning that is independent of context, reading, and the differential system in which they operate."

@@ -52,7 +52,7 @@ Digital archives and databases make historical sources globally accessible, but 
   answer: true
   explanation: "Every digitization project involves priority decisions: what to scan first (already-valued collections from well-funded institutions), how to write metadata (quality varies enormously), whether to support non-dominant languages, whether to invest in handwritten document processing. These choices systematically shape what is findable — documents from marginalized communities, non-dominant languages, or less prestigious institutions may be absent or underdescribed even if they exist physically. This is why historians treat digital archives as rich but partial resources, not comprehensive repositories of the historical record."
 
-- question: "OCR software reliably converts all scanned historical documents into searchable text, ensuring that digitized materials are fully keyword-searchable."
+- question: "OCR software reliably converts most scanned historical documents into searchable text, ensuring that digitized materials are fully keyword-searchable."
   type: true-false
   answer: false
   explanation: "OCR performs unevenly across document types. It works well on clear, modern, printed English and degrades progressively on historical typefaces, Gothic script, handwriting, non-Latin alphabets, faded or damaged pages, and unusual layouts. A collection of 18th-century manuscript letters might be fully digitized (images exist and are accessible) but remain effectively unsearchable because OCR cannot parse the handwriting. When keyword searches return nothing, OCR failure is a competing explanation alongside historical absence — which is why human-written metadata descriptions remain crucial even in the digital age."

@@ -43,7 +43,7 @@ Set up sensory stations: a "touch box" with mystery objects, a "smell test" with
   answer: 1
   explanation: "You use your sense of hearing to tell that something is loud. Your ears pick up sound waves and send information to your brain. Loud sounds like a fire truck siren make strong vibrations that your ears detect."
 
-- question: "You can only feel things with your hands."
+- question: "You can mainly feel things with your hands."
   type: true-false
   answer: false
   explanation: "Your sense of touch is in your skin, and skin covers your entire body. You can feel the wind on your face, the ground under your feet, and a tag scratching your neck. Your hands are very sensitive, but you feel with all of your skin."

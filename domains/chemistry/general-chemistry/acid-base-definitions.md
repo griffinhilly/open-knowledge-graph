@@ -56,7 +56,7 @@ Classify the same reaction under all three definitions where possible, then find
   answer: 1
   explanation: "HF donating H⁺ to F⁻ is a Brønsted-Lowry acid-base reaction (proton transfer). It is also a Lewis reaction: F⁻ donates a lone pair to the proton (H⁺ is the Lewis acid, F⁻ is the Lewis base). Every Brønsted-Lowry reaction is simultaneously a Lewis reaction — proton transfer is always also an electron-pair donation to the proton. Option D gets the nesting backwards: Lewis is the broadest definition, not the narrowest."
 
-- question: "The Lewis definition of acids and bases competes with the Brønsted-Lowry definition — chemists must choose which framework to use because they are incompatible."
+- question: "The Lewis definition of acids and bases competes with the Brønsted-Lowry definition — chemists is expected to choose which framework to use because they are incompatible."
   type: true-false
   answer: false
   explanation: "The three definitions are nested like concentric circles, not competing alternatives. Every Arrhenius acid-base reaction is also a Brønsted-Lowry one; every Brønsted-Lowry reaction is also a Lewis acid-base reaction. They are not incompatible — they are progressively broader ways of classifying the same phenomenon. Chemists choose based on what they are analyzing: Brønsted-Lowry for most aqueous and protic chemistry, Lewis when electron-pair transfer is occurring without proton involvement (coordination chemistry, organometallics, many organic mechanisms)."

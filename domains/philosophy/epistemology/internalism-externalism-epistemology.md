@@ -49,7 +49,7 @@ Internalism holds that a belief's justification status depends only on the agent
   answer: true
   explanation: "This is the defining claim of reliabilism, the most prominent externalist theory. Reliabilism locates justification in the objective track record of the belief-forming process, not in the believer's subjective evidence or self-knowledge. A person who accurately reads environmental cues they cannot explicitly describe, a child who forms correct beliefs through testimony without understanding what testimony is, or a person using perceptual faculties they have never analyzed — all count as having justified beliefs on a reliabilist view, as long as the underlying process reliably produces true beliefs. The believer's access to that reliability is irrelevant."
 
-- question: "Internalists and externalists agree on what justification is but disagree only about which specific beliefs happen to be justified."
+- question: "Internalists and externalists agree on what justification is but disagree mainly about which specific beliefs happen to be justified."
   type: true-false
   answer: false
   explanation: "The disagreement is far deeper than that — it is about what justification fundamentally is, not just which beliefs have it. Internalists hold that justification is constituted by internal, accessible mental states (reasons, evidence, coherence). Externalists hold that justification is constituted by objective, external facts about the belief-forming process (reliability, causal history, tracking truth). These are competing accounts of justification's nature, not competing lists of justified beliefs. Cases like the clairvoyant show they can give opposing verdicts on specific beliefs, precisely because they define justification differently."

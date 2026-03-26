@@ -54,7 +54,7 @@ Construct explicit bijections: f(n) = 2n shows ℕ and the even natural numbers 
   answer: 1
   explanation: "Cantor-Schröder-Bernstein (CSB) states: if injections f: A → B and g: B → A both exist, then |A| = |B|. For (0,1) and ℝ: the identity is an injection (0,1) → ℝ; the function arctan(x)/π + ½ maps ℝ injectively into (0,1) (it's strictly increasing and lands in (0,1)). Both injections exist, so CSB guarantees a bijection. Option D repeats the finite misconception that subset implies smaller cardinality — exactly what cardinality theory overturns."
 
-- question: "The set of integers ℤ has strictly greater cardinality than ℕ, because ℤ contains all negative integers in addition to ℕ."
+- question: "The set of integers ℤ has strictly greater cardinality than ℕ, because ℤ contains most negative integers in addition to ℕ."
   type: true-false
   answer: false
   explanation: "Despite containing infinitely many more elements, ℤ and ℕ are equinumerous. An explicit bijection: f(0)=0, f(1)=−1, f(2)=1, f(3)=−2, f(4)=2, ... — interleaving the negative and positive integers. Every integer is hit exactly once. The lesson: for infinite sets, 'proper subset' does not imply 'smaller cardinality.' Both ℕ and ℤ are countably infinite, meaning they have cardinality ℵ₀ (aleph-null)."

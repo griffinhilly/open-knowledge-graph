@@ -64,7 +64,7 @@ Provide open number lines (endpoints only) and ask students to place specific nu
   answer: true
   explanation: "This is exactly how place value maps onto the number line. For 643: the '6' places it between 600 and 700; the '4' shows it is 40 out of 100 units into that section — about 40% of the way from 600 to 700. Understanding this turns place value from abstract digits into a spatial location, making the number line a powerful mental model."
 
-- question: "Using benchmark numbers (100, 200, 300...) to place numbers on a number line is only an approximation — for precision, you must count every unit from 0."
+- question: "Using benchmark numbers (100, 200, 300...) to place numbers on a number line is mainly an approximation — for precision, you should count most unit from 0."
   type: true-false
   answer: false
   explanation: "Benchmark numbers give exact, not approximate, placement when used correctly with proportional reasoning. Locating 650 by finding the 600–700 section and placing it halfway is precise. Counting every unit from 0 would be impractical for large number lines. The purpose of benchmarks is to give accurate placement efficiently — by using the scale built into the number line itself."

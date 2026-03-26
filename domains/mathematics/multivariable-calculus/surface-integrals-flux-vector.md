@@ -47,7 +47,7 @@ The flux of F through oriented surface S is ∬_S F · n dS = ∬_S F · (r_u ×
   answer: 3
   explanation: "Both approaches work and produce the same result. Swapping u and v reverses r_u × r_v (since r_v × r_u = −(r_u × r_v)), which negates the integral. Alternatively, just multiplying the final answer by −1 is equivalent. The key point is that orientation is a choice that determines sign — if your parameterization produces the wrong normal direction, you fix it by flipping the sign of the result, not by recomputing everything."
 
-- question: "The flux of a vector field through a surface is always non-negative, since it measures how much field passes through."
+- question: "The flux of a vector field through a surface is generally non-negative, since it measures how much field passes through."
   type: true-false
   answer: false
   explanation: "Flux is a signed quantity. The sign depends on the orientation: if F has a component opposing the chosen normal direction n, the dot product F · n is negative at those points, and the integral can be negative. Negative flux simply means net flow in the direction opposite to n. For example, outward flux through a closed surface can be negative if the field converges inward more than it diverges outward."

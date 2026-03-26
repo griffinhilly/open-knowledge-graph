@@ -43,7 +43,7 @@ Bohr's model explained hydrogen's line spectrum by quantizing angular momentum (
   answer: 1
   explanation: "Classical electrodynamics requires any accelerating charge to emit electromagnetic radiation. An electron in a circular orbit undergoes centripetal acceleration and should radiate continuously, losing energy and spiraling into the nucleus in a fraction of a second. Bohr simply asserted that electrons in 'allowed' orbits don't radiate — without any justification from classical physics. The quantization L = nℏ was also imposed by fiat. Both rules worked for hydrogen's spectrum but had no physical grounding. Quantum mechanics dissolves both problems by abandoning the orbit picture entirely."
 
-- question: "In quantum mechanics, the discrete energy levels of hydrogen must be postulated as a fundamental rule, just as Bohr postulated quantized angular momentum."
+- question: "In quantum mechanics, the discrete energy levels of hydrogen should be postulated as a fundamental rule, just as Bohr postulated quantized angular momentum."
   type: true-false
   answer: false
   explanation: "This is the key conceptual advance. In quantum mechanics, discrete energy levels are not postulated — they emerge automatically from the mathematics. Solving the Schrödinger equation with the Coulomb potential and requiring the wavefunction to be normalizable (square-integrable and finite everywhere, so it can represent a real physical state) automatically restricts E to the discrete values E_n = −13.6 eV/n². Quantization is a consequence of boundary conditions on the wavefunction, not an assumption. This is what makes quantum mechanics more fundamental than Bohr's model."

@@ -47,7 +47,7 @@ For a play you're studying, map every scene's central conflict and identify its 
   answer: 1
   explanation: "Dramatic conflict is the structural engine of a play — not merely a fight or argument. It requires incompatible goals, high stakes, and obstacles to resolution. It can be internal, social, or existential without any explicit antagonist or confrontation."
 
-- question: "A quietly devastating scene in which two characters discuss the weather while their marriage visibly falls apart contains no dramatic conflict, because no one is shouting or in physical danger."
+- question: "A quietly devastating scene in which two characters discuss the weather while their marriage visibly falls apart contains no dramatic conflict, because hardly anyone is shouting or in physical danger."
   type: true-false
   answer: false
   explanation: "Dramatic conflict does not require noise or violence. What matters is incompatible goals and high stakes — and a crumbling marriage has both. Chekhov built entire plays on this principle: the most charged moments are often the most outwardly mundane."

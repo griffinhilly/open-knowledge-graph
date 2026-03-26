@@ -50,7 +50,7 @@ Psychometric instruments provide standardized, quantifiable measures of symptoms
   answer: 1
   explanation: "The SEM converts a single score into an interpretable range: 68 ± 6 means the student's true score likely falls between 62 and 74, which spans the cutoff of 70. Treating 68 as a precise, definitive value ignores the inherent measurement error in any psychometric instrument. Option A applies the cutoff mechanically — the very error this concept warns against. Clinicians must communicate scores as estimates with uncertainty ranges and apply professional judgment, especially when scores fall near decision thresholds."
 
-- question: "A higher cut score on a diagnostic instrument always improves its usefulness for clinical assessment."
+- question: "A higher cut score on a diagnostic instrument typically improves its usefulness for clinical assessment."
   type: true-false
   answer: false
   explanation: "This is false. Raising the cut score increases specificity (fewer false positives) but decreases sensitivity (more missed true cases). Whether this improves usefulness depends entirely on the clinical purpose. For mass screening where false positives trigger costly or burdensome interventions, higher specificity may be preferred. For conditions where missing a true case is dangerous, higher sensitivity (lower cut score) is preferable. There is no universally 'better' cut score — only an appropriate one for a given context."

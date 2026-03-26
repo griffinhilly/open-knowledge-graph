@@ -54,7 +54,7 @@ Trace the influence chain: Delta blues → Chicago electric blues → rhythm and
   answer: 1
   explanation: "Elvis did not create the idiom he performed. Chuck Berry, Little Richard, Fats Domino, and others had already defined rock and roll before his commercial breakthrough. What Elvis brought was access — to white mainstream radio audiences via rockabilly. The Presley case illustrates a broader pattern in American music history: the industry's infrastructure often routed African American music to white audiences through white performers, giving those performers disproportionate commercial credit. Elvis's cultural significance is real, but it must be understood as transmission rather than origination."
 
-- question: "The Beatles were culturally important primarily because they introduced entirely new musical forms to American audiences who had never encountered such sounds."
+- question: "The Beatles were culturally important primarily because they introduced largely new musical forms to American audiences who had seldom encountered such sounds."
   type: true-false
   answer: false
   explanation: "The Beatles' music was deeply rooted in American blues, R&B, and early rock and roll — forms already known in the US. What the Beatles represented was a transformation and return: American music filtered through British sensibility, more sophisticated songwriting, and the discipline of the Hamburg club circuit. Their cultural impact was to raise compositional stakes — writing original material, developing artistic identity across albums — rather than to introduce alien sounds. The irony is that British musicians sometimes honored figures like Muddy Waters and Chuck Berry more than America did at the time."

@@ -55,7 +55,7 @@ Audit a real wayfinding system (a building, a website, or a complex application)
   answer: 1
   explanation: "Progressive disclosure presents only the information relevant to the current decision, hiding downstream details until they are needed. Showing all subcategories on load would present dozens of options when the user has only decided to explore the site — cognitive overload before a single decision has been made. Matching the depth of information to the depth of the current decision is how wayfinding prevents overwhelm at each step."
 
-- question: "An effective wayfinding system should provide comprehensive information at every decision point so users never need to ask for help."
+- question: "An effective wayfinding system should provide comprehensive information at most decision point so users rarely need to ask for help."
   type: true-false
   answer: false
   explanation: "Comprehensive information at every decision point produces cognitive overload, which is the primary failure mode of wayfinding design. Effective systems are selective: they provide only what is needed for the current decision and use progressive disclosure to surface additional information as users move forward. The goal is not to inform exhaustively but to orient efficiently — answering the four wayfinding questions (Where am I? Where can I go? How do I get there? Have I arrived?) without burdening the user with everything else."

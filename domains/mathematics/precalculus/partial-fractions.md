@@ -51,7 +51,7 @@ Start with distinct linear factors (easiest case), then progress to repeated lin
   answer: 1
   explanation: "Partial fraction decomposition only works on *proper* rational functions — those where the numerator degree is strictly less than the denominator degree. Here, degree 3 ≥ degree 2, so the fraction is improper. Long division produces a polynomial quotient plus a proper remainder fraction; you then decompose only the remainder. Skipping this step and jumping to A/(x−2) + B/(x+2) is the most common error and produces an incorrect decomposition."
 
-- question: "The factor (x − 3)² in the denominator requires only one partial fraction term: B/(x − 3)²."
+- question: "The factor (x − 3)² in the denominator requires primarily one partial fraction term: B/(x − 3)²."
   type: true-false
   answer: false
   explanation: "A repeated linear factor (x − 3)² requires *two* terms: A/(x − 3) + B/(x − 3)². One term for each power up to the multiplicity. Using only B/(x − 3)² cannot account for the full structure of the original numerator — you'd be missing a degree of freedom. The general rule: (x − r)^k contributes k separate terms, from power 1 up through power k."

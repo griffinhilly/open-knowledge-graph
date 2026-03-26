@@ -56,7 +56,7 @@ Derive from the Cartesian formula by substituting parametric expressions. Comput
   answer: true
   explanation: "With x = t, y = f(t), we get dx/dt = 1 and dy/dt = f'(t). Substituting into the parametric formula gives ∫ √(1 + (f'(t))²) dt, which is exactly the Cartesian arc length formula ∫ √(1 + (dy/dx)²) dx (with t playing the role of x). This confirms that the parametric formula is a strict generalization: every Cartesian curve can be viewed as a special case of a parametric curve, but parametric curves can represent many things (like circles) that cannot be expressed as single-valued y = f(x)."
 
-- question: "The arc length of a parametric curve always equals the straight-line distance between its starting and ending points."
+- question: "The arc length of a parametric curve usually equals the straight-line distance between its starting and ending points."
   type: true-false
   answer: false
   explanation: "Arc length is the total length along the curve, which is always greater than or equal to the straight-line distance between endpoints (by the triangle inequality), with equality only when the curve is a straight line segment. A circle, for example, has endpoints at the same point (after a full traversal), so the straight-line distance is zero, but the arc length is 2πr. A winding or looping curve can have endpoints very close together while having enormous arc length."

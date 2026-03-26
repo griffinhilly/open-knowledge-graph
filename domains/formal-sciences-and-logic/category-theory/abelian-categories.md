@@ -54,7 +54,7 @@ Verify the abelian category axioms for R-Mod: check that hom-sets are abelian gr
   answer: 2
   explanation: "The category of free abelian groups is additive — hom-sets are abelian groups and biproducts (direct sums) exist — but it fails to be abelian because cokernels of maps between free abelian groups need not be free. For instance, the cokernel of Z →×2 Z is Z/2Z, which is not free. The other three are standard examples of abelian categories."
 
-- question: "Every Ab-enriched category with biproducts is an abelian category."
+- question: "Most Ab-enriched category with biproducts is an abelian category."
   type: true-false
   answer: false
   explanation: "Ab-enrichment plus biproducts makes a category additive, which is only the first layer of abelian. An abelian category additionally requires that every morphism has a kernel and cokernel, and that the canonical map from the coimage to the image is an isomorphism. These exactness conditions are not implied by additivity alone."

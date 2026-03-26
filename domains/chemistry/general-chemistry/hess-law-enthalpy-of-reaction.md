@@ -52,7 +52,7 @@ Practice manipulating and combining thermochemical equations (reversing, multipl
   answer: 1
   explanation: "The core reason is the state-function nature of enthalpy. A state function's change depends only on where you start and end, not how you get there. If going from state A to state B releases 100 kJ (ΔH = −100 kJ), then going from B back to A must absorb exactly 100 kJ (ΔH = +100 kJ) — because the difference in enthalpy between the two states is fixed by the states themselves. This is fundamentally different from a path-dependent quantity like heat flow in a non-quasistatic process. Hess's law is entirely a consequence of this state-function property."
 
-- question: "Hess's law works because every reaction releases the same total amount of heat regardless of the temperature, pressure, or conditions under which it occurs."
+- question: "Hess's law works because nearly every reaction releases the same total amount of heat regardless of the temperature, pressure, or conditions under which it occurs."
   type: true-false
   answer: false
   explanation: "False. Hess's law works because enthalpy is a state function — the total enthalpy change depends only on the identities of reactants and products, not on the pathway between them. It does NOT say that ΔH is independent of conditions: temperature, pressure, and phase can affect ΔH values (Kirchhoff's law describes temperature dependence). Hess's law applies at a given set of conditions; it says that at those conditions, you can add reactions algebraically. Confusing path-independence (what Hess's law actually claims) with condition-independence (which is false) is a subtle but important error."

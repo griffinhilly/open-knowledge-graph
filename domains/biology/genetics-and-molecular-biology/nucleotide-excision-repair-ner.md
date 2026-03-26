@@ -56,7 +56,7 @@ Follow the sequential steps of NER: damage recognition, helicase unwinding, nucl
   answer: 2
   explanation: "XPG is one of two endonucleases that make the dual incisions flanking the lesion: XPG cuts on the 3' side and XPF-ERCC1 cuts on the 5' side. Without the 3' cut, the ~25-29 nucleotide fragment containing the lesion cannot be released even if damage recognition, TFIIH helicase unwinding, and 5' incision all proceed normally. NER stalls at the excision step. This is why XPG mutations cause xeroderma pigmentosum — the damage is recognized and the repair machinery assembles, but the lesion is never removed."
 
-- question: "Nucleotide excision repair removes only the single damaged nucleotide and replaces it one base at a time, similar to base excision repair."
+- question: "Nucleotide excision repair removes primarily the single damaged nucleotide and replaces it one base at a time, similar to base excision repair."
   type: true-false
   answer: false
   explanation: "This is the key mechanistic distinction between NER and BER. BER does remove a single modified base (via a glycosylase) and then fills in one position. NER works by a fundamentally different 'cut and patch' strategy: dual endonuclease incisions on both sides of the lesion release an entire ~25-29 nucleotide single-stranded fragment containing the damage. This larger excision window is necessary because bulky, helix-distorting lesions disrupt multiple base pairs and cannot be addressed by single-nucleotide replacement."

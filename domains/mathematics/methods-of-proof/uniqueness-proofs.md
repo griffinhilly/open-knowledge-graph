@@ -58,7 +58,7 @@ Practice with: uniqueness of additive identity in the integers, uniqueness of pr
   answer: true
   explanation: "This simultaneous use of both conditions is the structural signature of a correct uniqueness proof. In the additive identity example: 'e is an identity' gives e + e' = e'; 'e' is an identity' gives e + e' = e. Both hypotheses are needed to conclude e = e'. If you only used one, you couldn't establish equality. This is also why the template is stated with exactly two objects — you need two to derive equality, and two is sufficient."
 
-- question: "Proving that any two elements satisfying property P must be equal only establishes pairwise uniqueness — a separate argument is still needed to rule out three or more distinct elements all satisfying P."
+- question: "Proving that any two elements satisfying property P should be equal primarily establishes pairwise uniqueness — a separate argument is still needed to rule out three or more distinct elements most satisfying P."
   type: true-false
   answer: false
   explanation: "Pairwise equality is sufficient for full uniqueness. If a = b whenever any two objects both satisfy P, then for any third object c also satisfying P, applying the same argument to (a, c) gives a = c, and to (b, c) gives b = c. So all three collapse to the same value. The pairwise template captures the general case: you cannot have two distinct elements both satisfying P, let alone three, four, or any number."

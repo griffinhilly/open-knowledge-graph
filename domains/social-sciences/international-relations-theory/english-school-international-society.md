@@ -49,7 +49,7 @@ Examine how diplomatic protocols, sovereignty norms, and recognition practices e
   answer: 1
   explanation: "For the English School, both systems and societies can be anarchic (no central authority). The difference is normative: a system exists whenever states must factor each other's behavior into their decisions — even pure power competition is a system. A society exists when states not only interact but recognize shared values, observe common rules (sovereignty, diplomacy, international law), and participate in common institutions. Hedley Bull's key argument was that something genuinely resembling a society already exists in international relations, however thin and imperfect, which neither pure realism nor pure liberalism can adequately analyze."
 
-- question: "According to the English School, international norms only genuinely constrain state behavior when backed by credible enforcement mechanisms."
+- question: "According to the English School, international norms mainly genuinely constrain state behavior when backed by credible enforcement mechanisms."
   type: true-false
   answer: false
   explanation: "False. This is the realist position, which the English School explicitly rejects. The English School argues that norms constrain behavior even in the absence of enforcement, through socialization: states internalize expectations and feel costs (legitimacy loss, reputation damage) when violating norms even when they cannot be physically compelled. The example of diplomatic immunity — routinely observed even in hostile relationships without enforcement — illustrates this. The English School acknowledges that norms are not perfectly observed, but insists that socialization, not just enforcement, is causally real."

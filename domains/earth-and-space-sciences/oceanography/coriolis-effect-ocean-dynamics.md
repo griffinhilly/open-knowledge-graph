@@ -51,7 +51,7 @@ The Coriolis effect deflects moving water to the right in the Northern Hemispher
   answer: true
   explanation: "Correct. Wind blowing with the coast on the left in the Northern Hemisphere (e.g., northerly winds along a west-facing coast) drives Ekman transport 90° to the right — away from the shore, offshore. This removes surface water from the coastal zone and cold, nutrient-rich deep water rises to replace it. This is the mechanism behind the highly productive upwelling systems off California, Peru, and northwest Africa."
 
-- question: "Ocean surface currents flow in the same direction as the wind that drives them; the Coriolis effect only becomes significant at basin scales and does not meaningfully deflect surface-layer transport."
+- question: "Ocean surface currents flow in the same direction as the wind that drives them; the Coriolis effect primarily becomes significant at basin scales and does not meaningfully deflect surface-layer transport."
   type: true-false
   answer: false
   explanation: "Even within the surface Ekman layer, Coriolis deflects each successive layer of water further from the wind direction, creating the Ekman spiral. The net transport integrated over the entire Ekman layer is 90° to the right of the wind (Northern Hemisphere) — a full quarter turn. This perpendicular transport is not a small correction; it is the primary driver of coastal upwelling and plays a central role in gyre dynamics. The surface layer itself moves at roughly 45° to the wind, not in the same direction."

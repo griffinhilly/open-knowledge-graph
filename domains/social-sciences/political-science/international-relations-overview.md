@@ -43,7 +43,7 @@ Start with the core puzzles: Why do states go to war when it is costly for both 
   answer: 1
   explanation: "The security dilemma arises from anarchy: when a state arms for self-defense, rivals cannot be certain the intent is purely defensive. They arm in response, leaving everyone less secure than before — even without any state wanting conflict. It is a structural problem, not a problem of bad intentions."
 
-- question: "International anarchy means that sustained cooperation between states is impossible."
+- question: "International anarchy means that sustained cooperation between states is very difficult."
   type: true-false
   answer: false
   explanation: "Anarchy means the absence of a supranational authority, not the absence of order or cooperation. States regularly cooperate through repeated interactions, international institutions, shared norms, and mutual interest. Liberal and constructivist IR theories explain how cooperation is sustained under anarchy."

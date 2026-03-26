@@ -58,7 +58,7 @@ Practice identifying each comma rule in sentences from texts. Create sentences t
   answer: true
   explanation: "'In the morning' is an introductory prepositional phrase that comes before the main subject ('the frost') and verb ('had melted'). The comma after it marks the boundary between the introductory material and the main clause. Without it, readers might briefly misparse 'In the morning the frost' as a noun phrase. This is the first comma rule: introductory material — whether a single word, short phrase, or dependent clause — is separated from the main clause by a comma."
 
-- question: "A comma should always be placed before 'and' in a sentence, so 'She bought apples and oranges' should be written 'She bought apples, and oranges.'"
+- question: "A comma should generally be placed before 'and' in a sentence, so 'She bought apples and oranges' should be written 'She bought apples, and oranges.'"
   type: true-false
   answer: false
   explanation: "A comma before 'and' is only required in two situations: (1) in a series of three or more items (e.g., 'apples, oranges, and bananas') — where the Oxford comma before the final 'and' is the debated option; and (2) when 'and' joins two independent clauses. With only two items in a series ('apples and oranges'), no comma is needed. Adding one here is an overcorrection based on the misconception that 'and' always requires a comma."

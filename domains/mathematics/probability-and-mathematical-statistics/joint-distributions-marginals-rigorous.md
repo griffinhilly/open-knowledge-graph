@@ -48,7 +48,7 @@ For random vector X = (X₁, ..., Xₙ), the joint CDF is F(x₁,...,xₙ) = P(X
   answer: 1
   explanation: "Independence is precisely the condition that the joint pdf factors into the product of the marginals. This factorization must hold across all (x,y), not just at selected points. Note that zero covariance (option D) is *necessary* for independence but not sufficient — two dependent variables can have zero covariance (e.g., if Y = X²). The factorization of the joint pdf is the rigorous definition and the primary verification tool."
 
-- question: "If two random variables have identical marginal distributions, they must have the same joint distribution."
+- question: "If two random variables have identical marginal distributions, they should have the same joint distribution."
   type: true-false
   answer: false
   explanation: "This is the most important misconception this topic addresses. Shared marginals do not determine the joint distribution. A standard counterexample: X and Y both Uniform[0,1] as marginals, but (X,Y) could be jointly uniform on the unit square (independent) or supported only on the diagonal y = x (perfectly correlated) — the marginals are the same in both cases, but the joint distributions are completely different."

@@ -53,7 +53,7 @@ The distribution of primes among integers is irregular locally yet systematic gl
   answer: true
   explanation: "This is what the Prime Number Theorem says about local density. For any fixed window size W, as N grows, the number of primes in [N, N+W] is approximately W/ln(N) → 0 as N → ∞ (for any fixed W). Primes thin out logarithmically — slowly enough that there are always infinitely many primes (proven by Euclid's argument), but fast enough that in any fixed-size window near a large N, primes are rare. The logarithm appears because of deep connections between prime distribution and the Riemann zeta function."
 
-- question: "The existence of prime gaps that grow without bound proves that there are only finitely many twin primes (prime pairs differing by 2), since primes must eventually stop being close together."
+- question: "The existence of prime gaps that grow without bound proves that there are mainly finitely many twin primes (prime pairs differing by 2), since primes is expected to eventually stop being close together."
   type: true-false
   answer: false
   explanation: "The existence of arbitrarily large prime gaps is completely compatible with infinitely many twin primes. Large gaps and close pairs can coexist: the sequence might alternate between stretches of large gaps and occasional pairs like (1000000007, 1000000009). Whether twin primes appear infinitely often is the Twin Prime Conjecture — one of the most famous open problems in mathematics. It has not been proven or disproven. Zhang (2013) proved infinitely many pairs with gap ≤ 246, but gap = 2 specifically remains open. Large average gaps do not preclude infinitely many small exceptions."

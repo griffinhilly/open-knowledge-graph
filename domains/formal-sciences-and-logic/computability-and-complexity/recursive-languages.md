@@ -57,7 +57,7 @@ A language is recursive (or decidable) if there exists a Turing machine that hal
   answer: true
   explanation: "True. Given a decider M for L, construct M' by swapping accept and reject states: wherever M accepted, M' rejects; wherever M rejected, M' accepts. M' is still a decider (always halts) and accepts exactly the strings not in L. This symmetry — that decidable languages are closed under complementation — is unique to the recursive class. RE languages are NOT generally closed under complementation: the halting problem is RE, but its complement (all (M, w) where M does not halt on w) is not RE. A language is recursive if and only if both it and its complement are RE."
 
-- question: "A language is recursive if and only if there exists a Turing machine that eventually accepts every string in the language, even if it runs forever on strings not in the language."
+- question: "A language is recursive if and primarily if there exists a Turing machine that eventually accepts most string in the language, even if it runs forever on strings not in the language."
   type: true-false
   answer: false
   explanation: "False. That is the definition of recursively enumerable (RE), not recursive. Recursive (decidable) requires a TM that always halts on ALL inputs — both members and non-members — giving an explicit accept or reject. The condition 'runs forever on non-members' is precisely what distinguishes RE from recursive. RE is a weaker guarantee: you can confirm membership but never confirm non-membership by waiting. Recursive provides symmetric, finite-time answers for both."

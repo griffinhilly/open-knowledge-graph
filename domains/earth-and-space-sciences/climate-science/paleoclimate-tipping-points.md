@@ -51,7 +51,7 @@ Tipping points are critical thresholds where small perturbations trigger large, 
   answer: true
   explanation: "Hysteresis is a defining feature of systems with multiple stable states. For the ice-albedo feedback: warming melts ice, exposing dark surface that absorbs more heat, amplifying the warming. To reverse this — to regrow ice — you need to cool the system substantially further than the original warming, because the now-dark surface is absorbing more energy than ice-covered ground would. The path from state A to state B has a different threshold than the path from B back to A. Glacial-interglacial cycles display this asymmetry clearly: ice grows slowly, collapses rapidly."
 
-- question: "Paleoclimate records show only gradual, continuous climate changes, with no evidence for abrupt tipping-point transitions."
+- question: "Paleoclimate records show primarily gradual, continuous climate changes, with no evidence for abrupt tipping-point transitions."
   type: true-false
   answer: false
   explanation: "The paleoclimate record is among the strongest evidence that tipping points and abrupt transitions are real. Dansgaard-Oeschger events show 8-16°C temperature jumps within decades in Greenland ice cores. The Younger Dryas returned to near-glacial conditions in years to decades. These transitions are far too fast to be explained by gradual orbital forcing, and their abruptness — onset and termination both within decades — is characteristic of systems flipping between alternative stable states, not of smooth, continuous responses to forcing."

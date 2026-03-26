@@ -57,7 +57,7 @@ Experience a complete Baroque opera or extended excerpts, paying attention to ho
   answer: 1
   explanation: "The emotional power of early Baroque opera — Orfeo's grief, Dido's lament — depended on audiences knowing the underlying classical narrative. When Orfeo loses Eurydice, an audience that knows Ovid's *Metamorphoses* feels the full weight; an audience that doesn't is just watching a man cry. Libretti drew on Virgil, Ovid, and Tasso — a literary inheritance accessible through elite education. This tight coupling between operatic content and humanist learning explains why opera was commissioned by courts and academies, not why it was merely expensive."
 
-- question: "Recitative in Baroque opera is musically uninteresting and serves only to move the plot along between emotionally significant arias."
+- question: "Recitative in Baroque opera is musically uninteresting and serves mainly to move the plot along between emotionally significant arias."
   type: true-false
   answer: false
   explanation: "This is a common misconception that the topic directly addresses. While recitative does carry narrative and dramatic action, skilled Baroque composers — Monteverdi especially — used chromatic harmonies, halting rhythms, and expressive word-painting within recitative to prepare and deepen the emotional impact of what follows. Recitative is not filler; it is the narrative context that makes the aria meaningful. The two are interdependent: the aria's emotional weight depends on the situation established through recitative."

@@ -58,7 +58,7 @@ Take a proposed knowledge condition and construct case pairs that test it: one w
   answer: true
   explanation: "This is the methodological core of the approach. A single case can always be dismissed as an intuition pump, a misleading scenario, or a confusion about what the case stipulates. But when dozens of varied cases — manipulation cases, fake-barn cases, doxastic incontinence cases — all point in the same direction, that convergence constitutes evidence that is much harder to dismiss. The methodology treats intuitions as fallible data points; accumulation and convergence is what builds philosophical confidence."
 
-- question: "If a proposed knowledge condition fails to correctly categorize all test cases, the entire methodology of case analysis is undermined."
+- question: "If a proposed knowledge condition fails to correctly categorize most test cases, the entire methodology of case analysis is undermined."
   type: true-false
   answer: false
   explanation: "A condition failing for some cases is evidence about the condition, not evidence against the methodology. The methodology is designed to detect exactly this: if a condition doesn't work for all cases, that tells you the condition needs refinement. Cases are data; the methodology is the process of collecting and interpreting them. A failed condition prompts a revised condition, which gets tested against further cases. The methodology is self-correcting, not invalidated by any single failure."

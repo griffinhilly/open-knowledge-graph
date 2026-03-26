@@ -60,7 +60,7 @@ Form requires every section to be exactly the same length (similar but not ident
   answer: true
   explanation: "This structural feature creates the forward momentum of binary form — the A section doesn't fully close harmonically, which propels the listener into the B section. The B section then resolves back to the tonic. This contrasts with ternary form's B section, which is more tonally complete and self-contained before the return of A."
 
-- question: "For a piece to qualify as ternary form, the return of the A section must be an exact, note-for-note repetition of the opening material."
+- question: "For a piece to qualify as ternary form, the return of the A section is expected to be an exact, note-for-note repetition of the opening material."
   type: true-false
   answer: false
   explanation: "The return of A in ternary form can be ornamented, abbreviated, or varied — what matters is that the listener recognizes it as a homecoming, not that it is identical. Da capo arias are often performed with ornamentation on the return. The formal and perceptual criterion is recognition and resolution, not literal repetition. Requiring exact repetition is a common misconception that confuses exact recapitulation with formal structural return."

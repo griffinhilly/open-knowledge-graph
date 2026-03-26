@@ -44,7 +44,7 @@ The Metropolis algorithm constructs a Markov chain that samples from the canonic
   answer: 2
   explanation: "Detailed balance — P(s)·A(s→s′) = P(s′)·A(s′→s) — is satisfied by the Metropolis acceptance rule by construction. Combined with ergodicity (the ability to reach any state from any other), detailed balance guarantees the Boltzmann distribution is the unique stationary distribution. Ergodicity alone is insufficient; many ergodic chains converge to wrong distributions. And crucially, Z never needs to be computed: it cancels in the ratio of Boltzmann weights that appears in the acceptance criterion."
 
-- question: "The Metropolis algorithm must compute the partition function Z to correctly normalize probabilities and sample from the Boltzmann distribution."
+- question: "The Metropolis algorithm should compute the partition function Z to correctly normalize probabilities and sample from the Boltzmann distribution."
   type: true-false
   answer: false
   explanation: "This is the key practical insight of the Metropolis algorithm: Z cancels. The acceptance probability involves only the ratio e^{−ΔE/kT} = e^{−E(s_new)/kT} / e^{−E(s_old)/kT}, from which Z (which would appear identically in numerator and denominator) cancels exactly. This is crucial because computing Z requires summing over all 2^N microstates — an intractable calculation for any large system. The algorithm samples correctly from the Boltzmann distribution without ever knowing the absolute probability of any state."

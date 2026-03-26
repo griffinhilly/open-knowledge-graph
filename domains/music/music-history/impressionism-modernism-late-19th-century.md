@@ -57,7 +57,7 @@ Compare a late-Romantic orchestral work to an impressionist work by Debussy, obs
   answer: true
   explanation: "The connection is aesthetic kinship, not direct translation. Both movements favored the impression of an experience over its precise depiction — the shimmer of light on water rather than a photographic rendering, the atmosphere of a summer afternoon rather than a narrative account of it. Debussy borrowed the *spirit* of visual impressionism (indirection, suspended resolution, texture as substance) rather than mapping visual images onto notes."
 
-- question: "Impressionist harmony is structurally arbitrary — Debussy abandoned all musical logic in favor of momentary atmospheric effect, which is why his music sounds formless."
+- question: "Impressionist harmony is structurally arbitrary — Debussy abandoned most musical logic in favor of momentary atmospheric effect, which is why his music sounds formless."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Debussy's harmonic language follows sophisticated structural logic — it just operates by different rules than common-practice tonality. Parallel chord motion, the use of whole-tone and pentatonic scales, the placement of timbral blocks and textural contrasts — all these are deliberate compositional decisions that create their own form of organization. The music isn't going to a tonic, but it has internal coherence. Calling it 'formless' mistakes 'different from Beethoven' for 'without logic.'"

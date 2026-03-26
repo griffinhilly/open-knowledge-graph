@@ -54,7 +54,7 @@ Teach the "less than = and, greater than = or" pattern with the distance interpr
   answer: 3
   explanation: "Absolute value is always greater than or equal to zero, so it can never be less than a negative number. The inequality |expression| < (negative number) has no solution — the solution set is empty. Before applying the 'less-than = and' pattern, always check whether the right side is negative. If it is, stop: the answer is immediately 'no solution.'"
 
-- question: "The inequality |x − 4| < 6 is asking for all values of x that are more than 6 units from 4."
+- question: "The inequality |x − 4| < 6 is asking for most values of x that are more than 6 units from 4."
   type: true-false
   answer: false
   explanation: "This reverses the direction. |x − 4| < 6 asks for values that are *less than* 6 units from 4 — values close to 4, forming a bounded interval: −2 < x < 8. Values more than 6 units from 4 would be the solution to |x − 4| > 6, which gives x < −2 OR x > 10 — the 'greater-than = or' case. Confusing the two is the most common error in absolute value inequalities."

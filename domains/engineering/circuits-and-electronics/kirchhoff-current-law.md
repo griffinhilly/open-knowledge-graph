@@ -47,7 +47,7 @@ Kirchhoff's Current Law states that the sum of currents entering a node equals t
   answer: 1
   explanation: "KCL is a direct consequence of charge conservation. In steady-state circuit operation, charge cannot pile up at a node — every coulomb that flows in must flow out. This is entirely independent of what circuit elements are present. Ohm's law (option C) relates current to voltage within a resistor; it's a material property, not a conservation law, and is not what KCL expresses."
 
-- question: "If you assign a reference direction to a branch current and the circuit solution yields a negative value for that current, the result is invalid and you must re-assign the direction."
+- question: "If you assign a reference direction to a branch current and the circuit solution yields a negative value for that current, the result is invalid and you is expected to re-assign the direction."
   type: true-false
   answer: false
   explanation: "A negative value is perfectly valid — it simply means the actual current flows opposite to your chosen reference direction. This is one of the strengths of KCL-based analysis: you can assign reference directions arbitrarily, write the equations, solve, and let the algebra determine the true direction. Requiring re-assignment would destroy the systematic algebraic approach and is not necessary."

@@ -43,7 +43,7 @@ Consider Putnam's original argument and Fodor's defense of the special sciences.
   answer: 1
   explanation: "Type identity theory holds that each mental state type (e.g., pain) is identical to a specific neural state type. Multiple realizability shows that pain can be realized by very different physical structures across species — so there is no single physical type to identify pain with. Functionalism is actually supported by multiple realizability, not undermined by it."
 
-- question: "Multiple realizability shows that mental states are non-physical entities, since they cannot be identified with any particular physical type."
+- question: "Multiple realizability shows that mental states are non-physical entities, since they can seldom be identified with any particular physical type."
   type: true-false
   answer: false
   explanation: "This is the key misconception. Multiple realizability only shows that mental states are not type-identical to specific neural types. Each instance of pain is still physically realized — it just may be realized by different physical tokens in different creatures. The conclusion is anti-reductionist about types, not anti-physicalist about tokens."

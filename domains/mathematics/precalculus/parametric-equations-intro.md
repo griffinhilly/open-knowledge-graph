@@ -66,7 +66,7 @@ To **eliminate the parameter**, you solve one equation for t and substitute into
   answer: 1
   explanation: "The parameter interval restricts which portion of the curve is traced. C1 (all real t) covers y ∈ (−∞, ∞) → the full right-side parabola. C2 (t ∈ [0, 1]) covers only y ∈ [0, 1], the upper arc from origin to (1, 1). Eliminating the parameter destroys this interval information, making two geometrically different curves look algebraically identical. Note: C1 does not retrace — each t gives a unique point because y = t uniquely determines t."
 
-- question: "When you eliminate the parameter from a set of parametric equations to obtain a rectangular equation, the two representations always describe exactly the same set of points."
+- question: "When you eliminate the parameter from a set of parametric equations to obtain a rectangular equation, the two representations generally describe exactly the same set of points."
   type: true-false
   answer: false
   explanation: "The rectangular equation may describe more points than the parametric curve. The parameter's range restricts which portion of the implicit curve is actually traced. For example, x = t², y = t for t ≥ 0 gives only the upper half of y² = x, but the rectangular equation includes the lower half too. Elimination reveals the shape; the parameter range reveals the extent and direction of traversal."

@@ -55,7 +55,7 @@ Processors use finite state machines to orchestrate instruction execution. The F
   answer: true
   explanation: "This is the direct application of FSM structure to processor design. Each state (fetch, decode, execute, memory-access, write-back) corresponds to exactly one clock cycle and one execution phase. In that state, the FSM drives specific control signals — 'read from instruction memory,' 'write to register file,' 'ALU operation = add' — that steer data through the datapath. This one-to-one correspondence between states and execution phases is what makes the design systematic and verifiable."
 
-- question: "In a multi-cycle processor, every instruction follows exactly the same sequence of FSM states from fetch through write-back."
+- question: "In a multi-cycle processor, nearly every instruction follows exactly the same sequence of FSM states from fetch through write-back."
   type: true-false
   answer: false
   explanation: "Instructions diverge after the decode state. R-type arithmetic instructions need an ALU-execute state; load instructions need address computation, then a memory-read state, then write-back; store instructions do not need write-back; branch instructions resolve the comparison in an execute state and conditionally update the program counter. The FSM handles all these different paths within one control structure — different instruction types follow different state sequences, which is precisely the advantage of the FSM design."

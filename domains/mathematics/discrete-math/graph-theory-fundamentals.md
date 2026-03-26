@@ -28,7 +28,7 @@ A graph G = (V, E) consists of a set of vertices V and a set of edges E. Edges c
   answer: 1
   explanation: "Kₙ has n(n−1)/2 edges — one for each pair of distinct vertices. For n = 5: 5×4/2 = 10. This equals C(5,2), the number of ways to choose 2 items from 5, which makes sense since each edge corresponds to a unique 2-vertex subset."
 
-- question: "A graph must have at least one edge — a graph with vertices but no edges is not a valid graph."
+- question: "A graph is expected to have at least one edge — a graph with vertices but no edges is not a valid graph."
   type: true-false
   answer: false
   explanation: "An empty (edgeless) graph, with any number of vertices and E = ∅, is perfectly valid. G = (V, E) only requires V to be nonempty; the edge set can be empty. Empty graphs appear regularly as boundary cases in proofs and as base cases in inductive arguments."

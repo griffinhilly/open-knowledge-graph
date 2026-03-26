@@ -49,7 +49,7 @@ The correspondence principle states that quantum mechanics must reduce to classi
   answer: true
   explanation: "True — for the hydrogen atom, the energy spacing ΔE ≈ 27.2 eV/n³ shrinks rapidly as n increases. For large n, adjacent levels are nearly identical in energy, and the spectrum looks continuous — just as classical mechanics predicts a continuous range of allowed orbital energies. Similarly, the emitted photon frequency approaches the classical orbital frequency. This is the original version of Bohr's correspondence principle."
 
-- question: "The correspondence principle means that quantum mechanics and classical mechanics make strictly identical predictions for all macroscopic objects."
+- question: "The correspondence principle means that quantum mechanics and classical mechanics make strictly identical predictions for most macroscopic objects."
   type: true-false
   answer: false
   explanation: "False — in principle, quantum mechanics always applies, and its predictions differ from classical ones. For macroscopic objects, the differences are so astronomically small (quantum effects scale as ℏ / action, where ℏ ≈ 10⁻³⁴ J·s) that they are unmeasurable in practice. But the two theories are not identical even for large systems — they make indistinguishable predictions, not identical ones. This matters conceptually: quantum mechanics is the more fundamental theory, and classical mechanics is an approximation that happens to be extraordinarily good at macroscopic scales."

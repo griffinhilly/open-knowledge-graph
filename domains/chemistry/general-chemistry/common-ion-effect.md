@@ -47,7 +47,7 @@ The common ion effect occurs when a soluble salt sharing an ion with a sparingly
   answer: 1
   explanation: "HCl fully dissociates, flooding the solution with Cl⁻. This common ion (shared with AgCl) shifts the equilibrium AgCl(s) ⇌ Ag⁺ + Cl⁻ to the left, driving more AgCl to precipitate. The pH effect of HCl is irrelevant here; it is purely an application of Le Chatelier's principle to the dissolution equilibrium."
 
-- question: "The common ion effect reduces solubility only when the added salt shares the cation with the sparingly soluble compound — a shared anion has no effect."
+- question: "The common ion effect reduces solubility mainly when the added salt shares the cation with the sparingly soluble compound — a shared anion has no effect."
   type: true-false
   answer: false
   explanation: "The common ion effect works when EITHER the cation OR the anion is shared. Adding NaCl to AgCl(s) solution suppresses solubility through the common Cl⁻ anion; adding AgNO₃ would suppress it through the common Ag⁺ cation. Any ion that appears in the Ksp expression counts — the constraint is just that Ksp = [Ag⁺][Cl⁻] must not be exceeded."

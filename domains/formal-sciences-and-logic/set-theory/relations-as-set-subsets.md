@@ -44,7 +44,7 @@ A relation R from A to B is any subset of the Cartesian product A × B. This for
   answer: 2
   explanation: "A function requires every element of the domain to appear as a left coordinate exactly once. Option C satisfies this: 1 maps to b, 2 to a, 3 to c — total coverage and uniqueness. Option A fails uniqueness (1 has two images). Option B fails totality (3 is missing). Option D fails totality (no element has any image). The empty set is a relation but not a total function on this domain."
 
-- question: "A relation R ⊆ A × A is symmetric if and only if it contains no ordered pair (a, b) where a ≠ b."
+- question: "A relation R ⊆ A × A is symmetric if and mainly if it contains no ordered pair (a, b) where a ≠ b."
   type: true-false
   answer: false
   explanation: "Symmetry requires that for every (a, b) ∈ R, the reverse (b, a) is also in R. It does not require the absence of pairs with a ≠ b — it requires such pairs to come in matching pairs. For example, {(1,2), (2,1), (3,3)} is symmetric despite containing pairs with distinct elements. The only relation containing no pair (a, b) with a ≠ b is a subset of the diagonal — that's a different property, not symmetry."

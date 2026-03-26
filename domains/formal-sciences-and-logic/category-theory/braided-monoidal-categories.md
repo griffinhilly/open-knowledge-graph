@@ -54,7 +54,7 @@ Braiding is not the same as symmetry; symmetric categories are special cases whe
   answer: 1
   explanation: "The hexagon axioms are coherence conditions for three-object rearrangements. They express that braiding A past the composite B ⊗ C (using associativity then braiding) gives the same result as braiding A past B and then past C separately. Without these conditions, categorical diagrams could fail to commute and the structure would be incoherent — different 'paths' through the category between the same source and target would give different morphisms. The hexagons encode exactly the braid group relation σ_i σ_{i+1} σ_i = σ_{i+1} σ_i σ_{i+1}."
 
-- question: "In a braided monoidal category, the composite β_{B,A} ∘ β_{A,B}: A ⊗ B → A ⊗ B is always equal to the identity morphism id_{A⊗B}."
+- question: "In a braided monoidal category, the composite β_{B,A} ∘ β_{A,B}: A ⊗ B → A ⊗ B is typically equal to the identity morphism id_{A⊗B}."
   type: true-false
   answer: false
   explanation: "This is the key distinction between braided and symmetric monoidal categories. A braiding only requires β_{A,B} to be a natural isomorphism — it says nothing about what β_{B,A} ∘ β_{A,B} equals. Geometrically, this composite corresponds to crossing strand A over B and then crossing B over A — which in the braid group produces a non-trivial braid, not the identity braid. Only when you additionally require β_{B,A} ∘ β_{A,B} = id for all A, B does the braided monoidal category become symmetric. This extra condition collapses all braid complexity and makes the category unable to detect knot topology."

@@ -48,7 +48,7 @@ Read three poems by the same poet and identify what stays constant: what words d
   answer: 1
   explanation: "Voice is relatively stable across a poet's career — the characteristic habits of diction, syntax, and attention that mark their work as distinctively theirs. Tone shifts poem by poem or within a poem, reflecting the speaker's attitude toward a specific subject. Distinguishing them lets you hear irony or ambivalence that operates beneath a consistent voice."
 
-- question: "The 'I' who speaks in a lyric poem is always a direct expression of the poet's own feelings and autobiography."
+- question: "The 'I' who speaks in a lyric poem is generally a direct expression of the poet's own feelings and autobiography."
   type: true-false
   answer: false
   explanation: "The speaker of a poem is a constructed voice — a persona — that may differ significantly from the author. Even in confessional poetry, the 'I' is shaped by aesthetic choices. Conflating speaker with author leads to misreading the poem's actual argument and ignores the craft involved in constructing a poetic consciousness."

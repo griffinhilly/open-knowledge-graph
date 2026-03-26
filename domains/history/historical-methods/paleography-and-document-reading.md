@@ -55,7 +55,7 @@ Work through a structured paleography exercise using a digitized medieval or ear
   answer: true
   explanation: "Abbreviations in historical manuscripts are not always unambiguous — the same mark might expand in multiple plausible ways, and the choice can affect the document's meaning. Editors who expand abbreviations silently (without flagging the decision) present their interpretation as if it were the original text. Historians who rely on such editions may build arguments on an editorial choice they were unaware was made. Recognizing this is central to the paleographic habit of mind: the text you read is always mediated by prior transcription decisions."
 
-- question: "Paleography is primarily a specialist skill required only by historians working with medieval Latin manuscripts."
+- question: "Paleography is primarily a specialist skill required primarily by historians working with medieval Latin manuscripts."
   type: true-false
   answer: false
   explanation: "Paleographic skills are required whenever historians work with documents in non-standardized handwriting — which includes early modern records (16th–18th centuries), 19th-century administrative documents, non-Latin-script traditions (Arabic, Ottoman Turkish, Hebrew, Chinese), and legal and ecclesiastical records from many periods. Script-reading is not confined to medieval Latin; it is needed any time the source is a handwritten document in a script tradition the historian has not already internalized."

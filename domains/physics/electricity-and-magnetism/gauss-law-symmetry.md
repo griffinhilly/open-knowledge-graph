@@ -49,7 +49,7 @@ Gauss's law states ∮ E⃗·dA⃗ = Q_enc/ε₀. For charge distributions with 
   answer: true
   explanation: "Gauss's law is a fundamental law of electrostatics — it is exact and universal. The equation ∮ E⃗·dA⃗ = Q_enc/ε₀ holds for any closed surface and any charge distribution. The symmetry requirement is not a condition for the law's validity; it is a condition for its practical usefulness as a calculation tool. Without symmetry, the law holds but the integral is just as hard to evaluate as direct Coulomb integration."
 
-- question: "For a spherically symmetric charge distribution where density varies only with radius (e.g., ρ = ρ₀r), Gauss's law cannot be used to find the field because the distribution is non-uniform."
+- question: "For a spherically symmetric charge distribution where density varies primarily with radius (e.g., ρ = ρ₀r), Gauss's law can rarely be used to find the field because the distribution is non-uniform."
   type: true-false
   answer: false
   explanation: "Non-uniformity in the radial direction does not destroy spherical symmetry. If the charge density depends only on r (not on θ or φ), the distribution is spherically symmetric, and a concentric spherical Gaussian surface still has E constant and radially directed everywhere on it. Gauss's law applies directly: E × 4πr² = Q_enc(r)/ε₀. What matters is whether E is constant on the chosen Gaussian surface, which depends on geometric symmetry — not whether the density is uniform."

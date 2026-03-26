@@ -52,7 +52,7 @@ Compute MP for each input, then calculate MRTS = MP_L / MP_K. Verify it equals t
   answer: false
   explanation: "MRTS = MP_L / MP_K declines as the firm adds labor and removes capital precisely because of *diminishing* marginal product of labor (MP_L falls) and *rising* marginal product of capital (MP_K rises as capital becomes scarcer). The numerator falls and the denominator rises, causing MRTS to decline. The statement reverses the logic — labor is becoming less productive at the margin, not more, which is why additional substitution toward labor becomes increasingly costly."
 
-- question: "A firm that minimizes cost will always use positive quantities of every available input."
+- question: "A firm that minimizes cost will typically use positive quantities of most available input."
   type: true-false
   answer: false
   explanation: "Corner solutions are possible. When inputs are perfect substitutes in production (constant MRTS), the firm compares the fixed MRTS to w/r. If w/r < MRTS, the firm uses all labor and no capital; if w/r > MRTS, it uses all capital and no labor. Interior solutions (positive quantities of all inputs) require strictly diminishing MRTS — the isoquant must be strictly convex. When MRTS is constant or the boundary conditions dominate, a corner solution minimizes cost."

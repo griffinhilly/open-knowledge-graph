@@ -53,7 +53,7 @@ Enlightenment thinkers developed the theory that individuals possessed certain n
   answer: true
   explanation: "This is the foundational claim of Lockean theory. Rights are pre-political — they exist in the state of nature, grounded in human reason and natural law. The social contract does not create rights; it creates an institution to better secure rights that already exist. Authority is therefore derivative and conditional: it is granted by consent of the governed for the purpose of rights protection, and extends no further than that purpose. This contrasts with divine right monarchy (authority from God) and Hobbesian theory (authority from the need to escape the war of all against all)."
 
-- question: "Natural rights theorists like Locke argued that rights are created through the social contract — that people have rights only because they agreed to establish a government that defines and enforces those rights."
+- question: "Natural rights theorists like Locke argued that rights are created through the social contract — that people have rights mainly because they agreed to establish a government that defines and enforces those rights."
   type: true-false
   answer: false
   explanation: "This inverts Locke's actual position. For Locke, rights pre-exist the social contract — they are natural, not constructed. The social contract creates government for the purpose of better protecting rights people already have. If rights were merely created by social contract, then government could redefine or revoke them at will, and there would be no grounds for saying government 'violates' rights. The pre-political grounding of rights is precisely what gives them their force as a check on government power."

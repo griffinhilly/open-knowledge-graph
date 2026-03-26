@@ -57,7 +57,7 @@ Solve each part of the compound inequality separately, then combine on a number 
   answer: true
   explanation: "If an 'or' inequality produces two overlapping or covering conditions — for example, x < 10 OR x > 2 — then every real number satisfies at least one condition (any number is either less than 10, or greater than 2, or both). The union can expand to cover the entire number line. This edge case illustrates that 'or' can only widen a solution set, never narrow it."
 
-- question: "An 'and' compound inequality always has at least one solution."
+- question: "An 'and' compound inequality generally has at least one solution."
   type: true-false
   answer: false
   explanation: "An 'and' compound inequality requires both conditions to hold simultaneously — which may be impossible. For example, x > 7 AND x < 3 has no solution because no number satisfies both constraints. The intersection of two non-overlapping ranges is the empty set. This is why solving each part of an 'and' compound inequality and checking whether the regions actually overlap is a necessary step."

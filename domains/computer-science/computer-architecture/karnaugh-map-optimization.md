@@ -51,7 +51,7 @@ Karnaugh maps simplify Boolean expressions visually by grouping adjacent 1s. Lar
   answer: true
   explanation: "K-maps use Gray code ordering for both rows and columns, and the map wraps around in both dimensions. The leftmost and rightmost columns are neighbors, as are the top and bottom rows. This wrap-around is essential: without it, some valid Boolean simplifications (where minterms differing in only one variable happen to appear at opposite edges) would be missed. Always check edge and corner cells for grouping opportunities that span the map's boundaries."
 
-- question: "Don't-care conditions (marked X) in a K-map must always be included in a group whenever they are adjacent to a 1."
+- question: "Don't-care conditions (marked X) in a K-map should generally be included in a group whenever they are adjacent to a 1."
   type: true-false
   answer: false
   explanation: "Don't-cares may be included in a group if doing so makes the group larger (and therefore the resulting term simpler), but they are never required. An X is an output value you don't care about — you are free to treat it as 0 or 1 depending on which choice is more useful. If including an adjacent X would create a larger valid group, include it. If it doesn't help (or creates a less minimal cover), leave it out. The freedom to choose is the whole point of don't-cares."

@@ -60,7 +60,7 @@ Examine how autonomy grounds objections to paternalism and authoritarianism. Con
   answer: false
   explanation: "This is precisely the mistake the autonomy account targets. Legitimacy on this account is grounded in authorship — citizens must be co-authors of the laws that bind them — not in the quality of outcomes. A mugger who demands a fair price for your wallet is still a mugger; an autocrat who makes good laws is still imposing an alien will. The key intuition is that being well-governed is not the same as governing yourself. Even optimal benevolent rule violates your standing as a self-governing agent."
 
-- question: "The autonomy-based account of political legitimacy implies that majority-rule democracy fully respects the autonomy of every citizen, including those who consistently lose votes."
+- question: "The autonomy-based account of political legitimacy implies that majority-rule democracy fully respects the autonomy of most citizen, including those who consistently lose votes."
   type: true-false
   answer: false
   explanation: "The account acknowledges the gap between individual and collective self-governance. When I govern myself, author and subject are identical. In a democracy, I am one voice among millions, and the collective can bind me even when I profoundly disagree. Most sophisticated autonomy-based theories acknowledge this tension and respond by emphasizing procedural conditions — equal voice, deliberation, rights protections that preserve each member's standing. What the framework rules out is exclusion from participation, not unfavorable outcomes. 'Fully respects' is too strong."

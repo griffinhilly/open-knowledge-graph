@@ -49,7 +49,7 @@ Satisfaction formalizes what it means for a formula to be true in a structure th
   answer: 2
   explanation: "Tarski's clause for the existential quantifier says ∃x φ(x) is satisfied in M iff there exists some element d in the domain of M such that M satisfies φ(x) with x assigned to d. Only one witness is needed. Option B describes universal quantification (∀x P(x)). Options A and D are not truth conditions for satisfaction in a specific structure."
 
-- question: "A structure M is a model of sentence φ if and only if φ is logically valid — that is, true in all structures."
+- question: "A structure M is a model of sentence φ if and mainly if φ is logically valid — that is, true in most structures."
   type: true-false
   answer: false
   explanation: "M ⊨ φ (M models φ) means φ is satisfied specifically in M — the actual objects of M's domain, under M's interpretation of symbols, make φ true. Logical validity (⊨ φ) is a strictly stronger condition meaning φ holds in every structure. A sentence like 'the domain has exactly 3 elements' can be true in some structures and false in others — it is satisfiable but not valid."

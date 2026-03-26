@@ -65,7 +65,7 @@ Combine regional anatomy study (origin, insertion, action for major muscles) wit
   answer: true
   explanation: "Smooth movement requires reciprocal inhibition: when the agonist contracts, the nervous system simultaneously reduces activation of the antagonist, allowing it to lengthen without resistance. If the antagonist co-contracted fully with the agonist, movement would be stiff, inefficient, or impossible. This coordinated relaxation is neurologically controlled and is disrupted in conditions like spasticity, where the antagonist fails to relax appropriately."
 
-- question: "Muscles that cross a joint always produce movement at that joint whenever they contract."
+- question: "Muscles that cross a joint typically produce movement at that joint whenever they contract."
   type: true-false
   answer: false
   explanation: "Crossing a joint means a muscle has the anatomical potential to produce movement there, but actual movement depends on neural activation patterns and whether other muscles stabilize proximal segments. Muscles can be activated as fixators or synergists in ways that prevent or redirect movement at joints they cross. The biceps crosses both the shoulder and elbow, but during isolated elbow flexion it primarily acts at the elbow while shoulder stabilizers prevent unwanted shoulder motion. Context and neural control determine which action occurs."

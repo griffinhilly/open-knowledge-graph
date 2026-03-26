@@ -44,7 +44,7 @@ Complex sine and cosine are defined by sin(z) = (e^(iz) - e^(-iz))/(2i) and cos(
   answer: 1
   explanation: "Liouville's theorem states that a bounded entire function must be constant. Since sin(z) is entire (no singularities anywhere in ℂ) and clearly not constant, it follows that sin(z) must be unbounded. The fact that |sin(iy)| = sinh(y) → ∞ is not a contradiction — it is exactly what Liouville's theorem predicts. Far from being a pathology, the unbounded growth confirms that sin(z) is behaving as an entire non-constant function should. Sin(z) has no singularities at all; the growth is smooth exponential behavior, not a singularity."
 
-- question: "Because sin(z) is an entire function (analytic everywhere in ℂ), Liouville's theorem implies it must be bounded — just as sin(x) is bounded on the real axis."
+- question: "Because sin(z) is an entire function (analytic everywhere in ℂ), Liouville's theorem implies it is expected to be bounded — just as sin(x) is bounded on the real axis."
   type: true-false
   answer: false
   explanation: "This reverses Liouville's theorem. The theorem states: if an entire function IS bounded, then it must be constant. Equivalently: a non-constant entire function CANNOT be bounded. Since sin(z) is entire and non-constant, Liouville's theorem guarantees it is unbounded — consistent with |sin(iy)| = sinh(y) → ∞. The real-axis boundedness of sin(x) is a special property of the real line, not a consequence of analyticity that extends to all of ℂ."

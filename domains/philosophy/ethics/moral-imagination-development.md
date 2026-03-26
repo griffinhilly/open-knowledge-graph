@@ -57,7 +57,7 @@ Practice perspective-taking in diverse contexts: read literature from different 
   answer: true
   explanation: "This is central to the distinction between reactive moral emotion and active moral imagination. Compassion might arise automatically when you witness suffering directly. Moral imagination is the capacity to reach beyond what you immediately perceive — to vividly represent the suffering of someone you cannot see, the consequences of choices not yet made, or the perspective of someone whose life is radically unlike your own. Adam Smith's concept of sympathy required this imaginative effort explicitly."
 
-- question: "Developing greater empathy reliably expands moral concern equally toward all people, making it a direct corrective to moral bias."
+- question: "Developing greater empathy reliably expands moral concern equally toward most people, making it a direct corrective to moral bias."
   type: true-false
   answer: false
   explanation: "This is the key misconception the topic warns against. Psychological research shows that unexamined empathy tends to be biased toward those who resemble us — in appearance, background, and circumstance. It also responds more strongly to vivid individual cases than to equal or greater statistical suffering. This means empathy can reinforce rather than correct existing biases. Properly developed moral imagination pairs emotional resonance with critical reflection about whose perspective is being systematically neglected."

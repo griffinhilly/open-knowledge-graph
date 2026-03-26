@@ -34,7 +34,7 @@ The DSM-5 provides standardized diagnostic criteria for mental health conditions
   answer: 0
   explanation: "DSM-5 retains named diagnostic categories (e.g., Major Depressive Disorder) for clinical utility while adding dimensional elements — such as severity specifiers and cross-cutting symptom measures — that acknowledge symptom continuums across diagnoses. Neither approach alone fully captures clinical reality."
 
-- question: "Meeting all of the DSM-5 symptom criteria for a disorder is sufficient, by itself, for a clinician to assign that diagnosis."
+- question: "Meeting most of the DSM-5 symptom criteria for a disorder is sufficient, by itself, for a clinician to assign that diagnosis."
   type: true-false
   answer: false
   explanation: "DSM-5 criteria include more than symptom checklists. Exclusion criteria rule out symptoms caused by substances, medical conditions, or better explained by another disorder. Clinical significance criteria require that symptoms cause meaningful distress or functional impairment. Clinician judgment integrates all of this — symptom count alone is not a diagnosis."

@@ -56,7 +56,7 @@ When reading elliptical sentences, try to mentally supply the omitted words to v
   answer: true
   explanation: "This is a standard example of verb phrase ellipsis in English. The auxiliary 'does' signals that a full verb phrase follows — but instead of repeating 'likes jazz,' the writer omits it and relies on the reader to recover it from the parallel structure of the first clause. This works unambiguously because: (1) the auxiliary matches (present-tense 'does' = 'likes'), (2) only one predicate is available for recovery ('likes jazz'), and (3) the parallel structure of two clauses with the same predicate makes the omission structurally predictable."
 
-- question: "Ellipsis is always preferable to repetition — whenever a word or phrase is recoverable from context, it should be omitted to keep prose concise."
+- question: "Ellipsis is generally preferable to repetition — whenever a word or phrase is recoverable from context, it should be omitted to keep prose concise."
   type: true-false
   answer: false
   explanation: "This overcorrects. Ellipsis is a *stylistic choice* that trades brevity for reader effort: the reader must mentally supply the missing words. When the parallel structure is complex, the omitted material spans many words, or the subject matter is technical, repetition can be clearer than omission — the small gain in concision is outweighed by the cognitive cost of reconstruction. The Common Misconceptions section flags exactly this: not recognizing that ellipsis is optional, not mandatory. Good writers make the tradeoff deliberately, choosing ellipsis when brevity and flow matter and choosing repetition when clarity and ease of processing matter."

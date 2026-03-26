@@ -61,7 +61,7 @@ Start with calculating duration for simple bonds, then compare duration-adjusted
   answer: true
   explanation: "This is duration matching (immunization). If portfolio duration equals liability duration, a change in rates moves the present value of assets and liabilities by approximately the same percentage, preserving the funding ratio. A 1% rate rise that reduces bond values by 7% also reduces the present value of future liabilities by approximately 7% — leaving the fund just as well-funded. Pension funds and insurance companies use exactly this strategy to guarantee they can meet future obligations regardless of rate movements."
 
-- question: "A bond's duration always equals its time to maturity."
+- question: "A bond's duration usually equals its time to maturity."
   type: true-false
   answer: false
   explanation: "Duration equals maturity only for zero-coupon bonds, which pay nothing until maturity. For any coupon bond, intermediate cash flows received before maturity pull the weighted average time below the maturity date. Macaulay duration is always less than or equal to maturity, with equality only at the zero-coupon extreme. A 10-year bond with a 6% annual coupon might have a Macaulay duration of roughly 7–8 years — confusing duration with maturity would significantly overestimate its interest rate risk."

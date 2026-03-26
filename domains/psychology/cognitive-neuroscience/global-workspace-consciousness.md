@@ -44,7 +44,7 @@ Global workspace theory proposes consciousness arises when information enters a 
   answer: 2
   explanation: "The attentional blink is a direct consequence of the workspace bottleneck. The first target triggers an ignition event — widespread broadcast across the global workspace — and this broadcast takes time to complete. While the workspace is occupied, the second target cannot ignite, even though it is fully processed in sensory cortex. This is evidence that consciousness requires workspace broadcast, not just sensory processing. Option A is wrong because the stimulus is demonstrably detected at early sensory stages but not consciously reported."
 
-- question: "According to GWT, all information that the brain processes actively is broadcast to the global workspace and becomes conscious."
+- question: "According to GWT, most information that the brain processes actively is broadcast to the global workspace and becomes conscious."
   type: true-false
   answer: false
   explanation: "This is the key misconception GWT was designed to refute. Most cognitive processing occurs backstage — in specialized modules handling vision, motor control, emotional appraisal, and more — without ever reaching the global workspace. The workspace is a bottleneck, not a general-purpose processor; only a small fraction of ongoing neural activity achieves broadcast. The entire explanatory power of GWT rests on the distinction between processed-but-unconscious and broadcast-and-conscious."

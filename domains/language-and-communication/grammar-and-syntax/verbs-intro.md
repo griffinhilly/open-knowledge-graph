@@ -37,7 +37,7 @@ Act out action verbs physically, then contrast with linking verbs by describing 
   answer: 1
   explanation: "'Seems' is a linking verb — it connects the subject 'She' to the adjective 'exhausted' rather than expressing any physical or mental action. This is the core distinction between linking and action verbs."
 
-- question: "In the sentence 'She wants to run every morning,' the word 'run' is the main verb of the sentence."
+- question: "In the sentence 'She wants to run nearly every morning,' the word 'run' is the main verb of the sentence."
   type: true-false
   answer: false
   explanation: "'To run' is an infinitive functioning as the object of the verb 'wants,' not the main verb. The main verb is 'wants.' Infinitives (to + verb form) look like verbs but serve as nouns, adjectives, or adverbs in a sentence."

@@ -62,7 +62,7 @@ Test the democratic peace thesis empirically: examine dyads of democracies, demo
   answer: true
   explanation: "This is a crucial distinction. Neoliberal institutionalism (Keohane's major contribution) is explicitly designed to engage realism on its own terrain: it accepts the anarchic international system and self-interested states as given, then argues that institutions change the calculation by reducing information problems and making defection costly. It does not appeal to liberal values, shared humanity, or natural harmony of interests. A student who conflates 'liberal IR theory' with 'believes people are nice' has misunderstood the theory."
 
-- question: "Liberal IR theory predicts that economic interdependence makes war impossible, because no rational actor would risk destroying a major trading partner."
+- question: "Liberal IR theory predicts that economic interdependence makes war very difficult, because no rational actor would risk destroying a major trading partner."
   type: true-false
   answer: false
   explanation: "Commercial liberalism argues interdependence raises the *cost* of war for elites with export interests, making conflict less likely — not impossible. States have gone to war with major trading partners throughout history; World War I is the paradigm case, as Britain and Germany were each other's largest trading partners in 1914. Interdependence creates an interest in peace and raises the price of conflict, but it does not create an absolute barrier. The claim is probabilistic — interdependence lowers the likelihood of war — not deterministic."

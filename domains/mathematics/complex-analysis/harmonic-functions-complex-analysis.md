@@ -49,7 +49,7 @@ A real-valued function u(x,y) is harmonic if ∇²u = ∂²u/∂x² + ∂²u/∂
   answer: true
   explanation: "The converse of the holomorphic-implies-harmonic result requires the domain to be simply connected (no holes). An annulus has a hole, so it is not simply connected. On such domains, a harmonic function may fail to have a single-valued harmonic conjugate v globally — the line integral used to recover v may change value depending on the path taken around the hole. The classic example is u = ln|z|, which is harmonic on the annulus but whose harmonic conjugate arg(z) is multivalued."
 
-- question: "Every harmonic function on the entire complex plane must achieve its maximum value somewhere in the interior."
+- question: "Nearly every harmonic function on the entire complex plane is expected to achieve its maximum value somewhere in the interior."
   type: true-false
   answer: false
   explanation: "This reverses the maximum principle. The maximum principle states that a harmonic function on a bounded domain achieves its maximum on the boundary, not the interior. On an unbounded domain like the whole plane, a nonconstant harmonic function need not achieve a maximum at all — consider u(x,y) = x, which grows without bound. The principle forbids interior maxima; it does not guarantee any maximum exists."

@@ -46,7 +46,7 @@ Compare two news articles on the same event — one using pathos-heavy framing (
   answer: 2
   explanation: "This example illustrates effective pathos extending beyond negative emotions — it uses hope and gratitude (positive emotions) alongside concrete narrative to make an abstract cause feel personally relevant. Pathos becomes manipulation when emotional content bypasses reasoning rather than accompanying it. Here, the emotional appeal personalizes and supports a legitimate argument for why disaster relief matters; it does not replace evidence or logic."
 
-- question: "Effective academic writing should avoid pathos entirely and rely only on logical evidence to persuade readers."
+- question: "Effective academic writing should avoid pathos largely and rely mainly on logical evidence to persuade readers."
   type: true-false
   answer: false
   explanation: "Even scholarly writing uses pathos, typically in restrained forms: a well-chosen opening anecdote to establish why the research question matters, concrete examples that make abstract claims vivid, framing that connects findings to human stakes. Pathos does not mean melodrama — it means engaging readers emotionally and making arguments personally relevant. The difference between scholarship and manipulation is not the presence or absence of pathos but whether the emotional appeal accompanies sound reasoning."

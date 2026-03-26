@@ -47,12 +47,12 @@ Quorum-based replication requires writes to be acknowledged by a quorum (majorit
   answer: 1
   explanation: "W=1, R=N: 1+N = N+1 > N, so W+R > N is satisfied. Every write is acknowledged by just one replica (fast writes), but every read must contact all N replicas (slow reads) — and the highest-version response is the latest write. This is a legitimate configuration with its own tradeoff profile. It is not less reliable in terms of correctness, but it is less available for reads during failures: if any replica is down, R=N cannot be satisfied. Reliability and performance tradeoffs come from where you set W and R, not from violating the quorum invariant."
 
-- question: "Meeting the quorum invariant W+R > N guarantees that a read will always return the most recently written value without any additional protocol mechanisms."
+- question: "Meeting the quorum invariant W+R > N guarantees that a read will typically return the most recently written value without any additional protocol mechanisms."
   type: true-false
   answer: false
   explanation: "The quorum invariant guarantees that at least one replica in the read set *has* the latest value — but it does not automatically return it to the client. If the client simply takes the first response, a slow replica might reply with stale data first. Version numbers, timestamps, or vector clocks must be attached to each response so the client can identify which is freshest. Some systems also use read repair: on discovering stale replicas in the quorum, the latest value is pushed back to them. The quorum overlap is the mathematical prerequisite; the protocol on top determines whether that freshness guarantee is actually realized."
 
-- question: "In quorum-based replication, increasing the write quorum W always improves read performance."
+- question: "In quorum-based replication, increasing the write quorum W usually improves read performance."
   type: true-false
   answer: false
   explanation: "Increasing W means more replicas hold the latest write, which allows R to decrease while still satisfying W+R > N — so yes, it can enable faster reads. But increasing W directly *slows writes*, since more replicas must acknowledge each write. There is no free lunch: the sum W+R must exceed N, so making writes heavier (higher W) creates room to make reads lighter (lower R), and vice versa. If W is increased while R is held constant, there is no improvement in read performance — just slower writes with more replicas storing the latest data."

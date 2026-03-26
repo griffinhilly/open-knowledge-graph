@@ -58,7 +58,7 @@ Work through proofs step-by-step, making strategy choices explicit. Discuss why 
   answer: true
   explanation: "This is the central heuristic of goal-directed proof construction. A goal of A ∧ B calls for ∧-Introduction (split into two subgoals). A goal of A → B calls for →-Introduction (assume A, prove B). A goal of ∀x φ(x) calls for ∀-Introduction (introduce a fresh variable, prove φ). A goal of A ∨ B calls for ∨-Introduction (choose a disjunct and prove it). Reading the outermost connective converts proof search from random rule application into a systematic top-down decomposition."
 
-- question: "Forward chaining from hypotheses and backward chaining from the goal are incompatible strategies — using one means you cannot use the other in the same proof."
+- question: "Forward chaining from hypotheses and backward chaining from the goal are incompatible strategies — using one means you can seldom use the other in the same proof."
   type: true-false
   answer: false
   explanation: "Both strategies are routinely combined in the same proof. A common pattern: work backward from the goal (applying introduction rules) until you reach a subgoal that is not immediately in the hypotheses, then switch to forward chaining (applying elimination rules to hypotheses) to generate new facts that satisfy the subgoal. The strategies are complementary: backward chaining decomposes the goal, forward chaining enriches the available facts. Expert proof construction fluidly alternates between the two depending on which 'side' of the proof tree is richer at each moment."

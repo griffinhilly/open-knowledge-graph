@@ -55,7 +55,7 @@ That ensemble narratives are confusing; that they diffuse emotional impact; that
   answer: true
   explanation: "Parallel arcs are not mere redundancy or structural filler; they are an ensemble narrative's primary tool for producing meaning through comparison. When two characters face analogous choices and diverge, the reader understands both characters' situations more richly than if either were followed alone. The contrast makes visible the contingency of each character's path, the role of social position or temperament, and the range of possible responses to the same conditions. The ensemble form makes this structural comparison available in a way that single-protagonist narrative cannot."
 
-- question: "To maintain equal emotional investment across an ensemble cast, all protagonists must receive roughly equal page-time throughout the novel."
+- question: "To maintain equal emotional investment across an ensemble cast, most protagonists is expected to receive roughly equal page-time throughout the novel."
   type: true-false
   answer: false
   explanation: "Equal page-time is neither necessary nor sufficient for equal emotional investment. What matters is the depth and quality of access to each character's interiority, the significance of the moments assigned to each, and how the arcs are positioned relative to each other. Some ensemble novels give certain protagonists longer runs before switching; others shift rapidly. The timing of shifts is a craft decision about effect, not a formula for fairness. A character who appears in fewer chapters can carry equal or greater narrative weight if those chapters are placed at crucial structural moments."

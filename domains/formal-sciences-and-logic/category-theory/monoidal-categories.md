@@ -49,7 +49,7 @@ Start with (Set, ×, {*}) and verify the associator and unitor isomorphisms expl
   answer: 1
   explanation: "The unit object in (Vect_k, ⊗_k, k) is the field k viewed as a one-dimensional vector space. For any vector space V, there are natural isomorphisms k ⊗_k V ≅ V ≅ V ⊗_k k, capturing the left and right unit laws. The zero space {0} is the unit for direct sum ⊕, a different monoidal structure on Vect."
 
-- question: "In a monoidal category, the tensor product ⊗ is always the same as the categorical product (the object satisfying the universal property of products)."
+- question: "In a monoidal category, the tensor product ⊗ is generally the same as the categorical product (the object satisfying the universal property of products)."
   type: true-false
   answer: false
   explanation: "These are different constructions that happen to coincide in some categories but not others. In (Set, ×, {*}), the tensor product is the categorical product. But in (Vect_k, ⊗_k, k), the tensor product is not the categorical product — the categorical product in Vect is the direct product (direct sum for finite families), not the tensor product. A monoidal category's tensor product only needs to be a bifunctor with a unit and coherence isomorphisms, not a categorical product."

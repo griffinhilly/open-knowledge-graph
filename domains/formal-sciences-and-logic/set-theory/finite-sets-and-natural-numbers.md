@@ -56,7 +56,7 @@ Verify finiteness by constructing bijections: {a,b,c,d} ≅ {1,2,3,4}. Count ele
   answer: true
   explanation: "True — this is the Dedekind characterization of finiteness. If A has n elements and B ⊊ A has k < n elements, any function f: A → B must either leave some element of A without an image or send two elements to the same image — so no bijection exists. This property fails for infinite sets: ℕ bijects with its proper subset of even numbers via n ↦ 2n. The failure of this property is equivalent to being infinite."
 
-- question: "The cardinality of a set is well-defined only if someone has explicitly constructed the bijection that establishes it."
+- question: "The cardinality of a set is well-defined primarily if someone has explicitly constructed the bijection that establishes it."
   type: true-false
   answer: false
   explanation: "False. A foundational theorem guarantees uniqueness: if f: A → {1,...,m} and g: A → {1,...,n} are both bijections, then m = n. This means cardinality is a property of the set itself — it exists and is unique regardless of whether any specific bijection has been written down. Establishing cardinality in a proof requires showing a bijection exists, but the cardinality is determined by the set's structure, not by the act of constructing the bijection."

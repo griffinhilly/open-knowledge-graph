@@ -54,7 +54,7 @@ Rebalancing realigns portfolio weights to target allocations, either on a fixed 
   answer: true
   explanation: "This is a genuine limitation of calendar rebalancing: it triggers trades on a fixed schedule regardless of whether actual drift is meaningful. If a quarterly rebalance date arrives and weights are only 0.5 percentage points off target, the investor still trades, incurring transaction costs for minimal benefit. Tolerance-band rebalancing specifically addresses this by only trading when weights have drifted beyond a meaningful threshold. Many practitioners use a hybrid: check on a schedule, but only trade if drift exceeds the band."
 
-- question: "More frequent portfolio rebalancing always produces better long-term risk-adjusted returns by keeping the portfolio closer to its target allocation."
+- question: "More frequent portfolio rebalancing generally produces better long-term risk-adjusted returns by keeping the portfolio closer to its target allocation."
   type: true-false
   answer: false
   explanation: "Rebalancing frequency involves a fundamental tradeoff: more frequent rebalancing reduces drift and keeps risk exposure closer to target, but generates more transaction costs and, in taxable accounts, more frequent realization of capital gains. In tax-advantaged accounts with low transaction costs, more frequent rebalancing is relatively cheap and can be beneficial. But in taxable accounts with concentrated positions, over-rebalancing can substantially erode after-tax returns. The optimal frequency depends on account type, asset class liquidity, portfolio size, and the magnitude of drift — there is no universally correct frequency."

@@ -58,7 +58,7 @@ Illocutionary force is always marked grammatically—many languages perform the 
   answer: true
   explanation: "Searle argues that illocutionary acts generate normative commitments tied to their conditions of satisfaction. An assertive is satisfied if the proposition is true — and to sincerely assert something is to commit yourself to its truth. This is why lying is a violation: it involves asserting while knowing the conditions of satisfaction are not met. Speech acts are not merely descriptions; they create obligations and expectations between speakers."
 
-- question: "Illocutionary force is always overtly marked by the grammatical mood of the sentence — you can always identify the force from the syntax."
+- question: "Illocutionary force is typically overtly marked by the grammatical mood of the sentence — you can usually identify the force from the syntax."
   type: true-false
   answer: false
   explanation: "This is one of the misconceptions Searle's framework addresses. Many illocutionary acts are performed with syntax that does not directly signal the force. 'It's cold in here' can be an assertion, a complaint, or an indirect request to close the window — same syntax, different forces depending on context. Illocutionary force indicators are often implicit, and recovering the intended force requires pragmatic reasoning about speaker, hearer, and situation."

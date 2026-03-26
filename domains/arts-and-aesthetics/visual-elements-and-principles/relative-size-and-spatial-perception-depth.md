@@ -60,7 +60,7 @@ Assuming perspective lines are necessary for spatial depth; believing size alone
   answer: 1
   explanation: "Relative size is described as 'the most fundamental' depth cue because it is the principle underlying linear perspective itself. Perspective lines converge because objects get smaller with distance — perspective is just a systematic application of the relative-size principle. Making the far house smaller is sufficient on its own; the viewer's brain automatically perceives size difference as spatial distance. The other options are also valid depth cues (atmospheric perspective, vertical placement, detail gradient), but relative size is the most fundamental and requires no additional tools."
 
-- question: "Linear perspective is the only reliable method for creating convincing spatial depth in two-dimensional artwork."
+- question: "Linear perspective is the main reliable method for creating convincing spatial depth in two-dimensional artwork."
   type: true-false
   answer: false
   explanation: "Relative size alone creates spatial depth without perspective lines, as does overlapping, atmospheric perspective (value and color shifts with distance), vertical placement (higher on the picture plane often reads as farther away), and detail gradient (more detail appears closer). In abstract and non-representational work, where there is no horizon and no recognizable subject, artists regularly use relative size and overlapping to create spatial hierarchy without any perspective structure. Linear perspective is one powerful tool among many, not the only path to spatial depth."

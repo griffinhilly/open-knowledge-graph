@@ -50,7 +50,7 @@ Aliasing occurs when sampling violates the Nyquist criterion, causing high-frequ
   answer: true
   explanation: "This is the fundamental asymmetry of aliasing: prevention is possible, correction is not. The alias and the genuine signal at the same frequency produce identical sample sequences — there is no mathematical operation on the sampled data that can distinguish them. This is why the anti-aliasing filter is placed before the ADC, not after. In practical data acquisition, discovering an unexpected spectral component requires checking whether it could be an alias (by varying f_s and observing whether the component shifts in frequency) before concluding it is genuine."
 
-- question: "Increasing the sampling rate always eliminates aliasing, regardless of the signal's frequency content."
+- question: "Increasing the sampling rate generally eliminates aliasing, regardless of the signal's frequency content."
   type: true-false
   answer: false
   explanation: "Increasing f_s raises the Nyquist limit (f_N = f_s/2) and thus the range of frequencies that can be faithfully captured. But if the signal still contains components above the new Nyquist limit, aliasing still occurs. The requirement is that f_s exceed twice the maximum frequency present in the signal before sampling. Without an anti-aliasing filter, no sampling rate is 'safe' for a signal with unbounded frequency content. The filter and the sampling rate together determine aliasing behavior; neither alone is sufficient."

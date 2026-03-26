@@ -61,7 +61,7 @@ Analyze a published argument that makes a causal claim and map the causal chain 
   answer: true
   explanation: "Causal chains compound uncertainty: to argue that poverty causes poor nutrition, which causes reduced cognitive development, which causes lower test scores, you need separate evidence for each causal link and a mechanism for each. If any one link fails, the chain fails. This is why contested policy arguments often dispute not the endpoints but one intermediate step — that single broken link is enough to defeat the whole argument."
 
-- question: "If event A reliably occurs before event B in every documented case, that temporal precedence is sufficient to establish that A causes B."
+- question: "If event A reliably occurs before event B in nearly every documented case, that temporal precedence is sufficient to establish that A causes B."
   type: true-false
   answer: false
   explanation: "Temporal precedence (A always before B) is a necessary but not sufficient condition for causation. The logical fallacy of assuming otherwise is called *post hoc ergo propter hoc* — 'after this, therefore because of this.' The rooster crows before sunrise every day, but the crowing doesn't cause the sun to rise. Causation requires a mechanism explaining how A produces B, and the ruling-out of alternative explanations (confounding variables, coincidence, reverse causation)."

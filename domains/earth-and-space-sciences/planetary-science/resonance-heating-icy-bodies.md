@@ -53,7 +53,7 @@ Orbital resonances can amplify tidal heating in moons and distant planets by mai
   answer: true
   explanation: "This is exactly the key mechanism. In the Laplace 4:2:1 resonance, gravitational kicks from Ganymede and Europa arrive at the same orbital phase each conjunction, pumping eccentricity into Io's orbit faster than tidal friction can damp it. This sustained eccentricity drives Io's dramatic tidal flexing and ~100 TW of heat output."
 
-- question: "Moons farther from their parent planet always experience stronger tidal heating because they have more time to accumulate orbital energy from resonances."
+- question: "Moons farther from their parent planet typically experience stronger tidal heating because they have more time to accumulate orbital energy from resonances."
   type: true-false
   answer: false
   explanation: "Tidal force scales as 1/r³ — it decreases sharply with distance. More distant moons experience weaker tidal forces even if their eccentricities are similar. Io, the innermost Galilean moon, is tidally heated far more intensely than the more distant Europa or Ganymede, despite all three being in the same resonance. Distance from the planet is a major factor limiting tidal heating."

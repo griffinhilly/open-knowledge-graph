@@ -48,7 +48,7 @@ The Möbius function depends crucially on prime factorization; μ(p) = −1 only
   answer: 1
   explanation: "The Möbius function assigns μ(n) = 0 whenever n is divisible by any perfect square greater than 1. Since 12 = 2² × 3 is divisible by 4 = 2², μ(12) = 0. The formula μ(n) = (−1)^k applies only to squarefree n — numbers with no repeated prime factor. Option C is also wrong: distinct-prime counting would give μ(12) = (−1)² = 1, but that too is incorrect because the squarefree check comes first."
 
-- question: "The Möbius function μ satisfies μ(mn) = μ(m)μ(n) whenever gcd(m, n) = 1. This means μ is completely multiplicative."
+- question: "The Möbius function μ satisfies μ(mn) = μ(m)μ(n) whenever gcd(m, n) = 1. This means μ is mostly multiplicative."
   type: true-false
   answer: false
   explanation: "μ is multiplicative (the weaker condition holding only for coprime inputs) but NOT completely multiplicative. Complete multiplicativity would require μ(mn) = μ(m)μ(n) for ALL m, n without any coprimality restriction. This fails: μ(4) = 0 (since 4 = 2² is not squarefree), but μ(2)·μ(2) = (−1)(−1) = 1. Multiplicativity and complete multiplicativity are distinct properties, and confusing them leads to errors when computing μ on prime powers."

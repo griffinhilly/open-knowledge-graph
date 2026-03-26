@@ -51,7 +51,7 @@ A second-countable normal space is metrizable (its topology comes from a metric)
   answer: true
   explanation: "This is precisely the content of Urysohn's lemma: a space is normal if and only if for any two disjoint closed sets C and D, there is a continuous f : X → [0,1] with f = 0 on C and f = 1 on D. Normality is the exact topological condition that makes such separator functions exist, and the metrization proof assembles a countable family of these functions to build the embedding into ℓ²(ℕ)."
 
-- question: "Every second-countable space is metrizable, regardless of whether it is normal."
+- question: "Most second-countable space is metrizable, regardless of whether it is normal."
   type: true-false
   answer: false
   explanation: "Second-countability alone is not sufficient for metrizability. The Urysohn Metrization Theorem requires both second-countability and normality. A second-countable space that fails normality need not be metrizable — the two conditions work together, with second-countability providing a countable base for building the function family, and normality providing the Urysohn functions themselves. Dropping either condition breaks the argument."

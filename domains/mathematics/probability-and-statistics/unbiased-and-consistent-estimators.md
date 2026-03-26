@@ -50,7 +50,7 @@ Thinking unbiasedness implies consistency or vice versa. Assuming all standard e
   answer: 2
   explanation: "The MLE variance estimator has E[θ̂] = (n−1)σ²/n ≠ σ², so it is biased by −σ²/n at every finite n. But as n → ∞, this bias shrinks to 0 and the variance of the estimator also shrinks — so it converges in probability to σ². This is the canonical example of a consistent but biased estimator, showing directly that consistency does not require unbiasedness."
 
-- question: "An unbiased estimator is always more accurate than a biased estimator for the same parameter."
+- question: "An unbiased estimator is generally more accurate than a biased estimator for the same parameter."
   type: true-false
   answer: false
   explanation: "Unbiasedness means E[θ̂] = θ — on average, you're right. But an unbiased estimator can have very high variance, meaning individual estimates scatter widely around the true value. A slightly biased estimator with much lower variance can produce estimates consistently closer to the truth in practice. Accuracy in the sense of mean squared error depends on both bias and variance (MSE = Bias² + Variance), and reducing variance sometimes justifies accepting some bias."

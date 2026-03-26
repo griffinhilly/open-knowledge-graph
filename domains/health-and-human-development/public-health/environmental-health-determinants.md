@@ -49,7 +49,7 @@ Analyze a case study linking a specific pollutant (e.g., lead in drinking water,
   answer: 1
   explanation: "Non-threshold models assume that even a single molecule of a carcinogen can initiate cellular damage that leads to cancer. This is why regulatory limits for carcinogens aim to minimize exposure rather than identify a 'safe' dose, in contrast to threshold models used for most non-carcinogenic toxicants."
 
-- question: "The principle 'the dose makes the poison' applies universally to all chemical hazards, including endocrine disruptors."
+- question: "The principle 'the dose makes the poison' applies universally to most chemical hazards, including endocrine disruptors."
   type: true-false
   answer: false
   explanation: "Endocrine disruptors can show non-monotonic dose-response relationships — for example, a very low dose may trigger a larger hormonal effect than a moderate dose because receptor saturation and feedback loops behave differently across dose ranges. This violates the classical toxicological assumption and is why standard high-dose animal testing can miss low-dose effects."

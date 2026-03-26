@@ -48,7 +48,7 @@ Potentiometric measurements (pH, ion concentration) use the Nernst equation to r
   answer: 1
   explanation: "Potentiometric measurement is a zero-current technique. A high-impedance voltmeter draws essentially no current, so no electrochemical reactions are driven in the sample and no analyte is consumed or altered. The glass membrane develops a potential difference due to H⁺ activity differences on its two faces, but this is an equilibrium property that does not require net ion transfer. This is why ISE measurements can be made in very small, precious, or reactive samples — the electrode reads the signal without changing the system."
 
-- question: "Ion-selective electrodes measure the activity of the target ion, which equals its molar concentration in all aqueous solutions at standard conditions."
+- question: "Ion-selective electrodes measure the activity of the target ion, which equals its molar concentration in most aqueous solutions at standard conditions."
   type: true-false
   answer: false
   explanation: "Activity equals concentration only in the limit of infinite dilution, where activity coefficient γ → 1. At any real ionic strength, activity = γ × c, and γ < 1 due to electrostatic interactions among ions. For clinical samples (blood plasma, urine) or environmental samples (seawater, concentrated soil extracts), ionic strength is high enough that activity and concentration differ meaningfully. Failing to account for this is a common source of error when interpreting ISE results alongside concentration-based reference methods."

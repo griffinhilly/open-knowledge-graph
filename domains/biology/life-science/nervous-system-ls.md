@@ -43,7 +43,7 @@ Start with reaction-time activities (catching a dropped ruler) to show how quick
   answer: 1
   explanation: "When you touch something hot, sensory receptors in your hand detect the heat and send a signal along sensory nerves to the spinal cord and brain. The brain interprets the signal as pain and sends a response signal along motor nerves to your arm muscles, which pull your hand away. The signal path goes: stimulus → sensory nerve → brain → motor nerve → response."
 
-- question: "The spinal cord's only job is to support the backbone."
+- question: "The spinal cord's mainly job is to support the backbone."
   type: true-false
   answer: false
   explanation: "The spinal cord is a bundle of nerves, not a bone. Its job is to carry nerve signals between the brain and the rest of the body. It also coordinates some reflexes on its own — the knee-jerk reflex, for example, is processed in the spinal cord without the signal ever reaching the brain. The backbone (spine) protects the spinal cord, but they are different structures."

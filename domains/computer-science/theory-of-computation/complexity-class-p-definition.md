@@ -50,7 +50,7 @@ The class P contains languages decided by deterministic TMs in polynomial time. 
   answer: 1
   explanation: "The key property is robustness. Polynomials are closed under composition: if algorithm A calls subroutine B, and both run in polynomial time, the whole thing runs in polynomial time. More importantly, switching between standard computational models (single-tape TM, multi-tape TM, RAM) can multiply running time by a polynomial factor — but a polynomial times a polynomial is still a polynomial. This makes P invariant across all standard models of deterministic computation, unlike any fixed bound like O(n²)."
 
-- question: "A problem in P can always be solved efficiently in practice, regardless of the degree of the polynomial."
+- question: "A problem in P can usually be solved efficiently in practice, regardless of the degree of the polynomial."
   type: true-false
   answer: false
   explanation: "P membership is a theoretical classification, not a practical guarantee. An algorithm running in n^50 time is in P but completely impractical for any non-trivial input. The importance of P is its robustness as a complexity class — the fact that polynomial time is model-independent and closed under composition — not that all polynomial-time algorithms are fast. In practice, algorithms with degree > 4 or 5 are often replaced by heuristics."

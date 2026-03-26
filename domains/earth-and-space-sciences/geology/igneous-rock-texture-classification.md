@@ -52,7 +52,7 @@ Igneous rock textures (phaneritic, aphanitic, porphyritic, glassy) directly refl
   answer: false
   explanation: "Glassy texture forms from *extremely rapid* cooling, not slow cooling. When lava is quenched (erupted into water or air), atoms in the melt freeze in place before they can organize into crystal lattices. There is no time for nucleation or growth — the result is an amorphous solid with no crystalline structure. Slow cooling produces the opposite: large, well-formed crystals (phaneritic texture). Obsidian's conchoidal fracture and lack of grain boundaries are consequences of its non-crystalline structure."
 
-- question: "Two rocks with identical mineral compositions must have formed under the same conditions."
+- question: "Two rocks with identical mineral compositions is expected to have formed under the same conditions."
   type: true-false
   answer: false
   explanation: "Composition and texture are largely independent. Granite and rhyolite have very similar mineral compositions (both are silicic), but granite is phaneritic (slow-cooled, intrusive) and rhyolite is aphanitic (fast-cooled, extrusive). Similarly, gabbro and basalt share a mafic composition but have coarse and fine textures respectively. Texture reveals cooling rate and emplacement depth; composition reveals source magma chemistry. Both must be examined to fully characterize an igneous rock."

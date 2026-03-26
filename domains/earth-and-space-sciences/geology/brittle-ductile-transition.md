@@ -57,7 +57,7 @@ Compare earthquake depth distributions to computed brittle-ductile boundaries. E
   answer: 1
   explanation: "Mylonite is the diagnostic rock of ductile shear zones: it forms by crystal-plastic deformation (dislocation creep, grain boundary migration, dynamic recrystallization) at elevated temperatures and pressures. The minerals are deformed and recrystallized without being fractured — grains are smaller but internally coherent. Brittle deformation produces cataclasites and fault breccias with angular fragments along discrete fracture surfaces, the opposite of mylonite's continuous ductile fabric."
 
-- question: "Ductile deformation can never produce any fractures — rocks that flow at depth are completely free of cracks."
+- question: "Ductile deformation can seldom produce any fractures — rocks that flow at depth are substantially free of cracks."
   type: true-false
   answer: false
   explanation: "Ductile behavior describes the *dominant* deformation mechanism, not the complete absence of fracturing. Even in nominally ductile rock, localized stress concentrations, fluid infiltration, or brief excursions in strain rate can produce veins, pressure-solution seams, or brittle fractures overprinted on ductile fabric. Natural shear zones often show evidence of both mechanisms operating at different scales or at slightly different times. The transition is a gradual change in the *ratio* of brittle to ductile processes, not a sharp on/off switch."

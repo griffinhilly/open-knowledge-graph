@@ -52,7 +52,7 @@ Gauge conditions select specific potentials to simplify calculations. The Lorent
   answer: true
   explanation: "The Lorentz gauge condition ∇·A + (1/c²)∂φ/∂t = 0 is Lorentz covariant — it holds in all inertial frames related by Lorentz boosts. This makes it natural for relativistic field theory and quantum electrodynamics, where maintaining spacetime symmetry is essential. The Coulomb gauge condition ∇·A = 0 is not Lorentz covariant; boosting to a new frame breaks the condition and requires a re-gauging. The Lorentz gauge manifests the relativistic unity of space and time directly in the potential equations."
 
-- question: "The Lorentz gauge condition completely fixes the gauge — once you impose ∇·A + (1/c²)∂φ/∂t = 0, there is a unique pair (φ, A) describing the physical situation."
+- question: "The Lorentz gauge condition substantially fixes the gauge — once you impose ∇·A + (1/c²)∂φ/∂t = 0, there is a unique pair (φ, A) describing the physical situation."
   type: true-false
   answer: false
   explanation: "The Lorentz condition constrains gauge freedom but does not eliminate it. There remains residual gauge freedom: you can still perform additional gauge transformations with any scalar function λ that satisfies the wave equation □²λ = 0, since such λ preserves the Lorentz condition while changing the potentials. The Lorentz condition defines a family of gauges, not a single unique one. Complete gauge fixing — selecting a unique representative — requires additional constraints beyond the Lorentz condition."

@@ -65,7 +65,7 @@ This is not a merely verbal dispute — the choice between coarse-grained and fi
   answer: 1
   explanation: "Kim defines events as property exemplifications by an object at a time: (object, property, time) triples. 'Being stabbed' and 'being killed' are different properties, so they constitute different events even though they occur at the same time with the same object. This fine-grained individuation multiplies events: a single occurrence can constitute many events depending on how many properties are instantiated. Davidson would say all these descriptions name one event; Kim says each distinct property creates a distinct event."
 
-- question: "The debate between Davidson's coarse-grained and Kim's fine-grained event individuation is merely a verbal dispute — both views agree on all substantive metaphysical questions."
+- question: "The debate between Davidson's coarse-grained and Kim's fine-grained event individuation is merely a verbal dispute — both views agree on most substantive metaphysical questions."
   type: true-false
   answer: false
   explanation: "This is a substantive debate with real consequences. One critical consequence is for philosophy of mind: if mental events are identical to physical events, Davidson's view allows 'a pain' and 'C-fiber firing' to be the same event (sharing causal relations), making mental-physical identity more readily defensible. On Kim's fine-grained view, they would be distinct events (different properties exemplified), making identity harder. Another consequence: how many causes an effect has differs — Davidson's one-event view yields one proximate cause; Kim's view can yield multiple distinct event-causes."

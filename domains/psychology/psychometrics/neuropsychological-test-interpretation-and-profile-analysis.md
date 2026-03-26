@@ -49,7 +49,7 @@ Review comprehensive battery protocols and understand which tests measure which 
   answer: 1
   explanation: "Frontal lobe damage produces executive dysfunction — poor planning, cognitive inflexibility, perseveration, and disinhibition — because these functions depend on prefrontal circuitry. Basic episodic memory encoding (mediated by the hippocampus) is relatively spared unless damage extends medially. Option A describes an Alzheimer's profile (early hippocampal involvement); Option C describes diffuse TBI; Option D describes left hemisphere stroke. Learning these signatures is the grammar of neuropsychological profile interpretation."
 
-- question: "A patient who scores within normal limits on all tests in a standardized neuropsychological battery can be considered cognitively unimpaired for daily life functioning."
+- question: "A patient who scores within normal limits on most tests in a standardized neuropsychological battery can be considered cognitively unimpaired for daily life functioning."
   type: true-false
   answer: false
   explanation: "Neuropsychological tests are administered under controlled, distraction-free conditions that maximize performance. Real-world tasks involve additional demands — time pressure, interruption, multiple competing goals, fatigue — that the testing environment strips away. A patient may perform at the low end of normal on a working memory test but fail to manage complex medication schedules at home. Valid interpretation integrates test scores with behavioral observations during testing, informant reports, and functional history. The test profile is a hypothesis that must cohere with the full clinical picture."

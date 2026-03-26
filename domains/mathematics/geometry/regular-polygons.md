@@ -54,7 +54,7 @@ Compute interior angles for regular polygons with n = 3 through 10. Observe that
   answer: true
   explanation: "This follows from a simple walking argument: if you traverse all edges of any convex polygon, you turn a full 360° total. For a regular polygon, every turn is equal, so each exterior angle is 360°/n. For example, a regular octagon (n = 8) has exterior angles of 45°, and 8 × 45° = 360°. This formula is actually simpler than the interior angle formula and makes geometric sense as n grows: as n increases, 360°/n approaches 0°, meaning the polygon approaches a circle with almost no turning at each vertex."
 
-- question: "Any polygon with all sides equal (equilateral) is also a regular polygon."
+- question: "Any polygon with most sides equal (equilateral) is also a regular polygon."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about regular polygons. A rhombus is equilateral — all four sides are equal — but its angles are not equal (it has two pairs of angles: acute and obtuse). So a rhombus is equilateral but NOT regular. For polygons with more than three sides, equilateral does not imply equiangular. Only for triangles is this automatically true: an equilateral triangle must also be equiangular (all 60°). For all other polygons, you must verify both conditions independently."

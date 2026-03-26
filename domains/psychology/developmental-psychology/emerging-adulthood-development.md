@@ -53,7 +53,7 @@ Emerging adulthood is not universal; it is more common in developed societies wi
   answer: 1
   explanation: "Instability — residential changes, relationship transitions, occupational shifts — is one of Arnett's five defining features of emerging adulthood, not a sign of dysfunction. The framework reframes what looks like 'drifting' from outside as identity exploration: trying out options before committing to adult roles. The instability is developmentally appropriate in the same sense that adolescent experimentation is appropriate — it serves the purpose of building self-knowledge before adult commitments narrow the window of exploration."
 
-- question: "Emerging adulthood as described by Arnett is a universal developmental stage that all humans experience between roughly ages 18 and 25."
+- question: "Emerging adulthood as described by Arnett is a universal developmental stage that most humans experience between roughly ages 18 and 25."
   type: true-false
   answer: false
   explanation: "Arnett's critics (and Arnett himself in later work) acknowledge that emerging adulthood is culturally specific, most prominently occurring in WEIRD (Western, Educated, Industrialized, Rich, Democratic) societies. Where social structures close early — through early marriage, economic necessity, or cultural expectations about adult roles — the stage is compressed or absent. Treating it as universal risks imposing a culturally particular developmental path as a normative standard for all human development."

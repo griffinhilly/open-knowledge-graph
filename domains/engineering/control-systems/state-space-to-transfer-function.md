@@ -55,7 +55,7 @@ Start with a third-order state-space model and compute the transfer function by 
   answer: 1
   explanation: "A pole-zero cancellation in the transfer function means the mode at s = +3 is either uncontrollable or unobservable — it disappears from the input-output description, but it is still physically present in the system. Because s = +3 is in the right half-plane, this hidden mode is unstable. The internal state corresponding to this mode will grow without bound over time, even while the output (which cannot 'see' the mode due to unobservability) appears well-behaved. This is one of the most dangerous failure modes in control design."
 
-- question: "Two state-space models with identical transfer functions represent the same physical dynamics and will behave identically in all operating conditions."
+- question: "Two state-space models with identical transfer functions represent the same physical dynamics and will behave identically in most operating conditions."
   type: true-false
   answer: false
   explanation: "Two state-space models sharing a transfer function have the same input-output behavior, but may have completely different internal dynamics. Infinitely many state-space realizations correspond to any given transfer function, all related by invertible similarity transformations x̃ = Tx. More critically, a non-minimal realization has hidden modes (uncontrollable or unobservable states) that do not appear in the transfer function but are physically present — and those modes can be unstable, causing internal divergence while the outputs look fine. Identical transfer functions do not mean identical internal dynamics."

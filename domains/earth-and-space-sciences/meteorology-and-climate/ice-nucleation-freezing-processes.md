@@ -55,7 +55,7 @@ Study cloud chamber experiments showing ice nucleation at different temperatures
   answer: true
   explanation: "Supercooling is a well-documented atmospheric phenomenon. Without ice nucleating particles, the surface-energy barrier to forming an ice crystal lattice prevents freezing at temperatures only slightly below 0°C. Pure water droplets can persist as liquid down to approximately −40°C (the homogeneous nucleation temperature). Clouds in the −10°C to −40°C range routinely contain a mixture of supercooled liquid droplets and ice crystals — the mixed-phase zone central to mid-latitude precipitation."
 
-- question: "All aerosol particles in the atmosphere are approximately equally effective at nucleating ice at a given temperature."
+- question: "Most aerosol particles in the atmosphere are approximately equally effective at nucleating ice at a given temperature."
   type: true-false
   answer: false
   explanation: "Ice nucleating efficiency varies enormously among particle types. Certain biological particles (e.g., Pseudomonas syringae bacteria) can nucleate ice near −2°C, while mineral dust (clay minerals like kaolinite and feldspar) operates between −10°C and −20°C, and many common aerosols (sea salt, sulfate) are poor INPs requiring temperatures below −25°C. Effectiveness depends on how closely the particle's crystal surface matches ice's lattice structure. Most atmospheric aerosols are poor INPs."

@@ -49,7 +49,7 @@ Edge coloring assigns colors to edges so no two edges sharing a vertex have the 
   answer: true
   explanation: "This follows directly from the edge coloring rule: no two edges sharing a vertex can have the same color. Therefore any two edges of the same color have no vertex in common — which is exactly the definition of a matching. An edge coloring is equivalent to partitioning all edges into matchings, and the chromatic index is the minimum number of matchings needed to cover every edge."
 
-- question: "Bipartite graphs always require Δ+1 colors for edge coloring, making them Class 2 graphs."
+- question: "Bipartite graphs usually require Δ+1 colors for edge coloring, making them Class 2 graphs."
   type: true-false
   answer: false
   explanation: "This is the opposite of the truth. Bipartite graphs are always Class 1 — they require exactly Δ colors, never Δ+1. This is König's theorem. The difficulty lies in Class 2 graphs (those requiring Δ+1), and even determining whether an arbitrary graph is Class 1 or Class 2 is NP-complete."

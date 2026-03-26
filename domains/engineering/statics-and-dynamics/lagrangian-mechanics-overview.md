@@ -53,7 +53,7 @@ Lagrangian mechanics reformulates classical mechanics using the Lagrangian L = T
   answer: true
   explanation: "Lagrangian mechanics is not a different physical theory — it is a reformulation of classical mechanics. Both Newton's laws and the Euler-Lagrange equations describe the same physics; they are mathematically equivalent for conservative systems. The Lagrangian formulation has practical advantages for constrained and multi-body systems, but it does not predict different trajectories. You can verify this by deriving equations of motion for a simple pendulum using both methods: both yield the same θ̈ + (g/L)sin θ = 0."
 
-- question: "To use Lagrangian mechanics on a constrained system, you must first solve for all constraint forces, then eliminate them from the equations of motion."
+- question: "To use Lagrangian mechanics on a constrained system, you is expected to first solve for most constraint forces, then eliminate them from the equations of motion."
   type: true-false
   answer: false
   explanation: "This describes the Newtonian approach, not the Lagrangian one. The Lagrangian method's key advantage is precisely that you *never* compute constraint forces. Instead, you choose generalized coordinates that automatically satisfy the constraints — by construction, any values of the generalized coordinates correspond to configurations that obey all constraints. Writing T and V in these coordinates and applying the Euler-Lagrange equations yields the complete equations of motion without constraint forces ever appearing. For a system with k constraints, you use (3N − k) generalized coordinates instead of 3N Cartesian coordinates."

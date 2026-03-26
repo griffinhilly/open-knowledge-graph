@@ -63,7 +63,7 @@ Eyes are not flat circles on the face—they sit in sockets and are partially co
   answer: true
   explanation: "The upper lid is anatomically in front of the eyeball — it sits over the sphere. Light coming from above is blocked by the lid before it reaches the top of the eyeball, casting a shadow onto the eyeball's surface. Without this shadow, the lid and the eyeball appear to be on the same plane. Adding this shadow is one of the highest-leverage rendering details for depth and realism."
 
-- question: "In a neutral forward-facing expression, the iris is usually fully visible — the eyelids only partially cover the eye when it looks to the side."
+- question: "In a neutral forward-facing expression, the iris is usually fully visible — the eyelids primarily partially cover the eye when it looks to the side."
   type: true-false
   answer: false
   explanation: "In a resting, neutral expression, the upper eyelid typically covers the top portion of the iris. The iris is almost never fully visible without the lid cutting across its upper arc. Drawing a fully exposed, uncovered iris creates an unnatural wide-eyed stare. This is one of the most common errors in beginner portraiture and is corrected by careful observation of how much iris is actually visible."

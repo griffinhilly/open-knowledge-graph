@@ -59,7 +59,7 @@ Trace portraiture of a single historical figure across different periods and sty
   answer: true
   explanation: "Portraiture is not a neutral record but a selective one: it reflects which people a culture considered worthy of visual commemoration. For most of history, portraits were commissioned by elites — rulers, clergy, wealthy merchants — leaving vast populations invisible in the visual record. This absence is itself evidence: it tells us whose identity mattered enough to preserve, who had the resources to commission art, and which social categories defined 'significance.' Contemporary artists like Kehinde Wiley explicitly address this gap by placing subjects historically excluded from portraiture in the visual language of Old Master paintings."
 
-- question: "The primary goal of portraiture across all historical periods has been to capture an accurate physical likeness of the sitter."
+- question: "The primary goal of portraiture across most historical periods has been to capture an accurate physical likeness of the sitter."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Many of the most celebrated portraits are poor physical likenesses — and were never intended to be. Roman imperial coins projected authority across an empire, not accurate faces. Medieval portraits identified figures by regalia rather than individual features. Court portraits by Velázquez and Gainsborough were propaganda designed to project power and refinement. Even van Eyck's hyper-realistic technique serves to suggest interiority, not merely record appearance. Accuracy of likeness is one possible goal among many, varying enormously by period, culture, and patron."

@@ -50,7 +50,7 @@ Reproductive isolation mechanisms prevent gene flow between species and can be p
   answer: true
   explanation: "True. Postzygotic barriers by definition act after fertilization. They include hybrid inviability (embryo fails to develop normally), hybrid sterility (hybrid survives but cannot reproduce, as with mules), and hybrid breakdown (F1 hybrids are viable but F2 or backcross offspring show reduced fitness as incompatible gene combinations segregate out). In each case a zygote formed; the barrier reduces fitness thereafter."
 
-- question: "According to the Dobzhansky-Muller model, at least one of the mutations involved in a reproductive incompatibility must have been harmful (or selected against) in the population where it first arose."
+- question: "According to the Dobzhansky-Muller model, at least one of the mutations involved in a reproductive incompatibility should have been harmful (or selected against) in the population where it first arose."
   type: true-false
   answer: false
   explanation: "This is precisely what the Dobzhansky-Muller model refutes. Both mutations can be neutral or even beneficial in their own genetic backgrounds. Because the two populations are isolated, the alleles never co-occur until secondary contact, so there is no selection against either allele individually. The incompatibility is a novel property of the *combination* — it emerges only in hybrids. This elegantly explains how reproductive isolation evolves without any selection directly favoring it."

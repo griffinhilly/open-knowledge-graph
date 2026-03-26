@@ -66,7 +66,7 @@ Fit IRT models to real datasets and examine residuals and goodness-of-fit indice
   answer: 1
   explanation: "Parameter invariance is the key payoff that motivates IRT's stronger assumptions. In CTT, item statistics (difficulty, discrimination) change when you change the sample or the test. In IRT, item parameters estimated in one sample apply to another (assuming the assumptions hold), and a person's ability estimate is the same whether estimated from easy items, hard items, or a mix. This invariance is what enables computerized adaptive testing, item banking, and test equating — applications that CTT cannot support because its statistics are test- and sample-dependent."
 
-- question: "Local independence in IRT means that item responses must be uncorrelated in the raw data — items measuring the same construct should show near-zero correlations."
+- question: "Local independence in IRT means that item responses is expected to be uncorrelated in the raw data — items measuring the same construct should show near-zero correlations."
   type: true-false
   answer: false
   explanation: "Local independence is a conditional independence assumption, not an unconditional one. It states that P(X_i, X_j | θ) = P(X_i | θ) × P(X_j | θ): given a person's ability level θ, knowing their answer to one item provides no additional information about their answer to another. Items measuring the same construct will naturally be correlated in raw data — people with higher ability tend to get more items right. That raw correlation is entirely expected. Local independence is violated only when correlation remains even after conditioning on θ, as when items share a stimulus (passage, figure) that creates a local ability cluster beyond the common trait."

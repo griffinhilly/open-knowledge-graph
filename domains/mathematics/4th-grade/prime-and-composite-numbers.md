@@ -58,7 +58,7 @@ Use the Sieve of Eratosthenes: on a 1-100 chart, cross out multiples of 2, then 
   answer: true
   explanation: "Any even number greater than 2 is divisible by 2, giving it at least three factors: 1, 2, and itself. Having three or more factors means it is composite by definition. The only even prime is 2 itself — it has exactly two factors (1 and 2) and is not divisible by any other whole number."
 
-- question: "All odd numbers are prime numbers."
+- question: "Most odd numbers are prime numbers."
   type: true-false
   answer: false
   explanation: "Many odd numbers are composite. Examples: 9 = 3 × 3, 15 = 3 × 5, 21 = 3 × 7, 25 = 5 × 5. Being odd means the number is not divisible by 2 — but there are many other potential divisors. A number is only prime if it has NO divisors other than 1 and itself. Odd just rules out divisibility by 2; it doesn't rule out divisibility by 3, 5, 7, and so on."

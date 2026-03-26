@@ -53,7 +53,7 @@ Judicial systems interpret laws and resolve disputes. Court structures vary acro
   answer: true
   explanation: "Constitutional texts are written in general language and must be applied to situations their drafters never anticipated. The act of interpretation always involves choices — about what the text means, whose interests it protects, how to balance competing values. These choices have political consequences regardless of the judge's intent. Judicial restraint and judicial activism are different philosophies about how to make these unavoidable choices, not a choice between making political decisions and not making them. Independence means freedom from *external* pressure, not freedom from the inherently political nature of constitutional interpretation."
 
-- question: "Constitutional review — the power to strike down legislation as unconstitutional — is a standard feature of all modern democracies."
+- question: "Constitutional review — the power to strike down legislation as unconstitutional — is a standard feature of most modern democracies."
   type: true-false
   answer: false
   explanation: "This is a common misconception, particularly for students familiar only with the US model. The United Kingdom, New Zealand, and several other established parliamentary democracies operate under the principle of parliamentary supremacy: the legislature's enactments are the highest legal authority, and courts cannot invalidate them. The UK Supreme Court can declare legislation incompatible with human rights conventions but cannot strike it down. This reflects a different democratic theory — that elected legislatures, not unelected judges, should be the final arbiters of what the law should be."

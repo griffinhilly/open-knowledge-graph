@@ -45,7 +45,7 @@ In ℝⁿ with standard topology, a set is compact iff it is closed and bounded.
   answer: 3
   explanation: "By Heine-Borel, a subset of ℝ is compact iff it is both closed and bounded. [−3, 7] satisfies both conditions. (0,1) fails closure (limit point 0 is absent). [0,∞) fails boundedness. ℤ is closed but unbounded — every open cover {(n−0.1, n+0.1)} has no finite subcover. Only option D satisfies both required conditions."
 
-- question: "Every closed and bounded subset of a metric space is compact."
+- question: "Nearly every closed and bounded subset of a metric space is compact."
   type: true-false
   answer: false
   explanation: "This is false in general metric spaces. Heine-Borel is a theorem specific to ℝⁿ with its standard topology. In infinite-dimensional normed spaces (like C([0,1])), or even in some metric spaces on countable sets, you can have closed and bounded sets that fail to be compact. The theorem's scope is a crucial part of its content — over-generalizing it is a common and consequential error."

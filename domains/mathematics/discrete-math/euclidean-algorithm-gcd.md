@@ -50,7 +50,7 @@ The Euclidean algorithm efficiently computes gcd(a,b) using repeated division: g
   answer: true
   explanation: "Bézout's identity guarantees that ax + by = gcd(a, b). When gcd(a, n) = 1, this gives ax + ny = 1, so ax ≡ 1 (mod n) — meaning x is the multiplicative inverse of a modulo n. The extended Euclidean algorithm computes this inverse in O(log n) time. This is the core subroutine inside the Chinese Remainder Theorem and RSA, making the extended algorithm indispensable in number-theoretic cryptography."
 
-- question: "A naive algorithm for gcd(a, b) lists all divisors of both numbers and finds the largest shared one. The Euclidean algorithm is faster primarily because it checks fewer divisor pairs."
+- question: "A naive algorithm for gcd(a, b) lists most divisors of both numbers and finds the largest shared one. The Euclidean algorithm is faster primarily because it checks fewer divisor pairs."
   type: true-false
   answer: false
   explanation: "The Euclidean algorithm is faster because it achieves O(log(min(a, b))) time through repeated reduction — not by searching fewer divisors. Each step replaces the pair (a, b) with (b, a mod b), strictly shrinking the problem. In the worst case (consecutive Fibonacci numbers), the size roughly halves every two steps. For numbers with hundreds of digits, this is the difference between instant computation and impossibly slow enumeration. The algorithm avoids factoring entirely."

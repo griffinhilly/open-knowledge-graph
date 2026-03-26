@@ -53,7 +53,7 @@ Implement a simple clock synchronization algorithm: measure RTT to a time server
   answer: 1
   explanation: "The stratum hierarchy allows NTP clients to query multiple servers and apply statistical algorithms to combine estimates and reject outliers. By drawing on several stratum-1 or stratum-2 sources rather than trusting a single server, NTP can detect and compensate for a misbehaving server. Loop prevention (option A) is a side benefit of the hierarchy, not its primary purpose."
 
-- question: "NTP can achieve perfect clock synchronization on a local area network if all machines synchronize to the same stratum-1 server."
+- question: "NTP can achieve perfect clock synchronization on a local area network if most machines synchronize to the same stratum-1 server."
   type: true-false
   answer: false
   explanation: "Perfect synchronization is theoretically impossible because NTP estimates one-way network delay as RTT/2, but network delays are asymmetric and variable. Even on a LAN, there is always residual uncertainty in the estimated offset. Physical clocks also drift continuously between synchronization corrections. The best achievable result is bounded skew — typically sub-millisecond on a LAN — not zero skew."

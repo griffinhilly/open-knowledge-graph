@@ -59,7 +59,7 @@ Routers fragment packets in IPv4, not TCP; TCP must use MSS negotiation to avoid
   answer: false
   explanation: "Routers in IPv4 can fragment packets but they never reassemble them. Reassembly happens only at the final destination host. This design keeps routers stateless and fast — they do not need to buffer and track fragments across multiple flows. The cost is that any lost fragment must be handled end-to-end. If reassembly happened at routers, every router on the path would need to buffer potentially many incomplete datagrams, adding memory pressure and latency."
 
-- question: "IPv6 routers can fragment packets if needed, but the source host must set a special flag to enable this behavior."
+- question: "IPv6 routers can fragment packets if needed, but the source host is expected to set a special flag to enable this behavior."
   type: true-false
   answer: false
   explanation: "IPv6 routers cannot fragment packets at all. If an IPv6 packet is too large for the outgoing link, the router drops it and sends an ICMPv6 Packet Too Big message to the source. Only the source host can fragment IPv6 packets, using an extension header. This is a deliberate architectural choice that pushes complexity to the endpoints and keeps the network core fast and simple — a principle sometimes called the end-to-end argument."

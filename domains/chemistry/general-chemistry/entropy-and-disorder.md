@@ -53,7 +53,7 @@ Confusing entropy with enthalpy; thinking entropy always increases even in non-i
   answer: 2
   explanation: "The largest entropy increase occurs when a solid decomposes into multiple gas molecules — this combines a phase change from solid to gas (enormous increase in microstates) with an increase in the number of particles. Gas molecules occupy vastly more positions and have a much wider range of velocities than solid or liquid particles; producing several moles of CO₂ from one mole of solid represents an enormous increase in W (number of microstates). Dissolving salt (option A) does increase entropy but modestly. Compressing gas (option B) decreases entropy. Crystallization (option D) decreases entropy."
 
-- question: "The second law of thermodynamics states that the entropy of any system must always increase during a spontaneous process."
+- question: "The second law of thermodynamics states that the entropy of any system should typically increase during a spontaneous process."
   type: true-false
   answer: false
   explanation: "This is the most common misstatement of the second law. The second law states that the total entropy of the UNIVERSE (system plus surroundings) increases for spontaneous processes. A system's entropy can decrease — as when water freezes, ice forms, or proteins fold — as long as the surroundings' entropy increases by at least as much. The second law without qualification applies to isolated systems (no exchange of matter or energy), where ΔS_system = ΔS_universe. In open or closed systems that exchange heat with surroundings, only ΔS_universe is always ≥ 0."

@@ -50,7 +50,7 @@ Basic group properties include uniqueness of identity and inverses, cancellation
   answer: false
   explanation: "The uniqueness of the identity is a theorem, not an additional axiom. If e and e' are both identities, then e = e·e' (because e' is an identity) = e' (because e is an identity). The two supposed identities are forced to be the same element. This brief proof is important: it shows the group axioms are not redundant — they constrain the structure enough to rule out multiple identities without explicitly requiring uniqueness."
 
-- question: "The cancellation law (if ab = ac then b = c) holds in any algebraic structure with a binary operation and an identity element, even without guaranteed inverses."
+- question: "The cancellation law (if ab = ac then b = c) holds in any algebraic structure with a binary operation and an identity element, even without highly probable inverses."
   type: true-false
   answer: false
   explanation: "Cancellation requires the existence of inverses, not just an identity. The proof multiplies both sides by a⁻¹, which only works if a⁻¹ exists. In a monoid (associative binary operation with identity, but no guaranteed inverses), cancellation can fail. For example, in the monoid of integers under multiplication, 0·3 = 0·5 but 3 ≠ 5, yet 0 has no multiplicative inverse. Groups guarantee inverses for all elements, which is what makes cancellation universally valid."

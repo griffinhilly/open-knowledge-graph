@@ -58,7 +58,7 @@ Spend extra time on the 'borrowing across zero' case using base-ten blocks. Have
   answer: 1
   explanation: "Subtraction and addition are inverse operations — subtracting a number and then adding it back should return you to the original. So result + subtrahend = minuend is always true for a correct subtraction. Adding 535 + 248 = 783 confirms the answer. This strategy works for numbers of any size and reinforces the relationship between the two operations."
 
-- question: "When solving a problem like 400 − 163, you can borrow directly from the tens column to handle the ones column because borrowing is always done from the column immediately to the left."
+- question: "When solving a problem like 400 − 163, you can borrow directly from the tens column to handle the ones column because borrowing is typically done from the column immediately to the left."
   type: true-false
   answer: false
   explanation: "When the tens digit is 0, there is nothing to borrow from the tens column. You must first borrow from the hundreds: hundreds decrease by 1 and tens gain 10. Then borrow one of those tens for the ones column, leaving the tens with 9. Blindly going to the adjacent column without checking whether it has anything to lend is the most common source of error in three-digit subtraction."

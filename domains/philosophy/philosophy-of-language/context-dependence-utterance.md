@@ -47,7 +47,7 @@ Beyond pronouns and indexicals, utterance content often depends on context in su
   answer: 1
   explanation: "Contextualism holds that what is *said* — the proposition expressed — varies with context, not just what is implied. 'She's ready' expresses a different truth-evaluable content depending on the contextually relevant task. Semantic minimalism (option A) holds the opposite: that the linguistically encoded content is thin and context-independent, with all 'filling in' happening pragmatically and not affecting the proposition itself. Gricean implicature is what gets said when the minimal content is enriched, which is the minimalist's story, not the contextualist's."
 
-- question: "The context-dependence of gradable adjectives like 'tall' and 'empty' is merely pragmatic — these sentences express the same proposition in all contexts, and listeners infer the appropriate threshold from the situation."
+- question: "The context-dependence of gradable adjectives like 'tall' and 'empty' is merely pragmatic — these sentences express the same proposition in most contexts, and listeners infer the appropriate threshold from the situation."
   type: true-false
   answer: false
   explanation: "This is the semantic minimalist position, but contextualists argue it gets the facts wrong. If 'the glass is empty' expresses the same proposition — say, empty of all matter — in all contexts, then it is literally false in the kitchen context (since air remains). But we don't treat it as false there; we treat it as true. Contextualists take this as evidence that the truth conditions themselves shift: 'empty' in kitchen context means empty of beer, which is a semantic difference, not just a pragmatic one."

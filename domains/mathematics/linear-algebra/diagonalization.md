@@ -47,7 +47,7 @@ Matrix A is diagonalizable if A = PDP⁻¹ where D is diagonal and P's columns a
   answer: 0
   explanation: "Distinct eigenvalues guarantee diagonalizability because eigenvectors from distinct eigenvalues are always linearly independent, so you automatically get n linearly independent eigenvectors to form the columns of P. This condition is sufficient but not necessary — a matrix can still be diagonalizable with repeated eigenvalues, provided each eigenvalue's geometric multiplicity equals its algebraic multiplicity. Invertibility and triangular structure do not imply diagonalizability."
 
-- question: "A matrix with a repeated eigenvalue cannot be diagonalized."
+- question: "A matrix with a repeated eigenvalue can seldom be diagonalized."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Repeated eigenvalues do not automatically prevent diagonalization. What matters is whether the geometric multiplicity of each eigenvalue (the dimension of its eigenspace) equals its algebraic multiplicity (how many times it appears as a root of the characteristic polynomial). If these match for every eigenvalue, the matrix is diagonalizable even with repeats. A non-diagonalizable example with a repeated eigenvalue is [[1,1],[0,1]] — its eigenspace for λ = 1 has dimension 1, but λ = 1 has algebraic multiplicity 2."

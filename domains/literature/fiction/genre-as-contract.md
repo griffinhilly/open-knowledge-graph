@@ -61,7 +61,7 @@ Read opening chapters of books in different genres and identify what promises ea
   answer: true
   explanation: "This is the core of the genre-contract model. Genre expectations are not laws to be obeyed or cage bars to escape — they are a communication channel. A writer who knows the conventions precisely can use them as an instrument: fulfill them to reward the reader, defer them to build tension, or break them purposefully to produce irony, subversion, or thematic statement. The shared vocabulary only works because both parties understand what is being offered and what is being withheld."
 
-- question: "Breaking genre conventions in a novel is always a sign of creative sophistication and artistic ambition."
+- question: "Breaking genre conventions in a novel is generally a sign of creative sophistication and artistic ambition."
   type: true-false
   answer: false
   explanation: "This is the romanticized view of genre subversion — that any departure from convention is inherently clever. In practice, breaking genre conventions is only meaningful when done purposefully and skillfully. A mystery that withholds its resolution because the writer failed to plant adequate clues is simply bad writing, not subversive art. A thriller that abandons its pacing conventions out of neglect produces a boring book, not a commentary on genre. The distinction is intent and craft: deliberate violation with artistic purpose versus inadvertent failure to deliver."

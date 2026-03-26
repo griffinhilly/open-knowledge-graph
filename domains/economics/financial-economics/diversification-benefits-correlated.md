@@ -55,7 +55,7 @@ Construct two-asset portfolios with varying correlations and see how portfolio s
   answer: true
   explanation: "When ρ = −1, the portfolio standard deviation formula reduces to σ_p = |wσ_A − (1−w)σ_B|. Setting this to zero: wσ_A = (1−w)σ_B, which gives w = σ_B/(σ_A + σ_B). At these weights, the assets' fluctuations cancel perfectly — when A goes up, B goes down by exactly the offsetting amount. This is the mathematical basis for hedging: constructing a risk-free position from risky components. In practice, perfect negative correlation is extremely rare, but the logic underlies real hedging strategies."
 
-- question: "Diversification always reduces a portfolio's volatility below the volatility of the least-risky individual asset in the portfolio."
+- question: "Diversification usually reduces a portfolio's volatility below the volatility of the least-risky individual asset in the portfolio."
   type: true-false
   answer: false
   explanation: "Diversification reduces portfolio volatility below the *weighted average* of individual volatilities (when ρ < 1), but not necessarily below the *minimum* individual volatility. When correlations are moderately positive — which is typical for most real-world assets — the diversification benefit reduces variance but not to the level of the best single asset. Only with negative or zero correlation can combining assets potentially produce a portfolio less volatile than the lowest-volatility component. The claim in the statement conflates 'reduces the weighted average' with 'reduces below the minimum.'"

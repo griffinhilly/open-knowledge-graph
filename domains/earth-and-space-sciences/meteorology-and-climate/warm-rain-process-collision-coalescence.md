@@ -54,7 +54,7 @@ Calculate collision kernel and collision efficiency for different droplet size p
   answer: 1
   explanation: "Very small droplets have so little inertia that they follow the airstream almost perfectly — they get swept around the falling collector drop rather than impacting it. Collision efficiency is the ratio of drops actually hit to drops in the geometric path, and it is lowest when the collected drops are very small relative to the collector. This is why warm rain is not efficient for a uniform population of very tiny droplets: even if a large collector exists, the smallest drops slip around it. The most efficient collection occurs when collected drops are around 10–20 μm, large enough to have some inertia but small enough relative to the collector to be swept up in large numbers."
 
-- question: "Warm rain can only occur in clouds where all levels remain above 0°C, since ice formation would interfere with the collision-coalescence mechanism."
+- question: "Warm rain can primarily occur in clouds where most levels remain above 0°C, since ice formation would interfere with the collision-coalescence mechanism."
   type: true-false
   answer: false
   explanation: "'Warm rain' refers to the precipitation mechanism — liquid droplets growing through collision and coalescence — not to cloud temperature. Warm rain can occur in clouds that extend above the 0°C freezing level, provided the droplets remain supercooled liquid rather than freezing. Ice formation is not automatic at 0°C in clouds; supercooled liquid water commonly exists at temperatures well below freezing. The term 'warm rain' distinguishes the process from ice-based precipitation mechanisms (Bergeron process, riming), not from cold atmospheric conditions."

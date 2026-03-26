@@ -65,7 +65,7 @@ Contrast the cross-sectional and panel estimates of the effect of union membersh
   answer: true
   explanation: "The individual fixed effect α_i is constant over time, so when you subtract each unit's time-mean from every observation, α_i cancels: (y_it − ȳ_i) = (x_it − x̄_i)'β + (u_it − ū_i). The demeaned regression has no individual-specific intercept to estimate, and OLS on this demeaned data gives the same coefficient estimates as the within estimator. This is why fixed effects is sometimes called the 'within estimator' — it exploits only within-unit variation."
 
-- question: "A panel with more time periods (larger T) always produces more precise estimates than a panel with fewer time periods, regardless of the variation in the data."
+- question: "A panel with more time periods (larger T) typically produces more precise estimates than a panel with fewer time periods, regardless of the variation in the data."
   type: true-false
   answer: false
   explanation: "Precision depends on how much within-unit variation exists in the treatment variable, not just on T. If a variable barely changes within units over time (e.g., a country's constitution rarely changes), adding more time periods adds little useful variation. Identification in panel data comes from units that actually change their treatment status — if nothing changes, more periods don't help. The optimal dimension (more units vs. more time) depends on where the relevant variation exists."

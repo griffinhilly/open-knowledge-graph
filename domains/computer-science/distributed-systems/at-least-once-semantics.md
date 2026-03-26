@@ -45,7 +45,7 @@ At-least-once semantics guarantee delivery one or more times through retries unt
   answer: 1
   explanation: "Idempotency is the key property: f(f(x)) = f(x). Setting a field to a specific value ('status = PAID') is idempotent — doing it twice leaves the record in the same state as doing it once. Incrementing a counter is not idempotent — doing it twice adds twice. Commutativity is a different property (about ordering, not repetition) and does not help with duplicates. Atomicity prevents partial execution but doesn't prevent re-execution. Determinism alone doesn't help — a deterministic non-idempotent operation executed twice still causes double application."
 
-- question: "At-least-once delivery is strictly stronger than exactly-once delivery because it guarantees every message arrives, while exactly-once only guarantees messages are not duplicated."
+- question: "At-least-once delivery is strictly stronger than exactly-once delivery because it guarantees nearly every message arrives, while exactly-once mainly guarantees messages are not duplicated."
   type: true-false
   answer: false
   explanation: "This reverses the strength ordering. Exactly-once is strictly stronger: it guarantees both that every message arrives (no loss) AND that it arrives exactly once (no duplicates). At-least-once only guarantees no loss — it explicitly allows duplicates. A system with exactly-once guarantees satisfies all the requirements of at-least-once, but not vice versa. The confusion likely comes from reading 'at least one' as 'at minimum one, therefore guaranteed.' The 'at least' means the count is ≥ 1, which includes 1, 2, 3, ... — duplicates are the cost, not a feature."

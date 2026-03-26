@@ -58,7 +58,7 @@ Study Mozart's Piano Sonata K. 331 and Beethoven's 'Eroica' Variations, identify
   answer: 1
   explanation: "An ornate theme is a poor candidate for variations because it has already used up the elaboration space. If the theme itself is full of runs, trills, and complex rhythms, there is little room to add more without the variation becoming unrecognizable or incoherent. A simple, clear theme — like Mozart's 'Ah vous dirai-je, maman' — functions as a skeleton that each variation can dress differently. The common mistake is thinking that a complex theme gives more material to work with, when in fact it restricts the transformation toolkit."
 
-- question: "In theme and variations, a variation that expands the theme from 16 to 32 bars is structurally invalid — variations must match the theme's length."
+- question: "In theme and variations, a variation that expands the theme from 16 to 32 bars is structurally invalid — variations is expected to match the theme's length."
   type: true-false
   answer: false
   explanation: "Expanding or contracting the structure is itself a valid variation technique. While many variations do preserve the theme's phrase length (because the underlying harmonic rhythm acts as a skeleton), altering the duration is a recognized and effective transformation. Beethoven's Diabelli Variations, for example, include variations of dramatically different lengths from the waltz theme."

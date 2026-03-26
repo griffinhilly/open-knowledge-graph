@@ -55,7 +55,7 @@ All seizures are the same—seizure types vary in mechanisms. Epilepsy means fre
   answer: 2
   explanation: "Epilepsy is a condition — a chronic, enduring tendency to generate recurrent, unprovoked seizures — not a single event. A provoked seizure (triggered by identifiable acute factors like sleep deprivation, metabolic disturbance, alcohol withdrawal, or high fever) does not imply the brain has a structural or functional predisposition to spontaneous seizure generation. Removing the provoking factor typically prevents further seizures. Epilepsy is diagnosed when the brain itself has an intrinsic lowered seizure threshold, not when transient external disruption pushes a normal brain across the threshold once."
 
-- question: "All epileptic seizures involve loss of consciousness and visible motor convulsions (tonic-clonic movements)."
+- question: "Most epileptic seizures involve loss of consciousness and visible motor convulsions (tonic-clonic movements)."
   type: true-false
   answer: false
   explanation: "Seizure presentation depends critically on where the abnormal activity originates and whether it remains focal or spreads. A focal seizure confined to the temporal lobe might produce only a strange emotional sensation or automatic movements (like lip smacking) with consciousness preserved or only partially impaired. A focal occipital seizure might produce visual disturbances. Absence seizures involve brief loss of consciousness with no motor convulsions. Tonic-clonic seizures — with both convulsions and loss of consciousness — require recruitment of the entire cortex via thalamocortical circuits. There is wide diversity in seizure type."

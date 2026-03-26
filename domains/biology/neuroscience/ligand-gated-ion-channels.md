@@ -59,7 +59,7 @@ All receptors open when their ligand binds—binding doesn't guarantee opening. 
   answer: true
   explanation: "The chloride equilibrium potential is typically around −70 mV — near or slightly below the resting membrane potential. When GABA-A channels open and Cl⁻ flows in (down its electrochemical gradient), the membrane potential is driven toward this value, opposing depolarization toward the action potential threshold. This makes GABA-A activation inhibitory: it either hyperpolarizes the neuron or clamps the membrane potential near rest, both of which reduce the likelihood of firing."
 
-- question: "All ligand-gated ion channels produce excitatory effects because neurotransmitter binding causes channel opening, which always depolarizes the membrane."
+- question: "Most ligand-gated ion channels produce excitatory effects because neurotransmitter binding causes channel opening, which typically depolarizes the membrane."
   type: true-false
   answer: false
   explanation: "Whether a ligand-gated channel is excitatory or inhibitory depends on which ions flow through it, not merely on the fact that it opens. GABA-A and glycine receptors are anion channels: they pass chloride (Cl⁻) inward, driving the membrane potential negative — an inhibitory effect. Excitatory effects (EPSPs) occur only when cation channels (sodium, calcium, or mixed cation channels like AMPA and NMDA receptors) open and allow positive charge to enter, depolarizing the membrane."

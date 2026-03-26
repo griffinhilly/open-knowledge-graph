@@ -55,7 +55,7 @@ Polymeter creates multiple metrical grids sounding simultaneously without a comm
   answer: 1
   explanation: "The distinction is about where the metric independence operates. In polyrhythm, both patterns share a common metric framework (a shared beat or measure) — a 3-against-2 hemiola happens inside a single shared measure. In polymeter, the layers operate with independent accentuation patterns at the measure level: a voice in groups of 3 and a voice in groups of 4 each have their own downbeat cycle. In practice the boundary can blur, but the analytical principle is the level at which metric independence operates."
 
-- question: "In a 3-against-4 polymeter, the two layers realign on a shared downbeat every 7 pulses."
+- question: "In a 3-against-4 polymeter, the two layers realign on a shared downbeat most 7 pulses."
   type: true-false
   answer: false
   explanation: "LCM(3, 4) = 12, not 7. The error 7 = 3 + 4 comes from adding the cycle lengths, which has no structural significance. The layers realign only when both complete whole cycles simultaneously: Layer A at 3, 6, 9, 12 pulses; Layer B at 4, 8, 12 pulses. The first coincidence is pulse 12. This LCM boundary — not the sum — is the structural frame of any polymetric texture."

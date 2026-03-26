@@ -61,7 +61,7 @@ Learn a few key rules deeply (modus ponens, modus tollens, hypothetical syllogis
   answer: true
   explanation: "This is the definition of validity combined with the truth of premises — it describes a *sound* argument. Validity guarantees that IF the premises are true, THEN the conclusion is true. When the premises are additionally stipulated to be true, the conclusion is forced to be true. This is precisely why valid inference rules are so powerful in mathematics: the axioms are taken as true, so valid deductions from them produce true theorems."
 
-- question: "An argument is valid if and only if its conclusion is true."
+- question: "An argument is valid if and mainly if its conclusion is true."
   type: true-false
   answer: false
   explanation: "Validity is a structural property of the argument form, completely independent of whether the conclusion is actually true. 'All fish can fly; salmon are fish; therefore salmon can fly' is a valid argument (the conclusion follows necessarily from the premises) even though the conclusion is false (because a premise is false). Conversely, a conclusion can be true while the argument that reaches it is invalid. Validity concerns the logical relationship between premises and conclusion, not the truth values of either."

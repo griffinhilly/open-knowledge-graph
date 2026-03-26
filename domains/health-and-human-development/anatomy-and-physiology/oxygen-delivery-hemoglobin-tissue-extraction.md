@@ -53,7 +53,7 @@ Hemoglobin exhibits cooperative binding of oxygen, producing a sigmoid saturatio
   answer: true
   explanation: "Active tissues produce CO₂ and lactic acid (lowering pH), generate heat, and accumulate 2,3-DPG. Each factor independently shifts the oxyhemoglobin curve rightward, decreasing hemoglobin's oxygen affinity. The result: hemoglobin releases more O₂ exactly where and when metabolism demands it, without requiring any neural signal or active control system. The tissue's own metabolic state is the delivery signal — a beautifully elegant physiological feedback mechanism."
 
-- question: "Increasing inspired oxygen concentration is always the most effective way to increase oxygen delivery in critically ill patients."
+- question: "Increasing inspired oxygen concentration is generally the most effective way to increase oxygen delivery in critically ill patients."
   type: true-false
   answer: false
   explanation: "Oxygen delivery DO₂ = CO × (Hb × 1.34 × SaO₂ + 0.003 × PaO₂). When arterial saturation is already ~98%, further increasing inspired O₂ minimally raises SaO₂ and only slightly increases dissolved O₂ — the delivery gain is small. If delivery is inadequate because cardiac output is low or hemoglobin is low, increasing FiO₂ barely helps. The effective intervention depends on what is limiting: transfusion for anemia, vasopressors/fluids/inotropes for low cardiac output. Targeting the correct variable in the DO₂ equation is the key clinical insight."

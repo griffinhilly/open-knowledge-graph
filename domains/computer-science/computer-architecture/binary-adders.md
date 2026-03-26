@@ -57,7 +57,7 @@ Half-adders add two bits without carry-in; full-adders add three bits (two opera
   answer: true
   explanation: "Cout = 1 if two or more of the three inputs are 1. Here A=1 and Cin=1 (two inputs are 1), so Cout=1. The Sum = A XOR B XOR Cin = 1 XOR 0 XOR 1 = 0, giving a full result of 10 in binary (sum=0, carry=1). Equivalently: 1 + 0 + 1 = 2 = 10₂."
 
-- question: "In a multi-bit ripple-carry adder, a half-adder can be used at every bit position because all bit positions have the same inputs."
+- question: "In a multi-bit ripple-carry adder, a half-adder can be used at most bit position because most bit positions have the same inputs."
   type: true-false
   answer: false
   explanation: "A half-adder only accepts two inputs (A and B) and cannot accept a carry-in. Only the least significant bit position (bit 0) has no carry-in (or a carry-in fixed at 0), so a half-adder is valid there. Every other bit position must receive the carry-out from the previous stage, requiring a full-adder with three inputs (A, B, Cin). Using a half-adder at bit position 1 or higher would silently discard the carry, producing wrong results for any addition that generates a carry from lower bits."

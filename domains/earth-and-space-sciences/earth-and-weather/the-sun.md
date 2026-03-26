@@ -47,7 +47,7 @@ Discuss what the sun does for us: light, heat, energy for plants. Compare the su
   answer: 1
   explanation: "The sun is a star, just like the tiny points of light you see at night. It looks much bigger and brighter than other stars because it is much closer to Earth -- about 150 million kilometers away, while the next closest star is over 4 light-years away. The sun is not on fire like a campfire; it produces energy through nuclear fusion, where hydrogen atoms combine to form helium, releasing enormous amounts of energy."
 
-- question: "The sun is much bigger and brighter than all other stars."
+- question: "The sun is much bigger and brighter than most other stars."
   type: true-false
   answer: false
   explanation: "The sun is actually a medium-sized star. Many stars in the universe are much bigger and brighter. The sun only looks bigger and brighter to us because it is so much closer than any other star. If you could move the sun to the distance of other stars, it would look like just another tiny dot of light in the night sky."

@@ -45,7 +45,7 @@ Follow a successional chronosequence — compare sites of different ages after a
   answer: 1
   explanation: "The defining criterion for primary vs. secondary succession is not whether a disturbance occurred but whether soil and biological legacies (seed bank, organic matter) remain afterward. Fresh lava has neither — organisms are starting from scratch on bare rock. A common error is classifying any post-disturbance sequence as secondary succession; secondary requires that soil and seeds survived the disturbance (as after a fire or field abandonment)."
 
-- question: "Every ecosystem, if left undisturbed long enough, will converge on a single predictable climax community determined entirely by regional climate."
+- question: "Most ecosystem, if left undisturbed long enough, will converge on a single predictable climax community determined largely by regional climate."
   type: true-false
   answer: false
   explanation: "The classical Clementsian climax community concept has been largely revised. Modern ecology recognizes that alternative stable states can persist indefinitely — different communities can occupy identical climates depending on historical contingency (which species arrived first), legacy effects, and ongoing disturbance regimes. Two identical forest patches can follow different successional trajectories and settle into genuinely different community types. Climate sets broad constraints but does not fully determine a unique endpoint."

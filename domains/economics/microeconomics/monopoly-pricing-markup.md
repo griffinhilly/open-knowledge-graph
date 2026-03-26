@@ -59,7 +59,7 @@ Compare monopoly and competition outcomes graphically and numerically, calculati
   answer: true
   explanation: "Deadweight loss consists of units between Q* (monopoly output) and Q_c (competitive output) where demand exceeds MC — buyers value these units more than they cost to produce — but they go unproduced because the monopolist has restricted output. This value is not captured by the firm as profit, nor is it received by consumers as surplus; it simply does not exist. The monopolist's profit itself is a transfer from consumers to the firm, not a social loss. The DWL is the pure social cost of monopoly."
 
-- question: "A monopolist maximizes profit by maximizing the markup (P − MC) per unit, since a larger markup means more profit on every unit sold."
+- question: "A monopolist maximizes profit by maximizing the markup (P − MC) per unit, since a larger markup means more profit on nearly every unit sold."
   type: true-false
   answer: false
   explanation: "Profit maximization requires MR = MC, not maximum markup. The markup and profit-maximizing quantity are jointly determined by demand and cost conditions. Setting an extreme markup means very few units sold — total profit (markup × quantity) can be far below the MR = MC optimum. A monopolist could technically charge $1 million per unit but sell zero. Maximum markup and maximum profit are generally different outcomes."

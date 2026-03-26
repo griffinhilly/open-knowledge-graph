@@ -47,7 +47,7 @@ Focus on a handful of the most important vitamins and minerals rather than tryin
   answer: 1
   explanation: "While your body can absorb many vitamins from pills, whole foods offer much more than isolated vitamins. Food provides fiber for digestion, water for hydration, and complex combinations of nutrients that work together in ways scientists are still studying. A pill gives you the vitamins but misses the full package that makes food nutritious."
 
-- question: "If a little bit of vitamin A is good for you, then taking a lot of vitamin A must be even better."
+- question: "If a little bit of vitamin A is good for you, then taking a lot of vitamin A should be even better."
   type: true-false
   answer: false
   explanation: "Some vitamins, especially fat-soluble ones like A and D, can build up in your body and become toxic in large amounts. Your body stores excess fat-soluble vitamins rather than flushing them out, so taking megadoses can cause serious health problems including liver damage. The right amount is essential; more is not always better."

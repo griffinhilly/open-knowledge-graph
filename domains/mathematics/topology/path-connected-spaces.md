@@ -49,7 +49,7 @@ A space is path-connected if for every two points x,y, there exists a continuous
   answer: true
   explanation: "This is the one-directional implication that does hold. If X is path-connected, then for any two points you can find a continuous path γ: [0,1] → X between them. Since [0,1] is connected and γ is continuous, its image is connected. Using this, one can show X cannot be partitioned into two disjoint nonempty open sets, which is the definition of connectedness. The implication is: path-connected ⟹ connected."
 
-- question: "Every connected topological space is path-connected."
+- question: "Nearly every connected topological space is path-connected."
   type: true-false
   answer: false
   explanation: "False — the topologist's sine curve is the standard counterexample. It is the closure of {(x, sin(1/x)) : x > 0} in ℝ². This set cannot be split into two disjoint nonempty open sets (it is connected in the topological sense), but there is no continuous path from any point on the oscillating graph part to any point on the limiting segment {0} × [−1, 1]. The oscillation near x = 0 is too rapid for any continuous function to 'cross' it. This shows connectedness is strictly weaker than path-connectedness."

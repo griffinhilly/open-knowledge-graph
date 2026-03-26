@@ -57,7 +57,7 @@ Draw a figure and its dilation from a center point using rays and a scale factor
   answer: 1
   explanation: "Distance from the center scales by |k|: 5 × 3/4 = 15/4. But dilations preserve ALL angle measures — this is the defining property that makes the image similar to the preimage. The common misconception is that scaling changes angles proportionally; it does not. Angles are invariant under dilation precisely because both coordinate axes scale by the same factor k, keeping the ratio that determines any angle constant."
 
-- question: "A dilation always changes the position of a figure in the plane."
+- question: "A dilation generally changes the position of a figure in the plane."
   type: true-false
   answer: false
   explanation: "When k = 1, every point P maps to P' such that OP' = 1 · OP — meaning P' = P for every point. The figure is unchanged in position and size. So a dilation with k = 1 is the identity transformation. A dilation also does not change the position of any point that lies at the center of dilation (it maps to itself for any k). 'Always changes position' is too strong a claim."

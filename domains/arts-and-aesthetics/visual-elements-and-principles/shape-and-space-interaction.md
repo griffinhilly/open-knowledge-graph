@@ -58,7 +58,7 @@ Negative space is empty or should be minimized. The goal is to fill all space ar
   answer: true
   explanation: "This is the central claim of this topic. Negative space is not empty or passive; it is simultaneously created when a positive shape is placed, and its own qualities (size, shape, proportion) directly affect the balance, rhythm, and emotional tone of the composition. Treating negative space as deliberate rather than incidental is one of the most important perceptual shifts in developing compositional skill."
 
-- question: "Good composition generally requires filling all available space around shapes to ensure visual balance and avoid awkward emptiness."
+- question: "Good composition generally requires filling most available space around shapes to ensure visual balance and avoid awkward emptiness."
   type: true-false
   answer: false
   explanation: "This reflects the most common misconception about negative space. Filling all available space does not produce balance — it often produces visual clutter and eliminates the breathing room that gives individual shapes emphasis. Generous negative space can create elegance, calm, and prominence. Compressed negative space creates density and urgency. Neither is inherently better; the key is intentional choice, not elimination of empty areas."

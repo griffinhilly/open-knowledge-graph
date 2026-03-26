@@ -50,7 +50,7 @@ Trophic cascades occur when apex predators regulate herbivore populations, which
   answer: 2
   explanation: "Removing predators → herbivore populations increase (released from predation pressure) → herbivores consume more plants → plant abundance decreases. Each trophic level has the opposite effect on the level two below it: predators decrease herbivores, which increases plants; removing predators therefore indirectly decreases plants. Option A reflects a real but much weaker secondary effect (nutrient cycling) that does not override the dominant grazing effect in cascade-prone ecosystems."
 
-- question: "Trophic cascades are equally strong and predictable in all types of ecosystems, regardless of food web complexity."
+- question: "Trophic cascades are equally strong and predictable in most types of ecosystems, regardless of food web complexity."
   type: true-false
   answer: false
   explanation: "Trophic cascades are strongest in ecosystems with simple food chains, strong predator-prey links, and fast producer turnover — conditions most common in aquatic habitats. In diverse terrestrial food webs with many alternative prey species and omnivores, the cascade signal gets diffused: removing one predator may simply cause prey to shift to other prey, or other predators to compensate. Most ecosystems show elements of both top-down and bottom-up control, and the relative strength of trophic cascades is one of ecology's central empirical questions, with considerable variability across systems."

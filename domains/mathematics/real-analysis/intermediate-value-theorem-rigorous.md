@@ -49,7 +49,7 @@ If f is continuous on an interval [a,b] and f(a) ≠ f(b), then for every value 
   answer: true
   explanation: "This is a key fact used in the proof of the IVT. A subset S ⊆ ℝ is connected if and only if it is an interval. If S contains two points a < b but not some c between them, then S = (S ∩ (−∞, c)) ∪ (S ∩ (c, ∞)) is a disconnection. Combined with 'continuous images of connected sets are connected,' this tells us that continuous functions on [a,b] map to an interval containing both f(a) and f(b) — hence containing everything between them."
 
-- question: "Every function f: [a,b] → ℝ such that f(a) < 0 and f(b) > 0 must have a zero somewhere in (a,b)."
+- question: "Nearly every function f: [a,b] → ℝ such that f(a) < 0 and f(b) > 0 should have a zero somewhere in (a,b)."
   type: true-false
   answer: false
   explanation: "Continuity is required. A discontinuous function can jump from negative to positive without passing through zero. For example, f(x) = −1 for x ∈ [0, 0.5] and f(x) = 1 for x ∈ (0.5, 1] satisfies f(0) < 0 and f(1) > 0 but has no zero. The IVT is specifically a theorem about continuous functions, and the conclusion fails without that hypothesis."

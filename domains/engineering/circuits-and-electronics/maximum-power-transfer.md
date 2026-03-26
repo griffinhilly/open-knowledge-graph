@@ -51,7 +51,7 @@ Maximum power is delivered to a load when load resistance equals the Thévenin r
   answer: true
   explanation: "When R_L = R_th, the two equal resistances in series share voltage equally. The same current flows through both, so they dissipate equal power: P_source = P_load = V_th²/(4R_th). This 50% efficiency is an inherent consequence of the matched condition, not a flaw to be engineered away. It's why this condition is chosen for signal extraction (where maximum power to the load matters) rather than power delivery (where losing half to source resistance is unacceptable)."
 
-- question: "Maximum power is always delivered to a load when the load resistance is as small as possible, since lower resistance allows more current to flow."
+- question: "Maximum power is generally delivered to a load when the load resistance is as small as possible, since lower resistance allows more current to flow."
   type: true-false
   answer: false
   explanation: "This intuition is wrong. Power to the load is P_L = I²R_L = V_th²·R_L/(R_th + R_L)². As R_L decreases from large values, current increases but R_L itself decreases — the product is not monotonic. At R_L = 0, the load is shorted and P_L = 0 (all power dissipated in R_th). At R_L → ∞, current → 0 and P_L → 0. The maximum occurs at R_L = R_th — the calculus result of setting dP_L/dR_L = 0. Neither extreme delivers maximum power."

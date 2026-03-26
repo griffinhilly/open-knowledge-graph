@@ -62,7 +62,7 @@ Draw all valid resonance structures for each intermediate, using curved arrows t
   answer: true
   explanation: "When resonance contributors are equivalent (equal energy), electron delocalization is maximized and stabilization is greatest — this is why benzene is exceptionally stable (six equivalent contributors). When contributors are unequal in energy, the hybrid resembles the lower-energy structure more closely, and the stabilization gained from delocalization is reduced. The closer in energy the contributors, the more equal their contribution to the hybrid, and the greater the resonance stabilization."
 
-- question: "More resonance structures can always be drawn for a more stable molecule — so counting resonance structures is a reliable measure of stability."
+- question: "More resonance structures can generally be drawn for a more stable molecule — so counting resonance structures is a reliable measure of stability."
   type: true-false
   answer: false
   explanation: "While more equivalent, low-energy resonance contributors do increase stability, not all drawable resonance structures contribute meaningfully. High-energy structures — those with adjacent like charges, broken octets on electronegative atoms, or formal charge violations — contribute very little to the hybrid and provide almost no stabilization. You can draw many technically valid but energetically unfavorable resonance structures, inflating the apparent count without reflecting real stabilization. Quality of contributors matters, not raw quantity."

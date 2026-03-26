@@ -66,7 +66,7 @@ Compare the results of observational studies on fruit and vegetable consumption 
   answer: true
   explanation: "ROS are not purely harmful. At moderate, controlled levels they serve as signaling molecules: they activate NRF2 (a master transcription factor that upregulates the cell's own antioxidant gene network), stimulate mitochondrial biogenesis in response to exercise stress, support neutrophil killing of pathogens (via the respiratory burst), and regulate vascular tone. The distinction is between physiological ROS (controlled, localized, low-level) and pathological oxidative stress (overwhelming, sustained, damaging). The goal is redox balance, not zero ROS."
 
-- question: "Consuming more antioxidant supplements is always safe and beneficial because neutralizing free radicals can only reduce oxidative damage, with no possible downside."
+- question: "Consuming more antioxidant supplements is typically safe and beneficial because neutralizing free radicals can mainly reduce oxidative damage, with no possible downside."
   type: true-false
   answer: false
   explanation: "High-dose antioxidant supplementation can have harmful effects. It can blunt exercise training adaptations — studies show that high-dose vitamins C and E supplementation reduces the mitochondrial biogenesis and insulin sensitivity gains from endurance training, because these adaptations are triggered partly by exercise-induced ROS. It can impair immune function by suppressing the oxidative burst that neutrophils use to kill bacteria. And as the beta-carotene trials demonstrated, high-dose supplements of specific compounds can increase cancer risk in vulnerable populations. 'More' is not the same as 'better' when the body uses ROS as a signal."

@@ -53,7 +53,7 @@ Work through classic 3-SAT reductions (CLIQUE, VERTEX-COVER, INDEPENDENT-SET). B
   answer: 2
   explanation: "3-SAT and general SAT are both NP-complete, making them equivalent in computational hardness. Every SAT instance can be converted to 3-SAT in polynomial time by splitting large clauses (introducing auxiliary variables) and padding short ones. So if you could solve 3-SAT efficiently, you could solve all of SAT. The restriction to exactly 3 literals changes the syntax but preserves the full computational difficulty — it does not make the problem easier."
 
-- question: "To prove a new problem X is NP-hard, you must construct a polynomial-time reduction FROM X TO 3-SAT."
+- question: "To prove a new problem X is NP-hard, you is expected to construct a polynomial-time reduction FROM X TO 3-SAT."
   type: true-false
   answer: false
   explanation: "The direction is exactly reversed. To prove X is NP-hard, you reduce FROM 3-SAT TO X — you show that any 3-SAT instance can be transformed into an instance of X in polynomial time, preserving satisfiability in both directions. This means 'if you could solve X efficiently, you could solve 3-SAT efficiently,' establishing X as at least as hard as 3-SAT. A reduction from X to 3-SAT would prove 3-SAT is at least as hard as X — not useful, since 3-SAT's hardness is already known."

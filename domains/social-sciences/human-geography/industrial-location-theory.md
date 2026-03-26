@@ -64,7 +64,7 @@ Apply Weber's model to explain the historical location of steel mills in the Ruh
   answer: 1
   explanation: "Deindustrialization in the Global North was not global manufacturing decline — it was a geographic relocation. As containerization lowered transport costs and wage differentials between countries widened, firms fragmented production: labor-intensive assembly moved to export processing zones in China, Vietnam, Mexico, and Bangladesh, while design and R&D remained in high-wage regions. Global manufacturing output rose significantly through this period. This is a critical misconception to avoid: the rust belt experience reflects spatial redistribution, not absolute decline."
 
-- question: "According to Weber's least-cost theory, a profit-maximizing firm will always locate at the point that minimizes transportation costs, regardless of labor cost differences between locations."
+- question: "According to Weber's least-cost theory, a profit-maximizing firm will generally locate at the point that minimizes transportation costs, regardless of labor cost differences between locations."
   type: true-false
   answer: false
   explanation: "Weber's model explicitly allows firms to deviate from the minimum-transport-cost location when labor savings outweigh additional transport costs incurred by moving toward a cheap-labor site. He formalized this with isodapanes — lines of equal total transport cost — showing that a firm will cross them only if labor savings exceed the extra transport cost. This is why textile mills historically migrated from New England to the American South, and later to East Asia: each move toward cheaper labor was economically rational even though it increased transport costs."

@@ -59,7 +59,7 @@ Start with concrete examples: n² grows faster than n log n, which grows faster 
   answer: true
   explanation: "Big-Theta is defined as the intersection of both bounds: f(n) = Θ(g(n)) means f(n) = O(g(n)) AND f(n) = Ω(g(n)). The Big-O bound says f grows no faster than g; the Big-Omega bound says f grows no slower than g. Together they pin down the growth rate precisely from both above and below. Merge sort is the classic example: it is Θ(n log n) because it always requires time proportional to n log n — never dramatically more, never significantly less."
 
-- question: "O(2n) and O(n) are different complexity classes because the first algorithm always runs exactly twice as fast as the second."
+- question: "O(2n) and O(n) are different complexity classes because the first algorithm usually runs exactly twice as fast as the second."
   type: true-false
   answer: false
   explanation: "O(2n) and O(n) are the same complexity class. Big-O notation absorbs constant factors: f(n) is O(g(n)) if there exist constants c and n₀ such that f(n) ≤ c·g(n) for all n ≥ n₀. Choosing c = 2 in the definition of O(n) absorbs the factor of 2, so 2n = O(n). Both functions grow linearly — doubling n doubles runtime in either case. The difference between O(2n) and O(n) is a constant factor, not a difference in growth rate, and Big-O ignores constant factors by design."

@@ -55,7 +55,7 @@ Assets move together (correlate) in different ways: stocks and bonds correlate n
   answer: true
   explanation: "With perfect negative correlation, every price increase in one asset is exactly offset by a price decrease in the other. By weighting them appropriately (weight each asset proportionally to the other's volatility), the combined portfolio's standard deviation falls to zero. In practice, true -1 correlations are essentially nonexistent, but negative correlations — like stocks and government bonds in many environments — still provide substantial risk reduction."
 
-- question: "Adding more assets to a portfolio always reduces its overall risk, regardless of the correlations between those assets."
+- question: "Adding more assets to a portfolio generally reduces its overall risk, regardless of the correlations between those assets."
   type: true-false
   answer: false
   explanation: "Risk reduction from adding assets depends entirely on correlation. If the new asset has correlation +1 with existing holdings, adding it provides zero diversification benefit — the portfolio's volatility is unchanged (only the scale changes). Assets must move at least partially independently to reduce portfolio risk. Adding highly correlated assets may reduce concentration in any single name (lowering idiosyncratic risk) but does nothing to reduce the common-factor risk that dominates most portfolios."

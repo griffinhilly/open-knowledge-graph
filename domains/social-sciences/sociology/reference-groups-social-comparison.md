@@ -48,7 +48,7 @@ People evaluate themselves by comparing their status and abilities to reference 
   answer: 2
   explanation: "Reference group theory predicts that satisfaction is driven by relative standing, not absolute level. The same $70,000 feels like success when peers earn $50,000 (you're above the comparison standard) and like failure when peers earn $100,000 (you're below it). Option B reflects the misconception that upward comparison motivates satisfaction — in practice, upward comparison tends to generate relative deprivation and dissatisfaction, not contentment. Option D represents a 'basic needs' view that research consistently shows is insufficient to explain subjective wellbeing."
 
-- question: "Reference groups must be groups to which a person actually belongs — you can only compare yourself to people who share your current social position."
+- question: "Reference groups should be groups to which a person actually belongs — you can mainly compare yourself to people who share your current social position."
   type: true-false
   answer: false
   explanation: "Hyman's original 1942 definition explicitly distinguishes membership groups (groups you belong to) from reference groups (standards you use for self-evaluation). People routinely compare themselves to aspirational groups they are not members of — a junior employee comparing herself to senior executives, a student comparing himself to professional athletes. The comparison group is chosen based on identity, aspirations, and context, not formal membership. This is why reference group theory can explain upward mobility striving and social movements, not just contentment within a group."

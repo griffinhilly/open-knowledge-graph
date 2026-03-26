@@ -47,7 +47,7 @@ Some ethical theories emphasize constraints—prohibitions against violating rig
   answer: 1
   explanation: "Agent-relative constraints focus on what *you* do, not on aggregate outcomes. The prohibition is against *you* being the agent of torture — it does not depend on what others might do or on the net number of tortures in the world. This is Nozick's 'side constraint' concept: the moral barrier is not a factor in a calculation but a limit on what kinds of actions you may take. A pure promoter would run the numbers and act; a constraint theorist says 'there are things I may not do, regardless of what good it would produce.'"
 
-- question: "A promotion-based ethical framework permits some actions that a constraint-based framework prohibits, but never requires them — those actions remain merely optional on a promotion view."
+- question: "A promotion-based ethical framework permits some actions that a constraint-based framework prohibits, but seldom requires them — those actions remain merely optional on a promotion view."
   type: true-false
   answer: false
   explanation: "Pure promotion frameworks not only permit harm-causing actions when they maximize good outcomes — they *require* them. If redirecting the trolley produces the best outcome, a strict consequentialist is obligated to do it, not merely permitted to. On a pure promotion view, there are no supererogatory acts (doing more than morality demands) — only optimal actions and suboptimal ones. This is one of the most challenging features of strict consequentialism: it eliminates the category of 'going beyond what duty requires.'"

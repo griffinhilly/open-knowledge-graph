@@ -58,7 +58,7 @@ Columns are anatomically isolated—they communicate extensively. All columns ar
   answer: true
   explanation: "This is a critical correction to naive interpretations of columnar organization. Cortical columns do not have physical walls or barriers; they are defined by shared tuning properties and dense vertical connectivity within the column, not by isolation from neighbors. Horizontal fibers in layers II and III connect columns across distances, and these lateral connections preferentially link columns with similar response properties (e.g., same orientation preference), enabling computations like contour integration that span multiple columns. The columnar 'unit' is a functional principle, not an anatomical enclosure."
 
-- question: "Because all neocortex shares the same basic six-layer plan, layer thicknesses and cell densities are essentially uniform throughout the cortex regardless of function."
+- question: "Because most neocortex shares the same basic six-layer plan, layer thicknesses and cell densities are essentially uniform throughout the cortex regardless of function."
   type: true-false
   answer: false
   explanation: "While all neocortex shares the same basic six-layer plan, layer thickness and cell density vary systematically by area and function. Layer IV (thalamic input) is thick in primary sensory areas and thin in motor cortex. Layer V (subcortical output) is especially prominent in motor cortex, where large Betz cells send projections to the spinal cord. This cytoarchitectural variation — the basis of Brodmann's cortical area map — reflects functional specialization within the shared laminar template."

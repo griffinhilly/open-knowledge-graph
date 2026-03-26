@@ -57,7 +57,7 @@ Listen to unadorned Gregorian chant in a liturgical context (e.g., a complete Ma
   answer: true
   explanation: "Troubadours in southern France and trouvères in northern France were often aristocrats or professional musicians attached to noble courts. Their repertoire encompassed idealized love poetry, political commentary, narrative poems, and dance songs — sophisticated literary and musical forms with complex meter and structure. These traditions were central to aristocratic culture and prestige, not marginal. The misconception that medieval music was all sacred, with secular music as primitive folk song, erases a vibrant and culturally significant parallel tradition."
 
-- question: "All significant medieval music was composed for and performed within the Catholic Church — secular musical traditions were minor and peripheral to medieval culture."
+- question: "Most significant medieval music was composed for and performed within the Catholic Church — secular musical traditions were minor and peripheral to medieval culture."
   type: true-false
   answer: false
   explanation: "Medieval Europe had two major musical traditions running simultaneously. Sacred music — Gregorian chant, organum, and polyphony developed in cathedral schools — served the liturgy. Secular music — troubadour and trouvère song, court entertainment, dance music — served aristocratic and community life. The secular tradition was not peripheral: it was the music of ruling courts, wealthy patrons, and public celebration. Understanding medieval music requires holding both traditions in view; reducing it entirely to sacred music misrepresents the period's musical culture."

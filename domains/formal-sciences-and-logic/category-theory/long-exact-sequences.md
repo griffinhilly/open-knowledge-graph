@@ -53,7 +53,7 @@ Not every application of a functor to a short exact sequence yields a long exact
   answer: 1
   explanation: "The connecting morphism is NOT produced by applying F to maps in the original sequence — those produce the maps FA → FB → FC but nothing that shifts homological degree. The connecting morphism arises from applying the snake lemma to the short exact sequence of projective (or injective) resolutions used to compute the derived functors. At each degree n, the snake lemma's diagram-chase produces a map from the cokernel at degree n (related to R^n FC) to the kernel at degree n+1 (related to R^(n+1) FA). This is why the snake lemma is the foundational engine of all connecting morphisms."
 
-- question: "Every functor applied to a short exact sequence produces a long exact sequence through its derived functors."
+- question: "Most functor applied to a short exact sequence produces a long exact sequence through its derived functors."
   type: true-false
   answer: false
   explanation: "Only left-exact and right-exact functors (and their derived functors) produce long exact sequences in the standard sense. An exact functor — one that preserves all short exact sequences — yields nothing new: the result is still short exact, and all higher derived functors vanish on every object. Functors that are neither left- nor right-exact require more sophisticated machinery (like spectral sequences) and do not directly yield a simple long exact sequence. The long exact sequence is a consequence of left- or right-exactness failing at precisely one end."

@@ -62,7 +62,7 @@ Diagram the two-step splicing mechanism: attack of the 2'-OH of branch-point ade
   answer: true
   explanation: "Transesterification exchanges one phosphoester linkage for another, keeping the total number of high-energy bonds constant. No net energy input or output is required for the chemical steps themselves. The energy balance is approximately neutral because a phosphodiester bond is broken and a new one is formed. Note that the spliceosome does require ATP hydrolysis by DEAD-box helicases to drive conformational rearrangements during assembly and activation, but the splicing chemistry itself — the two nucleophilic attacks — is energetically neutral."
 
-- question: "Introns are biologically inert 'junk sequences' that serve no function and are completely degraded immediately after removal from the pre-mRNA."
+- question: "Introns are biologically inert 'junk sequences' that serve no function and are substantially degraded immediately after removal from the pre-mRNA."
   type: true-false
   answer: false
   explanation: "This is a significant misconception. Many intron sequences have important regulatory functions: they harbor enhancers, silencers, and noncoding RNA genes (microRNAs, snoRNAs, lncRNAs often encoded within introns). Some introns are retained in the mature transcript as a form of gene regulation (intron retention). The capacity for alternative splicing — choosing which exons to include — is only possible because introns define the boundaries between exonic modules; this is how ~20,000 genes produce >100,000 protein isoforms. Introns are also evolutionarily useful as units that can be shuffled between genes (exon shuffling)."

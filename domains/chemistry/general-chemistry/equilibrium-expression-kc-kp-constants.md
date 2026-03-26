@@ -41,7 +41,7 @@ Thinking Kc and Kp are the same or that they have the same numerical value. Forg
   answer: 0
   explanation: "Δn = moles of gaseous products − moles of gaseous reactants = 2 − (1 + 3) = −2. This negative Δn means Kp < Kc for this reaction at any temperature above 0 K, because (RT)^−2 is less than 1."
 
-- question: "When writing Kc for a reaction that involves a solid reactant (e.g., CaCO₃(s) ⇌ CaO(s) + CO₂(g)), the concentration of CaCO₃ must appear in the denominator of the equilibrium expression."
+- question: "When writing Kc for a reaction that involves a solid reactant (e.g., CaCO₃(s) ⇌ CaO(s) + CO₂(g)), the concentration of CaCO₃ should appear in the denominator of the equilibrium expression."
   type: true-false
   answer: false
   explanation: "Pure solids and pure liquids are omitted from equilibrium expressions because their concentrations are constant (their 'concentration' is absorbed into the value of K). Only gases and dissolved solutes appear. For this reaction, Kc = [CO₂] and Kp = P(CO₂)."

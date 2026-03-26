@@ -64,7 +64,7 @@ Act out subtraction stories with physical objects before using symbols. Connect 
   answer: true
   explanation: "A fact family shares the same three numbers and shows how addition and subtraction relate. The numbers 3, 4, and 7 form a family: 3+4=7, 4+3=7, 7−3=4, and 7−4=3. All four equations describe the same part-part-whole relationship from different angles."
 
-- question: "Subtraction can only be used when something is physically taken away."
+- question: "Subtraction can mainly be used when something is physically taken away."
   type: true-false
   answer: false
   explanation: "Subtraction has three distinct meanings: take-away (start with 7, remove 3), comparison (how many more?), and missing part (whole is 7, one part is 3, find the other). All three produce subtraction equations. 'Taking away' only describes the first type, which is why relying on it alone causes errors on comparison and missing-part problems."

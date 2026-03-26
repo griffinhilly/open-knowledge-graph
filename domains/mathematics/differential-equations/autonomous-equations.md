@@ -46,7 +46,7 @@ An autonomous ODE has the form dy/dx = f(y), depending only on y, not on x. Equi
   answer: 1
   explanation: "The phase-line analysis is direct: f(y) > 0 below y = 2 means solutions there are increasing (arrows point up, toward y = 2). f(y) < 0 above y = 2 means solutions there are decreasing (arrows point down, toward y = 2). Both sides funnel toward y = 2 — it is a stable equilibrium (a sink/attractor). This determination required no integration, only evaluating the sign of f(y) on either side of the equilibrium."
 
-- question: "An equilibrium solution y = c of an autonomous ODE is always stable."
+- question: "An equilibrium solution y = c of an autonomous ODE is typically stable."
   type: true-false
   answer: false
   explanation: "False. Equilibria can be stable (attractors/sinks), unstable (repellers/sources), or semi-stable. For dy/dt = y(1−y), y = 1 is stable but y = 0 is unstable — solutions near y = 0 move away from it. Stability depends on the sign of f(y) on either side of the equilibrium: if f changes from positive to negative through the equilibrium, it is stable; if from negative to positive, unstable. Nothing about being an equilibrium (f(c) = 0) guarantees attraction."

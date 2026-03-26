@@ -53,7 +53,7 @@ Examine boundary cases: astrology vs astronomy, alchemy vs chemistry, Intelligen
   answer: 1
   explanation: "For Lakatos, the key distinction is between a *progressive* research programme (one that generates new, confirmed predictions) and a *degenerative* one (one that only adds epicycles to protect a core that keeps failing). A therapy that accommodates every outcome by reinterpreting it after the fact, without making advance predictions that are then confirmed, is degenerative in Lakatos's sense — not because it is unfalsifiable in Popper's sense, but because it produces no new empirical content."
 
-- question: "According to Popper, a theory that can accommodate any possible observation — that is never contradicted by evidence — is the most powerful kind of scientific theory."
+- question: "According to Popper, a theory that can accommodate any possible observation — that is rarely contradicted by evidence — is the most powerful kind of scientific theory."
   type: true-false
   answer: false
   explanation: "This is precisely what Popper argued *against*. For him, a theory that can accommodate anything predicts nothing — it has no empirical content. Popper worried about Freudian psychoanalysis and Adlerian psychology for exactly this reason: any patient behavior could be interpreted as confirming either theory. Scientific theories must be bold enough to risk falsification. The appearance of explaining everything is, for Popper, evidence of unscientific status rather than strength."

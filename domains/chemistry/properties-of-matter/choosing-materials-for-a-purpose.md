@@ -46,7 +46,7 @@ Present a design challenge: "Design a container to keep a drink hot for as long 
   answer: 1
   explanation: "Different parts of the spatula do different jobs, so they need different properties. The flat part needs to be rigid and heat-resistant, which metal provides. The handle needs to stay cool (insulating) and be comfortable to grip (flexible, non-slip), which rubber provides. Using two materials gives you the best properties for each part."
 
-- question: "The most expensive material is always the best choice for any job."
+- question: "The most expensive material is typically the best choice for any job."
   type: true-false
   answer: false
   explanation: "False. The best material is the one whose properties match the requirements of the job, regardless of price. A diamond window would be very hard, but glass does the job perfectly at a tiny fraction of the cost. A gold hammer would be too soft and heavy. Cost, weight, availability, and many other factors matter alongside the physical properties."

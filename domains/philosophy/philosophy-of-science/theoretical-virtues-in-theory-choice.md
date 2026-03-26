@@ -47,7 +47,7 @@ Examine case studies where simplicity or elegance decided between empirically eq
   answer: 1
   explanation: "The core debate is whether theoretical virtues are epistemic (truth-conducive) or pragmatic (useful but not truth-indicating). Scientific realists argue the world's deep structure favors simpler theories, so preferring simplicity is a reliable guide to truth. Anti-realists and instrumentalists counter that simplicity is a feature of how human minds organize information — it aids prediction and research without warranting claims about unobservable structure. This disagreement directly bears on the argument from success: if virtues track truth, science's success confirms realism; if not, success is compatible with anti-realism."
 
-- question: "Theoretical virtues like simplicity and coherence are only relevant when two theories make literally identical empirical predictions in all possible experiments."
+- question: "Theoretical virtues like simplicity and coherence are mainly relevant when two theories make literally identical empirical predictions in most possible experiments."
   type: true-false
   answer: false
   explanation: "Theoretical virtues operate whenever evidence underdetermines theory choice — which, as the underdetermination thesis shows, is essentially always. Even when two theories make slightly different predictions, current data may not yet discriminate between them, and virtues guide the choice of which to pursue. Moreover, theories are often chosen to guide future research before all predictions are even known. Virtues don't wait for empirical equivalence; they function as guides whenever the evidence doesn't uniquely determine the best theory."

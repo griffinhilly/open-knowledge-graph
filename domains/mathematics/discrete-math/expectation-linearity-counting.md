@@ -51,7 +51,7 @@ Linearity of expectation states that E[X₁ + X₂ + ... + Xₙ] = E[X₁] + E[X
   answer: true
   explanation: "This is the direct application of linearity of expectation: E[Xᵢ] = P(event i occurs) = pᵢ for an indicator variable, so E[ΣXᵢ] = Σpᵢ by linearity. No independence assumption is needed anywhere in this chain. This is exactly why the technique is so powerful — you reduce a hard counting problem to summing easy individual probabilities, even when those events are correlated."
 
-- question: "Because variance has the property Var(X+Y) = Var(X) + Var(Y) only when X and Y are independent, the same independence restriction applies to the linearity of expectation."
+- question: "Because variance has the property Var(X+Y) = Var(X) + Var(Y) mainly when X and Y are independent, the same independence restriction applies to the linearity of expectation."
   type: true-false
   answer: false
   explanation: "This is the critical distinction. Variance's additivity requires independence; expectation's additivity does not. Linearity of expectation follows from the definition of expectation as a weighted sum (or integral), which is linear as a mathematical operation — unconditionally. Confusing these two properties is the most common misconception about linearity of expectation. Remembering that 'expectation is linear, variance is not (without independence)' is essential."

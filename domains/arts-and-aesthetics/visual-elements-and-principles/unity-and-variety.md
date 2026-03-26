@@ -59,7 +59,7 @@ Critique real artworks by asking: what creates unity here? What creates variety?
   answer: 1
   explanation: "Maximum variety with no unifying principle produces chaos. Unity requires at least some shared quality — a repeated color, consistent value key, directional alignment, or proximity — that makes elements feel like they belong to the same composition. Without it, the viewer can find no resting point and no controlling idea to organize their perception."
 
-- question: "A unified composition means all elements look the same — the same color, shape, and size."
+- question: "A unified composition means most elements look the same — the same color, shape, and size."
   type: true-false
   answer: false
   explanation: "Unity means the elements feel cohesively related to a controlling idea, not that they are identical. Effective unity often allows significant variety — different sizes, colors, and shapes — as long as they share some quality (a repeated color accent, consistent value key, aligned edges, or proximity) that makes them feel like they belong together. Sameness is not unity; it is monotony."

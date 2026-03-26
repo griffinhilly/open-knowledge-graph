@@ -56,7 +56,7 @@ Conduct and transcribe a short interview. Review published phenomenological stud
   answer: true
   explanation: "Saturation is the qualitative equivalent of statistical power: you continue collecting data until the conceptual map is stable, not until you reach a preset number of participants. This is epistemically appropriate because qualitative research is not estimating a population statistic — it is building a conceptual description. When new participants are no longer adding new dimensions to that description, you have reached the stopping point regardless of absolute sample size."
 
-- question: "A semi-structured interview follows a rigid script so that all participants answer exactly the same questions, ensuring consistent and comparable data."
+- question: "A semi-structured interview follows a rigid script so that most participants answer exactly the same questions, ensuring consistent and comparable data."
   type: true-false
   answer: false
   explanation: "The 'semi' in semi-structured is crucial. A semi-structured interview has a guide — open-ended questions and prompts — but the interviewer can probe, follow unexpected threads, and ask follow-up questions based on what participants actually say. This flexibility is the method's strength: the goal is to understand the participant's own categories and meanings, not to fit their experience into a predetermined framework. Full rigidity (structured interviewing) prevents the exploratory depth that qualitative research requires."

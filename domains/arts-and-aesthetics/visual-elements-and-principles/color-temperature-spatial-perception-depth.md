@@ -61,7 +61,7 @@ Believing all warm colors advance and all cool colors recede regardless of conte
   answer: 1
   explanation: "This question targets the critical distinction between absolute and relative temperature. Yellow-green is technically a warm-leaning hue when compared to blue-violet, but when placed next to a hot orange, it reads as the cooler of the two and will recede relative to the orange. Spatial depth from color temperature is always about the relationship between adjacent colors, not the category of each color in isolation. A color that advances in one context may recede in another — it depends entirely on what it is next to."
 
-- question: "All warm colors advance in space and all cool colors recede, regardless of what other colors surround them."
+- question: "Most warm colors advance in space and most cool colors recede, regardless of what other colors surround them."
   type: true-false
   answer: false
   explanation: "Color temperature spatial effects are relative, not absolute. A warm yellow next to a hot orange reads as the cooler of the two and will recede relative to the orange. A blue-green next to a deep violet reads as the warmer of the two and will advance relative to the violet. Context determines everything. Additionally, value (lightness/darkness) and saturation (intensity) interact with temperature — a dark cool color can advance over a light warm one if the value contrast is strong enough. Understanding temperature as relational, not categorical, is the key to using it effectively."

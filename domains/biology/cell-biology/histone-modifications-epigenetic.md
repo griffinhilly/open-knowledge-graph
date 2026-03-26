@@ -51,7 +51,7 @@ Histone tails undergo post-translational modifications (acetylation by HATs, met
   answer: true
   explanation: "This is the essence of epigenetic inheritance. When a cell divides, histone-modifying enzymes are recruited to newly assembled nucleosomes and re-establish the parent cell's modification pattern. This allows liver cells to keep producing liver-specific proteins and neurons to maintain neuron-specific expression, even though both cell types carry identical DNA. Cellular identity is maintained through this molecular memory without any change to the genetic sequence."
 
-- question: "Histone methylation is always a repressive modification — wherever it occurs in the genome, it signals that a gene should be silenced."
+- question: "Histone methylation is typically a repressive modification — wherever it occurs in the genome, it signals that a gene should be silenced."
   type: true-false
   answer: false
   explanation: "This is a critical misconception. H3K4me3 marks active gene promoters and is associated with gene activation, while H3K27me3 marks genes silenced by Polycomb complexes, and H3K9me3 marks constitutive heterochromatin. Even H3K36me3 marks actively transcribed gene bodies. The same chemical modification — adding methyl groups — produces opposite effects depending on which lysine residue on which histone it targets. Position specificity is the key to reading the histone code."

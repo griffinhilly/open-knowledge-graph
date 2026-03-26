@@ -60,7 +60,7 @@ Track how melt composition evolves as minerals remove elements during crystalliz
   answer: true
   explanation: "High-temperature minerals like olivine (Mg, Fe silicate) and calcium-rich plagioclase incorporate Mg, Fe, and Ca preferentially. Their crystallization removes these elements from the melt, leaving the residual liquid depleted in Mg, Fe, and Ca and enriched in Si, Na, and K. This is precisely why fractional crystallization of basaltic magma can ultimately produce granite — not through mixing of different magmas, but by sequential removal of mafic minerals."
 
-- question: "Bowen's reaction series describes the crystallization sequence for all rock types, including sedimentary and metamorphic rocks."
+- question: "Bowen's reaction series describes the crystallization sequence for most rock types, including sedimentary and metamorphic rocks."
   type: true-false
   answer: false
   explanation: "Bowen's series was derived experimentally from cooling basaltic magma and applies specifically to igneous (magmatic) crystallization. Sedimentary rocks form through weathering, transport, deposition, and diagenesis — processes governed by stability at Earth's surface. Metamorphic rocks form through solid-state mineral transformations under heat and pressure without melting. The series has no direct application to non-igneous rock types."

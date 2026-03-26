@@ -55,7 +55,7 @@ Draw the natural monopoly diagram carefully, identifying the unregulated monopol
   answer: 2
   explanation: "A natural monopoly is a cost-structure phenomenon, not the result of predatory behavior or legal barriers. When fixed costs (pipes, treatment plants) are very high and marginal costs are low, a single firm spreading those fixed costs over all customers achieves much lower average cost than two firms each building their own infrastructure. Any entrant would have higher costs and would be undercut. This is what 'natural' means — the monopoly emerges from the economics of production, not from anticompetitive conduct. Option A describes a behavioral monopoly, which is a different concept."
 
-- question: "Average-cost pricing for a natural monopoly eliminates all deadweight loss."
+- question: "Average-cost pricing for a natural monopoly eliminates most deadweight loss."
   type: true-false
   answer: false
   explanation: "Average-cost pricing (P = LRAC) sets price above marginal cost — the firm covers all costs including a normal return, but P > MC means consumers who would have bought at MC don't buy at the higher price. This creates a deadweight loss triangle, smaller than under unregulated monopoly pricing but still present. Only marginal-cost pricing (P = MC) eliminates deadweight loss, but it causes losses for the firm when LRAC is declining. Average-cost pricing is the practical compromise that accepts some deadweight loss in exchange for financial viability without subsidy."

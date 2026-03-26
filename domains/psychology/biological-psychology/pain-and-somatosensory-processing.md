@@ -65,7 +65,7 @@ Phantom limb pain is a powerful entry point: if the limb is gone but pain persis
   answer: true
   explanation: "This is the gate control theory (Melzack & Wall, 1965). Large-diameter A-beta fibers carrying ordinary tactile input activate inhibitory interneurons in the spinal cord dorsal horn that reduce transmission from pain-carrying A-delta and C fibers. The dorsal horn acts as a 'gate' that non-painful input can close. This principle underlies both the folk remedy of rubbing an injury and clinical applications like TENS therapy and spinal cord stimulators used for chronic pain management."
 
-- question: "Pain intensity always reflects the degree of underlying tissue damage, because pain is simply the brain's readout of nociceptor firing rates."
+- question: "Pain intensity generally reflects the degree of underlying tissue damage, because pain is simply the brain's readout of nociceptor firing rates."
   type: true-false
   answer: false
   explanation: "Pain is a constructed experience modulated at multiple levels of the nervous system, not a direct readout of nociceptor activity. Attention, psychological state, context, prior experience, and descending inhibitory pathways all shape pain perception independently of tissue damage. Identical injuries produce vastly different pain in different contexts — athletes often do not notice injuries during competition, placebos reduce pain without changing tissue, and chronic pain persists long after healing. Phantom limb pain — vivid pain with no tissue to damage — is the most direct refutation of the 'damage readout' model."

@@ -62,7 +62,7 @@ Read the Clay Institute problem statement and at least one accessible essay. Stu
   answer: true
   explanation: "This is why P ⊆ NP is a theorem, not a conjecture. Given a proposed solution to a problem in P, you can verify it by simply running the polynomial-time solving algorithm on the input — if it produces the same answer, the solution is verified. More formally, a polynomial-time solver can be used as a polynomial-time verifier (ignore the proposed solution and just solve directly). This makes the containment P ⊆ NP immediate. The open question is whether the reverse holds: is NP ⊆ P, i.e., does every NP problem also have a polynomial solving algorithm?"
 
-- question: "'NP' stands for 'not polynomial,' referring to the class of problems that cannot be solved in polynomial time."
+- question: "'NP' stands for 'not polynomial,' referring to the class of problems that can seldom be solved in polynomial time."
   type: true-false
   answer: false
   explanation: "'NP' stands for 'nondeterministic polynomial time' — it refers to problems solvable in polynomial time on a nondeterministic Turing machine, which is equivalent to saying problems whose solutions can be verified in polynomial time on a deterministic machine. The name has nothing to do with infeasibility or the absence of polynomial algorithms. Many NP problems are in P — they have efficient algorithms. The confusion between 'NP' and 'exponentially hard' or 'not polynomial' is one of the most common misconceptions in complexity theory."

@@ -61,7 +61,7 @@ Build a mental map of NP-complete problems and their reduction relationships: SA
   answer: 1
   explanation: "NP-completeness requires two things: membership in NP (solutions are verifiable in polynomial time) and NP-hardness (every NP problem reduces to it in polynomial time). The other options confuse NP-completeness with provable intractability, undecidability, or worst-case exponential behavior — none of which are required."
 
-- question: "If a problem is NP-complete, it is impossible to solve — no algorithm exists that produces a correct answer."
+- question: "If a problem is NP-complete, it is very difficult to solve — no algorithm exists that produces a correct answer."
   type: true-false
   answer: false
   explanation: "NP-completeness says nothing about the existence of an algorithm — exact exponential-time algorithms exist for every NP-complete problem. The claim is that no *polynomial-time* algorithm is known, and under the assumption P ≠ NP, none exists. Approximation algorithms, heuristics, and special-case solvers are all viable despite NP-completeness."

@@ -52,7 +52,7 @@ Long-distance extraction involves movement across multiple clause boundaries (e.
   answer: true
   explanation: "This is the defining property of long-distance (unbounded) extraction through complement clauses. 'Who did she claim that he believed that Mary had seen?' spans three clause boundaries and remains grammatical because each movement step stops at the intermediate Spec,CP of each complement clause (successive-cyclic movement), crossing only one bounding node per step. The dependency is 'unbounded' in the sense that there is no fixed maximum depth, as long as each intermediate step respects subjacency."
 
-- question: "Island constraints on long-distance extraction are universal: all human languages block extraction from complex NP islands, wh-islands, and adjunct islands in the same way."
+- question: "Island constraints on long-distance extraction are universal: most human languages block extraction from complex NP islands, wh-islands, and adjunct islands in the same way."
   type: true-false
   answer: false
   explanation: "Crosslinguistic variation shows that island constraints are not uniformly universal. Many Scandinavian languages allow extraction from wh-islands that English disallows. Malagasy and other Austronesian languages impose much stronger restrictions on extraction. Some languages permit extraction from adjunct islands under certain conditions. This variation drives ongoing theoretical debate: do all languages share the same underlying constraints with surface differences driven by feature specifications ('strong' vs. 'weak' features), or are the constraints themselves parameterized? The crosslinguistic data suggests neither pure universality nor free variation."

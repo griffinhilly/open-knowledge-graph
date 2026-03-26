@@ -47,7 +47,7 @@ Examine compiler inlining decisions via -fopt-info in GCC or llvm-opt-report; co
   answer: 1
   explanation: "When every call is inlined, the binary grows massively — a function called from 50 sites gets duplicated 50 times. This bloated code no longer fits efficiently in the L1 instruction cache. The CPU must constantly fetch new instructions from slower memory, and the cache miss penalties dominate any savings from eliminated call overhead. This is the central tension in inlining: the optimization that eliminates overhead at one level can create worse overhead at another. Compilers must estimate the net effect, not just the call overhead eliminated."
 
-- question: "A function that is very small (below the compiler's size threshold) should always be inlined, regardless of how frequently it is called."
+- question: "A function that is very small (below the compiler's size threshold) should generally be inlined, regardless of how frequently it is called."
   type: true-false
   answer: false
   explanation: "Size is only one signal. Call frequency matters equally — a tiny function called from 1,000 cold paths still creates 1,000 copies in the binary with minimal performance benefit. Good heuristics weight both size and call frequency (ideally from profiling data). Some compilers also consider whether inlining exposes constant arguments that would enable further optimizations. The `__attribute__((always_inline))` directive exists precisely because the compiler's size-based default sometimes gets it wrong — the compiler needs developer knowledge to override."

@@ -56,7 +56,7 @@ Assuming RCTs are always better evidence than observational studies. Ignoring ap
   answer: true
   explanation: "This is the central insight: evidence hierarchy position and evidence quality are not the same thing. Hierarchy position describes ideal design advantages; actual quality depends on execution and applicability. A cohort study with large sample, long follow-up, appropriate population, and directly relevant outcomes may be far more informative than an RCT that was well-randomized but tested in the wrong population, used surrogate markers, or had high attrition."
 
-- question: "The evidence hierarchy ranks randomized controlled trials above observational studies because RCTs always produce more externally valid results."
+- question: "The evidence hierarchy ranks randomized controlled trials above observational studies because RCTs usually produce more externally valid results."
   type: true-false
   answer: false
   explanation: "RCTs are ranked higher for internal validity — specifically, because randomization controls for both measured and unmeasured confounding. But RCTs often have poor external validity: highly selective eligibility criteria, artificial settings, and short follow-up can all limit applicability. Observational studies, by contrast, often capture real-world populations and long-term outcomes. The hierarchy is about causal inference, not external validity or applicability."

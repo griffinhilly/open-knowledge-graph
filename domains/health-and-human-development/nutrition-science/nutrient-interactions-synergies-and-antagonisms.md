@@ -52,7 +52,7 @@ Nutrients interact in absorption, transport, storage, and metabolic function. Sy
   answer: false
   explanation: "Fat-soluble vitamins require dietary fat in the same meal to form micelles and be absorbed via lipid-dependent pathways in the small intestine. Without fat, the vitamins pass through largely unabsorbed regardless of how much is present. This is why a fat-free salad rich in beta-carotene provides far less vitamin A activity than the same salad dressed with olive oil. 'Sufficient quantity' cannot compensate for the absence of the required biochemical vehicle."
 
-- question: "Nutrient antagonisms like calcium-iron competition are only clinically significant in cases of frank malnutrition or severe deficiency."
+- question: "Nutrient antagonisms like calcium-iron competition are mainly clinically significant in cases of frank malnutrition or severe deficiency."
   type: true-false
   answer: false
   explanation: "Antagonisms become clinically significant at supplementation doses, which can create unnaturally high concentrations of one competitor that overwhelm a marginally adequate intake of another. A well-nourished patient taking a high-dose calcium supplement with meals can substantially impair iron absorption from food or supplements. Zinc-copper antagonism similarly emerges under supplementation, not just starvation. Paradoxically, well-meaning supplementation by otherwise healthy people is a more common clinical context for these interactions than frank malnutrition."

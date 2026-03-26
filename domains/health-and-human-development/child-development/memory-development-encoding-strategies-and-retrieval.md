@@ -56,7 +56,7 @@ Test digit span or word recall in children of different ages to measure working 
   answer: true
   explanation: "Metamemory enables a child to predict which items are harder to learn and which they are likely to forget, allowing strategic reallocation of study effort. Without this self-knowledge, the child cannot identify where additional rehearsal would pay off and defaults to uniform time allocation — a less efficient strategy regardless of the total time available."
 
-- question: "Infantile amnesia occurs because infants cannot form memory traces — they lack the neural capacity to encode experiences in early life."
+- question: "Infantile amnesia occurs because infants can seldom form memory traces — they lack the neural capacity to encode experiences in early life."
   type: true-false
   answer: false
   explanation: "Infants do form and retain memory traces — they recognize familiar faces, respond to their caregiver's voice, and can recall specific information for days. Infantile amnesia results from a combination of hippocampal immaturity (limiting long-term consolidation) and the absence of verbal and narrative scaffolding needed to stabilize episodic memories over long delays. The problem is long-term consolidation and retrieval, not initial encoding."

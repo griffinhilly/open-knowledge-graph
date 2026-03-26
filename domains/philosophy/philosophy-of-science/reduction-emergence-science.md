@@ -54,7 +54,7 @@ Can higher-level sciences (biology, psychology, social science) be reduced to lo
   answer: true
   explanation: "Weak emergence means a property is surprising or practically underivable, but there is no in-principle barrier — given enough computational power, the property could be predicted from lower-level facts. Strong emergence means the barrier is fundamental: the higher-level property introduces new causal powers that are not entailed by any lower-level description. Strong emergence sits in tension with the causal closure of the physical, because it seems to require that something extra enters the world at higher organizational levels."
 
-- question: "Accepting ontological reduction — the thesis that everything that exists is ultimately physical — commits one to theory reduction: the thesis that all higher-level sciences can be derived from fundamental physics."
+- question: "Accepting ontological reduction — the thesis that everything that exists is ultimately physical — commits one to theory reduction: the thesis that most higher-level sciences can be derived from fundamental physics."
   type: true-false
   answer: false
   explanation: "Ontological reduction (everything is physical stuff) and theory reduction (higher-level theories can be derived from lower-level ones) are distinct claims. Multiple realizability illustrates the gap: even if every mental event is a physical event, there may be no systematic derivation of psychological laws from physical laws, because the same psychological state can be realized by different physical configurations. One can be a committed physicalist while denying that psychology reduces to neuroscience or physics."

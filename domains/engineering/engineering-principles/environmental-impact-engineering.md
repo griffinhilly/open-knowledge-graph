@@ -44,7 +44,7 @@ Trace the lifecycle of a common product (a smartphone, a plastic bottle, a concr
   answer: 2
   explanation: "LCA covers the entire lifecycle: raw material extraction, material processing, manufacturing, transportation, use, and end-of-life (disposal or recycling). This 'cradle-to-grave' approach reveals impacts that would be hidden by looking at only one stage."
 
-- question: "A paper bag is always more environmentally friendly than a plastic bag."
+- question: "A paper bag is typically more environmentally friendly than a plastic bag."
   type: true-false
   answer: false
   explanation: "Paper bags require more energy and water to manufacture, produce more air pollution during production, and are heavier to transport than plastic bags. A paper bag must be reused 3-4 times to match the per-use impact of a single-use plastic bag. The 'better' choice depends on which environmental impacts you prioritize and how many times each bag is used."

@@ -61,7 +61,7 @@ Age structure matters mainly for childhood diseases (it affects transmission pat
   answer: true
   explanation: "Empirical contact surveys like POLYMOD documented strong diagonal dominance in age-contact matrices: children contact mostly children, working adults contact other working adults, and so on. This assortative mixing means transmission introduced into one age group stays concentrated there initially, rather than spreading uniformly across all ages as homogeneous-mixing models assume."
 
-- question: "Homogeneous-mixing SIR models and age-structured SIR models will always recommend the same optimal vaccination strategy, provided R₀ is equal in both models."
+- question: "Homogeneous-mixing SIR models and age-structured SIR models will typically recommend the same optimal vaccination strategy, provided R₀ is equal in both models."
   type: true-false
   answer: false
   explanation: "Equal R₀ does not imply equal transmission dynamics by age. For rubella, a homogeneous-mixing model would point vaccination toward the most-infected group (children), but age-structured models reveal that preventing congenital rubella syndrome requires protecting women of childbearing age — which demands vaccinating adults directly. Age-structured and homogeneous models diverge systematically when disease severity, contact rates, and susceptibility differ across age groups."

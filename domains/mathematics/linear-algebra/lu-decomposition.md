@@ -54,7 +54,7 @@ Perform Gaussian elimination on a matrix while recording multipliers in a separa
   answer: 2
   explanation: "Each entry ℓᵢⱼ below the diagonal of L is the multiplier used in Gaussian elimination to eliminate the entry in row i, column j: the ratio aᵢⱼ/aⱼⱼ at that elimination step. L is not invented separately — it is produced automatically as a byproduct of elimination. The diagonal of L is all 1s because each row trivially eliminates itself. This is the elegant insight: elimination produces both U (explicitly) and L (via the recorded multipliers) simultaneously."
 
-- question: "LU decomposition always exists for any invertible matrix without requiring row interchanges."
+- question: "LU decomposition typically exists for any invertible matrix without requiring row interchanges."
   type: true-false
   answer: false
   explanation: "This is a common misconception. Even invertible matrices can produce a zero pivot during elimination, which requires a row swap before proceeding. When row swaps are needed, the correct factorization is PA = LU, where P is a permutation matrix recording the row swaps. In practice, partial pivoting (swapping rows to place the largest available pivot first) is always used for numerical stability, even when pivots wouldn't be exactly zero. A = LU without P only works for matrices where elimination proceeds with no row swaps."

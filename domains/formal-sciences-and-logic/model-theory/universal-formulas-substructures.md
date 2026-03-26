@@ -52,7 +52,7 @@ A universal formula (of the form ∀x φ where φ is quantifier-free) is preserv
   answer: true
   explanation: "Existential sentences are preserved going upward: if some element a ∈ A satisfies φ(a), and A ⊆ B so a ∈ B as well, then B also contains a witness for ∃x φ(x). The quantifier-free φ is satisfied by a in A because A and B agree on all relations and functions restricted to elements of A (this is what 'substructure' means). So the existential witness carries forward. This is the dual of universal preservation: ∀-sentences go down (to substructures); ∃-sentences go up (to superstructures)."
 
-- question: "If a universal sentence holds in a substructure A, it must also hold in any superstructure B containing A."
+- question: "If a universal sentence holds in a substructure A, it is expected to also hold in any superstructure B containing A."
   type: true-false
   answer: false
   explanation: "This reverses the direction of preservation. Universal sentences are preserved going DOWNWARD — from B to A — not upward. If ∀x φ(x) holds in B, then it holds in A (any element of A is in B and satisfies φ). But the converse fails: B might contain elements outside A that violate φ, even if all elements of A satisfy it. For example, the sentence ∀x (x = 0) holds in the substructure {0} of the integers, but obviously fails in the integers themselves. Universal preservation is strictly one-directional."

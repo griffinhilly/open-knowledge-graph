@@ -34,7 +34,7 @@ The Lebesgue integral extends integration to a larger class of functions using m
   answer: 2
   explanation: "The Dirichlet function equals 0 almost everywhere (the set of rationals has measure zero; irrationals fill the interval in measure). The Lebesgue integral handles this cleanly: the contribution from the value '1' is 1 × μ({rationals}) = 1 × 0 = 0. The Riemann integral fails here because every subinterval contains both rationals and irrationals, so upper and lower Riemann sums never agree. This is a paradigm case of why measure-theoretic integration is strictly more powerful."
 
-- question: "The Dominated Convergence Theorem says you can always interchange limits and Lebesgue integrals: lim ∫ fₙ = ∫ lim fₙ."
+- question: "The Dominated Convergence Theorem says you can generally interchange limits and Lebesgue integrals: lim ∫ fₙ = ∫ lim fₙ."
   type: true-false
   answer: false
   explanation: "The DCT requires a crucial hypothesis: there must exist an integrable dominating function g such that |fₙ(x)| ≤ g(x) for all n and almost all x. Without this 'ceiling,' interchange of limits and integrals can fail — even pointwise converging sequences can have integrals that don't converge to the integral of the limit (e.g., functions that shift mass toward infinity). The dominating function prevents the fₙ from escaping to infinity, which is what justifies the interchange."

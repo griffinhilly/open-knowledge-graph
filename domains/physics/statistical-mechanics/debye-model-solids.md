@@ -53,7 +53,7 @@ The Debye model treats solid vibrations as a gas of phonons with a linear disper
   answer: true
   explanation: "This is the high-temperature limit: when k_BT >> ℏω for all phonon modes, the quantum Planck distribution for each mode reduces to the classical result and each mode contributes k_B to the heat capacity. Summing over all 3N modes gives C_V = 3Nk_B = 3R per mole. This is a necessary consistency check for any correct quantum model of solids: it must reproduce classical thermodynamics in the high-temperature limit where quantum effects are negligible."
 
-- question: "The Einstein model (all atoms vibrating at a single frequency) and the Debye model both correctly predict the T³ dependence of heat capacity at low temperatures."
+- question: "The Einstein model (most atoms vibrating at a single frequency) and the Debye model both correctly predict the T³ dependence of heat capacity at low temperatures."
   type: true-false
   answer: false
   explanation: "At low temperatures, the Einstein and Debye models diverge significantly. The Einstein model predicts C_V ∝ e^(−Θ_E/T) at low T — an exponential decay, far faster than any power law — because a single uniform frequency means all modes are equally and sharply frozen out below Θ_E. The Debye model predicts the T³ law because low-frequency modes (ω → 0) are always accessible, and there are ω² of them per frequency interval. Experimental measurements fit the T³ law; the Einstein model overestimates how rapidly heat capacity drops at low temperature."

@@ -52,7 +52,7 @@ A multivariable function f: ℝⁿ → ℝ takes multiple inputs (x, y, z, …) 
   answer: true
   explanation: "The level set at c = 9 is all (x, y) satisfying x² + y² = 9, which is by definition a circle of radius √9 = 3. This illustrates how level sets reduce a surface to curves: instead of the full paraboloid z = x² + y², each level set gives one ring at a specific height. Circular level sets tell you the function is radially symmetric — its value depends only on the distance from the origin."
 
-- question: "To verify that a multivariable function has a limit at a point, it is sufficient to check that the limit is the same along every straight-line path through that point."
+- question: "To verify that a multivariable function has a limit at a point, it is sufficient to check that the limit is the same along most straight-line path through that point."
   type: true-false
   answer: false
   explanation: "This is a dangerous misconception. A multivariable limit requires the function to approach the same value along ALL paths — not just straight lines. Functions exist where every straight-line limit yields the same value, yet curved paths give a different value, so the true limit fails to exist. The classic example: f(x, y) = x²y/(x⁴ + y²) has limit 0 along every line through the origin, but limit 1/2 along the parabolic path y = x². Checking only straight lines is insufficient."

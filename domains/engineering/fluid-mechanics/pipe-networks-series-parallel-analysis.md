@@ -56,7 +56,7 @@ Set up a looped pipe network model and solve it using Hardy-Cross iteration by h
   answer: true
   explanation: "Series configuration means the pipes are connected end-to-end with no branches between them. By continuity, mass cannot accumulate at any junction, so the same flow rate passes through every pipe. The total pressure drop from inlet to outlet is the sum of pressure drops across each pipe segment, because pressure is additive in series — each pipe extracts pressure from the flow as it passes through. This is exactly analogous to resistors in series in electrical circuits: same current, voltages add. This simplicity makes series analysis straightforward compared to looped networks."
 
-- question: "For a looped pipe network, satisfying the continuity equation at every node is sufficient to uniquely determine the flow distribution in each pipe."
+- question: "For a looped pipe network, satisfying the continuity equation at most node is sufficient to uniquely determine the flow distribution in each pipe."
   type: true-false
   answer: false
   explanation: "Continuity alone is not sufficient in a looped network. Loops create multiple flow paths between nodes, which means there are more unknown flow rates than there are continuity equations. Infinitely many flow distributions satisfy continuity. The additional constraint — that the sum of head losses around every closed loop equals zero (pressure consistency) — provides the equations needed to make the system uniquely determined. Hardy-Cross iteratively enforces this second condition. This is analogous to Kirchhoff's laws: Kirchhoff's Current Law (continuity) alone cannot solve a circuit with loops; you also need Kirchhoff's Voltage Law (pressure balance)."

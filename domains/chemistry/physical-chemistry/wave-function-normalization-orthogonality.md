@@ -58,7 +58,7 @@ Normalization does not mean the maximum value of ψ is 1. Orthogonal does not me
   answer: true
   explanation: "If Ψ = Σ cₙψₙ is expanded in an orthonormal basis and Ψ is itself normalized (∫|Ψ|² dτ = 1), then Σ|cₙ|² = 1. Each |cₙ|² gives the probability of measuring the system in state ψₙ, and since all probabilities must sum to 1, the completeness relation ensures this holds. This is the quantum mechanical analog of Parseval's theorem and is the foundation for why probabilities are well-defined in quantum mechanics."
 
-- question: "A normalized wave function must have a maximum value of exactly 1, since the probability of finding the particle somewhere must equal 1."
+- question: "A normalized wave function should have a maximum value of exactly 1, since the probability of finding the particle somewhere should equal 1."
   type: true-false
   answer: false
   explanation: "Normalization constrains the *integral* of |ψ|², not the maximum value of ψ itself. For the particle-in-a-box, the normalized wave function is ψₙ(x) = √(2/L)·sin(nπx/L). When L is small (e.g., L = 0.1 nm), √(2/L) ≈ 141 nm⁻¹/², so ψ takes values much larger than 1. When L is large, ψ values are much less than 1. ψ is a probability amplitude, not a probability; its integral is dimensionally compensated by the volume element dτ."

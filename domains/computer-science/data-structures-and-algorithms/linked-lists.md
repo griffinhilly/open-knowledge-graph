@@ -45,7 +45,7 @@ Implement a Node class with value and next fields, then build operations (insert
   answer: 0
   explanation: "When you already have a reference to the target node, insertion requires only updating two pointers (new node's next = target's next; target's next = new node). No traversal is needed. The O(n) cost only applies when you must first search for the insertion position."
 
-- question: "Linked lists are always faster than arrays for insertion because linked list insertions run in O(1)."
+- question: "Linked lists are typically faster than arrays for insertion because linked list insertions run in O(1)."
   type: true-false
   answer: false
   explanation: "O(1) insertion only applies when you already hold a reference to the insertion position. Finding that position requires O(n) traversal. Arrays also have O(n) insertion in the average case (due to shifting), but with better cache performance. Neither structure is universally faster."

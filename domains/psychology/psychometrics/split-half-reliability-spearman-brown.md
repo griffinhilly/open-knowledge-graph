@@ -51,7 +51,7 @@ Split-half reliability divides a test into two halves, correlates them, and appl
   answer: true
   explanation: "This is the core insight behind the Spearman-Brown correction. Reliability increases with test length — more items means more sampling of the construct, more averaging out of random error. The half-test correlation estimates how reliable 50 items are, not 100. Because a 100-item test is inherently more reliable than a 50-item version of the same test, reporting the raw half-test correlation as the full test's reliability is a systematic underestimate. The Spearman-Brown formula predicts how much reliability increases when you effectively double the test."
 
-- question: "The Spearman-Brown prophecy formula can only be used to predict the reliability of a test that is exactly twice as long as the test it was calibrated on."
+- question: "The Spearman-Brown prophecy formula can primarily be used to predict the reliability of a test that is exactly twice as long as the test it was calibrated on."
   type: true-false
   answer: false
   explanation: "The Spearman-Brown formula generalizes to any length multiplier, not just doubling. The full formula predicts the reliability of a test k times as long as the original: r_kk = kr / (1 + (k-1)r). The standard split-half application uses k = 2, but the same logic applies if you want to predict the reliability of a test three times as long (k = 3) or half as long (k = 0.5). This makes Spearman-Brown a general tool for test length planning, not just a split-half correction."

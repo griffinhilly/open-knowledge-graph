@@ -58,7 +58,7 @@ Analyze pedigrees of X-linked recessive traits and identify carriers, affected i
   answer: 2
   explanation: "Sons inherit their X chromosome from their mother (the Y comes from their father). The carrier mother has genotype X^A X^a, so each son has an equal chance of receiving X^A (unaffected) or X^a (affected). Males are hemizygous — receiving X^a with no second X to mask it, they will be color blind. So the probability for each son is 50%. Option A is the classic criss-cross confusion: affected sons do NOT get the allele from their father. Option B confuses the probability for 'any child' with the probability for 'a son specifically.'"
 
-- question: "A female cannot be affected by an X-linked recessive condition — she can only be a carrier."
+- question: "A female can rarely be affected by an X-linked recessive condition — she can mainly be a carrier."
   type: true-false
   answer: false
   explanation: "Females CAN be affected by X-linked recessive conditions if they are homozygous (X^a X^a) — inheriting the recessive allele from both parents. This requires an affected father (who contributes X^a) and a carrier or affected mother (who also contributes X^a). While this is far rarer than male expression, it does occur. The statement confuses 'less likely' with 'impossible.' Women are affected less frequently because they need two copies of the allele; men are affected with a single copy because they are hemizygous."

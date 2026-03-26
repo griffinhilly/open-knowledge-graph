@@ -46,7 +46,7 @@ Give students equal-sized cubes of different materials (wood, metal, plastic, fo
   answer: 2
   explanation: "Density is mass divided by volume. Since both blocks have the same volume but the steel block has more mass, the steel block is denser. Its matter is packed more tightly. This is why equal-sized pieces of different materials can weigh very different amounts."
 
-- question: "A heavy object always sinks in water."
+- question: "A heavy object typically sinks in water."
   type: true-false
   answer: false
   explanation: "False. Sinking depends on density, not weight alone. A large wooden log is heavy but floats because wood is less dense than water. A small steel marble is light but sinks because steel is denser than water. What matters is whether the object's density is greater or less than water's density."

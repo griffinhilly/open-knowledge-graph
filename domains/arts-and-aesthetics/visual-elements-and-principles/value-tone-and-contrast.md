@@ -54,7 +54,7 @@ Create grayscale studies and value scales to understand the range from black to 
   answer: 2
   explanation: "Squinting blurs color and detail, leaving only the value structure visible. If that structure is weak — if lights and darks are spread evenly without hierarchy — the image becomes unreadable at a squint. This is the definitive test of compositional value structure. Strong paintings remain readable as squinting abstracts them to their essential light-dark pattern."
 
-- question: "A painting with vibrant, varied colors will automatically create strong visual hierarchy and spatial depth, even if all areas have similar values."
+- question: "A painting with vibrant, varied colors will automatically create strong visual hierarchy and spatial depth, even if most areas have similar values."
   type: true-false
   answer: false
   explanation: "Color differences, no matter how vivid, are far less effective than value differences at creating visual separation and depth. Imagine a painting where every element is a bright, fully saturated hue — red, yellow, green, blue — but all at the same medium value. Squint at it and it collapses into a flat blur. Value contrast is what the visual system uses to distinguish form, depth, and emphasis. 'Value does the work, color gets the credit.'"

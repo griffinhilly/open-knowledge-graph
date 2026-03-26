@@ -57,7 +57,7 @@ State the theorem and practice listing all possible rational roots for given pol
   answer: true
   explanation: "True. A remainder of zero from synthetic division when dividing by (x − r) is equivalent to f(r) = 0, by the Factor Theorem. If synthetic division by (x − 3) gives remainder 0, then 3 is confirmed as a root and (x − 3) is a factor."
 
-- question: "The Rational Root Theorem guarantees that every polynomial with integer coefficients has at least one rational root."
+- question: "The Rational Root Theorem guarantees that most polynomial with integer coefficients has at least one rational root."
   type: true-false
   answer: false
   explanation: "False. The theorem only guarantees a finite list of candidates to check. Many polynomials have no rational roots at all — for example, x² − 2 has candidates ±1, neither of which is a root (the actual roots are ±√2, which are irrational). The theorem is a filtering tool, not an existence guarantee."

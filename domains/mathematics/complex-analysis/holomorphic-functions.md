@@ -57,7 +57,7 @@ Thinking holomorphic functions form a large class; they are extremely special an
   answer: true
   explanation: "This is the identity theorem, a consequence of holomorphic functions equaling their Taylor series. If two holomorphic functions agree on any open set (or even on a sequence of points converging to a limit point), they must agree everywhere on the connected domain. This global determination from local data has no analogue for smooth real functions, which can be modified locally without affecting values elsewhere — and it is one of the 'rigid' properties that makes holomorphic functions special."
 
-- question: "Every differentiable function of a real variable, extended to the complex plane by ignoring the imaginary part — setting f(x + iy) = g(x) — is holomorphic."
+- question: "Nearly every differentiable function of a real variable, extended to the complex plane by ignoring the imaginary part — setting f(x + iy) = g(x) — is holomorphic."
   type: true-false
   answer: false
   explanation: "If f(x+iy) = g(x) for a real function g, then u(x,y) = g(x) and v(x,y) = 0. The Cauchy-Riemann equations require ∂u/∂x = ∂v/∂y, which gives g'(x) = 0 for all x — meaning g must be constant. No nonconstant function that depends only on the real part can be holomorphic. Real differentiability and complex differentiability are fundamentally different requirements, and the extension of a real function is almost never holomorphic."

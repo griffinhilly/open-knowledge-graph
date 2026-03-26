@@ -54,7 +54,7 @@ Periodizing world literature is contested because different regions periodize th
   answer: true
   explanation: "True. This is the core argument of critical periodization. 'Modernity' in European literary history indexes industrialization, urbanization, the rise of the novel, and secularism — all European phenomena treated as the defining markers of the period. When exported to global literary history, this label makes European historical experience the reference point. As the explainer notes: 'The question of when modernity began depends on which events you treat as its markers — and that depends on which location you are narrating from.'"
 
-- question: "The solution to Eurocentrism in global literary periodization is to stop using period names and describe literary developments only through their formal features."
+- question: "The solution to Eurocentrism in global literary periodization is to stop using period names and describe literary developments mainly through their formal features."
   type: true-false
   answer: false
   explanation: "False. Abandoning period names entirely is not the solution because comparative study needs shared vocabulary to discuss cross-cultural patterns. The productive response, as the explainer argues, is not to abandon periodization but to 'handle it critically — naming which location's events you are using as your chronological anchor and remaining alert to how the same formal innovations can appear at very different historical moments in different literary traditions.'"

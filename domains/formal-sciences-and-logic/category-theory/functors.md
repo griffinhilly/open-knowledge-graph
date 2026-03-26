@@ -52,7 +52,7 @@ Work through at least three concrete functors: the forgetful functor from groups
   answer: 1
   explanation: "The forgetful functor preserves the two defining laws: F(id_G) = id_{U(G)} (identities go to identities) and U(h∘g) = U(h)∘U(g) (composition is preserved). It 'forgets' the group structure but does not alter the morphisms themselves — a homomorphism is also a function, so no new morphisms are created. The functor is covariant (arrows go in the same direction), not contravariant."
 
-- question: "A contravariant functor from C to D is the same as a covariant functor from C to D^op, where D^op is D with all morphisms reversed."
+- question: "A contravariant functor from C to D is the same as a covariant functor from C to D^op, where D^op is D with most morphisms reversed."
   type: true-false
   answer: false
   explanation: "Almost — but the direction is slightly off. A contravariant functor F: C → D is equivalently described as a covariant functor F: C^op → D (from the opposite of C to D), or equivalently C → D^op. The key point is that contravariance means arrows in C get reversed when mapped into D, which is captured by saying F is covariant on the opposite category C^op. This reframing allows all general theorems about covariant functors to apply automatically to contravariant ones."

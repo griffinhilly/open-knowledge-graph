@@ -50,7 +50,7 @@ Optical instruments combine lenses, mirrors, and apertures to magnify or resolve
   answer: true
   explanation: "Both capabilities scale with aperture diameter D. Light-gathering scales as D² (area of the aperture). Resolving power follows the Rayleigh criterion: minimum resolvable angle θ ≈ 1.22λ/D — a larger D yields a smaller minimum angle, meaning finer detail can be distinguished. This is why large professional telescopes are built as large as engineering allows: aperture governs what can be seen, not just how bright."
 
-- question: "In a compound microscope, using a higher-power eyepiece always reveals finer structural detail that a lower-power eyepiece would miss."
+- question: "In a compound microscope, using a higher-power eyepiece usually reveals finer structural detail that a lower-power eyepiece would miss."
   type: true-false
   answer: false
   explanation: "The eyepiece is a magnifying glass applied to the intermediate image formed by the objective. It can only magnify what the objective already resolved — it cannot add new information. If the objective lens has already reached its diffraction limit, a more powerful eyepiece produces 'empty magnification': a larger but equally blurry image. Resolution is determined by the objective's numerical aperture (related to its focal length and the wavelength of light), not by the eyepiece."

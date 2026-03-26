@@ -42,7 +42,7 @@ Give students a scratch test kit: a wooden stick, a copper coin, a steel nail, a
   answer: 1
   explanation: "Glass is hard — its surface resists scratching from most everyday objects. But glass is not very strong against impact — a sudden force can shatter it. This shows that hardness and strength are different properties. A material can be very good at one and poor at the other."
 
-- question: "The hardest material is always the strongest material."
+- question: "The hardest material is typically the strongest material."
   type: true-false
   answer: false
   explanation: "False. Hardness and strength measure different things. Diamond is the hardest natural material — nothing scratches it — but it can crack or shatter if you hit it with a hammer. Steel is not as hard as diamond (steel can be scratched), but steel is extremely strong and resists breaking under heavy loads."

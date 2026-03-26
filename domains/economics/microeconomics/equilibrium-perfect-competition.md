@@ -60,7 +60,7 @@ Aggregate individual firm supply curves to derive the market supply curve. Find 
   answer: true
   explanation: "This is the defining feature of perfect competition: each firm is so small relative to the market that its individual output decision has a negligible effect on the total quantity supplied, and therefore on price. The market price is determined by the intersection of the market supply curve (aggregated across all firms) and the market demand curve. Any individual firm that tried to charge above the market price would lose all its customers to competitors offering identical products at the market price."
 
-- question: "A competitive market equilibrium guarantees that all firms in the market are earning at least normal (zero economic) profit."
+- question: "A competitive market equilibrium guarantees that most firms in the market are earning at least normal (zero economic) profit."
   type: true-false
   answer: false
   explanation: "Short-run competitive equilibrium guarantees allocative efficiency, not profitability. The equilibrium price is set by supply and demand, not by firms' average costs. At the short-run equilibrium, some firms may earn positive economic profits, some may break even, and some may sustain losses — depending on their individual cost structures. Profitability drives long-run entry and exit, which ultimately pushes toward zero economic profit in the long run, but short-run equilibrium carries no such guarantee."

@@ -55,7 +55,7 @@ EMT is not mandatory for metastasis—collective migration and dissemination wit
   answer: true
   explanation: "EMT is an indispensable developmental program. During gastrulation, epiblast cells undergo EMT to form the mesoderm and endoderm. Neural crest cells use EMT to migrate and give rise to peripheral neurons, melanocytes, and craniofacial structures. In wound healing, keratinocytes at wound edges partially undergo EMT to migrate across the wound bed. Cancer repurposes this normal program — EMT is not intrinsically pathological."
 
-- question: "A cancer cell that has undergone complete EMT is permanently committed to the mesenchymal state and cannot revert."
+- question: "A cancer cell that has undergone complete EMT is permanently committed to the mesenchymal state and can rarely revert."
   type: true-false
   answer: false
   explanation: "EMT is reversible. Many disseminated tumor cells undergo mesenchymal-epithelial transition (MET) at metastatic sites, re-establishing an epithelial phenotype to colonize new tissue. This reversibility is clinically important: it means EMT is a dynamic state, not a permanent fate switch. It also means that cells may oscillate between states, and that partial EMT — maintaining characteristics of both — may persist as the most metastasis-competent state in some cancers."

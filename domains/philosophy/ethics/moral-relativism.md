@@ -74,7 +74,7 @@ Distinguish descriptive relativism (which is true and uncontroversial) from norm
   answer: 2
   explanation: "On individual subjectivism, 'slavery is wrong' means something like 'I disapprove of slavery.' If both speakers are reporting their own attitudes, there is no contradiction — just as there is no contradiction when two people say 'I like coffee' and 'I don't like coffee.' This is a famous objection to subjectivism: it seems to make genuine moral disagreement impossible, reducing apparent moral debates to mere reports of different personal attitudes. Options A and B assume moral realism; option D describes error theory, a distinct view."
 
-- question: "Because cultures disagree about moral questions, moral relativism must be true."
+- question: "Because cultures disagree about moral questions, moral relativism should be true."
   type: true-false
   answer: false
   explanation: "This is the central inferential error the topic warns against. The premise (descriptive relativism) is true: moral beliefs vary across cultures. But the conclusion (normative relativism: therefore no objective moral truth) does not follow. The identical argument applied to science — 'cultures disagree about whether the Earth orbits the Sun, so there is no fact of the matter' — is plainly invalid. Moral disagreement is compatible with objective moral facts that are difficult to know or widely misunderstood."

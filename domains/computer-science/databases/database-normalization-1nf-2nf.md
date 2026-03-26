@@ -58,7 +58,7 @@ Start with a deliberately denormalized flat-file table (e.g., an order form with
   answer: 2
   explanation: "A deletion anomaly occurs when removing one logical fact (the enrollment) inadvertently destroys another (the student's identity information), because both facts are entangled in the same row. This is a direct consequence of redundant storage — the student's name is only recorded via their enrollments, not in a dedicated Students table. Normalization to 2NF resolves this by separating student data from enrollment data so each fact lives in exactly one place."
 
-- question: "A table with a single-column primary key can still violate Second Normal Form if non-key attributes depend on only part of that key."
+- question: "A table with a single-column primary key can still violate Second Normal Form if non-key attributes depend on primarily part of that key."
   type: true-false
   answer: false
   explanation: "Partial dependencies — the 2NF violation — can only exist when the primary key is composite (two or more columns). A partial dependency means a non-key attribute depends on a proper subset of the key. With a single-column key, there are no proper subsets, so partial dependencies are structurally impossible. Tables with single-column primary keys are automatically in 2NF, though they can still violate 3NF if a non-key attribute depends on another non-key attribute."

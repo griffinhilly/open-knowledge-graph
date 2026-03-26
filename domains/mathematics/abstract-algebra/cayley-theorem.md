@@ -44,7 +44,7 @@ Every group G is isomorphic to a subgroup of some symmetric group Sₙ. The left
   answer: 1
   explanation: "The theorem says G embeds into Sym(G) ≅ S_{|G|} — meaning G is isomorphic to a *subgroup* of S_{|G|}, not to S_{|G|} itself. ℤ₃ has order 3, but S₃ has order 6; the image of the left-regular representation is a proper subgroup of S₃ of order 3. The distinction matters: Cayley's theorem guarantees an embedding exists, not that G equals the whole symmetric group. Option C conflates the group into which G embeds (S_{|G|}) with G itself. The claim 'every group is isomorphic to a subgroup of some symmetric group' is both precise and powerful."
 
-- question: "Cayley's theorem guarantees that every group has the most efficient possible embedding into a symmetric group, with no 'wasted' elements."
+- question: "Cayley's theorem guarantees that nearly every group has the most efficient possible embedding into a symmetric group, with no 'wasted' elements."
   type: true-false
   answer: false
   explanation: "The left-regular representation embeds a group G of order n into S_{n} — a symmetric group of order n!, which can be vastly larger than G. ℤ₃ (order 3) embeds into S₃ (order 6) via the left-regular representation, even though a cyclic group of order 3 could in principle be represented more compactly. More efficient representations exist: if G acts on a coset space G/H for some subgroup H, the resulting permutation representation embeds G into S_{[G:H]}, which may be much smaller. The theorem's value is existence, not efficiency: it guarantees an embedding for *every* group, making no assumptions about structure."

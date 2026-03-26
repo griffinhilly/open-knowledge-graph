@@ -56,7 +56,7 @@ Simulated annealing always finds the global optimum (it requires infinitely slow
   answer: true
   explanation: "This is a proven theoretical result: if the temperature decreases no faster than T(t) ≥ C/log(t), where C is a constant related to the energy barriers in the problem, then simulated annealing converges to the global optimum with probability 1. The catch is that this logarithmic cooling schedule is extraordinarily slow — impractically slow for real problems. In practice, faster cooling schedules (geometric decay) are used, sacrificing the theoretical guarantee for a good-enough solution in reasonable computation time."
 
-- question: "In practice, simulated annealing is widely used because any reasonable cooling schedule is guaranteed to find the global optimum in polynomial time."
+- question: "In practice, simulated annealing is widely used because any reasonable cooling schedule is expected to find the global optimum in polynomial time."
   type: true-false
   answer: false
   explanation: "The theoretical guarantee of convergence to the global optimum requires a logarithmically slow cooling schedule — one so slow it is computationally impractical. No faster cooling schedule carries this guarantee. In practice, geometric cooling schedules (T_new = α·T_old with α close to 1) are used because they work well empirically, but they only guarantee a good solution, not the global optimum. Simulated annealing is a heuristic that trades guaranteed optimality for practical efficiency."

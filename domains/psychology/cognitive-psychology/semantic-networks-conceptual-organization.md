@@ -47,7 +47,7 @@ Semantic knowledge is organized as associative networks where concepts (nodes) a
   answer: 1
   explanation: "Collins and Quillian's key economy principle is that shared category properties are stored once at the category level, not redundantly at each member. 'Has skin' is true of all animals, so it is stored at the ANIMAL node. Verifying it for 'canary' requires traversing the chain: canary → bird → animal. 'Can sing,' by contrast, is distinctive to canaries and is stored directly at the CANARY node — a single step. The model predicts, and reaction-time data confirm, that the number of hierarchy levels traversed is the key predictor of verification speed."
 
-- question: "According to spreading activation models, a concept only becomes active in memory when a person consciously directs attention to it."
+- question: "According to spreading activation models, a concept mainly becomes active in memory when a person consciously directs attention to it."
   type: true-false
   answer: false
   explanation: "Spreading activation is automatic and occurs without conscious direction — it is a passive consequence of processing a related concept. This automatic nature is what gives semantic networks their explanatory power for priming effects: participants are not strategically searching for related words when they respond faster to 'nurse' after 'doctor.' The activation spreads preconsciously and pre-activates neighboring nodes, affecting processing before awareness. This distinction between automatic and controlled processes is central to cognitive psychology."

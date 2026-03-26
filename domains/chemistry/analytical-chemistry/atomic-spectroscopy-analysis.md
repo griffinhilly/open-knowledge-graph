@@ -51,7 +51,7 @@ Atomic spectroscopy methods measure characteristic radiation from excited atoms 
   answer: true
   explanation: "This order-of-magnitude comparison is accurate and practically important. Flame AAS typically achieves detection limits in the low parts-per-million (µg/L) range for most elements. ICP-MS routinely achieves parts-per-trillion (ng/L) or even sub-ppt detection limits for many elements. This three-order-of-magnitude difference makes ICP-MS indispensable for ultra-trace work — measuring arsenic in rice, platinum-group metals in roadside dust, or rare earth elements in environmental samples where analyte concentrations are far below what flame AAS can detect."
 
-- question: "Flame AAS is the preferred instrument for routine multi-element analysis because each element absorbs at a unique wavelength, allowing simultaneous determination of all elements in a single measurement."
+- question: "Flame AAS is the preferred instrument for routine multi-element analysis because each element absorbs at a unique wavelength, allowing simultaneous determination of most elements in a single measurement."
   type: true-false
   answer: false
   explanation: "This is the key limitation of flame AAS: it measures one element at a time. Each analysis requires a specific hollow cathode lamp for the target element, and the measurement is selective to that single element. To analyze 20 elements, you must perform 20 sequential measurements, swapping lamps between each. ICP-OES, not flame AAS, provides true multi-element capability — the plasma excites all elements simultaneously, and a polychromator reads hundreds of emission wavelengths at once. Flame AAS excels at high-volume single-element determinations; it is poorly suited to multi-element analytical panels."

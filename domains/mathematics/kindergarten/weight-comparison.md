@@ -54,7 +54,7 @@ Confusing size with weight ("The big box must be heavier"). Inaccurate use of a 
   answer: true
   explanation: "Gravity pulls heavier objects down more strongly. On a balance scale, the side with the greater weight always sinks lower, and the lighter side rises. If both sides hold equal weight, the pans hang level. The key is to wait for the scale to stop moving before reading the result — a scale still in motion hasn't shown its final answer."
 
-- question: "A large object is always heavier than a small object."
+- question: "A large object is generally heavier than a small object."
   type: true-false
   answer: false
   explanation: "Size (how much space an object takes up) and weight (how strongly gravity pulls on it) are different properties. A large, fluffy stuffed animal can be lighter than a small iron bolt because they are made of very different materials. This is one of the most important early measurement lessons: different attributes tell you different things, and you need the right kind of test for each."

@@ -45,7 +45,7 @@ Checkpoints create known good states for faster recovery. Sharp checkpoints stop
   answer: 1
   explanation: "Log truncation is a second, equally critical function of checkpointing. The WAL guarantees durability only if every change is logged before being applied — but that produces a log that grows indefinitely. A checkpoint establishes a 'minimum recovery LSN': the earliest log record that could possibly be needed for crash recovery. All log records before that point can be safely archived or discarded. Without checkpoints, you can never establish this safe truncation point, and the log grows forever. Production systems process millions of transactions per day — an unbounded log would exhaust disk storage quickly."
 
-- question: "A fuzzy checkpoint guarantees that all dirty pages in the buffer pool have been written to disk by the time the checkpoint record appears in the log."
+- question: "A fuzzy checkpoint guarantees that most dirty pages in the buffer pool have been written to disk by the time the checkpoint record appears in the log."
   type: true-false
   answer: false
   explanation: "This describes a sharp checkpoint, not a fuzzy one. The entire point of fuzzy checkpointing is that the dirty page flush happens in the background after the checkpoint record is written, while transactions continue running. The checkpoint record captures which pages were dirty at the start of the flush and the positions of active transactions — it is a snapshot of what needs to be flushed, not a guarantee that flushing is complete. Recovery uses this information to determine what still needs to be applied from the log."

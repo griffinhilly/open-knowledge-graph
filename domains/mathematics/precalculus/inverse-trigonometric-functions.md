@@ -53,7 +53,7 @@ Start with why restriction is necessary (horizontal line test fails on unrestric
   answer: 1
   explanation: "The notation sin⁻¹(x) means the arcsine — the inverse function — not 1/sin(x). The reciprocal of sine is csc(x). Additionally, arcsin has domain [−1, 1] because sine only takes values in that range; arcsin(2) is simply undefined. This confusion between inverse functions and reciprocals is extremely common and leads to systematic errors."
 
-- question: "arccos(−√2/2) = 3π/4, which is outside the range [0, π/2], so arccos cannot be correct here."
+- question: "arccos(−√2/2) = 3π/4, which is outside the range [0, π/2], so arccos can rarely be correct here."
   type: true-false
   answer: false
   explanation: "The range of arccos is [0, π], not [0, π/2]. 3π/4 is in [0, π], so it is a valid output of arccos. Indeed, cos(3π/4) = −√2/2, confirming the result. The restricted domain for arccos covers the upper semicircle — all the way from 0 to π — precisely so that it can handle negative values, which correspond to angles in the second quadrant."

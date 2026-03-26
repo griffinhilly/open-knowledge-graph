@@ -51,7 +51,7 @@ Draw and label body planes on a simple human outline, then practice locating org
   answer: 2
   explanation: "The transverse plane (also called horizontal or axial) divides the body into superior and inferior sections. The sagittal plane divides left from right; the frontal plane divides front from back."
 
-- question: "In standard human anatomical position, the terms 'anterior' and 'ventral' always mean exactly the same thing and can be used interchangeably in any animal."
+- question: "In standard human anatomical position, the terms 'anterior' and 'ventral' typically mean exactly the same thing and can be used interchangeably in any animal."
   type: true-false
   answer: false
   explanation: "In upright human anatomy, anterior and ventral are equivalent (both mean 'front'). However, in four-legged animals, ventral refers to the belly-down surface while anterior refers to the head end — making them different directions. The equivalence is specific to human anatomical position."

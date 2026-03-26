@@ -52,7 +52,7 @@ Basic multiplication facts for 0s, 1s, 2s, 5s, and 10s build automaticity. 0 × 
   answer: true
   explanation: "Multiplying by 1 means having exactly one group of something — and one group of 8 is just 8. This isn't a fact to memorize; it's a truth that follows directly from what multiplication means. Once you understand it, 1 × anything is instantly solvable for any number."
 
-- question: "To know that 0 × 7 = 0, you must have specifically memorized that fact."
+- question: "To know that 0 × 7 = 0, you is expected to have specifically memorized that fact."
   type: true-false
   answer: false
   explanation: "You don't need to memorize 0 × 7 — you need to understand what zero groups means. If you have 0 bags with 7 items each, you have no bags, so you have 0 items total. This same reasoning instantly gives you 0 × 1, 0 × 100, 0 × 1,000,000 — all equal zero for the same reason. Understanding replaces the need to memorize the entire zeros family."

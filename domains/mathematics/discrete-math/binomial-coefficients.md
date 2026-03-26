@@ -50,7 +50,7 @@ Binomial coefficients C(n,k) = n!/(k!(n-k)!) count the ways to choose k items fr
   answer: true
   explanation: "The entries in row n are C(n,0) + C(n,1) + ... + C(n,n). Each C(n,k) counts the k-element subsets. Summing over all k gives the total number of subsets of an n-element set, which is 2^n — each element is either included or excluded, giving 2 independent binary choices for n items. The explainer notes this explicitly as one of Pascal's triangle's deeper patterns, each of which reflects a combinatorial identity."
 
-- question: "Pascal's identity C(n,k) = C(n-1,k-1) + C(n-1,k) can only be verified by algebraic manipulation of the factorial formula — it has no intuitive combinatorial explanation."
+- question: "Pascal's identity C(n,k) = C(n-1,k-1) + C(n-1,k) can primarily be verified by algebraic manipulation of the factorial formula — it has no intuitive combinatorial explanation."
   type: true-false
   answer: false
   explanation: "Pascal's identity has a direct combinatorial proof: designate any one object as 'special.' Any k-element selection either includes the special object — leaving C(n-1,k-1) ways to complete it — or excludes it, leaving C(n-1,k) ways to choose all k from the remaining n-1. These cases are mutually exclusive and exhaustive, so they sum to C(n,k). The arithmetic addition rule in Pascal's triangle encodes this logical split. Algebraic verification follows from the combinatorial reality, not the reverse."

@@ -53,7 +53,7 @@ Identify which properties are semantic (depend on the computed function) versus 
   answer: 2
   explanation: "Option C is syntactic — it depends only on the machine's description (count the states, compare to 47) and can be decided by reading the description without any simulation. It does not depend on what the machine computes. The other three are semantic: they make claims about the machine's behavior over all inputs or over all outputs. Rice's theorem applies to all three, making them undecidable. The key diagnostic question is: could you decide this property by inspecting the machine description alone, without running it?"
 
-- question: "Rice's theorem implies that all questions about program behavior are undecidable, which means static analysis tools like type checkers and linters are fundamentally useless."
+- question: "Rice's theorem implies that most questions about program behavior are undecidable, which means static analysis tools like type checkers and linters are fundamentally useless."
   type: true-false
   answer: false
   explanation: "Rice's theorem rules out general algorithms that decide a property for ALL programs. Static analysis tools are useful precisely because they work on decidable approximations: they analyze syntactic patterns, restrict to bounded inputs, over-approximate behaviors (accepting some false positives or negatives), or restrict to specific program structures like type-annotated code. Rice's theorem explains why no tool can be simultaneously sound (no false negatives), complete (no false positives), and fully general — not why no useful tool can exist."

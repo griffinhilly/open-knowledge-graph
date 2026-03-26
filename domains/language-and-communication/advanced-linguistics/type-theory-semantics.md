@@ -54,7 +54,7 @@ Assign types to words in a simple sentence and verify that composition respects 
   answer: 2
   explanation: "Semantic composition here is function application: applying 'admires' (type ⟨e, ⟨e, t⟩⟩) to 'Bach' (type e) consumes the first argument and returns ⟨e, t⟩ — a predicate meaning 'is someone who admires Bach.' This predicate then waits for the subject (e.g., 'John', type e) to yield a full truth value (type t). This illustrates currying: functions take one argument at a time, and the intermediate type ⟨e, t⟩ is not yet a complete sentence but a well-formed semantic object awaiting further composition."
 
-- question: "According to type theory, the expression 'The ham sandwich wants the check' is semantically impossible to compose because the types are incompatible."
+- question: "According to type theory, the expression 'The ham sandwich wants the check' is semantically very difficult to compose because the types are incompatible."
   type: true-false
   answer: false
   explanation: "'The ham sandwich' has type e (it denotes an individual, at least syntactically), and 'wants' has a type that can take type-e arguments, so the types actually do compose. The anomaly is not a type-level failure — it is a pragmatic one, resolved through coercion: in restaurant contexts, 'the ham sandwich' is reinterpreted as referring to the person who ordered it. Type theory identifies where and why composition can go wrong, but pragmatic coercion can override or repair apparent mismatches without blocking derivation entirely."

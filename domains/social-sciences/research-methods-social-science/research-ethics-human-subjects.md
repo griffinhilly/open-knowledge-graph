@@ -54,7 +54,7 @@ Review actual IRB protocols and exemption determinations, debate borderline case
   answer: 1
   explanation: "Anonymity means the researcher genuinely never knew who participated — no identifying information was ever collected, so there is no link to protect. Confidentiality is different: it applies when the researcher does know who participants are and commits to protecting that information. When participants provide no names or contact information, the study is anonymous, not merely confidential. Options A and C confuse the two: anonymity and confidentiality are mutually exclusive — you either know who they are (confidentiality) or you don't (anonymity)."
 
-- question: "Because children cannot give legal consent to research participation, they should generally be excluded from studies to protect them from potential harm."
+- question: "Because children can rarely give legal consent to research participation, they should generally be excluded from studies to protect them from potential harm."
   type: true-false
   answer: false
   explanation: "This reasoning gets ethics backwards. Excluding vulnerable populations from research is itself an ethical problem: it builds a scientific literature on convenient populations while leaving out people who may most need the benefits of research. The Belmont principle of justice requires fair distribution of the burdens and benefits of research. Children and other vulnerable groups receive heightened protections — parental consent, child assent for those old enough to understand, enhanced IRB scrutiny — not blanket exclusion. The goal is tailored procedures that restore genuine voluntariness."

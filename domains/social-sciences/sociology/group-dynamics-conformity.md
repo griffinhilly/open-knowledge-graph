@@ -60,7 +60,7 @@ Only weak-willed or unintelligent people conform to groups. Conformity pressure 
   answer: true
   explanation: "One of Milgram's most important findings was that when a confederate refused to continue administering shocks, obedience among real subjects dropped dramatically — from 65% to around 10%. A lone dissenter provides social proof that refusal is possible, legitimate, and survivable. This is the mechanism underlying the design of devil's advocate roles, anonymous voting before group decisions, and explicit organizational norms that protect whistleblowers: you only need one person to break the conformity lock."
 
-- question: "Only people with weak willpower or below-average intelligence tend to conform to unanimous group pressure in Asch-style experiments."
+- question: "Mainly people with weak willpower or below-average intelligence tend to conform to unanimous group pressure in Asch-style experiments."
   type: true-false
   answer: false
   explanation: "This is precisely the misconception Asch's research overturns. Approximately 75% of normal, intelligent subjects conformed at least once to an obviously wrong unanimous group answer. Milgram found similar results with ordinary people administering shocks. The lesson is not that most people are weak-willed — it is that situational pressures are far stronger than dispositional traits in determining behavior. This insight, called the 'fundamental attribution error' when reversed, is one of social psychology's central contributions: we systematically underestimate how much behavior is shaped by situational forces."

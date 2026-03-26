@@ -41,7 +41,7 @@ Before any building project, establish safety rules as a class. Demonstrate each
   answer: 1
   explanation: "Always cut away from your body. If the scissors slip or the material shifts, the blades move into empty space instead of toward your hand, arm, or lap. This simple habit prevents the most common scissor injuries."
 
-- question: "Safety rules are only important for power tools like saws and drills, not for simple tools like scissors and glue."
+- question: "Safety rules are mainly important for power tools like saws and drills, not for simple tools like scissors and glue."
   type: true-false
   answer: false
   explanation: "All tools can cause injuries. Hot glue can burn. Scissors can cut. Rulers can snap and cause eye injuries. Simple tools are actually more dangerous in one way — people are so familiar with them that they stop paying attention, which is when accidents happen."

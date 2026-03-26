@@ -52,7 +52,7 @@ Power is the rate of energy transfer: P = dW/dt. For a constant force, P = F · 
   answer: true
   explanation: "Average power is defined as P̄ = ΔW/Δt — total work done divided by the time interval. If two machines operate over the same time interval and one does twice the work, it is delivering energy at twice the rate, so it has twice the average power. This follows directly from the definition. Note the distinction from instantaneous power P = dW/dt = F · v, which can vary moment to moment; the statement here concerns average power over a fixed interval."
 
-- question: "A high-power engine always does more total work than a lower-power engine."
+- question: "A high-power engine generally does more total work than a lower-power engine."
   type: true-false
   answer: false
   explanation: "Power is the *rate* of doing work, not the total amount. A low-power motor running for a long time can do far more total work than a high-power motor that runs briefly. For example, a 1 W motor running for a year does about 31.5 MJ of work; a 1 MW motor running for 1 second does only 1 MJ. Total work equals power multiplied by time (W = P · t for constant power), so time horizon matters as much as power level. The two quantities answer different questions."

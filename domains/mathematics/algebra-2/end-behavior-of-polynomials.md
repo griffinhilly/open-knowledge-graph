@@ -49,7 +49,7 @@ Create a 2x2 table (even/odd degree vs. positive/negative leading coefficient) a
   answer: 2
   explanation: "Both-ends-up requires even degree AND positive leading coefficient. Option C has degree 6 (even) and leading coefficient 2 (positive) — both ends go up. Option A has even degree but a negative leading coefficient, so both ends go down. Options B and D have odd degree, so their ends go in opposite directions regardless of the leading coefficient sign."
 
-- question: "The polynomial f(x) = x³ + 1000x² has both ends pointing upward because the x² term is always positive."
+- question: "The polynomial f(x) = x³ + 1000x² has both ends pointing upward because the x² term is typically positive."
   type: true-false
   answer: false
   explanation: "The x² term is irrelevant to end behavior — only the leading term matters. Here the leading term is x³: odd degree, positive leading coefficient. That means the left end goes down and the right end goes up — opposite directions. The x² term, no matter how large its coefficient, cannot change the end behavior because x³ eventually dominates it for large values of x."

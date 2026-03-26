@@ -52,7 +52,7 @@ All multiple-choice data require 3PL modeling. Sometimes 2PL fits adequately, es
   answer: 1
   explanation: "The c parameter is the lower asymptote of the ICC — P(θ) = c + (1-c)×logistic(a(θ-b)) — representing the floor probability of a correct response no matter how low ability is. It is often near 1/k (chance for k options) but is not defined as equal to it; it is estimated from the data or constrained during calibration. The b parameter sets the 50% point on the logistic portion of the curve (adjusted for c), and a governs the slope."
 
-- question: "In the 3PL model, the pseudo-guessing parameter c is always equal to 1/k, where k is the number of response options."
+- question: "In the 3PL model, the pseudo-guessing parameter c is generally equal to 1/k, where k is the number of response options."
   type: true-false
   answer: false
   explanation: "c is estimated from the data and represents the empirical lower asymptote of the ICC — the floor probability of a correct response for the lowest-ability examinees. While it is often near 1/k (random guessing probability), it need not equal it. Items with obvious distractors may yield c > 1/k (examinees can eliminate options), while items where low-ability examinees are drawn to a specific wrong answer may yield c near zero. In practice, c is often fixed at 1/k or constrained precisely because it is so difficult to estimate precisely from data."

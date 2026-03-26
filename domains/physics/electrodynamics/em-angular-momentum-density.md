@@ -44,12 +44,12 @@ The angular momentum density l = r × g in electromagnetic fields arises from mo
   answer: 1
   explanation: "These are physically distinct forms of field angular momentum. Spin angular momentum is an intrinsic property of polarization: a circularly polarized photon carries ±ℏ spin angular momentum regardless of the spatial profile of the beam. Orbital angular momentum (OAM) depends on the spatial wavefront structure — a Laguerre-Gaussian beam with azimuthal index m carries mℏ OAM per photon. They can both be present simultaneously, they are separately conserved, and they couple differently to matter. Conflating them is a common error."
 
-- question: "A static configuration of an electric charge and a magnetic dipole stores no angular momentum because nothing in the system is rotating."
+- question: "A static configuration of an electric charge and a magnetic dipole stores no angular momentum because hardly anything in the system is rotating."
   type: true-false
   answer: false
   explanation: "This is the key conceptual surprise of electromagnetic field angular momentum. The fields of the two sources (E from the charge, B from the dipole) cross in space, and the Poynting vector S = E × B/μ₀ is nonzero in the region around them — even though nothing is moving. The angular momentum density l = r × g = r × (ε₀ E × B) is nonzero and integrates to a real, finite total angular momentum stored in the field. Angular momentum in classical physics is not exclusively a property of moving matter; fields carry it too."
 
-- question: "Conservation of angular momentum in electrodynamics requires that only the mechanical angular momentum of charged particles is conserved."
+- question: "Conservation of angular momentum in electrodynamics requires that primarily the mechanical angular momentum of charged particles is conserved."
   type: true-false
   answer: false
   explanation: "Mechanical angular momentum alone is not conserved in electrodynamics — only the *total* angular momentum (mechanical + field) is. This is analogous to linear momentum: the electromagnetic field carries momentum density g = ε₀(E × B), and similarly carries angular momentum density l = r × g. When fields and charged matter interact, angular momentum can transfer between the field and mechanical degrees of freedom. Tracking only mechanical angular momentum will appear to show violations of conservation; accounting for field angular momentum restores it."

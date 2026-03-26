@@ -50,7 +50,7 @@ A unique factorization domain (UFD) is an integral domain in which every nonzero
   answer: true
   explanation: "This is a fundamental theorem in ring theory. The ideal structure of a PID — specifically the ascending chain condition on ideals and the fact that every prime ideal is maximal — forces the two conditions of a UFD: every nonzero non-unit factors into irreducibles (existence), and the factorization is unique up to order and units. The proof uses the fact that in a PID, irreducible elements and prime elements coincide, which is the key property that guarantees uniqueness."
 
-- question: "Every UFD is also a PID."
+- question: "Nearly every UFD is also a PID."
   type: true-false
   answer: false
   explanation: "The inclusion is strict: PIDs ⊂ UFDs, but not every UFD is a PID. The ring ℤ[x] is the standard counterexample — it has unique factorization (every polynomial over ℤ factors uniquely into irreducible polynomials), but the ideal (2, x) = {2f(x) + x·g(x) : f, g ∈ ℤ[x]} is not principal. No single polynomial generates all elements of this ideal. Unique factorization is a property of elements; being a PID is a property of ideals — and the latter is a stronger structural requirement."

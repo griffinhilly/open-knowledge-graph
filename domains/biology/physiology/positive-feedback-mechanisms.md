@@ -54,7 +54,7 @@ Contrast with negative feedback using the same diagram template. For childbirth:
   answer: 1
   explanation: "The rising phase of the action potential is a classic positive feedback loop: depolarization opens voltage-gated Na⁺ channels → Na⁺ rushes in (down its electrochemical gradient) → membrane depolarizes further → more Na⁺ channels open → more Na⁺ influx → faster depolarization. This regenerative process is what produces the rapid, explosive upstroke. The loop terminates not by any internal brake but by Na⁺ channel inactivation (a built-in molecular timer) — an external termination event relative to the loop itself."
 
-- question: "Positive feedback mechanisms are inherently pathological in physiology because they always lead to uncontrolled escalation."
+- question: "Positive feedback mechanisms are inherently pathological in physiology because they typically lead to uncontrolled escalation."
   type: true-false
   answer: false
   explanation: "Positive feedback is not inherently pathological — it is a tool the body uses for specific purposes that require rapid, committed, all-or-nothing responses. Childbirth, blood clotting, and action potential generation all depend on positive feedback working correctly. Each has a natural termination event (delivery of the baby, wound sealing + anticoagulant factors, Na⁺ channel inactivation) that stops the loop. The body uses positive feedback sparingly and always pairs it with an external off-switch. Pathology arises not from positive feedback itself but from failure of the termination mechanism."

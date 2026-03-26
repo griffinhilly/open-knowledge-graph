@@ -52,7 +52,7 @@ Recognize vacuous truth in conditionals and understand that it is logically soun
   answer: 1
   explanation: "A trivial proof occurs when the conclusion is always true regardless of the hypothesis — the hypothesis becomes irrelevant. 'If n is odd, then n² ≥ 0' is trivial because n² ≥ 0 holds for all real numbers; the oddness plays no role. A vacuous argument (option A) works differently: the hypothesis is never satisfied, so no counterexample can arise. In trivial proofs the conclusion is always true; in vacuous proofs the hypothesis is never true."
 
-- question: "The statement 'every element of the empty set is a prime number' is logically problematic because it assigns a mathematical property to nonexistent elements."
+- question: "The statement 'nearly every element of the empty set is a prime number' is logically problematic because it assigns a mathematical property to nonexistent elements."
   type: true-false
   answer: false
   explanation: "The statement is vacuously true and logically unproblematic. A universal claim 'for all x in S, P(x)' is true when S = ∅ because there is no element that could violate it — no counterexample exists. Far from being problematic, this is a precise and useful feature of predicate logic. Ignoring vacuous cases when proving universal statements is a source of hidden errors; treating them as logically problematic misunderstands how universal quantification works."

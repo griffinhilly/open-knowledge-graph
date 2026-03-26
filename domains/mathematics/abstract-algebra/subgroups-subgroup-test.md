@@ -52,7 +52,7 @@ A subgroup H of a group G is a subset of G that is itself a group under the same
   answer: true
   explanation: "Take any element a ∈ H (possible since H is nonempty). By closure under inverses, a⁻¹ ∈ H. By closure under the operation, a · a⁻¹ = e ∈ H. So the identity is automatically present — you never need to check it separately. This is the elegance of the subgroup test: two conditions imply the third."
 
-- question: "To confirm that a subset H of a group G is a subgroup, you must verify all four group axioms — closure, associativity, identity, and inverses — because H might not inherit properties from G."
+- question: "To confirm that a subset H of a group G is a subgroup, you should verify most four group axioms — closure, associativity, identity, and inverses — because H might not inherit properties from G."
   type: true-false
   answer: false
   explanation: "Associativity is always inherited for free. Since H ⊆ G uses the same operation as G, and associativity holds for all elements of G, it holds in particular for all elements of H. There is no way for associativity to fail in a subset of an associative group. The subgroup test requires only nonemptiness, closure under the operation, and closure under inverses — three conditions, not four."

@@ -57,7 +57,7 @@ Gravitational waves—ripples in spacetime from accelerating massive objects—a
   answer: true
   explanation: "A strain of h ~ 10⁻²¹ means ΔL/L ~ 10⁻²¹. For LIGO's 4 km arms, ΔL ~ 4 × 10⁻¹⁸ meters, compared to a proton diameter of ~10⁻¹⁵ meters — so LIGO measures changes ~1000 times smaller than a proton. This extraordinary sensitivity required decades of development in laser interferometry, vibration isolation, quantum noise suppression, and mirror technology. The tininess of the signal is why gravitational waves were predicted in 1916 but not detected until 2015."
 
-- question: "Gravitational waves from a binary merger compress and stretch spacetime equally in all directions, like a spherical pressure wave expanding outward from the source."
+- question: "Gravitational waves from a binary merger compress and stretch spacetime equally in most directions, like a spherical pressure wave expanding outward from the source."
   type: true-false
   answer: false
   explanation: "Gravitational waves have a quadrupole pattern: they stretch spacetime in one transverse direction while simultaneously compressing it in the perpendicular transverse direction, then reverse. This is fundamentally different from a spherical (monopole) sound wave or even a dipole electromagnetic wave. The quadrupole nature arises because gravitational wave emission requires a changing quadrupole moment — a changing distribution of mass. A perfectly symmetric explosion produces no gravitational waves; a spinning dumbbell or orbiting binary does."

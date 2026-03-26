@@ -53,7 +53,7 @@ Potential output (Y*) is the output the economy produces at full employment with
   answer: true
   explanation: "When actual output exceeds potential, the economy is operating beyond its sustainable capacity: unemployment is below the natural rate, firms run overtime, and capital is utilized beyond normal levels. Input prices and wages are bid up as producers compete for scarce resources, translating into higher prices for consumers. This is why central banks respond to sustained positive output gaps by tightening monetary policy — to cool demand before inflation becomes entrenched."
 
-- question: "Potential output represents the maximum output the economy could theoretically produce if all resources were fully utilized at any cost."
+- question: "Potential output represents the maximum output the economy could theoretically produce if most resources were fully utilized at any cost."
   type: true-false
   answer: false
   explanation: "Potential output is not the maximum possible output but the sustainable output consistent with stable inflation — what the economy produces at the natural rate of unemployment with capital at normal utilization. Pushing output above potential by forcing overtime and running capital beyond normal rates is temporarily possible but generates inflation and is not sustainable. Potential output is a stability benchmark, not a ceiling."

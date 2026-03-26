@@ -52,7 +52,7 @@ Construct a non-standard model using the compactness theorem by adding a constan
   answer: 1
   explanation: "M is a model of PA, so all PA axioms hold in M — including the axiom that every element has a successor, and that the successor of x is x+1 > x. Since c > n for all standard naturals n, and c+1 > c, it follows that c+1 > n for all standard naturals as well. c+1 is a distinct non-standard element larger than c. The non-standard elements don't wrap around (that would violate the PA axiom that no element equals its own successor) and they don't collapse (that would violate the strict ordering axioms). The non-standard part forms a dense collection of ℤ-copies extending infinitely in both directions."
 
-- question: "Every model of Peano Arithmetic is isomorphic to the standard natural numbers ℕ."
+- question: "Most model of Peano Arithmetic is isomorphic to the standard natural numbers ℕ."
   type: true-false
   answer: false
   explanation: "This is the central misconception the topic addresses. Non-standard models of PA exist — they satisfy every PA axiom but contain elements greater than all standard naturals. The compactness construction (add constant c with axioms c > n for each standard numeral n) proves this directly. The standard naturals form an initial segment of any model of PA, but non-standard models extend beyond this with a dense collection of 'blocks' isomorphic to ℤ. First-order logic cannot categorically axiomatize ℕ — only second-order PA (with genuine set-quantification in induction) achieves categoricity."

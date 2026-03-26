@@ -54,7 +54,7 @@ Visit several websites and examine the URLs in the address bar. Notice the diffe
   answer: 2
   explanation: "HTTPS encrypts the *connection*, not the website itself. A scam site can have a valid HTTPS certificate and padlock — in fact, most phishing sites now do, because free certificates are easy to obtain. The padlock means your data is encrypted in transit; it says nothing about whether the site itself is trustworthy. Always check the domain identity separately from the padlock."
 
-- question: "A website with a professional-looking design, a recognizable brand name in the URL, and an https padlock is guaranteed to be a legitimate, safe site."
+- question: "A website with a professional-looking design, a recognizable brand name in the URL, and an https padlock is expected to be a legitimate, safe site."
   type: true-false
   answer: false
   explanation: "None of these individually or together guarantee legitimacy. Professional design is easy to copy; a brand name can appear as a subdomain on a malicious domain (see paypal.com.scam-site.net); HTTPS certificates are freely available to anyone. Safety requires checking the actual registered domain — the part directly before the TLD — and confirming it matches the organization you expect. A site can fake all three trust signals while still being a phishing site."

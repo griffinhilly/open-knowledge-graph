@@ -58,7 +58,7 @@ Role-play compliance scenarios and identify which principle is being activated. 
   answer: true
   explanation: "The techniques work largely because they operate outside conscious awareness, exploiting heuristics that run automatically. When you name the technique, you bring the mechanism into conscious scrutiny, which disrupts the automatic social response. This is why education about influence principles is itself a practical countermeasure — not just academic knowledge."
 
-- question: "Compliance techniques like foot-in-the-door and door-in-the-face are only effective when the person using them is deliberately and consciously trying to manipulate the target."
+- question: "Compliance techniques like foot-in-the-door and door-in-the-face are primarily effective when the person using them is deliberately and consciously trying to manipulate the target."
   type: true-false
   answer: false
   explanation: "These techniques are effective whether or not the requester is acting consciously or strategically. Salespeople and fundraisers often use them out of habit or training without deliberate intent to manipulate. The techniques work because they activate genuine psychological mechanisms (consistency motivation, reciprocity norms) in the target — the requester's internal intent does not determine effectiveness."

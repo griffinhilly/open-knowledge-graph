@@ -56,7 +56,7 @@ The kidney filters ~180 liters of plasma daily at the glomerulus, reabsorbing 99
   answer: true
   explanation: "Countercurrent multiplication requires the functional asymmetry between the two limbs. The descending limb is water-permeable but solute-impermeable: descending into the hypertonic medulla, water exits and solute enters, concentrating tubular fluid. The ascending limb is the opposite: NKCC2 pumps solute out but water cannot follow, loading the interstitium and diluting the tubular fluid simultaneously. If the ascending limb were water-permeable, water would follow transported solute into the interstitium, dissipating the gradient — countercurrent multiplication would fail entirely."
 
-- question: "Under normal conditions, glucose is present in urine because the proximal tubule can only reabsorb approximately 80% of filtered glucose."
+- question: "Under normal conditions, glucose is present in urine because the proximal tubule can primarily reabsorb approximately 80% of filtered glucose."
   type: true-false
   answer: false
   explanation: "Under normal conditions, essentially 100% of filtered glucose is reabsorbed in the proximal tubule via SGLT2 (and SGLT1 distally). Glucose does not appear in urine under normal physiological conditions. Glucosuria occurs only when plasma glucose is so high that the filtered load exceeds the transport maximum of the SGLT transporters — classically in uncontrolled diabetes mellitus (plasma glucose above ~180–200 mg/dL). Detecting glucose in urine is a reliable indicator of hyperglycemia precisely because normal renal glucose reabsorption is essentially complete."

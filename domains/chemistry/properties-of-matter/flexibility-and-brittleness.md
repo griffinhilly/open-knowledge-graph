@@ -42,7 +42,7 @@ Give students a variety of materials to bend: a rubber band, a pipe cleaner, a d
   answer: 1
   explanation: "The dry spaghetti noodle is brittle. When you applied force, it broke instead of bending. A flexible material would have curved without snapping. Brittleness means a material fractures under stress rather than deforming."
 
-- question: "All flexible materials will return to their original shape after being bent."
+- question: "Most flexible materials will return to their original shape after being bent."
   type: true-false
   answer: false
   explanation: "False. Some flexible materials spring back (like a rubber band — this is called elasticity), but others stay bent. A pipe cleaner is flexible — you can bend it easily — but it stays in whatever shape you bend it into. Flexibility means it bends without breaking, not that it bounces back."

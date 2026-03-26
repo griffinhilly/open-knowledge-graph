@@ -53,7 +53,7 @@ When condensation releases latent heat in a cyclone, the atmosphere cannot remai
   answer: true
   explanation: "This is the core mechanism. Geostrophic balance is a steady-state condition where the Coriolis force exactly balances the pressure gradient force. When rapid latent heat release suddenly changes the pressure gradient (by raising heights above the heated column), the existing winds are no longer balanced — they are sub-geostrophic relative to the new pressure gradient. The ageostrophic response (acceleration of winds toward a new balance state) is precisely what drives the upper-level divergence and surface convergence that deepens the low. The departure from balance is not an anomaly; it is the mechanism."
 
-- question: "A bomb cyclone (one that deepens by 24 mb in 24 hours) can in principle be explained entirely by dry atmospheric dynamics without invoking latent heat release."
+- question: "A bomb cyclone (one that deepens by 24 mb in 24 hours) can in principle be explained mostly by dry atmospheric dynamics without invoking latent heat release."
   type: true-false
   answer: false
   explanation: "Observational and modeling evidence shows that the most explosive cyclogenesis events cannot be reproduced in dry-atmosphere simulations. While upper-level dynamics (jet streaks, vorticity advection, temperature advection) provide a necessary background environment, the diabatic feedback from latent heating is required to achieve bomb-intensity deepening rates. Studies systematically removing latent heating from numerical models produce much weaker cyclones. The diabatic-dynamic coupling is not optional for explaining bomb cyclones — it is essential to the energy budget of rapid intensification."

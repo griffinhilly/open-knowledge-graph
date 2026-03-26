@@ -55,7 +55,7 @@ Not all mutations in oncogenes are cancer-causing—some are passenger mutations
   answer: true
   explanation: "This is the defining feature of oncogenes. The mutant protein product produces a gain of function — constitutive growth signaling, locked receptor activation, or unregulated transcription factor activity — that operates independently of the normal copy. One stuck accelerator is enough to keep the car moving. This contrasts sharply with tumor suppressors, where the remaining normal copy maintains function until it too is inactivated."
 
-- question: "A person who inherits one mutant copy of TP53 (as in Li-Fraumeni syndrome) has already lost p53 function in all their cells, so cancer development is inevitable from birth."
+- question: "A person who inherits one mutant copy of TP53 (as in Li-Fraumeni syndrome) has already lost p53 function in most their cells, so cancer development is inevitable from birth."
   type: true-false
   answer: false
   explanation: "This is the key misconception about the two-hit model. Tumor suppressors require BOTH copies to be inactivated before protective function is lost — one normal allele is sufficient to maintain function. Li-Fraumeni syndrome patients have one normal TP53 copy in every cell, which continues to function. Cancer requires a second somatic mutation (the 'second hit') that eliminates that remaining copy in a particular cell. This is why Li-Fraumeni carriers face dramatically elevated cancer risk but do not develop cancer at birth — they are one somatic event away per cell, not zero."

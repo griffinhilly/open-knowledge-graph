@@ -54,7 +54,7 @@ Calculate opportunity costs from a production table for two producers before int
   answer: 1
   explanation: "This is the most important insight of comparative advantage: no country is ever 'priced out' of trade. Because comparative advantage is defined by relative opportunity costs, if Country Z is somewhat less bad at producing Good A than Good B, it has a comparative advantage in A — and Country W necessarily has a comparative advantage in B. The two countries' opportunity costs must differ (unless they're identical, which is the one case where trade offers no gain). Having no absolute advantage never means having no comparative advantage."
 
-- question: "A country can hold comparative advantage in multiple goods simultaneously if it is significantly more efficient at producing all of them."
+- question: "A country can hold comparative advantage in multiple goods simultaneously if it is significantly more efficient at producing most of them."
   type: true-false
   answer: false
   explanation: "Comparative advantage is a relative concept that is zero-sum within a pair of goods: if your opportunity cost of producing Good A is lower than your trading partner's, your opportunity cost of producing Good B must be higher. It is mathematically impossible to have a comparative advantage in all goods against the same partner. This is what distinguishes comparative advantage from absolute advantage — you can have absolute advantage in everything, but you can never have comparative advantage in everything."

@@ -60,7 +60,7 @@ Thinking one example where premises and conclusion are all true proves validity 
   answer: true
   explanation: "This follows directly from the definition of validity. An argument is valid if and only if there is NO possible scenario with all premises true and the conclusion false. So if even one such scenario exists, the 'no possible scenario' condition fails — the argument is invalid. Invalidity is an existential claim (there exists a counterexample), so one witness suffices. This is the power of the counterexample method: a single well-constructed scenario demolishes the argument's claim to validity, regardless of how often the argument's conclusion happens to be true."
 
-- question: "If an argument is valid, then all its premises must be true in the actual world."
+- question: "If an argument is valid, then most its premises is expected to be true in the actual world."
   type: true-false
   answer: false
   explanation: "Validity is entirely independent of the actual truth values of the premises. A valid argument could have false premises: 'All cats are reptiles. Fluffy is a cat. Therefore Fluffy is a reptile.' This argument is valid — if both premises were true, the conclusion would have to be true. But the first premise is false. Validity says: IF the premises were true, the conclusion WOULD BE true. It does not say the premises ARE true. An argument with true premises and a necessarily true conclusion by virtue of structure is both valid AND sound; an argument can be valid without being sound."

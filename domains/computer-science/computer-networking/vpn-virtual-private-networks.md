@@ -45,7 +45,7 @@ VPNs create encrypted tunnels through untrusted networks, protecting confidentia
   answer: 1
   explanation: "Private IP address ranges (RFC 1918: 10.x.x.x, 172.16–31.x.x, 192.168.x.x) are reserved for internal networks and are not routable on the public internet — routers discard packets with private destination addresses. A site-to-site VPN solves this by encapsulating (tunneling) the entire original private-IP packet inside a new packet with public IP addresses. The VPN gateways have public IPs; the original packet is hidden inside as payload. When the destination gateway receives and decrypts the outer packet, it recovers the private-IP packet and routes it onto its internal network. Option A is about NAT, which is a related but different mechanism. Option C is wrong — VPNs use shared public internet infrastructure, not dedicated lines."
 
-- question: "A VPN makes users completely anonymous online because all their traffic is encrypted and cannot be traced back to them."
+- question: "A VPN makes users substantially anonymous online because most their traffic is encrypted and can seldom be traced back to them."
   type: true-false
   answer: false
   explanation: "False. A VPN shifts trust, not eliminates it. With a VPN, your ISP can no longer see the content of your traffic — they only see that you are connecting to a VPN server. However, the VPN provider (or corporate gateway) now sees all your traffic and knows your identity. You are trusting the VPN operator instead of your ISP. Additionally, many other tracking mechanisms (browser fingerprinting, cookies, account logins) operate above the network layer and are completely unaffected by a VPN. The common consumer marketing claim that VPNs provide anonymity is an oversimplification."

@@ -45,7 +45,7 @@ Correspondence bias is the tendency to attribute others' behavior to their dispo
   answer: 1
   explanation: "Situational attribution requires knowing the context, the constraints, the alternatives available to the actor — cognitively demanding work that goes beyond the behavior itself. Dispositional attribution requires only the behavior: 'they did X, so they must be the kind of person who does X.' Under cognitive load, we default to the cheaper explanation. This explains why correspondence bias is stronger when observers are distracted, time-pressured, or mentally depleted."
 
-- question: "Correspondence bias is a universal feature of human cognition, present equally across all cultures and social contexts."
+- question: "Correspondence bias is a universal feature of human cognition, present equally across most cultures and social contexts."
   type: true-false
   answer: false
   explanation: "Research consistently finds weaker correspondence bias in collectivist cultures (East Asian, South Asian), where situational roles, relationships, and norms receive substantially more explanatory weight. Within Western populations, the bias varies with cognitive resources, familiarity with the actor, and motivational factors. This cultural variation suggests the bias reflects learned cognitive habits reinforced by individualist frameworks rather than a hardwired property of human cognition — a significant implication for how universal attribution tendencies are."

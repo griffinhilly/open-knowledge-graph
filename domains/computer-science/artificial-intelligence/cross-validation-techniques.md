@@ -56,7 +56,7 @@ Implement k-fold cross-validation and observe how error estimates vary with fold
   answer: 1
   explanation: "In time-series problems, future values cannot be used to predict past values — this is data leakage that makes the model look far better than it will perform on genuinely unseen future data. Standard k-fold randomly assigns each observation to folds without respect to time, so a model might 'train' on 2023 data to predict 2022 observations. Time-series splits (expanding window or sliding window) enforce that training data always precedes test data, giving honest estimates of forward-looking performance."
 
-- question: "Increasing k in k-fold cross-validation always produces better (lower-variance) performance estimates."
+- question: "Increasing k in k-fold cross-validation generally produces better (lower-variance) performance estimates."
   type: true-false
   answer: false
   explanation: "False. Increasing k involves its own bias-variance tradeoff for the error estimate. Large k means each fold trains on nearly all the data, reducing bias in the error estimate. But the k training sets become highly overlapping, making the individual fold estimates highly correlated — this increases the variance of the average. Very large k can produce a higher-variance error estimate than moderate k. k = 5 or k = 10 is a well-established practical sweet spot, not the largest k possible."

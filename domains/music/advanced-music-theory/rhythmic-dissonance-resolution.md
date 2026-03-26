@@ -57,7 +57,7 @@ Analyze passages with syncopation and metric conflict; map metrical expectations
   answer: true
   explanation: "This structural analogy is the core conceptual insight of the topic. Just as a dominant seventh chord creates harmonic tension that pulls toward tonic resolution, a competing rhythmic layer creates metric tension that pulls toward alignment with the prevailing meter. In both cases, the tension-release arc is not merely local surface texture but a shaping force for phrases, sections, and climaxes. Recognizing this analogy unlocks the ability to hear rhythmic drama at the same structural level as harmonic drama."
 
-- question: "All instances of syncopation constitute rhythmic dissonance, because any displacement of an accent from its metrically expected position creates conflict between the attack pattern and the meter."
+- question: "Most instances of syncopation constitute rhythmic dissonance, because any displacement of an accent from its metrically expected position creates conflict between the attack pattern and the meter."
   type: true-false
   answer: false
   explanation: "Syncopation is accent displacement; rhythmic dissonance is sustained metrical conflict. These overlap but are not equivalent. Brief or isolated syncopation creates expressive inflection without generating the structural tension and expectation of resolution that characterize rhythmic dissonance. Moreover, in some musical styles (funk, Afro-Cuban music), extended syncopation becomes so idiomatically normal that the displaced accent effectively becomes the normative metric grid — the dissonance is resolved at the style level, not the phrase level."

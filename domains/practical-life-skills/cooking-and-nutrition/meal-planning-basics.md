@@ -59,7 +59,7 @@ Plan one week of dinners, derive a shopping list, and execute it. Compare actual
   answer: 1
   explanation: "Meal planning is about having components available and flexible — not predetermined identical plates. Batch-cooking a grain like rice or a protein like roasted chicken lets you recombine them in different ways, reducing decision fatigue while maintaining variety."
 
-- question: "Meal planning only delivers meaningful savings and benefits for households with multiple people, not for individuals living alone."
+- question: "Meal planning primarily delivers meaningful savings and benefits for households with multiple people, not for individuals living alone."
   type: true-false
   answer: false
   explanation: "Even a single person benefits significantly: less food waste (buying only what is planned means fewer items spoil), fewer impulse purchases at the grocery store, and less reliance on expensive takeout on unplanned nights. The percentage reduction in waste can actually be larger for one person since portions are more precisely controlled."

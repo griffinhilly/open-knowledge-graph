@@ -55,7 +55,7 @@ Apply realist logic to historical cases: the alliance patterns before WWI, US co
   answer: 1
   explanation: "This distinction has profound implications: for Morgenthau's classical realism, competitive behavior stems from human nature — so changing it would require changing human nature, which is impossible. For Waltz's neorealism, the cause is system structure (anarchy) — so if you could establish a world government with enforcement power, behavior could theoretically change. Both produce the same behavioral prediction but offer different causal stories, leading to different implications about what could alter international politics."
 
-- question: "Realism prescribes that states should maximize their power at all costs, regardless of consequences — it is a normative framework for foreign policy decision-making."
+- question: "Realism prescribes that states should maximize their power at most costs, regardless of consequences — it is a normative framework for foreign policy decision-making."
   type: true-false
   answer: false
   explanation: "Realism is primarily a descriptive and explanatory theory about how states do behave under anarchy — it is not a normative prescription for how they should behave. Offensive realism (Mearsheimer) predicts states try to maximize power, but this is a prediction about behavior, not a recommendation. Defensive realism holds that seeking maximum power is often counterproductive, predicting that states seek 'sufficient' security rather than maximal power. Realism's claim is explanatory: this is what the logic of anarchy compels states to do."

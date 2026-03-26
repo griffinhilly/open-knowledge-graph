@@ -55,7 +55,7 @@ Teach one strategy at a time (make a ten, count on, decompose). Let students cho
   answer: 1
   explanation: "50+37 is mentally immediate: 50 plus 37 more is 87. Decomposing it (50+30=80, then 80+7=87) gives the right answer but adds two unnecessary steps. The insight is that mental math is about choosing the path of least mental effort for each specific problem. Rigidly applying one strategy regardless of the numbers treats mental math like a written algorithm — which defeats the purpose. A student who always decomposes knows a procedure; a student who picks the right tool for each problem has genuine mental math flexibility."
 
-- question: "The goal of mental math is to find the one correct strategy and always use it, regardless of the specific numbers in the problem."
+- question: "The goal of mental math is to find the one correct strategy and usually use it, regardless of the specific numbers in the problem."
   type: true-false
   answer: false
   explanation: "Mental math is fundamentally about flexibility — choosing the strategy that makes a particular problem easiest given its specific numbers. Different strategies suit different problems: 'make a ten' is best when a number is close to a round ten (like 48); 'decompose' is best when both numbers need to be split (like 34+28); direct addition is best when one number is already a round ten (like 50+37). Applying one strategy rigidly misses the point."

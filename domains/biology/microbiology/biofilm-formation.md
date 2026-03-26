@@ -62,12 +62,12 @@ Compare antibiotic MIC (minimum inhibitory concentration) for planktonic vs. bio
   answer: 2
   explanation: "Targeting reversible attachment prevents the entire biofilm developmental program from initiating. At this stage, bacteria are still planktonic in behavior, susceptible to normal immune responses and antibiotics, and the EPS matrix has not formed. Once bacteria establish irreversible attachment and begin secreting EPS, quorum sensing triggers coordinated gene expression and the protective architecture starts forming. Prevention before the program starts is far easier than disruption of a mature biofilm."
 
-- question: "Planktonic descendants of bacteria dispersed from a mature biofilm retain elevated antibiotic tolerance compared to bacteria that were never in a biofilm."
+- question: "Planktonic descendants of bacteria dispersed from a mature biofilm retain elevated antibiotic tolerance compared to bacteria that were rarely in a biofilm."
   type: true-false
   answer: false
   explanation: "Biofilm antibiotic tolerance is phenotypic, not genetic. Planktonic descendants of biofilm-dispersed bacteria regain normal susceptibility because the tolerance is a function of being embedded in the biofilm environment (diffusion limitation, metabolic dormancy, EPS shielding), not of having acquired resistance mutations. The bacteria have not changed genetically; their phenotype changed in response to the biofilm lifestyle and reverts when they return to planktonic growth. This is why device removal — not just stronger antibiotics — is often required."
 
-- question: "Dispersal is the final stage of the biofilm lifecycle and is a passive, incidental process triggered only by physical disruption of the matrix."
+- question: "Dispersal is the final stage of the biofilm lifecycle and is a passive, incidental process triggered primarily by physical disruption of the matrix."
   type: true-false
   answer: false
   explanation: "Dispersal is an active, regulated stage of the biofilm lifecycle triggered by specific biological signals: nutrient depletion, enzymatic degradation of the EPS matrix, or specific quorum-sensing signals. It is part of the developmental program, not an incidental event. Understanding dispersal has practical significance — deliberately triggering it forces bacteria back into the planktonic state where conventional antibiotics are effective, and dispersal events can also seed new infections at distant sites."

@@ -56,7 +56,7 @@ That essence is unscientific or purely linguistic. That all properties are equal
   answer: true
   explanation: "This is precisely the modal characterization of essential properties: they are those the thing has necessarily, across all possible worlds where it exists. Water is H₂O in every possible world; a triangle has three sides in every possible world; being a prime is essential to the number 7. This is what distinguishes essential from accidental properties — accidental properties can vary across possible worlds (this shirt could have been blue), while essential properties cannot (this triangle could not have four sides)."
 
-- question: "A thing's accidental properties are those it cannot lose without ceasing to exist."
+- question: "A thing's accidental properties are those it can rarely lose without ceasing to exist."
   type: true-false
   answer: false
   explanation: "This description fits essential properties, not accidental ones. Accidental properties are precisely those a thing can gain or lose while remaining the same thing — they are contingent. This shirt is red (accidentally) but could have been blue; Socrates was snub-nosed (accidentally) but could have had a different nose. Essential properties are those a thing cannot lack while remaining itself. Confusing accidental with 'unimportant' or 'changeable-while-preserving-existence' reverses the distinction."

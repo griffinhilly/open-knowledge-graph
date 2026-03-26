@@ -52,7 +52,7 @@ The Euler equation links asset prices to consumption growth and preferences: ass
   answer: true
   explanation: "This follows directly from the stochastic discount factor (SDF) framework. The SDF = β·u'(c_{t+1})/u'(c_t) is high in recessions (when future consumption is low and marginal utility is high) and low in booms. An asset that pays off when the SDF is high (i.e., in recessions) has a high expected SDF-weighted payoff, so it commands a high price today — and a high current price means a lower expected return. Counter-cyclical assets are effectively insurance; people pay for insurance, accepting lower expected returns in exchange for payoffs precisely when they are most needed."
 
-- question: "In the stochastic discount factor framework, the expected return premium an asset must offer above the risk-free rate depends primarily on the variance of the asset's own returns."
+- question: "In the stochastic discount factor framework, the expected return premium an asset should offer above the risk-free rate depends primarily on the variance of the asset's own returns."
   type: true-false
   answer: false
   explanation: "The risk premium depends on the COVARIANCE between the asset's return and the stochastic discount factor — equivalently, the covariance between the return and (marginal utility of) consumption growth. An asset that is highly volatile but whose volatility is uncorrelated with consumption growth carries no consumption risk and earns no premium above the risk-free rate. An asset with low variance but high negative covariance with consumption growth (failing in recessions) earns a large premium. Variance is not the relevant measure — covariance with the SDF is."

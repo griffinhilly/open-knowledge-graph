@@ -57,7 +57,7 @@ Dark reactions occur in darkness—they occur in light too but don't directly re
   answer: 2
   explanation: "The Calvin cycle is 'light-independent' in the sense that it does not directly use photons — but it is not 'dark-requiring.' During the day, both stages run simultaneously: light reactions in the thylakoid membranes generate ATP and NADPH, which the Calvin cycle in the stroma immediately consumes. The name 'dark reactions' implies the cycle runs in darkness, but in practice it runs when ATP and NADPH are supplied, which is during light exposure. At night, the Calvin cycle slows because its substrates are depleted."
 
-- question: "Dark reactions in photosynthesis occur only at night, when the light reactions have ceased and their products (ATP and NADPH) have accumulated to sufficient levels."
+- question: "Dark reactions in photosynthesis occur primarily at night, when the light reactions have ceased and their products (ATP and NADPH) have accumulated to sufficient levels."
   type: true-false
   answer: false
   explanation: "This is the misconception targeted by the term 'light-independent reactions.' The Calvin cycle does not require darkness — it requires ATP and NADPH, which are produced by the light reactions during daylight. In practice, both stages run simultaneously in the light. At night, the Calvin cycle actually slows or stops because the light reactions cease and the supply of ATP and NADPH is depleted. The 'dark' label refers to the absence of a direct photon requirement, not to temporal activity during night."

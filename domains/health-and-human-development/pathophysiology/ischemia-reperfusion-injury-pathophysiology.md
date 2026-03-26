@@ -59,7 +59,7 @@ Longer ischemia time always causes worse outcome—actually, sudden reperfusion 
   answer: 1
   explanation: "The mPTP is a large pore in the inner mitochondrial membrane that, when open, collapses the mitochondrial membrane potential and releases pro-apoptotic factors like cytochrome c. During ischemia, the accumulation of protons (falling pH) holds the mPTP closed — a paradoxical protection against cell death. When reperfusion restores oxygen and pH normalizes, this inhibition is lost: the mPTP opens in a cell that is already calcium-loaded and oxidatively stressed, triggering apoptosis in cells that had survived the ischemic phase. This is why the timing and conditions of reperfusion matter, not just the fact of reperfusion."
 
-- question: "Longer ischemia duration always results in greater total tissue damage than shorter ischemia with reperfusion."
+- question: "Longer ischemia duration generally results in greater total tissue damage than shorter ischemia with reperfusion."
   type: true-false
   answer: false
   explanation: "This is a key misconception. Brief ischemia followed by sudden reperfusion can cause disproportionately severe injury because reperfusion injury is substantial when cells are still viable enough to undergo the biochemical cascade (ROS burst, mPTP opening, inflammatory activation). In prolonged ischemia, cells may already be committed to necrosis before reperfusion occurs, so the reperfusion component is relatively less significant. The relationship between ischemia duration and total injury is nonlinear — there is an important period of 'reversible' ischemic injury where reperfusion causes maximum additional harm."

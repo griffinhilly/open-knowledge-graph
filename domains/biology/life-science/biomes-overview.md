@@ -43,7 +43,7 @@ Use a world map with biomes color-coded, and have students identify patterns: ra
   answer: 1
   explanation: "Temperature and precipitation are the two primary climate factors that determine biome type. Hot and wet conditions produce tropical rainforests; cold and dry conditions produce tundra; hot and dry conditions produce deserts. While latitude, altitude, and ocean currents influence temperature and precipitation, it is ultimately the climate itself that determines the biome."
 
-- question: "All deserts are hot and sandy."
+- question: "Most deserts are hot and sandy."
   type: true-false
   answer: false
   explanation: "Deserts are defined by low precipitation (less than 25 cm/10 inches per year), not by temperature. While the Sahara is hot and sandy, the Gobi Desert in Asia is cold, and Antarctica is technically the largest desert on Earth because it receives very little precipitation. The defining feature is dryness, not heat."

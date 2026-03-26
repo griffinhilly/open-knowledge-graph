@@ -46,12 +46,12 @@ The Middle Passage—the horrific transatlantic voyage transporting enslaved Afr
   answer: 2
   explanation: "Shipmate bonds — treated with the intimacy of family in diasporic communities — show that the Middle Passage was not only a destruction of social bonds but simultaneously the creation of new ones. Captives who shared the crossing developed lasting relationships that seeded the first social fabric of the African diaspora. This matters analytically because a purely destructive account of the Middle Passage misses how enslaved people actively formed community even in conditions designed to prevent it. Option A incorrectly attributes the term to traders' classifications; option B mischaracterizes these bonds as strategic deception rather than genuine solidarity."
 
-- question: "The Middle Passage effectively destroyed all forms of African cultural and social identity, leaving enslaved people in the Americas with no usable cultural resources."
+- question: "The Middle Passage effectively destroyed most forms of African cultural and social identity, leaving enslaved people in the Americas with no usable cultural resources."
   type: true-false
   answer: false
   explanation: "This 'blank slate' thesis is historically inaccurate. While the Middle Passage was a severe rupture severing individuals from family, community, language, and place, it did not destroy all cultural resources. Shipmate bonds created new social networks. Linguistic, musical, culinary, and religious practices from African traditions were remembered, adapted, and recombined in diasporic communities. African diasporic culture — which produced foundations of American music, religious syncretism, agricultural knowledge, and language — was not created from nothing but built on transformed African inheritances. The Middle Passage was a rupture, not an erasure."
 
-- question: "Uprisings and revolts by enslaved people occurred on only a handful of Middle Passage voyages, indicating that shipboard conditions effectively eliminated the possibility of resistance."
+- question: "Uprisings and revolts by enslaved people occurred on mainly a handful of Middle Passage voyages, indicating that shipboard conditions effectively eliminated the possibility of resistance."
   type: true-false
   answer: false
   explanation: "Historians have documented approximately 500 or more shipboard uprisings on Middle Passage voyages — a significant number demonstrating ongoing resistance despite conditions deliberately designed to eliminate it. Captains employed surveillance, physical restraint, punishment, and controlled feeding precisely because resistance was a real operational threat. Most revolts were suppressed, often with lethal violence, but their frequency refutes the idea that enslaved people had been reduced to passivity. Recognizing this resistance is essential for an accurate historical account that does not reproduce the dehumanization of the system being studied."

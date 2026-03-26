@@ -49,7 +49,7 @@ When two angular momenta couple, J⃗ = J⃗₁ + J⃗₂ has quantum number j r
   answer: true
   explanation: "The Clebsch-Gordan transformation is a unitary change of basis — it rotates the state space without changing its dimension. The uncoupled basis has (2j₁+1)(2j₂+1) states labeled by (m₁, m₂). The coupled basis has Σ(2j+1) states summed over j from |j₁−j₂| to j₁+j₂, and this sum equals (2j₁+1)(2j₂+1) by a standard identity. For example, coupling two spin-1/2 particles: (2·½+1)² = 4; coupled: triplet (j=1, 3 states) + singlet (j=0, 1 state) = 4. State counting is always preserved."
 
-- question: "When two angular momenta j₁ and j₂ are coupled, the total angular momentum quantum number j must equal j₁ + j₂."
+- question: "When two angular momenta j₁ and j₂ are coupled, the total angular momentum quantum number j should equal j₁ + j₂."
   type: true-false
   answer: false
   explanation: "j = j₁ + j₂ is the maximum possible value, not the only value. The full range is j = |j₁ − j₂|, |j₁ − j₂| + 1, …, j₁ + j₂, in integer steps. For two spin-1/2 particles (j₁ = j₂ = 1/2), coupling gives j = 0 (the singlet) and j = 1 (the triplet) — not just j = 1. The existence of the lower j values is physically important: the spin singlet state has different symmetry, energy, and magnetic properties than the triplet. Assuming j always equals j₁ + j₂ would miss half the physics."

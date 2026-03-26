@@ -63,7 +63,7 @@ Comparing cross-sections of a Hawaiian shield volcano (broad, gentle slopes, bas
   answer: false
   explanation: "False — this is directly addressed as one of the most dangerous misconceptions in volcanology. Pyroclastic flows travel at 100–700 km/h and consist of superheated gas mixed with fragmented rock, offering essentially no chance of escape. They are among the deadliest volcanic hazards, responsible for events like the destruction of Pompeii and the 1902 eruption of Mount Pelée that killed ~30,000 people. Lava flows, while dramatic, are typically slow enough for evacuation and rarely cause fatalities. Lahars (volcanic mudflows) and pyroclastic flows together account for the vast majority of volcanic deaths."
 
-- question: "A volcano located far from any plate boundary, like those in the Hawaiian Islands, must be explained by processes unrelated to plate tectonics."
+- question: "A volcano located far from any plate boundary, like those in the Hawaiian Islands, is expected to be explained by processes unrelated to plate tectonics."
   type: true-false
   answer: false
   explanation: "False. Hot spot volcanism is part of the broader plate tectonic framework — a stationary thermal anomaly in the mantle melts through the tectonic plate as it moves overhead, creating a chain of volcanic islands. The Hawaiian chain pattern — progressively older and more eroded islands to the northwest, active volcano at the southeast end — is itself direct evidence of the Pacific Plate's motion over a relatively stationary hot spot. Far from being unrelated to plate tectonics, intraplate hot spot volcanism is one of the strongest independent confirmations of plate motion."

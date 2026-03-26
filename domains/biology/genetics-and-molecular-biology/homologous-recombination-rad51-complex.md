@@ -61,7 +61,7 @@ Follow the biochemical steps of homologous recombination: end resection by MRN/E
   answer: true
   explanation: "RAD51 and RecA are structural and functional homologs. Both form a right-handed helical filament around ssDNA, both use ATP hydrolysis to power conformational changes that facilitate homology search, and both catalyze the same fundamental step: strand invasion of a homologous duplex to form a displacement loop. RAD51 is part of a broader RecA/RAD51 superfamily that also includes DMC1, the meiosis-specific recombinase that performs analogous functions during meiotic recombination using the homologous chromosome rather than the sister chromatid."
 
-- question: "Meiotic recombination and mitotic double-strand break repair use entirely different molecular machinery, which is why mutations in repair genes like BRCA2 primarily affect cancer risk but do not impair meiosis."
+- question: "Meiotic recombination and mitotic double-strand break repair use largely different molecular machinery, which is why mutations in repair genes like BRCA2 primarily affect cancer risk but do not impair meiosis."
   type: true-false
   answer: false
   explanation: "Both meiotic recombination and mitotic DSB repair use the same core RAD51 machinery (RAD51, MRN complex, BRCA2 as a mediator). The difference is not in the core proteins but in which sub-pathway is favored: meiotic cells use the double Holliday junction pathway to generate crossovers, while mitotic cells favor SDSA to produce non-crossovers and avoid loss of heterozygosity. BRCA2 mutations impair both — individuals with BRCA2 mutations have both elevated cancer risk (defective mitotic DSB repair) and can show reduced fertility (defective meiotic recombination)."

@@ -58,7 +58,7 @@ Map metrical hierarchy in complex meters (7/8, 5/4) by identifying all active le
   answer: false
   explanation: "False. Syncopation creates tension between the notated meter and the implied metrical hierarchy felt by listeners. In heavily syncopated music, sustained or accented off-beats can temporarily suppress the notated downbeat from consciousness, causing the 'felt' hierarchy to diverge significantly from the written one. Listeners may lose track of the barline entirely and track a different metrical level. This is one reason syncopation feels rhythmically exciting — it destabilizes the expected hierarchy without abandoning it, creating a pull between what is notated and what is sensed."
 
-- question: "An odd meter like 7/8 necessarily creates an ambiguous or unstable metrical hierarchy because the beat count is prime and cannot be evenly subdivided."
+- question: "An odd meter like 7/8 necessarily creates an ambiguous or unstable metrical hierarchy because the beat count is prime and can seldom be evenly subdivided."
   type: true-false
   answer: false
   explanation: "False. While 7 cannot be divided into equal groups of the same size, 7/8 typically organizes into a clear asymmetric hierarchy — most commonly 2+2+3, 2+3+2, or 3+2+2 — where the groupings create a consistent, felt pattern. The hierarchy is not ambiguous; it simply involves unequal sub-groups rather than equal ones. Listeners and performers in traditions that use 7/8 regularly (e.g., Bulgarian folk music, progressive rock, Indian classical) internalize the asymmetric grouping as a stable, identifiable pattern. Ambiguity arises from performance and context, not from the prime number itself."

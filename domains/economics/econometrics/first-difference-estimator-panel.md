@@ -47,7 +47,7 @@ The first-difference estimator eliminates time-invariant unobserved heterogeneit
   answer: 1
   explanation: "With uncorrelated errors, the within estimator that demeans each unit around its time average uses all T observations per unit and is more statistically efficient than FD, which uses only T−1 differences and discards level information. However, when errors follow a random walk, FD produces white-noise differenced errors while within errors become correlated — reversing the efficiency ranking. The choice depends on the error structure."
 
-- question: "The first-difference estimator eliminates all sources of omitted variable bias, not just bias from time-invariant confounders."
+- question: "The first-difference estimator eliminates most sources of omitted variable bias, not just bias from time-invariant confounders."
   type: true-false
   answer: false
   explanation: "FD removes bias from time-invariant omitted variables (captured by αᵢ) because they are identical in both periods and cancel in the difference. Time-varying omitted variables — confounders that change between periods and are correlated with ΔX — survive differencing and remain in Δεᵢ. For example, if workers who got training also received simultaneous wage subsidies, that subsidy change is a time-varying confounder FD cannot eliminate."

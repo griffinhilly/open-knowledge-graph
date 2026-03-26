@@ -55,7 +55,7 @@ Classify sandstones using QFR (quartz-feldspar-rock) diagrams. Compare detrital 
   answer: 3
   explanation: "Chrome spinel forms in mantle-derived ultramafic rocks and is stable enough to survive transport and diagenesis. Its presence in a sandstone is nearly unique evidence that the source terrane included ultramafic material — exposed oceanic mantle, ophiolite obducted onto a continent, or layered intrusions. Granites and their derivatives contain almost no chrome spinel. This is why heavy mineral analysis can fingerprint specific source terranes far more precisely than bulk mineralogy alone: each heavy mineral has a restricted paragenesis that points to specific rock types."
 
-- question: "The presence of abundant olivine grains in a sandstone indicates that the sediment traveled a long distance from its source, because only long-transport processes can concentrate dense minerals like olivine."
+- question: "The presence of abundant olivine grains in a sandstone indicates that the sediment traveled a long distance from its source, because mainly long-transport processes can concentrate dense minerals like olivine."
   type: true-false
   answer: false
   explanation: "This reverses the logic of differential mineral stability. Olivine is chemically unstable and weathers quickly. Long transport = prolonged exposure to weathering = olivine destroyed. Abundant olivine therefore indicates SHORT transport distance and rapid burial — the grains didn't have time to weather away. The stability hierarchy runs from most resistant (quartz, zircon) to least resistant (olivine, pyroxene). High-stability minerals survive long transport; low-stability minerals indicate proximity to the source."

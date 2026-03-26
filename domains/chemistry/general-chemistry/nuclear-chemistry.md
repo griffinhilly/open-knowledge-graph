@@ -49,7 +49,7 @@ Practice writing and balancing nuclear equations by conserving mass number (supe
   answer: 1
   explanation: "Alpha decay emits a ⁴₂He nucleus, so the mass number decreases by 4 (226 - 4 = 222) and the atomic number decreases by 2 (88 - 2 = 86). The daughter is radon-222. Balancing nuclear equations requires conserving both mass number (superscripts) and atomic number (subscripts) on both sides."
 
-- question: "After exactly three half-lives, a radioactive sample has decayed to zero — it is completely gone."
+- question: "After exactly three half-lives, a radioactive sample has decayed to zero — it is largely gone."
   type: true-false
   answer: false
   explanation: "Half-life describes exponential decay: after one half-life, 50% remains; after two, 25%; after three, 12.5%. The amount approaches zero asymptotically but never actually reaches it mathematically. Practically, samples become negligible after many half-lives, but there is no point at which the last atom decays predictably. The misconception arises from treating half-life like a countdown timer rather than a statistical rate."

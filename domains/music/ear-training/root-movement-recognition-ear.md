@@ -55,7 +55,7 @@ Play or listen to chord progressions, then mentally identify where each chord's 
   answer: true
   explanation: "Fourth/fifth root movement (V→I, IV→I, II→V) is the engine of functional tonal harmony. The large intervallic contrast between roots creates maximum tonal differentiation and drives the sense of harmonic direction and arrival. Stepwise root motion (I→II, VI→VII) shares more common tones between adjacent chords, creating smoother voice leading but weaker functional pull. This is why strong cadences always involve root movement by fourth or fifth, never by step."
 
-- question: "The bass note of a chord always indicates the chord's root."
+- question: "The bass note of a chord typically indicates the chord's root."
   type: true-false
   answer: false
   explanation: "The bass note indicates the chord's lowest voice, which may be the root (root position), third (first inversion), fifth (second inversion), or seventh (third inversion). Identifying the root requires recognizing the chord's quality and determining which note functions as the foundational pitch, independent of register. A first-inversion tonic chord still has the tonic as its root — the bass just happens to be the third. Hearing root movement accurately requires seeing through inversion to the underlying harmonic root."

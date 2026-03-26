@@ -54,7 +54,7 @@ A statistical ensemble is a collection of all possible microstates consistent wi
   answer: true
   explanation: "Energy fluctuations in the canonical ensemble scale as √N (the standard deviation of energy), while the mean energy scales as N. The relative fluctuation is ~1/√N, which approaches zero as N → ∞. For a macroscopic system with N ~ 10²³ particles, this means the canonical ensemble's energy is effectively fixed at its mean value — indistinguishable from the microcanonical constraint of truly fixed energy. This equivalence justifies choosing ensembles purely for mathematical convenience."
 
-- question: "To correctly analyze a system at fixed temperature in contact with a heat bath, you must use the canonical ensemble; using the microcanonical ensemble would give incorrect thermodynamic predictions."
+- question: "To correctly analyze a system at fixed temperature in contact with a heat bath, you should use the canonical ensemble; using the microcanonical ensemble would give incorrect thermodynamic predictions."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about ensembles. In the thermodynamic limit, all three ensembles (microcanonical, canonical, grand canonical) give identical predictions for macroscopic quantities. A physicist may use the microcanonical ensemble for a system at fixed temperature — or the canonical ensemble for an isolated system — and obtain the same thermodynamic results either way. The choice of ensemble is purely a matter of mathematical convenience, not physical accuracy. The ensemble that makes the calculation tractable is always the right one to use."

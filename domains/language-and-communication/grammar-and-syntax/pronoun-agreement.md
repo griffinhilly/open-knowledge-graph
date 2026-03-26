@@ -55,7 +55,7 @@ Focus on the trickiest categories: indefinite pronouns (anyone, each, everybody)
   answer: 2
   explanation: "When antecedents are joined by 'or' or 'nor,' the pronoun agrees with the closest antecedent — the one immediately before the verb. Here 'coach' (singular) is closest, so the pronoun is singular: 'her' (or 'his' if the coach is male, or 'their' for gender-neutral). This proximity rule is counterintuitive because students expect agreement with the whole compound, but 'or/nor' presents alternatives, not combinations."
 
-- question: "The sentence 'Everyone forgot their lunch' is grammatically incorrect because 'everyone' is singular and must take a singular pronoun like 'his' or 'her.'"
+- question: "The sentence 'Everyone forgot their lunch' is grammatically incorrect because 'everyone' is singular and is expected to take a singular pronoun like 'his' or 'her.'"
   type: true-false
   answer: false
   explanation: "Singular 'they' is now widely accepted as the standard pronoun for indefinite antecedents like 'everyone,' 'someone,' and 'each.' Major style guides (Chicago, APA, MLA) endorse it. Moreover, singular 'they' has a long history in English — Shakespeare used it. The insistence on 'his' or 'his or her' reflects older prescriptive grammar, not current standard usage."

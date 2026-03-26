@@ -50,7 +50,7 @@ Gadamer's hermeneutics rejects both historicism and the illusion of objective in
   answer: 1
   explanation: "Horizontverschmelzung (fusion of horizons) describes the interpretive encounter itself: the interpreter's horizon (their assumptions, knowledge, and historical situation) meets the work's horizon (the world, questions, and concerns out of which the work emerged). Neither horizon simply absorbs the other. Instead, a new understanding emerges from the dialogue that belongs to neither horizon alone. Crucially, the interpreter is transformed — they come away with an expanded horizon that includes something it did not contain before. This is why Gadamer treats art as a model for understanding in general."
 
-- question: "For Gadamer, the 'prejudices' (pre-judgments) that interpreters bring to artworks are obstacles to genuine understanding that must be identified and eliminated."
+- question: "For Gadamer, the 'prejudices' (pre-judgments) that interpreters bring to artworks are obstacles to genuine understanding that should be identified and eliminated."
   type: true-false
   answer: false
   explanation: "Gadamer deliberately rehabilitates the word 'prejudice' (Vorurteil) against the Enlightenment's purely negative view of it. Pre-judgments are not obstacles to understanding — they are its necessary conditions. You cannot interpret from a blank slate; every act of understanding begins from within a tradition, a cultural formation, a set of assumptions. The goal is not to eliminate pre-judgments but to make them conscious and open to revision through dialogue with the work. Understanding occurs when your pre-judgments are tested, refined, or expanded by the encounter — not when they are artificially suppressed."

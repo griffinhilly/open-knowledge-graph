@@ -54,7 +54,7 @@ Examine designs in the wild—posters, websites, magazine layouts, product packa
   answer: 1
   explanation: "The core value of learning design principles is diagnostic: they give you a conceptual vocabulary for identifying *why* something works or fails. 'This feels off' becomes 'the visual hierarchy is unclear because nothing has emphasis' or 'the composition is chaotic because there's no unifying repetition.' Without this vocabulary, critique remains vague; with it, you can identify and fix specific problems."
 
-- question: "Design principles like balance and contrast apply only to fine art and graphic design, not to functional contexts like UI design or wayfinding signage."
+- question: "Design principles like balance and contrast apply primarily to fine art and graphic design, not to functional contexts like UI design or wayfinding signage."
   type: true-false
   answer: false
   explanation: "Design principles are universal — they describe how human perception works, not the conventions of a particular medium. Balance, contrast, emphasis, movement, pattern, proportion, and unity operate in mobile app interfaces, highway signs, product packaging, architectural facades, and typographic layouts. The principles emerge from perceptual psychology, which is medium-independent."

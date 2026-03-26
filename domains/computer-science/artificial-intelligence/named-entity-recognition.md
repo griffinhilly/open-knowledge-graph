@@ -55,7 +55,7 @@ Implement NER using BiLSTM-CRF and compare with transformer-based models (BERT f
   answer: true
   explanation: "Consider 'Steve Jobs' and 'Tim Cook' appearing consecutively. Without B/I markers, both would be labeled PER PER PER PER — indistinguishable from one four-word person name or any other grouping. The B-PER tag marks the start of a new entity, resetting the boundary, while I-PER marks continuation. This scheme also allows adjacent entities of the same type to be correctly segmented."
 
-- question: "A BiLSTM-CRF NER model assigns each token a label based only on that token and its immediate neighbors, making it fundamentally similar to an n-gram classifier."
+- question: "A BiLSTM-CRF NER model assigns each token a label based primarily on that token and its immediate neighbors, making it fundamentally similar to an n-gram classifier."
   type: true-false
   answer: false
   explanation: "The 'Bi' in BiLSTM stands for bidirectional — the model processes the full sentence in both left-to-right and right-to-left directions. Each token's representation is informed by the entire sentence context on both sides, not just local neighbors. This global context is one of the BiLSTM's core advantages over n-gram approaches and is what allows it to resolve long-range dependencies in entity spans."

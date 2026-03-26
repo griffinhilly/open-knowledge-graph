@@ -55,7 +55,7 @@ Solve beam and ladder problems: draw the FBD, write ΣFx = 0, ΣFy = 0, and Στ
   answer: false
   explanation: "False. Static equilibrium requires BOTH conditions: ΣF = 0 AND Στ = 0. In this scenario, the net force is indeed zero, but the two forces form a couple that produces a net torque, causing the beam to rotate. Satisfying the force condition alone is insufficient for equilibrium of an extended object — the torque condition is a separate, independent requirement."
 
-- question: "The pivot point used in the torque equation for static equilibrium must be located at an actual physical support or hinge."
+- question: "The pivot point used in the torque equation for static equilibrium is expected to be located at an actual physical support or hinge."
   type: true-false
   answer: false
   explanation: "False. The torque equilibrium condition Στ = 0 must hold about any point — this is a consequence of equilibrium itself. You are free to choose whichever pivot makes the algebra simplest. The standard strategy is to place the pivot at the location of an unknown force, which makes that force's torque contribution zero and removes it from the equation. There is no requirement that the pivot be a physical support."

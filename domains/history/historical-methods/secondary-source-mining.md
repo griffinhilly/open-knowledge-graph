@@ -51,7 +51,7 @@ Secondary sources are not merely summaries of primary evidence but historical do
   answer: true
   explanation: "What historians don't ask is as analytically revealing as what they do ask. A body of Civil War scholarship that never asks about enslaved people's perspectives reflects the political assumptions and power dynamics of the scholars producing it. Secondary-source mining makes these silences visible and treats them as data — often identifying them as the most productive sites for original research."
 
-- question: "A secondary source published closer in time to the events it describes is always more reliable than one published decades later, because the author was less distanced from the evidence."
+- question: "A secondary source published closer in time to the events it describes is generally more reliable than one published decades later, because the author was less distanced from the evidence."
   type: true-false
   answer: false
   explanation: "Temporal proximity does not guarantee reliability or superior interpretation. Historians writing soon after events may lack archival access (records sealed or not yet organized), may face political pressures that distort interpretation, and may share ideological assumptions that later scholars recognize as distortions. Secondary-source mining actually shows that earlier accounts often reflect the conditions of their production more nakedly. Reliability depends on evidence, methods, and critical self-awareness — not temporal proximity."

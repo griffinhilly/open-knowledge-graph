@@ -52,7 +52,7 @@ Configure VLANs on a managed switch or in a network simulator; test that frames 
   answer: 1
   explanation: "VLANs provide Layer 2 isolation but not true security. VLAN-hopping attacks (exploiting misconfigured trunk ports) can let an attacker reach other VLANs. More fundamentally, any traffic that crosses between the accounting VLAN and other systems must pass through a router, which must apply access control lists and firewall rules to enforce security policy. Real security requires Layer 3 controls, not just VLAN assignment. VLANs are a segmentation and performance tool that complements security — they are not themselves a security boundary."
 
-- question: "A trunk port connecting two managed switches carries traffic for only the VLAN assigned to that port."
+- question: "A trunk port connecting two managed switches carries traffic for mainly the VLAN assigned to that port."
   type: true-false
   answer: false
   explanation: "This describes an *access* port, not a trunk port. An access port belongs to exactly one VLAN and connects to end devices. A *trunk* port carries traffic for multiple VLANs simultaneously between switches, using 802.1Q VLAN tagging — each frame gets a header inserted that identifies its VLAN ID, allowing the receiving switch to correctly forward or filter it. Trunk ports are what make it possible to span a single VLAN across multiple physical switches and carry many VLANs over one physical link."

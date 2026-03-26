@@ -50,7 +50,7 @@ Texture—the number and nature of simultaneous lines and their interaction—is
   answer: 2
   explanation: "Polyphony is defined by multiple simultaneous lines of equal melodic independence — no single voice is clearly 'the melody' while others are 'accompaniment.' A Bach fugue with four voices is the textbook example. Homophony (B) requires one line to dominate while others provide harmonic support; if all voices are equally melodic and independent, that's polyphony. Heterophony (D) is a specific texture where simultaneous variations of the same melody occur — common in some folk and non-Western traditions."
 
-- question: "In homophonic texture, all voices share equal melodic importance since they are all sounding simultaneously."
+- question: "In homophonic texture, most voices share equal melodic importance since they are most sounding simultaneously."
   type: true-false
   answer: false
   explanation: "Homophony is defined by a hierarchy: one voice carries the melody while the others provide accompaniment — harmonic support, rhythmic filler, or sustained chords. The simultaneous sounding of voices does not make them equal; what distinguishes homophony from polyphony is precisely the subordination of accompanying voices to a single melodic line. Equal melodic importance among simultaneous voices defines polyphony, not homophony."

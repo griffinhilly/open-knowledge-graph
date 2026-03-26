@@ -56,7 +56,7 @@ Selection bias occurs when the units who receive treatment systematically differ
   answer: 1
   explanation: "Matching balances the distribution of observed covariates between treated and control groups, addressing selection on observables. But it does nothing for selection on unobservables — unmeasured differences (motivation, ambition, health) may still differ systematically between groups. A well-matched study can still have severe selection bias if an important confounder is unmeasured. This is why causal inference often requires IV, DiD, or RD when selection on unobservables is plausible."
 
-- question: "Selection bias occurs only when researchers use data collected non-randomly; using large datasets eliminates the problem."
+- question: "Selection bias occurs primarily when researchers use data collected non-randomly; using large datasets eliminates the problem."
   type: true-false
   answer: false
   explanation: "False. Selection bias is about the mechanism by which units enter treatment, not the size of the dataset. A massive observational dataset can have severe selection bias if those who choose treatment differ systematically from those who don't. The solution is not more data but an identification strategy that addresses how units self-selected into treatment — random assignment, an instrument, a discontinuity, or differencing."

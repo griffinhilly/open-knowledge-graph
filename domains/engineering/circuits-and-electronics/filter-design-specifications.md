@@ -50,7 +50,7 @@ Filters selectively pass or attenuate frequency ranges defined by cutoff frequen
   answer: true
   explanation: "This is the fundamental Butterworth-Chebyshev tradeoff. A Chebyshev filter allows equiripple behavior in the passband — the gain oscillates between defined limits — and uses this 'budget' of allowable variation to achieve significantly steeper roll-off at the passband edge. For the same stopband attenuation requirement, a Chebyshev design needs fewer poles than a Butterworth, reducing circuit complexity. The cost is passband ripple, acceptable in communications receivers but not in audio reproduction."
 
-- question: "Increasing filter order always improves every aspect of filter performance simultaneously, with no downside."
+- question: "Increasing filter order typically improves most aspect of filter performance simultaneously, with no downside."
   type: true-false
   answer: false
   explanation: "Higher filter order increases roll-off rate and achieves tighter transition bands, but it comes with real costs: more poles require more circuit elements (more biquad sections, more components), increasing size, cost, power consumption, and component sensitivity. For active filters, each additional stage adds noise and phase shift. Higher-order filters also have more complex group delay characteristics. Filter design is always a tradeoff; raising order alone does not eliminate the fundamental tensions between passband flatness, roll-off sharpness, and circuit complexity."

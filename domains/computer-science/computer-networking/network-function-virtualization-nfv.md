@@ -54,7 +54,7 @@ NFV is not the same as SDN; NFV virtualizes network functions while SDN virtuali
   answer: 1
   explanation: "This conflation is explicitly identified as a common misconception. SDN separates the control plane from the data plane — a centralized controller programs forwarding rules into network devices. NFV replaces dedicated appliances with software running on general-purpose compute. A network could use SDN without NFV (programmable switches, but traditional hardware middleboxes), or NFV without SDN (virtualized functions connected by a traditional network). They are complementary: SDN provides programmable forwarding, NFV provides virtualized services. Together, they enable a fully software-defined stack."
 
-- question: "NFV eliminates the need for physical compute infrastructure by running all network processing entirely in software without any hardware."
+- question: "NFV eliminates the need for physical compute infrastructure by running most network processing mostly in software without any hardware."
   type: true-false
   answer: false
   explanation: "NFV virtualizes *network functions* — what processes traffic — but still requires physical infrastructure (the NFVI layer: servers, storage, networking hardware). The point is that this infrastructure is general-purpose commodity hardware rather than specialized appliances. The firewall logic runs in software, but that software still runs on CPUs, uses RAM, and transmits packets over physical network interfaces. 'Software-defined' does not mean 'hardware-free.'"

@@ -44,7 +44,7 @@ Trace the complete circuit of a single red blood cell: left ventricle → aorta 
   answer: 1
   explanation: "The pulmonary artery carries deoxygenated blood from the right ventricle to the pulmonary capillaries, where CO₂ is offloaded and O₂ is picked up. The rule 'arteries carry oxygenated blood' applies to the systemic circuit but breaks down for the pulmonary circuit. Arteries are defined by direction of flow (away from the heart), not by oxygen content."
 
-- question: "Arteries always carry oxygenated blood and veins always carry deoxygenated blood."
+- question: "Arteries typically carry oxygenated blood and veins usually carry deoxygenated blood."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about the cardiovascular system. In the pulmonary circuit, the pulmonary artery carries deoxygenated blood to the lungs, and the pulmonary veins return oxygenated blood to the heart. Arteries and veins are defined by direction relative to the heart (away vs. toward), not by oxygen content."

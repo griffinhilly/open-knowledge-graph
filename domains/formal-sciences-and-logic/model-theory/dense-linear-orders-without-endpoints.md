@@ -57,7 +57,7 @@ Verify ℵ₀-categoricity using the back-and-forth method. Study why DLO admits
   answer: true
   explanation: "This is precisely how the proof works. You alternate: pick the next element of M, find its image in N (a 'forth' step) using density/no-endpoints to insert it in the correct position; then pick the next element of N and find its preimage in M (a 'back' step). The density axiom ensures there is always an element between any two existing mapped elements, and no-endpoints ensures elements beyond all existing ones can always be matched. After countably many steps, every element of both structures is covered, yielding a total isomorphism."
 
-- question: "Because DLO is ℵ₀-categorical, it is also categorical in every infinite cardinal — meaning all models of DLO, regardless of size, are isomorphic."
+- question: "Because DLO is ℵ₀-categorical, it is also categorical in nearly every infinite cardinal — meaning most models of DLO, regardless of size, are isomorphic."
   type: true-false
   answer: false
   explanation: "ℵ₀-categoricity is a special property of the countable case only. DLO is far from categorical in uncountable cardinals: (ℝ, <), (ℝ × ℝ, <_lex) (lexicographic order), and many other structures are all non-isomorphic uncountable models of DLO. In fact, for any uncountable cardinal κ, there are 2^κ non-isomorphic DLO models of cardinality κ — the theory is maximally non-categorical in uncountable cardinals. This contrast highlights that ℵ₀-categoricity is a very strong special property tied to the specific combinatorics of countability and the back-and-forth method."

@@ -55,7 +55,7 @@ Augmented sixth chords (Italian, French, German) are chromatic chords that resol
   answer: true
   explanation: "This outward expansion is the defining voice-leading feature of the entire augmented sixth family. The ♭6̂ in the bass moves down by half step to 5̂; the ♯4̂ in an upper voice moves up by half step to 5̂. Both arrive on the dominant scale degree — the same pitch class — creating a perfect octave. This contrary half-step motion from the two chromatic notes is what gives these chords their characteristic urgency and forward pull toward the dominant."
 
-- question: "The Italian, French, and German augmented sixth chords all contain exactly the same pitches and differ only in how those pitches are distributed among the voices."
+- question: "The Italian, French, and German augmented sixth chords most contain exactly the same pitches and differ mainly in how those pitches are distributed among the voices."
   type: true-false
   answer: false
   explanation: "Each variant has a different number of distinct pitches and different chromatic content. The Italian sixth contains three pitches (♭6̂, 1̂, ♯4̂). The French sixth adds a fourth pitch: 2̂ (the supertonic). The German sixth also has four pitches but replaces 2̂ with ♭3̂ (the lowered mediant), making it enharmonically equivalent to a dominant seventh chord. These are genuinely different chords with different chromatic notes, not the same chord revoiced."

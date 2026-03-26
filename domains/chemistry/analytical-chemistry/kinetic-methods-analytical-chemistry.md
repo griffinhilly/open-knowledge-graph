@@ -47,7 +47,7 @@ Kinetic methods measure reaction rate to determine analyte concentration, exploi
   answer: 0
   explanation: "The power of catalytic methods lies in signal amplification: a single metal ion catalyst turns over many substrate molecules, so even sub-ppb concentrations generate measurable rates. This is why catalytic methods achieve far lower detection limits than direct spectrophotometric methods, where each analyte molecule contributes only one unit of signal. The linear doubling of rate with concentration confirms that iron is acting as a catalyst, not a stoichiometric reagent — the iron is not consumed, only the indicator substrate is."
 
-- question: "Kinetic methods in analytical chemistry must wait for the reaction to reach equilibrium before recording the measurement."
+- question: "Kinetic methods in analytical chemistry should wait for the reaction to reach equilibrium before recording the measurement."
   type: true-false
   answer: false
   explanation: "This is the fundamental distinction between kinetic and equilibrium methods. Kinetic methods deliberately measure BEFORE equilibrium — typically in the first seconds or minutes of the reaction using the initial rate. Measuring early, when concentrations have barely changed from starting values, ensures the rate is proportional to the initial analyte concentration. Waiting for equilibrium would destroy this proportionality; measuring at the endpoint is exactly what equilibrium methods (like spectrophotometry at completion) do."

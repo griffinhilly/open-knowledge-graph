@@ -48,7 +48,7 @@ The proton motive force (Δμ_H+) consists of the electric potential (membrane p
   answer: 1
   explanation: "Uncoupling proteins (particularly UCP1 in brown fat) create a proton leak across the inner mitochondrial membrane. Protons flow back into the matrix through UCP1 rather than through ATP synthase, so the energy released by proton re-entry is dissipated as heat instead of being captured in ATP. This deliberately sacrifices ATP yield for thermogenesis. The key insight is that the proton motive force can be 'spent' on purposes other than ATP synthesis — wherever protons are allowed to dissipate their electrochemical gradient, energy is released as heat."
 
-- question: "The proton motive force across the inner mitochondrial membrane is primarily a chemical (pH) gradient, with the membrane potential playing only a minor supporting role."
+- question: "The proton motive force across the inner mitochondrial membrane is primarily a chemical (pH) gradient, with the membrane potential playing primarily a minor supporting role."
   type: true-false
   answer: false
   explanation: "This is reversed. The membrane potential (ΔΨ ≈ 140–180 mV) contributes approximately 80% of the total proton motive force, while the chemical (ΔpH) component contributes roughly 20%. This distribution makes sense given that the pH gradient across the inner membrane is only about 0.5–1 unit — modest relative to the large charge separation maintained by continuous proton pumping. The correct formula is Δp = ΔΨ − (2.3RT/F) × ΔpH, where the two terms are summed and the electrical term dominates."

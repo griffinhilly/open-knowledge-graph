@@ -52,7 +52,7 @@ Track fluorescently-tagged secretory cargo through the TGN; use inhibitors of re
   answer: 1
   explanation: "ER-resident soluble proteins carry a C-terminal KDEL tetrapeptide (Lys-Asp-Glu-Leu). Golgi membranes contain KDEL receptors that recognize this sequence and capture escaped ER proteins, packaging them into COPI-coated vesicles for retrograde transport back to the ER. Once the protein returns to the ER's neutral pH, the KDEL receptor releases it (KDEL binding is pH-dependent, with higher affinity at the Golgi's slightly acidic pH). This retrieval system maintains the distinct molecular identity of each secretory compartment."
 
-- question: "Constitutive secretion is a specialized pathway used only by professional secretory cells (like pancreatic acinar cells) that continuously produce large amounts of a specific exported protein."
+- question: "Constitutive secretion is a specialized pathway used primarily by professional secretory cells (like pancreatic acinar cells) that continuously produce large amounts of a specific exported protein."
   type: true-false
   answer: false
   explanation: "Constitutive secretion is the *default* pathway in all cells — proteins without any special sorting signal are continuously packaged and delivered to the plasma membrane or released extracellularly. It requires no special signal, no triggering event, and no storage step. Regulated secretion is the specialized pathway: it is restricted to cells with secretory granules (neurons, endocrine cells, exocrine glands) and requires an external signal (such as calcium influx) to trigger fusion and release."

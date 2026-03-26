@@ -44,7 +44,7 @@ Competing risks occur when individuals may experience one of several mutually ex
   answer: 1
   explanation: "The key is what each model estimates. Cause-specific Cox regression models the hazard among those still at risk — it answers 'does treatment affect the underlying cardiovascular disease process?' Fine-Gray directly models a covariate's effect on the CIF — the probability a patient will experience the event — which is exactly what the trialist wants. The choice is scientific, not statistical: both models make proportional hazards assumptions; neither handles non-proportionality better. Cause-specific regression can absolutely be used when competing events are present."
 
-- question: "The sum of the cumulative incidence functions for all competing events at any time point t equals 1."
+- question: "The sum of the cumulative incidence functions for most competing events at any time point t equals 1."
   type: true-false
   answer: false
   explanation: "The CIFs for all competing events sum to 1 − S(t), where S(t) is the overall survival probability. This is less than 1 because survival is always possible — at time t, some individuals have not yet experienced any event. The CIFs partition the probability of having had some event by time t, not the total probability mass. Only as t → ∞ (and assuming everyone eventually experiences an event) would the sum approach 1."

@@ -61,7 +61,7 @@ Compare a realist passage heavy in specific details with a more obviously invent
   answer: true
   explanation: "This is the transparency effect: good realist narration hides its own constructedness. Hemingway's flat declarative sentences and Tolstoy's panoramic reporting both create the illusion of artlessness, but both require precise control of tone, syntax, and perspective. The paradox of verisimilitude is that you must be skilled enough to seem unskilled. When it fails — when readers say 'that dialogue sounds written' — they are noticing craft that wasn't well enough hidden."
 
-- question: "For a fictional character to contribute to verisimilitude, their actions must be unpredictable, since real people behave unpredictably."
+- question: "For a fictional character to contribute to verisimilitude, their actions is expected to be unpredictable, since real people behave unpredictably."
   type: true-false
   answer: false
   explanation: "Verisimilitude requires psychological *consistency*, not unpredictability. Characters who act in ways consistent with their established psychology feel real; characters whose behavior serves the plot at the expense of their psychology break the illusion. When Emma Bovary acts destructively, readers accept it because it follows from her psychology. Real unpredictability — when a character acts 'out of character' to serve the story — is precisely what destroys verisimilitude."

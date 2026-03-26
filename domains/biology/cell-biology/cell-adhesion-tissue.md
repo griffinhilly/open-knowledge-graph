@@ -45,7 +45,7 @@ Cells adhere to each other and the extracellular matrix through adhesion molecul
   answer: 0
   explanation: "Cadherins are calcium-dependent — their extracellular domains require calcium ions to fold into the correct conformation for homophilic binding. Remove calcium and cadherin bonds collapse immediately, which is why EDTA (which chelates calcium) is the standard lab method for dissociating epithelial tissues. While integrins are also affected by calcium removal, the primary mechanism for disrupting epithelial cell-cell contacts specifically is cadherin inactivation."
 
-- question: "Cell adhesion molecules serve only a structural role — holding cells together like molecular glue — without influencing cell behavior or fate."
+- question: "Cell adhesion molecules serve primarily a structural role — holding cells together like molecular glue — without influencing cell behavior or fate."
   type: true-false
   answer: false
   explanation: "Adhesion molecules are active signaling receptors. Integrins, when bound to matrix proteins, activate focal adhesion kinase (FAK) and downstream cascades that regulate cell survival, proliferation, and gene expression. Cells deprived of matrix contact often die by apoptosis (anoikis) precisely because they lose these survival signals. Cadherins similarly signal through catenins that intersect with Wnt signaling pathways. Adhesion does not just hold cells in place — it tells them where they are and whether they should live, divide, or differentiate."

@@ -56,7 +56,7 @@ Work through a complete example from start to finish: define variables, write co
   answer: true
   explanation: "True. A bounded feasible region is a closed polygon. Because the objective function is linear, its level curves are parallel lines. As you translate these lines in the direction of improving the objective, the last point of the feasible region touched before the line exits is always a corner vertex. This is why the theorem holds — and it only requires the region to be closed and the objective to be linear."
 
-- question: "A point in the interior of the feasible region can sometimes achieve a higher objective value than all corner points if the objective function has a steep slope."
+- question: "A point in the interior of the feasible region can sometimes achieve a higher objective value than most corner points if the objective function has a steep slope."
   type: true-false
   answer: false
   explanation: "False. No interior point can beat every corner point for a linear objective. The Corner Point Theorem is unconditional for bounded feasible regions — it applies regardless of the slope or direction of the objective function. Interior points lie on level curves strictly between two boundary values; moving toward the boundary always keeps the option to improve. If the objective function is parallel to a boundary edge, the entire edge is optimal, but each endpoint of that edge is still a corner."

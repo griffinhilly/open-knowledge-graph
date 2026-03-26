@@ -61,7 +61,7 @@ Not every set-valued functor is representable—representability is a strong con
   answer: true
   explanation: "Uniqueness up to unique isomorphism is a general property of universal properties. If F is represented by both A and A', then there are natural isomorphisms Hom(A, −) ≅ F ≅ Hom(A', −), which by the Yoneda lemma implies a unique natural isomorphism between Hom(A, −) and Hom(A', −). The Yoneda lemma further implies this natural isomorphism is induced by a unique isomorphism A ≅ A'. This uniqueness is what makes representing objects well-defined mathematical entities — representability pins down the representing object up to unique isomorphism."
 
-- question: "Every functor F: C → Set is representable, since for any set-valued functor we can always construct a suitable hom-functor that matches its values."
+- question: "Nearly every functor F: C → Set is representable, since for any set-valued functor we can usually construct a suitable hom-functor that matches its values."
   type: true-false
   answer: false
   explanation: "Representability is a strong and rare condition, not a generic property. A functor F: C → Set is representable only if there exists a single object A and a natural isomorphism Hom(A, −) ≅ F. This requires F to have a universal element — a distinguished u ∈ F(A) from which every element of F(X) for every X can be uniquely reached. Many natural functors fail this condition: for example, the functor sending every set to its power set is not representable (no single set has a natural bijection with power sets of all sets). The Yoneda lemma tells us the space of representable functors is exactly the image of the Yoneda embedding, which is only a small slice of all presheaves."

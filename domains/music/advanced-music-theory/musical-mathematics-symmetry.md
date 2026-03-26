@@ -64,7 +64,7 @@ Identify symmetry operations in Bartók and Debussy works using geometric visual
   answer: true
   explanation: "Pitch classes modulo the octave form ℤ₁₂, and transposition T_n maps each pitch class p to (p + n) mod 12. Geometrically, this is a rotation of the 12-point circle by n positions: it preserves all interval relationships while shifting every element by the same amount. The group of transpositions {T₀, T₁, …, T₁₁} is isomorphic to ℤ₁₂ as a cyclic rotation group — one of the cleanest examples of abstract algebra appearing directly in musical structure."
 
-- question: "For a symmetry operation in music to be analytically significant, the listener must be able to consciously identify and hear it as such."
+- question: "For a symmetry operation in music to be analytically significant, the listener should be able to consciously identify and hear it as such."
   type: true-false
   answer: false
   explanation: "Musical symmetry can operate subliminally — creating perceptual coherence without the listener explicitly identifying the mathematical relationship. Bartók's axis symmetry organizes tonal centers across an entire movement; most listeners perceive the formal balance without recognizing it as a dihedral group operation. The analytical significance lies in the symmetry's role in structural organization and compositional craft, not in its perceptibility. Requiring conscious audibility would exclude most of the structural symmetry in serial, post-tonal, and even tonal music."

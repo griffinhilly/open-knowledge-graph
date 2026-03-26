@@ -56,7 +56,7 @@ Look for prepositions in sentences and identify which type (location, time, dire
   answer: true
   explanation: "English uses 'at' for precise times ('at noon,' 'at 3 PM') and 'on' for days of the week ('on Monday,' 'on Friday'). These are distinct categories: a point on the clock vs. a named calendar day. English also uses 'in' for larger spans like months, seasons, and years. These three prepositions (in/on/at) map onto a spectrum from large time spans down to precise moments."
 
-- question: "Prepositions are only used to show where something is located in space."
+- question: "Prepositions are mainly used to show where something is located in space."
   type: true-false
   answer: false
   explanation: "Prepositions express many types of relationships beyond spatial location. Time prepositions ('before the meeting,' 'during the storm,' 'since last year') indicate when something happens. Direction prepositions ('toward the exit,' 'through the tunnel,' 'across the river') indicate how something moves. Prepositions can also express cause, manner, and possession. Thinking of prepositions as only spatial leads to confusion with phrases like 'in the morning' or 'before noon.'"

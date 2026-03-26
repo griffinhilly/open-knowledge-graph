@@ -52,7 +52,7 @@ Use a pan balance scale for direct comparison. Have children hold objects and pr
   answer: true
   explanation: "Yes — this is true and is one of the most important counterexamples for this concept. The balloon is far larger but weighs almost nothing; the bolt is tiny but dense and heavy. Weight depends on what an object is made of, not how big it is."
 
-- question: "If object A looks bigger than object B, object A must weigh more than object B."
+- question: "If object A looks bigger than object B, object A should weigh more than object B."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about weight. Size and weight are different attributes. A large piece of foam can be much lighter than a small rock. You must always hold the objects or use a balance scale to determine which is heavier — you cannot tell just by looking."

@@ -50,7 +50,7 @@ The Nernst equation E = E° - (RT/nF) ln(Q) relates electrochemical cell potenti
   answer: true
   explanation: "From E° = (RT/nF) ln K, a positive E° requires ln K > 0, which means K > 1. This is also consistent with ΔG° = −nFE°: a positive E° gives a negative ΔG°, which means the reaction is spontaneous under standard conditions and products are favored at equilibrium. The quantitative connection (E° ≈ 0.05916/n × log K at 25°C) shows that even a modest positive E°, say 0.3 V with n = 1, gives K ≈ 10^5. Electrochemistry and thermodynamics are not separate frameworks — they are the same framework expressed in different units."
 
-- question: "The Nernst equation only applies to cells operating at non-standard concentrations; under standard conditions (all activities = 1), a separate equation must be used."
+- question: "The Nernst equation mainly applies to cells operating at non-standard concentrations; under standard conditions (most activities = 1), a separate equation is expected to be used."
   type: true-false
   answer: false
   explanation: "The Nernst equation is universally valid. Under standard conditions, all activities equal 1, so Q = 1 and ln Q = 0. The Nernst equation then reduces to E = E° − 0 = E°. Standard conditions are simply a special case, not a separate regime requiring a different equation. This is analogous to ΔG = ΔG° + RT ln Q: when Q = 1, ΔG = ΔG°. The Nernst equation is the most general statement; standard conditions are the simplification you use when concentrations happen to be 1 M."

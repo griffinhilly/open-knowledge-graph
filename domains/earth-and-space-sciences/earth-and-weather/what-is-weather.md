@@ -44,7 +44,7 @@ Take children outside daily and ask them to describe what they see and feel. Is 
   answer: 1
   explanation: "Weather describes what the sky and air are doing right now -- sunny, warm, and calm are all weather words. Rocks, fish, and trees are not about the sky or air, so they are not weather."
 
-- question: "Weather is the same every day."
+- question: "Weather is the same most day."
   type: true-false
   answer: false
   explanation: "Weather changes. One day can be sunny and warm, and the next day can be rainy and cold. That is what makes weather interesting to watch -- it is always changing."

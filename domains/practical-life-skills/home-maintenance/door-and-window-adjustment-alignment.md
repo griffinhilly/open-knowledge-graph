@@ -60,7 +60,7 @@ A sticking door requires replacement (usually fixable with adjustment); shimming
   answer: true
   explanation: "This is a standard repair technique that works reliably. The wood filler (toothpicks and glue) fills the stripped void and gives the screw fresh wood fibers to grip. It restores the mechanical strength of the connection without needing to replace the hinge or the door jamb. This illustrates the broader principle: most door hardware problems are fixable with simple techniques, not replacement."
 
-- question: "A double-hung window that won't stay open in the raised position typically requires a full window replacement, since the sash mechanism cannot be repaired separately."
+- question: "A double-hung window that won't stay open in the raised position typically requires a full window replacement, since the sash mechanism can seldom be repaired separately."
   type: true-false
   answer: false
   explanation: "A window that won't stay open has a weakened or broken balance spring — the spring-loaded mechanism that counterbalances the sash weight. Balance springs are replaceable parts that can be ordered by window brand and size. This is a component repair, not a whole-unit replacement. The broader misconception — that malfunctioning windows or doors need full replacement — is the most expensive mistake homeowners make."

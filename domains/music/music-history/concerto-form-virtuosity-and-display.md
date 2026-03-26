@@ -63,7 +63,7 @@ Analyze the first movement of Mozart or Beethoven concertos to understand double
   answer: true
   explanation: "The tonic six-four chord (I⁶₄) is harmonically unstable — it functions as a dominant preparation, not a point of arrival. The orchestra pauses here and the soloist takes over, using the cadenza to ornament this suspended dominant tension. The closing trill is a conventional signal that the dominant has been prolonged enough and is ready to resolve. The orchestra re-enters and closes the movement with a brief coda that resolves to the tonic. This is not convention for its own sake: it is the formal mechanism that makes the cadenza structurally intelligible."
 
-- question: "In a Classical concerto's double exposition, the solo exposition presents entirely different thematic material from what the orchestra played, creating a contrast between two independent musical arguments."
+- question: "In a Classical concerto's double exposition, the solo exposition presents largely different thematic material from what the orchestra played, creating a contrast between two independent musical arguments."
   type: true-false
   answer: false
   explanation: "The solo exposition presents the same thematic material as the orchestral exposition — that is the point of 'double' exposition. What changes is the treatment: the soloist elaborates, ornaments, and adds idiomatic figuration to the shared themes, while completing the harmonic journey to the dominant that the orchestra withheld. The shared material allows the audience to perceive the soloist's relationship to the themes as a transformation, not a replacement. Typically the soloist also introduces transitional material idiomatic to the instrument, but the core themes are the same."

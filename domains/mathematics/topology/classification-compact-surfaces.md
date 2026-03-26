@@ -51,7 +51,7 @@ Every compact connected surface without boundary is homeomorphic to either a sph
   answer: true
   explanation: "For the orientable family, genus alone determines the homeomorphism type. The orientable surfaces form a sequence: sphere (g=0), torus (g=1), double torus (g=2), and so on. Any two members of this sequence with the same genus are related by a homeomorphism, and members with different genera are not. This is precisely the content of the classification theorem restricted to orientable surfaces."
 
-- question: "A surface with Euler characteristic −2 must be homeomorphic to the double torus."
+- question: "A surface with Euler characteristic −2 is expected to be homeomorphic to the double torus."
   type: true-false
   answer: false
   explanation: "χ = −2 alone does not determine the surface — orientability also matters. The double torus (orientable, genus 2) has χ = 2 − 2(2) = −2. But the connected sum of four projective planes (non-orientable, k=4) also has χ = 2 − 4 = −2. These two surfaces are NOT homeomorphic. The classification theorem requires both Euler characteristic AND orientability to match; knowing only χ leaves a two-way ambiguity (orientable vs non-orientable)."

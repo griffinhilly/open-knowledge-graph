@@ -47,7 +47,7 @@ Time-varying confounding occurs when a variable is a confounder at some timepoin
   answer: 2
   explanation: "Standard regression divides variables into confounders (condition on them) and mediators (do not condition on them). A time-varying confounder that is also affected by prior exposure belongs to both categories sequentially: it must be conditioned on to remove confounding for future treatment assignments, but doing so blocks the causal effect of prior exposure. This is a structural, not technical, limitation. Cox regression can include time-varying covariates; the issue is not a modeling constraint but a causal identification problem."
 
-- question: "Marginal structural models handle time-varying confounding by including all time-varying covariates directly as predictors in the outcome model."
+- question: "Marginal structural models handle time-varying confounding by including most time-varying covariates directly as predictors in the outcome model."
   type: true-false
   answer: false
   explanation: "Marginal structural models solve the problem by *reweighting* observations rather than conditioning on time-varying covariates. Each subject is assigned an inverse probability of treatment weight (IPTW) based on their covariate history, creating a pseudo-population in which treatment assignment is independent of confounders. The outcome model is then fit in this reweighted pseudo-population without including the time-varying confounder as a covariate. Including the time-varying confounder as a predictor is precisely the mistake that standard regression makes."

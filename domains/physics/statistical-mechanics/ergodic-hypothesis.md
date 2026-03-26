@@ -48,7 +48,7 @@ The ergodic hypothesis asserts that a system in equilibrium, over sufficiently l
   answer: 1
   explanation: "A harmonic oscillator with rational frequency ratio has a trajectory that closes on itself after a finite time, tracing a Lissajous curve on the energy surface. This 1D curve covers only a measure-zero subset of the 2D energy surface — the time average over this trajectory samples only states along the closed orbit, not the full ensemble. For an irrational ratio, the trajectory densely fills the torus (quasi-periodic, not closed), which is closer to ergodic — but even dense filling is not the same as uniform sampling with the correct measure."
 
-- question: "The ergodic hypothesis follows as a theorem from Liouville's theorem combined with energy conservation, so it is rigorously guaranteed for any Hamiltonian system."
+- question: "The ergodic hypothesis follows as a theorem from Liouville's theorem combined with energy conservation, so it is rigorously highly probable for any Hamiltonian system."
   type: true-false
   answer: false
   explanation: "Liouville's theorem proves that phase-space volume is conserved — the probability density evolves like an incompressible fluid. Energy conservation confines the trajectory to the energy surface. Neither implies that the trajectory uniformly explores the entire energy surface. The ergodic hypothesis is an additional postulate that must be verified or assumed case-by-case. It fails for integrable systems (too many conserved quantities), glassy systems (stuck in metastable states), and KAM-theorem islands. It is not a consequence of Hamiltonian mechanics in general."

@@ -44,7 +44,7 @@ Use visual models first: overlay fraction strips of thirds and fourths to see th
   answer: 2
   explanation: "The least common denominator of 2 and 3 is 6. Rewrite: 1/2 = 3/6 and 1/3 = 2/6. Add: 3/6 + 2/6 = 5/6. The answer 2/5 is the classic 'add across' error — adding numerators (1+1=2) and denominators (2+3=5) separately, which is always wrong."
 
-- question: "When finding a common denominator for 1/4 + 1/6, you must use 24 as the denominator."
+- question: "When finding a common denominator for 1/4 + 1/6, you is expected to use 24 as the denominator."
   type: true-false
   answer: false
   explanation: "Any common multiple of 4 and 6 works. The least common multiple is 12, not 24. Using 12 gives 3/12 + 2/12 = 5/12 directly. Using 24 also works (6/24 + 4/24 = 10/24 = 5/12), but requires simplifying afterward. The LCD is preferred for efficiency, not required for correctness."

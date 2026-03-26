@@ -55,7 +55,7 @@ The definition of closed sets by complement may seem indirect, but it reflects a
   answer: 1
   explanation: "A set is closed if and only if its complement is open. The complement of [0,1] is (−∞,0) ∪ (1,∞), which is a union of open intervals and therefore open — so [0,1] is closed. The set (0,1) is open (not closed), [0,1) contains 0 but its complement (−∞,0) ∪ [1,∞) is not open (since 1 is a boundary point with no open neighborhood contained in the complement), and (0,∞) is open."
 
-- question: "The union of infinitely many closed sets is always closed."
+- question: "The union of infinitely many closed sets is typically closed."
   type: true-false
   answer: false
   explanation: "Closed sets are closed under finite unions, but NOT arbitrary (infinite) unions. A classic counterexample: the sets {1/n} for n = 1, 2, 3, … are each closed in ℝ (single points are closed), but their union {1, 1/2, 1/3, …} is not closed — the limit point 0 is not in the set, yet every neighborhood of 0 intersects the union. Contrast with intersections: arbitrary intersections of closed sets ARE always closed."

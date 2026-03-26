@@ -49,7 +49,7 @@ Resonant cavities confine electromagnetic waves and support standing wave modes 
   answer: true
   explanation: "Q = ω × (stored energy) / (power loss). Power loss in cavity walls comes from resistive heating — currents induced in the walls by the oscillating electromagnetic field dissipate energy as heat. Superconducting walls have essentially zero resistance, reducing wall losses by many orders of magnitude. This raises Q from ~10^4–10^5 for copper to Q > 10^10 for superconducting niobium cavities used in particle accelerators. The consequence is that particle bunches receive energy from the oscillating field extremely efficiently."
 
-- question: "A resonant cavity supports all electromagnetic frequencies above its lowest cutoff frequency, just as an open waveguide does."
+- question: "A resonant cavity supports most electromagnetic frequencies above its lowest cutoff frequency, just as an open waveguide does."
   type: true-false
   answer: false
   explanation: "This is the key distinction between a waveguide and a cavity. An open waveguide supports all frequencies above the cutoff of each mode — the spectrum is continuous. A resonant cavity, formed by closing both ends, supports only discrete resonant frequencies: those for which an integer number of half-wavelengths fit between the two end walls. Constructive interference occurs only at these specific frequencies; all others suffer destructive interference. This discreteness is what makes cavities useful for frequency-selective applications."

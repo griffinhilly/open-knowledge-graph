@@ -64,7 +64,7 @@ Compute homology of a simple chain complex of abelian groups by hand: find the k
   answer: 1
   explanation: "H*(CP²; ℤ) and H*(S² ∨ S⁴; ℤ) are isomorphic as graded abelian groups — homology cannot distinguish them. But in cohomology, the generator α ∈ H²(CP²) satisfies α ∪ α ≠ 0 (the cup product generates H⁴), while on S² ∨ S⁴ any cup product of positive-degree classes is zero. The cup product is a ring structure on cohomology with no homology analogue, demonstrating that cohomology sometimes carries strictly more information."
 
-- question: "If the homology group H_n(C) = 0, then the chain complex must be trivial — all the chain groups C_n are zero."
+- question: "If the homology group H_n(C) = 0, then the chain complex is expected to be trivial — most of the chain groups C_n are zero."
   type: true-false
   answer: false
   explanation: "H_n(C) = 0 means the complex is exact at degree n (ker d_n = im d_{n+1}), which is a condition on the relationship between maps, not on the sizes of the groups. A non-trivial example: the complex 0 → ℤ →×2 ℤ → ℤ/2 → 0 is exact (has zero homology) but involves non-trivial groups throughout. Exactness is a structural property; zero homology is a powerful condition that says cycles and boundaries coincide perfectly at each degree."

@@ -62,7 +62,7 @@ Compare learning from worked examples versus equivalent problem-solving in a com
   answer: true
   explanation: "Germane load is the 'good' kind of cognitive effort. Activities like generating your own answers, interleaving varied practice problems, and explaining material to others all impose additional processing demands — but these demands produce durable learning because they force the learner to encode underlying structure rather than surface features. Not all difficulty hurts learning; desirable difficulties that generate germane load improve long-term retention even when they slow initial acquisition."
 
-- question: "According to CLT, reducing all cognitive difficulty from an instructional task will maximize student learning."
+- question: "According to CLT, reducing most cognitive difficulty from an instructional task will maximize student learning."
   type: true-false
   answer: false
   explanation: "This is a common and consequential misconception. CLT distinguishes three types of load with different implications: extraneous load (bad — eliminate it), intrinsic load (unavoidable — manage it through sequencing), and germane load (good — optimize it). Eliminating all difficulty would eliminate germane load along with extraneous load, stripping out the effortful processing that drives schema construction. The goal is not zero load but the right kind of load for the right stage of learning."

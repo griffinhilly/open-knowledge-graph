@@ -57,7 +57,7 @@ Apply to series with factorials and exponentials where the ratio simplifies. Com
   answer: true
   explanation: "This is the underlying logic. The ratio test computes L = lim |a_{n+1}/a_n|. If L < 1, terms eventually decrease faster than a geometric series with ratio L (which converges). If L > 1, terms eventually grow like a geometric series with ratio L > 1 (which diverges). The test is literally asking: 'What geometric series does this series asymptotically resemble?'"
 
-- question: "If the ratio test gives L = 1 for a series, that series must converge slowly but steadily."
+- question: "If the ratio test gives L = 1 for a series, that series is expected to converge slowly but steadily."
   type: true-false
   answer: false
   explanation: "L = 1 is inconclusive — the series may converge or diverge. Σ 1/n gives L = 1 and diverges; Σ 1/n² gives L = 1 and converges; Σ 1/(n ln n) gives L = 1 and diverges. L = 1 provides no information. Interpreting L = 1 as 'borderline convergence' is a fundamental misunderstanding of the test's scope."

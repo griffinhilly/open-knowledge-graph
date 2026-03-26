@@ -56,7 +56,7 @@ Connect logs to exponents through the equivalence: log_b(x) = y means b^y = x. P
   answer: true
   explanation: "Inverting a function swaps domain and range. Since b^x accepts any real input and always produces a positive output, its inverse log_b(x) must accept only positive inputs and can produce any real output. This is why log(0) and log(negative) are undefined — there is no real exponent that makes b^x equal to 0 or a negative number."
 
-- question: "The logarithm law log_b(a + b) = log_b(a) + log_b(b) holds for all positive values of a and b."
+- question: "The logarithm law log_b(a + b) = log_b(a) + log_b(b) holds for most positive values of a and b."
   type: true-false
   answer: false
   explanation: "There is no sum rule for logarithms. The product rule log_b(xy) = log_b(x) + log_b(y) converts multiplication into addition, but there is no corresponding identity for sums. For example, log(2 + 3) = log(5) ≈ 0.699, while log(2) + log(3) = log(6) ≈ 0.778 — these are not equal. This is listed as one of the most common misconceptions for this topic."

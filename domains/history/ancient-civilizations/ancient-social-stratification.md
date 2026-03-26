@@ -63,7 +63,7 @@ Read documentary papyri, slave sale records, and tomb inscriptions from non-elit
   answer: false
   explanation: "Physical coercion existed but was insufficient to explain the stability of ancient hierarchies across centuries. The more powerful stabilizer was ideological: hierarchies were legitimized through religious cosmology, presenting inequality as divinely ordained rather than politically contingent. People who understood their position as cosmically necessary were less likely to resist. The social history evidence — including the first recorded labor strike (Egyptian tomb workers at Deir el-Medina, c. 1170 BCE) — also shows stratification was never simply imposed from above but required constant local negotiation and offered spaces for resistance."
 
-- question: "Roman freedmen (liberti) occupied a permanently marginal social status after emancipation and could never become full citizens."
+- question: "Roman freedmen (liberti) occupied a permanently marginal social status after emancipation and could rarely become full citizens."
   type: true-false
   answer: false
   explanation: "This describes the Athenian model, not the Roman one. In Rome, a freed slave became a Roman citizen — a pathway from servitude to citizenship with no parallel in classical Athenian democracy. Roman freedmen could vote, own property, and their freeborn children faced no legal disabilities. This detail illustrates the broader point: 'freedom' and 'slavery' were constructed differently in each ancient context, which is why comparative legal analysis across civilizations is so important for social history."

@@ -60,7 +60,7 @@ Read Mill's Utilitarianism in full—it is short and addresses many standard obj
   answer: true
   explanation: "Impartiality is one of utilitarianism's most demanding and most important features. When summing utility across affected parties, every person's welfare enters the calculation with equal weight — your own suffering is not privileged over a stranger's, and a stranger's is not more important than yours. This is what distinguishes utilitarianism from egoism (maximize your own welfare) and from partial theories that give special weight to family or community. The common misconception is that utilitarianism is about maximizing your own happiness — it is not."
 
-- question: "Mill's distinction between higher and lower pleasures solves the problem of utilitarianism by showing that intellectual and moral pleasures always outweigh physical pleasures in utilitarian calculations."
+- question: "Mill's distinction between higher and lower pleasures solves the problem of utilitarianism by showing that intellectual and moral pleasures typically outweigh physical pleasures in utilitarian calculations."
   type: true-false
   answer: false
   explanation: "Mill's distinction introduces a qualitative criterion — experienced judges who have tried both prefer higher pleasures — but it does not make higher pleasures automatically outweigh lower ones in all calculations. It complicates, rather than solves, the utilitarian framework by adding a criterion (the preferences of competent judges) that goes beyond simple pleasure measurement. Furthermore, the distinction introduces its own problems: it depends on who counts as a competent judge and whether their preferences are themselves utility-maximizing."

@@ -58,7 +58,7 @@ Treating exemplification as merely a linguistic convention or notational device 
   answer: true
   explanation: "Deflationists hold that talk of 'exemplification' is a logical device for formal representation of predication, not a substantive metaphysical relation. On this view, asking 'what makes it the case that the apple exemplifies redness?' is a pseudo-question — the apple's being red is the basic fact, and nothing further grounds it. This contrasts with the realist view that exemplification is a genuine relation or tie that must be posited to explain object-property connections."
 
-- question: "Because exemplification relates an object to a property, it must itself be a property — and therefore must exemplify itself."
+- question: "Because exemplification relates an object to a property, it is expected to itself be a property — and therefore should exemplify itself."
   type: true-false
   answer: false
   explanation: "This inference is invalid on most developed accounts. Many property theorists deny that exemplification is itself a property; instead, they treat it as a primitive ontological connector — a non-relational tie — precisely to avoid regresses and paradoxes. Even those who grant that exemplification is a relation need not accept that it exemplifies itself; type-theoretic frameworks restrict self-exemplification to block the resulting paradoxes. Assuming all relations are properties, and all properties self-exemplify, leads directly to the self-exemplification paradox."

@@ -68,7 +68,7 @@ Verify that the transformation preserves the invariant interval algebraically. R
   answer: true
   explanation: "The invariant interval is the spacetime analog of Euclidean distance: just as r² = x² + y² is unchanged by spatial rotations, s² = c²t² − x² is unchanged by Lorentz transformations. This is verifiable by direct substitution of the transformation equations. The invariance means that while individual coordinates (t, x) are frame-dependent, their combination s² is an objective, frame-independent property of any pair of events. The minus sign (unlike the plus sign in Euclidean distance) is what gives spacetime its hyperbolic geometry and prevents motion faster than light."
 
-- question: "In the Lorentz transformation, the time coordinate in one frame depends only on the time coordinate in the other frame, not on spatial position."
+- question: "In the Lorentz transformation, the time coordinate in one frame depends primarily on the time coordinate in the other frame, not on spatial position."
   type: true-false
   answer: false
   explanation: "This is precisely the common misconception to avoid. The Lorentz time transformation is t′ = γ(t − vx/c²), which explicitly includes the spatial position x. This mixing of space into the time coordinate — absent in the Galilean t′ = t — is the mathematical expression of relativity of simultaneity. Two events at the same time but different locations in S are NOT at the same time in S′. The vx/c² term is not a small correction; it is the central non-Newtonian content of special relativity."

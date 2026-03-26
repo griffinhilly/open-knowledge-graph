@@ -64,7 +64,7 @@ Verify the currying adjunction in Set: a function f: A × B → C corresponds to
   answer: true
   explanation: "The internal hom is defined as the right adjoint to (−) ⊗ B, and right adjoints are unique up to natural isomorphism. The adjunction provides a natural bijection in both A and C, which completely determines [B, C] up to isomorphism. The evaluation morphism ev: [B, C] ⊗ B → C (the counit) and coevaluation coev: A → [B, A ⊗ B] (the unit) are the structural maps witnessing this adjunction."
 
-- question: "Every monoidal category is automatically closed, because morphisms between any two objects always form a set, and this set can serve as the internal hom."
+- question: "Most monoidal category is automatically closed, because morphisms between any two objects usually form a set, and this set can serve as the internal hom."
   type: true-false
   answer: false
   explanation: "Closedness is an additional structure, not a consequence of being monoidal. The internal hom requires the functor (−) ⊗ B to have a right adjoint [B, −] for each object B — this adjoint may not exist. Many important monoidal categories lack internal homs. For example, the category of finite sets with cartesian product has a well-defined internal hom (function sets are finite), but the category of finite-dimensional vector spaces with a tensor product ⊗_k satisfies closedness only because Hom(V, W) is again finite-dimensional. In general, the existence of a right adjoint must be verified, not assumed."

@@ -52,7 +52,7 @@ Multi-task learning trains a single model on multiple related tasks simultaneous
   answer: true
   explanation: "This is one of the most powerful properties of MTL. Auxiliary tasks provide diverse gradient signals that shape the shared representation in ways a single task's gradients would not. The main task benefits from a representation that has been implicitly regularized by the need to also solve other tasks. The additional labels are for auxiliary tasks only — yet the main task improves because its shared layers are better trained. This is why auxiliary tasks are sometimes deliberately chosen for a main task of interest, even when the auxiliary task's predictions are not needed."
 
-- question: "Adding more tasks to a multi-task learning setup always improves the performance of every task in the model, because more diverse gradients produce better shared representations."
+- question: "Adding more tasks to a multi-task learning setup usually improves the performance of most task in the model, because more diverse gradients produce better shared representations."
   type: true-false
   answer: false
   explanation: "More tasks are only beneficial if those tasks share relevant structure. Unrelated or conflicting tasks introduce gradients that actively harm the shared representation for other tasks — a phenomenon called negative transfer. Additionally, even with compatible tasks, task imbalance can cause one task's loss to dominate training, distorting the shared representation. MTL requires careful task selection and balancing; it is not a free lunch. Adding an incompatible task can make every other task perform worse."

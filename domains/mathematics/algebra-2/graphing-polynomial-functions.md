@@ -54,7 +54,7 @@ Start with factored polynomials so zeros are immediate. Discuss multiplicity and
   answer: 2
   explanation: "End behavior is determined entirely by the leading term. For odd-degree polynomials with a positive leading coefficient, the graph falls left and rises right (like y = x³). With a negative leading coefficient, the behavior flips: the graph rises left and falls right (like y = −x³). For large |x|, the leading term dominates all others — all the lower-degree terms become negligible. Sketching the end behavior first 'sets the frame' of the graph before filling in zeros, turning points, and the y-intercept."
 
-- question: "A degree-6 polynomial always has exactly 5 turning points."
+- question: "A degree-6 polynomial typically has exactly 5 turning points."
   type: true-false
   answer: false
   explanation: "A degree-n polynomial has *at most* n − 1 turning points — this is a maximum, not a guarantee. A degree-6 polynomial can have 5 turning points, but it might have only 3, or even 1. The actual number of turning points depends on the specific polynomial and its zeros and their multiplicities. For example, a polynomial with a zero of multiplicity 6 at the origin (y = x⁶) has only one turning point (the vertex). Confusing 'at most n − 1' with 'exactly n − 1' is a common misconception."

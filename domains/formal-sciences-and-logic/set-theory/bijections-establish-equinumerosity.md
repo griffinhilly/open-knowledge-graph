@@ -53,7 +53,7 @@ Start with finite examples: show bijections between sets of different sizes esta
   answer: 1
   explanation: "The bijection from ℕ to ℤ interleaves positives and negatives: 0↦0, 1↦1, 2↦−1, 3↦2, 4↦−2, ... This mapping is injective and surjective, so |ℕ| = |ℤ|. The student's error is assuming that 'contains more elements' translates to 'has larger cardinality' for infinite sets — an intuition that holds for finite sets but breaks down for infinite ones. Cardinality is defined exclusively by bijection existence, not by subset relationships."
 
-- question: "If set A is a proper subset of set B (meaning A ⊂ B and A ≠ B), then A always has strictly smaller cardinality than B."
+- question: "If set A is a proper subset of set B (meaning A ⊂ B and A ≠ B), then A typically has strictly smaller cardinality than B."
   type: true-false
   answer: false
   explanation: "This is true for finite sets but false for infinite sets. The set of even natural numbers is a proper subset of ℕ, yet the bijection f(n) = 2n shows they have equal cardinality. More strikingly, this property — being equinumerous with a proper subset — is Dedekind's definition of an infinite set. The failure of the 'proper subset means smaller' intuition for infinite sets is not a flaw in the mathematics; it is precisely what distinguishes infinite cardinality from finite cardinality."

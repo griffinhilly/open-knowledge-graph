@@ -54,7 +54,7 @@ Students often think commutativity means all paths are equal; it only means desi
   answer: 1
   explanation: "In the triangle, the two paths from A to C are: directly via h, and through B via f then g (written g∘f in standard notation where composition is applied right-to-left). Commutativity asserts h = g∘f. Both sides are morphisms A→C — they have the same source and target, which is required for the equality to even be well-typed. Note option A reverses f and h and gets the composition order wrong; option C confuses which morphism is claimed equal to the composite."
 
-- question: "A commutative diagram asserts that all morphisms appearing in the diagram are equal to one another, since all paths lead to the same objects."
+- question: "A commutative diagram asserts that most morphisms appearing in the diagram are equal to one another, since most paths lead to the same objects."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of commutative diagrams. Commutativity asserts that certain *composite paths* with the same source and target are equal — not that the individual morphisms are equal. In a commutative square, g∘f = k∘h, but f, g, h, and k are generally distinct arrows. Indeed, f: A→B and h: A→C cannot even be equal (they have different codomains). The diagram encodes a specific equality between two composite paths, nothing more. Different commutative diagrams in the same category encode different equalities — the diagram is the proof obligation, not a claim about all morphisms."

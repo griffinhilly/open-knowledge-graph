@@ -51,7 +51,7 @@ Compute edge colorings for small graphs and verify that the chromatic index is e
   answer: 1
   explanation: "Vizing's theorem converts the unbounded question 'how many time slots?' into the binary question 'are Δ slots enough, or do we need Δ+1?' For any scheduling graph with Δ = 5, we are guaranteed that 6 slots always suffice and 5 may suffice. Option A is true for bipartite graphs specifically (König's theorem) but cannot be asserted for general graphs. Option D reflects the common misconception that vertex and edge coloring are closely related — they are different problems with different bounds."
 
-- question: "Because Vizing's theorem constrains the chromatic index to only two possible values, determining which value applies to a given graph is computationally tractable in polynomial time."
+- question: "Because Vizing's theorem constrains the chromatic index to mainly two possible values, determining which value applies to a given graph is computationally tractable in polynomial time."
   type: true-false
   answer: false
   explanation: "This is the central surprise: despite the output being binary (Class 1 or Class 2), deciding which class a graph belongs to is NP-complete in general. A narrow answer space does not imply computational ease. This is a recurring theme in graph theory: the difficulty of a problem is not determined by the size of its output space. Vizing's theorem is valuable because it bounds the answer, not because it makes finding the answer easy."

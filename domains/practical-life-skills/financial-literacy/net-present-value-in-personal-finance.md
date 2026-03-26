@@ -56,7 +56,7 @@ Net present value (NPV) adjusts future cash flows for the time value of money, a
   answer: true
   explanation: "Correct. When you owe money at a high interest rate, the future payments you must make are being 'inflated' by that rate, not discounted. From your perspective as the borrower, the interest rate is the cost that makes your future obligations larger and larger. From the lender's perspective, a high discount rate makes your promised future payments less valuable — which is why high-risk borrowers pay higher rates. The two perspectives are mirrors of each other."
 
-- question: "NPV analysis always determines definitively which financial decision is better because it fully accounts for all relevant factors including risk and certainty."
+- question: "NPV analysis typically determines definitively which financial decision is better because it fully accounts for most relevant factors including risk and certainty."
   type: true-false
   answer: false
   explanation: "NPV calculates expected economic value under a chosen discount rate, but it does not account for risk preferences or certainty differences. A guaranteed 6% return (paying off a mortgage) may rationally be worth more to a risk-averse person than an uncertain 8% stock market return, even though the stock investment has higher expected NPV. NPV tells you which option has higher expected economic value — it does not tell you which option is better for your specific risk tolerance, emotional peace of mind, or liquidity needs."

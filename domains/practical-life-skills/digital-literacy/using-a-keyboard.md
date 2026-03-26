@@ -59,7 +59,7 @@ Have children practice pressing different letter keys and watching the letters a
   answer: true
   explanation: "Shift is a modifier key. Pressing Shift alone does nothing visible. It only takes effect when held down simultaneously with another key, changing lowercase letters to uppercase or producing the symbol shown above a number/punctuation key. This is different from Caps Lock, which stays active until pressed again and affects all subsequent letter keys."
 
-- question: "The Spacebar, Enter, and Backspace keys all produce a visible character on screen when pressed."
+- question: "The Spacebar, Enter, and Backspace keys most produce a visible character on screen when pressed."
   type: true-false
   answer: false
   explanation: "These three keys control the behavior of text rather than typing visible characters. Spacebar inserts a blank space between words (invisible character). Enter moves the cursor to a new line. Backspace deletes the character to the left of the cursor. None of them produce a letter, number, or symbol that you can see as printed text — they shape how text is laid out and edited."

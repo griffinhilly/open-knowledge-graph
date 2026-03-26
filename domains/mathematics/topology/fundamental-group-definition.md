@@ -63,7 +63,7 @@ However, the fundamental group captures only part of a space's topology. Two non
   answer: true
   explanation: "The fundamental group π₁ specifically measures obstruction to contracting 1-dimensional loops (paths that return to their start). A 2-sphere S², for example, has trivial fundamental group — every loop on a sphere can be shrunk to a point — yet it has a meaningful 2-dimensional hole detected by the second homotopy group π₂. Higher homotopy groups πₙ capture n-dimensional holes: loops (n=1), spheres (n=2), etc. The fundamental group is the first and most tractable in this hierarchy, which is why algebraic topology also develops homology and higher homotopy groups to capture the full topology."
 
-- question: "Two spaces with isomorphic fundamental groups must be homeomorphic — that is, topologically identical."
+- question: "Two spaces with isomorphic fundamental groups is expected to be homeomorphic — that is, topologically identical."
   type: true-false
   answer: false
   explanation: "The fundamental group is a topological invariant (homeomorphic spaces have isomorphic fundamental groups), but the converse fails: isomorphic fundamental groups do not imply homeomorphism. For example, a solid torus and the product space S¹ × D² have the same fundamental group ℤ but are not homeomorphic. The fundamental group captures only one algebraic shadow of a space's topology; it can fail to distinguish spaces with identical 1-dimensional hole structure but different higher-dimensional features. This is precisely why algebraic topology develops a suite of invariants — homology groups, higher homotopy groups, cohomology — rather than relying on π₁ alone."

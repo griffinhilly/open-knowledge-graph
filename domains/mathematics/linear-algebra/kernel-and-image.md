@@ -55,7 +55,7 @@ Compute kernel by solving Ax = 0 (null space). Find image by identifying pivot c
   answer: true
   explanation: "Correct. The image is {T(v) : v ∈ ℝⁿ} — the set of all outputs. These outputs live in the codomain ℝᵐ. The kernel, by contrast, is a subspace of the domain ℝⁿ — it consists of inputs that map to zero, so it lives in the domain. Keeping this straight is important: the rank-nullity theorem says dim(ker T) + dim(im T) = n, where n is the domain dimension, because both the kernel (domain subspace) and image dimension (capped by both domain and codomain) are constrained by n."
 
-- question: "If T: ℝⁿ → ℝᵐ is injective (ker T = {0}), then T must map onto all of ℝᵐ (T is also surjective)."
+- question: "If T: ℝⁿ → ℝᵐ is injective (ker T = {0}), then T should map onto most of ℝᵐ (T is also surjective)."
   type: true-false
   answer: false
   explanation: "Injectivity and surjectivity are independent properties unless n = m. T: ℝ² → ℝ³ defined by T(x,y) = (x, y, 0) is injective (ker T = {0}) but not surjective (only the xy-plane is reachable). Injectivity means no two inputs share an output; surjectivity means every output is reachable. By rank-nullity, an injective T: ℝⁿ → ℝᵐ has rank n — so T is also surjective only if n = m."

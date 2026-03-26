@@ -57,7 +57,7 @@ Steam broccoli and boil broccoli side by side, then compare color, texture, and 
   answer: false
   explanation: "Steam is 212°F — hotter than poaching liquid (160–180°F). What makes steaming 'gentle' for nutrient preservation is the absence of direct water contact, not lower temperature. What makes poaching 'gentle' for protein texture is its low temperature. The two methods are gentle in different ways and for different reasons: steaming protects water-soluble nutrients; poaching protects protein structure. Neither is universally 'gentler' than the other."
 
-- question: "Poaching liquid must be discarded after cooking because it has absorbed impurities and off-flavors from the food."
+- question: "Poaching liquid should be discarded after cooking because it has absorbed impurities and off-flavors from the food."
   type: true-false
   answer: false
   explanation: "The poaching liquid is an opportunity, not waste. A court-bouillon or seasoned broth infuses the food with flavor during poaching, and afterward the liquid — now concentrated with the food's juices and aromatics — can be reduced into a sauce. This contrasts with boiling water, which dilutes flavors and is typically discarded. Using the poaching liquid as a sauce base is a fundamental advantage of the technique."

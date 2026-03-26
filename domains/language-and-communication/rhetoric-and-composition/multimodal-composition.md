@@ -50,7 +50,7 @@ Multimodal composition integrates text, image, sound, video, and other modes to 
   answer: 2
   explanation: "A decorative image fills space but does no communicative work — it is the multimodal equivalent of padding. An image earns its place only if it is informational (conveying data), indexical (pointing to something real and specific), or emotional (producing a response tied to the content). A generic stock photo of any smoggy city does none of these things specifically. The most tempting wrong answer is A — adding images often *feels* like an improvement, but engagement and meaning are different things."
 
-- question: "Combining text with an image always produces meaning equal to the sum of what each mode contributes separately."
+- question: "Combining text with an image generally produces meaning equal to the sum of what each mode contributes separately."
   type: true-false
   answer: false
   explanation: "Modes *interact* — they shape how each other is read — which means the combined meaning can be greater than, less than, or qualitatively different from what either mode achieves alone. A caption reframes a photograph; a photograph makes a caption feel factual. When modes work against each other (cheerful music under disturbing images), the tension itself becomes the meaning. Treating multimodal composition as simple addition misses this interactive dimension entirely."

@@ -56,7 +56,7 @@ The cell cycle is often drawn as a simple wheel with equal phases. In reality, G
   answer: true
   explanation: "CDK inhibitors (CKIs) like p21 and p27 restrain CDK-cyclin complexes in response to growth factor withdrawal, DNA damage, and cellular stress. p21 is induced by p53 in response to DNA damage, blocking CDK2 activity and arresting cells in G1 for repair. p16 inhibits CDK4/6, keeping Rb in its growth-suppressive form. Inactivating these inhibitors — whether by mutation, deletion, or epigenetic silencing — removes the brakes at the restriction point, allowing cells to enter S phase and proliferate inappropriately. This is why loss of p16, loss of p21, and mutation of p53 are common events in cancer."
 
-- question: "CDKs are expressed only during the phases they regulate — CDK2 is absent during G2 and M, CDK1 is absent during G1 and S — which is why cyclin oscillation drives phase transitions."
+- question: "CDKs are expressed mainly during the phases they regulate — CDK2 is absent during G2 and M, CDK1 is absent during G1 and S — which is why cyclin oscillation drives phase transitions."
   type: true-false
   answer: false
   explanation: "CDKs are constitutively present throughout the cell cycle — their expression does not oscillate. What oscillates is cyclin abundance. Different cyclins are synthesized and degraded in a phase-specific pattern, and because CDKs only become active when bound to a cyclin partner, it is cyclin levels that determine when each CDK is active and thus which phase transition is driven. This is precisely why the cell cycle machinery is built around oscillating cyclins rather than oscillating kinases: the kinase is always ready; the regulatory 'switch' is whether the appropriate cyclin is present to activate it."

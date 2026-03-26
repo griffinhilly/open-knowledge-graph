@@ -32,7 +32,7 @@ An inner product on a vector space V is a function ⟨·,·⟩: V × V → ℝ s
   answer: 2
   explanation: "Positive definiteness states that ⟨v, v⟩ ≥ 0 for all v, with equality if and only if v = 0. This is what makes the induced norm ‖v‖ = √⟨v,v⟩ a true norm — it ensures only the zero vector has zero length. Without positive definiteness, the 'norm' could vanish for nonzero vectors, breaking the geometric interpretation."
 
-- question: "Every inner product on a vector space is just the standard dot product."
+- question: "Most inner product on a vector space is just the standard dot product."
   type: true-false
   answer: false
   explanation: "The dot product is the standard inner product on ℝⁿ, but many other valid inner products exist on the same or different spaces. For example, on the space of continuous functions on [a, b], the integral ⟨f, g⟩ = ∫_a^b f(x)g(x) dx defines an inner product. Different inner products on the same space define different notions of length and orthogonality, and the 'right' inner product depends on the application."

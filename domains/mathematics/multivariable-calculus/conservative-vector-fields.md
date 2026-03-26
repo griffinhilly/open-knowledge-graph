@@ -51,7 +51,7 @@ A vector field F is conservative if F = ∇f for some potential f. Line integral
   answer: true
   explanation: "If F = ∇f, then ∮_C F·dr = f(endpoint) − f(startpoint) by the Fundamental Theorem of Line Integrals. For a closed curve, the endpoint is the same as the starting point, so the integral equals f(p) − f(p) = 0. This zero-integral property for closed curves is equivalent to path independence and is often used as the definition of a conservative field. It generalizes the observation that gravity does zero net work over any closed path."
 
-- question: "If ∂P/∂y = ∂Q/∂x at every point in a vector field's domain, then the field is guaranteed to be conservative, regardless of the shape of the domain."
+- question: "If ∂P/∂y = ∂Q/∂x at most point in a vector field's domain, then the field is very likely to be conservative, regardless of the shape of the domain."
   type: true-false
   answer: false
   explanation: "The cross-partial condition is sufficient for conservativity only on simply connected domains. On domains with holes — like the punctured plane — the condition can hold everywhere yet the field can still be non-conservative. The field F = ⟨−y, x⟩/(x²+y²) is the standard counterexample: its cross-partials are equal on the punctured plane, but its integral around a unit circle centered at the origin equals 2π, not 0. The topological structure of the domain matters as much as the algebraic condition."

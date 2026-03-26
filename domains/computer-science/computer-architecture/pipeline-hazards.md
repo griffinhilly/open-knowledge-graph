@@ -52,12 +52,12 @@ Trace data hazards in a sequence like 'ADD R1,R2,R3; SUB R4,R1,R5' through a pip
   answer: 1
   explanation: "A branch misprediction causes the pipeline to flush the incorrectly fetched instructions (converting them to bubbles/NOPs) and restart fetching from the correct branch target address. This is not an exception — it is a normal, expected event handled by the pipeline's branch misprediction recovery mechanism. The misprediction penalty is typically 2-3 cycles in a simple pipeline (the number of cycles between branch fetch and when the branch resolves). Critically, the speculatively fetched instructions must be flushed before completing — allowing them to execute would compute wrong results."
 
-- question: "Data forwarding (bypassing) eliminates the need for stall cycles in all data hazard cases."
+- question: "Data forwarding (bypassing) eliminates the need for stall cycles in most data hazard cases."
   type: true-false
   answer: false
   explanation: "False. Data forwarding eliminates stalls for most data hazards — for example, the result of an ADD in the execute stage can be forwarded directly to the next instruction's execute stage, eliminating a 2-cycle stall. But the load-use hazard cannot be solved by forwarding alone. A LOAD instruction's result is only available after the memory access stage, which is one cycle too late to forward directly to the immediately following instruction's execute stage. One stall cycle must still be inserted. This is a common misconception: forwarding is powerful but not a complete solution."
 
-- question: "Branch mispredictions are processor errors that indicate a bug in branch prediction logic; a correctly functioning processor should never mispredict a branch."
+- question: "Branch mispredictions are processor errors that indicate a bug in branch prediction logic; a correctly functioning processor should rarely mispredict a branch."
   type: true-false
   answer: false
   explanation: "False. Branch mispredictions are expected, normal events in any processor with speculative execution. A predictor achieving 95%+ accuracy still mispredicts millions of branches per second in a modern processor running at GHz speeds. A misprediction means the predicted outcome was wrong — not that the hardware malfunctioned. The pipeline is designed to handle mispredictions gracefully by flushing incorrect instructions and restarting from the correct path. Mispredictions cause performance penalties (wasted cycles), not incorrect computation, because the incorrect instructions are flushed before they can commit results."

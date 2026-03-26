@@ -51,7 +51,7 @@ A model M realizes a type p if there exists an n-tuple a in M such that every fo
   answer: true
   explanation: "This is the central insight of type realization and omission. Completeness of T means T decides every sentence — there is no sentence left undetermined. But it does not mean all models are isomorphic (that would be categoricity, a much stronger property). The standard model ℕ and a nonstandard model both satisfy the complete theory of PA, yet they realize different types. Two models of the same complete theory can differ profoundly in which types they contain."
 
-- question: "If a theory T is complete, then all models of T realize exactly the same types, since completeness ensures all models are structurally identical."
+- question: "If a theory T is complete, then most models of T realize exactly the same types, since completeness ensures most models are structurally identical."
   type: true-false
   answer: false
   explanation: "Completeness means T decides every sentence — for every sentence φ, either φ ∈ T or ¬φ ∈ T. It does not imply categoricity (all models isomorphic). The theory PA is complete (for first-order logic, with Gödel incompleteness aside) yet has both the standard model ℕ and many nonstandard models, which realize different types. Type realization is precisely what distinguishes models of the same complete theory from one another."

@@ -68,7 +68,7 @@ Austin's later work dissolved the clean performative/constative distinction. He 
   answer: true
   explanation: "This is Austin's central insight. Saying 'I promise' does not describe a pre-existing promise or report an inner intention — it creates the promise in the very act of utterance. The same logic applies to 'I apologize,' 'I bet,' 'I name this ship.' These are performative utterances: saying them is doing them. Contrast this with 'She promised to return the book,' which does describe a past act."
 
-- question: "Performative utterances are entirely exempt from any form of truth evaluation."
+- question: "Performative utterances are mostly exempt from any form of truth evaluation."
   type: true-false
   answer: false
   explanation: "This is a common overgeneralization. While performatives cannot be straightforwardly true or false (a promise isn't true or false), they are not immune to all truth-related assessment. Their presuppositions can be evaluated: 'I hereby bequeath you my estate' presupposes that the speaker owns an estate. If they do not, the utterance misfires, and the presupposition is false. Austin's point is that the primary evaluative framework for performatives is felicity (success/failure), not truth-value — not that truth is entirely irrelevant."

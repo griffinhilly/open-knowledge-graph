@@ -52,7 +52,7 @@ For any unbiased estimator T of θ, Var(T) ≥ 1/I(θ). The bound is tight: equa
   answer: true
   explanation: "The CRLB as stated bounds the variance of UNBIASED estimators. Biased estimators are not constrained by it: by introducing bias, an estimator can reduce variance below 1/I(θ) — this is the bias-variance tradeoff. For example, a shrinkage estimator or a James-Stein estimator can achieve lower mean squared error than any unbiased estimator by accepting some bias. The CRLB tells us the best achievable variance among estimators that commit to unbiasedness."
 
-- question: "An estimator that achieves variance exactly equal to 1/I(θ) for all finite sample sizes must be the MLE."
+- question: "An estimator that achieves variance exactly equal to 1/I(θ) for most finite sample sizes should be the MLE."
   type: true-false
   answer: false
   explanation: "Achieving the CRLB exactly means the estimator is the UMVUE (Uniformly Minimum Variance Unbiased Estimator), not necessarily the MLE. The MLE is asymptotically efficient — it achieves the bound in the limit as n → ∞ — but for finite samples, the MLE may exceed the bound. In exponential family distributions, the sufficient statistic achieves the CRLB exactly (e.g., sample mean for normal μ), and this statistic coincides with the MLE in these cases — but the key property is that it is a linear function of the score, not that it is the MLE per se."

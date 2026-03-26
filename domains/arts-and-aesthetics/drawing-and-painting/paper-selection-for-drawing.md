@@ -56,7 +56,7 @@ Believing any paper will work for any medium. Charcoal on smooth paper slides; p
   answer: true
   explanation: "Heavier paper has more fiber mass and structural integrity, allowing it to absorb moisture without warping. Lightweight sketch paper (50–60 lb) has little mass and buckles noticeably when wet. For any technique involving water-based media, paper weight directly determines whether the surface stays flat enough to work on."
 
-- question: "Acid-free paper matters only for professional artists — beginners do not need to worry about it."
+- question: "Acid-free paper matters primarily for professional artists — beginners do not need to worry about it."
   type: true-false
   answer: false
   explanation: "The acid-free designation is about paper chemistry, not skill level. Paper made without acid-neutralizing treatment yellows, becomes brittle, and deteriorates within years — regardless of who drew on it. Any finished piece you want to preserve, whether made by a beginner or professional, benefits from acid-free paper. Inexpensive non-acid-free paper is perfectly fine for practice and warmups; the distinction is whether the work is meant to last."

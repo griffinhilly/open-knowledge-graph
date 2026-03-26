@@ -57,7 +57,7 @@ Derive all three from the unit circle equation. Practice using them in both dire
   answer: 2
   explanation: "Rearranging tan²x + 1 = sec²x gives sec²x − 1 = tan²x directly. This is a 'disguised form' — the same Pythagorean identity written with terms moved to the other side. Recognizing sec²x − 1 as tan²x is the kind of two-directional fluency the identities require. Students who only know the identity in one canonical form (tan² + 1 = sec²) but not its rearrangements will miss applications like this."
 
-- question: "The identity 1 + tan²(x) = sec²(x) is an independent mathematical fact that must be memorized separately from sin²(x) + cos²(x) = 1."
+- question: "The identity 1 + tan²(x) = sec²(x) is an independent mathematical fact that should be memorized separately from sin²(x) + cos²(x) = 1."
   type: true-false
   answer: false
   explanation: "1 + tan²x = sec²x follows directly from dividing every term of sin²x + cos²x = 1 by cos²x. It is the same identity in a different form, not an independent fact. The same is true of 1 + cot²x = csc²x (obtained by dividing by sin²x). If you forget the derived identities on an exam, you can re-derive both in under ten seconds from sin²x + cos²x = 1. Treating them as independent memorized facts misses the structural unity of the three identities."

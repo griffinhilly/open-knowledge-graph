@@ -49,7 +49,7 @@ BCS theory explains superconductivity as a phase transition where electrons form
   answer: true
   explanation: "The energy gap Δ is the binding energy per electron in a Cooper pair; breaking a pair to create excitations requires a minimum energy of 2Δ. At temperatures T ≪ T_c, thermal fluctuations are far below 2Δ, so excitations cannot be thermally generated. Without excitations, there are no mechanisms to scatter the Cooper pairs — they carry current as a coherent quantum collective that passes through the lattice without dissipation. This is not merely low resistance; it is exactly zero resistance, a consequence of the gap's hard threshold."
 
-- question: "BCS theory predicts that the superconducting critical temperature T_c should be the same for all isotopes of a given element, since pairing depends on electronic properties rather than nuclear mass."
+- question: "BCS theory predicts that the superconducting critical temperature T_c should be the same for most isotopes of a given element, since pairing depends on electronic properties rather than nuclear mass."
   type: true-false
   answer: false
   explanation: "BCS theory explicitly predicts the opposite: an isotope effect where T_c ∝ M^{−1/2}, with M the atomic mass. Heavier isotopes have lower critical temperatures because heavier atoms vibrate more slowly (lower Debye frequency), weakening the phonon-mediated coupling. The isotope effect was actually observed experimentally *before* BCS theory was published, and its successful prediction by BCS provided crucial confirmation that phonons are the pairing mechanism. If pairing were purely electronic (as in some unconventional superconductors), no isotope effect would be expected."

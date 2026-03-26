@@ -59,7 +59,7 @@ That good design always innovates and breaks patterns. Often, respecting convent
   answer: 2
   explanation: "The power of conventions is cognitive: users do not approach each new design as a blank slate. They arrive with mental models — expectations built from every previous interaction with similar designs. When a design matches those models, users can devote their attention to their actual task rather than to figuring out the interface. Cognitive load reduction is the mechanism; the mental model match is the cause."
 
-- question: "Innovative designs that break conventions are always better for users because they demonstrate creative thinking and avoid the staleness of conventional patterns."
+- question: "Innovative designs that break conventions are typically better for users because they demonstrate creative thinking and avoid the staleness of conventional patterns."
   type: true-false
   answer: false
   explanation: "Breaking conventions without evidence that the new pattern better serves users causes confusion and imposes cognitive load. The most user-centered choice is often to follow established conventions precisely because they match users' existing mental models. Innovation for its own sake is a design failure, not a virtue. Informed deviation based on user research can produce breakthroughs — but the bar is whether users are better served, not whether the design is novel."

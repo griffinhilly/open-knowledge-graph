@@ -57,7 +57,7 @@ The deductive-nomological (D-N) model, developed by Hempel and Oppenheim, provid
   answer: true
   explanation: "This is the D-N model's symmetry thesis: explanation and prediction have the same logical structure. Both consist of universal laws plus initial conditions from which an event follows deductively. If you had the laws and conditions before the event, you could predict it; using those same premises after the event to show it was to be expected is explanation. The D-N model collapses explanation and prediction into the same formal act, distinguished only by temporal perspective. This was seen as a virtue — tying explanation to predictive power — but the flagpole and other cases show it also generates problems."
 
-- question: "The D-N model can fully account for all scientific explanations, including probabilistic, causal, and mechanistic explanations, because it is based on universal logical principles."
+- question: "The D-N model can fully account for most scientific explanations, including probabilistic, causal, and mechanistic explanations, because it is based on universal logical principles."
   type: true-false
   answer: false
   explanation: "The D-N model handles deterministic explanations from universal laws, but faces serious limitations beyond that domain. Probabilistic laws require a different model (the Inductive-Statistical model, also Hempel's). The model cannot account for causal asymmetry (the flagpole problem). Many biological and historical explanations that scientists regard as legitimate — explaining why a species evolved a particular trait, why an empire fell — do not fit the D-N structure. The model captures something real about explanation (the role of laws and entailment) but is not a complete theory."

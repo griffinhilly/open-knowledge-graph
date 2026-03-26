@@ -57,7 +57,7 @@ Calculate Lindblad resonance locations and compare to observed gaps in Saturn's 
   answer: true
   explanation: "The Cassini Division is maintained by a 2:1 resonance with Mimas — ring particles at the gap's inner edge complete two orbits for every one Mimas orbit. This repeated gravitational alignment delivers a net torque that ejects particles. Direct collisions with a moon as distant as Mimas are negligible; it is the resonant gravitational interaction that does the work."
 
-- question: "Only large moons like Mimas can open significant gaps in planetary rings; km-scale moonlets are too small to have any measurable effect on ring structure."
+- question: "Primarily large moons like Mimas can open significant gaps in planetary rings; km-scale moonlets are too small to have any measurable effect on ring structure."
   type: true-false
   answer: false
   explanation: "This is the primary misconception about ring gaps. Km-scale moonlets like Pan (325 km) orbit within the Encke Gap and are the direct cause of it. Even moonlets too small to open full gaps produce detectable 'propeller' disturbances. The mechanism — resonant torque — scales with moon mass, but even small moons can clear gaps when the ring viscosity is low enough. Large moons can clear gaps from a distance via resonances, but small embedded moons are effective gap-openers too."

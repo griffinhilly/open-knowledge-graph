@@ -56,7 +56,7 @@ Thinking this is just an integral formula; it reveals that analytic functions ar
   answer: true
   explanation: "By differentiating both sides of Cauchy's integral formula with respect to z₀ (differentiating under the integral sign), you obtain formulas for all higher derivatives: f^(n)(z₀) = (n!/2πi) ∮_γ f(z)/(z − z₀)^{n+1} dz. Since the right side is well-defined whenever f is holomorphic and z₀ is inside γ, every derivative exists automatically. This is a striking contrast to real analysis, where a function can be once differentiable without being twice differentiable. Complex differentiability once is a much stronger condition — it entails differentiability infinitely many times."
 
-- question: "A smooth real function f: ℝ → ℝ has the same 'boundary determines interior' property as a holomorphic function: knowing f on the boundary of an interval determines all its interior values."
+- question: "A smooth real function f: ℝ → ℝ has the same 'boundary determines interior' property as a holomorphic function: knowing f on the boundary of an interval determines most its interior values."
   type: true-false
   answer: false
   explanation: "For real smooth functions, this is completely false. You can freely change f on the interior of [0,1] without affecting its values at the endpoints. For example, f(x) = x and g(x) = x + sin(πx) both satisfy f(0) = g(0) = 0 and f(1) = g(1) = 1, but differ everywhere in between. Holomorphic functions have a rigidity with no real analogue: complex differentiability locks the function's values together globally. Cauchy's integral formula makes this explicit — boundary values on *any* surrounding contour completely reconstruct interior values."

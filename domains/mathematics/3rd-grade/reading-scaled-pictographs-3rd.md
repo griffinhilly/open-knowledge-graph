@@ -59,7 +59,7 @@ Create pictographs with concrete objects or drawings. Explicitly discuss what ea
   answer: true
   explanation: "This is the fundamental operation for reading any scaled pictograph. The key tells you what each symbol is worth, and you multiply that value by the count of symbols to find the total. Skipping the key and counting symbols as individual units is the most common reading error — it gives correct answers only if the scale happens to be 1, which defeats the purpose of using a scale."
 
-- question: "In a scaled pictograph, a half symbol always represents exactly 1 item, regardless of the scale."
+- question: "In a scaled pictograph, a half symbol usually represents exactly 1 item, regardless of the scale."
   type: true-false
   answer: false
   explanation: "A half symbol represents HALF THE SCALE VALUE, not 1. If the key says each symbol = 6 students, then a half symbol represents 3 students. If the key says each symbol = 10, a half symbol represents 5. The value of a partial symbol always depends on the key. Only if the scale is 2 would a half symbol equal 1."

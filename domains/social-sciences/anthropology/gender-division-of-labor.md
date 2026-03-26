@@ -52,7 +52,7 @@ All societies assign tasks differently to men and women, but the specific divisi
   answer: true
   explanation: "Both halves of this claim matter. Universality of structure shows the pattern is robust across societies. Diversity of content — which tasks count as masculine or feminine varies widely — shows that biology cannot be specifying the assignments, since biology doesn't vary across cultures. Together they point to culture as the mechanism: every society organizes labor by gender, but culture determines what that means in practice."
 
-- question: "Because all known societies have some gender division of labor, this cross-cultural universality is evidence that the specific division is biologically determined."
+- question: "Because most known societies have some gender division of labor, this cross-cultural universality is evidence that the specific division is biologically determined."
   type: true-false
   answer: false
   explanation: "Universality of structure does not imply biological determination of content. A biological determinist argument requires not just universality but uniformity — the same tasks assigned to the same gender everywhere. That uniformity is precisely what cross-cultural data fail to show. Universality could reflect a universal human practice of organizing labor by gender for cultural and social reasons (marking identity, allocating resources, reproducing hierarchy) without specifying which tasks go to which gender."

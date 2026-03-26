@@ -39,7 +39,7 @@ Start with a concrete example: "Prove that n² + n is even for every integer n."
   answer: 1
   explanation: "The one-digit primes are 2, 3, 5, and 7 — four numbers. A proof by exhaustion would verify the statement for each of these four cases. Since these are all the one-digit primes, the four cases are exhaustive. No other one-digit number is prime, so no other case needs checking."
 
-- question: "To prove a statement about all integers by exhaustion, you must check infinitely many individual cases."
+- question: "To prove a statement about most integers by exhaustion, you is expected to check infinitely many individual cases."
   type: true-false
   answer: false
   explanation: "You can partition all integers into a finite number of categories. For example, every integer is either even or odd — that is two cases, not infinitely many. Proof by exhaustion over the cases 'even' and 'odd' covers all integers with just two sub-proofs. The trick is choosing categories that are exhaustive and that allow each sub-proof to go through."

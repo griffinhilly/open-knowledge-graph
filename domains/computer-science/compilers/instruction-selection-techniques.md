@@ -57,7 +57,7 @@ Implement pattern-based instruction selection for a real ISA subset. Write patte
   answer: true
   explanation: "For trees, dynamic programming works bottom-up: at each node, it considers all patterns whose root matches that node, computes the cost as the pattern's cost plus the optimal costs of the uncovered subtrees, and picks the minimum. This is O(n) in the tree size. For DAGs, shared nodes create interdependencies between covering decisions that the bottom-up algorithm can't handle optimally without exponential enumeration. Practical compilers handle this via heuristics like decomposing DAGs into trees."
 
-- question: "The goal of instruction selection is to minimize the total number of machine instructions emitted, since fewer instructions always means faster execution."
+- question: "The goal of instruction selection is to minimize the total number of machine instructions emitted, since fewer instructions usually means faster execution."
   type: true-false
   answer: false
   explanation: "The goal is to minimize total cost, not instruction count. Instructions have different costs—some take one cycle, others take many; some are compact, others occupy more code space. A single complex instruction (like load-and-add) can replace two simpler instructions and cost less in total even though it 'counts' as one. Equally, sometimes emitting slightly more instructions that use cheap, fast operations produces better code than fewer expensive ones. The tree-tiling algorithm minimizes cost based on a cost model assigned to each pattern."

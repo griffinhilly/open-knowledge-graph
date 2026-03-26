@@ -46,7 +46,7 @@ The Stroop effect demonstrates that people automatically process word meaning ev
   answer: 1
   explanation: "The ACC is a conflict monitoring region, not a suppression mechanism. Its increased activation on incongruent trials signals that the system has detected simultaneous activation of two competing response representations: the word meaning activates one response ('blue'), and the ink color activates another ('red'). This conflict signal triggers the dorsolateral prefrontal cortex (dlPFC) to implement top-down control, biasing processing toward the task-relevant dimension. ACC activation does not mean suppression has succeeded — it means suppression has been triggered."
 
-- question: "A skilled reader who tries very hard to ignore the words in a Stroop task and focuses all their attention on the ink color can eliminate the Stroop interference effect."
+- question: "A skilled reader who tries very hard to ignore the words in a Stroop task and focuses most their attention on the ink color can eliminate the Stroop interference effect."
   type: true-false
   answer: false
   explanation: "The Stroop effect is specifically evidence that skilled reading cannot be voluntarily suppressed. Word reading in skilled readers is automatic — it does not require intention, does not consume attentional capacity, and cannot be prevented by effort. The word is processed and generates a competing response before the reader can stop it. Individual differences in Stroop effect size reflect differences in executive control efficiency (how quickly conflict is resolved by the dlPFC), not the ability to prevent reading. Attention can bias processing, but it cannot prevent automatic activation of an overlearned response."

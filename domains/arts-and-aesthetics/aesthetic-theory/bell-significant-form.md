@@ -57,7 +57,7 @@ Compare formal analysis of abstract and representational artworks; notice how fo
   answer: true
   explanation: "Bell's formalism holds that aesthetic value lies entirely in significant form — the arrangement of lines, colors, and volumes — not in narrative, moral content, or historical reference. Asking what story a painting tells is a legitimate art-historical or literary question, but it tells you nothing about whether the work has aesthetic value under Bell's framework. The aesthetic emotion responds to form, not content."
 
-- question: "Bell argues that all great art must be abstract because representation inevitably dilutes significant form."
+- question: "Bell argues that most great art should be abstract because representation inevitably dilutes significant form."
   type: true-false
   answer: false
   explanation: "This is a common misreading of Bell. He argues that significant form is the common property of all great art — including representational art from Byzantine mosaics to Cézanne. Representation is not forbidden; it is simply aesthetically neutral. What matters is whether the visual arrangement provokes the aesthetic emotion. Bell's theory supports abstract art by showing that representation is unnecessary, not by claiming it is harmful."

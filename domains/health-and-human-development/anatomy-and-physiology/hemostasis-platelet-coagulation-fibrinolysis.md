@@ -63,7 +63,7 @@ Hemostasis is not just clot formation—it's a dynamic balance between clotting 
   answer: true
   explanation: "Thrombin (Factor IIa) is the pivotal enzyme of secondary hemostasis. It cleaves soluble fibrinogen into fibrin monomers that spontaneously polymerize, and activates Factor XIII to crosslink the fibrin polymer into a covalently stabilized mesh. Crucially, thrombin also amplifies the cascade: it activates Factors V and VIII (cofactors that dramatically accelerate Factor X activation and the prothrombinase complex). This positive feedback means that once a small amount of thrombin forms, the cascade amplifies rapidly. Thrombin also activates platelets, linking the coagulation cascade back to primary hemostasis."
 
-- question: "The intrinsic and extrinsic coagulation pathways operate completely independently and converge only at the final step of fibrin formation."
+- question: "The intrinsic and extrinsic coagulation pathways operate largely independently and converge primarily at the final step of fibrin formation."
   type: true-false
   answer: false
   explanation: "The intrinsic and extrinsic pathways converge at Factor X activation — the beginning of the common pathway — not at fibrin formation. Both pathways activate Factor X (which, with Factor V, forms the prothrombinase complex), which then converts prothrombin to thrombin, and thrombin converts fibrinogen to fibrin. Furthermore, the pathways interact during amplification: the extrinsic pathway's TF-VIIa complex can activate Factor IX (an intrinsic pathway component). The clean separation into 'intrinsic' and 'extrinsic' is a laboratory classification (based on which factors are measured by PT vs. aPTT) not a reflection of fully independent in vivo pathways."

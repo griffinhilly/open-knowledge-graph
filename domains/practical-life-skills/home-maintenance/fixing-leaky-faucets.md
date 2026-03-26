@@ -58,7 +58,7 @@ Photograph each disassembly step on your phone so you know how to put it back to
   answer: true
   explanation: "Water supply lines are always pressurized. Any disassembly of the faucet valve mechanism — removing handles, cartridges, stems, or seats — breaks the barrier that water pressure is pushing against. Without shutting off the supply valve first, disassembly immediately releases pressurized water. This step is universal and non-negotiable regardless of faucet type or the specific repair being made."
 
-- question: "All leaky faucets are repaired the same way: by unscrewing the handle stem and replacing the rubber washer at the bottom."
+- question: "Most leaky faucets are repaired the same way: by unscrewing the handle stem and replacing the rubber washer at the bottom."
   type: true-false
   answer: false
   explanation: "This describes the repair for a compression faucet only. Cartridge faucets use a removable cartridge assembly — the entire cartridge is pulled out and replaced as a unit, not just a washer. Ball faucets use a rotating ball with spring-loaded rubber seats and O-rings — a more complex system with multiple parts. Using the wrong repair method (e.g., looking for a washer in a cartridge faucet) wastes time and can damage the faucet. Identifying the faucet type before starting is essential."

@@ -43,7 +43,7 @@ Work exclusively in grayscale (pencil, charcoal, or desaturated digital) before 
   answer: 1
   explanation: "When color is removed, only value differences remain. If the subject disappears, it means the subject and background had similar lightness/darkness — the contrast existed in hue only, not in value. Since the eye processes value differences more immediately than color differences, a painting without value contrast fails to direct attention even when it appears colorful."
 
-- question: "Adding more contrast throughout a painting always makes it stronger and more visually compelling."
+- question: "Adding more contrast throughout a painting generally makes it stronger and more visually compelling."
   type: true-false
   answer: false
   explanation: "Contrast is most powerful when used selectively. High contrast at every point in a composition creates visual noise — the eye has no resting place and cannot determine what is important. Strategic contrast near the focal point, with lower contrast in supporting areas, creates visual hierarchy and guides the viewer's attention."

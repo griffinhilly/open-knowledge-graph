@@ -59,7 +59,7 @@ Use a slinky to produce both types by hand. Contrast how a transverse wave on a 
   answer: true
   explanation: "This is the defining characteristic of longitudinal waves. Sound in air is the primary example: air molecules are pushed together (compression) and pulled apart (rarefaction) in the same direction the sound travels. A slinky demonstrates this vividly — a push at one end sends compression and rarefaction along the coil's length, with each coil moving forward and backward along the same axis as the traveling pulse."
 
-- question: "Longitudinal waves do not have wavelength or frequency — those properties only apply to transverse waves."
+- question: "Longitudinal waves do not have wavelength or frequency — those properties primarily apply to transverse waves."
   type: true-false
   answer: false
   explanation: "Both wave types share all fundamental wave properties: wavelength, frequency, period, amplitude, and wave speed. Wavelength in a longitudinal wave is the distance between successive compressions (or successive rarefactions). Frequency is the number of compression-rarefaction cycles per second. The distinction between transverse and longitudinal is about the direction of oscillation relative to propagation, not about whether basic wave properties apply."

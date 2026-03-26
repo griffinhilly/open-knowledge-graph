@@ -49,7 +49,7 @@ Orchestral timbres are the characteristic sound colors produced by different ins
   answer: false
   explanation: "Each instrument has register-specific timbral colors — the clarinet is the most dramatic example: its chalumeau register is dark and velvety, its clarion register is bright and projecting, and its altissimo is somewhat shrill. These sound so different that beginning listeners sometimes mistake them for different instruments. Similarly, a cello in its upper register sounds very different from a viola playing the same pitches. Register is a primary variable in timbre identification, not a secondary consideration."
 
-- question: "When multiple instruments play together, the combined timbre is always decomposable as a simple sum of the individual instrument timbres."
+- question: "When multiple instruments play together, the combined timbre is typically decomposable as a simple sum of the individual instrument timbres."
   type: true-false
   answer: false
   explanation: "The explainer notes that 'combinations create new timbral identities that can be harder to decompose than solo instruments.' The 'woodwind choir' — flute, oboe, clarinet, bassoon in close harmony — has a distinctive blended quality distinct from any individual instrument. The horn-and-string combination was a Romantic orchestral staple precisely because their overtone structures interact to create a texture different from either alone. Timbral combination is not simply additive; interactions between overtone spectra create new perceptual entities."

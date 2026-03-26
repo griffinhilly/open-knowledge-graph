@@ -56,7 +56,7 @@ Analyze the EPICA ice core dataset: plot CO₂ versus inferred temperature over 
   answer: 2
   explanation: "Ice cores physically trap ancient air in bubbles as snow compacts, preserving actual samples of past atmospheric composition — including CO₂, CH₄, and other greenhouse gases. This is a direct chemical measurement, not an indirect proxy. Other archives like tree rings or foraminifera record climate indirectly through biological or geochemical responses. The EPICA Dome C core extends this direct record to 800,000 years, covering eight full glacial cycles."
 
-- question: "In paleoclimate records, CO₂ increases always precede temperature increases, proving that CO₂ drives glacial-interglacial warming."
+- question: "In paleoclimate records, CO₂ increases typically precede temperature increases, proving that CO₂ drives glacial-interglacial warming."
   type: true-false
   answer: false
   explanation: "The relationship is more nuanced. In glacial terminations, the initial warming is typically triggered by orbital (Milankovitch) forcing — particularly increased Northern Hemisphere summer insolation. As the ocean warms, it releases CO₂ (because warmer water holds less dissolved gas), so CO₂ can lag temperature by hundreds to thousands of years at the start of warming. However, CO₂ then acts as an amplifying feedback that sustains and spreads the warming globally. The causal arrow runs in both directions across glacial cycles."

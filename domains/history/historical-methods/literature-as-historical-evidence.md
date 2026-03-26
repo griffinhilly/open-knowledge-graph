@@ -43,7 +43,7 @@ Literary texts—poems, plays, novels—encode historical attitudes, anxieties, 
   answer: 2
   explanation: "Historians use literary texts as evidence of mentality and cultural assumptions. Fiction reveals how people imagined and felt about their world — what they feared, valued, and took for granted — rather than recording what factually occurred. This evidence is of a different but indispensable kind: it captures what official records omit, including shared emotional responses, moral frameworks, and the texture of everyday expectations."
 
-- question: "A literary text is historically valuable only when it depicts events that actually occurred."
+- question: "A literary text is historically valuable primarily when it depicts events that actually occurred."
   type: true-false
   answer: false
   explanation: "Fiction's historical value lies precisely in what it reveals about the world that produced it, not in its factual accuracy. The effort to make an imagined world feel real forces writers to draw on the shared assumptions, anxieties, and social textures of their actual world. A completely invented narrative can be rich historical evidence of mentality, genre conventions, and cultural norms — all of which tell us how people thought, not just what happened."

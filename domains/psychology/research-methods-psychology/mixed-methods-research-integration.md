@@ -48,7 +48,7 @@ Mixed-methods research intentionally combines quantitative (numerical) and quali
   answer: 2
   explanation: "The defining feature of mixed-methods research is integration — the deliberate synthesis where qualitative and quantitative findings genuinely connect. When results are reported side-by-side without the strands informing, challenging, or explaining each other, the researcher has conducted two separate studies, not one mixed-methods study. True integration means the qualitative findings explain quantitative patterns, or the quantitative findings test and generalize qualitative insights. Without integration, the 'mixed' label is not earned."
 
-- question: "Mixed-methods research is only appropriate when qualitative methods are used to generate hypotheses that are then tested quantitatively."
+- question: "Mixed-methods research is primarily appropriate when qualitative methods are used to generate hypotheses that are then tested quantitatively."
   type: true-false
   answer: false
   explanation: "This describes only one of three main mixed-methods designs: exploratory-sequential (qualitative → quantitative). Mixed-methods also includes explanatory-sequential (quantitative first, then qualitative to explain results) and convergent parallel (both conducted simultaneously and compared). The appropriate design depends on the research question, what is already known in the domain, and whether the goal is hypothesis generation, result explanation, or triangulation."

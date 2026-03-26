@@ -51,7 +51,7 @@ Agamben extends Foucault's biopolitics—the regulation of life itself as a poli
   answer: false
   explanation: "Agamben inverts this reading entirely. The state of exception is not an emergency deviation from the norm; it is the structural foundation of sovereignty itself. The sovereign is defined precisely by the capacity to decide when normal law is suspended. Agamben's argument (following Carl Schmitt but radicalizing it) is that the exception has become increasingly permanent — the exception is the norm. The camp is the paradigmatic example: a space where the state of exception is not temporary but institutionalized. Understanding this inversion is the central insight of Agamben's work."
 
-- question: "In Agamben's framework, bare life refers to life that has been completely expelled from all political relations and exists entirely outside the reach of power."
+- question: "In Agamben's framework, bare life refers to life that has been substantially expelled from most political relations and exists largely outside the reach of power."
   type: true-false
   answer: false
   explanation: "Bare life is paradoxically *included through its exclusion* — this is the key formulation. The homo sacer is not simply outside the political order (like a person in a foreign country). They are inscribed within it as a specific category: they can be killed without it constituting homicide, they can be detained indefinitely, their body is controlled — all by sovereign power. What they lack is legal protection and political recognition. Exclusion from rights is itself a political act that constitutes a specific, degraded form of inclusion in the order of power. Bare life is not the absence of politics; it is a political product."

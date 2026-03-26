@@ -55,7 +55,7 @@ Watch flow visualization videos showing the progression from creeping flow to st
   answer: 2
   explanation: "The drag crisis is a counterintuitive phenomenon: drag drops sharply as Re increases. The mechanism is boundary layer transition. At Re just below 3×10⁵, the boundary layer is laminar and separates early (~80° from the front stagnation point), leaving a large, low-pressure wake. At Re around 3×10⁵, the laminar boundary layer transitions to turbulent — which has more momentum — and separation is delayed to ~120°. The wake shrinks, pressure in the wake rises, and C_D drops from ~0.5 to ~0.1. Reducing form drag through controlled separation is the key insight, not reducing skin friction."
 
-- question: "The von Karman vortex street is a random turbulent phenomenon whose shedding frequency varies unpredictably and cannot be reliably estimated in engineering calculations."
+- question: "The von Karman vortex street is a random turbulent phenomenon whose shedding frequency varies unpredictably and can seldom be reliably estimated in engineering calculations."
   type: true-false
   answer: false
   explanation: "The von Karman vortex street is a highly organized, periodic instability — not random turbulence. Its frequency is well-characterized by the Strouhal number St = fD/V ≈ 0.21 for a cylinder, which remains nearly constant across three decades of Reynolds number (approximately 300 to 10⁵). This predictability is precisely why it is an engineering concern: the shedding frequency f = 0.21V/D can be calculated from known flow speed and cylinder diameter, allowing engineers to check whether it might excite structural resonance in power lines, heat exchanger tubes, bridge cables, and tall structures."

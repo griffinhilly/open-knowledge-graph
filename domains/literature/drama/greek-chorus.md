@@ -53,7 +53,7 @@ Read choral odes from Antigone or Agamemnon aloud to feel their rhythm and moral
   answer: 1
   explanation: "Choral odes are integral structural units, not interruptions or intermissions. The 'Ode to Man' in Antigone, for example, establishes the philosophical stakes — human capability and its limits — against which Antigone's defiance of Creon's law will be judged. These odes develop themes through mythological allusion, lyric meditation, and cosmic reflection that individual characters cannot provide. Far from providing 'relief,' stasima in tragedy typically amplify dread and ethical weight. Their function is interpretive and thematic, not theatrical housekeeping."
 
-- question: "The Greek chorus functions as an objective, reliable narrator whose interpretations of events are always accurate and authoritative."
+- question: "The Greek chorus functions as an objective, reliable narrator whose interpretations of events are typically accurate and authoritative."
   type: true-false
   answer: false
   explanation: "The chorus is explicitly fallible — it can misread events, offer inadequate consolation, fail to see what the audience sees, and sometimes argue positions the play ultimately undermines. This fallibility is not a flaw in the drama but a feature: it creates dramatic irony, shows the limits of communal understanding, and makes the chorus a believable collective voice rather than an omniscient commentator. The Common Misconceptions section notes this directly: the chorus 'is sometimes wrong.'"

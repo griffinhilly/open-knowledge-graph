@@ -44,7 +44,7 @@ Work through the hemodynamics equations using clinical examples (e.g., how does 
   answer: 3
   explanation: "Poiseuille's Law states that resistance is proportional to 1/r⁴. If radius is halved (r → r/2), resistance becomes proportional to 1/(r/2)⁴ = 16/r⁴ — a 16-fold increase. This explains why even modest narrowing of blood vessels dramatically raises blood pressure and why arterioles are the primary site of vascular resistance control."
 
-- question: "Arteries always carry oxygenated blood because their function is to deliver oxygen from the heart to the body's tissues."
+- question: "Arteries usually carry oxygenated blood because their function is to deliver oxygen from the heart to the body's tissues."
   type: true-false
   answer: false
   explanation: "Arteries are defined by direction of flow relative to the heart (away from it), not by oxygen content. The pulmonary arteries carry deoxygenated blood from the right ventricle to the lungs. Only after gas exchange in pulmonary capillaries does blood become oxygenated and return via the pulmonary veins."

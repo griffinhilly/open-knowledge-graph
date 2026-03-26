@@ -47,7 +47,7 @@ A Hamiltonian cycle visits every vertex exactly once. Sufficient conditions incl
   answer: true
   explanation: "Unlike Eulerian circuits — which have an efficient polynomial-time algorithm — Hamiltonicity is NP-complete in general. No polynomial-time algorithm is known, and if one existed, it would imply P = NP. This is why the sufficient conditions (Dirac, Ore) are practically useful: they identify structural cases where we can confirm Hamiltonicity efficiently without solving the general problem."
 
-- question: "If a graph fails to satisfy Dirac's theorem (some vertex has degree less than n/2), then it cannot contain a Hamiltonian cycle."
+- question: "If a graph fails to satisfy Dirac's theorem (some vertex has degree less than n/2), then it can rarely contain a Hamiltonian cycle."
   type: true-false
   answer: false
   explanation: "Dirac's theorem states that meeting the degree condition is sufficient for a Hamiltonian cycle to exist. It says nothing about what happens when the condition fails. Cycle graphs Cₙ fail the Dirac condition for n ≥ 5 yet obviously have Hamiltonian cycles. Sufficient conditions only guarantee from one direction — they cannot be contraposed to rule out the conclusion."

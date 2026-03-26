@@ -53,7 +53,7 @@ The second moment of area (moment of inertia) I measures how an area is distribu
   answer: true
   explanation: "The parallel axis theorem gives I = I_centroid + Ad². The shift term is Ad², which grows with the square of d. If d doubles, d² quadruples — and so does the Ad² contribution. This is the geometric leverage that makes flanges so effective in I-beams: placing the same area twice as far from the neutral axis doesn't double its contribution to I, it quadruples it. This squared relationship is why 'spread the material outward' is such powerful structural design advice."
 
-- question: "A solid rectangular beam always has a higher moment of inertia than an I-beam of the same total cross-sectional area."
+- question: "A solid rectangular beam usually has a higher moment of inertia than an I-beam of the same total cross-sectional area."
   type: true-false
   answer: false
   explanation: "The opposite is true: an I-beam typically has a much *higher* moment of inertia than a solid rectangle of the same area, because it concentrates material far from the neutral axis. The second moment of area is not a fixed property of area alone — it depends critically on where that area is located relative to the reference axis. Two cross-sections with identical area can have dramatically different I values, and the I-beam is specifically designed to maximize I for a given material quantity."

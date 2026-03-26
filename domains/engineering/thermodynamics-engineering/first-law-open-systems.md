@@ -46,7 +46,7 @@ Derive the steady-flow energy equation from first principles by tracking mass an
   answer: 1
   explanation: "Each parcel of fluid entering a control volume carries internal energy u but also does work Pv pushing the fluid column behind it across the boundary (flow work). Similarly, fluid leaving does flow work on what follows it. The total energy transported per unit mass is therefore u + Pv = h. This is a fundamental consequence of the open-system formulation, not merely a convenience."
 
-- question: "For any steady-flow device, the kinetic and potential energy terms in the energy equation can always be safely neglected."
+- question: "For any steady-flow device, the kinetic and potential energy terms in the energy equation can generally be safely neglected."
   type: true-false
   answer: false
   explanation: "Kinetic and potential energy terms are often small compared to enthalpy and heat/work terms in turbines and compressors, and neglecting them is a reasonable approximation there. But for nozzles and diffusers — designed specifically to convert enthalpy to kinetic energy or vice versa — the kinetic energy change is the entire point and cannot be neglected. Similarly, large elevation changes in hydraulic turbines make the potential energy term significant."

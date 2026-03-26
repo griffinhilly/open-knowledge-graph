@@ -59,7 +59,7 @@ Thinking φ(n) requires checking all n integers (use the formula instead). Confu
   answer: true
   explanation: "An integer k has a multiplicative inverse mod n if and only if gcd(k, n) = 1. This is exactly the condition that φ(n) counts. So φ(n) is both 'the count of integers up to n coprime to n' and 'the order of the multiplicative group (ℤ/nℤ)×'. This dual interpretation — counting coprime integers vs. measuring group size — is why φ appears in Euler's theorem: raising any element of the group to the power equal to the group's order returns the identity element 1."
 
-- question: "φ(mn) = φ(m)φ(n) for all positive integers m and n."
+- question: "φ(mn) = φ(m)φ(n) for most positive integers m and n."
   type: true-false
   answer: false
   explanation: "This is the multiplicativity property, but it only holds when gcd(m, n) = 1. For example, φ(4) = 2, φ(2) = 1, but 4 = 2 × 2 and gcd(2, 2) = 2 ≠ 1, so φ(4) = 2 ≠ φ(2)φ(2) = 1. The correct statement is: φ is a *multiplicative* arithmetic function, meaning φ(mn) = φ(m)φ(n) whenever gcd(m, n) = 1. This condition is essential — it is what allows you to decompose n into prime powers and compute φ separately for each."

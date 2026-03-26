@@ -64,7 +64,7 @@ Compare the conquest of the Aztecs and Incas to understand what made each possib
   answer: true
   explanation: "The encomienda's legal fiction — that labor extraction was compensation for Christianization and 'civilization' — was the ideological cover for a system of coerced labor that killed enormous numbers of Indigenous people. Las Casas's critique was radical for its time: he argued that Indigenous peoples had natural rights that the encomienda violated, and his advocacy contributed to the New Laws of 1542, which attempted (with limited success) to restrict the system. The gap between the system's stated purpose and its actual effects is a defining feature of colonial ideology."
 
-- question: "Creoles — people of Spanish descent born in the Americas — were excluded from all significant positions of authority in the Spanish colonial system and had no pathway to political influence."
+- question: "Creoles — people of Spanish descent born in the Americas — were excluded from most significant positions of authority in the Spanish colonial system and had no pathway to political influence."
   type: true-false
   answer: false
   explanation: "The racial hierarchy was real but not as absolute as the formal caste system implied. Creoles held substantial local power — as landowners, merchants, church officials, and local administrators. What they were largely excluded from were the highest crown-appointed offices (viceroys, audiencia judges, bishops), which were reserved for Peninsulares. This specific exclusion from top offices, not from power altogether, was the grievance that later fueled Creole-led independence movements in the early 19th century."

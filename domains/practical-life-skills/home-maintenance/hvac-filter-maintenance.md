@@ -58,7 +58,7 @@ Pull out your current filter and note its exact dimensions (printed on the frame
   answer: false
   explanation: "False. A clogged filter is primarily a mechanical and financial threat. Restricted airflow forces the blower motor to work harder, increasing energy costs by 5–15% and accelerating motor wear. Worse, reduced airflow across the evaporator coil can cause it to freeze — ice blocks further airflow in a self-reinforcing cycle — and potentially damage the compressor, one of the most expensive HVAC components. A $15 filter neglected long enough can cause a $1,500+ repair."
 
-- question: "The highest MERV rating available for residential filters is always the best choice for both air quality and system health."
+- question: "The highest MERV rating available for residential filters is generally the best choice for both air quality and system health."
   type: true-false
   answer: false
   explanation: "False. This is the most common HVAC filter misconception. Higher MERV ratings capture smaller particles — but they also restrict more airflow. Most residential systems are not designed for MERV 13+ filters; installing one creates excessive airflow resistance that stresses the blower motor and reduces heating and cooling performance. The correct filter balances air quality needs against the system's rated airflow capacity. Verify system specifications before upgrading MERV rating."

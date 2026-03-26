@@ -55,7 +55,7 @@ Calculate exchange integrals for simple diatomic molecules (H₂, H₂⁺); plot
   answer: true
   explanation: "Unlike the Coulomb integral (α), which has a straightforward classical interpretation as the electrostatic energy of an electron in one orbital interacting with the second nucleus, β involves the Hamiltonian operating across two different orbitals on different atoms: β = ∫φₐ Ĥ φᵦ dτ. This cross-term only exists because quantum mechanics allows wavefunctions to be superpositions. It arises from the indistinguishability and delocalizability of quantum particles — something classical physics cannot accommodate. The energy lowering it produces is sometimes called 'quantum mechanical resonance stabilization.'"
 
-- question: "A larger exchange integral β always indicates a stronger covalent bond, regardless of the symmetry or spatial orientation of the orbitals involved."
+- question: "A larger exchange integral β typically indicates a stronger covalent bond, regardless of the symmetry or spatial orientation of the orbitals involved."
   type: true-false
   answer: false
   explanation: "β depends critically on orbital overlap, and overlap depends on both the magnitude of spatial overlap and the symmetry relationship between the orbitals. Two p orbitals pointing perpendicular to the internuclear axis can be close in space yet have zero net overlap (and thus β ≈ 0) because their positive and negative lobes cancel. Similarly, s and p orbitals on adjacent atoms may have small net overlap due to partial cancellation. So while a larger |β| does correspond to a stronger interaction, β can be small or zero even for nearby atoms if the orbital symmetry is unfavorable."

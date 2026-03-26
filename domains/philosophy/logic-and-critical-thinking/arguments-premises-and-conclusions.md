@@ -37,7 +37,7 @@ Identify premises and conclusions in everyday arguments. Ask: 'What is the speak
   answer: 2
   explanation: "An argument requires at least one premise and a conclusion connected by a reasoning relationship. 'It's raining' is the premise; 'bring an umbrella' is the conclusion supported by it. A bare statement, an isolated opinion, and a question are not arguments — they make no claim supported by evidence."
 
-- question: "The conclusion of an argument must always appear at the end of the passage."
+- question: "The conclusion of an argument is expected to generally appear at the end of the passage."
   type: true-false
   answer: false
   explanation: "Conclusions can appear anywhere — at the beginning, middle, or end. A conclusion is identified not by its position but by its role: it is the statement the premises are meant to support. Indicator words like 'therefore,' 'so,' 'thus,' and 'hence' help locate conclusions regardless of position."

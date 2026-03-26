@@ -58,7 +58,7 @@ Calculate the tax savings from a $5,000 deduction versus a $5,000 credit at diff
   answer: true
   explanation: "This is the defining feature of refundable credits like the Earned Income Tax Credit (EITC). A nonrefundable credit can only reduce your tax to zero — any unused portion is lost. A refundable credit continues past zero, triggering a direct payment from the government. Many credits designed for lower-income taxpayers are refundable specifically because nonrefundable credits are less useful when you have little or no tax liability to offset."
 
-- question: "A $1,000 tax deduction and a $1,000 tax credit provide the same benefit to every taxpayer."
+- question: "A $1,000 tax deduction and a $1,000 tax credit provide the same benefit to nearly every taxpayer."
   type: true-false
   answer: false
   explanation: "A $1,000 credit saves exactly $1,000 in taxes for every taxpayer at every income level. A $1,000 deduction saves only $1,000 × your marginal rate: $120 at 12%, $220 at 22%, $370 at 37%. The higher your bracket, the more your deduction is worth — deductions are asymmetric tools that benefit higher earners more. Credits are symmetric: the same face value yields the same tax savings regardless of income."

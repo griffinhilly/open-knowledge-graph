@@ -46,7 +46,7 @@ Comparing different cases can reveal patterns and causal mechanisms that single-
   answer: 2
   explanation: "Most-different systems design examines cases that vary widely in most respects but share the same outcome. If very different societies all experienced revolutions and all shared a specific structural feature, that shared feature — despite the surrounding differences — becomes a strong causal candidate. The logic: if outcome Y appears across very different contexts whenever condition X is present, then X is doing causal work. This is the design Theda Skocpol used in States and Social Revolutions."
 
-- question: "The primary goal of comparative historical analysis is to identify universal laws about society that apply across all contexts and time periods."
+- question: "The primary goal of comparative historical analysis is to identify universal laws about society that apply across most contexts and time periods."
   type: true-false
   answer: false
   explanation: "Comparative historians aim to identify mechanisms that operated across specific cases — not universal laws. Works like Barrington Moore's Social Origins of Dictatorship and Democracy or Skocpol's States and Social Revolutions make claims about structural conditions that shaped outcomes in the cases examined, while acknowledging that context matters and that their findings are not timeless generalizations. Comparison is the closest history gets to experimental control, but it produces middle-range explanations, not universal laws."

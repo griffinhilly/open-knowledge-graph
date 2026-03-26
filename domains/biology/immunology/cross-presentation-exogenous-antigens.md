@@ -53,7 +53,7 @@ Diagram two models of cross-presentation: ER-mediated dislocation and phagosomal
   answer: 1
   explanation: "The cytosolic pathway routes exogenous antigen through the standard MHC-I loading machinery after escape from the endosomal compartment. The protein is first internalized into a phagosome (not lysosomes — option D conflates these), then translocated across the phagosomal membrane into the cytoplasm (possibly via Sec61), where proteasomes degrade it into peptides, TAP transports them into the ER, and MHC-I loads them for surface display to CD8+ T cells. Option A is the standard MHC-II pathway for exogenous antigens. Option C skips the critical endosomal internalization step — cross-presentation still begins with endocytosis."
 
-- question: "All antigen-presenting cells can perform cross-presentation with equal efficiency, making dendritic cell subset specialization irrelevant to this process."
+- question: "Most antigen-presenting cells can perform cross-presentation with equal efficiency, making dendritic cell subset specialization irrelevant to this process."
   type: true-false
   answer: false
   explanation: "This is directly contradicted by the Common Misconceptions section. Cross-presentation is performed most efficiently by specialized dendritic cell subsets — in humans, particularly BDCA-3+ (CD141+) conventional dendritic cells; in mice, the equivalent CD8α+ DC subset. These cells have specialized intracellular machinery that promotes phagosomal escape into the cytoplasm and efficient MHC-I loading. Other cells (macrophages, B cells, other DC subsets) can cross-present under some conditions but with much lower efficiency. This specialization is central to understanding which cells prime naive CD8+ T cells in vivo."

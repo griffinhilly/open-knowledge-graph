@@ -60,7 +60,7 @@ Trace the outline of shapes with your finger while counting. Place a string arou
   answer: true
   explanation: "Perimeter = sum of all sides = 3 + 4 + 5 = 12 cm. The rule for finding perimeter works for any polygon, not just rectangles: add every side. There are no special shortcuts required for triangles — just careful addition of all sides."
 
-- question: "If one shape has a larger area than another shape, it must also have a larger perimeter."
+- question: "If one shape has a larger area than another shape, it should also have a larger perimeter."
   type: true-false
   answer: false
   explanation: "Area and perimeter measure completely different things and are independent of each other. A rectangle that is 1 cm × 20 cm has an area of 20 square cm and a perimeter of 42 cm. A rectangle that is 4 cm × 5 cm also has an area of 20 square cm but a perimeter of only 18 cm. These two shapes have the same area but very different perimeters. You cannot determine one from the other without knowing the specific shape."

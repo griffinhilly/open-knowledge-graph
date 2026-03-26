@@ -51,7 +51,7 @@ Spinlocks are synchronization primitives where a process repeatedly checks a loc
   answer: true
   explanation: "A spinlock loop like `while (test_and_set(&lock) == 1) {}` works because test-and-set is an atomic read-modify-write operation: it reads the current value and writes 1 in a single uninterruptible step. Without atomicity, two threads could both read 0, both decide the lock is free, and both enter the critical section — a race condition. The atomic instruction ensures mutual exclusion without OS intervention, which is what makes spinlocks viable in interrupt handlers and kernel code where calling into the scheduler is impossible."
 
-- question: "Spinlocks are always more efficient than blocking locks because they avoid the overhead of context switches."
+- question: "Spinlocks are typically more efficient than blocking locks because they avoid the overhead of context switches."
   type: true-false
   answer: false
   explanation: "Spinlocks are only more efficient when the critical section is short enough that the wait time is less than the cost of a context switch, AND only on multiprocessor systems where the lock holder can make progress on another CPU. On a single-processor system, spinning wastes the entire time slice. Under high contention or for long critical sections, spinning burns CPU cycles that could do useful work elsewhere. A blocking lock that yields the CPU is more efficient whenever the expected wait exceeds the context switch cost."

@@ -47,7 +47,7 @@ Selection rules determine which electronic transitions are allowed based on symm
   answer: 2
   explanation: "π→π* transitions in conjugated systems are both spin-allowed (ΔS = 0) and symmetry-allowed, producing molar absorptivities ε > 10,000 L mol⁻¹ cm⁻¹. By comparison: S₀→T₁ violates the spin rule (ΔS ≠ 0) and is very weak unless heavy atoms are present; d-d transitions in octahedral complexes are Laporte-forbidden (weak, ε ≈ 10–100); and n→π* transitions are often symmetry-forbidden due to poor spatial overlap between the nonbonding orbital and the π* orbital, giving ε ~ 10–100. Understanding these intensity differences is how spectroscopists assign bands to specific transition types."
 
-- question: "A 'forbidden' electronic transition cannot be observed in a UV-Vis absorption spectrum under any circumstances."
+- question: "A 'forbidden' electronic transition can seldom be observed in a UV-Vis absorption spectrum under any circumstances."
   type: true-false
   answer: false
   explanation: "Forbidden means weak, not absent. Several physical mechanisms can relax selection rules and allow nominally forbidden transitions to occur with low intensity. Vibronic coupling can break the Laporte rule by temporarily distorting a centrosymmetric molecule through vibration. Spin-orbit coupling can mix singlet and triplet states, partially relaxing the spin selection rule — especially important in heavy-atom molecules and enabling phenomena like phosphorescence. The result is that forbidden transitions produce bands with low molar absorptivity (ε < 100), clearly distinguishable from allowed transitions (ε > 1000) but still measurable."

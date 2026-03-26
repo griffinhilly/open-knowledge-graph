@@ -54,7 +54,7 @@ Compare a manometer reading taken when a Pitot tube faces the flow (stagnation p
   answer: 1
   explanation: "Static pressure is an inherent property of the fluid related to molecular motion — it is always present whether the fluid moves or not. Dynamic pressure ½ρV² is the kinetic energy per unit volume of the bulk flow, and it represents additional pressure that appears *only when the flow is brought to rest* (at a stagnation point). In a moving fluid, both exist simultaneously: the static pressure acts on surfaces parallel to the flow, and the stagnation pressure (static + dynamic) acts on surfaces facing the flow. Bernoulli's equation says their sum is conserved along a streamline — not that one replaces the other."
 
-- question: "Dynamic pressure is a type of pressure that moving fluids exert in the direction perpendicular to the flow, in addition to the static pressure they exert on all surfaces."
+- question: "Dynamic pressure is a type of pressure that moving fluids exert in the direction perpendicular to the flow, in addition to the static pressure they exert on most surfaces."
   type: true-false
   answer: false
   explanation: "Dynamic pressure ½ρV² is not a separate force on surfaces perpendicular to flow — it is the kinetic energy per unit volume of the bulk motion. It only manifests as an actual pressure increase on surfaces that bring the flow to rest (stagnation surfaces, like the tip of a Pitot tube or the leading edge of an airfoil). On surfaces parallel to the flow (static pressure taps), only static pressure acts. Calling dynamic pressure a 'type of pressure on perpendicular surfaces' confuses the energy quantity with the stagnation effect."

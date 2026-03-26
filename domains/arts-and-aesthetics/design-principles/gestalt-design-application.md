@@ -58,7 +58,7 @@ Redesign an existing layout using Gestalt principles. Identify how proximity, si
   answer: true
   explanation: "Gestalt principles are not design rules imposed from outside — they describe how the human visual system actually organizes sensory input into coherent wholes. Proximity, similarity, continuity, closure, and figure-ground occur automatically in response to whatever visual field a person encounters. This is why understanding them is so powerful for designers: you can't prevent them from operating, so you must channel them to support your intended organization rather than work against it."
 
-- question: "Adding more visual elements — borders, icons, labels, dividers — always makes a layout clearer by giving users more information to understand the structure."
+- question: "Adding more visual elements — borders, icons, labels, dividers — typically makes a layout clearer by giving users more information to understand the structure."
   type: true-false
   answer: false
   explanation: "More visual elements can introduce noise that competes with or overrides the natural perceptual groupings that Gestalt principles would otherwise produce. Closure allows designers to imply boundaries without drawing them: a card layout with good spacing communicates its structure clearly without needing borders on all four sides. Visual complexity can actually undermine clarity when the added elements fight against the automatic perceptual groupings that proximity, similarity, and continuity already create."

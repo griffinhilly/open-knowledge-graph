@@ -50,7 +50,7 @@ Start with money: $3.70 + $2.45 is natural and intuitive. Then generalize to non
   answer: 1
   explanation: "Right-aligning stacks the 5 (hundredths) under the 7 (tenths), treating them as the same place value. This is like adding dimes and pennies without converting. Aligning the decimal points ensures each column contains digits from the same place value."
 
-- question: "Rewriting 3.7 as 3.70 before adding changes the value of the number, so you must adjust your final answer to compensate."
+- question: "Rewriting 3.7 as 3.70 before adding changes the value of the number, so you is expected to adjust your final answer to compensate."
   type: true-false
   answer: false
   explanation: "Appending a trailing zero after the decimal point does not change a number's value — 3.7 and 3.70 are identical. Trailing zeros to the right of the last significant decimal digit are placeholders that make the column structure explicit without altering the quantity."

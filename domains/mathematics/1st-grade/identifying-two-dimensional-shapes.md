@@ -55,7 +55,7 @@ Students learn to identify and name common two-dimensional shapes like circles, 
   answer: true
   explanation: "Size does not affect a shape's attributes. Any triangle, regardless of size, has exactly 3 straight sides and 3 corners. This is why shape identification focuses on counting attributes rather than measuring size or comparing appearance."
 
-- question: "A shape that looks like a rectangle at first glance must have four sides of equal length."
+- question: "A shape that looks like a rectangle at first glance is expected to have four sides of equal length."
   type: true-false
   answer: false
   explanation: "A rectangle requires four right-angle corners and opposite sides of equal length — but not all four sides equal. Only a square (a special rectangle) has all four sides equal. A typical rectangle is longer than it is wide, and that is perfectly valid. Assuming equal sides is a common overgeneralization from the familiar square."

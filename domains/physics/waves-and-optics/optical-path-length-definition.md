@@ -46,7 +46,7 @@ Optical path length is OPL = ∫n·ds along a ray path. It determines phase accu
   answer: 1
   explanation: "Destructive interference requires a phase difference of π (half a cycle), which corresponds to an optical path difference of λ₀/2. The coating thickness is chosen so that the ray reflecting off the back surface travels an extra OPL of λ₀/2 compared to the ray reflecting off the front surface — placing the two reflected waves half a wavelength apart and causing them to cancel. The geometric thickness needed is λ_coating/4 = λ₀/(4n), not λ₀ itself."
 
-- question: "Two light rays that travel the same geometric distance will always arrive at the same phase."
+- question: "Two light rays that travel the same geometric distance will generally arrive at the same phase."
   type: true-false
   answer: false
   explanation: "Phase accumulation depends on optical path length (OPL = n × geometric path), not geometric distance alone. If the two rays pass through media with different refractive indices, they accumulate different amounts of phase even over identical geometric distances. Equal geometric paths guarantee equal phase only when both rays travel through media with the same refractive index (e.g., both in vacuum)."

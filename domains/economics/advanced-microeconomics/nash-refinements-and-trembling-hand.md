@@ -51,7 +51,7 @@ Trembling hand perfection refines Nash equilibrium by requiring robustness to sm
   answer: true
   explanation: "This is precisely the definition. The 'tremble' is modeled as each player mistakenly playing each action with some small but positive probability ε > 0. An equilibrium is trembling hand perfect if it is the limit of Nash equilibria in these perturbed games as ε → 0. This rules out equilibria that unravel when opponents might, even with tiny probability, take actions that were previously assumed to be off the equilibrium path."
 
-- question: "Every Nash equilibrium in a finite game is trembling hand perfect, because Nash equilibria are defined as strategy profiles where no player can benefit by deviating."
+- question: "Most Nash equilibrium in a finite game is trembling hand perfect, because Nash equilibria are defined as strategy profiles where no player can benefit by deviating."
   type: true-false
   answer: false
   explanation: "Nash equilibrium only requires that no player benefits from deviating *given the other players' exact equilibrium strategies*. It says nothing about robustness when opponents might make small mistakes. In particular, Nash equilibria sustained by weakly dominated strategies fail the perfection test: when opponents tremble, the weakly dominated strategy earns strictly less than its dominator, so the player deviates. Trembling hand perfection is strictly stronger than Nash equilibrium."

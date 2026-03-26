@@ -61,7 +61,7 @@ Start by understanding each mode as a 'rotation' of the C major scale (D Dorian,
   answer: 2
   explanation: "Mixolydian is the major scale with a lowered 7th. G major has F#; G Mixolydian lowers it to F natural, giving G–A–B–C–D–E–F–G. Option A is correct about the parent key relationship (G Mixolydian shares all pitches with C major) but describes it by relationship to C rather than by characteristic interval — less useful for playing from any root. The lowered 7th gives Mixolydian its characteristic 'unresolved' quality heard in blues, rock, and folk. Option D describes G Lydian (raised 4th)."
 
-- question: "D Dorian and D Aeolian use exactly the same pitches — the only difference is which note they start on."
+- question: "D Dorian and D Aeolian use exactly the same pitches — the primary difference is which note they start on."
   type: true-false
   answer: false
   explanation: "D Dorian uses the pitches of C major (D–E–F–G–A–B–C–D, with B natural). D Aeolian (natural minor) uses the pitches of F major (D–E–F–G–A–B♭–C–D, with B♭). They share the same root (D) and most pitches, but differ on the 6th scale degree: B natural in Dorian vs. B♭ in Aeolian. This is not a trivial difference — the raised 6th is Dorian's defining characteristic and accounts for its distinctly different tonal color despite both being 'minor-flavored.' They are different scales, not the same scale starting on different notes."

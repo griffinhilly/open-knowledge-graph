@@ -52,7 +52,7 @@ Tree rings are not always annual (some trees add multiple rings per year or skip
   answer: 1
   explanation: "Cross-dating is the technique of matching the fingerprint pattern of wide and narrow rings — shaped by shared regional climate signals — across multiple trees and wood samples. Because the pattern is unique year by year, a match anchors every ring to its exact calendar year. This allows chronologies to extend back through dead wood, ancient timbers, and subfossils. Crucially, mismatches reveal false rings (an extra ring produced in a single year) or missing rings (a year with no growth ring) — errors that would silently corrupt any analysis."
 
-- question: "Tree ring width is a reliable proxy for summer temperature at any geographic location, since trees always respond to temperature as their primary growth constraint."
+- question: "Tree ring width is a reliable proxy for summer temperature at any geographic location, since trees generally respond to temperature as their primary growth constraint."
   type: true-false
   answer: false
   explanation: "False — this is one of the most important misconceptions in dendroclimatology. Ring width reflects whatever environmental factor most limits growth at that site. At treeline sites (high altitude or high latitude), temperature limits the length and warmth of the growing season, so ring width tracks temperature. At semi-arid or continental interior sites, moisture is the limiting factor and ring width reflects precipitation and drought. Using a moisture-sensitive chronology as a temperature proxy, or vice versa, produces a flawed reconstruction. Careful site selection for the specific climate variable of interest is essential."

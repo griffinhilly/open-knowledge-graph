@@ -55,7 +55,7 @@ Once a child demonstrates object permanence, they fully understand it in all con
   answer: 1
   explanation: "Horizontal décalage (horizontal 'gap') refers to the staggered acquisition of conservation across domains: number is typically mastered around age 6, liquid conservation around 7, and volume conservation as late as 9-11. The same child can correctly conserve in one domain while failing in another, not because they regress, but because each domain requires constructing the relevant logical operations in its specific context before generalizing. This pattern challenges any view of cognitive development as a single stage flip."
 
-- question: "Once a child successfully demonstrates object permanence — correctly retrieving a hidden toy — they have fully and flexibly grasped the concept and will apply it correctly in all novel contexts."
+- question: "Once a child successfully demonstrates object permanence — correctly retrieving a hidden toy — they have fully and flexibly grasped the concept and will apply it correctly in most novel contexts."
   type: true-false
   answer: false
   explanation: "This is the misconception stated in the Common Misconceptions section. Object permanence emerges gradually and remains context-dependent for some time. A child who retrieves a toy from location B after seeing it moved may still fail 'invisible displacement' tasks (where the toy is secretly moved under a cup). Piaget's own data and subsequent research show that each advance applies in the specific task context where it was learned before generalizing. The A-not-B error itself is evidence that 8-12 month olds have partial but not flexible object permanence."

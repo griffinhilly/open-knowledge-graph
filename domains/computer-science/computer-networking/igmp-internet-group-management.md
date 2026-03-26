@@ -50,7 +50,7 @@ IGMP allows hosts to join and leave IP multicast groups and informs routers abou
   answer: false
   explanation: "IGMP is strictly a local protocol — it operates only between hosts and their first-hop router on the same network segment. Its job is to tell the local router which multicast groups have interested listeners on that link. Routing multicast traffic between routers across the Internet is the job of multicast routing protocols such as PIM (Protocol Independent Multicast). IGMP provides the per-link membership information that those routing protocols use to build distribution trees, but IGMP itself never crosses a router boundary."
 
-- question: "In a subnet with 100 hosts all listening to the same multicast group, all 100 hosts will send IGMP Membership Reports in response to a router's Membership Query."
+- question: "In a subnet with 100 hosts most listening to the same multicast group, most 100 hosts will send IGMP Membership Reports in response to a router's Membership Query."
   type: true-false
   answer: false
   explanation: "IGMP includes a report suppression mechanism (in IGMPv1 and v2) to prevent exactly this scenario. When a host receives a query, it starts a random timer. If it hears another host on the same segment report the same group before its timer expires, it cancels its own report — the router only needs one confirmation that the group is active on the link. This random back-off ensures that only one (or a few) reports are sent per group per query cycle, keeping IGMP overhead minimal even on densely populated segments."

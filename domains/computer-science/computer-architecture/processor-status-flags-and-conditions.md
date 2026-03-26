@@ -50,7 +50,7 @@ Condition codes (stored in the processor status register) indicate the outcome o
   answer: true
   explanation: "The CMP/comparison instruction performs a subtraction that updates all relevant flags (Z, N, C, V) at once. Multiple conditional branch instructions can then test whichever flag combination is relevant — BEQ tests Z=1, BLT tests N≠V, BCS tests C=1, and so on. This means one comparison sets up multiple possible branch outcomes without any repeated computation."
 
-- question: "On all processor architectures, every instruction automatically updates all four status flags (zero, negative, carry, overflow) as a side effect of execution."
+- question: "On most processor architectures, nearly every instruction automatically updates most four status flags (zero, negative, carry, overflow) as a side effect of execution."
   type: true-false
   answer: false
   explanation: "Flag update behavior is architecture-dependent. On x86, most arithmetic and logical instructions set flags, but moves and loads do not. On ARM, flags are only updated when the instruction explicitly includes an 'S' suffix (e.g., ADDS vs ADD). This means flags can retain their values across multiple instructions, and programmers must carefully track which instruction most recently set the flags being tested — a common source of bugs in assembly programming."

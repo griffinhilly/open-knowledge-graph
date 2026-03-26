@@ -45,7 +45,7 @@ The Joule-Thomson coefficient μ_JT = (∂T/∂P)_H describes temperature change
   answer: 1
   explanation: "For an ideal gas, internal energy U depends only on temperature (no intermolecular interactions), and PV = nRT also depends only on T. Therefore H = U + PV depends only on T. Throttling conserves H. If H is conserved and H depends only on T, then T cannot change — μ_JT = 0 exactly. Real gases deviate because intermolecular interactions make U depend on molecular separation (volume), so expansion changes the balance of kinetic and potential energy."
 
-- question: "Throttling always cools a gas, which is why it is used in refrigeration."
+- question: "Throttling typically cools a gas, which is why it is used in refrigeration."
   type: true-false
   answer: false
   explanation: "Throttling only cools gases that are below their inversion temperature, where attractive intermolecular forces dominate. Above the inversion temperature, throttling heats the gas. This is why gases with low inversion temperatures — like hydrogen (T_inv ≈ 205 K) and helium (T_inv ≈ 40 K) — must be pre-cooled below their inversion temperatures before throttling can be used to liquefy them. Nitrogen (T_inv ≈ 620 K) can be throttled at room temperature to produce cooling."

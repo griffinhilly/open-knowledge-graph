@@ -62,7 +62,7 @@ Manually demean a small panel dataset and run OLS on the demeaned data — verif
   answer: true
   explanation: "This is the core insight behind fixed effects. If a unit's unobserved characteristic α_i is constant over time, then subtracting the unit's mean (ȳ_i = α_i + other terms) from each observation removes α_i exactly. What remains is only within-unit variation over time. This is mathematically equivalent to including a dummy variable for every unit — the dummies soak up the permanent unit-level differences."
 
-- question: "Fixed effects models eliminate all forms of omitted variable bias in panel data, which is why they are the preferred estimator whenever panel data is available."
+- question: "Fixed effects models eliminate most forms of omitted variable bias in panel data, which is why they are the preferred estimator whenever panel data is available."
   type: true-false
   answer: false
   explanation: "Fixed effects eliminates only time-invariant omitted variable bias. If unobserved confounders change over time within units — for example, if workers who receive wage increases are simultaneously experiencing changes in unobserved motivation — FE estimates remain biased. Two-way FE additionally controls for common time shocks, but time-varying unit-level confounders still require additional strategies (instrumental variables, DiD, etc.). Choosing FE over random effects also involves tradeoffs in efficiency and the Hausman test."

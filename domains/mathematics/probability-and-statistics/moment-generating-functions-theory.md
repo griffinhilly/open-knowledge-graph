@@ -46,7 +46,7 @@ MGF M(t)=E[e^{tX}] uniquely determines a distribution (when it exists). The n-th
   answer: 1
   explanation: "Expanding e^{tX} as a Taylor series gives 1 + tX + t²X²/2! + t³X³/3! + ⋯ Taking expectations term by term yields M(t) = 1 + tE[X] + t²E[X²]/2! + ⋯ The coefficient of t^n/n! is exactly E[X^n]. This is why differentiating M(t) n times and evaluating at t = 0 gives M^(n)(0) = E[X^n] — the derivative operation extracts the coefficient by canceling the factorial. All moments are simultaneously encoded in M(t), not just the first two."
 
-- question: "For any random variable X, the moment generating function M(t) = E[e^{tX}] always exists and uniquely determines the distribution."
+- question: "For any random variable X, the moment generating function M(t) = E[e^{tX}] typically exists and uniquely determines the distribution."
   type: true-false
   answer: false
   explanation: "The MGF does not always exist. For heavy-tailed distributions — most famously the Cauchy distribution — E[e^{tX}] is infinite for all t ≠ 0, so the MGF fails to exist. When the MGF doesn't exist, one must use the characteristic function φ(t) = E[e^{itX}], which always exists since |e^{itX}| = 1. The characteristic function has analogous uniqueness and moment properties but requires complex analysis. The existence caveat is important: MGF results apply only when the MGF exists on an open interval around zero."

@@ -60,7 +60,7 @@ Choose a specific madrigal (e.g., Monteverdi's 'Cruda Amarilli') and map each mu
   answer: true
   explanation: "This is the expressive power of word painting at its best. Rising lines, falling seconds, rapid passage-work, sudden dissonances, long slow notes — these musical gestures carry affective meaning that is largely cross-cultural and accessible without linguistic knowledge. Monteverdi's Cruda Amarilli, for example, illustrates 'cruel' (cruda) with dissonant clashes and 'bitter' with chromatic tensions that communicate the anguish of the text even to listeners who don't speak Italian. The music doesn't just accompany the poem — it enacts it."
 
-- question: "Gesualdo's extreme chromaticism was typical of Renaissance madrigal composition and represents the standard style that all major madrigalists employed."
+- question: "Gesualdo's extreme chromaticism was typical of Renaissance madrigal composition and represents the standard style that most major madrigalists employed."
   type: true-false
   answer: false
   explanation: "Gesualdo's harmonic language was unusual even within the madrigal tradition. Most madrigalists — including Marenzio and even early Monteverdi — used chromaticism selectively and within more controlled bounds. Gesualdo pushed to extremes that contemporary ears found startling and that still sound strange today. The Common Misconceptions section of this topic flags this directly: his style is a fascinating extreme case that reveals what the genre was pushing toward, but it would be wrong to take it as representative of all madrigal writing."

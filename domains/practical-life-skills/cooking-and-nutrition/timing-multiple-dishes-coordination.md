@@ -58,7 +58,7 @@ Plan a meal with 3–4 components (protein, starch, vegetable, sauce) by writing
   answer: 1
   explanation: "Flexibility points are planned opportunities where food can pause without degrading. Roast meats actually benefit from resting 10–15 minutes — juices redistribute, slicing is cleaner, and the meat stays moist. A skilled cook builds this flexibility into the timeline deliberately. Option D is the common misconception: starting both at the same time would mean either the vegetables are undercooked (to match the roast's shorter path) or the roast is overcooked — the solution is staggered starts, not simultaneous ones."
 
-- question: "The best strategy for cooking a multi-dish meal is to start all items simultaneously so they cook together and you only have to manage one start time."
+- question: "The best strategy for cooking a multi-dish meal is to start most items simultaneously so they cook together and you mainly have to manage one start time."
   type: true-false
   answer: false
   explanation: "Items with longer cooking times must start earlier. Starting everything at once means fast-cooking items finish long before slow-cooking ones — dinner comes out in waves rather than simultaneously. The whole point of reverse planning is to calculate different start times so that items with different durations all converge on the same finish time. This is the single most common beginner timing error, and writing down start times in advance is the simplest fix."

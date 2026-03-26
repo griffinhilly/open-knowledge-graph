@@ -52,7 +52,7 @@ Applicative voice is a valency-increasing operation that promotes a peripheral t
   answer: true
   explanation: "This is the defining property of applicative voice. The operation takes a participant that would normally be expressed as an optional, peripheral prepositional phrase (an adjunct) and incorporates it into the verb's core argument structure as a new object. Valency increases — a transitive verb becomes ditransitive; an intransitive verb becomes transitive — and the morpheme on the verb signals this restructuring."
 
-- question: "In a language with applicative morphology, the applied object (e.g., a promoted beneficiary) retains its adjunct status and cannot become the subject of a passive construction."
+- question: "In a language with applicative morphology, the applied object (e.g., a promoted beneficiary) retains its adjunct status and can seldom become the subject of a passive construction."
   type: true-false
   answer: false
   explanation: "One of the key diagnostics for whether the applied object has genuinely become a core argument (rather than remaining an adjunct) is whether it can be passivized — promoted to subject position in a passive construction. In well-documented applicative languages like Chichewa and Swahili, the applied object can become the subject of a passive, and it controls verb agreement morphology. These are signature properties of core argument status. If the applied object still behaved like an adjunct, passivization would not be available to it."

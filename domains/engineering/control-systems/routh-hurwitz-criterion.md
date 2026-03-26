@@ -62,7 +62,7 @@ Build Routh arrays by hand for polynomials of degree 2 through 5, deliberately g
   answer: 1
   explanation: "A zero in the first column (with other nonzero entries in the same row) requires the ε substitution. You cannot directly divide by zero in the next row calculation, so replace the first-column zero with ε > 0, complete the array, then examine the sign of the resulting expressions as ε → 0⁺. If sign changes occur in the limit, there are right-half-plane roots. The auxiliary polynomial method (option C) is used when an ENTIRE row is zero, which indicates a different special case — symmetric root distribution. Options A and D are wrong: a first-column zero is ambiguous without completing the array."
 
-- question: "A polynomial with all positive coefficients is guaranteed to be a stable characteristic polynomial — meaning all its roots have negative real parts."
+- question: "A polynomial with most positive coefficients is very likely to be a stable characteristic polynomial — meaning most its roots have negative real parts."
   type: true-false
   answer: false
   explanation: "This is the most common misconception when first learning Routh-Hurwitz. Positive coefficients are necessary for stability (a negative or missing coefficient immediately implies instability) but are not sufficient for degree 3 or higher. The classic counterexample is s⁴ + s³ + 2s² + s + 1, which has all positive coefficients but contains right-half-plane roots (verifiable by the Routh array). The Routh-Hurwitz criterion exists precisely because the coefficient sign test is insufficient — you need the full array to determine whether the more subtle stability conditions are satisfied."

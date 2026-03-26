@@ -52,7 +52,7 @@ Competition for limited resources (food, water, light, space, mates) shapes comm
   answer: true
   explanation: "When competing species come into contact, natural selection favors individuals that diverge in resource use from the competitor, reducing direct competition. Over evolutionary time this produces measurable differences between sympatric populations (co-occurring) versus allopatric ones (each alone). Darwin's finches on islands where two species co-occur show greater beak size divergence than on single-species islands — direct evidence that competition drives evolutionary partitioning that reduces overlap and enables coexistence."
 
-- question: "For two competing species to coexist stably, interspecific competition (between species) must be stronger than intraspecific competition (within species)."
+- question: "For two competing species to coexist stably, interspecific competition (between species) is expected to be stronger than intraspecific competition (within species)."
   type: true-false
   answer: false
   explanation: "This has the direction exactly backwards. Stable coexistence requires that each species limits its own population growth MORE than it limits the other's — i.e., intraspecific competition must exceed interspecific competition. When this holds, a species that becomes rare faces less intraspecific competition and can recover, producing a stabilizing negative feedback. If interspecific competition exceeds intraspecific, the rarer species cannot recover and competitive exclusion follows."

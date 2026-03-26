@@ -42,7 +42,7 @@ Convert IPv4 addresses between decimal and binary; practice identifying address 
   answer: 1
   explanation: "RFC 1918 defines address ranges (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) as private. Internet backbone routers are configured not to route packets destined for these ranges, so traffic to 192.168.1.50 is dropped at the edge of the public Internet. This is why home networks can reuse the same private address space without conflict."
 
-- question: "IPv4 address exhaustion is a theoretical concern only — the 4.3 billion available addresses are more than enough for all devices that need Internet access."
+- question: "IPv4 address exhaustion is a theoretical concern mainly — the 4.3 billion available addresses are more than enough for most devices that need Internet access."
   type: true-false
   answer: false
   explanation: "IPv4 has exactly 2^32 ≈ 4.3 billion addresses, and IANA allocated the last free blocks in 2011. With billions of smartphones, IoT devices, and servers all needing connectivity, the address space ran out. Workarounds like NAT (Network Address Translation) delay the problem, and IPv6 (with 2^128 addresses) is the long-term solution."

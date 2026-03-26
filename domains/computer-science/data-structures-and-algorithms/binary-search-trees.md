@@ -57,7 +57,7 @@ Implement BST search, insert, and delete from scratch. Pay close attention to th
   answer: 1
   explanation: "You cannot simply connect two subtrees to the parent — this would require a node to have three children and would violate the BST ordering property. The standard approach is to find the in-order successor (the smallest key in the right subtree) or in-order predecessor (the largest key in the left subtree). Copying that value into the deleted node preserves the BST property. The successor/predecessor is then deleted from its original location — it has at most one child, reducing to an easier deletion case."
 
-- question: "A BST containing 15 nodes always supports search in O(log 15) steps."
+- question: "A BST containing 15 nodes typically supports search in O(log 15) steps."
   type: true-false
   answer: false
   explanation: "BST performance depends on height, not just size. A 15-node BST has height between ⌊log₂ 15⌋ = 3 (perfectly balanced) and 14 (fully degenerate). If the 15 nodes were inserted in sorted order, the height is 14 and search takes O(n) in the worst case. The O(log n) guarantee only holds when the tree is balanced, which basic BSTs do not guarantee. Self-balancing variants like AVL trees maintain O(log n) height explicitly."

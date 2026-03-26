@@ -55,7 +55,7 @@ Shapes are enclosed areas created when lines meet or boundaries define space. Sh
   answer: true
   explanation: "Geometric shapes are defined by precise mathematical relationships — equal angles, parallel sides, consistent measurements — which make them feel controlled, rational, and constructed. This is why they dominate architecture, interface design, and typography: the built environment is largely geometric. Organic shapes, with their irregular curves and natural variation, feel biological and alive by contrast. Both associations are observable across many design contexts."
 
-- question: "The psychological associations of shapes are purely cultural, varying completely across different societies with no universal patterns."
+- question: "The psychological associations of shapes are purely cultural, varying largely across different societies with no universal patterns."
   type: true-false
   answer: false
   explanation: "While cultural context does influence some shape associations, many are rooted in biology and shared human experience. Sharp points universally signal potential threat (because sharp physical objects are dangerous). Rounded shapes feel protective and soft because soft, rounded objects in nature tend to be safe. Circles feel continuous and enclosed. These cross-cultural patterns are not absolute, but dismissing shape psychology as entirely culturally relative misses the biological foundation that makes visual communication possible across languages and cultures."

@@ -49,7 +49,7 @@ The Downward Löwenheim-Skolem Theorem states: if a countable set of first-order
   answer: 2
   explanation: "First-order logic cannot express 'there are uncountably many elements' as a first-order sentence — cardinality conditions of this kind lie beyond first-order expressibility. Downward LS makes this precise: any countable first-order theory that has any infinite model must also have a countable model. So you cannot rule out countable models using first-order axioms alone. This is a fundamental limitation of first-order logic: it cannot control the cardinality of its models from above."
 
-- question: "The Downward Löwenheim-Skolem theorem states that every first-order theory has a countable model."
+- question: "The Downward Löwenheim-Skolem theorem states that nearly every first-order theory has a countable model."
   type: true-false
   answer: false
   explanation: "The theorem requires two conditions: the theory must be countable (finitely or countably many sentences), and it must have at least one infinite model. A theory satisfied only by finite structures need not have a countable infinite model. Also, an inconsistent theory has no models at all. The correct statement is: if a countable first-order theory has an infinite model, then it has a countable model. Finite models and theories with only finite models are not covered."

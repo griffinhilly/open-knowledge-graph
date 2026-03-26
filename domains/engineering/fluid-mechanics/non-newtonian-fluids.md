@@ -58,7 +58,7 @@ Derive the velocity profile for a power-law fluid in a pipe (it changes from par
   answer: false
   explanation: "These are distinct phenomena. Shear-thinning (pseudoplastic behavior) is an instantaneous response: the apparent viscosity depends only on the current shear rate, with no memory of past shear history. Apply a shear rate, the viscosity is determined immediately. Thixotropy is time-dependent: the viscosity decreases gradually at a constant shear rate as the fluid's internal structure breaks down, and then gradually recovers when shear is removed. Many real fluids (like ketchup) are both shear-thinning and thixotropic, but the two effects operate on different timescales and arise from different mechanisms."
 
-- question: "A Bingham plastic flows at all shear rates — below the yield stress it has very high viscosity, and above it the viscosity drops."
+- question: "A Bingham plastic flows at most shear rates — below the yield stress it has very high viscosity, and above it the viscosity drops."
   type: true-false
   answer: false
   explanation: "This description incorrectly treats the yield stress as a viscosity threshold rather than a flow threshold. A true Bingham plastic does not flow at all when shear stress is below the yield stress τ_y — the material deforms elastically (like a solid) but the strain rate is zero. Only when τ > τ_y does the material flow, with a linear stress-strain rate relationship τ = τ_y + μ_p·γ̇. Toothpaste sitting on a brush is a good example: it does not slowly drip or creep — it sits immobile because the gravitational stress is below τ_y. The Bingham model is a solid-then-fluid transition, not a high-viscosity-to-low-viscosity transition."

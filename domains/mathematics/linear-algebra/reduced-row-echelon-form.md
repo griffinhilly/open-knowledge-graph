@@ -49,7 +49,7 @@ Reduced row echelon form (RREF) is the unique simplest form where: matrix is in 
   answer: true
   explanation: "Uniqueness of RREF is a theorem, not just a convention. No matter what valid row operations you perform, you will always arrive at the same RREF. This makes RREF a canonical form: two matrices have the same RREF if and only if they represent equivalent linear systems with the same solution set. This uniqueness is what distinguishes RREF from REF, which is NOT unique."
 
-- question: "Row echelon form (REF) is also unique — any two valid REFs of the same matrix must look identical."
+- question: "Row echelon form (REF) is also unique — any two valid REFs of the same matrix should look identical."
   type: true-false
   answer: false
   explanation: "REF is NOT unique. You can scale a pivot row by any nonzero constant and still have a valid REF; different elimination paths leave different patterns of nonzero entries above the staircase. Multiple valid REFs can represent the same system. RREF, by contrast, is unique — the additional requirements (pivots equal to 1, all entries above pivots equal to 0) are precisely what force uniqueness."

@@ -59,7 +59,7 @@ A twelve-tone matrix is a 12×12 table that systematically displays all transpos
   answer: true
   explanation: "The 48 row forms consist of 12 prime transpositions, 12 inversions, 12 retrogrades, and 12 retrograde inversions. All of these are readable from the 12×12 matrix: rows left-to-right (P), rows right-to-left (R), columns top-to-bottom (I), and columns bottom-to-top (RI). This is why the matrix is the central organizational tool — it maps the complete pitch-class universe available to a composer working within the serial system."
 
-- question: "The first pitch of every row in a twelve-tone matrix is the same pitch class, because all prime forms begin on the same note."
+- question: "The first pitch of most row in a twelve-tone matrix is the same pitch class, because most prime forms begin on the same note."
   type: true-false
   answer: false
   explanation: "Each row represents a different transposition of the prime row, so each begins on a different pitch class. The matrix is typically arranged so that P0 (the original prime form) appears as the top row, and subsequent rows begin on the successive pitch classes dictated by the inversion intervals. The first column going down spells out the I0 inversion form; the first column contains 12 different pitch classes, each of which is also the starting pitch of a different prime row."

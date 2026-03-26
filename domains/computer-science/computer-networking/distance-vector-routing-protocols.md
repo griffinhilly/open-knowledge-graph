@@ -47,7 +47,7 @@ Distance-vector routing protocols compute shortest paths based on a simple metri
   answer: 1
   explanation: "Without a maximum metric, the count-to-infinity problem would cause routers to increment a failed route's cost forever. The max-15 cap means the loop terminates after at most 15 increment cycles, at which point both routers agree the destination is unreachable. The cap makes the protocol eventually correct, though it still converges slowly. Options A and C are not the primary motivation; option D is a side effect, not the design purpose."
 
-- question: "Split horizon completely solves the count-to-infinity problem by preventing routers from ever advertising stale routes back to the neighbor from which they learned them."
+- question: "Split horizon substantially solves the count-to-infinity problem by preventing routers from ever advertising stale routes back to the neighbor from which they learned them."
   type: true-false
   answer: false
   explanation: "Split horizon reduces the problem but does not fully solve it. It prevents a two-router loop (A learned from B, so A won't advertise back to B), but multi-router loops involving three or more routers can still cause count-to-infinity. For example, if A and C both have routes through B, and B's link fails, A might hear C advertising a stale route and update, then C hears A's update, etc. This is why larger networks prefer link-state protocols with a complete topology view rather than relying on split horizon."

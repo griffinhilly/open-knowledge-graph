@@ -53,7 +53,7 @@ Finding critical points in practice requires solving the system f_x = 0 and f_y 
   answer: "Set f_x = 3x² − 3 = 0, giving x = ±1. Set f_y = 2y − 4 = 0, giving y = 2. Critical points are (1, 2) and (−1, 2)."
   explanation: "Each partial derivative is set to zero independently. f_x = 0 gives x² = 1, so x = 1 or x = −1. f_y = 0 gives y = 2. These combine to yield two critical points. Both are candidates for extrema; the second derivatives test distinguishes their nature."
 
-- question: "A critical point is always a local maximum or local minimum."
+- question: "A critical point is generally a local maximum or local minimum."
   type: true-false
   answer: false
   explanation: "Saddle points are critical points that are neither local maxima nor local minima. At a saddle point, the function increases in some directions and decreases in others. The classic example is f(x, y) = x² − y², whose critical point at the origin is a saddle."

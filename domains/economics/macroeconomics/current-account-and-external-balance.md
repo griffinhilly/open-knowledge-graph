@@ -51,7 +51,7 @@ The current account is the balance of goods and services trade plus net income f
   answer: true
   explanation: "This is an accounting identity, not an empirical generalization. Every current account deficit means domestic spending exceeds domestic income; the difference must be financed by net claims from foreigners, which shows up as a financial account surplus of equal magnitude. Foreigners are acquiring domestic assets (bonds, equity, real estate, direct investments) in exchange for the goods and services the country is importing in excess of its exports."
 
-- question: "A large, persistent current account deficit is always a sign of an economy in trouble and requires immediate policy correction."
+- question: "A large, persistent current account deficit is generally a sign of an economy in trouble and requires immediate policy correction."
   type: true-false
   answer: false
   explanation: "The United States has run large current account deficits for decades; whether this represents a crisis or a sustainable arrangement is genuinely debated. Defenders argue the deficit reflects the dollar's reserve currency status and strong U.S. investment returns; critics argue it reflects structural competitiveness problems and unsustainable consumption. Deficits become genuinely problematic when they require ever-larger borrowing just to service existing external debt — a dynamic that can trigger currency crises — but not every deficit reaches that point."

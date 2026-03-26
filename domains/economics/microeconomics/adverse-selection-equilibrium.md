@@ -47,7 +47,7 @@ Adverse selection occurs when uninformed buyers cannot distinguish quality, indu
   answer: 1
   explanation: "A signal is credible only if it satisfies the single-crossing property: the cost of the signal must differ across types such that low-quality types cannot profitably mimic it. A lemon dealer offering a 2-year warranty on a defective car would incur massive repair costs — far exceeding the price premium the warranty enables. A peach dealer incurs few repair costs under the same warranty. This cost asymmetry is what makes the signal credible. If warranties were cheap for everyone, they would convey no information."
 
-- question: "In a separating equilibrium achieved through signaling, total market surplus equals what it would be under full information, because all goods are correctly priced."
+- question: "In a separating equilibrium achieved through signaling, total market surplus equals what it would be under full information, because most goods are correctly priced."
   type: true-false
   answer: false
   explanation: "This is a key misconception. Even in a separating equilibrium, surplus is lower than the full-information benchmark. The reason is that signaling consumes real resources: education credentials require time and money, warranties create repair obligations, and screening contracts distort coverage away from first-best. These costs are pure waste — they exist only to communicate information that would be freely available under full information. The separating equilibrium prevents market collapse but does not recover the lost surplus; it merely stops the bleeding."

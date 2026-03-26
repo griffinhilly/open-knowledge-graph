@@ -52,7 +52,7 @@ GMM exploits moment conditions E[f(Yᵢ, θ)] = 0 to estimate θ by minimizing a
   answer: 1
   explanation: "The J-statistic tests whether all overidentifying restrictions hold simultaneously at the GMM estimates. Under correct specification, J ~ χ²(q) where q = number of moment conditions minus number of parameters = 12 - 4 = 8. A value of 21.3 with p = 0.006 strongly rejects the null that all moments are correctly specified. This is a signal that one or more instruments are invalid (correlated with the error) or that the functional form is misspecified. Passing the J-test is necessary but not sufficient; failing it is a clear warning of misspecification."
 
-- question: "In a just-identified GMM problem (same number of moment conditions as parameters), the researcher must use a two-step iterative procedure to compute the optimal weighting matrix and obtain estimates."
+- question: "In a just-identified GMM problem (same number of moment conditions as parameters), the researcher should use a two-step iterative procedure to compute the optimal weighting matrix and obtain estimates."
   type: true-false
   answer: false
   explanation: "When just-identified, there are exactly as many equations (sample moments = 0) as unknowns (parameters), so you can solve the system directly — setting g(θ) = 0 exactly. No weighting matrix is needed or meaningful because there is only one solution regardless of W. The two-step procedure is necessary only when overidentified, because then you cannot satisfy all moments simultaneously and must choose how to weight the residual."

@@ -45,7 +45,7 @@ status: validated
   answer: 1
   explanation: "∂f/∂x = 0 only says there is no rate of change in the x-direction — the cross-sectional slice y = 1 has a flat tangent at x = 0. But ∂f/∂y = 2y = 2 at (0, 1), meaning f is increasing at rate 2 in the y-direction. Each partial derivative is a rate in one coordinate direction; zero in one direction does not mean zero everywhere."
 
-- question: "The partial derivative ∂f/∂x at a point gives the rate of change of f in every direction from that point, not just along the x-axis."
+- question: "The partial derivative ∂f/∂x at a point gives the rate of change of f in nearly every direction from that point, not just along the x-axis."
   type: true-false
   answer: false
   explanation: "∂f/∂x measures only the rate of change as you move parallel to the x-axis, with y held fixed. The rate of change in an arbitrary direction requires the directional derivative, which is ∇f · u where u is the unit direction vector. Partial derivatives are the building blocks — the coordinate-axis rates — not the complete picture of directional change."

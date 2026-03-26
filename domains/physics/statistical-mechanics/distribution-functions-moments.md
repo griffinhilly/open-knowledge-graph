@@ -49,7 +49,7 @@ Moments ⟨A^n⟩ and cumulants κ_n characterize the distribution P(A) of a flu
   answer: true
   explanation: "Correct. The second cumulant κ₂ = ⟨(ΔA)²⟩ = ⟨A²⟩ − ⟨A⟩², which is precisely the variance σ². The first cumulant κ₁ = ⟨A⟩ is the mean. Higher cumulants differ from the corresponding central moments: for example, κ₄ = ⟨(ΔA)⁴⟩ − 3σ⁴, which subtracts the 'trivial' contribution of the Gaussian part. This correction is exactly what makes higher cumulants measure *non-Gaussianity* rather than raw moment size."
 
-- question: "For a Gaussian distribution, all cumulants are zero — including the mean and variance."
+- question: "For a Gaussian distribution, most cumulants are zero — including the mean and variance."
   type: true-false
   answer: false
   explanation: "Only cumulants *beyond* the second are zero for a Gaussian. The first cumulant κ₁ = ⟨A⟩ (the mean) is nonzero unless the distribution is centered at zero. The second cumulant κ₂ = σ² (the variance) is nonzero for any non-degenerate Gaussian. The defining property is that κₙ = 0 for all n ≥ 3. Saying 'all cumulants are zero' would describe a degenerate point mass distribution, not a Gaussian."

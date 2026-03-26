@@ -48,7 +48,7 @@ Feature structures are formal objects (attribute-value pairs organized hierarchi
   answer: 1
   explanation: "Type hierarchies encode linguistic generalizations through inheritance. All verbs share certain features (TENSE, agreement requirements); this is stated once at the 'verb' type. Transitive verbs additionally require an object subcategorization frame; this is stated at 'transitive-verb.' Ditransitive verbs inherit both and add a second object slot. 'Give' acquires all these features automatically by virtue of its type — without redeclaring verb-hood. This prevents redundancy and ensures generalizations about verbs are enforced uniformly across all subtypes."
 
-- question: "Unification of two feature structures always succeeds as long as both structures are well-typed — that is, consistent with the constraints of the type hierarchy."
+- question: "Unification of two feature structures usually succeeds as long as both structures are well-typed — that is, consistent with the constraints of the type hierarchy."
   type: true-false
   answer: false
   explanation: "Well-typedness is necessary but not sufficient for unification to succeed. Two well-typed structures can still fail to unify if they specify incompatible values for the same feature — [NUM: sg] and [NUM: pl] are both perfectly well-typed values, but they cannot unify. Unification requires that every shared feature have compatible values. Unification failure, not type violation, is the primary mechanism ruling out ungrammatical constructions like number disagreement: both the subject and verb are well-typed, but their feature structures are incompatible."

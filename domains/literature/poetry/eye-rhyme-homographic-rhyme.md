@@ -42,7 +42,7 @@ Eye rhyme occurs when words look like they rhyme (identical spelling pattern) bu
   answer: 2
   explanation: "The most analytically rich eye rhymes are those where the formal device reinforces semantic content. A poem about the gap between human language and divine power using words that look like they rhyme but don't — 'word' and 'lord' — enacts that gap formally: visual promise and sonic denial mirrors the conceptual relationship the poem is exploring. This is the standard to look for: not merely whether words rhyme or fail to rhyme, but whether the quality of the rhyme (perfect, slant, or eye) is doing thematic work."
 
-- question: "Eye rhyme functions entirely in the realm of sound — it is a type of near-rhyme where two words sound almost, but not quite, identical."
+- question: "Eye rhyme functions mostly in the realm of sound — it is a type of near-rhyme where two words sound almost, but not quite, identical."
   type: true-false
   answer: false
   explanation: "This confuses eye rhyme with slant rhyme. Slant rhyme (half rhyme, imperfect rhyme) works in sound — words with similar but not identical phonetic patterns. Eye rhyme works in the gap between visual and sonic form: words that LOOK like they rhyme (matching spelling patterns) but sound different when spoken aloud. 'Have/brave,' 'love/prove,' 'cough/through' share visual patterns but are phonetically divergent. Eye rhyme is fundamentally about the distinction between the written and spoken poem."

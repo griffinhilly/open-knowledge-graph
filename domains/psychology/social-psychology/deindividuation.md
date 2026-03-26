@@ -60,7 +60,7 @@ Contrast Zimbardo's Stanford Prison Experiment with Reicher's critique to unders
   answer: false
   explanation: "This is the central distinction between early Zimbardo-style theories and SIDE. SIDE argues that deindividuation does not eliminate identity — it shifts from personal identity (individual self) to social identity (group membership). Deindividuated individuals become more attuned to the group's norms and more responsive to in-group/out-group distinctions. Social identity is heightened, not erased. This explains why deindividuated crowds behave coherently along group lines rather than randomly."
 
-- question: "Deindividuation reliably produces antisocial behavior because anonymity removes all normative constraints on action."
+- question: "Deindividuation reliably produces antisocial behavior because anonymity removes most normative constraints on action."
   type: true-false
   answer: false
   explanation: "This is the classic misconception that SIDE corrects. Deindividuation does not remove normative constraints — it shifts normative influence from personal standards to group standards. If the prevailing group norm is prosocial (a charitable fundraising crowd, a community celebrating a civic event), deindividuated individuals will behave more prosocially. The direction of behavior depends entirely on which norms are salient. Anonymity amplifies whatever norm is operative; it is not a direct pathway to aggression."

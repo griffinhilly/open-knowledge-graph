@@ -66,7 +66,7 @@ That affordances require explicit labels or instructions. Strong affordances sho
   answer: true
   explanation: "This is the central distinction Norman drew between Gibson's original concept and the design application. Gibson cared about what actions an environment actually supports (real affordances). Norman's contribution was recognizing that for design purposes, what the user *perceives* is possible is what drives behavior. A door with a pull handle on the push side has the real affordance of pushing open — but the perceived affordance is pulling. Users pull. The real affordance is irrelevant until perceived. This is why designers must communicate affordances visually, not just build them in."
 
-- question: "A greyed-out, disabled button communicates too many affordances and should be removed from the interface entirely to avoid confusing users."
+- question: "A greyed-out, disabled button communicates too many affordances and should be removed from the interface mostly to avoid confusing users."
   type: true-false
   answer: false
   explanation: "A greyed-out disabled button communicates a *clear and specific* affordance: 'this action exists but is not currently available.' Reduced contrast and the absence of hover effects together signal 'not available' rather than 'not interactive at all.' This is useful: it tells the user that the action is real and will become available later, which is more informative than simply hiding the element. Removing it would leave users wondering whether the action exists. The grey state is a well-understood affordance convention in UI design."

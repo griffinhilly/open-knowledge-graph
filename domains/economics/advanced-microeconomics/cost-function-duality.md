@@ -51,7 +51,7 @@ Derive cost functions for simple production functions: Leontief, Cobb-Douglas, C
   answer: 2
   explanation: "Duality guarantees that the cost function encodes the same information as the production function. Shephard's lemma — ∂c/∂w_i = x_i* — gives conditional factor demands directly from the cost function, for any well-behaved technology. This is a general result, not restricted to specific functional forms. This is why empirical industrial organization regularly estimates cost functions: costs and prices are observable, and duality recovers the production-side information without specifying the production function."
 
-- question: "The production function and the cost function represent different aspects of a firm's technology, so they cannot be derived from each other."
+- question: "The production function and the cost function represent different aspects of a firm's technology, so they can seldom be derived from each other."
   type: true-false
   answer: false
   explanation: "They are dual representations of exactly the same underlying technology. The production function asks: given inputs, what is the maximum output? The cost function asks: given prices and a target output, what is the minimum cost? Solving one optimization yields the other, and the envelope theorem (Shephard's lemma) provides the formal bridge. All information in the production function is encoded in the cost function and recoverable from it."

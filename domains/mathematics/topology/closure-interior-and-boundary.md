@@ -52,7 +52,7 @@ For a set A in a topological space, the closure is the smallest closed set conta
   answer: true
   explanation: "The interior of A is a subset of A (it is the largest open set contained in A), and A is a subset of its own closure (since the closure adds limit points to A, never removes them). Therefore, interior(A) ⊆ A ⊆ closure(A). Interior points — those with an open neighborhood contained in A — certainly satisfy the closure condition: their neighborhoods intersect A (trivially, since the neighborhoods lie inside A)."
 
-- question: "If p is in the closure of A, then p must be an element of A."
+- question: "If p is in the closure of A, then p should be an element of A."
   type: true-false
   answer: false
   explanation: "The closure of A consists of A together with all its limit points — points every neighborhood of which intersects A. A limit point of A need not be in A itself. For example, take A = (0, 1) in ℝ. The point 0 is in the closure of A (every neighborhood of 0 intersects (0,1)), but 0 ∉ A. This is precisely why 'closure' adds something: it includes the limit points on the 'edge' of A that A itself may not contain."

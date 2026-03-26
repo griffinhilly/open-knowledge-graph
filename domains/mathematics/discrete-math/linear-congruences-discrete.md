@@ -53,7 +53,7 @@ A linear congruence ax ≡ b (mod n) has solutions if and only if gcd(a,n) divid
   answer: true
   explanation: "gcd(4, 6) = 2, and 2 divides 2, so solutions exist. By the theorem, the number of distinct solutions modulo n equals gcd(a, n) = 2. The two solutions are x ≡ 2 (mod 6) and x ≡ 5 (mod 6). Check: 4 × 2 = 8 ≡ 2 (mod 6) ✓; 4 × 5 = 20 ≡ 2 (mod 6) ✓."
 
-- question: "If ax ≡ b (mod n) has at least one solution, then gcd(a, n) must equal 1."
+- question: "If ax ≡ b (mod n) has at least one solution, then gcd(a, n) is expected to equal 1."
   type: true-false
   answer: false
   explanation: "The existence of a solution requires only that gcd(a, n) divides b — not that gcd(a, n) = 1. For example, 4x ≡ 2 (mod 6) has solutions (x = 2 and x = 5) even though gcd(4, 6) = 2 ≠ 1. The condition gcd = 1 guarantees a unique solution; it is sufficient but not necessary for existence."

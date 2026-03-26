@@ -56,7 +56,7 @@ Observe endospore formation in culture time-courses. Study the structure-functio
   answer: 1
   explanation: "Dormancy is not death. A living entity can be in a suspended state with essentially no detectable metabolism and still retain full capacity to resume life when conditions improve. Endospores remain viable for decades or centuries, then germinate within minutes when appropriate signals (amino acids, sugars) appear, restoring full vegetative activity. 'Dead' means permanently unable to resume life; endospores have exactly this capacity. Confusing metabolic inertness with death is a fundamental conceptual error."
 
-- question: "All species of bacteria can form endospores as a survival strategy when nutrients become scarce."
+- question: "Most species of bacteria can form endospores as a survival strategy when nutrients become scarce."
   type: true-false
   answer: false
   explanation: "Endospore formation is restricted to certain gram-positive genera, most notably Bacillus and Clostridium (and a few others like Sporosarcina). The vast majority of bacteria — all gram-negative species and most gram-positive ones — cannot form endospores. This restriction matters enormously in practice: C. difficile, C. botulinum, and B. anthracis are medically significant precisely because of this capability, and sterilization procedures must be calibrated specifically for endospore-forming species."

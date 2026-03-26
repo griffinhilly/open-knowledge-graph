@@ -61,7 +61,7 @@ Teach active reading strategies: visualizing (making mental pictures), questioni
   answer: true
   explanation: "Comprehension is active construction of a mental model, not passive reception. Strategies like predicting, questioning, and connecting prompt the model-building process that skilled readers do automatically. Passive reading means the mind is not integrating new information with existing knowledge, limiting how much meaning is actually constructed."
 
-- question: "A student who fully comprehends a text is one who can recall every detail they read."
+- question: "A student who fully comprehends a text is one who can recall nearly every detail they read."
   type: true-false
   answer: false
   explanation: "Comprehension is about constructing coherent understanding of the main ideas and their relationships — not perfect recall of every detail. A skilled reader might not remember specific details but understands the overall argument and structure. Comprehension includes inference, main-idea identification, and making connections — tasks very different from rote recall."

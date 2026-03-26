@@ -66,7 +66,7 @@ Faraday's law states ε = −dΦ_B/dt, where ε is induced EMF and Φ_B is magne
   answer: true
   explanation: "Yes. If the induced EMF reinforced rather than opposed the flux change, you could move a magnet into a coil and the resulting current would pull the magnet in even faster, generating electrical energy without any input work — a perpetual motion machine. The opposition expressed by Lenz's law ensures that you must do work to change the flux, satisfying energy conservation. The negative sign is not a mere convention; it encodes a physical constraint."
 
-- question: "The direction of the induced current in a loop is always the same, regardless of whether the magnetic flux through the loop is increasing or decreasing."
+- question: "The direction of the induced current in a loop is generally the same, regardless of whether the magnetic flux through the loop is increasing or decreasing."
   type: true-false
   answer: false
   explanation: "Lenz's law states that the induced current opposes the *change* in flux, so direction depends entirely on whether flux is increasing or decreasing. If flux is increasing, the induced current creates a magnetic field opposing the increase — one current direction. If flux is decreasing, the induced current tries to maintain it — the opposite direction. A magnet approaching a coil and the same magnet receding produce opposite current directions in the coil."

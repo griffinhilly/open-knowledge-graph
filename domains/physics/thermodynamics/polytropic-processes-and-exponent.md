@@ -44,7 +44,7 @@ A polytropic process follows PV^n = constant, where n is the polytropic index. S
   answer: 3
   explanation: "Writing the polytropic relation as P^(1/n) · V = constant and taking n → ∞ sends 1/n → 0, so P^0 · V = V = constant — a constant volume process. This is non-obvious; many students guess n = 0 (which is actually isobaric: PV^0 = P = constant) or n = γ (adiabatic). The ∞ limit captures isochoric because infinite 'stiffness' in the PV^n relation forces volume to be fixed."
 
-- question: "The isothermal and adiabatic processes are completely separate thermodynamic models with no unifying mathematical structure."
+- question: "The isothermal and adiabatic processes are largely separate thermodynamic models with no unifying mathematical structure."
   type: true-false
   answer: false
   explanation: "Both are special cases of the polytropic relation PV^n = constant — n = 1 for isothermal, n = γ for adiabatic. The polytropic framework is precisely the unifying structure that embeds all four fundamental process types (isobaric, isothermal, adiabatic, isochoric) as limiting or special values of a single parameter n."

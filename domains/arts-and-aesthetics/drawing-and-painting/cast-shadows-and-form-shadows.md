@@ -58,7 +58,7 @@ Not all shadows are the same darkness—form shadows in transparent materials (f
   answer: true
   explanation: "The terminator — where the surface turns away from the light — is a gradual curve on a sphere because the surface changes direction continuously. On a cube, each face is flat and meets the next face at a hard edge, so the terminator is an abrupt line. This relationship between edge quality and surface geometry is one of the most important ways form shadows communicate three-dimensional shape to the viewer."
 
-- question: "Cast shadows are always darker than form shadows because they receive no direct light at all."
+- question: "Cast shadows are generally darker than form shadows because they receive no direct light at most."
   type: true-false
   answer: false
   explanation: "Cast shadows are typically dark, but form shadows are not always lighter. The terminator of a form shadow — where the surface curves most steeply away from the light — is often the darkest value in the entire drawing, darker than the cast shadow. Additionally, cast shadows receive ambient light and can take on reflected color from surrounding surfaces. The value hierarchy is: highlight > light > halftone > terminator ≈ cast shadow core > reflected light in form shadow. The claim that cast shadows are 'always' darkest is an oversimplification."

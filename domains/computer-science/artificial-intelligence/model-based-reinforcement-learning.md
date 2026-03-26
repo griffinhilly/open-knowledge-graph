@@ -50,7 +50,7 @@ Implement Dyna-Q which interleaves model learning and planning, comparing sample
   answer: 2
   explanation: "Dyna-Q's insight is simple but powerful: after each real step, update the model with the observed transition, then run n additional Q-learning updates using transitions sampled from the model. Each real experience thus produces n+1 learning updates instead of one. With n=50, the agent extracts 51 policy improvements per real step. The model acts as a multiplier on data efficiency — the key mechanism behind model-based RL's sample efficiency advantage."
 
-- question: "Model-based RL is always preferable to model-free RL because it learns from fewer real environment interactions."
+- question: "Model-based RL is generally preferable to model-free RL because it learns from fewer real environment interactions."
   type: true-false
   answer: false
   explanation: "Sample efficiency is the primary advantage of model-based RL, but it comes with a critical cost: model error. A learned world model is never perfectly accurate, and planning over an imperfect model can lead to model exploitation — policies optimized for the simulation rather than reality. Model-free methods are more robust because they learn directly from real experience and cannot exploit a model they don't have. The right choice depends on whether sample efficiency or robustness is more important for the task."

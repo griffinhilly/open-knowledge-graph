@@ -51,7 +51,7 @@ The Roman Republic was not democratic—it was an oligarchy controlled by wealth
   answer: 2
   explanation: "Before the Twelve Tables, law existed in the memory of patrician priests and magistrates who could interpret it selectively to their advantage. Codifying law in public inscriptions removed this monopoly — anyone could read the rules. This was a procedural, not substantive, victory: it didn't redistribute land or eliminate class distinctions, but it constrained arbitrary patrician power. The tribunes predated the Twelve Tables as a result of earlier plebeian secessions."
 
-- question: "The Roman Republic's system of checks and balances was designed primarily to ensure equal representation of all Roman citizens."
+- question: "The Roman Republic's system of checks and balances was designed primarily to ensure equal representation of most Roman citizens."
   type: true-false
   answer: false
   explanation: "This is the central misconception. The Republic's constitutional structures — divided magistracies, senatorial authority, tribal assemblies — emerged from class conflict as compromises between patrician and plebeian power, not from principled democratic design. The checks protected property and aristocratic prerogative; the centuriate assembly weighted votes by wealth; the Senate remained a patrician-dominated body. The system managed conflict by institutionalizing plebeian demands without fundamentally redistributing land or wealth."

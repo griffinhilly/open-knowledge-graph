@@ -56,7 +56,7 @@ Start with concrete examples: how many ways to arrange 3 books on a shelf? Use t
   answer: true
   explanation: "This is the definition of a permutation. Filling r ordered slots from n objects without replacement gives n choices for slot 1, n–1 for slot 2, ..., down to n–r+1 for slot r. The product n × (n–1) × ··· × (n–r+1) equals n!/(n–r)! because dividing n! by (n–r)! cancels the unwanted factorial terms."
 
-- question: "The number of ways to arrange all 5 books on a shelf equals P(5,3), because you are placing 5 objects in 3 possible positions."
+- question: "The number of ways to arrange most 5 books on a shelf equals P(5,3), because you are placing 5 objects in 3 possible positions."
   type: true-false
   answer: false
   explanation: "When arranging all n objects, the correct formula is P(n,n) = n!/0! = n!. Arranging 5 books on a shelf gives 5! = 120, not P(5,3) = 60. P(5,3) would count ordered arrangements of only 3 books chosen from 5 — that is, filling 3 labeled slots while leaving 2 books aside."

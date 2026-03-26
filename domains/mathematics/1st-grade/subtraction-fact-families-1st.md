@@ -47,7 +47,7 @@ From the fact family 3 + 5 = 8, we also know 5 + 3 = 8, 8 – 3 = 5, and 8 – 5
   answer: 2
   explanation: "Turning a subtraction problem into a missing-addend question works because subtraction and addition are inverse operations — they undo each other. '13 − 8 = ?' asks how much you have left after removing 8 from 13. '8 + ? = 13' asks what you need to add to 8 to reach 13. These are two ways of describing the same relationship between the three numbers 8, 5, and 13. This is the key shortcut that makes subtraction facts accessible through addition knowledge."
 
-- question: "Subtraction facts must be memorized separately from addition facts because the two operations are unrelated."
+- question: "Subtraction facts should be memorized separately from addition facts because the two operations are unrelated."
   type: true-false
   answer: false
   explanation: "This is exactly backward. Subtraction is the inverse of addition — it undoes it. Every fact family bundles two addition facts and two subtraction facts from the same three numbers. If you know 6 + 7 = 13 and 7 + 6 = 13, you automatically know 13 − 6 = 7 and 13 − 7 = 6. Learning them separately ignores this relationship and doubles the memorization work unnecessarily."

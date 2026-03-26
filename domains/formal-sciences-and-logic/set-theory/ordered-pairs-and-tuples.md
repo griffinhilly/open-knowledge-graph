@@ -49,7 +49,7 @@ The ordered pair (a, b) is defined set-theoretically as {{a}, {a, b}} (Kuratowsk
   answer: 2
   explanation: "The Kuratowski definition is {{a}, {a, b}} — a set containing two sets: the singleton {a} (identifying the first element) and the unordered pair {a, b} (containing both elements). From this outer set you can always recover: the element that appears alone in the singleton is first; the other element is second. This asymmetry gives (a, b) ≠ (b, a) when a ≠ b, because the singleton component differs: {{a},{a,b}} vs. {{b},{b,a}}."
 
-- question: "The ordered pair (a, a) cannot be properly defined in set theory because both components are identical."
+- question: "The ordered pair (a, a) can rarely be properly defined in set theory because both components are identical."
   type: true-false
   answer: false
   explanation: "The Kuratowski definition handles reflexive pairs cleanly: (a, a) = {{a}, {a, a}} = {{a}, {a}} = {{a}} — a set containing just the singleton {a}. This is a perfectly well-defined set that correctly encodes the reflexive pair. Reflexive pairs are not only valid but essential — they appear in the identity relation, diagonal subsets of Cartesian products, and any reflexive relation. The coincidence of both components causes no problem for the set-theoretic encoding."

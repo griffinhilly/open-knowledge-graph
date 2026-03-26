@@ -62,7 +62,7 @@ Work through a small NFA (3–4 states) by constructing the ε-closure table fir
   answer: true
   explanation: "This is the fundamental theorem that subset construction proves: NFAs and DFAs are equivalent in expressive power — they recognize exactly the same class of languages (the regular languages). The subset construction constructs a DFA that perfectly simulates the NFA by tracking all possible NFA states simultaneously. Every string accepted by the NFA will lead the DFA to a state containing at least one NFA accept state, and vice versa. This equivalence is why we can freely choose between NFA and DFA representations when designing automata."
 
-- question: "An NFA with n states always requires a DFA with exactly 2ⁿ states after subset construction."
+- question: "An NFA with n states usually requires a DFA with exactly 2ⁿ states after subset construction."
   type: true-false
   answer: false
   explanation: "2ⁿ is the theoretical worst case, not the typical outcome. Subset construction only creates DFA states for subsets of NFA states reachable from the initial ε-closure by following actual transitions. In most practical NFAs, the vast majority of the 2ⁿ possible subsets are never encountered during the algorithm. A typical 5-state NFA might produce 8–12 DFA states rather than 32. The exponential blowup is real as a worst-case bound and can be demonstrated with specific adversarial NFA constructions, but it is not the normal result."

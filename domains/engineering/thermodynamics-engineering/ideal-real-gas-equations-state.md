@@ -48,7 +48,7 @@ The ideal gas law Pv = RT assumes negligible intermolecular forces and molecular
   answer: 2
   explanation: "Near saturation and at high pressure, ammonia (a polar molecule with strong intermolecular attractions) has Z significantly less than 1. This means the real specific volume is smaller than RT/P. If the engineer assumes ideal behavior, she calculates a specific volume larger than reality and therefore designs the vessel too small — it will not hold the required mass of refrigerant. This is a practical safety consequence: real-gas corrections are mandatory for ammonia, CO₂, and other refrigerants near their saturation curves."
 
-- question: "Real gases always have a compressibility factor Z less than 1, because intermolecular attractions reduce pressure below the ideal gas prediction."
+- question: "Real gases typically have a compressibility factor Z less than 1, because intermolecular attractions reduce pressure below the ideal gas prediction."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about real-gas behavior. Two competing effects determine Z: intermolecular attractions (pulling Z below 1) and molecular volume exclusion (pushing Z above 1). At moderate pressures, attractions often dominate first (Z < 1). At very high pressures, excluded volume wins (Z > 1). For gases with weak attractions like hydrogen or helium, Z > 1 even at moderate pressures. The compressibility chart shows both regions, and the actual Z depends on both reduced temperature and reduced pressure."

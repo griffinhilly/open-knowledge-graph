@@ -58,7 +58,7 @@ Tell a story meant to evoke a specific emotion. Record it and watch with unfamil
   answer: true
   explanation: "True. Research in psychology confirms this 'identifiable victim effect': people respond more strongly to a single specific person than to statistics about thousands. The mechanism is that a specific story activates mental imagery and identification — the listener forms a mental picture of a person and cares about what happens to them. Abstract claims about categories ('millions of people') produce intellectual acknowledgment, not emotional engagement. Speakers who want to move audiences must translate abstractions into concrete particulars."
 
-- question: "Emotional appeals that strongly move an audience always risk undermining the speaker's logical credibility and should therefore be used sparingly."
+- question: "Emotional appeals that strongly move an audience generally risk undermining the speaker's logical credibility and should therefore be used sparingly."
   type: true-false
   answer: false
   explanation: "False. Emotion and logic are not opponents in persuasion — they work together and reinforce each other. Research on decision-making shows that without emotional engagement, people often fail to act even when logically persuaded. The risk is not emotion per se but *manipulative* emotion: appeals that exploit biases, create false urgency, or exploit an audience's fears dishonestly. Pathos that aligns with genuine audience values actually *strengthens* credibility by demonstrating that the speaker understands what the audience cares about."

@@ -50,7 +50,7 @@ A vector field F is conservative if F = ∇f for some scalar potential f. For co
   answer: true
   explanation: "True — this is the fundamental theorem for line integrals. If F = ∇f, then ∫_C F · dr = ∫_C ∇f · dr = f(endpoint) − f(startpoint). The path cancels entirely; only the values of the potential function at the two endpoints matter. This mirrors the single-variable result ∫_a^b f'(x) dx = f(b) − f(a)."
 
-- question: "If ∮_C F · dr = 0 for one specific closed loop C, then F must be conservative."
+- question: "If ∮_C F · dr = 0 for one specific closed loop C, then F should be conservative."
   type: true-false
   answer: false
   explanation: "False. Zero circulation around one particular loop does not prove conservatism. A conservative field has zero circulation around every closed loop, not just some. A non-conservative field could produce zero net circulation around a specific path by cancellation. To confirm conservatism, you need either the curl test (∂P/∂y = ∂Q/∂x on a simply connected domain) or verified path independence for all pairs of endpoints."

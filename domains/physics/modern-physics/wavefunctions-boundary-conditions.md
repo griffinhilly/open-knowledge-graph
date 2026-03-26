@@ -55,7 +55,7 @@ Solve the particle-in-a-box problem explicitly, deriving the quantization condit
   answer: true
   explanation: "This is the central conceptual point. The Schrödinger equation inside the box has solutions for any value of k — continuous energies are mathematically valid solutions to the differential equation. What eliminates all but the discrete set kL = nπ is the physical requirement that the wavefunction vanish at both walls (ψ = 0 where V = ∞). Solutions that don't vanish at the walls are solutions to the Schrödinger equation but not physically acceptable wavefunctions. Quantization is a consequence of physical constraints, not an assumption."
 
-- question: "The condition that dψ/dx must be continuous must hold everywhere, including at infinite potential steps."
+- question: "The condition that dψ/dx is expected to be continuous should hold everywhere, including at infinite potential steps."
   type: true-false
   answer: false
   explanation: "The continuity of dψ/dx is required where the potential V is finite, because a discontinuous slope would imply infinite kinetic energy (the kinetic energy operator involves the second derivative of ψ). At an *infinite* potential step, however, ψ must equal zero inside the wall, and the derivative of ψ just outside may be nonzero while ψ = 0 inside — the slope can be discontinuous. The infinite potential can supply an infinite force, which is what permits the discontinuous derivative. This exception is why the particle-in-a-box boundary condition is simply ψ = 0 at the walls, not dψ/dx = 0."

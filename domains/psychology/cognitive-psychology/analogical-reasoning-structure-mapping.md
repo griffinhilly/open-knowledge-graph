@@ -45,7 +45,7 @@ Analogical reasoning solves new problems by mapping the structure of a known sou
   answer: 1
   explanation: "This is the classic surface-vs.-structure finding: participants encode problems in terms of their salient surface features and retrieve previously solved problems based on surface similarity. When surface features are mismatched (water ≠ electricity), structural overlap goes unnoticed. This is why novices often struggle with transfer while experts — who have abstracted domain schemas — spontaneously recognize structural matches across superficially different problems."
 
-- question: "A high-surface-similarity analogy — where two problems share many surface features like setting, objects, and vocabulary — is always more useful for problem-solving transfer than an analogy that shares only relational structure."
+- question: "A high-surface-similarity analogy — where two problems share many surface features like setting, objects, and vocabulary — is typically more useful for problem-solving transfer than an analogy that shares mainly relational structure."
   type: true-false
   answer: false
   explanation: "Surface similarity without structural match can actively mislead. If two problems share surface features but have different mathematical or causal structures, they are a bad analogy that may cause the solver to apply the wrong solution method. Conversely, low-surface analogies that share deep relational structure are highly useful once the structural match is noticed. Expertise develops partly by learning to see past misleading surface similarity to structural identity."

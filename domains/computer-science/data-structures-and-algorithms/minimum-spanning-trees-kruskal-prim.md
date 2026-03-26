@@ -47,7 +47,7 @@ An MST connects all vertices with minimum total edge weight. Kruskal's uses unio
   answer: 1
   explanation: "Dijkstra's stores cumulative distance from the source and updates nodes when a shorter total path is found. Prim's stores only the cost of the single cheapest edge connecting each unvisited node to the current tree — it ignores cumulative distance entirely. They can produce very different results: a cheap edge into a node that is far from the source is ideal for Prim's but irrelevant to Dijkstra's if a shorter cumulative path already exists."
 
-- question: "An MST guarantees the shortest path between every pair of vertices in the graph."
+- question: "An MST guarantees the shortest path between nearly every pair of vertices in the graph."
   type: true-false
   answer: false
   explanation: "An MST minimizes the total weight of all edges used to connect the graph, but it does not guarantee shortest paths between pairs of vertices. The shortest path between two nodes may use edges not in the MST. MST optimizes a different objective — minimum total spanning weight — which is useful for network infrastructure but unrelated to point-to-point routing."

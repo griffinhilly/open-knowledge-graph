@@ -46,7 +46,7 @@ The Universal Grammar hypothesis proposes that humans possess innate biological 
   answer: 2
   explanation: "The parameter cascade is a key prediction of UG theory: a single parameter controls a cluster of related grammatical properties. Setting head-directionality also sets expectations about the positions of auxiliaries, adpositions, complementizers, and other heads — not just main verbs. When the child identifies the setting from limited input, a large number of related properties are simultaneously determined. This explains why language acquisition is so fast: the child is adjusting a small number of pre-specified switches, not inductively learning thousands of individual rules."
 
-- question: "Universal Grammar claims that all human languages have essentially identical surface grammar, which is why children can acquire any language with equal ease."
+- question: "Universal Grammar claims that most human languages have essentially identical surface grammar, which is why children can acquire any language with equal ease."
   type: true-false
   answer: false
   explanation: "UG claims that all languages share deep structural PRINCIPLES (universal constraints on possible grammatical operations) while varying along PARAMETERS (e.g., head direction, pro-drop, null subject). Surface grammars differ enormously — word order, morphology, phonology, and agreement systems vary dramatically across languages. The universality is in the abstract constraining principles and the parameterized space of possibilities, not in surface form. UG explains both the cross-linguistic universals (shared principles) AND the diversity (parameters). Children acquire whatever language they are exposed to by setting parameters, not by recognizing familiar surface patterns."

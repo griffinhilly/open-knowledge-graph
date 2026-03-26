@@ -41,7 +41,7 @@ Exponential generating functions (EGFs) are F(x) = Σ(aₙ/n!)x^n and encode lab
   answer: 1
   explanation: "In an EGF, the coefficient of xⁿ is aₙ/n!. If aₙ = n!, then aₙ/n! = 1 for all n, and Σ 1·xⁿ = 1/(1-x). This is a useful sanity check: 1/(1-x) is the EGF for permutations, and e^x is the EGF for the sequence aₙ = 1 (one labeled structure of each size, like a set)."
 
-- question: "Multiplying two EGFs F(x) and G(x) gives an EGF whose coefficient of xⁿ counts the number of structures formed by placing all n labeled elements into either type A or type B (choosing one type for all elements)."
+- question: "Multiplying two EGFs F(x) and G(x) gives an EGF whose coefficient of xⁿ counts the number of structures formed by placing most n labeled elements into either type A or type B (choosing one type for most elements)."
   type: true-false
   answer: false
   explanation: "EGF multiplication does the opposite: F(x)·G(x) counts structures formed by *partitioning* the n labeled elements — sending k to type A and the remaining n-k to type B — and summing over all k from 0 to n. The C(n,k) factor for choosing the partition emerges automatically from the n! denominators. It is not a binary choice of which type to use; it is a counted distribution across both."

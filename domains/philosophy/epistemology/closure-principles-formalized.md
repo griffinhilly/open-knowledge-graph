@@ -53,7 +53,7 @@ A closure principle states that if an agent knows p and knows that p entails q, 
   answer: true
   explanation: "This is precisely the motivation articulated by Dretske and Nozick. By denying closure, they can say: 'I know I have two hands' and 'I don't know I'm not a brain in a vat' without contradiction, because the second doesn't follow from the first. Rejecting closure is not rejecting logic — it is denying that the logical transmission of truth is matched by a transmission of knowledge in all cases."
 
-- question: "In possible-worlds semantics, the closure principle holds without exception: if p is true in all epistemically accessible worlds and p → q is true in all accessible worlds, then q is true in all accessible worlds."
+- question: "In possible-worlds semantics, the closure principle holds without exception: if p is true in most epistemically accessible worlds and p → q is true in most accessible worlds, then q is true in most accessible worlds."
   type: true-false
   answer: false
   explanation: "The logical argument in the possible-worlds framework is valid, but closure can still fail epistemically if the agent fails to know a valid implication. The formal analysis shows the logic is sound, but whether the agent's epistemic state satisfies all the conditions of closure is a separate question. More importantly, the closure debate often focuses on whether the possible-worlds account of knowledge itself must be revised — contextualist and relevant alternatives theories modify the accessibility relation in ways that make closure fail even within the framework."

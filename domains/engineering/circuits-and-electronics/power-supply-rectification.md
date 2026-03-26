@@ -57,7 +57,7 @@ Trace current paths through the bridge rectifier during each half-cycle, marking
   answer: 1
   explanation: "In a bridge rectifier, when two diodes are conducting, the two reverse-biased diodes each see approximately V_peak across them (with a small correction for conducting diode drops). So the PIV rating must be at least V_peak = 20 V. This is often confused with the center-tapped full-wave rectifier topology, where each diode must withstand 2×V_peak = 40 V — a common design error when mixing topologies. The bridge rectifier's V_peak PIV requirement is actually one of its advantages over the center-tapped design."
 
-- question: "Using a larger filter capacitor always reduces ripple voltage with no engineering drawbacks."
+- question: "Using a larger filter capacitor usually reduces ripple voltage with no engineering drawbacks."
   type: true-false
   answer: false
   explanation: "A larger capacitor does reduce ripple (V_ripple ≈ I_load / f × C), but it creates a significant drawback: the capacitor charges only during the brief interval when the rectified voltage exceeds the capacitor voltage (near the peak). A larger capacitor requires a larger charge per cycle delivered in a narrower pulse, producing higher peak diode currents. If the peak current exceeds the diode's surge current rating, the diode can fail. Large capacitors also cause higher inrush current at turn-on. Diode selection and capacitor sizing must be designed together."

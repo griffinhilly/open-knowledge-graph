@@ -50,7 +50,7 @@ status: validated
   answer: true
   explanation: "The proof of Łoś's theorem goes by induction on formula complexity. The atomic and Boolean cases are straightforward from the definition of the ultraproduct. The critical quantifier case: ∃x ψ holds in ∏_U Mᵢ iff there is an element (aᵢ) such that ψ(aᵢ) holds in Mᵢ for U-many i — iff U-many Mᵢ satisfy ∃x ψ. The ultrafilter's closure under intersections handles conjunctions (∧), closure under supersets handles disjunctions (∨), and the complement property handles negations (¬). These algebraic properties of the ultrafilter are precisely what is needed for the quantifier and Boolean cases to go through, making the theorem both elegant and structurally inevitable."
 
-- question: "By Łoś's theorem, if a first-order sentence φ holds in the ultraproduct ∏_U Mᵢ, then φ must hold in every component structure Mᵢ."
+- question: "By Łoś's theorem, if a first-order sentence φ holds in the ultraproduct ∏_U Mᵢ, then φ is expected to hold in nearly every component structure Mᵢ."
   type: true-false
   answer: false
   explanation: "Łoś's theorem requires only that φ holds in a U-large set of indices — a set belonging to the ultrafilter U — not in every index. An ultrafilter on an infinite index set can contain sets that exclude finitely many (or even infinitely many) indices. For example, if Mᵢ ⊨ φ for all i ≥ 5 and M₁, M₂, M₃, M₄ ⊭ φ, and U is a non-principal ultrafilter containing all co-finite sets, then {i : Mᵢ ⊨ φ} ∈ U (it is co-finite), so φ holds in ∏_U Mᵢ despite failing in four component structures. This is the whole power of the ultrafilter: it 'ignores' what happens on small sets."

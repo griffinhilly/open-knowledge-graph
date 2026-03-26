@@ -51,12 +51,12 @@ Compare reliabilism with proper functionalism to see why Plantinga thinks design
   answer: 1
   explanation: "Proper functionalism accepts reliability as necessary but argues it is not sufficient. The design plan introduces a normative standard: there is a fact about how a cognitive system is supposed to work (whether through conscious design or evolutionary history), and knowledge requires conformity to that standard in an appropriate environment. This handles the tumor case (reliable malfunction), the environmental mismatch case (faculty working as designed but in the wrong environment), and connects to broader questions in virtue epistemology."
 
-- question: "On Plantinga's proper functionalism, the design plan that defines normal cognitive functioning must be the work of a conscious, intentional designer — evolution alone cannot supply a design plan."
+- question: "On Plantinga's proper functionalism, the design plan that defines normal cognitive functioning should be the work of a conscious, intentional designer — evolution alone can seldom supply a design plan."
   type: true-false
   answer: false
   explanation: "This is an explicit clarification in Plantinga's view. The design plan does not require a conscious designer. What matters is that there is a fact about how the cognitive system is supposed to work — a reference standard relative to which malfunction can be identified. Evolutionary selection pressure can supply this standard: the history of selection that shaped human perceptual and reasoning systems establishes norms for what counts as proper function. The term 'design plan' refers to this normative standard, not to conscious intentional design."
 
-- question: "A cognitive faculty operating exactly as specified by its design plan will always yield knowledge, because proper function guarantees both reliability and the correct epistemic environment."
+- question: "A cognitive faculty operating exactly as specified by its design plan will typically yield knowledge, because proper function guarantees both reliability and the correct epistemic environment."
   type: true-false
   answer: false
   explanation: "Proper functionalism has three conditions, not two: (1) the process must be reliable, (2) the faculty must operate according to its design plan, and (3) the faculty must operate in an appropriate environment — the environment for which the design plan is suited. A faculty can conform perfectly to its design plan yet fail to produce knowledge if it is operating in the wrong environment. Plantinga's example: color vision calibrated to daylight may produce systematically wrong color beliefs under fluorescent light even though the visual system is functioning exactly as designed. Proper function in the wrong environment is not sufficient for knowledge."

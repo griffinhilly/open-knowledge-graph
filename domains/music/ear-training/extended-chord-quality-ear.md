@@ -47,7 +47,7 @@ Extended harmonies (9ths, 11ths, 13ths) add color and sophistication beyond simp
   answer: 1
   explanation: "The natural eleventh (perfect fourth above the root) is only a minor second away from the major third of the chord, creating a harsh dissonance. The ♯11 (augmented fourth/tritone above root) skips that clash and creates the Lydian sound — floating, bright, suspended. This is why the Lydian mode became so important in jazz and film music: the ♯11 over a major seventh chord is one of the most characteristic colors in the idiom."
 
-- question: "A dominant ninth chord (C9) sounds brighter and more dreamy than a dominant seventh with a minor ninth (C7♭9) because the major ninth above always adds warmth and brightness."
+- question: "A dominant ninth chord (C9) sounds brighter and more dreamy than a dominant seventh with a minor ninth (C7♭9) because the major ninth above generally adds warmth and brightness."
   type: true-false
   answer: false
   explanation: "The sound of an extension depends heavily on what seventh it floats above. The C9 (minor seventh + major ninth) sounds 'rich and open' with drive and tension from the minor seventh — not simply dreamy. The C7♭9 (minor seventh + minor ninth) sounds biting and dissonant. It is the Cmaj9 (major seventh + major ninth) that has the bright, dreamy character. Always identify the seventh first — the same ninth sounds completely different over a minor versus major seventh."

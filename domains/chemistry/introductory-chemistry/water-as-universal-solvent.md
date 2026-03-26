@@ -42,7 +42,7 @@ Dissolve different substances in water (salt, sugar, baking soda, cooking oil, s
   answer: 1
   explanation: "Water molecules are polar — they have a partially negative oxygen side and a partially positive hydrogen side. These partial charges attract the Na+ and Cl- ions in salt, pulling them away from the crystal lattice and surrounding them, which is the process of dissolving."
 
-- question: "Water dissolves all substances because it is the universal solvent."
+- question: "Water dissolves most substances because it is the universal solvent."
   type: true-false
   answer: false
   explanation: "The term 'universal solvent' is an exaggeration. Water dissolves many substances, especially ionic and polar ones, but it does not dissolve nonpolar substances like cooking oil or wax. The rule 'like dissolves like' means polar solvents dissolve polar solutes, and nonpolar solvents dissolve nonpolar solutes."

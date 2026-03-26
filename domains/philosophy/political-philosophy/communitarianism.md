@@ -57,7 +57,7 @@ Read Sandel's critique in Liberalism and the Limits of Justice Ch. 1 and MacInty
   answer: 1
   explanation: "Communitarians are skeptical of strict liberal neutrality — the doctrine that the state must remain neutral between competing ways of life and treat individuals as abstract rights-holders prior to their communal identities. Constitutional protection of individual rights against majority traditions (option B) exemplifies the liberal framework communitarians critique. Options A, C, and D all strengthen communal bonds or civic life, which communitarians generally endorse. The common misconception is that communitarians are simply anti-government; in fact they often support robust community institutions."
 
-- question: "Communitarianism entails that individuals cannot legitimately criticize or seek to reform the traditions and communities that shaped them."
+- question: "Communitarianism entails that individuals can seldom legitimately criticize or seek to reform the traditions and communities that shaped them."
   type: true-false
   answer: false
   explanation: "This is the 'communitarian = conservative' misconception. Communitarians argue that identity is formed through community — not that individuals are trapped by it. MacIntyre himself analyzes how traditions develop and improve through internal debate and rational criticism. Taylor's politics of recognition can support progressive demands for equal recognition of marginalized communities. Sandel's civic republicanism calls for reform of liberal institutions. Being constituted by a tradition does not preclude transforming it from within."

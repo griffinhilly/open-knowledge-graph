@@ -52,7 +52,7 @@ Garden-path sentences like 'The horse raced past the barn fell' temporarily misl
   answer: true
   explanation: "Minimal attachment is the principle that the parser builds the simplest phrase structure given the words encountered so far — fewest nodes, most direct attachment. For 'the horse raced past the barn,' the simplest analysis has 'raced' as the main verb of a simple main clause, which requires fewer structural nodes than embedding 'raced' inside a relative clause modifying 'the horse.' This heuristic is statistically optimal for most sentences in natural language — but in the unusual case of a reduced relative clause, it leads the parser down the wrong path."
 
-- question: "Garden-path effects demonstrate a fundamental limitation of the human language-processing system: it cannot handle sentences with reduced relative clauses."
+- question: "Garden-path effects demonstrate a fundamental limitation of the human language-processing system: it can seldom handle sentences with reduced relative clauses."
   type: true-false
   answer: false
   explanation: "Humans can and do understand garden-path sentences — they just require reanalysis and extra processing time. The garden-path effect reveals not a limitation but an architectural feature: the parser commits early to the most probable analysis (an efficient strategy for normal language) and recovers when that analysis fails. With re-reading or additional context, comprehenders always reach the correct interpretation. The difficulty is in the recovery cost, not an inability to process reduced relative clauses."

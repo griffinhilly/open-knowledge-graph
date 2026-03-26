@@ -47,7 +47,7 @@ A binary operation on a set combines any two elements to produce another element
   answer: 3
   explanation: "The hierarchy requires checking each axiom in order. A monoid requires: closure, associativity, and identity. The student has verified associativity and identity, but to name it a monoid, closure must also hold (a binary operation on S is defined only if the output is always in S). If closure is verified, then we have a monoid. If inverses also existed, it would be a group. The student can't assume closure — it must be explicitly checked. Option A is wrong because groups require inverses."
 
-- question: "Every set equipped with a binary operation automatically forms a group."
+- question: "Most set equipped with a binary operation automatically forms a group."
   type: true-false
   answer: false
   explanation: "A group requires four properties: closure, associativity, existence of an identity element, and existence of inverses for every element. A set with a binary operation that is only closed is called a magma. Addition on the natural numbers ℕ, for instance, has closure and associativity and an identity (0), but most elements lack additive inverses (there is no natural number that adds to 3 to give 0), so ℕ under addition is a monoid, not a group."

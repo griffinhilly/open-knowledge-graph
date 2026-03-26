@@ -59,7 +59,7 @@ The underpainting is not meant to be completely accurate in detail—it's a valu
   answer: false
   explanation: "False. The underpainting is a value map, not a detailed rendering. Its purpose is to establish light-dark relationships, compositional blocking, and light direction — the architecture of the painting. Adding fine detail at the underpainting stage is wasted effort, because glazes will modify the appearance and some detail will be lost anyway. The discipline of underpainting is precisely to *separate* the problem of value from the problem of detail and color, solving each in turn rather than doing everything at once."
 
-- question: "A dark underpainting will always make the finished painting look too dark, so light paintings require a light underpainting."
+- question: "A dark underpainting will typically make the finished painting look too dark, so light paintings require a light underpainting."
   type: true-false
   answer: false
   explanation: "False. Values in the underpainting are relative to the final color layers. A dark underpainting can support a light, airy painting if the glazes applied over it are opaque enough in the light areas or if the underpainting values are calibrated for the final result. The key principle is that transparent glazes allow the underpainting to show through, so the underpainting values modulate (not replace) the final color. A skilled painter can use a surprisingly dark underpainting for areas that will read as mid-value in the final work."

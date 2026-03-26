@@ -45,7 +45,7 @@ Classify all English consonants by their feature specifications and then identif
   answer: 1
   explanation: "Natural classes are the key motivation for feature theory. Instead of listing /m/, /n/, /ŋ/ individually (which would be stipulative and miss the generalization), the feature [+nasal] picks out exactly these sounds as a class. A single rule referencing [+nasal] then applies to all of them — and will automatically extend to any additional nasal phonemes a language might have. This is a genuine empirical prediction, not just shorthand."
 
-- question: "A binary feature like [+voice] means that sounds are either completely voiced or completely voiceless, with no gradient realization possible."
+- question: "A binary feature like [+voice] means that sounds are either mostly voiced or substantially voiceless, with no gradient realization possible."
   type: true-false
   answer: false
   explanation: "This confuses the phonological level with the phonetic level. At the phonological level, [+/-voice] is a categorical, discrete distinction used to contrast phonemes (e.g., /p/ vs /b/ in English). At the phonetic level, voicing is a continuous acoustic and articulatory property — the same speaker may produce /b/ with varying degrees of voicing depending on position in a word, speaking rate, and surrounding sounds. Features capture categorical phonological contrasts; phonetics captures gradient realization."

@@ -59,7 +59,7 @@ Compare unit prices across three sizes of the same item to identify the best val
   answer: 3
   explanation: "Unit price: 16 oz = $3.84 ÷ 16 = $0.24/oz; 40 oz = $8.80 ÷ 40 = $0.22/oz. The 40 oz jar is the better value per ounce. Option C has the arithmetic right but selects the wrong winner. Option B reaches the right answer for the wrong reason — larger packages must still be checked, as they are not always cheaper per unit."
 
-- question: "A 'buy 2 get 1 free' promotion on a product you rarely use is always a money-saving opportunity."
+- question: "A 'buy 2 get 1 free' promotion on a product you rarely use is typically a money-saving opportunity."
   type: true-false
   answer: false
   explanation: "A promotion only saves money if you would have purchased the item anyway. Buying three units of something you don't regularly use means spending more total money than you would have, even if the per-unit cost is lower. Savings come from discounts on items already in your plan — not from buying things you don't need because the price looks attractive."

@@ -53,7 +53,7 @@ Listen to Ornette Coleman and John Coltrane free-jazz recordings, following ense
   answer: 1
   explanation: "In free jazz, timbre and register carry structural weight that harmonic function carries in tonal music. A dramatic shift in register and density — from a dense, high-register tutti to a single instrument in a low register — creates a formal boundary in the same way a V→I cadence marks a phrase ending. The architecture is real; it is simply built from texture and color rather than harmonic syntax. Recognizing this requires expanding one's analytical categories beyond what score-based tonal analysis would capture."
 
-- question: "Free jazz requires less attentive ensemble listening than chord-based jazz, because there is no shared harmonic framework that all musicians must track simultaneously."
+- question: "Free jazz requires less attentive ensemble listening than chord-based jazz, because there is no shared harmonic framework that most musicians should track simultaneously."
   type: true-false
   answer: false
   explanation: "The opposite is true. In chord-based jazz, the harmony provides a shared external framework — every player knows the changes, so coordination can be achieved partly by each player independently tracking the chord chart. In free jazz, the organizing principles (motivic interaction, collective response to texture and density) can only function if every player is listening intensely to what the others are doing in real time. The ensemble's structural coherence emerges entirely from that collective listening and response. Free jazz demands more, not less, attentiveness from its participants."

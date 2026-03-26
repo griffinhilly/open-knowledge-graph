@@ -55,7 +55,7 @@ Play an interval and then its inversion immediately after, noting the change in 
   answer: 1
   explanation: "A major third inverts to a minor sixth: 3 + 6 = 9 (size rule), and major → minor (quality rule). Option A gets the size right but forgets the quality flip — a major interval does not invert to another major interval. The quality flip from major to minor is the key recognition skill: the minor sixth has a distinctly more open, expansive sound than the compact major third that preceded it."
 
-- question: "Inverting a minor interval always produces another minor interval."
+- question: "Inverting a minor interval usually produces another minor interval."
   type: true-false
   answer: false
   explanation: "Inverting a minor interval produces a MAJOR interval (e.g., minor third → major sixth; minor second → major seventh). The quality-flip rule states: major ↔ minor, augmented ↔ diminished, and perfect ↔ perfect. Only perfect intervals invert to the same quality. This is one of the most important rules of interval inversion and the most common source of error: students expect quality to be preserved and are surprised to find it changes."

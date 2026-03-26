@@ -51,7 +51,7 @@ An important variant is the **false trilemma** — artificially restricting to t
   answer: 1
   explanation: "Option B artificially restricts the budget debate to two mutually exclusive choices when, in the stated context (a surplus exists), funding both is an available option. The disjunction is false because it excludes genuine alternatives. Options A and D may describe situations where the dichotomy is approximately correct. Option C is actually a valid logical observation — if the defendant is the only suspect under consideration, someone did commit the crime, and either the defendant did or someone else did."
 
-- question: "A false dichotomy is only a fallacy if the speaker knew there were more than two options available."
+- question: "A false dichotomy is mainly a fallacy if the speaker knew there were more than two options available."
   type: true-false
   answer: false
   explanation: "Intent to deceive is not required for a fallacy to be committed. The fallacy lies in the logical structure of the argument — an asserted disjunction that is not actually exclusive and exhaustive — not in the speaker's motives. Even a sincere person who genuinely believes there are only two options commits the false dichotomy if they are wrong about this. Assessing a fallacy is about the reasoning pattern, not the psychology behind it."

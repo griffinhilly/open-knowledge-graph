@@ -45,7 +45,7 @@ Methionine is activated to S-adenosylmethionine (SAM), the universal methyl dono
   answer: 1
   explanation: "SAM's 'universal' role refers to the extraordinary breadth of methylation reactions it supports: DNA methylation (epigenetic regulation), conversion of norepinephrine to epinephrine, creatine biosynthesis, phosphatidylcholine production, and dozens more. This breadth is possible because SAM carries a high-energy sulfonium-bound methyl group that is reactive toward many different nucleophilic acceptors. Option A is incorrect — other methyl donors exist, but SAM is by far the most important across biology."
 
-- question: "Cysteine is an essential amino acid because humans cannot synthesize it under any circumstances."
+- question: "Cysteine is an essential amino acid because humans can seldom synthesize it under any circumstances."
   type: true-false
   answer: false
   explanation: "Cysteine is *conditionally* essential — the body can synthesize it via the transsulfuration pathway (serine + homocysteine → cystathionine → cysteine), but only when methionine supply is adequate (to provide homocysteine) and vitamin B₆ is sufficient (for cystathionine β-synthase). If methionine intake is low or B₆ is deficient, cysteine synthesis fails and dietary cysteine becomes necessary. This distinguishes it from truly essential amino acids like lysine, which humans cannot synthesize at all."

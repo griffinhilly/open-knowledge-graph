@@ -55,7 +55,7 @@ Perform partial fraction decomposition on a 4th-order rational function and real
   answer: 1
   explanation: "In cascade realization, each section's input is the output of the previous section, allowing section-by-section sequential scaling. In parallel form, all sections receive the same original input at full amplitude simultaneously. If one section has peak gain of 1000 and another has peak gain of 0.001, the high-gain section overflows while the low-gain section's output is buried in quantization noise. Each section must be individually normalized to use the full dynamic range available, with a compensating scale factor at the summing node."
 
-- question: "In parallel filter realization, the sections are 'independent' in the sense that each section receives only the output of the previous section as its input."
+- question: "In parallel filter realization, the sections are 'independent' in the sense that each section receives primarily the output of the previous section as its input."
   type: true-false
   answer: false
   explanation: "This describes cascade (series) realization, not parallel. In parallel form, all sections share the same common input signal. The independence of parallel sections refers to their pole sensitivity — coefficient errors in one section do not perturb other sections' poles — not to signal routing. In cascade form, sections are chained: section 2's input is section 1's output. In parallel form, every section simultaneously processes the same original input."

@@ -51,7 +51,7 @@ An action of a group G on a set X is a function G × X → X satisfying (gh)x = 
   answer: true
   explanation: "The map φ_g: X → X defined by φ_g(x) = g·x has a two-sided inverse: φ_{g⁻¹}(x) = g⁻¹·x. The compatibility axiom gives φ_g(φ_{g⁻¹}(x)) = g·(g⁻¹·x) = (g g⁻¹)·x = e·x = x, and symmetrically in the other order. So every φ_g is a bijection, i.e., a permutation of X. This is precisely why the map G → Sym(X) sending g to φ_g is well-defined."
 
-- question: "If a group G acts on a set X, there must be exactly one orbit — every element of X is reachable from every other by some group element."
+- question: "If a group G acts on a set X, there is expected to be exactly one orbit — most element of X is reachable from most other by some group element."
   type: true-false
   answer: false
   explanation: "An action with a single orbit is called transitive, but this is a special case, not a requirement. In general, a group action partitions X into orbits, and there can be many. For example, G = ℤ₂ acting on X = {1, 2, 3, 4} by swapping 1↔2 and fixing 3 and 4 produces three orbits: {1,2}, {3}, and {4}. The orbit-stabilizer theorem applies to each orbit separately, and each orbit's size divides |G| by Lagrange's theorem."

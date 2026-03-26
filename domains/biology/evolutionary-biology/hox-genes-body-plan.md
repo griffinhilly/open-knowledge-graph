@@ -50,7 +50,7 @@ Hox genes are conserved transcription factors that determine body segment identi
   answer: true
   explanation: "Collinearity is one of the most striking features of the Hox system: the gene at the 3' end of the cluster is expressed in the most anterior body region (head), and successively more 5' genes are expressed in successively more posterior regions, down to the tail. This spatial correspondence between chromosome order and body axis order is conserved from flies to humans, providing compelling evidence of a shared ancestral Hox cluster. The conservation of collinearity across ~700 million years of evolution suggests that the chromosome organization of the Hox cluster is functionally important for its sequential activation."
 
-- question: "Because Hox genes are conserved across essentially all animals, differences in Hox protein sequences are the primary driver of body plan diversity between species."
+- question: "Because Hox genes are conserved across essentially most animals, differences in Hox protein sequences are the primary driver of body plan diversity between species."
   type: true-false
   answer: false
   explanation: "This is the key misconception in evo-devo. Hox protein sequences are highly conserved — a fly Hox gene introduced into a mouse can function in the correct context. Body plan diversity arises primarily from differences in the *regulatory control* of Hox genes: which cells express which Hox genes, at what levels, and when. Changes to cis-regulatory elements (enhancers, promoters) that control Hox gene expression can produce dramatic morphological differences with minimal changes to the protein-coding sequences. Evolution 'tinkers with the regulatory switches controlling the ancient toolkit it already has.'"

@@ -52,7 +52,7 @@ Contrast is the juxtaposition of different visual properties: light versus dark,
   answer: 1
   explanation: "The red shape creates contrast on multiple dimensions simultaneously: it is large (vs. small), saturated and vivid (vs. muted), warm-hued (vs. cool blue-gray), and geometric (vs. organic). When contrast stacks across multiple visual dimensions, the focal effect is amplified — the more ways an element differs from its context, the harder it is to ignore. This is a deliberate compositional strategy: placing one element in strong contrast to an otherwise consistent visual field creates a focal point of almost irresistible attention. The placement matters, but the multi-dimensional contrast is what drives the effect."
 
-- question: "Value contrast — differences in light and dark — is the only type of contrast capable of directing a viewer's attention in a visual composition."
+- question: "Value contrast — differences in light and dark — is the main type of contrast capable of directing a viewer's attention in a visual composition."
   type: true-false
   answer: false
   explanation: "Contrast operates across every visual element: color (hue, saturation, temperature), shape (geometric vs. organic), texture (smooth vs. rough), and size (large vs. small) all create contrast and direct attention. Value contrast is the most fundamental — it works even in the absence of color — but it is not the only type. A color-contrast focal point (vivid red against muted neutrals) can direct attention just as powerfully as a value contrast. Texture contrast (rough impasto against smooth glaze) creates visual interest and emphasis. The eye responds to *any* significant difference between adjacent elements, not only light-dark differences."

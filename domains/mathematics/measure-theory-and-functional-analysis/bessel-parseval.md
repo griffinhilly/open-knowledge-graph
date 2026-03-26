@@ -49,7 +49,7 @@ For an orthonormal sequence (eₙ), Bessel's inequality states Σ|⟨x, eₙ⟩|
   answer: true
   explanation: "Bessel's inequality is unconditional — it follows from the non-negativity of ‖x − Sₙ‖² ≥ 0 for the partial projection Sₙ, and this holds for any orthonormal sequence regardless of completeness. Completeness is the additional condition that makes the inequality into an equality (Parseval). Without completeness, the sum converges to some value ≤ ‖x‖², and the gap represents the squared norm of the projection of x onto the orthogonal complement of the sequence's closed span."
 
-- question: "If Parseval's identity Σ|⟨x, eₙ⟩|² = ‖x‖² holds for one specific vector x, the orthonormal sequence must be a complete orthonormal basis."
+- question: "If Parseval's identity Σ|⟨x, eₙ⟩|² = ‖x‖² holds for one specific vector x, the orthonormal sequence should be a complete orthonormal basis."
   type: true-false
   answer: false
   explanation: "Parseval holding for a single vector does not imply completeness. A sequence could capture all the energy of one particular vector while failing to span the full space. For example, if x happens to lie in the closed span of the sequence, Parseval holds for x even if the sequence misses an orthogonal subspace entirely. Completeness requires Parseval's identity to hold for ALL vectors in H — it is a global condition on the sequence, not a local condition on any single vector."

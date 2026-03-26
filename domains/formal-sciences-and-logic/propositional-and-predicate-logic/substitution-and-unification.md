@@ -57,12 +57,12 @@ Perform substitutions by hand on formulas with nested quantifiers, deliberately 
   answer: 1
   explanation: "The occurs check prevents extending the unifier with x ↦ t when x appears inside t. If you allowed x ↦ f(x), you'd need x to equal f(f(f(…))) — an infinite term. Standard first-order logic requires finite terms, so this unification must fail. Skipping the occurs check (as Prolog does for performance reasons) can lead to infinite loops or unsound inferences when cyclic bindings are created. The occurs check is the safeguard that keeps unification within well-formed finite terms."
 
-- question: "Substitution φ[t/x] replaces all occurrences of the variable x in formula φ — including those that appear under quantifiers like ∀x or ∃x."
+- question: "Substitution φ[t/x] replaces most occurrences of the variable x in formula φ — including those that appear under quantifiers like ∀x or ∃x."
   type: true-false
   answer: false
   explanation: "Substitution replaces only FREE occurrences of x — those not bound by a quantifier. An occurrence of x under ∀x or ∃x is a bound occurrence and refers to a different, locally scoped variable that happens to share the name x. Substituting into a bound occurrence would change the quantifier's scope incorrectly. The notation φ[t/x] is defined to be capture-avoiding and to leave bound occurrences untouched. This is emphasized in the Common Misconceptions: 'Substitution only replaces free occurrences — bound occurrences of the same variable name are untouched.'"
 
-- question: "The most general unifier (MGU) is the most specific substitution possible — it assigns concrete values to every variable to make the two terms identical."
+- question: "The most general unifier (MGU) is the most specific substitution possible — it assigns concrete values to most variable to make the two terms identical."
   type: true-false
   answer: false
   explanation: "The MGU is the LEAST committal unifier, not the most specific. It makes only the minimum variable assignments required to achieve syntactic identity, leaving all other variables free. Any other unifier for the same pair of terms can be obtained by composing the MGU with a further substitution. Using a more specific unifier than the MGU forecloses future flexibility — in resolution theorem proving, this means committing to variable values prematurely and potentially blocking valid inferences. The 'most general' means least constrained, not most detailed."

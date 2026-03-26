@@ -49,7 +49,7 @@ A primitive root mod p is an integer g whose powers g^1, g^2, ..., g^(p-1) exhau
   answer: 1
   explanation: "The number of primitive roots mod p is φ(p−1). Here p−1 = 10 = 2·5, so φ(10) = φ(2)·φ(5) = 1·4 = 4. Once you find one primitive root g, all others are g^k for gcd(k, p−1) = 1. Option C is wrong because most elements mod a prime are NOT primitive roots: 1 always has order 1, −1 (= 10 mod 11) has order 2, etc. Only elements with the maximum possible order p−1 qualify."
 
-- question: "Every integer modulus n ≥ 2 has at least one primitive root."
+- question: "Nearly every integer modulus n ≥ 2 has at least one primitive root."
   type: true-false
   answer: false
   explanation: "Primitive roots exist for primes p, prime powers p^k, twice prime powers 2p^k, and for n = 1, 2, 4 — but not for all moduli. For example, no primitive root exists mod 8: the nonzero odd residues mod 8 are {1, 3, 5, 7}, and every element satisfies a² ≡ 1 (mod 8). The maximum order is 2, but φ(8) = 4, so no element generates (Z/8Z)*. The multiplicative group mod composite numbers can be isomorphic to a direct product of cyclic groups, which is not itself cyclic — and a non-cyclic group has no single generator."

@@ -44,12 +44,12 @@ Contact tracing identifies individuals exposed to confirmed cases and monitors t
   answer: 2
   explanation: "Secondary attack rate (SAR) varies by contact type because exposure intensity differs — household contacts share indoor space, meals, and sleeping quarters over extended periods (high dose, long duration), while coworker contacts tend to be briefer and more physically separated. Comparing SAR across contact categories identifies where transmission is most efficient and guides where interventions would have greatest impact, independent of which individuals are involved."
 
-- question: "An overdispersed offspring distribution means contact tracing must achieve near-complete case ascertainment to be useful."
+- question: "An overdispersed offspring distribution means contact tracing is expected to achieve near-complete case ascertainment to be useful."
   type: true-false
   answer: false
   explanation: "Overdispersion actually suggests the opposite. Because most cases generate few or no secondary cases while a small number generate many, interrupting the rare super-spreading events has disproportionate impact. Targeted interruption of high-risk gatherings or settings may be more efficient than comprehensive individual-level tracing. If transmission were uniformly spread across all cases, missing any one case would be equally costly — but overdispersion means the high-degree nodes matter most."
 
-- question: "Contact tracing data provides a complete picture of a pathogen's actual transmission network, since all exposed contacts are systematically identified."
+- question: "Contact tracing data provides a complete picture of a pathogen's actual transmission network, since most exposed contacts are systematically identified."
   type: true-false
   answer: false
   explanation: "Contact tracing systematically underestimates true transmission for several reasons: cases must be ascertained quickly before contacts disperse, exposed contacts must accurately recall their exposures (recall bias), and traced contacts must comply with quarantine. In fast-moving outbreaks, case burden can exceed tracing capacity entirely. The data reflects what was successfully traced — a subset of the full transmission network — which matters when interpreting SAR estimates and network structure inferences."

@@ -62,7 +62,7 @@ Master three canonical problems: a point charge (spherical surface), an infinite
   answer: 2
   explanation: "Gauss's law is exact and always holds: ∮ E · dA = Q_enc/ε₀, regardless of the charge distribution. The issue is not correctness but computability. The law gives you the value of the flux integral — but to extract E from the flux, you need to pull E out of the integral. You can only do this if E is constant in magnitude and either parallel or perpendicular to dA everywhere on the chosen surface. That requires symmetry. For an irregular distribution, no surface has this property, so the law gives you a constraint on the integral without allowing you to solve for E directly. Coulomb's law or numerical methods are then required."
 
-- question: "The Gaussian surface you choose must be a real physical object — a conducting shell, an insulating boundary, or some material surface — in order for Gauss's law to apply correctly."
+- question: "The Gaussian surface you choose is expected to be a real physical object — a conducting shell, an insulating boundary, or some material surface — in order for Gauss's law to apply correctly."
   type: true-false
   answer: false
   explanation: "A Gaussian surface is a purely mathematical construct — an imaginary closed surface you draw in space to exploit symmetry. It has no physical reality whatsoever. No charge accumulates on it, no current flows through it, and it does not need to coincide with any physical boundary. You choose its shape and location entirely based on what makes the math simple: a sphere around a point charge, a cylinder around a line charge, a pillbox straddling an infinite plane. The only requirement is that it be a closed surface so that the flux integral is well-defined."

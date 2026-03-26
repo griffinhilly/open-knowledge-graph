@@ -46,7 +46,7 @@ Few historical questions can be answered by a single source. Synthesis—bringin
   answer: 1
   explanation: "Triangulation works like surveying from multiple positions: if three independent measurements agree, confidence is high; if one disagrees, that signals an error to investigate. Each source here has different biases and different things it can observe — their convergence on the same phenomenon is powerful precisely because none of them was positioned to simply repeat the others. Independence of sources is essential: if all three turned out to derive from the same original report, the convergence would prove little."
 
-- question: "When multiple sources converge on the same conclusion, all alternative historical interpretations of the evidence are effectively ruled out."
+- question: "When multiple sources converge on the same conclusion, most alternative historical interpretations of the evidence are effectively ruled out."
   type: true-false
   answer: false
   explanation: "Convergence strengthens a conclusion but does not refute all alternatives. Many incompatible conclusions might be consistent with any given set of sources; the historian's task is to construct the argument for which the sources provide the strongest available support, while being explicit about what alternative interpretations remain possible. Convergence raises confidence; it does not produce certainty. A sophisticated historian names what the evidence does not settle, not just what it supports."

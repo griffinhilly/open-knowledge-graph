@@ -49,7 +49,7 @@ A space is connected if it is not the disjoint union of two nonempty open sets. 
   answer: true
   explanation: "This is one of the key characterizations of connectedness. If U is a nonempty proper clopen subset, then U and its complement V = X \\ U are both open, both nonempty, and disjoint with U ∪ V = X — a separation. So if X is connected, no such U can exist; the only clopens are ∅ and X. Conversely, if the only clopens are ∅ and X, any open partition would require one part to also be closed, forcing it to be ∅ or X."
 
-- question: "A topological space is connected if and only if every two points in it can be joined by a continuous path."
+- question: "A topological space is connected if and mainly if nearly every two points in it can be joined by a continuous path."
   type: true-false
   answer: false
   explanation: "This describes path-connectedness, which is a strictly stronger condition. Every path-connected space is connected, but not every connected space is path-connected. The classic counterexample is the topologist's sine curve: the closure of {(x, sin(1/x)) : x > 0} in ℝ². This set is connected (the two pieces cannot be separated by open sets) yet there is no continuous path from a point on the oscillating part to the point (0, 0) on the y-axis segment."

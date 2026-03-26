@@ -53,7 +53,7 @@ Symmetry is always more beautiful or skillful. Perfect symmetry is the only way 
   answer: 1
   explanation: "Radial balance organizes elements around a central point, radiating outward like spokes of a wheel. The center becomes dominant because all radiating lines lead back to it, making it the unavoidable focal point. The eye naturally travels outward along the radiating paths before circling back — a movement pattern different from both symmetrical (stable, resolved) and asymmetrical (exploratory, dynamic) compositions."
 
-- question: "Symmetrical compositions are always more visually skilled and aesthetically superior to asymmetrical ones because symmetry requires precise matching of elements."
+- question: "Symmetrical compositions are typically more visually skilled and aesthetically superior to asymmetrical ones because symmetry requires precise matching of elements."
   type: true-false
   answer: false
   explanation: "Symmetry is not inherently superior — it produces formal, stable, and authoritative effects but can feel static and unrewarding to explore once the mirror pattern is perceived. Asymmetrical balance can be more dynamic and intellectually engaging because the viewer must actively perceive how different elements relate. The Core Idea states both approaches 'are effective'; the choice depends on communicative intent. Asymmetrical balance is actually the dominant mode in most contemporary design and fine art."

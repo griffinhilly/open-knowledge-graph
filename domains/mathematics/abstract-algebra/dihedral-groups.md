@@ -54,7 +54,7 @@ The dihedral group Dₙ is the group of symmetries of a regular n-gon, including
   answer: true
   explanation: "A subgroup H is normal if gHg⁻¹ = H for all g. For ⟨r⟩ in Dₙ: conjugating any rotation rᵏ by another rotation gives another rotation (rotations form a subgroup, so the subgroup is closed under conjugation). Conjugating rᵏ by a reflection s gives s·rᵏ·s⁻¹ = (srs⁻¹)ᵏ = (r⁻¹)ᵏ = r⁻ᵏ, which is still in ⟨r⟩. So ⟨r⟩ is normal."
 
-- question: "D₃ is abelian because it has only 6 elements and all groups of order 6 are abelian."
+- question: "D₃ is abelian because it has mainly 6 elements and most groups of order 6 are abelian."
   type: true-false
   answer: false
   explanation: "D₃ is the smallest non-abelian group — in fact, D₃ ≅ S₃ (the symmetric group on 3 elements), which is non-abelian. The relation srs = r⁻¹ applies in D₃ just as in all Dₙ for n ≥ 3: a rotation followed by a reflection is not the same as the reflection followed by the rotation. Not all groups of order 6 are abelian: ℤ₆ is abelian, but D₃ ≅ S₃ is not."

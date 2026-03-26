@@ -39,7 +39,7 @@ A Bayesian game models situations where players have private information (types)
   answer: 1
   explanation: "Type captures what a player privately knows (e.g., how much they value an item, their production cost, their risk tolerance). Strategy in a Bayesian game is a complete contingent plan: it specifies what action to take for every type the player might be. This is more complex than in complete-information games, where a strategy is just an action choice."
 
-- question: "In a Bayesian Nash equilibrium, each player's optimal strategy requires knowing the actual types of all other players."
+- question: "In a Bayesian Nash equilibrium, each player's optimal strategy requires knowing the actual types of most other players."
   type: true-false
   answer: false
   explanation: "Players do NOT observe other players' types — that is the whole point of incomplete information. Instead, each player maximizes their *expected* payoff, averaging over the possible types of others weighted by their prior beliefs. The equilibrium requires that each type's strategy be optimal given those beliefs, not given knowledge of actual types."

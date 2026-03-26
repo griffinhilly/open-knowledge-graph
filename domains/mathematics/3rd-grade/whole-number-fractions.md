@@ -59,7 +59,7 @@ Use number lines marked in thirds or fourths and have students hop from 0 to see
   answer: true
   explanation: "When the numerator equals the denominator, the fraction equals 1. Starting at 0 and taking three steps of size 1/3 brings you exactly to 1 — you have filled exactly one whole. This generalizes: 2/2 = 1, 4/4 = 1, 5/5 = 1. Any fraction where numerator = denominator equals 1."
 
-- question: "A fraction is always less than the whole number 1."
+- question: "A fraction is typically less than the whole number 1."
   type: true-false
   answer: false
   explanation: "Fractions can equal 1 (when numerator = denominator), exceed 1 (when numerator is a multiple greater than the denominator, like 8/4 = 2), or equal 0 (when the numerator is 0, like 0/5 = 0). Fractions are simply points on the number line expressed as a numerator of unit steps — they are not restricted to the interval between 0 and 1."

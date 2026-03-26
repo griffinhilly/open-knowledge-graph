@@ -51,7 +51,7 @@ A multi-cycle processor breaks instruction execution into multiple states (fetch
   answer: true
   explanation: "This is the defining property of multi-cycle design. An R-type instruction might use 4 cycles (skipping memory access), a load uses all 5, and a branch might need only 3. The FSM controller selects the correct sequence of states per instruction type. This is the efficiency advantage over single-cycle, where every instruction must wait out the full period regardless of what it actually needs."
 
-- question: "A multi-cycle processor always executes programs faster than a single-cycle processor because it uses a shorter clock period."
+- question: "A multi-cycle processor typically executes programs faster than a single-cycle processor because it uses a shorter clock period."
   type: true-false
   answer: false
   explanation: "While the multi-cycle design uses a shorter clock period, individual instructions take more cycles to complete. Whether programs run faster overall depends on the instruction mix, the relative clock speedup, and the implementation. The real value of multi-cycle design is conceptual: it decomposes execution into discrete stages — the same stages pipelining overlaps — making the leap to pipelining natural."

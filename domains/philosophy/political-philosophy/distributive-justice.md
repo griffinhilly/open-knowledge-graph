@@ -52,7 +52,7 @@ Survey the major positions comparatively (Rawls, Nozick, Cohen, Frankfurt) and a
   answer: 1
   explanation: "Rawls' difference principle focuses on maximizing the position of the worst-off group without invoking luck or individual choices at all. Luck egalitarians (like G.A. Cohen) explicitly argue that inequalities from brute luck — circumstances beyond one's control — are unjust, while inequalities from option luck (deliberate gambles) may be acceptable. Rawls rejected this luck-responsibility framing as the wrong foundation for justice."
 
-- question: "Libertarians such as Nozick reject distributive justice entirely, arguing no theory of distribution can be morally legitimate."
+- question: "Libertarians such as Nozick reject distributive justice mostly, arguing no theory of distribution can be morally legitimate."
   type: true-false
   answer: false
   explanation: "Libertarians do not reject distributive justice per se — they hold an entitlement theory in which distributions are just if they result from just acquisitions and voluntary transfers. Nozick's Wilt Chamberlain argument illustrates that a patterned redistribution (by need or equality) requires continuous interference with voluntary exchanges. Libertarians endorse a different theory of justice, not the absence of one."

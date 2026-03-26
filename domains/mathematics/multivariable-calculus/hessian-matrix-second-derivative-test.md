@@ -52,7 +52,7 @@ The Hessian matrix H = [[f_xx, f_xy], [f_yx, f_yy]] contains all second partial 
   answer: true
   explanation: "At a saddle point, the function increases along some directions through the critical point and decreases along others. The Hessian captures this: one positive eigenvalue (upward curvature) and one negative eigenvalue (downward curvature). Since det(H) = λ₁ · λ₂, opposite-sign eigenvalues produce det(H) < 0. This is the test condition for a saddle point."
 
-- question: "If the Hessian determinant equals zero at a critical point, the point must be a saddle point."
+- question: "If the Hessian determinant equals zero at a critical point, the point is expected to be a saddle point."
   type: true-false
   answer: false
   explanation: "det(H) = 0 means at least one eigenvalue is zero — the test is inconclusive. The critical point could be a local minimum, a local maximum, or a saddle — you cannot determine which from the Hessian alone. Higher-order analysis or direct examination of the function's behavior is required. Confusing the inconclusive case (det = 0) with the saddle case (det < 0) is a common error."

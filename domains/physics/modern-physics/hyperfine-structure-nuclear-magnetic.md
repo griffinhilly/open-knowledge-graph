@@ -56,7 +56,7 @@ Hyperfine structure requires a non-zero nuclear spin (zero-spin nuclei have no h
   answer: true
   explanation: "The nuclear magnetic moment is μ_I = g_I(e/2m_p)I, where the proton mass m_p appears in the denominator rather than the electron mass m_e. Since m_p/m_e ≈ 1836, the nuclear magnetic moment is ~1836 times smaller than the Bohr magneton that governs fine structure. The hyperfine interaction energy is correspondingly ~1836 times smaller — which is why hyperfine transitions like the 21 cm line fall in the radio band rather than optical frequencies."
 
-- question: "All orbital types (s, p, d, f) contribute equally to hyperfine splitting through the Fermi contact interaction."
+- question: "Most orbital types (s, p, d, f) contribute equally to hyperfine splitting through the Fermi contact interaction."
   type: true-false
   answer: false
   explanation: "Only s-orbitals contribute through the Fermi contact interaction, because only s-orbitals have nonzero electron density at the nucleus (|ψ(0)|² ≠ 0). For all other orbital types (l ≠ 0), the wavefunction vanishes at the nucleus, so the contact term is zero. p, d, and f orbitals experience hyperfine splitting through the magnetic dipole interaction, which is weaker. This is a direct consequence of the angular node structure of non-s wavefunctions."

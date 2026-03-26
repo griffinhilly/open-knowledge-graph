@@ -61,7 +61,7 @@ Listen to a diminished seventh chord (e.g., B-D-F-Ab) on its own to internalize 
   answer: true
   explanation: "Because the chord consists entirely of minor thirds, transposing it by any minor third produces the same set of pitch classes (enharmonically). B–D–F–A♭, D–F–A♭–C♭, F–A♭–C♭–E♭♭, and A♭–C♭–E♭♭–G♭♭ are the same sonority respelled. Each spelling assigns a different 'root' — a different leading tone pointing to a different tonic. This is the theoretical basis of its harmonic flexibility, and the reason it was the modulation workhorse of the Romantic era."
 
-- question: "Because of its strong leading-tone character, a diminished seventh chord always resolves to the same chord regardless of musical context."
+- question: "Because of its strong leading-tone character, a diminished seventh chord typically resolves to the same chord regardless of musical context."
   type: true-false
   answer: false
   explanation: "The leading-tone function is real, but to which key it resolves depends entirely on how the chord is spelled — and the same set of pitches admits four valid spellings. B–D–F–A♭ can resolve toward C, E♭, G♭, or A depending on which note is treated as the leading tone and how the chord is respelled. The resolution is determined by context and the composer's choice, not by the pitches themselves. This ambiguity is precisely what makes it so useful for modulation: the same sonority can be 'aimed' in multiple directions."

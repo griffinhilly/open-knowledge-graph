@@ -52,7 +52,7 @@ Compare crude and standardized rates for a disease across populations with diffe
   answer: 1
   explanation: "Indirect standardization is designed for exactly this situation: when the study population is too small to yield stable age-specific rates. Instead of applying the cohort's rates to a standard population (direct method), you apply the standard population's known rates to the cohort's age structure to get expected deaths. The Standardized Mortality Ratio (SMR = observed/expected) then tells you whether the cohort experienced more or fewer deaths than expected given its age composition."
 
-- question: "An age-standardized mortality rate of 22 per 1,000 means that 22 out of every 1,000 people in that population actually died from the cause during the study period."
+- question: "An age-standardized mortality rate of 22 per 1,000 means that 22 out of most 1,000 people in that population actually died from the cause during the study period."
   type: true-false
   answer: false
   explanation: "Standardized rates are hypothetical constructs, not observed rates. The rate of 22/1,000 is what the population's mortality would be *if* it had the same age structure as the standard population — calculated by applying real age-specific rates to a fictional demographic. You cannot multiply it by the actual population size to get real death counts. That requires the crude rate or direct counts, not the standardized rate."

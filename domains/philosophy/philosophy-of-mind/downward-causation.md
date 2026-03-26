@@ -60,7 +60,7 @@ Distinguish between metaphysically real downward causation and mere correlation 
   answer: true
   explanation: "If the same mental type (e.g., pain) can be realized by different physical substrates (mammalian neurons, octopus neurons, or hypothetically silicon), then no single physical description captures what pain causally is. The higher-level description (pain → withdrawal) predicts and explains behavior in a way that any particular physical description tied to one substrate would not generalize across. This suggests the higher-level description is doing real explanatory and potentially causal work."
 
-- question: "Downward causation is straightforwardly impossible if the physical causal closure principle is true."
+- question: "Downward causation is straightforwardly impractical if the physical causal closure principle is true."
   type: true-false
   answer: false
   explanation: "Some philosophers argue that macro-level and micro-level descriptions are simply different descriptions of the same underlying causal process — the intention just *is* the neural pattern, described at a different grain of analysis. On this view, there is no overdetermination and no violation of causal closure, because the higher-level cause and the micro-level cause are identical, not competing. Whether this identity claim is satisfying or just redefines the problem is contested, but it shows that causal closure does not straightforwardly rule out all forms of downward causation."

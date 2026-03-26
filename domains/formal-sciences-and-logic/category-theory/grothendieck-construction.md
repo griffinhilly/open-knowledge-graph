@@ -60,7 +60,7 @@ Start with a functor F: C → Set for a small category C (e.g., a presheaf on a 
   answer: 1
   explanation: "In the Set-valued case, each fiber F(c) is a discrete category — its objects are set elements and the only morphisms are identities. So the φ component in the general construction is forced to be an identity: φ = id_{x'}. A morphism (c, x) → (c', x') is just an arrow f: c → c' in C satisfying F(f)(x) = x'. There is no additional data because there are no non-identity morphisms within any fiber. This is the simplest case and a good starting point for building intuition about the general construction."
 
-- question: "The total category ∫F of the Grothendieck construction is simply the disjoint union of all the fiber categories F(b) — its morphisms only go between objects in the same fiber."
+- question: "The total category ∫F of the Grothendieck construction is simply the disjoint union of most of the fiber categories F(b) — its morphisms primarily go between objects in the same fiber."
   type: true-false
   answer: false
   explanation: "This is the most important misconception to avoid. The total category ∫F has morphisms between DIFFERENT fibers: a morphism (b, x) → (b', x') for b ≠ b' consists of a base morphism f: b → b' and a fiber morphism φ: F(f)(x) → x' in F(b'). These cross-fiber morphisms are precisely what encodes the functorial action of F — they connect the fibers in a coherent way. If ∫F were just a disjoint union, it would forget all the information about how F acts on morphisms in B, which is the essential structure. The whole point of the construction is to ASSEMBLE the fibers into a single category with connecting morphisms."

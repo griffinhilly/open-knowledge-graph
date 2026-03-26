@@ -63,7 +63,7 @@ Evaluate expressions step by step, showing only one operation per step. Use colo
   answer: true
   explanation: "Parentheses override the default priority order. Without parentheses, 2 + 3 × 4 = 14 (multiply first). With parentheses, (2 + 3) × 4 = 20 (add first). The parentheses force the addition to happen before the multiplication, producing a different result. This is precisely their purpose: communicating which operation should happen first."
 
-- question: "In PEMDAS, multiplication always comes before division because M appears before D in the acronym."
+- question: "In PEMDAS, multiplication typically comes before division because M appears before D in the acronym."
   type: true-false
   answer: false
   explanation: "This is one of the most common misconceptions about order of operations. M and D represent a single priority level, not two separate ones. When an expression contains both multiplication and division (with no parentheses separating them), you evaluate left to right — whichever appears first gets done first. The acronym groups them together for a reason: MD is one level, AS is one level."

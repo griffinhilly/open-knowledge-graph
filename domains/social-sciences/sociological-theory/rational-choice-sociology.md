@@ -55,7 +55,7 @@ Rational choice theorists don't claim everyone is coldly calculating—preferenc
   answer: 2
   explanation: "RCT models the decision as expected value calculation: probability of getting caught × penalty - value of item. When detection risk is essentially zero, this calculation predicts the rational agent should steal. The fact that most people don't reveals RCT's limits: people have internalized identities as 'someone who doesn't steal' that operate prior to any calculation. Options A, B, and D all point toward these limits — the social origins of preferences and the role of norms, identity, and culture. Option C is what RCT would predict, which is precisely why this scenario exposes where the model breaks down."
 
-- question: "Rational choice theorists claim that people consciously calculate costs and benefits before every social action, including whether to reciprocate a favor or follow a social norm."
+- question: "Rational choice theorists claim that people consciously calculate costs and benefits before nearly every social action, including whether to reciprocate a favor or follow a social norm."
   type: true-false
   answer: false
   explanation: "This is a common misreading. RCT models the structure of incentives in a situation — what behavior the model predicts if agents act on narrow self-interest — but sophisticated rational choice theorists do not claim that all social action involves explicit conscious deliberation. Preferences can reflect culture, emotion, and social values; the model abstracts from the psychological process. The claim is analytic ('we can model behavior as if utility-maximizing') not psychological ('people are always consciously calculating')."

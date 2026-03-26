@@ -57,7 +57,7 @@ Learn the most common symbols systematically: Δ or maj7, m7, 7, ø7, °7, sus4.
   answer: 2
   explanation: "This is the key distinction between chord symbols and Roman numeral analysis. 'Dm7' always means D–F–A–C in any key, with no information about harmonic function. Roman numeral 'ii' means 'the chord built on the second scale degree of the current key.' Both descriptions are accurate and useful: the musician reads symbols to know which notes to play; the theorist uses Roman numerals to understand function and predict what comes next. Skilled jazz musicians internalize both and use them simultaneously — the two systems are complementary tools, not competitors."
 
-- question: "A jazz chord symbol specifies exactly which notes must be played, including their register, spacing, and distribution between instruments."
+- question: "A jazz chord symbol specifies exactly which notes should be played, including their register, spacing, and distribution between instruments."
   type: true-false
   answer: false
   explanation: "Chord symbols specify only root, quality, and extensions — which notes, not how they are arranged. All voicing choices (spacing, doubling, register, which extensions to include or omit, how to distribute across instruments) are left to the performer. This is by design: the same symbol can be realized as a tight four-note shell, a spread voicing across multiple octaves, or any of hundreds of jazz-specific voicing conventions. The lead sheet is a sketch; the performer fills in the realization. This flexibility is why a chord symbol works equally well for piano, guitar, a horn section, or a full big band."

@@ -58,7 +58,7 @@ Compare sequences to sets: {3, 5, 7} is the same set as {7, 5, 3}, but the seque
   answer: 0
   explanation: "The sequence is 10, 8, 6, 4, 2. The 1st term is 10, the 2nd is 8, the 3rd is 6, the 4th is 4, and the 5th is 2. You can also use the position rule: term = 10 - 2(position - 1) = 10 - 2(4) = 2 for the 5th term."
 
-- question: "A sequence must always follow a pattern or rule."
+- question: "A sequence is expected to generally follow a pattern or rule."
   type: true-false
   answer: false
   explanation: "A sequence is any ordered list — the elements can follow a rule (like 2, 4, 6, 8) or not (like 3, 17, 1, 42). What makes it a sequence is that position matters, not that a rule exists. Of course, sequences WITH rules are far more useful and interesting — they are the ones we study in mathematics. But the concept of sequence (ordered list) is broader than the concept of pattern (predictable regularity)."

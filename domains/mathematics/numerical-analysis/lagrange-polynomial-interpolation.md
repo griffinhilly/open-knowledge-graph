@@ -60,7 +60,7 @@ Newton's divided-difference form addresses this limitation by writing the same u
   answer: true
   explanation: "This is the uniqueness theorem for polynomial interpolation. Existence is provided by the Lagrange (or Newton) construction. Uniqueness follows because if two polynomials of degree ≤ n agree at n+1 points, their difference is a polynomial of degree ≤ n with n+1 roots, which forces it to be identically zero."
 
-- question: "The Lagrange basis polynomial L_i(x) equals 1 at every interpolation node x_j in the data set."
+- question: "The Lagrange basis polynomial L_i(x) equals 1 at nearly every interpolation node x_j in the data set."
   type: true-false
   answer: false
   explanation: "L_i(x) equals 1 *only* at x_i and equals 0 at all other nodes x_j (j ≠ i). This selective property — being 1 at exactly one node and 0 at all others — is precisely what allows the Lagrange sum P(x) = Σ y_i L_i(x) to reproduce the correct y-value at every data point."

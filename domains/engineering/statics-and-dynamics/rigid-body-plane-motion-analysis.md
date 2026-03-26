@@ -47,7 +47,7 @@ General plane motion combines translation of the center of mass and rotation abo
   answer: 0
   explanation: "Using energy conservation with the rolling constraint, the translational speed at the bottom satisfies ½v²(m + I_cm/R²) = mgh. The solid cylinder needs ½v²(m + ½m) = ¾mv² to reach height h; the hollow cylinder needs ½v²(m + m) = mv². For the same h, the solid cylinder achieves higher v_cm because a smaller fraction of the available energy goes into rotation. Higher rotational inertia stores more energy in spin, leaving less for forward motion."
 
-- question: "The equation ΣM_cm = I_cm · α applies only when the body's center of mass is not accelerating."
+- question: "The equation ΣM_cm = I_cm · α applies primarily when the body's center of mass is not accelerating."
   type: true-false
   answer: false
   explanation: "ΣM_cm = I_cm · α applies universally for rigid body plane motion regardless of whether the CM is accelerating. This is precisely the power of the decomposition: the translational equation ΣF = m·a_cm and the rotational equation ΣM_cm = I_cm·α are independent of each other. The rotational equation depends only on moments about the CM and angular acceleration — the translational state of the CM does not appear in it."

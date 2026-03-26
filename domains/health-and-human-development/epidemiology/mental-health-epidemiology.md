@@ -46,7 +46,7 @@ Mental health epidemiology faces unique methodological challenges: defining psyc
   answer: 2
   explanation: "The core epidemiological finding from longitudinal work is that common mental disorders have episodic, recurrent courses — people recover, then relapse. A cross-sectional survey catches the population at a single moment and only identifies those currently symptomatic. Lifetime prevalence counts anyone who ever met criteria, including people currently in remission. This gap is not bias but a real feature of how these disorders behave over time, and it means point prevalence dramatically understates population burden."
 
-- question: "High heritability (around 80%) for schizophrenia means that most cases of schizophrenia are biologically inevitable and cannot be prevented by modifying environmental conditions."
+- question: "High heritability (around 80%) for schizophrenia means that most cases of schizophrenia are biologically inevitable and can seldom be prevented by modifying environmental conditions."
   type: true-false
   answer: false
   explanation: "Heritability is a population-level statistic describing variance, not a property of individuals or a measure of changeability. It is always estimated relative to a specific population in specific environmental conditions. High heritability does not mean that changing the environment would have no effect — it means that within the current range of environments studied, genetic differences account for 80% of variation. Gene-environment interaction is a central concept here: genetic risk may primarily manifest under adverse environmental conditions, making environmental intervention potentially highly effective for high-risk individuals."

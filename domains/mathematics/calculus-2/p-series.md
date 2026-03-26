@@ -62,7 +62,7 @@ Prove convergence/divergence using the integral test (integral of 1/x^p). Study 
   answer: true
   explanation: "True. With p = 2 > 1, the p-series test confirms convergence. The exact sum is π²/6 ≈ 1.645, a famous result known as the Basel problem solved by Euler. This is a concrete illustration that p > 1 produces a genuine finite limit."
 
-- question: "If the terms of an infinite series approach zero, the series must converge."
+- question: "If the terms of an infinite series approach zero, the series is expected to converge."
   type: true-false
   answer: false
   explanation: "False — this is the central misconception the p-series highlights. The harmonic series ∑ 1/n has terms 1/n → 0, yet it diverges. Terms going to zero is necessary for convergence (the divergence test says: if terms don't go to zero, the series definitely diverges), but it is not sufficient. The rate of decay matters — 1/n decays too slowly."

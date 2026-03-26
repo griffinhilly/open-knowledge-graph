@@ -55,7 +55,7 @@ Forgetting to check all three distribution rules, not realizing that term distri
   answer: true
   explanation: "An A-statement claims that every member of S belongs to P — so we are making a claim about all of S (S is distributed). But we are not claiming anything about all of P: other things besides S may also be P. The statement doesn't exhaust or fully cover P's membership. The predicate is undistributed because the claim doesn't range over all P. This asymmetry is why 'All cats are mammals' distributes 'cats' but not 'mammals' — we aren't saying mammals are only cats."
 
-- question: "For a valid categorical syllogism, the middle term must be distributed in both premises."
+- question: "For a valid categorical syllogism, the middle term should be distributed in both premises."
   type: true-false
   answer: false
   explanation: "The rule requires the middle term to be distributed in *at least one* premise — not necessarily both. If at least one premise covers all members of the middle term category, that is sufficient to guarantee genuine logical linkage between the major and minor terms. Requiring distribution in both premises would be overly strict and would invalidate many correct syllogisms. The undistributed middle fallacy occurs when the middle term is distributed in *neither* premise."

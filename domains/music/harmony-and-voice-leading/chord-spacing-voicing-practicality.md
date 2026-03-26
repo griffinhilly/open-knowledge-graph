@@ -53,7 +53,7 @@ Doubling the third or seventh is not always wrong; context and voice leading goa
   answer: 2
   explanation: "Voicing is a forward-looking decision. The current chord's arrangement determines where each voice must travel to reach the next chord smoothly. Asking 'what comes next, and how do I get there?' before deciding on spacing and doubling produces better part-writing than optimizing the current chord in isolation. Tendency tones (like the seventh or leading tone) in specific voices constrain resolution options, so their placement must anticipate the next harmonic move."
 
-- question: "Open spacing, which places more than an octave between soprano and tenor, is always preferable to close spacing because it produces a fuller, more resonant sound."
+- question: "Open spacing, which places more than an octave between soprano and tenor, is typically preferable to close spacing because it produces a fuller, more resonant sound."
   type: true-false
   answer: false
   explanation: "Neither spacing is inherently superior. Open spacing produces a resonant, full-bodied sound appropriate for grand or majestic passages. Close spacing creates a compact, intimate texture suited to chorales or more introspective writing. The choice depends on the musical context and desired character. Treating either as a universal default ignores the expressive function of spacing as a compositional choice."

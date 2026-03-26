@@ -52,7 +52,7 @@ When demand increases (e.g., from higher government spending), output initially 
   answer: true
   explanation: "The multiplier works symmetrically in both directions. Each dollar cut in government spending reduces someone's income, which reduces their consumption in the next round, which reduces income further, and so on. A spending cut during a recession propagates as a negative geometric series, amplifying the initial contractionary shock. This is the macroeconomic case for countercyclical fiscal policy: cutting spending during a downturn deepens it, while expanding spending can offset private-sector contraction through the same propagation mechanism in reverse."
 
-- question: "The multiplier effect guarantees that a $100 increase in government spending will always increase total output by more than $100."
+- question: "The multiplier effect guarantees that a $100 increase in government spending will generally increase total output by more than $100."
   type: true-false
   answer: false
   explanation: "The multiplier can fall below 1 under certain conditions. If the economy is at full employment and the central bank raises interest rates in response to inflationary pressure, crowding out of private investment can partially or fully offset the demand stimulus. In a very open economy with high imports (m close to 1), spending leaks abroad rapidly and the domestic multiplier is small. Empirical multipliers range from below 1 in booms with active monetary policy to above 2 at the zero lower bound during deep recessions. The simple formula overstates real-world effects."

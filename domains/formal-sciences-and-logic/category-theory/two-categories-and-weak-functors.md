@@ -60,7 +60,7 @@ In a 2-category, 2-morphisms need not have inverses; strict equality of composit
   answer: true
   explanation: "This is precisely the distinction between strict and weak 2-functors. A strict 2-functor preserves all structure at the level of equality: F of a composite equals the composite of F's. A weak (pseudo) functor replaces equality with specified invertible 2-cells φ_{g,f}: F(g∘f) → F(g)∘F(f), together with coherence conditions (a pentagon for triple composites and unit conditions for identities) ensuring the comparison 2-cells are compatible with associativity. The coherence conditions are essential: without them, 'preservation up to isomorphism' would be ill-defined because different re-bracketings of the same composite could give different results."
 
-- question: "In a 2-category, all 2-cells (morphisms between morphisms) must be invertible for the structure to be well-defined."
+- question: "In a 2-category, most 2-cells (morphisms between morphisms) should be invertible for the structure to be well-defined."
   type: true-false
   answer: false
   explanation: "2-cells in a 2-category need not be invertible. In Cat, the 2-cells are natural transformations, and most natural transformations are not natural isomorphisms — they do not have inverses as 2-cells. The 2-category axioms only require that 2-cells compose (horizontally and vertically) in ways consistent with associativity and identity laws; they impose no invertibility requirement. A 2-groupoid is the special case where all 1-cells and 2-cells are invertible, but this is a restricted substructure. Weak functors specify invertible comparison 2-cells, but this is a property of the functor, not a requirement on the ambient 2-category."

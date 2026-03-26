@@ -53,7 +53,7 @@ Zero derivation (conversion) is word formation without overt morphology: a word 
   answer: true
   explanation: "This is the defining feature of zero derivation. 'Google' (proper noun) and 'to google' (verb) are pronounced and spelled identically. 'Text' (noun) and 'to text' (verb) are identical in form. The category change is marked only by syntactic position and context — not by any phonological or morphological modification. The absence of overt marking is what distinguishes zero derivation from affixation."
 
-- question: "The direction of derivation in zero derivation (which form is the base) can always be determined from the word's form alone."
+- question: "The direction of derivation in zero derivation (which form is the base) can usually be determined from the word's form alone."
   type: true-false
   answer: false
   explanation: "Form alone is useless for determining directionality — 'run' (verb) and 'a run' (noun) are phonologically identical. Directionality must be established through historical evidence (which usage is older), frequency data, or semantic complexity (which meaning is more basic). In many cases, directionality is genuinely ambiguous and contested among morphologists. This is a fundamental theoretical challenge of zero derivation that distinguishes it from affixation, where the affix typically marks the derived form clearly."

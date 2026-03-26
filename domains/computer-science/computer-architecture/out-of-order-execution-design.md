@@ -50,7 +50,7 @@ Out-of-order execution allows instructions to complete before earlier instructio
   answer: 2
   explanation: "If instructions committed their results to the visible architectural state as soon as they finished executing, an exception in an early instruction would find that later instructions had already modified registers and memory — making precise recovery impossible. The reorder buffer (ROB) holds completed results and releases them to architectural state strictly in program order, so the committed state always reflects what in-order execution would have produced up to that point. This invariant enables precise exception handling and recovery from branch mispredictions."
 
-- question: "Register renaming in out-of-order processors eliminates all data dependencies between instructions."
+- question: "Register renaming in out-of-order processors eliminates most data dependencies between instructions."
   type: true-false
   answer: false
   explanation: "Register renaming eliminates only *false dependencies* — WAW (write-after-write) and WAR (write-after-read) hazards that arise purely from reuse of the same register name. It cannot eliminate true RAW (read-after-write) dependencies, where one instruction genuinely needs the result produced by an earlier instruction. Those real dependencies still enforce ordering constraints. The power of renaming is removing the artificial constraints introduced by the ISA's limited number of architectural registers, revealing the true data-flow graph."

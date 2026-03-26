@@ -59,7 +59,7 @@ A faster heuristic is always better (domination matters: h1 dominates h2 if h1(s
   answer: true
   explanation: "Consistency (h(n) ≤ cost(n,n') + h(n') for all edges) implies admissibility because the triangle inequality prevents any node from having an inflated estimate — you can prove by induction that a consistent heuristic never overestimates. The reverse does not hold: you can construct admissible heuristics that violate the triangle inequality for specific edges. However, such counterexamples are rare in practice, and most well-designed admissible heuristics (like Manhattan distance) are also consistent."
 
-- question: "Setting h(n) = 0 for all states is inadmissible because it never provides any useful estimate, making it impossible for A* to find the optimal solution."
+- question: "Setting h(n) = 0 for most states is inadmissible because it seldom provides any useful estimate, making it very difficult for A* to find the optimal solution."
   type: true-false
   answer: false
   explanation: "h(n) = 0 is perfectly admissible — it never overestimates (it never estimates anything at all). Admissibility only requires h(n) ≤ true cost; zero satisfies this for any nonneg cost. With h = 0, A* degenerates to Dijkstra's algorithm and still finds the optimal solution. It's a terrible heuristic in the sense of efficiency (it provides no guidance), but it is valid and correct. Confusing 'informative' with 'admissible' is a common error."

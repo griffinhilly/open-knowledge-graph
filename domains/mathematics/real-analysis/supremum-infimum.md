@@ -57,7 +57,7 @@ The completeness axiom — every nonempty bounded-above subset of ℝ has a supr
   answer: 2
   explanation: "The open half-line {x ∈ ℝ : x < 2} has supremum 2 (the smallest upper bound) but no maximum, since 2 is not in the set and for any x in S there exists a larger element still in S. Option A has maximum 5 = supremum 5 (maximum exists). Option B has maximum 2 = supremum 2 (2 ∈ S, so maximum exists). Option D is unbounded above, so it has no supremum at all. Option C is the paradigmatic example of a bounded set with a supremum but no maximum."
 
-- question: "The supremum of a set S is always a member of S."
+- question: "The supremum of a set S is typically a member of S."
   type: true-false
   answer: false
   explanation: "The supremum (least upper bound) may or may not belong to S. If the supremum is in S, it equals the maximum. But sets can have a supremum without a maximum — for example, the open interval (0, 1) has supremum 1, but 1 is not in the interval. A maximum is an element of the set that is at least as large as all other elements; a supremum is the greatest lower bound on upper bounds and need not be an element. Confusing the two is one of the most common early errors in real analysis."

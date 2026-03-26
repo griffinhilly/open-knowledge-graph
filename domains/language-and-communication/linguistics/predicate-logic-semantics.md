@@ -57,7 +57,7 @@ Translate English sentences into predicate logic, focusing on quantifier scope. 
   answer: true
   explanation: "Reading 1 (∀ wide scope): ∀x(student(x) → ∃y(book(y) ∧ read(x,y))) — each student read some (possibly different) book. Reading 2 (∃ wide scope): ∃y(book(y) ∧ ∀x(student(x) → read(x,y))) — there is one specific book that every student read. The English surface form is identical for both readings. Predicate logic makes the ambiguity precise by requiring an explicit choice of scope, which is exactly its contribution to linguistic semantics."
 
-- question: "The logical form of a sentence in predicate logic always directly mirrors the word order of the original English sentence."
+- question: "The logical form of a sentence in predicate logic typically directly mirrors the word order of the original English sentence."
   type: true-false
   answer: false
   explanation: "Natural language surface order and logical form routinely diverge. English often places quantifiers, negations, and modifiers in positions that do not directly correspond to their logical scope. For example, 'A book was read by every student' has the same two logical forms as 'Every student read a book' — the English word order changes but the underlying ambiguity is identical. Predicate logic reveals structure hidden beneath the surface, which is precisely why it is useful for semantics."

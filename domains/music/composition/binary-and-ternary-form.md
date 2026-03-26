@@ -62,7 +62,7 @@ Analyze Baroque sarabandes and minuets (binary) alongside Classical minuets with
   answer: 2
   explanation: "At the largest scale, minuet–trio–minuet is ABA ternary: the trio is a contrasting middle section, and the da capo return of the full minuet is a complete, independent structural section. Each section (minuet and trio) may itself be in binary form internally, but the movement-level architecture is ternary. This is one of the most common real-world examples of ternary form in the repertoire."
 
-- question: "In binary form, the first section always ends with an authentic cadence in the tonic key before the second section begins."
+- question: "In binary form, the first section usually ends with an authentic cadence in the tonic key before the second section begins."
   type: true-false
   answer: false
   explanation: "In binary form, the first section typically ends with a cadence in a related key — in major, usually the dominant; in minor, often the relative major. This harmonic departure creates the tension that drives the second section's return to tonic. Ending A in the tonic would eliminate the harmonic energy that gives binary form its forward momentum. The tonic return closes the whole piece, not just the A section."

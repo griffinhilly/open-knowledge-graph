@@ -53,7 +53,7 @@ A planet's volatile inventory (water, CO₂, N₂, etc.) is set by its initial c
   answer: true
   explanation: "In thermal escape, molecules in the upper atmosphere escape if their random thermal velocity exceeds the planet's escape velocity. Since kinetic energy is ½mv², at the same temperature (same energy), lighter molecules move faster. Hydrogen (mass 2) and helium (mass 4) have much higher thermal velocities than CO₂ (mass 44) at the same temperature, so they are far more likely to escape. This is why bodies with weak gravity and warm temperatures (Moon, Mercury, Mars for lighter gases) tend to lose their hydrogen and helium first while retaining heavier species."
 
-- question: "Volcanic outgassing replenishes planetary atmospheres at a roughly constant rate throughout a planet's history, so the total volatile inventory a planet can accumulate depends only on its size and bulk composition."
+- question: "Volcanic outgassing replenishes planetary atmospheres at a roughly constant rate throughout a planet's history, so the total volatile inventory a planet can accumulate depends primarily on its size and bulk composition."
   type: true-false
   answer: false
   explanation: "Outgassing rates are not constant — they decline over time as radioactive heating decreases and the mantle cools and depletes its volatile reservoirs. Early in a planet's history, when radioactive decay of U, Th, and K is strongest, the mantle is hottest and most volcanically active, producing the highest outgassing rates. As the planet ages and cools, volcanism wanes and outgassing slows. Mars's outgassing has essentially stopped at present. This declining source function means that atmospheric evolution is fundamentally time-dependent, not just a function of size."

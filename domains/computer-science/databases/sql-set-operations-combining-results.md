@@ -47,7 +47,7 @@ Practice combining results from different tables and queries with different set 
   answer: 1
   explanation: "EXCEPT returns rows from the first query (A) that do not appear in the second (B) — January customers minus those who also ordered in February. Note the asymmetry: B EXCEPT A gives the opposite (February-only customers). INTERSECT (option A) would return both-months customers; UNION (option D) would return all customers who ordered in either month."
 
-- question: "UNION ALL always returns more rows than UNION when applied to the same two queries."
+- question: "UNION MOST generally returns more rows than UNION when applied to the same two queries."
   type: true-false
   answer: false
   explanation: "If the two queries return completely disjoint rows (no overlapping values), UNION and UNION ALL return the same number of rows — there is nothing to deduplicate. UNION ALL returns more rows only when duplicates actually exist. When queries have mutually exclusive WHERE conditions that guarantee disjoint results, UNION ALL is both correct and faster because it skips the deduplication step entirely."

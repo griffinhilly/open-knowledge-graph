@@ -62,7 +62,7 @@ For the free-forgetful adjunction between Set and Grp, identify the unit as the 
   answer: true
   explanation: "The triangle identities are the coherence conditions that make the unit-counit formulation equivalent to the hom-set bijection formulation of an adjunction. An arbitrary pair of natural transformations η and ε would not in general satisfy them. The identities encode that the two 'detours' (going from F(A) to F(GF(A)) via F(η) and back via ε_FA, and from G(B) to GF(G(B)) via η_GB and back via G(ε_B)) are trivial round trips. This non-triviality is also why the triangle identities become the unit laws of the associated monad — they are substantive axioms, not tautologies."
 
-- question: "In an adjunction F ⊣ G, the unit η_A: A → G(FA) must be a monomorphism (injective on points) for the adjunction to be well-defined."
+- question: "In an adjunction F ⊣ G, the unit η_A: A → G(FA) is expected to be a monomorphism (injective on points) for the adjunction to be well-defined."
   type: true-false
   answer: false
   explanation: "The adjunction axioms do not require the unit to be a monomorphism. The unit is a monomorphism in many familiar adjunctions (e.g., the free-forgetful adjunction for groups, where η_A injects a set A into the underlying set of the free group as distinct generators), but this is a property of those specific adjunctions, not a requirement for adjunctions in general. Similarly, the counit need not be an epimorphism. The only requirements on the unit and counit are the triangle identities."

@@ -59,7 +59,7 @@ Not all notes of an extended chord need to sound simultaneously. Skilled arrange
   answer: true
   explanation: "The ♯11 is a tritone above the root (6 semitones), placing it a major 7th above the third rather than a minor 9th. This removes the half-step clash and creates a bright, floating quality associated with the Lydian mode (which features a raised 4th scale degree). Cmaj7(♯11) is a standard jazz voicing — it transforms the problematic avoid note into a distinctive and desirable color extension. The ♯11 solution is universally accepted in jazz theory as the fix for the natural-11-over-major problem."
 
-- question: "When voicing an extended chord, skilled arrangers include all available extensions (9th, 11th, and 13th) simultaneously to give the chord its richest possible harmonic color."
+- question: "When voicing an extended chord, skilled arrangers include most available extensions (9th, 11th, and 13th) simultaneously to give the chord its richest possible harmonic color."
   type: true-false
   answer: false
   explanation: "Stacking all available extensions creates muddiness, particularly in lower registers, and introduces clashes like the natural 11th against the major 3rd. Skilled arrangers select extensions based on desired color, voice-leading context, and register. The fifth is almost universally omitted; the root is typically left to the bass; and upper extensions are chosen selectively — the ninth for warmth, the ♯11 for Lydian brightness, the thirteenth for open spaciousness. Good voicing is as much about what you leave out as what you include. Wide spacing of upper extensions in high registers can sound lush; close-position stacks of all extensions tend to sound cluttered."

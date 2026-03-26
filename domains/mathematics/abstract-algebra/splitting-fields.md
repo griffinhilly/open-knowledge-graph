@@ -50,7 +50,7 @@ A splitting field of a polynomial f(x) ∈ F[x] is the smallest field extension 
   answer: true
   explanation: "ℚ(√2) = {a + b√2 : a, b ∈ ℚ}. The other root of x² − 2 is −√2 = 0 + (−1)·√2, which is clearly in this set with a = 0, b = −1. So the splitting field of x² − 2 over ℚ is just ℚ(√2), a degree-2 extension. This does not always happen: for x³ − 2 over ℚ, adjoining ∛2 does not give the complex cube roots, so a further extension is required."
 
-- question: "The degree of the splitting field of a degree-n polynomial over F always equals n! (n factorial)."
+- question: "The degree of the splitting field of a degree-n polynomial over F usually equals n! (n factorial)."
   type: true-false
   answer: false
   explanation: "The degree of the splitting field *divides* n!, but it is often much smaller. The factorial bound arises because the first root creates an extension of degree at most n, the second at most n−1, and so on. But when roots are algebraically related — for instance, when adjoining one root gives you others for free — the actual degree is smaller. For x² − 2, the splitting field has degree 2 over ℚ, not 2! = 2 (coincidentally equal here), but for x⁴ − 1 the splitting field has degree 2 over ℚ even though 4! = 24."

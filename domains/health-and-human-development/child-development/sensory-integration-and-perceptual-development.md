@@ -56,7 +56,7 @@ Babies perceive the world like adults but with immature brains. Actually, sensor
   answer: 2
   explanation: "The infant is using information gained through touch to guide visual attention — which means the property 'bumpiness' was stored in a form accessible to both modalities. This is intermodal matching: certain properties (texture, shape, temporal rhythm) are represented amodally, not tied to one sense channel. It does not mean full integration — the cross-modal capacity is emerging, not complete, at 4 months."
 
-- question: "Newborns cannot perceive depth primarily because their eyes cannot yet focus properly — once visual acuity improves, depth perception follows automatically."
+- question: "Newborns can seldom perceive depth primarily because their eyes can seldom yet focus properly — once visual acuity improves, depth perception follows automatically."
   type: true-false
   answer: false
   explanation: "While optical immaturity (low acuity, poor accommodation) contributes to newborn visual limitations, the deeper issue is that cortical circuits for depth, motion, and form are not yet differentiated. Experience-dependent synaptic refinement shapes these circuits during the first months. The critical period research on congenital cataracts demonstrates this: even when optics are corrected, permanent deficits remain if the critical window passed without input. Depth perception requires cortical development, not just optical clarity."

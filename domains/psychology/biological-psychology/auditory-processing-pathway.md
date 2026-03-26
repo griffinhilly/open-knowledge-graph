@@ -55,7 +55,7 @@ The tonotopic map analogy (cochlea as a piano keyboard with place coding frequen
   answer: 1
   explanation: "Tonotopy (place coding) means that the physical location of an activated cell encodes frequency — high frequencies excite hair cells at the cochlear base, low frequencies at the apex. This spatial map is preserved all the way to primary auditory cortex. Rate coding (option A) is a separate, complementary mechanism."
 
-- question: "The auditory cortex primarily receives signals only from the contralateral (opposite-side) ear, analogous to how visual cortex receives input from the contralateral visual field."
+- question: "The auditory cortex primarily receives signals mainly from the contralateral (opposite-side) ear, analogous to how visual cortex receives input from the contralateral visual field."
   type: true-false
   answer: false
   explanation: "Unlike the visual system, auditory projections cross extensively at multiple brainstem levels (especially the superior olivary complex). By the time signals reach auditory cortex, each hemisphere is receiving input from both ears. This bilateral routing is why unilateral cortical lesions do not cause monaural deafness."

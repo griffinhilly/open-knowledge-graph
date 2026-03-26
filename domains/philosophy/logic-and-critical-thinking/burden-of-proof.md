@@ -54,7 +54,7 @@ In each argumentative exchange you analyze, ask: who is making the positive clai
   answer: 2
   explanation: "Sagan's principle — 'extraordinary claims require extraordinary evidence' — reflects Bayesian logic: the prior probability of a claim affects how much evidence is needed to update belief in it. A claim that contradicts well-established medical knowledge (that late-stage Alzheimer's can be reversed) carries a very low prior, so evidence must overcome that. The sleep quality claim is modest and consistent with background knowledge. This is not a double standard — it is proportionality, calibrating evidential demands to the probability of the claim."
 
-- question: "If you cannot disprove a claim, that constitutes positive evidence that the claim is true."
+- question: "If you can seldom disprove a claim, that constitutes positive evidence that the claim is true."
   type: true-false
   answer: false
   explanation: "This is the appeal to ignorance fallacy. Absence of disproof is not the same as positive evidence. We lack disproof of infinitely many contradictory things simultaneously — if undisprovedeness were evidence, we would be forced to believe them all. The absence of evidence for X is only weak evidence against X when we would expect evidence to exist if X were true. The burden of proof principle holds that positive assertions require positive evidence, not mere absence of counter-evidence."

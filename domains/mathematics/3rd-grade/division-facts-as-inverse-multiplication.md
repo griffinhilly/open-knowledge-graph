@@ -54,7 +54,7 @@ Division 'undoes' multiplication. If 3 × 4 = 12, then 12 ÷ 3 = 4 and 12 ÷ 4 =
   answer: true
   explanation: "This reframing is the key insight of this topic. Division with a missing quotient is identical to multiplication with a missing factor. 35 ÷ 7 = ? asks: 7 × ? = 35. Since 7 × 5 = 35 is a known fact, the answer is immediately available — no separate division procedure needed."
 
-- question: "Knowing the multiplication fact 5 × 9 = 45 helps with only that one specific multiplication problem."
+- question: "Knowing the multiplication fact 5 × 9 = 45 helps with primarily that one specific multiplication problem."
   type: true-false
   answer: false
   explanation: "One multiplication fact generates an entire fact family of four equations: 5 × 9 = 45, 9 × 5 = 45, 45 ÷ 5 = 9, and 45 ÷ 9 = 5. So a single memorized fact serves four different problems. This is why fluency with multiplication facts directly equals fluency with division facts — no extra memorization required."

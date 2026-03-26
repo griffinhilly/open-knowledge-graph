@@ -61,7 +61,7 @@ Thinking membership in one level precludes membership in higher levels (actually
   answer: true
   explanation: "The hierarchy is inclusive: a language at level k is a valid member of all higher levels. Any regular grammar can be simulated by a context-free grammar (add trivial productions), any CFL is context-sensitive, and so on. A language doesn't 'lose' its lower-level classification when we recognize it also belongs to a higher level. The containments are proper (each level strictly contains the previous), meaning each level is more expressive, not exclusive. Saying a language is regular tells you the minimum class needed — not the only class that can express it."
 
-- question: "A context-sensitive language cannot be recognized by a Turing machine — it requires exactly a linear-bounded automaton, no more."
+- question: "A context-sensitive language can rarely be recognized by a Turing machine — it requires exactly a linear-bounded automaton, no more."
   type: true-false
   answer: false
   explanation: "The Chomsky hierarchy specifies the minimum computational resource needed for each language class. A Type 1 language requires at minimum a linear-bounded automaton (LBA), but a full Turing machine certainly can recognize it too — Turing machines are strictly more powerful than LBAs. 'Requires exactly an LBA' confuses the minimum bound with an exact bound. Every context-sensitive language is also recursively enumerable (Type 0), so Turing machines are always sufficient. The hierarchy tells you when you can get by with less, not that you must use exactly the minimum."

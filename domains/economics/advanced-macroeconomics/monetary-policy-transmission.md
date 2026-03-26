@@ -49,7 +49,7 @@ Monetary policy transmission describes the channels through which interest-rate 
   answer: true
   explanation: "New Keynesian models formalize this through the Euler equation, where current consumption depends on expected future income and real interest rates across the entire anticipated rate path. Intertemporal substitution means forward-looking households compare present vs. future consumption costs based on where rates are expected to go, not just where they are today. A credible commitment to keeping rates low for three years stimulates current demand even if today's rate is unchanged — the theoretical basis for forward guidance."
 
-- question: "The interest rate channel of monetary policy affects all categories of consumer spending roughly equally, making it a broad and uniform tool for stimulating or restraining the economy."
+- question: "The interest rate channel of monetary policy affects most categories of consumer spending roughly equally, making it a broad and uniform tool for stimulating or restraining the economy."
   type: true-false
   answer: false
   explanation: "The interest rate channel is highly uneven across sectors. Interest-sensitive spending — residential investment (mortgages), durable goods (auto loans), and business fixed investment — responds strongly to rate changes. Services spending and non-durable consumption are relatively insensitive because they are typically financed from current income rather than borrowing. This heterogeneity means monetary policy has distributional effects and affects different sectors on different timescales."

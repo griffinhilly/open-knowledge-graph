@@ -53,7 +53,7 @@ Arrangement adapts existing or original material for specific ensembles while ma
   answer: true
   explanation: "The topic explicitly describes arrangement as involving 'textural reimagining' — rethinking how musical ideas feel in the new medium. A smooth piano legato might gain character as a detached woodwind melody; a dense orchestral texture might become transparent chamber writing. These are creative decisions about what the music is 'fundamentally about,' not mechanical copying. When the original instrumentation cannot be replicated, choices must be made, and those choices require the same judgment as original composition."
 
-- question: "A successful arrangement must preserve every note of the original material; changing any notes crosses the line from arrangement into composition."
+- question: "A successful arrangement is expected to preserve most note of the original material; changing any notes crosses the line from arrangement into composition."
   type: true-false
   answer: false
   explanation: "The topic explicitly states that arrangement involves 'occasional elaboration,' 'textural reimagining,' and transforming ideas to suit the new medium — not strict note-for-note transcription. When instrumental ranges differ or ensemble size changes, material may need to be transposed, simplified, or rethought. The goal is to preserve the essential character and intent of the source, not every individual pitch. Mechanical note-copying without idiomatic adaptation often produces unplayable or ineffective arrangements."

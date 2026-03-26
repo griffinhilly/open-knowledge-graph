@@ -53,7 +53,7 @@ Charcoal's soft, powdery nature smudges naturally. Blending with fingers, stumps
   answer: true
   explanation: "A finger is warm and slightly oily, which pushes charcoal deeper into the paper's tooth and darkens the area more. A tortillon (tightly wound paper stump) blends without adding moisture or oils, keeping charcoal more liftable and working precisely in smaller areas. The choice of tool directly affects how the charcoal particles redistribute — knowing these differences lets an artist select the right tool for each part of a drawing."
 
-- question: "Because charcoal dust can cover large areas quickly, it is most effective as a final unifying step applied after all direct charcoal marks and blending are complete."
+- question: "Because charcoal dust can cover large areas quickly, it is most effective as a final unifying step applied after most direct charcoal marks and blending are complete."
   type: true-false
   answer: false
   explanation: "This is the central mistake to avoid. Applying dust last — after darks and fine marks have been established — blends everything together and reduces the contrast you worked to build. Charcoal dust is most effective early in the drawing process, as a fast way to lay down the overall value structure and atmospheric ground. Direct mark-making and dark accents come on top of that foundation, not before it."

@@ -61,7 +61,7 @@ Internal validity means the study is well-designed overall (actually, it specifi
   answer: true
   explanation: "This is a fundamental and often-overlooked distinction. Internal validity asks: was the causal inference within this study justified? External validity asks: do these findings generalize to other people, settings, and times? Highly controlled laboratory experiments often maximize internal validity by eliminating confounds, but the artificial conditions — screened participants, controlled environments, experimenter observation — reduce how well the findings transfer to messy real-world contexts."
 
-- question: "Random assignment to conditions eliminates all threats to internal validity in an experiment."
+- question: "Random assignment to conditions eliminates most threats to internal validity in an experiment."
   type: true-false
   answer: false
   explanation: "Random assignment is the most powerful tool for addressing selection bias — it distributes known and unknown individual differences equally across conditions at baseline. But it does not eliminate every threat. History (an external event affecting both groups differently), testing effects (sensitization from the pretest), and instrumentation (changes in measurement procedures between assessments) can still operate even with random assignment. Each threat requires its own design solution."

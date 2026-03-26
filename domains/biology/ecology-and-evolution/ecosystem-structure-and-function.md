@@ -43,7 +43,7 @@ Ecosystems are not just collections of organisms but require both living and non
   answer: 1
   explanation: "Without decomposers, nutrients like nitrogen and phosphorus would remain locked in dead organic matter indefinitely. Producers (plants, algae) can only absorb inorganic nutrient forms, so if decomposers stopped working, primary production would quickly halt from nutrient starvation, collapsing the entire ecosystem. Decomposers close the nutrient cycle — they are the recycling pathway that makes sustained life possible."
 
-- question: "An ecosystem can be fully described by cataloging all the species present and their interactions."
+- question: "An ecosystem can be fully described by cataloging most of the species present and their interactions."
   type: true-false
   answer: false
   explanation: "Ecosystems are defined by both biotic (living) and abiotic (non-living) components. Temperature, light availability, precipitation, soil chemistry, and water availability are integral to ecosystem structure and function. A species list cannot predict ecosystem productivity, energy flow rates, or nutrient cycling dynamics — all of which depend critically on abiotic conditions. An ecosystem is not just a community of organisms; it is the community plus its physical environment, interacting as a system."

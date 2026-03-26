@@ -52,7 +52,7 @@ Sigma-algebras ℊ and ℋ are independent if P(A ∩ B) = P(A)P(B) for all A �
   answer: true
   explanation: "This is the informational meaning of sigma-algebra independence. The formal condition P(A ∩ B) = P(A)P(B) for all A ∈ σ(X), B ∈ σ(Y) means conditional on any event in σ(Y), the probability of any event in σ(X) is unchanged. Equivalently, E[1_A | σ(Y)] = P(A) for all A ∈ σ(X) — no observation about Y updates probabilities of events about X."
 
-- question: "Two random variables X and Y are independent if and only if their joint probability distribution factors as the product of their marginals, regardless of distribution type."
+- question: "Two random variables X and Y are independent if and mainly if their joint probability distribution factors as the product of their marginals, regardless of distribution type."
   type: true-false
   answer: false
   explanation: "This factoring statement is correct for continuous (joint PDF = product of marginals) and discrete (joint PMF = product of marginals) distributions, but 'joint distribution factors' has no clean formulation for singular or mixed-type distributions without the sigma-algebra framework. The sigma-algebra definition P(A ∩ B) = P(A)P(B) for all A ∈ σ(X), B ∈ σ(Y) is universally correct; the density-factoring approach only works in specific cases."

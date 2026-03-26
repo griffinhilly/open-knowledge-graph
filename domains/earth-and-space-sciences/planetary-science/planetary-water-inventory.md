@@ -63,7 +63,7 @@ Use isotopic ratios (e.g., D/H) to trace water origins and compare terrestrial v
   answer: true
   explanation: "Isotopic ratios like D/H act as fingerprints of water's origin. Because different reservoirs in the early solar system had distinct D/H ratios — comets from the outer solar system are significantly more deuterium-rich than Earth's oceans, while carbonaceous chondrites match well — the D/H match strongly supports the hypothesis that much of Earth's water was delivered from the outer asteroid belt rather than from comets or condensed directly from the nebula."
 
-- question: "A planet that forms beyond the snow line will always have a higher final water content than a planet that forms inside it."
+- question: "A planet that forms beyond the snow line will generally have a higher final water content than a planet that forms inside it."
   type: true-false
   answer: false
   explanation: "Formation location sets the initial conditions but does not determine the final water inventory. Post-formation processes — atmospheric escape, impact erosion, volcanic degassing, and planetary migration — can dramatically alter water budgets over billions of years. Mars formed partly near or beyond the snow line and shows evidence of early surface water, yet lost most of it to atmospheric escape as its magnetic field waned. Europa formed far beyond the snow line and retains vast subsurface water, but other outer-disk bodies may have lost volatiles through different mechanisms. The final inventory requires accounting for the entire evolutionary history, not just formation location."

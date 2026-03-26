@@ -51,7 +51,7 @@ RNA viruses must encode or carry an RNA-dependent RNA polymerase (RdRp) since ho
   answer: true
   explanation: "A positive-sense RNA genome has the same polarity as mRNA — it is directly readable by host ribosomes. When the genome enters the cytoplasm, ribosomes can begin translating it immediately, producing viral proteins including the RdRp needed for genome replication. This is a significant advantage: the virus needs to carry less machinery into the cell and can begin the replication cycle faster. Poliovirus, SARS-CoV-2, and hepatitis C are positive-sense RNA viruses that exploit this strategy."
 
-- question: "Because RNA viruses lack proofreading, all RNA viruses evolve at the same mutation rate, making them equally prone to rapid antigenic change."
+- question: "Because RNA viruses lack proofreading, most RNA viruses evolve at the same mutation rate, making them equally prone to rapid antigenic change."
   type: true-false
   answer: false
   explanation: "Coronaviruses are an important exception: they encode a 3'→5' exonuclease (nsp14) that provides proofreading activity. This reduces their mutation rate compared to most other RNA viruses and is why coronaviruses can maintain unusually large RNA genomes (~30,000 bases) without collapsing under mutational load — larger genomes require lower error rates to preserve the encoded information. Influenza, HIV, and poliovirus lack this proofreading and do evolve at the typical high RNA virus mutation rate. Mutation rate in RNA viruses is not uniform; it reflects which additional error-correction mechanisms the virus has evolved."

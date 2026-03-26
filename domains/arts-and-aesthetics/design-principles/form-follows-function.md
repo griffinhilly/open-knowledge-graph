@@ -56,7 +56,7 @@ That form following function means designs must be ugly or minimalist. Actually,
   answer: true
   explanation: "This is the principle in action in the physical world. The catenary curve of a suspension bridge's cables is the shape that minimizes bending stress — it is structurally necessary. The same curve that the engineer derives from physics is the one the observer finds elegant. This is what form-follows-function predicts: when form honestly expresses purpose, the result often reads as beautiful. The designer did not choose this curve for aesthetic reasons; the curve emerged from function and turned out to be beautiful."
 
-- question: "The principle 'form follows function' requires designers to eliminate all decoration and ornamentation from their work."
+- question: "The principle 'form follows function' requires designers to eliminate most decoration and ornamentation from their work."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of the principle — and Sullivan himself did not believe it. His buildings were heavily ornamented, but the ornament grew from the structure rather than being applied independently of it. The principle prohibits decoration that has no relationship to the object's purpose, not decoration itself. A design where ornamentation expresses or reinforces function is consistent with the principle. What is rejected is applied decoration that disguises or ignores structural reality — ornament as costume rather than as integrated expression."

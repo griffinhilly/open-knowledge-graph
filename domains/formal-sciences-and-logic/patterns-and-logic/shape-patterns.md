@@ -56,7 +56,7 @@ Use pattern blocks and tangrams to build shape sequences physically. Start with 
   answer: 1
   explanation: "This is a growing pattern: the number of squares increases by 2 each step (1, 3, 5, 7...). A repeating pattern would cycle through a fixed sequence over and over. Even though the same shape is used, the quantity changes systematically. The rule is 'add 2 more squares each step,' which makes it grow rather than repeat."
 
-- question: "Shape patterns and number patterns are completely unrelated types of reasoning."
+- question: "Shape patterns and number patterns are largely unrelated types of reasoning."
   type: true-false
   answer: false
   explanation: "Shape patterns and number patterns are deeply connected. A growing shape pattern (1 tile, 3 tiles, 5 tiles, 7 tiles) has a number pattern inside it (the sequence 1, 3, 5, 7 with the rule 'add 2'). Every shape pattern can be described with numbers, and many number patterns can be visualized with shapes. The ability to translate between visual and numerical representations is a powerful reasoning skill."

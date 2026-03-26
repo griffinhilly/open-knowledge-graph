@@ -60,7 +60,7 @@ Confusing atomic mass (u) with molar mass (g/mol)—they are numerically equal b
   answer: false
   explanation: "It is not a coincidence — it is by definition. The mole was specifically defined as the number of atoms in exactly 12 grams of carbon-12, which is Avogadro's number (6.022 × 10²³). Because carbon-12 is defined as exactly 12 u per atom, 12 grams of it contains exactly one mole of atoms. This definition ensures that atomic mass in u and molar mass in g/mol are always numerically identical, creating the bridge between microscopic and macroscopic chemistry."
 
-- question: "To find the number of molecules in a 50-gram sample of a compound, you only need the sample mass — no other information is required."
+- question: "To find the number of molecules in a 50-gram sample of a compound, you primarily need the sample mass — no other information is required."
   type: true-false
   answer: false
   explanation: "You also need the molar mass of the compound. The conversion chain is: mass → moles (dividing by molar mass) → number of molecules (multiplying by Avogadro's number). Without the molar mass, you cannot convert grams to moles. A 50-gram sample of water (18.02 g/mol) contains a very different number of molecules than a 50-gram sample of glucose (180.2 g/mol)."

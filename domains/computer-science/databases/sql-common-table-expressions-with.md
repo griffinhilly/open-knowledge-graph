@@ -55,7 +55,7 @@ CTEs are not materialized by default—they are expanded at query time. Multiple
   answer: true
   explanation: "This is one of the most powerful features of CTEs: they can be chained. The syntax is WITH step1 AS (...), step2 AS (SELECT ... FROM step1), step3 AS (SELECT ... FROM step2) SELECT ... FROM step3. Each CTE in the list can reference any previously defined CTE, building a pipeline of transformations. This allows complex multi-stage data transformations to be expressed as a clean sequence of named steps rather than a deeply nested single query."
 
-- question: "Using a CTE is always preferable to creating a temporary table when an intermediate result needs to be referenced multiple times in a query."
+- question: "Using a CTE is typically preferable to creating a temporary table when an intermediate result needs to be referenced multiple times in a query."
   type: true-false
   answer: false
   explanation: "For performance-critical work involving large intermediate results referenced multiple times, a temporary table is often better because it is explicitly materialized — computed once and stored. Since CTEs are typically re-executed on each reference, a CTE referenced three times over a large dataset may be three times more expensive than a temporary table. CTEs win on simplicity and readability for moderately complex queries; temporary tables win when materialization matters for performance or when intermediate results must be indexed."

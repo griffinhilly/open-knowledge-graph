@@ -62,7 +62,7 @@ Compare the U.S. Constitution (rigid, presidential, strong judicial review) with
   answer: true
   explanation: "This is one of constitutionalism's core functions: protecting rights and procedures that ordinary democratic majorities cannot override. A bill of rights operates precisely by removing certain questions from majority decision — even a 99% majority cannot constitutionally violate enumerated rights. This is the tension between constitutionalism and pure majority rule."
 
-- question: "Judicial review — the power of courts to strike down unconstitutional laws — is a feature of all functioning constitutional democracies."
+- question: "Judicial review — the power of courts to strike down unconstitutional laws — is a feature of most functioning constitutional democracies."
   type: true-false
   answer: false
   explanation: "Judicial review is one enforcement mechanism for constitutionalism, but not the only one. The UK, Australia (at the federal level for most purposes), New Zealand, and the Netherlands operate without strong judicial review of primary legislation, relying instead on parliamentary sovereignty and other mechanisms. The scope and form of judicial review varies widely across constitutional systems."

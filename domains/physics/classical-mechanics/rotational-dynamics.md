@@ -71,7 +71,7 @@ Draw a free-body diagram, compute all torques about the rotation axis, set Στ 
   answer: true
   explanation: "This is a fundamental consistency requirement. Both I (the distribution of mass relative to an axis) and τ (the rotational effect of each force) are axis-dependent quantities. If you compute I about the center of mass but compute a torque about a different point, the equation Στ = Iα becomes invalid. This is one of the most common errors in rotational dynamics problems — it's the rotational analog of mixing coordinate systems in linear mechanics."
 
-- question: "Applying a larger net force to a rigid body always produces a larger angular acceleration."
+- question: "Applying a larger net force to a rigid body typically produces a larger angular acceleration."
   type: true-false
   answer: false
   explanation: "Angular acceleration is governed by Στ = Iα — it depends on net TORQUE, not net force. A large force applied very close to or directly through the rotation axis produces little or no torque and thus little or no angular acceleration. A smaller force applied farther from the axis can produce a much larger torque. Additionally, I (moment of inertia) matters: the same torque produces a larger angular acceleration in a body with smaller I. The correct relationship is α = Στ/I, not α = ΣF/I."

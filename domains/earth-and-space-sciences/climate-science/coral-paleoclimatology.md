@@ -55,7 +55,7 @@ Coral geochemistry is not immune to biological effects; skeletal extension rate 
   answer: 1
   explanation: "Sr/Ca has a single dominant control: temperature. δ¹⁸O has two: temperature and the isotopic composition of the surrounding seawater, which tracks salinity. A δ¹⁸O shift could mean warming, increasing salinity, or both simultaneously — you cannot tell without an independent temperature constraint. Sr/Ca provides that constraint, allowing researchers to subtract the temperature contribution and isolate the salinity signal in δ¹⁸O."
 
-- question: "Corals that grow faster always produce more reliable paleoclimate records because faster growth provides more skeletal material and higher temporal resolution."
+- question: "Corals that grow faster typically produce more reliable paleoclimate records because faster growth provides more skeletal material and higher temporal resolution."
   type: true-false
   answer: false
   explanation: "Growth rate can introduce vital effects — biological kinetic fractionation during rapid calcification — that cause skeletal geochemistry to deviate from the thermodynamic equilibrium that makes proxy relationships work. Faster-growing corals may incorporate Sr/Ca differently than slower-growing ones, and rapid calcification can shift δ¹⁸O values. More material per year is not an advantage if that material doesn't faithfully record environmental conditions."

@@ -59,7 +59,7 @@ Consider the argument from illusion: a stick looks bent in water, yet the stick 
   answer: true
   explanation: "This accurately states the argumentative force of the illusion cases. Direct realism holds that perception gives us unmediated access to physical objects. But in the stick-in-water case, what you are apparently aware of has a bent appearance — and the physical stick is straight. If the object of your direct awareness just is the physical stick, it seems you are perceiving it as bent when it isn't, which is puzzling for a view that claims direct contact with mind-independent objects. The argument presses the direct realist to explain what, exactly, is the immediate object of awareness in such cases."
 
-- question: "Direct realism claims that perceptual errors are impossible, since in direct realist views we are always in unmediated contact with the world as it actually is."
+- question: "Direct realism claims that perceptual errors are very difficult, since in direct realist views we are generally in unmediated contact with the world as it actually is."
   type: true-false
   answer: false
   explanation: "This is a common misreading. Direct realism does not deny that perceptual errors occur — it denies that we always perceive mental intermediaries rather than the world itself. A direct realist can acknowledge that the visual system sometimes misrepresents objects (the stick-in-water case, color constancy failures, etc.) while maintaining that in successful perception, the object of awareness is the physical thing itself, not a mental proxy. The claim is about the structure of perception, not its infallibility."

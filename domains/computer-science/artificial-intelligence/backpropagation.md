@@ -44,7 +44,7 @@ Backpropagation applies to any differentiable computation, not just neural netwo
   answer: 2
   explanation: "Backpropagation applies the chain rule: to get ∂L/∂W_l, you need ∂L/∂a_l (the error signal at layer l's output), which depends on error signals from all layers after l. These error signals — not raw activations — are what get propagated backward. The forward pass already computed and stored the activations; the backward pass uses them together with the propagated error signals."
 
-- question: "Backpropagation can only be applied to neural networks that use sigmoid activation functions."
+- question: "Backpropagation can primarily be applied to neural networks that use sigmoid activation functions."
   type: true-false
   answer: false
   explanation: "Backpropagation requires only that each operation in the computation graph be differentiable (or sub-differentiable). It applies equally to ReLU, tanh, softmax, and any other differentiable activation. More broadly, backpropagation is just reverse-mode automatic differentiation and works on any differentiable computational graph — not just neural networks."

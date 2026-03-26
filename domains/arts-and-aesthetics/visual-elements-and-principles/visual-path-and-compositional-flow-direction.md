@@ -63,7 +63,7 @@ Assuming viewers all follow the same path regardless of design; thinking movemen
   answer: true
   explanation: "This is a well-established principle confirmed by eye-tracking research: the first fixation tends to fall on the area of greatest visual dominance, which is typically the highest contrast point. Designers can therefore control the entry point deliberately by controlling where the most visually distinct element is placed, regardless of where it falls on the page or canvas."
 
-- question: "Compositional flow and visual path only apply to representational art and painting; in abstract and graphic design work, viewers scan compositions randomly without following guided paths."
+- question: "Compositional flow and visual path mainly apply to representational art and painting; in abstract and graphic design work, viewers scan compositions randomly without following guided paths."
   type: true-false
   answer: false
   explanation: "Eye-tracking studies confirm that viewers follow predictable paths in all types of compositions — abstract, representational, typographic, and graphic design alike. Visual flow is determined by the arrangement of elements (contrast, implied lines, size progression, value gradients), not by the presence of recognizable subject matter. A diagonal stripe of high contrast guides the eye just as powerfully in an abstract design as a pointing figure does in a figurative painting. The principle applies universally to visual communication."

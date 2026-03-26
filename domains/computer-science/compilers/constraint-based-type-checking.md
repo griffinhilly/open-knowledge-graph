@@ -46,7 +46,7 @@ Constraint-based type checking generates constraints between type variables inst
   answer: 1
   explanation: "Separation of concerns is the key benefit. The constraint generator is language-specific: it knows the syntax and what constraints each construct implies. The solver is language-agnostic: it just solves constraint systems. Adding a new type system feature — say, subtyping or a trait bound — means adding new constraint forms to the generator. The solver can often handle these without modification, or with local extensions. This modular design is why so many different languages (OCaml, Haskell, Rust, TypeScript) can use variations of the same underlying constraint-solving machinery."
 
-- question: "Constraint-based type checking requires programmers to write explicit type annotations for every function parameter and variable in order to generate constraints."
+- question: "Constraint-based type checking requires programmers to write explicit type annotations for nearly every function parameter and variable in order to generate constraints."
   type: true-false
   answer: false
   explanation: "The whole point of constraint-based type checking is that it works without annotations. The compiler assigns fresh type variables to unannotated expressions and generates constraints from how those expressions are used. Unification then solves the constraints, inferring concrete types. Languages like OCaml and Haskell allow entire programs to be written without a single type annotation — the constraint solver infers everything. Annotations are permitted and can help both the programmer and the compiler, but they are not required."

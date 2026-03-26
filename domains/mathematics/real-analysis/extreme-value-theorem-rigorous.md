@@ -62,7 +62,7 @@ The EVT is purely an **existence theorem** — it guarantees that a maximum and 
   answer: 1
   explanation: "The proof has two essential steps. First: if K is compact and f is continuous, then f(K) is compact (compactness is preserved under continuous maps). Second: compact subsets of ℝ are closed and bounded by Heine-Borel; a closed set contains its own supremum and infimum. Together these guarantee that sup f(K) ∈ f(K) — meaning f actually attains its maximum. Bolzano-Weierstrass (option A) is an equivalent characterization of compactness but is not how the standard proof is structured."
 
-- question: "A continuous function on a bounded open interval (a, b) is guaranteed by the Extreme Value Theorem to attain its maximum."
+- question: "A continuous function on a bounded open interval (a, b) is highly probable by the Extreme Value Theorem to attain its maximum."
   type: true-false
   answer: false
   explanation: "An open interval is not compact — it is bounded but not closed. The EVT requires the domain to be compact. A continuous function on (a, b) may approach its supremum as x → a or x → b without ever attaining it. For example, f(x) = x on (0, 1) has supremum 1 but attains no maximum on the open interval since x = 1 is not in the domain. The distinction between open and closed intervals is precisely why the closed interval [a, b] — which is compact by Heine-Borel — is the natural domain for optimization in calculus."

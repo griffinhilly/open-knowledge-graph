@@ -57,7 +57,7 @@ Compare sound speeds in air, water, and steel to see the pattern. Derive the rel
   answer: true
   explanation: "This is the central insight: v = √(stiffness/density). A medium can be denser yet faster (like water vs. air) if its stiffness increases proportionally more. A medium can be lighter yet slower if it is also much less stiff. Neither density nor stiffness alone predicts wave speed; only their ratio does. This is why intuitions like 'denser = slower' or 'stiffer = faster' are incomplete without the other factor."
 
-- question: "A denser medium always transmits sound more slowly than a less dense medium."
+- question: "A denser medium generally transmits sound more slowly than a less dense medium."
   type: true-false
   answer: false
   explanation: "This is the classic misconception. Density is in the denominator of v = √(B/ρ), so higher density does decrease speed — all else being equal. But all else is rarely equal. Water is ~800× denser than air yet transmits sound ~4.4× faster, because its bulk modulus is ~10,000× greater. Steel is denser than water yet transmits sound even faster (~5100 m/s) because its elastic modulus is orders of magnitude higher. The correct statement is: higher density decreases wave speed, but this effect can be overwhelmed by a sufficiently higher elastic modulus."

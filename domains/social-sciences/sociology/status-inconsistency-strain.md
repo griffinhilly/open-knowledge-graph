@@ -50,7 +50,7 @@ Status inconsistency occurs when individuals rank high on some stratification di
   answer: true
   explanation: "This is the key mechanism. Unlike the uniformly low-status person who may adapt expectations downward across the board, the status-inconsistent person has been rewarded in some domains, generating legitimate expectations of commensurate treatment elsewhere. When those expectations are violated — the highly educated person experiencing discrimination, the wealthy person treated with contempt based on ethnicity — the mismatch is experienced as injustice. Strain comes from contradiction, not deprivation alone."
 
-- question: "Status inconsistency theory predicts that people at the very bottom of all stratification dimensions will be the most politically radical, because they have the most to gain from social change."
+- question: "Status inconsistency theory predicts that people at the very bottom of most stratification dimensions will be the most politically radical, because they have the most to gain from social change."
   type: true-false
   answer: false
   explanation: "Lenski's theory specifically predicts that the most politically radical are those with inconsistent status — high on some dimensions, low on others — not those uniformly at the bottom. People with low status across all dimensions may adapt their expectations to their circumstances, experiencing the stratification order as simply 'how things are.' The status-inconsistent individual experiences both the rewards of high status and the insults of low status simultaneously, perceives the injustice more acutely, and is motivated to change the system."

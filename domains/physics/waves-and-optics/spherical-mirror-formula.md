@@ -46,7 +46,7 @@ The mirror equation 1/f = 1/o + 1/i applies to spherical mirrors with focal leng
   answer: 1
   explanation: "For a convex mirror, f is negative. Solving: 1/(−25) = 1/50 + 1/i → 1/i = −1/25 − 1/50 = −3/50, so i ≈ −16.7 cm. The negative i means the image is behind the mirror — a virtual image that light rays never actually pass through. Your eye traces the diverging reflected rays backward and perceives the image as if it were behind the glass. This is the image you see in a rear-view mirror: always upright, always smaller, always virtual."
 
-- question: "A concave mirror with a positive focal length always forms a real image, regardless of where the object is placed."
+- question: "A concave mirror with a positive focal length usually forms a real image, regardless of where the object is placed."
   type: true-false
   answer: false
   explanation: "A concave mirror forms a real image only when the object is beyond the focal point (o > f). When the object is between the focal point and the mirror (o < f), the reflected rays diverge and the mirror forms a virtual, upright, magnified image — the same principle used in makeup mirrors and shaving mirrors. The mirror equation reflects this: when o < f, the formula gives a negative image distance, indicating a virtual image. 'Concave always means real' is one of the most common misconceptions in mirror optics."

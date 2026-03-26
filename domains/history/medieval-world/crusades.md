@@ -63,7 +63,7 @@ Examining the Crusades from multiple perspectives — a French knight, a Byzanti
   answer: 2
   explanation: "Participation was multi-causal. Feudalism provided the social framework: knights gained prestige, and younger sons without inheritances saw opportunity. The Church provided ideology: Pope Urban II framed participation simultaneously as penance, pilgrimage, and holy war. And genuine religious devotion mattered — Jerusalem was not merely politically significant but the axis of Christian salvation history. No single factor explains participation; the Crusades worked because multiple incentive structures aligned simultaneously."
 
-- question: "The Crusades created a sharp cultural divide between Islamic and Christian civilizations, making meaningful cultural exchange between them impossible."
+- question: "The Crusades created a sharp cultural divide between Islamic and Christian civilizations, making meaningful cultural exchange between them impractical."
   type: true-false
   answer: false
   explanation: "The historical record shows the opposite: the Crusader States were contact zones where Latin, Byzantine, Islamic, and Jewish cultures lived in daily proximity. Crusader nobles sometimes borrowed architectural techniques, cuisine, and administrative practices from Muslim neighbors. Medical and philosophical texts flowed westward into Europe. The Islamic Golden Age's intellectual achievements — which you've studied — were partly transmitted through these contact zones. Violence and cultural exchange coexisted, which is why historians describe the Crusades as complex contact zones rather than pure barriers."

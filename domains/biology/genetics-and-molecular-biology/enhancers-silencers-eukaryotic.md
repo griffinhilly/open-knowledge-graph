@@ -60,7 +60,7 @@ Use chromatin conformation capture data or 3D models to visualize DNA looping th
   answer: true
   explanation: "DNA looping is the established mechanism of enhancer action at a distance. Proteins such as Mediator and cohesin help stabilize these loops. Chromatin conformation capture (Hi-C) experiments directly visualize these loops, showing that active enhancers are spatially close to their target promoters in 3D space even when far apart in linear sequence. This explains a phenomenon that once seemed paradoxical: a regulatory element acting on a gene from hundreds of thousands of base pairs away."
 
-- question: "Enhancers must be located upstream of their target gene and lose regulatory function when placed downstream or in reverse orientation."
+- question: "Enhancers is expected to be located upstream of their target gene and lose regulatory function when placed downstream or in reverse orientation."
   type: true-false
   answer: false
   explanation: "Enhancers are orientation- and position-independent, which was one of their defining experimental properties. They work upstream or downstream of the promoter, in either orientation on the DNA, and even when moved to different positions in the genome (within the same topologically associating domain). This independence follows from the looping mechanism: since the enhancer acts by protein-protein contact rather than by reading along the DNA in a directional way, orientation and linear position are largely irrelevant."

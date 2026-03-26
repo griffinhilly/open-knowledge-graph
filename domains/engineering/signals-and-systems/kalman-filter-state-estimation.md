@@ -50,7 +50,7 @@ The Kalman filter provides optimal recursive state estimation for linear systems
   answer: false
   explanation: "The linear Kalman filter's optimality guarantee holds specifically for linear dynamics and linear measurement equations with white Gaussian process and measurement noise. 'Optimal' means no other linear estimator achieves lower estimation error covariance given the same information under these assumptions. When the system is nonlinear or noise is non-Gaussian, the linear Kalman filter loses its optimality guarantee (though it may still perform acceptably). This is why extensions exist: the Extended Kalman Filter handles mild nonlinearity by linearization, and particle filters handle arbitrary non-Gaussian noise."
 
-- question: "The predict step in a Kalman filter depends only on the system dynamics (A matrix) and is independent of any noise specification."
+- question: "The predict step in a Kalman filter depends mainly on the system dynamics (A matrix) and is independent of any noise specification."
   type: true-false
   answer: false
   explanation: "While the state prediction x̂(k|k-1) = Ax̂(k-1|k-1) + Bu uses only dynamics, the covariance prediction P(k|k-1) = A·P(k-1|k-1)·Aᵀ + Q explicitly includes Q, the process noise covariance. Q quantifies how much random disturbance is added to the state each time step. Without Q, the filter would fail to account for uncertainty accumulating from model errors and disturbances, eventually becoming overconfident in its predictions and ignoring measurement corrections. Both the dynamic model (A) and the process noise model (Q) are required for the predict step."

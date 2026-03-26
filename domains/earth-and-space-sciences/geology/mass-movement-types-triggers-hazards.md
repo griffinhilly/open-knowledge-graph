@@ -49,7 +49,7 @@ Mass wasting—gravitational movement of soil and rock down slopes—includes la
   answer: true
   explanation: "Pore water pressure is one of the most important and counterintuitive factors in slope stability. Water filling pore spaces exerts pressure that partially supports the overlying grains, reducing grain-to-grain contact stress and therefore frictional resistance. The effective normal stress — and thus friction — decreases as pore pressure increases. This is why slopes fail during or after heavy rain even though the slope angle (the gravitational driving force) has not changed: the resisting force was reduced, lowering the factor of safety below 1."
 
-- question: "Mass wasting events cannot occur without a discrete external trigger such as an earthquake or rainfall — slopes will remain indefinitely stable until one of these triggers occurs."
+- question: "Mass wasting events can seldom occur without a discrete external trigger such as an earthquake or rainfall — slopes will remain indefinitely stable until one of these triggers occurs."
   type: true-false
   answer: false
   explanation: "Slopes can fail without a discrete external trigger. Creep occurs continuously on many slopes as a background process without any identifiable event. Progressive weakening from weathering can gradually reduce the factor of safety below 1 over years or decades — the 'trigger' is simply cumulative deterioration. Slow processes like freeze-thaw cycles, root growth and decay, and gradual water table rise can incrementally lower shear strength until failure occurs. The absence of a dramatic external event does not guarantee stability; it means only that no sudden trigger occurred, not that the slope is inherently safe."

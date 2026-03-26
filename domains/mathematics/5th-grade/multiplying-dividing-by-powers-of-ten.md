@@ -58,7 +58,7 @@ Use a place-value chart with a fixed decimal point and slide the digits left or 
   answer: true
   explanation: "Multiplying by 10 makes every digit worth 10 times as much, which means each digit moves into the next-higher position: ones become tens, tens become hundreds, tenths become ones. This leftward shift is why the product is larger. The decimal point itself is a fixed marker — it's the digits that move relative to it."
 
-- question: "Multiplying any number by a power of ten always produces a larger result."
+- question: "Multiplying any number by a power of ten generally produces a larger result."
   type: true-false
   answer: false
   explanation: "This only holds when multiplying by powers of ten greater than 1 (10, 100, 1000...). Multiplying by 10⁰ = 1 leaves the number unchanged. And dividing by a power of ten (which is multiplying by a negative power, like 10⁻¹) makes the number smaller. The correct rule: multiplying by 10ⁿ where n > 0 shifts digits left (larger); dividing by 10ⁿ shifts digits right (smaller)."

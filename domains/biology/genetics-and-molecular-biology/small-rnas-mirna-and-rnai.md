@@ -48,7 +48,7 @@ MicroRNAs (miRNAs) are small regulatory RNAs (~22 nucleotides) that bind mRNA ta
   answer: 1
   explanation: "RNA Polymerase II transcribes the long primary miRNA (pri-miRNA). In the nucleus, Drosha (partnered with DGCR8) recognizes the hairpin structure and cleaves it to produce the ~70-nucleotide precursor miRNA (pre-miRNA). Exportin-5 then shuttles the pre-miRNA to the cytoplasm, where Dicer performs the second cleavage. Dicer acts in the *cytoplasm*, not the nucleus. Drosha and Dicer are both RNase III enzymes but act at different stages and compartments."
 
-- question: "miRNAs function as binary on/off switches, completely silencing their target genes when expressed."
+- question: "miRNAs function as binary on/off switches, mostly silencing their target genes when expressed."
   type: true-false
   answer: false
   explanation: "This is a common misconception. miRNAs typically function as fine-tuners and buffers, not binary switches. They reduce — dampen, attenuate — gene expression rather than eliminating it entirely, sharpening developmental transitions and maintaining homeostasis against noise. Because a single miRNA can target hundreds of mRNAs with imperfect complementarity, it creates a regulatory network effect: modest dampening across many targets collectively shifts cell state. Complete silencing typically requires perfect complementarity and Argonaute-mediated cleavage (the siRNA mechanism)."

@@ -59,7 +59,7 @@ Use the metric staircase or place-value chart to determine how many places to sh
   answer: 1
   explanation: "The critical rule: going to a larger unit means you need fewer of them, so the number gets smaller — move the decimal LEFT (divide). 1 meter = 100 centimeters, so 850 cm ÷ 100 = 8.5 m. Moving right (multiplying) is used when converting to a smaller unit. The student applied the right number of places (2 for cm→m, not 3) but also moved in the wrong direction — a compound error."
 
-- question: "Converting a measurement from a smaller unit to a larger unit always produces a larger number (for example, 500 cm becomes a number larger than 500 when converted to meters)."
+- question: "Converting a measurement from a smaller unit to a larger unit generally produces a larger number (for example, 500 cm becomes a number larger than 500 when converted to meters)."
   type: true-false
   answer: false
   explanation: "The opposite is true. Converting to a larger unit always produces a smaller number — you need fewer large units to describe the same length. 500 cm = 5 m, and 5 is much smaller than 500. The intuition check 'larger unit → smaller number, smaller unit → larger number' is the built-in sanity check for every metric conversion."

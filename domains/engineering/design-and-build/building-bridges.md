@@ -43,7 +43,7 @@ Challenge students to build a bridge from limited materials (craft sticks, straw
   answer: 2
   explanation: "A truss bridge uses connected triangles to form a rigid framework. Triangles cannot deform without breaking, so truss bridges are both strong and relatively lightweight. The triangular structure distributes force efficiently across all the members."
 
-- question: "A suspension bridge is always the best choice because it can span the longest distances."
+- question: "A suspension bridge is generally the best choice because it can span the longest distances."
   type: true-false
   answer: false
   explanation: "Suspension bridges are great for very long spans but are expensive, complex, and susceptible to wind-induced vibrations. For short or medium spans, beam bridges, arch bridges, or truss bridges are more practical, cheaper, and easier to maintain. The best bridge type depends on the specific situation."

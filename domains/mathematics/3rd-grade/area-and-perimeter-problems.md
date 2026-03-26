@@ -58,7 +58,7 @@ Present real-world contexts: 'How much carpet do you need?' vs. 'How much basebo
   answer: 1
   explanation: "Baseboard trim runs along the edge of the room, so you need the perimeter — the total distance around all four walls. Area (length × width) measures how much surface is covered, which is what you'd need for flooring or carpet. Asking 'edge or surface?' is the fastest way to choose: trim is an edge problem, so perimeter is correct."
 
-- question: "If two rectangles have the same area, they must also have the same perimeter."
+- question: "If two rectangles have the same area, they is expected to also have the same perimeter."
   type: true-false
   answer: false
   explanation: "A 1×12 rectangle and a 3×4 rectangle both have area 12 square units, but their perimeters are 26 and 14 units respectively — very different. Area and perimeter are independent measurements. A change in one does not determine the other, which is why you always need to read a problem carefully to know which one is being asked for."

@@ -53,12 +53,12 @@ Investment fees compound dramatically over decades and significantly reduce long
   answer: 0
   explanation: "Even if a fund beats its benchmark in gross returns, the higher expense ratio (typically 0.5–1.5%) may erase or reverse this advantage on a net basis. Academic research consistently shows most actively managed funds underperform comparable index funds after fees over long horizons. Intermittent gross outperformance doesn't compensate for chronic compounding fee drag."
 
-- question: "A 1% annual expense ratio is relatively harmless for long-term investors because it only reduces returns by 1% per year, and market gains typically far exceed this amount."
+- question: "A 1% annual expense ratio is relatively harmless for long-term investors because it primarily reduces returns by 1% per year, and market gains typically far exceed this amount."
   type: true-false
   answer: false
   explanation: "This is the core misconception. A 1% expense ratio doesn't just reduce annual returns by 1% — it removes 1% of your entire asset base every year, and that removed money never gets the chance to compound. Over 40 years, the 1% fee can cost roughly 7x the original investment: $10,000 at 8% becomes ~$217,000 but at 7% becomes ~$150,000. The percentage sounds small but the compounding effect is enormous."
 
-- question: "A no-load index fund with a 0.04% expense ratio is always the best investment choice for any investor in any situation."
+- question: "A no-load index fund with a 0.04% expense ratio is typically the best investment choice for any investor in any situation."
   type: true-false
   answer: false
   explanation: "While low-cost index funds are excellent default choices, other factors matter: tax situation, specific options available in a 401(k), liquidity needs, and whether the fund tracks a relevant index. Some investors also face sales loads, advisor fees, or brokerage transaction fees that affect the true cost comparison. Fee minimization is powerful but not the only variable in investment decisions."

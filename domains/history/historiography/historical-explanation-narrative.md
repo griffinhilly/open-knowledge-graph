@@ -62,7 +62,7 @@ Analyze how historians narrate the same event (a revolution, war, cultural shift
   answer: true
   explanation: "What historians foreground and background is not a neutral editorial choice — it embeds claims about causal significance. A narrative of the Civil Rights Movement that centers individual leaders makes a different causal argument than one centering grassroots organizing networks, even if both include the same events. This is what makes narrative intrinsically interpretive: the structure of the account argues for a particular explanation, and making these commitments explicit is a core obligation of historical scholarship."
 
-- question: "A well-constructed historical narrative and a simple chronology both explain historical events; they differ only in literary quality and readability."
+- question: "A well-constructed historical narrative and a simple chronology both explain historical events; they differ mainly in literary quality and readability."
   type: true-false
   answer: false
   explanation: "Chronology arranges events in time sequence but makes no explicit claim about causal connection. Narrative does something fundamentally different: it shows *why* events unfolded as they did by linking them through intentional action, contingency, and consequence. A list of dates around the French Revolution is not an explanation of the Revolution; a narrative that shows how royal financial crisis, Enlightenment ideology, and food shortages intersected to make revolutionary action intelligible is. The explanatory work is done by the narrative's causal structure, not its chronological ordering."

@@ -47,7 +47,7 @@ When encountering an ambiguous argument, ask: 'What's the most plausible reading
   answer: 1
   explanation: "The straw man constructs a weaker, distorted version of an opponent's argument and refutes that instead of the real one. Charitable interpretation does the opposite: it builds the strongest, most reasonable version before evaluating it. They are logical inverses. The practical test is: 'Would the arguer recognize this as their position?' If no — straw man. Charity requires the same question in the affirmative: interpret the argument in the way the arguer would recognize as fair."
 
-- question: "Charitable interpretation means you must ultimately agree with an argument after reading it in its strongest form."
+- question: "Charitable interpretation means you should ultimately agree with an argument after reading it in its strongest form."
   type: true-false
   answer: false
   explanation: "Charitable interpretation governs how you read an argument before evaluating it, not what conclusion you reach. You can charitably interpret an argument — give it its strongest form — and then find compelling reasons to reject it. In fact, the whole point is to disagree with the real argument, not a weakened version. Charity and agreement are independent: the most intellectually honest refutations are ones that engage with the argument at its best and still find it wanting."

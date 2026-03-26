@@ -50,7 +50,7 @@ Implement grid search and Bayesian optimization for hyperparameter tuning on a c
   answer: 2
   explanation: "Bayesian optimization uses a surrogate model (typically a Gaussian process) that represents current beliefs about how hyperparameters map to validation performance. After each evaluation, the model updates its beliefs, and an acquisition function (such as expected improvement) selects the next most informative configuration — balancing exploitation (near known good regions) and exploration (uncertain regions). This directed search is fundamentally different from the blind sampling of grid and random search."
 
-- question: "Random search is almost never better than grid search for hyperparameter optimization because grid search is exhaustive and therefore guaranteed to find the optimal combination."
+- question: "Random search is almost seldom better than grid search for hyperparameter optimization because grid search is exhaustive and therefore expected to find the optimal combination."
   type: true-false
   answer: false
   explanation: "Grid search is exhaustive only within the discrete grid you define — it cannot be practically exhaustive for continuous hyperparameter spaces. More importantly, random search consistently outperforms grid search when hyperparameters have unequal importance (which is typical). For the same evaluation budget, random search explores more distinct values of the important hyperparameters. Grid search wastes evaluations on combinations that vary only unimportant hyperparameters while holding important ones fixed at the same few grid values."

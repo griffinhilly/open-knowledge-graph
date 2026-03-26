@@ -57,7 +57,7 @@ Analyze industries with one dominant firm: utilities (natural monopoly), pharmac
   answer: true
   explanation: "This is the core logic: profit is a signal that capital is earning more here than elsewhere. In competitive markets, this signal triggers entry, which increases supply, drives prices down, and erodes profit until normal returns are restored. Entry barriers block this signal from translating into entry. Whether the barrier is a patent, economies of scale, network effects, or control of inputs, its function is the same: preventing the market mechanism from distributing the profit away. Without barriers, even a current monopolist would lose its position to competition."
 
-- question: "Monopolists always earn positive economic profit in the long run because they face no competition."
+- question: "Monopolists generally earn positive economic profit in the long run because they face no competition."
   type: true-false
   answer: false
   explanation: "Monopoly status prevents *competitor* entry but does not guarantee profit. A monopolist faces the market demand curve, and if demand is weak (inelastic at low quantities, or consumers simply don't value the product enough), the profit-maximizing price and quantity may still yield negative economic profit. A monopolist with high fixed costs and low demand can run losses indefinitely — it just can't be displaced by a competitor who notices those losses. Entry barriers protect market position, not profitability."

@@ -61,7 +61,7 @@ This computation has far-reaching consequences. It proves that the circle is not
   answer: 1
   explanation: "S¹ has a hole — a loop that winds around the circle cannot be contracted to a point without leaving the space. S² has no such obstruction: any loop on the surface of a 2-sphere can be pulled toward one pole and shrunk to a point without tearing. This is what 'simply connected' means. Option A is wrong; ℝ² is 2-dimensional with trivial fundamental group, but the torus T² = S¹ × S¹ is 2-dimensional with π₁ = ℤ × ℤ. Dimension alone does not determine the fundamental group."
 
-- question: "A loop on S¹ that is geometrically complicated — winding forward and backward many times — must have a nonzero winding number because its complexity prevents it from being contractible."
+- question: "A loop on S¹ that is geometrically complicated — winding forward and backward many times — is expected to have a nonzero winding number because its complexity prevents it from being contractible."
   type: true-false
   answer: false
   explanation: "The winding number tracks *net* wrapping, not geometric complexity. A loop can wind 100 times clockwise and 100 times counterclockwise, producing an intricate path, yet have winding number 0 — placing it in the trivial homotopy class, homotopic to a constant loop. Only the net count determines the homotopy class. This is the key conceptual point: topology cares about what cannot be continuously undone, not about visual complexity."

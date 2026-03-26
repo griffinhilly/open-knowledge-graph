@@ -50,7 +50,7 @@ Value a plain-vanilla IRS by calculating the present value of fixed legs and flo
   answer: 1
   explanation: "As fixed-rate receiver, the corporation receives a fixed rate (roughly offsetting its bond coupon payments) and pays floating. Net effect: the fixed coupon outflows and fixed swap inflows largely cancel, leaving only the floating swap payment as the effective liability cost. If rates fall as expected, the floating payment falls too — the corporation benefits from the rate decline without touching the original bonds. This is the core use case: swaps overlay a new cash flow profile without disturbing the underlying debt structure."
 
-- question: "When a plain-vanilla interest rate swap is first entered, the fixed-rate payer must pay an upfront premium to the fixed-rate receiver."
+- question: "When a plain-vanilla interest rate swap is first entered, the fixed-rate payer should pay an upfront premium to the fixed-rate receiver."
   type: true-false
   answer: false
   explanation: "At inception, a market-rate swap has zero value for both parties. The swap rate (the fixed rate) is specifically chosen so that the present value of the fixed leg equals the present value of the floating leg at current market rates. Neither party pays anything upfront — this zero-cost entry is a defining feature of swaps and is central to why they are so widely used. If the swap were initiated off-market (at a non-current fixed rate), an upfront payment would compensate for the off-market pricing, but that is a non-standard arrangement."

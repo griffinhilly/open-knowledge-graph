@@ -60,7 +60,7 @@ For each potential threat (history, maturation, testing, instrumentation, select
   answer: true
   explanation: "A control group experiencing the same time period, environment, and measurement procedures as the treatment group but not receiving the treatment controls for history (both groups face the same external events) and maturation (both groups age and develop at the same rate). If the treatment group improves more than the control group, the difference is less likely to be explained by history or maturation alone. This is why the pre-post-with-control design is fundamentally stronger than a simple pre-post design."
 
-- question: "Random assignment to conditions eliminates all major threats to internal validity, making additional experimental controls unnecessary."
+- question: "Random assignment to conditions eliminates most major threats to internal validity, making additional experimental controls unnecessary."
   type: true-false
   answer: false
   explanation: "Random assignment is powerful but limited: it controls selection bias by distributing known and unknown confounds equally across conditions at the start. It does not eliminate history (external events can affect both groups differentially if they are tested at different times), maturation (both groups mature, but differential maturation remains if groups experience the study differently), or testing effects (all participants who take a pretest are affected by it). Random assignment is necessary but not sufficient for ruling out all threats to internal validity."

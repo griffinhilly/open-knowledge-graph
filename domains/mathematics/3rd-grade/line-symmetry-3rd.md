@@ -49,7 +49,7 @@ A shape has line symmetry if it can be folded in half along a line so both halve
   answer: true
   explanation: "True — this is the definition of a line of symmetry. Every point on one side of the line has a mirror-image point at the exact same distance on the other side. The fold test is what makes this concrete: if any part of one half sticks out past the other, the fold line is not a true line of symmetry. Both halves must be exactly the same shape and size."
 
-- question: "A square and a rectangle always have the same number of lines of symmetry."
+- question: "A square and a rectangle generally have the same number of lines of symmetry."
   type: true-false
   answer: false
   explanation: "False. A square has 4 lines of symmetry (2 through midpoints of opposite sides, plus 2 diagonals), while a rectangle that is not a square has only 2 (through midpoints of opposite sides). The diagonals of a rectangle fail the fold test because the unequal side lengths prevent the corners from aligning. Equal side lengths are what allow the diagonals to work as lines of symmetry in a square."

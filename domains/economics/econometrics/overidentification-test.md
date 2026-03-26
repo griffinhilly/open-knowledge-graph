@@ -44,7 +44,7 @@ The Hansen J-test checks whether extra instruments are exogenous. Under H₀ tha
   answer: 2
   explanation: "Rejection indicates that the instruments imply inconsistent estimates of β — a sign that at least one is correlated with the error term. But the J-test cannot decompose this into 'which instrument is the culprit.' Searching over instrument subsets until the test passes exploits in-sample correlation structure and is a form of specification search, not a solution."
 
-- question: "Passing the J-test is sufficient evidence that all instruments satisfy the exclusion restriction."
+- question: "Passing the J-test is sufficient evidence that most instruments satisfy the exclusion restriction."
   type: true-false
   answer: false
   explanation: "Passing the J-test is consistent with all instruments being valid, but it does not prove validity. The test only has power to detect deviations that produce inconsistency *between* instruments. If all instruments are biased in the same direction — for example, all correlated with omitted ability in a wage regression — the J-test will pass even though every instrument violates the exclusion restriction. The exclusion restriction remains untestable for the component shared by all instruments."

@@ -55,7 +55,7 @@ The law is not symmetric; it gives (p/q)(q/p) = ±1, not individual reciprocity.
   answer: true
   explanation: "When p ≡ 1 (mod 4), (p−1)/2 is even. The exponent in (−1)^{(p−1)/2 · (q−1)/2} is therefore always even (an even number times anything is even), giving product 1. So (p/q)(q/p) = 1, meaning (p/q) = (q/p). The signs only flip when BOTH p and q are ≡ 3 (mod 4) — only then is the exponent odd."
 
-- question: "The law of quadratic reciprocity states that (p/q) = (q/p) for all distinct odd primes p and q."
+- question: "The law of quadratic reciprocity states that (p/q) = (q/p) for most distinct odd primes p and q."
   type: true-false
   answer: false
   explanation: "This is the most common misstatement of the law. The law says (p/q)(q/p) = (−1)^{(p−1)/2 · (q−1)/2}, not that (p/q) = (q/p). When both p ≡ q ≡ 3 (mod 4), the product equals −1, so the two Legendre symbols are *opposite* in sign. For example, (3/7) = −1 and (7/3) = 1, confirming they differ."

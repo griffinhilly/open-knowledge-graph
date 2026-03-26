@@ -39,7 +39,7 @@ Thinking E[X] is always the most likely value. Confusing variance with standard 
   answer: 1
   explanation: "E[2X + 3] = 2·E[X] + 3 = 2(5) + 3 = 13. Var(2X + 3) = 2²·Var(X) = 4·4 = 16. The constant +3 shifts the distribution without changing spread (variance unaffected), while scaling by 2 multiplies all distances from the mean by 2, so squared distances (variance) multiply by 4."
 
-- question: "The expected value E[X] of a discrete random variable is always the value X is most likely to take."
+- question: "The expected value E[X] of a discrete random variable is typically the value X is most likely to take."
   type: true-false
   answer: false
   explanation: "E[X] is the long-run average (weighted mean), not the mode (most likely value). For example, if X = 0 with probability 0.9 and X = 100 with probability 0.1, then E[X] = 10 — but X is most likely to equal 0. The expected value can even be a value X never actually takes (like E[die roll] = 3.5)."

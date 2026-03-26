@@ -52,7 +52,7 @@ Simulate LRU, FIFO, and random replacement on a small cache with a fixed access 
   answer: 1
   explanation: "For a 2-way cache, LRU needs only 1 bit per set. For an 8-way set-associative cache, tracking exact access order requires log2(8!) bits and complex update logic per access — prohibitively expensive at cache speeds. Pseudo-LRU tree-based schemes approximate 'least recently used' with far fewer bits and simpler updates, trading some accuracy for practical implementation."
 
-- question: "Random replacement is a naive fallback strategy that is always outperformed by LRU and FIFO in practice."
+- question: "Random replacement is a naive fallback strategy that is typically outperformed by LRU and FIFO in practice."
   type: true-false
   answer: false
   explanation: "Random replacement is a well-studied policy used in production CPUs (including some ARM Cortex designs). It performs within a few percent of LRU on typical workloads and actually outperforms LRU on adversarial cyclic patterns, because its misses are unpredictable rather than systematically worst-case. 'Random' avoids the pitfalls of deterministic policies."

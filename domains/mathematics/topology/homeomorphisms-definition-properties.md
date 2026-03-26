@@ -43,7 +43,7 @@ A homeomorphism is a continuous bijection with continuous inverse. Two spaces ar
   answer: 0
   explanation: "Removing an interior point from [0,1] splits it into two disjoint open intervals — the space becomes disconnected. But removing any single point from S¹ leaves a connected arc. Since homeomorphisms preserve connectedness, and the 'remove a point' operation yields different connectivity results, the two spaces cannot be homeomorphic. This is the template: find a topological invariant they disagree on."
 
-- question: "A continuous bijection f: X → Y is always a homeomorphism."
+- question: "A continuous bijection f: X → Y is generally a homeomorphism."
   type: true-false
   answer: false
   explanation: "A homeomorphism requires both f and f⁻¹ to be continuous. A continuous bijection can fail to be a homeomorphism when the inverse is discontinuous. The standard example: f: [0,1) → S¹ wrapping the interval onto the circle is continuous and bijective, but the inverse is not continuous at the identification point. Continuity of f and bijectivity together do not force f⁻¹ to be continuous."

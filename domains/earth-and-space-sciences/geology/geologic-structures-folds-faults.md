@@ -64,7 +64,7 @@ Modeling fold geometry with layers of clay or foam under compression gives an im
   answer: true
   explanation: "Anticlines are not necessarily ridges. The tensional cracks that form along an anticline's crest make it more susceptible to erosion than the compressed core of an adjacent syncline. Over time, differential erosion can create an anticlinal valley and a synclinal ridge — a complete topographic inversion of the fold geometry. Structural geology requires reading the age patterns in rock layers, not assuming that hills are anticlines and valleys are synclines."
 
-- question: "The same limestone unit will always respond to stress the same way — either always faulting brittlely or always folding ductilely — because rock behavior is fixed by rock type."
+- question: "The same limestone unit will typically respond to stress the same way — either generally faulting brittlely or generally folding ductilely — because rock behavior is fixed by rock type."
   type: true-false
   answer: false
   explanation: "Rock behavior under stress depends on conditions at the time of deformation, not just rock type. The same limestone unit near the surface (low temperature, low confining pressure, fast strain rate) will tend to fracture and fault. At depth (high temperature, high pressure, slow strain rate), the same rock type may deform plastically and fold. Strain rate is particularly important: even at modest temperatures, very slow stress allows rocks to flow ductilely. This is why mountain belts show faulting in their shallow outer zones and folding in their deeper interiors."

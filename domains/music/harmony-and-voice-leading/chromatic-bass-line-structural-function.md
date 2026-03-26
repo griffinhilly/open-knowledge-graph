@@ -52,7 +52,7 @@ Chromatic bass lines (such as descending chromatic walks) create linear continui
   answer: true
   explanation: "This dual-level analysis is the core insight of the topic. At the surface level, the bass participates in each chord as root or inversion, and each chord can be analyzed locally. At the structural level, the ear follows the bass as a continuous melodic thread connecting structural harmonic goals — tonic to dominant, or one key area to another. The chromatic steps in between are passing tones at the structural level. This two-level thinking anticipates the Schenkerian reduction framework the course builds toward."
 
-- question: "A chromatic bass line restricts the harmonic choices available above it because all chords must remain diatonic to preserve tonal coherence."
+- question: "A chromatic bass line restricts the harmonic choices available above it because most chords should remain diatonic to preserve tonal coherence."
   type: true-false
   answer: false
   explanation: "The opposite is true: the linear logic of a chromatic bass line *enables* greater harmonic richness and non-diatonic activity above it. Because the bass provides clear directional momentum and structural coherence through its step-wise descent, the harmonist has more freedom to use chromatic or non-diatonic chords above. The bass is doing the work of unifying the passage; the chords above can be harmonically adventurous. The *lamento* bass and its descendants throughout Baroque, Classical, and Romantic music demonstrate this — the bass holds things together while the harmonies above explore."

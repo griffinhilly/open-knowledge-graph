@@ -61,7 +61,7 @@ Practice converting between concentration units for the same solution — this r
   answer: true
   explanation: "This is the principle behind the dilution equation M₁V₁ = M₂V₂. Moles of solute = M × V. When only solvent is added, the moles of solute do not change, but the total volume increases, so molarity (moles/volume) decreases. The equation works precisely because moles are conserved: M₁V₁ = moles = M₂V₂."
 
-- question: "For any aqueous solution, molarity and molality always have the same numerical value because water has a density of 1 kg/L."
+- question: "For any aqueous solution, molarity and molality typically have the same numerical value because water has a density of 1 kg/L."
   type: true-false
   answer: false
   explanation: "Molarity and molality are only approximately equal for *dilute* aqueous solutions. Molarity uses total solution volume (solute + solvent); molality uses solvent mass only. For dilute solutions where the solute contributes little to the total volume or mass, the values are numerically close. But for concentrated solutions — like 18 M sulfuric acid — they diverge dramatically. And for non-aqueous solvents, the approximation breaks down even at low concentrations."

@@ -46,7 +46,7 @@ Gibbs free energy G = H − TS = U + PV − TS is the natural thermodynamic pote
   answer: 2
   explanation: "Phase equilibrium is the condition G_solid = G_liquid. If G_liquid were lower, all the ice would melt; if G_solid were lower, all the water would freeze. Coexistence requires equality. Below T_m the solid has lower G and is stable; above T_m the liquid wins. The transition point is exactly where the two G curves cross. This is the Gibbs criterion for phase equilibrium, and it makes phase transitions transparent: you just find where two G surfaces intersect."
 
-- question: "A reaction releases heat (ΔH < 0). This guarantees the reaction is spontaneous at all temperatures."
+- question: "A reaction releases heat (ΔH < 0). This guarantees the reaction is spontaneous at most temperatures."
   type: true-false
   answer: false
   explanation: "ΔG = ΔH − TΔS. Even with ΔH < 0, if ΔS is also negative (the reaction decreases disorder), then at high temperatures TΔS becomes a large positive number, making ΔG = ΔH − TΔS positive. A classic example: crystallization releases heat (ΔH < 0) but greatly reduces entropy (ΔS < 0), so it becomes non-spontaneous above a certain temperature. Spontaneity requires the full ΔG criterion; enthalpy alone is not sufficient."

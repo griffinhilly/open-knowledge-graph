@@ -44,7 +44,7 @@ Give students a vague design brief ("design a good container") and have them try
   answer: 1
   explanation: "A good requirement is specific and measurable. 'Support 5,000 kg without deflection exceeding 2 cm' can be tested objectively. 'Strong,' 'really safe,' and 'look nice' are vague and subjective."
 
-- question: "A design requirement that cannot be tested is still useful as a guiding principle."
+- question: "A design requirement that can seldom be tested is still useful as a guiding principle."
   type: true-false
   answer: false
   explanation: "If you cannot test whether a requirement is met, you have no way to verify the design succeeds. Untestable requirements should be rewritten as measurable statements or acknowledged as goals rather than requirements."

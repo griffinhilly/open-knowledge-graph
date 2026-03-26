@@ -56,7 +56,7 @@ Draw block diagrams and trace signal paths. Derive transfer functions for differ
   answer: 2
   explanation: "A disturbance that enters *inside* the feedback loop (before or within the forward path) affects the output, which the sensor measures. The controller sees the deviation from reference and generates corrective action. A disturbance at the output (after the plant, outside the loop) adds directly to the measured signal but bypasses the correction path — the controller sees the disturbed output but cannot distinguish disturbance from true output. Worse, high feedback gain amplifies output-side disturbances like sensor noise. The topology of where disturbances enter relative to the measurement point is critical to predicting what can be rejected."
 
-- question: "Increasing feedback gain always improves both tracking accuracy and system stability simultaneously."
+- question: "Increasing feedback gain generally improves both tracking accuracy and system stability simultaneously."
   type: true-false
   answer: false
   explanation: "This is a common misconception. While higher loop gain generally reduces steady-state error (improving tracking), it simultaneously reduces phase margin and can push closed-loop poles into the right half-plane, causing instability. Additionally, high gain amplifies sensor noise at the plant input. There is a fundamental tradeoff in feedback design: performance (tight tracking, fast disturbance rejection) versus robustness (stability margins). Every practical controller design must balance these — unlimited gain is not the answer."

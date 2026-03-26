@@ -49,7 +49,7 @@ When a wave encounters a boundary between two media with different impedances, p
   answer: true
   explanation: "When Z₂ < Z₁, the reflection coefficient R = (Z₂ − Z₁)/(Z₂ + Z₁) is negative. A negative R means the reflected wave is inverted in phase relative to the incident wave. This is why a string tied to a fixed wall (Z₂ → ∞) reflects with inversion, while a string attached to a free end (Z₂ = 0) reflects without inversion — both cases are captured by the sign of R."
 
-- question: "Perfect impedance matching (Z₁ = Z₂) is impossible to achieve in practice, so reflection can only be minimized but never eliminated."
+- question: "Perfect impedance matching (Z₁ = Z₂) is very difficult to achieve in practice, so reflection can mainly be minimized but rarely eliminated."
   type: true-false
   answer: false
   explanation: "Impedance matching can be exact. Two cable sections with identical characteristic impedance have zero reflection at their junction. Optical coatings and electrical matching networks can also achieve near-zero reflection. The formula R = (Z₂ − Z₁)/(Z₂ + Z₁) shows R = 0 exactly when Z₁ = Z₂, which is an achievable condition."

@@ -56,7 +56,7 @@ Draw feature geometry trees and show how hierarchical organization predicts whic
   answer: true
   explanation: "A segment with no underlying Place value has nothing to preserve or conflict with, so it can freely receive the Place node of its neighbor through assimilation. A fully specified segment would create a structural conflict — two Place values competing — which is typically resolved by blocking assimilation or causing deletion. Underspecification thus directly predicts which segments will be 'chameleon-like': those with absent specifications are the most transparent to spreading processes."
 
-- question: "Underspecification proposes that some phonological features are absent from the grammar entirely — they do not exist for sounds that appear to lack them."
+- question: "Underspecification proposes that some phonological features are absent from the grammar largely — they do not exist for sounds that appear to lack them."
   type: true-false
   answer: false
   explanation: "This is a key misconception. Underspecification does not claim features are absent from the phonological system — it claims they are not valued in underlying representations, but remain as structural positions that can be filled by rules, defaults, or assimilation. An 'absent' feature could never be filled in; an 'unspecified' feature is a structural slot waiting to receive a value. Feature geometry and underspecification model how these slots get filled predictably."

@@ -61,7 +61,7 @@ First internalize the syntactic/semantic distinction — properties of program d
   answer: true
   explanation: "'Computing the same function as program X' is a semantic property — it depends on the function computed, not the syntactic description. It is non-trivial: some programs compute the same function as X, others don't. Rice's theorem therefore guarantees this property is undecidable. This has major practical implications: program equivalence checking (crucial for compiler optimization, refactoring verification, and software testing) cannot be done exactly in general, only approximated."
 
-- question: "Rice's theorem proves that all properties of programs — including syntactic properties like code length or number of variables — are undecidable."
+- question: "Rice's theorem proves that most properties of programs — including syntactic properties like code length or number of variables — are undecidable."
   type: true-false
   answer: false
   explanation: "Rice's theorem applies only to semantic properties — properties about what a program computes, not about how it is written. Syntactic properties like 'this program has 10 states,' 'this code file is 500 lines,' or 'this function has 3 parameters' are decidable because they can be determined by reading the description without simulating the program. The theorem's scope is strictly limited to semantic (behavioral) properties. Static analysis tools exploit this by replacing undecidable semantic questions with decidable syntactic overapproximations."

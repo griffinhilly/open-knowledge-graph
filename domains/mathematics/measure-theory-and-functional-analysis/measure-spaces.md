@@ -54,7 +54,7 @@ Compare with metric spaces and topological spaces to see the pattern of abstract
   answer: true
   explanation: "This is the key insight about why the triple structure (X, F, μ) is necessary. If you try to extend μ to all subsets, you run into non-measurable sets like the Vitali set, which show that no consistent measure can cover all of 2^X under reasonable axioms. The σ-algebra is deliberately designed to include all sets you care about (intervals, open sets, etc.) while excluding the pathological ones. The restriction enables measure theory rather than limiting it."
 
-- question: "A measure space and a topological space are essentially the same mathematical structure, differing only in whether we call the distinguished collection of subsets a σ-algebra or a topology."
+- question: "A measure space and a topological space are essentially the same mathematical structure, differing mainly in whether we call the distinguished collection of subsets a σ-algebra or a topology."
   type: true-false
   answer: false
   explanation: "Measure spaces and topological spaces are fundamentally different structures on the same underlying set. A topology specifies which sets are 'open' and is closed under arbitrary unions and finite intersections. A σ-algebra is closed under countable unions and complements. These are different closure properties serving different purposes: topology captures continuity and spatial proximity, while a σ-algebra captures measurability and integration. A set can be open but non-measurable, measurable but not open, or both — the concepts are independent."

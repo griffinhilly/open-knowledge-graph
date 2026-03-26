@@ -50,7 +50,7 @@ That functions must be long or complex; that small functions are inefficient; th
   answer: 1
   explanation: "The most important benefit is that a bug fix propagates everywhere. If the calculation has an error and it appears in three places, fixing it in one place leaves the other two broken. With a single function, fixing the logic once fixes it everywhere the function is called. Reducing line count is a secondary benefit; the primary benefit is correctness and maintainability."
 
-- question: "Small functions that each do only one thing are inefficient in real programs and should be avoided in favor of fewer, larger functions."
+- question: "Small functions that each do mainly one thing are inefficient in real programs and should be avoided in favor of fewer, larger functions."
   type: true-false
   answer: false
   explanation: "This is a persistent misconception. In practice, the overhead of a function call is negligible in almost all programs — modern compilers and interpreters optimize it away. Small, single-responsibility functions are the foundation of readable, testable, maintainable code. The benefits far outweigh any theoretical performance cost that is nearly always immeasurable."

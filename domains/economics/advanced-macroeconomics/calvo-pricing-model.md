@@ -49,7 +49,7 @@ The Calvo pricing framework models price adjustment as random, with each firm re
   answer: true
   explanation: "This is the defining feature of Calvo pricing: the reset probability (1 − θ) is constant and memoryless — independent of how long the firm has been stuck or how misaligned its price has become. This is sometimes called the 'Calvo lottery.' It is mathematically convenient (it generates a tractable, stationary distribution of price vintages) and is the key assumption that makes DSGE models analytically solvable. The assumption is a simplification — in reality, firms with severely misaligned prices are more likely to update — but it is tractable and empirically reasonable on average."
 
-- question: "The Calvo model predicts that firms adjust prices frequently in small increments, keeping prices nearly always close to their optimal level."
+- question: "The Calvo model predicts that firms adjust prices frequently in small increments, keeping prices nearly generally close to their optimal level."
   type: true-false
   answer: false
   explanation: "The Calvo model predicts the opposite: firms adjust prices infrequently (only when they receive a random 'green light') and in large increments when they do adjust, because their prices may have drifted far from optimal during the period of being stuck. The realistic feature of Calvo pricing is that it generates lumpy, infrequent price changes, not continuous small adjustments. This matches empirical evidence showing prices are often unchanged for months before jumping by several percentage points when they do change."

@@ -57,7 +57,7 @@ Examine how cultural practices (agricultural techniques, dietary rules, healing 
   answer: 2
   explanation: "This analysis represents the biocultural approach: no single explanation (genes, culture, environment) suffices alone. The 'triple adaptation system' integrates genetic evolution, developmental plasticity (in-utero nutrition), and cultural-ecological factors (diet, access). Option D mischaracterizes the approach — biocultural anthropology doesn't reject genetic explanations but rather insists neither genes nor culture alone is sufficient."
 
-- question: "Biological adaptation is always slow (operating over many generations), while cultural adaptation is rapid — so in the short term, only cultural adaptation matters."
+- question: "Biological adaptation is typically slow (operating over many generations), while cultural adaptation is rapid — so in the short term, mainly cultural adaptation matters."
   type: true-false
   answer: false
   explanation: "This common assumption is false. Epigenetic changes can alter gene expression within a single generation in response to environmental conditions. Developmental plasticity — the body's adjustment during growth in response to nutrition, altitude, or disease load — can produce significant biological changes within a lifetime. Meanwhile, cultural change can sometimes be very slow (traditions, foodways, and ritual practices can persist for centuries). The clean separation of 'fast culture / slow biology' oversimplifies both."

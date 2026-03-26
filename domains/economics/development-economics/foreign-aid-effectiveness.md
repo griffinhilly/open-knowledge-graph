@@ -59,7 +59,7 @@ Compare outcomes in aid-dependent economies with varying governance. Study RCTs 
   answer: false
   explanation: "False. The ethical tension in selectivity is precisely the opposite: the countries with the worst governance often have the deepest poverty and the greatest humanitarian need. Selectivity means the most vulnerable populations in poorly governed states receive the least international assistance, because their governments cannot be trusted to use aid effectively. This creates a direct conflict between effectiveness (aid where it works) and equity (aid where it is needed most). Resolving this tension is one of the central normative debates in development economics."
 
-- question: "More foreign aid always increases public spending in a recipient country by at least the amount of the aid received, because aid adds resources to the government budget."
+- question: "More foreign aid typically increases public spending in a recipient country by at least the amount of the aid received, because aid adds resources to the government budget."
   type: true-false
   answer: false
   explanation: "False. Fungibility breaks this one-to-one relationship. Aid dollars can substitute for domestic revenue rather than supplement it. Empirical evidence shows that in many recipient countries, each dollar of aid increases total public spending by only 30–50 cents — the remainder displaces domestic revenue or flows into consumption and leakage. Aid does not stay in the budget category targeted by donors unless there is strong budget transparency and accountability. The institutions that enforce fiscal discipline within a country are precisely what many aid recipients lack."

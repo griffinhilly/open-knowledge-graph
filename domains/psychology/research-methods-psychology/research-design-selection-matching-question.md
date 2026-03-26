@@ -56,7 +56,7 @@ Experimental designs are always superior to other designs (actually, experiments
   answer: 2
   explanation: "The question asks about *prevalence* — the distribution of depression in a population at a specific time. This is a descriptive question best answered by a representative survey with careful sampling. An experiment (option A) tests whether economic stress *causes* depression, which is a different question. A correlational study in a convenience sample (option B) cannot generalize to the U.S. population. A qualitative study (option D) generates depth of understanding in a small sample but cannot estimate prevalence."
 
-- question: "Experimental designs are always superior to correlational designs because they provide stronger causal evidence."
+- question: "Experimental designs are typically superior to correlational designs because they provide stronger causal evidence."
   type: true-false
   answer: false
   explanation: "This is the most common misconception in research methods. Design quality depends entirely on fit between design and research question. For causal questions, experiments are superior. But for questions about naturalistic relationships (e.g., how personality traits relate to job outcomes), relational prevalence (how common is depression?), or phenomena that cannot be experimentally manipulated (effects of childhood trauma, personality, neurological conditions), correlational or descriptive designs are not just adequate — they are the *only* appropriate choice. A well-designed correlational study beats a poorly designed experiment at answering a relational question."

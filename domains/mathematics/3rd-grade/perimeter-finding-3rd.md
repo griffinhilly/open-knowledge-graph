@@ -58,7 +58,7 @@ Confusing perimeter with area; forgetting sides; misaligning the measuring tool.
   answer: true
   explanation: "Every side contributes to the perimeter, regardless of how sides look. Unless a diagram explicitly labels sides as equal (or the shape is a known regular polygon), you must measure each one individually. Stopping after the sides that look different, or skipping unlabeled sides, gives an incomplete and incorrect perimeter."
 
-- question: "A shape with a larger perimeter always encloses a larger area than a shape with a smaller perimeter."
+- question: "A shape with a larger perimeter typically encloses a larger area than a shape with a smaller perimeter."
   type: true-false
   answer: false
   explanation: "Perimeter and area are independent measurements. A very long, thin rectangle can have a large perimeter while enclosing a tiny area. For example, a 50 cm × 1 cm rectangle has perimeter 102 cm but area only 50 cm². A 10 cm × 10 cm square has perimeter 40 cm but area 100 cm² — smaller perimeter, larger area. The relationship between them depends entirely on the shape."

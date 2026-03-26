@@ -55,7 +55,7 @@ Ignoring the remainder; not understanding what it represents.
   answer: true
   explanation: "If the remainder were equal to or larger than the divisor, you could form one more complete group. For example, if 14 ÷ 3 gave a 'remainder' of 3, you could add one more group of 3, giving 5 groups instead of 4. The remainder is precisely the amount left that isn't enough for another full group — so by definition it must be less than the divisor. If your remainder equals or exceeds the divisor, you've made a calculation error."
 
-- question: "For the same division problem, the remainder always means you should round up to the next whole number."
+- question: "For the same division problem, the remainder typically means you should round up to the next whole number."
   type: true-false
   answer: false
   explanation: "What you do with the remainder depends entirely on the context. For the van problem, you round up (leftover students still need a ride). For cutting 3-foot pieces from a 14-foot rope, you get 4 pieces and 2 feet of scrap — you keep only complete pieces and the remainder is waste. The math (4 R2) is the same in both cases; the situation determines the interpretation. Always read the question to decide whether to round up, round down, or report the remainder."

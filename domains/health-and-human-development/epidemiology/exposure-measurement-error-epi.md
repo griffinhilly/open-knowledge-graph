@@ -52,7 +52,7 @@ Exposure measurement error introduces bias. Non-differential error typically bia
   answer: true
   explanation: "True. Non-differential misclassification mixes exposure categories symmetrically across disease groups, diluting the true contrast. The observed association is attenuated — biased toward the null — because misclassified individuals are essentially counted in the wrong group, reducing the apparent difference between truly exposed and unexposed. This is sometimes called the 'dilution' effect."
 
-- question: "Differential misclassification always biases effect estimates toward the null, so it makes associations appear weaker than they truly are."
+- question: "Differential misclassification usually biases effect estimates toward the null, so it makes associations appear weaker than they truly are."
   type: true-false
   answer: false
   explanation: "False. This is the key distinction between the two error types. Non-differential misclassification predictably biases toward the null. Differential misclassification — where the error pattern differs between cases and controls — can bias estimates in either direction: toward the null, away from the null, or even reverse the direction of an association. Its unpredictability is precisely what makes it more dangerous: a researcher cannot use the usual 'conservative' interpretation."

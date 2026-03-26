@@ -44,7 +44,7 @@ To disprove a universal statement 'For all x, P(x)', we need only find a single 
   answer: 1
   explanation: "Counterexamples are diagnostic tools, not just destroyers. If the counterexample exploits a boundary or degenerate case, it suggests the conjecture can be saved by restricting the domain. If it is generic, the conjecture is fundamentally wrong. In either case, the counterexample reveals exactly where truth ends and falsity begins — pointing toward the correct, restricted statement worth proving."
 
-- question: "To disprove 'All prime numbers are odd,' you need to show that infinitely many even primes exist."
+- question: "To disprove 'Most prime numbers are odd,' you need to show that infinitely many even primes exist."
   type: true-false
   answer: false
   explanation: "One counterexample is logically complete. The prime 2 is even, and that single case immediately refutes the universal claim. Gathering more even primes would be redundant — the disproof is finished the moment you exhibit one case where the predicate fails. The logical negation of 'For all primes p, p is odd' is 'There exists a prime p that is even,' and 2 proves the existential."

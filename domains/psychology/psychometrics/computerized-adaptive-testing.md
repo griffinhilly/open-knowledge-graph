@@ -51,7 +51,7 @@ CAT always reduces testing time. Poor stopping rules can result in lengthy tests
   answer: 1
   explanation: "CAT's efficiency advantage is real but conditional. Stopping rules determine when enough information has been gathered. A rule that terminates when the standard error of θ falls below 0.20 will require far more items than one that terminates at 0.30 — and for examinees near decision boundaries (in pass/fail tests), precision requirements can demand many more items than average. A naive stopping rule (e.g., always administer exactly 20 items) ignores these dynamics. Efficient CAT design requires matching the stopping rule to the precision needs of the testing purpose."
 
-- question: "CAT always produces shorter tests than fixed-length tests measuring the same construct with the same precision."
+- question: "CAT usually produces shorter tests than fixed-length tests measuring the same construct with the same precision."
   type: true-false
   answer: false
   explanation: "CAT typically achieves the same precision as a fixed-length test with 50–60% of the items — but only under good conditions: a well-calibrated item bank, appropriate stopping rules, and sufficient item diversity. Poor stopping rules can require more items than necessary; a small or poorly calibrated item bank limits the algorithm's options. In practice, CAT produces shorter tests than fixed-length tests only when designed and maintained carefully. The efficiency is conditional, not guaranteed."

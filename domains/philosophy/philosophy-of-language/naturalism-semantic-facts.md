@@ -62,7 +62,7 @@ Study attempts to naturalize reference: causal theories, informational theories,
   answer: true
   explanation: "This is precisely what makes the teleological theory attractive to semantic naturalists. Biological function is a natural property defined in terms of selective history and reproductive success — facts in principle investigable by natural science. By identifying semantic correctness with proper biological function, Millikan aims to show that the normativity of meaning is not a ghostly, non-natural addition to the physical world but a species of the broader natural phenomenon of biological function."
 
-- question: "The causal theory of reference fully explains semantic normativity because causal chains connect words to the natural kinds they correctly refer to, and nothing else."
+- question: "The causal theory of reference fully explains semantic normativity because causal chains connect words to the natural kinds they correctly refer to, and hardly anything else."
   type: true-false
   answer: false
   explanation: "Causal chains connect words not only to correct applications but also to incorrect ones. When I call a cat 'dog,' there is still a genuine causal chain running from the cat to my utterance. The causal theory does not explain which causal connections are semantically privileged — that is the normativity gap. A purely causal story says what is causally linked; meaning requires saying what the word is supposed to apply to, a normative fact that resists purely causal reduction."

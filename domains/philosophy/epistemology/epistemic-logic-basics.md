@@ -51,7 +51,7 @@ Epistemic logic extends modal logic with operators for knowledge (K) and belief 
   answer: 1
   explanation: "The 4 axiom (Kₐp → KₐKₐp) states that if you know p, you know that you know p — positive introspection. If an agent knows p but doesn't know she knows p, this axiom is violated. Students often confuse the 4 and 5 axioms: the 5 axiom concerns *negative* introspection (not knowing → knowing you don't know). Dropping the 5 axiom while keeping T and 4 gives S4, often used for belief, where you can fail to recognize your own ignorance."
 
-- question: "In epistemic logic, if a proposition p is actually true in the world, then every agent in the system knows p."
+- question: "In epistemic logic, if a proposition p is actually true in the world, then nearly every agent in the system knows p."
   type: true-false
   answer: false
   explanation: "The T axiom runs in only one direction: knowledge implies truth (Kₐp → p). Truth does not imply knowledge. An agent may be in a world where p is true but still have accessible worlds where p is false — those worlds are ones the agent cannot rule out. In the card example from the explainer: the card being red is true, but before you see it, you don't know it because red-false worlds remain epistemically accessible to you."

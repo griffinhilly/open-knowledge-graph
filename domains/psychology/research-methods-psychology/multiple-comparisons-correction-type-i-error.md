@@ -66,7 +66,7 @@ Bonferroni correction is always appropriate (actually, it can be overly conserva
   answer: true
   explanation: "Using the complement rule: P(at least one significant) = 1 − P(none significant) = 1 − (1 − .05)^20 = 1 − .95^20 ≈ 1 − .358 ≈ .642. This is the family-wise error rate (FWER) without any correction. It grows rapidly: 10 tests → ~40%, 30 tests → ~79%, 50 tests → ~92%. The intuition is powerful: each independent test is a separate lottery ticket with a 5% chance of a false 'win.' More tickets mean a near-certain false win eventually — even when nothing is real."
 
-- question: "Applying a multiple comparisons correction to a selected subset of statistically significant findings is sufficient to make those findings valid, even if the researcher ran many more tests and reported only the significant ones."
+- question: "Applying a multiple comparisons correction to a selected subset of statistically significant findings is sufficient to make those findings valid, even if the researcher ran many more tests and reported primarily the significant ones."
   type: true-false
   answer: false
   explanation: "Multiple comparisons corrections are designed to be applied to the entire family of tests conducted. If a researcher runs 100 tests, finds 5 significant results, and then applies Bonferroni correction only to those 5, the correction is meaningless — it ignores the 95 tests that 'failed,' which were equally available to produce false positives. Selective reporting of only significant findings makes the reported p-values uninterpretable regardless of any post-hoc correction. No statistical procedure can compensate for the bias introduced by non-disclosure of the full family of tests."

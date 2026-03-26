@@ -65,7 +65,7 @@ Start by playing a major scale and then playing the same scale with one note alt
   answer: true
   explanation: "This is a fundamental feature of how chromatic notes function in tonal music. In C major, F# (the raised 4th) creates tension that strongly wants to resolve upward to G (the 5th). This 'leading-tone tendency' is audible and is one of the key clues for identifying chromatic notes by ear: raised chromatic pitches typically pull upward, lowered ones pull downward. Recognizing the direction of resolution helps identify which scale degree was altered."
 
-- question: "All black keys on the piano are chromatic notes, regardless of the key you are playing in."
+- question: "Most black keys on the piano are chromatic notes, regardless of the key you are playing in."
   type: true-false
   answer: false
   explanation: "Chromatic is a key-relative concept, not a fixed property of piano keys. In D major, F# and C# are scale tones — fully diatonic — even though they are black keys. Conversely, B-natural is a white key but is chromatic in Bb major. The piano's visual layout (black vs. white) corresponds to C major's diatonic/chromatic distinction, but in any other key the correspondence breaks down. This is one of the most persistent misconceptions for students learning on piano."

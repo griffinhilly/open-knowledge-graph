@@ -45,7 +45,7 @@ Functors compose: given F: A → B and G: B → C, their composition GF: A → C
   answer: 1
   explanation: "The proof chains the two functor laws: first apply F's composition law to rewrite F(g ∘ f) = F(g) ∘ F(f), then apply G's composition law to rewrite G(F(g) ∘ F(f)) = G(F(g)) ∘ G(F(f)) = (GF)(g) ∘ (GF)(f). The proof is two applications of the functor axiom in sequence — no other properties of F or G are needed. This pattern of 'apply the inner functor law, then the outer' recurs throughout category theory."
 
-- question: "Functor composition is associative only up to natural isomorphism — that is, (HG)F and H(GF) are naturally isomorphic but may not be literally equal."
+- question: "Functor composition is associative mainly up to natural isomorphism — that is, (HG)F and H(GF) are naturally isomorphic but may not be literally equal."
   type: true-false
   answer: false
   explanation: "Functor composition is strictly associative: (HG)F = H(GF) as an equality of functors, not merely an isomorphism. This distinguishes Cat (the category of small categories with strict associativity) from a bicategory (where associativity holds only up to coherent isomorphism). The strict equality holds because functor composition is defined pointwise via function composition, which is itself strictly associative."

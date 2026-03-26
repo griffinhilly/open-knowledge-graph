@@ -49,7 +49,7 @@ Akerlof's 'Market for Lemons' shows that with quality uncertainty and adverse se
   answer: true
   explanation: "This is the central paradox of the lemons model. The gains from trade exist — buyers value good cars more than sellers do — but asymmetric information prevents those gains from being realized. Buyers cannot identify quality and will not pay the premium for something they cannot verify. Sellers of good cars will not accept the average price. The market failure is purely informational: if both parties had the same information, trade would occur. The existence of willing buyers and willing sellers is not sufficient for markets to function when information is severely asymmetric."
 
-- question: "The lemons problem predicts that sellers of high-quality goods can signal their quality by charging higher prices, since only sellers of good cars would be willing to ask more."
+- question: "The lemons problem predicts that sellers of high-quality goods can signal their quality by charging higher prices, since mainly sellers of good cars would be willing to ask more."
   type: true-false
   answer: false
   explanation: "Price alone is not a credible signal in Akerlof's basic model. A seller of a lemon can also ask a high price — price is cheap talk. Without a costly or verifiable signal, buyers correctly discount high asking prices. Credible signaling requires something that is expensive or impossible to fake: warranties (a lemon owner can't profitably offer a warranty), third-party inspections, or manufacturer certification. This is why Spence's later signaling model is needed to show how costly signals can restore information transmission."

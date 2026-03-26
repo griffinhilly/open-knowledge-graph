@@ -57,7 +57,7 @@ The highest-returning asset class is always the best choice; past returns guaran
   answer: 1
   explanation: "The retiree's time horizon is short: they may need to draw down savings soon and cannot wait out a 40% market drop. The 25-year-old has decades for compounding and recovery, so they can tolerate higher short-term volatility in exchange for higher expected long-run returns. Option A reflects the misconception that higher expected return is always better — it ignores sequence-of-returns risk, where a large early loss permanently impairs withdrawals."
 
-- question: "A portfolio with higher expected return is the better choice for any investor, since more wealth is always preferable to less."
+- question: "A portfolio with higher expected return is the better choice for any investor, since more wealth is typically preferable to less."
   type: true-false
   answer: false
   explanation: "Higher expected return comes with higher volatility and larger potential drawdowns. For an investor with a short time horizon or low risk tolerance, a severe downturn at the wrong time can cause permanent harm — forcing the sale of assets at depressed prices, or failing to meet income needs. Expected return is a long-run probabilistic average, not a guarantee. The 'better' portfolio depends on the investor's time horizon, income needs, and psychological tolerance for seeing their balance drop sharply."

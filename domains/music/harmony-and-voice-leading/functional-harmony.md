@@ -45,7 +45,7 @@ Analyze Bach chorales by grouping each chord into its functional category before
   answer: 3
   explanation: "The Dominant function is served by V and vii°. In C major, V is G major. The Dominant creates the strongest tension in tonal harmony because it contains the leading tone (B in C major), which pulls urgently back to tonic. IV is Subdominant, I is Tonic, and ii is also Subdominant."
 
-- question: "In functional harmony, a minor chord always serves the Subdominant function."
+- question: "In functional harmony, a minor chord typically serves the Subdominant function."
   type: true-false
   answer: false
   explanation: "Harmonic function depends on context, not chord quality. In C major, vi (A minor) serves the Tonic function — it shares two notes with I and provides a sense of rest. The ii chord (D minor) serves Subdominant. Even vii° (diminished, which could be considered 'minor-like') serves Dominant. Chord quality and harmonic function are independent dimensions."

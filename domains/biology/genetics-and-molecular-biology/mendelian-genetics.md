@@ -55,7 +55,7 @@ Perform monohybrid and dihybrid Punnett square problems and verify that the 3:1 
   answer: 1
   explanation: "From the Punnett square for Aa × Aa, the four equally probable outcomes are AA, Aa, Aa, aa — giving a 1:2:1 genotypic ratio. Only 1 in 4 offspring is expected to be aa (homozygous recessive). Option D is a common misconception: heterozygous parents show the dominant phenotype but carry one recessive allele, which can be passed to offspring."
 
-- question: "Two genes located on the same chromosome always follow Mendel's Law of Independent Assortment."
+- question: "Two genes located on the same chromosome generally follow Mendel's Law of Independent Assortment."
   type: true-false
   answer: false
   explanation: "Independent assortment holds when genes are on different chromosomes (or very far apart on the same chromosome). Genes physically close together on the same chromosome are linked and tend to be inherited together, violating independent assortment. Mendel's original results worked because the seven traits he chose happen to be on different chromosomes or far enough apart to behave independently — he was lucky in his choice of traits."

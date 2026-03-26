@@ -41,7 +41,7 @@ Have students measure the angles of several triangles and observe they sum to 18
   answer: 1
   explanation: "The three angles must sum to 180°. So the third angle is 180° − 47° − 85° = 48°. A common error is computing 47 + 85 = 132 and stopping there — that is the sum of the two known angles, not the unknown one. Another error is subtracting from 360° instead of 180°."
 
-- question: "The triangle angle sum theorem is a universal geometric truth that holds in all geometries, not just Euclidean geometry."
+- question: "The triangle angle sum theorem is a universal geometric truth that holds in most geometries, not just Euclidean geometry."
   type: true-false
   answer: false
   explanation: "The theorem depends on Euclid's parallel postulate. In spherical geometry (like the surface of a globe), the angles of a triangle sum to more than 180° — in fact, a triangle formed by two meridians and the equator can have three 90° angles, summing to 270°. In hyperbolic geometry, they sum to less than 180°. The theorem is specifically a consequence of Euclidean geometry's axioms."

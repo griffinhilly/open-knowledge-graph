@@ -51,7 +51,7 @@ Partial evaluation specializes a program by pre-computing it with known inputs, 
   answer: true
   explanation: "Constant folding replaces expressions like '3 + 4' with '7' locally. Partial evaluation extends this by following known values into function bodies, unrolling loops whose bounds are statically known, resolving conditionals whose conditions are static, and inlining calls where the arguments are known. This is a global, whole-program transformation, not a local peephole optimization. The result — the residual program — contains only computations that genuinely depend on the unknown inputs."
 
-- question: "Partial evaluation always produces a smaller, faster program than the original, making it a universally applicable optimization."
+- question: "Partial evaluation typically produces a smaller, faster program than the original, making it a universally applicable optimization."
   type: true-false
   answer: false
   explanation: "Partial evaluation can cause code explosion — producing residual programs much larger than the original. If a generic function is specialized for multiple different static inputs, the result is many large specialized copies, potentially worse in code size and instruction-cache performance than the generic original. This is why practical partial evaluators use binding-time analysis to limit specialization, and why partial evaluation is most valuable in specific scenarios (interpreter specialization, tight inner loops with known parameters) rather than as a blanket optimization."

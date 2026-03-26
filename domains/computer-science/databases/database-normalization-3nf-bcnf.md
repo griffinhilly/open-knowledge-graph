@@ -60,7 +60,7 @@ Work through examples where 3NF and BCNF differ — schemas with multiple overla
   answer: true
   explanation: "BCNF is strictly stronger than 3NF, so any schema satisfying BCNF trivially satisfies 3NF. BCNF requires that every non-trivial FD X → Y has X as a superkey — no exceptions. 3NF relaxes this with the candidate key escape clause. Since BCNF has no escape clause, it rules out every schema that violates 3NF and more. The inclusion chain is BCNF ⊂ 3NF ⊂ 2NF ⊂ 1NF (where ⊂ means strictly stronger condition on schemas)."
 
-- question: "BCNF decomposition always preserves all functional dependencies as enforceable single-table constraints."
+- question: "BCNF decomposition generally preserves most functional dependencies as enforceable single-table constraints."
   type: true-false
   answer: false
   explanation: "This is a critical practical limitation of BCNF. When a relation with overlapping candidate keys is decomposed to BCNF, some FDs may span multiple tables in the result — they can only be checked by joining tables, which is expensive. The example R(Student, Course, Instructor) with Instructor → Course: after BCNF decomposition, enforcing Instructor → Course requires a join. 3NF avoids this by preserving dependencies in individual tables. This trade-off is why 3NF is often preferred despite permitting some residual anomalies."

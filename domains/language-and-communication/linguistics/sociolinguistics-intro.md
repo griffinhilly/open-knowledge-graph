@@ -47,7 +47,7 @@ Collect examples of linguistic variation in your own community. Listen for how s
   answer: 2
   explanation: "Labov found that use of post-vocalic /r/ increased with the prestige level of the store (Saks > Macy's > S. Klein), demonstrating that phonological variation is socially structured rather than random. This is the foundational insight of variationist sociolinguistics."
 
-- question: "A dialect spoken only by working-class speakers in one city is linguistically inferior to the national standard dialect because it has fewer grammatical rules."
+- question: "A dialect spoken primarily by working-class speakers in one city is linguistically inferior to the national standard dialect because it has fewer grammatical rules."
   type: true-false
   answer: false
   explanation: "All natural dialects are rule-governed and equally complex as linguistic systems. The perception that non-standard dialects are 'less correct' reflects social hierarchies — the prestige of speakers — not any linguistic deficiency. This is one of the most important corrections sociolinguistics makes to popular understanding."

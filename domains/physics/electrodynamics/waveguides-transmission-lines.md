@@ -51,7 +51,7 @@ Waveguides and transmission lines confine waves to propagate along a path. Metal
   answer: true
   explanation: "A TEM mode requires both the electric and magnetic fields to be entirely transverse (perpendicular to the propagation direction). Applying Maxwell's equations to this configuration inside a single conductor shows that the transverse E field must be a static solution to the 2D Laplace equation with the conductor boundary. For a simply-connected boundary (a single closed conductor), the only such solution is E = 0 everywhere — trivial. TEM propagation requires at least two separate conductors (as in a coaxial cable or parallel wire line), so that the transverse field can be non-zero between them. This is why coaxial cables support TEM but hollow waveguides do not."
 
-- question: "A coaxial transmission line has a minimum operating frequency below which the TEM mode cannot propagate, analogous to the cutoff frequency of a metallic waveguide."
+- question: "A coaxial transmission line has a minimum operating frequency below which the TEM mode can seldom propagate, analogous to the cutoff frequency of a metallic waveguide."
   type: true-false
   answer: false
   explanation: "TEM modes have no cutoff frequency — they can propagate from DC upward without a lower frequency limit. This is because the TEM solution depends on the static (zero-frequency) transverse field structure between the conductors, which has no frequency threshold. This is why coaxial cables are used for broadband signals and even for DC measurements. The tradeoff is that at higher frequencies, higher-order TE and TM modes of the coaxial line can also appear, so there is an upper frequency limit for single-mode TEM operation — but no lower cutoff."

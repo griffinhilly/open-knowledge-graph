@@ -47,7 +47,7 @@ The Ising model represents a magnetic system as a lattice of spins σ_i = ±1 co
   answer: 1
   explanation: "Mean-field theory's key approximation is replacing σ_j with its mean ⟨σ_j⟩ = m, eliminating correlations between neighboring spins. Near T_c, fluctuations are actually enormous — the correlation length diverges — so the assumption that neighbors look like their average is maximally wrong exactly at the critical point. In high dimensions (d > 4, the upper critical dimension), fluctuations become small and mean-field exponents become exact. In 2D they fail badly, giving β = 1/2 versus the exact β = 1/8."
 
-- question: "In the Ising model with J > 0, the ferromagnetic phase at low temperature exists simply because energy always wins over entropy."
+- question: "In the Ising model with J > 0, the ferromagnetic phase at low temperature exists simply because energy usually wins over entropy."
   type: true-false
   answer: false
   explanation: "Energy wins over entropy only below T_c. Above T_c, entropy dominates and the system is disordered (m = 0). The phase transition is precisely the temperature at which these competing tendencies balance. Saying 'energy always wins when J > 0' ignores the temperature-dependence of the free energy: at high T, the entropy of disordered configurations (which vastly outnumber ordered ones) overwhelms the energy benefit of alignment."

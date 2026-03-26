@@ -51,7 +51,7 @@ Design a true experiment from scratch, specifying the IV, DV, random assignment 
   answer: 1
   explanation: "Random sampling (drawing a representative sample from a population) is about external validity — generalizing results to the broader population. Random assignment (allocating participants to conditions by chance) is about internal validity — ensuring groups are equivalent before manipulation so that differences in outcomes can be attributed to the treatment. A study can have one without the other."
 
-- question: "Randomization in a true experiment guarantees that the experimental and control groups are identical on all variables before the treatment begins."
+- question: "Randomization in a true experiment guarantees that the experimental and control groups are identical on most variables before the treatment begins."
   type: true-false
   answer: false
   explanation: "Randomization ensures group equivalence in expectation — on average, across many replications. With any finite sample, chance variation will leave some imbalance between groups. This is especially true with small samples, which is why statistical testing is still necessary even in randomized experiments: the test checks whether the observed difference between conditions exceeds what random variation alone would produce."

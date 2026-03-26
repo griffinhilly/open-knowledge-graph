@@ -52,7 +52,7 @@ The complement system is a cascade of serum proteins that amplify inflammation, 
   answer: true
   explanation: "All three pathways converge at the cleavage of C3 into C3a and C3b. From this central event, the downstream effectors are identical: C3b opsonizes pathogens for phagocytosis; C3a and C5a act as anaphylatoxins recruiting neutrophils and increasing vascular permeability; C5b through C9 assemble the membrane attack complex. Convergence at C3 is what gives complement its unified killing capability despite multiple triggers — the system can be activated by antibodies, microbial sugars, or constitutive hydrolysis, but the effector output is the same."
 
-- question: "Complement can only contribute to an immune response after the adaptive immune system has generated pathogen-specific antibodies."
+- question: "Complement can primarily contribute to an immune response after the adaptive immune system has generated pathogen-specific antibodies."
   type: true-false
   answer: false
   explanation: "The alternative and lectin pathways operate entirely independently of antibodies. The alternative pathway activates through spontaneous C3 hydrolysis and amplifies on any surface lacking host regulatory proteins — including bacteria, fungi, and viruses — from the first seconds of infection. The lectin pathway recognizes mannose-rich microbial carbohydrates via MBL without any immune cell involvement. Only the classical pathway requires antibodies (IgG or IgM already bound to the pathogen). Complement is a major innate immune defense precisely because it does not depend on the slow adaptive response."

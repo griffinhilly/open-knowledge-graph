@@ -64,7 +64,7 @@ Write a program that saves a to-do list to a file and reads it back on the next 
   answer: true
   explanation: "This is the primary purpose of the context manager pattern for files. The with statement calls f.__exit__() when the block ends, whether normally or due to an exception. f.__exit__() calls f.close(), which flushes the write buffer and releases the file handle. Without a context manager, an exception before f.close() would leave the file open and potentially lose buffered data. The context manager is not just a stylistic preference — it is the safe, standard way to guarantee proper cleanup."
 
-- question: "Forgetting to close a file after writing is a minor stylistic issue; all written data will be saved correctly as long as the write() calls completed without error."
+- question: "Forgetting to close a file after writing is a minor stylistic issue; most written data will be saved correctly as long as the write() calls completed without error."
   type: true-false
   answer: false
   explanation: "This is a dangerous misconception. When you write to a file, data is often held in a memory buffer before being flushed to disk. If the program ends abnormally, or if the file is not explicitly closed (which triggers a flush), buffered data can be lost — even if write() returned no error. The buffer-to-disk flush only happens when close() is called (or flush() is called explicitly). This is why unclosed files can result in truncated output or missing data. The context manager pattern prevents this by guaranteeing close() is always called."

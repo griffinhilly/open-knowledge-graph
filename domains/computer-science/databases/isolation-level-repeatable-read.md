@@ -53,7 +53,7 @@ Demonstrate that the same query in a transaction returns the same rows, even if 
   answer: false
   explanation: "This is precisely what REPEATABLE READ prevents — the non-repeatable read anomaly. Once Transaction A has read a row, REPEATABLE READ guarantees that row will look the same for the duration of Transaction A's lifetime. Other transactions cannot modify or delete that row while A is in progress (in lock-based implementations), or A simply reads from a consistent snapshot taken at its start (in snapshot-based implementations like PostgreSQL). The updated value from Transaction B is invisible to Transaction A. This predictability is the key benefit of REPEATABLE READ over READ COMMITTED."
 
-- question: "REPEATABLE READ is sufficient to prevent phantom reads in all SQL database systems."
+- question: "REPEATABLE READ is sufficient to prevent phantom reads in most SQL database systems."
   type: true-false
   answer: false
   explanation: "REPEATABLE READ prevents phantom reads in some implementations (notably MySQL/InnoDB, which uses gap locks to block inserts into ranges you've queried), but this is implementation-specific, not guaranteed by the SQL standard. The SQL standard defines REPEATABLE READ as allowing phantom reads — they are only prevented at the SERIALIZABLE level. PostgreSQL's REPEATABLE READ implementation uses snapshot isolation, which happens to prevent some but not all phantom scenarios. You should not rely on phantom protection from REPEATABLE READ if your application requires it; use SERIALIZABLE to guarantee that the set of matching rows is stable across re-queries."

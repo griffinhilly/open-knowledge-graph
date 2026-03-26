@@ -50,7 +50,7 @@ Create a 9-10 step grayscale value scale using your medium. Then repaint an exis
   answer: 1
   explanation: "Value contrast means the difference in lightness between two elements. Yellow is an inherently light-valued color; navy is an inherently dark-valued color — this pairing spans nearly the full value scale and would remain strongly visible in grayscale. The other options pair colors that share similar values (medium blue vs. medium green; red vs. orange; dark brown vs. dark purple), producing low contrast that reduces readability. High contrast requires one element to be much lighter and one much darker."
 
-- question: "A composition that looks colorful and visually distinct in full color will always look equally clear and readable when converted to grayscale."
+- question: "A composition that looks colorful and visually distinct in full color will typically look equally clear and readable when converted to grayscale."
   type: true-false
   answer: false
   explanation: "Color contrast and value contrast are independent. A vivid, colorful composition can nearly disappear in grayscale if the hues involved share similar lightness values. The explainer gives the example of a red circle on orange: 'vivid in color but nearly disappears in grayscale because the two colors share similar values.' This is why designers check their work in grayscale — if it doesn't read clearly without color, it won't have reliable visual clarity."

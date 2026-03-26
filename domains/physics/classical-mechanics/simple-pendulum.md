@@ -60,7 +60,7 @@ Measure pendulum period for various lengths and verify the T ∝ √L relationsh
   answer: true
   explanation: "T = 2π√(L/g), so T ∝ √L. If L doubles, the new period is T' = 2π√(2L/g) = √2 · 2π√(L/g) = √2 · T ≈ 1.414T. To double the period you would need to quadruple the length (since √4 = 2). This non-linear dependence — period scales as the square root of length — is a characteristic feature of the pendulum and an important counterexample to the naive expectation that 'doubling the length doubles the period.'"
 
-- question: "The period formula T = 2π√(L/g) is exact for all oscillation amplitudes, as long as the pendulum is a true 'simple pendulum' (point mass on a massless string)."
+- question: "The period formula T = 2π√(L/g) is exact for most oscillation amplitudes, as long as the pendulum is a true 'simple pendulum' (point mass on a massless string)."
   type: true-false
   answer: false
   explanation: "The formula is approximate — valid only for small angles (typically θ < 15° for better than ~1% accuracy). It follows from the small-angle approximation sin θ ≈ θ, which linearizes the equation of motion. The true equation of motion is α = −(g/L) sin θ, which is nonlinear. The true period for amplitude θ₀ involves an elliptic integral and depends on θ₀ — it grows with amplitude. At 30° the error is ~1.7%; at 45° ~4.5%; at 90° ~18%. A real pendulum clock run at large amplitude would lose time."

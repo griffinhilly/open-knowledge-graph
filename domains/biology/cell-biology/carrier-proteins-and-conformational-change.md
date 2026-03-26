@@ -57,7 +57,7 @@ Study the ping-pong kinetic mechanism of carriers; use radiolabeled substrates t
   answer: true
   explanation: "The pump exports 3 Na⁺ and imports 2 K⁺ per ATP hydrolyzed, moving a net one positive charge out of the cell per cycle. This asymmetry makes the pump electrogenic: it directly hyperpolarizes the membrane beyond what would be predicted by ion gradients alone. A pump moving equal positive charges in opposite directions would be electroneutral."
 
-- question: "Carrier proteins are similar to ion channels in that both create a continuous open pathway through the membrane — the key difference is only that carriers bind their substrates more tightly."
+- question: "Carrier proteins are similar to ion channels in that both create a continuous open pathway through the membrane — the key difference is mainly that carriers bind their substrates more tightly."
   type: true-false
   answer: false
   explanation: "Carrier proteins never form an open pore. The alternating access model specifies that the binding site is always exposed to only one side of the membrane at a time — the protein seals on one side before opening on the other. This 'revolving door' mechanism is fundamentally different from channels, which maintain an open pathway. It is why carriers are far slower (~10³ ions/sec) than channels (~10⁷ ions/sec) but are more selective and can transport substrates against their gradients."

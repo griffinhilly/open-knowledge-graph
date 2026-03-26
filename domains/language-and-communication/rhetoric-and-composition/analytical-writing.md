@@ -56,7 +56,7 @@ Start with a single passage or artifact and practice generating multiple interpr
   answer: 2
   explanation: "The most common failure in student analytical writing is spending most words on evidence (quoting or describing) and very few words explaining what the evidence means. The ratio should run the other way: get to the evidence quickly, then spend most of your words on the 'so what?' — explaining why this evidence supports your interpretive claim, what it reveals, why the alternative interpretation is less convincing. Evidence without interpretation is not analysis; it is a list."
 
-- question: "A strong analytical essay should cover all significant features of the text or artifact being analyzed to ensure the argument is thorough and complete."
+- question: "A strong analytical essay should cover most significant features of the text or artifact being analyzed to ensure the argument is thorough and complete."
   type: true-false
   answer: false
   explanation: "Effective analysis is intentionally selective. Attempting to cover everything in a text of any length produces an inventory of observations, not an argument. The discipline of analysis is choosing: which features most directly illuminate the thesis? Which evidence would actually shift a skeptic's view? The rest should be left out, even if interesting. Selectivity is not laziness — it is the analytical writer's most important judgment call."

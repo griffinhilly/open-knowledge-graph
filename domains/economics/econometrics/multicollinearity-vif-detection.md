@@ -57,7 +57,7 @@ The Variance Inflation Factor VIFⱼ = 1 / (1 - Rⱼ²) measures how much varian
   answer: true
   explanation: "VIF = 1/(1 − Rⱼ²). When Rⱼ² = 0, the auxiliary regression explains none of predictor j's variation — meaning the other predictors share no information with j. VIF = 1/1 = 1 corresponds to a multiplicative inflation of exactly 1 (no inflation). This is the baseline case of perfectly orthogonal design."
 
-- question: "High VIF values are always a critical problem requiring remediation before a regression model can be used for any purpose."
+- question: "High VIF values are typically a critical problem requiring remediation before a regression model can be used for any purpose."
   type: true-false
   answer: false
   explanation: "Whether high VIF is a problem depends on the goal. For prediction, multicollinearity is largely benign: OLS predictions can remain accurate even with high VIFs, as long as the collinearity structure in the training data mirrors what will be seen in prediction. High VIF is a serious problem for causal interpretation, because it means individual coefficient estimates are noisy and unstable. Remediation (dropping variables, PCA, collecting more data) is necessary when you need to make causal claims about specific predictors."

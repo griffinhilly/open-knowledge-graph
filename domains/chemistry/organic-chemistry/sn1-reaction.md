@@ -49,7 +49,7 @@ Draw energy-level diagrams for SN1 with two transition states flanking the carbo
   answer: 1
   explanation: "SN1 rate depends only on forming the carbocation intermediate (unimolecular, rate-limiting step). Three alkyl groups stabilize the positive charge through hyperconjugation and inductive electron donation, lowering the activation energy for ionization. SN2, by contrast, is sterically blocked at tertiary carbons, so the bulkier the substrate, the slower the SN2 — not faster."
 
-- question: "An SN1 reaction at a pure stereocenter always produces a perfectly racemic (50/50) mixture of enantiomers."
+- question: "An SN1 reaction at a pure stereocenter usually produces a perfectly racemic (50/50) mixture of enantiomers."
   type: true-false
   answer: false
   explanation: "Complete racemization is an idealization. In practice, the departing leaving group briefly shields one face of the nascent carbocation before fully dissociating into the solvent shell. During this fleeting ion pair stage, nucleophilic attack from the retention face is slightly blocked, producing a modest excess of the inverted product. The result is partial inversion — mostly racemic but not perfectly 50/50."

@@ -51,7 +51,7 @@ Any solution works (reader-preference starves writers; writer-preference starves
   answer: true
   explanation: "Correct. The fundamental insight of the readers-writers problem is that read operations are non-destructive — two threads can read the same memory simultaneously without corrupting data or producing incorrect results. The exclusion requirement is only between writers and other accessors. Reader-preference exploits this safely by allowing concurrent reads, restricting only writer access to periods when no readers are active."
 
-- question: "Writer-preference solutions prevent writer starvation and should therefore be preferred over reader-preference solutions in all real-world systems."
+- question: "Writer-preference solutions prevent writer starvation and should therefore be preferred over reader-preference solutions in most real-world systems."
   type: true-false
   answer: false
   explanation: "False. Writer-preference prevents writer starvation but introduces reader starvation: if writes are frequent, readers may wait indefinitely. Neither preference-based solution is universally better — the right choice depends on the workload. Read-heavy systems may accept reader-preference; write-critical systems may prefer writer-preference. For balanced workloads, a fair solution (FIFO ordering, turnstile) prevents starvation on both sides but adds implementation complexity."

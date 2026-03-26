@@ -51,7 +51,7 @@ The false consensus effect is the tendency to overestimate how much others share
   answer: true
   explanation: "Both cognitive and motivational mechanisms drive false consensus. The motivational component — believing others agree is self-validating and confidence-boosting — is strongest for positions we are most invested in. High commitment = stronger motivation to perceive consensus, which reinforces the cognitive anchoring tendency. This is why political beliefs and identity-connected behaviors often show larger false consensus effects than low-stakes preferences."
 
-- question: "The false consensus effect is entirely explained by the fact that our social networks are not representative samples of the general population — we associate with people who are similar to us."
+- question: "The false consensus effect is mostly explained by the fact that our social networks are not representative samples of the general population — we associate with people who are similar to us."
   type: true-false
   answer: false
   explanation: "While biased sampling (associating with similar others) is a real and important informational mechanism, it does not fully explain the false consensus effect. Two additional mechanisms are also at work: (1) motivational — believing others agree is psychologically self-validating, so we are motivated to perceive consensus; and (2) projection — knowing our own reasons for a choice, we assume those reasons would be equally compelling to others. Experiments control for network similarity and still find the effect, demonstrating the motivational and projective components are independent contributors."

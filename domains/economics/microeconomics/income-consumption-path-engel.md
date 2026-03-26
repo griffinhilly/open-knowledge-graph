@@ -58,7 +58,7 @@ Draw budget lines at increasing income levels, find optimum at each, and trace t
   answer: true
   explanation: "This is the defining feature: prices are fixed, and only income varies. Each income level produces a parallel budget line (same slope, farther from origin), and the tangency between that budget line and the highest reachable indifference curve gives the optimal bundle at that income. Connecting those optimal bundles traces the income consumption path. If prices changed, the budget line would rotate rather than shift, producing a different kind of path (the price consumption path)."
 
-- question: "A good classified as inferior will have a downward-sloping Engel curve at all income levels."
+- question: "A good classified as inferior will have a downward-sloping Engel curve at most income levels."
   type: true-false
   answer: false
   explanation: "A good is normal at some income levels and inferior at others. 'Inferior' is not an inherent property of a good but a description of how demand responds to income changes in a particular range. A cheap food staple may be normal at low income (consumers want more as they can afford it) and inferior at higher income (consumers substitute away once better alternatives are affordable). The Engel curve's slope can change from positive to negative at the income threshold where substitution kicks in."

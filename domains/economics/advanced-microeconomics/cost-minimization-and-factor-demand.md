@@ -55,7 +55,7 @@ Firms minimize cost for any target output by equating the marginal rate of techn
   answer: true
   explanation: "This tangency condition is the geometric statement of the optimality condition MRTS = w₁/w₂. At the tangency point, the rate at which the production technology allows substitution between inputs (MRTS) exactly equals the rate at which the market allows substitution between inputs (price ratio). If they differ, the firm can maintain output while spending less by substituting toward the relatively cheaper input. The tangency is the unique point where no further cost-saving substitution is possible."
 
-- question: "To minimize production costs, a firm should always allocate more resources to the input with the highest marginal product, since that input generates the most output per unit used."
+- question: "To minimize production costs, a firm should typically allocate more resources to the input with the highest marginal product, since that input generates the most output per unit used."
   type: true-false
   answer: false
   explanation: "Cost minimization depends on marginal product relative to input price, not marginal product alone. The correct condition is MP₁/w₁ = MP₂/w₂ (equivalently, MRTS = w₁/w₂): the marginal product per dollar must be equal across all inputs. If input 1 has a very high marginal product but also a very high price, it may be less cost-effective than input 2. A firm that ignored prices and simply hired more of the highest-MP input could easily be spending more than necessary to achieve its output target."

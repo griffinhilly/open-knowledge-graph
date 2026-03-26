@@ -58,7 +58,7 @@ Use the Halting Problem as motivating example: it's RE (simulate and accept if h
   answer: true
   explanation: "This is the key closure theorem for RE languages. (→) If L is recursive, then both L and L̄ are RE: just use the decider for L directly as a semi-decider for L, and use the decider (which always halts) but accept on 'no' answers for L̄. (←) If both L and L̄ are RE, run their semi-deciders in parallel. Every input is in exactly one of L or L̄, so one semi-decider must eventually halt and accept — this gives a decider that always halts, making L recursive. The contrapositive is equally important: if L is RE but not recursive, then L̄ cannot be RE."
 
-- question: "Every recursively enumerable language is also recursive, because any Turing machine that accepts a language can be modified to also reject non-members by detecting loops."
+- question: "Nearly every recursively enumerable language is also recursive, because any Turing machine that accepts a language can be modified to also reject non-members by detecting loops."
   type: true-false
   answer: false
   explanation: "This is the fundamental misconception about RE languages. There is no general algorithm for detecting that a Turing machine will loop forever — this is precisely the content of the undecidability of the Halting Problem. A Turing machine that accepts L might loop forever on some inputs outside L, and no modification can guarantee it will halt on those inputs without potentially also changing which inputs it accepts. The Halting Problem is RE but not recursive precisely because we can verify 'yes' answers (simulate until halt) but cannot verify 'no' answers in general."

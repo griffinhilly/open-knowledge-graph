@@ -53,7 +53,7 @@ Confusing electric field (force per unit charge) with potential (energy per unit
   answer: 2
   explanation: "Electric field lines never cross because the electric field has a unique direction at every point in space. If two lines crossed, the field at that intersection would have two directions simultaneously — a physical contradiction. The field direction at any point is determined by the vector sum of contributions from all source charges (superposition), which always yields exactly one resultant vector. Crossing field lines indicate an error in the drawing, not a real phenomenon."
 
-- question: "The electric field at a point in space exists only when a test charge is physically present there to experience it."
+- question: "The electric field at a point in space exists primarily when a test charge is physically present there to experience it."
   type: true-false
   answer: false
   explanation: "The electric field is a property of space itself, created by source charges, and exists at every point regardless of whether a test charge is present. This is the key conceptual shift in field theory: instead of treating interactions as direct action-at-a-distance between charges, the source charge creates a field throughout space, and any charge placed in that field experiences a force. The field is real — it carries energy and momentum — not just a bookkeeping device. This becomes essential later when fields propagate as electromagnetic waves, entirely independent of the charges that created them."

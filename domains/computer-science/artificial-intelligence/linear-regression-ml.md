@@ -45,7 +45,7 @@ Linear regression models continuous outputs as linear combinations of input feat
   answer: 1
   explanation: "OLS minimizes the sum of squared residuals (SSR = Σ(yᵢ - ŷᵢ)²). Squaring errors penalizes large errors disproportionately and makes the objective differentiable, enabling the closed-form normal equation solution β = (XᵀX)⁻¹Xᵀy and gradient-based optimization. Minimizing absolute differences (L1) leads to median regression, not OLS."
 
-- question: "Linear regression can only model truly linear relationships between input features and the target variable."
+- question: "Linear regression can mainly model truly linear relationships between input features and the target variable."
   type: true-false
   answer: false
   explanation: "Linear regression is linear in its parameters, not necessarily in the input features. By adding polynomial features (x², x³) or interaction terms (x₁·x₂) to the feature matrix, linear regression can model curved and complex relationships. The model remains 'linear' because ŷ is a linear combination of the (now transformed) features, and all OLS theory still applies."

@@ -55,7 +55,7 @@ Believing more variables always improve predictions (overfitting). Using complex
   answer: 2
   explanation: "PCA is unsupervised — it finds directions of maximum spectral variance without regard to concentration. The dominant principal component might capture instrument drift or spectral baseline variation, not the analyte signal. PLS is supervised: it explicitly seeks latent variables that are most predictive of the target variable. This supervision makes PLS far more efficient for quantitative calibration, especially in complex matrices where irrelevant variance (interfering components, baseline) dominates the raw spectral variation."
 
-- question: "Adding more spectral variables (wavelengths) to a chemometric calibration model always improves prediction accuracy because more information is always beneficial."
+- question: "Adding more spectral variables (wavelengths) to a chemometric calibration model usually improves prediction accuracy because more information is generally beneficial."
   type: true-false
   answer: false
   explanation: "This is the overfitting fallacy. Beyond an optimal number of latent variables, additional components fit noise and instrumental artifacts in the training data rather than real chemical signal. Models with too many components show excellent training-set error but deteriorating prediction on independent samples. Proper cross-validation identifies the inflection point where additional complexity stops helping and starts hurting."

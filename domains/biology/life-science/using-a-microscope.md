@@ -37,7 +37,7 @@ Hands-on practice is the only real way to learn microscopy. Start with familiar 
   answer: 2
   explanation: "Always start at the lowest magnification. This gives the widest field of view, making it easiest to find and center your specimen. Once the image is focused at low power, you can switch to higher magnification for a closer look. Starting at high magnification makes it very hard to find anything because the field of view is tiny."
 
-- question: "A compound microscope uses only one lens to magnify objects."
+- question: "A compound microscope uses mainly one lens to magnify objects."
   type: true-false
   answer: false
   explanation: "A compound microscope uses two sets of lenses — the eyepiece lens and the objective lens — working together. 'Compound' means the magnification of both lenses is multiplied. For example, a 10x eyepiece with a 40x objective gives 400x total magnification."

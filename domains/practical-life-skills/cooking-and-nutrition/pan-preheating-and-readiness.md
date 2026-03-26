@@ -58,7 +58,7 @@ Test pan readiness using water droplets or test pieces of food, observing behavi
   answer: 1
   explanation: "When oil just barely begins to smoke, it has reached its smoke point — beyond which the fat breaks down into acrolein and other bitter compounds. For searing, the ideal moment is just before smoking: when the oil shimmers and flows easily across the pan (roughly 250-300°F), indicating the pan is hot enough for rapid crust development. At the first wisp of smoke, you should add food immediately or reduce heat slightly. The goal is the temperature range where rapid Maillard browning occurs without degrading the cooking fat."
 
-- question: "Pan preheating is only necessary for high-heat cooking like searing — for gentle low-heat applications like scrambled eggs, a cold pan is acceptable and may even produce better results."
+- question: "Pan preheating is primarily necessary for high-heat cooking like searing — for gentle low-heat applications like scrambled eggs, a cold pan is acceptable and may even produce better results."
   type: true-false
   answer: false
   explanation: "Even low-heat cooking requires a preheated pan. The Common Misconceptions section explicitly states that cold pans cause sticking and uneven cooking even at low heat. For scrambled eggs specifically, a preheated pan at medium-low heat allows proteins to set gently and evenly; a cold pan means the eggs begin cooking before the pan reaches temperature, creating uneven contact and promoting the protein-to-metal bonding that causes sticking. Preheating matters at every temperature level — the target temperature changes, not the need to preheat."

@@ -57,7 +57,7 @@ Work through the Tower of Hanoi and introspect on means-ends analysis in action.
   answer: 1
   explanation: "Chase and Simon's research showed that expert chess players don't search more moves ahead than novices — they search *fewer*, but smarter. Their advantage is in perception: experts chunk the board into meaningful configurations (attacks, defenses, tactical motifs) stored in long-term memory. Their initial representation of the position is already organized around relevant strategic patterns. This is why domain knowledge accelerates problem solving: it improves the quality of the initial representation, not the speed of search."
 
-- question: "Heuristics are simply inferior versions of algorithms — they sacrifice accuracy for speed, making them useful only when time is short."
+- question: "Heuristics are simply inferior versions of algorithms — they sacrifice accuracy for speed, making them useful mainly when time is short."
   type: true-false
   answer: false
   explanation: "This mischaracterizes heuristics. For most real-world problems (chess, planning, design), algorithms are computationally impossible — the problem space is astronomically large. Heuristics are not fallback shortcuts; they are the only viable strategy. Moreover, heuristics like means-ends analysis are not random guessing — they use structural knowledge about the problem to prune the search space intelligently. The question is not 'algorithm or heuristic?' but 'which heuristic best fits this problem structure?'"

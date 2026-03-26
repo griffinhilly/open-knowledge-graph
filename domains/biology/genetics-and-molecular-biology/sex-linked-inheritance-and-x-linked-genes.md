@@ -55,7 +55,7 @@ X-linked genes show sex-specific segregation patterns because males (XY) have on
   answer: false
   explanation: "Fathers pass their Y chromosome to sons and their X chromosome to daughters. An affected father (X^a Y) therefore passes X^a to every daughter — making them all obligate carriers — but passes only Y to sons, so no son inherits the disease allele from him. This asymmetry is the defining feature of X-linked inheritance: the allele cannot pass directly from affected father to affected son. It must traverse a generation through a carrier daughter first."
 
-- question: "Because X-inactivation is random, heterozygous carrier females will always have exactly 50% of their cells expressing the mutant allele, producing a predictable intermediate phenotype that is consistent across all carriers."
+- question: "Because X-inactivation is random, heterozygous carrier females will generally have exactly 50% of their cells expressing the mutant allele, producing a predictable intermediate phenotype that is consistent across most carriers."
   type: true-false
   answer: false
   explanation: "X-inactivation is random but occurs early in embryonic development when the embryo has very few cells. The clonal expansion that follows those few founding cells means the actual ratio of cells expressing each X can deviate substantially from 50:50 by chance — a phenomenon called skewed X-inactivation. Some carrier females may have >80% of cells expressing the mutant allele and show significant symptoms; others may be essentially unaffected. This explains why X-linked conditions show variable expressivity in carrier females."

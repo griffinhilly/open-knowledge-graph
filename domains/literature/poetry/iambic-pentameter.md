@@ -60,7 +60,7 @@ Mark the stress pattern of familiar Shakespeare lines first, then test your ear 
   answer: 2
   explanation: "A feminine ending is an extra unstressed syllable appended after the final stressed syllable of the last foot, making the line eleven syllables instead of ten. It creates a soft, unresolved quality — the line doesn't land with a firm stress, it trails off. For Hamlet's question about existence, this openness is formally appropriate: the line asks whether to act or not, and it doesn't settle. The form performs the content. This is the kind of formal-expressive relationship that close reading of prosody reveals."
 
-- question: "Perfectly regular iambic pentameter — maintaining the da-DUM pattern without any variation across an entire poem — is always the mark of technical mastery."
+- question: "Perfectly regular iambic pentameter — maintaining the da-DUM pattern without any variation across an entire poem — is generally the mark of technical mastery."
   type: true-false
   answer: false
   explanation: "Perfect regularity tends to produce mechanical, singsong verse. The da-DUM da-DUM da-DUM pattern, sustained without variation, sounds like a nursery rhyme rather than heightened speech. Skilled poets treat the iambic pattern as a background template against which they introduce strategic variations — trochaic substitutions, feminine endings, pyrrhic feet — at emotionally significant moments. The variations are not errors; they are expressive tools that only work because the underlying template creates expectation. Mastery lies in knowing when and how to break the pattern."

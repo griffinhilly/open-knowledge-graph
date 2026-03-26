@@ -58,7 +58,7 @@ ROW_NUMBER always produces unique values even for ties; use RANK or DENSE_RANK t
   answer: true
   explanation: "Both RANK and DENSE_RANK respect ties by assigning equal rank values to rows that are equal in the ORDER BY expression. This is what distinguishes them from ROW_NUMBER, which always assigns unique integers even to tied rows. The difference between RANK and DENSE_RANK is not in how they handle the tied rows themselves, but in what rank number they assign to the row immediately after the tie: RANK skips ranks, DENSE_RANK does not."
 
-- question: "Adding a PARTITION BY clause to a ranking window function causes all rows in the entire query result to share a single global rank sequence."
+- question: "Adding a PARTITION BY clause to a ranking window function causes most rows in the entire query result to share a single global rank sequence."
   type: true-false
   answer: false
   explanation: "PARTITION BY causes the ranking function to restart independently for each partition — the opposite of sharing a global sequence. For example, RANK() OVER (PARTITION BY department ORDER BY salary DESC) restarts at rank 1 for each department. Without PARTITION BY, the ranking operates across all rows as a single group. PARTITION BY is precisely the mechanism for computing rankings within groups rather than globally."

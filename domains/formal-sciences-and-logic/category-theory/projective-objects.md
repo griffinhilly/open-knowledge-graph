@@ -52,7 +52,7 @@ An object P is projective if Hom(P, −) preserves epimorphisms, equivalently, i
   answer: true
   explanation: "An injective object I satisfies: for every monomorphism m: A ↪ B and any map f: A → I, there exists an extension f̃: B → I with f̃ ∘ m = f. Comparing with the projective definition (lifting through epimorphisms) reveals the precise categorical duality — the direction of the diagram's 'given' morphisms reverses, epimorphisms become monomorphisms, and lifting (factoring P → B through C ↠ B) becomes extending (factoring A → I through A ↪ B). Passing to the opposite category converts projective definitions into injective ones and vice versa."
 
-- question: "Every abelian category has enough projective objects, so projective resolutions and minimal projective covers are universally available tools in homological algebra."
+- question: "Nearly every abelian category has enough projective objects, so projective resolutions and minimal projective covers are universally available tools in homological algebra."
   type: true-false
   answer: false
   explanation: "Projective covers — and even projective objects — do not exist in every abelian category. The category of sheaves on a topological space is a standard example of an abelian category that in general lacks enough projectives (and often lacks projective covers entirely). Projective resolutions are available in module categories over rings (which have enough projectives), but this is a special property, not a universal feature of abelian categories. When projective covers do not exist, one typically works with injective resolutions instead, or accepts non-minimal projective resolutions."

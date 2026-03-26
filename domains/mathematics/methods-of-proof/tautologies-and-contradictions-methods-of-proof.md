@@ -56,7 +56,7 @@ Compare tautologies (p ∨ ¬p) with contingencies (p ∧ ¬q) that can be eithe
   answer: true
   explanation: "This is an instance of p ∨ ¬p — the law of excluded middle — which is always true regardless of the actual weather. A tautology is true by its logical structure alone, not because of contingent facts. Whether it's sunny or cloudy today is irrelevant; the statement's truth is guaranteed by its form."
 
-- question: "Any statement that has been observed to be true in every case examined so far is a tautology."
+- question: "Any statement that has been observed to be true in nearly every case examined so far is a tautology."
   type: true-false
   answer: false
   explanation: "A tautology must be true under every logically possible truth assignment, not just every empirically observed case. 'All swans are white' was observed to be true in Europe for centuries — but it was a contingency, not a tautology, because non-white swans were possible (and turned out to exist). Tautologies are true by virtue of logical structure; a contingency can be consistently false under some assignment even if you've never witnessed that assignment."

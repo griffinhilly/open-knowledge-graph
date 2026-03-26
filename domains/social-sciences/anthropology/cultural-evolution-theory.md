@@ -54,7 +54,7 @@ Anthropological theories of cultural evolution explain increasing societal compl
   answer: true
   explanation: "Multilinear evolution explains convergent development: similar environmental pressures (dense populations dependent on managed water) can produce parallel cultural solutions independently. River-valley civilizations in Egypt, Mesopotamia, the Indus Valley, and China all developed comparable administrative and agricultural institutions without necessarily copying each other. Multilinear thinking looks for adaptive explanations for convergence rather than assuming diffusion."
 
-- question: "Modern cultural evolution theory holds that increasing societal complexity follows a single universal sequence, with all societies eventually converging on the same complex forms."
+- question: "Modern cultural evolution theory holds that increasing societal complexity follows a single universal sequence, with most societies eventually converging on the same complex forms."
   type: true-false
   answer: false
   explanation: "That is the 19th-century unilineal view, which modern anthropology has rejected. Contemporary theory emphasizes multilinear pathways: similar pressures can produce different cultural forms, and societies can adapt successfully to very different niches without converging on any single endpoint. Additionally, cultural traits spread through non-adaptive mechanisms (prestige bias, imitation) that have nothing to do with a progression toward complexity."

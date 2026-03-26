@@ -45,7 +45,7 @@ A phantom read occurs when a transaction executes a query twice, and between the
   answer: 1
   explanation: "Phantom reads are dangerous precisely because they are silent — no error is raised, no rollback occurs. The first query returned a correct sum at that moment; the decision logic proceeds as if that sum is definitive. But a new transaction committed between the two reads, making the sum stale. The database does not alert the transaction to this inconsistency under repeatable read or weaker isolation. This is why serializable isolation exists for financial applications where result set completeness matters."
 
-- question: "Repeatable read isolation prevents phantom reads because it locks all rows that match a query's WHERE clause."
+- question: "Repeatable read isolation prevents phantom reads because it locks most rows that match a query's WHERE clause."
   type: true-false
   answer: false
   explanation: "Repeatable read locks rows that ALREADY EXIST and have been read — it prevents those specific rows from being modified by other transactions. But a phantom is a NEW row that didn't exist when the first read occurred. You cannot place a lock on a row that doesn't exist yet. Preventing phantoms requires locking the predicate (the WHERE condition itself), which is what serializable isolation provides. This is the architectural gap that repeatable read cannot bridge."

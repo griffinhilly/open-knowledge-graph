@@ -52,7 +52,7 @@ Prepare a speech with two different conclusions: one that simply summarizes, one
   answer: 1
   explanation: "Repetition and synthesis are not the same thing. Reciting 'I talked about X, Y, Z' gives audiences nothing they don't already have — they were present for the body. Synthesis shows how X, Y, and Z add up: 'Together, these three forces mean that [central insight].' That single synthesis sentence does more for retention than a full recitation. Ending without a memorable close — a callback, a challenge, a call to action, an aphorism — leaves the final seconds of the speech empty of substance, wasting the recency window."
 
-- question: "A conclusion that carefully summarizes all major points in detail gives audiences better retention than one that synthesizes them into a single central insight."
+- question: "A conclusion that carefully summarizes most major points in detail gives audiences better retention than one that synthesizes them into a single central insight."
   type: true-false
   answer: false
   explanation: "Synthesis outperforms repetition for retention because it provides the 'payoff' — the insight that justifies everything that came before. A detailed summary recites what the audience already heard; a synthesis statement reveals what it means. Recency favors the last thing heard, and 'here's what you should take away from all of this' is more memorable than a list of sub-points they've already processed. The synthesis sentence, if well crafted, is what audiences recall weeks later; point-by-point recaps are what they forget by the parking lot."

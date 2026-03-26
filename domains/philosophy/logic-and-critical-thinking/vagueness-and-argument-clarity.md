@@ -56,7 +56,7 @@ Thinking vagueness is a flaw that must be eliminated (sometimes it's useful or u
   answer: true
   explanation: "Validity guarantees that if the premises are true, the conclusion must be true. But if a premise is indeterminate — neither clearly true nor clearly false because a vague predicate applies to a borderline case — validity provides no guarantee. The indeterminate premise cannot carry the weight the argument puts on it. The argument is technically valid (the logical form is fine) but practically toothless because the key premise lacks a definite truth value in the relevant case."
 
-- question: "Vagueness is a defect that should always be eliminated from language and argument, since it prevents precise reasoning."
+- question: "Vagueness is a defect that should usually be eliminated from language and argument, since it prevents precise reasoning."
   type: true-false
   answer: false
   explanation: "Vagueness is often unavoidable and sometimes useful. Many important predicates — 'tall,' 'bald,' 'heap,' 'adult,' 'reasonable,' 'significant' — resist sharp definition because the phenomena they describe are genuinely continuous or context-dependent. Forcing artificial precision (a person is 'bald' if they have fewer than 243 hairs) often misrepresents reality. The skill is not eliminating vagueness but diagnosing when an argument's force depends on a vague term applying clearly to a borderline case — and flagging that as a weak point rather than pretending the borderline is sharp."

@@ -53,7 +53,7 @@ Compare results of INNER vs LEFT JOIN on the same query to understand what rows 
   answer: true
   explanation: "Every row returned by an INNER JOIN is also returned by a LEFT JOIN (matched rows appear in both). But a LEFT JOIN additionally returns unmatched rows from the left table — rows the INNER JOIN would have dropped. So the LEFT JOIN result is a superset of the INNER JOIN result, meaning it always has the same number of rows or more."
 
-- question: "NULL values in a LEFT JOIN result always indicate missing or corrupt data in the database."
+- question: "NULL values in a LEFT JOIN result usually indicate missing or corrupt data in the database."
   type: true-false
   answer: false
   explanation: "NULLs in LEFT JOIN results often indicate the absence of a relationship, not bad data. A customer with no orders is perfectly valid — the NULL in the orders columns simply means 'no matching order exists.' This is one of the key skills outer joins demand: distinguishing between NULLs that mean 'the data is missing' and NULLs that mean 'no relationship exists.' Treating all NULLs as data errors is a common and costly mistake in data analysis."

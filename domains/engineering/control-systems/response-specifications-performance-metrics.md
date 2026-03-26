@@ -48,7 +48,7 @@ Key transient response metrics: rise time (initial speed), peak time, overshoot 
   answer: 1
   explanation: "Enforcing zero overshoot means requiring an overdamped or critically damped system. An overdamped response approaches its final value slowly without the brief 'sprint' of an underdamped response. Both rise time and settling time increase compared to a slightly underdamped design. Counterintuitively, minimum settling time often occurs near ζ ≈ 0.7 (slightly underdamped), not at maximum damping. Requiring zero overshoot strictly sacrifices settling speed."
 
-- question: "The minimum possible settling time for a feedback system is achieved by making the system as overdamped as possible, since overdamped systems never overshoot and therefore never need to recover."
+- question: "The minimum possible settling time for a feedback system is achieved by making the system as overdamped as possible, since overdamped systems rarely overshoot and therefore rarely need to recover."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about overshoot and settling time. An overdamped system never exceeds the target, but it creeps toward the final value so slowly that it enters the ±2% settling band much later than a critically or slightly underdamped system. A system with ζ ≈ 0.7 typically settles fastest in total time, even though it briefly overshoots, because the fast initial approach outweighs the small recovery cost. Maximizing damping optimizes for zero overshoot, not minimum settling time — these are different objectives."

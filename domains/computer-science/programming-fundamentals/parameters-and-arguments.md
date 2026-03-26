@@ -54,7 +54,7 @@ Write functions with one, two, and many parameters. Call functions with differen
   answer: 1
   explanation: "Lists are mutable objects. When `my_list` is passed to `append_zero`, the parameter `lst` points to the *same list object* in memory — not a copy. Calling `lst.append(0)` mutates that shared object, so the change is visible in the caller through `my_list`. This contrasts with the integer case: here the function didn't *reassign* `lst` (which would have had no effect on `my_list`); it *mutated* the object `lst` refers to."
 
-- question: "Modifying a parameter inside a function always changes the original variable that was passed as the argument."
+- question: "Modifying a parameter inside a function usually changes the original variable that was passed as the argument."
   type: true-false
   answer: false
   explanation: "Whether the original is affected depends on whether you mutate the object (changes are visible) or reassign the parameter (no effect on caller). For immutable types like integers and strings, 'modification' necessarily means reassignment, so the caller is never affected. For mutable types like lists, calling a mutating method (`.append()`, `.sort()`) affects the shared object, but reassigning the parameter (`lst = []`) does not reach the caller."

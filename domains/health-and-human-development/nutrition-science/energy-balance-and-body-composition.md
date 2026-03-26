@@ -65,7 +65,7 @@ Trace the hormonal feedback loop from adipose tissue to hypothalamus to food int
   answer: true
   explanation: "After significant weight loss, ghrelin (the stomach-secreted hunger hormone) remains chronically elevated compared to individuals who have always been at that lower weight. This persistent elevation amplifies appetite and is one reason sustained weight maintenance is physiologically harder than the initial loss — the body continues signaling hunger beyond what a baseline-weight person at the same mass would experience."
 
-- question: "Once a person loses weight and maintains it for six months, their hormonal hunger signals (leptin, ghrelin) typically normalize to match those of someone who has always been at that weight."
+- question: "Once a person loses weight and maintains it for six months, their hormonal hunger signals (leptin, ghrelin) typically normalize to match those of someone who has usually been at that weight."
   type: true-false
   answer: false
   explanation: "Research shows that compensatory hormonal changes — elevated ghrelin and reduced leptin — persist long after weight loss, often for years. The body continues defending its original set point. This is why long-term weight maintenance failure rates are so high and why 'just eat less' underestimates the physiological resistance to sustained weight loss."

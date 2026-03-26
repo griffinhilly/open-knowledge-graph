@@ -58,7 +58,7 @@ Thinking figure-ground reversal is always confusing or poor design; not recogniz
   answer: 2
   explanation: "Figure-ground reversal requires that both the positive and negative shapes be equally compelling and clearly defined. If the negative space is vague and uninteresting, the eye will never read it as figure — it will remain background. The key technique is to consciously design the space around the positive shape, giving it as much intentional form as the shape itself. Equal visual weight is what makes the perception flip possible."
 
-- question: "Figure-ground ambiguity in design always indicates a compositional error because it prevents the viewer from knowing what to focus on."
+- question: "Figure-ground ambiguity in design usually indicates a compositional error because it prevents the viewer from knowing what to focus on."
   type: true-false
   answer: false
   explanation: "This is the central misconception about figure-ground ambiguity. When used intentionally, it is a powerful device: it creates visual interest, rewards attentive viewers, and carries meaning in both regions simultaneously. The FedEx logo's hidden arrow, Escher's tessellations, and many logos and posters exploit ambiguity deliberately. The goal is not confusion but active engagement — the viewer discovers that what they assumed was background is carrying meaning of its own. Ambiguity is a problem only when it is unintentional."

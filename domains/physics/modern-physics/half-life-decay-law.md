@@ -59,7 +59,7 @@ Derive N(t) by solving the first-order ODE dN/dt = −λN. Practice computing th
   answer: 1
   explanation: "λ is a probability rate — units of inverse time (e.g., per second). Each nucleus has a fixed probability λ·dt of decaying in any small time interval dt, regardless of its age. This memoryless property is what makes the decay law exponential: the fraction decaying per unit time is always the same constant λ, so the *number* decaying per unit time is proportional to N, giving dN/dt = −λN. Option A confuses λ with the mean lifetime τ = 1/λ. Options C and D describe the activity, not the decay constant itself."
 
-- question: "After two half-lives have elapsed, none of the original radioactive material remains."
+- question: "After two half-lives have elapsed, very few of the original radioactive material remains."
   type: true-false
   answer: false
   explanation: "After two half-lives, one-quarter (1/4) of the original nuclei remains undecayed. The material never fully disappears in finite time — exponential decay is asymptotic. Each half-life halves *whatever is currently present*, so you always have something left, even if the amount becomes negligibly small. After 10 half-lives, about 0.1% remains; after 100 half-lives, an extraordinarily tiny fraction persists. This is the most common misconception about half-lives."

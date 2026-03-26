@@ -53,7 +53,7 @@ SGD updates parameters using single examples or small batches instead of full da
   answer: true
   explanation: "This is a well-documented property of SGD. Stochastic fluctuations prevent the optimizer from settling into sharp, narrow minima — it tends to find flatter regions of the loss landscape, which often generalize better to new data. This is part of why well-tuned SGD with momentum sometimes achieves better test accuracy than Adam even if Adam converges faster during training. The noise is not merely tolerated — it provides regularization that pure full-batch methods lack."
 
-- question: "Increasing the mini-batch size in SGD always improves both training speed and final model performance."
+- question: "Increasing the mini-batch size in SGD typically improves both training speed and final model performance."
   type: true-false
   answer: false
   explanation: "Larger batch sizes reduce gradient noise, making each update more accurate, and they can exploit hardware parallelism. But beyond a certain batch size, the gradient noise that helps SGD escape shallow minima is eliminated, often leading to convergence to sharper minima that generalize less well. In practice, there is a sweet spot (often 32–512) that balances gradient quality, computational efficiency, and the regularizing benefit of stochasticity."

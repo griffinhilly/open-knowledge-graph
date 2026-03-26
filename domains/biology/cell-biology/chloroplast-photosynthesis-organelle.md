@@ -58,7 +58,7 @@ Chloroplasts use light to directly make ATP—light energy separates charges acr
   answer: true
   explanation: "Both chloroplasts and mitochondria use chemiosmotic coupling to synthesize ATP. In chloroplasts, the light reactions pump protons from the stroma into the thylakoid lumen, generating a proton gradient across the thylakoid membrane. ATP synthase embedded in the thylakoid membrane uses this gradient to drive ATP synthesis. This is mechanistically identical to the mitochondrial inner membrane system, which is why comparing the two organelles is a useful pedagogical approach. The evolutionary logic also applies: both organelles descended from bacteria with chemiosmotic ATP synthesis."
 
-- question: "Because the Calvin cycle only requires CO₂, enzymes, and the right temperature — not direct light — it can operate independently of the light reactions as long as CO₂ is available."
+- question: "Because the Calvin cycle mainly requires CO₂, enzymes, and the right temperature — not direct light — it can operate independently of the light reactions as long as CO₂ is available."
   type: true-false
   answer: false
   explanation: "The Calvin cycle requires ATP and NADPH, which are produced exclusively by the light reactions. Without continuous input from the light reactions, the Calvin cycle quickly depletes its ATP and NADPH supplies and stops. The cycle is biochemically dependent on the light reactions, even though it does not use light directly. This is why photosynthesis as a whole stops in darkness: the Calvin cycle runs out of the energy currency it needs. The spatial separation (stroma vs. thylakoid) does not make the two stages independent — it makes their products flow efficiently from one to the other."

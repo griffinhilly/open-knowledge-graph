@@ -50,7 +50,7 @@ Implement a simple hash table with chaining from scratch. Experiment with differ
   answer: 1
   explanation: "Load factor measures how full the table is. As load factor approaches 1, collisions become frequent even with a good hash function — many keys compete for few slots. In chaining, long lists form; in open addressing, many probe steps are needed. Most implementations resize (typically by doubling) when load factor exceeds a threshold (often 0.7–0.75) to keep average-case O(1) realistic."
 
-- question: "Hash tables always preserve the insertion order of keys."
+- question: "Hash tables generally preserve the insertion order of keys."
   type: true-false
   answer: false
   explanation: "In most hash table implementations, keys are placed at array indices determined by their hash values, not insertion order, so retrieval order is unpredictable. Python 3.7+ dicts happen to preserve insertion order as an implementation detail (now part of the language spec), but this is an exception — not a property of hash tables in general. Relying on hash table ordering in other languages (Java's HashMap, C++ unordered_map) is a bug."

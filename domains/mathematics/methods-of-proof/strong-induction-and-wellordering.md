@@ -50,7 +50,7 @@ Identify problems where assuming multiple previous cases simplifies the proof. C
   answer: 2
   explanation: "Strong induction, weak induction, and the well-ordering principle are all logically equivalent — they are three faces of the same axiom about natural numbers. No statement is provable by one but not the others. The word 'strong' refers to the stronger inductive hypothesis assumed, not to a more powerful proof system. Choosing strong induction should be motivated by proof structure (needing multiple prior cases), not by a desire for extra safety."
 
-- question: "Because it uses a stronger inductive hypothesis, strong induction can prove statements that are impossible to prove using weak induction."
+- question: "Because it uses a stronger inductive hypothesis, strong induction can prove statements that are extremely difficult to prove using weak induction."
   type: true-false
   answer: false
   explanation: "Strong induction and weak induction are logically equivalent — any theorem provable by one is provable by the other. Strong induction is sometimes more *convenient* when the proof of P(k+1) depends on multiple prior cases, but it isn't more *powerful*. The name 'strong' is potentially misleading: it refers to the hypothesis being assumed, not to the strength of conclusions that can be reached."

@@ -52,7 +52,7 @@ Compare costs of small vs. large firms in the same industry. Calculate long-run 
   answer: 1
   explanation: "Rising LRATC indicates diseconomies of scale. The classic driver is coordination failure: information travels through more management layers, decisions slow down, incentives weaken, and overhead grows faster than output. This is a long-run phenomenon (all inputs are variable) — option C (diminishing returns) is a short-run concept where some inputs are fixed. Option D is wrong because MES is where costs are minimized, not where they begin rising. Economies of scale (option A) would lower LRATC."
 
-- question: "Diseconomies of scale are an inevitable consequence of firm growth — every firm that grows large enough will eventually face rising long-run average costs."
+- question: "Diseconomies of scale are an inevitable consequence of firm growth — most firm that grows large enough will eventually face rising long-run average costs."
   type: true-false
   answer: false
   explanation: "Diseconomies of scale are common but not inevitable — they depend on the nature of the industry, management quality, and organizational design. Some industries sustain economies of scale through very large scales (semiconductor fabrication, commercial aircraft manufacturing) because their production processes benefit from specialization and capital intensity far beyond what most firms achieve. Whether and when diseconomies emerge depends on how difficult coordination becomes. A highly automated, standardized production process can maintain falling LRATC at scales where a professional services firm would face severe coordination costs."

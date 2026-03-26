@@ -40,7 +40,7 @@ Handle familiar basic substances — soap, baking soda dissolved in water — an
   answer: 1
   explanation: "Bases turn red litmus paper blue, which is the opposite of what acids do. Sour taste and turning blue litmus red are properties of acids. While some bases can react with certain metals, the litmus test is the most characteristic identifier."
 
-- question: "All bases are safe to handle because they are the opposite of acids."
+- question: "Most bases are safe to handle because they are the opposite of acids."
   type: true-false
   answer: false
   explanation: "Strong bases can be just as dangerous as strong acids. Sodium hydroxide (lye) and potassium hydroxide can cause severe chemical burns. Just as there are mild acids (vinegar) and dangerous acids (hydrochloric acid), there are mild bases (baking soda) and dangerous bases (lye)."

@@ -56,7 +56,7 @@ There is one correct analytical method for all music; analysis and history are e
   answer: true
   explanation: "This is the central methodological insight of the topic. A formal analysis of a fugue reveals its architectural logic; a cultural analysis of the same fugue reveals what social values its learned craft asserted. Neither analysis is wrong or incomplete in isolation — they ask different questions and illuminate different dimensions. The richest historical analysis triangulates across multiple methods. Treating any single method as the 'correct' one systematically blinds the analyst to what other frameworks can reveal."
 
-- question: "Because all analytical methods ultimately focus on the score, the cultural context of a piece's commission and performance can always be recovered from score analysis alone."
+- question: "Because most analytical methods ultimately focus on the score, the cultural context of a piece's commission and performance can usually be recovered from score analysis alone."
   type: true-false
   answer: false
   explanation: "Cultural and contextual questions — who commissioned this work, for what occasion, how did contemporaries describe it, what social hierarchies shaped its existence — cannot be answered by score reading alone. They require archival sources, historical documentation, and historiographical frameworks. A fugue analyzed purely formally looks like an abstract pattern; analyzed historically, it is a social claim about learned craft. The score and the culture that produced it are both required for full understanding, and one cannot substitute for the other."

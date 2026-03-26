@@ -60,7 +60,7 @@ Start with clear compositional cases (arithmetic expressions, simple predicates)
   answer: true
   explanation: "This is Kaplan's extension of compositionality. Instead of requiring that complex expressions have context-independent semantic values, we allow semantic values to be characters — rules that yield different contents in different contexts. Compositionality then holds at the level of character: the character of a complex expression is determined by the characters of its parts and their mode of combination. Context-sensitivity becomes a feature of the semantic values, not a violation of the compositional architecture."
 
-- question: "If compositionality holds, every sentence must have a context-independent meaning, because compositionality requires meaning to be fully determined by the parts."
+- question: "If compositionality holds, nearly every sentence should have a context-independent meaning, because compositionality requires meaning to be fully determined by the parts."
   type: true-false
   answer: false
   explanation: "Compositionality requires that complex meanings be determined by the meanings of parts — but those 'meanings' can themselves be context-dependent. If 'I' means 'the speaker in this context,' then 'I am hungry' compositionally combines this context-sensitive part with a predicate, yielding a sentence whose full content is fixed only relative to a context. The principle governs how parts combine, not whether those parts are context-sensitive. Context-sensitivity and compositionality are orthogonal properties."

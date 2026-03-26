@@ -58,7 +58,7 @@ Give students several datasets with identical means but different shapes and spr
   answer: true
   explanation: "True. In a right-skewed distribution, the mean is pulled toward the long tail by extreme high values, making it unrepresentative of where most data falls. The standard deviation is likewise inflated by those extremes. The median and IQR, by contrast, depend only on rank ordering and the middle 50% of the data — they are not sensitive to how extreme the extremes are. Choosing statistics that match the shape of your data is one of the most practically important skills in descriptive statistics."
 
-- question: "Two datasets that share the same mean, median, and standard deviation must have distributions with the same shape."
+- question: "Two datasets that share the same mean, median, and standard deviation should have distributions with the same shape."
   type: true-false
   answer: false
   explanation: "False. Anscombe's quartet famously demonstrates that four datasets can share nearly identical summary statistics (mean, variance, correlation) while having radically different shapes — a linear relationship, a curve, a near-perfect line with one outlier, and a cluster with a single extreme point. Summary statistics can hide the real structure of data. This is why graphs are not optional extras — they are essential complements to numerical summaries, capable of revealing patterns that numbers alone conceal."

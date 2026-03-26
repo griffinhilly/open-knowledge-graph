@@ -53,7 +53,7 @@ Anchor items are common items administered on two test forms that establish an e
   answer: true
   explanation: "DIF in anchor items is one of the most serious threats to equating validity. Anchor items work as reference points precisely because they should function the same way across groups. If an anchor item is systematically easier for one group (perhaps because it references culturally familiar content), it provides a biased reference point, and the linking transformation will shift scores in a way that misrepresents true ability differences. This is why anchor item monitoring using procedures like Stocking-Lord or Haebara methods is a standard step before accepting any scale linking."
 
-- question: "In an external anchor design, anchor items must contribute to each examinee's total score in order to provide a valid basis for scale linking."
+- question: "In an external anchor design, anchor items should contribute to each examinee's total score in order to provide a valid basis for scale linking."
   type: true-false
   answer: false
   explanation: "This describes the internal anchor design, not the external one. In an external anchor design, the anchor items are administered separately and do not count toward examinees' total scores — they exist solely to bridge the two calibrations. In an internal anchor design, anchor items do contribute to total scores, which has efficiency advantages but requires more careful attention to representativeness. Conflating the two designs is a common confusion in equating discussions."

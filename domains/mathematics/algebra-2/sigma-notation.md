@@ -56,7 +56,7 @@ Practice expanding sigma notation into explicit sums and condensing explicit sum
   answer: 1
   explanation: "The index variable in sigma notation is called a 'dummy variable' because it exists only within the sum and its name is irrelevant. Σᵢ₌₁ⁿ i², Σₖ₌₁ⁿ k², and Σⱼ₌₁ⁿ j² are completely identical expressions. This same concept appears later in calculus, where the variable of integration is also a dummy variable. The bounds and the expression defining each term are what matter — the letter used for the index does not."
 
-- question: "In sigma notation, the index of summation must start at 1."
+- question: "In sigma notation, the index of summation is expected to start at 1."
   type: true-false
   answer: false
   explanation: "False. The lower bound of a sigma expression can be any integer — 0, 2, -3, or anything else. For example, Σᵢ₌₀ⁿ xⁱ/i! starts at 0 (it's the Taylor series for eˣ), and many combinatorial sums start at 2 or higher. Assuming the index must start at 1 is a common source of off-by-one errors."

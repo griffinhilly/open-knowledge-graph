@@ -59,7 +59,7 @@ That all loops work the same way (index-based, for-each, while each have tradeof
   answer: true
   explanation: "Off-by-one errors — starting at 1 instead of 0, writing i <= len(items) instead of i < len(items) — arise specifically from manually managing the index variable. For-each loops hand control of iteration to the language runtime, so you cannot accidentally misconfigure the bounds. The tradeoff is that you lose direct index access and the ability to skip, reverse, or access neighboring elements."
 
-- question: "It is safe to remove elements from a list while iterating over it with an index-based for loop, because the index variable always tracks your current position correctly."
+- question: "It is safe to remove elements from a list while iterating over it with an index-based for loop, because the index variable generally tracks your current position correctly."
   type: true-false
   answer: false
   explanation: "The index variable correctly tracks your position in the current array — but the current array changes when you remove an element. Removing the element at index i shifts all subsequent elements left by one. When the loop increments to i+1, it now points to what was previously at i+2, silently skipping one element. The index is correct relative to the modified array, but the modified array is no longer the same structure the loop was initialized against."

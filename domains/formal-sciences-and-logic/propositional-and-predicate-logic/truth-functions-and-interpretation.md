@@ -58,7 +58,7 @@ Start with small formulas like (A ∧ B) and work through how their truth values
   answer: true
   explanation: "True — this is the definition of logical equivalence (φ ≡ ψ). Two formulas define the same truth function if and only if they agree on every row of the truth table. For example, (P → Q) ≡ (¬P ∨ Q) because both evaluate to F only when P=T and Q=F, and T otherwise. Logical equivalence is verified exhaustively over all 2^n interpretations for n atoms. This makes propositional logic decidable: you can always determine equivalence by truth table."
 
-- question: "The formula (A ∨ ¬A) is true because every proposition A refers to something that is either true or false in the real world."
+- question: "The formula (A ∨ ¬A) is true because nearly every proposition A refers to something that is either true or false in the real world."
   type: true-false
   answer: false
   explanation: "False — and this gets the explanation backwards. (A ∨ ¬A) is a tautology because of its logical structure: under any interpretation, either A = T (making A ∨ ¬A = T ∨ F = T) or A = F (making A ∨ ¬A = F ∨ T = T). The formula's tautologous status follows purely from how the truth functions for ∨ and ¬ interact — no facts about the real world are needed. The claim in the question reverses the logic: the tautology is not true because of empirical facts; it would remain a tautology even in a world where nothing is true or false in any meaningful sense."

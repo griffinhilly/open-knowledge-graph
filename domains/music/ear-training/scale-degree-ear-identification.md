@@ -63,7 +63,7 @@ Treating scale degrees as arbitrary labels rather than functional positions. Con
   answer: true
   explanation: "The leading tone's pull toward tonic is one of the strongest tendencies in tonal music, and the half-step distance is a key reason. Half-step motion is the smallest melodic interval in Western tonal music, making ti→do feel like the shortest possible journey to resolution. Scale degree 2 (re) is a whole step above tonic and has some tendency toward tonic, but the pull is weaker. The leading tone's proximity creates an almost gravitational pull that drives harmonic resolution."
 
-- question: "A musician who can identify scale degrees by ear in C major will need to develop a completely separate skill to identify scale degrees in F major."
+- question: "A musician who can identify scale degrees by ear in C major will need to develop a largely separate skill to identify scale degrees in F major."
   type: true-false
   answer: false
   explanation: "Scale degree identification is a transferable relative pitch skill. Once you internalize the functional identity of each scale degree — do as stable tonic, ti as the leading tone, sol as dominant — those identities hold in any major key. The physical pitches change when you change keys, but the relationships and functional characters remain the same. Thinking in scale degrees rather than letter names is what makes the skill generalize across all keys."

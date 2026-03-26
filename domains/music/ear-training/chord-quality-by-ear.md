@@ -50,7 +50,7 @@ Practice in blocked (all notes simultaneously) form first, then broken (arpeggia
   answer: 1
   explanation: "A diminished triad stacks two minor thirds: root to the third is a minor third (3 semitones), and the third to the fifth is another minor third (3 semitones), giving a diminished fifth overall. This double compression creates the tense, unstable sound. By contrast, a minor triad is m3 + M3 (option D), giving a perfect fifth."
 
-- question: "You must know the root note of a chord in order to identify its quality by ear."
+- question: "You is expected to know the root note of a chord in order to identify its quality by ear."
   type: true-false
   answer: false
   explanation: "Chord quality is an intervallic property that is the same regardless of which pitch the chord is built on. A major triad sounds the same characteristic bright, stable color whether it is C major or F# major. Identifying quality means recognizing the interval relationships between the notes, not their absolute pitch."

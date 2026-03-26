@@ -58,7 +58,7 @@ Verify that the eigenvalues of specific symmetric 2×2 and 3×3 matrices are rea
   answer: 1
   explanation: "The proof uses symmetry directly. Let Av = λv and Aw = μw with λ ≠ μ. Compute vᵀAw two ways: using Av = λv gives λ(vᵀw), and using Aᵀ = A gives (vᵀA)w = (Aᵀv)ᵀw = (Av)ᵀw = λ(vᵀw) — wait, let's be precise: vᵀAw = (Av)ᵀw (by symmetry) = (λv)ᵀw = λ(vᵀw). But also vᵀAw = vᵀ(μw) = μ(vᵀw). So λ(vᵀw) = μ(vᵀw), which with λ ≠ μ forces vᵀw = 0. This argument works only because Aᵀ = A."
 
-- question: "Any square matrix with all real eigenvalues must be symmetric."
+- question: "Any square matrix with most real eigenvalues is expected to be symmetric."
   type: true-false
   answer: false
   explanation: "Symmetry is a sufficient condition for real eigenvalues, but not necessary. There exist non-symmetric matrices with all real eigenvalues — for example, any upper triangular matrix with real diagonal entries has real eigenvalues (they are its diagonal entries) but is generally not symmetric. The implication runs one way: symmetric ⟹ real eigenvalues. The converse is false."

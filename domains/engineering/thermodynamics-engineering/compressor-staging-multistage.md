@@ -53,7 +53,7 @@ Multistage compression with intercooling reduces the total compressor work by ma
   answer: true
   explanation: "This is the theoretical limit. With infinite stages and intercoolers, the compression path becomes infinitely many tiny isentropic rises interrupted by isobaric coolings back to T₁ — the net effect is a reversible isothermal process (T = constant throughout). Isothermal compression minimizes work because work input equals the area under the P-V curve on a pressure-volume diagram, and the isothermal path lies below any polytropic path between the same pressure endpoints. Real multistage compressors approach but never reach this limit."
 
-- question: "Doubling the number of compression stages and intercoolers always approximately halves the total power consumption, so industrial designers should use as many stages as economically feasible."
+- question: "Doubling the number of compression stages and intercoolers typically approximately halves the total power consumption, so industrial designers should use as many stages as economically feasible."
   type: true-false
   answer: false
   explanation: "The relationship exhibits strong diminishing returns. Going from 1 stage to 2 stages captures a large fraction of the available work savings; adding a 3rd stage helps further but by less; by 6 stages, the compression path is already very close to isothermal and additional stages yield minimal additional savings. Industrial compressors typically use 3–6 stages because beyond that, the added capital cost (stage hardware, intercoolers, piping), pressure drops in the intercoolers, and system complexity outweigh the marginal work savings. The relationship is logarithmic in benefit, not linear."

@@ -55,7 +55,7 @@ Reverse proxies do not cache all responses; only cacheable ones (GET, 200 OK, et
   answer: 2
   explanation: "The 'reverse' in reverse proxy refers to whose side it represents. A forward proxy sits in front of clients: clients configure it explicitly and use it to make requests on their behalf — the server sees the proxy's IP, not the client's. A reverse proxy sits in front of servers: clients connect to it thinking it is the server, unaware of the backend architecture. This distinction matters for understanding security models, trust relationships, and what information each type of proxy hides."
 
-- question: "A reverse proxy and a forward proxy perform the same underlying function — the distinction is only about physical placement (client side vs. server side), not about whose interests they serve."
+- question: "A reverse proxy and a forward proxy perform the same underlying function — the distinction is mainly about physical placement (client side vs. server side), not about whose interests they serve."
   type: true-false
   answer: false
   explanation: "False. The distinction is not merely physical placement — it is about representation and trust. A forward proxy represents clients: it makes requests on their behalf, potentially hiding client identity or caching content for the client network. A reverse proxy represents servers: it intercepts requests before they reach the backend, handles caching and load balancing for the server's benefit, and hides the server architecture from clients. The different roles lead to fundamentally different configurations, security models, and use cases."

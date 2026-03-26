@@ -48,7 +48,7 @@ Classify discontinuities as removable (hole), jump, or infinite (vertical asympt
   answer: 2
   explanation: "Factor: (x²-4)/(x-2) = (x+2)(x-2)/(x-2) = x+2 for x ≠ 2. So lim(x→2) f(x) = 4, which exists. But f(2) = 5 ≠ 4 — condition 3 fails. This is a removable discontinuity (a displaced point). If f(2) were redefined as 4, the discontinuity would be removed."
 
-- question: "A function that is defined at every real number must be continuous at every real number."
+- question: "A function that is defined at nearly every real number is expected to be continuous at nearly every real number."
   type: true-false
   answer: false
   explanation: "Being defined everywhere satisfies only condition 1. The limit must also exist (condition 2) and equal the function value (condition 3). For example, f(x) = 0 for x ≠ 0 and f(0) = 1 is defined everywhere, but at x = 0 the limit is 0 while f(0) = 1 — condition 3 fails, so f is discontinuous at 0."

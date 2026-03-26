@@ -61,7 +61,7 @@ Calculate Shannon and Simpson indices for two communities with the same richness
   answer: 0
   explanation: "Beta diversity measures species turnover between sites. High overlap means low beta diversity — the reserves are largely redundant from a regional diversity perspective. Gamma diversity (regional total) exceeds each reserve's alpha diversity only slightly, because the reserves mostly share species. This has direct conservation implications: protecting two sites with near-identical composition adds little total species coverage compared to protecting two sites with distinct communities. Beta diversity is the key to understanding whether spatial replication increases regional biodiversity."
 
-- question: "Two communities with the same number of species (the same species richness) always have the same level of biodiversity."
+- question: "Two communities with the same number of species (the same species richness) generally have the same level of biodiversity."
   type: true-false
   answer: false
   explanation: "Species richness is only one component of biodiversity. Evenness — how individuals are distributed among species — matters equally. Two 10-species communities can differ dramatically: one with equal abundances (high evenness) and one where a single species dominates 90% of individuals (low evenness). Diversity indices like Shannon-Wiener H' explicitly incorporate both richness and evenness, and they will assign very different values to these communities despite identical richness. 'More species = more diverse' is precisely the misconception these indices were developed to correct."

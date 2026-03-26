@@ -51,7 +51,7 @@ Compare bills of rights across constitutions and identify common and divergent r
   answer: 1
   explanation: "Negative rights require the state to refrain from acting — here, from arbitrary arrest. This is the defining feature of negative rights and the basis of classic civil liberties (speech, press, assembly, conscience). Option 0 is wrong: positive rights require the state to provide something; non-interference is the opposite. Option 2 conflates negative substantive rights with due process rights. Option 3 is a philosophical claim about grounding, not the structural category of the right."
 
-- question: "A bill of rights primarily tells citizens what they must do for the state."
+- question: "A bill of rights primarily tells citizens what they is expected to do for the state."
   type: true-false
   answer: false
   explanation: "A bill of rights functions to limit what the state can do to individuals — it defines the zone of personal sovereignty that the state cannot invade. Rights imposed by a bill of rights are obligations on government, not on citizens. Constitutions typically address citizen duties separately (e.g., taxation, military service), in different sections from rights protections. Conflating these two directions of obligation is a fundamental error in constitutional analysis."

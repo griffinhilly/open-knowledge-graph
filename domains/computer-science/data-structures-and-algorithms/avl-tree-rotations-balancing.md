@@ -59,7 +59,7 @@ Draw insertion sequences that trigger imbalance. Trace through single rotations 
   answer: true
   explanation: "This is the core guarantee of AVL trees. The height is always O(log n) because the balance factor constraint (|height difference| ≤ 1) prevents one-sided degeneration. Search traverses at most O(log n) nodes. Insert applies at most one rotation (single or double) after the O(log n) traversal. Delete may require rotations at multiple ancestors as you walk up, but the path length is bounded by O(log n), and each rotation is O(1). The worst-case O(log n) guarantee holds for all three."
 
-- question: "When a node insertion into an AVL tree causes an imbalance, rotations must be performed at every ancestor node on the path from the new node to the root."
+- question: "When a node insertion into an AVL tree causes an imbalance, rotations should be performed at most ancestor node on the path from the new node to the root."
   type: true-false
   answer: false
   explanation: "For insertion, at most one rotation (single or double) at the lowest violation point fully restores balance — no further rotations are needed at higher ancestors. The reason: a rotation restores the subtree to its pre-insertion height, so no ancestor's balance factor changes after the rotation. This distinguishes insertion from deletion: after deletion, rotations may propagate upward through multiple ancestors because the height reduction can continue affecting ancestors above the rotation point."

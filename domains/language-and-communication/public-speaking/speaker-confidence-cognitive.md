@@ -52,7 +52,7 @@ Write down specific anxious thoughts before a speech, then challenge each one wi
   answer: 2
   explanation: "Outcome-focused visualization (imagining applause) doesn't provide meaningful neural rehearsal. Process-focused visualization — mentally enacting specific steps of the performance — activates many of the same neural pathways as physical rehearsal, giving the brain a template to follow. For speakers, this means visualizing the actual speech: navigating transitions, maintaining eye contact, delivering a confident pause. Specificity is what makes visualization effective, not vague positive imagery."
 
-- question: "The most effective way to build speaker confidence is to eliminate nervousness entirely through relaxation techniques before speaking."
+- question: "The most effective way to build speaker confidence is to eliminate nervousness largely through relaxation techniques before speaking."
   type: true-false
   answer: false
   explanation: "The goal of cognitive confidence strategies is not to eliminate arousal but to reinterpret it. Some level of arousal is actually beneficial for performance. Speakers who feel no nervousness may be underenergized. The goal is cognitive reframing — changing what the arousal means — rather than suppression. Behavioral techniques like controlled breathing manage symptoms; cognitive strategies address the interpretive layer that determines whether symptoms feel incapacitating or invigorating."

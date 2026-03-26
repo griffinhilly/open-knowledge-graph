@@ -62,7 +62,7 @@ Compose simple pieces in binary form, then ternary, then rondo. Analyze how clas
   answer: false
   explanation: "The transposition of the second theme group to the tonic in the recapitulation is the formal resolution of the entire movement's harmonic conflict, not a cosmetic detail. The exposition creates tension by presenting contrasting themes in contrasting keys. The development intensifies this instability. The recapitulation resolves it by bringing all themes into the tonic — turning the 'problem' created at the outset into a 'solution.' This harmonic resolution is what makes the recapitulation feel like earned arrival rather than mere repetition."
 
-- question: "Cadences function only at the phrase level — they have no structural role in articulating large-scale formal sections."
+- question: "Cadences function primarily at the phrase level — they have no structural role in articulating large-scale formal sections."
   type: true-false
   answer: false
   explanation: "Cadences are the primary structural tool for articulating large-scale formal sections. Authentic cadences confirm section endings; half cadences create expectation at transition points; deceptive cadences create surprise. Without cadential clarity — especially authentic cadences at the ends of major sections — listeners cannot perceive formal boundaries regardless of how different the thematic material is. Cadences are the punctuation marks of large-scale form, operating at multiple structural levels simultaneously."

@@ -56,7 +56,7 @@ In sentences you encounter, identify the adjectives by finding the nouns and ask
   answer: 1
   explanation: "Both 'hard' and 'well' are adverbs here, answering 'how does she work?' and 'how does she sleep?' The '-ly' ending is a common but unreliable signal — many high-frequency adverbs lack it: fast, hard, late, early, straight, well, long. The reliable test is always to identify the word being modified. 'Hard' modifies the verb 'works'; 'well' modifies the verb 'sleeps.' Since both modify verbs, they are adverbs. Relying on '-ly' alone will mislead you."
 
-- question: "Words ending in '-ly' are always adverbs — the suffix reliably identifies adverbs and distinguishes them from adjectives."
+- question: "Words ending in '-ly' are generally adverbs — the suffix reliably identifies adverbs and distinguishes them from adjectives."
   type: true-false
   answer: false
   explanation: "'-ly' is a useful but unreliable signal. Many common adjectives end in '-ly': friendly, lively, lovely, elderly, lonely, cowardly, scholarly. These describe qualities of nouns, not manner of actions. Conversely, many common adverbs lack '-ly' entirely: fast, hard, late, well. The only reliable method is to identify the word being modified: if it modifies a noun or pronoun, it's an adjective; if it modifies a verb, adjective, or other adverb, it's an adverb."

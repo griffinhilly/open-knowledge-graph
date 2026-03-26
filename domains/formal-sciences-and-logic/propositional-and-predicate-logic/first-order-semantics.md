@@ -43,7 +43,7 @@ Work through small finite structures (sets of 2–4 elements) and evaluate FOL s
   answer: 1
   explanation: "∀x Happy(x) requires Happy to hold of every element in the domain. Since Happy does not hold of b, the sentence is false in M. This illustrates a key point: universal quantifiers range over all domain elements, not just those for which the predicate happens to hold."
 
-- question: "The sentence ∃x P(x) has the same truth value in every first-order structure with the same signature."
+- question: "The sentence ∃x P(x) has the same truth value in nearly every first-order structure with the same signature."
   type: true-false
   answer: false
   explanation: "Truth in first-order logic is model-relative. ∃x P(x) is true in a structure where at least one domain element satisfies P, and false in a structure where no element does. The same formula can be true in one structure and false in another — this is the fundamental insight of model-theoretic semantics."

@@ -44,7 +44,7 @@ Start with a concrete conditional: "If it is a dog, then it is a mammal." Write 
   answer: 2
   explanation: "The contrapositive of P → Q is ¬Q → ¬P: negate both parts and swap their positions. P = 'divisible by 6,' Q = 'divisible by 3.' Contrapositive: 'If not divisible by 3, then not divisible by 6.' This is logically equivalent to the original — and also clearly true (if 3 does not divide a number, 6 certainly cannot). Option A is the converse; option B is the inverse."
 
-- question: "A conditional statement and its converse are always logically equivalent."
+- question: "A conditional statement and its converse are generally logically equivalent."
   type: true-false
   answer: false
   explanation: "A conditional and its converse can have different truth values. 'If it is a square, then it has four sides' is true, but its converse 'If it has four sides, then it is a square' is false (rectangles have four sides but are not squares). Only the contrapositive is guaranteed to match the original."

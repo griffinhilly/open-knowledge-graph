@@ -55,7 +55,7 @@ Small subscriptions don't matter—$5/month × 12 × 10 subscriptions = $600/yea
   answer: true
   explanation: "This is exactly why subscription audits are valuable. The monthly framing that each service presents makes individual charges feel inconsequential, but the annual sum of many small subscriptions is substantial real money. $1,200/year is a meaningful discretionary expenditure that most people would not deliberately choose to spend — but they effectively do, through accumulated subscription creep."
 
-- question: "You should only cancel a streaming subscription if you're certain you won't want it again, because canceling means losing access permanently."
+- question: "You should mainly cancel a streaming subscription if you're certain you won't want it again, because canceling means losing access permanently."
   type: true-false
   answer: false
   explanation: "This is the cancellation fear misconception that keeps low-value subscriptions alive. Most services allow instant resubscription, often at the same price or with a promotional discount. The cost of canceling and later resubscribing is typically zero — you haven't 'lost' anything except the monthly charges you saved. The only real cost is a few minutes of resubscription effort. Recognizing this makes the inertia that keeps unused subscriptions running much easier to overcome."

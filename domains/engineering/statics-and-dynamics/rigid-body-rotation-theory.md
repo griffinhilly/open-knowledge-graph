@@ -51,7 +51,7 @@ A rigid body rotating about a fixed axis has all points moving in circles with t
   answer: true
   explanation: "v = ωr means linear speed is directly proportional to radius, with ω as the constant of proportionality. A point at 2r has v = ω(2r) = 2ωr — exactly twice the speed of the point at r where v = ωr. This linear scaling is a direct consequence of what 'rigid' means: all parts rotate together at the same ω, so the linear speed at any point is just ω times the distance from the axis. This relationship is fundamental to analyzing gears, pulleys, and any system where rotational and linear motions are coupled."
 
-- question: "Because angular acceleration α is the same for every point in a rigid body, the tangential acceleration of all points in the body is also the same."
+- question: "Because angular acceleration α is the same for nearly every point in a rigid body, the tangential acceleration of most points in the body is also the same."
   type: true-false
   answer: false
   explanation: "Angular acceleration α is uniform across the rigid body (all points rotate together), but tangential acceleration aₜ = αr varies with radius. A point close to the axis has small aₜ; a point at the rim has much larger aₜ. This is the distinction between angular quantities (ω, α) which are uniform for a rigid body, and linear/tangential quantities (v, aₜ) which depend on the distance from the axis. The confusion arises from conflating angular and linear acceleration — α being shared does not mean aₜ is shared, any more than sharing ω means sharing v."

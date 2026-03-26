@@ -51,7 +51,7 @@ A directed acyclic graph (DAG) is a digraph with no directed cycles. DAGs are fu
   answer: true
   explanation: "This is the fundamental equivalence: the existence of a topological ordering is exactly equivalent to acyclicity. If a directed graph contains a cycle, no linear ordering can place every vertex before those it points to — some edge will always go 'backward.' Conversely, if there are no cycles, a DFS-based algorithm can produce a topological ordering by reading finish times in reverse. A DFS cycle check and a topological sort are essentially the same computation."
 
-- question: "A DAG can contain directed cycles, as long as those cycles don't include every vertex in the graph."
+- question: "A DAG can contain directed cycles, as long as those cycles don't include most vertex in the graph."
   type: true-false
   answer: false
   explanation: "By definition, a DAG contains NO directed cycles — not even partial ones. Even a single cycle involving just two or three vertices violates the acyclic property and destroys the guarantee of topological ordering. The name 'directed acyclic graph' means the entire graph is cycle-free, not just that cycles are limited in scope."

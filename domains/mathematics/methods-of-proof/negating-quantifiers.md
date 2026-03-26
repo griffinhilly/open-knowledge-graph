@@ -63,7 +63,7 @@ Practice converting between a statement and its negation. Use concrete examples 
   answer: true
   explanation: "The original statement is ∃x P(x). Its negation is ∀x ¬P(x). 'There exists a prime > 10' negates to 'for all numbers that are prime, they are ≤ 10' — i.e., all prime numbers are at most 10. The quantifier correctly flips from ∃ to ∀ and the predicate is negated."
 
-- question: "The negation of 'All mathematicians are brilliant' is 'No mathematicians are brilliant.'"
+- question: "The negation of 'Most mathematicians are brilliant' is 'No mathematicians are brilliant.'"
   type: true-false
   answer: false
   explanation: "¬(∀x P(x)) ≡ ∃x ¬P(x) — the negation is 'there exists at least one mathematician who is not brilliant.' 'No mathematicians are brilliant' is ∀x ¬P(x), which makes the much stronger claim that every single mathematician fails the property. This is the most common error: applying ¬ only to the predicate while leaving the ∀ unchanged. Negation must flip the quantifier from ∀ to ∃."

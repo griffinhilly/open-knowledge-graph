@@ -49,7 +49,7 @@ Children may confuse above and below or not understand the vertical dimension. T
   answer: 2
   explanation: "In a vertical stack, each item is above everything lower and below everything higher. The ground is the lowest, so it is below the tree, which is below the bird. 'Above' means higher up; 'below' means lower down. The relationship works in both directions: if A is above B, then B is below A."
 
-- question: "The word 'above' describes a fixed location in space — something that is above will always be above no matter what."
+- question: "The word 'above' describes a fixed location in space — something that is above will generally be above no matter what."
   type: true-false
   answer: false
   explanation: "Above and below are relational terms — they describe a relationship between two specific objects, not a fixed position. A shelf is above the floor, but it might be below a painting on the wall. An airplane is above the clouds but below the stars. The same object can be above some things and below others depending on what you're comparing it to."

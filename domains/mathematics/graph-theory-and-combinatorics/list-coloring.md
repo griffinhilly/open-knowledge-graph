@@ -48,7 +48,7 @@ List chromatic number can be much larger than standard chromatic number; having 
   answer: 2
   explanation: "Because the uniform case (all lists identical) is a special case of list coloring, any graph that requires k colors in standard coloring will also require at least k colors in list coloring. So χ(G) ≤ χ_ℓ(G) always. The gap can be large: K_{n,n} has chromatic number 2 (it's bipartite) but list chromatic number Θ(log n), because an adversary can construct list assignments that defeat any fixed coloring strategy for small list sizes."
 
-- question: "If a graph can be properly colored with k colors, it can always be properly list-colored from any assignment of lists of size k."
+- question: "If a graph can be properly colored with k colors, it can usually be properly list-colored from any assignment of lists of size k."
   type: true-false
   answer: false
   explanation: "This is the central misconception list coloring is designed to expose. Standard k-colorability means there exists *one* assignment of k colors that works when all vertices draw from the same pool. List k-choosability (χ_ℓ ≤ k) means the graph can be colored *no matter what* specific k colors each vertex's list contains. These are very different guarantees. K_{n,n} is 2-colorable but not 2-choosable — a cleverly designed list assignment of size 2 can make it impossible to color."

@@ -55,7 +55,7 @@ Use gastric emptying and intestinal transit studies to correlate motility patter
   answer: 2
   explanation: "Fat is not chemically required for fat-soluble vitamin absorption — the key is transit time. High-fat meals trigger pronounced slowing of gastric emptying via cholecystokinin and other enterogastrones, extending the time vitamins spend in the absorptive small intestine. More contact time with absorptive mucosa means more absorption. Bile does solubilize fat-soluble vitamins into micelles (necessary for absorption), but the key reason to take these vitamins with fat-containing food is motility, not chemistry."
 
-- question: "Faster transit through the small intestine always reduces nutrient absorption."
+- question: "Faster transit through the small intestine generally reduces nutrient absorption."
   type: true-false
   answer: false
   explanation: "This is a common oversimplification. For nutrients with efficient absorption kinetics or high-capacity transporters, even relatively rapid transit through an intact small intestine may be sufficient. What matters most for many nutrients is location-specific contact time (the absorption window) rather than overall speed. For B12, it is fast transit specifically through the terminal ileum that impairs absorption — fast transit through the jejunum matters much less."

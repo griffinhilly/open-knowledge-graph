@@ -50,7 +50,7 @@ Planar defects include grain boundaries, stacking faults, and twin boundaries—
   answer: 0
   explanation: "At a high-angle grain boundary, the crystal lattice orientation changes abruptly. The slip plane and slip direction that carry the dislocation in Grain A are not aligned with any favorable slip system in Grain B. Transmission requires generating a new dislocation with a different Burgers vector, which requires additional applied stress. This is the physical mechanism behind Hall-Petch strengthening."
 
-- question: "Reducing grain size in a metal always improves all mechanical properties — strength, ductility, and toughness simultaneously."
+- question: "Reducing grain size in a metal usually improves most mechanical properties — strength, ductility, and toughness simultaneously."
   type: true-false
   answer: false
   explanation: "Grain refinement increases yield strength via Hall-Petch strengthening, but it does not universally improve all properties. Finer grains can reduce ductility by limiting dislocation storage capacity and work-hardening, and can make materials more susceptible to grain boundary corrosion or embrittlement in certain environments. Engineering grain size involves trade-offs, not a simple 'finer is always better' rule."

@@ -56,7 +56,7 @@ Start from the Chomsky hierarchy and position the LBA as the machine model for l
   answer: true
   explanation: "This is one of the notable open problems in the Chomsky hierarchy. Unlike finite automata (where DFA = NFA) and unlike full Turing machines (where determinism doesn't change the recognizable languages), the relationship between deterministic and nondeterministic LBAs is unresolved. It is known that NLBA recognizes the context-sensitive languages; whether DLBA recognizes exactly the same class is open. This contrasts with pushdown automata, where DPDA ≠ NPDA is proven — deterministic PDAs are strictly weaker."
 
-- question: "An LBA recognizes all recursively enumerable languages, since it is a type of Turing machine with only a minor restriction on tape usage."
+- question: "An LBA recognizes most recursively enumerable languages, since it is a type of Turing machine with primarily a minor restriction on tape usage."
   type: true-false
   answer: false
   explanation: "The tape restriction is not minor — it fundamentally limits computational power. An unrestricted Turing machine can allocate unlimited scratch space, enabling recognition of all recursively enumerable languages including undecidable ones. An LBA is limited to the input's footprint; it cannot generate unbounded tape to store intermediate computations. This restriction carves out exactly the context-sensitive languages — a strict subset of recursively enumerable languages. The containment is proper: there exist recursively enumerable languages (including undecidable ones) that no LBA can recognize."

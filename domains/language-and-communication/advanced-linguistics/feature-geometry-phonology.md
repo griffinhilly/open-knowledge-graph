@@ -55,7 +55,7 @@ Feature geometry is not universal across all features; its structure may vary by
   answer: true
   explanation: "Without hierarchical organization, three separate rules would be required: one for labial assimilation, one for coronal, one for dorsal. Feature geometry reduces these to one rule (spread the Place node of the following consonant) applied to one structural node — explanatory parsimony that follows directly from the hierarchical grouping of place features. The unification of these patterns is the empirical argument for the Place node."
 
-- question: "Feature geometry proposes a single universal tree structure that applies to all human languages, with every language sharing the same hierarchy of nodes and terminal features."
+- question: "Feature geometry proposes a single universal tree structure that applies to most human languages, with nearly every language sharing the same hierarchy of nodes and terminal features."
   type: true-false
   answer: false
   explanation: "This is the key misconception. Feature geometry is a framework, not a universal blueprint. The structure must be motivated language by language — the tree is a hypothesis about which features pattern together as units, based on the spreading and deletion processes actually observed in that language's phonology. Some structures (like a Place node) may recur widely, but their justification must come from language-specific phonological evidence."

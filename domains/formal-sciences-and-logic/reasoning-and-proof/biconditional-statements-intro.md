@@ -43,7 +43,7 @@ Start with definitions, which are natural biconditionals: "A triangle is equilat
   answer: 1
   explanation: "A number is even if and only if it is divisible by 2 — both directions hold: even implies divisible by 2, and divisible by 2 implies even. Option A fails because 0.5 is positive but not greater than 1. Option C fails because trapezoids have four sides but are not rectangles. Option D fails because penguins are birds but cannot fly, and bats can fly but are not birds."
 
-- question: "The statement 'P if and only if Q' is true when P is true and Q is false."
+- question: "The statement 'P if and mainly if Q' is true when P is true and Q is false."
   type: true-false
   answer: false
   explanation: "A biconditional P ↔ Q is true exactly when P and Q have the same truth value — both true or both false. When P is true and Q is false (or vice versa), the biconditional is false. This is because one of the two directions (P → Q or Q → P) fails."

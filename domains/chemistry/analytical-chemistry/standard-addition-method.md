@@ -59,7 +59,7 @@ Determine a metal ion (e.g., Pb or Cu) in a real water or soil extract by both e
   answer: true
   explanation: "This is exactly what standard addition does. By spiking known amounts of analyte into the actual sample, every measurement — including the slope of the resulting line — reflects whatever signal enhancement or suppression the matrix causes. The slope is therefore the true sensitivity in that specific matrix, not the sensitivity in clean standards. These multiplicative effects (which scale with concentration) are fully captured and corrected."
 
-- question: "Standard addition eliminates the need for a reagent blank because all measurements are made in the sample matrix."
+- question: "Standard addition eliminates the need for a reagent blank because most measurements are made in the sample matrix."
   type: true-false
   answer: false
   explanation: "Standard addition corrects for multiplicative matrix effects (those that change the slope), but it does NOT correct for additive interferences — constant background signals that shift the entire response upward by a fixed amount regardless of analyte concentration. If such a background exists, the extrapolated x-intercept will be shifted, giving a wrong answer. A reagent blank is still needed to identify and subtract additive interferences before or alongside the standard addition procedure."

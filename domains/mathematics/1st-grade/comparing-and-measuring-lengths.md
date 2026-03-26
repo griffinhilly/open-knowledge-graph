@@ -52,7 +52,7 @@ Students compare the lengths of objects using language like 'longer,' 'shorter,'
   answer: true
   explanation: "This is exactly the power of measurement. You don't have to bring objects side by side to compare them — measure both with the same unit and compare the numbers. If the book is 8 paper clips long and a box in another room is 5 paper clips long, the book is longer. Measurement transforms comparison into a math problem that works across distance."
 
-- question: "A measurement that gives a bigger number always means the object is longer."
+- question: "A measurement that gives a bigger number generally means the object is longer."
   type: true-false
   answer: false
   explanation: "This is only true when the same unit is used for both measurements. If you measure a pencil with tiny cubes (30 cubes) and a table with a large handspan (2 hands), the pencil's number is bigger — but the table is obviously longer. A bigger number just means you used more units, which could simply mean you used a smaller unit, not that the object is longer."

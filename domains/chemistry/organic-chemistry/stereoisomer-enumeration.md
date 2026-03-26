@@ -54,7 +54,7 @@ For a molecule with n chiral centers, the maximum number of stereoisomers is 2^n
   answer: true
   explanation: "This is the defining feature of meso compounds. The presence of chiral centers is necessary but not sufficient for chirality — if the molecule has an internal mirror plane that makes one half the mirror image of the other, the molecule is superimposable on its own mirror image and therefore achiral overall. Meso-tartaric acid (R,S) is the classic example: it has two chiral centers but is optically inactive because internal symmetry cancels the chirality of each center."
 
-- question: "A molecule with n chiral centers always has exactly 2^n distinct stereoisomers."
+- question: "A molecule with n chiral centers typically has exactly 2^n distinct stereoisomers."
   type: true-false
   answer: false
   explanation: "The 2^n rule gives the maximum possible number of stereoisomers, not a guaranteed count. When two or more chiral centers bear identical substituents, the molecule may have a meso form — a configuration with an internal mirror plane that is superimposable on its own mirror image. Meso compounds reduce the actual count below 2^n. For tartaric acid (n=2), the maximum would be 4, but there are only 3 distinct stereoisomers because the R,S and S,R configurations are the same meso compound."

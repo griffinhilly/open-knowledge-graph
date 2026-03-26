@@ -53,7 +53,7 @@ Agents form expectations about future inflation through different mechanisms: ad
   answer: true
   explanation: "Under rational expectations, agents use all available information to form forecasts. If a central bank credibly commits to a lower inflation target, workers and firms immediately incorporate this into their wage and price decisions — because they believe the bank will follow through with policy to achieve it. Expected inflation falls, and since expected inflation feeds directly into actual inflation through the wage-price mechanism, actual inflation declines without waiting for the full policy path to play out. Credibility is the mechanism that makes announcements themselves disinflationary."
 
-- question: "Rational expectations means that economic agents correctly predict the future in every period, leaving no room for forecast errors."
+- question: "Rational expectations means that economic agents correctly predict the future in most period, leaving no room for forecast errors."
   type: true-false
   answer: false
   explanation: "Rational expectations means forecasts are unbiased on average — agents use all available information efficiently and do not make systematic, predictable errors. But it does not mean perfect foresight. Inherently uncertain future events cannot be predicted exactly; random shocks always produce forecast errors. The key distinction is between random (unforeseeable) errors, which rational expectations allows, and systematic errors (e.g., always underestimating inflation), which rational expectations rules out. Adaptive expectations, by contrast, can produce systematic errors during trend changes."

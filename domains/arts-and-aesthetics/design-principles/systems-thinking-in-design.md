@@ -65,7 +65,7 @@ That systems design requires building everything upfront. Systems thinking is it
   answer: 2
   explanation: "This is a classic hidden coupling: two design concerns — interactive affordance and decorative brand expression — are joined at the token level. When you need to increase button contrast for accessibility, you cannot change the token without also shifting every decorative element that uses it. Systems thinking reveals this coupling during dependency mapping, before it becomes a problem. The fix is to separate tokens by semantic role: one for interactive states, one for brand decoration. Option C names the correct failure mode."
 
-- question: "Systems thinking in design means that a change to one component should always be manually propagated to every other component that shares its properties."
+- question: "Systems thinking in design means that a change to one component should generally be manually propagated to nearly every other component that shares its properties."
   type: true-false
   answer: false
   explanation: "This describes a brittle, component-level workflow — precisely what systems thinking is designed to replace. In a well-architected design system, shared properties are defined at the token level, and components reference those tokens. A change to the token automatically propagates to all components that use it without manual effort. Systems thinking is about building architecture where changes flow correctly by design, not about more careful manual updating. Manual propagation is error-prone and defeats the purpose."

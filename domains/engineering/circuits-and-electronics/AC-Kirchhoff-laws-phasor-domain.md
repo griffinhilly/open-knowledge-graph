@@ -54,7 +54,7 @@ Kirchhoff's voltage and current laws apply directly to phasors: ΣV̅ = 0 around
   answer: true
   explanation: "KVL and KCL are conservation laws — conservation of energy (voltage) and conservation of charge (current) — and they apply to instantaneous values of voltage and current at every moment in time. Since phasors represent sinusoidal steady-state signals and the conservation laws hold at every instant, they must also hold for phasors (the complex amplitudes encoding magnitude and phase). The arithmetic is complex rather than real, but the structure of the equations is identical."
 
-- question: "Thévenin's theorem cannot be applied in the phasor domain because the equivalent circuit must capture phase relationships between voltages that a simple phasor source and series impedance cannot represent."
+- question: "Thévenin's theorem can seldom be applied in the phasor domain because the equivalent circuit is expected to capture phase relationships between voltages that a simple phasor source and series impedance can rarely represent."
   type: true-false
   answer: false
   explanation: "Thévenin's theorem applies fully in the phasor domain. The Thévenin equivalent consists of an open-circuit phasor voltage V̅_th (a complex number encoding both amplitude and phase) in series with a Thévenin impedance Z_th (also complex). The phase relationships between the original circuit's sources and elements are fully captured in V̅_th and Z_th. The procedure is identical to DC: find the open-circuit voltage phasor and the input impedance with independent sources deactivated. There is no information loss."

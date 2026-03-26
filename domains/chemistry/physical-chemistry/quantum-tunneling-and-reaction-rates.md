@@ -52,7 +52,7 @@ Calculate tunneling transmission coefficients for proton transfer using WKB appr
   answer: 2
   explanation: "Classical Arrhenius behavior k = A·exp(−Ea/RT) predicts that ln k decreases linearly as 1/T increases — the rate approaches zero as temperature falls. Tunneling, however, is driven by the wavefunction penetration of the barrier, which is nearly temperature-independent. When tunneling dominates, the rate reaches a finite floor at low temperature rather than approaching zero. This curvature on the Arrhenius plot — a leveling off rather than a straight line — is a key diagnostic tool for quantifying the tunneling contribution."
 
-- question: "Quantum tunneling contributes to proton transfer rates only in exotic situations like enzymes or cryogenic temperatures; it is negligible for ordinary chemical reactions under typical laboratory conditions."
+- question: "Quantum tunneling contributes to proton transfer rates mainly in exotic situations like enzymes or cryogenic temperatures; it is negligible for ordinary chemical reactions under typical laboratory conditions."
   type: true-false
   answer: false
   explanation: "Tunneling contributes to ordinary proton and hydrogen atom transfer reactions at room temperature, not just in enzymes or at extreme conditions. The WKB transmission coefficient depends on barrier width and mass — protons (mass ~1 amu) can tunnel appreciably through narrow barriers even near 300 K. Enzymes enhance tunneling by compressing donor-acceptor distance, but the phenomenon is present in simple solution-phase proton transfers as well. Dismissing tunneling as exotic is the most common misconception in reaction kinetics."

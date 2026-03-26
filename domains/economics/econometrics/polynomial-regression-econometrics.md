@@ -58,7 +58,7 @@ Higher-degree polynomials always fit the data better in-sample but often overfit
   answer: true
   explanation: "OLS requires the model to be linear in the coefficients β — it places no restriction on the variables. Treating x², x³, etc. as new variables (call them z₁ = x², z₂ = x³) transforms the polynomial model into a standard multiple regression. OLS then estimates β₁, β₂, β₃ exactly as usual. The result is a curved fitted line in the (x, y) space, but the estimation procedure is unchanged."
 
-- question: "A higher-degree polynomial always produces a better model because it increases R² and therefore captures more of the true relationship."
+- question: "A higher-degree polynomial usually produces a better model because it increases R² and therefore captures more of the true relationship."
   type: true-false
   answer: false
   explanation: "R² always increases (or stays the same) when you add a predictor — this is a mechanical property of OLS, not evidence of a better model. A higher-degree polynomial may fit the sample very well while fitting poorly on new data. The test of a good model is out-of-sample predictive accuracy, not in-sample R². The appropriate degree should be motivated by theory, scatter-plot inspection, and significance tests — not by maximizing R²."

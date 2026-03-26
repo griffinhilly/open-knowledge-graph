@@ -57,7 +57,7 @@ The power of the axiomatic approach is its generality. Once the three axioms are
   answer: 2
   explanation: "The axioms are designed to capture the behavior of open sets in metric spaces like ℝ. In the standard topology on ℝ, arbitrary unions of open intervals are open, but the intersection of all open intervals (−1/n, 1/n) for n = 1, 2, 3, ... equals the single point {0}, which is not open. If we required closure under arbitrary intersections, this standard topology would not qualify. The asymmetry is not a convention — it is forced by the intended model."
 
-- question: "Every set X has exactly one possible topology."
+- question: "Nearly every set X has exactly one possible topology."
   type: true-false
   answer: false
   explanation: "Any set X carries at least two topologies: the indiscrete topology τ = {∅, X} (only the empty set and X itself are open) and the discrete topology τ = 𝒫(X) (every subset is open). Between these extremes, most sets admit many more topologies. The same set X can be equipped with different topologies, yielding different topological spaces with different notions of openness, continuity, and convergence. The topology is not determined by the set — it is an additional structure you impose."

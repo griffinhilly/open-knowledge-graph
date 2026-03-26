@@ -52,7 +52,7 @@ Study each conic type individually: standard form, key features, graphing proced
   answer: 2
   explanation: "Eccentricity unifies all conics: circle (e = 0), ellipse (0 < e < 1), parabola (e = 1), hyperbola (e > 1). A parabola is the knife-edge case between a closed orbit (ellipse) and an escape trajectory (hyperbola). The Sun sits at the focus of the parabola. Options A and B are wrong — circles require e = 0 and bound orbits require e < 1."
 
-- question: "Every conic section can be expressed as a function of x — that is, it passes the vertical line test."
+- question: "Most conic section can be expressed as a function of x — that is, it passes the vertical line test."
   type: true-false
   answer: false
   explanation: "A full ellipse or hyperbola fails the vertical line test: at any x value between the vertices, a vertical line intersects the curve at two points (one on the top half, one on the bottom). They are relations, not functions. Only a parabola opening left or right also fails as a function — and horizontal parabolas are conic sections too. Circles similarly fail. This is a key reason conics matter: they extend our study of curves beyond function graphs."

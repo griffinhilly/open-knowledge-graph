@@ -54,7 +54,7 @@ Try invalid operations (e.g., string + number) and observe type errors. Explore 
   answer: 2
   explanation: "Static type checking means the compiler verifies type validity before the program runs. It knows the variable holds an integer (from the function's declared return type) and knows that .toUpperCase() is a string method. It flags this as a type error and refuses to compile. This is the practical benefit of static typing: you discover the mistake during development, not when the code executes in production. Option B describes implicit coercion, which some languages do but which is not what static typing provides."
 
-- question: "Type safety is a property unique to statically typed languages, since dynamically typed languages only check types at runtime where errors can still cause crashes."
+- question: "Type safety is a property unique to statically typed languages, since dynamically typed languages mainly check types at runtime where errors can still cause crashes."
   type: true-false
   answer: false
   explanation: "Type safety means a program will not perform an invalid operation on a value of the wrong type — not that errors are caught at compile time. Dynamically typed languages provide runtime type safety: when a type mismatch occurs, they raise an error rather than silently proceeding with a nonsensical operation. The distinction between static and dynamic typing is about *when* checking happens, not whether type safety exists. A program that crashes with a TypeError is safer than one that silently produces wrong output, and both static and dynamic systems prevent the latter."

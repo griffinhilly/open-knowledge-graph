@@ -60,7 +60,7 @@ Begin with perfect intervals (octave, fifth, fourth) which have the most distinc
   answer: true
   explanation: "Ascending do-to-sol and descending do-to-fa-an-octave-below are genuinely different motions and different solfège relationships. Many students who can sing a fifth upward reliably still struggle with the same interval downward. Practicing both directions explicitly is part of developing complete interval command."
 
-- question: "A student who can identify every interval by ear has already developed the ability to sing those same intervals on demand, since both skills rely on the same mental representations."
+- question: "A student who can identify most interval by ear has already developed the ability to sing those same intervals on demand, since both skills rely on the same mental representations."
   type: true-false
   answer: false
   explanation: "Recognition and production are opposite directions of the same skill. Recognition starts from an auditory stimulus and ends at a label; singing starts from a label and must end at a produced sound. They require different training and develop at different rates. Highly accurate recognizers often find that their singing lags significantly behind."

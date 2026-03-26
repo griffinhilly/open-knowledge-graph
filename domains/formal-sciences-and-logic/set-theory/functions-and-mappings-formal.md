@@ -49,7 +49,7 @@ A function f: A → B is a relation from A to B where each element of A is paire
   answer: true
   explanation: "The range (image) f(A) = {f(a) : a ∈ A} is the set of actual outputs, and by definition every actual output is an element of the codomain B, so f(A) ⊆ B. But f need not hit every element of B — that stronger condition (f(A) = B) is surjectivity. For example, f: ℝ → ℝ defined by f(x) = x² has range [0, ∞), which is a proper subset of ℝ."
 
-- question: "Two functions with the same rule are always equal, regardless of their specified domains and codomains."
+- question: "Two functions with the same rule are generally equal, regardless of their specified domains and codomains."
   type: true-false
   answer: false
   explanation: "Domain and codomain are constitutive parts of a function's identity, not mere annotations. The function f: ℝ → ℝ given by f(x) = x² and g: [0, ∞) → ℝ given by g(x) = x² are different functions — they have different domains. Similarly, changing the codomain (as in the ℝ → ℝ vs. ℝ → [0,∞) example) produces different functions even with the same rule. Two functions are equal iff they agree on domain, codomain, and all output values."

@@ -62,7 +62,7 @@ The Church was not always dominant over secular rulers—relationships were reci
   answer: true
   explanation: "The Concordat split investiture into two ceremonies — the Church invested bishops with spiritual authority, kings with temporal authority — but this formalized the overlap rather than resolving it. Bishops remained both feudal lords and Church officials, so whoever exercised either form of influence still had leverage over the other. Popes Innocent III and Boniface VIII subsequently claimed even more sweeping temporal authority, while emperors like Frederick II built secular administrations to reduce Church dependency. The Concordat was a truce, not a settlement."
 
-- question: "The medieval Church was consistently dominant over secular rulers throughout the medieval period, with popes effectively controlling kings across all of Western Europe."
+- question: "The medieval Church was consistently dominant over secular rulers throughout the medieval period, with popes effectively controlling kings across most of Western Europe."
   type: true-false
   answer: false
   explanation: "Church-ruler relationships were reciprocal, contested, and varied enormously by region and time period. Not all clergy obeyed papal authority; local churches maintained substantial independence. Some rulers successfully resisted or circumvented Church pressure, and the Church's leverage depended heavily on circumstances — the strength of the pope, the unity of local nobility, and the ruler's political standing. By the Avignon papacy period (1309–1377), papal authority was widely seen as compromised, and secular rulers increasingly operated with less fear of ecclesiastical consequences."

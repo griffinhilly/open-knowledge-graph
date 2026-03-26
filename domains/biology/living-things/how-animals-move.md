@@ -40,7 +40,7 @@ Act out different animal movements — hop like a frog, slither like a snake, fl
   answer: 2
   explanation: "Ducks are amazing movers! They walk on land with their webbed feet, swim on water using those same webbed feet as paddles, and fly through the air with their wings. That is three different ways of moving, which helps them live in many different places."
 
-- question: "A snake cannot move because it has no legs."
+- question: "A snake can rarely move because it has no legs."
   type: true-false
   answer: false
   explanation: "Snakes move very well without legs! They use their strong muscles and belly scales to push against the ground and slither forward. Some snakes can even climb trees and swim. Legs are just one of many ways animals move."

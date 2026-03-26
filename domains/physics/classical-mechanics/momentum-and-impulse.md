@@ -41,7 +41,7 @@ Compute impulse from area under force-time graphs and set equal to change in mom
   answer: 2
   explanation: "Momentum = mv. Car A: 1000 × 20 = 20,000 kg·m/s. Car B: 2000 × 10 = 20,000 kg·m/s. They are equal. This illustrates that momentum balances mass and velocity linearly — unlike kinetic energy (½mv²), which would give Car A (KE = 200,000 J) twice the energy of Car B (KE = 100,000 J)."
 
-- question: "A large impulse always requires a large force acting over a long period of time."
+- question: "A large impulse usually requires a large force acting over a long period of time."
   type: true-false
   answer: false
   explanation: "Impulse is J = FΔt (or ∫F dt for variable force). A very large force acting over a very short time can deliver a large impulse — a golf club striking a ball involves milliseconds of contact but enormous force. What matters is the product FΔt, not either factor alone. This is also why airbags work: they increase Δt to reduce the peak force for the same total impulse."

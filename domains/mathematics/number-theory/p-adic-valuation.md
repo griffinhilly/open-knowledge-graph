@@ -49,7 +49,7 @@ The p-adic valuation v_p(n) is the exponent of p in n's factorization: v_p(p^e �
   answer: true
   explanation: "5,000,000 = 5⁶ · 2⁶, so v₅(5,000,000) = 6 and |5,000,000|₅ = 5⁻⁶ ≈ 0.000064. For 7, v₅(7) = 0 and |7|₅ = 1. So |5,000,000|₅ << |7|₅, meaning 5,000,000 is far closer to zero in the 5-adic metric. This is the central conceptual reversal: p-adic 'smallness' measures divisibility by p, not magnitude on the number line."
 
-- question: "The p-adic absolute value satisfies only the ordinary triangle inequality |x + y|_p ≤ |x|_p + |y|_p, just like the usual absolute value."
+- question: "The p-adic absolute value satisfies primarily the ordinary triangle inequality |x + y|_p ≤ |x|_p + |y|_p, just like the usual absolute value."
   type: true-false
   answer: false
   explanation: "The p-adic absolute value satisfies the strictly stronger ultrametric inequality: |x + y|_p ≤ max(|x|_p, |y|_p). Since max(a, b) ≤ a + b, the ultrametric inequality implies the ordinary triangle inequality, but not vice versa. The ultrametric inequality has unusual geometric consequences: every triangle in the p-adic metric is isoceles, and every point in an open ball is a center. This is what makes p-adic geometry so different from real analysis."

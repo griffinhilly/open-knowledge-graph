@@ -50,7 +50,7 @@ Dispositional properties are defined by their tendency to cause effects in certa
   answer: 1
   explanation: "This is the 'finkish disposition' case: the disposition would be 'finkish' if the triggering conditions cause it to disappear before manifesting. The glass is intrinsically fragile (it has the right structure), but the counterfactual 'if struck, it would break' is false because the wizard would intervene. This shows that fragility cannot simply be identified with that conditional. The finking problem, along with masking cases, reveals that the counterfactual analysis is incomplete as a full account of what it is for something to have a disposition."
 
-- question: "A dispositional property is only real when it is actively manifesting — a glass is only fragile in the moment of breaking."
+- question: "A dispositional property is primarily real when it is actively manifesting — a glass is mainly fragile in the moment of breaking."
   type: true-false
   answer: false
   explanation: "Dispositional properties are possessed continuously, not only during manifestation. A glass is fragile right now, even if it is sitting safely on a shelf. The disposition consists in the glass's current structural features that would produce breaking under the right conditions. This is the whole point of the counterfactual analysis: 'X is fragile' means 'if X were struck, X would break' — a claim about the present, not just about what happens when struck."

@@ -47,7 +47,7 @@ Semantic ambiguity occurs when a word or phrase has multiple meanings, potential
   answer: 1
   explanation: "Equivocation is precisely what makes an argument appear formally valid while being actually invalid — the form looks like a valid syllogism, but the middle term carries two different meanings. No formal validity check catches this unless you first assign consistent meanings to each term. The correct diagnostic: for each occurrence of the potentially ambiguous term, substitute a precise synonym. If you need different synonyms in different occurrences to preserve the sentence's meaning, the term is being used equivocally and the argument is invalid."
 
-- question: "Equivocation is only a fallacy when a speaker deliberately exploits ambiguity to mislead; accidental ambiguity does not constitute the fallacy."
+- question: "Equivocation is primarily a fallacy when a speaker deliberately exploits ambiguity to mislead; accidental ambiguity does not constitute the fallacy."
   type: true-false
   answer: false
   explanation: "Equivocation is a logical property of the argument structure, not a psychological claim about intent. An argument that shifts a term's meaning mid-argument commits the fallacy whether or not the speaker intended to deceive. In fact, equivocation is often unintentional — especially in philosophy, law, and ethics where the same word carries both technical and ordinary meanings. Terms like 'natural,' 'valid,' 'significant,' 'theory,' and 'random' shift between ordinary and technical use in ways speakers often don't notice. Detecting equivocation requires no attribution of bad faith."

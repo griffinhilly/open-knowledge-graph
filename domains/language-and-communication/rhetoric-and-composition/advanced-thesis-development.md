@@ -54,7 +54,7 @@ A thesis should be a question, not a statement. / A thesis should introduce all 
   answer: 2
   explanation: "Option C has all three marks of an advanced thesis: specificity (fossil fuel subsidies as the mechanism), complexity (acknowledges the genuine progress of renewable adoption before complicating it), and clear stakes (the claim that markets alone are insufficient is contestable and consequential). Options A and B are too vague to be argued; option D is framed as a question and then collapses into an obvious answer."
 
-- question: "A strong advanced thesis should enumerate all of the essay's main supporting points upfront so the reader knows what to expect."
+- question: "A strong advanced thesis should enumerate most of the essay's main supporting points upfront so the reader knows what to expect."
   type: true-false
   answer: false
   explanation: "This is a common misconception that produces mechanical, list-like thesis statements. An advanced thesis makes one nuanced central claim with specificity and complexity — it does not preview every sub-argument. The essay's job is to develop the argument; the thesis's job is to state what argument is being made."

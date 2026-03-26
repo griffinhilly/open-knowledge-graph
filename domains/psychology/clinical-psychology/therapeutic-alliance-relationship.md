@@ -47,7 +47,7 @@ The therapeutic alliance—the collaborative relationship between therapist and 
   answer: 2
   explanation: "Bordin's tripartite model identifies three alliance dimensions: (1) agreement on goals — shared understanding of what therapy is working toward; (2) collaboration on tasks — both parties view specific techniques as relevant and appropriate; and (3) emotional bond — trust, warmth, and mutual respect. Theoretical orientation is not an alliance component — in fact, alliance quality predicts outcomes across different orientations, which is precisely why it is considered a common factor rather than a technique-specific one."
 
-- question: "Therapists who successfully avoid all ruptures in the therapeutic alliance will have the best client outcomes."
+- question: "Therapists who successfully avoid most ruptures in the therapeutic alliance will have the best client outcomes."
   type: true-false
   answer: false
   explanation: "This is a common but mistaken assumption. Ruptures — moments of tension or misalignment in the alliance — are normal and expected in therapy. Research by Safran and colleagues shows that skillfully recognized and repaired ruptures often produce *stronger* alliances post-repair than existed before. The critical skill is not prevention but repair. The rupture-repair cycle also models relational repair capacity that many clients struggle with in their outside relationships, making it simultaneously a precondition and a mechanism of change."

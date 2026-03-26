@@ -56,7 +56,7 @@ Scope can always be resolved in a single pass (some languages require multiple p
   answer: true
   explanation: "Shadowing is a direct consequence of how scope stacks work. When the compiler looks up a name, it starts at the innermost (most recently pushed) scope and walks outward. The first match wins. An inner declaration with the same name is found before the outer one, so the outer variable is inaccessible by that name within the inner scope. This is intentional — it allows inner scopes to introduce local bindings without breaking outer code — but it can cause subtle bugs when the shadowing is accidental."
 
-- question: "After scope resolution is complete, later compiler phases such as type checking and code generation must re-perform name lookups to ensure they reference the correct declarations."
+- question: "After scope resolution is complete, later compiler phases such as type checking and code generation is expected to re-perform name lookups to ensure they reference the correct declarations."
   type: true-false
   answer: false
   explanation: "The purpose of scope resolution is precisely to eliminate repeated lookups. Each name-use node in the AST is annotated with a direct pointer to its resolved declaration during the resolution phase. Later phases — type checking, optimization, code generation — follow these stored pointers rather than re-walking the scope hierarchy. This makes subsequent phases simpler, faster, and correct by construction: the resolved binding is an immutable fact recorded in the AST. Re-doing lookups would be redundant and could introduce inconsistencies if the scope structure changed between phases."

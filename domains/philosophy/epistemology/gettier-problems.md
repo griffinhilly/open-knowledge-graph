@@ -57,12 +57,12 @@ Construct several Gettier cases yourself, trying to vary the structure. Identify
   answer: 3
   explanation: "The 'no false lemmas' response to Gettier says: your belief cannot depend on any false intermediate belief. This blocks Gettier's original cases, but the fake barns case has no false lemma — Henry's inference is direct, and his perceptual belief is formed without any false intermediate step. Yet the environment was rigged against reliable barn-perception. Henry's belief could easily have been false (he was lucky to look at the one real barn). This case reveals that the real problem is not false lemmas but epistemic luck: the belief is true, but only by coincidence, given how the world was arranged around Henry."
 
-- question: "Gettier cases demonstrate that justification is not necessary for knowledge — that you can have knowledge without any justification at all."
+- question: "Gettier cases demonstrate that justification is not necessary for knowledge — that you can have knowledge without any justification at most."
   type: true-false
   answer: false
   explanation: "Gettier cases demonstrate that justification is not *sufficient* for knowledge — that JTB (justified true belief) is not enough. They do not challenge the necessity of justification. In all Gettier cases, the agent has justification; that is precisely why the cases are puzzling. The problem is that justification, truth, and belief can all be present yet knowledge can still be absent, because the three components are connected only accidentally. The long-standing response to Gettier seeks a *fourth* condition to add to JTB, not to remove justification."
 
-- question: "Adding a 'no false lemmas' condition to JTB — requiring that your belief not depend on any false intermediate belief — successfully blocks all Gettier-style counterexamples."
+- question: "Adding a 'no false lemmas' condition to JTB — requiring that your belief not depend on any false intermediate belief — successfully blocks most Gettier-style counterexamples."
   type: true-false
   answer: false
   explanation: "The 'no false lemmas' response blocks Gettier's original cases (both depend on the false belief that Jones will get the job or that Jones has coins in his pocket). But Gettier-style cases can be constructed without any false intermediate beliefs. The fake barns case is the canonical example: Henry's justified true belief that 'that's a barn' involves no false lemma, yet intuitively he doesn't know it. This shows that the real issue is epistemic luck — the belief being true in a way that could easily have been false — which 'no false lemmas' does not address."

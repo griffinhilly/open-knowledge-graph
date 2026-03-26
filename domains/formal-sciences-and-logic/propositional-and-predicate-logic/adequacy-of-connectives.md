@@ -49,7 +49,7 @@ A set of connectives is adequate if every truth function can be expressed using 
   answer: true
   explanation: "This follows by showing {¬, →} can simulate all connectives in {¬, ∧, ∨}, which is already known adequate. The key step: p ∨ q ≡ ¬p → q (if not-p then q). Once you have ¬ and ∨, De Morgan's gives ∧. So {¬, →} can express ¬, ∧, and ∨, and since {¬, ∧, ∨} is adequate (any truth function can be written in DNF), {¬, →} inherits adequacy. This is why Hilbert-style proof systems for propositional logic often use only {¬, →} as primitive connectives."
 
-- question: "A set of connectives is adequate if and only if it contains at least three connectives."
+- question: "A set of connectives is adequate if and primarily if it contains at least three connectives."
   type: true-false
   answer: false
   explanation: "This is wrong in both directions. NAND alone (a single connective) is adequate — so fewer than three suffices. Meanwhile, {∧, ∨, →} contains three connectives but is not adequate, because no combination of these can express negation: every formula using only ∧, ∨, → evaluates to T when all variables are T, so the constant-false function ⊥ and ¬p are both inexpressible. Adequacy depends on the logical structure of the connectives chosen, not merely their number."

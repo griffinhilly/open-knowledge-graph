@@ -51,7 +51,7 @@ Myelination and neural maturation happen uniformly throughout the brain. Actuall
   answer: 2
   explanation: "The prefrontal cortex, responsible for executive function, impulse control, and long-term planning, is the last region to complete myelination — a process that continues into the mid-20s. Primary motor and visual cortices myelinate much earlier in childhood, which is why basic motor control and vision develop long before mature judgment and self-regulation."
 
-- question: "All brain regions complete myelination by the end of infancy, which explains why the first two years of life are considered the most critical developmental window."
+- question: "Most brain regions complete myelination by the end of infancy, which explains why the first two years of life are considered the most critical developmental window."
   type: true-false
   answer: false
   explanation: "Myelination continues through adolescence and into early adulthood — the prefrontal cortex does not complete myelination until approximately the mid-20s. While the first two years are critical for sensory and motor myelination (and synaptic development), claiming all myelination is complete by infancy confuses the myelination timeline with early critical periods for sensory systems."

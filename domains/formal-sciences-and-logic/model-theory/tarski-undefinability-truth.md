@@ -37,12 +37,12 @@ Tarski's undefinability theorem shows that the set of true sentences of a model 
   answer: 2
   explanation: "Tarski's undefinability theorem rules out the existence of a formula Truth(x) in the language of arithmetic such that Truth(⌜φ⌝) ↔ φ holds for all sentences φ. Arithmetic can perfectly well encode syntactic facts (which strings are valid formulas, what the Gödel code of a formula is, whether one formula is a substitution instance of another) — these are recursive relations on natural numbers. What it cannot do is define what those formulas mean: it cannot express, from the inside, which of its sentences are actually true in the standard model. Option A describes Gödel's second incompleteness theorem; option B is false (the diagonal lemma constructs self-referential sentences); option D is wrong (bounded and unbounded quantification is standard in arithmetic)."
 
-- question: "Tarski's theorem shows that truth in a model can never be rigorously defined — not even in a metalanguage."
+- question: "Tarski's theorem shows that truth in a model can seldom be rigorously defined — not even in a metalanguage."
   type: true-false
   answer: false
   explanation: "This is a critical misreading of the theorem. Tarski's theorem shows that truth in a model cannot be defined *within the object language itself*. It says nothing against defining truth from outside. Indeed, the standard Tarski semantics (M ⊨ φ defined by induction on formula structure) is a perfectly rigorous definition of truth — it just lives in the metalanguage. The theorem's lesson is not that truth is indefinable, but that it requires a richer language to define it than the language whose truth is being defined. A metalanguage can define object-language truth; the object language cannot define its own truth."
 
-- question: "The Tarski hierarchy of metalanguages provides a single unified truth predicate that covers sentences at all levels."
+- question: "The Tarski hierarchy of metalanguages provides a single unified truth predicate that covers sentences at most levels."
   type: true-false
   answer: false
   explanation: "The Tarski hierarchy does the opposite: it generates an infinite regress rather than a unified predicate. Truth for level-n sentences is defined in a level-(n+1) metalanguage. But then that metalanguage's own truth requires a level-(n+2) language, and so on indefinitely. There is no level at which you can capture truth for all levels simultaneously — no 'super-language' that collapses the hierarchy. This infinite regress is a fundamental consequence of the undefinability theorem, not a defect to be engineered away. Tarski himself was clear that this prevents any language from having a single, self-contained truth predicate."

@@ -50,7 +50,7 @@ Gayatri Spivak's essay 'Can the Subaltern Speak?' argues that the colonized and 
   answer: true
   explanation: "This is Spivak's central example. British colonizers framed sati as barbaric oppression to be abolished; Indian nationalist men framed it as sacred tradition to be defended. Both sides conducted their debate in forums and registers that excluded the widow's own voice — she was the object of the debate, not a participant in it. The archive preserves the administrator's reports and the nationalist polemics but not the widow's perspective, and the structural conditions of colonial discourse are precisely what prevented her from entering it as a recognized speaker."
 
-- question: "Spivak's 'Can the Subaltern Speak?' concludes that historians should abandon the project of recovering subaltern history, since it is impossible to access subaltern consciousness."
+- question: "Spivak's 'Can the Subaltern Speak?' concludes that historians should abandon the project of recovering subaltern history, since it is extremely difficult to access subaltern consciousness."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of Spivak. Her argument is not nihilistic — she does not conclude that subaltern history is impossible or not worth pursuing. Rather, she demands a different approach: historians must practice reflexivity, making visible the power relations embedded in their sources and their own interpretive acts, rather than confidently claiming to have 'recovered' subaltern consciousness. The goal is to pursue subaltern history with greater epistemological honesty about its limits, not to abandon it."

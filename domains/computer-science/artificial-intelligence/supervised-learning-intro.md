@@ -31,7 +31,7 @@ Supervised learning learns mappings from inputs to outputs using labeled data. C
   answer: 1
   explanation: "Supervised learning is defined by the use of labeled data — each training example provides both the input and the correct output (label). Unsupervised learning, by contrast, finds structure in data without any labels. Neural networks and gradient descent are implementation choices that can appear in both paradigms; dataset size is not what defines the paradigm."
 
-- question: "A model that achieves near-zero error on its training data is guaranteed to perform well on new, unseen data."
+- question: "A model that achieves near-zero error on its training data is expected to perform well on new, unseen data."
   type: true-false
   answer: false
   explanation: "This is the core overfitting problem. A model can memorize the training set — including its noise — while failing to capture the true underlying pattern. Near-perfect training performance often signals high variance (overfitting), not a good model. Generalization to unseen data requires balancing bias and variance, typically evaluated on a held-out validation or test set."

@@ -53,7 +53,7 @@ Loop shaping manipulates the open-loop frequency response (magnitude and phase) 
   answer: true
   explanation: "Both effects are real and coupled: a lead compensator (zero above its pole) contributes positive phase in the band between its pole and zero, and its magnitude increases in that same region. This magnitude increase means the 0 dB crossover point moves to a higher frequency — raising the bandwidth. This is why lead design requires checking that the new, higher crossover frequency still sits in a phase-favorable region of the plant's Bode plot."
 
-- question: "Increasing open-loop gain always improves both closed-loop bandwidth and phase margin."
+- question: "Increasing open-loop gain generally improves both closed-loop bandwidth and phase margin."
   type: true-false
   answer: false
   explanation: "Increasing gain raises the gain crossover frequency (higher bandwidth), but if the plant's phase decreases steeply with frequency (as is typical), the new crossover frequency falls in a region of worse phase, reducing phase margin. In many practical systems, the gain that maximizes bandwidth also drives phase margin dangerously low. Loop shaping with compensators allows bandwidth and phase margin to be addressed more independently than a simple gain change permits."

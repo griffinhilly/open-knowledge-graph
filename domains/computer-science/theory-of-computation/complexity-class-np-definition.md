@@ -55,7 +55,7 @@ NP contains languages decided by nondeterministic TMs in polynomial time. Equiva
   answer: true
   explanation: "If you can solve a problem in polynomial time, you can certainly verify a proposed solution in polynomial time — just solve the problem yourself and compare. Therefore P ⊆ NP. The open question is whether this containment is strict (P ≠ NP, meaning some NP problems have no polynomial-time deterministic solution) or whether all NP problems are also efficiently solvable (P = NP). Either way, P being a subset of NP is uncontroversial."
 
-- question: "NP is the class of problems that cannot be solved in polynomial time."
+- question: "NP is the class of problems that can seldom be solved in polynomial time."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about NP. NP does not mean 'not polynomial.' NP stands for 'nondeterministic polynomial time' and contains problems whose solutions can be verified in polynomial time. Whether NP problems can also be solved in polynomial time is the P vs NP question — still unsolved after decades. Many NP problems may well be in P; we simply don't know how to prove or disprove it. The 'NP = hard problems' interpretation is an intuition, not the definition."

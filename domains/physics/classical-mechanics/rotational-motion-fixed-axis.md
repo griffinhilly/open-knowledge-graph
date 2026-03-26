@@ -54,7 +54,7 @@ When a rigid body rotates about a fixed axis, all points follow circular paths w
   answer: 2
   explanation: "From τ = Iα, for the same torque, smaller I means larger α. The solid cylinder has I = ½MR², while the hollow ring has I = MR² — twice as large, even with the same total mass. This is because I = Σmᵢrᵢ²: the ring has all its mass at radius R (contributing maximum r² per unit mass), while the solid cylinder's mass spans all radii 0 to R, averaging to a smaller effective r². Mass close to the axis barely resists rotation; mass far from the axis resists strongly. Moment of inertia depends on mass distribution, not just total mass."
 
-- question: "When a rigid body rotates about a fixed axis, all particles in the body share the same angular velocity and therefore also share the same linear velocity."
+- question: "When a rigid body rotates about a fixed axis, most particles in the body share the same angular velocity and therefore also share the same linear velocity."
   type: true-false
   answer: false
   explanation: "All particles in a rigidly rotating body do share the same angular velocity ω — this is the defining feature of rigid-body rotation about a fixed axis. But linear speed v = rω depends on both ω and the particle's distance r from the axis. Particles farther from the axis have larger r and therefore larger linear speed. Only the angular quantities (ω, α) are uniform throughout the body; the linear quantities (v, tangential acceleration) vary with distance from the axis. A rim point and a hub point on the same wheel have the same ω but very different v."

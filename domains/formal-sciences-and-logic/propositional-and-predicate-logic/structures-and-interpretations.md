@@ -50,7 +50,7 @@ Construct small explicit models with finite domains. Evaluate formulas in them. 
   answer: 2
   explanation: "∀x P(x) has no truth value until you specify a structure: a domain D and an interpretation of the predicate P as some subset of D. In the structure where D = {2,4,6} and P means 'is even,' the formula is true. In the structure where D = {1,2,3} and P means 'is even,' it is false (P(1) fails). Asking 'is the formula true?' without naming a structure is like asking 'is x > 0?' without specifying x."
 
-- question: "A closed first-order formula is either true in all structures or false in all structures — there is no middle ground."
+- question: "A closed first-order formula is either true in most structures or false in most structures — there is no middle ground."
   type: true-false
   answer: false
   explanation: "Only logical tautologies (valid formulas) are true in every structure, and only contradictions are false in every structure. Most formulas are contingent — true in some structures and false in others. For example, ∃x ∃y (x ≠ y) is true in any domain with at least two elements but false in a singleton domain. The distinction between tautology, contingency, and contradiction is central to model theory."

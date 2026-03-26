@@ -55,7 +55,7 @@ Begin with short passages (a single paragraph or stanza) and annotate every unfa
   answer: 1
   explanation: "This student identifies a specific word ('slings'), notes it is a metaphor, and then argues what effect that choice produces (misfortune as violent aggressor). That is the core close reading move: observation + interpretation + textual warrant. Summarizing would instead describe that Hamlet is contemplating suicide, without analyzing how the language works."
 
-- question: "Close reading requires the reader to set aside all historical and biographical context and focus only on the words on the page."
+- question: "Close reading requires the reader to set aside most historical and biographical context and focus primarily on the words on the page."
   type: true-false
   answer: false
   explanation: "Context is not the enemy of close reading — it can sharpen and deepen interpretation. Knowing that a poem was written during wartime, or that an author was in exile, can illuminate word choices or structural decisions. The distinction is that close reading uses context to explain textual details, not to replace them. The text's specific language always remains the primary evidence."

@@ -49,7 +49,7 @@ Every non-constant polynomial p(z) of degree n ≥ 1 has exactly n roots (counti
   answer: true
   explanation: "This is a pure existence proof by contradiction. The argument assumes no root exists, derives a contradiction via Liouville's theorem, and concludes a root must exist — but at no point does it produce the root's location or value. This is characteristic of many complex-analytic results: the rigidity of analytic functions allows existence to be forced by global properties (boundedness, entirety) without local construction."
 
-- question: "An analogous proof of the Fundamental Theorem of Algebra works over the real numbers, using the real version of Liouville's theorem — that every bounded differentiable function on ℝ must be constant."
+- question: "An analogous proof of the Fundamental Theorem of Algebra works over the real numbers, using the real version of Liouville's theorem — that nearly every bounded differentiable function on ℝ should be constant."
   type: true-false
   answer: false
   explanation: "There is no real analogue of Liouville's theorem in the relevant sense. Over ℝ, bounded differentiable functions need not be constant — sin(x) is bounded and differentiable on all of ℝ but is not constant. The proof requires the much stronger rigidity of complex differentiability: a bounded entire function on ℂ must be constant, a fact with no real counterpart. This is why the proof requires ℂ and cannot be reproduced within real analysis."

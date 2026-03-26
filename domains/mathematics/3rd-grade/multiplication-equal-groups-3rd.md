@@ -58,7 +58,7 @@ Confusing multiplication with addition; assuming groups must be the same shape r
   answer: true
   explanation: "Multiplication and division are inverse operations that use the same three numbers. The equal-groups picture for 3 × 7 = 21 directly answers the division question: if you have 21 items and make groups of 7, you get 3 groups. Every multiplication fact automatically gives two related division facts, just as addition facts give subtraction facts."
 
-- question: "Multiplication is just a shortcut for repeated addition, so understanding repeated addition is all you really need."
+- question: "Multiplication is just a shortcut for repeated addition, so understanding repeated addition is most you really need."
   type: true-false
   answer: false
   explanation: "While multiplication gives the same result as repeated addition for equal groups, it is a more powerful operation — not merely a shortcut. Multiplication scales to problems where repeated addition is impractical (9 × 7 requires adding 7 nine times). More importantly, the equal-groups structure extends to division, fractions, and algebra in ways that the repeated-addition framing does not. Both representations deepen understanding."

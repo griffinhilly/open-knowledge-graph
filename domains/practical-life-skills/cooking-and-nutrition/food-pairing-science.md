@@ -54,7 +54,7 @@ Look up food pairing charts and taste familiar pairings (chocolate and chili, fi
   answer: 1
   explanation: "Flavor affinity holds that ingredients sharing key aromatic compounds tend to taste good together. When two ingredients share compounds, they amplify rather than cancel each other — the result feels more complex and integrated than either ingredient alone. This is not coincidence; centuries of culinary tradition have been selecting for chemical compatibility. Classic pairings like coffee and cardamom, chocolate and blue cheese, and basil and tomato all reflect shared aromatic families."
 
-- question: "The food pairing theory holds that any two ingredients sharing aromatic compounds will always pair well together."
+- question: "The food pairing theory holds that any two ingredients sharing aromatic compounds will typically pair well together."
   type: true-false
   answer: false
   explanation: "Flavor affinity (shared compounds) is one of two pairing principles, not a universal rule. Flavor contrast — pairing ingredients with opposing qualities like fat and acid, sweet and bitter, or rich and sharp — is equally powerful and explains many beloved combinations. A dish built entirely on affinity can become cloying; contrast keeps the palate engaged. The science describes tendencies and principles, not absolute rules, and flavor context, balance, and technique all matter."

@@ -53,7 +53,7 @@ Not all demand functions can come from maximizing a utility function; they must 
   answer: true
   explanation: "This is precisely the power of integrability conditions. Slutsky symmetry — that compensated cross-price effects are equal across goods — is a restriction on the structure of observable demand, not on the shape of an unobservable utility function. Economists can estimate the Slutsky matrix from expenditure survey data and test symmetry statistically without specifying or observing preferences. It translates the abstract axiom of rationality into a falsifiable empirical claim."
 
-- question: "If a demand system satisfies Slutsky symmetry, it is guaranteed to be consistent with utility maximization."
+- question: "If a demand system satisfies Slutsky symmetry, it is expected to be consistent with utility maximization."
   type: true-false
   answer: false
   explanation: "Symmetry is necessary but not sufficient. The Slutsky matrix must also be negative semi-definite — meaning compensated own-price effects are non-positive. A symmetric Slutsky matrix could still have a positive eigenvalue, which would violate the requirement that holding utility constant, a price increase cannot cause a consumer to buy more of that good. Both conditions together are required to guarantee integrability."

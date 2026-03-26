@@ -46,7 +46,7 @@ Contrast space with time: space can be reused across computation steps but time 
   answer: 0
   explanation: "Space is reusable: a Turing machine can overwrite tape cells and use them again in later steps. Savitch's simulation exploits this to recursively reuse space, squashing nondeterministic S(n) space into deterministic O(S(n)²) space. Time is strictly sequential — each step is consumed once and cannot be shared. A nondeterministic path of length t requires t distinct time steps, so the recursive technique does not transfer."
 
-- question: "A problem in PSPACE can always be solved in polynomial time."
+- question: "A problem in PSPACE can generally be solved in polynomial time."
   type: true-false
   answer: false
   explanation: "PSPACE contains problems that may require exponential time even though they use only polynomial space. PSPACE-complete problems like QBF (Quantified Boolean Formula satisfiability) are believed to require super-polynomial time. The space bound restricts memory usage, not the number of computation steps, which can be exponentially large."

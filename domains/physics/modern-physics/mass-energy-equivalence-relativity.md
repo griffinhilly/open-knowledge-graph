@@ -50,7 +50,7 @@ Energy and mass are interchangeable according to Einstein's equation E = mc², w
   answer: true
   explanation: "E = mc² (or E₀ = mc²) is specifically the rest energy — the energy a particle has when v = 0 and γ = 1. The total relativistic energy of a moving particle is E = γmc², where γ = 1/√(1 − v²/c²) > 1 whenever v > 0. E = mc² is a special case of E = γmc² with v = 0. This is not a flaw in E = mc²; it correctly describes the enormous energy content of mass even at rest."
 
-- question: "In matter-antimatter annihilation, mass is destroyed and energy is created from nothing, which is why the process seems to violate conservation of mass."
+- question: "In matter-antimatter annihilation, mass is destroyed and energy is created from very little, which is why the process seems to violate conservation of mass."
   type: true-false
   answer: false
   explanation: "Mass-energy equivalence means mass is not a separately conserved quantity — energy is. When an electron and positron annihilate to produce two gamma rays, the rest energy of both particles (2 × 511 keV = 1.022 MeV) is entirely converted to photon energy. Total energy is conserved throughout. There is no 'creation from nothing.' The apparent violation of 'mass conservation' is simply because mass conservation is not the correct law — energy conservation (which includes rest energy) is."

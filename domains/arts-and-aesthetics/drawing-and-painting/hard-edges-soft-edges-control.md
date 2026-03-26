@@ -54,7 +54,7 @@ Applying uniform edge quality throughout the work. Varying edges is as important
   answer: 0
   explanation: "Hard edges plus high value contrast at the focal point make it the loudest visual 'note' in the composition — the brain's visual system is drawn to the point of maximum edge sharpness and contrast. Soft edges on surrounding areas (hair, background) reinforce this by providing quieter passages that contrast against the sharp focal point. Option B misunderstands the visual function of softness — soft eyes feel unfocused and recede rather than draw. Option D is the uniform-edge misconception that produces flat, directionless compositions."
 
-- question: "A painting in which every edge is soft throughout will feel atmospheric and peaceful rather than flat and directionless."
+- question: "A painting in which most edge is soft throughout will feel atmospheric and peaceful rather than flat and directionless."
   type: true-false
   answer: false
   explanation: "While a painting with all soft edges may initially seem dreamy or atmospheric, the effect quickly becomes foggy and unfocused because there is no point of visual clarity to anchor the eye. Just as all-hard edges produce a coloring-book flatness, all-soft edges produce visual indistinction — the eye has nowhere to land. 'Atmospheric' quality in successful paintings comes from the contrast between soft areas and at least one region with harder, sharper definition. The interplay between hard and soft creates depth; one without the other fails compositionally."

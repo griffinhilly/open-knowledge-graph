@@ -46,7 +46,7 @@ Garbage collection automatically reclaims memory of unreachable objects, freeing
   answer: 2
   explanation: "Reference counting fails on cycles: A's count is 1 (B points to it) and B's count is 1 (A points to it), so neither ever reaches zero, and both leak. Tracing collectors (mark-and-sweep, copying, generational) start from the root set — stack variables, globals, registers — and mark everything reachable by following pointer chains. Since no root reaches A or B, neither gets marked and both are collected. Reachability-from-roots is a global property that correctly identifies cyclic garbage; reference counting tracks only local pointer counts."
 
-- question: "Copying collection is inefficient when most objects are short-lived, because it must copy all those short-lived objects before reclaiming their space."
+- question: "Copying collection is inefficient when most objects are short-lived, because it should copy most those short-lived objects before reclaiming their space."
   type: true-false
   answer: false
   explanation: "This is the key misconception. Copying collection only copies LIVE (reachable) objects from fromspace to tospace — dead objects are simply abandoned and their space reclaimed by swapping the roles of the two halves. If most objects are short-lived (the generational hypothesis), very few survive, and copying cost is proportional to survivors, not to all objects. A collection that sees 10,000 allocations but only 100 survivors copies only 100 objects. This is exactly why copying collection is the preferred algorithm for the nursery in generational systems."

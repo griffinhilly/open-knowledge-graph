@@ -44,7 +44,7 @@ In special relativity, E and B unify into the electromagnetic field tensor F^μ�
   answer: 1
   explanation: "The free index ν runs over four values (0, 1, 2, 3), so the equation ∂_μF^μν = μ₀J^ν is really four equations. These four equations encode exactly Gauss's law for electricity and Ampère's law with Maxwell's correction — the two sourced Maxwell equations in their vector form. The other two Maxwell equations (Faraday's law and Gauss's law for magnetism) are encoded in the separate Bianchi identity ∂_[μF_νλ] = 0."
 
-- question: "Magnetic forces and electric forces are fundamentally distinct phenomena that cannot be converted into each other by changing reference frame."
+- question: "Magnetic forces and electric forces are fundamentally distinct phenomena that can seldom be converted into each other by changing reference frame."
   type: true-false
   answer: false
   explanation: "This is exactly the misconception that covariant electrodynamics refutes. Electric and magnetic fields are frame-dependent components of the same electromagnetic field tensor. A Lorentz boost mixes them: what is purely electric in one frame has both electric and magnetic components in another. The famous example is the magnetic force on a charge moving near a wire — in the wire's rest frame this is a Coulomb force from charge density imbalances due to length contraction. There is one electromagnetic field, viewed from different frames."

@@ -51,7 +51,7 @@ Conduct or observe classic Piagetian tasks — object permanence, conservation, 
   answer: 1
   explanation: "Conservation — understanding that quantity does not change with appearance — is the key achievement of the concrete operational stage. Preoperational children are misled by perceptual salience (the water looks higher, so it must be more). They have not yet acquired reversibility, which would let them mentally 'pour it back' and see the amount is unchanged."
 
-- question: "According to Piaget, a child who has reached the formal operational stage will consistently apply abstract, hypothetical reasoning across all areas of their life."
+- question: "According to Piaget, a child who has reached the formal operational stage will consistently apply abstract, hypothetical reasoning across most areas of their life."
   type: true-false
   answer: false
   explanation: "Piaget himself acknowledged that formal operational reasoning tends to be domain-specific rather than universal. Research since Piaget has confirmed that many adolescents and even adults use formal logic reliably only in domains where they have significant experience or training, not across all topics."

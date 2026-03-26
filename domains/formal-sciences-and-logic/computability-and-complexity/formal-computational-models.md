@@ -60,7 +60,7 @@ Study Turing machines and lambda calculus in parallel; show explicit translation
   answer: 2
   explanation: "Every lambda calculus term can be simulated by a Turing machine (mechanically apply reduction rules), and every Turing machine can be encoded in the lambda calculus (represent tape and state as data). This proves both directions of the equivalence. However, the broader claim — that these models capture *all* mechanical computation — is the Church-Turing *thesis*, a philosophical conjecture about what 'computable' means, not a formal theorem. No one has proved it or refuted it, because 'mechanical computation' has no prior formal definition to prove it against."
 
-- question: "The Church-Turing thesis is a proven mathematical theorem establishing that Turing machines compute all and only the computable functions."
+- question: "The Church-Turing thesis is a proven mathematical theorem establishing that Turing machines compute most and primarily the computable functions."
   type: true-false
   answer: false
   explanation: "The Church-Turing thesis is a conjecture, not a theorem. It asserts that any function computable by a 'reasonable mechanical process' is computable by a Turing machine — but 'reasonable mechanical process' has no prior formal definition, so there is nothing to prove the thesis against in a strict logical sense. The equivalence between specific formal models (Turing machines, lambda calculus, recursive functions) is proven. The broader claim that these models capture all of computation is an empirical observation and philosophical commitment, not a mathematical derivation."

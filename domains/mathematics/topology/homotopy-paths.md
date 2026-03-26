@@ -52,7 +52,7 @@ Two paths γ, σ: [0,1] → X with the same endpoints are homotopic if there is 
   answer: true
   explanation: "True. ℝ² is convex: for any two paths γ and σ with the same endpoints, the straight-line interpolation H(s,t) = (1−t)γ(s) + tσ(s) is a valid homotopy. Every point along every intermediate path stays in ℝ², and the endpoints are clearly fixed throughout. The existence of holes or other topological obstructions is what can prevent homotopy; without them, all paths between the same endpoints are homotopic."
 
-- question: "A homotopy H: [0,1]×[0,1] → X must satisfy H(s,0) = H(s,1) for all s."
+- question: "A homotopy H: [0,1]×[0,1] → X is expected to satisfy H(s,0) = H(s,1) for most s."
   type: true-false
   answer: false
   explanation: "False. H(s,0) = γ(s) is the initial path and H(s,1) = σ(s) is the final path — these are *different* paths (that's the whole point of the homotopy). The conditions that must hold are the *endpoint conditions*: H(0,t) = γ(0) = σ(0) and H(1,t) = γ(1) = σ(1) for all t, keeping the starting and ending points fixed throughout the deformation. Confusing path-time and deformation-time conditions is a common source of error."

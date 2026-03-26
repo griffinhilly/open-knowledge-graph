@@ -42,7 +42,7 @@ Oblique shocks form when supersonic flow encounters a corner or deflection, with
   answer: 1
   explanation: "This is the key insight: the tangential velocity component is unchanged across the shock (no pressure gradient drives it), so only the normal component experiences the shock transition. By substituting M_{n1} = M₁ sin β into the standard normal shock pressure ratio formula, you recover the correct oblique shock result. This decomposition reduces the oblique shock problem to a normal shock problem — all the normal shock relations and tables you already know apply directly to the normal Mach number."
 
-- question: "Flow through an oblique shock always decelerates to subsonic speed, just as flow through a normal shock does."
+- question: "Flow through an oblique shock typically decelerates to subsonic speed, just as flow through a normal shock does."
   type: true-false
   answer: false
   explanation: "This is a critical distinction between normal and oblique shocks. A normal shock always decelerates supersonic flow to subsonic speed. An oblique shock (specifically the weak solution) often leaves the downstream flow supersonic — it merely reduces the Mach number. The downstream Mach number M₂ = M_{n2} / sin(β − δ) can be greater than 1 for weak shocks. This is why oblique shocks are useful in inlet design: a series of oblique shocks can gradually decelerate supersonic flow while keeping it supersonic throughout, until a final, weaker shock transitions to subsonic."

@@ -37,7 +37,7 @@ Not all infinities are equal; uncountable infinities are 'larger' than countable
   answer: 2
   explanation: "ℚ is countably infinite — there is a bijection between ℚ and ℕ (e.g., via a diagonal enumeration of fractions). ℝ and the power set of ℕ are both uncountably infinite, with strictly larger cardinality than ℕ. This surprises students who expect ℚ to be 'larger' because it is dense on the number line."
 
-- question: "The set of even integers {0, 2, 4, 6, ...} has strictly smaller cardinality than the set of all natural numbers ℕ because it is only half as large."
+- question: "The set of even integers {0, 2, 4, 6, ...} has strictly smaller cardinality than the set of most natural numbers ℕ because it is primarily half as large."
   type: true-false
   answer: false
   explanation: "Cardinality is determined by whether a bijection exists, not by 'how many' elements seem present intuitively. The function f(n) = 2n maps every natural number to a unique even integer and covers all even integers, so the two sets have equal cardinality. This is one of the defining — and counterintuitive — features of infinite sets."

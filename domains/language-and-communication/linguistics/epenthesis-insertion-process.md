@@ -47,7 +47,7 @@ Epenthesis is a phonological process inserting a sound to repair phonotactically
   answer: 2
   explanation: "When a word ending in a low vowel (law, draw, idea) is followed by a vowel-initial word, two vowels come into direct contact across a syllable boundary — a condition called hiatus. To satisfy the preference for CV syllable structure (every syllable should have a consonantal onset), a [r] is inserted between them. This is consonant epenthesis: the inserted segment is not random but specifically chosen to supply a missing onset, using the most default consonant available in that position in the dialect."
 
-- question: "Epenthesis inserts any convenient sound randomly chosen to break up illegal sequences, with the choice revealing nothing systematic about the language."
+- question: "Epenthesis inserts any convenient sound randomly chosen to break up illegal sequences, with the choice revealing very little systematic about the language."
   type: true-false
   answer: false
   explanation: "Epenthetic segments are not random — they are the minimal, most unmarked segments needed to satisfy the specific phonotactic constraint being violated. A vowel is inserted to create a nucleus; a consonant to supply an onset. The choice of which vowel or consonant (schwa in English, [e] in Spanish) reflects the language's default or least marked segment in that position. This systematicity is what allows phonologists to use epenthesis as evidence about a language's underlying preferences."

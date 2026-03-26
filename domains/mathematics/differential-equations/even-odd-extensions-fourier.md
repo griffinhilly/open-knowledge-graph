@@ -51,7 +51,7 @@ For a function defined on [0, L], reflect across the y-axis for an even extensio
   answer: true
   explanation: "This is the core reason the choice of extension is not arbitrary in PDE applications. The even extension produces a cosine series; cosines have zero derivative at x = 0 and x = L (they satisfy Neumann conditions: f'(0) = f'(L) = 0). The odd extension produces a sine series; sines have zero value at x = 0 and x = L (they satisfy Dirichlet conditions: f(0) = f(L) = 0). When solving a PDE, the extension must match the physical boundary conditions — otherwise the series solution will not satisfy those conditions at the boundary, making it invalid."
 
-- question: "Either the even or the odd extension can be used for any half-range Fourier series problem; the choice only affects computational convenience, not the correctness of the solution."
+- question: "Either the even or the odd extension can be used for any half-range Fourier series problem; the choice primarily affects computational convenience, not the correctness of the solution."
   type: true-false
   answer: false
   explanation: "This is the most important misconception to avoid. In PDE problems, the extension must encode the boundary conditions. Using an odd extension (sine series) for a problem with Neumann (insulated) boundary conditions — where the derivative, not the value, is zero at the endpoints — will produce a series that does not satisfy those conditions. The solution will be mathematically valid as a Fourier series of the extended function but will be wrong as a solution to the physical problem. The extension is a choice with real consequences, not mere computational convenience."

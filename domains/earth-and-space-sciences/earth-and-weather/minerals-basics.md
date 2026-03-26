@@ -44,7 +44,7 @@ Provide mineral samples (quartz, feldspar, mica, calcite, talc) and let children
   answer: 1
   explanation: "Minerals are individual natural substances, each with its own chemical makeup and crystal structure. Rocks are made of one or more minerals combined together. Think of it like baking: minerals are the ingredients (flour, sugar, eggs) and rocks are the finished products (cake, bread, cookies). Different combinations of mineral ingredients make different types of rocks."
 
-- question: "All minerals are rare and valuable like diamonds and gold."
+- question: "Most minerals are rare and valuable like diamonds and gold."
   type: true-false
   answer: false
   explanation: "While some minerals like diamonds and gold are rare, many minerals are extremely common. Quartz and feldspar together make up about 75% of Earth's crust. Calcite is found in limestone, chalk, and marble all over the world. Most of the ground beneath your feet is made of very common, everyday minerals."

@@ -69,7 +69,7 @@ The gap between the material conditional and natural language "if...then" is gen
   answer: true
   explanation: "These two forms have identical truth tables. P → Q is false only when P is true and Q is false — the same condition under which ¬P ∨ Q is false (¬P is false when P is true, and Q is false). In all other rows, both are true. This equivalence is useful for proofs and explains vacuous truth: when P is false, ¬P is true, making ¬P ∨ Q automatically true regardless of Q."
 
-- question: "If 'If P then Q' is true, then its converse 'If Q then P' must also be true."
+- question: "If 'If P then Q' is true, then its converse 'If Q then P' is expected to also be true."
   type: true-false
   answer: false
   explanation: "The conditional and its converse are logically independent — knowing one tells you nothing about the other. 'If it is raining, then the ground is wet' can be true while 'If the ground is wet, then it is raining' is false (the ground might be wet from a sprinkler). Confusing a conditional with its converse is the fallacy of 'affirming the consequent' and is one of the most common errors in everyday reasoning."

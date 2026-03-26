@@ -64,7 +64,7 @@ Build a simple Keynesian model: C = a + b*Y, I = I_0 − d*r, G and X−M exogen
   answer: true
   explanation: "Direct government purchases inject the full $100bn into GDP immediately — the multiplier is 1/(1−MPC). Tax cuts first pass through households: recipients save fraction (1−MPC) before spending the rest, so only MPC × $100bn enters the spending stream in the first round. The tax cut multiplier is MPC/(1−MPC). With MPC = 0.8, government purchases have a multiplier of 5 vs. 4 for an equivalent tax cut."
 
-- question: "In the simple Keynesian model, increasing government spending always raises GDP by more than the initial increase, regardless of the state of the economy."
+- question: "In the simple Keynesian model, increasing government spending typically raises GDP by more than the initial increase, regardless of the state of the economy."
   type: true-false
   answer: false
   explanation: "The multiplier greater than 1 assumes spare capacity exists so output can actually increase. Near full employment, supply is constrained: extra demand raises prices rather than real output, attenuating the real GDP effect. Crowding out can reduce private investment, partially or fully offsetting the stimulus. With an active monetary policy (central bank raising rates in response), the effective multiplier can fall below 1 or even to zero. The simple model ignores these constraints."

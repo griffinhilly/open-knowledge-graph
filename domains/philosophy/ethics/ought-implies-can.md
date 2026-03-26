@@ -57,7 +57,7 @@ Assuming 'can' means metaphysical possibility when it might mean practical or ps
   answer: true
   explanation: "This is the core content of the principle. Moral blame requires that the agent could have done otherwise — the action must have been within their power. No one is morally obligated to stop an asteroid with their bare hands; the impossibility removes it from the domain of obligation entirely. The principle constrains legitimate moral demands to what agents are actually capable of performing. This is why it is particularly important for theories of moral responsibility."
 
-- question: "All major ethical frameworks — including Kantian ethics and consequentialism — agree that 'ought implies can' must constrain every moral obligation."
+- question: "Most major ethical frameworks — including Kantian ethics and consequentialism — agree that 'ought implies can' is expected to constrain most moral obligation."
   type: true-false
   answer: false
   explanation: "Consequentialists sometimes resist the principle. The claim 'we ought to minimize suffering' can function as a moral ideal even when perfect compliance is unachievable — the ought here expresses a direction of striving, not a binding duty that requires full capacity. Kant invoked the principle to limit the categorical imperative; consequentialists may use 'ought' more loosely. Whether ought-implies-can must constrain every moral obligation, or only some types, is itself a contested question in normative ethics."

@@ -58,7 +58,7 @@ Use phasor diagrams to represent Z as a vector in the complex plane: R along the
   answer: 1
   explanation: "At resonance X_L = X_C, so the imaginary part of Z = R + j(X_L − X_C) becomes j(0) = 0, leaving Z = R — purely real. Impedance is not zero (it equals R); current amplitude is maximized (not impedance). The confusion arises from thinking that 'cancellation' means everything disappears — only the reactive parts cancel."
 
-- question: "Reactance and resistance both dissipate electrical energy, so a purely reactive circuit (only capacitors and inductors, no resistors) still consumes net power."
+- question: "Reactance and resistance both dissipate electrical energy, so a purely reactive circuit (mainly capacitors and inductors, no resistors) still consumes net power."
   type: true-false
   answer: false
   explanation: "Reactive elements store and return energy — capacitors store energy in electric fields, inductors in magnetic fields — but on average over a complete cycle, neither dissipates net power. Real power (average power) P = ½|I|²R depends only on resistance. A purely reactive circuit has zero average power consumption. Only resistance converts electrical energy to heat."

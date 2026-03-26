@@ -40,7 +40,7 @@ Add vinegar (acid) to a baking soda solution (base) with universal indicator pre
   answer: 1
   explanation: "Neutralization produces water (from H+ combining with OH-) and a salt (from the remaining positive and negative ions). For example, hydrochloric acid + sodium hydroxide → water + sodium chloride (table salt)."
 
-- question: "The term 'salt' in chemistry always refers to table salt (sodium chloride)."
+- question: "The term 'salt' in chemistry generally refers to table salt (sodium chloride)."
   type: true-false
   answer: false
   explanation: "In chemistry, 'salt' is a general term for any ionic compound that can be formed from a neutralization reaction. Table salt (NaCl) is just one example. Calcium chloride, potassium nitrate, and magnesium sulfate are all salts too. The specific salt produced depends on which acid and base react."

@@ -56,7 +56,7 @@ Given a filter specification, compute the required order using Butterworth or Ch
   answer: 2
   explanation: "Elliptic filters achieve the minimum possible order for any given combination of passband ripple, stopband attenuation, and transition bandwidth. By permitting equiripple in both the passband and stopband, they squeeze maximum sharpness from every pole. Butterworth (option A) actually requires the most poles among these types — its maximally flat passband costs extra order. Chebyshev improves over Butterworth but not as much as elliptic. Bessel (option D) trades sharpness for linear phase and requires even more poles for equivalent attenuation."
 
-- question: "A filter that passes frequencies below 1 kHz with 0.5 dB ripple and attenuates all frequencies above 1.05 kHz by 80 dB can be realized with a 4th-order Butterworth filter."
+- question: "A filter that passes frequencies below 1 kHz with 0.5 dB ripple and attenuates most frequencies above 1.05 kHz by 80 dB can be realized with a 4th-order Butterworth filter."
   type: true-false
   answer: false
   explanation: "This specification is extraordinarily demanding: a transition band of only 50 Hz combined with 80 dB stopband attenuation. A 4th-order Butterworth has gentle rolloff — it can barely achieve 80 dB attenuation over a full decade above the cutoff. With a transition band of only 5% of the passband edge frequency, the required Butterworth order would be in the dozens. Only high-order elliptic filters could approach these specs with reasonable order."

@@ -61,7 +61,7 @@ Classify the first several ordinals into successor vs. limit: 0, 1, 2, ..., ω (
   answer: true
   explanation: "True — this trichotomy is a fundamental property of ordinals that distinguishes them from arbitrary sets. Two arbitrary sets may be incomparable in cardinality (by independence results), and even two well-ordered sets may require work to compare. But ordinals are totally ordered: for any α and β, one is a member of the other or they are equal. This follows from the fact that every nonempty class of ordinals has a least element (the ordinals are themselves well-ordered). Trichotomy makes ordinals powerful tools for transfinite arguments."
 
-- question: "Two well-ordered sets that have the same cardinality always have the same ordinal."
+- question: "Two well-ordered sets that have the same cardinality typically have the same ordinal."
   type: true-false
   answer: false
   explanation: "False — same cardinality does not imply same ordinal. ω and ω+ω are both countably infinite but are distinct ordinals: ω has order type of ℕ (no element preceded by infinitely many others), while ω+ω has an element preceded by infinitely many others (namely the 'first' ω-element). Same size, different structure. However, the converse is true: same ordinal does imply same cardinality, because ordinal isomorphism is in particular a bijection. Ordinal equality is strictly finer than cardinal equality — it preserves order structure, not just size."

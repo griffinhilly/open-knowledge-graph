@@ -47,7 +47,7 @@ Build a simple volcano model with baking soda and vinegar to demonstrate an erup
   answer: 1
   explanation: "Magma and lava are the same material -- hot melted rock. The difference is simply where it is. When it is underground, we call it magma. When it erupts through a volcano and reaches Earth's surface, we call it lava. Once lava cools and hardens, it becomes igneous rock."
 
-- question: "All mountains are volcanoes."
+- question: "Most mountains are volcanoes."
   type: true-false
   answer: false
   explanation: "Most mountains are NOT volcanoes. Most mountains form when enormous forces inside the Earth push and fold rock upward over millions of years (like the Himalayas, which formed when two continental plates collided). Volcanoes are mountains specifically built by erupted material -- lava, ash, and rock -- piling up around an opening in the Earth's surface. Only some mountains are volcanic."

@@ -44,7 +44,7 @@ Show real fossil samples or high-quality replicas. Have children make their own 
   answer: 1
   explanation: "Fossils need gentle burial to be preserved. Sedimentary rocks form when layers of mud, sand, or silt settle over time -- a process gentle enough to preserve the shapes of dead organisms. Igneous rocks form from melted rock at extreme temperatures that would destroy any remains. Metamorphic rocks involve intense heat and pressure that would crush and deform any fossils. That is why nearly all fossils are found in sedimentary rock."
 
-- question: "Fossils are only the bones of dinosaurs."
+- question: "Fossils are mainly the bones of dinosaurs."
   type: true-false
   answer: false
   explanation: "Fossils include far more than dinosaur bones. Fossil plants, fossil fish, fossil seashells, fossil insects, and even fossil footprints and burrows have been found. Fossils preserve evidence of all kinds of ancient life -- not just dinosaurs. In fact, many fossils are of sea creatures like trilobites and ammonites that are far older than the dinosaurs."

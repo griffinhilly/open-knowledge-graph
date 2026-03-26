@@ -49,7 +49,7 @@ A set K is compact if every open cover has a finite subcover: if K ⊆ ∪ᵢU�
   answer: 1
   explanation: "Compactness requires that *every* open cover has a finite subcover — not that some covers are finite, but that *all* of them are. The collection {(1/n, 1) : n ∈ ℕ} is a valid open cover of (0, 1): every point x ∈ (0, 1) lies in (1/n, 1) for sufficiently large n. But any finite subcollection {(1/n₁, 1), …, (1/nₖ, 1)} has a minimum 1/nₘₐₓ, and the points in (0, 1/nₘₐₓ) are not covered. Since this one cover has no finite subcover, (0, 1) fails the compactness definition. Option A confuses 'an infinite cover exists' (true for all infinite sets) with 'no finite subcover exists for this cover' (the actual failure)."
 
-- question: "Every closed subset of ℝ is compact."
+- question: "Nearly every closed subset of ℝ is compact."
   type: true-false
   answer: false
   explanation: "Compactness in ℝ requires *both* closed and bounded (Heine-Borel). A closed set can be unbounded and therefore not compact. For example, ℝ itself is closed (it contains all its limit points) but clearly not compact — the open cover {(−n, n) : n ∈ ℕ} has no finite subcover. Similarly, [0, ∞) is closed but not compact: the cover {[0, n) : n ∈ ℕ} has no finite subcover. Closedness prevents sequences from escaping through the boundary; boundedness prevents them from escaping to infinity. Both are needed."

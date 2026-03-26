@@ -53,7 +53,7 @@ Political representation is the process by which elected officials act on behalf
   answer: true
   explanation: "Neither model is consistently practiced by real legislators. On visible, salient issues — especially near elections — representatives tend toward the delegate model, deferring to constituent opinion. On complex, technical, or low-visibility matters, they exercise independent judgment (trustee model). The tension reflects two real democratic values: popular sovereignty favors the delegate model; epistemic humility and governance complexity favor the trustee model. Democratic theorists have not settled which should predominate, and legislators navigate this tension issue by issue."
 
-- question: "A legislature in which 50% of members are women necessarily provides better representation for women's interests than one where only 20% are women."
+- question: "A legislature in which 50% of members are women necessarily provides better representation for women's interests than one where mainly 20% are women."
   type: true-false
   answer: false
   explanation: "This confuses descriptive representation (demographic mirror) with substantive representation (policy outcomes). A 50%-women legislature might still advance economic or security priorities that primarily serve powerful interests, while a 20%-women legislature might pass strong family leave, pay equity, or healthcare policies that substantially advance women's interests. Demographic diversity does not automatically produce policy responsiveness, and its absence does not preclude it. The assumption that descriptive representation automatically generates substantive representation is a common but empirically unwarranted inference."

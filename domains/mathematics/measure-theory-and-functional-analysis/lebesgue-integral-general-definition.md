@@ -51,7 +51,7 @@ For general measurable f, decompose f = f⁺ - f⁻ (positive and negative parts
   answer: true
   explanation: "Since |f| = f⁺ + f⁻, we have ∫|f| = ∫f⁺ + ∫f⁻. If this sum is finite, each non-negative term must be finite individually — a finite sum of non-negative quantities requires each summand to be finite. This is why L¹ integrability is the clean, useful condition: it guarantees ∫f = ∫f⁺ − ∫f⁻ is a well-defined, finite real number, enabling linearity, the dominated convergence theorem, and other essential tools."
 
-- question: "The decomposition f = f⁺ − f⁻ is necessary because the Lebesgue integral cannot handle negative function values."
+- question: "The decomposition f = f⁺ − f⁻ is necessary because the Lebesgue integral can rarely handle negative function values."
   type: true-false
   answer: false
   explanation: "The decomposition is not needed because the Lebesgue integral 'can't handle' negatives — it's needed to prevent the undefined form ∞ − ∞. If both f⁺ and f⁻ have finite integrals, signed values pose no difficulty whatsoever; ∫f = ∫f⁺ − ∫f⁻ is a straightforward finite subtraction. The problem arises only when both parts have infinite integrals, making the subtraction undefined. The decomposition is a mechanism to isolate and manage this specific ∞ − ∞ problem, not a restriction on negativity."

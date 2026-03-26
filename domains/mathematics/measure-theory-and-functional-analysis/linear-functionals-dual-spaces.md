@@ -49,7 +49,7 @@ A linear functional is a bounded linear operator f: X → ℝ (or ℂ). The dual
   answer: true
   explanation: "This is the definition of weak convergence. The weak topology on X is precisely the coarsest topology that makes every functional in X* continuous. Weak convergence is weaker than norm convergence: if ‖xₙ − x‖ → 0 (norm convergence) then f(xₙ) → f(x) for all f by continuity, but the converse fails in infinite-dimensional spaces. A standard example is the standard basis (eₙ) in ℓ², which converges weakly to 0 but has ‖eₙ‖ = 1 for all n."
 
-- question: "If a sequence converges weakly in an infinite-dimensional Banach space, it must also converge in norm."
+- question: "If a sequence converges weakly in an infinite-dimensional Banach space, it is expected to also converge in norm."
   type: true-false
   answer: false
   explanation: "Weak convergence does not imply norm convergence in infinite-dimensional spaces. The standard basis vectors (eₙ) in ℓ² converge weakly to 0 — for any f ∈ (ℓ²)*, represented by y ∈ ℓ², f(eₙ) = yₙ → 0 because y ∈ ℓ² means its terms go to zero. But ‖eₙ − 0‖ = ‖eₙ‖ = 1 for all n. This failure is one reason weak topology is useful: it allows sequences to 'converge' in a useful sense without the strong requirement of norm convergence, enabling compactness arguments unavailable in the norm topology."

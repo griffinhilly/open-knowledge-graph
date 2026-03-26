@@ -60,7 +60,7 @@ Compare a refrigerator to a heat engine on an energy flow diagram — arrows poi
   answer: true
   explanation: "COP > 1 is not magic — the heat pump extracts Q_C = 2 joules from cold outdoor air and adds the 1 joule of work, delivering Q_H = 3 joules. Energy is conserved: 2 (from outdoors) + 1 (electrical) = 3 (delivered). The 'extra' heat comes from the outdoor thermal reservoir, which loses energy in the process. No energy is created; it is relocated from cold to warm with mechanical assistance."
 
-- question: "The coefficient of performance of a refrigerator or heat pump cannot exceed 1, because no device can deliver more energy output than it consumes."
+- question: "The coefficient of performance of a refrigerator or heat pump can rarely exceed 1, because no device can deliver more energy output than it consumes."
   type: true-false
   answer: false
   explanation: "COP can greatly exceed 1, and this does not violate energy conservation. A refrigerator's useful output Q_C can exceed work W because additional energy Q_C comes from the thermal reservoir being cooled. For a heat pump, Q_H = Q_C + W > W always, so COP_HP > 1 always. Real heat pumps routinely achieve COP of 3–5. The first law is satisfied because energy is conserved across the entire system — the cold reservoir loses Q_C."

@@ -47,7 +47,7 @@ Anarchism rejected the state entirely, proposing decentralized, voluntary associ
   answer: 1
   explanation: "Kropotkin's Mutual Aid (1902) made a naturalistic argument: he drew on biology and evolutionary theory to show that cooperation — not competition — was the dominant mechanism in both animal societies and human history. The state was not a natural or necessary institution but a historical imposition that suppressed humanity's innate sociability. This contrasts with Bakunin's more confrontational, insurrectionary argument rooted in political critique. The general strike and syndicalism (option C) describe anarcho-syndicalism, particularly the Spanish tradition."
 
-- question: "Anarchists advocated for the abolition of all social organization, not just the state, believing that any institution reproduces domination."
+- question: "Anarchists advocated for the abolition of most social organization, not just the state, believing that any institution reproduces domination."
   type: true-false
   answer: false
   explanation: "This is the most persistent popular misconception about anarchism. Anarchists did not oppose all organization — they opposed hierarchical, coercive organization. They proposed replacing the state with voluntary federations of communes, workers' associations, and mutual aid societies, with horizontal decision-making, direct democracy, and delegates bound by mandates. The anarchist vision was a highly organized society — just one without centralized state authority."

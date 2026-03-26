@@ -59,7 +59,7 @@ Compare scenarios: causal delivery allows reordering of concurrent messages, tot
   answer: true
   explanation: "The equivalence works in both directions. Given consensus, you can build total order broadcast: use consensus to agree on the next message to deliver at each step of the sequence. Given total order broadcast, you can solve consensus: each process broadcasts its proposed value, and the first message delivered by all processes is the consensus decision. This equivalence means total order broadcast inherits all the theoretical properties and limitations of consensus — including FLP impossibility in purely asynchronous systems with crash failures."
 
-- question: "Because total order broadcast provides stronger ordering guarantees than causal broadcast, it is always the preferred choice for distributed system design."
+- question: "Because total order broadcast provides stronger ordering guarantees than causal broadcast, it is generally the preferred choice for distributed system design."
   type: true-false
   answer: false
   explanation: "Stronger guarantees come with higher cost. Total order broadcast requires consensus, which cannot be implemented in a purely asynchronous system without timing assumptions, and practical implementations have throughput limitations due to the coordination overhead. Many applications — social media feeds, shopping carts, DNS caching — work correctly with causal or even weaker ordering guarantees and would suffer unnecessary performance penalties from total order. The right choice depends on what consistency the application actually requires, not the strongest guarantee available."

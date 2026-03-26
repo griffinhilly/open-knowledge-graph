@@ -59,7 +59,7 @@ Generalizability theory replaces classical reliability entirely. Both frameworks
   answer: true
   explanation: "Cronbach's alpha treats all non-person variance as undifferentiated error. A G-coefficient is specified for a particular universe of generalization — it answers 'how well do scores generalize across the specific facets included in this design?' If the design has two raters and two items, the G-coefficient tells you how reliably you can generalize to another pair of raters using another pair of items. A different G-study with different facets would yield a different G-coefficient. This specificity is both a strength (more actionable) and a limitation (not directly comparable across different designs)."
 
-- question: "Generalizability theory renders classical test theory obsolete because it can answer all the questions CTT can, plus provide facet-specific variance information."
+- question: "Generalizability theory renders classical test theory obsolete because it can answer most of the questions CTT can, plus provide facet-specific variance information."
   type: true-false
   answer: false
   explanation: "G-theory and CTT are complementary, not competitive. CTT is simpler, requires less data, and is sufficient when the measurement involves a single dominant source of error (typically items). G-theory is indispensable when multiple facets are present — raters, occasions, testing sites — because only G-theory can identify which facet is the bottleneck and what redesigning the test around that bottleneck would yield. Choosing G-theory when CTT suffices adds unnecessary complexity; choosing CTT when multiple facets are present obscures the structure of error."

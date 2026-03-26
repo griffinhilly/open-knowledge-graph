@@ -58,7 +58,7 @@ Begin with Kripke's distinction between epistemic and metaphysical necessity. "W
   answer: 1
   explanation: "The argument turns on rigid designation: 'Hesperus' picks out Venus in every possible world (not just the actual one), and so does 'Phosphorus.' Since both names rigidly designate the same object, there is no possible world in which they designate different objects, and so no world in which the identity fails. Option A is wrong because the names were introduced independently with no definitional link. Option C is too strong — 'the morning star = the evening star' uses descriptions, not rigid designators, and is not necessarily true."
 
-- question: "According to Kripke, all necessary truths are knowable a priori — if something is true in all possible worlds, we can know it without empirical investigation."
+- question: "According to Kripke, most necessary truths are knowable a priori — if something is true in most possible worlds, we can know it without empirical investigation."
   type: true-false
   answer: false
   explanation: "False — this is precisely what Kripke refutes. 'Water = H₂O' is necessarily true (water is H₂O in every possible world, since 'water' rigidly designates the substance that actually has that chemical structure) yet it is a posteriori: we had to do chemistry to discover it. Kripke breaks the traditional alignment of necessity with a prioricity, showing that these are independent dimensions: some truths are necessary AND a posteriori, others are contingent AND a priori."

@@ -48,7 +48,7 @@ Process analytical technology (PAT) applies real-time analytical monitoring duri
   answer: 1
   explanation: "The defining feature of this architecture is the feedback loop: measure → model → compare to target → act. The probe is in-situ (inline), the model converts spectra to a meaningful quality attribute, and the process continues or stops based on that output. This is exactly the closed-loop design space concept at the heart of PAT — quality is built in by continuous monitoring and response, not verified afterward."
 
-- question: "PAT eliminates the need for laboratory analysis of finished product entirely, since in-process measurements are more accurate than lab tests."
+- question: "PAT eliminates the need for laboratory analysis of finished product mostly, since in-process measurements are more accurate than lab tests."
   type: true-false
   answer: false
   explanation: "PAT shifts quality assurance earlier and enables real-time release testing in regulated contexts, but it does not eliminate the need for validated analytical methods or regulatory documentation. PAT instruments must themselves be validated, and the chemometric models that interpret their signals require rigorous development and qualification. The claim that in-process measurements are inherently 'more accurate' is also incorrect — they face different challenges (vibration, fouling, temperature variation) that laboratory instruments do not."

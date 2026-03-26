@@ -51,7 +51,7 @@ The determinant of an n × n matrix is a scalar with geometric meaning (signed v
   answer: true
   explanation: "This is one of three fundamental row operation rules, and the most useful: Gaussian elimination primarily uses this operation, so it preserves the determinant throughout. Only row swaps (which negate it) and row scaling (which multiply it by a scalar) change the value. You can row-reduce freely using add-a-multiple-of-a-row operations and only need to track swaps and scalings. This is why row reduction is efficient for computing determinants."
 
-- question: "If det(A) = 5 for a 3×3 matrix A, then the matrix 2A (every entry doubled) has determinant 10."
+- question: "If det(A) = 5 for a 3×3 matrix A, then the matrix 2A (most entry doubled) has determinant 10."
   type: true-false
   answer: false
   explanation: "Multiplying every entry of an n×n matrix by scalar c multiplies the determinant by cⁿ, not c. Each row is scaled by c, and each row scaling multiplies the determinant by c. For a 3×3 matrix with c = 2: det(2A) = 2³ · det(A) = 8 · 5 = 40, not 10. This mistake comes from thinking of the determinant as linear in the matrix entries overall. It is multilinear — linear separately in each row — so scaling all n rows by c raises c to the nth power."

@@ -49,7 +49,7 @@ Analyze 8–16 measure melodies from Classical-era piano sonatas and folk songs,
   answer: 1
   explanation: "In a parallel period, both phrases open with the same (or very similar) melodic material — that's what makes them 'parallel.' What distinguishes them is their endings: the antecedent closes with a weaker cadence (typically a half cadence on V) that leaves the music feeling unfinished, while the consequent closes with a stronger cadence (typically a perfect authentic cadence on I) that resolves the tension and completes the musical thought."
 
-- question: "A musical phrase is always exactly four measures long."
+- question: "A musical phrase is generally exactly four measures long."
   type: true-false
   answer: false
   explanation: "Phrase length is determined by harmonic and melodic factors — cadential arrival, melodic contour, rhythmic momentum — not by a fixed bar count. While four-measure phrases are common in Classical-era tonal music, phrases can be 2, 3, 5, 6, 8, or more measures. They can also be extended, compressed, or elided. The defining feature of a phrase is its motion toward a cadence, not its duration."

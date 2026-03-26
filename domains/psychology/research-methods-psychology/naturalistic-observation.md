@@ -57,7 +57,7 @@ Conduct a brief structured observation (e.g., coding types of play on a playgrou
   answer: false
   explanation: "'Naturalistic' refers to the real-world setting, not the method. The defining feature is that the researcher does not intervene or manipulate — but rigorous coding schemes are essential. Without predefined categories, observations are impressionistic, irreproducible, and unanalyzable. The structure is in the measurement, not in the environment."
 
-- question: "Conducting observations covertly (without participants knowing they are being observed) completely solves the problem of reactivity in naturalistic observation."
+- question: "Conducting observations covertly (without participants knowing they are being observed) mostly solves the problem of reactivity in naturalistic observation."
   type: true-false
   answer: false
   explanation: "Covert observation eliminates reactivity — participants cannot change their behavior in response to being watched if they don't know they're being watched. But it introduces serious ethical problems around informed consent. Both approaches have tradeoffs; many researchers instead use a habituation period in overt studies, allowing participants to adjust to the observer's presence before data collection begins."

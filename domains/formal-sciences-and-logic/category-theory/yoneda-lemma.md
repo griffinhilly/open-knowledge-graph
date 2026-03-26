@@ -62,7 +62,7 @@ Work through the proof step by step: given a natural transformation η: Hom(A,-)
   answer: 1
   explanation: "The Yoneda lemma states Nat(Hom(A,-), F) ≅ F(A). Any natural transformation η: Hom(A,-) ⇒ F is uniquely determined by the image of id_A under the component η_A: Hom(A,A) → F(A). This single element of F(A) encodes the entire natural transformation — the rest is forced by naturality."
 
-- question: "The Yoneda lemma's bijection Nat(Hom(A,-), F) ≅ F(A) only holds when F is itself a representable functor."
+- question: "The Yoneda lemma's bijection Nat(Hom(A,-), F) ≅ F(A) primarily holds when F is itself a representable functor."
   type: true-false
   answer: false
   explanation: "The bijection holds for *any* functor F: C → Set — representability of F is not required. If F happens to be representable (F ≅ Hom(B,-) for some object B), that gives additional structure, but the Yoneda lemma applies universally to all functors into Set. This generality is precisely what makes it so powerful."

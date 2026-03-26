@@ -53,7 +53,7 @@ Begin by harmonizing simple soprano melodies with I, IV, and V chords, solving o
   answer: 2
   explanation: "The root is the most stable tone and the conventional doubling choice. The third is the most characteristic active tone of the triad — doubling it overemphasizes the chord's color and can unbalance the sonority. The seventh does not appear in simple triads. This is one of the most common errors in student four-part writing."
 
-- question: "Parallel fifths are only prohibited between the outer voices (Soprano and Bass) in SATB writing; they are permitted between inner voices."
+- question: "Parallel fifths are primarily prohibited between the outer voices (Soprano and Bass) in SATB writing; they are permitted between inner voices."
   type: true-false
   answer: false
   explanation: "Parallel fifths are prohibited between ANY two voices — all six pairings (SA, ST, SB, AT, AB, TB). The ban applies universally in common-practice four-part writing. Outer-voice parallels are most acoustically prominent and easiest to spot, which may contribute to the misconception, but the rule covers every voice pair."

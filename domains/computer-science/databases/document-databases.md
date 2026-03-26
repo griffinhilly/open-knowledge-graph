@@ -61,7 +61,7 @@ Model a blog (posts with embedded comments and tags) in both a relational schema
   answer: true
   explanation: "Atomicity at the document level is a core guarantee of document databases — you will never see a document in a half-updated state. This is intentional: since a document is the unit of data retrieval, it should also be the unit of consistency. The critical consequence is that your document boundaries become your consistency boundaries. If two related pieces of data need to update atomically, they must either be in the same document or you must use the database's multi-document transaction support (with its associated overhead)."
 
-- question: "Embedding all related data in one document is always preferable to referencing because it eliminates joins and makes reads faster."
+- question: "Embedding most related data in one document is typically preferable to referencing because it eliminates joins and makes reads faster."
   type: true-false
   answer: false
   explanation: "Embedding is the right choice when data is always read together, is owned by the parent document, and doesn't grow unboundedly. But it causes problems when the embedded data is shared across many documents (requiring scattered updates), when it changes frequently and independently, or when it grows large (document bloat makes every read fetch more data than needed). The correct principle is to model based on access patterns: embed what is read together, reference what is updated independently or shared. There is no universally correct choice."

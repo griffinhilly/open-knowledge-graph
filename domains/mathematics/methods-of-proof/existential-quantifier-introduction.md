@@ -54,7 +54,7 @@ Translate statements like 'there is a prime number greater than 100' into symbol
   answer: 2
   explanation: "The negation of an existential statement is a universal statement: ¬(∃x P(x)) ≡ ∀x ¬P(x). 'It is not the case that some x satisfies P' is exactly 'every x fails to satisfy P.' This equivalence — that 'there exists no x with P' means 'all x lack P' — is fundamental to logic and essential for proofs by contradiction. Option A (∃x ¬P(x)) would mean 'some x fails,' which is weaker than 'no x succeeds.'"
 
-- question: "To prove an existential statement ∃x P(x), you must always find and exhibit a specific concrete example."
+- question: "To prove an existential statement ∃x P(x), you should usually find and exhibit a specific concrete example."
   type: true-false
   answer: false
   explanation: "There are two valid strategies: constructive proofs (exhibit a specific witness) and nonconstructive proofs (establish existence without identifying which element satisfies P). For example, the Intermediate Value Theorem proves a continuous function has a zero without pinning down exactly where. Nonconstructive proofs using contradiction, counting arguments, or topological theorems are fully rigorous. The misconception that existence always requires an explicit example is a common source of confusion."

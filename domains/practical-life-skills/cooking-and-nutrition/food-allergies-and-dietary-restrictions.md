@@ -60,7 +60,7 @@ Practice reading ingredient labels for hidden allergens (like whey for dairy, or
   answer: true
   explanation: "The immune system can detect and react to very small quantities of allergen protein. There is no reliably safe 'small amount' for people with severe allergies. This is why cross-contamination protocols exist and why 'may contain traces of' warnings on food labels are taken seriously by allergy sufferers."
 
-- question: "A product labeled 'gluten-free' is automatically healthier for everyone and safe for all people with celiac disease."
+- question: "A product labeled 'gluten-free' is automatically healthier for everyone and safe for most people with celiac disease."
   type: true-false
   answer: false
   explanation: "Two misconceptions here. First, gluten-free products often contain more sugar, fat, and processed ingredients to compensate for the texture and flavor that gluten provides — so they are not inherently healthier for people without celiac disease. Second, even certified gluten-free products require care for celiac patients because manufacturing cross-contamination can still introduce trace amounts, and celiac is a medical condition where even small exposures cause intestinal damage."

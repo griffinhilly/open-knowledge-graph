@@ -46,7 +46,7 @@ Microbes form mutualisms (e.g., nitrogen-fixing bacteria with plants), commensal
   answer: 2
   explanation: "The key insight is that 'virulence is not an inherent property of a microbe but an outcome of the interaction between microbe, host, and environment.' Candida is not 'secretly parasitic' — in a healthy host it is a harmless commensal. When the immune system fails, the balance shifts and the same organism causes disease. Option A is wrong — immunosuppression doesn't cause rapid pathogen evolution. Option B implies a fixed parasitic nature that contradicts the continuum model. Option D is mechanistically backwards — the immune system limits pathogenic expansion when it would occur, but commensal status does not require active immunological suppression of the organism."
 
-- question: "Commensalism is a clearly defined and stable category: one organism benefits and the other is completely unaffected in all contexts."
+- question: "Commensalism is a clearly defined and stable category: one organism benefits and the other is largely unaffected in most contexts."
   type: true-false
   answer: false
   explanation: "The explainer explicitly notes that 'the line between commensalism and mutualism is blurry' and that 'classification depends on context and on how carefully you measure fitness effects.' The example given is Staphylococcus epidermidis on skin: initially classified as commensal, but evidence that it may exclude pathogens and train the immune system would make the relationship mutualistic. In other contexts the same organism can cause infections. The categories are points on a continuum, not fixed biological classifications — what matters is the current ecological and immunological context."

@@ -40,7 +40,7 @@ Start with familiar acidic substances — lemon juice, vinegar, orange juice —
   answer: 2
   explanation: "Acids turn blue litmus paper red. Feeling slippery, tasting bitter, and turning red litmus paper blue are all properties of bases, not acids. The litmus test is one of the simplest ways to identify whether a solution is acidic or basic."
 
-- question: "All acids are dangerous and should never be touched."
+- question: "Most acids are dangerous and should rarely be touched."
   type: true-false
   answer: false
   explanation: "Many acids are common and safe in everyday life. Citric acid is in lemon juice, acetic acid is in vinegar, and carbonic acid is in soda. However, strong or concentrated acids like hydrochloric acid and sulfuric acid are corrosive and dangerous. The key is knowing which acids are safe and which require careful handling."

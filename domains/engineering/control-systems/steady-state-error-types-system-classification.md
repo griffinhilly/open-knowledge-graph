@@ -53,7 +53,7 @@ System type (number of integrators in forward path) determines SSE to standard i
   answer: true
   explanation: "System type N guarantees zero SSE to all polynomial inputs of degree less than N, and finite SSE to the Nth-degree input. A Type 1 system (N=1) achieves zero error to a step (degree 0) and finite error to a ramp (degree 1), characterized by the velocity error constant Kv = lim(s→0) s·G(s), with SSE = 1/Kv. A parabolic (degree 2) input produces infinite error for a Type 1 system. This hierarchy is the central result of system type analysis."
 
-- question: "Increasing loop gain is always sufficient to eliminate steady-state error for any input, regardless of system type."
+- question: "Increasing loop gain is typically sufficient to eliminate steady-state error for any input, regardless of system type."
   type: true-false
   answer: false
   explanation: "Gain can reduce finite steady-state errors but cannot eliminate them or convert infinite errors to finite ones. For a Type 0 system tracking a step, SSE = 1/(1+Kp), and Kp grows with gain — so high gain reduces SSE toward zero but never reaches it. For a Type 0 system tracking a ramp, SSE is infinite regardless of gain because the system lacks the integrating action needed to follow a moving reference. Only adding an integrator (increasing system type) can eliminate an SSE class entirely."

@@ -42,7 +42,7 @@ The propensity score is the probability of treatment given covariates. Propensit
   answer: 1
   explanation: "The Rosenbaum-Rubin (1983) balancing property is the key result: conditional on the propensity score p(X), the distribution of covariates X is the same in treated and control groups. This means matching on one number — the propensity score — achieves the same covariate balance as matching on all the underlying covariates simultaneously. The curse of dimensionality arises because exact matches become impossible as the number of covariates grows; collapsing X to a scalar solves this elegantly without discarding any covariates from the estimation."
 
-- question: "After propensity score matching produces excellent covariate balance on all observed variables, the estimated treatment effect is guaranteed to be unbiased."
+- question: "After propensity score matching produces excellent covariate balance on most observed variables, the estimated treatment effect is expected to be unbiased."
   type: true-false
   answer: false
   explanation: "False. Propensity score methods can only balance on observed covariates. The unconfoundedness assumption — which is required for unbiasedness — asserts that no unobserved variable affects both treatment selection and outcomes. This assumption is untestable from the data; good observed balance is consistent with both confounded and unconfounded identification. Sensitivity analysis tools (such as Rosenbaum bounds) can quantify how large an unobserved confounder would need to be to reverse the conclusion, but they cannot prove the assumption holds."

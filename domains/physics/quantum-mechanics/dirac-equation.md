@@ -49,7 +49,7 @@ The Dirac equation (iγᵘ∂ᵤψ − mψ = 0) is the relativistic wave equatio
   answer: true
   explanation: "Dirac published the equation in 1928; Carl Anderson discovered the positron in 1932. The negative-energy solutions, initially troubling, were reinterpreted as antiparticles. This made the positron one of the first particles predicted theoretically before experimental confirmation. The prediction that every charged fermion has an antiparticle with opposite charge follows directly from the structure of the Dirac equation and has since been confirmed for every known fermion."
 
-- question: "The Klein-Gordon equation solved all the problems of relativistic quantum mechanics before Dirac, making the Dirac equation redundant."
+- question: "The Klein-Gordon equation solved most of the problems of relativistic quantum mechanics before Dirac, making the Dirac equation redundant."
   type: true-false
   answer: false
   explanation: "The Klein-Gordon equation is Lorentz-invariant (unlike the Schrödinger equation), but it has two critical failures: it admits negative-energy solutions, and its probability density is not positive-definite — it can be negative, which is physically meaningless for a probability. Dirac's first-order approach was specifically designed to cure these problems. The Klein-Gordon equation correctly describes spin-0 particles but was not an adequate equation for the electron."

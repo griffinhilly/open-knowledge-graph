@@ -52,7 +52,7 @@ Logarithmic frequency and magnitude scales compress wide dynamic ranges into man
   answer: true
   explanation: "Above the corner frequency ωc, a first-order pole term (1 + jω/ωc) ≈ jω/ωc, so its magnitude is |ω/ωc| = ω/ωc. In dB: 20 log₁₀(ω/ωc). On a log-ω axis, this is 20 × (log₁₀ω − log₁₀ωc), which is a linear function of log₁₀ω — a straight line with slope −20 dB per decade of frequency. This piecewise-linear structure is the mathematical reason Bode's asymptotic approximation works: the log scale turns the nonlinear magnitude function into a slope that can be sketched with a straightedge."
 
-- question: "The asymptotic straight-line approximation of a Bode magnitude plot is exact at the corner frequency — the only errors occur far from the corner."
+- question: "The asymptotic straight-line approximation of a Bode magnitude plot is exact at the corner frequency — the primary errors occur far from the corner."
   type: true-false
   answer: false
   explanation: "The maximum error of the asymptotic approximation occurs right at the corner frequency, not far from it. At ωc, the true gain is |1 + j1| = √2, which is 20 log₁₀(√2) ≈ 3 dB above the asymptote (which predicts 0 dB at that point). The approximation is actually most accurate far from the corner frequency, where one or the other asymptote dominates. The 3 dB error at the corner is a known, systematic deviation that engineers account for when using asymptotic Bode plots — the 'corner frequency' is also called the '−3 dB frequency' for this reason."

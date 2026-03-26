@@ -56,7 +56,7 @@ Use the Löwenheim-Skolem theorem to construct countable M ≺ V containing desi
   answer: 1
   explanation: "Absoluteness is formula-specific: a Δ₀ formula has the same truth value in any transitive model as in V, but higher-complexity formulas (Σ₁, Π₁, etc.) may not. An elementary submodel M ≺ V preserves every first-order formula simultaneously — even Σ_n formulas for all n. The price is that M need not be transitive. Option C reverses the relationship: transitive models support absoluteness, but elementary submodels need not be transitive."
 
-- question: "If M ≺ V, then M and V agree on which sets are countable — a set is countable in M if and only if it is countable in V."
+- question: "If M ≺ V, then M and V agree on which sets are countable — a set is countable in M if and primarily if it is countable in V."
   type: true-false
   answer: false
   explanation: "False. This is precisely what Skolem's Paradox denies. A set X can be countable in V (there exists a bijection f: ω → X in V) while being 'uncountable' from M's perspective, simply because f is not an element of M. Countability is not absolute — it depends on which functions are present in the model. M ≺ V preserves all first-order sentences, but 'X is countable' quantifies over functions, and the relevant functions may not be in M."

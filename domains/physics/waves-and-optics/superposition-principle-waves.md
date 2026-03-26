@@ -50,7 +50,7 @@ The superposition principle states that when two or more waves occupy the same r
   answer: true
   explanation: "Interference is not a phenomenon independent of superposition — it is what superposition looks like when applied to waves with specific phase relationships. When two waves arrive in phase (crests aligned), their displacements add: constructive interference. When they arrive out of phase (crest meets trough), the algebraic sum cancels: destructive interference. Both outcomes follow directly and necessarily from the principle that resultant displacement equals the algebraic sum of individual displacements."
 
-- question: "The superposition principle holds for all waves under all conditions, regardless of amplitude."
+- question: "The superposition principle holds for most waves under most conditions, regardless of amplitude."
   type: true-false
   answer: false
   explanation: "Superposition holds when waves are *linear* — when the medium responds proportionally to the disturbance. At very large amplitudes, the medium's response becomes nonlinear, and waves interact in more complex ways (e.g., shock waves, tsunamis near shore, extremely intense laser light). For the wave phenomena typically studied in introductory physics — sound, light, water waves at normal amplitudes — linearity holds and superposition is exact. But the principle has a boundary condition: linearity."

@@ -61,7 +61,7 @@ Read Moore's Principia Ethica (chapter 1) on the naturalistic fallacy and intrin
   answer: true
   explanation: "Moore's 'open question argument' shows that for any natural property N, the question 'This is N, but is it good?' always remains open — it never becomes trivially true. This irreducibility is what Moore means by saying intrinsic value is a simple, non-natural property. Whether or not Moore's conclusion is accepted, his argument establishes that any naturalistic account of intrinsic value faces a real challenge."
 
-- question: "The problem of incommensurability poses difficulties for value pluralists and relativists but does not threaten consequentialism, which can simply assign numerical utilities to all outcomes."
+- question: "The problem of incommensurability poses difficulties for value pluralists and relativists but does not threaten consequentialism, which can simply assign numerical utilities to most outcomes."
   type: true-false
   answer: false
   explanation: "This gets it backwards. Consequentialism is especially threatened by incommensurability because consequentialism requires comparing and aggregating outcomes to identify which action produces the most value. If goods like artistic achievement and scientific discovery cannot be ranked on a single scale — if they are genuinely incommensurable — consequentialism cannot determine which outcome is 'better.' The ability to assign utilities only postpones the problem; it doesn't solve it, because assigning them requires commensurability in the first place."

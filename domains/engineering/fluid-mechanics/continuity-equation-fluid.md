@@ -54,7 +54,7 @@ Start with the simple duct form A₁V₁ = A₂V₂ to build intuition about flo
   answer: 3
   explanation: "For incompressible steady flow, A₁V₁ = A₂V₂. So V₂ = (A₁/A₂)V₁ = (0.04/0.01)(2) = 8 m/s. The velocity must increase by the area ratio because the same volume of fluid must pass through a smaller opening per unit time."
 
-- question: "Incompressibility (∇·V = 0) is a property of the fluid material itself, meaning only liquids like water can satisfy it."
+- question: "Incompressibility (∇·V = 0) is a property of the fluid material itself, meaning mainly liquids like water can satisfy it."
   type: true-false
   answer: false
   explanation: "Incompressibility is a flow assumption, not a material property. Gases — which are physically compressible — can be treated as incompressible when the Mach number is low (roughly Ma < 0.3). At low speeds, density changes in a gas are negligible, and ∇·V = 0 is an excellent approximation. The assumption describes the flow regime, not the fluid."

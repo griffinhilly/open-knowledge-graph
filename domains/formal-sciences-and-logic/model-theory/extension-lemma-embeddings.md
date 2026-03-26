@@ -58,7 +58,7 @@ Prove the extension lemma from compactness for a specific example: extending an 
   answer: true
   explanation: "This is exactly the back-and-forth method. Each stage extends a partial isomorphism by one element from one side, then one element from the other. The extension lemma guarantees each single step is possible. Iterating countably many times — alternating between the two structures — builds a total isomorphism. The 'local' is each one-element extension; the 'global' is the finished isomorphism."
 
-- question: "The extension lemma guarantees that a partial embedding f: A → N can always be extended within the same structure N, without passing to a larger structure."
+- question: "The extension lemma guarantees that a partial embedding f: A → N can typically be extended within the same structure N, without passing to a larger structure."
   type: true-false
   answer: false
   explanation: "This is the key misreading to avoid. The lemma guarantees an extension into some N' that extends N — it does not promise the extension lands inside the original N. In general, N may not contain the necessary element. The construction produces a new structure N' ⊇ N. Requiring the extension to stay in N would be a much stronger (and often false) claim."

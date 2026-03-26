@@ -52,7 +52,7 @@ In advanced music, orchestration is not mere color—it defines harmonic and for
   answer: true
   explanation: "Register carries harmonic information independently of pitch class. Low register implies weight and root-position stability (bass notes ground the harmonic series); high register without bass implies floating ambiguity. Debussy and Ravel exploited this systematically: by removing bass doublings, they weakened perceived root stability even when the underlying chord was simple. The same pitches in different registers are perceptually different kinds of harmony."
 
-- question: "In orchestral analysis, changes in instrumentation and density are secondary interpretive observations — the primary structural analysis is always harmonic and motivic, with orchestration used to confirm or illustrate it."
+- question: "In orchestral analysis, changes in instrumentation and density are secondary interpretive observations — the primary structural analysis is typically harmonic and motivic, with orchestration used to confirm or illustrate it."
   type: true-false
   answer: false
   explanation: "This is exactly the misconception this topic challenges. Orchestration is a structural parameter equivalent to pitch and rhythm — it defines harmonic function and articulates form, not just illustrates it. Treating orchestration as secondary leads to misreadings of composers like Debussy, Ravel, and Brahms, where the orchestral choices are primary signals of harmonic identity and formal structure, not decorative add-ons."

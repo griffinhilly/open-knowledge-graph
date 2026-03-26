@@ -59,7 +59,7 @@ Model a familiar domain (e.g., a library system with Books, Members, and Loans) 
   answer: true
   explanation: "The relational model has no native way to represent many-to-many relationships directly. A column can hold a single value (or, improperly, a list — but that breaks atomicity). To represent 'a Student can enroll in many Courses and a Course can have many Students,' you need a third table — e.g., Enrollment — with a student_id foreign key and a course_id foreign key. Each row in Enrollment represents one student-course pairing. This junction table can also carry additional attributes like grade or enrollment_date."
 
-- question: "In an ER diagram, every attribute of an entity should become its own separate table in the relational schema."
+- question: "In an ER diagram, nearly every attribute of an entity should become its own separate table in the relational schema."
   type: true-false
   answer: false
   explanation: "Attributes become columns in the entity's table, not separate tables. A Student entity with attributes student_id, name, and email translates to a students table with three columns — not three tables. Creating a separate table for each attribute would be a severe over-normalization error, resulting in hundreds of unnecessary joins. Separate tables arise from relationships (one-to-many via foreign keys, many-to-many via junction tables) and weak entities — not from ordinary attributes of a single entity."

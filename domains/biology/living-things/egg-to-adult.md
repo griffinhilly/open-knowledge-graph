@@ -42,7 +42,7 @@ Hatch chicken eggs in an incubator and observe the process. Compare the eggs of 
   answer: 1
   explanation: "Frog eggs have a soft, jelly-like coating that would dry out on land, so they must be laid in water. Bird eggs have hard shells that protect the developing chick and keep it moist inside, so they can be laid on land in nests. Each type of egg is designed for where it will develop."
 
-- question: "All baby animals look like tiny versions of their parents when they hatch."
+- question: "Most baby animals look like tiny versions of their parents when they hatch."
   type: true-false
   answer: false
   explanation: "Some do — a baby chick looks like a tiny, fluffy version of a chicken. But others look completely different from their parents. A tadpole looks nothing like a frog. A caterpillar looks nothing like a butterfly. These animals go through metamorphosis and change their body shape dramatically as they grow."

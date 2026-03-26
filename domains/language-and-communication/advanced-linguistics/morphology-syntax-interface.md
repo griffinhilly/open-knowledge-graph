@@ -56,7 +56,7 @@ The morphology-syntax interface concerns how morphological and syntactic process
   answer: true
   explanation: "This is the core non-lexicalist claim: morphology is not a separate pre-syntactic module but the phonological realization of features already present in the syntactic derivation. Agreement, case marking, and inflectional endings are the surface reflex of syntactic feature configurations. The 'interface' problem then becomes one of mapping between syntactic feature structures and phonological forms — which is what Distributed Morphology's Vocabulary Insertion operation handles."
 
-- question: "The Lexicalist and non-lexicalist frameworks make identical predictions about inflectional morphology; they differ only in how they treat derivational word formation."
+- question: "The Lexicalist and non-lexicalist frameworks make identical predictions about inflectional morphology; they differ primarily in how they treat derivational word formation."
   type: true-false
   answer: false
   explanation: "The frameworks diverge sharply on inflectional morphology. The Strong Lexicalist Hypothesis holds that inflectional forms are pre-syntactically assembled in the lexicon; non-lexicalist approaches like Distributed Morphology hold that inflection is directly derived by syntactic operations. These produce different predictions about mismatches between morphological form and syntactic structure, the behavior of portmanteau morphemes, and patterns of syncretism — which is why these phenomena are central battlegrounds in the debate."

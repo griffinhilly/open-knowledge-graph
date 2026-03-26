@@ -57,7 +57,7 @@ Firms simultaneously choose quantities of a homogeneous product; price clears th
   answer: true
   explanation: "The best-response (reaction) function is downward sloping: if the rival increases output, total supply rises, driving down market price. This shrinks the residual demand facing our firm, lowering the profit-maximizing quantity for our firm. Setting MR = MC with higher rival output yields a lower optimal own-output. This strategic substitutability — where rivals' quantities and own quantities move in opposite directions — is the defining feature of Cournot-style quantity competition. (Contrast with Bertrand competition, where strategies are also substitutes, but in price space.)"
 
-- question: "Cournot competition and perfect competition are completely separate theoretical models with no mathematical relationship between them."
+- question: "Cournot competition and perfect competition are mostly separate theoretical models with no mathematical relationship between them."
   type: true-false
   answer: false
   explanation: "The Cournot model converges to the perfectly competitive outcome as the number of competitors grows large. With N firms, each producing (a−c)/[(N+1)b], the equilibrium price approaches marginal cost as N → ∞, and each firm's individual market share shrinks toward zero. This convergence means perfect competition is the limiting case of Cournot oligopoly — not a separate model. Understanding this relationship reveals why market structure matters: duopoly, tight oligopoly, and competitive markets differ in degree, not in kind."

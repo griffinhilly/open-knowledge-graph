@@ -58,7 +58,7 @@ Model with base-ten blocks the trading process: breaking a ten into ones when ne
   answer: false
   explanation: "Regrouping never changes the value of the number — it only changes how that value is written in place-value columns. For example, 325 can be written as 3 hundreds + 2 tens + 5 ones, or equivalently as 3 hundreds + 1 ten + 15 ones. Both represent exactly 325. You are renaming the number in a different form to make column subtraction possible, not adding or removing any quantity."
 
-- question: "When you 'borrow' a ten during subtraction, you must remember to pay it back at the end of the problem."
+- question: "When you 'borrow' a ten during subtraction, you is expected to remember to pay it back at the end of the problem."
   type: true-false
   answer: false
   explanation: "Nothing is actually borrowed or paid back — this is why the word 'borrow' is misleading. Regrouping renames the number: trading 1 ten for 10 ones changes how the digits appear in each column, but the total value is identical before and after. Once you've regrouped, the subtraction proceeds normally. There is no separate 'payback' step. The word 'regroup' or 'trade' describes the operation more accurately than 'borrow.'"

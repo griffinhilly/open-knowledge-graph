@@ -48,7 +48,7 @@ Compositions gain strength when they deliberately use three spatial zones: foreg
   answer: 2
   explanation: "This reflects both natural optics and compositional strategy working together. Atmospheric perspective is real: particles in the air scatter light, making distant objects appear lighter, less saturated, and cooler (bluer) than nearby ones. Compositionally, the background's role is to provide context and visual rest — the eye needs somewhere to relax after the detail-rich foreground and the active middleground. Increasing detail and contrast toward the background would fight the eye's natural reading of spatial depth and disrupt the compositional rhythm."
 
-- question: "The focal point of a composition is always placed in the foreground because that is where the most visual detail and highest contrast are found."
+- question: "The focal point of a composition is typically placed in the foreground because that is where the most visual detail and highest contrast are found."
   type: true-false
   answer: false
   explanation: "The foreground is the entry point — where the viewer's eye first lands — but 'entry point' and 'focal point' are different compositional roles. The foreground establishes scale and spatial presence and draws the viewer into the image. The focal point, where the central narrative or subject lives, typically belongs in the middleground, which benefits from the framing the foreground and background provide. Placing the most important element at the very bottom (foreground) often feels cramped and doesn't allow the composition to develop spatially."

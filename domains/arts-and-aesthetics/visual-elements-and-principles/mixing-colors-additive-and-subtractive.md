@@ -52,7 +52,7 @@ Red, yellow, and blue are universal primaries for all color mixing. You can crea
   answer: 1
   explanation: "In subtractive mixing, each pigment absorbs (subtracts) certain wavelengths. A warm red typically contains orange-red pigments that also absorb some green/blue wavelengths. When mixed with blue, you're now subtracting red wavelengths (via blue) AND some of the remaining wavelengths that weren't already absorbed, trending toward gray. True magenta (a cool, blue-leaning red) mixes much cleaner purples with blue because its absorption range doesn't overlap as much with blue's reflected wavelengths."
 
-- question: "Red, yellow, and blue are the true universal primary colors for all color mixing, whether working with light or pigment."
+- question: "Red, yellow, and blue are the true universal primary colors for most color mixing, whether working with light or pigment."
   type: true-false
   answer: false
   explanation: "Red-yellow-blue is a traditional but scientifically inaccurate set of primaries. For additive mixing (light), the primaries are red, green, and blue (RGB). For subtractive mixing (pigment), the theoretically correct primaries are cyan, magenta, and yellow (CMY) — as used in printing. The red-yellow-blue model comes from traditional painting instruction predating modern color science and cannot produce as wide a gamut of colors as the correct CMY primaries. True magenta and cyan mix much cleaner secondaries than warm red and primary blue."

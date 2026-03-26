@@ -48,7 +48,7 @@ Universalism asserts that some moral principles apply equally to all agents and 
   answer: false
   explanation: "False. Moral universalism is a metaethical position — it makes a claim about the nature of moral truths (that some hold universally) rather than specifying which particular actions are right or wrong. A universalist could be Kantian, utilitarian, or a natural law theorist, each with different normative commitments. What they share is the metaethical claim that their favored principles hold universally, not merely within particular cultures."
 
-- question: "Accepting moral universalism commits you to the view that we currently know all or most universal moral truths."
+- question: "Accepting moral universalism commits you to the view that we currently know most or most universal moral truths."
   type: true-false
   answer: false
   explanation: "False. Universalism is a claim about the existence and nature of moral truths, not about how much of that truth we currently know. A universalist can be epistemically humble: there are universal moral truths, and we are still in the process of discovering them — just as there are universal truths about the physical world not yet discovered. The history of moral progress (recognizing that slavery is wrong) is itself a universalist narrative: we came to recognize something that was always true."

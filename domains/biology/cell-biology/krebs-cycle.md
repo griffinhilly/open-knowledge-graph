@@ -65,7 +65,7 @@ Draw the cycle showing the 8 intermediates (citrate → isocitrate → α-ketogl
   answer: false
   explanation: "The Krebs cycle produces only 1 GTP per turn (2 per glucose). The electron transport chain and oxidative phosphorylation produce approximately 34 ATP per glucose — the vast majority of aerobic ATP yield. The Krebs cycle's role is to strip electrons from the acetyl group and load them onto NAD⁺ and FAD, producing NADH and FADH₂. These carriers ferry electrons to the ETC, which generates the proton gradient that drives ATP synthase. The Krebs cycle enables the ETC; it is not itself the primary ATP source."
 
-- question: "Oxaloacetate is consumed in each turn of the Krebs cycle and must be replenished from other metabolic sources to keep the cycle running."
+- question: "Oxaloacetate is consumed in each turn of the Krebs cycle and should be replenished from other metabolic sources to keep the cycle running."
   type: true-false
   answer: false
   explanation: "Oxaloacetate is regenerated at the end of each turn when malate is oxidized — it is the last product of the cycle and also the first acceptor in the next turn. In this sense, oxaloacetate acts as a catalyst: it picks up the acetyl group, facilitates its oxidation through the cycle, and is released unchanged in quantity at the end. The cycle is a true cycle precisely because oxaloacetate is not consumed net. What the cycle consumes per turn is one acetyl group (from acetyl-CoA), and what it releases is two CO₂, 3 NADH, 1 FADH₂, and 1 GTP."

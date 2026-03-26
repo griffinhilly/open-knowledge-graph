@@ -59,7 +59,7 @@ Amygdala only processes fear—it processes emotional significance. Extinction e
   answer: true
   explanation: "The evidence is compelling: extinguished fear can recover spontaneously after time passes (spontaneous recovery), return after stress, or reappear when tested in a different context from where extinction occurred (renewal). If extinction had erased the memory, none of these phenomena could occur. Instead, extinction produces new cortical learning — prefrontal cortex projects to inhibitory interneurons in the amygdala that suppress central nucleus output. The original fear trace in the lateral amygdala remains; what changes is whether it gets expressed."
 
-- question: "The amygdala is a specialized fear center whose only function is to detect threatening stimuli and produce fear responses."
+- question: "The amygdala is a specialized fear center whose mainly function is to detect threatening stimuli and produce fear responses."
   type: true-false
   answer: false
   explanation: "The amygdala processes emotional significance broadly, not fear exclusively. It is activated by positive stimuli (food rewards, attractive faces, pleasurable events), by novelty and uncertainty, and by social signals of many kinds. The amygdala's role in reward learning and social cognition is well-established. The 'fear center' label arose because fear conditioning is a methodologically convenient paradigm, but conflating the amygdala's experimental role in fear research with its broader function in evaluating motivational relevance misrepresents the neuroscience. Amygdala damage disrupts reward learning and social judgment as well as fear responses."

@@ -65,7 +65,7 @@ Perform a classical determination such as sulfate by precipitation as BaSO₄ or
   answer: true
   explanation: "If Ksp is too large, a measurable quantity of the analyte remains dissolved in the supernatant rather than transferring to the precipitate — producing a negative error (precipitate weighs less than expected → calculated analyte is too low). For quantitative precipitation (≥99.9% capture), Ksp must be very small. Adding excess precipitating reagent exploits the common ion effect to further suppress solubility, driving precipitation toward completion."
 
-- question: "Coprecipitation always causes a positive error in gravimetric analysis, making the calculated analyte mass too high."
+- question: "Coprecipitation generally causes a positive error in gravimetric analysis, making the calculated analyte mass too high."
   type: true-false
   answer: false
   explanation: "Coprecipitation can cause either positive or negative errors, depending on the nature of the contaminant. If foreign ions are simply adsorbed onto the precipitate surface (adding extra mass) or occluded within the lattice, the result is a positive error. But if the coprecipitated impurity replaces analyte ions with lighter species in the crystal structure, the precipitate may weigh less per mole of analyte than expected, producing a negative error. The direction depends on the chemical identity and mass of the contaminating species relative to the analyte ion."

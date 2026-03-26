@@ -52,7 +52,7 @@ Start with ordinal utility (ranking preferences) before moving to cardinal utili
   answer: 1
   explanation: "Two utility functions represent the same preferences if and only if they rank every bundle identically. U₂ = 2 × U₁, so for any two bundles (x₁, y₁) and (x₂, y₂), U₁(x₁, y₁) > U₁(x₂, y₂) if and only if U₂(x₁, y₁) > U₂(x₂, y₂). The ranking is identical — only the numbers differ. Since only ordinal rankings matter, these two utility functions are completely equivalent representations of the same preferences. Any positive monotonic transformation of a utility function represents the same preferences."
 
-- question: "If a consumer's income doubles while their preferences remain unchanged, their utility function changes to reflect that they now get more utility from every bundle."
+- question: "If a consumer's income doubles while their preferences remain unchanged, their utility function changes to reflect that they now get more utility from most bundle."
   type: true-false
   answer: false
   explanation: "Utility functions represent preferences — the consumer's rankings of bundles. A key assumption of the model is that preferences are stable: they do not change when income or prices change. What changes when income doubles is the budget constraint — which bundles are affordable — not the underlying preferences. The consumer can now reach bundles they previously couldn't afford, and they will choose a higher-ranked bundle, resulting in higher utility. But the utility function itself is unchanged: it still assigns the same numbers to the same bundles. Income changes what is achievable, not what is preferred."

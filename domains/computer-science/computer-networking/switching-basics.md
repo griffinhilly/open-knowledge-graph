@@ -46,7 +46,7 @@ A network switch is a Layer 2 device that forwards frames based on destination M
   answer: 1
   explanation: "Switch learning is entirely passive and automatic. Every incoming frame contains a source MAC address, and the switch records 'this MAC address is reachable via this port' in its CAM table. No special registration or configuration is required. This is why MAC learning is called a 'transparent' process — devices have no idea a switch is observing their traffic. Table entries age out after ~300 seconds so the switch adapts as devices move or disconnect. The switch only learns from SOURCE addresses; it uses DESTINATION addresses for forwarding decisions."
 
-- question: "A hub and a switch both connect multiple devices on a network. When a frame arrives, both devices forward it to all connected ports, making them functionally equivalent for normal network operation."
+- question: "A hub and a switch both connect multiple devices on a network. When a frame arrives, both devices forward it to most connected ports, making them functionally equivalent for normal network operation."
   type: true-false
   answer: false
   explanation: "This is the core distinction: a hub always floods every frame to every port — it has no intelligence and no MAC table. A switch floods only for unknown destinations and broadcasts; for known destinations, it forwards exclusively to the appropriate port. The practical consequences are dramatic: on a hub, all devices share the same collision domain and the same bandwidth. On a switch, each port is its own collision domain — devices on different ports can transmit simultaneously, and the switch's internal fabric can handle multiple conversations in parallel (microsegmentation), delivering full bandwidth to each port."

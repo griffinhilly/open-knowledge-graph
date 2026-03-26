@@ -53,7 +53,7 @@ Compare pressure-volume curves for normal lungs vs. lungs with reduced complianc
   answer: true
   explanation: "The Law of Laplace states that the collapsing pressure of a spherical surface is P = 2T/r. With a smaller radius r, the same surface tension T generates a higher inward pressure P. Without surfactant, smaller alveoli would tend to collapse into larger ones because they experience greater collapsing pressure — an unstable situation. Surfactant counters this by reducing surface tension more in smaller (more compressed) alveoli, equalizing pressures across alveoli of different sizes."
 
-- question: "High lung compliance is always beneficial because it means less work is required to expand the lungs during each breath."
+- question: "High lung compliance is generally beneficial because it means less work is required to expand the lungs during each breath."
   type: true-false
   answer: false
   explanation: "High compliance is beneficial when it reflects normal elastic properties — easy inflation with intact elastic recoil to drive expiration. But pathologically high compliance, as in emphysema, is not beneficial: the loss of elastic fibers means the lungs cannot recoil to force air out, trapping stale air and reducing ventilation efficiency. Meanwhile, pathologically low compliance (stiff lungs, as in respiratory distress syndrome or pulmonary fibrosis) forces the respiratory muscles to work much harder for each breath. Optimal compliance is neither too high nor too low, balancing ease of inflation with adequate elastic recoil."

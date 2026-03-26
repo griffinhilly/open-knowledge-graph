@@ -59,7 +59,7 @@ Implement a PID controller in simulation on a second-order plant and manually tu
   answer: 1
   explanation: "Integrator windup occurs when the actuator is saturated and cannot respond to control commands, but the integral term continues summing error as if it could. When saturation ends, the controller has a massively inflated integral that drives the output far past the setpoint before the integral can be 'unwound.' Anti-windup schemes conditionally stop integrating during saturation to prevent this. This is one of the most important practical issues in real PID implementations."
 
-- question: "Adding derivative action to a PID controller always improves closed-loop performance by predicting future error and allowing earlier corrective action."
+- question: "Adding derivative action to a PID controller usually improves closed-loop performance by predicting future error and allowing earlier corrective action."
   type: true-false
   answer: false
   explanation: "Derivative action amplifies high-frequency noise — differentiation multiplies noise power proportionally to frequency squared. Pure derivative action is almost never implemented in practice; a filtered derivative (D term in series with a first-order low-pass filter) is standard. Furthermore, on plants with large time delays or noisy sensors, derivative action can degrade rather than improve performance. It is a useful tool when sensor noise is manageable, not a universally beneficial addition."

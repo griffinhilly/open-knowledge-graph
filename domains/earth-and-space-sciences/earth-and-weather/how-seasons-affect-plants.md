@@ -43,7 +43,7 @@ Observe the same tree or plant throughout the school year and photograph or draw
   answer: 1
   explanation: "Trees use their leaves to capture sunlight and make food. In winter, there is less sunlight and it is harder for leaves to do their job. Keeping leaves would also waste water. By dropping its leaves, the tree goes into a resting state (dormancy) to survive the cold, dark winter. When spring brings warmth and longer days, the tree grows new leaves and starts again."
 
-- question: "A tree that has lost all its leaves in winter is dead."
+- question: "A tree that has lost most its leaves in winter is dead."
   type: true-false
   answer: false
   explanation: "A leafless tree in winter is dormant -- alive but resting. If you look closely, you can see buds on the branches that will open into new leaves in spring. The trunk, branches, and roots are all still alive. Dormancy is a survival strategy, not death."

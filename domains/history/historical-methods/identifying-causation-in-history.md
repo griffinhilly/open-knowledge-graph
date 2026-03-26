@@ -50,7 +50,7 @@ Take a major historical event and build causal analysis: Long-term structural co
   answer: 1
   explanation: "The dating question is itself a causal question. Structural causes (inequality, fiscal weakness, ideological tension) were present for decades — they explain why revolution was possible but not why it happened when it did. The specific convergence of 1788's failed harvest, the fiscal crisis forcing the Estates-General, and political deadlock explains the timing. This is the interplay of structure and contingency: structure sets the range, contingent factors determine which moment triggers the outcome."
 
-- question: "Recognizing contingency in historical causation means treating history as fundamentally random — since any individual decision could have gone differently, systematic causal explanation is impossible."
+- question: "Recognizing contingency in historical causation means treating history as fundamentally random — since any individual decision could have gone differently, systematic causal explanation is impractical."
   type: true-false
   answer: false
   explanation: "Contingency does not mean randomness. It means that within the constraints set by structural forces, individual decisions and chance events shape which of several possible outcomes materializes. Good causal analysis holds structure and contingency in tension: structure explains the range of possible outcomes; contingency explains which specific outcome occurred. History is neither fully determined nor purely accidental."

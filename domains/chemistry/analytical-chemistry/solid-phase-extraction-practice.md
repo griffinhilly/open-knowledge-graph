@@ -48,7 +48,7 @@ Solid-phase extraction uses sorbent cartridges to isolate analytes from complex 
   answer: true
   explanation: "This is one of the main practical advantages of SPE over traditional liquid-liquid extraction (LLE). LLE typically requires large volumes of organic solvent in repeated partitioning steps, while SPE cartridges use small, targeted volumes — often just 1–3 mL per step. Lower solvent waste reduces cost and environmental impact, which is why SPE has largely displaced LLE in high-throughput analytical labs."
 
-- question: "Increasing the loading flow rate during SPE always improves efficiency by processing more sample in less time."
+- question: "Increasing the loading flow rate during SPE generally improves efficiency by processing more sample in less time."
   type: true-false
   answer: false
   explanation: "Flow rate during loading is a critical parameter, and too fast is worse than too slow. If the sample passes through the cartridge too quickly, analytes don't have sufficient contact time with the sorbent to adsorb — they break through and are lost. A typical guideline is 1–2 mL/min for standard 3 mL cartridges. Speed and efficiency are not the same thing in SPE; recovery takes priority over throughput, and breakthrough losses are invisible without recovery experiments."

@@ -54,7 +54,7 @@ The ultraproduct ∏ᵤ Mᵢ of a family of structures over an ultrafilter U is 
   answer: 1
   explanation: "By construction, Mₙ ⊨ φₖ for every n ≥ k (since Mₙ satisfies the first n sentences). The set {n : n ≥ k} is cofinite. A non-principal ultrafilter contains every cofinite set, so {n : Mₙ ⊨ φₖ} ∈ U. By Łoś's Theorem, ∏ᵤ Mₙ ⊨ φₖ. Option A would be correct if every Mₙ satisfied φₖ, but Mₙ with n < k may not — only cofiniteness is needed, not universality."
 
-- question: "The ultraproduct ∏ᵤ Mᵢ satisfies a first-order sentence φ if and only if more than half the component structures satisfy φ."
+- question: "The ultraproduct ∏ᵤ Mᵢ satisfies a first-order sentence φ if and mainly if more than half the component structures satisfy φ."
   type: true-false
   answer: false
   explanation: "The correct criterion is not majority vote but U-membership: φ holds in the ultraproduct iff {i : Mᵢ ⊨ φ} ∈ U. An ultrafilter is not a counting measure — it does not depend on proportions. A non-principal ultrafilter on ℕ can contain sets with density zero (if every cofinite superset of a set is in U) and can exclude sets with density one if those sets are not in the filter. The voting metaphor is useful but the rule is 'which sets the ultrafilter declares large,' not 'which option gets a numerical majority.'"

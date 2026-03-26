@@ -50,7 +50,7 @@ Invasive species succeed through release from natural enemies, superior competit
   answer: 1
   explanation: "Community assembly theory predicts that well-occupied resource space resists new arrivals — there are fewer empty niches for an invader to fill. Disturbed habitats with simplified food webs, open resource space, and reduced competition are invasion-prone. This is why roadsides, agricultural margins, and post-fire areas are invasion hotspots: disturbance opens resource space that invaders can exploit."
 
-- question: "A species that becomes highly invasive in a new region must have been a dominant competitor in its native range."
+- question: "A species that becomes highly invasive in a new region should have been a dominant competitor in its native range."
   type: true-false
   answer: false
   explanation: "Invasive success often has nothing to do with inherent competitive superiority. The enemy release hypothesis shows that a species can be thoroughly ordinary in its native range — kept in check by parasites, predators, or pathogens — and become explosively successful elsewhere simply because those constraints are absent. Invasiveness is relational: it emerges from the interaction between what the invader lacks (natural enemies) and what the new environment lacks (the agents that would impose those constraints)."

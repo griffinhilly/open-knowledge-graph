@@ -52,7 +52,7 @@ Identify virtues you admire in people you respect. Notice that virtues are not j
   answer: 1
   explanation: "The doctrine of the mean holds that each virtue sits between two vices — a deficiency and an excess. Courage is not fearlessness (that would be rashness — a vice of deficiency in fear). The courageous person takes danger seriously (appropriate fear) while still acting rightly (appropriate resolve). This shows why virtue is not just a behavioral pattern but an emotional calibration. Fearlessness in the face of genuine danger is recklessness, not courage."
 
-- question: "Virtues are natural talents a person either has from birth or doesn't have — they cannot be meaningfully cultivated through practice."
+- question: "Virtues are natural talents a person either has from birth or doesn't have — they can rarely be meaningfully cultivated through practice."
   type: true-false
   answer: false
   explanation: "This is the most important misconception about virtue ethics. Aristotle explicitly argues that virtues are acquired through habituation — by repeatedly doing courageous acts, we become courageous; by repeatedly practicing honesty, honesty becomes second nature. Virtues are excellences built through accumulated choices and practices, not gifts assigned at birth. Character is identity constructed through action, not destiny determined by nature."

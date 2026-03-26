@@ -47,7 +47,7 @@ A solution is a homogeneous mixture where a solute dissolves in a solvent. Solub
   answer: 2
   explanation: "Gas solubility in liquids decreases with increasing temperature — the reverse of the trend for most solid solutes. As temperature rises, gas molecules gain enough kinetic energy to escape the solution more readily, shifting the dissolution equilibrium toward the gas phase. This is why a warm soda goes flat quickly and why boiling water degasses it. Opening the bottle releases the pressure, but warming already reduces solubility even while sealed."
 
-- question: "A saturated solution cannot dissolve any additional solute under any circumstances."
+- question: "A saturated solution can seldom dissolve any additional solute under any circumstances."
   type: true-false
   answer: false
   explanation: "A saturated solution holds the maximum amount of solute *at that temperature and pressure*. Changing conditions — especially raising the temperature for most solid solutes — increases solubility, allowing more solute to dissolve. A supersaturated solution is even a case where more than the equilibrium amount is temporarily dissolved. 'Saturated' describes an equilibrium at specific conditions, not a permanent ceiling."

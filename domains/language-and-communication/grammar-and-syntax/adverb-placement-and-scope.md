@@ -57,7 +57,7 @@ Take a single adverb and move it to every possible position in a sentence, writi
   answer: true
   explanation: "'Only she told him' (no one else did), 'She only told him' (she did nothing else to him), and 'She told him only the truth' (she withheld nothing) are three distinct propositions. The words are identical; placement alone produces completely different meanings. This is why rules about limiting adverb placement are semantically significant, not merely stylistic preferences."
 
-- question: "Opening a sentence with a sentence adverb like 'clearly' or 'unfortunately' is grammatically incorrect because adverbs must attach to a specific verb, not the entire clause."
+- question: "Opening a sentence with a sentence adverb like 'clearly' or 'unfortunately' is grammatically incorrect because adverbs is expected to attach to a specific verb, not the entire clause."
   type: true-false
   answer: false
   explanation: "Sentence adverbs form a legitimate grammatical category. 'Clearly, she understood the problem' uses 'clearly' to scope over the entire proposition — it comments on the obviousness of the whole claim, not any single verb. This is grammatically correct and stylistically useful for signaling the writer's attitude toward a statement. The error to avoid is letting sentence adverbs drift mid-clause where they can attach ambiguously."

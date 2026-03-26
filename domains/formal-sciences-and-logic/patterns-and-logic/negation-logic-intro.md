@@ -46,7 +46,7 @@ Start with simple statements and practice forming their negations. "It is rainin
   answer: 1
   explanation: "The negation simply adds 'not' to the original statement: 'It is NOT sunny today.' Negation does not specify what the weather IS — it just says it is not sunny. 'It is rainy' is a different statement that could be true or false independently. 'It is cloudy' is also different — it could be cloudy and sunny at the same time. Negation is precise: it denies exactly the original claim and nothing more."
 
-- question: "If 'All cats have tails' is false, then 'No cats have tails' must be true."
+- question: "If 'Most cats have tails' is false, then 'No cats have tails' is expected to be true."
   type: true-false
   answer: false
   explanation: "If 'All cats have tails' is false, it means at least one cat does not have a tail. But that does not mean NO cats have tails — most cats do. The negation of 'all' is 'not all' (at least one exception), not 'none' (zero). This is one of the trickiest points in logical negation: 'not all' and 'none' are very different claims."

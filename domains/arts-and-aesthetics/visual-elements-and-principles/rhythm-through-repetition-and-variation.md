@@ -55,7 +55,7 @@ Rhythm requires perfectly regular repetition. Adding variation to repetition dis
   answer: 3
   explanation: "Alternating rhythm occurs when a secondary pattern is layered over a consistent base repetition, creating a grouped structure. Here: thin-thin-thick, thin-thin-thick — the base interval is consistent (regular), but the variation in weight creates a grouping of three that gives the rhythm a secondary beat. This is distinct from progressive rhythm (where each element changes in a directional sequence, creating acceleration or deceleration) and regular rhythm (which has no variation at all)."
 
-- question: "Adding variation to a repeating visual pattern always disrupts the rhythm and makes the composition feel chaotic and incoherent."
+- question: "Adding variation to a repeating visual pattern usually disrupts the rhythm and makes the composition feel chaotic and incoherent."
   type: true-false
   answer: false
   explanation: "This reverses the actual relationship. Variation within a repeating structure is precisely what creates visual rhythm — it is not the enemy of rhythm but its partner. Pure repetition without variation produces mechanical regularity (wallpaper), which has pattern but lacks rhythm. Variation introduces the accents, surprises, and points of interest that give the pattern a sense of movement and energy. The condition for chaos is variation WITHOUT repetition — no underlying structure for the eye to track. Controlled variation within clear repetition is the definition of rhythm."

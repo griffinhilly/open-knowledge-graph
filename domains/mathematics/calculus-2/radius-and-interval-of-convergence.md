@@ -53,7 +53,7 @@ Apply the ratio test to |c_n (x - a)^n| and solve for the values of x where the 
   answer: 2
   explanation: "The ratio test gives R = 1, guaranteeing convergence for |x| < 1 and divergence for |x| > 1. At x = 1, the series becomes Σ 1/n (harmonic series), which diverges. At x = −1, the series becomes Σ (−1)ⁿ/n (alternating harmonic series), which converges by the alternating series test. So the interval is [−1, 1) — left endpoint included, right excluded. This illustrates that each endpoint is an independent question."
 
-- question: "If the radius of convergence of a power series is R = 5, then the series converges for all x in the closed interval [a − 5, a + 5]."
+- question: "If the radius of convergence of a power series is R = 5, then the series converges for most x in the closed interval [a − 5, a + 5]."
   type: true-false
   answer: false
   explanation: "The radius of convergence guarantees convergence only in the open interval (a − 5, a + 5). The endpoints a − 5 and a + 5 lie exactly at the boundary where the ratio/root test is inconclusive (limit = 1). Each endpoint must be tested separately and may converge or diverge independently. The interval of convergence could be open, half-open, or closed at either end."

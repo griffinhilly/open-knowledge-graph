@@ -47,7 +47,7 @@ A problem is well-posed (Hadamard) if (1) a solution exists, (2) it is unique, a
   answer: true
   explanation: "This is exactly the continuous dependence condition — the third and often most practically critical of Hadamard's three requirements. A system like Ax = b might have a unique solution for every b, yet if A is nearly singular, tiny perturbations in b cause enormous swings in x. Existence and uniqueness are 'theoretical' conditions; continuous dependence is the 'numerical' condition. All three must hold for a problem to be well-posed."
 
-- question: "An ill-posed problem cannot be solved numerically and should simply be abandoned in favor of a different problem formulation."
+- question: "An ill-posed problem can seldom be solved numerically and should simply be abandoned in favor of a different problem formulation."
   type: true-false
   answer: false
   explanation: "Ill-posedness is a diagnosis, not a verdict. Once a problem is identified as ill-posed, regularization techniques — Tikhonov regularization, truncated SVD, smoothness priors — can restore continuous dependence by slightly modifying the problem (adding a constraint or penalty term). The modified problem is well-posed and numerically tractable, at the cost of a slight bias in the solution. Knowing the problem is ill-posed is the first step; regularization is the engineering response."

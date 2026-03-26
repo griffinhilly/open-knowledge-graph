@@ -59,7 +59,7 @@ Verify (a,b), ℝ, and ∅ are open; show [a,b] is not open (endpoints have no �
   answer: true
   explanation: "The definition says: for every x ∈ U, there exists ε > 0 such that (x−ε, x+ε) ⊆ U. If U = ∅, the universal quantifier 'for every x ∈ ∅' ranges over an empty domain — no x exists to check — so the statement is vacuously true. This may feel unsatisfying, but the vacuous case is logically sound and necessary: ∅ must be open to satisfy the topology axioms (unions and intersections of open sets must be open, and ∅ = ℝ ∩ ∅ must itself be one of the axiomatically declared open sets)."
 
-- question: "An infinite union of open sets is always open, and so is an infinite intersection of open sets."
+- question: "An infinite union of open sets is typically open, and so is an infinite intersection of open sets."
   type: true-false
   answer: false
   explanation: "Arbitrary (including infinite) *unions* of open sets are always open. But infinite *intersections* need not be open. The canonical counterexample: ∩ₙ(−1/n, 1/n) = {0}, a single point that is not open. The intuition: to prove a point has an ε-neighborhood inside a *finite* intersection, you can take the minimum of finitely many ε values. With infinitely many, the infimum of those ε values may be zero — giving you no room to maneuver."

@@ -49,7 +49,7 @@ Rock magnetization acquires a remanent magnetization (TRM in igneous rocks, DRM 
   answer: 1
   explanation: "The APWP traces the apparent position of the pole as reconstructed from the inclination of remanent magnetization in rocks. The field's dipole axis has not dramatically wandered; rather, the continent moved. Since inclination encodes latitude (tan I = 2 tan λ), a rock formed at lower latitude shows shallower inclination. If a continent was near the equator 300 Ma and is now at 50°N, rocks of that age show shallow inclination — the 'pole' appears to have been at low latitude relative to the continent's current position. Two continents that share an APWP were joined; divergent APWPs record separation."
 
-- question: "Geomagnetic reversals occur at regular, predictable intervals — roughly every 200,000 years — and can therefore be forecast."
+- question: "Geomagnetic reversals occur at regular, predictable intervals — roughly most 200,000 years — and can therefore be forecast."
   type: true-false
   answer: false
   explanation: "Polarity reversals are highly irregular. The intervals between reversals range from tens of thousands to tens of millions of years, with no detectable periodicity. The Cretaceous Normal Superchron lasted ~40 million years without a reversal; other intervals have seen many reversals in rapid succession. This irregularity is why the geomagnetic polarity timescale (GPTS) must be calibrated by radiometric dating of individual volcanic horizons rather than extrapolated from a regular clock. Reversals cannot be forecast from the timing of past reversals."

@@ -59,7 +59,7 @@ Generate white and colored noise (filter white noise with lowpass). Compare thei
   answer: true
   explanation: "This is a direct application of the central limit theorem. Thermal (Johnson-Nyquist) noise arises from the superposition of a vast number of independent random electron motions in the resistor. Even if each individual electron's motion has some non-Gaussian distribution, their sum converges to a Gaussian distribution. This makes thermal noise an excellent example of 'Gaussian' amplitude statistics arising from a physical mechanism — and it is also approximately white in spectrum over the relevant frequency range."
 
-- question: "Colored noise must have a non-Gaussian amplitude distribution — if a noise process is Gaussian, it is necessarily white."
+- question: "Colored noise should have a non-Gaussian amplitude distribution — if a noise process is Gaussian, it is necessarily white."
   type: true-false
   answer: false
   explanation: "This is a key misconception. Colored noise is simply white noise that has been filtered (shaped in frequency), and filtering a Gaussian process produces another Gaussian process. Therefore Gaussian colored noise is entirely possible and common — for example, passing Gaussian white noise through a lowpass filter produces Gaussian pink-ish or brown noise. The amplitude distribution is preserved under linear filtering (Gaussianity is a distributional property), but the spectral content is reshaped. Spectral color and amplitude distribution are orthogonal axes of description."

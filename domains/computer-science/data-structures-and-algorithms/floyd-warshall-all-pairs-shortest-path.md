@@ -60,7 +60,7 @@ Trace the algorithm on a small graph, layer-by-layer through intermediate vertic
   answer: true
   explanation: "This is a key advantage over Dijkstra's algorithm, which breaks on negative edges because its greedy strategy assumes that once a vertex is finalized, no shorter path exists — an assumption violated by negative edges. Floyd-Warshall uses exhaustive dynamic programming: it tries all combinations of intermediate vertices for every pair (i,j), so it correctly finds paths that become shorter by taking a detour through a negative-weight edge. Negative cycles are a different problem — they make shortest paths undefined (unbounded), and Floyd-Warshall detects them via the diagonal check but cannot produce valid distances."
 
-- question: "For sparse graphs (few edges), Floyd-Warshall is generally faster than running Dijkstra's algorithm once from every vertex."
+- question: "For sparse graphs (few edges), Floyd-Warshall is generally faster than running Dijkstra's algorithm once from nearly every vertex."
   type: true-false
   answer: false
   explanation: "Floyd-Warshall always runs in O(V³) time regardless of the number of edges. Dijkstra with a binary heap runs in O((V + E) log V) per source, so running it from all V sources costs O(V(V + E) log V). For sparse graphs where E ≪ V², this is much less than O(V³). For example, on a sparse graph with E = O(V), repeated Dijkstra costs O(V² log V) versus Floyd-Warshall's O(V³). Floyd-Warshall becomes competitive only for dense graphs (E ≈ V²), where its simplicity and constant factors make it practical, or when negative edges prevent Dijkstra from being used."

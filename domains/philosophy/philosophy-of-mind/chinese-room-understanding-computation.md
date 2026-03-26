@@ -46,7 +46,7 @@ Searle's Chinese Room challenges the claim that computational symbol-manipulatio
   answer: 1
   explanation: "Searle's core claim is that syntax — the manipulation of symbols according to formal rules — is neither constitutive of nor sufficient for semantics — the property of being about something, of having genuine meaning. The chess computer manipulates bit patterns; the correspondence between those patterns and chess pieces exists in the minds of the programmers and players, not in the machine. No matter how complex the computation, the machine never crosses into genuine intentionality. Options C and D assume that flawless functional performance implies understanding — exactly what the Chinese Room is designed to challenge."
 
-- question: "Searle's Chinese Room argument proves that computers can never be conscious or possess genuine mental states under any circumstances."
+- question: "Searle's Chinese Room argument proves that computers can seldom be conscious or possess genuine mental states under any circumstances."
   type: true-false
   answer: false
   explanation: "Searle is careful to say that the argument shows computational symbol-manipulation *by itself* cannot constitute or produce genuine understanding — not that machines could never be conscious by some other means. What is ruled out is the claim that running the right program is sufficient for understanding. Searle himself holds that biological brains produce consciousness through their causal-physical properties, and he does not rule out that other physical systems might do the same. The argument's target is strong AI (the claim that syntax alone suffices for semantics), not all possible forms of machine consciousness."

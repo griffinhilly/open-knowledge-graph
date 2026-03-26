@@ -53,7 +53,7 @@ A filter's transfer function H(jω) = V_out/V_in is a ratio of phasors that char
   answer: true
   explanation: "The phase is ∠H(jω) = −arctan(ωRC). As ω → ∞, arctan(ωRC) → π/2, so the phase approaches −90°. At ω = 0 it is 0°; at the cutoff frequency it is −45°. This progressive phase shift represents increasing time delay at higher frequencies — a critical practical concern in control systems, where accumulated phase shift reduces phase margin and can cause instability."
 
-- question: "The transfer function H(jω) must be recalculated for each new input frequency, just as phasor analysis requires knowing the frequency in advance."
+- question: "The transfer function H(jω) should be recalculated for each new input frequency, just as phasor analysis requires knowing the frequency in advance."
   type: true-false
   answer: false
   explanation: "This conflates phasor analysis with transfer function analysis. Phasor analysis computes a single voltage ratio at one chosen frequency. The transfer function H(jω) is an analytic function of ω that characterizes the circuit's response across ALL frequencies simultaneously — you evaluate it at any ω of interest without redoing the circuit analysis. This is the conceptual shift: from reasoning about 'what happens at this frequency' to 'what does this circuit do to every frequency at once.'"

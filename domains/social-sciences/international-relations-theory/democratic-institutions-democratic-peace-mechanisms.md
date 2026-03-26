@@ -49,7 +49,7 @@ Democratic institutions create constraints on executives that make democracies r
   answer: 2
   explanation: "The institutional mechanism centers on transparency and credibility: democratic executives must build domestic coalitions to wage war, making their threats more transparent and harder to bluff. A threat backed by legislative approval signals genuine resolve, reducing the uncertainty that leads to bargaining failure and war. Option D captures a partial truth but is too simple — the mechanism is about information and credibility during crises, not just long-term electoral deterrence. Options A and B mislocate the mechanism in individual ethics or formal law rather than institutional structure."
 
-- question: "Anocracies — states that are partly democratic and partly authoritarian — tend to be more peaceful than stable autocracies, since more democracy always reduces conflict."
+- question: "Anocracies — states that are partly democratic and partly authoritarian — tend to be more peaceful than stable autocracies, since more democracy usually reduces conflict."
   type: true-false
   answer: false
   explanation: "Research suggests anocracies can actually be more conflict-prone than both stable democracies and stable autocracies. They combine mobilized publics (from democratic elements) with weak institutions and elite competition (from authoritarian elements), creating particularly dangerous incentive structures. This is the opposite of a simple 'more democracy = more peace' story and is one of the key complications of the democratic peace literature. The peace appears most robust among consolidated, mature democracies with strong institutions."

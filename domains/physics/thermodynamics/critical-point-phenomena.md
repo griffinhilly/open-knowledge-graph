@@ -54,7 +54,7 @@ Examine the P-V diagram near the critical point. Observe how the liquid-gas inte
   answer: 1
   explanation: "Near the critical point, the compressibility diverges and the correlation length ξ grows to macroscopic scales. This means density fluctuations occur on all length scales simultaneously, including those comparable to the wavelength of visible light. These fluctuations scatter light intensely (Rayleigh/Mie scattering), making the fluid appear milky-white. It is a direct signature of the diverging correlation length, not a phase transition color change."
 
-- question: "Above the critical temperature, applying sufficient pressure will always cause a substance to liquefy."
+- question: "Above the critical temperature, applying sufficient pressure will typically cause a substance to liquefy."
   type: true-false
   answer: false
   explanation: "This is the defining property of the critical point. Above T_c, there is no phase boundary between liquid and vapor — the two phases have merged into a single supercritical phase. No amount of pressure will cause liquefaction; you can only compress the supercritical fluid continuously. Liquefaction by isothermal compression is only possible below T_c."

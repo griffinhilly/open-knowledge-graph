@@ -61,7 +61,7 @@ Select a cultural practice (e.g., a moral value, artistic movement, legal rule) 
   answer: false
   explanation: "The opposite is true. Ideology in the Marxist sense works precisely by presenting class interests as universal interests — making the current order appear natural, inevitable, or beneficial to all. An institution that openly advocates for one class would be recognized as partisan and would lose its legitimating power. The effectiveness of law, religion, and education as ideological instruments lies in their claim to neutrality, universality, or transcendence — which conceals their class function."
 
-- question: "Marx's base-superstructure model treats the economic base as the 'ultimately' determining factor in social life, which means economic factors always directly and immediately cause specific cultural developments."
+- question: "Marx's base-superstructure model treats the economic base as the 'ultimately' determining factor in social life, which means economic factors generally directly and immediately cause specific cultural developments."
   type: true-false
   answer: false
   explanation: "The word 'ultimately' in Marx's formulation is critical, and it does NOT mean mechanical or immediate causation. The base sets limits and exerts pressures, but the superstructure has relative autonomy — legal systems, religions, and artistic traditions develop their own internal logics and can lag behind or even contradict economic changes. Later Marxists like Gramsci and Althusser elaborated this: cultural reproduction happens through complex institutional mechanisms, not through the base dictating specific superstructural forms."

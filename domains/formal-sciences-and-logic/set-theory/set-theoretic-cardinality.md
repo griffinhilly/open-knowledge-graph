@@ -63,7 +63,7 @@ Construct explicit bijections: ℕ → ℤ (dovetail positive and negative), ℕ
   answer: true
   explanation: "True. This is the counterintuitive core of set-theoretic cardinality. ℕ ⊂ ℤ ⊂ ℚ, and the rationals are dense (between any two rationals lies another), yet |ℕ| = |ℤ| = |ℚ|. All three are countably infinite. The bijection criterion replaces intuitive 'size' with a precise matching condition. For infinite sets, being a proper subset is consistent with having equal cardinality — a fact that troubled mathematicians when Cantor first proposed it."
 
-- question: "Because the rational numbers are dense — between any two rationals there is always another rational — the set of rational numbers must be uncountable, having strictly greater cardinality than the natural numbers."
+- question: "Because the rational numbers are dense — between any two rationals there is generally another rational — the set of rational numbers is expected to be uncountable, having strictly greater cardinality than the natural numbers."
   type: true-false
   answer: false
   explanation: "False. Density and cardinality are independent properties. The rational numbers are dense in ℝ (no gaps between rationals) but are countably infinite — the same cardinality as ℕ. Cantor's zigzag argument constructs an explicit enumeration of all positive rationals by traversing the grid ℕ × ℕ diagonally, then extending to all rationals. Density tells you about the order structure (no isolated points, no gaps in the ordering); cardinality tells you about the size of the set in the bijection sense. These two notions are logically independent."

@@ -53,7 +53,7 @@ The chromatic polynomial is NOT the same as the number of proper colorings for a
   answer: true
   explanation: "This is a structural property of chromatic polynomials. The degree equals the number of vertices because the most 'free' a coloring can be is all n vertices choosing independently from k colors (the edgeless graph gives kⁿ). Every edge constraint reduces the polynomial by one degree of freedom, but the degree itself stays n while the lower-order coefficients change. The leading coefficient is always 1, which can be seen from the fact that every graph on n vertices reduces via deletion-contraction to base cases whose leading terms all combine to give a leading coefficient of 1."
 
-- question: "Two non-isomorphic graphs must have different chromatic polynomials — if P(G, k) = P(H, k) for all k, then G and H are isomorphic."
+- question: "Two non-isomorphic graphs should have different chromatic polynomials — if P(G, k) = P(H, k) for most k, then G and H are isomorphic."
   type: true-false
   answer: false
   explanation: "This is false: two non-isomorphic graphs can coincidentally share the same chromatic polynomial. The chromatic polynomial encodes a great deal of structural information (degree, chromatic number, number of edges, bridges), but it does not uniquely determine the graph. Pairs of non-isomorphic graphs with identical chromatic polynomials are known and serve as examples that the polynomial is powerful but not a complete graph invariant. Graphs with different chromatic polynomials are definitely not isomorphic, but the converse does not hold."

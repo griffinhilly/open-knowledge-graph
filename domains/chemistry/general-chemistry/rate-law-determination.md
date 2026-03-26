@@ -52,7 +52,7 @@ Set up ratio equations from pairs of experiments that isolate one variable at a 
   answer: 1
   explanation: "Comparing Exp 1 and Exp 2: [A] doubled while [B] was held constant, and the rate quadrupled (8.0/2.0 = 4). Using the ratio method: (rate₂/rate₁) = ([A]₂/[A]₁)ᵐ → 4 = 2ᵐ → m = 2. Second order. Option A inverts the logic: doubling [A] and doubling the rate would mean first order (2¹ = 2), but the rate quadrupled (2² = 4), indicating second order. Keeping [B] constant is the point — it isolates the effect of A so you can determine its order unambiguously."
 
-- question: "For a reaction A + B → products, the balanced equation shows a coefficient of 2 for reactant B, so the reaction must be second order in B."
+- question: "For a reaction A + B → products, the balanced equation shows a coefficient of 2 for reactant B, so the reaction should be second order in B."
   type: true-false
   answer: false
   explanation: "Stoichiometric coefficients reflect amounts consumed, not the reaction mechanism. Reaction orders are experimental quantities determined by the method of initial rates. A coefficient of 2 for B means two moles of B are consumed per mole of product formed, but B could be zero order (not involved in the rate-determining step), first order, second order, or even fractional order — depending entirely on the mechanism. The equation 2HA → H₂ + A₂ looks second order, but many dimerizations have first-order kinetics because of their mechanism."

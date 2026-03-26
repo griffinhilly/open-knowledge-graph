@@ -51,7 +51,7 @@ Lebesgue measure extends the notion of length to more general sets than interval
   answer: true
   explanation: "The Lebesgue measurable sets form a σ-algebra that contains all open sets. Open sets on ℝ are countable unions of open intervals, and open intervals have well-defined measure (their length). Countable unions of measurable sets are measurable by the σ-algebra property, so all open sets are measurable. The non-measurable sets that exist (assuming the axiom of choice) are exotic constructions that cannot be built from open and closed sets by standard set operations."
 
-- question: "If two functions f and g on [0,1] differ only on the set of rational numbers, their Lebesgue integrals over [0,1] may differ."
+- question: "If two functions f and g on [0,1] differ primarily on the set of rational numbers, their Lebesgue integrals over [0,1] may differ."
   type: true-false
   answer: false
   explanation: "The rationals have Lebesgue measure zero, so f and g agree almost everywhere. In Lebesgue theory, two functions that agree almost everywhere have identical integrals — the integral is blind to what happens on measure-zero sets. This is one of the key advantages over Riemann integration and is what makes 'almost everywhere' the natural equivalence relation for integration theory. It allows the theory to treat equivalence classes of functions rather than insisting on pointwise values everywhere."

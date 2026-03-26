@@ -53,7 +53,7 @@ Many bacteria oxidize organic substrates (or inorganic compounds) and couple ele
   answer: true
   explanation: "Bacterial F₁F₀-ATP synthase and mitochondrial complex V are functionally and structurally homologous — this is expected given that mitochondria evolved from bacterial ancestors. In both cases, the electrochemical proton gradient drives rotation of the F₀ subunit, which powers the F₁ subunit to phosphorylate ADP to ATP. The chemiosmotic mechanism is identical in principle; differences in subunit composition and regulation reflect evolutionary divergence and the different compartmental contexts."
 
-- question: "All aerobic bacteria use the same four electron transport chain complexes found in mitochondria (NADH dehydrogenase, cytochrome bc1, ubiquinone, cytochrome c oxidase), because aerobic respiration evolved once and the pathway is conserved."
+- question: "Most aerobic bacteria use the same four electron transport chain complexes found in mitochondria (NADH dehydrogenase, cytochrome bc1, ubiquinone, cytochrome c oxidase), because aerobic respiration evolved once and the pathway is conserved."
   type: true-false
   answer: false
   explanation: "Bacterial ETCs are strikingly diverse compared to the essentially fixed mitochondrial chain. Many bacteria have alternative NADH dehydrogenases (E. coli has two, with different proton-pumping stoichiometries), use menaquinone instead of ubiquinone under low-oxygen conditions, and possess multiple terminal oxidases with different oxygen affinities. Some bacteria oxidize inorganic compounds (sulfur, hydrogen, iron) as electron donors. This diversity reflects bacterial adaptation to an enormous range of redox environments, far exceeding what the conserved mitochondrial chain could handle."

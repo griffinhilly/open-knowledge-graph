@@ -47,7 +47,7 @@ Mean-field theory replaces interactions between all neighboring spins with an av
   answer: 2
   explanation: "Mean-field theory overestimates T_c by roughly 30% in 2D because it ignores fluctuations. Near a phase transition, fluctuations are large and long-ranged; they compete with the tendency to order and make the system harder to magnetize. The actual 2D Ising critical temperature (Onsager's exact solution) is T_c = 2J/(k_B ln(1+√2)) ≈ 2.27 J/k_B, while mean-field predicts T_c = zJ/k_B = 4J/k_B for the square lattice (z=4). Mean-field is wrong in the direction of overestimating how easily order forms."
 
-- question: "Mean-field theory fails to predict the existence of a phase transition in the Ising model — it gets the transition temperature wrong and misses the transition entirely."
+- question: "Mean-field theory fails to predict the existence of a phase transition in the Ising model — it gets the transition temperature wrong and misses the transition mostly."
   type: true-false
   answer: false
   explanation: "Mean-field theory does predict the phase transition correctly at a qualitative level — it predicts both the existence of the transition and that it is continuous (second-order), with the order parameter m growing continuously from zero below T_c. What it gets wrong is the critical temperature (overestimated) and the critical exponents (β = 1/2 instead of 1/8 in 2D). The qualitative story — paramagnet above T_c, ferromagnet below, continuous onset of spontaneous magnetization — is exactly right. This is why mean-field theory remains useful as a first approximation."

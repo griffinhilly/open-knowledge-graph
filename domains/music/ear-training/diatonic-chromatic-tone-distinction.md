@@ -53,7 +53,7 @@ Diatonic tones belong to the current key; chromatic tones are "outside" and soun
   answer: true
   explanation: "This is the basic voice-leading tendency of chromatic alterations: raised notes (sharps) lean upward toward their resolution; lowered notes (flats) lean downward. G# in C major 'wants' to resolve up to A — functioning as a leading tone to A. This directional pull gives chromatic notes their expressive tension."
 
-- question: "The only function of a chromatic note in tonal music is to signal that a modulation to a new key has occurred."
+- question: "The primary function of a chromatic note in tonal music is to signal that a modulation to a new key has occurred."
   type: true-false
   answer: false
   explanation: "Chromatic notes have multiple functions: (1) chromatic passing tone — briefly decorating diatonic pitches with no harmonic implication; (2) chromatic alteration — adding color within the home key (e.g., a raised 7th in minor); (3) tonicization signal — a temporary emphasis on a chord other than tonic, short of a full key change. Full modulation is just one of many contexts."

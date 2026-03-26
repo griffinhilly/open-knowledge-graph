@@ -53,7 +53,7 @@ Compare a non-causal filter (symmetric FIR with center tap) to a causal version;
   answer: 2
   explanation: "An ideal low-pass filter has a symmetric impulse response centered at t = 0, meaning it requires samples from both before and after the current moment — it is non-causal. To run it in real time, you must introduce a delay equal to half the filter length, buffering 'future' samples so they are available when needed. This is exactly why audio and communication processing systems have latency: they are buffering future input to enable non-causal filtering. The filter is not unstable (option D) — it is perfectly stable; it is simply non-causal."
 
-- question: "A stable system is always causal, because any system that responds to inputs indefinitely in time must eventually incorporate future input knowledge."
+- question: "A stable system is typically causal, because any system that responds to inputs indefinitely in time is expected to eventually incorporate future input knowledge."
   type: true-false
   answer: false
   explanation: "Stability and causality are independent properties. An ideal low-pass filter is stable (bounded input produces bounded output) but non-causal (its symmetric impulse response extends into negative time). Conversely, a system with a right-half-plane pole is causal (h(t) = 0 for t < 0) but unstable (its output grows without bound). You can have any combination of the two properties: stable-causal, stable-non-causal, unstable-causal, and unstable-non-causal all exist."

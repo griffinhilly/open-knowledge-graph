@@ -53,7 +53,7 @@ Visualize in R^2 using arrows. Add vectors tip-to-tail or using the parallelogra
   answer: 1
   explanation: "The displacement from P to Q is Q − P = (7−3, 2−5) = (4, −3). This follows from the key geometric interpretation: u − v is the vector *from* v *to* u. So to go from P to Q, compute Q − P. Option C, P − Q = (−4, 3), is the displacement from Q back to P — the opposite direction. Adding position vectors (option A) produces (10, 7), which has no geometric meaning as a displacement between specific points."
 
-- question: "If vector u has magnitude 5 and vector v has magnitude 5, then u + v must have magnitude 10."
+- question: "If vector u has magnitude 5 and vector v has magnitude 5, then u + v is expected to have magnitude 10."
   type: true-false
   answer: false
   explanation: "Magnitudes do not add in general. |u + v| = |u| + |v| only when u and v point in exactly the same direction. If they point in opposite directions, |u + v| = 0. If they are perpendicular, |u + v| = √50 ≈ 7.07. The magnitude of a sum must be computed from the sum vector itself — not from the individual magnitudes — using the Pythagorean theorem or the full component calculation. The triangle inequality |u + v| ≤ |u| + |v| shows that 10 is the maximum, achieved only in the collinear case."

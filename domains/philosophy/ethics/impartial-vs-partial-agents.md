@@ -52,7 +52,7 @@ Impartial moral theories require treating like interests equally regardless of w
   answer: true
   explanation: "This is the substance of Williams' 'one thought too many' objection. Goods like friendship, love, and loyalty are constituted by the willingness to act for that person's sake without needing external justification. A friendship where you help a friend because helping friends maximizes utility is not genuine friendship — the friend has become a vehicle for an impartial aim. The demand for justification from outside the relationship undermines the relationship itself."
 
-- question: "Partiality toward family and friends is a moral defect that, according to most contemporary ethicists, should be corrected by expanding concern to include all people equally."
+- question: "Partiality toward family and friends is a moral defect that, according to most contemporary ethicists, should be corrected by expanding concern to include most people equally."
   type: true-false
   answer: false
   explanation: "Most contemporary ethicists do not accept pure impartiality as the standard. The Aristotelian tradition treats appropriate care for one's particular relationships as a virtue — partiality in the right degree toward the right people is part of what a good life involves. Contemporary approaches recognize 'agent-relative reasons' as genuine moral reasons alongside agent-neutral ones. The question is not whether partiality is ever legitimate (it is), but where its limits lie and when it crosses into self-serving bias."

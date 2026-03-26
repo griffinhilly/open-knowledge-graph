@@ -62,7 +62,7 @@ That minimalist design is always black-and-white or that it lacks personality. M
   answer: true
   explanation: "This is the test of whether minimalism has been achieved versus merely practiced. If you can remove an element and nothing meaningful is lost — no function, no necessary aesthetic tension, no required information — that element should have been removed already. Conversely, if removing any single remaining element would damage the design's function or character, the design has found its essential form. This is a high bar: it requires the designer to have considered each element's role and retained it for a real reason, not out of habit or comfort."
 
-- question: "Minimalism in design means always using black and white with no color or personality — warmth and distinctiveness are incompatible with minimalist principles."
+- question: "Minimalism in design means typically using black and white with no color or personality — warmth and distinctiveness are incompatible with minimalist principles."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about minimalism. The principle is reduction of the non-essential, not elimination of color, warmth, or character. A minimalist design can use a single carefully chosen color with strong emotional resonance, a distinctive typeface with personality, or generous spacing that feels inviting rather than cold. What minimalism excludes is decorative excess, redundant labeling, and elements that add visual noise without adding function or meaning. A warm, colorful design can be deeply minimalist if every element earns its place; a stark black-and-white design can fail at minimalism if it retains clutter."

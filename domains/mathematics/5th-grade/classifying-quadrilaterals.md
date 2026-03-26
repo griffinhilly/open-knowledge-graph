@@ -53,7 +53,7 @@ Use property cards (has right angles, has parallel sides, has equal sides) and s
   answer: 2
   explanation: "A square is always a rectangle, by definition. Every square has four right angles and two pairs of parallel sides — exactly the properties that define a rectangle. A rectangle is only sometimes a square (when all four sides happen to be equal). A parallelogram is only sometimes a rectangle (when all four angles are right angles). A rhombus is only sometimes a rectangle (when it is also a square). 'Always, sometimes, never' questions test whether you understand logical inclusion vs. conditional membership."
 
-- question: "A shape can only belong to one quadrilateral category at a time — a square is a square, not also a rectangle or a rhombus."
+- question: "A shape can primarily belong to one quadrilateral category at a time — a square is a square, not also a rectangle or a rhombus."
   type: true-false
   answer: false
   explanation: "Shapes can and do belong to multiple categories simultaneously. A square is a quadrilateral, a parallelogram, a rectangle, and a rhombus — all at once. It satisfies every property each of those categories requires. The hierarchy is: square ⊂ rectangle ⊂ parallelogram ⊂ quadrilateral, and also square ⊂ rhombus ⊂ parallelogram ⊂ quadrilateral. Category membership is about satisfying property requirements, not about being a 'pure' member of a single group."

@@ -52,7 +52,7 @@ An oracle Turing machine is a standard Turing machine augmented with a black-box
   answer: true
   explanation: "This is the direct implication of the BGS result. Since there exist oracles making P^A = NP^A and others making P^B ≠ NP^B, any argument that relativizes — that works the same way with or without an oracle — would produce a contradiction: it would prove the same result in both oracle worlds, but the oracle worlds have opposite answers. Non-relativizing techniques include things like arithmetization (the key to IP = PSPACE) and algebraic methods. The BGS result is a barrier theorem: it rules out entire families of proof strategies without settling the question itself."
 
-- question: "The Baker-Gill-Solovay result shows that P = NP is independent of standard set-theoretic axioms like ZFC, meaning the question can never be resolved by ordinary mathematical proof."
+- question: "The Baker-Gill-Solovay result shows that P = NP is independent of standard set-theoretic axioms like ZFC, meaning the question can seldom be resolved by ordinary mathematical proof."
   type: true-false
   answer: false
   explanation: "This is a common and serious misconception. BGS shows that relativizing proof techniques cannot resolve P vs NP — it constrains the *method* of proof, not the existence of a proof. Independence from ZFC would be a separate and much stronger statement (requiring, for example, a forcing argument or inner model construction), and no such independence result has been proved. P vs NP may well have a definite answer (likely P ≠ NP) that is provable within ZFC using non-relativizing techniques, just as the primality testing problem was eventually resolved. BGS is a barrier, not an impossibility."

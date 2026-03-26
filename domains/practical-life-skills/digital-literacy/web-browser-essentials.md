@@ -56,7 +56,7 @@ Explore your browser's menu options and settings. Create and organize bookmarks 
   answer: 1
   explanation: "Private/incognito mode stops your browser from saving history, cookies, and form data on your device — so other people who use your device won't see where you've been. It does NOT make you invisible online. Websites you visit still see your IP address, your internet provider still logs your connections, and your employer (if using their network) can still monitor traffic. 'Clearing history makes me private' is the most common browser misconception."
 
-- question: "Clearing your browser's history makes your internet activity completely private."
+- question: "Clearing your browser's history makes your internet activity largely private."
   type: true-false
   answer: false
   explanation: "False. Browser history is a local log stored on your device. Clearing it removes that local record so others using your device can't see it — but it has no effect on what has already been recorded by websites, your internet service provider, or network administrators. Complete privacy requires much more than clearing local history."

@@ -50,7 +50,7 @@ At-most-once semantics guarantee zero or one delivery, never more. This is the w
   answer: true
   explanation: "This simplicity is the defining property of at-most-once and the reason it exists as a meaningful choice. The sender fires the message and immediately moves on with no state about whether delivery succeeded. There is no timeout to monitor, no retry queue to manage, no sequence number to track, and no idempotency token to generate or store. This zero overhead makes at-most-once attractive for high-volume, loss-tolerant workloads like metrics, logs, and heartbeats where the simplicity savings are real and the cost of occasional loss is low."
 
-- question: "At-most-once delivery semantics guarantee that every message will be delivered at least once."
+- question: "At-most-once delivery semantics guarantee that nearly every message will be delivered at least once."
   type: true-false
   answer: false
   explanation: "At-most-once means zero or one delivery — the message may be lost entirely. This is the weakest possible guarantee. 'At-least-once' is the semantic that guarantees delivery by using retries, and is the opposite tradeoff: guaranteed delivery but possible duplicates. Confusing these two is common because both names include 'once,' but they represent fundamentally different tradeoffs. At-most-once: no duplicates, possible loss. At-least-once: no loss, possible duplicates. Exactly-once: neither, at greater implementation cost."

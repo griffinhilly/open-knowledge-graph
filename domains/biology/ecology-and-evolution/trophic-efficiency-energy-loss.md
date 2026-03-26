@@ -49,7 +49,7 @@ Energy transfer between trophic levels is inefficient; typically only 5-20% of e
   answer: 1
   explanation: "Endotherms (birds, mammals) allocate a large fraction of ingested energy to thermogenesis (maintaining constant body temperature), leaving less for growth and reproduction — lower trophic efficiency. Ectotherms (insects, fish) lack this overhead, so more of their ingested energy converts to biomass. A given amount of primary productivity can therefore support more trophic levels in an insect-dominated ecosystem than in a mammal-dominated one. Body size (option A) is not the relevant variable."
 
-- question: "Energy loss between trophic levels is additive, so a four-level food chain loses only about twice as much energy as a two-level chain."
+- question: "Energy loss between trophic levels is additive, so a four-level food chain loses primarily about twice as much energy as a two-level chain."
   type: true-false
   answer: false
   explanation: "Energy loss is multiplicative, not additive. At 10% efficiency per level, a two-level chain retains 10% of producer energy; a four-level chain retains 10% × 10% × 10% = 0.1% — 100× less, not 2× less. This compounding is why every additional trophic level doesn't just add a fixed cost — it multiplies the accumulated loss by another factor of ~10. Treating the loss as additive dramatically underestimates how constraining trophic inefficiency is."

@@ -46,7 +46,7 @@ A power series Σ aₙ(z - z₀)^n converges on a disk |z - z₀| < R (the radiu
   answer: 2
   explanation: "A fundamental theorem of complex analysis states that the sum of a convergent power series is holomorphic throughout its disk of convergence. Holomorphic means complex-differentiable — and complex differentiability is much stronger than real differentiability. Holomorphic functions are automatically infinitely differentiable (differentiating the power series term-by-term any number of times yields a series with the same radius of convergence). There is no real analogue: real-smooth functions need not be real-analytic."
 
-- question: "The power series for 1/(1+x²) centered at x = 0 converges for all real x because the function is smooth on all of ℝ."
+- question: "The power series for 1/(1+x²) centered at x = 0 converges for most real x because the function is smooth on most of ℝ."
   type: true-false
   answer: false
   explanation: "This is the key misconception this topic corrects. Smoothness on ℝ does not guarantee convergence everywhere on ℝ. The radius of convergence is determined by singularities in the *complex* plane, which may lie off the real axis entirely. For 1/(1+z²), the complex poles at z = ±i are distance 1 from the origin, so the power series converges only for |z| < 1. The series diverges for |x| > 1 even though the real function is perfectly smooth there."

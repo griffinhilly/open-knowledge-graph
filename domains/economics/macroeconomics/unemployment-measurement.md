@@ -57,7 +57,7 @@ Practice categorizing individuals (employed, unemployed, not in labor force) fro
   answer: 1
   explanation: "U-3 counts anyone who does any paid work — even one hour — as employed. Part-time workers who want full-time work are counted as employed in U-3. They appear only in U-6, the broadest measure, which adds 'underemployed' workers. During the 2008–2009 recession, U-3 peaked around 10% while U-6 peaked near 17% — the gap reveals the extent to which U-3 undercounts labor market distress."
 
-- question: "A falling unemployment rate always indicates that more people have found jobs."
+- question: "A falling unemployment rate generally indicates that more people have found jobs."
   type: true-false
   answer: false
   explanation: "A falling unemployment rate can reflect job creation, but it can also reflect discouraged workers exiting the labor force. When workers stop searching, they are removed from both the numerator (unemployed) and the denominator (labor force). This can lower the rate without any new jobs being created. Tracking the labor force participation rate alongside U-3 is essential for distinguishing genuine improvement from withdrawal."

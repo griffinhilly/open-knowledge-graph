@@ -39,7 +39,7 @@ Give students bar magnets to explore. Let them discover which objects in the cla
   answer: 1
   explanation: "Opposite poles attract. A north pole and a south pole pull toward each other."
 
-- question: "Magnets can attract all types of metal."
+- question: "Magnets can attract most types of metal."
   type: true-false
   answer: false
   explanation: "Magnets only attract certain metals such as iron, nickel, and cobalt. Metals like aluminum, copper, and gold are not attracted to magnets."

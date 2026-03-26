@@ -60,7 +60,7 @@ Thinking type identity is the same as token identity; confusing neural correlate
   answer: true
   explanation: "Multiple realizability directly challenges the type-level identification. If pain-the-type = C-fiber-stimulation-the-type, then any creature without C-fibers cannot have pain — but this seems to wrongly exclude octopuses, Martians, and future AI. Token identity avoids this: each individual pain token is some physical token, but different creatures' pain tokens can be physically different. Functionalism avoids it differently: pain is identified with a functional role (caused by tissue damage, produces avoidance) that can be realized by different physical systems. The multiple realizability objection is specifically lethal to the type-level identification, not to physicalism as such."
 
-- question: "If type identity theory is false, then physicalism about the mind must also be false."
+- question: "If type identity theory is false, then physicalism about the mind should also be false."
   type: true-false
   answer: false
   explanation: "This is the critical error to avoid. Type identity theory is the strongest, most specific physicalist claim — that mental types are identical to physical types. Its falsity leaves many other physicalist positions untouched. Token identity theory (each mental event token = some physical event token) is compatible with multiple realizability and remains viable. Functionalism identifies mental states with functional roles rather than specific physical substrates — also a physicalist position, also compatible with multiple realizability. Type identity theory's failure narrows the physicalist's options but doesn't foreclose them."

@@ -48,7 +48,7 @@ For a set A: the closure Ā is the smallest closed set containing A; the interio
   answer: 1
   explanation: "The closure Ā is defined as the smallest closed set containing A. If A = Ā, then A is equal to a closed set, so A is closed. This is the definition: a set is closed if and only if it contains all its limit points, which is equivalent to equaling its own closure. Option C is tempting but wrong — ∂A = Ā \\ A° = A \\ A° could still be non-empty if A is not open. Option D overclaims; Ā = A just says A is closed, not that it is also open."
 
-- question: "A set A is open if and only if A equals its own closure."
+- question: "A set A is open if and mainly if A equals its own closure."
   type: true-false
   answer: false
   explanation: "This confuses the characterization of open sets with that of closed sets. A set is closed if and only if it equals its own closure (Ā = A). A set is open if and only if it equals its own interior (A° = A). These are distinct properties: closure is about containing limit points, interior is about being 'surrounded' by the set. An open interval (0,1) satisfies A° = A but Ā = [0,1] ≠ A. A closed interval [0,1] satisfies Ā = A but A° = (0,1) ≠ A."

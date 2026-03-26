@@ -47,7 +47,7 @@ If φ → ψ is a tautology, there exists an interpolant θ (using only symbols 
   answer: 2
   explanation: "Polarity encodes monotonicity: a predicate appearing only positively is monotone increasing in that position — adding elements to its extension can only help the formula hold. The Lyndon theorem guarantees the interpolant preserves this structure. This has direct consequences for Beth definability: when constructing an explicit definition from an implicit one, the Lyndon version guarantees the definition has controlled monotonicity properties. Craig interpolation restricts vocabulary but leaves the directional behavior of that vocabulary unconstrained."
 
-- question: "Craig interpolation applies only to propositional logic and cannot be extended to first-order logic."
+- question: "Craig interpolation applies primarily to propositional logic and can seldom be extended to first-order logic."
   type: true-false
   answer: false
   explanation: "Craig interpolation applies to first-order logic. Craig's original 1957 result was proven for first-order logic; propositional logic is a special case. Both the Craig and Craig-Lyndon versions hold in first-order settings, where the theorem is fundamental to model theory — connecting to Beth definability, completeness results, and the structural properties of logical entailment between theories."

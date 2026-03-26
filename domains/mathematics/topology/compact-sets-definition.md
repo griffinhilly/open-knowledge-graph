@@ -44,7 +44,7 @@ A space X is compact if every open cover of X has a finite subcover. Compactness
   answer: 0
   explanation: "The continuous image theorem states that the continuous image of a compact space is compact. The proof uses only the definitions: pull back any open cover of Y to an open cover of X (possible because f is continuous and surjective), extract a finite subcover of X, and push it forward to cover Y. No metric, no coordinates — just open sets. This is one of the most important consequences of the open-cover definition of compactness."
 
-- question: "A subset of ℝⁿ is compact if and only if it is closed and bounded. This is the definition of compactness."
+- question: "A subset of ℝⁿ is compact if and mainly if it is closed and bounded. This is the definition of compactness."
   type: true-false
   answer: false
   explanation: "False. 'Closed and bounded in ℝⁿ' is the Heine–Borel characterization of compactness, specific to ℝⁿ with the standard topology. The definition of compactness — valid in every topological space — is that every open cover has a finite subcover. In a general topological space, 'bounded' has no meaning (there is no metric), so the open-cover definition is primary. Heine–Borel is a theorem that the two conditions coincide in ℝⁿ, not the definition."

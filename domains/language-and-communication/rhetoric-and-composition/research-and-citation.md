@@ -57,7 +57,7 @@ Practice the CRAAP test (Currency, Relevance, Authority, Accuracy, Purpose) on s
   answer: 2
   explanation: "Source authority is not a fixed hierarchy — it is fitness-for-purpose. For current government statistics, the agency that collects and defines those statistics is the authoritative source. A peer-reviewed article might analyze unemployment trends but will cite the BLS as its data source anyway. A news article will cite the BLS. A textbook will be out of date. The right question is: 'What kind of source can *produce* this type of claim?' For empirical measurements of national statistics, the measuring agency is definitive."
 
-- question: "Wikipedia should never be used in academic research because it is an unreliable source."
+- question: "Wikipedia should rarely be used in academic research because it is an unreliable source."
   type: true-false
   answer: false
   explanation: "This overstates the case. Wikipedia is not appropriate as a *cited source* in most academic work — it is a tertiary source with variable accuracy and editorial oversight. But 'never use Wikipedia' is incorrect: Wikipedia is a valuable starting point for identifying terminology, understanding unfamiliar fields, and most importantly, locating primary sources through its reference sections. A researcher who follows Wikipedia's citations upstream to peer-reviewed articles and primary sources is using it correctly. The problem is stopping at Wikipedia rather than continuing to its sources."

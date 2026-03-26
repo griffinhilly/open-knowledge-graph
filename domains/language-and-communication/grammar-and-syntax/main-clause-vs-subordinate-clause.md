@@ -59,7 +59,7 @@ Try to read each clause in a sentence as a standalone sentence. If it doesn't ma
   answer: 1
   explanation: "Subordinate clauses include adverbial clauses (because, although), relative clauses (who, which, that), and noun clauses (that, what, whether). What all subordinate clauses share is structural dependence — 'who won the prize' cannot stand alone as a sentence. The classmate's error is defining subordinate clauses by their introductory word class rather than by grammatical function. Recognizing subordination by function rather than trigger word is the key skill."
 
-- question: "A subordinate clause always follows the main clause in a well-formed English sentence."
+- question: "A subordinate clause typically follows the main clause in a well-formed English sentence."
   type: true-false
   answer: false
   explanation: "This is the first core misconception in this topic. Subordinate clauses can appear in three positions: before the main clause ('Although it was raining, they played outside'), after it ('They played outside although it was raining'), or embedded in the middle ('The game, which started late, went into overtime'). Position tells you nothing about whether a clause is subordinate. The standalone test is the reliable diagnostic: can it form a complete sentence on its own?"

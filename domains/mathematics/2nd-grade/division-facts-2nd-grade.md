@@ -54,7 +54,7 @@ Division facts relate directly to multiplication facts. If 2 × 5 = 10, then 10 
   answer: true
   explanation: "Yes — this is exactly the inverse relationship. Every multiplication fact generates two division facts (and another multiplication fact with the factors swapped). The three numbers 4, 8, and 32 form a fact family. Learning one fact for free means you get three more, which is why mastering multiplication facts gives you most of your division fluency at the same time."
 
-- question: "Division facts must be memorized completely separately from multiplication facts, since the two operations work differently."
+- question: "Division facts is expected to be memorized largely separately from multiplication facts, since the two operations work differently."
   type: true-false
   answer: false
   explanation: "This is the key misconception this topic addresses. Because division is the inverse of multiplication, division facts are not independent — they are derived from multiplication facts. 18 ÷ 6 = 3 because 6 × 3 = 18. Students who understand the inverse relationship don't need to memorize a separate set of division facts; they ask 'what times the divisor equals the dividend?' and use what they already know."

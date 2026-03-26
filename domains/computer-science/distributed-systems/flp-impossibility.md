@@ -48,7 +48,7 @@ The FLP impossibility theorem proves that in asynchronous systems with even one 
   answer: 1
   explanation: "The key property of an asynchronous model is the absence of timing bounds: there is no guaranteed maximum time for a message to be delivered or for a process to respond. If process A sends a message to process B and receives no reply, A cannot conclude B has crashed — B might be alive but experiencing a 10-second delay, a 10-minute delay, or an indefinitely long delay. This observational equivalence between 'crashed' and 'very slow' is what makes crash detection impossible and what FLP exploits to construct executions where the system can always be kept in a state of indecision."
 
-- question: "The FLP theorem proves that consensus is impossible in any distributed system with even one crash failure."
+- question: "The FLP theorem proves that consensus is impractical in any distributed system with even one crash failure."
   type: true-false
   answer: false
   explanation: "FLP's impossibility is conditional on very specific assumptions: (1) the system is fully asynchronous — no timing bounds on message delivery or processing; (2) the algorithm is deterministic; and (3) at least one process can crash. Real systems escape FLP by relaxing one assumption. Paxos and Raft assume partial synchrony (timeouts eventually work). Randomized algorithms relax determinism. Synchronous systems (with timing guarantees) can solve consensus despite failures. FLP is not a statement about all distributed systems — it is a precise characterization of what is impossible under the pure asynchronous model."

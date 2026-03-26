@@ -60,7 +60,7 @@ Trace a deposit through banking system: central bank bond purchase injects base.
   answer: false
   explanation: "The monetary base (M0) is currency in circulation plus bank reserves held at the central bank — what the central bank directly creates. M2 is substantially larger because banks multiply the base through deposit creation (lending turns deposits into new deposits elsewhere). In normal times, M2 is several times larger than the base. The ratio between them is the money multiplier, which is variable and not fixed."
 
-- question: "Higher reserve requirements always produce a smaller money supply because they directly constrain how much banks can lend."
+- question: "Higher reserve requirements usually produce a smaller money supply because they directly constrain how much banks can lend."
   type: true-false
   answer: false
   explanation: "Reserve requirements are one potential constraint on lending, but often not the binding one. Capital requirements, regulatory risk weights, available creditworthy borrowers, and banks' own risk assessments all limit lending independently of reserve ratios. After 2008, U.S. banks voluntarily held reserves far above the legal minimum — the binding constraint was economic (depressed loan demand, risk aversion, the attractiveness of earning interest by parking reserves at the Fed), not regulatory. Reserve requirements can be binding in theory but often aren't in practice."

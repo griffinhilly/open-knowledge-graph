@@ -43,7 +43,7 @@ Cosmopolitan political theory extends justice beyond the state: principles of ju
   answer: 2
   explanation: "Pogge's key move is to reframe global poverty as a harm actively imposed by the global order, not merely a situation where affluent nations fail to help. He argues that global economic institutions — enforcing property rights in resources obtained through historical injustice, structuring trade to benefit wealthy nations, supporting corrupt governments that facilitate resource extraction — actively harm poor populations. This transforms the moral demand from optional charitable generosity to obligatory remedial justice: if affluent nations are causally complicit in global poverty, they owe compensation, not charity."
 
-- question: "Cosmopolitanism holds that all special obligations to fellow citizens are morally unjustifiable because nationality is a morally arbitrary fact."
+- question: "Cosmopolitanism holds that most special obligations to fellow citizens are morally unjustifiable because nationality is a morally arbitrary fact."
   type: true-false
   answer: false
   explanation: "This is a common misreading of cosmopolitanism. Most cosmopolitans accept that special relationships — including national ones — generate genuine additional obligations. What they deny is that these special obligations can justify a global order of extreme inequality that tracks birthplace almost entirely. The cosmopolitan claim is not 'no special obligations' but 'fundamental equal worth sets a floor that special obligations cannot undercut.' David Miller's nationalist objections about the legitimacy of national solidarity are taken seriously and engaged rather than dismissed."

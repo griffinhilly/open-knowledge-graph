@@ -44,7 +44,7 @@ Critical methods for interpreting artworks range from formalist analysis to cont
   answer: 3
   explanation: "Ideological critique — including feminist, Marxist, postcolonial, and queer theory approaches — reads artworks as sites where power relations are reinforced or contested. It asks who the implied viewer is, whose interests the work serves, and what social structures it naturalizes. Formalism (A) focuses on internal visual properties. Biographical criticism (B) connects the work to the artist's life. Phenomenology (C) focuses on the embodied experience of encountering the work. Ideological critique is specifically concerned with power, representation, and social structure."
 
-- question: "Formalist analysis is the most objective critical method because it relies entirely on what is visually present in the artwork and avoids importing external assumptions."
+- question: "Formalist analysis is the most objective critical method because it relies mostly on what is visually present in the artwork and avoids importing external assumptions."
   type: true-false
   answer: false
   explanation: "Formalism embeds its own theoretical commitments — most importantly, that meaning resides in formal properties (line, color, composition) and that context (historical, political, biographical) is irrelevant. This is not a neutral observation but a contestable claim about where meaning lives. Choosing to ignore an artwork's historical context or political significance is itself a theoretical move, not the absence of theory. Every critical method has characteristic blind spots; formalism's is that it can strip away political urgency and historical meaning by treating works as self-contained aesthetic objects."

@@ -50,7 +50,7 @@ Bacterial pili are long protein filaments extending from the cell surface; fimbr
   answer: false
   explanation: "The F pilus contacts the recipient cell and then retracts, pulling the two cells together. DNA transfer occurs through a mating bridge formed by direct cell-to-cell contact, not through the pilus lumen itself. The pilus functions as a grappling hook that draws the cells into proximity — the actual conduit for DNA is the junction established after cells are in contact. This distinction matters because the pilus is fragile and would be a poor DNA delivery tube."
 
-- question: "All bacterial pili and fimbriae serve the same basic function — adhering to host cell surfaces — but differ in the specific host surface molecules they recognize."
+- question: "Most bacterial pili and fimbriae serve the same basic function — adhering to host cell surfaces — but differ in the specific host surface molecules they recognize."
   type: true-false
   answer: false
   explanation: "Pili and fimbriae serve radically different functions depending on their type. Type I fimbriae mediate adhesion to host cells. Sex pili (F pili) mediate conjugative DNA transfer between bacteria, not adhesion to hosts. Type IV pili enable twitching motility across surfaces and DNA uptake from the environment during natural competence. The shared protein-filament structure is repurposed for fundamentally different tasks through variations in tip proteins, assembly dynamics, and regulatory control — a recurring theme in bacterial biology."

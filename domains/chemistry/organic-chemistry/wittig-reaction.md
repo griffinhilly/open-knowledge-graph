@@ -53,7 +53,7 @@ The Wittig reaction converts aldehydes or ketones to alkenes via a phosphonium y
   answer: true
   explanation: "Stabilized ylides have the carbanion's charge delocalized by adjacent electron-withdrawing groups, making them less reactive. They react more slowly with carbonyl compounds, and the intermediate steps (including oxaphosphetane formation) are reversible, allowing the system to equilibrate. Since the E (trans) alkene is typically more thermodynamically stable than the Z (cis) alkene, equilibration produces E-alkene as the major product. This contrasts with unstabilized ylides, which react irreversibly under kinetic control and give Z-alkene."
 
-- question: "The Wittig reaction works with aldehydes but cannot be used with ketones, because the additional alkyl group makes the carbonyl too hindered for ylide attack."
+- question: "The Wittig reaction works with aldehydes but can seldom be used with ketones, because the additional alkyl group makes the carbonyl too hindered for ylide attack."
   type: true-false
   answer: false
   explanation: "The Wittig reaction works with both aldehydes and ketones. Ketones are less reactive than aldehydes due to greater steric hindrance and electron donation from two alkyl groups, but the reaction still proceeds — sometimes requiring more forcing conditions or more reactive unstabilized ylides. The Core Idea explicitly states the reaction 'converts aldehydes or ketones to alkenes.' Using the Wittig reaction on ketones is routine in synthesis, particularly for making trisubstituted alkenes."

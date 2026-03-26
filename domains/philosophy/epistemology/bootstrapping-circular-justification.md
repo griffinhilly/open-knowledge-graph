@@ -58,7 +58,7 @@ Construct bootstrapping scenarios: using vision to justify that vision is reliab
   answer: true
   explanation: "This is the core of the objection. If you are reliably perceiving a real kitchen, your perceptual beliefs are all true and reliabilism counts each as justified. If you are in a coherent hallucination, your perceptual beliefs are all false but internally consistent. In both cases, you can construct the same argument: 'each perceptual belief was true → my perception is reliable.' The pattern of self-certification is identical, which is why it provides no real epistemic gain."
 
-- question: "If each individual belief produced by a method is justified, then inferring the general reliability of that method from those individually justified premises is always epistemically legitimate."
+- question: "If each individual belief produced by a method is justified, then inferring the general reliability of that method from those individually justified premises is typically epistemically legitimate."
   type: true-false
   answer: false
   explanation: "This is exactly what the bootstrapping objection denies — it is Stewart Cohen's 'easy knowledge' problem. Even if each individual belief is reliabilist-justified (because the method is in fact reliable), constructing an argument for the method's reliability using only those beliefs is circular: the conclusion ('the method is reliable') is presupposed in counting each premise as justified in the first place. The inference is formally valid but epistemically empty — any reliable *or* unreliable-but-consistent method could run the same argument."

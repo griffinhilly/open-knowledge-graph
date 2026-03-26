@@ -48,7 +48,7 @@ Chromatic pitches are those outside the prevailing diatonic scale. Used tasteful
   answer: 0
   explanation: "A half-step approach to a target pitch creates stronger 'pull' than a whole-step approach because the target pitch is closer — the tension is more concentrated and urgent. D♯ resolving up a half step to E produces a chromatic neighbor figure (sometimes called a chromatic appoggiatura) that feels more yearning or dramatic than D resolving up a whole step. This is the principle behind countless expressive moments in tonal melody: chromatic neighbors intensify arrivals that diatonic motion cannot."
 
-- question: "A chromatic passing tone must leave the diatonic scale and then return immediately to the same pitch it departed from."
+- question: "A chromatic passing tone is expected to leave the diatonic scale and then return immediately to the same pitch it departed from."
   type: true-false
   answer: false
   explanation: "This describes a neighboring tone, not a passing tone. A chromatic *passing tone* fills a chromatic step *between* two different diatonic pitches — for example, inserting C♯ between C and D (two distinct scale degrees) to smooth the motion into half steps. A *neighboring tone* (chromatic or diatonic) departs from a pitch and returns to that same pitch. The distinction matters because the two techniques serve different melodic purposes: passing tones smooth linear motion, while neighbor tones ornament a stationary pitch."

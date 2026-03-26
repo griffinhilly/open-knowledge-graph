@@ -50,7 +50,7 @@ Wright's transmission failure principle identifies a key limit in how justificat
   answer: 2
   explanation: "Genuine warrant transmission requires the premises to provide justification that is genuinely independent of the conclusion. Independent witnesses constitute convergent evidence whose reliability does not depend on the specific conclusion being established — each witness's account could in principle be verified separately, and their agreement gives you evidence you didn't previously have. By contrast, options A, B, and D all involve a premise whose justificatory weight already requires the conclusion to be presupposed, making them candidates for transmission failure."
 
-- question: "Wright's transmission failure principle shows that valid deductive arguments with justified premises always transmit justification to their conclusions."
+- question: "Wright's transmission failure principle shows that valid deductive arguments with justified premises generally transmit justification to their conclusions."
   type: true-false
   answer: false
   explanation: "This is precisely the assumption Wright's principle challenges. Transmission failure identifies cases where a formally valid argument with genuinely justified premises still fails to deliver justification for the conclusion — specifically when the justificatory force of the premise epistemically depends on the conclusion's truth. The argument looks like standard modus ponens but is epistemically circular in a way that blocks the transfer of warrant. Recognizing this distinguishes surface logical validity from the deeper question of whether an argument actually advances one's epistemic position."

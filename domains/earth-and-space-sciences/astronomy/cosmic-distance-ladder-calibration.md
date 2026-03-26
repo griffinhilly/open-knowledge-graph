@@ -51,7 +51,7 @@ The cosmic distance ladder is a series of overlapping distance measurement metho
   answer: 1
   explanation: "Cepheid variables are individually resolvable stars; at distances of billions of light-years, they are far too faint to detect even with Hubble or JWST. Type Ia supernovae briefly outshine their entire host galaxy — making them visible across most of the observable universe. However, option C is wrong: supernovae are not self-calibrating. Their peak luminosities must be standardized using the luminosity-decline-rate relation, and that standardization must be pinned to an absolute scale using Cepheid distances in nearby galaxies. They extend the ladder's reach precisely because of their luminosity, not independence from lower rungs."
 
-- question: "Type Ia supernovae provide a completely independent distance measurement that does not rely on Cepheid variables or parallax for calibration."
+- question: "Type Ia supernovae provide a mostly independent distance measurement that does not rely on Cepheid variables or parallax for calibration."
   type: true-false
   answer: false
   explanation: "False — this is the most important misconception about the distance ladder. Type Ia supernovae can be standardized relative to each other (comparing their peak brightnesses and decline rates), but they have no intrinsic absolute luminosity scale. To convert relative brightness ratios into actual distances, astronomers must calibrate the supernova luminosity scale using Cepheid distances in nearby host galaxies, and Cepheids in turn are calibrated by parallax. The ladder analogy is exact: you cannot skip rungs. Independence of rungs would require a completely different physical mechanism with an independently known absolute scale."

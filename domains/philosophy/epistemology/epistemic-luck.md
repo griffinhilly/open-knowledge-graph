@@ -72,7 +72,7 @@ The deeper lesson is that knowledge requires more than accidentally getting thin
   answer: true
   explanation: "This is the central lesson of Gettier cases and the broader theory of epistemic luck. The traditional justified-true-belief (JTB) analysis of knowledge held that justification + truth was sufficient for knowledge. Gettier showed otherwise: you can have a justified true belief where the belief happens to be true for reasons unrelated to the justification. The stopped clock, the broken thermometer that happens to read the ambient temperature, and Gettier's original cases all share this structure: truth and justification are present, but the truth is coincidental relative to the justification, which is why epistemic luck theories add a further condition."
 
-- question: "The sensitivity condition and the safety condition always classify beliefs identically — any belief that passes one passes the other."
+- question: "The sensitivity condition and the safety condition usually classify beliefs identically — any belief that passes one passes the other."
   type: true-false
   answer: false
   explanation: "Sensitivity and safety are not equivalent and diverge on important cases. Sensitivity says: if p were false, S would not believe p. Safety says: S could not easily have had a false belief via the same method. They come apart on necessary truths: 'If 2+2=4 were false, would you still believe it?' is a meaningless counterfactual (there is no possible world where 2+2≠4), so sensitivity cannot classify beliefs in necessary truths. But you can have safe beliefs in necessary truths (your belief-forming process reliably tracks them). This is why safety is generally preferred — it handles necessary truths without counterintuitive results."

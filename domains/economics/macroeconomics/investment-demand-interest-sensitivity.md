@@ -55,7 +55,7 @@ Use project-based examples: evaluate a machine with expected returns at differen
   answer: 0
   explanation: "This is the microeconomic foundation of downward-sloping investment demand. At 4%, the project's discounted future returns exceed its cost — NPV > 0, invest. At 7%, the same cash flows are discounted more heavily — NPV < 0, don't invest. Every project in the economy faces this same recalculation when rates change. Aggregate investment is the sum of all projects with positive NPV; as rates rise, fewer clear the hurdle and total investment falls. This is also why the IS curve in IS-LM slopes downward."
 
-- question: "A fall in nominal interest rates will always stimulate investment in an economy."
+- question: "A fall in nominal interest rates will typically stimulate investment in an economy."
   type: true-false
   answer: false
   explanation: "Investment responds to the real interest rate, not the nominal rate. A fall in nominal rates does not stimulate investment if inflation falls by the same amount — the real rate is unchanged, so NPV calculations are unaffected. For example, if the nominal rate falls from 5% to 3% but inflation falls from 4% to 2%, the real rate remains at 1% and investment demand is unchanged. The Fisher equation (real rate ≈ nominal − inflation) is the relevant input. This is why central banks must manage inflation expectations alongside nominal rates."

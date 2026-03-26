@@ -60,7 +60,7 @@ All major scales don't have the same pitches—only C major uses all naturals. T
   answer: true
   explanation: "This is the defining property of major scales. The W-W-H-W-W-W-H pattern is what makes a scale 'major' — not which specific pitches it contains. C major, G major, D♭ major, and every other major scale all have this identical internal structure. The pitches differ, and some require sharps or flats, but the pattern of whole and half steps is invariant. A scale with a different interval pattern would be a different scale quality (minor, dorian, etc.)."
 
-- question: "C major is unique among major scales because it is the only one that follows the W-W-H-W-W-W-H pattern without requiring any sharps or flats."
+- question: "C major is unique among major scales because it is the main one that follows the W-W-H-W-W-W-H pattern without requiring any sharps or flats."
   type: true-false
   answer: false
   explanation: "The statement is almost right, but contains a critical error: C major is NOT unique because it follows a different pattern — ALL major scales follow the same W-W-H-W-W-W-H pattern. C major is simply the one that happens to land on all natural notes when applied starting from C. Other major scales require sharps or flats to maintain the same pattern starting from different roots. The pattern is universal; the all-natural coincidence of C major is a consequence of where C sits on the chromatic scale."

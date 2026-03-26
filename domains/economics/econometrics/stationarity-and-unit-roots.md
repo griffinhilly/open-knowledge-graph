@@ -63,7 +63,7 @@ Apply the ADF test to GDP levels and then to GDP growth rates — levels typical
   answer: 2
   explanation: "The ADF test has a specific directionality: the null hypothesis IS unit root (non-stationarity). Failing to reject means you lack sufficient evidence to conclude stationarity — not that you've proven non-stationarity. ADF tests are known to have low power, especially with short samples or near-unit-root processes (ρ close to but less than 1). The correct conclusion is 'we cannot reject a unit root,' not 'this series has a unit root.' Combine ADF results with economic reasoning and visual inspection."
 
-- question: "A time series following a linear deterministic trend y_t = a + bt + ε_t is non-stationary and must be first-differenced to achieve stationarity."
+- question: "A time series following a linear deterministic trend y_t = a + bt + ε_t is non-stationary and is expected to be first-differenced to achieve stationarity."
   type: true-false
   answer: false
   explanation: "A deterministic trend can be removed by detrending — regressing y_t on time t and keeping the residuals — which yields a stationary series. First-differencing also removes the trend, but over-differences a trend-stationary series, introducing a unit root in the MA component and distorting the model. The key distinction: a stochastic trend (unit root) requires differencing; a deterministic trend requires detrending. Treating a deterministic trend as a unit root is a specification error."

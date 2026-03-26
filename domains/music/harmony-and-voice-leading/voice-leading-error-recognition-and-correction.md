@@ -48,7 +48,7 @@ Practice identifying and correcting voice leading errors in short four-part exce
   answer: 2
   explanation: "The prohibition is not about dissonance — perfect fifths and octaves are actually consonant. The problem is voice independence: when two voices move in the same direction by the same proportional interval, they temporarily merge into one doubled voice. The listener stops hearing two independent melodic lines and hears one line doubled. All voice leading principles ultimately serve this goal: maintaining the integrity and independence of each part."
 
-- question: "Voice leading errors can always be fixed locally — changing a note within the chord where the error occurs is sufficient to correct any voice leading violation."
+- question: "Voice leading errors can typically be fixed locally — changing a note within the chord where the error occurs is sufficient to correct any voice leading violation."
   type: true-false
   answer: false
   explanation: "Many errors are inevitable consequences of choices made one or more chords earlier. A seventh that was introduced without preparation must resolve downward; if the voice has no natural downward path, the problem exists in the chord where the seventh first appeared, not just where it fails to resolve. Similarly, a leading tone in the wrong voice often can only be fixed by reassigning the leading tone in a prior chord. Fixing one location may simply relocate the error."

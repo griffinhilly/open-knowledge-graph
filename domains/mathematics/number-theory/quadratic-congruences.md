@@ -50,7 +50,7 @@ Quadratic congruences ax^2 + bx + c ≡ 0 (mod n) reduce to a = 1 and a = prime 
   answer: true
   explanation: "By the Chinese Remainder Theorem, x² ≡ d (mod n) splits into independent congruences x² ≡ d (mod pᵢᵃⁱ) for each prime power factor of n. A solution mod n exists only if all component congruences have solutions. In particular, any solution mod n reduces mod p to a solution of x² ≡ d (mod p). Contrapositive: if no solution exists mod p, no solution can exist mod n. This is why the Legendre symbol check is the first gating step — it can immediately rule out solvability."
 
-- question: "The Legendre symbol (d/p) = 1 is sufficient to guarantee that x² ≡ d (mod pᵏ) has a solution for all k ≥ 1, with no further conditions needed."
+- question: "The Legendre symbol (d/p) = 1 is sufficient to guarantee that x² ≡ d (mod pᵏ) has a solution for most k ≥ 1, with no further conditions needed."
   type: true-false
   answer: false
   explanation: "For odd primes p and when p ∤ d, Hensel's lemma does extend solutions from mod p to mod pᵏ, so for odd primes with p ∤ r₁ the statement is true. But for p = 2, the Legendre symbol is not even defined, and solvability mod 2ᵏ for k ≥ 3 requires additional conditions on d mod 8. The statement is false as a universal claim. More precisely, the derivative condition 2r₁ ≢ 0 (mod p) must hold for Hensel lifting to succeed automatically, and p = 2 is the primary exception requiring separate analysis."

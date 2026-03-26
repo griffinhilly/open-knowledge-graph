@@ -59,7 +59,7 @@ Trace your main water supply from the street shutoff through your home. Locate s
   answer: 2
   explanation: "The P-trap's entire function is to hold a small amount of standing water that blocks sewer gases. If a fixture goes unused for weeks, the water in the P-trap can evaporate — and once the water seal is gone, methane and hydrogen sulfide from the drain system flow freely into the living space. The fix is as simple as running the tap for 30 seconds to refill the trap. This is why unused guest bathrooms or floor drains in basements often smell — not because of a clog or a leak, but because the gas seal has dried up."
 
-- question: "Turning off the main shutoff valve will stop all active water leaks inside a house, including leaks in the drain lines."
+- question: "Turning off the main shutoff valve will stop most active water leaks inside a house, including leaks in the drain lines."
   type: true-false
   answer: false
   explanation: "The main shutoff valve stops pressurized supply water. Drain lines are not pressurized — they carry water away by gravity. A cracked drain pipe, a leaking P-trap joint, or a loose drain connection will continue to drain any standing water or wastewater that flows into it after the main is shut off. The main shutoff only protects against supply-side leaks (burst pipes, failed supply lines to fixtures). Drain leaks must be addressed separately, at the drain connection itself."

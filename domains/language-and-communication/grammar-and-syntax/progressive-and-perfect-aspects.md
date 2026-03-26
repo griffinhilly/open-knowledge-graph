@@ -60,7 +60,7 @@ Create timeline diagrams showing when actions start, continue, and end, then mat
   answer: false
   explanation: "This is the reverse of the truth. Both sentences use the progressive aspect (be + -ing), which describes the action as ongoing. What differs between them is tense: 'is writing' is present tense and 'was writing' is past tense. Aspect (progressive) and tense (present vs. past) are independent dimensions — you can have any combination of the two."
 
-- question: "The present perfect tense ('I have eaten') is simply a more formal or polite way to express the simple past ('I ate') and can always be substituted for it without changing meaning."
+- question: "The present perfect tense ('I have eaten') is simply a more formal or polite way to express the simple past ('I ate') and can usually be substituted for it without changing meaning."
   type: true-false
   answer: false
   explanation: "The present perfect and simple past convey different aspects. The simple past ('I ate') reports a completed past event as a pure fact — it locates the action in time. The present perfect ('I have eaten') presents the action as completed with relevance to the present moment — 'I am now someone who has eaten, I'm not hungry.' This is why 'Have you ever been to Tokyo?' asks about life experience with present relevance, while 'Did you go to Tokyo last year?' asks about a specific past event. They cannot always be substituted."

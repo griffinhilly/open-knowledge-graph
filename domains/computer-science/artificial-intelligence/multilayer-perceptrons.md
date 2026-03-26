@@ -59,7 +59,7 @@ Train MLPs on XOR and other nonlinear problems to understand why hidden layers a
   answer: true
   explanation: "Correct. The composition of any number of linear (affine) transformations is itself a linear transformation. Without nonlinearity, stacking layers adds parameters but no expressive power — the network is functionally equivalent to a single matrix multiply plus bias. This is why activation functions like ReLU, sigmoid, or tanh are essential: they are what allow the network to learn non-linear decision boundaries and complex feature hierarchies."
 
-- question: "According to the universal approximation theorem, in practice a single hidden-layer MLP is always as efficient (in terms of total parameters) as a deep network for approximating complex functions."
+- question: "According to the universal approximation theorem, in practice a single hidden-layer MLP is generally as efficient (in terms of total parameters) as a deep network for approximating complex functions."
   type: true-false
   answer: false
   explanation: "The theorem guarantees that a sufficiently wide single hidden layer *can* approximate any continuous function, but it says nothing about efficiency. For many complex functions, a shallow network would need exponentially more neurons than a comparable deep network. Deep networks learn hierarchical features — early layers detect simple patterns, later layers combine them into complex abstractions — allowing them to reuse representations efficiently. In practice, for most real-world tasks, deep networks achieve better performance with fewer total parameters than shallow wide networks."

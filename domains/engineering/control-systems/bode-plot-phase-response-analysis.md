@@ -51,7 +51,7 @@ Bode phase plot shows phase shift ∠G(jω) vs log ω. Each zero contributes +90
   answer: true
   explanation: "The phase contribution of a first-order pole at s = -p transitions from 0° (far below the corner frequency p) to -90° (far above), passing through exactly -45° at ω = p. This is a fundamental result of the arctan function that governs phase: ∠(jω/p + 1)^{-1} = -arctan(ω/p), which equals -45° when ω = p. The magnitude asymptote approximation breaks at this same frequency."
 
-- question: "Adding zeros to a transfer function always increases phase lag at high frequencies."
+- question: "Adding zeros to a transfer function usually increases phase lag at high frequencies."
   type: true-false
   answer: false
   explanation: "Zeros contribute positive phase (phase lead), not phase lag. A first-order zero at s = -z transitions from 0° to +90°. Adding zeros therefore reduces total phase lag at high frequencies and can improve phase margin. This is exactly how lead compensators work: a lead compensator adds a zero closer to the origin than its pole, contributing net positive phase near the gain crossover frequency to improve stability margins."

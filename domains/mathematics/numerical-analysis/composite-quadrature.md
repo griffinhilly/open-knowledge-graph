@@ -52,7 +52,7 @@ Compute integrals using composite trapezoidal and Simpson's rules with increasin
   answer: 3
   explanation: "Composite Simpson's rule has error proportional to h⁴(b−a), where h is the subinterval width. Doubling n halves h, so the error scales as (h/2)⁴ = h⁴/16 — a factor of 16 reduction. This is why composite rules achieve high accuracy quickly: each doubling of the number of panels produces a large error reduction. Composite trapezoidal rule achieves only a factor of 4 per doubling (error ∝ h²). This rapid convergence is the main reason composite rules dominate practical integration."
 
-- question: "Using a single high-order polynomial rule over an entire interval is always more accurate than a composite rule with the same total number of function evaluations."
+- question: "Using a single high-order polynomial rule over an entire interval is generally more accurate than a composite rule with the same total number of function evaluations."
   type: true-false
   answer: false
   explanation: "This is a common misconception. For smooth, well-behaved functions, high-order rules can be very accurate. But for functions with local features, rapid variation, or near-singularities, high-degree polynomials over large intervals fit poorly — the Runge phenomenon is an extreme example. Composite rules use low-order formulas on small panels, so local behavior is well-captured everywhere. In practice, composite rules often win on accuracy-per-evaluation precisely because real-world integrands are rarely uniform in their smoothness."

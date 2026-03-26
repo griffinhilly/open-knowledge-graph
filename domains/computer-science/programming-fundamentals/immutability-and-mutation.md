@@ -49,7 +49,7 @@ That all data is mutable (strings are often immutable); that immutable data is i
   answer: 1
   explanation: "Lists are mutable, and Python passes object references, not copies. When function B receives scores, it receives a reference to the *same list object*. Calling scores.sort() modifies that object in place — the same object that function A's variable also points to. Function A's reference now sees [72, 85, 90]. This is the classic mutation side effect: code far from the original definition can alter shared data in ways the caller doesn't expect. The fix is to either pass a copy (sorted(scores) returns a new list) or use immutable data structures."
 
-- question: "When a programming language says strings are immutable, it means you cannot reassign a variable that holds a string to a different string."
+- question: "When a programming language says strings are immutable, it means you can seldom reassign a variable that holds a string to a different string."
   type: true-false
   answer: false
   explanation: "Immutability applies to the *object*, not the *variable*. A variable is just a name that refers to an object; reassigning the variable (name = 'Bob') simply makes it point to a different object — neither the old string nor the variable binding is 'locked.' What immutability prevents is modifying the contents of the string object itself: there is no operation like name[0] = 'b' that changes a character inside an existing string (in Python this raises a TypeError). The distinction between the container (variable) and the contents (object) is fundamental."

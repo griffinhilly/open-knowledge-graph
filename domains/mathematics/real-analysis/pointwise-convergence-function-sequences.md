@@ -60,7 +60,7 @@ This pathological behavior is what motivates **uniform convergence**, the strong
   answer: true
   explanation: "This is the defining feature that separates pointwise from uniform convergence. In pointwise convergence, for each x separately, you find an N that works for that particular x and ε. Different points may need very different N values — a slowly converging part of the domain requires a much larger N than a rapidly converging part. Uniform convergence is the stronger condition where a single N works simultaneously for all x."
 
-- question: "If each function fₙ in a sequence is continuous on a closed interval [a, b] and fₙ converges pointwise to f, then f must also be continuous on [a, b]."
+- question: "If each function fₙ in a sequence is continuous on a closed interval [a, b] and fₙ converges pointwise to f, then f is expected to also be continuous on [a, b]."
   type: true-false
   answer: false
   explanation: "This is false, and fₙ(x) = xⁿ on [0, 1] is the standard counterexample. Every xⁿ is continuous, but the pointwise limit has a jump discontinuity at x = 1. Continuity IS preserved under uniform convergence (a key theorem in analysis), which is one reason uniform convergence is considered the 'right' notion: it supports interchange of limits with continuity, integration, and differentiation in ways that pointwise convergence cannot guarantee."

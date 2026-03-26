@@ -61,7 +61,7 @@ Simulate a heat exchanger or tank-level process with a measurable disturbance (e
   answer: true
   explanation: "This tuning sequence is essential because the outer controller is designed to work with the inner loop already closed and functioning. When the outer loop is tuned, it treats the inner loop as an approximately instantaneous, unity-gain element — but only if the inner loop is already performing correctly. Tuning both loops simultaneously couples their dynamics, making independent adjustment impossible and typically producing oscillatory or unstable behavior."
 
-- question: "Feedforward control can function as a standalone control strategy, independently maintaining setpoint against all disturbances and model variations."
+- question: "Feedforward control can function as a standalone control strategy, independently maintaining setpoint against most disturbances and model variations."
   type: true-false
   answer: false
   explanation: "Feedforward control cannot replace feedback — it can only complement it. Feedforward applies a precomputed correction for a specific, measured disturbance based on a process model. It provides zero correction for unmeasured disturbances, model errors, slow parameter drift, and setpoint changes. Feedback is essential for all these cases. The combination is powerful precisely because each handles what the other cannot: feedforward eliminates the lag for known disturbances; feedback corrects all residuals."

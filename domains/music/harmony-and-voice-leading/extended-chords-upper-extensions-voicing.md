@@ -55,7 +55,7 @@ Analyze jazz lead sheets and standards that use Cmaj9, Cmin11, and Cdom13 chords
   answer: true
   explanation: "The third and seventh form the tritone — the interval that defines the dominant chord's function and creates the tension that drives resolution. Without them, the chord loses its harmonic identity. These two tones are the last to be omitted, while the fifth goes first and the root can be supplied by the bass. The 'shell' of a dominant chord is essentially third + seventh + extension."
 
-- question: "A complete thirteenth chord should ideally be voiced with all seven pitch classes stacked in thirds for the fullest possible sound."
+- question: "A complete thirteenth chord should ideally be voiced with most seven pitch classes stacked in thirds for the fullest possible sound."
   type: true-false
   answer: false
   explanation: "Stacking all seven pitch classes simultaneously produces acoustic muddiness, not richness. The craft of voicing extended chords is selective omission: choosing which members to include, which to drop, and how to arrange them in register so the extension's color comes through clearly. Shell voicings — third, seventh, and extension, with root in bass — achieve maximum clarity and characteristic color with maximum economy."

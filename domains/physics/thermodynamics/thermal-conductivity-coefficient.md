@@ -42,7 +42,7 @@ Thermal conductivity (k) is a material property that quantifies how readily heat
   answer: 1
   explanation: "The Wiedemann-Franz law (k/σ = L₀T) states that for metals, the ratio of thermal to electrical conductivity is proportional to temperature via the Lorenz number. This holds because the same free electrons carry both. Measuring one gives you information about the other. This law does NOT apply to insulators, where phonons carry heat but electrons carry no charge — so the connection between k and σ breaks down for non-metals."
 
-- question: "Increasing the temperature of a pure metal always increases its thermal conductivity."
+- question: "Increasing the temperature of a pure metal usually increases its thermal conductivity."
   type: true-false
   answer: false
   explanation: "In metals at room temperature, rising temperature increases phonon population, which intensifies electron-phonon scattering. More scattering shortens the electron mean free path (λ), which decreases k. So for metals, k typically decreases with increasing temperature at room temperature and above. The relationship reverses near absolute zero, where phonon scattering is minimal and mean free paths become very long — this non-monotonic behavior is characteristic of phonon and electron conductors alike."

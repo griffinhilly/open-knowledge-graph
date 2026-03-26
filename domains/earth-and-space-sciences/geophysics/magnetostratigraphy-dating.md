@@ -50,7 +50,7 @@ Paleomagnetic reversals create alternating zones of normal and reversed polarity
   answer: true
   explanation: "True. Every chron boundary in the GPTS has a well-calibrated radiometric age derived from volcanic rocks and seafloor magnetic anomalies. Once a local polarity column is matched to the GPTS, the age of each polarity reversal in the section is simply read from the GPTS at that correlation position. This provides dated horizons typically spaced at 200,000–500,000 year intervals throughout the section — far denser age control than most radiometric dating can achieve from the same materials."
 
-- question: "Magnetostratigraphy is an entirely self-contained dating method that produces absolute ages without any input from radiometric dating or biostratigraphy."
+- question: "Magnetostratigraphy is an mostly self-contained dating method that produces absolute ages without any input from radiometric dating or biostratigraphy."
   type: true-false
   answer: false
   explanation: "False. A polarity column has a distinctive pattern of thick and thin zones, but this pattern may match multiple positions on the GPTS if the section is short or if the pattern is ambiguous. Even one radiometric date, biostratigraphic datum, or dated ash layer within the section anchors the correlation and resolves the ambiguity. Magnetostratigraphy is most powerful when combined with other methods: it provides dense interpolated age control *between* the sparse absolute dates that radiometric and biostratigraphic methods supply."

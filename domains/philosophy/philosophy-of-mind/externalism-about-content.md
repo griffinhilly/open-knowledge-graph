@@ -54,7 +54,7 @@ Work through the Twin Earth scenario carefully, noting exactly where the content
   answer: 1
   explanation: "Burge's key insight is that you do not fully control what your own words mean. 'Arthritis' in Tyler's language community refers to a joint disease, and when Tyler uses that term he is using a community word, inheriting its extension. His belief is therefore about the real disease called arthritis — which makes his belief 'I have arthritis in my thigh' straightforwardly false, not true-but-private. This is social externalism: mental content is partly fixed by linguistic community usage, not solely by the thinker's internal representations or intentions."
 
-- question: "Content externalism implies that internal brain states play no role in mental content — only facts about the external environment or linguistic community determine what a thought is about."
+- question: "Content externalism implies that internal brain states play no role in mental content — primarily facts about the external environment or linguistic community determine what a thought is about."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of externalism. Externalism does not claim the brain is irrelevant; it claims that internal states alone are insufficient to fix content. Both internal states and external factors jointly determine content. Putnam explicitly says internal states matter — his claim is that they underdetermine content: the same internal state can be about different things depending on the environment. A complete theory of mental content requires both the internal state and the external context in which it is embedded."

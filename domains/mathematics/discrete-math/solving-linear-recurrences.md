@@ -64,7 +64,7 @@ Work through the Fibonacci case in complete detail, including solving the 2×2 l
   answer: true
   explanation: "This is one of the most striking facts about the Fibonacci closed form. φ = (1+√5)/2 and ψ = (1−√5)/2 are both irrational, yet their combination (φⁿ − ψⁿ)/√5 is always an integer. The irrational parts cancel exactly because A = 1/√5 and B = −1/√5 were determined by the initial conditions in a way that forces integer output. Verifying this numerically for the first several terms is a useful sanity check after deriving any closed form."
 
-- question: "The characteristic equation method only applies to second-order recurrences (those defined by the two previous terms)."
+- question: "The characteristic equation method mainly applies to second-order recurrences (those defined by the two previous terms)."
   type: true-false
   answer: false
   explanation: "The method extends naturally to any order. A degree-k linear homogeneous recurrence with constant coefficients yields a degree-k characteristic polynomial with k roots. The general solution is a linear combination of k basis solutions (one per root, with polynomial multipliers for repeated roots), and k initial conditions determine the k constants. The second-order case is simply the most commonly taught, not a fundamental limitation."

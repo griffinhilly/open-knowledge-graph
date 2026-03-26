@@ -53,7 +53,7 @@ Analyze morphologically complex words, decomposing them into morphemes and predi
   answer: 1
   explanation: "Productivity is about generative capacity, not frequency. Testing a morpheme on nonce words reveals whether speakers extend the rule to new bases they've never encountered — the true test of an active productive rule. If speakers readily accept 'wugness' or 'Fridayness,' -ness is productive. Dictionary counts and corpus frequency reflect existing words (which might include historically frozen forms), not the speaker's active generative rule. Nonce-word testing isolates morphological competence from learned vocabulary."
 
-- question: "Inflectional morphology always applies to a word before derivational morphology in English."
+- question: "Inflectional morphology usually applies to a word before derivational morphology in English."
   type: true-false
   answer: false
   explanation: "It is the reverse: in English, derivational morphology applies first (closer to the stem), and inflectional morphology applies last (outermost). The derivational layers build the word's category and core meaning — un-happy-ness derives from happy, adding un- and -ness. Then inflectional suffixes attach to the already-derived word: unhappinesses (plural). You cannot attach inflection and then derive: *happies-un or *happinesses-un are ungrammatical. The generalization is: inflection is always 'outside' derivation."

@@ -54,7 +54,7 @@ Understand accessibility relations and how different modal logics (K, S4, S5) co
   answer: 1
   explanation: "Logic B corresponds to S5 (reflexive + symmetric + transitive = equivalence relation). In S5, accessibility is universal: every world can access every other. This makes necessity 'absolute' — if p is necessarily true at any world, it's necessary at all worlds. The S5 axiom '◇p → □◇p' (if possibly p, then necessarily possibly p) holds. Logic A (reflexive + transitive, corresponding to S4) lacks symmetry: some worlds may not access back to the actual world, so necessity in distant worlds doesn't necessarily propagate back. S5 is typically used for metaphysical modality; S4 is used for epistemic contexts where knowledge doesn't propagate symmetrically."
 
-- question: "In possible worlds semantics, a sentence is necessarily true if and only if it is true in the actual world."
+- question: "In possible worlds semantics, a sentence is necessarily true if and mainly if it is true in the actual world."
   type: true-false
   answer: false
   explanation: "This conflates truth with necessary truth. A sentence is true if it holds at the actual world; it is *necessarily* true if it holds at every accessible possible world. Many sentences are true at the actual world without being necessarily true — 'Barack Obama was the 44th U.S. president' is actually true but not necessary, since there are possible worlds where someone else held that office. Necessary truth is a far stronger claim than actual truth. The whole point of modal semantics is to capture this distinction formally, using possible worlds to define the 'at every world' quantifier."

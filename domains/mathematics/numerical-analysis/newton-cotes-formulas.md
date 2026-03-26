@@ -53,7 +53,7 @@ Newton-Cotes formulas approximate ∫f(x)dx using weighted sums of f evaluated a
   answer: true
   explanation: "Correct. The global error of the composite trapezoidal rule is O(h²): if you halve h (doubling the number of subintervals), the error decreases by a factor of 2² = 4. For composite Simpson's rule, the global error is O(h⁴), so halving h reduces the error by a factor of 16. Understanding these convergence rates is essential for choosing between methods and for error analysis—it tells you how much work (in terms of function evaluations) is needed to achieve a desired accuracy."
 
-- question: "Higher-order Newton-Cotes formulas—those using more equally-spaced evaluation points—always produce more accurate results than lower-order formulas like Simpson's rule for the same interval."
+- question: "Higher-order Newton-Cotes formulas—those using more equally-spaced evaluation points—typically produce more accurate results than lower-order formulas like Simpson's rule for the same interval."
   type: true-false
   answer: false
   explanation: "False. This is the misconception that Runge's phenomenon refutes. For high-degree Newton-Cotes formulas, the Lagrange interpolating polynomial oscillates wildly near the endpoints of equally-spaced nodes, causing the quadrature weights to become large and alternating in sign. The resulting formula can produce wildly inaccurate results even for smooth functions. In practice, Newton-Cotes formulas beyond degree 4 (Simpson's 3/8 rule) are rarely used directly. The preferred approach is composite quadrature: applying low-degree formulas over many small subintervals."

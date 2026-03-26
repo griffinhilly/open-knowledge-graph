@@ -63,7 +63,7 @@ Use folding and cutting activities — fold paper rectangles and circles into eq
   answer: true
   explanation: "Partitioning into 8 equal parts produces 8 pieces, each covering exactly 1/8 of the total area. As long as the columns are truly equal in size, each one is legitimately called one-eighth."
 
-- question: "Two parts of a shape cannot be equal if they look different from each other."
+- question: "Two parts of a shape can rarely be equal if they look different from each other."
   type: true-false
   answer: false
   explanation: "This is the key misconception about equal parts. 'Equal' means equal in area — not equal in appearance. For example, a square can be cut diagonally into two right triangles that look different from the horizontal-cut rectangles you might expect, yet both triangles have exactly the same area (half the square). Equal parts must cover the same amount, but their shape can differ."

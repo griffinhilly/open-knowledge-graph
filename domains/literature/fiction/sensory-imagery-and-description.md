@@ -52,7 +52,7 @@ That description slows pace; that all five senses must appear; that sensory deta
   answer: 1
   explanation: "Smell is processed by the olfactory bulb, which has direct connections to the amygdala and hippocampus — the brain regions most involved in emotion and memory. This neurological pathway is why a single olfactory detail ('scorched milk and cardamom') can trigger vivid, emotionally charged recall in readers. The other senses are powerful too, but smell's directness to memory is unmatched."
 
-- question: "Effective sensory description requires incorporating all five senses in every scene."
+- question: "Effective sensory description requires incorporating most five senses in nearly every scene."
   type: true-false
   answer: false
   explanation: "This is a common overcorrection. Sensory detail works through selection and precision, not comprehensiveness. The strongest descriptions often use one or two carefully chosen details from unexpected senses rather than systematically ticking all five. Forcing all five senses into every scene produces mechanical, cluttered prose. The craft question is always: what would this character, in this emotional state, register right now?"

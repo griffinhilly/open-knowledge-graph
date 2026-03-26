@@ -50,7 +50,7 @@ Visualize points and practice plotting them by hand in a 3D coordinate system. U
   answer: 1
   explanation: "The right-hand rule defines orientation: curl fingers from positive x to positive y and the thumb points in the direction of positive z. If z points out of the page (right-handed), cross products and determinants give results consistent with standard formulas. If z points into the page (left-handed), those same formulas give the opposite sign. The convention is not arbitrary — it's chosen to ensure consistency across all formulas that depend on orientation. In a left-handed system, every cross product result would need to be negated."
 
-- question: "The z-axis in a 3D Cartesian coordinate system must point vertically upward, because this is what distinguishes it from the x and y axes."
+- question: "The z-axis in a 3D Cartesian coordinate system should point vertically upward, because this is what distinguishes it from the x and y axes."
   type: true-false
   answer: false
   explanation: "The vertical orientation of z is a convention, not a requirement. In some engineering and physics contexts z is vertical; in computer graphics it may be horizontal. What matters is that all three axes are mutually perpendicular and satisfy the right-hand rule. The common misconception is treating the vertical direction as inherently special — the mathematical structure of 3D Cartesian coordinates doesn't privilege any particular orientation. The axes can be freely rotated as long as perpendicularity and handedness are preserved."

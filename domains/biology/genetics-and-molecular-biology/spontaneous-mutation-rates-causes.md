@@ -58,7 +58,7 @@ Compare mutation rates across organisms and genes. Consider sources of error: DN
   answer: false
   explanation: "DNA polymerase alone has an error rate of roughly 10⁻⁵ — far higher than the observed final rate. The final rate results from three multiplicative layers: polymerase selectivity (10⁻⁵), proofreading (~100-fold reduction to ~10⁻⁷), and mismatch repair (~100-fold further reduction to ~10⁻⁹). Cancers with MMR deficiency (e.g., Lynch syndrome) show dramatically elevated mutation rates, demonstrating that repair is not a minor contributor but a critical determinant of final fidelity."
 
-- question: "Spontaneous mutations from chemical decay of DNA — such as depurination and deamination — only become permanent mutations if the damage occurs during S phase of the cell cycle."
+- question: "Spontaneous mutations from chemical decay of DNA — such as depurination and deamination — primarily become permanent mutations if the damage occurs during S phase of the cell cycle."
   type: true-false
   answer: false
   explanation: "DNA damage from depurination and deamination can occur at any time throughout the cell cycle — and if not repaired before the next round of replication, the lesion becomes a permanent mutation. Repair pathways (base excision repair, mismatch repair) operate continuously, not only during S phase. The critical window is whether repair completes before DNA polymerase encounters the lesion. If an AP site or deaminated base is bypassed by polymerase before repair acts, it becomes fixed regardless of when in the cell cycle the damage originally occurred."

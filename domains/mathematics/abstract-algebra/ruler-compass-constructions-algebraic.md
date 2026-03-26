@@ -49,7 +49,7 @@ A complex number is constructible by ruler and compass if and only if its minima
   answer: true
   explanation: "This is the fundamental theorem connecting ruler-and-compass geometry to field theory. Each construction step (line-line, line-circle, or circle-circle intersection) produces a new point whose coordinates satisfy a degree-at-most-2 polynomial over the current field — at worst, it adjoins a square root. Starting from Q, after k steps the total field degree is a product of 1s and 2s (by the tower law), hence a power of 2. The converse also holds: any number whose degree over Q is 2ᵏ lies in a tower of k quadratic extensions, each step realizable as a construction. Constructibility is exactly the condition [Q(α):Q] = 2ᵏ for some non-negative integer k."
 
-- question: "The cube root of 2 is not constructible because it is irrational — ruler-and-compass constructions cannot produce irrational lengths."
+- question: "The cube root of 2 is not constructible because it is irrational — ruler-and-compass constructions can rarely produce irrational lengths."
   type: true-false
   answer: false
   explanation: "Ruler-and-compass constructions can and do produce irrational lengths: √2 (diagonal of a unit square), √3 (height of an equilateral triangle), the golden ratio, and infinitely many others are all constructible because they have degree 2 over Q — a power of 2. The obstruction for ∛2 is not irrationality but algebraic degree: ∛2 satisfies x³ - 2 = 0, an irreducible cubic over Q (no rational roots by the rational root theorem), giving [Q(∛2):Q] = 3. Since 3 is not a power of 2, ∛2 is not constructible. The relevant criterion is always the degree of the minimal polynomial over Q, not whether the number is rational or irrational."

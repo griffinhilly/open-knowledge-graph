@@ -49,7 +49,7 @@ Type I errors (false positives) reject a true null hypothesis; Type II errors (f
   answer: true
   explanation: "When a study is adequately powered, it could have detected a real effect if one existed. In that case, failing to find significance is genuinely informative: it suggests the effect is either absent or smaller than the minimum detectable size. This is 'evidence of absence' — a meaningful finding, not a non-result. The problem arises only with underpowered studies, where a null result is nearly uninterpretable because the study couldn't have detected the effect anyway."
 
-- question: "The conventional α = .05 threshold optimally balances Type I and Type II error risks for all research contexts."
+- question: "The conventional α = .05 threshold optimally balances Type I and Type II error risks for most research contexts."
   type: true-false
   answer: false
   explanation: "α = .05 is a historical convention, not a principled optimum. The correct α depends on the relative costs of the two error types in the specific research context. A cancer screening test may warrant α = .10 or higher to minimize missed cases. A study justifying a costly new policy may warrant α = .01 to minimize false positives. A preliminary exploratory study may tolerate α = .10. The costs of false positives and false negatives vary enormously by domain, and α should reflect those costs — not default to a universal convention."

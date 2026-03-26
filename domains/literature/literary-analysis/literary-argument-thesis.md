@@ -53,7 +53,7 @@ A literary argument makes a specific, defensible claim about how a text creates 
   answer: true
   explanation: "Yes — a literary argument makes a claim about how the text creates meaning, so specific passages can count as evidence for or against it. A thesis that nothing in the text could contradict is probably a vague truism rather than a real interpretation. The intellectual seriousness of literary argument comes from its openness to counterevidence: you must account for passages that cut against your reading, not just ignore them."
 
-- question: "A thesis that nearly all careful readers would agree with is the strongest kind of literary argument, because it doesn't require much proof."
+- question: "A thesis that nearly most careful readers would agree with is the strongest kind of literary argument, because it doesn't require much proof."
   type: true-false
   answer: false
   explanation: "Universal agreement signals that a thesis is too obvious to count as an argument. A literary argument requires a claim that a reasonable, careful reader of the same text *could* dispute. If the claim is almost self-evident (e.g., 'Hamlet explores themes of mortality'), it adds nothing — any thoughtful reader already knows this. The goal is a claim that requires real textual evidence to sustain, and that invites genuine intellectual disagreement."

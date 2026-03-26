@@ -37,7 +37,7 @@ Start with simple functions like n, n², 2^n. Compare growth rates by computing 
   answer: 3
   explanation: "O(n) is not valid because 3n² + 100n grows faster than any constant multiple of n. The others are all valid upper bounds: O(n²) is the tightest, O(n³) is a looser upper bound, and O(n² + n) is redundant but technically correct. Understanding which bounds are valid (even if not tight) is essential for reasoning about algorithm complexity."
 
-- question: "An algorithm that runs in O(n²) time is always slower in practice than one that runs in O(n log n) time."
+- question: "An algorithm that runs in O(n²) time is typically slower in practice than one that runs in O(n log n) time."
   type: true-false
   answer: false
   explanation: "Big-O describes asymptotic behavior as n → ∞ and ignores constant factors. For small inputs, an O(n²) algorithm with a tiny constant could easily outperform an O(n log n) algorithm with a large constant. The asymptotic crossover point may be at n = 10⁶ or higher. Always consider actual input sizes and constant factors when choosing algorithms in practice."

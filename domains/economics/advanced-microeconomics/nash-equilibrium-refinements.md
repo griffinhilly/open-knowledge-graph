@@ -55,7 +55,7 @@ Start with games that have multiple Nash equilibria. Show why some seem unreason
   answer: true
   explanation: "This is precisely the point of subgame perfection. It requires that strategies form a Nash equilibrium in every subgame of the original game — including subgames that are never reached in the equilibrium play. A threat that would hurt the threatening party if executed fails this test: in the subgame that begins when the threat must be carried out, following through is not the optimal action, so the strategy cannot be part of a subgame perfect equilibrium. Backward induction systematically removes such threats by determining optimal play at each final decision node and working backwards."
 
-- question: "Every subgame perfect equilibrium is also a trembling-hand perfect equilibrium."
+- question: "Nearly every subgame perfect equilibrium is also a trembling-hand perfect equilibrium."
   type: true-false
   answer: false
   explanation: "Subgame perfection and trembling-hand perfection impose different requirements and neither is a subset of the other in general. Trembling-hand perfection requires that a strategy remain a best response when opponents occasionally make small random errors ('trembles'). This can eliminate equilibria that survive subgame perfection — for example, equilibria where a player is indifferent between two strategies and the equilibrium relies on choosing the one that would be suboptimal under any perturbation. Conversely, trembling-hand perfection is defined for strategic form games and can select equilibria that would be eliminated by subgame perfection in the extensive form. The two refinements capture different kinds of implausibility."

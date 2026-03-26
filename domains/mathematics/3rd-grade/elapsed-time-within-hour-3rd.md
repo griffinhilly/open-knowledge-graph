@@ -51,7 +51,7 @@ Elapsed time is the amount of time that passes between a start time and end time
   answer: true
   explanation: "Correct. Elapsed time is the duration between two clock readings. It is found by identifying the start and end times and calculating the gap — either by counting up from start to end, or by subtracting minute values when both times fall within the same hour."
 
-- question: "You can always find elapsed time by subtracting the start minute value from the end minute value."
+- question: "You can generally find elapsed time by subtracting the start minute value from the end minute value."
   type: true-false
   answer: false
   explanation: "Subtracting minute values only works cleanly when both times are within the same hour. If a task starts at 1:48 and ends at 2:15, subtracting 48 from 15 gives a negative number, which is wrong. For cross-hour problems, counting up is the safer strategy: count from 1:48 to 2:00 (12 minutes), then 2:00 to 2:15 (15 minutes) = 27 minutes total."

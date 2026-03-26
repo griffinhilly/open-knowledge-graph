@@ -42,7 +42,7 @@ Begin by reading brief overviews of each subfield and one landmark study from ea
   answer: 1
   explanation: "Holism in anthropology means that no single dimension of human life—biology, culture, language, or history—can be fully understood in isolation. The four subfields exist precisely because these dimensions are intertwined: language shapes culture, biology shapes behavior, history shapes identity."
 
-- question: "Cultural anthropology is concerned only with remote, 'traditional' societies and has little to say about modern industrial or urban life."
+- question: "Cultural anthropology is concerned primarily with remote, 'traditional' societies and has little to say about modern industrial or urban life."
   type: true-false
   answer: false
   explanation: "This is the most common public misconception about the discipline. Cultural anthropologists study corporations, hospitals, online communities, and financial markets just as rigorously as they study small-scale societies. The methods (participant observation, ethnography) and the questions (how do people make meaning, how do groups organize themselves) apply everywhere."

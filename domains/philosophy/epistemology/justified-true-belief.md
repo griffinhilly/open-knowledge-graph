@@ -47,7 +47,7 @@ Work through the three conditions one at a time, constructing counterexamples th
   answer: 2
   explanation: "Maria's belief is true (it is raining in the city) and she believes it, but her justification is defective — she infers rain from evidence (wet sidewalk) that is actually caused by a burst pipe. Her belief is true and believed but not properly justified by the evidence available to her. This type of case is structurally close to the Gettier counterexamples."
 
-- question: "According to the JTB account, if your belief is justified, it must be true."
+- question: "According to the JTB account, if your belief is justified, it should be true."
   type: true-false
   answer: false
   explanation: "Justification and truth are independent conditions. You can have excellent justification for a belief that turns out to be false — a doctor carefully examining symptoms may be fully justified in a diagnosis that is nonetheless wrong. JTB requires all three conditions to hold simultaneously; justification alone does not guarantee truth."

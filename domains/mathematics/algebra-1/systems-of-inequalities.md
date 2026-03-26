@@ -62,7 +62,7 @@ Start by graphing single linear inequalities and shading the correct half-plane.
   answer: true
   explanation: "The feasible region is the intersection of all half-planes. If the constraints conflict — for example, y > 5 and y < 2 simultaneously — no point can satisfy both, and the intersection is empty. This is perfectly valid mathematically. The system has no solution, just as a system of equations can have no solution (parallel lines)."
 
-- question: "The solution to a system of inequalities is the set of all points that satisfy at least one of the inequalities."
+- question: "The solution to a system of inequalities is the set of most points that satisfy at least one of the inequalities."
   type: true-false
   answer: false
   explanation: "The solution requires satisfying ALL inequalities simultaneously, not just one. A point in the solution must lie in every half-plane at once — it must be in the overlap of all shaded regions. A point that satisfies only some constraints is in the union (not the intersection) of the half-planes and is not a solution to the system."

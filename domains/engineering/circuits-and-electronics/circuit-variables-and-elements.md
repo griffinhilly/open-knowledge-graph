@@ -51,7 +51,7 @@ Practice assigning reference directions and applying the passive sign convention
   answer: 0
   explanation: "Under the passive sign convention, P = V × I where I is defined as entering the positive terminal. P = (5)(−2) = −10 W. A negative absorbed power means the element is actually delivering 10 W to the circuit — it is a source, not a load."
 
-- question: "An ideal voltage source always determines both the voltage across it and the current through it."
+- question: "An ideal voltage source generally determines both the voltage across it and the current through it."
   type: true-false
   answer: false
   explanation: "An ideal voltage source fixes the voltage across its terminals, but the current through it is determined by the rest of the circuit. Dually, an ideal current source fixes the current but the voltage across it is set by the surrounding network."

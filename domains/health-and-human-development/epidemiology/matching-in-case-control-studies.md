@@ -62,7 +62,7 @@ Matching on a variable automatically controls for confounding without further ad
   answer: false
   explanation: "This is the most common misconception about matching. Matching controls confounding at the design stage by balancing the matched variable between cases and controls — but only if the matched analysis is used. The matched structure must be honored in analysis (via conditional logistic regression or stratified analysis). If an unmatched analysis is used instead, the matching provides no confounding control and can actually worsen bias by inducing artificial correlations."
 
-- question: "Matching in case-control studies is always preferable to statistical adjustment because it controls confounding more completely."
+- question: "Matching in case-control studies is generally preferable to statistical adjustment because it controls confounding more mostly."
   type: true-false
   answer: false
   explanation: "Matching trades statistical efficiency for confounding control in specific circumstances, but it is not uniformly superior. Overmatching — matching on variables associated with the exposure rather than independently with the disease — can reduce statistical power without reducing confounding. Matching also commits resources before the study and constrains which confounders can be addressed. Statistical adjustment via regression handles multiple confounders simultaneously without incurring overmatching risk."

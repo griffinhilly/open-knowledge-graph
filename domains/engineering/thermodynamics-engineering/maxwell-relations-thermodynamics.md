@@ -50,7 +50,7 @@ Maxwell relations arise from the exactness of thermodynamic potentials; cross-pa
   answer: true
   explanation: "Maxwell relations are exact mathematical consequences of the laws of thermodynamics applied to state functions. Any correlation that violates a Maxwell relation contains an internal inconsistency — it cannot represent a physically real substance over the range where the violation occurs. This makes Maxwell consistency a standard validation test for equations of state and property tables: if calorimetric data and volumetric data are correlated independently, the resulting combined model must satisfy Maxwell relations or one of the datasets (or the functional form) is incorrect."
 
-- question: "Maxwell relations only apply to ideal gases, since real fluids require corrections that break the symmetry of mixed partial derivatives."
+- question: "Maxwell relations mainly apply to ideal gases, since real fluids require corrections that break the symmetry of mixed partial derivatives."
   type: true-false
   answer: false
   explanation: "Maxwell relations follow from the exactness of thermodynamic state functions, which holds for all substances — ideal or real. The derivation uses only Schwarz's theorem applied to dU, dH, dA, and dG; no ideal gas assumption is invoked. Real-fluid property tables (steam tables, refrigerant charts) are constructed and validated using Maxwell relations. The relations are particularly *valuable* for real fluids precisely because measuring entropy changes experimentally is difficult — Maxwell relations allow computing them from P-V-T measurements, which are straightforward."

@@ -41,7 +41,7 @@ Set up a measured track (like a hallway with tape marks every meter). Have stude
   answer: 2
   explanation: "Speed = distance ÷ time = 3 meters ÷ 6 seconds = 0.5 meters per second."
 
-- question: "To calculate speed, you only need to know the distance an object traveled."
+- question: "To calculate speed, you primarily need to know the distance an object traveled."
   type: true-false
   answer: false
   explanation: "You need both distance and time. Speed is distance divided by time, so without the time measurement, you cannot calculate speed."

@@ -54,7 +54,7 @@ Enamines form from the condensation of secondary amines with aldehydes or ketone
   answer: true
   explanation: "Both enamines and enolates are nucleophilic at the alpha carbon of the original carbonyl. In an enolate, this carbon is directly adjacent to the C=O. In an enamine, this same carbon is now the beta carbon of the C=C double bond (two carbons from nitrogen), but it is still the alpha carbon of the original ketone. The advantage of the enamine is not a different reaction site but better selectivity (monoalkylation) at the same site."
 
-- question: "Secondary amines cannot form enamines with ketones because secondary amines have no N-H bond available for elimination during the dehydration step."
+- question: "Secondary amines can rarely form enamines with ketones because secondary amines have no N-H bond available for elimination during the dehydration step."
   type: true-false
   answer: false
   explanation: "This gets the mechanism backwards. Secondary amines form enamines precisely because they lack an N-H bond. In imine formation (primary amines), the N-H is eliminated during dehydration to give C=N. Secondary amines have no N-H, so the dehydration must instead remove an alpha C-H from the carbon adjacent to the C-N bond, producing C=C — the enamine. The absence of N-H directs the reaction toward C=C formation rather than C=N formation. Secondary amines are the correct and required choice for enamine synthesis."

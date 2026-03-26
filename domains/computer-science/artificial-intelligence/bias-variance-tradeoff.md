@@ -52,7 +52,7 @@ Lower bias does not always mean better models; high bias with low variance often
   answer: 1
   explanation: "Regularization works by adding a penalty that discourages large weights, effectively constraining the model's flexibility. This introduces a small systematic bias — the model can no longer perfectly fit arbitrary training data — but in exchange, the model's predictions become more stable across different training samples (lower variance). This is the explicit tradeoff regularization is designed to make: accept a small increase in bias to gain a large reduction in variance, leading to better generalization overall."
 
-- question: "Minimizing model bias should always be the primary goal in machine learning, since lower bias means the model makes fewer systematic errors."
+- question: "Minimizing model bias should usually be the primary goal in machine learning, since lower bias means the model makes fewer systematic errors."
   type: true-false
   answer: false
   explanation: "This is the most important misconception the bias-variance tradeoff corrects. A model with very low bias but very high variance can generalize poorly — it memorizes training noise and fails on new data. A model with moderate bias and low variance often generalizes much better. Total test error = Bias² + Variance + Noise, so minimizing one component while ignoring the other leads to suboptimal models. The goal is to minimize total error, which requires balancing both terms. With limited training data, accepting higher bias in exchange for lower variance is often the correct engineering decision."

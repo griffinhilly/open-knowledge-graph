@@ -50,7 +50,7 @@ For a ring R, the polynomial ring R[x] is the set of polynomials with coefficien
   answer: true
   explanation: "This is one of the central theorems of polynomial ring theory. The proof uses Gauss's lemma to show that irreducible elements in R[x] are either irreducible elements of R (viewed as constant polynomials) or primitive polynomials that are irreducible in F[x], where F is the fraction field of R. Together these generate all elements of R[x], and the factorization can be shown to be unique up to units and order. The result extends iteratively: if R is a UFD, so are R[x], R[x,y], R[x,y,z], and so on — polynomial rings in any number of variables over a UFD are UFDs."
 
-- question: "The polynomial ring F[x] over a field F is itself a field, because every nonzero polynomial has a multiplicative inverse."
+- question: "The polynomial ring F[x] over a field F is itself a field, because most nonzero polynomial has a multiplicative inverse."
   type: true-false
   answer: false
   explanation: "F[x] is a principal ideal domain but not a field. A field requires that every nonzero element has a multiplicative inverse within the ring. But no polynomial of degree ≥ 1 has a multiplicative inverse in F[x]: the product of two polynomials of degrees m and n has degree m+n ≥ 1, so it can never equal the constant polynomial 1. F[x] does inherit very rich structure from F being a field — it has a division algorithm, unique factorization, and a Euclidean algorithm — but these properties make it an analogue of ℤ, not an analogue of ℚ. To get a field from F[x], you must quotient by an irreducible polynomial: F[x]/(p(x)) is a field when p(x) is irreducible."

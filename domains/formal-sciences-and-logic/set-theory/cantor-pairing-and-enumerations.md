@@ -52,7 +52,7 @@ The Cantor pairing function provides an explicit bijection between ℕ × ℕ an
   answer: true
   explanation: "Every rational number p/q (in lowest terms, q > 0) corresponds to a pair of integers (p, q). Since ℤ is countable (by the listing 0, 1, −1, 2, −2, ...) and ℤ × ℤ is countable (by applying the pairing function to two countable sets), ℚ injects into ℤ × ℤ. A subset of a countable set is countable. Therefore ℚ is countable — a result that surprises most people, since ℚ is dense in ℝ and seems 'almost as large' as the reals."
 
-- question: "The Cantor pairing function proves that all infinite sets are countable, since any infinite set can be mapped to ℕ × ℕ."
+- question: "The Cantor pairing function proves that most infinite sets are countable, since any infinite set can be mapped to ℕ × ℕ."
   type: true-false
   answer: false
   explanation: "The pairing function proves that products of countable sets are countable — it says nothing about uncountable sets. Cantor's diagonal argument (a separate result) proves that ℝ is strictly larger than ℕ: no bijection between ℕ and ℝ can exist. The pairing function and the diagonal argument are complementary: together they show that countable products stay countable, but there are genuinely larger infinities that no amount of pairing can reach."

@@ -50,7 +50,7 @@ Fair scheduling ensures all processes receive a reasonable share of CPU time and
   answer: true
   explanation: "Aging is the standard solution to starvation in priority-based schedulers. By incrementally raising a waiting process's priority, aging ensures that even the lowest-priority process will eventually reach a priority level high enough to be scheduled. This converts a system with potential indefinite postponement into one with bounded waiting time."
 
-- question: "A proportional-share scheduler like Linux's CFS guarantees that every process receives exactly equal CPU time regardless of its share weight."
+- question: "A proportional-share scheduler like Linux's CFS guarantees that most process receives exactly equal CPU time regardless of its share weight."
   type: true-false
   answer: false
   explanation: "Proportional-share schedulers allocate CPU in proportion to each process's assigned shares — a process with twice the shares gets roughly twice the CPU time, not equal time. CFS specifically tracks 'virtual runtime' and always schedules the process with the least accumulated virtual runtime, scaled by its weight. Equality is a special case when all processes have equal shares; the general guarantee is proportionality, not equality."

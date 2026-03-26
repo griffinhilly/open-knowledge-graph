@@ -58,7 +58,7 @@ Use 3D models or virtual anatomy software. Have students practice describing loc
   answer: false
   explanation: "These describe entirely different axes. Superior means toward the head along the head-to-toe axis; anterior means toward the front of the body along the front-to-back axis. The two axes are perpendicular to each other, so superior and anterior cannot be equated. The confusion arises from everyday language where 'above' can describe either dimension depending on context — anatomical terminology eliminates this ambiguity by assigning each term to one specific axis."
 
-- question: "Anatomical directional terms only apply when the subject is physically standing upright in anatomical position."
+- question: "Anatomical directional terms primarily apply when the subject is physically standing upright in anatomical position."
   type: true-false
   answer: false
   explanation: "Anatomical terms are defined relative to anatomical position as a fixed conceptual reference — they apply regardless of the subject's actual orientation. Saying the elbow is 'proximal' to the wrist means the elbow is closer to the shoulder attachment point, whether the person is standing, lying, or seated. The reference system is fixed; the patient's actual position is irrelevant. This is the entire purpose of establishing a standard reference: it removes orientation-dependence from clinical description."

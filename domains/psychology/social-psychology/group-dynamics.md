@@ -60,7 +60,7 @@ Analyze a real team experience (sports team, project group) using the Tuckman mo
   answer: true
   explanation: "Identifiability is the primary moderator of social loafing. When each member's contribution can be observed, evaluated, or attributed, the conditions that enable free-riding are removed: individuals cannot hide reduced effort in a collective output. This is also why social loafing is reduced in collectivist cultural contexts — strong group identification makes individual effort feel meaningful even when externally unidentifiable."
 
-- question: "Groups are essentially aggregates of individuals, so understanding a group's behavior only requires knowing the traits and motivations of its members."
+- question: "Groups are essentially aggregates of individuals, so understanding a group's behavior primarily requires knowing the traits and motivations of its members."
   type: true-false
   answer: false
   explanation: "This is the central misconception that group dynamics research refutes. Groups develop emergent properties — norms, roles, status hierarchies, cohesion — that exist at the group level and cannot be predicted from individual traits alone. The same individual behaves differently in a high-cohesion group versus a fragmented one, under strong norms versus weak ones. Group structure shapes individual behavior; you cannot derive the group from the individuals."

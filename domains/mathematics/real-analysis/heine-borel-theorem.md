@@ -47,7 +47,7 @@ In ℝ, a set is compact if and only if it is closed and bounded. This theorem t
   answer: 2
   explanation: "The Heine-Borel theorem is a special feature of ℝⁿ, not a universal truth. In infinite-dimensional normed spaces such as L², the closed unit ball is closed and bounded but not compact — it contains sequences with no convergent subsequence. The theorem's power is precisely that it collapses an infinite verification into two geometric checks, but only because ℝⁿ has just the right structure."
 
-- question: "A closed subset of ℝ is always compact."
+- question: "A closed subset of ℝ is typically compact."
   type: true-false
   answer: false
   explanation: "Closedness alone is not sufficient — the set must also be bounded. The integers ℤ form a closed set (they contain all their limit points, since they have none outside the set), yet ℤ is unbounded. Any cover by open intervals of width 1 centered at each integer has no finite subcover. Both conditions — closed AND bounded — are required by Heine-Borel."

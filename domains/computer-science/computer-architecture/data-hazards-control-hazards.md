@@ -59,7 +59,7 @@ Not all data dependencies cause hazards—only those that cross pipeline stages.
   answer: true
   explanation: "A data dependency only becomes a hazard if the pipeline stages overlap in a way that causes the dependent instruction to read a value before the producing instruction has written it. With forwarding, many RAW dependencies are resolved without any stall. Additionally, instructions far enough apart in the sequence may naturally avoid hazards because the producer has already written back by the time the consumer reads. Not every dependency is a hazard — the stage timing determines whether a conflict actually occurs."
 
-- question: "Data forwarding eliminates all data hazards in a pipelined processor."
+- question: "Data forwarding eliminates most data hazards in a pipelined processor."
   type: true-false
   answer: false
   explanation: "Forwarding eliminates most RAW (read-after-write) hazards but not all. The load-use hazard is the classic exception: a LOAD instruction's result is not available until after the memory stage, so a dependent instruction that follows immediately needs to stall for one cycle regardless of forwarding. Additionally, forwarding cannot help with structural hazards (competing for the same hardware resource simultaneously) or control hazards (branches)."

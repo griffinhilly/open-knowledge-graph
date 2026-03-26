@@ -47,7 +47,7 @@ Read Barthes's 'The Death of the Author' alongside Foucault's 'What Is an Author
   answer: 1
   explanation: "Différance is a portmanteau of 'différer' in two senses: to differ (identity through contrast) and to defer (meaning always postponed to another sign). Crucially, the substitution of 'a' for 'e' is invisible in spoken French — the word performs the instability it names by producing a difference that exists only in writing, not in speech."
 
-- question: "Post-structuralism claims that literary texts have no meaning at all, making interpretation futile."
+- question: "Post-structuralism claims that literary texts have no meaning at most, making interpretation futile."
   type: true-false
   answer: false
   explanation: "This is the most common misreading of post-structuralism. The claim is not that texts are meaningless, but that texts cannot be closed to a single, authoritative meaning. Meaning is plural, unstable, and produced through reading practices rather than recovered from a fixed origin. Post-structuralism multiplies interpretation rather than canceling it."

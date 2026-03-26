@@ -59,7 +59,7 @@ Use objects to physically compare groups, number lines to visualize position, an
   answer: true
   explanation: "True. The number line is laid out in counting order, with smaller numbers on the left and larger numbers on the right. Moving right always means moving to a larger value. This is why the number line is such a powerful tool: comparing two numbers becomes a spatial question (which is further right?) rather than an abstract one."
 
-- question: "Because 9 has only one digit and 11 has two digits, 9 must represent a smaller quantity than 11 for all possible comparisons."
+- question: "Because 9 has mainly one digit and 11 has two digits, 9 is expected to represent a smaller quantity than 11 for most possible comparisons."
   type: true-false
   answer: false
   explanation: "While 9 is in fact less than 11, the reasoning 'fewer digits = smaller number' is unreliable and leads to errors. For example, a student using this rule might incorrectly guess that 9 < 12, 9 < 15, etc. — which happen to be correct — but the rule breaks down in other contexts. The reliable method is always the counting sequence (or number line): where does each number appear? Position determines value, not digit count or digit appearance."

@@ -45,7 +45,7 @@ Relativistic charges in magnetic fields undergo intense forward-directed synchro
   answer: 2
   explanation: "Two separate effects each scale with γ. First, the relativistic generalization of the Larmor formula gives P ∝ γ⁴ for transverse acceleration — at γ = 1000, that is (10³)⁴ = 10¹² times more power than classical Larmor predicts. Second, the radiation pattern collapses from an isotropic donut (non-relativistic) to a narrow forward cone of half-angle ~1/γ = 10⁻³ radians due to relativistic aberration. Both effects are consequences of special relativity and both grow without bound as v → c."
 
-- question: "Synchrotron radiation from a relativistic charge moving in a circular orbit is emitted isotropically — equally in all directions — just as the non-relativistic Larmor formula predicts."
+- question: "Synchrotron radiation from a relativistic charge moving in a circular orbit is emitted isotropically — equally in most directions — just as the non-relativistic Larmor formula predicts."
   type: true-false
   answer: false
   explanation: "At relativistic speeds, the radiation pattern is highly anisotropic due to relativistic beaming. The radiation collapses into a narrow forward cone of half-angle approximately 1/γ. In the particle's instantaneous rest frame the pattern resembles the non-relativistic donut, but in the lab frame Lorentz aberration transforms this into a sharply forward-directed beam. For γ = 100, the cone half-angle is less than 0.6 degrees. This beaming is what makes synchrotrons powerful directional X-ray sources and creates the lighthouse-like pulse structure that astrophysicists observe from pulsars and relativistic jets."

@@ -61,7 +61,7 @@ Benjamin is not against translation or arguing it betrays the original. He sees 
   answer: true
   explanation: "True. Benjamin imagines an underlying 'pure language' (reine Sprache) — an ideal totality toward which all particular languages aim, which no single language achieves alone. Translation brings two languages into relation, making visible their different modes of approaching the same referents and, in doing so, revealing their underlying kinship. The gap between French *pain* and English *bread* is as revealing as the overlap. Translation is the practice that makes this kinship visible."
 
-- question: "Benjamin argues that translation is fundamentally impossible because languages are incommensurable — no expression in one language has an equivalent in another."
+- question: "Benjamin argues that translation is fundamentally very difficult because languages are incommensurable — no expression in one language has an equivalent in another."
   type: true-false
   answer: false
   explanation: "False — this is an important misreading. Benjamin is not a pessimist about translation; he redefines what it is and elevates it philosophically. He does not argue for untranslatability but argues that translation is a philosophical act exceeding semantic transfer. His concept of the afterlife assumes translation happens and is valuable. The incommensurability between modes of intention is not a barrier to overcome but the very material with which translation works creatively."

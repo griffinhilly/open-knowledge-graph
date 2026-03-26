@@ -59,7 +59,7 @@ You can't contribute to both Traditional and Roth IRAs when you can but deductio
   answer: true
   explanation: "Before age 65, HSA withdrawals for non-medical expenses incur both income tax and a 20% penalty. After age 65, the penalty disappears — you can withdraw HSA funds for any purpose and pay only ordinary income tax, exactly like a Traditional IRA. This makes the HSA function as a second retirement account for people who have funded it aggressively. The ideal strategy is to pay medical expenses out-of-pocket during working years, let HSA funds compound tax-free, and draw them down in retirement."
 
-- question: "A Roth IRA is always the superior choice over a Traditional IRA for maximizing long-term after-tax wealth."
+- question: "A Roth IRA is generally the superior choice over a Traditional IRA for maximizing long-term after-tax wealth."
   type: true-false
   answer: false
   explanation: "The choice between Roth and Traditional depends entirely on the comparison between your current and expected future tax rates. If your tax rate is higher now than it will be in retirement (e.g., you are at peak earnings and expect lower income later), a Traditional IRA saves more — you defer taxes to a lower-rate period. If your tax rate is lower now than expected in retirement, a Roth IRA is better. If tax rates stay the same, both accounts produce identical after-tax results. 'Always better' is the misconception; the correct answer is 'it depends on your tax trajectory.'"

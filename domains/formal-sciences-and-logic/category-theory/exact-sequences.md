@@ -56,7 +56,7 @@ An exact sequence is a sequence of morphisms f: A → B → C where the image of
   answer: true
   explanation: "Exactness at A means im(0 → A) = ker(f). The image of the zero map into A is {0}, so ker(f) = {0}, which means f is injective. Exactness at C means im(g) = ker(C → 0). The kernel of the zero map out of C is all of C, so im(g) = C, which means g is surjective. These are not extra assumptions — they are forced by exactness at the endpoints. This is why short exact sequences 0 → A → B → C → 0 are often described by saying 'f is a monomorphism and g is an epimorphism.'"
 
-- question: "If 0 → A →^f B →^g C → 0 is a short exact sequence, then B must be isomorphic to the direct sum A ⊕ C."
+- question: "If 0 → A →^f B →^g C → 0 is a short exact sequence, then B is expected to be isomorphic to the direct sum A ⊕ C."
   type: true-false
   answer: false
   explanation: "This is a classic misconception. Exactness tells you that A embeds into B and C is the quotient B/A, but it does not tell you how B is built from these pieces. B is an extension of C by A, and different short exact sequences with the same A and C (but different B) correspond to genuinely non-isomorphic middle objects. B ≅ A ⊕ C holds only when the sequence splits — meaning there exists a section s: C → B with g∘s = id_C. Whether a given exact sequence splits is a non-trivial question and is precisely what Ext¹(C, A) measures."

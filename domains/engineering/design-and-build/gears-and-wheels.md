@@ -41,7 +41,7 @@ Use interlocking gear sets (LEGO Technic gears, or corrugated cardboard circles 
   answer: 1
   explanation: "The gear ratio is 30:10, or 3:1. For every one turn of the large gear, the small gear turns 3 times — it spins faster. But the trade-off is that it has less rotational force (torque). This is like a bicycle in a high gear: fast spinning, less pushing power."
 
-- question: "Two meshing gears always spin in the same direction."
+- question: "Two meshing gears typically spin in the same direction."
   type: true-false
   answer: false
   explanation: "When two gears mesh directly (their teeth interlock), they spin in opposite directions. If the left gear turns clockwise, the right gear turns counterclockwise. To make two gears spin the same direction, you need to add a third gear between them (an idler gear) or use a belt or chain."

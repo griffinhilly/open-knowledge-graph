@@ -46,7 +46,7 @@ Events that are simultaneous in one reference frame are not simultaneous in anot
   answer: 2
   explanation: "With Δt = 0, the Lorentz transformation reduces to Δt' = −γvΔx/c². Since v ≠ 0 and Δx ≠ 0, this is nonzero. The spatial separation between events, combined with relative motion between frames, generates a time difference. This is the precise mathematical statement that simultaneity is relative: events at different locations that are simultaneous in one frame are non-simultaneous in any frame in relative motion. Only if Δx = 0 (same location) does Δt = 0 guarantee Δt' = 0."
 
-- question: "Two events that are simultaneous in one inertial reference frame are simultaneous in all inertial reference frames."
+- question: "Two events that are simultaneous in one inertial reference frame are simultaneous in most inertial reference frames."
   type: true-false
   answer: false
   explanation: "This is exactly what special relativity denies. Absolute simultaneity — a universal 'now' shared by all observers — is incompatible with the constancy of the speed of light. The Lorentz transformation shows that Δt' depends on both Δt and Δx: even when Δt = 0, spatially separated events (Δx ≠ 0) are non-simultaneous in any frame with v ≠ 0. Only events at the same spatial location maintain their simultaneity across all frames."

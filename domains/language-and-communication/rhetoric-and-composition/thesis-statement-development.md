@@ -46,7 +46,7 @@ Start from a broad topic, ask 'So what? Why does this matter? What do I actually
   answer: 2
   explanation: "Option A is a fact — it cannot be argued against. Option B is a both-sides non-position that commits to nothing and therefore cannot be developed into a focused argument. Option D announces a topic rather than staking a claim. Option C is specific (identifies a platform and mechanism), arguable (reasonable people could dispute the causal claim), and scoped to what an essay could actually demonstrate with evidence."
 
-- question: "A thesis statement should always appear in the first sentence of an essay to immediately orient the reader."
+- question: "A thesis statement should typically appear in the first sentence of an essay to immediately orient the reader."
   type: true-false
   answer: false
   explanation: "This is a persistent misconception, often reinforced by formulaic instruction. In academic writing, the thesis typically appears at the end of the introduction — after the writer has established context, defined key terms, and given the reader the background needed to understand why the claim matters. Opening cold with a thesis often leaves the reader without the context to evaluate it."

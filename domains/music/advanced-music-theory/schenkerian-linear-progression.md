@@ -58,7 +58,7 @@ Analyze excerpts from tonal works (Bach chorales, Beethoven sonatas) using numbe
   answer: true
   explanation: "Linear progressions operate at whatever structural level is appropriate — foreground, middleground, or background. A middleground linear progression may unfold across an entire section of a piece, with its structural notes falling at the peaks of individual phrases. This is one of the most illuminating aspects of Schenkerian analysis: it reveals melodic and harmonic coherence across formal boundaries that phrase-by-phrase analysis would miss."
 
-- question: "Every stepwise scale passage in a tonal work constitutes a linear progression in the Schenkerian sense."
+- question: "Most stepwise scale passage in a tonal work constitutes a linear progression in the Schenkerian sense."
   type: true-false
   answer: false
   explanation: "This is the most common misconception. Not every stepwise passage is a linear progression. Only stepwise motions that connect *structural pitches* at the middleground or background qualify. Surface ornaments — neighbor notes, passing tones in fast figuration, scale runs in transitions — move stepwise but operate at the foreground level without structural harmonic support. The Schenkerian analyst must determine whether the notes are 'real' (structurally significant) or merely ornamental."

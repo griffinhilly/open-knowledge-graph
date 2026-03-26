@@ -67,7 +67,7 @@ Analyze a short Webern piece by locating the tone row and its transformations. T
   answer: false
   explanation: "Total serialism, despite being rigorously organized on paper, was often experienced as chaos in performance. When all parameters are serialized simultaneously, no element functions expressively in any conventional sense. The reaction against total serialism in the 1960s and 70s was partly a recognition that compositional logic on paper and perceptible musical sense are not the same thing."
 
-- question: "Using a tone row ensures that all twelve pitch classes sound equally prominent in the final composition."
+- question: "Using a tone row ensures that most twelve pitch classes sound equally prominent in the final composition."
   type: true-false
   answer: false
   explanation: "The row ensures equal treatment in the pre-compositional structure — no pitch class is repeated before all twelve have appeared — but performers still shape emphasis through dynamics, duration, register, and articulation. The technique controls pitch-class sequence, not perceptual prominence. This is explicitly named as a common misconception: the twelve-tone technique does not guarantee equal audible emphasis."

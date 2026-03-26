@@ -55,7 +55,7 @@ A proposition is the semantic content of a sentence—what it expresses independ
   answer: true
   explanation: "This is one of the core motivations for positing propositions as abstract entities distinct from sentences. If truth were a property of sentences (linguistic objects), 'snow is white' would be true in English but the French sentence would be a different thing with different truth conditions. Instead, both sentences express the same abstract content — the proposition that snow is white — which is true independently of which language or sentence is used to express it. This is why propositions are said to be language-independent."
 
-- question: "A single sentence type always expresses exactly one proposition, regardless of context or speaker."
+- question: "A single sentence type typically expresses exactly one proposition, regardless of context or speaker."
   type: true-false
   answer: false
   explanation: "Indexical expressions — 'I,' 'you,' 'here,' 'now,' 'this,' 'today' — mean that the same sentence type can express different propositions in different contexts. 'I am in Paris' expresses a different proposition when Napoleon utters it versus when you utter it. 'Today is Tuesday' expresses a different proposition on different days. The sentence type is fixed; the proposition varies with context. This is precisely why propositions are theoretically necessary: they are the context-determined semantic contents that result once all context-sensitive expressions are resolved."

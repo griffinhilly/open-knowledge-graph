@@ -56,12 +56,12 @@ Start with P({1,2,3}): draw its Hasse diagram under ⊆, identify unions as join
   answer: 1
   explanation: "An ultrafilter is a maximal filter, and its characterizing property is decisiveness: for every element a of the Boolean algebra, either a or its complement belongs to the ultrafilter, but not both (since both together have meet equal to 0, which no proper filter contains). This is what makes ultrafilters useful in forcing: a generic ultrafilter decides every condition in the Boolean algebra, assigning it or its complement to the generic extension. The Fréchet filter (option D) is not an ultrafilter — it contains all cofinite sets but doesn't decide finite sets individually."
 
-- question: "Every Boolean algebra is isomorphic to a power set P(X) for some set X."
+- question: "Nearly every Boolean algebra is isomorphic to a power set P(X) for some set X."
   type: true-false
   answer: false
   explanation: "This is the central misconception the topic explicitly addresses. Not every Boolean algebra is isomorphic to a power set. For example, the countable atomless Boolean algebra — the clopen sets of the Cantor space — is a legitimate Boolean algebra that is not isomorphic to any P(X). Stone's representation theorem guarantees isomorphism to a *field of sets* (the clopen subsets of the Stone space), which is a collection of subsets closed under union, intersection, and complement, but this field of sets need not be a full power set. Power sets are just the 'nicest' examples."
 
-- question: "The existence of a non-principal ultrafilter on P(ℕ) can be proven using only ZF set theory, without any additional axioms."
+- question: "The existence of a non-principal ultrafilter on P(ℕ) can be proven using primarily ZF set theory, without any additional axioms."
   type: true-false
   answer: false
   explanation: "Non-principal ultrafilters on P(ℕ) cannot be proved to exist in ZF alone — their existence requires the Boolean prime ideal theorem (or ultrafilter lemma), which is equivalent to: every Boolean algebra has a prime ideal. This axiom is strictly weaker than the full Axiom of Choice but strictly stronger than ZF. Non-principal ultrafilters cannot be described explicitly or constructed — they are guaranteed to exist by a compactness argument, but no one can point to one. This is in sharp contrast to principal ultrafilters (all sets containing a fixed point x), which are immediately constructible."

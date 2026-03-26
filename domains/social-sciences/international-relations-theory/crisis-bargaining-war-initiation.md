@@ -58,7 +58,7 @@ Bargaining models explain war as resulting from private information asymmetries,
   answer: true
   explanation: "The key property of a costly signal is that it is harder to fake. A state merely posturing would not bear a large economic or reputational cost, so incurring that cost credibly communicates genuine resolve. This is the solution to the private information problem: cheap talk (simply asserting commitment) provides no information because bluffing states can say the same thing. Costly signals work precisely because the cost screens out actors who are not genuinely committed."
 
-- question: "The bargaining model implies that war is caused by irrationality — if both sides were fully rational, they would always find a peaceful settlement."
+- question: "The bargaining model implies that war is caused by irrationality — if both sides were fully rational, they would typically find a peaceful settlement."
   type: true-false
   answer: false
   explanation: "This is the opposite of the model's key insight. Fully rational states may still go to war when: private information prevents identifying a mutually acceptable settlement, commitment problems make future agreements unenforceable, or issues are genuinely indivisible. The model explains war as a rational outcome under specific structural conditions, not as a failure of rationality. War is a 'puzzle' precisely because rational, war-averse actors should prefer peace — the model explains why they sometimes cannot achieve it."

@@ -60,7 +60,7 @@ Calculate the actual financial gap your family would face: total outstanding deb
   answer: true
   explanation: "This is exactly correct. Whole life cash value typically grows at 1-3% annually (the guaranteed crediting rate), and early surrender charges further reduce accessible returns. The premium difference between whole life and equivalent term coverage — invested in low-cost diversified index funds over 20-30 years — will almost always produce significantly higher wealth. This is the core argument behind recommending term insurance for most people."
 
-- question: "Everyone needs life insurance because death is unpredictable and a death benefit always provides value to the policyholder's estate."
+- question: "Everyone needs life insurance because death is unpredictable and a death benefit usually provides value to the policyholder's estate."
   type: true-false
   answer: false
   explanation: "Life insurance is an income-replacement tool, not a universal financial product. If no one depends on your income — no children, no spouse, no dependents — there is no financial gap for a death benefit to fill. While a death benefit does go to named beneficiaries, the question is whether the ongoing premium cost is worth that transfer given no surviving dependents need income replacement. For people without dependents, the premium money is typically better deployed elsewhere. The estate-planning framing (option above) can be a legitimate use case for high-net-worth individuals, but for most people the primary question is: who depends on my income?"

@@ -53,7 +53,7 @@ The surface heat flow combined with rock thermal conductivity defines the geothe
   answer: true
   explanation: "The geotherm is a predictive tool, not merely a temperature measurement. Where the geotherm plots above the solidus, partial melting is expected — this corresponds to magma generation zones. The depth at which the geotherm crosses below the solidus marks the base of the mechanically rigid lithosphere; below that, rock is close enough to its melting point to flow viscously on geological timescales (the asthenosphere). This intersection approach is how geologists infer the depth of melt zones and lithospheric thickness on Earth and other planets without direct sampling."
 
-- question: "A steeper geothermal gradient always indicates higher surface heat flow, regardless of the rock's thermal conductivity."
+- question: "A steeper geothermal gradient usually indicates higher surface heat flow, regardless of the rock's thermal conductivity."
   type: true-false
   answer: false
   explanation: "Surface heat flow = geothermal gradient × thermal conductivity. The gradient and heat flow are linked through thermal conductivity, which varies substantially between rock types. A steep gradient through poorly conducting rock (low conductivity) may represent the same heat flow as a gentle gradient through highly conducting rock. To determine actual heat flow, you must measure both the temperature gradient and the thermal conductivity of the rock. Failing to account for conductivity variation leads to incorrect heat flow estimates and misinterpretation of the geothermal regime."

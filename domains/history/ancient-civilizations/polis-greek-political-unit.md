@@ -54,7 +54,7 @@ The polis (pl. poleis) was the fundamental unit of Greek political organization:
   answer: true
   explanation: "Athens, the largest polis, had perhaps 250,000–300,000 total inhabitants (and far fewer voting citizens). Most poleis were much smaller. This scale made it physically possible for citizens to attend the assembly, serve on juries, and hold rotating offices in person. Large empires like Persia or Egypt could not implement direct citizen participation because no central meeting place could accommodate the population. The polis form of governance — specifically Athenian democracy — was only feasible because of the small size, which is also what made the polis militarily and economically precarious compared to large territorial states."
 
-- question: "All Greek poleis were democracies, which is why ancient Greece is associated with the origins of democratic government."
+- question: "Most Greek poleis were democracies, which is why ancient Greece is associated with the origins of democratic government."
   type: true-false
   answer: false
   explanation: "Greek poleis varied enormously in constitutional form. Sparta operated under a dual kingship with an oligarchic council of elders (gerousia), and its system explicitly suppressed individual freedoms and commercial activity. Corinth, Thebes, and many others had oligarchic or tyrannical periods. Athens' democracy was distinctive, not universal. The association of ancient Greece with democracy refers to Athens specifically — and even in Athens, only adult male citizens born of Athenian parents could participate. The diversity of polis constitutions was a defining feature of the system, not an exception."

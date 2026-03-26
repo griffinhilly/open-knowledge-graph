@@ -52,7 +52,7 @@ The plasma membrane is often depicted as a simple, homogeneous bilayer. In reali
   answer: 2
   explanation: "Membrane asymmetry is actively maintained by flippases and floppases that consume ATP to keep phosphatidylserine on the inner leaflet. During apoptosis, this asymmetry is deliberately broken: scramblase enzymes mix the two leaflets, allowing phosphatidylserine to appear on the outer surface. Phagocytes recognize this 'eat me' signal through receptors like Annexin V binding sites. This is not incidental turnover but a specific, programmed signal. The appearance of PS on the outer leaflet is so reliably a marker of apoptosis that it is used as a diagnostic assay."
 
-- question: "The plasma membrane is best described as a uniformly fluid bilayer in which all membrane lipids and proteins diffuse freely without spatial restriction."
+- question: "The plasma membrane is best described as a uniformly fluid bilayer in which most membrane lipids and proteins diffuse freely without spatial restriction."
   type: true-false
   answer: false
   explanation: "This describes the original fluid mosaic model (Singer and Nicolson, 1972), which was an important advance but is now known to be an oversimplification. The real plasma membrane contains lipid rafts — domains enriched in cholesterol and sphingolipids that are more ordered and less fluid than surrounding regions. Proteins preferentially partition into or out of these rafts, creating functional neighborhoods. Cytoskeletal attachments, protein scaffolds, and tight junctions further restrict diffusion. Single-particle tracking and FRAP experiments both demonstrate that diffusion is heterogeneous, not uniform."

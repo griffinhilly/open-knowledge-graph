@@ -59,7 +59,7 @@ Draw arrows from each pronoun to its antecedent in sample paragraphs, checking t
   answer: true
   explanation: "Both 'cat' and 'mouse' are singular and third-person, so the grammar alone cannot resolve which is 'it.' Context (mice typically escape through walls; cats typically chase) helps, but the sentence is technically ambiguous. A well-written sentence avoids this — either restructuring ('the mouse escaped through the wall') or naming the noun explicitly removes the ambiguity."
 
-- question: "The antecedent of a pronoun is always the nearest preceding noun in the same sentence."
+- question: "The antecedent of a pronoun is typically the nearest preceding noun in the same sentence."
   type: true-false
   answer: false
   explanation: "The nearest noun is a common first guess, but it is wrong for two reasons. First, the nearest noun may not match the pronoun in number or gender, so you must look farther back. Second, the antecedent may be in an earlier sentence — pronouns track reference across multiple sentences in a paragraph. The real test is number/person/gender agreement combined with semantic sense, not physical proximity."

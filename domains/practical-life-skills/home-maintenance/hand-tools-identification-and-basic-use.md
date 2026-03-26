@@ -54,7 +54,7 @@ Any tool can do any job. (Using the wrong tool is unsafe and damages tools or wo
   answer: 2
   explanation: "A hammer is a lever and weight system engineered to convert a swinging arc into an impact force. The head's mass, moving along its natural arc, does the driving work. When you fight the arc by muscling the swing with arm strength, you reduce accuracy, tire faster, and counteract the tool's mechanical advantage. Letting the hammer fall through its arc is the technique — the tool does the work if you guide it correctly."
 
-- question: "A heavier hammer is always the best choice for home repair tasks because it drives fasteners more powerfully."
+- question: "A heavier hammer is typically the best choice for home repair tasks because it drives fasteners more powerfully."
   type: true-false
   answer: false
   explanation: "The right tool for the specific job matters more than raw power. A heavy hammer is appropriate for driving large nails into framing lumber, but the same hammer used on a small finishing nail will drive it through the wood or split delicate trim. A too-heavy hammer also reduces control and tires the user. Tool selection is about matching the tool's purpose and size to the task, not maximizing force."

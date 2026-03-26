@@ -59,7 +59,7 @@ The practical result is a plan that has been stress-tested against your best int
   answer: 1
   explanation: "Both techniques involve imagining failure before it occurs. What distinguishes Murphyjitsu is the iterative repair loop: you identify a failure mode, modify the plan to address it, then ask the gut-check question again. You repeat — identify, fix, check — until each step passes. A premortem typically lists failure modes for awareness, but does not structure the process as iterative plan improvement until a robustness threshold is met."
 
-- question: "Murphyjitsu recommends systematically identifying and addressing every conceivable failure mode in a plan before proceeding."
+- question: "Murphyjitsu recommends systematically identifying and addressing most conceivable failure mode in a plan before proceeding."
   type: true-false
   answer: false
   explanation: "Murphyjitsu is specifically scoped to failure modes that your gut flags as realistic — those System 1 identifies as the kind of thing that would likely go wrong. It is not a comprehensive risk audit. The technique explicitly does not require fixing every possible failure mode, only the ones that feel realistic enough to trigger a failed gut check. This scope keeps the technique practical and prevents paralysis while still catching the most likely failure points."

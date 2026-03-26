@@ -46,7 +46,7 @@ Memory retrieval is cue-dependent: information is better recalled when retrieval
   answer: 2
   explanation: "Encoding specificity (Tulving & Thomson) holds that a cue is effective to the extent it was present and encoded at the time of learning. 'Pond' appeared in the same study list and was therefore encoded as part of the context surrounding 'water,' even though the semantic relationship is weak. 'Ocean' was not present during encoding, so despite being a stronger semantic associate, it provides less retrieval pathway activation. This counterintuitive finding is one of the clearest demonstrations of the principle."
 
-- question: "A semantically strong associate of a studied word is always a better retrieval cue than a weak associate that happened to be present in the study environment."
+- question: "A semantically strong associate of a studied word is typically a better retrieval cue than a weak associate that happened to be present in the study environment."
   type: true-false
   answer: false
   explanation: "This is exactly the misconception that encoding specificity refutes. What matters is whether the cue was encoded as part of the memory trace — i.e., whether it was present at encoding. A weak associate that was physically in the study list can outperform a strong associate that was never encountered during learning, because the weak associate was encoded into the memory trace while the strong associate was not."

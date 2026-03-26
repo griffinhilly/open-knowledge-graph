@@ -47,7 +47,7 @@ Start by analyzing simple thermostats or cruise control systems as physical intu
   answer: 2
   explanation: "The system continuously measures the actual output (speed), computes the error relative to the setpoint, and uses that error to drive the actuator — the defining structure of closed-loop feedback control. Open-loop control would apply a fixed throttle without measuring actual speed."
 
-- question: "Increasing the feedback gain in a closed-loop control system always improves performance by reducing error faster."
+- question: "Increasing the feedback gain in a closed-loop control system usually improves performance by reducing error faster."
   type: true-false
   answer: false
   explanation: "High gain amplifies the error correction signal, which can cause the system to overcorrect repeatedly, leading to oscillation or outright instability. There is a fundamental tradeoff between speed of response and stability: gain must be tuned to balance these competing demands."

@@ -47,7 +47,7 @@ Metrical phonology formalizes stress assignment through hierarchically organized
   answer: 2
   explanation: "The Rhythmic Rule in metrical grid theory resolves stress clashes — two adjacent prominent syllables — by shifting one stress away. 'Thirtéen' + 'mén' would place heavy stress on 'teen' and 'men' in sequence; the grid operation moves 'teen's prominence leftward to 'thir,' creating the alternating rhythm 'thírteen mén.' This shows that stress is not a static property of individual words but is subject to phrasal adjustment governed by grid operations."
 
-- question: "In formal metrical theory, specifying foot type (trochaic vs. iambic) and directionality (left-to-right vs. right-to-left) is sufficient to predict all stress patterns in any language."
+- question: "In formal metrical theory, specifying foot type (trochaic vs. iambic) and directionality (left-to-right vs. right-to-left) is sufficient to predict most stress patterns in any language."
   type: true-false
   answer: false
   explanation: "Many languages require a third parameter: quantity sensitivity. In a quantity-sensitive language, heavy syllables (those with long vowels or coda consonants) attract stress even when positional rules would place it elsewhere. Classical Latin and Arabic are examples. Without quantity sensitivity as a formal parameter, the analysis cannot account for stress patterns that respond to syllable weight. Foot type and directionality together describe the default rhythmic grouping, but they cannot capture weight effects."

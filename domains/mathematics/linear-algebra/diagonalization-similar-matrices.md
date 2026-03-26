@@ -50,7 +50,7 @@ Find eigenvalues and eigenvectors. Build P from eigenvectors as columns; D has e
   answer: 1
   explanation: "The key identity is Aⁿ = PDⁿP⁻¹. A diagonal matrix Dⁿ is trivial to compute: just raise each diagonal entry to the n-th power (scalar exponentiation). Without diagonalization, computing A¹⁰⁰ would require 99 matrix multiplications, each O(n³). With diagonalization, it requires computing P and P⁻¹ once, then one multiplication PDⁿP⁻¹. This is the payoff for all the eigenvalue machinery — it reduces matrix exponentiation (hard) to scalar exponentiation (trivial) plus two matrix multiplications."
 
-- question: "If a matrix has a repeated eigenvalue, it cannot be diagonalized."
+- question: "If a matrix has a repeated eigenvalue, it can seldom be diagonalized."
   type: true-false
   answer: false
   explanation: "This is a common misconception. A matrix is diagonalizable if and only if it has n linearly independent eigenvectors. Distinct eigenvalues guarantee this (since eigenvectors for distinct eigenvalues are always independent), so a matrix with n distinct eigenvalues is always diagonalizable. But a repeated eigenvalue *may* still yield enough independent eigenvectors — the identity matrix I has only one eigenvalue (λ=1, with multiplicity n) yet is perfectly diagonalizable (it's already diagonal). The question is whether the geometric multiplicity (dimension of the eigenspace) equals the algebraic multiplicity (multiplicity as a root of the characteristic polynomial)."

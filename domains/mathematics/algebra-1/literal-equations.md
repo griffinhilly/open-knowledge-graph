@@ -57,7 +57,7 @@ Start with familiar formulas (area, perimeter, distance = rate × time) and solv
   answer: 2
   explanation: "The key insight about literal equations is that the answer is an expression, not a number — and that is more powerful, not less. Solving d = rt for t gives t = d/r, which is true for every possible trip at every possible speed. The student's confusion comes from expecting the same type of answer as numeric equations. The letters r and d are simply constants whose values happen to be unknown; the inverse-operation rules are identical."
 
-- question: "When solving a literal equation, you must treat every letter in the equation as a variable and cannot isolate just one of them."
+- question: "When solving a literal equation, you should treat nearly every letter in the equation as a variable and can seldom isolate just one of them."
   type: true-false
   answer: false
   explanation: "The entire point of solving a literal equation is to isolate one specific target variable while treating all other letters as constants. Just as in a numeric equation where you isolate x while treating the numbers as fixed, in a literal equation you isolate the target variable (say, h) while treating everything else (A, b) as if they were known constants. The rules of algebra do not change — only the form of the answer changes from a number to an expression."

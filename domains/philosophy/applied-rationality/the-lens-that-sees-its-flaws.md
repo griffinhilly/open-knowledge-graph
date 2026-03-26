@@ -70,7 +70,7 @@ This is why the Rationalist tradition frames rationality as a **trainable skill*
   answer: true
   explanation: "This is the central empirical claim of the framework. Awareness is the prerequisite — you can only correct for biases you know about. But knowledge creates only the opportunity for correction; the actual correction requires deliberate techniques practiced until they become reliable. Studies of debiasing confirm this: simply informing people about the availability heuristic or confirmation bias does not reliably change their behavior. Correction requires building procedural habits, not just acquiring declarative knowledge."
 
-- question: "The claim that rationality is 'trainable' means that dedicated practice can make a person's reasoning completely unbiased."
+- question: "The claim that rationality is 'trainable' means that dedicated practice can make a person's reasoning mostly unbiased."
   type: true-false
   answer: false
   explanation: "The framework makes a more modest claim: that knowing about systematic errors, combined with deliberate practice, can make you measurably less wrong — not perfectly rational. Claiming complete debiasing would be empirically unsupported. Cognitive biases are often features of fast heuristic systems that remain active even in trained reasoners; what changes is the frequency with which trained thinkers notice the bias activating and apply a corrective check. 'Systematically less wrong' is achievable; 'perfectly unbiased' is not."

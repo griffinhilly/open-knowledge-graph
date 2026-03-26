@@ -56,7 +56,7 @@ Power is not the same as authority; authority is legitimated power. Power is not
   answer: true
   explanation: "Power and authority are distinct: power is the capacity to compel, while authority is the recognized right to do so. History offers many examples of governments that maintained police and military control while their legitimacy evaporated — citizens obeyed only because they feared punishment, not because they accepted the government's right to rule. This explains why purely coercive regimes are often fragile: they require constant enforcement because they cannot rely on voluntary compliance."
 
-- question: "Power in political systems is always coercive — it ultimately rests on the threat of physical force."
+- question: "Power in political systems is generally coercive — it ultimately rests on the threat of physical force."
   type: true-false
   answer: false
   explanation: "This is a common reductionist view, but it misses how power actually operates. Ideological power shapes what people believe is natural or possible, often without any coercive threat. Economic power controls behavior through rewards and resource dependency. Social norms enforce conformity through shame and exclusion. Even legitimate authority operates primarily through consent rather than coercion. Reducing all power to force misses the mechanisms by which power is reproduced and naturalized in everyday life."

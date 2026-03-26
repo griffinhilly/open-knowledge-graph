@@ -54,7 +54,7 @@ Syntax analysis (parsing) determines whether a token stream is valid according t
   answer: true
   explanation: "This is exactly why grammar design is not arbitrary — the tree structure encodes semantic relationships like precedence and associativity. A grammar that allows '3 + 4 * 5' to produce a tree with addition at the root and multiplication as a leaf correctly captures that * has higher precedence than +. An ambiguous grammar might produce a second tree with the operators at the same level or reversed, yielding a different computed value. The grammar must encode precedence by structuring its production rules so that higher-precedence operators appear deeper in the derivation."
 
-- question: "An ambiguous grammar can always be converted into an equivalent unambiguous grammar — one that accepts exactly the same strings — by rewriting its production rules."
+- question: "An ambiguous grammar can usually be converted into an equivalent unambiguous grammar — one that accepts exactly the same strings — by rewriting its production rules."
   type: true-false
   answer: false
   explanation: "Some context-free languages are inherently ambiguous: every CFG that generates them is ambiguous. For these languages, there is no unambiguous grammar. The dangling-else case can usually be resolved by rewriting, but not all ambiguities can be. In practice, compiler designers often keep an ambiguous grammar for readability and resolve ambiguities through explicit precedence and associativity declarations (as in yacc/bison), rather than restructuring the grammar. The claim that rewriting always works is a common misconception — it conflates 'disambiguation is always possible' with 'every ambiguous grammar has an equivalent unambiguous one.'"

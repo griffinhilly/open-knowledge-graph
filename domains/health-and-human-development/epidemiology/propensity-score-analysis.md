@@ -61,7 +61,7 @@ Start with a simple observational dataset and manually calculate propensity scor
   answer: false
   explanation: "This is the most important misconception about propensity scores. Both propensity score methods and regression adjustment require the same identifying assumption: all confounders are measured and included in the model. Propensity score analysis offers advantages in transparency, covariate balance checking, and handling high-dimensional covariates — but it does not address unmeasured confounding. It is a different tool, not a stronger one in terms of causal identification."
 
-- question: "After propensity score matching, achieving near-zero standardized mean differences for all covariates is evidence that the propensity score model was correctly specified."
+- question: "After propensity score matching, achieving near-zero standardized mean differences for most covariates is evidence that the propensity score model was correctly specified."
   type: true-false
   answer: false
   explanation: "Balance is a property of the matched sample, not proof of correct model specification. A misspecified propensity score model can still produce good balance on observed covariates in practice. Balance should always be checked, but good balance cannot rule out model misspecification — and more importantly, it says nothing about whether unmeasured confounders are balanced between groups."

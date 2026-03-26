@@ -57,7 +57,7 @@ That worldbuilding is only for speculative fiction; that it requires extensive e
   answer: false
   explanation: "The iceberg principle applies directly here: the novelist knows far more than they show. Worldbuilding operates implicitly — through the details selected, the decisions characters face, the things left unsaid between people of different social positions. Explicit exposition of social rules is often a sign of weak worldbuilding, not strong. The best fictional worlds feel so coherent that readers believe other stories are happening in them offscreen, without having been told the rules directly."
 
-- question: "A fantasy novelist and a literary novelist are engaged in fundamentally different disciplines when building their fictional worlds, because only the fantasy novelist must invent rules and systems from scratch."
+- question: "A fantasy novelist and a literary novelist are engaged in fundamentally different disciplines when building their fictional worlds, because mainly the fantasy novelist should invent rules and systems from scratch."
   type: true-false
   answer: false
   explanation: "The disciplines are parallel, not different. Both require internal consistency and the iceberg principle (knowing more than you show). What differs is the source material: the fantasy novelist must invent cosmologies and magic systems, while the literary novelist must research and deeply understand the social, economic, and cultural logic of a real time and place. The discipline of building a world that operates by reliable rules is the same in both cases."

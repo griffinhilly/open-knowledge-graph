@@ -57,7 +57,7 @@ Older instruments are necessarily simpler than modern ones; orchestral instrumen
   answer: true
   explanation: "Early electric guitar amplification aimed to faithfully reproduce the acoustic guitar's sound — feedback and distortion were problems to be eliminated. Rock and blues guitarists discovered that these 'flaws' could be controlled and used expressively: sustained notes, overdriven amplifier tones, and controlled feedback became defining elements of the vocabulary. This is a clear case of technique evolving to exploit what the technology made possible, rather than technology being designed to meet a pre-existing expressive need."
 
-- question: "Musical instrument design follows a linear progression toward objectively better instruments, with modern instruments superior to historical ones in every meaningful way."
+- question: "Musical instrument design follows a linear progression toward objectively better instruments, with modern instruments superior to historical ones in nearly every meaningful way."
   type: true-false
   answer: false
   explanation: "This is one of the common misconceptions listed for this topic. Instrument development involves design tradeoffs, not a single axis of improvement. The modern concert grand piano demands trained technique but offers extraordinary expressive range; the harpsichord's touch-insensitivity is a 'limitation' only if you need dynamics. Period performance practice has shown that Baroque music performed on instruments of its era reveals textural and coloristic qualities lost on modern orchestral instruments. 'Better' depends entirely on what the music requires — and different eras had different requirements."

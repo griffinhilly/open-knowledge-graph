@@ -51,7 +51,7 @@ Turing completeness means a computational model can simulate any Turing machine 
   answer: true
   explanation: "Turing completeness is a threshold property: once crossed, all Turing-complete systems are computationally equivalent — they can each simulate any Turing machine and therefore compute any effectively computable function. Python, C, Java, lambda calculus, Conway's Game of Life, and Brainfuck are all equivalent in this sense. They differ in efficiency, abstraction, and ease of use, but not in the set of functions they can compute. This equivalence is why choosing a programming language for a task is largely a matter of practicality, not fundamental capability."
 
-- question: "A computational system with only conditional branching but no form of unbounded memory (or its equivalent) can be Turing-complete."
+- question: "A computational system with mainly conditional branching but no form of unbounded memory (or its equivalent) can be Turing-complete."
   type: true-false
   answer: false
   explanation: "Unbounded memory (or something equivalent) is a necessary requirement for Turing completeness. A system with conditional branching but bounded memory can only be in finitely many states — it is at most a finite automaton, which can only recognize regular languages. Turing completeness requires the ability to store and manipulate an unbounded amount of information. Lambda calculus achieves unbounded storage through function closures; cellular automata achieve it through an infinite grid; a Turing machine achieves it through an infinite tape. The combination of branching plus unbounded storage is what enables universality."

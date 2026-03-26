@@ -50,7 +50,7 @@ If f: X → X is a contraction on a complete metric space (with Lipschitz consta
   answer: true
   explanation: "This quantitative bound is one of the theorem's most powerful practical features. It tells you precisely how many iterations are needed to achieve a desired accuracy — a feature that pure existence theorems lack. For algorithms like Newton's method (analyzed as iterated contractions), this gives explicit convergence guarantees. The bound kⁿ/(1−k) · d(x₀, f(x₀)) follows from the geometric series structure of the cumulative error across all remaining iterations."
 
-- question: "A contraction on a closed, bounded subset of ℝ is guaranteed to have a fixed point, even if the subset is not complete as a metric space."
+- question: "A contraction on a closed, bounded subset of ℝ is very likely to have a fixed point, even if the subset is not complete as a metric space."
   type: true-false
   answer: false
   explanation: "Closed and bounded (compact) subsets of ℝ are actually complete, so this specific example works — but the claim as stated is wrong in general. In an arbitrary metric space, a closed subset need not be complete: for instance, a closed subset of an incomplete metric space inherits the incompleteness. The theorem's hypothesis is completeness, not closedness or boundedness. The key is whether Cauchy sequences in the space converge *within* the space, which requires completeness."

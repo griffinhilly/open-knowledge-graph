@@ -46,7 +46,7 @@ The time-independent Schrödinger equation Ĥφ = Eφ determines allowed energie
   answer: 1
   explanation: "|Ψ(x,t)|² = |φₙ(x)e^(−iEₙt/ℏ)|² = |φₙ(x)|²·|e^(−iEₙt/ℏ)|² = |φₙ(x)|², because the magnitude of any complex exponential e^(iθ) is 1. The time-dependent phase factor cancels when you take the modulus squared, leaving a probability distribution that is identical at every time. 'Stationary' means the probabilities don't change — not that the particle is frozen or that the wave function isn't oscillating."
 
-- question: "Energy quantization in bound quantum systems is a physical assumption that must be imposed on the Schrödinger equation from outside."
+- question: "Energy quantization in bound quantum systems is a physical assumption that should be imposed on the Schrödinger equation from outside."
   type: true-false
   answer: false
   explanation: "This is the key insight: quantization is a mathematical consequence, not an additional physical assumption. When you solve Ĥφ = Eφ and require that solutions be normalizable and satisfy boundary conditions, you find that acceptable solutions exist only for a discrete set of energies. The mathematics forces quantization on you. This is why the eigenvalue approach is so powerful — it derives the energy spectrum rather than assuming it."

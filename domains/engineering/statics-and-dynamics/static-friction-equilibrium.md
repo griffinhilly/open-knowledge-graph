@@ -47,7 +47,7 @@ Static friction acts to prevent relative motion between surfaces and can vary fr
   answer: 2
   explanation: "The correct approach is: (1) assume equilibrium and treat friction as an unknown, (2) apply equilibrium equations to find the required friction force f, (3) check whether |f| ≤ μ_s·N. If yes, equilibrium holds and f is the correct friction force. If no, friction cannot provide the required force and the block slides. Setting f = μ_s·N from the start (option A) is only valid when the problem explicitly states that motion is impending. Using μ_k (option B) applies only to already-sliding bodies."
 
-- question: "Static friction always acts in the direction opposite to the applied external force."
+- question: "Static friction generally acts in the direction opposite to the applied external force."
   type: true-false
   answer: false
   explanation: "Static friction opposes the *tendency of motion* — the direction the object would move if the surface were frictionless — not necessarily the direction of the applied external force. On a block resting on an incline with no other forces, gravity creates a downward-slope tendency, so friction acts up the slope (not opposite to gravity). If you also push the block hard enough up the slope, the tendency of motion reverses and friction can act down the slope. The correct rule: identify which direction the object would slide without friction, and friction acts opposite to that tendency."

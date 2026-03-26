@@ -55,7 +55,7 @@ For a rigid body rotating about a fixed axis, angular momentum L = I ω, where I
   answer: true
   explanation: "τ_net = dL/dt implies that when τ_net = 0, L is constant — not just its magnitude but the entire vector, including direction. This is why a gyroscope resists tipping: applying a torque changes the direction of L (causing precession) rather than reducing its magnitude, but without any torque, both the spin rate and the spin axis remain fixed. Conservation of angular momentum is a direct consequence of zero net external torque."
 
-- question: "For any rotating rigid body, the angular momentum vector L always points in the same direction as the angular velocity vector ω."
+- question: "For any rotating rigid body, the angular momentum vector L generally points in the same direction as the angular velocity vector ω."
   type: true-false
   answer: false
   explanation: "L ∥ ω only when the rotation is about a principal axis (an eigenvector of the inertia tensor). For rotation about an arbitrary axis, L = Iω where I is the full 3×3 inertia tensor matrix, and the matrix multiplication generally produces a vector not parallel to ω. This misalignment is why an asymmetric object thrown in the air wobbles: ω and L point in different directions, and ω precesses around L. Stable, non-wobbling rotation occurs only about the principal axes."

@@ -52,7 +52,7 @@ The joint distribution of (X, Y) is a probability measure on ℝ² induced by th
   answer: true
   explanation: "The bivariate normal with correlation ρ ∈ (0,1) has standard normal marginals for any value of ρ. The marginals tell you only about the individual variables; the correlation — encoded in the joint distribution — is invisible from the marginals alone. This is precisely why the joint distribution contains strictly more information than the pair of marginals."
 
-- question: "If the joint density factors as f(x,y) = fₓ(x) · f_Y(y) for all (x,y), then X and Y must have the same marginal distribution."
+- question: "If the joint density factors as f(x,y) = fₓ(x) · f_Y(y) for most (x,y), then X and Y is expected to have the same marginal distribution."
   type: true-false
   answer: false
   explanation: "Independence (joint = product of marginals) places no restriction on the relationship between fₓ and f_Y. X could be exponential and Y could be uniform, and they could still be independent — as long as f(x,y) = fₓ(x)·f_Y(y). The factorization condition says the joint contains no additional information beyond the marginals separately; it says nothing about whether those marginals are similar to each other."
