@@ -735,12 +735,20 @@ canvas {{ display:block; touch-action:none; }}
   .legend-dot {{ width:8px; height:8px; }}
   .legend-label {{ font-size:10px; }}
   #nav {{ padding:4px 8px; gap:6px; }}
-  #nav a {{ font-size:11px; padding:2px 4px; }}
-  #controls button {{ padding:3px 8px; font-size:11px; }}
-  #panel {{ max-width:calc(100vw - 32px); left:16px !important; right:16px !important; }}
+  #nav a {{ font-size:11px; padding:4px 8px; }}
+  #controls {{ padding:6px 8px; }}
+  #controls button {{ padding:8px 14px; font-size:14px; min-width:44px; min-height:44px; }}
+  #panel {{
+    position:fixed !important; left:0 !important; right:0 !important;
+    bottom:0 !important; top:auto !important;
+    max-width:100% !important; width:100% !important;
+    max-height:50vh; border-radius:16px 16px 0 0; border-bottom:none;
+    padding:16px 20px 24px; box-sizing:border-box;
+  }}
+  #panel .panel-close {{ top:12px; right:14px; font-size:24px; padding:8px; }}
   #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
   #search input {{ flex:1; width:auto; }}
-  #tooltip {{ max-width:200px; font-size:11px; }}
+  #tooltip {{ display:none !important; }}
 }}
 </style>
 </head>
@@ -751,7 +759,7 @@ canvas {{ display:block; touch-action:none; }}
 <div id="stats">
   <h2>{title}</h2>
   <p>{n_topics} topics &middot; {n_edges} edges &middot; {n_courses} course{"" if n_courses == 1 else "s"}</p>
-  <p>Scroll to zoom &middot; Drag to pan &middot; Hover for details &middot; Click to open</p>
+  <p id="helpText">Scroll to zoom &middot; Drag to pan &middot; Hover for details &middot; Click to open</p>
 </div>
 
 <div id="legend"></div>
@@ -918,6 +926,10 @@ function roundRect(x, y, w, h, r) {{
 }}
 
 // --- Drawing ---
+var _rafId = 0;
+function requestDraw() {{
+  if (!_rafId) _rafId = requestAnimationFrame(function() {{ _rafId = 0; draw(); }});
+}}
 function draw() {{
   ctx.save();
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -932,8 +944,22 @@ function draw() {{
 
   // (Course separators removed — box colors convey course identity)
 
+  // Viewport culling bounds (world coordinates)
+  var vpLeft = (0 - W / 2 - camX) / camScale + W / 2;
+  var vpRight = (W - W / 2 - camX) / camScale + W / 2;
+  var vpTop = (0 - H / 2 - camY) / camScale + H / 2;
+  var vpBottom = (H - H / 2 - camY) / camScale + H / 2;
+  var vpPad = 100;
+
   // Edges (bezier curves from bottom of source to top of target)
+  var skipSoft = camScale < 0.2;
   edgeData.forEach(function(e) {{
+    if (skipSoft && e.type === "soft") return;
+    // Cull edges fully outside viewport
+    if (e.s.x < vpLeft - vpPad && e.t.x < vpLeft - vpPad) return;
+    if (e.s.x > vpRight + vpPad && e.t.x > vpRight + vpPad) return;
+    if (e.s.y < vpTop - vpPad && e.t.y < vpTop - vpPad) return;
+    if (e.s.y > vpBottom + vpPad && e.t.y > vpBottom + vpPad) return;
     var sx = e.s.x, sy = e.s.y + e.s.h / 2;
     var tx = e.t.x, ty = e.t.y - e.t.h / 2;
     var midY = (sy + ty) / 2;
@@ -955,6 +981,9 @@ function draw() {{
   // Nodes (boxed labels)
   var showText = camScale > 0.25;
   data.nodes.forEach(function(n) {{
+    // Viewport culling
+    if (n.x + n.w / 2 < vpLeft - vpPad || n.x - n.w / 2 > vpRight + vpPad ||
+        n.y + n.h / 2 < vpTop - vpPad || n.y - n.h / 2 > vpBottom + vpPad) return;
     var bx = n.x - n.w / 2, by = n.y - n.h / 2;
     roundRect(bx, by, n.w, n.h, 4);
     if (showFluency && effectiveScores) {{
@@ -1109,6 +1138,7 @@ var isDragging = false, dragStartX, dragStartY;
 var dragMoved = false;
 var mouseDownX = 0, mouseDownY = 0;
 var lastTouchTime = 0;
+var lastTapTime = 0, lastTapX = 0, lastTapY = 0;
 
 canvas.addEventListener("mousemove", function(e) {{
   if (Date.now() - lastTouchTime < 500) return;
@@ -1119,7 +1149,7 @@ canvas.addEventListener("mousemove", function(e) {{
       dragMoved = true;
     camX += dx; camY += dy;
     dragStartX = e.clientX; dragStartY = e.clientY;
-    draw();
+    requestDraw();
     tooltip.style.display = "none";
     return;
   }}
@@ -1183,7 +1213,7 @@ canvas.addEventListener("wheel", function(e) {{
   var r = camScale / oldScale;
   camX = camX * r + (e.clientX - W / 2) * (1 - r);
   camY = camY * r + (e.clientY - H / 2) * (1 - r);
-  draw();
+  requestDraw();
 }}, {{ passive: false }});
 
 // --- Panel ---
@@ -1221,13 +1251,15 @@ function showPanel(node, sx, sy) {{
   }}
   panel.innerHTML = html;
   panel.style.display = "block";
-  var px = sx + 20, py = sy - 20;
-  if (px + 390 > W) px = sx - 400;
-  if (py + 300 > H) py = H - 320;
-  if (py < 10) py = 10;
-  if (px < 10) px = 10;
-  panel.style.left = px + "px";
-  panel.style.top = py + "px";
+  if (W > 768) {{
+    var px = sx + 20, py = sy - 20;
+    if (px + 390 > W) px = sx - 400;
+    if (py + 300 > H) py = H - 320;
+    if (py < 10) py = 10;
+    if (px < 10) px = 10;
+    panel.style.left = px + "px";
+    panel.style.top = py + "px";
+  }}
   panel.querySelectorAll(".panel-item").forEach(function(el) {{
     el.addEventListener("click", function() {{
       var tid = el.getAttribute("data-id");
@@ -1283,7 +1315,7 @@ canvas.addEventListener("touchmove", function(e) {{
     lastTouchX = e.touches[0].clientX; lastTouchY = e.touches[0].clientY;
     if (Math.hypot(e.touches[0].clientX - touchStartX, e.touches[0].clientY - touchStartY) > 15)
       dragMoved = true;
-    draw();
+    requestDraw();
   }} else if (e.touches.length === 2) {{
     var dist = touchDist(e.touches);
     var c = touchCenter(e.touches);
@@ -1299,7 +1331,7 @@ canvas.addEventListener("touchmove", function(e) {{
     lastPinchDist = dist;
     lastTouchX = c.x; lastTouchY = c.y;
     dragMoved = true;
-    draw();
+    requestDraw();
   }}
 }}, {{ passive: false }});
 
@@ -1309,13 +1341,39 @@ canvas.addEventListener("touchend", function(e) {{
   if (e.touches.length === 0) {{
     isDragging = false; lastPinchDist = 0;
     if (!dragMoved) {{
-      var p = screenToWorld(lastTouchX, lastTouchY);
-      var hit = hitTest(p.x, p.y);
-      if (hit) {{
-        hoveredNode = hit; draw();
-        showPanel(hit, lastTouchX, lastTouchY);
+      // Double-tap to zoom
+      var now = Date.now();
+      if (now - lastTapTime < 300 && Math.hypot(lastTouchX - lastTapX, lastTouchY - lastTapY) < 30) {{
+        var oldScale = camScale;
+        camScale = Math.min(20, camScale * 2.5);
+        var r = camScale / oldScale;
+        camX = camX * r + (lastTouchX - W / 2) * (1 - r);
+        camY = camY * r + (lastTouchY - H / 2) * (1 - r);
+        lastTapTime = 0;
+        hidePanel();
+        draw();
       }} else {{
-        hoveredNode = null; draw(); hidePanel();
+        lastTapTime = now;
+        lastTapX = lastTouchX; lastTapY = lastTouchY;
+        // Tap — hit detection with expanded touch targets
+        var p = screenToWorld(lastTouchX, lastTouchY);
+        var hit = hitTest(p.x, p.y);
+        if (!hit) {{
+          var expand = Math.max(12, 12 / camScale);
+          for (var i = data.nodes.length - 1; i >= 0; i--) {{
+            var n = data.nodes[i];
+            if (p.x >= n.x - n.w / 2 - expand && p.x <= n.x + n.w / 2 + expand &&
+                p.y >= n.y - n.h / 2 - expand && p.y <= n.y + n.h / 2 + expand) {{
+              hit = n; break;
+            }}
+          }}
+        }}
+        if (hit) {{
+          hoveredNode = hit; draw();
+          showPanel(hit, lastTouchX, lastTouchY);
+        }} else {{
+          hoveredNode = null; draw(); hidePanel();
+        }}
       }}
     }}
   }} else if (e.touches.length === 1) {{
@@ -1380,6 +1438,13 @@ document.addEventListener("keydown", function(e) {{
     searchInput.blur(); draw();
   }}
 }});
+
+// Touch device: update help text and search placeholder
+if ("ontouchstart" in window || navigator.maxTouchPoints > 0) {{
+  var ht = document.getElementById("helpText");
+  if (ht) ht.textContent = "Pinch to zoom \u00b7 Drag to pan \u00b7 Tap for details \u00b7 Double-tap to zoom in";
+  searchInput.placeholder = "Search topics...";
+}}
 </script>
 </body>
 </html>"""

@@ -732,12 +732,19 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   #stats p ~ p {{ display:none; }}
   #nav {{ top:auto; bottom:60px; left:8px; transform:none; padding:4px 8px; gap:6px; }}
   #nav a {{ font-size:11px; padding:4px 8px; }}
-  #controls {{ top:8px; right:8px; }}
-  #controls button {{ padding:4px 10px; font-size:13px; }}
-  #panel {{ max-width:calc(100vw - 32px); left:16px !important; right:16px !important; }}
+  #controls {{ top:8px; right:8px; padding:6px 8px; }}
+  #controls button {{ padding:8px 14px; font-size:14px; min-width:44px; min-height:44px; }}
+  #panel {{
+    position:fixed !important; left:0 !important; right:0 !important;
+    bottom:0 !important; top:auto !important;
+    max-width:100% !important; width:100% !important;
+    max-height:50vh; border-radius:16px 16px 0 0; border-bottom:none;
+    padding:16px 20px 24px; box-sizing:border-box;
+  }}
+  #panel .panel-close {{ top:12px; right:14px; font-size:24px; padding:8px; }}
   #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
   #search input {{ flex:1; width:auto; }}
-  #tooltip {{ max-width:200px; font-size:11px; }}
+  #tooltip {{ display:none !important; }}
 }}
 </style>
 </head>
@@ -751,7 +758,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 <div id="stats">
   <h2>{title}</h2>
   <p>{n_topics} topics &middot; {n_edges} edges &middot; {n_domains} domains</p>
-  <p>Scroll to zoom &middot; Drag to pan &middot; Hover for details</p>
+  <p id="helpText">Scroll to zoom &middot; Drag to pan &middot; Hover for details</p>
   <p style="margin-top:6px; color:#444;">Inner &rarr; early childhood &nbsp;&middot;&nbsp; Outer &rarr; graduate</p>
 </div>
 
@@ -1005,6 +1012,7 @@ function drawHighlight(node) {{
 // --- Mouse interaction ---
 let isDragging = false, dragStartX, dragStartY;
 let lastTouchTime = 0;
+let lastTapTime = 0, lastTapX = 0, lastTapY = 0;
 let hoveredNode = null;
 let selectedNode = null;
 let searchMatches = [];
@@ -1154,13 +1162,15 @@ function showPanel(node, screenX, screenY) {{
 
   panel.innerHTML = html;
   panel.style.display = "block";
-  // Position panel near click but keep on screen
-  let px = screenX + 20, py = screenY - 20;
-  if (px + 400 > W) px = screenX - 400;
-  if (py + 300 > H) py = H - 300;
-  if (py < 10) py = 10;
-  panel.style.left = px + "px";
-  panel.style.top = py + "px";
+  if (W > 768) {{
+    // Position panel near click but keep on screen
+    let px = screenX + 20, py = screenY - 20;
+    if (px + 400 > W) px = screenX - 400;
+    if (py + 300 > H) py = H - 300;
+    if (py < 10) py = 10;
+    panel.style.left = px + "px";
+    panel.style.top = py + "px";
+  }}
 
   // Click on prereq/successor item to select that node
   panel.querySelectorAll(".panel-item").forEach(el => {{
@@ -1317,22 +1327,33 @@ canvas.addEventListener("touchend", (e) => {{
     isDragging = false;
     lastPinchDist = 0;
     if (!dragMoved) {{
-      // Tap — do hit detection at touch point
-      const p = screenToWorld(lastTouchX, lastTouchY);
-      let closest = null, closestDist = Infinity;
-      data.nodes.forEach(n => {{
-        const d = Math.hypot(n.x - p.x, n.y - p.y);
-        if (d < closestDist) {{ closestDist = d; closest = n; }}
-      }});
-      const hitRadius = Math.max(nodeRadius * 3, 18) / camScale;
-      if (closest && closestDist < hitRadius) {{
-        hoveredNode = closest;
-        draw();
-        showPanel(closest, lastTouchX, lastTouchY);
-      }} else {{
-        hoveredNode = null;
-        draw();
+      // Double-tap to zoom
+      const now = Date.now();
+      if (now - lastTapTime < 300 && Math.hypot(lastTouchX - lastTapX, lastTouchY - lastTapY) < 30) {{
+        camScale = Math.min(20, camScale * 2.5);
+        lastTapTime = 0;
         hidePanel();
+        draw();
+      }} else {{
+        lastTapTime = now;
+        lastTapX = lastTouchX; lastTapY = lastTouchY;
+        // Tap — do hit detection at touch point (generous radius)
+        const p = screenToWorld(lastTouchX, lastTouchY);
+        let closest = null, closestDist = Infinity;
+        data.nodes.forEach(n => {{
+          const d = Math.hypot(n.x - p.x, n.y - p.y);
+          if (d < closestDist) {{ closestDist = d; closest = n; }}
+        }});
+        const hitRadius = Math.max(nodeRadius * 3, 18) / camScale;
+        if (closest && closestDist < hitRadius) {{
+          hoveredNode = closest;
+          draw();
+          showPanel(closest, lastTouchX, lastTouchY);
+        }} else {{
+          hoveredNode = null;
+          draw();
+          hidePanel();
+        }}
       }}
     }}
   }} else if (e.touches.length === 1) {{
@@ -1341,6 +1362,14 @@ canvas.addEventListener("touchend", (e) => {{
     lastPinchDist = 0;
   }}
 }}, {{ passive: false }});
+
+// Touch device: update help text and search placeholder
+if ("ontouchstart" in window || navigator.maxTouchPoints > 0) {{
+  const ht = document.getElementById("helpText");
+  if (ht) ht.textContent = "Pinch to zoom \u00b7 Drag to pan \u00b7 Tap for details \u00b7 Double-tap to zoom in";
+  const si = document.getElementById("searchInput");
+  if (si) si.placeholder = "Search topics...";
+}}
 </script>
 </body>
 </html>"""
