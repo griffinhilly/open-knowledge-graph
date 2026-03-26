@@ -4,9 +4,9 @@ title: Negation of Quantified Statements
 domain: mathematics
 course: methods-of-proof
 prerequisites:
-- id: predicates-and-quantifiers-intro
+- id: predicates-and-quantifiers
   type: hard
-- id: logical-equivalences-intro
+- id: logical-equivalences
   type: soft
 builds-toward:
 - proof-by-contradiction

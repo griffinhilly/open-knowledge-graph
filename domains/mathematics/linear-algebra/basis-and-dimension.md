@@ -6,12 +6,12 @@ course: linear-algebra
 prerequisites:
 - id: linear-independence
   type: hard
-- id: span-of-vectors
+- id: span-and-basis
   type: hard
 - id: span-and-basis
   type: soft
 builds-toward:
-- rank-and-nullity-theorem
+- rank-nullity-theorem
 - change-of-basis
 tags:
 - basis

@@ -9,7 +9,7 @@ prerequisites:
 - id: mean-value-theorem
   type: soft
 builds-toward:
-- condition-number-of-matrix
+- condition-number-of-a-matrix
 tags:
 - condition-number
 - conditioning

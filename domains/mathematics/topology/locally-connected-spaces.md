@@ -4,7 +4,7 @@ title: Locally Connected Spaces
 domain: mathematics
 course: topology
 prerequisites:
-- id: connected-spaces-definition
+- id: connected-spaces
   type: hard
 - id: neighborhoods-topology-definition
   type: soft

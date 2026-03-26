@@ -11,7 +11,7 @@ prerequisites:
 - id: sequences-convergence-topology
   type: soft
 builds-toward:
-- completeness-metric-spaces-definition
+- completeness-metric-spaces
 tags:
 - cauchy-sequences
 - convergence

@@ -6,8 +6,7 @@ course: macroeconomics
 prerequisites:
 - id: foreign-exchange-market-mechanics
   type: hard
-builds-toward:
-- purchasing-power-parity-absolute
+builds-toward: []
 tags:
 - ppp
 - exchange-rates

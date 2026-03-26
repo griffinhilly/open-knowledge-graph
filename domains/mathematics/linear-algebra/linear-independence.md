@@ -4,13 +4,13 @@ title: Linear Independence and Linear Dependence
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vector-spaces-definition
+- id: vector-spaces
   type: hard
 - id: scalar-multiplication
   type: hard
 builds-toward:
 - basis-definition
-- span-spanning-set
+- span-and-basis
 tags:
 - linear independence
 - dependence

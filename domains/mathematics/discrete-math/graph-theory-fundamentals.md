@@ -5,7 +5,7 @@ domain: mathematics
 course: discrete-math
 prerequisites: []
 builds-toward:
-- graph-representation-methods
+- graph-representation
 - degree-sequences-graphs
 tags:
 - graph-theory

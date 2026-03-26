@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - divide-and-conquer-strategy
 - dynamic-programming-intro
-- recurrence-relations-analysis-techniques
 tags:
 - recursion
 - recurrence

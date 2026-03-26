@@ -6,7 +6,7 @@ course: linear-algebra
 prerequisites:
 - id: matrix-multiplication
   type: hard
-- id: matrices-intro-linear-algebra
+- id: matrices-definition
   type: soft
 builds-toward:
 - systems-of-linear-equations

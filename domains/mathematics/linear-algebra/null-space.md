@@ -9,7 +9,7 @@ prerequisites:
 - id: gaussian-elimination
   type: hard
 builds-toward:
-- rank-and-nullity-theorem
+- rank-nullity-theorem
 tags:
 - null-space
 - kernel

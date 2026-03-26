@@ -4,7 +4,7 @@ title: Matrix Exponential Method
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: systems-first-order-linear-odes
+- id: systems-of-first-order-linear-odes
   type: hard
 - id: diagonalization
   type: hard

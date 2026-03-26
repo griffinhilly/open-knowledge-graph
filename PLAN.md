@@ -2,24 +2,22 @@
 
 ## Current State
 
-Phase 9C DONE. **13,393 topics** across 19 domains, 197 courses.
+Phase 9C DONE. **13,302 topics** across 19 domains, 197 courses.
 
-**Last session (Mar 25, 2026):** CI pipeline, pre-push hook, leaf connections (3,959 across all 19 domains, 20.8% leaf rate), hierarchy→domain map swap, radial branch integration, PyYAML swap, 36-pair dedup, domain map improvements (search auto-pan, cross-domain sizing/badges), radial color redesign (stride-8 hue permutation), CS ref fix (98 dangling refs), Phase 9C (Deep Dive + results redesign + fluency model fixes).
+**Last session (Mar 26, 2026):** Math dedup sweep — 91 duplicate pairs merged across all math courses (linear algebra 26, differential equations 15, numerical analysis 18, methods of proof 5, multivariable calculus 8, measure theory 7, topology 5, other 7). 205 reference redirections, 19 self-refs fixed, 9 introduced cycles broken. Validation: 0 errors.
 
 **Known issues:**
 - Semantic zoom not implemented (single zoom level with text toggle)
-- ~180 lower-confidence potential duplicates remaining (score 0.5-0.8)
-- 20+ near-duplicate pairs in mathematics (naming inconsistencies, especially in linear algebra and differential equations)
+- ~180 lower-confidence potential duplicates remaining (score 0.5-0.8) in non-math domains
 - Language-and-communication still at 44% leaves (highest remaining)
 - T/F question quality: absolutes give away answers (content generation issue)
 - Child development meta-questions: questions about child development rather than for children (content issue)
 - Quiz HTML is 5.8MB due to embedded prereq graph — could be optimized
 
 **Next steps:**
-1. **Math dedup sweep**: 20+ near-duplicate pairs identified in linear algebra, differential equations, numerical analysis
-2. **Phase 9D**: Landing page redesign ("Explore the Map" vs "Personalize Your Map"), domain toggle on radial, progress bars, guided learning paths
-3. **Content quality**: T/F absolute rewording, child dev meta-question audit
-4. Write announcement post
+1. **Phase 9D**: Landing page redesign ("Explore the Map" vs "Personalize Your Map"), domain toggle on radial, progress bars, guided learning paths
+2. **Content quality**: T/F absolute rewording, child dev meta-question audit
+3. Write announcement post
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)

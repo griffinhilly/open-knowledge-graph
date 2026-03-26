@@ -13,7 +13,7 @@ prerequisites:
 builds-toward:
   - logical-equivalence
   - logical-equivalence-propositional
-  - logical-equivalences-intro
+  - logical-equivalences
   - propositional-logic-introduction
 tags: [equivalence, logic, truth-tables, tautology]
 stage: abstract-reasoning

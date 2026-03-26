@@ -4,7 +4,7 @@ title: Strong Induction and the Well-Ordering Principle
 domain: mathematics
 course: methods-of-proof
 prerequisites:
-- id: mathematical-induction-intro
+- id: mathematical-induction
   type: hard
 tags:
 - proof

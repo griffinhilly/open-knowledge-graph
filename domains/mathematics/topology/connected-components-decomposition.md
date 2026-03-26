@@ -4,7 +4,7 @@ title: Connected Components
 domain: mathematics
 course: topology
 prerequisites:
-- id: connected-spaces-definition
+- id: connected-spaces
   type: hard
 tags:
 - connected-components

@@ -6,7 +6,7 @@ course: discrete-math
 prerequisites:
 - id: fibonacci-sequence-properties
   type: hard
-- id: mathematical-induction-intro
+- id: mathematical-induction
   type: soft
 tags:
 - sequences

@@ -7,7 +7,7 @@ prerequisites:
 - id: sigma-algebras-and-measurable-sets
   type: hard
 builds-toward:
-- measure-spaces-definition
+- measure-spaces
 - null-sets-almost-everywhere
 tags:
 - measure-theory

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
-- id: line-integrals-definition-properties
+- id: line-integrals
   type: hard
 builds-toward:
 - displacement-current-and-maxwell

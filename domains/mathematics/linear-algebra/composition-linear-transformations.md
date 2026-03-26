@@ -4,7 +4,7 @@ title: Composition of Linear Transformations
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: matrix-representation-linear-transformations
+- id: linear-transformation-matrix-representation
   type: hard
 builds-toward:
 - eigenvalues-and-eigenvectors

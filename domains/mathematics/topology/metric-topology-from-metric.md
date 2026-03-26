@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - compact-metric-spaces
-- completeness-metric-spaces-definition
+- completeness-metric-spaces
 tags:
 - metric-topology
 - induced-topology

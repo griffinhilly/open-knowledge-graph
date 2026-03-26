@@ -9,7 +9,7 @@ prerequisites:
 - id: eigenvalues-and-eigenvectors
   type: hard
 builds-toward:
-- phase-portraits-for-linear-systems
+- phase-portraits-linear-systems
 tags:
 - systems
 - eigenvalue

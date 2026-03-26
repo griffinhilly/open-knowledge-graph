@@ -12,7 +12,7 @@ prerequisites:
   type: hard
 - id: linear-algebra
   type: soft
-- id: partial-derivatives-definition
+- id: partial-derivatives
   type: hard
 - id: implicit-differentiation-multivariable
   type: soft

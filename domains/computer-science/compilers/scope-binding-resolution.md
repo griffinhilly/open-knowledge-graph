@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: symbol-tables-and-scope
   type: hard
-builds-toward:
-- scope-binding-resolution
+builds-toward: []
 tags:
 - scoping
 - name-resolution

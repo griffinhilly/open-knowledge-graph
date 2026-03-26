@@ -4,7 +4,7 @@ title: Set Theory Fundamentals
 domain: mathematics
 course: methods-of-proof
 prerequisites:
-- id: predicates-and-quantifiers-intro
+- id: predicates-and-quantifiers
   type: hard
 builds-toward:
 - set-operations-union-intersection-complement

@@ -6,10 +6,10 @@ course: linear-algebra
 prerequisites:
 - id: column-space
   type: hard
-- id: matrix-transpose-properties
+- id: matrix-transpose
   type: soft
 builds-toward:
-- rank-and-nullity-theorem
+- rank-nullity-theorem
 tags:
 - row space
 - row operations

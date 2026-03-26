@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
 - bifurcation-in-odes
 - stability-classification
-- phase-portraits-for-linear-systems
+- phase-portraits-linear-systems
 tags:
 - qualitative
 - stability

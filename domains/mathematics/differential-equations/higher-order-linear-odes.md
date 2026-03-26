@@ -9,7 +9,7 @@ prerequisites:
 - id: variation-of-parameters
   type: soft
 builds-toward:
-- systems-first-order-linear-odes
+- systems-of-first-order-linear-odes
 tags:
 - higher-order
 - linear

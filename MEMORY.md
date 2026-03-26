@@ -1,7 +1,7 @@
 # Open Knowledge Graph Memory
 
-## Status (Mar 25, 2026)
-- **13,393 topics** across **19 domains**, **197 courses**
+## Status (Mar 26, 2026)
+- **13,302 topics** across **19 domains**, **197 courses**
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **All topics at `status: validated`**, **100% Q+E coverage**
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
@@ -57,4 +57,6 @@
 - **Click-vs-drag in canvas views**: If two `mousemove` handlers share `dragStartX/Y`, track original position separately (`mouseDownX/Y`) for displacement detection.
 - **Dedup agents introduce cycles**: Batch find-and-replace during dedup can create mutual prerequisite references. Always run cycle detection after dedup swarms. Also: broad text replace can corrupt IDs when delete_id is substring of keep_id (e.g., `prose-poetry` → `prose-poetry-hybrid-form` corrupted the keep file's own ID).
 - **Dangling cross-domain refs**: 394 total across all domains (pre-existing, not from dedup). Mostly course names used as prereq IDs (`probability-and-statistics`, `macroeconomics`) instead of actual topic IDs. Doesn't affect domain maps (within-domain only).
-- **Validation (Mar 25)**: 13,411 topics, 0 self-refs, 0 within-domain cycles, 394 cross-domain dangling refs (pre-existing). Graph is structurally clean.
+- **Validation (Mar 26)**: 13,302 topics, 0 self-refs, 0 within-domain cycles. Graph is structurally clean after math dedup sweep (91 pairs merged).
+- **Dedup self-ref pattern**: When keep_file has builds-toward pointing to delete_id, the redirect creates a self-ref. The dedup script skips delete_file but not keep_file. Always run self-ref cleanup after dedup.
+- **Dedup cycle pattern**: Soft prereqs added by `connect_leaves.py` can point backwards pedagogically. When dedup merges nodes, these create cycles. Fix: remove the backwards soft prereq.

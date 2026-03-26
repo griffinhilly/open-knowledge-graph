@@ -6,7 +6,7 @@ course: numerical-analysis
 prerequisites:
 - id: machine-epsilon
   type: hard
-- id: machine-epsilon-and-rounding-errors
+- id: machine-epsilon
   type: soft
 builds-toward:
 - catastrophic-cancellation

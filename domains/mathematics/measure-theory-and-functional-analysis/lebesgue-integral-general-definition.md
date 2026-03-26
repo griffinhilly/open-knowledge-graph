@@ -9,7 +9,7 @@ prerequisites:
 - id: introduction-lebesgue-integral
   type: soft
 builds-toward:
-- lebesgue-integral-properties
+- lebesgue-integral
 - riemann-lebesgue-comparison
 - dominated-convergence-theorem
 tags:

@@ -6,7 +6,7 @@ course: linear-algebra
 prerequisites: []
 builds-toward:
 - vector-addition-subtraction
-- scalar-multiplication-vectors
+- scalar-multiplication
 - linear-transformations
 tags:
 - vectors

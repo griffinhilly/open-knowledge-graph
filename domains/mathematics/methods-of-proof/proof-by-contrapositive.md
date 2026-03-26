@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: proving-by-contrapositive
   type: soft
-- id: direct-proof-methods
+- id: direct-proof
   type: soft
 - id: counterexamples-and-disproofs
   type: soft

@@ -4,7 +4,7 @@ title: Positive Definite Matrices
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: symmetric-matrices-properties
+- id: symmetric-matrices
   type: hard
 builds-toward:
 - least-squares-approximation

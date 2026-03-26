@@ -7,7 +7,7 @@ prerequisites:
 - id: statements-and-logical-connectives
   type: hard
 builds-toward:
-- direct-proof-methods
+- direct-proof
 - proof-by-contrapositive
 - proof-by-contradiction
 tags:

@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: cross-product
   type: soft
-- id: cross-product-3d
+- id: cross-product
   type: soft
 builds-toward:
 - conservation-of-angular-momentum

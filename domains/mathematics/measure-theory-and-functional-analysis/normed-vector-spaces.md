@@ -7,7 +7,7 @@ prerequisites:
 - id: vector-spaces
   type: hard
 builds-toward:
-- banach-spaces-definition
+- banach-spaces
 tags:
 - functional-analysis
 - normed-spaces

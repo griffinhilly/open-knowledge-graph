@@ -4,7 +4,7 @@ title: Null Sets and Almost Everywhere
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: measure-spaces-definition
+- id: measure-spaces
   type: hard
 builds-toward:
 - lebesgue-integral-simple-functions

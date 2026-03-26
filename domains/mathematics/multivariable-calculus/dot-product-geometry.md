@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - directional-derivatives
-- gradient-vector-properties
+- gradient-vector
 tags:
 - dot-product
 - projections

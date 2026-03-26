@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: recurrence-relations
   type: soft
-- id: recurrence-relations-definition
+- id: recurrence-relations
   type: soft
 - id: recursion
   type: soft

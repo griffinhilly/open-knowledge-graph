@@ -4,7 +4,7 @@ title: Recurrence Relations and Their Definitions
 domain: mathematics
 course: discrete-math
 prerequisites:
-- id: recurrence-relations-definition
+- id: recurrence-relations
   type: hard
 - id: sequences-convergence
   type: soft

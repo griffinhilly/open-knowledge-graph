@@ -4,7 +4,7 @@ title: Product Measures
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: measure-spaces-definition
+- id: measure-spaces
   type: hard
 - id: signed-measures-hahn-jordan
   type: soft

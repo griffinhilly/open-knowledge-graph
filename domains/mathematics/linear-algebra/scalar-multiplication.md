@@ -4,11 +4,11 @@ title: Scalar Multiplication of Vectors
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vectors-in-rn-definition
+- id: vectors-in-rn
   type: hard
 builds-toward:
 - linear-independence
-- span-spanning-set
+- span-and-basis
 - basis-definition
 tags:
 - vectors

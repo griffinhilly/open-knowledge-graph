@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
-- id: eulers-method-ode
+- id: eulers-method
   type: soft
 builds-toward: []
 tags:

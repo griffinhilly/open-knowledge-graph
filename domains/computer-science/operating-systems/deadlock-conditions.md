@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: semaphores
   type: soft
-builds-toward:
-- deadlock-conditions
+builds-toward: []
 tags:
 - deadlock
 - Coffman-conditions

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: vector-spaces
   type: soft
-- id: linear-transformations-definition
+- id: linear-transformations
   type: soft
 - id: homological-dimension-intro
   type: soft

@@ -4,7 +4,7 @@ title: Orthogonality and Orthogonal Projections
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: hilbert-spaces-definition
+- id: hilbert-spaces
   type: hard
 builds-toward:
 - riesz-representation-hilbert

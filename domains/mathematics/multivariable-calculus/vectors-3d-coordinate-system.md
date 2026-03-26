@@ -7,9 +7,9 @@ prerequisites:
 - id: 3d-coordinate-systems
   type: hard
 builds-toward:
-- vector-magnitude-norm
+- vector-norms
 - dot-product
-- cross-product-3d
+- cross-product
 tags:
 - vectors
 - 3d

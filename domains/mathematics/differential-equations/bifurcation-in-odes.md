@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: phase-line-analysis
   type: hard
-- id: existence-and-uniqueness-theorems
+- id: existence-uniqueness-ode
   type: soft
 builds-toward:
 - linearization-of-nonlinear-systems

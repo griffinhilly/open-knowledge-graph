@@ -4,7 +4,7 @@ title: Total Differential and Linear Approximation
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: gradient-vector-definition
+- id: gradient-vector
   type: hard
 builds-toward:
 - tangent-planes

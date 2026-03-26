@@ -7,7 +7,7 @@ prerequisites:
 - id: minkowski-inequality-lp
   type: hard
 builds-toward:
-- banach-spaces-definition
+- banach-spaces
 tags:
 - lp-spaces
 - banach-spaces

@@ -4,7 +4,7 @@ title: Path Connected Spaces
 domain: mathematics
 course: topology
 prerequisites:
-- id: connected-spaces-definition
+- id: connected-spaces
   type: hard
 builds-toward:
 - connected-components-decomposition

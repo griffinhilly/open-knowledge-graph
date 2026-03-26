@@ -12,7 +12,7 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
-- id: rank-and-nullity-theorem
+- id: rank-nullity-theorem
   type: soft
 - id: state-transition-matrix
   type: soft

@@ -6,7 +6,7 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: simple-functions-approximation
   type: hard
-- id: measure-spaces-definition
+- id: measure-spaces
   type: hard
 - id: introduction-lebesgue-integral
   type: soft

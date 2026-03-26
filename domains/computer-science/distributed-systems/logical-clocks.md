@@ -9,7 +9,6 @@ prerequisites:
 - id: process-concept
   type: soft
 builds-toward:
-- logical-clocks
 - vector-clocks
 tags:
 - time

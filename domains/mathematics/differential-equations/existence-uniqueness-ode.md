@@ -9,7 +9,7 @@ prerequisites:
 - id: continuity-definition
   type: hard
 builds-toward:
-- autonomous-equations-phase-lines
+- autonomous-equations
 tags:
 - existence
 - uniqueness

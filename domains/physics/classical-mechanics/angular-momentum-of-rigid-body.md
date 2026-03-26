@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: moment-of-inertia
   type: hard
-- id: cross-product-3d
+- id: cross-product
   type: hard
 - id: matrices-intro
   type: soft

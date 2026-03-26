@@ -6,10 +6,10 @@ course: probability-and-statistics
 prerequisites:
 - id: exponential-distribution
   type: soft
-- id: geometric-distribution-properties
+- id: geometric-distribution
   type: soft
 builds-toward:
-- poisson-distribution-properties
+- poisson-distribution
 tags:
 - exponential
 - waiting-time

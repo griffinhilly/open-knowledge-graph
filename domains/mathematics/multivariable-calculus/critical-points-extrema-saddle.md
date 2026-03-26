@@ -4,7 +4,7 @@ title: Critical Points, Extrema, and Saddle Points
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: gradient-vector-properties
+- id: gradient-vector
   type: hard
 builds-toward:
 - hessian-matrix-second-derivative-test

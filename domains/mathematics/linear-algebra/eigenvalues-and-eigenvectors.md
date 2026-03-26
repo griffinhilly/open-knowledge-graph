@@ -6,7 +6,7 @@ course: linear-algebra
 prerequisites:
 - id: determinant-properties
   type: hard
-- id: linear-transformation-definition
+- id: linear-transformations
   type: hard
 builds-toward:
 - diagonalization

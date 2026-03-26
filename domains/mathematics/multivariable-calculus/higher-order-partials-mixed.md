@@ -4,7 +4,7 @@ title: Higher-Order Partial Derivatives and Mixed Partials
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: partial-derivatives-definition
+- id: partial-derivatives
   type: hard
 - id: clairaut-theorem
   type: soft

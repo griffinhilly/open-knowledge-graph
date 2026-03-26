@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
-- id: linearization-nonlinear-systems
+- id: linearization-of-nonlinear-systems
   type: soft
 builds-toward:
 - phillips-curve-dynamics

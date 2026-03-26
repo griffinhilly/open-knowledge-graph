@@ -6,8 +6,7 @@ course: databases
 prerequisites:
 - id: sql-subqueries
   type: hard
-builds-toward:
-- sql-common-table-expressions-with
+builds-toward: []
 tags:
 - sql
 - subqueries

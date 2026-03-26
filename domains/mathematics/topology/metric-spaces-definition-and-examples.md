@@ -6,8 +6,6 @@ course: topology
 prerequisites:
 - id: set-theory-basics
   type: hard
-- id: compact-metric-spaces
-  type: soft
 builds-toward:
 - metric-topology
 - completeness-metric-spaces

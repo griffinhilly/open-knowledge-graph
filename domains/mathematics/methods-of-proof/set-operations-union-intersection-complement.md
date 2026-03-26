@@ -6,7 +6,7 @@ course: methods-of-proof
 prerequisites:
 - id: set-fundamentals
   type: hard
-- id: logical-equivalences-intro
+- id: logical-equivalences
   type: soft
 builds-toward:
 - cartesian-products-relations

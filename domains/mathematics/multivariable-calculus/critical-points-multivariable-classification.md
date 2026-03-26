@@ -4,7 +4,7 @@ title: Critical Points and Classification of Extrema
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: gradient-vector-definition
+- id: gradient-vector
   type: hard
 - id: critical-points-multivariable
   type: hard

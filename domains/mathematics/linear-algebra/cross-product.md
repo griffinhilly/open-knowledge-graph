@@ -4,7 +4,7 @@ title: Cross Product in R^3
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vectors-in-rn-definition
+- id: vectors-in-rn
   type: hard
 tags:
 - vectors

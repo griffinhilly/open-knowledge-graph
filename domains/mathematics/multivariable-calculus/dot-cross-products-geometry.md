@@ -6,7 +6,7 @@ course: multivariable-calculus
 prerequisites:
 - id: vectors-in-3d
   type: hard
-- id: cross-product-3d
+- id: cross-product
   type: soft
 - id: dot-product
   type: soft

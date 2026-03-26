@@ -4,7 +4,7 @@ title: Solving Linear Recurrence Relations via Characteristic Equations
 domain: mathematics
 course: discrete-math
 prerequisites:
-- id: recurrence-relations-definition
+- id: recurrence-relations
   type: hard
 builds-toward:
 - nonhomogeneous-recurrence-solutions

@@ -4,7 +4,7 @@ title: Space Curves and Tangent Vectors
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: vector-valued-functions-intro
+- id: vector-valued-functions
   type: hard
 - id: arc-length-parametric
   type: hard

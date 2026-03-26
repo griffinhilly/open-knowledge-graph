@@ -4,7 +4,7 @@ title: Existence and Uniqueness Proofs
 domain: mathematics
 course: methods-of-proof
 prerequisites:
-- id: predicates-and-quantifiers-intro
+- id: predicates-and-quantifiers
   type: hard
 - id: proof-structure-terminology
   type: soft

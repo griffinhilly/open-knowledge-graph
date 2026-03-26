@@ -6,7 +6,7 @@ course: multivariable-calculus
 prerequisites:
 - id: parametric-surfaces
   type: hard
-- id: cross-product-3d
+- id: cross-product
   type: hard
 builds-toward:
 - surface-integrals-vector

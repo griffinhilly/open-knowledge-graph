@@ -4,12 +4,12 @@ title: Matrix Representation of Linear Transformations
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: linear-transformations-definition
+- id: linear-transformations
   type: hard
 - id: basis-and-dimension
   type: hard
 builds-toward:
-- change-of-basis-matrices
+- change-of-basis
 - eigenvalues-and-eigenvectors
 tags:
 - matrix-representation

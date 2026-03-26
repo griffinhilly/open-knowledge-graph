@@ -6,7 +6,7 @@ course: topology
 prerequisites:
 - id: sequential-compactness-metric-spaces
   type: hard
-- id: completeness-metric-spaces-definition
+- id: completeness-metric-spaces
   type: soft
 tags:
 - compact

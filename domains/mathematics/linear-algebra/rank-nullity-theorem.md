@@ -4,7 +4,7 @@ title: Rank-Nullity Theorem
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: kernel-image-rank
+- id: kernel-and-image
   type: hard
 - id: dimension-vector-space
   type: hard

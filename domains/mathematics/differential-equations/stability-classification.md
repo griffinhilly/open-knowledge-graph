@@ -7,7 +7,7 @@ prerequisites:
 - id: phase-portraits-linear-systems
   type: hard
 builds-toward:
-- linearization-nonlinear-systems
+- linearization-of-nonlinear-systems
 tags:
 - stability
 - equilibrium

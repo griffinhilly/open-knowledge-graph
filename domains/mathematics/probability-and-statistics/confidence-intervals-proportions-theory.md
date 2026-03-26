@@ -4,7 +4,7 @@ title: Confidence Intervals for Proportions
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: binomial-distribution-properties
+- id: binomial-distribution
   type: hard
 - id: central-limit-theorem-theory
   type: hard

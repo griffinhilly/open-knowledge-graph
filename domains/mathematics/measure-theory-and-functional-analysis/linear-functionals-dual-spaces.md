@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - hahn-banach-theorem
-- hilbert-spaces-definition
+- hilbert-spaces
 tags:
 - functional-analysis
 - dual-spaces

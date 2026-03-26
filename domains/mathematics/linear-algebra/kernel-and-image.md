@@ -6,8 +6,6 @@ course: linear-algebra
 prerequisites:
 - id: linear-transformation-matrix-representation
   type: hard
-- id: rank-nullity-theorem
-  type: hard
 - id: null-space
   type: soft
 builds-toward:

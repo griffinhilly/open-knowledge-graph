@@ -7,7 +7,7 @@ prerequisites:
 - id: combinations-and-selections
   type: soft
 builds-toward:
-- recurrence-relations-definition
+- recurrence-relations
 tags:
 - generating-functions
 - sequences

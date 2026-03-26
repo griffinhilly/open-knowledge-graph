@@ -4,7 +4,7 @@ title: Unit Step Function and Piecewise-Defined Forcing
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: laplace-transform-definition-and-properties
+- id: laplace-transform-definition
   type: hard
 - id: piecewise-functions
   type: soft

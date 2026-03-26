@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
-- id: partial-derivatives-definition
+- id: partial-derivatives
   type: hard
 - id: higher-order-partials
   type: soft

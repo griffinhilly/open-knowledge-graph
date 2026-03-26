@@ -7,7 +7,7 @@ prerequisites:
 - id: convolution-theorem
   type: hard
 builds-toward:
-- systems-first-order-linear-odes
+- systems-of-first-order-linear-odes
 tags:
 - delta-function
 - impulse

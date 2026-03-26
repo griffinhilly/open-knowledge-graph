@@ -4,10 +4,10 @@ title: Gaussian Elimination with Partial Pivoting
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: gaussian-elimination-method
+- id: gaussian-elimination
   type: hard
 builds-toward:
-- lu-decomposition-numerical
+- lu-decomposition
 - matrix-norms-conditioning
 tags:
 - numerical-stability

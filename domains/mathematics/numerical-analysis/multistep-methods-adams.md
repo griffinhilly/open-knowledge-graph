@@ -7,7 +7,7 @@ prerequisites:
 - id: runge-kutta-methods
   type: hard
 builds-toward:
-- stiff-equations
+- stiff-differential-equations
 tags:
 - multistep
 - adams

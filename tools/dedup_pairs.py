@@ -21,25 +21,108 @@ ROOT = Path(__file__).resolve().parent.parent
 DOMAINS_DIR = ROOT / "domains"
 
 # (delete_id, keep_id) — from duplicate analysis
-# Round 3: eigenvalue triplicate + manually identified
+# Round 4: Math dedup sweep (Mar 26, 2026)
+# 87 pairs across all math courses — naming variants of same concepts
 DEDUP_PAIRS = [
-    ("eigenvalues-eigenvectors", "eigenvalues-and-eigenvectors"),
-    ("eigenvalues-eigenvectors-introduction", "eigenvalues-and-eigenvectors"),
-    ("density-rationals", "density-of-rationals"),
-    ("interference-decay-forgetting", "interference-and-decay-forgetting"),
-    ("multiplication-arrays-2nd", "multiplication-introduction-arrays"),
-    ("riemann-vs-lebesgue-integrals", "riemann-lebesgue-comparison"),
-    ("series-convergence-rigorous", "rigorous-series-convergence"),
-    ("picture-graphs-simple-data", "picture-graphs-read-create-2nd"),
-    ("multiplication-facts-6s-through-9s", "multiplication-fluency-facts-6-through-9"),
-    ("equivalence-relations-partitions", "equivalence-relations"),
-    ("addition-three-digit-numbers-2nd", "three-digit-addition"),
-    ("cryptographic-applications-rsa", "rsa-cryptography"),
-    ("fractions-unit-comparison-3rd", "comparing-unit-fractions"),
-    ("panic-disorder", "panic-disorder-agoraphobia"),
-    ("subtraction-mental-math-strategies-2nd", "mental-math-two-digit-subtraction-2nd"),
-    ("subtraction-three-digit-numbers-2nd", "three-digit-subtraction"),
-    ("the-class-equation", "class-equation"),
+    # --- Linear Algebra (26 pairs) ---
+    ("change-of-basis-matrices", "change-of-basis"),
+    ("cross-product-3d", "cross-product"),
+    ("dot-product-definition", "dot-product"),
+    ("gaussian-elimination-method", "gaussian-elimination"),
+    ("linear-transformation-definition", "linear-transformations"),
+    ("linear-transformations-definition", "linear-transformations"),
+    ("lu-decomposition-numerical", "lu-decomposition"),
+    ("matrices-intro-linear-algebra", "matrices-definition"),
+    ("matrix-addition-multiplication", "matrix-multiplication"),
+    ("matrix-inverses-computation", "matrix-inverses"),
+    ("matrix-representation-linear-map", "linear-transformation-matrix-representation"),
+    ("matrix-representation-linear-transformations", "linear-transformation-matrix-representation"),
+    ("matrix-transpose-properties", "matrix-transpose"),
+    ("orthogonality-and-orthonormal-sets", "orthogonal-vectors-orthonormal-bases"),
+    ("rank-and-nullity-theorem", "rank-nullity-theorem"),
+    ("row-echelon-form-rref", "row-echelon-form"),
+    ("scalar-multiplication-vectors", "scalar-multiplication"),
+    ("span-of-vectors", "span-and-basis"),
+    ("span-spanning-set", "span-and-basis"),
+    ("symmetric-matrices-properties", "symmetric-matrices"),
+    ("vector-magnitude-norm", "vector-norms"),
+    ("vector-norms-magnitude", "vector-norms"),
+    ("vector-spaces-definition", "vector-spaces"),
+    ("vector-subspaces", "subspaces"),
+    ("vectors-in-rn-definition", "vectors-in-rn"),
+    ("kernel-image-rank", "kernel-and-image"),
+    # --- Differential Equations (15 pairs) ---
+    ("autonomous-equations-phase-lines", "autonomous-equations"),
+    ("bifurcation-analysis-ode", "bifurcation-in-odes"),
+    ("damping-and-resonance", "resonance-and-damping"),
+    ("eulers-method-ode", "eulers-method"),
+    ("existence-and-uniqueness-theorems", "existence-uniqueness-ode"),
+    ("laplace-transform-definition-and-properties", "laplace-transform-definition"),
+    ("laplace-transform-derivatives", "laplace-transform-of-derivatives"),
+    ("legendre-polynomials-and-equations", "legendre-equations"),
+    ("linearization-nonlinear-systems", "linearization-of-nonlinear-systems"),
+    ("phase-portraits-for-linear-systems", "phase-portraits-linear-systems"),
+    ("power-series-solutions-to-odes", "power-series-solutions"),
+    ("rlc-circuit-applications", "rlc-circuits"),
+    ("solving-ivps-laplace-transform", "solving-ivps-with-laplace-transforms"),
+    ("spring-mass-systems-and-vibrations", "spring-mass-systems"),
+    ("systems-first-order-linear-odes", "systems-of-first-order-linear-odes"),
+    # --- Numerical Analysis (18 pairs) ---
+    ("chebyshev-nodes-optimal-interpolation", "chebyshev-nodes"),
+    ("composite-quadrature-rules", "composite-quadrature"),
+    ("condition-number-of-a-problem", "condition-number"),
+    ("condition-number-of-matrix", "condition-number-of-a-matrix"),
+    ("convergence-iterative-linear-solvers", "convergence-iterative-methods"),
+    ("eulers-method-convergence", "euler-method-error-analysis"),
+    ("gauss-seidel-iterative-method", "gauss-seidel-method"),
+    ("machine-epsilon-and-rounding-errors", "machine-epsilon"),
+    ("multistep-methods-adams-methods", "multistep-methods-adams"),
+    ("newton-cotes-quadrature", "newton-cotes-formulas"),
+    ("newtons-divided-differences", "newton-divided-differences"),
+    ("newtons-method-convergence-analysis", "newton-method-convergence"),
+    ("numerical-stability-and-conditioning", "numerical-stability"),
+    ("qr-algorithm-eigenvalues", "qr-algorithm"),
+    ("richardsons-extrapolation", "richardson-extrapolation"),
+    ("runge-kutta-methods-for-odes", "runge-kutta-methods"),
+    ("secant-method-root-finding", "secant-method"),
+    ("stiff-equations", "stiff-differential-equations"),
+    ("successive-over-relaxation-sor", "successive-over-relaxation"),
+    # --- Methods of Proof (5 pairs) ---
+    ("direct-proof-methods", "direct-proof"),
+    ("logical-equivalences-intro", "logical-equivalences"),
+    ("mathematical-induction-intro", "mathematical-induction"),
+    ("predicates-and-quantifiers-intro", "predicates-and-quantifiers"),
+    ("truth-tables-intro", "truth-tables"),
+    # --- Multivariable Calculus (8 pairs) ---
+    ("directional-derivatives-definition", "directional-derivatives"),
+    ("gradient-vector-definition", "gradient-vector"),
+    ("gradient-vector-properties", "gradient-vector"),
+    ("line-integrals-definition-properties", "line-integrals"),
+    ("multivariable-limits-definition", "multivariable-limits"),
+    ("partial-derivatives-definition", "partial-derivatives"),
+    ("vector-valued-functions-intro", "vector-valued-functions"),
+    ("martingales-intro", "martingales-introduction"),
+    # --- Measure Theory & Functional Analysis (7 pairs) ---
+    ("banach-spaces-definition", "banach-spaces"),
+    ("hilbert-spaces-definition", "hilbert-spaces"),
+    ("lebesgue-integral-properties", "lebesgue-integral"),
+    ("lp-spaces-definition", "lp-spaces"),
+    ("measurable-functions-definition", "measurable-functions"),
+    ("measure-spaces-definition", "measure-spaces"),
+    ("outer-measure-definition", "outer-measure"),
+    # --- Topology (5 pairs) ---
+    ("completeness-metric-spaces-definition", "completeness-metric-spaces"),
+    ("connected-spaces-definition", "connected-spaces"),
+    ("subspace-topology-definition", "subspace-topology"),
+    ("topological-invariants-intro", "topological-invariants"),
+    ("topological-manifolds-intro", "topological-manifolds-introduction"),
+    # --- Other Math (5 pairs) ---
+    ("binomial-distribution-properties", "binomial-distribution"),
+    ("geometric-distribution-properties", "geometric-distribution"),
+    ("graph-representation-methods", "graph-representation"),
+    ("poisson-distribution-properties", "poisson-distribution"),
+    ("recurrence-relations-definition", "recurrence-relations"),
+    ("stars-and-bars-method", "stars-and-bars"),
 ]
 
 
@@ -70,17 +153,14 @@ def redirect_references(delete_id, keep_id, dry_run=True):
         if f.stem == delete_id:
             continue
         text = f.read_text(encoding="utf-8")
-        # Replace the ID in prerequisites and builds-toward
-        # Only replace in prerequisite/builds-toward contexts, not in IDs or titles
-        # Use word-boundary matching to avoid partial replacements
+        # Replace in prerequisite id fields: `- id: delete_id`
         new_text = re.sub(
             r'(?<=\bid: )' + re.escape(delete_id) + r'(?=\s|$)',
             keep_id, text)
-        if new_text == text:
-            # Also try in builds-toward lists (bare strings)
-            new_text = re.sub(
-                r'(?<=- )' + re.escape(delete_id) + r'(?=\s|$)',
-                keep_id, text)
+        # Replace in builds-toward bare list items: `- delete_id`
+        new_text = re.sub(
+            r'(?<=- )' + re.escape(delete_id) + r'(?=\s|$)',
+            keep_id, new_text)
         if new_text != text:
             if not dry_run:
                 f.write_text(new_text, encoding="utf-8")
@@ -111,7 +191,7 @@ def main():
             print(f"  SKIP {delete_id}: keeper {keep_id} not found")
             continue
 
-        print(f"  {delete_id} → {keep_id}")
+        print(f"  {delete_id} -> {keep_id}")
 
         # Redirect references
         redirected = redirect_references(delete_id, keep_id, dry_run)

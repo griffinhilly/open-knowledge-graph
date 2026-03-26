@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - directional-derivatives-gradient
-- gradient-vector-properties
+- gradient-vector
 tags:
 - rates-of-change
 - interpretation

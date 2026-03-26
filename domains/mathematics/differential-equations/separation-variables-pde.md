@@ -6,7 +6,7 @@ course: differential-equations
 prerequisites:
 - id: heat-equation-pde
   type: hard
-- id: systems-first-order-linear-odes
+- id: systems-of-first-order-linear-odes
   type: soft
 builds-toward:
 - wave-equation-pde

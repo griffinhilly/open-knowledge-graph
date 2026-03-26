@@ -6,7 +6,7 @@ course: multivariable-calculus
 prerequisites:
 - id: vectors-3d-coordinate-system
   type: hard
-- id: cross-product-3d
+- id: cross-product
   type: hard
 builds-toward:
 - curvature-and-torsion

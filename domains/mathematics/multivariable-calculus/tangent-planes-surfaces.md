@@ -4,7 +4,7 @@ title: Tangent Planes to Surfaces
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: gradient-vector-definition
+- id: gradient-vector
   type: hard
 - id: tangent-planes-linear-approximation
   type: hard

@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: sequential-compactness
   type: soft
-- id: baire-category-metric-spaces
-  type: soft
 tags:
 - sequential-compactness
 - metric-spaces

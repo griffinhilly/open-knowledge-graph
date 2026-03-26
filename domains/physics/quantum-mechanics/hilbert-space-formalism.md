@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: hard
-- id: vector-spaces-definition
+- id: vector-spaces
   type: hard
 - id: inner-product-spaces
   type: hard

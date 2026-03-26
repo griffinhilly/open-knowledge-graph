@@ -6,8 +6,6 @@ course: linear-algebra
 prerequisites:
 - id: gaussian-elimination
   type: hard
-- id: row-echelon-form-rref
-  type: soft
 builds-toward:
 - reduced-row-echelon-form
 tags:

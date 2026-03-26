@@ -6,7 +6,7 @@ course: linear-algebra
 prerequisites:
 - id: eigenvalues-and-eigenvectors
   type: hard
-- id: change-of-basis-matrices
+- id: change-of-basis
   type: hard
 builds-toward:
 - jordan-normal-form-intro

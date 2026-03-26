@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft
-- id: linear-transformations-definition
+- id: linear-transformations
   type: soft
 - id: linear-algebra
   type: hard

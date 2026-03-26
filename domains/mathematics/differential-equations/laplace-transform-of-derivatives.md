@@ -4,7 +4,7 @@ title: Laplace Transform of Derivatives and Integrals
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: laplace-transform-definition-and-properties
+- id: laplace-transform-definition
   type: hard
 - id: integration-by-parts
   type: soft

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: cauchy-sequences-and-completeness
   type: hard
-- id: compact-metric-spaces
-  type: soft
 builds-toward:
 - contraction-mapping-theorem
 - baire-category-theorem

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - sql-ranking-functions-row-number
-- sql-window-functions-introduction
 - sql-lag-lead-offset-functions
 tags:
 - sql

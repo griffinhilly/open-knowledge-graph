@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: basis-for-a-topology
   type: soft
-- id: subspace-topology-definition
+- id: subspace-topology
   type: soft
 builds-toward:
 - metrization-theorems

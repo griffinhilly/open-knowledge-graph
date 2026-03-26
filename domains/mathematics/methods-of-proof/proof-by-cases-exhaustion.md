@@ -9,7 +9,7 @@ prerequisites:
 - id: set-operations-union-intersection-complement
   type: soft
 builds-toward:
-- mathematical-induction-intro
+- mathematical-induction
 tags:
 - proof
 - cases

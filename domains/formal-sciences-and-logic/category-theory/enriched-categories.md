@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: closed-categories-and-internal-homs
   type: soft
-- id: vector-spaces-definition
+- id: vector-spaces
   type: soft
 builds-toward:
 - enriched-functors

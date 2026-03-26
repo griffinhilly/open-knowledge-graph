@@ -4,7 +4,7 @@ title: Ordinary and Singular Points of ODEs
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: power-series-solutions-to-odes
+- id: power-series-solutions
   type: hard
 - id: analytic-functions
   type: soft

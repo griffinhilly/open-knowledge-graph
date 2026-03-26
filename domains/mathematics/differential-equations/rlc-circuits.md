@@ -6,9 +6,7 @@ course: differential-equations
 prerequisites:
 - id: second-order-linear-homogeneous-odes
   type: hard
-- id: damping-and-resonance
-  type: soft
-- id: rlc-circuit-applications
+- id: resonance-and-damping
   type: soft
 builds-toward:
 - laplace-transform-of-derivatives

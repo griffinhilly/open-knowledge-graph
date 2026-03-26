@@ -4,7 +4,7 @@ title: Bounded Linear Operators
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: banach-spaces-definition
+- id: banach-spaces
   type: hard
 - id: vector-spaces
   type: soft

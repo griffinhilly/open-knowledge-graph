@@ -6,10 +6,10 @@ course: linear-algebra
 prerequisites:
 - id: matrices-definition
   type: hard
-- id: dot-product-definition
+- id: dot-product
   type: soft
 builds-toward:
-- linear-transformation-definition
+- linear-transformations
 - systems-of-linear-equations
 - matrix-inverses
 tags:

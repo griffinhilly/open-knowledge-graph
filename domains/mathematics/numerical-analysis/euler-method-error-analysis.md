@@ -9,7 +9,7 @@ prerequisites:
 - id: taylor-series
   type: hard
 builds-toward:
-- runge-kutta-methods-for-odes
+- runge-kutta-methods
 tags:
 - euler-method
 - ode-solving

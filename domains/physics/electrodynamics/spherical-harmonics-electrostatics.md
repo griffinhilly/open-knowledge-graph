@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: laplace-poisson-equations-electrostatics
   type: hard
-- id: legendre-polynomials-and-equations
+- id: legendre-equations
   type: hard
 builds-toward:
   - green-function-method-electrostatics

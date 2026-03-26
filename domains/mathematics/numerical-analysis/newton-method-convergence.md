@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: taylor-series
   type: hard
-- id: newtons-method-convergence-analysis
-  type: soft
 builds-toward:
 - order-of-convergence
 - secant-method

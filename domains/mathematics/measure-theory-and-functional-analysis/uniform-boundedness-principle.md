@@ -4,7 +4,7 @@ title: Uniform Boundedness Principle
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: banach-spaces-definition
+- id: banach-spaces
   type: hard
 tags:
 - functional-analysis

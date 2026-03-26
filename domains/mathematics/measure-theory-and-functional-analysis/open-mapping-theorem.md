@@ -4,7 +4,7 @@ title: Open Mapping Theorem
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: banach-spaces-definition
+- id: banach-spaces
   type: hard
 - id: closed-graph-theorem
   type: soft

@@ -4,11 +4,11 @@ title: Vector Addition and Subtraction
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vectors-in-rn-definition
+- id: vectors-in-rn
   type: hard
 builds-toward:
-- vector-spaces-definition
-- span-spanning-set
+- vector-spaces
+- span-and-basis
 - linear-independence
 tags:
 - vectors

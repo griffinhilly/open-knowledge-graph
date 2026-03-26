@@ -4,7 +4,7 @@ title: Symmetric Matrices and Their Properties
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: matrix-transpose-properties
+- id: matrix-transpose
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: soft

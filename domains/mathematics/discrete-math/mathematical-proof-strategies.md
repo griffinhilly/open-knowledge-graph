@@ -6,7 +6,7 @@ course: discrete-math
 prerequisites:
 - id: formal-logic-propositions
   type: hard
-- id: mathematical-induction-intro
+- id: mathematical-induction
   type: hard
 - id: logical-inference-and-rules
   type: soft

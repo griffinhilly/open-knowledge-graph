@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - dot-product
-- orthogonality-and-orthonormal-sets
+- orthogonal-vectors-orthonormal-bases
 - matrix-norms
 tags:
 - vectors

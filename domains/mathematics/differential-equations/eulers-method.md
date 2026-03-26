@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: linear-approximation
   type: hard
-- id: eulers-method-ode
-  type: soft
 builds-toward:
 - runge-kutta-methods
 tags:

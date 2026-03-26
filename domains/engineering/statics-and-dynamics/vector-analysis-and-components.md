@@ -6,7 +6,7 @@ course: statics-and-dynamics
 prerequisites:
 - id: introduction-to-statics-and-dynamics
   type: soft
-- id: vectors-in-rn-definition
+- id: vectors-in-rn
   type: hard
 builds-toward:
 - force-vectors-components-resultants

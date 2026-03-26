@@ -4,7 +4,7 @@ title: Basis of a Vector Space
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: span-spanning-set
+- id: span-and-basis
   type: hard
 - id: linear-independence
   type: hard

@@ -6,7 +6,7 @@ course: discrete-math
 prerequisites:
 - id: counting-principles
   type: hard
-- id: stars-and-bars-method
+- id: stars-and-bars
   type: soft
 builds-toward:
 - bijection-counting-principle

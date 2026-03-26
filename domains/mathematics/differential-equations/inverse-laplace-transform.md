@@ -9,7 +9,7 @@ prerequisites:
 - id: partial-fractions
   type: hard
 builds-toward:
-- laplace-transform-derivatives
+- laplace-transform-of-derivatives
 tags:
 - inverse-transform
 - partial-fractions

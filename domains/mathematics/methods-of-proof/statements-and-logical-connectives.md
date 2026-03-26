@@ -5,8 +5,8 @@ domain: mathematics
 course: methods-of-proof
 prerequisites: []
 builds-toward:
-- truth-tables-intro
-- logical-equivalences-intro
+- truth-tables
+- logical-equivalences
 tags:
 - logic
 - foundations

@@ -4,7 +4,7 @@ title: Stability Regions and A-Stability
 domain: mathematics
 course: numerical-analysis
 prerequisites:
-- id: stiff-equations
+- id: stiff-differential-equations
   type: hard
 - id: stiff-differential-equations
   type: soft

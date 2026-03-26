@@ -15,7 +15,7 @@ prerequisites:
 builds-toward:
 - contour-maps
 - tangent-planes-linear-approximation
-- gradient-vector-properties
+- gradient-vector
 tags:
 - level-sets
 - surfaces

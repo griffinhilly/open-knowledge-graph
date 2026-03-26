@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: logical-clocks
   type: soft
-- id: mathematical-induction-intro
+- id: mathematical-induction
   type: soft
 builds-toward:
 - state-machine-replication

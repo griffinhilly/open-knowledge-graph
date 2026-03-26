@@ -6,7 +6,7 @@ course: probability-and-statistics
 prerequisites:
 - id: continuous-random-variables
   type: hard
-- id: geometric-distribution-properties
+- id: geometric-distribution
   type: soft
 tags:
 - exponential

@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: dot-product
   type: hard
-- id: directional-derivatives-definition
+- id: directional-derivatives
   type: soft
 builds-toward:
 - optimization-multivariable-basics

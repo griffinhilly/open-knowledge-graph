@@ -6,7 +6,7 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: bounded-linear-operators
   type: hard
-- id: hilbert-spaces-definition
+- id: hilbert-spaces
   type: hard
 - id: compact-operators
   type: soft

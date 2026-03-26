@@ -4,7 +4,7 @@ title: Carathéodory's Extension Theorem
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: outer-measure-definition
+- id: outer-measure
   type: hard
 - id: outer-measure
   type: soft

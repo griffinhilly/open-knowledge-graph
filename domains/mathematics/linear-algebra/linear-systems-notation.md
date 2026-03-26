@@ -9,7 +9,7 @@ prerequisites:
 - id: matrices-intro
   type: hard
 builds-toward:
-- gaussian-elimination-method
+- gaussian-elimination
 - rank-nullity-theorem
 - linear-systems-consistency
 tags:

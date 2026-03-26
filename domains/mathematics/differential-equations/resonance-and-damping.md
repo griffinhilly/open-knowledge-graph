@@ -9,7 +9,7 @@ prerequisites:
 - id: undetermined-coefficients
   type: hard
 builds-toward:
-- rlc-circuit-applications
+- rlc-circuits
 tags:
 - resonance
 - damping

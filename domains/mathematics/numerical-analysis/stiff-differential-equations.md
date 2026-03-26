@@ -4,10 +4,10 @@ title: Stiff Differential Equations and Stability Regions
 domain: mathematics
 course: numerical-analysis
 prerequisites:
-- id: runge-kutta-methods-for-odes
+- id: runge-kutta-methods
   type: hard
 tags:
-- stiff-equations
+- stiff-differential-equations
 - stability-region
 - implicit-methods
 stage: formal-systems

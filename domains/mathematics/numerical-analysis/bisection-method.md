@@ -6,11 +6,11 @@ course: numerical-analysis
 prerequisites:
 - id: intermediate-value-theorem
   type: hard
-- id: newtons-method-convergence-analysis
+- id: newton-method-convergence
   type: soft
 - id: secant-method
   type: soft
-- id: secant-method-root-finding
+- id: secant-method
   type: soft
 builds-toward:
 - order-of-convergence

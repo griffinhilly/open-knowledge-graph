@@ -4,7 +4,7 @@ title: Convolution Theorem
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: solving-ivps-laplace-transform
+- id: solving-ivps-with-laplace-transforms
   type: hard
 - id: integration-by-parts
   type: soft

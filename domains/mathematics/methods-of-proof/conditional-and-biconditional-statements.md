@@ -4,7 +4,7 @@ title: Conditional and Biconditional Statements
 domain: mathematics
 course: methods-of-proof
 prerequisites:
-- id: logical-equivalences-intro
+- id: logical-equivalences
   type: hard
 - id: biconditional-and-equivalence
   type: soft

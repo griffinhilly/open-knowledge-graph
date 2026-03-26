@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: rotational-motion-fixed-axis
   type: hard
-- id: cross-product-3d
+- id: cross-product
   type: soft
 builds-toward:
 - work-power-rotation

@@ -4,7 +4,7 @@ title: Gram-Schmidt Process and QR Decomposition
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: orthogonality-and-orthonormal-sets
+- id: orthogonal-vectors-orthonormal-bases
   type: hard
 builds-toward:
 - orthogonal-projections-least-squares

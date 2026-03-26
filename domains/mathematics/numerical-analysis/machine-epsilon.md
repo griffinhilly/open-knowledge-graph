@@ -6,8 +6,6 @@ course: numerical-analysis
 prerequisites:
 - id: floating-point-representation
   type: hard
-- id: machine-epsilon-and-rounding-errors
-  type: soft
 builds-toward:
 - rounding-errors
 - numerical-stability

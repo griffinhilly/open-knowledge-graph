@@ -4,7 +4,7 @@ title: Constrained Optimization and Lagrange Multipliers
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: gradient-vector-definition
+- id: gradient-vector
   type: hard
 - id: lagrange-multipliers
   type: hard

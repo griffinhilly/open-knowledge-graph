@@ -12,7 +12,7 @@ prerequisites:
     type: soft
 builds-toward:
   - logical-equivalence-intro
-  - truth-tables-intro
+  - truth-tables
   - formula-evaluation-and-truth-tables
 tags: [truth-tables, logic, connectives, evaluation]
 stage: abstract-reasoning

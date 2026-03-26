@@ -4,7 +4,7 @@ title: Simple Functions and Approximation
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: measurable-functions-definition
+- id: measurable-functions
   type: hard
 builds-toward:
 - lebesgue-integral-simple-functions

@@ -9,7 +9,7 @@ prerequisites:
 - id: matrices-intro
   type: soft
 builds-toward:
-- matrix-representation-linear-transformations
+- linear-transformation-matrix-representation
 - composition-linear-transformations
 - eigenvalues-and-eigenvectors
 tags:

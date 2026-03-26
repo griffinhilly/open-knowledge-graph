@@ -6,7 +6,7 @@ course: quantum-mechanics
 prerequisites:
 - id: hilbert-spaces-and-dirac-notation
   type: hard
-- id: linear-transformation-definition
+- id: linear-transformations
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard

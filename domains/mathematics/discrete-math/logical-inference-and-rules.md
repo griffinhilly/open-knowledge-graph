@@ -7,7 +7,7 @@ prerequisites:
 - id: propositional-logic-basics
   type: hard
 builds-toward:
-- direct-proof-methods
+- direct-proof
 - proof-by-contrapositive
 tags:
 - logic

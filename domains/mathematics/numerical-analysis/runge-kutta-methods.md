@@ -4,11 +4,11 @@ title: Runge-Kutta Methods
 domain: mathematics
 course: numerical-analysis
 prerequisites:
-- id: eulers-method-convergence
+- id: euler-method-error-analysis
   type: hard
 builds-toward:
 - multistep-methods-adams
-- stiff-equations
+- stiff-differential-equations
 tags:
 - runge-kutta
 - ode

@@ -6,7 +6,7 @@ course: linear-algebra
 prerequisites:
 - id: subspaces
   type: hard
-- id: span-of-vectors
+- id: span-and-basis
   type: hard
 builds-toward:
 - least-squares-approximation

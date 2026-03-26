@@ -4,11 +4,11 @@ title: Span, Linear Independence, and Basis
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: vector-subspaces
+- id: subspaces
   type: hard
 builds-toward:
 - basis-and-dimension
-- change-of-basis-matrices
+- change-of-basis
 tags:
 - span
 - linear-independence

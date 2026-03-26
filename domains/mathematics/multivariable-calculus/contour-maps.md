@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
 - directional-derivatives-gradient
 - partial-derivatives
-- gradient-vector-properties
+- gradient-vector
 tags:
 - contours
 - level-curves

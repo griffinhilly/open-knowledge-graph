@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: string-basics
   type: hard
-builds-toward:
-- tokenization-and-lexemes
+builds-toward: []
 tags:
 - lexical-analysis
 - tokenization

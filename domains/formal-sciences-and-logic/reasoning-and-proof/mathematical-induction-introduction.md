@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 builds-toward:
 - when-is-something-proven
-- mathematical-induction-intro
+- mathematical-induction
 - mathematical-induction
 - weak-induction
 tags:

@@ -14,7 +14,7 @@ prerequisites:
   type: hard
 - id: matrices-intro
   type: soft
-- id: linear-transformation-definition
+- id: linear-transformations
   type: soft
 - id: linear-regression
   type: hard

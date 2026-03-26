@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
-- id: dot-product-definition
+- id: dot-product
   type: soft
 - id: matrix-operations
   type: soft

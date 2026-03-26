@@ -4,7 +4,7 @@ title: Baire Category Theorem for Metric Spaces
 domain: mathematics
 course: topology
 prerequisites:
-- id: completeness-metric-spaces-definition
+- id: completeness-metric-spaces
   type: hard
 tags:
 - baire-category

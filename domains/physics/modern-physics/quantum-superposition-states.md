@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: quantum-superposition
   type: soft
-- id: vector-spaces-definition
+- id: vector-spaces
   type: hard
 builds-toward:
 - expectation-values

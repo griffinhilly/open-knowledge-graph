@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - higher-order-linear-odes
-- systems-first-order-linear-odes
+- systems-of-first-order-linear-odes
 tags:
 - first-order
 - linear

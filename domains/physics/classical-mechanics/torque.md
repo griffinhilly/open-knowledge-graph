@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: vectors-in-two-dimensions
   type: soft
-- id: cross-product-3d
+- id: cross-product
   type: soft
 builds-toward:
 - rotational-dynamics

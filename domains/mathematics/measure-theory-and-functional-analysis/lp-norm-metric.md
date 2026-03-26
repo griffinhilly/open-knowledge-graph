@@ -4,7 +4,7 @@ title: L^p Norm and Metric Structure
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: lp-spaces-definition
+- id: lp-spaces
   type: hard
 - id: metric-spaces-definition
   type: soft

@@ -4,7 +4,7 @@ title: Conservative Vector Fields and Potential Functions
 domain: mathematics
 course: multivariable-calculus
 prerequisites:
-- id: line-integrals-definition-properties
+- id: line-integrals
   type: hard
 - id: conservative-vector-fields
   type: soft

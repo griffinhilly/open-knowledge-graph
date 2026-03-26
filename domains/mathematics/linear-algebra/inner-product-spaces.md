@@ -4,9 +4,9 @@ title: Inner Product Spaces
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: dot-product-definition
+- id: dot-product
   type: hard
-- id: vector-spaces-definition
+- id: vector-spaces
   type: hard
 builds-toward:
 - orthogonal-vectors-orthonormal-bases

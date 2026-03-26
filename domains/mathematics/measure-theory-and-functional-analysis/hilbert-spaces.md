@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: banach-spaces
   type: hard
-- id: bessel-inequality-parseval-identity
-  type: soft
 builds-toward:
 - orthogonality-hilbert-spaces
 tags:

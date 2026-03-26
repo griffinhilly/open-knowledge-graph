@@ -4,7 +4,7 @@ title: Fatou's Lemma
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: lebesgue-integral-properties
+- id: lebesgue-integral
   type: hard
 builds-toward:
 - dominated-convergence-theorem

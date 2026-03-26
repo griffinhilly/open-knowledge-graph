@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - lu-decomposition
-- condition-number-of-matrix
+- condition-number-of-a-matrix
 tags:
 - gaussian-elimination
 - pivoting

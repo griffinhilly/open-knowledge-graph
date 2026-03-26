@@ -6,8 +6,6 @@ course: linear-algebra
 prerequisites:
 - id: matrices-definition
   type: hard
-- id: matrix-exponential
-  type: soft
 builds-toward:
 - gaussian-elimination
 - rank-nullity-theorem

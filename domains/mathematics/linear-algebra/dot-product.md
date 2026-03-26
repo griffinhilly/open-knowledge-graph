@@ -6,10 +6,10 @@ course: linear-algebra
 prerequisites:
 - id: vector-addition-subtraction
   type: hard
-- id: scalar-multiplication-vectors
+- id: scalar-multiplication
   type: hard
 builds-toward:
-- vector-norms-magnitude
+- vector-norms
 - cross-product
 - orthogonal-projections
 - inner-product-spaces

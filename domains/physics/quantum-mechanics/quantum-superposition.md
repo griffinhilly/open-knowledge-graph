@@ -6,7 +6,7 @@ course: quantum-mechanics
 prerequisites:
 - id: state-vectors-and-wavefunctions
   type: hard
-- id: vector-spaces-definition
+- id: vector-spaces
   type: hard
 builds-toward:
 - entanglement-quantum
