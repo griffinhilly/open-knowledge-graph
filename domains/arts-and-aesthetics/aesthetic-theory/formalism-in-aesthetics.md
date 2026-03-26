@@ -9,7 +9,7 @@ prerequisites:
 - id: beauty-and-taste-in-aesthetic-tradition
   type: soft
 builds-toward:
-- clive-bell-significant-form
+- bell-significant-form
 - greenberg-modernism-and-medium-specificity
 - postmodern-aesthetics-and-critique-of-grand-narratives
 tags:

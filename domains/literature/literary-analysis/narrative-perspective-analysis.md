@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - point-of-view-technical-effects
-- unreliable-narrator-analysis
+- unreliable-narrator
 tags:
 - perspective
 - point-of-view

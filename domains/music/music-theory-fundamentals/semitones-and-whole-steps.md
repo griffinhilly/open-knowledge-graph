@@ -7,7 +7,7 @@ prerequisites:
 - id: accidentals-fundamentals
   type: hard
 builds-toward:
-- interval-quality-basics
+- interval-quality
 - harmonic-vs-melodic-intervals
 tags:
 - intervals

@@ -6,8 +6,6 @@ course: aesthetic-theory
 prerequisites:
 - id: aesthetics-and-philosophy-of-art-intro
   type: hard
-- id: expression-theory-of-art
-  type: soft
 builds-toward:
 - emotion-in-aesthetic-judgment
 - queer-aesthetics-theory

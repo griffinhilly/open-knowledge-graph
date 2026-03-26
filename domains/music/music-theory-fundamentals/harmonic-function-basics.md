@@ -4,7 +4,7 @@ title: Harmonic Function Basics
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: scale-degree-naming-and-function
+- id: scale-degree-names-and-function
   type: hard
 - id: triad-construction-major-minor
   type: hard

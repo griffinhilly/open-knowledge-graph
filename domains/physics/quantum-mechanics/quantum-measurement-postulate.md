@@ -9,7 +9,7 @@ prerequisites:
 - id: state-vectors-and-wavefunctions
   type: hard
 builds-toward:
-- quantum-measurement-problem
+- measurement-problem-quantum
 - interpretations-quantum-mechanics
 tags:
 - measurement

@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: linking-verb-subject-complement-agreement
   type: soft
-- id: subject-verb-agreement-rules
+- id: subject-verb-agreement
   type: soft
 builds-toward:
 - subject-verb-agreement-complex

@@ -13,7 +13,7 @@ prerequisites:
 - id: boolean-functions-and-circuits
   type: soft
 builds-toward:
-- kolmogorov-complexity-properties
+- kolmogorov-complexity
 tags:
 - circuit-complexity
 - lower-bounds

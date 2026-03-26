@@ -4,7 +4,7 @@ title: Bell's Theorem and Nonlocality
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: quantum-entanglement
+- id: entanglement-quantum
   type: hard
 - id: bell-theorem-inequalities
   type: soft

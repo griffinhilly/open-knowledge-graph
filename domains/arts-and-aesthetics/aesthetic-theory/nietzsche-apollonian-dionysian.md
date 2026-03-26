@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: form-content-aesthetics
   type: hard
-- id: nietzsche-apollonian-and-dionysian
-  type: soft
 builds-toward:
 - postmodern-aesthetics-pastiche
 tags:

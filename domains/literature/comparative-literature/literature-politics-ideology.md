@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 builds-toward:
 - postcolonial-literature-theory
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - politics
 - ideology

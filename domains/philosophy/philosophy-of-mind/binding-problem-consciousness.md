@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: neural-correlates-of-consciousness
   type: soft
-- id: hard-problem-consciousness-definition
+- id: hard-problem-of-consciousness
   type: soft
 - id: unity-of-consciousness
   type: soft

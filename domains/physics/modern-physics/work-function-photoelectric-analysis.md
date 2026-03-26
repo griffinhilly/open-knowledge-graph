@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: photon-model
   type: hard
-- id: compton-scattering-analysis
+- id: compton-scattering
   type: soft
 builds-toward:
 - stopping-potential-kinetic-energy

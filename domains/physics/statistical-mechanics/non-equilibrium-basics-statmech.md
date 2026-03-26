@@ -6,8 +6,6 @@ course: statistical-mechanics
 prerequisites:
 - id: h-theorem-reversibility
   type: hard
-- id: fluctuation-dissipation-theorem-general
-  type: soft
 tags:
 - non-equilibrium
 - driven-systems

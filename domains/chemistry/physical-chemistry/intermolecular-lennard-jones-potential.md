@@ -6,7 +6,7 @@ course: physical-chemistry
 prerequisites:
 - id: dipole-moment-molecular-polarity
   type: soft
-- id: intermolecular-forces-overview
+- id: intermolecular-forces
   type: hard
 builds-toward:
 - osmotic-pressure-van-t-hoff

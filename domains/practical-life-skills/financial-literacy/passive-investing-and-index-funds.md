@@ -6,7 +6,7 @@ course: financial-literacy
 prerequisites:
 - id: index-fund-investing
   type: hard
-- id: stock-market-investing-fundamentals
+- id: stock-market-fundamentals
   type: soft
 builds-toward:
 - investment-fees-and-expense-analysis

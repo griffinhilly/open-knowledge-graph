@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - kant-judgment-of-beauty
-- aesthetic-interpretation-and-criticism
+- aesthetic-interpretation-and-critical-methods
 tags:
 - judgment
 - taste

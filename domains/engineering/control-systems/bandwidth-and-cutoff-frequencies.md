@@ -4,7 +4,7 @@ title: Bandwidth and Frequency Domain Specifications
 domain: engineering
 course: control-systems
 prerequisites:
-- id: frequency-response-magnitude-and-phase
+- id: frequency-response-magnitude-phase-basics
   type: hard
 - id: bandwidth-resonance-frequency-selection
   type: soft

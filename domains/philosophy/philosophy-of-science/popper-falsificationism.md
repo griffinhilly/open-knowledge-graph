@@ -6,7 +6,7 @@ course: philosophy-of-science
 prerequisites:
 - id: demarcation-problem-science
   type: hard
-- id: problem-of-induction-hume
+- id: problem-of-induction
   type: soft
 builds-toward:
 - falsifiability-criterion

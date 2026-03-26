@@ -4,7 +4,7 @@ title: 'Medieval Music: Liturgy, Court, and Community'
 domain: music
 course: music-history
 prerequisites:
-- id: music-history-introduction
+- id: music-history-overview
   type: soft
 builds-toward:
 - medieval-vocal-music-forms

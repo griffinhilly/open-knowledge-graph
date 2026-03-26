@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: sonata-principle-classical-era
   type: soft
-- id: harmonic-function-voice-leading-analysis
+- id: harmonic-function-and-voice-leading-analysis
   type: soft
 - id: tonal-planning-and-progression
   type: soft

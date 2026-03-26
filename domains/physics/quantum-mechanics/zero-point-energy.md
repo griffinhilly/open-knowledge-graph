@@ -4,7 +4,7 @@ title: Zero-Point Energy
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: harmonic-oscillator-quantum
+- id: quantum-harmonic-oscillator
   type: hard
 tags:
 - oscillator

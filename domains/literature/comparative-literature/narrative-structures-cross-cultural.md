@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: narrative-forms-cross-cultural
   type: hard
-- id: comparative-literary-method
+- id: comparative-literary-analysis
   type: soft
 builds-toward:
 - literary-time-temporality-cultural

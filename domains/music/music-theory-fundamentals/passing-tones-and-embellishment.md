@@ -4,7 +4,7 @@ title: 'Non-Harmonic Tones: Passing Tones and Embellishments'
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: diatonic-chord-construction-fundamentals
+- id: diatonic-chord-construction
   type: hard
 builds-toward:
 - harmonic-analysis-roman-numerals-basics

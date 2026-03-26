@@ -13,7 +13,7 @@ prerequisites:
 - id: monoamine-synthesis-and-catabolism
   type: soft
 builds-toward:
-- antidepressant-medications-ssris
+- antidepressant-medications
 - anxiety-disorders-overview
 tags:
 - serotonin

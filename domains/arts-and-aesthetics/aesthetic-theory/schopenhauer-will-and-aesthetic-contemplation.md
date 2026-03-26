@@ -11,7 +11,7 @@ prerequisites:
 - id: schopenhauer-music-metaphysics
   type: soft
 builds-toward:
-- nietzsche-apollonian-and-dionysian
+- nietzsche-apollonian-dionysian
 tags:
 - Schopenhauer
 - will

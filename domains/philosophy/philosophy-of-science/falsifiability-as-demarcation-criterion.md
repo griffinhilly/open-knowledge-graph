@@ -4,7 +4,7 @@ title: Falsifiability as the Criterion of Demarcation
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
-- id: karl-popper-falsificationism
+- id: popper-falsificationism
   type: hard
 builds-toward:
 - normal-science-versus-crisis

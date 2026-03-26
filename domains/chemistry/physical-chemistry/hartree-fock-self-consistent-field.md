@@ -4,7 +4,7 @@ title: Hartree-Fock Method and Self-Consistent Field Theory
 domain: chemistry
 course: physical-chemistry
 prerequisites:
-- id: variational-principle-quantum-chemistry
+- id: variational-principle-chemistry
   type: hard
 - id: hartree-fock-method
   type: soft

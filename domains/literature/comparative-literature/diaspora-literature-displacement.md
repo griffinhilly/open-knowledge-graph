@@ -6,7 +6,7 @@ course: comparative-literature
 prerequisites:
 - id: postcolonial-literature-theory
   type: soft
-- id: literary-cosmopolitanism-ethics
+- id: literary-cosmopolitanism
   type: soft
 - id: literary-identity-nation-construction
   type: soft

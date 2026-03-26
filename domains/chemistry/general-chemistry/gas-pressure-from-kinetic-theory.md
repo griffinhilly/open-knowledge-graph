@@ -4,7 +4,7 @@ title: Gas Pressure and Molecular Motion
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: kinetic-molecular-theory-overview
+- id: kinetic-molecular-theory
   type: hard
 - id: gas-laws
   type: hard

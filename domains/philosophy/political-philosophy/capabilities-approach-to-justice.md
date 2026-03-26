@@ -9,7 +9,7 @@ prerequisites:
 - id: justice-and-fairness
   type: soft
 builds-toward:
-- egalitarian-principles
+- egalitarianism
 tags:
 - capabilities
 - justice

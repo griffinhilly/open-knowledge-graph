@@ -9,7 +9,7 @@ prerequisites:
 builds-toward:
 - inductance-circuits-rl-transients
 tags:
-- lenz-law
+- lenzs-law
 - direction
 - opposition
 stage: advanced

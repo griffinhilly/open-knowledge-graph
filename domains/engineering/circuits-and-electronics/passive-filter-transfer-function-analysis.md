@@ -6,7 +6,7 @@ course: circuits-and-electronics
 prerequisites:
 - id: AC-Kirchhoff-laws-phasor-domain
   type: hard
-- id: series-RLC-resonance-characteristics
+- id: series-resonance-characteristics
   type: soft
 builds-toward:
 - first-order-passive-filters

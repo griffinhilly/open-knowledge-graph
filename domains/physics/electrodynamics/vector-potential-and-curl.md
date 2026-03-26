@@ -9,7 +9,7 @@ prerequisites:
 - id: partial-derivatives
   type: hard
 builds-toward:
-- scalar-and-vector-potentials
+- scalar-vector-potentials
 - gauge-transformations
 tags:
 - vector-calculus

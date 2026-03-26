@@ -9,8 +9,8 @@ prerequisites:
 - id: AC-power-calculation-and-factor
   type: soft
 builds-toward:
-- series-RLC-resonance-characteristics
-- parallel-RLC-resonance-characteristics
+- series-resonance-characteristics
+- parallel-resonance-characteristics
 tags:
 - resonance
 - natural-frequency

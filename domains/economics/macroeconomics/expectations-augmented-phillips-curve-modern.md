@@ -6,7 +6,7 @@ course: macroeconomics
 prerequisites:
 - id: phillips-curve
   type: hard
-- id: inflation-expectations-formation-macro
+- id: inflation-expectations-formation
   type: hard
 - id: supply-shock-stagflation-effects
   type: soft

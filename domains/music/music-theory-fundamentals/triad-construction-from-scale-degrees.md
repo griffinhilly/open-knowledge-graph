@@ -4,7 +4,7 @@ title: Building Triads from Scale Degrees
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: major-scale-construction-fundamentals
+- id: major-scale-construction
   type: hard
 - id: natural-minor-scale-construction-fundamentals
   type: hard
@@ -13,7 +13,7 @@ prerequisites:
 - id: augmented-triads-construction
   type: soft
 builds-toward:
-- diatonic-chord-construction-fundamentals
+- diatonic-chord-construction
 - primary-harmony-functions
 tags:
 - triads

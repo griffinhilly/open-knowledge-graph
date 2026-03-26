@@ -6,7 +6,7 @@ course: waves-and-optics
 prerequisites:
 - id: phase-of-oscillation-initial
   type: hard
-- id: two-sources-interference-pattern
+- id: two-source-interference-patterns
   type: hard
 - id: constructive-destructive-interference
   type: soft

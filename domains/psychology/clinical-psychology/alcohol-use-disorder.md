@@ -4,7 +4,7 @@ title: Alcohol Use Disorder
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: substance-use-disorder-overview
+- id: substance-use-disorder
   type: hard
 - id: addiction-neurobiology-dopamine
   type: soft

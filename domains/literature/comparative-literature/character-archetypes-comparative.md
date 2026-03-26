@@ -9,7 +9,7 @@ prerequisites:
 - id: archetypal-criticism
   type: hard
 builds-toward:
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - character
 - archetype

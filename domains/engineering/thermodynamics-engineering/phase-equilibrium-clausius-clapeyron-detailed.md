@@ -13,7 +13,7 @@ prerequisites:
 builds-toward:
 - saturated-superheated-property-regions
 - psychrometric-analysis-humid-air
-- vapor-compression-refrigeration-cycles
+- vapor-compression-refrigeration-cycle
 tags:
 - phase-equilibrium
 - clausius-clapeyron

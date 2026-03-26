@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
-- id: jazz-chord-substitution-and-voice-leading
-  type: soft
 builds-toward: []
 tags:
 - jazz

@@ -8,7 +8,7 @@ prerequisites:
   type: soft
 builds-toward:
 - motional-emf
-- lenz-law
+- lenzs-law
 tags:
 - faraday-law
 - emf

@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: temperament-and-individual-differences
   type: soft
-- id: peer-relationships-and-social-competence-children
+- id: peer-relationships-and-social-competence
   type: soft
 - id: peer-friendships-and-cooperative-play
   type: soft

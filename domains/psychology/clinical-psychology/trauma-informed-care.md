@@ -4,7 +4,7 @@ title: Trauma-Informed Care and Treatment Principles
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: post-traumatic-stress-disorder
+- id: posttraumatic-stress-disorder
   type: soft
 - id: psychological-research-ethics
   type: hard

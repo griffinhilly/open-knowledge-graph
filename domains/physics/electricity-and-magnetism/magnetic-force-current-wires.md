@@ -11,7 +11,7 @@ prerequisites:
 - id: force-between-parallel-current-wires
   type: soft
 builds-toward:
-- magnetic-field-definition
+- magnetic-field-intro
 - magnetic-torque-dipole
 tags:
 - force

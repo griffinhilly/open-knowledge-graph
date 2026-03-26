@@ -4,7 +4,7 @@ title: AC Power Calculation and Power Factor
 domain: engineering
 course: circuits-and-electronics
 prerequisites:
-- id: sinusoidal-AC-steady-state-fundamentals
+- id: sinusoidal-steady-state-analysis
   type: hard
 - id: complex-impedance-networks-ac
   type: soft

@@ -4,7 +4,7 @@ title: 'Ear Training: Interval and Pitch Identification'
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 tags:
 - ear-training

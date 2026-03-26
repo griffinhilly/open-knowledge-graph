@@ -6,7 +6,7 @@ course: historical-methods
 prerequisites:
 - id: prosopography-collective-biography
   type: hard
-- id: quantitative-historical-analysis
+- id: quantitative-history-methods
   type: soft
 tags:
 - network-analysis

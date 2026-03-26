@@ -4,7 +4,7 @@ title: Elastic Deformation and Elastic Moduli
 domain: engineering
 course: materials-science
 prerequisites:
-- id: atomic-bonding-materials
+- id: atomic-bonding-in-materials
   type: hard
 - id: stress-strain-behavior
   type: hard

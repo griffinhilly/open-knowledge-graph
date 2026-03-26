@@ -11,7 +11,7 @@ prerequisites:
 - id: probabilistic-reasoning
   type: soft
 builds-toward:
-- karl-popper-falsificationism
+- popper-falsificationism
 - logical-positivism-and-vienna-circle
 tags:
 - induction

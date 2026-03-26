@@ -5,7 +5,7 @@ domain: music
 course: music-theory-fundamentals
 prerequisites: []
 builds-toward:
-- major-scale-construction-fundamentals
+- major-scale-construction
 - minor-scale-construction-fundamentals
 - chromatic-scale-and-accidentals
 tags:

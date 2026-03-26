@@ -4,7 +4,7 @@ title: 'Exposure Therapy: Techniques and Applications'
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: cognitive-behavioral-therapy-clinical
+- id: cognitive-behavioral-therapy
   type: hard
 - id: exposure-therapy-and-cbt
   type: soft

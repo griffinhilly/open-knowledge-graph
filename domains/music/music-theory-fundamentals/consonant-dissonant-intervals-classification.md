@@ -4,7 +4,7 @@ title: Consonant and Dissonant Intervals
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 - id: interval-recognition-by-ear
   type: soft

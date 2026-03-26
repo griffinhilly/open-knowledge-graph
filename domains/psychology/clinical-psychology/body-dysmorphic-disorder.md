@@ -7,7 +7,7 @@ prerequisites:
 - id: dsm-5-diagnostic-framework
   type: hard
 builds-toward:
-- cognitive-behavioral-therapy-clinical
+- cognitive-behavioral-therapy
 tags:
 - body-image
 - perception

@@ -6,7 +6,7 @@ course: social-psychology
 prerequisites:
 - id: social-psychology-overview
   type: hard
-- id: mirror-neuron-system-action-understanding
+- id: mirror-neurons-action-understanding
   type: soft
 builds-toward:
 - group-emotions-collective-affect

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: social-identity-theory
   type: soft
-- id: just-world-hypothesis-belief
+- id: just-world-belief
   type: soft
 - id: system-justification-belief
   type: soft

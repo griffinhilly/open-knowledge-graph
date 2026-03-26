@@ -9,7 +9,7 @@ prerequisites:
 - id: simple-harmonic-motion
   type: hard
 builds-toward:
-- wavelength-frequency-speed-relationship
+- wavelength-frequency-speed-relation
 - polarization-of-waves
 tags:
 - transverse-waves

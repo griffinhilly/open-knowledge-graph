@@ -4,7 +4,7 @@ title: Stimulant and Cannabis Use Disorders
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: substance-use-disorders-overview
+- id: substance-use-disorder
   type: hard
 tags:
 - stimulants

@@ -9,7 +9,7 @@ prerequisites:
 - id: isomorphisms-in-categories
   type: soft
 builds-toward:
-- elementary-equivalence-and-logical-indistinguishability
+- elementary-equivalence-indistinguishability
 - ryll-nardzewski-categoricity-theorem
 tags:
 - isomorphism

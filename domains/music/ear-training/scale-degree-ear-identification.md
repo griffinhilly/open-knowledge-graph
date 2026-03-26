@@ -6,7 +6,7 @@ course: ear-training
 prerequisites:
 - id: scale-degree-singing-by-ear
   type: hard
-- id: scale-degree-naming-and-function
+- id: scale-degree-names-and-function
   type: hard
 - id: solfege-introduction
   type: soft

@@ -7,7 +7,7 @@ prerequisites:
 - id: ac-impedance
   type: hard
 builds-toward:
-- maxwell-equations-overview
+- maxwells-equations-overview
 tags:
 - resonance
 - rlc

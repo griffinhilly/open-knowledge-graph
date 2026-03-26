@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - literary-periodization-global
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - theory
 - methodology

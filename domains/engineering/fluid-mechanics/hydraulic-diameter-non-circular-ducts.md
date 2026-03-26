@@ -9,7 +9,7 @@ prerequisites:
 - id: dimensional-analysis-and-similarity
   type: soft
 builds-toward:
-- minor-loss-coefficients-fittings-elbows
+- minor-loss-coefficients-fittings
 - pipe-networks-series-parallel-analysis
 tags:
 - geometry

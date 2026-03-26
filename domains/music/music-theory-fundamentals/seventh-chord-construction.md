@@ -6,7 +6,7 @@ course: music-theory-fundamentals
 prerequisites:
 - id: triad-construction-major-minor
   type: hard
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 builds-toward:
 - seventh-chords

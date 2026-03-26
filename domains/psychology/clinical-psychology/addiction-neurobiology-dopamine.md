@@ -4,7 +4,7 @@ title: Neurobiological Mechanisms of Addiction
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: substance-use-disorder-overview
+- id: substance-use-disorder
   type: hard
 - id: dopamine-reward-system
   type: hard

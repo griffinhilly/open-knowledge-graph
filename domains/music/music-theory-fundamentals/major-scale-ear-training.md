@@ -4,7 +4,7 @@ title: Hearing and Singing Major Scales
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: major-scale-construction-fundamentals
+- id: major-scale-construction
   type: hard
 builds-toward:
 - scale-degree-singing-by-ear

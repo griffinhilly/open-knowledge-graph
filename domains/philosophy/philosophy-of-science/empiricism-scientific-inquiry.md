@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - logical-positivism
-- problem-of-induction-hume
+- problem-of-induction
 tags:
 - empiricism
 - evidence

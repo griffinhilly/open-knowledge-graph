@@ -4,7 +4,7 @@ title: 'World Music Traditions: Diversity Beyond Western Concert Music'
 domain: music
 course: music-history
 prerequisites:
-- id: music-history-introduction
+- id: music-history-overview
   type: soft
 builds-toward:
 - postmodern-and-contemporary-music

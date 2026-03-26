@@ -4,7 +4,7 @@ title: Bulimia Nervosa
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: eating-disorders-overview
+- id: eating-disorders
   type: hard
 - id: anorexia-nervosa
   type: soft

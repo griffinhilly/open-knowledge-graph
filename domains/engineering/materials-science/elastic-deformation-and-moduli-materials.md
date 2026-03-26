@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - plastic-deformation-yielding-materials
-- fracture-mechanics-analysis
+- fracture-mechanics
 - toughness-and-ductility-materials
 - ceramic-composite-materials
 tags:

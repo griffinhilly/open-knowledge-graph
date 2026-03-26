@@ -4,8 +4,6 @@ title: Hobbesian Absolutism and Sovereign Power
 domain: philosophy
 course: political-philosophy
 prerequisites:
-- id: hobbes-and-absolutism
-  type: hard
 - id: state-of-nature-concept
   type: soft
 builds-toward:

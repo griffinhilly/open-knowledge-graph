@@ -9,7 +9,7 @@ prerequisites:
 builds-toward:
 - theory-observation-distinction
 - empiricism-scientific-inquiry
-- problem-of-induction-hume
+- problem-of-induction
 tags:
 - method
 - observation

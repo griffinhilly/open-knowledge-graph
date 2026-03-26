@@ -4,12 +4,10 @@ title: Rawls and the Original Position
 domain: philosophy
 course: political-philosophy
 prerequisites:
-- id: rawlsian-justice
-  type: hard
 - id: social-contract-theory
   type: soft
 builds-toward:
-- egalitarian-principles
+- egalitarianism
 - democratic-legitimacy-sources
 tags:
 - rawls

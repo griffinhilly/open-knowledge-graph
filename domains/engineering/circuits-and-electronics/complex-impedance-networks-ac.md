@@ -6,7 +6,7 @@ course: circuits-and-electronics
 prerequisites:
 - id: phasor-conversion-and-representation
   type: hard
-- id: sinusoidal-AC-steady-state-fundamentals
+- id: sinusoidal-steady-state-analysis
   type: hard
 - id: complex-numbers-intro
   type: hard

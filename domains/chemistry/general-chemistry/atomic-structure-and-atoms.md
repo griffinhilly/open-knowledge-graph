@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - isotopes-and-atomic-mass
-- electron-configuration-principles
+- electron-configuration
 tags:
 - atomic structure
 - subatomic particles

@@ -4,7 +4,7 @@ title: 'Psychopharmacology: Agonists and Antagonists'
 domain: psychology
 course: biological-psychology
 prerequisites:
-- id: receptor-subtypes-and-signaling
+- id: receptor-types-and-signaling
   type: hard
 - id: gaba-glutamate-neurotransmission-balance
   type: soft

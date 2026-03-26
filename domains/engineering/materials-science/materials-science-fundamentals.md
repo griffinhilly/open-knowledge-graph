@@ -7,7 +7,7 @@ prerequisites:
 - id: stress-strain-behavior
   type: soft
 builds-toward:
-- atomic-bonding-materials
+- atomic-bonding-in-materials
 - crystal-structure-classification
 tags:
 - materials-science

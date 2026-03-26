@@ -4,7 +4,7 @@ title: Virial Expansion
 domain: physics
 course: statistical-mechanics
 prerequisites:
-- id: partition-function-fundamentals
+- id: partition-function-definition
   type: hard
 - id: canonical-ensemble
   type: hard

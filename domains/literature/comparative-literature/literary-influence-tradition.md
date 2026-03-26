@@ -9,7 +9,7 @@ prerequisites:
 - id: poetic-tradition-and-influence
   type: hard
 builds-toward:
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - influence
 - tradition

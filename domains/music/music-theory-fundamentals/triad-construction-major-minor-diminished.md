@@ -4,13 +4,13 @@ title: 'Triad Construction: Major, Minor, and Diminished'
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 - id: triads
   type: hard
 builds-toward:
 - augmented-triads-construction
-- seventh-chord-construction-fundamentals
+- seventh-chord-construction
 tags:
 - harmony
 - triads

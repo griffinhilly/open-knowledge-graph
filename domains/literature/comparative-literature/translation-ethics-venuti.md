@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 builds-toward:
 - literary-translation-interpretation
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - translation
 - ethics

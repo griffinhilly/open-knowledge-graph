@@ -4,7 +4,7 @@ title: Phrase Structure and Musical Closure
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: cadence-function-and-types
+- id: cadence-types-and-function
   type: hard
 builds-toward:
 - song-structure-form-analysis

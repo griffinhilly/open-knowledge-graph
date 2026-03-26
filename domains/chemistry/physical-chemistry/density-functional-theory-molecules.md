@@ -4,7 +4,7 @@ title: Density Functional Theory for Molecular Structure
 domain: chemistry
 course: physical-chemistry
 prerequisites:
-- id: variational-principle-quantum-chemistry
+- id: variational-principle-chemistry
   type: hard
 - id: electron-configuration
   type: soft

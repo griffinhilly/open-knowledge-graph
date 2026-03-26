@@ -6,7 +6,7 @@ course: waves-and-optics
 prerequisites:
 - id: transverse-and-longitudinal-waves
   type: hard
-- id: wavelength-frequency-speed-relationship
+- id: wavelength-frequency-speed-relation
   type: hard
 - id: longitudinal-wave-characteristics
   type: soft

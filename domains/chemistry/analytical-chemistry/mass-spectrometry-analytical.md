@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: electron-configuration
   type: soft
-- id: magnetic-force-on-moving-charges
+- id: magnetic-force-moving-charges
   type: soft
 - id: electric-field
   type: soft

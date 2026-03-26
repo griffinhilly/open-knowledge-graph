@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: tone-development-analysis
   type: hard
-- id: setting-mood-atmosphere
+- id: setting-and-atmosphere
   type: soft
 builds-toward:
 - tone-register-and-effect

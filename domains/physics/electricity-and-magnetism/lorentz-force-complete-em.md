@@ -12,7 +12,7 @@ prerequisites:
   type: hard
 - id: dot-product
   type: hard
-- id: maxwell-equations-overview
+- id: maxwells-equations-overview
   type: soft
 tags:
 - lorentz-force

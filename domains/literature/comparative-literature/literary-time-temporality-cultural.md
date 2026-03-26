@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: narrative-pacing
   type: soft
-- id: comparative-literary-method
+- id: comparative-literary-analysis
   type: soft
 - id: point-of-view-across-traditions
   type: soft

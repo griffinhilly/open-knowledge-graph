@@ -11,7 +11,7 @@ prerequisites:
 - id: close-reading-techniques
   type: soft
 builds-toward:
-- unreliable-narrator-analysis
+- unreliable-narrator
 - stream-of-consciousness-close-reading
 tags:
 - point-of-view

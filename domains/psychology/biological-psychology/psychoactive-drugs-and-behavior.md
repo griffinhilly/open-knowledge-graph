@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - psychopharmacological-treatment
-- substance-use-disorder-overview
+- substance-use-disorder
 tags:
 - drugs
 - pharmacology

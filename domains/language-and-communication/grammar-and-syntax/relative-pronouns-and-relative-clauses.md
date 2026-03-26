@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: main-clause-vs-subordinate-clause
   type: soft
-- id: sentence-structure-overview
+- id: sentence-structure-basics
   type: soft
 tags:
 - relative-pronouns

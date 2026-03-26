@@ -4,7 +4,7 @@ title: AC Circuits and Complex Impedance
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
-- id: lenz-law
+- id: lenzs-law
   type: soft
 - id: rl-transient-response
   type: hard

@@ -13,7 +13,7 @@ prerequisites:
 - id: voice-exchange-contrapuntal-technique
   type: soft
 builds-toward:
-- secondary-dominant-voice-leading
+- secondary-dominant-extended-voice-leading
 - harmonic-function-and-progression
 tags:
 - voice-leading

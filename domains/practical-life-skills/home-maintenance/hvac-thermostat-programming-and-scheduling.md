@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - hvac-filter-maintenance
-- seasonal-home-maintenance-tasks
+- seasonal-home-maintenance
 tags:
 - hvac
 - thermostat

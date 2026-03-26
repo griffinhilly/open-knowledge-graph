@@ -6,7 +6,7 @@ course: clinical-psychology
 prerequisites:
 - id: dsm-5-diagnostic-criteria-and-classification
   type: hard
-- id: major-depressive-disorder-mdd
+- id: major-depressive-disorder
   type: soft
 - id: major-depressive-disorder
   type: soft

@@ -9,7 +9,7 @@ prerequisites:
 - id: plastic-deformation-slip-systems
   type: hard
 builds-toward:
-- fracture-mechanics-concepts
+- fracture-mechanics
 tags:
 - toughness
 - ductility

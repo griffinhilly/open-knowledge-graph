@@ -4,10 +4,10 @@ title: Phase and Phase Relationships in Waves
 domain: physics
 course: waves-and-optics
 prerequisites:
-- id: wavelength-frequency-speed-relationship
+- id: wavelength-frequency-speed-relation
   type: hard
 builds-toward:
-- interference-constructive-destructive-interference
+- constructive-destructive-interference
 tags:
 - phase
 - phase-difference

@@ -4,7 +4,7 @@ title: Measurement Invariance and Equivalence Across Groups
 domain: psychology
 course: psychometrics
 prerequisites:
-- id: differential-item-functioning-analysis
+- id: differential-item-functioning
   type: hard
 - id: structural-equation-modeling-measurement
   type: soft

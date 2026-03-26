@@ -4,7 +4,7 @@ title: 'Solutions and Solubility: Factors Affecting Dissolution'
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: intermolecular-forces-overview
+- id: intermolecular-forces
   type: hard
 builds-toward:
 - concentration-and-molarity

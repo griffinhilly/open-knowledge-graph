@@ -9,7 +9,7 @@ prerequisites:
 - id: inflammatory-response-cellular
   type: soft
 builds-toward:
-- antibiotic-resistance-genetic-mechanisms
+- antibiotic-resistance-mechanisms
 tags:
 - antimicrobial
 - innate-immunity

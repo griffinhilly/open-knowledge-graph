@@ -4,7 +4,7 @@ title: Free Energy and Thermodynamic Relations from Partition Functions
 domain: physics
 course: statistical-mechanics
 prerequisites:
-- id: partition-function-fundamentals
+- id: partition-function-definition
   type: hard
 - id: canonical-partition-function
   type: hard

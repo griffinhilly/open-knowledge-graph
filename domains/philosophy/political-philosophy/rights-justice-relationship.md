@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: rawlsian-justice-as-fairness
   type: soft
-- id: rawlsian-justice-principles
+- id: rawlsian-justice
   type: soft
 - id: property-rights-justification
   type: soft

@@ -4,11 +4,11 @@ title: 'Primary Harmonic Functions: Tonic, Subdominant, Dominant'
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: diatonic-chord-construction-fundamentals
+- id: diatonic-chord-construction
   type: hard
 builds-toward:
 - chord-progression-patterns-basics
-- cadence-function-and-types
+- cadence-types-and-function
 tags:
 - harmony
 - function

@@ -9,7 +9,7 @@ prerequisites:
 - id: clinical-assessment-interview-methods
   type: hard
 builds-toward:
-- cognitive-behavioral-therapy-cbt
+- cognitive-behavioral-therapy
 - psychodynamic-psychotherapy
 tags:
 - formulation

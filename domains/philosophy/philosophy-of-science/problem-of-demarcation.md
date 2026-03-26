@@ -7,7 +7,7 @@ prerequisites:
 - id: philosophy-of-science-intro
   type: soft
 builds-toward:
-- karl-popper-falsificationism
+- popper-falsificationism
 - logical-positivism-and-vienna-circle
 tags:
 - demarcation

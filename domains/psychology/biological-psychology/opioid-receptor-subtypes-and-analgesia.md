@@ -6,7 +6,7 @@ course: biological-psychology
 prerequisites:
 - id: pain-and-somatosensory-processing
   type: hard
-- id: receptor-subtypes-and-signaling
+- id: receptor-types-and-signaling
   type: hard
 builds-toward:
 - opioid-use-disorder

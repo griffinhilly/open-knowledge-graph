@@ -11,7 +11,7 @@ prerequisites:
 - id: electrochemistry-oxidation-reduction-applications
   type: soft
 builds-toward:
-- electrochemistry-intro
+- electrochemistry-basics
 tags:
 - redox reactions
 - oxidation

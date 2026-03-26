@@ -11,7 +11,7 @@ prerequisites:
 - id: phenomenal-concepts-problem
   type: soft
 builds-toward:
-- hard-problem-consciousness-definition
+- hard-problem-of-consciousness
 - inverted-spectrum-thought-experiment
 tags:
 - phenomenal

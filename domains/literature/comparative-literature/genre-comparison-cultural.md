@@ -6,7 +6,7 @@ course: comparative-literature
 prerequisites:
 - id: genre-analysis-comparative
   type: hard
-- id: comparative-literary-method
+- id: comparative-literary-analysis
   type: soft
 builds-toward:
 - dramatic-traditions-comparative

@@ -5,7 +5,7 @@ domain: history
 course: ancient-civilizations
 prerequisites: []
 builds-toward:
-- shang-oracle-bones-divination-writing
+- oracle-bones-divination-writing
 tags:
 - shang
 - bronze

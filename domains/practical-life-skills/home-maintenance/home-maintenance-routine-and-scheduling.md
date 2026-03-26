@@ -6,10 +6,10 @@ course: home-maintenance
 prerequisites:
 - id: home-maintenance-planning-budgeting-and-scheduling
   type: hard
-- id: seasonal-home-maintenance-tasks
+- id: seasonal-home-maintenance
   type: soft
 builds-toward:
-- seasonal-home-maintenance-tasks
+- seasonal-home-maintenance
 - diy-vs-hire-professional
 tags:
 - maintenance

@@ -9,7 +9,7 @@ prerequisites:
 - id: saturated-superheated-property-regions
   type: soft
 builds-toward:
-- vapor-compression-refrigeration-cycles
+- vapor-compression-refrigeration-cycle
 - rankine-power-generation-cycles
 tags:
 - two-phase

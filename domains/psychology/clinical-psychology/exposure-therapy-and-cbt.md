@@ -4,7 +4,7 @@ title: Exposure and Response Prevention for Anxiety and OCD
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: obsessive-compulsive-disorder-ocd
+- id: obsessive-compulsive-disorder
   type: hard
 - id: behavioral-therapy-exposure
   type: hard

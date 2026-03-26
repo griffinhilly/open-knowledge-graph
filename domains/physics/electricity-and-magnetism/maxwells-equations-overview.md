@@ -20,8 +20,6 @@ prerequisites:
   type: soft
 - id: energy-stored-in-fields
   type: soft
-- id: maxwell-equations-overview
-  type: soft
 builds-toward:
 - electromagnetic-waves
 tags:

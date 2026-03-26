@@ -6,7 +6,7 @@ course: neuroscience
 prerequisites:
 - id: motor-cortex
   type: hard
-- id: dopamine-systems
+- id: dopamine-system
   type: hard
 tags:
 - motor-systems

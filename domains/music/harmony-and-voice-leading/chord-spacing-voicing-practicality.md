@@ -9,7 +9,7 @@ prerequisites:
 - id: voice-leading-basics
   type: hard
 builds-toward:
-- secondary-dominant-voice-leading
+- secondary-dominant-extended-voice-leading
 - jazz-chord-substitution-voice-leading
 tags:
 - spacing

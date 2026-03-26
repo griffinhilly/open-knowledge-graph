@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: building-aromatics-and-bases
   type: soft
-- id: tasting-evaluating-food-flavor
+- id: tasting-evaluating-food
   type: soft
 builds-toward:
 - sauce-making-basics

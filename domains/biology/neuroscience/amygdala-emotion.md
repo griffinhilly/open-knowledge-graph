@@ -6,7 +6,7 @@ course: neuroscience
 prerequisites:
 - id: long-term-potentiation
   type: hard
-- id: dopamine-systems
+- id: dopamine-system
   type: soft
 tags:
 - learning-memory

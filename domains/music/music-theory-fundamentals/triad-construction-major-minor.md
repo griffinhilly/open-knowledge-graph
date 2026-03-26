@@ -4,7 +4,7 @@ title: 'Triad Construction: Major and Minor'
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 - id: intervals-basics
   type: hard

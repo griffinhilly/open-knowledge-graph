@@ -7,7 +7,7 @@ course: physical-chemistry
 prerequisites:
 - id: hartree-fock-method
   type: hard
-- id: variational-principle-quantum-chemistry
+- id: variational-principle-chemistry
   type: soft
 - id: schrodinger-equation-intro
   type: hard

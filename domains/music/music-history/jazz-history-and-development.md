@@ -4,7 +4,7 @@ title: 'Jazz History: Innovation, Improvisation, and American Identity'
 domain: music
 course: music-history
 prerequisites:
-- id: music-history-introduction
+- id: music-history-overview
   type: soft
 builds-toward:
 - popular-music-genres-20th-century

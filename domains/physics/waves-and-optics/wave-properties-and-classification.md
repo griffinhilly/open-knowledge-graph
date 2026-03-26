@@ -5,7 +5,7 @@ domain: physics
 course: waves-and-optics
 prerequisites: []
 builds-toward:
-- wavelength-frequency-speed-relationship
+- wavelength-frequency-speed-relation
 - transverse-and-longitudinal-waves
 tags:
 - waves

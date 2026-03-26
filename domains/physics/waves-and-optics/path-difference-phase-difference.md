@@ -4,7 +4,7 @@ title: Path Difference and Phase Difference in Waves
 domain: physics
 course: waves-and-optics
 prerequisites:
-- id: wavelength-frequency-speed-relationship
+- id: wavelength-frequency-speed-relation
   type: hard
 - id: wave-superposition
   type: hard

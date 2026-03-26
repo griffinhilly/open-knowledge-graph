@@ -6,7 +6,7 @@ course: psychometrics
 prerequisites:
 - id: generalizability-theory-g-theory
   type: hard
-- id: internal-consistency-reliability
+- id: alpha-reliability-internal-consistency
   type: soft
 tags:
 - generalizability-theory

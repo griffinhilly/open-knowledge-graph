@@ -4,13 +4,13 @@ title: Equipotential Surfaces and Their Properties
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
-- id: electric-potential-definition
+- id: electric-potential
   type: hard
 - id: relationship-e-field-potential
   type: soft
 builds-toward:
 - conductors-electrostatic-behavior
-- capacitance-definition
+- capacitance
 tags:
 - equipotential
 - geometry

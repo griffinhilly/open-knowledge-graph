@@ -12,7 +12,7 @@ prerequisites:
   type: hard
 - id: line-integrals-vector-fields
   type: soft
-- id: magnetic-force-on-current-carrying-conductors
+- id: force-on-current-carrying-conductor
   type: soft
 builds-toward:
 - amperes-law

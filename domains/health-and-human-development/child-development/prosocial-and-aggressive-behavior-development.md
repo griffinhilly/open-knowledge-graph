@@ -11,7 +11,7 @@ prerequisites:
 - id: empathy-development-and-helping-behavior
   type: soft
 builds-toward:
-- peer-relationships-and-social-competence-children
+- peer-relationships-and-social-competence
 tags:
 - social-development
 - aggression

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: myelin-and-myelination
   type: soft
-- id: adult-neurogenesis
+- id: neurogenesis-adult
   type: soft
 builds-toward:
 - sensory-system-development

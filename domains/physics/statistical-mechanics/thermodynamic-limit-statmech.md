@@ -6,7 +6,7 @@ course: statistical-mechanics
 prerequisites:
 - id: microcanonical-ensemble
   type: hard
-- id: partition-function-fundamentals
+- id: partition-function-definition
   type: soft
 builds-toward:
 - phase-transition-equilibrium

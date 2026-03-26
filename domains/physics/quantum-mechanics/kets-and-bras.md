@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - observables-and-operators
-- quantum-entanglement
+- entanglement-quantum
 tags:
 - hilbert-spaces
 - duality

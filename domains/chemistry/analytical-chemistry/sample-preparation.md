@@ -6,7 +6,7 @@ course: analytical-chemistry
 prerequisites:
 - id: analytical-chemistry-intro
   type: hard
-- id: chemical-equations-balancing
+- id: chemical-equations-and-balancing
   type: soft
 - id: intermolecular-forces
   type: soft

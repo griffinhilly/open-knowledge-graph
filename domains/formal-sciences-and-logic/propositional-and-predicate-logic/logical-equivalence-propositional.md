@@ -6,7 +6,7 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: truth-assignments-and-valuations
   type: hard
-- id: logical-equivalence-formula-classes
+- id: logical-equivalence-formulas
   type: soft
 builds-toward:
 - normal-forms-cnf-dnf

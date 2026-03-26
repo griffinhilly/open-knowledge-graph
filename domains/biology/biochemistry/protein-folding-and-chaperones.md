@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: enzyme-structure-and-function
   type: soft
-- id: intermolecular-forces-overview
+- id: intermolecular-forces
   type: soft
 - id: entropy-and-gibbs-free-energy
   type: soft

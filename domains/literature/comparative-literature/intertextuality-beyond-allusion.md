@@ -4,7 +4,7 @@ title: 'Intertextuality Beyond Allusion: Networks and Echoes'
 domain: literature
 course: comparative-literature
 prerequisites:
-- id: intertextuality-kristeva
+- id: kristeva-intertextuality
   type: hard
 - id: intertextuality-and-allusion
   type: soft

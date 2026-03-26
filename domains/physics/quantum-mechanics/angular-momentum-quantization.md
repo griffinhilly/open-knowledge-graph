@@ -4,7 +4,7 @@ title: Angular Momentum Quantization
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: operators-and-observables
+- id: observables-and-operators
   type: hard
 - id: commutation-relations
   type: hard

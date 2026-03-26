@@ -7,7 +7,7 @@ prerequisites:
 - id: relative-major-minor-identification
   type: hard
 builds-toward:
-- diatonic-chord-construction-fundamentals
+- diatonic-chord-construction
 - harmonic-analysis-roman-numerals-basics
 tags:
 - key-signatures

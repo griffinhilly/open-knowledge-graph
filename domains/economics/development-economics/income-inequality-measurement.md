@@ -13,7 +13,7 @@ prerequisites:
 - id: multidimensional-poverty-measurement
   type: soft
 builds-toward:
-- kuznets-curve-inequality
+- inequality-kuznets-curve
 tags:
 - inequality
 - measurement

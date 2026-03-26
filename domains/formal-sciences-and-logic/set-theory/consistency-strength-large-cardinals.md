@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: measurable-cardinals-ultra-filters
   type: soft
-- id: cumulative-hierarchy-and-ranks
+- id: cumulative-hierarchy-ranks
   type: soft
 - id: aleph-and-beth-hierarchy-introduction
   type: soft

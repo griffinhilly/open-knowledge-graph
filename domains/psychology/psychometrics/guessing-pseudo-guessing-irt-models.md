@@ -9,7 +9,7 @@ prerequisites:
 - id: item-information-function-test-precision
   type: soft
 builds-toward:
-- differential-item-functioning-analysis
+- differential-item-functioning
 tags:
 - 3pl-model
 - guessing

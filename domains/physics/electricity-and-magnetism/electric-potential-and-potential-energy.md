@@ -29,7 +29,7 @@ prerequisites:
 - id: thevenin-norton-circuit-equivalents
   type: soft
 builds-toward:
-- scalar-and-vector-potentials
+- scalar-vector-potentials
 - boundary-value-problems-em
 tags:
 - electrostatics

@@ -6,7 +6,7 @@ course: advanced-macroeconomics
 prerequisites:
 - id: information-asymmetry
   type: soft
-- id: new-keynesian-framework-overview
+- id: new-keynesian-framework
   type: soft
 tags:
 - financial-accelerator

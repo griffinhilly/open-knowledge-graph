@@ -11,7 +11,7 @@ prerequisites:
 - id: partial-orders
   type: soft
 builds-toward:
-- quantifier-elimination-and-decidability
+- quantifier-elimination-decidability
 - homogeneous-models-realization
 tags:
 - dense-orders

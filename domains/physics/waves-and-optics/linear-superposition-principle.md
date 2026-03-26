@@ -9,7 +9,7 @@ prerequisites:
 - id: circular-elliptical-polarization
   type: soft
 builds-toward:
-- two-sources-interference-pattern
+- two-source-interference-patterns
 - standing-waves
 tags:
 - waves

@@ -9,7 +9,7 @@ prerequisites:
 - id: polar-covalent-bonds-and-dipoles
   type: soft
 builds-toward:
-- intermolecular-forces-overview
+- intermolecular-forces
 - solution-properties
 tags:
 - polarity

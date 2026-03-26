@@ -6,7 +6,7 @@ course: music-theory-fundamentals
 prerequisites:
 - id: voice-leading-basics
   type: hard
-- id: interval-quality-basics
+- id: interval-quality
   type: soft
 builds-toward:
 - voice-leading-principles

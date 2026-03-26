@@ -6,7 +6,7 @@ course: general-chemistry
 prerequisites:
 - id: thermochemistry-enthalpy
   type: hard
-- id: chemical-equations-balancing
+- id: chemical-equations-and-balancing
   type: hard
 builds-toward:
   - reaction-coordinate-diagrams

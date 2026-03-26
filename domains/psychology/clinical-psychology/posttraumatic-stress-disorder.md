@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - exposure-therapy-and-cbt
-- antidepressant-medications-ssris
+- antidepressant-medications
 tags:
 - PTSD
 - trauma

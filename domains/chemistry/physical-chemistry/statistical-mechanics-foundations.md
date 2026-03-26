@@ -24,7 +24,7 @@ prerequisites:
   type: soft
 - id: statistical-ensembles-intro
   type: soft
-- id: partition-function-fundamentals
+- id: partition-function-definition
   type: soft
 - id: partition-function-definition
   type: hard

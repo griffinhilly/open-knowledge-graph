@@ -11,7 +11,7 @@ prerequisites:
 - id: fixed-parameter-tractability
   type: soft
 builds-toward:
-- kolmogorov-complexity-properties
+- kolmogorov-complexity
 tags:
 - parameterized-complexity
 - FPT

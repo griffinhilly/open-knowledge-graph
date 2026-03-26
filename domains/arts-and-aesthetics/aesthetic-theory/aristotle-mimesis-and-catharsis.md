@@ -9,7 +9,7 @@ prerequisites:
 - id: plato-and-idealism-in-art
   type: soft
 builds-toward:
-- expression-theory-of-art
+- expression-theory-art
 tags:
 - classical aesthetics
 - Aristotle

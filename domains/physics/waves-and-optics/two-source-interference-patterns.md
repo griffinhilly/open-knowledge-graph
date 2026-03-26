@@ -4,9 +4,9 @@ title: Two-Source Interference Patterns
 domain: physics
 course: waves-and-optics
 prerequisites:
-- id: interference-constructive-destructive-interference
+- id: constructive-destructive-interference
   type: hard
-- id: wavelength-frequency-speed-relationship
+- id: wavelength-frequency-speed-relation
   type: hard
 builds-toward:
 - diffraction-gratings

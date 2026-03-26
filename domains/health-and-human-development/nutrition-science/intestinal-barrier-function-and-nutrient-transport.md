@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - micronutrient-bioavailability-absorption-factors
-- dietary-fiber-types-gut-health-and-microbiota
+- dietary-fiber-and-gut-health
 tags:
 - intestinal-barrier
 - tight-junctions

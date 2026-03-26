@@ -38,8 +38,6 @@ prerequisites:
   type: soft
 - id: visual-path-and-compositional-flow-direction
   type: soft
-- id: integrating-elements-and-principles-in-design
-  type: soft
 tags:
 - integration
 - synthesis

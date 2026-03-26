@@ -11,7 +11,7 @@ prerequisites:
 - id: voltage-and-current-source-characteristics
   type: hard
 builds-toward:
-- sinusoidal-AC-steady-state-fundamentals
+- sinusoidal-steady-state-analysis
 tags:
 - DC-analysis
 - steady-state

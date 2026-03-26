@@ -6,7 +6,7 @@ course: ear-training
 prerequisites:
 - id: interval-recognition-by-ear
   type: hard
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 - id: perfect-vs-diminished-augmented-interval
   type: soft

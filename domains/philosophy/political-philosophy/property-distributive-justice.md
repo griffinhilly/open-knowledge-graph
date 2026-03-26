@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: political-equality-and-standing
   type: soft
-- id: egalitarian-principles
+- id: egalitarianism
   type: soft
 builds-toward:
 - economic-systems-justice

@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - diatonic-progression-voice-leading-patterns
-- harmonic-function-voice-leading-analysis
+- harmonic-function-and-voice-leading-analysis
 tags:
 - four-part-writing
 - voicing

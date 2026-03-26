@@ -15,7 +15,7 @@ prerequisites:
 - id: global-music-systems-and-exchange
   type: soft
 builds-toward:
-- romantic-nationalism-in-music
+- romantic-nationalism-and-folk-music
 tags:
 - world-music
 - gamelan

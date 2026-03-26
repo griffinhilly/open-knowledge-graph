@@ -4,7 +4,7 @@ title: Opioid Use Disorder
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: substance-use-disorders-overview
+- id: substance-use-disorder
   type: hard
 - id: alcohol-use-disorder
   type: soft

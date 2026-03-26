@@ -4,7 +4,7 @@ title: 'Ionic Bonding: Electron Transfer and Electrostatic Forces'
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: periodic-trends-and-properties
+- id: periodic-trends
   type: hard
 - id: electron-affinity
   type: soft

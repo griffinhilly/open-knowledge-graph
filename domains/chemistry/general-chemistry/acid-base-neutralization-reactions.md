@@ -6,7 +6,7 @@ course: general-chemistry
 prerequisites:
 - id: acid-base-definitions
   type: hard
-- id: chemical-equations-balancing
+- id: chemical-equations-and-balancing
   type: hard
 builds-toward:
 - acid-base-titration

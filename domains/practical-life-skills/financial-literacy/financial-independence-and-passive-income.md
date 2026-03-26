@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: expected-return-and-asset-allocation
   type: hard
-- id: inflation-and-purchasing-power-planning
+- id: inflation-and-purchasing-power
   type: hard
 - id: financial-independence-and-early-retirement-planning
   type: soft

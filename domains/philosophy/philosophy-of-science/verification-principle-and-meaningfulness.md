@@ -9,7 +9,7 @@ prerequisites:
 - id: first-order-logic-syntax
   type: hard
 builds-toward:
-- karl-popper-falsificationism
+- popper-falsificationism
 tags:
 - verification
 - meaningfulness

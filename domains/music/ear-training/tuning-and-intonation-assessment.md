@@ -6,7 +6,7 @@ course: ear-training
 prerequisites:
 - id: just-intonation-acoustics
   type: hard
-- id: interval-quality-basics
+- id: interval-quality
   type: soft
 - id: mixed-interval-ear-training
   type: soft

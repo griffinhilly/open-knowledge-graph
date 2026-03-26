@@ -4,7 +4,7 @@ title: Seventh Chords and Their Function
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: diatonic-chord-construction-fundamentals
+- id: diatonic-chord-construction
   type: hard
 - id: interval-quality-by-semitone-count
   type: hard

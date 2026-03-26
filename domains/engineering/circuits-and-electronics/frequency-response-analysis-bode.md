@@ -6,7 +6,7 @@ course: circuits-and-electronics
 prerequisites:
 - id: impedance-admittance-networks
   type: hard
-- id: frequency-response-Bode-plot-basics
+- id: frequency-response-and-bode-plots
   type: soft
 builds-toward:
 - filter-design-specifications

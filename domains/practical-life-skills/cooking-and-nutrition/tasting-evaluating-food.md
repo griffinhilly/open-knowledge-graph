@@ -3,11 +3,7 @@ id: tasting-evaluating-food
 title: Tasting Food and Making Flavor Adjustments
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites:
-- id: flavor-balance-salt-acid-fat
-  type: hard
-- id: tasting-evaluating-food-flavor
-  type: soft
+prerequisites: []
 builds-toward:
 - taste-balancing-and-evaluating
 tags:

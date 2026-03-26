@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: conservation-of-momentum
   type: hard
-- id: compton-scattering-analysis
+- id: compton-scattering
   type: soft
 builds-toward:
 - matter-wave-de-broglie-momentum

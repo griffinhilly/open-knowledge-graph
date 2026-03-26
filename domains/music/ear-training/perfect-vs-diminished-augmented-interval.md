@@ -4,7 +4,7 @@ title: Perfect vs. Diminished vs. Augmented Intervals
 domain: music
 course: ear-training
 prerequisites:
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 - id: interval-recognition-by-ear
   type: hard

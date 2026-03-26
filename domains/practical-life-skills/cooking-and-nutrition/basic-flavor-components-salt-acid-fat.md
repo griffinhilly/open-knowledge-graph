@@ -7,7 +7,7 @@ prerequisites:
 - id: seasoning-and-flavor-basics
   type: soft
 builds-toward:
-- tasting-evaluating-food-flavor
+- tasting-evaluating-food
 - pan-cooking-and-sauteing-basics
 tags:
 - flavor

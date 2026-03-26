@@ -4,7 +4,7 @@ title: Oxidation-Reduction Basics
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: chemical-equations-balancing
+- id: chemical-equations-and-balancing
   type: hard
 - id: periodic-trends
   type: soft

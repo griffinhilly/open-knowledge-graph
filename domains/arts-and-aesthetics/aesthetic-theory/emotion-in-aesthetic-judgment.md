@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: aesthetic-experience-and-beauty
   type: hard
-- id: expression-theory-of-art
+- id: expression-theory-art
   type: soft
 - id: critical-judgment-and-testimony
   type: soft

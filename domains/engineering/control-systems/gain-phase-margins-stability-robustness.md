@@ -4,7 +4,7 @@ title: 'Gain and Phase Margins: Stability Robustness'
 domain: engineering
 course: control-systems
 prerequisites:
-- id: frequency-response-magnitude-and-phase
+- id: frequency-response-magnitude-phase-basics
   type: hard
 - id: gain-and-phase-margins
   type: hard

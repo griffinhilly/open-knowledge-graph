@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 builds-toward:
 - digital-humanities-literary-analysis
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - translation
 - interpretation

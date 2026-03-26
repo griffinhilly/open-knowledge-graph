@@ -4,7 +4,7 @@ title: Dielectric Materials and Polarization
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
-- id: electric-dipole-moment-field
+- id: electric-dipole-moment
   type: hard
 - id: capacitor-circuits-series-parallel
   type: soft

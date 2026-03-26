@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 - id: accompaniment-patterns-and-figures
   type: soft
-- id: electronic-composition-fundamentals
+- id: electronic-composition-basics
   type: soft
 - id: improvisation-notation-transcription
   type: soft

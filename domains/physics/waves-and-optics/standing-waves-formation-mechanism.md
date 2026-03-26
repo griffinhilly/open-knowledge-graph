@@ -6,7 +6,7 @@ course: waves-and-optics
 prerequisites:
 - id: superposition-principle-waves
   type: hard
-- id: interference-constructive-destructive-interference
+- id: constructive-destructive-interference
   type: hard
 builds-toward:
 - standing-waves

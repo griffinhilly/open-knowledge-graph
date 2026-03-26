@@ -6,7 +6,7 @@ course: statistical-mechanics
 prerequisites:
 - id: statistical-ensembles-intro
   type: hard
-- id: partition-function-fundamentals
+- id: partition-function-definition
   type: hard
 builds-toward:
 - pair-distribution-function

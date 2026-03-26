@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: intertextuality-beyond-allusion
   type: soft
-- id: comparative-literary-method
+- id: comparative-literary-analysis
   type: soft
 - id: allusion-and-literary-reference
   type: soft

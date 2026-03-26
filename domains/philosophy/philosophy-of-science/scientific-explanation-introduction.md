@@ -11,7 +11,7 @@ prerequisites:
 - id: logical-consequence-and-entailment
   type: soft
 builds-toward:
-- deductive-nomological-model-of-explanation
+- deductive-nomological-explanation
 - causal-explanation-theories
 tags:
 - explanation

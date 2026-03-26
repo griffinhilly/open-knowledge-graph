@@ -4,7 +4,7 @@ title: Zhou Dynasty Feudalism and Political Organization
 domain: history
 course: ancient-civilizations
 prerequisites:
-- id: shang-oracle-bones-divination-writing
+- id: oracle-bones-divination-writing
   type: soft
 tags:
 - zhou

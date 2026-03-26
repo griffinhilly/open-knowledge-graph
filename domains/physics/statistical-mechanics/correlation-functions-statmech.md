@@ -9,7 +9,7 @@ prerequisites:
 - id: critical-phenomena-statmech
   type: soft
 builds-toward:
-- fluctuation-dissipation-theorem-general
+- fluctuation-dissipation-theorem
 tags:
 - correlation-function
 - pair-correlation

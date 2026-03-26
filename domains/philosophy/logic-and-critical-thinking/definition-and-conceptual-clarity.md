@@ -4,7 +4,7 @@ title: Definition and Conceptual Clarity
 domain: philosophy
 course: logic-and-critical-thinking
 prerequisites:
-- id: argument-premise-and-conclusion
+- id: arguments-premises-and-conclusions
   type: hard
 builds-toward:
 - argument-evaluation-holistic

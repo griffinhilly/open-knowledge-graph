@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: kripke-causal-theory-naming
   type: soft
-- id: language-games-wittgenstein
+- id: wittgenstein-language-games
   type: soft
 builds-toward:
 - context-dependence-utterance

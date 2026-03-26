@@ -4,8 +4,6 @@ title: Cronbach's Alpha and Internal Consistency Reliability
 domain: psychology
 course: psychometrics
 prerequisites:
-- id: internal-consistency-reliability
-  type: hard
 - id: domain-sampling-theory-reliability-generalization
   type: hard
 builds-toward:

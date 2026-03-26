@@ -4,10 +4,10 @@ title: Binge Eating Disorder
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: eating-disorders-overview
+- id: eating-disorders
   type: hard
 builds-toward:
-- cognitive-behavioral-therapy-clinical
+- cognitive-behavioral-therapy
 tags:
 - binge-eating
 - eating-disorder

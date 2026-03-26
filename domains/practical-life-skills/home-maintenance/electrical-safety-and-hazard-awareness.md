@@ -4,7 +4,7 @@ title: Electrical Safety and Hazard Awareness
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- id: electrical-system-fundamentals
+- id: electrical-system-basics
   type: hard
 - id: electrical-breaker-panel-safety
   type: soft

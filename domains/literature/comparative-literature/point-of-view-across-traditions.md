@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: narrative-structures-cross-cultural
   type: soft
-- id: comparative-literary-method
+- id: comparative-literary-analysis
   type: soft
 tags:
 - narrative

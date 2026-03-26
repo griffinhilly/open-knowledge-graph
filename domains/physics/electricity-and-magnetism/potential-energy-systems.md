@@ -4,10 +4,10 @@ title: Electric Potential Energy in Charge Systems
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
-- id: electric-potential-definition
+- id: electric-potential
   type: hard
 builds-toward:
-- capacitance-definition
+- capacitance
 - energy-density-electric-field
 tags:
 - energy

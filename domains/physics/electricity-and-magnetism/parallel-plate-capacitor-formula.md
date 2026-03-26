@@ -4,7 +4,7 @@ title: 'Parallel Plate Capacitor: Geometry and Formula'
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
-- id: capacitance-definition
+- id: capacitance
   type: hard
 - id: conductors-electrostatic-behavior
   type: hard

@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 builds-toward:
 - insulation-and-air-sealing
-- seasonal-home-maintenance-tasks
+- seasonal-home-maintenance
 tags:
 - attic
 - ventilation

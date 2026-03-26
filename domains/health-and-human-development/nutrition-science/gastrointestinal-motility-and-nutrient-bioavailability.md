@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - intestinal-barrier-function-and-nutrient-transport
-- dietary-fiber-types-gut-health-and-microbiota
+- dietary-fiber-and-gut-health
 tags:
 - motility
 - transit-time

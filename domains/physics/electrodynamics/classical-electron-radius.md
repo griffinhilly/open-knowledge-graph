@@ -4,7 +4,7 @@ title: Classical Electron Radius and Radiation Effects
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: radiation-reaction-self-force
+- id: radiation-reaction-force
   type: hard
 - id: larmor-formula
   type: hard

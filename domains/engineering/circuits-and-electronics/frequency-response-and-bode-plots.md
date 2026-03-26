@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: logarithm-properties
   type: hard
-- id: frequency-response-Bode-plot-basics
-  type: soft
 builds-toward:
 - passive-filter-design
 tags:

@@ -4,7 +4,7 @@ title: Gauge Transformations and Gauge Invariance
 domain: physics
 course: electrodynamics
 prerequisites:
-- id: scalar-and-vector-potentials
+- id: scalar-vector-potentials
   type: hard
 - id: partial-derivatives
   type: hard

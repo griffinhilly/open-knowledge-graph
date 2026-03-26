@@ -6,7 +6,7 @@ course: control-systems
 prerequisites:
 - id: transfer-functions-control
   type: hard
-- id: frequency-response-magnitude-and-phase
+- id: frequency-response-magnitude-phase-basics
   type: hard
 builds-toward:
 - model-uncertainty-robust-stability

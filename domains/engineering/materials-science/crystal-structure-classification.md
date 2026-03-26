@@ -4,7 +4,7 @@ title: Crystal Systems and Bravais Lattices
 domain: engineering
 course: materials-science
 prerequisites:
-- id: atomic-bonding-materials
+- id: atomic-bonding-in-materials
   type: hard
 builds-toward:
 - unit-cell-lattice-parameters

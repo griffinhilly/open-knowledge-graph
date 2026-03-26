@@ -4,13 +4,13 @@ title: 'Molecular Geometry: VSEPR Theory and 3D Structure'
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: lewis-structures-basics
+- id: lewis-structures
   type: hard
 - id: 3d-coordinate-systems
   type: soft
 builds-toward:
 - polarity-and-dipole-moments
-- intermolecular-forces-overview
+- intermolecular-forces
 tags:
 - VSEPR
 - molecular geometry

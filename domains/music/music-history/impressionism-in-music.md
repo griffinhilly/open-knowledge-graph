@@ -11,7 +11,7 @@ prerequisites:
 - id: extended-chords-ninths-elevenths-thirteenths
   type: soft
 builds-toward:
-- early-20th-century-modernism
+- early-modernism-20th-century
 tags:
 - impressionism
 - Debussy

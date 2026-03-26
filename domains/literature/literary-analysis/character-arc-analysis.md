@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 builds-toward:
 - character-foil-analysis
-- unreliable-narrator-analysis
+- unreliable-narrator
 tags:
 - character
 - development

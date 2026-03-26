@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - undecidability-and-godel
-- quantifier-elimination-and-decidability
+- quantifier-elimination-decidability
 tags:
 - axiomatization
 - completeness

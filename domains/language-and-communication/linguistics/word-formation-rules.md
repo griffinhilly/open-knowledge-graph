@@ -11,8 +11,8 @@ prerequisites:
 - id: reduplication-morphology
   type: soft
 builds-toward:
-- derivational-morphology-formal
-- inflectional-morphology-formal
+- derivational-morphology
+- inflectional-morphology
 tags:
 - morphology
 - word-formation

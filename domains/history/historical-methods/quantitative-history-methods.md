@@ -6,8 +6,6 @@ course: historical-methods
 prerequisites:
 - id: digital-history-tools
   type: soft
-- id: historical-argument-structure
-  type: hard
 builds-toward:
 - social-history-approach
 tags:

@@ -4,7 +4,7 @@ title: Wave Speed in Elastic Media
 domain: physics
 course: waves-and-optics
 prerequisites:
-- id: wavelength-frequency-speed-relationship
+- id: wavelength-frequency-speed-relation
   type: hard
 builds-toward:
 - sound-speed-temperature-and-media

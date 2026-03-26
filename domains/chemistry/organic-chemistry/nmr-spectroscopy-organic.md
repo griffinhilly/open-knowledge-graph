@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: ir-spectroscopy-organic
   type: soft
-- id: magnetic-field-definition
+- id: magnetic-field-intro
   type: soft
 - id: spin-angular-momentum
   type: soft

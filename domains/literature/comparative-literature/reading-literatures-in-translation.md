@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: translation-theory-benjamin
   type: soft
-- id: comparative-literary-method
+- id: comparative-literary-analysis
   type: hard
 - id: language-variation-and-change
   type: soft

@@ -13,7 +13,7 @@ prerequisites:
 - id: exocytosis-snare-proteins-membrane-fusion
   type: hard
 builds-toward:
-- receptor-subtypes-and-signaling
+- receptor-types-and-signaling
 - synaptic-plasticity-mechanisms
 - gaba-glutamate-neurotransmission-balance
 tags:

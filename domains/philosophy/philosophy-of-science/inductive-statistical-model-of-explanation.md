@@ -4,7 +4,7 @@ title: Inductive-Statistical Explanation
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
-- id: deductive-nomological-model-of-explanation
+- id: deductive-nomological-explanation
   type: hard
 - id: probabilistic-reasoning
   type: soft

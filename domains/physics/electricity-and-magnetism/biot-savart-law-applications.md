@@ -4,7 +4,7 @@ title: 'Biot-Savart Law: Calculating Magnetic Fields'
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
-- id: magnetic-field-definition
+- id: magnetic-field-intro
   type: hard
 - id: line-integrals-vector-fields
   type: hard

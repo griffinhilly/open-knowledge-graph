@@ -4,7 +4,7 @@ title: Historical Database Design and Structure
 domain: history
 course: historical-methods
 prerequisites:
-- id: quantitative-historical-analysis
+- id: quantitative-history-methods
   type: hard
 - id: archival-systems-and-research-access
   type: soft

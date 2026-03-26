@@ -11,7 +11,7 @@ prerequisites:
 - id: complete-first-order-theories
   type: hard
 builds-toward:
-- elementary-equivalence-and-logical-indistinguishability
+- elementary-equivalence-indistinguishability
 - vaught-theorem-on-models
 tags:
 - complete-theory

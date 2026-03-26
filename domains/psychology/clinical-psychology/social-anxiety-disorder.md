@@ -13,7 +13,7 @@ prerequisites:
 - id: obsessive-compulsive-disorder
   type: soft
 builds-toward:
-- cognitive-behavioral-therapy-cbt
+- cognitive-behavioral-therapy
 - exposure-therapy-and-cbt
 tags:
 - social anxiety

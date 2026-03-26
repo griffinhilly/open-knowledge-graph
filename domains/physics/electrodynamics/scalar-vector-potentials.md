@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: curl-and-divergence
   type: hard
-- id: lienard-potential-applications
-  type: soft
 builds-toward:
 - retarded-potentials
 - gauge-transformations

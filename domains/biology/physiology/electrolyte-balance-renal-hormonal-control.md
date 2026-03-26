@@ -4,7 +4,7 @@ title: Electrolyte Balance and Renal-Hormonal Control
 domain: biology
 course: physiology
 prerequisites:
-- id: collecting-duct-water-reabsorption-adh
+- id: collecting-duct-water-reabsorption
   type: hard
 - id: blood-pressure-regulation
   type: soft

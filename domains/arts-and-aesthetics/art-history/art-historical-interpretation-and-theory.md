@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: art-historical-interpretation-frameworks
   type: soft
-- id: art-historical-periodization
+- id: art-history-periodization
   type: soft
 builds-toward:
 - gender-and-artistic-representation

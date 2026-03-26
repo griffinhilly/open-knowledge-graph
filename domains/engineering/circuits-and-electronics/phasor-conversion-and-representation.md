@@ -4,7 +4,7 @@ title: Phasor Conversion and Representation
 domain: engineering
 course: circuits-and-electronics
 prerequisites:
-- id: sinusoidal-AC-steady-state-fundamentals
+- id: sinusoidal-steady-state-analysis
   type: hard
 - id: complex-exponential-form
   type: hard

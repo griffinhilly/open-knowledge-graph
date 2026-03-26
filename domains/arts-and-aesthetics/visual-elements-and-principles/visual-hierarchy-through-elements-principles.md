@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: emphasis-focal-point-and-hierarchy
   type: hard
-- id: integrating-elements-and-principles-in-design
+- id: integrating-elements-principles-visual-design
   type: soft
 - id: integrating-elements-principles-visual-design
   type: soft

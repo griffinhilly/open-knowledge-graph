@@ -4,10 +4,10 @@ title: 'Covalent Bonding: Electron Sharing and Bond Types'
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: periodic-trends-and-properties
+- id: periodic-trends
   type: hard
 builds-toward:
-- lewis-structures-basics
+- lewis-structures
 - polarity-and-dipole-moments
 tags:
 - covalent bonding

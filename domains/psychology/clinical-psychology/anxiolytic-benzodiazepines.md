@@ -4,7 +4,7 @@ title: 'Anxiolytic and Sedative Medications: Benzodiazepines'
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: generalized-anxiety-disorder-gad
+- id: generalized-anxiety-disorder
   type: soft
 - id: gaba-systems
   type: hard

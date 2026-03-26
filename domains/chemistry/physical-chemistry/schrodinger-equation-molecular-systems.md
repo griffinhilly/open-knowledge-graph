@@ -9,7 +9,7 @@ prerequisites:
 - id: hydrogen-atom-wavefunctions
   type: hard
 builds-toward:
-- variational-principle-quantum-chemistry
+- variational-principle-chemistry
 - molecular-orbital-theory-advanced
 tags:
 - quantum

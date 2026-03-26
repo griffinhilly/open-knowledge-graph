@@ -9,7 +9,7 @@ prerequisites:
 - id: philosophy-literature-relationship
   type: soft
 builds-toward:
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - Levinas
 - ethics

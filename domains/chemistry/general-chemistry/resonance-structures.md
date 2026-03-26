@@ -4,7 +4,7 @@ title: Resonance Structures and Delocalized Electrons
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: lewis-structures-basics
+- id: lewis-structures
   type: hard
 builds-toward:
 - molecular-geometry-prediction

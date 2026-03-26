@@ -8,9 +8,9 @@ prerequisites:
   type: hard
 - id: brittle-vs-ductile-fracture
   type: soft
-- id: fracture-mechanics-analysis
+- id: fracture-mechanics
   type: soft
-- id: fracture-mechanics-concepts
+- id: fracture-mechanics
   type: soft
 builds-toward:
 - fracture-mechanics

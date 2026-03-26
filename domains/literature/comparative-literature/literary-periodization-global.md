@@ -11,7 +11,7 @@ prerequisites:
 - id: narrative-forms-cross-cultural
   type: soft
 builds-toward:
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - periodization
 - history

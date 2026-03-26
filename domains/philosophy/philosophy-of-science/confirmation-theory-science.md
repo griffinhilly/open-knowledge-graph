@@ -4,7 +4,7 @@ title: Confirmation and Evidence
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
-- id: problem-of-induction-hume
+- id: problem-of-induction
   type: hard
 - id: inductive-reasoning
   type: hard

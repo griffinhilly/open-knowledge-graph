@@ -4,7 +4,7 @@ title: Evaluating Testimony and Authority
 domain: philosophy
 course: logic-and-critical-thinking
 prerequisites:
-- id: argument-premise-and-conclusion
+- id: arguments-premises-and-conclusions
   type: hard
 - id: appeal-to-authority-fallacy
   type: soft

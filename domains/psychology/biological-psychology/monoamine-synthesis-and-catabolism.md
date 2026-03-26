@@ -15,7 +15,7 @@ prerequisites:
 builds-toward:
 - dopamine-receptor-subtypes-and-signaling
 - serotonin-reuptake-mechanisms
-- antidepressant-medications-ssris
+- antidepressant-medications
 tags:
 - neurotransmitter
 - dopamine

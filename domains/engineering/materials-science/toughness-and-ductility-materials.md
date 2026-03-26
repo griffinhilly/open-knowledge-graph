@@ -9,7 +9,7 @@ prerequisites:
 - id: elastic-deformation-and-moduli-materials
   type: soft
 builds-toward:
-- fracture-mechanics-analysis
+- fracture-mechanics
 tags:
 - toughness
 - ductility

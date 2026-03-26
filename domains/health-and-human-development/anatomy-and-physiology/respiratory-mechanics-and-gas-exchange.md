@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: gas-exchange-and-diffusion
   type: hard
-- id: oxygen-hemoglobin-binding-cooperativity
+- id: hemoglobin-cooperativity-oxygen-binding
   type: hard
 - id: gas-exchange-alveoli-and-diffusion
   type: soft

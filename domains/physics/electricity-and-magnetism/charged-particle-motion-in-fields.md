@@ -4,7 +4,7 @@ title: Charged Particle Motion in Fields
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
-- id: magnetic-force-on-moving-charges
+- id: magnetic-force-moving-charges
   type: hard
 - id: electric-field
   type: soft

@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - phase-equilibrium-clausius-clapeyron-detailed
-- absorption-refrigeration-systems
+- absorption-refrigeration-cycles
 tags:
 - partial-molar
 - solutions

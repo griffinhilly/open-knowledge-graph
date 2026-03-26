@@ -6,7 +6,7 @@ course: critical-theory
 prerequisites:
 - id: literary-translation-theory
   type: hard
-- id: literary-cosmopolitanism-ethics
+- id: literary-cosmopolitanism
   type: soft
 - id: agamben-exception-sovereignty
   type: soft

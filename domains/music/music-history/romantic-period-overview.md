@@ -17,7 +17,7 @@ prerequisites:
 - id: romantic-instrumental-expansion
   type: soft
 builds-toward:
-- romantic-nationalism-in-music
+- romantic-nationalism-and-folk-music
 - impressionism-in-music
 tags:
 - romantic

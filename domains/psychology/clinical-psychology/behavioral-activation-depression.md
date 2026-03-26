@@ -4,7 +4,7 @@ title: Behavioral Activation and Depression Treatment
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: major-depressive-disorder-mdd
+- id: major-depressive-disorder
   type: hard
 - id: case-formulation-and-treatment-planning
   type: hard

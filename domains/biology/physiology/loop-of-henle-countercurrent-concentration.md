@@ -9,7 +9,7 @@ prerequisites:
 - id: osmosis-and-water-movement
   type: hard
 builds-toward:
-- collecting-duct-water-reabsorption-adh
+- collecting-duct-water-reabsorption
 tags:
 - renal
 - concentration

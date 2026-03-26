@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: event-semantics-formal
   type: soft
-- id: derivational-morphology-formal
+- id: derivational-morphology
   type: soft
 - id: syntax-semantics-interface-formal
   type: soft

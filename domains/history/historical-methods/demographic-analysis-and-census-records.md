@@ -4,7 +4,7 @@ title: Demographic Analysis and Census Records
 domain: history
 course: historical-methods
 prerequisites:
-- id: quantitative-historical-analysis
+- id: quantitative-history-methods
   type: hard
 tags:
 - demographics

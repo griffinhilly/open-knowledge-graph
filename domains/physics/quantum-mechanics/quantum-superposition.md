@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - entanglement-quantum
-- quantum-measurement-problem
+- measurement-problem-quantum
 tags:
 - superposition
 - quantum-state

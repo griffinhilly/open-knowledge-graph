@@ -9,7 +9,7 @@ prerequisites:
 - id: steady-flow-energy-equation-engineering
   type: soft
 builds-toward:
-- vapor-compression-refrigeration-cycles
+- vapor-compression-refrigeration-cycle
 - heat-pump-cycles-detailed
 tags:
 - throttling

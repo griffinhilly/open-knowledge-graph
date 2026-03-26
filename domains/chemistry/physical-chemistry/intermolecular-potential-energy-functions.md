@@ -4,7 +4,7 @@ title: Intermolecular Potential Energy Surfaces
 domain: chemistry
 course: physical-chemistry
 prerequisites:
-- id: intermolecular-forces-overview
+- id: intermolecular-forces
   type: hard
 - id: molecular-polarity
   type: hard

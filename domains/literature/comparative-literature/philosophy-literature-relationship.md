@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - literature-politics-ideology
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - philosophy
 - ethics

@@ -6,8 +6,6 @@ course: neuroscience
 prerequisites:
 - id: neuronal-compartments
   type: soft
-- id: adult-neurogenesis
-  type: soft
 builds-toward:
 - critical-developmental-periods
 - hippocampus-memory-consolidation

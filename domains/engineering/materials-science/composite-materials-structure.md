@@ -4,7 +4,7 @@ title: 'Composite Materials: Structure and Performance'
 domain: engineering
 course: materials-science
 prerequisites:
-- id: polymer-structure-properties
+- id: polymer-structure-and-properties
   type: soft
 - id: ceramic-materials-properties
   type: soft

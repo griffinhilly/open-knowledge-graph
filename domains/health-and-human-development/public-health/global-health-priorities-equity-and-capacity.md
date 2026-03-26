@@ -6,7 +6,7 @@ course: public-health
 prerequisites:
 - id: global-burden-of-disease
   type: hard
-- id: health-disparities-and-equity-frameworks
+- id: health-disparities-equity-frameworks
   type: soft
 tags:
 - global-health

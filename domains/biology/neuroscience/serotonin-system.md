@@ -4,11 +4,7 @@ title: The Serotonin System
 domain: biology
 course: neuroscience
 prerequisites:
-- id: serotonin-emotion-regulation
-  type: hard
 - id: synaptic-transmission
-  type: soft
-- id: serotonin-systems
   type: soft
 builds-toward:
 - mood-anxiety-circuits

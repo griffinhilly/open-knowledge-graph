@@ -6,7 +6,7 @@ course: philosophy-of-science
 prerequisites:
 - id: thomas-kuhn-paradigm-shifts
   type: soft
-- id: imre-lakatos-research-programs
+- id: lakatos-research-programs
   type: soft
 builds-toward:
 - values-in-science

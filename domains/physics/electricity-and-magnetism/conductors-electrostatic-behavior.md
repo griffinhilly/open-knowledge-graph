@@ -9,7 +9,7 @@ prerequisites:
 - id: equipotential-surfaces
   type: hard
 builds-toward:
-- capacitance-definition
+- capacitance
 - parallel-plate-capacitor-formula
 tags:
 - conductor

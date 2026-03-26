@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: linear-regression
   type: soft
-- id: fluorescence-spectroscopy-analysis
+- id: fluorescence-spectroscopy
   type: soft
 - id: nuclear-magnetic-resonance-quantitative
   type: soft

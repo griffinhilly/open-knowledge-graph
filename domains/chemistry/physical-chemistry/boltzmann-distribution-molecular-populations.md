@@ -6,7 +6,7 @@ course: physical-chemistry
 prerequisites:
 - id: statistical-mechanics-foundations
   type: hard
-- id: kinetic-molecular-theory-overview
+- id: kinetic-molecular-theory
   type: hard
 - id: exponential-distribution
   type: soft

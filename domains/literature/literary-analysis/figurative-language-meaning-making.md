@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: metaphor-analogy-rhetorical-strategy
   type: soft
-- id: figurative-language-analysis
+- id: figurative-language
   type: soft
 builds-toward:
 - stylistic-analysis-and-effect

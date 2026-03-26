@@ -11,7 +11,7 @@ prerequisites:
 - id: voice-leading-serves-harmonic-function
   type: soft
 builds-toward:
-- secondary-dominant-voice-leading
+- secondary-dominant-extended-voice-leading
 - cadential-voice-leading-patterns
 - applied-chord-tonicization-process
 tags:

@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 builds-toward:
 - self-concept-and-identity-development-children
-- peer-relationships-and-social-competence-children
+- peer-relationships-and-social-competence
 tags:
 - social-emotional-development
 - emotion-regulation

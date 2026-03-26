@@ -6,7 +6,7 @@ course: philosophy-of-science
 prerequisites:
 - id: theory-observation-distinction
   type: hard
-- id: problem-of-induction-hume
+- id: problem-of-induction
   type: soft
 builds-toward:
 - confirmation-theory-science

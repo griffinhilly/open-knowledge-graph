@@ -6,7 +6,7 @@ course: philosophy-of-science
 prerequisites:
 - id: normal-science-versus-crisis
   type: hard
-- id: karl-popper-falsificationism
+- id: popper-falsificationism
   type: soft
 builds-toward:
 - incommensurability-kuhn

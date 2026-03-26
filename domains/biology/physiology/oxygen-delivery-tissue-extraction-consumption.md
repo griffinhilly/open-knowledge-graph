@@ -4,7 +4,7 @@ title: Oxygen Delivery, Tissue Extraction, and Aerobic Metabolism
 domain: biology
 course: physiology
 prerequisites:
-- id: oxygen-hemoglobin-binding-cooperativity
+- id: hemoglobin-cooperativity-oxygen-binding
   type: hard
 - id: mitochondrion-energy-production
   type: hard

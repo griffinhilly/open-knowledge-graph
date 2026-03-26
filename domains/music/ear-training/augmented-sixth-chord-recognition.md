@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: diminished-seventh-recognition
   type: soft
-- id: chord-inversion-recognition-by-ear
+- id: chord-inversion-recognition-ear
   type: soft
 - id: transposition-by-ear
   type: soft

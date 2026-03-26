@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: world-literature-debates
   type: hard
-- id: comparative-literary-method
+- id: comparative-literary-analysis
   type: soft
 builds-toward:
 - literary-periodization-non-western

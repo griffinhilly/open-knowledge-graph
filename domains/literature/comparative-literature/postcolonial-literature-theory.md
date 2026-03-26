@@ -13,7 +13,7 @@ prerequisites:
 - id: language-attitudes-and-ideology
   type: soft
 builds-toward:
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 - canon-contestation-pluralism
 tags:
 - postcolonial

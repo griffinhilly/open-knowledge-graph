@@ -4,7 +4,7 @@ title: Second Language Acquisition
 domain: language-and-communication
 course: linguistics
 prerequisites:
-- id: first-language-acquisition
+- id: language-acquisition
   type: soft
 - id: sociolinguistics-intro
   type: soft

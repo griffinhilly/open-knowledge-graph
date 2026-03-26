@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: language-acquisition
   type: hard
-- id: first-language-acquisition
+- id: language-acquisition
   type: hard
 tags:
 - acquisition

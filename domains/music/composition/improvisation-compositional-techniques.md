@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: improvisation-notation-transcription
   type: soft
-- id: electronic-composition-fundamentals
+- id: electronic-composition-basics
   type: soft
 tags:
 - improvisation

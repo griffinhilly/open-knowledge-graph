@@ -6,7 +6,7 @@ course: anatomy-and-physiology
 prerequisites:
 - id: respiratory-mechanics-and-gas-exchange
   type: hard
-- id: oxygen-hemoglobin-binding-cooperativity
+- id: hemoglobin-cooperativity-oxygen-binding
   type: hard
 - id: blood-composition-and-function
   type: hard

@@ -4,7 +4,7 @@ title: Dominant Seventh Chords and Resolution
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: seventh-chord-construction-fundamentals
+- id: seventh-chord-construction
   type: hard
 - id: harmonic-function-basics
   type: hard

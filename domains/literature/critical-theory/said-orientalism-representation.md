@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - postcolonial-literature-theory
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - Said
 - Orientalism

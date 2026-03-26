@@ -4,7 +4,7 @@ title: Interval Inversion
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 - id: triad-inversion-and-voicing
   type: soft

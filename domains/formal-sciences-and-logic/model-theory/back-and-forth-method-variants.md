@@ -6,7 +6,7 @@ course: model-theory
 prerequisites:
 - id: ehrenfeucht-fraisse-games-equivalence
   type: hard
-- id: elementary-equivalence-and-logical-indistinguishability
+- id: elementary-equivalence-indistinguishability
   type: hard
 builds-toward:
 - homogeneous-models-realization

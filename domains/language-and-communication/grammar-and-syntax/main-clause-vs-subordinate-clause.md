@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: dependent-clauses
   type: hard
-- id: sentence-structure-overview
+- id: sentence-structure-basics
   type: soft
 - id: object-types-direct-and-indirect
   type: soft

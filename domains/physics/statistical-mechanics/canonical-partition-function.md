@@ -6,7 +6,7 @@ course: statistical-mechanics
 prerequisites:
 - id: canonical-ensemble
   type: hard
-- id: partition-function-fundamentals
+- id: partition-function-definition
   type: hard
 builds-toward:
 - maxwell-boltzmann-distribution

@@ -4,7 +4,7 @@ title: 'Rawlsian Justice: The Two Principles'
 domain: philosophy
 course: political-philosophy
 prerequisites:
-- id: original-position-rawls
+- id: rawls-original-position
   type: hard
 builds-toward:
 - difference-principle

@@ -6,7 +6,7 @@ course: composition
 prerequisites:
 - id: melodic-phrase-structure
   type: hard
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 - id: melody-construction-principles
   type: soft

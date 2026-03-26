@@ -9,7 +9,7 @@ prerequisites:
 - id: cluster-a-personality-disorders
   type: soft
 builds-toward:
-- cognitive-behavioral-therapy-clinical
+- cognitive-behavioral-therapy
 tags:
 - personality-disorders
 - avoidant

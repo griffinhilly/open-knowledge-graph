@@ -6,7 +6,7 @@ course: advanced-macroeconomics
 prerequisites:
 - id: fiscal-multiplier
   type: soft
-- id: new-keynesian-framework-overview
+- id: new-keynesian-framework
   type: hard
 tags:
 - government-spending-multiplier

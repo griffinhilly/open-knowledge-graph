@@ -4,7 +4,7 @@ title: Parallel Major and Minor Scales
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: major-scale-construction-fundamentals
+- id: major-scale-construction
   type: hard
 - id: natural-minor-scale-construction-fundamentals
   type: hard

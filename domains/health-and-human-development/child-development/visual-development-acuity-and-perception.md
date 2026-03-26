@@ -6,7 +6,7 @@ course: child-development
 prerequisites:
 - id: neonatal-reflexes-and-sensory-capabilities
   type: soft
-- id: sensory-system-integration-and-perceptual-development
+- id: sensory-integration-and-perceptual-development
   type: soft
 - id: auditory-development-discrimination-and-language-readiness
   type: soft

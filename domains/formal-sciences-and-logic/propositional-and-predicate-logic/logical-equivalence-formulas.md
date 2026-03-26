@@ -6,8 +6,6 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: formula-evaluation-and-truth-tables
   type: hard
-- id: logical-equivalence-formula-classes
-  type: soft
 builds-toward:
 - logical-consequence-and-entailment
 tags:

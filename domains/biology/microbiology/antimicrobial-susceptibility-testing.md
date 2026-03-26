@@ -4,7 +4,7 @@ title: Antimicrobial Susceptibility Testing and Resistance Profiling
 domain: biology
 course: microbiology
 prerequisites:
-- id: antibiotic-resistance-genetic-mechanisms
+- id: antibiotic-resistance-mechanisms
   type: hard
 - id: sterilization-and-disinfection
   type: soft

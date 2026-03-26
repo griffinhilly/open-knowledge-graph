@@ -6,7 +6,7 @@ course: music-theory-fundamentals
 prerequisites:
 - id: interval-basics
   type: hard
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 - id: melody-from-harmony
   type: soft

@@ -4,12 +4,12 @@ title: Augmented Triads and Extended Harmony
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: interval-quality-basics
+- id: interval-quality
   type: hard
 - id: triad-construction-major-minor-diminished
   type: hard
 builds-toward:
-- seventh-chord-construction-fundamentals
+- seventh-chord-construction
 tags:
 - harmony
 - triads

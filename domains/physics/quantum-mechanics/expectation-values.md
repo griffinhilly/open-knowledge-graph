@@ -4,7 +4,7 @@ title: Expectation Values and Averages
 domain: physics
 course: quantum-mechanics
 prerequisites:
-- id: operators-and-observables
+- id: observables-and-operators
   type: hard
 - id: born-rule-and-measurement
   type: hard

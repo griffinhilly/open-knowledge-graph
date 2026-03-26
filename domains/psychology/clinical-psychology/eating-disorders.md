@@ -7,8 +7,8 @@ prerequisites:
 - id: dsm-5-diagnostic-criteria-and-classification
   type: hard
 builds-toward:
-- cognitive-behavioral-therapy-cbt
-- antidepressant-medications-ssris
+- cognitive-behavioral-therapy
+- antidepressant-medications
 tags:
 - eating disorders
 - body image

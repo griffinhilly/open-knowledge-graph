@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 builds-toward:
 - born-rule-and-measurement
-- operators-and-observables
+- observables-and-operators
 - identical-particles-exchange
 tags:
 - foundations

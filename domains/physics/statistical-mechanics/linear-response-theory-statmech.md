@@ -9,7 +9,7 @@ prerequisites:
 - id: order-parameter-phase-transition
   type: soft
 builds-toward:
-- fluctuation-dissipation-theorem-general
+- fluctuation-dissipation-theorem
 tags:
 - linear-response
 - susceptibility

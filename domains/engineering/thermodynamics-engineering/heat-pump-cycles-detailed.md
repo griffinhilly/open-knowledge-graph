@@ -6,7 +6,7 @@ course: thermodynamics-engineering
 prerequisites:
 - id: heat-pump-heating-cooling-analysis
   type: hard
-- id: vapor-compression-refrigeration-cycles
+- id: vapor-compression-refrigeration-cycle
   type: soft
 builds-toward:
 - combined-gas-steam-cycles

@@ -7,7 +7,7 @@ prerequisites:
 - id: wave-properties-and-classification
   type: hard
 builds-toward:
-- interference-constructive-destructive-interference
+- constructive-destructive-interference
 - beats-and-beat-frequency
 tags:
 - superposition

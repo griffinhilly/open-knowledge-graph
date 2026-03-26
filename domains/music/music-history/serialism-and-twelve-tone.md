@@ -4,7 +4,7 @@ title: Serialism and the Twelve-Tone Technique
 domain: music
 course: music-history
 prerequisites:
-- id: early-20th-century-modernism
+- id: early-modernism-20th-century
   type: hard
 - id: intervals-basics
   type: hard

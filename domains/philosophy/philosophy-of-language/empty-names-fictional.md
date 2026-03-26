@@ -6,7 +6,7 @@ course: philosophy-of-language
 prerequisites:
 - id: russell-definite-descriptions
   type: hard
-- id: reference-determination-theory
+- id: reference-determination
   type: hard
 tags:
 - empty-names

@@ -17,7 +17,7 @@ prerequisites:
 builds-toward:
 - dirac-notation
 - quantum-postulates
-- operators-and-observables
+- observables-and-operators
 tags:
 - foundations
 - linear-algebra

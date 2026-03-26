@@ -6,7 +6,7 @@ course: general-chemistry
 prerequisites:
 - id: oxidation-numbers
   type: hard
-- id: chemical-equations-balancing
+- id: chemical-equations-and-balancing
   type: hard
 builds-toward:
 - half-reactions-and-balancing

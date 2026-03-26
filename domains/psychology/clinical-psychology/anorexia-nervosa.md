@@ -4,7 +4,7 @@ title: Anorexia Nervosa
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: eating-disorders-overview
+- id: eating-disorders
   type: hard
 tags:
 - anorexia

@@ -7,7 +7,7 @@ prerequisites:
 - id: home-maintenance-fundamentals
   type: hard
 builds-toward:
-- electrical-system-fundamentals
+- electrical-system-basics
 - plumbing-system-fundamentals
 - hvac-system-basics-and-filter-maintenance
 - flooring-selection-maintenance-and-care

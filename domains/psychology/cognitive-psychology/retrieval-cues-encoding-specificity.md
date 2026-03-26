@@ -9,7 +9,7 @@ prerequisites:
 - id: memory-consolidation-systems
   type: soft
 builds-toward:
-- interference-and-decay-forgetting
+- forgetting-and-interference
 tags:
 - retrieval
 - memory

@@ -6,7 +6,7 @@ course: quantum-mechanics
 prerequisites:
 - id: quantum-postulates
   type: hard
-- id: quantum-measurement-problem
+- id: measurement-problem-quantum
   type: soft
 builds-toward:
 - measurement-problem

@@ -4,13 +4,13 @@ title: Relating Electric Field to Potential
 domain: physics
 course: electricity-and-magnetism
 prerequisites:
-- id: electric-potential-definition
+- id: electric-potential
   type: hard
 - id: gradient-vector
   type: hard
 builds-toward:
 - conductors-electrostatic-behavior
-- electric-dipole-moment-field
+- electric-dipole-moment
 tags:
 - field
 - potential

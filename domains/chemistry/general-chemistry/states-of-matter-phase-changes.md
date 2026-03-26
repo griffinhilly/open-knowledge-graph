@@ -4,7 +4,7 @@ title: 'States of Matter and Phase Changes: Melting, Boiling, and Sublimation'
 domain: chemistry
 course: general-chemistry
 prerequisites:
-- id: intermolecular-forces-overview
+- id: intermolecular-forces
   type: hard
 builds-toward:
 - gas-laws-ideal-gas

@@ -6,7 +6,7 @@ course: neuroscience
 prerequisites:
 - id: synaptic-transmission
   type: hard
-- id: serotonin-systems
+- id: serotonin-system
   type: soft
 builds-toward:
 - autonomic-sympathetic-parasympathetic

@@ -9,7 +9,7 @@ prerequisites:
 - id: note-names-and-octaves
   type: hard
 builds-toward:
-- interval-quality-basics
+- interval-quality
 - triad-construction-major-minor
 - voice-leading-basics
 tags:

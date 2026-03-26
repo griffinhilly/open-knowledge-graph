@@ -9,7 +9,7 @@ prerequisites:
 - id: critical-phenomena-statmech
   type: hard
 builds-toward:
-- renormalization-group-methods
+- renormalization-group-intro
 tags:
 - universality
 - scaling

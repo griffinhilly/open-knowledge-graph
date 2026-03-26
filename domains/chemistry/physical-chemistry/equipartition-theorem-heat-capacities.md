@@ -4,7 +4,7 @@ title: Equipartition Theorem and Molecular Heat Capacities
 domain: chemistry
 course: physical-chemistry
 prerequisites:
-- id: molecular-partition-functions-theory
+- id: molecular-partition-functions
   type: hard
 - id: heat-capacity-calorimetry
   type: soft

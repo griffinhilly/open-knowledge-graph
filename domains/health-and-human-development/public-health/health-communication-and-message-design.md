@@ -6,7 +6,7 @@ course: public-health
 prerequisites:
 - id: health-promotion-and-behavior-change-design
   type: soft
-- id: health-disparities-and-equity-frameworks
+- id: health-disparities-equity-frameworks
   type: soft
 tags:
 - communication

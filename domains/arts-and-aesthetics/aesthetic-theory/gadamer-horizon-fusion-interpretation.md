@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: aesthetic-interpretation-and-critical-methods
   type: hard
-- id: aesthetic-interpretation-and-criticism
+- id: aesthetic-interpretation-and-critical-methods
   type: soft
 builds-toward:
 - aesthetic-experience-and-cultivation

@@ -9,7 +9,7 @@ prerequisites:
 - id: vectors-in-two-dimensions
   type: hard
 builds-toward:
-- magnetic-force-on-moving-charges
+- magnetic-force-moving-charges
 - biot-savart-law
 - magnetic-flux-and-induction
 tags:

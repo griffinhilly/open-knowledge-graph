@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: color-theory-in-design
   type: soft
-- id: accessibility-inclusive-design-principles
+- id: accessibility-in-design
   type: soft
 - id: color-psychology-and-association
   type: soft

@@ -9,7 +9,7 @@ prerequisites:
 - id: hardness-testing-and-equivalence
   type: soft
 builds-toward:
-- fracture-mechanics-analysis
+- fracture-mechanics
 tags:
 - hardness
 - brinell

@@ -4,7 +4,7 @@ title: Refraction and Snell's Law
 domain: physics
 course: waves-and-optics
 prerequisites:
-- id: wavelength-frequency-speed-relationship
+- id: wavelength-frequency-speed-relation
   type: hard
 - id: wave-properties-and-classification
   type: soft

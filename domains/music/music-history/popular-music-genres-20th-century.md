@@ -4,7 +4,7 @@ title: 'Popular Music Genres: Blues, Rock, and Beyond'
 domain: music
 course: music-history
 prerequisites:
-- id: music-history-introduction
+- id: music-history-overview
   type: soft
 builds-toward:
 - postmodern-and-contemporary-music

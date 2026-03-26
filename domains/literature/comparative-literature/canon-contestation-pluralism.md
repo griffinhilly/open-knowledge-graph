@@ -9,7 +9,7 @@ prerequisites:
 - id: postcolonial-criticism
   type: hard
 builds-toward:
-- literary-cosmopolitanism-ethics
+- literary-cosmopolitanism
 tags:
 - canon
 - postcolonial

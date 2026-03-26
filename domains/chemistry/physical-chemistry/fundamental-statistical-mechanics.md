@@ -4,12 +4,12 @@ title: Fundamental Principles of Statistical Mechanics
 domain: chemistry
 course: physical-chemistry
 prerequisites:
-- id: kinetic-molecular-theory-overview
+- id: kinetic-molecular-theory
   type: hard
 - id: entropy-and-disorder
   type: hard
 builds-toward:
-- molecular-partition-functions-theory
+- molecular-partition-functions
 - equipartition-theorem-heat-capacities
 tags:
 - statistical

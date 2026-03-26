@@ -9,7 +9,7 @@ prerequisites:
 - id: entropy-intro
   type: soft
 builds-toward:
-- partition-function-fundamentals
+- partition-function-definition
 - microcanonical-ensemble
 - canonical-ensemble
 - grand-canonical-ensemble

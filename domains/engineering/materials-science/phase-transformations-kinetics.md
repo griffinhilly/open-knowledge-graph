@@ -4,12 +4,12 @@ title: Kinetics of Solid-State Phase Transformations
 domain: engineering
 course: materials-science
 prerequisites:
-- id: binary-phase-diagrams
+- id: phase-diagrams-binary
   type: hard
 - id: diffusion-mechanisms-materials
   type: hard
 builds-toward:
-- heat-treatment-steels
+- heat-treatment-of-steels
 tags:
 - phase-transformations
 - kinetics

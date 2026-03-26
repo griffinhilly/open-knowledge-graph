@@ -6,7 +6,7 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: logical-operators-and-truth-functions
   type: hard
-- id: conditional-reasoning-basics
+- id: conditional-reasoning
   type: soft
 builds-toward:
 - necessary-and-sufficient-conditions

@@ -4,7 +4,7 @@ title: Paul Feyerabend and Methodological Pluralism
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
-- id: imre-lakatos-research-programs
+- id: lakatos-research-programs
   type: hard
 - id: feyerabend-methodology-anarchy
   type: soft

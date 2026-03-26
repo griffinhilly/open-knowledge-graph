@@ -4,7 +4,7 @@ title: Starting & Shutting Down Your Computer
 domain: practical-life-skills
 course: digital-literacy
 prerequisites:
-- id: computer-hardware-components-basics
+- id: computer-hardware-basics
   type: soft
 builds-toward:
 - operating-system-fundamentals

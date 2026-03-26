@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - moral-development-in-children
-- peer-relationships-and-social-competence-children
+- peer-relationships-and-social-competence
 tags:
 - cognitive-development
 - social-cognitive

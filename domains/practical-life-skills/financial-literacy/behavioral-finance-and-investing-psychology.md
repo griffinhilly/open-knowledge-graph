@@ -6,7 +6,7 @@ course: financial-literacy
 prerequisites:
 - id: behavioral-biases-in-financial-decisions
   type: hard
-- id: stock-market-investing-fundamentals
+- id: stock-market-fundamentals
   type: soft
 - id: consumption-patterns-and-financial-identity
   type: soft
