@@ -26,15 +26,11 @@ Skip counting by 5s (5, 10, 15, 20, ...) is practical for telling time and count
 ## Questions
 
 ```yaml
-- question: "A student is asked to skip count by 5s starting at 35. She pauses and says she can only do it if she starts from 5. What does this reveal about her fluency?"
+- question: "Continue this skip-counting pattern: 35, 40, 45, ___. What number comes next?"
   type: multiple-choice
-  options:
-    - "She is fully fluent — starting at 5 is the correct way to begin skip counting"
-    - "She has partial knowledge — she knows the sequence but can only enter it from the beginning, which is not full fluency"
-    - "She doesn't know skip counting by 5s at all"
-    - "She needs to learn a different skip-counting pattern before returning to 5s"
-  answer: 1
-  explanation: "True fluency means you can enter the skip-counting sequence at any point, not just restart from 5 every time. Being able to continue from 35 (35, 40, 45, 50...) or from 20 is essential for practical uses like reading clocks. Memorizing the list from the beginning is the first step, not the destination."
+  options: ["46", "55", "50", "40"]
+  answer: 2
+  explanation: "When skip counting by 5s, you add 5 each time: 35, 40, 45, 50. The next number after 45 is 50. Notice that every number in this pattern ends in either 5 or 0 — that pattern always holds when counting by 5s. Being able to continue the count from any starting point (not just from 5) is what makes skip counting truly useful for things like reading clocks and counting coins."
 
 - question: "On a clock, the minute hand is pointing to the 4. How many minutes past the hour is it?"
   type: multiple-choice

@@ -35,15 +35,11 @@ Act out simple sentences with toys or puppets ("The bear hugs the rabbit" -- whi
 ## Questions
 
 ```yaml
-- question: "A child hears 'The bone was buried by the dog' and, when asked who did the burying, points to 'the bone.' What most likely explains this error?"
+- question: "Read this sentence: 'The ball was kicked by the girl.' Who did the kicking?"
   type: multiple-choice
-  options:
-    - "The child doesn't know what 'buried' means"
-    - "The child is applying the SVO word-order strategy, treating the first noun as the agent"
-    - "The sentence is too long for the child to hold in memory"
-    - "The child is confusing nouns with verbs"
+  options: ["The ball", "The girl", "Both of them", "It does not say"]
   answer: 1
-  explanation: "Children around ages 2–3 develop the SVO strategy: treat the first noun as the doer, the second as the receiver. This works for active sentences but fails for passives like this one, where the grammatical subject ('the bone') is actually the patient, not the agent. The error isn't about vocabulary or memory — it's a structural comprehension problem caused by over-relying on word order."
+  explanation: "The girl did the kicking. Even though 'the ball' comes first in the sentence, the words 'was kicked by' tell us that the ball is the thing being kicked, and 'the girl' is the one doing the kicking. In sentences like 'X was [verbed] by Y,' Y is always the one doing the action. Understanding who did what in a sentence is the core of sentence comprehension."
 
 - question: "Which of the following best demonstrates that a child truly understands 'The cat chased the dog' — rather than just recognizing the words?"
   type: multiple-choice

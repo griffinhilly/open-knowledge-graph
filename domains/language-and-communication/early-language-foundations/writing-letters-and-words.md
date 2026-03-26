@@ -33,15 +33,15 @@ Begin with large motor movements (writing letters in the air, on whiteboards) be
 ## Questions
 
 ```yaml
-- question: "A kindergartner writes 'SPDR' for 'spider.' Their teacher corrects every invented spelling and requires only conventionally correct words. What does research on early literacy suggest about this approach?"
+- question: "You want to write the word 'bed' but you are not sure how to spell it. What should you do first?"
   type: multiple-choice
   options:
-    - "It speeds up spelling acquisition because children learn the correct forms earlier"
-    - "It prevents bad spelling habits from forming before they become automatic"
-    - "It may slow literacy development by shifting the child's attention from active sound analysis to rote memorization"
-    - "It is the most effective approach for building both reading and writing simultaneously"
+    - "Copy a word that looks similar, like 'bad'"
+    - "Just guess randomly and move on"
+    - "Say the word slowly, listen to each sound, and write the letter for each sound you hear"
+    - "Skip the word entirely and draw a picture instead"
   answer: 2
-  explanation: "When a child writes 'SPDR' for 'spider,' they are demonstrating active phonological analysis: listening to the sounds in the word and representing each sound with a letter they know. This strengthens phonemic awareness and letter-sound knowledge. Correcting every invented spelling redirects the child's attention from this generative, analytical process to the much more passive task of copying approved spellings — which can actually slow the development of independent word analysis skills."
+  explanation: "When you are not sure how to spell a word, the best strategy is to say it slowly and listen for each sound. In 'bed,' you can hear three sounds: /b/, /e/, /d/. Then write the letter that makes each sound: b-e-d. This is called sounding out a word for writing, and it works because letters represent sounds. Even if the spelling is not perfect, listening to sounds and matching them to letters is how writing works."
 
 - question: "How does learning to form letters by hand benefit a child's reading ability?"
   type: multiple-choice

@@ -33,25 +33,17 @@ Engage children in rich, back-and-forth conversations during everyday activities
 ## Questions
 
 ```yaml
-- question: "A parent is trying to build their toddler's vocabulary. Which approach is most effective based on how language development works?"
+- question: "In a conversation, what should you do after the other person finishes talking?"
   type: multiple-choice
-  options:
-    - "Playing educational TV shows with rich vocabulary for several hours each day"
-    - "Reading the same picture books aloud repeatedly without pausing for the child to respond"
-    - "Having back-and-forth exchanges where the parent responds to what the child points at or says"
-    - "Correcting the child's grammar errors each time they occur"
-  answer: 2
-  explanation: "Language develops through contingent, responsive conversation — when the child communicates and someone responds. TV and one-way reading are passive: the child hears language but cannot receive a reply to their own attempts. Correcting grammar directly is less effective than modeling the correct form naturally. Only option C provides the back-and-forth exchange that drives language growth."
-
-- question: "A caregiver notices their 18-month-old understands 'get your shoes' and 'where's the dog?' but only says about 10 words. What does this most likely indicate?"
-  type: multiple-choice
-  options:
-    - "The child likely has a language delay and should be evaluated immediately"
-    - "The child is developing normally — comprehension typically leads production"
-    - "The child is not being spoken to enough and needs more passive exposure"
-    - "The child's expressive language is strong but receptive language is behind"
+  options: ["Start talking about something completely different", "Wait a moment, then respond to what they said", "Talk at the same time so they can hear your ideas faster", "Stay silent because the conversation is over"]
   answer: 1
-  explanation: "Comprehension (receptive language) nearly always leads production (expressive language). Children understand far more words than they can produce — a toddler with 10 spoken words may comprehend several hundred. This gap is completely normal. The caregiver should continue rich back-and-forth conversation, not worry about a developmental delay."
+  explanation: "Good conversation is built on turn-taking — one person talks, the other listens, and then they respond to what was said. Talking at the same time makes it hard for anyone to hear. Changing the subject ignores what the other person shared. Waiting for your turn and then responding shows you were listening and keeps the conversation going."
+
+- question: "Someone says to you: 'Please put the book on the table and then bring me the cup.' How many things are you being asked to do?"
+  type: multiple-choice
+  options: ["One thing — put something somewhere", "Two things — put the book on the table, then bring the cup", "Three things — put, table, bring", "You cannot tell from this sentence"]
+  answer: 1
+  explanation: "This sentence gives two instructions: first, put the book on the table, and second, bring the cup. Understanding spoken directions with multiple steps is an important part of spoken language. The word 'and then' is a clue that a second action is coming after the first one."
 
 - question: "A child learns language primarily by being spoken to rather than by being spoken with."
   type: true-false
@@ -63,10 +55,10 @@ Engage children in rich, back-and-forth conversations during everyday activities
   answer: false
   explanation: "Turn-taking begins in infancy, before any words appear. In protoconversation, babies and caregivers exchange sounds, gazes, and expressions, each pausing for the other. By the time a child says their first word, they have already internalized the basic back-and-forth rhythm of dialogue. Language production develops later than the social architecture that supports it."
 
-- question: "Why is a caregiver's response to a child's communicative attempt more effective for language development than exposing the child to the same amount of spoken language from a TV program?"
+- question: "Your friend tells you about their weekend trip to the zoo. Name two things you could say or do to show you are a good listener and keep the conversation going."
   type: short-answer
-  answer: "A caregiver can respond contingently — following the child's attention, expanding what they said, and answering their attempts. TV cannot respond. Language develops through back-and-forth exchanges where the child's own attempts are noticed and replied to, not through passive exposure to speech."
-  explanation: "The key mechanism is contingency: the child says or points at something, and an adult responds in a way that connects to exactly what the child just communicated. This responsive loop is what drives vocabulary and grammar growth. A screen provides no such loop — it speaks to all children equally, regardless of what any individual child is doing or trying to say."
+  answer: "You could ask a question about their trip, like 'What was your favorite animal?' or 'Was it crowded?' You could also share something related, like 'I went to the zoo last summer too!' Both of these show you were paying attention and care about what they said."
+  explanation: "Good conversation involves responding to what the other person says — asking follow-up questions, sharing related thoughts, or reacting to their story. This is what makes a conversation different from just two people talking at each other. Listening and then responding to what you heard keeps the back-and-forth going."
 ```
 
 ## Explainer

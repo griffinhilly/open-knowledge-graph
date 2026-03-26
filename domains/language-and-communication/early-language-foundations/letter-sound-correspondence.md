@@ -37,15 +37,11 @@ Teach one or two letter-sound pairs at a time using a keyword picture (a = apple
 ## Questions
 
 ```yaml
-- question: "A child spells the word 'cat' as 'KAT.' What does this reveal about her understanding?"
+- question: "Which word is spelled using the correct letter-sound matches, even if the spelling is not the standard one?"
   type: multiple-choice
-  options:
-    - "She has not yet learned letter recognition"
-    - "She is applying letter-sound correspondences, even if incorrectly spelling the word"
-    - "She does not understand phonemic awareness"
-    - "She is confused about letter names versus letter shapes"
-  answer: 1
-  explanation: "'KAT' shows the child IS applying letter-sound knowledge — she hears /k/, /æ/, /t/ and maps each to a letter that makes that sound. 'K' is a legitimate grapheme for /k/, and she correctly identifies the other sounds too. This is phonics in action. It is not a failure of letter-sound correspondence but rather an indication she hasn't yet learned the conventional spelling. Confusing this with lack of letter recognition or phonemic awareness misses the evidence of genuine alphabetic understanding."
+  options: ["Spelling 'dog' as 'QZR'", "Spelling 'fish' as 'FIH'", "Spelling 'sun' as 'SUN'", "Spelling 'map' as 'TBK'"]
+  answer: 2
+  explanation: "In 'SUN,' each letter matches the sound it represents: S makes /s/, U makes /uh/, N makes /n/. The other wrong options either use letters that don't match the sounds at all (QZR for 'dog,' TBK for 'map') or miss a sound (FIH drops the /sh/ sound). Letter-sound correspondence means each letter represents a sound in the word — even if the spelling isn't the standard one, the sounds should match."
 
 - question: "What is the alphabetic principle?"
   type: multiple-choice

@@ -33,15 +33,15 @@ Introduce a few words at a time (3-5 per week) with repeated practice. Use flash
 ## Questions
 
 ```yaml
-- question: "A first-grader correctly identifies the word 'the' every time it appears but cannot explain what the individual letters stand for. What does this most likely indicate?"
+- question: "Which of these words does NOT follow normal letter-sound rules and must be memorized by sight?"
   type: multiple-choice
   options:
-    - "The child has a phonics deficit and needs remediation"
-    - "The child has developed automaticity for 'the' — recognizing it as a whole visual unit"
-    - "The child is guessing based on context clues"
-    - "The child is not truly reading because she cannot decode the word"
+    - "'cat' — each letter makes its regular sound: /k/, /a/, /t/"
+    - "'said' — if you sounded it out, you would say /sayd/, but it is actually pronounced /sed/"
+    - "'dog' — each letter makes its regular sound: /d/, /o/, /g/"
+    - "'sit' — each letter makes its regular sound: /s/, /i/, /t/"
   answer: 1
-  explanation: "Automatic recognition of a whole word without phonemic decoding is exactly what sight word automaticity looks like. Fluent readers recognize high-frequency words as visual units stored in memory — retrieved in one step rather than assembled from phonemes. This is a sign of progress, not a gap. The inability to explain letter-by-letter phonics for a well-automatized word is expected and appropriate."
+  explanation: "The word 'said' does not follow standard phonics rules. If you sounded it out letter by letter, you would expect it to rhyme with 'paid,' but it is actually pronounced like 'sed.' Because sounding it out gives the wrong answer, 'said' must be memorized as a whole word — a sight word. The other words (cat, dog, sit) all follow regular letter-sound rules and can be decoded normally."
 
 - question: "Why does recognizing sight words automatically help a child understand what they read, even though sight words are usually simple words like 'the' and 'was'?"
   type: multiple-choice

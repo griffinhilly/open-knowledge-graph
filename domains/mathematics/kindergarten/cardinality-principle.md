@@ -33,15 +33,11 @@ Young children often recount objects they've already counted, or don't understan
 ## Questions
 
 ```yaml
-- question: "A child counts 6 toy cars by touching each one and saying '1, 2, 3, 4, 5, 6.' When asked 'How many cars are there?' the child starts counting from the beginning again. What does this tell us?"
+- question: "You count a group of crayons: 1, 2, 3, 4, 5, 6, 7, 8. How many crayons are there?"
   type: multiple-choice
-  options:
-    - "The child doesn't know the counting sequence"
-    - "The child has mastered one-to-one correspondence but not the cardinality principle"
-    - "The child is being careful to make sure the count is right"
-    - "The child cannot count past 6"
+  options: ["You need to count them again to find out", "8 — the last number you said is the total", "1 — you started at 1", "It depends on the order you counted them"]
   answer: 1
-  explanation: "The child counting again from the start shows they can count — they touched each object once and said the numbers in order (one-to-one correspondence). What they are missing is the cardinality principle: the understanding that the last number said already IS the answer to 'how many?' A child who has the cardinality principle would simply say '6' without recounting."
+  explanation: "There are 8 crayons. When you count a group of objects, the last number you say tells you how many there are in total. You do not need to count again — the answer is already there in the last number. This idea is called cardinality: the last number counted equals the total amount."
 
 - question: "A child counts 5 blocks left-to-right and gets 5. She then counts the same 5 blocks right-to-left. What will she get?"
   type: multiple-choice

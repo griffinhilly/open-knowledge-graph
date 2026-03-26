@@ -33,25 +33,17 @@ Start with easier tasks like rhyming and syllable clapping, then progress to iso
 ## Questions
 
 ```yaml
-- question: "A child knows all 26 letters of the alphabet and can write them from memory, but cannot tell you what sound 'dog' starts with or recognize that 'cat' and 'bat' rhyme. What does this reveal?"
+- question: "Which two words start with the same sound?"
   type: multiple-choice
-  options:
-    - "The child has strong phonemic awareness and is ready to begin phonics instruction"
-    - "The child has letter knowledge but has not yet developed phonemic awareness"
-    - "The child has phonemic awareness but lacks the phonics skills needed to decode words"
-    - "The child needs more alphabet practice before sounds can be introduced"
+  options: ["'ball' and 'tall'", "'dog' and 'door'", "'cat' and 'sun'", "'fish' and 'mouse'"]
   answer: 1
-  explanation: "Letter knowledge (knowing letter names and shapes) is entirely separate from phonemic awareness (hearing and manipulating sounds in spoken words). A child can recite the alphabet perfectly while having no ability to perceive that 'dog' begins with /d/ or that 'cat' and 'bat' share an ending sound. Phonemic awareness is an auditory skill that develops through oral language play, not through print exposure."
+  explanation: "'Dog' and 'door' both start with the /d/ sound. 'Ball' and 'tall' rhyme (they end the same) but start with different sounds — /b/ and /t/. 'Cat' and 'sun' start with /k/ and /s/. 'Fish' and 'mouse' start with /f/ and /m/. Hearing the first sound in a word and comparing it to other words is a key part of phonemic awareness."
 
-- question: "A kindergarten teacher wants to build phonemic awareness. Which activity is most appropriate?"
+- question: "How many separate sounds do you hear in the spoken word 'ship'?"
   type: multiple-choice
-  options:
-    - "Having students match letter cards to pictures whose names begin with that letter"
-    - "Tracing letters in sand while saying each letter's sound aloud"
-    - "Clapping out syllables in spoken words and identifying the first sound in 'sun'"
-    - "Reading decodable books while pointing to each word"
-  answer: 2
-  explanation: "Clapping syllables and isolating initial sounds are purely oral activities — no print involved. Options A, B, and D all connect sounds to written letters, which is phonics, not phonemic awareness. Phonemic awareness must be developed at the auditory level first; only then does it make sense to attach letters to those sounds through phonics instruction."
+  options: ["Two sounds: /sh/ and /ip/", "Three sounds: /sh/, /i/, /p/", "Four sounds: /s/, /h/, /i/, /p/", "One sound: 'ship' is just one chunk"]
+  answer: 1
+  explanation: "The word 'ship' has three distinct sounds (phonemes): /sh/ (the 'sh' is one sound, not two), /i/ (the short vowel), and /p/. Even though 'sh' uses two letters, it makes a single sound. Breaking words into their individual sounds is the core skill of phonemic awareness."
 
 - question: "A child can develop strong phonemic awareness even if they have never seen a written letter."
   type: true-false
@@ -63,10 +55,10 @@ Start with easier tasks like rhyming and syllable clapping, then progress to iso
   answer: false
   explanation: "The alphabet song teaches letter names ('ay, bee, see...'), not phonemes. Phonemic awareness is the ability to hear that spoken words like 'cat' are composed of separate sounds (/k/-/æ/-/t/). Knowing letter names is a separate skill. Many children who can sing the alphabet cannot yet segment or blend the sounds within words."
 
-- question: "Why must phonemic awareness develop before phonics instruction can be effective? Explain the relationship between the two skills."
+- question: "Say the word 'cat' without the /k/ sound at the beginning. What word do you get?"
   type: short-answer
-  answer: "Phonics teaches that written letters correspond to sounds in spoken words. But this mapping is meaningless to a child who cannot yet perceive that spoken words are made of individual sound segments at all. Phonemic awareness — the auditory ability to notice and manipulate phonemes — is the foundation that makes the alphabetic code learnable. Once a child can hear that 'cat' has three distinct sounds, the instruction that 'c' represents /k/ has somewhere to land."
-  explanation: "The key insight is that phonics is a code built on top of phonemic awareness. Without the auditory foundation, phonics instruction 'slides off' — children can memorize letter names without developing any understanding of how sounds work. This is why literacy intervention programs prioritize oral sound play before introducing any print."
+  answer: "'At.' When you remove the /k/ sound from the beginning of 'cat,' you are left with 'at.' This is called phoneme deletion — taking away one sound from a word to make a new word."
+  explanation: "Phoneme deletion is one of the most advanced phonemic awareness skills. It requires you to mentally hold the word 'cat' in mind, identify the first sound /k/, remove it, and blend the remaining sounds /a/ and /t/ together. Being able to do this shows strong phonemic awareness — the ability to hear and manipulate individual sounds in spoken words."
 ```
 
 ## Explainer

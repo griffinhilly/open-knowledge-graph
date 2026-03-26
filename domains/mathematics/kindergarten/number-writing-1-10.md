@@ -32,15 +32,11 @@ Use tracing worksheets, sand trays, and sky-writing in the air. Teach standard s
 ## Questions
 
 ```yaml
-- question: "A child consistently writes the numeral 3 mirrored (facing the wrong direction). What does this most likely indicate?"
+- question: "When you write the numeral 3, which direction should the bumps face?"
   type: multiple-choice
-  options:
-    - "The child does not know what the number 3 means"
-    - "This is a normal developmental stage in numeral writing that resolves with practice"
-    - "The child needs remedial math intervention immediately"
-    - "The child has not yet learned to count to 3"
+  options: ["The bumps face to the left (toward the start of the line)", "The bumps face to the right (away from the start of the line)", "It does not matter which direction the bumps face", "The numeral 3 has no bumps"]
   answer: 1
-  explanation: "Reversals of numerals like 2, 3, 5, 6, and 9 are completely expected and developmentally normal for young children first learning to write. The brain is still building firm memories of which direction each symbol faces. These reversals almost always disappear on their own with correct, repeated practice — they do not indicate a problem with understanding the quantity the numeral represents."
+  explanation: "When you write the numeral 3, the two bumps face to the right. If the bumps face the wrong direction (to the left), the 3 looks backward and can be confusing to read. Learning which direction each numeral faces is part of writing numbers correctly. A helpful trick: the 3 opens toward the right side of the page."
 
 - question: "What is the main reason for teaching a standard stroke sequence for each numeral?"
   type: multiple-choice

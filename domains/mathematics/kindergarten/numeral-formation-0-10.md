@@ -28,15 +28,11 @@ Children may write numerals backward or upside down. They may make inconsistent 
 ## Questions
 
 ```yaml
-- question: "A kindergartener writes the numeral 3 facing backward. What is the most appropriate teacher response?"
+- question: "Where should you start when writing the numeral 2?"
   type: multiple-choice
-  options:
-    - "Immediately refer the child for a learning disability evaluation — backward writing is a serious warning sign"
-    - "Accept the backward 3 as fully correct, since it still represents the quantity three"
-    - "Recognize this as a normal developmental stage and provide more guided practice with verbal cues like 'the 3 opens to the left'"
-    - "Have the child erase all their work and repeat the lesson from scratch"
+  options: ["At the bottom, drawing upward", "In the middle, drawing a circle", "At the top, curving to the right and ending with a flat line at the bottom", "It does not matter where you start"]
   answer: 2
-  explanation: "Reversals are developmentally normal in kindergarten. The brain's visual system is not yet fully specialized to treat mirror images as distinct symbols — it recognizes a shape whether it faces left or right. With repetition, verbal cues, and consistent practice, children gradually build correct muscle memory. Referring a child for a learning evaluation or having them erase all work are disproportionate responses to what is an expected stage of development."
+  explanation: "The numeral 2 starts at the top. You curve up and to the right, come back down and around to the left, and finish with a flat horizontal line at the bottom. Starting at the top is important because it helps you form the number the same way every time, making it easy to read and hard to confuse with other numbers."
 
 - question: "After a child writes the numeral 7, a teacher asks them to count out 7 blocks and place them next to what they wrote. Why is this step important?"
   type: multiple-choice

@@ -31,15 +31,11 @@ Use songs, finger counting, and physical objects. Children should touch or move 
 ## Questions
 
 ```yaml
-- question: "A child counts 7 toys one by one, touching each toy as she goes. When asked 'How many toys are there?' she immediately starts counting from the beginning again. What does this tell us about her understanding?"
+- question: "You count some apples on a plate: 1, 2, 3, 4, 5, 6, 7. Someone asks you 'How many apples are on the plate?' What is the answer?"
   type: multiple-choice
-  options:
-    - "She made an error in her original count and needs to recheck"
-    - "She has not yet grasped cardinality — she doesn't understand that the last number she said already IS the answer"
-    - "She doesn't know the correct counting sequence"
-    - "She touched some toys more than once (violated one-to-one correspondence)"
+  options: ["You have to start counting over to find out", "7 — the last number you said is the answer", "1 — because you started counting at 1", "It could be any number"]
   answer: 1
-  explanation: "The cardinality principle says the final number you say when counting a group tells you how many are in the whole group — you don't need to recount. A child who recounts after a correct count hasn't yet internalized this principle. She may have stable order and one-to-one correspondence but still treats counting as a procedure rather than understanding that the last word *is* the answer."
+  explanation: "There are 7 apples. When you finish counting and the last number you say is 7, that means there are 7 objects in the group. You do not need to count again — the last number already tells you the total. Understanding that the last number is the answer is an important part of knowing how to count."
 
 - question: "A child counts 5 blocks but accidentally touches the first block twice, counting it as both '1' and '2.' She announces there are 6 blocks. Which counting principle did she violate?"
   type: multiple-choice

@@ -34,15 +34,11 @@ Read aloud frequently, pausing to explain unfamiliar words using child-friendly 
 ## Questions
 
 ```yaml
-- question: "A teacher wants students to truly learn the word 'persevere.' Which approach is most likely to result in students using it independently?"
+- question: "The word 'enormous' means the same as which of these words?"
   type: multiple-choice
-  options:
-    - "Add it to a vocabulary list students copy and study for a quiz"
-    - "Define it once during a read-aloud and move on"
-    - "Use the word repeatedly across different contexts — read-alouds, classroom conversations, and by encouraging students to use it themselves"
-    - "Have students look it up in the dictionary and write one sentence"
+  options: ["Tiny", "Fast", "Very big", "Scary"]
   answer: 2
-  explanation: "Words become part of active vocabulary through 10–15 exposures in varied contexts, not through a single definition or memorization. The quiz-list approach teaches the referential meaning but not how to use the word fluently. Repeated use across different situations builds syntactic flexibility, connotation, and collocational knowledge — the multiple layers that constitute genuinely knowing a word."
+  explanation: "'Enormous' means very, very big — much bigger than normal. An enormous elephant would be an especially large elephant. 'Tiny' means the opposite (very small). 'Fast' describes speed, not size. 'Scary' describes something frightening. Learning what words mean is the heart of vocabulary building."
 
 - question: "A child hears the word 'enormous' for the first time in a bedtime story. What can we accurately say about the child's knowledge of that word?"
   type: multiple-choice

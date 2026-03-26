@@ -29,21 +29,13 @@ Students master multiplication facts for 3s, 4s, 6s, 7s, 8s, and 9s through skip
 ```yaml
 - question: "You forget 8 × 7. Using the doubling strategy, which known fact gives you the most direct path to the answer?"
   type: multiple-choice
-  options:
-    - "4 × 7 = 28, then double it to get 56"
-    - "8 × 10 = 80, then subtract 8 + 8 + 8"
-    - "8 × 5 = 40, then add 8 + 8 + 8"
-    - "Skip-count by 8 seven times"
+  options: ["4 × 7 = 28, then double it to get 56", "8 × 10 = 80, then subtract 8 + 8 + 8", "8 × 5 = 40, then add 8 + 8 + 8", "Skip-count by 8 seven times"]
   answer: 0
   explanation: "The doubling strategy says the 8s are the 4s doubled: since 4 × 7 = 28, then 8 × 7 = 56 (double 28). This requires knowing one simpler fact and performing one doubling — far faster than skip-counting. Options C and D work but are slower and more error-prone. Option B requires subtracting three 8s, which is harder than simply doubling 28."
 
 - question: "A student uses the 9s digit pattern: 'The tens digit is one less than the factor, and the digits add up to 9.' She is solving 9 × 6. What is her answer?"
   type: multiple-choice
-  options:
-    - "54, because the tens digit is 5 (one less than 6) and 5 + 4 = 9"
-    - "63, because the tens digit is 6 and 6 + 3 = 9"
-    - "45, because the tens digit is 4 and 4 + 5 = 9"
-    - "56, because 9 is close to 10 and 10 × 6 = 60"
+  options: ["54, because the tens digit is 5 (one less than 6) and 5 + 4 = 9", "63, because the tens digit is 6 and 6 + 3 = 9", "45, because the tens digit is 4 and 4 + 5 = 9", "56, because 9 is close to 10 and 10 × 6 = 60"]
   answer: 0
   explanation: "For 9 × 6: the tens digit is one less than the factor 6, which is 5. The ones digit must make the sum equal 9, so 9 − 5 = 4. Answer: 54. Option B applies the pattern incorrectly (using the factor itself as the tens digit). This pattern works for all 9× facts up to 9 × 9 — it's a reliable shortcut that doesn't require any other fact."
 
@@ -57,10 +49,10 @@ Students master multiplication facts for 3s, 4s, 6s, 7s, 8s, and 9s through skip
   answer: false
   explanation: "Fluency means automatic retrieval in 3–5 seconds — not reconstruction. Skip-counting by 7s to reach 56 takes considerably longer and demands significant working memory. Fluency matters because multiplication facts are used constantly inside larger procedures. If a student must reconstruct a basic fact mid-problem (e.g., during long division), it consumes cognitive resources that should go toward understanding the larger concept. The goal is instant recall, not the ability to derive."
 
-- question: "Why does fluency with multiplication facts (automatic recall) matter more than the ability to reconstruct facts through strategies like skip-counting?"
+- question: "What is 7 x 8? Show how you could figure it out if you forgot the answer."
   type: short-answer
-  answer: "Fluency frees up working memory for more complex thinking. Multiplication facts appear constantly inside larger procedures — multi-digit multiplication, long division, simplifying fractions. If a student must stop and skip-count every time a fact appears, that reconstruction effort crowds out their attention to the bigger mathematical idea. Automatic recall lets facts become 'transparent' tools, letting the student focus on the structure of the problem rather than its arithmetic building blocks."
-  explanation: "This is sometimes called 'automaticity': when basic skills become automatic, cognitive capacity opens up for higher-order reasoning. The same principle applies in reading (fluent decoding frees attention for comprehension) and in many other skill domains."
+  answer: "7 x 8 = 56. One way to figure it out: if you know 7 x 7 = 49, just add one more 7 to get 56. Another way: know that 4 x 8 = 32 and double it isn't right (that gives 64 which is 8 x 8), so instead use 7 x 4 = 28 and double it to get 56, since 7 x 8 = 7 x (4 x 2) = (7 x 4) x 2 = 28 x 2 = 56."
+  explanation: "The best approach is to just know that 7 x 8 = 56 by heart. But when you forget, strategies help: you can build from a nearby fact you do know (like 7 x 7 = 49 + 7) or use doubling (7 x 4 = 28, doubled = 56). The goal is eventually to recall all multiplication facts automatically so you do not have to figure them out each time."
 ```
 
 ## Explainer

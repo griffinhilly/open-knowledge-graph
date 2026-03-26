@@ -35,15 +35,11 @@ Read aloud regularly and ask questions at multiple levels: literal ("What color 
 ## Questions
 
 ```yaml
-- question: "A 7-year-old reads every word on a page aloud without errors but cannot answer any questions about what she read. When her teacher reads the same passage aloud to her, she answers questions accurately and draws inferences easily. What is the most likely explanation?"
+- question: "Listen to this short story: 'The bird flew to the tree because it started raining. It hid under the leaves until the rain stopped.' Why did the bird fly to the tree?"
   type: multiple-choice
-  options:
-    - "She has weak comprehension skills that need direct instruction"
-    - "Her listening comprehension is intact; the bottleneck is decoding, not understanding"
-    - "She needs more vocabulary instruction before comprehension will improve"
-    - "Both reading and listening comprehension are weak and need separate intervention"
+  options: ["Because it was hungry and looking for food", "Because it started raining and the bird wanted to stay dry", "Because it saw another bird in the tree", "Because the tree had fallen down"]
   answer: 1
-  explanation: "According to the Simple View of Reading, reading comprehension = decoding × listening comprehension. This child's strong listening comprehension shows her comprehension ability is fine — the problem is in decoding (turning print into sound). Treating this as a comprehension problem misses the actual bottleneck. The intervention should target phonics and decoding, not comprehension."
+  explanation: "The story says the bird flew to the tree 'because it started raining' and then 'hid under the leaves until the rain stopped.' Understanding why the bird moved requires connecting the cause (rain) with the action (flying to the tree). This is listening comprehension — making meaning from what you hear, not just hearing the words."
 
 - question: "Which of the following best describes what a child is doing when they listen to a story being read aloud?"
   type: multiple-choice

@@ -33,23 +33,19 @@ Children may confuse similar-looking numerals (6 and 9, or 2 and 5). They may no
 ```yaml
 - question: "A child sees the numeral '7' on a card and says 'seven' immediately. Then, when shown 7 blocks, they count them one by one instead of just holding up the '7' card. What is the child still missing?"
   type: multiple-choice
-  options:
-    - "The ability to recognize the written shape of the numeral 7"
-    - "The spoken number word for 7"
-    - "The connection between the numeral 7 and the quantity it represents"
-    - "Practice writing the numeral 7 correctly"
+  options: ["The ability to recognize the written shape of the numeral 7", "The spoken number word for 7", "The connection between the numeral 7 and the quantity it represents", "Practice writing the numeral 7 correctly"]
   answer: 2
   explanation: "This child has learned half of numeral recognition — they can match symbol to spoken word. But the critical third link is missing: understanding that the numeral 7 represents exactly seven of something. True numeral recognition requires a three-way connection: spoken word ↔ written symbol ↔ physical quantity. Symbol-to-name alone is not enough."
 
-- question: "A child writes the numeral 7 as a mirror image (backwards). This most likely means:"
+- question: "Look at these numerals: 6 and 9. How can you tell them apart?"
   type: multiple-choice
   options:
-    - "The child does not know what 7 means and needs to restart numeral learning"
-    - "The child has confused 7 with another numeral, like 1 or 4"
-    - "The child's brain has not yet fixed left-right orientation for symbols — a normal developmental stage that improves with practice"
-    - "The child is counting in the wrong direction"
-  answer: 2
-  explanation: "Reversed numerals are extremely common and developmentally normal in early childhood. The brain does not automatically encode left-right orientation for abstract symbols the way it does for faces or objects. This corrects itself gradually through repeated exposure to the correctly oriented form. It is not a sign of confusion about the numeral's meaning or value."
+    - "They are the same numeral written in different sizes"
+    - "The 6 has its round part at the bottom and the 9 has its round part at the top"
+    - "The 6 is bigger than the 9"
+    - "You cannot tell them apart — they mean the same thing"
+  answer: 1
+  explanation: "The numeral 6 has its round loop at the bottom (like a ball sitting on the ground), and the numeral 9 has its round loop at the top (like a balloon floating up). Even though they look like the same shape flipped upside down, they stand for different numbers. Learning to tell similar-looking numerals apart is an important part of number recognition."
 
 - question: "A numeral like '5' represents the same quantity whether it is written large or small, in red or blue, on paper or on a screen."
   type: true-false
