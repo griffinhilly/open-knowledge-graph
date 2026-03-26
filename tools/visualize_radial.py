@@ -925,6 +925,73 @@ function draw() {{
     }}
   }});
 
+  // --- Course labels (semantic zoom) ---
+  if (camScale > 1.05) {{
+    const scale = camScale * viewScale;
+    // Viewport bounds in world coordinates
+    const vL = -(W / 2 + camX) / scale;
+    const vR = (W / 2 - camX) / scale;
+    const vT = -(H / 2 + camY) / scale;
+    const vB = (H / 2 - camY) / scale;
+
+    // Compute dynamic centroids from VISIBLE nodes only
+    const visCourseBuckets = {{}};
+    data.nodes.forEach(n => {{
+      if (n.x < vL || n.x > vR || n.y < vT || n.y > vB) return;
+      const key = n.course || "";
+      if (!visCourseBuckets[key]) visCourseBuckets[key] = {{ sx: 0, sy: 0, count: 0, hue: n.hue }};
+      visCourseBuckets[key].sx += n.x;
+      visCourseBuckets[key].sy += n.y;
+      visCourseBuckets[key].count++;
+    }});
+
+    const visLabels = Object.entries(visCourseBuckets)
+      .filter(([_, c]) => c.count >= 3)
+      .map(([course, c]) => ({{
+        label: course.replace(/-/g, " "),
+        x: c.sx / c.count,
+        y: c.sy / c.count,
+        hue: c.hue,
+        count: c.count,
+      }}))
+      .sort((a, b) => b.count - a.count);
+
+    // Font size: readable on screen regardless of zoom
+    const cFontSize = Math.max(3, Math.round(12 / camScale));
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+
+    // Opacity ramps from 0 at 1.05x to full at 1.5x
+    const labelAlpha = Math.min(1, (camScale - 1.05) / 0.45);
+
+    // Collision avoidance
+    const cPlaced = [];
+
+    visLabels.forEach(c => {{
+      ctx.font = `bold ${{cFontSize}}px sans-serif`;
+      const tw = ctx.measureText(c.label).width;
+      const halfW = tw / 2 + 2;
+
+      let collides = false;
+      for (const p of cPlaced) {{
+        if (Math.abs(c.x - p.x) < (halfW + p.hw) && Math.abs(c.y - p.y) < cFontSize * 1.4) {{
+          collides = true;
+          break;
+        }}
+      }}
+      if (collides) return;
+
+      ctx.strokeStyle = `rgba(0,0,0,${{0.6 * labelAlpha}})`;
+      ctx.lineWidth = 3;
+      ctx.lineJoin = "round";
+      ctx.strokeText(c.label, c.x, c.y);
+      ctx.fillStyle = `hsla(${{c.hue}}, 45%, 70%, ${{0.85 * labelAlpha}})`;
+      ctx.fillText(c.label, c.x, c.y);
+
+      cPlaced.push({{ x: c.x, y: c.y, hw: halfW }});
+    }});
+  }}
+
   // Draw highlights for selected node (persists after click)
   const highlightTarget = selectedNode || hoveredNode;
   if (highlightTarget) {{
