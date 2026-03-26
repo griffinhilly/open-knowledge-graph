@@ -18,7 +18,7 @@ prerequisites:
   type: soft
 - id: covariance-between-random-variables
   type: soft
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: soft
 - id: constrained-optimization-lagrange
   type: soft

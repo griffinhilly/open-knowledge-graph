@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard

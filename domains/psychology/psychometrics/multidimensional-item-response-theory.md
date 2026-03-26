@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: confirmatory-factor-analysis
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: soft
 - id: linear-algebra
   type: hard

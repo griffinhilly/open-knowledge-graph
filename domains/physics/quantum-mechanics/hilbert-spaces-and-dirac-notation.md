@@ -6,7 +6,7 @@ course: quantum-mechanics
 prerequisites:
 - id: inner-product-spaces
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: soft
 builds-toward:
 - state-vectors-and-wavefunctions

@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: constrained-optimization-lagrange
   type: soft
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: soft
 - id: systems-of-first-order-linear-odes
   type: hard

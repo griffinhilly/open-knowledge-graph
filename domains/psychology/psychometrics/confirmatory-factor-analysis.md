@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: linear-algebra
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: hard

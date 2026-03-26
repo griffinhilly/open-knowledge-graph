@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: conservation-of-angular-momentum
   type: soft
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: angular-momentum-of-rigid-body
   type: soft

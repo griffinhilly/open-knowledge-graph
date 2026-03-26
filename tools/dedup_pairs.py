@@ -21,9 +21,10 @@ ROOT = Path(__file__).resolve().parent.parent
 DOMAINS_DIR = ROOT / "domains"
 
 # (delete_id, keep_id) — from duplicate analysis
-# Round 2: 16 pairs from high-confidence (≥0.8) leaf connector flagging
+# Round 3: eigenvalue triplicate + manually identified
 DEDUP_PAIRS = [
-    ("cardinality-countability-infinity", "cardinality-and-countability-methods-of-proof"),
+    ("eigenvalues-eigenvectors", "eigenvalues-and-eigenvectors"),
+    ("eigenvalues-eigenvectors-introduction", "eigenvalues-and-eigenvectors"),
     ("density-rationals", "density-of-rationals"),
     ("interference-decay-forgetting", "interference-and-decay-forgetting"),
     ("multiplication-arrays-2nd", "multiplication-introduction-arrays"),

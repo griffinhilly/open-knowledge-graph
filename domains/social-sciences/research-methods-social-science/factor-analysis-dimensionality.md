@@ -8,7 +8,7 @@ prerequisites:
   type: soft
 - id: measurement-validity-social-science
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: basis-and-dimension
   type: hard

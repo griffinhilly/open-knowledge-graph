@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: soft
 - id: linear-algebra
   type: hard

@@ -13,11 +13,159 @@ Usage:
     python tools/generate_quiz_page.py
 """
 
+import json
+import math
+import re
+import sys
 from pathlib import Path
+
+try:
+    import yaml
+except ImportError:
+    print("ERROR: PyYAML required. Install with: pip install pyyaml")
+    sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = ROOT / "output"
 LIB_DIR = ROOT / "lib"
+DOMAINS_DIR = ROOT / "domains"
+
+# Import radial layout constants
+sys.path.insert(0, str(ROOT / "tools"))
+from visualize_radial import DOMAIN_ORDER, DOMAIN_HUES, STAGE_BANDS
+
+DEFAULT_STAGE = "abstract-reasoning"
+
+
+def _parse_frontmatter(filepath):
+    """Parse YAML frontmatter from a markdown file."""
+    text = filepath.read_text(encoding="utf-8")
+    match = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
+    if not match:
+        return None
+    try:
+        return yaml.safe_load(match.group(1))
+    except yaml.YAMLError:
+        return None
+
+
+def _load_domain_configs():
+    """Load all _domain.yml files."""
+    configs = {}
+    for domain_dir in sorted(DOMAINS_DIR.iterdir()):
+        if domain_dir.is_dir() and (domain_dir / "_domain.yml").exists():
+            data = yaml.safe_load(
+                (domain_dir / "_domain.yml").read_text(encoding="utf-8")
+            )
+            courses = data.get("courses", [])
+            course_list = []
+            for c in courses:
+                if isinstance(c, dict) and "id" in c:
+                    course_list.append({
+                        "id": c["id"],
+                        "title": c.get("title", c["id"]),
+                        "stage": c.get("stage", DEFAULT_STAGE),
+                    })
+            configs[domain_dir.name] = {
+                "title": data.get("title", domain_dir.name),
+                "courses": course_list,
+            }
+    return configs
+
+
+def _compute_radial_courses(configs):
+    """Pre-compute radial positions for all courses.
+
+    Returns a list of {courseId, courseTitle, domain, domainHue, angle, radius, stage}.
+    Uses DOMAIN_ORDER for sector assignment, STAGE_BANDS for radial position.
+    """
+    n_domains = len(DOMAIN_ORDER)
+    sector_width = 2 * math.pi / n_domains
+    courses = []
+
+    for di, domain in enumerate(DOMAIN_ORDER):
+        if domain not in configs:
+            continue
+        sector_start = di * sector_width
+        domain_courses = configs[domain]["courses"]
+        n_courses = len(domain_courses)
+        if n_courses == 0:
+            continue
+
+        hue = DOMAIN_HUES.get(domain, 0)
+
+        for ci, c in enumerate(domain_courses):
+            angle = sector_start + sector_width * ((ci + 0.5) / n_courses)
+            stage = c.get("stage", DEFAULT_STAGE)
+            band = STAGE_BANDS.get(stage, STAGE_BANDS[DEFAULT_STAGE])
+            radius = (band[0] + band[1]) / 2
+
+            courses.append({
+                "courseId": c["id"],
+                "courseTitle": c["title"],
+                "domain": domain,
+                "domainHue": hue,
+                "angle": round(angle, 4),
+                "radius": round(radius, 4),
+                "stage": stage,
+            })
+
+    return courses
+
+
+def _build_lightweight_graph():
+    """Build a lightweight prerequisite graph for frontier detection.
+
+    Returns {topicId: {prereqs: [...], successors: [...], domain, course, title}}.
+    Only includes hard prerequisites.
+    """
+    all_data = {}
+    for filepath in sorted(DOMAINS_DIR.rglob("*.md")):
+        if filepath.name.startswith("_"):
+            continue
+        data = _parse_frontmatter(filepath)
+        if data and "id" in data:
+            all_data[data["id"]] = data
+
+    graph = {}
+    for tid, data in all_data.items():
+        prereqs = []
+        for p in data.get("prerequisites", []):
+            if isinstance(p, dict) and "id" in p:
+                ptype = p.get("type", "hard")
+                if ptype == "hard" and p["id"] in all_data:
+                    prereqs.append(p["id"])
+        graph[tid] = {
+            "prereqs": prereqs,
+            "successors": [],
+            "domain": data.get("domain", ""),
+            "course": data.get("course", ""),
+            "title": data.get("title", tid),
+        }
+
+    # Build successor lists
+    for tid, node in graph.items():
+        for pid in node["prereqs"]:
+            if pid in graph:
+                graph[pid]["successors"].append(tid)
+
+    return graph
+
+
+def _build_course_topics_map():
+    """Build {courseId: [topicId, ...]} mapping."""
+    course_topics = {}
+    for filepath in sorted(DOMAINS_DIR.rglob("*.md")):
+        if filepath.name.startswith("_"):
+            continue
+        data = _parse_frontmatter(filepath)
+        if data and "id" in data:
+            course = data.get("course", "")
+            if course:
+                if course not in course_topics:
+                    course_topics[course] = []
+                course_topics[course].append(data["id"])
+    return course_topics
 
 
 def generate_quiz_html() -> str:
@@ -37,6 +185,26 @@ def generate_quiz_html() -> str:
     else:
         fluency_js = "const OKGFluency = null;"
         print("WARNING: fluency.js not found, fluency tracking disabled")
+
+    # Compute radial course data
+    configs = _load_domain_configs()
+    radial_courses = _compute_radial_courses(configs)
+    radial_courses_json = json.dumps(radial_courses, separators=(",", ":"))
+
+    # Build lightweight prerequisite graph
+    graph = _build_lightweight_graph()
+    graph_json = json.dumps(graph, separators=(",", ":"))
+
+    # Build course -> topics map
+    course_topics = _build_course_topics_map()
+    course_topics_json = json.dumps(course_topics, separators=(",", ":"))
+
+    # Domain hues for JS
+    domain_hues_json = json.dumps(DOMAIN_HUES, separators=(",", ":"))
+
+    print(f"  Radial courses: {len(radial_courses)}")
+    print(f"  Graph nodes: {len(graph)}")
+    print(f"  Courses with topics: {len(course_topics)}")
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -60,6 +228,12 @@ def generate_quiz_html() -> str:
 <script>
 // --- Quiz Data (embedded) ---
 const DATA = {embedded_data};
+
+// --- Results Screen Data (embedded) ---
+const RADIAL_COURSES = {radial_courses_json};
+const PREREQ_GRAPH = {graph_json};
+const COURSE_TOPICS = {course_topics_json};
+const DOMAIN_HUES = {domain_hues_json};
 
 // --- Quiz Application ---
 {_js()}
@@ -106,6 +280,7 @@ h2 { color: #ddd; font-size: 22px; margin-bottom: 12px; }
 }
 .phase-label.warmup { background: rgba(74,158,255,0.15); color: #4a9eff; }
 .phase-label.explore { background: rgba(124,77,255,0.15); color: #7c4dff; }
+.phase-label.deep-dive { background: rgba(255,152,0,0.15); color: #FF9800; }
 
 /* --- Domain tag --- */
 .domain-tag {
@@ -276,6 +451,188 @@ h2 { color: #ddd; font-size: 22px; margin-bottom: 12px; }
 }
 .link-btn:hover { background: #3a3a6a; border-color: #777; color: #eee; }
 
+/* --- Deep dive --- */
+.model-answer-box {
+  margin-top: 16px; padding: 18px 20px; border-radius: 8px;
+  background: rgba(76,175,80,0.1); border: 1px solid rgba(76,175,80,0.3);
+  color: #a5d6a7; font-size: 14px; line-height: 1.7;
+  animation: fadeIn 0.3s ease;
+}
+.model-answer-box .label {
+  font-size: 11px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.5px; color: #4CAF50; margin-bottom: 8px;
+}
+
+.self-grade-row {
+  display: flex; gap: 10px; margin-top: 16px; animation: fadeIn 0.3s ease;
+}
+.grade-btn {
+  flex: 1; padding: 14px 12px; border-radius: 8px; font-size: 14px;
+  font-weight: 600; cursor: pointer; transition: all 0.2s;
+  text-align: center; border: 1px solid;
+}
+.grade-btn.got-it {
+  background: rgba(76,175,80,0.12); border-color: rgba(76,175,80,0.4); color: #4CAF50;
+}
+.grade-btn.got-it:hover { background: rgba(76,175,80,0.25); }
+.grade-btn.partial {
+  background: rgba(255,152,0,0.12); border-color: rgba(255,152,0,0.4); color: #FF9800;
+}
+.grade-btn.partial:hover { background: rgba(255,152,0,0.25); }
+.grade-btn.missed {
+  background: rgba(244,67,54,0.1); border-color: rgba(244,67,54,0.3); color: #F44336;
+}
+.grade-btn.missed:hover { background: rgba(244,67,54,0.2); }
+.grade-btn.selected { opacity: 1; transform: scale(1.03); }
+.grade-btn:not(.selected).faded { opacity: 0.4; cursor: default; }
+
+.reveal-btn {
+  display: block; width: 100%; margin-top: 16px; padding: 16px;
+  border-radius: 8px; font-size: 15px; font-weight: 600;
+  cursor: pointer; transition: all 0.2s; text-align: center;
+  background: rgba(255,152,0,0.15); border: 1px solid rgba(255,152,0,0.4);
+  color: #FF9800;
+}
+.reveal-btn:hover { background: rgba(255,152,0,0.3); }
+
+.think-prompt {
+  color: #666; font-size: 13px; font-style: italic;
+  margin-top: 12px; text-align: center;
+}
+
+.deep-answer-input {
+  display: block; width: 100%; margin-top: 14px; padding: 12px 14px;
+  border-radius: 8px; border: 1px solid #444; resize: vertical;
+  background: rgba(50,50,85,0.7); color: #ccc; font-size: 14px;
+  font-family: inherit; line-height: 1.6; outline: none;
+  transition: border-color 0.2s;
+}
+.deep-answer-input:focus { border-color: #FF9800; }
+.deep-answer-input:read-only { opacity: 0.7; cursor: default; }
+
+.user-answer-box {
+  margin-top: 16px; padding: 14px 16px; border-radius: 8px;
+  background: rgba(124,77,255,0.08); border: 1px solid rgba(124,77,255,0.25);
+  color: #b39ddb; font-size: 14px; line-height: 1.6;
+}
+.user-answer-box .label {
+  font-size: 11px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.5px; color: #7c4dff; margin-bottom: 6px;
+}
+.user-answer-box .text { white-space: pre-wrap; }
+
+/* --- Mini radial canvas --- */
+.radial-wrap {
+  display: flex; justify-content: center; margin-bottom: 28px;
+}
+.radial-canvas-container {
+  position: relative; width: 580px; height: 580px;
+}
+.radial-canvas-container canvas {
+  display: block; width: 100%; height: 100%;
+}
+
+/* --- Domain summary cards --- */
+.domain-summary-card {
+  background: rgba(40,40,70,0.6); border: 1px solid #333;
+  border-radius: 10px; margin-bottom: 12px; overflow: hidden;
+}
+.domain-summary-header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 18px; cursor: pointer; transition: background 0.2s;
+}
+.domain-summary-header:hover { background: rgba(50,50,90,0.4); }
+.domain-summary-header .name { color: #ddd; font-weight: 600; font-size: 14px; }
+.domain-summary-header .stats { display: flex; align-items: center; gap: 12px; }
+.domain-summary-header .fluency-bar {
+  width: 80px; height: 6px; border-radius: 3px;
+  background: rgba(255,255,255,0.06); overflow: hidden;
+}
+.domain-summary-header .fluency-fill { height: 100%; border-radius: 3px; }
+.domain-summary-header .pct { color: #aaa; font-size: 12px; font-weight: 600; min-width: 32px; text-align: right; }
+.domain-summary-header .arrow { color: #555; font-size: 12px; transition: transform 0.2s; }
+.domain-summary-header.open .arrow { transform: rotate(90deg); }
+.domain-summary-body {
+  display: none; padding: 0 18px 16px;
+}
+.domain-summary-body.open { display: block; }
+.course-bar-row {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 6px;
+}
+.course-bar-row .course-name { color: #999; font-size: 12px; min-width: 140px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.course-bar-row .bar { flex: 1; height: 6px; border-radius: 3px; background: rgba(255,255,255,0.06); overflow: hidden; }
+.course-bar-row .bar-fill { height: 100%; border-radius: 3px; }
+.course-bar-row .val { color: #888; font-size: 11px; min-width: 32px; text-align: right; }
+.domain-tier { color: #777; font-size: 11px; margin-top: 8px; font-style: italic; }
+
+/* --- Frontier panel --- */
+.frontier-panel {
+  background: rgba(40,40,70,0.6); border: 1px solid #333;
+  border-radius: 12px; padding: 24px; margin-bottom: 20px;
+}
+.frontier-panel h2 { margin-bottom: 6px; }
+.frontier-desc { color: #777; font-size: 13px; margin-bottom: 16px; }
+.frontier-list { display: flex; flex-direction: column; gap: 8px; }
+.frontier-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 14px; border-radius: 8px;
+  background: rgba(50,50,85,0.5); border: 1px solid #333;
+  transition: border-color 0.2s;
+}
+.frontier-item:hover { border-color: #555; }
+.frontier-item .f-title { flex: 1; color: #ccc; font-size: 13px; }
+.frontier-item .f-title a { color: #ccc; text-decoration: none; }
+.frontier-item .f-title a:hover { color: #eee; text-decoration: underline; }
+.frontier-item .f-badge {
+  display: inline-block; padding: 2px 8px; border-radius: 8px;
+  font-size: 10px; font-weight: 600; text-transform: uppercase;
+  background: rgba(255,255,255,0.06); color: #888; white-space: nowrap;
+}
+.frontier-item .f-readiness {
+  width: 60px; height: 5px; border-radius: 3px;
+  background: rgba(255,255,255,0.06); overflow: hidden;
+}
+.frontier-item .f-readiness-fill { height: 100%; border-radius: 3px; background: #4a9eff; }
+
+/* --- Adjustment sliders --- */
+.adjustments-section {
+  background: rgba(40,40,70,0.6); border: 1px solid #333;
+  border-radius: 12px; margin-bottom: 20px; overflow: hidden;
+}
+.adjustments-toggle {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 20px; cursor: pointer; transition: background 0.2s;
+}
+.adjustments-toggle:hover { background: rgba(50,50,90,0.4); }
+.adjustments-toggle .label { color: #999; font-size: 13px; }
+.adjustments-toggle .arrow { color: #555; font-size: 12px; transition: transform 0.2s; }
+.adjustments-toggle.open .arrow { transform: rotate(90deg); }
+.adjustments-body {
+  display: none; padding: 0 20px 20px;
+}
+.adjustments-body.open { display: block; }
+.adj-domain-group { margin-bottom: 16px; }
+.adj-domain-group .adj-domain-name { color: #bbb; font-size: 13px; font-weight: 600; margin-bottom: 8px; }
+.adj-slider-row {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 6px;
+}
+.adj-slider-row .slider-label { color: #888; font-size: 12px; min-width: 140px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.adj-slider-row input[type=range] {
+  flex: 1; height: 4px; -webkit-appearance: none; appearance: none;
+  background: rgba(255,255,255,0.1); border-radius: 2px; outline: none;
+  cursor: pointer;
+}
+.adj-slider-row input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 14px; height: 14px; border-radius: 50%;
+  background: #7c4dff; cursor: pointer;
+}
+.adj-slider-row input[type=range]::-moz-range-thumb {
+  width: 14px; height: 14px; border-radius: 50%;
+  background: #7c4dff; cursor: pointer; border: none;
+}
+.adj-slider-row .slider-val { color: #aaa; font-size: 11px; min-width: 32px; text-align: right; font-weight: 600; }
+
 /* --- Mobile --- */
 @media (max-width: 600px) {
   .container { padding: 24px 14px; }
@@ -285,6 +642,10 @@ h2 { color: #ddd; font-size: 22px; margin-bottom: 12px; }
   .results-grid { grid-template-columns: 1fr; }
   .domain-grid { grid-template-columns: 1fr 1fr; }
   .tf-buttons { flex-direction: column; }
+  .self-grade-row { flex-direction: column; }
+  .radial-canvas-container { width: 370px; height: 370px; }
+  .course-bar-row .course-name { min-width: 100px; }
+  .adj-slider-row .slider-label { min-width: 100px; }
 }
 """
 
@@ -325,6 +686,15 @@ const DOMAIN_ORDER = [
 // Median response times (ms) for evidence weighting
 const MEDIAN_MC = 12000;
 const MEDIAN_TF = 8000;
+const MEDIAN_SA = 20000;
+
+// Deep dive
+const DEEP_PER_DOMAIN = 7;
+const DEEP_STAGE_DIFFICULTY = {
+  'formal-systems': 0.6,
+  'advanced': 0.8,
+  'expert': 0.95
+};
 
 // ============================================================
 // State
@@ -348,6 +718,13 @@ let S = {
   exploreAnswers: [],
   exploredDomains: {},  // domain -> {correct, total}
   skippedDomains: {},
+  // Deep dive
+  deepDomain: null,
+  deepQueue: [],
+  deepIndex: 0,
+  deepAnswers: [],     // {topicId, domain, selfGrade, responseTimeMs, stage}
+  deepRevealed: false,
+  deepRevealTime: null,
   // Tracking
   usedQuestionKeys: {},  // "topicId::question" -> true
 };
@@ -450,7 +827,53 @@ function buildExploreQueue(domain) {
   const questions = DATA.exploration[domain];
   if (!questions) return [];
 
-  // Sort by stage order, then shuffle within stage
+  // Determine the user's floor tier from warmup performance.
+  // The highest stage where they got >= 50% correct becomes the floor;
+  // skip all stages below it so exploration starts near demonstrated level.
+  let floorIndex = 0;
+  if (S.warmupAnswers.length > 0) {
+    const byStage = {};
+    for (const a of S.warmupAnswers) {
+      if (!byStage[a.stage]) byStage[a.stage] = {correct: 0, total: 0};
+      byStage[a.stage].total++;
+      if (a.correct) byStage[a.stage].correct++;
+    }
+    for (let i = 0; i < STAGES_ORDERED.length; i++) {
+      const sp = byStage[STAGES_ORDERED[i]];
+      if (sp && sp.total > 0 && sp.correct / sp.total >= 0.5) {
+        floorIndex = i;
+      }
+    }
+  }
+
+  // Sort by stage order, then shuffle within stage, skipping below floor
+  const stageGroups = {};
+  for (const q of questions) {
+    if (S.usedQuestionKeys[qKey(q)]) continue;
+    if (!stageGroups[q.stage]) stageGroups[q.stage] = [];
+    stageGroups[q.stage].push(q);
+  }
+
+  const queue = [];
+  for (let i = 0; i < STAGES_ORDERED.length; i++) {
+    if (i < floorIndex) continue;  // skip stages below demonstrated floor
+    const stage = STAGES_ORDERED[i];
+    if (stageGroups[stage]) {
+      shuffle(stageGroups[stage]);
+      queue.push(...stageGroups[stage]);
+    }
+  }
+  return queue;
+}
+
+// ============================================================
+// Build deep dive queue for a domain
+// ============================================================
+function buildDeepDiveQueue(domain) {
+  if (!DATA.deepDive || !DATA.deepDive[domain]) return [];
+
+  const questions = DATA.deepDive[domain];
+  // Sort by stage order (formal-systems -> advanced -> expert), shuffle within
   const byStage = {};
   for (const q of questions) {
     if (S.usedQuestionKeys[qKey(q)]) continue;
@@ -458,8 +881,9 @@ function buildExploreQueue(domain) {
     byStage[q.stage].push(q);
   }
 
+  const stageOrder = ['formal-systems', 'advanced', 'expert'];
   const queue = [];
-  for (const stage of STAGES_ORDERED) {
+  for (const stage of stageOrder) {
     if (byStage[stage]) {
       shuffle(byStage[stage]);
       queue.push(...byStage[stage]);
@@ -496,6 +920,12 @@ function domainPerformance() {
   // Merge explored domains
   for (const d in S.exploredDomains) {
     if (!perf[d]) perf[d] = {correct: 0, total: 0};
+  }
+  // Merge deep dive self-grades (selfGrade >= 0.5 counts as correct)
+  for (const a of S.deepAnswers) {
+    if (!perf[a.domain]) perf[a.domain] = {correct: 0, total: 0};
+    perf[a.domain].total++;
+    if (a.selfGrade >= 0.5) perf[a.domain].correct++;
   }
   return perf;
 }
@@ -798,6 +1228,8 @@ function renderExplorePick() {
       ...allCards.map(makeCard)
     ),
     h('div', {className: 'link-row'},
+      hasDeepDive() ? h('button', {className: 'link-btn', style: {background: 'rgba(255,152,0,0.1)', borderColor: '#FF9800', color: '#FF9800'}, onClick: startDeepPick},
+        'Deep Dive \u2192') : null,
       h('button', {className: 'link-btn', onClick: showResults}, 'See Final Results'),
       h('a', {href: 'radial-graph.html', className: 'link-btn'}, 'View Knowledge Graph')
     )
@@ -890,6 +1322,259 @@ function finishDomainExplore() {
     total: domainAnswers.length
   };
   S.phase = 'explore-pick';
+  render();
+}
+
+// ============================================================
+// Phase: Deep Dive (self-graded short-answer)
+// ============================================================
+function hasDeepDive() {
+  return DATA.deepDive && Object.keys(DATA.deepDive).length > 0;
+}
+
+function startDeepPick() {
+  S.phase = 'deep-pick';
+  render();
+}
+
+function renderDeepPick() {
+  const perf = domainPerformance();
+
+  // Build domain cards — show all domains with deep dive questions
+  const cards = [];
+  for (const d of DOMAIN_ORDER) {
+    if (!DATA.deepDive || !DATA.deepDive[d]) continue;
+
+    const remaining = DATA.deepDive[d].filter(q => !S.usedQuestionKeys[qKey(q)]).length;
+    if (remaining === 0) continue;
+
+    const strength = domainStrength(perf, d);
+    const stages = [...new Set(DATA.deepDive[d].map(q => q.stage))];
+    cards.push({domain: d, strength, remaining, stages});
+  }
+
+  if (cards.length === 0) {
+    showResults();
+    return;
+  }
+
+  function makeCard(c) {
+    const stageStr = c.stages.map(s => STAGE_LABELS[s] || s).join(', ');
+    const cls = 'domain-card ' + c.strength;
+    return h('div', {className: cls, onClick: () => startDomainDeepDive(c.domain)},
+      h('div', {className: 'name'}, formatDomain(c.domain)),
+      h('div', {className: 'info'}, c.remaining + ' short-answer questions'),
+      h('div', {className: 'info', style: {color: '#666', fontSize: '11px'}}, stageStr)
+    );
+  }
+
+  setContent(h('div', {className: 'container'},
+    h('h1', null, 'Deep Dive'),
+    h('p', {className: 'subtitle'}, 'Short-answer questions \u2014 think, reveal, self-grade'),
+    h('div', {className: 'intro-card', style: {marginBottom: '20px'}},
+      h('p', {style: {color: '#999', fontSize: '14px', lineHeight: '1.7'}},
+        'These are open-ended questions from advanced stages. Read each question, think about your answer, ' +
+        'then reveal the model answer and grade yourself honestly. This gives much more precise fluency readings ' +
+        'than multiple choice.'
+      )
+    ),
+    h('div', {className: 'domain-grid'},
+      ...cards.map(makeCard)
+    ),
+    h('div', {className: 'link-row'},
+      h('button', {className: 'link-btn', onClick: showResults}, 'See Final Results'),
+      h('a', {href: 'radial-graph.html', className: 'link-btn'}, 'View Knowledge Graph')
+    )
+  ));
+}
+
+function startDomainDeepDive(domain) {
+  S.phase = 'deep-dive';
+  S.deepDomain = domain;
+  S.deepQueue = buildDeepDiveQueue(domain);
+  S.deepIndex = 0;
+  S.deepRevealed = false;
+  S.deepRevealTime = null;
+  if (S.deepQueue.length === 0) {
+    S.phase = 'deep-pick';
+    render();
+    return;
+  }
+  render();
+}
+
+function renderDeepDive() {
+  if (S.deepIndex >= S.deepQueue.length || S.deepIndex >= DEEP_PER_DOMAIN) {
+    S.phase = 'deep-pick';
+    render();
+    return;
+  }
+
+  const q = S.deepQueue[S.deepIndex];
+  const progress = (S.deepIndex / Math.min(DEEP_PER_DOMAIN, S.deepQueue.length)) * 100;
+
+  // Score display
+  const domainDeep = S.deepAnswers.filter(a => a.domain === S.deepDomain);
+  const gotCount = domainDeep.filter(a => a.selfGrade === 1.0).length;
+  const totalDone = domainDeep.length;
+  const scoreText = totalDone > 0 ? gotCount + '/' + totalDone : '';
+
+  const textarea = document.createElement('textarea');
+  textarea.className = 'deep-answer-input';
+  textarea.id = 'deep-answer-input';
+  textarea.placeholder = 'Type your answer...';
+  textarea.rows = 4;
+
+  const card = h('div', {className: 'question-card', id: 'qcard'},
+    h('span', {className: 'domain-tag'}, formatDomain(q.domain)),
+    h('div', {className: 'question-text'}, q.question),
+    textarea,
+    h('p', {className: 'think-prompt'}, 'Take a moment to think about your answer\u2026'),
+    h('button', {className: 'reveal-btn', id: 'reveal-btn', onClick: () => revealDeepAnswer(q)},
+      'Reveal Answer')
+  );
+
+  setContent(h('div', {className: 'container'},
+    h('div', {style: {display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px'}},
+      h('h1', {style: {margin: 0}}, formatDomain(S.deepDomain)),
+      scoreText ? h('span', {className: 'score-display'}, scoreText) : null
+    ),
+    h('p', {className: 'subtitle'},
+      'Question ' + (S.deepIndex + 1) + ' of ' + Math.min(DEEP_PER_DOMAIN, S.deepQueue.length) +
+      ' \u2014 ' + STAGE_LABELS[q.stage]
+    ),
+    h('div', {className: 'progress-wrap'},
+      h('div', {className: 'progress-bar', style: {width: progress + '%'}})
+    ),
+    h('span', {className: 'phase-label deep-dive'}, 'Deep Dive'),
+    card,
+    h('div', {className: 'action-row'},
+      h('button', {className: 'action-btn', onClick: skipDeepQuestion}, 'Skip'),
+      h('button', {className: 'action-btn', onClick: () => { S.phase = 'deep-pick'; render(); }}, 'Different Domain'),
+      h('button', {className: 'action-btn', onClick: showResults}, 'I\'m Done')
+    )
+  ));
+  S.questionStart = performance.now();
+  S.deepRevealed = false;
+  S.deepRevealTime = null;
+}
+
+function revealDeepAnswer(q) {
+  if (S.deepRevealed) return;
+  S.deepRevealed = true;
+  S.deepRevealTime = performance.now();
+
+  const card = document.getElementById('qcard');
+  if (!card) return;
+
+  // Make textarea readonly for comparison
+  const inputEl = document.getElementById('deep-answer-input');
+  const userText = inputEl ? inputEl.value.trim() : '';
+  if (inputEl) inputEl.readOnly = true;
+
+  // Remove think prompt and reveal button
+  const prompt = card.querySelector('.think-prompt');
+  if (prompt) prompt.remove();
+  const revealBtn = document.getElementById('reveal-btn');
+  if (revealBtn) revealBtn.remove();
+
+  // Show user's answer (if they typed anything) above model answer
+  if (userText) {
+    // Remove the textarea and replace with a styled box
+    if (inputEl) inputEl.remove();
+    const userBox = h('div', {className: 'user-answer-box'},
+      h('div', {className: 'label'}, 'Your Answer'),
+      h('div', {className: 'text'}, userText)
+    );
+    card.appendChild(userBox);
+  } else if (inputEl) {
+    inputEl.remove();
+  }
+
+  // Show model answer
+  const answerBox = h('div', {className: 'model-answer-box'},
+    h('div', {className: 'label'}, 'Model Answer'),
+    h('div', null, q.model_answer)
+  );
+  card.appendChild(answerBox);
+
+  // Show self-grade buttons
+  const gradeRow = h('div', {className: 'self-grade-row', id: 'grade-row'},
+    h('button', {className: 'grade-btn got-it', onClick: () => gradeDeep(q, 1.0)},
+      'Got it \u2713'),
+    h('button', {className: 'grade-btn partial', onClick: () => gradeDeep(q, 0.5)},
+      'Partially \u223C'),
+    h('button', {className: 'grade-btn missed', onClick: () => gradeDeep(q, 0.0)},
+      'Missed it \u2717')
+  );
+  card.appendChild(gradeRow);
+}
+
+function gradeDeep(q, selfGrade) {
+  // Prevent double-grading
+  const gradeRow = document.getElementById('grade-row');
+  if (!gradeRow) return;
+  const buttons = gradeRow.querySelectorAll('.grade-btn');
+  let selectedClass = selfGrade === 1.0 ? 'got-it' : selfGrade === 0.5 ? 'partial' : 'missed';
+  buttons.forEach(btn => {
+    if (btn.classList.contains(selectedClass)) {
+      btn.classList.add('selected');
+    } else {
+      btn.classList.add('faded');
+    }
+  });
+
+  const responseTimeMs = Math.round(S.deepRevealTime - S.questionStart);
+  const stageDiff = DEEP_STAGE_DIFFICULTY[q.stage] || 0.7;
+
+  // Update fluency based on self-grade
+  if (typeof OKGFluency !== 'undefined' && OKGFluency) {
+    if (selfGrade === 1.0) {
+      OKGFluency.updateTopic(q.topicId, true, {
+        difficulty: stageDiff,
+        responseTimeMs: responseTimeMs,
+        medianTimeMs: MEDIAN_SA
+      });
+    } else if (selfGrade === 0.5) {
+      // Partially correct: true with reduced difficulty (lower evidence)
+      OKGFluency.updateTopic(q.topicId, true, {
+        difficulty: 0.8,
+        responseTimeMs: responseTimeMs,
+        medianTimeMs: MEDIAN_SA
+      });
+    } else {
+      OKGFluency.updateTopic(q.topicId, false, {
+        difficulty: stageDiff,
+        responseTimeMs: responseTimeMs,
+        medianTimeMs: MEDIAN_SA
+      });
+    }
+  }
+
+  S.usedQuestionKeys[qKey(q)] = true;
+  S.deepAnswers.push({
+    topicId: q.topicId,
+    domain: q.domain,
+    selfGrade: selfGrade,
+    responseTimeMs: responseTimeMs,
+    stage: q.stage
+  });
+
+  // Brief pause, then next question
+  setTimeout(() => {
+    S.deepIndex++;
+    S.deepRevealed = false;
+    S.deepRevealTime = null;
+    render();
+  }, 600);
+}
+
+function skipDeepQuestion() {
+  if (S.deepRevealed) return;
+  S.usedQuestionKeys[qKey(S.deepQueue[S.deepIndex])] = true;
+  S.deepIndex++;
+  S.deepRevealed = false;
+  S.deepRevealTime = null;
   render();
 }
 
@@ -1023,11 +1708,21 @@ function runInference() {
     if (a.correct) stagePerf[a.domain][stage].correct++;
   }
 
+  // Include deep dive self-grades (selfGrade >= 0.5 counts as correct)
+  for (const a of S.deepAnswers) {
+    const stage = a.stage;
+    if (!stage) continue;
+    if (!stagePerf[a.domain]) stagePerf[a.domain] = {};
+    if (!stagePerf[a.domain][stage]) stagePerf[a.domain][stage] = {correct: 0, total: 0};
+    stagePerf[a.domain][stage].total++;
+    if (a.selfGrade >= 0.5) stagePerf[a.domain][stage].correct++;
+  }
+
   return OKGFluency.postAssessmentInference(stagePerf, DATA.topicIndex);
 }
 
 function findQuestionByTopic(topicId) {
-  // Search warmup and exploration pools
+  // Search warmup, exploration, and deep dive pools
   for (const q of DATA.warmup) {
     if (q.topicId === topicId) return q;
   }
@@ -1036,134 +1731,412 @@ function findQuestionByTopic(topicId) {
       if (q.topicId === topicId) return q;
     }
   }
+  if (DATA.deepDive) {
+    for (const domain in DATA.deepDive) {
+      for (const q of DATA.deepDive[domain]) {
+        if (q.topicId === topicId) return q;
+      }
+    }
+  }
   return null;
 }
 
+// ============================================================
+// Component 1: Mini Radial Canvas
+// ============================================================
+function renderMiniRadial(container) {
+  if (typeof RADIAL_COURSES === 'undefined' || !RADIAL_COURSES || !RADIAL_COURSES.length) return;
+  if (typeof OKGFluency === 'undefined' || !OKGFluency) return;
+
+  const scores = OKGFluency.loadScores();
+  const courseAvg = {};
+  for (const rc of RADIAL_COURSES) {
+    const topics = COURSE_TOPICS[rc.courseId] || [];
+    if (topics.length === 0) { courseAvg[rc.courseId] = 0; continue; }
+    let sum = 0;
+    for (const tid of topics) sum += (scores[tid] || 0);
+    courseAvg[rc.courseId] = sum / topics.length;
+  }
+
+  const wrap = h('div', {className: 'radial-wrap'});
+  const canvasContainer = h('div', {className: 'radial-canvas-container'});
+  const canvas = document.createElement('canvas');
+  canvas.width = 580; canvas.height = 580;
+  canvasContainer.appendChild(canvas);
+  wrap.appendChild(canvasContainer);
+  container.appendChild(wrap);
+
+  const ctx = canvas.getContext('2d');
+  const cx = 290, cy = 290, maxR = 210;
+  ctx.fillStyle = '#1a1a2e';
+  ctx.fillRect(0, 0, 580, 580);
+
+  // Faint ring guides
+  ctx.strokeStyle = 'rgba(255,255,255,0.04)';
+  ctx.lineWidth = 1;
+  for (let r = 0.2; r <= 1.0; r += 0.2) {
+    ctx.beginPath();
+    ctx.arc(cx, cy, r * maxR, 0, Math.PI * 2);
+    ctx.stroke();
+  }
+
+  // Course dots
+  for (const rc of RADIAL_COURSES) {
+    const avg = courseAvg[rc.courseId] || 0;
+    const x = cx + Math.cos(rc.angle - Math.PI / 2) * rc.radius * maxR;
+    const y = cy + Math.sin(rc.angle - Math.PI / 2) * rc.radius * maxR;
+    ctx.beginPath();
+    ctx.arc(x, y, avg > 0 ? 4 : 2.5, 0, Math.PI * 2);
+    ctx.fillStyle = OKGFluency.fluencyColor(rc.domainHue, avg);
+    ctx.fill();
+  }
+
+  // Domain labels
+  const DOMAIN_ABBREVS = {
+    'earth-and-space-sciences': 'Earth & Space',
+    'formal-sciences-and-logic': 'Formal Sci & Logic',
+    'health-and-human-development': 'Health & Human Dev',
+    'language-and-communication': 'Language & Comm',
+    'arts-and-aesthetics': 'Arts & Aesthetics',
+    'practical-life-skills': 'Practical Life',
+    'social-sciences': 'Social Sciences',
+    'computer-science': 'Computer Science'
+  };
+  const domainSeen = {};
+  ctx.font = '10px -apple-system, BlinkMacSystemFont, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  for (const rc of RADIAL_COURSES) {
+    if (domainSeen[rc.domain]) continue;
+    domainSeen[rc.domain] = true;
+    const domCourses = RADIAL_COURSES.filter(c => c.domain === rc.domain);
+    let sumAngle = 0;
+    for (const dc of domCourses) sumAngle += dc.angle;
+    const midAngle = sumAngle / domCourses.length;
+    const labelR = maxR + 28;
+    const lx = cx + Math.cos(midAngle - Math.PI / 2) * labelR;
+    const ly = cy + Math.sin(midAngle - Math.PI / 2) * labelR;
+    ctx.save();
+    ctx.translate(lx, ly);
+    let rot = midAngle - Math.PI / 2;
+    if (rot > Math.PI / 2 && rot < Math.PI * 1.5) rot += Math.PI;
+    ctx.rotate(rot);
+    ctx.fillStyle = 'hsl(' + rc.domainHue + ', 50%, 55%)';
+    const label = DOMAIN_ABBREVS[rc.domain] || formatDomain(rc.domain);
+    ctx.fillText(label.length > 18 ? label.slice(0, 16) + '..' : label, 0, 0);
+    ctx.restore();
+  }
+}
+
+// ============================================================
+// Component 2: Domain Summary Cards
+// ============================================================
+function renderDomainCards(container, domainPerf, effectiveScores) {
+  if (!effectiveScores || typeof COURSE_TOPICS === 'undefined') return;
+  const cardsWrap = h('div', null);
+
+  for (const d of DOMAIN_ORDER) {
+    const p = domainPerf[d];
+    if (!p || p.total === 0) continue;
+    let domainSum = 0, domainCount = 0;
+    const domainCourses = RADIAL_COURSES.filter(rc => rc.domain === d);
+    const courseData = [];
+    for (const rc of domainCourses) {
+      const topics = COURSE_TOPICS[rc.courseId] || [];
+      if (topics.length === 0) continue;
+      let cSum = 0;
+      for (const tid of topics) { cSum += (effectiveScores[tid] || 0); domainSum += (effectiveScores[tid] || 0); }
+      domainCount += topics.length;
+      courseData.push({courseId: rc.courseId, title: rc.courseTitle, avg: Math.round(cSum / topics.length), stage: rc.stage});
+    }
+    const domainAvg = domainCount > 0 ? Math.round(domainSum / domainCount) : 0;
+    const accuracy = Math.round(p.correct / p.total * 100);
+
+    // Estimate tier
+    const stageOrd = ['pre-formal', 'concrete-operations', 'abstract-reasoning', 'formal-systems', 'advanced', 'expert'];
+    let estimatedTier = '';
+    for (const stage of stageOrd) {
+      const sc = courseData.filter(c => c.stage === stage);
+      if (sc.length > 0 && sc.reduce((s, c) => s + c.avg, 0) / sc.length > 50) estimatedTier = STAGE_LABELS[stage] || stage;
+    }
+
+    const card = h('div', {className: 'domain-summary-card'});
+    const header = h('div', {className: 'domain-summary-header'});
+    header.appendChild(h('span', {className: 'name'}, formatDomain(d)));
+    const statsDiv = h('div', {className: 'stats'});
+    statsDiv.appendChild(h('span', {style: {color: '#777', fontSize: '11px'}}, accuracy + '% acc'));
+    const barDiv = h('div', {className: 'fluency-bar'});
+    barDiv.appendChild(h('div', {className: 'fluency-fill', style: {width: domainAvg + '%', background: OKGFluency.masteryColor(domainAvg)}}));
+    statsDiv.appendChild(barDiv);
+    statsDiv.appendChild(h('span', {className: 'pct'}, domainAvg + '%'));
+    statsDiv.appendChild(h('span', {className: 'arrow'}, '\u25B6'));
+    header.appendChild(statsDiv);
+
+    const body = h('div', {className: 'domain-summary-body'});
+    for (const cd of courseData) {
+      const row = h('div', {className: 'course-bar-row'});
+      row.appendChild(h('span', {className: 'course-name', title: cd.title}, cd.title));
+      const bar = h('div', {className: 'bar'});
+      bar.appendChild(h('div', {className: 'bar-fill', style: {width: cd.avg + '%', background: OKGFluency.masteryColor(cd.avg)}}));
+      row.appendChild(bar);
+      row.appendChild(h('span', {className: 'val'}, cd.avg + '%'));
+      body.appendChild(row);
+    }
+    if (estimatedTier) body.appendChild(h('div', {className: 'domain-tier'}, 'Estimated tier: ' + estimatedTier));
+
+    header.addEventListener('click', function() { header.classList.toggle('open'); body.classList.toggle('open'); });
+    card.appendChild(header);
+    card.appendChild(body);
+    cardsWrap.appendChild(card);
+  }
+
+  if (cardsWrap.children.length > 0) {
+    container.appendChild(h('h2', {style: {marginBottom: '12px'}}, 'Domain Fluency'));
+    container.appendChild(cardsWrap);
+  }
+}
+
+// ============================================================
+// Component 3: Manual Adjustment Sliders
+// ============================================================
+function renderAdjustments(container, domainPerf) {
+  if (typeof OKGFluency === 'undefined' || !OKGFluency) return;
+  const scores = OKGFluency.loadScores();
+  const currentAdj = OKGFluency.loadAdjustments();
+  const allAns = [...S.warmupAnswers, ...S.exploreAnswers];
+  const answeredTopics = new Set(allAns.map(a => a.topicId));
+
+  const domainGroups = {};
+  for (const d of DOMAIN_ORDER) {
+    if (!domainPerf[d] || domainPerf[d].total === 0) continue;
+    const coursesWithEvidence = [];
+    for (const rc of RADIAL_COURSES.filter(rc => rc.domain === d)) {
+      const topics = COURSE_TOPICS[rc.courseId] || [];
+      if (topics.some(tid => answeredTopics.has(tid) || (scores[tid] && scores[tid] > 0)))
+        coursesWithEvidence.push({courseId: rc.courseId, title: rc.courseTitle});
+    }
+    if (coursesWithEvidence.length > 0) domainGroups[d] = coursesWithEvidence;
+  }
+  if (Object.keys(domainGroups).length === 0) return;
+
+  const section = h('div', {className: 'adjustments-section'});
+  const toggle = h('div', {className: 'adjustments-toggle'});
+  toggle.appendChild(h('span', {className: 'label'}, 'This doesn\'t look right? Adjust your estimates'));
+  toggle.appendChild(h('span', {className: 'arrow'}, '\u25B6'));
+
+  const body = h('div', {className: 'adjustments-body'});
+  body.appendChild(h('p', {style: {color: '#666', fontSize: '12px', marginBottom: '14px'}},
+    'Slide to adjust fluency estimates per course. Changes apply immediately and update the results above.'));
+
+  for (const d in domainGroups) {
+    const group = h('div', {className: 'adj-domain-group'});
+    group.appendChild(h('div', {className: 'adj-domain-name'}, formatDomain(d)));
+    for (const c of domainGroups[d]) {
+      const row = h('div', {className: 'adj-slider-row'});
+      row.appendChild(h('span', {className: 'slider-label', title: c.title}, c.title));
+      const curVal = currentAdj[c.courseId] || 0;
+      const valSpan = h('span', {className: 'slider-val'}, (curVal >= 0 ? '+' : '') + curVal);
+      const slider = document.createElement('input');
+      slider.type = 'range'; slider.min = '-30'; slider.max = '30'; slider.value = String(curVal);
+      slider.addEventListener('input', function() {
+        const v = parseInt(this.value);
+        valSpan.textContent = (v >= 0 ? '+' : '') + v;
+        const adj = OKGFluency.loadAdjustments();
+        if (v === 0) delete adj[c.courseId]; else adj[c.courseId] = v;
+        OKGFluency.saveAdjustments(adj);
+        reRenderResults();
+      });
+      row.appendChild(slider);
+      row.appendChild(valSpan);
+      group.appendChild(row);
+    }
+    body.appendChild(group);
+  }
+
+  toggle.addEventListener('click', function() { toggle.classList.toggle('open'); body.classList.toggle('open'); });
+  section.appendChild(toggle);
+  section.appendChild(body);
+  container.appendChild(section);
+}
+
+// ============================================================
+// Component 4: Frontier Panel
+// ============================================================
+function renderFrontier(container, graph, effectiveScores) {
+  if (typeof OKGFluency === 'undefined' || !OKGFluency) return;
+  if (!graph || Object.keys(graph).length === 0) return;
+  // Weight frontier by domains the user explored/deep-dived
+  const domainWeights = {{}};
+  const perf = domainPerformance();
+  for (const d in perf) {{
+    if (perf[d].total > 0) domainWeights[d] = 1.5;  // explored
+  }}
+  for (const a of S.deepAnswers) {{
+    domainWeights[a.domain] = 2.0;  // deep-dived gets stronger boost
+  }}
+  const frontierIds = OKGFluency.findFrontier(graph, effectiveScores, {{preferredDomains: domainWeights}});
+  if (!frontierIds || frontierIds.length === 0) return;
+
+  const top20 = frontierIds.slice(0, 20);
+  const panel = h('div', {className: 'frontier-panel'});
+  panel.appendChild(h('h2', null, 'Ready to Learn Next'));
+  panel.appendChild(h('p', {className: 'frontier-desc'},
+    'Topics where you have strong prerequisites but haven\'t learned the topic itself yet.'));
+  const list = h('div', {className: 'frontier-list'});
+
+  for (const tid of top20) {
+    const node = graph[tid];
+    if (!node) continue;
+    const prereqs = node.prereqs || [];
+    let avgPrereq = 100;
+    if (prereqs.length > 0) {
+      let sum = 0;
+      for (const pid of prereqs) sum += (effectiveScores[pid] || 0);
+      avgPrereq = Math.round(sum / prereqs.length);
+    }
+    const readiness = Math.min(100, Math.max(0, avgPrereq - (effectiveScores[tid] || 0)));
+    const item = h('div', {className: 'frontier-item'});
+    const hue = DOMAIN_HUES[node.domain] || 0;
+    item.appendChild(h('span', {className: 'f-badge', style: {
+      background: 'hsla(' + hue + ',40%,40%,0.3)', color: 'hsl(' + hue + ',50%,65%)'
+    }}, formatDomain(node.domain)));
+    item.appendChild(h('span', {className: 'f-title'},
+      h('a', {href: 'topics/' + tid + '.html'}, node.title || tid)));
+    const rBar = h('div', {className: 'f-readiness'});
+    rBar.appendChild(h('div', {className: 'f-readiness-fill', style: {width: readiness + '%'}}));
+    item.appendChild(rBar);
+    list.appendChild(item);
+  }
+  panel.appendChild(list);
+  container.appendChild(panel);
+}
+
+// ============================================================
+// Debounced re-render for adjustment sliders
+// ============================================================
+let _reRenderTimer = null;
+function reRenderResults() {
+  if (_reRenderTimer) clearTimeout(_reRenderTimer);
+  _reRenderTimer = setTimeout(function() { _reRenderTimer = null; renderResults(); }, 200);
+}
+
+// ============================================================
+// Results: orchestrate all components
+// ============================================================
 function renderResults() {
-  const allAnswers = [...S.warmupAnswers, ...S.exploreAnswers];
+  const mcAnswers = [...S.warmupAnswers, ...S.exploreAnswers];
+  const deepCount = S.deepAnswers ? S.deepAnswers.length : 0;
+  const allAnswers = deepCount > 0
+    ? [...mcAnswers, ...S.deepAnswers.map(a => ({...a, correct: a.selfGrade >= 0.5}))]
+    : mcAnswers;
   const totalCorrect = allAnswers.filter(a => a.correct).length;
   const totalAnswered = allAnswers.length;
   const pct = totalAnswered > 0 ? Math.round(totalCorrect / totalAnswered * 100) : 0;
 
-  // Per-domain results
   const perf = domainPerformance();
   const domainResults = [];
   for (const d of DOMAIN_ORDER) {
     const p = perf[d];
     if (!p || p.total === 0) continue;
-    domainResults.push({
-      domain: d,
-      correct: p.correct,
-      total: p.total,
-      pct: Math.round(p.correct / p.total * 100)
-    });
+    domainResults.push({domain: d, correct: p.correct, total: p.total, pct: Math.round(p.correct / p.total * 100)});
   }
   domainResults.sort((a, b) => b.pct - a.pct);
 
-  // Fluency summary (after inference)
   let fluencySummary = null;
-  if (typeof OKGFluency !== 'undefined' && OKGFluency) {
-    fluencySummary = OKGFluency.summary();
-  }
+  if (typeof OKGFluency !== 'undefined' && OKGFluency) fluencySummary = OKGFluency.summary();
 
-  // Unique topics directly tested
   const uniqueTopics = new Set(allAnswers.map(a => a.topicId)).size;
-
-  // Inference stats
   const inf = S.inferenceResult || {topicsInferred: 0, domainsProcessed: 0, crossDomainApplied: false, overallTier: null};
 
-  // Tier labels
-  const TIER_LABELS = {
-    'pre-formal': 'Early Learner',
-    'concrete-operations': 'Elementary',
-    'abstract-reasoning': 'High School',
-    'formal-systems': 'College',
-    'advanced': 'Graduate'
+  const TIER_LABELS_R = {
+    'pre-formal': 'Early Learner', 'concrete-operations': 'Elementary',
+    'abstract-reasoning': 'High School', 'formal-systems': 'College', 'advanced': 'Graduate'
   };
 
-  setContent(h('div', {className: 'container'},
-    h('h1', null, 'Your Results'),
-    h('p', {className: 'subtitle'},
-      totalCorrect + ' of ' + totalAnswered + ' correct (' + pct + '%) across ' + uniqueTopics + ' topics'
-    ),
+  // Propagate to get effective scores (includes adjustments)
+  let effectiveScores = {};
+  if (typeof OKGFluency !== 'undefined' && OKGFluency && typeof PREREQ_GRAPH !== 'undefined' && PREREQ_GRAPH) {
+    effectiveScores = OKGFluency.propagate(PREREQ_GRAPH);
+  }
 
-    // Overall stats
-    h('div', {className: 'summary-card'},
-      h('h2', null, 'Summary'),
-      h('div', {style: {display: 'flex', gap: '24px', flexWrap: 'wrap', marginBottom: '16px'}},
-        h('div', null,
-          h('div', {style: {fontSize: '32px', fontWeight: '700', color: '#eee'}}, pct + '%'),
-          h('div', {style: {color: '#777', fontSize: '12px'}}, 'Accuracy')
-        ),
-        h('div', null,
-          h('div', {style: {fontSize: '32px', fontWeight: '700', color: '#eee'}}, String(uniqueTopics)),
-          h('div', {style: {color: '#777', fontSize: '12px'}}, 'Directly Tested')
-        ),
-        inf.topicsInferred > 0 ? h('div', null,
-          h('div', {style: {fontSize: '32px', fontWeight: '700', color: '#b39ddb'}}, String(inf.topicsInferred)),
-          h('div', {style: {color: '#777', fontSize: '12px'}}, 'Inferred')
-        ) : null,
-        h('div', null,
-          h('div', {style: {fontSize: '32px', fontWeight: '700', color: '#eee'}}, String(domainResults.length)),
-          h('div', {style: {color: '#777', fontSize: '12px'}}, 'Domains Covered')
-        )
-      ),
+  const root = h('div', {className: 'container'});
 
-      // Tier estimate
-      inf.overallTier ? h('p', {style: {color: '#b39ddb', fontSize: '14px', fontWeight: '600', marginBottom: '8px'}},
-        'Estimated level: ' + (TIER_LABELS[inf.overallTier] || inf.overallTier)
-      ) : null,
+  // --- 1. Summary stats ---
+  root.appendChild(h('h1', null, 'Your Results'));
+  root.appendChild(h('p', {className: 'subtitle'},
+    totalCorrect + ' of ' + totalAnswered + ' correct (' + pct + '%) across ' + uniqueTopics + ' topics'));
 
-      // Inference explanation
-      inf.topicsInferred > 0 ? h('p', {style: {color: '#999', fontSize: '13px', marginBottom: '8px'}},
-        'Inferred knowledge for ' + inf.topicsInferred.toLocaleString() +
-        ' additional topics across ' + inf.domainsProcessed + ' domains' +
-        (inf.crossDomainApplied ? ' (general-education baseline applied).' : '.')
-      ) : null,
+  const summaryCard = h('div', {className: 'summary-card'});
+  const statsRow = h('div', {style: {display: 'flex', gap: '24px', flexWrap: 'wrap', marginBottom: '16px'}});
+  statsRow.appendChild(h('div', null,
+    h('div', {style: {fontSize: '32px', fontWeight: '700', color: '#eee'}}, pct + '%'),
+    h('div', {style: {color: '#777', fontSize: '12px'}}, 'Accuracy')));
+  statsRow.appendChild(h('div', null,
+    h('div', {style: {fontSize: '32px', fontWeight: '700', color: '#eee'}}, String(uniqueTopics)),
+    h('div', {style: {color: '#777', fontSize: '12px'}}, 'Directly Tested')));
+  if (inf.topicsInferred > 0) {
+    statsRow.appendChild(h('div', null,
+      h('div', {style: {fontSize: '32px', fontWeight: '700', color: '#b39ddb'}}, String(inf.topicsInferred)),
+      h('div', {style: {color: '#777', fontSize: '12px'}}, 'Inferred')));
+  }
+  if (deepCount > 0) {
+    statsRow.appendChild(h('div', null,
+      h('div', {style: {fontSize: '32px', fontWeight: '700', color: '#FF9800'}}, String(deepCount)),
+      h('div', {style: {color: '#777', fontSize: '12px'}}, 'Deep Dive')));
+  }
+  statsRow.appendChild(h('div', null,
+    h('div', {style: {fontSize: '32px', fontWeight: '700', color: '#eee'}}, String(domainResults.length)),
+    h('div', {style: {color: '#777', fontSize: '12px'}}, 'Domains Covered')));
+  summaryCard.appendChild(statsRow);
 
-      fluencySummary && fluencySummary.totalTracked > 0 ? h('p', {style: {color: '#999', fontSize: '13px'}},
-        fluencySummary.totalTracked.toLocaleString() + ' topics now have fluency scores. ' +
-        'Visit the knowledge graph to see your progress visualized.'
-      ) : null,
+  if (inf.overallTier) {
+    summaryCard.appendChild(h('p', {style: {color: '#b39ddb', fontSize: '14px', fontWeight: '600', marginBottom: '8px'}},
+      'Estimated level: ' + (TIER_LABELS_R[inf.overallTier] || inf.overallTier)));
+  }
+  if (inf.topicsInferred > 0) {
+    summaryCard.appendChild(h('p', {style: {color: '#999', fontSize: '13px', marginBottom: '8px'}},
+      'Inferred knowledge for ' + inf.topicsInferred.toLocaleString() +
+      ' additional topics across ' + inf.domainsProcessed + ' domains' +
+      (inf.crossDomainApplied ? ' (general-education baseline applied).' : '.')));
+  }
+  if (fluencySummary && fluencySummary.totalTracked > 0) {
+    summaryCard.appendChild(h('p', {style: {color: '#999', fontSize: '13px'}},
+      fluencySummary.totalTracked.toLocaleString() + ' topics now have fluency scores.'));
+  }
+  summaryCard.appendChild(h('p', {style: {color: '#666', fontSize: '11px', fontStyle: 'italic', marginTop: '8px'}},
+    'Directly tested topics have high confidence. Inferred topics have lower confidence ' +
+    'and may not reflect specialized knowledge gaps.' +
+    (deepCount > 0 ? ' Deep dive short-answer questions provide the most precise readings.' :
+     ' Try the Deep Dive for more precise short-answer readings.')));
+  root.appendChild(summaryCard);
 
-      // Confidence note
-      h('p', {style: {color: '#666', fontSize: '11px', fontStyle: 'italic', marginTop: '8px'}},
-        'Directly tested topics have high confidence. Inferred topics have lower confidence ' +
-        'and may not reflect specialized knowledge gaps. ' +
-        'Multiple-choice scores can also reflect test-taking skill \u2014 short-answer questions (coming soon) will give more precise readings.'
-      )
-    ),
+  // --- 2. Mini Radial Canvas ---
+  renderMiniRadial(root);
 
-    // Domain breakdown
-    domainResults.length > 0 ? h('div', {className: 'summary-card'},
-      h('h2', null, 'Domain Performance'),
-      ...domainResults.map(dr => {
-        // Show confidence indicator per domain
-        const confLabel = dr.pct >= 60 ? 'high' : dr.pct >= 30 ? 'medium' : 'low';
-        const confColor = dr.pct >= 60 ? '#4CAF50' : dr.pct >= 30 ? '#FFC107' : '#666';
-        return h('div', {className: 'stat-bar'},
-          h('span', {className: 'label'}, formatDomain(dr.domain)),
-          h('div', {className: 'bar'},
-            h('div', {className: 'bar-fill', style: {
-              width: dr.pct + '%',
-              background: confColor
-            }})
-          ),
-          h('span', {className: 'value', style: {color: confColor}}, dr.correct + '/' + dr.total)
-        );
-      })
-    ) : null,
+  // --- 3. Domain Summary Cards ---
+  renderDomainCards(root, perf, effectiveScores);
 
-    // Actions
-    h('div', {className: 'link-row'},
-      h('a', {href: 'radial-graph.html', className: 'link-btn', style: {background: '#2a4a2a', borderColor: '#4CAF50'}},
-        'View Your Knowledge Graph'),
-      h('a', {href: 'index.html', className: 'link-btn'}, 'Browse All Domains'),
-      h('button', {className: 'link-btn', onClick: resetQuiz,
-        style: {background: 'rgba(244,67,54,0.1)', borderColor: '#F44336', color: '#F44336'}},
-        'Play Again')
-    )
+  // --- 4. Frontier Panel ---
+  if (typeof PREREQ_GRAPH !== 'undefined' && PREREQ_GRAPH) {
+    renderFrontier(root, PREREQ_GRAPH, effectiveScores);
+  }
+
+  // --- 5. Adjustment Sliders ---
+  renderAdjustments(root, perf);
+
+  // --- 6. Action Buttons ---
+  root.appendChild(h('div', {className: 'link-row'},
+    h('button', {className: 'link-btn', onClick: startExplore}, 'Explore More Domains'),
+    hasDeepDive() ? h('button', {className: 'link-btn', style: {background: 'rgba(255,152,0,0.1)', borderColor: '#FF9800', color: '#FF9800'}, onClick: startDeepPick},
+      'Try Deep Dive') : null,
+    h('a', {href: 'radial-graph.html', className: 'link-btn', style: {background: '#2a4a2a', borderColor: '#4CAF50'}},
+      'View Full Radial'),
+    h('button', {className: 'link-btn', onClick: resetQuiz,
+      style: {background: 'rgba(244,67,54,0.1)', borderColor: '#F44336', color: '#F44336'}},
+      'Play Again')
   ));
+
+  setContent(root);
 }
 
 function resetQuiz() {
@@ -1184,6 +2157,12 @@ function resetQuiz() {
     exploreAnswers: [],
     exploredDomains: {},
     skippedDomains: {},
+    deepDomain: null,
+    deepQueue: [],
+    deepIndex: 0,
+    deepAnswers: [],
+    deepRevealed: false,
+    deepRevealTime: null,
     usedQuestionKeys: {},
   };
   render();
@@ -1211,6 +2190,8 @@ function render() {
     case 'warmup-results': renderWarmupResults(); break;
     case 'explore-pick':  renderExplorePick(); break;
     case 'explore':       renderExplore(); break;
+    case 'deep-pick':     renderDeepPick(); break;
+    case 'deep-dive':     renderDeepDive(); break;
     case 'results':       renderResults(); break;
     default:
       setContent(h('div', {className: 'container'},

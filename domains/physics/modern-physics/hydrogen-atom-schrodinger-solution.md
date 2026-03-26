@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: hydrogen-atom-quantum
   type: soft
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: differential-equations-intro
   type: hard

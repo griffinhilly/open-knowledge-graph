@@ -43,6 +43,10 @@ WARMUP_TOPICS_PER_DOMAIN = 6
 EXPLORE_TOPICS_PER_DOMAIN_STAGE = 4
 MAX_QUESTIONS_PER_TOPIC = 2
 
+# Deep dive pool sizing
+DEEP_DIVE_STAGES = ["formal-systems", "advanced", "expert"]
+DEEP_DIVE_MAX_PER_DOMAIN_STAGE = 10
+
 
 # ---------------------------------------------------------------------------
 # Parsing
@@ -128,6 +132,13 @@ def is_quizzable(q):
     return False
 
 
+def is_deep_diveable(q):
+    """Check if a question is suitable for the self-graded deep dive (short-answer only)."""
+    return (q.get("type") == "short-answer" and
+            isinstance(q.get("answer"), str) and
+            len(q["answer"].strip()) > 0)
+
+
 def make_question_entry(topic, question, connectivity):
     """Build a flat question object for the quiz JSON."""
     stage = topic.get("stage", "concrete-operations")
@@ -149,8 +160,26 @@ def make_question_entry(topic, question, connectivity):
     return entry
 
 
+def make_deep_dive_entry(topic, question, connectivity):
+    """Build a question object for the deep dive pool (short-answer with model answer)."""
+    stage = topic.get("stage", "concrete-operations")
+    return {
+        "topicId": topic["id"],
+        "topicTitle": topic.get("title", topic["id"]),
+        "domain": topic.get("domain", "unknown"),
+        "course": topic.get("course", "unknown"),
+        "stage": stage,
+        "difficulty": STAGE_DIFFICULTY.get(stage, 0.5),
+        "connectivity": connectivity.get(topic["id"], 0),
+        "question": question["question"],
+        "type": question["type"],
+        "model_answer": question["answer"],
+        "explanation": question.get("explanation", ""),
+    }
+
+
 def select_pool(topics, connectivity):
-    """Select warmup and exploration question pools."""
+    """Select warmup, exploration, and deep dive question pools."""
     # Group topics with quizzable questions by domain+stage
     by_domain_stage = defaultdict(list)
     for t in topics:
@@ -202,7 +231,47 @@ def select_pool(topics, connectivity):
         if domain_questions:
             exploration[domain] = domain_questions
 
-    return warmup, exploration
+    # --- Deep dive pool: short-answer from formal-systems/advanced/expert ---
+    # Group topics with deep-diveable questions by domain+stage
+    deep_by_domain_stage = defaultdict(list)
+    for t in topics:
+        deep_qs = [q for q in t.get("_questions", []) if is_deep_diveable(q)]
+        if not deep_qs:
+            continue
+        domain = t.get("domain", "unknown")
+        stage = t.get("stage", "unknown")
+        if stage not in DEEP_DIVE_STAGES:
+            continue
+        deep_by_domain_stage[(domain, stage)].append((t, deep_qs))
+
+    # Sort within each group by connectivity descending (prefer hub topics)
+    for key in deep_by_domain_stage:
+        deep_by_domain_stage[key].sort(
+            key=lambda x: connectivity.get(x[0]["id"], 0), reverse=True
+        )
+
+    deep_domains = sorted(set(k[0] for k in deep_by_domain_stage))
+
+    deep_dive = {}
+    for domain in deep_domains:
+        domain_questions = []
+        for stage in DEEP_DIVE_STAGES:
+            stage_topics = deep_by_domain_stage.get((domain, stage), [])
+            stage_count = 0
+            for topic, questions in stage_topics:
+                if stage_count >= DEEP_DIVE_MAX_PER_DOMAIN_STAGE:
+                    break
+                for q in questions:
+                    if stage_count >= DEEP_DIVE_MAX_PER_DOMAIN_STAGE:
+                        break
+                    domain_questions.append(
+                        make_deep_dive_entry(topic, q, connectivity)
+                    )
+                    stage_count += 1
+        if domain_questions:
+            deep_dive[domain] = domain_questions
+
+    return warmup, exploration, deep_dive
 
 
 # ---------------------------------------------------------------------------
@@ -238,15 +307,23 @@ def main():
     conn = compute_connectivity(topics)
 
     print("Selecting quiz pool...")
-    warmup, exploration = select_pool(topics, conn)
+    warmup, exploration, deep_dive = select_pool(topics, conn)
 
     explore_total = sum(len(v) for v in exploration.values())
+    deep_total = sum(len(v) for v in deep_dive.values())
     print(f"  Warmup pool: {len(warmup)} questions")
     print(f"  Exploration pool: {explore_total} questions across {len(exploration)} domains")
+    print(f"  Deep dive pool: {deep_total} questions across {len(deep_dive)} domains")
 
     for domain in sorted(exploration):
         stages = set(q["stage"] for q in exploration[domain])
         print(f"    {domain}: {len(exploration[domain])} questions ({', '.join(sorted(stages))})")
+
+    if deep_dive:
+        print("  Deep dive breakdown:")
+        for domain in sorted(deep_dive):
+            stages = set(q["stage"] for q in deep_dive[domain])
+            print(f"    {domain}: {len(deep_dive[domain])} questions ({', '.join(sorted(stages))})")
 
     print("Building topic index...")
     topic_index = build_topic_index(topics)
@@ -261,10 +338,12 @@ def main():
             "total_questions": total_q,
             "warmup_pool": len(warmup),
             "exploration_pool": explore_total,
+            "deep_dive_pool": deep_total,
             "indexed_topics": index_topics,
         },
         "warmup": warmup,
         "exploration": exploration,
+        "deepDive": deep_dive,
         "topicIndex": topic_index,
     }
 

@@ -4,7 +4,7 @@ title: Characteristic Polynomial and Diagonalization
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 tags:
 - characteristic polynomial

@@ -9,7 +9,7 @@ prerequisites:
 - id: matrix-inverses-computation
   type: hard
 builds-toward:
-- eigenvalues-eigenvectors-introduction
+- eigenvalues-and-eigenvectors
 - diagonalization-similar-matrices
 tags:
 - change-of-basis

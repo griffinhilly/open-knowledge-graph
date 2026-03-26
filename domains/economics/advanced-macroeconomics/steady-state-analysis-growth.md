@@ -4,7 +4,7 @@ title: Steady-State Analysis in Growth Models
 domain: economics
 course: advanced-macroeconomics
 prerequisites:
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: systems-of-linear-equations
   type: hard

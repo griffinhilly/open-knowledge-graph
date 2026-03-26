@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - cramers-rule
-- eigenvalues-eigenvectors
+- eigenvalues-and-eigenvectors
 tags:
 - determinants
 - properties

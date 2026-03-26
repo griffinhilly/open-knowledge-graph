@@ -4,7 +4,7 @@ title: Diagonalization and Similar Matrices
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: eigenvalues-eigenvectors-introduction
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: change-of-basis-matrices
   type: hard

@@ -6,7 +6,7 @@ course: psychometrics
 prerequisites:
 - id: classical-test-theory
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft

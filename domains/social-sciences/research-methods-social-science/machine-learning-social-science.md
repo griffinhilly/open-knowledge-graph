@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: probability-and-statistics
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: optimization-multivariable-basics
   type: hard

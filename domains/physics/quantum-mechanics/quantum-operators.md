@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: linear-transformation-definition
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: linear-transformations
   type: hard

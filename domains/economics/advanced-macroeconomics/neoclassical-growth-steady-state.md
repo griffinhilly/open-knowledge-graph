@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: systems-of-first-order-linear-odes
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 builds-toward:
 - endogenous-growth-theory

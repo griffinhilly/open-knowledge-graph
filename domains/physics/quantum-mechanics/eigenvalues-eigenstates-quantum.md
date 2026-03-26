@@ -6,7 +6,7 @@ course: quantum-mechanics
 prerequisites:
 - id: quantum-operators
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 builds-toward:
 - quantum-observables

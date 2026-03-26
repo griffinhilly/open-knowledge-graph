@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: causal-inference-observational-data
   type: soft
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: matrix-operations
   type: hard

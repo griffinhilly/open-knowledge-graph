@@ -4,7 +4,9 @@ title: Eigenvalues and Eigenvectors
 domain: mathematics
 course: linear-algebra
 prerequisites:
-- id: characteristic-polynomial
+- id: determinant-properties
+  type: hard
+- id: linear-transformation-definition
   type: hard
 builds-toward:
 - diagonalization

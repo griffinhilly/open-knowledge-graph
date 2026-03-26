@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - change-of-basis-matrices
-- eigenvalues-eigenvectors-introduction
+- eigenvalues-and-eigenvectors
 tags:
 - matrix-representation
 - coordinates

@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 - id: applications-linear-algebra-modeling
   type: hard

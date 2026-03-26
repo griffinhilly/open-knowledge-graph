@@ -9,7 +9,7 @@ prerequisites:
 builds-toward:
 - matrix-inverses
 - determinant-properties
-- eigenvalues-eigenvectors
+- eigenvalues-and-eigenvectors
 tags:
 - matrices
 - transpose

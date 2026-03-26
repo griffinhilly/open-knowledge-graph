@@ -9,7 +9,7 @@ prerequisites:
 builds-toward:
 - determinant-properties
 - cramers-rule
-- eigenvalues-eigenvectors
+- eigenvalues-and-eigenvectors
 tags:
 - determinants
 - computation

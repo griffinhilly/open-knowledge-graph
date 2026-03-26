@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: matrices-intro
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: soft
 tags:
 - chemometrics

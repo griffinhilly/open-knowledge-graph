@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: adjacency-matrix
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: soft
 - id: graph-theory-intro
   type: soft

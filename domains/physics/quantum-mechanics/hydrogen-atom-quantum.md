@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: angular-momentum-quantum
   type: hard
-- id: eigenvalues-eigenvectors
+- id: eigenvalues-and-eigenvectors
   type: hard
 builds-toward:
 - hydrogen-atom-spectrum
