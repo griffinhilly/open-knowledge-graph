@@ -1,11 +1,11 @@
 # Open Knowledge Graph Memory
 
 ## Status (Mar 25, 2026)
-- **13,411 topics** across **19 domains**, **197 courses**
+- **13,393 topics** across **19 domains**, **197 courses**
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **All topics at `status: validated`**, **100% Q+E coverage**
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
-- Phase 9A COMPLETE, Phase 9B BUILT, Phase 8.5 (K-12 STEM) COMPLETE
+- Phase 9A COMPLETE, Phase 9B BUILT, Phase 9C DONE, Phase 8.5 (K-12 STEM) COMPLETE
 - **Domain maps are primary navigation** — hierarchy views removed from CI and all links
 - **CI pipeline**: validate → index → radial → topic pages → domain maps → assessment → quiz
 - **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking (~7s). Setup: `git config core.hooksPath hooks`

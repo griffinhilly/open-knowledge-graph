@@ -2,26 +2,24 @@
 
 ## Current State
 
-Phase 8.5 COMPLETE. Phase 9 IN PROGRESS (9A+9B done, 9C next). **13,411 topics** across 19 domains, 197 courses.
+Phase 9C DONE. **13,393 topics** across 19 domains, 197 courses.
 
-**Last session (Mar 25, 2026):** CI pipeline, pre-push hook, leaf connections, hierarchy→domain map swap, radial branch integration, PyYAML swap, 18-pair dedup.
+**Last session (Mar 25, 2026):** CI pipeline, pre-push hook, leaf connections (3,959 across all 19 domains, 20.8% leaf rate), hierarchy→domain map swap, radial branch integration, PyYAML swap, 36-pair dedup, domain map improvements (search auto-pan, cross-domain sizing/badges), radial color redesign (stride-8 hue permutation), CS ref fix (98 dangling refs), Phase 9C (Deep Dive + results redesign + fluency model fixes).
 
 **Known issues:**
 - Semantic zoom not implemented (single zoom level with text toggle)
-- 369 potential duplicates flagged by 14-domain leaf expansion — need dedup review
-- 3 closely related pairs + 1 uncertain pair from original dedup — need human review
+- ~180 lower-confidence potential duplicates remaining (score 0.5-0.8)
+- 20+ near-duplicate pairs in mathematics (naming inconsistencies, especially in linear algebra and differential equations)
 - Language-and-communication still at 44% leaves (highest remaining)
+- T/F question quality: absolutes give away answers (content generation issue)
+- Child development meta-questions: questions about child development rather than for children (content issue)
+- Quiz HTML is 5.8MB due to embedded prereq graph — could be optimized
 
 **Next steps:**
-1. **Domain map improvements**:
-   a. Fix topical search (not working on domain maps)
-   b. Include cross-domain edges in label sizing (e.g., Intro to Differential Equations appears small because only within-domain edges counted, but it's a major hub on the radial graph)
-   c. Toggle to show out-of-domain topics with connections to in-domain topics (grey "out-of-domain" course coloring, show cross-domain edge counts)
-   d. Rename `differential-equations-intro-separable` title from "Introduction to Differential Equations - Separable Equations" to "Separable Equations (Intro)" — it's a calc-2 preview, not the full DE treatment
-2. **Phase 9C**: Deep Dive assessment + Results screen redesign
-3. **Dedup review**: 369 new potential duplicates from leaf expansion
-4. Phase 9D: Landing page + polish
-5. Write announcement post
+1. **Math dedup sweep**: 20+ near-duplicate pairs identified in linear algebra, differential equations, numerical analysis
+2. **Phase 9D**: Landing page redesign ("Explore the Map" vs "Personalize Your Map"), domain toggle on radial, progress bars, guided learning paths
+3. **Content quality**: T/F absolute rewording, child dev meta-question audit
+4. Write announcement post
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)
@@ -267,12 +265,15 @@ Transform OKG from a static knowledge map into an interactive learning tool. Ins
 - [x] Quiz page: `output/quiz.html` (851 KB self-contained, embedded fluency.js + data)
 - [x] Index page updated with quiz link
 
-### Phase 9C: Assessment Phase 3 + Results
-- [ ] Phase 3 Deep Dive: user-selected domains, formal→advanced, short-answer questions
-- [ ] Results screen: fluency-colored radial graph (green wave of mastery)
-- [ ] Domain summary cards with course-level fluency breakdowns
-- [ ] Manual adjustment sliders ("This doesn't look right?")
-- [ ] Frontier highlighting (high-prereq-fluency, low-own-fluency topics)
+### Phase 9C: Assessment Phase 3 + Results — DONE (Mar 25, 2026)
+- [x] Phase 3 Deep Dive: user-selected domains, formal→advanced→expert, short-answer self-graded
+  - 483 questions across 19 domains, textarea for user answers before reveal
+  - Self-grading: Got it (1.0) / Partially (0.5) / Missed it (0.0)
+- [x] Results screen: mini radial canvas (162 course-level nodes, fluency-colored)
+- [x] Domain summary cards with course-level fluency breakdowns (collapsible)
+- [x] Manual adjustment sliders (per-course, -30 to +30, persisted to localStorage)
+- [x] Frontier highlighting weighted by explored/deep-dived domains (1.5x/2.0x boost)
+- [x] Fluency model fixes: backward propagation depth 6→12, forced floors for stages 2+ below demonstrated, conservative cross-domain inference, exploration starts at demonstrated tier
 
 ### Phase 9D: Landing Page + Polish
 - [ ] Redesign index page: "Explore the Map" vs "Personalize Your Map"
