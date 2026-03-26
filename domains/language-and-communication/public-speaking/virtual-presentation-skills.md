@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: eye-contact-audience-connection
   type: soft
+- id: group-presentation-coordination
+  type: soft
+- id: presentation-slide-design
+  type: soft
 tags:
 - virtual
 - remote

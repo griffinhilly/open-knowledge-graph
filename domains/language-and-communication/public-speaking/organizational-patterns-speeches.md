@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: audience-analysis-for-speaking
   type: soft
+- id: demonstration-speeches
+  type: soft
 tags:
 - organization
 - chronological
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Organizational Patterns for Speeches
 
 ## Core Idea

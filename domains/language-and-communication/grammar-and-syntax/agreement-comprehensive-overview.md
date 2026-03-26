@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: parts-of-speech-overview
   type: soft
+- id: subject-agreement-and-or-connectors
+  type: soft
 tags:
 - agreement
 - grammar-rules

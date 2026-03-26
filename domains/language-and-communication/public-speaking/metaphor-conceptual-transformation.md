@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: figurative-language-speaking
   type: soft
+- id: informative-conceptual-scaffolding
+  type: soft
 builds-toward:
 - metaphor-analogy-rhetorical-strategy
 - figurative-language-speaking
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Metaphor as Conceptual Transformation
 
 ## Core Idea

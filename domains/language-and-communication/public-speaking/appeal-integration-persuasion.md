@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: logos-and-logical-reasoning
   type: hard
+- id: kairos-opportune-moment
+  type: soft
 builds-toward:
 - speaker-credibility-building
 - emotional-connection-pathos
@@ -21,7 +23,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Integrating Ethos, Pathos, and Logos in Persuasion
 
 ## Core Idea

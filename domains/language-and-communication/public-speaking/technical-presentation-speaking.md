@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: concision-and-clarity
   type: hard
+- id: verbal-signposting
+  type: soft
 builds-toward:
 - context-adaptation-speaking
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Presenting Technical and Specialized Content
 
 ## Core Idea

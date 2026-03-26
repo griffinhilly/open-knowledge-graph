@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: serial-verb-constructions
   type: soft
+- id: causative-voice-constructions
+  type: soft
 tags:
 - syntax
 - information-structure

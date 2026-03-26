@@ -6,6 +6,8 @@ course: early-language-foundations
 prerequisites:
 - id: letter-sound-correspondence
   type: hard
+- id: print-concepts
+  type: soft
 builds-toward:
 - reading-fluency
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Sight Words
 
 ## Core Idea

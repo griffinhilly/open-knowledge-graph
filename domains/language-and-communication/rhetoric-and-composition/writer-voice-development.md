@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: imitation-stylistic-study
   type: soft
+- id: invention-strategies-freewriting
+  type: soft
 builds-toward:
 - grammatical-register-and-style
 - revision-strategies

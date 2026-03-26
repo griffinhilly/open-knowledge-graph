@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: logical-consistency-argument
   type: soft
+- id: invention-strategies-freewriting
+  type: soft
+- id: prewriting-and-idea-generation
+  type: soft
 builds-toward:
 - claim-evidence-connection
 - counterargument-and-rebuttal

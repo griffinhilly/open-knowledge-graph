@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: comparative-speech-structure
   type: soft
+- id: verbal-signposting
+  type: soft
 builds-toward:
 - speech-structure-and-organization
 - organizational-patterns-speeches

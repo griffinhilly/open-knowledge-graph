@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: syntactic-structure
   type: hard
+- id: lexical-access-word-recognition
+  type: soft
 builds-toward:
 - working-memory-sentence-comprehension
 tags:
@@ -17,7 +19,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Sentence Parsing and Garden-Path Sentences
 
 ## Core Idea

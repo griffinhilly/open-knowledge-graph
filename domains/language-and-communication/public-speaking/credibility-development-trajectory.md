@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ethos-and-credibility
   type: soft
+- id: oral-citation-technique
+  type: soft
 builds-toward:
 - speaker-credibility-building
 - rhetorical-stance-development
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Credibility Development Over Time
 
 ## Core Idea

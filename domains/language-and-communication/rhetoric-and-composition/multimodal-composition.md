@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: research-question-thesis-connection
   type: soft
+- id: revision-planning-multiple-passes
+  type: soft
 tags:
 - multimodal
 - composition

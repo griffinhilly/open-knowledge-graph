@@ -12,6 +12,14 @@ prerequisites:
   type: soft
 - id: counterargument-integration-writing
   type: soft
+- id: assumption-and-inference
+  type: soft
+- id: citation-formats-mla-apa
+  type: soft
+- id: peer-review-and-feedback
+  type: soft
+- id: plagiarism-and-citation-ethics
+  type: soft
 builds-toward:
 - sentence-construction-emphasis
 tags:

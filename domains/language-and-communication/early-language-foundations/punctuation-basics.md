@@ -6,6 +6,8 @@ course: early-language-foundations
 prerequisites:
 - id: simple-sentence-writing
   type: hard
+- id: oral-presentation-basics
+  type: soft
 builds-toward: []
 tags:
 - punctuation
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Punctuation Basics
 
 ## Core Idea

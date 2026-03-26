@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: evidence-in-speeches
   type: soft
+- id: oral-citation-technique
+  type: soft
 builds-toward:
 - oral-citation-technique
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Evidence Integration in Oral Argument
 
 ## Core Idea

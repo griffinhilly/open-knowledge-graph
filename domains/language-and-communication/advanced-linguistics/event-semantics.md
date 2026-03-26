@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: type-theory-semantics
   type: soft
+- id: intensionality-possible-worlds
+  type: soft
 tags:
 - events
 - argument-structure

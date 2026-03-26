@@ -16,6 +16,16 @@ prerequisites:
   type: soft
 - id: presence-and-stage-command
   type: soft
+- id: conclusion-design-impact
+  type: soft
+- id: group-dynamics-panel-speaking
+  type: soft
+- id: group-presentation-coordination
+  type: soft
+- id: handling-difficult-questions
+  type: soft
+- id: presentation-slide-design
+  type: soft
 builds-toward:
 - repetition-devices-emphasis
 tags:

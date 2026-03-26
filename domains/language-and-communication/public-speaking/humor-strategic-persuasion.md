@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: credibility-development-trajectory
   type: soft
+- id: language-register-strategic-choice
+  type: soft
 builds-toward:
 - stylistic-emphasis-devices-speech
 tags:

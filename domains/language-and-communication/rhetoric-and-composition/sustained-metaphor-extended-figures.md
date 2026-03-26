@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: rhetorical-devices-in-prose
   type: soft
+- id: citation-formats-mla-apa
+  type: soft
+- id: peer-review-and-feedback
+  type: soft
+- id: plagiarism-and-citation-ethics
+  type: soft
 tags:
 - rhetoric
 - literary-devices
@@ -16,7 +22,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Sustained Metaphor and Extended Figures
 
 ## Core Idea

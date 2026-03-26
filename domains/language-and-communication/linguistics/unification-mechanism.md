@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: computational-pragmatics
   type: soft
+- id: inflectional-morphology-formal
+  type: soft
+- id: internal-reconstruction
+  type: soft
+- id: word-order-typology
+  type: soft
 builds-toward:
 - lexical-functional-grammar
 - head-driven-phrase-structure-grammar

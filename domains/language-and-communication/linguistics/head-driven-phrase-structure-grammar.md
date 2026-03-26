@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: categorial-syntax
   type: soft
+- id: relative-clause-formation
+  type: soft
 tags:
 - syntax
 - framework

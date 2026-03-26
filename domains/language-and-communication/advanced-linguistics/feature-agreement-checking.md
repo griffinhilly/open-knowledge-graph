@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: feature-geometry-underspecification
   type: soft
+- id: labeling-algorithm-minimalism
+  type: soft
 builds-toward:
 - null-elements-pro-drop
 tags:

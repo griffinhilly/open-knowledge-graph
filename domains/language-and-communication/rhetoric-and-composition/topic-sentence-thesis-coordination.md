@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: advanced-thesis-development
   type: hard
+- id: paragraphing-strategy
+  type: soft
 builds-toward: []
 tags:
 - topic-sentences

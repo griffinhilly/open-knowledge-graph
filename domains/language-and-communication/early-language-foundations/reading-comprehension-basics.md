@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: listening-comprehension
   type: soft
+- id: oral-presentation-basics
+  type: soft
 builds-toward:
 - vocabulary-from-context
 - paragraph-writing-intro
@@ -19,7 +21,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Reading Comprehension Basics
 
 ## Core Idea

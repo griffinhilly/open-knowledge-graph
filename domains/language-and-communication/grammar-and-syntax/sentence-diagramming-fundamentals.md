@@ -22,6 +22,16 @@ prerequisites:
   type: soft
 - id: articles-a-an-the-usage
   type: soft
+- id: subject-agreement-and-or-connectors
+  type: soft
+- id: fragments-and-run-ons-correction
+  type: soft
+- id: fixed-idioms-and-expressions
+  type: soft
+- id: gerunds-and-infinitives
+  type: soft
+- id: subjunctive-mood
+  type: soft
 tags:
 - diagramming
 - visualization

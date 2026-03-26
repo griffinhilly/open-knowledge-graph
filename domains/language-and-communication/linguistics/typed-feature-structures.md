@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: feature-agreement-checking
   type: soft
+- id: inflectional-morphology-formal
+  type: soft
 builds-toward:
 - unification-mechanism
 - lexical-functional-grammar
@@ -18,7 +20,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Typed Feature Structures
 
 ## Core Idea

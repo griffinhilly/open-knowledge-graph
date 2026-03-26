@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ceremonial-register-and-language
   type: soft
+- id: language-register-strategic-choice
+  type: soft
 tags:
 - register
 - formality

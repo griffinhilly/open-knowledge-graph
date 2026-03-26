@@ -6,6 +6,8 @@ course: early-language-foundations
 prerequisites:
 - id: letter-sound-correspondence
   type: hard
+- id: spelling-patterns
+  type: soft
 builds-toward:
 - simple-sentence-writing
 tags:
@@ -16,7 +18,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Writing Letters and Words
 
 ## Core Idea

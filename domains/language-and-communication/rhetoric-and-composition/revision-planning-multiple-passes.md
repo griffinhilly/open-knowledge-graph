@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: research-question-thesis-connection
   type: soft
+- id: prewriting-and-idea-generation
+  type: soft
 builds-toward:
 - editing-coherence-techniques
 - peer-review-and-feedback

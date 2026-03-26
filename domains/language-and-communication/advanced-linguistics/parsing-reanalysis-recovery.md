@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: prediction-in-language-processing
   type: hard
+- id: syntactic-parsing-algorithms
+  type: soft
 tags:
 - psycholinguistics
 - parsing
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Parsing, Reanalysis, and Garden-Path Recovery
 
 ## Core Idea

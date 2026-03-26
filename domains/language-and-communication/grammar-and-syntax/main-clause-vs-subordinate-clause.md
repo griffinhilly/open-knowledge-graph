@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: appositives
   type: soft
+- id: participial-and-absolute-phrases
+  type: soft
 builds-toward:
 - relative-pronouns-and-relative-clauses
 tags:

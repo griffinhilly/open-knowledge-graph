@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: grammaticalization-pathways
   type: soft
+- id: grammaticalization-pathways-semantics
+  type: soft
 tags:
 - diachrony
 - sound-change

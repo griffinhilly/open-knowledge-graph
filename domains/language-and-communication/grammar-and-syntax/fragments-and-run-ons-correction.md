@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: run-on-sentences-and-fragments
   type: hard
+- id: comma-splices-and-run-ons
+  type: soft
 tags:
 - sentence-errors
 - fragments
@@ -13,7 +15,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Sentence Fragments and Run-ons: Identification and Correction
 
 ## Core Idea

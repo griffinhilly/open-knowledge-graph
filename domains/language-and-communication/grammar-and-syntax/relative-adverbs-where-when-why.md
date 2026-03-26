@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: relative-clauses
   type: hard
+- id: dependent-clause-types
+  type: soft
 builds-toward:
 - complex-sentence-construction
 tags:
@@ -15,7 +17,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Relative Adverbs: where, when, why
 
 ## Core Idea

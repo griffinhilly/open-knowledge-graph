@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: quantifier-scope-and-ambiguity
   type: soft
+- id: de-re-de-dicto-distinction
+  type: soft
 tags:
 - semantics
 - quantification

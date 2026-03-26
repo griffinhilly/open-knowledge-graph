@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: logical-fallacies
   type: soft
+- id: forensic-rhetoric-judgment
+  type: soft
 tags:
 - argumentation
 - evidence
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Argument From Example
 
 ## Core Idea

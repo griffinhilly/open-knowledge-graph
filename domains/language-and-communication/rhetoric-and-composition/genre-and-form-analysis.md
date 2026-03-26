@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: essay-organization
   type: soft
+- id: assumption-and-inference
+  type: soft
 builds-toward:
 - writing-modes-overview
 tags:
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Genre and Form Analysis
 
 ## Core Idea

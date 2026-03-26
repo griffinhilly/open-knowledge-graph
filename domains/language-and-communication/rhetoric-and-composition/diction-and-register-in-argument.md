@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: audience-and-purpose
   type: soft
+- id: forensic-rhetoric-judgment
+  type: soft
 tags:
 - diction
 - register
@@ -18,7 +20,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Diction and Register in Argument
 
 ## Core Idea

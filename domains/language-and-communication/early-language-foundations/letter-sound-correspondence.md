@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phonemic-awareness
   type: hard
+- id: print-concepts
+  type: soft
 builds-toward:
 - sight-words
 - decoding-words
@@ -20,7 +22,6 @@ tags:
 stage: pre-formal
 status: validated
 ---
-
 # Letter-Sound Correspondence
 
 ## Core Idea

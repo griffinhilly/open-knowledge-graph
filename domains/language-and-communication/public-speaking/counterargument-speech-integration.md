@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: persuasive-speech-design
   type: hard
+- id: pitch-and-elevator-speeches
+  type: soft
 tags:
 - counterargument
 - persuasion
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Integrating Counterarguments in Persuasive Speeches
 
 ## Core Idea

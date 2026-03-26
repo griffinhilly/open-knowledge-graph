@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: advanced-thesis-development
   type: hard
+- id: topic-sentence-thesis-coordination
+  type: soft
 builds-toward:
 - argumentative-essay-structure
 - argument-synthesis-from-sources
@@ -19,7 +21,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Research Questions and Thesis Development
 
 ## Core Idea

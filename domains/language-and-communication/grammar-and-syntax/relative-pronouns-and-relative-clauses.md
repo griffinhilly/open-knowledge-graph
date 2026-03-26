@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: sentence-structure-basics
   type: soft
+- id: participial-and-absolute-phrases
+  type: soft
 tags:
 - relative-pronouns
 - clauses

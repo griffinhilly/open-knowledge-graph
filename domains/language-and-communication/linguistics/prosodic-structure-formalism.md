@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: constraint-based-phonology-formal
   type: soft
+- id: epenthesis-insertion-process
+  type: soft
+- id: morphology-phonology-interface
+  type: soft
 tags:
 - phonology
 - prosody

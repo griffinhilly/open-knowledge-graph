@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: acquisition-of-formal-systems
   type: soft
+- id: middle-voice-constructions
+  type: soft
+- id: relative-clause-formation
+  type: soft
 tags:
 - syntax
 - framework

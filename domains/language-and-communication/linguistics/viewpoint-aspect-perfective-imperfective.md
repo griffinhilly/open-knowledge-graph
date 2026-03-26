@@ -10,6 +10,16 @@ prerequisites:
   type: hard
 - id: aktionsart-lexical-aspect
   type: soft
+- id: dialect-and-regional-variation
+  type: soft
+- id: internal-reconstruction
+  type: soft
+- id: orthography-and-spelling-systems
+  type: soft
+- id: social-variables-in-variation
+  type: soft
+- id: word-order-typology
+  type: soft
 tags:
 - semantics
 - aspect
@@ -18,7 +28,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Viewpoint Aspect (Perfective and Imperfective)
 
 ## Core Idea

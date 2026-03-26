@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: morpheme-structure-constraints
   type: soft
+- id: epenthesis-insertion-process
+  type: soft
+- id: morphology-phonology-interface
+  type: soft
 builds-toward:
 - constraint-based-phonology-formal
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: prepositional-phrases
   type: soft
+- id: pronoun-case-usage
+  type: soft
 builds-toward: []
 tags:
 - subject-verb-agreement
@@ -17,7 +19,6 @@ tags:
 stage: abstract-reasoning
 status: validated
 ---
-
 # Subject-Verb Agreement in Complex Constructions
 
 ## Core Idea

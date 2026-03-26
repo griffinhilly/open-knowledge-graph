@@ -18,6 +18,18 @@ prerequisites:
   type: soft
 - id: prepositions-location-time-direction
   type: soft
+- id: dependent-clause-types
+  type: soft
+- id: fixed-idioms-and-expressions
+  type: soft
+- id: gerunds-and-infinitives
+  type: soft
+- id: phrasal-verbs-verb-particles
+  type: soft
+- id: pronoun-case-usage
+  type: soft
+- id: subjunctive-mood
+  type: soft
 tags:
 - ambiguity
 - clarity

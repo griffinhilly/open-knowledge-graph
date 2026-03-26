@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: call-to-action-in-speeches
   type: hard
+- id: demonstration-speeches
+  type: soft
 tags:
 - pitch
 - elevator-speech
@@ -17,7 +19,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pitch and Elevator Speeches
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: speech-rehearsal-techniques
   type: soft
+- id: kairos-opportune-moment
+  type: soft
 builds-toward:
 - cohesive-transitions-spoken
 - vocal-emphasis-and-stress
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Pacing and Rhythm in Spoken Delivery
 
 ## Core Idea

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: psycholinguistics-intro
   type: soft
+- id: lexical-access-word-recognition
+  type: soft
 tags:
 - psycholinguistics
 - memory
@@ -15,7 +17,6 @@ tags:
 stage: expert
 status: validated
 ---
-
 # Working Memory in Sentence Comprehension
 
 ## Core Idea

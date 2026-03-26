@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: humor-strategic-persuasion
   type: soft
+- id: persuasion-value-alignment
+  type: soft
 builds-toward:
 - storytelling-in-public-speaking
 - narrative-writing

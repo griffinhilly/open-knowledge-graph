@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: silence-pausing-strategic-use
   type: soft
+- id: rhetorical-questions-engagement
+  type: soft
 tags:
 - repetition
 - anaphora

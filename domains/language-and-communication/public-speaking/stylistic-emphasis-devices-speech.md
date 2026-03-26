@@ -16,6 +16,18 @@ prerequisites:
   type: soft
 - id: facial-expressions-gestures
   type: soft
+- id: rhetorical-questions-engagement
+  type: soft
+- id: introduction-strategies-comparison
+  type: soft
+- id: conclusion-design-impact
+  type: soft
+- id: group-dynamics-panel-speaking
+  type: soft
+- id: handling-difficult-questions
+  type: soft
+- id: speech-coherence-through-repetition
+  type: soft
 tags:
 - rhetoric
 - emphasis

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phonological-systems
   type: soft
+- id: dialect-and-regional-variation
+  type: soft
+- id: social-variables-in-variation
+  type: soft
 builds-toward:
 - historical-linguistics
 - linguistic-typology
@@ -21,7 +25,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Language Variation and Change
 
 ## Core Idea

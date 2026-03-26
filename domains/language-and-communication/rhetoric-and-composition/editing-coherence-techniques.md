@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: revision-as-rhetorical-craft
   type: soft
+- id: revision-planning-multiple-passes
+  type: soft
 builds-toward:
 - sentence-construction-emphasis
 - stylistic-analysis-and-imitation
