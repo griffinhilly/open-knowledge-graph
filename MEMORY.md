@@ -61,3 +61,6 @@
 - **Dedup self-ref pattern**: When keep_file has builds-toward pointing to delete_id, the redirect creates a self-ref. The dedup script skips delete_file but not keep_file. Always run self-ref cleanup after dedup.
 - **Dedup cycle pattern**: Soft prereqs added by `connect_leaves.py` can point backwards pedagogically. When dedup merges nodes, these create cycles. Fix: remove the backwards soft prereq.
 - **T/F mechanical rewrite caveat**: Regex-based `always→typically` etc. can make false statements arguably true. Spot-check needed, especially `only→primarily`, `entirely→mostly`, `cannot→can rarely`.
+- **Radial semantic zoom**: Course labels computed dynamically from visible nodes only — precomputed centroids break when courses span large radial distances (centroid is in the middle, zooming into one end loses the label). Must use viewport-filtered approach.
+- **Radial viewport bounds**: Must divide by `camScale * viewScale`, not just `camScale`. viewScale = `Math.min(W,H) / 1200`.
+- **Git worktrees**: Work well for parallel OKG development. Branches touched different file sets (tools/ vs domains/) so merges were clean. Remove worktrees before deleting branches. Kill HTTP servers before removing worktree directories.
