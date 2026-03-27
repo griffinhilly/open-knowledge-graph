@@ -2,21 +2,18 @@
 
 ## Current State
 
-Phase 9C DONE. **13,302 topics** across 19 domains, 197 courses.
+Phase 9C DONE. **13,153 topics** across 19 domains, 197 courses.
 
-**Last session (Mar 26, 2026):** Math dedup sweep — 91 duplicate pairs merged across all math courses (linear algebra 26, differential equations 15, numerical analysis 18, methods of proof 5, multivariable calculus 8, measure theory 7, topology 5, other 7). 205 reference redirections, 19 self-refs fixed, 9 introduced cycles broken. Validation: 0 errors.
+**Last session (Mar 26, 2026):** Content quality sweep — math dedup (91 pairs), non-math dedup (149 pairs across 15 domains), T/F absolute rewrites (4,470 questions), language-and-communication leaf reduction (77→20, 3.7%), early-stage meta-question rewrites (19 questions). Mobile UX overhaul and radial semantic zoom also deployed (other session).
 
 **Known issues:**
-- Semantic zoom not implemented (single zoom level with text toggle)
-- ~180 lower-confidence potential duplicates remaining (score 0.5-0.8) in non-math domains
-- Language-and-communication still at 44% leaves (highest remaining)
-- T/F question quality: absolutes give away answers (content generation issue)
-- Child development meta-questions: questions about child development rather than for children (content issue)
 - Quiz HTML is 5.8MB due to embedded prereq graph — could be optimized
+- T/F mechanical rewrites may have made some false statements arguably true (~4,470 questions, needs spot-check audit of `only→primarily`, `entirely→mostly`, `cannot→can rarely` patterns)
+- 79 topics lost T/F fixes in merge conflicts (dedup deletions took priority) — keep-side files may still have absolute-language issues
 
 **Next steps:**
-1. **Phase 9D**: Landing page redesign ("Explore the Map" vs "Personalize Your Map"), domain toggle on radial, progress bars, guided learning paths
-2. **Content quality**: T/F absolute rewording, child dev meta-question audit
+1. **T/F semantic spot-check**: Audit sample of mechanical rewrites for correctness (especially `only→primarily`, `entirely→mostly`)
+2. **Phase 9D**: Landing page redesign ("Explore the Map" vs "Personalize Your Map"), domain toggle on radial, progress bars, guided learning paths
 3. Write announcement post
 
 ## Phase 1: Foundation — DONE

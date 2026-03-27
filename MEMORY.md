@@ -1,7 +1,7 @@
 # Open Knowledge Graph Memory
 
 ## Status (Mar 26, 2026)
-- **13,302 topics** across **19 domains**, **197 courses**
+- **13,153 topics** across **19 domains**, **197 courses**
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **All topics at `status: validated`**, **100% Q+E coverage**
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
@@ -9,7 +9,7 @@
 - **Domain maps are primary navigation** — hierarchy views removed from CI and all links
 - **CI pipeline**: validate → index → radial → topic pages → domain maps → assessment → quiz
 - **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking (~7s). Setup: `git config core.hooksPath hooks`
-- **Leaf topics**: 34.4% overall (was 39.8%). 5 domains done, 14 remaining.
+- **Leaf topics**: Language-and-communication reduced to 3.7% (was 14.3%). 6 domains done, 13 remaining.
 
 ## 6-Stage Schema (Mar 22, 2026)
 - **Added "expert" stage** for graduate/research content (2,662 topics)
@@ -57,6 +57,7 @@
 - **Click-vs-drag in canvas views**: If two `mousemove` handlers share `dragStartX/Y`, track original position separately (`mouseDownX/Y`) for displacement detection.
 - **Dedup agents introduce cycles**: Batch find-and-replace during dedup can create mutual prerequisite references. Always run cycle detection after dedup swarms. Also: broad text replace can corrupt IDs when delete_id is substring of keep_id (e.g., `prose-poetry` → `prose-poetry-hybrid-form` corrupted the keep file's own ID).
 - **Dangling cross-domain refs**: 394 total across all domains (pre-existing, not from dedup). Mostly course names used as prereq IDs (`probability-and-statistics`, `macroeconomics`) instead of actual topic IDs. Doesn't affect domain maps (within-domain only).
-- **Validation (Mar 26)**: 13,302 topics, 0 self-refs, 0 within-domain cycles. Graph is structurally clean after math dedup sweep (91 pairs merged).
+- **Validation (Mar 26)**: 13,153 topics, 0 self-refs, 0 within-domain cycles. Graph is structurally clean after math dedup (91) + non-math dedup (149) = 240 pairs merged.
 - **Dedup self-ref pattern**: When keep_file has builds-toward pointing to delete_id, the redirect creates a self-ref. The dedup script skips delete_file but not keep_file. Always run self-ref cleanup after dedup.
 - **Dedup cycle pattern**: Soft prereqs added by `connect_leaves.py` can point backwards pedagogically. When dedup merges nodes, these create cycles. Fix: remove the backwards soft prereq.
+- **T/F mechanical rewrite caveat**: Regex-based `always→typically` etc. can make false statements arguably true. Spot-check needed, especially `only→primarily`, `entirely→mostly`, `cannot→can rarely`.
