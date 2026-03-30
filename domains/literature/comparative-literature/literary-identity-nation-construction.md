@@ -17,7 +17,7 @@ tags:
 - nation
 - nationalism
 - literature
-stage: expert
+stage: advanced
 status: validated
 ---
 

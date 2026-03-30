@@ -13,7 +13,7 @@ tags:
 - dramaturgy
 - self-presentation
 - interaction
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

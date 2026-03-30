@@ -14,7 +14,7 @@ tags:
 - explanation
 - induction
 - probability
-stage: expert
+stage: advanced
 status: validated
 ---
 

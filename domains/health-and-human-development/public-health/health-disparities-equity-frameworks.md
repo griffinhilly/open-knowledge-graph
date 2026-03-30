@@ -14,7 +14,7 @@ tags:
 - structural-inequality
 - justice
 - sdoh
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

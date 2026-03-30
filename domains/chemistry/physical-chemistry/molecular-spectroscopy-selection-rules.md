@@ -20,7 +20,7 @@ tags:
 - selection-rules
 - transitions
 - symmetry
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Selection Rules in Molecular Spectroscopy

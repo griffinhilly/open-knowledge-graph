@@ -12,7 +12,7 @@ tags:
 - upsampling
 - image-rejection
 - multirate
-stage: expert
+stage: advanced
 status: validated
 ---
 # Interpolation, Image Rejection, and Upsampling

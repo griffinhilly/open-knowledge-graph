@@ -18,7 +18,7 @@ tags:
 - governance
 - cooperation
 - issue-area
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Regime Theory and International Governance

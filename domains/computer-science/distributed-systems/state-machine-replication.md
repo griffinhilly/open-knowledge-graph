@@ -16,7 +16,7 @@ tags:
 - replication
 - state-machine
 - fault-tolerance
-stage: advanced
+stage: expert
 status: validated
 ---
 # State Machine Replication

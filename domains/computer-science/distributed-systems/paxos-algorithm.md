@@ -16,7 +16,7 @@ tags:
 - paxos
 - consensus
 - fault-tolerance
-stage: advanced
+stage: expert
 status: validated
 ---
 

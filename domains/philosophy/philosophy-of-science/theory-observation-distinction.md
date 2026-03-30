@@ -15,7 +15,7 @@ tags:
 - observation
 - distinction
 - empiricism
-stage: expert
+stage: advanced
 status: validated
 ---
 

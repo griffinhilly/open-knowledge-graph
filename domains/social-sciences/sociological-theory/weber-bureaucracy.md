@@ -13,7 +13,7 @@ tags:
 - weber
 - bureaucracy
 - organization
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

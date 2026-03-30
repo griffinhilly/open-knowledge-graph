@@ -17,7 +17,7 @@ tags:
 - close-reading
 - archive
 - italian
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - trade
 - capital-flows
 - development
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

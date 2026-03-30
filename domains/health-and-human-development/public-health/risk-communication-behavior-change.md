@@ -14,7 +14,7 @@ tags:
 - perception
 - persuasion
 - messaging
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - asymptotes
 - centroid
 - breakaway-points
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -22,7 +22,7 @@ tags:
 - corner-frequency
 - magnitude-plot
 - phase-plot
-stage: expert
+stage: advanced
 status: validated
 ---
 

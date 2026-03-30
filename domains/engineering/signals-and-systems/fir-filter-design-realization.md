@@ -14,7 +14,7 @@ tags:
 - fir-filter
 - filter-design
 - digital-filters
-stage: expert
+stage: advanced
 status: validated
 ---
 # FIR Filter Design and Realization

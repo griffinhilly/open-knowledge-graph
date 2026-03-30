@@ -20,7 +20,7 @@ tags:
 - stability-test
 - closed-loop-poles
 - frequency-response
-stage: expert
+stage: advanced
 status: validated
 ---
 # Nyquist Plot and Encirclement Criterion

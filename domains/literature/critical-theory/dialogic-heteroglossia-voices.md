@@ -19,7 +19,7 @@ tags:
 - heteroglossia
 - voices
 - polyphony
-stage: expert
+stage: advanced
 status: validated
 ---
 

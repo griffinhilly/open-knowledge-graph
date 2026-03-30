@@ -14,7 +14,7 @@ tags:
 - transient-response
 - bode-design
 - crossover-frequency
-stage: expert
+stage: advanced
 status: validated
 ---
 

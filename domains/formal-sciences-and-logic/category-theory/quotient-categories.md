@@ -13,7 +13,7 @@ tags:
 - quotient-construction
 - equivalence-relations
 - morphism-identification
-stage: expert
+stage: advanced
 status: validated
 ---
 # Quotient Categories

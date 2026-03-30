@@ -20,7 +20,7 @@ tags:
 - study-design
 - efficiency
 - cohort-substudies
-stage: expert
+stage: advanced
 status: validated
 ---
 # Nested Case-Control and Case-Cohort Studies

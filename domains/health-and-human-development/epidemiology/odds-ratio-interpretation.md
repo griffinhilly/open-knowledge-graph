@@ -17,7 +17,7 @@ tags:
 - case-control
 - odds-ratio
 - measures-of-association
-stage: expert
+stage: advanced
 status: validated
 ---
 # Odds Ratio and Case-Control Study Analysis

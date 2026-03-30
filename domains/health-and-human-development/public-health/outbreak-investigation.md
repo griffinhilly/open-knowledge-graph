@@ -19,7 +19,7 @@ tags:
 - attack-rate
 - case-definition
 - field-epidemiology
-stage: expert
+stage: advanced
 status: validated
 ---
 

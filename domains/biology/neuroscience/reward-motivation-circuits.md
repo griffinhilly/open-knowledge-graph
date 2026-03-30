@@ -15,7 +15,7 @@ tags:
 - reward
 - motivation
 - value
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - interpretation
 - methodology
 - ideas
-stage: expert
+stage: advanced
 status: validated
 ---
 # Contextualism: Understanding Ideas in Their Historical Setting

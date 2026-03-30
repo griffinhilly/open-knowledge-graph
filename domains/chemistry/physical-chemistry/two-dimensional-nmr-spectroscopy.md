@@ -17,7 +17,7 @@ tags:
 - spectroscopy
 - structure
 - correlation
-stage: advanced
+stage: expert
 status: validated
 ---
 # Two-Dimensional NMR Techniques

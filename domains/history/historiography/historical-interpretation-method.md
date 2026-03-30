@@ -29,7 +29,7 @@ tags:
 - interpretation
 - methodology
 - epistemology
-stage: expert
+stage: advanced
 status: validated
 ---
 # Historical Interpretation as Method

@@ -12,7 +12,7 @@ tags:
 - crdts
 - replicated-data-types
 - eventual-consistency
-stage: advanced
+stage: expert
 status: validated
 ---
 

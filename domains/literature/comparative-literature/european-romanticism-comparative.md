@@ -11,7 +11,7 @@ tags:
 - comparative-movements
 - 19th-century
 - literary-history
-stage: expert
+stage: advanced
 status: validated
 ---
 

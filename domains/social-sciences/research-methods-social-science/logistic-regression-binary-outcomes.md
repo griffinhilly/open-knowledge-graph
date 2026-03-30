@@ -19,7 +19,7 @@ tags:
 - binary
 - odds-ratios
 - probability
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

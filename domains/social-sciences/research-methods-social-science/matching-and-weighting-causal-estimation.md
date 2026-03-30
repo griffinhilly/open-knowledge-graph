@@ -19,7 +19,7 @@ tags:
 - stratification
 - weighting
 - covariate-balance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Matching, Stratification, and Weighting: Creating Comparable Groups

@@ -21,7 +21,7 @@ tags:
 - autonomy
 - organic-unity
 - close-reading
-stage: expert
+stage: advanced
 status: validated
 ---
 

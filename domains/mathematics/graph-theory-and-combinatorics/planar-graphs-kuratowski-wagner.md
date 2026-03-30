@@ -16,7 +16,7 @@ tags:
 - kuratowski
 - wagner
 - forbidden-subgraphs
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

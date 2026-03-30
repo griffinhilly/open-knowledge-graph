@@ -17,7 +17,7 @@ tags:
 - FPA
 - IPS
 - top-down-control
-stage: expert
+stage: advanced
 status: validated
 ---
 

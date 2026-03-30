@@ -21,7 +21,7 @@ tags:
 - patriarchy
 - Woolf
 - Gilbert-and-Gubar
-stage: expert
+stage: advanced
 status: validated
 ---
 

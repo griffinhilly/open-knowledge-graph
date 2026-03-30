@@ -16,7 +16,7 @@ tags:
 - interaction
 - meaning
 - symbols
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

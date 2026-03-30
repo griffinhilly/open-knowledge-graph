@@ -18,7 +18,7 @@ tags:
 - speed
 - urgent
 - compressed
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Rapid Ethnography and Compressed Fieldwork

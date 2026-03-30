@@ -13,7 +13,7 @@ tags:
 - cor-pulmonale
 - pulmonary-hypertension
 - venous-return
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -25,7 +25,7 @@ tags:
 - matching
 - stratification
 - weighting
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

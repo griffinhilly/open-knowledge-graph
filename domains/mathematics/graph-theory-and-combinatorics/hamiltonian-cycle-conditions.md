@@ -10,7 +10,7 @@ tags:
 - hamiltonian-cycles
 - sufficient-conditions
 - np-hard
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

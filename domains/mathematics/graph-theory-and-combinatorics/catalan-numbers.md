@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - combinatorics
 - sequences
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Catalan Numbers and Recursive Structures

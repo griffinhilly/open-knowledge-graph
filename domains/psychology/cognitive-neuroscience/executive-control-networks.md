@@ -16,7 +16,7 @@ tags:
 - executive-function
 - prefrontal
 - control
-stage: expert
+stage: advanced
 status: validated
 ---
 # Executive Control Networks and the Prefrontal Cortex

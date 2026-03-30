@@ -13,7 +13,7 @@ tags:
 - big-five
 - trait-measures
 - neo-pi
-stage: expert
+stage: advanced
 status: validated
 ---
 

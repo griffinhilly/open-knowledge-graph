@@ -27,7 +27,7 @@ tags:
 - focalization
 - story-discourse
 - narrative-levels
-stage: expert
+stage: advanced
 status: validated
 ---
 

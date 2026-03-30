@@ -16,7 +16,7 @@ tags:
 - surveillance
 - panopticon
 - normalization
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

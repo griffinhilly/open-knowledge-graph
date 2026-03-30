@@ -15,7 +15,7 @@ tags:
 - form
 - culture
 - transformation
-stage: expert
+stage: advanced
 status: validated
 ---
 

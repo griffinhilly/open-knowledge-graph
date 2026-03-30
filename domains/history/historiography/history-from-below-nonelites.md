@@ -17,7 +17,7 @@ tags:
 - non-elite
 - agency
 - voice
-stage: expert
+stage: advanced
 status: validated
 ---
 

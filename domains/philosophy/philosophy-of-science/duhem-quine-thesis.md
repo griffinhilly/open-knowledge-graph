@@ -14,7 +14,7 @@ tags:
 - duhem-quine
 - underdetermination
 - empiricism
-stage: expert
+stage: advanced
 status: validated
 ---
 

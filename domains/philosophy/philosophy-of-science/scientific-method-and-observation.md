@@ -14,7 +14,7 @@ tags:
 - method
 - observation
 - empiricism
-stage: expert
+stage: advanced
 status: validated
 ---
 

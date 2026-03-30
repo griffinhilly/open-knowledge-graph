@@ -18,7 +18,7 @@ tags:
 - case
 - typology
 - morphology
-stage: expert
+stage: advanced
 status: validated
 ---
 # Case Systems and Their Typological Variation

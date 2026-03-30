@@ -15,7 +15,7 @@ tags:
 - lti
 - linearity
 - time-invariance
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

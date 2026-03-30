@@ -15,7 +15,7 @@ tags:
 - capillary-permeability
 - hydrostatic-pressure
 - oncotic-pressure
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - np-complete
 - clause-restrictions
-stage: advanced
+stage: expert
 status: validated
 ---
 

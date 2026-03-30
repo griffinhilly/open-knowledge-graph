@@ -15,7 +15,7 @@ tags:
 - complement-deficiency
 - opsonization
 - infection-susceptibility
-stage: expert
+stage: advanced
 status: validated
 ---
 

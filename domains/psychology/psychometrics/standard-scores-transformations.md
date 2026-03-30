@@ -15,7 +15,7 @@ tags:
 - z-scores
 - t-scores
 - transformation
-stage: expert
+stage: advanced
 status: validated
 ---
 

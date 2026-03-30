@@ -18,7 +18,7 @@ tags:
 - root-finding
 - bisection
 - convergence
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Bisection Method for Root Finding

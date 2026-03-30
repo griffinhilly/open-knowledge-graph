@@ -12,7 +12,7 @@ tags:
 - network-flows
 - max-flow-min-cut
 - optimization
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

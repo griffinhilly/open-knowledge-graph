@@ -12,7 +12,7 @@ tags:
 - education
 - incentives
 - attendance
-stage: expert
+stage: advanced
 status: validated
 ---
 

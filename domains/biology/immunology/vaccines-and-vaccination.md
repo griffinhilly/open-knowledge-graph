@@ -13,7 +13,7 @@ tags:
 - vaccines
 - prevention
 - immunization
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - test-characteristics
 - sensitivity
 - specificity
-stage: expert
+stage: advanced
 status: validated
 ---
 

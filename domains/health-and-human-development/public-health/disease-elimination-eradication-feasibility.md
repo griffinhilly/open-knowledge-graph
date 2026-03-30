@@ -17,7 +17,7 @@ tags:
 - eradication
 - elimination
 - control-targets
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - coagulation
 - hemostasis
 - blood
-stage: expert
+stage: advanced
 status: validated
 ---
 # Hemostasis and Coagulation Pathophysiology

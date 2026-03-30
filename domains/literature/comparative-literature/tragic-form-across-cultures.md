@@ -15,7 +15,7 @@ tags:
 - form
 - culture
 - philosophy
-stage: expert
+stage: advanced
 status: validated
 ---
 

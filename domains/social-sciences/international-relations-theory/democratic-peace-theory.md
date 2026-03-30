@@ -17,7 +17,7 @@ tags:
 - peace
 - war
 - institutional-constraints
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

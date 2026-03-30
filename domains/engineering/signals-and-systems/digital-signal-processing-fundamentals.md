@@ -15,7 +15,7 @@ tags:
 - dsp
 - digital-systems
 - implementation
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - acute-stress
 - trauma
 - early-intervention
-stage: expert
+stage: advanced
 status: validated
 ---
 

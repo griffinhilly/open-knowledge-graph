@@ -17,7 +17,7 @@ tags:
 - elementary-substructures
 - submodels
 - preservation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Elementary Substructures and Preservation of Formulas

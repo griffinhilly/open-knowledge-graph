@@ -16,7 +16,7 @@ tags:
 - labor
 - exploitation
 - value
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

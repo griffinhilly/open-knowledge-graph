@@ -18,7 +18,7 @@ builds-toward:
 tags:
 - social anxiety
 - anxiety
-stage: expert
+stage: advanced
 status: validated
 ---
 # Social Anxiety Disorder

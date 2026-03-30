@@ -19,7 +19,7 @@ tags:
 - t-cell
 - activation
 - signaling
-stage: expert
+stage: advanced
 status: validated
 ---
 

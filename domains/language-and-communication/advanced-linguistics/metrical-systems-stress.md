@@ -12,7 +12,7 @@ tags:
 - stress
 - meter
 - prosody
-stage: expert
+stage: advanced
 status: validated
 ---
 

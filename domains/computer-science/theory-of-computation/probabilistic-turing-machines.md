@@ -18,7 +18,7 @@ builds-toward:
 tags:
 - randomization
 - probabilistic-computation
-stage: advanced
+stage: expert
 status: validated
 ---
 # Probabilistic Turing Machines

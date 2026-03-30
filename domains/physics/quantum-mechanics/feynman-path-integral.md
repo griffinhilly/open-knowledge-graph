@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - feynman-diagrams
 - path-integrals
-stage: advanced
+stage: expert
 status: validated
 ---
 

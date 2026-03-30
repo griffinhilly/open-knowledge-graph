@@ -17,7 +17,7 @@ builds-toward:
 tags:
 - inequality
 - measurement
-stage: expert
+stage: advanced
 status: validated
 ---
 # Measuring and Understanding Income Inequality

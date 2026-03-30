@@ -19,7 +19,7 @@ tags:
 - scientific-history
 - wie-es-eigentlich-gewesen
 - 19th-century
-stage: expert
+stage: advanced
 status: validated
 ---
 # Leopold Ranke and Scientific History

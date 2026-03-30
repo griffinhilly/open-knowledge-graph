@@ -16,7 +16,7 @@ tags:
 - graph-theory
 - planar-graphs
 - coloring
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # The Four Color Theorem

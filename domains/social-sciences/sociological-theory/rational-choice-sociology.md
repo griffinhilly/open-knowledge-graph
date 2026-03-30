@@ -17,7 +17,7 @@ tags:
 - economics
 - utility
 - self-interest
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

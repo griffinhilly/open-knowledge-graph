@@ -12,7 +12,7 @@ tags:
 - big history
 - universal
 - synthesis
-stage: expert
+stage: advanced
 status: validated
 ---
 

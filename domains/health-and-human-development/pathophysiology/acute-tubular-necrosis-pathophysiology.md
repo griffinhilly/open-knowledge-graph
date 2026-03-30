@@ -13,7 +13,7 @@ tags:
 - atn
 - acute-kidney-injury
 - tubular-damage
-stage: expert
+stage: advanced
 status: validated
 ---
 

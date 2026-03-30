@@ -26,7 +26,7 @@ tags:
 - structure-preserving maps
 - covariant
 - contravariant
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - conduction-velocity
 - myelin
-stage: expert
+stage: advanced
 status: validated
 ---
 # Saltatory Conduction in Myelinated Axons

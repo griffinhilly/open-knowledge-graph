@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - fertility
 - demographic
-stage: expert
+stage: advanced
 status: validated
 ---
 

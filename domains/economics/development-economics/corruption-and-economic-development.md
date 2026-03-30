@@ -17,7 +17,7 @@ tags:
 - institutions
 - governance
 - incentives
-stage: expert
+stage: advanced
 status: validated
 ---
 # Corruption as a Drag on Development

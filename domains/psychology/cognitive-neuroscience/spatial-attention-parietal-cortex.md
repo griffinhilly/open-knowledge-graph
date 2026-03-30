@@ -18,7 +18,7 @@ tags:
 - IPS
 - neglect
 - awareness
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - inflammation
 - proliferation
 - remodeling
-stage: expert
+stage: advanced
 status: validated
 ---
 # Tissue Repair and Wound Healing Phases

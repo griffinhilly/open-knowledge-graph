@@ -21,7 +21,7 @@ tags:
 - inverse
 - equivalence
 - structure
-stage: expert
+stage: advanced
 status: validated
 ---
 # Isomorphisms in Categories

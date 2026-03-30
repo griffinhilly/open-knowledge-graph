@@ -15,7 +15,7 @@ tags:
 - opposite category
 - co-constructions
 - arrow reversal
-stage: expert
+stage: advanced
 status: validated
 ---
 

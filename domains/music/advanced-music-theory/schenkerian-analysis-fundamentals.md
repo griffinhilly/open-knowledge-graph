@@ -16,7 +16,7 @@ tags:
 - schenkerian
 - structure
 - reduction
-stage: expert
+stage: advanced
 status: validated
 ---
 

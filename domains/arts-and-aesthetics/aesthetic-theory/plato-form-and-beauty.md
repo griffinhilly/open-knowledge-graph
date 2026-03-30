@@ -15,7 +15,7 @@ tags:
 - form
 - ideal
 - beauty
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - laws
 - nature
 - necessity
-stage: expert
+stage: advanced
 status: validated
 ---
 

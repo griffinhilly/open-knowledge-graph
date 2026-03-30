@@ -14,7 +14,7 @@ tags:
 - workflow
 - project-management
 - documentation
-stage: expert
+stage: advanced
 status: validated
 ---
 

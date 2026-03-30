@@ -14,7 +14,7 @@ tags:
 - linear-phase
 - distortion
 - group-delay
-stage: expert
+stage: advanced
 status: validated
 ---
 

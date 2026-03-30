@@ -18,7 +18,7 @@ tags:
 - LH
 - RH
 - aphasia
-stage: expert
+stage: advanced
 status: validated
 ---
 

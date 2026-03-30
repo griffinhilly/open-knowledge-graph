@@ -10,7 +10,7 @@ tags:
 - modulation
 - communications
 - signal-transmission
-stage: expert
+stage: advanced
 status: validated
 ---
 

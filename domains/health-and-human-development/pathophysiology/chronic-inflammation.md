@@ -18,7 +18,7 @@ tags:
 - inflammation
 - chronic-disease
 - fibrosis
-stage: expert
+stage: advanced
 status: validated
 ---
 # Chronic Inflammation

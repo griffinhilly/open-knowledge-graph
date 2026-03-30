@@ -10,7 +10,7 @@ tags:
 - norm
 - algebraic-number-fields
 - number-theory
-stage: advanced
+stage: expert
 status: validated
 ---
 

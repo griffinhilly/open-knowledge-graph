@@ -13,7 +13,7 @@ tags:
 - observation
 - theory-ladenness
 - interpretation
-stage: expert
+stage: advanced
 status: validated
 ---
 

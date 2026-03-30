@@ -18,7 +18,7 @@ tags:
 - time-domain
 - specifications
 - metrics
-stage: expert
+stage: advanced
 status: validated
 ---
 # Time-Domain Performance Metrics and Specifications

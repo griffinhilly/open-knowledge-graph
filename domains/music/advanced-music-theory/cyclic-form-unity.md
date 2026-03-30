@@ -15,7 +15,7 @@ tags:
 - cyclic
 - unity
 - romantic
-stage: expert
+stage: advanced
 status: validated
 ---
 

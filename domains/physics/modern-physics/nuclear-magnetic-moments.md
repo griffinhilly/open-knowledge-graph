@@ -19,7 +19,7 @@ builds-toward:
 tags:
 - nuclear-physics
 - atomic-physics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Nuclear Magnetic Moments and Hyperfine Structure

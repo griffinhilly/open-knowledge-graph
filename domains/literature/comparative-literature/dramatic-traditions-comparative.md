@@ -20,7 +20,7 @@ tags:
 - theatre
 - traditions
 - form
-stage: expert
+stage: advanced
 status: validated
 ---
 # Dramatic Traditions in Comparative Perspective

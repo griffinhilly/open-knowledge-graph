@@ -15,7 +15,7 @@ tags:
 - mhc
 - antigen-presentation
 - hla
-stage: expert
+stage: advanced
 status: validated
 ---
 

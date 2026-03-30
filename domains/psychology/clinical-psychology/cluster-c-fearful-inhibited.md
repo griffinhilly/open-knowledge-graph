@@ -16,7 +16,7 @@ tags:
 - avoidant
 - dependent
 - obsessive-compulsive
-stage: expert
+stage: advanced
 status: validated
 ---
 # Cluster C Personality Disorders: Fearful and Inhibited

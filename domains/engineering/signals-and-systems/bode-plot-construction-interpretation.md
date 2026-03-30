@@ -13,7 +13,7 @@ tags:
 - bode-plot
 - frequency-response
 - graphical-analysis
-stage: expert
+stage: advanced
 status: validated
 ---
 

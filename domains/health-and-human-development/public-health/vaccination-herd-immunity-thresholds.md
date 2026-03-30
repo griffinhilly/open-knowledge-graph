@@ -17,7 +17,7 @@ tags:
 - vaccination
 - herd-immunity
 - immunization
-stage: expert
+stage: advanced
 status: validated
 ---
 # Vaccination Coverage and Herd Immunity Thresholds

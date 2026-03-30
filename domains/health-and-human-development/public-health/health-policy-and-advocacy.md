@@ -28,7 +28,7 @@ tags:
 - advocacy
 - stakeholders
 - implementation-science
-stage: expert
+stage: advanced
 status: validated
 ---
 # Health Policy Development and Advocacy

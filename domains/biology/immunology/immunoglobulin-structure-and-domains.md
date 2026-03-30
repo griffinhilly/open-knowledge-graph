@@ -15,7 +15,7 @@ tags:
 - immunoglobulin
 - antibody-structure
 - domains
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - causal
 - design
 - randomization
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

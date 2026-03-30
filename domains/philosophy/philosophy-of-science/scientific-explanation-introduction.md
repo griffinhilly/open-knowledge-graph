@@ -17,7 +17,7 @@ tags:
 - explanation
 - causation
 - understanding
-stage: expert
+stage: advanced
 status: validated
 ---
 

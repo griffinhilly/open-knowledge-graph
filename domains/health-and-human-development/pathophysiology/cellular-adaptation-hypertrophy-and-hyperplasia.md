@@ -16,7 +16,7 @@ tags:
 - cellular-response
 - hypertrophy
 - hyperplasia
-stage: expert
+stage: advanced
 status: validated
 ---
 # Cellular Adaptation: Hypertrophy and Hyperplasia

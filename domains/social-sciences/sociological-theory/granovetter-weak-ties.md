@@ -11,7 +11,7 @@ tags:
 - weak-ties
 - social-capital
 - network
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

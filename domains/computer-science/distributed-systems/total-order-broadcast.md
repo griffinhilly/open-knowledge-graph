@@ -15,7 +15,7 @@ tags:
 - ordering
 - consensus
 - replication
-stage: advanced
+stage: expert
 status: validated
 ---
 

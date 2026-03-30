@@ -17,7 +17,7 @@ tags:
 - outbreak
 - epidemiology
 - case-investigation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Epidemic Curves and Outbreak Dynamics

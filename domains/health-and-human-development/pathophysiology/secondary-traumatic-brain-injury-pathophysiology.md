@@ -17,7 +17,7 @@ tags:
 - secondary-injury
 - edema
 - neuroinflammation
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - mood
 - anhedonia
 - major
-stage: expert
+stage: advanced
 status: validated
 ---
 # Major Depressive Disorder (MDD)

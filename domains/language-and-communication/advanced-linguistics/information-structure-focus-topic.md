@@ -12,7 +12,7 @@ tags:
 - pragmatics
 - information-structure
 - discourse
-stage: expert
+stage: advanced
 status: validated
 ---
 

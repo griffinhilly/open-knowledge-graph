@@ -19,7 +19,7 @@ tags:
 - GALT
 - lymphoid-organs
 - tissue-organization
-stage: expert
+stage: advanced
 status: validated
 ---
 

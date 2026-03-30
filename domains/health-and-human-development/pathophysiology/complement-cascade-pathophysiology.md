@@ -19,7 +19,7 @@ tags:
 - c5
 - anaphylatoxins
 - inflammation
-stage: expert
+stage: advanced
 status: validated
 ---
 

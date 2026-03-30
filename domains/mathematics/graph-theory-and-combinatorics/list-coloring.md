@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - graph-theory
 - coloring
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # List Coloring and Choosability

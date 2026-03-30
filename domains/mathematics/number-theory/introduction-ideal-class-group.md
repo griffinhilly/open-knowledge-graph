@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - ideal-class-group
 - algebraic-number-theory
-stage: advanced
+stage: expert
 status: validated
 ---
 

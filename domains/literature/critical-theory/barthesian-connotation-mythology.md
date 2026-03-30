@@ -18,7 +18,7 @@ tags:
 - connotation
 - myth
 - semiotics
-stage: expert
+stage: advanced
 status: validated
 ---
 

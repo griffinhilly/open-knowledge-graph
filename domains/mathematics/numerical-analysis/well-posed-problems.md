@@ -10,7 +10,7 @@ tags:
 - well-posed
 - hadamard
 - existence-uniqueness
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - ostranenie
 - device
 - form
-stage: expert
+stage: advanced
 status: validated
 ---
 # Formalist Defamiliarization (Ostranenie) and Literary Device

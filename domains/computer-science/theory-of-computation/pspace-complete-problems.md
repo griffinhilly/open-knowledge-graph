@@ -12,7 +12,7 @@ tags:
 - hardness
 - completeness
 - quantified-formulas
-stage: advanced
+stage: expert
 status: validated
 ---
 

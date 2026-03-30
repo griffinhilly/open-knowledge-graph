@@ -18,7 +18,7 @@ tags:
 - vasodilation
 - permeability
 - thrombosis
-stage: expert
+stage: advanced
 status: validated
 ---
 

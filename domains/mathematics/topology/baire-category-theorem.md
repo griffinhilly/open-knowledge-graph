@@ -14,7 +14,7 @@ tags:
 - baire-category
 - meager-sets
 - comeager
-stage: advanced
+stage: expert
 status: validated
 ---
 

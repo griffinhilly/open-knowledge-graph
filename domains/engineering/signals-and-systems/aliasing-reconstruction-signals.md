@@ -14,7 +14,7 @@ tags:
 - aliasing
 - anti-aliasing
 - reconstruction
-stage: expert
+stage: advanced
 status: validated
 ---
 # Aliasing, Anti-Aliasing Filters, and Signal Reconstruction

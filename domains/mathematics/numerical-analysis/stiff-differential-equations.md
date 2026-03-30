@@ -10,7 +10,7 @@ tags:
 - stiff-differential-equations
 - stability-region
 - implicit-methods
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

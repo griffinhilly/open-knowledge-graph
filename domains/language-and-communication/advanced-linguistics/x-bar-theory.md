@@ -15,7 +15,7 @@ tags:
 - syntax
 - generative
 - phrase-structure
-stage: expert
+stage: advanced
 status: validated
 ---
 

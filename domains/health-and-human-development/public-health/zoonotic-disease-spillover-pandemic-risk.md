@@ -15,7 +15,7 @@ tags:
 - zoonotic-disease
 - spillover
 - pandemic-preparedness
-stage: expert
+stage: advanced
 status: validated
 ---
 

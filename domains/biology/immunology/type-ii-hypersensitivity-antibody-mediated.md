@@ -12,7 +12,7 @@ tags:
 - hypersensitivity
 - type-ii
 - cytotoxic
-stage: expert
+stage: advanced
 status: validated
 ---
 

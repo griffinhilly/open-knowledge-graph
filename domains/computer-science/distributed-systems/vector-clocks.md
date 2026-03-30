@@ -13,7 +13,7 @@ tags:
 - vector-clocks
 - causality
 - ordering
-stage: advanced
+stage: expert
 status: validated
 ---
 

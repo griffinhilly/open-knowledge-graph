@@ -15,7 +15,7 @@ tags:
 - covering-spaces
 - deck-transformations
 - universal-covers
-stage: advanced
+stage: expert
 status: validated
 ---
 

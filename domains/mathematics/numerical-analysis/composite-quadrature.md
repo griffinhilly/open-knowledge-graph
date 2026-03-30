@@ -13,7 +13,7 @@ tags:
 - composite-quadrature
 - integration
 - error-control
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

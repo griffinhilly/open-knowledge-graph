@@ -12,7 +12,7 @@ tags:
 - zero-shot
 - semantic-attributes
 - transfer
-stage: advanced
+stage: expert
 status: validated
 ---
 

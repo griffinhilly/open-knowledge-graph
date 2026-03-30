@@ -18,7 +18,7 @@ tags:
 - cooperation
 - wto
 - protectionism
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # International Trade and Cooperation

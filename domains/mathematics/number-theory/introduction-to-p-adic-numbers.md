@@ -12,7 +12,7 @@ tags:
 - p-adic
 - completion
 - metric-spaces
-stage: advanced
+stage: expert
 status: validated
 ---
 

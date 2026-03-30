@@ -14,7 +14,7 @@ tags:
 - reliability
 - construct
 - operationalization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

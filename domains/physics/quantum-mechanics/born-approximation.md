@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - born-approximation
 - scattering
-stage: advanced
+stage: expert
 status: validated
 ---
 

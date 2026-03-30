@@ -14,7 +14,7 @@ tags:
 - ethics
 - aesthetics
 - interdisciplinary
-stage: expert
+stage: advanced
 status: validated
 ---
 

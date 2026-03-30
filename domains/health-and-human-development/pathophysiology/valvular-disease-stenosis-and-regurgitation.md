@@ -15,7 +15,7 @@ tags:
 - stenosis
 - regurgitation
 - hemodynamics
-stage: expert
+stage: advanced
 status: validated
 ---
 

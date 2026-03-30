@@ -15,7 +15,7 @@ tags:
 - emotion
 - content
 - artist
-stage: expert
+stage: advanced
 status: validated
 ---
 

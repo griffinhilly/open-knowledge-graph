@@ -10,7 +10,7 @@ tags:
 - menger-theorem
 - connectivity
 - paths
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - test-equivalence
 - parallel-forms
 - classical-test-theory
-stage: expert
+stage: advanced
 status: validated
 ---
 

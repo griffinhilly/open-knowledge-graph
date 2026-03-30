@@ -14,7 +14,7 @@ tags:
 - language-change
 - grammaticalization
 - diachrony
-stage: expert
+stage: advanced
 status: validated
 ---
 # Grammaticalization and Semantic Bleaching

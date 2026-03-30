@@ -15,7 +15,7 @@ tags:
 - decibel
 - logarithmic-frequency
 - asymptotic-approximation
-stage: expert
+stage: advanced
 status: validated
 ---
 

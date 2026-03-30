@@ -18,7 +18,7 @@ tags:
 - magnitude
 - phase
 - jω
-stage: expert
+stage: advanced
 status: validated
 ---
 

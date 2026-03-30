@@ -13,7 +13,7 @@ tags:
 - alpha
 - internal-consistency
 - reliability-coefficient
-stage: expert
+stage: advanced
 status: validated
 ---
 

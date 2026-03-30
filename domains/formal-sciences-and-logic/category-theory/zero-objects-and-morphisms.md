@@ -15,7 +15,7 @@ tags:
 - special-objects
 - morphisms
 - algebraic-structure
-stage: expert
+stage: advanced
 status: validated
 ---
 

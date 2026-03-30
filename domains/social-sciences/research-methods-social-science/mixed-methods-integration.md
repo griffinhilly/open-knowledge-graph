@@ -15,7 +15,7 @@ tags:
 - integration
 - triangulation
 - sequential-concurrent
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

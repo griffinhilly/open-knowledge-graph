@@ -18,7 +18,7 @@ tags:
 - system
 - code
 - underlying-structure
-stage: expert
+stage: advanced
 status: validated
 ---
 # Structuralist Deep Structure and Underlying Systems

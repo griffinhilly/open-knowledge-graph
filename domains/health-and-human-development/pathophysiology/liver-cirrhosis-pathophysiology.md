@@ -18,7 +18,7 @@ tags:
 - cirrhosis
 - liver-disease
 - portal-hypertension
-stage: expert
+stage: advanced
 status: validated
 ---
 

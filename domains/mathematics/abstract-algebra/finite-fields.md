@@ -13,7 +13,7 @@ tags:
 - Fq
 - GF
 - frobenius
-stage: advanced
+stage: expert
 status: validated
 ---
 

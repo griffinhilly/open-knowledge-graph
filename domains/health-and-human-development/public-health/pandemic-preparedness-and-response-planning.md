@@ -12,7 +12,7 @@ tags:
 - pandemic
 - preparedness
 - emergency-response
-stage: expert
+stage: advanced
 status: validated
 ---
 

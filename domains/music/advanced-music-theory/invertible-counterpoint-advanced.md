@@ -15,7 +15,7 @@ tags:
 - inversion
 - advanced
 - voice-exchange
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -22,7 +22,7 @@ tags:
 - percent-overshoot
 - settling-time
 - second-order
-stage: expert
+stage: advanced
 status: validated
 ---
 # Second-Order System Time Response

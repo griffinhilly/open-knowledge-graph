@@ -16,7 +16,7 @@ tags:
 - raft
 - consensus
 - leader-based
-stage: advanced
+stage: expert
 status: validated
 ---
 # Raft Consensus Algorithm

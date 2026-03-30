@@ -14,7 +14,7 @@ tags:
 - magnitude
 - phase
 - frequency-domain
-stage: expert
+stage: advanced
 status: validated
 ---
 

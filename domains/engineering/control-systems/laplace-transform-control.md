@@ -23,7 +23,7 @@ tags:
 - transform
 - partial-fractions
 - final-value-theorem
-stage: expert
+stage: advanced
 status: validated
 ---
 

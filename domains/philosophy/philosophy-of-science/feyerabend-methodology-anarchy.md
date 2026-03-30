@@ -16,7 +16,7 @@ tags:
 - anarchism
 - methodology
 - pluralism
-stage: expert
+stage: advanced
 status: validated
 ---
 

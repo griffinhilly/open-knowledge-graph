@@ -13,7 +13,7 @@ tags:
 - tempo
 - modulation
 - analysis
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - bretton-woods
 - exchange-rates
 - coordination
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

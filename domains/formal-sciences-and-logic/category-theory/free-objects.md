@@ -21,7 +21,7 @@ tags:
 - universal property
 - left adjoint
 - forgetful functor
-stage: expert
+stage: advanced
 status: validated
 ---
 # Free Objects

@@ -19,7 +19,7 @@ tags:
 - pastiche
 - parody
 - irony
-stage: expert
+stage: advanced
 status: validated
 ---
 # Postmodern Aesthetics and Critique of Grand Narratives

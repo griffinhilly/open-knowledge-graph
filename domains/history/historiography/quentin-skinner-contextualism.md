@@ -15,7 +15,7 @@ tags:
 - contextualism
 - linguistic-turn
 - political-theory
-stage: expert
+stage: advanced
 status: validated
 ---
 

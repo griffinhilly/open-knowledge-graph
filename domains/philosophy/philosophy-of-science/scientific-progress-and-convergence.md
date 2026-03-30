@@ -14,7 +14,7 @@ tags:
 - progress
 - convergence
 - truth
-stage: expert
+stage: advanced
 status: validated
 ---
 

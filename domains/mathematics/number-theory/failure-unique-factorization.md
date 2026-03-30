@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - unique-factorization-failure
 - algebraic-number-theory
-stage: advanced
+stage: expert
 status: validated
 ---
 # Failure of Unique Factorization

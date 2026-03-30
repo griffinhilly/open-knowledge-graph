@@ -15,7 +15,7 @@ tags:
 - self-awareness
 - interaction
 - development
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

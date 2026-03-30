@@ -15,7 +15,7 @@ tags:
 - kaplan-meier
 - censoring
 - time-to-event
-stage: expert
+stage: advanced
 status: validated
 ---
 

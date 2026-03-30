@@ -16,7 +16,7 @@ tags:
 - tool
 - prediction
 - pragmatism
-stage: expert
+stage: advanced
 status: validated
 ---
 # Instrumentalism

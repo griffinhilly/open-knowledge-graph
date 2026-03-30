@@ -13,7 +13,7 @@ tags:
 - epistemology
 - social-construction
 - science-studies
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - allergy
 - ige
 - mast-cell
-stage: expert
+stage: advanced
 status: validated
 ---
 # Type I Hypersensitivity: Allergic Reactions and IgE

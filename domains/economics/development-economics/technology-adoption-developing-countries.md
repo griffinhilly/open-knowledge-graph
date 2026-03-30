@@ -15,7 +15,7 @@ tags:
 - innovation
 - diffusion
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 

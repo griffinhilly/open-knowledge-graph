@@ -15,7 +15,7 @@ tags:
 - definition of art
 - context
 - convention
-stage: expert
+stage: advanced
 status: validated
 ---
 

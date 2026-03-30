@@ -15,7 +15,7 @@ tags:
 - culture-industry
 - standardization
 - critique
-stage: expert
+stage: advanced
 status: validated
 ---
 # Adorno: The Culture Industry and Standardized Art

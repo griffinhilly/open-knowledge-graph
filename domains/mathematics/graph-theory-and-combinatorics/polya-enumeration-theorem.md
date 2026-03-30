@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - enumeration
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

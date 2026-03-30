@@ -12,7 +12,7 @@ tags:
 - gaussian-quadrature
 - optimal
 - integration
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

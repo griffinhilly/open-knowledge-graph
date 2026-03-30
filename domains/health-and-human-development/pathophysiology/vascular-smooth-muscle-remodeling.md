@@ -16,7 +16,7 @@ tags:
 - smooth-muscle
 - stiffness
 - hypertension
-stage: expert
+stage: advanced
 status: validated
 ---
 

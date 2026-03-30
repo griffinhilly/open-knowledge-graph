@@ -12,7 +12,7 @@ tags:
 - landscape
 - ecology
 - sustainability
-stage: expert
+stage: advanced
 status: validated
 ---
 

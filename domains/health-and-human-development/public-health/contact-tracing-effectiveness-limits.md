@@ -15,7 +15,7 @@ tags:
 - contact-tracing
 - outbreak-control
 - prevention
-stage: expert
+stage: advanced
 status: validated
 ---
 

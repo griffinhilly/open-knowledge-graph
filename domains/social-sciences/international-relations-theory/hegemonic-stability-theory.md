@@ -17,7 +17,7 @@ tags:
 - stability
 - order
 - decline
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Hegemonic Stability and Long-Term Order

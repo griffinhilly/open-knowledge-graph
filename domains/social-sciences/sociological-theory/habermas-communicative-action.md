@@ -11,7 +11,7 @@ tags:
 - communicative-action
 - public-sphere
 - deliberation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

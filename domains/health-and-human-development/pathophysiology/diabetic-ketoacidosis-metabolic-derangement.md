@@ -17,7 +17,7 @@ tags:
 - ketosis
 - acidosis
 - lipolysis
-stage: expert
+stage: advanced
 status: validated
 ---
 

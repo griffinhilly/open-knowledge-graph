@@ -17,7 +17,7 @@ tags:
 - embodied-reading
 - experience
 - consciousness
-stage: expert
+stage: advanced
 status: validated
 ---
 # Phenomenology and Literary Reading

@@ -14,7 +14,7 @@ tags:
 - vision
 - perception
 - object-recognition
-stage: expert
+stage: advanced
 status: validated
 ---
 

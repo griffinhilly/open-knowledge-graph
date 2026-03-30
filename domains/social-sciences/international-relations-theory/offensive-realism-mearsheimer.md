@@ -18,7 +18,7 @@ tags:
 - great-power
 - hegemony
 - conflict
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Offensive Realism and Great Power Competition

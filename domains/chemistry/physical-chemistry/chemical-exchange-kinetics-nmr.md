@@ -13,7 +13,7 @@ tags:
 - kinetics
 - exchange
 - rate-constants
-stage: advanced
+stage: expert
 status: validated
 ---
 

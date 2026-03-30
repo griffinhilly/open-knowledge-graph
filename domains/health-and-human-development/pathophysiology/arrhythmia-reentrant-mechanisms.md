@@ -18,7 +18,7 @@ tags:
 - reentry
 - automaticity
 - triggered-activity
-stage: expert
+stage: advanced
 status: validated
 ---
 # Cardiac Arrhythmias: Reentry, Automaticity, and Triggered Activity

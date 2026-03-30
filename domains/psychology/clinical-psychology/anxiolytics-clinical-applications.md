@@ -10,7 +10,7 @@ tags:
 - anxiolytic
 - benzodiazepine
 - treatment
-stage: expert
+stage: advanced
 status: validated
 ---
 

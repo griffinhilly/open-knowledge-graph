@@ -14,7 +14,7 @@ tags:
 - cardiac-adaptation
 - hypertrophy
 - ventricular-remodeling
-stage: expert
+stage: advanced
 status: validated
 ---
 

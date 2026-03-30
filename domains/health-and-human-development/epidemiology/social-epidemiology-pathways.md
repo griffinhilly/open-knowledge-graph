@@ -11,7 +11,7 @@ tags:
 - health-inequities
 - social-epidemiology
 - mechanisms
-stage: expert
+stage: advanced
 status: validated
 ---
 

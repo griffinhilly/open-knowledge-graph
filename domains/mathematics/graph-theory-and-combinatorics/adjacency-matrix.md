@@ -15,7 +15,7 @@ tags:
 - algebraic-graph-theory
 - matrices
 - spectrum
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

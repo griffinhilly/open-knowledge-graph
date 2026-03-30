@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - degree-sequences
 - extremal
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Erdős-Gallai Theorem

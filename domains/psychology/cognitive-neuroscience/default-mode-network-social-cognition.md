@@ -17,7 +17,7 @@ tags:
 - self-reference
 - mentalizing
 - resting-state
-stage: expert
+stage: advanced
 status: validated
 ---
 

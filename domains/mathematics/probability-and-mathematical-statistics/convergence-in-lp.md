@@ -14,7 +14,7 @@ tags:
 - convergence
 - lp-spaces
 - functional-analysis
-stage: advanced
+stage: expert
 status: validated
 ---
 

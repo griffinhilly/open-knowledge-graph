@@ -15,7 +15,7 @@ tags:
 - annales
 - french history
 - methodology
-stage: expert
+stage: advanced
 status: validated
 ---
 

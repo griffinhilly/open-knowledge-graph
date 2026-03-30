@@ -17,7 +17,7 @@ tags:
 - hybridity
 - mestiza
 - consciousness
-stage: expert
+stage: advanced
 status: validated
 ---
 

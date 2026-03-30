@@ -14,7 +14,7 @@ tags:
 - inequality
 - kuznets
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 # The Kuznets Curve and Development Inequality

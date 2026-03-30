@@ -17,7 +17,7 @@ tags:
 - Buell
 - posthumanism
 - anthropocentrism
-stage: expert
+stage: advanced
 status: validated
 ---
 

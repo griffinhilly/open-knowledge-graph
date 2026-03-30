@@ -13,7 +13,7 @@ tags:
 - space
 - place
 - literary-locations
-stage: expert
+stage: advanced
 status: validated
 ---
 

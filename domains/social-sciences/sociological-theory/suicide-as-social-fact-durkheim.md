@@ -17,7 +17,7 @@ tags:
 - social-facts
 - empirical-research
 - integration
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Suicide as a Social Fact: Durkheim's Empirical Study

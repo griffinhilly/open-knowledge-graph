@@ -12,7 +12,7 @@ tags:
 - technology
 - leapfrogging
 - mobile
-stage: expert
+stage: advanced
 status: validated
 ---
 # Mobile Technology and Leapfrogging

@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - partial-waves
 - angular-momentum
-stage: advanced
+stage: expert
 status: validated
 ---
 

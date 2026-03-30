@@ -15,7 +15,7 @@ tags:
 - myelin
 - myelination
 - conduction-velocity
-stage: expert
+stage: advanced
 status: validated
 ---
 

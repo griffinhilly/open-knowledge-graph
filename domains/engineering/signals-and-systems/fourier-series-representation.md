@@ -21,7 +21,7 @@ tags:
 - fourier-series
 - periodic-signals
 - frequency-domain
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - matching
 - vertex-cover
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # König's Theorem and Matching-Cover Duality

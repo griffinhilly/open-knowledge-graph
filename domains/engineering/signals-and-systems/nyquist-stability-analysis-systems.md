@@ -12,7 +12,7 @@ tags:
 - nyquist-criterion
 - stability
 - feedback-systems
-stage: expert
+stage: advanced
 status: validated
 ---
 

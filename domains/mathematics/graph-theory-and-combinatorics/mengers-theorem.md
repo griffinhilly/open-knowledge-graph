@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - connectivity
 - paths
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

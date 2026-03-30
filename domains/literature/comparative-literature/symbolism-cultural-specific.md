@@ -17,7 +17,7 @@ tags:
 - meaning
 - culture
 - aesthetics
-stage: expert
+stage: advanced
 status: validated
 ---
 

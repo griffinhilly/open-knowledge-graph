@@ -20,7 +20,7 @@ tags:
 - network-analysis
 - centrality
 - structural-holes
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

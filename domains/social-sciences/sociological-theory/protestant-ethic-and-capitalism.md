@@ -13,7 +13,7 @@ tags:
 - religion
 - capitalism
 - ethics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - dominant-poles
 - angle-condition
 - design-specs
-stage: expert
+stage: advanced
 status: validated
 ---
 # Controller Design via Root Locus

@@ -20,7 +20,7 @@ tags:
 - covering-law
 - laws
 - phenomena
-stage: expert
+stage: advanced
 status: validated
 ---
 

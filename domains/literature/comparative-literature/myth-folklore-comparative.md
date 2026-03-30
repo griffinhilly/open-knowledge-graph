@@ -15,7 +15,7 @@ tags:
 - folklore
 - comparative
 - culture
-stage: expert
+stage: advanced
 status: validated
 ---
 

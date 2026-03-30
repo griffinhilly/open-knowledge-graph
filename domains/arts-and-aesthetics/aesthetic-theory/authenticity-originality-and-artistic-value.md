@@ -14,7 +14,7 @@ tags:
 - value
 - appropriation
 - reproduction
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -19,7 +19,7 @@ builds-toward:
 tags:
 - graph-theory
 - extremal
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Turán's Theorem and Extremal Graph Theory

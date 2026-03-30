@@ -12,7 +12,7 @@ tags:
 - cancellation
 - subtraction
 - error-amplification
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

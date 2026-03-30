@@ -12,7 +12,7 @@ tags:
 - downsampling
 - anti-aliasing
 - multirate
-stage: expert
+stage: advanced
 status: validated
 ---
 # Decimation, Anti-Aliasing, and Downsampling

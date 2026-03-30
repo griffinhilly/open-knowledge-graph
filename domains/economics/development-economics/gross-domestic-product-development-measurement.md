@@ -12,7 +12,7 @@ tags:
 - measurement
 - GDP
 - developing-economies
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -23,7 +23,7 @@ tags:
 - characteristic-equation
 - sign-changes
 - hurwitz
-stage: expert
+stage: advanced
 status: validated
 ---
 # Routh-Hurwitz Stability Criterion

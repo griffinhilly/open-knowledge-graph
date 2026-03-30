@@ -14,7 +14,7 @@ tags:
 - leakage
 - windowing
 - trade-offs
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - great-power-conflict
 - organski
 - status-quo
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - infection-control
 - epidemiology
 - intervention
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - machine-epsilon
 - precision
 - floating-point
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Machine Epsilon and Unit Roundoff

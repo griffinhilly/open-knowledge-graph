@@ -15,7 +15,7 @@ tags:
 - occupational-health
 - prevention
 - hazard-control
-stage: expert
+stage: advanced
 status: validated
 ---
 

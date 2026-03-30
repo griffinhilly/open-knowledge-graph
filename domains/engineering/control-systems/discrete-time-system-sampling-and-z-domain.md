@@ -18,7 +18,7 @@ tags:
 - discrete-time
 - aliasing
 - sampler-hold
-stage: expert
+stage: advanced
 status: validated
 ---
 # Discrete-Time Systems: Sampling and z-Domain Analysis

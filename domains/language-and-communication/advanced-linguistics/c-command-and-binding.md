@@ -12,7 +12,7 @@ tags:
 - syntax
 - binding
 - anaphora
-stage: expert
+stage: advanced
 status: validated
 ---
 

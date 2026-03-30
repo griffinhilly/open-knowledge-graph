@@ -15,7 +15,7 @@ tags:
 - sovereignty
 - humanitarian-intervention
 - justice
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Human Rights Norms and Sovereignty Challenges

@@ -12,7 +12,7 @@ tags:
 - chebyshev
 - optimal-nodes
 - interpolation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

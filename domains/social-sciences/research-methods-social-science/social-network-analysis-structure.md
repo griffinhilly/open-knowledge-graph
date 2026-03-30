@@ -23,7 +23,7 @@ tags:
 - centrality
 - clustering
 - social-capital
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Social Network Analysis

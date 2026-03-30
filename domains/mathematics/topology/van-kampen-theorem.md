@@ -18,7 +18,7 @@ tags:
 - van-kampen
 - fundamental-group
 - amalgamated-product
-stage: advanced
+stage: expert
 status: validated
 ---
 # van Kampen's Theorem

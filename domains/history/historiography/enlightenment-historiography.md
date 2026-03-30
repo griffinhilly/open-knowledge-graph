@@ -16,7 +16,7 @@ tags:
 - 18th-century
 - reason
 - narrative
-stage: expert
+stage: advanced
 status: validated
 ---
 

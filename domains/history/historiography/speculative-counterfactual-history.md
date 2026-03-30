@@ -15,7 +15,7 @@ tags:
 - counterfactual
 - alternative
 - possibility
-stage: expert
+stage: advanced
 status: validated
 ---
 # Speculative and Counterfactual History

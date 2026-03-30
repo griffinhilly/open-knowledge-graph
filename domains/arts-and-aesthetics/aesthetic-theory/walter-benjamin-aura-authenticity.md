@@ -15,7 +15,7 @@ tags:
 - aura
 - authenticity
 - presence
-stage: expert
+stage: advanced
 status: validated
 ---
 

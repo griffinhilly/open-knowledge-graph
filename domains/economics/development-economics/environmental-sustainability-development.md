@@ -15,7 +15,7 @@ tags:
 - climate
 - natural capital
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 # Environmental Sustainability and Development

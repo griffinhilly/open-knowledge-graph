@@ -14,7 +14,7 @@ tags:
 - treatment
 - safety
 - empowerment
-stage: expert
+stage: advanced
 status: validated
 ---
 

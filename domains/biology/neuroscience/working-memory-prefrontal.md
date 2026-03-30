@@ -15,7 +15,7 @@ tags:
 - working-memory
 - prefrontal-cortex
 - maintenance
-stage: expert
+stage: advanced
 status: validated
 ---
 

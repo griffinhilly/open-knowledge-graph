@@ -12,7 +12,7 @@ tags:
 - percentiles
 - score-conversion
 - interpretation
-stage: expert
+stage: advanced
 status: validated
 ---
 

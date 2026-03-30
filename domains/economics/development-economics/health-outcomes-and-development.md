@@ -20,7 +20,7 @@ tags:
 - mortality
 - productivity
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 # Health, Nutrition, and Economic Development

@@ -15,7 +15,7 @@ tags:
 - form
 - global
 - oral-literature
-stage: expert
+stage: advanced
 status: validated
 ---
 

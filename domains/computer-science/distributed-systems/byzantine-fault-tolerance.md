@@ -15,7 +15,7 @@ tags:
 - byzantine-faults
 - fault-tolerance
 - pbft
-stage: advanced
+stage: expert
 status: validated
 ---
 

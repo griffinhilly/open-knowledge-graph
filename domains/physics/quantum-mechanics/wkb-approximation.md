@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - wkb
 - semiclassical
-stage: advanced
+stage: expert
 status: validated
 ---
 # The WKB Approximation

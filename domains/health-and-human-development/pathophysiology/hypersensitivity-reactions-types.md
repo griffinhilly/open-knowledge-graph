@@ -17,7 +17,7 @@ tags:
 - hypersensitivity
 - immune-reaction
 - allergy
-stage: expert
+stage: advanced
 status: validated
 ---
 

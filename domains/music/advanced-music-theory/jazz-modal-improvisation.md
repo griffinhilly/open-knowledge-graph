@@ -17,7 +17,7 @@ tags:
 - jazz
 - improvisation
 - modal
-stage: expert
+stage: advanced
 status: validated
 ---
 # Jazz Modal Improvisation

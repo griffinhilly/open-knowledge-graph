@@ -12,7 +12,7 @@ tags:
 - typology
 - alignment
 - morphosyntax
-stage: expert
+stage: advanced
 status: validated
 ---
 

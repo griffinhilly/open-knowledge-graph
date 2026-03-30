@@ -14,7 +14,7 @@ tags:
 - FDI
 - capital-flows
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 

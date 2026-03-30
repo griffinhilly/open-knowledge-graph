@@ -14,7 +14,7 @@ tags:
 - morphology
 - allomorphy
 - phonology
-stage: expert
+stage: advanced
 status: validated
 ---
 # Allomorphy and Morphophonological Processes

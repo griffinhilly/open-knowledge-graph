@@ -14,7 +14,7 @@ tags:
 - surveillance-methods
 - data-quality
 - case-reporting
-stage: expert
+stage: advanced
 status: validated
 ---
 

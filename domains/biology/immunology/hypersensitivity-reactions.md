@@ -16,7 +16,7 @@ tags:
 - pathology
 - hypersensitivity
 - adverse-reactions
-stage: expert
+stage: advanced
 status: validated
 ---
 # Hypersensitivity Reactions (Types I–IV)

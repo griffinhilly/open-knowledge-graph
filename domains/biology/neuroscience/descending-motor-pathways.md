@@ -11,7 +11,7 @@ tags:
 - motor-pathways
 - spinal-cord
 - movement
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

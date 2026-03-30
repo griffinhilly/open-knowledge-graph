@@ -14,7 +14,7 @@ tags:
 - signals
 - foundations
 - classification
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # Signal Classification: Continuous vs. Discrete Time

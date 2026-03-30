@@ -13,7 +13,7 @@ tags:
 - functors
 - categorical-structure
 - composition
-stage: expert
+stage: advanced
 status: validated
 ---
 

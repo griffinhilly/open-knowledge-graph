@@ -14,7 +14,7 @@ tags:
 - electric-field
 - energy-levels
 - atomic-physics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Stark Effect: Energy Level Splitting in Electric Fields

@@ -17,7 +17,7 @@ tags:
 - zeros
 - stability
 - dynamics
-stage: expert
+stage: advanced
 status: validated
 ---
 

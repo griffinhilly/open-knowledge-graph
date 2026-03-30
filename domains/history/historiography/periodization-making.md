@@ -17,7 +17,7 @@ tags:
 - periodization
 - classification
 - methodology
-stage: expert
+stage: advanced
 status: validated
 ---
 # The Making and Debate of Historical Periods

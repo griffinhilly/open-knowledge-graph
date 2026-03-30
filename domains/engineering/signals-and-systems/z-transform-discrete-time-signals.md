@@ -23,7 +23,7 @@ tags:
 - z-transform
 - discrete-time
 - digital-systems
-stage: expert
+stage: advanced
 status: validated
 ---
 

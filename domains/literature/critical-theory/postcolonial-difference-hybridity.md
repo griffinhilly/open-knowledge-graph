@@ -16,7 +16,7 @@ tags:
 - hybridity
 - mimicry
 - difference
-stage: expert
+stage: advanced
 status: validated
 ---
 

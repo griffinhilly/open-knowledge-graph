@@ -16,7 +16,7 @@ tags:
 - malnutrition
 - malignancy
 - immunosuppression
-stage: expert
+stage: advanced
 status: validated
 ---
 

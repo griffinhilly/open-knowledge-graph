@@ -15,7 +15,7 @@ prerequisites:
 tags:
 - metrization
 - urysohn
-stage: advanced
+stage: expert
 status: validated
 ---
 # Urysohn Metrization Theorem

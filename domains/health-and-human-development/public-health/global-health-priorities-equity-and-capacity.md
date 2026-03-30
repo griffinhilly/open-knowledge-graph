@@ -12,7 +12,7 @@ tags:
 - global-health
 - equity
 - health-systems
-stage: expert
+stage: advanced
 status: validated
 ---
 

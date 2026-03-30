@@ -18,7 +18,7 @@ tags:
 - graph-theory
 - planar-graphs
 - minors
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Wagner's Theorem

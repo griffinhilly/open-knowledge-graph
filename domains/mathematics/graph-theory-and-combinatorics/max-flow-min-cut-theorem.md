@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - flows
 - optimization
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

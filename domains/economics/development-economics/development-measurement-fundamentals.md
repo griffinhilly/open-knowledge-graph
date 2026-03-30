@@ -15,7 +15,7 @@ tags:
 - measurement
 - welfare
 - development-indicators
-stage: expert
+stage: advanced
 status: validated
 ---
 

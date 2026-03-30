@@ -14,7 +14,7 @@ tags:
 - deep history
 - timescale
 - longue durée
-stage: expert
+stage: advanced
 status: validated
 ---
 

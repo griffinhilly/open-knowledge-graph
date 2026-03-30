@@ -16,7 +16,7 @@ tags:
 - emergency-response
 - incident-command
 - outbreak
-stage: expert
+stage: advanced
 status: validated
 ---
 # Pandemic Preparedness and Emergency Response

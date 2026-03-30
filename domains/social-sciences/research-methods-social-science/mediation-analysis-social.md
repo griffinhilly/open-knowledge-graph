@@ -24,7 +24,7 @@ tags:
 - indirect-effects
 - pathways
 - causal-process
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

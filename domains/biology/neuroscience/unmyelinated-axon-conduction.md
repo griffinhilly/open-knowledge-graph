@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - conduction-velocity
 - propagation
-stage: expert
+stage: advanced
 status: validated
 ---
 

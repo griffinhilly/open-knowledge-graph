@@ -14,7 +14,7 @@ tags:
 - communication
 - accessibility
 - comprehension
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # Health Literacy and Public Health Communication

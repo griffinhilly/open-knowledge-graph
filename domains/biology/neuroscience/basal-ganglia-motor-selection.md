@@ -15,7 +15,7 @@ tags:
 - basal-ganglia
 - action-selection
 - planning
-stage: expert
+stage: advanced
 status: validated
 ---
 

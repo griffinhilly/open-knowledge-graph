@@ -13,7 +13,7 @@ tags:
 - turan-theorem
 - extremal-graphs
 - clique-free
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

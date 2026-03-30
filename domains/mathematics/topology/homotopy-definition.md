@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - homotopy
 - algebraic-topology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

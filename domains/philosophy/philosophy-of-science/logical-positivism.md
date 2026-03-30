@@ -20,7 +20,7 @@ tags:
 - logical-empiricism
 - verification
 - meaningfulness
-stage: expert
+stage: advanced
 status: validated
 ---
 # Logical Positivism

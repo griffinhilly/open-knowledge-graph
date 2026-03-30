@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - behavioral therapy
 - exposure
-stage: expert
+stage: advanced
 status: validated
 ---
 

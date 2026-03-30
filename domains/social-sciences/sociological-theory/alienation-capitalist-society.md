@@ -14,7 +14,7 @@ tags:
 - alienation
 - labor
 - capitalism
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

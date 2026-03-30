@@ -18,7 +18,7 @@ tags:
 - discourse
 - genealogy
 - knowledge
-stage: expert
+stage: advanced
 status: validated
 ---
 

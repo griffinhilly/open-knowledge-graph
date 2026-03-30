@@ -10,7 +10,7 @@ tags:
 - infinite-ramsey
 - set-theory
 - monochromatic-structures
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

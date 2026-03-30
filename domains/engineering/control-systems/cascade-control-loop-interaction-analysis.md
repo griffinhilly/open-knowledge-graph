@@ -16,7 +16,7 @@ tags:
 - outer-loop
 - disturbance-rejection
 - cascade-design
-stage: expert
+stage: advanced
 status: validated
 ---
 

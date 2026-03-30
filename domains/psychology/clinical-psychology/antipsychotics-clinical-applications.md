@@ -14,7 +14,7 @@ tags:
 - antipsychotic
 - psychopharmacology
 - dopamine
-stage: expert
+stage: advanced
 status: validated
 ---
 # Antipsychotics: Mechanisms and Clinical Application

@@ -12,7 +12,7 @@ tags:
 - extrapolation
 - acceleration
 - richardson
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Richardson Extrapolation

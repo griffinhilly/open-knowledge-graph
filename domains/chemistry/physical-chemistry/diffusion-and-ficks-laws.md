@@ -18,7 +18,7 @@ tags:
 - random-walk
 - concentration-gradient
 - Stokes-Einstein
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

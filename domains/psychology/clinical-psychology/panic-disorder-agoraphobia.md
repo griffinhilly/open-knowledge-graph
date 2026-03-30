@@ -11,7 +11,7 @@ tags:
 - agoraphobia
 - anxiety
 - interoception
-stage: expert
+stage: advanced
 status: validated
 ---
 

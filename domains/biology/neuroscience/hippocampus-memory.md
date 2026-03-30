@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - learning-memory
 - spatial-memory
-stage: expert
+stage: advanced
 status: validated
 ---
 # Hippocampus: Declarative Memory and Spatial Coding

@@ -16,7 +16,7 @@ tags:
 - inequality
 - qualitative-quantitative
 - standpoint
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

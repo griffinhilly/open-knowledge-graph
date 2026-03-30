@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - sensory-systems
 - vision
-stage: expert
+stage: advanced
 status: validated
 ---
 

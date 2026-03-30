@@ -12,7 +12,7 @@ tags:
 - ramsey-numbers
 - bounds
 - probabilistic-method
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

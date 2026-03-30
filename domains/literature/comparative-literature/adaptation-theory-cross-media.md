@@ -17,7 +17,7 @@ tags:
 - media
 - narrative
 - form
-stage: expert
+stage: advanced
 status: validated
 ---
 # Adaptation Theory and Cross-Media Transformation

@@ -13,7 +13,7 @@ tags:
 - compass
 - ruler
 - quadratic-extensions
-stage: advanced
+stage: expert
 status: validated
 ---
 

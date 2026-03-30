@@ -21,7 +21,7 @@ tags:
 - unconscious
 - desire
 - repression
-stage: expert
+stage: advanced
 status: validated
 ---
 # Psychoanalytic Literary Criticism

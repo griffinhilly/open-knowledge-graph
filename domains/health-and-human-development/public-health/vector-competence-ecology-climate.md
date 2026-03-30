@@ -15,7 +15,7 @@ tags:
 - vector-borne-disease
 - ecology
 - climate
-stage: expert
+stage: advanced
 status: validated
 ---
 

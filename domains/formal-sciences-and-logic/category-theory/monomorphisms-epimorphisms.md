@@ -13,7 +13,7 @@ tags:
 - morphisms
 - universal-properties
 - categorical-structure
-stage: expert
+stage: advanced
 status: validated
 ---
 

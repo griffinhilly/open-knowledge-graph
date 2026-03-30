@@ -16,7 +16,7 @@ tags:
 - collateral
 - development
 - borrowing
-stage: expert
+stage: advanced
 status: validated
 ---
 # Credit Constraints and Development

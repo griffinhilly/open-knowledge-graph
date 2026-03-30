@@ -16,7 +16,7 @@ tags:
 - vocabulary
 - language
 - formalization
-stage: expert
+stage: advanced
 status: validated
 ---
 

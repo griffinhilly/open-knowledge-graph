@@ -15,7 +15,7 @@ tags:
 - viral-pneumonia
 - cytotoxicity
 - immune-response
-stage: expert
+stage: advanced
 status: validated
 ---
 

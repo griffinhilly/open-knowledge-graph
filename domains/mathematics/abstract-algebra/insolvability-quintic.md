@@ -11,7 +11,7 @@ tags:
 - insolvable
 - galois-theory
 - radical-extensions
-stage: advanced
+stage: expert
 status: validated
 ---
 

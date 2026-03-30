@@ -15,7 +15,7 @@ tags:
 - coercion
 - domination
 - inequality
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

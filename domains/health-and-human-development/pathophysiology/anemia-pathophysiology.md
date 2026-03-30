@@ -20,7 +20,7 @@ tags:
 - anemia
 - red-blood-cell-disease
 - hypoxemia
-stage: expert
+stage: advanced
 status: validated
 ---
 # Anemia: Classification and Pathophysiology

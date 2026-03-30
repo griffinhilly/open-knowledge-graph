@@ -12,7 +12,7 @@ tags:
 - comparative-historical
 - case-selection
 - process-tracing
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

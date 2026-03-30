@@ -20,7 +20,7 @@ tags:
 - deep-learning
 - attention
 - sequence-models
-stage: advanced
+stage: expert
 status: validated
 ---
 

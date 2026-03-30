@@ -14,7 +14,7 @@ tags:
 - human-nature
 - power
 - morality
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - nuclear-structure
 - shell-model
 - magic-numbers
-stage: advanced
+stage: expert
 status: validated
 ---
 

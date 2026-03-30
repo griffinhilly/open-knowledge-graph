@@ -11,7 +11,7 @@ tags:
 - functionalism
 - dysfunction
 - system-problems
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

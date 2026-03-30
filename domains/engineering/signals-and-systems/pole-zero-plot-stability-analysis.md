@@ -13,7 +13,7 @@ tags:
 - pole-zero-plot
 - stability
 - lti-systems
-stage: expert
+stage: advanced
 status: validated
 ---
 

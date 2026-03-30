@@ -14,7 +14,7 @@ tags:
 - omission
 - realizes type
 - completeness
-stage: expert
+stage: advanced
 status: validated
 ---
 

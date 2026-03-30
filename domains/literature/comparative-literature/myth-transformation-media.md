@@ -18,7 +18,7 @@ tags:
 - adaptation
 - media
 - transformation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Myth in Comparative and Intermedial Contexts

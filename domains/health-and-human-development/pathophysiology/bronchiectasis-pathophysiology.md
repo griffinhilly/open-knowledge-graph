@@ -16,7 +16,7 @@ tags:
 - bronchiectasis
 - airway-dilation
 - chronic-infection
-stage: expert
+stage: advanced
 status: validated
 ---
 

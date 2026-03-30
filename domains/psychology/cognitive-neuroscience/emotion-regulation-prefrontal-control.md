@@ -12,7 +12,7 @@ tags:
 - emotion
 - regulation
 - control
-stage: expert
+stage: advanced
 status: validated
 ---
 

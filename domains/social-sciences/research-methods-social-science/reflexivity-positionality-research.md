@@ -13,7 +13,7 @@ tags:
 - positionality
 - insider-outsider
 - research-accountability
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

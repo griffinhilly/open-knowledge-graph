@@ -14,7 +14,7 @@ tags:
 - gender
 - patriarchy
 - oppression
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

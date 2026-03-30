@@ -14,7 +14,7 @@ tags:
 - convergence
 - iterative-methods
 - spectral-radius
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

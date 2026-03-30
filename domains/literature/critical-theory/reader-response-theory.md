@@ -22,7 +22,7 @@ tags:
 - Fish
 - interpretive-communities
 - implied-reader
-stage: expert
+stage: advanced
 status: validated
 ---
 # Reader-Response Theory

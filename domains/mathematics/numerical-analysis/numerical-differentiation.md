@@ -14,7 +14,7 @@ tags:
 - differentiation
 - finite-difference
 - numerical
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

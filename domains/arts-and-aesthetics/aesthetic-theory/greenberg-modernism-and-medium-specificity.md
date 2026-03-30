@@ -14,7 +14,7 @@ tags:
 - medium specificity
 - flatness
 - abstract art
-stage: expert
+stage: advanced
 status: validated
 ---
 

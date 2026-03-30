@@ -13,7 +13,7 @@ tags:
 - z-transform
 - properties
 - inverse-transform
-stage: expert
+stage: advanced
 status: validated
 ---
 

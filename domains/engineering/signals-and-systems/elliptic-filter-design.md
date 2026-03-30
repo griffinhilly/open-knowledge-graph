@@ -15,7 +15,7 @@ tags:
 - elliptic
 - equiripple
 - optimization
-stage: expert
+stage: advanced
 status: validated
 ---
 

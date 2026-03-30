@@ -15,7 +15,7 @@ tags:
 - thermodynamics
 - entropy
 - surface
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

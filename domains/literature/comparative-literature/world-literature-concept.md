@@ -18,7 +18,7 @@ tags:
 - world-literature
 - canon
 - circulation
-stage: expert
+stage: advanced
 status: validated
 ---
 

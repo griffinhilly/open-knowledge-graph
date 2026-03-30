@@ -16,7 +16,7 @@ tags:
 - realization
 - parallel
 - structure
-stage: expert
+stage: advanced
 status: validated
 ---
 # Parallel Filter Realization Structures

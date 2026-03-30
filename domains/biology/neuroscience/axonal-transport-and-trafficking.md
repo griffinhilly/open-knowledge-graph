@@ -16,7 +16,7 @@ tags:
 - kinesin
 - dynein
 - vesicles
-stage: expert
+stage: advanced
 status: validated
 ---
 

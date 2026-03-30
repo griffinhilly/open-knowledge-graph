@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - fermi-golden-rule
 - transition-rates
-stage: advanced
+stage: expert
 status: validated
 ---
 

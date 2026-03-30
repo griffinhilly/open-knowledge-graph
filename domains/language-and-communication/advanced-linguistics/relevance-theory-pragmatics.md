@@ -12,7 +12,7 @@ tags:
 - pragmatics
 - relevance-theory
 - inference
-stage: expert
+stage: advanced
 status: validated
 ---
 

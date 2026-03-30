@@ -14,7 +14,7 @@ tags:
 - perception
 - psychoacoustics
 - cognitive
-stage: expert
+stage: advanced
 status: validated
 ---
 # Psychoacoustics and Perception Theory

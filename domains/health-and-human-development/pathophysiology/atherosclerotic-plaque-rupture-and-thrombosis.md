@@ -16,7 +16,7 @@ tags:
 - plaque-rupture
 - thrombosis
 - acute-coronary-syndrome
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - over category
 - morphism category
 - arrow category
-stage: expert
+stage: advanced
 status: validated
 ---
 

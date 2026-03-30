@@ -15,7 +15,7 @@ tags:
 - signaling
 - credibility
 - game-theory
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

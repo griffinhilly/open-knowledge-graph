@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - cross-sections
 - scattering
-stage: advanced
+stage: expert
 status: validated
 ---
 # Cross Sections in Quantum Scattering

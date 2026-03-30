@@ -16,7 +16,7 @@ tags:
 - insulin-resistance
 - glucose-uptake
 - hyperinsulinemia
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - morphology
 - composition
 - word-formation
-stage: expert
+stage: advanced
 status: validated
 ---
 

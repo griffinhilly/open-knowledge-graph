@@ -21,7 +21,7 @@ tags:
 - representation
 - witness
 - catastrophe
-stage: expert
+stage: advanced
 status: validated
 ---
 # Trauma, Representation, and Witnessing

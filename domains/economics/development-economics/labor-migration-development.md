@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - migration
 - labor
-stage: expert
+stage: advanced
 status: validated
 ---
 

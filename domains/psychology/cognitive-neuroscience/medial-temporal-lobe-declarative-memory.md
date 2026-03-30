@@ -18,7 +18,7 @@ tags:
 - semantic
 - amnesia
 - hippocampus
-stage: expert
+stage: advanced
 status: validated
 ---
 

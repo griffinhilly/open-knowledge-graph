@@ -16,7 +16,7 @@ tags:
 - tychonoff
 - infinite-products
 - compactness
-stage: advanced
+stage: expert
 status: validated
 ---
 # Tychonoff's Theorem

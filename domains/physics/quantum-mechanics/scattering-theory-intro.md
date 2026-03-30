@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - scattering
 - cross-sections
-stage: advanced
+stage: expert
 status: validated
 ---
 # Introduction to Scattering Theory

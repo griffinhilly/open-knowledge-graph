@@ -10,7 +10,7 @@ tags:
 - qr-algorithm
 - eigenvalues
 - qr-decomposition
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

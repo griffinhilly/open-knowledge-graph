@@ -15,7 +15,7 @@ tags:
 - paradigm
 - kuhn
 - sociological-schools
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

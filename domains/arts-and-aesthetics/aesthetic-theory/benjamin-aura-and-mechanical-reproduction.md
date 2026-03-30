@@ -17,7 +17,7 @@ tags:
 - mechanical reproduction
 - authenticity
 - modernity
-stage: expert
+stage: advanced
 status: validated
 ---
 

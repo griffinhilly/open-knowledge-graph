@@ -16,7 +16,7 @@ tags:
 - dialectic
 - spirit
 - historical necessity
-stage: expert
+stage: advanced
 status: validated
 ---
 

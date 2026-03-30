@@ -17,7 +17,7 @@ tags:
 - fft
 - algorithms
 - computational
-stage: expert
+stage: advanced
 status: validated
 ---
 

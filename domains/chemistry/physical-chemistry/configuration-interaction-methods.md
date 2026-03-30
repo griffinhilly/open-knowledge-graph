@@ -15,7 +15,7 @@ tags:
 - wavefunction
 - excited-states
 - computational
-stage: advanced
+stage: expert
 status: validated
 ---
 

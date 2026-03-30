@@ -12,7 +12,7 @@ tags:
 - virtues
 - simplicity
 - pragmatism
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -28,7 +28,7 @@ tags:
 - global-health
 - health-metrics
 - burden-of-disease
-stage: expert
+stage: advanced
 status: validated
 ---
 # Global Burden of Disease and Health Metrics

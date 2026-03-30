@@ -12,7 +12,7 @@ tags:
 - action-potential
 - refractoriness
 - firing-frequency
-stage: expert
+stage: advanced
 status: validated
 ---
 

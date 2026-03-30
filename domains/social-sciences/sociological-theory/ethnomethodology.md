@@ -13,7 +13,7 @@ tags:
 - micro-sociology
 - everyday-life
 - methods
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

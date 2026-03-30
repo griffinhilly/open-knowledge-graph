@@ -20,7 +20,7 @@ tags:
 - ideology
 - critique
 - power
-stage: expert
+stage: advanced
 status: validated
 ---
 # Literature, Politics, and Ideological Critique

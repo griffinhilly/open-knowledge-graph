@@ -16,7 +16,7 @@ tags:
 - technology
 - adoption
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 # Technology Transfer, Adoption, and Diffusion

@@ -14,7 +14,7 @@ tags:
 - personality-disorders
 - avoidant
 - dependent
-stage: expert
+stage: advanced
 status: validated
 ---
 # Cluster C Personality Disorders (Anxious/Fearful)

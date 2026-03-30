@@ -15,7 +15,7 @@ tags:
 - signals
 - properties
 - energy
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # Signal Properties: Periodicity, Energy, and Power

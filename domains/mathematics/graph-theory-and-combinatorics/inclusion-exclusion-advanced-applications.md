@@ -10,7 +10,7 @@ tags:
 - inclusion-exclusion
 - möbius-inversion
 - applications
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

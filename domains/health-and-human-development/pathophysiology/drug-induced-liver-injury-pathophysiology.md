@@ -16,7 +16,7 @@ tags:
 - drug-induced-injury
 - hepatotoxicity
 - cholestasis
-stage: expert
+stage: advanced
 status: validated
 ---
 # Drug-Induced Liver Injury: Hepatocellular vs. Cholestatic Patterns and Mechanisms

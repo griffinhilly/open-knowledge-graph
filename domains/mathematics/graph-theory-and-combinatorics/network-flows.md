@@ -13,7 +13,7 @@ tags:
 - graph-theory
 - flows
 - networks
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

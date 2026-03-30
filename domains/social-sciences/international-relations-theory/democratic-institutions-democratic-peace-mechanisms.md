@@ -18,7 +18,7 @@ tags:
 - liberal-peace
 - institutions
 - constraints
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Democratic Institutions and the Democratic Peace

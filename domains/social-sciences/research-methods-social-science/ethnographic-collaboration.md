@@ -18,7 +18,7 @@ tags:
 - collaborative
 - reflexive
 - engaged
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Collaborative and Reflexive Ethnography

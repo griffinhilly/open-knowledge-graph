@@ -16,7 +16,7 @@ tags:
 - research-program
 - hard-core
 - protective-belt
-stage: expert
+stage: advanced
 status: validated
 ---
 

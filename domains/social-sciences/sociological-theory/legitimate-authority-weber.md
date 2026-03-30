@@ -17,7 +17,7 @@ tags:
 - legitimacy
 - power
 - domination
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Weber's Types of Legitimate Authority

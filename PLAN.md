@@ -8,6 +8,7 @@ Phase 9C DONE. **13,153 topics** across 19 domains, 197 courses.
 - *Content quality session*: Math dedup (91 pairs), non-math dedup (149 pairs across 15 domains), T/F absolute rewrites (4,470 questions), language-and-communication leaf reduction (77→20, 3.7%), early-stage meta-question rewrites (19 questions)
 - *Viz session*: Mobile UX overhaul (domain map + radial), domain map performance (rAF + viewport culling), radial semantic zoom (dynamic course labels), git worktree workflow for parallel dev
 - *Bug fixes (Mar 29)*: Radial domain label tap on mobile, 23 T/F grammar fixes ("most day"→"most days"), short answer UX (encourage writing before reveal)
+- *Stage calibration (Mar 29)*: 1,446 topics restaged via 14-agent swarm. Expert tier: 2,362→1,268. Chem/CS got expert for first time. Health/engineering/psychology heavily demoted. See MEMORY.md for full details.
 
 **Known issues:**
 - Quiz HTML is 5.8MB due to embedded prereq graph — could be optimized
@@ -15,12 +16,15 @@ Phase 9C DONE. **13,153 topics** across 19 domains, 197 courses.
 - 79 topics lost T/F fixes in merge conflicts (dedup deletions took priority) — keep-side files may still have absolute-language issues
 - Index page + quiz not yet mobile-optimized (domain map + radial are done)
 - Radial mouse/touch handler duplication — mouseup and touchend have parallel logic that can diverge silently. Consider refactoring to shared `handleInteraction(x, y)`.
+- _domain.yml course stages may need manual reconciliation (automated min-stage logic was wrong for mixed-stage courses)
+- Philosophy-of-science has ~10-12 duplicate topic pairs
 
 **Next steps:**
-1. **T/F semantic spot-check**: Audit sample of mechanical rewrites for correctness (especially `only→primarily`, `entirely→mostly`)
-2. **79 merge-conflict topics**: Re-apply T/F fixes to topics that lost them during dedup merge conflicts
-3. **Phase 9D**: Landing page redesign ("Explore the Map" vs "Personalize Your Map"), domain toggle on radial, progress bars, guided learning paths
-4. Write announcement post
+1. **Generate missing expert topics** (~60 topic areas across all domains — major gaps: inorganic chemistry, quantum computing, cryptography, ML theory, algebraic topology, differential geometry, general relativity, QFT)
+2. **T/F semantic spot-check**: Audit sample of mechanical rewrites for correctness (especially `only→primarily`, `entirely→mostly`)
+3. **79 merge-conflict topics**: Re-apply T/F fixes to topics that lost them during dedup merge conflicts
+4. **Phase 9D**: Landing page redesign ("Explore the Map" vs "Personalize Your Map"), domain toggle on radial, progress bars, guided learning paths
+5. Write announcement post
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)

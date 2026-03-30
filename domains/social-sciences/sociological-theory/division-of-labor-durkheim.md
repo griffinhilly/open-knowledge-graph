@@ -14,7 +14,7 @@ tags:
 - modernity
 - integration
 - anomie
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

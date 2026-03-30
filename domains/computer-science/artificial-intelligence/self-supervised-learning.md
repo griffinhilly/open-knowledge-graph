@@ -15,7 +15,7 @@ tags:
 - self-supervised
 - pretext-task
 - contrastive
-stage: advanced
+stage: expert
 status: validated
 ---
 # Self-Supervised Learning

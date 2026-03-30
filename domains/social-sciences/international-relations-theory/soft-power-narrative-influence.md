@@ -14,7 +14,7 @@ tags:
 - influence
 - narrative
 - legitimacy
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

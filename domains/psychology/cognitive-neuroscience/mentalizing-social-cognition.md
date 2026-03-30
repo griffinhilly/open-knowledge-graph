@@ -12,7 +12,7 @@ tags:
 - social
 - mentalizing
 - theory-of-mind
-stage: expert
+stage: advanced
 status: validated
 ---
 

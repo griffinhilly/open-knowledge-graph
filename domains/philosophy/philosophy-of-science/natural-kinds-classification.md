@@ -16,7 +16,7 @@ tags:
 - classification
 - essence
 - species
-stage: expert
+stage: advanced
 status: validated
 ---
 

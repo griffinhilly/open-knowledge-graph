@@ -14,7 +14,7 @@ tags:
 - kuhn
 - normal-science
 - anomalies
-stage: expert
+stage: advanced
 status: validated
 ---
 # Normal Science and Crisis

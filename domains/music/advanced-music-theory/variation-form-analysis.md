@@ -13,7 +13,7 @@ tags:
 - variations
 - theme
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 

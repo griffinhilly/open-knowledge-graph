@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - synaptic-plasticity
 - learning
-stage: expert
+stage: advanced
 status: validated
 ---
 # Long-Term Depression

@@ -19,7 +19,7 @@ tags:
 - case-control
 - randomized-trial
 - epidemiology
-stage: expert
+stage: advanced
 status: validated
 ---
 

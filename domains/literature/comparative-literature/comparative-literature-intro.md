@@ -15,7 +15,7 @@ tags:
 - comparative-lit
 - methodology
 - world-literature
-stage: expert
+stage: advanced
 status: validated
 ---
 

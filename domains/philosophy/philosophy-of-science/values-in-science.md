@@ -10,7 +10,7 @@ tags:
 - values
 - objectivity
 - ethics
-stage: expert
+stage: advanced
 status: validated
 ---
 

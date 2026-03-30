@@ -16,7 +16,7 @@ tags:
 - decolonial
 - oral
 - perspective
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - formalism
 - autonomy
 - aesthetic-theory
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - matchings
 - bipartite-graphs
 - optimization
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

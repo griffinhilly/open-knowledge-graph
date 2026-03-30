@@ -14,7 +14,7 @@ tags:
 - identity
 - social-construction
 - theory
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

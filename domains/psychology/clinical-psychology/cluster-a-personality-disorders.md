@@ -12,7 +12,7 @@ tags:
 - personality-disorders
 - paranoia
 - schizoid
-stage: expert
+stage: advanced
 status: validated
 ---
 # Cluster A Personality Disorders (Odd/Eccentric)

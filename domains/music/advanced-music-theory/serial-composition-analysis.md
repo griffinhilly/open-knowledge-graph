@@ -11,7 +11,7 @@ tags:
 - serial
 - analysis
 - interpretation
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - critical-analysis
 - power
 - ideology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - wkb
 - quantization
-stage: advanced
+stage: expert
 status: validated
 ---
 

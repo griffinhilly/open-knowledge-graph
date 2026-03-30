@@ -14,7 +14,7 @@ tags:
 - maximal consistency
 - decidability
 - Th(M)
-stage: expert
+stage: advanced
 status: validated
 ---
 

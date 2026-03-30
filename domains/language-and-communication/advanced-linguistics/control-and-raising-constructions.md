@@ -12,7 +12,7 @@ tags:
 - syntax
 - argument-structure
 - control
-stage: expert
+stage: advanced
 status: validated
 ---
 

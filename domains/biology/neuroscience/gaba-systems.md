@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - neurotransmitters
 - inhibitory
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

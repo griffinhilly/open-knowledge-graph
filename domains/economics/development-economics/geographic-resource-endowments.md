@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - resources
 - curse
-stage: expert
+stage: advanced
 status: validated
 ---
 

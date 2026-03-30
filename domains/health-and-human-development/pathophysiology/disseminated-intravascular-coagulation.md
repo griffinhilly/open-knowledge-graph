@@ -12,7 +12,7 @@ tags:
 - dic
 - coagulopathy
 - systemic-thrombosis
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - macro-sociology
 - structure
 - function
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

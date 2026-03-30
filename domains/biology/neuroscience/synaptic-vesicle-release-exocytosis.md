@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - synaptic-transmission
 - exocytosis
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

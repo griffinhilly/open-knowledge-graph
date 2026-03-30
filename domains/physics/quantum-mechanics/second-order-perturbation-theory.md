@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - perturbation-theory
 - corrections
-stage: advanced
+stage: expert
 status: validated
 ---
 # Second-Order Perturbation Theory

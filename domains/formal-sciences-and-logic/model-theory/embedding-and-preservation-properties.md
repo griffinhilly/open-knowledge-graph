@@ -16,7 +16,7 @@ tags:
 - preservation
 - homomorphism
 - formula-classes
-stage: expert
+stage: advanced
 status: validated
 ---
 

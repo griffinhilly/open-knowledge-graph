@@ -11,7 +11,7 @@ tags:
 - open-science
 - reproducibility
 - preregistration
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

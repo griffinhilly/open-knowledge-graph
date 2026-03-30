@@ -17,7 +17,7 @@ tags:
 - form
 - sonata
 - nineteenth-century
-stage: expert
+stage: advanced
 status: validated
 ---
 # Sonata Form Variations in 19th-Century Music

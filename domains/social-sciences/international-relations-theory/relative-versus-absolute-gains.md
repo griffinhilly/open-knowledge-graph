@@ -16,7 +16,7 @@ tags:
 - gains
 - cooperation
 - realism-vs-liberalism
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

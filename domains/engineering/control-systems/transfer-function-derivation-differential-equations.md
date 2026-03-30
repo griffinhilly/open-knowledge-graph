@@ -17,7 +17,7 @@ tags:
 - transfer-functions
 - laplace
 - differential-equations
-stage: expert
+stage: advanced
 status: validated
 ---
 

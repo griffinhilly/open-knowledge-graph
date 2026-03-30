@@ -15,7 +15,7 @@ tags:
 - mimesis
 - idealism
 - Forms
-stage: expert
+stage: advanced
 status: validated
 ---
 

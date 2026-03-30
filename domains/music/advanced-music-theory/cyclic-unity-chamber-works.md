@@ -15,7 +15,7 @@ tags:
 - cycle
 - unity
 - chamber-music
-stage: expert
+stage: advanced
 status: validated
 ---
 

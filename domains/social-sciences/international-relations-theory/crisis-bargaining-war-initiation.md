@@ -22,7 +22,7 @@ tags:
 - escalation
 - war-initiation
 - signaling
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Crisis Bargaining and Escalation to War

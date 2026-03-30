@@ -18,7 +18,7 @@ tags:
 - quantum-chemistry
 - multi-electron
 - approximations
-stage: advanced
+stage: expert
 status: validated
 ---
 # Electron Correlation in Multi-Electron Atoms

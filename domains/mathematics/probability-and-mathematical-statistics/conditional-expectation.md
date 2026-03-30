@@ -15,7 +15,7 @@ tags:
 - conditional-expectation
 - sigma-algebras
 - probability
-stage: advanced
+stage: expert
 status: validated
 ---
 

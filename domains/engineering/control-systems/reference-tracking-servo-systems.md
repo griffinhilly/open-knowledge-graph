@@ -15,7 +15,7 @@ tags:
 - servo
 - tracking-error
 - design
-stage: expert
+stage: advanced
 status: validated
 ---
 

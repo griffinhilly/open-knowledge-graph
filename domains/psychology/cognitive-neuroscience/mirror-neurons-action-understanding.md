@@ -14,7 +14,7 @@ tags:
 - social
 - action
 - mirror-neurons
-stage: expert
+stage: advanced
 status: validated
 ---
 

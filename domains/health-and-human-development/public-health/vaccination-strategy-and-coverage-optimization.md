@@ -17,7 +17,7 @@ tags:
 - vaccination
 - immunization
 - public-health-strategy
-stage: expert
+stage: advanced
 status: validated
 ---
 # Vaccination Strategy and Coverage Optimization

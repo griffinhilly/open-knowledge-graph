@@ -14,7 +14,7 @@ tags:
 - qualitative
 - rapport
 - interview-guide
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

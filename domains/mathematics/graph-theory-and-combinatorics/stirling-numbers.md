@@ -19,7 +19,7 @@ prerequisites:
 tags:
 - combinatorics
 - counting
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Stirling Numbers of the First and Second Kind

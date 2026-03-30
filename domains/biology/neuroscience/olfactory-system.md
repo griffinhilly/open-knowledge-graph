@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - sensory-systems
 - olfaction
-stage: expert
+stage: advanced
 status: validated
 ---
 

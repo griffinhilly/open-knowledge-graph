@@ -14,7 +14,7 @@ tags:
 - sensory-systems
 - touch
 - pain
-stage: expert
+stage: advanced
 status: validated
 ---
 # Somatosensory System Organization

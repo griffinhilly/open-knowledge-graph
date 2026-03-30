@@ -10,7 +10,7 @@ tags:
 - trade
 - diversification
 - growth
-stage: expert
+stage: advanced
 status: validated
 ---
 

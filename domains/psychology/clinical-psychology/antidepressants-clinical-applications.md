@@ -12,7 +12,7 @@ tags:
 - antidepressant
 - psychopharmacology
 - ssri
-stage: expert
+stage: advanced
 status: validated
 ---
 # Antidepressants: Mechanisms and Clinical Application

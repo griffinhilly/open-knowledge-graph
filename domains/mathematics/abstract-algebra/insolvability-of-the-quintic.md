@@ -12,7 +12,7 @@ tags:
 - quintic
 - solvability
 - radicals
-stage: advanced
+stage: expert
 status: validated
 ---
 

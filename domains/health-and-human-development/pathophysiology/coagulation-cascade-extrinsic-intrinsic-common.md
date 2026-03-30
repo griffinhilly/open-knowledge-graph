@@ -19,7 +19,7 @@ tags:
 - intrinsic-pathway
 - thrombin
 - prothrombin
-stage: expert
+stage: advanced
 status: validated
 ---
 

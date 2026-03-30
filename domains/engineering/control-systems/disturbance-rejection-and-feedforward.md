@@ -15,7 +15,7 @@ tags:
 - rejection
 - feedforward
 - control-architecture
-stage: expert
+stage: advanced
 status: validated
 ---
 

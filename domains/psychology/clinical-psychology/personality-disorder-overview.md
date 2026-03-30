@@ -17,7 +17,7 @@ tags:
 - pd
 - traits
 - maladaptive
-stage: expert
+stage: advanced
 status: validated
 ---
 

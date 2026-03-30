@@ -25,7 +25,7 @@ tags:
 - sign-system
 - meaning-production
 - structuralism
-stage: expert
+stage: advanced
 status: validated
 ---
 

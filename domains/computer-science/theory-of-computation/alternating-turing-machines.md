@@ -16,7 +16,7 @@ tags:
 - automata
 - alternation
 - quantifiers
-stage: advanced
+stage: expert
 status: validated
 ---
 # Alternating Turing Machines

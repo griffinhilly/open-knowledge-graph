@@ -18,7 +18,7 @@ tags:
 - negative-symptoms
 - dopamine
 - psychosis
-stage: expert
+stage: advanced
 status: validated
 ---
 

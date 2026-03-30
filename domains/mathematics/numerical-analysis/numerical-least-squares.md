@@ -12,7 +12,7 @@ tags:
 - least-squares
 - linear-regression
 - overdetermined
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

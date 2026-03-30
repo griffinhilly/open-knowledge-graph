@@ -13,7 +13,7 @@ tags:
 - lieux-de-memoire
 - sites-of-memory
 - national-memory
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - disease-control
 - infection-prevention
 - epidemiology
-stage: expert
+stage: advanced
 status: validated
 ---
 # Communicable Disease Control Strategy Selection by Transmission Route

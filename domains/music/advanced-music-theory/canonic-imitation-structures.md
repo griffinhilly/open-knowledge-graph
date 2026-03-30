@@ -15,7 +15,7 @@ tags:
 - counterpoint
 - imitation
 - form
-stage: expert
+stage: advanced
 status: validated
 ---
 # Canonic Imitation and Structural Analysis

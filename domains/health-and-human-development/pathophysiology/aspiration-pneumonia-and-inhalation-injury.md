@@ -13,7 +13,7 @@ tags:
 - pneumonia
 - inhalation
 - airway
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - necessity
 - chance
 - determinism
-stage: expert
+stage: advanced
 status: validated
 ---
 

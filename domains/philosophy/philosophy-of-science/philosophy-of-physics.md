@@ -13,7 +13,7 @@ tags:
 - space-time
 - quantum
 - relativity
-stage: expert
+stage: advanced
 status: validated
 ---
 

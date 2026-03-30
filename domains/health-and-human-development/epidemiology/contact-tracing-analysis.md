@@ -12,7 +12,7 @@ tags:
 - contact-tracing
 - transmission-chains
 - outbreak-response
-stage: expert
+stage: advanced
 status: validated
 ---
 

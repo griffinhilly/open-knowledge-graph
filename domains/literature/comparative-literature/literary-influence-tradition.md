@@ -15,7 +15,7 @@ tags:
 - tradition
 - Bloom
 - postcolonial
-stage: expert
+stage: advanced
 status: validated
 ---
 

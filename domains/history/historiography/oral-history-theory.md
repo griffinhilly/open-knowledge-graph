@@ -15,7 +15,7 @@ tags:
 - testimony
 - narrative
 - methodology
-stage: expert
+stage: advanced
 status: validated
 ---
 

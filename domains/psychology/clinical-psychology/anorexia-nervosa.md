@@ -11,7 +11,7 @@ tags:
 - eating-disorder
 - restrictive
 - weight-loss
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -21,7 +21,7 @@ tags:
 - structure
 - anarchy
 - power
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 # Structural Realism (Neorealism)

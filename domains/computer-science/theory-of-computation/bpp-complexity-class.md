@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - complexity-classes
 - randomized-algorithms
-stage: advanced
+stage: expert
 status: validated
 ---
 # BPP: Bounded Error Probabilistic Polynomial Time

@@ -18,7 +18,7 @@ tags:
 - power
 - institutions
 - canonicity
-stage: expert
+stage: advanced
 status: validated
 ---
 

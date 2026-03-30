@@ -17,7 +17,7 @@ tags:
 - myth
 - collective-unconscious
 - mythos
-stage: expert
+stage: advanced
 status: validated
 ---
 

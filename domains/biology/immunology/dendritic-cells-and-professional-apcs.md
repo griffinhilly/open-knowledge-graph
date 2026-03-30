@@ -19,7 +19,7 @@ tags:
 - APCs
 - innate-adaptive-bridge
 - antigen-presentation
-stage: expert
+stage: advanced
 status: validated
 ---
 

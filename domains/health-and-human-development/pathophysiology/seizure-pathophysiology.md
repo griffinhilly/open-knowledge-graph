@@ -17,7 +17,7 @@ tags:
 - seizure
 - epilepsy
 - neuronal-synchronization
-stage: expert
+stage: advanced
 status: validated
 ---
 

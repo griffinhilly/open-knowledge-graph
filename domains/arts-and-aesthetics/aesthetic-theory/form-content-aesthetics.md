@@ -15,7 +15,7 @@ tags:
 - content
 - structure
 - meaning
-stage: expert
+stage: advanced
 status: validated
 ---
 

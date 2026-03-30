@@ -17,7 +17,7 @@ tags:
 - diagrams
 - composition
 - fundamentals
-stage: expert
+stage: advanced
 status: validated
 ---
 # Commutative Diagrams and Composition

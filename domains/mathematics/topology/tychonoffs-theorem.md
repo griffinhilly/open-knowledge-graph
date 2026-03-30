@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - tychonoff
 - product-compactness
-stage: advanced
+stage: expert
 status: validated
 ---
 # Tychonoff's Theorem

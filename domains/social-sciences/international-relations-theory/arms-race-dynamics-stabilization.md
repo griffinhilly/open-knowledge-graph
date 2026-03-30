@@ -23,7 +23,7 @@ tags:
 - stability
 - security-dilemma
 - action-reaction
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Arms Race Dynamics and Stability

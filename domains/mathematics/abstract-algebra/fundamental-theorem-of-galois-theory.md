@@ -14,7 +14,7 @@ tags:
 - galois-theory
 - correspondence
 - fundamental
-stage: advanced
+stage: expert
 status: validated
 ---
 

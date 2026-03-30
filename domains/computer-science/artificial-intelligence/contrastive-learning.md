@@ -12,7 +12,7 @@ tags:
 - contrastive
 - similarity
 - representation
-stage: advanced
+stage: expert
 status: validated
 ---
 

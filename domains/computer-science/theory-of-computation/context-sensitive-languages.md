@@ -16,7 +16,7 @@ tags:
 - formal-languages
 - computational-power
 - resource-bounds
-stage: advanced
+stage: expert
 status: validated
 ---
 # Context-Sensitive Languages and Type 1 Grammars

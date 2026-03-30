@@ -28,7 +28,7 @@ tags:
 - s-plane
 - LTI
 - modeling
-stage: expert
+stage: advanced
 status: validated
 ---
 

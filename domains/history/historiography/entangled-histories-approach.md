@@ -12,7 +12,7 @@ tags:
 - entanglement
 - connected history
 - transnational
-stage: expert
+stage: advanced
 status: validated
 ---
 

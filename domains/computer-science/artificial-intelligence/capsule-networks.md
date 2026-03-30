@@ -12,7 +12,7 @@ tags:
 - capsule-network
 - capsnet
 - routing
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - convolution
 - frequency-domain
 - fourier
-stage: expert
+stage: advanced
 status: validated
 ---
 

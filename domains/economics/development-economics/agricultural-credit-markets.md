@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - agricultural
 - credit
-stage: expert
+stage: advanced
 status: validated
 ---
 

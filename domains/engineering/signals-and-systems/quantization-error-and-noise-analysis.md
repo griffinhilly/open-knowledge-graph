@@ -14,7 +14,7 @@ tags:
 - ADC
 - noise
 - error
-stage: expert
+stage: advanced
 status: validated
 ---
 

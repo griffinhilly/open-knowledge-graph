@@ -16,7 +16,7 @@ tags:
 - angle-condition
 - magnitude-condition
 - locus
-stage: expert
+stage: advanced
 status: validated
 ---
 

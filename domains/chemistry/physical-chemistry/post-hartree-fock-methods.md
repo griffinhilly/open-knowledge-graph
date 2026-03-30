@@ -18,7 +18,7 @@ tags:
 - electron-correlation
 - computational
 - wavefunction
-stage: advanced
+stage: expert
 status: validated
 ---
 # Post-Hartree-Fock Methods: MP and CC Theory

@@ -12,7 +12,7 @@ tags:
 - syntax
 - movement
 - quantification
-stage: expert
+stage: advanced
 status: validated
 ---
 

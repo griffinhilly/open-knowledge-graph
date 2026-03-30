@@ -16,7 +16,7 @@ tags:
 - scientific-method
 - empiricism
 - peloponnesian-war
-stage: expert
+stage: advanced
 status: validated
 ---
 

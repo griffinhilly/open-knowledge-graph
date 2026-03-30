@@ -16,7 +16,7 @@ tags:
 - gender
 - identity
 - construction
-stage: expert
+stage: advanced
 status: validated
 ---
 

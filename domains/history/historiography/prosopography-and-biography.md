@@ -16,7 +16,7 @@ tags:
 - biography
 - collective
 - groups
-stage: expert
+stage: advanced
 status: validated
 ---
 

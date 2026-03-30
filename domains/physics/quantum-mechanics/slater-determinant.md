@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - identical-particles
 - antisymmetry
-stage: advanced
+stage: expert
 status: validated
 ---
 # Slater Determinants

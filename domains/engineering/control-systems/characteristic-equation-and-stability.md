@@ -20,7 +20,7 @@ tags:
 - stability
 - poles
 - closed-loop
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - phonology
 - syllable
 - phonotactics
-stage: expert
+stage: advanced
 status: validated
 ---
 

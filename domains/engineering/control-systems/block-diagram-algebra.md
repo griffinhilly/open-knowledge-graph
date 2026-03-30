@@ -16,7 +16,7 @@ tags:
 - closed-loop
 - summing-junction
 - series-parallel
-stage: expert
+stage: advanced
 status: validated
 ---
 

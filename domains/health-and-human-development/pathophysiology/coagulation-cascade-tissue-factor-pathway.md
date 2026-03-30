@@ -18,7 +18,7 @@ tags:
 - tissue-factor
 - thrombin
 - fibrin
-stage: expert
+stage: advanced
 status: validated
 ---
 

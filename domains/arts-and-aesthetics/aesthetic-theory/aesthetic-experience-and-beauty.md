@@ -12,7 +12,7 @@ tags:
 - aesthetics
 - beauty
 - experience
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

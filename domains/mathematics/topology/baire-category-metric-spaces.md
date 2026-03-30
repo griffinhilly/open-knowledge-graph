@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - baire-category
 - metric-spaces
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

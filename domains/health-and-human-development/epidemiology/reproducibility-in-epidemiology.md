@@ -10,7 +10,7 @@ tags:
 - causal-inference
 - study-quality
 - open-science
-stage: expert
+stage: advanced
 status: validated
 ---
 

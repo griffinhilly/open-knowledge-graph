@@ -16,7 +16,7 @@ tags:
 - fieldwork
 - participant-observation
 - reflexivity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Advanced Ethnographic Methods

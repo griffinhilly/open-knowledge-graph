@@ -15,7 +15,7 @@ tags:
 - innate
 - cascade
 - opsonization
-stage: expert
+stage: advanced
 status: validated
 ---
 

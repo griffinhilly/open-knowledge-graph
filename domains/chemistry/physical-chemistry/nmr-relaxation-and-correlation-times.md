@@ -17,7 +17,7 @@ tags:
 - relaxation
 - dynamics
 - correlation
-stage: advanced
+stage: expert
 status: validated
 ---
 # NMR Relaxation Times and Correlation Functions

@@ -13,7 +13,7 @@ tags:
 - lived-experience
 - consciousness
 - essence
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

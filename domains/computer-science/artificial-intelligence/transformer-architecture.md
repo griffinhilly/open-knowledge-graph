@@ -18,7 +18,7 @@ tags:
 - deep-learning
 - attention
 - neural-architecture
-stage: advanced
+stage: expert
 status: validated
 ---
 

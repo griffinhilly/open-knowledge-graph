@@ -11,7 +11,7 @@ tags:
 - outbreak-investigation
 - mode-of-transmission
 - common-source
-stage: expert
+stage: advanced
 status: validated
 ---
 

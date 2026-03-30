@@ -12,7 +12,7 @@ tags:
 - distillation
 - teacher-student
 - compression
-stage: advanced
+stage: expert
 status: validated
 ---
 

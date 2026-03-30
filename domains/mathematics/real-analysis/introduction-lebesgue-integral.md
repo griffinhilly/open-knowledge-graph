@@ -12,7 +12,7 @@ tags:
 - lebesgue-integral
 - measure-theory
 - integration
-stage: advanced
+stage: expert
 status: validated
 ---
 

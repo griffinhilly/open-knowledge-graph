@@ -16,7 +16,7 @@ tags:
 - ne
 - adrenergic
 - arousal
-stage: expert
+stage: advanced
 status: validated
 ---
 

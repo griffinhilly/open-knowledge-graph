@@ -12,7 +12,7 @@ tags:
 - resources
 - trust
 - reciprocity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

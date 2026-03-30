@@ -16,7 +16,7 @@ tags:
 - health
 - productivity
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 # Health, Productivity, and Development

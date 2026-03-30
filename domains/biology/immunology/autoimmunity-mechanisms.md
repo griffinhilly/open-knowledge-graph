@@ -12,7 +12,7 @@ tags:
 - pathology
 - autoimmunity
 - tolerance-breakdown
-stage: expert
+stage: advanced
 status: validated
 ---
 

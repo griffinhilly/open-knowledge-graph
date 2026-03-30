@@ -18,7 +18,7 @@ tags:
 - critical-period
 - plasticity
 - learning-window
-stage: expert
+stage: advanced
 status: validated
 ---
 # Critical Periods and Neural Plasticity

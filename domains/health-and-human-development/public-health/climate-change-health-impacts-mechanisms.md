@@ -15,7 +15,7 @@ tags:
 - climate-change
 - environmental-health
 - emerging-disease
-stage: expert
+stage: advanced
 status: validated
 ---
 

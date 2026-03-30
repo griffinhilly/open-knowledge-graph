@@ -15,7 +15,7 @@ tags:
 - diagnosis
 - dsm5
 - criteria
-stage: expert
+stage: advanced
 status: validated
 ---
 # DSM-5 Classification System

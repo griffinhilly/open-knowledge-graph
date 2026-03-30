@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - probability
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

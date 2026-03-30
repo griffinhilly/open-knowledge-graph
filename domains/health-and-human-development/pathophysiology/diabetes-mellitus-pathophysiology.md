@@ -23,7 +23,7 @@ tags:
 - diabetes-mellitus
 - hyperglycemia
 - metabolic-disease
-stage: expert
+stage: advanced
 status: validated
 ---
 

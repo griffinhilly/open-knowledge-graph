@@ -18,7 +18,7 @@ tags:
 - damping
 - second-order
 - parameters
-stage: expert
+stage: advanced
 status: validated
 ---
 # Natural Frequency and Damping Ratio

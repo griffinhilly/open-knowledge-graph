@@ -14,7 +14,7 @@ tags:
 - power
 - language
 - foucault
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Discourse Analysis: Foucauldian Approaches

@@ -21,7 +21,7 @@ tags:
 - probabilistic-models
 - representation-learning
 - latent-variables
-stage: advanced
+stage: expert
 status: validated
 ---
 

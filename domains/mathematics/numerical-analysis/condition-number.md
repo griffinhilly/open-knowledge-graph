@@ -14,7 +14,7 @@ tags:
 - condition-number
 - conditioning
 - sensitivity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

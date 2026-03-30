@@ -15,7 +15,7 @@ tags:
 - rhythm
 - dissonance
 - tension-release
-stage: expert
+stage: advanced
 status: validated
 ---
 # Rhythmic Dissonance and Resolution

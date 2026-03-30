@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - algebraic-integers
 - algebraic-number-theory
-stage: advanced
+stage: expert
 status: validated
 ---
 

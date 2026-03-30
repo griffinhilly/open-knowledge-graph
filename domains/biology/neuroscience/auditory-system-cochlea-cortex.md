@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - sensory-systems
 - hearing
-stage: expert
+stage: advanced
 status: validated
 ---
 

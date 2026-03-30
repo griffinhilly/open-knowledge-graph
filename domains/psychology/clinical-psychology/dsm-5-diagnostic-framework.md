@@ -16,7 +16,7 @@ tags:
 - dsm-5
 - diagnosis
 - classification
-stage: expert
+stage: advanced
 status: validated
 ---
 # DSM-5 Diagnostic Framework

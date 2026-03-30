@@ -10,7 +10,7 @@ tags:
 - sensory-systems
 - vision
 - color-perception
-stage: expert
+stage: advanced
 status: validated
 ---
 

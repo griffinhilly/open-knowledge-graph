@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - combinatorics
 - partitions
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Integer Partitions and Partition Functions

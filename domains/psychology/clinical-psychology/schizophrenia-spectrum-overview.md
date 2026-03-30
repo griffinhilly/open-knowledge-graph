@@ -15,7 +15,7 @@ tags:
 - psychotic
 - spectrum
 - psychosis
-stage: expert
+stage: advanced
 status: validated
 ---
 

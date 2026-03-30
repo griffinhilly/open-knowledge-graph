@@ -15,7 +15,7 @@ tags:
 - conflict
 - history
 - revolution
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

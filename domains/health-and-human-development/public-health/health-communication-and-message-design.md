@@ -12,7 +12,7 @@ tags:
 - communication
 - messaging
 - health-promotion
-stage: expert
+stage: advanced
 status: validated
 ---
 

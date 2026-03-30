@@ -12,7 +12,7 @@ tags:
 - learning
 - development
 - enrollment
-stage: expert
+stage: advanced
 status: validated
 ---
 

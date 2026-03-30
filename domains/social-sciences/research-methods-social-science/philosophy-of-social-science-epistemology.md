@@ -11,7 +11,7 @@ tags:
 - philosophy
 - epistemology
 - foundations
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

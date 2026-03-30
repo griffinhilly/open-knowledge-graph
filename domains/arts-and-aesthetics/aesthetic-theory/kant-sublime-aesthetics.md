@@ -13,7 +13,7 @@ tags:
 - sublime
 - overwhelm
 - greatness
-stage: expert
+stage: advanced
 status: validated
 ---
 

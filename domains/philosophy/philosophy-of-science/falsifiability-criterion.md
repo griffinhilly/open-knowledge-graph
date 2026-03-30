@@ -18,7 +18,7 @@ tags:
 - demarcation
 - criticism
 - methodology
-stage: expert
+stage: advanced
 status: validated
 ---
 # The Falsifiability Criterion and Its Problems

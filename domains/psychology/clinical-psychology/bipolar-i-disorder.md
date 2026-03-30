@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - bipolar I
 - mania
-stage: expert
+stage: advanced
 status: validated
 ---
 

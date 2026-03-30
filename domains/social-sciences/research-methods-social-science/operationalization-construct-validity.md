@@ -15,7 +15,7 @@ tags:
 - operationalization
 - validity
 - indicators
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

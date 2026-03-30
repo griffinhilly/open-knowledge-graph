@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - urysohn
 - lemma
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

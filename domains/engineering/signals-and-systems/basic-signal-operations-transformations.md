@@ -13,7 +13,7 @@ tags:
 - signals
 - operations
 - transformations
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

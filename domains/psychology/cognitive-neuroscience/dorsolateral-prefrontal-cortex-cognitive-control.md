@@ -18,7 +18,7 @@ tags:
 - working-memory
 - inhibition
 - flexibility
-stage: expert
+stage: advanced
 status: validated
 ---
 

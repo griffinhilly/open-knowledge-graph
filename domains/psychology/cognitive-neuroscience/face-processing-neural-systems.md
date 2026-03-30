@@ -18,7 +18,7 @@ tags:
 - face-selectivity
 - identity
 - expression
-stage: expert
+stage: advanced
 status: validated
 ---
 

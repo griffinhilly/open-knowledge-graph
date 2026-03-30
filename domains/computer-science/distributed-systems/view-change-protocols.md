@@ -15,7 +15,7 @@ tags:
 - leader-change
 - consistency
 - protocol
-stage: advanced
+stage: expert
 status: validated
 ---
 # View Change and Leader Failover Protocols

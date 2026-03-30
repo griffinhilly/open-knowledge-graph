@@ -14,7 +14,7 @@ tags:
 - will
 - redemption
 - suffering
-stage: expert
+stage: advanced
 status: validated
 ---
 

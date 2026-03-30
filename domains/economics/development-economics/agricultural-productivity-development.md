@@ -20,7 +20,7 @@ builds-toward:
 tags:
 - agriculture
 - productivity
-stage: expert
+stage: advanced
 status: validated
 ---
 # Agricultural Productivity and Development

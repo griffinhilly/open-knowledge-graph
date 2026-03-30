@@ -10,7 +10,7 @@ tags:
 - bose-einstein
 - bosons
 - statistical-mechanics
-stage: advanced
+stage: expert
 status: validated
 ---
 

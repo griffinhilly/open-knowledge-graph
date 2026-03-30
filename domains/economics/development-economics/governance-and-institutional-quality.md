@@ -16,7 +16,7 @@ tags:
 - quality
 - outcomes
 - capacity
-stage: expert
+stage: advanced
 status: validated
 ---
 # Governance Quality and Development Outcomes

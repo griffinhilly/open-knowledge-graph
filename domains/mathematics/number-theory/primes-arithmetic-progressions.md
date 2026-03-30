@@ -10,7 +10,7 @@ tags:
 - dirichlet-theorem
 - arithmetic-progressions
 - primes
-stage: advanced
+stage: expert
 status: validated
 ---
 

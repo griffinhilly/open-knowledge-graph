@@ -16,7 +16,7 @@ tags:
 - hepatocellular-carcinoma
 - cirrhosis
 - carcinogenesis
-stage: expert
+stage: advanced
 status: validated
 ---
 

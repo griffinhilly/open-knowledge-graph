@@ -13,7 +13,7 @@ tags:
 - classical-test-theory
 - measurement-error
 - reliability
-stage: expert
+stage: advanced
 status: validated
 ---
 

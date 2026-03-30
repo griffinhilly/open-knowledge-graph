@@ -14,7 +14,7 @@ tags:
 - fear
 - avoidance
 - conditioning
-stage: expert
+stage: advanced
 status: validated
 ---
 # Specific Phobias

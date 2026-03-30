@@ -14,7 +14,7 @@ tags:
 - vision
 - action
 - reaching
-stage: expert
+stage: advanced
 status: validated
 ---
 

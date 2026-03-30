@@ -14,7 +14,7 @@ tags:
 - cancer-control
 - risk-factors
 - prevention-screening
-stage: expert
+stage: advanced
 status: validated
 ---
 

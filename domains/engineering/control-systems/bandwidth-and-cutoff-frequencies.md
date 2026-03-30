@@ -16,7 +16,7 @@ tags:
 - cutoff-frequency
 - frequency-domain
 - specifications
-stage: expert
+stage: advanced
 status: validated
 ---
 # Bandwidth and Frequency Domain Specifications

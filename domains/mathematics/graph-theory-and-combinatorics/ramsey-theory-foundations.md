@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - combinatorics
 - ramsey-theory
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Ramsey Theory Foundations

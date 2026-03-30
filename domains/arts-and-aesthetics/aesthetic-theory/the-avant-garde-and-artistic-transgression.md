@@ -14,7 +14,7 @@ tags:
 - shock
 - institutionalization
 - boundaries
-stage: expert
+stage: advanced
 status: validated
 ---
 

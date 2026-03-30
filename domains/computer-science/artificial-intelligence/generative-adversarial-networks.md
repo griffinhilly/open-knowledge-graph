@@ -24,7 +24,7 @@ tags:
 - deep-learning
 - generative-models
 - adversarial
-stage: advanced
+stage: expert
 status: validated
 ---
 # Generative Adversarial Networks

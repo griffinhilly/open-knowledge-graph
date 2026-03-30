@@ -16,7 +16,7 @@ tags:
 - autoimmune
 - thyroid
 - hyperthyroidism
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - adhesion
 - activation
 - aggregation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Platelet Function and Von Willebrand Disease

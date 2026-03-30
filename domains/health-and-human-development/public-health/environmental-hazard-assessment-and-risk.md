@@ -19,7 +19,7 @@ tags:
 - environmental-health
 - exposure-assessment
 - risk
-stage: expert
+stage: advanced
 status: validated
 ---
 # Environmental Hazard Assessment and Risk Characterization

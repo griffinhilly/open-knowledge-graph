@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - combinatorics
 - designs
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Latin Squares and Orthogonal Structures

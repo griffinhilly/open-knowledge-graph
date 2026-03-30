@@ -16,7 +16,7 @@ tags:
 - institutions
 - history
 - Western
-stage: expert
+stage: advanced
 status: validated
 ---
 

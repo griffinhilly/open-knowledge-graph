@@ -13,7 +13,7 @@ tags:
 - rta
 - metabolic-acidosis
 - bicarbonate
-stage: expert
+stage: advanced
 status: validated
 ---
 

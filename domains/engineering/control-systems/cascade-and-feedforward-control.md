@@ -17,7 +17,7 @@ tags:
 - multi-loop
 - inner-loop
 - outer-loop
-stage: expert
+stage: advanced
 status: validated
 ---
 # Cascade and Feedforward Control

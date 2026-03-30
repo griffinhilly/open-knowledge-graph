@@ -13,7 +13,7 @@ tags:
 - social-capital
 - collective-efficacy
 - bottom-up
-stage: expert
+stage: advanced
 status: validated
 ---
 

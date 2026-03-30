@@ -13,7 +13,7 @@ tags:
 - cultural-capital
 - inequality
 - education
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

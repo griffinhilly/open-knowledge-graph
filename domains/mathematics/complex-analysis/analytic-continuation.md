@@ -10,7 +10,7 @@ tags:
 - analytic-continuation
 - extension
 - identity-theorem
-stage: advanced
+stage: expert
 status: validated
 ---
 

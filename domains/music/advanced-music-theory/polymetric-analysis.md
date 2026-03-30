@@ -19,7 +19,7 @@ tags:
 - polyrhythmic
 - analysis
 - contemporary
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - transmission
 - coverage-threshold
 - r0
-stage: expert
+stage: advanced
 status: validated
 ---
 

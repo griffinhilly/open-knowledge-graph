@@ -17,7 +17,7 @@ tags:
 - necrosis
 - inflammation
 - chronicity
-stage: expert
+stage: advanced
 status: validated
 ---
 

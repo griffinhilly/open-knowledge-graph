@@ -17,7 +17,7 @@ tags:
 - copd
 - chronic-obstructive-disease
 - lung-disease
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -22,7 +22,7 @@ tags:
 - class
 - gender
 - Anzaldúa
-stage: expert
+stage: advanced
 status: validated
 ---
 # Intersectionality in Literary Criticism

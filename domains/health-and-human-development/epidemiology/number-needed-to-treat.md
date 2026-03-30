@@ -12,7 +12,7 @@ tags:
 - intervention-effectiveness
 - clinical-significance
 - decision-making
-stage: expert
+stage: advanced
 status: validated
 ---
 

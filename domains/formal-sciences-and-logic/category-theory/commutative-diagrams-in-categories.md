@@ -16,7 +16,7 @@ tags:
 - commutative
 - morphisms
 - composition
-stage: expert
+stage: advanced
 status: validated
 ---
 

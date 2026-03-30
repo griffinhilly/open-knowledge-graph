@@ -14,7 +14,7 @@ tags:
 - oscillator
 - states
 - minimum-uncertainty
-stage: advanced
+stage: expert
 status: validated
 ---
 # Coherent States

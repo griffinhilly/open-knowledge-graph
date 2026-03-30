@@ -13,7 +13,7 @@ tags:
 - coding
 - reliability
 - manifest-latent
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

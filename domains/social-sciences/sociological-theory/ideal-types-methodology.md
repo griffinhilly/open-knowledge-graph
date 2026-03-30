@@ -14,7 +14,7 @@ tags:
 - methodology
 - ideal-type
 - concept-formation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

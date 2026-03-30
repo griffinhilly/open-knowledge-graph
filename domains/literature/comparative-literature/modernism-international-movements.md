@@ -15,7 +15,7 @@ tags:
 - avant-garde
 - international-literature
 - 20th-century
-stage: expert
+stage: advanced
 status: validated
 ---
 

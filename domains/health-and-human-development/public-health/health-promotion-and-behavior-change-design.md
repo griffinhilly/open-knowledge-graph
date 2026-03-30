@@ -19,7 +19,7 @@ tags:
 - health-promotion
 - behavior-change
 - intervention-design
-stage: expert
+stage: advanced
 status: validated
 ---
 # Health Promotion Program Design and Behavior Change Theories

@@ -13,7 +13,7 @@ tags:
 - oscillation
 - damped-frequency
 - decay-envelope
-stage: expert
+stage: advanced
 status: validated
 ---
 

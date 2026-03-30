@@ -17,7 +17,7 @@ tags:
 - emergence
 - intertheory-relations
 - levels
-stage: expert
+stage: advanced
 status: validated
 ---
 

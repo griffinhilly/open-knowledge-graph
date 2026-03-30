@@ -18,7 +18,7 @@ tags:
 - formalism
 - art-for-art
 - aestheticism
-stage: expert
+stage: advanced
 status: validated
 ---
 # Art for Art's Sake: The Autonomy of Aesthetic Form

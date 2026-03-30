@@ -14,7 +14,7 @@ tags:
 - parseval
 - energy
 - spectral-density
-stage: expert
+stage: advanced
 status: validated
 ---
 

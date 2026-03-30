@@ -19,7 +19,7 @@ tags:
 - voice-leading
 - counterpoint
 - texture
-stage: expert
+stage: advanced
 status: validated
 ---
 # Voice-Leading Voice Exchange

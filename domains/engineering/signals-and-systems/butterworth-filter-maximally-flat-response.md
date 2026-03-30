@@ -14,7 +14,7 @@ tags:
 - butterworth
 - maximally-flat
 - response-shape
-stage: expert
+stage: advanced
 status: validated
 ---
 

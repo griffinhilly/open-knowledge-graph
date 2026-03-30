@@ -16,7 +16,7 @@ tags:
 - ideology
 - materialism
 - base-superstructure
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - calcium-signaling
 - NMDA-receptors
 - molecular-mechanisms
-stage: expert
+stage: advanced
 status: validated
 ---
 

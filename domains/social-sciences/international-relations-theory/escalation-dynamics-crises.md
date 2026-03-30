@@ -15,7 +15,7 @@ tags:
 - escalation
 - conflict
 - war
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Escalation Dynamics and Crisis Management

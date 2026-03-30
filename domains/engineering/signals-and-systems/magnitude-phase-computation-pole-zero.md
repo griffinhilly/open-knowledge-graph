@@ -14,7 +14,7 @@ tags:
 - pole-zero
 - magnitude
 - phase
-stage: expert
+stage: advanced
 status: validated
 ---
 

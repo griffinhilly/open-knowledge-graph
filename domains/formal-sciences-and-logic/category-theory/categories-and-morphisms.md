@@ -32,7 +32,7 @@ tags:
 - objects
 - composition
 - identity
-stage: expert
+stage: advanced
 status: validated
 ---
 

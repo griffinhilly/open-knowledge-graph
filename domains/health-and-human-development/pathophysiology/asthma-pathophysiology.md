@@ -17,7 +17,7 @@ tags:
 - asthma
 - airway-inflammation
 - reversible-obstruction
-stage: expert
+stage: advanced
 status: validated
 ---
 

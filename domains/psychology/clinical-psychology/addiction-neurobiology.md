@@ -16,7 +16,7 @@ tags:
 - addiction
 - dopamine
 - tolerance
-stage: expert
+stage: advanced
 status: validated
 ---
 

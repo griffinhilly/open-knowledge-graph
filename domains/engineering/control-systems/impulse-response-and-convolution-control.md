@@ -13,7 +13,7 @@ tags:
 - convolution
 - h(t)
 - characterization
-stage: expert
+stage: advanced
 status: validated
 ---
 

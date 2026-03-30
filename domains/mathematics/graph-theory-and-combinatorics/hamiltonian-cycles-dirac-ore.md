@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - graph-theory
 - hamiltonicity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Hamiltonian Cycles: Dirac and Ore Conditions

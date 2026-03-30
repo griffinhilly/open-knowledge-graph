@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - behavioral activation
 - depression
-stage: expert
+stage: advanced
 status: validated
 ---
 

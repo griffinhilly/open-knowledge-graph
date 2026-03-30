@@ -18,7 +18,7 @@ tags:
 - thrombosis
 - vascular-disease
 - hemostasis-failure
-stage: expert
+stage: advanced
 status: validated
 ---
 

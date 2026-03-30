@@ -12,7 +12,7 @@ tags:
 - adverse-events
 - spontaneous-reporting
 - surveillance
-stage: expert
+stage: advanced
 status: validated
 ---
 

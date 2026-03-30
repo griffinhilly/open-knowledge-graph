@@ -15,7 +15,7 @@ tags:
 - natural-frequency
 - dominant-poles
 - performance-specs
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - density-matrices
 - mixed-states
-stage: advanced
+stage: expert
 status: validated
 ---
 

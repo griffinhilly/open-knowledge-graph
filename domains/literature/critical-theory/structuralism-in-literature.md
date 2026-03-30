@@ -26,7 +26,7 @@ tags:
 - Lévi-Strauss
 - Barthes
 - sign-systems
-stage: expert
+stage: advanced
 status: validated
 ---
 # Structuralism and Literary Analysis

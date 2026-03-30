@@ -17,7 +17,7 @@ tags:
 - hybridity
 - form
 - adaptation
-stage: expert
+stage: advanced
 status: validated
 ---
 

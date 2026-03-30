@@ -19,7 +19,7 @@ tags:
 - autoimmune-disease
 - immune-tolerance
 - self-reactivity
-stage: expert
+stage: advanced
 status: validated
 ---
 

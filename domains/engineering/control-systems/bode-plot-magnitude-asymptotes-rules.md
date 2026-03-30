@@ -15,7 +15,7 @@ tags:
 - asymptotes
 - magnitude
 - logarithmic-scale
-stage: expert
+stage: advanced
 status: validated
 ---
 

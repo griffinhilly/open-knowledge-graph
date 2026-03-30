@@ -16,7 +16,7 @@ tags:
 - frequency-response
 - magnitude
 - phase
-stage: expert
+stage: advanced
 status: validated
 ---
 

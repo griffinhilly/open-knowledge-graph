@@ -16,7 +16,7 @@ tags:
 - anomie
 - solidarity
 - deviance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Anomie and Social Solidarity

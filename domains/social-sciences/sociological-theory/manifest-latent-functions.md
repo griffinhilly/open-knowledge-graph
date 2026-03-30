@@ -14,7 +14,7 @@ tags:
 - functions
 - purposes
 - institutions
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

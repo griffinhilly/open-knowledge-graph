@@ -13,7 +13,7 @@ tags:
 - selection-bias
 - internal-validity
 - study-design
-stage: expert
+stage: advanced
 status: validated
 ---
 

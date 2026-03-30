@@ -13,7 +13,7 @@ tags:
 - research-design
 - planning
 - logic
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

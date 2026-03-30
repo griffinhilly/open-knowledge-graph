@@ -17,7 +17,7 @@ tags:
 - n-type
 - consistency
 - formula set
-stage: expert
+stage: advanced
 status: validated
 ---
 

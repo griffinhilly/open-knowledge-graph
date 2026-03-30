@@ -17,7 +17,7 @@ tags:
 - industrialization
 - agriculture
 - productivity
-stage: expert
+stage: advanced
 status: validated
 ---
 

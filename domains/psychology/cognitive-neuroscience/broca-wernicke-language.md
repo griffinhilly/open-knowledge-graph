@@ -14,7 +14,7 @@ tags:
 - language
 - cortex
 - production-comprehension
-stage: expert
+stage: advanced
 status: validated
 ---
 

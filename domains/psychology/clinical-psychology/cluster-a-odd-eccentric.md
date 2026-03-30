@@ -14,7 +14,7 @@ tags:
 - paranoid
 - schizoid
 - schizotypal
-stage: expert
+stage: advanced
 status: validated
 ---
 # Cluster A Personality Disorders: Odd and Eccentric

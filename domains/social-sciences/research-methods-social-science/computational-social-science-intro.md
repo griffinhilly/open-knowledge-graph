@@ -15,7 +15,7 @@ tags:
 - agent-based-modeling
 - text-analysis
 - digital-methods
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

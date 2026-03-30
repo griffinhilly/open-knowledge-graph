@@ -10,7 +10,7 @@ tags:
 - graph-minors
 - robertson-seymour
 - well-quasi-order
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

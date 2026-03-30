@@ -14,7 +14,7 @@ tags:
 - historical
 - language-change
 - grammaticalization
-stage: expert
+stage: advanced
 status: validated
 ---
 # Grammaticalization: Mechanisms and Pathways

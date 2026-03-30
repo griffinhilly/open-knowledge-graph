@@ -16,7 +16,7 @@ tags:
 - culture
 - education
 - inequality
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

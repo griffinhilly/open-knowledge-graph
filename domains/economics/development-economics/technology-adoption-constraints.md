@@ -11,7 +11,7 @@ builds-toward:
 tags:
 - technology
 - adoption
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - few-shot
 - low-data
 - rapid-adaptation
-stage: advanced
+stage: expert
 status: validated
 ---
 # Few-Shot Learning

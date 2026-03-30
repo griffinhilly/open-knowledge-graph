@@ -12,7 +12,7 @@ tags:
 - stability
 - a-stability
 - ode
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Stability Regions and A-Stability

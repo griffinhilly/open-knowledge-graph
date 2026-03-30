@@ -10,7 +10,7 @@ tags:
 - grammaticalization
 - language-change
 - diachrony
-stage: expert
+stage: advanced
 status: validated
 ---
 

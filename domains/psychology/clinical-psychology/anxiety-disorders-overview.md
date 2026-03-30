@@ -20,7 +20,7 @@ tags:
 - fear
 - worry
 - classification
-stage: expert
+stage: advanced
 status: validated
 ---
 

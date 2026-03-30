@@ -18,7 +18,7 @@ tags:
 - sampled-data
 - discretization
 - sampling-rate
-stage: expert
+stage: advanced
 status: validated
 ---
 # Introduction to Digital Control Systems

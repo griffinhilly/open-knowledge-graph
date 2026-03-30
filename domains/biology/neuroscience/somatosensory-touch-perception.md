@@ -11,7 +11,7 @@ tags:
 - touch
 - mechanoreception
 - somatosensory
-stage: expert
+stage: advanced
 status: validated
 ---
 

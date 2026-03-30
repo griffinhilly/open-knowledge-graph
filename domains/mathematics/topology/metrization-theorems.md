@@ -16,7 +16,7 @@ tags:
 - metrization
 - metric-spaces
 - characterization
-stage: advanced
+stage: expert
 status: validated
 ---
 

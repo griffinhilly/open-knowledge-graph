@@ -14,7 +14,7 @@ tags:
 - witness
 - existential elimination
 - Herbrand
-stage: expert
+stage: advanced
 status: validated
 ---
 

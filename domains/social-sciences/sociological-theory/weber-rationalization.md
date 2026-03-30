@@ -17,7 +17,7 @@ tags:
 - weber
 - rationalization
 - modernity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Weber and the Iron Cage of Rationalization

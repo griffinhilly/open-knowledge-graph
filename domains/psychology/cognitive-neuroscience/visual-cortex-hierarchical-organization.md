@@ -21,7 +21,7 @@ tags:
 - V1
 - V2
 - V4
-stage: expert
+stage: advanced
 status: validated
 ---
 

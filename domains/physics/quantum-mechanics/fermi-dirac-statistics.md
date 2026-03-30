@@ -10,7 +10,7 @@ tags:
 - fermi-dirac
 - fermions
 - statistical-mechanics
-stage: advanced
+stage: expert
 status: validated
 ---
 

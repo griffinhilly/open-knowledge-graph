@@ -16,7 +16,7 @@ tags:
 - mimesis
 - catharsis
 - drama
-stage: expert
+stage: advanced
 status: validated
 ---
 

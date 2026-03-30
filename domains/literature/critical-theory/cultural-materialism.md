@@ -18,7 +18,7 @@ tags:
 - history
 - production
 - power
-stage: expert
+stage: advanced
 status: validated
 ---
 # Cultural Materialism

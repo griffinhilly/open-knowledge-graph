@@ -16,7 +16,7 @@ tags:
 - translation-theory
 - cultural-politics
 - venuti
-stage: expert
+stage: advanced
 status: validated
 ---
 

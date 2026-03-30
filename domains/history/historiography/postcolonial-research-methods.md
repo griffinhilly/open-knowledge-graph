@@ -15,7 +15,7 @@ tags:
 - methodology
 - decolonial
 - archives
-stage: expert
+stage: advanced
 status: validated
 ---
 # Postcolonial Approaches to Historical Research

@@ -15,7 +15,7 @@ tags:
 - cd4
 - helper-t-cells
 - differentiation
-stage: expert
+stage: advanced
 status: validated
 ---
 

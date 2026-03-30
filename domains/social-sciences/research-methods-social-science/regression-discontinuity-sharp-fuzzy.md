@@ -12,7 +12,7 @@ tags:
 - regression-discontinuity
 - rdd
 - threshold
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

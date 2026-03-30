@@ -19,7 +19,7 @@ tags:
 - translation
 - drama
 - intermedial
-stage: expert
+stage: advanced
 status: validated
 ---
 

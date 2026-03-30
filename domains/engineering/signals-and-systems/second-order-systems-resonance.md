@@ -12,7 +12,7 @@ tags:
 - second-order-systems
 - resonance
 - damping
-stage: expert
+stage: advanced
 status: validated
 ---
 

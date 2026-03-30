@@ -12,7 +12,7 @@ tags:
 - automata
 - bidirectional-reading
 - equivalence
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - semantics
 - tense
 - aspect
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - ventral-stream
 - IT-cortex
 - category-selectivity
-stage: expert
+stage: advanced
 status: validated
 ---
 

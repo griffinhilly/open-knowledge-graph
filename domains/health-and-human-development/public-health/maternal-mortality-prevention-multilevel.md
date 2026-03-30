@@ -15,7 +15,7 @@ tags:
 - maternal-health
 - prevention
 - global-health
-stage: expert
+stage: advanced
 status: validated
 ---
 

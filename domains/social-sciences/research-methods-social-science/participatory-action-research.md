@@ -18,7 +18,7 @@ tags:
 - participatory
 - engaged
 - reflexive
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Participatory Action Research Methods

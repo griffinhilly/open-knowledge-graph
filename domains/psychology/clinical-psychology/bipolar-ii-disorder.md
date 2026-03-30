@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - bipolar II
 - hypomania
-stage: expert
+stage: advanced
 status: validated
 ---
 

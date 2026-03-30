@@ -16,7 +16,7 @@ tags:
 - semantics
 - pragmatics
 - presupposition
-stage: expert
+stage: advanced
 status: validated
 ---
 # Presupposition and Assertion

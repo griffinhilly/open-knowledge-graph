@@ -15,7 +15,7 @@ tags:
 - context
 - contingency
 - specificity
-stage: expert
+stage: advanced
 status: validated
 ---
 

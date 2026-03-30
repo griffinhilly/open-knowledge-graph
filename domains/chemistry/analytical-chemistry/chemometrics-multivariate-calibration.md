@@ -17,7 +17,7 @@ tags:
 - multivariate
 - pattern-recognition
 - data-analysis
-stage: advanced
+stage: expert
 status: validated
 ---
 

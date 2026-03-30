@@ -10,7 +10,7 @@ tags:
 - neurolinguistics
 - aphasia
 - production
-stage: expert
+stage: advanced
 status: validated
 ---
 

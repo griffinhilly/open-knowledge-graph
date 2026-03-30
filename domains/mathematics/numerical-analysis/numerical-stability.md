@@ -14,7 +14,7 @@ tags:
 - stability
 - conditioning
 - error-analysis
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Numerical Stability and Conditioning

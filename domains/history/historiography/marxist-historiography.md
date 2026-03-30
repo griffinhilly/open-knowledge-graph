@@ -18,7 +18,7 @@ tags:
 - historical-materialism
 - base-superstructure
 - class
-stage: expert
+stage: advanced
 status: validated
 ---
 

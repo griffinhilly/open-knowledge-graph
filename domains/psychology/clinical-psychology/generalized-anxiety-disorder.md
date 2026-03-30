@@ -11,7 +11,7 @@ tags:
 - anxiety
 - worry
 - uncontrollable
-stage: expert
+stage: advanced
 status: validated
 ---
 

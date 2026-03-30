@@ -25,7 +25,7 @@ tags:
 - natural transformation
 - naturality square
 - morphisms of functors
-stage: expert
+stage: advanced
 status: validated
 ---
 

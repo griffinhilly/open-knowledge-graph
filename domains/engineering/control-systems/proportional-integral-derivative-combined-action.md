@@ -16,7 +16,7 @@ tags:
 - integral-action
 - derivative-action
 - tuning
-stage: expert
+stage: advanced
 status: validated
 ---
 # Proportional-Integral-Derivative Control: Combined Action

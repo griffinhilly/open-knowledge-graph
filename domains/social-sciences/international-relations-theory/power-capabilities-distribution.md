@@ -13,7 +13,7 @@ tags:
 - measurement
 - capabilities
 - polarity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Power and Capabilities Distribution

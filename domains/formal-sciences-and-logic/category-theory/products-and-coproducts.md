@@ -22,7 +22,7 @@ tags:
 - projection
 - injection
 - universal property
-stage: expert
+stage: advanced
 status: validated
 ---
 

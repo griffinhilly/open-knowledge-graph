@@ -15,7 +15,7 @@ tags:
 - magnitude-phase
 - closed-loop-response
 - design
-stage: expert
+stage: advanced
 status: validated
 ---
 

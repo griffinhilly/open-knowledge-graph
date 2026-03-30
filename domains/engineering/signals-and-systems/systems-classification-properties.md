@@ -15,7 +15,7 @@ tags:
 - systems
 - classification
 - properties
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # System Classification and Properties

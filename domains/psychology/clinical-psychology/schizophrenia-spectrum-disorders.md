@@ -16,7 +16,7 @@ builds-toward:
 tags:
 - schizophrenia
 - psychosis
-stage: expert
+stage: advanced
 status: validated
 ---
 # Schizophrenia Spectrum Disorders

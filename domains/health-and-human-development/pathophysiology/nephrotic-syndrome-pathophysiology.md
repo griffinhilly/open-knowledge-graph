@@ -14,7 +14,7 @@ tags:
 - nephrotic-syndrome
 - proteinuria
 - albuminuria
-stage: expert
+stage: advanced
 status: validated
 ---
 

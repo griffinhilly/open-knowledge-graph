@@ -15,7 +15,7 @@ tags:
 - collective-memory
 - trauma
 - commemoration
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - muqaddimah
 - islamic-historiography
 - sociology
-stage: expert
+stage: advanced
 status: validated
 ---
 

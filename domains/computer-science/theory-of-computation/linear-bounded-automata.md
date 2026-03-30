@@ -14,7 +14,7 @@ tags:
 - automata
 - resource-bounds
 - complexity
-stage: advanced
+stage: expert
 status: validated
 ---
 

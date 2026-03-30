@@ -17,7 +17,7 @@ tags:
 - epidemiology
 - methodology
 - study-design
-stage: expert
+stage: advanced
 status: validated
 ---
 # Selecting Appropriate Epidemiologic Study Designs

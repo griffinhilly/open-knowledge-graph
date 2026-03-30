@@ -16,7 +16,7 @@ tags:
 - thymic-selection
 - t-cell-education
 - tolerance
-stage: expert
+stage: advanced
 status: validated
 ---
 

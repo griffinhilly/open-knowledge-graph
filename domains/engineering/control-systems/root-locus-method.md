@@ -21,7 +21,7 @@ tags:
 - asymptotes
 - breakaway-points
 - angle-condition
-stage: expert
+stage: advanced
 status: validated
 ---
 

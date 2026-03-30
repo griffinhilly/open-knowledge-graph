@@ -14,7 +14,7 @@ tags:
 - ergative
 - alignment
 - typology
-stage: expert
+stage: advanced
 status: validated
 ---
 # Ergative-Absolutive Systems and Their Properties

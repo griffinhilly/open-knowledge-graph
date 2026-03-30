@@ -13,7 +13,7 @@ tags:
 - demarcation
 - scientific-method
 - pseudoscience
-stage: expert
+stage: advanced
 status: validated
 ---
 

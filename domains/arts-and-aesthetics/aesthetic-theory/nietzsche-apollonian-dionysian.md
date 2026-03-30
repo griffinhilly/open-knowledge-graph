@@ -16,7 +16,7 @@ tags:
 - dionysian
 - tragic
 - form
-stage: expert
+stage: advanced
 status: validated
 ---
 # Nietzsche: Apollonian and Dionysian Art

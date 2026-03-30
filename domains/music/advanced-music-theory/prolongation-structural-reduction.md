@@ -13,7 +13,7 @@ tags:
 - prolongation
 - reduction
 - analysis
-stage: expert
+stage: advanced
 status: validated
 ---
 

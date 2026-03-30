@@ -15,7 +15,7 @@ tags:
 - consciousness
 - culture
 - society
-stage: expert
+stage: advanced
 status: validated
 ---
 

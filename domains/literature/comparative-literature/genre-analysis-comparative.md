@@ -15,7 +15,7 @@ tags:
 - form
 - comparative
 - literary-conventions
-stage: expert
+stage: advanced
 status: validated
 ---
 

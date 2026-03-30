@@ -16,7 +16,7 @@ tags:
 - late antiquity
 - transformation
 - method
-stage: expert
+stage: advanced
 status: validated
 ---
 

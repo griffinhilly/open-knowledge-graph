@@ -14,7 +14,7 @@ tags:
 - gaussian
 - colored-noise
 - characterization
-stage: expert
+stage: advanced
 status: validated
 ---
 

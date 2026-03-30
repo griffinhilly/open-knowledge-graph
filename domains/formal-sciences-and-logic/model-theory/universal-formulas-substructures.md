@@ -15,7 +15,7 @@ tags:
 - universal-formulas
 - preservation
 - homomorphisms
-stage: expert
+stage: advanced
 status: validated
 ---
 

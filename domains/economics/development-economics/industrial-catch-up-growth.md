@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - industrialization
 - technology
-stage: expert
+stage: advanced
 status: validated
 ---
 # Industrial Catch-Up and Technology Transfer

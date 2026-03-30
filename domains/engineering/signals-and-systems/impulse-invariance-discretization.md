@@ -21,7 +21,7 @@ tags:
 - digital-filters
 - discretization
 - impulse-response
-stage: expert
+stage: advanced
 status: validated
 ---
 # Impulse Invariance for Digital Filter Design

@@ -14,7 +14,7 @@ tags:
 - graph-theory
 - sequences
 - degrees
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

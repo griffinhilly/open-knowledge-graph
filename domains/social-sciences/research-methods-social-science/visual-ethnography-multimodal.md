@@ -20,7 +20,7 @@ tags:
 - visual
 - multimodal
 - qualitative
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Visual and Multimodal Ethnography

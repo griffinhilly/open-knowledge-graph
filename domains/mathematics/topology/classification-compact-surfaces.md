@@ -14,7 +14,7 @@ tags:
 - surface-classification
 - genus
 - euler-characteristic
-stage: advanced
+stage: expert
 status: validated
 ---
 

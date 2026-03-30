@@ -17,7 +17,7 @@ tags:
 - heat-capacity
 - internal-energy
 - equipartition
-stage: advanced
+stage: expert
 status: validated
 ---
 

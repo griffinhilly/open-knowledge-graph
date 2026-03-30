@@ -16,7 +16,7 @@ tags:
 - informal
 - wages
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 

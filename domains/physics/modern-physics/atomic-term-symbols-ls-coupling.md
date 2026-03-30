@@ -12,7 +12,7 @@ tags:
 - term-symbols
 - ls-coupling
 - atomic-structure
-stage: advanced
+stage: expert
 status: validated
 ---
 

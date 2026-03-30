@@ -17,7 +17,7 @@ tags:
 - dense-orders
 - model-theory
 - axiomatization
-stage: expert
+stage: advanced
 status: validated
 ---
 

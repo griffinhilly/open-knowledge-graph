@@ -16,7 +16,7 @@ tags:
 - graph-neural-network
 - gnn
 - node-classification
-stage: advanced
+stage: expert
 status: validated
 ---
 

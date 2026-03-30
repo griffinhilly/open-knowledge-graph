@@ -13,7 +13,7 @@ tags:
 - timbre
 - orchestration
 - spectral
-stage: expert
+stage: advanced
 status: validated
 ---
 

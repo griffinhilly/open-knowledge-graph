@@ -18,7 +18,7 @@ tags:
 - portal-hypertension
 - varices
 - bleeding
-stage: expert
+stage: advanced
 status: validated
 ---
 # Portal Hypertension and Esophageal Varices: Pathophysiology of Variceal Formation and Rupture

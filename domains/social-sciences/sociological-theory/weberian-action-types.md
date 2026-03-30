@@ -17,7 +17,7 @@ tags:
 - rationality
 - motivation
 - sociology-of-action
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Weber's Types of Social Action

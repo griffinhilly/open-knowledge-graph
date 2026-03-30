@@ -12,7 +12,7 @@ tags:
 - alignment
 - typology
 - grammatical-relations
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - mad
 - stability
 - submarines
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

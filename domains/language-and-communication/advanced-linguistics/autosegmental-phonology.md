@@ -14,7 +14,7 @@ tags:
 - phonology
 - autosegmental
 - features
-stage: expert
+stage: advanced
 status: validated
 ---
 # Autosegmental Phonology

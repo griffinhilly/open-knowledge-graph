@@ -14,7 +14,7 @@ tags:
 - risk-factors
 - prevention
 - multifactorial
-stage: expert
+stage: advanced
 status: validated
 ---
 

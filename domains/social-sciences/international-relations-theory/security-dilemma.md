@@ -16,7 +16,7 @@ tags:
 - conflict-spiral
 - anarchy
 - arms-race
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

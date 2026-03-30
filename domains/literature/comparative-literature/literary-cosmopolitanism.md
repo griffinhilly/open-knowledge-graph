@@ -18,7 +18,7 @@ tags:
 - world-literature
 - ethics
 - global
-stage: expert
+stage: advanced
 status: validated
 ---
 

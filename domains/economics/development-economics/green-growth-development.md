@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - green-growth
 - sustainability
-stage: expert
+stage: advanced
 status: validated
 ---
 

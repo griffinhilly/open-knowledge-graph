@@ -15,7 +15,7 @@ tags:
 - departure-angles
 - arrival-angles
 - real-axis-segments
-stage: expert
+stage: advanced
 status: validated
 ---
 

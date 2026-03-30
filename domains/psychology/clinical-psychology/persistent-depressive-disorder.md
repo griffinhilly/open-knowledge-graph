@@ -17,7 +17,7 @@ builds-toward:
 tags:
 - depression
 - dysthymia
-stage: expert
+stage: advanced
 status: validated
 ---
 # Persistent Depressive Disorder (Dysthymia)

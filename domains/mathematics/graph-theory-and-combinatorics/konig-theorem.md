@@ -12,7 +12,7 @@ tags:
 - konig-theorem
 - min-max
 - vertex-cover
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

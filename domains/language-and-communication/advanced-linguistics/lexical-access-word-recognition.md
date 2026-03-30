@@ -12,7 +12,7 @@ tags:
 - psycholinguistics
 - lexical-access
 - word-recognition
-stage: expert
+stage: advanced
 status: validated
 ---
 

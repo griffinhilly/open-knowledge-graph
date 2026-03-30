@@ -9,7 +9,7 @@ tags:
 - alliances
 - credibility
 - commitment
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

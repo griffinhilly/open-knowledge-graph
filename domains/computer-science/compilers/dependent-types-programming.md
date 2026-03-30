@@ -14,7 +14,7 @@ tags:
 - type-systems
 - dependent-types
 - advanced
-stage: advanced
+stage: expert
 status: validated
 ---
 # Dependent Types and Value-Level Type Constraints

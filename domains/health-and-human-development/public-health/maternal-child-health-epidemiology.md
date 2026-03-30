@@ -14,7 +14,7 @@ tags:
 - pregnancy
 - mortality
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 

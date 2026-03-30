@@ -12,7 +12,7 @@ tags:
 - land
 - tenure
 - agriculture
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - neuroimaging
 - methods
 - bold
-stage: expert
+stage: advanced
 status: validated
 ---
 

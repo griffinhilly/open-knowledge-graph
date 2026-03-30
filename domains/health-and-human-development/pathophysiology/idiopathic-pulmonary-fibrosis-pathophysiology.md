@@ -16,7 +16,7 @@ tags:
 - pulmonary-fibrosis
 - epithelial-injury
 - myofibroblast
-stage: expert
+stage: advanced
 status: validated
 ---
 

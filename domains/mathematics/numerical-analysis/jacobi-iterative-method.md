@@ -15,7 +15,7 @@ tags:
 - jacobi
 - iterative
 - linear-systems
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

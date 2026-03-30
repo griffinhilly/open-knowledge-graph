@@ -18,7 +18,7 @@ tags:
 - complexity-classes
 - quantified-formulas
 - hierarchy
-stage: advanced
+stage: expert
 status: validated
 ---
 # The Polynomial Hierarchy

@@ -14,7 +14,7 @@ tags:
 - background
 - middleground
 - foreground
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - cell-death
 - apoptosis
 - necrosis
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - morphism
 - isomorphism
 - preservation
-stage: expert
+stage: advanced
 status: validated
 ---
 

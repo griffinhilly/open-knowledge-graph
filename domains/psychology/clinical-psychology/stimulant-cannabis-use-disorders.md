@@ -10,7 +10,7 @@ tags:
 - stimulants
 - cocaine
 - cannabis
-stage: expert
+stage: advanced
 status: validated
 ---
 

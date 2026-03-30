@@ -20,7 +20,7 @@ tags:
 - hypothesis-testing
 - regression
 - p-values
-stage: expert
+stage: advanced
 status: validated
 ---
 # Biostatistics in Public Health

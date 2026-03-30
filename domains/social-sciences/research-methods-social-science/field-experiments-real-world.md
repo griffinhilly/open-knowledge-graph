@@ -16,7 +16,7 @@ tags:
 - field
 - policy
 - randomized
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

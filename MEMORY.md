@@ -51,6 +51,31 @@
 - **Leaf connector tool**: `tools/connect_leaves.py` — tag/title overlap scoring, cycle-safe apply, duplicate detection. Used for 5 domains so far.
 - **Dedup tool**: `tools/dedup_pairs.py` — delete weaker file + redirect references. Caveat: broad text replacement can corrupt IDs/tags if delete_id is substring of keep_id (fixed in code but verify after runs).
 
+## Cross-Domain Stage Calibration (Mar 29, 2026) — DONE
+
+**1,446 topics restaged** across 17 domains via 14-agent evaluation swarm. Validation passed (0 errors, 0 new cycles).
+
+**Root cause was blanket course-level staging**: topics inherited course stage from `_domain.yml` without individual evaluation. At least 9 courses had 100% of topics at one stage.
+
+**Key changes:**
+- Chemistry: 0→21 expert (DFT, post-HF, 2D NMR, computational chem)
+- Computer Science: 0→52 expert (transformers, BFT, polynomial hierarchy, dependent types)
+- Mathematics: 59→113 expert (Galois theory, p-adics, martingales, spectral graph theory + 83 formal-systems→advanced)
+- Physics: 190→215 expert (scattering theory, path integrals, relativistic QM)
+- Health: 273→42 expert (was massively inflated; 215→advanced, 16→formal-systems)
+- Engineering: 194→58 expert (128→advanced, 8→formal-systems)
+- Psychology: 220→98 expert (clinical disorder overviews demoted)
+- Literature: 146→46 expert, History: 93→23 expert
+- Social Sciences: 174 topics promoted from formal-systems/abstract-reasoning to advanced
+- Grand totals: 2,951 advanced (+1,210), 1,268 expert (-1,094)
+
+**_domain.yml**: Only math/measure-theory-and-functional-analysis changed (advanced→expert). Automated reconciliation of other _domain.yml files was reverted — minimum-stage logic was wrong for mixed-stage courses. _domain.yml course stages may need manual review in a future session.
+
+**Remaining work (deferred):**
+- Step 3: Generate missing expert topics (~60 topic areas identified across all domains). Major gaps: inorganic chemistry (entirely absent), quantum computing, cryptography, ML theory, algebraic topology, differential geometry, general relativity, QFT.
+- _domain.yml course-stage reconciliation needs a smarter approach (modal stage, not minimum)
+- Philosophy-of-science has ~10-12 duplicate topic pairs (separate from staging)
+
 ## Gotchas
 - **Python f-string + JS templates**: `\'` inside f-string produces `'` not `\'`. Use `"'" +` concatenation instead.
 - **Inline JSON size limit**: Browsers choke on 700KB+ single-line `<script>` data. Use `indent=1` for multi-line or external `.js` file.

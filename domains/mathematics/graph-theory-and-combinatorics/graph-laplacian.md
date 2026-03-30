@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - algebraic-graph-theory
 - laplacian
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Graph Laplacian and Spectral Properties

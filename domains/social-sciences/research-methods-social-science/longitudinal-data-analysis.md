@@ -20,7 +20,7 @@ tags:
 - panel
 - temporal
 - multilevel
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

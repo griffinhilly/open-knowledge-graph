@@ -14,7 +14,7 @@ tags:
 - proof-technique
 - reasoning
 - homological-algebra
-stage: expert
+stage: advanced
 status: validated
 ---
 

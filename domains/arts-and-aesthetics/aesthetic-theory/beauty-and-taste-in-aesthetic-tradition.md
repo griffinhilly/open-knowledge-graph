@@ -14,7 +14,7 @@ tags:
 - taste
 - aesthetic judgment
 - history of aesthetics
-stage: expert
+stage: advanced
 status: validated
 ---
 

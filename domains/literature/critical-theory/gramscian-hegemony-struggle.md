@@ -16,7 +16,7 @@ tags:
 - consent
 - culture
 - struggle
-stage: expert
+stage: advanced
 status: validated
 ---
 

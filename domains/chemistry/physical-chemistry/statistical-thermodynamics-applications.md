@@ -23,7 +23,7 @@ tags:
 - entropy
 - equilibrium-constant
 - standard-state
-stage: advanced
+stage: expert
 status: validated
 ---
 

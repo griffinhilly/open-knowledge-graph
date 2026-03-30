@@ -14,7 +14,7 @@ tags:
 - notch
 - resonator
 - narrow-band
-stage: expert
+stage: advanced
 status: validated
 ---
 

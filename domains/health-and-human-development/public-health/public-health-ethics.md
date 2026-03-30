@@ -20,7 +20,7 @@ tags:
 - beneficence
 - public-health-law
 - stewardship
-stage: expert
+stage: advanced
 status: validated
 ---
 

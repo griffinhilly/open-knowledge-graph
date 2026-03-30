@@ -13,7 +13,7 @@ tags:
 - women-history
 - feminist-historiography
 - sexuality
-stage: expert
+stage: advanced
 status: validated
 ---
 

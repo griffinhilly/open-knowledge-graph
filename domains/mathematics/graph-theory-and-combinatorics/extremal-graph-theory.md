@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - graph-theory
 - extremal
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Extremal Graph Theory and Forbidden Subgraphs

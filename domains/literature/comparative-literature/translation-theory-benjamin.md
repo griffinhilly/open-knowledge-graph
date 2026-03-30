@@ -18,7 +18,7 @@ tags:
 - philosophy
 - Benjamin
 - meaning
-stage: expert
+stage: advanced
 status: validated
 ---
 

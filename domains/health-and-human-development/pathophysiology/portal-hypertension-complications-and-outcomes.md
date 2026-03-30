@@ -12,7 +12,7 @@ tags:
 - ascites
 - splenomegaly
 - cirrhosis
-stage: expert
+stage: advanced
 status: validated
 ---
 

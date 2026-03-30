@@ -22,7 +22,7 @@ tags:
 - semiotics
 - ideology
 - connotation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Barthes' Mythologies: Reading Culture Semiologically

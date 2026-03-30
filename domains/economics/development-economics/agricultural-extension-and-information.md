@@ -12,7 +12,7 @@ tags:
 - agriculture
 - information
 - technology-adoption
-stage: expert
+stage: advanced
 status: validated
 ---
 

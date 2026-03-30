@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - algebraic-graph-theory
 - counting
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

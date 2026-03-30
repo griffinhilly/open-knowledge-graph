@@ -14,7 +14,7 @@ tags:
 - environmental history
 - nature
 - ecocriticism
-stage: expert
+stage: advanced
 status: validated
 ---
 

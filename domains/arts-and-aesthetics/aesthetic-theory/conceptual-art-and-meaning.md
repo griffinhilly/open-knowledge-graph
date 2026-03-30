@@ -15,7 +15,7 @@ tags:
 - idea
 - dematerialization
 - meaning
-stage: expert
+stage: advanced
 status: validated
 ---
 

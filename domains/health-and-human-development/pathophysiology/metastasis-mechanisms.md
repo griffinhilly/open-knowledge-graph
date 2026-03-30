@@ -12,7 +12,7 @@ tags:
 - metastasis
 - invasion
 - dissemination
-stage: expert
+stage: advanced
 status: validated
 ---
 

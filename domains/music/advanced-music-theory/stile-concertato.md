@@ -13,7 +13,7 @@ tags:
 - stile-concertato
 - ensemble
 - technique
-stage: expert
+stage: advanced
 status: validated
 ---
 

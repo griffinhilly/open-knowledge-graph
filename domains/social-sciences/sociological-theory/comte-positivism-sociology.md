@@ -13,7 +13,7 @@ tags:
 - classical-theory
 - positivism
 - comte
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

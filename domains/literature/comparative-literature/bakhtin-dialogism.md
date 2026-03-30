@@ -18,7 +18,7 @@ tags:
 - dialogue
 - language
 - novel-form
-stage: expert
+stage: advanced
 status: validated
 ---
 

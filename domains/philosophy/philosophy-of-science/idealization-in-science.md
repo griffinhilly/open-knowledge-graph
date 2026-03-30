@@ -16,7 +16,7 @@ tags:
 - approximation
 - simplification
 - models
-stage: expert
+stage: advanced
 status: validated
 ---
 

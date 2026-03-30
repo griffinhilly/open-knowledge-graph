@@ -16,7 +16,7 @@ tags:
 - subaltern-studies
 - decolonization
 - non-western
-stage: expert
+stage: advanced
 status: validated
 ---
 

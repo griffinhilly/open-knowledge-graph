@@ -13,7 +13,7 @@ prerequisites:
 tags:
 - glial-cells
 - myelin
-stage: expert
+stage: advanced
 status: validated
 ---
 # Oligodendrocytes and Myelination

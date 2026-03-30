@@ -16,7 +16,7 @@ tags:
 - hhs
 - hyperglycemia
 - osmotic-diuresis
-stage: expert
+stage: advanced
 status: validated
 ---
 

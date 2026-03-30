@@ -15,7 +15,7 @@ tags:
 - representation
 - idealization
 - phenomena
-stage: expert
+stage: advanced
 status: validated
 ---
 

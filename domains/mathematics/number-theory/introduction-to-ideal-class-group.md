@@ -10,7 +10,7 @@ tags:
 - ideal-class-group
 - algebraic-number-theory
 - ideals
-stage: advanced
+stage: expert
 status: validated
 ---
 

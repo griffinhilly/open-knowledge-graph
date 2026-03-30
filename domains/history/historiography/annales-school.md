@@ -16,7 +16,7 @@ tags:
 - structural-history
 - social-history
 - french
-stage: expert
+stage: advanced
 status: validated
 ---
 

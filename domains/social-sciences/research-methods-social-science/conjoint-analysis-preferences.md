@@ -18,7 +18,7 @@ tags:
 - survey
 - experimental
 - choice-modeling
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

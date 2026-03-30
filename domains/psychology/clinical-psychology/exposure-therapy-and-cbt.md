@@ -14,7 +14,7 @@ tags:
 - ERP
 - exposure
 - anxiety
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - hensels-lemma
 - lifting-solutions
 - p-adic-numbers
-stage: advanced
+stage: expert
 status: validated
 ---
 

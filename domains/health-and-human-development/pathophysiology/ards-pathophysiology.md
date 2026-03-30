@@ -16,7 +16,7 @@ tags:
 - respiratory-distress
 - lung-injury
 - acute-inflammation
-stage: expert
+stage: advanced
 status: validated
 ---
 

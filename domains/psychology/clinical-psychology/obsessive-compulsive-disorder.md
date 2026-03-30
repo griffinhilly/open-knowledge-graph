@@ -14,7 +14,7 @@ tags:
 - compulsions
 - intrusive-thoughts
 - anxiety
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - seasonality
 - clustering
 - trend-analysis
-stage: expert
+stage: advanced
 status: validated
 ---
 

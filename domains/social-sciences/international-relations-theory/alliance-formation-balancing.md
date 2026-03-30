@@ -15,7 +15,7 @@ tags:
 - alliance
 - balancing
 - power
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

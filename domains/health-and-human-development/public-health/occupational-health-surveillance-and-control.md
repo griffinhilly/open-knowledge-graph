@@ -16,7 +16,7 @@ tags:
 - occupational-health
 - surveillance
 - hazard-control
-stage: expert
+stage: advanced
 status: validated
 ---
 # Occupational Health Surveillance and Hazard Control

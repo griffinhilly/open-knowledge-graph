@@ -12,7 +12,7 @@ tags:
 - sor
 - over-relaxation
 - iterative
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

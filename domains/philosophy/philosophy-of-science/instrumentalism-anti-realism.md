@@ -12,7 +12,7 @@ tags:
 - anti-realism
 - instrumentalism
 - pragmatism
-stage: expert
+stage: advanced
 status: validated
 ---
 

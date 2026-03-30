@@ -12,7 +12,7 @@ tags:
 - acquisition
 - l2
 - interlanguage
-stage: expert
+stage: advanced
 status: validated
 ---
 

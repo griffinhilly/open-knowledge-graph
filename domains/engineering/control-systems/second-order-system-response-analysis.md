@@ -14,7 +14,7 @@ tags:
 - damping-ratio
 - poles
 - characteristic-equation
-stage: expert
+stage: advanced
 status: validated
 ---
 

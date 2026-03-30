@@ -13,7 +13,7 @@ tags:
 - infant industry
 - protection
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - rounding
 - error
 - propagation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Rounding Errors and Error Propagation

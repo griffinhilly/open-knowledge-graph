@@ -17,7 +17,7 @@ tags:
 - cascade-control
 - feedback-control
 - design-tradeoffs
-stage: expert
+stage: advanced
 status: validated
 ---
 # Compensation Design: Cascade vs. Feedback Control Tradeoffs

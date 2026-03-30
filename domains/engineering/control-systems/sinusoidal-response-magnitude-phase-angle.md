@@ -15,7 +15,7 @@ tags:
 - phase
 - complex-numbers
 - phasor
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - diffusion
 - constructivism
 - international-society
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

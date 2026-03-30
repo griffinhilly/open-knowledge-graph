@@ -14,7 +14,7 @@ tags:
 - reward
 - motivation
 - movement
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

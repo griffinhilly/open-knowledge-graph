@@ -16,7 +16,7 @@ tags:
 - p-adic-numbers
 - metric-spaces
 - completion
-stage: advanced
+stage: expert
 status: validated
 ---
 # Introduction to p-adic Numbers

@@ -13,7 +13,7 @@ tags:
 - eating-disorder
 - binge-purge
 - compensation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Bulimia Nervosa

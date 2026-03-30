@@ -15,7 +15,7 @@ tags:
 - interaction
 - self
 - mind
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # George Herbert Mead and Social Interaction

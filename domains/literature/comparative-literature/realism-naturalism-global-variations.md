@@ -15,7 +15,7 @@ tags:
 - naturalism
 - 19th-century
 - literary-movements
-stage: expert
+stage: advanced
 status: validated
 ---
 # Realism and Naturalism: Global Variations

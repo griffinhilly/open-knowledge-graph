@@ -14,7 +14,7 @@ tags:
 - acquisition
 - innateness
 - universal-grammar
-stage: expert
+stage: advanced
 status: validated
 ---
 

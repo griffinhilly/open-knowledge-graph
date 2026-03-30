@@ -17,7 +17,7 @@ tags:
 - positivism
 - logical-empiricism
 - history
-stage: expert
+stage: advanced
 status: validated
 ---
 

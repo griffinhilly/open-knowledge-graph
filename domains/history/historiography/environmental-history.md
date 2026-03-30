@@ -15,7 +15,7 @@ tags:
 - ecology
 - nature
 - climate
-stage: expert
+stage: advanced
 status: validated
 ---
 

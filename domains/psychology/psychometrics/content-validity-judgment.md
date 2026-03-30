@@ -12,7 +12,7 @@ tags:
 - content-validity
 - domain-sampling
 - expert-judgment
-stage: expert
+stage: advanced
 status: validated
 ---
 

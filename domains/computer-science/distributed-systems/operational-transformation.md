@@ -12,7 +12,7 @@ tags:
 - collaboration
 - conflict-resolution
 - editing
-stage: advanced
+stage: expert
 status: validated
 ---
 

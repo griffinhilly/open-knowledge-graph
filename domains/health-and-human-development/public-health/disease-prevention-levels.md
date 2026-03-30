@@ -21,7 +21,7 @@ tags:
 - secondary-prevention
 - tertiary-prevention
 - public-health
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # Levels of Disease Prevention

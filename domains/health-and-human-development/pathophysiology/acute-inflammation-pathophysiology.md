@@ -22,7 +22,7 @@ tags:
 - inflammation
 - innate-immunity
 - tissue-response
-stage: expert
+stage: advanced
 status: validated
 ---
 

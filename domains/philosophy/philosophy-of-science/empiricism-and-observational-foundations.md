@@ -15,7 +15,7 @@ tags:
 - empiricism
 - observation
 - experience
-stage: expert
+stage: advanced
 status: validated
 ---
 # Empiricism and the Foundations of Science

@@ -14,7 +14,7 @@ tags:
 - consistency
 - eventual-consistency
 - convergence
-stage: advanced
+stage: expert
 status: validated
 ---
 

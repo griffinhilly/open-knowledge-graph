@@ -16,7 +16,7 @@ tags:
 - structure
 - background
 - harmony
-stage: expert
+stage: advanced
 status: validated
 ---
 

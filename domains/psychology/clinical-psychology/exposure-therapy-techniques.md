@@ -12,7 +12,7 @@ tags:
 - exposure
 - cbt-technique
 - anxiety
-stage: expert
+stage: advanced
 status: validated
 ---
 # Exposure Therapy: Techniques and Applications

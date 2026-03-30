@@ -17,7 +17,7 @@ tags:
 - encounter-narratives
 - colonialism
 - resistance
-stage: expert
+stage: advanced
 status: validated
 ---
 

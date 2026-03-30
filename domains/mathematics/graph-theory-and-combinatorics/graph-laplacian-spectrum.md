@@ -12,7 +12,7 @@ tags:
 - graph-laplacian
 - spectral-gaps
 - connectivity
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

@@ -11,7 +11,7 @@ tags:
 - institutionalism
 - isomorphism
 - legitimacy
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - laplace-transform
 - complex-frequency
 - system-analysis
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - inquiry
 - ancient-greece
 - methodology
-stage: expert
+stage: advanced
 status: validated
 ---
 

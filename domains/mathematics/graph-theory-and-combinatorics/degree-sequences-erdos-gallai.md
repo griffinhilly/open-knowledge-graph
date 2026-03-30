@@ -13,7 +13,7 @@ tags:
 - degree-sequences
 - graph-characterization
 - theorems
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

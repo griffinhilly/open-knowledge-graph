@@ -18,7 +18,7 @@ tags:
 - pitch-class
 - post-tonal
 - atonality
-stage: expert
+stage: advanced
 status: validated
 ---
 

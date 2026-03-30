@@ -18,7 +18,7 @@ tags:
 - causal
 - confounding
 - estimators
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

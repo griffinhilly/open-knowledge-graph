@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - geography
 - determinants
-stage: expert
+stage: advanced
 status: validated
 ---
 

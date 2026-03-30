@@ -13,7 +13,7 @@ tags:
 - vision
 - phototransduction
 - signal-transduction
-stage: expert
+stage: advanced
 status: validated
 ---
 

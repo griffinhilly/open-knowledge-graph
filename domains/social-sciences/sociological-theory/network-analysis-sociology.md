@@ -17,7 +17,7 @@ tags:
 - social-networks
 - graph-theory
 - relations
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

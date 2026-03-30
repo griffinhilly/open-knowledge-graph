@@ -16,7 +16,7 @@ tags:
 - tubular-acidosis
 - distal-secretion
 - hyperchloremic-acidosis
-stage: expert
+stage: advanced
 status: validated
 ---
 

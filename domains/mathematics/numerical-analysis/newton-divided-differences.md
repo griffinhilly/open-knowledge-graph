@@ -12,7 +12,7 @@ tags:
 - divided-differences
 - interpolation
 - newton
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

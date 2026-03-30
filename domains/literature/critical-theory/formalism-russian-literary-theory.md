@@ -14,7 +14,7 @@ tags:
 - modernism
 - defamiliarization
 - form
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - neuroimaging
 - methods
 - stimulation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Transcranial Magnetic Stimulation and Brain Mapping

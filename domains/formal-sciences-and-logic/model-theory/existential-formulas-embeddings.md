@@ -17,7 +17,7 @@ tags:
 - existential-formulas
 - preservation
 - embeddings
-stage: expert
+stage: advanced
 status: validated
 ---
 # Existential Formulas and Preservation under Embeddings

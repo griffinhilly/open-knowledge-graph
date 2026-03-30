@@ -16,7 +16,7 @@ tags:
 - epidemiology
 - disease-causation
 - frameworks
-stage: expert
+stage: formal-systems
 status: validated
 ---
 # Host-Agent-Environment Disease Model

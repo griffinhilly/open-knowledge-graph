@@ -13,7 +13,7 @@ tags:
 - theory
 - interpretation
 - otherness
-stage: expert
+stage: advanced
 status: validated
 ---
 

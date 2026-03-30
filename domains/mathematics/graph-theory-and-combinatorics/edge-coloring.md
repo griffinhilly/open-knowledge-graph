@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - graph-theory
 - edge-coloring
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Edge Coloring and Chromatic Index

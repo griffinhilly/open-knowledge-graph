@@ -23,7 +23,7 @@ tags:
 - methodology
 - theory
 - interpretation
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -10,7 +10,7 @@ tags:
 - mindfulness
 - meditation
 - mental-health
-stage: expert
+stage: advanced
 status: validated
 ---
 

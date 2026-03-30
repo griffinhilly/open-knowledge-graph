@@ -17,7 +17,7 @@ tags:
 - movements
 - form
 - ideology
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - transmission
 - transformation
 - circulation
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -11,7 +11,7 @@ tags:
 - structuration
 - agency
 - structure
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

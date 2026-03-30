@@ -18,7 +18,7 @@ tags:
 - screening
 - diagnosis
 - program-evaluation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Screening Program Evaluation and Population-Level Optimization

@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - eating disorders
 - body image
-stage: expert
+stage: advanced
 status: validated
 ---
 

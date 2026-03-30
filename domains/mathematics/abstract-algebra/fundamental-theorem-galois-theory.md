@@ -12,7 +12,7 @@ tags:
 - galois-correspondence
 - subgroups
 - fixed-fields
-stage: advanced
+stage: expert
 status: validated
 ---
 

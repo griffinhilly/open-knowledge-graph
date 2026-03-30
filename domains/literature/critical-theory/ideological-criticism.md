@@ -20,7 +20,7 @@ tags:
 - Gramsci
 - ISA
 - naturalization
-stage: expert
+stage: advanced
 status: validated
 ---
 # Ideological Criticism and Hegemony

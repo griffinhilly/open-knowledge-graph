@@ -14,7 +14,7 @@ tags:
 - galois-group
 - automorphism
 - field-automorphism
-stage: advanced
+stage: expert
 status: validated
 ---
 

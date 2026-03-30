@@ -17,7 +17,7 @@ tags:
 - truth
 - unobservables
 - metaphysics
-stage: expert
+stage: advanced
 status: validated
 ---
 # Scientific Realism

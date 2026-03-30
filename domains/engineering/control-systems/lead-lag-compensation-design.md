@@ -17,7 +17,7 @@ tags:
 - compensation
 - design
 - steady-state-error
-stage: expert
+stage: advanced
 status: validated
 ---
 

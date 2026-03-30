@@ -88,4 +88,4 @@ courses:
     stage: advanced
   - id: measure-theory-and-functional-analysis
     title: Measure Theory & Functional Analysis
-    stage: advanced
+    stage: expert

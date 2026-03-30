@@ -12,7 +12,7 @@ tags:
 - graph-theory
 - operations
 - products
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

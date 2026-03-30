@@ -17,7 +17,7 @@ tags:
 - trade
 - development
 - growth
-stage: expert
+stage: advanced
 status: validated
 ---
 # Trade, Comparative Advantage, and Development

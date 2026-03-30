@@ -15,7 +15,7 @@ tags:
 - gaussian-elimination
 - pivoting
 - linear-systems
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ prerequisites:
 tags:
 - graph-theory
 - edge-coloring
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Vizing's Theorem

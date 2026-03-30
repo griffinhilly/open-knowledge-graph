@@ -12,7 +12,7 @@ tags:
 - quantum
 - atoms
 - coupling
-stage: advanced
+stage: expert
 status: validated
 ---
 

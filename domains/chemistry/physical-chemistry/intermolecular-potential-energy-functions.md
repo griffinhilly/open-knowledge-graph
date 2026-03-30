@@ -18,7 +18,7 @@ tags:
 - potential
 - interactions
 - van-der-waals
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Intermolecular Potential Energy Surfaces

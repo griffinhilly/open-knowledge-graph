@@ -16,7 +16,7 @@ tags:
 - institutions
 - cooperation
 - regimes
-stage: abstract-reasoning
+stage: advanced
 status: validated
 ---
 

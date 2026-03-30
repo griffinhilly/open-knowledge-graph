@@ -18,7 +18,7 @@ tags:
 - methodology
 - canon
 - debates
-stage: expert
+stage: advanced
 status: validated
 ---
 

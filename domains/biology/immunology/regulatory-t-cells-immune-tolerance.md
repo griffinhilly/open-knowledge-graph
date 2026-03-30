@@ -16,7 +16,7 @@ tags:
 - t-cell
 - tolerance
 - regulation
-stage: expert
+stage: advanced
 status: validated
 ---
 

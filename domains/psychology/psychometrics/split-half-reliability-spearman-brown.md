@@ -14,7 +14,7 @@ tags:
 - split-half
 - spearman-brown
 - reliability-estimation
-stage: expert
+stage: advanced
 status: validated
 ---
 

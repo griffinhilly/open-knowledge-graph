@@ -18,7 +18,7 @@ tags:
 - kinship
 - family
 - descent
-stage: expert
+stage: advanced
 status: validated
 ---
 # Genealogy as Historical Method

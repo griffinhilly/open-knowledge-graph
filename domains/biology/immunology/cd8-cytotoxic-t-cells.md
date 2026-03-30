@@ -16,7 +16,7 @@ tags:
 - t-cell
 - cytotoxicity
 - killing
-stage: expert
+stage: advanced
 status: validated
 ---
 

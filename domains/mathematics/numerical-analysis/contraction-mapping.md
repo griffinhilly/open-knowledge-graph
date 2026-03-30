@@ -12,7 +12,7 @@ tags:
 - contraction-mapping
 - banach
 - fixed-point
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

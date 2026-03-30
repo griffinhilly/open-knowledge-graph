@@ -14,7 +14,7 @@ tags:
 - nmr-spectroscopy
 - second-order-effects
 - quantum-effects
-stage: advanced
+stage: expert
 status: validated
 ---
 

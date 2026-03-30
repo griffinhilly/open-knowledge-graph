@@ -19,7 +19,7 @@ tags:
 - marx
 - materialism
 - historical
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Marx and Historical Materialism

@@ -16,7 +16,7 @@ tags:
 - settling-time
 - rise-time
 - bandwidth
-stage: expert
+stage: advanced
 status: validated
 ---
 

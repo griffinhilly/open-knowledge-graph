@@ -19,7 +19,7 @@ tags:
 - consent
 - power
 - culture
-stage: expert
+stage: advanced
 status: validated
 ---
 # Gramsci's Hegemony and Cultural Consent

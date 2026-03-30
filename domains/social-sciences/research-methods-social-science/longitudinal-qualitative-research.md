@@ -16,7 +16,7 @@ tags:
 - qualitative
 - temporal
 - narrative
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

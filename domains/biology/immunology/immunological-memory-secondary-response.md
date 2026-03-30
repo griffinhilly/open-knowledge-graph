@@ -14,7 +14,7 @@ tags:
 - adaptive
 - memory
 - recall-response
-stage: expert
+stage: advanced
 status: validated
 ---
 

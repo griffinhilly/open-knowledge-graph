@@ -13,7 +13,7 @@ tags:
 - constructible
 - degree-2
 - tower-of-fields
-stage: advanced
+stage: expert
 status: validated
 ---
 # Ruler and Compass Constructions (Algebraic Proof)

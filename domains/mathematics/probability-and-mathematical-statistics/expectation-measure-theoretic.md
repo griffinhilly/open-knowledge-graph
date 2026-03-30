@@ -16,7 +16,7 @@ tags:
 - expectation
 - integration
 - measure-theory
-stage: advanced
+stage: expert
 status: validated
 ---
 

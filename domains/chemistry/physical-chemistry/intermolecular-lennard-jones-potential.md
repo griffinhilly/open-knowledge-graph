@@ -15,7 +15,7 @@ tags:
 - lennard-jones
 - van-der-waals
 - potential
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

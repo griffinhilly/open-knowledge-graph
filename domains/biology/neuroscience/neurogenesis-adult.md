@@ -14,7 +14,7 @@ tags:
 - neurogenesis
 - plasticity
 - adult-brain
-stage: expert
+stage: advanced
 status: validated
 ---
 # Adult Neurogenesis: Generation of New Neurons in Mature Brain

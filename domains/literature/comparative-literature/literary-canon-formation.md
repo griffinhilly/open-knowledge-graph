@@ -17,7 +17,7 @@ tags:
 - authority
 - gatekeeping
 - literary-history
-stage: expert
+stage: advanced
 status: validated
 ---
 

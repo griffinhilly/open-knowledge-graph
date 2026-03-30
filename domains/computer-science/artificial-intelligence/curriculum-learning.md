@@ -10,7 +10,7 @@ tags:
 - curriculum
 - difficulty-progression
 - pacing
-stage: advanced
+stage: expert
 status: validated
 ---
 

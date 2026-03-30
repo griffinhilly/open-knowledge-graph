@@ -15,7 +15,7 @@ tags:
 - filter-design
 - filter-classification
 - frequency-response
-stage: expert
+stage: advanced
 status: validated
 ---
 

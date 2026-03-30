@@ -17,7 +17,7 @@ tags:
 - productivity
 - modernization
 - Green Revolution
-stage: expert
+stage: advanced
 status: validated
 ---
 # Agricultural Development and Modernization

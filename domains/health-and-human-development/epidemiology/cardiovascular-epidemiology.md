@@ -14,7 +14,7 @@ tags:
 - cardiovascular-disease
 - risk-prediction
 - prevention
-stage: expert
+stage: advanced
 status: validated
 ---
 

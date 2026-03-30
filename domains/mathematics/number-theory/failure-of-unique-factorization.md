@@ -16,7 +16,7 @@ tags:
 - unique-factorization
 - algebraic-number-fields
 - ideals
-stage: advanced
+stage: expert
 status: validated
 ---
 # Failure of Unique Factorization in Algebraic Number Fields

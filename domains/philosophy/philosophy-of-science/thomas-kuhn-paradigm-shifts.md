@@ -15,7 +15,7 @@ tags:
 - kuhn
 - paradigm
 - revolution
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - contingency
 - emergence
 - history
-stage: expert
+stage: advanced
 status: validated
 ---
 

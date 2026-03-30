@@ -14,7 +14,7 @@ tags:
 - self-attention
 - multi-head
 - transformer
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - Set
 - Grp
 - Top
-stage: expert
+stage: advanced
 status: validated
 ---
 # Concrete Categories

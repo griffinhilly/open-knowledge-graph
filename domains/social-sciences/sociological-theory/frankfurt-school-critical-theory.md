@@ -14,7 +14,7 @@ tags:
 - frankfurt-school
 - ideology
 - domination
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

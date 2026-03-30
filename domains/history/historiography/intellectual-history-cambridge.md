@@ -15,7 +15,7 @@ tags:
 - cambridge-school
 - contextualism
 - political-thought
-stage: expert
+stage: advanced
 status: validated
 ---
 

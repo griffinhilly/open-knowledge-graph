@@ -14,7 +14,7 @@ tags:
 - gender
 - identity
 - normativity
-stage: expert
+stage: advanced
 status: validated
 ---
 

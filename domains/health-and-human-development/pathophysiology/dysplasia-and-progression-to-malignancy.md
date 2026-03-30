@@ -16,7 +16,7 @@ tags:
 - malignant-transformation
 - cancer
 - neoplasia
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - functors
 - equivalence
 - natural-transformations
-stage: expert
+stage: advanced
 status: validated
 ---
 # Natural Isomorphisms Between Functors

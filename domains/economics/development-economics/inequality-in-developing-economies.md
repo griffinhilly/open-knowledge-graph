@@ -15,7 +15,7 @@ tags:
 - distribution
 - development
 - Gini
-stage: expert
+stage: advanced
 status: validated
 ---
 # Inequality and Development

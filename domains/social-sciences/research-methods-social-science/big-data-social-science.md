@@ -22,7 +22,7 @@ tags:
 - computational
 - digital-traces
 - scale
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

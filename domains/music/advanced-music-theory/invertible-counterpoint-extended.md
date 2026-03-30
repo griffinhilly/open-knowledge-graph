@@ -15,7 +15,7 @@ tags:
 - counterpoint
 - inversion
 - voice-leading
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - historical
 - comparative
 - periodization
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - floating-point
 - representation
 - computer-arithmetic
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Floating Point Representation

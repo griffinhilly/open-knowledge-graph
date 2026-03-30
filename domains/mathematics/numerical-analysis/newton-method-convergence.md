@@ -15,7 +15,7 @@ tags:
 - newton-method
 - root-finding
 - convergence
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Newton's Method: Convergence Analysis

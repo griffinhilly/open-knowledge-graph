@@ -18,7 +18,7 @@ tags:
 - quasi-experimental
 - exogenous-variation
 - policy-evaluation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Natural Experiments and Quasi-Experimental Design

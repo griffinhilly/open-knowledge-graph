@@ -13,7 +13,7 @@ tags:
 - functionalism
 - latent-manifest
 - functions
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Robert Merton and Functional Analysis

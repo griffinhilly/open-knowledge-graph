@@ -14,7 +14,7 @@ tags:
 - snapshots
 - algorithm
 - consistency
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - fixed-point
 - iteration
 - root-finding
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - interpolation
 - polynomials
 - lagrange
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

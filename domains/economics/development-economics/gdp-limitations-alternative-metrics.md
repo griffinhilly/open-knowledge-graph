@@ -19,7 +19,7 @@ tags:
 - GDP
 - alternatives
 - Genuine Progress
-stage: expert
+stage: advanced
 status: validated
 ---
 # Beyond GDP: Limitations and Alternative Metrics

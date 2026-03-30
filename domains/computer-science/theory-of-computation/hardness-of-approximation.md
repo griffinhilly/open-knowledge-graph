@@ -12,7 +12,7 @@ tags:
 - hardness
 - inapproximability
 - lower-bounds
-stage: advanced
+stage: expert
 status: validated
 ---
 

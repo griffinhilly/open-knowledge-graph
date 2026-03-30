@@ -17,7 +17,7 @@ tags:
 - classical
 - greek
 - roman
-stage: expert
+stage: advanced
 status: validated
 ---
 

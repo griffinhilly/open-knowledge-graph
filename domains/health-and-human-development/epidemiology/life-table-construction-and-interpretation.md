@@ -16,7 +16,7 @@ tags:
 - life-expectancy
 - survival-curves
 - population-health
-stage: expert
+stage: advanced
 status: validated
 ---
 # Life Table Construction and Interpretation

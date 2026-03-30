@@ -16,7 +16,7 @@ tags:
 - war
 - bargaining
 - rationalism
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Bargaining Theory and the Origins of War

@@ -12,7 +12,7 @@ tags:
 - power-method
 - eigenvalues
 - iteration
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

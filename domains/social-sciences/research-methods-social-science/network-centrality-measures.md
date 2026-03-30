@@ -18,7 +18,7 @@ tags:
 - centrality
 - influence
 - graph-theory
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

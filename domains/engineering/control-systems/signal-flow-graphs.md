@@ -14,7 +14,7 @@ tags:
 - gain-formula
 - forward-paths
 - loop-gains
-stage: expert
+stage: advanced
 status: validated
 ---
 

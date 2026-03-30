@@ -15,7 +15,7 @@ tags:
 - synaptogenesis
 - development
 - circuit-formation
-stage: expert
+stage: advanced
 status: validated
 ---
 

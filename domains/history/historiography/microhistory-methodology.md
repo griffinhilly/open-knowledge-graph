@@ -14,7 +14,7 @@ tags:
 - microhistory
 - methodology
 - italian
-stage: expert
+stage: advanced
 status: validated
 ---
 

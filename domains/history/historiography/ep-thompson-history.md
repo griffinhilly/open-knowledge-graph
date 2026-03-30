@@ -17,7 +17,7 @@ tags:
 - social history
 - class
 - experience
-stage: expert
+stage: advanced
 status: validated
 ---
 

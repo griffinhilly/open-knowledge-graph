@@ -14,7 +14,7 @@ tags:
 - memory
 - systems
 - cortex
-stage: expert
+stage: advanced
 status: validated
 ---
 # Episodic and Semantic Memory Systems

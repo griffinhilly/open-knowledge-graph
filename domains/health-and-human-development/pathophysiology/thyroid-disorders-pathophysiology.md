@@ -17,7 +17,7 @@ tags:
 - thyroid-disease
 - hormonal-disorders
 - metabolism
-stage: expert
+stage: advanced
 status: validated
 ---
 

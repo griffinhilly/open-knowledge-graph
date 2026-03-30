@@ -23,7 +23,7 @@ tags:
 - meaning
 - foundational
 - theory
-stage: expert
+stage: advanced
 status: validated
 ---
 # Hermeneutics and Interpretation Theory

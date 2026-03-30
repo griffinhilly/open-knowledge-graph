@@ -20,7 +20,7 @@ tags:
 - study-design
 - confounding-control
 - case-control
-stage: expert
+stage: advanced
 status: validated
 ---
 # Matching in Case-Control Studies

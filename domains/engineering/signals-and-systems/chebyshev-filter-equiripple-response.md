@@ -14,7 +14,7 @@ tags:
 - chebyshev
 - equiripple
 - ripple
-stage: expert
+stage: advanced
 status: validated
 ---
 

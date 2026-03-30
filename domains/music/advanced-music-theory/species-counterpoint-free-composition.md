@@ -16,7 +16,7 @@ tags:
 - counterpoint
 - voice-leading
 - analysis
-stage: expert
+stage: advanced
 status: validated
 ---
 # Species Counterpoint in Free Composition

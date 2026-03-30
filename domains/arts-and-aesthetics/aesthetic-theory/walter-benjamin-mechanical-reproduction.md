@@ -13,7 +13,7 @@ tags:
 - reproduction
 - mechanical
 - mass-culture
-stage: expert
+stage: advanced
 status: validated
 ---
 

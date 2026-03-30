@@ -16,7 +16,7 @@ tags:
 - effect-size
 - risk-ratio
 - cohort-studies
-stage: expert
+stage: advanced
 status: validated
 ---
 

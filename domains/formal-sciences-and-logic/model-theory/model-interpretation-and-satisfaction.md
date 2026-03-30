@@ -27,7 +27,7 @@ tags:
 - truth
 - Tarski
 - valuation
-stage: expert
+stage: advanced
 status: validated
 ---
 

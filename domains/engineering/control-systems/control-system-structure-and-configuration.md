@@ -16,7 +16,7 @@ tags:
 - block-diagram
 - system-architecture
 - interconnection
-stage: expert
+stage: advanced
 status: validated
 ---
 

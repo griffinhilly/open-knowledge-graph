@@ -17,7 +17,7 @@ tags:
 - narcissistic
 - histrionic
 - antisocial
-stage: expert
+stage: advanced
 status: validated
 ---
 

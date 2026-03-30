@@ -16,7 +16,7 @@ tags:
 - expansion
 - constants
 - language-extension
-stage: expert
+stage: advanced
 status: validated
 ---
 

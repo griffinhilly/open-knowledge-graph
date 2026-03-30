@@ -13,7 +13,7 @@ tags:
 - storytelling
 - identity
 - meaning-making
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Narrative Analysis

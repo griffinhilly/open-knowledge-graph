@@ -14,7 +14,7 @@ tags:
 - 5ht
 - mood
 - ssri
-stage: expert
+stage: advanced
 status: validated
 ---
 # The Serotonin System

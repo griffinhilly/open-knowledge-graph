@@ -14,7 +14,7 @@ tags:
 - physical-time
 - logical-time
 - hybrid
-stage: advanced
+stage: expert
 status: validated
 ---
 # Hybrid Logical Clocks

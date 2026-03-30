@@ -14,7 +14,7 @@ tags:
 - comparative
 - countries-regions
 - dynamics
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - assessment
 - diagnosis
 - clinical-practice
-stage: expert
+stage: advanced
 status: validated
 ---
 # Clinical Assessment and Diagnosis

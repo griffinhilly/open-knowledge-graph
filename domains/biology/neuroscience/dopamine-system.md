@@ -17,7 +17,7 @@ tags:
 - da
 - reward
 - motor-control
-stage: expert
+stage: advanced
 status: validated
 ---
 

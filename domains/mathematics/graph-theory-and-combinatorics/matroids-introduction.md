@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - matroids
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

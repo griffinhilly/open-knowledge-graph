@@ -21,7 +21,7 @@ tags:
 - myocardial-infarction
 - acute-coronary-syndrome
 - cardiac-ischemia
-stage: expert
+stage: advanced
 status: validated
 ---
 # Myocardial Infarction and Ischemia-Reperfusion Injury

@@ -12,7 +12,7 @@ tags:
 - schizoaffective
 - psychosis
 - mood
-stage: expert
+stage: advanced
 status: validated
 ---
 

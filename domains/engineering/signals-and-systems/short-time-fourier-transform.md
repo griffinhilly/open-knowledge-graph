@@ -15,7 +15,7 @@ tags:
 - stft
 - spectral-analysis
 - windows
-stage: expert
+stage: advanced
 status: validated
 ---
 

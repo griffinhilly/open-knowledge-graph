@@ -16,7 +16,7 @@ tags:
 - diachrony
 - sound-change
 - phonology
-stage: expert
+stage: advanced
 status: validated
 ---
 # Sound Change Mechanisms and Diachronic Phonology

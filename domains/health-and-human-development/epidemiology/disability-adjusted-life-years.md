@@ -16,7 +16,7 @@ tags:
 - burden-of-disease
 - health-metrics
 - priority-setting
-stage: expert
+stage: advanced
 status: validated
 ---
 

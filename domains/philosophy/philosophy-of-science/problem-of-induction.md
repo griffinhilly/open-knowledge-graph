@@ -17,7 +17,7 @@ tags:
 - induction
 - justification
 - logic
-stage: expert
+stage: advanced
 status: validated
 ---
 

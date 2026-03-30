@@ -18,7 +18,7 @@ tags:
 - systemic-effects
 - il6
 - tnf-alpha
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - field
 - space
 - competition
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - reasoning
 - fallacies
 - logic
-stage: expert
+stage: advanced
 status: validated
 ---
 

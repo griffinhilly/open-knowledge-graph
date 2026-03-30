@@ -12,7 +12,7 @@ tags:
 - syntax
 - morphology
 - agreement
-stage: expert
+stage: advanced
 status: validated
 ---
 

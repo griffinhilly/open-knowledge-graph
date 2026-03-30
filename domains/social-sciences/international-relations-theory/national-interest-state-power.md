@@ -14,7 +14,7 @@ tags:
 - realism
 - state-behavior
 - power
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

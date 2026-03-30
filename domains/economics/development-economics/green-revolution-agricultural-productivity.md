@@ -12,7 +12,7 @@ tags:
 - agriculture
 - technology
 - productivity
-stage: expert
+stage: advanced
 status: validated
 ---
 # The Green Revolution and Agricultural Productivity

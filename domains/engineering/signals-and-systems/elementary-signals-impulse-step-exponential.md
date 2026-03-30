@@ -13,7 +13,7 @@ tags:
 - signals
 - elementary
 - foundations
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

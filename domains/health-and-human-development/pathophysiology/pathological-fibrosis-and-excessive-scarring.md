@@ -17,7 +17,7 @@ tags:
 - myofibroblasts
 - tgf-beta
 - chronic-inflammation
-stage: expert
+stage: advanced
 status: validated
 ---
 

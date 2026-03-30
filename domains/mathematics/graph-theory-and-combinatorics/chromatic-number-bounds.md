@@ -13,7 +13,7 @@ tags:
 - graph-theory
 - coloring
 - bounds
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

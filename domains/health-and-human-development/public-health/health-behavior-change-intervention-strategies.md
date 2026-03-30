@@ -17,7 +17,7 @@ tags:
 - behavior-change
 - health-promotion
 - intervention
-stage: expert
+stage: advanced
 status: validated
 ---
 # Health Behavior Change and Population Intervention Strategies

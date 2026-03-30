@@ -18,7 +18,7 @@ tags:
 - criterion-referenced
 - ipsative
 - frameworks
-stage: expert
+stage: advanced
 status: validated
 ---
 

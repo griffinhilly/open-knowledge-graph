@@ -13,7 +13,7 @@ tags:
 - multisort
 - sorts
 - generalization
-stage: expert
+stage: advanced
 status: validated
 ---
 

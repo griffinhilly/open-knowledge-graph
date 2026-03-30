@@ -16,7 +16,7 @@ tags:
 - comparative
 - bounded-system
 - within-case-analysis
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Case Study Design and Comparative Methods

@@ -12,7 +12,7 @@ tags:
 - immunodeficiency
 - transplant
 - rejection
-stage: expert
+stage: advanced
 status: validated
 ---
 

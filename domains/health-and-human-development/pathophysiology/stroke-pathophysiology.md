@@ -17,7 +17,7 @@ tags:
 - stroke
 - cerebral-ischemia
 - hemorrhage
-stage: expert
+stage: advanced
 status: validated
 ---
 

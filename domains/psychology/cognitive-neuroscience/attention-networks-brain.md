@@ -14,7 +14,7 @@ tags:
 - attention
 - networks
 - control
-stage: expert
+stage: advanced
 status: validated
 ---
 

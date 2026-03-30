@@ -11,7 +11,7 @@ tags:
 - convergence
 - validity
 - multiple-methods
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

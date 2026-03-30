@@ -24,7 +24,7 @@ tags:
 - nyquist-contour
 - winding-number
 - argument-principle
-stage: expert
+stage: advanced
 status: validated
 ---
 # Nyquist Stability Criterion

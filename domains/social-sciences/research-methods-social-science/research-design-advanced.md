@@ -15,7 +15,7 @@ tags:
 - methodology
 - planning
 - validity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

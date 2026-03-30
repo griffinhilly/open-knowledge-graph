@@ -16,7 +16,7 @@ tags:
 - game-theory
 - cooperation
 - dilemma
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

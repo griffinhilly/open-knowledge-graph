@@ -18,7 +18,7 @@ tags:
 - structure
 - meaning
 - systems
-stage: expert
+stage: advanced
 status: validated
 ---
 

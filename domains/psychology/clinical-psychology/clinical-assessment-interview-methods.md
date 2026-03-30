@@ -12,7 +12,7 @@ tags:
 - assessment
 - interview
 - diagnosis
-stage: expert
+stage: advanced
 status: validated
 ---
 

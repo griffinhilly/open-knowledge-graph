@@ -14,7 +14,7 @@ tags:
 - society
 - norms
 - rules
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

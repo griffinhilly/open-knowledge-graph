@@ -14,7 +14,7 @@ tags:
 - groupoids
 - invertible-morphisms
 - automorphisms
-stage: expert
+stage: advanced
 status: validated
 ---
 

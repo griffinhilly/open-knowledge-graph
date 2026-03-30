@@ -13,7 +13,7 @@ tags:
 - systems-theory
 - abstraction
 - action
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

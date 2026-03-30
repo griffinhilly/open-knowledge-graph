@@ -14,7 +14,7 @@ tags:
 - economic-evaluation
 - cost-effectiveness
 - program-evaluation
-stage: expert
+stage: advanced
 status: validated
 ---
 # Cost-Effectiveness Analysis and Economic Evaluation of Health Interventions

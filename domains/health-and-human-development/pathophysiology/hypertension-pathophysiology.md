@@ -18,7 +18,7 @@ tags:
 - hypertension
 - cardiovascular-disease
 - pressure-homeostasis
-stage: expert
+stage: advanced
 status: validated
 ---
 

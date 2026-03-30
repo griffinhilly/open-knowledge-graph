@@ -18,7 +18,7 @@ tags:
 - migration
 - remittances
 - development
-stage: expert
+stage: advanced
 status: validated
 ---
 # Migration, Remittances, and Development

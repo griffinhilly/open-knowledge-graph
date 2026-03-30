@@ -18,7 +18,7 @@ tags:
 - TPJ
 - mPFC
 - social-cognition
-stage: expert
+stage: advanced
 status: validated
 ---
 

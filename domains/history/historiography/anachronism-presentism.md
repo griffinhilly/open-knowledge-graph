@@ -14,7 +14,7 @@ tags:
 - methodology
 - interpretation
 - fallacy
-stage: expert
+stage: advanced
 status: validated
 ---
 

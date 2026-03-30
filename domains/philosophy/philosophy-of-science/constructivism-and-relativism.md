@@ -12,7 +12,7 @@ tags:
 - constructivism
 - social-science
 - relativism
-stage: expert
+stage: advanced
 status: validated
 ---
 

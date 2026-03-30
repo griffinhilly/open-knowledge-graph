@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - combinatorics
 - ramsey-theory
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - lebesgue-measure
 - measure-theory
 - advanced
-stage: advanced
+stage: expert
 status: validated
 ---
 

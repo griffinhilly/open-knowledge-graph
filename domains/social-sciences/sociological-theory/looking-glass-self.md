@@ -15,7 +15,7 @@ tags:
 - self
 - identity
 - interaction
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

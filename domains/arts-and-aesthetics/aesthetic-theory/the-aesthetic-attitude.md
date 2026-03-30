@@ -12,7 +12,7 @@ tags:
 - aesthetics
 - attitude
 - disinterest
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

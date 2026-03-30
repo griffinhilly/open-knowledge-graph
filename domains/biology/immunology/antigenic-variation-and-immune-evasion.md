@@ -16,7 +16,7 @@ tags:
 - antigenic-drift
 - antigenic-shift
 - molecular-mimicry
-stage: expert
+stage: advanced
 status: validated
 ---
 

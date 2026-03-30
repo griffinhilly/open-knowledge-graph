@@ -15,7 +15,7 @@ tags:
 - screening
 - diagnostics
 - prevention
-stage: expert
+stage: advanced
 status: validated
 ---
 

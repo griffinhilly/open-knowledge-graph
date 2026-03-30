@@ -15,7 +15,7 @@ tags:
 - consistency
 - formal-semantics
 - correctness
-stage: advanced
+stage: expert
 status: validated
 ---
 # Linearizability

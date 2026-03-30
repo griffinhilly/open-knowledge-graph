@@ -14,7 +14,7 @@ tags:
 - convergence
 - error-reduction
 - rates
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Order of Convergence

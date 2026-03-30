@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - combinatorics
 - generating-functions
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

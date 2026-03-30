@@ -18,7 +18,7 @@ tags:
 - mimesis
 - imitation
 - realism
-stage: expert
+stage: advanced
 status: validated
 ---
 # Representation and Mimesis in Art

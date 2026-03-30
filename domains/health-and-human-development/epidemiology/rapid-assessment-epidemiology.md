@@ -12,7 +12,7 @@ tags:
 - emergency-response
 - rapid-assessment
 - field-epidemiology
-stage: expert
+stage: advanced
 status: validated
 ---
 

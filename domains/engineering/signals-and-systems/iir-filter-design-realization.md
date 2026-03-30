@@ -18,7 +18,7 @@ tags:
 - iir-filter
 - filter-design
 - digital-filters
-stage: expert
+stage: advanced
 status: validated
 ---
 # IIR Filter Design and Realization

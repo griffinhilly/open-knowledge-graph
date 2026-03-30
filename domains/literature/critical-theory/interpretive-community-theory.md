@@ -16,7 +16,7 @@ tags:
 - social
 - meaning
 - convention
-stage: expert
+stage: advanced
 status: validated
 ---
 # Interpretive Community and Social Meaning-Making

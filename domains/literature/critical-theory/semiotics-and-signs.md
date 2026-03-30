@@ -30,7 +30,7 @@ tags:
 - signifier
 - signified
 - myth
-stage: expert
+stage: advanced
 status: validated
 ---
 # Semiotics and Sign Theory

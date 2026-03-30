@@ -15,7 +15,7 @@ tags:
 - convergent
 - discriminant
 - measurement-model
-stage: expert
+stage: advanced
 status: validated
 ---
 

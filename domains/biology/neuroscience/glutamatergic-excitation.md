@@ -13,7 +13,7 @@ tags:
 - neurotransmitter-systems
 - excitation
 - plasticity
-stage: expert
+stage: advanced
 status: validated
 ---
 

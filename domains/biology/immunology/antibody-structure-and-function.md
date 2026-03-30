@@ -20,7 +20,7 @@ tags:
 - antibody
 - effector-functions
 - structure
-stage: expert
+stage: advanced
 status: validated
 ---
 

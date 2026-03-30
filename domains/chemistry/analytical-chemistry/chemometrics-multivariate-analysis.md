@@ -20,7 +20,7 @@ tags:
 - chemometrics
 - multivariate
 - data analysis
-stage: advanced
+stage: expert
 status: validated
 ---
 

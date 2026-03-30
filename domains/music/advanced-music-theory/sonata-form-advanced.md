@@ -17,7 +17,7 @@ tags:
 - sonata
 - analysis
 - tonal-structure
-stage: expert
+stage: advanced
 status: validated
 ---
 # Sonata Form: Advanced Analysis
