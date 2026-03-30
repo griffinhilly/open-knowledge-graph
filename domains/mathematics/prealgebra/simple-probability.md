@@ -41,7 +41,7 @@ Use physical experiments: dice, coins, spinners, colored marbles in a bag. Have 
   answer: 2
   explanation: "There are 4 + 3 + 3 = 10 total equally likely outcomes and 4 favorable ones (the red marbles), so P(red) = 4/10 = 2/5. The option 1/4 is wrong because it ignores the green marbles; 3/10 is the probability for blue, not red."
 
-- question: "If you flip a fair coin 5 times and get heads most time, the probability of getting tails on the 6th flip is greater than 1/2."
+- question: "If you flip a fair coin 5 times and get heads most of the time, the probability of getting tails on the 6th flip is greater than 1/2."
   type: true-false
   answer: false
   explanation: "Each coin flip is an independent event — the coin has no memory of past results. The probability of tails on any fair flip is always exactly 1/2, regardless of what came before. The belief that past results influence future independent outcomes is called the gambler's fallacy."

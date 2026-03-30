@@ -47,10 +47,10 @@ Seismic tomography inverts arrival time data from earthquakes and controlled sou
   answer: 1
   explanation: "In regions where earthquakes and seismometers are sparse, few rays pass through those volume elements, leaving the velocity poorly constrained. Without regularization, the inversion can fit the data by placing arbitrary, physically unreasonable velocity anomalies in these unconstrained regions. Damping penalizes large perturbations from the reference model; smoothing penalizes rapid spatial variations. These constraints make the solution physically reasonable at the cost of potentially smoothing over real structure."
 
-- question: "Each individual travel-time measurement in seismic tomography provides a direct measurement of seismic velocity at the specific point in the Earth where the wave spent the most time."
+- question: "Each individual travel-time measurement in seismic tomography provides a direct measurement of seismic velocity at the specific point in the Earth where the wave spent the most of the time."
   type: true-false
   answer: false
-  explanation: "A travel-time measurement is an integral of slowness (inverse velocity) along the entire ray path — it reflects the cumulative effect of velocities along a potentially thousands-of-kilometer path. There is no single 'most time' point; the measurement is fundamentally non-local. This is exactly what makes tomography an inverse problem: the data (path integrals) are not direct measurements of the quantity we want (local velocities), and recovering local velocities requires solving a system of equations with many overlapping ray paths."
+  explanation: "A travel-time measurement is an integral of slowness (inverse velocity) along the entire ray path — it reflects the cumulative effect of velocities along a potentially thousands-of-kilometer path. There is no single 'most of the time' point; the measurement is fundamentally non-local. This is exactly what makes tomography an inverse problem: the data (path integrals) are not direct measurements of the quantity we want (local velocities), and recovering local velocities requires solving a system of equations with many overlapping ray paths."
 
 - question: "In seismic tomography, slow velocity anomalies in the mantle typically indicate regions that are hotter, less dense, or partially molten compared to the surrounding mantle."
   type: true-false

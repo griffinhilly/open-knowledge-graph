@@ -46,7 +46,7 @@ All spices and herbs are interchangeable; dried herbs are always substitutable f
 - question: "You're making a chicken soup and want to use both fresh parsley and dried thyme. Which best describes the correct approach?"
   type: multiple-choice
   options:
-    - "Add both herbs at the beginning of cooking so they have the most time to infuse their flavors into the broth"
+    - "Add both herbs at the beginning of cooking so they have the most of the time to infuse their flavors into the broth"
     - "Add dried thyme early when sautéing aromatics; stir in fresh parsley just before serving"
     - "Add fresh parsley early since fresh herbs are more flavorful; add dried thyme at the end"
     - "Add both herbs at the end to preserve the brightness of both flavors"

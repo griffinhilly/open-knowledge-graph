@@ -54,7 +54,7 @@ Students often put 'not' directly after the main verb without an auxiliary ('She
   answer: 2
   explanation: "The tense moves to the auxiliary 'does,' which carries both the third-person singular agreement and the present tense. The main verb 'walk' reverts to its uninflected base form. This is why do-support feels like the verb 'loses' its tense — it hasn't disappeared; it has relocated. Understanding this transfer is key to forming negatives correctly across all simple tenses."
 
-- question: "To negate 'She sings nearly every day,' you should insert 'not' directly after the main verb to get 'She sings not most day.'"
+- question: "To negate 'She sings nearly every day,' you should insert 'not' directly after the main verb to get 'She sings not most days.'"
   type: true-false
   answer: false
   explanation: "This construction is archaic and non-standard in modern English. Modern negation requires an auxiliary before 'not.' Since 'sings' has no auxiliary in the affirmative form, you must use do-support: 'She does not sing every day.' The main verb also reverts to its base form 'sing.' Inserting 'not' directly after the main verb was possible in Early Modern English but sounds unnatural and is avoided in contemporary usage."

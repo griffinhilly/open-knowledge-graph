@@ -1422,14 +1422,14 @@ function renderDeepDive() {
   const textarea = document.createElement('textarea');
   textarea.className = 'deep-answer-input';
   textarea.id = 'deep-answer-input';
-  textarea.placeholder = 'Type your answer...';
+  textarea.placeholder = 'Write your answer here before revealing — it helps you learn more than just thinking about it...';
   textarea.rows = 4;
 
   const card = h('div', {className: 'question-card', id: 'qcard'},
     h('span', {className: 'domain-tag'}, formatDomain(q.domain)),
     h('div', {className: 'question-text'}, q.question),
     textarea,
-    h('p', {className: 'think-prompt'}, 'Take a moment to think about your answer\u2026'),
+    h('p', {className: 'think-prompt'}, 'Write your answer above, then reveal to compare'),
     h('button', {className: 'reveal-btn', id: 'reveal-btn', onClick: () => revealDeepAnswer(q)},
       'Reveal Answer')
   );

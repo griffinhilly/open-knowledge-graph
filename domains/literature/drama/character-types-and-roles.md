@@ -59,7 +59,7 @@ Dramatic character types—protagonist, antagonist, supporting characters, and c
 
 - question: "Why is the distinction between 'protagonist' and 'main character' analytically important in dramatic analysis?"
   type: short-answer
-  answer: "The 'protagonist' is defined functionally: the character whose desire drives the plot — whose pursuit of a goal organizes the dramatic action. 'Main character' typically means the character we follow most closely or spend the most time with. A work can have a main character (observer, narrator) who is not the protagonist, or a protagonist whose desire drives events even when they are offstage. Conflating the two leads to misidentifying whose desire generates plot and misattributing where dramatic forward movement originates."
+  answer: "The 'protagonist' is defined functionally: the character whose desire drives the plot — whose pursuit of a goal organizes the dramatic action. 'Main character' typically means the character we follow most closely or spend the most of the time with. A work can have a main character (observer, narrator) who is not the protagonist, or a protagonist whose desire drives events even when they are offstage. Conflating the two leads to misidentifying whose desire generates plot and misattributing where dramatic forward movement originates."
   explanation: "Using 'protagonist' in the functional sense — the character whose desire organizes action — is more analytically precise than using it as a synonym for 'the character we like' or 'the one with the most scenes.' Some plays deliberately separate observer (main character) from mover (protagonist) to create dramatic irony or to comment on spectatorship. Without the functional definition, these structural choices become invisible."
 ```
 

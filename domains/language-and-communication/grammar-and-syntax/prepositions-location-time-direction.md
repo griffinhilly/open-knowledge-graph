@@ -64,7 +64,7 @@ Look for prepositions in sentences and identify which type (location, time, dire
 - question: "Why can't you use a single rule to predict which preposition to use in phrases like '___ the morning,' '___ Monday,' and '___ noon'? What determines the correct choice?"
   type: short-answer
   answer: "The correct preposition depends on the type of time reference being expressed, not a single universal rule. 'In' is used for large spans of time (in the morning, in March, in 2020). 'On' is used for specific calendar days (on Monday, on your birthday). 'At' is used for precise clock times and fixed moments (at noon, at 3 PM, at midnight). You must first identify what kind of time reference you have — span, named day, or precise moment — and then apply the corresponding preposition."
-  explanation: "English preposition use is partly idiomatic and partly rule-governed. The in/on/at triad for time follows a logic of granularity: in (large span) → on (specific day) → at (precise moment). Learning this pattern helps with most time prepositions, but some pairings are fixed by convention regardless of logic. This is why reading and exposure to the language complement the rules — some usage must simply be learned through familiarity."
+  explanation: "English preposition use is partly idiomatic and partly rule-governed. The in/on/at triad for time follows a logic of granularity: in (large span) → on (specific day) → at (precise moment). Learning this pattern helps with most of the time prepositions, but some pairings are fixed by convention regardless of logic. This is why reading and exposure to the language complement the rules — some usage must simply be learned through familiarity."
 ```
 
 ## Explainer

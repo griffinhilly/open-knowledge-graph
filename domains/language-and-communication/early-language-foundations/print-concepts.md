@@ -51,7 +51,7 @@ Model print concepts naturally during read-alouds by tracking text with your fin
   answer: 1
   explanation: "Word boundaries are the spaces on the page that divide a continuous stream of letters into discrete units. A child who does not understand this sees a line of print as one long run of marks, making it nearly impossible to match the spoken words they are sounding out to the right clusters of letters on the page. This is why spaces are not trivial — they are meaning-bearing elements of written language."
 
-- question: "A child who has been read to most day since birth will automatically understand most print concepts without any explicit instruction."
+- question: "A child who has been read to most days since birth will automatically understand most print concepts without any explicit instruction."
   type: true-false
   answer: false
   explanation: "Frequent read-aloud experience helps many children absorb print concepts through observation, but it is not guaranteed. Some children need explicit instruction even after extensive book exposure — they may have been listening to the story without attending to how the print works. Early childhood educators assess print concepts directly because 'time with books' and 'understanding of print conventions' are related but not the same thing."

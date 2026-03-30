@@ -41,7 +41,7 @@ Draw a clock-diagram of the cell cycle with approximate time fractions for each 
   type: multiple-choice
   options: ["12 hours", "6 hours", "1–2 hours", "less than 10 minutes"]
   answer: 2
-  explanation: "Most of the cell cycle is interphase (G1, S, G2), which accounts for roughly 22–23 hours. Mitosis itself — the dramatic condensation, segregation, and cytokinesis — takes only about 1–2 hours. Students often assume the 'important' part (division) must take the most time, but interphase is where the bulk of preparation occurs."
+  explanation: "Most of the cell cycle is interphase (G1, S, G2), which accounts for roughly 22–23 hours. Mitosis itself — the dramatic condensation, segregation, and cytokinesis — takes only about 1–2 hours. Students often assume the 'important' part (division) must take the most of the time, but interphase is where the bulk of preparation occurs."
 
 - question: "A cell in G0 is permanently inactive and no longer carries out metabolic functions."
   type: true-false

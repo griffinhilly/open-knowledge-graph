@@ -1420,6 +1420,22 @@ canvas.addEventListener("touchend", (e) => {{
           hoveredNode = null;
           draw();
           hidePanel();
+          // Check if tap is in outer ring (domain label area)
+          const wp = screenToWorld(lastTouchX, lastTouchY);
+          const tapR = Math.hypot(wp.x, wp.y);
+          if (tapR > {STAGE_BANDS['expert'][1] * 500 - 30}) {{
+            let tapAngle = Math.atan2(wp.y, wp.x);
+            if (tapAngle < 0) tapAngle += Math.PI * 2;
+            for (const s of data.sectors) {{
+              let start = s.start, end = s.end;
+              if (start < 0) start += Math.PI * 2;
+              if (end < 0) end += Math.PI * 2;
+              if (tapAngle >= start && tapAngle <= end) {{
+                window.location.href = s.domain + "-map.html";
+                break;
+              }}
+            }}
+          }}
         }}
       }}
     }}

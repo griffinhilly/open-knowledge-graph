@@ -62,7 +62,7 @@ Identify schemas where joins are expensive, evaluate whether denormalization imp
 
 - question: "Why should the decision to denormalize be driven by measurement rather than intuition, and what should be measured?"
   type: short-answer
-  answer: "Intuition often overestimates join cost and underestimates write complexity. Profiling the actual query workload identifies which specific joins consume the most time. You should measure: query execution time before and after denormalization, write latency for the affected tables, and whether simpler alternatives (indexes, materialized views) solve the problem. This ensures denormalization is applied where it produces real gains and not used as a substitute for proper indexing or query optimization."
+  answer: "Intuition often overestimates join cost and underestimates write complexity. Profiling the actual query workload identifies which specific joins consume the most of the time. You should measure: query execution time before and after denormalization, write latency for the affected tables, and whether simpler alternatives (indexes, materialized views) solve the problem. This ensures denormalization is applied where it produces real gains and not used as a substitute for proper indexing or query optimization."
   explanation: "Engineers frequently denormalize preemptively and then discover the join was fast, the real bottleneck was elsewhere, and they've now introduced consistency obligations they must maintain indefinitely. Measurement-first discipline prevents this. Additionally, measuring after the change verifies that the expected improvement materialized — sometimes the query planner already optimized the join, and denormalization produces no benefit at all."
 ```
 

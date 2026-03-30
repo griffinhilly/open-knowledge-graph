@@ -54,7 +54,7 @@ Write a multi-way branching program using else-if chains. Compare readability to
   answer: 1
   explanation: "Use an else-if chain when conditions are mutually exclusive and only one should execute. A grading system (a score belongs to exactly one letter grade) is the canonical example. Use multiple independent if statements when conditions are independent and multiple could legitimately apply — for instance, checking if a number is both even AND greater than 10 requires two separate ifs. The choice is a design decision about whether your conditions can overlap, not a matter of one being strictly better."
 
-- question: "In an else-if chain, most conditions are evaluated most time the chain runs, regardless of which condition is true."
+- question: "In an else-if chain, most conditions are evaluated most of the time the chain runs, regardless of which condition is true."
   type: true-false
   answer: false
   explanation: "Evaluation stops at the first true condition. This is the defining property of an else-if chain. Once the first true condition is found, its block executes and the rest of the chain is completely skipped. This early exit is what makes the order of conditions so important: if a broad condition appears first, narrower conditions later in the chain may never be evaluated. The same early-exit behavior is why else-if chains are more efficient than multiple independent ifs when you know conditions are mutually exclusive."

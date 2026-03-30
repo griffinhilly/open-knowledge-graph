@@ -43,7 +43,7 @@ Use a globe and a flashlight in a darkened room. Shine the flashlight (sun) at t
   answer: 2
   explanation: "Earth is always spinning (rotating), completing one full turn every 24 hours. When your part of Earth faces toward the sun, you experience day -- sunlight reaches you. As Earth keeps spinning, your part turns away from the sun, and you enter the shadow -- that is night. The sun never stops shining; you just cannot see it because you are facing the wrong direction."
 
-- question: "The sun moves across the sky from east to west most day."
+- question: "The sun moves across the sky from east to west most days."
   type: true-false
   answer: false
   explanation: "It looks like the sun moves across the sky, but it is actually Earth that is moving. Earth spins (rotates) from west to east, which makes the sun appear to move from east to west -- like how trees seem to move backward when you look out a car window. The sun stays roughly in place; Earth's rotation creates the illusion of a moving sun."
