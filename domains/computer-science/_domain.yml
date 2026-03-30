@@ -34,3 +34,12 @@ courses:
 - id: distributed-systems
   title: Distributed Systems
   stage: advanced
+- id: machine-learning-theory
+  title: Machine Learning Theory
+  stage: expert
+- id: cryptography
+  title: Cryptography
+  stage: advanced
+- id: quantum-computing
+  title: Quantum Computing
+  stage: advanced

@@ -89,3 +89,12 @@ courses:
   - id: measure-theory-and-functional-analysis
     title: Measure Theory & Functional Analysis
     stage: expert
+  - id: algebraic-topology
+    title: Algebraic Topology
+    stage: expert
+  - id: partial-differential-equations
+    title: Partial Differential Equations
+    stage: advanced
+  - id: differential-geometry
+    title: Differential Geometry
+    stage: advanced

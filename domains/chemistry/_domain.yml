@@ -22,3 +22,6 @@ courses:
 - id: analytical-chemistry
   title: Analytical Chemistry
   stage: advanced
+- id: inorganic-chemistry
+  title: Inorganic Chemistry
+  stage: formal-systems

@@ -34,3 +34,12 @@ courses:
 - id: statistical-mechanics
   title: Statistical Mechanics
   stage: expert
+- id: quantum-field-theory
+  title: Quantum Field Theory
+  stage: expert
+- id: general-relativity
+  title: General Relativity
+  stage: expert
+- id: condensed-matter-physics
+  title: Condensed Matter Physics
+  stage: expert
