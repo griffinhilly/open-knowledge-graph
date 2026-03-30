@@ -4,20 +4,21 @@
 
 Phase 9C DONE. **13,153 topics** across 19 domains, 197 courses.
 
-**Last sessions (Mar 26, 2026):**
+**Last sessions (Mar 26–29, 2026):**
 - *Content quality session*: Math dedup (91 pairs), non-math dedup (149 pairs across 15 domains), T/F absolute rewrites (4,470 questions), language-and-communication leaf reduction (77→20, 3.7%), early-stage meta-question rewrites (19 questions)
 - *Viz session*: Mobile UX overhaul (domain map + radial), domain map performance (rAF + viewport culling), radial semantic zoom (dynamic course labels), git worktree workflow for parallel dev
+- *Bug fixes (Mar 29)*: Radial domain label tap on mobile, 23 T/F grammar fixes ("most day"→"most days"), short answer UX (encourage writing before reveal)
 
 **Known issues:**
 - Quiz HTML is 5.8MB due to embedded prereq graph — could be optimized
 - T/F mechanical rewrites may have made some false statements arguably true (~4,470 questions, needs spot-check audit of `only→primarily`, `entirely→mostly`, `cannot→can rarely` patterns)
 - 79 topics lost T/F fixes in merge conflicts (dedup deletions took priority) — keep-side files may still have absolute-language issues
 - Index page + quiz not yet mobile-optimized (domain map + radial are done)
-- Mobile changes not yet verified on real devices (tested via local HTTP server + phone on same WiFi)
+- Radial mouse/touch handler duplication — mouseup and touchend have parallel logic that can diverge silently. Consider refactoring to shared `handleInteraction(x, y)`.
 
 **Next steps:**
 1. **T/F semantic spot-check**: Audit sample of mechanical rewrites for correctness (especially `only→primarily`, `entirely→mostly`)
-2. **Real-device mobile testing**: Verify double-tap zoom doesn't conflict with browser zoom, test on iOS Safari
+2. **79 merge-conflict topics**: Re-apply T/F fixes to topics that lost them during dedup merge conflicts
 3. **Phase 9D**: Landing page redesign ("Explore the Map" vs "Personalize Your Map"), domain toggle on radial, progress bars, guided learning paths
 4. Write announcement post
 
