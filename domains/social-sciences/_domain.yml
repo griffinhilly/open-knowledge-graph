@@ -23,3 +23,6 @@ courses:
 - id: international-relations-theory
   title: International Relations Theory
   stage: formal-systems
+- id: demography
+  title: Demography
+  stage: advanced

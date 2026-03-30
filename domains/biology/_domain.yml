@@ -36,3 +36,15 @@ courses:
 - id: immunology
   title: Immunology
   stage: advanced
+- id: genomics-and-bioinformatics
+  title: Genomics & Bioinformatics
+  stage: advanced
+- id: systems-biology
+  title: Systems Biology
+  stage: expert
+- id: developmental-biology
+  title: Developmental Biology
+  stage: advanced
+- id: structural-biology
+  title: Structural Biology
+  stage: expert

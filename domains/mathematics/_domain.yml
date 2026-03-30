@@ -98,3 +98,12 @@ courses:
   - id: differential-geometry
     title: Differential Geometry
     stage: advanced
+  - id: commutative-algebra
+    title: Commutative Algebra
+    stage: expert
+  - id: stochastic-processes
+    title: Stochastic Processes
+    stage: expert
+  - id: representation-theory
+    title: Representation Theory
+    stage: expert

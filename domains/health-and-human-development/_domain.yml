@@ -27,3 +27,9 @@ courses:
 - id: epidemiology
   title: Epidemiology
   stage: advanced
+- id: biostatistics
+  title: Biostatistics
+  stage: advanced
+- id: health-economics
+  title: Health Economics
+  stage: advanced

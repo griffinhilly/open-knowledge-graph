@@ -43,3 +43,12 @@ courses:
 - id: quantum-computing
   title: Quantum Computing
   stage: advanced
+- id: information-theory
+  title: Information Theory
+  stage: advanced
+- id: advanced-algorithms
+  title: Advanced Algorithms
+  stage: expert
+- id: formal-methods
+  title: Formal Methods
+  stage: expert

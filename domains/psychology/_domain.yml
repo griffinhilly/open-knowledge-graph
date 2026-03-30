@@ -27,3 +27,6 @@ courses:
 - id: clinical-psychology
   title: Clinical Psychology
   stage: advanced
+- id: industrial-organizational-psychology
+  title: Industrial-Organizational Psychology
+  stage: advanced

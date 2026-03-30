@@ -43,3 +43,9 @@ courses:
 - id: condensed-matter-physics
   title: Condensed Matter Physics
   stage: expert
+- id: nonlinear-dynamics
+  title: Nonlinear Dynamics & Chaos
+  stage: advanced
+- id: particle-physics
+  title: Particle Physics
+  stage: expert

@@ -30,3 +30,6 @@ courses:
 - id: applied-rationality
   title: Applied Rationality
   stage: formal-systems
+- id: continental-philosophy
+  title: Continental Philosophy
+  stage: advanced

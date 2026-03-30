@@ -24,3 +24,9 @@ courses:
 - id: development-economics
   title: Development Economics
   stage: advanced
+- id: behavioral-economics
+  title: Behavioral Economics
+  stage: advanced
+- id: labor-economics
+  title: Labor Economics
+  stage: advanced

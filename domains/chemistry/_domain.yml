@@ -25,3 +25,6 @@ courses:
 - id: inorganic-chemistry
   title: Inorganic Chemistry
   stage: formal-systems
+- id: materials-chemistry
+  title: Materials Chemistry
+  stage: advanced

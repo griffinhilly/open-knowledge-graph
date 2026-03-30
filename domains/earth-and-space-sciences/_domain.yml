@@ -30,3 +30,9 @@ courses:
 - id: geophysics
   title: Geophysics
   stage: advanced
+- id: remote-sensing-and-gis
+  title: Remote Sensing & GIS
+  stage: advanced
+- id: geochemistry
+  title: Geochemistry
+  stage: expert
