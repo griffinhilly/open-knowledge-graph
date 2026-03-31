@@ -20,7 +20,7 @@ prerequisites:
   type: soft
 builds-toward:
 - rhythmic-dissonance-resolution
-- metric-modulation-theory-advanced
+- metric-modulation-theory
 tags:
 - rhythm
 - texture

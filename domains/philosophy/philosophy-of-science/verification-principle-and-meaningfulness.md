@@ -4,7 +4,7 @@ title: The Verification Principle
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
-- id: logical-positivism-and-vienna-circle
+- id: logical-positivism
   type: hard
 - id: first-order-logic-syntax
   type: hard

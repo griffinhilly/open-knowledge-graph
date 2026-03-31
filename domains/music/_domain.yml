@@ -5,19 +5,19 @@ description: The study of organized sound — theory, history, performance, and 
 courses:
 - id: music-theory-fundamentals
   title: Music Theory Fundamentals
-  stage: concrete-operations
+  stage: formal-systems
 - id: harmony-and-voice-leading
   title: Harmony & Voice Leading
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: music-history
   title: Music History
   stage: abstract-reasoning
 - id: ear-training
   title: Ear Training & Aural Skills
-  stage: concrete-operations
+  stage: formal-systems
 - id: composition
   title: Composition
   stage: formal-systems
 - id: advanced-music-theory
   title: Advanced Music Theory
-  stage: advanced
+  stage: expert

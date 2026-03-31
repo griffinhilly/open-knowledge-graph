@@ -10,10 +10,8 @@ prerequisites:
   type: soft
 - id: first-order-logic-syntax
   type: soft
-- id: verification-principle-and-meaningfulness
-  type: soft
 builds-toward:
-- verificationism-principle-meaning
+- verification-principle-and-meaningfulness
 - popper-falsificationism
 tags:
 - positivism

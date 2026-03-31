@@ -7,7 +7,7 @@ prerequisites:
 - id: set-relations-functions-discrete
   type: hard
 builds-toward:
-- generating-functions-basics
+- generating-functions-intro
 tags:
 - cardinality
 - countability

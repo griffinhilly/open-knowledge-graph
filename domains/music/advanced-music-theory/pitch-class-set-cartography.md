@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: set-operations
   type: soft
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: soft
 - id: graph-theory-intro
   type: soft

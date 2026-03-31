@@ -20,7 +20,7 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: hard
-- id: partial-derivatives-basics
+- id: partial-derivatives
   type: hard
 - id: vector-analysis-and-components
   type: hard

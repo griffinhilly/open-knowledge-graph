@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: causal-explanation-science
   type: soft
-- id: unificationist-theories-of-explanation
-  type: soft
 - id: covering-law-model-explanation
   type: soft
 builds-toward:

@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: bayes-theorem
   type: hard
-- id: conditional-probability-fundamentals
+- id: conditional-probability
   type: hard
 - id: probability-axioms
   type: hard

@@ -9,7 +9,7 @@ prerequisites:
 - id: probabilistic-reasoning
   type: soft
 builds-toward:
-- causal-explanation-theories
+- causal-explanation-science
 tags:
 - explanation
 - induction

@@ -9,7 +9,7 @@ prerequisites:
 - id: sample-preparation
   type: hard
 builds-toward:
-- gravimetric-analysis-advanced
+- gravimetric-analysis
 - gas-chromatography-quantitative-analysis
 tags:
 - sampling

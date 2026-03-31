@@ -6,7 +6,7 @@ course: machine-learning-theory
 prerequisites:
 - id: supervised-learning-intro
   type: hard
-- id: discrete-random-variables-basics
+- id: discrete-random-variables
   type: hard
 - id: bayes-theorem
   type: soft

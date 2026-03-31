@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: random-variables-intro
   type: hard
-- id: discrete-random-variables-basics
+- id: discrete-random-variables
   type: hard
 tags:
 - probability

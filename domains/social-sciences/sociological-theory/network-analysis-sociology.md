@@ -6,7 +6,7 @@ course: sociological-theory
 prerequisites:
 - id: sociological-imagination
   type: hard
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: hard
 - id: degree-sequences
   type: soft

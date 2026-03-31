@@ -4,7 +4,7 @@ title: 'Hypothesis Testing: Framework and Logic'
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: conditional-probability-fundamentals
+- id: conditional-probability
   type: hard
 - id: effect-size-in-hypothesis-tests
   type: soft

@@ -5,31 +5,31 @@ description: The study of human health, wellness, and development across the lif
 courses:
 - id: my-body
   title: My Body
-  stage: pre-formal
+  stage: concrete-operations
 - id: health-foundations
   title: Health Foundations
   stage: concrete-operations
 - id: anatomy-and-physiology
   title: Anatomy & Physiology
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: nutrition-science
   title: Nutrition Science
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: public-health
   title: Public Health
-  stage: abstract-reasoning
+  stage: advanced
 - id: child-development
   title: Child Development
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: pathophysiology
   title: Pathophysiology
-  stage: formal-systems
+  stage: advanced
 - id: epidemiology
   title: Epidemiology
   stage: advanced
 - id: biostatistics
   title: Biostatistics
-  stage: advanced
+  stage: expert
 - id: health-economics
   title: Health Economics
   stage: advanced

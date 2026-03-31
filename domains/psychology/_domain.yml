@@ -5,7 +5,7 @@ description: The scientific study of mind and behavior, from neural mechanisms t
 courses:
 - id: research-methods-psychology
   title: Research Methods in Psychology
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: biological-psychology
   title: Biological Psychology
   stage: formal-systems
@@ -14,16 +14,16 @@ courses:
   stage: formal-systems
 - id: developmental-psychology
   title: Developmental Psychology
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: social-psychology
   title: Social Psychology
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: psychometrics
   title: Psychometrics
-  stage: formal-systems
+  stage: expert
 - id: cognitive-neuroscience
   title: Cognitive Neuroscience
-  stage: advanced
+  stage: expert
 - id: clinical-psychology
   title: Clinical Psychology
   stage: advanced

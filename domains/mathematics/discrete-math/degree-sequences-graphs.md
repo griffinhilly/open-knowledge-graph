@@ -4,7 +4,7 @@ title: Degree Sequences and the Handshaking Lemma
 domain: mathematics
 course: discrete-math
 prerequisites:
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: hard
 builds-toward:
 - bipartite-graphs-characterization

@@ -9,7 +9,7 @@ prerequisites:
 - id: characteristic-polynomial
   type: soft
 builds-toward:
-- generating-functions-basics
+- generating-functions-intro
 tags:
 - linear-recurrences
 - characteristic-equation

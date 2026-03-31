@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: linear-regression
   type: soft
-- id: partial-derivatives-basics
+- id: partial-derivatives
   type: soft
 - id: partial-derivatives
   type: soft

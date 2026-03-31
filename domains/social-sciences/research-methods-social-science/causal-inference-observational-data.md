@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: linear-regression-social-science
   type: hard
-- id: conditional-probability-fundamentals
+- id: conditional-probability
   type: hard
 - id: probability-distributions
   type: hard

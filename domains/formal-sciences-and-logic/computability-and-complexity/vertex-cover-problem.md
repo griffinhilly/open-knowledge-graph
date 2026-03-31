@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: np-completeness-formal
   type: hard
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: soft
 - id: clique-problem-np-complete
   type: soft

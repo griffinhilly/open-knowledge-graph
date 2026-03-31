@@ -4,7 +4,7 @@ title: Planar Graphs, Euler's Formula, and Structure
 domain: mathematics
 course: discrete-math
 prerequisites:
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: soft
 tags:
 - graph-theory

@@ -4,7 +4,7 @@ title: Graph Coloring and Chromatic Number
 domain: mathematics
 course: discrete-math
 prerequisites:
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: soft
 builds-toward:
 - chromatic-polynomial-computation

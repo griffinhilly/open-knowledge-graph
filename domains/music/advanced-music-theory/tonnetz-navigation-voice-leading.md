@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: neo-riemannian-operations
   type: hard
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: soft
 - id: graph-connectivity
   type: soft

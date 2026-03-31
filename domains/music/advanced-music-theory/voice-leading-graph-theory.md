@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: transformational-analysis-music
   type: soft
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: soft
 - id: graph-theory-intro
   type: soft

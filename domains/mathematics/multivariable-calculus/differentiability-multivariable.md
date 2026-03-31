@@ -6,7 +6,7 @@ course: multivariable-calculus
 prerequisites:
 - id: continuity-multivariable
   type: hard
-- id: partial-derivatives-basics
+- id: partial-derivatives
   type: hard
 builds-toward:
 - chain-rule-multivariable

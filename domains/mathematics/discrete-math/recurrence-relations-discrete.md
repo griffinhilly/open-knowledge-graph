@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - linear-recurrences-homogeneous
-- generating-functions-basics
+- generating-functions-intro
 tags:
 - recurrence
 - sequences

@@ -4,19 +4,19 @@ description: The study of written works as art forms that illuminate the human c
 courses:
 - id: literary-analysis
   title: Literary Analysis
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: fiction
   title: 'Fiction: Genres & Forms'
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: poetry
   title: Poetry
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: drama
   title: Drama
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: critical-theory
   title: Critical Theory
-  stage: formal-systems
+  stage: advanced
 - id: comparative-literature
   title: Comparative Literature
   stage: advanced

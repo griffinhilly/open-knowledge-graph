@@ -4,7 +4,7 @@ title: Bayes' Theorem and Statistical Inference
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: conditional-probability-fundamentals
+- id: conditional-probability
   type: hard
 - id: law-of-total-probability
   type: hard

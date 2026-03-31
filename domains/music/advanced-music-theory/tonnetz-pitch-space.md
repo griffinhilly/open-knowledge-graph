@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: interval-quality
   type: hard
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: soft
 - id: vector-spaces
   type: soft

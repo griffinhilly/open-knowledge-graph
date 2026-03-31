@@ -5,7 +5,7 @@ description: The systematic study of fundamental questions about existence, know
 courses:
 - id: logic-and-critical-thinking
   title: Logic & Critical Thinking
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: epistemology
   title: Epistemology
   stage: formal-systems
@@ -14,22 +14,22 @@ courses:
   stage: formal-systems
 - id: ethics
   title: Ethics
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: political-philosophy
   title: Political Philosophy
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: philosophy-of-mind
   title: Philosophy of Mind
   stage: formal-systems
 - id: philosophy-of-science
   title: Philosophy of Science
-  stage: formal-systems
+  stage: advanced
 - id: philosophy-of-language
   title: Philosophy of Language
   stage: formal-systems
 - id: applied-rationality
   title: Applied Rationality
-  stage: formal-systems
+  stage: advanced
 - id: continental-philosophy
   title: Continental Philosophy
-  stage: advanced
+  stage: expert

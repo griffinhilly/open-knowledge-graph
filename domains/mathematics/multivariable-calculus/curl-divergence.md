@@ -6,7 +6,7 @@ course: multivariable-calculus
 prerequisites:
 - id: curl-and-divergence
   type: hard
-- id: partial-derivatives-basics
+- id: partial-derivatives
   type: hard
 builds-toward:
 - greens-theorem

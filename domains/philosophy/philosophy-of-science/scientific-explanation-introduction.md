@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - deductive-nomological-explanation
-- causal-explanation-theories
+- causal-explanation-science
 tags:
 - explanation
 - causation

@@ -7,7 +7,7 @@ prerequisites:
 - id: inclusion-exclusion-principle
   type: hard
 builds-toward:
-- generating-functions-basics
+- generating-functions-intro
 tags:
 - inclusion-exclusion
 - derangements

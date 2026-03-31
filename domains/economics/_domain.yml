@@ -5,19 +5,19 @@ description: The study of how societies allocate scarce resources, from individu
 courses:
 - id: microeconomics
   title: Microeconomics
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: macroeconomics
   title: Macroeconomics
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: econometrics
   title: Econometrics
   stage: formal-systems
 - id: advanced-microeconomics
   title: Advanced Microeconomics
-  stage: formal-systems
+  stage: expert
 - id: advanced-macroeconomics
   title: Advanced Macroeconomics
-  stage: formal-systems
+  stage: expert
 - id: financial-economics
   title: Financial Economics
   stage: formal-systems

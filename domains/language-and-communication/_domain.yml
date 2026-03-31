@@ -4,7 +4,7 @@ description: The study of human language — its structure, use, and power.
 courses:
 - id: early-language-foundations
   title: Early Language Foundations
-  stage: pre-formal
+  stage: concrete-operations
 - id: grammar-and-syntax
   title: Grammar & Syntax
   stage: concrete-operations
@@ -16,7 +16,7 @@ courses:
   stage: formal-systems
 - id: public-speaking
   title: Public Speaking
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: advanced-linguistics
   title: Advanced Linguistics
-  stage: advanced
+  stage: expert

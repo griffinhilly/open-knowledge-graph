@@ -9,7 +9,7 @@ prerequisites:
 - id: binomial-theorem
   type: soft
 builds-toward:
-- generating-functions-basics
+- generating-functions-intro
 - inclusion-exclusion-advanced
 tags:
 - binomial

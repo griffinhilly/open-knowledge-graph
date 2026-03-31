@@ -6,7 +6,7 @@ course: multivariable-calculus
 prerequisites:
 - id: critical-points-multivariable
   type: hard
-- id: partial-derivatives-basics
+- id: partial-derivatives
   type: hard
 builds-toward:
 - second-partials-test

@@ -4,7 +4,7 @@ title: Connectivity and Connected Components
 domain: mathematics
 course: discrete-math
 prerequisites:
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: hard
 builds-toward:
 - walks-paths-cycles

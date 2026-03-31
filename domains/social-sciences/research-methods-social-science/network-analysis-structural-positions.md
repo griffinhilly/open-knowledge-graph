@@ -6,7 +6,7 @@ course: research-methods-social-science
 prerequisites:
 - id: network-analysis-sociology
   type: hard
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: hard
 - id: adjacency-matrix
   type: hard

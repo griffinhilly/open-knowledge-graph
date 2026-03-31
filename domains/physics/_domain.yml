@@ -45,7 +45,7 @@ courses:
   stage: expert
 - id: nonlinear-dynamics
   title: Nonlinear Dynamics & Chaos
-  stage: advanced
+  stage: expert
 - id: particle-physics
   title: Particle Physics
   stage: expert

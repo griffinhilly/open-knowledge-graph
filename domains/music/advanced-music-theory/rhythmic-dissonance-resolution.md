@@ -9,7 +9,7 @@ prerequisites:
 - id: rhythmic-modulation-analysis
   type: soft
 builds-toward:
-- metric-modulation-theory-advanced
+- metric-modulation-theory
 - temporal-proportions-ratios
 tags:
 - rhythm

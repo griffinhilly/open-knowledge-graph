@@ -7,10 +7,10 @@ courses:
   stage: abstract-reasoning
 - id: cooking-and-nutrition
   title: Cooking & Nutrition
-  stage: concrete-operations
+  stage: abstract-reasoning
 - id: home-maintenance
   title: Home Maintenance
-  stage: concrete-operations
+  stage: abstract-reasoning
 - id: digital-literacy
   title: Digital Literacy
-  stage: concrete-operations
+  stage: abstract-reasoning

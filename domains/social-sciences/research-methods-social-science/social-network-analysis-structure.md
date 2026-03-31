@@ -4,7 +4,7 @@ title: Social Network Analysis
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: hard
 - id: adjacency-matrix
   type: hard

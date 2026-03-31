@@ -4,7 +4,7 @@ title: Thomas Kuhn and Paradigm Shifts
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
-- id: normal-science-versus-crisis
+- id: normal-science-anomalies
   type: hard
 - id: popper-falsificationism
   type: soft

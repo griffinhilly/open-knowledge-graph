@@ -23,7 +23,7 @@ courses:
   stage: formal-systems
 - id: signals-and-systems
   title: Signals & Systems
-  stage: formal-systems
+  stage: advanced
 - id: thermodynamics-engineering
   title: Thermodynamics (Engineering)
   stage: formal-systems

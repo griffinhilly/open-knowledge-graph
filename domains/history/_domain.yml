@@ -5,19 +5,19 @@ description: The study of human societies across time, from earliest civilizatio
 courses:
 - id: historical-methods
   title: Historical Methods
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: ancient-civilizations
   title: Ancient Civilizations
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: medieval-world
   title: Medieval World
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: early-modern-period
   title: Early Modern Period
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: modern-history
   title: Modern History
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: historiography
   title: Historiography
-  stage: formal-systems
+  stage: advanced

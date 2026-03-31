@@ -4,7 +4,7 @@ title: Temporal Proportions and Ratios in Music
 domain: music
 course: advanced-music-theory
 prerequisites:
-- id: metric-modulation-theory-advanced
+- id: metric-modulation-theory
   type: soft
 - id: ratios
   type: soft

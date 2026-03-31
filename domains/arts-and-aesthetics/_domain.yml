@@ -4,10 +4,10 @@ description: The visual arts, design principles, and aesthetic theory.
 courses:
 - id: visual-elements-and-principles
   title: Visual Elements & Principles
-  stage: concrete-operations
+  stage: abstract-reasoning
 - id: drawing-and-painting
   title: Drawing & Painting
-  stage: concrete-operations
+  stage: abstract-reasoning
 - id: art-history
   title: Art History
   stage: abstract-reasoning

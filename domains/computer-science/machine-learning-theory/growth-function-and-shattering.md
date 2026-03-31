@@ -6,7 +6,7 @@ course: machine-learning-theory
 prerequisites:
 - id: pac-learning-framework
   type: hard
-- id: discrete-random-variables-basics
+- id: discrete-random-variables
   type: soft
 tags:
 - learning-theory

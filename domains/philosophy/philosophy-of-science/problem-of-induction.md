@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 builds-toward:
 - popper-falsificationism
-- logical-positivism-and-vienna-circle
+- logical-positivism
 tags:
 - induction
 - justification

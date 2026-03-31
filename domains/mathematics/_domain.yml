@@ -61,7 +61,7 @@ courses:
     stage: formal-systems
   - id: differential-equations
     title: Differential Equations
-    stage: advanced
+    stage: formal-systems
   - id: real-analysis
     title: Real Analysis
     stage: advanced
@@ -94,10 +94,10 @@ courses:
     stage: expert
   - id: partial-differential-equations
     title: Partial Differential Equations
-    stage: advanced
+    stage: expert
   - id: differential-geometry
     title: Differential Geometry
-    stage: advanced
+    stage: expert
   - id: commutative-algebra
     title: Commutative Algebra
     stage: expert

@@ -7,7 +7,7 @@ prerequisites:
 - id: popper-falsificationism
   type: hard
 builds-toward:
-- normal-science-versus-crisis
+- normal-science-anomalies
 tags:
 - falsifiability
 - demarcation

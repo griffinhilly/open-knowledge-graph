@@ -4,25 +4,25 @@ description: The study of human societies, social relationships, and institution
 courses:
 - id: sociology
   title: Sociology
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: anthropology
   title: Anthropology
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: political-science
   title: Political Science
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: research-methods-social-science
   title: Research Methods in Social Science
-  stage: abstract-reasoning
+  stage: advanced
 - id: human-geography
   title: Human Geography
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: sociological-theory
   title: Sociological Theory
-  stage: formal-systems
+  stage: advanced
 - id: international-relations-theory
   title: International Relations Theory
-  stage: formal-systems
+  stage: advanced
 - id: demography
   title: Demography
   stage: advanced

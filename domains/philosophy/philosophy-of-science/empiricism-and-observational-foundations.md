@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - problem-of-induction
-- logical-positivism-and-vienna-circle
+- logical-positivism
 tags:
 - empiricism
 - observation

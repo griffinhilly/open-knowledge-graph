@@ -6,7 +6,7 @@ description: The study of computation, algorithms, data structures, and informat
 courses:
 - id: programming-fundamentals
   title: Programming Fundamentals
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: data-structures-and-algorithms
   title: Data Structures & Algorithms
   stage: formal-systems
@@ -21,7 +21,7 @@ courses:
   stage: formal-systems
 - id: computer-networking
   title: Computer Networking
-  stage: formal-systems
+  stage: advanced
 - id: theory-of-computation
   title: Theory of Computation
   stage: advanced
@@ -39,13 +39,13 @@ courses:
   stage: expert
 - id: cryptography
   title: Cryptography
-  stage: advanced
+  stage: expert
 - id: quantum-computing
   title: Quantum Computing
-  stage: advanced
+  stage: expert
 - id: information-theory
   title: Information Theory
-  stage: advanced
+  stage: expert
 - id: advanced-algorithms
   title: Advanced Algorithms
   stage: expert

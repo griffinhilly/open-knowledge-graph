@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: social-network-analysis-structure
   type: hard
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: hard
 builds-toward:
 - community-detection-networks

@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: big-o-notation
   type: soft
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: soft
 - id: algorithm-analysis-big-o
   type: soft

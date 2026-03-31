@@ -4,7 +4,7 @@ title: Probability Density Functions
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: continuous-random-variables-basics
+- id: continuous-random-variables
   type: hard
 - id: definite-integral-definition
   type: soft

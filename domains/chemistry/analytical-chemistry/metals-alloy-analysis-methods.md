@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: atomic-absorption-spectroscopy
   type: hard
-- id: gravimetric-analysis-advanced
+- id: gravimetric-analysis
   type: soft
 tags:
 - metallurgical analysis

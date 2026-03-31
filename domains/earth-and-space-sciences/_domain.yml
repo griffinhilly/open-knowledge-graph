@@ -5,31 +5,31 @@ description: The study of Earth's systems and the broader universe. From mineral
 courses:
 - id: earth-and-weather
   title: Earth & Weather
-  stage: pre-formal
+  stage: concrete-operations
 - id: earth-science
   title: Earth Science
   stage: concrete-operations
 - id: geology
   title: Geology
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: meteorology-and-climate
   title: Meteorology & Climate
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: oceanography
   title: Oceanography
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: astronomy
   title: Astronomy & Astrophysics
   stage: formal-systems
 - id: planetary-science
   title: Planetary Science
-  stage: formal-systems
+  stage: expert
 - id: climate-science
   title: Climate Science
-  stage: formal-systems
+  stage: advanced
 - id: geophysics
   title: Geophysics
-  stage: advanced
+  stage: expert
 - id: remote-sensing-and-gis
   title: Remote Sensing & GIS
   stage: advanced

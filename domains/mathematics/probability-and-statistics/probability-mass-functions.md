@@ -4,7 +4,7 @@ title: Probability Mass Functions
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: discrete-random-variables-basics
+- id: discrete-random-variables
   type: hard
 builds-toward:
 - expected-value

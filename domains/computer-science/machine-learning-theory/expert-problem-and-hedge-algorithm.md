@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: online-learning-and-regret-bounds
   type: hard
-- id: discrete-random-variables-basics
+- id: discrete-random-variables
   type: soft
 tags:
 - online-learning

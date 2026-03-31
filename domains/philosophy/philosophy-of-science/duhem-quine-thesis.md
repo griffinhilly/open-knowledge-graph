@@ -4,7 +4,7 @@ title: The Duhem-Quine Thesis
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
-- id: logical-positivism-and-vienna-circle
+- id: logical-positivism
   type: soft
 - id: problem-of-induction
   type: soft

@@ -4,7 +4,7 @@ title: Independence of Events
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: conditional-probability-fundamentals
+- id: conditional-probability
   type: hard
 builds-toward:
 - sampling-distributions

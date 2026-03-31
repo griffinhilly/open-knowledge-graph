@@ -4,7 +4,7 @@ title: Trees, Forests, and Spanning Trees
 domain: mathematics
 course: discrete-math
 prerequisites:
-- id: graph-theory-fundamentals
+- id: graph-theory-intro
   type: hard
 - id: graph-connectivity-components
   type: soft

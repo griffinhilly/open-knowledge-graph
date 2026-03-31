@@ -5,13 +5,13 @@ description: The study of living organisms, their structure, function, growth, e
 courses:
 - id: living-things
   title: Living Things
-  stage: pre-formal
+  stage: concrete-operations
 - id: life-science
   title: Life Science
   stage: concrete-operations
 - id: cell-biology
   title: Cell Biology
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: genetics-and-molecular-biology
   title: Genetics & Molecular Biology
   stage: formal-systems
@@ -23,13 +23,13 @@ courses:
   stage: formal-systems
 - id: microbiology
   title: Microbiology
-  stage: formal-systems
+  stage: advanced
 - id: biochemistry
   title: Biochemistry
   stage: formal-systems
 - id: evolutionary-biology
   title: Evolutionary Biology
-  stage: formal-systems
+  stage: advanced
 - id: neuroscience
   title: Neuroscience
   stage: advanced
@@ -38,13 +38,13 @@ courses:
   stage: advanced
 - id: genomics-and-bioinformatics
   title: Genomics & Bioinformatics
-  stage: advanced
+  stage: expert
 - id: systems-biology
   title: Systems Biology
   stage: expert
 - id: developmental-biology
   title: Developmental Biology
-  stage: advanced
+  stage: expert
 - id: structural-biology
   title: Structural Biology
   stage: expert
