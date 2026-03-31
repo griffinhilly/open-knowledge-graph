@@ -679,7 +679,7 @@ const DOMAIN_ORDER = [
   'mathematics', 'formal-sciences-and-logic', 'philosophy', 'computer-science',
   'engineering', 'physics', 'earth-and-space-sciences', 'chemistry', 'biology',
   'health-and-human-development', 'psychology', 'social-sciences',
-  'practical-life-skills', 'economics', 'history', 'language-and-communication', 'literature',
+  'economics', 'history', 'language-and-communication', 'literature',
   'arts-and-aesthetics', 'music'
 ];
 

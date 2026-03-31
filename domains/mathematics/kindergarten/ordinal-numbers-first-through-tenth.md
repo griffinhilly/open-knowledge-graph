@@ -4,7 +4,7 @@ title: 'Ordinal Numbers: First Through Tenth'
 domain: mathematics
 course: kindergarten
 prerequisites:
-- id: counting-to-ten
+- id: counting-to-10
   type: hard
 builds-toward:
 - ordinal-positions

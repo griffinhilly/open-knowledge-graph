@@ -4,7 +4,7 @@ title: 'Numeral Recognition: 0-10'
 domain: mathematics
 course: kindergarten
 prerequisites:
-- id: counting-to-ten
+- id: counting-to-10
   type: hard
 builds-toward:
 - numeral-writing-0-10

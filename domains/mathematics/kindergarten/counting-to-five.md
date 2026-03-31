@@ -7,7 +7,7 @@ prerequisites:
 - id: number-zero-concept
   type: soft
 builds-toward:
-- counting-to-ten
+- counting-to-10
 - subitizing-to-five
 tags:
 - counting

@@ -66,7 +66,6 @@ DOMAIN_ORDER = [
     "health-and-human-development",
     "psychology",
     "social-sciences",
-    "practical-life-skills",
     "economics",
     "history",
     "language-and-communication",
