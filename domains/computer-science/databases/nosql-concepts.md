@@ -64,7 +64,7 @@ Map the same data model into a relational schema and a document schema side-by-s
   answer: true
   explanation: "True. 'Eventually consistent' is frequently misunderstood as meaning 'sometimes wrong.' It means that after a write, all replicas will converge to the same value — but convergence is asynchronous and may take milliseconds to seconds, not permanently. During the convergence window, a reader might see a slightly stale value. This is acceptable for many use cases (social media feeds, shopping carts) but not for others (bank balances, inventory counts where overselling is catastrophic)."
 
-- question: "The term 'NoSQL' means these databases can rarely use SQL or SQL-like query languages."
+- question: "The term 'NoSQL' means these databases cannot use SQL or SQL-like query languages."
   type: true-false
   answer: false
   explanation: "False. 'NoSQL' means 'not only SQL' — it signals that relational databases are not the only tool, not that SQL is prohibited. Many NoSQL systems support SQL-like query languages: Cassandra has CQL (Cassandra Query Language), Google BigQuery uses standard SQL, and various others provide SQL interfaces. The name is a historical artifact from the early days of the movement and is widely acknowledged as misleading."

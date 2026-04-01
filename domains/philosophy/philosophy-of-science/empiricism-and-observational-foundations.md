@@ -1,6 +1,6 @@
 ---
 id: empiricism-and-observational-foundations
-title: Empiricism and the Foundations of Science
+title: "Empiricism and the Foundations of Science"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

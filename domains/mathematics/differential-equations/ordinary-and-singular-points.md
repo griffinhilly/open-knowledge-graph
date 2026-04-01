@@ -6,8 +6,6 @@ course: differential-equations
 prerequisites:
 - id: power-series-solutions
   type: hard
-- id: analytic-functions
-  type: soft
 builds-toward:
 - frobenius-method
 tags:

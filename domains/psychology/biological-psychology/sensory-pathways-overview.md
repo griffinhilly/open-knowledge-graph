@@ -14,9 +14,7 @@ prerequisites:
   type: soft
 - id: cerebral-cortex-organization
   type: soft
-- id: sensory-transduction
-  type: hard
-- id: sensory-system-overview
+- id: sensory-transduction-and-encoding
   type: hard
 builds-toward:
 - visual-processing-pathway

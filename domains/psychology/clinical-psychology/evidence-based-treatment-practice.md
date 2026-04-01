@@ -4,7 +4,7 @@ title: Evidence-Based Treatment and Practice Guidelines
 domain: psychology
 course: clinical-psychology
 prerequisites:
-- id: research-methods-psychology
+- id: scientific-method-psychology
   type: hard
 - id: hypothesis-test-framework
   type: soft

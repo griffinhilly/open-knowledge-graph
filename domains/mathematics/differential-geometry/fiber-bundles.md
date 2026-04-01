@@ -8,7 +8,7 @@ prerequisites:
     type: hard
   - id: submanifolds
     type: soft
-  - id: quotient-spaces
+  - id: quotient-groups
     type: soft
 tags:
   - fiber-bundles

@@ -6,7 +6,7 @@ course: psychometrics
 prerequisites:
 - id: factor-analysis-measurement
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: soft

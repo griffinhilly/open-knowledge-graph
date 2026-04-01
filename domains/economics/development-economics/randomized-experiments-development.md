@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: hypothesis-testing-regression
   type: soft
-- id: probability-theory
+- id: probability-axioms
   type: hard
 - id: sampling-distributions-theory
   type: hard

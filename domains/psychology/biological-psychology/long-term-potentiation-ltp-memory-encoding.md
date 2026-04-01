@@ -12,7 +12,7 @@ prerequisites:
   type: hard
 - id: experience-dependent-plasticity-learning
   type: hard
-- id: protein-synthesis
+- id: ribosomes-and-protein-synthesis-intro
   type: soft
 - id: gene-expression-central-dogma
   type: soft

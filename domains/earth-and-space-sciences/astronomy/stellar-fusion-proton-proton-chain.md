@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: quantum-tunneling-and-reaction-rates
   type: soft
-- id: thermodynamics-intro
-  type: soft
 - id: atomic-structure-and-atoms
   type: soft
 builds-toward:

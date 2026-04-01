@@ -6,8 +6,6 @@ course: systems-biology
 prerequisites:
 - id: metabolic-flux-analysis
   type: hard
-- id: linear-algebra-foundations
-  type: hard
 - id: cellular-respiration-overview
   type: soft
 builds-toward:

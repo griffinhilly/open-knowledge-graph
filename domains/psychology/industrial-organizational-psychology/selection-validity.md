@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: job-analysis
   type: hard
-- id: measurement-in-psychology
+- id: measurement-scales-psychology
   type: soft
 tags:
 - validity

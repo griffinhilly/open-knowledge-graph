@@ -4,8 +4,6 @@ title: 'Shock: Cardiogenic, Septic, Hypovolemic, and Anaphylactic'
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: cardiac-output-and-perfusion
-  type: hard
 - id: blood-pressure-regulation
   type: hard
 - id: homeostasis-and-feedback

@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: truth-tables-and-evaluation
   type: soft
-- id: boolean-functions
+- id: boolean-functions-and-circuits
   type: soft
 builds-toward:
 - logical-equivalence-formulas

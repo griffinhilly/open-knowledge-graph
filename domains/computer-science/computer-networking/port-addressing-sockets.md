@@ -50,7 +50,7 @@ Ports are 16-bit identifiers that allow multiple applications to use the same tr
   answer: 2
   explanation: "When a TCP connection closes, the OS keeps the socket in TIME_WAIT state for a period (typically 2× the Maximum Segment Lifetime, ~60–120 seconds) to ensure all packets from the previous connection have been delivered before the port is reused. During this window, the port is still 'in use' even though no application is actively using it. This is the most common cause of the error during development. Solutions include waiting, using SO_REUSEADDR socket option, or restarting with a different port."
 
-- question: "A server process listening on port 80 can handle at most one TCP connection at a time, because a port is a single number and two connections can rarely simultaneously share the same port."
+- question: "A server process listening on port 80 can handle at most one TCP connection at a time, because a port is a single number and two connections cannot simultaneously share the same port."
   type: true-false
   answer: false
   explanation: "This is the key misconception about ports. A single server port can handle thousands of simultaneous connections because connections are identified by the four-tuple (src IP, src port, dst IP, dst port), not by server port alone. Each client contributes a unique (client IP, client ephemeral port) pair, making every connection's four-tuple globally unique. The OS demultiplexes incoming packets using all four fields and routes each to the correct socket. The server port 80 appears in every connection's four-tuple, but that doesn't conflict — it's the remaining two fields that distinguish them."

@@ -1,6 +1,6 @@
 ---
 id: causal-explanation-science
-title: Causal Explanation
+title: "Causal Explanation"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

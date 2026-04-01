@@ -6,7 +6,7 @@ course: health-economics
 prerequisites:
 - id: healthcare-market-structure
   type: hard
-- id: supply-and-demand
+- id: supply-and-demand-basics
   type: soft
 builds-toward:
 - health-insurance-design

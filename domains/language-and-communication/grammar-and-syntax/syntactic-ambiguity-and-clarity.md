@@ -18,7 +18,7 @@ prerequisites:
   type: soft
 - id: prepositions-location-time-direction
   type: soft
-- id: dependent-clause-types
+- id: dependent-clauses
   type: soft
 - id: fixed-idioms-and-expressions
   type: soft

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: character-theory
   type: hard
-- id: rings-and-ideals
+- id: subrings-and-ideals
   type: soft
 builds-toward: []
 tags:

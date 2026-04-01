@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: soft
 builds-toward:
 - monetary-neutrality-long-run

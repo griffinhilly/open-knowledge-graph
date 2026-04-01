@@ -6,7 +6,7 @@ course: cell-biology
 prerequisites:
 - id: passive-transport
   type: hard
-- id: protein-structure-and-function
+- id: protein-tertiary-structure
   type: soft
 - id: electrochemistry-basics
   type: soft

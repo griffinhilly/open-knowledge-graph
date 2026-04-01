@@ -8,9 +8,9 @@ prerequisites:
   type: soft
 - id: instrumental-variables
   type: hard
-- id: probability-theory
+- id: probability-axioms
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 - id: expected-value-theory
   type: soft

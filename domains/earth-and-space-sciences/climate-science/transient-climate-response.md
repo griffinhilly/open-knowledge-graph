@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: climate-models-and-projections
   type: hard
-- id: ocean-heat-content-and-thermal-inertia
+- id: marine-heat-content-and-thermal-inertia
   type: soft
 builds-toward:
 - climate-models-and-projections

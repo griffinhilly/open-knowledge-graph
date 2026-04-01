@@ -6,7 +6,7 @@ course: genomics-and-bioinformatics
 prerequisites:
 - id: pairwise-sequence-alignment
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 builds-toward:
 - functional-annotation

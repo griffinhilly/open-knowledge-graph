@@ -52,7 +52,7 @@ A space is separable if it has a countable dense subset. Separability is related
   answer: true
   explanation: "This is a general theorem: if X has a countable basis {B₁, B₂, B₃, …}, pick one point xₙ from each nonempty basis element Bₙ. The resulting countable set {xₙ} is dense: any nonempty open set U contains some basis element Bₙ ⊆ U, and thus contains xₙ. So every second-countable space is separable. The converse holds in metric spaces (separable ⟺ second-countable) but fails in general topology — there exist separable spaces that are not second-countable."
 
-- question: "In any topological space, separability is equivalent to second-countability — a space is separable if and primarily if it has a countable basis."
+- question: "In any topological space, separability is equivalent to second-countability — a space is separable if and only if it has a countable basis."
   type: true-false
   answer: false
   explanation: "This equivalence holds in metric spaces but fails in general topology. The 'Sorgenfrey plane' (ℝ² with the lower-limit topology) is a famous counterexample: it is separable (the rationals are dense) but not second-countable (it has no countable basis). The direction 'second-countable ⟹ separable' is always true, but 'separable ⟹ second-countable' requires the metric assumption. Conflating these in general topology is a common error that leads to incorrect proofs."

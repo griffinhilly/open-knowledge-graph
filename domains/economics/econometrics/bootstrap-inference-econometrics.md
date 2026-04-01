@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: robust-standard-errors
   type: soft
-- id: probability-theory
+- id: probability-axioms
   type: hard
 - id: sampling-distributions-theory
   type: hard

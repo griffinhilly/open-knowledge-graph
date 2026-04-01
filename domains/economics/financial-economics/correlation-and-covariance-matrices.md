@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: portfolio-diversification
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: soft
 builds-toward:
 - asset-allocation-framework

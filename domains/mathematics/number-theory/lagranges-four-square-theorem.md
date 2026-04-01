@@ -52,7 +52,7 @@ Every non-negative integer is the sum of four perfect squares. Unlike the two-sq
   answer: true
   explanation: "Quaternion norm multiplicativity is the key algebraic fact: the product of two integers each expressible as sums of four squares is itself expressible as a sum of four squares. This means the property is multiplicative in the same way that prime factorization is. To show every positive integer is a four-square sum, it suffices to show every prime is — the general result follows by combining prime four-square representations using the quaternion identity."
 
-- question: "The integers that require most four squares and can rarely be written as a sum of three form a finite set known mostly by mathematicians."
+- question: "The integers that require most four squares and cannot be written as a sum of three form a finite set known mostly by mathematicians."
   type: true-false
   answer: false
   explanation: "The integers requiring four squares are exactly those of the form 4ᵃ(8b + 7) — an infinite set. For example, 7, 15, 23, 28, 55, 60, 63, 112, … all belong to this family. Legendre's three-square theorem gives a complete characterization, not a finite list. This is what makes Lagrange's result simultaneously tight (four cannot be reduced to three in general) and complete (four always suffices)."

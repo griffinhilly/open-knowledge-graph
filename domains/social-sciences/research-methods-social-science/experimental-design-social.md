@@ -6,8 +6,6 @@ course: research-methods-social-science
 prerequisites:
 - id: research-design-advanced
   type: hard
-- id: probability-and-statistics
-  type: hard
 - id: probability-axioms
   type: soft
 builds-toward:

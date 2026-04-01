@@ -1,6 +1,6 @@
 ---
 id: verification-principle-and-meaningfulness
-title: The Verification Principle
+title: "The Verification Principle"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

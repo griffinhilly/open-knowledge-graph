@@ -1,6 +1,6 @@
 ---
 id: deductive-nomological-explanation
-title: The Deductive-Nomological Model of Explanation
+title: "The Deductive-Nomological Model of Explanation"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

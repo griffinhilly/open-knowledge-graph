@@ -1,6 +1,6 @@
 ---
 id: habermas-communicative-action-continental
-title: Habermas — Communicative Action
+title: "Habermas — Communicative Action"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

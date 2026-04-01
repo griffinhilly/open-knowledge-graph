@@ -49,7 +49,7 @@ Study the three canonical applications: infinite straight wire, infinite solenoi
   answer: 1
   explanation: "For a solenoid, B inside is uniform and parallel to the axis; B outside is approximately zero. A rectangular Amperian loop with one long side inside (where B · dl = BL) and one long side outside (where B · dl = 0) lets you write ∮ B · dl = BL = μ₀ n L I, giving B = μ₀nI. A circular loop does not exploit the geometry correctly because B is axial, not azimuthal."
 
-- question: "Ampère's law (∮ B · dl = μ₀I_enc) is primarily valid when the current distribution has a high degree of symmetry."
+- question: "Ampère's law (∮ B · dl = μ₀I_enc) is only valid when the current distribution has a high degree of symmetry."
   type: true-false
   answer: false
   explanation: "Ampère's law is always valid for steady currents — it is an exact law of magnetostatics, true for any current distribution and any closed loop. The symmetry requirement applies to practical calculation: the integral ∮ B · dl simplifies to BL or B(2πr) only when symmetry guarantees B is constant in magnitude and parallel to dl along the chosen loop. Without symmetry, the integral is too complex to evaluate analytically, so Biot-Savart is used instead."

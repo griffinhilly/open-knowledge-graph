@@ -47,7 +47,7 @@ Phrase structure rules generate well-formed trees by specifying how syntactic no
   answer: 1
   explanation: "'Context-free' means that a node's expansion is determined solely by the node's own category label — it does not depend on what is next to it in the tree. The proposed rule violates this: the VP can only expand as V NP if it is adjacent to a subject NP. That is a context-sensitive rule. CFGs are powerful precisely because expansions are local and independent of global structure, making them computationally tractable. Rules that require checking neighboring nodes belong to context-sensitive grammar formalisms."
 
-- question: "Context-free grammars (CFGs) can rarely adequately describe natural language syntax, because most natural languages require transformational rules to capture basic sentences."
+- question: "Context-free grammars (CFGs) cannot adequately describe natural language syntax, because most natural languages require transformational rules to capture basic sentences."
   type: true-false
   answer: false
   explanation: "CFGs capture the vast majority of natural language syntax efficiently and are the foundation of most syntactic theory. The claim that CFGs are wholly inadequate is an overstatement. CFGs do have well-documented limitations — cross-serial dependencies in Swiss German, unbounded movement, certain coordination patterns — but these are edge cases, not the core of sentence structure. The correct position is that CFGs are powerful but not fully sufficient; more expressive formalisms (transformational grammar, Minimalism, HPSG) extend CFGs precisely because they need to handle these specific phenomena."

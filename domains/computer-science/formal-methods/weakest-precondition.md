@@ -6,7 +6,7 @@ course: formal-methods
 prerequisites:
 - id: hoare-logic
   type: hard
-- id: predicate-logic
+- id: predicate-logic-introduction
   type: hard
 builds-toward:
 - floyd-hoare-verification

@@ -6,7 +6,7 @@ course: industrial-organizational-psychology
 prerequisites:
 - id: job-analysis
   type: hard
-- id: measurement-in-psychology
+- id: measurement-scales-psychology
   type: soft
 tags:
 - performance-management

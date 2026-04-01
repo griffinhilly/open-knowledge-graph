@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: radiative-transfer-atmospheric
   type: soft
-- id: partial-differential-equations-intro
-  type: soft
 builds-toward:
 - climate-model-evaluation
 - climate-models-and-projections

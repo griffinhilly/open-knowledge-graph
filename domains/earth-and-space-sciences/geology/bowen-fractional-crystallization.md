@@ -6,7 +6,7 @@ course: geology
 prerequisites:
 - id: magma-melting-pressure-temperature
   type: hard
-- id: mineral-properties-and-identification
+- id: mineral-properties-and-testing
   type: hard
 builds-toward:
 - magma-composition-viscosity-rheology

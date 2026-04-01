@@ -4,7 +4,7 @@ title: Bandwidth and Resonant Frequency Selection
 domain: engineering
 course: control-systems
 prerequisites:
-- id: frequency-response-magnitude-phase-plots
+- id: frequency-response-magnitude-phase
   type: hard
 - id: frequency-response-magnitude-phase-basics
   type: soft

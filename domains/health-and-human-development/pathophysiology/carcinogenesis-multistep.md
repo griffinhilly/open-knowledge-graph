@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: dna-mutations
   type: hard
-- id: apoptosis-pathways
-  type: hard
 - id: cell-cycle-checkpoints-cancer
   type: soft
 - id: oncogenes-and-tumor-suppressors

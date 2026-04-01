@@ -58,7 +58,7 @@ Make both a temporary vinaigrette and a mustard-stabilized one, observing how ea
   answer: 1
   explanation: "Without an emulsifier, any vinaigrette is a temporary emulsion — vigorous mixing creates tiny oil droplets, but they gradually coalesce and rise because nothing is preventing them from merging. A 5:1 ratio makes this worse: more oil means more droplets that need coating and more surface area to stabilize. The separation is not permanent (option D is wrong) — shake or whisk it again and it re-emulsifies. Option A confuses high oil content with stability; oil is the dispersed phase, and more of it is harder, not easier, to keep dispersed."
 
-- question: "A vinaigrette that has separated into an oil layer and a vinegar layer has undergone a chemical reaction that can rarely be reversed."
+- question: "A vinaigrette that has separated into an oil layer and a vinegar layer has undergone a chemical reaction that cannot be reversed."
   type: true-false
   answer: false
   explanation: "Separation is a physical process, not a chemical one. The oil and vinegar have simply de-mixed — the oil droplets have coalesced back into a continuous phase. No chemical bonds have broken or formed. Shake or whisk the dressing vigorously and the oil breaks back into tiny droplets dispersed through the vinegar, re-forming the emulsion. A truly broken emulsion (where the emulsifier has been damaged or the proportions are severely off) is unusual in everyday vinaigrette; most separations are easily fixed."

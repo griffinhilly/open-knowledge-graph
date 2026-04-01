@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: cantor-diagonalization
   type: soft
-- id: proof-by-induction
-  type: soft
 builds-toward:
 - intuitionistic-logic-intro
 tags:

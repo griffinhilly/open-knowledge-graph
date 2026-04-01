@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: feature-agreement-checking
   type: soft
-- id: inflectional-morphology-formal
+- id: inflectional-morphology
   type: soft
 builds-toward:
 - unification-mechanism

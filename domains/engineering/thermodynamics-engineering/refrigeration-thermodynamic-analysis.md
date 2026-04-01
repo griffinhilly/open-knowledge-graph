@@ -6,8 +6,6 @@ course: thermodynamics-engineering
 prerequisites:
 - id: second-law-thermodynamics-entropy
   type: hard
-- id: first-law-energy-conservation
-  type: hard
 builds-toward:
 - vapor-compression-refrigeration-cycle
 - heat-pump-heating-cooling-analysis

@@ -38,7 +38,7 @@ Children often think that some feelings are "bad" (like anger or sadness) and sh
   answer: 1
   explanation: "Feeling angry is completely normal — everyone feels angry sometimes. Anger is not a bad feeling; it is a signal that something feels unfair or frustrating. What matters is what you do with that anger. Hitting or yelling is not okay, but feeling the anger itself is perfectly fine."
 
-- question: "Primarily children feel scared."
+- question: "Only children feel scared."
   type: true-false
   answer: false
   explanation: "Everyone feels scared sometimes — children, teenagers, and adults. Feeling scared is your body's way of warning you that something might be dangerous. It is a protective feeling that helps keep you safe. Even very brave people feel scared; being brave means doing the right thing even when you are afraid."

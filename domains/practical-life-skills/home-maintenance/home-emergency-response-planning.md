@@ -4,8 +4,6 @@ title: Home Emergency Response and Shutoff Procedures
 domain: practical-life-skills
 course: home-maintenance
 prerequisites:
-- id: home-safety-checklist
-  type: hard
 - id: electrical-system-basics
   type: hard
 - id: plumbing-system-layout

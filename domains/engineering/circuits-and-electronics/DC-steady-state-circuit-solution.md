@@ -53,7 +53,7 @@ In DC steady state, capacitors act as open circuits and inductors act as short c
   answer: true
   explanation: "True. An inductor's terminal voltage is V = L · dI/dt. In DC steady state, all currents are constant (no time variation), so dI/dt = 0 and therefore V = 0. A circuit element with zero voltage across it is a short circuit — it behaves like a wire. The inductor passes DC current freely with no voltage drop. This is the complement of the capacitor rule: capacitors → open circuits (no current), inductors → short circuits (no voltage). Both follow directly from the condition dV/dt = dI/dt = 0."
 
-- question: "A capacitor in DC steady state can rarely have a nonzero voltage across it, because capacitors block DC current and therefore can seldom store energy in a DC circuit."
+- question: "A capacitor in DC steady state cannot have a nonzero voltage across it, because capacitors block DC current and therefore can seldom store energy in a DC circuit."
   type: true-false
   answer: false
   explanation: "False. A capacitor in DC steady state can absolutely have a nonzero voltage across it — in fact, finding that voltage is often the goal of DC steady-state analysis. What is zero in steady state is the *current* through the capacitor (I = C dV/dt = 0). The capacitor holds whatever voltage was established during the transient charging phase. 'Blocks DC current' means zero steady-state current, not zero steady-state voltage. The stored energy ½CV² is nonzero whenever V ≠ 0."

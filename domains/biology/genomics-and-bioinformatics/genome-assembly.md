@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: genome-structure-and-organization
   type: hard
-- id: data-structures-and-algorithms-basics
-  type: soft
 builds-toward:
 - comparative-genomics
 - metagenomics

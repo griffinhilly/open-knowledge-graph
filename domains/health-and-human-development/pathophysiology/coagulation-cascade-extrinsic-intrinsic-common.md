@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: hemostasis-coagulation-cascade
   type: hard
-- id: complement-cascade-and-pathways
+- id: complement-activation-pathways
   type: soft
 builds-toward:
 - thrombosis-pathophysiology

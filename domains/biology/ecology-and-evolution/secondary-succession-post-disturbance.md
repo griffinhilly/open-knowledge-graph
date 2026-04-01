@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: ecological-succession
   type: hard
-- id: disturbance-and-ecosystem-recovery
-  type: soft
 - id: disturbance-ecology-and-succession-dynamics
   type: soft
 builds-toward:

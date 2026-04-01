@@ -1,6 +1,6 @@
 ---
 id: kuhn-paradigm-theory
-title: Kuhn's Paradigm Theory
+title: "Kuhn's Paradigm Theory"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
@@ -56,7 +56,7 @@ Study detailed historical case studies: Ptolemaic to Copernican astronomy, Newto
   answer: 1
   explanation: "For Kuhn, the crucial feature of normal science is that it is not testing the paradigm — it takes the paradigm for granted and uses it to extend knowledge within its domain. A Newtonian physicist applies Newton's laws to new problems; she does not treat the laws themselves as hypotheses under test. This is why Popper's falsificationism, which Kuhn was explicitly responding to, seemed to Kuhn to misdescribe what scientists actually do most of the time. Revolutionary science, by contrast, involves practitioners questioning the very foundations that normal science presupposes — a much rarer and more disruptive event."
 
-- question: "On Kuhn's view, a single powerful anomaly — an experiment whose result the paradigm can rarely explain — is sufficient to trigger a scientific revolution."
+- question: "On Kuhn's view, a single powerful anomaly — an experiment whose result the paradigm cannot explain — is sufficient to trigger a scientific revolution."
   type: true-false
   answer: false
   explanation: "Kuhn explicitly argued against this. Every paradigm has anomalies — unresolved puzzles that resist the paradigm's methods. The scientific community does not abandon a paradigm simply because an anomaly exists; they set it aside and continue puzzle-solving. Only when anomalies proliferate, resist repeated attempts at resolution, and touch the core commitments of the paradigm does crisis develop. Even then, a paradigm is not abandoned until a viable alternative is available — scientists do not give up a map just because it has errors; they need a better map. A single anomaly is therefore rarely sufficient."

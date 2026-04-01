@@ -46,7 +46,7 @@ Identify the primary conflict and at least one secondary conflict in any text yo
   answer: 1
   explanation: "Naming the conflict type is a starting point, not an analysis. The interpretive step asks what this conflict reveals — what the author is examining about society, human nature, or the protagonist's values. Without this move, the analysis remains categorisation rather than interpretation."
 
-- question: "A narrative can have primarily one real conflict — additional tensions belong to subplots and should be treated separately from the central analysis."
+- question: "A narrative can have only one real conflict — additional tensions belong to subplots and should be treated separately from the central analysis."
   type: true-false
   answer: false
   explanation: "A single narrative often sustains multiple layered conflicts simultaneously, and these layers typically interact. An internal conflict (a character's self-doubt) often mirrors or complicates an external conflict (a social obstacle), and that interaction is frequently where the deepest meaning lives. Restricting analysis to one conflict misses this richness."

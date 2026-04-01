@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-reactions
   type: soft
-- id: redox-chemistry-intro
-  type: soft
 - id: fad-fadh2-and-other-redox-carriers
   type: soft
 builds-toward:

@@ -49,7 +49,7 @@ Thermal fluctuations compete with exchange interaction; above the Curie temperat
   answer: true
   explanation: "At 500°C (773 K), the temperature is below the Curie temperature of iron (1043 K). Below Tc, the exchange interaction dominates thermal fluctuations, and long-range magnetic order is maintained — the material remains ferromagnetic. Only when T exceeds Tc does the system transition to the paramagnetic phase. This is why moderate heating does not destroy permanent magnets, but extreme heating does."
 
-- question: "Above the Curie temperature, a material becomes largely magnetically inert — it can rarely respond to an external magnetic field at most."
+- question: "Above the Curie temperature, a material becomes largely magnetically inert — it cannot respond to an external magnetic field at most."
   type: true-false
   answer: false
   explanation: "Above Tc, a material becomes paramagnetic, not magnetically inert. Paramagnets respond to external fields: an applied field partially aligns the disordered moments, producing a weak magnetization proportional to the field strength. What is lost above Tc is *spontaneous* magnetization — the ability to maintain alignment without any external field. When the external field is removed, thermal fluctuations randomize the moments again. Paramagnetism is a real and measurable magnetic response; it is simply much weaker than ferromagnetism."

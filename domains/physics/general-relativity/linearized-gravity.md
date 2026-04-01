@@ -6,7 +6,7 @@ course: general-relativity
 prerequisites:
 - id: einstein-field-equations
   type: hard
-- id: maxwells-equations
+- id: maxwells-equations-overview
   type: soft
 tags:
 - linearized-gravity

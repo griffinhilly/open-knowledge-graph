@@ -8,7 +8,7 @@ prerequisites:
   type: soft
 - id: cryo-em
   type: soft
-- id: protein-folding-and-stability
+- id: protein-folding-and-chaperones
   type: hard
 builds-toward:
 - macromolecular-assemblies

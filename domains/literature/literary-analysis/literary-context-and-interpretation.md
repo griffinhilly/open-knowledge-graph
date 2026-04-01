@@ -6,8 +6,6 @@ course: literary-analysis
 prerequisites:
 - id: textual-analysis-and-interpretation
   type: hard
-- id: historical-context-and-influence
-  type: soft
 builds-toward:
 - interpretation-ambiguity-and-validity
 tags:

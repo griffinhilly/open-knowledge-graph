@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phonological-features
   type: hard
+- id: zero-derivation-conversion
+  type: soft
 builds-toward:
 - stress-assignment-rules
 - morphology-phonology-interface
@@ -19,7 +21,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Phonological Rules and Derivation
 
 ## Core Idea

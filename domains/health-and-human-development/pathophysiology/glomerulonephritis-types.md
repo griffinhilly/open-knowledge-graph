@@ -4,7 +4,7 @@ title: 'Glomerulonephritis: Immune and Non-Immune Mechanisms'
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: glomerular-filtration-rate
+- id: glomerular-filtration-rate-autoregulation
   type: hard
 - id: adaptive-immune-response
   type: hard

@@ -10,10 +10,8 @@ prerequisites:
   type: hard
 - id: hemostasis-coagulation-cascade
   type: soft
-- id: coagulation-cascade-and-pathways
+- id: hemostasis-coagulation-cascade
   type: hard
-- id: platelet-activation-and-aggregation
-  type: soft
 builds-toward:
 - hemostasis-pathophysiology
 tags:

@@ -6,7 +6,7 @@ course: structural-biology
 prerequisites:
 - id: mass-spectrometry-structural
   type: hard
-- id: protein-folding-and-stability
+- id: protein-folding-and-chaperones
   type: hard
 builds-toward: []
 tags:

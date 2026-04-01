@@ -44,7 +44,7 @@ A space is sequentially compact if every sequence has a convergent subsequence. 
   answer: 1
   explanation: "Sequences can be defined in any topological space (using nets or filters to generalize, though sequences themselves are well-defined). The issue is that in spaces without a countable base (like uncountable products), sequences are too 'thin' to detect all the topology. Tychonoff's theorem says arbitrary products of compact spaces are compact (open-cover sense), yet {0,1}^ℝ is compact but not sequentially compact — some sequences have no convergent subsequences. In metric spaces, second-countability and total boundedness are available to extract subsequences via diagonal arguments, making the equivalence possible."
 
-- question: "A topological space is sequentially compact if and primarily if it is compact in the open-cover sense."
+- question: "A topological space is sequentially compact if and only if it is compact in the open-cover sense."
   type: true-false
   answer: false
   explanation: "This equivalence holds for metric spaces but not for general topological spaces. Counterexamples exist in both directions: (1) uncountable products of compact spaces are compact by Tychonoff's theorem but may fail to be sequentially compact (no convergent subsequences for certain sequences); (2) the ordinal space [0, ω₁) is sequentially compact (every countable sequence has a convergent subsequence) but is not compact in the open-cover sense. The equivalence in metric spaces relies on special properties: separability, total boundedness, and the ability to use diagonal arguments on sequences."

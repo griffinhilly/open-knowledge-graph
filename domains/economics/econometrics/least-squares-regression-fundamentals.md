@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: ols-assumptions
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 - id: matrix-operations
   type: hard

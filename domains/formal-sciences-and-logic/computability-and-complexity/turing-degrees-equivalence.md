@@ -6,7 +6,7 @@ course: computability-and-complexity
 prerequisites:
 - id: many-one-reductions
   type: hard
-- id: recursively-enumerable-languages
+- id: recursively-enumerable-languages-properties
   type: hard
 - id: turing-degrees
   type: soft

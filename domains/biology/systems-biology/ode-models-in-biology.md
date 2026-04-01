@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: signal-transduction-networks
   type: hard
-- id: ordinary-differential-equations
+- id: differential-equations-intro
   type: hard
 builds-toward:
 - parameter-estimation-in-biological-models

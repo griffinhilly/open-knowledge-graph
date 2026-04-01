@@ -44,7 +44,7 @@ To prove existence ('There exists x such that P(x)'), we construct or describe a
   answer: 1
   explanation: "The standard uniqueness proof strategy is 'assume two, show they're equal': suppose Ax = b and Ay = b, then A(x − y) = 0. Since A is invertible, x − y = 0, so x = y. Option A (showing the formula gives a specific answer) establishes existence, not uniqueness — it finds at least one solution but doesn't prove there can't be others. The uniqueness proof must begin by assuming two solutions might exist and then deriving they are equal."
 
-- question: "A uniqueness proof should begin by assuming that there is primarily one solution to the problem being proved."
+- question: "A uniqueness proof should begin by assuming that there is only one solution to the problem being proved."
   type: true-false
   answer: false
   explanation: "This is the key misconception about uniqueness proofs. You do not assume uniqueness — you prove it. The standard technique begins by assuming the opposite: suppose x and y are both solutions (possibly equal, possibly not). Then you derive x = y. If any two solutions must be equal, the solution is unique. Starting by assuming uniqueness would be circular; the proof works precisely because it makes no such assumption upfront."

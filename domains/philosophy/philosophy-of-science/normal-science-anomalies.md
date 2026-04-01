@@ -1,6 +1,6 @@
 ---
 id: normal-science-anomalies
-title: Normal Science and Anomalies
+title: "Normal Science and Anomalies"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

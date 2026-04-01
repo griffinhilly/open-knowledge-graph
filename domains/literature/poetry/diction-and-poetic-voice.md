@@ -6,8 +6,6 @@ course: poetry
 prerequisites:
 - id: poetic-voice-and-tone
   type: hard
-- id: word-choice-diction-effect
-  type: soft
 - id: diction-and-register-in-argument
   type: soft
 builds-toward:

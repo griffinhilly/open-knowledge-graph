@@ -6,8 +6,6 @@ course: pathophysiology
 prerequisites:
 - id: blood-composition-and-function
   type: hard
-- id: platelet-structure-function
-  type: hard
 - id: hemostasis-coagulation-cascade
   type: soft
 - id: hemostasis-platelet-coagulation-fibrinolysis

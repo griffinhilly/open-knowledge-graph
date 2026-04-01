@@ -51,7 +51,7 @@ The multinomial theorem generalizes the binomial theorem to (x₁ + x₂ + ⋯ +
   answer: true
   explanation: "Both interpretations use the same combinatorial reasoning. When expanding (x₁ + ⋯ + xₖ)^n, a term x₁^n₁ ⋯ xₖ^nₖ arises from choosing which of the n factors contribute each variable — the number of such choices is exactly the multinomial coefficient. This is also the number of ways to arrange n objects when n₁ are indistinguishable type-1, n₂ are indistinguishable type-2, etc. The combinatorial structure is identical."
 
-- question: "The multinomial theorem primarily applies when the number of variables equals the exponent — that is, (x₁ + x₂ + ⋯ + xₖ)^n requires k = n."
+- question: "The multinomial theorem only applies when the number of variables equals the exponent — that is, (x₁ + x₂ + ⋯ + xₖ)^n requires k = n."
   type: true-false
   answer: false
   explanation: "There is no requirement that k = n. k is the number of variables (terms in the sum) and n is the exponent; they are independent. For example, (x + y + z)^2 has k=3 variables and n=2, and it expands as x² + y² + z² + 2xy + 2xz + 2yz using multinomial coefficients 2!/(2!0!0!) = 1 for pure squares and 2!/(1!1!0!) = 2 for mixed terms. The constraint is only that n₁ + n₂ + ⋯ + nₖ = n for each term."

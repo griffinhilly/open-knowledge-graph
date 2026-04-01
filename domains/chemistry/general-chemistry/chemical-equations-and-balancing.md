@@ -48,7 +48,7 @@ Chemical equations show reactants (left side) converting to products (right side
   answer: 2
   explanation: "Count oxygen atoms on the right: 3 CO₂ contributes 6 oxygen atoms; 4 H₂O contributes 4 more = 10 total. Each O₂ molecule supplies 2 oxygen atoms, so you need 10 ÷ 2 = 5 O₂. The fully balanced equation is C₃H₈ + 5O₂ → 3CO₂ + 4H₂O, which conserves 3 carbons, 8 hydrogens, and 10 oxygens on each side."
 
-- question: "To balance a chemical equation, you may change the subscripts in a formula if the coefficients alone can rarely produce equal atom counts on both sides."
+- question: "To balance a chemical equation, you may change the subscripts in a formula if the coefficients alone cannot produce equal atom counts on both sides."
   type: true-false
   answer: false
   explanation: "Subscripts are never changed to balance an equation. A subscript defines the chemical identity of a substance — H₂O and H₂O₂ are fundamentally different compounds. Changing a subscript does not balance the equation; it changes what the equation describes. Only coefficients (the numbers in front of complete formulas) are adjusted. If atom counts cannot be balanced without changing subscripts, the equation itself is incorrectly written."

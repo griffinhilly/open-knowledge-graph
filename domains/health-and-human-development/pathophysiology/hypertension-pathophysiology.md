@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: cardiac-cycle-and-heart-function
   type: hard
-- id: renin-angiotensin-aldosterone-system
-  type: soft
 builds-toward:
 - left-ventricular-hypertrophy
 - chronic-kidney-disease-progression

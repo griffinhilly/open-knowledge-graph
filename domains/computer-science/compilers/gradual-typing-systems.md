@@ -49,7 +49,7 @@ Gradual typing blends static and dynamic typing, allowing programmers to omit ty
   answer: true
   explanation: "This is the mechanism that preserves type safety in gradual typing. When a value crosses from the untyped world (type `any`) into the typed world (a specific static type), the compiler inserts a runtime cast or contract check. If the value does not match the expected type, the check fails and raises an error. Without these inserted checks, a string stored in an `any` variable could silently be used as an integer, causing undefined behavior. The checks are the price of allowing dynamic and static code to interoperate safely."
 
-- question: "Gradual typing eliminates type errors in partially-typed code because the `any` type is compatible with everything — code that uses `any` can rarely fail due to type mismatches."
+- question: "Gradual typing eliminates type errors in partially-typed code because the `any` type is compatible with everything — code that uses `any` cannot fail due to type mismatches."
   type: true-false
   answer: false
   explanation: "Gradual typing does not eliminate type errors — it changes when and where they are reported. Fully dynamic code (everything typed as `any`) can still fail with type-related errors at runtime (e.g., calling `.length` on a number). Code at the boundary between typed and untyped regions will raise runtime errors when the actual type doesn't match the expected static type. The benefit of gradual typing is not eliminating errors but enabling static checking where annotations exist while deferring errors to runtime where they don't — not suppressing them entirely."

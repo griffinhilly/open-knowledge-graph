@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: soft
 - id: partial-derivatives
   type: hard

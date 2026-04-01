@@ -4,7 +4,7 @@ title: Bayesian Methods in Biostatistics
 domain: health-and-human-development
 course: biostatistics
 prerequisites:
-- id: probability-theory
+- id: probability-axioms
   type: hard
 - id: power-and-sample-size
   type: soft

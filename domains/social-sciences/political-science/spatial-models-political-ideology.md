@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: coordinate-plane-intro
   type: hard
-- id: distance-formula
+- id: distance-and-distance-formula-3d
   type: hard
 builds-toward:
 - political-polarization-affective-division

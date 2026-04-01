@@ -1,6 +1,6 @@
 ---
 id: scientific-explanation-introduction
-title: 'Scientific Explanation: Core Problems'
+title: "'Scientific Explanation: Core Problems'"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

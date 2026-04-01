@@ -58,7 +58,7 @@ Mark every variable occurrence in a complex formula as free or bound, then draw 
   answer: true
   explanation: "Bound variable names are implementation details. 'For all x, P(x)' and 'For all z, P(z)' make the same claim: every element in the domain satisfies P. The choice of dummy variable is arbitrary, like the choice of loop variable name in code. What matters is the structure of quantifier scope, not the specific labels. This is alpha-equivalence, and it's the theoretical basis for safe variable renaming during substitution."
 
-- question: "In a first-order logic formula, a variable is either free throughout the entire formula or bound throughout — it can rarely be simultaneously free in one part and bound in another."
+- question: "In a first-order logic formula, a variable is either free throughout the entire formula or bound throughout — it cannot be simultaneously free in one part and bound in another."
   type: true-false
   answer: false
   explanation: "The same variable name can have both free and bound occurrences in the same formula. In P(x) ∧ ∀x Q(x), x appears free in P(x) and bound in Q(x). These are technically different 'slots' that happen to share a label. A variable occurrence is free or bound based on whether it falls within the scope of a matching quantifier — it is a property of each occurrence, not of the variable name as a whole."

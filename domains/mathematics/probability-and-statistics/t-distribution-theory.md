@@ -4,8 +4,6 @@ title: 'T-Distribution: Theory and Inference'
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: t-distribution
-  type: soft
 - id: standard-normal-z-scores-theory
   type: hard
 builds-toward:

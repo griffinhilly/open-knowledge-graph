@@ -6,7 +6,7 @@ course: grammar-and-syntax
 prerequisites:
 - id: relative-clauses
   type: hard
-- id: dependent-clause-types
+- id: dependent-clauses
   type: soft
 builds-toward:
 - complex-sentence-construction

@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: permutations
   type: soft
-- id: combinatorics
+- id: probability-with-combinatorics
   type: soft
 - id: derived-row-techniques
   type: soft

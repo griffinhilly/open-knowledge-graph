@@ -4,7 +4,7 @@ title: Immunological Synapse and T Cell-APC Interaction
 domain: biology
 course: immunology
 prerequisites:
-- id: t-cell-receptor-structure-and-function-and-function
+- id: t-cell-receptor-structure-and-function
   type: hard
 - id: t-cell-activation-costimulation
   type: hard

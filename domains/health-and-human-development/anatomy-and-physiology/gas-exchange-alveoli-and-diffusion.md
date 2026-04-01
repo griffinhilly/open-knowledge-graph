@@ -6,8 +6,6 @@ course: anatomy-and-physiology
 prerequisites:
 - id: respiratory-system-anatomy-and-ventilation
   type: hard
-- id: alveolar-gas-exchange-diffusion
-  type: soft
 - id: gas-exchange-and-diffusion
   type: soft
 - id: diffusion-and-ficks-laws

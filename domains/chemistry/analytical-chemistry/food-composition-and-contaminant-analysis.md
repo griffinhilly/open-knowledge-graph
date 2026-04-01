@@ -44,7 +44,7 @@ Food analysis measures nutritional content (vitamins, minerals, macronutrients),
   answer: 1
   explanation: "The Kjeldahl method cannot distinguish nitrogen sources — it digests all nitrogen-containing compounds and reports total nitrogen, which is then multiplied by a conversion factor to estimate protein. Melamine (C₃H₆N₆) is 66% nitrogen by mass, so its presence dramatically inflates the apparent protein content. This reveals a fundamental limitation: compositional methods that target a proxy (nitrogen) rather than the actual analyte (protein) are vulnerable to adulteration with any nitrogen-rich compound."
 
-- question: "Using certified reference materials (CRMs) in food analysis primarily validates that laboratory instruments are accurately calibrated."
+- question: "Using certified reference materials (CRMs) in food analysis only validates that laboratory instruments are accurately calibrated."
   type: true-false
   answer: false
   explanation: "CRMs validate the entire analytical workflow, not just instrument calibration. By processing a CRM through the complete method — homogenization, extraction, cleanup, and instrumental measurement — the analyst can calculate recovery: how much of the certified analyte amount is actually recovered in the final result. If recovery is 70%, then 30% was lost during sample preparation, not due to instrument error. Instrument calibration is only one component; CRMs catch errors at every stage, including extraction efficiency, matrix effects, and sample handling losses."

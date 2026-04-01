@@ -10,10 +10,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
-- id: tangent-spaces
+- id: tangent-vectors-and-tangent-spaces
   type: hard
-- id: four-vectors
-  type: soft
 tags:
 - tensors
 - covariance

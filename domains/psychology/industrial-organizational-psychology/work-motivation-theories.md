@@ -4,7 +4,7 @@ title: Work Motivation Theories
 domain: psychology
 course: industrial-organizational-psychology
 prerequisites:
-- id: research-methods-psychology-intro
+- id: scientific-method-psychology
   type: soft
 tags:
 - motivation

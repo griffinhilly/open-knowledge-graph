@@ -1,6 +1,6 @@
 ---
 id: instrumentalism-science
-title: Instrumentalism
+title: "Instrumentalism"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

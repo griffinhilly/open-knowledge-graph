@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: computational-pragmatics
   type: soft
-- id: inflectional-morphology-formal
+- id: inflectional-morphology
   type: soft
 - id: internal-reconstruction
   type: soft

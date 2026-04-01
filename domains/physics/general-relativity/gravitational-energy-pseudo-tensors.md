@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: stress-energy-tensor
   type: hard
-- id: noethers-theorem
+- id: noethers-theorem-fields
   type: soft
 tags:
 - gravitational-energy

@@ -20,8 +20,6 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
-- id: probability
-  type: soft
 - id: statistical-ensembles-intro
   type: soft
 - id: partition-function-definition

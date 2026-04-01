@@ -4,9 +4,9 @@ title: Interactive Theorem Proving
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: predicate-logic
+- id: predicate-logic-introduction
   type: hard
-- id: type-systems-type-checking
+- id: type-systems-overview
   type: soft
 - id: curry-howard-correspondence
   type: soft

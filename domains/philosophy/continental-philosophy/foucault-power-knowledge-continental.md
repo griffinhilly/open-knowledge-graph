@@ -1,6 +1,6 @@
 ---
 id: foucault-power-knowledge-continental
-title: Foucault — Power/Knowledge and Genealogy
+title: "Foucault — Power/Knowledge and Genealogy"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

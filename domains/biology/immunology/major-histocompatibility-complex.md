@@ -4,7 +4,7 @@ title: Major Histocompatibility Complex Structure and Function
 domain: biology
 course: immunology
 prerequisites:
-- id: protein-structure-and-function
+- id: protein-tertiary-structure
   type: hard
 - id: cell-signaling-intro
   type: soft

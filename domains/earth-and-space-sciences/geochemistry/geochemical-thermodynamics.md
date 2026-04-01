@@ -4,7 +4,7 @@ title: Geochemical Thermodynamics
 domain: earth-and-space-sciences
 course: geochemistry
 prerequisites:
-- id: chemical-thermodynamics
+- id: chemical-potential-thermodynamics
   type: hard
 - id: chemical-equilibrium
   type: hard

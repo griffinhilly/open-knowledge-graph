@@ -8,9 +8,7 @@ prerequisites:
   type: soft
 - id: brain-structure-and-functional-localization
   type: soft
-- id: linear-algebra
-  type: soft
-- id: statistics
+- id: linear-transformations
   type: soft
 builds-toward:
 - fmri-principles-and-interpretation

@@ -4,7 +4,7 @@ title: 'Immunoglobulin Structure: Domains, Regions, and Organization'
 domain: biology
 course: immunology
 prerequisites:
-- id: protein-structure-and-function
+- id: protein-tertiary-structure
   type: hard
 - id: protein-secondary-structure
   type: soft

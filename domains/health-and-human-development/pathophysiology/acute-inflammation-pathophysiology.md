@@ -6,10 +6,6 @@ course: pathophysiology
 prerequisites:
 - id: inflammatory-response-cellular
   type: hard
-- id: vascular-permeability-control
-  type: soft
-- id: inflammation-innate-response
-  type: soft
 - id: inflammatory-mediators-cytokines-and-chemokines
   type: hard
 - id: innate-immune-response

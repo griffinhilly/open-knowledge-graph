@@ -1,6 +1,6 @@
 ---
 id: intentionality-and-consciousness
-title: Intentionality and Consciousness
+title: "Intentionality and Consciousness"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

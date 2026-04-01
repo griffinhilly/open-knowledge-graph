@@ -6,7 +6,7 @@ course: geology
 prerequisites:
 - id: metamorphic-equilibrium-phase-diagrams
   type: hard
-- id: mineral-properties-and-identification
+- id: mineral-properties-and-testing
   type: hard
 tags:
 - thermobarometry

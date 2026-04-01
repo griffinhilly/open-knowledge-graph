@@ -56,7 +56,7 @@ Map research questions to designs: 'Does X cause Y?' (experiment); 'Are X and Y 
   answer: 1
   explanation: "Correlational designs cannot rule out third-variable confounds. A lurking variable like an active lifestyle or genetic predisposition could independently predict both coffee drinking and Parkinson's risk, producing the observed correlation without any causal mechanism. The journalist's error is treating a correlational finding as causal — the study design simply cannot support that conclusion without manipulation and random assignment."
 
-- question: "A qualitative interview study can rarely contribute to scientific understanding of causal mechanisms because it produces no quantifiable data."
+- question: "A qualitative interview study cannot contribute to scientific understanding of causal mechanisms because it produces no quantifiable data."
   type: true-false
   answer: false
   explanation: "Qualitative designs are well-suited for generating and refining causal theories by revealing the mechanisms and experiences underlying a phenomenon. While they cannot establish causation in the quantitative sense, they can surface plausible causal pathways that experiments can later test. The misconception conflates 'quantifiable' with 'scientific' — qualitative research can be rigorous, theory-informing, and essential for questions that quantitative designs would oversimplify."

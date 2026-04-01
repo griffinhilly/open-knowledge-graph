@@ -6,7 +6,7 @@ course: demography
 prerequisites:
 - id: population-dynamics
   type: hard
-- id: survey-sampling-methods
+- id: sampling-methods
   type: soft
 builds-toward:
 - vital-registration-systems

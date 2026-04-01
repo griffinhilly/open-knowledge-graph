@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: dihedral-groups
   type: soft
-- id: symmetry-matrices-properties
-  type: soft
 builds-toward:
 - fourier-analysis-musical-signals
 - information-theory-music

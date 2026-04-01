@@ -1,6 +1,6 @@
 ---
 id: scientific-realism
-title: Scientific Realism
+title: "Scientific Realism"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

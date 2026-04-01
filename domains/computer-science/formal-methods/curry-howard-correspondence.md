@@ -4,11 +4,11 @@ title: Curry-Howard Correspondence
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: propositional-logic
+- id: propositional-logic-introduction
   type: hard
-- id: type-systems-type-checking
+- id: type-systems-overview
   type: hard
-- id: predicate-logic
+- id: predicate-logic-introduction
   type: soft
 builds-toward:
 - interactive-theorem-proving

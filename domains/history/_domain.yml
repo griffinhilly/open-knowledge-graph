@@ -21,3 +21,9 @@ courses:
 - id: historiography
   title: Historiography
   stage: advanced
+- id: history-of-science
+  title: History of Science
+  stage: advanced
+- id: economic-social-history
+  title: Economic and Social History
+  stage: advanced

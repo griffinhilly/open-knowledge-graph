@@ -48,7 +48,7 @@ Russian Formalists argued that literature works by making the familiar strange�
   answer: 2
   explanation: "Unusual syntax is a defamiliarization device. The friction it creates breaks habitual, automatic processing and forces the reader into genuine perception of the words themselves. The strangeness is not a side effect — it is the mechanism through which meaning emerges. Options A, B, and D all locate the function outside the experience of reading itself."
 
-- question: "Defamiliarization works by making objects or experiences so strange that readers can rarely identify what is being described."
+- question: "Defamiliarization works by making objects or experiences so strange that readers cannot identify what is being described."
   type: true-false
   answer: false
   explanation: "Defamiliarization does not eliminate recognition — it restores genuine perception alongside recognition. Tolstoy's horse scene is still recognizable as a scene of cruelty; the unusual perspective makes readers actually *see* it rather than automatically classifying and moving on. The goal is to break automatization (habitual processing), not to obscure meaning."

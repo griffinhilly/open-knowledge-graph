@@ -1,6 +1,6 @@
 ---
 id: underdetermination-of-theory-by-evidence
-title: Underdetermination of Theory by Evidence
+title: "Underdetermination of Theory by Evidence"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

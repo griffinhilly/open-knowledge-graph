@@ -1,6 +1,6 @@
 ---
 id: inductive-statistical-model-of-explanation
-title: Inductive-Statistical Explanation
+title: "Inductive-Statistical Explanation"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

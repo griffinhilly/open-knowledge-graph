@@ -4,11 +4,9 @@ title: 'Thyroid Disorders: Hyper- and Hypothyroidism'
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: thyroid-gland-anatomy-and-function
+- id: hypothalamus-pituitary-axis
   type: hard
-- id: hypothalamic-pituitary-axis
-  type: hard
-- id: thyroid-hormone-synthesis
+- id: thyroid-hormone-synthesis-regulation
   type: soft
 builds-toward:
 - graves-disease-pathophysiology

@@ -4,11 +4,11 @@ title: Refinement Types
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: type-systems-type-checking
+- id: type-systems-overview
   type: hard
 - id: dependent-type-theory
   type: soft
-- id: predicate-logic
+- id: predicate-logic-introduction
   type: soft
 builds-toward: []
 tags:

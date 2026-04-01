@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: population-genetics-intro
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 builds-toward:
 - hardy-weinberg-advanced

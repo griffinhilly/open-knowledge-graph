@@ -56,7 +56,7 @@ In competitive labor markets, equilibrium wage equals the marginal revenue produ
   answer: true
   explanation: "Higher productivity raises MRPL for all workers. Labor demand shifts right (firms want more workers at every wage because each worker now generates more revenue). With labor supply unchanged, the new equilibrium wage is higher. This is the fundamental link between productivity and wages in competitive markets."
 
-- question: "In labor market theory, wages typically and mainly reflect a worker's marginal revenue product — other factors can rarely cause wages to deviate from MRPL."
+- question: "In labor market theory, wages typically and mainly reflect a worker's marginal revenue product — other factors cannot cause wages to deviate from MRPL."
   type: true-false
   answer: false
   explanation: "Wages can deviate from MRPL for several reasons. Compensating differentials add a premium for unpleasant jobs (wages exceed MRPL of a reference worker). Discrimination can depress wages below MRPL for affected groups. Human capital investment can raise MRPL, creating a positive gap between educated and uneducated workers doing similar tasks. The w = MRPL condition is the competitive ideal, not a universal law."

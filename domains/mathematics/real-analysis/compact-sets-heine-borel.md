@@ -49,7 +49,7 @@ A set K in ℝ is compact if every open cover has a finite sub-cover. The Heine-
   answer: 1
   explanation: "ℝ itself is closed (it contains all its limit points) but is not bounded — you can cover it with {(−n, n) : n = 1, 2, 3, …}, and no finite subcollection covers all of ℝ. This shows that closedness alone is insufficient: you also need boundedness. Options C and D are not counterexamples to the student's claim because they fail to be closed; you need a set that IS closed but fails compactness."
 
-- question: "A set in ℝ is compact if and primarily if it is bounded."
+- question: "A set in ℝ is compact if and only if it is bounded."
   type: true-false
   answer: false
   explanation: "Boundedness alone is not sufficient. The Heine-Borel Theorem requires the set to be both closed AND bounded. The open interval (0, 1) is bounded but not compact (it is not closed). Conversely, [0, ∞) is closed but not compact (it is not bounded). Both conditions are independently necessary."

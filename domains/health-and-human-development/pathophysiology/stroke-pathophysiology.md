@@ -4,8 +4,6 @@ title: Ischemic and Hemorrhagic Stroke
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: cerebral-circulation-and-autoregulation
-  type: hard
 - id: thrombosis-pathophysiology
   type: hard
 - id: necrosis-vs-apoptosis

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: context-update-semantics
   type: soft
+- id: discourse-coherence-relations
+  type: soft
 tags:
 - semantics
 - pragmatics

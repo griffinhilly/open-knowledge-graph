@@ -4,7 +4,7 @@ title: Identifying Right Angles in 2D Shapes
 domain: mathematics
 course: 3rd-grade
 prerequisites:
-- id: 2d-shapes-attributes-3rd
+- id: shapes-2d-attributes-3rd
   type: soft
 - id: angle-basics-and-classification
   type: soft

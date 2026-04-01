@@ -6,7 +6,7 @@ course: astronomy
 prerequisites:
 - id: apparent-magnitude-brightness-measurement
   type: hard
-- id: inverse-square-law-point-interactions
+- id: coulomb-law-point-interactions
   type: hard
 - id: coulomb-law-point-interactions
   type: soft

@@ -4,7 +4,7 @@ title: Session Types
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: type-systems-type-checking
+- id: type-systems-overview
   type: hard
 - id: process-calculi
   type: soft

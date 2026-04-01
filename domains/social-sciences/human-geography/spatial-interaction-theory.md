@@ -20,7 +20,7 @@ prerequisites:
   type: soft
 - id: urban-geography-fundamentals
   type: soft
-- id: distance-formula
+- id: distance-and-distance-formula-3d
   type: hard
 - id: functions-domain-codomain-range
   type: soft

@@ -6,7 +6,7 @@ course: analytical-chemistry
 prerequisites:
 - id: statistical-methods-analytical
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft

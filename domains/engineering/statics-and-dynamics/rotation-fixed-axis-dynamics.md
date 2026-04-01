@@ -4,7 +4,7 @@ title: 'Rotation about a Fixed Axis: Kinematics and Kinetics'
 domain: engineering
 course: statics-and-dynamics
 prerequisites:
-- id: kinematics-rigid-body-rotation
+- id: rigid-body-kinematics-rotation
   type: hard
 - id: moment-of-inertia-about-centroid
   type: hard

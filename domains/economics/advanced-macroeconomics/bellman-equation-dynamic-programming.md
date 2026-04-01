@@ -6,13 +6,11 @@ course: advanced-macroeconomics
 prerequisites:
 - id: constrained-optimization
   type: hard
-- id: differential-equations
+- id: differential-equations-intro
   type: hard
 - id: constrained-optimization-lagrange
   type: soft
-- id: recursive-definitions
-  type: soft
-- id: dynamic-optimization-lagrange
+- id: dynamic-optimization-macro
   type: hard
 - id: fixed-point-iteration
   type: soft

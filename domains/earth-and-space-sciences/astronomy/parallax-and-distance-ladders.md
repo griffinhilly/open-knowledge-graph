@@ -6,8 +6,6 @@ course: astronomy
 prerequisites:
 - id: celestial-coordinates
   type: soft
-- id: trigonometry
-  type: hard
 - id: trigonometric-ratios-review
   type: hard
 builds-toward:

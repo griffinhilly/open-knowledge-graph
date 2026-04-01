@@ -6,7 +6,7 @@ course: biological-psychology
 prerequisites:
 - id: glial-cells-and-support
   type: hard
-- id: immune-memory-and-secondary-immune-response
+- id: immunological-memory-secondary-response
   type: soft
 - id: neuroinflammation-glia
   type: soft

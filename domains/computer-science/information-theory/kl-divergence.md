@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: mutual-information
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 builds-toward:
 - rate-distortion-theory

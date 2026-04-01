@@ -36,7 +36,7 @@ Graph functions and their tangent lines at various points. Compute tangent line 
   answer: 2
   explanation: "The slope of the tangent line at x = 3 is f'(3) = 2(3) = 6. The value f(3) = 9 is the y-coordinate of the point — it is not the slope. A common error is confusing the output of f with the output of f'."
 
-- question: "A tangent line to a smooth curve can primarily intersect the curve at the single point of tangency — it can rarely cross or touch the curve anywhere else."
+- question: "A tangent line to a smooth curve can primarily intersect the curve at the single point of tangency — it cannot cross or touch the curve anywhere else."
   type: true-false
   answer: false
   explanation: "The tangent line is defined by its slope and point of tangency, but as a full line it extends infinitely and can cross the curve at other locations. For example, the tangent to y = x³ at x = 0 is the horizontal line y = 0, which also passes through other points on the curve."

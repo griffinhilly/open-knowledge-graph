@@ -6,11 +6,9 @@ course: psychometrics
 prerequisites:
 - id: confirmatory-factor-analysis
   type: hard
-- id: linear-algebra applications
-  type: hard
 - id: linear-transformation-matrix-representation
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 - id: matrix-operations
   type: hard

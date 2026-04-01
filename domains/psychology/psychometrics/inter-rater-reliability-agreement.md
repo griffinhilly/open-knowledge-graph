@@ -6,8 +6,6 @@ course: psychometrics
 prerequisites:
 - id: classical-test-theory
   type: hard
-- id: probability-and-statistics
-  type: soft
 builds-toward:
 - generalizability-theory-g-theory
 tags:

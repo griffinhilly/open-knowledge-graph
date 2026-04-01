@@ -6,7 +6,7 @@ course: industrial-organizational-psychology
 prerequisites:
 - id: work-motivation-theories
   type: soft
-- id: research-methods-psychology-intro
+- id: scientific-method-psychology
   type: soft
 tags:
 - leadership

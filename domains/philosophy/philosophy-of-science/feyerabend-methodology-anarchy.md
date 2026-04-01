@@ -1,6 +1,6 @@
 ---
 id: feyerabend-methodology-anarchy
-title: Feyerabend's Epistemological Anarchism
+title: "Feyerabend's Epistemological Anarchism"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

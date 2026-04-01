@@ -51,7 +51,7 @@ For any two observables with commutator [Â, B̂], the uncertainty product satis
   answer: true
   explanation: "The derivation is purely mathematical: define two vectors |u⟩ = (Â − ⟨Â⟩)|ψ⟩ and |v⟩ = (B̂ − ⟨B̂⟩)|ψ⟩, apply the Cauchy-Schwarz inequality ‖u‖·‖v‖ ≥ |⟨u|v⟩|, and separate the result into real and imaginary parts. The imaginary part gives ½|⟨[Â, B̂]⟩|. No experiment is needed; the bound follows from the algebra of Hilbert space and the definition of standard deviation. It holds exactly, not approximately."
 
-- question: "Two observables that commute ([Â, B̂] = 0) can rarely both be measured precisely in the same quantum state — there will typically be some uncertainty in at least one of them."
+- question: "Two observables that commute ([Â, B̂] = 0) cannot both be measured precisely in the same quantum state — there will typically be some uncertainty in at least one of them."
   type: true-false
   answer: false
   explanation: "If [Â, B̂] = 0, the Robertson bound is ΔA · ΔB ≥ 0, which imposes no constraint. Commuting operators share a complete set of simultaneous eigenstates. If the system is in a simultaneous eigenstate of both, then ΔA = ΔB = 0 — both can be measured with perfect precision. Non-zero uncertainty for commuting observables is a property of specific states, not a universal constraint. The canonical uncertainty between position and momentum is irreducible precisely because [x̂, p̂] = iℏ ≠ 0."

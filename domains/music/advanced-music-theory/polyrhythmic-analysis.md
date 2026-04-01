@@ -8,11 +8,9 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
-- id: greatest-common-divisor
+- id: intro-to-fractions
   type: soft
-- id: fractions
-  type: soft
-- id: lcm-gcd
+- id: divisibility-and-gcd
   type: soft
 - id: polyrhythmic-listening-ear
   type: soft

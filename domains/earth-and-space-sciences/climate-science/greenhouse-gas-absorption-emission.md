@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: ir-spectroscopy-basics
   type: soft
-- id: spectroscopy-fundamentals
-  type: hard
 - id: quantum-mechanics-postulates-core
   type: soft
 - id: electromagnetic-spectrum

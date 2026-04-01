@@ -14,10 +14,6 @@ prerequisites:
   type: soft
 - id: interest-rates-and-loanable-funds
   type: soft
-- id: infinite-series
-  type: soft
-- id: convergence-rigorous-series
-  type: soft
 builds-toward:
 - is-lm-model
 tags:

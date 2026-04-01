@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: hormone-signaling-mechanisms
   type: hard
-- id: hypothalamic-pituitary-axis
+- id: hypothalamus-pituitary-axis
   type: hard
 - id: endocrine-system-overview
   type: soft

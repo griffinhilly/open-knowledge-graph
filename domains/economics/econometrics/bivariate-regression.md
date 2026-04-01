@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 - id: econometrics-intro
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 - id: linear-systems-notation
   type: soft

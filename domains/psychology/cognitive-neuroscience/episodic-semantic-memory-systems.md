@@ -45,7 +45,7 @@ Episodic memory for specific events depends on hippocampus and medial temporal l
   answer: 2
   explanation: "A double dissociation — Case A loses episodic but not semantic, Case B loses semantic but not episodic — is the strongest evidence that the two systems are genuinely distinct rather than versions of the same process. Semantic dementia specifically implicates the anterior temporal lobe (the semantic hub) while sparing hippocampal-dependent episodic memory. Option D gets the causation backwards: semantic knowledge is not derived from episodes; it is a separate representational system. Options A and B treat the difference as quantitative, missing the architectural point."
 
-- question: "A patient with hippocampal damage who can no longer form new episodic memories also can rarely acquire any new factual knowledge."
+- question: "A patient with hippocampal damage who can no longer form new episodic memories also cannot acquire any new factual knowledge."
   type: true-false
   answer: false
   explanation: "This is the key misconception the episodic/semantic distinction corrects. Patients like H.M. demonstrated that new semantic facts can be acquired — slowly and across many repetitions — even in the absence of functioning episodic memory. The patient learns the fact without remembering the learning episode. This shows that the two systems are doubly dissociable and that 'memory loss' is never a unitary phenomenon: identifying *which* system is impaired, by what mechanism, and with what preservation is essential for accurate neuropsychological assessment."

@@ -42,7 +42,7 @@ Compile LGM ice-sheet reconstructions from dating glacial deposits and using sea
   answer: 1
   explanation: "Milankovitch orbital changes initiated the LGM by altering the seasonal and latitudinal distribution of solar radiation, but the full cooling required amplifying feedbacks. CO₂ fell to ~190 ppm (roughly half of pre-industrial ~280 ppm), reducing the greenhouse effect. Expanding ice sheets increased Earth's albedo (reflectivity), reflecting more solar radiation back to space — the ice-albedo feedback. Methane also fell (~380 ppb). These reinforcing feedbacks together with orbital forcing produced the observed 4–7°C global cooling. Volcanic activity and solar luminosity changes were not the primary LGM drivers."
 
-- question: "A climate model accurately reproduces the LGM cooling pattern (ice-sheet extent, sea surface temperatures, δ¹⁸O values) when forced with LGM boundary conditions. What does this primarily validate?"
+- question: "A climate model accurately reproduces the LGM cooling pattern (ice-sheet extent, sea surface temperatures, δ¹⁸O values) when forced with LGM boundary conditions. What does this only validate?"
   type: multiple-choice
   options:
     - "The model can be trusted for all future climate projections regardless of scenario"

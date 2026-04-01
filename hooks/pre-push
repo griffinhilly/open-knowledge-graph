@@ -62,6 +62,21 @@ if [ "$has_domain_changes" -eq 1 ]; then
         exit 1
     fi
     echo "pre-push: Validation passed"
+
+    # --- Step 3: Quiz data staleness check ---
+    QUIZ_DATA="$REPO_ROOT/output/assessment-questions.json"
+    if [ -f "$QUIZ_DATA" ]; then
+        quiz_ts=$(stat -c %Y "$QUIZ_DATA" 2>/dev/null || stat -f %m "$QUIZ_DATA" 2>/dev/null)
+        newest_topic=$(find "$REPO_ROOT/domains" -name "*.md" ! -name "_*" -newer "$QUIZ_DATA" 2>/dev/null | head -1)
+        if [ -n "$newest_topic" ]; then
+            echo ""
+            echo "pre-push: WARNING - Quiz data may be stale!"
+            echo "  Topic files modified after assessment-questions.json was generated."
+            echo "  Run: python tools/generate_assessment_questions.py && python tools/generate_quiz_page.py"
+            echo "  (Push continues — this is a warning, not a blocker)"
+            echo ""
+        fi
+    fi
 fi
 
 exit 0

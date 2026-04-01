@@ -62,7 +62,7 @@ Examine historiographical debates where scholars disagree fundamentally about ev
   answer: false
   explanation: "Quantity of sources does not guarantee quality of knowledge. Many weak or derivative sources that all depend on the same flawed original tell you less than a single well-contextualized, independently validated source. Multiple sources that share the same bias or institutional origin provide false redundancy rather than genuine corroboration. The epistemological question is not how many sources you have but whether they are independently derived, contextually rich, and validated by appropriate methods."
 
-- question: "Saying that historical evidence is 'theory-laden' means historians can rarely make objective claims or distinguish better from worse historical arguments."
+- question: "Saying that historical evidence is 'theory-laden' means historians cannot make objective claims or distinguish better from worse historical arguments."
   type: true-false
   answer: false
   explanation: "Theory-ladenness means that what counts as evidence depends on the historical questions being asked and the theoretical framework guiding the inquiry. This does not collapse into relativism. Evidence must still meet standards of validity, reliability, and contextual fit regardless of the framework. What changes across frameworks is which materials are treated as primary evidence — a social historian and a political historian may treat different sources as central — but both must still defend their evidentiary choices and demonstrate that their claims meet rigorous standards."

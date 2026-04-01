@@ -6,8 +6,6 @@ course: psychometrics
 prerequisites:
 - id: reliability-in-measurement
   type: hard
-- id: probability-and-statistics
-  type: hard
 builds-toward:
 - confidence-intervals-for-test-scores
 - test-score-interpretation-frameworks

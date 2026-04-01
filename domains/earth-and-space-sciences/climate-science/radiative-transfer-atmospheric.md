@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: greenhouse-effect
   type: soft
-- id: radiative-transfer-equation
-  type: hard
 - id: electromagnetic-spectrum
   type: soft
 - id: electromagnetic-waves

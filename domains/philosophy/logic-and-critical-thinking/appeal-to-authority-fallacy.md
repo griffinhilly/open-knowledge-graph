@@ -52,7 +52,7 @@ Distinguish cases: a Nobel Prize-winning chemist's view on chemistry vs. their v
   answer: 1
   explanation: "This is the classic domain mismatch failure. The physicist has real, substantial expertise — but in physics. Their authority does not transfer to economics, which has its own methods, evidence base, and expertise. A Nobel Prize in physics certifies domain mastery in physics, not in unrelated fields. The fallacy treats credentials as universally transferable rather than domain-specific."
 
-- question: "An appeal to authority is generally fallacious because expert opinion can rarely substitute for direct evidence."
+- question: "An appeal to authority is generally fallacious because expert opinion cannot substitute for direct evidence."
   type: true-false
   answer: false
   explanation: "This overcorrection leads to anti-intellectualism. Expert opinion IS a form of evidence — it encapsulates the conclusions of people who have examined the underlying evidence in depth. Legitimate appeals to authority are epistemic shortcuts to evidence we lack the time or expertise to verify directly. The fallacy arises only when the authority lacks relevant expertise, represents a fringe view, or addresses matters beyond the scope of expertise."

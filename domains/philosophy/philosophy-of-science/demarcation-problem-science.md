@@ -1,6 +1,6 @@
 ---
 id: demarcation-problem-science
-title: The Demarcation Problem
+title: "The Demarcation Problem"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

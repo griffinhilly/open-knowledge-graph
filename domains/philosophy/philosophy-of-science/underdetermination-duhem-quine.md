@@ -1,6 +1,6 @@
 ---
 id: underdetermination-duhem-quine
-title: Underdetermination and the Duhem-Quine Thesis
+title: "Underdetermination and the Duhem-Quine Thesis"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

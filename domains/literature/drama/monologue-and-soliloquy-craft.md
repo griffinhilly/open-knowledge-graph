@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: rhetorical-situation-analysis
   type: soft
-- id: speaker-voice-development
+- id: authentic-speaker-voice-development
   type: soft
 builds-toward:
 - character-transformation-arc

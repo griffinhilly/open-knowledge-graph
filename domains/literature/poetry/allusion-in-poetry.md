@@ -52,7 +52,7 @@ Choose a poem rich in allusions (e.g., T.S. Eliot's 'The Waste Land', Anne Carso
   answer: 2
   explanation: "Allusion works through compression and displacement. The poem doesn't retell the myth; it imports the myth's entire emotional charge — absurdity, futility, endless repetition — and places it against the new context. Meaning is generated through the gap between source and application: what changes when ancient myth meets suburban commuting? The 'friction of displacement' is the mechanism, not information transfer or credential display."
 
-- question: "A reader who fails to recognize a poem's central allusion has missed the poem mostly and can rarely derive genuine meaning from the experience."
+- question: "A reader who fails to recognize a poem's central allusion has missed the poem mostly and cannot derive genuine meaning from the experience."
   type: true-false
   answer: false
   explanation: "Allusion's dual operation means the poem remains functional for readers who miss the reference. They encounter a striking poem without the second layer. The Explainer explicitly states this as a 'defining property' of allusion. Only if the entire poem is constructed as a collage of allusions (like The Waste Land) might missing references severely impair comprehension — and even then, readers can experience the atmosphere and form without decoding every source."

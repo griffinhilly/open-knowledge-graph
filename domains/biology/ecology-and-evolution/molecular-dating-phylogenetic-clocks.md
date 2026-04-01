@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: exponential-growth-and-decay
   type: soft
-- id: statistics-rigorous
-  type: soft
 - id: exponential-distribution-theory
   type: soft
 - id: molecular-dating-fossil-calibration

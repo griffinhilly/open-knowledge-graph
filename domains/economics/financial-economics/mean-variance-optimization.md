@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 - id: constrained-optimization
   type: hard

@@ -6,7 +6,7 @@ course: structural-biology
 prerequisites:
 - id: homology-modeling
   type: hard
-- id: protein-folding-and-stability
+- id: protein-folding-and-chaperones
   type: hard
 builds-toward:
 - structure-based-drug-design

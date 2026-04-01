@@ -49,7 +49,7 @@ Floating point numbers are represented in computers using a fixed number of bits
   answer: true
   explanation: "In binary, 0.1 = 0.000110011001100110011... — a repeating pattern analogous to 1/3 = 0.333... in decimal. Since the 52 mantissa bits must truncate this infinite sequence, the stored value differs from the true 0.1 by approximately 5.5 × 10⁻¹⁸. This is unavoidable in binary floating point and applies to many 'simple' decimals: 0.2, 0.3, 0.6, 0.7 all have repeating binary representations."
 
-- question: "Floating-point arithmetic errors are unpredictable and random, so numerical analysts can rarely systematically bound or control their effect on a computation."
+- question: "Floating-point arithmetic errors are unpredictable and random, so numerical analysts cannot systematically bound or control their effect on a computation."
   type: true-false
   answer: false
   explanation: "Floating-point errors are systematic and bounded, not random. Each arithmetic operation introduces a relative error of at most machine epsilon ε/2 ≈ 1.11 × 10⁻¹⁶. Numerical analysis provides rigorous frameworks — condition number analysis, backward error analysis, interval arithmetic — for bounding how errors accumulate across a computation. Algorithms can be designed (or avoided) based on their error amplification behavior. The challenge is not unpredictability but the potential for systematic amplification in ill-conditioned computations."

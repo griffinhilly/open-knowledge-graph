@@ -1,6 +1,6 @@
 ---
 id: posthumanism
-title: Posthumanism
+title: "Posthumanism"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

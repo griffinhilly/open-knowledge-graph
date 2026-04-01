@@ -58,7 +58,7 @@ Compare a randomized and quasi-experimental study on similar questions. Identify
   answer: true
   explanation: "This is the defining feature of the interrupted time-series design and the source of its strength. Rather than comparing a treated group to a separate (potentially non-equivalent) control group, the design tracks the same group's trajectory over many time points before the intervention and asks: did something change at the intervention point beyond what the pre-existing trend would predict? The group's own history is the counterfactual. This is why the design is more informative than a simple pre-post comparison with no control."
 
-- question: "Quasi-experimental designs can rarely contribute meaningfully to causal inference — mainly true randomized experiments can establish causation."
+- question: "Quasi-experimental designs cannot contribute meaningfully to causal inference — mainly true randomized experiments can establish causation."
   type: true-false
   answer: false
   explanation: "This is the most damaging misconception about quasi-experimental methods. Well-designed quasi-experiments — particularly regression discontinuity and interrupted time-series designs — can provide highly credible causal evidence. Many of the most important causal questions (effects of policies, early childhood poverty, educational interventions) cannot be studied with randomized experiments for ethical or practical reasons. Quasi-experiments are not a concession to weak science; they are a principled toolkit for extracting causal signal when randomization is impossible. The quality of inference depends on the plausibility of the design argument, not on whether randomization occurred."

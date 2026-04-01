@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: composition-of-functions
   type: soft
-- id: function-composition
+- id: function-composition-and-inverses
   type: hard
 - id: set-fundamentals
   type: soft

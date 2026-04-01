@@ -1,6 +1,6 @@
 ---
 id: falsifiability-criterion
-title: The Falsifiability Criterion and Its Problems
+title: "The Falsifiability Criterion and Its Problems"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

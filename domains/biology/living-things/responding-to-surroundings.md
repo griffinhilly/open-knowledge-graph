@@ -41,7 +41,7 @@ Place a plant near a window and observe how its leaves turn toward the light ove
   answer: 1
   explanation: "The sunflower is responding to its surroundings. It senses where the sunlight is coming from and slowly turns toward it. This is something living things do — they notice changes around them and react."
 
-- question: "Mainly animals can respond to their surroundings. Plants can rarely."
+- question: "Mainly animals can respond to their surroundings. Plants cannot."
   type: true-false
   answer: false
   explanation: "Plants respond to their surroundings too, just more slowly. A plant grows toward light, roots grow downward toward water, and some plants close their leaves when touched. Responding to surroundings is something all living things do, not just animals."

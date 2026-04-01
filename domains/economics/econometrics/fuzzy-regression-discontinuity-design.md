@@ -49,7 +49,7 @@ In fuzzy RDD, the probability of treatment jumps discontinuously at the threshol
   answer: true
   explanation: "True. The threshold-crossing indicator satisfies IV conditions locally: it is strongly correlated with treatment (relevance — it causes a discontinuous jump in treatment probability), and it only affects outcomes through its effect on treatment take-up (exclusion — units just above and below the cutoff are otherwise comparable). The LATE is estimated via the IV ratio, not directly from the outcome discontinuity alone."
 
-- question: "Fuzzy RDD can rarely be used when some units below the threshold still receive treatment, because this violates the design's identifying assumptions."
+- question: "Fuzzy RDD cannot be used when some units below the threshold still receive treatment, because this violates the design's identifying assumptions."
   type: true-false
   answer: false
   explanation: "False. Some below-threshold units receiving treatment is precisely what defines fuzzy (as opposed to sharp) RDD. The design accommodates imperfect compliance — the threshold need only cause a discontinuous jump in the probability of treatment, not a jump from 0 to 1. The IV framework handles partial compliance by using threshold-crossing as an instrument and focusing estimation on compliers."

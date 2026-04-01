@@ -6,7 +6,7 @@ course: microbiology
 prerequisites:
 - id: bacterial-cell-wall-architecture
   type: hard
-- id: protein-biosynthesis-intro
+- id: ribosomes-and-protein-synthesis-intro
   type: soft
 builds-toward:
 - beta-lactam-inhibition-transpeptidase

@@ -1,6 +1,6 @@
 ---
 id: idealization-in-science
-title: Idealization in Science
+title: "Idealization in Science"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

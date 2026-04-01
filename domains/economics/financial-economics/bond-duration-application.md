@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: interest-rate-risk-management
   type: soft
-- id: calculus
+- id: fundamental-theorem-of-calculus-part-1
   type: hard
 - id: derivatives-of-logarithmic-functions
   type: soft

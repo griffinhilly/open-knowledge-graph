@@ -6,12 +6,10 @@ course: differential-geometry
 prerequisites:
   - id: topological-manifolds-introduction
     type: hard
-  - id: homeomorphisms
+  - id: homeomorphisms-definition-properties
     type: hard
   - id: partial-derivatives
     type: hard
-  - id: inverse-function-theorem
-    type: soft
 tags:
   - manifolds
   - smooth-structures

@@ -65,7 +65,7 @@ Trace the insulin receptor signaling cascade from ligand binding through GLUT4 t
   answer: true
   explanation: "Akt, the central effector of insulin signaling, coordinates the metabolic response at multiple sites simultaneously. In muscle and adipose tissue, it triggers GLUT4 translocation (glucose uptake). In the liver, it phosphorylates FOXO transcription factors, suppressing gluconeogenic gene expression (reducing hepatic glucose output). Blood glucose is clamped from both the demand side and the supply side — this is why a single signaling cascade has such large whole-body metabolic effects."
 
-- question: "Individuals with insulin resistance should minimize exercise, since their impaired insulin signaling means exercise can rarely effectively lower blood glucose."
+- question: "Individuals with insulin resistance should minimize exercise, since their impaired insulin signaling means exercise cannot effectively lower blood glucose."
   type: true-false
   answer: false
   explanation: "Exercise activates AMPK, which triggers GLUT4 translocation via an insulin-independent pathway. This means exercise lowers blood glucose and improves glucose disposal even when the insulin signaling cascade is impaired. This is precisely why exercise is a first-line treatment for insulin resistance and type 2 diabetes — it bypasses the broken IRS-1 → PI3K → Akt relay entirely. Telling insulin-resistant individuals to avoid exercise would be both incorrect and harmful."

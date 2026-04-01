@@ -65,7 +65,7 @@ It is important to distinguish connected components from **path-components**. Th
   answer: false
   explanation: "Connected components are always closed — the closure of a connected set is connected, so the closure of a component is still connected and contained in the component by maximality, meaning the component equals its own closure. However, components are not necessarily open. In the rational numbers ℚ with the subspace topology, every component is a single point — closed but not open. Components are open only when the space is locally connected, which is an additional assumption not required by the definition."
 
-- question: "If two points in a topological space can rarely be connected by a continuous path, they should lie in different connected components."
+- question: "If two points in a topological space cannot be connected by a continuous path, they should lie in different connected components."
   type: true-false
   answer: false
   explanation: "The topologist's sine curve is the canonical counterexample. The point (0, 0) on the vertical accumulation segment and any point on the sine graph cannot be connected by a path — the curve oscillates infinitely fast near the y-axis, preventing a continuous path from crossing. Yet the entire space is connected, so all points lie in the same connected component. Path-connectedness implies connectedness, but not conversely; failing to be path-connected does not imply lying in different connected components."

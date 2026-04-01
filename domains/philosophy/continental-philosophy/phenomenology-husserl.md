@@ -1,6 +1,6 @@
 ---
 id: phenomenology-husserl
-title: Phenomenology (Husserl)
+title: "Phenomenology (Husserl)"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

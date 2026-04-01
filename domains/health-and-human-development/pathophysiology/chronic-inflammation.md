@@ -55,7 +55,7 @@ Chronic inflammation does not require a long duration of acute inflammation—it
   answer: 2
   explanation: "The cellular hallmark of chronic inflammation is the macrophage-lymphocyte partnership. Neutrophils dominate acute inflammation — they are short-lived and recruited rapidly to engulf bacteria and debris. In chronic inflammation, long-lived tissue macrophages continuously secrete TNF-α, IL-1β, IL-6, and proteases; T helper lymphocytes amplify this response via IFN-γ and provide adaptive immune specificity. Eosinophils and mast cells are more characteristic of allergic and parasitic responses; plasma cell infiltrates are a secondary feature, not the defining cellular signature."
 
-- question: "Chronic inflammation typically follows a period of acute inflammation that failed to resolve — it can seldom begin de novo if the immune system encounters a stimulus it can rarely eliminate."
+- question: "Chronic inflammation typically follows a period of acute inflammation that failed to resolve — it can seldom begin de novo if the immune system encounters a stimulus it cannot eliminate."
   type: true-false
   answer: false
   explanation: "This is explicitly a common misconception. Chronic inflammation can begin immediately if the inciting stimulus is one the immune system cannot handle from the outset — certain mycobacteria (like M. tuberculosis), silica crystals, asbestos fibers, and some parasites provoke chronic inflammation directly, without a significant acute phase preceding it. The defining feature of chronic inflammation is the persistence of a non-eliminable stimulus and failure of resolution — not that it must follow an acute phase temporally."

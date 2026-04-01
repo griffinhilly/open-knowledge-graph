@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: radiation-heat-transfer-stefan-boltzmann
   type: soft
-- id: calculus
+- id: fundamental-theorem-of-calculus-part-1
   type: soft
 builds-toward:
 - radiative-forcing-definition

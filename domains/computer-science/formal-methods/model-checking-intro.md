@@ -4,7 +4,7 @@ title: Model Checking
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: propositional-logic
+- id: propositional-logic-introduction
   type: hard
 - id: boolean-logic
   type: hard

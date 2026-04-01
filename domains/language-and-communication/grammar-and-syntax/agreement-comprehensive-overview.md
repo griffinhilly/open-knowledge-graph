@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: subject-agreement-and-or-connectors
   type: soft
+- id: subject-verb-agreement-complex
+  type: soft
 tags:
 - agreement
 - grammar-rules

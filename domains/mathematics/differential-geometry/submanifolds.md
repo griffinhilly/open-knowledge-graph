@@ -8,8 +8,6 @@ prerequisites:
     type: hard
   - id: tangent-vectors-and-tangent-spaces
     type: hard
-  - id: implicit-function-theorem
-    type: soft
 tags:
   - submanifolds
   - immersions

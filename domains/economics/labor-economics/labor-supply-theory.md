@@ -4,9 +4,9 @@ title: Labor Supply Theory
 domain: economics
 course: labor-economics
 prerequisites:
-- id: consumer-theory
+- id: consumer-theory-utility
   type: hard
-- id: utility-maximization
+- id: consumer-theory-utility
   type: soft
 tags:
 - labor-supply

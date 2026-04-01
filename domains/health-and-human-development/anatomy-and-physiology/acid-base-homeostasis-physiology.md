@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: oxygen-transport-and-hemoglobin
   type: hard
-- id: buffer-chemistry
+- id: buffer-chemistry-le-chatelier-application
   type: soft
 - id: buffer-solutions
   type: hard

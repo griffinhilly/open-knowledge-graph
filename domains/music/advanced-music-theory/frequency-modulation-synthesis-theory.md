@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: graphing-sine-and-cosine
   type: soft
-- id: trigonometric-functions-and-graphs
-  type: soft
 - id: complex-exponential-function
   type: soft
 - id: complex-exponential-form

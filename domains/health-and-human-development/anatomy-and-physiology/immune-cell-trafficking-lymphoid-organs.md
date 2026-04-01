@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: body-organization-and-terminology
   type: hard
-- id: immune-memory-and-secondary-immune-response
+- id: immunological-memory-secondary-response
   type: soft
 - id: lymphoid-organ-architecture-and-function
   type: soft

@@ -6,7 +6,7 @@ course: systems-biology
 prerequisites:
 - id: gene-regulatory-networks
   type: hard
-- id: protein-protein-interactions
+- id: protein-protein-interactions-structural
   type: hard
 - id: graph-representation
   type: soft

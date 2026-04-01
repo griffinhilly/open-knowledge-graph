@@ -45,7 +45,7 @@ Distinguish the affective, cognitive, and behavioral components with specific ex
   answer: 1
   explanation: "Aversive racism describes the pattern where individuals who consciously endorse egalitarian values nonetheless harbor implicit biases that emerge in ambiguous situations where bias is not blatant. The ambiguity of interview contexts provides cover: the manager can attribute the lower rating to 'fit' or 'confidence' rather than group membership, maintaining a self-image of fairness."
 
-- question: "If a person holds no consciously prejudiced attitudes, they can rarely engage in or perpetuate discriminatory behavior."
+- question: "If a person holds no consciously prejudiced attitudes, they cannot engage in or perpetuate discriminatory behavior."
   type: true-false
   answer: false
   explanation: "Discrimination can occur through implicit biases that operate below conscious awareness, and through institutional structures (policies, norms, historical patterns) that produce differential outcomes without requiring individual prejudiced intent. Implicit measures routinely detect bias in self-described egalitarians, and structural discrimination persists even after individual attitudes improve."

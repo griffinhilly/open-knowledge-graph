@@ -49,7 +49,7 @@ Fatigue is failure under repeated cyclic loading at stresses well below yield st
   answer: true
   explanation: "The fatigue limit is a feature of materials whose S-N curves flatten at long lives — primarily steels and some titanium alloys. For these materials, there exists a stress amplitude below which the material appears to tolerate infinite cycles without failure. Aluminum alloys (and most non-ferrous metals) have S-N curves that continue declining without flattening. Engineers therefore use a fatigue strength at a specified life (commonly 10⁷ or 10⁸ cycles) as the design allowable. This distinction is critical for aircraft and aerospace design, where aluminum structures are dominant and infinite-life design is not achievable."
 
-- question: "A steel component that rarely exceeds its yield strength during service can rarely fail by fatigue."
+- question: "A steel component that rarely exceeds its yield strength during service cannot fail by fatigue."
   type: true-false
   answer: false
   explanation: "This is the central misconception the topic is designed to correct. Fatigue failure occurs under repeated cyclic loading at stresses well below yield strength — the defining feature is the accumulation of microscale crack damage over many cycles, not any single exceedance of yield. A steel shaft cycled at 60% of yield strength can fracture after millions of load reversals. The elastic regime is not a 'safe zone' for cyclic loading; it only guarantees no plastic deformation in any single cycle. Proper fatigue design requires the S-N curve, not just the yield strength."

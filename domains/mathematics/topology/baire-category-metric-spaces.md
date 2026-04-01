@@ -41,7 +41,7 @@ The Baire category theorem: a complete metric space is not a countable union of 
   answer: 1
   explanation: "The theorem says the countable union of nowhere-dense sets cannot equal all of X — it must miss at least a point (in fact, a dense Gδ set of points). This is the direct content of the theorem. Option A is wrong because nowhere-dense sets can have positive measure. Option C is wrong because the intersection of the Fₙ could be non-empty. Option D is wrong because the theorem applies to countably infinite collections, not just finite ones."
 
-- question: "A meager set in ℝ can rarely be dense in ℝ."
+- question: "A meager set in ℝ cannot be dense in ℝ."
   type: true-false
   answer: false
   explanation: "ℚ is the standard counterexample: it is both meager (a countable union of nowhere-dense singletons) and dense in ℝ (every open interval contains a rational). Density and meagerness measure different properties. Density says the set comes arbitrarily close to every point; meagerness says the set is a 'thin' union of sets with no interior. A set can be simultaneously thin (meager) and everywhere present (dense)."

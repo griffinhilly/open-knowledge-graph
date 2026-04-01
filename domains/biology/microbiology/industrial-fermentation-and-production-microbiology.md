@@ -6,8 +6,6 @@ course: microbiology
 prerequisites:
 - id: microbial-biotechnology
   type: hard
-- id: bacterial-fermentation-and-anaerobic-pathways
-  type: soft
 tags:
 - fermentation
 - biotechnology

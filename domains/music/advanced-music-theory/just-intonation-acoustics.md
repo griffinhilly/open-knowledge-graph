@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 - id: logarithm-properties
   type: soft
-- id: fractions
+- id: intro-to-fractions
   type: soft
 - id: divisibility-and-primes-discrete
   type: soft

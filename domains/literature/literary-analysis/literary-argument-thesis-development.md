@@ -6,8 +6,6 @@ course: literary-analysis
 prerequisites:
 - id: literary-argument-thesis
   type: hard
-- id: analytical-thesis-development
-  type: hard
 - id: analytical-thesis-literary-essay
   type: soft
 builds-toward:

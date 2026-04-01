@@ -4,12 +4,8 @@ title: 'Diabetes Mellitus: Type 1 and Type 2'
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: glucose-metabolism-and-homeostasis
+- id: pancreatic-beta-cell-insulin-secretion
   type: hard
-- id: pancreatic-beta-cell-function
-  type: hard
-- id: insulin-signaling-pathways
-  type: soft
 - id: glucose-homeostasis-fed-fasted-metabolic-states
   type: soft
 - id: insulin-glucagon-glucose-homeostasis

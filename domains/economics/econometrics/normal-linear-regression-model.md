@@ -8,9 +8,9 @@ prerequisites:
   type: hard
 - id: normal-distribution
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: hard
-- id: probability-theory
+- id: probability-axioms
   type: hard
 - id: normal-distribution-theory
   type: hard

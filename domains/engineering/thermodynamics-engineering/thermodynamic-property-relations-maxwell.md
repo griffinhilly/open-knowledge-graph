@@ -6,7 +6,7 @@ course: thermodynamics-engineering
 prerequisites:
 - id: second-law-thermodynamics-entropy
   type: hard
-- id: differential-equations
+- id: differential-equations-intro
   type: hard
 tags:
 - maxwell-relations

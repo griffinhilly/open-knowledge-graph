@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: inflammatory-response-cellular
   type: hard
-- id: endothelial-dysfunction
+- id: endothelial-dysfunction-pathophysiology
   type: soft
 - id: cholesterol-metabolism-and-regulation
   type: hard

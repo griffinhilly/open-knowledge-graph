@@ -57,7 +57,7 @@ Listen to isolated singing voice examples at different pitch levels and learn to
   answer: true
   explanation: "This is correct and illustrates why the skill is non-trivial. The French horn's low register (roughly E2 to C4) overlaps significantly with the alto range (roughly G3 to E5 at the lower end). When instruments and voices occupy the same pitch space, absolute pitch height alone cannot distinguish them or identify register. You must rely on timbral character — the horn's brassy, rounded quality versus the voice's formant-shaped resonance. Knowledge of orchestral timbres (a soft prerequisite for this topic) directly supports this identification."
 
-- question: "Identifying a voice's register requires knowing the exact note names being sung — without knowing specific pitches, register can rarely be reliably determined by ear."
+- question: "Identifying a voice's register requires knowing the exact note names being sung — without knowing specific pitches, register cannot be reliably determined by ear."
   type: true-false
   answer: false
   explanation: "Register identification is primarily a timbral skill, not a pitch-naming skill. A trained listener can identify that a voice is in its chest register, passaggio, or head register from the quality of the sound alone — the resonance, brightness, and weight of the tone — without knowing whether it's E4 or G4. This is why it is an ear-training skill: it develops auditory discrimination of timbral quality, not just pitch-naming ability."

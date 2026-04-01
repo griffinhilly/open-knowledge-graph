@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: neurotransmitter-synthesis-storage
   type: hard
-- id: protein-structure-and-function
+- id: protein-tertiary-structure
   type: soft
 - id: enzyme-kinetics
   type: soft

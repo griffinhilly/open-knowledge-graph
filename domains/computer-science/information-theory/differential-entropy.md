@@ -6,9 +6,9 @@ course: information-theory
 prerequisites:
 - id: shannon-entropy
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
-- id: random-variables
+- id: continuous-random-variables
   type: hard
 builds-toward:
 - gaussian-channel

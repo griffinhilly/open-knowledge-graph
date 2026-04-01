@@ -52,7 +52,7 @@ The Green-Kubo formula expresses transport coefficients as time integrals of equ
   answer: true
   explanation: "True — the fluctuation-dissipation theorem is the physical principle that underlies the Green-Kubo formula. It states that the same microscopic dynamics governing how spontaneous thermal fluctuations relax also governs how the system responds to (and dissipates) an externally applied perturbation. This is why measuring equilibrium fluctuations tells you about non-equilibrium transport: the mechanism is the same in both cases."
 
-- question: "The Green-Kubo formula is specific to viscosity and can rarely be extended to other transport coefficients like electrical conductivity or thermal conductivity."
+- question: "The Green-Kubo formula is specific to viscosity and cannot be extended to other transport coefficients like electrical conductivity or thermal conductivity."
   type: true-false
   answer: false
   explanation: "False — the Green-Kubo framework applies uniformly across all linear transport coefficients. Electrical conductivity is the time-integral of the current-current autocorrelation function; thermal conductivity is the time-integral of the energy-flux autocorrelation function. Each transport coefficient is the time-integral of the relevant flux autocorrelation. This unification across different transport phenomena under a single mathematical framework is one of the deep results of non-equilibrium statistical mechanics."

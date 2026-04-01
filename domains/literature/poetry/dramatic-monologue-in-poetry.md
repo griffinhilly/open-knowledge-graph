@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: speech-act-theory
   type: soft
-- id: speaker-voice-development
+- id: authentic-speaker-voice-development
   type: soft
 builds-toward:
 - poetic-tradition-and-influence

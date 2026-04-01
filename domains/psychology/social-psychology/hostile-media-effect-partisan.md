@@ -46,7 +46,7 @@ The hostile media effect describes the tendency for people to perceive media cov
   answer: 2
   explanation: "The hostile media effect operates through standards asymmetry: for a partisan, fair coverage of their position means recognizing its objective truth, while 'balance' that treats their position as one opinion among others may itself feel biased. Adding balance doesn't remove the asymmetry in what each side considers fair treatment. Partisans also engage in selective recall — remembering critical references to their side more vividly than critical references to the other side — and apply in-group vigilance that flags ambiguous content as threatening. These mechanisms operate on the content, not just on whether equal time was given."
 
-- question: "The hostile media effect demonstrates that partisans are uniquely irrational perceivers who can rarely evaluate information objectively."
+- question: "The hostile media effect demonstrates that partisans are uniquely irrational perceivers who cannot evaluate information objectively."
   type: true-false
   answer: false
   explanation: "The hostile media effect does not reflect irrationality specific to partisan perceivers — it reflects how social identity shapes perception for everyone. The same mechanisms (selective recall, standards asymmetry, in-group vigilance) operate across political partisans, sports fans, and participants in international conflicts. From the perspective of someone with a strong group commitment, scanning media for threats to one's group is a rational protective strategy. The effect reveals something systematic about how motivated social cognition works, not a deficiency unique to extreme partisans. It also cannot be corrected through better information processing alone."

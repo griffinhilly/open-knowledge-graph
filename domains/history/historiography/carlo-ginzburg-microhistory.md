@@ -50,7 +50,7 @@ Carlo Ginzburg's *The Cheese and the Worms* reconstructs the worldview of Menocc
   answer: true
   explanation: "True — and this is central to what Ginzburg does. The Inquisition archive was produced by an institution of power to extract confession and assess heresy, but in doing so it recorded Menocchio's own words and cosmological ideas in unusually rich detail. The distorting lens of the archive is real (the questions shaped the answers), but it does not make the source useless — it requires reading it critically against the grain. Ginzburg's method turns this constraint into a productive technique."
 
-- question: "Because Ginzburg's study is based on a single individual, The Cheese and the Worms can rarely support any historical conclusions beyond the biography of Menocchio himself."
+- question: "Because Ginzburg's study is based on a single individual, The Cheese and the Worms cannot support any historical conclusions beyond the biography of Menocchio himself."
   type: true-false
   answer: false
   explanation: "False. Microhistory's epistemological contribution is the existence proof — demonstrating that something existed or was possible, not measuring its frequency. If Menocchio held these views, then views of this kind existed in 16th-century Italy; if his reading of books was this independent, then popular engagement with print worked differently than elite sources suggest. This breaks an assumption rather than establishing a statistical frequency. Ginzburg is honest that he cannot generalize to 'all northern Italian peasants,' but that is not the claim — the claim is about what the case reveals about possibilities."

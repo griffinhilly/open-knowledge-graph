@@ -48,7 +48,7 @@ Observe or review video demonstrations of each reflex alongside its neural pathw
   answer: 1
   explanation: "The Babinski reflex is normal in neonates but disappears as corticospinal pathways mature, typically by 6–12 months. Persistence beyond this window signals potential neurological concern. This question targets a key misconception: both premature disappearance AND abnormal persistence are clinically significant — the error runs in both directions."
 
-- question: "Newborns can rarely recognize their mother's voice at birth because the auditory cortex has not yet developed."
+- question: "Newborns cannot recognize their mother's voice at birth because the auditory cortex has not yet developed."
   type: true-false
   answer: false
   explanation: "Newborns do recognize their mother's voice, a preference built through auditory exposure in utero during the third trimester, when the auditory system becomes functional. This preference is detectable at birth via non-nutritive sucking paradigms. Neonatal sensory capabilities are far more sophisticated than the historical 'blank slate' assumption."

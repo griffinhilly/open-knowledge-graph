@@ -4,8 +4,6 @@ title: Longitudinal and Panel Data Analysis
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: probability-and-statistics
-  type: hard
 - id: linear-regression-social-science
   type: hard
 - id: matrices-intro

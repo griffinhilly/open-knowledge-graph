@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: evolutionary-comparative-anatomy
   type: soft
-- id: statistical-inference
+- id: statistical-inference-significance-testing
   type: soft
 - id: hypothesis-test-framework
   type: soft

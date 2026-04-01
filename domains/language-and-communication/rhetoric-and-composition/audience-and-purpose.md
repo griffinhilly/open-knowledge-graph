@@ -44,7 +44,7 @@ Practice by rewriting the same short message for two very different audiences â€
   answer: 1
   explanation: "Rhetorical effectiveness depends on matching tone, diction, and evidence to the actual audience. A school administrator expects formal register, specific evidence, and a clear request â€” not in-jokes and assumptions of shared frustration. The writing may be grammatically correct, but rhetoric is about achieving an effect on a reader, and that requires knowing who the reader is."
 
-- question: "A text generally has exactly one purpose; if its primary purpose is to inform, it can rarely also be persuading the reader."
+- question: "A text generally has exactly one purpose; if its primary purpose is to inform, it cannot also be persuading the reader."
   type: true-false
   answer: false
   explanation: "Texts routinely carry multiple simultaneous purposes. A news article may primarily inform readers about a policy but simultaneously frame the issue in a way that shapes opinion (implicit persuasion). A nature documentary informs and entertains at once. Recognizing layered purposes is essential for both writing effectively (designing your text to accomplish what you actually want) and reading critically (identifying purposes the author may not have stated)."

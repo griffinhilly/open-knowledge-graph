@@ -4,7 +4,7 @@ title: "Process Calculi: CCS and Pi-Calculus"
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: predicate-logic
+- id: predicate-logic-introduction
   type: hard
 - id: programming-language-semantics
   type: hard

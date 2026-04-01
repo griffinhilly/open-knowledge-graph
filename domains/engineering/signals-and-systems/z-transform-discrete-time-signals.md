@@ -14,7 +14,7 @@ prerequisites:
   type: hard
 - id: complex-functions-mappings
   type: hard
-- id: sequences-and-series
+- id: arithmetic-sequences-and-series
   type: soft
 builds-toward:
 - z-transform-properties-inverse

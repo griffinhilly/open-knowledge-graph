@@ -58,7 +58,7 @@ Consider basic rights you believe people have: freedom of conscience, protection
   answer: false
   explanation: "Consenting to surgery is an exercise of the right to bodily autonomy, not its abolition. Rights are waivable: right-holders can choose to permit what the right normally forbids. The right persists and protects all future interactions — the patient can revoke consent, and no one may operate on them again without new consent. Waiving is an expression of control over the right, not its elimination."
 
-- question: "Because rights trump ordinary consequentialist reasoning, they can rarely be outweighed by any other moral consideration."
+- question: "Because rights trump ordinary consequentialist reasoning, they cannot be outweighed by any other moral consideration."
   type: true-false
   answer: false
   explanation: "Rights function as trumps against ordinary cost-benefit calculations, but most rights theories recognize that rights can conflict with each other and that some rights are weightier than others. Near-absolute rights (against torture, against slavery) are extremely resistant to override; other rights (to a particular level of economic provision) are more susceptible to balancing. Rights-holders can also waive their rights. Saying rights trump consequences does not mean they are lexically prior to every moral consideration in every possible case."

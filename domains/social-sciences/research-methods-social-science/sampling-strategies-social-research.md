@@ -4,8 +4,6 @@ title: Sampling Strategies in Social Research
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: probability-and-statistics
-  type: hard
 - id: probability-axioms
   type: soft
 builds-toward:

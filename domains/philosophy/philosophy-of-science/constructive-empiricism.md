@@ -1,6 +1,6 @@
 ---
 id: constructive-empiricism
-title: Constructive Empiricism
+title: "Constructive Empiricism"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

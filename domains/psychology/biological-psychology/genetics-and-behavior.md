@@ -63,7 +63,7 @@ Monozygotic vs. dizygotic twin concordance rates for schizophrenia (~50% vs. ~15
   answer: 1
   explanation: "MZ concordance significantly exceeding DZ concordance establishes a genetic contribution to schizophrenia. But MZ concordance well below 100% is equally important: identical genomes do not produce identical outcomes. One MZ twin can develop schizophrenia while the other remains unaffected. This demonstrates that genes confer risk, not destiny — environmental factors (stress, prenatal exposures, developmental events) determine whether genetic risk manifests clinically. The data support a probabilistic model of genetic vulnerability, not genetic determinism."
 
-- question: "High heritability of a trait means that environmental interventions can rarely substantially change that trait."
+- question: "High heritability of a trait means that environmental interventions cannot substantially change that trait."
   type: true-false
   answer: false
   explanation: "This is the most persistent misconception in behavioral genetics. Height is highly heritable (>0.80 in well-nourished populations) yet dramatically responsive to nutrition — average heights increased by several inches in populations transitioning from famine to adequate food supply. High heritability means genetic differences explain most of the variance in that trait in that population at that time. It says nothing about whether changing the environment would change the trait's absolute level. Heritability measures variance, not plasticity."

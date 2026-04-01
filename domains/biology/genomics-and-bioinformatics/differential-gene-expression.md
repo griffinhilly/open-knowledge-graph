@@ -6,7 +6,7 @@ course: genomics-and-bioinformatics
 prerequisites:
 - id: rna-seq-analysis-pipeline
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 - id: gene-expression-overview
   type: soft

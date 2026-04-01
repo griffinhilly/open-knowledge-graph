@@ -6,8 +6,6 @@ course: representation-theory
 prerequisites:
 - id: character-tables
   type: hard
-- id: symmetric-group
-  type: hard
 - id: frobenius-reciprocity
   type: soft
 builds-toward:

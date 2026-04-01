@@ -1,6 +1,6 @@
 ---
 id: no-miracles-argument
-title: The No-Miracles Argument for Realism
+title: "The No-Miracles Argument for Realism"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

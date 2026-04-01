@@ -4,8 +4,6 @@ title: 'F-Distribution: Comparing Variances'
 domain: mathematics
 course: probability-and-statistics
 prerequisites:
-- id: f-distribution
-  type: soft
 - id: chi-square-distribution-theory
   type: hard
 builds-toward:

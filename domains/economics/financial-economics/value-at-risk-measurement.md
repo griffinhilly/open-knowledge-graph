@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: quantiles-and-percentiles
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 - id: normal-distribution-theory
   type: soft

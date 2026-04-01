@@ -6,7 +6,7 @@ course: representation-theory
 prerequisites:
 - id: reducibility-and-irreducibility
   type: hard
-- id: tensor-products-vector-spaces
+- id: tensor-products-universal
   type: hard
 builds-toward:
 - representation-ring

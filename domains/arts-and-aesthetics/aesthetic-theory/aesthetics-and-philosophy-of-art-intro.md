@@ -4,8 +4,6 @@ title: 'Aesthetics and Philosophy of Art: Introduction'
 domain: arts-and-aesthetics
 course: aesthetic-theory
 prerequisites:
-- id: philosophy-intro
-  type: hard
 - id: metaethics-intro
   type: soft
 builds-toward:

@@ -6,7 +6,7 @@ course: cognitive-psychology
 prerequisites:
 - id: cognitive-biases-overview
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 tags:
 - judgment

@@ -4,8 +4,6 @@ title: Arithmetic Patterns and Sequences
 domain: mathematics
 course: 3rd-grade
 prerequisites:
-- id: skip-counting-patterns-skip-counting
-  type: hard
 - id: arithmetic-patterns-3rd
   type: soft
 - id: odd-and-even-numbers-patterns-3rd

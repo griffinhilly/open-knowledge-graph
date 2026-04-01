@@ -4,7 +4,7 @@ title: 'Thymic Selection: Positive and Negative Selection'
 domain: biology
 course: immunology
 prerequisites:
-- id: t-cell-receptor-structure-and-function-and-function
+- id: t-cell-receptor-structure-and-function
   type: hard
 - id: major-histocompatibility-complex
   type: hard

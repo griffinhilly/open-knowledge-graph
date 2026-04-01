@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: constrained-optimization
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: soft
 - id: linear-programming
   type: soft

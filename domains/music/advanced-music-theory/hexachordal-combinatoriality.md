@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: combinations-and-selections
   type: soft
-- id: combinatorics
+- id: probability-with-combinatorics
   type: soft
 - id: binomial-coefficients
   type: soft

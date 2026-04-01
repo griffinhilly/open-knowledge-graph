@@ -6,8 +6,6 @@ course: signals-and-systems
 prerequisites:
 - id: lti-systems-and-impulse-response
   type: hard
-- id: integral-calculus
-  type: soft
 - id: convolution-theorem-and-applications
   type: hard
 builds-toward:

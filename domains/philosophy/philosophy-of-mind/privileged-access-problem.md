@@ -4,8 +4,6 @@ title: Privileged Access and Epistemic Authority
 domain: philosophy
 course: philosophy-of-mind
 prerequisites:
-- id: introspection-and-phenomenal-knowledge
-  type: hard
 - id: other-minds-problem
   type: soft
 - id: physicalism-about-mind
@@ -58,7 +56,7 @@ Examine responses to privileged access from infallibilism, reliabilism, and othe
   answer: 2
   explanation: "Epistemic authority — the defensible version of privileged access — holds that first-person reports carry special presumptive weight, not that they're infallible. A neuroscientist's instruments may measure correlates of anxiety, but they don't straightforwardly access whether the person is anxious in the relevant sense. This doesn't mean patients are always right (they can misidentify emotions, confabulate, or lack introspective accuracy), but their report is not merely one data point among equals. The disagreement between self-report and physiological measurement is itself a philosophically interesting gap, not a straightforward correction."
 
-- question: "Privileged access to one's mental states means one can rarely be mistaken about them — if you believe you are in pain, that belief is necessarily true."
+- question: "Privileged access to one's mental states means one cannot be mistaken about them — if you believe you are in pain, that belief is necessarily true."
   type: true-false
   answer: false
   explanation: "This stronger claim — infallibilism — is not what most philosophers defend, and it faces clear counterexamples. People misidentify emotions (thinking they feel angry when they feel sad), have unconscious states they cannot access, and sometimes misdescribe the character of their experiences (e.g., confusing familiarity with genuine recognition). The defensible claim is epistemic authority: first-person reports carry special presumptive weight that doesn't derive from inference or behavioral observation, and they cannot be routinely overridden by third-person reports. But weight is not certainty."

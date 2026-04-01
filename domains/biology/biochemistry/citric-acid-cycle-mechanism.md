@@ -18,7 +18,7 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-basics
   type: soft
-- id: redox-reactions-organic
+- id: reduction-reactions-organic
   type: soft
 builds-toward:
 - citric-acid-cycle-regulation

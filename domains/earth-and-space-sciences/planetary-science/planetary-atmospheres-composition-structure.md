@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: gravity-potential-theory-earths-field
   type: soft
-- id: thermodynamics-intro
-  type: soft
 - id: hydrostatic-balance-pressure-profile
   type: soft
 - id: exoplanet-mass-radius-relation

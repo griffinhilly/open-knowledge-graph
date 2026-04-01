@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: dummy-variables-regression
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 builds-toward:
 - random-effects-models

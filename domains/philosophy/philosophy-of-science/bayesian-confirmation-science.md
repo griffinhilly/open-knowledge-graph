@@ -1,6 +1,6 @@
 ---
 id: bayesian-confirmation-science
-title: Bayesian Approaches to Confirmation
+title: "Bayesian Approaches to Confirmation"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
@@ -59,7 +59,7 @@ Bayesian confirmation theory applies Bayes' theorem to understand how evidence c
   answer: true
   explanation: "This is the Bayesian definition of confirmation: E confirms H iff P(H|E) > P(H). It is elegant because it is both mathematically precise and intuitively appealing — learning E is good news for H if and only if E makes H more likely than it was before. The definition also has a natural companion: E disconfirms H iff P(H|E) < P(H), and E is neutral iff P(H|E) = P(H). The quantitative framework then lets us ask how much confirmation E provides, answering with the Bayes factor rather than just yes/no."
 
-- question: "If two scientists begin with very different prior probabilities for the same hypothesis, Bayesian updating can rarely bring their posteriors into agreement regardless of how much evidence accumulates."
+- question: "If two scientists begin with very different prior probabilities for the same hypothesis, Bayesian updating cannot bring their posteriors into agreement regardless of how much evidence accumulates."
   type: true-false
   answer: false
   explanation: "Under mild conditions (both scientists assign non-zero prior probability to the true hypothesis and share the same evidence), Bayesian agents will converge to the same posterior as evidence accumulates, regardless of their starting priors. This is the 'washing out of priors' result. The evidence eventually overwhelms any finite prior — only a prior of exactly 0 (assigning zero probability to a hypothesis) prevents convergence, because updating a zero prior produces a zero posterior no matter what. This convergence property is one of Bayesianism's strongest responses to the worry about subjective priors in science."

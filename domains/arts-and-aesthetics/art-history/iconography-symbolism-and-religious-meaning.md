@@ -60,7 +60,7 @@ Symbols have fixed universal meanings across all cultures and time periods. Mode
   answer: false
   explanation: "From the perspective of modern art history, religious symbols are cultural conventions: visual codes developed within specific traditions and taught to viewers. Even if medieval viewers experienced them as transparent truths rather than arbitrary signs, they were still learned codes — a viewer from a different tradition would not automatically 'read' a halo as sainthood. The fact that iconographic literacy had to be acquired (through catechism, religious education, and exposure to art) confirms that these were conventional systems, not universal intuitions. Iconographic analysis treats them as such."
 
-- question: "A modern painting that uses no recognizable religious figures or traditional symbols can rarely be analyzed iconographically."
+- question: "A modern painting that uses no recognizable religious figures or traditional symbols cannot be analyzed iconographically."
   type: true-false
   answer: false
   explanation: "Iconographic analysis applies wherever works encode meaning through visual conventions — religious art, secular allegory, political imagery, advertising, and even contemporary art. Modern works often engage with traditional iconography deliberately, either deploying it, subverting it, or ironizing it. Understanding what a work is doing with symbolic traditions requires knowing those traditions. Additionally, modern cultural contexts produce their own symbolic codes (national flags, brand imagery, political symbols) that are themselves amenable to iconographic analysis."

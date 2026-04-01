@@ -6,7 +6,7 @@ course: information-theory
 prerequisites:
 - id: shannon-entropy
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 builds-toward:
 - huffman-coding

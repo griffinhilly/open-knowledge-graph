@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: hormone-signaling-mechanisms
   type: soft
-- id: steroid-hormone-synthesis
-  type: soft
 tags:
 - vitamin-d
 - metabolism

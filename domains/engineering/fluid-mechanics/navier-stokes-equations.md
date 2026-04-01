@@ -16,8 +16,6 @@ prerequisites:
   type: hard
 - id: vector-fields
   type: soft
-- id: partial-differential-equations
-  type: soft
 - id: differential-equations-intro
   type: hard
 - id: partial-derivatives

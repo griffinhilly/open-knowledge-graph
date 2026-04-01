@@ -6,7 +6,7 @@ course: general-relativity
 prerequisites:
 - id: black-holes-schwarzschild
   type: hard
-- id: spacetime-diagrams-minkowski
+- id: spacetime-diagrams
   type: soft
 tags:
 - penrose-diagram

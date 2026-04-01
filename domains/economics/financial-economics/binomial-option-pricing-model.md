@@ -12,9 +12,9 @@ prerequisites:
   type: soft
 - id: binomial-coefficients
   type: soft
-- id: probability-theory
+- id: probability-axioms
   type: hard
-- id: recursion
+- id: recursion-on-finite-structures
   type: soft
 tags:
 - options

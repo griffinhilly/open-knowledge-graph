@@ -6,7 +6,7 @@ course: industrial-organizational-psychology
 prerequisites:
 - id: job-analysis
   type: soft
-- id: research-methods-psychology-intro
+- id: scientific-method-psychology
   type: soft
 tags:
 - human-factors

@@ -6,8 +6,6 @@ course: biochemistry
 prerequisites:
 - id: translation
   type: hard
-- id: enzyme-specificity-and-selectivity
-  type: soft
 builds-toward:
 - genetic-code-wobble-pairing
 tags:

@@ -4,7 +4,7 @@ title: Internal Model Principle and Integral Control Action
 domain: engineering
 course: control-systems
 prerequisites:
-- id: steady-state-error-system-type
+- id: steady-state-error-analysis
   type: hard
 - id: pid-control
   type: soft

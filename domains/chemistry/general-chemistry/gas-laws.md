@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: stoichiometry-calculations
   type: soft
-- id: kinetic-molecular-theory-basics
+- id: kinetic-molecular-theory
   type: soft
 builds-toward:
 - gas-stoichiometry

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: metapopulation-dynamics-connectivity
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 builds-toward:
 - speciation

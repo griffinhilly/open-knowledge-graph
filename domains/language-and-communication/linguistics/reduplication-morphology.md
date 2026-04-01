@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: morphological-structure
   type: hard
+- id: grammatical-number-systems
+  type: soft
 tags:
 - morphology
 - word-formation
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Reduplication (Morphological Process)
 
 ## Core Idea

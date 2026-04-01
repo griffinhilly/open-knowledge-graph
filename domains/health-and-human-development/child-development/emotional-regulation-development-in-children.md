@@ -58,7 +58,7 @@ A common error is assuming emotional regulation means suppression or elimination
   answer: 1
   explanation: "A core misconception is equating emotional regulation with suppression or absence of emotion. Healthy regulation means the child can experience the emotion while modulating its intensity and behavioral expression — not that the emotion disappears. A child who shows no distress across genuinely upsetting events may be suppressing, which carries its own risks. The assessment confuses the visible output (no crying) with the underlying regulatory process."
 
-- question: "Because the prefrontal cortex is immature in early childhood, very young children can rarely benefit from caregiver emotional coaching and should simply wait for neurological maturation."
+- question: "Because the prefrontal cortex is immature in early childhood, very young children cannot benefit from caregiver emotional coaching and should simply wait for neurological maturation."
   type: true-false
   answer: false
   explanation: "This reverses the developmental picture. Co-regulation with caregivers is the starting point for emotional development, not something that awaits neurological readiness. Children benefit from caregiver scaffolding from infancy; these co-regulatory experiences are what build the internal representations and neural circuitry that eventually support independent regulation. The prefrontal cortex matures partly through use, shaped by repeated co-regulatory interactions."

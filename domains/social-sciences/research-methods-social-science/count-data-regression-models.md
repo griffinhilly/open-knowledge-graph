@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: poisson-distribution
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 - id: probability-mass-functions
   type: soft

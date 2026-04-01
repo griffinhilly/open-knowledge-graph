@@ -4,7 +4,7 @@ title: 'Immune Tolerance: Central and Peripheral Mechanisms'
 domain: biology
 course: immunology
 prerequisites:
-- id: regulatory-t-cells-immune-tolerance-immune-tolerance
+- id: regulatory-t-cells-immune-tolerance
   type: hard
 - id: thymic-selection-positive-negative
   type: hard

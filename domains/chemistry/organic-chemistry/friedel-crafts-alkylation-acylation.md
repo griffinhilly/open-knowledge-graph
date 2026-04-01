@@ -61,7 +61,7 @@ Draw the carbocation and acylium ion formation, then the attack on the benzene r
   answer: true
   explanation: "The acylium ion R–C≡O⁺ is stabilized by resonance: the positive charge is delocalized between the carbonyl carbon and the oxygen. This stability means the ion has no thermodynamic driving force to rearrange to a different structure. In contrast, a primary carbocation in alkylation has no comparable stabilization and rapidly shifts toward a more stable secondary or tertiary ion via hydride or methyl migration."
 
-- question: "If primarily one equivalent of alkyl halide is used in a Friedel-Crafts alkylation, over-alkylation is not a concern because stoichiometry limits the reaction to one substitution."
+- question: "If only one equivalent of alkyl halide is used in a Friedel-Crafts alkylation, over-alkylation is not a concern because stoichiometry limits the reaction to one substitution."
   type: true-false
   answer: false
   explanation: "Stoichiometry does not prevent over-alkylation. The alkyl group attached in the first substitution is electron-donating, making the monoalkylated ring more reactive toward electrophilic attack than the original benzene. The product is therefore a better substrate for the second alkylation than the starting material, and it will react preferentially even when alkyl halide is limiting. To get primarily monoalkylation, excess benzene (as solvent) is typically used to dilute the more reactive product — not a stoichiometric limit on the reagent."

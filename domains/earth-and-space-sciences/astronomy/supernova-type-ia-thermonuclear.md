@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: nuclear-chemistry
   type: soft
-- id: thermostat-structure-of-atmosphere
+- id: thermal-structure-of-atmosphere
   type: soft
 builds-toward:
 - cosmic-distance-ladder-calibration

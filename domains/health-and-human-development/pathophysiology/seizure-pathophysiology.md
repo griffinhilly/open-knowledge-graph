@@ -4,7 +4,7 @@ title: Seizures and Epilepsy
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: neuronal-excitability-and-action-potentials
+- id: action-potential
   type: hard
 - id: gabaergic-inhibition
   type: hard

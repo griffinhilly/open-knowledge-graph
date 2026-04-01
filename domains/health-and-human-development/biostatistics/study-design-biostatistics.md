@@ -6,9 +6,9 @@ course: biostatistics
 prerequisites:
 - id: epidemiologic-study-designs
   type: hard
-- id: descriptive-statistics
+- id: descriptive-statistics-overview
   type: hard
-- id: hypothesis-testing-intro
+- id: hypothesis-testing-fundamentals
   type: soft
 builds-toward:
 - clinical-trial-design-intro

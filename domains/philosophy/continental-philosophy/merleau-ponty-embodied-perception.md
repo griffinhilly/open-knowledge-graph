@@ -1,6 +1,6 @@
 ---
 id: merleau-ponty-embodied-perception
-title: Merleau-Ponty — Embodied Perception
+title: "Merleau-Ponty — Embodied Perception"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

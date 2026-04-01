@@ -4,7 +4,7 @@ title: The Equivalence Principle
 domain: physics
 course: general-relativity
 prerequisites:
-- id: special-relativity
+- id: special-relativity-postulates
   type: hard
 - id: lagrangian-mechanics-intro
   type: hard

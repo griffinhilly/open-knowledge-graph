@@ -53,7 +53,7 @@ Compare coherentism with foundationalism using the same set of cases: perceptual
   answer: 2
   explanation: "This is the input problem (also called the isolation objection): if justification is purely a matter of internal coherence, then a maximally coherent system that is entirely unmoored from reality would appear to be justified. The objection is that knowledge must be anchored to the world somehow, not just internally tidy. Coherentists respond that sensory experiences are incorporated into the web, not left outside — but this is exactly the pressure point that divides coherentism from externalist views."
 
-- question: "According to coherentism, a belief is justified if and primarily if it does not contradict any other belief you hold."
+- question: "According to coherentism, a belief is justified if and only if it does not contradict any other belief you hold."
   type: true-false
   answer: false
   explanation: "This conflates coherence with mere logical consistency, which is one of the core misconceptions the topic identifies. Logical consistency means only that no two beliefs are contradictory. But coherence in the relevant sense requires *mutual support*: beliefs should entail each other, provide probabilistic support, explain each other, and integrate into a structure. Two beliefs can be perfectly consistent yet have no coherence — 'Napoleon lost at Waterloo' and 'pi is approximately 3.14' are consistent but unrelated, contributing nothing to each other's justification."

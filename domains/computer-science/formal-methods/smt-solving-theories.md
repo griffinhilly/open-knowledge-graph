@@ -6,9 +6,9 @@ course: formal-methods
 prerequisites:
 - id: sat-solving-cdcl
   type: hard
-- id: predicate-logic
+- id: predicate-logic-introduction
   type: hard
-- id: propositional-logic
+- id: propositional-logic-introduction
   type: soft
 builds-toward: []
 tags:

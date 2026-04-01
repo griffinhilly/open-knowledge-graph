@@ -51,7 +51,7 @@ Promoters are DNA sequences that specify the transcription start site and initia
   answer: 2
   explanation: "Orientation-independence is the key diagnostic feature that distinguishes enhancers from promoters. A promoter is intrinsically directional — it has a fixed orientation relative to the transcription start site and requires specific spacing. An enhancer works regardless of which strand it is on or whether it is upstream, downstream, or within an intron. The large distance (−5 kb) further rules out a core promoter element. This orientation test is a classic experimental assay for identifying enhancers."
 
-- question: "Enhancers should be located within a few hundred base pairs of the promoter they regulate, because the transcription factors that bind them can rarely physically bridge longer distances."
+- question: "Enhancers should be located within a few hundred base pairs of the promoter they regulate, because the transcription factors that bind them cannot physically bridge longer distances."
   type: true-false
   answer: false
   explanation: "Enhancers can function from tens or even hundreds of kilobases away. They do not activate promoters by diffusing transcription factors through solution — instead, DNA looping brings the enhancer and promoter into direct physical contact. The intervening DNA is extruded as a loop, and the enhancer-bound transcription factors directly interact with the promoter complex. Chromosome conformation capture (3C, Hi-C) experiments have directly visualized these long-range chromatin loops."

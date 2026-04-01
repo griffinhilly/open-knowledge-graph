@@ -4,7 +4,7 @@ title: Homology Modeling
 domain: biology
 course: structural-biology
 prerequisites:
-- id: protein-folding-and-stability
+- id: protein-folding-and-chaperones
   type: hard
 - id: pairwise-sequence-alignment
   type: hard

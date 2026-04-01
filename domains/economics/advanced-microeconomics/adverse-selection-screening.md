@@ -6,7 +6,7 @@ course: advanced-microeconomics
 prerequisites:
 - id: bayesian-games
   type: hard
-- id: probability-theory
+- id: probability-axioms
   type: hard
 - id: game-theory-basics-microeconomics
   type: hard

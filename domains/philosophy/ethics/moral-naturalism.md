@@ -57,7 +57,7 @@ Compare to scientific reduction: heat was reduced to molecular motion; water was
   answer: false
   explanation: "False. Moral naturalism requires only that moral properties are *natural* properties — properties investigated by empirical inquiry. But 'natural' is broad: psychological properties, social-functional properties, and biological properties can all count as natural without being reducible to physics or neuroscience. A naturalist who identifies 'good' with 'promotes flourishing' is appealing to a psychological/functional notion of flourishing, not necessarily to brain states or particle physics. The misconception that naturalism must be reductive all the way down to physics misunderstands what the position requires."
 
-- question: "The is-ought gap (Hume's claim that you can rarely derive 'ought' from 'is') is a decisive refutation of moral naturalism."
+- question: "The is-ought gap (Hume's claim that you cannot derive 'ought' from 'is') is a decisive refutation of moral naturalism."
   type: true-false
   answer: false
   explanation: "False — though it is a serious challenge, not a decisive refutation. Moral naturalists have several responses. One prominent response is that once you establish an identity between a moral property and a natural property — once 'right' just *is* 'promotes well-being' — you can infer moral facts from natural facts just as you can infer temperature facts from facts about molecular motion once you establish that identity. The identity itself bridges the gap. Whether this response succeeds is a live debate, but it shows that the is-ought gap does not trivially refute naturalism without further argument."

@@ -8,11 +8,9 @@ prerequisites:
   type: hard
 - id: chemical-equilibrium
   type: soft
-- id: gravitation
+- id: newtons-law-of-gravitation
   type: soft
 - id: heat-transfer-conduction-fourier
-  type: soft
-- id: density-and-buoyancy-fluids
   type: soft
 - id: entropy-and-gibbs-free-energy
   type: soft

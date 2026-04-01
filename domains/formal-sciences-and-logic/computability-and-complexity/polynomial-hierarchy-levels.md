@@ -6,7 +6,7 @@ course: computability-and-complexity
 prerequisites:
 - id: pspace-and-complexity-hierarchy
   type: hard
-- id: nondeterministic-polynomial-time
+- id: nondeterministic-polynomial-time-computability-and-complexity
   type: hard
 - id: polynomial-hierarchy-computability-and-complexity
   type: soft

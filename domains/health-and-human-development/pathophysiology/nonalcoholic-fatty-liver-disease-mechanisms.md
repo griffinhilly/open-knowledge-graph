@@ -5,9 +5,7 @@ title: 'Nonalcoholic Fatty Liver Disease: Lipid Accumulation, Oxidative Stress, 
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: metabolic-syndrome-pathophysiology
-  type: hard
-- id: hepatocellular-injury-mechanisms
+- id: obesity-metabolic-syndrome-and-nutritional-pathophysiology
   type: hard
 - id: chronic-inflammation
   type: soft

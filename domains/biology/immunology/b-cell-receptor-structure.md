@@ -54,7 +54,7 @@ The B cell receptor (BCR) is membrane-bound immunoglobulin plus CD19/CD21 corece
   answer: true
   explanation: "The BCR signal alone is not sufficient to determine the outcome. With BCR crosslinking plus costimulation from CD40L (on helper T cells) or TLR ligands (from pathogen-associated patterns), the B cell proliferates, undergoes class switching, and differentiates into plasma cells or memory B cells. With BCR crosslinking alone — no second signal — the B cell becomes anergic. This two-signal requirement is not a technical detail but a fundamental design feature: it prevents B cells from responding to self-antigens encountered in the absence of infection or tissue damage."
 
-- question: "The CD19/CD21/CD81 coreceptor complex is required for any B cell activation — without it, BCR signaling can rarely initiate a response regardless of antigen dose."
+- question: "The CD19/CD21/CD81 coreceptor complex is required for any B cell activation — without it, BCR signaling cannot initiate a response regardless of antigen dose."
   type: true-false
   answer: false
   explanation: "The coreceptor complex dramatically amplifies BCR signaling — by roughly 1,000-fold when complement-tagged antigen co-engages CD21 while the BCR engages the antigen itself. But it is not required for B cell activation; it lowers the activation threshold. B cells can be activated without coreceptor engagement, though higher antigen concentrations or stronger BCR signals are needed. The coreceptor's biological importance is that complement-opsonized antigens (which signal prior activation of the complement system, itself an indicator of infection) are far more immunogenic than naked antigens — a form of contextual signal integration."

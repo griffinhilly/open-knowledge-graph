@@ -4,7 +4,7 @@ title: Stirling Numbers of the First and Second Kind
 domain: mathematics
 course: graph-theory-and-combinatorics
 prerequisites:
-- id: permutations-and-combinations
+- id: permutations-and-arrangements
   type: hard
 - id: catalan-numbers
   type: soft

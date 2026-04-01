@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: cell-differentiation-development
   type: hard
-- id: cell-junctions-adhesion-tissue
+- id: cell-junctions-adhesion-communication
   type: hard
 - id: anatomical-terminology-and-body-compartments
   type: soft

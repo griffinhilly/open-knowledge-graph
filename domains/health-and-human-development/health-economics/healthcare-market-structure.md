@@ -4,9 +4,7 @@ title: Healthcare Market Structure
 domain: health-and-human-development
 course: health-economics
 prerequisites:
-- id: market-structure-overview
-  type: hard
-- id: supply-and-demand
+- id: supply-and-demand-basics
   type: soft
 builds-toward:
 - moral-hazard-health-insurance

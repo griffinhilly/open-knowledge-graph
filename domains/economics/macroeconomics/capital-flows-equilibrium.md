@@ -6,8 +6,6 @@ course: macroeconomics
 prerequisites:
 - id: current-account-definition-measurement
   type: hard
-- id: international-capital-flows
-  type: soft
 builds-toward:
 - mundell-fleming-open-economy
 tags:

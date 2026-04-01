@@ -8,13 +8,9 @@ prerequisites:
   type: hard
 - id: percent-of-a-number
   type: soft
-- id: inequalities
-  type: soft
 - id: linear-functions
   type: soft
 - id: percent-concept
-  type: soft
-- id: inequalities-intro
   type: soft
 - id: proportional-relationships
   type: soft

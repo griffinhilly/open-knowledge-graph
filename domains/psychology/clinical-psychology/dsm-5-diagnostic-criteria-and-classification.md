@@ -3,9 +3,7 @@ id: dsm-5-diagnostic-criteria-and-classification
 title: DSM-5 Diagnostic Criteria and Classification
 domain: psychology
 course: clinical-psychology
-prerequisites:
-- id: abnormal-psychology
-  type: hard
+prerequisites: []
 builds-toward:
 - clinical-assessment-interview-methods
 - case-formulation-and-treatment-planning

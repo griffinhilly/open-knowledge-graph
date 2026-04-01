@@ -14,10 +14,6 @@ prerequisites:
   type: soft
 - id: conservation-of-energy
   type: soft
-- id: thermodynamics-intro
-  type: soft
-- id: hydrostatic-equilibrium
-  type: soft
 - id: main-sequence-lifetime-mass-luminosity-relation
   type: soft
 builds-toward:

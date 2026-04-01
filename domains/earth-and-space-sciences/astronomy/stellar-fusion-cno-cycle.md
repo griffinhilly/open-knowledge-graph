@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: atomic-structure-and-atoms
   type: soft
-- id: carbon-chemistry
-  type: soft
 - id: variable-stars-and-asteroseismology
   type: soft
 builds-toward:

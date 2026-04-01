@@ -6,7 +6,7 @@ course: demography
 prerequisites:
 - id: population-dynamics
   type: hard
-- id: ratios-and-proportions
+- id: proportions
   type: soft
 builds-toward:
 - life-tables-demography

@@ -6,7 +6,7 @@ course: demography
 prerequisites:
 - id: crude-rates-and-specific-rates
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 builds-toward:
 - mortality-analysis

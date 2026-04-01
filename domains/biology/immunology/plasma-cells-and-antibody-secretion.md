@@ -6,7 +6,7 @@ course: immunology
 prerequisites:
 - id: b-cell-activation-germinal-center
   type: hard
-- id: protein-synthesis-overview
+- id: ribosomes-and-protein-synthesis-intro
   type: soft
 - id: endoplasmic-reticulum-and-golgi
   type: soft

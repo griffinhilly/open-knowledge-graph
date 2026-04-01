@@ -1,6 +1,6 @@
 ---
 id: hermeneutics-gadamer
-title: Hermeneutics (Gadamer)
+title: "Hermeneutics (Gadamer)"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

@@ -42,7 +42,7 @@ Start with what students already know from the living-things course about bones 
   answer: 2
   explanation: "The skeletal system supports the body, protects organs (skull protects the brain, ribs protect the heart and lungs), and produces blood cells in the marrow of certain bones. Digesting food is the job of the digestive system, not the skeletal system."
 
-- question: "Bones are non-living structures that can rarely grow or repair themselves."
+- question: "Bones are non-living structures that cannot grow or repair themselves."
   type: true-false
   answer: false
   explanation: "Bones are living tissue made of cells (osteocytes), supplied by blood vessels, and capable of growth and repair. When a bone breaks, the body forms new bone tissue to heal the fracture. Bones continue to be remodeled throughout life as old bone is broken down and new bone is formed."

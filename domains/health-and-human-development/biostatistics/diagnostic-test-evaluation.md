@@ -6,7 +6,7 @@ course: biostatistics
 prerequisites:
 - id: logistic-regression-biostatistics
   type: soft
-- id: probability-theory
+- id: probability-axioms
   type: hard
 - id: study-design-biostatistics
   type: soft

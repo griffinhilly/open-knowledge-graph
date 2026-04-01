@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: conservation-of-angular-momentum
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: soft
 - id: central-force-motion-analysis
   type: hard

@@ -47,7 +47,7 @@ The Sapir-Whorf hypothesis posits that language structures thought: speakers of 
   answer: 1
   explanation: "The claim that speakers 'cannot understand or reason about' a concept because their language lacks a word for it is the strong determinist position — that language determines thought completely, creating conceptual absence. This is the version that has been decisively rejected. People demonstrably solve problems involving concepts their language does not lexicalize, and thought continues even when language processing is suppressed. Weak relativity would predict only that speakers of Language X might reason about fairness differently or less efficiently in certain contexts — not that they cannot reason about it at all."
 
-- question: "The strong version of the Sapir-Whorf hypothesis — that language determines thought and you can rarely think about concepts your language lacks words for — is well supported by current empirical evidence."
+- question: "The strong version of the Sapir-Whorf hypothesis — that language determines thought and you cannot think about concepts your language lacks words for — is well supported by current empirical evidence."
   type: true-false
   answer: false
   explanation: "Strong linguistic determinism is widely rejected. The decisive evidence against it is that people can recognize, solve problems involving, and reason about concepts their language does not lexicalize. Thought continues even when language is suppressed. People can learn new concepts when exposed to new vocabulary, which shows the concept was not absent — just unlabeled. What remains supported is the weak version: language influences habitual, default patterns of cognition without blocking access to any domain of thought entirely."

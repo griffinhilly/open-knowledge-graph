@@ -61,7 +61,7 @@ Catalog the evidence types in a published argument and evaluate which are most p
   answer: true
   explanation: "Expert testimony borrows credibility from recognized authority — but that authority only transfers within the expert's actual domain. A neuroscientist's testimony about rhetoric, or an economist's opinion on nutritional science, is opinion from outside the relevant field, not expert testimony. The specific domain relevance is what makes the evidence type work. A writer invoking 'a Harvard professor' without verifying the professor's relevant specialty has confused credential with expertise."
 
-- question: "Personal anecdotes are seldom appropriate in academic writing because they can rarely support general empirical claims."
+- question: "Personal anecdotes are seldom appropriate in academic writing because they cannot support general empirical claims."
   type: true-false
   answer: false
   explanation: "Personal anecdotes are inappropriate as the sole support for general empirical claims — one person's experience cannot prove universal truth. But they serve legitimate rhetorical functions in academic writing: establishing exigence, making an abstract pattern concrete, or illustrating why a question matters. Strong essays often open with an anecdote and immediately follow with statistical or expert evidence. The misconception overgeneralizes a real limitation (anecdotes can't prove universals) into a blanket prohibition (anecdotes are never appropriate)."

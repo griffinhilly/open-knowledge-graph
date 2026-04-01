@@ -4,7 +4,7 @@ title: Measuring Volume and Weight Accurately
 domain: practical-life-skills
 course: cooking-and-nutrition
 prerequisites:
-- id: measurement-with-standard-units-length
+- id: measuring-with-standard-units-length
   type: hard
 - id: measurement-conversions-customary
   type: hard

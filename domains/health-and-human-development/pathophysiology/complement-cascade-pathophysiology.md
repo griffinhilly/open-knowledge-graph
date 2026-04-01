@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: acute-inflammation-pathophysiology
   type: soft
-- id: complement-cascade-and-pathways
+- id: complement-activation-pathways
   type: soft
 builds-toward:
 - sepsis-and-sirs-pathophysiology

@@ -30,3 +30,6 @@ courses:
 - id: control-systems
   title: Control Systems
   stage: advanced
+- id: robotics-and-autonomous-systems
+  title: Robotics & Autonomous Systems
+  stage: advanced

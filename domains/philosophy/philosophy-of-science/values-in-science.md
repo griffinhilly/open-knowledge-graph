@@ -1,6 +1,6 @@
 ---
 id: values-in-science
-title: The Role of Values in Science
+title: "The Role of Values in Science"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

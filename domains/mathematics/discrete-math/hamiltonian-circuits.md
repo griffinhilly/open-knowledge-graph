@@ -54,7 +54,7 @@ Explore small examples and feel the absence of a clean characterization. Apply D
   answer: 1
   explanation: "Dirac's theorem provides a *sufficient* condition for Hamiltonian circuits, not a necessary one. A graph can have a Hamiltonian circuit even when Dirac's condition fails. Failing a sufficient condition tells you the theorem's guarantee doesn't apply — it says nothing about what is actually true of the graph. This is the most important distinction: sufficient conditions confirm existence when met, but their failure confirms nothing."
 
-- question: "A connected graph has a Hamiltonian circuit if and primarily if most vertex has even degree."
+- question: "A connected graph has a Hamiltonian circuit if and only if most vertex has even degree."
   type: true-false
   answer: false
   explanation: "The 'every vertex has even degree' condition characterizes *Eulerian* circuits, not Hamiltonian circuits. An Eulerian circuit traverses every edge exactly once; a Hamiltonian circuit visits every vertex exactly once. These are fundamentally different conditions. Hamiltonian circuits have no known simple necessary and sufficient characterization — determining their existence is NP-complete."

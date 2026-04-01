@@ -53,7 +53,7 @@ Contrast aesthetic appreciation of a painting with desire to own it, or admiring
   answer: 1
   explanation: "Disinterestedness is about the nature of the pleasure, not its intensity. You can be deeply moved by something while still being disinterested — the disinterestedness means your pleasure does not depend on the object's real existence, possession, or utility to you. Option A confuses 'disinterested' with 'uninterested.' Option C is a common misconception: Kant does not require ignorance of context. Option D confuses disinterested pleasure with the pleasure in the morally good, which Kant treats as a separate and interested mode."
 
-- question: "According to Kant, you can rarely genuinely appreciate the beauty of a painting if you know it is worth a great deal of money, because that knowledge makes your pleasure interested."
+- question: "According to Kant, you cannot genuinely appreciate the beauty of a painting if you know it is worth a great deal of money, because that knowledge makes your pleasure interested."
   type: true-false
   answer: false
   explanation: "Kant's theory does not require ignorance of an object's value, history, or function. Disinterestedness is about which aspect of your response is aesthetic — you can simultaneously know a painting is expensive AND appreciate its beauty disinterestedly, as long as the pleasure arising from contemplating its form is separable from the pleasure of knowing its monetary value. The interested and disinterested responses can coexist; Kant's point is that only the disinterested component is genuinely aesthetic."

@@ -1,6 +1,6 @@
 ---
 id: explanatory-power-and-unification
-title: Explanatory Power and Unification
+title: "Explanatory Power and Unification"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

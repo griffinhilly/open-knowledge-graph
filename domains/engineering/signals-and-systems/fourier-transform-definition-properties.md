@@ -6,8 +6,6 @@ course: signals-and-systems
 prerequisites:
 - id: fourier-series-representation
   type: hard
-- id: integrals
-  type: hard
 builds-toward:
 - discrete-time-fourier-transform
 - magnitude-phase-spectrum-representation

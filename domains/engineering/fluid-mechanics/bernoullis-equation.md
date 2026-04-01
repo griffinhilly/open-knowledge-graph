@@ -12,7 +12,7 @@ prerequisites:
   type: hard
 - id: work-and-energy
   type: soft
-- id: energy-conservation-mechanical-systems
+- id: conservation-of-energy-mechanical-systems
   type: soft
 - id: conservation-of-energy-mechanical-systems
   type: hard

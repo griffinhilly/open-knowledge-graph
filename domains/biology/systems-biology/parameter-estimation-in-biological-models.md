@@ -6,9 +6,9 @@ course: systems-biology
 prerequisites:
 - id: ode-models-in-biology
   type: hard
-- id: maximum-likelihood-estimation
+- id: maximum-likelihood-estimation-theory
   type: soft
-- id: bayesian-inference
+- id: bayesian-inference-intro
   type: soft
 builds-toward:
 - sensitivity-analysis

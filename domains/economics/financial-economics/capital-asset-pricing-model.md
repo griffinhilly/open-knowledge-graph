@@ -22,7 +22,7 @@ prerequisites:
   type: soft
 - id: constrained-optimization-lagrange
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: soft
 - id: correlation-coefficient
   type: hard

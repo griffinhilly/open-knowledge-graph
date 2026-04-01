@@ -62,7 +62,7 @@ Confusing transparency with infallibility; thinking privileged access means intr
   answer: 1
   explanation: "The transparency thesis, associated with G.E. Moore and developed by Harman and Davies, holds that when you introspect a visual experience, you 'look through' it to the world. You find redness as a property of the apple, not as a property of your mental state. Consciousness is transparent in the sense that introspection reveals the intentional objects of experience, not inner mediating items. This is why Moore and Harman used transparency to argue against the existence of intrinsic phenomenal properties ('qualia')."
 
-- question: "Privileged access to one's own mental states entails that introspection can rarely make errors."
+- question: "Privileged access to one's own mental states entails that introspection cannot make errors."
   type: true-false
   answer: false
   explanation: "Privileged access is an asymmetry claim — first-person access is better or more direct than third-person behavioral inference — not an infallibility claim. Contemporary philosophers widely accept that you can have better-than-behavioral-inference access to your mental states while still being capable of systematic error. Schwitzgebel's evidence for introspective error challenges infallibility without eliminating privileged access; the two claims must be assessed independently."

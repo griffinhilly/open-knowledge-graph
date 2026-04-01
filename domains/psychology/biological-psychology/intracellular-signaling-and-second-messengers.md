@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: enzyme-cofactors-and-coenzymes
   type: soft
-- id: intracellular-signaling
-  type: hard
 - id: second-messenger-systems
   type: hard
 builds-toward:

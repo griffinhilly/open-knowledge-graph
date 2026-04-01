@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: neuron-structure-and-function
   type: hard
-- id: partial-differential-equations
-  type: soft
 - id: differential-equations-intro
   type: soft
 builds-toward:
@@ -57,7 +55,7 @@ Action potentials propagate passively along cables—they require active regener
   answer: 2
   explanation: "λ = √(rₘ/rᵢ). Myelin wraps around the axon, making the membrane much thicker — this dramatically increases rₘ (less current leaks out per unit length, like a better-insulated hose) and decreases cₘ (thicker insulation reduces capacitance, so less charge is needed to change the membrane voltage). Both effects increase λ. The result is that passive depolarization can spread much farther before decaying below threshold, allowing the next node of Ranvier to be triggered from much greater distance. Fewer nodes = fewer regeneration steps = faster conduction."
 
-- question: "The length constant (λ) of a given axon is a fixed physical property that can rarely be altered by changes in the axon's structural or molecular properties."
+- question: "The length constant (λ) of a given axon is a fixed physical property that cannot be altered by changes in the axon's structural or molecular properties."
   type: true-false
   answer: false
   explanation: "λ = √(rₘ/rᵢ) depends on membrane resistance per unit length (rₘ) and intracellular axial resistance per unit length (rᵢ). Both are variable: rₘ changes with myelination and with the number and type of open ion channels in the membrane; rᵢ changes with axon diameter (wider axons have lower axial resistance, increasing λ). Myelination is the clearest biological example — it dramatically increases rₘ and decreases cₘ, increasing λ by orders of magnitude compared to unmyelinated axons of similar diameter."

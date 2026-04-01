@@ -6,8 +6,6 @@ course: biological-psychology
 prerequisites:
 - id: sleep-circadian-rhythms-and-sleep-homeostasis
   type: hard
-- id: neural-energy-metabolism
-  type: soft
 builds-toward:
 - sleep-architecture-consolidation
 - caffeine-and-adenosine-antagonism

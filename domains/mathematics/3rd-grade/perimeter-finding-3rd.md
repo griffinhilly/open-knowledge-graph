@@ -6,8 +6,6 @@ course: 3rd-grade
 prerequisites:
 - id: perimeter
   type: soft
-- id: measurement-units-standard
-  type: hard
 - id: perimeter-understanding-2nd
   type: soft
 builds-toward:

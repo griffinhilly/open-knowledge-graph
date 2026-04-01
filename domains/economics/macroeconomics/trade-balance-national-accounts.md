@@ -61,7 +61,7 @@ Derive identity from national income accounts and rearrange to show TB = S − I
   answer: true
   explanation: "Every dollar of trade deficit (more imports than exports) corresponds to a dollar of net capital inflow — foreigners are lending to or investing in the country to finance the excess spending. The capital account and current account always sum to zero by construction. A trade deficit is not just a statement about goods flows; it is simultaneously a statement about financial flows. The deficit country is importing capital."
 
-- question: "A trade deficit generally signals economic weakness because it means a country is consuming more than it produces and can rarely compete in global markets."
+- question: "A trade deficit generally signals economic weakness because it means a country is consuming more than it produces and cannot compete in global markets."
   type: true-false
   answer: false
   explanation: "Whether a deficit is problematic depends on what drives it. A deficit driven by high domestic investment — attracting foreign capital to fund productive capacity — can be growth-enhancing. The US deficit has persisted partly because US financial assets are attractive to foreign investors, not because American industry is failing. The identity TB = S − I makes clear that deficits reflect the saving-investment gap, not competitiveness alone. The arithmetic is neutral; whether the underlying behavior is sustainable requires separate economic analysis."

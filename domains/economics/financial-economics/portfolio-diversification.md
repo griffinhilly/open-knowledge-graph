@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 - id: expected-value-theory
   type: hard

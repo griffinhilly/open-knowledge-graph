@@ -6,8 +6,6 @@ course: astronomy
 prerequisites:
 - id: stellar-nucleosynthesis
   type: hard
-- id: general-relativity-intro
-  type: soft
 - id: angular-momentum
   type: soft
 - id: special-relativity-postulates

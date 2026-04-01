@@ -4,17 +4,11 @@ title: Gravity Potential Theory and Earth's Gravitational Field
 domain: earth-and-space-sciences
 course: geophysics
 prerequisites:
-- id: classical-mechanics
-  type: hard
 - id: earth-interior-structure
   type: soft
-- id: potential-theory-and-methods
-  type: hard
 - id: laplaces-equation
   type: soft
 - id: applications-integrals-area-mass
-  type: soft
-- id: partial-differential-equations-intro
   type: soft
 - id: electric-potential
   type: soft

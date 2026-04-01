@@ -6,8 +6,6 @@ course: research-methods-social-science
 prerequisites:
 - id: research-design-advanced
   type: hard
-- id: probability-and-statistics
-  type: hard
 - id: expected-value-and-variance
   type: soft
 - id: confidence-intervals-framework

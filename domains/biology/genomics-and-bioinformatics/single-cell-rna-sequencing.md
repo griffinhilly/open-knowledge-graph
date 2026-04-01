@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: differential-gene-expression
   type: hard
-- id: data-structures-and-algorithms-basics
-  type: soft
 builds-toward:
 - spatial-transcriptomics
 - multi-omics-integration

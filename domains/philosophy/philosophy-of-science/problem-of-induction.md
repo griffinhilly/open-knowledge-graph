@@ -1,6 +1,6 @@
 ---
 id: problem-of-induction
-title: The Problem of Induction
+title: "The Problem of Induction"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

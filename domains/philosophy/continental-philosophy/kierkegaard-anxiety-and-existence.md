@@ -1,6 +1,6 @@
 ---
 id: kierkegaard-anxiety-and-existence
-title: Kierkegaard — Anxiety and Existence
+title: "Kierkegaard — Anxiety and Existence"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

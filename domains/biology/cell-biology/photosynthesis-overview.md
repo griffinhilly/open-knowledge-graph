@@ -47,7 +47,7 @@ Create a two-column summary: light reactions inputs/outputs vs. Calvin cycle inp
   answer: 2
   explanation: "The light reactions produce ATP, NADPH, and O₂. The Calvin cycle consumes ATP and NADPH to fix CO₂ into organic molecules. Glucose is the end product of the Calvin cycle, not an input. O₂ is released as a byproduct of water splitting, not passed to the Calvin cycle."
 
-- question: "The Calvin cycle (light-independent reactions) primarily occurs at night when light is absent."
+- question: "The Calvin cycle (light-independent reactions) only occurs at night when light is absent."
   type: true-false
   answer: false
   explanation: "The Calvin cycle is called 'light-independent' because it does not directly use light, not because it requires darkness. In practice, it runs simultaneously with the light reactions during the day, fueled by the ATP and NADPH the light reactions continuously produce. At night, when light reactions stop producing these inputs, the Calvin cycle also slows or stops."

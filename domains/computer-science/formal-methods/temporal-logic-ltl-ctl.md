@@ -6,7 +6,7 @@ course: formal-methods
 prerequisites:
 - id: model-checking-intro
   type: hard
-- id: propositional-logic
+- id: propositional-logic-introduction
   type: hard
 - id: kripke-structures
   type: soft

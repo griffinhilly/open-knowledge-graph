@@ -50,7 +50,7 @@ Near a critical point, physical quantities diverge as power laws: correlation le
   answer: true
   explanation: "As T → T_c, ξ → ∞, meaning correlated regions grow without bound. The system simultaneously has fluctuations at microscopic scales, mesoscopic scales, and macroscopic scales — no single characteristic length dominates. This scale invariance means the system looks the same when viewed at any magnification, which is why critical systems exhibit self-similar (fractal) structure and why renormalization group methods that exploit scale transformations are the natural mathematical tool."
 
-- question: "Critical exponents like β, γ, and α are mathematically independent of each other and can rarely be related through thermodynamic identities."
+- question: "Critical exponents like β, γ, and α are mathematically independent of each other and cannot be related through thermodynamic identities."
   type: true-false
   answer: false
   explanation: "Critical exponents satisfy scaling relations derived from thermodynamic consistency and homogeneity assumptions. The Rushbrooke identity α + 2β + γ = 2 is one example. These relations reduce the number of independent exponents — for a standard phase transition, only two exponents are truly free; the others follow from the scaling relations. This is powerful because it means measuring two exponents accurately constrains all the others."

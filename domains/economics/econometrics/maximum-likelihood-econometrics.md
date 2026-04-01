@@ -20,11 +20,11 @@ prerequisites:
   type: soft
 - id: constrained-optimization
   type: soft
-- id: probability-theory
+- id: probability-axioms
   type: hard
 - id: optimization-multivariable-basics
   type: soft
-- id: calculus
+- id: fundamental-theorem-of-calculus-part-1
   type: hard
 builds-toward:
 - logit-probit-models

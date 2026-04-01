@@ -4,12 +4,6 @@ title: 'Anemia: Classification and Pathophysiology'
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: red-blood-cell-structure-and-function
-  type: hard
-- id: iron-metabolism-and-storage
-  type: hard
-- id: vitamin-b12-and-folate-metabolism
-  type: soft
 - id: cardiogenic-pulmonary-edema-pathophysiology
   type: soft
 builds-toward:

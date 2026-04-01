@@ -6,7 +6,7 @@ course: structural-biology
 prerequisites:
 - id: molecular-dynamics-simulations
   type: soft
-- id: protein-folding-and-stability
+- id: protein-folding-and-chaperones
   type: hard
 builds-toward:
 - structure-based-drug-design

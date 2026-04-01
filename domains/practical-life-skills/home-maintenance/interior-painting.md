@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: power-tool-safety
   type: soft
-- id: measurement-with-standard-units-length
+- id: measuring-with-standard-units-length
   type: soft
 - id: measurement-length-standard-units-3rd
   type: soft

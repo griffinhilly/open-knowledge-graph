@@ -1,6 +1,6 @@
 ---
 id: heidegger-being-and-time
-title: Heidegger — Being and Time, Dasein
+title: "Heidegger — Being and Time, Dasein"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

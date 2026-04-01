@@ -1,6 +1,6 @@
 ---
 id: confirmation-theory-science
-title: Confirmation and Evidence
+title: "Confirmation and Evidence"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

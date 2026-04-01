@@ -1,6 +1,6 @@
 ---
 id: unification-model-explanation
-title: The Unificationist Model of Explanation
+title: "The Unificationist Model of Explanation"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

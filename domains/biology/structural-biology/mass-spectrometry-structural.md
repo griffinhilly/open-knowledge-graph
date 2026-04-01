@@ -4,7 +4,7 @@ title: Mass Spectrometry Structural
 domain: biology
 course: structural-biology
 prerequisites:
-- id: protein-folding-and-stability
+- id: protein-folding-and-chaperones
   type: hard
 - id: amino-acid-structure-and-properties
   type: soft

@@ -6,7 +6,7 @@ course: geology
 prerequisites:
 - id: metamorphic-rocks
   type: hard
-- id: plate-boundary-convergent
+- id: plate-boundary-forces
   type: soft
 - id: thermal-contact-metamorphism
   type: soft

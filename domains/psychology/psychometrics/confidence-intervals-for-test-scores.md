@@ -6,8 +6,6 @@ course: psychometrics
 prerequisites:
 - id: standard-error-of-measurement
   type: hard
-- id: probability-and-statistics
-  type: hard
 tags:
 - confidence-intervals
 - score-uncertainty

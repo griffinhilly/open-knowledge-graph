@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: oxidative-phosphorylation-and-chemiosmosis
   type: soft
-- id: pyruvate-metabolism-overview
-  type: soft
 - id: lactate-metabolism
   type: soft
 tags:

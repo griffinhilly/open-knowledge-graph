@@ -1,6 +1,6 @@
 ---
 id: ricoeur-narrative-identity
-title: Ricoeur — Narrative Identity
+title: "Ricoeur — Narrative Identity"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

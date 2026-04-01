@@ -4,8 +4,6 @@ title: Bayesian Methods in Social Science
 domain: social-sciences
 course: research-methods-social-science
 prerequisites:
-- id: probability-and-statistics
-  type: hard
 - id: research-design-advanced
   type: soft
 - id: bayes-theorem

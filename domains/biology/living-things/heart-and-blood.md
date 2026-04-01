@@ -41,7 +41,7 @@ Feel your heartbeat by placing your hand on your chest. Find your pulse on your 
   answer: 1
   explanation: "When you run, your muscles work hard and need more oxygen and energy. Your heart beats faster to pump blood more quickly to your muscles, delivering the extra oxygen they need. When you rest, your muscles need less, so your heart slows down."
 
-- question: "Your heart primarily works when you are awake."
+- question: "Your heart only works when you are awake."
   type: true-false
   answer: false
   explanation: "Your heart beats every moment of your life — awake or asleep. If your heart stopped pumping, blood would stop flowing and your body parts would not get the oxygen and nutrients they need. Your heart never takes a break."

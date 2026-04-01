@@ -4,7 +4,7 @@ title: 3-SAT and NP-Completeness via CNF
 domain: formal-sciences-and-logic
 course: computability-and-complexity
 prerequisites:
-- id: sat-boolean-satisfiability
+- id: sat-boolean-satisfiability-computability-and-complexity
   type: hard
 - id: cook-levin-theorem-formal
   type: hard

@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: probability-rules-for-events
   type: soft
-- id: stochastic-processes
+- id: stationary-processes
   type: soft
 builds-toward:
   - population-genetic-structure-metapopulations

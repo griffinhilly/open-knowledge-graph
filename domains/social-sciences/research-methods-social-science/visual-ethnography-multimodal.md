@@ -6,8 +6,6 @@ course: research-methods-social-science
 prerequisites:
 - id: ethnography-advanced-methods
   type: hard
-- id: visual-ethnography-theory
-  type: soft
 - id: digital-ethnography-virtual
   type: soft
 - id: ethnographic-collaboration

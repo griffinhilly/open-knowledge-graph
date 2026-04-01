@@ -4,9 +4,9 @@ title: Program Synthesis
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: propositional-logic
+- id: propositional-logic-introduction
   type: hard
-- id: type-systems-type-checking
+- id: type-systems-overview
   type: soft
 - id: model-checking-intro
   type: soft

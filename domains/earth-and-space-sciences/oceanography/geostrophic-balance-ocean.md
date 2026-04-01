@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: coriolis-effect
   type: hard
-- id: pressure-gradient-force
-  type: soft
 - id: deep-ocean-abyssal-currents
   type: soft
 builds-toward:

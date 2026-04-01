@@ -6,9 +6,9 @@ course: pathophysiology
 prerequisites:
 - id: hemostasis-pathophysiology
   type: hard
-- id: complement-cascade-and-pathways
+- id: complement-activation-pathways
   type: soft
-- id: coagulation-cascade-and-pathways
+- id: hemostasis-coagulation-cascade
   type: hard
 builds-toward:
 - disseminated-intravascular-coagulation

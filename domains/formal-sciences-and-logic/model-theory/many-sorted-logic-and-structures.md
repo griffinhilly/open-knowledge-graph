@@ -53,7 +53,7 @@ Formalize Euclidean geometry in many-sorted logic with sorts for points and line
   answer: true
   explanation: "Yes — the reduction is constructive and straightforward. Add one unary predicate per sort (Sort_P, Sort_L, etc.) to the single-sorted vocabulary, translate sorted quantifiers using guards (→ for ∀, ∧ for ∃), and add axioms asserting that every element belongs to exactly one sort. This translation preserves all logical consequences. Many-sorted logic and single-sorted logic are equi-expressive; many-sorted logic is strictly a notational layer, not a logical extension."
 
-- question: "Many-sorted logic is strictly more expressive than single-sorted first-order logic because it can enforce type constraints that single-sorted logic can rarely express."
+- question: "Many-sorted logic is strictly more expressive than single-sorted first-order logic because it can enforce type constraints that single-sorted logic cannot express."
   type: true-false
   answer: false
   explanation: "This is the central misconception about many-sorted logic. Single-sorted logic can express the same type constraints by adding sort predicates and guarded quantifiers. The reduction is lossless: no many-sorted formula has consequences that escape translation into single-sorted logic. The advantage of many-sorted logic is pragmatic — it is more convenient and less error-prone to write and read — but it is not logically stronger. This is why it is called a 'definitional extension' or 'notational convenience' rather than an extension of logic."

@@ -49,7 +49,7 @@ Modal expressions are analyzed using possible-worlds semantics: 'necessarily P' 
   answer: false
   explanation: "The first 'must' is epistemic — it expresses what is necessary given what the speaker knows (evidential commitment). The second is deontic — it expresses an obligation imposed by law or rule. In possible-worlds semantics, these differ in what the accessibility relation represents: epistemic necessity ranges over worlds compatible with the speaker's knowledge; deontic necessity ranges over worlds compatible with relevant norms. The same word can express different modal flavors depending on the contextual parameters."
 
-- question: "In standard possible-worlds semantics, 'possibly P' is true at a world w if and primarily if P holds in nearly every world accessible from w."
+- question: "In standard possible-worlds semantics, 'possibly P' is true at a world w if and only if P holds in nearly every world accessible from w."
   type: true-false
   answer: false
   explanation: "This is the definition of necessity (□P), not possibility (◇P). Possibility (◇P) is true at w if P holds in AT LEAST ONE world accessible from w. The two operators are duals: □P = ¬◇¬P, and ◇P = ¬□¬P. Confusing these is a fundamental error — necessity requires universal truth across all accessible worlds, while possibility only requires existence of one accessible world where the proposition holds."

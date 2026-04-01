@@ -4,11 +4,11 @@ title: Multiple Testing Corrections
 domain: health-and-human-development
 course: biostatistics
 prerequisites:
-- id: hypothesis-testing-intro
+- id: hypothesis-testing-fundamentals
   type: hard
 - id: power-and-sample-size
   type: soft
-- id: probability-theory
+- id: probability-axioms
   type: soft
 builds-toward:
 - meta-analysis-biostatistics

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vocabulary-building
   type: soft
+- id: predicting-and-inferring
+  type: soft
 builds-toward: []
 tags:
 - vocabulary
@@ -17,7 +19,6 @@ tags:
 stage: concrete-operations
 status: validated
 ---
-
 # Vocabulary from Context
 
 ## Core Idea

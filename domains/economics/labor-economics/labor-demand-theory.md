@@ -6,8 +6,6 @@ course: labor-economics
 prerequisites:
 - id: labor-supply-theory
   type: soft
-- id: production-theory
-  type: hard
 tags:
 - labor-demand
 - marginal-product

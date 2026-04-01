@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: coriolis-effect
   type: soft
-- id: hydrostatic-equilibrium
-  type: hard
-- id: pressure-and-forces
+- id: pressure-and-forces-in-fluids
   type: hard
 builds-toward:
 - vertical-motion-and-omega

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: joint-and-conditional-entropy
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 tags:
 - entropy rate

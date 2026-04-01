@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: acute-inflammation-pathophysiology
   type: hard
-- id: alveolar-capillary-barrier
-  type: soft
 builds-toward:
 - sepsis-and-sirs-pathophysiology
 tags:

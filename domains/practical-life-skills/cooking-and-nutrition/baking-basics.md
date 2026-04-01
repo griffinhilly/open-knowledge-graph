@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: adding-fractions-unlike-denominators
   type: soft
-- id: measurement-with-standard-units-length
+- id: measuring-with-standard-units-length
   type: hard
 - id: ratios
   type: soft

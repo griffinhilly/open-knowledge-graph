@@ -20,7 +20,7 @@ prerequisites:
   type: soft
 - id: chi-square-test
   type: soft
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 - id: hypothesis-test-framework
   type: hard

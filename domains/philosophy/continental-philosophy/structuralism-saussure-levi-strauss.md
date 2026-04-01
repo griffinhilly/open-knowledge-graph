@@ -1,6 +1,6 @@
 ---
 id: structuralism-saussure-levi-strauss
-title: Structuralism (Saussure, Levi-Strauss)
+title: "Structuralism (Saussure, Levi-Strauss)"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

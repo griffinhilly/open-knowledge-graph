@@ -1,6 +1,6 @@
 ---
 id: derrida-deconstruction
-title: Derrida — Deconstruction and Differance
+title: "Derrida — Deconstruction and Differance"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

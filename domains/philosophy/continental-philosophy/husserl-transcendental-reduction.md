@@ -1,6 +1,6 @@
 ---
 id: husserl-transcendental-reduction
-title: Husserl — Transcendental Reduction and Lifeworld
+title: "Husserl — Transcendental Reduction and Lifeworld"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

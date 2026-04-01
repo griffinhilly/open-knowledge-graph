@@ -10,7 +10,7 @@ prerequisites:
     type: hard
   - id: stokes-theorem-on-manifolds
     type: hard
-  - id: connectedness
+  - id: connectedness-definition-examples
     type: soft
 tags:
   - de-rham-cohomology

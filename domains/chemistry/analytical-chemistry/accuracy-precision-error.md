@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: standard-normal-z-scores-theory
   type: soft
-- id: standard-deviation
+- id: variance-standard-deviation
   type: soft
 - id: variance-of-random-variables
   type: soft

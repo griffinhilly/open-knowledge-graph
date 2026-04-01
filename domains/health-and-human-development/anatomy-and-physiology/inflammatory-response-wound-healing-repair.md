@@ -8,15 +8,13 @@ prerequisites:
   type: hard
 - id: body-organization-and-terminology
   type: hard
-- id: inflammation-innate-response
-  type: soft
 - id: inflammatory-response-cellular
   type: soft
 - id: apoptosis-cell-death
   type: soft
 - id: inflammation-and-wound-healing
   type: soft
-- id: complement-cascade-and-pathways
+- id: complement-activation-pathways
   type: soft
 - id: antibody-structure-and-function
   type: soft

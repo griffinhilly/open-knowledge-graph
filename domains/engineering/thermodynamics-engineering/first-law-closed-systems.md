@@ -6,7 +6,7 @@ course: thermodynamics-engineering
 prerequisites:
 - id: first-law-of-thermodynamics
   type: hard
-- id: energy-conservation-mechanical-systems
+- id: conservation-of-energy-mechanical-systems
   type: soft
 - id: energy-conservation-applications
   type: hard

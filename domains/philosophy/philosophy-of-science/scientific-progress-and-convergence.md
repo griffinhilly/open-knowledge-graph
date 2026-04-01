@@ -1,6 +1,6 @@
 ---
 id: scientific-progress-and-convergence
-title: Scientific Progress and Convergence to Truth
+title: "Scientific Progress and Convergence to Truth"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

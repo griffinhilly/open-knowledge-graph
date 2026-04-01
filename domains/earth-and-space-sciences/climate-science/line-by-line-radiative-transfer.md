@@ -10,9 +10,7 @@ prerequisites:
   type: soft
 - id: atmosphere-composition-and-structure
   type: soft
-- id: calculus
-  type: soft
-- id: absorption-and-emission-spectroscopy
+- id: fundamental-theorem-of-calculus-part-1
   type: soft
 - id: greenhouse-gas-absorption-emission
   type: soft

@@ -12,7 +12,7 @@ prerequisites:
     type: hard
 tags:
   - tangent-vectors
-  - tangent-spaces
+  - tangent-vectors-and-tangent-spaces
   - derivations
   - directional-derivatives
 stage: advanced

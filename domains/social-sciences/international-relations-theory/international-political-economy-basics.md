@@ -6,8 +6,6 @@ course: international-relations-theory
 prerequisites:
 - id: international-relations-overview
   type: hard
-- id: macroeconomics
-  type: hard
 builds-toward:
 - economic-interdependence-peace
 tags:

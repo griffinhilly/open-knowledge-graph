@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: chronic-inflammation
   type: hard
-- id: elastic-recoil-and-compliance
-  type: soft
 builds-toward:
 - pulmonary-hypertension-pathophysiology
 - cor-pulmonale

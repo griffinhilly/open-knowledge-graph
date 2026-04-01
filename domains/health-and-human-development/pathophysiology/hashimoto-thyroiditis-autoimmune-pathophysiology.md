@@ -6,7 +6,7 @@ course: pathophysiology
 prerequisites:
 - id: thyroid-disorders-pathophysiology
   type: hard
-- id: autoimmune-disease-mechanisms
+- id: autoimmunity-mechanisms
   type: hard
 - id: graves-disease-thyroid-pathophysiology
   type: soft

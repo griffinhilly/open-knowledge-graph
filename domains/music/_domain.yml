@@ -21,3 +21,6 @@ courses:
 - id: advanced-music-theory
   title: Advanced Music Theory
   stage: expert
+- id: music-technology
+  title: Music Technology
+  stage: advanced

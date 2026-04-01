@@ -1,6 +1,6 @@
 ---
 id: nietzsche-will-to-power
-title: Nietzsche — Will to Power and Eternal Recurrence
+title: "Nietzsche — Will to Power and Eternal Recurrence"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

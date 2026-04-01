@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: long-term-potentiation
   type: soft
-- id: protein-synthesis
+- id: ribosomes-and-protein-synthesis-intro
   type: soft
 - id: episodic-semantic-memory-systems
   type: soft
@@ -37,7 +37,7 @@ During sleep, the hippocampus replays memories while firing in temporal patterns
   answer: 1
   explanation: "The temporal gradient — where old memories are spared but recent ones are impaired after hippocampal damage — is the central evidence for systems consolidation. Over years, hippocampal replay during sleep strengthens direct cortico-cortical connections until the memory no longer requires hippocampal involvement. New memories haven't yet undergone this transfer, making them vulnerable to hippocampal damage."
 
-- question: "Sleep deprivation after learning impairs memory consolidation because the hippocampal replay that drives systems consolidation primarily occurs during sleep."
+- question: "Sleep deprivation after learning impairs memory consolidation because the hippocampal replay that drives systems consolidation only occurs during sleep."
   type: true-false
   answer: true
   explanation: "Hippocampal sharp-wave ripples — the bursts of activity during which hippocampal cells replay learning-related sequences — occur predominantly during NREM slow-wave sleep. These ripples are coordinated with cortical slow oscillations and sleep spindles, which together create a window for strengthening cortico-cortical connections. Without sleep, this replay is absent, and the consolidation that would make memories more stable and cortex-independent cannot occur."

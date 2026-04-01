@@ -4,13 +4,11 @@ title: Bayesian Methods in Psychometric Modeling
 domain: psychology
 course: psychometrics
 prerequisites:
-- id: probability-and-statistics
-  type: hard
 - id: item-response-functions
   type: hard
 - id: bayes-theorem
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 - id: bayesian-inference-foundations
   type: hard

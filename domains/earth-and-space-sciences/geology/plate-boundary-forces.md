@@ -6,7 +6,7 @@ course: geology
 prerequisites:
 - id: stress-strain-rock-deformation
   type: hard
-- id: plate-boundaries-convergent
+- id: plate-boundaries-intro
   type: soft
 builds-toward:
 - seismic-hazard-assessment

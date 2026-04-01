@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: expected-value
   type: soft
-- id: utility-maximization
+- id: consumer-theory-utility
   type: soft
 tags:
 - Kahneman

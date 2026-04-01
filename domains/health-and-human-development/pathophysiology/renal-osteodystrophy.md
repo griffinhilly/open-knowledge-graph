@@ -6,9 +6,7 @@ course: pathophysiology
 prerequisites:
 - id: chronic-kidney-disease-progression
   type: hard
-- id: calcium-phosphate-homeostasis
-  type: hard
-- id: parathyroid-hormone-function
+- id: parathyroid-hormone-calcium-regulation
   type: soft
 tags:
 - renal-osteodystrophy

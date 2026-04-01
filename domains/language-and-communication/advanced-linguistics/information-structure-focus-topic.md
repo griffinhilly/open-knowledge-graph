@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: formal-pragmatics-context
   type: hard
+- id: discourse-coherence-relations
+  type: soft
 tags:
 - pragmatics
 - information-structure
@@ -15,7 +17,6 @@ tags:
 stage: advanced
 status: validated
 ---
-
 # Information Structure: Focus and Topic
 
 ## Core Idea

@@ -8,9 +8,9 @@ prerequisites:
   type: hard
 - id: gravity-potential-theory-earths-field
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: soft
-- id: calculus
+- id: fundamental-theorem-of-calculus-part-1
   type: soft
 - id: pratt-isostasy-model
   type: soft

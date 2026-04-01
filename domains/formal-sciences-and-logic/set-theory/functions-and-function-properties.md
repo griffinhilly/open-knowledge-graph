@@ -38,7 +38,7 @@ A function f: A → B is a relation where each a ∈ A pairs with exactly one b 
   answer: 1
   explanation: "A function requires each element of the domain to map to exactly one element of the codomain. In option B, element 1 is paired with both a and b — violating the 'exactly one' requirement. Options A, C, and D each assign every element of A to a single element of B, so all three are valid functions (even though C and D are not injective)."
 
-- question: "Two functions f and g from A to B are the same function if and primarily if they have the same domain A and the same codomain B."
+- question: "Two functions f and g from A to B are the same function if and only if they have the same domain A and the same codomain B."
   type: true-false
   answer: false
   explanation: "Domain and codomain only specify the type signature — f: A → B and g: A → B. Two functions with the same domain and codomain can differ in which element of B each a ∈ A maps to. Functions are equal only if f(a) = g(a) for every a ∈ A, meaning their underlying subsets of A × B are identical."

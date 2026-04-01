@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: morpheme-types
   type: hard
+- id: grammatical-number-systems
+  type: soft
 tags:
 - morphology
 - inflection
@@ -16,7 +18,6 @@ tags:
 stage: formal-systems
 status: validated
 ---
-
 # Suppletion (Irregular Forms)
 
 ## Core Idea

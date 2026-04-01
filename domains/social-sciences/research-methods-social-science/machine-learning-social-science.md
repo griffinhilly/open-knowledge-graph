@@ -6,8 +6,6 @@ course: research-methods-social-science
 prerequisites:
 - id: computational-social-science-intro
   type: hard
-- id: probability-and-statistics
-  type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
 - id: optimization-multivariable-basics
@@ -19,8 +17,6 @@ prerequisites:
 - id: algorithm-complexity
   type: soft
 - id: eigenvalues-and-eigenvectors
-  type: soft
-- id: linear-algebra-basics
   type: soft
 - id: big-data-social-science
   type: soft

@@ -12,7 +12,7 @@ prerequisites:
   type: hard
 - id: chi-square-test
   type: soft
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 builds-toward:
 - computerized-adaptive-testing

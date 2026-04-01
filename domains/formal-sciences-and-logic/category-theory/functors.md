@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: functions-and-function-properties
   type: soft
-- id: function-composition
+- id: function-composition-and-inverses
   type: hard
 - id: functions-and-mappings-formal
   type: soft

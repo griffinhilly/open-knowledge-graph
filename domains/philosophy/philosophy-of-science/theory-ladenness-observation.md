@@ -1,6 +1,6 @@
 ---
 id: theory-ladenness-observation
-title: Theory-Ladenness of Observation
+title: "Theory-Ladenness of Observation"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

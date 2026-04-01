@@ -8,12 +8,9 @@ prerequisites:
     type: hard
   - id: tangent-vectors-and-tangent-spaces
     type: hard
-  - id: implicit-function-theorem
-    type: hard
-  - id: jacobian-matrix
+  - id: jacobian-change-of-variables
     type: hard
 tags:
-  - implicit-function-theorem
   - regular-values
   - submersions
   - preimage-theorem

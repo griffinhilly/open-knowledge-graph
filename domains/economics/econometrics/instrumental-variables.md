@@ -10,9 +10,9 @@ prerequisites:
   type: soft
 - id: selection-bias-econometrics
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: hard
-- id: probability-theory
+- id: probability-axioms
   type: hard
 - id: matrix-operations
   type: soft

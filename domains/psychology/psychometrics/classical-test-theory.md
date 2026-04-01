@@ -4,9 +4,7 @@ title: Classical Test Theory Foundations
 domain: psychology
 course: psychometrics
 prerequisites:
-- id: research-methods-psychology
-  type: hard
-- id: probability-and-statistics
+- id: scientific-method-psychology
   type: hard
 - id: normal-distribution
   type: soft

@@ -6,7 +6,7 @@ course: pathophysiology
 prerequisites:
 - id: hypersensitivity-reactions-types
   type: hard
-- id: complement-cascade-and-pathways
+- id: complement-activation-pathways
   type: hard
 builds-toward:
 - lupus-nephritis-pathophysiology

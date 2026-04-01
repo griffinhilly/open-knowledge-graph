@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: shape-attributes-2d
   type: soft
-- id: right-angles-in-shapes-3rd
-  type: soft
 builds-toward:
 - classifying-quadrilaterals
 tags:

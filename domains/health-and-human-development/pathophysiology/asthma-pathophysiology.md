@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: type-i-hypersensitivity-allergic-reactions
   type: hard
-- id: airway-smooth-muscle-contraction
-  type: soft
 builds-toward:
 - asthma-exacerbations
 - occupational-asthma

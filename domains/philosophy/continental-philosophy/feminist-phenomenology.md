@@ -1,6 +1,6 @@
 ---
 id: feminist-phenomenology
-title: Feminist Phenomenology
+title: "Feminist Phenomenology"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

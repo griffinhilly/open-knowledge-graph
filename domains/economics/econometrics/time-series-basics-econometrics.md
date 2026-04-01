@@ -12,9 +12,9 @@ prerequisites:
   type: soft
 - id: sequences-and-series-review
   type: soft
-- id: probability-theory
+- id: probability-axioms
   type: hard
-- id: sequences-and-series
+- id: arithmetic-sequences-and-series
   type: soft
 builds-toward:
 - stationarity-and-unit-roots

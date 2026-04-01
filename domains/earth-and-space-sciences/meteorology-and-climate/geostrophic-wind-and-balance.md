@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: newtons-second-law
   type: soft
-- id: pressure-gradient-force
-  type: soft
 builds-toward:
   - thermal-wind-balance
   - upper-level-divergence-and-pressure

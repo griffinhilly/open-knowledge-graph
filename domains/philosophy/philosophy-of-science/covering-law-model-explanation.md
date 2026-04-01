@@ -1,6 +1,6 @@
 ---
 id: covering-law-model-explanation
-title: The Covering Law Model
+title: "The Covering Law Model"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

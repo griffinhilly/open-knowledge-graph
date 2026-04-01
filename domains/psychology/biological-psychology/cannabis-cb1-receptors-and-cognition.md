@@ -4,8 +4,6 @@ title: Cannabis, CB1 Receptors, and Cognitive Effects
 domain: psychology
 course: biological-psychology
 prerequisites:
-- id: endocannabinoid-signaling-and-modulation
-  type: hard
 - id: memory-encoding-depth
   type: soft
 builds-toward:

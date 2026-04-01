@@ -4,8 +4,6 @@ title: Energy Expenditure and Metabolic Rate
 domain: biology
 course: physiology
 prerequisites:
-- id: basal-metabolic-rate-thyroid
-  type: soft
 - id: thyroid-hormone-thermoregulation
   type: hard
 - id: insulin-glucagon-glucose-homeostasis

@@ -6,7 +6,7 @@ course: advanced-music-theory
 prerequisites:
 - id: metric-hierarchy
   type: hard
-- id: fractions
+- id: intro-to-fractions
   type: soft
 - id: ratios
   type: soft
@@ -49,7 +49,7 @@ Additive meter combines beats of different lengths in a single measure (e.g., 3+
   answer: 2
   explanation: "The top-down / bottom-up distinction captures the essential difference. Divisive meter takes a beat as given and subdivides it — 6/8 = two dotted-quarter beats, each dividing into three eighth notes. Additive meter takes the smallest unit (often an eighth note) as given and adds unequal groups to fill the measure — 3+2+3 eighth notes. The result is that additive meter lacks the regular subdivision hierarchy of divisive meter, producing a pulse that is almost regular but asymmetrically energized."
 
-- question: "A time signature of 7/8 generally implies additive meter, since 7 is an odd number that can rarely be divided into equal beats."
+- question: "A time signature of 7/8 generally implies additive meter, since 7 is an odd number that cannot be divided into equal beats."
   type: true-false
   answer: false
   explanation: "The time signature alone does not determine whether a meter is additive. 7/8 can be performed divisively (as 7 equal eighth notes without internal grouping emphasis) or additively, but the specific additive grouping — 3+4, 4+3, 2+2+3, or others — is determined by beaming and accent patterns in the score, not by the time signature number. The key indicator of additive meter is the asymmetric grouping of the smallest unit, which must be read from the notation or heard from the performer's phrasing, not inferred from the denominator of the time signature."

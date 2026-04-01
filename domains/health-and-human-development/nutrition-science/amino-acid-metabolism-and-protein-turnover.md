@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: protein-synthesis-amino-acid-requirements
   type: soft
-- id: protein-synthesis
+- id: ribosomes-and-protein-synthesis-intro
   type: hard
 - id: amino-acid-classification-and-properties
   type: hard

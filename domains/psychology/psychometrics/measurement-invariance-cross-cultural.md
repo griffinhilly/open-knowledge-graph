@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: consequential-validity-and-fairness
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: soft
 - id: factor-analysis-measurement
   type: soft

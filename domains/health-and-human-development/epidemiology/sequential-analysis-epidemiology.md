@@ -4,7 +4,7 @@ title: Sequential Analysis and Early Stopping
 domain: health-and-human-development
 course: epidemiology
 prerequisites:
-- id: type-i-type-ii-errors
+- id: type-i-and-type-ii-errors
   type: soft
 - id: hypothesis-test-framework
   type: soft

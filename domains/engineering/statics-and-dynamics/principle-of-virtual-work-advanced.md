@@ -4,7 +4,7 @@ title: Principle of Virtual Work and Generalized Forces
 domain: engineering
 course: statics-and-dynamics
 prerequisites:
-- id: principle-of-virtual-work-method
+- id: virtual-work-method
   type: hard
 - id: generalized-coordinates
   type: hard

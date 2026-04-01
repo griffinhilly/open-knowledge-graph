@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: population-growth-models
   type: hard
-- id: probability-distributions-theory
+- id: probability-density-functions
   type: hard
 builds-toward:
 - extinction-vortex-populations

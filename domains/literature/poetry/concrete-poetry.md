@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: imagery-in-poetry
   type: soft
-- id: prose-poetry-hybrid-form-hybrid-form
+- id: prose-poetry-hybrid-form
   type: soft
 tags:
 - visual

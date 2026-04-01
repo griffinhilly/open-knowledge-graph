@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: extended-chords-upper-extensions-voicing
   type: soft
-- id: chromatic-harmony
-  type: soft
 - id: extended-harmonic-techniques
   type: soft
 - id: borrowed-chord-composition

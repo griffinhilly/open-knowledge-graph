@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: ion-channels-and-neural-excitability
   type: hard
-- id: protein-synthesis
+- id: ribosomes-and-protein-synthesis-intro
   type: hard
 - id: synaptic-transmission
   type: hard

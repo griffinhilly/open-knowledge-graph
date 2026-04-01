@@ -6,7 +6,7 @@ course: financial-economics
 prerequisites:
 - id: market-microstructure-fundamentals
   type: hard
-- id: information-asymmetry-markets
+- id: information-asymmetry
   type: soft
 builds-toward:
 - price-discovery-and-efficiency

@@ -4,9 +4,9 @@ title: Bounded Rationality
 domain: economics
 course: behavioral-economics
 prerequisites:
-- id: consumer-theory
+- id: consumer-theory-utility
   type: soft
-- id: utility-maximization
+- id: consumer-theory-utility
   type: soft
 tags:
 - Simon

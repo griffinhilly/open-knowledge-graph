@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: beers-law
   type: soft
-- id: spectroscopy-fundamentals
-  type: hard
 - id: spectroscopic-instrumentation
   type: soft
 - id: ultraviolet-visible-spectroscopy-quantitative

@@ -6,10 +6,6 @@ course: psychometrics
 prerequisites:
 - id: classical-test-theory
   type: hard
-- id: probability-and-statistics
-  type: hard
-- id: logistic-function
-  type: soft
 builds-toward:
 - rasch-model
 - two-parameter-logistic-model

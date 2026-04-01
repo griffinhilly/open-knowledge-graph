@@ -54,7 +54,7 @@ Start with concrete examples: a string of one million zeros has very low Kolmogo
   answer: true
   explanation: "Computing K(x) requires finding the shortest program that outputs x. To do this, you must enumerate all programs shorter than |x|, run them, and check which ones halt and output x. Deciding whether an arbitrary program halts is the halting problem — which is undecidable. Therefore, no algorithm can compute K(x) for all x. Any claimed algorithm for K would provide a subroutine to decide halting, contradicting its undecidability."
 
-- question: "The Kolmogorov complexity of a string depends on which universal Turing machine you use as the reference, so it can rarely be an objective property of the string."
+- question: "The Kolmogorov complexity of a string depends on which universal Turing machine you use as the reference, so it cannot be an objective property of the string."
   type: true-false
   answer: false
   explanation: "The invariance theorem shows that for any two universal Turing machines U and V, |K_U(x) − K_V(x)| ≤ c_UV, where c_UV is a constant depending only on the two machines, not on x. For long strings, this additive constant is negligible. Kolmogorov complexity is therefore machine-independent up to a fixed offset — an objective property of the string in the asymptotic sense, analogous to how the choice of programming language doesn't affect the fundamental limits of what can be computed."

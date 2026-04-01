@@ -1,18 +1,19 @@
 # Open Knowledge Graph Memory
 
-## Status (Mar 31, 2026)
-- **14,042 topics** across **19 domains**, **229 courses**
+## Status (Apr 1, 2026)
+- **14,362 topics** across **19 domains**, **235 courses** (6 new from P2)
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **Radial graph shows 18 domains** (practical-life-skills excluded — kept on index/domain maps)
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
-- Phase 9C DONE. P0 + P1 expansion DONE.
+- Phase 9C DONE. P0 + P1 expansion DONE. Phase 10 IN PROGRESS.
 - **Domain maps are primary navigation** — hierarchy views removed from CI and all links
 - **CI pipeline**: validate → index → radial → topic pages → domain maps → assessment → quiz
-- **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking (~7s). Setup: `git config core.hooksPath hooks`
-- **55 new gap-identified topics added Mar 31** — NOT yet quality-reviewed (spot-check needed)
-- **482 dangling prereqs remaining** (269 unique IDs). 13 high-confidence fixes applied Mar 31 via `map_dangling_prereqs.py` (threshold 0.93; 0.85 produces false positives on generic terms like "calculus", "spin")
-- **_domain.yml reconciled** — 79 course stages fixed via modal-stage logic (`reconcile_domain_stages.py`). May need refresh after Mar 31 topic additions.
-- **pH/buffer cycle resolved** — removed backwards soft prereq from ph-and-acid-base-calculations → buffer-chemistry-le-chatelier-application (exposed by dangling prereq fix)
+- **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking + quiz staleness warning (~7s). Setup: `git config core.hooksPath hooks`
+- **0 dangling prereqs** (pre-P2) — all 482 resolved Apr 1 via `fix_dangling_prereqs.py`. P2 additions may have introduced new dangling refs.
+- **240 T/F questions fixed** — 181 `can rarely→cannot`, 21 `if and primarily if→if and only if`, 35 garbled idioms, 3 `Primarily→Only`.
+- **P2 generation complete** — +271 topics, 6 new courses, 15 courses extended. Haiku agents generated, needs quality review.
+- **Phase 10 (Question Quality Audit) DONE** — 10A/B/C/D/E all completed or resolved as non-issues.
+- **_domain.yml reconciled** — 79 course stages fixed via modal-stage logic. May need refresh for new P2 courses.
 
 ## 6-Stage Schema (Mar 22, 2026)
 - **Added "expert" stage** for graduate/research content (2,662 topics)

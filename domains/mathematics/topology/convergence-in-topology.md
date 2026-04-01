@@ -49,7 +49,7 @@ A sequence (xₙ) converges to x if every neighborhood of x contains all but fin
   answer: true
   explanation: "In a Hausdorff space, any two distinct points x and y have disjoint open neighborhoods U and V. If a sequence converged to both x and y, then U would need to contain all but finitely many terms AND V would also need to contain all but finitely many terms. But U and V are disjoint — no term can be in both — so this is impossible. The Hausdorff property is precisely what gives the topology enough 'separation' to force limits to be unique. Without it (as in the indiscrete topology), distinct points share all the same neighborhoods and can both be limits of any sequence."
 
-- question: "In a general topological space, a point x is in the closure of a set A if and primarily if some sequence of points from A converges to x."
+- question: "In a general topological space, a point x is in the closure of a set A if and only if some sequence of points from A converges to x."
   type: true-false
   answer: false
   explanation: "This characterization holds in metric spaces and more generally in first-countable spaces, but fails in general topology. A point x can be a limit point of A — every open neighborhood of x meets A — without any sequence from A converging to x. This happens precisely in spaces that are not first-countable, where the natural numbers are not rich enough to index the neighborhoods around x. The correct generalization requires nets: x is in the closure of A if and only if some net from A converges to x. This is a core reason why nets, not sequences, are the fundamental notion of convergence in general topology."

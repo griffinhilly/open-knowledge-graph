@@ -52,7 +52,7 @@ Vitamin K functions as a cofactor for gamma-carboxylase, an enzyme that carboxyl
   answer: true
   explanation: "This is correct and represents an important function of vitamin K beyond coagulation. MGP, found in vascular smooth muscle and cartilage, requires gamma-carboxylation to bind and sequester calcium, thereby inhibiting its deposition in vessel walls. When vitamin K status is insufficient, MGP circulates in its undercarboxylated (inactive) form, losing this inhibitory function. This explains the association between low vitamin K status and arterial stiffness — a connection that would not be expected if vitamin K's role were limited to blood clotting."
 
-- question: "Clotting factors II, VII, IX, and X can rarely be produced (synthesized) in the absence of vitamin K, which is why vitamin K deficiency causes bleeding."
+- question: "Clotting factors II, VII, IX, and X cannot be produced (synthesized) in the absence of vitamin K, which is why vitamin K deficiency causes bleeding."
   type: true-false
   answer: false
   explanation: "This is a fundamental misconception. The clotting factors are *synthesized* normally — genes are transcribed, mRNA is translated, and the protein backbone is assembled — regardless of vitamin K status. What vitamin K enables is the *post-translational modification* of those proteins: gamma-carboxylation of specific glutamic acid residues. Without this modification, the proteins are secreted as PIVKA — present in the circulation but functionally inactive because they cannot coordinate calcium ions or bind phospholipid membranes. The problem is not production failure; it is activation failure."

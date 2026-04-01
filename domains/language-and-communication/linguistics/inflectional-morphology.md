@@ -56,7 +56,7 @@ Build complete inflectional paradigms for verbs and nouns in a language you are 
   answer: 0
   explanation: "'Runs' and 'ran' are both verbs meaning essentially the same thing — only the tense (grammatical information) differs. That is inflection: a change in form without a change in lexical category or core meaning. The other options all show derivation: adding -er or -ness changes the word's category (verb → noun, adjective → noun) or creates a new lexical entry with a distinct meaning."
 
-- question: "Languages like Mandarin, which have very little inflectional morphology, can rarely express grammatical relationships like tense or number."
+- question: "Languages like Mandarin, which have very little inflectional morphology, cannot express grammatical relationships like tense or number."
   type: true-false
   answer: false
   explanation: "The absence of inflectional morphology does not mean the absence of grammatical expression. Mandarin conveys temporal information through adverbs (yesterday, tomorrow, already) and aspect markers; number through context or optional quantifiers. These languages are not simpler or less expressive — they use different strategies (word order, particles, context) to encode the same grammatical relationships that inflecting languages mark on word forms."

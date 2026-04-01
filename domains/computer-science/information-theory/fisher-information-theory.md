@@ -6,7 +6,7 @@ course: information-theory
 prerequisites:
 - id: differential-entropy
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 - id: kl-divergence
   type: soft

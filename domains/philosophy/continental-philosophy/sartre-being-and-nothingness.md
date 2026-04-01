@@ -1,6 +1,6 @@
 ---
 id: sartre-being-and-nothingness
-title: Sartre — Being and Nothingness, Bad Faith
+title: "Sartre — Being and Nothingness, Bad Faith"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

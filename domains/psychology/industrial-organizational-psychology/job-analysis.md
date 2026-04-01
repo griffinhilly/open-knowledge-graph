@@ -4,9 +4,9 @@ title: Job Analysis
 domain: psychology
 course: industrial-organizational-psychology
 prerequisites:
-- id: research-methods-psychology-intro
+- id: scientific-method-psychology
   type: soft
-- id: measurement-in-psychology
+- id: measurement-scales-psychology
   type: soft
 tags:
 - job-analysis

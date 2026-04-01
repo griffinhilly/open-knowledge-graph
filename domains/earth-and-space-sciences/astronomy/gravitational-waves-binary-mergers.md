@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: black-hole-formation-and-mechanics
   type: soft
-- id: general-relativity-intro
-  type: soft
 - id: wave-properties-intro
   type: soft
 - id: special-relativity-postulates

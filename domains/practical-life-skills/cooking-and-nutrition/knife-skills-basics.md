@@ -59,7 +59,7 @@ Start with soft vegetables like zucchini or mushrooms before hard ones like carr
   answer: true
   explanation: "Smaller pieces cook faster than larger ones. If you have a mix of large and small pieces in the same pan, by the time the large pieces are cooked through, the small pieces will be overdone, and vice versa. Consistent sizing ensures everything in the pan finishes cooking at the same time — this is one of the key reasons professional cooks invest in precise cuts."
 
-- question: "A dull knife is safer to use than a sharp one because it can rarely cut as deeply if it slips."
+- question: "A dull knife is safer to use than a sharp one because it cannot cut as deeply if it slips."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about knife safety, and it is dangerously wrong. A dull knife requires significantly more downward force to cut. That extra force means the knife is much more likely to slip sideways off the food and into your fingers. A sharp knife glides through food with minimal pressure, giving you control. Professional cooks use sharp knives precisely because they are safer and more predictable."

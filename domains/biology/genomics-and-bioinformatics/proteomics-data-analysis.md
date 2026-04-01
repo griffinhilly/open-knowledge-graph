@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: protein-structure-prediction-basics
   type: soft
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 builds-toward:
 - multi-omics-integration

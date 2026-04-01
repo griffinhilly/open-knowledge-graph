@@ -4,11 +4,7 @@ title: Minimalism and Phase-Based Compositional Structures
 domain: music
 course: advanced-music-theory
 prerequisites:
-- id: minimalism-iteration-structures
-  type: soft
 - id: metric-modulation-theory
-  type: soft
-- id: periodic-functions
   type: soft
 builds-toward:
 - stochastic-composition

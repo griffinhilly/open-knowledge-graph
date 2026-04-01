@@ -1,6 +1,6 @@
 ---
 id: popper-falsificationism
-title: Popper's Falsificationism
+title: "Popper's Falsificationism"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

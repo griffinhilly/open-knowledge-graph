@@ -4,7 +4,7 @@ title: Latin Squares and Orthogonal Structures
 domain: mathematics
 course: graph-theory-and-combinatorics
 prerequisites:
-- id: permutations-and-combinations
+- id: permutations-and-arrangements
   type: soft
 - id: catalan-numbers
   type: soft

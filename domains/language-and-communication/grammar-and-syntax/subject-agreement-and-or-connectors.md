@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: subject-verb-agreement
   type: soft
+- id: subject-verb-agreement-complex
+  type: soft
 builds-toward:
 - subject-verb-agreement-complex
 tags:

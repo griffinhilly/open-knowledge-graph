@@ -6,8 +6,6 @@ course: immunology
 prerequisites:
 - id: immunoglobulin-structure-and-domains
   type: hard
-- id: dna-recombination
-  type: hard
 builds-toward:
 - affinity-maturation-somatic-hypermutation
 tags:

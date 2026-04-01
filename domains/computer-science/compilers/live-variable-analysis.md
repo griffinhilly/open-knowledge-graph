@@ -45,7 +45,7 @@ Live variable analysis determines which variables may be used in the future from
   answer: 2
   explanation: "Liveness is inherently future-oriented: 'will this value be used before it's overwritten?' To answer this at any point, you need liveness information from the points that follow. The definition propagates backward: a use of x at a statement makes x live at that statement and at all preceding points until x is redefined. Forward analysis propagates information from definitions toward uses; backward analysis propagates from uses toward definitions."
 
-- question: "Two variables that are assigned values at different points in a program can rarely interfere with each other in register allocation, since they are live at different times."
+- question: "Two variables that are assigned values at different points in a program cannot interfere with each other in register allocation, since they are live at different times."
   type: true-false
   answer: false
   explanation: "Interference depends on simultaneous liveness, not on where assignments occur. If both variables are live at the same program point — meaning both values might be needed at that moment — they interfere and cannot share a register. Variables assigned at different places can easily be simultaneously live if their live ranges overlap. Liveness analysis specifically computes this overlap to build the interference graph."

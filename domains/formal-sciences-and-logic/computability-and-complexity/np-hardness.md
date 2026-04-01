@@ -56,7 +56,7 @@ Study the definition formally: a problem is NP-hard iff all NP problems reduce t
   answer: true
   explanation: "This follows directly from the definition of NP-completeness. An NP-complete problem H has the property that every NP problem reduces to H in polynomial time. If H ∈ P (polynomial-time solvable), then for any NP problem L: reduce L to H in polynomial time, solve H in polynomial time, answer for L. The composition of two polynomial-time processes is polynomial-time. So L ∈ P as well — and since L was arbitrary, all of NP collapses into P. This is why finding a polynomial algorithm for SAT, TSP, or any NP-complete problem would be one of the most significant results in the history of mathematics."
 
-- question: "A problem is NP-hard if and primarily if it is a member of the class NP, making NP-hardness equivalent to NP-membership."
+- question: "A problem is NP-hard if and only if it is a member of the class NP, making NP-hardness equivalent to NP-membership."
   type: true-false
   answer: false
   explanation: "NP-hardness and NP-membership are independent properties. NP-hardness means every NP problem reduces to the problem in polynomial time — it is a statement about the problem's difficulty relative to NP. NP-membership means a proposed solution can be verified in polynomial time — it is a statement about the problem's computational structure. A problem can be NP-hard without being in NP (e.g., the halting problem, EXPTIME-complete problems). It can be in NP without being NP-hard (e.g., any problem in P is in NP, but P problems are not NP-hard unless P = NP). NP-completeness is the conjunction of both."

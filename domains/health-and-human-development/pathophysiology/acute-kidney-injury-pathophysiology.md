@@ -6,10 +6,8 @@ course: pathophysiology
 prerequisites:
 - id: renal-physiology-and-fluid-balance
   type: hard
-- id: glomerular-filtration-rate
+- id: glomerular-filtration-rate-autoregulation
   type: hard
-- id: tubular-function-and-reabsorption
-  type: soft
 builds-toward:
 - chronic-kidney-disease-progression
 - acute-tubular-necrosis

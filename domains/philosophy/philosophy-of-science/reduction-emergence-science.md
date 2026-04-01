@@ -1,6 +1,6 @@
 ---
 id: reduction-emergence-science
-title: Reduction and Emergence
+title: "Reduction and Emergence"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

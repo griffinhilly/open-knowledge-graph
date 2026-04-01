@@ -6,7 +6,7 @@ course: representation-theory
 prerequisites:
 - id: group-representations
   type: hard
-- id: rings-and-ideals
+- id: subrings-and-ideals
   type: soft
 builds-toward:
 - semisimplicity-and-wedderburn

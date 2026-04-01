@@ -6,7 +6,7 @@ course: formal-methods
 prerequisites:
 - id: boolean-satisfiability-and-reductions
   type: hard
-- id: propositional-logic
+- id: propositional-logic-introduction
   type: hard
 builds-toward: []
 tags:

@@ -60,7 +60,7 @@ Work through concrete scenarios: 'Would you rather have $1,000 today or $1,200 i
   answer: 1
   explanation: "$20 million paid over 25 years has a present value far below $20 million, because each future payment must be discounted back to today. At typical discount rates, the present value of that stream of payments is roughly $12 million. This is discounting in action: a dollar promised in year 25 is worth much less than a dollar today because the dollar today could be invested and compounding for 25 years. The lump-sum option gives you the present value directly."
 
-- question: "The time value of money primarily applies when inflation is present — in a zero-inflation environment, $1 today and $1 in the future are equally valuable."
+- question: "The time value of money only applies when inflation is present — in a zero-inflation environment, $1 today and $1 in the future are equally valuable."
   type: true-false
   answer: false
   explanation: "The time value of money exists independently of inflation. Even in a zero-inflation world, a dollar today is worth more than a dollar in the future because you can invest it and earn a return. The opportunity cost of waiting — the returns foregone while holding a future claim — is what drives the time value of money. Inflation amplifies this effect but is not its cause. Even a guaranteed 0% inflation economy would still have positive real interest rates as long as there are productive investments."

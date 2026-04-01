@@ -6,7 +6,7 @@ course: immunology
 prerequisites:
 - id: major-histocompatibility-complex
   type: hard
-- id: regulatory-t-cells-immune-tolerance-immune-tolerance
+- id: regulatory-t-cells-immune-tolerance
   type: hard
 - id: cd8-cytotoxic-t-cells
   type: soft

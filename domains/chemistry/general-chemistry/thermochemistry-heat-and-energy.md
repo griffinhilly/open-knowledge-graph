@@ -6,7 +6,7 @@ course: general-chemistry
 prerequisites:
 - id: states-of-matter-phase-changes
   type: soft
-- id: energy-conservation
+- id: energy-conservation-applications
   type: soft
 - id: endothermic-and-exothermic-reactions
   type: soft

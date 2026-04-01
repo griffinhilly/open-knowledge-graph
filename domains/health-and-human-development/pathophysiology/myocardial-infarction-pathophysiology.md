@@ -6,7 +6,7 @@ course: pathophysiology
 prerequisites:
 - id: atherosclerosis-pathophysiology
   type: hard
-- id: coronary-circulation-anatomy
+- id: coronary-circulation-physiology
   type: hard
 - id: necrosis-vs-apoptosis
   type: soft

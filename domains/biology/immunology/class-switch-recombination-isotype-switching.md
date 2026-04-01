@@ -6,8 +6,6 @@ course: immunology
 prerequisites:
 - id: b-cell-activation-germinal-center
   type: hard
-- id: dna-recombination
-  type: soft
 builds-toward:
 - antibody-isotypes-and-effector-functions
 tags:

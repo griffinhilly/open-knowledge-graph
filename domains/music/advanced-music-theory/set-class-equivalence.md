@@ -60,7 +60,7 @@ Memorize the most common set classes (trichords through hexachords) and their pr
   answer: true
   explanation: "Set class equivalence groups together all transpositions and inversions of a set — which can span the entire chromatic universe of pitches. The set {0,4,7} (C major triad) and {5,9,0} (F major triad) sound different but share the same prime form [0,3,7] (as a major triad, related by inversion to the minor triad form... actually [0,3,7] is minor, [0,4,7] is major). The key point is that 'same set class' means same abstract intervallic type, not same sounding pitches. This is the analytical power and the limitation of set-class analysis: it reveals structural unity while abstracting away from surface sonic identity."
 
-- question: "There is primarily one normal form for any given pitch-class set, and it directly determines the prime form."
+- question: "There is only one normal form for any given pitch-class set, and it directly determines the prime form."
   type: true-false
   answer: false
   explanation: "A set has exactly one normal form (the most compact left-packed ordering), but its inversion also has a normal form — and these two normal forms may differ. To find the prime form, one must compare the normal form of the original set with the normal form of its inversion, then choose the one that is most compact from the left. If the set is its own inversion (a set of inversional symmetry), the two normal forms may coincide; otherwise they differ, and choosing incorrectly would produce the wrong prime form. This is a common source of error when applying the algorithm."

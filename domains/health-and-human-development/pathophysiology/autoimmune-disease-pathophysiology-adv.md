@@ -4,12 +4,10 @@ title: Autoimmune Disease Pathophysiology (Advanced)
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: autoimmune-disease-mechanisms
+- id: autoimmunity-mechanisms
   type: hard
 - id: regulatory-t-cells-immune-tolerance
   type: hard
-- id: loss-of-central-tolerance
-  type: soft
 - id: immune-tolerance-central-and-peripheral
   type: soft
 builds-toward:

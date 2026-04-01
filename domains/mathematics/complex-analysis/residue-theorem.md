@@ -58,7 +58,7 @@ Forgetting the factor 2πi; it comes from the integral formula for a simple pole
   answer: true
   explanation: "This is Cauchy's theorem, the foundation from which the Residue Theorem generalizes. If f is holomorphic (analytic) everywhere inside and on γ, there are no singularities to contribute residues, and the sum Σ Res = 0, giving ∮_γ f dz = 2πi · 0 = 0. The Residue Theorem extends this: isolated singularities are the sole sources of nonzero contour integrals."
 
-- question: "The Residue Theorem applies primarily to functions with simple poles; it can rarely be used for functions with poles of order 2 or higher."
+- question: "The Residue Theorem applies primarily to functions with simple poles; it cannot be used for functions with poles of order 2 or higher."
   type: true-false
   answer: false
   explanation: "The Residue Theorem applies to any isolated singularity, including poles of any order and essential singularities. The residue is defined as the coefficient a₋₁ of the 1/(z−z₀) term in the Laurent series, regardless of pole order. For a pole of order m at z₀, the residue is computed via lim_{z→z₀} (1/(m−1)!) d^{m-1}/dz^{m-1} [(z−z₀)^m f(z)]. The theorem remains ∮_γ f dz = 2πi Σ Res(f, zₖ) in all cases."

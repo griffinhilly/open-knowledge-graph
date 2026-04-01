@@ -52,7 +52,7 @@ Study the undecidability of Peano arithmetic and first-order theory of groups. U
   answer: true
   explanation: "This is correct. Gödel's theorems require that the system be able to encode basic arithmetic (Peano arithmetic or Robinson arithmetic Q is enough). The first-order theory of real closed fields (Tarski's result) is complete and decidable, so incompleteness theorems do not apply to it. The key is expressiveness: real closed fields cannot define the natural numbers within them, so they escape the encoding that drives Gödel's proof. Incompleteness is not a universal fate of all formal systems — only those expressive enough to do arithmetic."
 
-- question: "A theory is undecidable if and primarily if it contains sentences that are true but unprovable from its axioms."
+- question: "A theory is undecidable if and only if it contains sentences that are true but unprovable from its axioms."
   type: true-false
   answer: false
   explanation: "Undecidability and incompleteness are related but distinct. Undecidability means no algorithm can determine, for every sentence σ, whether T ⊢ σ. Incompleteness means there exist sentences that are true (in the standard/intended model) but unprovable. A theory can be undecidable without having a clear 'standard model' against which truth is measured, and incompleteness describes a gap between provability and truth, not between provability and algorithmic decidability. Gödel's incompleteness theorems do help explain why PA is undecidable, but the concepts themselves are distinct."

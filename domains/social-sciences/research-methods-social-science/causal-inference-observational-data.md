@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: conditional-probability
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 - id: conditional-probability
   type: soft

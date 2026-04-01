@@ -22,8 +22,6 @@ prerequisites:
   type: soft
 - id: photon-concept-quanta
   type: soft
-- id: quantum-transitions
-  type: soft
 tags:
 - UV-Vis
 - Franck-Condon

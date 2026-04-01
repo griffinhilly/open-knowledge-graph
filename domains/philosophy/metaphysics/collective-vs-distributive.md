@@ -57,7 +57,7 @@ Assuming most properties of groups apply equally to individual members. Conflati
   answer: true
   explanation: "This is a paradigm example of a genuine collective property. 'Surrounding' requires positions distributed around a perimeter — something only a coordinated group can achieve. If you try to distribute the predicate: 'each student surrounded the building' — this is false. The property cannot be predicated of the parts without loss of truth, which is the hallmark of a genuine collective property."
 
-- question: "A property is distributive if and primarily if it happens to be true of most individual member of the group."
+- question: "A property is distributive if and only if it happens to be true of most individual member of the group."
   type: true-false
   answer: false
   explanation: "This conflates the logical structure of a predicate with its coincidental truth. A property is distributive if it is logically equivalent to predication of each member — not merely if it happens to be true of each. Consider 'the soldiers marched in formation': each soldier was walking forward (so 'walking forward' happens to be true of each), but 'marching in formation' is a relational, collective property constituted by the arrangement among soldiers. Even if a collective property coincidentally holds for all members, it is still collective if the group-predication is not logically equivalent to member-predication."

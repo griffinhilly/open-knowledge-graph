@@ -16,7 +16,7 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
-- id: calculus
+- id: fundamental-theorem-of-calculus-part-1
   type: hard
 builds-toward:
 - endogenous-growth-theory

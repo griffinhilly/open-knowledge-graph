@@ -44,7 +44,7 @@ A set F in a topological space is closed if its complement X \ F is open. Closed
   answer: 1
   explanation: "Open sets: arbitrary unions are open, but only *finite* intersections are guaranteed open (an infinite intersection of open sets can fail to be open — e.g., ⋂ₙ (−1/n, 1/n) = {0}, which is closed). Closed sets are exactly dual: arbitrary intersections of closed sets are closed, but only *finite* unions are guaranteed closed. This asymmetry between 'arbitrary' and 'finite' is fundamental in topology and is proved via De Morgan's laws applied to the open-set axioms."
 
-- question: "In a topological space, a set can rarely be both open and closed simultaneously."
+- question: "In a topological space, a set cannot be both open and closed simultaneously."
   type: true-false
   answer: false
   explanation: "This is false. Sets that are both open and closed are called 'clopen.' In any topological space, the empty set ∅ and the whole space X are always clopen — they satisfy the open-set axioms directly. In some spaces (like a two-component disconnected space), other clopen sets exist. 'Closed' is not the negation of 'open'; a set can be open, closed, both, or neither."

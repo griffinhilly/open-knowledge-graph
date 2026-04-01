@@ -6,13 +6,7 @@ course: astronomy
 prerequisites:
 - id: dark-matter-and-dark-energy
   type: soft
-- id: calculus
-  type: soft
-- id: differential-geometry
-  type: soft
-- id: light-bending-gravitational-fields
-  type: soft
-- id: light-deflection
+- id: fundamental-theorem-of-calculus-part-1
   type: soft
 - id: special-relativity-postulates
   type: soft

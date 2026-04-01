@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: soft
-- id: pragmatics
+- id: pragmatics-and-argumentation
   type: soft
 - id: formal-pragmatics-context
   type: soft

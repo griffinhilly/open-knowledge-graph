@@ -47,7 +47,7 @@ Parameterized complexity treats problem instances as pairs (x, k) where k is a p
   answer: 1
   explanation: "W[1]-hardness is the parameterized analog of NP-hardness. Under the standard assumption FPT ≠ W[1], no algorithm of the form f(k)·poly(n) exists. The problem is decidable (it has algorithms), but fixing k does not make it tractable — the exponent on n also grows with k. This separates problems like Vertex Cover (FPT) from k-Clique (W[1]-complete), where no FPT algorithm is believed to exist even though the problem itself is solvable."
 
-- question: "A problem that is NP-hard can rarely be FPT, because an FPT algorithm would imply P = NP."
+- question: "A problem that is NP-hard cannot be FPT, because an FPT algorithm would imply P = NP."
   type: true-false
   answer: false
   explanation: "This is a common and important misconception. FPT means f(k)·poly(n), where f(k) can be exponential or worse. This is not a polynomial-time algorithm in the classical sense, which requires poly(n + k) without any separate parameter-dependent factor. P=NP would require polynomial time for all instances; an FPT algorithm is only efficient when k is small. Vertex Cover is both NP-hard and FPT — it has an O(2^k · n) algorithm. There is no contradiction."

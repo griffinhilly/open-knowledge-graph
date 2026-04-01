@@ -45,7 +45,7 @@ Trace a filtrate molecule through each nephron segment, noting what is added or 
   answer: 1
   explanation: "About 99% of the glomerular filtrate is reabsorbed back into the peritubular capillaries as it passes through the proximal convoluted tubule, loop of Henle, distal convoluted tubule, and collecting duct. This massive reabsorption — driven by active transport and osmosis — recovers glucose, amino acids, ions, and water, leaving behind only waste products and excess ions for excretion."
 
-- question: "Glucose is normally detectable in urine because the kidneys can rarely reabsorb most of the glucose that is filtered from the blood."
+- question: "Glucose is normally detectable in urine because the kidneys cannot reabsorb most of the glucose that is filtered from the blood."
   type: true-false
   answer: false
   explanation: "In a healthy individual, all filtered glucose is completely reabsorbed in the proximal convoluted tubule via sodium-glucose cotransporters (SGLT). Glucosuria (glucose in urine) only occurs when blood glucose exceeds the renal threshold (~180 mg/dL), saturating the transporters' capacity — a clinical sign of uncontrolled diabetes mellitus."

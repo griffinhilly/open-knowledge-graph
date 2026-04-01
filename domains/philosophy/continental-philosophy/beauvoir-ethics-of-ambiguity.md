@@ -1,6 +1,6 @@
 ---
 id: beauvoir-ethics-of-ambiguity
-title: Beauvoir — Ethics of Ambiguity and The Second Sex
+title: "Beauvoir — Ethics of Ambiguity and The Second Sex"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

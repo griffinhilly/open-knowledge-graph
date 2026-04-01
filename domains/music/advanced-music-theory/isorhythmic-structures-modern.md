@@ -8,9 +8,7 @@ prerequisites:
   type: soft
 - id: roman-numeral-analysis
   type: soft
-- id: lcm-gcd
-  type: soft
-- id: periodicity
+- id: divisibility-and-gcd
   type: soft
 builds-toward:
 - recursive-structures-music

@@ -1,6 +1,6 @@
 ---
 id: heidegger-technology-and-later-thought
-title: Heidegger — Technology and Later Philosophy
+title: "Heidegger — Technology and Later Philosophy"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

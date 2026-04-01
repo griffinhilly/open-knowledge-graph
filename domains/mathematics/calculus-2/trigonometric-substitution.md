@@ -62,7 +62,7 @@ Memorize the three cases and which substitution matches each radical form. Pract
   answer: true
   explanation: "Substituting x = a sin θ gives a² − x² = a² − a²sin²θ = a²(1 − sin²θ) = a²cos²θ. So √(a² − x²) = a|cos θ|, eliminating the square root entirely. This is exactly why trigonometric substitution works: each radical form corresponds to one Pythagorean identity that collapses the square root into a trig function. The entire technique is built on this identity-matching."
 
-- question: "If the expression under the radical is not already in the form a² ± x² or x² − a², trigonometric substitution can rarely be applied."
+- question: "If the expression under the radical is not already in the form a² ± x² or x² − a², trigonometric substitution cannot be applied."
   type: true-false
   answer: false
   explanation: "When the quadratic under the radical is not in standard form, you complete the square first to put it into one of the three standard forms. For example, √(2x − x²) = √(1 − (x−1)²) after completing the square — now it fits the form √(a² − u²) with a = 1 and u = x − 1, and you substitute u = sin θ. Completing the square is a preparatory step, not a separate technique; trig substitution then proceeds normally."

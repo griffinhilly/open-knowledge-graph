@@ -6,7 +6,7 @@ course: structural-biology
 prerequisites:
 - id: electromagnetic-waves
   type: soft
-- id: fourier-series-intro
+- id: fourier-series-definition
   type: soft
 builds-toward:
 - x-ray-crystallography

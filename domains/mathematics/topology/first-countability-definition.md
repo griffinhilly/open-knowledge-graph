@@ -49,7 +49,7 @@ A space is first-countable if every point has a countable neighborhood base. Met
   answer: true
   explanation: "In any metric space, if U is any open set containing x, then by definition of openness there exists some ε > 0 with B(x, ε) ⊆ U. Choose n large enough that 1/n < ε; then B(x, 1/n) ⊆ U. So the collection {B(x, 1/n) : n ∈ ℕ} is a countable neighborhood base at x — every neighborhood of x contains some member of this collection. This confirms that all metric spaces satisfy first-countability, which is why metric-space intuition about sequences carries over to first-countable spaces generally."
 
-- question: "In any topological space, a point p is in the closure of a set A if and primarily if p is the limit of a sequence of points in A."
+- question: "In any topological space, a point p is in the closure of a set A if and only if p is the limit of a sequence of points in A."
   type: true-false
   answer: false
   explanation: "This characterization of closure via sequences holds in first-countable spaces but fails in general topological spaces. In a space that is not first-countable, a point can be in the closure of A without being the limit of any sequence from A — you need nets or filters to detect closure correctly. For example, in the uncountable product ℝᴵ, sequences are insufficient and nets are required. First-countability is exactly the condition that restores this sequential characterization of closure."

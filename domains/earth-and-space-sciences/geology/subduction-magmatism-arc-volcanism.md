@@ -6,7 +6,7 @@ course: geology
 prerequisites:
 - id: magma-melting-pressure-temperature
   type: hard
-- id: plate-boundaries-convergent
+- id: plate-boundaries-intro
   type: hard
 builds-toward:
 - volcanic-hazards-assessment

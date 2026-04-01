@@ -43,7 +43,7 @@ Begin by reading Aristotle's Metaphysics Book IV or a contemporary introduction 
   answer: 1
   explanation: "Whether abstract objects exist is a question about the fundamental structure of reality that no experiment can directly settle — it concerns the category of existence itself. The other three questions are straightforwardly empirical: they can be answered by measurement or observation."
 
-- question: "Metaphysics is essentially speculation without rigorous method — it can rarely produce genuine knowledge because its questions are unanswerable."
+- question: "Metaphysics is essentially speculation without rigorous method — it cannot produce genuine knowledge because its questions are unanswerable."
   type: true-false
   answer: false
   explanation: "Metaphysics uses conceptual analysis, thought experiments, and inference to the best explanation — methods as rigorous as those in any humanistic discipline. While metaphysical claims are not settled by single experiments, many have downstream testable commitments, and arguments can be evaluated for validity and soundness."

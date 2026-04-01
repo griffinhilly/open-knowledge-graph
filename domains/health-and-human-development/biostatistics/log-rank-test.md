@@ -6,7 +6,7 @@ course: biostatistics
 prerequisites:
 - id: survival-analysis-kaplan-meier
   type: hard
-- id: hypothesis-testing-intro
+- id: hypothesis-testing-fundamentals
   type: hard
 builds-toward:
 - cox-proportional-hazards-detailed

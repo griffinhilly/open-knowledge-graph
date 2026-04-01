@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: atp-energy-currency-synthesis
   type: soft
-- id: reactive-oxygen-metabolism
+- id: peroxisomes-and-reactive-oxygen-metabolism
   type: soft
 builds-toward:
 - myocardial-infarction-pathophysiology

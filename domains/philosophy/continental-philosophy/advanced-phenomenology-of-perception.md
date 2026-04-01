@@ -1,6 +1,6 @@
 ---
 id: advanced-phenomenology-of-perception
-title: Phenomenology of Perception (Advanced)
+title: "Phenomenology of Perception (Advanced)"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

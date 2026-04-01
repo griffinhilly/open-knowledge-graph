@@ -1,6 +1,6 @@
 ---
 id: levinas-ethics-as-first-philosophy
-title: Levinas — Ethics as First Philosophy
+title: "Levinas — Ethics as First Philosophy"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

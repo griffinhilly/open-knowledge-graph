@@ -6,9 +6,9 @@ course: differential-geometry
 prerequisites:
   - id: smooth-manifolds
     type: hard
-  - id: compactness
+  - id: compactness-hausdorff-spaces
     type: soft
-  - id: metric-spaces-introduction
+  - id: metric-spaces-definition
     type: soft
 tags:
   - partition-of-unity

@@ -6,7 +6,7 @@ course: topology
 prerequisites:
 - id: set-theory-basics
   type: hard
-- id: open-and-closed-sets-real-line
+- id: open-closed-sets-real-line
   type: hard
 builds-toward:
 - open-sets-in-topological-spaces

@@ -47,7 +47,7 @@ Political decisions affecting all must be justifiable in terms all reasonable ci
   answer: 1
   explanation: "Rawls's wide view allows citizens to bring comprehensive doctrines — including religious reasons — into public political discussion, subject to the proviso: they should be willing, in due course, to offer public reasons sufficient to support the same political conclusion. The senator satisfies this by also articulating the equal-liberty justification. The wide view does not require a purely secular public square; it requires that coercive political decisions ultimately be supportable on terms all reasonable citizens could accept."
 
-- question: "Under Rawls's public reason framework, citizens who vote based on religious conviction are acting improperly if they can rarely articulate a non-religious justification for their vote."
+- question: "Under Rawls's public reason framework, citizens who vote based on religious conviction are acting improperly if they cannot articulate a non-religious justification for their vote."
   type: true-false
   answer: false
   explanation: "This overstates the requirement. Rawls's wide view allows citizens to act on comprehensive convictions, including religious ones, provided they are in principle willing to offer public reasons when the occasion demands. The ideal of public reason is a duty of civic respect — when advocating for coercive laws affecting all, citizens should be prepared to justify their positions in terms others could reasonably accept — not a qualification gate that disqualifies religious voters from participating in democratic life."

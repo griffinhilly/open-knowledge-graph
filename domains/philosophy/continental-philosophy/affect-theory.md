@@ -1,6 +1,6 @@
 ---
 id: affect-theory
-title: Affect Theory
+title: "Affect Theory"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

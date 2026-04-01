@@ -65,7 +65,7 @@ Work through the tableau construction carefully: understand how an NTM's accepti
   answer: true
   explanation: "This is precisely what NP-completeness means. Every NP problem reduces to SAT in polynomial time (Cook-Levin gives the reduction for an arbitrary NTM; subsequent reductions from SAT to other NP-complete problems complete the chain). A polynomial-time SAT solver, combined with these polynomial-time reductions, would give polynomial-time algorithms for all of NP — resolving P=NP in the affirmative."
 
-- question: "The Cook-Levin theorem proves that SAT can rarely be solved in polynomial time."
+- question: "The Cook-Levin theorem proves that SAT cannot be solved in polynomial time."
   type: true-false
   answer: false
   explanation: "Cook-Levin proves SAT is NP-complete: SAT is in NP, and every NP problem reduces to SAT. It says nothing about whether polynomial-time algorithms for SAT (and hence all of NP) exist. Whether P=NP — whether NP problems genuinely require superpolynomial time — is the most famous open problem in computer science. Cook-Levin identifies SAT as the pivotal problem; it does not answer the question."

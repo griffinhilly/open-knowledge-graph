@@ -4,7 +4,7 @@ title: Statistical Power and Sample Size Determination
 domain: health-and-human-development
 course: biostatistics
 prerequisites:
-- id: hypothesis-testing-intro
+- id: hypothesis-testing-fundamentals
   type: hard
 - id: study-design-biostatistics
   type: hard

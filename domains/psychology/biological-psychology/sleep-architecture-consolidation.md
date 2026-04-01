@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: memory-consolidation-systems
   type: soft
-- id: memory-consolidation
+- id: memory-consolidation-systems
   type: hard
 builds-toward:
 - learning-and-experience-dependent-plasticity

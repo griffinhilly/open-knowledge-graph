@@ -4,10 +4,6 @@ title: 'Drug-Induced Liver Injury: Hepatocellular vs. Cholestatic Patterns and M
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: hepatocellular-injury-mechanisms
-  type: hard
-- id: cytochrome-p450-metabolism
-  type: soft
 - id: hemostasis-pathophysiology
   type: soft
 builds-toward:

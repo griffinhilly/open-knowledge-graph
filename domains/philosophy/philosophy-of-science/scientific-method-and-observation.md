@@ -1,6 +1,6 @@
 ---
 id: scientific-method-and-observation
-title: The Scientific Method and Observation
+title: "The Scientific Method and Observation"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

@@ -59,7 +59,7 @@ Design a simple grid system for a specific context (business cards, a website, a
   answer: true
   explanation: "Meaning comes from contrast with an established pattern. A misalignment on a grid-less layout looks like an error; the same misalignment on a carefully maintained grid reads as a bold, intentional statement. The grid enables expressive exceptions — you cannot meaningfully break something that doesn't exist. This is the deepest point about systems thinking: the constraint creates the possibility for intentional violation."
 
-- question: "Grid systems are a print design technique and can rarely be meaningfully applied to digital or web design contexts."
+- question: "Grid systems are a print design technique and cannot be meaningfully applied to digital or web design contexts."
   type: true-false
   answer: false
   explanation: "Grid systems are foundational to web and digital design. Bootstrap's 12-column grid, Material Design's 8-point grid, and CSS Grid all apply the same underlying philosophy: establishing spatial intervals and proportional relationships that create visual coherence across screens and components. The grid is a universal design language, not a print-specific tool."

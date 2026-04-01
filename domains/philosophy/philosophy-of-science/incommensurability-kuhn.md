@@ -1,6 +1,6 @@
 ---
 id: incommensurability-kuhn
-title: Incommensurability of Paradigms
+title: "Incommensurability of Paradigms"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:
@@ -48,7 +48,7 @@ Kuhn argued that successive paradigms are partly incommensurable: they cannot be
   answer: 2
   explanation: "Kuhn argues that paradigm choice can be partly driven by non-empirical scientific values — simplicity, coherence, fruitfulness — when predictive accuracy is similar or even initially worse. This is not irrational; it is rational judgment that cannot be reduced to an algorithm. Option D misrepresents Kuhn — he explicitly rejected the relativist conclusion. The historical case shows that 'most empirically accurate' is not the only or always the decisive criterion for paradigm choice."
 
-- question: "Incommensurability means that successive paradigms share no values and can rarely be compared in any meaningful way."
+- question: "Incommensurability means that successive paradigms share no values and cannot be compared in any meaningful way."
   type: true-false
   answer: false
   explanation: "This is an overstatement that Kuhn explicitly resisted. Incommensurability means paradigms cannot be evaluated by a single neutral algorithm — not that they cannot be compared at all. Kuhn affirmed that scientists across paradigm shifts share certain values: accuracy, consistency, scope, simplicity, fruitfulness. What differs is how these values are weighted and what counts as satisfying them. 'No common measure' is not the same as 'no comparison possible.'"

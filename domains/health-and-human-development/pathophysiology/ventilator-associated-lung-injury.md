@@ -6,8 +6,6 @@ course: pathophysiology
 prerequisites:
 - id: ards-pathophysiology
   type: soft
-- id: mechanical-ventilation
-  type: soft
 tags:
 - ventilator
 - barotrauma

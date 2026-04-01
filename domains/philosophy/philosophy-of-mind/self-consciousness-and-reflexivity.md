@@ -4,8 +4,6 @@ title: Self-Consciousness and Self-Awareness
 domain: philosophy
 course: philosophy-of-mind
 prerequisites:
-- id: introspection-and-phenomenal-knowledge
-  type: hard
 - id: phenomenal-vs-access-consciousness
   type: hard
 - id: higher-order-theories

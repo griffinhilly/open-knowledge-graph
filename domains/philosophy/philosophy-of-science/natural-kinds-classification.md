@@ -1,6 +1,6 @@
 ---
 id: natural-kinds-classification
-title: Natural Kinds and Scientific Classification
+title: "Natural Kinds and Scientific Classification"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

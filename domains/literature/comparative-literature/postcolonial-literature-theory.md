@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: literary-criticism-overview
   type: soft
-- id: language-ideology
+- id: language-attitudes-and-ideology
   type: soft
 - id: language-attitudes-and-ideology
   type: soft

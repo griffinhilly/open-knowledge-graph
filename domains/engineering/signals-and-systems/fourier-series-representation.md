@@ -6,13 +6,9 @@ course: signals-and-systems
 prerequisites:
 - id: signal-properties-periodicity-energy-power
   type: hard
-- id: trigonometric-identities
+- id: trigonometric-identities-pythagorean
   type: soft
 - id: orthogonal-signal-decomposition-basis
-  type: hard
-- id: trigonometric-functions-review
-  type: hard
-- id: trigonometric-functions
   type: hard
 builds-toward:
 - fourier-transform-definition-properties

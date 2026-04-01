@@ -63,7 +63,7 @@ Draw the full pi molecular orbital picture of 1,3-butadiene to see why conjugati
   answer: true
   explanation: "When H⁺ adds to C1 of 1,3-butadiene, the resulting cation has charge distributed between C2 and C4, as shown by two resonance structures. This delocalization is what makes both 1,2-addition (nucleophile attacks C2) and 1,4-addition (nucleophile attacks C4) possible. A localized carbocation on a single carbon, as in simple alkene addition, would give only one product."
 
-- question: "The s-cis and s-trans conformers of 1,3-butadiene are geometric isomers — they can rarely interconvert at room temperature because they have different configurations about a double bond."
+- question: "The s-cis and s-trans conformers of 1,3-butadiene are geometric isomers — they cannot interconvert at room temperature because they have different configurations about a double bond."
   type: true-false
   answer: false
   explanation: "s-cis and s-trans are conformational isomers (rotamers) that interconvert freely by rotation about the central C2–C3 single bond, not geometric isomers. The 's' stands for 'single bond,' distinguishing them from cis/trans isomerism about a double bond. Because rotation about a single bond has a low energy barrier, both conformers are accessible at room temperature. The s-trans conformer is more stable (less steric strain), but the s-cis conformer is essential for pericyclic reactions like the Diels-Alder reaction."

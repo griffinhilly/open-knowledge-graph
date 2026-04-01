@@ -6,9 +6,7 @@ course: general-relativity
 prerequisites:
 - id: tensor-calculus-gr
   type: hard
-- id: four-vectors
-  type: hard
-- id: special-relativity
+- id: special-relativity-postulates
   type: hard
 tags:
 - stress-energy

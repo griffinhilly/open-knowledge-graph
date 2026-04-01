@@ -1,6 +1,6 @@
 ---
 id: instrumentalism-anti-realism
-title: Instrumentalism and Anti-Realism
+title: "Instrumentalism and Anti-Realism"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

@@ -1,6 +1,6 @@
 ---
 id: thomas-kuhn-paradigm-shifts
-title: Thomas Kuhn and Paradigm Shifts
+title: "Thomas Kuhn and Paradigm Shifts"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

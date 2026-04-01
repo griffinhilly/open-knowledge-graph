@@ -61,7 +61,7 @@ Write a reflexivity statement for a hypothetical research project: describe your
   answer: false
   explanation: "This is one of the most important misconceptions positionality corrects. Every historian has a standpoint, including those whose perspective has historically been treated as the default or universal. Dominant perspectives are not neutral — they are perspectives that were so widely shared among professional historians that their assumptions became invisible. The claim to a 'view from nowhere' typically smuggles in a particular standpoint while presenting it as universal. Positionality applies equally to all historians."
 
-- question: "Acknowledging that your historical research is shaped by your social location means accepting that your account can rarely be more valid than any other account of the same events."
+- question: "Acknowledging that your historical research is shaped by your social location means accepting that your account cannot be more valid than any other account of the same events."
   type: true-false
   answer: false
   explanation: "Acknowledging positionality is not relativism. Evidentiary standards — fidelity to primary sources, logical consistency, transparency of method, responsiveness to counterevidence — still apply to all historical accounts. A positionality-aware account that is rigorously evidenced is more valid than one that ignores contradictory sources. Positionality explains why different historians ask different questions; it does not eliminate the criteria by which historical arguments are evaluated for accuracy and rigor."

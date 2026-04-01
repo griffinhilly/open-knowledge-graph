@@ -1,6 +1,6 @@
 ---
 id: continental-philosophy-of-technology
-title: Philosophy of Technology (Continental)
+title: "Philosophy of Technology (Continental)"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

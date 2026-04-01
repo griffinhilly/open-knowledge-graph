@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: gene-expression-overview
   type: hard
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 builds-toward:
 - synthetic-gene-circuits

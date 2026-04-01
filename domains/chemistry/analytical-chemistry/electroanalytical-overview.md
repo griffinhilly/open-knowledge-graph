@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: electric-potential
   type: soft
-- id: electron-transfer
+- id: electron-transfer-reactions
   type: soft
 builds-toward:
 - potentiometry

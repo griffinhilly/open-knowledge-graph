@@ -49,7 +49,7 @@ Electromagnetic fields carry angular momentum given by L = ε₀∫(r × (E × B
   answer: true
   explanation: "This is exactly the Feynman disk paradox. The changing B field induces a tangential E field (Faraday's law) that exerts a torque on the charged sphere. The sphere acquires mechanical angular momentum precisely equal to the angular momentum that was stored in the crossed E and B fields. Total angular momentum is conserved: field angular momentum converts to mechanical angular momentum. Nothing was 'spinning' before, yet the system had nonzero angular momentum stored in the fields."
 
-- question: "The electromagnetic angular momentum density at a point requires a moving charge at that point — it can rarely be nonzero in the empty space between a static charge distribution and a static magnetic field."
+- question: "The electromagnetic angular momentum density at a point requires a moving charge at that point — it cannot be nonzero in the empty space between a static charge distribution and a static magnetic field."
   type: true-false
   answer: false
   explanation: "The angular momentum density l = ε₀(r × (E × B)) depends only on the values of E and B at each point — not on the presence of charges there. Wherever both an electric field and a magnetic field are present with appropriate spatial geometry, angular momentum is stored in the fields even in vacuum. The charged sphere + solenoid example is precisely a static configuration with angular momentum distributed throughout the space where both E and B overlap. Fields carry energy, momentum, and angular momentum as properties of space, not just of charges."

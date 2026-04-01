@@ -20,7 +20,7 @@ prerequisites:
   type: soft
 - id: normal-distribution-theory
   type: hard
-- id: calculus
+- id: fundamental-theorem-of-calculus-part-1
   type: hard
 tags:
 - black-scholes

@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: algorithm-analysis-big-o
   type: soft
-- id: recursion
+- id: recursion-on-finite-structures
   type: soft
 - id: electroacoustic-composition
   type: soft

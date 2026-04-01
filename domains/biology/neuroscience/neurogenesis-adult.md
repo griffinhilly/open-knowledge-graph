@@ -45,7 +45,7 @@ Contrary to classical dogma, neural stem cells in the adult hippocampus (and olf
   answer: 1
   explanation: "Newly born hippocampal neurons undergo maturation over several weeks. During approximately weeks 4–6 after birth, these young neurons are hyperexcitable and display enhanced long-term potentiation compared to mature granule cells, making them especially responsive to new experiences. This critical window means their functional contribution is temporally specific — learning during this period promotes the survival of the recently born neurons, directly linking neurogenesis timing to memory encoding."
 
-- question: "Adult neurogenesis has been demonstrated throughout the adult brain, broadly overturning the classical dogma that neurons can rarely be replaced."
+- question: "Adult neurogenesis has been demonstrated throughout the adult brain, broadly overturning the classical dogma that neurons cannot be replaced."
   type: true-false
   answer: false
   explanation: "The overturning of the classical dogma is real, but the scope is more limited than 'throughout the brain.' Adult neurogenesis is well-established in two specific regions: the subgranular zone (SGZ) of the hippocampal dentate gyrus and the subventricular zone (SVZ), whose new neurons migrate to the olfactory bulb. Evidence for neurogenesis in other brain regions, including the neocortex, remains debated and is not well-established in humans. The brain's capacity for neurogenesis is real but regionally restricted, not global."

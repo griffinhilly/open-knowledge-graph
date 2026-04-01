@@ -4,8 +4,6 @@ title: 'Renal Tubular Acidosis: Types and Mechanisms'
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: metabolic-acidosis-and-alkalosis-pathophysiology
-  type: hard
 - id: renal-anatomy-and-filtration
   type: soft
 tags:

@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: differential-equations-intro-separable
   type: soft
-- id: probability-theory
+- id: probability-axioms
   type: hard
 - id: limit-superior-and-inferior
   type: soft

@@ -1,6 +1,6 @@
 ---
 id: post-structuralism-overview
-title: Post-Structuralism Overview
+title: "Post-Structuralism Overview"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

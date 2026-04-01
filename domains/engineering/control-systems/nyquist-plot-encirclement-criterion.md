@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: sinusoidal-response-magnitude-phase-angle
   type: hard
-- id: complex-analysis
-  type: soft
 - id: nyquist-stability-from-frequency-response
   type: soft
 builds-toward:

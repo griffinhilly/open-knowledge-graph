@@ -8,7 +8,7 @@ prerequisites:
   type: soft
 - id: cellular-respiration-overview
   type: soft
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 builds-toward:
 - multi-omics-integration

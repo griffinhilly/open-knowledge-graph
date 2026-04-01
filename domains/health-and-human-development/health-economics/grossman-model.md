@@ -6,8 +6,6 @@ course: health-economics
 prerequisites:
 - id: healthcare-market-structure
   type: hard
-- id: consumer-choice-theory
-  type: soft
 builds-toward:
 - healthcare-financing
 - equity-in-healthcare

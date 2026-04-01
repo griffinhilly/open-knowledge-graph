@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: robust-standard-errors
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 - id: expected-value-theory
   type: soft

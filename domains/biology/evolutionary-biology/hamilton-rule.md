@@ -46,7 +46,7 @@ Hamilton's rule (rb > c) predicts that altruistic behavior evolves when the bene
   answer: 1
   explanation: "In haplodiploid species, females develop from fertilized diploid eggs and males from unfertilized haploid eggs. Because the father is haploid, all daughters share identical paternal genes (r = 0.5 from father) plus an average of 0.25 from the mother — giving r = 0.75 between sisters. But a worker's own daughters would share only r = 0.5 with her. Since rb for sisters (0.75 × b) exceeds the equivalent for daughters (0.5 × b) for the same b, Hamilton's rule predicts workers gain more inclusive fitness by raising sisters than by reproducing directly. This is Hamilton's original explanation for eusociality — one of evolutionary biology's most elegant applications of the rule."
 
-- question: "Hamilton's rule primarily applies to behaviors that benefit the altruist's direct offspring."
+- question: "Hamilton's rule only applies to behaviors that benefit the altruist's direct offspring."
   type: true-false
   answer: false
   explanation: "Hamilton's rule applies to any social behavior where costs and benefits can be quantified in fitness terms and where the recipient is a genetic relative. The 'r' in rb > c is the coefficient of relatedness between the altruist and the recipient — not restricted to offspring (where r = 0.5). The rule predicts altruism toward siblings (r = 0.5), cousins (r = 0.125), and any relatives. It also predicts when altruism should NOT evolve (when rb < c). The rule is a general framework for kin-selected social evolution, covering alarm calls, food sharing, cooperative breeding, and sterile castes."

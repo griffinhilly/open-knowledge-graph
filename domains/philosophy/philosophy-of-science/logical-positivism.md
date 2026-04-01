@@ -1,6 +1,6 @@
 ---
 id: logical-positivism
-title: Logical Positivism
+title: "Logical Positivism"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

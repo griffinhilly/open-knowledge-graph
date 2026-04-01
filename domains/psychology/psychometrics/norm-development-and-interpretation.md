@@ -6,8 +6,6 @@ course: psychometrics
 prerequisites:
 - id: measurement-scales-psychology
   type: hard
-- id: probability-and-statistics
-  type: hard
 - id: normal-distribution
   type: soft
 - id: percentile-ranks-and-interpretation

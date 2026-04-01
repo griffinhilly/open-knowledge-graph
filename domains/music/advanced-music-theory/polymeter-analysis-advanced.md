@@ -12,9 +12,9 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
-- id: least-common-multiple
+- id: divisibility-and-gcd
   type: soft
-- id: lcm-gcd
+- id: divisibility-and-gcd
   type: soft
 builds-toward:
 - isorhythmic-structures-modern

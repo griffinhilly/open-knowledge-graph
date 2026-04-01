@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 - id: basis-and-dimension
   type: hard

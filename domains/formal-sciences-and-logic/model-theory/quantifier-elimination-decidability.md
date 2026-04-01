@@ -6,7 +6,7 @@ course: model-theory
 prerequisites:
 - id: complete-first-order-theories
   type: hard
-- id: systems-of-equations
+- id: systems-of-linear-equations
   type: soft
 builds-toward:
 - o-minimality-and-tame-geometry

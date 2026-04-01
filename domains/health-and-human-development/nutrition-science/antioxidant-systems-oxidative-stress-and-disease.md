@@ -6,7 +6,7 @@ course: nutrition-science
 prerequisites:
 - id: antioxidants-and-phytochemicals
   type: hard
-- id: reactive-oxygen-metabolism
+- id: peroxisomes-and-reactive-oxygen-metabolism
   type: soft
 - id: electron-transport-chain
   type: soft

@@ -6,8 +6,6 @@ course: psychometrics
 prerequisites:
 - id: item-response-functions
   type: hard
-- id: probability-and-statistics
-  type: hard
 - id: exponential-functions-and-graphs
   type: hard
 builds-toward:

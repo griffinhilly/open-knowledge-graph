@@ -62,7 +62,7 @@ Assuming all three methods give identical results (they have different selectivi
   answer: true
   explanation: "This is precisely the mechanism. Before the equivalence point, excess Cl⁻ ions adsorb on the AgCl precipitate surface, giving it a net negative charge that repels the anionic indicator dye. After the equivalence point, excess Ag⁺ adsorbs instead, making the surface positive. The positively charged surface now attracts the anionic indicator (e.g., fluorescein anion), and the adsorbed indicator changes color (yellow-green to pink). The color change is not due to a soluble complex forming in solution but to adsorption on the solid surface."
 
-- question: "The Volhard method can rarely be used in acidic solutions because the indicator decomposes under acidic conditions."
+- question: "The Volhard method cannot be used in acidic solutions because the indicator decomposes under acidic conditions."
   type: true-false
   answer: false
   explanation: "This is the opposite of the truth — the Volhard method works specifically *because* it operates in acidic solution. It uses ferric ion (Fe³⁺) as the indicator, which is stable in acid, and the back-titration with KSCN proceeds cleanly. This acid compatibility is actually the Volhard method's key advantage over the Mohr method (which requires neutral pH). Acidic conditions also prevent the precipitation of Fe(OH)₃ and allow acid digestion of complex matrices before titration."

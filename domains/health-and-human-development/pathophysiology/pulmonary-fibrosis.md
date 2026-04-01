@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: respiratory-system-overview
   type: hard
-- id: myofibroblast-differentiation
-  type: soft
 - id: tubulointerstitial-inflammation-pathophysiology
   type: soft
 - id: nonalcoholic-fatty-liver-disease-mechanisms

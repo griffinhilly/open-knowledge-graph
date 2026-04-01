@@ -4,7 +4,7 @@ title: Linear Types
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: type-systems-type-checking
+- id: type-systems-overview
   type: hard
 - id: curry-howard-correspondence
   type: soft

@@ -4,12 +4,8 @@ title: Liver Cirrhosis and Portal Hypertension
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: liver-function-overview
-  type: hard
 - id: chronic-inflammation
   type: hard
-- id: hepatic-stellate-cell-activation
-  type: soft
 builds-toward:
 - variceal-hemorrhage
 - hepatic-encephalopathy

@@ -1,6 +1,6 @@
 ---
 id: theoretical-virtues-in-theory-choice
-title: Theoretical Virtues in Theory Choice
+title: "Theoretical Virtues in Theory Choice"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

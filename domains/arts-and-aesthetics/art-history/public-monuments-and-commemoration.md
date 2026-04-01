@@ -4,7 +4,7 @@ title: Public Monuments and Commemorative Art
 domain: arts-and-aesthetics
 course: art-history
 prerequisites:
-- id: art-and-political-intervention
+- id: art-political-intervention
   type: soft
 - id: art-historical-contextualization
   type: soft

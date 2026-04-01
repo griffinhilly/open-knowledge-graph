@@ -1,6 +1,6 @@
 ---
 id: lakatos-research-programs
-title: Lakatos and Research Programs
+title: "Lakatos and Research Programs"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

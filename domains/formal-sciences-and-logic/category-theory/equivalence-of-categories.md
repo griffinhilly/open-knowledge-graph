@@ -18,7 +18,7 @@ prerequisites:
   type: soft
 - id: injective-surjective-bijective
   type: soft
-- id: function-composition
+- id: function-composition-and-inverses
   type: soft
 - id: function-composition-and-inverses
   type: soft

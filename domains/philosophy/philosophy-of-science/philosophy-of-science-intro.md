@@ -1,6 +1,6 @@
 ---
 id: philosophy-of-science-intro
-title: Introduction to Philosophy of Science
+title: "Introduction to Philosophy of Science"
 domain: philosophy
 course: philosophy-of-science
 prerequisites: []

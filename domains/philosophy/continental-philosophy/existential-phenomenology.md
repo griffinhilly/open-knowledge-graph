@@ -1,6 +1,6 @@
 ---
 id: existential-phenomenology
-title: Existential Phenomenology
+title: "Existential Phenomenology"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

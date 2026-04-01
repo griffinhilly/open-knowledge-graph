@@ -4,10 +4,8 @@ title: Abstract Objects and Existence
 domain: philosophy
 course: metaphysics
 prerequisites:
-- id: abstract-objects-platonism
+- id: abstract-entities-platonism
   type: hard
-- id: nominalism-about-universals
-  type: soft
 - id: zfc-axioms-overview
   type: soft
 builds-toward:

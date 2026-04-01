@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: pairwise-sequence-alignment
   type: soft
-- id: probability-distributions
+- id: probability-density-functions
   type: soft
 builds-toward:
 - comparative-genomics

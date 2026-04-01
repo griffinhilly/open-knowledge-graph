@@ -43,7 +43,7 @@ Every finite abelian group is isomorphic to a direct product of cyclic groups of
   answer: 1
   explanation: "The uniqueness clause of the Classification Theorem is the key: two finite abelian groups are isomorphic if and only if they have identical multisets of elementary divisors. G ≅ Z/4Z × Z/3Z ≅ Z/12Z (cyclic, has an element of order 12). H ≅ Z/2Z × Z/2Z × Z/3Z ≅ Z/2Z × Z/6Z (not cyclic — its maximum element order is 6). Same order, different structure. Equal order is necessary but not sufficient for isomorphism; identical elementary divisors are both necessary and sufficient."
 
-- question: "Two finite abelian groups are isomorphic if and primarily if they have the same order."
+- question: "Two finite abelian groups are isomorphic if and only if they have the same order."
   type: true-false
   answer: false
   explanation: "Order is necessary but not sufficient. The canonical counterexample: Z/4Z and Z/2Z × Z/2Z both have order 4 but are not isomorphic. Z/4Z has an element of order 4; Z/2Z × Z/2Z has no element of order greater than 2. Their elementary divisors differ — {4} versus {2, 2} — which is what the Classification Theorem uses to distinguish them. Among finite abelian groups, the complete isomorphism invariant is the multiset of elementary divisors, not just the order."

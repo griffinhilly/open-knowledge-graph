@@ -6,7 +6,7 @@ course: immunology
 prerequisites:
 - id: major-histocompatibility-complex
   type: hard
-- id: protein-structure-and-function
+- id: protein-tertiary-structure
   type: hard
 builds-toward:
 - thymic-selection-positive-negative

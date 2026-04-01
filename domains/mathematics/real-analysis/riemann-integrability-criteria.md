@@ -47,7 +47,7 @@ A function f on [a,b] is Riemann integrable if and only if its set of discontinu
   answer: 2
   explanation: "The Dirichlet function is discontinuous at every point of [0,1]: its discontinuity set has measure 1 (positive), so Lebesgue's criterion fails. On any subinterval of [0,1], the supremum of f is 1 (a rational is always nearby) and the infimum is 0 (an irrational is always nearby). So the upper sum is always 1 and the lower sum is always 0, regardless of how fine the partition is. Option B is the common but wrong answer — infinitely many discontinuities are not inherently fatal; only a positive-measure set of them is."
 
-- question: "A function with a countably infinite set of discontinuities on [a,b] can rarely be Riemann integrable."
+- question: "A function with a countably infinite set of discontinuities on [a,b] cannot be Riemann integrable."
   type: true-false
   answer: false
   explanation: "Countably infinite sets have measure zero — they can be covered by open intervals with total length less than any ε > 0. Therefore a function with only countably many discontinuities satisfies Lebesgue's criterion and is Riemann integrable (provided it is bounded). Monotone functions, for instance, can have countably many jump discontinuities and are always Riemann integrable. The criterion is measure zero, not finiteness."

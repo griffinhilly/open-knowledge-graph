@@ -4,7 +4,7 @@ title: Hilbert Spaces
 domain: mathematics
 course: measure-theory-and-functional-analysis
 prerequisites:
-- id: inner-products
+- id: inner-product-spaces
   type: hard
 - id: banach-spaces
   type: hard

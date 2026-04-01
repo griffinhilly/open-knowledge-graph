@@ -4,11 +4,11 @@ title: Dependent Type Theory
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: type-systems-type-checking
+- id: type-systems-overview
   type: hard
 - id: curry-howard-correspondence
   type: hard
-- id: predicate-logic
+- id: predicate-logic-introduction
   type: soft
 builds-toward:
 - refinement-types

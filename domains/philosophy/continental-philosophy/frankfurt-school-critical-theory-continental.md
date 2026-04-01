@@ -1,6 +1,6 @@
 ---
 id: frankfurt-school-critical-theory-continental
-title: Frankfurt School — Critical Theory (Adorno, Horkheimer)
+title: "Frankfurt School — Critical Theory (Adorno, Horkheimer)"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

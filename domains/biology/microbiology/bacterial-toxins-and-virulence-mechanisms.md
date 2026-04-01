@@ -6,7 +6,7 @@ course: microbiology
 prerequisites:
 - id: lysogenic-conversion-virulence-factors
   type: hard
-- id: protein-structure-and-function
+- id: protein-tertiary-structure
   type: soft
 - id: viral-infection-and-pathogenesis-mechanisms
   type: soft

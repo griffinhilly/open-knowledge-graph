@@ -12,7 +12,7 @@ prerequisites:
   type: soft
 - id: enzyme-kinetics
   type: hard
-- id: protein-structure-and-function
+- id: protein-tertiary-structure
   type: soft
 builds-toward:
 - intracellular-signaling-and-second-messengers

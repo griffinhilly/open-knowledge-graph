@@ -45,7 +45,7 @@ Compare microstructures (micrographs) of a powder compact before and after each 
   answer: 1
   explanation: "Particle size is the most powerful process variable in sintering. The driving force is surface energy reduction, which scales inversely with particle radius (smaller particles have more surface energy per unit volume and more curved surfaces). Diffusion distances also scale with particle size — shorter paths mean faster densification. Halving particle size can reduce the required sintering temperature by hundreds of degrees or dramatically accelerate densification at the same temperature. While agglomeration is a practical challenge with nanopowders, under equivalent processing conditions, finer particles densify far more rapidly."
 
-- question: "During the initial stage of sintering, what primarily occurs in the powder compact?"
+- question: "During the initial stage of sintering, what only occurs in the powder compact?"
   type: multiple-choice
   options:
     - "Rapid densification as pore channels collapse and closed pores are eliminated"

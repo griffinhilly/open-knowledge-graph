@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: functions-and-function-properties
   type: soft
-- id: function-composition
+- id: function-composition-and-inverses
   type: soft
 - id: set-operations
   type: soft

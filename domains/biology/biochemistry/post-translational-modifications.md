@@ -46,7 +46,7 @@ Post-translational modifications (PTMs) are covalent modifications of proteins a
   answer: 2
   explanation: "K48-linked polyubiquitin chains (four or more ubiquitin molecules) are the canonical 26S proteasome-targeting signal. N-linked glycosylation occurs in the ER and affects folding and cell-surface recognition — not degradation. Serine phosphorylation can regulate activity and sometimes primes a protein for ubiquitination (a phosphodegron), but is not itself the degradation signal. Histone acetylation loosens chromatin — it is not a proteolytic signal at all. Understanding that ubiquitin chain linkage type determines function (K48 = degradation; K63 = signaling/repair) is essential."
 
-- question: "Once a protein's amino acid sequence is established at translation, its activity, localization, and stability are fully determined and can rarely be altered by the cell."
+- question: "Once a protein's amino acid sequence is established at translation, its activity, localization, and stability are fully determined and cannot be altered by the cell."
   type: true-false
   answer: false
   explanation: "This is the central misconception the topic addresses. PTMs profoundly and dynamically alter protein function beyond what the sequence alone encodes. The same protein can be active or inactive (phosphorylation), nuclear or cytoplasmic (phosphorylation, acetylation), stable or targeted for rapid degradation (ubiquitination), properly folded or misrouted (glycosylation) — all depending on its current modification state. PTMs are the cell's language for controlling when, where, and how proteins act, and that language is written after translation is complete."

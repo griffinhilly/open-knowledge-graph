@@ -1,6 +1,6 @@
 ---
 id: existentialism-overview
-title: Existentialism Overview
+title: "Existentialism Overview"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

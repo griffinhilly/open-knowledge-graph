@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: variational-principle-chemistry
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: soft
 - id: quantum-mechanics-postulates-core
   type: hard

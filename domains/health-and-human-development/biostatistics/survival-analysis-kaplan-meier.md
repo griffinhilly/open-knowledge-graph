@@ -6,9 +6,9 @@ course: biostatistics
 prerequisites:
 - id: study-design-biostatistics
   type: hard
-- id: probability-theory
+- id: probability-axioms
   type: soft
-- id: descriptive-statistics
+- id: descriptive-statistics-overview
   type: soft
 builds-toward:
 - log-rank-test

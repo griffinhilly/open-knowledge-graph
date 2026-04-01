@@ -6,11 +6,11 @@ course: general-relativity
 prerequisites:
 - id: equivalence-principle
   type: hard
-- id: special-relativity
+- id: special-relativity-postulates
   type: hard
 - id: riemannian-metrics
   type: hard
-- id: spacetime-diagrams-minkowski
+- id: spacetime-diagrams
   type: soft
 tags:
 - metric-tensor

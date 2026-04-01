@@ -58,7 +58,7 @@ Trade regimes do not eliminate friction—states still compete, and trade often 
   answer: true
   explanation: "This is exactly what MFN means: non-discrimination. The name is misleading — 'most-favored-nation' treatment does not mean one country gets special preference; it means every WTO member receives the same treatment as the most-favorably-treated member. If the US negotiates a 5% tariff on steel with Germany, that rate must be extended to all other WTO members exporting steel to the US. This prevents bilateral trade relationships from fragmenting into a thicket of discriminatory arrangements and ensures that liberalization is collective rather than exclusive."
 
-- question: "Trade regimes like the WTO primarily benefit large, powerful states because they can enforce rules through economic or military coercion while smaller states can rarely."
+- question: "Trade regimes like the WTO primarily benefit large, powerful states because they can enforce rules through economic or military coercion while smaller states cannot."
   type: true-false
   answer: false
   explanation: "The WTO's dispute settlement mechanism is specifically designed to transform trade conflicts from power contests into legal disputes. A small country can bring a case against a large one — and win — something impossible in a pure power-based system. Notable examples include developing countries successfully challenging US steel tariffs and EU agricultural subsidies. The legalization of trade rules is precisely what gives smaller states leverage they lack in bilateral power-based negotiations. This doesn't mean power is irrelevant to trade politics, but the institutional architecture shifts the terrain in ways that benefit smaller members."

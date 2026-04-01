@@ -6,8 +6,6 @@ course: music-history
 prerequisites:
 - id: major-scale-construction
   type: hard
-- id: minor-scale-construction
-  type: hard
 - id: renaissance-music-style-and-context
   type: soft
 builds-toward:

@@ -4,13 +4,13 @@ title: Shannon Entropy
 domain: computer-science
 course: information-theory
 prerequisites:
-- id: probability-distributions
+- id: probability-density-functions
   type: hard
 - id: expected-value
   type: hard
-- id: logarithms
+- id: logarithms-intro
   type: hard
-- id: random-variables
+- id: continuous-random-variables
   type: soft
 builds-toward:
 - joint-and-conditional-entropy

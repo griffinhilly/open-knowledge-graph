@@ -4,7 +4,7 @@ title: Nephrotic Syndrome and Proteinuria
 domain: health-and-human-development
 course: pathophysiology
 prerequisites:
-- id: glomerular-filtration-barrier
+- id: glomerular-filtration-barrier-and-proteinuria
   type: hard
 - id: glomerulonephritis-types
   type: soft

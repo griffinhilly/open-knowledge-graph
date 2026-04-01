@@ -4,7 +4,7 @@ title: 'The Spanish Inquisition: Religious Persecution and State Authority'
 domain: history
 course: early-modern-period
 prerequisites:
-- id: catholic-church-power
+- id: medieval-church-power
   type: soft
 - id: printing-press-gutenberg
   type: soft

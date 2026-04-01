@@ -6,7 +6,7 @@ course: formal-methods
 prerequisites:
 - id: programming-language-semantics
   type: hard
-- id: predicate-logic
+- id: predicate-logic-introduction
   type: hard
 - id: set-theory-basics
   type: soft

@@ -4,7 +4,7 @@ title: Cost-Effectiveness Analysis and Economic Evaluation of Health Interventio
 domain: health-and-human-development
 course: public-health
 prerequisites:
-- id: cost-benefit-analysis-epidemiology
+- id: cost-effectiveness-analysis-epidemiology
   type: hard
 - id: burden-of-disease-and-comparative-health-assessment
   type: soft

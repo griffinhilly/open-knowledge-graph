@@ -4,8 +4,6 @@ title: Rigorous Series Convergence
 domain: mathematics
 course: real-analysis
 prerequisites:
-- id: series-convergence-tests
-  type: hard
 - id: epsilon-n-convergence
   type: hard
 builds-toward:

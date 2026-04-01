@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: phase-diagrams-binary-mixtures
   type: soft
-- id: equilibrium-chemical
-  type: soft
 - id: fractional-crystallization-magmatic-differentiation
   type: soft
 - id: bowen-fractional-crystallization

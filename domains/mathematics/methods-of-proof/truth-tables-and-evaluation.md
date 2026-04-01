@@ -59,7 +59,7 @@ Start with tables for single connectives, then build up to more complex expressi
   answer: true
   explanation: "A tautology is a formula that is necessarily true — true regardless of the truth values of its component variables. The truth table shows exactly this: it enumerates every possible world (every truth-value assignment) and checks whether the formula holds. If it holds in all 2ⁿ rows, the formula cannot be made false by any assignment. The classic example is P ∨ ¬P (the law of excluded middle): regardless of whether P is true or false, exactly one of P or ¬P is true, making the disjunction always true."
 
-- question: "In the formula ¬P ∧ Q, the conjunction (∧) is evaluated before the negation (¬) because conjunction involves two operands while negation involves primarily one."
+- question: "In the formula ¬P ∧ Q, the conjunction (∧) is evaluated before the negation (¬) because conjunction involves two operands while negation involves only one."
   type: true-false
   answer: false
   explanation: "Negation (¬) has the highest operator precedence in propositional logic — it binds more tightly than conjunction (∧), which binds more tightly than disjunction (∨), which binds more tightly than the conditional (→). The number of operands has no bearing on precedence. In ¬P ∧ Q, the negation applies only to P, yielding (¬P) ∧ Q. This matters significantly: ¬(P ∧ Q) and (¬P) ∧ Q are different formulas with different truth tables, and misapplying precedence leads to systematic evaluation errors."

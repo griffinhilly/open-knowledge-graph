@@ -28,7 +28,7 @@ prerequisites:
   type: soft
 - id: functions-and-function-properties
   type: hard
-- id: function-composition
+- id: function-composition-and-inverses
   type: soft
 - id: linear-transformations
   type: soft

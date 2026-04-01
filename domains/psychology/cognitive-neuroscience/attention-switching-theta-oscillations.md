@@ -6,8 +6,6 @@ course: cognitive-neuroscience
 prerequisites:
 - id: eeg-time-frequency-analysis
   type: hard
-- id: task-switching-cognitive-flexibility
-  type: soft
 builds-toward:
 - cognitive-control-theta-gamma-coupling
 - meditation-attention-theta-modulation

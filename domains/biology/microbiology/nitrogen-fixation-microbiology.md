@@ -61,7 +61,7 @@ Draw the complete nitrogen cycle as a flow diagram assigning specific microbial 
   answer: 1
   explanation: "Rhizobium inside soybean nodules fix N₂ and share fixed nitrogen with the plant. When the soybean crop senesces and nodules decompose, the fixed nitrogen re-enters the soil as ammonium and organic nitrogen, enriching the soil for the next crop. This is the biochemical basis of the centuries-old agricultural practice of legume rotation. Corn cannot form Rhizobium symbioses — it would need external fertilizer in a monoculture system."
 
-- question: "Nitrogenase is irreversibly destroyed by oxygen, yet many nitrogen-fixing bacteria are strict aerobes. This is a contradiction — aerobic organisms can rarely fix nitrogen."
+- question: "Nitrogenase is irreversibly destroyed by oxygen, yet many nitrogen-fixing bacteria are strict aerobes. This is a contradiction — aerobic organisms cannot fix nitrogen."
   type: true-false
   answer: false
   explanation: "Several aerobic bacteria fix nitrogen successfully by protecting nitrogenase from O₂. Azotobacter maintains such a high respiratory rate that O₂ is consumed faster than it can diffuse in, creating an anoxic cytoplasmic environment. Rhizobium in root nodules is protected by leghemoglobin, which buffers O₂ at very low concentrations — high enough to support bacteroid respiration for ATP production but low enough to prevent nitrogenase inactivation. The contradiction is real, but biology evolved elegant solutions to it."

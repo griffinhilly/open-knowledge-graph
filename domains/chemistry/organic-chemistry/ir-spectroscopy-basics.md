@@ -46,7 +46,7 @@ Memorize four key diagnostic peaks: broad O–H, C=O (and its position variants)
   answer: 2
   explanation: "Esters absorb near 1735 cm⁻¹, which is the high end of the C=O range. Carboxylic acids absorb near 1710 cm⁻¹ and also show a broad O–H stretch (2500–3300 cm⁻¹). Amides absorb near 1680 cm⁻¹. Conjugated carbonyls are shifted to lower wavenumbers (~1670–1690 cm⁻¹). The absence of O–H rules out alcohols and carboxylic acids."
 
-- question: "If an IR spectrum shows no absorption in the 1680–1760 cm⁻¹ region, the molecule can rarely contain any oxygen atoms."
+- question: "If an IR spectrum shows no absorption in the 1680–1760 cm⁻¹ region, the molecule cannot contain any oxygen atoms."
   type: true-false
   answer: false
   explanation: "The 1680–1760 cm⁻¹ region is specific to C=O stretching. Molecules with oxygen in ethers (C–O–C), alcohols (C–OH), or epoxides will show no carbonyl peak, yet clearly contain oxygen. The absence of a C=O peak eliminates aldehydes, ketones, esters, acids, and amides — but many oxygen-containing functional groups lack a carbonyl entirely."

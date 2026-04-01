@@ -57,7 +57,7 @@ Children may sort by size rather than shape, or mix multiple sorting criteria. T
   answer: 1
   explanation: "If triangles appear in both piles, the child likely switched sorting rules mid-way — sorting some shapes by size and others by color, for example. The result is an inconsistent sort where the same shape type lands in different places. Correct sorting requires picking *one* rule and applying it the *same way* to every shape without switching. Option A is wrong because in a different valid sorting (e.g., by color), red and blue triangles would correctly go in separate groups."
 
-- question: "When sorting the same set of shapes, there is primarily one correct way to sort them."
+- question: "When sorting the same set of shapes, there is only one correct way to sort them."
   type: true-false
   answer: false
   explanation: "The same collection of shapes can be sorted in multiple valid ways, depending on which property you choose as your rule. Sort by shape and all circles go together; sort by color and all red shapes go together; sort by number of sides and triangles and rectangles may be separated. Neither sorting is more 'correct' than the other — what matters is that you pick one rule and apply it consistently to every shape."

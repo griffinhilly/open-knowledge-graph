@@ -52,7 +52,7 @@ The adjacency matrix A of a graph encodes its structure; its eigenvalues (spectr
   answer: true
   explanation: "For a d-regular graph, the all-ones vector 𝟏 is an eigenvector of A with eigenvalue d, because (A𝟏)ᵢ = Σⱼ Aᵢⱼ = degree of i = d for every vertex i. By the Perron-Frobenius theorem, the largest eigenvalue of a non-negative matrix equals its maximum row sum, confirming λ₁ = d exactly. The corresponding eigenvector 𝟏 reflects the graph's uniform degree structure."
 
-- question: "The eigenvalues of the adjacency matrix can primarily tell us how many edges a graph has — they can rarely reveal global connectivity or structural properties."
+- question: "The eigenvalues of the adjacency matrix can primarily tell us how many edges a graph has — they cannot reveal global connectivity or structural properties."
   type: true-false
   answer: false
   explanation: "The spectrum encodes rich structural information far beyond edge count. The spectral gap determines expansion and connectivity; the multiplicity of eigenvalue 0 is related to bipartiteness; and the smallest eigenvalues' eigenvectors reveal community structure, forming the mathematical basis of spectral clustering. A graph's edge count is captured by Tr(A²)/2 = |E|, but eigenvalues collectively reveal global topological properties that are invisible from individual matrix entries."

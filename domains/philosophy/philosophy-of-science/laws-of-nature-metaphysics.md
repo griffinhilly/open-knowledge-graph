@@ -1,6 +1,6 @@
 ---
 id: laws-of-nature-metaphysics
-title: 'Laws of Nature: Necessity vs. Regularity'
+title: "'Laws of Nature: Necessity vs. Regularity'"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

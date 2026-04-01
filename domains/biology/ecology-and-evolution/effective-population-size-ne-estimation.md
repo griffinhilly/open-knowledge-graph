@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: genetic-drift-in-small-populations
   type: soft
-- id: statistics-rigorous
-  type: soft
 - id: sampling-distributions
   type: soft
 - id: expected-value-theory

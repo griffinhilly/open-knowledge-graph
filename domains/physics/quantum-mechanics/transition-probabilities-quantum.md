@@ -41,7 +41,7 @@ Transition rates depend on ⟨f|H'|i⟩. Selection rules (e.g., Δl = ±1, Δj =
   answer: 1
   explanation: "The 2s → 1s transition violates the electric dipole selection rule Δl = ±1 because both states have l = 0 (s orbitals). The matrix element ⟨1s|r|2s⟩ vanishes by parity symmetry. The transition is 'forbidden' — meaning the electric dipole amplitude is zero, not that the transition is impossible. It eventually occurs via two-photon emission (a higher-order process), which is far slower, explaining the anomalously long lifetime. 'Forbidden' means the dominant mechanism is blocked, not that physics prevents the event."
 
-- question: "A 'forbidden' transition in quantum mechanics is one that is prohibited by conservation of energy and therefore can rarely occur."
+- question: "A 'forbidden' transition in quantum mechanics is one that is prohibited by conservation of energy and therefore cannot occur."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about selection rules. 'Forbidden' does not mean energetically impossible — it means the electric dipole matrix element ⟨f|H'|i⟩ vanishes due to symmetry, so the transition cannot occur via the electric dipole mechanism. The transition can still occur through weaker mechanisms: magnetic dipole, electric quadrupole, or higher-order processes. Each is suppressed by additional powers of the fine structure constant α ≈ 1/137. Forbidden transitions are slow, not impossible."

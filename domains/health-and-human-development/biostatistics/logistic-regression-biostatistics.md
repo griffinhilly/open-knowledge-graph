@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: study-design-biostatistics
   type: soft
-- id: probability-theory
+- id: probability-axioms
   type: soft
 builds-toward:
 - diagnostic-test-evaluation

@@ -6,8 +6,6 @@ course: physiology
 prerequisites:
 - id: glomerular-filtration-mechanism
   type: hard
-- id: starling-forces-microcirculation
-  type: hard
 builds-toward:
 - kidney-tubular-processing-urine
 - renal-blood-pressure-regulation

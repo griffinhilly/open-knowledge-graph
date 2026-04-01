@@ -1,6 +1,6 @@
 ---
 id: deleuze-difference-and-rhizome
-title: Deleuze — Difference and Rhizome
+title: "Deleuze — Difference and Rhizome"
 domain: philosophy
 course: continental-philosophy
 prerequisites:

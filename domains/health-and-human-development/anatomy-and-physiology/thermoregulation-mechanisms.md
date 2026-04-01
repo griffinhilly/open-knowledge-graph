@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: hypothalamus-pituitary-axis
   type: hard
-- id: autonomic-nervous-system-physiology
+- id: autonomic-nervous-system
   type: soft
 - id: body-thermoregulation-metabolic-heat-production
   type: soft

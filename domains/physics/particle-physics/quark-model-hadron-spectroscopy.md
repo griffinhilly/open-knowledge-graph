@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: angular-momentum-quantum
   type: hard
-- id: spin
+- id: spin-quantum-number
   type: hard
 tags:
 - quark-model

@@ -6,8 +6,6 @@ course: astronomy
 prerequisites:
 - id: spherical-coordinates
   type: hard
-- id: trigonometry
-  type: hard
 - id: trigonometric-ratios-review
   type: hard
 builds-toward:

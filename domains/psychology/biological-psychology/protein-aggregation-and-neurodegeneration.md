@@ -4,7 +4,7 @@ title: Protein Aggregation and Neurodegeneration
 domain: psychology
 course: biological-psychology
 prerequisites:
-- id: protein-structure-and-function
+- id: protein-tertiary-structure
   type: soft
 - id: cell-senescence-aging
   type: soft

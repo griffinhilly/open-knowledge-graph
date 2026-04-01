@@ -1,6 +1,6 @@
 ---
 id: bayesian-confirmation-and-evidence
-title: Bayesian Confirmation Theory
+title: "Bayesian Confirmation Theory"
 domain: philosophy
 course: philosophy-of-science
 prerequisites:

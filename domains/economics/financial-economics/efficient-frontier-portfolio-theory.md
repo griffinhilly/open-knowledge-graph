@@ -12,10 +12,8 @@ prerequisites:
   type: soft
 - id: variance-of-random-variables
   type: soft
-- id: linear-algebra
+- id: linear-transformations
   type: hard
-- id: quadratic-programming
-  type: soft
 - id: linear-programming
   type: soft
 builds-toward:

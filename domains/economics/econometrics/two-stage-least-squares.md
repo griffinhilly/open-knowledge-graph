@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: multiple-regression-model
   type: hard
-- id: linear-algebra
+- id: linear-transformations
   type: hard
 builds-toward: []
 tags:

@@ -4,7 +4,7 @@ title: Symbolic Execution
 domain: computer-science
 course: formal-methods
 prerequisites:
-- id: propositional-logic
+- id: propositional-logic-introduction
   type: hard
 - id: programming-language-semantics
   type: hard

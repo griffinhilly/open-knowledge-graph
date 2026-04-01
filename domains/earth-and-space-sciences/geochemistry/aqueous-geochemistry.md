@@ -6,7 +6,7 @@ course: geochemistry
 prerequisites:
 - id: geochemical-thermodynamics
   type: hard
-- id: acids-and-bases
+- id: everyday-acids-and-bases
   type: soft
 builds-toward:
 - redox-geochemistry

@@ -14,9 +14,7 @@ prerequisites:
   type: soft
 - id: statistical-inference-significance-testing
   type: soft
-- id: linear-algebra
-  type: soft
-- id: statistics
+- id: linear-transformations
   type: soft
 builds-toward:
 - visual-cortex-hierarchical-organization
