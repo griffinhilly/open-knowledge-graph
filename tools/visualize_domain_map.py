@@ -773,6 +773,7 @@ canvas {{ display:block; touch-action:none; }}
   <button onclick="zoomBtn(1.3)">+</button>
   <button onclick="zoomBtn(0.7)">&minus;</button>
   <button id="fluencyBtn" onclick="toggleFluency()">Fluency</button>
+  <a href="domain-quiz.html?domain={domain}" style="display:inline-block;padding:4px 12px;background:#7c4dff;color:#fff;border-radius:4px;text-decoration:none;font-size:13px;font-family:inherit;cursor:pointer;border:none;">Test Your Knowledge</a>
 </div>
 <div id="tooltip"></div>
 <div id="panel"></div>

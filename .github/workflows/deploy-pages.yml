@@ -57,6 +57,12 @@ jobs:
       - name: Generate quiz page
         run: python tools/generate_quiz_page.py
 
+      - name: Generate domain question banks
+        run: python tools/generate_domain_questions.py
+
+      - name: Generate domain quiz page
+        run: python tools/generate_domain_quiz.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
