@@ -2,29 +2,29 @@
 
 ## Current State
 
-**13,987 topics** across 19 domains, **229 courses**. Radial graph shows 18 domains (practical-life-skills excluded).
+**14,042 topics** across 19 domains, **229 courses**. Radial graph shows 18 domains (practical-life-skills excluded).
 
-**Last session (Mar 30, 2026) — Quality combing:**
-- *_domain.yml reconciliation*: 79 course stages fixed across 17 domains using modal-stage logic (all 194 courses now aligned). Tool: `reconcile_domain_stages.py`.
-- *Dedup*: 15 topic pairs merged (8 normalized-match + 7 philosophy-of-science semantic). 57 refs updated, 2 dedup-induced cycles fixed.
-- *Quality spot-check*: 825 new P0/P1 topics checked — 100% schema/content compliant. 121 dangling prereqs (generic ID names, known pattern).
-- *P1 completion*: commutative-algebra 13->25, representation-theory 16->25, stochastic-processes 21->25 (+25 topics).
-- *Tooling*: Built `reconcile_domain_stages.py`, `spot_check_new_topics.py`.
+**Last session (Mar 31, 2026) — Gap-based topic expansion + prereq fixes:**
+- *Gap analysis*: Evaluated all 10 under-target P1 courses for genuine coverage gaps (not arbitrary 25-topic quotas). Courses need 26-34 topics depending on field.
+- *55 new topics* across 10 courses: advanced-algorithms(+10), formal-methods(+7), systems-biology(+6), structural-biology(+5), materials-chemistry(+6), health-economics(+6), IO-psychology(+4), behavioral-economics(+4), labor-economics(+5), demography(+2).
+- *Dangling prereq fixes*: Built `map_dangling_prereqs.py`. Full graph has 506 dangling refs (269 unique IDs) — not just the 121 in P0/P1 topics. 13 high-confidence fixes applied (0.93 threshold), 24 files modified, 1 exposed cycle resolved (pH→buffer soft prereq removed). 482 remaining need manual review.
+- *Tooling*: Built `map_dangling_prereqs.py` (find, score, auto-fix dangling prereq IDs).
+- *55 new topics NOT yet quality-reviewed* — spot-check needed next session.
 
 **Known issues:**
-- **121 dangling prereqs** in new P0/P1 topics (generic IDs like `probability-theory`, `special-relativity` that don't match actual topic file IDs). Needs ID mapping pass.
-- **~966 near-duplicate pairs** detected by find_near_duplicates.py across all domains (mostly false positives — prefix/similarity matches on legitimately distinct topics). High-confidence pairs resolved; remaining need manual triage.
+- **482 dangling prereqs** remaining (269 unique IDs, 482 refs). Use `map_dangling_prereqs.py --threshold 0.93` for safe auto-fix; 0.85 produces false positives on generic terms.
+- **~966 near-duplicate pairs** detected by find_near_duplicates.py (mostly false positives). High-confidence pairs resolved; remaining need manual triage.
 - Quiz HTML is 5.8MB due to embedded prereq graph
 - T/F mechanical rewrites may have made some false statements arguably true (~4,470 questions)
-- 79 topics lost T/F fixes in merge conflicts
+- _domain.yml course stages may be stale for courses that received new topics (79 stages reconciled Mar 30, but 55 new topics added Mar 31)
 - Index page + quiz not yet mobile-optimized
 - Radial mouse/touch handler duplication
 
 **Next steps:**
-1. **P2 topic generation** (~550-715 topics, 6 new courses + ~50 extensions to existing courses)
-2. **P1 extensions** (~80-105 topics: set-theory, classical-mechanics, organic-chemistry, epigenetics, pop gen, biochemistry, volcanology)
-3. **Dangling prereq mapping** — map 121 generic IDs to actual topic file IDs
-4. **T/F semantic spot-check** + 79 merge-conflict topics
+1. **Quality review** of 55 new topics from Mar 31 session (spot-check with `spot_check_new_topics.py`)
+2. **Dangling prereq manual review** — 482 remaining refs, medium/low confidence matches
+3. **T/F semantic spot-check** (~4,470 rewritten questions, high-risk: `only→primarily`, `entirely→mostly`, `cannot→can rarely`)
+4. **P2 topic generation** (~550-715 topics, 6 new courses + ~50 extensions to existing courses)
 5. **Phase 9D**: Landing page redesign, domain toggle on radial, progress bars, guided learning paths
 6. Write announcement post
 
