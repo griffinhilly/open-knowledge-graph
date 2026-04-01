@@ -26,7 +26,7 @@ tags:
 - terminology
 - body-planes
 - organization
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

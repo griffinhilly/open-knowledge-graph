@@ -41,15 +41,15 @@ Read aloud regularly and ask questions at multiple levels: literal ("What color 
   answer: 1
   explanation: "The story says the bird flew to the tree 'because it started raining' and then 'hid under the leaves until the rain stopped.' Understanding why the bird moved requires connecting the cause (rain) with the action (flying to the tree). This is listening comprehension — making meaning from what you hear, not just hearing the words."
 
-- question: "Which of the following best describes what a child is doing when they listen to a story being read aloud?"
+- question: "Sam heard a story about a dog that ran outside when the door opened, then got lost in the rain. Why did the dog get lost?"
   type: multiple-choice
   options:
-    - "Passively recording the speaker's words in short-term memory"
-    - "Actively building a mental model of events, causes, and relationships described in the story"
-    - "Matching each new word to its dictionary definition one by one"
-    - "Storing sounds that will be processed for meaning later, after the story ends"
-  answer: 1
-  explanation: "Listening comprehension is an active construction process. The listener uses vocabulary, background knowledge, and inference to build a mental model — a representation of the scene, its characters, and their relationships. This happens in real time, not after the fact. A child who merely records sounds without building meaning is not comprehending; comprehension requires active mental engagement at every moment."
+    - "Because the dog was hungry"
+    - "Because the dog ran outside and then it started raining"
+    - "Because someone closed the door"
+    - "Because the rain made it hard for the dog to find its way back"
+  answer: 3
+  explanation: "The story says the dog ran outside and then got lost in the rain. Rain can make it hard to see and smell, so the dog could not find its way back home. Answering this means you listened to the story, remembered the events, and figured out how they connect — that is listening comprehension."
 
 - question: "Listening comprehension is passive — children who can hear clearly and recognize most of the vocabulary words in a sentence will automatically understand its full meaning."
   type: true-false
