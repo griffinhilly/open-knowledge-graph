@@ -4,7 +4,7 @@ title: Harmonic vs. Melodic Intervals
 domain: music
 course: music-theory-fundamentals
 prerequisites:
-- id: interval-basics
+- id: intervals-basics
   type: hard
 - id: interval-quality
   type: hard

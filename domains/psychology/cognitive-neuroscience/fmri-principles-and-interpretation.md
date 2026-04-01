@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: normal-distribution
   type: soft
-- id: hypothesis-testing-framework
+- id: hypothesis-test-framework
   type: soft
 - id: statistical-inference-significance-testing
   type: soft

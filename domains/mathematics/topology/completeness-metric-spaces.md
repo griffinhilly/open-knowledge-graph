@@ -6,7 +6,7 @@ course: topology
 prerequisites:
 - id: metric-topology
   type: hard
-- id: cauchy-sequences-and-completeness
+- id: cauchy-sequences-completeness
   type: hard
 builds-toward:
 - contraction-mapping-theorem

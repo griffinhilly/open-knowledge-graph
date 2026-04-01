@@ -16,7 +16,7 @@ prerequisites:
   type: soft
 - id: confidence-intervals-means
   type: soft
-- id: hypothesis-testing-framework
+- id: hypothesis-test-framework
   type: soft
 - id: chi-square-test
   type: soft

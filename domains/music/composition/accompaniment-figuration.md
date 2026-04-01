@@ -6,7 +6,7 @@ course: composition
 prerequisites:
 - id: harmonic-progression-voice-leading
   type: hard
-- id: rhythmic-pattern-completion
+- id: rhythm-pattern-completion
   type: soft
 tags:
 - accompaniment

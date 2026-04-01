@@ -6,7 +6,7 @@ course: comparative-literature
 prerequisites:
 - id: literary-criticism-overview
   type: hard
-- id: poststructuralism
+- id: post-structuralism
   type: soft
 - id: formal-pragmatics-context
   type: soft

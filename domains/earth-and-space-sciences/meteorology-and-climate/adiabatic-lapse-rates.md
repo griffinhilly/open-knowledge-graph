@@ -6,7 +6,7 @@ course: meteorology-and-climate
 prerequisites:
 - id: thermal-structure-of-atmosphere
   type: hard
-- id: latent-heat-and-phase-changes
+- id: latent-heat-and-phase-change
   type: hard
 - id: ideal-gas-law
   type: soft

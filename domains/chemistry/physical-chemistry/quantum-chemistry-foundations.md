@@ -22,7 +22,7 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: hard
-- id: wave-function-and-probability
+- id: wavefunction-and-probability
   type: hard
 builds-toward:
 - born-oppenheimer-approximation

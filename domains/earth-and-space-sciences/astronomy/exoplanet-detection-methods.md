@@ -14,7 +14,7 @@ prerequisites:
   type: soft
 - id: binomial-distribution
   type: soft
-- id: hypothesis-testing-framework
+- id: hypothesis-test-framework
   type: soft
 tags:
 - exoplanets

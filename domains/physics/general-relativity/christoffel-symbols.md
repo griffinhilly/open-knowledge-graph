@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: curved-spacetime-metric-tensor
   type: hard
-- id: connections-covariant-derivative
+- id: connections-and-covariant-derivative
   type: hard
 tags:
 - christoffel-symbols

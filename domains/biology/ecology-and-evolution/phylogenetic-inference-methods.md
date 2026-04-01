@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 - id: statistical-inference
   type: soft
-- id: hypothesis-testing-framework
+- id: hypothesis-test-framework
   type: soft
 - id: bayesian-inference-intro
   type: soft

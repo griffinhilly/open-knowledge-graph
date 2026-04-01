@@ -6,7 +6,7 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: lebesgue-integral
   type: hard
-- id: riemann-integral-via-darboux-sums
+- id: riemann-integral-darboux-sums
   type: hard
 - id: measurable-functions
   type: soft

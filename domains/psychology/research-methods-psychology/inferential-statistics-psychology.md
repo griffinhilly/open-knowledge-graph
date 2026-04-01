@@ -28,7 +28,7 @@ prerequisites:
   type: soft
 - id: confidence-intervals-framework
   type: soft
-- id: hypothesis-testing-framework
+- id: hypothesis-test-framework
   type: hard
 builds-toward:
 - effect-size-and-power

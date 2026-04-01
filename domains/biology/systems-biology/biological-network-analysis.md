@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: protein-protein-interactions
   type: hard
-- id: graph-representations
+- id: graph-representation
   type: soft
 builds-toward:
 - network-motifs

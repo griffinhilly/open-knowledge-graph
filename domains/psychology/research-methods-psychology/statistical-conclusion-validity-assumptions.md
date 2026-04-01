@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: effect-size-and-power
   type: hard
-- id: hypothesis-testing-framework
+- id: hypothesis-test-framework
   type: soft
 - id: type-i-type-ii-error-tradeoffs
   type: soft

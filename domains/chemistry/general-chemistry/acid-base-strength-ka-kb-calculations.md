@@ -8,7 +8,7 @@ prerequisites:
   type: soft
 - id: weak-base-ionization
   type: soft
-- id: pH-and-acid-base-calculations
+- id: ph-and-acid-base-calculations
   type: hard
 - id: logarithm-properties
   type: hard

@@ -6,7 +6,7 @@ course: topology
 prerequisites:
 - id: metric-topology-from-metric
   type: hard
-- id: cauchy-sequences-and-completeness
+- id: cauchy-sequences-completeness
   type: soft
 - id: sequences-convergence-topology
   type: soft

@@ -4,7 +4,7 @@ title: Latent Heat and Water Phase Transitions
 domain: earth-and-space-sciences
 course: meteorology-and-climate
 prerequisites:
-- id: latent-heat-and-phase-changes
+- id: latent-heat-and-phase-change
   type: hard
 - id: kinetic-molecular-theory
   type: soft

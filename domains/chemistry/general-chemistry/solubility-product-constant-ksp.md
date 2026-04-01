@@ -6,7 +6,7 @@ course: general-chemistry
 prerequisites:
 - id: solubility-equilibria
   type: hard
-- id: reaction-quotient
+- id: reaction-quotient-q
   type: hard
 builds-toward:
 - common-ion-effect

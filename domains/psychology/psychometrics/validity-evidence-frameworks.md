@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: content-validity-judgment
   type: soft
-- id: hypothesis-testing-framework
+- id: hypothesis-test-framework
   type: soft
 - id: confidence-intervals-framework
   type: soft
