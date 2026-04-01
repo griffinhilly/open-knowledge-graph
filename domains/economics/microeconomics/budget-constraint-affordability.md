@@ -12,7 +12,7 @@ tags:
 - income
 - prices
 - affordability
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

@@ -1966,15 +1966,15 @@ function renderFrontier(container, graph, effectiveScores) {
   if (typeof OKGFluency === 'undefined' || !OKGFluency) return;
   if (!graph || Object.keys(graph).length === 0) return;
   // Weight frontier by domains the user explored/deep-dived
-  const domainWeights = {{}};
+  const domainWeights = {};
   const perf = domainPerformance();
-  for (const d in perf) {{
+  for (const d in perf) {
     if (perf[d].total > 0) domainWeights[d] = 1.5;  // explored
-  }}
-  for (const a of S.deepAnswers) {{
+  }
+  for (const a of S.deepAnswers) {
     domainWeights[a.domain] = 2.0;  // deep-dived gets stronger boost
-  }}
-  const frontierIds = OKGFluency.findFrontier(graph, effectiveScores, {{preferredDomains: domainWeights}});
+  }
+  const frontierIds = OKGFluency.findFrontier(graph, effectiveScores, {preferredDomains: domainWeights});
   if (!frontierIds || frontierIds.length === 0) return;
 
   const top20 = frontierIds.slice(0, 20);

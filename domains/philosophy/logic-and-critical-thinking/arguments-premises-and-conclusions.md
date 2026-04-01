@@ -39,8 +39,8 @@ Identify premises and conclusions in everyday arguments. Ask: 'What is the speak
 
 - question: "The conclusion of an argument is expected to generally appear at the end of the passage."
   type: true-false
-  answer: false
-  explanation: "Conclusions can appear anywhere — at the beginning, middle, or end. A conclusion is identified not by its position but by its role: it is the statement the premises are meant to support. Indicator words like 'therefore,' 'so,' 'thus,' and 'hence' help locate conclusions regardless of position."
+  answer: true
+  explanation: "Conclusions most commonly appear at the end of a passage, following the premises that support them — this is the natural 'because X, therefore Y' structure. However, conclusions can also appear at the beginning or middle. They are ultimately identified by their logical role (the claim the premises support), not strictly by position, but end-of-passage is the typical default."
 
 - question: "What is the difference between a premise and a conclusion in an argument?"
   type: short-answer

@@ -23,9 +23,9 @@
 **Next steps:**
 1. **Quality review** of 55 new topics from Mar 31 session (spot-check with `spot_check_new_topics.py`)
 2. **Dangling prereq manual review** — 482 remaining refs, medium/low confidence matches
-3. **T/F semantic spot-check** (~4,470 rewritten questions, high-risk: `only→primarily`, `entirely→mostly`, `cannot→can rarely`)
+3. **Question quality audit** (see Phase 10 below)
 4. **P2 topic generation** (~550-715 topics, 6 new courses + ~50 extensions to existing courses)
-5. **Phase 9D**: Landing page redesign, domain toggle on radial, progress bars, guided learning paths
+5. **Phase 9D** (remaining): domain toggle on radial, progress bars, guided learning paths
 6. Write announcement post
 
 ## Phase 1: Foundation — DONE
@@ -288,5 +288,39 @@ Transform OKG from a static knowledge map into an interactive learning tool. Ins
 - [ ] Course-level progress bars on hierarchy views and index page
 - [ ] Guided learning paths (topological sort of uncompleted topics, goal-directed pathfinding)
 - [ ] "Why this topic?" tooltips (downstream fan-out, goal dependencies)
-- [ ] Export/import progress as JSON (cross-device transfer)
+- [x] Export/import progress as JSON (cross-device transfer) — Apr 1, 2026
+- [x] Redesign index page: hero CTAs, domain grid with hue accents, practical-life-skills separated — Apr 1, 2026
+- [x] Link "Personalize Your Map" to quiz instead of self-rating assessment — Apr 1, 2026
 - [ ] Shareable profile URLs (stretch — start with JSON export)
+
+## Phase 10: Question Quality Audit — PLANNED
+
+Systematic audit of the ~65K question bank. Five issue patterns identified during Apr 1 quiz testing:
+
+### 10A: T/F Hedging Audit
+T/F questions where answer=false but the statement contains hedging language (generally, typically, usually, often, tends to) — the hedge likely makes the statement true. ~4,470 questions from the earlier `only→primarily`, `entirely→mostly`, `cannot→can rarely` rewrite batch are highest risk.
+- [ ] Build audit script: scan all T/F questions with answer=false for hedging words
+- [ ] Review flagged questions, flip answer to true or rewrite to be unambiguously false
+- [ ] Regenerate quiz data after fixes
+
+### 10B: Meta-Pedagogical Questions
+Questions that test "do you understand how learning works" rather than the subject itself. Pattern: questions framed around what a child/student/learner knows or what a teacher should do, instead of testing the content directly.
+- [ ] Build audit script: scan for meta-pedagogical patterns (child's knowledge of, what can we say about the learner, what does this reveal about understanding)
+- [ ] Rewrite flagged questions to test direct competency at the topic's stage level
+- [ ] Priority: warmup pool (228 questions) and exploration pool at pre-formal/concrete-operations
+
+### 10C: Stage-Content Mismatch
+Topics where the declared stage doesn't match the actual content/question difficulty. College-level topics at concrete-operations, etc. The Mar 30 restaging pass (1,446 topics) fixed most cases, but some slipped through (e.g., microeconomics topics with formal notation at concrete-ops).
+- [ ] Build audit script: LLM judge — for each topic, ask "Is this question answerable by someone at [declared stage] level?" Flag mismatches.
+- [ ] Focus on concrete-operations and pre-formal first (these appear in early quiz tiers)
+- [ ] Restage flagged topics, regenerate quiz
+
+### 10D: Double Questions
+Questions that ask two things but the answer options only address one (e.g., "How many are left? Which operation?").
+- [ ] Build audit script: scan for questions with multiple question marks or compound question structure
+- [ ] Rewrite to ask one clear thing
+
+### 10E: Stale Quiz Data Prevention
+Quiz was generated Mar 25 but staging fixes landed Mar 26-31. No mechanism prevented this drift.
+- [ ] Add quiz regeneration to the pre-push hook or CI pipeline so quiz data always reflects current topic state
+- [ ] Or: add a staleness check that compares assessment-questions.json timestamp against most recent topic file modification

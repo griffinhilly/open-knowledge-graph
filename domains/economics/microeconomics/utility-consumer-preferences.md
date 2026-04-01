@@ -13,7 +13,7 @@ tags:
 - preferences
 - satisfaction
 - consumer-behavior
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

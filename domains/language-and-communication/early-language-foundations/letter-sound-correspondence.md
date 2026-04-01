@@ -39,9 +39,9 @@ Teach one or two letter-sound pairs at a time using a keyword picture (a = apple
 ```yaml
 - question: "Which word is spelled using the correct letter-sound matches, even if the spelling is not the standard one?"
   type: multiple-choice
-  options: ["Spelling 'dog' as 'QZR'", "Spelling 'fish' as 'FIH'", "Spelling 'sun' as 'SUN'", "Spelling 'map' as 'TBK'"]
+  options: ["Spelling 'dog' as 'QZR'", "Spelling 'fish' as 'FIH'", "Spelling 'son' as 'SUN'", "Spelling 'map' as 'TBK'"]
   answer: 2
-  explanation: "In 'SUN,' each letter matches the sound it represents: S makes /s/, U makes /uh/, N makes /n/. The other wrong options either use letters that don't match the sounds at all (QZR for 'dog,' TBK for 'map') or miss a sound (FIH drops the /sh/ sound). Letter-sound correspondence means each letter represents a sound in the word — even if the spelling isn't the standard one, the sounds should match."
+  explanation: "In 'SUN' for the word 'son,' each letter matches the sound it represents: S makes /s/, U makes /uh/, N makes /n/. The standard spelling 'son' uses an O for the /uh/ sound, but 'SUN' maps the sounds correctly. The other options either use letters that don't match the sounds at all (QZR for 'dog,' TBK for 'map') or miss a sound (FIH drops the /sh/ sound). Letter-sound correspondence means each letter represents a sound in the word."
 
 - question: "What is the alphabetic principle?"
   type: multiple-choice

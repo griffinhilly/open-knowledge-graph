@@ -23,7 +23,7 @@ Word problems present real-world situations requiring addition or subtraction. U
 ## Questions
 
 ```yaml
-- question: "Maya has 9 stickers. She gives 4 to her friend. How many does she have left? Which operation solves this?"
+- question: "Maya has 9 stickers. She gives 4 to her friend. Which operation solves this?"
   type: multiple-choice
   options:
     - "Addition, because stickers are being counted"

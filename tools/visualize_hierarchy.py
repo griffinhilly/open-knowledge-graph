@@ -2171,16 +2171,38 @@ document.addEventListener("keydown", (e) => {{
 
 
 def generate_index_html(domains_info):
-    """Generate an index page linking to all domain visualizations."""
+    """Generate a landing page with hero CTAs, domain grid, and export/import UI."""
+    # Radial hues (0-360) for consistent domain colors across site
+    radial_hues = {
+        "mathematics": 5, "formal-sciences-and-logic": 157,
+        "philosophy": 309, "computer-science": 100,
+        "engineering": 252, "physics": 43,
+        "earth-and-space-sciences": 195, "chemistry": 347,
+        "biology": 138, "health-and-human-development": 290,
+        "psychology": 81, "social-sciences": 233,
+        "economics": 24, "practical-life-skills": 176,
+        "history": 328, "language-and-communication": 119,
+        "literature": 271, "arts-and-aesthetics": 62,
+        "music": 214,
+    }
+
+    MISC_DOMAINS = {"practical-life-skills"}
+
     rows = ""
+    misc_rows = ""
     total_topics = 0
     total_edges = 0
     for domain, info in sorted(domains_info.items()):
         label = smart_title(domain)
-        rows += f'<a href="{domain}-map.html" class="domain-card">'
-        rows += f'<h3>{label}</h3>'
-        rows += f'<p>{info["topics"]} topics &middot; {info["edges"]} edges &middot; {info["courses"]} courses</p>'
-        rows += '</a>\n'
+        hue = radial_hues.get(domain, 0)
+        card = f'<a href="{domain}-map.html" class="domain-card" style="border-left:3px solid hsl({hue},60%,55%)">'
+        card += f'<h3>{label}</h3>'
+        card += f'<p>{info["topics"]} topics &middot; {info["courses"]} courses</p>'
+        card += '</a>\n'
+        if domain in MISC_DOMAINS:
+            misc_rows += card
+        else:
+            rows += card
         total_topics += info["topics"]
         total_edges += info["edges"]
 
@@ -2188,50 +2210,273 @@ def generate_index_html(domains_info):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Open Knowledge Graph</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{
   background:#1a1a2e; color:#ccc;
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-  padding:40px;
+  min-height:100vh;
 }}
-h1 {{ color:#eee; margin-bottom:8px; font-size:28px; }}
-.subtitle {{ color:#777; margin-bottom:30px; font-size:14px; }}
+
+/* Hero */
+.hero {{
+  text-align:center; padding:60px 24px 48px;
+  max-width:900px; margin:0 auto;
+}}
+.hero h1 {{
+  color:#eee; font-size:clamp(28px, 5vw, 42px);
+  margin-bottom:12px; font-weight:700; letter-spacing:-0.5px;
+}}
+.tagline {{
+  color:#999; font-size:clamp(14px, 2.5vw, 18px); line-height:1.5;
+  max-width:640px; margin:0 auto 40px;
+}}
+.tagline strong {{ color:#bbb; }}
+
+/* CTA cards */
+.cta-row {{
+  display:grid; grid-template-columns:1fr 1fr; gap:20px;
+  max-width:700px; margin:0 auto;
+}}
+@media (max-width:600px) {{ .cta-row {{ grid-template-columns:1fr; }} }}
+.cta {{
+  display:block; text-decoration:none; border-radius:12px;
+  padding:28px 24px; text-align:left;
+  transition:transform 0.15s, box-shadow 0.15s;
+}}
+.cta:hover {{ transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,0.3); }}
+.cta h2 {{ font-size:18px; margin-bottom:8px; }}
+.cta p {{ font-size:13px; line-height:1.5; }}
+
+.cta-explore {{
+  background:linear-gradient(135deg, rgba(40,70,110,0.7), rgba(30,55,90,0.5));
+  border:1px solid rgba(74,158,255,0.3);
+}}
+.cta-explore h2 {{ color:#8ac4ff; }}
+.cta-explore p {{ color:#8899aa; }}
+
+.cta-personalize {{
+  background:linear-gradient(135deg, rgba(75,40,90,0.7), rgba(55,30,70,0.5));
+  border:1px solid rgba(180,100,220,0.3);
+}}
+.cta-personalize h2 {{ color:#d4a0ee; }}
+.cta-personalize p {{ color:#9988aa; }}
+
+/* Progress section */
+.progress-section {{
+  max-width:700px; margin:0 auto 8px; padding:0 24px;
+}}
+.progress-card {{
+  background:rgba(40,50,40,0.5); border:1px solid rgba(100,180,100,0.2);
+  border-radius:10px; padding:20px 24px;
+  display:flex; align-items:center; justify-content:space-between;
+  flex-wrap:wrap; gap:16px;
+}}
+.progress-info h3 {{ color:#8bc48b; font-size:15px; margin-bottom:4px; }}
+.progress-info p {{ color:#889988; font-size:13px; }}
+.progress-actions {{ display:flex; gap:8px; flex-wrap:wrap; }}
+
+/* Buttons */
+.btn {{
+  padding:7px 16px; border-radius:6px; border:1px solid;
+  font-size:13px; cursor:pointer; transition:background 0.15s;
+  font-family:inherit;
+}}
+.btn-outline {{
+  background:transparent; border-color:#555; color:#aaa;
+}}
+.btn-outline:hover {{ background:rgba(255,255,255,0.06); border-color:#777; }}
+.btn-danger {{
+  background:transparent; border-color:rgba(180,60,60,0.4); color:#c77;
+}}
+.btn-danger:hover {{ background:rgba(180,60,60,0.15); }}
+.btn-success {{
+  background:rgba(60,120,60,0.3); border-color:rgba(100,180,100,0.3); color:#8bc48b;
+}}
+
+/* Status message */
+.status-msg {{
+  font-size:12px; padding:6px 12px; border-radius:4px; margin-top:8px;
+  display:none; width:100%; text-align:center;
+}}
+.status-msg.ok {{ display:block; background:rgba(40,80,40,0.3); color:#8bc48b; }}
+.status-msg.err {{ display:block; background:rgba(80,40,40,0.3); color:#c88; }}
+
+/* Domain grid */
+.section {{
+  max-width:900px; margin:0 auto; padding:40px 24px 24px;
+}}
+.section-title {{
+  color:#888; font-size:13px; text-transform:uppercase;
+  letter-spacing:1.5px; margin-bottom:16px; font-weight:600;
+}}
 .grid {{
-  display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));
-  gap:16px; max-width:1200px;
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));
+  gap:12px;
 }}
 .domain-card {{
   display:block; text-decoration:none;
-  background:rgba(40,40,70,0.6); border:1px solid #333;
-  border-radius:8px; padding:16px 20px;
-  transition:border-color 0.2s, background 0.2s;
+  background:rgba(40,40,70,0.5); border:1px solid #2a2a44;
+  border-radius:8px; padding:14px 16px;
+  transition:border-color 0.15s, background 0.15s;
 }}
 .domain-card:hover {{
-  border-color:#666; background:rgba(50,50,80,0.8);
+  border-color:#555; background:rgba(50,50,80,0.7);
 }}
-.domain-card h3 {{ color:#ddd; font-size:16px; margin-bottom:4px; }}
-.domain-card p {{ color:#888; font-size:12px; }}
-.full-link {{
-  display:inline-block; margin-top:24px; padding:10px 20px;
-  background:#2a2a5a; border:1px solid #555; border-radius:6px;
-  color:#ccc; text-decoration:none; font-size:14px;
+.domain-card h3 {{ color:#ddd; font-size:14px; margin-bottom:3px; }}
+.domain-card p {{ color:#777; font-size:11px; }}
+
+/* Footer */
+.footer {{
+  max-width:900px; margin:0 auto; padding:32px 24px 48px;
+  display:flex; gap:20px; flex-wrap:wrap; align-items:center;
 }}
-.full-link:hover {{ background:#3a3a6a; border-color:#777; }}
+.footer a {{
+  color:#667; text-decoration:none; font-size:13px;
+  transition:color 0.15s;
+}}
+.footer a:hover {{ color:#99a; }}
+.footer .sep {{ color:#444; }}
+
+/* File input */
+#import-file {{ display:none; }}
 </style>
 </head>
 <body>
-<h1>Open Knowledge Graph</h1>
-<p class="subtitle">{total_topics} topics across {len(domains_info)} domains &middot; {total_edges} prerequisite edges</p>
-<div class="grid">
-{rows}
+
+<div class="hero">
+  <h1>Open Knowledge Graph</h1>
+  <p class="tagline">
+    <strong>{total_topics:,}</strong> topics across <strong>{len(domains_info)} domains</strong> of human knowledge
+    &mdash; from kindergarten math to quantum field theory &mdash;
+    all connected by prerequisite relationships.
+  </p>
+  <div class="cta-row">
+    <a class="cta cta-explore" href="radial-graph.html">
+      <h2>Explore the Map</h2>
+      <p>Browse the full knowledge graph. See how domains connect, zoom into courses, and click any topic to learn more.</p>
+    </a>
+    <a class="cta cta-personalize" href="quiz.html">
+      <h2>Personalize Your Map</h2>
+      <p>Answer trivia questions across every domain. Your map will color by mastery, revealing your learning frontier.</p>
+    </a>
+  </div>
 </div>
-<div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
-<a href="quiz.html" class="full-link" style="background:#2a3a5a; border-color:#4a9eff;">Knowledge Trivia</a>
-<a href="assessment.html" class="full-link" style="background:#3a2a3a;">Placement Assessment</a>
-<a href="radial-graph.html" class="full-link" style="background:#3a2a6a;">View Radial Graph (All Domains)</a>
+
+<div class="progress-section" id="progress-section" style="display:none">
+  <div class="progress-card">
+    <div class="progress-info">
+      <h3>Welcome back</h3>
+      <p id="progress-summary"></p>
+    </div>
+    <div class="progress-actions">
+      <button class="btn btn-success" onclick="location.href='quiz.html'">Continue Quiz</button>
+      <button class="btn btn-outline" id="btn-export">Export</button>
+      <button class="btn btn-outline" id="btn-import">Import</button>
+      <button class="btn btn-danger" id="btn-reset">Reset</button>
+      <input type="file" id="import-file" accept=".json">
+    </div>
+  </div>
+  <div class="status-msg" id="status-msg"></div>
 </div>
+
+<div class="section">
+  <h2 class="section-title">Browse by Domain</h2>
+  <div class="grid">
+{rows}  </div>
+</div>
+
+<div class="section" style="padding-top:16px">
+  <h2 class="section-title">Other</h2>
+  <div class="grid">
+{misc_rows}  </div>
+</div>
+
+<div class="footer">
+  <a href="quiz.html">Knowledge Trivia</a>
+  <span class="sep">&middot;</span>
+  <a href="radial-graph.html">Radial Graph</a>
+  <span class="sep">&middot;</span>
+  <a href="https://github.com/griffinhilly/open-knowledge-graph">GitHub</a>
+</div>
+
+<script src="js/fluency.js"></script>
+<script>
+(function() {{
+  if (typeof OKGFluency === 'undefined') return;
+
+  var stats = OKGFluency.summary();
+  if (stats.totalTracked === 0 && stats.totalAnswered === 0) return;
+
+  // Show progress section
+  var section = document.getElementById('progress-section');
+  section.style.display = '';
+
+  // Build summary text
+  var parts = [];
+  if (stats.totalTracked > 0) parts.push(stats.totalTracked + ' topics tracked');
+  if (stats.totalAnswered > 0) parts.push(stats.totalAnswered + ' questions answered');
+  if (stats.averageFluency > 0) parts.push('avg fluency ' + stats.averageFluency + '%');
+  document.getElementById('progress-summary').textContent = parts.join(' \u00b7 ');
+
+  var statusEl = document.getElementById('status-msg');
+  function showStatus(msg, ok) {{
+    statusEl.textContent = msg;
+    statusEl.className = 'status-msg ' + (ok ? 'ok' : 'err');
+    if (ok) setTimeout(function() {{ statusEl.className = 'status-msg'; }}, 3000);
+  }}
+
+  // Export
+  document.getElementById('btn-export').addEventListener('click', function() {{
+    var data = OKGFluency.exportData();
+    var json = JSON.stringify(data, null, 2);
+    var blob = new Blob([json], {{type: 'application/json'}});
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'okg-progress-' + new Date().toISOString().slice(0, 10) + '.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showStatus('Progress exported.', true);
+  }});
+
+  // Import
+  var fileInput = document.getElementById('import-file');
+  document.getElementById('btn-import').addEventListener('click', function() {{
+    fileInput.click();
+  }});
+  fileInput.addEventListener('change', function() {{
+    var file = this.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function(e) {{
+      try {{
+        var data = JSON.parse(e.target.result);
+        OKGFluency.importData(data);
+        showStatus('Progress imported. Reloading...', true);
+        setTimeout(function() {{ location.reload(); }}, 800);
+      }} catch (err) {{
+        showStatus('Import failed: ' + err.message, false);
+      }}
+    }};
+    reader.readAsText(file);
+    this.value = '';
+  }});
+
+  // Reset
+  document.getElementById('btn-reset').addEventListener('click', function() {{
+    if (!confirm('Reset all progress? This cannot be undone.')) return;
+    OKGFluency.resetAll('RESET');
+    showStatus('Progress reset. Reloading...', true);
+    setTimeout(function() {{ location.reload(); }}, 800);
+  }});
+}})();
+</script>
+
 </body>
 </html>"""
 

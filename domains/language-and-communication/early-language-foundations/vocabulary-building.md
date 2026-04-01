@@ -40,15 +40,15 @@ Read aloud frequently, pausing to explain unfamiliar words using child-friendly 
   answer: 2
   explanation: "'Enormous' means very, very big — much bigger than normal. An enormous elephant would be an especially large elephant. 'Tiny' means the opposite (very small). 'Fast' describes speed, not size. 'Scary' describes something frightening. Learning what words mean is the heart of vocabulary building."
 
-- question: "A child hears the word 'enormous' for the first time in a bedtime story. What can we accurately say about the child's knowledge of that word?"
+- question: "If someone says 'The furious wind knocked down the trees,' what does 'furious' most likely mean here?"
   type: multiple-choice
   options:
-    - "The word is now part of their active vocabulary"
-    - "The child has formed a partial, initial representation that needs reinforcement across more exposures to become robust"
-    - "The child will not remember the word unless it is explicitly taught in a formal lesson"
-    - "The child understands the word fully because children learn language naturally"
+    - "Gentle and quiet"
+    - "Very strong and wild"
+    - "Cold and icy"
+    - "Slow and steady"
   answer: 1
-  explanation: "This is fast mapping — children can form an initial rough sketch of a word after one exposure, but that sketch is fragile and incomplete. It must be filled in through repeated encounters (typically 10–15) before the word is genuinely consolidated. Fast mapping is the beginning of word learning, not the end of it."
+  explanation: "You can figure out what 'furious' means by looking at the rest of the sentence — wind that knocks down trees must be very strong and wild. Using the words around an unfamiliar word to guess its meaning is one of the most important ways to build your vocabulary."
 
 - question: "Vocabulary is most effectively taught through word lists because explicit memorization ensures children can define terms accurately."
   type: true-false
