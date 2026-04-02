@@ -807,7 +807,12 @@ const edgeData = data.edges.map(e => ({{
 
 let camX = 0, camY = 0, camScale = 1;
 function resetView() {{ camX = 0; camY = 0; camScale = 1; draw(); }}
-function zoomBtn(f) {{ camScale = Math.max(0.1, Math.min(20, camScale * f)); draw(); }}
+function zoomBtn(f) {{
+  const newScale = Math.max(0.1, Math.min(20, camScale * f));
+  const r = newScale / camScale;
+  camX *= r; camY *= r;  // anchor at viewport center
+  camScale = newScale; draw();
+}}
 
 // --- Fluency overlay ---
 let showFluency = false;
@@ -1310,7 +1315,12 @@ canvas.addEventListener("mousemove", (e) => {{
 canvas.addEventListener("wheel", (e) => {{
   e.preventDefault();
   const factor = e.deltaY > 0 ? 0.9 : 1.1;
-  camScale = Math.max(0.1, Math.min(20, camScale * factor));
+  const newScale = Math.max(0.1, Math.min(20, camScale * factor));
+  const r = newScale / camScale;
+  // Anchor zoom at cursor position
+  camX = camX * r + (e.clientX - W / 2) * (1 - r);
+  camY = camY * r + (e.clientY - H / 2) * (1 - r);
+  camScale = newScale;
   draw();
 }}, {{ passive: false }});
 
