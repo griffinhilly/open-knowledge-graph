@@ -14,7 +14,7 @@ tags:
 - stagflation
 - policy
 - tradeoff
-stage: advanced
+stage: expert
 status: validated
 ---
 # Stagflation and Policy Conflict

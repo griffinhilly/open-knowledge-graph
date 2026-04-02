@@ -14,7 +14,7 @@ tags:
 - information asymmetry
 - signaling
 - market equilibrium
-stage: advanced
+stage: expert
 status: validated
 ---
 # Signaling and Market Equilibrium with Asymmetric Information

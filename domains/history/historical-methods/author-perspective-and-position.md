@@ -15,7 +15,7 @@ tags:
 - bias
 - author
 - position
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

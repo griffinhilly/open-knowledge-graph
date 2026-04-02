@@ -17,7 +17,7 @@ tags:
 - anaphora
 - rhetoric
 - emphasis
-stage: advanced
+stage: expert
 status: validated
 ---
 # Repetition Devices and Rhetorical Emphasis

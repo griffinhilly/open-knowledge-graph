@@ -14,7 +14,7 @@ tags:
 - quantum
 - photons
 - radiation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

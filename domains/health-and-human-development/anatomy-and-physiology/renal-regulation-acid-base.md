@@ -18,7 +18,7 @@ tags:
 - bicarbonate-reabsorption
 - acid-secretion
 - ammonia-excretion
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Renal Regulation of Acid-Base Balance

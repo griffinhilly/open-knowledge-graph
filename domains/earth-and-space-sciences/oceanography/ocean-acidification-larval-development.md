@@ -14,7 +14,7 @@ tags:
 - sensory-disruption
 - recruitment-failure
 - metabolic-cost
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

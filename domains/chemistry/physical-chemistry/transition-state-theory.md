@@ -31,7 +31,7 @@ tags:
 - activation-enthalpy
 - activation-entropy
 - transmission-coefficient
-stage: advanced
+stage: expert
 status: validated
 ---
 

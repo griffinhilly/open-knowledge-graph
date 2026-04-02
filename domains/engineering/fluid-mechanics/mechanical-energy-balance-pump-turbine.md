@@ -18,7 +18,7 @@ tags:
 - pump-work
 - turbine-work
 - head
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Mechanical Energy Balance with Pump and Turbine Work

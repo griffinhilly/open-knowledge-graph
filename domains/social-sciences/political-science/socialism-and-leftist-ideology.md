@@ -15,7 +15,7 @@ tags:
 - equality
 - economic-justice
 - class-analysis
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -26,7 +26,7 @@ tags:
 - melting
 - pressure
 - temperature
-stage: advanced
+stage: expert
 status: validated
 ---
 # Magma Generation: Melting Conditions and Mechanisms

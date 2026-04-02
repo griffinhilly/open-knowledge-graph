@@ -12,7 +12,7 @@ tags:
 - international-order
 - stability
 - system
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

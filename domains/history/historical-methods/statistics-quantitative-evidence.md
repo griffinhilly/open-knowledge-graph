@@ -19,7 +19,7 @@ tags:
 - statistics
 - methodology
 - evidence
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Statistics and Quantitative Evidence in Historical Argument

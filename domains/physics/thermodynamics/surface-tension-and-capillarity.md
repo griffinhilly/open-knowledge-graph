@@ -14,7 +14,7 @@ tags:
 - interfaces
 - surface-effects
 - intermolecular-forces
-stage: advanced
+stage: expert
 status: validated
 ---
 # Surface Tension and Capillarity

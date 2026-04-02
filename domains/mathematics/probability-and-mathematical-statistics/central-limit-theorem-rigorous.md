@@ -20,7 +20,7 @@ tags:
 - central-limit-theorem
 - limit-theorems
 - probability
-stage: advanced
+stage: expert
 status: validated
 ---
 # Central Limit Theorem (Rigorous via Characteristic Functions)

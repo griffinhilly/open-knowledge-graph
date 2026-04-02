@@ -19,7 +19,7 @@ tags:
 - pressure
 - energy
 - compressible-flow
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Stagnation Pressure and Total Head

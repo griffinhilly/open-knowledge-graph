@@ -15,7 +15,7 @@ tags:
 - canonical-ensemble
 - partition-function
 - statistical-mechanics
-stage: advanced
+stage: expert
 status: validated
 ---
 

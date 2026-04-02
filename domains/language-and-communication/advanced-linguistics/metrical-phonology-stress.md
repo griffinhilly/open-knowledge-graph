@@ -12,7 +12,7 @@ tags:
 - phonology
 - stress
 - metrical
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - stability
 - equilibrium
 - classification
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

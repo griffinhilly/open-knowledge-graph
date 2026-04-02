@@ -17,7 +17,7 @@ tags:
 - Broca
 - Wernicke
 - corpus-callosum
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Hemispheric Lateralization

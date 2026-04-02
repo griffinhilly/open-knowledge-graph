@@ -18,7 +18,7 @@ tags:
 - exercise
 - stress
 - autoregulation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

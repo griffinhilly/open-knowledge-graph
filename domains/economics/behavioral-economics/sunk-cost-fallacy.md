@@ -12,7 +12,7 @@ tags:
 - sunk-costs
 - escalation-of-commitment
 - waste-aversion
-stage: advanced
+stage: expert
 status: validated
 ---
 

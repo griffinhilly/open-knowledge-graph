@@ -17,7 +17,7 @@ tags:
 - hyphenated-technique
 - compound-identification
 - quantitation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

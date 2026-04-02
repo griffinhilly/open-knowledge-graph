@@ -13,7 +13,7 @@ tags:
 - overtones
 - harmonics
 - timbre
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

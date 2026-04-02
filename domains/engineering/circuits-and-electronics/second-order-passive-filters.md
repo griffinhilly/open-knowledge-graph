@@ -17,7 +17,7 @@ tags:
 - damping
 - resonance
 - steeper-rolloff
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Second-Order Passive Filters

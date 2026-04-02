@@ -20,7 +20,7 @@ tags:
 - wind
 - three-cell-model
 - zonal
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Planetary Wind Circulation Cells and Their Drivers

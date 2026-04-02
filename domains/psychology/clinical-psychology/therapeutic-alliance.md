@@ -12,7 +12,7 @@ tags:
 - alliance
 - relationship
 - repair
-stage: advanced
+stage: expert
 status: validated
 ---
 

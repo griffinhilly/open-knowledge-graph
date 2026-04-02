@@ -19,7 +19,7 @@ tags:
 - modal-logic
 - knowledge-operators
 - belief
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - affinity-laws
 - scaling
 - similarity
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

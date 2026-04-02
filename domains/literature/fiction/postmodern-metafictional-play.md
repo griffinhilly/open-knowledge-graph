@@ -15,7 +15,7 @@ tags:
 - self-aware
 - playful
 - fragmentation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Postmodern Metafictional Play

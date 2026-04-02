@@ -10,7 +10,7 @@ tags:
 - quantum
 - atoms
 - periodic-table
-stage: advanced
+stage: expert
 status: validated
 ---
 

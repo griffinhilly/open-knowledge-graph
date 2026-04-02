@@ -19,7 +19,7 @@ tags:
 - peripheral-tolerance
 - regulatory-mechanisms
 - autoimmunity-prevention
-stage: advanced
+stage: expert
 status: validated
 ---
 

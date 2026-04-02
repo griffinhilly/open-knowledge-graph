@@ -16,7 +16,7 @@ tags:
 - accessibility-relations
 - modal-frames
 - properties
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Epistemic Accessibility Relations

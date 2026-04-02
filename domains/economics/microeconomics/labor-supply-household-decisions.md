@@ -12,7 +12,7 @@ tags:
 - labor economics
 - labor supply
 - household
-stage: advanced
+stage: expert
 status: validated
 ---
 

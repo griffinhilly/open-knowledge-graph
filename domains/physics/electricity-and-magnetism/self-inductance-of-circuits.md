@@ -15,7 +15,7 @@ tags:
 - inductance
 - self-inductance
 - EMF
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - trustees
 - responsiveness
 - constituent-service
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

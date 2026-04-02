@@ -16,7 +16,7 @@ tags:
 - umvue
 - unbiased-estimation
 - statistics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Uniformly Minimum Variance Unbiased Estimation (UMVUE)

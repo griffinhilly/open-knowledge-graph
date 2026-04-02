@@ -20,7 +20,7 @@ tags:
 - possible-worlds
 - necessity
 - semantics
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Modal Semantics and Possible Worlds

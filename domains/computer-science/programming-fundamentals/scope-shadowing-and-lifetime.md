@@ -14,7 +14,7 @@ tags:
 - scope
 - variables
 - lifetime
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Scope, Shadowing, and Variable Lifetime

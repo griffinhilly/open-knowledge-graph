@@ -12,7 +12,7 @@ tags:
 - hormone
 - gonad
 - pituitary
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Endocrine and Reproductive System Anatomy

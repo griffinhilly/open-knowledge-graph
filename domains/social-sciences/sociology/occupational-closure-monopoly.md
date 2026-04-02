@@ -14,7 +14,7 @@ tags:
 - monopoly
 - credentialism
 - parkin
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

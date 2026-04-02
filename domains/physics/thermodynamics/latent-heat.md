@@ -16,7 +16,7 @@ tags:
 - heat-of-vaporization
 - phase-change
 - Q=mL
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Latent Heat

@@ -15,7 +15,7 @@ tags:
 - realism
 - system-structure
 - polarity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

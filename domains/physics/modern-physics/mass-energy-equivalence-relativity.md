@@ -13,7 +13,7 @@ tags:
 - special-relativity
 - energy
 - mass
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -19,7 +19,7 @@ tags:
 - sources
 - interpretation
 - methodology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Source Contextualization and Historical Circumstance

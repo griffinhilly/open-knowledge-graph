@@ -24,7 +24,7 @@ tags:
 - stellar-spectra
 - Harvard-classification
 - luminosity-class
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Stellar Spectral Classification

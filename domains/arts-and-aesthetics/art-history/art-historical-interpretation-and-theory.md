@@ -19,7 +19,7 @@ tags:
 - interpretation
 - frameworks
 - methodology
-stage: advanced
+stage: expert
 status: validated
 ---
 # Theories and Interpretive Frameworks in Art History

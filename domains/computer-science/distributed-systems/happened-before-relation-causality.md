@@ -17,7 +17,7 @@ tags:
 - ordering
 - logical-clocks
 - partial-order
-stage: advanced
+stage: expert
 status: validated
 ---
 

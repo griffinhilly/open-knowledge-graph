@@ -15,7 +15,7 @@ tags:
 - sufficient-statistics
 - statistics
 - inference
-stage: advanced
+stage: expert
 status: validated
 ---
 

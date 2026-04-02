@@ -17,7 +17,7 @@ tags:
 - performance
 - recovery
 - muscle-protein-synthesis
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

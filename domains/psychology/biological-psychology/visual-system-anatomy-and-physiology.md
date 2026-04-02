@@ -15,7 +15,7 @@ tags:
 - retina
 - cortex
 - perception
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

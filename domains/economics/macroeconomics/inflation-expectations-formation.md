@@ -17,7 +17,7 @@ tags:
 - expectations
 - inflation
 - behavioral
-stage: advanced
+stage: expert
 status: validated
 ---
 # Inflation Expectations and Expectation Formation

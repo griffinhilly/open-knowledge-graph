@@ -16,7 +16,7 @@ tags:
 - cook-levin
 - sat
 - completeness
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

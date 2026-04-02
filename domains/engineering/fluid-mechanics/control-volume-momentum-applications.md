@@ -14,7 +14,7 @@ tags:
 - forces
 - control-volume
 - thrust
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

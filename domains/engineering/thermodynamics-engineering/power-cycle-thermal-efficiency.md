@@ -17,7 +17,7 @@ tags:
 - efficiency
 - power
 - carnot
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

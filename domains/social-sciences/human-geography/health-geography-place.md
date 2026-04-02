@@ -15,7 +15,7 @@ tags:
 - wellbeing
 - place
 - inequality
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

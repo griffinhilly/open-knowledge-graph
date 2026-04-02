@@ -15,7 +15,7 @@ tags:
 - dynamics
 - wind
 - pressure-gradient
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

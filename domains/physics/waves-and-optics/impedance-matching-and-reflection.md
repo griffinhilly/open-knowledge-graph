@@ -12,7 +12,7 @@ tags:
 - reflection
 - impedance-mismatch
 - boundary-conditions
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

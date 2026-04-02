@@ -16,7 +16,7 @@ tags:
 - cycles
 - gap
 - measurement
-stage: advanced
+stage: expert
 status: validated
 ---
 # The Output Gap

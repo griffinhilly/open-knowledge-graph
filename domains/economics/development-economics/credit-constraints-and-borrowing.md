@@ -22,7 +22,7 @@ tags:
 - credit
 - information-asymmetry
 - development
-stage: advanced
+stage: expert
 status: validated
 ---
 # Credit Constraints in Developing Markets

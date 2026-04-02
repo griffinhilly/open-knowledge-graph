@@ -17,7 +17,7 @@ tags:
 - capacity
 - chunking
 - limitations
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Working Memory Capacity and Chunking

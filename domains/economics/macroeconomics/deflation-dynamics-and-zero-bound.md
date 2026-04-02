@@ -16,7 +16,7 @@ tags:
 - deflation
 - zero-bound
 - liquidity-trap
-stage: advanced
+stage: expert
 status: validated
 ---
 

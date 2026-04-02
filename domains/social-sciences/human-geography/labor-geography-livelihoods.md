@@ -15,7 +15,7 @@ tags:
 - work
 - livelihoods
 - wages
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

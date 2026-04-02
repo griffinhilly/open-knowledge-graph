@@ -12,7 +12,7 @@ tags:
 - lunar-geology
 - volcanism
 - impact-cratering
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

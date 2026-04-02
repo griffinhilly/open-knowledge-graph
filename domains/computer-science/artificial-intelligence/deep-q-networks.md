@@ -13,7 +13,7 @@ tags:
 - deep-learning
 - value-based-methods
 - atari-games
-stage: advanced
+stage: expert
 status: validated
 ---
 

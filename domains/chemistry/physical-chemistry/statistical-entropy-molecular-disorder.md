@@ -18,7 +18,7 @@ tags:
 - statistical-mechanics
 - entropy
 - thermodynamics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Statistical Entropy and Molecular Disorder

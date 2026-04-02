@@ -20,7 +20,7 @@ tags:
 - aspect
 - verb-classes
 - telicity
-stage: advanced
+stage: expert
 status: validated
 ---
 # Aktionsart (Lexical Aspect)

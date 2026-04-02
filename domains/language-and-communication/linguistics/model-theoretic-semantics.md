@@ -15,7 +15,7 @@ tags:
 - model-theory
 - truth-conditions
 - extensions-intensions
-stage: advanced
+stage: expert
 status: validated
 ---
 

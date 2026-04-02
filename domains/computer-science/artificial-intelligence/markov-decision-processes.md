@@ -20,7 +20,7 @@ tags:
 - decision-making
 - markov-models
 - optimization
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -35,7 +35,7 @@ tags:
 - criticism
 - taste
 - market
-stage: advanced
+stage: expert
 status: validated
 ---
 # The Salon System and the Formation of Artistic Taste

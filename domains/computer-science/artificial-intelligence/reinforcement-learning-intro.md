@@ -15,7 +15,7 @@ prerequisites:
 tags:
 - reinforcement-learning
 - learning-paradigm
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

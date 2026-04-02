@@ -15,7 +15,7 @@ tags:
 - stellar-evolution
 - red-giants
 - white-dwarfs
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Post-Main-Sequence Evolution and Stellar Endpoints

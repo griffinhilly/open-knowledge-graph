@@ -15,7 +15,7 @@ tags:
 - policy-based
 - actor-methods
 - policy-gradient
-stage: advanced
+stage: expert
 status: validated
 ---
 

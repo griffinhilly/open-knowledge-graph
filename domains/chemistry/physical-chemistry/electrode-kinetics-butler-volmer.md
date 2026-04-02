@@ -14,7 +14,7 @@ tags:
 - electrochemistry
 - electron-transfer
 - kinetics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Electrode Kinetics and Butler-Volmer Equation

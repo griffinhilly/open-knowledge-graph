@@ -15,7 +15,7 @@ tags:
 - ketosis
 - metabolic-flexibility
 - fatty-acid-oxidation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

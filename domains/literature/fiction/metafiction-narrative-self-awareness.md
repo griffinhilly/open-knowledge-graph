@@ -13,7 +13,7 @@ tags:
 - self-awareness
 - narrative
 - constructed
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

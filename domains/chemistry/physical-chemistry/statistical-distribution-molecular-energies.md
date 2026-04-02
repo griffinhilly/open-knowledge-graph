@@ -18,7 +18,7 @@ tags:
 - boltzmann
 - distribution
 - energy
-stage: advanced
+stage: expert
 status: validated
 ---
 # Statistical Distribution of Molecular Energies

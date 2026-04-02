@@ -18,7 +18,7 @@ tags:
 - learning
 - memory
 - integration
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

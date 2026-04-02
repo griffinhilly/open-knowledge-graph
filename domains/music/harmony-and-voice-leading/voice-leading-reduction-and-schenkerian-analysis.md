@@ -20,7 +20,7 @@ tags:
 - analysis
 - structure
 - levels
-stage: advanced
+stage: expert
 status: validated
 ---
 # Voice-Leading Reduction and Schenkerian Analysis

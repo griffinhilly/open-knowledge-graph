@@ -16,7 +16,7 @@ tags:
 - Yellow River
 - agriculture
 - civilization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

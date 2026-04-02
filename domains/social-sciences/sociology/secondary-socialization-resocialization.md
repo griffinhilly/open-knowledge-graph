@@ -11,7 +11,7 @@ tags:
 - resocialization
 - adult-learning
 - role-transitions
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

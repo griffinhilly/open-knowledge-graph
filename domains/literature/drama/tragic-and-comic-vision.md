@@ -20,7 +20,7 @@ tags:
 - genre
 - vision
 - worldview
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Tragic and Comic Vision in Drama

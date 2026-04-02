@@ -17,7 +17,7 @@ tags:
 - thermodynamics
 - conservation
 - stability
-stage: advanced
+stage: expert
 status: validated
 ---
 # Equivalent Potential Temperature as Conserved Variable

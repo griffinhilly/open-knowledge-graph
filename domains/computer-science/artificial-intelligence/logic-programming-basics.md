@@ -13,7 +13,7 @@ tags:
 - prolog
 - backward-chaining
 - unification
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

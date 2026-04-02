@@ -12,7 +12,7 @@ tags:
 - group-lending
 - incentives
 - development
-stage: advanced
+stage: expert
 status: validated
 ---
 

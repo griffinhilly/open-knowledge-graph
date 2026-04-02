@@ -12,7 +12,7 @@ tags:
 - topic-modeling
 - lda
 - latent-dirichlet
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - quantum-yield
 - trace-analysis
 - selectivity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Fluorescence Spectroscopy: Quantitative Methods

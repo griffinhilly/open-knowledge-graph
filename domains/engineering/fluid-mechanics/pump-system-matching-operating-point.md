@@ -12,7 +12,7 @@ tags:
 - pump-selection
 - system-curve
 - operating-point
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

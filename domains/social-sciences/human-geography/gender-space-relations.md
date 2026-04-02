@@ -15,7 +15,7 @@ tags:
 - space
 - identity
 - social-relations
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

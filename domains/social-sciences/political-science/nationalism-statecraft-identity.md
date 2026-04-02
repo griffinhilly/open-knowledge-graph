@@ -15,7 +15,7 @@ tags:
 - nation-building
 - civic-identity
 - ethnic-identity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

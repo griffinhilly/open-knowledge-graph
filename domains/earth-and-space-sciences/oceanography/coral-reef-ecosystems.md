@@ -20,7 +20,7 @@ tags:
 - coral bleaching
 - symbiosis
 - biodiversity
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Coral Reef Ecosystems: Biology and Threats

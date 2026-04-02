@@ -17,7 +17,7 @@ tags:
 - irreversibility
 - second-law
 - entropy-generation
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Second Law Analysis and Minimizing Irreversibilities

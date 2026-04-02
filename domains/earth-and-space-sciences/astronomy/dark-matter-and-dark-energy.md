@@ -22,7 +22,7 @@ tags:
 - cosmological-constant
 - Lambda-CDM
 - accelerating-expansion
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Dark Matter and Dark Energy

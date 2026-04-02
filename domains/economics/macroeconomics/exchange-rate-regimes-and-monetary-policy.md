@@ -18,7 +18,7 @@ tags:
 - exchange-rates
 - regimes
 - policy
-stage: advanced
+stage: expert
 status: validated
 ---
 # Exchange Rate Regimes and Monetary Policy

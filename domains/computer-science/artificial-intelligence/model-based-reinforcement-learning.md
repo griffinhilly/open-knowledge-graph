@@ -15,7 +15,7 @@ tags:
 - planning
 - model-learning
 - world-models
-stage: advanced
+stage: expert
 status: validated
 ---
 

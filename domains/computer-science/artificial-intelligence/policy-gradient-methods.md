@@ -18,7 +18,7 @@ tags:
 - reinforcement-learning
 - policy-optimization
 - on-policy
-stage: advanced
+stage: expert
 status: validated
 ---
 

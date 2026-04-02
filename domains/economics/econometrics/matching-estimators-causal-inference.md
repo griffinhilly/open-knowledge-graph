@@ -14,7 +14,7 @@ tags:
 - causal-inference
 - matching
 - nonparametric
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

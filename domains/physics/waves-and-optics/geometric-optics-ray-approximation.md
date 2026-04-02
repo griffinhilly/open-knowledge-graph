@@ -15,7 +15,7 @@ tags:
 - geometric-optics
 - ray-approximation
 - propagation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

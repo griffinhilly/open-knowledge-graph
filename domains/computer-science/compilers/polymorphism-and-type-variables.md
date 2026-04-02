@@ -22,7 +22,7 @@ tags:
 - type-systems
 - generics
 - polymorphism
-stage: advanced
+stage: expert
 status: validated
 ---
 # Polymorphism and Type Variables

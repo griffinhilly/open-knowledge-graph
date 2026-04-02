@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - frequency-response
 - bode-plots
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Frequency Response and Bode Plot Analysis

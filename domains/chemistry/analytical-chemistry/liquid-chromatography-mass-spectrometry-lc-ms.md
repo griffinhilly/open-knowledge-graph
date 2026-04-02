@@ -20,7 +20,7 @@ tags:
 - ionization
 - mass-detection
 - biological-samples
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Liquid Chromatography-Mass Spectrometry: LC-MS

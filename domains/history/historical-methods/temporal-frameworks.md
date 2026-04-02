@@ -15,7 +15,7 @@ tags:
 - chronology
 - periodization
 - methodology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

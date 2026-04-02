@@ -15,7 +15,7 @@ tags:
 - fecal-oral
 - development
 - infection-prevention
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

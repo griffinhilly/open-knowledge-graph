@@ -14,7 +14,7 @@ tags:
 - organizations
 - structure
 - institutions
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Formal Organizations: Structure and Function

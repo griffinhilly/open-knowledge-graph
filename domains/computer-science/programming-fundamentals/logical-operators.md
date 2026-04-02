@@ -15,7 +15,7 @@ tags:
 - operators
 - logic
 - boolean
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Logical Operators and Boolean Algebra

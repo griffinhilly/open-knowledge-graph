@@ -23,7 +23,7 @@ tags:
 - distance-ladder
 - Cepheid-variables
 - standard-candles
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

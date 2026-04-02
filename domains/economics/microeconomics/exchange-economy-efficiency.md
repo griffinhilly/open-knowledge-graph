@@ -14,7 +14,7 @@ tags:
 - general equilibrium
 - efficiency
 - exchange
-stage: advanced
+stage: expert
 status: validated
 ---
 

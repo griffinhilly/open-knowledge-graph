@@ -15,7 +15,7 @@ tags:
 - synoptic
 - cyclones
 - structure
-stage: advanced
+stage: expert
 status: validated
 ---
 

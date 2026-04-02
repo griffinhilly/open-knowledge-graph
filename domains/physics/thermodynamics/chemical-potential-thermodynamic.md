@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - chemical-potential
 - mixtures
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - potential-output
 - output-gap
 - measurement
-stage: advanced
+stage: expert
 status: validated
 ---
 # The Output Gap and Potential Output

@@ -17,7 +17,7 @@ tags:
 - axial
 - appendicular
 - joints
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

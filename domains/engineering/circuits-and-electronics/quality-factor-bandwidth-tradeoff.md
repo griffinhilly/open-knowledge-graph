@@ -16,7 +16,7 @@ tags:
 - quality-factor
 - bandwidth
 - resonance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Quality Factor and Bandwidth Tradeoffs

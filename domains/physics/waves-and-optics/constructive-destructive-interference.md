@@ -13,7 +13,7 @@ tags:
 - interference
 - superposition
 - wave-combination
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

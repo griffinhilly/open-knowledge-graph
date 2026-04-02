@@ -10,7 +10,7 @@ tags:
 - general equilibrium
 - existence
 - Walrasian
-stage: advanced
+stage: expert
 status: validated
 ---
 

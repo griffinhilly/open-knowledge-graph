@@ -16,7 +16,7 @@ tags:
 - phonology
 - sound-change
 - phonological-processes
-stage: advanced
+stage: expert
 status: validated
 ---
 # Epenthesis (Insertion Process)

@@ -26,7 +26,7 @@ tags:
 - peptide-hormones
 - receptor-types
 - second-messengers
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

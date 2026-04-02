@@ -14,7 +14,7 @@ tags:
 - conjugate-priors
 - bayesian-inference
 - statistics
-stage: advanced
+stage: expert
 status: validated
 ---
 

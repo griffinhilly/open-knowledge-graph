@@ -13,7 +13,7 @@ tags:
 - strings
 - tension
 - fundamental-frequency
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

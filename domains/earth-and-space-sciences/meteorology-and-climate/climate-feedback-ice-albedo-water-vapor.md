@@ -16,7 +16,7 @@ tags:
 - feedback
 - amplification
 - climate-sensitivity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Climate Feedbacks: Ice-Albedo and Water Vapor Feedback

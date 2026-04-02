@@ -17,7 +17,7 @@ tags:
 - arbitrage
 - interest-rates
 - trading
-stage: advanced
+stage: expert
 status: validated
 ---
 # Currency Carry Trades and Interest Rate Differentials

@@ -15,7 +15,7 @@ tags:
 - independence
 - sigma-algebras
 - events
-stage: advanced
+stage: expert
 status: validated
 ---
 

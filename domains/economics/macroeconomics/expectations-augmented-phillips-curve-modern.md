@@ -16,7 +16,7 @@ tags:
 - phillips-curve
 - inflation
 - unemployment
-stage: advanced
+stage: expert
 status: validated
 ---
 # The Expectations-Augmented Phillips Curve

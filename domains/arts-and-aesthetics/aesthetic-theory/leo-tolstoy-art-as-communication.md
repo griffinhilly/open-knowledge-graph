@@ -13,7 +13,7 @@ tags:
 - communication
 - emotion
 - expression
-stage: advanced
+stage: expert
 status: validated
 ---
 

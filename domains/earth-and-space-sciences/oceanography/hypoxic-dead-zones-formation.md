@@ -16,7 +16,7 @@ tags:
 - anoxia
 - oxygen-depletion
 - respiration-budget
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

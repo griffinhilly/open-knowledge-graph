@@ -16,7 +16,7 @@ tags:
 - information asymmetry
 - adverse selection
 - equilibrium
-stage: advanced
+stage: expert
 status: validated
 ---
 # Adverse Selection and Market Equilibrium

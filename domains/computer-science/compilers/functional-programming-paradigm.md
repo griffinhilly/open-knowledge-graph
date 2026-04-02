@@ -12,7 +12,7 @@ tags:
 - functional-programming
 - paradigm
 - language-design
-stage: advanced
+stage: expert
 status: validated
 ---
 

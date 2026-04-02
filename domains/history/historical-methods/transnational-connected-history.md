@@ -27,7 +27,7 @@ tags:
 - connected-history
 - methodology
 - global
-stage: advanced
+stage: expert
 status: validated
 ---
 # Transnational and Connected History Methods

@@ -18,7 +18,7 @@ tags:
 - texture
 - classification
 - observation
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

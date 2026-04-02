@@ -14,7 +14,7 @@ tags:
 - emotion
 - amygdala
 - learning
-stage: advanced
+stage: expert
 status: validated
 ---
 

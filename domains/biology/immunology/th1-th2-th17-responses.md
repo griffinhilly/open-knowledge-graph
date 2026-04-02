@@ -15,7 +15,7 @@ tags:
 - th2
 - th17
 - effector-response
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -18,7 +18,7 @@ tags:
 - actuality
 - modality
 - change
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Potentiality and Actuality

@@ -14,7 +14,7 @@ tags:
 - critical-angle
 - total-internal-reflection
 - optical
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

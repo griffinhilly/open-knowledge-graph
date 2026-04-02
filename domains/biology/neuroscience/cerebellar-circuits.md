@@ -15,7 +15,7 @@ tags:
 - cerebellum
 - purkinje-cells
 - granule-cells
-stage: advanced
+stage: expert
 status: validated
 ---
 

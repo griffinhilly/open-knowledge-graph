@@ -17,7 +17,7 @@ tags:
 - Nile
 - geography
 - civilization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

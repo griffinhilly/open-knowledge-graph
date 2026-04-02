@@ -19,7 +19,7 @@ tags:
 - dopamine
 - stimulants
 - addiction
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Psychostimulant Mechanisms: Cocaine and Methamphetamine

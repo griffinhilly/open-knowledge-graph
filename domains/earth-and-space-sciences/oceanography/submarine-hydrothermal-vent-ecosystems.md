@@ -20,7 +20,7 @@ tags:
 - black-smokers
 - tube-worms
 - extremophiles
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Submarine Hydrothermal Vent Ecosystems and Chemosynthesis

@@ -16,7 +16,7 @@ tags:
 - international
 - capital-flows
 - finance
-stage: advanced
+stage: expert
 status: validated
 ---
 # Capital Flows and the Financial Account

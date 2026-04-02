@@ -18,7 +18,7 @@ tags:
 - maxwell-equations
 - field-theory
 - divergence-curl
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

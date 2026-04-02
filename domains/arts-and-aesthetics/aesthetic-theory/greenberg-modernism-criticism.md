@@ -16,7 +16,7 @@ tags:
 - formalism
 - abstraction
 - criticism
-stage: advanced
+stage: expert
 status: validated
 ---
 # Clement Greenberg: Modernism and Critical Formalism

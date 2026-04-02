@@ -14,7 +14,7 @@ tags:
 - inductance
 - mutual inductance
 - coupling
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

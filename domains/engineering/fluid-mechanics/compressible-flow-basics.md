@@ -15,7 +15,7 @@ tags:
 - isentropic relations
 - compressibility effects
 - stagnation properties
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Compressible Flow Basics

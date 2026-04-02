@@ -15,7 +15,7 @@ tags:
 - identity
 - landscape
 - meaning
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Cultural Geography and Identity Formation

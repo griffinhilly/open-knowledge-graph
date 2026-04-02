@@ -18,7 +18,7 @@ tags:
 - open-problem
 - millennium-problem
 - cryptography
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

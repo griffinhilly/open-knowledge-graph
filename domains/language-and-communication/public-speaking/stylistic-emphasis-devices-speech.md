@@ -34,7 +34,7 @@ tags:
 - style
 - devices
 - memorability
-stage: advanced
+stage: expert
 status: validated
 ---
 # Rhetorical Devices for Emphasis and Memorability in Speech

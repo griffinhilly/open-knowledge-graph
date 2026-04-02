@@ -15,7 +15,7 @@ tags:
 - stress
 - forces
 - motion
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - limited-government
 - fundamental-law
 - rights-protection
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

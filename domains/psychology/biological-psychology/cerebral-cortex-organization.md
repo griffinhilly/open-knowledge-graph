@@ -22,7 +22,7 @@ tags:
 - columns
 - primary-areas
 - association-cortex
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - gibbs-free-energy
 - thermodynamics
 - spontaneity
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

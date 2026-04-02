@@ -23,7 +23,7 @@ tags:
 - chemical-shift
 - spin-spin-coupling
 - Larmor-frequency
-stage: advanced
+stage: expert
 status: validated
 ---
 # Quantum Theory of NMR Spectroscopy

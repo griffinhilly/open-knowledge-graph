@@ -15,7 +15,7 @@ tags:
 - cloud-formation
 - lifting
 - thermodynamics
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

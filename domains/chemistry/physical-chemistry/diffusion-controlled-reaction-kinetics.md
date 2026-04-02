@@ -18,7 +18,7 @@ tags:
 - kinetics
 - diffusion
 - reaction-rate
-stage: advanced
+stage: expert
 status: validated
 ---
 # Diffusion-Controlled Reaction Kinetics

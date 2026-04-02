@@ -14,7 +14,7 @@ tags:
 - confidence-intervals
 - interval-estimation
 - statistics
-stage: advanced
+stage: expert
 status: validated
 ---
 

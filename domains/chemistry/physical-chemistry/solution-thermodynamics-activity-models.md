@@ -15,7 +15,7 @@ tags:
 - solutions
 - activity
 - non-ideal
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - expansion
 - isentropic
 - mach-number
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

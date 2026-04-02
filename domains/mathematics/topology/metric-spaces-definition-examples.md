@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - metric-spaces
 - distance
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - parameters
 - principles
 - language-acquisition
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

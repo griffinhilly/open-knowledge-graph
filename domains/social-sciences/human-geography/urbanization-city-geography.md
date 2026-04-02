@@ -16,7 +16,7 @@ tags:
 - cities
 - urban-form
 - development
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

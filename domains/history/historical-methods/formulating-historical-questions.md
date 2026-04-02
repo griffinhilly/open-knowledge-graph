@@ -16,7 +16,7 @@ tags:
 - methodology
 - research-design
 - questions
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Formulating Historical Research Questions

@@ -17,7 +17,7 @@ tags:
 - intonation
 - ear-training
 - acoustics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Tuning and Intonation Assessment by Ear

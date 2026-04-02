@@ -17,7 +17,7 @@ tags:
 - terminal object
 - zero object
 - duality
-stage: advanced
+stage: expert
 status: validated
 ---
 

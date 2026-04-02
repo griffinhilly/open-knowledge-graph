@@ -14,7 +14,7 @@ tags:
 - inclusion
 - medical-model
 - social-model
-stage: advanced
+stage: expert
 status: validated
 ---
 

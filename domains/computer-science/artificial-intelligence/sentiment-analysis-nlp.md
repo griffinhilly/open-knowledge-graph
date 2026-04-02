@@ -15,7 +15,7 @@ tags:
 - text-classification
 - sentiment
 - opinion-mining
-stage: advanced
+stage: expert
 status: validated
 ---
 

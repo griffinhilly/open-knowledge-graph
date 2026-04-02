@@ -14,7 +14,7 @@ tags:
 - magnetism
 - circular motion
 - charged particles
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

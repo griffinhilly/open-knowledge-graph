@@ -10,7 +10,7 @@ tags:
 - reinforcement-learning
 - policy-optimization
 - temporal-difference
-stage: advanced
+stage: expert
 status: validated
 ---
 

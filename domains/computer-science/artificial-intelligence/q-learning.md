@@ -20,7 +20,7 @@ tags:
 - reinforcement-learning
 - temporal-difference
 - off-policy
-stage: advanced
+stage: expert
 status: validated
 ---
 # Q-Learning Algorithm

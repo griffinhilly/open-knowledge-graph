@@ -27,7 +27,7 @@ tags:
 - isotopes
 - geochronology
 - half-life
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Radiometric Dating

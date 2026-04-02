@@ -19,7 +19,7 @@ tags:
 - organization
 - supercell
 - squall-line
-stage: advanced
+stage: expert
 status: validated
 ---
 

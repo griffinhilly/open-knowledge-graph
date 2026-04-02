@@ -17,7 +17,7 @@ tags:
 - measurement
 - definition
 - well-being
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

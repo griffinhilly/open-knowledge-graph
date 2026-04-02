@@ -14,7 +14,7 @@ tags:
 - compact-objects
 - black-holes
 - general-relativity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Black Holes and Event Horizons

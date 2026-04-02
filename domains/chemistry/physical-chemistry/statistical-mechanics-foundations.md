@@ -37,7 +37,7 @@ tags:
 - macrostate
 - canonical-ensemble
 - entropy
-stage: advanced
+stage: expert
 status: validated
 ---
 

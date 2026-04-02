@@ -15,7 +15,7 @@ tags:
 - sequence-labeling
 - entity-extraction
 - information-extraction
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -22,7 +22,7 @@ tags:
 - statistical-mechanics
 - population-distribution
 - thermodynamics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Boltzmann Distribution and Molecular Populations

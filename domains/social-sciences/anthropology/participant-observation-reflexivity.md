@@ -14,7 +14,7 @@ tags:
 - ethics
 - fieldwork
 - positionality
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

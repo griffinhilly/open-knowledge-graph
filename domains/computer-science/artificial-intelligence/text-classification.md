@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - text-classification
 - document-classification
-stage: advanced
+stage: expert
 status: validated
 ---
 

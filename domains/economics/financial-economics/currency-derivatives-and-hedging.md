@@ -18,7 +18,7 @@ tags:
 - fx
 - hedging
 - derivatives
-stage: advanced
+stage: expert
 status: validated
 ---
 # Currency Derivatives and Foreign Exchange Hedging

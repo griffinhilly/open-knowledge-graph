@@ -15,7 +15,7 @@ tags:
 - markov-chains
 - stochastic-processes
 - probability
-stage: advanced
+stage: expert
 status: validated
 ---
 

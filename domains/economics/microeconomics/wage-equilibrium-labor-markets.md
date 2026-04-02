@@ -20,7 +20,7 @@ tags:
 - labor economics
 - wages
 - equilibrium
-stage: advanced
+stage: expert
 status: validated
 ---
 # Wage Determination and Labor Market Equilibrium

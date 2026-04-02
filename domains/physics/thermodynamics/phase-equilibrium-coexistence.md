@@ -20,7 +20,7 @@ tags:
 - phase-transitions
 - equilibrium
 - chemical-potential
-stage: advanced
+stage: expert
 status: validated
 ---
 # Phase Equilibrium and Coexistence Conditions

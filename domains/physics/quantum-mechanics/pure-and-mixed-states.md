@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - pure-states
 - mixed-states
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

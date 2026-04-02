@@ -15,7 +15,7 @@ builds-toward:
 tags:
 - cauchy-sequences
 - convergence
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Cauchy Sequences in Metric Spaces

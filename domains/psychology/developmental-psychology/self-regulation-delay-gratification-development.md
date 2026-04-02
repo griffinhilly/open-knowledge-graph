@@ -13,7 +13,7 @@ tags:
 - impulse-control
 - delay-of-gratification
 - executive-function
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

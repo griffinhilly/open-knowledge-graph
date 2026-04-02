@@ -18,7 +18,7 @@ tags:
 - spinal
 - coordination
 - reflexes
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

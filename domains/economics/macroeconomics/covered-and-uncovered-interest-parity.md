@@ -16,7 +16,7 @@ tags:
 - interest-rates
 - parity
 - exchange-rates
-stage: advanced
+stage: expert
 status: validated
 ---
 # Interest Rate Parity

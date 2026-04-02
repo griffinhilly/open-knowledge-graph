@@ -12,7 +12,7 @@ tags:
 - refractive-index
 - material-property
 - speed-of-light
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

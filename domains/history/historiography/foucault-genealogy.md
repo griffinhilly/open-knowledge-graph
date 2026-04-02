@@ -13,7 +13,7 @@ tags:
 - genealogy
 - power-knowledge
 - discourse
-stage: advanced
+stage: expert
 status: validated
 ---
 

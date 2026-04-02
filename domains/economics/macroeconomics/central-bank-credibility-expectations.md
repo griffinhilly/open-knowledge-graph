@@ -14,7 +14,7 @@ tags:
 - inflation
 - central-bank
 - policy
-stage: advanced
+stage: expert
 status: validated
 ---
 

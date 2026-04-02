@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - transitions
 - selection-rules
-stage: advanced
+stage: expert
 status: validated
 ---
 

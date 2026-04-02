@@ -14,7 +14,7 @@ tags:
 - stationary-distributions
 - markov-chains
 - probability
-stage: advanced
+stage: expert
 status: validated
 ---
 

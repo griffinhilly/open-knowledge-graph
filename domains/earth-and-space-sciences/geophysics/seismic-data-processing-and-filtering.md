@@ -16,7 +16,7 @@ tags:
 - processing
 - filtering
 - signal-to-noise
-stage: advanced
+stage: expert
 status: validated
 ---
 # Seismic Data Processing and Noise Filtering

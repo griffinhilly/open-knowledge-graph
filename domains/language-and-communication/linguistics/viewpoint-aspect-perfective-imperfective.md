@@ -25,7 +25,7 @@ tags:
 - aspect
 - tense
 - formal-semantics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Viewpoint Aspect (Perfective and Imperfective)

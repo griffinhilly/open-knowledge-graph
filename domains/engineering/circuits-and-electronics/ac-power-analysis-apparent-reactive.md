@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - ac-power
 - power-analysis
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

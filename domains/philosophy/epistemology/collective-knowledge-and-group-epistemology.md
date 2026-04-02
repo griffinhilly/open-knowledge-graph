@@ -12,7 +12,7 @@ tags:
 - group-knowledge
 - collective-belief
 - social-epistemology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

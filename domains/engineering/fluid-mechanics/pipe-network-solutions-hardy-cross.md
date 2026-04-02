@@ -14,7 +14,7 @@ tags:
 - networks
 - iteration
 - branching-pipes
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Pipe Network Analysis: Hardy-Cross Iteration Method

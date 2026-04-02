@@ -17,7 +17,7 @@ tags:
 - equivalence
 - normal-form
 - classification
-stage: advanced
+stage: expert
 status: validated
 ---
 

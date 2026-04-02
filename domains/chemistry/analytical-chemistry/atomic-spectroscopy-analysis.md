@@ -15,7 +15,7 @@ tags:
 - AAS
 - ICP
 - elements
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Atomic Spectroscopy for Elemental Analysis

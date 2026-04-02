@@ -16,7 +16,7 @@ tags:
 - transfer-function
 - magnitude-response
 - phase-response
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

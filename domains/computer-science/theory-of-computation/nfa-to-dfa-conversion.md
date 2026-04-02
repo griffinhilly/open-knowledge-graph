@@ -18,7 +18,7 @@ tags:
 - subset-construction
 - powerset
 - equivalence
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # NFA to DFA Conversion (Subset Construction)

@@ -22,7 +22,7 @@ tags:
 - immune-trafficking
 - lymphocyte-homing
 - lymphoid-organs
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

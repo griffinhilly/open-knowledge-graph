@@ -16,7 +16,7 @@ tags:
 - networks
 - transnational
 - flows
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

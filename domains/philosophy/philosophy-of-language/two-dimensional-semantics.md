@@ -23,7 +23,7 @@ tags:
 - modality
 - two-dimensionalism
 - meaning
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Two-Dimensional Semantics

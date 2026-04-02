@@ -23,7 +23,7 @@ tags:
 - white-dwarfs
 - supergiants
 - mass-luminosity-relation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

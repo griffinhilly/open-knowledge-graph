@@ -18,7 +18,7 @@ tags:
 - neuromuscular-junction
 - motor-control
 - acetylcholine
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -24,7 +24,7 @@ tags:
 - coordinates
 - spacetime
 - transformation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

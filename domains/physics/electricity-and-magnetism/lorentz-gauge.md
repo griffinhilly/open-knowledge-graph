@@ -15,7 +15,7 @@ tags:
 - gauge-choices
 - lorentz
 - coulomb
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

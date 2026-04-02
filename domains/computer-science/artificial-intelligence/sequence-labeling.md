@@ -12,7 +12,7 @@ tags:
 - sequence-labeling
 - crf
 - structured
-stage: advanced
+stage: expert
 status: validated
 ---
 

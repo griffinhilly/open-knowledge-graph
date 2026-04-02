@@ -17,7 +17,7 @@ tags:
 - institutional-dynamics
 - transformation
 - innovation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

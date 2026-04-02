@@ -15,7 +15,7 @@ tags:
 - geothermal
 - gradient
 - measurement
-stage: advanced
+stage: expert
 status: validated
 ---
 

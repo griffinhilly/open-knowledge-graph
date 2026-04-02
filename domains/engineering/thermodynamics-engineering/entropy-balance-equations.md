@@ -22,7 +22,7 @@ tags:
 - second-law
 - irreversibility
 - generation
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Entropy Balance and Irreversibility Analysis

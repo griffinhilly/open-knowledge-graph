@@ -20,7 +20,7 @@ tags:
 - tubular-reabsorption
 - selectivity
 - gfr
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Renal Filtration and Tubular Processing

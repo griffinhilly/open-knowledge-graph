@@ -15,7 +15,7 @@ tags:
 - formation
 - nodes
 - antinodes
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

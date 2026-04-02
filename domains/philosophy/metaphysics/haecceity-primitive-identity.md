@@ -18,7 +18,7 @@ tags:
 - thisness
 - individuation
 - metaphysics
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

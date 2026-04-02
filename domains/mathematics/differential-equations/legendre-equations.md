@@ -14,7 +14,7 @@ tags:
 - legendre-polynomials
 - special-functions
 - orthogonal
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Legendre Equations and Legendre Polynomials

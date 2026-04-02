@@ -32,7 +32,7 @@ tags:
 - bread
 - cookies
 - leavening
-stage: concrete-operations
+stage: abstract-reasoning
 status: validated
 ---
 

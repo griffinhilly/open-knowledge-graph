@@ -20,7 +20,7 @@ tags:
 - comparison
 - expressions
 - precedence
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Operators and Expressions

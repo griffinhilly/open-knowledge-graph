@@ -22,7 +22,7 @@ tags:
 - plasticity
 - AMPA
 - NMDA
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

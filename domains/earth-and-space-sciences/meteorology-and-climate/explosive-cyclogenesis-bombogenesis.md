@@ -15,7 +15,7 @@ tags:
 - cyclones
 - intensification
 - extreme-weather
-stage: advanced
+stage: expert
 status: validated
 ---
 

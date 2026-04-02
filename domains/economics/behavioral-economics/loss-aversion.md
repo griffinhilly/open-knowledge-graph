@@ -11,7 +11,7 @@ tags:
 - reference-dependence
 - endowment-effect
 - status-quo-bias
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -11,7 +11,7 @@ tags:
 - fiction
 - evidence
 - cultural-history
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

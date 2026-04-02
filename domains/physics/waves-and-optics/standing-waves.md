@@ -24,7 +24,7 @@ tags:
 - antinodes
 - harmonics
 - modes
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

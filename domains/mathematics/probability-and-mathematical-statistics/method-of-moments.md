@@ -14,7 +14,7 @@ tags:
 - method-of-moments
 - estimation
 - statistics
-stage: advanced
+stage: expert
 status: validated
 ---
 

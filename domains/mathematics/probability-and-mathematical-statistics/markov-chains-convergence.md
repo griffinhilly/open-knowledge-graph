@@ -12,7 +12,7 @@ tags:
 - markov-chains
 - convergence
 - mixing
-stage: advanced
+stage: expert
 status: validated
 ---
 

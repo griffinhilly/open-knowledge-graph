@@ -17,7 +17,7 @@ tags:
 - search
 - strategy
 - constraints
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Forward and Backward Search Strategies in Problem Solving

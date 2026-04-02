@@ -13,7 +13,7 @@ tags:
 - paraxial-approximation
 - geometrical-optics
 - thin-lens
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

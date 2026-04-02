@@ -13,7 +13,7 @@ builds-toward:
 tags:
 - atomic-physics
 - spectroscopy
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

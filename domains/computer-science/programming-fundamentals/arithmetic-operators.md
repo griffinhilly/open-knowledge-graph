@@ -15,7 +15,7 @@ tags:
 - operators
 - precedence
 - expressions
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Arithmetic Operators and Operator Precedence

@@ -16,7 +16,7 @@ tags:
 - availability
 - maximum-work
 - destroyed-work
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

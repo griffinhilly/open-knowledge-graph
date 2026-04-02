@@ -15,7 +15,7 @@ tags:
 - interference
 - two-source
 - pattern
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

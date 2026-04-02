@@ -21,7 +21,7 @@ tags:
 - writing
 - representation
 - methodology
-stage: advanced
+stage: expert
 status: validated
 ---
 # Narrative Construction and Historical Representation

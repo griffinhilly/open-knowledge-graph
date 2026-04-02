@@ -12,7 +12,7 @@ tags:
 - sequence-models
 - dynamic-programming
 - decoding
-stage: advanced
+stage: expert
 status: validated
 ---
 

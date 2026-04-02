@@ -14,7 +14,7 @@ tags:
 - exocytosis
 - membrane-fusion
 - neurotransmitter-release
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

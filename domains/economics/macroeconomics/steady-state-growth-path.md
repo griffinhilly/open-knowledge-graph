@@ -15,7 +15,7 @@ tags:
 - growth
 - steady-state
 - long-run
-stage: advanced
+stage: expert
 status: validated
 ---
 

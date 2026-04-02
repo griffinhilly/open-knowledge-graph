@@ -14,7 +14,7 @@ tags:
 - induction
 - EMF
 - generators
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

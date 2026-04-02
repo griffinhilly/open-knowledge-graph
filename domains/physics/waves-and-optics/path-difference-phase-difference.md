@@ -15,7 +15,7 @@ tags:
 - phase
 - path-difference
 - interference
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

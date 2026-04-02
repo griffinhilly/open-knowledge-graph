@@ -16,7 +16,7 @@ tags:
 - electrophysiology
 - excitability
 - plasticity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

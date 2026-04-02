@@ -14,7 +14,7 @@ tags:
 - pragmatics
 - information-structure
 - discourse
-stage: advanced
+stage: expert
 status: validated
 ---
 # Information Structure: Focus and Topic

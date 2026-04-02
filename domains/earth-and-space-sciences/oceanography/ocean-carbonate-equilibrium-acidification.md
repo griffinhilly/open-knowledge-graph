@@ -27,7 +27,7 @@ tags:
 - acidification
 - saturation
 - buffering
-stage: advanced
+stage: expert
 status: validated
 ---
 # Ocean Carbonate Equilibrium and Acidification

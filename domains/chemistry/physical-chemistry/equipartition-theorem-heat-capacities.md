@@ -13,7 +13,7 @@ tags:
 - thermodynamics
 - heat-capacity
 - energy
-stage: advanced
+stage: expert
 status: validated
 ---
 

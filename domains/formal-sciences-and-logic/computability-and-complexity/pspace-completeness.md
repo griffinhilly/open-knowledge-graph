@@ -15,7 +15,7 @@ tags:
 - space-complexity
 - qbf
 - pspace-complete
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - wave-speed
 - medium-properties
 - elasticity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

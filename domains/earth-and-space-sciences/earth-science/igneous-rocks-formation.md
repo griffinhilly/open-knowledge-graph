@@ -17,7 +17,7 @@ tags:
 - lava
 - cooling
 - crystallization
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

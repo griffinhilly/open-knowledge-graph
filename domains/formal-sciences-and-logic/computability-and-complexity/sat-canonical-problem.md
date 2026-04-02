@@ -15,7 +15,7 @@ tags:
 - boolean-satisfiability
 - sat-solvers
 - completeness
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Satisfiability Problem: The Canonical NP-Complete Problem

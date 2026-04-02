@@ -12,7 +12,7 @@ tags:
 - multiple-choice
 - distractor-analysis
 - item-evaluation
-stage: advanced
+stage: expert
 status: validated
 ---
 # Distractor Analysis and Multiple-Choice Item Evaluation

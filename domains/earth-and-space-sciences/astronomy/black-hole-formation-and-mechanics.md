@@ -18,7 +18,7 @@ tags:
 - event-horizon
 - singularity
 - spacetime
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

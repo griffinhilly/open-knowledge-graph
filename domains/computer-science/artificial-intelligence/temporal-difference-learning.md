@@ -22,7 +22,7 @@ tags:
 - value-based
 - temporal-difference
 - bootstrapping
-stage: advanced
+stage: expert
 status: validated
 ---
 # Temporal Difference Learning

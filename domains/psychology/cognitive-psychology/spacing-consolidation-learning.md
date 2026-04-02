@@ -17,7 +17,7 @@ tags:
 - learning
 - spacing
 - consolidation
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Spacing Effect and Memory Consolidation

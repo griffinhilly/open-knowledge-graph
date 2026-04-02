@@ -15,7 +15,7 @@ tags:
 - value-estimation
 - off-policy-learning
 - importance-sampling
-stage: advanced
+stage: expert
 status: validated
 ---
 # Monte Carlo Methods in Reinforcement Learning

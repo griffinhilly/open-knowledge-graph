@@ -20,7 +20,7 @@ tags:
 - inflation
 - unemployment
 - oil-shocks
-stage: advanced
+stage: expert
 status: validated
 ---
 # Supply Shocks and Stagflation

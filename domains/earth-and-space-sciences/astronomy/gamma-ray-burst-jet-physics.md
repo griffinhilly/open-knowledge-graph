@@ -13,7 +13,7 @@ tags:
 - grb
 - relativistic-jets
 - transient
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

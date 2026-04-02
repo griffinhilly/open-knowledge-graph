@@ -14,7 +14,7 @@ tags:
 - qNMR
 - structure-elucidation
 - chemical-shift
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -21,7 +21,7 @@ tags:
 - turing-machines
 - lambda-calculus
 - church-turing
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

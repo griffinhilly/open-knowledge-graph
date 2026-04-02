@@ -22,7 +22,7 @@ tags:
 - somatosensory-cortex
 - pain
 - phantom-limb
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Pain and Somatosensory Processing

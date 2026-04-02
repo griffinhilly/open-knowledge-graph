@@ -14,7 +14,7 @@ tags:
 - induction
 - energy dissipation
 - losses
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

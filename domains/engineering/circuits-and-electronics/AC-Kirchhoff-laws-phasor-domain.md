@@ -17,7 +17,7 @@ tags:
 - Kirchhoff-laws
 - phasor-domain
 - AC-analysis
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

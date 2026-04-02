@@ -12,7 +12,7 @@ tags:
 - microfinance
 - credit
 - development
-stage: advanced
+stage: expert
 status: validated
 ---
 

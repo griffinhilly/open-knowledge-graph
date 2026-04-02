@@ -23,7 +23,7 @@ tags:
 - possible-worlds
 - semantics
 - knowledge
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Possible Worlds Semantics for Knowledge

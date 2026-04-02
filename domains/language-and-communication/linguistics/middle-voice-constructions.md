@@ -19,7 +19,7 @@ tags:
 - voice
 - morphology
 - argument-structure
-stage: advanced
+stage: expert
 status: validated
 ---
 # Middle Voice Constructions

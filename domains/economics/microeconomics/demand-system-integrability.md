@@ -17,7 +17,7 @@ tags:
 - integrability
 - consistency
 - rationality
-stage: advanced
+stage: expert
 status: validated
 ---
 # Demand Systems and Integrability Conditions

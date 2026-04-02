@@ -15,7 +15,7 @@ tags:
 - equation-of-state
 - real-gases
 - virial
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

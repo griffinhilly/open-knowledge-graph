@@ -13,7 +13,7 @@ tags:
 - Thaler
 - fungibility
 - budgeting
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -22,7 +22,7 @@ tags:
 - repetition
 - memory
 - emphasis
-stage: advanced
+stage: expert
 status: validated
 ---
 # Creating Coherence Through Strategic Repetition

@@ -14,7 +14,7 @@ tags:
 - synthetic-control
 - causal-inference
 - policy-evaluation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Synthetic Control Methods for Policy Evaluation

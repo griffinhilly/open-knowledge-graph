@@ -22,7 +22,7 @@ tags:
 - recombination
 - cosmic-timeline
 - inflation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

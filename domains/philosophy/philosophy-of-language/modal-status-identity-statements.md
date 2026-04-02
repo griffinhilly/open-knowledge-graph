@@ -19,7 +19,7 @@ tags:
 - identity
 - modality
 - a-posteriori
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # The Modal Status of Identity Statements

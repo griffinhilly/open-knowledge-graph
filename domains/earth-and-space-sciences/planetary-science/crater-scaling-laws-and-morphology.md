@@ -19,7 +19,7 @@ tags:
 - scaling-laws
 - gravity
 - impact-mechanics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Impact Crater Scaling Laws and Morphological Transitions

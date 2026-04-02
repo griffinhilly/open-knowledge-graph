@@ -23,7 +23,7 @@ tags:
 - unemployment
 - inflation
 - equilibrium
-stage: advanced
+stage: expert
 status: validated
 ---
 # NAIRU: Non-Accelerating Inflation Rate of Unemployment

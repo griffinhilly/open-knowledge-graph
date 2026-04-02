@@ -12,7 +12,7 @@ tags:
 - quantum
 - atoms
 - configuration
-stage: advanced
+stage: expert
 status: validated
 ---
 

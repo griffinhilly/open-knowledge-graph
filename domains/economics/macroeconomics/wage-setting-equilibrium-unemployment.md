@@ -18,7 +18,7 @@ tags:
 - wages
 - labor-market
 - unemployment
-stage: advanced
+stage: expert
 status: validated
 ---
 # Wage Setting and Labor Market Equilibrium

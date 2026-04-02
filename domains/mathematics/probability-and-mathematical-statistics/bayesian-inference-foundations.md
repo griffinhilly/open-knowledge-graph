@@ -15,7 +15,7 @@ tags:
 - bayesian-inference
 - probability
 - statistics
-stage: advanced
+stage: expert
 status: validated
 ---
 

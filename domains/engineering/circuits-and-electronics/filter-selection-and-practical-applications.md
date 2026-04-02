@@ -13,7 +13,7 @@ tags:
 - filter-selection
 - applications
 - noise-rejection
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

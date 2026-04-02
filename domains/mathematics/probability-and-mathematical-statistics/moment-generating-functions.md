@@ -16,7 +16,7 @@ tags:
 - mgf
 - generating-functions
 - moments
-stage: advanced
+stage: expert
 status: validated
 ---
 

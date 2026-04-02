@@ -17,7 +17,7 @@ tags:
 - business-cycles
 - measurement
 - filtering
-stage: advanced
+stage: expert
 status: validated
 ---
 # Trend and Cycle Decomposition

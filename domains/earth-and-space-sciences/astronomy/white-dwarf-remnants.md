@@ -12,7 +12,7 @@ tags:
 - white-dwarfs
 - stellar-remnants
 - degeneracy
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

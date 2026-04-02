@@ -15,7 +15,7 @@ tags:
 - historiography
 - secondary-sources
 - research
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Secondary Sources as Evidence of Historiography

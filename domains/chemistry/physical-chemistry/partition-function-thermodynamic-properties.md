@@ -18,7 +18,7 @@ tags:
 - partition-function
 - statistical-mechanics
 - thermodynamic-properties
-stage: advanced
+stage: expert
 status: validated
 ---
 # Partition Function and Thermodynamic Properties

@@ -16,7 +16,7 @@ tags:
 - quantum
 - scattering
 - photons
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Compton Scattering and Wavelength Shift

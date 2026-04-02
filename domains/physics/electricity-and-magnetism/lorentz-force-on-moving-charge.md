@@ -17,7 +17,7 @@ tags:
 - magnetism
 - forces
 - charged particles
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - demand
 - consumer-behavior
 - behavioral
-stage: advanced
+stage: expert
 status: validated
 ---
 # Consumption Determinants and the Consumption Function

@@ -14,7 +14,7 @@ tags:
 - bayesian-estimation
 - point-estimation
 - statistics
-stage: advanced
+stage: expert
 status: validated
 ---
 

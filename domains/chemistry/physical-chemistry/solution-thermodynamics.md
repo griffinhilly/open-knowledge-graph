@@ -14,7 +14,7 @@ tags:
 - excess-functions
 - ideal-solutions
 - chemical-potential
-stage: advanced
+stage: expert
 status: validated
 ---
 

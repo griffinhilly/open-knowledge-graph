@@ -16,7 +16,7 @@ tags:
 - markov-models
 - sequence-models
 - probabilistic-reasoning
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -34,7 +34,7 @@ tags:
 - completeness
 - first-order-logic
 - proof-theory
-stage: advanced
+stage: expert
 status: validated
 ---
 # Gödel's Completeness Theorem for First-Order Logic

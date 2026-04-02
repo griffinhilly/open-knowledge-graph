@@ -27,7 +27,7 @@ tags:
 - COSY
 - HSQC
 - structure elucidation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

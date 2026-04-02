@@ -12,7 +12,7 @@ tags:
 - confidence-intervals
 - coverage
 - inversion
-stage: advanced
+stage: expert
 status: validated
 ---
 

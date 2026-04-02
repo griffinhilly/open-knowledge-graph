@@ -22,7 +22,7 @@ tags:
 - partial-agonist
 - inverse-agonist
 - drug-mechanism
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - impedance
 - acoustic-properties
 - material-properties
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

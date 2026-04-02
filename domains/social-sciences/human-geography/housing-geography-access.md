@@ -15,7 +15,7 @@ tags:
 - access
 - inequality
 - urban
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

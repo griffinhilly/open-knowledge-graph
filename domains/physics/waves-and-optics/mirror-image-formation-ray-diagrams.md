@@ -16,7 +16,7 @@ tags:
 - mirror
 - image-formation
 - ray-diagram
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Mirror Image Formation and Ray Diagrams

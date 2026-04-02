@@ -18,7 +18,7 @@ tags:
 - causal-consistency
 - consistency
 - causality
-stage: advanced
+stage: expert
 status: validated
 ---
 # Causal Consistency

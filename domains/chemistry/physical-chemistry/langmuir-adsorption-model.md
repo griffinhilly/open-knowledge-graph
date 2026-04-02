@@ -20,7 +20,7 @@ tags:
 - chemisorption
 - physisorption
 - isotherm
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

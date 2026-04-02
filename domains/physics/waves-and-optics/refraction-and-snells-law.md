@@ -15,7 +15,7 @@ tags:
 - refraction
 - snells-law
 - refractive-index
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - syntax
 - parsing
 - reanalysis
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Syntactic Reanalysis and Garden-Path Phenomena

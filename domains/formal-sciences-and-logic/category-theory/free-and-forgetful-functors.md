@@ -17,7 +17,7 @@ tags:
 - forgetful
 - adjoint
 - universal-property
-stage: advanced
+stage: expert
 status: validated
 ---
 

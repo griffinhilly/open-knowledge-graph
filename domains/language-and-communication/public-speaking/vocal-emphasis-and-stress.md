@@ -33,7 +33,7 @@ tags:
 - emphasis
 - stress
 - intonation
-stage: advanced
+stage: expert
 status: validated
 ---
 # Vocal Emphasis and Linguistic Stress

@@ -15,7 +15,7 @@ tags:
 - property-rights
 - incentives
 - institutions
-stage: advanced
+stage: expert
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - expectations
 - Koszegi-Rabin
 - gain-loss-utility
-stage: advanced
+stage: expert
 status: validated
 ---
 

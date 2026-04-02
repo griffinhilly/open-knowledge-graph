@@ -16,7 +16,7 @@ tags:
 - culture
 - interpretation
 - material-culture
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

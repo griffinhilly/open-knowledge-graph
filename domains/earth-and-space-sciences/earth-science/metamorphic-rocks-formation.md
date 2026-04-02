@@ -16,7 +16,7 @@ tags:
 - pressure
 - transformation
 - foliation
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

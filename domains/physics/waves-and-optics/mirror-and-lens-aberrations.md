@@ -12,7 +12,7 @@ tags:
 - aberrations
 - spherical-aberration
 - chromatic-aberration
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - kinetics
 - parabolic-law
 - high-temperature
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

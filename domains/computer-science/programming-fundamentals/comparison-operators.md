@@ -18,7 +18,7 @@ tags:
 - comparison
 - boolean
 - logic
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Comparison Operators and Boolean Tests

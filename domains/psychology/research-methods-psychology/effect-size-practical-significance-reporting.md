@@ -15,7 +15,7 @@ tags:
 - practical-significance
 - result-reporting
 - interpretation
-stage: advanced
+stage: expert
 status: validated
 ---
 # Effect Sizes, Practical Significance, and Results Reporting

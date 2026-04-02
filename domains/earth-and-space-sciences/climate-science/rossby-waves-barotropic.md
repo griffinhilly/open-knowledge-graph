@@ -17,7 +17,7 @@ tags:
 - jets
 - vorticity
 - beta-effect
-stage: advanced
+stage: expert
 status: validated
 ---
 

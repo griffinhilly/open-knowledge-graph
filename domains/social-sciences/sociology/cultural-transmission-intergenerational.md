@@ -15,7 +15,7 @@ tags:
 - intergenerational
 - culture-continuity
 - socialization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

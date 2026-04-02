@@ -15,7 +15,7 @@ tags:
 - maxwell-equations
 - displacement-current
 - symmetry
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

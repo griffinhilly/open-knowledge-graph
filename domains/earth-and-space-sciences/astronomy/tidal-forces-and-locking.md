@@ -17,7 +17,7 @@ tags:
 - tidal-forces
 - orbital-evolution
 - dissipation
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

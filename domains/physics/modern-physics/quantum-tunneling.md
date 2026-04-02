@@ -19,7 +19,7 @@ tags:
 - barrier
 - finite-well
 - scanning-tunneling-microscope
-stage: advanced
+stage: expert
 status: validated
 ---
 

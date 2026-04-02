@@ -14,7 +14,7 @@ tags:
 - Le-Chatelier
 - enthalpy-of-reaction
 - thermodynamic-equilibrium
-stage: formal-systems
+stage: expert
 status: validated
 ---
 

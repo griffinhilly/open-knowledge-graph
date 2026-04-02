@@ -18,7 +18,7 @@ tags:
 - compaction
 - cementation
 - fossils
-stage: concrete-operations
+stage: formal-systems
 status: validated
 ---
 

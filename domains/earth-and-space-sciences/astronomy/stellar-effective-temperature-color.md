@@ -15,7 +15,7 @@ tags:
 - temperature
 - color
 - spectroscopy
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

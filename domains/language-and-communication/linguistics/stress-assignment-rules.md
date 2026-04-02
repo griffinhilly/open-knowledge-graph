@@ -15,7 +15,7 @@ tags:
 - stress
 - metrical-theory
 - accent
-stage: advanced
+stage: expert
 status: validated
 ---
 

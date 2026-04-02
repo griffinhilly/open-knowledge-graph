@@ -17,7 +17,7 @@ tags:
 - inflation-bias
 - credibility
 - policy
-stage: advanced
+stage: expert
 status: validated
 ---
 # Time Inconsistency in Monetary Policy

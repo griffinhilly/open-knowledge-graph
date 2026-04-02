@@ -14,7 +14,7 @@ tags:
 - minor
 - ear-training
 - singing
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - ethos
 - trustworthiness
 - authority
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

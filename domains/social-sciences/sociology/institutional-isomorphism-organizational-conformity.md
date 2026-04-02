@@ -13,7 +13,7 @@ tags:
 - mimetic-processes
 - coercive-normative
 - organizational-conformity
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

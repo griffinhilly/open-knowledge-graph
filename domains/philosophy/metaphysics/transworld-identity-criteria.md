@@ -28,7 +28,7 @@ tags:
 - possible-worlds
 - transworld
 - essentialism
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Transworld Identity and Identity Across Possible Worlds

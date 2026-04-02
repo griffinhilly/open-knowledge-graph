@@ -18,7 +18,7 @@ tags:
 - cultural-variation
 - social-diversity
 - cultural-norms
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - spherical-mirrors
 - mirror-equation
 - focal-length
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

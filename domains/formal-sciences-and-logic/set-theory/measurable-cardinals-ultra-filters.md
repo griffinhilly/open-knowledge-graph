@@ -18,7 +18,7 @@ tags:
 - ultrafilters
 - large-cardinals
 - measure
-stage: advanced
+stage: expert
 status: validated
 ---
 # Measurable Cardinals and Ultrafilters

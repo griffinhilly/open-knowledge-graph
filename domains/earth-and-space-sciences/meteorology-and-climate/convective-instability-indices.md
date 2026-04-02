@@ -22,7 +22,7 @@ tags:
 - lifted-index
 - convection
 - stability
-stage: advanced
+stage: expert
 status: validated
 ---
 # Convective Instability Indices and Stability Analysis

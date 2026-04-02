@@ -12,7 +12,7 @@ tags:
 - fiber-optics
 - waveguide
 - communication
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

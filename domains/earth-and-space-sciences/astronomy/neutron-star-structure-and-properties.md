@@ -12,7 +12,7 @@ tags:
 - compact-objects
 - neutron-stars
 - pulsars
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Neutron Stars and Pulsars

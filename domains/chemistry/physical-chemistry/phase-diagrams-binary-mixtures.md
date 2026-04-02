@@ -13,7 +13,7 @@ tags:
 - equilibrium
 - binary-systems
 - azeotropes
-stage: advanced
+stage: expert
 status: validated
 ---
 

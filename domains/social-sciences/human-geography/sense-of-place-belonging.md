@@ -16,7 +16,7 @@ tags:
 - identity
 - community
 - attachment
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Sense of Place and Belonging

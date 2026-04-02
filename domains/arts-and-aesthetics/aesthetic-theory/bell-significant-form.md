@@ -15,7 +15,7 @@ tags:
 - bell
 - form
 - abstract-beauty
-stage: advanced
+stage: expert
 status: validated
 ---
 # Clive Bell: Significant Form and Formalist Aesthetics

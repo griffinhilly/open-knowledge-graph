@@ -14,7 +14,7 @@ tags:
 - epithelial-transport
 - tight-junctions
 - secretion
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

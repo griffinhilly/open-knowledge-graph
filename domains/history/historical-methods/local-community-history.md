@@ -15,7 +15,7 @@ tags:
 - community
 - methodology
 - social-history
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Local and Community History Approaches

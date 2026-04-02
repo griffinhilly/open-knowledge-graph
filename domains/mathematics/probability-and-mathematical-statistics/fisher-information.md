@@ -15,7 +15,7 @@ tags:
 - fisher-information
 - information-theory
 - statistics
-stage: advanced
+stage: expert
 status: validated
 ---
 

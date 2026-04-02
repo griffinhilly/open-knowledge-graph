@@ -12,7 +12,7 @@ tags:
 - gaussian-integers
 - complex-integers
 - unique-factorization
-stage: advanced
+stage: expert
 status: validated
 ---
 

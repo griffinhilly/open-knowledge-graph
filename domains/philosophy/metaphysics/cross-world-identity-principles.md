@@ -19,7 +19,7 @@ tags:
 - modality
 - identity
 - possible-worlds
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Cross-World Identity and Counterpart Theory

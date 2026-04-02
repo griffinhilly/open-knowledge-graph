@@ -20,7 +20,7 @@ tags:
 - diffusion
 - mean-free-path
 - collision-diameter
-stage: advanced
+stage: expert
 status: validated
 ---
 # Transport Properties of Gases

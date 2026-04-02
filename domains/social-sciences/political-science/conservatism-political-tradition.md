@@ -14,7 +14,7 @@ tags:
 - order
 - gradual-change
 - institutions
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

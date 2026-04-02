@@ -16,7 +16,7 @@ tags:
 - disinterest
 - autonomy
 - aesthetics
-stage: advanced
+stage: expert
 status: validated
 ---
 # Kant: Aesthetic Disinterestedness

@@ -12,7 +12,7 @@ tags:
 - brewster-angle
 - polarization
 - reflection
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

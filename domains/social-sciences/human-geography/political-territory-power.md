@@ -15,7 +15,7 @@ tags:
 - territory
 - borders
 - sovereignty
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

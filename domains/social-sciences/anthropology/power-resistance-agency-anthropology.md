@@ -16,7 +16,7 @@ tags:
 - resistance
 - domination
 - theory
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Power, Resistance, and Human Agency

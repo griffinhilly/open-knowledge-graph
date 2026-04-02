@@ -17,7 +17,7 @@ tags:
 - characteristic-functions
 - fourier-analysis
 - moments
-stage: advanced
+stage: expert
 status: validated
 ---
 

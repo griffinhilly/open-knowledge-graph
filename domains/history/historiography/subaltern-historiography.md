@@ -16,7 +16,7 @@ tags:
 - postcolonial
 - marginalized
 - voices
-stage: advanced
+stage: expert
 status: validated
 ---
 # Subaltern Studies and Postcolonial Historiography

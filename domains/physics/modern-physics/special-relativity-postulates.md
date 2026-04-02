@@ -17,7 +17,7 @@ tags:
 - postulates
 - inertial-frames
 - speed-of-light
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

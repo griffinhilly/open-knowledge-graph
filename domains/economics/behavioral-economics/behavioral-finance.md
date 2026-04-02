@@ -18,7 +18,7 @@ tags:
 - equity-premium
 - market-anomalies
 - investor-behavior
-stage: advanced
+stage: expert
 status: validated
 ---
 

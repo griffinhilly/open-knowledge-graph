@@ -19,7 +19,7 @@ tags:
 - assignment
 - state
 - memory
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Variables and Assignment

@@ -18,7 +18,7 @@ tags:
 - emotion
 - Aristotle
 - purification
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

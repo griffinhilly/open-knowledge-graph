@@ -18,7 +18,7 @@ tags:
 - fossils
 - eras
 - periods
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

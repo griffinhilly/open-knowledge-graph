@@ -23,7 +23,7 @@ tags:
 - p-values
 - statistical-inference
 - significance
-stage: advanced
+stage: expert
 status: validated
 ---
 # Inferential Statistics, Hypothesis Testing, and P-Values

@@ -12,7 +12,7 @@ tags:
 - moral-hazard
 - incentives
 - insurance
-stage: advanced
+stage: expert
 status: validated
 ---
 # Moral Hazard in Insurance and Contracting

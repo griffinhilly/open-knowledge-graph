@@ -13,7 +13,7 @@ tags:
 - resonance
 - series-circuits
 - frequency-response
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

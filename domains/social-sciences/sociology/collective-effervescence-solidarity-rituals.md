@@ -16,7 +16,7 @@ tags:
 - solidarity
 - emotional-energy
 - durkheim
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

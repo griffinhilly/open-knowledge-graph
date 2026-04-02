@@ -17,7 +17,7 @@ tags:
 - motor-systems
 - planning
 - cognition
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

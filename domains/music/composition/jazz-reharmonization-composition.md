@@ -17,7 +17,7 @@ tags:
 - reharmonization
 - substitution
 - harmony
-stage: advanced
+stage: expert
 status: validated
 ---
 # Jazz Reharmonization and Substitution in Composition

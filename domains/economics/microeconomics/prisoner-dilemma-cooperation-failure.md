@@ -12,7 +12,7 @@ tags:
 - nash-equilibrium
 - dominant-strategy
 - conflict
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

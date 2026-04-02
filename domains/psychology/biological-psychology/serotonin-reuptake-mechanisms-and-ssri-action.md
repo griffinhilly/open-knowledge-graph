@@ -20,7 +20,7 @@ tags:
 - SSRI
 - depression
 - anxiety
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

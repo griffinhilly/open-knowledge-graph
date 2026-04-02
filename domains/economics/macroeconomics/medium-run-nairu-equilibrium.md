@@ -15,7 +15,7 @@ tags:
 - medium-run
 - unemployment
 - inflation-stability
-stage: advanced
+stage: expert
 status: validated
 ---
 

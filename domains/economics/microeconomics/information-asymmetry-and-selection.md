@@ -12,7 +12,7 @@ tags:
 - information
 - adverse-selection
 - market-failure
-stage: advanced
+stage: expert
 status: validated
 ---
 

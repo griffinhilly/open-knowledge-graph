@@ -13,7 +13,7 @@ tags:
 - group-knowledge
 - iteration
 - common-ground
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 # Common Knowledge and Mutual Knowledge

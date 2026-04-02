@@ -15,7 +15,7 @@ tags:
 - thin-lens
 - focal-length
 - converging-diverging
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

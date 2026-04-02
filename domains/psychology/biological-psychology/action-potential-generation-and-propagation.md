@@ -21,7 +21,7 @@ tags:
 - conduction
 - spikes
 - excitability
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

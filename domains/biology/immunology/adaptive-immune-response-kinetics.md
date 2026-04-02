@@ -17,7 +17,7 @@ tags:
 - secondary-response
 - antibody-titers
 - T-cell-expansion
-stage: advanced
+stage: expert
 status: validated
 ---
 

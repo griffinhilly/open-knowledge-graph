@@ -14,7 +14,7 @@ tags:
 - replication
 - topology
 - writes
-stage: advanced
+stage: expert
 status: validated
 ---
 

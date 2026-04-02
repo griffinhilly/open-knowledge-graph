@@ -16,7 +16,7 @@ tags:
 - critical-point
 - phase-diagram
 - supercritical
-stage: advanced
+stage: expert
 status: validated
 ---
 # Critical Point and Supercritical Fluids

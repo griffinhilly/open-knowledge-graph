@@ -14,7 +14,7 @@ tags:
 - prefrontal-cortex
 - inhibition
 - cognitive-control
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 
