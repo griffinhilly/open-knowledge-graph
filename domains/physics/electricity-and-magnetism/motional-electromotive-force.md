@@ -14,7 +14,7 @@ tags:
 - induction
 - EMF
 - generators
-stage: advanced
+stage: expert
 status: validated
 ---
 

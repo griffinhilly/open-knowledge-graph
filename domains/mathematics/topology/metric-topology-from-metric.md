@@ -14,7 +14,7 @@ builds-toward:
 tags:
 - metric-topology
 - induced-topology
-stage: formal-systems
+stage: advanced
 status: validated
 ---
 

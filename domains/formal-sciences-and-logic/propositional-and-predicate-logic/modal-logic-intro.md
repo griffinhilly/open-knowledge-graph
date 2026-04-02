@@ -18,7 +18,7 @@ tags:
 - Kripke-semantics
 - necessity
 - possibility
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 # Introduction to Modal Logic

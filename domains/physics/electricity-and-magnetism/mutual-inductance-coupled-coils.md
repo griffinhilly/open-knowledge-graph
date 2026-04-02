@@ -14,7 +14,7 @@ tags:
 - inductance
 - mutual inductance
 - coupling
-stage: advanced
+stage: expert
 status: validated
 ---
 

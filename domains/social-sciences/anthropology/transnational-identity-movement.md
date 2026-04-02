@@ -14,7 +14,7 @@ tags:
 - transnationalism
 - migration
 - globalization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -20,7 +20,7 @@ tags:
 - energy-levels
 - standing-waves
 - zero-point-energy
-stage: advanced
+stage: expert
 status: validated
 ---
 

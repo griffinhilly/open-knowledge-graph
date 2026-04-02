@@ -18,7 +18,7 @@ tags:
 - magnetism
 - forces
 - current interaction
-stage: formal-systems
+stage: expert
 status: validated
 ---
 # Force on Current-Carrying Conductors in Magnetic Fields

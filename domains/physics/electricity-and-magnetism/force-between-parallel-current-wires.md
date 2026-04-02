@@ -14,7 +14,7 @@ tags:
 - magnetism
 - forces
 - current interaction
-stage: formal-systems
+stage: expert
 status: validated
 ---
 
