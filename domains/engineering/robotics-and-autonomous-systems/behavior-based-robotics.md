@@ -36,31 +36,6 @@ Behavior-based robotics rejects the traditional sense-plan-act pipeline (where t
     - "Behavior B cannot run at the same time as behavior A"
     - "Behavior A and B are merged into a single combined behavior"
   answer: 1
-  explanation: "Subsumption means that behavior A's outputs override behavior B's outputs. Both may be continuously evaluating sensor inputs and producing motor commands, but when obstacle-avoidance detects danger, its output suppresses the wall-following command at the actuator level. This allows lower-priority behaviors to run continuously (maintaining wall-following state) while higher-priority behaviors seize control when needed. The architecture is organized in layers: sensor input at the base, behavior modules at increasing levels of abstraction, with suppression/inhibition wires connecting higher layers to lower ones."
-
-- question: "A behavior-based robot navigating a cluttered maze has three active behaviors: (1) avoid obstacles (priority high), (2) follow the wall on the robot's right, (3) reach goal room at far end. The robot successfully avoids obstacles but never reaches the goal — it keeps wall-following around the same room endlessly. Why?"
-  type: multiple-choice
-  options:
-    - "Behavior 2 is too strong and suppresses the goal-seeking behavior, but there's no global planning to escape"
-    - "Obstacle avoidance is broken and preventing all motion toward the goal"
-    - "The right wall is a closed loop and wall-following creates a limit cycle from which behavior 3 (reach goal) can never escape without suppression of behavior 2"
-    - "All behaviors are malfunctioning because they are not reactive enough"
-  answer: 2
-  explanation: "This is the fundamental limitation of pure reactive behavior-based systems: local behaviors can create global failures. Wall-following in a room with an interior wall or closed loop is a classic trap. The robot 'feels' the wall and follows it, but the wall loops back to the starting point, creating a limit cycle. Without global knowledge (the wall doesn't connect to the exit), the robot can't escape. Behavior 3 (reach goal) has a weak signal if the goal is far away (cannot sense it directly), so the high-priority obstacle avoidance and medium-priority wall-following dominate. The solution is to either (1) add a higher-priority behavior that detects this specific trap and escapes, (2) add global planning (contradicting pure behavior-based approach), or (3) combine behaviors differently (e.g., wall-following only up to a frontier, then explore elsewhere)."
-
-- question: "In a purely reactive behavior-based system, each behavior module reads current sensor values and outputs motor commands with minimal memory. This means the system cannot learn from past experience or remember previous states."
-  type: true-false
-  answer: false
-  explanation: "Reactive systems can have internal state within a behavior module — state machines, counters, timers — allowing a behavior to remember recent history and produce different outputs based on that history. The distinction is that there is no central world model or planning system maintaining global state. Each behavior has its own limited state for its specific function. Behaviors can learn from experience in more advanced frameworks (like Q-learning for behavior selection), though classical Brooks-style subsumption is indeed stateless."
-
-- question: "Behavior-based robotics scales well to robot swarms because simple reactive behaviors can be implemented identically on all robots, producing emergent collective behavior without central coordination or communication."
-  type: true-false
-  answer: true
-  explanation: "Correct. Swarm robotics thrives on behavior-based principles. Each robot runs the same simple behaviors (move toward others, avoid collisions, follow a gradient). Local interactions without global knowledge produce emergent patterns (flocking, aggregation, task allocation). This is more scalable than sending every swarm member a global plan or world state. However, swarm effectiveness depends on behavior design and environmental properties — poorly designed behaviors can cause chaotic or failure modes."
-
-- question: "Describe the key difference between behavior-based and deliberative robotics, and explain why behavior-based systems are computationally more efficient."
-  type: short-answer
-  answer: "Deliberative systems follow sense-plan-act: build a world model from sensor data (expensive), compute a global plan (expensive), execute. Behavior-based systems are sense-act (or sense-decide-act): directly map sensor data to actions with minimal intermediate representation. No world model, no planning, no search. A robot navigating a hallway with deliberative control must construct a 3D map, localize within it, compute a collision-free path, and execute that path — all expensive. A behavior-based robot simply runs 'move forward' and 'turn away from obstacles' as raw sensor outputs feed into motor commands, operating at 10-100 Hz control frequency. Behavior-based avoids the computational bottleneck of state representation and planning, though this comes at the cost of limited ability to handle complex tasks requiring global reasoning."
   explanation: "The efficiency trade-off defines when each approach is appropriate. Behavior-based is ideal for real-time reactivity in dynamic environments (robot sports, swarm robotics, autonomous vehicles) where planning latency is deadly. Deliberative is necessary for complex long-horizon tasks (robotic surgery, assembly) where errors propagate globally and require careful planning. Modern robots often use both: behavior-based reactive layer for safety and responsiveness, deliberative planner for task-level reasoning."
 ```
 

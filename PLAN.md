@@ -14,7 +14,7 @@
   - 10D: No compound-question issues found.
   - 10E: Quiz staleness warning added to pre-push hook.
 - *Tooling*: Built `fix_dangling_prereqs.py`, `audit_hedged_tf.py`.
-- *P2 topic generation*: +271 topics across 6 new courses + extensions to 15 existing courses. 9 Haiku agents in parallel. 25 YAML errors, 5 duplicates, 1 cycle fixed post-generation.
+- *P2 topic generation*: +320 topics across 6 new courses + extensions to 15 existing courses. 14 Haiku agents total (9 initial + 5 fix/regen). 25 YAML errors, 5 duplicates, 1 cycle fixed post-generation.
   - New courses: applied-ethics, history-of-science, economic-social-history, robotics-and-autonomous-systems, music-technology, contemporary-art-new-media
   - Extended: ML-theory, quantum-computing, cryptography, information-theory, formal-methods, advanced-algorithms, control-systems, signals-and-systems, materials-science, philosophy-of-science, continental-philosophy, early-language-foundations, advanced-linguistics
 
@@ -29,11 +29,9 @@
 - Radial mouse/touch handler duplication
 
 **Next steps:**
-1. **P2 quality pass** — spot-check Haiku-generated topics, fix dangling prereqs from new content
-2. **Regenerate visualizations** — topic pages, domain maps, radial, quiz for new 14,313 topics
-3. **Phase 9D** (remaining): domain toggle on radial, progress bars, guided learning paths
-4. Write announcement post
-5. Push + deploy to GitHub Pages
+1. **Music-history restaging** — 63 topics at abstract-reasoning should be formal-systems (their prereqs are formal-systems theory topics). Course-level stage fixed; individual topics need restaging pass.
+2. **Phase 9D** (remaining): domain toggle on radial, progress bars, guided learning paths
+3. Write announcement post
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)

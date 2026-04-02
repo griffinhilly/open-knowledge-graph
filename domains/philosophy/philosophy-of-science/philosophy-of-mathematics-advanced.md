@@ -10,7 +10,7 @@ tags:
 - platonism
 - nominalism
 - ontology
-stage: expert
+stage: advanced
 status: validated
 ---
 

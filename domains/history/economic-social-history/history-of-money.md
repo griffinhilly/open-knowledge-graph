@@ -26,42 +26,42 @@ Money is a social technology: it emerges when communities need a medium of excha
 
 ```yaml
 
-- question: "What is the primary significance of this topic in its historical context?"
+- question: "What problem does money solve that barter does not?"
+  type: short-answer
+  answer: "Barter requires a 'double coincidence of wants': you need something the other person has AND they need what you have. Money solves this by serving as a universal medium of exchange that everyone accepts, eliminating the need for direct matching of wants."
+  explanation: "The emergence of money represents a major advance in economic efficiency. Instead of searching for someone who has what you want and wants what you have, money allows anyone to exchange their goods for money, then use the money to buy from anyone else."
+
+- question: "Commodity money (like gold coins) faces a problem that fiat currency solves. What is that problem?"
+  type: short-answer
+  answer: "Commodity money is limited by the supply of the commodity. If only so much gold exists, the money supply is constrained, limiting economic growth. Fiat currency has no such constraint—governments can issue as much as needed—allowing flexible money supply."
+  explanation: "The shift from commodity to fiat money reflected the growing realization that money's value depends on acceptance, not intrinsic worth. As economies grew and needed more money for transactions, commodity constraints became problematic."
+
+- question: "What is 'currency debasement,' and what economic consequence did it have?"
+  type: short-answer
+  answer: "Currency debasement was reducing the metal content of coins while maintaining their face value—for example, issuing coins with less gold but calling them the same value. It caused inflation because people quickly realized the coins were worth less, driving up prices."
+  explanation: "Debasement reveals that money is fundamentally based on trust. When governments betray that trust by reducing metal content while maintaining value claims, people lose confidence and demand more coins in exchange for goods. This inflation harmed ordinary people but benefited those with fixed debts."
+
+- question: "true or false: Cryptocurrencies like Bitcoin have successfully replaced government money because they use cryptography to verify transactions instead of requiring government authority."
+  type: true-false
+  answer: false
+  explanation: "Cryptocurrencies remain niche because they lack the regulatory backing of government money, face volatility and fraud, and haven't achieved the universal acceptance that government money has. While they offer some advantages (decentralization, reduced intermediaries), they haven't overcome the fundamental advantage of government-backed currency: the coercive power of the state to enforce tax payment and enforce contracts in that currency."
+
+- question: "Which of the following is true of fiat currency?"
   type: multiple-choice
   options:
-    - "It represents a major shift in how society was organized or understood"
-    - "It was a localized event with no broader implications"
-    - "It reversed previous progress and caused decline"
-    - "It was primarily motivated by individual ambition rather than systemic forces"
-  answer: 0
-  explanation: "This topic represents an important transformation in historical understanding. Understanding its significance requires recognizing the broader context and systemic factors involved, not merely individual actions or local effects."
-
-- question: "How did this development reflect or transform the economic and social systems of its time?"
-  type: short-answer
-  answer: "This topic both reflected existing systems and transformed them. Understanding requires analysis of both continuities (what persisted from before) and changes (what was new or different)."
-  explanation: "Historical analysis requires attention to both change and continuity. This topic is significant because it represents a meaningful transformation in how people lived, worked, and organized themselves socially and economically."
-
-- question: "What were the intended and unintended consequences of this development?"
-  type: short-answer
-  answer: "Developments typically had multiple consequences, some intended and some not. Some benefited certain groups while harming others. Understanding requires attention to distributional effects."
-  explanation: "Major historical developments rarely have purely positive or negative effects. They typically benefited some groups (those with power and resources to shape the development) while harming others (those displaced or exploited). Mature historical analysis recognizes these complexities."
-
-- question: "How does understanding this topic help explain contemporary conditions?"
-  type: short-answer
-  answer: "History provides context for present conditions. This topic illuminates current patterns of inequality, institutions, technologies, or beliefs. Understanding origins helps understand persistence and possibilities for change."
-  explanation: "The goal of historical study is partly explanatory — understanding why the world is as it is — and partly emancipatory — understanding that current conditions are human-created and thus changeable."
-
-- question: "What sources of evidence would historians use to study this topic, and what are their limitations?"
-  type: short-answer
-  answer: "Historians use diverse sources (documents, artifacts, oral histories, material culture). Each source type has limitations: documents may be biased; artifacts may be misinterpreted; oral histories may be incomplete; material culture may be fragmentary. Understanding requires integrating multiple sources."
-  explanation: "Historical knowledge is constructed from limited and imperfect sources. Understanding the evidence base helps recognize both what we can confidently know and what remains uncertain or debated among historians."
+    - "It has intrinsic value because it is backed by gold reserves"
+    - "It depends entirely on collective trust and government authority, not intrinsic commodity value"
+    - "It prevents inflation because the money supply is limited"
+    - "It is more efficient than commodity money but less stable"
+  answer: 1
+  explanation: "Fiat money has value because people accept it and governments enforce it as legal tender. It is not backed by precious metals. While it can enable more inflation than commodity money (because supply is not constrained), most modern economies manage fiat money successfully."
 
 ```
 
 ## Explainer
 
-Money is a social technology: it emerges when communities need a medium of exchange beyond barter. Early money was commodity money — gold, silver, shells — valuable in itself. Commodity money enabled trade but was limited by the supply of the commodity. Governments began minting coins, certifying their weight and purity — a standardization that facilitated trade. As trade expanded, carrying metal became burdensome; paper money emerged — initially a receipt for stored metal, eventually fiat currency (money decreed to have value by government). Paper money enabled flexible money supply but required trust: if governments debase currency (reduce metal content while maintaining face value), inflation follows. Modern money is mostly electronic — digital accounts tracked by computers — rather than physical cash. Digital money is efficient but requires trust in institutions. Cryptocurrencies attempt to create money without central authority, using cryptographic verification; yet they lack the regulatory backing of state money and have been subject to volatility and fraud. Understanding money's history reveals that it is not a natural thing (gold does not inherently have value) but a social convention, dependent on collective belief. Different monetary systems embody different assumptions: commodity money assumes value is intrinsic; fiat currency assumes government authority confers value; cryptocurrencies assume decentralized verification enables trust. The choice of monetary system has profound economic consequences.
+In early economies, trade occurred through barter—direct exchange of goods. This system had severe limitations. Barter required a "double coincidence of wants": you had to find someone who had what you wanted AND was willing to accept what you offered. This was inefficient and limited trade to small communities. The solution was money: a commodity that everyone accepted as valuable and willing to exchange. Early money took many forms depending on what societies valued: shells, beads, cattle, salt, and precious metals. These commodity monies worked well because they were valuable (people wanted them) and scarce (limiting supply and preventing inflation). However, as trade grew, commodity money created burdens. Merchants carrying gold or silver faced robbery risks. In medieval Europe, merchants developed paper receipts for their stored metal—essentially early paper money that represented claims on metal held in secure locations. Gradually, these receipts began circulating as money themselves, eventually becoming fiat currency—money that the government declares has value, without backing it with metal.
 
-This topic emerged from and contributed to broader transformations in how societies organized production, distributed resources, and understood themselves. Understanding it requires attention to the material conditions (what resources were available, how were they used), the ideas and beliefs that shaped decisions, the institutions that structured activities, and the power relationships that determined who benefited and who bore costs.
+Governments minted coins as standardized money, certifying weight and purity. This standardization reduced counterfeiting and transaction costs. As governments accumulated power and legitimacy, they moved from commodity money to fiat currency. This shift was dramatic: fiat money has no intrinsic value. Its value depends entirely on three factors: government coercion (forcing people to accept it as payment and requiring taxes in it), collective belief (people's confidence that others will accept it), and institutional backing (banks and regulators maintaining the money's stability). Yet fiat currency enabled flexibility: governments could adjust money supply to match economic growth. But this flexibility created temptation. Medieval and early modern rulers sometimes "debased" currency—reducing the metal content of coins while maintaining their face value. People quickly discovered this fraud; they demanded more coins in exchange for goods, causing inflation that harmed ordinary people and benefited those with fixed debts.
 
-The significance of this topic extends beyond its immediate historical context. The patterns, institutions, and ideas developed during this period shaped subsequent developments. Understanding the origins of modern institutions (markets, nation-states, industrial organization) requires studying how they emerged in specific historical contexts. Understanding contemporary inequalities requires tracing their historical origins. Understanding possibilities for change requires recognizing that current systems are human creations, not natural or inevitable, and thus subject to transformation.
+Modern money is increasingly electronic—digital accounts in bank computers rather than physical cash. This development further accelerated the abstraction of money: digital money is pure information. Cryptocurrencies like Bitcoin represent an attempt to create money without government authority, using cryptographic verification instead. Yet cryptocurrencies have not displaced government money because they lack its advantages: the government's coercive power ensures taxes must be paid in government currency, governments enforce contracts and debt in government currency, and government backing provides stability. Cryptocurrencies remain volatile and subject to fraud. The history of money reveals a fundamental truth: money is not a natural thing with intrinsic value but a social convention that depends on institutions and collective belief. Different monetary systems embody different philosophies: commodity money assumes value is intrinsic, fiat currency assumes government authority creates value, cryptocurrencies assume decentralized verification enables trust. The choice of monetary system shapes economic possibilities, inflation risks, government power, and who benefits from money creation.

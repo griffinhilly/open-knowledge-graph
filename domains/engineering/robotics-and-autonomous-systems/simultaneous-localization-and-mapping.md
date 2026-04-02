@@ -48,46 +48,6 @@ Implement a simple monocular visual SLAM from scratch: feature extraction (SIFT/
     - "Loop closure marks the drift as an error and re-runs the entire motion estimation from the beginning with updated parameters"
     - "Loop closure is unnecessary; drift naturally vanishes as the robot continues exploring"
   answer: 1
-  explanation: "Loop closure works by recognizing a previously visited location (place recognition) and adding a loop constraint: 'the robot's current location and its past location should be the same (or close).' This constraint is fed into a graph optimization (bundle adjustment, pose graph optimization) that adjusts all poses along the trajectory to satisfy all constraints simultaneously. The result is a globally consistent map and trajectory, even though individual odometry steps accumulated errors. The optimization redistributes the total drift across the entire trajectory, correcting the accumulated error."
-
-- question: "A visual SLAM system extracts 1000 feature points from the current camera frame and matches them to points in the previous frame. 900 matches are found. What can you infer about the current frame?"
-  type: multiple-choice
-  options:
-    - "The 900 matched features are accurately tracked and can be reliably used for motion estimation"
-    - "90% of the features come from static objects; the robot can confidently estimate its motion"
-    - "The high match ratio indicates good visual overlap between frames, suggesting short baseline and small motion. The matches should be validated with outlier rejection (RANSAC) before using for motion estimation"
-    - "This high match ratio is suspicious; most features should be new in each frame as the robot moves"
-  answer: 2
-  explanation: "A high match ratio (90%) indicates good visual overlap, which is good for tracking. However, not all matches are correct: some are due to perspective distortion, aliasing, or repetitive textures. Before using matches for motion estimation, RANSAC or similar robust estimation must reject outliers. The motion estimate (camera pose change) is computed from the inlier matches; typically 50-80% of matches survive outlier rejection. New frames also contain new features that weren't visible before, while features can disappear from view—a 90% match ratio doesn't violate this."
-
-- question: "In EKF-SLAM (Extended Kalman Filter SLAM), the state vector includes both robot pose [x, y, θ] and landmark positions [x₁, y₁, x₂, y₂, ...]. When the robot observes a landmark, what happens to the uncertainty in the robot's pose estimate?"
-  type: multiple-choice
-  options:
-    - "The uncertainty in robot pose increases because the observation introduces measurement noise"
-    - "The uncertainty in robot pose decreases due to the observational constraint; the landmark observation constrains where the robot must be"
-    - "The uncertainty in robot pose is unaffected; observations only refine landmark estimates"
-    - "The uncertainty is unpredictable and depends on the specific landmark"
-  answer: 1
-  explanation: "In EKF-SLAM, observations of landmarks are constraints: if you detect a known landmark at a specific bearing and distance, your pose must be compatible with that observation. The measurement reduces uncertainty in both the robot pose (through the observational constraint) and the landmark position. The Kalman filter update propagates this constraint through the covariance matrix, coupling pose and landmark estimates. This is a key feature of SLAM: observations implicitly improve localization."
-
-- question: "Bundle adjustment in visual SLAM simultaneously optimizes all camera poses and all 3D point positions by minimizing the reprojection error: the sum of squared differences between observed image features and reprojected 3D points. Why is global optimization necessary?"
-  type: multiple-choice
-  options:
-    - "Local optimization is computationally cheaper and gives equally good results"
-    - "Global optimization corrects errors that accumulate when processing frames sequentially; each frame's pose estimation affects the next frame, and errors compound"
-    - "Global optimization is the only way to estimate 3D point positions from image observations"
-    - "Global optimization is not necessary; bundle adjustment is optional and only improves results marginally"
-  answer: 1
-  explanation: "Sequential frame-by-frame estimation (first frame 1, then frame 2, then frame 3...) doesn't account for the global structure: errors in frame 1's pose propagate to frame 2, then frame 3, accumulating. Global optimization (bundle adjustment) considers all frames simultaneously and redistributes errors optimally. Early frames can be corrected based on observations in later frames. This produces a consistent, globally optimal map in the least-squares sense, even though computing it requires solving a large nonlinear optimization problem."
-
-- question: "In loop closure detection, a place recognition algorithm compares the current camera image against a database of past images to find visually similar ones. Why must place recognition be robust against perceptual aliasing (the same place looking different due to viewpoint, lighting, or season)?"
-  type: true-false
-  answer: true
-  explanation: "Correct. Perceptual aliasing is a fundamental challenge in loop closure. The same physical location may look drastically different depending on viewing angle, time of day (shadows), or season (leaves on trees vs. bare). A robust place recognition system must find matches despite these visual differences. Techniques like DBoW2 (Bag of Words for Visual Loop Detection) use visual vocabulary and statistical similarity to tolerate these variations. Failure to handle aliasing causes false negatives (missing loop closures) and accumulated drift, or false positives (incorrect loop constraints that corrupt the map)."
-
-- question: "Explain why LiDAR SLAM is generally more robust than visual SLAM in low-light environments, and what trade-offs this introduces."
-  type: short-answer
-  answer: "Visual SLAM relies on feature detection (corners, edges) in camera images. In low light, images are dark, grainy, and contain few detectable features, causing visual SLAM to fail. LiDAR uses active illumination (laser pulses), so it works regardless of ambient light—a dark night or indoor warehouse are equivalent to bright daylight for LiDAR. Trade-off: LiDAR is much more expensive and power-hungry than cameras. It also provides less semantic information (no color, appearance, or semantic labels). Additionally, LiDAR performs poorly on reflective or transparent surfaces (glass, water), while cameras see through them. This is why many autonomous systems use both: cameras for semantic understanding in good light, LiDAR for robust geometric mapping and localization in challenging conditions."
   explanation: "The complementarity of visual and LiDAR SLAM drives modern sensor fusion approaches: visual SLAM provides rich detail and semantic understanding, LiDAR provides robust metric localization. Multi-sensor SLAM systems leverage both strengths."
 ```
 

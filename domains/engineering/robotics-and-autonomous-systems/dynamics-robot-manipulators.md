@@ -43,46 +43,6 @@ Derive the dynamics of a 2-DOF planar arm by hand using the Lagrangian method: c
     - "τ = m·g·L (gravity only)"
     - "Insufficient information; the moment of inertia depends on the shape, not just mass and length"
   answer: 1
-  explanation: "By Newton's second law for rotation, τ = I·α. Substituting I = (1/3)·m·L² (the moment of inertia for a uniform rod about one end), the required torque is τ = (1/3)·m·L²·α. This is the fundamental rotational dynamics equation."
-
-- question: "A 2-DOF robot arm has the equation of motion: [M₁₁·θ̈₁ + M₁₂·θ̈₂] + [C₁₁·θ̇₁² + C₁₂·θ̇₁·θ̇₂] + G₁ = τ₁. The term M₁₂·θ̈₂ in the equation for joint 1 represents:"
-  type: multiple-choice
-  options:
-    - "The effect of gravity on joint 1"
-    - "The coupling between joints: acceleration of joint 2 influences the motion of joint 1 due to the inertia of link 2"
-    - "The friction force at joint 1"
-    - "A measurement error in the torque sensor at joint 1"
-  answer: 1
-  explanation: "The inertia matrix M(θ) is dense and fully coupled. The term M₁₂ indicates that acceleration of joint 2 contributes to the torque equation of joint 1. Physically, joint 2 has inertia (mass of link 2 and everything beyond), and when joint 2 accelerates, it creates reaction forces on link 1. These reaction forces couple the dynamics: to accelerate link 1, you must not only overcome its own inertia but also account for the inertia of the downstream links. This is a key feature of multi-link arms and requires model-based control to handle properly."
-
-- question: "The Lagrangian of a mechanical system is L = KE - PE, where KE is kinetic energy and PE is potential energy. For a robot arm, the kinetic energy is typically a function of θ̇ (joint velocities) and the potential energy is typically a function of θ (joint angles). Why does kinetic energy depend on θ as well, not just θ̇?"
-  type: multiple-choice
-  options:
-    - "Kinetic energy doesn't depend on θ; you misunderstood the question"
-    - "Because the orientation of the robot changes with θ, which affects how much kinetic energy is stored in each link's rotation"
-    - "Because the velocity of each link's center of mass depends on θ as well as θ̇; links at different angles have different velocities for the same joint speeds"
-    - "Because gravity changes with joint angle θ"
-  answer: 2
-  explanation: "The kinetic energy of a link is KE = (1/2)·m·v² + (1/2)·I·ω². The velocity v of the link's center of mass depends on θ (through the Jacobian relating joint velocities to Cartesian velocities) as well as θ̇. For a multi-link arm, link 2's absolute velocity depends on both θ₁ and θ̇₁ (it moves because link 1 rotates) and on θ₂ and θ̇₂ (its own rotation). Thus, KE is a function of both θ and θ̇. This is why the inertia matrix M(θ) depends on θ: the effective inertia seen by each joint changes with the robot's configuration."
-
-- question: "The centrifugal and Coriolis terms in robot dynamics are grouped into C(θ,θ̇)·θ̇. These terms arise from:"
-  type: multiple-choice
-  options:
-    - "The rotation of coordinate frames as the robot moves, creating fictitious forces in the rotating frame"
-    - "Gravity acting on the links at different angles"
-    - "Non-linear coupling in the inertia matrix, where the velocity-dependent part of kinetic energy generates additional forces"
-    - "Friction in the joints"
-  answer: 2
-  explanation: "When you apply the Euler-Lagrange equation d/dt(∂L/∂θ̇) - ∂L/∂θ = τ and the kinetic energy KE(θ, θ̇) is nonlinear in θ̇ and depends on θ, the time derivative of ∂KE/∂θ̇ produces terms involving θ̈ (which form the inertia matrix) and terms involving θ̇² and θ̇₁·θ̇₂ (the centrifugal and Coriolis terms). These are not fictitious forces per se, but rather consequences of the nonlinear kinematics of multi-link systems. They are real forces that must be accounted for in control."
-
-- question: "A robot arm is controlled using computed torque control: τ = M(θ)·θ̈_d + C(θ,θ̇)·θ̇ + G(θ), where θ̈_d is a desired acceleration computed from a trajectory. If the model is perfectly accurate and the actuators respond instantly, what is the resulting closed-loop system?"
-  type: true-false
-  answer: true
-  explanation: "Correct. Substituting this control law into the dynamics equation M(θ)·θ̈ + C(θ,θ̇)·θ̇ + G(θ) = τ gives M(θ)·θ̈ + C(θ,θ̇)·θ̇ + G(θ) = M(θ)·θ̈_d + C(θ,θ̇)·θ̇ + G(θ), which simplifies to θ̈ = θ̈_d. The system follows the desired acceleration exactly. This is the power of computed torque: if you know the dynamics well, you can cancel the nonlinearities and make the robot behave like a simple linear system θ̈ = θ̈_d. In practice, modeling errors and actuator delays prevent perfect cancellation, so additional feedback control (e.g., PID) is layered on top."
-
-- question: "In the gravity vector G(θ), the term for joint i is the partial derivative of potential energy: G_i = ∂PE/∂θ_i. For a vertical robot arm lifting against gravity, explain why G(θ) changes as the arm moves through different configurations."
-  type: short-answer
-  answer: "The potential energy of a link at height h is PE = m·g·h. As the robot's configuration θ changes, the height of each link's center of mass changes. For example, extending an arm vertically raises the center of mass and increases PE; folding it downward lowers the center of mass and decreases PE. The gravity torque is G_i = ∂PE/∂θ_i, which is the torque required to counteract gravity for a given joint. Different configurations require different gravity torques because the arms are at different heights. A horizontal arm requires zero gravity torque (height doesn't change with rotation). A vertical arm requires maximum gravity torque. Intermediate angles require intermediate compensation."
   explanation: "Gravity compensation is configuration-dependent. Sophisticated robot controllers measure the gravity torque at each configuration and actively compensate for it. Without compensation, the robot would sag under gravity when held stationary. With compensation, the robot feels 'weightless' to the operator during manual manipulation (teach pendant programming)."
 ```
 

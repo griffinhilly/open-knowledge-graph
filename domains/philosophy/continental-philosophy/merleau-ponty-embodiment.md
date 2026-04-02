@@ -12,7 +12,7 @@ tags:
 - embodiment
 - perception
 - body
-stage: expert
+stage: advanced
 status: validated
 ---
 

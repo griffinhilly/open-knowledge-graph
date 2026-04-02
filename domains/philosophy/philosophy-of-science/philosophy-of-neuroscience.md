@@ -10,7 +10,7 @@ tags:
 - mind-body
 - consciousness
 - reduction
-stage: expert
+stage: advanced
 status: validated
 ---
 

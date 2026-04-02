@@ -12,7 +12,7 @@ tags:
 - nature
 - environment
 - embodiment
-stage: expert
+stage: advanced
 status: validated
 ---
 

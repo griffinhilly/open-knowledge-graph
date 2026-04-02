@@ -12,7 +12,7 @@ tags:
 - evolution
 - organisms
 - life
-stage: expert
+stage: advanced
 status: validated
 ---
 

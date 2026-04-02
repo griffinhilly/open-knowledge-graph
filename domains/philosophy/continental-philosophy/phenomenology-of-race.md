@@ -10,7 +10,7 @@ tags:
 - phenomenology
 - racialization
 - embodiment
-stage: expert
+stage: advanced
 status: validated
 ---
 

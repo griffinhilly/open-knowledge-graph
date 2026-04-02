@@ -32,7 +32,7 @@ courses:
   stage: advanced
 - id: continental-philosophy
   title: Continental Philosophy
-  stage: expert
+  stage: advanced
 - id: applied-ethics
   title: Applied Ethics
   stage: advanced

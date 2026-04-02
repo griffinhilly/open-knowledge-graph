@@ -27,42 +27,48 @@ Peer review — evaluation of research by other scientists before publication �
 
 ```yaml
 
-- question: "What is the primary significance of this topic in its historical context?"
+- question: "The replication crisis in psychology and medicine revealed a specific statistical manipulation that peer review failed to catch. What is 'p-hacking'?"
+  type: short-answer
+  answer: "P-hacking refers to manipulating the analysis of a dataset -- adding or removing variables, stopping data collection when results are significant, reporting only significant subgroup analyses -- until a p-value below 0.05 is achieved, then reporting the result as if the analysis had been pre-specified. Because peer reviewers rarely see raw data or analysis code, they cannot detect this. The result is published findings that appear statistically rigorous but are actually exploratory patterns inflated by selective reporting. Large replication studies, such as the 2015 Open Science Collaboration project that reproduced only 39% of published psychology findings, exposed how widespread this problem was."
+  explanation: "P-hacking is not necessarily conscious fraud -- researchers may genuinely believe the manipulation is justified. The problem is structural: publication bias rewards positive results, peer review cannot detect exploratory data mining, and statistical thresholds (p < 0.05) create a bright line that incentivizes crossing it by any means."
+
+- question: "When did peer review become the standard mechanism for evaluating scientific manuscripts before publication?"
   type: multiple-choice
   options:
-    - "It represents a major shift in how society was organized or understood"
-    - "It was a localized event with no broader implications"
-    - "It reversed previous progress and caused decline"
-    - "It was primarily motivated by individual ambition rather than systemic forces"
-  answer: 0
-  explanation: "This topic represents an important transformation in historical understanding. Understanding its significance requires recognizing the broader context and systemic factors involved, not merely individual actions or local effects."
+    - "Since the founding of scientific journals in the 17th century -- the Royal Society used peer review from the start"
+    - "Peer review became widespread only in the mid-20th century; earlier journals relied on editorial judgment, and some major journals adopted it only in the 1970s"
+    - "Peer review was introduced by Vannevar Bush in 1945 as part of the NSF grant process"
+    - "Peer review has existed as long as science itself -- Greek philosophers reviewed each other's arguments"
+  answer: 1
+  explanation: "The history of peer review is often misunderstood. The Royal Society's Philosophical Transactions (1665) had editorial oversight but not systematic peer review. External referee review became standard gradually: Nature adopted it only in the 1970s. The assumption that peer review is a timeless feature of science is itself a historical myth -- understanding its emergence helps evaluate its shortcomings."
 
-- question: "How did this development reflect or transform the economic and social systems of its time?"
+- question: "What are the main arguments for and against anonymous (double-blind) peer review compared to open review?"
   type: short-answer
-  answer: "This topic both reflected existing systems and transformed them. Understanding requires analysis of both continuities (what persisted from before) and changes (what was new or different)."
-  explanation: "Historical analysis requires attention to both change and continuity. This topic is significant because it represents a meaningful transformation in how people lived, worked, and organized themselves socially and economically."
+  answer: "Anonymous review argues that anonymity protects junior researchers and non-prestigious institutions from reviewer bias -- known authors from elite universities get easier reviews. Critics argue that anonymity enables irresponsible reviewing (reviewers have no accountability for unfair or superficial reviews), that it doesn't prevent reviewers from guessing authors' identities, and that it hides conflicts of interest. Open review (reviewers' names known to authors, or reviews published alongside papers) increases accountability and allows readers to evaluate reviewers' credibility and potential biases. Some journals and preprint servers have adopted open review, finding it reduces gatekeeping while maintaining quality."
+  explanation: "The debate about peer review structure is active and unresolved. Different fields have adopted different practices, and evidence on which works best is limited -- peer review is itself insufficiently peer reviewed."
 
-- question: "What were the intended and unintended consequences of this development?"
-  type: short-answer
-  answer: "Developments typically had multiple consequences, some intended and some not. Some benefited certain groups while harming others. Understanding requires attention to distributional effects."
-  explanation: "Major historical developments rarely have purely positive or negative effects. They typically benefited some groups (those with power and resources to shape the development) while harming others (those displaced or exploited). Mature historical analysis recognizes these complexities."
+- question: "Peer review effectively prevents publication of fraudulent research."
+  type: true-false
+  answer: false
+  explanation: "Several high-profile fraud cases -- Hwang Woo-suk's fabricated stem cell papers (2004-2005), Diederik Stapel's decade of fabricated psychology data, Jan Hendrik Schon's falsified physics -- all passed peer review. Peer reviewers assess manuscripts, not original data; they cannot detect fabrication without access to raw files. Peer review's purpose is to evaluate logical coherence, methodological soundness, and adequacy of evidence -- it is not designed to detect deliberate fraud. Fraud detection typically comes from anomalies noticed by other researchers, whistleblowers, or post-publication data analysis."
 
-- question: "How does understanding this topic help explain contemporary conditions?"
+- question: "What was the 2015 Open Science Collaboration study, and what were its main findings about psychology research?"
   type: short-answer
-  answer: "History provides context for present conditions. This topic illuminates current patterns of inequality, institutions, technologies, or beliefs. Understanding origins helps understand persistence and possibilities for change."
-  explanation: "The goal of historical study is partly explanatory — understanding why the world is as it is — and partly emancipatory — understanding that current conditions are human-created and thus changeable."
-
-- question: "What sources of evidence would historians use to study this topic, and what are their limitations?"
-  type: short-answer
-  answer: "Historians use diverse sources (documents, artifacts, oral histories, material culture). Each source type has limitations: documents may be biased; artifacts may be misinterpreted; oral histories may be incomplete; material culture may be fragmentary. Understanding requires integrating multiple sources."
-  explanation: "Historical knowledge is constructed from limited and imperfect sources. Understanding the evidence base helps recognize both what we can confidently know and what remains uncertain or debated among historians."
+  answer: "The 2015 Open Science Collaboration, involving over 270 researchers, attempted to replicate 100 studies published in prominent psychology journals. Only 36-39% of the replications produced statistically significant results matching the original findings, and effect sizes were on average about half those in the original papers. The study did not prove fraud; it showed that standard scientific practices (flexible analysis, publication of positive results only, small samples) produced inflated and unreliable findings at scale. It triggered a reform movement: pre-registration of hypotheses, open data sharing, registered reports (where journals commit to publish regardless of results)."
+  explanation: "The OSC study was methodologically sophisticated and controversial -- some psychologists disputed its conclusions. The reform movement it triggered (open science practices, pre-registration) represents one of the most significant changes in scientific practice in recent decades."
 
 ```
 
 ## Explainer
 
-Peer review — evaluation of research by other scientists before publication — emerged gradually as the mechanism for quality control in science. Early scientific societies like the Royal Society relied on editors to judge papers; by the 20th century, peer review became standard. Peer review has advantages: it reduces publication of clearly erroneous work; it provides feedback for improvement; it creates community ownership of standards. Yet it has limitations: peers may reject novel ideas; slow review delays publication; anonymity can enable unfairness; reviewers often lack incentive to do thorough review. The crisis in replicability in some fields (psychology, medicine) has raised questions about whether peer review adequately filters poor science. P-hacking — manipulating statistical analyses to produce significant results — can escape peer review. Yet critics also recognize that alternative systems (publication without review, or publication with open post-hoc commentary) have their own problems. Peer review remains the foundation of scientific credibility, yet its shortcomings are increasingly recognized. Understanding the history and limits of peer review is important for understanding modern science: it reveals that gatekeeping is imperfect, that scientific consensus can incorporate errors, and that fixing problems requires structural changes, not just individual moral reform.
+Peer review -- the evaluation of scientific manuscripts by other researchers before publication -- is widely treated as a defining feature of science itself, a mechanism ensuring that published claims have withstood critical scrutiny. Yet peer review in its modern form is a mid-20th century innovation, and its limitations have become increasingly apparent through systematic study of scientific practice.
 
-This topic emerged from and contributed to broader transformations in how societies organized production, distributed resources, and understood themselves. Understanding it requires attention to the material conditions (what resources were available, how were they used), the ideas and beliefs that shaped decisions, the institutions that structured activities, and the power relationships that determined who benefited and who bore costs.
+The earliest scientific journals -- the Royal Society's Philosophical Transactions (1665), the Journal des scavans (1665) -- relied on editorial judgment rather than external referees. Scientific societies served a gatekeeping function through membership and presentation norms, but the idea of systematically sending manuscripts to expert referees was slow to develop. Major journals adopted it at different times: Nature formalized referee review only in the 1970s. The assumption that peer review is ancient and universal is itself a myth.
 
-The significance of this topic extends beyond its immediate historical context. The patterns, institutions, and ideas developed during this period shaped subsequent developments. Understanding the origins of modern institutions (markets, nation-states, industrial organization) requires studying how they emerged in specific historical contexts. Understanding contemporary inequalities requires tracing their historical origins. Understanding possibilities for change requires recognizing that current systems are human creations, not natural or inevitable, and thus subject to transformation.
+The modern peer review system became established alongside the postwar expansion of scientific publishing. With thousands of journals and millions of papers annually, editors needed ways to filter submissions -- external reviewers provided that filter. Grant review at funding agencies (NSF, NIH) adopted similar procedures: panels of scientists evaluating proposals before funding decisions. Peer review thus became embedded in two of science's most important gatekeeping functions: publication and funding.
+
+The limitations of peer review became visible through the replication crisis, which emerged most prominently in psychology and medicine in the 2000s-2010s. The 2015 Open Science Collaboration reproduced only 36-39% of 100 published psychology findings. Large-scale medicine analyses found that many standard treatments had never survived rigorous replication. The mechanism was not primarily fraud but structural: publication bias (journals prefer positive results), small sample sizes that permit chance findings, and p-hacking -- flexible analysis choices that allow researchers to cross the p < 0.05 threshold. None of these are detectable by standard peer review.
+
+High-profile fraud cases (Hwang Woo-suk in stem cells, Diederik Stapel in psychology, Jan Hendrik Schon in physics) exposed another limitation: reviewers see manuscripts, not data, and cannot detect fabrication without access to original files.
+
+The reform movement emerging from the replication crisis includes pre-registration (researchers publicly commit to hypotheses and analysis plans before data collection), open data requirements, registered reports (journals commit to publish regardless of results), and open peer review. These represent real structural changes to scientific practice -- acknowledgments that peer review alone is insufficient and that incentive structures rewarding novelty over replication need redesign. The history of peer review reveals not that science is broken but that its quality-control mechanisms are historically contingent and require ongoing revision.

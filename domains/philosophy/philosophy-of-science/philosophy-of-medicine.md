@@ -10,7 +10,7 @@ tags:
 - disease
 - health
 - diagnosis
-stage: expert
+stage: advanced
 status: validated
 ---
 

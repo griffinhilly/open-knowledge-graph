@@ -10,7 +10,7 @@ tags:
 - ubuntu
 - community
 - ontology
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - bias
 - standpoint
 - values
-stage: expert
+stage: advanced
 status: validated
 ---
 

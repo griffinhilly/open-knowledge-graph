@@ -10,7 +10,7 @@ tags:
 - event
 - truth
 - fidelity
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -44,36 +44,6 @@ Calibrate a camera using a checkerboard pattern and OpenCV: compute intrinsic ma
     - "Image pixel (320, 240) (the principal point)"
     - "Insufficient information; need the extrinsic pose of the camera"
   answer: 0
-  explanation: "The intrinsic matrix K relates camera frame coordinates to image pixels: p_image = K · P_camera. If the world frame is aligned with the camera frame, then P_camera = (0.1, 0.05, 1.0). Normalized image coordinates: (x, y) = (0.1/1.0, 0.05/1.0) = (0.1, 0.05). Pixel coordinates: p = K · [0.1, 0.05, 1]^T = [1000·0.1 + 320, 1000·0.05 + 240] = [420, 290]. This is the projection formula p_image = K · (P_camera / P_z)."
-
-- question: "Camera calibration computes the intrinsic matrix K and the extrinsic parameters (rotation R and translation t from world to camera). Why is calibration necessary even if the camera's focal length and image resolution are known?"
-  type: multiple-choice
-  options:
-    - "Calibration is not necessary; the focal length and resolution fully specify the camera"
-    - "Calibration is needed to compute lens distortion coefficients, which are significant at the edges of the image"
-    - "Calibration is needed to find the principal point (image center), which may not be exactly at the image center pixel due to manufacturing variations"
-    - "Calibration is needed to determine the extrinsic pose of the camera relative to the robot base"
-  answer: 3
-  explanation: "All three reasons are valid. The principal point (image center) is usually close to the pixel image center but not exactly, due to manufacturing tolerance. Lens distortion (radial and tangential) is present in most cameras and must be corrected. Most importantly, the extrinsic transformation from world (or robot base) coordinates to camera coordinates must be determined through calibration. Intrinsic parameters alone don't give you the 3D position of detected objects."
-
-- question: "In visual servoing, the goal is to drive a visual feature to a desired image position. If a red ball is detected at pixel (100, 300) but the desired setpoint is (320, 240) (image center), the control error in image space is (220, -60) pixels. How should this error be converted to robot motion?"
-  type: multiple-choice
-  options:
-    - "Move the robot left and up in Cartesian space to directly push the feature toward the desired position"
-    - "Compute the image Jacobian J_image relating camera motion to feature motion, then solve for camera velocity: v_camera = J_image^(-1) · error"
-    - "Use the error to command the robot to move toward the detected ball in 3D space, without using image geometry"
-    - "Increase the proportional gain K_p in the image control law to accelerate the feature to the setpoint"
-  answer: 1
-  explanation: "The image Jacobian relates how camera motion produces feature motion in the image. If the camera moves by δx_camera, the feature moves by δx_image = J_image · δx_camera. Inverting this relationship gives the camera velocity needed to drive the feature error to zero. This is the foundation of image-based visual servoing. The error is directly in image space (pixels), so the controller directly commands camera motion to reduce pixel error, which implicitly moves the robot to the desired configuration."
-
-- question: "A checkerboard pattern is used to calibrate a camera. The checkerboard is shown to the camera from multiple viewing angles and distances. Why must the checkerboard be shown from different viewpoints?"
-  type: true-false
-  answer: true
-  explanation: "Different viewpoints are necessary to fully constrain the camera parameters. A single image provides only 2D information (pixel coordinates); multiple images from different angles provide geometric relationships that enable estimation of 3D parameters (focal length, principal point, lens distortion). Additionally, viewing from different distances helps constrain radial distortion. A single viewpoint could technically constrain the intrinsic matrix if the checkerboard size is known, but multiple viewpoints improve numerical stability and allow estimation of extrinsic parameters."
-
-- question: "In robot grasping, a camera detects the 3D position of an object using detection and depth estimation. The camera outputs a bounding box in 2D image coordinates and a depth value. To grasp the object, the robot must convert this to 3D world coordinates and plan a gripper approach. Explain the steps."
-  type: short-answer
-  answer: "Step 1: Convert 2D bounding box center (u, v) to 3D camera frame coordinates using the intrinsic matrix K and depth z: P_camera_x = (u - c_x) · z / f_x, P_camera_y = (v - c_y) · z / f_y, P_camera_z = z. Step 2: Transform from camera frame to robot base frame using extrinsic parameters: P_world = R · P_camera + t, where R and t are the calibrated rotation and translation from camera to base. Step 3: Use inverse kinematics to find the gripper pose (slightly offset above the object) that the robot must achieve. Step 4: Plan a trajectory from the current configuration to the grasp pose, execute, close the gripper, and lift."
   explanation: "This pipeline combines camera geometry, kinematics, and planning. Each step requires accurate calibration and computation. Errors in camera calibration propagate to errors in perceived 3D positions, degrading grasp success. This is why robots in manufacturing are carefully calibrated with hand-eye calibration (determining T_camera_to_base) as a critical setup step."
 ```
 

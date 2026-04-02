@@ -38,41 +38,6 @@ Industrial robots have been mainstream in manufacturing since the 1960s (Unimati
     - "More robots automatically improves quality"
     - "Robot scaling does not introduce challenges"
   answer: 1
-  explanation: "When you add more robots, quality issues scale too. If each robot drifts 1 mm per month, a small number means occasional bad welds; a large number means dozens of bad welds per day. This drives investment in: (1) better robot calibration and error correction, (2) coordinate frame registration (all robots must 'agree' on where the workpiece is), (3) vision systems to detect workpiece position and compensate automatically, (4) real-time quality monitoring (vision inspection after each weld). Scaling industrial automation from one cell to a whole plant requires systems thinking."
-
-- question: "Collaborative robots (cobots) are designed to work safely alongside humans without safety cages. Why is this possible, and what tradeoffs does it introduce?"
-  type: multiple-choice
-  options:
-    - "Cobots are weaker versions of industrial robots and cannot perform real work"
-    - "Cobots use force-limiting (monitored force output, maximum ~150 N in collision) and lower speed to ensure that if they collide with a human, impact energy is below injury thresholds. This enables sharing workspace without physical barriers. The tradeoff is reduced speed and strength compared to industrial robots"
-    - "Cobots are identical to industrial robots but with different software"
-    - "Cobot safety is achieved through vision alone; they see humans and stop"
-  answer: 1
-  explanation: "Cobot design is fundamentally different from industrial robots. A cobot's joints are back-drivable (can be moved by hand) and have force/torque sensing. When collision is detected (force exceeds threshold), the cobot stops or reverses. Because collision force is limited (similar to a gentle push), humans are not injured. This enables shared workspaces without safety cages, improving factory flexibility. However, cobots are slower (average 1 m/s vs. 2-3 m/s for industrial robots) and weaker (payload 3-10 kg vs. 50-200 kg for industrial robots). They excel in small-batch production and human-robot collaboration but underperform industrial robots on high-volume, high-load tasks."
-
-- question: "A manufacturer uses machine vision to inspect welded parts in real time. The vision system detects a poor-quality weld and alerts the operator. This is an example of:"
-  type: multiple-choice
-  options:
-    - "Unsupervised automation, which requires no human monitoring"
-    - "Closed-loop quality control: the robot performs work (welding), the system measures output quality (vision), and alerts humans or triggers corrective action (re-weld, scrap part). This feedback loop ensures quality stays consistent"
-    - "Open-loop automation, which is more reliable than closed-loop"
-    - "Vision systems cannot be used in manufacturing"
-  answer: 1
-  explanation: "Closed-loop control (observe, check, correct) is essential for maintaining quality in manufacturing. Open-loop manufacturing (robot performs task, no verification) is cheaper but produces scrap. Closed-loop with human oversight (operator examines each part, decides whether to accept or scrap) is labor-intensive. Automated closed-loop (vision system inspects, automatically flags defects, triggers operator review or automatic correction) provides good quality at scale. This is why vision systems are ubiquitous in modern manufacturing — they provide continuous quality feedback without human per-part inspection."
-
-- question: "Reconfigurable manufacturing systems use the same robot and tooling but switch between different products (produce product A for a shift, switch to product B the next shift). Why is this harder than producing one product repeatedly, and how do machine learning and vision help?"
-  type: multiple-choice
-  options:
-    - "Reconfigurable manufacturing is trivial; switch product and run the same code"
-    - "Each product variation requires different picking/assembly procedures, different quality checks, and different positioning tolerances. Machine learning can learn visual features of different parts and teach the robot to recognize them, enabling adaptation. Vision systems can detect product variation and adjust robot procedures accordingly, making the same robot flexible across products"
-    - "Machine learning is irrelevant to manufacturing"
-    - "Reconfigurable systems are impossible because robots are rigid"
-  answer: 1
-  explanation: "Modern manufacturing demands flexibility: a factory must produce many product variants to meet customer demand and avoid stockpiling inventory. But robots are hard to reprogram. Reconfigurable manufacturing uses machine learning to bridge this gap: train a neural network to recognize parts visually, teach it to classify variant A vs. variant B, and program the robot to adjust its procedure based on classification. For example, a robot picking parts from a bin could learn to identify part orientations and adjust its grasp accordingly. This makes the same robot usable for multiple products without hardware changes, reducing time and cost of product transitions."
-
-- question: "Describe the evolution of industrial automation from fixed-automation robots to collaborative robots, and explain what technological advances enabled this shift."
-  type: short-answer
-  answer: "Fixed-automation robots (1960s-2000s) performed one task repetitively in a structured factory cell: they were fast, precise, but inflexible and dangerous (required safety cages). Collaborative robots (2010s-present) were enabled by: (1) force/torque sensing at joints, allowing real-time collision detection; (2) inherently-compliant joint designs (back-drivable, low-stiffness gearboxes); (3) fast control loops that can react to unexpected forces in <100 ms; (4) improved machine learning for part recognition and adaptive control. These advances made it possible to program force limits that ensure collisions with humans are not injurious, eliminating the need for safety cages. Cobots also introduced teach-by-demonstration programming (grab the robot's end-effector and move it through the desired task) rather than text-based code, making programming faster for small-batch production. The progression reflects manufacturing's shift from high-volume (where fixed automation maximizes throughput) to mixed-volume, fast-changing production (where flexibility and human-robot collaboration matter more than pure throughput)."
   explanation: "This evolution shows how technological progress (better sensing, faster control, more capable ML) enables new capabilities (collaborative work) that expand the robot's role from specialist to generalist."
 ```
 

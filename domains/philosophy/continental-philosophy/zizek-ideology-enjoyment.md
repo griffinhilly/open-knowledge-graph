@@ -12,7 +12,7 @@ tags:
 - ideology
 - psychoanalysis
 - enjoyment
-stage: expert
+stage: advanced
 status: validated
 ---
 

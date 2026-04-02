@@ -10,7 +10,7 @@ tags:
 - sovereignty
 - bare-life
 - exception
-stage: expert
+stage: advanced
 status: validated
 ---
 

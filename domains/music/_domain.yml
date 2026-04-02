@@ -11,7 +11,7 @@ courses:
   stage: formal-systems
 - id: music-history
   title: Music History
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: ear-training
   title: Ear Training & Aural Skills
   stage: formal-systems

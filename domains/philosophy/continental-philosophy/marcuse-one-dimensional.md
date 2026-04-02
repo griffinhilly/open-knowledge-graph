@@ -12,7 +12,7 @@ tags:
 - repression
 - liberation
 - domination
-stage: expert
+stage: advanced
 status: validated
 ---
 

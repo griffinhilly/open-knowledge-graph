@@ -12,7 +12,7 @@ tags:
 - gender
 - bias
 - epistemology
-stage: expert
+stage: advanced
 status: validated
 ---
 

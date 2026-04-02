@@ -48,43 +48,11 @@ Examine a real robot arm and identify its actuators and sensors. Measure the sta
     - "100 N·m (motor torque with gearbox)"
     - "1000 N·m (motor torque with gearbox and current)"
   answer: 3
-  explanation: "Motor torque τ = K_t × I = 0.1 × 10 = 1 N·m. With a 100:1 gearbox, output torque = 100 × 1 = 100 N·m. The full calculation: τ_out = gearbox_ratio × K_t × I = 100 × 0.1 × 10 = 100 N·m. Wait, let me recalculate: 100 × 1 = 100 N·m, so the answer is 100. But if the question is asking for 1000 N·m as the maximum achievable, that would require a different setup. Let me verify the correct answer is 100 N·m, which corresponds to option (c)."
-  answer: 2
-  explanation: "Motor torque τ_motor = K_t × I = 0.1 N·m/A × 10 A = 1 N·m. Gearbox output torque = 100 × 1 = 100 N·m. This is the maximum torque available at the joint."
-
-- question: "An incremental rotary encoder mounted on a robot joint has 1024 counts per revolution (CPR). If the joint rotates at 10 revolutions per second, what is the encoder update frequency (counts per second)?"
-  type: multiple-choice
-  options:
-    - "1024 Hz"
-    - "10 Hz (rotations per second)"
-    - "10,240 Hz"
-    - "1024 CPM (counts per minute)"
-  answer: 2
-  explanation: "Encoder output rate = CPR × rotations per second = 1024 counts/rev × 10 rev/s = 10,240 counts/s = 10,240 Hz. This is the raw quadrature pulse rate. When decoded by a microcontroller, this represents the joint angular velocity."
-
-- question: "A six-axis force-torque (F/T) sensor mounted at a robot's wrist measures the contact forces and moments applied by the environment. Why is calibration of the F/T sensor critical?"
-  type: multiple-choice
-  options:
-    - "To correct for the gravitational force due to the sensor's own weight, which biases the measurements"
-    - "To establish the relationship between raw sensor outputs (strain gauge voltages) and forces/torques, accounting for sensor cross-coupling and sensitivity variation"
-    - "To ensure the sensor is mounted perfectly vertically"
-    - "To eliminate measurement noise, which cannot be calibrated away"
-  answer: 1
-  explanation: "F/T sensors use strain gauges to measure deformation in a load cell structure. Different gauges respond to different force/torque components, but coupling exists: a force in one direction produces small signals in other channels. Calibration establishes a 6×6 transformation matrix that maps raw gauge voltages to true forces and torques. Additionally, the sensor's own weight (gravity) biases the measurements and must be subtracted. Calibration is a one-time procedure (performed before deployment) that gives accurate readings throughout the sensor's operational life, assuming it is not physically damaged."
-
-- question: "In a robot joint controlled with an incremental encoder and PID control, position measurement has quantization error: the encoder can only report discrete positions separated by 360°/1024 ≈ 0.35°. This quantization error causes control oscillations (limit cycling) around the setpoint. Why does this occur, and how can it be mitigated?"
-  type: short-answer
-  answer: "Quantization error creates a sawtooth-like measurement signal: as the joint rotates smoothly, the encoder output steps between discrete counts. The PID controller sees the error alternating between +(0.35°/2) and -(0.35°/2) in a pattern, causing the control signal to oscillate. This limit cycling is deterministic, not random noise. Mitigation: (1) increase encoder resolution (more counts per revolution), (2) apply low-pass filtering to the measured position (though this adds lag), or (3) use a higher-resolution sensor like an absolute encoder or analog position potentiometer. For critical applications, dual-encoder or multi-turn encoders can reduce quantization relative to useful signal bandwidth."
   explanation: "Quantization in feedback systems is particularly problematic for PID control because the integral term can accumulate error and build up commands that oscillate at the quantization frequency. This is why encoder selection is important for precision robot control: a coarse encoder (256 CPR) may oscillate noticeably, while a fine encoder (16,000+ CPR) effectively eliminates quantization issues within the control bandwidth."
 
 - question: "A servo hydraulic actuator used for a high-load robotic manipulator has response time of 50 ms (the time from command input to 90% of peak output). When computing a feedforward controller that predicts the required command for a desired trajectory, this actuator lag must be accounted for. True or false?"
   type: true-false
   answer: true
-  explanation: "Correct. A 50 ms lag is significant relative to typical robot control loop rates (10-100 Hz). If you command a torque at time t, the actuator doesn't produce it until t + 50 ms. During this delay, the actual robot motion lags the desired trajectory. A model-based controller that accounts for this delay can precompute the command at time (t - 50 ms) to arrive at the actuator at the right time, improving tracking accuracy. Ignoring actuator lag results in systematic tracking error and potentially instability if the lag is comparable to the control loop period."
-
-- question: "Explain the trade-off between motor speed and motor torque when using a gearbox for robot joint actuation."
-  type: short-answer
-  answer: "A gearbox trades speed for torque. A 100:1 gearbox reduces the motor shaft speed by 100 but multiplies the output torque by 100. For a given motor size, the output power (τ·ω) is conserved (minus friction losses). A high-speed, low-torque motor becomes a low-speed, high-torque joint. For robot arms, gearboxes are essential: they reduce the required motor size and power while providing the high torque needed for load manipulation. The trade-off is that gearboxes introduce backlash (play in the gears) and friction, which degrade control precision unless carefully designed. Modern robots use planetary gearboxes (compact, low-backlash) or harmonic drives (very low-backlash, high-ratio) to minimize these issues."
   explanation: "This trade-off is fundamental. You cannot have both high speed and high torque from a small motor. Robots exploit this by using high-ratio gearboxes to compress the motor's power into low-speed, high-torque outputs suitable for manipulation. Without gearboxes, robot joints would need enormous motors to produce adequate torque, making robots heavy, expensive, and inefficient."
 ```
 

@@ -34,41 +34,6 @@ Aerial robots (UAVs, drones) add an extra dimension (altitude) to motion plannin
     - "Increase rear rotors, decrease front rotors to push backward"
     - "Increase front rotors only; rear rotors stay constant"
   answer: 1
-  explanation: "Quadrotors achieve acceleration by tilting. Increasing front rotors (T1, T2) and decreasing rear rotors (T3, T4) tilts the drone forward. The motor torques create roll and pitch moment, tilting the fuselage. The total upward thrust is reduced if front rotors are increased and rear are decreased equally, causing the drone to fall. To maintain altitude while tilting, the controller adjusts all thrusts such that the vertical component of net thrust still equals weight (preventing descent) while the horizontal component (front thrust > rear thrust) accelerates forward. The control law is complex: translating desired acceleration to motor commands requires solving for thrust vector and rotating it to achieve desired tilt angles."
-
-- question: "A quadrotor controller uses nested loops: innermost loop controls attitude (roll, pitch, yaw) at 200 Hz. Middle loop controls horizontal velocity. Outer loop controls position. Why is this hierarchical structure necessary?"
-  type: multiple-choice
-  options:
-    - "Hierarchical loops are more efficient computationally"
-    - "The attitude controller must be fast because the drone is unstable without active stabilization. Roll/pitch drift quickly if not corrected. Inner fast loops stabilize attitude; outer slow loops control higher-level motion"
-    - "Quadrotors are inherently stable and don't need attitude control; hierarchical loops are optional"
-    - "Hierarchical loops reduce the number of sensors needed"
-  answer: 1
-  explanation: "A quadrotor is inherently unstable in roll and pitch — without active control, it tips over. The attitude controller must run fast (200 Hz) to sense and correct tilt within milliseconds. Once attitude is stabilized, the drone can execute position or velocity commands. Cascaded control is a standard control systems technique: inner loops stabilize lower-level dynamics (attitude dynamics are fast, ~0.1-1 Hz natural frequency), outer loops command higher-level objectives (position control is slower). This separation is necessary because attitude dynamics are fast but unstable, while position dynamics are slower and naturally stable (once tilted, the drone accelerates until tilting back reduces acceleration)."
-
-- question: "A drone flying indoors cannot rely on GPS (signals are too weak). It uses onboard camera + optical flow (measuring movement of visual features between frames) to estimate velocity. However, optical flow can fail (featureless white walls, poor lighting). How should the control system handle optical flow dropout?"
-  type: multiple-choice
-  options:
-    - "Switch to dead reckoning using accelerometers and gyroscopes; no sensor fusion needed"
-    - "Fuse optical flow with inertial measurement (accelerometer, gyroscope) via Kalman filter. When optical flow drops out, IMU estimates continue velocity/position (with growing error) until optical flow recovers"
-    - "Stop the drone and wait for optical flow to recover"
-    - "Use only GPS and ignore optical flow entirely"
-  answer: 1
-  explanation: "Sensor fusion (Kalman filtering) is standard in drone control. Optical flow is accurate when features are visible but sparse or noisy in poor lighting. IMU accelerometers are noisy and prone to drift without external reference. A Kalman filter combines both: optical flow constrains drift, IMU fills gaps when optical flow is unavailable. When optical flow drops (white wall), the filter relies on IMU estimates and integrates acceleration to maintain position estimate (with growing uncertainty). When features reappear, optical flow re-constrains the estimate, correcting accumulated drift. Dead reckoning (IMU alone) works briefly (seconds) but accumulates error quickly; sensor fusion extends the window of usefulness."
-
-- question: "A quadrotor must carry a camera payload that adds weight but not additional rotor thrust capacity. Which aspect of drone performance is most negatively impacted?"
-  type: multiple-choice
-  options:
-    - "Maximum horizontal speed"
-    - "Maximum altitude (absolute ceiling slightly increases)"
-    - "Hover time (battery depletes faster at same thrust-to-weight ratio)"
-    - "Attitude stabilization quality"
-  answer: 2
-  explanation: "Adding mass with fixed rotor thrust reduces the thrust-to-weight ratio (T/m). At hover, the drone must produce thrust T = m*g. With larger m, the rotors must operate at higher percentage of maximum thrust, leaving less margin for maneuvers and control authority. More critically, the power required to hover is P = T*v = m*g*v_hover (where v_hover is the induced velocity through the rotors). Heavier drones require more power to hover, draining the battery faster. Hover time is proportional to T/m — it directly decreases. Absolute ceiling (where T_max = m*g*cos(tilt)) actually improves slightly because the drone tips more to accelerate, but practically, you lose hover time (can't stay aloft as long) and responsiveness."
-
-- question: "Describe the control architecture for a quadrotor UAV, explaining why attitude control is the innermost (fastest) loop and how higher-level controllers (position, trajectory planning) interact with it."
-  type: short-answer
-  answer: "Quadrotor control uses cascaded (hierarchical) loops: Innermost (200 Hz): Attitude controller stabilizes roll, pitch, yaw using gyroscope feedback. This is the fastest loop because attitude is unstable without control; the drone tips if this loop fails. The controller computes motor thrust commands to produce desired roll/pitch angles. Middle (20-50 Hz): Velocity controller commands desired horizontal velocity and vertical acceleration. It generates desired roll/pitch angles for the attitude controller. Outer (5-20 Hz): Position/trajectory controller commands desired position or follows a trajectory. It generates velocity commands for the velocity controller. This cascade works because attitude control is much faster than velocity control, which is faster than position control. At each level, the controller assumes the lower level has achieved its setpoint (e.g., position controller assumes velocity commands are executed with no lag). This decoupling simplifies design. Trajectory planning occurs at the planning level and generates dynamically-feasible trajectories respecting actuator limits (max tilt angle, acceleration)."
   explanation: "This hierarchical structure is universal in aerial robotics. The separation of timescales (fast stabilization, slow positioning) is not just convenient but necessary. Without fast attitude control, the drone cannot maintain controlled flight. The cascaded approach decomposes the problem: stabilize the platform first (attitude), then execute maneuvers (velocity), then reach goals (position). It's analogous to balancing on a unicycle while riding to a destination — you must first stabilize your balance continuously, then route toward the target."
 ```
 

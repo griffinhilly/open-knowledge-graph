@@ -10,7 +10,7 @@ tags:
 - ontology
 - quantum-mechanics
 - spacetime
-stage: expert
+stage: advanced
 status: validated
 ---
 

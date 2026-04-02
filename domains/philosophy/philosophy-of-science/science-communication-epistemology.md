@@ -12,7 +12,7 @@ tags:
 - epistemology
 - trust
 - authority
-stage: expert
+stage: advanced
 status: validated
 ---
 

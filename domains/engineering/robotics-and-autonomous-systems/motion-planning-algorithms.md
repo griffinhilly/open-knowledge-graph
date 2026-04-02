@@ -34,31 +34,6 @@ Motion planning is the problem of computing a collision-free trajectory from a r
     - "The doorway is not visible in 3D C-space; it can only be analyzed in 2D by fixing θ to a particular value"
     - "The doorway in C-space expands to multiple meters wide because rotation freedom adds more configurations"
   answer: 1
-  explanation: "When planning in full C-space (x, y, θ), obstacles are inflated by the robot's geometry. A point-robot reaching through a 1-meter doorway can pass at any orientation. But a rectangular robot of width w cannot pass if perpendicular to the doorway (regardless of y offset), yet can pass easily if parallel. The C-space obstacle is not a simple line; it's a 3D surface that depends on the robot's extent. Inflating by the robot's radius produces a minimum passage width that accounts for orientation. This is why computing C-space obstacles requires explicit geometry — it's not a simple subtraction."
-
-- question: "Dijkstra's algorithm and A* both find shortest paths on graphs, but A* is faster in most robotics applications. Why?"
-  type: multiple-choice
-  options:
-    - "A* evaluates fewer nodes because it uses a heuristic to prioritize exploration toward the goal, whereas Dijkstra explores equally in all directions"
-    - "A* has a better time complexity — O(n) versus O(n log n) for Dijkstra"
-    - "A* works with weighted graphs while Dijkstra requires unweighted graphs"
-    - "A* is faster because it stops as soon as it finds any path, even if not optimal"
-  answer: 0
-  explanation: "A* uses a heuristic cost-to-goal estimate h(node) to guide the search. Nodes are prioritized by f(node) = g(node) + h(node), where g is actual cost from start and h is estimated cost to goal. This focuses exploration toward the goal rather than exploring uniformly outward like Dijkstra. In robotics, a spatial heuristic like Euclidean distance in the C-space is admissible (never overestimates) and consistent, ensuring A* finds optimal paths while evaluating far fewer nodes. If h is perfect (true distance to goal), A* becomes optimal greedy search; if h is zero, A* degenerates to Dijkstra."
-
-- question: "A robot planning in a continuous 2D space must find the shortest path from start to goal with circular obstacles. Discretizing the space into a 1000 × 1000 grid and applying A* guarantees finding the optimal path in the original continuous space."
-  type: true-false
-  answer: false
-  explanation: "Discretization introduces approximation error. The path found on the grid is optimal with respect to the grid, but the grid resolution is finite. If the optimal continuous path squeezes through a narrow gap at a boundary between grid cells, the discretized path may not find it or may take a longer grid-based detour. To guarantee optimality in continuous space, resolution must go to infinity or advanced techniques like configuration space decomposition or sampling-based planners must be used. Grid-based planning is very practical and often sufficient — the solution is nearly optimal if the grid is fine enough — but it trades exact optimality for computational tractability."
-
-- question: "In configuration space, the path planning problem for a 6-degree-of-freedom robot arm is identical to planning for a point robot in 6D space, so standard graph search algorithms apply directly without modification."
-  type: true-false
-  answer: true
-  explanation: "Correct. Configuration space is the key abstraction that reduces planning to point-robot pathfinding in a higher-dimensional space. A 6-DOF arm's configuration is a 6D point. Obstacles in workspace become forbidden regions in C-space. Once obstacles are represented in C-space, the planning problem is dimensionality-agnostic — graph search, sampling-based methods, or other algorithms apply the same way. The challenge is computing C-space obstacles from workspace geometry, which can be expensive for complex shapes, but conceptually the reduction is exact."
-
-- question: "Describe why A* is generally preferred over Dijkstra's algorithm for robot motion planning, and explain what property a heuristic function must have to guarantee that A* finds an optimal path."
-  type: short-answer
-  answer: "A* uses a heuristic function h(node) estimating the cost from that node to the goal to guide the search, prioritizing exploration toward the goal. Dijkstra explores equally in all directions. For large spaces, A* evaluates far fewer nodes (especially with good heuristics), making it much faster. To guarantee optimality, the heuristic must be admissible: it never overestimates the true cost to goal. Euclidean distance in a 2D grid is admissible because straight-line distance cannot exceed actual path length. With an admissible heuristic, A* will find the optimal path and no other algorithm (with the same information) can expand fewer nodes while maintaining optimality."
   explanation: "A* elegantly balances exploration and exploitation. Exploring too much (Dijkstra) is wasteful; exploiting the heuristic too greedily (greedy best-first) can miss optimal paths. A* combines g(node) (proven cost from start) with h(node) (estimated cost to goal) so that the first path found is guaranteed optimal if h is admissible. In robotics, spatial heuristics from the C-space metric (Euclidean distance, Manhattan distance) are easy to compute and admissible, making A* the dominant choice for discrete planning."
 ```
 

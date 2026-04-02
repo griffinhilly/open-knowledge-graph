@@ -37,36 +37,6 @@ ROS is a flexible, distributed middleware framework for building complex robotic
     - "ROS automatically restarts the perception node and resumes publishing"
     - "The planning node switches to a hardcoded fallback algorithm without perception data"
   answer: 1
-  explanation: "This is the key architectural property of message-passing systems: loose coupling enables fault isolation. The planning node does not 'know' that perception crashed — it just stops receiving updates. If the system designer hasn't implemented monitoring and fallback behavior, the planner continues using old data, which is dangerous. This is why robust ROS-based systems add: (1) watchdog timers that detect if a message hasn't arrived in expected time, (2) fallback behaviors when data is stale (brake, request human intervention), and (3) monitoring nodes that detect failures and attempt recovery (restart crashed nodes, alert operators)."
-
-- question: "A robot must perform two tasks: image processing (computationally intensive, one thread can saturate a CPU core) and control loops (time-critical, needs to run every 10 ms). How does ROS architecture help manage this?"
-  type: multiple-choice
-  options:
-    - "ROS doesn't help with this; you must manually manage threads in a single process"
-    - "ROS enables running image processing and control as separate nodes, potentially on different computers. Image processing node can use all CPUs for batch processing without blocking control. Control node can be pinned to a dedicated core, running deterministically at 100 Hz"
-    - "ROS forces all tasks to run at the same frequency, so you must choose between slow image processing or slow control"
-    - "ROS distributes tasks automatically and optimally without any configuration needed"
-  answer: 1
-  explanation: "ROS's distributed nature solves the resource allocation problem. Image processing can be computationally expensive; control must be real-time. In a monolithic program, they compete for CPU. In ROS, they are separate nodes that can run independently: image processing node processes images at whatever rate the CPU allows (10 Hz, 30 Hz); control node runs at guaranteed 100 Hz on a dedicated core (or thread with real-time priority on ROS 2). They communicate via messages, buffered by the ROS middleware. This separation of concerns is one of ROS's primary architectural benefits."
-
-- question: "ROS nodes communicate via topics (asynchronous publish/subscribe for streaming data) and services (synchronous request/response for one-time queries). When should a robot use a topic vs. a service?"
-  type: multiple-choice
-  options:
-    - "Topics are always better; services are obsolete"
-    - "Use topics for streaming data (sensor data, control commands); use services for one-time queries (inverse kinematics of a current pose, is this path collision-free). Topics are fire-and-forget; services wait for response. If you need a response, use services; if data is continuous, use topics"
-    - "Services are always better; topics don't work correctly"
-    - "Topics and services are identical; the naming is just convention"
-  answer: 1
-  explanation: "This distinction shapes ROS architecture. A camera node publishes images continuously on a topic; a vision node subscribes and processes them asynchronously. A motion planner needs to query 'what is the current pose?' — this is a one-time request answered by a service (the robot provides its pose at the moment the request is made). Services have blocking semantics (caller waits for response), which is wrong for streaming data but necessary for request/response patterns. Understanding when to use each is fundamental to clean ROS architecture."
-
-- question: "In ROS, is it possible to run a multi-robot system where robots on different networks (connected via the internet) share sensor data and coordinate planning?"
-  type: true-false
-  answer: true
-  explanation: "Yes, though not natively. ROS 1 was originally designed for LAN (local area network), but the middleware can be extended to work over the internet using message bridges or DDS (Data Distribution Service) which supports wide-area networks. ROS 2 uses DDS by default, which provides better support for distributed systems over networks with latency. However, internet operation introduces challenges: latency (messages take longer to arrive), packet loss, bandwidth constraints, and security (anyone on the internet could potentially send commands). Deployment requires careful architecture: either establishing a VPN for security, or using a cloud relay server, or designing the system so each robot can operate autonomously and coordination is non-critical (they plan independently and happen to avoid each other)."
-
-- question: "Describe the difference between ROS 1 and ROS 2, and explain why ROS 2 was developed as a new version rather than just updating ROS 1."
-  type: short-answer
-  answer: "ROS 1 uses a master node (rosmaster) that coordinates all communication. All nodes register with the master, obtain topic/service addresses, and communicate. This is simple but has drawbacks: single point of failure (if master crashes, new nodes cannot connect), difficult to make real-time (master adds latency), and assumes LAN reliability. ROS 2 was rewritten to use DDS (Data Distribution Service) as the middleware, replacing the master. DDS is a standard middleware, battle-tested in aerospace, with better real-time performance, fault tolerance (no single point of failure), and network scalability. ROS 2 also improved: security (authentication, encryption), deterministic scheduling (real-time operating systems), explicit message quality-of-service (latency, reliability, durability). The tradeoff: ROS 2 is more complex, but solves real problems that ROS 1 cannot address. Roboticists migrating from ROS 1 to ROS 2 must rewrite launch files and adjust communication patterns."
   explanation: "This is a classic architectural evolution: ROS 1 was elegant for its time (peer-to-peer via a master) but had limitations that prevented deployment in real-time, fault-tolerant, and wide-area scenarios. ROS 2 solved these by adopting a more mature standard (DDS) and accepting additional complexity. The lesson: architectural choices that are fine at scale N become problematic at scale 10N."
 ```
 

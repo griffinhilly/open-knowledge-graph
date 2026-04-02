@@ -33,36 +33,6 @@ Swarm robotics applies principles from swarms in nature (flocks of birds, coloni
     - "Advantage: robots can communicate implicitly through stigmergy (modifying the environment); Limitation: robot count is limited by swarm dynamics"
     - "No advantages; this approach is clearly inferior to a centralized planner"
   answer: 1
-  explanation: "Decentralized swarm search trades efficiency for robustness and scalability. Individual robots are simple, so the swarm scales to hundreds or thousands. Loss of one robot barely affects the swarm. However, without global awareness, robots may search the same area twice, wasting effort. Without communication, coordination is implicit and slow. A centralized planner could compute optimal search paths but would be a single point of failure and have computational bottleneck. Swarms excel at exploratory, uncertain environments where parallelism outweighs coordination cost."
-
-- question: "In a consensus algorithm, N robots must agree on a single value (e.g., swarm location or heading direction). Each robot measures a local value (its GPS location or preferred direction) and iteratively updates its value as a weighted average of neighboring robots' values. Guaranteed convergence occurs if the inter-robot communication network is connected (information can flow between all robots, possibly through multi-hop paths). If the network becomes disconnected (swarm splits into isolated groups), what happens?"
-  type: multiple-choice
-  options:
-    - "The algorithm fails catastrophically; robots get stuck"
-    - "Each connected component converges to a separate consensus value, but global consensus is lost — the swarm splits into groups with different beliefs"
-    - "Robots continue updating and eventually reconnect, restoring consensus"
-    - "The algorithm automatically re-routes information to maintain connectivity"
-  answer: 1
-  explanation: "Consensus algorithms depend critically on network connectivity. Information propagates through the network, and all robots adjust based on all other robots' values. If the network is connected, iterative averaging causes all values to converge to a weighted mean (or in some variants, the mean of the means). If the network splits, each component converges to its own consensus independently. When (if) components rejoin, there may be conflict between the separate consensuses. This is why swarm communication maintenance is crucial — topology breaks cause divergence. Some designs use virtual fields or implicit communication (e.g., ants use pheromones left in the environment) which are more robust to connection losses."
-
-- question: "Flocking algorithms (Boid model) make each robot move according to three local rules: (1) separation (move away if neighbors too close), (2) alignment (match neighbors' velocity direction), (3) cohesion (move toward neighbors' average position). With these rules, a robot swarm with randomized initial velocities and positions produces emergent flocking behavior (organized motion in a coordinated direction) without any robot knowing the global direction. Is flocking guaranteed to be stable, or can alignment/cohesion rules conflict with separation?"
-  type: multiple-choice
-  options:
-    - "Guaranteed stable; the three rules are perfectly balanced"
-    - "Potential for oscillation: alignment and cohesion pull robots toward neighbors, separation pushes them apart, creating a stable distance-maintaining flock OR creating limit-cycle oscillation depending on parameters"
-    - "Always oscillates; the rules are inherently contradictory"
-    - "Stability depends only on initial conditions; no predictable behavior"
-  answer: 1
-  explanation: "Flocking is a dynamic system where the three rules interact. Alignment and cohesion pull robots together; separation pushes them apart. Depending on rule strengths and local neighbor counts, the system can converge to a stable flock (robots at roughly constant inter-individual distance, moving together) or oscillate (expansion-contraction cycles). Tuning rule weights is empirical. High separation weight and low cohesion weight → sparse, stable flock. Low separation and high cohesion → dense, stable flock OR oscillatory collapse-expansion. This is why flocking algorithms are studied as dynamical systems; small parameter changes can flip between stable and unstable regimes."
-
-- question: "In a large swarm with no global communication (only local neighbor sensing), task allocation must occur locally: each robot autonomously decides which of several tasks to perform based on local information (local task demand, neighbor activity). This leads to emergent task allocation without central assignment. However, all robots will converge to the same task if local information is identical and all robots are identical."
-  type: true-false
-  answer: true
-  explanation: "Correct. Without differentiation, identical robots with identical local information make identical decisions — all converge to one task, under-utilizing other tasks. Real swarms address this through stochasticity (random decisions break symmetry), heterogeneity (robot differences cause preference variations), or implicit feedback (high task demand from neighbors discourages further specialization). Ant colonies use pheromones: ants exploring a task leave pheromone, attracting more ants to that task. But as task demand drops (fewer targets), pheromone evaporates, redirecting ants elsewhere. This dynamic pheromone system prevents permanent imbalance. Robotic swarms can emulate this via virtual fields or probabilistic task selection weighted by local observations."
-
-- question: "Explain the core advantage of swarm robotics compared to centralized multi-robot control, and discuss why swarms are difficult to analyze and predict at a global level despite using simple local rules."
-  type: short-answer
-  answer: "Swarm advantage: decentralized control has no single point of failure, scales to arbitrary swarm size, and requires only local communication (reducing bandwidth). Adding more robots improves collective capability without increasing computational bottleneck. Difficulty in analysis: global behavior emerges from local interactions. Even with simple rules (move forward, turn toward neighbors), global patterns can be complex and counterintuitive. A robot cannot directly achieve global goals; only through implicit coordination do local goals produce global coherence. Analyzing this requires dynamical systems theory, agent-based simulation, or empirical testing. Predicting whether a swarm will converge, oscillate, or chaotically scatter is often impossible without simulation. This is why swarm design is often empirical — test parameters, observe behavior, adjust."
   explanation: "This emergence-analysis gap is central to swarm robotics. The advantage is simplicity and robustness; the disadvantage is unpredictability. Systems that scale gracefully (adding robots helps) and survive failures (loss of robots degrades gracefully) are harder to analyze than systems with explicit central control (easy to verify but brittle). Swarm robotics trades analytical rigor for practical resilience — a valuable trade-off for applications like environmental monitoring, search-and-rescue, or large-scale exploration."
 ```
 

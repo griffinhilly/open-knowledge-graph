@@ -10,7 +10,7 @@ tags:
 - human-condition
 - action
 - politics
-stage: expert
+stage: advanced
 status: validated
 ---
 

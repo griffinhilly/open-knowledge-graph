@@ -35,41 +35,6 @@ As robots and autonomous systems deploy into society (autonomous vehicles, surgi
     - "Ethics and engineering are completely separate; they don't interact"
     - "The pedestrian is ethically responsible for the failure because they should avoid rainy weather"
   answer: 1
-  explanation: "This question reveals the bridge between engineering and ethics. A technical failure (poor rain-weather performance) becomes an ethical failure when the manufacturer fails to validate or disclose limitations. Ethical design requires acknowledging known weaknesses and either fixing them or transparently disclosing them so users make informed decisions. This is why disclosure of Operational Design Domains (ODD) is becoming a standard practice in autonomous systems — it makes ethical commitments explicit."
-
-- question: "An autonomous truck driving system reduces the need for human truck drivers. What ethical considerations should guide the deployment of such systems?"
-  type: multiple-choice
-  options:
-    - "Ethical considerations are irrelevant; if the technology works, deploy it immediately"
-    - "Significant ethical considerations include: (1) labor displacement (what happens to displaced drivers?), (2) transition planning (retraining programs, social support), (3) distribution of benefits (who profits from automation?), and (4) Just Transition policies (the technology may be beneficial overall, but the costs fall on workers while benefits go to companies and consumers — society should decide if this distribution is fair)"
-    - "Automation is always ethically good because it increases efficiency"
-    - "Automation is always ethically bad because it causes unemployment"
-  answer: 1
-  explanation: "Automation ethics is not binary (good vs. bad) but requires weighing tradeoffs. Autonomous trucks might be safer and cheaper overall, which is good. But they displace hundreds of thousands of drivers, causing personal hardship. Ethical technology governance asks: is the overall benefit worth it? If yes, how should society cushion the impact on workers (retraining, transition income, changed career paths)? This is not an engineering question — it's a policy and values question that society must answer."
-
-- question: "Autonomous weapons systems can select and engage targets without human intervention. Should international laws restrict or ban such systems?"
-  type: multiple-choice
-  options:
-    - "This is a technical question best left to engineers"
-    - "This is a political and ethical question, not a technical one. Arguments for restriction: automated targeting removes human judgment and accountability (who is responsible for civilian casualties if a system malfunctions?), risks an arms race of increasingly autonomous weapons, and feels dehumanizing. Arguments against: autonomous weapons can be more precise than humans (potentially reducing civilian casualties), react faster in combat, and removing humans from immediate risk has military value. Society must weigh these through international agreements, not through engineering"
-    - "Autonomous weapons are good because they are more efficient"
-    - "Autonomous weapons are bad because they use electronics"
-  answer: 1
-  explanation: "This illustrates the limits of engineering expertise. Engineers can answer: 'What are the technical capabilities of autonomous weapons?' But they cannot answer: 'Should autonomous weapons exist?' That is a moral question requiring society's input. Some argue autonomous weapons should be restricted (like chemical weapons) because the harms outweigh benefits. Others argue restriction is impractical (adversarial countries will develop them anyway) or undesirable (autonomous weapons can be more humane than human soldiers). These are legitimately debatable questions, and the answers should be reached through democratic processes, not imposed by engineers."
-
-- question: "A robot performs a surgical procedure and causes an injury due to a software bug. Who is legally and morally responsible: the robot manufacturer, the surgeon, or the hospital?"
-  type: multiple-choice
-  options:
-    - "The robot is responsible because it caused the harm"
-    - "The manufacturer is responsible because they created the system. The surgeon is responsible for choosing to use an imperfect tool. The hospital is responsible for implementing it. All three share responsibility. Liability frameworks must determine who bears financial risk, and moral responsibility is distributed among all parties in the causal chain"
-    - "The surgeon is responsible because they made the choice to use the robot"
-    - "No one is responsible; accidents happen"
-  answer: 1
-  explanation: "Robot liability is legally and ethically complex because multiple agents are involved. The manufacturer designed the system and must take responsibility for its safety (validation, disclosure of limitations). The surgeon chose to use it and must ensure it was appropriate for the patient. The hospital approved its use and has institutional responsibility. When harm occurs, liability is distributed: the manufacturer might be liable for design defects, the surgeon for misuse, the hospital for inadequate oversight. Society hasn't yet settled these questions definitively, which is why robot liability is an active area of policy development."
-
-- question: "As autonomous systems become more capable, should some robots be granted legal personhood (the ability to own property, be sued, etc.)? Discuss the arguments for and against."
-  type: short-answer
-  answer: "Arguments for: if robots become sufficiently autonomous and capable of causing significant harm (autonomous vehicles, military robots), granting them some legal status might simplify liability (sue the robot rather than navigating manufacturer/user responsibility). It might reflect practical reality if robots make decisions without meaningful human oversight. Arguments against: personhood implies rights and moral status, which seem inappropriate for machines without consciousness or interests. Granting personhood could be a distraction from real issues (ensuring transparency, establishing manufacturer accountability, setting safety standards). Moreover, robots are tools created for purposes; they should remain under human control and responsibility. Most legal scholars and ethicists argue against robot personhood, viewing it as a category error. The better path is clarifying responsibility frameworks for human actors (manufacturers, users, institutions) rather than inventing robot personhood."
   explanation: "This is a normative ethical question where reasonable people disagree. The discussion benefits from engagement with the concepts (autonomy, responsibility, personhood) rather than a 'correct' answer. The point is recognizing that robots raise new questions about how we organize society and that these questions merit serious deliberation."
 ```
 

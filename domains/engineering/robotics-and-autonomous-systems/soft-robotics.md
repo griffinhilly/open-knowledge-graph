@@ -35,36 +35,6 @@ Traditional robots are built from rigid materials (steel, aluminum) with hard jo
     - "Soft grippers are not actually safer; they are just slower"
     - "The material color determines safety; silicone is safer than steel by default"
   answer: 1
-  explanation: "This is the power of compliance: when a soft structure encounters a hard object, it deforms elastically rather than driving hard against the object. The deformation spreads the applied force over a larger area, reducing peak pressure. A contact pressure below the fracture threshold of the object (egg shell, skin) means no damage. This is why soft robotics is valuable for safe human-robot interaction: when a soft robot collides with a human, it deforms, reducing impact force and preventing injury. Rigid robots, by contrast, maintain force — a rigid robot hitting a human applies force directly to the human's body, risking serious injury."
-
-- question: "A pneumatic soft actuator (a tube of silicone filled with compressed air) provides actuation force by pressurization. Why is controlling the position of a soft actuator more difficult than controlling an electric motor at the same location?"
-  type: multiple-choice
-  options:
-    - "Soft actuators are easier to control than electric motors; the question is backwards"
-    - "An electric motor is position-controlled: you command a specific angle, it moves there with high precision. A pneumatic actuator's position depends on the load (deformation): the same pressure produces different positions depending on external force. Moreover, the soft arm is infinitely articulate (bends continuously along its length) rather than having discrete joints, so you cannot control position of individual points — only the overall shape through pressure control. Precise position control is computationally hard and often impossible"
-    - "Soft actuators don't move at all; they're just for appearance"
-    - "Control difficulty is identical between soft and rigid actuators"
-  answer: 1
-  explanation: "This gets at the fundamental tradeoff in soft robotics. Compliance is valuable (safe, adaptive to uncertain objects) but comes at the cost of control complexity. An electric motor is a high-impedance device: you command a position, it stiffens to maintain that position against external loads. A pneumatic soft actuator is low-impedance: it deforms under load. Controlling its position requires knowing the load and solving the inverse problem (what pressure produces the desired deformation under this load?). For a soft arm with infinitely many degrees of freedom, this becomes ill-defined — there are infinite configurations with the same shape. The tradeoff is accepted because the resulting compliance is worth it for specific applications (surgery, safe handling, human interaction)."
-
-- question: "Soft robotic actuators are powered by three main types: pneumatic (compressed air), hydraulic (pressurized fluid), and electroactive (electric-powered deformation of special polymers). Pneumatic actuators are light and safe (low energy stored). Why aren't pneumatic actuators used for all applications?"
-  type: multiple-choice
-  options:
-    - "Pneumatic actuators are always superior; they should be used everywhere"
-    - "Pneumatic actuators require continuous air supply (compressor), are slow (air compressibility makes response sluggish), and lack energy efficiency (much of the work goes into heating air). Hydraulic actuators are stronger and faster but heavier and require fluid sealing. Electroactive polymers are silent and efficient but currently weak and expensive. Application determines which is optimal"
-    - "Pneumatics never work in real applications"
-    - "All three types perform identically"
-  answer: 1
-  explanation: "No single actuation type dominates; each has tradeoffs. Pneumatic is used for medical/surgical robots (safe, clean, compliant). Hydraulic dominates heavy-load applications (excavators, industrial manipulators). Electroactive polymers (EAPs) are emerging but currently limited in force and are expensive. Choosing an actuator type is a design decision based on application requirements: force, speed, precision, energy efficiency, and safety. The soft robotics field explores all three, with applications often determining which is optimal."
-
-- question: "A soft surgical manipulator must navigate tight anatomical spaces and conform to tissue without damaging it. A rigid robotic arm would be too bulky and could not conform. This is an example of soft robotics solving a problem that rigid robotics cannot address."
-  type: true-false
-  answer: true
-  explanation: "Correct. Soft robotics enables applications that rigid robotics cannot: manipulation in confined spaces (endoscopic surgery, inspecting pipes), safe interaction with fragile objects and humans, and natural conformance to irregular environments. However, soft robotics also has limitations: less precise positioning, slower speed, and harder to control deterministically. The choice between soft and rigid is application-dependent: rigid robots excel in structured factory environments with well-known objects; soft robots excel in unstructured, human-centered, or medically-sensitive environments."
-
-- question: "Describe the key tradeoff between rigid and soft robots, and give examples of applications where each is preferable."
-  type: short-answer
-  answer: "Rigid robots are precise, fast, and deterministic but are inflexible and potentially dangerous in unstructured environments. They excel in: manufacturing (assembly, welding, painting where repeatability is paramount), where environment is structured and objects are standardized. Soft robots are compliant, safe, and adaptable to uncertainty but are slower and harder to control. They excel in: surgical manipulation (precise but safe around delicate tissue), fruit/egg harvesting (grasp without damage), underwater manipulation (conform to obstacles), rescue operations (navigate rubble), and any human-robot collaboration (inherently safer than rigid contact). The deeper principle: rigidity enables precision but reduces safety and adaptability; compliance improves safety and adaptability but reduces precision. Choose based on whether the application's primary need is precision (use rigid) or safety/adaptability (use soft)."
   explanation: "This principle — that rigidity and compliance are fundamental tradeoffs — captures the essence of why soft robotics exists as a distinct field. It's not an incremental improvement; it's a different design philosophy optimized for different objectives."
 ```
 

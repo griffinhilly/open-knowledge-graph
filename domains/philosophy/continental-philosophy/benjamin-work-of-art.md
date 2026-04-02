@@ -12,7 +12,7 @@ tags:
 - art
 - aura
 - reproducibility
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -33,36 +33,6 @@ Reinforcement learning (RL) enables robots to learn control policies by trial-an
     - "Reduce the discount factor γ so the network focuses only on immediate rewards, ignoring long-term consequences"
     - "Increase the learning rate so the network updates faster and learns from fewer examples"
   answer: 1
-  explanation: "A reactive penalty on force is more effective than waiting for breakage. If the reward is only negative when the object breaks, the network learns 'never grasp fragile objects' rather than 'grasp gently.' By penalizing force directly during learning (negative reward ∝ applied force), the network learns to modulate force while grasping successfully. This is reward shaping: adding intermediate rewards to guide learning toward good behavior without changing the optimal policy (the gradient of total reward is preserved). Waiting for breakage is inefficient, unsafe, and requires many failures to learn."
-
-- question: "A robot learns manipulation using on-policy policy gradient methods (actor-critic) in simulation with a reward function: R(s,a) = grasp success ? +1 : -1. After 10,000 training episodes, the robot reaches 90% success in simulation. When deployed on real hardware, performance drops to 20% success. What is the most likely cause?"
-  type: multiple-choice
-  options:
-    - "The neural network is overfit to the simulated training distribution; the real world has different object shapes, friction, and sensor noise"
-    - "The real robot has broken actuators"
-    - "The reward function is too simple"
-    - "The learning rate was too high, causing instability"
-  answer: 0
-  explanation: "This is the sim-to-real transfer problem. The robot learned a policy for a specific simulated environment (fixed object properties, idealized physics, perfect sensors). Real objects have diverse sizes, shapes, materials; friction is unpredictable; sensors have noise and latency; actuators have backlash. The learned policy is brittle — it overfits to simulation artifacts and fails when the distribution shifts. Solutions include domain randomization (randomize simulation parameters to increase distribution mismatch during training), fine-tuning on real data (if feasible), or meta-learning strategies (train policies to adapt quickly to new environments). Broken actuators, wrong reward, or high learning rate could cause problems but don't explain the 90%→20% collapse specific to sim-to-real transfer."
-
-- question: "A robot learns to navigate using Q-learning, updating estimates with: Q(s,a) ← Q(s,a) + α * [r + γ * max_a' Q(s',a') - Q(s,a)]. The reward r is +1 at the goal, 0 elsewhere. γ = 0.99. Without exploration (greedy action selection), the robot quickly converges to a fixed path through the environment. Why is exploration necessary even after convergence?"
-  type: multiple-choice
-  options:
-    - "Exploration ensures the robot finds diverse paths for redundancy"
-    - "Exploration allows the robot to discover shorter or safer paths and adapt if the environment changes"
-    - "Without exploration, the robot will forget previously learned Q-values and need to relearn"
-    - "Exploration is necessary to maintain computational performance"
-  answer: 1
-  explanation: "Greedy Q-learning converges to a local optimum — the best path the robot has discovered so far. But if a shorter path exists beyond the region the robot has explored, greedy selection will never discover it. Exploration (via ε-greedy strategy: take random action with probability ε, greedy action otherwise) keeps the robot discovering new trajectories and potentially better policies. In dynamic environments, exploration is essential for adaptation: if obstacles move or new shortcuts appear, exploration finds them. A greedy robot gets stuck in its old habit. This is the exploration-exploitation trade-off: exploit known good actions to accumulate reward, explore to find better actions. The optimal strategy balances both."
-
-- question: "Off-policy RL methods like Q-learning are more sample-efficient than on-policy methods like policy gradient, because they can learn from actions taken under different policies and reuse past experience in a replay buffer."
-  type: true-false
-  answer: true
-  explanation: "Correct. Off-policy learning separates the policy being learned (target policy) from the policy generating data (behavior policy). An old experience (s, a, r, s') where a was chosen exploratorily can be reused to update Q-values for greedy actions in s. This allows learning from diverse past experiences. On-policy methods must discard old data because it was generated under a different (older) policy — policy updates change the data distribution. For robotics where data is expensive, off-policy methods are preferred."
-
-- question: "A robot learns a manipulation task in simulation using RL, then transfers to real hardware. Describe the sim-to-real transfer problem and explain why domain randomization helps address it."
-  type: short-answer
-  answer: "The sim-to-real gap occurs because the learned policy optimizes for simulated physics (fixed friction, perfect sensing, deterministic dynamics) which differ from reality (variable friction, sensor noise, actuator delays, unmodeled dynamics). When the robot transfers to the real world, the state distribution is different, and the policy's learned assumptions break. Domain randomization mitigates this by training in simulation with randomized environment parameters: friction randomly sampled from a range, object shapes randomly perturbed, sensor noise injected, actuator delays varied. This forces the learned policy to be robust to parameter variations. If the real-world parameters fall within the randomized range, the policy generalizes better. The trade-off is that training is more computationally expensive (must explore many environment configurations) but the learned policy is more robust."
   explanation: "Domain randomization is a practical success in robotics RL, enabling real-world manipulation learning by leveraging cheap simulation training. Companies like OpenAI and DeepMind have published results where policies trained on massively randomized simulators transfer directly to real robotic hardware with minimal fine-tuning. The key insight is that robustness to simulation artifacts is achievable through deliberate, broad variation — the same principle underlying robust statistics."
 ```
 

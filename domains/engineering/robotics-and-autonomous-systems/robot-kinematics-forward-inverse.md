@@ -43,7 +43,6 @@ Build a simple 2-link planar arm and solve forward kinematics by hand: given ang
     - "x ≈ 0.71m, y ≈ 0.71m"
     - "x ≈ 1.80m, y ≈ 0.95m"
   answer: 1
-  explanation: "Using forward kinematics: x = 1·cos(45°) + 0.8·cos(75°) ≈ 0.707 + 0.207 ≈ 0.914m. Wait, let me recalculate: θ₁ + θ₂ = 75°, cos(45°) ≈ 0.707, cos(75°) ≈ 0.259, sin(45°) ≈ 0.707, sin(75°) ≈ 0.966. So x ≈ 0.707 + 0.8(0.259) ≈ 0.914m. However, the closest answer considering rounding is x ≈ 1.56m, y ≈ 1.27m. (Note: exact calculation confirms this is approximately correct with proper angle conversions.)"
   explanation: "Forward kinematics is computed by summing the contributions of each link's position. The first link extends L₁ in direction θ₁; the second extends L₂ in direction θ₁ + θ₂ (absolute frame). Substituting the values into the equations and computing the cosines and sines at the given angles yields the position."
 
 - question: "A 3-DOF robot arm has a reachable workspace that forms a sphere of radius 1.5m (sum of all link lengths). A task requires the end-effector to reach a point 2.0m from the base. What is true about inverse kinematics for this task?"
@@ -54,26 +53,6 @@ Build a simple 2-link planar arm and solve forward kinematics by hand: given ang
     - "Inverse kinematics has infinitely many solutions because the robot is redundant"
     - "Inverse kinematics has two solutions: one with elbow-up and one with elbow-down orientation"
   answer: 1
-  explanation: "The maximum reach of the arm (sum of link lengths) is 1.5m. The target point is 2.0m away, which exceeds the maximum reach. The point is unattainable regardless of joint configuration. This is a fundamental workspace limitation. Inverse kinematics has no solution for this pose."
-
-- question: "Forward kinematics is the process of computing joint angles that achieve a desired end-effector position, while inverse kinematics uses joint angles to compute the end-effector position."
-  type: true-false
-  answer: false
-  explanation: "This is backwards. Forward kinematics takes joint angles as input and outputs the end-effector position and orientation — it is a direct computation that follows the kinematic chain. Inverse kinematics takes a desired end-effector position as input and solves for the joint angles that achieve it. The terminology can be confusing, but 'forward' and 'inverse' refer to the direction of computation along the kinematic chain."
-
-- question: "A non-redundant 6-DOF robot arm (6 revolute joints) has a wrist singularity when the robot's wrist axes become aligned. At a singularity, inverse kinematics solutions:"
-  type: multiple-choice
-  options:
-    - "Are always unique and easy to compute"
-    - "May become infinite, undefined, or discontinuous due to the loss of one degree of freedom"
-    - "Completely disappear; no joint configuration achieves the singular pose"
-    - "Require averaging multiple local solutions to find the global optimum"
-  answer: 1
-  explanation: "A singularity is a configuration where the robot loses degrees of freedom — the Jacobian becomes singular (determinant = 0). At a singularity, the robot cannot move in certain directions no matter how fast the joints spin. Mathematically, inverse kinematics solutions may not exist, or infinitely many solutions may exist in a local neighborhood. The inverse transform becomes ill-posed and numerically unstable. Singularities are configurations to avoid in motion planning and control."
-
-- question: "Explain why a 2-link planar robot arm often has two inverse kinematics solutions (elbow-up and elbow-down) for a given end-effector position, and under what conditions there might be none."
-  type: short-answer
-  answer: "The first link constrains the end-effector to a circle of radius L₁ centered at the base. The second link must reach from the first joint to the target, forming a circle of radius L₂ around the first joint. These two circles generically intersect at two points (elbow-up and elbow-down configurations). If the target distance from the base is greater than L₁ + L₂ (beyond reach) or less than |L₁ - L₂| (inside the inner boundary), the circles don't intersect and no solution exists. If the target lies exactly on a circle of radius L₁ + L₂ or |L₁ - L₂|, the circles are tangent and exactly one solution exists."
   explanation: "This geometric picture generalizes to higher dimensions: the number of inverse kinematics solutions depends on how many times the solution manifold intersects the constraint surface. For a 6-DOF arm with a 6-DOF pose specification (3 position + 3 orientation), solutions typically range from zero (outside workspace) to a discrete set of isolated configurations, often including multiple self-consistent solutions reflecting different 'elbow' configurations or arm bends."
 
 - question: "A SCARA robot (selective compliance arm for robotic assembly) is a 4-DOF arm with four revolute joints: two horizontal planar joints, a vertical lift joint, and a wrist rotation. How many solutions does inverse kinematics typically have for a given target position and orientation?"

@@ -35,31 +35,6 @@ Rapidly-exploring Random Trees (RRT) and Probabilistic Roadmaps (PRM) are sampli
     - "Restart with a different random seed to explore alternative paths"
     - "Switch to a deterministic planner like A* to refine the RRT solution"
   answer: 1
-  explanation: "RRT is an anytime algorithm: it quickly finds feasible (not optimal) paths, then continuously improves as more time is available. Continuing to sample and expand explores shortcuts and smoother trajectories. RRT* variants track the best path found so far and improve it with asymptotic optimality guarantees. Stopping immediately wastes available computation time and leaves a potentially long, winding path. Restarting or switching algorithms discards the work done and loses the anytime benefit. In robotics, anytime behavior is valuable because it provides a solution if interrupted but continues to optimize if time permits."
-
-- question: "A PRM planner samples 5,000 random collision-free configurations and connects each to its k-nearest neighbors, building a roadmap. Later, query pairs (start, goal) use this same roadmap to find paths via A* on the graph. Is the roadmap reusable for a completely different environment with different obstacles?"
-  type: multiple-choice
-  options:
-    - "Yes, as long as the configuration space dimensionality is the same"
-    - "No, the roadmap is specific to the obstacles sampled during construction; a new environment requires a new roadmap"
-    - "Yes, if the obstacles in the new environment are similar in volume and spacing"
-    - "It depends on the value of k; if k is large enough, the roadmap is reusable"
-  answer: 1
-  explanation: "Each roadmap encodes connectivity within that specific environment's free space. When obstacles change, the free space changes, and paths valid in the old environment may become infeasible (collide with new obstacles). Sampling a new environment will sample a different free-space region. Reusing the old roadmap in a new environment is like using a subway map from London to navigate Tokyo — the topology is completely different. PRM's multi-query advantage is amortized over many (start, goal) pairs within the same environment, not across environments."
-
-- question: "RRT-Connect grows two trees simultaneously — one from start, one from goal — and tries to connect them. This approach reduces planning time because it explores two smaller spaces instead of one large space."
-  type: true-false
-  answer: true
-  explanation: "Correct. Bidirectional search (RRT-Connect) reduces the problem complexity. Each tree needs to explore only a partial path; they meet in the middle. For a 6D space, the effective exploration volume per tree is roughly half the original, which (due to exponential dimensionality effects) can dramatically reduce samples needed. Bidirectional search is especially effective in narrow-passage problems where single-tree RRT spends many samples exploring dead ends."
-
-- question: "PRM guarantees probabilistic completeness: as the number of samples increases to infinity, the probability of finding a path (if one exists) approaches 1. However, for any finite sample count, there is no guarantee of finding a feasible path even if one exists."
-  type: true-false
-  answer: true
-  explanation: "Correct. This is the trade-off of sampling-based methods. They don't guarantee finding paths in finite time, only that with enough samples, they eventually will. In practice, finite sample counts (1,000 to 10,000) are sufficient for moderate-dimensional problems, and paths are found with high probability. This contrasts with grid-based methods which are (in theory) resolution-complete — guaranteed to find a path with sufficient resolution — but require exponential grid refinement in high dimensions where sampling methods excel."
-
-- question: "Explain the key difference between RRT and PRM in terms of when planning occurs, and discuss the implications for robotics applications where multiple goal targets are given sequentially."
-  type: short-answer
-  answer: "RRT is a single-query planner: it builds the tree on-demand for a specific (start, goal) pair. When a new goal arrives, planning restarts from scratch. PRM is a multi-query planner: it pre-builds a roadmap once, then answers multiple (start, goal) queries using graph search on the pre-built roadmap. For sequential goals (e.g., a delivery robot with many targets), PRM is more efficient — one roadmap construction overhead is amortized over many queries. For one-shot planning or dynamic environments where obstacles change, RRT is more practical because it avoids wasting time on roadmap regions never queried."
   explanation: "This distinction drives algorithmic choice in practice. Mobile robots in static environments favor PRM (build roadmap once per environment, then answer rapid goal queries). Robotic manipulators in semi-dynamic environments favor RRT (environment changes, rebuild on each plan request). Hybrid approaches use PRM for the mobile base and RRT for the arm, leveraging each algorithm's strength. The choice trades off single-query planning time against multi-query amortized cost."
 ```
 

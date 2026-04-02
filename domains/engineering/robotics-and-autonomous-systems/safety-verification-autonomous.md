@@ -39,41 +39,6 @@ Autonomous systems operate in open, partially observable environments with safet
     - "Perception is unimportant for safety; only control safety matters"
     - "Detection confidence values are always accurate, so we can trust them directly"
   answer: 1
-  explanation: "Safety is not about individual component reliability but about system-level failure rates meeting safety targets. A 95% detection rate might mean 1 in 20 pedestrians is missed; at 1 million pedestrian encounters per vehicle per year, that is 50,000 missed detections, many of which become collisions. Moreover, test accuracy doesn't transfer perfectly to deployment (distribution shift: pedestrians in deployment might be different from training data). Rigorous safety verification requires: measuring false negatives on representative data, testing corner cases (rare scenarios), establishing how often failures must be caught by downstream safety mechanisms (if perception misses a pedestrian, can the planner/control still avoid via other means?), and validating against target safety metrics (e.g., autonomous vehicles must achieve fewer than 0.5 collisions per million miles)."
-
-- question: "Formal verification can prove that a control system is stable for all possible inputs satisfying specified assumptions. Why cannot formal verification alone ensure an autonomous vehicle is safe?"
-  type: multiple-choice
-  options:
-    - "Formal verification is always sufficient; it guarantees safety"
-    - "Formal verification can prove properties of isolated components (stability, no buffer overflow) but not properties of the full system. It cannot verify perception (is the detected pedestrian real?), cannot handle human behavior (will the pedestrian cross?), and cannot verify assumptions (traffic rules exist, but humans violate them). Safety also depends on unknown unknowns — failure modes nobody anticipated"
-    - "Formal verification is too slow and cannot be used for real-time systems"
-    - "Formal verification works perfectly for autonomous vehicles"
-  answer: 1
-  explanation: "Formal verification is a tool for checking specific properties, not for proving overall safety. You can formally verify that the motion planner will not violate the kinematic limits of the vehicle — that's a mathematical property of the algorithm. But you cannot formally verify that the planner's perception input is correct, or that other agents will obey traffic rules, or that a novel failure (unprecedented sensor degradation) won't occur. Autonomous vehicle safety relies on: (1) formal verification of critical algorithms, (2) statistical testing and validation on large datasets, (3) hazard analysis identifying failure modes, (4) redundancy and monitoring to detect and handle failures, (5) operational design domain restrictions (we only operate in daylight, on structured roads, with certain weather), and (6) transparent disclosure of limitations."
-
-- question: "An autonomous vehicle is tested on 500 hours of simulated driving, equivalent to 20,000 miles with zero accidents. Can the manufacturer claim the vehicle is safe for deployment?"
-  type: multiple-choice
-  options:
-    - "Yes, zero accidents in 20,000 miles demonstrates safety"
-    - "No — 20,000 miles is statistically insufficient to validate against safety targets like 0.5 fatalities per 100 million miles, which would require testing ~200 million miles. Simulation also does not capture all real-world variability. Instead, validation requires: demonstrated performance on diverse test datasets, comparison to human baselines (is the vehicle safer than humans?), testing on rare/critical scenarios, and real-world testing in controlled conditions with safety drivers"
-    - "Safety cannot be tested; only simulation proves safety"
-    - "Zero accidents in simulation guarantees zero accidents in the real world"
-  answer: 1
-  explanation: "This is the rare event problem: safety targets are stated as rates per 100 million miles (extremely low failure rates). To statistically validate that a vehicle achieves fewer than 0.5 fatalities per 100 million miles, you would need to test millions of miles and observe zero or very few fatalities — almost impossible to do. Instead, validation uses complementary approaches: (1) measuring performance on diverse test datasets (perception accuracy on rare scenarios, planning success on edge cases), (2) accelerated testing (simulation, scenario libraries with known failure modes), (3) comparison to human performance (if the vehicle is safer than humans on the same roads, that's evidence of acceptability), and (4) real-world testing with safety drivers (humans ready to intervene). No single test 'proves' safety, but a comprehensive validation case builds confidence."
-
-- question: "A manufacturer discovers that the lidar sensor occasionally produces false readings in rare conditions (reflected light from bright sun at specific angles). This is a low-probability event. Should the manufacturer address it?"
-  type: multiple-choice
-  options:
-    - "No — rare events are acceptable; autonomous vehicles don't need to handle every possible failure"
-    - "Yes — rare events become frequent if the vehicle operates millions of miles. If the event causes a safety-critical failure (e.g., false obstacle detection that causes collision avoidance), it must be eliminated (with redundancy), detected and handled (monitoring), or the operational domain must be restricted (no operation in these conditions). Even rare failures accumulate into serious incidents across a fleet"
-    - "The manufacturer should only address high-probability failures"
-    - "Rare failures are handled by humans taking over, so automation is unnecessary"
-  answer: 1
-  explanation: "The fleet effect: a 1-in-10,000,000 failure event is rare for a single vehicle, but if you deploy 1 million vehicles, it becomes a certainty. Safety engineering addresses even low-probability events if the consequences are severe. This is formalized in failure mode and effects analysis (FMEA): for each identified failure mode, assess (1) probability, (2) severity, (3) detectability. High-severity, detectable failures must be addressed through redundancy or monitoring. The industry standard is ASIL (Automotive Safety Integrity Level): safety-critical functions must achieve target failure rates depending on their severity. A lidar failure causing a collision is ASIL D (highest) and must achieve ~10^-9 failures per hour, requiring redundancy and fault detection."
-
-- question: "Explain the concept of 'operational design domain' (ODD) and why autonomous systems cannot be claimed to be safe 'without limits,' but only safe within their ODD."
-  type: short-answer
-  answer: "Operational Design Domain is the range of conditions under which the autonomous system is designed to operate. Example ODD: 'paved roads, daylight and twilight (not night), weather conditions: dry/light rain (not snow/heavy rain), no snow on road, speed limit up to 130 km/h, on highways and major urban streets, not on residential roads, humans may supervise via safety driver.' Every autonomous system has limitations — perception fails at night without additional sensors, control performance degrades on slippery roads, decision-making was not trained on extreme scenarios. Claiming safety without limits is false; instead, manufacturers define the ODD, validate performance within the ODD, and either restrict operations to the ODD or explicitly extend validation when operational conditions change. This transparency allows regulators and users to understand when the system is operating within its validated domain vs. beyond it."
   explanation: "ODD is a key concept in ISO 26262 and emerging AV safety standards. It prevents manufacturers from overselling capabilities while allowing systems to be deployed progressively as their operational domain expands. A vehicle that is safe on highways with good weather can be deployed there; extending it to rain, night, or residential streets requires additional validation. The ODD represents the honesty principle in safety: autonomous systems have limits; those limits must be explicit."
 ```
 

@@ -47,36 +47,6 @@ Implement a simple PID controller in simulation for one joint of a robot. Start 
     - "The actuator saturates during large transients, causing integrator windup that keeps the joint overshooting even after reaching the setpoint"
     - "The control loop frequency is too low to handle large transients"
   answer: 2
-  explanation: "This is the classic signature of integrator windup. For small changes, the system never saturates and behaves smoothly. For large changes, the large persistent error causes the integrator to accumulate a huge value, driving the command into saturation. The joint continues overshooting because the integrated error has wound up excessively. When the joint finally approaches the setpoint, the integrator has stored so much that the command stays saturated, producing sustained overshoot. Anti-windup logic (stopping integration when saturated) would fix this. Increasing K_d alone would not address the root cause."
-
-- question: "A robot joint is controlled with a PID controller. The derivative term K_d·(θ_d - θ_actual)' is known to amplify high-frequency measurement noise. In real implementations, how is this problem typically mitigated?"
-  type: multiple-choice
-  options:
-    - "Increase the proportional gain K_p to compensate, so derivative action is less critical"
-    - "Use a low-pass filter on the measured joint angle before computing the derivative, reducing high-frequency noise at the cost of phase lag"
-    - "Remove derivative action entirely and rely on proportional and integral terms"
-    - "Increase the control loop frequency to sample more frequently and reduce noise magnitude"
-  answer: 1
-  explanation: "Low-pass filtering the measured angle (or its derivative) is the standard solution. A first-order low-pass filter H(s) = ω_n/(s + ω_n) with cutoff frequency ω_n removes high-frequency noise while preserving the slower dynamics of actual joint motion. The cost is a small phase lag introduced by the filter, which must be accounted for in PID tuning. Completely removing derivative action loses the benefits of damping and faster response. Relying only on P and I terms often leads to oscillatory or sluggish behavior."
-
-- question: "The steady-state error in a PID-controlled system with a constant disturbance is eliminated by the integral term. True or false?"
-  type: true-false
-  answer: true
-  explanation: "Correct. The integral term accumulates error over time, and its contribution to the control output increases as long as error persists. At steady state with a constant disturbance, the integral term outputs just enough correction to cancel the disturbance, driving steady-state error to zero. Proportional action alone cannot do this, because proportional control only responds to instantaneous error—it would settle to a nonzero error value where the control output equals the disturbance."
-
-- question: "For a robot joint with inertia I and friction coefficient f, the equation of motion is I·θ̈ + f·θ̇ = τ, where τ is the control torque. If you use proportional control τ = K_p·(θ_d - θ), what is the closed-loop system?"
-  type: multiple-choice
-  options:
-    - "I·θ̈ + f·θ̇ + K_p·θ = K_p·θ_d (second-order system)"
-    - "θ̈ + (f/I)·θ̇ + (K_p/I)·θ = (K_p/I)·θ_d (normalized second-order system)"
-    - "I·θ̈ + f·θ̇ + K_p·(θ - θ_d) = 0"
-    - "Both (a) and (b) are equivalent"
-  answer: 3
-  explanation: "Substituting the control law τ = K_p·(θ_d - θ) into the plant equation gives I·θ̈ + f·θ̇ = K_p·(θ_d - θ), which rearranges to I·θ̈ + f·θ̇ + K_p·θ = K_p·θ_d. Dividing by I normalizes to θ̈ + (f/I)·θ̇ + (K_p/I)·θ = (K_p/I)·θ_d. These are equivalent forms of the same second-order system."
-
-- question: "A PID controller for a robot joint is tuned using the Ziegler-Nichols method, which involves increasing proportional gain K_p until the system oscillates marginally at the edge of stability. Explain why this critical point is a useful starting point for tuning."
-  type: short-answer
-  answer: "At the critical point (oscillation boundary), the system exhibits sustained oscillation at a frequency that depends on the plant's natural dynamics. Ziegler-Nichols tuning rules use this critical gain K_u and oscillation period T_u to compute PID gains: K_p = 0.6·K_u, K_i = 1.2·K_u/T_u, K_d = 0.075·K_u·T_u. These gains provide a conservative, stable starting point that respects the plant's dynamics. The method is simple and model-free, requiring only experimental observation of oscillation, not a mathematical plant model."
   explanation: "Ziegler-Nichols is valuable because it relates the tuning gains to the plant's actual behavior (its critical frequency and gain), not arbitrary parameters. The resulting PID controller is typically slightly underdamped (some overshoot) but stable, providing a good baseline for manual fine-tuning. Variations like Ziegler-Nichols for no overshoot (K_p = 0.2·K_u) or quarter-amplitude damping (K_p = 0.45·K_u) offer different trade-offs between speed and overshoot."
 ```
 

@@ -10,7 +10,7 @@ tags:
 - being
 - community
 - singularity
-stage: expert
+stage: advanced
 status: validated
 ---
 

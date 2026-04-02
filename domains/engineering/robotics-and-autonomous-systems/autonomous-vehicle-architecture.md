@@ -38,36 +38,6 @@ An autonomous vehicle is a real-time distributed system that must perceive its e
     - "The vehicle should request that the human driver resume control immediately, regardless of traffic conditions"
     - "The vehicle should switch to dead reckoning until GPS returns, with no effect on localization confidence"
   answer: 1
-  explanation: "GPS outages are common in urban environments. A well-designed autonomous system degrades gracefully: it continues operating using available sensors (IMU, odometry) while increasing its localization uncertainty estimate. Over time without GPS, dead-reckoning drift accumulates — typically centimeters to meters per minute depending on sensor quality. When uncertainty exceeds safety thresholds (e.g., position confidence grows above 1-2 meters in environments requiring meter-level precision), the system should trigger a 'safe state' behavior: gradual deceleration, request for human takeover, or safe parking. Immediately stopping would halt traffic unnecessarily; immediately transferring control mid-negotiation could endanger passengers. The key is continuous uncertainty quantification and graceful degradation."
-
-- question: "In the autonomous driving software stack, why are prediction (forecasting where other vehicles will go) and planning (computing the autonomous vehicle's path) kept as separate modules rather than solving both simultaneously in one optimization?"
-  type: multiple-choice
-  options:
-    - "They can be solved independently without affecting safety, so separation is done purely for code organization"
-    - "Separation enables testing and validation of each module in isolation; combined optimization would be intractable and harder to debug when failures occur"
-    - "Simultaneous optimization was attempted but found to be too fast, causing the vehicle to react too quickly to traffic"
-    - "Modern hardware cannot handle the computational cost of simultaneous optimization"
-  answer: 1
-  explanation: "In principle, the autonomous driving problem is a partially observable stochastic game: other agents have their own goals, the future is uncertain, and the vehicle must find an optimal strategy considering others' potential actions. Solving this jointly would be theoretically elegant but computationally intractable at real-time speeds and extremely difficult to test — if something goes wrong, you cannot isolate whether the failure is in prediction, planning, or the interaction between them. Separating into 'predict what others will do' and then 'plan our response given those predictions' introduces a simplification: we assume others' behavior is independent of our future actions (Stackelberg approximation). This is not perfectly realistic but is testable and debuggable. Prediction can be validated against ground-truth trajectories; planning can be validated against known prediction inputs. This modularity is critical for safety-critical systems."
-
-- question: "A vehicle's control module receives a planned trajectory (path and speed over the next 5 seconds) from the planning module. The control module should execute the plan exactly as given, even if sensors show unexpected obstacles or changes in traffic conditions, because the planning module has the full decision-making authority."
-  type: true-false
-  answer: false
-  explanation: "This would be dangerous. The control module must act as a safety guardian: it monitors whether execution is safe given current sensor data. If the planned trajectory would collide with an unexpected obstacle, the control module should either locally adjust (decelerate, steer slightly to avoid) or request a new plan from the planner. Blindly executing a plan whose assumptions have been invalidated defeats the purpose of real-time sensing. The control layer should have some autonomy to make small safety corrections; anything requiring major replanning should request human intervention or trigger a safe stop."
-
-- question: "Modern autonomous vehicles use multiple cameras, lidar, and radar for perception. Why is this sensor redundancy necessary when each sensor type is supposed to be sufficient on its own?"
-  type: multiple-choice
-  options:
-    - "It is not necessary; one sensor is sufficient. The redundancy is only for marketing"
-    - "Each sensor type has failure modes and environmental limitations (lidar fails in fog, radar struggles with small objects, cameras fail at night); sensor fusion masks these individual failures and provides confidence estimates"
-    - "Multiple sensors increase the processing power available for real-time computation"
-    - "Redundant sensors are required by law for all commercial vehicles"
-  answer: 1
-  explanation: "No single sensor is universally superior. Lidar excels at range measurement and 3D point clouds but is blinded by rain and fog. Radar penetrates adverse weather but struggles with small objects and provides lower angular resolution. Cameras work well in daylight and can classify objects semantically but fail in darkness and are sensitive to glare. Sensor fusion combines their strengths: radar and lidar provide range in bad weather; cameras provide semantic classification; together they provide coverage that neither alone could achieve. Redundancy also enables fault detection: if the camera and lidar disagree about object position, the discrepancy flags a sensor failure or degraded performance, allowing the system to reduce confidence and request human intervention if necessary."
-
-- question: "Describe the role of each major module (perception, localization, prediction, planning, control) in an autonomous vehicle architecture, and explain why isolating these modules into separate components aids both safety and testability."
-  type: short-answer
-  answer: "Perception detects objects in the environment (vehicles, pedestrians, traffic signs) from sensor data; localization estimates the vehicle's position and orientation using GPS, IMU, and odometry; prediction forecasts the future positions and actions of other agents; planning computes a safe trajectory for the autonomous vehicle; control executes that trajectory by commanding steering, acceleration, and braking. Module separation enables independent testing: perception can be validated on labeled datasets; localization can be tested against ground-truth positions; prediction can be evaluated on recorded trajectories; planning can be tested on known prediction inputs; control can be verified on known trajectories. When failures occur, isolation lets engineers identify which module is responsible. Separation also simplifies software maintenance and enables teams to specialize in each module. The downside is that errors in one module (e.g., a false positive in perception) propagate to downstream modules, so interfaces between modules must communicate uncertainty (confidence scores, covariance estimates) to enable downstream modules to adjust behavior appropriately."
   explanation: "This modular architecture is the industry standard for autonomous vehicles (used by Waymo, Tesla, Cruise, Uber ATG) because it balances theoretical optimality (joint optimization would be ideal) against practical constraints (testability, modularity, real-time performance). It is the engineering choice that makes safety engineering feasible."
 ```
 

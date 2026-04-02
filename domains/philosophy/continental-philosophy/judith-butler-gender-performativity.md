@@ -10,7 +10,7 @@ tags:
 - gender
 - performativity
 - identity
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -10,7 +10,7 @@ tags:
 - ontology
 - reduction
 - emergence
-stage: expert
+stage: advanced
 status: validated
 ---
 

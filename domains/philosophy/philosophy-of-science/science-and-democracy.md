@@ -10,7 +10,7 @@ tags:
 - democracy
 - public-understanding
 - policy
-stage: expert
+stage: advanced
 status: validated
 ---
 

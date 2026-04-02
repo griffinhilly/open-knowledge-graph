@@ -38,41 +38,6 @@ Warehouse automation has evolved from conveyor belts and fixed sorting machinery
     - "Goods-to-robot doesn't work in real warehouses"
     - "Robot-to-goods is always faster"
   answer: 1
-  explanation: "This is a system-level optimization insight. Robot-to-goods requires each robot to navigate to a shelf, identify the correct item, pick it (challenging with diverse item shapes), navigate to the destination, and place it. Goods-to-robot brings the shelf to a workstation where a human (fast, dexterous, good at identifying items) picks items. The human's picking area is small (just the shelf in front of them), so they work faster. Meanwhile, the robot does what it does best: navigate and transport. The result is higher throughput per robot and lower capital cost (fewer robots needed if each is more productive). This is why Amazon's approach dominates; it's a better decomposition of the workflow."
-
-- question: "In a warehouse with hundreds of mobile robots, coordinating their movement to avoid collisions is computationally expensive. What approaches enable scalable coordination?"
-  type: multiple-choice
-  options:
-    - "Each robot independently plans its path without coordination; collisions are resolved when they occur"
-    - "Global coordination: a central server plans paths for all robots simultaneously, optimizing globally for minimum time and collisions. This is slow but optimal. Alternatively, decentralized coordination: each robot plans locally, avoiding immediate neighbors. Local coordination is fast but not globally optimal. Most systems use hybrid approaches: decentralized local avoidance with occasional global replanning"
-    - "Robot swarms automatically coordinate without communication"
-    - "Coordination is impossible at warehouse scale"
-  answer: 1
-  explanation: "Scalable coordination is the core algorithmic challenge in warehouse robotics. Global coordination (linear program or optimal assignment) is optimal but scales as O(n^3) or worse with n robots — 1000 robots make this intractable. Decentralized approaches scale better: each robot communicates with nearby robots and locally adjusts its path to avoid collisions. This is like human traffic: drivers don't coordinate with everyone, just nearby cars. Decentralized avoidance is fast (O(n)) but can get stuck (deadlocks where robots cannot all make progress). Hybrid systems use decentralized avoidance for real-time response plus periodic global replanning to resolve deadlocks."
-
-- question: "A warehouse robot uses SLAM (simultaneous localization and mapping) to navigate without prior maps. Is this a good approach for warehouse robotics?"
-  type: multiple-choice
-  options:
-    - "SLAM is always the best approach"
-    - "SLAM is useful for robots exploring unknown environments but is overkill and computationally expensive for structured warehouses. Warehouses have fixed layouts, good GPS/WiFi coverage, and landmarks (shelves, visual markers). Robots can use pre-built maps and localize against them, which is faster and cheaper than building maps in real time. SLAM is worth the cost only if the warehouse layout changes frequently or GPS is unavailable"
-    - "SLAM cannot work indoors"
-    - "Warehouse robots don't navigate; they are stationary"
-  answer: 1
-  explanation: "This is a classic engineering tradeoff: SLAM is elegant and works anywhere, but is expensive (computationally and in sensor cost). For structured, known environments like warehouses, simpler localization (pre-built map + GPS/visual landmarks) is more practical. If a warehouse remodels every few months, SLAM's adaptability is valuable; if layouts are stable for years, SLAM is unnecessary overhead. This is why deployed warehouse robots typically use pre-built maps and simple localization, not SLAM."
-
-- question: "Robotic picking (grasping diverse items from shelves) is harder than goods-to-robot systems suggest. What challenges make item picking the last frontier of warehouse automation?"
-  type: multiple-choice
-  options:
-    - "Picking is easy; all items are identical"
-    - "Items have diverse shapes, sizes, materials, and fragility. A gripper optimized for boxes may not grip soft items or fragile items without damaging them. Items are often densely packed or partially occluded, requiring sophisticated vision and tactile perception to identify grasp points. Humans are far faster at picking diverse items than current robots, so few fully automated picking systems exist"
-    - "Picking robots are already faster than humans"
-    - "Warehouse items are always boxes"
-  answer: 1
-  explanation: "This explains why most warehouse robots are transport-focused (moving goods) rather than manipulation-focused (picking). Robotic picking is an active research area but is not yet practical at scale. Humans pick 100-300 items per hour; the fastest robots pick 50-100 items per hour, and often require specialized product staging (items pre-oriented, staged in predictable positions). Full automation of diverse picking requires major advances in vision (detecting items occluded by packaging), grasping (gripper versatile enough for soft/hard/fragile items), and reasoning (understanding how to extract items from dense arrangements). Until these challenges are solved, the goods-to-robot approach (robot transports, human picks) remains dominant."
-
-- question: "Describe the tradeoff between centralized warehouse coordination (one server plans all robot paths) and decentralized coordination (each robot plans locally, communicating with neighbors), and explain why most deployed systems use a hybrid approach."
-  type: short-answer
-  answer: "Centralized coordination: one server solves an optimization problem to assign goals and paths to all robots, globally minimizing time and collisions. Advantage: optimal solution. Disadvantage: scales poorly (n robots = O(n^3) computation), vulnerable to server failure, and communication overhead. Decentralized coordination: each robot independently plans paths and locally avoids neighbors through reactive algorithms. Advantage: scales well, no single point of failure. Disadvantage: not globally optimal, can produce deadlocks or inefficiencies. Hybrid approach: robots use decentralized local planning for real-time responsiveness (navigate toward goal, avoid immediate neighbors), but periodically (every 10-30 seconds) the central server replans to resolve deadlocks or globally optimize if efficiency drops. This balances scalability (local planning is fast) with optimality (global replanning fixes problems)."
   explanation: "The hybrid approach is the practical compromise in deployed warehouse systems. Pure centralization is too slow; pure decentralization gets stuck. The periodic replanning ensures the system doesn't degrade, while decentralized planning keeps latency low."
 ```
 

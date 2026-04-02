@@ -33,36 +33,6 @@ Underwater robots operate in an environment hostile to electronics, lacking GPS,
     - "The AUV's propeller is inefficient"
     - "Dead reckoning is fundamentally incompatible with AUVs"
   answer: 1
-  explanation: "Dead reckoning's error grows linearly with time (error ∝ t) due to sensor bias and drift. An accelerometer with bias of 0.001 g (realistic) drifts the velocity estimate by 0.01 m/s each second, causing position error to grow as 0.5 * 0.01 * t^2. After 4 hours (14,400 s), position error is ~1 km. Gyroscope drift (heading rate bias) causes heading to drift, corrupting the rotation frame; after 4 hours, the AUV might think it's going north when it's actually going northeast, causing large position error. Currents are a separate issue but dead reckoning alone is inherently drift-prone. Solution: periodically resurface to get GPS fixes, use sonar-based localization (comparing sonar returns to known features), or deploy acoustic beacons for position correction."
-
-- question: "An AUV with 1000 kg mass and nominal drag coefficient (velocity-dependent damping) operates at two speeds: 1.5 m/s (research mission, slow and steady) and 3.0 m/s (high-speed survey). How does power consumption scale with speed, and why?"
-  type: multiple-choice
-  options:
-    - "Power scales linearly with speed; doubling speed doubles power"
-    - "Power scales with velocity squared (drag force ∝ v^2); at 3 m/s vs. 1.5 m/s, power increases by 4x. Endurance (time on battery) decreases to 25% of slow-speed endurance"
-    - "Power is independent of speed for streamlined AUVs"
-    - "Power scales with cube of velocity (v^3) in water"
-  answer: 1
-  explanation: "Drag force in water is F_drag = 0.5 * ρ * v^2 * A * Cd, proportional to velocity squared. Power required to overcome drag is P = F_drag * v = 0.5 * ρ * v^3 * A * Cd, proportional to v^3. Actually, cubic scaling is correct for most hydrodynamic systems! At 3 m/s, power is (3/1.5)^3 = 8 times higher than at 1.5 m/s. Endurance with fixed battery capacity scales inversely: 8x more power means 1/8 endurance. An AUV with 12 hours endurance at 1.5 m/s has only 1.5 hours at 3 m/s. This is why AUVs operate at low speeds for long-duration missions (oceanographic surveys) — speed trading is dramatic due to cubic power scaling."
-
-- question: "An AUV navigates using sonar. The sonar emits a pulse, and the time delay before echoes return indicates distance to obstacles and seafloor. However, sonar images are noisy (speckle) and have ambiguity (multiple possible interpretations). How is sonar-based localization possible without GPS?"
-  type: multiple-choice
-  options:
-    - "It's impossible; AUVs must surface for GPS periodically"
-    - "Pre-build a detailed sonar map of the operational area. During navigation, match real-time sonar scans to the map via image registration (finding the best alignment). The match position is the AUV's location"
-    - "Use a compass and dead reckoning; sonar is unnecessary"
-    - "Sonar provides absolute position coordinates directly"
-  answer: 1
-  explanation: "Sonar-based localization (or acoustic localization) uses the environment as a 'map'. The AUV either (1) pre-surveys the area with high-resolution sonar, building a detailed map, or (2) has a pre-built map from prior missions. During autonomous navigation, the AUV compares real-time sonar scans to the map. Modern algorithms (particle filters, graph-based optimization) find the pose (position and orientation) that best explains the sonar observations. Despite noise, the seafloor structures (rocks, ridges, valleys) are distinctive enough for matching. This is called sonar-based SLAM (simultaneous localization and mapping) or sonar loop closure detection. It's more challenging than visual SLAM (on land) because sonar is noisier, but it's essential for underwater long-term autonomy."
-
-- question: "A bluff-body AUV (boxy shape for payload space) has higher drag than a streamlined torpedo-shaped AUV, even at the same cross-sectional area. This is because drag depends not just on area, but also on the shape (drag coefficient Cd)."
-  type: true-false
-  answer: true
-  explanation: "Correct. Drag force is F = 0.5 * ρ * v^2 * A * Cd. A streamlined torpedo (Cd ≈ 0.04) has much lower drag than a bluff body (Cd ≈ 0.5-2.0) because streamlined shapes create smooth flow (low separation, low pressure drag). Bluff bodies cause flow separation, creating wake turbulence and high pressure drag. The power scaling above (cubic) amplifies this: if a boxy AUV has Cd twice as high, its power consumption is 2x higher, more than halving endurance. Modern AUVs balance streamlining (efficiency) with payload volume (mission capability) — they're compromise shapes."
-
-- question: "Explain why GPS doesn't work underwater, and describe how modern AUVs navigate and correct position drift during long-duration missions."
-  type: short-answer
-  answer: "GPS signals are radio waves that attenuate rapidly in seawater (saltwater is highly conductive). Signals are useless beyond a few centimeters depth. AUVs navigate using: (1) Dead reckoning (inertial sensors, integrating acceleration) for continuous position estimation — fast but accumulates error over hours. (2) Sonar-based localization — comparing real-time sonar scans to pre-built maps to estimate position — slower (sonar update rate ~1-10 Hz) but drift-correcting. (3) Periodic surface fixes — resurfacing to use GPS for a few seconds, then submerging. (4) Acoustic beacons — fixed sonar beacons deployed on seafloor transmit time-stamped signals; AUV measures time-of-arrival from multiple beacons to trilaterate position (like underwater GPS). Modern AUVs fuse these via Kalman filtering: dead reckoning provides high-rate position updates (100 Hz), sonar and beacons provide low-rate corrections. The filter combines the two: fast updates with slow corrections, preventing drift while maintaining responsiveness."
   explanation: "The absence of external reference (like GPS) makes underwater navigation fundamentally harder than terrestrial robotics. This is why underwater systems are expensive — they require precision inertial sensors, high-quality sonar, and sophisticated filtering. A typical research AUV costs $1-5M partly due to navigation hardware and software."
 ```
 

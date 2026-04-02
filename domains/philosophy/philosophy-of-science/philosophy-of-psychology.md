@@ -10,7 +10,7 @@ tags:
 - cognition
 - folk-psychology
 - reductionism
-stage: expert
+stage: advanced
 status: validated
 ---
 

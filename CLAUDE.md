@@ -34,16 +34,13 @@ Tool commands: see `guides/tools-reference.md`
 Visualization design: see `guides/visualization.md`
 
 ## Current Status
-- **14,042 topics** across **19 domains**, **229 courses**
+- **14,362 topics** across **19 domains**, **235 courses**
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
-- **100% Q+E coverage**: All topics have Questions + Explainer sections
 - **All topics at `status: validated`**
 - GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
 - GitHub Actions CI: validates → generates index + radial + topic pages + domain maps + assessment + quiz → deploys to Pages
-- **Phase 8.5 (K-12 STEM) DONE**: 473 new topics, 14 K-12 courses across 7 STEM domains
-- **CS programming-fundamentals deduped**: 116 → 50 topics (66 duplicates merged)
-- **Phase 9A (Fluency Model) DONE**: `lib/fluency.js` with Bayesian updates, prerequisite propagation, two color modes.
-- **Phase 9B (Quiz Engine) DONE**: `output/quiz.html` — interactive trivia quiz. Phase 9C (Deep Dive + Results) is next.
+- **Phases 1-9C DONE**, **Phase 10 (Question Quality Audit) DONE**
+- **P2 topic expansion DONE** (Apr 1): +320 topics, 6 new courses (applied-ethics, history-of-science, economic-social-history, robotics-and-autonomous-systems, music-technology, contemporary-art-new-media), 15 courses extended
 
 ## Related Projects
 - `~/knowledge-architecture/` — Prose-based concept sequences (predecessor project)

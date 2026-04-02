@@ -39,31 +39,6 @@ Potential field methods treat motion planning as a navigation problem in a artif
     - "The exact direction requires computing -∇U, balancing both attractive and repulsive gradients; it depends on the relative magnitudes of the gradients at this location"
     - "The robot cannot move because the attractive and repulsive forces are in conflict"
   answer: 2
-  explanation: "The net force is -∇U = -(∂U_attractive/∂q + ∂U_repulsive/∂q). The attractive gradient is (q - q_goal) = [-1, -1], pointing toward the goal. The repulsive gradient is (q - q_obs) / d_obs^3 (inverse-squared decay), pointing away from the obstacle. The magnitude of repulsive gradient near obstacles is very large: at d_obs = 0.5 m, 1/d_obs^2 = 4. The net direction requires summing both vectors weighted by their magnitudes. The robot moves diagonally toward the goal while being pushed away from the obstacle — neither force alone determines motion. This is why potential fields are called 'field-based' — the robot feels combined forces from all sources."
-
-- question: "A robot using potential fields gets stuck in a local minimum: the gradient ∇U = 0 but the goal has not been reached. Why does this occur and when is it most likely?"
-  type: multiple-choice
-  options:
-    - "Local minima occur when the robot is equidistant from the goal and obstacles, creating a saddle point"
-    - "Local minima occur in narrow corridors where the attractive force toward the goal is balanced by repulsive forces from opposite walls, trapping the robot"
-    - "Local minima are a theoretical problem but never occur in practice because random noise in sensors breaks symmetry"
-    - "Local minima only occur if the repulsive potential is too strong relative to the attractive potential"
-  answer: 1
-  explanation: "The classic local-minimum trap is a narrow corridor: both walls push the robot toward the center with repulsive forces. The goal is visible at the end of the corridor, creating an attractive force. If the corridor is narrow enough and the walls' repulsive forces are large enough, they can balance the attractive force toward the goal, creating a region where ∇U ≈ 0. The robot is stuck. This is not a saddle point (those are unstable) but a true local minimum of the potential function. Random noise can sometimes break the symmetry, but deterministic systems are reliably trapped. This is why potential fields are used for local control (reactive obstacle avoidance) rather than global planning — they need integration with higher-level planners to escape local minima."
-
-- question: "The potential function U(q) = ||q - q_goal||^2 (purely attractive, no obstacles) always has a unique global minimum at the goal and is guaranteed to guide any robot to the goal without getting trapped."
-  type: true-false
-  answer: true
-  explanation: "Correct. With only an attractive potential, the gradient -∇U = 2(q - q_goal) always points toward the goal and has magnitude proportional to distance. There are no local minima — the function is convex. The robot will monotonically approach the goal. The problem arises when obstacles are added: the repulsive potential creates new critical points (local minima and saddle points) where ∇U = 0 away from the goal."
-
-- question: "Navigation functions are a special design of potential fields that guarantee convergence to the goal everywhere in the free space except on a lower-dimensional set (the goal itself). This is stronger than standard potential fields and eliminates the local-minimum problem."
-  type: true-false
-  answer: true
-  explanation: "Correct. Navigation functions are carefully constructed potentials (e.g., using a combination of distance-to-goal and signed-distance-to-obstacles) such that ∇U always points away from obstacles and toward the goal, except exactly at the goal where ∇U = 0. They require knowledge of the exact configuration space and obstacle boundaries. They're more complex to compute than simple quadratic potentials, but they guarantee local-minimum-free convergence. They are a theoretical tool often used to prove convergence of navigation algorithms but less commonly used in practice compared to simple heuristic potentials."
-
-- question: "Explain why potential field methods are computationally efficient for real-time robot control, and describe the local-minimum problem and when it occurs."
-  type: short-answer
-  answer: "Potential fields are efficient because the control law is simple: compute U(q), take gradient -∇U, move in that direction. Gradient computation is O(n) for n degrees of freedom and typically parallelizable. No graph search, no sampling, no expensive planning — just local computation. This makes them ideal for reactive obstacle avoidance at control rates (100+ Hz). Local minima occur when attractive and repulsive forces balance away from the goal, creating a region where ∇U ≈ 0. This is most likely in narrow corridors, cul-de-sacs, or concave obstacle arrangements. The robot cannot escape without external intervention (random perturbation, backtracking, or global planner override). To handle this, practitioners either (1) use potential fields only for short-range reactive control combined with higher-level planning, (2) add randomization to escape minima, or (3) use navigation functions which theoretically eliminate minima but require more expensive computation."
   explanation: "This reflects the fundamental design trade-off in robotics: simple, fast local methods (potential fields) versus slower, complete global methods (RRT, PRM, grid-based A*). Modern systems typically layer them — global planner provides waypoints, local potential field controller reactively guides between waypoints while avoiding immediate obstacles. This hybrid approach gets computational speed of potential fields with the completeness of global planning."
 ```
 

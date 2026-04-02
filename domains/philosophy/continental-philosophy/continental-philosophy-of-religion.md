@@ -10,7 +10,7 @@ tags:
 - faith
 - continental-philosophy
 - theology
-stage: expert
+stage: advanced
 status: validated
 ---
 

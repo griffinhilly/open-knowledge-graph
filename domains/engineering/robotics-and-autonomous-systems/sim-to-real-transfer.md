@@ -35,36 +35,6 @@ Simulators are invaluable for robot learning because they enable fast, safe, che
     - "The real hardware has broken sensors"
     - "The learning algorithm (RL) is inappropriate for real robots"
   answer: 1
-  explanation: "This is the sim-to-real gap at scale. PyBullet models rigid body dynamics, friction, and contacts, but simplifies reality. Real friction depends on surface roughness, temperature, humidity; it's not a fixed coefficient. Real contacts are intermittent and unstable (objects slip, roll, tip unexpectedly). Real actuators have nonlinear saturation, delay (control loop latency), and hysteresis (backlash). A manipulation policy learned in simulation exploits these idealizations — it might depend on precise force magnitudes or timing that don't hold in reality. The 95%→30% collapse suggests the policy is brittle. Solving this requires either (1) making simulation more realistic, (2) randomizing simulation parameters, or (3) learning in reality with sim-assisted bootstrapping."
-
-- question: "Domain randomization trains a robot policy in simulation by randomizing friction μ ∈ [0.2, 1.0], object mass m ∈ [0.1, 1.0] kg, and sensor noise σ ∈ [0, 0.1] pixels uniformly at random. After training, the policy transfers to real hardware where the true friction is μ_real = 0.5, true mass is 0.3 kg, and noise is 0.05 pixels. Why does this policy transfer better than one trained with fixed parameters μ=0.5, m=0.3, σ=0.05?"
-  type: multiple-choice
-  options:
-    - "Randomization reduces overfitting because the network sees diverse examples"
-    - "Randomization makes the policy distribution-robust: it has seen the true parameters during training (as part of the random range) plus many perturbations, so it's robust to deviations. A fixed-parameter policy has learned brittle tricks specific to those parameters"
-    - "Randomization increases sample efficiency"
-    - "Randomization doesn't help; transfer success depends only on the real-world accuracy"
-  answer: 1
-  explanation: "Domain randomization works by broadening the training distribution. The policy is trained to handle friction anywhere in [0.2, 1.0], so it's forced to learn manipulation strategies that work across that range — e.g., using moderate grasping force that's safe for low friction and still effective for high friction. A fixed-parameter policy, learned with μ=0.5, might exploit that specific friction (e.g., use minimum force because friction alone holds the object) — a strategy that fails if real friction is slightly different. By the pigeonhole principle, if the randomization range includes the real parameters, the policy has implicitly been trained for that case. Moreover, randomization forces the policy to be robust (not just locally optimal), which generalizes better to any mismatch."
-
-- question: "System identification is the process of measuring or inferring real-world parameters (friction, mass, actuator delays) and updating the simulation to match. If you perfectly identified all real-world parameters and updated the simulator, would training on the updated simulator guarantee successful transfer with zero fine-tuning?"
-  type: multiple-choice
-  options:
-    - "Yes, perfect parameters means perfect simulation"
-    - "No, there are always unmodeled dynamics (complex contact mechanics, stick-slip behavior, sensor latencies) that system identification cannot fully capture"
-    - "Yes, but only if system identification is done with high precision (< 1% error)"
-    - "No, because real hardware will have new variations each time"
-  answer: 1
-  explanation: "Perfect parameter identification is impossible. System ID estimates friction from measured force and acceleration; measurement noise and model mismatch make estimation imperfect. More importantly, there are always unmodeled dynamics: hysteresis in the magnetic core of motors, vibration modes, complex contact transients, sensor quantization and latency. A simulator can never be exact. For this reason, even with excellent system ID, policies trained on the updated simulator often still benefit from some real-world fine-tuning. Domain randomization is more practical because it doesn't require identifying all parameters — it makes policies robust to unknown variations."
-
-- question: "After training a robot manipulation policy with heavy domain randomization, the policy is deployed on hardware. It works but is suboptimal (success rate 85% vs. the achievable 98%). Fine-tuning with RL on real data for 1,000 real interactions improves performance to 97%. What is the domain randomization doing and why is fine-tuning beneficial?"
-  type: true-false
-  answer: true
-  explanation: "Correct. Domain randomization gets the policy into a good region of the policy space (85% success) by being robust to distribution mismatch. Fine-tuning then exploits the specific real-world parameters to optimize locally within that region (97% success). This two-stage approach is practical: randomization avoids the massive sim-to-real gap (from 95% sim to 30% real becomes 95% sim to 85% real), fine-tuning uses relatively few real samples to converge to hardware-specific optimality. Randomization is like transferring to a new country knowing the language phonetically; fine-tuning is practicing to remove your accent."
-
-- question: "Explain the sim-to-real gap, domain randomization, and why this approach is more practical than trying to build perfectly realistic simulators."
-  type: short-answer
-  answer: "The sim-to-real gap is the performance drop when moving a policy from simulation to real hardware, caused by unmodeled dynamics (friction variations, contact instability, actuator delays, sensor noise) and simulation approximations that the learned policy exploits. Building a perfect simulator is intractable — there are always unmodeled effects. Domain randomization makes policies robust by training on diverse, randomized parameters: friction is random, masses vary, noise is added, delays vary. If real-world parameters fall within the randomized range, the policy generalizes. The policy learns robust strategies (not brittle tricks) because it cannot overfit to fixed parameters. Compared to perfect simulation, randomization is practical because it requires no detailed system identification; it's empirically proven to work; and it's easy to implement (just add noise). The cost is computational: training on 10x more diverse scenarios takes longer. But simulation is cheap, so this trade-off favors randomization."
   explanation: "Domain randomization is a major success story in applied robotics. Google, OpenAI, and others have published results where policies trained on heavily randomized simulation transfer to real hardware with high success rates on dexterous manipulation, navigation, and other tasks. The insight — that robustness to parameter variation is more important than parametric accuracy — has been validated empirically many times and has become standard practice."
 ```
 

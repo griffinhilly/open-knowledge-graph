@@ -47,31 +47,6 @@ Compute the Jacobian by hand for a 2-DOF planar arm: differentiate the forward k
     - "J = [∂x/∂θ₁, ∂x/∂θ₂; ∂y/∂θ₁, ∂y/∂θ₂] = [[-L₁·sin(θ₁) - L₂·sin(θ₁ + θ₂), -L₂·sin(θ₁ + θ₂)], [L₁·cos(θ₁) + L₂·cos(θ₁ + θ₂), L₂·cos(θ₁ + θ₂)]]"
     - "Options (a) and (c) are equivalent"
   answer: 3
-  explanation: "The Jacobian is the matrix of first partial derivatives of forward kinematics. ∂x/∂θ₁ = -L₁·sin(θ₁) - L₂·sin(θ₁ + θ₂), ∂x/∂θ₂ = -L₂·sin(θ₁ + θ₂), ∂y/∂θ₁ = L₁·cos(θ₁) + L₂·cos(θ₁ + θ₂), ∂y/∂θ₂ = L₂·cos(θ₁ + θ₂). This can be written in matrix form as shown in (a) or expressed as in (c). They are the same thing."
-
-- question: "A robot reaches a configuration where the determinant of its Jacobian becomes zero (det(J) = 0). At this singularity, the robot cannot achieve end-effector velocities in all directions, no matter how fast the joints move. The fundamental cause is:"
-  type: multiple-choice
-  options:
-    - "The actuators have reached their maximum torque and cannot produce faster motion"
-    - "A joint has reached its mechanical limit (joint angle or extension limit)"
-    - "The kinematic structure of the robot has momentarily lost a degree of freedom because multiple links have aligned or folded in a way that constrains motion"
-    - "Measurement noise in the joint sensors has corrupted the Jacobian calculation"
-  answer: 2
-  explanation: "A singularity is a structural loss of degrees of freedom due to the geometric configuration, not a limitation of the actuators or sensors. When links align (e.g., in an elbow-extended configuration of a planar arm), the robot can no longer move in certain Cartesian directions because the kinematic constraints prevent it. The rank of J drops below its maximum, meaning one or more directions in the output space become unachievable. This is geometry, not control or hardware."
-
-- question: "For velocity control, you need to compute joint velocities from a desired end-effector velocity: θ̇ = J⁻¹·v_ee. When the Jacobian is singular (det(J) = 0), this computation fails. The practical consequence is:"
-  type: multiple-choice
-  options:
-    - "The controller must wait until the singularity passes and then resume motion"
-    - "The joint velocities required become infinite or undefined, and no finite joint speeds can achieve the desired end-effector velocity"
-    - "The motion is instead solved numerically using the pseudo-inverse, which computes the best achievable end-effector velocity given the joint speed limits"
-    - "Both (b) and (c): singularities create mathematical ill-conditioning (requiring pseudo-inverse) and practical constraints (finite joint speeds cannot overcome a true singularity)"
-  answer: 3
-  explanation: "At a true singularity, some end-effector directions are kinematically unachievable regardless of joint speeds — no finite solution exists. The pseudo-inverse J⁺ = Jᵀ(JJᵀ)⁻¹ computes the best-effort solution (minimizing joint velocities subject to constraints), but it cannot violate fundamental kinematic constraints. Practically, motion planning must detect and avoid singularities, or handle them explicitly (e.g., by modifying the desired velocity to a feasible direction)."
-
-- question: "The condition number of the Jacobian, cond(J) = σ_max / σ_min (ratio of largest to smallest singular values), is low when the Jacobian is well-conditioned and high when it is ill-conditioned. Why does a high condition number pose problems for velocity control?"
-  type: short-answer
-  answer: "A high condition number means the Jacobian is nearly singular — one or more singular values are very small. When computing joint velocities θ̇ = J⁻¹ · v_ee, a nearly singular J amplifies small changes in v_ee into large changes in θ̇. If v_ee is specified with measurement noise or rounding error, J⁻¹ magnifies this error by a factor of cond(J), resulting in large unintended joint velocities. Additionally, near singularities, small changes in end-effector position require disproportionately large joint motions, saturating joint speed limits and making control jerky. Well-conditioned Jacobians (cond(J) ≈ 1-10) are highly preferred."
   explanation: "Near-singular configurations are almost as problematic as true singularities from a practical control perspective. This is why motion planners include singularity-avoidance heuristics: they maintain the Jacobian well-conditioned by modifying reference trajectories to avoid configurations with high condition numbers."
 
 - question: "A 6-DOF robot arm is commanded with a desired end-effector velocity [v_x, v_y, v_z, ω_x, ω_y, ω_z]ᵀ (3 linear + 3 angular velocity components). The Jacobian is 6×6. If this Jacobian is singular, which of the following must be true?"

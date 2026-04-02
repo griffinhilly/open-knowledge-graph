@@ -28,42 +28,48 @@ Albert Einstein's special theory of relativity (1905) and general theory of rela
 
 ```yaml
 
-- question: "What is the primary significance of this topic in its historical context?"
+- question: "What was the 'Michelson-Morley experiment' (1887), and why did its result create a crisis for classical physics?"
+  type: short-answer
+  answer: "The Michelson-Morley experiment attempted to detect the 'luminiferous aether' -- the medium through which light waves were thought to propagate, analogous to air for sound. If the aether existed and Earth moved through it, light sent in different directions should show slightly different speeds due to the 'aether wind.' The experiment used an interferometer to detect this difference with high precision. It found no difference -- light speed appeared the same in all directions. This was deeply troubling because the aether was considered necessary for electromagnetic wave propagation. Various patches were proposed (Lorentz contraction, aether drag), but they were ad hoc. Einstein's special relativity dissolved the problem by abandoning the aether entirely: light has a constant speed in all inertial reference frames by postulate."
+  explanation: "The Michelson-Morley result did not directly cause special relativity -- Einstein later said he was barely aware of it. But it illustrates the empirical pressure that made the aether problematic and shows how conceptual revolutions often respond to accumulated anomalies."
+
+- question: "Special relativity's most famous equation, E=mc2, implies what physical relationship?"
   type: multiple-choice
   options:
-    - "It represents a major shift in how society was organized or understood"
-    - "It was a localized event with no broader implications"
-    - "It reversed previous progress and caused decline"
-    - "It was primarily motivated by individual ambition rather than systemic forces"
+    - "Energy and mass are different forms of the same thing -- mass can be converted to energy and vice versa, with c2 as the conversion factor"
+    - "An object moving at the speed of light would have infinite kinetic energy"
+    - "The energy of a photon equals its mass times the square of its frequency"
+    - "Matter and antimatter annihilate according to conservation of mass"
   answer: 0
-  explanation: "This topic represents an important transformation in historical understanding. Understanding its significance requires recognizing the broader context and systemic factors involved, not merely individual actions or local effects."
+  explanation: "E=mc2 states that mass is a form of energy and energy has equivalent mass. The factor c2 (about 9x1016 m2/s2) means a tiny amount of mass corresponds to enormous energy. This is why nuclear reactions release so much energy: a small fraction of nuclear mass converts to energy. It also means any object at rest has 'rest energy' proportional to its mass. The equation unified mass and energy as aspects of a single quantity, overturning classical mechanics' assumption that they were independently conserved."
 
-- question: "How did this development reflect or transform the economic and social systems of its time?"
+- question: "How did Einstein's general relativity reconceive gravity compared to Newton's theory?"
   type: short-answer
-  answer: "This topic both reflected existing systems and transformed them. Understanding requires analysis of both continuities (what persisted from before) and changes (what was new or different)."
-  explanation: "Historical analysis requires attention to both change and continuity. This topic is significant because it represents a meaningful transformation in how people lived, worked, and organized themselves socially and economically."
+  answer: "Newton conceived gravity as a force acting at a distance -- massive objects pull each other instantaneously across space. General relativity (1916) replaced this: massive objects curve spacetime geometry, and what we perceive as gravitational attraction is actually objects following the straightest possible paths (geodesics) through curved spacetime. The Earth orbits the Sun not because the Sun pulls it but because the Sun's mass curves spacetime, and Earth's orbit is the straightest path through that geometry. This reconception made gravity a geometric property of spacetime rather than a force, unified gravity with the structure of space and time, and predicted phenomena impossible in Newtonian gravity: gravitational lensing of light, gravitational time dilation, gravitational waves, and black holes."
+  explanation: "General relativity's conceptual departure from Newton is profound: gravity is not a force but the curvature of the arena in which forces act. This required 10 years of mathematical development after special relativity, involving entirely new mathematical tools (tensor calculus, Riemannian geometry)."
 
-- question: "What were the intended and unintended consequences of this development?"
-  type: short-answer
-  answer: "Developments typically had multiple consequences, some intended and some not. Some benefited certain groups while harming others. Understanding requires attention to distributional effects."
-  explanation: "Major historical developments rarely have purely positive or negative effects. They typically benefited some groups (those with power and resources to shape the development) while harming others (those displaced or exploited). Mature historical analysis recognizes these complexities."
+- question: "Arthur Eddington's 1919 solar eclipse expedition confirmed general relativity by observing that light from distant stars was bent by the Sun's gravity."
+  type: true-false
+  answer: true
+  explanation: "General relativity predicted that light passing near a massive object would be deflected by twice the amount predicted by Newtonian gravity. During a solar eclipse, stars near the Sun become visible; their apparent positions (shifted by the Sun's gravitational lensing) can be measured. Eddington's 1919 expedition to Principe Island measured this deflection and found results consistent with Einstein's prediction. The result was announced publicly in London, making Einstein internationally famous. Later analysis has found Eddington's data had significant uncertainties, but subsequent eclipse expeditions confirmed the prediction. The 1919 result was nevertheless scientifically important and symbolically transformative."
 
-- question: "How does understanding this topic help explain contemporary conditions?"
+- question: "What phenomena predicted by general relativity have been experimentally confirmed in the 21st century?"
   type: short-answer
-  answer: "History provides context for present conditions. This topic illuminates current patterns of inequality, institutions, technologies, or beliefs. Understanding origins helps understand persistence and possibilities for change."
-  explanation: "The goal of historical study is partly explanatory — understanding why the world is as it is — and partly emancipatory — understanding that current conditions are human-created and thus changeable."
-
-- question: "What sources of evidence would historians use to study this topic, and what are their limitations?"
-  type: short-answer
-  answer: "Historians use diverse sources (documents, artifacts, oral histories, material culture). Each source type has limitations: documents may be biased; artifacts may be misinterpreted; oral histories may be incomplete; material culture may be fragmentary. Understanding requires integrating multiple sources."
-  explanation: "Historical knowledge is constructed from limited and imperfect sources. Understanding the evidence base helps recognize both what we can confidently know and what remains uncertain or debated among historians."
+  answer: "General relativity has been confirmed repeatedly with increasing precision. Gravitational lensing (light deflection) has been extensively observed and used as a tool for mapping dark matter. Gravitational time dilation -- clocks run slower in stronger gravitational fields -- is large enough to affect GPS satellites, which must correct for it to maintain accuracy. Gravitational waves -- ripples in spacetime caused by accelerating masses -- were directly detected by LIGO in 2015 from colliding black holes, confirmed the existence of binary black hole systems, and opened gravitational wave astronomy. The Event Horizon Telescope imaged the shadow of the black hole in M87 in 2019 and Sagittarius A* (the Milky Way's central black hole) in 2022, confirming the existence of black holes predicted by general relativity."
+  explanation: "LIGO's detection of gravitational waves was among the most precise measurements in scientific history -- it detected a change in detector arm length of 10-18 meters (smaller than a proton). This technological achievement validated a prediction Einstein himself doubted would ever be testable."
 
 ```
 
 ## Explainer
 
-Albert Einstein's special theory of relativity (1905) and general theory of relativity (1916) fundamentally restructured physics and our understanding of space, time, and gravity. Special relativity posited that the speed of light is constant in all reference frames and derived the equivalence of mass and energy (E=mc²), time dilation, and length contraction. General relativity reconceived gravity not as a force (as Newton had) but as the curvature of spacetime caused by massive objects. These theories predicted phenomena (gravitational lensing, gravitational time dilation, black holes, gravitational waves) that seemed bizarre from a Newtonian perspective but have been confirmed by experiment. Relativity overturned intuitions about absolute time and space, unified gravity with spacetime geometry, and opened new frontiers in cosmology. It also illustrated the power of elegant mathematical description to reveal deep truths — and showed that those truths could be radically counterintuitive.
+Albert Einstein published four papers in 1905 -- his "annus mirabilis" -- that would reshape physics: on Brownian motion, on the photoelectric effect (for which he won the Nobel Prize), on special relativity, and on mass-energy equivalence. Ten years later, he completed general relativity, his theory of gravity as spacetime curvature. Together, these theories overturned the Newtonian framework that had organized physics for two centuries.
 
-This topic emerged from and contributed to broader transformations in how societies organized production, distributed resources, and understood themselves. Understanding it requires attention to the material conditions (what resources were available, how were they used), the ideas and beliefs that shaped decisions, the institutions that structured activities, and the power relationships that determined who benefited and who bore costs.
+Special relativity (1905) began with two postulates: the laws of physics are the same in all inertial (non-accelerating) reference frames, and the speed of light in vacuum is constant regardless of the motion of source or observer. From these simple premises, consequences followed that violated all common intuition: time passes more slowly for moving objects (time dilation); objects contract along their direction of motion (length contraction); two observers moving relative to each other disagree about whether spatially separated events are simultaneous; and mass and energy are equivalent, related by E=mc2.
 
-The significance of this topic extends beyond its immediate historical context. The patterns, institutions, and ideas developed during this period shaped subsequent developments. Understanding the origins of modern institutions (markets, nation-states, industrial organization) requires studying how they emerged in specific historical contexts. Understanding contemporary inequalities requires tracing their historical origins. Understanding possibilities for change requires recognizing that current systems are human creations, not natural or inevitable, and thus subject to transformation.
+The empirical background included the Michelson-Morley experiment (1887), which failed to detect the "luminiferous aether" through which light was thought to propagate, and problems with electromagnetic theory at high velocities. Einstein's solution was not to patch classical mechanics but to abandon its foundations: absolute space and time were replaced by spacetime, in which measurements of length and duration depend on the observer's motion.
+
+General relativity (1916) extended this program to non-inertial (accelerating) reference frames and gravity. Einstein's key insight was the equivalence principle: a person in a closed box cannot distinguish gravitational pull from acceleration. This led to the geometric conception: massive objects curve the four-dimensional spacetime fabric; what we experience as gravity is objects following geodesics (locally straight paths) through curved spacetime. The mathematics required entirely new tools -- tensor calculus, Riemannian geometry -- that Einstein had to learn from his mathematician friend Marcel Grossmann.
+
+General relativity predicted phenomena without precedent: light bending near massive objects, gravitational time dilation (clocks tick slower in strong gravity), frame-dragging (rotating masses drag spacetime around them), gravitational waves, and the existence of black holes (regions where spacetime curvature is so extreme that nothing can escape). Arthur Eddington's 1919 eclipse observations confirmed light deflection by the Sun, launching Einstein to international fame.
+
+Subsequent confirmations have been increasingly precise. GPS satellites require general relativistic corrections to maintain accuracy. LIGO detected gravitational waves from colliding black holes in 2015 -- a measurement of extraordinary precision, detecting spacetime distortions smaller than a proton. The Event Horizon Telescope imaged black holes directly in 2019 and 2022. General relativity has passed every experimental test to date, making it arguably the most precisely verified physical theory in history -- while remaining fundamentally incompatible with quantum mechanics, the other pillar of modern physics.

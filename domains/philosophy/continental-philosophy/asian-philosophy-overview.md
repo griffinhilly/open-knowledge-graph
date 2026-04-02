@@ -10,7 +10,7 @@ tags:
 - Confucianism
 - Taoism
 - metaphysics
-stage: expert
+stage: advanced
 status: validated
 ---
 

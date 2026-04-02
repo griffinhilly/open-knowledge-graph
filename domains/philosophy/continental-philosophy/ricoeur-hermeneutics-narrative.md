@@ -12,7 +12,7 @@ tags:
 - hermeneutics
 - narrative
 - interpretation
-stage: expert
+stage: advanced
 status: validated
 ---
 

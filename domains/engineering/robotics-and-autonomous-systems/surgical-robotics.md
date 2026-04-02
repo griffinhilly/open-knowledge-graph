@@ -36,31 +36,6 @@ Surgical robots extend human capability by filtering hand tremor, enabling teleo
     - "It eliminates the need for video display of the surgical field"
     - "It allows the robot to operate autonomously without surgeon input"
   answer: 1
-  explanation: "Without haptic feedback, the surgeon is essentially 'blind' to the physical forces being applied. They can see the tool through the camera, but cannot feel when tissue begins to tear, when they've reached the correct anatomical plane, or how much pressure they are applying. Excessive force causes iatrogenic damage; insufficient force prolongs surgery. Haptic feedback recreates the tactile sensation the surgeon would have if their hands were directly on the patient — this sensory loop is essential for safe, precise manipulation of delicate structures like nerves and blood vessels."
-
-- question: "A surgical robot has a 100 ms round-trip latency (command sent to robot, force feedback received by surgeon). The surgeon perceives this as noticeable control lag. To maintain surgeon transparency, most surgical systems target latencies below 300-400 ms. Why is this latency budget so critical?"
-  type: multiple-choice
-  options:
-    - "High latency allows the surgical field to shift without the surgeon noticing, reducing the need for visual tracking"
-    - "High latency prevents the surgeon's natural compensatory reflexes from stabilizing the system, causing oscillation and overshoot during fine manipulation"
-    - "The robot can move to invalid positions without the surgeon being able to correct them in real time"
-    - "Surgical precision improves with higher latency because it forces the surgeon to move more slowly"
-  answer: 1
-  explanation: "The human sensorimotor system is a feedback control loop: the surgeon commands a movement, observes the result (visually and tactilely), and adjusts. If the feedback delay exceeds the bandwidth of human reflexive control (roughly 2-3 Hz or 300-400 ms), the surgeon's stabilizing reflexes become destabilizing — they over-correct for motions they didn't directly cause, producing oscillation and fine-motor instability. Below 300 ms, the surgeon's nervous system compensates naturally; above it, the system feels 'slippery' and unsafe, making precision manipulation extremely difficult or impossible."
-
-- question: "Surgical robots require force-limiting to prevent accidental tissue trauma. A force-limiting mechanism prevents the robot from exerting more than a safe threshold force (e.g., 5-10 N for delicate nerve tissue). This is an example of passive safety."
-  type: true-false
-  answer: true
-  explanation: "Correct. Passive safety mechanisms protect the patient even if the robot or control system fails — they do not rely on software, sensing, or active control to function. A mechanical spring that gives way at a threshold force, or a slip-coupling that disengages when torque exceeds a limit, will prevent over-force whether or not the computer is working correctly. Passive safety is essential in surgical robotics because the cost of a control system failure is patient harm."
-
-- question: "Teleoperated surgical robots eliminate the need for the surgeon to be in the operating room, which is the primary advantage of surgical robotics."
-  type: true-false
-  answer: false
-  explanation: "Remote teleoperation is a potential capability, but not the primary advantage in current surgical robots like the da Vinci system. The primary benefits are: (1) filtering of hand tremor, enabling surgery far more precise than the human hand alone; (2) scaled motion control (small hand movements produce proportionally smaller robot movements, enabling fine manipulation); (3) magnified visualization (7-10x magnification of the surgical field); and (4) ergonomic repositioning (the surgeon can sit at a console rather than standing at the operating table for hours). Teleoperation capability is valuable for remote surgery, but most procedures still happen with the surgeon and robot in the same hospital."
-
-- question: "Describe the technical and clinical requirements that make surgical robotics different from industrial robotic manipulation in manufacturing."
-  type: short-answer
-  answer: "Industrial robots work in structured, predictable environments with fixed, known objects and can operate for long periods with minimal error tolerance to product quality; surgical robots work in unpredictable biological tissue with high variability in anatomy, vasculature, and tissue properties between patients. Clinical requirements include: (1) real-time haptic feedback for force sensing and control; (2) low latency (<300-400 ms) for natural surgeon control; (3) passive safety mechanisms (force-limiting) independent of software; (4) sterility and reliability standards far exceeding industrial robots (FDA Class III device approval requiring clinical trials); (5) graceful handling of unexpected events (bleeding, tissue tearing, anatomical variation); and (6) extensive validation and testing before use on patients, rather than iterative improvement through field deployment. Industrial robots prioritize speed and repeatability; surgical robots prioritize safety, precision in variable environments, and transparency of control."
   explanation: "This distinction clarifies why surgical robotics is a specialized subfield with unique solutions rather than a straightforward application of industrial robot technology. The differences are fundamental: the environment is unpredictable, the consequences of failure are clinical harm, and the operator (surgeon) requires real-time sensory feedback to maintain control and safety."
 ```
 

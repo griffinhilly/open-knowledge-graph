@@ -39,41 +39,6 @@ A perception pipeline converts raw sensor data into actionable high-level scene 
     - "Camera detectors are fundamentally unreliable; replace the camera with lidar"
     - "The detector needs real-time processing; the failure is a computational speed issue"
   answer: 1
-  explanation: "Deep learning models learn to recognize patterns in training data. If training data only included well-lit scenes, the model learned lighting-specific features and fails on novel lighting conditions — this is the classic domain generalization problem. The solution is multi-faceted: (1) train on diverse lighting (dawn, dusk, rain, night), (2) use data augmentation (synthetic shadows, glare, saturation shifts), (3) deploy sensor fusion (lidar and radar provide detections independent of lighting to provide fallback when camera fails), (4) monitor detection confidence and trigger safe behaviors when confidence drops. This is why multi-sensor systems are standard in autonomous vehicles — no single sensor works in all conditions."
-
-- question: "A lidar-based 3D object detector produces point clouds with 100,000 points per frame at 20 Hz. Processing all points directly would be computationally prohibitive. Modern pipelines first downsample the point cloud (keep only 10,000 points) then run detection. What is the tradeoff?"
-  type: multiple-choice
-  options:
-    - "Downsampling loses information about small objects; detection of small pedestrians or cyclists becomes unreliable"
-    - "Downsampling has no tradeoff; it is a pure improvement in both speed and accuracy"
-    - "Downsampling increases false positives by adding noise"
-    - "Downsampling is only needed for old hardware; modern GPUs can process 100,000 points in real-time"
-  answer: 0
-  explanation: "Downsampling (voxelization) aggregates multiple points into fewer voxels, reducing computational cost but also losing spatial resolution. A small pedestrian whose point cloud representation spans only 5-10 points might disappear entirely after voxelization — merged into background or eliminated. This is a fundamental information-loss tradeoff: you must choose voxel size based on the smallest object you need to detect. Small voxels preserve detail but are slow; large voxels are fast but miss small objects. Modern pipelines use adaptive approaches: region proposal networks identify candidate regions (faster), then apply detailed processing only to those regions. This avoids processing all space equally."
-
-- question: "A tracking module maintains identities of detected objects across frames — the car detected in frame 1 at (100m, 5m) is the 'same' car in frame 2 at (105m, 5.1m). What makes tracking necessary rather than just detecting independently in each frame?"
-  type: multiple-choice
-  options:
-    - "Tracking provides velocity and acceleration estimates by differentiating position over time, which are essential for predicting where the object will be in future frames and for planning collision avoidance"
-    - "Tracking is cosmetic; independent detection per frame is sufficient for autonomous driving"
-    - "Tracking is needed only for safety-critical systems; consumer systems can skip it"
-    - "Tracking was important for old systems but is obsolete with modern deep learning detectors"
-  answer: 0
-  explanation: "Independent frame-by-frame detection provides position snapshots but not motion. A vehicle at 100m distance 0.1 seconds ago and 102m distance now has velocity ~20 m/s. Knowing this velocity is crucial: the planner needs to predict 'in 2 seconds, this vehicle will be at roughly 140m', and planning avoidance accordingly. Without tracking and velocity estimates, the planner can only reason about the current snapshot, missing oncoming hazards. Tracking also smooths noisy detection: a detector might jitter a car's position by ±0.5m between frames. A tracker can reject outliers and smooth the trajectory. Finally, tracking provides object identities, which is needed for higher-level reasoning (did that pedestrian 'reappear' from behind an occlusion or is it a new person?) — important for predicting behavior."
-
-- question: "An autonomous vehicle's perception system detects an object with 98% confidence that it is a car. Should the vehicle treat it as a confirmed car for planning purposes?"
-  type: multiple-choice
-  options:
-    - "Yes, 98% confidence is very high, so the vehicle should assume it is definitely a car"
-    - "No — confidence is epistemic uncertainty (uncertainty about classification). The vehicle should plan assuming it might be something else (a motorcycle, debris, a person); 98% confidence means 2% it's wrong, which at 20 m/s approach speed could be a collision in 0.5 seconds"
-    - "Confidence levels are meaningless for planning; just detect objects and treat all equally"
-    - "Yes, but only if the object is moving; stationary objects with 98% confidence are still dangerous"
-  answer: 1
-  explanation: "A 98% confidence detection still has a 2% failure rate — if you encounter 50 objects at this confidence level, one will be misclassified. If a motorcycle is misclassified as 'car' (different handling dynamics) or debris is misclassified as 'obstacle' (unnecessary braking), the consequences are different. Planning should account for classification uncertainty: treat high-confidence detections more lightly (assume the label is correct) but still maintain safe margins, and treat low-confidence detections more conservatively (assume worst-case). This is why confidence scores are propagated through the pipeline — downstream modules need to know not just what was detected but how certain the detection is."
-
-- question: "Explain why multi-sensor fusion (combining cameras, lidar, and radar) is more reliable than any single sensor, and describe how a fusion algorithm might combine detections from these three sensors into a single object list."
-  type: short-answer
-  answer: "Each sensor modality has complementary strengths and failure modes. Cameras are blind at night and in fog, but excel at semantic classification and long-range detection. Lidar provides precise 3D structure and range but is blinded by rain and fog, and has lower angular resolution. Radar penetrates all weather and provides velocity directly but struggles with small objects and has poor angular resolution. No single sensor is universally superior. Sensor fusion (e.g., using an extended Kalman filter or neural network) combines these complementary signals: a camera detection with low confidence can be confirmed or rejected by lidar/radar detections; a radar detection with poor angular resolution can be precisely localized using camera/lidar. A fusion algorithm might work by: (1) running each detector independently, producing object lists with confidence and uncertainty; (2) matching detections across sensors (are these the same object?); (3) combining matched detections (fusing position, velocity, class confidence); (4) outputting a fused object list. When one sensor fails (e.g., camera at night), the other sensors provide fallback detections. Fusion is more robust than any single sensor because failures are typically uncorrelated — all three don't fail simultaneously."
   explanation: "This design choice directly addresses the reliability requirements of autonomous systems. Single-sensor designs require that sensor to work in all conditions; multi-sensor systems can tolerate individual sensor failures. This is why the autonomous vehicle industry converged on camera + lidar + radar as the standard sensor suite."
 ```
 

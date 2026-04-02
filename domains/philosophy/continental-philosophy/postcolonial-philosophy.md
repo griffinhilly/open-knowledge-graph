@@ -10,7 +10,7 @@ tags:
 - colonialism
 - critique
 - power
-stage: expert
+stage: advanced
 status: validated
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Latin-American-philosophy
 - liberation
 - colonialism
-stage: expert
+stage: advanced
 status: validated
 ---
 

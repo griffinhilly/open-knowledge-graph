@@ -33,36 +33,6 @@ Collaborative robots (cobots) work alongside humans in shared workspaces, requir
     - "Yes, if the force limit is combined with slow speeds (< 0.5 m/s)"
     - "No, because 80 N is arbitrary and different body parts have different injury thresholds"
   answer: 1
-  explanation: "Force limiting alone is insufficient. A robot arm with mass and velocity has momentum. When power is cut, it continues moving and applying force for several milliseconds while decelerating due to friction and damping. Total force applied = F_contact + F_momentum. For 1 kg arm moving at 1 m/s, momentum p = 1 kg⋅m/s, and if contact time is 10 ms, the momentum applies ~100 N additional force. Total injury potential is higher than static force limits suggest. Effective safety combines force limits (stop when forces get too high) with speed limits (reduce momentum available) and soft materials (spread force over larger contact area, reducing peak pressure). These combined measures prevent serious injury. Pure force limiting without speed/momentum control is dangerously incomplete."
-
-- question: "A cobot learns to perform assembly tasks from human demonstration. The human shows the robot how to insert a part by guiding the robot's end-effector through the insertion. The robot records these motions and learns a policy that reproduces similar motions. However, the robot rigidly follows the recorded path, ignoring variations in part placement (parts arrive at slightly different heights). Why is this problematic and what control strategy would improve generalization?"
-  type: multiple-choice
-  options:
-    - "The robot should learn multiple paths and choose randomly between them"
-    - "The robot should use impedance control: instead of strictly following position, allow forces to apply and adjust position based on contact. If the part resists insertion, forces feedback, and the robot adapts (compliance) rather than pushing harder"
-    - "The robot should use vision feedback to detect part position and replan"
-    - "The problem is with imitation learning; the robot should use only classical motion planning"
-  answer: 1
-  explanation: "Stiff position control (teach-playback) is brittle — it works only if conditions exactly match the demonstration. Impedance control (also called compliance or force control) treats the robot as a virtual spring: the robot has a desired position (from the learned task) but applies force proportional to position error: F = K(x_desired - x_actual). If the part is lower than expected, the robot's end-effector contacts it sooner, creating feedback force that modulates motion. The robot naturally adapts to variations while still pursuing the learned task. This is why assembly robots use impedance control — it makes the robot reactive and forgiving of variation, mimicking human compliance (when a human inserts a part and feels resistance, they adapt, not rigidly push)."
-
-- question: "A robot is trained to predict human gaze direction to anticipate what the human will touch next, enabling the robot to move out of the way or prepare to assist. This prediction reduces collision risk and improves task coordination. However, predicting human intent from limited cues (gaze alone) is unreliable. What is the design consequence?"
-  type: multiple-choice
-  options:
-    - "The robot should not attempt intent prediction; it's too risky"
-    - "The robot should predict intent but be conservative: if unsure, assume the human will reach toward the robot, and move away proactively"
-    - "The robot should predict intent and trust the prediction; false positives are acceptable"
-    - "Intent prediction is impossible and should be replaced with communication-based coordination"
-  answer: 1
-  explanation: "Intent prediction is valuable but imperfect. Conservative design (false-positive bias) is safer: if prediction is uncertain about human intent, assume the worst (human moving toward robot) and move away. This avoids collisions at the cost of over-reactivity (unnecessary moves). Trusting predictions blindly is risky — false negatives (failing to predict a collision) can cause injury. In safety-critical HRI, conservative bias is standard: when unsure, prioritize safety over efficiency. This is similar to defensive driving — assume the worst and you're rarely surprised."
-
-- question: "In human-robot collaboration, what trade-off exists between robot speed and safety, and how do standards like ISO/TS 15066 address this?"
-  type: true-false
-  answer: true
-  explanation: "Correct. Faster robots are more efficient but carry more energy and momentum, creating injury risk if collisions occur. ISO/TS 15066 specifies power and force limits based on robot velocity and contact area. Lower-speed collaborative zones allow higher forces because momentum is lower. Barrier-free collaborative robots (working in the same space without guards) must operate slowly enough that impact force is within safe limits. This couples velocity directly to safety limits. Designers choose operating speed based on the required throughput and acceptable safety margin."
-
-- question: "Explain the key safety requirements for collaborative robots and why traditional industrial robot safety standards (fenced areas, interlocks) are insufficient for collaborative workspaces."
-  type: short-answer
-  answer: "Traditional industrial robots are caged because they are stiff, fast, and heavy — collisions cause serious injury. Cobots need to share workspaces with humans, so physical barriers are not feasible. Safety is achieved through: (1) Force/torque limiting — bounded interaction forces prevent injury, (2) Speed limiting in collaborative zones — reduces momentum and impact energy, (3) Soft materials — distribute contact force over larger area, reducing peak pressure, (4) Compliant control (impedance, force-control) — robots yield to contact rather than pushing harder, (5) Monitoring and stops — detect collisions and stop rapidly, (6) Design for safety — accessible emergency stops, clear operational modes. Traditional standards assume the robot cannot reach humans (fence + interlocks); collaborative standards assume contact can occur and design the robot's interaction forces to be safe (ISO/TS 15066: max 220 N force on human hand, max 140 W power). This requires active control and mechanical design, not just barriers."
   explanation: "This shift from physical separation to force-limited interaction is why collaborative robots are a distinct category. Traditional industrial arms can be 500 N impact forces; cobots are designed to be <220 N. This changes hardware (lighter, compliant designs), software (force control loops, compliance), and operational procedures (speed limits, no hard tools). The safety model is fundamentally different — prevention of injury through controlled interaction, not prevention of contact through physical barriers."
 ```
 

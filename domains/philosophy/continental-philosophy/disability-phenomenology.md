@@ -12,7 +12,7 @@ tags:
 - phenomenology
 - embodiment
 - social-model
-stage: expert
+stage: advanced
 status: validated
 ---
 

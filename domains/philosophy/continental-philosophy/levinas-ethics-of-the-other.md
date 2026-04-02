@@ -10,7 +10,7 @@ tags:
 - ethics
 - other
 - responsibility
-stage: expert
+stage: advanced
 status: validated
 ---
 
