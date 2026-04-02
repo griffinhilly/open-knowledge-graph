@@ -362,6 +362,41 @@ def main():
         cycle_str = " -> ".join(cycle)
         errors.append(f"  ERROR  Cycle detected: {cycle_str}")
 
+    # Course-stage audit: find courses staged below their cross-course prereqs
+    if not quick:
+        STAGE_RANK = {s: i for i, s in enumerate(["pre-formal", "concrete-operations",
+                      "abstract-reasoning", "formal-systems", "advanced", "expert"])}
+        course_stages = {}
+        for domain_dir2 in DOMAINS_DIR.iterdir():
+            if not domain_dir2.is_dir():
+                continue
+            yml2 = domain_dir2 / "_domain.yml"
+            if yml2.exists():
+                ydata = yaml.safe_load(yml2.read_text(encoding="utf-8"))
+                for c in ydata.get("courses", []):
+                    course_stages[c["id"]] = c.get("stage", "unknown")
+
+        for cid, cstage in course_stages.items():
+            crank = STAGE_RANK.get(cstage, -1)
+            if crank < 0:
+                continue
+            prereq_ranks = []
+            for tid, data in all_data.items():
+                if data.get("course") != cid:
+                    continue
+                for p in (data.get("prerequisites") or []):
+                    pid = p.get("id", "") if isinstance(p, dict) else str(p)
+                    if pid in all_data and all_data[pid].get("course") != cid:
+                        pr = STAGE_RANK.get(all_data[pid].get("stage", ""), -1)
+                        if pr >= 0:
+                            prereq_ranks.append(pr)
+            if len(prereq_ranks) >= 3:
+                prereq_ranks.sort()
+                median = prereq_ranks[len(prereq_ranks) // 2]
+                if median > crank:
+                    stage_names = {v: k for k, v in STAGE_RANK.items()}
+                    warnings.append(f"  WARN   Course '{cid}' staged at {cstage} but median cross-course prereq is {stage_names[median]}")
+
     # Report
     print(f"  Scanned {len(topic_files)} files, {len(all_topics)} valid topics")
     if not quick:

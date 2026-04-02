@@ -302,7 +302,15 @@ def compute_depth(nodes, edges):
 
 
 def compute_course_depths(nodes, edges, course_ids):
-    """Within-course depth for every node. Returns (depth_map, course_max_depth)."""
+    """Within-course depth for every node, adjusted for cross-course prereqs.
+
+    Topics whose prereqs are all in other courses would otherwise get depth 0
+    (appearing at the top of their course). We fix this by computing domain-wide
+    depth first, then using it as a floor for within-course depth.
+    """
+    # Step 1: domain-wide depth (all edges, all nodes)
+    global_depth = compute_depth(nodes, edges)
+
     course_nodes = defaultdict(set)
     for nid, node in nodes.items():
         course_nodes[node["course"]].add(nid)
@@ -322,6 +330,20 @@ def compute_course_depths(nodes, edges, course_ids):
             continue
         cnodes = {nid: nodes[nid] for nid in cnids}
         cdepth = compute_depth(cnodes, course_edges[cid])
+
+        # Step 2: for topics with cross-course prereqs, use global depth
+        # to set a minimum depth within the course layout.
+        # Find the minimum global depth among course roots (within-course depth 0).
+        root_globals = [global_depth.get(nid, 0) for nid, d in cdepth.items() if d == 0]
+        min_root_global = min(root_globals) if root_globals else 0
+
+        for nid in cdepth:
+            gd = global_depth.get(nid, 0)
+            # Offset: how much deeper is this topic globally vs the shallowest root?
+            global_offset = gd - min_root_global
+            # Use whichever is larger: within-course depth or global-offset depth
+            cdepth[nid] = max(cdepth[nid], global_offset)
+
         depth.update(cdepth)
         course_max[cid] = max(cdepth.values()) if cdepth else 0
 
