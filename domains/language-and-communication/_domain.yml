@@ -13,7 +13,7 @@ courses:
   stage: abstract-reasoning
 - id: linguistics
   title: Linguistics
-  stage: formal-systems
+  stage: advanced
 - id: public-speaking
   title: Public Speaking
   stage: formal-systems

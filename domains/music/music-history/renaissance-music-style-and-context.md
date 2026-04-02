@@ -14,7 +14,7 @@ tags:
 - humanism
 - printing
 - secular
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

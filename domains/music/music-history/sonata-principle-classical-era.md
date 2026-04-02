@@ -15,7 +15,7 @@ tags:
 - structure
 - classical
 - harmony
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Sonata Principle in the Classical Era

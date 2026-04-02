@@ -5,7 +5,7 @@ description: The study of human societies across time, from earliest civilizatio
 courses:
 - id: historical-methods
   title: Historical Methods
-  stage: formal-systems
+  stage: advanced
 - id: ancient-civilizations
   title: Ancient Civilizations
   stage: formal-systems

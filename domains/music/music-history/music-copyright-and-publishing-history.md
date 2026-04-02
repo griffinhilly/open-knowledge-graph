@@ -14,7 +14,7 @@ tags:
 - economics
 - distribution
 - history
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

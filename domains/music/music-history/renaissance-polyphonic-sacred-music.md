@@ -14,7 +14,7 @@ tags:
 - sacred music
 - polyphony
 - vocal
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

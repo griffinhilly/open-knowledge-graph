@@ -14,7 +14,7 @@ tags:
 - periodization
 - eras
 - chronology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

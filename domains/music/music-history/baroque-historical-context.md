@@ -15,7 +15,7 @@ tags:
 - tonality
 - continuo
 - drama
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

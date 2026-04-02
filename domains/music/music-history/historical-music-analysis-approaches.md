@@ -14,7 +14,7 @@ tags:
 - analysis
 - methodology
 - interpretation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Historical Music Analysis Approaches

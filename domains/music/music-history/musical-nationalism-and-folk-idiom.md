@@ -14,7 +14,7 @@ tags:
 - romantic
 - cultural-identity
 - 19th-century
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

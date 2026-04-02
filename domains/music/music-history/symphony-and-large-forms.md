@@ -17,7 +17,7 @@ tags:
 - concerto
 - large-forms
 - instrumental-music
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

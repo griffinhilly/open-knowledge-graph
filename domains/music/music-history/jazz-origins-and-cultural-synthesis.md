@@ -16,7 +16,7 @@ tags:
 - blues
 - improvisation
 - synthesis
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Jazz Origins and Cultural Synthesis

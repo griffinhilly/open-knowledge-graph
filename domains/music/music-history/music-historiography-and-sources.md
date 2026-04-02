@@ -15,7 +15,7 @@ tags:
 - sources
 - methodology
 - research
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -16,7 +16,7 @@ tags:
 - harmony
 - expression
 - form
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

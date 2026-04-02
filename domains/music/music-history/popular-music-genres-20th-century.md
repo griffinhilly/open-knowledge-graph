@@ -13,7 +13,7 @@ tags:
 - blues
 - rock
 - genres
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

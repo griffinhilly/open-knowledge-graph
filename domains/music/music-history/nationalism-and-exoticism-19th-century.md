@@ -14,7 +14,7 @@ tags:
 - exoticism
 - folk
 - identity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

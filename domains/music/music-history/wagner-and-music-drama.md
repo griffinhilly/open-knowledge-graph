@@ -15,7 +15,7 @@ tags:
 - music-drama
 - harmony
 - innovation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -12,7 +12,7 @@ tags:
 - periodization
 - classification
 - methodology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - sacred music
 - chant
 - liturgy
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

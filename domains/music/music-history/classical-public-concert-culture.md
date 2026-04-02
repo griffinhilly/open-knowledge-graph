@@ -17,7 +17,7 @@ tags:
 - public
 - patronage
 - society
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

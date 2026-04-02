@@ -17,7 +17,7 @@ tags:
 - aesthetics
 - harmony
 - drama
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

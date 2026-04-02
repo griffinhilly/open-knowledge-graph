@@ -15,7 +15,7 @@ tags:
 - globalization
 - hybridity
 - cultural-exchange
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

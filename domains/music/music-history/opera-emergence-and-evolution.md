@@ -15,7 +15,7 @@ tags:
 - drama
 - vocal-music
 - theatre
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

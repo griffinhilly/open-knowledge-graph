@@ -11,7 +11,7 @@ tags:
 - contemporary
 - pluralism
 - digital
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

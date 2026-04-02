@@ -14,7 +14,7 @@ tags:
 - liturgical
 - plainchant
 - context
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

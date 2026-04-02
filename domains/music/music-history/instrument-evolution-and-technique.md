@@ -14,7 +14,7 @@ tags:
 - technique
 - performance-practice
 - technology
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

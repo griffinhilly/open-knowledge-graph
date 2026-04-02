@@ -17,7 +17,7 @@ tags:
 - recording
 - reproduction
 - media
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Technology and Musical Reproduction

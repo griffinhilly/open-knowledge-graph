@@ -12,7 +12,7 @@ tags:
 - popular-music
 - technology
 - 20th-century
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

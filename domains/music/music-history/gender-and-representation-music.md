@@ -15,7 +15,7 @@ tags:
 - women-composers
 - canon
 - historiography
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Gender and Representation in Music History

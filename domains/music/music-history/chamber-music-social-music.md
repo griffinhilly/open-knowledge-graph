@@ -15,7 +15,7 @@ tags:
 - string-quartet
 - domestic-music
 - intimate-music
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

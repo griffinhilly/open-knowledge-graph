@@ -14,7 +14,7 @@ tags:
 - enlightenment
 - form
 - clarity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

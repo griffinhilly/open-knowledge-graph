@@ -14,7 +14,7 @@ tags:
 - debussy
 - harmony
 - texture
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

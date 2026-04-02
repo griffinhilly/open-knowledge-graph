@@ -13,7 +13,7 @@ tags:
 - lied
 - vocal
 - poetry
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

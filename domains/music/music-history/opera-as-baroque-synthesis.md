@@ -20,7 +20,7 @@ tags:
 - baroque
 - synthesis
 - drama
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Opera as Baroque Synthesis

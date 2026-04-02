@@ -10,7 +10,7 @@ courses:
   stage: abstract-reasoning
 - id: art-history
   title: Art History
-  stage: abstract-reasoning
+  stage: formal-systems
 - id: design-principles
   title: Design Principles
   stage: abstract-reasoning

@@ -15,7 +15,7 @@ tags:
 - orchestration
 - symphony
 - tone-poem
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Romantic Orchestration and Large-Scale Forms

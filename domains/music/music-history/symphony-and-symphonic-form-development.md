@@ -16,7 +16,7 @@ tags:
 - form
 - orchestra
 - classical
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

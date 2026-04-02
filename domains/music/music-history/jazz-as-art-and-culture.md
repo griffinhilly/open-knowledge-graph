@@ -18,7 +18,7 @@ tags:
 - improvisation
 - african-american-music
 - popular-music
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

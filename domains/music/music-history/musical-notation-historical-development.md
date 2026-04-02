@@ -13,7 +13,7 @@ tags:
 - notation
 - technology
 - composition
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

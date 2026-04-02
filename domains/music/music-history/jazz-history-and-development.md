@@ -14,7 +14,7 @@ tags:
 - improvisation
 - blues
 - american
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

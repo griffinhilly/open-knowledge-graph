@@ -13,7 +13,7 @@ tags:
 - non-western
 - traditions
 - diversity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -17,7 +17,7 @@ tags:
 - mass-media
 - industry
 - recording
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Popular Music and Mass Media

@@ -17,7 +17,7 @@ tags:
 - identity
 - folk-music
 - cultural-expression
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Music, Identity, and Nationalism

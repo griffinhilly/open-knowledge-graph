@@ -12,7 +12,7 @@ tags:
 - women-composers
 - recovery
 - critical-history
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

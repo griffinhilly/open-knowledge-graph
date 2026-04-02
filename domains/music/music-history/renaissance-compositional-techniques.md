@@ -14,7 +14,7 @@ tags:
 - counterpoint
 - imitation
 - text-setting
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

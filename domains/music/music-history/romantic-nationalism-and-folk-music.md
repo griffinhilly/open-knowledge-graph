@@ -16,7 +16,7 @@ tags:
 - folk-music
 - romantic
 - identity
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 # Romantic Nationalism and Folk Music Integration

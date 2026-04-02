@@ -14,7 +14,7 @@ tags:
 - atonality
 - serialism
 - avant-garde
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -14,7 +14,7 @@ tags:
 - sonata
 - concerto
 - suite
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

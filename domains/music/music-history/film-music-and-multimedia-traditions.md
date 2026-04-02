@@ -12,7 +12,7 @@ tags:
 - multimedia
 - popular-culture
 - composition
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

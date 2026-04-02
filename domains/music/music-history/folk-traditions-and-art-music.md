@@ -15,7 +15,7 @@ tags:
 - art-music
 - tradition
 - composition
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - performer
 - celebrity
 - romantic
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

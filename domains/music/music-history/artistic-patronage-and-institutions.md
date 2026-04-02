@@ -15,7 +15,7 @@ tags:
 - institutions
 - economics
 - performance-venues
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

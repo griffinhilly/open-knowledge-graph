@@ -13,7 +13,7 @@ tags:
 - performance-practice
 - figured-bass
 - improvisation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

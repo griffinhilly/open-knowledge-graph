@@ -13,7 +13,7 @@ tags:
 - publishing
 - distribution
 - communication
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -15,7 +15,7 @@ tags:
 - atonality
 - serialism
 - innovation
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

@@ -13,7 +13,7 @@ tags:
 - sonata-form
 - architecture
 - development
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

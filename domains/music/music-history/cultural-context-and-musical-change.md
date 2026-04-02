@@ -15,7 +15,7 @@ tags:
 - context
 - social-factors
 - cultural-history
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

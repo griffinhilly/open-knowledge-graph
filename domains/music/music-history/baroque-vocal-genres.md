@@ -14,7 +14,7 @@ tags:
 - oratorio
 - cantata
 - vocal
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 

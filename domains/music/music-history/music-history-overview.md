@@ -14,7 +14,7 @@ tags:
 - survey
 - methodology
 - periodization
-stage: abstract-reasoning
+stage: formal-systems
 status: validated
 ---
 
