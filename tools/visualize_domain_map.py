@@ -308,8 +308,10 @@ def compute_course_depths(nodes, edges, course_ids):
     (appearing at the top of their course). We fix this by computing domain-wide
     depth first, then using it as a floor for within-course depth.
     """
-    # Step 1: domain-wide depth (all edges, all nodes)
-    global_depth = compute_depth(nodes, edges)
+    # Step 1: domain-wide depth (all edges within this domain, not global)
+    # This ensures cross-course prereqs within the domain push topics down,
+    # but cross-DOMAIN prereqs (like math→music) don't inflate positions.
+    domain_depth = compute_depth(nodes, edges)
 
     course_nodes = defaultdict(set)
     for nid, node in nodes.items():
@@ -331,18 +333,28 @@ def compute_course_depths(nodes, edges, course_ids):
         cnodes = {nid: nodes[nid] for nid in cnids}
         cdepth = compute_depth(cnodes, course_edges[cid])
 
-        # Step 2: for topics with cross-course prereqs, use global depth
-        # to set a minimum depth within the course layout.
-        # Find the minimum global depth among course roots (within-course depth 0).
-        root_globals = [global_depth.get(nid, 0) for nid, d in cdepth.items() if d == 0]
-        min_root_global = min(root_globals) if root_globals else 0
+        # Step 2: use domain-wide depth as a floor for within-course depth,
+        # but SCALED to the course's own depth range to prevent height inflation.
+        # This fixes topics with cross-course prereqs appearing at row 1
+        # while keeping course_max bounded.
+        root_depths = [domain_depth.get(nid, 0) for nid, d in cdepth.items() if d == 0]
+        min_root_depth = min(root_depths) if root_depths else 0
+        pure_max = max(cdepth.values()) if cdepth else 0
+        max_domain_offset = max(
+            (domain_depth.get(nid, 0) - min_root_depth for nid in cdepth),
+            default=0,
+        )
+
+        # Scale: compress domain offset range into pure within-course depth range
+        if max_domain_offset > pure_max and max_domain_offset > 0:
+            scale = pure_max / max_domain_offset
+        else:
+            scale = 1.0
 
         for nid in cdepth:
-            gd = global_depth.get(nid, 0)
-            # Offset: how much deeper is this topic globally vs the shallowest root?
-            global_offset = gd - min_root_global
-            # Use whichever is larger: within-course depth or global-offset depth
-            cdepth[nid] = max(cdepth[nid], global_offset)
+            domain_offset = domain_depth.get(nid, 0) - min_root_depth
+            scaled_offset = round(domain_offset * scale)
+            cdepth[nid] = max(cdepth[nid], scaled_offset)
 
         depth.update(cdepth)
         course_max[cid] = max(cdepth.values()) if cdepth else 0

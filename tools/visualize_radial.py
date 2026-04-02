@@ -196,6 +196,47 @@ def compute_depths(all_data):
     return depth
 
 
+def compute_domain_local_depths(all_data):
+    """Compute topological depth using only within-domain edges.
+
+    Domain roots (topics with no same-domain prereqs) get depth 0 regardless
+    of cross-domain prerequisites. This ensures foundational topics within
+    each domain cluster near the center of the radial graph.
+    """
+    children_of = defaultdict(list)
+    in_degree = defaultdict(int)
+
+    for tid, data in all_data.items():
+        domain = data.get("domain", "")
+        for p in data.get("prerequisites", []):
+            if isinstance(p, dict) and "id" in p:
+                pid = p["id"]
+                if pid in all_data and all_data[pid].get("domain", "") == domain:
+                    children_of[pid].append(tid)
+                    in_degree[tid] += 1
+
+    depth = {}
+    queue = deque()
+    for tid in all_data:
+        if in_degree[tid] == 0:
+            depth[tid] = 0
+            queue.append(tid)
+
+    while queue:
+        nid = queue.popleft()
+        for child in children_of[nid]:
+            new_depth = depth.get(nid, 0) + 1
+            if child not in depth or new_depth > depth[child]:
+                depth[child] = new_depth
+                queue.append(child)
+
+    for tid in all_data:
+        if tid not in depth:
+            depth[tid] = 0
+
+    return depth
+
+
 def get_branch_x(course_id, domain_courses):
     """Get the branch X-position for a course (0.0-1.0).
 
@@ -1479,9 +1520,10 @@ def main():
 
     print("Computing depths...")
     depths = compute_depths(all_data)
+    local_depths = compute_domain_local_depths(all_data)
 
     print("Computing radial layout...")
-    positions, sectors, domain_order = build_radial_layout(all_data, configs, depths)
+    positions, sectors, domain_order = build_radial_layout(all_data, configs, local_depths)
 
     print("Generating HTML...")
     html = generate_radial_html(all_data, configs, depths, positions, sectors, domain_order)
