@@ -777,32 +777,6 @@ function shuffle(arr) {
 }
 
 // ============================================================
-// Interleave questions by course (round-robin, shuffled within each course)
-// ============================================================
-function _interleaveByCourse(questions) {
-  const byCourse = {};
-  for (const q of questions) {
-    if (!byCourse[q.course]) byCourse[q.course] = [];
-    byCourse[q.course].push(q);
-  }
-  for (const c in byCourse) shuffle(byCourse[c]);
-  const courses = shuffle(Object.keys(byCourse));
-  const result = [];
-  let round = 0, added = true;
-  while (added) {
-    added = false;
-    for (const c of courses) {
-      if (round < byCourse[c].length) {
-        result.push(byCourse[c][round]);
-        added = true;
-      }
-    }
-    round++;
-  }
-  return result;
-}
-
-// ============================================================
 // Build warmup pools: one shuffled pool per stage tier
 // ============================================================
 function buildWarmupPools() {
@@ -872,21 +846,35 @@ function buildExploreQueue(domain) {
     }
   }
 
-  // Sort by stage order, then interleave courses within each stage
-  const stageGroups = {};
+  // Group by course, sort each course's questions by stage, then
+  // round-robin across courses so no single course dominates the start
+  const byCourse = {};
   for (const q of questions) {
     if (S.usedQuestionKeys[qKey(q)]) continue;
-    if (!stageGroups[q.stage]) stageGroups[q.stage] = [];
-    stageGroups[q.stage].push(q);
+    const si = STAGES_ORDERED.indexOf(q.stage);
+    if (si < floorIndex) continue;  // skip stages below demonstrated floor
+    if (!byCourse[q.course]) byCourse[q.course] = [];
+    byCourse[q.course].push(q);
   }
-
+  // Within each course, order by stage (easy → hard)
+  for (const c in byCourse) {
+    byCourse[c].sort((a, b) =>
+      STAGES_ORDERED.indexOf(a.stage) - STAGES_ORDERED.indexOf(b.stage)
+    );
+  }
+  // Round-robin across courses
+  const courses = shuffle(Object.keys(byCourse));
   const queue = [];
-  for (let i = 0; i < STAGES_ORDERED.length; i++) {
-    if (i < floorIndex) continue;  // skip stages below demonstrated floor
-    const stage = STAGES_ORDERED[i];
-    if (stageGroups[stage]) {
-      queue.push(..._interleaveByCourse(stageGroups[stage]));
+  let round = 0, added = true;
+  while (added) {
+    added = false;
+    for (const c of courses) {
+      if (round < byCourse[c].length) {
+        queue.push(byCourse[c][round]);
+        added = true;
+      }
     }
+    round++;
   }
   return queue;
 }
@@ -898,21 +886,31 @@ function buildDeepDiveQueue(domain) {
   if (!DATA.deepDive || !DATA.deepDive[domain]) return [];
 
   const questions = DATA.deepDive[domain];
-  // Sort by stage order (formal-systems -> advanced -> expert),
-  // interleave courses within each stage for variety
-  const byStage = {};
+  // Group by course, sort each course by stage, round-robin across courses
+  const byCourse = {};
   for (const q of questions) {
     if (S.usedQuestionKeys[qKey(q)]) continue;
-    if (!byStage[q.stage]) byStage[q.stage] = [];
-    byStage[q.stage].push(q);
+    if (!byCourse[q.course]) byCourse[q.course] = [];
+    byCourse[q.course].push(q);
   }
-
   const stageOrder = ['formal-systems', 'advanced', 'expert'];
+  for (const c in byCourse) {
+    byCourse[c].sort((a, b) =>
+      stageOrder.indexOf(a.stage) - stageOrder.indexOf(b.stage)
+    );
+  }
+  const courses = shuffle(Object.keys(byCourse));
   const queue = [];
-  for (const stage of stageOrder) {
-    if (byStage[stage]) {
-      queue.push(..._interleaveByCourse(byStage[stage]));
+  let round = 0, added = true;
+  while (added) {
+    added = false;
+    for (const c of courses) {
+      if (round < byCourse[c].length) {
+        queue.push(byCourse[c][round]);
+        added = true;
+      }
     }
+    round++;
   }
   return queue;
 }
