@@ -777,6 +777,32 @@ function shuffle(arr) {
 }
 
 // ============================================================
+// Interleave questions by course (round-robin, shuffled within each course)
+// ============================================================
+function _interleaveByCourse(questions) {
+  const byCourse = {};
+  for (const q of questions) {
+    if (!byCourse[q.course]) byCourse[q.course] = [];
+    byCourse[q.course].push(q);
+  }
+  for (const c in byCourse) shuffle(byCourse[c]);
+  const courses = shuffle(Object.keys(byCourse));
+  const result = [];
+  let round = 0, added = true;
+  while (added) {
+    added = false;
+    for (const c of courses) {
+      if (round < byCourse[c].length) {
+        result.push(byCourse[c][round]);
+        added = true;
+      }
+    }
+    round++;
+  }
+  return result;
+}
+
+// ============================================================
 // Build warmup pools: one shuffled pool per stage tier
 // ============================================================
 function buildWarmupPools() {
@@ -846,7 +872,7 @@ function buildExploreQueue(domain) {
     }
   }
 
-  // Sort by stage order, then shuffle within stage, skipping below floor
+  // Sort by stage order, then interleave courses within each stage
   const stageGroups = {};
   for (const q of questions) {
     if (S.usedQuestionKeys[qKey(q)]) continue;
@@ -859,8 +885,7 @@ function buildExploreQueue(domain) {
     if (i < floorIndex) continue;  // skip stages below demonstrated floor
     const stage = STAGES_ORDERED[i];
     if (stageGroups[stage]) {
-      shuffle(stageGroups[stage]);
-      queue.push(...stageGroups[stage]);
+      queue.push(..._interleaveByCourse(stageGroups[stage]));
     }
   }
   return queue;
@@ -873,7 +898,8 @@ function buildDeepDiveQueue(domain) {
   if (!DATA.deepDive || !DATA.deepDive[domain]) return [];
 
   const questions = DATA.deepDive[domain];
-  // Sort by stage order (formal-systems -> advanced -> expert), shuffle within
+  // Sort by stage order (formal-systems -> advanced -> expert),
+  // interleave courses within each stage for variety
   const byStage = {};
   for (const q of questions) {
     if (S.usedQuestionKeys[qKey(q)]) continue;
@@ -885,8 +911,7 @@ function buildDeepDiveQueue(domain) {
   const queue = [];
   for (const stage of stageOrder) {
     if (byStage[stage]) {
-      shuffle(byStage[stage]);
-      queue.push(...byStage[stage]);
+      queue.push(..._interleaveByCourse(byStage[stage]));
     }
   }
   return queue;
