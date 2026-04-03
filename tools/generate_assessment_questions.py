@@ -178,6 +178,44 @@ def make_deep_dive_entry(topic, question, connectivity):
     }
 
 
+def _round_robin_by_course(topic_question_pairs, max_count, connectivity):
+    """Select up to max_count (topic, questions) pairs, rotating across courses.
+
+    Within each course, topics are ordered by connectivity descending.
+    One topic is drawn from each course per round until the budget is filled.
+    """
+    by_course = defaultdict(list)
+    for t, qs in topic_question_pairs:
+        by_course[t.get("course", "unknown")].append((t, qs))
+
+    # Sort each course's topics by connectivity descending
+    for course in by_course:
+        by_course[course].sort(
+            key=lambda x: connectivity.get(x[0]["id"], 0), reverse=True
+        )
+
+    # Build per-course iterators, ordered by course size descending so
+    # larger courses don't get unfairly starved in later rounds
+    course_iters = [
+        iter(by_course[c])
+        for c in sorted(by_course, key=lambda c: len(by_course[c]), reverse=True)
+    ]
+
+    selected = []
+    while len(selected) < max_count and course_iters:
+        next_round_iters = []
+        for it in course_iters:
+            if len(selected) >= max_count:
+                break
+            item = next(it, None)
+            if item is not None:
+                selected.append(item)
+                next_round_iters.append(it)
+        course_iters = next_round_iters
+
+    return selected
+
+
 def select_pool(topics, connectivity):
     """Select warmup, exploration, and deep dive question pools."""
     # Group topics with quizzable questions by domain+stage
@@ -218,12 +256,16 @@ def select_pool(topics, connectivity):
                 warmup.append(make_question_entry(topic, q, connectivity))
 
     # --- Exploration pool: all stages, per domain ---
+    # Round-robin across courses so no single course dominates a stage
     exploration = {}
     for domain in all_domains:
         domain_questions = []
         for stage in STAGES:
             stage_topics = by_domain_stage.get((domain, stage), [])
-            for topic, questions in stage_topics[:EXPLORE_TOPICS_PER_DOMAIN_STAGE]:
+            selected = _round_robin_by_course(
+                stage_topics, EXPLORE_TOPICS_PER_DOMAIN_STAGE, connectivity
+            )
+            for topic, questions in selected:
                 for q in questions[:MAX_QUESTIONS_PER_TOPIC]:
                     domain_questions.append(
                         make_question_entry(topic, q, connectivity)
@@ -257,17 +299,14 @@ def select_pool(topics, connectivity):
         domain_questions = []
         for stage in DEEP_DIVE_STAGES:
             stage_topics = deep_by_domain_stage.get((domain, stage), [])
-            stage_count = 0
-            for topic, questions in stage_topics:
-                if stage_count >= DEEP_DIVE_MAX_PER_DOMAIN_STAGE:
-                    break
-                for q in questions:
-                    if stage_count >= DEEP_DIVE_MAX_PER_DOMAIN_STAGE:
-                        break
-                    domain_questions.append(
-                        make_deep_dive_entry(topic, q, connectivity)
-                    )
-                    stage_count += 1
+            selected = _round_robin_by_course(
+                stage_topics, DEEP_DIVE_MAX_PER_DOMAIN_STAGE, connectivity
+            )
+            for topic, questions in selected:
+                q = questions[0]  # 1 short-answer per topic
+                domain_questions.append(
+                    make_deep_dive_entry(topic, q, connectivity)
+                )
         if domain_questions:
             deep_dive[domain] = domain_questions
 
