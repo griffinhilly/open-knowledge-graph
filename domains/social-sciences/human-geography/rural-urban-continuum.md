@@ -6,6 +6,8 @@ course: human-geography
 prerequisites:
 - id: human-geography-overview
   type: soft
+- id: urban-rural-and-suburban
+  type: soft
 builds-toward:
 - urban-renewal-gentrification
 - regional-economic-restructuring

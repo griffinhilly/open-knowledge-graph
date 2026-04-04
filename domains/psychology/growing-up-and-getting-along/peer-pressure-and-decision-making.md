@@ -11,6 +11,7 @@ prerequisites:
 builds-toward:
 - resilience-and-bouncing-back
 - healthy-relationships
+- conformity-types-and-mechanisms
 tags:
 - peer-pressure
 - decisions

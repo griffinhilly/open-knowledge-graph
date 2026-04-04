@@ -6,7 +6,8 @@ course: wondering-and-thinking
 prerequisites:
 - id: thinking-about-thinking
   type: hard
-builds-toward: []
+builds-toward:
+- virtue-ethics
 tags:
 - happiness
 - well-being

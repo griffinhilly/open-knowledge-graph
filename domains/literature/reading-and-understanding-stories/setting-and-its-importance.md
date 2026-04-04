@@ -10,6 +10,7 @@ builds-toward:
 - adventure-genre
 - fantasy-stories-introduction
 - realistic-fiction-genre
+- setting-place-and-time
 tags:
 - setting
 - place

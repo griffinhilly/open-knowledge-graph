@@ -10,6 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - ship-of-theseus-for-kids
+- personal-identity
 tags:
 - identity
 - self

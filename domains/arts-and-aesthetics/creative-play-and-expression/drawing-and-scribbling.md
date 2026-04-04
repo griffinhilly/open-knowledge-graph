@@ -7,6 +7,7 @@ prerequisites: []
 builds-toward:
 - making-faces-and-expressions-in-art
 - pretend-play-and-imagination
+- mark-making-fundamentals
 tags:
 - drawing
 - scribbling

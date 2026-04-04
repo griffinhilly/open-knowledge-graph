@@ -9,6 +9,7 @@ prerequisites:
 builds-toward:
 - how-communities-change-over-time
 - environments-and-communities
+- rural-urban-continuum
 tags:
 - urban
 - rural

@@ -8,6 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - being-a-history-detective
+- what-is-history
 tags:
 - evidence
 - sources

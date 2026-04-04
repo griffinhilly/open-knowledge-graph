@@ -8,6 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - protagonist-introduction
+- point-of-view-intro
 tags:
 - point-of-view
 - narrator

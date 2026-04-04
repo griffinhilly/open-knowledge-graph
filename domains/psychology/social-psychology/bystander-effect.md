@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-norms-and-conformity
   type: soft
+- id: bystander-effect-and-action
+  type: soft
 builds-toward:
 - prosocial-behavior
 tags:

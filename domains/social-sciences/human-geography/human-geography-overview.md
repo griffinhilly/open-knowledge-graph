@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: political-science-overview
   type: soft
+- id: maps-and-directions-basics
+  type: soft
 builds-toward:
 - place-and-space-concepts
 - population-distribution-density

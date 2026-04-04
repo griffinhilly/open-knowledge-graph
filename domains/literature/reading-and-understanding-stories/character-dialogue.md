@@ -8,6 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - character-feelings-and-motivation
+- dialogue-function-basics
 tags:
 - dialogue
 - speech

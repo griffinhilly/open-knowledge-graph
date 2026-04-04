@@ -12,6 +12,7 @@ prerequisites:
   type: hard
 builds-toward:
 - social-media-and-emotional-wellbeing
+- anxiety-disorders-overview
 tags:
 - anxiety
 - stress

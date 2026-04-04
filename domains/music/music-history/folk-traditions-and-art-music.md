@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: music-and-identity-nationalism
   type: soft
+- id: music-from-different-places
+  type: soft
 tags:
 - folk-music
 - art-music

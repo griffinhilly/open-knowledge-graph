@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-norms-and-conformity
   type: hard
+- id: peer-pressure-and-decision-making
+  type: soft
 builds-toward:
 - obedience-authority-legitimacy
 - group-polarization-choice-shift

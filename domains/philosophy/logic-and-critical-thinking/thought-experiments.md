@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: socratic-method
   type: soft
+- id: thought-experiments-for-kids
+  type: soft
 builds-toward:
 - counterexample-method
 tags:

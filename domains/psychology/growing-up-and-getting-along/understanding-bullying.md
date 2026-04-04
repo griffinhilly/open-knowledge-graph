@@ -11,6 +11,7 @@ prerequisites:
 builds-toward:
 - bystander-effect-and-action
 - social-media-and-emotional-wellbeing
+- aggression-theories
 tags:
 - bullying
 - power

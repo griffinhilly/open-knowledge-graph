@@ -9,6 +9,7 @@ prerequisites:
 builds-toward:
 - composing-simple-melodies
 - melody-recognition
+- whole-step-half-step-fundamentals
 tags:
 - melody
 - steps

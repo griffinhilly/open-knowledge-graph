@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: agent-centered-vs-patient-centered-ethics
   type: soft
+- id: what-is-happiness
+  type: soft
 builds-toward:
 - moral-psychology
 - applied-ethics-intro

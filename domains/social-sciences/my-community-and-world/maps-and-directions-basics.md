@@ -8,6 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - near-and-far-places
+- human-geography-overview
 tags:
 - maps
 - directions

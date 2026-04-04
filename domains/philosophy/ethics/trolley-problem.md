@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: utilitarianism
   type: soft
+- id: trolley-problem-for-kids
+  type: soft
 builds-toward:
 - applied-ethics-intro
 - bioethics

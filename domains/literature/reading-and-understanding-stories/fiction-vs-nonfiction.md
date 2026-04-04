@@ -9,6 +9,7 @@ prerequisites:
 builds-toward:
 - reading-for-information
 - realistic-fiction-genre
+- fact-vs-fiction-distinction
 tags:
 - fiction
 - nonfiction

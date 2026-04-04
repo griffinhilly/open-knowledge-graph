@@ -3,7 +3,9 @@ id: what-is-history
 title: What Is History?
 domain: history
 course: historical-methods
-prerequisites: []
+prerequisites:
+- id: how-we-know-about-the-past
+  type: soft
 builds-toward:
 - primary-sources
 - secondary-sources

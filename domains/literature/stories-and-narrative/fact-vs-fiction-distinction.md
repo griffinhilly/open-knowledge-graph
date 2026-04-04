@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: reading-comprehension-basics
   type: soft
+- id: fiction-vs-nonfiction
+  type: soft
 tags:
 - fact
 - fiction

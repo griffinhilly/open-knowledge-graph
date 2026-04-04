@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: intervals-and-ear-training
   type: soft
+- id: melody-direction-steps-and-leaps
+  type: soft
 builds-toward:
 - major-scale-construction
 - minor-scale-construction-fundamentals

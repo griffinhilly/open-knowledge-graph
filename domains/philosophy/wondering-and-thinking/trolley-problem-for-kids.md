@@ -10,6 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - normative-ethics-overview
+- trolley-problem
 tags:
 - trolley-problem
 - ethics

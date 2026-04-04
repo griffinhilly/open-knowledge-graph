@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: descriptive-writing
   type: soft
+- id: setting-and-its-importance
+  type: soft
 builds-toward:
 - setting-atmosphere-mood-intro
 - setting-influence-on-narrative

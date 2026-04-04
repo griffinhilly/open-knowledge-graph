@@ -6,6 +6,8 @@ course: human-geography
 prerequisites:
 - id: spatial-scale-human-geography
   type: hard
+- id: environments-and-communities
+  type: soft
 builds-toward:
 - climate-human-geography
 - indigenous-geography-territory

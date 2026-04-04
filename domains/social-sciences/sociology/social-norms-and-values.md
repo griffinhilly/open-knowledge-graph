@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: culture-and-society
   type: hard
+- id: rules-and-why-we-have-them
+  type: soft
 builds-toward:
 - deviance-and-social-control
 - collective-behavior-and-crowds

@@ -11,6 +11,7 @@ prerequisites:
 builds-toward:
 - resilience-and-bouncing-back
 - goal-setting-and-motivation
+- metacognition
 tags:
 - growth-mindset
 - learning

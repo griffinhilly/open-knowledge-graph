@@ -14,6 +14,7 @@ prerequisites:
   type: hard
 builds-toward:
 - book-recommendations
+- genre-awareness-intro
 tags:
 - genre
 - categories

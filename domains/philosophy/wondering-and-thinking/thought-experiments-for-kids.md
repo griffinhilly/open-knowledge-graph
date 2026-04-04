@@ -12,6 +12,7 @@ builds-toward:
 - trolley-problem-for-kids
 - ship-of-theseus-for-kids
 - puzzles-and-paradoxes-for-kids
+- thought-experiments
 tags:
 - thought-experiments
 - reasoning

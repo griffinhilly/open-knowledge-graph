@@ -10,6 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - reading-simple-staff-notation
+- note-durations-and-rests
 tags:
 - notation
 - reading

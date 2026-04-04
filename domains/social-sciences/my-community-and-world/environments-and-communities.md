@@ -12,6 +12,7 @@ builds-toward:
 - desert-communities
 - coastal-communities
 - mountain-communities
+- human-environment-adaptation
 tags:
 - environment
 - geography

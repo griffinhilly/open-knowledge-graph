@@ -10,6 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - reading-simple-staff-notation
+- staff-and-clefs
 tags:
 - treble clef
 - notation

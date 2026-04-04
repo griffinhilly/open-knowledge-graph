@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thought-experiments
   type: soft
+- id: what-makes-you-you
+  type: soft
 builds-toward:
 - psychological-continuity-theory
 - bodily-continuity-theory

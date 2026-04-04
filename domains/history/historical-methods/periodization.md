@@ -6,6 +6,8 @@ course: historical-methods
 prerequisites:
 - id: what-is-history
   type: hard
+- id: timelines-and-sequencing
+  type: soft
 builds-toward:
 - causation-in-history
 - historiography-intro

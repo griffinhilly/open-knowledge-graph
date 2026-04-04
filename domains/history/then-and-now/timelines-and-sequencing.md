@@ -11,6 +11,7 @@ builds-toward:
 - important-events-in-our-country
 - cause-and-effect-in-history
 - comparing-time-periods
+- periodization
 tags:
 - timelines
 - sequencing

@@ -10,6 +10,7 @@ builds-toward:
 - laws-and-government-basics
 - citizenship-and-being-a-good-neighbor
 - conflict-in-communities
+- social-norms-and-values
 tags:
 - rules
 - fairness

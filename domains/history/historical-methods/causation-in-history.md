@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: source-criticism
   type: soft
+- id: cause-and-effect-in-history
+  type: soft
 builds-toward:
 - historical-argument-structure
 - counterfactual-reasoning

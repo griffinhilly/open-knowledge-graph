@@ -11,6 +11,7 @@ prerequisites:
 builds-toward:
 - cultural-identity-and-belonging
 - self-advocacy-speaking-up
+- self-concept-self-esteem-development
 tags:
 - identity
 - self-concept

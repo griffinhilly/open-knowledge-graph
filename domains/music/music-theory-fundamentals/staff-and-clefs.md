@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: music-notation-history
   type: soft
+- id: treble-clef-introduction
+  type: soft
+- id: reading-simple-staff-notation
+  type: soft
 builds-toward:
 - note-names-and-octaves
 - key-signatures

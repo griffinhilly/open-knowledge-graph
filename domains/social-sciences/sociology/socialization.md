@@ -6,6 +6,8 @@ course: sociology
 prerequisites:
 - id: culture-and-society
   type: hard
+- id: belonging-to-groups
+  type: soft
 builds-toward:
 - social-norms-and-values
 - gender-and-sexuality

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: thought-experiments
   type: soft
+- id: opinions-and-evidence
+  type: soft
 builds-toward:
 - justified-true-belief
 - a-priori-and-a-posteriori

@@ -6,6 +6,8 @@ course: stories-and-narrative
 prerequisites:
 - id: story-and-narrative-basics
   type: soft
+- id: understanding-genres
+  type: soft
 builds-toward:
 - realistic-fiction-intro
 - fantasy-magical-stories-intro

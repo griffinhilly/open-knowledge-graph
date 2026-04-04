@@ -6,6 +6,8 @@ course: drawing-and-painting
 prerequisites:
 - id: clay-and-playdough
   type: soft
+- id: drawing-and-scribbling
+  type: soft
 builds-toward:
 - contour-drawing
 - gesture-drawing

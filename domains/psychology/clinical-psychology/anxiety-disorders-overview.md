@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: biological-psychology-overview
   type: soft
+- id: managing-anxiety-and-stress
+  type: soft
 builds-toward:
 - generalized-anxiety-disorder
 - panic-disorder-agoraphobia

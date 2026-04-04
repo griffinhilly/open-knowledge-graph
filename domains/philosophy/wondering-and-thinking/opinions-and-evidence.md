@@ -10,6 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - big-questions-in-philosophy
+- what-is-knowledge
 tags:
 - evidence
 - opinions

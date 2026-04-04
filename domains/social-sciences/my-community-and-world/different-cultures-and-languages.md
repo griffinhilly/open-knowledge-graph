@@ -8,6 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - respecting-differences-in-communities
+- anthropology-overview
 tags:
 - culture
 - language

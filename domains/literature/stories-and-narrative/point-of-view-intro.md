@@ -6,6 +6,8 @@ course: stories-and-narrative
 prerequisites:
 - id: narrative-arc-simple
   type: soft
+- id: point-of-view
+  type: soft
 builds-toward:
 - first-person-narration-intro
 - third-person-limited-intro

@@ -6,6 +6,8 @@ course: anthropology
 prerequisites:
 - id: how-communities-work-together
   type: soft
+- id: different-cultures-and-languages
+  type: soft
 builds-toward:
 - culture-concept
 - ethnography-methods

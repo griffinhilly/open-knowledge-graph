@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: syncopation
   type: soft
+- id: basic-rhythm-notation
+  type: soft
 builds-toward:
 - time-signatures-and-meter
 - rhythm-and-syncopation

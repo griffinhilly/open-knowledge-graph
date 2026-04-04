@@ -8,6 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - self-advocacy-speaking-up
+- bystander-effect
 tags:
 - bystander
 - action

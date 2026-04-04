@@ -8,6 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - responsibility-and-blame
+- social-contract-theory
 tags:
 - rules
 - fairness

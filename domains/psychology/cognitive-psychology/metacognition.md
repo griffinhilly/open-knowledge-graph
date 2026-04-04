@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cognitive-load-theory
   type: soft
+- id: growth-mindset-vs-fixed-mindset
+  type: soft
 tags:
 - metacognition
 - self-regulation

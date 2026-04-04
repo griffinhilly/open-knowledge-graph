@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: functionalism-philosophy-of-mind
   type: soft
+- id: can-animals-think
+  type: soft
 builds-toward:
 - knowledge-argument
 - philosophical-zombies

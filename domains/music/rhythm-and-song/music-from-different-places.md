@@ -10,6 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - musical-cultures-around-the-world
+- folk-traditions-and-art-music
 tags:
 - culture
 - world music

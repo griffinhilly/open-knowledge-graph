@@ -9,6 +9,7 @@ prerequisites:
 builds-toward:
 - managing-anxiety-and-stress
 - growth-mindset-vs-fixed-mindset
+- cognitive-behavioral-therapy
 tags:
 - reappraisal
 - thinking

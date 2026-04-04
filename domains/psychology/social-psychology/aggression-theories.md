@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: dehumanization-intergroup-conflict
   type: soft
+- id: understanding-bullying
+  type: soft
 tags:
 - aggression
 - frustration-aggression

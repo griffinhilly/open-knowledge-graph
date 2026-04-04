@@ -6,6 +6,8 @@ course: stories-and-narrative
 prerequisites:
 - id: direct-quotation-punctuation-dialogue
   type: soft
+- id: character-dialogue
+  type: soft
 builds-toward:
 - dialogue-characterization
 - subtext-in-stories

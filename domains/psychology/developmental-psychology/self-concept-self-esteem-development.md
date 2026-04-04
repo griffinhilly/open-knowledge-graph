@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: self-concept-and-self-esteem-development-developmental-psychology
   type: soft
+- id: identity-and-self-concept
+  type: soft
 builds-toward:
 - adolescent-identity-exploration-commitment
 - gender-identity-socialization-development

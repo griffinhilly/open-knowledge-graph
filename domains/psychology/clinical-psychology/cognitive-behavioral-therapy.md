@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: clinical-assessment-overview
   type: soft
+- id: cognitive-reappraisal
+  type: soft
 builds-toward:
 - dialectical-behavior-therapy
 tags:

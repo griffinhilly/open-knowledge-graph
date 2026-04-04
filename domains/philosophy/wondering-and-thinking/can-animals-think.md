@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: curiosity-and-questions
   type: soft
-builds-toward: []
+builds-toward:
+- hard-problem-of-consciousness
 tags:
 - animals
 - minds

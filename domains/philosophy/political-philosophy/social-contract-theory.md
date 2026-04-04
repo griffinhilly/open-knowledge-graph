@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: contractualism
   type: soft
+- id: fairness-and-rules
+  type: soft
 builds-toward:
 - hobbesian-sovereignty
 - lockean-natural-rights
