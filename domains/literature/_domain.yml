@@ -2,6 +2,12 @@ domain: literature
 title: Literature
 description: The study of written works as art forms that illuminate the human condition.
 courses:
+- id: stories-and-narrative
+  title: Stories & Narrative
+  stage: abstract-reasoning
+- id: mythology-folklore-oral-traditions
+  title: Mythology, Folklore & Oral Traditions
+  stage: abstract-reasoning
 - id: literary-analysis
   title: Literary Analysis
   stage: formal-systems
@@ -14,9 +20,27 @@ courses:
 - id: drama
   title: Drama
   stage: formal-systems
+- id: literary-movements-and-periods
+  title: Literary Movements & Periods
+  stage: formal-systems
+- id: genre-fiction
+  title: Genre Fiction
+  stage: formal-systems
+- id: creative-nonfiction
+  title: Creative Nonfiction
+  stage: formal-systems
+- id: world-literature
+  title: World Literature
+  stage: formal-systems
+- id: childrens-and-ya-literature
+  title: Children's & Young Adult Literature
+  stage: formal-systems
 - id: critical-theory
   title: Critical Theory
   stage: advanced
 - id: comparative-literature
   title: Comparative Literature
+  stage: advanced
+- id: digital-and-experimental-literature
+  title: Digital & Experimental Literature
   stage: advanced
