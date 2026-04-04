@@ -4,7 +4,7 @@ title: Picture Book Narrative Construction
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 builds-toward:
 - picture-book-visual-text-integration

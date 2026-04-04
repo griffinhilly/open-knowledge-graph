@@ -4,7 +4,7 @@ title: Enlightenment Satire and Social Critique
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: classical-rhetoric-ancient-tradition
   type: soft

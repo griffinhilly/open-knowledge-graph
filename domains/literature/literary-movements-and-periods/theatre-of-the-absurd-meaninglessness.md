@@ -4,7 +4,7 @@ title: Theatre of the Absurd and Meaninglessness
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: existentialism-freedom-responsibility-literature
   type: hard

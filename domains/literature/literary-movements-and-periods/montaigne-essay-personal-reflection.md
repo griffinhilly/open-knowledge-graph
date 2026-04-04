@@ -4,7 +4,7 @@ title: Montaigne and the Essay as Personal Meditation
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: analytical-writing
   type: soft

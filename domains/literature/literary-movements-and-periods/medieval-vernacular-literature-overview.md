@@ -4,9 +4,9 @@ title: 'Medieval Literature: Vernacular and Courtly Culture'
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 builds-toward:
 - troubadour-courtly-love-occitan

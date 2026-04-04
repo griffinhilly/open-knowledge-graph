@@ -4,7 +4,7 @@ title: 'Romance: Emotional Journey and Romantic Fulfillment'
 domain: literature
 course: genre-fiction
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 tags:
 - romance

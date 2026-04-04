@@ -4,7 +4,7 @@ title: Zola and the Experimental Novel
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: naturalism-scientific-determinism
   type: hard

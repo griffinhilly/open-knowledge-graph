@@ -4,9 +4,9 @@ title: Troubadour Poetry and Occitan Literary Culture
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: soft
 builds-toward:
 - medieval-courtly-love-lyric

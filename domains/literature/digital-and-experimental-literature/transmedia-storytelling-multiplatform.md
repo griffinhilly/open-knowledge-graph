@@ -4,7 +4,7 @@ title: Transmedia Storytelling Across Media Platforms
 domain: literature
 course: digital-and-experimental-literature
 prerequisites:
-- id: narrative-structure
+- id: story-and-narrative-basics
   type: hard
 - id: metafiction-narrative-self-awareness
   type: soft

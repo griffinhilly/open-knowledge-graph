@@ -4,7 +4,7 @@ title: 'Children''s Poetry: Traditional Forms and Rhythm'
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 - id: alliteration-poetic-effect
   type: soft

@@ -4,7 +4,7 @@ title: 'Young Adult Literature as Genre: Historical Emergence'
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 builds-toward:
 - ya-adolescent-identity-exploration

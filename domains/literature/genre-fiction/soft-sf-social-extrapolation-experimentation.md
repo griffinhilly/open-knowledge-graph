@@ -6,7 +6,7 @@ course: genre-fiction
 prerequisites:
 - id: science-fiction-genre
   type: hard
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 tags:
 - science-fiction

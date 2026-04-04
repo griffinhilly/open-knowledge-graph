@@ -4,7 +4,7 @@ title: Children's Fantasy and Secondary Worlds
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 - id: fantasy-genre
   type: soft

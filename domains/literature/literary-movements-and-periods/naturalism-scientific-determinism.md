@@ -4,7 +4,7 @@ title: Naturalism and Scientific Determinism in Fiction
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: literary-realism-objective-representation
   type: hard

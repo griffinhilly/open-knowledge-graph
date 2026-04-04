@@ -4,7 +4,7 @@ title: Middle-Grade Fiction Conventions and Genre
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 builds-toward:
 - child-protagonist-agency-empowerment

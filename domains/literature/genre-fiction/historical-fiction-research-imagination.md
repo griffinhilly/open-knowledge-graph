@@ -4,7 +4,7 @@ title: 'Historical Fiction: Research, Authenticity, and Creative Imagination'
 domain: literature
 course: genre-fiction
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 tags:
 - historical-fiction

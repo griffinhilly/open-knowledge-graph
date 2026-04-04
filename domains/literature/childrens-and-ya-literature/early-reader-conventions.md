@@ -4,7 +4,7 @@ title: Early Reader Conventions and Phonetic Features
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 builds-toward:
 - chapter-book-episodic-form

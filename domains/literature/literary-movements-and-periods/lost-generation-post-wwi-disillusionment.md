@@ -4,7 +4,7 @@ title: The Lost Generation and Post-WWI Disillusionment
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: modernism-fragmentation-form
   type: soft

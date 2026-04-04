@@ -4,7 +4,7 @@ title: Romantic Poetry and the Imagination
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: romanticism-sublime-infinite-nature
   type: hard

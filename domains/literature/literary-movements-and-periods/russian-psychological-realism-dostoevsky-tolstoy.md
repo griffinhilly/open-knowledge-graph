@@ -4,7 +4,7 @@ title: Russian Psychological Realism and Interior Life
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: literary-realism-objective-representation
   type: soft

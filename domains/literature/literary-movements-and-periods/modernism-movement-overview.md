@@ -4,9 +4,9 @@ title: 'Modernism: Innovation, Fragmentation, and Difficulty'
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 - id: aestheticism-movement-art-autonomy
   type: soft

@@ -4,7 +4,7 @@ title: Cervantes and the Birth of the Modern Novel
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: medieval-romance-form-adventure
   type: soft

@@ -4,9 +4,9 @@ title: 'Contemporary Literary Fiction: Multiplicity and Global Voices'
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 tags:
 - contemporary

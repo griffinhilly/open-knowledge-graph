@@ -4,9 +4,9 @@ title: 'Gabriel García Márquez: Magical Realism and Latin American Modernity'
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 builds-toward:
 - magical-realism

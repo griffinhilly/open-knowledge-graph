@@ -4,7 +4,7 @@ title: Adventure Narrative Structure in Children's Literature
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 - id: plot-structure
   type: soft

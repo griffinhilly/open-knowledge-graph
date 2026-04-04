@@ -4,7 +4,7 @@ title: Cyberpunk and Digital Dystopian Futures
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: science-fiction-speculation-extrapolation
   type: soft

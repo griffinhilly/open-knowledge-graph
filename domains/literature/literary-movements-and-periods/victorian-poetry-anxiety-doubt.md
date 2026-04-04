@@ -4,7 +4,7 @@ title: Victorian Poetry and Religious Anxiety
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: romantic-poetry-emotion-imagination
   type: soft

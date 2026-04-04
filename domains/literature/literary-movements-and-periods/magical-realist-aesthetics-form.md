@@ -4,7 +4,7 @@ title: Magical Realism and Fantastic-Realistic Integration
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: postmodernism-metafiction-self-reflexivity
   type: soft

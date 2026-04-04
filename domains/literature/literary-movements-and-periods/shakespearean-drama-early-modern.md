@@ -4,7 +4,7 @@ title: Shakespearean Drama and Early Modern Theatre
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: greek-dramatic-structure-conventions
   type: soft

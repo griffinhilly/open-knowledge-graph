@@ -4,7 +4,7 @@ title: Symbolism and Poetry of Suggestion
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: romantic-poetry-emotion-imagination
   type: soft

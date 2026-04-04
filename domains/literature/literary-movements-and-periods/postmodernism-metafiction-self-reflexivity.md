@@ -4,7 +4,7 @@ title: Postmodernism and Metafictional Self-Reflexivity
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: theatre-of-the-absurd-meaninglessness
   type: soft

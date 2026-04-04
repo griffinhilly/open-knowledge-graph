@@ -4,7 +4,7 @@ title: Victorian Novel and Industrial Society
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: eighteenth-century-rise-novel
   type: soft

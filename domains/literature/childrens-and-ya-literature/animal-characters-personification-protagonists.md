@@ -4,7 +4,7 @@ title: Animal Characters and Personification as Protagonists
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 - id: character-motivation-and-development
   type: soft

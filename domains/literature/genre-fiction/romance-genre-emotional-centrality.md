@@ -6,7 +6,7 @@ course: genre-fiction
 prerequisites:
 - id: romance-emotional-narrative-arc
   type: hard
-- id: narrative-structure
+- id: story-and-narrative-basics
   type: soft
 builds-toward:
 - love-triangle-competing-desires

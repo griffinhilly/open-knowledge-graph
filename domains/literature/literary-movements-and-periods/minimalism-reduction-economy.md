@@ -4,7 +4,7 @@ title: Minimalism and Stylistic Reduction
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: imagism-poetry-precision-clarity
   type: soft

@@ -6,7 +6,7 @@ course: digital-and-experimental-literature
 prerequisites:
 - id: literary-analysis-overview
   type: hard
-- id: narrative-structure
+- id: story-and-narrative-basics
   type: soft
 tags:
 - podcast

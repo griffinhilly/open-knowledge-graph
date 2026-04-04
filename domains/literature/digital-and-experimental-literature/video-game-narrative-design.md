@@ -4,7 +4,7 @@ title: Video Game Narrative Design
 domain: literature
 course: digital-and-experimental-literature
 prerequisites:
-- id: narrative-structure
+- id: story-and-narrative-basics
   type: hard
 - id: interactive-fiction-text-adventures
   type: soft

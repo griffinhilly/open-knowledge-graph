@@ -4,7 +4,7 @@ title: Renaissance Sonnet Tradition and Conventions
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: sonnet-form
   type: hard

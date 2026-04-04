@@ -4,7 +4,7 @@ title: Flaubert and Stylistic Perfection in Realism
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: literary-realism-objective-representation
   type: hard

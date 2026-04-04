@@ -4,7 +4,7 @@ title: The Jazz Age and Modern Urban Culture
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: lost-generation-post-wwi-disillusionment
   type: soft

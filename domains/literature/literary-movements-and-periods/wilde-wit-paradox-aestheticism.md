@@ -4,7 +4,7 @@ title: Oscar Wilde and Paradox in Aestheticism
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 - id: aestheticism-beauty-primacy
   type: hard

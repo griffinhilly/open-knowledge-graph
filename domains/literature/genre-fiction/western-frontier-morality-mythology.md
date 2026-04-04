@@ -4,7 +4,7 @@ title: 'Western: Frontier, Morality, and Landscape'
 domain: literature
 course: genre-fiction
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 tags:
 - western

@@ -4,9 +4,9 @@ title: 'Genre Fiction: Definition and Characteristics'
 domain: literature
 course: genre-fiction
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
-- id: fiction
+- id: genre-awareness-intro
   type: hard
 builds-toward:
 - genre-conventions-and-reader-contract

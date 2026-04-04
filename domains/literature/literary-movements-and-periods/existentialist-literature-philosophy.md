@@ -4,9 +4,9 @@ title: 'Existentialist Literature: Freedom, Absurdity, and Authenticity'
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 builds-toward:
 - camus-sartre-absurdity-freedom

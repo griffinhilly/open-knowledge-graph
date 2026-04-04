@@ -4,9 +4,9 @@ title: 'Realism: Objective Representation and Social Truth'
 domain: literature
 course: literary-movements-and-periods
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 - id: victorian-era-literature-overview
   type: soft
