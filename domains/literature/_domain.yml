@@ -2,6 +2,12 @@ domain: literature
 title: Literature
 description: The study of written works as art forms that illuminate the human condition.
 courses:
+- id: first-stories-and-read-alouds
+  title: First Stories & Read-Alouds
+  stage: pre-formal
+- id: reading-and-understanding-stories
+  title: Reading & Understanding Stories
+  stage: concrete-operations
 - id: stories-and-narrative
   title: Stories & Narrative
   stage: abstract-reasoning

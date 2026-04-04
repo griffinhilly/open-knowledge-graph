@@ -1,19 +1,21 @@
 # Open Knowledge Graph Memory
 
-## Status (Apr 1, 2026)
-- **14,362 topics** across **19 domains**, **235 courses** (6 new from P2)
+## Status (Apr 4, 2026)
+- **15,304 topics** across **19 domains**, **261 courses** (16 literature courses)
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **Radial graph shows 18 domains** (practical-life-skills excluded — kept on index/domain maps)
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
-- Phase 9C DONE. P0 + P1 expansion DONE. Phase 10 IN PROGRESS.
+- Phase 10 DONE. Phase 10.5 (Literature Expansion) DONE. Phase 11 (Early-Childhood) DONE.
 - **Domain maps are primary navigation** — hierarchy views removed from CI and all links
 - **CI pipeline**: validate → index → radial → topic pages → domain maps → assessment → quiz
-- **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking + quiz staleness warning (~7s). Setup: `git config core.hooksPath hooks`
-- **0 dangling prereqs** (pre-P2) — all 482 resolved Apr 1 via `fix_dangling_prereqs.py`. P2 additions may have introduced new dangling refs.
-- **240 T/F questions fixed** — 181 `can rarely→cannot`, 21 `if and primarily if→if and only if`, 35 garbled idioms, 3 `Primarily→Only`.
-- **P2 generation complete** — +271 topics, 6 new courses, 15 courses extended. Haiku agents generated, needs quality review.
-- **Phase 10 (Question Quality Audit) DONE** — 10A/B/C/D/E all completed or resolved as non-issues.
-- **_domain.yml reconciled** — 79 course stages fixed via modal-stage logic. May need refresh for new P2 courses.
+- **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking + quiz staleness warning + question YAML error checks (~17s). Setup: `git config core.hooksPath hooks`
+- **Literature expansion (Apr 3)**: 6 → 14 courses, 483 → 1,067 topics. 8 new courses: Stories & Narrative, Mythology/Folklore, Literary Movements, Genre Fiction, Creative Nonfiction, World Literature, Children's/YA, Digital & Experimental. All with Q+E.
+- **Quiz balancing**: `generate_assessment_questions.py` round-robins across courses within each stage tier.
+- **Validation hardened**: question YAML errors (invalid YAML, non-string options) promoted from warnings to errors. Quick mode now checks them.
+- **Early-Childhood expansion (Apr 4)**: +358 topics, 12 new courses across 7 domains. Music (3 courses: Musical Play & Listening, Rhythm & Song, Listening & Musical Elements), Literature (2: First Stories & Read-Alouds, Reading & Understanding Stories), Psychology (3: Feelings & Self-Awareness, Understanding Self & Others, Growing Up & Getting Along), History (Then & Now), Philosophy (Wondering & Thinking), Social Sciences (My Community & World), Arts (Creative Play & Expression). All with Q+E.
+- **14 near-duplicate pairs** in literature courses — need dedup pass.
+- **~7 topics with stripped Questions sections** across other domains (broken YAML, need regeneration).
+- **Cross-domain prereq audit pending** for Phase 11 courses — currently self-contained, no links to existing domain content.
 
 ## 6-Stage Schema (Mar 22, 2026)
 - **Added "expert" stage** for graduate/research content (2,662 topics)
@@ -45,12 +47,19 @@
 - **Stage audit principle**: stage based on actual file content, not whether simpler version exists for younger learners
 - **localStorage keys**: `okg-fluency`, `okg-fluency-conf`, `okg-fluency-meta`, `okg-goals`, `okg-adjustments`
 
+## Stage Audit (Apr 1, 2026)
+- **835 topics restaged**: 784 auto-promoted (hard-prereq cascade, 7 iterations), 30 content-reviewed (13 Sonnet agents), 6 high-fan-out over-staged topics fixed + 15 downstream cascade.
+- **Auto-promote tool**: `tools/auto_promote_stages.py` — iteratively promotes topics below their hard prereqs. Run with `--apply`.
+- **Course-stage audit**: Integrated into `validate.py` (full mode). Warns on courses staged below median cross-course prereq.
+- **Standalone audit**: `tools/audit_course_stages.py` — finds misstaged courses with `--fix` option.
+
 ## Domain Map Architecture (Mar 24, 2026)
 - **Tier layout**: Courses grouped by developmental stage → tiers. Within-tier overlap ~50%, between-tier ~25%.
 - **Branch X-positions**: Manual left-right axis per domain (e.g., math: discrete←→analysis). Stored in `COURSE_BRANCH_X` dict. Non-math mappings are AI-proposed, need human review.
 - **Sizing**: `area ∝ degree`, out-degree weighted 2x. DEGREE_CEILING=25 for consistent sizing across views.
 - **Row splitting**: 3x depth multiplier, recursive splitting (3 passes, cap 20 topics/row).
 - **Centroid-anchored placement**: Each layer anchors on connected-neighbor centroid, then 10 rounds of 40% neighbor drift.
+- **Cross-course depth floor** (Apr 1): `compute_course_depths` uses domain-wide depth as floor for within-course depth, SCALED to the course's own depth range. Prevents height inflation while fixing cross-course prereq ordering.
 - **Radial integration DONE** (Mar 25): `visualize_radial.py` imports `COURSE_BRANCH_X` from domain map. Auto-detects `BRANCH_FLIP` per domain using cross-domain edge lengths within 3-domain angular window. Plan doc: `tools/radial-branch-alignment.md`.
 - **Leaf connector tool**: `tools/connect_leaves.py` — tag/title overlap scoring, cycle-safe apply, duplicate detection. Used for 5 domains so far.
 - **Dedup tool**: `tools/dedup_pairs.py` — delete weaker file + redirect references. Caveat: broad text replacement can corrupt IDs/tags if delete_id is substring of keep_id (fixed in code but verify after runs).
@@ -94,3 +103,6 @@
 - **Radial semantic zoom**: Course labels computed dynamically from visible nodes only — precomputed centroids break when courses span large radial distances (centroid is in the middle, zooming into one end loses the label). Must use viewport-filtered approach.
 - **Radial viewport bounds**: Must divide by `camScale * viewScale`, not just `camScale`. viewScale = `Math.min(W,H) / 1200`.
 - **Git worktrees**: Work well for parallel OKG development. Branches touched different file sets (tools/ vs domains/) so merges were clean. Remove worktrees before deleting branches. Kill HTTP servers before removing worktree directories.
+- **Killing bash scripts doesn't kill `claude --print` children**: The orchestrator spawns `claude --print` as a subprocess. Killing the parent bash script (via `taskkill`) leaves the claude process running. This caused double-generation when a sequential batch was "killed" but its child completed. Use process groups or kill the claude PID directly.
+- **Haiku MC option format bug**: Haiku agents frequently write MC options as `{0: "text"}` dicts instead of plain strings in YAML. Run a validation pass after any Haiku Q+E generation to catch these before pushing.
+- **Haiku context limits for Q+E**: Haiku agents hit context limits at ~30-40 file edits and either stop or write placeholder content. Split courses into ≤30-file batches for Q+E agents.

@@ -2,15 +2,21 @@
 
 ## Current State
 
-**14,946 topics** across 19 domains, **249 courses** (14 literature courses). Radial graph shows 18 domains (practical-life-skills excluded).
+**15,304 topics** across 19 domains, **261 courses** (16 literature courses). Radial graph shows 18 domains (practical-life-skills excluded).
 
-**Last session (Apr 3, 2026):**
-- *Literature domain expansion*: 6 → 14 courses, 483 → 1,067 topics (+584). 8 new courses: Stories & Narrative, Mythology/Folklore/Oral Traditions (abstract-reasoning), Literary Movements & Periods, Genre Fiction, Creative Nonfiction, World Literature, Children's & YA Literature (formal-systems), Digital & Experimental Literature (advanced). All with Q+E.
-- *Quiz balancing fix*: `generate_assessment_questions.py` now round-robins across courses within each stage tier.
-- Literature quiz bias resolved — drama no longer dominates abstract-reasoning questions.
+**Last session (Apr 4, 2026):**
+- *Phase 11: Early-Childhood Expansion DONE*: 358 new topics across 12 new courses in 7 domains. All with Q+E.
+  - Music: Musical Play & Listening (30, pre-formal), Rhythm & Song (32, concrete-ops), Listening & Musical Elements (32, abstract-reasoning)
+  - Literature: First Stories & Read-Alouds (28, pre-formal), Reading & Understanding Stories (32, concrete-ops)
+  - Psychology: Feelings & Self-Awareness (28, pre-formal), Understanding Self & Others (32, concrete-ops), Growing Up & Getting Along (32, abstract-reasoning)
+  - History: Then & Now (28, concrete-ops)
+  - Philosophy: Wondering & Thinking (28, concrete-ops)
+  - Social Sciences: My Community & World (28, concrete-ops)
+  - Arts & Aesthetics: Creative Play & Expression (28, pre-formal)
+- Fixed 7 encoding errors, 15 YAML quoting errors, 2 duplicate ID collisions during generation.
 
 **Known issues:**
-- **~14 near-duplicate pairs** in new literature courses (from double-generation). Low priority — different content, not true duplicates.
+- **~14 near-duplicate pairs** in literature courses (from Phase 10.5 double-generation). Low priority.
 - **~2,550 T/F questions** with hedging language — ~1-3% arguable. Low priority.
 - **Upstream over-staging**: Chemistry agent flagged physics/chemistry foundation topics. Targeted pass recommended.
 - Index page + quiz not yet mobile-optimized
@@ -18,8 +24,8 @@
 - **CI deployment failure** (Apr 3) — investigating
 
 **Next steps:**
-1. **Phase 11: Early-Childhood Expansion** — see below
-2. **Fix CI deployment failure**
+1. **Fix CI deployment failure**
+2. **Cross-domain prerequisite audit** for Phase 11 courses (link early-childhood courses to existing content where appropriate)
 3. **Phase 9D** (remaining): domain toggle on radial, progress bars, guided learning paths
 4. Write announcement post
 
@@ -329,7 +335,7 @@ Expanded literature from 6 courses / 483 topics to 14 courses / 1,067 topics.
 - [x] Quiz pool rebalanced with course round-robin selection
 - [x] Validation passing, pushed to GitHub Pages
 
-## Phase 11: Early-Childhood Expansion — PLANNED (Apr 3, 2026)
+## Phase 11: Early-Childhood Expansion — DONE (Apr 4, 2026)
 
 Build robust pre-formal and concrete-operations content so the OKG has genuine on-ramps for young learners across domains. Goal: a child starting the quiz at age 5-10 should find engaging, age-appropriate content in most domains.
 

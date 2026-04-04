@@ -3,7 +3,7 @@
 Open-source, machine-readable knowledge graphs mapping prerequisite relationships between topics across every domain of human knowledge.
 
 ## Project Structure
-- `domains/` — 19 domains, 14,362 topics, 235 courses
+- `domains/` — 19 domains, 15,304 topics, 261 courses
 - `tools/` — Python tooling (validate.py, visualize_hierarchy.py, visualize_radial.py, visualize_domain_map.py, generate_topic_pages.py, generate_quiz_page.py, generate_assessment.py, generate_assessment_page.py, generate_assessment_questions.py, connect_leaves.py, dedup_pairs.py, find_near_duplicates.py, reconcile_domain_stages.py, spot_check_new_topics.py, map_dangling_prereqs.py, stats.py, reconcile.py)
 - `hooks/` — Git hooks (pre-push: cycle detection + CI script check). Setup: `git config core.hooksPath hooks`
 - `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph and Q+E content)
@@ -34,13 +34,14 @@ Tool commands: see `guides/tools-reference.md`
 Visualization design: see `guides/visualization.md`
 
 ## Current Status
-- **14,362 topics** across **19 domains**, **235 courses**
+- **15,304 topics** across **19 domains**, **261 courses**
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **All topics at `status: validated`**
 - GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
 - GitHub Actions CI: validates → generates index + radial + topic pages + domain maps + assessment + quiz → deploys to Pages
-- **Phases 1-9C DONE**, **Phase 10 (Question Quality Audit) DONE**
+- **Phases 1-9C DONE**, **Phase 10 (Question Quality Audit) DONE**, **Phase 11 (Early-Childhood) DONE**
 - **P2 topic expansion DONE** (Apr 1): +320 topics, 6 new courses (applied-ethics, history-of-science, economic-social-history, robotics-and-autonomous-systems, music-technology, contemporary-art-new-media), 15 courses extended
+- **Phase 11 DONE** (Apr 4): +358 topics, 12 new early-childhood courses across 7 domains (Music 3, Literature 2, Psychology 3, History 1, Philosophy 1, Social Sciences 1, Arts 1)
 
 ## Related Projects
 - `~/knowledge-architecture/` — Prose-based concept sequences (predecessor project)

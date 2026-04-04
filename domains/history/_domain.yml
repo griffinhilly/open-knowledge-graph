@@ -3,6 +3,9 @@ title: History & Civilization
 description: The study of human societies across time, from earliest civilizations
   to the modern world. Chronological structure provides natural ordering.
 courses:
+- id: then-and-now
+  title: Then & Now
+  stage: concrete-operations
 - id: historical-methods
   title: Historical Methods
   stage: advanced

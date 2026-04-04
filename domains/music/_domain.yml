@@ -3,6 +3,15 @@ title: Music
 description: The study of organized sound — theory, history, performance, and creation.
   More sequential than most arts.
 courses:
+- id: musical-play-and-listening
+  title: Musical Play & Listening
+  stage: pre-formal
+- id: rhythm-and-song
+  title: Rhythm & Song
+  stage: concrete-operations
+- id: listening-and-musical-elements
+  title: Listening & Musical Elements
+  stage: abstract-reasoning
 - id: music-theory-fundamentals
   title: Music Theory Fundamentals
   stage: formal-systems

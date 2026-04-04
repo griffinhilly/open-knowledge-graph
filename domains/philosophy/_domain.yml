@@ -3,6 +3,9 @@ title: Philosophy & Ethics
 description: The systematic study of fundamental questions about existence, knowledge,
   values, reason, mind, and language.
 courses:
+- id: wondering-and-thinking
+  title: Wondering & Thinking
+  stage: concrete-operations
 - id: logic-and-critical-thinking
   title: Logic & Critical Thinking
   stage: formal-systems

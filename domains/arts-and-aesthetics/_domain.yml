@@ -2,6 +2,9 @@ domain: arts-and-aesthetics
 title: Arts & Aesthetics
 description: The visual arts, design principles, and aesthetic theory.
 courses:
+- id: creative-play-and-expression
+  title: Creative Play & Expression
+  stage: pre-formal
 - id: visual-elements-and-principles
   title: Visual Elements & Principles
   stage: abstract-reasoning

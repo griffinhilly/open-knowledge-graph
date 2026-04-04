@@ -3,6 +3,15 @@ title: Psychology & Cognitive Science
 description: The scientific study of mind and behavior, from neural mechanisms to
   social dynamics. Bridges biology, philosophy, and social science.
 courses:
+- id: feelings-and-self-awareness
+  title: Feelings & Self-Awareness
+  stage: pre-formal
+- id: understanding-self-and-others
+  title: Understanding Self & Others
+  stage: concrete-operations
+- id: growing-up-and-getting-along
+  title: Growing Up & Getting Along
+  stage: abstract-reasoning
 - id: research-methods-psychology
   title: Research Methods in Psychology
   stage: formal-systems

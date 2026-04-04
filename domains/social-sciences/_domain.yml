@@ -2,6 +2,9 @@ domain: social-sciences
 title: Social Sciences
 description: The study of human societies, social relationships, and institutions.
 courses:
+- id: my-community-and-world
+  title: My Community & World
+  stage: concrete-operations
 - id: sociology
   title: Sociology
   stage: formal-systems
