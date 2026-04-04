@@ -8,7 +8,7 @@ prerequisites:
   type: soft
 builds-toward:
 - dialogue-characterization
-- subtext-and-unspoken-meaning
+- subtext-in-stories
 tags:
 - dialogue
 - conversation

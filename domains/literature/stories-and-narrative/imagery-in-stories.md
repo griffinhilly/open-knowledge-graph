@@ -1,5 +1,5 @@
 ---
-id: imagery-in-literature
+id: imagery-in-stories
 title: 'Imagery: Language That Creates Mental Pictures'
 domain: literature
 course: stories-and-narrative

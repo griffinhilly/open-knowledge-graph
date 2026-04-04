@@ -7,7 +7,7 @@ prerequisites:
 - id: descriptive-writing
   type: hard
 builds-toward:
-- imagery-in-literature
+- imagery-in-stories
 tags:
 - description
 - sensory

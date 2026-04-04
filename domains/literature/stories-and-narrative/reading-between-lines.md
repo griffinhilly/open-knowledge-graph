@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 builds-toward:
 - theme-identification-intro
-- subtext-and-unspoken-meaning
+- subtext-in-stories
 tags:
 - inference
 - subtext

@@ -4,7 +4,7 @@ title: Imagery in Poetry
 domain: literature
 course: poetry
 prerequisites:
-- id: imagery-in-literature
+- id: imagery-in-stories
   type: hard
 - id: figurative-language
   type: hard

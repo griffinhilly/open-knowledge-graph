@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: dramatic-subtext
   type: hard
-- id: subtext-and-unspoken-meaning
+- id: subtext-in-stories
   type: soft
 - id: dramatic-exposition-revelation
   type: soft

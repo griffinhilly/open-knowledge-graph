@@ -6,7 +6,7 @@ course: literary-analysis
 prerequisites:
 - id: close-reading-techniques
   type: hard
-- id: imagery-in-literature
+- id: imagery-in-stories
   type: soft
 - id: figurative-language
   type: soft

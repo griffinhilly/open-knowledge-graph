@@ -21,7 +21,7 @@ prerequisites:
 - id: stage-blocking-movement
   type: soft
 builds-toward:
-- subtext-and-unspoken-meaning
+- subtext-in-stories
 - scene-beats-and-structure
 tags:
 - dialogue

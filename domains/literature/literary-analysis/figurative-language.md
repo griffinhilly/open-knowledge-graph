@@ -13,7 +13,7 @@ prerequisites:
 - id: metaphor-and-metonymy
   type: soft
 builds-toward:
-- imagery-in-literature
+- imagery-in-stories
 - symbolism-in-literature
 - allegory-and-extended-metaphor
 - tone-and-mood

@@ -4,7 +4,7 @@ title: Imagery and Sensory Language
 domain: literature
 course: literary-analysis
 prerequisites:
-- id: imagery-in-literature
+- id: imagery-in-stories
   type: hard
 - id: imagery-in-poetry
   type: hard

@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - dialogue-construction-stage
-- subtext-and-unspoken-meaning
+- subtext-in-stories
 tags:
 - exposition
 - information-delivery

@@ -1,5 +1,5 @@
 ---
-id: subtext-and-unspoken-meaning
+id: subtext-in-stories
 title: 'Subtext: Meaning Below the Surface'
 domain: literature
 course: stories-and-narrative
