@@ -67,8 +67,12 @@ def parse_frontmatter(filepath):
     return data
 
 
-def validate_questions(filepath, text):
-    """Validate the ## Questions section if present. Returns True if questions found."""
+def validate_questions(filepath, text, warnings_only=False):
+    """Validate the ## Questions section if present. Returns True if questions found.
+
+    When warnings_only=True (quick mode), only checks for issues that would crash
+    downstream tools (invalid YAML, non-string options). Skips advisory warnings.
+    """
     # Check if a ## Questions section exists
     questions_match = re.search(r"^## Questions\s*\n", text, re.MULTILINE)
     if not questions_match:
@@ -84,76 +88,84 @@ def validate_questions(filepath, text):
 
     yaml_block = re.search(r"```ya?ml\s*\n(.*?)```", section_text, re.DOTALL)
     if not yaml_block:
-        warn(filepath, "Questions section exists but contains no YAML code block")
+        if not warnings_only:
+            warn(filepath, "Questions section exists but contains no YAML code block")
         return True
 
     try:
         questions = yaml.safe_load(yaml_block.group(1))
     except yaml.YAMLError as e:
-        warn(filepath, f"Questions section has invalid YAML: {e}")
+        error(filepath, f"Questions section has invalid YAML: {e}")
         return True
 
     if not isinstance(questions, list):
-        warn(filepath, "Questions YAML must be a list of question objects")
+        if not warnings_only:
+            warn(filepath, "Questions YAML must be a list of question objects")
         return True
 
-    if len(questions) < 2 or len(questions) > 5:
+    if not warnings_only and (len(questions) < 2 or len(questions) > 5):
         warn(filepath, f"Questions should have 2-5 items, found {len(questions)}")
 
     for i, q in enumerate(questions):
         if not isinstance(q, dict):
-            warn(filepath, f"questions[{i}] must be a mapping")
+            if not warnings_only:
+                warn(filepath, f"questions[{i}] must be a mapping")
             continue
 
-        # Required fields
-        if "question" not in q:
-            warn(filepath, f"questions[{i}] missing 'question' field")
-        elif not isinstance(q["question"], str):
-            warn(filepath, f"questions[{i}] 'question' must be a string")
+        if not warnings_only:
+            # Required fields (advisory)
+            if "question" not in q:
+                warn(filepath, f"questions[{i}] missing 'question' field")
+            elif not isinstance(q["question"], str):
+                warn(filepath, f"questions[{i}] 'question' must be a string")
 
-        if "type" not in q:
-            warn(filepath, f"questions[{i}] missing 'type' field")
-        elif q["type"] not in VALID_QUESTION_TYPES:
-            warn(filepath, f"questions[{i}] type '{q['type']}' not in {VALID_QUESTION_TYPES}")
+            if "type" not in q:
+                warn(filepath, f"questions[{i}] missing 'type' field")
+            elif q["type"] not in VALID_QUESTION_TYPES:
+                warn(filepath, f"questions[{i}] type '{q['type']}' not in {VALID_QUESTION_TYPES}")
 
-        if "answer" not in q:
-            warn(filepath, f"questions[{i}] missing 'answer' field")
+            if "answer" not in q:
+                warn(filepath, f"questions[{i}] missing 'answer' field")
 
-        if "explanation" not in q:
-            warn(filepath, f"questions[{i}] missing 'explanation' field")
-        elif not isinstance(q["explanation"], str):
-            warn(filepath, f"questions[{i}] 'explanation' must be a string")
+            if "explanation" not in q:
+                warn(filepath, f"questions[{i}] missing 'explanation' field")
+            elif not isinstance(q["explanation"], str):
+                warn(filepath, f"questions[{i}] 'explanation' must be a string")
 
-        # Type-specific validation
+        # Type-specific validation — errors that crash downstream tools
         qtype = q.get("type")
         answer = q.get("answer")
 
         if qtype == "multiple-choice":
             options = q.get("options")
-            if options is None:
-                warn(filepath, f"questions[{i}] multiple-choice missing 'options'")
-            elif not isinstance(options, list):
-                warn(filepath, f"questions[{i}] 'options' must be a list")
-            elif len(options) < 3 or len(options) > 5:
-                warn(filepath, f"questions[{i}] multiple-choice should have 3-5 options, found {len(options)}")
-            else:
+            if not warnings_only:
+                if options is None:
+                    warn(filepath, f"questions[{i}] multiple-choice missing 'options'")
+                elif not isinstance(options, list):
+                    warn(filepath, f"questions[{i}] 'options' must be a list")
+                elif len(options) < 3 or len(options) > 5:
+                    warn(filepath, f"questions[{i}] multiple-choice should have 3-5 options, found {len(options)}")
+
+            # Non-string options crash generate_topic_pages.py — always an error
+            if isinstance(options, list):
                 for j, opt in enumerate(options):
                     if not isinstance(opt, str):
-                        warn(filepath, f"questions[{i}] options[{j}] must be a string")
+                        error(filepath, f"questions[{i}] options[{j}] must be a string (got {type(opt).__name__})")
 
-            if answer is not None:
+            if not warnings_only and answer is not None:
                 if not isinstance(answer, int):
                     warn(filepath, f"questions[{i}] multiple-choice 'answer' must be an integer (0-indexed)")
                 elif options and isinstance(options, list) and (answer < 0 or answer >= len(options)):
                     warn(filepath, f"questions[{i}] answer index {answer} out of range for {len(options)} options")
 
-        elif qtype == "true-false":
-            if answer is not None and not isinstance(answer, bool):
-                warn(filepath, f"questions[{i}] true-false 'answer' must be a boolean (true/false)")
+        elif not warnings_only:
+            if qtype == "true-false":
+                if answer is not None and not isinstance(answer, bool):
+                    warn(filepath, f"questions[{i}] true-false 'answer' must be a boolean (true/false)")
 
-        elif qtype == "short-answer":
-            if answer is not None and not isinstance(answer, str):
-                warn(filepath, f"questions[{i}] short-answer 'answer' must be a string")
+            elif qtype == "short-answer":
+                if answer is not None and not isinstance(answer, str):
+                    warn(filepath, f"questions[{i}] short-answer 'answer' must be a string")
 
     return True
 
@@ -310,11 +322,12 @@ def main():
         courses = domain_courses.get(domain, set())
         validate_topic(filepath, data, courses)
 
-        # Validate Questions section if present (skip in quick mode)
-        if not quick:
-            text = filepath.read_text(encoding="utf-8")
-            if validate_questions(filepath, text):
-                topics_with_questions += 1
+        # Validate Questions section if present
+        # Quick mode: only check for errors (invalid YAML, non-string options)
+        # Full mode: also check for warnings (missing fields, counts, etc.)
+        text = filepath.read_text(encoding="utf-8")
+        if validate_questions(filepath, text, warnings_only=quick):
+            topics_with_questions += 1
 
         if topic_id:
             if topic_id in all_topics:

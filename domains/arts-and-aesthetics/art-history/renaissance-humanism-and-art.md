@@ -69,7 +69,7 @@ Compare Cimabue's Madonna Enthroned with Giotto's Ognissanti Madonna and then Ma
 - question: "The Renaissance represented a fundamental shift in the underlying premise of art — not just new techniques added to existing priorities, but a replacement of art's central question."
   type: true-false
   answer: true
-  explanation: "The explainer's concluding statement makes this explicit: 'The Renaissance did not merely add new techniques to the medieval toolkit; it replaced the underlying premise, shifting art's central question from "how do we represent the sacred order?" to "how do we represent what we see, know, and are?"' Medieval painters were not failing to depict realistic space; they were prioritizing spiritual hierarchy. Renaissance artists were doing something categorically different — not better at the same task, but pursuing a different task altogether."
+  explanation: "The explainer's concluding statement makes this explicit: 'The Renaissance did not merely add new techniques to the medieval toolkit; it replaced the underlying premise, shifting art's central question from 'how do we represent the sacred order?' to 'how do we represent what we see, know, and are?'' Medieval painters were not failing to depict realistic space; they were prioritizing spiritual hierarchy. Renaissance artists were doing something categorically different — not better at the same task, but pursuing a different task altogether."
 
 - question: "How did Renaissance humanism change what artists believed art should do, and how is this visible in the way they used both classical antiquity and linear perspective?"
   type: short-answer

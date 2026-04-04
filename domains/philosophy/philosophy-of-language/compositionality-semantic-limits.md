@@ -32,45 +32,6 @@ Start with clear compositional cases (arithmetic expressions, simple predicates)
 - Assuming idioms necessarily violate compositionality; some idiomatic meanings are compositional at metaphorical level.
 - Overlooking that context-sensitivity might be handled compositionally if we include context-dependence in semantic values.
 
-## Questions
-
-```yaml
-- question: "Kaplan's framework handles context-sensitive expressions like 'I' and 'here' without abandoning compositionality. How does it achieve this?"
-  type: multiple-choice
-  options:
-    - "Context-sensitive words are treated as idioms stored as wholes, bypassing composition"
-    - "Compositionality is applied to character — a function from contexts to contents — rather than to content directly, preserving the principle at a more abstract level"
-    - "Context-sensitivity proves compositionality is false, since the same sentence can express different propositions in different contexts"
-    - "Compositionality only applies to logical and mathematical language, not to natural language expressions like indexicals"
-  answer: 1
-  explanation: "Kaplan's key move: 'I' doesn't have a fixed content (an individual); it has a character — a rule that picks out the speaker in any context. Composition operates over these characters. Context then maps character to content. This extends compositionality to handle indexicals without abandoning the principle — it just reveals that compositionality operates at a level of semantic abstraction richer than surface content. The principle is preserved, not refuted."
-
-- question: "A student argues: 'Kick the bucket means to die, but you can't compute that meaning from what "kick" and "bucket" literally mean — therefore compositionality is false.' What is the strongest response?"
-  type: multiple-choice
-  options:
-    - "The student is correct — idioms are decisive counterexamples to compositionality"
-    - "The idiom's meaning may still be compositionally derived from the conventionalized metaphorical meanings of the parts, not their literal meanings — apparent failure masks more subtle compositional structure"
-    - "Idioms are exempt from compositionality by definition, so they don't count as evidence for or against it"
-    - "The idiom fails compositionality, but idioms are so rare that the principle is still approximately correct"
-  answer: 1
-  explanation: "The nuanced response: compositionality only requires that meanings derive from the meanings of the parts — it doesn't specify those meanings must be literal. If 'kick' carries a conventional metaphorical association with death (the image of a bucket being kicked), the idiomatic meaning might still be compositionally derived from those conventionalized metaphorical meanings. Whether this counts as 'real' compositionality is contested, but it shows that apparent failures often mask deeper compositional structure rather than outright violations."
-
-- question: "Compositionality is compatible with context-sensitive expressions if the principle is understood to apply to character (a function from context to content) rather than to content directly."
-  type: true-false
-  answer: true
-  explanation: "This is Kaplan's extension of compositionality. Instead of requiring that complex expressions have context-independent semantic values, we allow semantic values to be characters — rules that yield different contents in different contexts. Compositionality then holds at the level of character: the character of a complex expression is determined by the characters of its parts and their mode of combination. Context-sensitivity becomes a feature of the semantic values, not a violation of the compositional architecture."
-
-- question: "If compositionality holds, nearly every sentence should have a context-independent meaning, because compositionality requires meaning to be fully determined by the parts."
-  type: true-false
-  answer: false
-  explanation: "Compositionality requires that complex meanings be determined by the meanings of parts — but those 'meanings' can themselves be context-dependent. If 'I' means 'the speaker in this context,' then 'I am hungry' compositionally combines this context-sensitive part with a predicate, yielding a sentence whose full content is fixed only relative to a context. The principle governs how parts combine, not whether those parts are context-sensitive. Context-sensitivity and compositionality are orthogonal properties."
-
-- question: "Why do idioms not straightforwardly refute compositionality, even though their idiomatic meanings cannot be computed from the literal meanings of their parts?"
-  type: short-answer
-  answer: "Compositionality only requires that meanings derive from the meanings of parts — it doesn't specify those meanings must be literal. Idioms may be compositional at a metaphorical level: if the parts carry conventionalized figurative meanings (e.g., 'kick the bucket' involves a conventional mapping from the image of a kicked bucket to the concept of death), then the idiomatic meaning might still be computed compositionally from those metaphorical meanings. The apparent failure is at the level of literal interpretation; it may not extend to the level of conventional meaning. Whether this preserves 'true' compositionality is a substantive debate, but it shows that apparent violations often indicate more complex compositional structure rather than a breakdown of the principle."
-  explanation: "This also illustrates the broader lesson: when compositionality appears to fail, the right response is often to ask whether we have correctly identified the relevant semantic values of the parts. Extending the principle to operate over richer semantic values (metaphorical meanings, characters, etc.) often resolves apparent counterexamples."
-```
-
 ## Explainer
 
 You've mastered the compositionality principle: the meaning of a complex expression is a function of the meanings of its parts and their mode of combination. The power of this principle is that it explains how finite minds understand an infinite number of sentences — you don't memorize meanings whole, you compute them. But the principle faces stress tests that reveal both its scope and its limits. Understanding where compositionality holds and where it strains illuminates the deeper architecture of how meaning is constructed.

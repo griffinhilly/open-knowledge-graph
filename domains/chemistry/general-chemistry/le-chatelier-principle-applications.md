@@ -56,7 +56,7 @@ For each type of stress (concentration, pressure, temperature), predict the dire
 - question: "When a stress is applied to an equilibrium system, Le Chatelier's principle predicts that the system will shift until the original conditions are fully restored."
   type: true-false
   answer: false
-  explanation: "Le Chatelier's principle states the system shifts to *partially* counteract the stress — it never fully restores the original conditions. The Explainer explicitly states: 'the word "partially" is essential — the system never fully restores the original conditions; it reaches a new equilibrium that reduces the stress.' For example, if you add N₂ to the Haber equilibrium, the system shifts forward and consumes some of the added N₂ — but the final equilibrium has more N₂ than the original. The net effect is that the stress is dampened, not eliminated."
+  explanation: "Le Chatelier's principle states the system shifts to *partially* counteract the stress — it never fully restores the original conditions. The Explainer explicitly states: 'the word 'partially' is essential — the system never fully restores the original conditions; it reaches a new equilibrium that reduces the stress.' For example, if you add N₂ to the Haber equilibrium, the system shifts forward and consumes some of the added N₂ — but the final equilibrium has more N₂ than the original. The net effect is that the stress is dampened, not eliminated."
 
 - question: "Explain why Le Chatelier's principle is simply a qualitative shortcut for Q vs. K reasoning. Use a concrete example to show that both approaches give the same prediction."
   type: short-answer
