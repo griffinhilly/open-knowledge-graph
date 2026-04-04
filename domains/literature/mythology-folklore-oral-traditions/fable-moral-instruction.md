@@ -66,7 +66,6 @@ Fables are children's literature with simple morals. (Fables encode sophisticate
 
 ## Explainer
 
-## Explainer
 
 A fable is a brief narrative with animal characters and an explicit moral lesson. Fables are deliberately constructed pedagogical forms—not merely entertaining stories but optimized vehicles for moral instruction.
 

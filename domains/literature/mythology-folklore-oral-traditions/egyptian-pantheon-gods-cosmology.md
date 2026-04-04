@@ -70,7 +70,6 @@ Egyptian gods are completely alien to modern thought. (While culturally specific
 
 ## Explainer
 
-## Explainer
 
 The Egyptian pantheon is a systematically organized theology, not random mythology. Each god embodies a specific cosmic function or natural force: Horus embodies kingship; Thoth embodies wisdom and writing; Sekhmet embodies divine wrath and healing. The fundamental cosmic tension is between maat (order) and isfet (chaos), with gods working to maintain order.
 

@@ -72,7 +72,6 @@ Grimm and Perrault tales are authentic folk traditions. (Both compilers heavily 
 
 ## Explainer
 
-## Explainer
 
 Fairy tales emerge from oral folk traditions but the fairy tales we know are literary versions shaped by editing and publication. The Grimm Brothers collected and published German oral tales; Perrault published French tales. These published versions differ significantly from their oral origins.
 

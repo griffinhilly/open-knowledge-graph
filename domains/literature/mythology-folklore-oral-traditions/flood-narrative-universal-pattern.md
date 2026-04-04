@@ -72,7 +72,6 @@ Flood narratives prove ancient peoples experienced a single global flood. (While
 
 ## Explainer
 
-## Explainer
 
 Flood narratives appear worldwide: Mesopotamian (Gilgamesh), Hebrew (Noah), Hindu (Matsya), Greek (Deucalion), Indigenous traditions. These depict a deluge destroying the existing world, eliminating corruption or restoring cosmic order, with a remnant surviving to repopulate.
 
