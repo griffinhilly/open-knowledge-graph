@@ -305,7 +305,7 @@ def generate_questions_page(tid, all_data, all_sections, questions):
                 options_html += (
                     f'<div class="q-option" data-idx="{j}"{is_correct}>'
                     f'<span class="q-letter">{letter}</span>'
-                    f'<span>{html_mod.escape(opt)}</span>'
+                    f'<span>{html_mod.escape(str(opt))}</span>'
                     f'</div>\n'
                 )
             questions_html_parts.append(f"""
