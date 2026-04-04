@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: schema-theory
   type: soft
+- id: healthy-relationships
+  type: soft
 builds-toward:
 - stereotyping-and-implicit-bias
 - prejudice-and-discrimination

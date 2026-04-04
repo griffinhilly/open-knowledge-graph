@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 builds-toward:
 - basic-chord-concepts
+- whole-step-half-step-fundamentals
+- audiation-and-inner-hearing
 tags:
 - intervals
 - ear training

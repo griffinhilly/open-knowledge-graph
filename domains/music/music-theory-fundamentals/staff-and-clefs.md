@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: pitch-and-frequency
   type: hard
+- id: music-notation-history
+  type: soft
 builds-toward:
 - note-names-and-octaves
 - key-signatures

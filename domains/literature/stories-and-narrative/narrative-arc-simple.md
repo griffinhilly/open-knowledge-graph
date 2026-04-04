@@ -6,6 +6,8 @@ course: stories-and-narrative
 prerequisites:
 - id: story-and-narrative-basics
   type: hard
+- id: cause-and-effect-in-plots
+  type: soft
 builds-toward:
 - exposition-setup-basics
 - rising-action-intro

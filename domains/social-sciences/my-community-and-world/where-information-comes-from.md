@@ -6,7 +6,8 @@ course: my-community-and-world
 prerequisites:
 - id: media-and-news
   type: hard
-builds-toward: []
+builds-toward:
+- culture-and-society
 tags:
 - information
 - sources

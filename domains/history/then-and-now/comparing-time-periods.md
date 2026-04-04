@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: cause-and-effect-in-history
   type: soft
-builds-toward: []
+builds-toward:
+- ancient-civilization-characteristics
 tags:
 - comparison
 - time periods

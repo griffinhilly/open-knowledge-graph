@@ -6,6 +6,8 @@ course: ear-training
 prerequisites:
 - id: pitch-and-frequency
   type: soft
+- id: intervals-and-ear-training
+  type: soft
 builds-toward:
 - melodic-dictation-stepwise
 - sight-singing-stepwise-melodies

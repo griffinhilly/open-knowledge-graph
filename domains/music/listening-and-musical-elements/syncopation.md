@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: simple-rhythm-patterns
   type: hard
-builds-toward: []
+builds-toward:
+- note-durations-and-rests
 tags:
 - syncopation
 - rhythm

@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: character-dialogue
   type: hard
-builds-toward: []
+builds-toward:
+- story-and-narrative-basics
 tags:
 - motivation
 - emotions

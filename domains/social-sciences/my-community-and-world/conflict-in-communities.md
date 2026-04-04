@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: respecting-differences-in-communities
   type: soft
-builds-toward: []
+builds-toward:
+- power-and-political-order
 tags:
 - conflict
 - resolution

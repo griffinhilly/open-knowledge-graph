@@ -6,6 +6,8 @@ course: stories-and-narrative
 prerequisites:
 - id: story-and-narrative-basics
   type: hard
+- id: point-of-view
+  type: soft
 builds-toward:
 - antagonist-introduction
 - character-development-basics

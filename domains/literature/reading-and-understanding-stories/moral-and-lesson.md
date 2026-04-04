@@ -6,7 +6,8 @@ course: reading-and-understanding-stories
 prerequisites:
 - id: problem-and-solution
   type: hard
-builds-toward: []
+builds-toward:
+- character-motivation-basics
 tags:
 - moral
 - theme

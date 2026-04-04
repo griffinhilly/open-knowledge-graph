@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: musical-cultures-around-the-world
   type: soft
-builds-toward: []
+builds-toward:
+- staff-and-clefs
 tags:
 - notation
 - history

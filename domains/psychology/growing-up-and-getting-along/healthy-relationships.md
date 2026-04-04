@@ -10,7 +10,8 @@ prerequisites:
   type: hard
 - id: peer-pressure-and-decision-making
   type: soft
-builds-toward: []
+builds-toward:
+- social-cognition
 tags:
 - relationships
 - healthy

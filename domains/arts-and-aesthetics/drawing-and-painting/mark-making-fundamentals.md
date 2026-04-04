@@ -3,7 +3,9 @@ id: mark-making-fundamentals
 title: Mark-Making Fundamentals
 domain: arts-and-aesthetics
 course: drawing-and-painting
-prerequisites: []
+prerequisites:
+- id: clay-and-playdough
+  type: soft
 builds-toward:
 - contour-drawing
 - gesture-drawing

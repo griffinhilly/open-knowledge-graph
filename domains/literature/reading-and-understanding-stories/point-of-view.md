@@ -6,7 +6,8 @@ course: reading-and-understanding-stories
 prerequisites:
 - id: main-character-vs-supporting
   type: hard
-builds-toward: []
+builds-toward:
+- protagonist-introduction
 tags:
 - point-of-view
 - narrator

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fractions-halves-thirds-fourths
   type: soft
+- id: syncopation
+  type: soft
 builds-toward:
 - time-signatures-and-meter
 - rhythm-and-syncopation

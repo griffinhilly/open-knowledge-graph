@@ -6,7 +6,8 @@ course: then-and-now
 prerequisites:
 - id: historical-figures-for-kids
   type: hard
-builds-toward: []
+builds-toward:
+- ancient-civilization-characteristics
 tags:
 - leaders
 - civil rights

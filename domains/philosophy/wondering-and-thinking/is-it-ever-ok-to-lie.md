@@ -6,7 +6,8 @@ course: wondering-and-thinking
 prerequisites:
 - id: right-and-wrong
   type: hard
-builds-toward: []
+builds-toward:
+- normative-ethics-overview
 tags:
 - honesty
 - ethics

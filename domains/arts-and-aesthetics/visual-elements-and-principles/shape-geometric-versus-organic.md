@@ -3,7 +3,9 @@ id: shape-geometric-versus-organic
 title: 'Shape: Geometric and Organic'
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
-prerequisites: []
+prerequisites:
+- id: printing-and-stamping
+  type: soft
 builds-toward:
 - shape-and-space-interaction
 - symmetry-asymmetry-and-radial-balance

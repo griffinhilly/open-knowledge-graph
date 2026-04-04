@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: managing-anxiety-and-stress
   type: soft
-builds-toward: []
+builds-toward:
+- developmental-psychology-overview
 tags:
 - change
 - uncertainty

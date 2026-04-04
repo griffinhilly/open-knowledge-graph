@@ -10,7 +10,8 @@ prerequisites:
   type: hard
 - id: empathy-across-differences
   type: soft
-builds-toward: []
+builds-toward:
+- social-psychology-overview
 tags:
 - stereotypes
 - bias

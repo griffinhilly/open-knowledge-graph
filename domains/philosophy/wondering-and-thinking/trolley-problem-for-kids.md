@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: making-good-decisions
   type: hard
-builds-toward: []
+builds-toward:
+- normative-ethics-overview
 tags:
 - trolley-problem
 - ethics

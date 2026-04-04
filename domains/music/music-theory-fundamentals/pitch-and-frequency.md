@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: logarithms-intro
   type: soft
+- id: reading-simple-staff-notation
+  type: soft
 builds-toward:
 - staff-and-clefs
 - note-names-and-octaves

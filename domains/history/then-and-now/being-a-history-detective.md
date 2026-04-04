@@ -8,7 +8,9 @@ prerequisites:
   type: hard
 - id: primary-sources-photos-letters-artifacts
   type: hard
-builds-toward: []
+builds-toward:
+- ancient-civilization-characteristics
+- ancient-world-chronology-methods
 tags:
 - inquiry
 - detective

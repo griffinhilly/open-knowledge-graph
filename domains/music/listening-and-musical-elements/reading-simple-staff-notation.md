@@ -13,6 +13,7 @@ prerequisites:
 builds-toward:
 - dynamics-and-expression-marks
 - tempo-and-time-signatures
+- pitch-and-frequency
 tags:
 - notation
 - staff

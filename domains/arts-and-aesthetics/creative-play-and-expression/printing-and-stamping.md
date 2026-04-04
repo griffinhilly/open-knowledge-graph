@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: shapes-in-art
   type: soft
-builds-toward: []
+builds-toward:
+- shape-geometric-versus-organic
 tags:
 - printing
 - stamping

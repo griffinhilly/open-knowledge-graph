@@ -8,7 +8,8 @@ prerequisites:
   type: soft
 - id: looking-at-colors-in-nature
   type: hard
-builds-toward: []
+builds-toward:
+- color-wheel-basics
 tags:
 - nature
 - found-materials

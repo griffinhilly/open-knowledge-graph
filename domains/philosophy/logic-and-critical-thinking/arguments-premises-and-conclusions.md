@@ -3,7 +3,11 @@ id: arguments-premises-and-conclusions
 title: Arguments, Premises, and Conclusions
 domain: philosophy
 course: logic-and-critical-thinking
-prerequisites: []
+prerequisites:
+- id: big-questions-in-philosophy
+  type: soft
+- id: responsibility-and-blame
+  type: soft
 builds-toward:
 - validity-and-soundness
 - deductive-reasoning

@@ -10,6 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - basic-chord-concepts
+- whole-step-half-step-fundamentals
 tags:
 - scales
 - key signature

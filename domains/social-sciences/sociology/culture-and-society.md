@@ -3,7 +3,11 @@ id: culture-and-society
 title: Culture and Society
 domain: social-sciences
 course: sociology
-prerequisites: []
+prerequisites:
+- id: how-communities-change-over-time
+  type: soft
+- id: where-information-comes-from
+  type: soft
 builds-toward:
 - socialization
 - social-norms-and-values

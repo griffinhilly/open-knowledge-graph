@@ -3,7 +3,11 @@ id: whole-step-half-step-fundamentals
 title: Whole Steps and Half Steps
 domain: music
 course: music-theory-fundamentals
-prerequisites: []
+prerequisites:
+- id: scales-and-key-signatures
+  type: soft
+- id: intervals-and-ear-training
+  type: soft
 builds-toward:
 - major-scale-construction
 - minor-scale-construction-fundamentals

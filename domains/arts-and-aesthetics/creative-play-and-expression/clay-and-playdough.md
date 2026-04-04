@@ -6,7 +6,8 @@ course: creative-play-and-expression
 prerequisites:
 - id: art-materials-exploration
   type: hard
-builds-toward: []
+builds-toward:
+- mark-making-fundamentals
 tags:
 - clay
 - playdough

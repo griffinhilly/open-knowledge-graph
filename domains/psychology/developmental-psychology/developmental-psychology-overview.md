@@ -3,7 +3,11 @@ id: developmental-psychology-overview
 title: 'Developmental Psychology: Overview and Key Concepts'
 domain: psychology
 course: developmental-psychology
-prerequisites: []
+prerequisites:
+- id: emotional-intelligence-overview
+  type: soft
+- id: coping-with-change-and-uncertainty
+  type: soft
 builds-toward:
 - nature-nurture-gene-environment-interaction
 - object-permanence-sensorimotor-development

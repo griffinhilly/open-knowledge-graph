@@ -3,7 +3,9 @@ id: anthropology-overview
 title: What Is Anthropology?
 domain: social-sciences
 course: anthropology
-prerequisites: []
+prerequisites:
+- id: how-communities-work-together
+  type: soft
 builds-toward:
 - culture-concept
 - ethnography-methods

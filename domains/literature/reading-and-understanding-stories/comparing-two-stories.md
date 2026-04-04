@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: main-character-vs-supporting
   type: soft
-builds-toward: []
+builds-toward:
+- conflict-types-overview
 tags:
 - comparison
 - analysis

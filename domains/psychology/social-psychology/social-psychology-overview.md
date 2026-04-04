@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: experimental-research-design
   type: soft
+- id: conflict-resolution-skills
+  type: soft
+- id: understanding-stereotypes-and-bias
+  type: soft
 builds-toward:
 - attribution-theory
 - social-cognition

@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: problem-and-solution
   type: soft
-builds-toward: []
+builds-toward:
+- narrative-arc-simple
 tags:
 - cause-effect
 - plot

@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: colors-and-naming-them
   type: soft
-builds-toward: []
+builds-toward:
+- line-in-art
 tags:
 - self-portrait
 - identity

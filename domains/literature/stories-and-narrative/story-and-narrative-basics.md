@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: reading-comprehension-basics
   type: hard
+- id: character-feelings-and-motivation
+  type: soft
 builds-toward:
 - narrative-arc-simple
 - exposition-setup-basics

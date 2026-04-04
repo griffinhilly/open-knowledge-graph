@@ -3,7 +3,9 @@ id: power-and-political-order
 title: Power and Political Order
 domain: social-sciences
 course: political-science
-prerequisites: []
+prerequisites:
+- id: conflict-in-communities
+  type: soft
 builds-toward:
 - authority-and-legitimacy
 - state-and-sovereignty

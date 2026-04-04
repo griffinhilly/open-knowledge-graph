@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: urban-rural-and-suburban
   type: soft
-builds-toward: []
+builds-toward:
+- culture-and-society
 tags:
 - change
 - history

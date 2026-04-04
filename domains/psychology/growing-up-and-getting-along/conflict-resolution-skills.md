@@ -10,7 +10,8 @@ prerequisites:
   type: hard
 - id: cooperation-and-teamwork
   type: soft
-builds-toward: []
+builds-toward:
+- social-psychology-overview
 tags:
 - conflict
 - resolution

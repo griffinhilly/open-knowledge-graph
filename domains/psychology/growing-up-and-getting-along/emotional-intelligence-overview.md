@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: empathy-understanding-how-others-feel
   type: hard
-builds-toward: []
+builds-toward:
+- developmental-psychology-overview
 tags:
 - emotional-intelligence
 - EQ

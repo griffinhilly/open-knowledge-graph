@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: volunteering-and-helping-others
   type: soft
-builds-toward: []
+builds-toward:
+- anthropology-overview
 tags:
 - cooperation
 - teamwork

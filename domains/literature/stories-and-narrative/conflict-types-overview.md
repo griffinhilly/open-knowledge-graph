@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: protagonist-introduction
   type: soft
+- id: comparing-two-stories
+  type: soft
 builds-toward:
 - person-vs-person-conflict
 - person-vs-nature-conflict

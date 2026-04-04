@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: repeating-and-contrasting-sections
   type: hard
-builds-toward: []
+builds-toward:
+- simple-song-form
 tags:
 - form
 - rondo

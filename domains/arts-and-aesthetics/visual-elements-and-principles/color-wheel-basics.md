@@ -3,7 +3,9 @@ id: color-wheel-basics
 title: The Color Wheel
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
-prerequisites: []
+prerequisites:
+- id: art-from-nature
+  type: soft
 builds-toward:
 - color-mixing
 - color-temperature

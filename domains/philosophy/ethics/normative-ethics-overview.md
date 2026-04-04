@@ -3,7 +3,11 @@ id: normative-ethics-overview
 title: Normative Ethics Overview
 domain: philosophy
 course: ethics
-prerequisites: []
+prerequisites:
+- id: trolley-problem-for-kids
+  type: soft
+- id: is-it-ever-ok-to-lie
+  type: soft
 builds-toward:
 - consequentialism
 - deontological-ethics

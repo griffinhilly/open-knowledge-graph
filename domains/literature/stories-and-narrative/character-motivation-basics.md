@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: inference-and-prediction-reading
   type: soft
+- id: moral-and-lesson
+  type: soft
 builds-toward:
 - character-development-basics
 tags:

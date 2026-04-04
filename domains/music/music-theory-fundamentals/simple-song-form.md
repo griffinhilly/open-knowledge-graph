@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: song-form
   type: soft
+- id: musical-form-rondo-and-theme-and-variations
+  type: soft
 builds-toward:
 - form-analysis
 - rondo-form

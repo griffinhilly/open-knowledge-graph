@@ -3,7 +3,13 @@ id: ancient-civilization-characteristics
 title: Defining Features of Ancient Civilizations
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: being-a-history-detective
+  type: soft
+- id: comparing-time-periods
+  type: soft
+- id: leaders-who-made-a-difference
+  type: soft
 builds-toward:
 - mesopotamia-cradle-of-civilization
 - egypt-nile-and-civilization

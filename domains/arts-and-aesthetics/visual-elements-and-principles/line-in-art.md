@@ -3,7 +3,9 @@ id: line-in-art
 title: Line in Art
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
-prerequisites: []
+prerequisites:
+- id: self-portraits
+  type: soft
 builds-toward:
 - shape-and-form
 - contour-drawing

@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: thought-experiments-for-kids
   type: hard
-builds-toward: []
+builds-toward:
+- arguments-premises-and-conclusions
 tags:
 - philosophy
 - wonder

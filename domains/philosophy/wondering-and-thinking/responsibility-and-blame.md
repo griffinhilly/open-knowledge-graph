@@ -8,7 +8,8 @@ prerequisites:
   type: hard
 - id: fairness-and-rules
   type: hard
-builds-toward: []
+builds-toward:
+- arguments-premises-and-conclusions
 tags:
 - responsibility
 - blame

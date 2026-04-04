@@ -3,7 +3,9 @@ id: ancient-world-chronology-methods
 title: Chronology and Dating Methods in the Ancient World
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: being-a-history-detective
+  type: soft
 builds-toward:
 - mesopotamia-cradle-of-civilization
 - egypt-nile-and-civilization
