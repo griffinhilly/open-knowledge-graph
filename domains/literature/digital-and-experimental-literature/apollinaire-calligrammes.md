@@ -23,39 +23,45 @@ Guillaume Apollinaire's calligrammes arrange text into visual shapes—words for
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What makes Apollinaire's calligrammes formally innovative compared to conventional modernist poetry of his era?"
+- correct_answer: 0
+  explanation: Calligrammes work by collapsing the distinction between the linguistic and visual. A poem about rain is arranged so the words fall down the page like raindrops; a poem about a letter is shaped
+    like an envelope. The visual shape is not decorative but constitutive of meaning. This was revolutionary because it challenged the assumption that poetry operates purely through linguistic meaning,
+    independent of typography.
   options:
-    - 0: "The text is arranged into visual shapes that iconically represent or suggest the poem's subject, making the visual appearance inseparable from the poem's meaning"
-    - 1: "Apollinaire uses more complex metaphors than his contemporaries"
-    - 2: "The poems employ free verse instead of traditional meter"
-    - 3: "Apollinaire invented entirely new words instead of using existing vocabulary"
-  correct_answer: 0
-  explanation: "Calligrammes work by collapsing the distinction between the linguistic and visual. A poem about rain is arranged so the words fall down the page like raindrops; a poem about a letter is shaped like an envelope. The visual shape is not decorative but constitutive of meaning. This was revolutionary because it challenged the assumption that poetry operates purely through linguistic meaning, independent of typography."
-
-- type: multiple-choice
-  question: "How do calligrammes simultaneously function as both poetry and visual art?"
+  - The text is arranged into visual shapes that iconically represent or suggest the poem's subject, making the visual appearance inseparable from the poem's meaning
+  - Apollinaire uses more complex metaphors than his contemporaries
+  - The poems employ free verse instead of traditional meter
+  - Apollinaire invented entirely new words instead of using existing vocabulary
+  question: What makes Apollinaire's calligrammes formally innovative compared to conventional modernist poetry of his era?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: The dual function is key to the calligram's innovation. You can read a calligram as a sequence of words and extract linguistic meaning. Simultaneously, the visual arrangement—the shape formed
+    by text on the page—conveys meaning through iconic representation. Neither dimension is secondary; both are integral. This dual coding distinguishes calligrammes from merely decorative typography.
   options:
-    - 0: "The text remains linguistically coherent and readable while the spatial arrangement of text also creates a visual representation that carries semantic significance"
-    - 1: "The visual shapes are pure abstraction with no linguistic content"
-    - 2: "The poems must be read aloud to be understood; visual arrangement is irrelevant"
-    - 3: "Calligrammes are visual art first, and any linguistic content is accidental"
-  correct_answer: 0
-  explanation: "The dual function is key to the calligram's innovation. You can read a calligram as a sequence of words and extract linguistic meaning. Simultaneously, the visual arrangement—the shape formed by text on the page—conveys meaning through iconic representation. Neither dimension is secondary; both are integral. This dual coding distinguishes calligrammes from merely decorative typography."
-
-- type: true-false
-  statement: "In Apollinaire's calligrammes, the physical arrangement of text on the page is purely decorative and does not affect the poem's meaning"
-  correct_answer: false
-  explanation: "This is false. The visual arrangement is constitutive of meaning. The shape matters semantically—a poem arranged to depict falling rain communicates 'rain' through form, not just through word choice. To read a calligram and ignore its visual properties is to miss an essential dimension of the work."
-
-- type: true-false
-  statement: "Calligrammes pioneered the idea that poetry could exploit the materiality of text (typography, spatial arrangement) as a meaning-making element"
-  correct_answer: true
-  explanation: "Yes. Before calligrammes, poetry worked through language—word choice, rhythm, imagery, figurative meaning. Apollinaire showed that the material presentation of text—how it appears on the page—could carry meaning equal to linguistic content. This opened the possibility of what would later be called concrete poetry."
-
-- type: short-answer
-  question: "Explain how calligrammes represent a transition from treating text as purely linguistic to treating it as a visual medium. Why is this transition conceptually significant for literature?"
-  explanation: "Calligrammes treat the written text not as a transparent vehicle for language, but as a visual object whose appearance matters. In traditional poetry, a poem's meaning resides in its words, meter, and figurative language; the physical appearance of those words on the page is assumed to be neutral—it could be printed in different typefaces, different sizes, different arrangements without affecting the poem itself. Apollinaire rejected this assumption. The calligram insists: the shape of text on the page is part of the poem. This is conceptually significant because it acknowledges that literature, when written, is also a visual medium. It destabilizes the distinction between literature and visual art by showing that text itself can be artistic material. This recognition opened new possibilities: if typography and arrangement matter, then poetry need not be alphabetically linear. It could unfold spatially in multiple directions, or exploit the visual properties of individual letters. This transition enabled concrete poetry and digital literature that exploit computational and multimedia affordances."
+  - The text remains linguistically coherent and readable while the spatial arrangement of text also creates a visual representation that carries semantic significance
+  - The visual shapes are pure abstraction with no linguistic content
+  - The poems must be read aloud to be understood; visual arrangement is irrelevant
+  - Calligrammes are visual art first, and any linguistic content is accidental
+  question: How do calligrammes simultaneously function as both poetry and visual art?
+  type: multiple-choice
+- correct_answer: false
+  explanation: This is false. The visual arrangement is constitutive of meaning. The shape matters semantically—a poem arranged to depict falling rain communicates 'rain' through form, not just through
+    word choice. To read a calligram and ignore its visual properties is to miss an essential dimension of the work.
+  statement: In Apollinaire's calligrammes, the physical arrangement of text on the page is purely decorative and does not affect the poem's meaning
+  type: true-false
+- correct_answer: true
+  explanation: Yes. Before calligrammes, poetry worked through language—word choice, rhythm, imagery, figurative meaning. Apollinaire showed that the material presentation of text—how it appears on the
+    page—could carry meaning equal to linguistic content. This opened the possibility of what would later be called concrete poetry.
+  statement: Calligrammes pioneered the idea that poetry could exploit the materiality of text (typography, spatial arrangement) as a meaning-making element
+  type: true-false
+- explanation: 'Calligrammes treat the written text not as a transparent vehicle for language, but as a visual object whose appearance matters. In traditional poetry, a poem''s meaning resides in its words,
+    meter, and figurative language; the physical appearance of those words on the page is assumed to be neutral—it could be printed in different typefaces, different sizes, different arrangements without
+    affecting the poem itself. Apollinaire rejected this assumption. The calligram insists: the shape of text on the page is part of the poem. This is conceptually significant because it acknowledges that
+    literature, when written, is also a visual medium. It destabilizes the distinction between literature and visual art by showing that text itself can be artistic material. This recognition opened new
+    possibilities: if typography and arrangement matter, then poetry need not be alphabetically linear. It could unfold spatially in multiple directions, or exploit the visual properties of individual letters.
+    This transition enabled concrete poetry and digital literature that exploit computational and multimedia affordances.'
+  question: Explain how calligrammes represent a transition from treating text as purely linguistic to treating it as a visual medium. Why is this transition conceptually significant for literature?
+  type: short-answer
 ```
 
 ## Explainer

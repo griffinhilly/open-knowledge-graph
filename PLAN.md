@@ -2,36 +2,26 @@
 
 ## Current State
 
-**14,362 topics** across 19 domains, **235 courses** (6 new). Radial graph shows 18 domains (practical-life-skills excluded).
+**14,946 topics** across 19 domains, **249 courses** (14 literature courses). Radial graph shows 18 domains (practical-life-skills excluded).
 
-**Last session (Apr 1, 2026) — Quality review + dangling prereqs + Phase 10 question audit:**
-- *Quality review*: 55 new topics spot-checked — all structurally clean, content excellent (10/10 courses sampled).
-- *Dangling prereqs RESOLVED*: 482 → 0. Built `fix_dangling_prereqs.py`: 325 IDs remapped, 153 refs removed, 11 cycles fixed.
-- *Phase 10 (Question Quality Audit)*: 240 question fixes total.
-  - 10A: 181 `can rarely→cannot`, 21 `if and primarily if→if and only if`, 35 garbled idioms, 3 sentence-initial `Primarily→Only`. Heuristic analysis of remaining 2,550 hedged questions shows ~1-3% true error rate (not 17% initially estimated).
-  - 10B: No meta-pedagogical issues in user-facing pools.
-  - 10C: No stage-content mismatches — all 1,009 pre-formal/concrete topics audited, questions are age-appropriate.
-  - 10D: No compound-question issues found.
-  - 10E: Quiz staleness warning added to pre-push hook.
-- *Tooling*: Built `fix_dangling_prereqs.py`, `audit_hedged_tf.py`.
-- *P2 topic generation*: +320 topics across 6 new courses + extensions to 15 existing courses. 14 Haiku agents total (9 initial + 5 fix/regen). 25 YAML errors, 5 duplicates, 1 cycle fixed post-generation.
-  - New courses: applied-ethics, history-of-science, economic-social-history, robotics-and-autonomous-systems, music-technology, contemporary-art-new-media
-  - Extended: ML-theory, quantum-computing, cryptography, information-theory, formal-methods, advanced-algorithms, control-systems, signals-and-systems, materials-science, philosophy-of-science, continental-philosophy, early-language-foundations, advanced-linguistics
+**Last session (Apr 3, 2026):**
+- *Literature domain expansion*: 6 → 14 courses, 483 → 1,067 topics (+584). 8 new courses: Stories & Narrative, Mythology/Folklore/Oral Traditions (abstract-reasoning), Literary Movements & Periods, Genre Fiction, Creative Nonfiction, World Literature, Children's & YA Literature (formal-systems), Digital & Experimental Literature (advanced). All with Q+E.
+- *Quiz balancing fix*: `generate_assessment_questions.py` now round-robins across courses within each stage tier.
+- Literature quiz bias resolved — drama no longer dominates abstract-reasoning questions.
 
 **Known issues:**
-- **New P2 topics need Q+E quality review** — Haiku-generated content may have shallow explainers or generic questions. Spot-check recommended.
-- **New P2 topics may have dangling prereqs** — agents referenced topics that don't exist. Run `map_dangling_prereqs.py` to assess.
-- **~2,550 T/F questions** with `primarily`/`typically`/`generally` hedges — ~1-3% may be arguably true. Low priority.
-- **~966 near-duplicate pairs** — mostly false positives. Low priority.
-- Quiz/assessment data stale after P2 additions (pre-push hook will warn)
-- _domain.yml course stages may need reconciliation for new courses
+- **~14 near-duplicate pairs** in new literature courses (from double-generation). Low priority — different content, not true duplicates.
+- **~2,550 T/F questions** with hedging language — ~1-3% arguable. Low priority.
+- **Upstream over-staging**: Chemistry agent flagged physics/chemistry foundation topics. Targeted pass recommended.
 - Index page + quiz not yet mobile-optimized
 - Radial mouse/touch handler duplication
+- **CI deployment failure** (Apr 3) — investigating
 
 **Next steps:**
-1. **Music-history restaging** — 63 topics at abstract-reasoning should be formal-systems (their prereqs are formal-systems theory topics). Course-level stage fixed; individual topics need restaging pass.
-2. **Phase 9D** (remaining): domain toggle on radial, progress bars, guided learning paths
-3. Write announcement post
+1. **Phase 11: Early-Childhood Expansion** — see below
+2. **Fix CI deployment failure**
+3. **Phase 9D** (remaining): domain toggle on radial, progress bars, guided learning paths
+4. Write announcement post
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)
@@ -322,3 +312,99 @@ Systematic audit of the ~65K question bank. Five issue patterns investigated, 24
 
 ### 10E: Stale Quiz Data Prevention — DONE
 - [x] Added staleness check to `hooks/pre-push`: warns when topic files are newer than `assessment-questions.json`
+
+## Phase 10.5: Literature Domain Expansion — DONE (Apr 3, 2026)
+
+Expanded literature from 6 courses / 483 topics to 14 courses / 1,067 topics.
+
+- [x] Stories & Narrative (52 topics, abstract-reasoning) — literary analysis on-ramp
+- [x] Mythology, Folklore & Oral Traditions (43 topics, abstract-reasoning)
+- [x] Literary Movements & Periods (94 topics, formal-systems) — Romanticism through Postmodernism
+- [x] Genre Fiction (88 topics, formal-systems) — SF, fantasy, horror, mystery, romance
+- [x] Creative Nonfiction (86 topics, formal-systems) — essay, memoir, journalism
+- [x] World Literature (92 topics, formal-systems) — non-Western literary traditions
+- [x] Children's & YA Literature (70 topics, formal-systems)
+- [x] Digital & Experimental Literature (59 topics, advanced)
+- [x] All topics have Questions (5 per topic) + Explainer sections
+- [x] Quiz pool rebalanced with course round-robin selection
+- [x] Validation passing, pushed to GitHub Pages
+
+## Phase 11: Early-Childhood Expansion — PLANNED (Apr 3, 2026)
+
+Build robust pre-formal and concrete-operations content so the OKG has genuine on-ramps for young learners across domains. Goal: a child starting the quiz at age 5-10 should find engaging, age-appropriate content in most domains.
+
+### Design Principles
+- **Don't force it.** Some domains legitimately start later. Economics for 5-year-olds is Practical Life Skills, not economics.
+- **Deep where it matters.** Domains kids naturally engage with (music, stories, emotions, art) deserve thorough coverage, not token courses.
+- **Match how kids learn.** Pre-formal = sensory, experiential, no notation. Concrete-operations = hands-on with models and simple systems.
+
+### Current early-stage coverage
+- **Strong (leave alone):** Mathematics (K-5th, 6 courses), Language & Communication (2 courses), Health (2 courses), Practical Life Skills (93 concrete topics)
+- **Adequate (leave alone):** Biology, Chemistry, Earth & Space, Engineering, Formal Sciences, Physics (all have K-12 STEM expansion courses from Phase 8.5)
+- **Gap — no content below formal-systems:** Computer Science, History, Literature, Music, Philosophy, Psychology
+
+### Tier 1: Deep investment (~9-12 new courses, ~300-400 topics)
+
+Domains where early-childhood content is genuinely rich and foundational.
+
+#### Music (biggest gap — 0 early content)
+Music is one of the first things children engage with. Singing, clapping, moving to rhythm start before age 2.
+
+| Course | Stage | ~Topics | Content |
+|--------|-------|---------|---------|
+| Musical Play & Listening | pre-formal | 30-35 | Loud/quiet, fast/slow, high/low pitch, singing along, moving to music, instruments by family (shake/blow/hit/strum), musical games, call-and-response, lullabies, sound vs silence |
+| Rhythm & Song | concrete-operations | 30-35 | Steady beat, simple patterns, clapping rhythms, note duration (long/short), simple songs and rounds, dynamics, tempo, basic notation (icons), instrument exploration, genres kids encounter |
+| Listening & Musical Elements | abstract-reasoning | 30-35 | Melody recognition, major/minor mood, verse/chorus form, basic harmony, timbre, composing simple pieces, reading simple notation, musical cultures around the world |
+
+#### Literature (currently starts at abstract-reasoning)
+A 5-year-old's relationship with books is fundamentally different from a middle schooler's literary analysis.
+
+| Course | Stage | ~Topics | Content |
+|--------|-------|---------|---------|
+| First Stories & Read-Alouds | pre-formal | 25-30 | Being read to, picture books, cover/title/author, beginning/middle/end at simplest level, characters we love, retelling a story, favorite books, wordless picture books, nursery rhymes, repetition and patterns in stories |
+| Reading & Understanding Stories | concrete-operations | 30-35 | Main character vs supporting, problem and solution, sequence of events, making predictions, asking questions about stories, fiction vs nonfiction, comparing two stories, author and illustrator roles, chapter books, reading independently |
+
+#### Psychology / Social-Emotional Learning (0 content below formal-systems)
+Children do social-emotional learning from age 2 — naming feelings, empathy, self-regulation. This is a core early-childhood domain.
+
+| Course | Stage | ~Topics | Content |
+|--------|-------|---------|---------|
+| Feelings & Self-Awareness | pre-formal | 25-30 | Naming basic emotions (happy, sad, angry, scared, surprised), body signals for emotions, it's OK to feel feelings, calming down strategies, expressing needs with words, comfort objects, routines and safety |
+| Understanding Self & Others | concrete-operations | 30-35 | Empathy, perspective-taking basics, friendship skills, sharing and turn-taking, dealing with conflict, feelings vocabulary expansion (frustrated, embarrassed, proud, jealous), family feelings, grief and loss at a simple level, self-esteem |
+| Growing Up & Getting Along | abstract-reasoning | 30-35 | Identity and self-concept, peer pressure, emotional regulation strategies, understanding bullying, growth mindset, resilience, communication skills, cultural identity, managing anxiety, healthy relationships |
+
+### Tier 2: Lighter touch (~5-7 new courses, ~150-200 topics)
+
+Domains with legitimate but less deep early-childhood content.
+
+#### History
+| Course | Stage | ~Topics | Content |
+|--------|-------|---------|---------|
+| Then & Now | concrete-operations | 25-30 | Long ago vs today, family history and stories, holidays and traditions, timelines (yesterday/today/tomorrow), community history, how things change over time, historical figures kids encounter, maps of "where I live" |
+
+#### Philosophy
+| Course | Stage | ~Topics | Content |
+|--------|-------|---------|---------|
+| Wondering & Thinking | concrete-operations | 25-30 | "Why?" questions, fairness and rules, right and wrong, what makes a good friend, is it ever OK to lie?, thought experiments for kids, "what would happen if...?", different points of view, imagination vs reality |
+
+#### Social Sciences
+| Course | Stage | ~Topics | Content |
+|--------|-------|---------|---------|
+| My Community & World | concrete-operations | 25-30 | Family structures, neighborhoods, community helpers, maps and directions, needs vs wants, rules and why we have them, cultural celebrations, near and far places, belonging to groups |
+
+#### Arts & Aesthetics (has 4 pre-formal topics — expand to a full course)
+| Course | Stage | ~Topics | Content |
+|--------|-------|---------|---------|
+| Creative Play & Expression | pre-formal | 25-30 | Drawing and scribbling, colors and shapes, cutting and pasting, clay and playdough, finger painting, patterns in art, looking at art and talking about it, art materials exploration, dance and movement, pretend play |
+
+### Scope Summary
+- **Tier 1:** ~9 courses, ~290 topics (Music 3, Literature 2, Psychology 3, + possible additional abstract-reasoning for Music)
+- **Tier 2:** ~4-5 courses, ~125 topics (History, Philosophy, Social Sciences, Arts)
+- **Total:** ~13-14 new courses, ~400-420 new topics
+- **Execution:** Same pipeline as literature expansion — Haiku generation + parallel agents for Q+E, ~2 sessions
+
+### Not expanding (and why)
+- **Computer Science:** Logic/patterns for kids is already in Formal Sciences (Patterns & Logic). "Coding for kids" is really abstract-reasoning, not pre-formal/concrete.
+- **Economics:** Money and trading basics are in Practical Life Skills. No need to duplicate.
+- **Chemistry/Physics/Biology/Earth Science:** Already have concrete-operations courses from Phase 8.5.
+- **Engineering:** Already has Design & Build (concrete-operations).

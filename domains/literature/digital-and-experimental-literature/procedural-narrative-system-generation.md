@@ -27,39 +27,45 @@ Procedural narrative uses algorithmic systems to generate narrative content rath
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: Branching narrative pre-authors content at each choice point. With two choices at 10 points, you need content for 1,024 branches. Procedural narrative generates content algorithmically, producing
+    variations on-demand. This enables much greater narrative complexity and variation without requiring exponential pre-authoring.
+  options:
+  - Procedural narrative uses algorithms to generate narrative content dynamically rather than pre-authoring all branches; this enables potentially infinite variations
+  - Procedural and branching narratives are identical
+  - Procedural narrative always produces worse results than branching
+  - Procedural narrative cannot be scaled to complex stories
   question: How does procedural narrative differ from branching narrative structures?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'In conventional narrative, the author writes all content. In procedural narrative, the designer creates the algorithm that generates content. The generated content is different each time.
+    This ambiguity about authorship is central to understanding procedural narrative: it distributes authorial responsibility between system-designer and algorithmic generation.'
   options:
-    - 0: "Procedural narrative uses algorithms to generate narrative content dynamically rather than pre-authoring all branches; this enables potentially infinite variations"
-    - 1: "Procedural and branching narratives are identical"
-    - 2: "Procedural narrative always produces worse results than branching"
-    - 3: "Procedural narrative cannot be scaled to complex stories"
-  correct_answer: 0
-  explanation: "Branching narrative pre-authors content at each choice point. With two choices at 10 points, you need content for 1,024 branches. Procedural narrative generates content algorithmically, producing variations on-demand. This enables much greater narrative complexity and variation without requiring exponential pre-authoring."
-
-- type: multiple-choice
+  - When algorithms generate narrative content, who is the author—the person who designed the algorithm, the algorithm itself, or the player experiencing the generated content?
+  - Procedural narrative has no authorship questions
+  - The player is always the author in procedural narratives
+  - Procedural narrative proves that authorship is irrelevant
   question: What authorship question does procedural narrative raise that differs from conventional authored narrative?"
-  options:
-    - 0: "When algorithms generate narrative content, who is the author—the person who designed the algorithm, the algorithm itself, or the player experiencing the generated content?"
-    - 1: "Procedural narrative has no authorship questions"
-    - 2: "The player is always the author in procedural narratives"
-    - 3: "Procedural narrative proves that authorship is irrelevant"
-  correct_answer: 0
-  explanation: "In conventional narrative, the author writes all content. In procedural narrative, the designer creates the algorithm that generates content. The generated content is different each time. This ambiguity about authorship is central to understanding procedural narrative: it distributes authorial responsibility between system-designer and algorithmic generation."
-
-- type: true-false
-  statement: "Procedural narrative can produce theoretically infinite narrative variations through algorithmic generation while requiring finite authorial input"
-  correct_answer: true
-  explanation: "An algorithm can generate many combinations from a finite set of rules. Whereas branching narratives face exponential scope explosion, procedural systems enable infinite variation from manageable source material."
-
-- type: true-false
-  statement: "Procedural narrative eliminates the author because algorithms generate content without human intentionality"
-  correct_answer: false
-  explanation: "The designer creates the system; the system expresses the designer's intentions through different means. Authorship is not eliminated but distributed differently—between system design and algorithmic generation."
-
-- type: short-answer
-  question: "Explain how procedural narrative enables theoretically infinite narrative variation while raising new questions about what constitutes authorship and narrative authenticity."
-  explanation: "Infinite variation: A procedural system with rules about character generation, plot development, and world-building can produce many unique narratives. Each player or each run generates different content. The variation space is limited by the rules but can be very large (potentially infinite depending on system design). Authorship questions: (1) Is the designer the author? Yes, in that they create the system. (2) Is the generated content authored? It emerges from algorithmic combination, not human composition. (3) Is the player an author by experiencing generated content? They configure some parameters but don't directly write narrative. Authenticity question: Is an algorithmically generated narrative 'authentic' literature? It may lack intentional authorial voice while achieving thematic coherence through system logic. This challenges definitions of narrative that depend on authorial intention. Significance: Procedural narrative suggests that authorship can be distributed between system-design and algorithmic generation, that narrative can be co-created by designer and system, and that meaning can emerge from algorithmic logic rather than from intentional composition. This has implications for understanding AI-generated content and the future of narrative in algorithmic culture."
+  type: multiple-choice
+- correct_answer: true
+  explanation: An algorithm can generate many combinations from a finite set of rules. Whereas branching narratives face exponential scope explosion, procedural systems enable infinite variation from manageable
+    source material.
+  statement: Procedural narrative can produce theoretically infinite narrative variations through algorithmic generation while requiring finite authorial input
+  type: true-false
+- correct_answer: false
+  explanation: The designer creates the system; the system expresses the designer's intentions through different means. Authorship is not eliminated but distributed differently—between system design and
+    algorithmic generation.
+  statement: Procedural narrative eliminates the author because algorithms generate content without human intentionality
+  type: true-false
+- explanation: 'Infinite variation: A procedural system with rules about character generation, plot development, and world-building can produce many unique narratives. Each player or each run generates
+    different content. The variation space is limited by the rules but can be very large (potentially infinite depending on system design). Authorship questions: (1) Is the designer the author? Yes, in
+    that they create the system. (2) Is the generated content authored? It emerges from algorithmic combination, not human composition. (3) Is the player an author by experiencing generated content? They
+    configure some parameters but don''t directly write narrative. Authenticity question: Is an algorithmically generated narrative ''authentic'' literature? It may lack intentional authorial voice while
+    achieving thematic coherence through system logic. This challenges definitions of narrative that depend on authorial intention. Significance: Procedural narrative suggests that authorship can be distributed
+    between system-design and algorithmic generation, that narrative can be co-created by designer and system, and that meaning can emerge from algorithmic logic rather than from intentional composition.
+    This has implications for understanding AI-generated content and the future of narrative in algorithmic culture.'
+  question: Explain how procedural narrative enables theoretically infinite narrative variation while raising new questions about what constitutes authorship and narrative authenticity.
+  type: short-answer
 ```
 
 ## Explainer

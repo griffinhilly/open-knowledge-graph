@@ -25,39 +25,46 @@ Transmedia narratives extend coherent story worlds across multiple media platfor
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: 'Adaptation converts a story from one medium to another (novel to film), using that medium''s tools while preserving the story. Transmedia distributes narrative across media: different aspects
+    of a story world exist in different media. A television show develops character relationships; a graphic novel explores history; an online game reveals world mechanics. Each is necessary for full understanding.'
+  options:
+  - Transmedia narrative uses each medium's distinct affordances to tell different narrative aspects, requiring multi-platform engagement; adaptation translates one work into another medium while preserving
+    story
+  - Transmedia narrative is identical to adaptation
+  - Transmedia narratives are complete in each medium separately
+  - Each medium in transmedia tells the identical story
   question: How does transmedia narrative differ from simple media adaptation?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'Film excels at visual dynamics and embodied performance; prose explores interiority and subjective experience; games offer interaction and player agency. Transmedia strategically deploys
+    media: visual spectacle on screen, psychological depth in prose, player agency in games. This multi-platform richness is impossible in single medium.'
   options:
-    - 0: "Transmedia narrative uses each medium's distinct affordances to tell different narrative aspects, requiring multi-platform engagement; adaptation translates one work into another medium while preserving story"
-    - 1: "Transmedia narrative is identical to adaptation"
-    - 2: "Transmedia narratives are complete in each medium separately"
-    - 3: "Each medium in transmedia tells the identical story"
-  correct_answer: 0
-  explanation: "Adaptation converts a story from one medium to another (novel to film), using that medium's tools while preserving the story. Transmedia distributes narrative across media: different aspects of a story world exist in different media. A television show develops character relationships; a graphic novel explores history; an online game reveals world mechanics. Each is necessary for full understanding."
-
-- type: multiple-choice
+  - Each medium has distinct affordances; transmedia leverages these to tell narrative aspects best suited to each medium, creating richness impossible in single-medium form
+  - Using multiple media proves the story is poorly constructed
+  - Media multiplicity has no narrative significance
+  - A single medium could tell the same story equally well
   question: What is the narrative significance of using multiple media platforms in transmedia storytelling?"
-  options:
-    - 0: "Each medium has distinct affordances; transmedia leverages these to tell narrative aspects best suited to each medium, creating richness impossible in single-medium form"
-    - 1: "Using multiple media proves the story is poorly constructed"
-    - 2: "Media multiplicity has no narrative significance"
-    - 3: "A single medium could tell the same story equally well"
-  correct_answer: 0
-  explanation: "Film excels at visual dynamics and embodied performance; prose explores interiority and subjective experience; games offer interaction and player agency. Transmedia strategically deploys media: visual spectacle on screen, psychological depth in prose, player agency in games. This multi-platform richness is impossible in single medium."
-
-- type: true-false
-  statement: "Transmedia narrative requires audiences to engage with multiple platforms to understand the complete story world"
-  correct_answer: true
-  explanation: "True transmedia distributes narrative; no single platform contains the complete story. Different platforms offer different narrative information and perspectives. Full understanding requires multi-platform engagement."
-
-- type: true-false
-  statement: "Transmedia narratives prove that literature is becoming obsolete as stories migrate to multiple media"
-  correct_answer: false
-  explanation: "Transmedia actually reveals literature's enduring significance—prose remains essential for narrative dimensions that other media cannot achieve. Rather than replacing literature, transmedia creates partnerships between media."
-
-- type: short-answer
-  question: "Explain how transmedia narrative challenges traditional assumptions about authorship and medium-specificity, and discuss what this reveals about contemporary storytelling."
-  explanation: "Challenge to medium-specificity: Traditionally, we assume each medium has essential properties—literature is words on page, film is moving images, games are interactive systems. Transmedia suggests these essences are contingent. The 'same' narrative distributed across media reveals that no medium is essential for storytelling; rather, each medium is a tool for particular narrative effects. Challenge to authorship: A transmedia work requires multiple authors (novelist, screenwriter, game designer). Traditional concepts of singular authorship break down. Meaning emerges from authorial collaboration across platforms. What it reveals: (1) Narrative is independent of medium—the 'same' story can be told differently in film, prose, games; (2) Different media are complementary, not competitive—each offers distinct possibilities; (3) Contemporary audiences are literate across media—they navigate multiple platforms seeking narrative; (4) Authorship is increasingly distributed across media specialists and platforms. Example: A transmedia franchise might have: novels exploring character psychology, films showing action sequences, games offering player agency in decision-making, webcomics revealing social relationships. Each contributes to narrative understanding. No single platform is sufficient. This suggests storytelling is becoming increasingly multi-platform and audiences increasingly multi-literate."
+  type: multiple-choice
+- correct_answer: true
+  explanation: True transmedia distributes narrative; no single platform contains the complete story. Different platforms offer different narrative information and perspectives. Full understanding requires
+    multi-platform engagement.
+  statement: Transmedia narrative requires audiences to engage with multiple platforms to understand the complete story world
+  type: true-false
+- correct_answer: false
+  explanation: Transmedia actually reveals literature's enduring significance—prose remains essential for narrative dimensions that other media cannot achieve. Rather than replacing literature, transmedia
+    creates partnerships between media.
+  statement: Transmedia narratives prove that literature is becoming obsolete as stories migrate to multiple media
+  type: true-false
+- explanation: 'Challenge to medium-specificity: Traditionally, we assume each medium has essential properties—literature is words on page, film is moving images, games are interactive systems. Transmedia
+    suggests these essences are contingent. The ''same'' narrative distributed across media reveals that no medium is essential for storytelling; rather, each medium is a tool for particular narrative effects.
+    Challenge to authorship: A transmedia work requires multiple authors (novelist, screenwriter, game designer). Traditional concepts of singular authorship break down. Meaning emerges from authorial collaboration
+    across platforms. What it reveals: (1) Narrative is independent of medium—the ''same'' story can be told differently in film, prose, games; (2) Different media are complementary, not competitive—each
+    offers distinct possibilities; (3) Contemporary audiences are literate across media—they navigate multiple platforms seeking narrative; (4) Authorship is increasingly distributed across media specialists
+    and platforms. Example: A transmedia franchise might have: novels exploring character psychology, films showing action sequences, games offering player agency in decision-making, webcomics revealing
+    social relationships. Each contributes to narrative understanding. No single platform is sufficient. This suggests storytelling is becoming increasingly multi-platform and audiences increasingly multi-literate.'
+  question: Explain how transmedia narrative challenges traditional assumptions about authorship and medium-specificity, and discuss what this reveals about contemporary storytelling.
+  type: short-answer
 ```
 
 ## Explainer

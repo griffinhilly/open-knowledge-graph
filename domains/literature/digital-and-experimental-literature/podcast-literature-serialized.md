@@ -25,39 +25,43 @@ Narrative podcasts constitute a growing literary form exploiting audio affordanc
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What audio affordances do narrative podcasts exploit that text-based literature cannot?"
+- correct_answer: 0
+  explanation: Text relies on readers' imagination; audio provides performed meaning. A voice actor's interpretation, tone, and emotion shape listener understanding. Sound design—ambient noise, music, acoustic
+    effects—creates atmosphere and emotional resonance. These audio dimensions are unavailable to text-based literature. They constitute podcast-specific narrative tools.
   options:
-    - 0: "Voice performance, sound design, music, and acoustic intimacy create a distinct sensory experience that shapes narrative interpretation differently than reading"
-    - 1: "Podcasts use the same techniques as written literature"
-    - 2: "Audio cannot convey narrative"
-    - 3: "Sound design is irrelevant to podcasts"
-  correct_answer: 0
-  explanation: "Text relies on readers' imagination; audio provides performed meaning. A voice actor's interpretation, tone, and emotion shape listener understanding. Sound design—ambient noise, music, acoustic effects—creates atmosphere and emotional resonance. These audio dimensions are unavailable to text-based literature. They constitute podcast-specific narrative tools."
-
-- type: multiple-choice
-  question: "How does the serialized release pattern of podcasts shape 'narrative pacing and audience engagement'?"
+  - Voice performance, sound design, music, and acoustic intimacy create a distinct sensory experience that shapes narrative interpretation differently than reading
+  - Podcasts use the same techniques as written literature
+  - Audio cannot convey narrative
+  - Sound design is irrelevant to podcasts
+  question: What audio affordances do narrative podcasts exploit that text-based literature cannot?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'When a story releases one episode weekly or monthly, the listener must wait for continuation. This anticipation shapes engagement: listeners discuss theories, speculate about outcomes, build
+    communities. Narrative pacing adjusts: cliffhangers, mid-season arcs, season conclusions reflect episodic structure. This is different from novels, where readers can binge-read. The temporal distribution
+    affects both narrative structure and audience experience.'
   options:
-    - 0: "Episodes release over time, requiring listeners to anticipate continuation and building communities through shared waiting and discussion—this differs from novels which are complete, affecting how stories unfold and audiences experience them"
-    - 1: "Serialization makes stories longer"
-    - 2: "Release patterns have no effect on narrative"
-    - 3: "Podcasts are always released all at once"
-  correct_answer: 0
-  explanation: "When a story releases one episode weekly or monthly, the listener must wait for continuation. This anticipation shapes engagement: listeners discuss theories, speculate about outcomes, build communities. Narrative pacing adjusts: cliffhangers, mid-season arcs, season conclusions reflect episodic structure. This is different from novels, where readers can binge-read. The temporal distribution affects both narrative structure and audience experience."
-
-- type: true-false
-  statement: "Podcasts expand literary circulation by exploiting the intimate, passive consumption context of listening while commuting or doing chores"
-  correct_answer: true
-  explanation: "Correct. Podcasts reach audiences in contexts where reading is impractical, expanding where and how literature circulates."
-
-- type: true-false
-  statement: "Narrative podcasts are purely oral performance with no literary dimension"
-  correct_answer: false
-  explanation: "False. Podcasts are literary forms—they constitute narrative art, just exploiting audio rather than text as primary medium."
-
-- type: short-answer
-  question: "Explain how podcasts constitute a 'literary form' exploiting 'audio affordances' rather than text. What makes this a distinct form rather than merely a delivery medium for stories?"
-  explanation: "A delivery medium would be neutral—the story would be identical regardless of whether delivered as text, audio, or video. Podcasts are a distinct form because audio affordances shape what stories can be. Voice performance conveys tone, emotion, characterization directly—listeners don't imagine voices; they hear them. Sound design creates atmosphere and emotional resonance. Music structures narrative rhythm. Serialization shapes pacing and anticipation. These elements are integral to podcast narratives—they cannot be removed without changing the work. A podcast adapted as a text-only novel loses these dimensions. Thus podcasts are not merely texts delivered through audio; they are audio-native narratives exploiting affordances unique to audio medium. This makes them a distinct literary form, comparable to how drama is distinct from prose fiction, exploiting performance and presence."
+  - Episodes release over time, requiring listeners to anticipate continuation and building communities through shared waiting and discussion—this differs from novels which are complete, affecting how stories
+    unfold and audiences experience them
+  - Serialization makes stories longer
+  - Release patterns have no effect on narrative
+  - Podcasts are always released all at once
+  question: How does the serialized release pattern of podcasts shape 'narrative pacing and audience engagement'?
+  type: multiple-choice
+- correct_answer: true
+  explanation: Correct. Podcasts reach audiences in contexts where reading is impractical, expanding where and how literature circulates.
+  statement: Podcasts expand literary circulation by exploiting the intimate, passive consumption context of listening while commuting or doing chores
+  type: true-false
+- correct_answer: false
+  explanation: False. Podcasts are literary forms—they constitute narrative art, just exploiting audio rather than text as primary medium.
+  statement: Narrative podcasts are purely oral performance with no literary dimension
+  type: true-false
+- explanation: A delivery medium would be neutral—the story would be identical regardless of whether delivered as text, audio, or video. Podcasts are a distinct form because audio affordances shape what
+    stories can be. Voice performance conveys tone, emotion, characterization directly—listeners don't imagine voices; they hear them. Sound design creates atmosphere and emotional resonance. Music structures
+    narrative rhythm. Serialization shapes pacing and anticipation. These elements are integral to podcast narratives—they cannot be removed without changing the work. A podcast adapted as a text-only novel
+    loses these dimensions. Thus podcasts are not merely texts delivered through audio; they are audio-native narratives exploiting affordances unique to audio medium. This makes them a distinct literary
+    form, comparable to how drama is distinct from prose fiction, exploiting performance and presence.
+  question: Explain how podcasts constitute a 'literary form' exploiting 'audio affordances' rather than text. What makes this a distinct form rather than merely a delivery medium for stories?
+  type: short-answer
 ```
 
 ## Explainer

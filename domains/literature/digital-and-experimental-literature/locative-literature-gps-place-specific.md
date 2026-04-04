@@ -23,39 +23,44 @@ Locative literature uses GPS technology to tie narratives to specific geographic
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: Locative literature embeds narrative in place. A reader must physically travel to a location to access content tied to that coordinate. This makes geographic location, physical movement,
+    and embodied presence fundamental to the reading experience. The story is inseparable from the physical site.
+  options:
+  - By tying narrative content to specific geographic coordinates, locative literature makes physical location and movement constitutive of reading rather than abstract or virtual
+  - Locative literature is identical to conventional digital reading
+  - Locative literature requires readers to avoid physical movement
+  - GPS technology has no effect on narrative experience
   question: How does locative literature fundamentally reshape the reading experience compared to conventional digital narrative?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Readers navigate through physical space to encounter narrative content. Different paths through a city or landscape create different narrative sequences. The geographic layout becomes the
+    narrative structure. This makes physical movement a meaning-making act—readers' choices about what locations to visit shape what story they encounter.
   options:
-    - 0: "By tying narrative content to specific geographic coordinates, locative literature makes physical location and movement constitutive of reading rather than abstract or virtual"
-    - 1: "Locative literature is identical to conventional digital reading"
-    - 2: "Locative literature requires readers to avoid physical movement"
-    - 3: "GPS technology has no effect on narrative experience"
-  correct_answer: 0
-  explanation: "Locative literature embeds narrative in place. A reader must physically travel to a location to access content tied to that coordinate. This makes geographic location, physical movement, and embodied presence fundamental to the reading experience. The story is inseparable from the physical site."
-
-- type: multiple-choice
+  - The geographic constraint shapes what paths readers can take and what story sequences they encounter, making physical navigation through place a structural component of narrative
+  - GPS constraints have no effect on narrative structure
+  - Readers experience all narrative content equally regardless of location
+  - Locative literature eliminates reader agency entirely
   question: What effect does the GPS-based constraint (narrative only accessible at specific locations) have on narrative structure and reader agency?"
-  options:
-    - 0: "The geographic constraint shapes what paths readers can take and what story sequences they encounter, making physical navigation through place a structural component of narrative"
-    - 1: "GPS constraints have no effect on narrative structure"
-    - 2: "Readers experience all narrative content equally regardless of location"
-    - 3: "Locative literature eliminates reader agency entirely"
-  correct_answer: 0
-  explanation: "Readers navigate through physical space to encounter narrative content. Different paths through a city or landscape create different narrative sequences. The geographic layout becomes the narrative structure. This makes physical movement a meaning-making act—readers' choices about what locations to visit shape what story they encounter."
-
-- type: true-false
-  statement: "Locative literature merges digital narrative with physical geography, making place itself an essential dimension of literary form rather than merely a setting"
-  correct_answer: true
-  explanation: "In conventional narrative, setting is content (described in words). In locative literature, geography is form—the physical locations and distances are structural elements of how narrative works."
-
-- type: true-false
-  statement: "Locative literature eliminates the possibility of meaningful narrative because readers cannot control which locations they visit"
-  correct_answer: false
-  explanation: "Readers do exercise agency by choosing which locations to visit, what routes to take, and how much of the work to explore. Narrative meaning emerges from their choices about physical navigation."
-
-- type: short-answer
-  question: "Explain how locative literature represents a shift from abstract digital space to embodied place-based narrative, and discuss what this reveals about how medium shapes meaning-making."
-  explanation: "Shift: Conventional digital narrative exists in abstract digital space (on screens, in databases). Locative literature grounds narrative in actual geography—readers must be physically present at real coordinates to access content. This embeds narrative in embodied experience. What it reveals: (1) Narrative meaning is not independent of its material conditions—moving narrative from screens to physical places changes how it is experienced; (2) Place can be a structural narrative element, not merely a setting; (3) Bodies and physical movement can be meaning-making dimensions of literature, not just cognitive interpretation; (4) Digital technology need not be abstract or screen-based—it can be integrated with embodied geography. Example: A locative narrative about a city's history might have content tied to specific locations where historical events occurred. Visiting those locations—physically standing where something happened—creates a different kind of understanding than reading a historical account. The embodied presence matters. The medium (GPS-based, place-tied) directly shapes the experience. This suggests that form is not independent of materiality—changing where and how we access narrative (abstract digital vs. embodied place) changes what narrative means."
+  type: multiple-choice
+- correct_answer: true
+  explanation: In conventional narrative, setting is content (described in words). In locative literature, geography is form—the physical locations and distances are structural elements of how narrative
+    works.
+  statement: Locative literature merges digital narrative with physical geography, making place itself an essential dimension of literary form rather than merely a setting
+  type: true-false
+- correct_answer: false
+  explanation: Readers do exercise agency by choosing which locations to visit, what routes to take, and how much of the work to explore. Narrative meaning emerges from their choices about physical navigation.
+  statement: Locative literature eliminates the possibility of meaningful narrative because readers cannot control which locations they visit
+  type: true-false
+- explanation: 'Shift: Conventional digital narrative exists in abstract digital space (on screens, in databases). Locative literature grounds narrative in actual geography—readers must be physically present
+    at real coordinates to access content. This embeds narrative in embodied experience. What it reveals: (1) Narrative meaning is not independent of its material conditions—moving narrative from screens
+    to physical places changes how it is experienced; (2) Place can be a structural narrative element, not merely a setting; (3) Bodies and physical movement can be meaning-making dimensions of literature,
+    not just cognitive interpretation; (4) Digital technology need not be abstract or screen-based—it can be integrated with embodied geography. Example: A locative narrative about a city''s history might
+    have content tied to specific locations where historical events occurred. Visiting those locations—physically standing where something happened—creates a different kind of understanding than reading
+    a historical account. The embodied presence matters. The medium (GPS-based, place-tied) directly shapes the experience. This suggests that form is not independent of materiality—changing where and how
+    we access narrative (abstract digital vs. embodied place) changes what narrative means.'
+  question: Explain how locative literature represents a shift from abstract digital space to embodied place-based narrative, and discuss what this reveals about how medium shapes meaning-making.
+  type: short-answer
 ```
 
 ## Explainer

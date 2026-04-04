@@ -23,39 +23,45 @@ Flarf poetry uses internet search results as raw material for poetic composition
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: Flarf treats the internet as a vast repository of language available for poetic use. A poet might search for absurdist phrases, awkward juxtapositions, or unexpected keyword combinations,
+    then assemble the resulting search results into poetic composition. The internet becomes the primary material, not the poet's imagination. This represents a major shift from Romantic authorship toward
+    conceptual and procedural poetics.
+  options:
+  - Rather than generating original language, flarf poets search the internet for phrases matching their queries and assemble found text into poetic compositions
+  - Flarf poetry generates all text algorithmically without human curation
+  - Flarf poetry requires poets to write completely original language with no external sources
+  - Flarf poetry retrieves entire published poems verbatim from the internet
   question: How does flarf poetry fundamentally shift the source of poetic material?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Flarf is not a rejection of poetry but an adaptation to contemporary conditions. In an age of information saturation, poets cannot pretend to write in isolation. Flarf makes this explicit
+    by treating the internet as available material and the procedure of searching as a poetic strategy. The concept and curation matter more than original language generation.
   options:
-    - 0: "Rather than generating original language, flarf poets search the internet for phrases matching their queries and assemble found text into poetic compositions"
-    - 1: "Flarf poetry generates all text algorithmically without human curation"
-    - 2: "Flarf poetry requires poets to write completely original language with no external sources"
-    - 3: "Flarf poetry retrieves entire published poems verbatim from the internet"
-  correct_answer: 0
-  explanation: "Flarf treats the internet as a vast repository of language available for poetic use. A poet might search for absurdist phrases, awkward juxtapositions, or unexpected keyword combinations, then assemble the resulting search results into poetic composition. The internet becomes the primary material, not the poet's imagination. This represents a major shift from Romantic authorship toward conceptual and procedural poetics."
-
-- type: multiple-choice
+  - That contemporary poets must engage with overwhelming information abundance by developing procedural and conceptual strategies rather than relying on isolated inspiration
+  - That the internet has made poetry impossible
+  - That poets should ignore digital culture and write in traditional ways
+  - That search engines write poetry better than humans
   question: What does flarf poetry reveal about contemporary literary creativity in the context of digital information saturation?"
-  options:
-    - 0: "That contemporary poets must engage with overwhelming information abundance by developing procedural and conceptual strategies rather than relying on isolated inspiration"
-    - 1: "That the internet has made poetry impossible"
-    - 2: "That poets should ignore digital culture and write in traditional ways"
-    - 3: "That search engines write poetry better than humans"
-  correct_answer: 0
-  explanation: "Flarf is not a rejection of poetry but an adaptation to contemporary conditions. In an age of information saturation, poets cannot pretend to write in isolation. Flarf makes this explicit by treating the internet as available material and the procedure of searching as a poetic strategy. The concept and curation matter more than original language generation."
-
-- type: true-false
-  statement: "Flarf poetry emphasizes the conceptual framework and procedural method over conventional poetic craft and originality of language"
-  correct_answer: true
-  explanation: "In flarf, what you search for and how you assemble results matters more than the beauty of language itself. The procedure (search query, selection, arrangement) is the poetic act. This represents a shift from craft-based evaluation (Is the language beautiful?) to conceptual evaluation (Is the idea/procedure interesting?)."
-
-- type: true-false
-  statement: "Flarf poetry plagiarizes internet content without ethical concern for original authorship"
-  correct_answer: false
-  explanation: "Flarf raises complex questions about authorship and appropriation, but practitioners are generally aware of these issues. Flarf represents a deliberate conceptual choice to work with found language, not accidental plagiarism. It intervenes in debates about authorship and originality, similar to other conceptual art practices."
-
-- type: short-answer
-  question: "Explain how flarf poetry represents a fundamentally different understanding of poetic authorship compared to Romantic conceptions of original authorship."
-  explanation: "Romantic authorship: The poet draws from internal imagination and sensibility, generating original language that expresses individual consciousness. Originality is paramount. Flarf authorship: The poet curates existing language from the internet, selecting and arranging found material. Originality of language is irrelevant; originality consists of the conceptual procedure and curation. The poet is not a generator but an editor, selector, curator. This matters because: (1) It acknowledges that contemporary writers work within information saturation, not romantic isolation; (2) It treats language as already available material to be reorganized rather than generated ex nihilo; (3) It emphasizes procedure (how to search, what to search for) as the creative act rather than linguistic originality; (4) It challenges the assumption that poetry requires original language—instead, arrangement and framing become primary. This shift reflects broader changes in how contemporary culture makes meaning: through remix, curation, and procedural method rather than original creation."
+  type: multiple-choice
+- correct_answer: true
+  explanation: In flarf, what you search for and how you assemble results matters more than the beauty of language itself. The procedure (search query, selection, arrangement) is the poetic act. This represents
+    a shift from craft-based evaluation (Is the language beautiful?) to conceptual evaluation (Is the idea/procedure interesting?).
+  statement: Flarf poetry emphasizes the conceptual framework and procedural method over conventional poetic craft and originality of language
+  type: true-false
+- correct_answer: false
+  explanation: Flarf raises complex questions about authorship and appropriation, but practitioners are generally aware of these issues. Flarf represents a deliberate conceptual choice to work with found
+    language, not accidental plagiarism. It intervenes in debates about authorship and originality, similar to other conceptual art practices.
+  statement: Flarf poetry plagiarizes internet content without ethical concern for original authorship
+  type: true-false
+- explanation: 'Romantic authorship: The poet draws from internal imagination and sensibility, generating original language that expresses individual consciousness. Originality is paramount. Flarf authorship:
+    The poet curates existing language from the internet, selecting and arranging found material. Originality of language is irrelevant; originality consists of the conceptual procedure and curation. The
+    poet is not a generator but an editor, selector, curator. This matters because: (1) It acknowledges that contemporary writers work within information saturation, not romantic isolation; (2) It treats
+    language as already available material to be reorganized rather than generated ex nihilo; (3) It emphasizes procedure (how to search, what to search for) as the creative act rather than linguistic originality;
+    (4) It challenges the assumption that poetry requires original language—instead, arrangement and framing become primary. This shift reflects broader changes in how contemporary culture makes meaning:
+    through remix, curation, and procedural method rather than original creation.'
+  question: Explain how flarf poetry represents a fundamentally different understanding of poetic authorship compared to Romantic conceptions of original authorship.
+  type: short-answer
 ```
 
 ## Explainer

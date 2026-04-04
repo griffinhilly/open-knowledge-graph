@@ -25,39 +25,45 @@ Hypertext theory developed by Bolter and Joyce addresses how hypertext structure
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: 'Bolter, Joyce, and other hypertext theorists recognized that digital literature works through different principles than print. They developed new critical vocabulary to describe these differences:
+    lexia for textual units, multilinearity for multiple possible paths, reader agency for path-creation. This allows analysis of how hypertext structures meaning distinctly from linear narrative.'
+  options:
+  - It developed vocabulary (lexia, multilinearity, paths) to describe how hypertext creates meaning through navigable link structures rather than fixed sequential progression
+  - Hypertext theory proved that hypertext cannot be considered literature
+  - It argued that hypertext narratives should be converted to linear form for analysis
+  - Hypertext theory is identical to conventional narrative theory
   question: What is the fundamental innovation in hypertext theory's approach to analyzing digital narrative structure?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: The lexia concept shows that hypertext fragments narrative into discrete units. Multilinearity shows multiple possible paths exist. Together, these concepts reveal that readers construct
+    narrative meaning through their navigation choices. Different paths create different narrative sequences, making each reader's experience partially unique.
   options:
-    - 0: "It developed vocabulary (lexia, multilinearity, paths) to describe how hypertext creates meaning through navigable link structures rather than fixed sequential progression"
-    - 1: "Hypertext theory proved that hypertext cannot be considered literature"
-    - 2: "It argued that hypertext narratives should be converted to linear form for analysis"
-    - 3: "Hypertext theory is identical to conventional narrative theory"
-  correct_answer: 0
-  explanation: "Bolter, Joyce, and other hypertext theorists recognized that digital literature works through different principles than print. They developed new critical vocabulary to describe these differences: lexia for textual units, multilinearity for multiple possible paths, reader agency for path-creation. This allows analysis of how hypertext structures meaning distinctly from linear narrative."
-
-- type: multiple-choice
+  - They describe how narrative meaning becomes path-dependent because readers encounter different lexia sequences, creating multiple possible narratives from a single hypertext structure
+  - They prove that all readers have identical experiences with hypertext
+  - They show that the reader has no agency in hypertext
+  - They are merely technical terms with no relevance to meaning-making
   question: How do key hypertext theory concepts like 'lexia' and 'multilinearity' illuminate the reader's role in creating meaning?"
-  options:
-    - 0: "They describe how narrative meaning becomes path-dependent because readers encounter different lexia sequences, creating multiple possible narratives from a single hypertext structure"
-    - 1: "They prove that all readers have identical experiences with hypertext"
-    - 2: "They show that the reader has no agency in hypertext"
-    - 3: "They are merely technical terms with no relevance to meaning-making"
-  correct_answer: 0
-  explanation: "The lexia concept shows that hypertext fragments narrative into discrete units. Multilinearity shows multiple possible paths exist. Together, these concepts reveal that readers construct narrative meaning through their navigation choices. Different paths create different narrative sequences, making each reader's experience partially unique."
-
-- type: true-false
-  statement: "Hypertext theory vocabularies help analyze digital literature but may also constrain how we understand hypertext practice by imposing theoretical categories that don't match actual reader experience"
-  correct_answer: true
-  explanation: "Theory illuminates but also potentially constrains. Rigid application of hypertext theory concepts might miss how actual readers engage with works differently than theory predicts. Theory is a tool, not a fixed truth about practice."
-
-- type: true-false
-  statement: "Reader-created paths in hypertext theory refer to readers making interpretive choices about meaning, not structural choices about narrative sequence"
-  correct_answer: false
-  explanation: "In hypertext theory, reader paths are structural: readers literally create the sequence of lexias they encounter through link-following. This differs from conventional narrative where readers interpret a fixed sequence but cannot alter it."
-
-- type: short-answer
-  question: "Discuss how hypertext theory concepts can both illuminate and potentially constrain our understanding of digital narrative. Use a specific example from hypertext criticism."
-  explanation: "Illumination: Hypertext theory concepts like 'ergodic reading' and 'nontrivial traversal' help explain why clicking links in interactive fiction is not metaphorical but constitutive of meaning-making. These concepts reveal something true about digital literature. Constraint: However, rigid application might suggest that all hypertext shares identical properties when in fact hypertext works vary tremendously. Some hypertext is highly navigational (like 'Afternoon, a Story'); some is more linear with occasional branches. Applying lexia-and-multilinearity frameworks uniformly might obscure these differences. Example: Early hypertext theory emphasized the freedom and agency of readers navigating multilinear texts. But observing actual reader behavior sometimes reveals that readers follow predictable paths, don't explore all branches, or find navigation choices disorienting rather than liberating. This suggests that the theory's emphasis on reader agency, while partially correct, might overstate the actual experience. The point: Theory provides essential vocabulary and reveals structural principles. But best practice is to use theory as an analytical lens while remaining alert to how specific works diverge from theoretical predictions."
+  type: multiple-choice
+- correct_answer: true
+  explanation: Theory illuminates but also potentially constrains. Rigid application of hypertext theory concepts might miss how actual readers engage with works differently than theory predicts. Theory
+    is a tool, not a fixed truth about practice.
+  statement: Hypertext theory vocabularies help analyze digital literature but may also constrain how we understand hypertext practice by imposing theoretical categories that don't match actual reader experience
+  type: true-false
+- correct_answer: false
+  explanation: 'In hypertext theory, reader paths are structural: readers literally create the sequence of lexias they encounter through link-following. This differs from conventional narrative where readers
+    interpret a fixed sequence but cannot alter it.'
+  statement: Reader-created paths in hypertext theory refer to readers making interpretive choices about meaning, not structural choices about narrative sequence
+  type: true-false
+- explanation: 'Illumination: Hypertext theory concepts like ''ergodic reading'' and ''nontrivial traversal'' help explain why clicking links in interactive fiction is not metaphorical but constitutive
+    of meaning-making. These concepts reveal something true about digital literature. Constraint: However, rigid application might suggest that all hypertext shares identical properties when in fact hypertext
+    works vary tremendously. Some hypertext is highly navigational (like ''Afternoon, a Story''); some is more linear with occasional branches. Applying lexia-and-multilinearity frameworks uniformly might
+    obscure these differences. Example: Early hypertext theory emphasized the freedom and agency of readers navigating multilinear texts. But observing actual reader behavior sometimes reveals that readers
+    follow predictable paths, don''t explore all branches, or find navigation choices disorienting rather than liberating. This suggests that the theory''s emphasis on reader agency, while partially correct,
+    might overstate the actual experience. The point: Theory provides essential vocabulary and reveals structural principles. But best practice is to use theory as an analytical lens while remaining alert
+    to how specific works diverge from theoretical predictions.'
+  question: Discuss how hypertext theory concepts can both illuminate and potentially constrain our understanding of digital narrative. Use a specific example from hypertext criticism.
+  type: short-answer
 ```
 
 ## Explainer

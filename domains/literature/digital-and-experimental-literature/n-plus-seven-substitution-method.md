@@ -25,39 +25,44 @@ N+7 replaces each noun in a text with the noun appearing seven positions after i
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: N+7 does not merely deform; it generates. By replacing each noun with a dictionary neighbor, unexpected combinations emerge. A sentence about human relationships might become about furniture
+    or animals depending on what nouns appear seven positions later. These collisions create surprising meanings. The mechanical procedure becomes generative.
+  options:
+  - By systematically replacing nouns according to dictionary order, N+7 creates unexpected semantic juxtapositions and conceptual collisions that generate new meanings unintended by the original author
+  - N+7 simply makes existing text unreadable
+  - N+7 cannot generate new meaning because it follows mechanical rules
+  - N+7 preserves the original meaning exactly
   question: How does the N+7 procedure generate meaning rather than merely deforming an existing text?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: N+7 demonstrates that following mechanical rules can produce meaningful and aesthetically interesting results. The constraint (dictionary order, +7 position) paradoxically generates rather
+    than limits. This challenges the Romantic assumption that creativity requires freedom from rules. Constraint and creativity are not opposed but collaborative.
   options:
-    - 0: "By systematically replacing nouns according to dictionary order, N+7 creates unexpected semantic juxtapositions and conceptual collisions that generate new meanings unintended by the original author"
-    - 1: "N+7 simply makes existing text unreadable"
-    - 2: "N+7 cannot generate new meaning because it follows mechanical rules"
-    - 3: "N+7 preserves the original meaning exactly"
-  correct_answer: 0
-  explanation: "N+7 does not merely deform; it generates. By replacing each noun with a dictionary neighbor, unexpected combinations emerge. A sentence about human relationships might become about furniture or animals depending on what nouns appear seven positions later. These collisions create surprising meanings. The mechanical procedure becomes generative."
-
-- type: multiple-choice
+  - Mechanical, algorithmic procedures can generate creative and meaningful results; constraint and creativity are not opposites but partners
+  - Creativity requires freedom from all rules and constraints
+  - Algorithms cannot produce meaningful texts
+  - Systematic procedures always produce meaningless results
   question: What does N+7 reveal about the relationship between systematic rule-following and creative meaning-making?"
-  options:
-    - 0: "Mechanical, algorithmic procedures can generate creative and meaningful results; constraint and creativity are not opposites but partners"
-    - 1: "Creativity requires freedom from all rules and constraints"
-    - 2: "Algorithms cannot produce meaningful texts"
-    - 3: "Systematic procedures always produce meaningless results"
-  correct_answer: 0
-  explanation: "N+7 demonstrates that following mechanical rules can produce meaningful and aesthetically interesting results. The constraint (dictionary order, +7 position) paradoxically generates rather than limits. This challenges the Romantic assumption that creativity requires freedom from rules. Constraint and creativity are not opposed but collaborative."
-
-- type: true-false
-  statement: "N+7 anticipates computational text processing by treating language as a systematic structure that can be algorithmically manipulated to generate new meanings"
-  correct_answer: true
-  explanation: "N+7 treats language mechanically: nouns are not semantic units but positions in a dictionary sequence. This abstraction from meaning to formal structure is characteristic of computational approaches to language."
-
-- type: true-false
-  statement: "The results of N+7 transformation are meaningless because they follow arbitrary rules rather than semantic intentionality"
-  correct_answer: false
-  explanation: "N+7 results are meaningful and often witty or profound. The appearance of meaninglessness can obscure genuine meaning and unexpected conceptual insights. Mechanical procedure and meaning are not opposites."
-
-- type: short-answer
-  question: "Explain how N+7 functions as both a constraint and a tool for aesthetic exploration, and discuss what this reveals about artistic procedure."
-  explanation: "Constraint: N+7 imposes a strict rule—replace each noun with the next seventh noun in the dictionary. This seems severely limiting; it removes the author's semantic control. Tool for exploration: This apparent limitation becomes a tool for discovering new meanings. Because nouns are replaced mechanically, unexpected juxtapositions emerge that no author would intentionally create. These accidents often generate surprising insights or beauty. The procedure generates surprise; it generates discovery. What this reveals: (1) Constraint and creativity are not opposed but collaborative—rules can be generative; (2) Authorial intention is not the only source of meaning—accident and procedure can generate meanings; (3) Treating language as formal structure (nouns as dictionary positions rather than semantic units) creates possibilities for manipulation and transformation; (4) Aesthetic value can emerge from mechanical procedure. N+7 shows that artistic practice need not depend on individual genius or intentional control. Rules can be more liberating than constraining."
+  type: multiple-choice
+- correct_answer: true
+  explanation: 'N+7 treats language mechanically: nouns are not semantic units but positions in a dictionary sequence. This abstraction from meaning to formal structure is characteristic of computational
+    approaches to language.'
+  statement: N+7 anticipates computational text processing by treating language as a systematic structure that can be algorithmically manipulated to generate new meanings
+  type: true-false
+- correct_answer: false
+  explanation: N+7 results are meaningful and often witty or profound. The appearance of meaninglessness can obscure genuine meaning and unexpected conceptual insights. Mechanical procedure and meaning
+    are not opposites.
+  statement: The results of N+7 transformation are meaningless because they follow arbitrary rules rather than semantic intentionality
+  type: true-false
+- explanation: 'Constraint: N+7 imposes a strict rule—replace each noun with the next seventh noun in the dictionary. This seems severely limiting; it removes the author''s semantic control. Tool for exploration:
+    This apparent limitation becomes a tool for discovering new meanings. Because nouns are replaced mechanically, unexpected juxtapositions emerge that no author would intentionally create. These accidents
+    often generate surprising insights or beauty. The procedure generates surprise; it generates discovery. What this reveals: (1) Constraint and creativity are not opposed but collaborative—rules can be
+    generative; (2) Authorial intention is not the only source of meaning—accident and procedure can generate meanings; (3) Treating language as formal structure (nouns as dictionary positions rather than
+    semantic units) creates possibilities for manipulation and transformation; (4) Aesthetic value can emerge from mechanical procedure. N+7 shows that artistic practice need not depend on individual genius
+    or intentional control. Rules can be more liberating than constraining.'
+  question: Explain how N+7 functions as both a constraint and a tool for aesthetic exploration, and discuss what this reveals about artistic procedure.
+  type: short-answer
 ```
 
 ## Explainer

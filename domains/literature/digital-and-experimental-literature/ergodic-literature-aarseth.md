@@ -28,39 +28,45 @@ Espen Aarseth defines ergodic literature as texts requiring nontrivial effort to
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What makes a text 'ergodic' in Aarseth's framework?"
+- correct_answer: 0
+  explanation: Ergodic literature is defined by what readers *do* during reading, not by content or medium. In conventional literature, the reader's physical action (moving eyes, turning pages) is trivial
+    to meaning-making. The text's meaning exists independent of this physical action. In ergodic literature, the reader's physical manipulation is nontrivial—clicking links shapes the narrative path; entering
+    commands constructs the game world. Without this action, there is no text. Traversal is part of meaning-making.
   options:
-    - 0: "The text requires physical manipulation and nontrivial effort from the reader as integral to the reading process—link-following, command entry, navigation—making traversal a meaning-making act"
-    - 1: "The text is written in an unusual way"
-    - 2: "The text is always digital and never print"
-    - 3: "The text is difficult to understand"
-  correct_answer: 0
-  explanation: "Ergodic literature is defined by what readers *do* during reading, not by content or medium. In conventional literature, the reader's physical action (moving eyes, turning pages) is trivial to meaning-making. The text's meaning exists independent of this physical action. In ergodic literature, the reader's physical manipulation is nontrivial—clicking links shapes the narrative path; entering commands constructs the game world. Without this action, there is no text. Traversal is part of meaning-making."
-
-- type: multiple-choice
-  question: "Why does Aarseth's framework 'reposition digital forms as fundamentally different from print rather than mere digitization'?"
+  - The text requires physical manipulation and nontrivial effort from the reader as integral to the reading process—link-following, command entry, navigation—making traversal a meaning-making act
+  - The text is written in an unusual way
+  - The text is always digital and never print
+  - The text is difficult to understand
+  question: What makes a text 'ergodic' in Aarseth's framework?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'Often, digital literature is dismissed as merely print-in-digital format: poetry typed on screens, stories on websites. Aarseth''s concept challenges this. Ergodic literature cannot be understood
+    as digitized print because the physical work of reading is constitutive. A hypertext fiction is not a print novel moved to screen; it is a fundamentally different form because link-following is essential.
+    This repositions digital literature not as derivative but as genuinely distinct.'
   options:
-    - 0: "By focusing on the physical effort required to traverse texts, Aarseth shows that some digital forms (hypertext, interactive fiction) are not merely print texts moved to screens, but require new reading practices that fundamentally alter what text-reading means"
-    - 1: "Aarseth argues that digital is always better than print"
-    - 2: "Aarseth suggests that digital forms are just like print forms"
-    - 3: "Aarseth only cares about video games"
-  correct_answer: 0
-  explanation: "Often, digital literature is dismissed as merely print-in-digital format: poetry typed on screens, stories on websites. Aarseth's concept challenges this. Ergodic literature cannot be understood as digitized print because the physical work of reading is constitutive. A hypertext fiction is not a print novel moved to screen; it is a fundamentally different form because link-following is essential. This repositions digital literature not as derivative but as genuinely distinct."
-
-- type: true-false
-  statement: "Ergodic literature encompasses only hypertext; video games and kinetic poetry are different categories"
-  correct_answer: false
-  explanation: "False. Aarseth's framework encompasses hypertext, video games, kinetic poetry, and constrained texts—any form where physical manipulation is integral to reading."
-
-- type: true-false
-  statement: "Aarseth's concept of ergodic literature challenges the assumption that reading is purely a mental process by showing that in some texts, physical action and effort are integral to meaning-making"
-  correct_answer: true
-  explanation: "Correct. Ergodic literature demonstrates that reading is not merely cognitive; it involves physical action that shapes meaning."
-
-- type: short-answer
-  question: "Explain what Aarseth means by saying that physical manipulation is 'integral' to reading in ergodic literature. What would be lost if the physical work were removed?"
-  explanation: "In conventional literature, the physical work of reading (eye movement, page-turning) is incidental to meaning. The text's meaning exists independent of how you physically access it. You could read a novel on paper or on screen, aloud or silently; the text remains the same. In ergodic literature, removing the physical work would remove the text itself. A hypertext exists only through link navigation; without that navigation, there is no unified text, only disconnected fragments. An interactive fiction game exists only through player command-entry; remove that and there is no story, only database. Kinetic poetry exists only through temporal unfolding animated over time; a static image of the code could not convey the poem. The physical work—link-clicking, command-typing, waiting for animation—is not merely how you access pre-existing meaning. It is the mechanism through which meaning is actualized. This is why Aarseth calls it 'nontrivial': the effort is not incidental but essential. This reveals that ergodic literature is fundamentally different from print literature. It is not just text moved to a screen; it is a new form requiring new reading practices."
+  - By focusing on the physical effort required to traverse texts, Aarseth shows that some digital forms (hypertext, interactive fiction) are not merely print texts moved to screens, but require new reading
+    practices that fundamentally alter what text-reading means
+  - Aarseth argues that digital is always better than print
+  - Aarseth suggests that digital forms are just like print forms
+  - Aarseth only cares about video games
+  question: Why does Aarseth's framework 'reposition digital forms as fundamentally different from print rather than mere digitization'?
+  type: multiple-choice
+- correct_answer: false
+  explanation: False. Aarseth's framework encompasses hypertext, video games, kinetic poetry, and constrained texts—any form where physical manipulation is integral to reading.
+  statement: Ergodic literature encompasses only hypertext; video games and kinetic poetry are different categories
+  type: true-false
+- correct_answer: true
+  explanation: Correct. Ergodic literature demonstrates that reading is not merely cognitive; it involves physical action that shapes meaning.
+  statement: Aarseth's concept of ergodic literature challenges the assumption that reading is purely a mental process by showing that in some texts, physical action and effort are integral to meaning-making
+  type: true-false
+- explanation: 'In conventional literature, the physical work of reading (eye movement, page-turning) is incidental to meaning. The text''s meaning exists independent of how you physically access it. You
+    could read a novel on paper or on screen, aloud or silently; the text remains the same. In ergodic literature, removing the physical work would remove the text itself. A hypertext exists only through
+    link navigation; without that navigation, there is no unified text, only disconnected fragments. An interactive fiction game exists only through player command-entry; remove that and there is no story,
+    only database. Kinetic poetry exists only through temporal unfolding animated over time; a static image of the code could not convey the poem. The physical work—link-clicking, command-typing, waiting
+    for animation—is not merely how you access pre-existing meaning. It is the mechanism through which meaning is actualized. This is why Aarseth calls it ''nontrivial'': the effort is not incidental but
+    essential. This reveals that ergodic literature is fundamentally different from print literature. It is not just text moved to a screen; it is a new form requiring new reading practices.'
+  question: Explain what Aarseth means by saying that physical manipulation is 'integral' to reading in ergodic literature. What would be lost if the physical work were removed?
+  type: short-answer
 ```
 
 ## Explainer

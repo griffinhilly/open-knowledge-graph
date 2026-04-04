@@ -23,39 +23,44 @@ Inform is a domain-specific language for interactive fiction authoring that enab
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What makes Inform significant as a tool for interactive fiction authoring?"
+- correct_answer: 0
+  explanation: Inform's significance lies in its accessibility. Traditional interactive fiction required low-level coding; Inform enables writers to describe worlds in readable English-like syntax. A writer
+    can say 'The kitchen is west of the living room' and Inform translates this into the underlying systems. This democratizes IF creation by making it accessible to narrative-focused creators without programming
+    background.
   options:
-    - 0: "Inform abstracts away low-level programming complexity by using near-natural English syntax, allowing writers without coding expertise to describe game worlds and rules while the system handles implementation"
-    - 1: "Inform is only for experienced programmers"
-    - 2: "Inform requires knowledge of multiple programming languages"
-    - 3: "Inform is incompatible with creative storytelling"
-  correct_answer: 0
-  explanation: "Inform's significance lies in its accessibility. Traditional interactive fiction required low-level coding; Inform enables writers to describe worlds in readable English-like syntax. A writer can say 'The kitchen is west of the living room' and Inform translates this into the underlying systems. This democratizes IF creation by making it accessible to narrative-focused creators without programming background."
-
-- type: multiple-choice
-  question: "What does it mean for Inform to 'hide systems complexity behind readable syntax'?"
+  - Inform abstracts away low-level programming complexity by using near-natural English syntax, allowing writers without coding expertise to describe game worlds and rules while the system handles implementation
+  - Inform is only for experienced programmers
+  - Inform requires knowledge of multiple programming languages
+  - Inform is incompatible with creative storytelling
+  question: What makes Inform significant as a tool for interactive fiction authoring?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'Creating an interactive fiction world requires managing complex systems: objects with properties, rules about interactions, spatial relationships, game state tracking. Traditional IF languages
+    exposed this complexity directly. Inform abstracts it: writers describe worlds in English-like syntax, and Inform translates into underlying systems. The writer doesn''t need to understand the systems;
+    they just describe the world.'
   options:
-    - 0: "Inform provides high-level, English-like commands that abstract away the underlying computational complexity, so writers can focus on narrative while the system handles technical implementation"
-    - 1: "Inform makes programming more complex"
-    - 2: "Inform requires understanding all underlying systems"
-    - 3: "Inform eliminates all rules and systems"
-  correct_answer: 0
-  explanation: "Creating an interactive fiction world requires managing complex systems: objects with properties, rules about interactions, spatial relationships, game state tracking. Traditional IF languages exposed this complexity directly. Inform abstracts it: writers describe worlds in English-like syntax, and Inform translates into underlying systems. The writer doesn't need to understand the systems; they just describe the world."
-
-- type: true-false
-  statement: "Inform 7's natural-language programming made interactive fiction authorship accessible to writers without programming expertise"
-  correct_answer: true
-  explanation: "Correct. Inform 7's English-like syntax removed the barrier of technical coding knowledge, democratizing IF creation."
-
-- type: true-false
-  statement: "Inform allows writers to focus purely on narrative; the systems and rules are irrelevant"
-  correct_answer: false
-  explanation: "False. While Inform abstracts complexity, writers must still understand game world logic and rules. But Inform allows this understanding to be expressed in narrative-friendly syntax rather than technical code."
-
-- type: short-answer
-  question: "Explain how Inform 'democratized' interactive fiction authorship. What barriers did it remove, and why does this matter?"
-  explanation: "Before Inform, IF authoring required programming expertise. Writers had to learn languages like TADS or Z-machine assembly, manipulating low-level code to manage game state. This barrier excluded most narrative writers; IF remained a niche form accessible mainly to programmer-authors. Inform 7 removed this barrier by allowing English-like syntax. A writer could express game worlds using readable commands rather than code. This mattered because it separated two skill-sets: narrative creativity and technical programming. IF could now attract writers without coding expertise. This democratization expanded who could create IF and what kinds of stories could be told. It increased the volume and diversity of IF creation, leading to broader narratively sophisticated work. It also legitimized IF as a narrative form rather than a programming challenge—writers could be primarily storytellers, not primarily programmers."
+  - Inform provides high-level, English-like commands that abstract away the underlying computational complexity, so writers can focus on narrative while the system handles technical implementation
+  - Inform makes programming more complex
+  - Inform requires understanding all underlying systems
+  - Inform eliminates all rules and systems
+  question: What does it mean for Inform to 'hide systems complexity behind readable syntax'?
+  type: multiple-choice
+- correct_answer: true
+  explanation: Correct. Inform 7's English-like syntax removed the barrier of technical coding knowledge, democratizing IF creation.
+  statement: Inform 7's natural-language programming made interactive fiction authorship accessible to writers without programming expertise
+  type: true-false
+- correct_answer: false
+  explanation: False. While Inform abstracts complexity, writers must still understand game world logic and rules. But Inform allows this understanding to be expressed in narrative-friendly syntax rather
+    than technical code.
+  statement: Inform allows writers to focus purely on narrative; the systems and rules are irrelevant
+  type: true-false
+- explanation: 'Before Inform, IF authoring required programming expertise. Writers had to learn languages like TADS or Z-machine assembly, manipulating low-level code to manage game state. This barrier
+    excluded most narrative writers; IF remained a niche form accessible mainly to programmer-authors. Inform 7 removed this barrier by allowing English-like syntax. A writer could express game worlds using
+    readable commands rather than code. This mattered because it separated two skill-sets: narrative creativity and technical programming. IF could now attract writers without coding expertise. This democratization
+    expanded who could create IF and what kinds of stories could be told. It increased the volume and diversity of IF creation, leading to broader narratively sophisticated work. It also legitimized IF
+    as a narrative form rather than a programming challenge—writers could be primarily storytellers, not primarily programmers.'
+  question: Explain how Inform 'democratized' interactive fiction authorship. What barriers did it remove, and why does this matter?
+  type: short-answer
 ```
 
 ## Explainer

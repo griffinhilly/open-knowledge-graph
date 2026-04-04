@@ -25,39 +25,43 @@ A lipogram excludes a specific letter throughout a text. Perec's 'La Disparition
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: 'In unconstrained writing, writers use words without reflecting on letter frequency or lexical alternatives. A lipogram forces deliberate choice: when the letter ''e'' is forbidden, writers
+    must consciously seek alternatives to common words like ''the'' or ''be.'' This makes visible the normal automaticity of writing. What was transparent becomes visible.'
+  options:
+  - By excluding a specific letter, writers are forced to make deliberate word choices normally made unconsciously, revealing how language structure constrains possibility
+  - Lipograms hide all writing choices from view
+  - There is no difference between writing with and without constraint
+  - Lipograms make writing impossible
   question: How does a lipogram make visible the "transparent choices" that writers usually make without reflection?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Perec's achievement proves that extreme constraint does not produce diminished literature. Instead, the constraint forces exploratory language use, neologisms, unexpected word choices, and
+    creative solutions. The constraint becomes generative—it produces meanings and effects that might not emerge in unconstrained writing. The limitation becomes an opportunity.
   options:
-    - 0: "By excluding a specific letter, writers are forced to make deliberate word choices normally made unconsciously, revealing how language structure constrains possibility"
-    - 1: "Lipograms hide all writing choices from view"
-    - 2: "There is no difference between writing with and without constraint"
-    - 3: "Lipograms make writing impossible"
-  correct_answer: 0
-  explanation: "In unconstrained writing, writers use words without reflecting on letter frequency or lexical alternatives. A lipogram forces deliberate choice: when the letter 'e' is forbidden, writers must consciously seek alternatives to common words like 'the' or 'be.' This makes visible the normal automaticity of writing. What was transparent becomes visible."
-
-- type: multiple-choice
+  - Radical constraints can generate creative linguistic innovation and complex meaning-making rather than merely limiting or diminishing literary possibility
+  - Constraints always reduce the quality of writing
+  - A novel cannot be written without using every letter
+  - Constraint-based writing is inferior to unconstrained writing
   question: What does Perec's 'La Disparition' (novel written without the letter 'e') demonstrate about the relationship between constraint and creativity?"
-  options:
-    - 0: "Radical constraints can generate creative linguistic innovation and complex meaning-making rather than merely limiting or diminishing literary possibility"
-    - 1: "Constraints always reduce the quality of writing"
-    - 2: "A novel cannot be written without using every letter"
-    - 3: "Constraint-based writing is inferior to unconstrained writing"
-  correct_answer: 0
-  explanation: "Perec's achievement proves that extreme constraint does not produce diminished literature. Instead, the constraint forces exploratory language use, neologisms, unexpected word choices, and creative solutions. The constraint becomes generative—it produces meanings and effects that might not emerge in unconstrained writing. The limitation becomes an opportunity."
-
-- type: true-false
-  statement: "Lipograms belong to a broader tradition of constrained writing that uses formal rules and limitations as generative rather than merely restrictive"
-  correct_answer: true
-  explanation: "Lipograms are part of a larger lineage (OULIPO and other constrained writing movements) that treats constraint as productive. Rules are not chains but tools that enable innovation."
-
-- type: true-false
-  statement: "Writing under lipogram constraint forces writers to use worse words simply because they cannot use their first choices"
-  correct_answer: false
-  explanation: "Constraint-based writing often produces more inventive, surprising, and aesthetically interesting results than unconstrained writing. The necessity to find alternatives can lead to linguistic discovery rather than degradation."
-
-- type: short-answer
-  question: "Explain how the lipogram function as both a technical constraint and a tool for making language itself visible as a subject of aesthetic exploration."
-  explanation: "Technical constraint: Excluding a letter limits vocabulary available and forces systematic choice-making. Writers cannot rely on habit; they must consciously select from reduced options. Language as subject: By making exclusion explicit, lipograms foreground how language is constructed. Readers notice the absence of a common letter; they become aware of letter frequency, word structure, and the choices available. The constraint makes language's own functioning a central concern. Example: Reading a text without 'e' makes visible how dependent English is on that letter. Readers notice the awkwardness when 'the' cannot appear, making them conscious of how natural that article usually feels. The constraint thus transforms language from transparent medium into visible material. This is important because: (1) It shows how constraint can be liberating—by limiting vocabulary, it expands creative possibility; (2) It reveals that 'natural' language is actually highly constructed; (3) It makes writing itself, not just content, into aesthetic material worthy of attention. Lipograms belong to a broader project of making language itself visible through formal manipulation."
+  type: multiple-choice
+- correct_answer: true
+  explanation: Lipograms are part of a larger lineage (OULIPO and other constrained writing movements) that treats constraint as productive. Rules are not chains but tools that enable innovation.
+  statement: Lipograms belong to a broader tradition of constrained writing that uses formal rules and limitations as generative rather than merely restrictive
+  type: true-false
+- correct_answer: false
+  explanation: Constraint-based writing often produces more inventive, surprising, and aesthetically interesting results than unconstrained writing. The necessity to find alternatives can lead to linguistic
+    discovery rather than degradation.
+  statement: Writing under lipogram constraint forces writers to use worse words simply because they cannot use their first choices
+  type: true-false
+- explanation: 'Technical constraint: Excluding a letter limits vocabulary available and forces systematic choice-making. Writers cannot rely on habit; they must consciously select from reduced options.
+    Language as subject: By making exclusion explicit, lipograms foreground how language is constructed. Readers notice the absence of a common letter; they become aware of letter frequency, word structure,
+    and the choices available. The constraint makes language''s own functioning a central concern. Example: Reading a text without ''e'' makes visible how dependent English is on that letter. Readers notice
+    the awkwardness when ''the'' cannot appear, making them conscious of how natural that article usually feels. The constraint thus transforms language from transparent medium into visible material. This
+    is important because: (1) It shows how constraint can be liberating—by limiting vocabulary, it expands creative possibility; (2) It reveals that ''natural'' language is actually highly constructed;
+    (3) It makes writing itself, not just content, into aesthetic material worthy of attention. Lipograms belong to a broader project of making language itself visible through formal manipulation.'
+  question: Explain how the lipogram function as both a technical constraint and a tool for making language itself visible as a subject of aesthetic exploration.
+  type: short-answer
 ```
 
 ## Explainer

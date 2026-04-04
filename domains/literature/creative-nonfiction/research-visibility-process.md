@@ -60,7 +60,7 @@ Some nonfiction writers make their research process visible through footnotes, p
 
 - type: short-answer
   question: "Write a brief passage about something you researched, making your research process visible. What sources did you use? Where did information come from? What remained uncertain? How does this visibility change the passage?"
-  explanation: "For example, rather than simply stating 'The company was founded in 1987,' you might write: 'According to the company's website (though corporate histories are often self-serving), the company was founded in 1987. I found one conflicting source that dates it to 1986, but had no way to verify which was accurate.' This makes visible the research process—showing where information came from, what sources say, where uncertainty remains. Readers see that you checked multiple sources and honestly acknowledge contradiction. Or: '(I interviewed three employees who described the company culture as competitive but supportive; one used different language, calling it "ruthless," but may have had different expectations.)' This lets readers see the range of testimony and judge for themselves. The transparency makes thinking visible rather than hidden."
+  explanation: "For example, rather than simply stating that a company was founded in 1987, you might write about finding conflicting dates in different sources and having no way to verify which was accurate. This makes visible the research process — showing where information came from, what sources say, where uncertainty remains. Readers see that you checked multiple sources and honestly acknowledge contradiction. The transparency makes thinking visible rather than hidden."
 ```
 
 ## Explainer

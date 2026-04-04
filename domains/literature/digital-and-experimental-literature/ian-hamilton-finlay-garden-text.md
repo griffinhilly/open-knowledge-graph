@@ -25,39 +25,43 @@ Finlay transformed concrete poetry from the page into three-dimensional garden i
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: Finlay realized that poetry need not be confined to pages. By placing poems, inscriptions, and artistic texts throughout garden spaces—on stones, walls, water features, sculptures—he created
+    environments where visitors experience poetry through navigation and spatial encounter. The garden becomes the work; meaning emerges through walking and discovering textual elements in landscape.
+  options:
+  - By embedding textual and poetic meaning into three-dimensional landscape and garden space, creating sites where visitors must navigate physically to encounter meaning
+  - Finlay proved that garden design cannot be poetic
+  - He simply printed concrete poetry and displayed it in gardens
+  - His work had nothing to do with poetry or literature
   question: How did Finlay's garden installations extend the possibilities of concrete poetry beyond the printed page?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Site-specific art creates meaning through the relationship between artwork and location. Finlay's Little Sparta works are inseparable from their landscape context. A particular inscription
+    makes sense because of its placement near specific plants or water features. Moving the work would fundamentally alter its meaning. This site-specificity is central to how his installations function.
   options:
-    - 0: "By embedding textual and poetic meaning into three-dimensional landscape and garden space, creating sites where visitors must navigate physically to encounter meaning"
-    - 1: "Finlay proved that garden design cannot be poetic"
-    - 2: "He simply printed concrete poetry and displayed it in gardens"
-    - 3: "His work had nothing to do with poetry or literature"
-  correct_answer: 0
-  explanation: "Finlay realized that poetry need not be confined to pages. By placing poems, inscriptions, and artistic texts throughout garden spaces—on stones, walls, water features, sculptures—he created environments where visitors experience poetry through navigation and spatial encounter. The garden becomes the work; meaning emerges through walking and discovering textual elements in landscape."
-
-- type: multiple-choice
+  - Finlay's installations are site-specific because meaning is created by the relationship between text, visual form, and the particular landscape where the work exists
+  - Site-specificity means the work can be moved to any location without change
+  - Finlay's work is not site-specific because it uses language
+  - Site-specificity is irrelevant to understanding Finlay's practice
   question: What is the relationship between Finlay's work and the concept of site-specific art?"
-  options:
-    - 0: "Finlay's installations are site-specific because meaning is created by the relationship between text, visual form, and the particular landscape where the work exists"
-    - 1: "Site-specificity means the work can be moved to any location without change"
-    - 2: "Finlay's work is not site-specific because it uses language"
-    - 3: "Site-specificity is irrelevant to understanding Finlay's practice"
-  correct_answer: 0
-  explanation: "Site-specific art creates meaning through the relationship between artwork and location. Finlay's Little Sparta works are inseparable from their landscape context. A particular inscription makes sense because of its placement near specific plants or water features. Moving the work would fundamentally alter its meaning. This site-specificity is central to how his installations function."
-
-- type: true-false
-  statement: "Finlay's garden installations demonstrate that poetry can be an environmental and spatial practice, not confined to verbal language alone"
-  correct_answer: true
-  explanation: "By embedding poetic meaning into landscape design, sculpture, and spatial arrangement, Finlay shows that poetry is not coterminous with words. Visual form, spatial arrangement, and the bodily experience of moving through space become poetic elements."
-
-- type: true-false
-  statement: "Finlay's work proves that literature must abandon language and become purely visual to be innovative"
-  correct_answer: false
-  explanation: "Finlay's practice integrates language and visual/spatial form; it does not abandon language but expands poetry's possibilities. Text remains important but operates alongside and through space."
-
-- type: short-answer
-  question: "Explain how Little Sparta functions as a poetic work rather than merely a garden decorated with poems. What does this reveal about the definition of poetry?"
-  explanation: "Little Sparta is not a garden that contains poems; it is a unified poetic work where garden design, landscape features, textual inscriptions, and visitor navigation all contribute to meaning-making. A poem inscribed on a stone means something different because of the surrounding plants, the view it frames, the visitor's journey to reach it. The entire landscape is composed poetically—relationships between elements create resonance and meaning. This reveals: (1) Poetry is not limited to verbal language but extends to spatial arrangement, visual form, and environmental composition; (2) Poetic meaning emerges through reader/visitor engagement and movement, not just interpretation of static text; (3) Literature can merge with visual art, landscape design, and environmental practice. Traditional definitions of poetry (verbal expression, written texts) become too narrow. Finlay's work expands poetry to mean any carefully composed and meaningful arrangement of elements—textual, visual, spatial, environmental—that creates aesthetic and conceptual effects."
+  type: multiple-choice
+- correct_answer: true
+  explanation: By embedding poetic meaning into landscape design, sculpture, and spatial arrangement, Finlay shows that poetry is not coterminous with words. Visual form, spatial arrangement, and the bodily
+    experience of moving through space become poetic elements.
+  statement: Finlay's garden installations demonstrate that poetry can be an environmental and spatial practice, not confined to verbal language alone
+  type: true-false
+- correct_answer: false
+  explanation: Finlay's practice integrates language and visual/spatial form; it does not abandon language but expands poetry's possibilities. Text remains important but operates alongside and through space.
+  statement: Finlay's work proves that literature must abandon language and become purely visual to be innovative
+  type: true-false
+- explanation: 'Little Sparta is not a garden that contains poems; it is a unified poetic work where garden design, landscape features, textual inscriptions, and visitor navigation all contribute to meaning-making.
+    A poem inscribed on a stone means something different because of the surrounding plants, the view it frames, the visitor''s journey to reach it. The entire landscape is composed poetically—relationships
+    between elements create resonance and meaning. This reveals: (1) Poetry is not limited to verbal language but extends to spatial arrangement, visual form, and environmental composition; (2) Poetic meaning
+    emerges through reader/visitor engagement and movement, not just interpretation of static text; (3) Literature can merge with visual art, landscape design, and environmental practice. Traditional definitions
+    of poetry (verbal expression, written texts) become too narrow. Finlay''s work expands poetry to mean any carefully composed and meaningful arrangement of elements—textual, visual, spatial, environmental—that
+    creates aesthetic and conceptual effects.'
+  question: Explain how Little Sparta functions as a poetic work rather than merely a garden decorated with poems. What does this reveal about the definition of poetry?
+  type: short-answer
 ```
 
 ## Explainer

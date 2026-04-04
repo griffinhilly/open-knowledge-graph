@@ -24,39 +24,45 @@ Net art encompasses works created for and distributed through the internet, ofte
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: 'Net art works often integrate text, image, code, and interactivity. A work might have narrative dimension (textual content), visual aesthetics, and interactive behavior that responds to
+    user input. These elements are not separate; they constitute the work together. The result exists at intersections of disciplines: is it literature? Visual art? Code? Net art suggests the answer is
+    all and none—it is its own form.'
+  options:
+  - Net art merges textual, visual, and interactive elements into integrated works where distinguishing between literary and visual components becomes impossible and unproductive
+  - Net art is purely visual and contains no textual elements
+  - Net art is purely literary with no visual or interactive components
+  - Net art clearly separates literature from visual form
   question: How does net art blur boundaries between literature, visual art, and interactive digital form?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'Net art is born-digital—created specifically for internet distribution and exhibition. It exploits internet-specific possibilities: asynchronous distribution, database structures, server-side
+    processing, internet culture references. It is not migrated from other media but native to the internet.'
   options:
-    - 0: "Net art merges textual, visual, and interactive elements into integrated works where distinguishing between literary and visual components becomes impossible and unproductive"
-    - 1: "Net art is purely visual and contains no textual elements"
-    - 2: "Net art is purely literary with no visual or interactive components"
-    - 3: "Net art clearly separates literature from visual form"
-  correct_answer: 0
-  explanation: "Net art works often integrate text, image, code, and interactivity. A work might have narrative dimension (textual content), visual aesthetics, and interactive behavior that responds to user input. These elements are not separate; they constitute the work together. The result exists at intersections of disciplines: is it literature? Visual art? Code? Net art suggests the answer is all and none—it is its own form."
-
-- type: multiple-choice
+  - Net art is specifically created for and distributed through the internet rather than adapted from other media, exploiting internet-specific affordances and materiality
+  - Net art is identical to all digital art
+  - Net art cannot be experienced on the internet
+  - Net art has no specific characteristics
   question: What distinguishes net art from other forms of digital art or internet literature?"
-  options:
-    - 0: "Net art is specifically created for and distributed through the internet rather than adapted from other media, exploiting internet-specific affordances and materiality"
-    - 1: "Net art is identical to all digital art"
-    - 2: "Net art cannot be experienced on the internet"
-    - 3: "Net art has no specific characteristics"
-  correct_answer: 0
-  explanation: "Net art is born-digital—created specifically for internet distribution and exhibition. It exploits internet-specific possibilities: asynchronous distribution, database structures, server-side processing, internet culture references. It is not migrated from other media but native to the internet."
-
-- type: true-false
-  statement: "Net art suggests that contemporary artistic practice increasingly involves collaboration between aesthetic/conceptual thinking and technical/code-based thinking"
-  correct_answer: true
-  explanation: "Many net artworks require both aesthetic vision and technical implementation. Code is not merely instrumental but constitutive of form. This suggests that making art in digital contexts requires both artistic and technical literacy."
-
-- type: true-false
-  statement: "Net art abandons traditional literary concepts like narrative and character in favor of purely formal and interactive concerns"
-  correct_answer: false
-  explanation: "While net art often foregrounds form and interactivity, many net art works retain narrative elements, character, dialogue, and other literary dimensions. Form and content remain in dialogue rather than one superseding the other."
-
-- type: short-answer
-  question: "Explain how net art represents a convergence of literary, visual, and computational practices, and discuss what this reveals about disciplinary boundaries in contemporary artistic practice."
-  explanation: "Convergence: Net art integrates narrative (literary), visual aesthetics, and code (computational logic) into works that cannot be reduced to any single discipline. A net art work might have narrative content (literary), visual design (visual art), and interactive behavior determined by code (computation). None of these aspects is auxiliary; all constitute the work. What this reveals: (1) Disciplinary boundaries (literature, visual art, code) are historically contingent, not essential; (2) Contemporary artistic practice increasingly requires hybrid literacy—understanding language, image, and code; (3) The internet as a medium creates affordances that naturally merge disciplines (code displays as visual/textual interface); (4) Critical practice must develop vocabulary for hybrid forms that don't fit traditional categories. This suggests that future artistic literacy will require simultaneous fluency in multiple registers: linguistic, visual, computational. Net art pioneers this convergence."
+  type: multiple-choice
+- correct_answer: true
+  explanation: Many net artworks require both aesthetic vision and technical implementation. Code is not merely instrumental but constitutive of form. This suggests that making art in digital contexts requires
+    both artistic and technical literacy.
+  statement: Net art suggests that contemporary artistic practice increasingly involves collaboration between aesthetic/conceptual thinking and technical/code-based thinking
+  type: true-false
+- correct_answer: false
+  explanation: While net art often foregrounds form and interactivity, many net art works retain narrative elements, character, dialogue, and other literary dimensions. Form and content remain in dialogue
+    rather than one superseding the other.
+  statement: Net art abandons traditional literary concepts like narrative and character in favor of purely formal and interactive concerns
+  type: true-false
+- explanation: 'Convergence: Net art integrates narrative (literary), visual aesthetics, and code (computational logic) into works that cannot be reduced to any single discipline. A net art work might have
+    narrative content (literary), visual design (visual art), and interactive behavior determined by code (computation). None of these aspects is auxiliary; all constitute the work. What this reveals: (1)
+    Disciplinary boundaries (literature, visual art, code) are historically contingent, not essential; (2) Contemporary artistic practice increasingly requires hybrid literacy—understanding language, image,
+    and code; (3) The internet as a medium creates affordances that naturally merge disciplines (code displays as visual/textual interface); (4) Critical practice must develop vocabulary for hybrid forms
+    that don''t fit traditional categories. This suggests that future artistic literacy will require simultaneous fluency in multiple registers: linguistic, visual, computational. Net art pioneers this
+    convergence.'
+  question: Explain how net art represents a convergence of literary, visual, and computational practices, and discuss what this reveals about disciplinary boundaries in contemporary artistic practice.
+  type: short-answer
 ```
 
 ## Explainer

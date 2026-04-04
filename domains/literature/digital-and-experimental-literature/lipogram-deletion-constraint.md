@@ -23,39 +23,42 @@ A lipogram is written entirely without a specific letter. Georges Perec's 'La Di
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What makes a lipogram like Perec's 'La Disparition' formally significant beyond mere linguistic constraint?"
+- correct_answer: 0
+  explanation: 'The constraint is not merely technical gimmick. By forbidding the letter ''e'' (French''s most common letter), Perec forced unusual vocabulary and syntax. This linguistic strangeness becomes
+    part of the novel''s form. Additionally, the absence becomes thematic: a novel about disappearance and loss, written with a missing letter. Form and content reinforce each other.'
   options:
-    - 0: "The absent letter ('e' in French) becomes thematically significant—the constraint generates semantic detours and unusual word choices that reinforce the novel's meaning, so form and content align"
-    - 1: "Lipograms are only about technical constraint with no thematic significance"
-    - 2: "The absent letter is irrelevant to the novel's meaning"
-    - 3: "Lipograms make writing easier"
-  correct_answer: 0
-  explanation: "The constraint is not merely technical gimmick. By forbidding the letter 'e' (French's most common letter), Perec forced unusual vocabulary and syntax. This linguistic strangeness becomes part of the novel's form. Additionally, the absence becomes thematic: a novel about disappearance and loss, written with a missing letter. Form and content reinforce each other."
-
-- type: multiple-choice
-  question: "How does the lipogram constraint in 'La Disparition' 'force linguistic creativity'?"
+  - The absent letter ('e' in French) becomes thematically significant—the constraint generates semantic detours and unusual word choices that reinforce the novel's meaning, so form and content align
+  - Lipograms are only about technical constraint with no thematic significance
+  - The absent letter is irrelevant to the novel's meaning
+  - Lipograms make writing easier
+  question: What makes a lipogram like Perec's 'La Disparition' formally significant beyond mere linguistic constraint?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Without the letter 'e,' Perec could not use many common words. This forced exploration of unusual alternatives, rare vocabulary, and unexpected syntax. The constraint channeled creativity
+    into discovering linguistic territory ordinarily unexplored.
   options:
-    - 0: "By eliminating access to the most common letter, writers must find unusual vocabulary alternatives and develop unexpected syntax, discovering linguistic possibilities unavailable with all letters"
-    - 1: "Constraint eliminates all creative possibility"
-    - 2: "Writers with all letters available are more creative"
-    - 3: "Lipograms require no creativity"
-  correct_answer: 0
-  explanation: "Without the letter 'e,' Perec could not use many common words. This forced exploration of unusual alternatives, rare vocabulary, and unexpected syntax. The constraint channeled creativity into discovering linguistic territory ordinarily unexplored."
-
-- type: true-false
-  statement: "In a lipogram, the formal constraint (missing letter) is purely technical and doesn't affect the novel's thematic content or meaning"
-  correct_answer: false
-  explanation: "False. The constraint becomes thematically significant. A novel about disappearance written with a missing letter creates meaningful resonance between form and theme."
-
-- type: true-false
-  statement: "The lipogram's absent letter generates 'semantic detours'—the writer must take linguistic paths around the forbidden letter, creating unexpected language patterns that affect interpretation"
-  correct_answer: true
-  explanation: "Correct. The constraint forces linguistic alternatives that shape how the text reads and what it means."
-
-- type: short-answer
-  question: "Explain how a formal constraint like the lipogram reveals that form and content are inseparable. What does Perec's 'La Disparition' demonstrate about the relationship between constraint and meaning?"
-  explanation: "'La Disparition' demonstrates that constraint is not external to content—it shapes content. The missing 'e' is not merely a technical puzzle imposed on a story that could exist without it. The constraint generates the story's linguistic character and thematic resonance. A novel about disappearance with a missing letter creates meaningful alignment: form mirrors content. The constraint forces Perec to make linguistic detours—to use unexpected vocabulary and syntax. This linguistic strangeness reinforces the novel's themes. Additionally, the constraint reveals that meaning emerges from form. Because 'e' is absent, readers notice its absence. The text reads strangely; this strangeness becomes part of the reading experience. Form (the missing letter) is not decoration applied to pre-existing content; it shapes what the novel is and how it means. This challenges the distinction between form and content, showing they are ultimately unified."
+  - By eliminating access to the most common letter, writers must find unusual vocabulary alternatives and develop unexpected syntax, discovering linguistic possibilities unavailable with all letters
+  - Constraint eliminates all creative possibility
+  - Writers with all letters available are more creative
+  - Lipograms require no creativity
+  question: How does the lipogram constraint in 'La Disparition' 'force linguistic creativity'?
+  type: multiple-choice
+- correct_answer: false
+  explanation: False. The constraint becomes thematically significant. A novel about disappearance written with a missing letter creates meaningful resonance between form and theme.
+  statement: In a lipogram, the formal constraint (missing letter) is purely technical and doesn't affect the novel's thematic content or meaning
+  type: true-false
+- correct_answer: true
+  explanation: Correct. The constraint forces linguistic alternatives that shape how the text reads and what it means.
+  statement: The lipogram's absent letter generates 'semantic detours'—the writer must take linguistic paths around the forbidden letter, creating unexpected language patterns that affect interpretation
+  type: true-false
+- explanation: '''La Disparition'' demonstrates that constraint is not external to content—it shapes content. The missing ''e'' is not merely a technical puzzle imposed on a story that could exist without
+    it. The constraint generates the story''s linguistic character and thematic resonance. A novel about disappearance with a missing letter creates meaningful alignment: form mirrors content. The constraint
+    forces Perec to make linguistic detours—to use unexpected vocabulary and syntax. This linguistic strangeness reinforces the novel''s themes. Additionally, the constraint reveals that meaning emerges
+    from form. Because ''e'' is absent, readers notice its absence. The text reads strangely; this strangeness becomes part of the reading experience. Form (the missing letter) is not decoration applied
+    to pre-existing content; it shapes what the novel is and how it means. This challenges the distinction between form and content, showing they are ultimately unified.'
+  question: Explain how a formal constraint like the lipogram reveals that form and content are inseparable. What does Perec's 'La Disparition' demonstrate about the relationship between constraint and
+    meaning?
+  type: short-answer
 ```
 
 ## Explainer

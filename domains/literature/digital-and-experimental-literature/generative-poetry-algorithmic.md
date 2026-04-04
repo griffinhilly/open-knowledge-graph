@@ -25,39 +25,42 @@ Generative poetry emerges from algorithmic systems—rule-based composition usin
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the key difference between generative poetry and conventional poetry?"
+- correct_answer: 0
+  explanation: 'The defining feature is variation vs. fixity. Conventional poems are singular: you read the same poem every time. Generative poems are systems that produce unique variations each instantiation.
+    A generative system might recombine words according to rules, or randomize certain elements, creating different poems on different runs. Each instantiation is unique; the poem is not a fixed text but
+    a combinatorial space.'
   options:
-    - 0: "Generative poetry produces different variations each time it runs, creating multiple unique instantiations; conventional poetry is fixed and singular"
-    - 1: "Generative poetry is written by machines; conventional poetry is written by humans"
-    - 2: "Generative poetry rhymes; conventional poetry doesn't"
-    - 3: "Generative poetry is always short; conventional poetry is always long"
-  correct_answer: 0
-  explanation: "The defining feature is variation vs. fixity. Conventional poems are singular: you read the same poem every time. Generative poems are systems that produce unique variations each instantiation. A generative system might recombine words according to rules, or randomize certain elements, creating different poems on different runs. Each instantiation is unique; the poem is not a fixed text but a combinatorial space."
-
-- type: multiple-choice
-  question: "How does generative poetry 'treat literature as combinatorial exploration'?"
+  - Generative poetry produces different variations each time it runs, creating multiple unique instantiations; conventional poetry is fixed and singular
+  - Generative poetry is written by machines; conventional poetry is written by humans
+  - Generative poetry rhymes; conventional poetry doesn't
+  - Generative poetry is always short; conventional poetry is always long
+  question: What is the key difference between generative poetry and conventional poetry?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Combinatorial exploration means exploring possible combinations. Traditional composition produces one text. Generative systems produce many. The generative poet designs the system (rules,
+    constraints, word-banks); the system produces the poems. This treats literature as exploration of possibility-space rather than crafting a singular artifact.
   options:
-    - 0: "Rather than composing a single fixed text, generative poets design systems that explore combinations of words, phrases, or constraints, with each run producing a unique instantiation from vast possibility-space"
-    - 1: "Generative poets copy existing texts and rearrange them randomly"
-    - 2: "Generative poetry explores only emotions"
-    - 3: "Generative poetry eliminates all rules and constraints"
-  correct_answer: 0
-  explanation: "Combinatorial exploration means exploring possible combinations. Traditional composition produces one text. Generative systems produce many. The generative poet designs the system (rules, constraints, word-banks); the system produces the poems. This treats literature as exploration of possibility-space rather than crafting a singular artifact."
-
-- type: true-false
-  statement: "Generative poetry systems determine completely how each poem will look; there is no human creative input"
-  correct_answer: false
-  explanation: "False. Humans design the generative system—rules, constraints, word selections, probability distributions. The human creativity is in system design, not in crafting individual poems."
-
-- type: true-false
-  statement: "Generative poetry questions authorship by distributing creative agency between human system-design and algorithmic variation"
-  correct_answer: true
-  explanation: "Correct. Traditional authorship resides in the human who writes. Generative poetry distributes agency: humans design systems; algorithms generate instantiations. Who is the author?"
-
-- type: short-answer
-  question: "Explain what generative poetry reveals about the relationship between 'authorship' and 'determinism.' How does generative practice challenge conventional understanding of authorship?"
-  explanation: "Conventional authorship assumes determinism: the author determines the work. They decide what words appear, in what order, with what meaning. The author is the source of all creative decisions. Generative poetry challenges this. The human designs a system that generates variations; the human does not determine individual poems. Authorship becomes distributed between system-design (human) and variation-generation (algorithm). Additionally, generative poetry challenges the assumption that literary creation produces deterministic, fixed artifacts. Instead, it produces systems generating variation. This raises the question: if a generative system produces infinite variations, is the author responsible for all of them? Or only the system? Generative poetry reveals that authorship is not a simple matter of individual intention determining final form. It distributes agency and challenges the assumption that literature must be singular and deterministic."
+  - Rather than composing a single fixed text, generative poets design systems that explore combinations of words, phrases, or constraints, with each run producing a unique instantiation from vast possibility-space
+  - Generative poets copy existing texts and rearrange them randomly
+  - Generative poetry explores only emotions
+  - Generative poetry eliminates all rules and constraints
+  question: How does generative poetry 'treat literature as combinatorial exploration'?
+  type: multiple-choice
+- correct_answer: false
+  explanation: False. Humans design the generative system—rules, constraints, word selections, probability distributions. The human creativity is in system design, not in crafting individual poems.
+  statement: Generative poetry systems determine completely how each poem will look; there is no human creative input
+  type: true-false
+- correct_answer: true
+  explanation: 'Correct. Traditional authorship resides in the human who writes. Generative poetry distributes agency: humans design systems; algorithms generate instantiations. Who is the author?'
+  statement: Generative poetry questions authorship by distributing creative agency between human system-design and algorithmic variation
+  type: true-false
+- explanation: 'Conventional authorship assumes determinism: the author determines the work. They decide what words appear, in what order, with what meaning. The author is the source of all creative decisions.
+    Generative poetry challenges this. The human designs a system that generates variations; the human does not determine individual poems. Authorship becomes distributed between system-design (human) and
+    variation-generation (algorithm). Additionally, generative poetry challenges the assumption that literary creation produces deterministic, fixed artifacts. Instead, it produces systems generating variation.
+    This raises the question: if a generative system produces infinite variations, is the author responsible for all of them? Or only the system? Generative poetry reveals that authorship is not a simple
+    matter of individual intention determining final form. It distributes agency and challenges the assumption that literature must be singular and deterministic.'
+  question: Explain what generative poetry reveals about the relationship between 'authorship' and 'determinism.' How does generative practice challenge conventional understanding of authorship?
+  type: short-answer
 ```
 
 ## Explainer

@@ -28,39 +28,41 @@ Concrete poetry prioritizes visual and spatial arrangement of words and letters,
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What distinguishes concrete poetry from conventional lineated poetry?"
+- correct_answer: 0
+  explanation: 'Conventional poetry arranges language in lines; the visual appearance is secondary to linguistic meaning. Concrete poetry inverts this: visual arrangement is primary. Words may be scattered
+    across the page, arranged in patterns, sized differently, or positioned spatially. The visual form carries meaning equal to or greater than the words themselves.'
   options:
-    - 0: "Concrete poetry prioritizes visual arrangement of text—words and letters positioned on the page—over conventional syntax and lineation, making visual form constitutive of poetic meaning"
-    - 1: "Concrete poetry uses the same lineation as traditional poetry"
-    - 2: "Concrete poetry rejects all visual form"
-    - 3: "Concrete poetry uses only words with no visual elements"
-  correct_answer: 0
-  explanation: "Conventional poetry arranges language in lines; the visual appearance is secondary to linguistic meaning. Concrete poetry inverts this: visual arrangement is primary. Words may be scattered across the page, arranged in patterns, sized differently, or positioned spatially. The visual form carries meaning equal to or greater than the words themselves."
-
-- type: multiple-choice
-  question: "How do concrete poems make 'visual shape integral to poetic interpretation'?"
+  - Concrete poetry prioritizes visual arrangement of text—words and letters positioned on the page—over conventional syntax and lineation, making visual form constitutive of poetic meaning
+  - Concrete poetry uses the same lineation as traditional poetry
+  - Concrete poetry rejects all visual form
+  - Concrete poetry uses only words with no visual elements
+  question: What distinguishes concrete poetry from conventional lineated poetry?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: In concrete poetry, the visual arrangement is not merely decorative. A poem about falling might have words descend down the page. A poem about fragmentation might scatter words. The shape
+    itself is part of what the poem means. Rearrange the words and you change the poem. Visual shape is integral to interpretation, not incidental.
   options:
-    - 0: "The spatial position and visual arrangement of text on the page—the shape formed by text—directly affects meaning interpretation, so changing the visual layout would alter the poem's meaning"
-    - 1: "Visual shape has no effect on meaning"
-    - 2: "Only word choice matters in concrete poetry"
-    - 3: "Concrete poems can be rearranged without changing meaning"
-  correct_answer: 0
-  explanation: "In concrete poetry, the visual arrangement is not merely decorative. A poem about falling might have words descend down the page. A poem about fragmentation might scatter words. The shape itself is part of what the poem means. Rearrange the words and you change the poem. Visual shape is integral to interpretation, not incidental."
-
-- type: true-false
-  statement: "Concrete poetry may abandon conventional syntax because spatial arrangement, not grammatical structure, is the primary organizing principle"
-  correct_answer: true
-  explanation: "Correct. Syntax (word order and grammatical structure) is optional in concrete poetry. Visual-spatial logic replaces syntactic logic."
-
-- type: true-false
-  statement: "Concrete poetry treats typography and layout as decorative—the poem's meaning exists in the words, and visual form merely presents it"
-  correct_answer: false
-  explanation: "False. Visual form is constitutive of meaning, not decorative."
-
-- type: short-answer
-  question: "Explain how concrete poetry challenges the distinction between 'language' and 'visual form' in poetry. Why does this matter?"
-  explanation: "Conventional poetry treats language and visual form as separable: the poem is the language; the visual form is how the language appears. You could print a poem in different typefaces or line breaks without changing the poem. Concrete poetry collapses this distinction: the visual form is inseparable from language. The poem is not just the words but the words-arranged-spatially. This matters philosophically because it reveals that written language is always visual—that visual properties affect interpretation. Even in conventional poetry, line breaks affect rhythm and emphasis. Concrete poetry makes this visible by foregrounding visual form. It also expands what poetry can be: if visual form is integral, poetry can work with space, shape, and arrangement as primary tools, not merely as presentation of language."
+  - The spatial position and visual arrangement of text on the page—the shape formed by text—directly affects meaning interpretation, so changing the visual layout would alter the poem's meaning
+  - Visual shape has no effect on meaning
+  - Only word choice matters in concrete poetry
+  - Concrete poems can be rearranged without changing meaning
+  question: How do concrete poems make 'visual shape integral to poetic interpretation'?
+  type: multiple-choice
+- correct_answer: true
+  explanation: Correct. Syntax (word order and grammatical structure) is optional in concrete poetry. Visual-spatial logic replaces syntactic logic.
+  statement: Concrete poetry may abandon conventional syntax because spatial arrangement, not grammatical structure, is the primary organizing principle
+  type: true-false
+- correct_answer: false
+  explanation: False. Visual form is constitutive of meaning, not decorative.
+  statement: Concrete poetry treats typography and layout as decorative—the poem's meaning exists in the words, and visual form merely presents it
+  type: true-false
+- explanation: 'Conventional poetry treats language and visual form as separable: the poem is the language; the visual form is how the language appears. You could print a poem in different typefaces or
+    line breaks without changing the poem. Concrete poetry collapses this distinction: the visual form is inseparable from language. The poem is not just the words but the words-arranged-spatially. This
+    matters philosophically because it reveals that written language is always visual—that visual properties affect interpretation. Even in conventional poetry, line breaks affect rhythm and emphasis. Concrete
+    poetry makes this visible by foregrounding visual form. It also expands what poetry can be: if visual form is integral, poetry can work with space, shape, and arrangement as primary tools, not merely
+    as presentation of language.'
+  question: Explain how concrete poetry challenges the distinction between 'language' and 'visual form' in poetry. Why does this matter?
+  type: short-answer
 ```
 
 ## Explainer

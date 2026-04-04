@@ -28,39 +28,44 @@ Zork demonstrates how parser-based interaction mediates between player input and
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: The parser understands commands like 'go north,' 'take lamp,' or 'examine painting.' It does not understand arbitrary text, constraining what can be expressed. Yet within this constraint,
+    players can experiment—trying different verbs, discovering unintended interactions, creating emergent narratives through their actions. Constraint enables rather than eliminates agency.
+  options:
+  - The parser constrains expression to recognizable commands but enables creative agency through experimentation; players discover what interactions are possible through wit and trial-and-error
+  - The parser eliminates all agency
+  - The parser allows unlimited player expression
+  - Constraint and agency are mutually exclusive
   question: How does the parser in Zork function as both a constraint on player agency and an enabler of creative interaction?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'Zork represents the fictional world computationally: objects have properties (the lamp is portable, emits light); locations are connected; actions change state (closing the shutter prevents
+    light). This computational representation enables interactive fiction—players act within a coherent world that responds consistently to their actions.'
   options:
-    - 0: "The parser constrains expression to recognizable commands but enables creative agency through experimentation; players discover what interactions are possible through wit and trial-and-error"
-    - 1: "The parser eliminates all agency"
-    - 2: "The parser allows unlimited player expression"
-    - 3: "Constraint and agency are mutually exclusive"
-  correct_answer: 0
-  explanation: "The parser understands commands like 'go north,' 'take lamp,' or 'examine painting.' It does not understand arbitrary text, constraining what can be expressed. Yet within this constraint, players can experiment—trying different verbs, discovering unintended interactions, creating emergent narratives through their actions. Constraint enables rather than eliminates agency."
-
-- type: multiple-choice
+  - The simulated world model—with objects, properties, states—can sustain complex interactive narratives by maintaining consistency and enabling player agency within defined rules
+  - Computational systems cannot represent fictional worlds
+  - World simulation is irrelevant to interactive fiction
+  - Text-based games cannot create convincing fictional worlds
   question: What does Zork's world simulation reveal about how computational systems can represent fictional worlds?"
-  options:
-    - 0: "The simulated world model—with objects, properties, states—can sustain complex interactive narratives by maintaining consistency and enabling player agency within defined rules"
-    - 1: "Computational systems cannot represent fictional worlds"
-    - 2: "World simulation is irrelevant to interactive fiction"
-    - 3: "Text-based games cannot create convincing fictional worlds"
-  correct_answer: 0
-  explanation: "Zork represents the fictional world computationally: objects have properties (the lamp is portable, emits light); locations are connected; actions change state (closing the shutter prevents light). This computational representation enables interactive fiction—players act within a coherent world that responds consistently to their actions."
-
-- type: true-false
-  statement: "The parser-based interaction in Zork creates a form of literary engagement distinct from both reading literature and traditional play, requiring new kinds of literacy"
-  correct_answer: true
-  explanation: "Players must develop literacy in parser syntax—what commands work, how to phrase requests, what the game understands. This is neither reading nor traditional game-playing but a unique form of interaction."
-
-- type: true-false
-  statement: "Emergent narrative in Zork refers to stories that arise from players experimenting and discovering interactions unintended by the designers"
-  correct_answer: true
-  explanation: "Players create narratives through trial-and-error, accidental discoveries, and wit. These narratives emerge from interaction rather than from authored sequences."
-
-- type: short-answer
-  question: "Explain how Zork demonstrates that constraint and creative agency are not opposites but can be mutually enabling, and discuss what this reveals about interactive narrative design."
-  explanation: "Constraint enables: The parser's limited vocabulary and command set might seem restrictive. But within these constraints, players discover creative possibilities. They experiment with verbs ('examine,' 'push,' 'light'); they combine commands inventively; they discover unintended interactions. The constraint creates a bounded space for exploration; within bounds, creativity flourishes. Agency through experimentation: Player agency in Zork is not about making arbitrary choices but about discovering what interactions are possible. This creates a form of engagement different from branching narratives (which present predetermined choices) or unconstrained interaction (which offers infinite but often incoherent possibility). The bounded system enables focused exploration and discovery. What this reveals: (1) Constraint is not opposed to creativity but can enable it; (2) Agency emerges from discovering possibilities within systems, not from unlimited choice; (3) World simulation enables agency by providing consistent rules players can discover; (4) Interactive narrative design must balance constraint (coherence) and possibility (agency). Zork succeeds because its constraints are transparent (players can learn what's possible) and its world is consistent (actions have predictable effects). This allows players to develop mastery and discover emergent narratives."
+  type: multiple-choice
+- correct_answer: true
+  explanation: Players must develop literacy in parser syntax—what commands work, how to phrase requests, what the game understands. This is neither reading nor traditional game-playing but a unique form
+    of interaction.
+  statement: The parser-based interaction in Zork creates a form of literary engagement distinct from both reading literature and traditional play, requiring new kinds of literacy
+  type: true-false
+- correct_answer: true
+  explanation: Players create narratives through trial-and-error, accidental discoveries, and wit. These narratives emerge from interaction rather than from authored sequences.
+  statement: Emergent narrative in Zork refers to stories that arise from players experimenting and discovering interactions unintended by the designers
+  type: true-false
+- explanation: 'Constraint enables: The parser''s limited vocabulary and command set might seem restrictive. But within these constraints, players discover creative possibilities. They experiment with verbs
+    (''examine,'' ''push,'' ''light''); they combine commands inventively; they discover unintended interactions. The constraint creates a bounded space for exploration; within bounds, creativity flourishes.
+    Agency through experimentation: Player agency in Zork is not about making arbitrary choices but about discovering what interactions are possible. This creates a form of engagement different from branching
+    narratives (which present predetermined choices) or unconstrained interaction (which offers infinite but often incoherent possibility). The bounded system enables focused exploration and discovery.
+    What this reveals: (1) Constraint is not opposed to creativity but can enable it; (2) Agency emerges from discovering possibilities within systems, not from unlimited choice; (3) World simulation enables
+    agency by providing consistent rules players can discover; (4) Interactive narrative design must balance constraint (coherence) and possibility (agency). Zork succeeds because its constraints are transparent
+    (players can learn what''s possible) and its world is consistent (actions have predictable effects). This allows players to develop mastery and discover emergent narratives.'
+  question: Explain how Zork demonstrates that constraint and creative agency are not opposites but can be mutually enabling, and discuss what this reveals about interactive narrative design.
+  type: short-answer
 ```
 
 ## Explainer

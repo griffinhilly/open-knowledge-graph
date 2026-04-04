@@ -27,39 +27,46 @@ Branching narratives use multiple pathways from choice points while managing the
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: 'Branching narratives face a fundamental tension: every choice point doubles the narrative space (or multiplies it further), but creating substantive, differentiated content for each path
+    becomes exponentially more difficult. Effective design must manage this explosion—some paths may converge, some choices may produce subtle rather than dramatic variations, and some choice points must
+    be carefully limited to preserve narrative depth.'
+  options:
+  - Balancing narrative breadth (multiple paths) with narrative depth (substantive variation on each path) while avoiding exponential path multiplication
+  - Making sure all paths lead to the same ending so players don't feel confused
+  - Limiting player choices so they have minimal impact on the narrative
+  - Removing all meaningful choices and guiding players along a predetermined path
   question: What is the primary design challenge in branching narrative architecture?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Skilled narrative design uses convergence and variance modulation. Two paths might diverge significantly at a choice point but converge later, with subtle variations (different dialogue,
+    different emotional resonance) preserved. Critical choices that create major narrative divergence are limited in number. This allows meaningful player agency without requiring writers to maintain hundreds
+    of distinct narrative paths simultaneously.
   options:
-    - 0: "Balancing narrative breadth (multiple paths) with narrative depth (substantive variation on each path) while avoiding exponential path multiplication"
-    - 1: "Making sure all paths lead to the same ending so players don't feel confused"
-    - 2: "Limiting player choices so they have minimal impact on the narrative"
-    - 3: "Removing all meaningful choices and guiding players along a predetermined path"
-  correct_answer: 0
-  explanation: "Branching narratives face a fundamental tension: every choice point doubles the narrative space (or multiplies it further), but creating substantive, differentiated content for each path becomes exponentially more difficult. Effective design must manage this explosion—some paths may converge, some choices may produce subtle rather than dramatic variations, and some choice points must be carefully limited to preserve narrative depth."
-
-- type: multiple-choice
+  - Through techniques like path convergence, subtle variation within converging paths, and carefully limiting critical choice points where paths truly diverge
+  - By removing all choices and making players feel they have agency when they do not
+  - By making every choice branch infinitely into new paths
+  - By ensuring that no two choices ever produce similar outcomes
   question: How do designers create the illusion of meaningful choice while managing combinatorial complexity?
-  options:
-    - 0: "Through techniques like path convergence, subtle variation within converging paths, and carefully limiting critical choice points where paths truly diverge"
-    - 1: "By removing all choices and making players feel they have agency when they do not"
-    - 2: "By making every choice branch infinitely into new paths"
-    - 3: "By ensuring that no two choices ever produce similar outcomes"
-  correct_answer: 0
-  explanation: "Skilled narrative design uses convergence and variance modulation. Two paths might diverge significantly at a choice point but converge later, with subtle variations (different dialogue, different emotional resonance) preserved. Critical choices that create major narrative divergence are limited in number. This allows meaningful player agency without requiring writers to maintain hundreds of distinct narrative paths simultaneously."
-
-- type: true-false
-  statement: "A choice in branching narrative is meaningful if it produces any variation in the narrative, even if that variation is only in dialogue or character reaction rather than plot events"
-  correct_answer: true
-  explanation: "Meaningful choice extends beyond plot branching. A choice that leaves the major plot unchanged but alters a character's perception of the player, or changes the tone of scenes to follow, or reveals different thematic dimensions—these are meaningful choices. Narrative depth doesn't require plot divergence."
-
-- type: true-false
-  statement: "Branching narratives that converge multiple paths at crucial plot moments are failures of design because they remove player agency"
-  correct_answer: false
-  explanation: "Convergence is often good design. By allowing paths to diverge and then converge, designers preserve meaningful choice (different routes matter) while controlling scope. Players exercised agency in reaching the convergence point; the point itself can still carry the consequences of their earlier choices."
-
-- type: short-answer
-  question: "Explain the difference between a choice that feels meaningful to the player and a choice that produces objective narrative variation. Why does this distinction matter for branching narrative design?"
-  explanation: "A choice feels meaningful if players believe it matters and will affect the narrative. Objective variation is measurable difference in content (different dialogue, different scenes, different plot events). Good design often achieves meaningful choices without always creating objective variation. A choice about a character's emotional response to the player might feel crucial to the player even if the plot remains identical. This matters because: (1) it allows designers to manage scope by preserving subjective meaningfulness while limiting objective branching; (2) it acknowledges that narrative impact extends beyond plot—tone, character voice, and thematic emphasis matter; (3) it allows for 'convergence with memory'—paths may merge but carry forward the emotional weight of different choices. Understanding this distinction lets designers create the feel of rich agency without drowning in combinatorial explosion."
+  type: multiple-choice
+- correct_answer: true
+  explanation: Meaningful choice extends beyond plot branching. A choice that leaves the major plot unchanged but alters a character's perception of the player, or changes the tone of scenes to follow,
+    or reveals different thematic dimensions—these are meaningful choices. Narrative depth doesn't require plot divergence.
+  statement: A choice in branching narrative is meaningful if it produces any variation in the narrative, even if that variation is only in dialogue or character reaction rather than plot events
+  type: true-false
+- correct_answer: false
+  explanation: Convergence is often good design. By allowing paths to diverge and then converge, designers preserve meaningful choice (different routes matter) while controlling scope. Players exercised
+    agency in reaching the convergence point; the point itself can still carry the consequences of their earlier choices.
+  statement: Branching narratives that converge multiple paths at crucial plot moments are failures of design because they remove player agency
+  type: true-false
+- explanation: 'A choice feels meaningful if players believe it matters and will affect the narrative. Objective variation is measurable difference in content (different dialogue, different scenes, different
+    plot events). Good design often achieves meaningful choices without always creating objective variation. A choice about a character''s emotional response to the player might feel crucial to the player
+    even if the plot remains identical. This matters because: (1) it allows designers to manage scope by preserving subjective meaningfulness while limiting objective branching; (2) it acknowledges that
+    narrative impact extends beyond plot—tone, character voice, and thematic emphasis matter; (3) it allows for ''convergence with memory''—paths may merge but carry forward the emotional weight of different
+    choices. Understanding this distinction lets designers create the feel of rich agency without drowning in combinatorial explosion.'
+  question: Explain the difference between a choice that feels meaningful to the player and a choice that produces objective narrative variation. Why does this distinction matter for branching narrative
+    design?
+  type: short-answer
 ```
 
 ## Explainer

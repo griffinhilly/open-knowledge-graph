@@ -26,39 +26,44 @@ Virtual reality narrative emphasizes embodied, spatially-immersive storytelling 
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: In conventional narrative, readers observe external events. In VR, readers occupy a space; they have a body (represented by position and perspective); they move through the environment. This
+    embodied presence transforms narrative from observation to experience. The body becomes narratively significant.
+  options:
+  - By situating the reader as an embodied presence in a 3D space, VR narrative makes bodily experience and spatial navigation constitutive of meaning rather than merely observational
+  - VR narrative is identical to conventional narrative viewed on a screen
+  - Embodiment has no effect on narrative meaning
+  - VR narrative removes the reader from engagement
   question: How does VR narrative transform the reader's relationship to story through embodied immersion?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: In traditional narrative, exposition is delivered through description or dialogue. In VR, players discover story by exploring space. Environmental details reveal history (worn furniture suggests
+    age); spatial arrangement suggests relationships (proximity, hierarchy); artifacts tell stories through their presence. Narrative emerges through active spatial investigation.
   options:
-    - 0: "By situating the reader as an embodied presence in a 3D space, VR narrative makes bodily experience and spatial navigation constitutive of meaning rather than merely observational"
-    - 1: "VR narrative is identical to conventional narrative viewed on a screen"
-    - 2: "Embodiment has no effect on narrative meaning"
-    - 3: "VR narrative removes the reader from engagement"
-  correct_answer: 0
-  explanation: "In conventional narrative, readers observe external events. In VR, readers occupy a space; they have a body (represented by position and perspective); they move through the environment. This embodied presence transforms narrative from observation to experience. The body becomes narratively significant."
-
-- type: multiple-choice
+  - Spatial exploration reveals story through what players discover in the environment; narrative emerges from navigation, investigation, and interpretation of spatial details rather than exposition
+  - Spatial exploration is irrelevant to narrative
+  - VR narratives must use conventional exposition
+  - Players cannot discover narrative information through exploration
   question: What narrative possibilities emerge from spatial exploration as a primary narrative mode in VR?"
-  options:
-    - 0: "Spatial exploration reveals story through what players discover in the environment; narrative emerges from navigation, investigation, and interpretation of spatial details rather than exposition"
-    - 1: "Spatial exploration is irrelevant to narrative"
-    - 2: "VR narratives must use conventional exposition"
-    - 3: "Players cannot discover narrative information through exploration"
-  correct_answer: 0
-  explanation: "In traditional narrative, exposition is delivered through description or dialogue. In VR, players discover story by exploring space. Environmental details reveal history (worn furniture suggests age); spatial arrangement suggests relationships (proximity, hierarchy); artifacts tell stories through their presence. Narrative emerges through active spatial investigation."
-
-- type: true-false
-  statement: "VR narrative demonstrates that storytelling can be fundamentally embodied and spatial rather than text-based or visually-observed from external perspective"
-  correct_answer: true
-  explanation: "VR reveals that narrative need not be observed but can be inhabited. The body and movement are meaning-making dimensions."
-
-- type: true-false
-  statement: "First-person embodied perspective in VR eliminates narrative possibility because there is no external narrator or viewpoint"
-  correct_answer: false
-  explanation: "First-person embodiment creates distinct narrative possibilities. Subjective presence, physical experience of scale and space, bodily vulnerability—these generate narrative effects different from external observation."
-
-- type: short-answer
-  question: "Explain how VR narrative represents a shift from narrative as external observation to narrative as embodied inhabitation, and discuss what this reveals about how medium shapes narrative possibility."
-  explanation: "External observation: Traditional narrative (literature, film) positions the reader/viewer outside the narrative world. We observe characters, events, and spaces externally. The narrator or camera provides perspective from which we watch. Embodied inhabitation: VR positions the reader inside the space. You occupy a body; you perceive through first-person perspective; you can move around and explore. The environment is not external to you but surrounds you. What this reveals: (1) Narrative experience depends on position—where you stand relative to the story world matters profoundly; (2) Embodiment creates distinct narrative effects—physical vulnerability, sense of scale, disorientation, immersion feel different than observation; (3) Spatial navigation becomes narrative method—players discover story through exploring rather than through exposition; (4) Medium directly constrains narrative form—some effects are possible only in embodied 3D space. Example: A traditional narrative describes a claustrophobic space through description and character response. VR creates claustrophobia through physical experience—narrow walls, low ceiling, limited movement space. The body experiences what words describe. This physical understanding is available only in embodied form. Medium (VR) enables narrative effects impossible in external observation (literature, film)."
+  type: multiple-choice
+- correct_answer: true
+  explanation: VR reveals that narrative need not be observed but can be inhabited. The body and movement are meaning-making dimensions.
+  statement: VR narrative demonstrates that storytelling can be fundamentally embodied and spatial rather than text-based or visually-observed from external perspective
+  type: true-false
+- correct_answer: false
+  explanation: First-person embodiment creates distinct narrative possibilities. Subjective presence, physical experience of scale and space, bodily vulnerability—these generate narrative effects different
+    from external observation.
+  statement: First-person embodied perspective in VR eliminates narrative possibility because there is no external narrator or viewpoint
+  type: true-false
+- explanation: 'External observation: Traditional narrative (literature, film) positions the reader/viewer outside the narrative world. We observe characters, events, and spaces externally. The narrator
+    or camera provides perspective from which we watch. Embodied inhabitation: VR positions the reader inside the space. You occupy a body; you perceive through first-person perspective; you can move around
+    and explore. The environment is not external to you but surrounds you. What this reveals: (1) Narrative experience depends on position—where you stand relative to the story world matters profoundly;
+    (2) Embodiment creates distinct narrative effects—physical vulnerability, sense of scale, disorientation, immersion feel different than observation; (3) Spatial navigation becomes narrative method—players
+    discover story through exploring rather than through exposition; (4) Medium directly constrains narrative form—some effects are possible only in embodied 3D space. Example: A traditional narrative describes
+    a claustrophobic space through description and character response. VR creates claustrophobia through physical experience—narrow walls, low ceiling, limited movement space. The body experiences what
+    words describe. This physical understanding is available only in embodied form. Medium (VR) enables narrative effects impossible in external observation (literature, film).'
+  question: Explain how VR narrative represents a shift from narrative as external observation to narrative as embodied inhabitation, and discuss what this reveals about how medium shapes narrative possibility.
+  type: short-answer
 ```
 
 ## Explainer

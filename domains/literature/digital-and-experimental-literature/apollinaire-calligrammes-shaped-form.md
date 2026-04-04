@@ -28,39 +28,42 @@ Apollinaire's calligrammes arrange words on the page to create visual representa
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: Calligrammes use the visual arrangement of text itself as a primary poetic device. When Apollinaire arranges a poem about rain so the words cascade down the page, the visual representation
+    becomes part of the poem's meaning. This is fundamentally different from conventional poetry, where visual presentation is merely typographic.
+  options:
+  - Calligrammes arrange words spatially to create visual images of what they describe, making visual form integral to poetic meaning rather than supplementary
+  - Calligrammes are longer and more complex than conventional poems but use identical linguistic structure
+  - Calligrammes remove all punctuation and grammar to create ambiguity
+  - Calligrammes use only abstract concepts that cannot be visualized
   question: How do calligrammes differ from conventional linear poetry in their use of form?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Calligrammes were foundational to 20th-century avant-garde poetry. Concrete poets built directly on Apollinaire's insight that visual arrangement, letter forms, and spatial positioning could
+    constitute poetic expression. Digital poetry and net art extended this further, proving that Apollinaire's innovation opened a new territory of poetic practice.
   options:
-    - 0: "Calligrammes arrange words spatially to create visual images of what they describe, making visual form integral to poetic meaning rather than supplementary"
-    - 1: "Calligrammes are longer and more complex than conventional poems but use identical linguistic structure"
-    - 2: "Calligrammes remove all punctuation and grammar to create ambiguity"
-    - 3: "Calligrammes use only abstract concepts that cannot be visualized"
-  correct_answer: 0
-  explanation: "Calligrammes use the visual arrangement of text itself as a primary poetic device. When Apollinaire arranges a poem about rain so the words cascade down the page, the visual representation becomes part of the poem's meaning. This is fundamentally different from conventional poetry, where visual presentation is merely typographic."
-
-- type: multiple-choice
+  - They established that visual form could be a primary poetic element, directly influencing Concrete Poetry and digital visual literature
+  - They proved that only traditional meter and rhyme are valid in poetry
+  - They demonstrated that poetry must always be read aloud to have meaning
+  - They had no influence and remained an isolated historical curiosity
   question: What influence did Apollinaire's calligrammes have on subsequent experimental poetry movements?
-  options:
-    - 0: "They established that visual form could be a primary poetic element, directly influencing Concrete Poetry and digital visual literature"
-    - 1: "They proved that only traditional meter and rhyme are valid in poetry"
-    - 2: "They demonstrated that poetry must always be read aloud to have meaning"
-    - 3: "They had no influence and remained an isolated historical curiosity"
-  correct_answer: 0
-  explanation: "Calligrammes were foundational to 20th-century avant-garde poetry. Concrete poets built directly on Apollinaire's insight that visual arrangement, letter forms, and spatial positioning could constitute poetic expression. Digital poetry and net art extended this further, proving that Apollinaire's innovation opened a new territory of poetic practice."
-
-- type: true-false
-  statement: "In Apollinaire's calligrammes, the visual arrangement of the text is decorative and does not contribute to the poem's meaning"
-  correct_answer: false
-  explanation: "The visual arrangement is central to meaning-making in calligrammes. When words are arranged to depict falling rain or a fountain, the visual form enacts or mimics the content, making form and meaning inseparable."
-
-- type: true-false
-  statement: "Calligrammes demonstrate that poetic form extends beyond conventional structures like meter and rhyme to include spatial and visual dimensions"
-  correct_answer: true
-  explanation: "Apollinaire's innovation was to show that form—what makes something poetry—could operate through visual spatial arrangement rather than solely through phonetic or syllabic patterns. This expanded the possibilities of what poetry could be."
-
-- type: short-answer
-  question: "Explain why calligrammes represent a significant historical shift in how form and meaning relate in poetry."
-  explanation: "In traditional poetry, form (meter, rhyme, stanza structure) organizes language to create effects like rhythm or resonance, but the meaning comes from word choice and lineation. Apollinaire's calligrammes make the visual presentation of text itself carry semantic content—the arrangement doesn't merely frame the words but directly represents the subject matter. This means form is not auxiliary to meaning but constitutive of it. The poem about rain must be arranged to look like rain for the form to complete the meaning. This shift opened experimental poetry to entirely new dimensions: visual design, spatial composition, and typographic expression all became legitimate poetic tools."
+  type: multiple-choice
+- correct_answer: false
+  explanation: The visual arrangement is central to meaning-making in calligrammes. When words are arranged to depict falling rain or a fountain, the visual form enacts or mimics the content, making form
+    and meaning inseparable.
+  statement: In Apollinaire's calligrammes, the visual arrangement of the text is decorative and does not contribute to the poem's meaning
+  type: true-false
+- correct_answer: true
+  explanation: Apollinaire's innovation was to show that form—what makes something poetry—could operate through visual spatial arrangement rather than solely through phonetic or syllabic patterns. This
+    expanded the possibilities of what poetry could be.
+  statement: Calligrammes demonstrate that poetic form extends beyond conventional structures like meter and rhyme to include spatial and visual dimensions
+  type: true-false
+- explanation: 'In traditional poetry, form (meter, rhyme, stanza structure) organizes language to create effects like rhythm or resonance, but the meaning comes from word choice and lineation. Apollinaire''s
+    calligrammes make the visual presentation of text itself carry semantic content—the arrangement doesn''t merely frame the words but directly represents the subject matter. This means form is not auxiliary
+    to meaning but constitutive of it. The poem about rain must be arranged to look like rain for the form to complete the meaning. This shift opened experimental poetry to entirely new dimensions: visual
+    design, spatial composition, and typographic expression all became legitimate poetic tools.'
+  question: Explain why calligrammes represent a significant historical shift in how form and meaning relate in poetry.
+  type: short-answer
 ```
 
 ## Explainer

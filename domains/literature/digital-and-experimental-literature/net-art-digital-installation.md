@@ -23,39 +23,42 @@ Net art and digital installation merge visual art with networked media and compu
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What distinguishes net art and digital installation from traditional visual art?"
+- correct_answer: 0
+  explanation: Traditional art is often a discrete object (painting, sculpture) created by an individual artist. Net art and digital installation are distributed, algorithmic, interactive. Net art uses
+    the internet as medium—the work exists across networks. Digital installation integrates computation, sensors, user interaction. Both challenge the notion of a singular artwork object created by one
+    artist, existing in one place, owned by one person.
   options:
-    - 0: "Net art incorporates networked distribution, data, and algorithms as core aesthetic elements, while digital installation integrates computation and interactivity; both challenge traditional notions of the discrete artwork object"
-    - 1: "Net art and digital installation are indistinguishable from traditional painting"
-    - 2: "These forms avoid all technology"
-    - 3: "Net art is the same as photography"
-  correct_answer: 0
-  explanation: "Traditional art is often a discrete object (painting, sculpture) created by an individual artist. Net art and digital installation are distributed, algorithmic, interactive. Net art uses the internet as medium—the work exists across networks. Digital installation integrates computation, sensors, user interaction. Both challenge the notion of a singular artwork object created by one artist, existing in one place, owned by one person."
-
-- type: multiple-choice
-  question: "How do algorithms and data function as 'aesthetic elements' rather than merely technical infrastructure in net art?"
+  - Net art incorporates networked distribution, data, and algorithms as core aesthetic elements, while digital installation integrates computation and interactivity; both challenge traditional notions
+    of the discrete artwork object
+  - Net art and digital installation are indistinguishable from traditional painting
+  - These forms avoid all technology
+  - Net art is the same as photography
+  question: What distinguishes net art and digital installation from traditional visual art?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: In traditional art, content and presentation are aesthetic; infrastructure is invisible. In net art, artists make infrastructure visible and intentional. An algorithm that processes data
+    is not merely technical; it is the artistic work. A data visualization is not decoration; it is the core artwork. This collapses the distinction between technical and aesthetic.
   options:
-    - 0: "Artists intentionally design algorithmic processes and data visualizations as core artistic meaning—what the algorithm does and how it presents data constitute the artwork's aesthetic experience"
-    - 1: "Algorithms are purely functional with no aesthetic dimension"
-    - 2: "Data is irrelevant to net art"
-    - 3: "Aesthetic elements in net art come only from visual appearance"
-  correct_answer: 0
-  explanation: "In traditional art, content and presentation are aesthetic; infrastructure is invisible. In net art, artists make infrastructure visible and intentional. An algorithm that processes data is not merely technical; it is the artistic work. A data visualization is not decoration; it is the core artwork. This collapses the distinction between technical and aesthetic."
-
-- type: true-false
-  statement: "Net art and digital installation challenge 'notions of authorship' by involving algorithmic processes that partly generate the final work independent of single-author control"
-  correct_answer: true
-  explanation: "Correct. When algorithms or networked systems partly generate the work, authorship becomes distributed or ambiguous—not solely attributable to the individual artist."
-
-- type: true-false
-  statement: "Net art exists as a discrete object in a gallery, like traditional paintings"
-  correct_answer: false
-  explanation: "False. Net art is distributed across networks. It may have no fixed physical location. This challenges the notion of art as discrete gallery objects."
-
-- type: short-answer
-  question: "Explain what it means to say net art and digital installation 'interrogate assumptions about human agency in algorithmic systems.' What assumptions are being questioned?"
-  explanation: "These forms question the assumption that humans fully control and author algorithmic systems. Traditional art is authored by humans exercising creative agency. Algorithmic art involves processes that humans designed but that operate somewhat independently. The algorithm generates variation, processes data, produces outcomes that the artist did not manually create. This raises questions: Is the algorithm co-author? Is human agency diminished? Do algorithms have agency? These works make algorithmic processes visible, forcing viewers to confront how computation operates and what role it plays in artistic creation. They interrogate whether human agency remains supreme in algorithmic systems or whether agency is distributed between human design and computational process."
+  - Artists intentionally design algorithmic processes and data visualizations as core artistic meaning—what the algorithm does and how it presents data constitute the artwork's aesthetic experience
+  - Algorithms are purely functional with no aesthetic dimension
+  - Data is irrelevant to net art
+  - Aesthetic elements in net art come only from visual appearance
+  question: How do algorithms and data function as 'aesthetic elements' rather than merely technical infrastructure in net art?
+  type: multiple-choice
+- correct_answer: true
+  explanation: Correct. When algorithms or networked systems partly generate the work, authorship becomes distributed or ambiguous—not solely attributable to the individual artist.
+  statement: Net art and digital installation challenge 'notions of authorship' by involving algorithmic processes that partly generate the final work independent of single-author control
+  type: true-false
+- correct_answer: false
+  explanation: False. Net art is distributed across networks. It may have no fixed physical location. This challenges the notion of art as discrete gallery objects.
+  statement: Net art exists as a discrete object in a gallery, like traditional paintings
+  type: true-false
+- explanation: 'These forms question the assumption that humans fully control and author algorithmic systems. Traditional art is authored by humans exercising creative agency. Algorithmic art involves processes
+    that humans designed but that operate somewhat independently. The algorithm generates variation, processes data, produces outcomes that the artist did not manually create. This raises questions: Is
+    the algorithm co-author? Is human agency diminished? Do algorithms have agency? These works make algorithmic processes visible, forcing viewers to confront how computation operates and what role it
+    plays in artistic creation. They interrogate whether human agency remains supreme in algorithmic systems or whether agency is distributed between human design and computational process.'
+  question: Explain what it means to say net art and digital installation 'interrogate assumptions about human agency in algorithmic systems.' What assumptions are being questioned?
+  type: short-answer
 ```
 
 ## Explainer

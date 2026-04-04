@@ -25,39 +25,43 @@ Walking simulators prioritize narrative experience and environmental immersion o
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What makes walking simulators distinct from traditional games?"
+- correct_answer: 0
+  explanation: 'Traditional games emphasize challenge: defeating enemies, solving puzzles, achieving goals within constraints. Walking simulators invert this: they eliminate mechanical challenge, allowing
+    players to move through spaces at their own pace, observing and interpreting without pressure. This shift changes what games can be.'
   options:
-    - 0: "Walking simulators eliminate or minimize challenge-based mechanics (combat, puzzles, time limits), instead prioritizing environmental exploration, narrative discovery, and aesthetic experience"
-    - 1: "Walking simulators are extremely difficult games with complex mechanics"
-    - 2: "Walking simulators have no narrative dimension"
-    - 3: "Walking simulators are the same as traditional action games"
-  correct_answer: 0
-  explanation: "Traditional games emphasize challenge: defeating enemies, solving puzzles, achieving goals within constraints. Walking simulators invert this: they eliminate mechanical challenge, allowing players to move through spaces at their own pace, observing and interpreting without pressure. This shift changes what games can be."
-
-- type: multiple-choice
-  question: "How do walking simulators 'challenge game-as-challenge assumptions'?"
+  - Walking simulators eliminate or minimize challenge-based mechanics (combat, puzzles, time limits), instead prioritizing environmental exploration, narrative discovery, and aesthetic experience
+  - Walking simulators are extremely difficult games with complex mechanics
+  - Walking simulators have no narrative dimension
+  - Walking simulators are the same as traditional action games
+  question: What makes walking simulators distinct from traditional games?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'Games are conventionally defined as systems with goals and challenges. Walking simulators remove goals and challenges, yet are recognizably game-like: they are interactive, first-person
+    spaces with narrative. This challenges the definition of games, proposing that games can be experiential and narrative rather than challenge-based.'
   options:
-    - 0: "By removing mechanical challenge and proposing that games can be valuable as literary/phenomenological experiences of presence and aesthetic engagement, rather than requiring competitive or puzzle-based challenges"
-    - 1: "Walking simulators prove games are always about challenge"
-    - 2: "Challenge is essential to all games"
-    - 3: "Walking simulators are not games"
-  correct_answer: 0
-  explanation: "Games are conventionally defined as systems with goals and challenges. Walking simulators remove goals and challenges, yet are recognizably game-like: they are interactive, first-person spaces with narrative. This challenges the definition of games, proposing that games can be experiential and narrative rather than challenge-based."
-
-- type: true-false
-  statement: "Walking simulators prioritize 'presence'—the phenomenological experience of inhabiting a space—as their primary artistic goal"
-  correct_answer: true
-  explanation: "Correct. Presence and immersion are primary; challenge-based mechanics are secondary or absent."
-
-- type: true-false
-  statement: "Walking simulators are 'literary' because they use environmental storytelling and narrative fragments rather than dialogue"
-  correct_answer: true
-  explanation: "Correct. Walking simulators employ narrative techniques traditionally associated with literature and cinema, not with games."
-
-- type: short-answer
-  question: "Explain why walking simulators are controversial—why do some argue they are 'not really games'? What does this debate reveal about game definition?"
-  explanation: "Critics argue that games require challenge, goals, and systems of winning/losing. Walking simulators eliminate these. Without challenge, they argue, there is no game—just interactive film or digital art. This debate reveals that 'game' is not clearly defined. Is a game defined by (1) mechanics and challenge, (2) interactivity and agency, or (3) any interactive system? Walking simulators satisfy (2) and (3) but not (1). The debate exposes the contingency of game definition: it is a category we've constructed based on traditional examples (sports, board games, video games with challenge), not an essential category. Walking simulators challenge the boundaries by creating interactive experiences that feel game-like but violate conventional definitions. This is productive: it forces us to reconsider what games fundamentally are. Perhaps games are best defined by interactivity and player agency, not mechanical challenge. If so, walking simulators are games—a new variety emphasizing experience and presence rather than challenge."
+  - By removing mechanical challenge and proposing that games can be valuable as literary/phenomenological experiences of presence and aesthetic engagement, rather than requiring competitive or puzzle-based
+    challenges
+  - Walking simulators prove games are always about challenge
+  - Challenge is essential to all games
+  - Walking simulators are not games
+  question: How do walking simulators 'challenge game-as-challenge assumptions'?
+  type: multiple-choice
+- correct_answer: true
+  explanation: Correct. Presence and immersion are primary; challenge-based mechanics are secondary or absent.
+  statement: Walking simulators prioritize 'presence'—the phenomenological experience of inhabiting a space—as their primary artistic goal
+  type: true-false
+- correct_answer: true
+  explanation: Correct. Walking simulators employ narrative techniques traditionally associated with literature and cinema, not with games.
+  statement: Walking simulators are 'literary' because they use environmental storytelling and narrative fragments rather than dialogue
+  type: true-false
+- explanation: 'Critics argue that games require challenge, goals, and systems of winning/losing. Walking simulators eliminate these. Without challenge, they argue, there is no game—just interactive film
+    or digital art. This debate reveals that ''game'' is not clearly defined. Is a game defined by (1) mechanics and challenge, (2) interactivity and agency, or (3) any interactive system? Walking simulators
+    satisfy (2) and (3) but not (1). The debate exposes the contingency of game definition: it is a category we''ve constructed based on traditional examples (sports, board games, video games with challenge),
+    not an essential category. Walking simulators challenge the boundaries by creating interactive experiences that feel game-like but violate conventional definitions. This is productive: it forces us
+    to reconsider what games fundamentally are. Perhaps games are best defined by interactivity and player agency, not mechanical challenge. If so, walking simulators are games—a new variety emphasizing
+    experience and presence rather than challenge.'
+  question: Explain why walking simulators are controversial—why do some argue they are 'not really games'? What does this debate reveal about game definition?
+  type: short-answer
 ```
 
 ## Explainer

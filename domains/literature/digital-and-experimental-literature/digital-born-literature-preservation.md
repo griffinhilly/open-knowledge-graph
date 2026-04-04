@@ -23,39 +23,46 @@ Digital literature faces unique preservation challenges as platforms and formats
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: Print literature can be read indefinitely if pages and binding survive—the technology is stable. Digital literature requires functional platforms, compatible software, and accessible hardware.
+    When Storyspace becomes unavailable, Flash dies, or proprietary formats are no longer supported, the work becomes unreadable. The work's existence depends on technological infrastructure.
+  options:
+  - Digital literature depends on platforms, software, and hardware that become obsolete, making the work inaccessible when technologies fail; print literature's preservation requires only stable storage
+    conditions
+  - Digital literature is always preserved perfectly because computers store everything automatically
+  - Print literature faces the same obsolescence challenges as digital literature
+  - Digital literature cannot be preserved at all
   question: What is the central preservation challenge for digital-born literature that differs from print literature?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: A hypertext fiction work like 'Afternoon, a Story' consists of source code (the Storyspace file), the visual output readers experience, and the interactive navigation structure. Preserving
+    only one aspect loses others. If you preserve only output screenshots, you lose interactivity. If you preserve only code, you need functional Storyspace to read it. Preservation decisions are curatorial;
+    they determine what future readers can experience.
   options:
-    - 0: "Digital literature depends on platforms, software, and hardware that become obsolete, making the work inaccessible when technologies fail; print literature's preservation requires only stable storage conditions"
-    - 1: "Digital literature is always preserved perfectly because computers store everything automatically"
-    - 2: "Print literature faces the same obsolescence challenges as digital literature"
-    - 3: "Digital literature cannot be preserved at all"
-  correct_answer: 0
-  explanation: "Print literature can be read indefinitely if pages and binding survive—the technology is stable. Digital literature requires functional platforms, compatible software, and accessible hardware. When Storyspace becomes unavailable, Flash dies, or proprietary formats are no longer supported, the work becomes unreadable. The work's existence depends on technological infrastructure."
-
-- type: multiple-choice
+  - A digital work may exist as source code, executed output, and interactive experience; preservation decisions about which aspects to save shape what future readers encounter and may alter the work's
+    meaning
+  - Digital literature has a single obvious definition of text
+  - Preserving only the visual output is always sufficient
+  - Source code preservation is always more important than interactive experience
   question: When preserving digital literature, what problem arises from determining what constitutes the 'text'?
-  options:
-    - 0: "A digital work may exist as source code, executed output, and interactive experience; preservation decisions about which aspects to save shape what future readers encounter and may alter the work's meaning"
-    - 1: "Digital literature has a single obvious definition of text"
-    - 2: "Preserving only the visual output is always sufficient"
-    - 3: "Source code preservation is always more important than interactive experience"
-  correct_answer: 0
-  explanation: "A hypertext fiction work like 'Afternoon, a Story' consists of source code (the Storyspace file), the visual output readers experience, and the interactive navigation structure. Preserving only one aspect loses others. If you preserve only output screenshots, you lose interactivity. If you preserve only code, you need functional Storyspace to read it. Preservation decisions are curatorial; they determine what future readers can experience."
-
-- type: true-false
-  statement: "Digital preservation is purely technical work that requires no interpretive or curatorial judgment"
-  correct_answer: false
-  explanation: "Preservation involves multiple decisions: which versions to save, what platform to migrate to, whether to maintain original look/functionality or prioritize access. Each choice shapes the preserved work. It is as much curation as technology."
-
-- type: true-false
-  statement: "Emulation and migration are different preservation strategies that each have distinct advantages and drawbacks for digital literature"
-  correct_answer: true
-  explanation: "Emulation attempts to recreate original platforms so works run as designed. Migration moves works to new formats/platforms, which may change their appearance or functionality. Both have tradeoffs: emulation preserves original experience but requires ongoing maintenance; migration ensures access but may alter the work."
-
-- type: short-answer
-  question: "Explain how preservation decisions for digital literature are interpretive acts that shape what future readers encounter. Provide a concrete example."
-  explanation: "Example: A hypertext fiction work created in Storyspace exists as source code. To preserve it: (1) Archive the code and original software—requires maintaining obsolete technology; (2) Migrate to modern hypertext format—changes link appearance and navigation feel; (3) Create a static HTML version—loses interactivity; (4) Emulate the original environment—preserves experience but is brittle. Each choice is curatorial: it determines whether future readers experience the original navigational difficulty, or whether the work becomes easier/harder to read. If the work's meaning depends on link ambiguity (as in 'Afternoon'), migration to a clearer format changes meaning. Preservation is thus not neutral documentation but interpretation. The curator's decisions about which aspects to preserve shape the work future readers encounter."
+  type: multiple-choice
+- correct_answer: false
+  explanation: 'Preservation involves multiple decisions: which versions to save, what platform to migrate to, whether to maintain original look/functionality or prioritize access. Each choice shapes the
+    preserved work. It is as much curation as technology.'
+  statement: Digital preservation is purely technical work that requires no interpretive or curatorial judgment
+  type: true-false
+- correct_answer: true
+  explanation: 'Emulation attempts to recreate original platforms so works run as designed. Migration moves works to new formats/platforms, which may change their appearance or functionality. Both have
+    tradeoffs: emulation preserves original experience but requires ongoing maintenance; migration ensures access but may alter the work.'
+  statement: Emulation and migration are different preservation strategies that each have distinct advantages and drawbacks for digital literature
+  type: true-false
+- explanation: 'Example: A hypertext fiction work created in Storyspace exists as source code. To preserve it: (1) Archive the code and original software—requires maintaining obsolete technology; (2) Migrate
+    to modern hypertext format—changes link appearance and navigation feel; (3) Create a static HTML version—loses interactivity; (4) Emulate the original environment—preserves experience but is brittle.
+    Each choice is curatorial: it determines whether future readers experience the original navigational difficulty, or whether the work becomes easier/harder to read. If the work''s meaning depends on
+    link ambiguity (as in ''Afternoon''), migration to a clearer format changes meaning. Preservation is thus not neutral documentation but interpretation. The curator''s decisions about which aspects to
+    preserve shape the work future readers encounter.'
+  question: Explain how preservation decisions for digital literature are interpretive acts that shape what future readers encounter. Provide a concrete example.
+  type: short-answer
 ```
 
 ## Explainer

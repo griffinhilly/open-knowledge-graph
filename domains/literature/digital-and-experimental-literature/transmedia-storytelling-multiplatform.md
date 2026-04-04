@@ -27,39 +27,43 @@ Transmedia storytelling extends narrative worlds across multiple platforms—fil
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What makes transmedia storytelling distinct from adaptation or multimedia presentation?"
+- correct_answer: 0
+  explanation: Adaptation takes a story from one medium (novel) and translates it to another (film). The story remains essentially identical. Transmedia distributes unique story elements across media. The
+    film reveals certain plot points; the novels develop character backstory; the game allows players to experience the world. Each platform contributes unique content. Complete understanding requires engaging
+    multiple platforms. This is fundamentally different from adaptation.
   options:
-    - 0: "Transmedia spreads unique story elements across platforms—each medium reveals different aspects of the narrative; total story requires engagement with multiple platforms, not just multiple presentations of the same story"
-    - 1: "Transmedia is the same as adaptation"
-    - 2: "Transmedia uses only one medium"
-    - 3: "All elements of transmedia stories appear on every platform"
-  correct_answer: 0
-  explanation: "Adaptation takes a story from one medium (novel) and translates it to another (film). The story remains essentially identical. Transmedia distributes unique story elements across media. The film reveals certain plot points; the novels develop character backstory; the game allows players to experience the world. Each platform contributes unique content. Complete understanding requires engaging multiple platforms. This is fundamentally different from adaptation."
-
-- type: multiple-choice
-  question: "Why does transmedia storytelling 'foster participatory fandom'?"
+  - Transmedia spreads unique story elements across platforms—each medium reveals different aspects of the narrative; total story requires engagement with multiple platforms, not just multiple presentations
+    of the same story
+  - Transmedia is the same as adaptation
+  - Transmedia uses only one medium
+  - All elements of transmedia stories appear on every platform
+  question: What makes transmedia storytelling distinct from adaptation or multimedia presentation?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: When story elements are dispersed across platforms, fans must actively hunt for content. They discuss what they've found, share discoveries, theorize connections. Fans become collaborators
+    in assembling and interpreting the complete narrative. This is more participatory than traditional consumption where audiences passively receive complete stories.
   options:
-    - 0: "The dispersed narrative requires fans to actively seek content across platforms, discuss and compile information, collectively constructing complete meaning—making audiences collaborative interpreters"
-    - 1: "Transmedia audiences are passive consumers"
-    - 2: "Transmedia eliminates fan communities"
-    - 3: "Fandom is irrelevant to transmedia"
-  correct_answer: 0
-  explanation: "When story elements are dispersed across platforms, fans must actively hunt for content. They discuss what they've found, share discoveries, theorize connections. Fans become collaborators in assembling and interpreting the complete narrative. This is more participatory than traditional consumption where audiences passively receive complete stories."
-
-- type: true-false
-  statement: "In transmedia storytelling, each platform presents the same story content in different formats"
-  correct_answer: false
-  explanation: "False. Each platform contributes unique story elements. The film and the novel do not present identical content; they reveal different narrative dimensions."
-
-- type: true-false
-  statement: "Transmedia storytelling requires audience engagement with multiple platforms because total narrative is dispersed across media"
-  correct_answer: true
-  explanation: "Correct. Complete understanding requires platform engagement. No single medium contains the whole story."
-
-- type: short-answer
-  question: "Explain how transmedia storytelling transforms audiences from 'consumers' to 'collaborators.' What changes in the audience's role and experience?"
-  explanation: "In traditional narrative, audiences are consumers: they receive a complete story from an author/studio. The narrative is finished; their role is to interpret and enjoy. In transmedia, audiences are collaborators: they actively hunt content across platforms, compile information, discuss theories. The narrative is dispersed; fans must assemble it. This changes audience experience from passive reception to active participation. Fans feel like they are discovering the story, not receiving it. They are co-authors of meaning—not in the sense of creating the original content, but in assembling and interpreting dispersed elements. This creates deeper engagement and community: fans bond through shared hunting, discussing what they've found, theorizing connections. The collaboration makes audiences active producers of meaning rather than passive consumers of finished products."
+  - The dispersed narrative requires fans to actively seek content across platforms, discuss and compile information, collectively constructing complete meaning—making audiences collaborative interpreters
+  - Transmedia audiences are passive consumers
+  - Transmedia eliminates fan communities
+  - Fandom is irrelevant to transmedia
+  question: Why does transmedia storytelling 'foster participatory fandom'?
+  type: multiple-choice
+- correct_answer: false
+  explanation: False. Each platform contributes unique story elements. The film and the novel do not present identical content; they reveal different narrative dimensions.
+  statement: In transmedia storytelling, each platform presents the same story content in different formats
+  type: true-false
+- correct_answer: true
+  explanation: Correct. Complete understanding requires platform engagement. No single medium contains the whole story.
+  statement: Transmedia storytelling requires audience engagement with multiple platforms because total narrative is dispersed across media
+  type: true-false
+- explanation: 'In traditional narrative, audiences are consumers: they receive a complete story from an author/studio. The narrative is finished; their role is to interpret and enjoy. In transmedia, audiences
+    are collaborators: they actively hunt content across platforms, compile information, discuss theories. The narrative is dispersed; fans must assemble it. This changes audience experience from passive
+    reception to active participation. Fans feel like they are discovering the story, not receiving it. They are co-authors of meaning—not in the sense of creating the original content, but in assembling
+    and interpreting dispersed elements. This creates deeper engagement and community: fans bond through shared hunting, discussing what they''ve found, theorizing connections. The collaboration makes audiences
+    active producers of meaning rather than passive consumers of finished products.'
+  question: Explain how transmedia storytelling transforms audiences from 'consumers' to 'collaborators.' What changes in the audience's role and experience?
+  type: short-answer
 ```
 
 ## Explainer

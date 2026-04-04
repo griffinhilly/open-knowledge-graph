@@ -23,39 +23,42 @@ Kinetic poetry animates text itself: letters move, words dissolve, morphing acro
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does kinetic poetry's animation differ from conventional poetry's static presentation?"
+- correct_answer: 0
+  explanation: 'Conventional poetry exists as static text: all words are visible simultaneously on a page or screen. Kinetic poetry adds temporal dimension: text unfolds over time. Letters animate, words
+    morph, text appears and disappears synchronized to rhythm or sound. This temporal unfolding is part of the poetic form—how the poem means, not merely decoration.'
   options:
-    - 0: "Kinetic poetry unfolds temporally—text moves, morphs, and animates over time, making the temporal dimension essential to interpretation, whereas static poetry presents all text simultaneously"
-    - 1: "Kinetic poetry is just visual art with no language"
-    - 2: "Static poetry can also move over time"
-    - 3: "Animation in kinetic poetry is purely decorative"
-  correct_answer: 0
-  explanation: "Conventional poetry exists as static text: all words are visible simultaneously on a page or screen. Kinetic poetry adds temporal dimension: text unfolds over time. Letters animate, words morph, text appears and disappears synchronized to rhythm or sound. This temporal unfolding is part of the poetic form—how the poem means, not merely decoration."
-
-- type: multiple-choice
-  question: "What does it mean that temporal unfolding 'reinforces semantic or rhythmic meaning' in kinetic poetry?"
+  - Kinetic poetry unfolds temporally—text moves, morphs, and animates over time, making the temporal dimension essential to interpretation, whereas static poetry presents all text simultaneously
+  - Kinetic poetry is just visual art with no language
+  - Static poetry can also move over time
+  - Animation in kinetic poetry is purely decorative
+  question: How does kinetic poetry's animation differ from conventional poetry's static presentation?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Kinetic poetry exploits animation to reinforce meaning. A poem about dissolution might have words dissolving; a poem about rhythm might animate text in rhythmic patterns. The animation is
+    not arbitrary but intentional, reinforcing what the poem is about. This makes temporal animation integral to interpretation.
   options:
-    - 0: "The timing and animation of text can enhance or reinforce the semantic meaning (what words mean) and rhythmic meaning (the poem's timing and sound), making animation integral to interpretation rather than incidental"
-    - 1: "Animation contradicts the poem's meaning"
-    - 2: "Temporal unfolding has nothing to do with meaning"
-    - 3: "Only semantic meaning matters in kinetic poetry"
-  correct_answer: 0
-  explanation: "Kinetic poetry exploits animation to reinforce meaning. A poem about dissolution might have words dissolving; a poem about rhythm might animate text in rhythmic patterns. The animation is not arbitrary but intentional, reinforcing what the poem is about. This makes temporal animation integral to interpretation."
-
-- type: true-false
-  statement: "In kinetic poetry, animation is decorative—the poem's meaning would be identical if all text were static"
-  correct_answer: false
-  explanation: "False. The core idea states animation is 'constitutive' of interpretation. Remove the animation and the poem changes fundamentally."
-
-- type: true-false
-  statement: "Kinetic poetry treats temporal unfolding—how text appears and moves over time—as essential to poetic form, not as decoration"
-  correct_answer: true
-  explanation: "Correct. Kinetic poetry makes time and animation constitutive of the work."
-
-- type: short-answer
-  question: "Explain why kinetic poetry requires viewers to experience text temporally rather than spatially. How does this change what poetry can be?"
-  explanation: "Print poetry is spatial: the reader scans a fixed arrangement of words simultaneously. The reader controls pacing—they can read fast or slow, skip ahead, reread. Kinetic poetry is temporal: text unfolds according to programmed timing. The viewer experiences the poem in the sequence the author determined. This temporal constraint is both limiting and enabling. Limiting: the viewer cannot control pacing. Enabling: the author can control exactly when text appears, how quickly, synchronized with sound or other text. This allows meaning-making that depends on timing: a delayed word arrival creates anticipation; rapid morph creates urgency. This changes what poetry can be: from static arrangement to temporal experience. Poetry becomes more like music (which unfolds temporally) than visual art. This opens new dimensions: rhythm can be visual, not just sonic; timing can carry meaning; the poem's duration becomes part of its form."
+  - The timing and animation of text can enhance or reinforce the semantic meaning (what words mean) and rhythmic meaning (the poem's timing and sound), making animation integral to interpretation rather
+    than incidental
+  - Animation contradicts the poem's meaning
+  - Temporal unfolding has nothing to do with meaning
+  - Only semantic meaning matters in kinetic poetry
+  question: What does it mean that temporal unfolding 'reinforces semantic or rhythmic meaning' in kinetic poetry?
+  type: multiple-choice
+- correct_answer: false
+  explanation: False. The core idea states animation is 'constitutive' of interpretation. Remove the animation and the poem changes fundamentally.
+  statement: In kinetic poetry, animation is decorative—the poem's meaning would be identical if all text were static
+  type: true-false
+- correct_answer: true
+  explanation: Correct. Kinetic poetry makes time and animation constitutive of the work.
+  statement: Kinetic poetry treats temporal unfolding—how text appears and moves over time—as essential to poetic form, not as decoration
+  type: true-false
+- explanation: 'Print poetry is spatial: the reader scans a fixed arrangement of words simultaneously. The reader controls pacing—they can read fast or slow, skip ahead, reread. Kinetic poetry is temporal:
+    text unfolds according to programmed timing. The viewer experiences the poem in the sequence the author determined. This temporal constraint is both limiting and enabling. Limiting: the viewer cannot
+    control pacing. Enabling: the author can control exactly when text appears, how quickly, synchronized with sound or other text. This allows meaning-making that depends on timing: a delayed word arrival
+    creates anticipation; rapid morph creates urgency. This changes what poetry can be: from static arrangement to temporal experience. Poetry becomes more like music (which unfolds temporally) than visual
+    art. This opens new dimensions: rhythm can be visual, not just sonic; timing can carry meaning; the poem''s duration becomes part of its form.'
+  question: Explain why kinetic poetry requires viewers to experience text temporally rather than spatially. How does this change what poetry can be?
+  type: short-answer
 ```
 
 ## Explainer

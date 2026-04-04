@@ -28,7 +28,7 @@ Texts often support multiple valid interpretations. Ambiguity can be intentional
 ## Questions
 
 ```yaml
-- question: "A student argues: 'If both "aging" and "political decline" are valid readings of this poem, then the poem can mean anything — literary analysis is just subjective.' What is the key error in this reasoning?"
+- question: "A student argues that if both aging and political decline are valid readings of a poem, then the poem can mean anything and literary analysis is just subjective. What is the key error in this reasoning?"
   type: multiple-choice
   options:
     - "It conflates legitimate multiplicity with relativism — valid interpretations must be grounded in textual evidence, so not all readings are equally supported"

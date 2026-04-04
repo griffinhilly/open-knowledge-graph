@@ -28,39 +28,47 @@ Constrained writing deliberately imposes formal restrictions on composition—fo
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "Why does the core idea describe constraint as enabling rather than limiting creativity in constrained writing?"
+- correct_answer: 0
+  explanation: This paradox is central to understanding constrained writing. Unlimited freedom seems creative, but can lead to indecision and predictable choices. Formal constraints force the writer to
+    work within boundaries, discovering unusual lexical solutions, unexpected syntax, novel linguistic patterns. The restriction generates creativity by making certain paths unavailable and forcing exploration
+    of alternatives.
   options:
-    - 0: "Formal restrictions channel linguistic choices through artificial rules, forcing writers to find creative solutions within boundaries and generating unexpected linguistic possibilities"
-    - 1: "Constrained writing removes all restrictions and lets writers do whatever they want"
-    - 2: "Constraint makes writing easier because there are fewer choices to make"
-    - 3: "Constraint is simply an aesthetic choice with no functional relationship to creativity"
-  correct_answer: 0
-  explanation: "This paradox is central to understanding constrained writing. Unlimited freedom seems creative, but can lead to indecision and predictable choices. Formal constraints force the writer to work within boundaries, discovering unusual lexical solutions, unexpected syntax, novel linguistic patterns. The restriction generates creativity by making certain paths unavailable and forcing exploration of alternatives."
-
-- type: multiple-choice
-  question: "What does it mean for constrained writing to question 'relationships between freedom and form'?"
+  - Formal restrictions channel linguistic choices through artificial rules, forcing writers to find creative solutions within boundaries and generating unexpected linguistic possibilities
+  - Constrained writing removes all restrictions and lets writers do whatever they want
+  - Constraint makes writing easier because there are fewer choices to make
+  - Constraint is simply an aesthetic choice with no functional relationship to creativity
+  question: Why does the core idea describe constraint as enabling rather than limiting creativity in constrained writing?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'The conventional view is that freedom and form are opposed: unlimited freedom is most creative, while formal restriction suppresses creativity. Constrained writing reverses this. It shows
+    that form—constraint—can be generative. The constraint gives structure to creative exploration. This challenges the binary between freedom and form, showing they can work together.'
   options:
-    - 0: "Constrained writing challenges the assumption that freedom and form are opposed; it demonstrates that formal rules can structure linguistic choices in ways that enable rather than suppress creativity"
-    - 1: "Constrained writing proves that writers have no freedom whatsoever"
-    - 2: "Constrained writing shows that form has nothing to do with creativity"
-    - 3: "Constrained writing argues that all writing should be unrestricted"
-  correct_answer: 0
-  explanation: "The conventional view is that freedom and form are opposed: unlimited freedom is most creative, while formal restriction suppresses creativity. Constrained writing reverses this. It shows that form—constraint—can be generative. The constraint gives structure to creative exploration. This challenges the binary between freedom and form, showing they can work together."
-
-- type: true-false
-  statement: "Constrained writing produces the same linguistic results as unconstrained writing because formal rules don't fundamentally affect what can be written"
-  correct_answer: false
-  explanation: "False. Constraints generate different linguistic results because the writer must work within boundaries. A lipogram (text without the letter 'e') produces different sentence structures and word choices than unconstrained writing. The constraint is generative; it changes what writing becomes possible."
-
-- type: true-false
-  statement: "Constrained writing questions whether authorial intention and systematic rules can coexist, challenging the assumption that meaningful writing requires individual intention rather than mechanical application of rules"
-  correct_answer: true
-  explanation: "Correct. Constrained writing operates through systematic rules, yet produces meaningful work. This challenges the assumption that meaningful literature requires individual authorial intention unconstrained by rules."
-
-- type: short-answer
-  question: "Explain the 'paradox of constraint' in constrained writing. How can artificial limitations generate creativity rather than suppress it?"
-  explanation: "The paradox is that restriction generates possibility rather than eliminating it. This seems counterintuitive: shouldn't more constraints mean fewer options and less creativity? But the paradox works because constraint forces lateral thinking. Without constraints, a writer might rely on conventional phrases and predictable syntax. A constraint—'no repeated words,' 'only monosyllabic words,' 'forbidden letters'—blocks these conventional options and forces the writer to discover unusual, unexpected linguistic solutions. The writer becomes creative *because* of the boundary, not despite it. The constraint redirects creative effort toward exploration of the possibility-space within the boundary. Additionally, constraints can be aesthetically productive: they often generate unexpected semantic resonances. A text without the letter 'e' develops certain recurring syntactic patterns that shape meaning. The constraint itself becomes a source of artistic significance. This paradox reveals something important: creativity is not the absence of structure, but the meaningful engagement with structure. A blank page offers infinite possibilities but no direction; a formal constraint offers direction and generates unexpected creativity."
+  - Constrained writing challenges the assumption that freedom and form are opposed; it demonstrates that formal rules can structure linguistic choices in ways that enable rather than suppress creativity
+  - Constrained writing proves that writers have no freedom whatsoever
+  - Constrained writing shows that form has nothing to do with creativity
+  - Constrained writing argues that all writing should be unrestricted
+  question: What does it mean for constrained writing to question 'relationships between freedom and form'?
+  type: multiple-choice
+- correct_answer: false
+  explanation: False. Constraints generate different linguistic results because the writer must work within boundaries. A lipogram (text without the letter 'e') produces different sentence structures and
+    word choices than unconstrained writing. The constraint is generative; it changes what writing becomes possible.
+  statement: Constrained writing produces the same linguistic results as unconstrained writing because formal rules don't fundamentally affect what can be written
+  type: true-false
+- correct_answer: true
+  explanation: Correct. Constrained writing operates through systematic rules, yet produces meaningful work. This challenges the assumption that meaningful literature requires individual authorial intention
+    unconstrained by rules.
+  statement: Constrained writing questions whether authorial intention and systematic rules can coexist, challenging the assumption that meaningful writing requires individual intention rather than mechanical
+    application of rules
+  type: true-false
+- explanation: 'The paradox is that restriction generates possibility rather than eliminating it. This seems counterintuitive: shouldn''t more constraints mean fewer options and less creativity? But the
+    paradox works because constraint forces lateral thinking. Without constraints, a writer might rely on conventional phrases and predictable syntax. A constraint—''no repeated words,'' ''only monosyllabic
+    words,'' ''forbidden letters''—blocks these conventional options and forces the writer to discover unusual, unexpected linguistic solutions. The writer becomes creative *because* of the boundary, not
+    despite it. The constraint redirects creative effort toward exploration of the possibility-space within the boundary. Additionally, constraints can be aesthetically productive: they often generate unexpected
+    semantic resonances. A text without the letter ''e'' develops certain recurring syntactic patterns that shape meaning. The constraint itself becomes a source of artistic significance. This paradox reveals
+    something important: creativity is not the absence of structure, but the meaningful engagement with structure. A blank page offers infinite possibilities but no direction; a formal constraint offers
+    direction and generates unexpected creativity.'
+  question: Explain the 'paradox of constraint' in constrained writing. How can artificial limitations generate creativity rather than suppress it?
+  type: short-answer
 ```
 
 ## Explainer

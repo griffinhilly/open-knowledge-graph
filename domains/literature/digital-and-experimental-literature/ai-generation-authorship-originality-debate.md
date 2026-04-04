@@ -24,39 +24,43 @@ Large language models raise fundamental questions about authorship, originality,
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: LLMs produce readable, sometimes sophisticated text without conscious intent or authorial deliberation. This fundamentally challenges the Romantic conception that literature must originate
+    from a unique human consciousness with specific artistic intentions. It requires new frameworks for understanding what makes something 'authored.'
+  options:
+  - LLMs generate fluent, coherent text without explicit intentionality, forcing us to reconsider whether intention is necessary for literary creation
+  - LLMs are so poor at writing that they disprove the possibility of machine-generated literature
+  - LLMs write with more intentionality than human authors because they process data algorithmically
+  - LLMs have forced all authors to abandon their previous methods and adopt AI assistance
   question: How do large language models challenge traditional notions of authorial intention in literature?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'LLMs learn patterns from training data and generate new text by predicting probable continuations. This raises fundamental questions: Is originality possible if the model is drawing from
+    patterns in existing texts? Does originality require intentional deviation from sources, or is statistical novelty sufficient? This tension forces reconsideration of what ''original'' means in literary
+    contexts.'
   options:
-    - 0: "LLMs generate fluent, coherent text without explicit intentionality, forcing us to reconsider whether intention is necessary for literary creation"
-    - 1: "LLMs are so poor at writing that they disprove the possibility of machine-generated literature"
-    - 2: "LLMs write with more intentionality than human authors because they process data algorithmically"
-    - 3: "LLMs have forced all authors to abandon their previous methods and adopt AI assistance"
-  correct_answer: 0
-  explanation: "LLMs produce readable, sometimes sophisticated text without conscious intent or authorial deliberation. This fundamentally challenges the Romantic conception that literature must originate from a unique human consciousness with specific artistic intentions. It requires new frameworks for understanding what makes something 'authored.'"
-
-- type: multiple-choice
+  - LLMs are trained on existing texts and generate statistically likely continuations, raising questions about whether this constitutes originality or mere recombination of training data
+  - AI always generates completely original text that has never been written before
+  - Originality is impossible in any form of writing, so AI generation is identical to human writing
+  - LLMs can only copy existing works word-for-word and cannot generate new combinations
   question: In debates about AI-generated literature, what is the central tension regarding originality?
-  options:
-    - 0: "LLMs are trained on existing texts and generate statistically likely continuations, raising questions about whether this constitutes originality or mere recombination of training data"
-    - 1: "AI always generates completely original text that has never been written before"
-    - 2: "Originality is impossible in any form of writing, so AI generation is identical to human writing"
-    - 3: "LLMs can only copy existing works word-for-word and cannot generate new combinations"
-  correct_answer: 0
-  explanation: "LLMs learn patterns from training data and generate new text by predicting probable continuations. This raises fundamental questions: Is originality possible if the model is drawing from patterns in existing texts? Does originality require intentional deviation from sources, or is statistical novelty sufficient? This tension forces reconsideration of what 'original' means in literary contexts."
-
-- type: true-false
-  statement: "AI-generated literature necessarily diminishes the value of human-authored works because machines can now do what writers do"
-  correct_answer: false
-  explanation: "This oversimplifies. Even if machines can generate readable text, this does not necessarily devalue human authorship. The question becomes more subtle: What do we value in literature—the text itself, the author's intention, the author's lived experience, the cultural dialogue? Different answers suggest different positions on whether AI threatens or merely reframes literary value."
-
-- type: true-false
-  statement: "Future human-AI collaboration in literature might operate differently from current debates about purely AI-generated text, as writers use AI tools to augment their own creative processes"
-  correct_answer: true
-  explanation: "Collaborative human-AI creation introduces new possibilities. Rather than framing AI as replacing authorship, we might see partnerships where humans provide intention, direction, and judgment while AI provides generation, exploration, and variation. This could reshape what authorship means without necessarily diminishing its value."
-
-- type: short-answer
-  question: "Describe how the challenge posed by AI-generated literature differs from previous technological disruptions to authorship (such as the printing press or typewriter)."
-  explanation: "Previous technologies changed HOW writers write and HOW literature is distributed, but they did not generate text independently. A typewriter still required a human author's ideas and intentions; it merely transcribed them. AI-generated text, by contrast, can produce coherent, publishable prose without human intentional input. This raises fundamentally different questions: if the machine generates without direction, who is the author? If human-AI collaboration occurs, how do we apportion authorial responsibility? This is qualitatively different from tools that augment but do not originate. The earlier technologies extended human agency; AI-generation seems to distribute or diffuse it in new ways."
+  type: multiple-choice
+- correct_answer: false
+  explanation: 'This oversimplifies. Even if machines can generate readable text, this does not necessarily devalue human authorship. The question becomes more subtle: What do we value in literature—the
+    text itself, the author''s intention, the author''s lived experience, the cultural dialogue? Different answers suggest different positions on whether AI threatens or merely reframes literary value.'
+  statement: AI-generated literature necessarily diminishes the value of human-authored works because machines can now do what writers do
+  type: true-false
+- correct_answer: true
+  explanation: Collaborative human-AI creation introduces new possibilities. Rather than framing AI as replacing authorship, we might see partnerships where humans provide intention, direction, and judgment
+    while AI provides generation, exploration, and variation. This could reshape what authorship means without necessarily diminishing its value.
+  statement: Future human-AI collaboration in literature might operate differently from current debates about purely AI-generated text, as writers use AI tools to augment their own creative processes
+  type: true-false
+- explanation: 'Previous technologies changed HOW writers write and HOW literature is distributed, but they did not generate text independently. A typewriter still required a human author''s ideas and intentions;
+    it merely transcribed them. AI-generated text, by contrast, can produce coherent, publishable prose without human intentional input. This raises fundamentally different questions: if the machine generates
+    without direction, who is the author? If human-AI collaboration occurs, how do we apportion authorial responsibility? This is qualitatively different from tools that augment but do not originate. The
+    earlier technologies extended human agency; AI-generation seems to distribute or diffuse it in new ways.'
+  question: Describe how the challenge posed by AI-generated literature differs from previous technological disruptions to authorship (such as the printing press or typewriter).
+  type: short-answer
 ```
 
 ## Explainer

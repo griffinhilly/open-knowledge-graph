@@ -23,39 +23,42 @@ Michael Joyce's 'afternoon, a story' (1990) is the canonical work of hypertext f
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: The hypertext structure generates fundamental narrative ambiguity. Unlike print fiction with a fixed sequence, different reading paths through the nodes can yield different interpretations,
+    and readers cannot know if they have exhausted the text. This is the core innovation—it makes link traversal constitutive of meaning-making.
+  options:
+  - Readers experience narrative ambiguity because different link-following paths reveal different interpretations, and they cannot be certain they have discovered all story fragments
+  - The work becomes impossible to read or understand without a detailed map provided by the author
+  - The story takes less time to read because readers can skip over narrative sections they find uninteresting
+  - The work requires readers to make their own illustrations of the narrative structure
   question: What is the primary consequence of 'afternoon, a story' being presented through interconnected nodes rather than a linear sequence?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Storyspace was the dominant hypertext authoring environment of the 1980s-90s. Joyce used its node-and-link structure to create the canonical hypertext fiction work. This historical context
+    matters because Storyspace's specific affordances shaped what hypertext fiction could be.
   options:
-    - 0: "Readers experience narrative ambiguity because different link-following paths reveal different interpretations, and they cannot be certain they have discovered all story fragments"
-    - 1: "The work becomes impossible to read or understand without a detailed map provided by the author"
-    - 2: "The story takes less time to read because readers can skip over narrative sections they find uninteresting"
-    - 3: "The work requires readers to make their own illustrations of the narrative structure"
-  correct_answer: 0
-  explanation: "The hypertext structure generates fundamental narrative ambiguity. Unlike print fiction with a fixed sequence, different reading paths through the nodes can yield different interpretations, and readers cannot know if they have exhausted the text. This is the core innovation—it makes link traversal constitutive of meaning-making."
-
-- type: multiple-choice
+  - Storyspace, a hypertext authoring system designed specifically for narrative creation
+  - HTML on the early World Wide Web, making it the first online fiction
+  - A custom programming language written by Michael Joyce himself
+  - Apple's HyperCard system, the precursor to all digital narrative forms
   question: In what authoring environment was 'afternoon, a story' created?
-  options:
-    - 0: "Storyspace, a hypertext authoring system designed specifically for narrative creation"
-    - 1: "HTML on the early World Wide Web, making it the first online fiction"
-    - 2: "A custom programming language written by Michael Joyce himself"
-    - 3: "Apple's HyperCard system, the precursor to all digital narrative forms"
-  correct_answer: 0
-  explanation: "Storyspace was the dominant hypertext authoring environment of the 1980s-90s. Joyce used its node-and-link structure to create the canonical hypertext fiction work. This historical context matters because Storyspace's specific affordances shaped what hypertext fiction could be."
-
-- type: true-false
-  statement: "'Afternoon, a story' can be fully understood by reading it once in any order, since all hypertext fiction presents the same content regardless of navigation path"
-  correct_answer: false
-  explanation: "This is false. The work is explicitly designed to generate different interpretations through different reading paths. Readers encountering narrative fragments in different orders will construct different meanings. The uncertainty about having encountered all fragments is part of the work's formal innovation."
-
-- type: true-false
-  statement: "'Afternoon, a story' uses metafictional techniques to reflect on how hypertext reading differs from conventional linear reading"
-  correct_answer: true
-  explanation: "The work is self-aware about the conditions of hypertext reading. It reflects on navigation, link-following, and the reader's uncertainty about narrative completeness—making the medium itself and the act of reading a central concern."
-
-- type: short-answer
-  question: "Explain why 'afternoon, a story' is described as establishing 'formal conventions' for hypertext fiction despite being created in 1990. What specific techniques did it establish that later works built upon?"
-  explanation: "Joyce's work established several formal conventions: (1) using link ambiguity and multiple paths to generate interpretive variation, (2) employing narrative fragmentation where isolated passages gain meaning through juxtaposition, (3) using metafictional reflection on the hypertext medium itself, and (4) treating navigation as a meaning-making act rather than mere traversal. Later hypertext fiction and digital narrative works adopted these techniques because they best exploited hypertext's affordances—its capacity for non-linearity, reader agency, and the foregrounding of navigation."
+  type: multiple-choice
+- correct_answer: false
+  explanation: This is false. The work is explicitly designed to generate different interpretations through different reading paths. Readers encountering narrative fragments in different orders will construct
+    different meanings. The uncertainty about having encountered all fragments is part of the work's formal innovation.
+  statement: '''Afternoon, a story'' can be fully understood by reading it once in any order, since all hypertext fiction presents the same content regardless of navigation path'
+  type: true-false
+- correct_answer: true
+  explanation: The work is self-aware about the conditions of hypertext reading. It reflects on navigation, link-following, and the reader's uncertainty about narrative completeness—making the medium itself
+    and the act of reading a central concern.
+  statement: '''Afternoon, a story'' uses metafictional techniques to reflect on how hypertext reading differs from conventional linear reading'
+  type: true-false
+- explanation: 'Joyce''s work established several formal conventions: (1) using link ambiguity and multiple paths to generate interpretive variation, (2) employing narrative fragmentation where isolated
+    passages gain meaning through juxtaposition, (3) using metafictional reflection on the hypertext medium itself, and (4) treating navigation as a meaning-making act rather than mere traversal. Later
+    hypertext fiction and digital narrative works adopted these techniques because they best exploited hypertext''s affordances—its capacity for non-linearity, reader agency, and the foregrounding of navigation.'
+  question: Explain why 'afternoon, a story' is described as establishing 'formal conventions' for hypertext fiction despite being created in 1990. What specific techniques did it establish that later works
+    built upon?
+  type: short-answer
 ```
 
 ## Explainer

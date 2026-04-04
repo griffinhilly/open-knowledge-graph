@@ -25,39 +25,44 @@ Interactive narratives balance reader agency (meaningful narrative effect) again
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: 'Interactive narrative design involves managing two competing demands: players want meaningful choices that affect narrative, but authors cannot create content for infinite possibilities.
+    Effective design uses constraints (limited but real choices) that feel agentic rather than constraining. Constraints become enabling rather than limiting.'
+  options:
+  - Unlimited player choice leads to unlimited authorial labor; constraints on choice are necessary but must feel meaningful, requiring careful design to maintain player agency while managing scope
+  - Player choice and authorial control are completely opposed and incompatible
+  - Constraints always eliminate meaningful agency
+  - Interactive narratives should offer completely infinite choices
   question: What is the fundamental tension in designing interactive narrative?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Paradoxically, tight constraints can enhance agency. If players know choices are limited and consequences real, choices feel weightier. 'A or B with real consequences' creates more agency
+    than 'pretend infinite choice with hidden constraints.' Transparency about limitations can enhance meaning.
   options:
-    - 0: "Unlimited player choice leads to unlimited authorial labor; constraints on choice are necessary but must feel meaningful, requiring careful design to maintain player agency while managing scope"
-    - 1: "Player choice and authorial control are completely opposed and incompatible"
-    - 2: "Constraints always eliminate meaningful agency"
-    - 3: "Interactive narratives should offer completely infinite choices"
-  correct_answer: 0
-  explanation: "Interactive narrative design involves managing two competing demands: players want meaningful choices that affect narrative, but authors cannot create content for infinite possibilities. Effective design uses constraints (limited but real choices) that feel agentic rather than constraining. Constraints become enabling rather than limiting."
-
-- type: multiple-choice
+  - By establishing clear possibilities and meaningful trade-offs, constraints make choices feel more significant and consequences more real than unconstrained systems that hide limitations
+  - Constraints always reduce agency
+  - Agency is enhanced by offering meaningless infinite choices
+  - Constraints have no relationship to player agency
   question: How can constraints actually enhance reader agency in interactive narrative?"
-  options:
-    - 0: "By establishing clear possibilities and meaningful trade-offs, constraints make choices feel more significant and consequences more real than unconstrained systems that hide limitations"
-    - 1: "Constraints always reduce agency"
-    - 2: "Agency is enhanced by offering meaningless infinite choices"
-    - 3: "Constraints have no relationship to player agency"
-  correct_answer: 0
-  explanation: "Paradoxically, tight constraints can enhance agency. If players know choices are limited and consequences real, choices feel weightier. 'A or B with real consequences' creates more agency than 'pretend infinite choice with hidden constraints.' Transparency about limitations can enhance meaning."
-
-- type: true-false
-  statement: "In interactive narrative, player agency is primarily about having many choices rather than about choices having meaningful narrative consequences"
-  correct_answer: false
-  explanation: "Agency is about meaningful impact, not quantity of choices. A single choice with real consequences is more agentic than many choices that ultimately lead to identical outcomes."
-
-- type: true-false
-  statement: "Understanding how constraints enable agency requires examining not just what choices exist but how well-designed constraints make those choices feel meaningful"
-  correct_answer: true
-  explanation: "Constraint design is narrative design. How boundaries are set and communicated shapes whether players experience agency or constraint."
-
-- type: short-answer
-  question: "Explain the difference between 'false agency' (choices that appear meaningful but have hidden constraints) and 'transparent agency' (constraints are acknowledged but choices have real consequences), and discuss why this distinction matters for interactive narrative design."
-  explanation: "False agency: The player believes their choices are open and consequential, but unknown constraints force convergence to identical outcomes regardless of choice. Example: Three narrative paths appear different but merge before the ending, making earlier choices feel illusory. Problem: When players discover constraints, agency retroactively dissolves. Transparent agency: The player understands choices are limited but accepts this because choices have real, visible consequences. Constraints are explicit. Designers state: 'You can go north or south, leading to different outcomes.' Consequences are evident. Advantage: Players experience genuine agency within acknowledged bounds. Why it matters: False agency damages trust and retroactively invalidates player investment. Transparent agency acknowledges reality while preserving meaning. It suggests: (1) Agency is relational—achieved through negotiation between player expectations and design reality; (2) Constraint is not opposed to agency but can enable it; (3) Transparency about limitations can enhance rather than diminish player experience; (4) Good design manages expectations by being clear about what's possible. This principle extends beyond games: any interactive narrative must balance offering choice with authorial feasibility. The balance is best served by honest constraint rather than hidden limitation."
+  type: multiple-choice
+- correct_answer: false
+  explanation: Agency is about meaningful impact, not quantity of choices. A single choice with real consequences is more agentic than many choices that ultimately lead to identical outcomes.
+  statement: In interactive narrative, player agency is primarily about having many choices rather than about choices having meaningful narrative consequences
+  type: true-false
+- correct_answer: true
+  explanation: Constraint design is narrative design. How boundaries are set and communicated shapes whether players experience agency or constraint.
+  statement: Understanding how constraints enable agency requires examining not just what choices exist but how well-designed constraints make those choices feel meaningful
+  type: true-false
+- explanation: 'False agency: The player believes their choices are open and consequential, but unknown constraints force convergence to identical outcomes regardless of choice. Example: Three narrative
+    paths appear different but merge before the ending, making earlier choices feel illusory. Problem: When players discover constraints, agency retroactively dissolves. Transparent agency: The player understands
+    choices are limited but accepts this because choices have real, visible consequences. Constraints are explicit. Designers state: ''You can go north or south, leading to different outcomes.'' Consequences
+    are evident. Advantage: Players experience genuine agency within acknowledged bounds. Why it matters: False agency damages trust and retroactively invalidates player investment. Transparent agency acknowledges
+    reality while preserving meaning. It suggests: (1) Agency is relational—achieved through negotiation between player expectations and design reality; (2) Constraint is not opposed to agency but can enable
+    it; (3) Transparency about limitations can enhance rather than diminish player experience; (4) Good design manages expectations by being clear about what''s possible. This principle extends beyond games:
+    any interactive narrative must balance offering choice with authorial feasibility. The balance is best served by honest constraint rather than hidden limitation.'
+  question: Explain the difference between 'false agency' (choices that appear meaningful but have hidden constraints) and 'transparent agency' (constraints are acknowledged but choices have real consequences),
+    and discuss why this distinction matters for interactive narrative design.
+  type: short-answer
 ```
 
 ## Explainer

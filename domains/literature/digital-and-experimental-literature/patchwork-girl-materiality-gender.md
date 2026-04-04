@@ -27,39 +27,45 @@ Shelley Jackson's 'Patchwork Girl' uses hypertext to literalize fragmentation an
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: Jackson deliberately chooses hypertext form to literalize her thematic concerns. The protagonist, like the hypertext navigation, is composed of fragments. Reading the work requires navigating
+    between pieces, just as understanding the protagonist requires understanding her as assemblage rather than unified whole. Form and theme are inseparable.
+  options:
+  - The fragmented hypertext structure mirrors the protagonist's patchwork body, making the form itself an expression of the work's thematic exploration of fragmented embodiment and female subjectivity
+  - Hypertext is merely decorative in 'Patchwork Girl' and does not relate to the narrative
+  - The work would be equally meaningful as conventional linear prose
+  - The hypertext form contradicts the work's thematic concerns
   question: How does 'Patchwork Girl' use its hypertext form to enact thematic concerns about fragmentation and embodiment?"
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Jackson's recasting of the Frankenstein creature as female and patchwork allows exploration of female fragmentation, embodiment, and identity through digital form. The work asks how a creature
+    made of disparate parts achieves subjectivity and agency. Hypertext enacts this through its own fragmented, navigable structure.
   options:
-    - 0: "The fragmented hypertext structure mirrors the protagonist's patchwork body, making the form itself an expression of the work's thematic exploration of fragmented embodiment and female subjectivity"
-    - 1: "Hypertext is merely decorative in 'Patchwork Girl' and does not relate to the narrative"
-    - 2: "The work would be equally meaningful as conventional linear prose"
-    - 3: "The hypertext form contradicts the work's thematic concerns"
-  correct_answer: 0
-  explanation: "Jackson deliberately chooses hypertext form to literalize her thematic concerns. The protagonist, like the hypertext navigation, is composed of fragments. Reading the work requires navigating between pieces, just as understanding the protagonist requires understanding her as assemblage rather than unified whole. Form and theme are inseparable."
-
-- type: multiple-choice
+  - The work uses Frankenstein's monster—a fragmented, female-coded creature—as framework for exploring how hypertext embodies fragmented identity and challenges unified subjectivity, particularly for women
+  - The work abandons Frankenstein entirely
+  - Frankenstein has no relationship to 'Patchwork Girl'
+  - The work supports traditional conceptions of unified identity
   question: What does 'Patchwork Girl' explore through combining Frankenstein with digital hypertext form?"
-  options:
-    - 0: "The work uses Frankenstein's monster—a fragmented, female-coded creature—as framework for exploring how hypertext embodies fragmented identity and challenges unified subjectivity, particularly for women"
-    - 1: "The work abandons Frankenstein entirely"
-    - 2: "Frankenstein has no relationship to 'Patchwork Girl'"
-    - 3: "The work supports traditional conceptions of unified identity"
-  correct_answer: 0
-  explanation: "Jackson's recasting of the Frankenstein creature as female and patchwork allows exploration of female fragmentation, embodiment, and identity through digital form. The work asks how a creature made of disparate parts achieves subjectivity and agency. Hypertext enacts this through its own fragmented, navigable structure."
-
-- type: true-false
-  statement: "'Patchwork Girl' demonstrates that hypertext form can enact thematic concerns about fragmentation, embodiment, and subjective multiplicity rather than merely presenting them as content"
-  correct_answer: true
-  explanation: "The work does not describe fragmentation; it instantiates fragmentation through form. Readers experience fragmented navigation; they encounter the protagonist through fragmentary textual pieces. Form and content are integrated."
-
-- type: true-false
-  statement: "'Patchwork Girl' suggests that female identity can be understood as patchwork and fragmented, challenging unified or essentialist conceptions of gender and subjectivity"
-  correct_answer: true
-  explanation: "The work uses fragmentation to explore how female identity might not be unified or essential but rather composed of multiple, sometimes contradictory, dimensions. Hypertext's fragmented form reflects this theoretical insight about subjectivity."
-
-- type: short-answer
-  question: "Explain how 'Patchwork Girl' uses the relationship between physical embodiment and digital form to explore female identity and narrative agency."
-  explanation: "Physical embodiment: The protagonist is a literal patchwork—body stitched from parts, visibly marked by construction. She is not natural or unified but assembled. Digital form: Hypertext fragments narrative just as embodiment is fragmented. Reading requires navigation among pieces; meaning emerges from constructing connections across fragments. Agency: Traditional narratives center on unified protagonists with clear motivations and coherent development. 'Patchwork Girl' decentralizes this: the protagonist achieves agency through fragmentation, not despite it. She acts across her component parts. Reading the work requires the same distributed agency—readers must navigate, choose paths, construct meaning from fragments. Significance: This suggests: (1) Female identity need not be unified to be coherent; (2) Fragmentation can be a source of strength and agency rather than diminishment; (3) Hypertext form is particularly suited to representing fragmented subjectivity because it makes fragmentation a structural condition of reading; (4) Medium (hypertext) and meaning (fragmented female embodiment) are inseparable. Jackson shows that form can enact and explore thematic concerns about identity and embodiment in ways that linear narrative cannot."
+  type: multiple-choice
+- correct_answer: true
+  explanation: The work does not describe fragmentation; it instantiates fragmentation through form. Readers experience fragmented navigation; they encounter the protagonist through fragmentary textual
+    pieces. Form and content are integrated.
+  statement: '''Patchwork Girl'' demonstrates that hypertext form can enact thematic concerns about fragmentation, embodiment, and subjective multiplicity rather than merely presenting them as content'
+  type: true-false
+- correct_answer: true
+  explanation: The work uses fragmentation to explore how female identity might not be unified or essential but rather composed of multiple, sometimes contradictory, dimensions. Hypertext's fragmented form
+    reflects this theoretical insight about subjectivity.
+  statement: '''Patchwork Girl'' suggests that female identity can be understood as patchwork and fragmented, challenging unified or essentialist conceptions of gender and subjectivity'
+  type: true-false
+- explanation: 'Physical embodiment: The protagonist is a literal patchwork—body stitched from parts, visibly marked by construction. She is not natural or unified but assembled. Digital form: Hypertext
+    fragments narrative just as embodiment is fragmented. Reading requires navigation among pieces; meaning emerges from constructing connections across fragments. Agency: Traditional narratives center
+    on unified protagonists with clear motivations and coherent development. ''Patchwork Girl'' decentralizes this: the protagonist achieves agency through fragmentation, not despite it. She acts across
+    her component parts. Reading the work requires the same distributed agency—readers must navigate, choose paths, construct meaning from fragments. Significance: This suggests: (1) Female identity need
+    not be unified to be coherent; (2) Fragmentation can be a source of strength and agency rather than diminishment; (3) Hypertext form is particularly suited to representing fragmented subjectivity because
+    it makes fragmentation a structural condition of reading; (4) Medium (hypertext) and meaning (fragmented female embodiment) are inseparable. Jackson shows that form can enact and explore thematic concerns
+    about identity and embodiment in ways that linear narrative cannot.'
+  question: Explain how 'Patchwork Girl' uses the relationship between physical embodiment and digital form to explore female identity and narrative agency.
+  type: short-answer
 ```
 
 ## Explainer

@@ -25,39 +25,45 @@ Collaborative fiction distributes authorship across multiple writers through dig
 ## Questions
 
 ```yaml
-- type: multiple-choice
+- correct_answer: 0
+  explanation: 'Collaborative fiction fundamentally alters the author function. Instead of a single author with a unified vision, authorship becomes distributed: multiple writers contribute, negotiate direction,
+    build on each other''s work. This challenges the Romantic model of authorship (singular vision, individual genius) and suggests that authorship can be a collective process where meaning emerges from
+    negotiation and layering rather than singular intention.'
+  options:
+  - By distributing creative responsibility across multiple writers rather than concentrating it in a single author's vision and control
+  - By proving that collaborative work is always worse than individual authorship
+  - By eliminating all concerns about copyright and intellectual property
+  - By making authorship completely anonymous and untraceable
   question: How does collaborative fiction challenge traditional concepts of authorship?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: Digital infrastructure is foundational. Wikis, shared documents, comment systems, and version control tools allow multiple writers to work on shared narratives. These technologies don't make
+    collaboration effortless (negotiation remains necessary), but they enable coordination that would be impractical in print media. Platform affordances shape what collaborative authorship is possible.
   options:
-    - 0: "By distributing creative responsibility across multiple writers rather than concentrating it in a single author's vision and control"
-    - 1: "By proving that collaborative work is always worse than individual authorship"
-    - 2: "By eliminating all concerns about copyright and intellectual property"
-    - 3: "By making authorship completely anonymous and untraceable"
-  correct_answer: 0
-  explanation: "Collaborative fiction fundamentally alters the author function. Instead of a single author with a unified vision, authorship becomes distributed: multiple writers contribute, negotiate direction, build on each other's work. This challenges the Romantic model of authorship (singular vision, individual genius) and suggests that authorship can be a collective process where meaning emerges from negotiation and layering rather than singular intention."
-
-- type: multiple-choice
+  - Digital platforms provide infrastructure (version control, commenting, real-time collaboration tools) that makes coordinated authorship possible at scale
+  - Digital platforms eliminate the need for writers to communicate or negotiate
+  - Digital platforms are irrelevant to collaborative fiction
+  - Digital platforms guarantee that collaborative fiction is always successful
   question: What role do digital platforms play in enabling distributed authorship in collaborative fiction?
-  options:
-    - 0: "Digital platforms provide infrastructure (version control, commenting, real-time collaboration tools) that makes coordinated authorship possible at scale"
-    - 1: "Digital platforms eliminate the need for writers to communicate or negotiate"
-    - 2: "Digital platforms are irrelevant to collaborative fiction"
-    - 3: "Digital platforms guarantee that collaborative fiction is always successful"
-  correct_answer: 0
-  explanation: "Digital infrastructure is foundational. Wikis, shared documents, comment systems, and version control tools allow multiple writers to work on shared narratives. These technologies don't make collaboration effortless (negotiation remains necessary), but they enable coordination that would be impractical in print media. Platform affordances shape what collaborative authorship is possible."
-
-- type: true-false
-  statement: "In collaborative fiction communities, authorship authoritatively rests with whoever posted first or owned the source material"
-  correct_answer: false
-  explanation: "Authorship in collaborative fiction is negotiated and often ambiguous. Fan fiction communities develop norms about crediting contributors; wikis may show version histories. The question of 'who is the author' becomes complex when work is iteratively revised by multiple contributors. Different communities resolve this differently, but the point is that authorship is not automatically singular."
-
-- type: true-false
-  statement: "Collaborative fiction demonstrates that authorship can be conceptualized as a distributed, networked process rather than a property of individual creators"
-  correct_answer: true
-  explanation: "Collaborative fiction makes visible the collaborative dimensions of all writing—that texts emerge from dialogue, iterative revision, and community response. By making authorship explicitly distributed, collaborative fiction reveals something about literary creation more broadly: it is always already networked, even when attributed to individuals."
-
-- type: short-answer
-  question: "Explain how collaborative fiction in digital communities differs from earlier forms of literary collaboration (such as co-authored novels or literary salons) and what this difference reveals about contemporary authorship."
-  explanation: "Key differences: (1) Scale—digital platforms enable collaboration across thousands of contributors, not just small groups; (2) Asynchronicity—contributors need not work simultaneously; (3) Transparency—digital version histories make the layering of authorship visible; (4) Participant fluidity—contributors can enter and exit, versus committed partnerships. What this reveals: (1) Authorship is increasingly understood as a process rather than an author-property; (2) Contemporary writing emerges through platforms and infrastructure, not just individual creativity; (3) Community negotiation shapes literary meaning alongside authorial intention; (4) The boundary between readers and writers becomes porous—readers contribute. Earlier collaboration was typically singular (two named co-authors). Contemporary collaboration is distributed (many anonymous contributors). This shift reflects deeper changes in how meaning is made in networked digital culture."
+  type: multiple-choice
+- correct_answer: false
+  explanation: Authorship in collaborative fiction is negotiated and often ambiguous. Fan fiction communities develop norms about crediting contributors; wikis may show version histories. The question of
+    'who is the author' becomes complex when work is iteratively revised by multiple contributors. Different communities resolve this differently, but the point is that authorship is not automatically singular.
+  statement: In collaborative fiction communities, authorship authoritatively rests with whoever posted first or owned the source material
+  type: true-false
+- correct_answer: true
+  explanation: 'Collaborative fiction makes visible the collaborative dimensions of all writing—that texts emerge from dialogue, iterative revision, and community response. By making authorship explicitly
+    distributed, collaborative fiction reveals something about literary creation more broadly: it is always already networked, even when attributed to individuals.'
+  statement: Collaborative fiction demonstrates that authorship can be conceptualized as a distributed, networked process rather than a property of individual creators
+  type: true-false
+- explanation: 'Key differences: (1) Scale—digital platforms enable collaboration across thousands of contributors, not just small groups; (2) Asynchronicity—contributors need not work simultaneously; (3)
+    Transparency—digital version histories make the layering of authorship visible; (4) Participant fluidity—contributors can enter and exit, versus committed partnerships. What this reveals: (1) Authorship
+    is increasingly understood as a process rather than an author-property; (2) Contemporary writing emerges through platforms and infrastructure, not just individual creativity; (3) Community negotiation
+    shapes literary meaning alongside authorial intention; (4) The boundary between readers and writers becomes porous—readers contribute. Earlier collaboration was typically singular (two named co-authors).
+    Contemporary collaboration is distributed (many anonymous contributors). This shift reflects deeper changes in how meaning is made in networked digital culture.'
+  question: Explain how collaborative fiction in digital communities differs from earlier forms of literary collaboration (such as co-authored novels or literary salons) and what this difference reveals
+    about contemporary authorship.
+  type: short-answer
 ```
 
 ## Explainer

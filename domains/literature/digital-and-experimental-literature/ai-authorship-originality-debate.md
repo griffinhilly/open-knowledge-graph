@@ -25,39 +25,45 @@ AI-generated literature raises philosophical and legal questions: Is a machine a
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What fundamental philosophical problem emerges when a neural language model generates original literary text that resembles human authorship?"
+- correct_answer: 0
+  explanation: The challenge is conceptual and philosophical, not practical doom. AI-generated literature forces us to examine what we mean by authorship. Does it require human consciousness, intentional
+    expression of meaning, or can a system that generates novel text qualify? Different philosophical and legal frameworks answer this differently—some grant authorship, others reserve it exclusively for
+    humans.
   options:
-    - 0: "We must reconsider what authorship means—whether creativity requires intentionality and consciousness, or whether generating novel text is sufficient to qualify as authorship"
-    - 1: "Literature becomes impossible because machines can now generate infinite variations, making human writing obsolete"
-    - 2: "Legal copyright protections automatically extend to AI systems since they produce copyrightable works"
-    - 3: "Literary criticism becomes irrelevant because AI-generated text has no cultural meaning or aesthetic value"
-  correct_answer: 0
-  explanation: "The challenge is conceptual and philosophical, not practical doom. AI-generated literature forces us to examine what we mean by authorship. Does it require human consciousness, intentional expression of meaning, or can a system that generates novel text qualify? Different philosophical and legal frameworks answer this differently—some grant authorship, others reserve it exclusively for humans."
-
-- type: multiple-choice
-  question: "If an AI language model is trained on millions of human texts, how does this training process relate to claims about originality in AI-generated output?"
+  - We must reconsider what authorship means—whether creativity requires intentionality and consciousness, or whether generating novel text is sufficient to qualify as authorship
+  - Literature becomes impossible because machines can now generate infinite variations, making human writing obsolete
+  - Legal copyright protections automatically extend to AI systems since they produce copyrightable works
+  - Literary criticism becomes irrelevant because AI-generated text has no cultural meaning or aesthetic value
+  question: What fundamental philosophical problem emerges when a neural language model generates original literary text that resembles human authorship?
+  type: multiple-choice
+- correct_answer: 0
+  explanation: 'This gets at a core tension: human authors are also shaped by prior texts, cultural traditions, and learned patterns. Yet we call them original creators. When machines generate text learned
+    from patterns in existing texts, we question originality—not because the mechanism is fundamentally different, but because we lack certainty about machine intentionality and independent meaning-making.'
   options:
-    - 0: "AI originality becomes conceptually problematic because the output emerges from patterns learned from existing texts, raising questions about whether machine-generated text can be truly 'original' if original means independent creation"
-    - 1: "Training on human texts proves the AI is not creative and therefore cannot be considered an author"
-    - 2: "The human authors whose texts were used in training become co-authors of any AI-generated work"
-    - 3: "Originality is irrelevant to AI-generated literature because machines cannot create anything humans have not already created"
-  correct_answer: 0
-  explanation: "This gets at a core tension: human authors are also shaped by prior texts, cultural traditions, and learned patterns. Yet we call them original creators. When machines generate text learned from patterns in existing texts, we question originality—not because the mechanism is fundamentally different, but because we lack certainty about machine intentionality and independent meaning-making."
-
-- type: true-false
-  statement: "Legal copyright frameworks have definitively established that AI systems qualify as authors and can hold copyright in their generated works"
-  correct_answer: false
-  explanation: "This is false. Legal and philosophical consensus is unsettled. Different jurisdictions and theoretical approaches reach different conclusions. Some grant limited authorship-adjacent protections; others explicitly exclude machines. The question remains contested and evolving."
-
-- type: true-false
-  statement: "Questions about AI authorship directly implicate foundational assumptions about what constitutes literary creativity and originality in human authors as well"
-  correct_answer: true
-  explanation: "Exactly. The debate is not just about machines; it forces us to articulate what we mean by authorship and originality in humans. If AI challenges our definitions, it reveals that our ordinary understanding of authorship contains ambiguities."
-
-- type: short-answer
-  question: "Explain why philosophers and literary theorists regard AI authorship not merely as a legal question but as a conceptual one that challenges foundational assumptions about literature itself"
-  explanation: "AI authorship challenges the assumption that authorship requires human consciousness, intentionality, or the expression of individual perspective. In human literature, authorship implies all three: an author deliberately crafts language to express meaning. AI systems generate novel text without demonstrable consciousness or intention—yet produce interpretable, aesthetically engaging results. This forces the question: what is authorship fundamentally? Is it a matter of consciousness, intentionality, and individual expression—or can it be defined functionally, as the production of coherent, novel texts? Literature has traditionally been understood as bound up with human meaning-making; AI disrupts this association. Resolution requires clarifying what authorship really means, with implications for copyright law, literary criticism, and our understanding of human creativity itself."
+  - AI originality becomes conceptually problematic because the output emerges from patterns learned from existing texts, raising questions about whether machine-generated text can be truly 'original' if
+    original means independent creation
+  - Training on human texts proves the AI is not creative and therefore cannot be considered an author
+  - The human authors whose texts were used in training become co-authors of any AI-generated work
+  - Originality is irrelevant to AI-generated literature because machines cannot create anything humans have not already created
+  question: If an AI language model is trained on millions of human texts, how does this training process relate to claims about originality in AI-generated output?
+  type: multiple-choice
+- correct_answer: false
+  explanation: This is false. Legal and philosophical consensus is unsettled. Different jurisdictions and theoretical approaches reach different conclusions. Some grant limited authorship-adjacent protections;
+    others explicitly exclude machines. The question remains contested and evolving.
+  statement: Legal copyright frameworks have definitively established that AI systems qualify as authors and can hold copyright in their generated works
+  type: true-false
+- correct_answer: true
+  explanation: Exactly. The debate is not just about machines; it forces us to articulate what we mean by authorship and originality in humans. If AI challenges our definitions, it reveals that our ordinary
+    understanding of authorship contains ambiguities.
+  statement: Questions about AI authorship directly implicate foundational assumptions about what constitutes literary creativity and originality in human authors as well
+  type: true-false
+- explanation: 'AI authorship challenges the assumption that authorship requires human consciousness, intentionality, or the expression of individual perspective. In human literature, authorship implies
+    all three: an author deliberately crafts language to express meaning. AI systems generate novel text without demonstrable consciousness or intention—yet produce interpretable, aesthetically engaging
+    results. This forces the question: what is authorship fundamentally? Is it a matter of consciousness, intentionality, and individual expression—or can it be defined functionally, as the production of
+    coherent, novel texts? Literature has traditionally been understood as bound up with human meaning-making; AI disrupts this association. Resolution requires clarifying what authorship really means,
+    with implications for copyright law, literary criticism, and our understanding of human creativity itself.'
+  question: Explain why philosophers and literary theorists regard AI authorship not merely as a legal question but as a conceptual one that challenges foundational assumptions about literature itself
+  type: short-answer
 ```
 
 ## Explainer
