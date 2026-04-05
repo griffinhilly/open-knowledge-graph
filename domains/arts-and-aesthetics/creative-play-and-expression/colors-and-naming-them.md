@@ -12,6 +12,7 @@ builds-toward:
 - patterns-in-art
 - looking-at-art-and-talking-about-it
 - self-portraits
+- color-hue-saturation-and-value
 tags:
 - colors
 - naming

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: seventh-chord-function-and-sound
   type: soft
+- id: basic-chord-concepts
+  type: soft
 builds-toward:
 - functional-harmony
 - basic-chord-progressions

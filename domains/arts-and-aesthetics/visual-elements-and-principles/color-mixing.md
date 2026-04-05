@@ -6,6 +6,8 @@ course: visual-elements-and-principles
 prerequisites:
 - id: color-wheel-basics
   type: hard
+- id: mixing-colors
+  type: soft
 builds-toward:
 - color-temperature
 - color-relationships

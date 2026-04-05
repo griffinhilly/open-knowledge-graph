@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: comparing-two-stories
   type: soft
+- id: problem-and-solution
+  type: soft
 builds-toward:
 - person-vs-person-conflict
 - person-vs-nature-conflict

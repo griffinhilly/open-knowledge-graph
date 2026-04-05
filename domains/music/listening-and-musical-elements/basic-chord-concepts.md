@@ -10,6 +10,7 @@ prerequisites:
   type: hard
 builds-toward:
 - chord-progressions-introduction
+- harmonic-function-basics
 tags:
 - chords
 - harmony

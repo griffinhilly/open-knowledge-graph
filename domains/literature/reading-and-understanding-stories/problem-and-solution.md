@@ -12,6 +12,7 @@ builds-toward:
 - comparing-two-stories
 - mystery-stories-introduction
 - adventure-genre
+- conflict-types-overview
 tags:
 - problem
 - solution

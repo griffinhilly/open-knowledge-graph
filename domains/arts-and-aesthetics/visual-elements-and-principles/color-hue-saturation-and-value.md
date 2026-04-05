@@ -3,7 +3,9 @@ id: color-hue-saturation-and-value
 title: 'Color: Hue, Saturation, and Value'
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
-prerequisites: []
+prerequisites:
+- id: colors-and-naming-them
+  type: soft
 builds-toward:
 - mixing-colors-additive-and-subtractive
 - color-temperature-in-painting-and-design

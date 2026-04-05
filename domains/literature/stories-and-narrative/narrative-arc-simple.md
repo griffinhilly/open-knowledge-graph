@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cause-and-effect-in-plots
   type: soft
+- id: sequence-of-events
+  type: soft
 builds-toward:
 - exposition-setup-basics
 - rising-action-intro

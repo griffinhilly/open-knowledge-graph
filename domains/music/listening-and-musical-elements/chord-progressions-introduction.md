@@ -6,7 +6,8 @@ course: listening-and-musical-elements
 prerequisites:
 - id: basic-chord-concepts
   type: hard
-builds-toward: []
+builds-toward:
+- basic-chord-progressions
 tags:
 - chords
 - progressions

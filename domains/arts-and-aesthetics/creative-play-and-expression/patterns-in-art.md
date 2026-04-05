@@ -12,6 +12,7 @@ builds-toward:
 - weaving-and-threading-basics
 - decorating-and-design
 - making-music-and-art-together
+- pattern-and-repetition
 tags:
 - patterns
 - repeating

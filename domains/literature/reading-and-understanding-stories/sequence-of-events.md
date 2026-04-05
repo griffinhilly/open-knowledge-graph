@@ -10,6 +10,7 @@ builds-toward:
 - cause-and-effect-in-plots
 - chapter-books
 - story-retelling-and-summary
+- narrative-arc-simple
 tags:
 - sequence
 - order

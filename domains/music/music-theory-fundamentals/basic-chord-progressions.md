@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chord-progressions
   type: soft
+- id: chord-progressions-introduction
+  type: soft
 builds-toward:
 - chord-progressions
 - song-form

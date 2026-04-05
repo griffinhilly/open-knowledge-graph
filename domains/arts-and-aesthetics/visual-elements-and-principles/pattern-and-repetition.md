@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: shape-and-form
   type: soft
+- id: patterns-in-art
+  type: soft
 builds-toward:
 - unity-and-variety
 tags:
