@@ -732,6 +732,35 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 }}
 #controls button:hover {{ background:#252540; color:#ddd; }}
 #controls button.active {{ background:#2a4a2a; border-color:#4a4; color:#8f8; }}
+#domain-panel {{
+  position:fixed; top:52px; right:16px;
+  background:rgba(8,8,15,0.95); border:1px solid #333;
+  border-radius:8px; padding:10px 12px; z-index:15;
+  display:none; max-height:70vh; overflow-y:auto;
+  min-width:200px;
+}}
+#domain-panel.open {{ display:block; }}
+#domain-panel .dp-header {{
+  display:flex; justify-content:space-between; align-items:center;
+  margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid #222;
+}}
+#domain-panel .dp-header span {{ font-size:11px; color:#888; text-transform:uppercase; letter-spacing:0.5px; }}
+#domain-panel .dp-actions {{ display:flex; gap:6px; }}
+#domain-panel .dp-actions button {{
+  background:none; border:1px solid #333; border-radius:3px;
+  color:#777; font-size:10px; padding:2px 8px; cursor:pointer;
+}}
+#domain-panel .dp-actions button:hover {{ color:#ccc; border-color:#555; }}
+#domain-panel label {{
+  display:flex; align-items:center; gap:8px;
+  padding:3px 0; font-size:12px; color:#aab; cursor:pointer;
+}}
+#domain-panel label:hover {{ color:#dde; }}
+#domain-panel label .dp-dot {{
+  width:8px; height:8px; border-radius:50%; flex-shrink:0;
+}}
+#domain-panel label input {{ display:none; }}
+#domain-panel label.hidden {{ opacity:0.3; }}
 #nav {{
   position:fixed; top:16px; left:50%; transform:translateX(-50%);
   background:rgba(8,8,15,0.9); border:1px solid #222;
@@ -777,6 +806,8 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
   #search input {{ flex:1; width:auto; }}
   #tooltip {{ display:none !important; }}
+  #domain-panel {{ top:60px; right:8px; max-height:50vh; min-width:180px; }}
+  #domain-panel label {{ font-size:13px; padding:5px 0; }}
 }}
 </style>
 </head>
@@ -789,7 +820,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 
 <div id="stats">
   <h2>{title}</h2>
-  <p>{n_topics} topics &middot; {n_edges} edges &middot; {n_domains} domains</p>
+  <p id="statsLine">{n_topics} topics &middot; {n_edges} edges &middot; {n_domains} domains</p>
   <p id="helpText">Scroll to zoom &middot; Drag to pan &middot; Hover for details</p>
   <p style="margin-top:6px; color:#444;">Inner &rarr; early childhood &nbsp;&middot;&nbsp; Outer &rarr; graduate</p>
 </div>
@@ -799,7 +830,9 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   <button onclick="zoomBtn(1.3)">+</button>
   <button onclick="zoomBtn(0.7)">&minus;</button>
   <button id="fluencyBtn" onclick="toggleFluency()">Fluency</button>
+  <button id="domainBtn" onclick="toggleDomainPanel()">Domains</button>
 </div>
+<div id="domain-panel"></div>
 <div id="tooltip"></div>
 <div id="panel"></div>
 <div id="search">
@@ -845,6 +878,69 @@ function zoomBtn(f) {{
   const r = newScale / camScale;
   camX *= r; camY *= r;  // anchor at viewport center
   camScale = newScale; draw();
+}}
+
+// --- Domain toggle ---
+const hiddenDomains = new Set();
+const domainPanel = document.getElementById('domain-panel');
+
+function buildDomainPanel() {{
+  let html = '<div class="dp-header"><span>Domains</span><div class="dp-actions">';
+  html += '<button onclick="setAllDomains(true)">All</button>';
+  html += '<button onclick="setAllDomains(false)">None</button>';
+  html += '</div></div>';
+  data.sectors.forEach(s => {{
+    html += '<label id="dp-' + s.domain + '">';
+    html += '<span class="dp-dot" style="background:hsl(' + s.hue + ',55%,50%)"></span>';
+    html += '<input type="checkbox" checked onchange="toggleDomain(\'' + s.domain + '\', this.checked)">';
+    html += s.label + '</label>';
+  }});
+  domainPanel.innerHTML = html;
+}}
+buildDomainPanel();
+
+function toggleDomainPanel() {{
+  domainPanel.classList.toggle('open');
+  document.getElementById('domainBtn').classList.toggle('active', domainPanel.classList.contains('open'));
+}}
+
+function updateStatsLine() {{
+  var vis = data.nodes.filter(n => isDomainVisible(n.domain)).length;
+  var total = data.nodes.length;
+  var domVis = data.sectors.filter(s => isDomainVisible(s.domain)).length;
+  var el = document.getElementById('statsLine');
+  if (hiddenDomains.size === 0) {{
+    el.textContent = total + ' topics \u00b7 ' + data.edges.length + ' edges \u00b7 ' + data.sectors.length + ' domains';
+  }} else {{
+    el.textContent = vis + ' / ' + total + ' topics \u00b7 ' + domVis + ' / ' + data.sectors.length + ' domains';
+  }}
+}}
+
+function toggleDomain(domain, show) {{
+  if (show) hiddenDomains.delete(domain);
+  else hiddenDomains.add(domain);
+  var lbl = document.getElementById('dp-' + domain);
+  if (lbl) lbl.classList.toggle('hidden', !show);
+  updateStatsLine();
+  draw();
+}}
+
+function setAllDomains(show) {{
+  data.sectors.forEach(s => {{
+    if (show) hiddenDomains.delete(s.domain);
+    else hiddenDomains.add(s.domain);
+    var lbl = document.getElementById('dp-' + s.domain);
+    if (lbl) {{
+      lbl.classList.toggle('hidden', !show);
+      lbl.querySelector('input').checked = show;
+    }}
+  }});
+  updateStatsLine();
+  draw();
+}}
+
+function isDomainVisible(domain) {{
+  return !hiddenDomains.has(domain);
 }}
 
 // --- Fluency overlay ---
@@ -909,6 +1005,7 @@ function draw() {{
 
   // Draw subtle sector dividers and domain labels
   data.sectors.forEach(s => {{
+    if (!isDomainVisible(s.domain)) return;
     // Sector divider
     ctx.beginPath();
     ctx.moveTo(
@@ -942,6 +1039,7 @@ function draw() {{
 
   // Draw edges
   edgeData.forEach(e => {{
+    if (!isDomainVisible(e.s.domain) || !isDomainVisible(e.t.domain)) return;
     ctx.beginPath();
     ctx.moveTo(e.s.x, e.s.y);
     ctx.lineTo(e.t.x, e.t.y);
@@ -958,6 +1056,7 @@ function draw() {{
 
   // Draw nodes
   data.nodes.forEach(n => {{
+    if (!isDomainVisible(n.domain)) return;
     ctx.beginPath();
     ctx.arc(n.x, n.y, nodeRadius, 0, Math.PI * 2);
     if (showFluency && effectiveScores) {{
@@ -986,6 +1085,7 @@ function draw() {{
     // Compute dynamic centroids from VISIBLE nodes only
     const visCourseBuckets = {{}};
     data.nodes.forEach(n => {{
+      if (!isDomainVisible(n.domain)) return;
       if (n.x < vL || n.x > vR || n.y < vT || n.y > vB) return;
       const key = n.course || "";
       if (!visCourseBuckets[key]) visCourseBuckets[key] = {{ sx: 0, sy: 0, count: 0, hue: n.hue }};
@@ -1145,10 +1245,11 @@ searchInput.addEventListener("input", () => {{
     return;
   }}
   searchMatches = data.nodes.filter(n =>
+    isDomainVisible(n.domain) && (
     n.title.toLowerCase().includes(q) ||
     n.id.toLowerCase().includes(q) ||
     n.course.toLowerCase().includes(q) ||
-    (n.tags && n.tags.some(t => t.includes(q)))
+    (n.tags && n.tags.some(t => t.includes(q))))
   );
   searchCount.textContent = searchMatches.length + " match" + (searchMatches.length !== 1 ? "es" : "");
   if (searchMatches.length === 1) {{
@@ -1192,6 +1293,7 @@ canvas.addEventListener("mousemove", (e) => {{
   const p = screenToWorld(e.clientX, e.clientY);
   let closest = null, closestDist = Infinity;
   data.nodes.forEach(n => {{
+    if (!isDomainVisible(n.domain)) return;
     const d = Math.hypot(n.x - p.x, n.y - p.y);
     if (d < closestDist) {{ closestDist = d; closest = n; }}
   }});
@@ -1464,6 +1566,7 @@ canvas.addEventListener("touchend", (e) => {{
         const p = screenToWorld(lastTouchX, lastTouchY);
         let closest = null, closestDist = Infinity;
         data.nodes.forEach(n => {{
+          if (!isDomainVisible(n.domain)) return;
           const d = Math.hypot(n.x - p.x, n.y - p.y);
           if (d < closestDist) {{ closestDist = d; closest = n; }}
         }});

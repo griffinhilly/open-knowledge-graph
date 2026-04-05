@@ -2180,6 +2180,24 @@ def generate_index_html(domains_info):
 
     MISC_DOMAINS = {"practical-life-skills"}
 
+    # Build course data JSON for client-side progress computation
+    # Includes topic IDs per course so JS can look up fluency scores
+    course_data = {}  # {domain: [{id, label, topics: [tid, ...]}, ...]}
+    for domain, info in sorted(domains_info.items()):
+        course_order = info.get("course_order", [])
+        ct = info.get("course_topics", {})
+        courses_list = []
+        for cid in course_order:
+            if cid in ct:
+                courses_list.append({
+                    "id": cid,
+                    "label": smart_title(cid),
+                    "topics": ct[cid],
+                })
+        course_data[domain] = courses_list
+
+    course_data_json = json.dumps(course_data, separators=(',', ':'))
+
     rows = ""
     misc_rows = ""
     total_topics = 0
@@ -2187,9 +2205,11 @@ def generate_index_html(domains_info):
     for domain, info in sorted(domains_info.items()):
         label = smart_title(domain)
         hue = radial_hues.get(domain, 0)
-        card = f'<a href="{domain}-map.html" class="domain-card" style="border-left:3px solid hsl({hue},60%,55%)">'
-        card += f'<h3>{label}</h3>'
-        card += f'<p>{info["topics"]} topics &middot; {info["courses"]} courses</p>'
+        n_courses = info["courses"]
+        card = f'<a href="{domain}-map.html" class="domain-card" data-domain="{domain}" style="border-left:3px solid hsl({hue},60%,55%)">'
+        card += f'<div class="dc-header"><h3>{label}</h3>'
+        card += f'<p>{info["topics"]} topics &middot; {n_courses} courses</p></div>'
+        card += f'<div class="dc-courses" id="courses-{domain}"></div>'
         card += '</a>\n'
         if domain in MISC_DOMAINS:
             misc_rows += card
@@ -2319,6 +2339,25 @@ body {{
 }}
 .domain-card h3 {{ color:#ddd; font-size:14px; margin-bottom:3px; }}
 .domain-card p {{ color:#777; font-size:11px; }}
+.dc-courses {{ margin-top:8px; display:none; }}
+.dc-courses.has-progress {{ display:block; }}
+.dc-course {{
+  display:flex; align-items:center; gap:8px;
+  margin-bottom:4px; font-size:10px; color:#888;
+}}
+.dc-course-label {{
+  flex:0 0 auto; max-width:45%; overflow:hidden;
+  text-overflow:ellipsis; white-space:nowrap;
+}}
+.dc-bar-wrap {{
+  flex:1; height:6px; background:rgba(255,255,255,0.06);
+  border-radius:3px; overflow:hidden; min-width:40px;
+}}
+.dc-bar {{
+  height:100%; border-radius:3px;
+  transition:width 0.3s ease;
+}}
+.dc-pct {{ flex:0 0 30px; text-align:right; font-size:9px; color:#666; }}
 
 /* Footer */
 .footer {{
@@ -2466,6 +2505,48 @@ body {{
     showStatus('Progress reset. Reloading...', true);
     setTimeout(function() {{ location.reload(); }}, 800);
   }});
+
+  // --- Course-level progress bars ---
+  var courseData = {course_data_json};
+  var radialHues = {json.dumps(radial_hues)};
+  var scores;
+  try {{ scores = JSON.parse(localStorage.getItem('okg-fluency') || '{{}}'); }} catch(e) {{ scores = {{}}; }}
+
+  Object.keys(courseData).forEach(function(domain) {{
+    var container = document.getElementById('courses-' + domain);
+    if (!container) return;
+    var courses = courseData[domain];
+    var hue = radialHues[domain] || 0;
+    var domainHasProgress = false;
+    var html = '';
+
+    courses.forEach(function(c) {{
+      var topics = c.topics;
+      var total = topics.length;
+      if (total === 0) return;
+      var scoreSum = 0;
+      var tracked = 0;
+      topics.forEach(function(tid) {{
+        var s = scores[tid];
+        if (s && s > 0) {{ scoreSum += s; tracked++; }}
+      }});
+      var avg = tracked > 0 ? Math.round(scoreSum / total) : 0;
+      if (tracked > 0) domainHasProgress = true;
+      var barColor = avg > 0
+        ? 'hsl(' + hue + ',' + Math.min(40 + avg * 0.4, 80) + '%,' + Math.min(35 + avg * 0.25, 60) + '%)'
+        : 'transparent';
+      html += '<div class="dc-course">';
+      html += '<span class="dc-course-label">' + c.label + '</span>';
+      html += '<span class="dc-bar-wrap"><span class="dc-bar" style="width:' + avg + '%;background:' + barColor + '"></span></span>';
+      html += '<span class="dc-pct">' + (avg > 0 ? avg + '%' : '') + '</span>';
+      html += '</div>';
+    }});
+
+    if (domainHasProgress) {{
+      container.innerHTML = html;
+      container.classList.add('has-progress');
+    }}
+  }});
 }})();
 </script>
 
@@ -2493,10 +2574,21 @@ def main():
             nodes, edges = load_graph(domain_filter=domain)
             if not nodes:
                 continue
+            # Collect per-course topic IDs for progress bars
+            course_topics = {}
+            for ndata in nodes:
+                c = ndata.get("course", "")
+                tid = ndata.get("id", "")
+                if c and tid:
+                    if c not in course_topics:
+                        course_topics[c] = []
+                    course_topics[c].append(tid)
             domains_info[domain] = {
                 "topics": len(nodes),
                 "edges": len(edges),
                 "courses": len(course_ids),
+                "course_topics": course_topics,
+                "course_order": course_ids,
             }
 
             # Generate per-domain hierarchy HTMLs (skip in index-only mode)
