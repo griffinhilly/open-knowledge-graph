@@ -1,6 +1,6 @@
 # Open Knowledge Graph Memory
 
-## Status (Apr 4, 2026)
+## Status (Apr 5, 2026)
 - **15,304 topics** across **19 domains**, **261 courses** (16 literature courses)
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **Radial graph shows 18 domains** (practical-life-skills excluded — kept on index/domain maps)
@@ -15,7 +15,7 @@
 - **Early-Childhood expansion (Apr 4)**: +358 topics, 12 new courses across 7 domains. Music (3 courses: Musical Play & Listening, Rhythm & Song, Listening & Musical Elements), Literature (2: First Stories & Read-Alouds, Reading & Understanding Stories), Psychology (3: Feelings & Self-Awareness, Understanding Self & Others, Growing Up & Getting Along), History (Then & Now), Philosophy (Wondering & Thinking), Social Sciences (My Community & World), Arts (Creative Play & Expression). All with Q+E.
 - **14 near-duplicate pairs** in literature courses — need dedup pass.
 - **~7 topics with stripped Questions sections** across other domains (broken YAML, need regeneration).
-- **Cross-domain prereq audit pending** for Phase 11 courses — currently self-contained, no links to existing domain content.
+- **Cross-domain prereq audit DONE** (Apr 5): Phase 11 generation already created 67 connections. Audit added 7 gap-filling bridges (music chord concepts, arts color/pattern, literature narrative structure). Total: 74 cross-course connections.
 
 ## 6-Stage Schema (Mar 22, 2026)
 - **Added "expert" stage** for graduate/research content (2,662 topics)

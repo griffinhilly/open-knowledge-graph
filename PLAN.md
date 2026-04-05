@@ -4,16 +4,9 @@
 
 **15,304 topics** across 19 domains, **261 courses** (16 literature courses). Radial graph shows 18 domains (practical-life-skills excluded).
 
-**Last session (Apr 4, 2026):**
-- *Phase 11: Early-Childhood Expansion DONE*: 358 new topics across 12 new courses in 7 domains. All with Q+E.
-  - Music: Musical Play & Listening (30, pre-formal), Rhythm & Song (32, concrete-ops), Listening & Musical Elements (32, abstract-reasoning)
-  - Literature: First Stories & Read-Alouds (28, pre-formal), Reading & Understanding Stories (32, concrete-ops)
-  - Psychology: Feelings & Self-Awareness (28, pre-formal), Understanding Self & Others (32, concrete-ops), Growing Up & Getting Along (32, abstract-reasoning)
-  - History: Then & Now (28, concrete-ops)
-  - Philosophy: Wondering & Thinking (28, concrete-ops)
-  - Social Sciences: My Community & World (28, concrete-ops)
-  - Arts & Aesthetics: Creative Play & Expression (28, pre-formal)
-- Fixed 7 encoding errors, 15 YAML quoting errors, 2 duplicate ID collisions during generation.
+**Last session (Apr 5, 2026):**
+- *Cross-domain prerequisite audit DONE*: Phase 11 generation already created 67 bidirectional connections. Audit added 7 gap-filling bridges in music (chord concepts → music theory), arts (color/pattern → visual elements), literature (narrative structure). All soft prereqs. Validation clean (0 errors, 0 cycles).
+- Extracted shared `tools/parse_topic.py` module, refactored 8 CI tools to use it.
 
 **Known issues:**
 - **~14 near-duplicate pairs** in literature courses (from Phase 10.5 double-generation). Low priority.
@@ -21,13 +14,10 @@
 - **Upstream over-staging**: Chemistry agent flagged physics/chemistry foundation topics. Targeted pass recommended.
 - Index page + quiz not yet mobile-optimized
 - Radial mouse/touch handler duplication
-- **CI deployment failure** (Apr 3) — investigating
 
 **Next steps:**
-1. **Fix CI deployment failure**
-2. **Cross-domain prerequisite audit** for Phase 11 courses (link early-childhood courses to existing content where appropriate)
-3. **Phase 9D** (remaining): domain toggle on radial, progress bars, guided learning paths
-4. Write announcement post
+1. **Phase 9D** (remaining): domain toggle on radial, progress bars, guided learning paths
+2. Write announcement post
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)
