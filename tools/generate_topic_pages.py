@@ -48,40 +48,15 @@ DOMAIN_HUES = {
 }
 
 
+from parse_topic import parse_topic, parse_sections
+
+
 def parse_topic_file(filepath):
     """Parse frontmatter and body sections from a topic markdown file."""
-    text = filepath.read_text(encoding="utf-8")
-    match = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
-    if not match:
+    data, body = parse_topic(filepath)
+    if data is None:
         return None, {}
-
-    try:
-        data = yaml.safe_load(match.group(1))
-    except yaml.YAMLError:
-        return None, {}
-
-    body = text[match.end():]
-
-    # Parse body into sections
-    sections = {}
-    current_section = None
-    current_lines = []
-
-    for line in body.splitlines():
-        header_match = re.match(r"^##\s+(.+)$", line)
-        if header_match:
-            if current_section:
-                sections[current_section] = "\n".join(current_lines).strip()
-            current_section = header_match.group(1).strip()
-            current_lines = []
-        elif current_section:
-            current_lines.append(line)
-        # Skip lines before first section header (usually just the H1 title)
-
-    if current_section:
-        sections[current_section] = "\n".join(current_lines).strip()
-
-    return data, sections
+    return data, parse_sections(body)
 
 
 def load_all_topics():

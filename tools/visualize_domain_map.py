@@ -148,16 +148,12 @@ def smart_title(slug):
     return " ".join(w if w[0].isdigit() else w.capitalize() for w in words if w)
 
 
+from parse_topic import parse_frontmatter as _raw_parse
+
+
 def parse_frontmatter(filepath):
-    try:
-        text = filepath.read_text(encoding="utf-8")
-    except Exception:
-        return None
-    m = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
-    if not m:
-        return None
-    raw = yaml.safe_load(m.group(1))
-    if not isinstance(raw, dict) or "id" not in raw:
+    raw = _raw_parse(filepath)
+    if not raw or "id" not in raw:
         return None
     data = {}
     for field in ("id", "title", "domain", "course", "stage"):

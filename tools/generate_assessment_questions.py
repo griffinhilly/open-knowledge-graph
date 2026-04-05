@@ -52,29 +52,7 @@ DEEP_DIVE_MAX_PER_DOMAIN_STAGE = 10
 # Parsing
 # ---------------------------------------------------------------------------
 
-def parse_frontmatter(filepath):
-    """Extract YAML frontmatter and body from a topic file."""
-    text = filepath.read_text(encoding="utf-8")
-    match = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)", text, re.DOTALL)
-    if not match:
-        return None, ""
-    try:
-        data = yaml.safe_load(match.group(1))
-        return data, match.group(2)
-    except yaml.YAMLError:
-        return None, ""
-
-
-def extract_questions(body):
-    """Extract questions from ## Questions YAML code block."""
-    match = re.search(r"## Questions\s*\n+```yaml\s*\n(.*?)```", body, re.DOTALL)
-    if not match:
-        return []
-    try:
-        questions = yaml.safe_load(match.group(1))
-        return questions if isinstance(questions, list) else []
-    except yaml.YAMLError:
-        return []
+from parse_topic import parse_topic as parse_frontmatter, extract_questions
 
 
 # ---------------------------------------------------------------------------

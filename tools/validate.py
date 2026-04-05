@@ -28,6 +28,8 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 DOMAINS_DIR = ROOT / "domains"
 
+from parse_topic import parse_topic as _shared_parse
+
 REQUIRED_FIELDS = {"id", "title", "domain", "course", "prerequisites"}
 VALID_STATUSES = {"stub", "draft", "review", "validated"}
 VALID_STAGES = {"pre-formal", "concrete-operations", "abstract-reasoning", "formal-systems", "advanced", "expert"}
@@ -51,20 +53,22 @@ def warn(filepath, msg):
 
 def parse_frontmatter(filepath):
     """Extract YAML frontmatter from a Markdown file."""
+    data, _ = _shared_parse(filepath)
+    if data is not None:
+        return data
+    # Shared parse returned None — re-read to produce specific error messages
     text = filepath.read_text(encoding="utf-8")
     match = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
     if not match:
         error(filepath, "No YAML frontmatter found (must start with ---)")
         return None
     try:
-        data = yaml.safe_load(match.group(1))
+        yaml.safe_load(match.group(1))
     except yaml.YAMLError as e:
         error(filepath, f"Invalid YAML: {e}")
         return None
-    if not isinstance(data, dict):
-        error(filepath, "Frontmatter is not a YAML mapping")
-        return None
-    return data
+    error(filepath, "Frontmatter is not a YAML mapping")
+    return None
 
 
 def validate_questions(filepath, text, warnings_only=False):

@@ -174,15 +174,7 @@ def load_all_domain_configs():
     return configs
 
 
-def parse_frontmatter(filepath):
-    text = filepath.read_text(encoding="utf-8")
-    match = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
-    if not match:
-        return None
-    try:
-        return yaml.safe_load(match.group(1))
-    except yaml.YAMLError:
-        return None
+from parse_topic import parse_frontmatter
 
 
 def get_topic_stage(data, configs):

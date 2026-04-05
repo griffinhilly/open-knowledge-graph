@@ -53,18 +53,7 @@ FRONTIER_CHAINS_PER_DOMAIN = 3
 # Loading & graph construction
 # ---------------------------------------------------------------------------
 
-def parse_frontmatter(filepath):
-    """Extract YAML frontmatter and body text from a topic file."""
-    text = filepath.read_text(encoding="utf-8")
-    match = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)", text, re.DOTALL)
-    if not match:
-        return None, ""
-    try:
-        data = yaml.safe_load(match.group(1))
-        body = match.group(2)
-        return data, body
-    except yaml.YAMLError:
-        return None, ""
+from parse_topic import parse_topic as parse_frontmatter
 
 
 def extract_core_idea(body):
