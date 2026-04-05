@@ -1,6 +1,6 @@
 ---
 id: color-mixing
-title: Color Mixing
+title: Advanced Color Mixing
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
 prerequisites:
@@ -20,7 +20,7 @@ stage: pre-formal
 status: validated
 ---
 
-# Color Mixing
+# Advanced Color Mixing
 
 ## Core Idea
 Color mixing is the process of combining pigments (or light) to produce new colors. Subtractive mixing — used with paints and inks — means pigments absorb certain wavelengths of light, and mixing them produces darker results (mixing all colors approaches black). Additive mixing — used with light — means colors add brightness, and mixing all primaries produces white. Understanding which model applies to your medium prevents confusion when mixing behaves unexpectedly.
