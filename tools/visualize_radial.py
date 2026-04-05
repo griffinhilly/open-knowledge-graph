@@ -888,9 +888,14 @@ function toggleFluency() {{
   draw();
 }}
 
-const nodeRadius = Math.max(2, Math.min(4, 1600 / data.nodes.length));
+const baseNodeRadius = Math.max(2, Math.min(4, 1600 / data.nodes.length));
+// Damped zoom scaling: world-space radius shrinks as you zoom in,
+// so screen-space size grows as sqrt(camScale) instead of linearly.
+// At 10x zoom, nodes appear ~3.16x larger instead of 10x.
+function getNodeRadius() {{ return baseNodeRadius / Math.sqrt(camScale); }}
 
 function draw() {{
+  const nodeRadius = getNodeRadius();
   ctx.save();
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   ctx.clearRect(0, 0, W, H);
@@ -972,7 +977,7 @@ function draw() {{
     ctx.fill();
     if (showFluency && frontierSet && frontierSet.has(n.id)) {{
       ctx.strokeStyle = "rgba(255,200,50,0.9)";
-      ctx.lineWidth = 1.5;
+      ctx.lineWidth = 1.5 / Math.sqrt(camScale);
       ctx.stroke();
     }}
   }});
@@ -1058,16 +1063,17 @@ function draw() {{
       ctx.fillStyle = `hsl(${{n.hue}}, 80%, ${{n.lightness + 15}}%)`;
       ctx.fill();
       ctx.strokeStyle = "rgba(255,255,100,0.8)";
-      ctx.lineWidth = 1.5;
+      ctx.lineWidth = 1.5 / Math.sqrt(camScale);
       ctx.stroke();
     }});
     // Label single match
     if (searchMatches.length <= 5) {{
+      const searchFontSize = Math.max(3, Math.round(9 / Math.sqrt(camScale)));
       searchMatches.forEach(n => {{
-        ctx.font = "bold 9px sans-serif";
+        ctx.font = `bold ${{searchFontSize}}px sans-serif`;
         ctx.fillStyle = "#fff";
         ctx.textAlign = "center";
-        ctx.fillText(n.title, n.x, n.y - nodeRadius * 4 - 3);
+        ctx.fillText(n.title, n.x, n.y - nodeRadius * 4 - 3 / Math.sqrt(camScale));
       }});
     }}
   }}
@@ -1077,6 +1083,7 @@ function draw() {{
 }}
 
 function drawHighlight(node) {{
+  const nodeRadius = getNodeRadius();
   // Highlight connected edges (blue=prereqs, orange=dependents)
   edgeData.forEach(ed => {{
     if (ed.s === node || ed.t === node) {{
@@ -1086,7 +1093,7 @@ function drawHighlight(node) {{
       ctx.strokeStyle = ed.t === node
         ? "rgba(80,180,255,0.6)"
         : "rgba(255,160,80,0.6)";
-      ctx.lineWidth = 1.2;
+      ctx.lineWidth = 1.2 / Math.sqrt(camScale);
       ctx.stroke();
     }}
   }});
@@ -1100,7 +1107,7 @@ function drawHighlight(node) {{
       ctx.fillStyle = `hsl(${{other.hue}}, 70%, ${{other.lightness + 12}}%)`;
       ctx.fill();
       ctx.strokeStyle = "rgba(255,255,255,0.3)";
-      ctx.lineWidth = 0.6;
+      ctx.lineWidth = 0.6 / Math.sqrt(camScale);
       ctx.stroke();
     }}
   }});
@@ -1111,14 +1118,15 @@ function drawHighlight(node) {{
   ctx.fillStyle = `hsl(${{node.hue}}, 80%, ${{node.lightness + 20}}%)`;
   ctx.fill();
   ctx.strokeStyle = "#fff";
-  ctx.lineWidth = 1.5;
+  ctx.lineWidth = 1.5 / Math.sqrt(camScale);
   ctx.stroke();
 
-  // Label
-  ctx.font = "bold 9px sans-serif";
+  // Label — damped font size so it doesn't balloon at high zoom
+  const labelFontSize = Math.max(3, Math.round(9 / Math.sqrt(camScale)));
+  ctx.font = `bold ${{labelFontSize}}px sans-serif`;
   ctx.fillStyle = "#fff";
   ctx.textAlign = "center";
-  ctx.fillText(node.title, node.x, node.y - nodeRadius * 4 - 3);
+  ctx.fillText(node.title, node.x, node.y - nodeRadius * 4 - 3 / Math.sqrt(camScale));
 }}
 
 // --- Mouse interaction ---
@@ -1196,7 +1204,7 @@ canvas.addEventListener("mousemove", (e) => {{
     if (d < closestDist) {{ closestDist = d; closest = n; }}
   }});
 
-  const hitRadius = Math.max(nodeRadius * 2.5, 12) / camScale;
+  const hitRadius = Math.max(baseNodeRadius * 2.5, 12) / camScale;
   if (closest && closestDist < hitRadius) {{
     if (hoveredNode !== closest) {{
       hoveredNode = closest;
@@ -1274,11 +1282,17 @@ function showPanel(node, screenX, screenY) {{
 
   panel.innerHTML = html;
   panel.style.display = "block";
+  // Scale panel down at high zoom so it doesn't dominate the viewport
+  const panelScale = camScale > 2 ? Math.max(0.55, 1 / Math.log2(camScale)) : 1;
+  panel.style.transformOrigin = "top left";
+  panel.style.transform = panelScale < 1 ? `scale(${{panelScale.toFixed(2)}})` : "";
   if (W > 768) {{
     // Position panel near click but keep on screen
+    const effectiveW = 380 * panelScale;
+    const effectiveH = 300 * panelScale;
     let px = screenX + 20, py = screenY - 20;
-    if (px + 400 > W) px = screenX - 400;
-    if (py + 300 > H) py = H - 300;
+    if (px + effectiveW > W) px = screenX - effectiveW;
+    if (py + effectiveH > H) py = H - effectiveH;
     if (py < 10) py = 10;
     panel.style.left = px + "px";
     panel.style.top = py + "px";
@@ -1461,7 +1475,7 @@ canvas.addEventListener("touchend", (e) => {{
           const d = Math.hypot(n.x - p.x, n.y - p.y);
           if (d < closestDist) {{ closestDist = d; closest = n; }}
         }});
-        const hitRadius = Math.max(nodeRadius * 3, 18) / camScale;
+        const hitRadius = Math.max(baseNodeRadius * 3, 18) / camScale;
         if (closest && closestDist < hitRadius) {{
           hoveredNode = closest;
           draw();
