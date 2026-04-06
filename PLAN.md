@@ -8,6 +8,9 @@
 - *Cross-domain prerequisite audit DONE*: Phase 11 generation already created 67 bidirectional connections. Audit added 7 gap-filling bridges in music (chord concepts → music theory), arts (color/pattern → visual elements), literature (narrative structure). All soft prereqs. Validation clean (0 errors, 0 cycles).
 - Extracted shared `tools/parse_topic.py` module, refactored 8 CI tools to use it.
 
+**Last session (Apr 5, 2026):**
+- Extracted shared `tools/parse_topic.py` module, refactored 8 CI tools to use it. Commit `38b8f6423`, pushed — CI deploying.
+
 **Known issues:**
 - **~14 near-duplicate pairs** in literature courses (from Phase 10.5 double-generation). Low priority.
 - **~2,550 T/F questions** with hedging language — ~1-3% arguable. Low priority.
@@ -275,7 +278,7 @@ Transform OKG from a static knowledge map into an interactive learning tool. Ins
 
 ### Phase 9D: Landing Page + Polish
 - [ ] Redesign index page: "Explore the Map" vs "Personalize Your Map"
-- [ ] "Show Domains" toggle on radial graph (collapse dots to labeled domain nodes)
+- [x] Removed "Domains" toggle from radial graph (low utility, took mobile real estate) — Apr 6, 2026
 - [ ] Course-level progress bars on hierarchy views and index page
 - [ ] Guided learning paths (topological sort of uncompleted topics, goal-directed pathfinding)
 - [ ] "Why this topic?" tooltips (downstream fan-out, goal dependencies)
