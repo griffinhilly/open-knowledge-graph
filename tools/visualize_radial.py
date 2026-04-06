@@ -892,7 +892,7 @@ function buildDomainPanel() {{
   data.sectors.forEach(s => {{
     html += '<label id="dp-' + s.domain + '">';
     html += '<span class="dp-dot" style="background:hsl(' + s.hue + ',55%,50%)"></span>';
-    html += '<input type="checkbox" checked onchange="toggleDomain(\'' + s.domain + '\', this.checked)">';
+    html += '<input type="checkbox" checked onchange="toggleDomain(\\'' + s.domain + '\\', this.checked)">';
     html += s.label + '</label>';
   }});
   domainPanel.innerHTML = html;
