@@ -799,7 +799,6 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   <button onclick="zoomBtn(1.3)">+</button>
   <button onclick="zoomBtn(0.7)">&minus;</button>
   <button id="fluencyBtn" onclick="toggleFluency()">Fluency</button>
-
 </div>
 <div id="tooltip"></div>
 <div id="panel"></div>
@@ -847,10 +846,6 @@ function zoomBtn(f) {{
   camX *= r; camY *= r;  // anchor at viewport center
   camScale = newScale; draw();
 }}
-
-function isDomainVisible() {{ return true;
-}}
-
 
 // --- Fluency overlay ---
 let showFluency = false;
@@ -914,7 +909,6 @@ function draw() {{
 
   // Draw subtle sector dividers and domain labels
   data.sectors.forEach(s => {{
-    if (!isDomainVisible(s.domain)) return;
     // Sector divider
     ctx.beginPath();
     ctx.moveTo(
@@ -948,7 +942,6 @@ function draw() {{
 
   // Draw edges
   edgeData.forEach(e => {{
-    if (!isDomainVisible(e.s.domain) || !isDomainVisible(e.t.domain)) return;
     ctx.beginPath();
     ctx.moveTo(e.s.x, e.s.y);
     ctx.lineTo(e.t.x, e.t.y);
@@ -965,7 +958,6 @@ function draw() {{
 
   // Draw nodes
   data.nodes.forEach(n => {{
-    if (!isDomainVisible(n.domain)) return;
     ctx.beginPath();
     ctx.arc(n.x, n.y, nodeRadius, 0, Math.PI * 2);
     if (showFluency && effectiveScores) {{
@@ -994,7 +986,6 @@ function draw() {{
     // Compute dynamic centroids from VISIBLE nodes only
     const visCourseBuckets = {{}};
     data.nodes.forEach(n => {{
-      if (!isDomainVisible(n.domain)) return;
       if (n.x < vL || n.x > vR || n.y < vT || n.y > vB) return;
       const key = n.course || "";
       if (!visCourseBuckets[key]) visCourseBuckets[key] = {{ sx: 0, sy: 0, count: 0, hue: n.hue }};
@@ -1154,11 +1145,10 @@ searchInput.addEventListener("input", () => {{
     return;
   }}
   searchMatches = data.nodes.filter(n =>
-    isDomainVisible(n.domain) && (
     n.title.toLowerCase().includes(q) ||
     n.id.toLowerCase().includes(q) ||
     n.course.toLowerCase().includes(q) ||
-    (n.tags && n.tags.some(t => t.includes(q))))
+    (n.tags && n.tags.some(t => t.includes(q)))
   );
   searchCount.textContent = searchMatches.length + " match" + (searchMatches.length !== 1 ? "es" : "");
   if (searchMatches.length === 1) {{
@@ -1202,7 +1192,6 @@ canvas.addEventListener("mousemove", (e) => {{
   const p = screenToWorld(e.clientX, e.clientY);
   let closest = null, closestDist = Infinity;
   data.nodes.forEach(n => {{
-    if (!isDomainVisible(n.domain)) return;
     const d = Math.hypot(n.x - p.x, n.y - p.y);
     if (d < closestDist) {{ closestDist = d; closest = n; }}
   }});
@@ -1475,7 +1464,6 @@ canvas.addEventListener("touchend", (e) => {{
         const p = screenToWorld(lastTouchX, lastTouchY);
         let closest = null, closestDist = Infinity;
         data.nodes.forEach(n => {{
-          if (!isDomainVisible(n.domain)) return;
           const d = Math.hypot(n.x - p.x, n.y - p.y);
           if (d < closestDist) {{ closestDist = d; closest = n; }}
         }});
