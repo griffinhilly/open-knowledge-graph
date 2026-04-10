@@ -118,10 +118,23 @@ def main():
                 "questionCount": count,
             })
 
+        # Build topicIndex: {domain: {stage: [topicId, ...]}} for post-assessment inference
+        # Include ALL topics in the domain (not just those with questions)
+        topic_index = defaultdict(list)
+        for filepath in sorted(domain_dir.rglob("*.md")):
+            if filepath.name.startswith("_"):
+                continue
+            data, _ = parse_frontmatter(filepath)
+            if not data or "id" not in data:
+                continue
+            st = data.get("stage", "formal-systems")
+            topic_index[st].append(data["id"])
+
         output = {
             "domain": domain,
             "courses": courses_out,
             "questions": questions,
+            "topicIndex": {domain: dict(topic_index)},
         }
 
         out_path = OUTPUT_DIR / f"{domain}.json"

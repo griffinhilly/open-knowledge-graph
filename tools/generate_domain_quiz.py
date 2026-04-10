@@ -566,57 +566,31 @@ function finishQuiz() {
 }
 
 function applyStageFloors() {
-  if (typeof OKGFluency === 'undefined' || S.answers.length === 0) return;
+  if (typeof OKGFluency === 'undefined' || S.answers.length === 0 || !DATA.topicIndex) return;
 
-  // Calculate accuracy per stage
-  const byStage = {};
+  // Build domainPerformance: {domain: {stage: {correct, total}}}
+  const stagePerf = {};
+  stagePerf[DOMAIN] = {};
   for (const a of S.answers) {
-    if (!byStage[a.stage]) byStage[a.stage] = {correct: 0, total: 0};
-    byStage[a.stage].total++;
-    if (a.correct) byStage[a.stage].correct++;
+    if (!stagePerf[DOMAIN][a.stage]) stagePerf[DOMAIN][a.stage] = {correct: 0, total: 0};
+    stagePerf[DOMAIN][a.stage].total++;
+    if (a.correct) stagePerf[DOMAIN][a.stage].correct++;
   }
 
-  // Find highest stage with >= 60% accuracy
+  // Use the centralized inference engine
+  const result = OKGFluency.postAssessmentInference(stagePerf, DATA.topicIndex);
+
+  S._inferred = result.topicsInferred;
+
+  // Find highest demonstrated stage for display
   let highestDemonstrated = -1;
   for (let i = 0; i < STAGES_ORDERED.length; i++) {
-    const sp = byStage[STAGES_ORDERED[i]];
-    if (sp && sp.total >= 2 && sp.correct / sp.total >= 0.6) {
+    const sp = stagePerf[DOMAIN][STAGES_ORDERED[i]];
+    if (sp && sp.correct >= 1) {
       highestDemonstrated = i;
     }
   }
-
-  if (highestDemonstrated < 1) return; // nothing to infer
-
-  // Set floors for all stages below the demonstrated level
-  // For each topic in DATA that belongs to a stage below demonstrated,
-  // set a minimum fluency score
-  const FLOOR_SCORES = [95, 90, 80, 70, 55, 40]; // per stage index
-
-  const scores = OKGFluency.loadScores();
-  let inferred = 0;
-
-  for (const q of DATA.questions) {
-    const stageIdx = STAGES_ORDERED.indexOf(q.stage);
-    if (stageIdx < 0 || stageIdx >= highestDemonstrated) continue;
-    // Only infer for courses that were selected (or all if they tested broadly)
-    if (S.selectedCourses.size < DATA.courses.length &&
-        !S.selectedCourses.has(q.course)) continue;
-
-    const floor = FLOOR_SCORES[stageIdx] || 50;
-    const current = scores[q.topicId] || 0;
-    if (current < floor) {
-      scores[q.topicId] = floor;
-      inferred++;
-    }
-  }
-
-  if (inferred > 0) {
-    // Use bulkSetScores to persist
-    OKGFluency.bulkSetScores(scores);
-  }
-
-  S._inferred = inferred;
-  S._highestStage = STAGES_ORDERED[highestDemonstrated];
+  S._highestStage = highestDemonstrated >= 0 ? STAGES_ORDERED[highestDemonstrated] : null;
 }
 
 function renderResults() {
