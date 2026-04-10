@@ -4,7 +4,7 @@ title: 'Historical Fiction in YA: Research, Voice, and Authenticity'
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: historical-fiction-research-imagination
+- id: historical-fiction-research-invention
   type: hard
 tags:
 - ya

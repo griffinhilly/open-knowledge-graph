@@ -7,7 +7,7 @@ prerequisites:
 - id: postmodernism-metafiction-self-reflexivity
   type: hard
 builds-toward:
-- ai-authorship-originality-debate
+- ai-generation-authorship-originality-debate
 tags:
 - ai
 - neural-networks

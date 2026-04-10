@@ -21,25 +21,22 @@ ROOT = Path(__file__).resolve().parent.parent
 DOMAINS_DIR = ROOT / "domains"
 
 # (delete_id, keep_id) — from duplicate analysis
-# Round 5: 8 normalized-match pairs + 7 philosophy-of-science semantic duplicates
+# Round 6: 14 literature domain duplicates (Phase 10.5 double-generation)
 DEDUP_PAIRS = [
-    # --- normalized-match pairs (8) ---
-    ("gravimetric-analysis-advanced", "gravimetric-analysis"),
-    ("generating-functions-basics", "generating-functions-intro"),
-    ("graph-theory-fundamentals", "graph-theory-intro"),
-    ("partial-derivatives-basics", "partial-derivatives"),
-    ("conditional-probability-fundamentals", "conditional-probability"),
-    ("continuous-random-variables-basics", "continuous-random-variables"),
-    ("discrete-random-variables-basics", "discrete-random-variables"),
-    ("metric-modulation-theory-advanced", "metric-modulation-theory"),
-    # --- philosophy-of-science semantic duplicates (7) ---
-    ("logical-positivism-and-vienna-circle", "logical-positivism"),
-    ("problem-of-demarcation", "demarcation-problem-science"),
-    ("causal-explanation-theories", "causal-explanation-science"),
-    ("normal-science-versus-crisis", "normal-science-anomalies"),
-    ("verificationism-principle-meaning", "verification-principle-and-meaningfulness"),
-    ("unificationist-theories-of-explanation", "unification-model-explanation"),
-    ("paul-feyerabend-pluralism", "feyerabend-methodology-anarchy"),
+    ("children-boarding-school-narrative-tradition", "boarding-school-narrative-tradition"),
+    ("fairy-tale-retelling-contemporary-children", "fairy-tale-retellings-contemporary-children"),
+    ("world-literature-debates-critical", "world-literature-debates"),
+    ("ai-authorship-originality-debate", "ai-generation-authorship-originality-debate"),
+    ("apollinaire-calligrammes-shaped-form", "apollinaire-calligrammes"),
+    ("branching-narrative-choice-design", "branching-narrative-choice"),
+    ("generative-poetry-algorithmic", "generative-poetry-algorithms-text"),
+    ("inform-language-authoring", "inform-language-fiction-authoring"),
+    ("narrative-voice-and-authorial-style", "narrative-voice"),
+    ("historical-fiction-research-imagination", "historical-fiction-research-invention"),
+    ("space-opera-galactic-epic-scale", "space-opera-galactic-scale"),
+    ("literary-argument-thesis-development", "literary-argument-thesis"),
+    ("concrete-poetry", "concrete-poetry-visual"),
+    ("arabian-nights-frame-narrative-storytelling", "arabian-nights-frame"),
 ]
 
 

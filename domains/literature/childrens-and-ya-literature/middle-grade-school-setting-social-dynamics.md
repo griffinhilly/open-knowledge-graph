@@ -7,7 +7,7 @@ prerequisites:
 - id: middle-grade-fiction-conventions
   type: hard
 builds-toward:
-- children-boarding-school-narrative-tradition
+- boarding-school-narrative-tradition
 tags:
 - middle-grade
 - school-setting

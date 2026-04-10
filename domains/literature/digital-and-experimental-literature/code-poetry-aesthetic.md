@@ -6,8 +6,6 @@ course: digital-and-experimental-literature
 prerequisites:
 - id: postmodernism-metafiction-self-reflexivity
   type: hard
-- id: generative-poetry-algorithmic
-  type: soft
 tags:
 - code
 - poetry

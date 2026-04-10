@@ -7,7 +7,7 @@ prerequisites:
 - id: arabic-poetry-classical-forms-tradition
   type: soft
 builds-toward:
-- arabian-nights-frame-narrative-storytelling
+- arabian-nights-frame
 tags:
 - arabic-literature
 - narrative

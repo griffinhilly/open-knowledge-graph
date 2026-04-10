@@ -41,3 +41,45 @@ Consider two conversations. In the first, you're chatting with a friend: "Does S
 This is the **content-sensitivity** thesis: the very *content* of the knowledge claim — what proposition it expresses — varies with context. This distinguishes contextualism from the simpler view that "knows" always means the same thing but that people apply it loosely in ordinary life. On the contextualist view, there is no loose application — in a low-standards context, "Sarah knows the bank is open" is *literally true*; in a high-standards context, it may be *literally false*. The standards built into the context are part of the semantic content of the sentence.
 
 Why does this matter? It offers a solution to a persistent puzzle: **the skeptical problem**. In a philosophy seminar, when you entertain skeptical hypotheses (you might be a brain in a vat; your memories might be unreliable), you seem forced to say that you don't know much of anything. But in daily life, you know all kinds of things. Contextualism says both intuitions are correct — in different contexts. The skeptic raises the epistemic standards to an extreme level, making ordinary knowledge attributions false in that context. But this doesn't destabilize your ordinary knowledge claims, which are made and evaluated at normal, lower standards. The content of "know" in the seminar is simply different from its content at the breakfast table. Contextualism thus defuses skepticism without having to refute the skeptical arguments directly.
+
+## Questions
+
+- id: contextualism-content-sensitivity-q1
+  type: mc
+  question: "What does the 'content-sensitivity' thesis claim about the word 'knows'?"
+  options:
+    - "The word 'knows' has a fixed meaning but people apply it loosely in everyday life"
+    - "The very proposition expressed by a knowledge claim varies depending on the conversational context"
+    - "Knowledge claims are always false because standards can never be fully met"
+    - "The word 'knows' is meaningless without a formal definition agreed upon by all speakers"
+  correct: 1
+  explanation: "Content-sensitivity means the semantic content of 'knows' — the proposition it expresses — shifts with context. In a low-standards context, a knowledge claim can be literally true, while the same sentence in a high-standards context can be literally false."
+
+- id: contextualism-content-sensitivity-q2
+  type: mc
+  question: "How does contextualism address the skeptical problem?"
+  options:
+    - "By proving that skeptical arguments are logically invalid"
+    - "By showing that skeptics use the word 'know' incorrectly"
+    - "By arguing that both ordinary knowledge claims and skeptical doubts are correct in their respective contexts"
+    - "By rejecting the possibility of knowledge entirely"
+  correct: 2
+  explanation: "Contextualism says the skeptic raises epistemic standards to an extreme level, making knowledge attributions false in that context. But ordinary knowledge claims are evaluated at normal, lower standards where they are literally true. Both are correct in their own contexts."
+
+- id: contextualism-content-sensitivity-q3
+  type: tf
+  question: "According to contextualism, when someone says 'Sarah knows the bank is open' in a low-stakes context, the statement can be literally true even though it would be literally false in a high-stakes context."
+  correct: true
+  explanation: "This is exactly the content-sensitivity thesis: the standards for 'knows' are part of the semantic content set by the conversational context, so the same sentence can be literally true in one context and literally false in another."
+
+- id: contextualism-content-sensitivity-q4
+  type: tf
+  question: "Contextualism holds that knowledge is merely subjective — it exists only in the mind of the person making the claim."
+  correct: false
+  explanation: "Context sensitivity does not mean subjectivity. Contextualism holds that the standards for knowledge vary with the conversational context of the attributor, not that knowledge itself is subjective or imaginary. The standards are public features of the conversational situation."
+
+- id: contextualism-content-sensitivity-q5
+  type: sa
+  question: "What term describes the type of expression that 'knows' is, according to contextualism, whose meaning shifts depending on conversational situation?"
+  correct: "context-sensitive expression"
+  explanation: "Contextualism treats 'knows' as a context-sensitive expression — one whose content (what it actually means) shifts depending on the conversational situation in which it is used, similar to indexicals like 'I' or 'here.'"

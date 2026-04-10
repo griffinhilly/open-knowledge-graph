@@ -6,7 +6,7 @@ course: fiction
 prerequisites:
 - id: show-tell-narrative-technique
   type: soft
-- id: narrative-voice-and-authorial-style
+- id: narrative-voice
   type: soft
 - id: sentence-variety-and-rhythm
   type: soft

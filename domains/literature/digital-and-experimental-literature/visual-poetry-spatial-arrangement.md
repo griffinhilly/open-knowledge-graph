@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - visual-poetry
 - spatial-form
-- concrete-poetry
+- concrete-poetry-visual
 - typography
 stage: advanced
 status: draft

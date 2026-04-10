@@ -9,7 +9,7 @@ prerequisites:
 - id: fictional-world-building
   type: soft
 builds-toward:
-- branching-narrative-choice-design
+- branching-narrative-choice
 tags:
 - zork
 - text-adventure

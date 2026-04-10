@@ -39,3 +39,45 @@ Pronouns come in several categories, each serving a different grammatical functi
 The requirement that an antecedent be **clear and unambiguous** is the central rule of pronoun use. A pronoun fails when two or more nouns in the surrounding text could plausibly be what it refers to: "The manager told the employee that she needed to arrive earlier" — does "she" refer to the manager or the employee? The sentence is grammatically well-formed but semantically ambiguous. The fix is usually to repeat the noun ("The manager told the employee that the employee needed to arrive earlier") or to restructure ("The manager instructed the employee to arrive earlier"). A pronoun should pass the substitution test: replace it with the intended antecedent, and the sentence should have only one possible reading.
 
 One pronoun deserves special attention: singular **they**. English has long lacked a gender-neutral singular third-person pronoun, and "they" has filled this gap for centuries in informal use and is now widely accepted in formal writing as well. "Someone left their umbrella" uses singular "they" to refer to an unspecified individual. This use is grammatically parallel to "you," which functions as both singular and plural without confusion. The key rule is that "they" as singular applies to indefinite referents (someone, everyone, anyone) or to individuals who use they/them pronouns — not as a general replacement for known individuals whose gender is specified.
+
+## Questions
+
+- id: pronouns-intro-q1
+  type: mc
+  question: "In the sentence 'Maria said she was tired,' what is the antecedent of the pronoun 'she'?"
+  options:
+    - "said"
+    - "tired"
+    - "Maria"
+    - "was"
+  correct: 2
+  explanation: "The antecedent is the noun that the pronoun replaces. 'She' refers back to 'Maria,' which is the noun introduced earlier in the sentence."
+
+- id: pronouns-intro-q2
+  type: mc
+  question: "Which type of pronoun is used in the sentence 'This is the book I wanted'?"
+  options:
+    - "Personal pronoun"
+    - "Possessive pronoun"
+    - "Demonstrative pronoun"
+    - "Reflexive pronoun"
+  correct: 2
+  explanation: "Demonstrative pronouns (this, that, these, those) point to specific things, indicating nearness or distance. In this sentence, 'this' is a demonstrative pronoun pointing to a particular book."
+
+- id: pronouns-intro-q3
+  type: tf
+  question: "Singular 'they' can be used to refer to an indefinite person, such as in 'Someone left their umbrella.'"
+  correct: true
+  explanation: "Singular 'they' is grammatically accepted for indefinite referents like 'someone,' 'everyone,' or 'anyone.' It has been used this way in English for centuries and is now widely accepted in formal writing."
+
+- id: pronouns-intro-q4
+  type: tf
+  question: "A pronoun should appear before its antecedent in a sentence."
+  correct: false
+  explanation: "The antecedent (from Latin for 'going before') must appear before the pronoun that refers to it. The pronoun points backward to the noun it replaces, not forward."
+
+- id: pronouns-intro-q5
+  type: sa
+  question: "What is the word for the noun or noun phrase that a pronoun replaces?"
+  correct: "antecedent"
+  explanation: "An antecedent is the noun or noun phrase that a pronoun substitutes for. The word comes from Latin meaning 'going before,' because it must appear before the pronoun that refers to it."

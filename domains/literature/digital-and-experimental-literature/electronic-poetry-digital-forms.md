@@ -10,7 +10,7 @@ prerequisites:
   type: soft
 builds-toward:
 - kinetic-poetry-animation
-- generative-poetry-algorithmic
+- generative-poetry-algorithms-text
 tags:
 - poetry
 - electronic

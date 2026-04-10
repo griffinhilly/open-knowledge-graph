@@ -7,7 +7,7 @@ prerequisites:
 - id: show-tell-narrative-technique
   type: soft
 builds-toward:
-- narrative-voice-and-authorial-style
+- narrative-voice
 - prose-rhythm-sentence-craft
 tags:
 - imagery

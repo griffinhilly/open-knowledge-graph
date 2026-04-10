@@ -10,7 +10,7 @@ builds-toward:
 - locative-literature-gps-place-specific
 tags:
 - ian-hamilton-finlay
-- concrete-poetry
+- concrete-poetry-visual
 - garden
 - site-specific
 stage: advanced

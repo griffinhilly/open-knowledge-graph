@@ -11,7 +11,7 @@ prerequisites:
 builds-toward:
 - children-graphic-novels-visual-literacy
 tags:
-- concrete-poetry
+- concrete-poetry-visual
 - visual-poetry
 - form
 - children

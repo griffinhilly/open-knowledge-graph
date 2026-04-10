@@ -8,7 +8,7 @@ prerequisites:
   type: soft
 - id: literary-periodization-global
   type: soft
-- id: world-literature-debates-critical
+- id: world-literature-debates
   type: soft
 tags:
 - digital

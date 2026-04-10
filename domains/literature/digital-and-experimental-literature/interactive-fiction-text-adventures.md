@@ -9,7 +9,7 @@ prerequisites:
 - id: story-and-narrative-basics
   type: soft
 builds-toward:
-- inform-language-authoring
+- inform-language-fiction-authoring
 - ergodic-literature-aarseth
 tags:
 - if

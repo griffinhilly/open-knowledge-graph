@@ -13,7 +13,7 @@ prerequisites:
 builds-toward:
 - digital-literature-circulation-comparison
 tags:
-- concrete-poetry
+- concrete-poetry-visual
 - visual
 - typography
 - form
