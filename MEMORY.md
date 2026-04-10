@@ -1,21 +1,17 @@
 # Open Knowledge Graph Memory
 
-## Status (Apr 5, 2026)
-- **15,304 topics** across **19 domains**, **261 courses** (16 literature courses)
+## Status (Apr 9, 2026)
+- **15,290 topics** across **19 domains**, **261 courses** (16 literature courses)
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **Radial graph shows 18 domains** (practical-life-skills excluded — kept on index/domain maps)
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
-- Phase 10 DONE. Phase 10.5 (Literature Expansion) DONE. Phase 11 (Early-Childhood) DONE.
+- Phase 10 DONE. Phase 10.5 (Literature Expansion) DONE. Phase 11 (Early-Childhood) DONE. **Phase 9D effectively DONE.**
 - **Domain maps are primary navigation** — hierarchy views removed from CI and all links
 - **CI pipeline**: validate → index → radial → topic pages → domain maps → assessment → quiz
 - **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking + quiz staleness warning + question YAML error checks (~17s). Setup: `git config core.hooksPath hooks`
-- **Literature expansion (Apr 3)**: 6 → 14 courses, 483 → 1,067 topics. 8 new courses: Stories & Narrative, Mythology/Folklore, Literary Movements, Genre Fiction, Creative Nonfiction, World Literature, Children's/YA, Digital & Experimental. All with Q+E.
-- **Quiz balancing**: `generate_assessment_questions.py` round-robins across courses within each stage tier.
-- **Validation hardened**: question YAML errors (invalid YAML, non-string options) promoted from warnings to errors. Quick mode now checks them.
-- **Early-Childhood expansion (Apr 4)**: +358 topics, 12 new courses across 7 domains. Music (3 courses: Musical Play & Listening, Rhythm & Song, Listening & Musical Elements), Literature (2: First Stories & Read-Alouds, Reading & Understanding Stories), Psychology (3: Feelings & Self-Awareness, Understanding Self & Others, Growing Up & Getting Along), History (Then & Now), Philosophy (Wondering & Thinking), Social Sciences (My Community & World), Arts (Creative Play & Expression). All with Q+E.
-- **14 near-duplicate pairs** in literature courses — need dedup pass.
-- **~7 topics with stripped Questions sections** across other domains (broken YAML, need regeneration).
-- **Cross-domain prereq audit DONE** (Apr 5): Phase 11 generation already created 67 connections. Audit added 7 gap-filling bridges (music chord concepts, arts color/pattern, literature narrative structure). Total: 74 cross-course connections.
+- **Learning paths (Apr 9)**: Goal starring on topic pages, `computePathToGoal`/`computeLearningPath` in fluency.js (BFS + topo-sort), "Your Learning Path" on index (lazy-loads `js/graph.js` 3.5MB only when goals exist), "Why this topic?" context (index: goal targets + fan-out; topic pages: static downstream count).
+- **Literature dedup (Apr 9)**: 14 pairs merged from 30 candidates. 16 false positives (legitimate prereq chains). One dedup cycle fixed (code-poetry-aesthetic ↔ generative-poetry-algorithms-text). 7 stripped Questions sections regenerated.
+- **Cross-domain prereq audit DONE** (Apr 5): 67 connections from Phase 11 + 7 gap-filling bridges. Total: 74 cross-course connections.
 
 ## 6-Stage Schema (Mar 22, 2026)
 - **Added "expert" stage** for graduate/research content (2,662 topics)
@@ -36,6 +32,12 @@
 - Health: My Body (30) + Health Foundations (30)
 - Engineering: Design & Build (30) + Engineering Principles (30)
 - Formal Sciences: Patterns & Logic (25) + Reasoning & Proof (25)
+
+## Shared Parser (Apr 5, 2026)
+- **`tools/parse_topic.py`** — canonical topic file parsing module. 4 functions: `parse_topic()`, `parse_frontmatter()`, `parse_sections()`, `extract_questions()`.
+- All 8 CI-pipeline tools refactored to use it (validate, generate_topic_pages, generate_assessment, generate_assessment_questions, generate_domain_questions, visualize_domain_map, visualize_hierarchy, visualize_radial). Net -3 lines.
+- Imports work from repo root because Python adds the script's directory (`tools/`) to `sys.path[0]`.
+- Commit `38b8f6423`, pushed to master. CI deployment in progress.
 
 ## Decisions
 - **Format**: Markdown + YAML frontmatter (one file per topic)

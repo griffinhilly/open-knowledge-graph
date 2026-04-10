@@ -2784,7 +2784,7 @@ body {{
     // Footer
     var footer = document.getElementById('lp-footer');
     if (result.stats.remaining > MAX_SHOW) {{
-      footer.innerHTML = '<a href="#">' + (result.stats.remaining - shown) + ' more topics in your path</a>';
+      footer.innerHTML = '<span style="color:#667;font-size:12px">' + (result.stats.remaining - shown) + ' more topics in your path</span>';
     }}
   }};
   document.head.appendChild(script);

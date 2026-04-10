@@ -2,25 +2,23 @@
 
 ## Current State
 
-**15,304 topics** across 19 domains, **261 courses** (16 literature courses). Radial graph shows 18 domains (practical-life-skills excluded).
+**15,290 topics** across 19 domains, **261 courses**. Radial graph shows 18 domains (practical-life-skills excluded).
 
-**Last session (Apr 5, 2026):**
-- *Cross-domain prerequisite audit DONE*: Phase 11 generation already created 67 bidirectional connections. Audit added 7 gap-filling bridges in music (chord concepts → music theory), arts (color/pattern → visual elements), literature (narrative structure). All soft prereqs. Validation clean (0 errors, 0 cycles).
-- Extracted shared `tools/parse_topic.py` module, refactored 8 CI tools to use it.
-
-**Last session (Apr 5, 2026):**
-- Extracted shared `tools/parse_topic.py` module, refactored 8 CI tools to use it. Commit `38b8f6423`, pushed — CI deploying.
+**Last session (Apr 9, 2026):**
+- *Phase 9D effectively DONE*: Removed domain toggle from radial. Built guided learning paths (goal starring UI, path engine in fluency.js, learning path section on index with lazy-loaded graph.js, "Why this topic?" context on index + topic pages).
+- *Cleanup debt resolved*: 14 literature duplicate pairs merged (30 reviewed, 16 false positives). 7 missing Questions sections regenerated. Dedup cycle fixed. Shareable profile URLs deferred (JSON export covers it).
+- Fixed pre-existing bug: `STAGE_ORDER` in fluency.js was missing 'expert' stage.
 
 **Known issues:**
-- **~14 near-duplicate pairs** in literature courses (from Phase 10.5 double-generation). Low priority.
 - **~2,550 T/F questions** with hedging language — ~1-3% arguable. Low priority.
 - **Upstream over-staging**: Chemistry agent flagged physics/chemistry foundation topics. Targeted pass recommended.
 - Index page + quiz not yet mobile-optimized
 - Radial mouse/touch handler duplication
+- Topic page "Why this topic?" shows static downstream count only (no goal-aware context — would need graph.js on topic pages)
 
 **Next steps:**
-1. **Phase 9D** (remaining): domain toggle on radial, progress bars, guided learning paths
-2. Write announcement post
+1. Write announcement post
+2. Consider Phase 9D stretch: goal-aware "why" on topic pages (requires loading graph.js)
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)
@@ -280,8 +278,8 @@ Transform OKG from a static knowledge map into an interactive learning tool. Ins
 - [ ] Redesign index page: "Explore the Map" vs "Personalize Your Map"
 - [x] Removed "Domains" toggle from radial graph (low utility, took mobile real estate) — Apr 6, 2026
 - [ ] Course-level progress bars on hierarchy views and index page
-- [ ] Guided learning paths (topological sort of uncompleted topics, goal-directed pathfinding)
-- [ ] "Why this topic?" tooltips (downstream fan-out, goal dependencies)
+- [x] Guided learning paths — goal starring, path engine (BFS + topo-sort), learning path on index, lazy-loaded graph.js — Apr 9, 2026
+- [x] "Why this topic?" — index path shows goal targets + fan-out; topic pages show transitive downstream count — Apr 9, 2026
 - [x] Export/import progress as JSON (cross-device transfer) — Apr 1, 2026
 - [x] Redesign index page: hero CTAs, domain grid with hue accents, practical-life-skills separated — Apr 1, 2026
 - [x] Link "Personalize Your Map" to quiz instead of self-rating assessment — Apr 1, 2026
