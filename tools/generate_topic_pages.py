@@ -780,6 +780,20 @@ h1 {{
   font-size:11px; color:#556; margin-left:4px;
 }}
 
+.goal-toggle {{
+  display:inline-flex; align-items:center; gap:6px;
+  padding:5px 14px; border-radius:16px;
+  background:#151525; border:1px solid #252540;
+  cursor:pointer; font-size:12px; color:#778;
+  transition:all 0.2s; user-select:none;
+}}
+.goal-toggle:hover {{ border-color:#444; color:#aab; }}
+.goal-toggle.active {{
+  background:rgba(220,180,50,0.15); border-color:rgba(220,180,50,0.4);
+  color:#db4;
+}}
+.goal-toggle .star {{ font-size:14px; }}
+
 .explainer-section {{
   background:#0e0e1a; border:1px solid #1a1a2e;
   border-radius:8px; padding:24px 28px;
@@ -834,6 +848,10 @@ h1 {{
     <span class="check" id="fluencyCheck">&#9744;</span>
     <span id="fluencyLabel">I know this</span>
     <span class="fluency-score" id="fluencyScore"></span>
+  </span>
+  <span class="goal-toggle" id="goalToggle" onclick="toggleGoal()">
+    <span class="star" id="goalStar">&#9734;</span>
+    <span id="goalLabel">Set as goal</span>
   </span>
 </div>
 
@@ -897,7 +915,31 @@ h1 {{
     render();
   }};
 
+  // --- Goal toggle ---
+  var goalToggle = document.getElementById("goalToggle");
+  var goalStar = document.getElementById("goalStar");
+  var goalLabel = document.getElementById("goalLabel");
+
+  function renderGoal() {{
+    if (typeof OKGFluency === "undefined") {{ goalToggle.style.display = "none"; return; }}
+    var isGoal = OKGFluency.isGoal(TOPIC_ID);
+    goalToggle.classList.toggle("active", isGoal);
+    goalStar.innerHTML = isGoal ? "&#9733;" : "&#9734;";
+    goalLabel.textContent = isGoal ? "Goal" : "Set as goal";
+  }}
+
+  window.toggleGoal = function() {{
+    if (typeof OKGFluency === "undefined") return;
+    if (OKGFluency.isGoal(TOPIC_ID)) {{
+      OKGFluency.removeGoal(TOPIC_ID);
+    }} else {{
+      OKGFluency.addGoal(TOPIC_ID);
+    }}
+    renderGoal();
+  }};
+
   render();
+  renderGoal();
 }})();
 </script>
 </body>

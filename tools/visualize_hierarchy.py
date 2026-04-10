@@ -2162,6 +2162,40 @@ document.addEventListener("keydown", (e) => {{
 </html>"""
 
 
+def build_graph_json():
+    """Build a compact prerequisite graph JSON for the learning path engine.
+
+    Returns a JSON string: {topicId: {p:[prereqIds], s:[successorIds], d:domain, c:course}}
+    Empty arrays are omitted to save space.
+    """
+    all_data = load_all_topics()
+    graph = {}
+    for tid, data in all_data.items():
+        prereqs = []
+        for p in data.get("prerequisites", []):
+            if isinstance(p, dict) and "id" in p:
+                prereqs.append(p["id"])
+        graph[tid] = {"p": prereqs, "s": [], "d": data.get("domain", ""), "c": data.get("course", "")}
+
+    # Build successor lists
+    for tid, node in graph.items():
+        for pid in node["p"]:
+            if pid in graph:
+                graph[pid]["s"].append(tid)
+
+    # Compact: omit empty arrays
+    slim = {}
+    for tid, node in graph.items():
+        entry = {"d": node["d"], "c": node["c"]}
+        if node["p"]:
+            entry["p"] = node["p"]
+        if node["s"]:
+            entry["s"] = node["s"]
+        slim[tid] = entry
+
+    return json.dumps(slim, separators=(",", ":"))
+
+
 def generate_index_html(domains_info):
     """Generate a landing page with hero CTAs, domain grid, and export/import UI."""
     # Radial hues (0-360) for consistent domain colors across site
@@ -2359,6 +2393,61 @@ body {{
 }}
 .dc-pct {{ flex:0 0 30px; text-align:right; font-size:9px; color:#666; }}
 
+/* Learning Path */
+.learning-path-section {{
+  max-width:700px; margin:0 auto 16px; padding:0 24px;
+}}
+.lp-header {{
+  display:flex; justify-content:space-between; align-items:baseline;
+  margin-bottom:8px; flex-wrap:wrap; gap:4px;
+}}
+.lp-header h3 {{ color:#db4; font-size:15px; margin:0; }}
+.lp-header p {{ color:#889; font-size:12px; margin:0; }}
+.lp-progress-bar {{
+  height:4px; background:rgba(255,255,255,0.06); border-radius:2px;
+  overflow:hidden; margin-bottom:12px;
+}}
+.lp-progress-fill {{
+  height:100%; background:linear-gradient(90deg, #db4, #8c4);
+  border-radius:2px; transition:width 0.3s ease;
+}}
+.lp-topics-list {{
+  display:flex; flex-direction:column; gap:2px;
+}}
+.lp-topic {{
+  display:flex; align-items:center; gap:10px;
+  padding:8px 12px; border-radius:6px;
+  background:rgba(20,20,30,0.6); border:1px solid #1a1a2e;
+  text-decoration:none; transition:border-color 0.15s;
+}}
+.lp-topic:hover {{ border-color:#333; }}
+.lp-topic .lp-num {{
+  flex:0 0 22px; width:22px; height:22px;
+  border-radius:50%; font-size:10px; font-weight:600;
+  display:flex; align-items:center; justify-content:center;
+  background:rgba(220,180,50,0.15); color:#db4; border:1px solid rgba(220,180,50,0.3);
+}}
+.lp-topic .lp-num.done {{
+  background:rgba(80,180,80,0.15); color:#6c6; border-color:rgba(80,180,80,0.3);
+}}
+.lp-topic .lp-title {{ flex:1; color:#bbc; font-size:13px; }}
+.lp-topic .lp-domain {{ color:#556; font-size:11px; }}
+.lp-topic .lp-score {{ color:#556; font-size:11px; min-width:30px; text-align:right; }}
+.lp-topic.mastered {{ opacity:0.5; }}
+.lp-topic.mastered .lp-title {{ text-decoration:line-through; color:#667; }}
+.lp-footer {{
+  margin-top:8px; text-align:center;
+}}
+.lp-footer a {{
+  color:#667; font-size:12px; text-decoration:none;
+}}
+.lp-footer a:hover {{ color:#99a; }}
+.lp-goal-tag {{
+  display:inline-block; padding:1px 6px; border-radius:3px;
+  background:rgba(220,180,50,0.12); color:#db4; font-size:10px;
+  margin-left:6px;
+}}
+
 /* Footer */
 .footer {{
   max-width:900px; margin:0 auto; padding:32px 24px 48px;
@@ -2411,6 +2500,18 @@ body {{
     </div>
   </div>
   <div class="status-msg" id="status-msg"></div>
+</div>
+
+<div class="learning-path-section" id="learning-path-section" style="display:none">
+  <div class="lp-header">
+    <h3>Your Learning Path</h3>
+    <p id="lp-summary"></p>
+  </div>
+  <div class="lp-progress-bar">
+    <div class="lp-progress-fill" id="lp-progress-fill"></div>
+  </div>
+  <div id="lp-topics"></div>
+  <div class="lp-footer" id="lp-footer"></div>
 </div>
 
 <div class="section">
@@ -2549,6 +2650,88 @@ body {{
   }});
 }})();
 </script>
+<script>
+// --- Learning Path (lazy-loads graph.js only when goals exist) ---
+(function() {{
+  if (typeof OKGFluency === 'undefined') return;
+  var goals = OKGFluency.loadGoals();
+  if (goals.length === 0) return;
+
+  // Load graph data async
+  var script = document.createElement('script');
+  script.src = 'js/graph.js';
+  script.onload = function() {{
+    if (!window.OKG_GRAPH) return;
+
+    // Build graph format expected by fluency.js: {{id: {{prereqs:[], successors:[], domain, course}}}}
+    var raw = window.OKG_GRAPH;
+    var graph = {{}};
+    for (var id in raw) {{
+      graph[id] = {{
+        prereqs: raw[id].p || [],
+        successors: raw[id].s || [],
+        domain: raw[id].d,
+        course: raw[id].c,
+      }};
+    }}
+
+    var scores = OKGFluency.loadScores();
+    var result = OKGFluency.computeLearningPath(graph, scores);
+
+    if (result.path.length === 0) return;
+
+    var section = document.getElementById('learning-path-section');
+    section.style.display = '';
+
+    // Summary
+    var summaryEl = document.getElementById('lp-summary');
+    summaryEl.textContent = result.stats.mastered + ' / ' + result.stats.total + ' topics complete';
+
+    // Progress bar
+    var pct = result.stats.total > 0 ? Math.round(result.stats.mastered / result.stats.total * 100) : 0;
+    document.getElementById('lp-progress-fill').style.width = pct + '%';
+
+    // Render next topics (up to 10 unmastered)
+    var container = document.getElementById('lp-topics');
+    var html = '<div class="lp-topics-list">';
+    var shown = 0;
+    var MAX_SHOW = 10;
+    var goalSet = {{}};
+    for (var gi = 0; gi < result.goals.length; gi++) goalSet[result.goals[gi]] = true;
+
+    for (var i = 0; i < result.path.length && shown < MAX_SHOW; i++) {{
+      var tid = result.path[i];
+      var score = scores[tid] || 0;
+      var mastered = score >= 50;
+      if (mastered) continue;
+
+      shown++;
+      var node = raw[tid];
+      var domainLabel = (node.d || '').replace(/-/g, ' ');
+      var title = tid.replace(/-/g, ' ');
+      // Capitalize first letter of each word
+      title = title.replace(/\\b[a-z]/g, function(c) {{ return c.toUpperCase(); }});
+
+      html += '<a class="lp-topic" href="topics/' + tid + '.html">';
+      html += '<span class="lp-num">' + shown + '</span>';
+      html += '<span class="lp-title">' + title;
+      if (goalSet[tid]) html += '<span class="lp-goal-tag">\\u2605 Goal</span>';
+      html += '</span>';
+      if (score > 0) html += '<span class="lp-score">' + score + '%</span>';
+      html += '</a>';
+    }}
+    html += '</div>';
+    container.innerHTML = html;
+
+    // Footer
+    var footer = document.getElementById('lp-footer');
+    if (result.stats.remaining > MAX_SHOW) {{
+      footer.innerHTML = '<a href="#">' + (result.stats.remaining - shown) + ' more topics in your path</a>';
+    }}
+  }};
+  document.head.appendChild(script);
+}})();
+</script>
 
 </body>
 </html>"""
@@ -2646,6 +2829,16 @@ def main():
             fluency_dst.parent.mkdir(parents=True, exist_ok=True)
             import shutil
             shutil.copy2(fluency_src, fluency_dst)
+
+        # Generate graph.js (prerequisite graph for learning path engine)
+        graph_data = build_graph_json()
+        graph_dst = OUTPUT_DIR / "js" / "graph.js"
+        graph_dst.parent.mkdir(parents=True, exist_ok=True)
+        graph_dst.write_text(
+            f"window.OKG_GRAPH={graph_data};\n",
+            encoding="utf-8",
+        )
+        print(f"Graph data -> {graph_dst} ({len(graph_data)//1024} KB)")
 
         # Generate index
         index_html = generate_index_html(domains_info)
