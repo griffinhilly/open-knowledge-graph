@@ -2430,7 +2430,7 @@ body {{
 .lp-topic .lp-num.done {{
   background:rgba(80,180,80,0.15); color:#6c6; border-color:rgba(80,180,80,0.3);
 }}
-.lp-topic .lp-title {{ flex:1; color:#bbc; font-size:13px; }}
+.lp-topic .lp-title {{ flex:1; color:#bbc; font-size:13px; display:flex; flex-direction:column; gap:2px; }}
 .lp-topic .lp-domain {{ color:#556; font-size:11px; }}
 .lp-topic .lp-score {{ color:#556; font-size:11px; min-width:30px; text-align:right; }}
 .lp-topic.mastered {{ opacity:0.5; }}
@@ -2442,6 +2442,9 @@ body {{
   color:#667; font-size:12px; text-decoration:none;
 }}
 .lp-footer a:hover {{ color:#99a; }}
+.lp-why {{
+  font-size:11px; color:#667; font-weight:normal;
+}}
 .lp-goal-tag {{
   display:inline-block; padding:1px 6px; border-radius:3px;
   background:rgba(220,180,50,0.12); color:#db4; font-size:10px;
@@ -2691,13 +2694,70 @@ body {{
     var pct = result.stats.total > 0 ? Math.round(result.stats.mastered / result.stats.total * 100) : 0;
     document.getElementById('lp-progress-fill').style.width = pct + '%';
 
+    // --- "Why this topic?" context ---
+    // For each path topic, find which goal(s) it leads to and downstream fan-out
+    var goalSet = {{}};
+    for (var gi = 0; gi < result.goals.length; gi++) goalSet[result.goals[gi]] = true;
+
+    var pathSet = {{}};
+    for (var pi = 0; pi < result.path.length; pi++) pathSet[result.path[pi]] = true;
+
+    // BFS forward from each topic to find reachable goals within the path
+    var topicGoals = {{}};  // tid -> [goalId, ...]
+    var topicFanout = {{}};  // tid -> count of downstream path topics
+
+    for (var ti = 0; ti < result.path.length; ti++) {{
+      var startId = result.path[ti];
+      if (goalSet[startId]) {{ topicGoals[startId] = [startId]; topicFanout[startId] = 0; continue; }}
+      var visited = {{}};
+      var bfsQueue = [startId];
+      visited[startId] = true;
+      var reachableGoals = [];
+      var downstream = 0;
+
+      while (bfsQueue.length > 0) {{
+        var cur = bfsQueue.shift();
+        var succs = graph[cur] ? graph[cur].successors : [];
+        for (var si = 0; si < succs.length; si++) {{
+          var sid = succs[si];
+          if (!visited[sid] && pathSet[sid]) {{
+            visited[sid] = true;
+            downstream++;
+            if (goalSet[sid]) reachableGoals.push(sid);
+            bfsQueue.push(sid);
+          }}
+        }}
+      }}
+      topicGoals[startId] = reachableGoals;
+      topicFanout[startId] = downstream;
+    }}
+
+    function formatTopicName(id) {{
+      var name = id.replace(/-/g, ' ');
+      return name.replace(/\\b[a-z]/g, function(c) {{ return c.toUpperCase(); }});
+    }}
+
+    function buildWhyText(tid) {{
+      var goals = topicGoals[tid] || [];
+      var fanout = topicFanout[tid] || 0;
+      if (goalSet[tid]) return '';  // goals don't need a "why"
+      var parts = [];
+      if (goals.length === 1) {{
+        parts.push('Leads to ' + formatTopicName(goals[0]));
+      }} else if (goals.length > 1) {{
+        parts.push('Leads to ' + goals.length + ' goals');
+      }}
+      if (fanout > 1) {{
+        parts.push('unlocks ' + fanout + ' topics');
+      }}
+      return parts.join(' \\u00b7 ');
+    }}
+
     // Render next topics (up to 10 unmastered)
     var container = document.getElementById('lp-topics');
     var html = '<div class="lp-topics-list">';
     var shown = 0;
     var MAX_SHOW = 10;
-    var goalSet = {{}};
-    for (var gi = 0; gi < result.goals.length; gi++) goalSet[result.goals[gi]] = true;
 
     for (var i = 0; i < result.path.length && shown < MAX_SHOW; i++) {{
       var tid = result.path[i];
@@ -2706,16 +2766,14 @@ body {{
       if (mastered) continue;
 
       shown++;
-      var node = raw[tid];
-      var domainLabel = (node.d || '').replace(/-/g, ' ');
-      var title = tid.replace(/-/g, ' ');
-      // Capitalize first letter of each word
-      title = title.replace(/\\b[a-z]/g, function(c) {{ return c.toUpperCase(); }});
+      var title = formatTopicName(tid);
+      var why = buildWhyText(tid);
 
       html += '<a class="lp-topic" href="topics/' + tid + '.html">';
       html += '<span class="lp-num">' + shown + '</span>';
       html += '<span class="lp-title">' + title;
       if (goalSet[tid]) html += '<span class="lp-goal-tag">\\u2605 Goal</span>';
+      if (why) html += '<span class="lp-why">' + why + '</span>';
       html += '</span>';
       if (score > 0) html += '<span class="lp-score">' + score + '%</span>';
       html += '</a>';

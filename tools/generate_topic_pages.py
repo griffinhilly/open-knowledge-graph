@@ -194,6 +194,20 @@ def count_transitive_prereqs(tid, prereqs_of):
     return len(visited)
 
 
+def count_transitive_successors(tid, dependents_of):
+    """Count all transitive successors (topics that depend on this one)."""
+    visited = set()
+    stack = list(sid for sid, _ in dependents_of.get(tid, []))
+    while stack:
+        node = stack.pop()
+        if node in visited:
+            continue
+        visited.add(node)
+        for sid, _ in dependents_of.get(node, []):
+            stack.append(sid)
+    return len(visited)
+
+
 def inline_markdown(text):
     """Process inline markdown (**bold**) in already-escaped HTML text."""
     return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
@@ -557,8 +571,9 @@ def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, 
     chain = find_longest_chain(tid, prereqs_of, all_data)
     total_transitive = count_transitive_prereqs(tid, prereqs_of)
 
-    # Successors (direct only)
+    # Successors
     direct_successors = dependents_of.get(tid, [])
+    total_downstream = count_transitive_successors(tid, dependents_of)
 
     # Build prerequisite chain HTML
     chain_html = ""
@@ -794,6 +809,10 @@ h1 {{
 }}
 .goal-toggle .star {{ font-size:14px; }}
 
+.why-learn {{
+  color:#667; font-size:12px; margin-top:4px; margin-bottom:4px;
+}}
+
 .explainer-section {{
   background:#0e0e1a; border:1px solid #1a1a2e;
   border-radius:8px; padding:24px 28px;
@@ -854,6 +873,8 @@ h1 {{
     <span id="goalLabel">Set as goal</span>
   </span>
 </div>
+
+{('<div class="why-learn">Unlocks ' + str(total_downstream) + ' downstream topic' + ('s' if total_downstream != 1 else '') + '</div>') if total_downstream > 0 else ""}
 
 {"<div class='tags'>" + tags_html + "</div>" if tags_html else ""}
 
