@@ -16,9 +16,14 @@
 - Radial mouse/touch handler duplication
 - Topic page "Why this topic?" shows static downstream count only (no goal-aware context — would need graph.js on topic pages)
 
+**Last session (Apr 12, 2026):**
+- **Phase 12A shipped in 4 cuts** — all 9 plan steps. Net +267 LoC. See MEMORY.md "Phase 12A Shipped" section for implementation decisions and follow-ups. Shipped surfaces: cold-start prior (fluency.js), alpha-gradient opacity field, stage slider DOM overlay, 24Q stratified single-phase seed (replaces warmup+exploration), refine-your-map 19-row domain slider, next-step retention corner card, inline know/don't-know panel buttons, index CTA cleanup + `preset=sprout` stub.
+
 **Next steps:**
-1. Write announcement post
-2. Consider Phase 9D stretch: goal-aware "why" on topic pages (requires loading graph.js)
+1. **Phase 12B: Sprout + Pedagogy-Typing + Per-Edge Strength** — week-long phase. Persona A shell (TTS, emoji buttons, parent PIN, coloring-book progress), domain-level `pedagogy_type ∈ {assessable, reflective}`, reflective card variant (mark-as-read replaces quiz CTA), Haiku edge labeling pass for hard/soft strength, stale-topics frontier signal. Plan: [plans/phase-12-three-persona-redesign.md](plans/phase-12-three-persona-redesign.md) section "Phase 12B".
+2. Phase 12A follow-ups (not blocking 12B): MC position-bias data fix, course-level picker inside Deep Dive, stage-inversion edge spot-check.
+3. Write announcement post (on hold until Phase 12B ships)
+4. Consider Phase 9D stretch: goal-aware "why" on topic pages (requires loading graph.js)
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)
@@ -405,3 +410,31 @@ Domains with legitimate but less deep early-childhood content.
 - **Economics:** Money and trading basics are in Practical Life Skills. No need to duplicate.
 - **Chemistry/Physics/Biology/Earth Science:** Already have concrete-operations courses from Phase 8.5.
 - **Engineering:** Already has Design & Build (concrete-operations).
+
+## Phase 12: Three-Persona Redesign — IN PROGRESS
+
+Virality-first learning platform redesign. Serves three personas (young child + parent, high school student, fuzzy-recall college graduate) on one engine, straddles the virality-vs-utility tension (graph is the hook, learning plans are the retention), and aims net-subtractive where possible.
+
+**Full plan**: [plans/phase-12-three-persona-redesign.md](plans/phase-12-three-persona-redesign.md)
+
+**Designed via 3-round multi-agent dialectic** (adaptive psychometrics / Math Academy pedagogy / UX progressive disclosure / anti-complexity skeptic → Opus referee).
+
+### Phase 12A — DONE (Apr 12, 2026)
+All 9 plan steps shipped in 4 cuts. See MEMORY.md "Phase 12A Shipped" for implementation decisions.
+- [x] Step 1: Cold-start prior formula in fluency.js (`computeFloor`, `getUserStage`, `getDomainPrior`)
+- [x] Step 2: Stage slider DOM overlay with first-visit auto-show + dismiss persistence
+- [x] Step 3: Alpha-gradient opacity field on radial (`showFluency` toggle retained)
+- [x] Step 4: "Your next step" retention corner card
+- [x] Step 5: Inline "I know / don't know this" buttons on topic panel
+- [x] Step 6: 19-row "Refine your map" domain slider writing to `okg-domain-prior`
+- [x] Step 7: 24Q stratified seed replaces warmup phase (opt-in via welcome chooser)
+- [x] Step 8: 3-phase scaffolding deleted from `generate_quiz_page.py` (deep-dive retained as opt-in per Griffin's call)
+- [x] Step 9: Index CTA cleanup + `preset=sprout` stub link
+
+Net LoC: +267 across 4 files (over plan's −50/+150 target — refine + next-step card DOM/CSS overhead came in higher than estimated, within "gut-check not auto-abort" threshold).
+
+### Phase 12B — NEXT
+- **12B — Sprout + pedagogy-typing + per-edge strength** (week, ~+800 LoC): Persona A shell with TTS + emoji buttons + parent PIN + coloring-book progress, domain-level `pedagogy_type ∈ {assessable, reflective}`, reflective card variant (mark-as-read replaces quiz CTA), Haiku edge labeling pass for hard/soft strength, stale-topics frontier signal
+- **12C — Conditional Rasch upgrade** (1-3 weeks, conditional): only if stage heuristic proves off by >1 stage in >20% of sampled users. Rasch with θ ∈ ℝ^8, Fisher-info adaptive seed, reflective-domain exclusion
+
+**Non-goals**: lesson-feed-as-primary-surface, FSRS, 2PL IRT, new per-topic attributes, persona-router page, demographic onboarding questions, separate shell codebases.

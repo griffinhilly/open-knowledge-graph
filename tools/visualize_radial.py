@@ -49,6 +49,8 @@ STAGE_BANDS = {
     "expert":              (0.82, 1.00),   # ages ~22+, graduate/research
 }
 DEFAULT_STAGE = "abstract-reasoning"
+# Integer indices 0-5, consumed by fluency.js cold-start prior + alpha gradient.
+STAGE_INDEX = {s: i for i, s in enumerate(STAGE_BANDS.keys())}
 
 # --- Curated domain ordering ---
 # Designed so related domains are adjacent and cross-domain edges stay short.
@@ -590,12 +592,14 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
         lightness = 35 + r_frac * 30
 
         tags = data.get("tags", [])
+        stage_name = data.get("stage", "") or DEFAULT_STAGE
         nodes.append({
             "id": tid,
             "title": data.get("title", tid),
             "domain": domain,
             "course": course,
-            "stage": data.get("stage", ""),
+            "stage": stage_name,
+            "stageInt": STAGE_INDEX.get(stage_name, STAGE_INDEX[DEFAULT_STAGE]),
             "depth": depths.get(tid, 0),
             "x": round(pos["x"], 2),
             "y": round(pos["y"], 2),
@@ -662,6 +666,13 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
     n_edges = len(edges)
     n_domains = len(sector_data)
 
+    # 19-row refine-your-map slider domain list (all 19, including practical-life-skills)
+    refine_domains = []
+    for d in DOMAIN_HUES.keys():
+        label = configs.get(d, {}).get("title", d.replace("-", " ").title())
+        refine_domains.append([d, label])
+    refine_domains_json = json.dumps(refine_domains)
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -720,6 +731,17 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 }}
 #panel .panel-badge.hard {{ background:rgba(220,80,80,0.15); color:#c66; }}
 #panel .panel-badge.soft {{ background:rgba(80,160,220,0.15); color:#6ab; }}
+#panel .panel-correction {{
+  margin-top:14px; padding-top:12px; border-top:1px solid #262636;
+  display:flex; gap:8px;
+}}
+#panel .panel-correction button {{
+  flex:1; background:#1a2538; border:1px solid #2a3a55; border-radius:6px;
+  padding:7px 10px; font-size:12px; color:#9cd; cursor:pointer;
+}}
+#panel .panel-correction button:hover {{ background:#24324a; color:#cef; }}
+#panel .panel-correction .dontknow {{ background:rgba(220,80,80,0.08); border-color:rgba(220,80,80,0.3); color:#e99; }}
+#panel .panel-correction .dontknow:hover {{ background:rgba(220,80,80,0.15); color:#fcc; }}
 #controls {{
   position:fixed; top:16px; right:16px;
   background:rgba(8,8,15,0.9); border:1px solid #222;
@@ -732,6 +754,125 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 }}
 #controls button:hover {{ background:#252540; color:#ddd; }}
 #controls button.active {{ background:#2a4a2a; border-color:#4a4; color:#8f8; }}
+#stageCard {{
+  position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
+  background:rgba(18,18,28,0.97); border:1px solid #333;
+  border-radius:12px; padding:22px 26px 18px; z-index:40;
+  width:min(420px, calc(100vw - 32px));
+  box-shadow:0 16px 48px rgba(0,0,0,0.5);
+}}
+#stageCard.stage-hidden {{ display:none; }}
+#stageCard .stage-close {{
+  position:absolute; top:6px; right:10px;
+  background:none; border:none; color:#888; font-size:22px;
+  cursor:pointer; padding:4px 8px; line-height:1;
+}}
+#stageCard .stage-close:hover {{ color:#eee; }}
+#stageCard h3 {{ font-size:17px; color:#eee; margin-bottom:4px; padding-right:24px; }}
+#stageCard .stage-sub {{ font-size:12px; color:#778; margin-bottom:20px; }}
+#stageCard .stage-label {{
+  text-align:center; margin-bottom:12px;
+  font-size:15px; color:#9cd; font-weight:600; min-height:1.2em;
+}}
+#stageCard input[type=range] {{
+  width:100%; accent-color:#6ab; cursor:pointer;
+}}
+#stageCard .stage-ticks {{
+  display:flex; justify-content:space-between;
+  margin-top:10px; font-size:9px; color:#556; letter-spacing:0.2px;
+}}
+#stageCard .stage-ticks span {{ flex:1; text-align:center; }}
+#stageCard .stage-ticks span:first-child {{ text-align:left; }}
+#stageCard .stage-ticks span:last-child {{ text-align:right; }}
+#stageCard .stage-actions {{
+  display:flex; gap:8px; margin-top:18px;
+  padding-top:16px; border-top:1px solid #262636;
+}}
+#stageCard .stage-action-btn {{
+  flex:1; text-align:center;
+  background:#1a2538; border:1px solid #2a3a55; border-radius:6px;
+  padding:8px 12px; font-size:13px; color:#9cd;
+  text-decoration:none; cursor:pointer;
+  transition:background 0.15s, color 0.15s;
+}}
+#stageCard .stage-action-btn:hover {{ background:#24324a; color:#cef; }}
+#refineCard {{
+  position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
+  background:rgba(18,18,28,0.98); border:1px solid #333;
+  border-radius:12px; padding:22px 26px 18px; z-index:42;
+  width:min(480px, calc(100vw - 32px));
+  max-height:calc(100vh - 60px);
+  box-shadow:0 16px 48px rgba(0,0,0,0.5);
+  display:flex; flex-direction:column;
+}}
+#refineCard.refine-hidden {{ display:none; }}
+#refineCard .stage-close {{
+  position:absolute; top:6px; right:10px;
+  background:none; border:none; color:#888; font-size:22px;
+  cursor:pointer; padding:4px 8px; line-height:1;
+}}
+#refineCard .stage-close:hover {{ color:#eee; }}
+#refineCard h3 {{ font-size:17px; color:#eee; margin-bottom:4px; padding-right:24px; }}
+#refineCard .refine-sub {{ font-size:12px; color:#778; margin-bottom:14px; }}
+#refineCard .refine-rows {{
+  flex:1 1 auto; overflow-y:auto; margin:0 -6px; padding:4px 6px;
+  min-height:0;
+}}
+#refineCard .refine-row {{
+  display:flex; align-items:center; gap:10px;
+  padding:7px 0; border-bottom:1px solid #1a1a24;
+}}
+#refineCard .refine-row:last-child {{ border-bottom:none; }}
+#refineCard .refine-row .refine-label {{
+  flex:1 1 auto; font-size:12px; color:#aab;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}}
+#refineCard .refine-row input[type=range] {{
+  flex:0 0 110px; accent-color:#6ab; cursor:pointer;
+}}
+#refineCard .refine-row .refine-value {{
+  flex:0 0 56px; text-align:right;
+  font-size:10px; color:#778; text-transform:uppercase; letter-spacing:0.3px;
+}}
+#refineCard .refine-footer {{
+  margin-top:14px; padding-top:12px; border-top:1px solid #262636;
+  display:flex; justify-content:flex-end; gap:8px;
+}}
+#refineCard .refine-footer button {{
+  background:#1a2538; border:1px solid #2a3a55; border-radius:6px;
+  padding:8px 18px; font-size:13px; color:#9cd; cursor:pointer;
+}}
+#refineCard .refine-footer button:hover {{ background:#24324a; color:#cef; }}
+#nextStepCard {{
+  position:fixed; right:16px; bottom:16px; width:280px; z-index:30;
+  background:rgba(18,20,30,0.97); border:1px solid #2a3a55;
+  border-radius:10px; padding:12px 14px 12px 16px;
+  display:flex; flex-direction:column; gap:6px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.4);
+}}
+#nextStepCard.ns-hidden {{ display:none; }}
+#nextStepCard .ns-label {{
+  font-size:9px; color:#6a7da0; letter-spacing:0.6px;
+  text-transform:uppercase;
+}}
+#nextStepCard .ns-title {{
+  font-size:14px; color:#dde; font-weight:600; line-height:1.3;
+}}
+#nextStepCard .ns-meta {{ font-size:11px; color:#778; text-transform:capitalize; }}
+#nextStepCard .ns-actions {{
+  display:flex; gap:6px; align-items:center; margin-top:4px;
+}}
+#nextStepCard .ns-start {{
+  flex:1; background:#1e3050; border:1px solid #3a5178; color:#cef;
+  border-radius:6px; padding:6px 10px; font-size:12px;
+  cursor:pointer; text-decoration:none; text-align:center;
+}}
+#nextStepCard .ns-start:hover {{ background:#284068; color:#def; }}
+#nextStepCard .ns-close {{
+  background:transparent; border:none; color:#667;
+  font-size:18px; cursor:pointer; padding:0 6px; line-height:1;
+}}
+#nextStepCard .ns-close:hover {{ color:#aab; }}
 #nav {{
   position:fixed; top:16px; left:50%; transform:translateX(-50%);
   background:rgba(8,8,15,0.9); border:1px solid #222;
@@ -777,6 +918,14 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
   #search input {{ flex:1; width:auto; }}
   #tooltip {{ display:none !important; }}
+  #stageCard {{ padding:18px 18px 14px; }}
+  #stageCard h3 {{ font-size:15px; }}
+  #stageCard .stage-ticks {{ font-size:8px; }}
+  #refineCard {{ padding:16px 16px 12px; }}
+  #refineCard h3 {{ font-size:15px; }}
+  #refineCard .refine-row input[type=range] {{ flex:0 0 90px; }}
+  #refineCard .refine-row .refine-value {{ flex:0 0 48px; font-size:9px; }}
+  #nextStepCard {{ left:8px; right:8px; width:auto; bottom:8px; }}
 }}
 </style>
 </head>
@@ -799,9 +948,49 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   <button onclick="zoomBtn(1.3)">+</button>
   <button onclick="zoomBtn(0.7)">&minus;</button>
   <button id="fluencyBtn" onclick="toggleFluency()">Fluency</button>
+  <button id="stageBtn" onclick="showStageCard()" title="Set your level">Level</button>
 </div>
 <div id="tooltip"></div>
 <div id="panel"></div>
+<div id="stageCard" class="stage-hidden">
+  <button class="stage-close" onclick="hideStageCard()" aria-label="Dismiss">&times;</button>
+  <h3>Make this yours</h3>
+  <p class="stage-sub">Where are you in your learning? Slide to personalize the graph.</p>
+  <div class="stage-label" id="stageLabel">Early Childhood</div>
+  <input type="range" id="stageSlider" min="0" max="5" step="1" value="0" />
+  <div class="stage-ticks">
+    <span>Early</span>
+    <span>Elem</span>
+    <span>Middle</span>
+    <span>HS</span>
+    <span>College</span>
+    <span>Grad</span>
+  </div>
+  <div class="stage-actions">
+    <button type="button" class="stage-action-btn" onclick="showRefineCard()">Refine your map</button>
+    <a href="quiz.html" class="stage-action-btn">Test yourself?</a>
+  </div>
+</div>
+
+<div id="refineCard" class="refine-hidden">
+  <button class="stage-close" onclick="hideRefineCard()" aria-label="Dismiss">&times;</button>
+  <h3>Refine your map</h3>
+  <p class="refine-sub">For precision: tell us what you already know in each domain. Adjusts how brightly each domain shows up.</p>
+  <div class="refine-rows" id="refineRows"></div>
+  <div class="refine-footer">
+    <button type="button" onclick="hideRefineCard()">Done</button>
+  </div>
+</div>
+
+<div id="nextStepCard" class="ns-hidden">
+  <div class="ns-label">Your next step</div>
+  <div class="ns-title" id="nsTitle"></div>
+  <div class="ns-meta" id="nsMeta"></div>
+  <div class="ns-actions">
+    <a class="ns-start" id="nsStart" href="#">Start this</a>
+    <button class="ns-close" onclick="hideNextStepCard()" aria-label="Dismiss">&times;</button>
+  </div>
+</div>
 <div id="search">
   <input type="text" id="searchInput" placeholder="Search topics... (Ctrl+F)">
   <span class="count" id="searchCount"></span>
@@ -869,8 +1058,15 @@ function refreshFluency() {{
   if (typeof OKGFluency === 'undefined') return;
   if (!fluencyGraph) fluencyGraph = buildFluencyGraph();
   effectiveScores = OKGFluency.propagate(fluencyGraph);
+  // Apply cold-start display floor from user stage + domain prior.
+  // Does not write back to stored scores — floor is display-only.
+  data.nodes.forEach(function(n) {{
+    var floor = OKGFluency.computeFloor(n.stageInt, n.domain);
+    if (floor > (effectiveScores[n.id] || 0)) effectiveScores[n.id] = floor;
+  }});
   var ids = OKGFluency.findFrontier(fluencyGraph, effectiveScores);
   frontierSet = new Set(ids);
+  if (typeof updateNextStepCard === 'function') updateNextStepCard();
 }}
 
 function toggleFluency() {{
@@ -957,16 +1153,24 @@ function draw() {{
   }});
 
   // Draw nodes
+  var fluencyUserStage = (showFluency && typeof OKGFluency !== 'undefined')
+    ? OKGFluency.getUserStage() : null;
   data.nodes.forEach(n => {{
     ctx.beginPath();
     ctx.arc(n.x, n.y, nodeRadius, 0, Math.PI * 2);
     if (showFluency && effectiveScores) {{
       var score = effectiveScores[n.id] || 0;
       ctx.fillStyle = OKGFluency.fluencyColor(n.hue, score);
+      // Alpha gradient: nodes far from user's declared stage fade out.
+      // Frontier bonus keeps ready-to-learn topics visible across the gap.
+      var stageDist = Math.abs((n.stageInt != null ? n.stageInt : 2) - fluencyUserStage);
+      var frontierBonus = (frontierSet && frontierSet.has(n.id)) ? 0.2 : 0;
+      ctx.globalAlpha = Math.min(1.0, Math.max(0.1, 1 - 0.3 * stageDist + frontierBonus));
     }} else {{
       ctx.fillStyle = `hsl(${{n.hue}}, 55%, ${{n.lightness}}%)`;
     }}
     ctx.fill();
+    ctx.globalAlpha = 1.0;
     if (showFluency && frontierSet && frontierSet.has(n.id)) {{
       ctx.strokeStyle = "rgba(255,200,50,0.9)";
       ctx.lineWidth = 1.5 / Math.sqrt(camScale);
@@ -1272,6 +1476,12 @@ function showPanel(node, screenX, screenY) {{
     html += `</div>`;
   }}
 
+  // Fluency correction buttons: quick self-report from the panel.
+  html += `<div class="panel-correction">`;
+  html += `<button class="iknow" data-act="know">I know this</button>`;
+  html += `<button class="dontknow" data-act="dontknow">I don't know this</button>`;
+  html += `</div>`;
+
   panel.innerHTML = html;
   panel.style.display = "block";
   // Scale panel down at high zoom so it doesn't dominate the viewport
@@ -1300,6 +1510,25 @@ function showPanel(node, screenX, screenY) {{
         draw();
         showPanel(targetNode, px, py);
       }}
+    }});
+  }});
+
+  // Fluency self-report handlers: apply immediately + refresh visuals.
+  panel.querySelectorAll(".panel-correction button").forEach(btn => {{
+    btn.addEventListener("click", () => {{
+      if (typeof OKGFluency === 'undefined') return;
+      const act = btn.getAttribute("data-act");
+      if (act === "know") OKGFluency.setScore(node.id, 100);
+      else if (act === "dontknow") OKGFluency.setScore(node.id, 0);
+      if (!showFluency) {{
+        toggleFluency();  // auto-enable fluency so the user sees the effect
+      }} else {{
+        refreshFluency();
+        draw();
+      }}
+      if (typeof updateNextStepCard === 'function') updateNextStepCard();
+      btn.textContent = "Saved";
+      btn.disabled = true;
     }});
   }});
 
@@ -1508,6 +1737,259 @@ if ("ontouchstart" in window || navigator.maxTouchPoints > 0) {{
   if (ht) ht.textContent = "Pinch to zoom \u00b7 Drag to pan \u00b7 Tap for details \u00b7 Double-tap to zoom in";
   const si = document.getElementById("searchInput");
   if (si) si.placeholder = "Search topics...";
+}}
+
+// --- Stage slider card (Cut 2) ---
+const STAGE_LABELS = [
+  'Early Childhood',
+  'Elementary',
+  'Middle School',
+  'High School',
+  'College',
+  'Graduate',
+];
+const STAGE_CARD_DISMISSED_KEY = 'okg-stage-card-dismissed';
+
+// --- Refine your map (Cut 4 step 6) ---
+const REFINE_DOMAINS = {refine_domains_json};
+const REFINE_POSITIONS = [
+  {{label: 'None',    mul: 0.2}},
+  {{label: 'Some',    mul: 0.6}},
+  {{label: 'Default', mul: 1.0}},
+  {{label: 'Strong',  mul: 1.4}},
+  {{label: 'Expert',  mul: 1.8}},
+];
+
+function showStageCard() {{
+  var card = document.getElementById('stageCard');
+  if (card) card.classList.remove('stage-hidden');
+}}
+
+function hideStageCard() {{
+  var card = document.getElementById('stageCard');
+  if (card) card.classList.add('stage-hidden');
+  try {{ localStorage.setItem(STAGE_CARD_DISMISSED_KEY, '1'); }} catch (e) {{}}
+}}
+
+function initStageSlider() {{
+  if (typeof OKGFluency === 'undefined') return;
+  var slider = document.getElementById('stageSlider');
+  var label = document.getElementById('stageLabel');
+  if (!slider || !label) return;
+
+  // URL param: preset=sprout routes the child-friendly onboarding stub.
+  // Forces stage=0 (Early Childhood) and clears any prior dismiss flag so
+  // the card always appears on a preset link, even for returning users.
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('preset') === 'sprout') {{
+    OKGFluency.setUserStage(0);
+    try {{ localStorage.removeItem(STAGE_CARD_DISMISSED_KEY); }} catch (e) {{}}
+  }}
+
+  var current = OKGFluency.getUserStage();
+  slider.value = current;
+  label.textContent = STAGE_LABELS[current];
+
+  slider.addEventListener('input', function () {{
+    var val = parseInt(this.value, 10);
+    label.textContent = STAGE_LABELS[val];
+    OKGFluency.setUserStage(val);
+    // Auto-enable fluency on first slider interaction so the graph responds
+    if (!showFluency) {{
+      toggleFluency();  // this also calls draw()
+    }} else {{
+      refreshFluency();
+      draw();
+    }}
+  }});
+
+  // Stop canvas drag/pan from capturing events on the card itself
+  var card = document.getElementById('stageCard');
+  if (card) {{
+    ['mousedown', 'touchstart', 'touchmove', 'wheel'].forEach(function (ev) {{
+      card.addEventListener(ev, function (e) {{ e.stopPropagation(); }}, {{ passive: true }});
+    }});
+  }}
+
+  // First-visit auto-show
+  var dismissed = null;
+  try {{ dismissed = localStorage.getItem(STAGE_CARD_DISMISSED_KEY); }} catch (e) {{}}
+  if (!dismissed) showStageCard();
+}}
+
+initStageSlider();
+
+// --- Retention corner card: "Your next step" (Cut 4 step 4) ---
+const NEXT_STEP_DISMISSED_KEY = 'okg-next-step-dismissed';
+const SEED_COMPLETED_KEY = 'okg-seed-completed';
+
+function shouldShowNextStep() {{
+  try {{
+    if (sessionStorage.getItem(NEXT_STEP_DISMISSED_KEY) === '1') return false;
+  }} catch (e) {{}}
+  try {{
+    if (localStorage.getItem(SEED_COMPLETED_KEY) === '1') return true;
+  }} catch (e) {{}}
+  if (typeof OKGFluency === 'undefined') return false;
+  var goals = OKGFluency.loadGoals() || [];
+  return goals.length > 0;
+}}
+
+function computeNextStep() {{
+  if (typeof OKGFluency === 'undefined') return null;
+  if (!fluencyGraph) fluencyGraph = buildFluencyGraph();
+  if (!effectiveScores) {{
+    // Mirror refreshFluency's propagate + floor apply without triggering draw loops
+    effectiveScores = OKGFluency.propagate(fluencyGraph);
+    data.nodes.forEach(function (n) {{
+      var floor = OKGFluency.computeFloor(n.stageInt, n.domain);
+      if (floor > (effectiveScores[n.id] || 0)) effectiveScores[n.id] = floor;
+    }});
+    frontierSet = new Set(OKGFluency.findFrontier(fluencyGraph, effectiveScores));
+  }}
+
+  var goals = OKGFluency.loadGoals() || [];
+  var onPath = {{}};
+  if (goals.length > 0) {{
+    var storedScores = OKGFluency.loadScores();
+    for (var gi = 0; gi < goals.length; gi++) {{
+      var path = OKGFluency.computePathToGoal(fluencyGraph, storedScores, goals[gi]) || [];
+      for (var pi = 0; pi < path.length; pi++) onPath[path[pi]] = true;
+    }}
+  }}
+
+  var frontierIds = OKGFluency.findFrontier(fluencyGraph, effectiveScores) || [];
+  var best = null, bestScore = -Infinity;
+  var cap = Math.min(50, frontierIds.length);
+  for (var i = 0; i < cap; i++) {{
+    var nid = frontierIds[i];
+    var fnode = fluencyGraph[nid];
+    if (!fnode) continue;
+    var prereqs = fnode.prereqs || [];
+    var prereqAvg = 100;
+    if (prereqs.length > 0) {{
+      var sum = 0;
+      for (var k = 0; k < prereqs.length; k++) sum += (effectiveScores[prereqs[k]] || 0);
+      prereqAvg = sum / prereqs.length;
+    }}
+    var outDegree = (fnode.successors || []).length;
+    var logConn = Math.log(1 + outDegree);
+    var goalBonus = onPath[nid] ? 2.0 : 1.0;
+    var score = prereqAvg * logConn * goalBonus;
+    if (score > bestScore) {{ bestScore = score; best = nid; }}
+  }}
+  if (!best) return null;
+  return nodeMap[best] || null;
+}}
+
+function updateNextStepCard() {{
+  var card = document.getElementById('nextStepCard');
+  if (!card) return;
+  if (!shouldShowNextStep()) {{
+    card.classList.add('ns-hidden');
+    return;
+  }}
+  var node = computeNextStep();
+  if (!node) {{
+    card.classList.add('ns-hidden');
+    return;
+  }}
+  document.getElementById('nsTitle').textContent = node.title;
+  var meta = node.course ? node.course.replace(/-/g, ' ') : (node.domain || '').replace(/-/g, ' ');
+  document.getElementById('nsMeta').textContent = meta;
+  document.getElementById('nsStart').href = 'topics/' + node.id + '.html';
+  card.classList.remove('ns-hidden');
+}}
+
+function hideNextStepCard() {{
+  var card = document.getElementById('nextStepCard');
+  if (card) card.classList.add('ns-hidden');
+  try {{ sessionStorage.setItem(NEXT_STEP_DISMISSED_KEY, '1'); }} catch (e) {{}}
+}}
+
+updateNextStepCard();
+
+// --- Refine your map ---
+function priorToPosition(prior) {{
+  var best = 2, minDiff = Infinity;
+  for (var i = 0; i < REFINE_POSITIONS.length; i++) {{
+    var diff = Math.abs(REFINE_POSITIONS[i].mul - prior);
+    if (diff < minDiff) {{ minDiff = diff; best = i; }}
+  }}
+  return best;
+}}
+
+function showRefineCard() {{
+  var stageCard = document.getElementById('stageCard');
+  if (stageCard) stageCard.classList.add('stage-hidden');
+  var card = document.getElementById('refineCard');
+  if (!card) return;
+  card.classList.remove('refine-hidden');
+  initRefineSliders();
+}}
+
+function hideRefineCard() {{
+  var card = document.getElementById('refineCard');
+  if (card) card.classList.add('refine-hidden');
+  if (typeof OKGFluency !== 'undefined') {{
+    if (typeof showFluency !== 'undefined' && !showFluency) {{
+      toggleFluency();
+    }} else {{
+      refreshFluency();
+      draw();
+    }}
+  }}
+}}
+
+function initRefineSliders() {{
+  if (typeof OKGFluency === 'undefined') return;
+  var container = document.getElementById('refineRows');
+  if (!container || container.children.length > 0) return;  // already built
+  var current = OKGFluency.getDomainPrior() || {{}};
+
+  REFINE_DOMAINS.forEach(function (pair) {{
+    var slug = pair[0], label = pair[1];
+    var pos = (current[slug] != null) ? priorToPosition(current[slug]) : 2;
+
+    var row = document.createElement('div');
+    row.className = 'refine-row';
+
+    var labelEl = document.createElement('span');
+    labelEl.className = 'refine-label';
+    labelEl.textContent = label;
+
+    var input = document.createElement('input');
+    input.type = 'range';
+    input.min = '0'; input.max = '4'; input.step = '1';
+    input.value = String(pos);
+    input.setAttribute('data-domain', slug);
+
+    var value = document.createElement('span');
+    value.className = 'refine-value';
+    value.id = 'rv-' + slug;
+    value.textContent = REFINE_POSITIONS[pos].label;
+
+    row.appendChild(labelEl);
+    row.appendChild(input);
+    row.appendChild(value);
+    container.appendChild(row);
+
+    input.addEventListener('input', function () {{
+      var p = parseInt(this.value, 10);
+      document.getElementById('rv-' + slug).textContent = REFINE_POSITIONS[p].label;
+      var priors = OKGFluency.getDomainPrior() || {{}};
+      priors[slug] = REFINE_POSITIONS[p].mul;
+      OKGFluency.setDomainPrior(priors);
+    }});
+  }});
+
+  // Stop canvas drag/pan from eating events inside the card
+  var card = document.getElementById('refineCard');
+  if (card) {{
+    ['mousedown', 'touchstart', 'touchmove', 'wheel'].forEach(function (ev) {{
+      card.addEventListener(ev, function (e) {{ e.stopPropagation(); }}, {{ passive: true }});
+    }});
+  }}
 }}
 </script>
 </body>

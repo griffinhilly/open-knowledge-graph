@@ -657,15 +657,15 @@ def _js() -> str:
 // ============================================================
 // Constants
 // ============================================================
-const EXPLORE_PER_DOMAIN = 7;     // questions per domain visit
-const TIER_QUESTIONS = 3;         // questions per stage tier before escalation check
-const TIER_PROMOTE = 0.6;         // 60%+ correct at a tier → escalate
+const SEED_TARGET = 24;           // default stratified seed length
+const SEED_STAGE_WINDOW = 1;      // questions within ±1 stage of user's declared level
 // No auto-advance — user clicks "Next" manually to avoid misclicks
 
 const STAGES_ORDERED = [
   'pre-formal', 'concrete-operations', 'abstract-reasoning',
   'formal-systems', 'advanced', 'expert'
 ];
+const STAGE_INDEX_LOCAL = Object.fromEntries(STAGES_ORDERED.map((s, i) => [s, i]));
 const STAGE_LABELS = {
   'pre-formal':          'Pre-Formal',
   'concrete-operations': 'Concrete Operations',
@@ -701,28 +701,18 @@ const DEEP_STAGE_DIFFICULTY = {
 // ============================================================
 let S = {
   phase: 'loading',
-  // Warmup (adaptive tier escalation)
-  warmupPools: {},      // stage -> [questions]
-  warmupTier: 0,        // current stage index (0=pre-formal ... 4=advanced)
-  warmupTierIndex: 0,   // questions asked at current tier
-  warmupTierCorrect: 0, // correct at current tier
-  warmupAnswers: [],     // {topicId, domain, correct, responseTimeMs, stage}
-  warmupDone: false,
+  // Stratified single-phase seed (default quiz entry)
+  seedQueue: [],         // [question, ...]
+  seedIndex: 0,
+  seedAnswers: [],       // {topicId, domain, correct, responseTimeMs, stage}
   questionStart: null,
   showingFeedback: false,
   feedbackTimer: null,
-  // Exploration
-  exploreDomain: null,
-  exploreQueue: [],
-  exploreIndex: 0,
-  exploreAnswers: [],
-  exploredDomains: {},  // domain -> {correct, total}
-  skippedDomains: {},
-  // Deep dive
+  // Deep dive (opt-in from welcome chooser)
   deepDomain: null,
   deepQueue: [],
   deepIndex: 0,
-  deepAnswers: [],     // {topicId, domain, selfGrade, responseTimeMs, stage}
+  deepAnswers: [],       // {topicId, domain, selfGrade, responseTimeMs, stage}
   deepRevealed: false,
   deepRevealTime: null,
   // Tracking
@@ -777,92 +767,80 @@ function shuffle(arr) {
 }
 
 // ============================================================
-// Build warmup pools: one shuffled pool per stage tier
+// Build 24-question stratified seed queue
 // ============================================================
-function buildWarmupPools() {
-  const pools = {};
-  for (const q of DATA.warmup) {
-    if (!pools[q.stage]) pools[q.stage] = [];
-    pools[q.stage].push(q);
-  }
-  // Also pull exploration questions into pools as overflow
-  for (const domain in DATA.exploration) {
-    for (const q of DATA.exploration[domain]) {
-      if (!pools[q.stage]) pools[q.stage] = [];
-      pools[q.stage].push(q);
-    }
-  }
-  // Shuffle each pool, rotating domains for variety
-  for (const stage in pools) {
-    // Sort by domain first, then interleave
+// Sample questions from warmup + exploration pools, filtered to stages
+// within SEED_STAGE_WINDOW of the user's declared stage. Domains are
+// weighted by OKGFluency.getDomainPrior() (uniform by default, updated
+// by the 19-row domain slider in a future cut). Round-robin across
+// domains so each slot shows a fresh domain where possible.
+function buildSeedQueue(targetCount) {
+  const userStage = (typeof OKGFluency !== 'undefined' && OKGFluency)
+    ? OKGFluency.getUserStage() : 2;  // default abstract-reasoning
+  const domainPrior = (typeof OKGFluency !== 'undefined' && OKGFluency)
+    ? OKGFluency.getDomainPrior() : {};
+
+  // Collect candidate questions per domain, filtered by stage window.
+  // Dedupe by topicId: each topic contributes at most one question to
+  // the seed (first one encountered), so we never serve two questions
+  // about the same concept in a single quiz.
+  function collect(windowSize) {
     const byDomain = {};
-    for (const q of pools[stage]) {
+    const seenTopics = {};
+    function add(q) {
+      if (seenTopics[q.topicId]) return;
+      if (S.usedQuestionKeys[qKey(q)]) return;
+      const qStageIdx = STAGE_INDEX_LOCAL[q.stage];
+      if (qStageIdx == null) return;
+      if (Math.abs(qStageIdx - userStage) > windowSize) return;
+      seenTopics[q.topicId] = true;
       if (!byDomain[q.domain]) byDomain[q.domain] = [];
       byDomain[q.domain].push(q);
     }
-    for (const d in byDomain) shuffle(byDomain[d]);
-    const domains = shuffle(Object.keys(byDomain));
-    const interleaved = [];
-    let round = 0;
-    let added = true;
-    while (added) {
-      added = false;
-      for (const d of domains) {
-        if (round < byDomain[d].length) {
-          interleaved.push(byDomain[d][round]);
-          added = true;
-        }
-      }
-      round++;
+    for (const q of (DATA.warmup || [])) add(q);
+    for (const d in (DATA.exploration || {})) {
+      for (const q of DATA.exploration[d]) add(q);
     }
-    pools[stage] = interleaved;
-  }
-  return pools;
-}
-
-// ============================================================
-// Build exploration queue for a domain
-// ============================================================
-function buildExploreQueue(domain) {
-  const questions = DATA.exploration[domain];
-  if (!questions) return [];
-
-  // Determine the user's floor tier from warmup performance.
-  // The highest stage where they got >= 50% correct becomes the floor;
-  // skip all stages below it so exploration starts near demonstrated level.
-  let floorIndex = 0;
-  if (S.warmupAnswers.length > 0) {
-    const byStage = {};
-    for (const a of S.warmupAnswers) {
-      if (!byStage[a.stage]) byStage[a.stage] = {correct: 0, total: 0};
-      byStage[a.stage].total++;
-      if (a.correct) byStage[a.stage].correct++;
-    }
-    for (let i = 0; i < STAGES_ORDERED.length; i++) {
-      const sp = byStage[STAGES_ORDERED[i]];
-      if (sp && sp.total > 0 && sp.correct / sp.total >= 0.5) {
-        floorIndex = i;
-      }
-    }
+    return byDomain;
   }
 
-  // Sort by stage order, then shuffle within stage, skipping below floor
-  const stageGroups = {};
-  for (const q of questions) {
-    if (S.usedQuestionKeys[qKey(q)]) continue;
-    if (!stageGroups[q.stage]) stageGroups[q.stage] = [];
-    stageGroups[q.stage].push(q);
-  }
+  // Try progressively wider stage windows until there are enough candidates
+  let byDomain = collect(SEED_STAGE_WINDOW);
+  let available = Object.values(byDomain).reduce((n, arr) => n + arr.length, 0);
+  if (available < targetCount) byDomain = collect(SEED_STAGE_WINDOW + 1);
+  available = Object.values(byDomain).reduce((n, arr) => n + arr.length, 0);
+  if (available < targetCount) byDomain = collect(STAGES_ORDERED.length);
+
+  // Shuffle within each domain
+  for (const d in byDomain) shuffle(byDomain[d]);
+
+  // Weighted round-robin sampling
+  const domains = Object.keys(byDomain).filter(d => byDomain[d].length > 0);
+  if (domains.length === 0) return [];
+  const weights = domains.map(d => {
+    const p = domainPrior[d];
+    return (p != null && p > 0) ? p : 1.0;
+  });
 
   const queue = [];
-  for (let i = 0; i < STAGES_ORDERED.length; i++) {
-    if (i < floorIndex) continue;  // skip stages below demonstrated floor
-    const stage = STAGES_ORDERED[i];
-    if (stageGroups[stage]) {
-      shuffle(stageGroups[stage]);
-      queue.push(...stageGroups[stage]);
+  const cursor = {};
+  domains.forEach(d => { cursor[d] = 0; });
+
+  while (queue.length < targetCount) {
+    // Pick a domain weighted by priors, restricted to domains with remaining questions
+    const live = domains.filter(d => cursor[d] < byDomain[d].length);
+    if (live.length === 0) break;
+    const liveWeights = live.map(d => weights[domains.indexOf(d)]);
+    const totalW = liveWeights.reduce((a, b) => a + b, 0);
+    let r = Math.random() * totalW;
+    let picked = live[0];
+    for (let i = 0; i < live.length; i++) {
+      r -= liveWeights[i];
+      if (r <= 0) { picked = live[i]; break; }
     }
+    queue.push(byDomain[picked][cursor[picked]++]);
   }
+
   return queue;
 }
 
@@ -911,15 +889,10 @@ function recordAnswer(question, correct, responseTimeMs) {
 // ============================================================
 function domainPerformance() {
   const perf = {};
-  const all = [...S.warmupAnswers, ...S.exploreAnswers];
-  for (const a of all) {
+  for (const a of S.seedAnswers) {
     if (!perf[a.domain]) perf[a.domain] = {correct: 0, total: 0};
     perf[a.domain].total++;
     if (a.correct) perf[a.domain].correct++;
-  }
-  // Merge explored domains
-  for (const d in S.exploredDomains) {
-    if (!perf[d]) perf[d] = {correct: 0, total: 0};
   }
   // Merge deep dive self-grades (selfGrade >= 0.5 counts as correct)
   for (const a of S.deepAnswers) {
@@ -940,125 +913,67 @@ function domainStrength(perf, domain) {
 }
 
 // ============================================================
-// Phase: Welcome
+// Phase: Welcome (chooser)
 // ============================================================
 function renderWelcome() {
-  const totalQ = DATA.stats.topics_with_questions;
+  const hasDeep = hasDeepDive();
 
   setContent(h('div', {className: 'container'},
     h('h1', null, 'Knowledge Trivia'),
-    h('p', {className: 'subtitle'}, 'A fun way to map what you know'),
+    h('p', {className: 'subtitle'}, 'Pick how you want to play'),
     h('div', {className: 'intro-card'},
-      h('p', {style: {color: '#bbb', fontSize: '15px', lineHeight: '1.7', marginBottom: '20px'}},
-        'This isn\'t a test \u2014 it\'s a trivia game that helps personalize your knowledge map. ' +
-        'Answer what you can, skip what you can\'t. Every answer teaches us something about where you are.'
+      h('h2', {style: {fontSize: '16px', marginBottom: '6px'}}, 'Quick test \u2014 ' + SEED_TARGET + ' questions'),
+      h('p', {style: {color: '#888', fontSize: '13px', marginBottom: '16px'}},
+        'A stratified sweep across all domains at your declared level. Takes about 5 minutes. Skip anything you want.'
       ),
-      h('ul', {className: 'intro-features'},
-        h('li', {'data-icon': '\uD83C\uDFAF'}, 'Quick-fire questions across ' + Object.keys(DATA.exploration).length + ' domains'),
-        h('li', {'data-icon': '\uD83E\uDDE0'}, 'Your answers color your personal knowledge graph'),
-        h('li', {'data-icon': '\u23F1\uFE0F'}, 'Takes about 5\u201310 minutes \u2014 stop anytime'),
-        h('li', {'data-icon': '\uD83D\uDD13'}, 'No grades, no pressure, just discovery')
-      ),
-      h('button', {className: 'next-btn', style: {fontSize: '16px', padding: '14px 32px'}, onClick: startWarmup},
-        'Let\'s Play')
+      h('button', {className: 'next-btn', style: {fontSize: '16px', padding: '14px 32px'}, onClick: startSeed},
+        'Start Quick Test')
     ),
+    hasDeep ? h('div', {className: 'intro-card', style: {marginTop: '18px'}},
+      h('h2', {style: {fontSize: '16px', marginBottom: '6px'}}, 'Deep dive \u2014 one domain at a time'),
+      h('p', {style: {color: '#888', fontSize: '13px', marginBottom: '16px'}},
+        'Self-graded short-answer questions. Pick a domain and go deep.'
+      ),
+      h('button', {className: 'next-btn', style: {fontSize: '16px', padding: '14px 32px'}, onClick: startDeepPick},
+        'Start Deep Dive')
+    ) : null,
     h('div', {className: 'action-row'},
-      h('a', {href: 'assessment.html', className: 'action-btn'}, 'Self-Assessment Instead'),
-      h('a', {href: 'index.html', className: 'action-btn'}, 'Browse Graph')
+      h('a', {href: 'radial-graph.html', className: 'action-btn'}, 'Back to Graph')
     )
   ));
 }
 
 // ============================================================
-// Phase: Warmup (adaptive tier escalation)
+// Phase: Seed (stratified single-phase quiz)
 // ============================================================
-// Asks TIER_QUESTIONS per stage tier, then escalates if doing well.
-// A college-educated user should breeze through easy tiers in ~6 questions
-// and hit their ceiling within ~15 total.
+// Samples SEED_TARGET questions across domains, filtered to within
+// SEED_STAGE_WINDOW stages of the user's declared stage. Weighted by
+// OKGFluency.getDomainPrior() (uniform by default). Replaces the old
+// warmup→exploration phases with a single flat queue.
 
-const TIER_LABELS_SHORT = {
-  'pre-formal': 'Basics',
-  'concrete-operations': 'Elementary',
-  'abstract-reasoning': 'Intermediate',
-  'formal-systems': 'Advanced',
-  'advanced': 'Graduate',
-  'expert': 'Expert'
-};
-
-function startWarmup() {
-  S.phase = 'warmup';
-  S.warmupPools = buildWarmupPools();
-  S.warmupTier = 0;
-  S.warmupTierIndex = 0;
-  S.warmupTierCorrect = 0;
-  S.warmupAnswers = [];
-  S.warmupDone = false;
+function startSeed() {
+  S.phase = 'seed';
+  S.seedQueue = buildSeedQueue(SEED_TARGET);
+  S.seedIndex = 0;
+  S.seedAnswers = [];
   S.showingFeedback = false;
-  // Skip to lowest tier that has questions
-  while (S.warmupTier < STAGES_ORDERED.length &&
-         (!S.warmupPools[STAGES_ORDERED[S.warmupTier]] ||
-          S.warmupPools[STAGES_ORDERED[S.warmupTier]].length === 0)) {
-    S.warmupTier++;
+  if (S.seedQueue.length === 0) {
+    showResults();
+    return;
   }
   render();
 }
 
-function getWarmupQuestion() {
-  // Get next question from current tier's pool
-  const stage = STAGES_ORDERED[S.warmupTier];
-  const pool = S.warmupPools[stage];
-  if (!pool) return null;
-  // Find next unused question
-  for (let i = 0; i < pool.length; i++) {
-    if (!S.usedQuestionKeys[qKey(pool[i])]) return pool[i];
-  }
-  return null;
-}
-
-function advanceTier() {
-  // Always advance to the next tier — don't stop on easy misses.
-  // Domain-specific questions at lower tiers aren't good indicators
-  // of general academic level. The inference uses the HIGHEST tier
-  // where the user demonstrated competence across multiple domains,
-  // so missing "are ribosomes organelles?" doesn't matter if you
-  // later ace formal-systems math.
-  S.warmupTier++;
-  S.warmupTierIndex = 0;
-  S.warmupTierCorrect = 0;
-  // Skip tiers with no questions
-  while (S.warmupTier < STAGES_ORDERED.length &&
-         !getWarmupQuestion()) {
-    S.warmupTier++;
-  }
-}
-
-function renderWarmup() {
-  if (S.warmupDone || S.warmupTier >= STAGES_ORDERED.length) {
-    showWarmupResults();
+function renderSeed() {
+  if (S.seedIndex >= S.seedQueue.length) {
+    showResults();
     return;
   }
-
-  const q = getWarmupQuestion();
-  if (!q) {
-    // No more questions at this tier, try next
-    S.warmupTier++;
-    if (S.warmupTier >= STAGES_ORDERED.length) {
-      showWarmupResults();
-      return;
-    }
-    S.warmupTierIndex = 0;
-    S.warmupTierCorrect = 0;
-    render();
-    return;
-  }
-
-  const tierLabel = TIER_LABELS_SHORT[STAGES_ORDERED[S.warmupTier]] || '';
-  const totalAnswered = S.warmupAnswers.length;
-  const totalCorrect = S.warmupAnswers.filter(a => a.correct).length;
+  const q = S.seedQueue[S.seedIndex];
+  const totalAnswered = S.seedAnswers.length;
+  const totalCorrect = S.seedAnswers.filter(a => a.correct).length;
   const scoreText = totalAnswered > 0 ? totalCorrect + '/' + totalAnswered : '';
-
-  // Progress: show tier progression (5 tiers)
-  const tierProgress = ((S.warmupTier + S.warmupTierIndex / TIER_QUESTIONS) / STAGES_ORDERED.length) * 100;
+  const progress = (S.seedIndex / S.seedQueue.length) * 100;
 
   setContent(h('div', {className: 'container'},
     h('div', {style: {display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px'}},
@@ -1066,23 +981,22 @@ function renderWarmup() {
       scoreText ? h('span', {className: 'score-display'}, scoreText) : null
     ),
     h('p', {className: 'subtitle'},
-      tierLabel + ' \u2014 Question ' + (S.warmupTierIndex + 1) + ' of ' + TIER_QUESTIONS +
-      ' (Tier ' + (S.warmupTier + 1) + ' of ' + STAGES_ORDERED.length + ')'
+      'Question ' + (S.seedIndex + 1) + ' of ' + S.seedQueue.length +
+      ' \u2014 ' + (STAGE_LABELS[q.stage] || q.stage)
     ),
     h('div', {className: 'progress-wrap'},
-      h('div', {className: 'progress-bar', style: {width: tierProgress + '%'}})
+      h('div', {className: 'progress-bar', style: {width: progress + '%'}})
     ),
-    h('span', {className: 'phase-label warmup'}, tierLabel),
-    renderQuestionCard(q, 'warmup'),
+    renderQuestionCard(q, (ans) => answerSeed(q, ans)),
     h('div', {className: 'action-row'},
-      h('button', {className: 'action-btn', onClick: skipWarmupQuestion}, 'Skip'),
-      h('button', {className: 'action-btn', onClick: () => { showWarmupResults(); }}, 'I\'m Done')
+      h('button', {className: 'action-btn', onClick: skipSeedQuestion}, 'Skip'),
+      h('button', {className: 'action-btn', onClick: showResults}, 'I\u2019m Done')
     )
   ));
   S.questionStart = performance.now();
 }
 
-function answerWarmup(q, selectedAnswer) {
+function answerSeed(q, selectedAnswer) {
   if (S.showingFeedback) return;
   S.showingFeedback = true;
 
@@ -1090,241 +1004,27 @@ function answerWarmup(q, selectedAnswer) {
   const correct = selectedAnswer === q.answer;
 
   recordAnswer(q, correct, responseTimeMs);
-  S.warmupAnswers.push({
+  S.seedAnswers.push({
     topicId: q.topicId, domain: q.domain, correct, responseTimeMs,
     stage: q.stage
   });
 
-  S.warmupTierIndex++;
-  S.warmupTierCorrect += correct ? 1 : 0;
-
   showFeedback(q, selectedAnswer, correct, () => {
     S.showingFeedback = false;
-    // Check tier escalation after TIER_QUESTIONS at this tier
-    if (S.warmupTierIndex >= TIER_QUESTIONS) {
-      advanceTier();
-    }
+    S.seedIndex++;
     render();
   });
 }
 
-function skipWarmupQuestion() {
+function skipSeedQuestion() {
   if (S.showingFeedback) return;
-  const q = getWarmupQuestion();
+  const q = S.seedQueue[S.seedIndex];
   if (q) S.usedQuestionKeys[qKey(q)] = true;
-  S.warmupTierIndex++;
-  if (S.warmupTierIndex >= TIER_QUESTIONS) {
-    advanceTier();
-  }
+  S.seedIndex++;
   render();
 }
 
-function showWarmupResults() {
-  S.phase = 'warmup-results';
-  render();
-}
-
-function renderWarmupResults() {
-  const perf = domainPerformance();
-  const totalCorrect = S.warmupAnswers.filter(a => a.correct).length;
-  const totalAnswered = S.warmupAnswers.length;
-  const pct = totalAnswered > 0 ? Math.round(totalCorrect / totalAnswered * 100) : 0;
-
-  // Build domain results sorted by performance
-  const domainResults = [];
-  for (const d of DOMAIN_ORDER) {
-    if (perf[d] && perf[d].total > 0) {
-      const p = perf[d];
-      domainResults.push({domain: d, correct: p.correct, total: p.total, pct: Math.round(p.correct / p.total * 100)});
-    }
-  }
-  domainResults.sort((a, b) => b.pct - a.pct);
-
-  const hasExploreQuestions = Object.keys(DATA.exploration).length > 0;
-
-  setContent(h('div', {className: 'container'},
-    h('h1', null, 'Warm-Up Complete!'),
-    h('p', {className: 'subtitle'}, 'You got ' + totalCorrect + ' out of ' + totalAnswered + ' right (' + pct + '%)'),
-    h('div', {className: 'summary-card'},
-      h('h2', null, 'Domain Breakdown'),
-      ...domainResults.map(dr =>
-        h('div', {className: 'stat-bar'},
-          h('span', {className: 'label'}, formatDomain(dr.domain)),
-          h('div', {className: 'bar'},
-            h('div', {className: 'bar-fill', style: {
-              width: dr.pct + '%',
-              background: dr.pct >= 60 ? '#4CAF50' : dr.pct >= 30 ? '#FFC107' : '#666'
-            }})
-          ),
-          h('span', {className: 'value'}, dr.correct + '/' + dr.total)
-        )
-      )
-    ),
-    hasExploreQuestions ? h('div', {className: 'intro-card'},
-      h('h2', null, 'Ready to Explore Deeper?'),
-      h('p', {style: {color: '#999', fontSize: '14px', marginBottom: '16px'}},
-        'Pick a domain to dive into harder questions. You can explore as many or as few as you like.'
-      ),
-      h('button', {className: 'next-btn', style: {fontSize: '16px', padding: '14px 32px'}, onClick: startExplore},
-        'Explore Domains')
-    ) : null,
-    h('div', {className: 'link-row'},
-      h('button', {className: 'link-btn', onClick: showResults}, 'See Final Results'),
-      h('a', {href: 'radial-graph.html', className: 'link-btn'}, 'View Knowledge Graph')
-    )
-  ));
-}
-
-// ============================================================
-// Phase: Exploration
-// ============================================================
-function startExplore() {
-  S.phase = 'explore-pick';
-  render();
-}
-
-function renderExplorePick() {
-  const perf = domainPerformance();
-
-  // Build domain cards
-  const strong = [], familiar = [], weak = [];
-  for (const d of DOMAIN_ORDER) {
-    if (!DATA.exploration[d]) continue;
-    if (S.skippedDomains[d]) continue;
-
-    const remaining = DATA.exploration[d].filter(q => !S.usedQuestionKeys[qKey(q)]).length;
-    if (remaining === 0) continue;
-
-    const strength = domainStrength(perf, d);
-    const explored = S.exploredDomains[d] || null;
-    const card = {domain: d, strength, remaining, explored};
-
-    if (strength === 'strong') strong.push(card);
-    else if (strength === 'familiar') familiar.push(card);
-    else weak.push(card);
-  }
-
-  const allCards = [...strong, ...familiar, ...weak];
-
-  if (allCards.length === 0) {
-    showResults();
-    return;
-  }
-
-  function makeCard(c) {
-    const p = perf[c.domain];
-    const pStr = p && p.total > 0 ? p.correct + '/' + p.total + ' correct' : c.remaining + ' questions';
-    const cls = 'domain-card ' + c.strength + (c.explored ? ' explored' : '');
-    return h('div', {className: cls, onClick: () => startDomainExplore(c.domain)},
-      h('div', {className: 'name'}, formatDomain(c.domain)),
-      h('div', {className: 'info'}, pStr + (c.explored ? ' \u2014 explored' : ''))
-    );
-  }
-
-  setContent(h('div', {className: 'container'},
-    h('h1', null, 'Choose a Domain'),
-    h('p', {className: 'subtitle'}, 'Pick a domain to explore with harder questions'),
-    h('div', {className: 'domain-grid'},
-      ...allCards.map(makeCard)
-    ),
-    h('div', {className: 'link-row'},
-      hasDeepDive() ? h('button', {className: 'link-btn', style: {background: 'rgba(255,152,0,0.1)', borderColor: '#FF9800', color: '#FF9800'}, onClick: startDeepPick},
-        'Deep Dive \u2192') : null,
-      h('button', {className: 'link-btn', onClick: showResults}, 'See Final Results'),
-      h('a', {href: 'radial-graph.html', className: 'link-btn'}, 'View Knowledge Graph')
-    )
-  ));
-}
-
-function startDomainExplore(domain) {
-  S.phase = 'explore';
-  S.exploreDomain = domain;
-  S.exploreQueue = buildExploreQueue(domain);
-  S.exploreIndex = 0;
-  S.showingFeedback = false;
-  if (S.exploreQueue.length === 0) {
-    S.phase = 'explore-pick';
-    render();
-    return;
-  }
-  render();
-}
-
-function renderExplore() {
-  if (S.exploreIndex >= S.exploreQueue.length || S.exploreIndex >= EXPLORE_PER_DOMAIN) {
-    finishDomainExplore();
-    return;
-  }
-
-  const q = S.exploreQueue[S.exploreIndex];
-  const progress = (S.exploreIndex / Math.min(EXPLORE_PER_DOMAIN, S.exploreQueue.length)) * 100;
-
-  // Domain explore score
-  const domainAnswers = S.exploreAnswers.filter(a => a.domain === S.exploreDomain);
-  const correct = domainAnswers.filter(a => a.correct).length;
-  const total = domainAnswers.length;
-  const scoreText = total > 0 ? correct + '/' + total : '';
-
-  setContent(h('div', {className: 'container'},
-    h('div', {style: {display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px'}},
-      h('h1', {style: {margin: 0}}, formatDomain(S.exploreDomain)),
-      scoreText ? h('span', {className: 'score-display'}, scoreText) : null
-    ),
-    h('p', {className: 'subtitle'},
-      'Question ' + (S.exploreIndex + 1) + ' of ' + Math.min(EXPLORE_PER_DOMAIN, S.exploreQueue.length) +
-      ' \u2014 ' + STAGE_LABELS[q.stage]
-    ),
-    h('div', {className: 'progress-wrap'},
-      h('div', {className: 'progress-bar', style: {width: progress + '%'}})
-    ),
-    h('span', {className: 'phase-label explore'}, 'Exploration'),
-    renderQuestionCard(q, 'explore'),
-    h('div', {className: 'action-row'},
-      h('button', {className: 'action-btn', onClick: skipExploreQuestion}, 'Skip'),
-      h('button', {className: 'action-btn', onClick: () => { S.phase = 'explore-pick'; render(); }}, 'Something Different'),
-      h('button', {className: 'action-btn', onClick: () => { S.skippedDomains[S.exploreDomain] = true; S.phase = 'explore-pick'; render(); }}, 'Skip Domain'),
-      h('button', {className: 'action-btn', onClick: showResults}, 'I\'m Done')
-    )
-  ));
-  S.questionStart = performance.now();
-}
-
-function answerExplore(q, selectedAnswer) {
-  if (S.showingFeedback) return;
-  S.showingFeedback = true;
-
-  const responseTimeMs = Math.round(performance.now() - S.questionStart);
-  const correct = q.type === 'multiple-choice'
-    ? selectedAnswer === q.answer
-    : selectedAnswer === q.answer;
-
-  recordAnswer(q, correct, responseTimeMs);
-  S.exploreAnswers.push({topicId: q.topicId, domain: q.domain, correct, responseTimeMs});
-
-  showFeedback(q, selectedAnswer, correct, () => {
-    S.showingFeedback = false;
-    S.exploreIndex++;
-    render();
-  });
-}
-
-function skipExploreQuestion() {
-  if (S.showingFeedback) return;
-  S.usedQuestionKeys[qKey(S.exploreQueue[S.exploreIndex])] = true;
-  S.exploreIndex++;
-  render();
-}
-
-function finishDomainExplore() {
-  const domainAnswers = S.exploreAnswers.filter(a => a.domain === S.exploreDomain);
-  S.exploredDomains[S.exploreDomain] = {
-    correct: domainAnswers.filter(a => a.correct).length,
-    total: domainAnswers.length
-  };
-  S.phase = 'explore-pick';
-  render();
-}
-
+// Stub retained for now — avoids forward-reference issues with old callers
 // ============================================================
 // Phase: Deep Dive (self-graded short-answer)
 // ============================================================
@@ -1581,10 +1281,19 @@ function skipDeepQuestion() {
 // ============================================================
 // Question card rendering (shared)
 // ============================================================
-function renderQuestionCard(q, phase) {
-  const answerHandler = phase === 'warmup'
-    ? (ans) => answerWarmup(q, ans)
-    : (ans) => answerExplore(q, ans);
+function renderQuestionCard(q, onAnswer) {
+  // Defensive shuffle: MC options in the question bank have a known
+  // position bias (~64% correct at position B, 95% at B/C combined).
+  // Shuffle in-place on first render so no position is gameable;
+  // cache via _shuffled so re-renders of the same question don't reshuffle.
+  if (q.type === 'multiple-choice' && Array.isArray(q.options) && !q._shuffled) {
+    const pairs = q.options.map((opt, i) => ({opt, wasCorrect: i === q.answer}));
+    shuffle(pairs);
+    q.options = pairs.map(p => p.opt);
+    q.answer = pairs.findIndex(p => p.wasCorrect);
+    q._shuffled = true;
+  }
+  const answerHandler = onAnswer;
 
   const card = h('div', {className: 'question-card', id: 'qcard'},
     h('span', {className: 'domain-tag'}, formatDomain(q.domain)),
@@ -1691,7 +1400,7 @@ function showResults() {
  * Build domain-stage performance map and run inference.
  */
 function runInference() {
-  const allAnswers = [...S.warmupAnswers, ...S.exploreAnswers];
+  const allAnswers = [...S.seedAnswers];
 
   // Build domainPerformance: {domain: {stage: {correct, total}}}
   // We need to map answers back to their stage via the question data
@@ -1903,7 +1612,7 @@ function renderAdjustments(container, domainPerf) {
   if (typeof OKGFluency === 'undefined' || !OKGFluency) return;
   const scores = OKGFluency.loadScores();
   const currentAdj = OKGFluency.loadAdjustments();
-  const allAns = [...S.warmupAnswers, ...S.exploreAnswers];
+  const allAns = [...S.seedAnswers];
   const answeredTopics = new Set(allAns.map(a => a.topicId));
 
   const domainGroups = {};
@@ -2024,7 +1733,12 @@ function reRenderResults() {
 // Results: orchestrate all components
 // ============================================================
 function renderResults() {
-  const mcAnswers = [...S.warmupAnswers, ...S.exploreAnswers];
+  // Mark seed completion so the radial's retention corner card can appear.
+  // Only set if the user actually answered at least one question.
+  if (S.seedAnswers.length > 0 || S.deepAnswers.length > 0) {
+    try { localStorage.setItem('okg-seed-completed', '1'); } catch (e) {}
+  }
+  const mcAnswers = [...S.seedAnswers];
   const deepCount = S.deepAnswers ? S.deepAnswers.length : 0;
   const allAnswers = deepCount > 0
     ? [...mcAnswers, ...S.deepAnswers.map(a => ({...a, correct: a.selfGrade >= 0.5}))]
@@ -2126,7 +1840,6 @@ function renderResults() {
 
   // --- 6. Action Buttons ---
   root.appendChild(h('div', {className: 'link-row'},
-    h('button', {className: 'link-btn', onClick: startExplore}, 'Explore More Domains'),
     hasDeepDive() ? h('button', {className: 'link-btn', style: {background: 'rgba(255,152,0,0.1)', borderColor: '#FF9800', color: '#FF9800'}, onClick: startDeepPick},
       'Try Deep Dive') : null,
     h('a', {href: 'radial-graph.html', className: 'link-btn', style: {background: '#2a4a2a', borderColor: '#4CAF50'}},
@@ -2142,21 +1855,12 @@ function renderResults() {
 function resetQuiz() {
   S = {
     phase: 'welcome',
-    warmupPools: {},
-    warmupTier: 0,
-    warmupTierIndex: 0,
-    warmupTierCorrect: 0,
-    warmupAnswers: [],
-    warmupDone: false,
+    seedQueue: [],
+    seedIndex: 0,
+    seedAnswers: [],
     questionStart: null,
     showingFeedback: false,
     feedbackTimer: null,
-    exploreDomain: null,
-    exploreQueue: [],
-    exploreIndex: 0,
-    exploreAnswers: [],
-    exploredDomains: {},
-    skippedDomains: {},
     deepDomain: null,
     deepQueue: [],
     deepIndex: 0,
@@ -2186,10 +1890,7 @@ function render() {
       ));
       break;
     case 'welcome':       renderWelcome(); break;
-    case 'warmup':        renderWarmup(); break;
-    case 'warmup-results': renderWarmupResults(); break;
-    case 'explore-pick':  renderExplorePick(); break;
-    case 'explore':       renderExplore(); break;
+    case 'seed':          renderSeed(); break;
     case 'deep-pick':     renderDeepPick(); break;
     case 'deep-dive':     renderDeepDive(); break;
     case 'results':       renderResults(); break;

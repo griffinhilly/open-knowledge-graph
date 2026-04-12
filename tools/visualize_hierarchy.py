@@ -2479,13 +2479,17 @@ body {{
   <div class="cta-row">
     <a class="cta cta-explore" href="radial-graph.html">
       <h2>Explore the Map</h2>
-      <p>Browse the full knowledge graph. See how domains connect, zoom into courses, and click any topic to learn more.</p>
+      <p>Browse the full knowledge graph. Set your level on arrival, then zoom into any topic.</p>
     </a>
     <a class="cta cta-personalize" href="quiz.html">
-      <h2>Personalize Your Map</h2>
-      <p>Answer trivia questions across every domain. Your map will color by mastery, revealing your learning frontier.</p>
+      <h2>Test Yourself</h2>
+      <p>A 24-question sweep across every domain at your declared level. Calibrates the map to what you actually know.</p>
     </a>
   </div>
+  <p style="margin-top:18px; font-size:13px; color:#778;">
+    Setting up for a child?
+    <a href="radial-graph.html?preset=sprout" style="color:#9cd; text-decoration:none; border-bottom:1px dotted #556;">Start in Sprout mode</a>
+  </p>
 </div>
 
 <div class="progress-section" id="progress-section" style="display:none">

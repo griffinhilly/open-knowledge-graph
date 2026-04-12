@@ -1,11 +1,12 @@
 # Open Knowledge Graph Memory
 
-## Status (Apr 9, 2026)
+## Status (Apr 12, 2026)
 - **15,290 topics** across **19 domains**, **261 courses** (16 literature courses)
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **Radial graph shows 18 domains** (practical-life-skills excluded — kept on index/domain maps)
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
 - Phase 10 DONE. Phase 10.5 (Literature Expansion) DONE. Phase 11 (Early-Childhood) DONE. **Phase 9D effectively DONE.**
+- **Phase 12A DONE** (Apr 12, 2026): virality-first onboarding shipped in 4 cuts. All 9 plan steps delivered. Net +267 LoC (plan target −50/+150; over-budget on refine + next-step card DOM overhead, within "gut-check not abort" threshold). Next actionable: Phase 12B (Sprout + pedagogy-typing + per-edge strength).
 - **Domain maps are primary navigation** — hierarchy views removed from CI and all links
 - **CI pipeline**: validate → index → radial → topic pages → domain maps → assessment → quiz
 - **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking + quiz staleness warning + question YAML error checks (~17s). Setup: `git config core.hooksPath hooks`
@@ -38,6 +39,42 @@
 - All 8 CI-pipeline tools refactored to use it (validate, generate_topic_pages, generate_assessment, generate_assessment_questions, generate_domain_questions, visualize_domain_map, visualize_hierarchy, visualize_radial). Net -3 lines.
 - Imports work from repo root because Python adds the script's directory (`tools/`) to `sys.path[0]`.
 - Commit `38b8f6423`, pushed to master. CI deployment in progress.
+
+## Phase 12A Shipped (Apr 12, 2026)
+
+All 9 plan steps across 4 cuts. Key implementation notes that future cuts / 12B/12C should not re-derive:
+
+- **`showFluency` toggle retained** as pure-map escape hatch (Griffin's explicit call). Alpha gradient + frontier bonus run only when fluency is on. Cold-start floor is applied on top of `propagate()`'s output inside `refreshFluency()`, not contaminating the Bayesian evidence store.
+- **Symmetric stage decay** (`max(0, 1 − 0.4 × |s − u|)`) shipped per plan — produces a "band of visibility" that sweeps up with the slider. Asymmetric variant (full credit for prior stages) parked as a live usability question; revisit when real usage tells us which feels right.
+- **`getEffectiveScore` split**: floor is display-only. `getScore` / Bayesian updates / propagation unchanged. A "don't know this" click calls `setScore(id, 0)`; the floor will re-raise it if the declared stage implies it should be known, which is correct for display semantics.
+- **Deep-dive flow kept intact** as opt-in second entry from the quiz welcome chooser. Griffin wanted extensive single-domain testing preserved. Only warmup + exploration deleted. Welcome screen is a 2-option chooser: "Quick test (24Q seed)" vs "Deep dive".
+- **Seed question-bank bug found + fixed at runtime**: MC options in `assessment-questions.json` have ~95% B+C position bias (audited: B=64%, C=30% across both warmup and exploration pools; literature/economics/engineering/formal-sciences/physics are at 100% B+C). `renderQuestionCard` now shuffles MC options per render and re-indexes `q.answer`. One-time data fix is a separate follow-up, not shipped in 12A.
+- **Topic dedup in `buildSeedQueue`**: each topic contributes at most one question to a seed (first encountered). Fixed the "two Boltzmann questions in five" bug Griffin hit in testing.
+- **Retention card scoring**: `prereq_avg × log(1 + out_degree) × goal_proximity_bonus`. Out-degree is successor count (how many topics depend on this one = centrality). Goal proximity bonus is 2.0 if topic is on any starred goal's learning path, else 1.0.
+- **Refine-your-map slider writes to `okg-domain-prior`**, not `okg-adjustments` (plan was imprecise — adjustments are course-level, domain prior is the cold-start multiplier from Cut 1). 5 positions map to multipliers {0.2, 0.6, 1.0, 1.4, 1.8}.
+- **`preset=sprout` URL param** is live as a stub: forces `setUserStage(0)` and clears the dismiss flag. Sprout shell itself (TTS, emoji buttons, parent PIN) is Phase 12B.
+- **Seed completion flag** `okg-seed-completed=1` set inside `renderResults()` only if user answered ≥1 question. Gates the retention corner card on the radial alongside "has ≥1 starred goal".
+
+## Phase 12A Follow-ups (not blocking 12B)
+
+- **MC position-bias data fix**: rewrite `assessment-questions.json` with pre-shuffled options so the bias is gone at source. Runtime shuffle in `renderQuestionCard` is the load-bearing shield for now.
+- **Course-level picker inside Deep Dive**: currently domain-only; Griffin mentioned wanting "domain/course" granularity.
+- **Stage-inversion edge spot-check**: 2,325 edges have prereq staged more advanced than successor. The alpha gradient formula produces locally-inverted signals at those pairs. Low priority unless a visual glitch surfaces.
+- **Asymmetric stage decay vs symmetric**: user-experience question, parked until real use.
+- **Lightweight seed adaptivity**: rolling-window nudge after N questions if >75% or <25% correct. Deferred to Phase 12C per Griffin's call.
+
+## Phase 12 Dialectic Rulings (Apr 11, 2026)
+
+Non-default decisions from the 3-round multi-agent dialectic (Psychometrics / Math Academy / UX / Skeptic → Opus referee). Record so future sessions don't re-derive:
+
+- **Graph-as-product wins over lesson-feed-as-product.** 3-of-4 lens convergence + Griffin's explicit virality framing. OKG's wedge over Math Academy is breadth + self-direction, not sequenced mastery. Rejection of lesson-feed applies to Personas B/C only — Sprout (12B) is a partial lesson-feed concession for Persona A, and that's OK as long as the conceptual boundary stays clean.
+- **No new per-topic attributes.** Rejected: `general_knowledge_tier`, `lesson_minutes`, `diagnostic_value`. Rationale: 15,290 topics × new attributes = rot liabilities when topics get renamed/merged/restaged. Alternative: 19-row domain-level slider UI fed into cold-start prior. Cost 0 annotations.
+- **Per-edge `strength` (hard/soft) is the ONE new annotation** that survived scrutiny. Per-edge (20-40K edges), not per-topic. Generated via one-time Haiku labeling pass with 200-edge sample QA first. Fixes the "all prereqs treated equally" data-quality bug masquerading as a model bug.
+- **Pedagogy-typing at domain level** (`assessable` vs `reflective`) — referee called it the best idea in the dialectic not in the original brief. Reflective domains (literature, philosophy, art history, most of history, music appreciation) get mark-as-read + optional text field, NOT quizzes. Fixes "90% mastery on The Sublime in Wordsworth" absurdity. ~20 min of Griffin classification time on 19 `_domain.yml` files.
+- **24Q seed is opt-in, not gated.** Virality preserves over calibration precision. First-time visitors see the radial immediately, then a dismissable stage slider card. Deeper calibration (19-row slider, 24Q seed) lives behind buttons for engaged users.
+- **FSRS rejected as retention mechanism.** Replaced by stale-topics query (>3 weeks since touch AND fluency ∈ [50,85]). Pure localStorage timestamp query, no scheduling engine. If long-term retention becomes the bottleneck, revisit — but not as Phase 12.
+- **Rasch model is Phase 12C conditional only.** Stage heuristic (`domain_prior × stage_decay`) does the work in 12A. Rasch with θ∈ℝ^8 only if stage heuristic proves off by >1 stage in >20% of sampled users.
+- **One component tree with conditional Sprout branch**, NOT three shell codebases. Three persona "presets" are thin preset bundles parameterizing one render path. Sprout is one `if (preset === 'sprout') return <SproutCard/>` conditional.
 
 ## Decisions
 - **Format**: Markdown + YAML frontmatter (one file per topic)
@@ -108,3 +145,5 @@
 - **Killing bash scripts doesn't kill `claude --print` children**: The orchestrator spawns `claude --print` as a subprocess. Killing the parent bash script (via `taskkill`) leaves the claude process running. This caused double-generation when a sequential batch was "killed" but its child completed. Use process groups or kill the claude PID directly.
 - **Haiku MC option format bug**: Haiku agents frequently write MC options as `{0: "text"}` dicts instead of plain strings in YAML. Run a validation pass after any Haiku Q+E generation to catch these before pushing.
 - **Haiku context limits for Q+E**: Haiku agents hit context limits at ~30-40 file edits and either stop or write placeholder content. Split courses into ≤30-file batches for Q+E agents.
+- **Quiz state machine lives in `generate_quiz_page.py`, not `fluency.js`**: The 3-phase warmup/exploration/deep-dive orchestrator is embedded JS inside the Python generator (~250 lines). When reasoning about fluency engine LoC, don't conflate — `fluency.js` holds the Bayesian/propagation core, the Python generator holds the quiz orchestration.
+- **Stage inversion edges interact with any stage-distance rendering**: 2,325 edges (~8%) have prereq staged more advanced than successor. Any new render logic using `stage_distance` (e.g., Phase 12 opacity field) will produce inverted local signals around those pairs. Spot-check on known-bad edges before shipping. Inversion list is derivable from `stats.py` output.
