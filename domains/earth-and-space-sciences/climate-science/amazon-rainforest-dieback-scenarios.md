@@ -9,7 +9,7 @@ prerequisites:
 - id: climate-models-and-projections
   type: hard
 - id: climate-tipping-points
-  type: soft
+  type: hard
 builds-toward:
 - regional-climate-downscaling
 - climate-extremes-and-attribution

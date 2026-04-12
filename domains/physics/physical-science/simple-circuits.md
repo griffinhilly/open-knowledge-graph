@@ -5,7 +5,7 @@ domain: physics
 course: physical-science
 prerequisites:
 - id: static-electricity-intro
-  type: soft
+  type: hard
 - id: energy-forms-heat-light-sound
   type: soft
 builds-toward:

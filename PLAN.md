@@ -420,19 +420,21 @@ Virality-first learning platform redesign. Serves three personas (young child + 
 
 **Designed via 3-round multi-agent dialectic** (adaptive psychometrics / Math Academy pedagogy / UX progressive disclosure / anti-complexity skeptic → Opus referee).
 
-### Phase 12A — DONE (Apr 12, 2026)
-All 9 plan steps shipped in 4 cuts. See MEMORY.md "Phase 12A Shipped" for implementation decisions.
+### Phase 12A — PARTIALLY SHIPPED (Apr 12, 2026)
+
+7 of 9 plan steps fully shipped; 2 shipped with known divergences from the plan. See MEMORY.md "Phase 12A Shipped" and "Phase 12A Reviewer Findings" for implementation decisions and what is still outstanding.
+
 - [x] Step 1: Cold-start prior formula in fluency.js (`computeFloor`, `getUserStage`, `getDomainPrior`)
 - [x] Step 2: Stage slider DOM overlay with first-visit auto-show + dismiss persistence
-- [x] Step 3: Alpha-gradient opacity field on radial (`showFluency` toggle retained)
+- [~] **Step 3: Alpha-gradient opacity field ADDITIVE, not a replace.** The plan specified "Single render path: opacity = f(…). Replaces the dual color-mode code" with a net −60 LoC delete. What actually shipped: the alpha gradient was added inside the existing `if (showFluency)` branch, and `showFluency` plus its ~10 branches were retained as a pure-map escape hatch (Griffin's explicit call). The −60 delete did not happen. The new opacity code is an overlay on top of the existing dual-mode path, not a replacement for it. **Outstanding**: either delete the `showFluency` branches and make the opacity field the single render path (as the plan intended), or formally amend the plan to "additive" and reconcile the LoC ledger.
 - [x] Step 4: "Your next step" retention corner card
 - [x] Step 5: Inline "I know / don't know this" buttons on topic panel
 - [x] Step 6: 19-row "Refine your map" domain slider writing to `okg-domain-prior`
-- [x] Step 7: 24Q stratified seed replaces warmup phase (opt-in via welcome chooser)
-- [x] Step 8: 3-phase scaffolding deleted from `generate_quiz_page.py` (deep-dive retained as opt-in per Griffin's call)
+- [x] Step 7: 24Q stratified seed replaces warmup+exploration phases (opt-in via welcome chooser)
+- [~] **Step 8: 3-phase scaffolding delete was PARTIAL.** Plan said "delete the warmup→exploration→deep-dive state machine"; actual delete removed only warmup and exploration. Deep-dive flow retained as an opt-in second entry from the welcome chooser (Griffin's explicit call to preserve extensive single-domain testing). The −250 LoC credit booked against the budget is partially fictional — real delete was closer to −200. **Outstanding**: either finish deleting deep-dive, or formally amend the plan to recognize deep-dive as a retained opt-in feature.
 - [x] Step 9: Index CTA cleanup + `preset=sprout` stub link
 
-Net LoC: +267 across 4 files (over plan's −50/+150 target — refine + next-step card DOM/CSS overhead came in higher than estimated, within "gut-check not auto-abort" threshold).
+**Net LoC: +267 across 4 files** (plan target −50/+150). The two step divergences above account for approximately **+140 LoC of the overshoot** (step 3's undelivered −60 + step 8's partial delete). The remaining ~+80 LoC of overshoot is refine + next-step card DOM/CSS coming in heavier than estimated. This correction is material — the original framing attributed the entire overshoot to CSS bloat, which would suggest trimming CSS as the fix. The actual fix is reconciling the undelivered deletes.
 
 ### Phase 12B — IN PROGRESS
 

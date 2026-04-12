@@ -7,7 +7,7 @@ prerequisites:
 - id: boundary-value-problems-electrostatics
   type: hard
 - id: separation-variables-pde
-  type: soft
+  type: hard
 builds-toward: []
 tags:
 - separation-of-variables
