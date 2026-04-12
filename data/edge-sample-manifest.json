@@ -1,0 +1,4112 @@
+{
+  "electrophilic-addition-to-alkenes": {
+    "title": "Electrophilic Addition to Alkenes",
+    "domain": "chemistry",
+    "course": "organic-chemistry",
+    "prereqs": [
+      {
+        "id": "alkene-structure-and-nomenclature",
+        "title": "Alkene Structure, Nomenclature, and E/Z Isomerism",
+        "current_type": "hard"
+      },
+      {
+        "id": "reaction-mechanisms-overview",
+        "title": "Organic Reaction Mechanisms and Arrow Pushing",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "period-doubling-route-to-chaos": {
+    "title": "Period-Doubling Route to Chaos",
+    "domain": "physics",
+    "course": "nonlinear-dynamics",
+    "prereqs": [
+      {
+        "id": "iterated-maps-logistic-map",
+        "title": "Iterated Maps and the Logistic Map",
+        "current_type": "hard"
+      },
+      {
+        "id": "bifurcation-theory-saddle-node",
+        "title": "Saddle-Node Bifurcation",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "gaba-glutamate-neurotransmission-balance": {
+    "title": "GABA and Glutamate: The Main Inhibitory and Excitatory Systems",
+    "domain": "psychology",
+    "course": "biological-psychology",
+    "prereqs": [
+      {
+        "id": "inhibitory-excitatory-synaptic-balance",
+        "title": "Excitatory-Inhibitory Balance in Neural Circuits",
+        "current_type": "hard"
+      },
+      {
+        "id": "gabaergic-inhibition",
+        "title": "GABAergic Inhibition: Balance and Regulation in Neural Circuits",
+        "current_type": "soft"
+      },
+      {
+        "id": "glutamatergic-excitation",
+        "title": "Glutamatergic Excitation: Information Transfer and Synaptic Plasticity",
+        "current_type": "soft"
+      },
+      {
+        "id": "gaba-systems",
+        "title": "GABAergic Inhibitory Transmission",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "polar-graphs": {
+    "title": "Polar Graphs",
+    "domain": "mathematics",
+    "course": "precalculus",
+    "prereqs": [
+      {
+        "id": "polar-coordinates",
+        "title": "Polar Coordinates",
+        "current_type": "hard"
+      },
+      {
+        "id": "graphing-sine-and-cosine",
+        "title": "Graphing Sine and Cosine",
+        "current_type": "soft"
+      },
+      {
+        "id": "conic-sections-overview",
+        "title": "Conic Sections Overview",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "parallel-transport": {
+    "title": "Parallel Transport",
+    "domain": "mathematics",
+    "course": "differential-geometry",
+    "prereqs": [
+      {
+        "id": "connections-and-covariant-derivative",
+        "title": "Connections and Covariant Derivative",
+        "current_type": "hard"
+      },
+      {
+        "id": "vector-fields-differential-geometry",
+        "title": "Vector Fields",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "whole-number-fractions": {
+    "title": "Fractions Equal to Whole Numbers",
+    "domain": "mathematics",
+    "course": "3rd-grade",
+    "prereqs": [
+      {
+        "id": "unit-fractions",
+        "title": "Unit Fractions",
+        "current_type": "hard"
+      },
+      {
+        "id": "fractions-on-number-line",
+        "title": "Fractions on a Number Line",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "bayesian-epistemology": {
+    "title": "Bayesian Epistemology",
+    "domain": "philosophy",
+    "course": "epistemology",
+    "prereqs": [
+      {
+        "id": "justified-true-belief",
+        "title": "The Justified True Belief Account of Knowledge",
+        "current_type": "hard"
+      },
+      {
+        "id": "reliabilism",
+        "title": "Process Reliabilism",
+        "current_type": "soft"
+      },
+      {
+        "id": "probabilistic-reasoning",
+        "title": "Probabilistic Reasoning",
+        "current_type": "hard"
+      },
+      {
+        "id": "probabilistic-computation",
+        "title": "Probabilistic Computation and BPP",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "separation-variables-elliptic-equations": {
+    "title": "Separation of Variables for Elliptic PDEs",
+    "domain": "physics",
+    "course": "electrodynamics",
+    "prereqs": [
+      {
+        "id": "boundary-value-problems-electrostatics",
+        "title": "Boundary Value Problems in Electrostatics",
+        "current_type": "hard"
+      },
+      {
+        "id": "separation-variables-pde",
+        "title": "Separation of Variables for Partial Differential Equations",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "genetic-code": {
+    "title": "The Genetic Code",
+    "domain": "biology",
+    "course": "genetics-and-molecular-biology",
+    "prereqs": [
+      {
+        "id": "dna-structure",
+        "title": "DNA Structure",
+        "current_type": "hard"
+      },
+      {
+        "id": "gene-expression-overview",
+        "title": "Central Dogma of Molecular Biology",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "sm-nd-system": {
+    "title": "Sm-Nd Isotope System",
+    "domain": "earth-and-space-sciences",
+    "course": "geochemistry",
+    "prereqs": [
+      {
+        "id": "rb-sr-system",
+        "title": "Rb-Sr Isotope System",
+        "current_type": "soft"
+      },
+      {
+        "id": "trace-element-geochemistry",
+        "title": "Trace Element Geochemistry",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "stability-of-circular-orbits": {
+    "title": "Stability of Circular Orbits",
+    "domain": "physics",
+    "course": "classical-mechanics",
+    "prereqs": [
+      {
+        "id": "orbital-elements-and-trajectories",
+        "title": "Orbital Elements and Trajectories",
+        "current_type": "hard"
+      },
+      {
+        "id": "circular-motion-dynamics",
+        "title": "Circular Motion: Dynamics and Centripetal Force",
+        "current_type": "hard"
+      },
+      {
+        "id": "orbital-stability-mechanics",
+        "title": "Orbital Stability and Perturbation Analysis",
+        "current_type": "soft"
+      },
+      {
+        "id": "vis-viva-equation",
+        "title": "Vis-Viva Equation",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "amortized-analysis": {
+    "title": "Amortized Analysis",
+    "domain": "computer-science",
+    "course": "data-structures-and-algorithms",
+    "prereqs": [
+      {
+        "id": "time-space-complexity",
+        "title": "Time and Space Complexity",
+        "current_type": "hard"
+      },
+      {
+        "id": "big-o-complexity-analysis",
+        "title": "Big-O Notation and Complexity Analysis",
+        "current_type": "soft"
+      },
+      {
+        "id": "asymptotic-notation-big-o-omega-theta",
+        "title": "Asymptotic Notation: Big-O, Big-Omega, Big-Theta",
+        "current_type": "soft"
+      },
+      {
+        "id": "binary-tree-properties-height-balance-completeness",
+        "title": "Binary Tree Properties: Height, Balance, Completeness",
+        "current_type": "soft"
+      },
+      {
+        "id": "recurrence-relations-analysis-techniques",
+        "title": "Analyzing Recursive Algorithms via Recurrence Relations",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "complement-cascade-pathophysiology": {
+    "title": "Complement Cascade Pathophysiology",
+    "domain": "health-and-human-development",
+    "course": "pathophysiology",
+    "prereqs": [
+      {
+        "id": "complement-system-overview",
+        "title": "Complement System and Activation Pathways",
+        "current_type": "hard"
+      },
+      {
+        "id": "acute-inflammation-pathophysiology",
+        "title": "Acute Inflammation",
+        "current_type": "soft"
+      },
+      {
+        "id": "complement-activation-pathways",
+        "title": "Classical, Alternative, and Lectin Complement Pathways",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "specific-phobias": {
+    "title": "Specific Phobias",
+    "domain": "psychology",
+    "course": "clinical-psychology",
+    "prereqs": [
+      {
+        "id": "anxiety-disorders-overview",
+        "title": "Anxiety Disorders: Overview and Classification",
+        "current_type": "hard"
+      },
+      {
+        "id": "specific-phobia-and-conditioning",
+        "title": "Specific Phobias and Fear Conditioning",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "cluster-a-odd-eccentric": {
+    "title": "Cluster A Personality Disorders: Odd and Eccentric",
+    "domain": "psychology",
+    "course": "clinical-psychology",
+    "prereqs": [
+      {
+        "id": "personality-disorder-overview",
+        "title": "Personality Disorders: Overview and Classification",
+        "current_type": "hard"
+      },
+      {
+        "id": "cluster-b-dramatic-emotional",
+        "title": "Cluster B Personality Disorders: Dramatic and Emotional",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "electric-dipole-moment": {
+    "title": "Electric Dipoles and Dipole Moment",
+    "domain": "physics",
+    "course": "electricity-and-magnetism",
+    "prereqs": [
+      {
+        "id": "equipotential-surfaces",
+        "title": "Equipotential Surfaces and Their Properties",
+        "current_type": "soft"
+      },
+      {
+        "id": "electric-potential-field",
+        "title": "Electric Potential and the Potential-Field Relationship",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "area-rectilinear-shapes": {
+    "title": "Area of Rectilinear Shapes",
+    "domain": "mathematics",
+    "course": "3rd-grade",
+    "prereqs": [
+      {
+        "id": "area-by-counting-squares",
+        "title": "Area by Counting Unit Squares",
+        "current_type": "hard"
+      },
+      {
+        "id": "area-of-rectangles",
+        "title": "Area of Rectangles",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "solving-exponential-equations": {
+    "title": "Solving Exponential Equations",
+    "domain": "mathematics",
+    "course": "algebra-2",
+    "prereqs": [
+      {
+        "id": "logarithm-properties",
+        "title": "Logarithm Properties",
+        "current_type": "hard"
+      },
+      {
+        "id": "exponential-functions-and-graphs",
+        "title": "Exponential Functions and Graphs",
+        "current_type": "hard"
+      },
+      {
+        "id": "exponential-growth-and-decay",
+        "title": "Exponential Growth and Decay",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "social-preferences": {
+    "title": "Social Preferences",
+    "domain": "economics",
+    "course": "behavioral-economics",
+    "prereqs": [
+      {
+        "id": "bounded-rationality",
+        "title": "Bounded Rationality",
+        "current_type": "soft"
+      },
+      {
+        "id": "prospect-theory",
+        "title": "Prospect Theory: Loss Aversion and Reference Dependence",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "data-compression-basics": {
+    "title": "Data Compression Basics",
+    "domain": "computer-science",
+    "course": "information-theory",
+    "prereqs": [
+      {
+        "id": "source-coding-theorem",
+        "title": "Source Coding Theorem",
+        "current_type": "hard"
+      },
+      {
+        "id": "huffman-coding",
+        "title": "Huffman Coding",
+        "current_type": "hard"
+      },
+      {
+        "id": "arithmetic-coding",
+        "title": "Arithmetic Coding",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "nicotine-cholinergic-effects-and-addiction": {
+    "title": "Nicotine, Cholinergic Effects, and Addiction",
+    "domain": "psychology",
+    "course": "biological-psychology",
+    "prereqs": [
+      {
+        "id": "acetylcholine-system",
+        "title": "The Acetylcholine System",
+        "current_type": "hard"
+      },
+      {
+        "id": "reward-dopamine-systems",
+        "title": "Reward Learning and Dopamine Circuits",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "ocean-gyres-and-boundary-currents": {
+    "title": "Ocean Gyres and Western Boundary Currents",
+    "domain": "earth-and-space-sciences",
+    "course": "oceanography",
+    "prereqs": [
+      {
+        "id": "wind-driven-ocean-circulation",
+        "title": "Wind-Driven Ocean Circulation and Surface Currents",
+        "current_type": "hard"
+      },
+      {
+        "id": "coriolis-effect",
+        "title": "The Coriolis Effect",
+        "current_type": "hard"
+      },
+      {
+        "id": "subtropical-ocean-gyres-formation",
+        "title": "Subtropical Ocean Gyres and Large-Scale Circulation",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "impressionism-in-music": {
+    "title": "Musical Impressionism: Debussy and Ravel",
+    "domain": "music",
+    "course": "music-history",
+    "prereqs": [
+      {
+        "id": "romantic-period-overview",
+        "title": "The Romantic Period: Emotion, Expression, and Expansion",
+        "current_type": "hard"
+      },
+      {
+        "id": "modes",
+        "title": "Modes of the Major Scale",
+        "current_type": "soft"
+      },
+      {
+        "id": "extended-chords-ninths-elevenths-thirteenths",
+        "title": "Extended Chords: Ninths, Elevenths, and Thirteenths",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "portraiture-evolution-through-history": {
+    "title": "The Evolution of Portraiture",
+    "domain": "arts-and-aesthetics",
+    "course": "art-history",
+    "prereqs": [
+      {
+        "id": "art-history-patronage",
+        "title": "Patronage, Commissions, and the Social Function of Art",
+        "current_type": "soft"
+      },
+      {
+        "id": "art-historical-methods",
+        "title": "Methods of Art Historical Analysis",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "statistical-distribution-molecular-energies": {
+    "title": "Statistical Distribution of Molecular Energies",
+    "domain": "chemistry",
+    "course": "physical-chemistry",
+    "prereqs": [
+      {
+        "id": "statistical-mechanics-foundations",
+        "title": "Statistical Mechanics: Ensembles and the Boltzmann Distribution",
+        "current_type": "hard"
+      },
+      {
+        "id": "maxwell-boltzmann-distribution",
+        "title": "Maxwell-Boltzmann Distribution and Classical Limit",
+        "current_type": "hard"
+      },
+      {
+        "id": "kinetic-molecular-distribution-speeds",
+        "title": "Maxwell-Boltzmann Distribution and Molecular Speeds",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "anterior-pituitary-hormone-axes": {
+    "title": "Anterior Pituitary Hormone Axes and Control",
+    "domain": "biology",
+    "course": "physiology",
+    "prereqs": [
+      {
+        "id": "hypothalamus-pituitary-axis",
+        "title": "Hypothalamus-Pituitary Axis",
+        "current_type": "hard"
+      },
+      {
+        "id": "hypothalamic-neuroendocrine-integration",
+        "title": "Hypothalamic-Neuroendocrine Integration",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "mantle-geochemistry": {
+    "title": "Mantle Geochemistry",
+    "domain": "earth-and-space-sciences",
+    "course": "geochemistry",
+    "prereqs": [
+      {
+        "id": "trace-element-geochemistry",
+        "title": "Trace Element Geochemistry",
+        "current_type": "hard"
+      },
+      {
+        "id": "sm-nd-system",
+        "title": "Sm-Nd Isotope System",
+        "current_type": "hard"
+      },
+      {
+        "id": "rb-sr-system",
+        "title": "Rb-Sr Isotope System",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "protein-quality-amino-acid-score-patterns": {
+    "title": "Protein Quality, Amino Acid Scoring Patterns, and Bioavailability",
+    "domain": "health-and-human-development",
+    "course": "nutrition-science",
+    "prereqs": [
+      {
+        "id": "dietary-protein-and-amino-acids",
+        "title": "Dietary Protein, Amino Acids, and Nitrogen Balance",
+        "current_type": "hard"
+      },
+      {
+        "id": "amino-acid-classification-and-properties",
+        "title": "Amino Acid Classification and Biochemical Properties",
+        "current_type": "hard"
+      },
+      {
+        "id": "nutrient-digestion-and-absorption",
+        "title": "Nutrient Digestion and Absorption",
+        "current_type": "hard"
+      },
+      {
+        "id": "amino-acid-metabolism-and-protein-turnover",
+        "title": "Amino Acid Metabolism and Protein Turnover",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "estimation-multiplication-division": {
+    "title": "Estimation in Multiplication and Division",
+    "domain": "mathematics",
+    "course": "3rd-grade",
+    "prereqs": [
+      {
+        "id": "rounding-nearest-ten-3rd",
+        "title": "Rounding to the Nearest Ten",
+        "current_type": "hard"
+      },
+      {
+        "id": "estimation-products-3rd",
+        "title": "Estimating Products",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "predicate-logic-introduction": {
+    "title": "Introduction to Predicate Logic (First-Order Logic)",
+    "domain": "formal-sciences-and-logic",
+    "course": "propositional-and-predicate-logic",
+    "prereqs": [
+      {
+        "id": "propositional-logic-introduction",
+        "title": "Introduction to Propositional Logic",
+        "current_type": "hard"
+      },
+      {
+        "id": "set-fundamentals",
+        "title": "Set Theory Fundamentals",
+        "current_type": "hard"
+      },
+      {
+        "id": "functions-and-function-properties",
+        "title": "Functions as Sets and Their Characteristics",
+        "current_type": "hard"
+      },
+      {
+        "id": "domain-and-range",
+        "title": "Domain and Range",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "lattice-based-cryptography": {
+    "title": "Lattice-Based Cryptography",
+    "domain": "computer-science",
+    "course": "cryptography",
+    "prereqs": [
+      {
+        "id": "computational-hardness-assumptions",
+        "title": "Computational Hardness Assumptions",
+        "current_type": "hard"
+      },
+      {
+        "id": "modular-arithmetic",
+        "title": "Modular Arithmetic and Congruences",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "umvue": {
+    "title": "Uniformly Minimum Variance Unbiased Estimation (UMVUE)",
+    "domain": "mathematics",
+    "course": "probability-and-mathematical-statistics",
+    "prereqs": [
+      {
+        "id": "cramer-rao-lower-bound",
+        "title": "Cramer-Rao Lower Bound",
+        "current_type": "hard"
+      },
+      {
+        "id": "sufficient-statistics",
+        "title": "Sufficient Statistics",
+        "current_type": "hard"
+      },
+      {
+        "id": "bayesian-point-estimation",
+        "title": "Bayesian Point Estimation",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "environmental-hazards-risk": {
+    "title": "Environmental Hazards and Risk Perception",
+    "domain": "social-sciences",
+    "course": "human-geography",
+    "prereqs": [
+      {
+        "id": "climate-human-geography",
+        "title": "Climate Change and Human Geography",
+        "current_type": "hard"
+      },
+      {
+        "id": "human-environment-adaptation",
+        "title": "Human-Environment Adaptation and Systems",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "quantifier-scope-interactions": {
+    "title": "Quantifier Interaction and Multiple Quantification",
+    "domain": "philosophy",
+    "course": "philosophy-of-language",
+    "prereqs": [
+      {
+        "id": "first-order-logic-syntax",
+        "title": "First-Order Logic Syntax",
+        "current_type": "hard"
+      },
+      {
+        "id": "first-order-semantics",
+        "title": "First-Order Logic Semantics and Structures",
+        "current_type": "hard"
+      },
+      {
+        "id": "quantifier-scope-ambiguity",
+        "title": "Quantifier Scope and Ambiguity",
+        "current_type": "hard"
+      },
+      {
+        "id": "quantifier-notation-and-basics",
+        "title": "Quantifier Notation and Basic Semantics",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "ligand-gated-ion-channels": {
+    "title": "Ligand-Gated Ion Channels",
+    "domain": "biology",
+    "course": "neuroscience",
+    "prereqs": [
+      {
+        "id": "synaptic-transmission",
+        "title": "Synaptic Transmission",
+        "current_type": "hard"
+      },
+      {
+        "id": "resting-membrane-potential",
+        "title": "Resting Membrane Potential",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "glomerulonephritis-types": {
+    "title": "Glomerulonephritis: Immune and Non-Immune Mechanisms",
+    "domain": "health-and-human-development",
+    "course": "pathophysiology",
+    "prereqs": [
+      {
+        "id": "glomerular-filtration-rate-autoregulation",
+        "title": "Glomerular Filtration Rate and Autoregulation",
+        "current_type": "hard"
+      },
+      {
+        "id": "adaptive-immune-response",
+        "title": "Adaptive Immune Response",
+        "current_type": "hard"
+      },
+      {
+        "id": "complement-system-overview",
+        "title": "Complement System and Activation Pathways",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "modal-semantics-necessity-possibility": {
+    "title": "Modal Semantics: Necessity and Possibility",
+    "domain": "language-and-communication",
+    "course": "advanced-linguistics",
+    "prereqs": [
+      {
+        "id": "montague-semantics",
+        "title": "Montague Semantics",
+        "current_type": "hard"
+      },
+      {
+        "id": "modal-logic-intro",
+        "title": "Introduction to Modal Logic",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "sigma-algebras-and-measurable-sets": {
+    "title": "Sigma-Algebras and Measurable Sets",
+    "domain": "mathematics",
+    "course": "probability-and-mathematical-statistics",
+    "prereqs": [
+      {
+        "id": "set-operations",
+        "title": "Set Operations",
+        "current_type": "hard"
+      },
+      {
+        "id": "cardinality-and-countability",
+        "title": "Cardinality and Countability",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "presentism-formalized": {
+    "title": "Presentism (Formalized)",
+    "domain": "philosophy",
+    "course": "metaphysics",
+    "prereqs": [
+      {
+        "id": "temporal-becoming",
+        "title": "Temporal Becoming",
+        "current_type": "hard"
+      },
+      {
+        "id": "philosophy-of-time",
+        "title": "Philosophy of Time",
+        "current_type": "hard"
+      },
+      {
+        "id": "temporal-logic",
+        "title": "Temporal Logic",
+        "current_type": "hard"
+      },
+      {
+        "id": "eternalism-formalized",
+        "title": "Eternalism (Formalized)",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "measuring-length-with-ruler-2nd-grade": {
+    "title": "Measuring Length with a Ruler",
+    "domain": "mathematics",
+    "course": "2nd-grade",
+    "prereqs": [
+      {
+        "id": "measuring-length-nonstandard",
+        "title": "Measuring Length With Non-Standard Units",
+        "current_type": "hard"
+      },
+      {
+        "id": "comparing-two-digit-numbers",
+        "title": "Comparing Two-Digit Numbers",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "rumi-ecstatic-poetry": {
+    "title": "Rumi: Sufi Mystical Poetry and Ecstatic Experience",
+    "domain": "literature",
+    "course": "world-literature",
+    "prereqs": [
+      {
+        "id": "literary-analysis-overview",
+        "title": "Literary Analysis: Overview and Approaches",
+        "current_type": "hard"
+      },
+      {
+        "id": "tagore-spiritual-modernity",
+        "title": "Rabindranath Tagore: Spiritual Poetry and Modernity",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "refractive-index-and-dispersion": {
+    "title": "Refractive Index and Dispersion",
+    "domain": "physics",
+    "course": "electrodynamics",
+    "prereqs": [
+      {
+        "id": "dispersion-relations-em-waves",
+        "title": "Dispersion Relations for Electromagnetic Waves",
+        "current_type": "hard"
+      },
+      {
+        "id": "electromagnetic-waves-in-dielectrics",
+        "title": "Electromagnetic Waves in Dielectric Materials",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "conductors-electrostatic-behavior": {
+    "title": "Conductors in Electrostatic Equilibrium",
+    "domain": "physics",
+    "course": "electricity-and-magnetism",
+    "prereqs": [
+      {
+        "id": "gauss-law-problem-solving",
+        "title": "Solving Problems with Gauss's Law",
+        "current_type": "hard"
+      },
+      {
+        "id": "equipotential-surfaces",
+        "title": "Equipotential Surfaces and Their Properties",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "connected-histories-entanglement": {
+    "title": "Connected Histories and Entanglement",
+    "domain": "history",
+    "course": "historiography",
+    "prereqs": [
+      {
+        "id": "comparative-global-history",
+        "title": "Comparative and Global History",
+        "current_type": "hard"
+      },
+      {
+        "id": "postcolonial-historiography",
+        "title": "Postcolonial Historiography",
+        "current_type": "soft"
+      },
+      {
+        "id": "entangled-histories-approach",
+        "title": "Entangled and Connected Histories",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "motional-electromotive-force": {
+    "title": "Motional Electromotive Force",
+    "domain": "physics",
+    "course": "electricity-and-magnetism",
+    "prereqs": [
+      {
+        "id": "faraday-law-of-induction",
+        "title": "Faraday's Law of Electromagnetic Induction",
+        "current_type": "hard"
+      },
+      {
+        "id": "lorentz-force-on-moving-charge",
+        "title": "Lorentz Force on Moving Charges",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "verbal-signposting": {
+    "title": "Verbal Signposting",
+    "domain": "language-and-communication",
+    "course": "public-speaking",
+    "prereqs": [
+      {
+        "id": "speech-structure-and-organization",
+        "title": "Speech Structure and Organization",
+        "current_type": "hard"
+      },
+      {
+        "id": "verbal-transitions-in-speaking",
+        "title": "Verbal Transitions in Speaking",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "vocabulary-context-clues": {
+    "title": "Vocabulary - Context Clues",
+    "domain": "language-and-communication",
+    "course": "early-language-foundations",
+    "prereqs": [
+      {
+        "id": "vocabulary-from-context",
+        "title": "Vocabulary from Context",
+        "current_type": "soft"
+      },
+      {
+        "id": "reading-comprehension-strategies-early",
+        "title": "Reading Comprehension Strategies - Early",
+        "current_type": "soft"
+      },
+      {
+        "id": "following-multi-step-directions",
+        "title": "Following Multi-Step Directions",
+        "current_type": "soft"
+      },
+      {
+        "id": "predicting-and-inferring",
+        "title": "Predicting and Inferring",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "source-coding-theorem": {
+    "title": "Source Coding Theorem",
+    "domain": "computer-science",
+    "course": "information-theory",
+    "prereqs": [
+      {
+        "id": "shannon-entropy",
+        "title": "Shannon Entropy",
+        "current_type": "hard"
+      },
+      {
+        "id": "probability-density-functions",
+        "title": "Probability Density Functions",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "multivariable-limits": {
+    "title": "Limits and Continuity in Multiple Variables",
+    "domain": "mathematics",
+    "course": "multivariable-calculus",
+    "prereqs": [
+      {
+        "id": "functions-of-several-variables",
+        "title": "Functions of Several Variables: Definition and Domain",
+        "current_type": "hard"
+      },
+      {
+        "id": "limit-laws",
+        "title": "Limit Laws",
+        "current_type": "hard"
+      },
+      {
+        "id": "continuity-definition",
+        "title": "Continuity Definition",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "vocabulary-growth-semantic-development": {
+    "title": "Vocabulary Growth and Semantic Development",
+    "domain": "psychology",
+    "course": "developmental-psychology",
+    "prereqs": [
+      {
+        "id": "language-acquisition-development",
+        "title": "Language Acquisition in Development",
+        "current_type": "hard"
+      },
+      {
+        "id": "phonological-development-speech-sounds",
+        "title": "Phonological Development and Speech Sound Acquisition",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "pattern-and-repetition": {
+    "title": "Pattern and Repetition",
+    "domain": "arts-and-aesthetics",
+    "course": "visual-elements-and-principles",
+    "prereqs": [
+      {
+        "id": "movement-and-rhythm",
+        "title": "Movement and Rhythm",
+        "current_type": "soft"
+      },
+      {
+        "id": "shape-and-form",
+        "title": "Shape and Form",
+        "current_type": "soft"
+      },
+      {
+        "id": "patterns-in-art",
+        "title": "Patterns in Art",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "energy-storage-elements-l-and-c": {
+    "title": "Energy Storage in Capacitors and Inductors",
+    "domain": "engineering",
+    "course": "circuits-and-electronics",
+    "prereqs": [
+      {
+        "id": "capacitor-definition-properties",
+        "title": "Capacitors and Capacitance",
+        "current_type": "hard"
+      },
+      {
+        "id": "inductor-definition-properties",
+        "title": "Inductors and Inductance",
+        "current_type": "hard"
+      },
+      {
+        "id": "power-energy-in-circuits",
+        "title": "Power and Energy Conservation",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "amazon-rainforest-dieback-scenarios": {
+    "title": "Amazon Rainforest Dieback Scenarios",
+    "domain": "earth-and-space-sciences",
+    "course": "climate-science",
+    "prereqs": [
+      {
+        "id": "monsoon-systems-and-climate",
+        "title": "Monsoon Systems and Climate",
+        "current_type": "hard"
+      },
+      {
+        "id": "climate-models-and-projections",
+        "title": "Climate Models and Future Projections",
+        "current_type": "hard"
+      },
+      {
+        "id": "climate-tipping-points",
+        "title": "Climate Tipping Points and Critical Transitions",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "universality-classes-critical": {
+    "title": "Universality Classes and Critical Exponents",
+    "domain": "physics",
+    "course": "statistical-mechanics",
+    "prereqs": [
+      {
+        "id": "percolation-critical-phenomena",
+        "title": "Percolation and Critical Phenomena",
+        "current_type": "hard"
+      },
+      {
+        "id": "critical-phenomena-statmech",
+        "title": "Critical Phenomena and Singularities",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "source-criticism": {
+    "title": "Source Criticism",
+    "domain": "history",
+    "course": "historical-methods",
+    "prereqs": [
+      {
+        "id": "primary-sources",
+        "title": "Primary Sources",
+        "current_type": "hard"
+      },
+      {
+        "id": "secondary-sources",
+        "title": "Secondary Sources",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "electrical-safety-and-hazard-awareness": {
+    "title": "Electrical Safety and Hazard Awareness",
+    "domain": "practical-life-skills",
+    "course": "home-maintenance",
+    "prereqs": [
+      {
+        "id": "electrical-system-basics",
+        "title": "Electrical System Components and Safety",
+        "current_type": "hard"
+      },
+      {
+        "id": "electrical-breaker-panel-safety",
+        "title": "Electrical Breaker Panel Safety",
+        "current_type": "soft"
+      },
+      {
+        "id": "pest-exclusion-and-sealing-entry-points",
+        "title": "Pest Exclusion and Sealing Entry Points",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "potential-field-methods-gravity-magnetics": {
+    "title": "Potential Field Methods: Gravity and Magnetics",
+    "domain": "earth-and-space-sciences",
+    "course": "geophysics",
+    "prereqs": [
+      {
+        "id": "gravity-potential-theory-earths-field",
+        "title": "Gravity Potential Theory and Earth's Gravitational Field",
+        "current_type": "hard"
+      },
+      {
+        "id": "earths-magnetic-dipole-field-basics",
+        "title": "Earth's Magnetic Dipole Field Basics",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "literary-cosmopolitanism": {
+    "title": "Literary Cosmopolitanism",
+    "domain": "literature",
+    "course": "comparative-literature",
+    "prereqs": [
+      {
+        "id": "comparative-literature-intro",
+        "title": "Comparative Literature: Scope and Methods",
+        "current_type": "hard"
+      },
+      {
+        "id": "weltliteratur-concept",
+        "title": "Weltliteratur: Goethe and World Literature",
+        "current_type": "soft"
+      },
+      {
+        "id": "postcolonial-criticism",
+        "title": "Postcolonial Criticism",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "lewis-structures": {
+    "title": "Lewis Structures",
+    "domain": "chemistry",
+    "course": "general-chemistry",
+    "prereqs": [
+      {
+        "id": "covalent-bonding",
+        "title": "Covalent Bonding",
+        "current_type": "hard"
+      },
+      {
+        "id": "ionic-bonding",
+        "title": "Ionic Bonding",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "atomic-absorption-spectroscopy": {
+    "title": "Atomic Absorption and Emission Spectroscopy",
+    "domain": "chemistry",
+    "course": "analytical-chemistry",
+    "prereqs": [
+      {
+        "id": "beers-law",
+        "title": "Beer\u2013Lambert Law and Optical Absorbance",
+        "current_type": "hard"
+      },
+      {
+        "id": "atomic-structure-basics",
+        "title": "Atomic Structure",
+        "current_type": "hard"
+      },
+      {
+        "id": "emission-absorption-spectra",
+        "title": "Emission and Absorption Spectra",
+        "current_type": "soft"
+      },
+      {
+        "id": "atomic-orbitals",
+        "title": "Atomic Orbitals",
+        "current_type": "soft"
+      },
+      {
+        "id": "electromagnetic-spectrum",
+        "title": "The Electromagnetic Spectrum",
+        "current_type": "soft"
+      },
+      {
+        "id": "sample-preparation",
+        "title": "Sample Preparation and Dissolution Techniques",
+        "current_type": "soft"
+      },
+      {
+        "id": "electromagnetic-waves",
+        "title": "Electromagnetic Waves",
+        "current_type": "soft"
+      },
+      {
+        "id": "photon-model",
+        "title": "The Photon: Light as Quanta",
+        "current_type": "soft"
+      },
+      {
+        "id": "electronic-spectroscopy-theory",
+        "title": "Electronic Spectroscopy and the Franck-Condon Principle",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "evidence-hierarchy-support": {
+    "title": "Evidence Hierarchy and Support Levels",
+    "domain": "language-and-communication",
+    "course": "rhetoric-and-composition",
+    "prereqs": [
+      {
+        "id": "evidence-types-in-writing",
+        "title": "Evidence Types in Writing",
+        "current_type": "hard"
+      },
+      {
+        "id": "argument-structure-toulmin",
+        "title": "Argument Structure and Logical Organization (Toulmin Model)",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "bytecode-and-vm-design": {
+    "title": "Bytecode Intermediate Representation and Virtual Machines",
+    "domain": "computer-science",
+    "course": "compilers",
+    "prereqs": [
+      {
+        "id": "intermediate-code-representation",
+        "title": "Intermediate Code Representation",
+        "current_type": "hard"
+      },
+      {
+        "id": "jit-compilation",
+        "title": "Just-In-Time (JIT) Compilation",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "figured-bass": {
+    "title": "Figured Bass",
+    "domain": "music",
+    "course": "harmony-and-voice-leading",
+    "prereqs": [
+      {
+        "id": "chord-inversions",
+        "title": "Chord Inversions",
+        "current_type": "hard"
+      },
+      {
+        "id": "intervals-basics",
+        "title": "Intervals: Half Steps, Whole Steps, and Interval Numbers",
+        "current_type": "hard"
+      },
+      {
+        "id": "roman-numeral-analysis",
+        "title": "Roman Numeral Analysis",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "loop-of-henle-countercurrent-concentration": {
+    "title": "Loop of Henle and Countercurrent Multiplication Mechanism",
+    "domain": "biology",
+    "course": "physiology",
+    "prereqs": [
+      {
+        "id": "tubular-reabsorption-secretion-selectivity",
+        "title": "Tubular Reabsorption, Secretion, and Selective Transport",
+        "current_type": "hard"
+      },
+      {
+        "id": "osmosis-and-water-movement",
+        "title": "Osmosis: Water Potential and Movement",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "online-account-management": {
+    "title": "Online Account Management",
+    "domain": "practical-life-skills",
+    "course": "digital-literacy",
+    "prereqs": [
+      {
+        "id": "password-security",
+        "title": "Password Security",
+        "current_type": "hard"
+      },
+      {
+        "id": "digital-privacy-fundamentals",
+        "title": "Digital Privacy Fundamentals",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "understanding-bullying": {
+    "title": "Understanding Bullying",
+    "domain": "psychology",
+    "course": "growing-up-and-getting-along",
+    "prereqs": [
+      {
+        "id": "dealing-with-conflict",
+        "title": "Dealing with Conflict and Disagreements",
+        "current_type": "hard"
+      },
+      {
+        "id": "empathy-understanding-how-others-feel",
+        "title": "Empathy: Understanding How Others Feel",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "rough-endoplasmic-reticulum-ribosomes": {
+    "title": "Rough Endoplasmic Reticulum and Ribosomal Synthesis",
+    "domain": "biology",
+    "course": "cell-biology",
+    "prereqs": [
+      {
+        "id": "endoplasmic-reticulum-and-golgi",
+        "title": "Endoplasmic Reticulum and Golgi Apparatus",
+        "current_type": "hard"
+      },
+      {
+        "id": "ribosomes-and-protein-synthesis-intro",
+        "title": "Ribosomes and Protein Synthesis Introduction",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "ring-definition-and-examples": {
+    "title": "Ring Definition and Examples",
+    "domain": "mathematics",
+    "course": "abstract-algebra",
+    "prereqs": [
+      {
+        "id": "binary-operations-and-algebraic-structures",
+        "title": "Binary Operations and Algebraic Structures",
+        "current_type": "hard"
+      },
+      {
+        "id": "group-definition-and-examples",
+        "title": "Group Definition and Examples",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "quotient-topology": {
+    "title": "Quotient Topology",
+    "domain": "mathematics",
+    "course": "topology",
+    "prereqs": [
+      {
+        "id": "open-sets-in-topological-spaces",
+        "title": "Open Sets in Topological Spaces",
+        "current_type": "hard"
+      },
+      {
+        "id": "equivalence-relations",
+        "title": "Equivalence Relations",
+        "current_type": "hard"
+      },
+      {
+        "id": "subbasis-topology",
+        "title": "Subbasis for a Topology",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "gutter-and-water-drainage-assessment": {
+    "title": "Gutter and Water Drainage Assessment",
+    "domain": "practical-life-skills",
+    "course": "home-maintenance",
+    "prereqs": [
+      {
+        "id": "exterior-finish-damage-types-and-assessment",
+        "title": "Exterior Finish Damage Types and Assessment",
+        "current_type": "soft"
+      },
+      {
+        "id": "gutter-downspout-systems",
+        "title": "Gutter and Downspout Systems",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "solving-radical-equations": {
+    "title": "Solving Radical Equations",
+    "domain": "mathematics",
+    "course": "algebra-2",
+    "prereqs": [
+      {
+        "id": "radical-functions-and-graphs",
+        "title": "Radical Functions and Graphs",
+        "current_type": "hard"
+      },
+      {
+        "id": "rational-exponents",
+        "title": "Rational Exponents",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "magnetic-field-and-lorentz-force": {
+    "title": "Magnetic Field and the Lorentz Force",
+    "domain": "physics",
+    "course": "electrodynamics",
+    "prereqs": [
+      {
+        "id": "newtons-second-law",
+        "title": "Newton's Second Law: F = ma",
+        "current_type": "hard"
+      },
+      {
+        "id": "partial-derivatives",
+        "title": "Partial Derivatives: Definition and Computation",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "contingency-and-inevitability": {
+    "title": "Contingency and Necessity in History",
+    "domain": "history",
+    "course": "historiography",
+    "prereqs": [
+      {
+        "id": "historical-causation-theory",
+        "title": "Theories of Historical Causation",
+        "current_type": "hard"
+      },
+      {
+        "id": "counterfactual-history-theory",
+        "title": "Counterfactual History and Historical Contingency",
+        "current_type": "hard"
+      },
+      {
+        "id": "counterfactual-reasoning",
+        "title": "Counterfactual Reasoning in History",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "stationary-distributions": {
+    "title": "Stationary Distributions",
+    "domain": "mathematics",
+    "course": "probability-and-mathematical-statistics",
+    "prereqs": [
+      {
+        "id": "markov-chains",
+        "title": "Markov Chains",
+        "current_type": "hard"
+      },
+      {
+        "id": "convergence-in-distribution",
+        "title": "Convergence in Distribution",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "axiom-of-separation": {
+    "title": "Axiom Schema of Separation",
+    "domain": "formal-sciences-and-logic",
+    "course": "set-theory",
+    "prereqs": [
+      {
+        "id": "zfc-axioms-overview",
+        "title": "ZFC Axioms Overview",
+        "current_type": "hard"
+      },
+      {
+        "id": "first-order-logic-syntax",
+        "title": "First-Order Logic Syntax",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "crystal-structures-and-unit-cells": {
+    "title": "Crystal Structures and Unit Cells",
+    "domain": "chemistry",
+    "course": "materials-chemistry",
+    "prereqs": [
+      {
+        "id": "ionic-bonding",
+        "title": "Ionic Bonding",
+        "current_type": "hard"
+      },
+      {
+        "id": "metallic-bonding",
+        "title": "Metallic Bonding",
+        "current_type": "hard"
+      },
+      {
+        "id": "covalent-bonding",
+        "title": "Covalent Bonding",
+        "current_type": "hard"
+      },
+      {
+        "id": "periodic-trends",
+        "title": "Periodic Trends",
+        "current_type": "soft"
+      },
+      {
+        "id": "solid-state-chemistry-fundamentals",
+        "title": "Solid State Chemistry Fundamentals",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "topic-sentences-and-unity": {
+    "title": "Topic Sentences and Paragraph Unity",
+    "domain": "language-and-communication",
+    "course": "rhetoric-and-composition",
+    "prereqs": [
+      {
+        "id": "paragraph-structure",
+        "title": "Paragraph Structure: Topic Sentence, Support, Transition",
+        "current_type": "hard"
+      },
+      {
+        "id": "thesis-statement-development",
+        "title": "Developing a Thesis Statement",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "identity-theory": {
+    "title": "Identity Theory (Type and Token)",
+    "domain": "philosophy",
+    "course": "philosophy-of-mind",
+    "prereqs": [
+      {
+        "id": "physicalism-about-mind",
+        "title": "Physicalism About Mind",
+        "current_type": "hard"
+      },
+      {
+        "id": "universals-and-particulars",
+        "title": "Universals and Particulars",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "atlantic-slave-trade": {
+    "title": "The Atlantic Slave Trade",
+    "domain": "history",
+    "course": "early-modern-period",
+    "prereqs": [
+      {
+        "id": "age-of-exploration",
+        "title": "The Age of Exploration and European Expansion",
+        "current_type": "hard"
+      },
+      {
+        "id": "spanish-colonial-empire",
+        "title": "The Spanish Colonial Empire in the Americas",
+        "current_type": "soft"
+      },
+      {
+        "id": "ancient-social-stratification",
+        "title": "Social Stratification in Ancient Civilizations",
+        "current_type": "soft"
+      },
+      {
+        "id": "columbian-exchange",
+        "title": "The Columbian Exchange",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "debate-format-and-structure": {
+    "title": "Debate Format and Structure",
+    "domain": "language-and-communication",
+    "course": "public-speaking",
+    "prereqs": [
+      {
+        "id": "argument-structure-toulmin",
+        "title": "Argument Structure and Logical Organization (Toulmin Model)",
+        "current_type": "hard"
+      },
+      {
+        "id": "evidence-in-speeches",
+        "title": "Using Evidence in Speeches",
+        "current_type": "hard"
+      },
+      {
+        "id": "persuasive-speech-design",
+        "title": "Persuasive Speech Design",
+        "current_type": "soft"
+      },
+      {
+        "id": "impromptu-speaking",
+        "title": "Impromptu Speaking",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "addition-subtraction-relationship": {
+    "title": "Addition and Subtraction Relationship",
+    "domain": "mathematics",
+    "course": "1st-grade",
+    "prereqs": [
+      {
+        "id": "addition-within-10",
+        "title": "Addition Within 10",
+        "current_type": "hard"
+      },
+      {
+        "id": "subtraction-within-10",
+        "title": "Subtraction Within 10",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "sexual-selection-speciation-driver": {
+    "title": "Sexual Selection as a Driver of Speciation",
+    "domain": "biology",
+    "course": "ecology-and-evolution",
+    "prereqs": [
+      {
+        "id": "natural-selection",
+        "title": "Natural Selection",
+        "current_type": "hard"
+      },
+      {
+        "id": "reproductive-isolation",
+        "title": "Reproductive Isolation Mechanisms",
+        "current_type": "hard"
+      },
+      {
+        "id": "speciation",
+        "title": "Speciation",
+        "current_type": "soft"
+      },
+      {
+        "id": "reproductive-isolation-accumulation",
+        "title": "Reproductive Isolation: Mechanism Accumulation During Divergence",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "failure-of-unique-factorization": {
+    "title": "Failure of Unique Factorization in Algebraic Number Fields",
+    "domain": "mathematics",
+    "course": "number-theory",
+    "prereqs": [
+      {
+        "id": "gaussian-integers",
+        "title": "Gaussian Integers",
+        "current_type": "soft"
+      },
+      {
+        "id": "fundamental-theorem-of-arithmetic-rigorous",
+        "title": "Fundamental Theorem of Arithmetic (Rigorous)",
+        "current_type": "soft"
+      },
+      {
+        "id": "norm-in-algebraic-number-fields",
+        "title": "The Norm in Algebraic Number Fields",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "capillary-fluid-exchange-starling-equilibrium": {
+    "title": "Capillary Fluid Exchange and Starling Equilibrium",
+    "domain": "biology",
+    "course": "physiology",
+    "prereqs": [
+      {
+        "id": "passive-transport",
+        "title": "Passive Transport",
+        "current_type": "hard"
+      },
+      {
+        "id": "osmosis-and-tonicity",
+        "title": "Osmosis and Tonicity",
+        "current_type": "hard"
+      },
+      {
+        "id": "cardiovascular-system-overview",
+        "title": "Cardiovascular System Overview",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "dendritic-cells-and-professional-apcs": {
+    "title": "Dendritic Cells and Professional Antigen-Presenting Cells",
+    "domain": "biology",
+    "course": "immunology",
+    "prereqs": [
+      {
+        "id": "antigen-presentation-mechanisms",
+        "title": "Antigen Processing and Presentation Pathways",
+        "current_type": "hard"
+      },
+      {
+        "id": "major-histocompatibility-complex",
+        "title": "Major Histocompatibility Complex Structure and Function",
+        "current_type": "hard"
+      },
+      {
+        "id": "innate-immunity-overview",
+        "title": "Innate Immune System Components",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "nmr-quantum-theory": {
+    "title": "Quantum Theory of NMR Spectroscopy",
+    "domain": "chemistry",
+    "course": "physical-chemistry",
+    "prereqs": [
+      {
+        "id": "quantum-chemistry-foundations",
+        "title": "Quantum Chemistry Foundations",
+        "current_type": "hard"
+      },
+      {
+        "id": "nmr-spectroscopy-basics",
+        "title": "NMR Spectroscopy Basics",
+        "current_type": "soft"
+      },
+      {
+        "id": "spin-quantum-number",
+        "title": "Electron Spin",
+        "current_type": "soft"
+      },
+      {
+        "id": "nuclear-magnetic-moments",
+        "title": "Nuclear Magnetic Moments and Hyperfine Structure",
+        "current_type": "hard"
+      },
+      {
+        "id": "quantum-mechanics-postulates-core",
+        "title": "Core Postulates of Quantum Mechanics",
+        "current_type": "soft"
+      },
+      {
+        "id": "raman-spectroscopy-theory",
+        "title": "Raman Spectroscopy: Theory and Applications",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "writing-and-sending-an-email": {
+    "title": "Writing and Sending an Email",
+    "domain": "practical-life-skills",
+    "course": "digital-literacy",
+    "prereqs": [
+      {
+        "id": "reading-an-email",
+        "title": "Reading an Email",
+        "current_type": "hard"
+      },
+      {
+        "id": "using-a-keyboard",
+        "title": "Using a Computer Keyboard",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "resource-limits-and-process-accounting": {
+    "title": "Resource Limits and Process Accounting",
+    "domain": "computer-science",
+    "course": "operating-systems",
+    "prereqs": [
+      {
+        "id": "process-concept",
+        "title": "Processes and the Process Control Block",
+        "current_type": "hard"
+      },
+      {
+        "id": "system-calls",
+        "title": "System Calls and User/Kernel Mode",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "synthesis-and-decomposition": {
+    "title": "Synthesis and Decomposition Reactions",
+    "domain": "chemistry",
+    "course": "introductory-chemistry",
+    "prereqs": [
+      {
+        "id": "reactants-and-products",
+        "title": "Reactants and Products",
+        "current_type": "hard"
+      },
+      {
+        "id": "chemical-formula-meaning",
+        "title": "What Chemical Formulas Tell Us",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "prioritarianism": {
+    "title": "Prioritarianism",
+    "domain": "philosophy",
+    "course": "political-philosophy",
+    "prereqs": [
+      {
+        "id": "distributive-justice",
+        "title": "Distributive Justice",
+        "current_type": "hard"
+      },
+      {
+        "id": "difference-principle",
+        "title": "The Difference Principle",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "planetary-formation-core-accretion": {
+    "title": "Planetary Formation I: Core Accretion and Migration",
+    "domain": "earth-and-space-sciences",
+    "course": "astronomy",
+    "prereqs": [
+      {
+        "id": "planetary-formation",
+        "title": "Planetary Formation: The Nebular Hypothesis",
+        "current_type": "soft"
+      },
+      {
+        "id": "protoplanetary-disk-structure",
+        "title": "Protoplanetary Disk Structure and Evolution",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "harmony-unity-and-visual-cohesion": {
+    "title": "Unity: Harmony and Visual Cohesion",
+    "domain": "arts-and-aesthetics",
+    "course": "visual-elements-and-principles",
+    "prereqs": [
+      {
+        "id": "rhythm-through-repetition-and-variation",
+        "title": "Rhythm: Repetition with Variation",
+        "current_type": "hard"
+      },
+      {
+        "id": "symmetry-asymmetry-and-radial-balance",
+        "title": "Balance: Symmetry, Asymmetry, and Radial",
+        "current_type": "hard"
+      },
+      {
+        "id": "color-temperature-in-painting-and-design",
+        "title": "Color Temperature: Warm and Cool",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "minimal-surfaces": {
+    "title": "Minimal Surfaces",
+    "domain": "mathematics",
+    "course": "differential-geometry",
+    "prereqs": [
+      {
+        "id": "riemannian-metrics",
+        "title": "Riemannian Metrics",
+        "current_type": "hard"
+      },
+      {
+        "id": "connections-and-covariant-derivative",
+        "title": "Connections and Covariant Derivative",
+        "current_type": "hard"
+      },
+      {
+        "id": "submanifolds",
+        "title": "Submanifolds",
+        "current_type": "hard"
+      },
+      {
+        "id": "curvature-tensor",
+        "title": "Curvature Tensor",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "mental-property-supervenience": {
+    "title": "Supervenience of Mental Properties on Physical Properties",
+    "domain": "philosophy",
+    "course": "philosophy-of-mind",
+    "prereqs": [
+      {
+        "id": "physicalism-about-mind",
+        "title": "Physicalism About Mind",
+        "current_type": "hard"
+      },
+      {
+        "id": "supervenience-dependence",
+        "title": "Supervenience and Dependence Relations",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "series-parallel-inductor-networks": {
+    "title": "Series and Parallel Inductor Networks",
+    "domain": "engineering",
+    "course": "circuits-and-electronics",
+    "prereqs": [
+      {
+        "id": "capacitor-inductor-energy-storage",
+        "title": "Capacitors and Inductors as Energy Storage Elements",
+        "current_type": "hard"
+      },
+      {
+        "id": "series-parallel-resistor-analysis",
+        "title": "Series and Parallel Resistor Networks",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "annales-school-theory": {
+    "title": "The Annales School: Revolution in Historical Method",
+    "domain": "history",
+    "course": "historiography",
+    "prereqs": [
+      {
+        "id": "historiography-philosophy-intro",
+        "title": "Historiography and Philosophy of History: An Introduction",
+        "current_type": "hard"
+      },
+      {
+        "id": "annales-school",
+        "title": "The Annales School and Structural History",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "finite-element-method-foundations": {
+    "title": "Finite Element Method (Mathematical Foundations)",
+    "domain": "mathematics",
+    "course": "partial-differential-equations",
+    "prereqs": [
+      {
+        "id": "lax-milgram-theorem",
+        "title": "Lax-Milgram Theorem",
+        "current_type": "hard"
+      },
+      {
+        "id": "variational-methods-pdes",
+        "title": "Variational Methods for PDEs",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "free-radical-chain-halogenation": {
+    "title": "Free Radical Chain Reactions: Halogenation of Alkanes",
+    "domain": "chemistry",
+    "course": "organic-chemistry",
+    "prereqs": [
+      {
+        "id": "organic-chemistry-intro",
+        "title": "Introduction to Organic Chemistry",
+        "current_type": "hard"
+      },
+      {
+        "id": "reaction-mechanisms-elementary-steps",
+        "title": "Reaction Mechanisms and Elementary Steps",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "single-celled-organisms": {
+    "title": "Single-Celled Organisms",
+    "domain": "biology",
+    "course": "life-science",
+    "prereqs": [
+      {
+        "id": "what-is-a-cell",
+        "title": "What Is a Cell?",
+        "current_type": "hard"
+      },
+      {
+        "id": "using-a-microscope",
+        "title": "Using a Microscope",
+        "current_type": "soft"
+      },
+      {
+        "id": "needs-of-living-things",
+        "title": "Needs of Living Things",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "monsoon-circulation-formation-large-scale": {
+    "title": "Monsoon Circulation Formation and Large-Scale Dynamics",
+    "domain": "earth-and-space-sciences",
+    "course": "meteorology-and-climate",
+    "prereqs": [
+      {
+        "id": "monsoon-systems-and-climate",
+        "title": "Monsoon Systems and Climate",
+        "current_type": "soft"
+      },
+      {
+        "id": "global-atmospheric-circulation",
+        "title": "Global Atmospheric Circulation",
+        "current_type": "hard"
+      },
+      {
+        "id": "subtropical-anticyclone-formation",
+        "title": "Subtropical Anticyclone Formation and Dynamics",
+        "current_type": "soft"
+      },
+      {
+        "id": "zonal-meridional-circulation",
+        "title": "Zonal and Meridional Atmospheric Circulation",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "division-as-inverse-multiplication-3rd": {
+    "title": "Division as the Inverse of Multiplication",
+    "domain": "mathematics",
+    "course": "3rd-grade",
+    "prereqs": [
+      {
+        "id": "division-equal-sharing-2nd",
+        "title": "Division as Equal Sharing",
+        "current_type": "hard"
+      },
+      {
+        "id": "multiplication-equal-groups-3rd",
+        "title": "Multiplication as Equal Groups",
+        "current_type": "hard"
+      },
+      {
+        "id": "fact-families-multiplication-and-division-3rd",
+        "title": "Fact Families: Multiplication and Division",
+        "current_type": "soft"
+      },
+      {
+        "id": "estimation-multiplication-division",
+        "title": "Estimation in Multiplication and Division",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "innate-lymphoid-cells-ilcs": {
+    "title": "Innate Lymphoid Cells and Barrier Immunity",
+    "domain": "biology",
+    "course": "immunology",
+    "prereqs": [
+      {
+        "id": "innate-immunity-overview",
+        "title": "Innate Immune System Components",
+        "current_type": "hard"
+      },
+      {
+        "id": "mucosal-immunity-and-iga-response",
+        "title": "Mucosal Immunity and IgA Responses",
+        "current_type": "soft"
+      },
+      {
+        "id": "th1-th2-th17-responses",
+        "title": "Th1, Th2, and Th17 Effector Responses",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "greco-roman-epic-heroic-form": {
+    "title": "Greco-Roman Epic and Heroic Forms",
+    "domain": "literature",
+    "course": "literary-movements-and-periods",
+    "prereqs": [
+      {
+        "id": "literary-analysis-overview",
+        "title": "Literary Analysis: Overview and Approaches",
+        "current_type": "hard"
+      },
+      {
+        "id": "story-and-narrative-basics",
+        "title": "Story and Narrative Basics",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "bystander-effect": {
+    "title": "Bystander Effect and Diffusion of Responsibility",
+    "domain": "psychology",
+    "course": "social-psychology",
+    "prereqs": [
+      {
+        "id": "social-psychology-overview",
+        "title": "Introduction to Social Psychology",
+        "current_type": "hard"
+      },
+      {
+        "id": "social-norms-and-conformity",
+        "title": "Social Norms and Conformity",
+        "current_type": "soft"
+      },
+      {
+        "id": "bystander-effect-and-action",
+        "title": "The Bystander Effect and Taking Action",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "graphing-quadratics": {
+    "title": "Graphing Quadratic Functions",
+    "domain": "mathematics",
+    "course": "algebra-1",
+    "prereqs": [
+      {
+        "id": "solving-quadratics-by-factoring",
+        "title": "Solving Quadratics by Factoring",
+        "current_type": "hard"
+      },
+      {
+        "id": "graphing-linear-equations",
+        "title": "Graphing Linear Equations",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "amygdala-fear-learning": {
+    "title": "The Amygdala and Fear Conditioning",
+    "domain": "psychology",
+    "course": "cognitive-neuroscience",
+    "prereqs": [
+      {
+        "id": "amygdala-emotion",
+        "title": "Amygdala: Emotional Learning and Fear",
+        "current_type": "hard"
+      },
+      {
+        "id": "fear-conditioning-circuits",
+        "title": "Fear Conditioning and Circuit Plasticity",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "sharing-stories-with-others": {
+    "title": "Sharing Stories with Others",
+    "domain": "literature",
+    "course": "first-stories-and-read-alouds",
+    "prereqs": [
+      {
+        "id": "retelling-a-story",
+        "title": "Retelling a Story",
+        "current_type": "hard"
+      },
+      {
+        "id": "favorite-books",
+        "title": "Favorite Books",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "sensory-transduction-and-encoding": {
+    "title": "Sensory Transduction and Encoding",
+    "domain": "health-and-human-development",
+    "course": "anatomy-and-physiology",
+    "prereqs": [
+      {
+        "id": "sensory-systems-anatomy",
+        "title": "Sensory Systems: Receptors, Pathways, and Special Senses",
+        "current_type": "hard"
+      },
+      {
+        "id": "ion-channels-selectivity",
+        "title": "Ion Channels and Selective Permeability Mechanisms",
+        "current_type": "hard"
+      },
+      {
+        "id": "sensory-receptor-transduction-adaptation",
+        "title": "Sensory Receptor Transduction and Adaptation",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "norm-algebraic-number-fields": {
+    "title": "The Norm in Algebraic Number Fields",
+    "domain": "mathematics",
+    "course": "number-theory",
+    "prereqs": [
+      {
+        "id": "gaussian-integers",
+        "title": "Gaussian Integers",
+        "current_type": "hard"
+      },
+      {
+        "id": "field-extensions",
+        "title": "Field Extensions",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "seasoning-and-flavor-basics": {
+    "title": "Seasoning and Flavor Basics",
+    "domain": "practical-life-skills",
+    "course": "cooking-and-nutrition",
+    "prereqs": [
+      {
+        "id": "reading-recipes",
+        "title": "Reading and Following Recipes",
+        "current_type": "hard"
+      },
+      {
+        "id": "sauteing-and-pan-cooking",
+        "title": "Saut\u00e9ing and Pan Cooking",
+        "current_type": "soft"
+      },
+      {
+        "id": "roasting-techniques",
+        "title": "Roasting Techniques",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "making-10-addition-strategy": {
+    "title": "Making 10 as an Addition Strategy",
+    "domain": "mathematics",
+    "course": "1st-grade",
+    "prereqs": [
+      {
+        "id": "number-bonds-within-5",
+        "title": "Number Bonds Within 5",
+        "current_type": "hard"
+      },
+      {
+        "id": "addition-within-10",
+        "title": "Addition Within 10",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "digital-elevation-models": {
+    "title": "Digital Elevation Models",
+    "domain": "earth-and-space-sciences",
+    "course": "remote-sensing-and-gis",
+    "prereqs": [
+      {
+        "id": "radar-remote-sensing-sar",
+        "title": "Radar Remote Sensing and SAR",
+        "current_type": "soft"
+      },
+      {
+        "id": "lidar-principles",
+        "title": "LiDAR Principles",
+        "current_type": "soft"
+      },
+      {
+        "id": "gis-fundamentals",
+        "title": "GIS Fundamentals",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "self-portraits": {
+    "title": "Self-Portraits",
+    "domain": "arts-and-aesthetics",
+    "course": "creative-play-and-expression",
+    "prereqs": [
+      {
+        "id": "making-faces-and-expressions-in-art",
+        "title": "Making Faces and Expressions in Art",
+        "current_type": "hard"
+      },
+      {
+        "id": "colors-and-naming-them",
+        "title": "Colors and Naming Them",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "short-story-compression-effect": {
+    "title": "The Short Story: Compression and Epiphany",
+    "domain": "literature",
+    "course": "fiction",
+    "prereqs": [
+      {
+        "id": "short-story-form",
+        "title": "The Short Story as a Literary Form",
+        "current_type": "hard"
+      },
+      {
+        "id": "narrative-structures-cross-cultural",
+        "title": "Narrative Structures Across Cultures and Periods",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "tens-and-ones-place-value": {
+    "title": "Understanding Tens and Ones Place Value",
+    "domain": "mathematics",
+    "course": "1st-grade",
+    "prereqs": [
+      {
+        "id": "skip-counting-by-10s",
+        "title": "Skip Counting by 10s",
+        "current_type": "hard"
+      },
+      {
+        "id": "place-value-tens-and-ones",
+        "title": "Place Value: Tens and Ones",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "protein-primary-structure": {
+    "title": "Protein Primary Structure",
+    "domain": "biology",
+    "course": "biochemistry",
+    "prereqs": [
+      {
+        "id": "peptide-bonds-and-polypeptide-formation",
+        "title": "Peptide Bonds and Polypeptide Formation",
+        "current_type": "hard"
+      },
+      {
+        "id": "amino-acid-classification-and-properties",
+        "title": "Amino Acid Classification and Biochemical Properties",
+        "current_type": "soft"
+      },
+      {
+        "id": "nucleophilic-acyl-substitution",
+        "title": "Nucleophilic Acyl Substitution",
+        "current_type": "soft"
+      },
+      {
+        "id": "covalent-bonding",
+        "title": "Covalent Bonding",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "natural-rate-hypothesis": {
+    "title": "Natural Rate Hypothesis and NAIRU",
+    "domain": "economics",
+    "course": "advanced-macroeconomics",
+    "prereqs": [
+      {
+        "id": "inflation-unemployment-tradeoff",
+        "title": "Inflation-Unemployment Tradeoff and Modern Phillips Curve",
+        "current_type": "hard"
+      },
+      {
+        "id": "rational-expectations-macro",
+        "title": "Rational Expectations in Macroeconomics",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "women-equality-rights": {
+    "title": "Second-Wave Feminism and Gender Equality",
+    "domain": "history",
+    "course": "modern-history",
+    "prereqs": [
+      {
+        "id": "feminist-suffrage-movement",
+        "title": "First-Wave Feminism and Women's Suffrage",
+        "current_type": "hard"
+      },
+      {
+        "id": "civil-rights-movement",
+        "title": "Civil Rights Movements in the Postwar Era",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "resonance-in-organic-intermediates": {
+    "title": "Resonance in Organic Intermediates",
+    "domain": "chemistry",
+    "course": "organic-chemistry",
+    "prereqs": [
+      {
+        "id": "resonance-and-formal-charge",
+        "title": "Resonance and Formal Charge",
+        "current_type": "hard"
+      },
+      {
+        "id": "reaction-mechanisms-overview",
+        "title": "Organic Reaction Mechanisms and Arrow Pushing",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "common-collector-amplifier": {
+    "title": "Common-Collector Amplifier",
+    "domain": "engineering",
+    "course": "circuits-and-electronics",
+    "prereqs": [
+      {
+        "id": "bjt-amplifier-configurations",
+        "title": "BJT Amplifier Configurations",
+        "current_type": "hard"
+      },
+      {
+        "id": "bjt-transistor-fundamentals",
+        "title": "Bipolar Junction Transistor (BJT) Fundamentals",
+        "current_type": "hard"
+      },
+      {
+        "id": "common-base-amplifier",
+        "title": "Common-Base Amplifier",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "perception-and-knowledge": {
+    "title": "Perception and Knowledge",
+    "domain": "philosophy",
+    "course": "epistemology",
+    "prereqs": [
+      {
+        "id": "sources-of-knowledge",
+        "title": "Sources of Knowledge",
+        "current_type": "hard"
+      },
+      {
+        "id": "a-priori-and-a-posteriori",
+        "title": "A Priori and A Posteriori Knowledge",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "second-partials-test": {
+    "title": "The Second Partials Test",
+    "domain": "mathematics",
+    "course": "multivariable-calculus",
+    "prereqs": [
+      {
+        "id": "critical-points-multivariable",
+        "title": "Critical Points of Multivariable Functions",
+        "current_type": "hard"
+      },
+      {
+        "id": "higher-order-partial-derivatives",
+        "title": "Higher-Order Partial Derivatives",
+        "current_type": "hard"
+      },
+      {
+        "id": "second-derivative-test",
+        "title": "Second Derivative Test",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "bootstrapping-circular-justification": {
+    "title": "The Bootstrapping Objection",
+    "domain": "philosophy",
+    "course": "epistemology",
+    "prereqs": [
+      {
+        "id": "the-regress-problem",
+        "title": "The Epistemic Regress Problem",
+        "current_type": "hard"
+      },
+      {
+        "id": "justified-true-belief",
+        "title": "The Justified True Belief Account of Knowledge",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "counting-fundamentals-discrete": {
+    "title": "Counting Fundamentals and the Multiplication Principle",
+    "domain": "mathematics",
+    "course": "discrete-math",
+    "prereqs": [
+      {
+        "id": "counting-principles",
+        "title": "Counting Principles: Addition and Multiplication Rules",
+        "current_type": "hard"
+      },
+      {
+        "id": "pigeonhole-and-counting",
+        "title": "Pigeonhole Principle and Its Applications",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "ocean-sediments-and-stratigraphy": {
+    "title": "Ocean Sediments and Paleoceanographic Records",
+    "domain": "earth-and-space-sciences",
+    "course": "oceanography",
+    "prereqs": [
+      {
+        "id": "seafloor-spreading-mid-ocean-ridges",
+        "title": "Seafloor Spreading and Mid-Ocean Ridges",
+        "current_type": "hard"
+      },
+      {
+        "id": "sedimentary-rocks",
+        "title": "Sedimentary Rocks",
+        "current_type": "hard"
+      },
+      {
+        "id": "stratigraphy",
+        "title": "Stratigraphy and Stratigraphic Principles",
+        "current_type": "soft"
+      },
+      {
+        "id": "paleoclimatology",
+        "title": "Paleoclimatology and Climate Proxies",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "multi-proxy-climate-reconstruction": {
+    "title": "Multi-Proxy Approaches to Paleoclimate Reconstruction",
+    "domain": "earth-and-space-sciences",
+    "course": "climate-science",
+    "prereqs": [
+      {
+        "id": "paleoclimate-reconstruction-methods",
+        "title": "Statistical Methods for Paleoclimate Reconstruction",
+        "current_type": "hard"
+      },
+      {
+        "id": "paleoclimate-proxies",
+        "title": "Paleoclimate Proxies and Interpretation Methods",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "differentiability-multivariable": {
+    "title": "Differentiability in Multiple Variables",
+    "domain": "mathematics",
+    "course": "multivariable-calculus",
+    "prereqs": [
+      {
+        "id": "continuity-multivariable",
+        "title": "Continuity in Multiple Variables",
+        "current_type": "hard"
+      },
+      {
+        "id": "partial-derivatives",
+        "title": "Partial Derivatives: Definition and Computation",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "shift-register-design": {
+    "title": "Shift Register Design and Applications",
+    "domain": "computer-science",
+    "course": "computer-architecture",
+    "prereqs": [
+      {
+        "id": "flip-flops-and-latches",
+        "title": "Flip-Flops and Latches",
+        "current_type": "hard"
+      },
+      {
+        "id": "sequential-circuit-design",
+        "title": "Sequential Circuit Design",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "health-promotion-models": {
+    "title": "Health Promotion and Behavior Change Models",
+    "domain": "health-and-human-development",
+    "course": "public-health",
+    "prereqs": [
+      {
+        "id": "disease-prevention-levels",
+        "title": "Levels of Disease Prevention",
+        "current_type": "hard"
+      },
+      {
+        "id": "social-determinants-of-health",
+        "title": "Social Determinants of Health",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "memory-interleaving-and-bandwidth": {
+    "title": "Memory Interleaving and Bandwidth Optimization",
+    "domain": "computer-science",
+    "course": "computer-architecture",
+    "prereqs": [
+      {
+        "id": "memory-organization",
+        "title": "Memory Organization and Addressing",
+        "current_type": "hard"
+      },
+      {
+        "id": "dynamic-ram-dram-design",
+        "title": "Dynamic RAM (DRAM) Organization and Refresh Cycles",
+        "current_type": "soft"
+      },
+      {
+        "id": "direct-memory-access-dma",
+        "title": "Direct Memory Access (DMA) Controllers and Design",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "integumentary-system-anatomy": {
+    "title": "Integumentary System: Skin Structure and Functions",
+    "domain": "health-and-human-development",
+    "course": "anatomy-and-physiology",
+    "prereqs": [
+      {
+        "id": "body-organization-and-terminology",
+        "title": "Body Organization and Anatomical Terminology",
+        "current_type": "hard"
+      },
+      {
+        "id": "tissue-types-and-histology",
+        "title": "Tissue Types and Histology",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "forensic-rhetoric-judgment": {
+    "title": "Forensic Rhetoric and Judicial Argument",
+    "domain": "language-and-communication",
+    "course": "rhetoric-and-composition",
+    "prereqs": [
+      {
+        "id": "rhetorical-triangle",
+        "title": "The Rhetorical Triangle: Ethos, Pathos, Logos",
+        "current_type": "soft"
+      },
+      {
+        "id": "evidence-and-support",
+        "title": "Evidence, Support, and Development",
+        "current_type": "soft"
+      },
+      {
+        "id": "deliberative-rhetoric-policy",
+        "title": "Deliberative Rhetoric and Policy Argument",
+        "current_type": "soft"
+      },
+      {
+        "id": "epideictic-rhetoric-praise-blame",
+        "title": "Epideictic Rhetoric: Praise and Blame",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "comparing-unit-fractions": {
+    "title": "Comparing Unit Fractions",
+    "domain": "mathematics",
+    "course": "3rd-grade",
+    "prereqs": [
+      {
+        "id": "unit-fractions",
+        "title": "Unit Fractions",
+        "current_type": "hard"
+      },
+      {
+        "id": "fractions-on-number-line",
+        "title": "Fractions on a Number Line",
+        "current_type": "soft"
+      },
+      {
+        "id": "fractions-sixths-eighths",
+        "title": "Fractions: Sixths and Eighths",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "derrida-deconstruction": {
+    "title": "Derrida \u2014 Deconstruction and Differance",
+    "domain": "philosophy",
+    "course": "continental-philosophy",
+    "prereqs": [
+      {
+        "id": "structuralism-saussure-levi-strauss",
+        "title": "Structuralism (Saussure, Levi-Strauss)",
+        "current_type": "hard"
+      },
+      {
+        "id": "post-structuralism-overview",
+        "title": "Post-Structuralism Overview",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "dynamic-panel-arellano-bond-estimator": {
+    "title": "Dynamic Panel Models: Arellano-Bond Estimator",
+    "domain": "economics",
+    "course": "econometrics",
+    "prereqs": [
+      {
+        "id": "dynamic-panel-models",
+        "title": "Dynamic Panel Models and Arellano-Bond/Blundell-Bond Estimation",
+        "current_type": "hard"
+      },
+      {
+        "id": "lagged-dependent-variable-regression",
+        "title": "Lagged Dependent Variable Regression",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "compressible-flow-isentropic-flow": {
+    "title": "Compressible Flow and Isentropic Flow Analysis",
+    "domain": "engineering",
+    "course": "thermodynamics-engineering",
+    "prereqs": [
+      {
+        "id": "control-volume-steady-flow",
+        "title": "Control Volume Analysis and Steady-Flow Devices",
+        "current_type": "hard"
+      },
+      {
+        "id": "isentropic-process-reversible",
+        "title": "Isentropic Processes and Reversible Adiabatic Expansion/Compression",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "hubbard-model": {
+    "title": "Hubbard Model",
+    "domain": "physics",
+    "course": "condensed-matter-physics",
+    "prereqs": [
+      {
+        "id": "tight-binding-model",
+        "title": "Tight-Binding Model",
+        "current_type": "hard"
+      },
+      {
+        "id": "fermi-liquid-theory",
+        "title": "Fermi Liquid Theory",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "performance-appraisal": {
+    "title": "Performance Appraisal",
+    "domain": "psychology",
+    "course": "industrial-organizational-psychology",
+    "prereqs": [
+      {
+        "id": "job-analysis",
+        "title": "Job Analysis",
+        "current_type": "hard"
+      },
+      {
+        "id": "measurement-scales-psychology",
+        "title": "Levels of Measurement",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "spontaneous-radioactive-decay": {
+    "title": "Spontaneous Radioactive Decay",
+    "domain": "physics",
+    "course": "modern-physics",
+    "prereqs": [
+      {
+        "id": "radioactive-decay",
+        "title": "Radioactive Decay",
+        "current_type": "hard"
+      },
+      {
+        "id": "binding-energy-stability-curve",
+        "title": "Binding Energy and the Nuclear Stability Curve",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "counterfactual-causation": {
+    "title": "Counterfactual Theory of Causation",
+    "domain": "philosophy",
+    "course": "metaphysics",
+    "prereqs": [
+      {
+        "id": "causation-and-causal-relations",
+        "title": "Causation and Causal Relations",
+        "current_type": "hard"
+      },
+      {
+        "id": "possible-worlds-semantics",
+        "title": "Possible Worlds Semantics",
+        "current_type": "soft"
+      },
+      {
+        "id": "modal-logic-intro",
+        "title": "Introduction to Modal Logic",
+        "current_type": "soft"
+      },
+      {
+        "id": "regularity-theory-of-causation",
+        "title": "Regularity Theory of Causation",
+        "current_type": "soft"
+      },
+      {
+        "id": "causation-and-determination",
+        "title": "Causation and Determination",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "equilibrium-expression-kc-kp-constants": {
+    "title": "Equilibrium Constants: Kc and Kp",
+    "domain": "chemistry",
+    "course": "general-chemistry",
+    "prereqs": [
+      {
+        "id": "chemical-equilibrium",
+        "title": "Chemical Equilibrium",
+        "current_type": "hard"
+      },
+      {
+        "id": "gas-laws",
+        "title": "Gas Laws",
+        "current_type": "soft"
+      },
+      {
+        "id": "solving-multi-step-equations",
+        "title": "Solving Multi-Step Equations",
+        "current_type": "soft"
+      },
+      {
+        "id": "exponential-functions-and-graphs",
+        "title": "Exponential Functions and Graphs",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "scope-ambiguity-and-representation": {
+    "title": "Scope Ambiguity and Logical Form",
+    "domain": "philosophy",
+    "course": "philosophy-of-language",
+    "prereqs": [
+      {
+        "id": "first-order-logic-syntax",
+        "title": "First-Order Logic Syntax",
+        "current_type": "hard"
+      },
+      {
+        "id": "russell-definite-descriptions",
+        "title": "Russell's Theory of Definite Descriptions",
+        "current_type": "hard"
+      },
+      {
+        "id": "quantifier-scope-ambiguity",
+        "title": "Quantifier Scope and Ambiguity",
+        "current_type": "hard"
+      },
+      {
+        "id": "quantifier-scope-interactions",
+        "title": "Quantifier Interaction and Multiple Quantification",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "variant-annotation-interpretation": {
+    "title": "Variant Annotation and Interpretation",
+    "domain": "biology",
+    "course": "genetics-and-molecular-biology",
+    "prereqs": [
+      {
+        "id": "next-generation-sequencing-ngs",
+        "title": "Next Generation Sequencing Technologies and Platforms",
+        "current_type": "hard"
+      },
+      {
+        "id": "missense-nonsense-silent-mutation-effects",
+        "title": "Missense, Nonsense, and Silent Mutations",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "coronary-vasospasm-and-angina-pectoris": {
+    "title": "Coronary Vasospasm and Angina Pectoris",
+    "domain": "health-and-human-development",
+    "course": "pathophysiology",
+    "prereqs": [
+      {
+        "id": "atherosclerosis-pathophysiology",
+        "title": "Atherosclerosis Development and Progression",
+        "current_type": "soft"
+      },
+      {
+        "id": "cardiovascular-system-overview",
+        "title": "Cardiovascular System Overview",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "sql-joins": {
+    "title": "SQL Joins",
+    "domain": "computer-science",
+    "course": "databases",
+    "prereqs": [
+      {
+        "id": "sql-data-retrieval-select",
+        "title": "SQL: SELECT Statement and Basic Queries",
+        "current_type": "hard"
+      },
+      {
+        "id": "primary-and-foreign-keys",
+        "title": "Primary Keys and Foreign Keys",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "grocery-shopping-and-budgeting": {
+    "title": "Grocery Shopping and Budgeting",
+    "domain": "practical-life-skills",
+    "course": "cooking-and-nutrition",
+    "prereqs": [
+      {
+        "id": "meal-planning-basics",
+        "title": "Meal Planning Basics",
+        "current_type": "hard"
+      },
+      {
+        "id": "reading-nutrition-labels",
+        "title": "Reading Nutrition Labels",
+        "current_type": "soft"
+      },
+      {
+        "id": "personal-budget-fundamentals",
+        "title": "Personal Budget Fundamentals",
+        "current_type": "soft"
+      },
+      {
+        "id": "adding-subtracting-decimals",
+        "title": "Adding and Subtracting Decimals",
+        "current_type": "soft"
+      },
+      {
+        "id": "percent-concept",
+        "title": "Percent Concept",
+        "current_type": "soft"
+      },
+      {
+        "id": "making-change-simple",
+        "title": "Making Change",
+        "current_type": "soft"
+      },
+      {
+        "id": "comparing-fractions",
+        "title": "Comparing and Ordering Fractions",
+        "current_type": "soft"
+      },
+      {
+        "id": "addition-subtraction-word-problems",
+        "title": "Addition and Subtraction Word Problems",
+        "current_type": "soft"
+      },
+      {
+        "id": "comparing-decimals",
+        "title": "Comparing and Ordering Decimals",
+        "current_type": "soft"
+      },
+      {
+        "id": "money-fundamentals-definition-and-characteristics",
+        "title": "Money: Fundamentals, Definition, and Characteristics",
+        "current_type": "hard"
+      },
+      {
+        "id": "unit-rates",
+        "title": "Unit Rates",
+        "current_type": "soft"
+      },
+      {
+        "id": "percent-of-a-number",
+        "title": "Percent of a Number",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "dna-discovery-molecular-biology": {
+    "title": "DNA Structure and the Molecular Biology Revolution",
+    "domain": "history",
+    "course": "history-of-science",
+    "prereqs": [
+      {
+        "id": "germ-theory-revolution",
+        "title": "The Germ Theory Revolution and Microbiology's Origins",
+        "current_type": "soft"
+      },
+      {
+        "id": "darwin-evolution-reception",
+        "title": "Darwinian Evolution and the Reception of Evolutionary Theory",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "historical-interpretation-method": {
+    "title": "Historical Interpretation as Method",
+    "domain": "history",
+    "course": "historiography",
+    "prereqs": [
+      {
+        "id": "historiography-intro",
+        "title": "Introduction to Historiography",
+        "current_type": "hard"
+      },
+      {
+        "id": "what-is-history",
+        "title": "What Is History?",
+        "current_type": "hard"
+      },
+      {
+        "id": "source-criticism",
+        "title": "Source Criticism",
+        "current_type": "hard"
+      },
+      {
+        "id": "anachronism-presentism",
+        "title": "Anachronism and Presentism in Historical Interpretation",
+        "current_type": "soft"
+      },
+      {
+        "id": "history-science-debate",
+        "title": "Is History a Science?",
+        "current_type": "soft"
+      },
+      {
+        "id": "annales-school-theory",
+        "title": "The Annales School: Revolution in Historical Method",
+        "current_type": "soft"
+      },
+      {
+        "id": "genealogical-method",
+        "title": "Genealogy as Historical Method",
+        "current_type": "soft"
+      },
+      {
+        "id": "herodotus-inquiry-method",
+        "title": "Herodotus and the Method of Inquiry",
+        "current_type": "soft"
+      },
+      {
+        "id": "postcolonial-research-methods",
+        "title": "Postcolonial Approaches to Historical Research",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "referential-integrity-cascading-actions": {
+    "title": "Referential Integrity and Cascading Delete/Update Actions",
+    "domain": "computer-science",
+    "course": "databases",
+    "prereqs": [
+      {
+        "id": "primary-and-foreign-keys",
+        "title": "Primary Keys and Foreign Keys",
+        "current_type": "hard"
+      },
+      {
+        "id": "sql-constraint-enforcement",
+        "title": "SQL: Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, DEFAULT)",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "system-identification-basics": {
+    "title": "System Identification Basics",
+    "domain": "engineering",
+    "course": "control-systems",
+    "prereqs": [
+      {
+        "id": "transfer-functions-control",
+        "title": "Transfer Functions and System Modeling",
+        "current_type": "hard"
+      },
+      {
+        "id": "time-domain-response-first-order",
+        "title": "First-Order System Time Response",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "long-run-average-cost": {
+    "title": "Long-Run Average Cost and Economies of Scale",
+    "domain": "economics",
+    "course": "microeconomics",
+    "prereqs": [
+      {
+        "id": "short-run-cost-fixed-variable",
+        "title": "Short-Run Cost Structure: Fixed and Variable Costs",
+        "current_type": "hard"
+      },
+      {
+        "id": "economies-of-scale-long-run",
+        "title": "Economies and Diseconomies of Scale in the Long Run",
+        "current_type": "soft"
+      },
+      {
+        "id": "long-run-cost-structure",
+        "title": "Long-Run Cost Curves and Scale Economies",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "perpendicular-bisectors": {
+    "title": "Perpendicular Bisectors",
+    "domain": "mathematics",
+    "course": "geometry",
+    "prereqs": [
+      {
+        "id": "midpoint-formula",
+        "title": "Midpoint Formula",
+        "current_type": "hard"
+      },
+      {
+        "id": "segment-and-distance",
+        "title": "Segments and Distance",
+        "current_type": "hard"
+      },
+      {
+        "id": "cpctc",
+        "title": "CPCTC (Corresponding Parts of Congruent Triangles are Congruent)",
+        "current_type": "soft"
+      },
+      {
+        "id": "isosceles-triangle-theorem",
+        "title": "Isosceles Triangle Theorem",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "seismic-velocity-depth-models": {
+    "title": "Seismic Velocity and Depth Models",
+    "domain": "earth-and-space-sciences",
+    "course": "geophysics",
+    "prereqs": [
+      {
+        "id": "elastic-wave-propagation-in-solids",
+        "title": "Elastic Wave Propagation in Solids",
+        "current_type": "hard"
+      },
+      {
+        "id": "seismic-waves",
+        "title": "Seismic Waves",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "soft-power-narrative-influence": {
+    "title": "Soft Power and Narrative Influence in IR",
+    "domain": "social-sciences",
+    "course": "international-relations-theory",
+    "prereqs": [
+      {
+        "id": "structural-realism-waltz",
+        "title": "Structural Realism (Neorealism)",
+        "current_type": "soft"
+      },
+      {
+        "id": "international-relations-overview",
+        "title": "Introduction to International Relations",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "translation-termination-stop-codons-release-factors": {
+    "title": "Translation Termination and Release Factors",
+    "domain": "biology",
+    "course": "genetics-and-molecular-biology",
+    "prereqs": [
+      {
+        "id": "translation-elongation-elongation-factors",
+        "title": "Translation Elongation and Elongation Factors",
+        "current_type": "hard"
+      },
+      {
+        "id": "translation-elongation-and-termination",
+        "title": "Translation Elongation and Termination: Peptide Bond Formation",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "micro-interactions-feedback": {
+    "title": "Micro-Interactions and User Feedback",
+    "domain": "arts-and-aesthetics",
+    "course": "design-principles",
+    "prereqs": [
+      {
+        "id": "ui-design-fundamentals",
+        "title": "UI Design Fundamentals",
+        "current_type": "hard"
+      },
+      {
+        "id": "motion-design-and-animation-principles",
+        "title": "Motion Design and Animation Principles",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "simple-circuits": {
+    "title": "Simple Circuits",
+    "domain": "physics",
+    "course": "physical-science",
+    "prereqs": [
+      {
+        "id": "static-electricity-intro",
+        "title": "Static Electricity",
+        "current_type": "soft"
+      },
+      {
+        "id": "energy-forms-heat-light-sound",
+        "title": "Forms of Energy: Heat, Light, and Sound",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "pharmacogenomics": {
+    "title": "Pharmacogenomics",
+    "domain": "biology",
+    "course": "genomics-and-bioinformatics",
+    "prereqs": [
+      {
+        "id": "variant-calling-and-gwas",
+        "title": "Variant Calling and Genome-Wide Association Studies",
+        "current_type": "hard"
+      },
+      {
+        "id": "population-genomics",
+        "title": "Population Genomics",
+        "current_type": "soft"
+      },
+      {
+        "id": "gene-expression-overview",
+        "title": "Central Dogma of Molecular Biology",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "climate-extremes-and-attribution": {
+    "title": "Climate Extremes and Event Attribution",
+    "domain": "earth-and-space-sciences",
+    "course": "climate-science",
+    "prereqs": [
+      {
+        "id": "climate-models-and-projections",
+        "title": "Climate Models and Future Projections",
+        "current_type": "hard"
+      },
+      {
+        "id": "climate-change-science",
+        "title": "Climate Change: Science and Evidence",
+        "current_type": "hard"
+      },
+      {
+        "id": "severe-weather-systems",
+        "title": "Severe Weather Systems",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "eulers-criterion": {
+    "title": "Euler's Criterion",
+    "domain": "mathematics",
+    "course": "number-theory",
+    "prereqs": [
+      {
+        "id": "quadratic-residues-legendre-symbol",
+        "title": "Quadratic Residues and the Legendre Symbol",
+        "current_type": "hard"
+      },
+      {
+        "id": "fermats-little-theorem",
+        "title": "Fermat's Little Theorem",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "ir-spectroscopy-organic": {
+    "title": "Infrared Spectroscopy: Functional Group Identification",
+    "domain": "chemistry",
+    "course": "organic-chemistry",
+    "prereqs": [
+      {
+        "id": "ir-spectroscopy-basics",
+        "title": "Infrared (IR) Spectroscopy",
+        "current_type": "hard"
+      },
+      {
+        "id": "electromagnetic-waves",
+        "title": "Electromagnetic Waves",
+        "current_type": "soft"
+      },
+      {
+        "id": "electromagnetic-spectrum",
+        "title": "The Electromagnetic Spectrum",
+        "current_type": "soft"
+      },
+      {
+        "id": "wave-properties-intro",
+        "title": "Wave Properties: Wavelength, Frequency, and Amplitude",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "minimalist-program-core-concepts": {
+    "title": "The Minimalist Program: Core Concepts",
+    "domain": "language-and-communication",
+    "course": "advanced-linguistics",
+    "prereqs": [
+      {
+        "id": "x-bar-theory",
+        "title": "X-bar Theory",
+        "current_type": "hard"
+      },
+      {
+        "id": "movement-and-transformations",
+        "title": "Movement and Transformations",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "smale-horseshoe": {
+    "title": "The Smale Horseshoe",
+    "domain": "physics",
+    "course": "nonlinear-dynamics",
+    "prereqs": [
+      {
+        "id": "iterated-maps-logistic-map",
+        "title": "Iterated Maps and the Logistic Map",
+        "current_type": "hard"
+      },
+      {
+        "id": "chaos-definition-and-properties",
+        "title": "Chaos \u2014 Definition and Properties",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "literary-movements-comparative": {
+    "title": "Literary Movements in Comparative Perspective",
+    "domain": "literature",
+    "course": "comparative-literature",
+    "prereqs": [
+      {
+        "id": "literary-criticism-overview",
+        "title": "Literary Criticism as a Discipline",
+        "current_type": "hard"
+      },
+      {
+        "id": "new-historicism",
+        "title": "New Historicism and Cultural Poetics",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "representable-functors": {
+    "title": "Representable Functors",
+    "domain": "formal-sciences-and-logic",
+    "course": "category-theory",
+    "prereqs": [
+      {
+        "id": "functors",
+        "title": "Functors",
+        "current_type": "hard"
+      },
+      {
+        "id": "natural-transformations",
+        "title": "Natural Transformations",
+        "current_type": "soft"
+      },
+      {
+        "id": "opposite-categories-and-duality",
+        "title": "Opposite Categories and Duality",
+        "current_type": "soft"
+      },
+      {
+        "id": "full-and-faithful-functors",
+        "title": "Full and Faithful Functors",
+        "current_type": "soft"
+      },
+      {
+        "id": "functor-categories",
+        "title": "Functor Categories",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "impliciture-and-enrichment": {
+    "title": "Impliciture and Content Enrichment",
+    "domain": "philosophy",
+    "course": "philosophy-of-language",
+    "prereqs": [
+      {
+        "id": "grice-conversational-implicature",
+        "title": "Grice's Theory of Conversational Implicature",
+        "current_type": "hard"
+      },
+      {
+        "id": "pragmatics-semantics-boundary",
+        "title": "The Pragmatics-Semantics Distinction",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "cantor-set-example-uncountable": {
+    "title": "The Cantor Set: An Uncountable Nowhere Dense Example",
+    "domain": "formal-sciences-and-logic",
+    "course": "set-theory",
+    "prereqs": [
+      {
+        "id": "uncountability-by-diagonal-argument",
+        "title": "Uncountability and the Diagonal Argument",
+        "current_type": "hard"
+      },
+      {
+        "id": "set-operations-union-intersection-complement",
+        "title": "Set Operations: Union, Intersection, and Complement",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "ritual-and-ceremony": {
+    "title": "Ritual and Ceremony",
+    "domain": "social-sciences",
+    "course": "anthropology",
+    "prereqs": [
+      {
+        "id": "anthropology-overview",
+        "title": "What Is Anthropology?",
+        "current_type": "hard"
+      },
+      {
+        "id": "culture-concept",
+        "title": "The Anthropological Concept of Culture",
+        "current_type": "soft"
+      },
+      {
+        "id": "religion-and-society",
+        "title": "Religion and Society",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "visual-communication-strategy": {
+    "title": "Visual Communication Strategy",
+    "domain": "arts-and-aesthetics",
+    "course": "design-principles",
+    "prereqs": [
+      {
+        "id": "visual-perception-and-communication",
+        "title": "Visual Perception and Communication",
+        "current_type": "hard"
+      },
+      {
+        "id": "composition-and-visual-organization",
+        "title": "Composition and Visual Organization",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "emotional-resonance-design": {
+    "title": "Emotional Resonance Through Design",
+    "domain": "arts-and-aesthetics",
+    "course": "design-principles",
+    "prereqs": [
+      {
+        "id": "color-theory-in-design",
+        "title": "Color Theory in Design",
+        "current_type": "soft"
+      },
+      {
+        "id": "visual-perception-and-communication",
+        "title": "Visual Perception and Communication",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "double-integrals-polar-coordinates": {
+    "title": "Double Integrals in Polar Coordinates",
+    "domain": "mathematics",
+    "course": "multivariable-calculus",
+    "prereqs": [
+      {
+        "id": "double-integrals-cartesian-coordinates",
+        "title": "Double Integrals over Rectangular Regions",
+        "current_type": "hard"
+      },
+      {
+        "id": "double-integrals-polar",
+        "title": "Double Integrals in Polar Coordinates",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "auction-theory": {
+    "title": "Auction Theory",
+    "domain": "economics",
+    "course": "advanced-microeconomics",
+    "prereqs": [
+      {
+        "id": "mechanism-design-basics",
+        "title": "Mechanism Design: Strategic Implementation",
+        "current_type": "hard"
+      },
+      {
+        "id": "probability-spaces-measure-theoretic",
+        "title": "Probability Spaces (Measure-Theoretic Definition)",
+        "current_type": "soft"
+      },
+      {
+        "id": "game-theory-basics-microeconomics",
+        "title": "Game Theory Basics",
+        "current_type": "hard"
+      },
+      {
+        "id": "expected-value-theory",
+        "title": "Expected Value: Theory and Properties",
+        "current_type": "hard"
+      },
+      {
+        "id": "optimization-multivariable-basics",
+        "title": "Optimization in Multiple Variables",
+        "current_type": "soft"
+      },
+      {
+        "id": "auction-formats-and-equivalence",
+        "title": "Auction Formats and Revenue Equivalence",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "accompaniment-patterns-and-figures": {
+    "title": "Accompaniment Patterns and Figures",
+    "domain": "music",
+    "course": "composition",
+    "prereqs": [
+      {
+        "id": "harmonic-accompaniment-fundamentals",
+        "title": "Harmonic Accompaniment Basics",
+        "current_type": "hard"
+      },
+      {
+        "id": "accompaniment-style-and-texture",
+        "title": "Accompaniment Style and Texture",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "learning-by-doing-and-development": {
+    "title": "Learning by Doing and Infant Industry Protection",
+    "domain": "economics",
+    "course": "development-economics",
+    "prereqs": [
+      {
+        "id": "technology-adoption-developing-countries",
+        "title": "Technology Adoption and Innovation in Developing Countries",
+        "current_type": "hard"
+      },
+      {
+        "id": "trade-and-development",
+        "title": "Trade, Comparative Advantage, and Development",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "heisenberg-uncertainty-principle": {
+    "title": "Heisenberg Uncertainty Principle",
+    "domain": "physics",
+    "course": "modern-physics",
+    "prereqs": [
+      {
+        "id": "wave-particle-duality",
+        "title": "Wave-Particle Duality",
+        "current_type": "hard"
+      },
+      {
+        "id": "de-broglie-wavelength",
+        "title": "de Broglie Wavelength",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "acid-base-neutralization-reactions": {
+    "title": "Acid-Base Neutralization Reactions",
+    "domain": "chemistry",
+    "course": "general-chemistry",
+    "prereqs": [
+      {
+        "id": "acid-base-definitions",
+        "title": "Acid-Base Definitions",
+        "current_type": "hard"
+      },
+      {
+        "id": "chemical-equations-and-balancing",
+        "title": "Chemical Equations: Writing and Balancing Reactions",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "personal-history-family": {
+    "title": "Personal and Family History: Narrative of Origin",
+    "domain": "literature",
+    "course": "creative-nonfiction",
+    "prereqs": [
+      {
+        "id": "memoir-family-narrative",
+        "title": "Family Narratives in Memoir",
+        "current_type": "hard"
+      },
+      {
+        "id": "narrative-structures-cross-cultural",
+        "title": "Narrative Structures Across Cultures and Periods",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "diastereomers-and-meso-compounds": {
+    "title": "Diastereomers and Meso Compounds",
+    "domain": "chemistry",
+    "course": "organic-chemistry",
+    "prereqs": [
+      {
+        "id": "enantiomers-and-chirality",
+        "title": "Enantiomers, Chirality, and R/S Configuration",
+        "current_type": "hard"
+      },
+      {
+        "id": "cycloalkanes",
+        "title": "Cycloalkanes and Ring Strain",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "producer-consumer-classic-sync": {
+    "title": "Producer-Consumer Problem: Classic Synchronization",
+    "domain": "computer-science",
+    "course": "operating-systems",
+    "prereqs": [
+      {
+        "id": "counting-semaphores-resource-pools",
+        "title": "Counting Semaphores and Resource Pools",
+        "current_type": "hard"
+      },
+      {
+        "id": "monitors-and-condition-variables",
+        "title": "Monitors and Condition Variables",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "jazz-as-art-and-culture": {
+    "title": "Jazz: Art Form and Cultural Expression",
+    "domain": "music",
+    "course": "music-history",
+    "prereqs": [
+      {
+        "id": "music-history-overview",
+        "title": "Overview of Music History",
+        "current_type": "hard"
+      },
+      {
+        "id": "cultural-context-and-musical-change",
+        "title": "Cultural Context and Musical Change",
+        "current_type": "hard"
+      },
+      {
+        "id": "music-and-identity-nationalism",
+        "title": "Music, Identity, and Nationalism",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "bretton-woods-system": {
+    "title": "The Bretton Woods System: International Monetary Order",
+    "domain": "history",
+    "course": "economic-social-history",
+    "prereqs": [
+      {
+        "id": "great-depression-causes-responses",
+        "title": "The Great Depression: Causes, Collapse, and Recovery Policies",
+        "current_type": "hard"
+      },
+      {
+        "id": "gold-standard-history",
+        "title": "The Gold Standard and Monetary Systems",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "consciousness-definition-philosophy": {
+    "title": "Defining Consciousness",
+    "domain": "philosophy",
+    "course": "philosophy-of-mind",
+    "prereqs": [
+      {
+        "id": "philosophy-of-mind-introduction",
+        "title": "Introduction to Philosophy of Mind",
+        "current_type": "soft"
+      },
+      {
+        "id": "relational-consciousness-accounts",
+        "title": "Relational Accounts of Consciousness",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "orbital-forcing-variations": {
+    "title": "Orbital Parameter Forcing Variations and Climate",
+    "domain": "earth-and-space-sciences",
+    "course": "climate-science",
+    "prereqs": [
+      {
+        "id": "milankovitch-orbital-cycles",
+        "title": "Milankovitch Orbital Cycles and Insolation Forcing",
+        "current_type": "hard"
+      },
+      {
+        "id": "eccentricity-climate-forcing",
+        "title": "Orbital Eccentricity and Climate Forcing",
+        "current_type": "hard"
+      },
+      {
+        "id": "obliquity-climate-forcing",
+        "title": "Orbital Obliquity and Climate Forcing",
+        "current_type": "hard"
+      },
+      {
+        "id": "precession-climate-forcing",
+        "title": "Orbital Precession and Tropical Climate Forcing",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "price-elasticity-of-supply": {
+    "title": "Price Elasticity of Supply",
+    "domain": "economics",
+    "course": "microeconomics",
+    "prereqs": [
+      {
+        "id": "supply-and-demand-basics",
+        "title": "Supply and Demand",
+        "current_type": "hard"
+      },
+      {
+        "id": "price-elasticity-of-demand",
+        "title": "Price Elasticity of Demand",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "cosmology-and-worldview": {
+    "title": "Cosmology and Worldview Systems",
+    "domain": "social-sciences",
+    "course": "anthropology",
+    "prereqs": [
+      {
+        "id": "culture-concept",
+        "title": "The Anthropological Concept of Culture",
+        "current_type": "hard"
+      },
+      {
+        "id": "myth-and-symbolism",
+        "title": "Myth, Symbol, and Meaning",
+        "current_type": "soft"
+      },
+      {
+        "id": "comparative-religion-worldviews",
+        "title": "Comparative Religion and Diverse Worldviews",
+        "current_type": "soft"
+      },
+      {
+        "id": "ancestor-veneration-cosmology",
+        "title": "Ancestor Veneration and Cosmology",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "total-order-broadcast": {
+    "title": "Total Order Broadcast and Strong Consistency",
+    "domain": "computer-science",
+    "course": "distributed-systems",
+    "prereqs": [
+      {
+        "id": "happened-before-relation-causality",
+        "title": "Happened-Before Relation and Causal Ordering",
+        "current_type": "hard"
+      },
+      {
+        "id": "consensus-problem",
+        "title": "The Consensus Problem",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "flaubert-stylistic-perfection-realism": {
+    "title": "Flaubert and Stylistic Perfection in Realism",
+    "domain": "literature",
+    "course": "literary-movements-and-periods",
+    "prereqs": [
+      {
+        "id": "literary-analysis-overview",
+        "title": "Literary Analysis: Overview and Approaches",
+        "current_type": "hard"
+      },
+      {
+        "id": "literary-realism-objective-representation",
+        "title": "Literary Realism and Objective Representation",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "frame-and-machine-components": {
+    "title": "Frame and Machine Component Analysis",
+    "domain": "engineering",
+    "course": "statics-and-dynamics",
+    "prereqs": [
+      {
+        "id": "rigid-body-equilibrium-planar",
+        "title": "Rigid Body Equilibrium: Planar Analysis",
+        "current_type": "hard"
+      },
+      {
+        "id": "frames-machines-analysis",
+        "title": "Analysis of Frames and Machines",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "symbolic-violence-bourdieu": {
+    "title": "Symbolic Violence",
+    "domain": "social-sciences",
+    "course": "sociological-theory",
+    "prereqs": [
+      {
+        "id": "bourdieu-habitus",
+        "title": "Bourdieu: Habitus and Dispositions",
+        "current_type": "hard"
+      },
+      {
+        "id": "legitimate-authority-weber",
+        "title": "Weber's Types of Legitimate Authority",
+        "current_type": "soft"
+      },
+      {
+        "id": "coercion-social-domination",
+        "title": "Coercion and Social Domination",
+        "current_type": "soft"
+      },
+      {
+        "id": "bourdieu-field-sociology",
+        "title": "Bourdieu: Field and Social Space",
+        "current_type": "soft"
+      },
+      {
+        "id": "cultural-reproduction",
+        "title": "Cultural Reproduction and Educational Systems",
+        "current_type": "soft"
+      },
+      {
+        "id": "foucault-genealogy-sociological-theory",
+        "title": "Genealogy as Historical Method",
+        "current_type": "soft"
+      },
+      {
+        "id": "class-struggle-marxist",
+        "title": "Class Struggle and Historical Change",
+        "current_type": "soft"
+      },
+      {
+        "id": "durkheim-anomie",
+        "title": "Anomie and Social Solidarity",
+        "current_type": "soft"
+      },
+      {
+        "id": "habermas-communicative-action",
+        "title": "J\u00fcrgen Habermas and Communicative Action",
+        "current_type": "soft"
+      },
+      {
+        "id": "parsons-systems-theory",
+        "title": "Talcott Parsons and Systems Theory",
+        "current_type": "soft"
+      },
+      {
+        "id": "protestant-ethic-and-capitalism",
+        "title": "The Protestant Ethic and the Spirit of Capitalism",
+        "current_type": "soft"
+      },
+      {
+        "id": "robert-merton-functional-analysis",
+        "title": "Robert Merton and Functional Analysis",
+        "current_type": "soft"
+      },
+      {
+        "id": "social-capital-networks",
+        "title": "Social Capital and Network Resources",
+        "current_type": "soft"
+      },
+      {
+        "id": "suicide-as-social-fact-durkheim",
+        "title": "Suicide as a Social Fact: Durkheim's Empirical Study",
+        "current_type": "soft"
+      },
+      {
+        "id": "surplus-value-labor",
+        "title": "Surplus Value and Labor Exploitation",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "b-physics-and-b-factories": {
+    "title": "B-Physics and B-Factories",
+    "domain": "physics",
+    "course": "particle-physics",
+    "prereqs": [
+      {
+        "id": "cp-violation",
+        "title": "CP Violation",
+        "current_type": "hard"
+      },
+      {
+        "id": "ckm-matrix-quark-mixing",
+        "title": "CKM Matrix and Quark Mixing",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "paraphrase-synthesis-strategies": {
+    "title": "Paraphrase, Summary, and Synthesis Strategies",
+    "domain": "language-and-communication",
+    "course": "rhetoric-and-composition",
+    "prereqs": [
+      {
+        "id": "synthesizing-multiple-sources",
+        "title": "Synthesizing Multiple Sources",
+        "current_type": "hard"
+      },
+      {
+        "id": "source-integration-strategies",
+        "title": "Source Integration Strategies",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "dramatic-exposition-revelation": {
+    "title": "Dramatic Exposition and Information Revelation",
+    "domain": "literature",
+    "course": "drama",
+    "prereqs": [
+      {
+        "id": "exposition-in-drama",
+        "title": "Exposition: Communicating Background Information",
+        "current_type": "hard"
+      },
+      {
+        "id": "dialogue-analysis-and-function",
+        "title": "Dialogue: Analysis and Narrative Function",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "ca-integral-extensions": {
+    "title": "Integral Extensions",
+    "domain": "mathematics",
+    "course": "commutative-algebra",
+    "prereqs": [
+      {
+        "id": "field-extensions",
+        "title": "Field Extensions",
+        "current_type": "hard"
+      },
+      {
+        "id": "ring-homomorphisms",
+        "title": "Ring Homomorphisms",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "normative-vs-informational-influence": {
+    "title": "Normative vs. Informational Influence",
+    "domain": "psychology",
+    "course": "social-psychology",
+    "prereqs": [
+      {
+        "id": "social-influence-compliance",
+        "title": "Social Influence and Compliance Techniques",
+        "current_type": "hard"
+      },
+      {
+        "id": "social-norms-and-conformity",
+        "title": "Social Norms and Conformity",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "polar-form-complex-numbers": {
+    "title": "Polar Form of Complex Numbers",
+    "domain": "mathematics",
+    "course": "complex-analysis",
+    "prereqs": [
+      {
+        "id": "modulus-and-argument",
+        "title": "Modulus and Argument of Complex Numbers",
+        "current_type": "hard"
+      },
+      {
+        "id": "trigonometric-ratios-review",
+        "title": "Trigonometric Ratios Review",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "hyperspectral-imaging": {
+    "title": "Hyperspectral Imaging",
+    "domain": "earth-and-space-sciences",
+    "course": "remote-sensing-and-gis",
+    "prereqs": [
+      {
+        "id": "multispectral-imaging",
+        "title": "Multispectral Imaging",
+        "current_type": "hard"
+      },
+      {
+        "id": "electromagnetic-spectrum-remote-sensing",
+        "title": "Electromagnetic Spectrum for Remote Sensing",
+        "current_type": "hard"
+      }
+    ]
+  },
+  "electrical-breaker-panel-safety": {
+    "title": "Electrical Breaker Panel Safety",
+    "domain": "practical-life-skills",
+    "course": "home-maintenance",
+    "prereqs": [
+      {
+        "id": "electrical-safety-basics",
+        "title": "Electrical Safety Basics",
+        "current_type": "hard"
+      },
+      {
+        "id": "circuit-breakers-and-fuses",
+        "title": "Circuit Breakers, Fuses, and the Breaker Panel",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "orbital-stability-mechanics": {
+    "title": "Orbital Stability and Perturbation Analysis",
+    "domain": "physics",
+    "course": "classical-mechanics",
+    "prereqs": [
+      {
+        "id": "effective-potential-central-forces",
+        "title": "Effective Potential in Central Force Motion",
+        "current_type": "hard"
+      },
+      {
+        "id": "keplers-laws",
+        "title": "Kepler's Laws of Planetary Motion",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "phase-shift-keying-modulation": {
+    "title": "Phase Shift Keying Modulation",
+    "domain": "engineering",
+    "course": "signals-and-systems",
+    "prereqs": [
+      {
+        "id": "quadrature-modulation-iq-representation",
+        "title": "Quadrature Modulation and I/Q Representation",
+        "current_type": "hard"
+      },
+      {
+        "id": "frequency-shift-keying-modulation",
+        "title": "Frequency Shift Keying Modulation",
+        "current_type": "soft"
+      }
+    ]
+  },
+  "keyboard-special-keys-and-functions": {
+    "title": "Keyboard Special Keys and Functions",
+    "domain": "practical-life-skills",
+    "course": "digital-literacy",
+    "prereqs": [
+      {
+        "id": "touch-typing-fundamentals",
+        "title": "Touch Typing Fundamentals",
+        "current_type": "soft"
+      },
+      {
+        "id": "copy-paste-and-drag-drop-operations",
+        "title": "Copy, Paste, and Drag-Drop Operations",
+        "current_type": "soft"
+      }
+    ]
+  }
+}

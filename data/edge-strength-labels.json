@@ -1,0 +1,944 @@
+{
+  "electrophilic-addition-to-alkenes": {
+    "alkene-structure-and-nomenclature": "hard",
+    "reaction-mechanisms-overview": "hard"
+  },
+  "period-doubling-route-to-chaos": {
+    "iterated-maps-logistic-map": "hard",
+    "bifurcation-theory-saddle-node": "soft"
+  },
+  "gaba-glutamate-neurotransmission-balance": {
+    "inhibitory-excitatory-synaptic-balance": "hard",
+    "gabaergic-inhibition": "soft",
+    "glutamatergic-excitation": "soft",
+    "gaba-systems": "hard"
+  },
+  "polar-graphs": {
+    "polar-coordinates": "hard",
+    "graphing-sine-and-cosine": "soft",
+    "conic-sections-overview": "soft"
+  },
+  "parallel-transport": {
+    "connections-and-covariant-derivative": "hard",
+    "vector-fields-differential-geometry": "hard"
+  },
+  "whole-number-fractions": {
+    "unit-fractions": "hard",
+    "fractions-on-number-line": "soft"
+  },
+  "bayesian-epistemology": {
+    "justified-true-belief": "hard",
+    "reliabilism": "soft",
+    "probabilistic-reasoning": "hard",
+    "probabilistic-computation": "soft"
+  },
+  "separation-variables-elliptic-equations": {
+    "boundary-value-problems-electrostatics": "hard",
+    "separation-variables-pde": "hard"
+  },
+  "genetic-code": {
+    "dna-structure": "hard",
+    "gene-expression-overview": "hard"
+  },
+  "sm-nd-system": {
+    "rb-sr-system": "soft",
+    "trace-element-geochemistry": "hard"
+  },
+  "stability-of-circular-orbits": {
+    "orbital-elements-and-trajectories": "hard",
+    "circular-motion-dynamics": "hard",
+    "orbital-stability-mechanics": "soft",
+    "vis-viva-equation": "soft"
+  },
+  "amortized-analysis": {
+    "time-space-complexity": "hard",
+    "big-o-complexity-analysis": "soft",
+    "asymptotic-notation-big-o-omega-theta": "soft",
+    "binary-tree-properties-height-balance-completeness": "soft",
+    "recurrence-relations-analysis-techniques": "soft"
+  },
+  "complement-cascade-pathophysiology": {
+    "complement-system-overview": "hard",
+    "acute-inflammation-pathophysiology": "soft",
+    "complement-activation-pathways": "soft"
+  },
+  "specific-phobias": {
+    "anxiety-disorders-overview": "hard",
+    "specific-phobia-and-conditioning": "soft"
+  },
+  "cluster-a-odd-eccentric": {
+    "personality-disorder-overview": "hard",
+    "cluster-b-dramatic-emotional": "soft"
+  },
+  "electric-dipole-moment": {
+    "equipotential-surfaces": "soft",
+    "electric-potential-field": "hard"
+  },
+  "area-rectilinear-shapes": {
+    "area-by-counting-squares": "hard",
+    "area-of-rectangles": "hard"
+  },
+  "solving-exponential-equations": {
+    "logarithm-properties": "hard",
+    "exponential-functions-and-graphs": "hard",
+    "exponential-growth-and-decay": "soft"
+  },
+  "social-preferences": {
+    "bounded-rationality": "soft",
+    "prospect-theory": "soft"
+  },
+  "data-compression-basics": {
+    "source-coding-theorem": "hard",
+    "huffman-coding": "hard",
+    "arithmetic-coding": "soft"
+  },
+  "nicotine-cholinergic-effects-and-addiction": {
+    "acetylcholine-system": "hard",
+    "reward-dopamine-systems": "hard"
+  },
+  "ocean-gyres-and-boundary-currents": {
+    "wind-driven-ocean-circulation": "hard",
+    "coriolis-effect": "hard",
+    "subtropical-ocean-gyres-formation": "soft"
+  },
+  "impressionism-in-music": {
+    "romantic-period-overview": "hard",
+    "modes": "soft",
+    "extended-chords-ninths-elevenths-thirteenths": "soft"
+  },
+  "portraiture-evolution-through-history": {
+    "art-history-patronage": "soft",
+    "art-historical-methods": "soft"
+  },
+  "statistical-distribution-molecular-energies": {
+    "statistical-mechanics-foundations": "hard",
+    "maxwell-boltzmann-distribution": "hard",
+    "kinetic-molecular-distribution-speeds": "soft"
+  },
+  "anterior-pituitary-hormone-axes": {
+    "hypothalamus-pituitary-axis": "hard",
+    "hypothalamic-neuroendocrine-integration": "hard"
+  },
+  "mantle-geochemistry": {
+    "trace-element-geochemistry": "hard",
+    "sm-nd-system": "hard",
+    "rb-sr-system": "soft"
+  },
+  "protein-quality-amino-acid-score-patterns": {
+    "dietary-protein-and-amino-acids": "hard",
+    "amino-acid-classification-and-properties": "hard",
+    "nutrient-digestion-and-absorption": "hard",
+    "amino-acid-metabolism-and-protein-turnover": "soft"
+  },
+  "estimation-multiplication-division": {
+    "rounding-nearest-ten-3rd": "hard",
+    "estimation-products-3rd": "soft"
+  },
+  "predicate-logic-introduction": {
+    "propositional-logic-introduction": "hard",
+    "set-fundamentals": "hard",
+    "functions-and-function-properties": "hard",
+    "domain-and-range": "soft"
+  },
+  "lattice-based-cryptography": {
+    "computational-hardness-assumptions": "hard",
+    "modular-arithmetic": "hard"
+  },
+  "umvue": {
+    "cramer-rao-lower-bound": "hard",
+    "sufficient-statistics": "hard",
+    "bayesian-point-estimation": "soft"
+  },
+  "environmental-hazards-risk": {
+    "climate-human-geography": "hard",
+    "human-environment-adaptation": "soft"
+  },
+  "quantifier-scope-interactions": {
+    "first-order-logic-syntax": "hard",
+    "first-order-semantics": "hard",
+    "quantifier-scope-ambiguity": "hard",
+    "quantifier-notation-and-basics": "hard"
+  },
+  "ligand-gated-ion-channels": {
+    "synaptic-transmission": "hard",
+    "resting-membrane-potential": "soft"
+  },
+  "glomerulonephritis-types": {
+    "glomerular-filtration-rate-autoregulation": "hard",
+    "adaptive-immune-response": "hard",
+    "complement-system-overview": "soft"
+  },
+  "modal-semantics-necessity-possibility": {
+    "montague-semantics": "hard",
+    "modal-logic-intro": "hard"
+  },
+  "sigma-algebras-and-measurable-sets": {
+    "set-operations": "hard",
+    "cardinality-and-countability": "hard"
+  },
+  "presentism-formalized": {
+    "temporal-becoming": "hard",
+    "philosophy-of-time": "hard",
+    "temporal-logic": "hard",
+    "eternalism-formalized": "soft"
+  },
+  "measuring-length-with-ruler-2nd-grade": {
+    "measuring-length-nonstandard": "hard",
+    "comparing-two-digit-numbers": "soft"
+  },
+  "rumi-ecstatic-poetry": {
+    "literary-analysis-overview": "hard",
+    "tagore-spiritual-modernity": "soft"
+  },
+  "refractive-index-and-dispersion": {
+    "dispersion-relations-em-waves": "hard",
+    "electromagnetic-waves-in-dielectrics": "hard"
+  },
+  "conductors-electrostatic-behavior": {
+    "gauss-law-problem-solving": "hard",
+    "equipotential-surfaces": "hard"
+  },
+  "connected-histories-entanglement": {
+    "comparative-global-history": "hard",
+    "postcolonial-historiography": "soft",
+    "entangled-histories-approach": "soft"
+  },
+  "motional-electromotive-force": {
+    "faraday-law-of-induction": "hard",
+    "lorentz-force-on-moving-charge": "hard"
+  },
+  "verbal-signposting": {
+    "speech-structure-and-organization": "hard",
+    "verbal-transitions-in-speaking": "hard"
+  },
+  "vocabulary-context-clues": {
+    "vocabulary-from-context": "soft",
+    "reading-comprehension-strategies-early": "soft",
+    "following-multi-step-directions": "soft",
+    "predicting-and-inferring": "soft"
+  },
+  "source-coding-theorem": {
+    "shannon-entropy": "hard",
+    "probability-density-functions": "hard"
+  },
+  "multivariable-limits": {
+    "functions-of-several-variables": "hard",
+    "limit-laws": "hard",
+    "continuity-definition": "hard"
+  },
+  "vocabulary-growth-semantic-development": {
+    "language-acquisition-development": "hard",
+    "phonological-development-speech-sounds": "soft"
+  },
+  "pattern-and-repetition": {
+    "movement-and-rhythm": "soft",
+    "shape-and-form": "soft",
+    "patterns-in-art": "hard"
+  },
+  "energy-storage-elements-l-and-c": {
+    "capacitor-definition-properties": "hard",
+    "inductor-definition-properties": "hard",
+    "power-energy-in-circuits": "hard"
+  },
+  "amazon-rainforest-dieback-scenarios": {
+    "monsoon-systems-and-climate": "hard",
+    "climate-models-and-projections": "hard",
+    "climate-tipping-points": "hard"
+  },
+  "universality-classes-critical": {
+    "percolation-critical-phenomena": "hard",
+    "critical-phenomena-statmech": "hard"
+  },
+  "source-criticism": {
+    "primary-sources": "hard",
+    "secondary-sources": "soft"
+  },
+  "electrical-safety-and-hazard-awareness": {
+    "electrical-system-basics": "hard",
+    "electrical-breaker-panel-safety": "soft",
+    "pest-exclusion-and-sealing-entry-points": "soft"
+  },
+  "potential-field-methods-gravity-magnetics": {
+    "gravity-potential-theory-earths-field": "hard",
+    "earths-magnetic-dipole-field-basics": "soft"
+  },
+  "literary-cosmopolitanism": {
+    "comparative-literature-intro": "hard",
+    "weltliteratur-concept": "soft",
+    "postcolonial-criticism": "soft"
+  },
+  "lewis-structures": {
+    "covalent-bonding": "hard",
+    "ionic-bonding": "soft"
+  },
+  "atomic-absorption-spectroscopy": {
+    "beers-law": "hard",
+    "atomic-structure-basics": "hard",
+    "emission-absorption-spectra": "soft",
+    "atomic-orbitals": "soft",
+    "electromagnetic-spectrum": "soft",
+    "sample-preparation": "soft",
+    "electromagnetic-waves": "soft",
+    "photon-model": "soft",
+    "electronic-spectroscopy-theory": "soft"
+  },
+  "evidence-hierarchy-support": {
+    "evidence-types-in-writing": "hard",
+    "argument-structure-toulmin": "soft"
+  },
+  "bytecode-and-vm-design": {
+    "intermediate-code-representation": "hard",
+    "jit-compilation": "hard"
+  },
+  "figured-bass": {
+    "chord-inversions": "hard",
+    "intervals-basics": "hard",
+    "roman-numeral-analysis": "soft"
+  },
+  "loop-of-henle-countercurrent-concentration": {
+    "tubular-reabsorption-secretion-selectivity": "hard",
+    "osmosis-and-water-movement": "hard"
+  },
+  "online-account-management": {
+    "password-security": "hard",
+    "digital-privacy-fundamentals": "soft"
+  },
+  "understanding-bullying": {
+    "dealing-with-conflict": "hard",
+    "empathy-understanding-how-others-feel": "hard"
+  },
+  "rough-endoplasmic-reticulum-ribosomes": {
+    "endoplasmic-reticulum-and-golgi": "hard",
+    "ribosomes-and-protein-synthesis-intro": "hard"
+  },
+  "ring-definition-and-examples": {
+    "binary-operations-and-algebraic-structures": "hard",
+    "group-definition-and-examples": "soft"
+  },
+  "quotient-topology": {
+    "open-sets-in-topological-spaces": "hard",
+    "equivalence-relations": "hard",
+    "subbasis-topology": "soft"
+  },
+  "gutter-and-water-drainage-assessment": {
+    "exterior-finish-damage-types-and-assessment": "soft",
+    "gutter-downspout-systems": "soft"
+  },
+  "solving-radical-equations": {
+    "radical-functions-and-graphs": "hard",
+    "rational-exponents": "hard"
+  },
+  "magnetic-field-and-lorentz-force": {
+    "newtons-second-law": "hard",
+    "partial-derivatives": "hard"
+  },
+  "contingency-and-inevitability": {
+    "historical-causation-theory": "hard",
+    "counterfactual-history-theory": "hard",
+    "counterfactual-reasoning": "soft"
+  },
+  "stationary-distributions": {
+    "markov-chains": "hard",
+    "convergence-in-distribution": "soft"
+  },
+  "axiom-of-separation": {
+    "zfc-axioms-overview": "hard",
+    "first-order-logic-syntax": "soft"
+  },
+  "crystal-structures-and-unit-cells": {
+    "ionic-bonding": "hard",
+    "metallic-bonding": "hard",
+    "covalent-bonding": "hard",
+    "periodic-trends": "soft",
+    "solid-state-chemistry-fundamentals": "hard"
+  },
+  "topic-sentences-and-unity": {
+    "paragraph-structure": "hard",
+    "thesis-statement-development": "soft"
+  },
+  "identity-theory": {
+    "physicalism-about-mind": "hard",
+    "universals-and-particulars": "soft"
+  },
+  "atlantic-slave-trade": {
+    "age-of-exploration": "hard",
+    "spanish-colonial-empire": "soft",
+    "ancient-social-stratification": "soft",
+    "columbian-exchange": "soft"
+  },
+  "debate-format-and-structure": {
+    "argument-structure-toulmin": "hard",
+    "evidence-in-speeches": "hard",
+    "persuasive-speech-design": "soft",
+    "impromptu-speaking": "soft"
+  },
+  "addition-subtraction-relationship": {
+    "addition-within-10": "hard",
+    "subtraction-within-10": "hard"
+  },
+  "sexual-selection-speciation-driver": {
+    "natural-selection": "hard",
+    "reproductive-isolation": "hard",
+    "speciation": "soft",
+    "reproductive-isolation-accumulation": "soft"
+  },
+  "failure-of-unique-factorization": {
+    "gaussian-integers": "soft",
+    "fundamental-theorem-of-arithmetic-rigorous": "soft",
+    "norm-in-algebraic-number-fields": "soft"
+  },
+  "capillary-fluid-exchange-starling-equilibrium": {
+    "passive-transport": "hard",
+    "osmosis-and-tonicity": "hard",
+    "cardiovascular-system-overview": "soft"
+  },
+  "dendritic-cells-and-professional-apcs": {
+    "antigen-presentation-mechanisms": "hard",
+    "major-histocompatibility-complex": "hard",
+    "innate-immunity-overview": "soft"
+  },
+  "nmr-quantum-theory": {
+    "quantum-chemistry-foundations": "hard",
+    "nmr-spectroscopy-basics": "soft",
+    "spin-quantum-number": "soft",
+    "nuclear-magnetic-moments": "hard",
+    "quantum-mechanics-postulates-core": "soft",
+    "raman-spectroscopy-theory": "soft"
+  },
+  "writing-and-sending-an-email": {
+    "reading-an-email": "hard",
+    "using-a-keyboard": "hard"
+  },
+  "resource-limits-and-process-accounting": {
+    "process-concept": "hard",
+    "system-calls": "soft"
+  },
+  "synthesis-and-decomposition": {
+    "reactants-and-products": "hard",
+    "chemical-formula-meaning": "soft"
+  },
+  "prioritarianism": {
+    "distributive-justice": "hard",
+    "difference-principle": "soft"
+  },
+  "planetary-formation-core-accretion": {
+    "planetary-formation": "soft",
+    "protoplanetary-disk-structure": "soft"
+  },
+  "harmony-unity-and-visual-cohesion": {
+    "rhythm-through-repetition-and-variation": "hard",
+    "symmetry-asymmetry-and-radial-balance": "hard",
+    "color-temperature-in-painting-and-design": "soft"
+  },
+  "minimal-surfaces": {
+    "riemannian-metrics": "hard",
+    "connections-and-covariant-derivative": "hard",
+    "submanifolds": "hard",
+    "curvature-tensor": "soft"
+  },
+  "mental-property-supervenience": {
+    "physicalism-about-mind": "hard",
+    "supervenience-dependence": "hard"
+  },
+  "series-parallel-inductor-networks": {
+    "capacitor-inductor-energy-storage": "hard",
+    "series-parallel-resistor-analysis": "soft"
+  },
+  "annales-school-theory": {
+    "historiography-philosophy-intro": "hard",
+    "annales-school": "hard"
+  },
+  "finite-element-method-foundations": {
+    "lax-milgram-theorem": "hard",
+    "variational-methods-pdes": "hard"
+  },
+  "free-radical-chain-halogenation": {
+    "organic-chemistry-intro": "hard",
+    "reaction-mechanisms-elementary-steps": "hard"
+  },
+  "single-celled-organisms": {
+    "what-is-a-cell": "hard",
+    "using-a-microscope": "soft",
+    "needs-of-living-things": "soft"
+  },
+  "monsoon-circulation-formation-large-scale": {
+    "monsoon-systems-and-climate": "soft",
+    "global-atmospheric-circulation": "hard",
+    "subtropical-anticyclone-formation": "soft",
+    "zonal-meridional-circulation": "soft"
+  },
+  "division-as-inverse-multiplication-3rd": {
+    "division-equal-sharing-2nd": "hard",
+    "multiplication-equal-groups-3rd": "hard",
+    "fact-families-multiplication-and-division-3rd": "soft",
+    "estimation-multiplication-division": "soft"
+  },
+  "innate-lymphoid-cells-ilcs": {
+    "innate-immunity-overview": "hard",
+    "mucosal-immunity-and-iga-response": "soft",
+    "th1-th2-th17-responses": "soft"
+  },
+  "greco-roman-epic-heroic-form": {
+    "literary-analysis-overview": "hard",
+    "story-and-narrative-basics": "soft"
+  },
+  "bystander-effect": {
+    "social-psychology-overview": "hard",
+    "social-norms-and-conformity": "soft",
+    "bystander-effect-and-action": "soft"
+  },
+  "graphing-quadratics": {
+    "solving-quadratics-by-factoring": "hard",
+    "graphing-linear-equations": "hard"
+  },
+  "amygdala-fear-learning": {
+    "amygdala-emotion": "hard",
+    "fear-conditioning-circuits": "hard"
+  },
+  "sharing-stories-with-others": {
+    "retelling-a-story": "hard",
+    "favorite-books": "soft"
+  },
+  "sensory-transduction-and-encoding": {
+    "sensory-systems-anatomy": "hard",
+    "ion-channels-selectivity": "hard",
+    "sensory-receptor-transduction-adaptation": "soft"
+  },
+  "norm-algebraic-number-fields": {
+    "gaussian-integers": "hard",
+    "field-extensions": "hard"
+  },
+  "seasoning-and-flavor-basics": {
+    "reading-recipes": "hard",
+    "sauteing-and-pan-cooking": "soft",
+    "roasting-techniques": "soft"
+  },
+  "making-10-addition-strategy": {
+    "number-bonds-within-5": "hard",
+    "addition-within-10": "hard"
+  },
+  "digital-elevation-models": {
+    "radar-remote-sensing-sar": "soft",
+    "lidar-principles": "soft",
+    "gis-fundamentals": "hard"
+  },
+  "self-portraits": {
+    "making-faces-and-expressions-in-art": "hard",
+    "colors-and-naming-them": "soft"
+  },
+  "short-story-compression-effect": {
+    "short-story-form": "hard",
+    "narrative-structures-cross-cultural": "soft"
+  },
+  "tens-and-ones-place-value": {
+    "skip-counting-by-10s": "hard",
+    "place-value-tens-and-ones": "hard"
+  },
+  "protein-primary-structure": {
+    "peptide-bonds-and-polypeptide-formation": "hard",
+    "amino-acid-classification-and-properties": "soft",
+    "nucleophilic-acyl-substitution": "soft",
+    "covalent-bonding": "soft"
+  },
+  "natural-rate-hypothesis": {
+    "inflation-unemployment-tradeoff": "hard",
+    "rational-expectations-macro": "soft"
+  },
+  "women-equality-rights": {
+    "feminist-suffrage-movement": "hard",
+    "civil-rights-movement": "soft"
+  },
+  "resonance-in-organic-intermediates": {
+    "resonance-and-formal-charge": "hard",
+    "reaction-mechanisms-overview": "soft"
+  },
+  "common-collector-amplifier": {
+    "bjt-amplifier-configurations": "hard",
+    "bjt-transistor-fundamentals": "hard",
+    "common-base-amplifier": "soft"
+  },
+  "perception-and-knowledge": {
+    "sources-of-knowledge": "hard",
+    "a-priori-and-a-posteriori": "soft"
+  },
+  "second-partials-test": {
+    "critical-points-multivariable": "hard",
+    "higher-order-partial-derivatives": "hard",
+    "second-derivative-test": "soft"
+  },
+  "bootstrapping-circular-justification": {
+    "the-regress-problem": "hard",
+    "justified-true-belief": "soft"
+  },
+  "counting-fundamentals-discrete": {
+    "counting-principles": "hard",
+    "pigeonhole-and-counting": "soft"
+  },
+  "ocean-sediments-and-stratigraphy": {
+    "seafloor-spreading-mid-ocean-ridges": "hard",
+    "sedimentary-rocks": "hard",
+    "stratigraphy": "soft",
+    "paleoclimatology": "soft"
+  },
+  "multi-proxy-climate-reconstruction": {
+    "paleoclimate-reconstruction-methods": "hard",
+    "paleoclimate-proxies": "hard"
+  },
+  "differentiability-multivariable": {
+    "continuity-multivariable": "hard",
+    "partial-derivatives": "hard"
+  },
+  "shift-register-design": {
+    "flip-flops-and-latches": "hard",
+    "sequential-circuit-design": "soft"
+  },
+  "health-promotion-models": {
+    "disease-prevention-levels": "hard",
+    "social-determinants-of-health": "soft"
+  },
+  "memory-interleaving-and-bandwidth": {
+    "memory-organization": "hard",
+    "dynamic-ram-dram-design": "soft",
+    "direct-memory-access-dma": "soft"
+  },
+  "integumentary-system-anatomy": {
+    "body-organization-and-terminology": "hard",
+    "tissue-types-and-histology": "hard"
+  },
+  "forensic-rhetoric-judgment": {
+    "rhetorical-triangle": "soft",
+    "evidence-and-support": "soft",
+    "deliberative-rhetoric-policy": "soft",
+    "epideictic-rhetoric-praise-blame": "soft"
+  },
+  "comparing-unit-fractions": {
+    "unit-fractions": "hard",
+    "fractions-on-number-line": "soft",
+    "fractions-sixths-eighths": "soft"
+  },
+  "derrida-deconstruction": {
+    "structuralism-saussure-levi-strauss": "hard",
+    "post-structuralism-overview": "hard"
+  },
+  "dynamic-panel-arellano-bond-estimator": {
+    "dynamic-panel-models": "hard",
+    "lagged-dependent-variable-regression": "hard"
+  },
+  "compressible-flow-isentropic-flow": {
+    "control-volume-steady-flow": "hard",
+    "isentropic-process-reversible": "hard"
+  },
+  "hubbard-model": {
+    "tight-binding-model": "hard",
+    "fermi-liquid-theory": "soft"
+  },
+  "performance-appraisal": {
+    "job-analysis": "hard",
+    "measurement-scales-psychology": "soft"
+  },
+  "spontaneous-radioactive-decay": {
+    "radioactive-decay": "hard",
+    "binding-energy-stability-curve": "soft"
+  },
+  "counterfactual-causation": {
+    "causation-and-causal-relations": "hard",
+    "possible-worlds-semantics": "soft",
+    "modal-logic-intro": "soft",
+    "regularity-theory-of-causation": "soft",
+    "causation-and-determination": "soft"
+  },
+  "equilibrium-expression-kc-kp-constants": {
+    "chemical-equilibrium": "hard",
+    "gas-laws": "soft",
+    "solving-multi-step-equations": "soft",
+    "exponential-functions-and-graphs": "soft"
+  },
+  "scope-ambiguity-and-representation": {
+    "first-order-logic-syntax": "hard",
+    "russell-definite-descriptions": "hard",
+    "quantifier-scope-ambiguity": "hard",
+    "quantifier-scope-interactions": "soft"
+  },
+  "variant-annotation-interpretation": {
+    "next-generation-sequencing-ngs": "hard",
+    "missense-nonsense-silent-mutation-effects": "hard"
+  },
+  "coronary-vasospasm-and-angina-pectoris": {
+    "atherosclerosis-pathophysiology": "soft",
+    "cardiovascular-system-overview": "soft"
+  },
+  "sql-joins": {
+    "sql-data-retrieval-select": "hard",
+    "primary-and-foreign-keys": "hard"
+  },
+  "grocery-shopping-and-budgeting": {
+    "meal-planning-basics": "hard",
+    "reading-nutrition-labels": "soft",
+    "personal-budget-fundamentals": "soft",
+    "adding-subtracting-decimals": "soft",
+    "percent-concept": "soft",
+    "making-change-simple": "soft",
+    "comparing-fractions": "soft",
+    "addition-subtraction-word-problems": "soft",
+    "comparing-decimals": "soft",
+    "money-fundamentals-definition-and-characteristics": "hard",
+    "unit-rates": "soft",
+    "percent-of-a-number": "soft"
+  },
+  "dna-discovery-molecular-biology": {
+    "germ-theory-revolution": "soft",
+    "darwin-evolution-reception": "hard"
+  },
+  "historical-interpretation-method": {
+    "historiography-intro": "hard",
+    "what-is-history": "hard",
+    "source-criticism": "hard",
+    "anachronism-presentism": "soft",
+    "history-science-debate": "soft",
+    "annales-school-theory": "soft",
+    "genealogical-method": "soft",
+    "herodotus-inquiry-method": "soft",
+    "postcolonial-research-methods": "soft"
+  },
+  "referential-integrity-cascading-actions": {
+    "primary-and-foreign-keys": "hard",
+    "sql-constraint-enforcement": "hard"
+  },
+  "system-identification-basics": {
+    "transfer-functions-control": "hard",
+    "time-domain-response-first-order": "hard"
+  },
+  "long-run-average-cost": {
+    "short-run-cost-fixed-variable": "hard",
+    "economies-of-scale-long-run": "soft",
+    "long-run-cost-structure": "soft"
+  },
+  "perpendicular-bisectors": {
+    "midpoint-formula": "hard",
+    "segment-and-distance": "hard",
+    "cpctc": "soft",
+    "isosceles-triangle-theorem": "soft"
+  },
+  "seismic-velocity-depth-models": {
+    "elastic-wave-propagation-in-solids": "hard",
+    "seismic-waves": "hard"
+  },
+  "soft-power-narrative-influence": {
+    "structural-realism-waltz": "soft",
+    "international-relations-overview": "hard"
+  },
+  "translation-termination-stop-codons-release-factors": {
+    "translation-elongation-elongation-factors": "hard",
+    "translation-elongation-and-termination": "soft"
+  },
+  "micro-interactions-feedback": {
+    "ui-design-fundamentals": "hard",
+    "motion-design-and-animation-principles": "soft"
+  },
+  "simple-circuits": {
+    "static-electricity-intro": "hard",
+    "energy-forms-heat-light-sound": "soft"
+  },
+  "pharmacogenomics": {
+    "variant-calling-and-gwas": "hard",
+    "population-genomics": "soft",
+    "gene-expression-overview": "soft"
+  },
+  "climate-extremes-and-attribution": {
+    "climate-models-and-projections": "hard",
+    "climate-change-science": "hard",
+    "severe-weather-systems": "soft"
+  },
+  "eulers-criterion": {
+    "quadratic-residues-legendre-symbol": "hard",
+    "fermats-little-theorem": "hard"
+  },
+  "ir-spectroscopy-organic": {
+    "ir-spectroscopy-basics": "hard",
+    "electromagnetic-waves": "soft",
+    "electromagnetic-spectrum": "soft",
+    "wave-properties-intro": "soft"
+  },
+  "minimalist-program-core-concepts": {
+    "x-bar-theory": "hard",
+    "movement-and-transformations": "hard"
+  },
+  "smale-horseshoe": {
+    "iterated-maps-logistic-map": "hard",
+    "chaos-definition-and-properties": "hard"
+  },
+  "literary-movements-comparative": {
+    "literary-criticism-overview": "hard",
+    "new-historicism": "soft"
+  },
+  "representable-functors": {
+    "functors": "hard",
+    "natural-transformations": "soft",
+    "opposite-categories-and-duality": "soft",
+    "full-and-faithful-functors": "soft",
+    "functor-categories": "soft"
+  },
+  "impliciture-and-enrichment": {
+    "grice-conversational-implicature": "hard",
+    "pragmatics-semantics-boundary": "hard"
+  },
+  "cantor-set-example-uncountable": {
+    "uncountability-by-diagonal-argument": "hard",
+    "set-operations-union-intersection-complement": "soft"
+  },
+  "ritual-and-ceremony": {
+    "anthropology-overview": "hard",
+    "culture-concept": "soft",
+    "religion-and-society": "soft"
+  },
+  "visual-communication-strategy": {
+    "visual-perception-and-communication": "hard",
+    "composition-and-visual-organization": "soft"
+  },
+  "emotional-resonance-design": {
+    "color-theory-in-design": "soft",
+    "visual-perception-and-communication": "soft"
+  },
+  "double-integrals-polar-coordinates": {
+    "double-integrals-cartesian-coordinates": "hard",
+    "double-integrals-polar": "hard"
+  },
+  "auction-theory": {
+    "mechanism-design-basics": "hard",
+    "probability-spaces-measure-theoretic": "soft",
+    "game-theory-basics-microeconomics": "hard",
+    "expected-value-theory": "hard",
+    "optimization-multivariable-basics": "soft",
+    "auction-formats-and-equivalence": "soft"
+  },
+  "accompaniment-patterns-and-figures": {
+    "harmonic-accompaniment-fundamentals": "hard",
+    "accompaniment-style-and-texture": "soft"
+  },
+  "learning-by-doing-and-development": {
+    "technology-adoption-developing-countries": "hard",
+    "trade-and-development": "soft"
+  },
+  "heisenberg-uncertainty-principle": {
+    "wave-particle-duality": "hard",
+    "de-broglie-wavelength": "hard"
+  },
+  "acid-base-neutralization-reactions": {
+    "acid-base-definitions": "hard",
+    "chemical-equations-and-balancing": "hard"
+  },
+  "personal-history-family": {
+    "memoir-family-narrative": "hard",
+    "narrative-structures-cross-cultural": "soft"
+  },
+  "diastereomers-and-meso-compounds": {
+    "enantiomers-and-chirality": "hard",
+    "cycloalkanes": "soft"
+  },
+  "producer-consumer-classic-sync": {
+    "counting-semaphores-resource-pools": "hard",
+    "monitors-and-condition-variables": "soft"
+  },
+  "jazz-as-art-and-culture": {
+    "music-history-overview": "hard",
+    "cultural-context-and-musical-change": "hard",
+    "music-and-identity-nationalism": "soft"
+  },
+  "bretton-woods-system": {
+    "great-depression-causes-responses": "hard",
+    "gold-standard-history": "soft"
+  },
+  "consciousness-definition-philosophy": {
+    "philosophy-of-mind-introduction": "soft",
+    "relational-consciousness-accounts": "soft"
+  },
+  "orbital-forcing-variations": {
+    "milankovitch-orbital-cycles": "hard",
+    "eccentricity-climate-forcing": "hard",
+    "obliquity-climate-forcing": "hard",
+    "precession-climate-forcing": "hard"
+  },
+  "price-elasticity-of-supply": {
+    "supply-and-demand-basics": "hard",
+    "price-elasticity-of-demand": "soft"
+  },
+  "cosmology-and-worldview": {
+    "culture-concept": "hard",
+    "myth-and-symbolism": "soft",
+    "comparative-religion-worldviews": "soft",
+    "ancestor-veneration-cosmology": "soft"
+  },
+  "total-order-broadcast": {
+    "happened-before-relation-causality": "hard",
+    "consensus-problem": "hard"
+  },
+  "flaubert-stylistic-perfection-realism": {
+    "literary-analysis-overview": "hard",
+    "literary-realism-objective-representation": "hard"
+  },
+  "frame-and-machine-components": {
+    "rigid-body-equilibrium-planar": "hard",
+    "frames-machines-analysis": "soft"
+  },
+  "symbolic-violence-bourdieu": {
+    "bourdieu-habitus": "hard",
+    "legitimate-authority-weber": "soft",
+    "coercion-social-domination": "soft",
+    "bourdieu-field-sociology": "soft",
+    "cultural-reproduction": "soft",
+    "foucault-genealogy-sociological-theory": "soft",
+    "class-struggle-marxist": "soft",
+    "durkheim-anomie": "soft",
+    "habermas-communicative-action": "soft",
+    "parsons-systems-theory": "soft",
+    "protestant-ethic-and-capitalism": "soft",
+    "robert-merton-functional-analysis": "soft",
+    "social-capital-networks": "soft",
+    "suicide-as-social-fact-durkheim": "soft",
+    "surplus-value-labor": "soft"
+  },
+  "b-physics-and-b-factories": {
+    "cp-violation": "hard",
+    "ckm-matrix-quark-mixing": "hard"
+  },
+  "paraphrase-synthesis-strategies": {
+    "synthesizing-multiple-sources": "hard",
+    "source-integration-strategies": "soft"
+  },
+  "dramatic-exposition-revelation": {
+    "exposition-in-drama": "hard",
+    "dialogue-analysis-and-function": "hard"
+  },
+  "ca-integral-extensions": {
+    "field-extensions": "hard",
+    "ring-homomorphisms": "hard"
+  },
+  "normative-vs-informational-influence": {
+    "social-influence-compliance": "hard",
+    "social-norms-and-conformity": "soft"
+  },
+  "polar-form-complex-numbers": {
+    "modulus-and-argument": "hard",
+    "trigonometric-ratios-review": "soft"
+  },
+  "hyperspectral-imaging": {
+    "multispectral-imaging": "hard",
+    "electromagnetic-spectrum-remote-sensing": "hard"
+  },
+  "electrical-breaker-panel-safety": {
+    "electrical-safety-basics": "hard",
+    "circuit-breakers-and-fuses": "soft"
+  },
+  "orbital-stability-mechanics": {
+    "effective-potential-central-forces": "hard",
+    "keplers-laws": "soft"
+  },
+  "phase-shift-keying-modulation": {
+    "quadrature-modulation-iq-representation": "hard",
+    "frequency-shift-keying-modulation": "soft"
+  },
+  "keyboard-special-keys-and-functions": {
+    "touch-typing-fundamentals": "soft",
+    "copy-paste-and-drag-drop-operations": "soft"
+  }
+}

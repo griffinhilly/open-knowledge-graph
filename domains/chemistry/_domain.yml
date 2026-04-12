@@ -3,6 +3,7 @@ title: Chemistry
 description: The study of matter, its properties, composition, structure, and the
   changes it undergoes during chemical reactions. Bridges physics and biology through
   understanding of atomic and molecular behavior.
+pedagogy_type: assessable
 courses:
 - id: properties-of-matter
   title: Properties of Matter

@@ -6,7 +6,8 @@
 - **Radial graph shows 18 domains** (practical-life-skills excluded — kept on index/domain maps)
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
 - Phase 10 DONE. Phase 10.5 (Literature Expansion) DONE. Phase 11 (Early-Childhood) DONE. **Phase 9D effectively DONE.**
-- **Phase 12A DONE** (Apr 12, 2026): virality-first onboarding shipped in 4 cuts. All 9 plan steps delivered. Net +267 LoC (plan target −50/+150; over-budget on refine + next-step card DOM overhead, within "gut-check not abort" threshold). Next actionable: Phase 12B (Sprout + pedagogy-typing + per-edge strength).
+- **Phase 12A DONE** (Apr 12, 2026): virality-first onboarding, 9 steps across Cuts 1-4, net +267 LoC.
+- **Phase 12B Cuts 5-6 DONE** (Apr 12, 2026): pedagogy-typing + reflective cards + stale-topics + soft-edge propagation. Cut 7 (Sprout shell) is next.
 - **Domain maps are primary navigation** — hierarchy views removed from CI and all links
 - **CI pipeline**: validate → index → radial → topic pages → domain maps → assessment → quiz
 - **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking + quiz staleness warning + question YAML error checks (~17s). Setup: `git config core.hooksPath hooks`
@@ -54,6 +55,26 @@ All 9 plan steps across 4 cuts. Key implementation notes that future cuts / 12B/
 - **Refine-your-map slider writes to `okg-domain-prior`**, not `okg-adjustments` (plan was imprecise — adjustments are course-level, domain prior is the cold-start multiplier from Cut 1). 5 positions map to multipliers {0.2, 0.6, 1.0, 1.4, 1.8}.
 - **`preset=sprout` URL param** is live as a stub: forces `setUserStage(0)` and clears the dismiss flag. Sprout shell itself (TTS, emoji buttons, parent PIN) is Phase 12B.
 - **Seed completion flag** `okg-seed-completed=1` set inside `renderResults()` only if user answered ≥1 question. Gates the retention corner card on the radial alongside "has ≥1 starred goal".
+
+## Phase 12B Cuts 5-6 Shipped (Apr 12, 2026)
+
+**Cut 5 — pedagogy-typing + reflective cards + stale-topics** (plan steps 5, 6, 7, 11):
+
+- **`pedagogy_type` field** added to all 19 `_domain.yml` files. Classification: **assessable (13)** = math, formal-sciences, CS, engineering, physics, chemistry, biology, earth-and-space, economics, health, psychology, language-and-communication, practical-life-skills. **reflective (6)** = philosophy, social-sciences, history, literature, arts-and-aesthetics, music. Music is a judgment call (theory is assessable, appreciation is reflective — went with domain-level reflective to match plan intent).
+- **Reflective topic pages** swap the "Practice Questions" CTA for a "Mark as read" card with an optional "What did you take from this?" textarea. Text persists to new `okg-reflections` localStorage. `markAsRead()` sets score to 100. Quiz-me-anyway escape hatch preserved when questions exist. Assessable topic pages are unchanged.
+- **Reflective-domain frontier variant**: `findFrontier` now branches on `pedagogyType`. Reflective topics bypass the prereq check entirely — any untouched reflective topic becomes frontier-eligible with a flat readiness of 80 (below assessable root topics' 100 so assessables still win ties). Before Cut 5, reflective topics were categorically excluded from frontier because of the prereq gate; 4070 reflective topics now appear.
+- **Stale-topics frontier signal**: new `okg-fluency-touched` localStorage key tracks per-topic last-touched timestamps. `setScore` and `updateTopic` write timestamps automatically. `findStaleTopics()` returns topics with stored score in `[50, 85]` and `last_touched > 21 days` ago, sorted oldest-first. Radial retention card surfaces stale topics **before** fresh frontier candidates, relabeling "Your next step" → "Review this" and the button "Start this" → "Review".
+
+**Cut 6 — per-edge strength propagation** (plan steps 8, 9, 10):
+
+- **Soft-edge propagation in `fluency.js`**: `BACKWARD_DECAY_HARD=0.85`, `BACKWARD_DECAY_SOFT=0.425`. Backward BFS now tracks per-path decay (a hard-then-soft path multiplies correctly to 0.85 × 0.425 = 0.361, not 0.85² = 0.7225). Forward capping considers HARD prereqs only. `findFrontier` and `isFrontier` compute `avgPrereq` over hard prereqs only — a topic with strong hard prereqs and weak soft prereqs is frontier-eligible (was previously excluded).
+- **`prereqId(p)` / `prereqType(p)` helpers** normalize either shape (string or `{id, type}`) so propagate/findFrontier/computePathToGoal/topoSort all work against mixed-shape input. Backward-compat with legacy string-only graphs.
+- **Graph shape changed in two places**: `buildFluencyGraph` in `visualize_radial.py` now emits `{id, type}` objects for prereqs/successors. `_build_lightweight_graph` in `generate_quiz_page.py` was rewritten to include soft edges (was filtering them out); same `{id, type}` shape. The quiz's results-screen frontier renderer was updated to match the hard-only avgPrereq semantics.
+- **Edge distribution finding** (run during Cut 6 recon): the corpus is already **54% hard / 46% soft** (20,086 hard, 17,159 soft of 37,245 total). NOT the "all-hard" starting state the plan assumed. Soft-edge weighting shipped immediately has real teeth without the Haiku relabeling pass.
+- **`tools/label_edge_strength.py`** script written but NOT run. Supports `--sample N`, `--resume`, `--apply`. Docstring includes QA protocol.
+- **Sample QA outcome**: 200 topics / 542 edges classified via 4 parallel Haiku research-agents (plan usage, not API budget). **Flip rate 0.7% (4 of 542)** — vastly below the 10% re-run threshold. All 4 flips were `soft → hard`, zero `hard → soft`. Conclusion: the existing manual labels from Phases 6-8 are already high-quality; full relabeling pass was skipped. The 4 specific flips (`separation-variables-elliptic-equations`, `pattern-and-repetition`, `amazon-rainforest-dieback-scenarios`, `simple-circuits`) are noted as surgical cleanups but not applied. Sample data archived in `data/edge-sample-manifest.json` + `data/edge-strength-labels.json`.
+
+**Net LoC (Cuts 5+6 combined)**: ~+370 insertions, −65 deletions across 23 files. File breakdown: lib/fluency.js +127 total (67 cut 5 + 60 cut 6 net), generate_topic_pages.py +144, generate_quiz_page.py ~30 touched, visualize_radial.py ~45 touched, label_edge_strength.py +260 new, 19 domain YAMLs +1 each.
 
 ## Phase 12A Follow-ups (not blocking 12B)
 

@@ -1,6 +1,7 @@
 domain: social-sciences
 title: Social Sciences
 description: The study of human societies, social relationships, and institutions.
+pedagogy_type: reflective
 courses:
 - id: my-community-and-world
   title: My Community & World

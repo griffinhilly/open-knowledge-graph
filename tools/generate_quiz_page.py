@@ -117,7 +117,9 @@ def _build_lightweight_graph():
     """Build a lightweight prerequisite graph for frontier detection.
 
     Returns {topicId: {prereqs: [...], successors: [...], domain, course, title}}.
-    Only includes hard prerequisites.
+    Includes BOTH hard and soft prerequisites as {id, type} objects — the
+    fluency engine (Cut 6+) uses edge type to weight backward propagation
+    and to gate forward capping / frontier eligibility.
     """
     all_data = {}
     for filepath in sorted(DOMAINS_DIR.rglob("*.md")):
@@ -131,10 +133,8 @@ def _build_lightweight_graph():
     for tid, data in all_data.items():
         prereqs = []
         for p in data.get("prerequisites", []):
-            if isinstance(p, dict) and "id" in p:
-                ptype = p.get("type", "hard")
-                if ptype == "hard" and p["id"] in all_data:
-                    prereqs.append(p["id"])
+            if isinstance(p, dict) and "id" in p and p["id"] in all_data:
+                prereqs.append({"id": p["id"], "type": p.get("type", "hard")})
         graph[tid] = {
             "prereqs": prereqs,
             "successors": [],
@@ -143,11 +143,11 @@ def _build_lightweight_graph():
             "title": data.get("title", tid),
         }
 
-    # Build successor lists
+    # Build successor lists with matching edge type
     for tid, node in graph.items():
-        for pid in node["prereqs"]:
-            if pid in graph:
-                graph[pid]["successors"].append(tid)
+        for pr in node["prereqs"]:
+            if pr["id"] in graph:
+                graph[pr["id"]]["successors"].append({"id": tid, "type": pr["type"]})
 
     return graph
 
@@ -1697,11 +1697,19 @@ function renderFrontier(container, graph, effectiveScores) {
     const node = graph[tid];
     if (!node) continue;
     const prereqs = node.prereqs || [];
+    // Cut 6+: prereqs are {id, type} objects. Only HARD prereqs gate readiness;
+    // soft prereqs are "helpful but not required" and don't cap the score.
     let avgPrereq = 100;
-    if (prereqs.length > 0) {
-      let sum = 0;
-      for (const pid of prereqs) sum += (effectiveScores[pid] || 0);
-      avgPrereq = Math.round(sum / prereqs.length);
+    let hardSum = 0, hardCount = 0;
+    for (const p of prereqs) {
+      const isHard = (typeof p === 'object' && p) ? (p.type !== 'soft') : true;
+      if (!isHard) continue;
+      const pid = (typeof p === 'object' && p) ? p.id : p;
+      hardSum += (effectiveScores[pid] || 0);
+      hardCount++;
+    }
+    if (hardCount > 0) {
+      avgPrereq = Math.round(hardSum / hardCount);
     }
     const readiness = Math.min(100, Math.max(0, avgPrereq - (effectiveScores[tid] || 0)));
     const item = h('div', {className: 'frontier-item'});

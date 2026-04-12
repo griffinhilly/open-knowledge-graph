@@ -2,6 +2,7 @@ domain: biology
 title: Biology
 description: The study of living organisms, their structure, function, growth, evolution,
   and interactions. From molecular machinery inside cells to ecosystems spanning continents.
+pedagogy_type: assessable
 courses:
 - id: living-things
   title: Living Things

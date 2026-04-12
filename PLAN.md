@@ -17,11 +17,12 @@
 - Topic page "Why this topic?" shows static downstream count only (no goal-aware context — would need graph.js on topic pages)
 
 **Last session (Apr 12, 2026):**
-- **Phase 12A shipped in 4 cuts** — all 9 plan steps. Net +267 LoC. See MEMORY.md "Phase 12A Shipped" section for implementation decisions and follow-ups. Shipped surfaces: cold-start prior (fluency.js), alpha-gradient opacity field, stage slider DOM overlay, 24Q stratified single-phase seed (replaces warmup+exploration), refine-your-map 19-row domain slider, next-step retention corner card, inline know/don't-know panel buttons, index CTA cleanup + `preset=sprout` stub.
+- **Phase 12A shipped in 4 cuts** — all 9 steps. Net +267 LoC. Surfaces: cold-start prior, alpha-gradient opacity field, stage slider DOM overlay, 24Q stratified seed, refine-your-map domain slider, next-step retention card, inline know/don't-know panel buttons, index CTA + `preset=sprout` stub.
+- **Phase 12B Cuts 5+6 shipped** — pedagogy-typing on 19 `_domain.yml` files (13 assessable / 6 reflective), reflective card variant on topic pages (mark-as-read + reflection text persists to `okg-reflections`), reflective-domain frontier variant in `findFrontier`, stale-topics signal via new `okg-fluency-touched` + `findStaleTopics()`, soft-edge propagation (`BACKWARD_DECAY_SOFT=0.425`), per-path decay in `propagate()`, graph shape changed to `{id, type}` objects in both `buildFluencyGraph` and `_build_lightweight_graph`. Sample QA found 0.7% flip rate — full Haiku labeling pass skipped. See MEMORY.md "Phase 12B Cuts 5-6 Shipped" for implementation decisions and follow-ups.
 
 **Next steps:**
-1. **Phase 12B: Sprout + Pedagogy-Typing + Per-Edge Strength** — week-long phase. Persona A shell (TTS, emoji buttons, parent PIN, coloring-book progress), domain-level `pedagogy_type ∈ {assessable, reflective}`, reflective card variant (mark-as-read replaces quiz CTA), Haiku edge labeling pass for hard/soft strength, stale-topics frontier signal. Plan: [plans/phase-12-three-persona-redesign.md](plans/phase-12-three-persona-redesign.md) section "Phase 12B".
-2. Phase 12A follow-ups (not blocking 12B): MC position-bias data fix, course-level picker inside Deep Dive, stage-inversion edge spot-check.
+1. **Phase 12B Cut 7 — Sprout shell** (biggest cut in 12B, ~500 LoC): hero image audit (Griffin, ~20 min), SproutCard conditional render branch (TTS, emoji buttons, full-screen single topic, collegiate rings display:none), parent PIN unlock via SubtleCrypto, coloring-book SVG progress visualization per early-childhood domain.
+2. Phase 12A/B follow-ups (not blocking 12C): MC position-bias data fix, course-level picker inside Deep Dive, 4 surgical edge flips from Cut 6 QA, stage-inversion edge spot-check.
 3. Write announcement post (on hold until Phase 12B ships)
 4. Consider Phase 9D stretch: goal-aware "why" on topic pages (requires loading graph.js)
 
@@ -433,8 +434,24 @@ All 9 plan steps shipped in 4 cuts. See MEMORY.md "Phase 12A Shipped" for implem
 
 Net LoC: +267 across 4 files (over plan's −50/+150 target — refine + next-step card DOM/CSS overhead came in higher than estimated, within "gut-check not auto-abort" threshold).
 
-### Phase 12B — NEXT
-- **12B — Sprout + pedagogy-typing + per-edge strength** (week, ~+800 LoC): Persona A shell with TTS + emoji buttons + parent PIN + coloring-book progress, domain-level `pedagogy_type ∈ {assessable, reflective}`, reflective card variant (mark-as-read replaces quiz CTA), Haiku edge labeling pass for hard/soft strength, stale-topics frontier signal
-- **12C — Conditional Rasch upgrade** (1-3 weeks, conditional): only if stage heuristic proves off by >1 stage in >20% of sampled users. Rasch with θ ∈ ℝ^8, Fisher-info adaptive seed, reflective-domain exclusion
+### Phase 12B — IN PROGRESS
+
+**Cuts 5-6 DONE (Apr 12, 2026)** — engine work, no new UI shell:
+- [x] Step 5: `pedagogy_type` added to all 19 `_domain.yml` files
+- [x] Step 6: Reflective card variant (Mark-as-read + optional reflection text) on topic pages
+- [x] Step 7: Reflective-domain frontier variant in `findFrontier`
+- [x] Step 11: Stale-topics frontier signal (21-day, score-in-[50,85] band)
+- [x] Step 8: `tools/label_edge_strength.py` written (not run)
+- [x] Step 9: 200-topic / 542-edge sample QA via parallel Haiku agents (plan usage) — 0.7% flip rate, full pass skipped
+- [x] Step 10: Soft-edge propagation (`BACKWARD_DECAY_SOFT=0.425`, forward cap hard-only, avgPrereq hard-only)
+
+**Cut 7 — NEXT** (Sprout shell, ~500 LoC):
+- [ ] Step 1: Hero image audit (Griffin, ~20 min)
+- [ ] Step 2: SproutCard conditional render branch (TTS + emoji buttons + picture-first)
+- [ ] Step 3: Parent PIN unlock via SubtleCrypto
+- [ ] Step 4: Coloring-book SVG progress visualization
+
+### Phase 12C — CONDITIONAL
+- **Rasch upgrade** (1-3 weeks, conditional): only if stage heuristic proves off by >1 stage in >20% of sampled users. Rasch with θ ∈ ℝ^8, Fisher-info adaptive seed, reflective-domain exclusion
 
 **Non-goals**: lesson-feed-as-primary-surface, FSRS, 2PL IRT, new per-topic attributes, persona-router page, demographic onboarding questions, separate shell codebases.

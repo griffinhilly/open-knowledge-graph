@@ -2,6 +2,7 @@ domain: philosophy
 title: Philosophy & Ethics
 description: The systematic study of fundamental questions about existence, knowledge,
   values, reason, mind, and language.
+pedagogy_type: reflective
 courses:
 - id: wondering-and-thinking
   title: Wondering & Thinking

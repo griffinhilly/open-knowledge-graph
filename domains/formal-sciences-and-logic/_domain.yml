@@ -3,6 +3,7 @@ title: Formal Sciences & Logic
 description: The study of formal systems, abstract structures, and deductive reasoning.
   Extends beyond mathematics into philosophical logic, metalogic, and the foundations
   of formal reasoning itself.
+pedagogy_type: assessable
 courses:
 - id: patterns-and-logic
   title: Patterns & Logic

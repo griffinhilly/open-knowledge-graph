@@ -2,6 +2,7 @@ domain: health-and-human-development
 title: Health & Human Development
 description: The study of human health, wellness, and development across the lifespan.
   From anatomy to public health, nutrition to child development.
+pedagogy_type: assessable
 courses:
 - id: my-body
   title: My Body

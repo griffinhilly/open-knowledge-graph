@@ -2,6 +2,7 @@ domain: earth-and-space-sciences
 title: Earth & Space Sciences
 description: The study of Earth's systems and the broader universe. From minerals
   and plate tectonics to stellar evolution and cosmology.
+pedagogy_type: assessable
 courses:
 - id: earth-and-weather
   title: Earth & Weather

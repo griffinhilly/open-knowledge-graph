@@ -2,6 +2,7 @@ domain: music
 title: Music
 description: The study of organized sound — theory, history, performance, and creation.
   More sequential than most arts.
+pedagogy_type: reflective
 courses:
 - id: musical-play-and-listening
   title: Musical Play & Listening

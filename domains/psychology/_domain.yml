@@ -2,6 +2,7 @@ domain: psychology
 title: Psychology & Cognitive Science
 description: The scientific study of mind and behavior, from neural mechanisms to
   social dynamics. Bridges biology, philosophy, and social science.
+pedagogy_type: assessable
 courses:
 - id: feelings-and-self-awareness
   title: Feelings & Self-Awareness

@@ -3,6 +3,7 @@ title: Physics
 description: The study of matter, energy, and the fundamental forces governing the
   natural world, from subatomic particles to the structure of the universe. Heavily
   mathematical — every physics concept builds on mathematical prerequisites.
+pedagogy_type: assessable
 courses:
 - id: physical-science
   title: Physical Science

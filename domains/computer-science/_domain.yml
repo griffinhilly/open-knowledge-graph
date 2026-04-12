@@ -3,6 +3,7 @@ title: Computer Science & Information
 description: The study of computation, algorithms, data structures, and information
   processing. Spans from practical programming to theoretical foundations of what
   can and cannot be computed.
+pedagogy_type: assessable
 courses:
 - id: programming-fundamentals
   title: Programming Fundamentals

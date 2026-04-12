@@ -2,6 +2,7 @@ domain: economics
 title: Economics & Political Economy
 description: The study of how societies allocate scarce resources, from individual
   decision-making to national and global economic systems.
+pedagogy_type: assessable
 courses:
 - id: microeconomics
   title: Microeconomics

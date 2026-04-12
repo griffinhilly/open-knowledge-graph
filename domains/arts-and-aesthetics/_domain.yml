@@ -1,6 +1,7 @@
 domain: arts-and-aesthetics
 title: Arts & Aesthetics
 description: The visual arts, design principles, and aesthetic theory.
+pedagogy_type: reflective
 courses:
 - id: creative-play-and-expression
   title: Creative Play & Expression

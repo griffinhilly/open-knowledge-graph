@@ -1,6 +1,7 @@
 domain: practical-life-skills
 title: Practical Life Skills
 description: Essential knowledge for functioning effectively in daily life.
+pedagogy_type: assessable
 courses:
 - id: financial-literacy
   title: Financial Literacy

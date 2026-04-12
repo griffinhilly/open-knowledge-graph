@@ -59,6 +59,20 @@ def parse_topic_file(filepath):
     return data, parse_sections(body)
 
 
+def load_pedagogy_types():
+    """Read _domain.yml files and return {domain: pedagogy_type}.
+    Defaults to 'assessable' when the field is absent."""
+    result = {}
+    for yml in sorted(DOMAINS_DIR.glob("*/_domain.yml")):
+        try:
+            data = yaml.safe_load(yml.read_text(encoding="utf-8"))
+            slug = data.get("domain", yml.parent.name)
+            result[slug] = data.get("pedagogy_type", "assessable")
+        except Exception:
+            result[yml.parent.name] = "assessable"
+    return result
+
+
 def load_all_topics():
     """Load all topic data and body sections."""
     all_data = {}
@@ -540,7 +554,38 @@ function revealAnswer(btn) {{
 </html>"""
 
 
-def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, depths):
+def _render_cta(is_reflective, tid, questions):
+    """Build the CTA block beneath the explainer: quiz link for assessable
+    topics, reflective card for reflective ones. Returns HTML or empty."""
+    if is_reflective:
+        quiz_anyway = (
+            f"<a href='{tid}-questions.html' class='quiz-anyway'>Quiz me anyway &rarr;</a>"
+            if questions else ""
+        )
+        return (
+            "<div class='section'><div class='reflective-card'>"
+            "<h3>What did you take from this?</h3>"
+            "<p class='reflective-sub'>"
+            "Topics in reflective domains aren't scored by quiz answers. "
+            "Read, reflect, and mark when you've thought it through."
+            "</p>"
+            "<textarea id='reflectionText' placeholder='Optional: a thought, a quote, a question it raised...'></textarea>"
+            "<div class='reflective-actions'>"
+            "<button class='mark-read-btn' id='markReadBtn' onclick='markAsRead()'>Mark as read</button>"
+            + quiz_anyway +
+            "</div></div></div>"
+        )
+    if questions:
+        return (
+            "<div class='section'>"
+            f"<a href='{tid}-questions.html' class='questions-link'>"
+            f"Practice Questions <span class='q-count'>{len(questions)} questions</span>"
+            "</a></div>"
+        )
+    return ""
+
+
+def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, depths, pedagogy_types=None):
     """Generate HTML for a single topic detail page."""
     data = all_data[tid]
     sections = all_sections.get(tid, {})
@@ -552,6 +597,8 @@ def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, 
     tags = data.get("tags", [])
 
     hue = DOMAIN_HUES.get(domain, 0)
+    pedagogy = (pedagogy_types or {}).get(domain, "assessable")
+    is_reflective = (pedagogy == "reflective")
     domain_label = domain.replace("-", " ").title()
     course_label = course.replace("-", " ").title()
     stage_label = STAGE_LABELS.get(stage, stage)
@@ -844,6 +891,50 @@ h1 {{
 .questions-link .q-count {{
   font-size:12px; font-weight:400; color:hsl({hue},30%,55%);
 }}
+
+.reflective-card {{
+  background:rgba(20,22,32,0.6); border:1px solid hsl({hue},20%,25%);
+  border-radius:10px; padding:20px 22px; margin-top:8px;
+}}
+.reflective-card h3 {{
+  font-size:15px; color:hsl({hue},40%,72%); margin-bottom:6px;
+  font-weight:600;
+}}
+.reflective-card .reflective-sub {{
+  font-size:12px; color:#778; margin-bottom:14px;
+}}
+.reflective-card textarea {{
+  width:100%; min-height:84px;
+  background:rgba(0,0,0,0.3); border:1px solid #26263a;
+  border-radius:6px; padding:9px 11px;
+  color:#ccc; font-family:inherit; font-size:14px;
+  resize:vertical; outline:none;
+}}
+.reflective-card textarea:focus {{
+  border-color:hsl({hue},30%,40%);
+}}
+.reflective-card .reflective-actions {{
+  display:flex; gap:14px; align-items:center; margin-top:12px;
+  flex-wrap:wrap;
+}}
+.reflective-card .mark-read-btn {{
+  background:hsl({hue},30%,25%); color:hsl({hue},55%,78%);
+  border:1px solid hsl({hue},35%,38%);
+  padding:9px 20px; border-radius:6px;
+  font-size:13px; font-weight:600; cursor:pointer;
+  transition:background 0.15s, color 0.15s;
+}}
+.reflective-card .mark-read-btn:hover {{
+  background:hsl({hue},35%,32%); color:hsl({hue},60%,86%);
+}}
+.reflective-card .mark-read-btn.done {{
+  background:rgba(80,160,80,0.18); color:#8d8; border-color:rgba(80,160,80,0.45);
+}}
+.reflective-card .quiz-anyway {{
+  color:#677; font-size:12px; text-decoration:none;
+  border-bottom:1px dotted #445;
+}}
+.reflective-card .quiz-anyway:hover {{ color:#9aa; border-bottom-color:#667; }}
 </style>
 </head>
 <body>
@@ -891,7 +982,7 @@ h1 {{
 
 {"<div class='explainer-section'><h2>Explainer</h2>" + markdown_to_html(explainer) + "</div>" if explainer else ""}
 
-{"<div class='section'><a href='" + tid + "-questions.html' class='questions-link'>Practice Questions <span class='q-count'>" + str(len(questions)) + " questions</span></a></div>" if questions else ""}
+{_render_cta(is_reflective, tid, questions)}
 
 <div class="section">
   <h2>Prerequisite Chain</h2>
@@ -933,6 +1024,48 @@ h1 {{
     if (typeof OKGFluency === "undefined") return;
     var score = OKGFluency.getScore(TOPIC_ID);
     OKGFluency.setScore(TOPIC_ID, score >= 50 ? 0 : 85);
+    render();
+  }};
+
+  // --- Reflective card ("mark as read" + optional reflection text) ---
+  var REFLECTIONS_KEY = "okg-reflections";
+  function loadReflections() {{
+    try {{ return JSON.parse(localStorage.getItem(REFLECTIONS_KEY) || "{{}}"); }}
+    catch (e) {{ return {{}}; }}
+  }}
+  function saveReflections(obj) {{
+    try {{ localStorage.setItem(REFLECTIONS_KEY, JSON.stringify(obj)); }}
+    catch (e) {{}}
+  }}
+
+  var reflectionText = document.getElementById("reflectionText");
+  if (reflectionText) {{
+    var rs = loadReflections();
+    if (rs[TOPIC_ID]) reflectionText.value = rs[TOPIC_ID];
+    // Persist on blur (avoid thrashing localStorage on every keystroke)
+    reflectionText.addEventListener("blur", function () {{
+      var store = loadReflections();
+      var val = this.value.trim();
+      if (val) store[TOPIC_ID] = val;
+      else delete store[TOPIC_ID];
+      saveReflections(store);
+    }});
+  }}
+
+  window.markAsRead = function() {{
+    if (typeof OKGFluency === "undefined") return;
+    OKGFluency.setScore(TOPIC_ID, 100);
+    // Persist any text the user typed but didn't blur yet
+    if (reflectionText && reflectionText.value.trim()) {{
+      var store = loadReflections();
+      store[TOPIC_ID] = reflectionText.value.trim();
+      saveReflections(store);
+    }}
+    var btn = document.getElementById("markReadBtn");
+    if (btn) {{
+      btn.textContent = "Marked as read \u2713";
+      btn.classList.add("done");
+    }}
     render();
   }};
 
@@ -1176,6 +1309,10 @@ def main():
     prereqs_of, dependents_of = build_graphs(all_data)
     depths = compute_depths(all_data, prereqs_of)
 
+    pedagogy_types = load_pedagogy_types()
+    reflective_domains = sorted(d for d, t in pedagogy_types.items() if t == "reflective")
+    print(f"Reflective domains: {', '.join(reflective_domains)}")
+
     TOPICS_DIR.mkdir(parents=True, exist_ok=True)
 
     print(f"Generating {len(all_data)} topic pages...")
@@ -1183,7 +1320,8 @@ def main():
     q_count = 0
     for tid in sorted(all_data.keys()):
         html = generate_topic_page(
-            tid, all_data, all_sections, prereqs_of, dependents_of, depths
+            tid, all_data, all_sections, prereqs_of, dependents_of, depths,
+            pedagogy_types=pedagogy_types,
         )
         out = TOPICS_DIR / f"{tid}.html"
         out.write_text(html, encoding="utf-8")

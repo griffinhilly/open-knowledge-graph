@@ -133,6 +133,7 @@ def load_domain_configs():
             configs[domain_dir.name] = {
                 "title": data.get("title", domain_dir.name),
                 "courses": course_list,
+                "pedagogy_type": data.get("pedagogy_type", "assessable"),
             }
     return configs
 
@@ -593,6 +594,7 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
 
         tags = data.get("tags", [])
         stage_name = data.get("stage", "") or DEFAULT_STAGE
+        pedagogy_type = configs.get(domain, {}).get("pedagogy_type", "assessable")
         nodes.append({
             "id": tid,
             "title": data.get("title", tid),
@@ -600,6 +602,7 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
             "course": course,
             "stage": stage_name,
             "stageInt": STAGE_INDEX.get(stage_name, STAGE_INDEX[DEFAULT_STAGE]),
+            "pedagogyType": pedagogy_type,
             "depth": depths.get(tid, 0),
             "x": round(pos["x"], 2),
             "y": round(pos["y"], 2),
@@ -1045,11 +1048,18 @@ let frontierSet = null;
 function buildFluencyGraph() {{
   var g = {{}};
   data.nodes.forEach(function(n) {{
-    g[n.id] = {{prereqs: [], successors: [], course: n.course || ''}};
+    g[n.id] = {{
+      prereqs: [],
+      successors: [],
+      course: n.course || '',
+      domain: n.domain || '',
+      pedagogyType: n.pedagogyType || 'assessable',
+    }};
   }});
   data.edges.forEach(function(e) {{
-    if (g[e.target]) g[e.target].prereqs.push(e.source);
-    if (g[e.source]) g[e.source].successors.push(e.target);
+    var type = e.type || 'hard';
+    if (g[e.target]) g[e.target].prereqs.push({{id: e.source, type: type}});
+    if (g[e.source]) g[e.source].successors.push({{id: e.target, type: type}});
   }});
   return g;
 }}
@@ -1848,6 +1858,16 @@ function computeNextStep() {{
     frontierSet = new Set(OKGFluency.findFrontier(fluencyGraph, effectiveScores));
   }}
 
+  // Stale topics take priority: if the user has touched-then-drifted work
+  // sitting in the 50-85 fluency band for >3 weeks, surface the oldest first.
+  var staleIds = OKGFluency.findStaleTopics ? OKGFluency.findStaleTopics() : [];
+  if (staleIds.length > 0) {{
+    for (var si = 0; si < staleIds.length; si++) {{
+      var stnode = nodeMap[staleIds[si]];
+      if (stnode) return {{node: stnode, reason: 'review'}};
+    }}
+  }}
+
   var goals = OKGFluency.loadGoals() || [];
   var onPath = {{}};
   if (goals.length > 0) {{
@@ -1879,7 +1899,7 @@ function computeNextStep() {{
     if (score > bestScore) {{ bestScore = score; best = nid; }}
   }}
   if (!best) return null;
-  return nodeMap[best] || null;
+  return {{node: nodeMap[best] || null, reason: 'next'}};
 }}
 
 function updateNextStepCard() {{
@@ -1889,15 +1909,26 @@ function updateNextStepCard() {{
     card.classList.add('ns-hidden');
     return;
   }}
-  var node = computeNextStep();
-  if (!node) {{
+  var result = computeNextStep();
+  if (!result || !result.node) {{
     card.classList.add('ns-hidden');
     return;
+  }}
+  var node = result.node;
+  var reason = result.reason || 'next';
+  var labelEl = document.querySelector('#nextStepCard .ns-label');
+  var startEl = document.getElementById('nsStart');
+  if (reason === 'review') {{
+    if (labelEl) labelEl.textContent = 'Review this';
+    if (startEl) startEl.textContent = 'Review';
+  }} else {{
+    if (labelEl) labelEl.textContent = 'Your next step';
+    if (startEl) startEl.textContent = 'Start this';
   }}
   document.getElementById('nsTitle').textContent = node.title;
   var meta = node.course ? node.course.replace(/-/g, ' ') : (node.domain || '').replace(/-/g, ' ');
   document.getElementById('nsMeta').textContent = meta;
-  document.getElementById('nsStart').href = 'topics/' + node.id + '.html';
+  if (startEl) startEl.href = 'topics/' + node.id + '.html';
   card.classList.remove('ns-hidden');
 }}
 

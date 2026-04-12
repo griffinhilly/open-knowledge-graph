@@ -2,6 +2,7 @@ domain: engineering
 title: Engineering & Technology
 description: The application of scientific and mathematical principles to design,
   build, and optimize systems and structures.
+pedagogy_type: assessable
 courses:
 - id: design-and-build
   title: Design & Build

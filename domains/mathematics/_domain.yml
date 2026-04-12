@@ -4,6 +4,7 @@ description: >
   The systematic study of structure, pattern, quantity, and change through
   rigorous logical reasoning. The most purely sequential domain in human
   knowledge -- every concept has clear prerequisites and gaps compound.
+pedagogy_type: assessable
 courses:
   - id: kindergarten
     title: Kindergarten Math

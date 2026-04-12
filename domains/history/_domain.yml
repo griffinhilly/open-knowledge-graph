@@ -2,6 +2,7 @@ domain: history
 title: History & Civilization
 description: The study of human societies across time, from earliest civilizations
   to the modern world. Chronological structure provides natural ordering.
+pedagogy_type: reflective
 courses:
 - id: then-and-now
   title: Then & Now
