@@ -102,7 +102,54 @@ DOMAIN_HUES = {
 }
 
 
-from parse_topic import parse_frontmatter
+from parse_topic import parse_frontmatter, parse_topic, parse_sections
+
+# --- Sprout shell (Phase 12B Cut 7) ---
+# Single emoji per pre-formal domain. HERO_IMAGE_RETROFIT: replace with per-topic
+# hero images once Persona A testers are available (see plans/phase-12-three-persona-redesign.md).
+SPROUT_DOMAIN_EMOJI = {
+    "arts-and-aesthetics":          "🎨",
+    "biology":                      "🌱",
+    "earth-and-space-sciences":     "🌍",
+    "health-and-human-development": "💪",
+    "language-and-communication":   "💬",
+    "literature":                   "📖",
+    "mathematics":                  "🔢",
+    "music":                        "🎵",
+    "psychology":                   "💙",
+}
+
+
+def load_sprout_topics():
+    """Collect pre-formal topics with a short Core Idea snippet for SproutCard.
+
+    Only domains in SPROUT_DOMAIN_EMOJI are included (the 9 domains with
+    genuine pre-formal content). Core Idea is stripped of markdown and
+    trimmed to ~280 chars — small enough to keep the inline JSON cheap
+    and short enough for a 5-year-old's attention span.
+    """
+    topics = []
+    for filepath in sorted(DOMAINS_DIR.rglob("*.md")):
+        data, body = parse_topic(filepath)
+        if not data or data.get("stage") != "pre-formal":
+            continue
+        domain = data.get("domain", "")
+        if domain not in SPROUT_DOMAIN_EMOJI:
+            continue
+        sections = parse_sections(body)
+        core = sections.get("Core Idea", "")
+        core = re.sub(r"[*_`#>]", "", core)
+        core = re.sub(r"\s+", " ", core).strip()
+        if len(core) > 280:
+            core = core[:277].rsplit(" ", 1)[0] + "..."
+        topics.append({
+            "id": data["id"],
+            "title": data.get("title", data["id"]),
+            "domain": domain,
+            "emoji": SPROUT_DOMAIN_EMOJI[domain],
+            "coreIdea": core,
+        })
+    return topics
 
 
 def load_all_topics():
@@ -656,12 +703,15 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
             "mid": round((band_min + band_max) / 2 * 500, 1),
         })
 
+    sprout_topics = load_sprout_topics()
+
     graph_json = json.dumps({
         "nodes": nodes,
         "edges": edges,
         "sectors": sector_data,
         "stageRings": stage_rings,
         "maxDepth": max_depth,
+        "sproutTopics": sprout_topics,
     })
 
     title = "Open Knowledge Graph"
@@ -930,6 +980,93 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   #refineCard .refine-row .refine-value {{ flex:0 0 48px; font-size:9px; }}
   #nextStepCard {{ left:8px; right:8px; width:auto; bottom:8px; }}
 }}
+
+/* --- Sprout shell (Phase 12B Cut 7) --- */
+#sproutShell {{
+  position:fixed; inset:0; z-index:200;
+  background:linear-gradient(180deg, #fff8ea 0%, #eaf5ff 100%);
+  display:flex; flex-direction:column;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  overflow:auto;
+}}
+#sproutShell.sprout-hidden {{ display:none; }}
+.sprout-header {{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:12px 16px; gap:8px;
+}}
+.sprout-header button {{
+  background:#fff; border:2px solid #d0d0e0; border-radius:999px;
+  padding:8px 14px; font-size:16px; cursor:pointer;
+  min-height:44px; font-family:inherit;
+}}
+.sprout-escape {{ flex:1; max-width:260px; font-weight:600; color:#335; }}
+.sprout-mute, .sprout-pin-btn {{ width:48px; padding:8px; }}
+.sprout-main {{
+  flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  padding:16px; text-align:center; gap:16px;
+}}
+.sprout-emoji {{ font-size:120px; line-height:1; }}
+.sprout-title {{ font-size:36px; font-weight:800; color:#1a1a2e; margin:0; max-width:600px; }}
+.sprout-core {{ font-size:20px; line-height:1.5; color:#334; margin:0; max-width:640px; }}
+.sprout-buttons {{
+  display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-top:8px;
+}}
+.sprout-btn {{
+  display:flex; flex-direction:column; align-items:center;
+  background:#fff; border:4px solid #d0d0e0; border-radius:24px;
+  padding:20px 28px; cursor:pointer; font-family:inherit;
+  min-width:120px; min-height:120px;
+  transition:transform 0.1s, border-color 0.1s;
+}}
+.sprout-btn:active {{ transform:scale(0.95); }}
+.sprout-know {{ border-color:#8fd08f; }}
+.sprout-kinda {{ border-color:#f4d67a; }}
+.sprout-dunno {{ border-color:#f4a67a; }}
+.sprout-btn-emoji {{ font-size:56px; line-height:1; }}
+.sprout-btn-label {{ font-size:16px; font-weight:600; margin-top:6px; color:#334; }}
+.sprout-book {{
+  padding:8px 16px 24px; display:flex; justify-content:center;
+}}
+#sproutColoringBook {{ width:220px; height:220px; }}
+#sproutColoringBook .wedge {{ stroke:#fff; stroke-width:1.5; transition:fill 0.3s; }}
+#sproutColoringBook .wedge-label {{ font-size:8px; fill:#556; text-anchor:middle; pointer-events:none; font-weight:600; }}
+
+#sproutPinModal {{
+  position:fixed; inset:0; z-index:300;
+  background:rgba(10, 10, 30, 0.6);
+  display:flex; align-items:center; justify-content:center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}}
+#sproutPinModal.sprout-pin-hidden {{ display:none; }}
+.sprout-pin-inner {{
+  background:#fff; border-radius:16px; padding:24px; max-width:360px; width:90%;
+  box-sizing:border-box;
+}}
+.sprout-pin-inner h2 {{ margin-top:0; font-size:20px; }}
+.sprout-pin-inner p {{ color:#556; font-size:14px; line-height:1.4; }}
+.sprout-pin-inner input {{
+  font-size:28px; letter-spacing:10px; padding:12px; width:100%;
+  text-align:center; border:2px solid #d0d0e0; border-radius:8px;
+  box-sizing:border-box; margin:12px 0; font-family:inherit;
+}}
+.sprout-pin-actions {{ display:flex; gap:12px; }}
+.sprout-pin-actions button {{
+  flex:1; padding:12px; font-size:16px; cursor:pointer;
+  border:2px solid #d0d0e0; border-radius:8px; background:#fff; font-family:inherit;
+}}
+.sprout-pin-error {{ color:#c33; font-size:14px; min-height:20px; margin-top:8px; }}
+@media (max-width: 600px) {{
+  .sprout-header {{ padding:10px 12px; }}
+  .sprout-header button {{ font-size:14px; padding:8px 10px; }}
+  .sprout-escape {{ max-width:none; }}
+  .sprout-emoji {{ font-size:88px; }}
+  .sprout-title {{ font-size:26px; }}
+  .sprout-core {{ font-size:16px; }}
+  .sprout-btn {{ min-width:92px; min-height:92px; padding:14px 18px; }}
+  .sprout-btn-emoji {{ font-size:42px; }}
+  .sprout-btn-label {{ font-size:13px; }}
+  #sproutColoringBook {{ width:180px; height:180px; }}
+}}
 </style>
 </head>
 <body>
@@ -999,9 +1136,80 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   <span class="count" id="searchCount"></span>
 </div>
 
+<div id="sproutShell" class="sprout-hidden">
+  <header class="sprout-header">
+    <button class="sprout-mute" onclick="toggleSproutTTS()" aria-label="Toggle sound" title="Sound">🔊</button>
+    <button class="sprout-escape" onclick="exitSproutToMap()">See the full map</button>
+    <button class="sprout-pin-btn" onclick="openParentPin()" aria-label="Parent settings" title="Parent settings">🔐</button>
+  </header>
+  <main class="sprout-main">
+    <div class="sprout-emoji" id="sproutEmoji">🌱</div>
+    <h1 class="sprout-title" id="sproutTitle"></h1>
+    <p class="sprout-core" id="sproutCore"></p>
+    <div class="sprout-buttons">
+      <button class="sprout-btn sprout-know" onclick="sproutResponse('know')">
+        <span class="sprout-btn-emoji">😊</span>
+        <span class="sprout-btn-label">I know it</span>
+      </button>
+      <button class="sprout-btn sprout-kinda" onclick="sproutResponse('kinda')">
+        <span class="sprout-btn-emoji">🤔</span>
+        <span class="sprout-btn-label">Kinda</span>
+      </button>
+      <button class="sprout-btn sprout-dunno" onclick="sproutResponse('dunno')">
+        <span class="sprout-btn-emoji">😕</span>
+        <span class="sprout-btn-label">Dunno</span>
+      </button>
+    </div>
+  </main>
+  <aside class="sprout-book">
+    <svg id="sproutColoringBook" viewBox="-110 -110 220 220" xmlns="http://www.w3.org/2000/svg"></svg>
+  </aside>
+</div>
+<div id="sproutPinModal" class="sprout-pin-hidden">
+  <div class="sprout-pin-inner">
+    <h2 id="sproutPinTitle">Parent settings</h2>
+    <p id="sproutPinDesc">Set a 4-digit PIN.</p>
+    <input type="password" id="sproutPinInput" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="off" />
+    <div class="sprout-pin-actions">
+      <button onclick="submitParentPin()">OK</button>
+      <button onclick="closeParentPin()">Cancel</button>
+    </div>
+    <div class="sprout-pin-error" id="sproutPinError"></div>
+  </div>
+</div>
+
 <script src="js/fluency.js"></script>
 <script>
 const data = {graph_json};
+
+// --- Sprout mode detection (Phase 12B Cut 7) ---
+// AND trigger: preset=sprout AND (no prior fluency data OR stage===0).
+// Guards against a Persona C grad student accidentally tripping Sprout by
+// dropping stage to 0 to debug the symmetric-decay bug.
+const SPROUT_PIN_HASH_KEY = 'okg-sprout-pin-hash';
+const SPROUT_PIN_SESSION_KEY = 'okg-sprout-pin-unlocked';
+
+function detectSproutMode() {{
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('preset') !== 'sprout') return false;
+  var hasScores = false;
+  try {{
+    var raw = localStorage.getItem('okg-fluency');
+    if (raw) {{
+      var parsed = JSON.parse(raw);
+      hasScores = parsed && Object.keys(parsed).length > 0;
+    }}
+  }} catch (e) {{}}
+  if (!hasScores) return true;
+  var stage = (typeof OKGFluency !== 'undefined') ? OKGFluency.getUserStage() : 3;
+  return stage === 0;
+}}
+
+const isSproutMode = detectSproutMode();
+if (isSproutMode && typeof OKGFluency !== 'undefined') {{
+  OKGFluency.setUserStage(0);
+}}
+
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const tooltip = document.getElementById("tooltip");
@@ -1343,7 +1551,7 @@ let hoveredNode = null;
 let selectedNode = null;
 let searchMatches = [];
 
-draw();
+if (!isSproutMode) {{ draw(); }}
 
 // --- Search ---
 const searchInput = document.getElementById("searchInput");
@@ -1787,15 +1995,6 @@ function initStageSlider() {{
   var label = document.getElementById('stageLabel');
   if (!slider || !label) return;
 
-  // URL param: preset=sprout routes the child-friendly onboarding stub.
-  // Forces stage=0 (Early Childhood) and clears any prior dismiss flag so
-  // the card always appears on a preset link, even for returning users.
-  var params = new URLSearchParams(window.location.search);
-  if (params.get('preset') === 'sprout') {{
-    OKGFluency.setUserStage(0);
-    try {{ localStorage.removeItem(STAGE_CARD_DISMISSED_KEY); }} catch (e) {{}}
-  }}
-
   var current = OKGFluency.getUserStage();
   slider.value = current;
   label.textContent = STAGE_LABELS[current];
@@ -1827,7 +2026,7 @@ function initStageSlider() {{
   if (!dismissed) showStageCard();
 }}
 
-initStageSlider();
+if (!isSproutMode) {{ initStageSlider(); }}
 
 // --- Retention corner card: "Your next step" (Cut 4 step 4) ---
 const NEXT_STEP_DISMISSED_KEY = 'okg-next-step-dismissed';
@@ -1938,7 +2137,7 @@ function hideNextStepCard() {{
   try {{ sessionStorage.setItem(NEXT_STEP_DISMISSED_KEY, '1'); }} catch (e) {{}}
 }}
 
-updateNextStepCard();
+if (!isSproutMode) {{ updateNextStepCard(); }}
 
 // --- Refine your map ---
 function priorToPosition(prior) {{
@@ -2022,6 +2221,234 @@ function initRefineSliders() {{
     }});
   }}
 }}
+
+// --- Sprout shell functions (Phase 12B Cut 7) ---
+// Only active when isSproutMode. Runs after all other definitions so it can
+// reference buildFluencyGraph / loadScores freely without hoisting concerns.
+// Merged metadata: [label, hue] per pre-formal domain.
+const SPROUT_META = {{
+  'arts-and-aesthetics':          ['Art',      62],
+  'biology':                      ['Life',    130],
+  'earth-and-space-sciences':     ['Earth',   195],
+  'health-and-human-development': ['Body',    345],
+  'language-and-communication':   ['Words',    25],
+  'literature':                   ['Stories',   5],
+  'mathematics':                  ['Math',    210],
+  'music':                        ['Music',   214],
+  'psychology':                   ['Feelings',300],
+}};
+const SPROUT_DOMAINS = Object.keys(SPROUT_META);
+
+var sproutCurrentTopic = null;
+var sproutMuted = false;
+
+function pickSproutTopic() {{
+  if (!data.sproutTopics || data.sproutTopics.length === 0) return null;
+  var scores = (typeof OKGFluency !== 'undefined') ? OKGFluency.loadScores() : {{}};
+  var unseen = data.sproutTopics.filter(function (t) {{
+    var s = scores[t.id];
+    return s === undefined || s < 50;
+  }});
+  var pool = unseen.length > 0 ? unseen : data.sproutTopics;
+  return pool[Math.floor(Math.random() * pool.length)];
+}}
+
+function speakSprout(text) {{
+  if (sproutMuted) return;
+  if (typeof window.speechSynthesis === 'undefined') return;
+  try {{
+    window.speechSynthesis.cancel();
+    var utter = new SpeechSynthesisUtterance(text);
+    utter.rate = 0.9;
+    utter.pitch = 1.1;
+    window.speechSynthesis.speak(utter);
+  }} catch (e) {{}}
+}}
+
+function renderSproutShell() {{
+  var shell = document.getElementById('sproutShell');
+  if (!shell) return;
+  shell.classList.remove('sprout-hidden');
+  var topic = pickSproutTopic();
+  if (!topic) return;
+  sproutCurrentTopic = topic;
+  // HERO_IMAGE_RETROFIT: replace emoji with per-topic hero image once Persona A
+  // testers exist. See plans/phase-12-three-persona-redesign.md Cut 7 dialectic.
+  document.getElementById('sproutEmoji').textContent = topic.emoji || '🌱';
+  document.getElementById('sproutTitle').textContent = topic.title;
+  document.getElementById('sproutCore').textContent = topic.coreIdea || '';
+  speakSprout(topic.title + '. ' + (topic.coreIdea || ''));
+  renderColoringBook();
+}}
+
+function sproutResponse(answer) {{
+  if (!sproutCurrentTopic || typeof OKGFluency === 'undefined') return;
+  var score = answer === 'know' ? 90 : (answer === 'kinda' ? 60 : 20);
+  OKGFluency.setScore(sproutCurrentTopic.id, score);
+  renderSproutShell();
+}}
+
+function renderColoringBook() {{
+  var svg = document.getElementById('sproutColoringBook');
+  if (!svg) return;
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+  var scores = (typeof OKGFluency !== 'undefined') ? OKGFluency.loadScores() : {{}};
+
+  var domainTotal = {{}}, domainProgress = {{}};
+  for (var i = 0; i < SPROUT_DOMAINS.length; i++) {{
+    domainTotal[SPROUT_DOMAINS[i]] = 0;
+    domainProgress[SPROUT_DOMAINS[i]] = 0;
+  }}
+  (data.sproutTopics || []).forEach(function (t) {{
+    if (domainTotal[t.domain] == null) return;
+    domainTotal[t.domain] += 1;
+    var s = scores[t.id];
+    if (s != null && s >= 70) domainProgress[t.domain] += 1;
+  }});
+
+  var n = SPROUT_DOMAINS.length;
+  var outerR = 90, innerR = 22;
+  for (var k = 0; k < n; k++) {{
+    var d = SPROUT_DOMAINS[k];
+    var a0 = (k / n) * Math.PI * 2 - Math.PI / 2;
+    var a1 = ((k + 1) / n) * Math.PI * 2 - Math.PI / 2;
+    var total = domainTotal[d] || 1;
+    var progress = domainProgress[d] || 0;
+    var frac = Math.min(1, progress / total);
+    appendSproutWedge(svg, a0, a1, innerR, outerR, '#e8e8f0');
+    if (frac > 0) {{
+      var fillR = innerR + (outerR - innerR) * frac;
+      appendSproutWedge(svg, a0, a1, innerR, fillR, 'hsl(' + ((SPROUT_META[d] || [,0])[1]) + ', 65%, 62%)');
+    }}
+    var midA = (a0 + a1) / 2;
+    var lr = outerR + 10;
+    var label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    label.setAttribute('class', 'wedge-label');
+    label.setAttribute('x', (Math.cos(midA) * lr).toFixed(1));
+    label.setAttribute('y', (Math.sin(midA) * lr + 3).toFixed(1));
+    label.textContent = (SPROUT_META[d] || [d])[0];
+    svg.appendChild(label);
+  }}
+}}
+
+function appendSproutWedge(svg, a0, a1, r0, r1, fill) {{
+  var x0o = Math.cos(a0) * r1, y0o = Math.sin(a0) * r1;
+  var x1o = Math.cos(a1) * r1, y1o = Math.sin(a1) * r1;
+  var x0i = Math.cos(a0) * r0, y0i = Math.sin(a0) * r0;
+  var x1i = Math.cos(a1) * r0, y1i = Math.sin(a1) * r0;
+  var large = (a1 - a0) > Math.PI ? 1 : 0;
+  var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  var pathD = 'M ' + x0o.toFixed(1) + ' ' + y0o.toFixed(1)
+    + ' A ' + r1 + ' ' + r1 + ' 0 ' + large + ' 1 ' + x1o.toFixed(1) + ' ' + y1o.toFixed(1)
+    + ' L ' + x1i.toFixed(1) + ' ' + y1i.toFixed(1)
+    + ' A ' + r0 + ' ' + r0 + ' 0 ' + large + ' 0 ' + x0i.toFixed(1) + ' ' + y0i.toFixed(1)
+    + ' Z';
+  path.setAttribute('d', pathD);
+  path.setAttribute('class', 'wedge');
+  path.setAttribute('fill', fill);
+  svg.appendChild(path);
+}}
+
+function toggleSproutTTS() {{
+  sproutMuted = !sproutMuted;
+  var btn = document.querySelector('.sprout-mute');
+  if (btn) btn.textContent = sproutMuted ? '🔇' : '🔊';
+  if (sproutMuted && typeof window.speechSynthesis !== 'undefined') {{
+    window.speechSynthesis.cancel();
+  }}
+}}
+
+// --- Parent PIN (opt-in, SHA-256 via SubtleCrypto) ---
+function sproutSha256(text) {{
+  if (!(window.crypto && window.crypto.subtle)) return Promise.resolve('');
+  var enc = new TextEncoder().encode(text);
+  return window.crypto.subtle.digest('SHA-256', enc).then(function (buf) {{
+    var arr = Array.from(new Uint8Array(buf));
+    return arr.map(function (b) {{ return b.toString(16).padStart(2, '0'); }}).join('');
+  }});
+}}
+
+function hasParentPin() {{
+  try {{ return !!localStorage.getItem(SPROUT_PIN_HASH_KEY); }} catch (e) {{ return false; }}
+}}
+
+function sproutPinUnlocked() {{
+  try {{ return sessionStorage.getItem(SPROUT_PIN_SESSION_KEY) === '1'; }} catch (e) {{ return false; }}
+}}
+
+function openParentPin() {{
+  var modal = document.getElementById('sproutPinModal');
+  if (!modal) return;
+  var titleEl = document.getElementById('sproutPinTitle');
+  var descEl = document.getElementById('sproutPinDesc');
+  var errEl = document.getElementById('sproutPinError');
+  var input = document.getElementById('sproutPinInput');
+  if (errEl) {{ errEl.textContent = ''; errEl.style.color = ''; }}
+  if (input) input.value = '';
+  if (hasParentPin()) {{
+    titleEl.textContent = 'Enter parent PIN';
+    descEl.textContent = 'Enter your 4-digit PIN to unlock parent settings and leave Sprout mode.';
+  }} else {{
+    titleEl.textContent = 'Set a parent PIN';
+    descEl.textContent = 'Create a 4-digit PIN to lock this screen so your child stays in Sprout mode. Optional — leave blank and press Cancel to skip.';
+  }}
+  modal.classList.remove('sprout-pin-hidden');
+  if (input) setTimeout(function () {{ input.focus(); }}, 50);
+}}
+
+function closeParentPin() {{
+  var modal = document.getElementById('sproutPinModal');
+  if (modal) modal.classList.add('sprout-pin-hidden');
+}}
+
+function submitParentPin() {{
+  var input = document.getElementById('sproutPinInput');
+  var errEl = document.getElementById('sproutPinError');
+  if (!input || !errEl) return;
+  var pin = input.value.trim();
+  if (hasParentPin()) {{
+    if (!/^\d{{4}}$/.test(pin)) {{ errEl.textContent = 'Enter your 4-digit PIN.'; return; }}
+    sproutSha256(pin).then(function (h) {{
+      var stored = '';
+      try {{ stored = localStorage.getItem(SPROUT_PIN_HASH_KEY) || ''; }} catch (e) {{}}
+      if (h && h === stored) {{
+        try {{ sessionStorage.setItem(SPROUT_PIN_SESSION_KEY, '1'); }} catch (e) {{}}
+        closeParentPin();
+        exitSproutToMap();
+      }} else {{
+        errEl.textContent = 'Wrong PIN.';
+      }}
+    }});
+  }} else {{
+    if (pin === '') {{ closeParentPin(); return; }}
+    if (!/^\d{{4}}$/.test(pin)) {{ errEl.textContent = 'PIN must be 4 digits.'; return; }}
+    sproutSha256(pin).then(function (h) {{
+      try {{ localStorage.setItem(SPROUT_PIN_HASH_KEY, h); }} catch (e) {{}}
+      closeParentPin();
+    }});
+  }}
+}}
+
+function exitSproutToMap() {{
+  if (hasParentPin() && !sproutPinUnlocked()) {{
+    openParentPin();
+    return;
+  }}
+  var url = new URL(window.location.href);
+  url.searchParams.delete('preset');
+  window.location.href = url.toString();
+}}
+
+if (isSproutMode) {{
+  // Hide adult-mode surfaces so Sprout is the only thing visible.
+  ['canvas', 'stats', 'nav', 'controls', 'search', 'tooltip', 'panel',
+   'stageCard', 'refineCard', 'nextStepCard'].forEach(function (id) {{
+    var el = document.getElementById(id);
+    if (el) el.style.display = 'none';
+  }});
+  renderSproutShell();
+}}
+
 </script>
 </body>
 </html>"""

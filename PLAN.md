@@ -447,11 +447,15 @@ Virality-first learning platform redesign. Serves three personas (young child + 
 - [x] Step 9: 200-topic / 542-edge sample QA via parallel Haiku agents (plan usage) — 0.7% flip rate, full pass skipped
 - [x] Step 10: Soft-edge propagation (`BACKWARD_DECAY_SOFT=0.425`, forward cap hard-only, avgPrereq hard-only)
 
-**Cut 7 — NEXT** (Sprout shell, ~500 LoC):
-- [ ] Step 1: Hero image audit (Griffin, ~20 min)
-- [ ] Step 2: SproutCard conditional render branch (TTS + emoji buttons + picture-first)
-- [ ] Step 3: Parent PIN unlock via SubtleCrypto
-- [ ] Step 4: Coloring-book SVG progress visualization
+**Cut 7 SHIPPED (Apr 12, 2026)** — Sprout shell. Dialectic-reviewed before coding (2A-2C-1R tradeoff mode, 6 sub-decisions). Bundle broke; flipped three defaults from the initial approach: AND trigger instead of OR, coloring-book replaces radial instead of sidebar, shared URL renders Sprout + "See full map" CTA instead of falling through to graph. All code lives in `tools/visualize_radial.py` (conditional branch honoring the Phase 12 one-component-tree ruling).
+- [x] Step 2: SproutCard conditional render branch — full-screen topic, emoji-first, Web Speech API TTS, three emoji response buttons, 9-wedge coloring-book SVG replacing the radial, browser-verified at 567px and 1420px
+- [x] Step 3: Parent PIN opt-in via SubtleCrypto SHA-256, session-bypass after correct verify
+- [x] Step 4: Coloring-book SVG progress visualization (9 pre-formal domains, fills per topic mastery)
+- [x] Trigger: `preset=sprout AND (no prior fluency OR stage===0)` — Persona C grad-student ambush fixed
+- [x] Old `preset=sprout` stub removed from `initStageSlider`; detection now lives at the top of the script block
+- [ ] Step 1: Hero image audit (Griffin, ~20 min) — **deferred to post-ship retrofit**
+
+**Deferred eval**: Phase 12B Cut 7 ships Sprout without Persona A validation. No real child testers exist in 12B (Addi is 2.5). Hero-image retrofit and the "real child uses without adult interpretation" success criterion are gated on the first actual Persona A tester. Do not let "we shipped emoji in Cut 7" become institutional justification for never retrofitting — the dialectic referee explicitly flagged this tradeoff as the key unvalidated cost of Cut 7. `HERO_IMAGE_RETROFIT` TODO markers live at the emoji render site in `visualize_radial.py` and in `SPROUT_DOMAIN_EMOJI`.
 
 ### Phase 12C — CONDITIONAL
 - **Rasch upgrade** (1-3 weeks, conditional): only if stage heuristic proves off by >1 stage in >20% of sampled users. Rasch with θ ∈ ℝ^8, Fisher-info adaptive seed, reflective-domain exclusion
