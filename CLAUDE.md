@@ -62,6 +62,10 @@ The radial layout (`visualize_radial.py`) has several tunable parameters in the 
 - **Assessment**: 3-phase adaptive (warm-up → exploration → deep dive), uses actual question bank, silent response time tracking
 - **Graph coloring**: Fluency-based node colors override domain colors when progress data exists; frontier topics get distinctive borders
 
+## Topic Generation Discipline
+
+When expanding a course's topic count, evaluate genuine coverage gaps before generating. Don't mechanically generate filler topics to hit an arbitrary count (e.g., "add 3 to reach 25"). The signal of <25 topics should trigger a critical evaluation of what the course actually needs — fewer high-quality topics that belong > more topics forced to fit a number.
+
 ## Situational Guides
 - When running any tool (validation, visualization, generation, reconciliation) → read `guides/tools-reference.md`
 - When modifying visualizations or adding a new viz → read `guides/visualization.md`

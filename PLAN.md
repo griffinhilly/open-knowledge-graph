@@ -18,13 +18,32 @@
 
 **Last session (Apr 12, 2026):**
 - **Phase 12A shipped in 4 cuts** — all 9 steps. Net +267 LoC. Surfaces: cold-start prior, alpha-gradient opacity field, stage slider DOM overlay, 24Q stratified seed, refine-your-map domain slider, next-step retention card, inline know/don't-know panel buttons, index CTA + `preset=sprout` stub.
-- **Phase 12B Cuts 5+6 shipped** — pedagogy-typing on 19 `_domain.yml` files (13 assessable / 6 reflective), reflective card variant on topic pages (mark-as-read + reflection text persists to `okg-reflections`), reflective-domain frontier variant in `findFrontier`, stale-topics signal via new `okg-fluency-touched` + `findStaleTopics()`, soft-edge propagation (`BACKWARD_DECAY_SOFT=0.425`), per-path decay in `propagate()`, graph shape changed to `{id, type}` objects in both `buildFluencyGraph` and `_build_lightweight_graph`. Sample QA found 0.7% flip rate — full Haiku labeling pass skipped. See MEMORY.md "Phase 12B Cuts 5-6 Shipped" for implementation decisions and follow-ups.
+- **Phase 12B Cuts 5+6 shipped** — pedagogy-typing on 19 `_domain.yml` files (13 assessable / 6 reflective), reflective card variant on topic pages, reflective-domain frontier variant in `findFrontier`, stale-topics signal, soft-edge propagation (`BACKWARD_DECAY_SOFT=0.425`), per-path decay in `propagate()`. See MEMORY.md.
+- **Phase 12B Cut 7 shipped** (commit `d65f8551e`, pushed) — Sprout shell for Persona A. Net +427 LoC. See MEMORY.md.
 
-**Next steps:**
-1. **Phase 12B Cut 7 — Sprout shell** (biggest cut in 12B, ~500 LoC): hero image audit (Griffin, ~20 min), SproutCard conditional render branch (TTS, emoji buttons, full-screen single topic, collegiate rings display:none), parent PIN unlock via SubtleCrypto, coloring-book SVG progress visualization per early-childhood domain.
-2. Phase 12A/B follow-ups (not blocking 12C): MC position-bias data fix, course-level picker inside Deep Dive, 4 surgical edge flips from Cut 6 QA, stage-inversion edge spot-check.
-3. Write announcement post (on hold until Phase 12B ships)
-4. Consider Phase 9D stretch: goal-aware "why" on topic pages (requires loading graph.js)
+**Last session (Jun 10-11, 2026) — initial-view audit + SEO sprint:**
+- **Cold-visit audit** (headless-Chrome screenshots + code-side surface map + comparable-product research): full findings and ranked ideas at `plans/initial-view-and-usage-ideas-2026-06-10.md`. Headline: all ~15k topic pages were invisible to search (no meta/sitemap/structured data); graph-as-hero is a documented failure mode (Khan retired theirs); search-first + ancestry-reveal is the highest-leverage intuitiveness idea.
+- **SEO sprint SHIPPED**: meta description + canonical + Open Graph on all page types (shared `seo_meta_tags`/`meta_description` helpers in `parse_topic.py`); JSON-LD `LearningResource` per topic page (`educationalLevel`, `teaches`, `competencyRequired` = hard prereqs); new `tools/generate_sitemap.py` → sitemap.xml (15,312 URLs; tag/question pages excluded by design) + robots.txt; CI step added. **Activation step: submit sitemap via Google Search Console** (robots.txt at a project-page subpath is not read by crawlers).
+- **Stage-card auto-show reversed** (see Phase 12A Step 2 note).
+- **Index count inflation fixed**: hero said 16,951 — `load_graph`'s phantom "external" nodes were being summed into domain stats. Now counts real nodes only (15,290). Domain-card counts also corrected.
+- Also fixed: `STAGE_LABELS` in `generate_topic_pages.py` was missing `expert` (same bug class as fluency.js `STAGE_ORDER`); topic + questions pages had no viewport meta tag.
+- **Next (Griffin-approved)**: `/dialectic-review --ideate` on the ideas doc, then likely A2/A3/B4 (search-first entry, ancestry reveal, shareable subgraph URLs) and B3 (og:image share cards).
+
+**Last session (Apr 25, 2026) — STRATEGIC PIVOT, no code:**
+- Griffin had been deferring OKG ~2 weeks; flagged the parent-acquisition intuition gap. Triggered `/dialectic-review --ideate` (5 lenses × 2 challengers × 3 synthesizers, all Opus xhigh) → 33 ideas → 15 clusters → top 5 ranking.
+- **Griffin's K-reframe correction**: dialectic dismissed the "gifted accelerator track" with a 5%-TAM frame; Griffin pushed back — actual demographic is 20-30% of intentional parents who feel their kid is held back by school pace. Folded into Tradeoff #2 as a 4th option mid-stream.
+- Two `/dialectic-review --tradeoff` rounds (T1: content-vs-product; T2: opening wedge among 4). Both referees converged on a hybrid sequence; both independently rejected "calibration" framing in favor of *topology verification*.
+- **Final integrated plan** at `plans/parent-acquisition-ideation.md` (~5000 words): B-first build (worksheet OCR, math 2-5, narrow to Beast/Eureka/enVision/Singapore — Beast as bridge curriculum), K-reframed *positioning* (heatmap output reframed as "prereq chain blocking ceiling expression"), days-60-90 layer K-radial on warm B users, TikTok deferred, Mrs. Johnson eliminated.
+- **Concrete 2-day pre-build move**: 3 manual worksheet diagnoses → Twitter threads in K-reframed framing → measure ≥30 likes + ≥3 "where can I get this" replies as gate, OR trigger `/dialectic-review --premortem` on the wedge itself.
+- **Session reviewer flagged 3 unaddressed weaknesses**: (1) Twitter-standing assumption is doing more work than admitted (Griffin orbits the cluster but hasn't posted as OKG-content); (2) recruitment problem (Addi 2.5, no school-age kids in immediate network) waved away — synthetic worksheets/cold-DMs each their own project; (3) Week-4 kill gate assumes Griffin will execute against his own work, exactly the failure pattern from Phase 12A and Bottom Billion exhaustive-path. Reviewer rec: externalize the kill gate (Madi check-in, calendar-triggered `/dialectic-review --premortem` on May 23).
+- **Griffin paused at decision-time**: wants to sit with it before committing.
+
+**Next steps (post Apr 25 session — supersedes prior list):**
+1. **Run the 2-day Twitter test BEFORE any OCR code.** This is the gate: 3 manual worksheet diagnoses (synthetic from AoPS/Beast public samples is acceptable for v0) → Twitter threads → measure organic reception in Griffin's existing edu-acceleration cluster orbit. ≥30 likes + ≥3 "where can I get this" replies = signal to build. <10 likes = trigger `/dialectic-review --premortem` on the parent-acquisition wedge.
+2. **Externalize the Week-4 kill gate** — calendar-trigger or Madi check-in for May 23. Not Griffin's own discipline (per reviewer; Phase 12A flagged this exact failure pattern).
+3. **Cost the recruitment problem explicitly** — synthetic-vs-real worksheet sourcing decision before Day 1.
+4. **Resume only on signal**: build OCR (math 2-5, Beast/Eureka/enVision/Singapore curricula) only after the Twitter test passes.
+5. **Deferred (not blocking 90-day plan)**: Phase 12A/B follow-ups (MC bias data fix, course-level Deep Dive picker, stage-inversion edge spot-check), announcement post for Phase 12, Phase 9D stretch, hero-image retrofit.
 
 ## Phase 1: Foundation — DONE
 - [x] Schema design (meta/schema.md)
@@ -426,6 +445,7 @@ Virality-first learning platform redesign. Serves three personas (young child + 
 
 - [x] Step 1: Cold-start prior formula in fluency.js (`computeFloor`, `getUserStage`, `getDomainPrior`)
 - [x] Step 2: Stage slider DOM overlay with first-visit auto-show + dismiss persistence
+  - **REVERSED Jun 11, 2026 (Griffin's call)**: first-visit auto-show removed — the card covered the map center before a new visitor saw anything (confirmed by cold-visit screenshot audit). Level button is now the only entry point. Dismiss-flag write in `hideStageCard` is dead code pending removal.
 - [~] **Step 3: Alpha-gradient opacity field ADDITIVE, not a replace.** The plan specified "Single render path: opacity = f(…). Replaces the dual color-mode code" with a net −60 LoC delete. What actually shipped: the alpha gradient was added inside the existing `if (showFluency)` branch, and `showFluency` plus its ~10 branches were retained as a pure-map escape hatch (Griffin's explicit call). The −60 delete did not happen. The new opacity code is an overlay on top of the existing dual-mode path, not a replacement for it. **Outstanding**: either delete the `showFluency` branches and make the opacity field the single render path (as the plan intended), or formally amend the plan to "additive" and reconcile the LoC ledger.
 - [x] Step 4: "Your next step" retention corner card
 - [x] Step 5: Inline "I know / don't know this" buttons on topic panel

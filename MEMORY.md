@@ -1,5 +1,26 @@
 # Open Knowledge Graph Memory
 
+## Status (Jun 11, 2026 — SEO sprint + stage-card reversal)
+- **SEO infrastructure shipped** (was zero): shared `seo_meta_tags()`/`meta_description()`/`SITE_BASE_URL` in `tools/parse_topic.py`; all generators emit description/canonical/og; topic pages get `LearningResource` JSON-LD (`competencyRequired` = hard prereq titles); `tools/generate_sitemap.py` in CI. **Sitemap scope decision**: topic pages + 3 main pages + 19 domain maps; tag pages (20k) and `-questions` pages excluded as thin-content risk — revisit only with ranking data.
+- **GitHub project-page caveat**: crawlers never read `output/robots.txt` (host-root only). Sitemap activation = manual Google Search Console submission (Griffin). robots.txt emitted anyway for a future custom-domain move.
+- **Stage-card first-visit auto-show reversed** (Griffin + audit agreed it ambushed the first view). `okg-stage-card-dismissed` localStorage key is now write-only dead code.
+- **Gotcha — phantom-node count inflation**: `load_graph(domain_filter=...)` in `visualize_hierarchy.py` appends phantom `domain:"external"` nodes so cross-domain prereq edges render. Any consumer that counts/sums those node lists overcounts (index hero said 16,951 vs 15,290 real). Fixed in index stats; check this if any new surface reports topic counts.
+- **Audit + ideation artifact**: `plans/initial-view-and-usage-ideas-2026-06-10.md` (ranked Buckets A/B, sequencing, research evidence). Approved next: post-sprint `/dialectic-review --ideate` on it.
+
+## Status (Apr 25, 2026 — strategic pivot, no code)
+- **Parent-acquisition ideation completed** via `/dialectic-review --ideate` + 2 `--tradeoff` rounds. Final plan at `plans/parent-acquisition-ideation.md`.
+- **Direction:** B-first build (worksheet OCR, math 2-5, narrow curricula) → days-60-90 K-radial layered on warm users → TikTok deferred → Mrs. Johnson eliminated. Reframing: heatmap output is "prereq chain blocking ceiling expression," not "your kid has gaps" (K-reframed copy on B's artifact).
+- **Griffin's K-reframe** (mid-session correction): dialectic's "5% gifted-track" frame was wrong; actual ICP is 20-30% of intentional parents who feel their kid is held back. Wider TAM, share-positive emotional charge, concentrated in identifiable communities (r/Gifted, r/homeschool, Davidson, Hoagies, Beast Academy parent FB, Twitter edu-acceleration cluster).
+- **Status: paused at decision-time.** Griffin sitting with the plan; flagged recruitment problem (Addi 2.5, no school-age kids in immediate network).
+- **Next concrete step**: 2-day Twitter test (3 worksheet diagnoses → threads → ≥30 likes + ≥3 inquiry replies as signal, or trigger `/dialectic-review --premortem`).
+
+## Key Strategic Findings (Apr 25)
+- **Calibration ≠ topology verification** — load-bearing distinction surfaced by both tradeoff referees independently. Honest 90-day deliverable is topology verification on ~30 narrow-scope topics; IRT/Rasch calibration would require ~30-100 real-kid responses per topic on a 200-topic anchor spine = months of recruitment+analysis. Any plan promising "calibrated diagnostic in 4-6 weeks" is overclaiming. Any content-engine claim that "30 videos = 30 calibrated topics" is also overclaiming (in the opposite direction).
+- **2026 TikTok cold-start economics have inverted from 2021** — new accounts now require 30-50 videos before any algorithmic distribution (median educational-vertical breakout moved from ~12 videos in 2021 to ~38 in 2026). The "algorithm is the marketing budget" framing is 2021-era lore. A 30-video kill criterion lands inside the cold-start dead zone.
+- **Comparator-precedent calibration**: Brilliant raised Series A/B before content explosion; Math Academy is post-product Twitter; Photomath is in-product viral mechanic, not content channel; Khan had Gates/Google.org backing. Reviewing these as a "playbook for solo-engineer no-budget content motion" is survivor-bias cherry-picking.
+- **6-month base rate inside OKG**: feature-shipping has produced zero parent users. Plans that propose more product features need an explicit causal account of why this round will be different. The hybrid plan attempts this via "Twitter test gates the build" — only valid if the gate actually fires.
+- **Session reviewer's meta-pattern flag**: this session itself recapitulated the Phase-12A inline-execution failure mode (strategic pivot away from PLAN.md's listed next steps without `/plan-task` gating). The dialectic skill invocation served as the user-explicit gate, but the *plan reorientation* itself is the kind of thing `/plan-task` exists for.
+
 ## Status (Apr 12, 2026)
 - **15,290 topics** across **19 domains**, **261 courses** (16 literature courses)
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
@@ -7,7 +28,8 @@
 - GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
 - Phase 10 DONE. Phase 10.5 (Literature Expansion) DONE. Phase 11 (Early-Childhood) DONE. **Phase 9D effectively DONE.**
 - **Phase 12A DONE** (Apr 12, 2026): virality-first onboarding, 9 steps across Cuts 1-4, net +267 LoC.
-- **Phase 12B Cuts 5-6 DONE** (Apr 12, 2026): pedagogy-typing + reflective cards + stale-topics + soft-edge propagation. Cut 7 (Sprout shell) is next.
+- **Phase 12B Cuts 5-6 DONE** (Apr 12, 2026): pedagogy-typing + reflective cards + stale-topics + soft-edge propagation.
+- **Phase 12B Cut 7 DONE** (Apr 12, 2026): Sprout shell for Persona A. Conditional SproutCard branch in `visualize_radial.py`, net +427 LoC. Dialectic-reviewed before coding; referee flipped 3 of 6 sub-decisions (OR→AND trigger, sidebar→replace coloring-book, shared-URL→Sprout-with-CTA). Emoji-first; hero-image retrofit deferred.
 - **Domain maps are primary navigation** — hierarchy views removed from CI and all links
 - **CI pipeline**: validate → index → radial → topic pages → domain maps → assessment → quiz
 - **Pre-push hook**: `hooks/pre-push` — cycle detection + CI script tracking + quiz staleness warning + question YAML error checks (~17s). Setup: `git config core.hooksPath hooks`
@@ -75,6 +97,36 @@ All 9 plan steps across 4 cuts. Key implementation notes that future cuts / 12B/
 - **Sample QA outcome**: 200 topics / 542 edges classified via 4 parallel Haiku research-agents (plan usage, not API budget). **Flip rate 0.7% (4 of 542)** — vastly below the 10% re-run threshold. All 4 flips were `soft → hard`, zero `hard → soft`. Conclusion: the existing manual labels from Phases 6-8 are already high-quality; full relabeling pass was skipped. The 4 specific flips (`separation-variables-elliptic-equations`, `pattern-and-repetition`, `amazon-rainforest-dieback-scenarios`, `simple-circuits`) are noted as surgical cleanups but not applied. Sample data archived in `data/edge-sample-manifest.json` + `data/edge-strength-labels.json`.
 
 **Net LoC (Cuts 5+6 combined)**: ~+370 insertions, −65 deletions across 23 files. File breakdown: lib/fluency.js +127 total (67 cut 5 + 60 cut 6 net), generate_topic_pages.py +144, generate_quiz_page.py ~30 touched, visualize_radial.py ~45 touched, label_edge_strength.py +260 new, 19 domain YAMLs +1 each.
+
+## Phase 12B Cut 7 Shipped (Apr 12, 2026)
+
+Conditional SproutCard shell for Persona A inside `tools/visualize_radial.py`. Commit `d65f8551e`, pushed.
+
+**Dialectic referee rulings** (tradeoff mode, 2A-2C-1R, 6 sub-decisions) — the bundle broke and three defaults flipped:
+
+- **Trigger: AND, not OR.** `preset=sprout AND (no prior fluency OR stage===0)`. OR was semantically confused because the `preset=sprout` stub already calls `setUserStage(0)`, so the OR arm only catches accidentally-stage-0 users — including Griffin-as-Persona-C testing the symmetric-decay bug. AND closes the ambush hole. `initStageSlider`'s old 4-line stub was deleted; detection now lives at the top of the script block.
+- **Coloring-book REPLACES the radial in Sprout mode, not a sidebar.** The radial canvas is not rendered at all when `renderSproutShell()` fires. Containment fix for the 4,070 reflective topics Cuts 5–6 added — a sidebar with the radial underneath would let a curious 6-year-old tap into Wordsworth. Bonus: skipping radial render buys back LoC budget.
+- **Shared `preset=sprout` URLs render Sprout shell + "See the full map" CTA**, not a straight graph-for-strangers. Honest about what the kid sees, preserves virality via the prominent escape hatch. ~10 LoC middle path.
+
+**Confirmed defaults (not flipped)**:
+- Conditional branch inside `visualize_radial.py`, honoring the Phase 12 "one component tree" non-negotiable (not a separate `sprout.html`)
+- Emoji-first with `HERO_IMAGE_RETROFIT` TODO at the render site; retrofit gated on first real Persona A tester
+- Parent PIN opt-in only (not required on entry or exit); SHA-256 via SubtleCrypto, session-bypass flag after correct verify
+- Guardrail honored: `renderSproutShell()` does not touch `draw()`, `showPanel()`, `buildFluencyGraph()`, or the retention card stack
+
+**Key implementation notes**:
+- New `SPROUT_DOMAIN_EMOJI` + `load_sprout_topics()` helper in Python reads 322 pre-formal topics across 9 domains (arts, biology, earth-space, health, language, literature, math, music, psychology) and injects `sproutTopics` into the graph_json. Core Idea text trimmed to ~280 chars per topic.
+- `detectSproutMode()` runs immediately after `const data = {graph_json};` so the trigger fires before any UI init. Adult-mode surfaces (canvas, stats, nav, controls, search, tooltip, panel, stageCard, refineCard, nextStepCard) are `display: none`'d in Sprout mode.
+- 9-wedge coloring-book SVG uses domain hue + mastery fill fraction. One background wedge always rendered, fill wedge only when ≥1 topic in the domain has score ≥70.
+- Response buttons map: know=90, kinda=60, dunno=20 → `OKGFluency.setScore(topic.id, score)` → rerender next topic.
+
+**LoC accounting**: +469 insertions, −13 deletions = net +456 in initial pass. Trimmed by 4 low-value features to hit referee's strict 430 budget: all-done placeholder (−8), same-topic avoidance (−3), TTS-mute persistence (−5), PIN success toast (−5), merged two domain metadata maps into one (−6). Final: **+440 / −13 = net +427**, under 430.
+
+**Browser verification via claude-in-chrome**: Sprout renders at stage 0 with real pre-formal topics, 9 wedges + 9 labels in the coloring-book SVG, response buttons persist scores, PIN set and verify work via SubtleCrypto, non-Sprout URL still renders the unmodified 14,816-node radial, mobile layout clean at 567px viewport, zero console errors.
+
+**Deferred eval acknowledged**: Phase 12B success criterion "a real child uses Sprout without adult interpretation" is not evaluable this phase — Addi is 2.5, no Persona A testers exist. Shipping emoji-only is buying speed with unvalidated child-UX quality. The reviewer called this out explicitly; don't let "we shipped emoji in Cut 7" become institutional justification for never retrofitting.
+
+**Meta-irony to remember (session reviewer flagged this)**: Cut 7 itself went through this session without `/plan-task` or `/implement` — it was ad-hoc implementation driven by conversation-level planning. If Cut 7 had been routed through the skill system, the new scope-gate added to `/plan-task` (see workflow-config commit `fa9fb65` and `feedback_scope_gate_deterministic.md`) would have fired on it. The gate works against *other agents* but not against the orchestrator operating in inline-execution mode. This is the same failure pattern 12A's dialectic gate had, one layer down. Flagged as the dominant residual failure mode. Next session's first task when inline work arrives should be an explicit routing decision: `/plan-task`, or a one-line gate-decision entry in PLAN.md.
 
 ## Phase 12A Reviewer Findings (Apr 12, 2026)
 
