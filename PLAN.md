@@ -27,7 +27,7 @@
 - **Stage-card auto-show reversed** (see Phase 12A Step 2 note).
 - **Index count inflation fixed**: hero said 16,951 — `load_graph`'s phantom "external" nodes were being summed into domain stats. Now counts real nodes only (15,290). Domain-card counts also corrected.
 - Also fixed: `STAGE_LABELS` in `generate_topic_pages.py` was missing `expert` (same bug class as fluency.js `STAGE_ORDER`); topic + questions pages had no viewport meta tag.
-- **Next (Griffin-approved)**: `/dialectic-review --ideate` on the ideas doc, then likely A2/A3/B4 (search-first entry, ancestry reveal, shareable subgraph URLs) and B3 (og:image share cards).
+- **Ideate dialectic RUN (Jun 11, 5-2-3 Opus)**: full verdict at `plans/ideate-dialectic-2026-06-11.md`. BUILD consensus: (1) B3 og:image + A6 topic-page upgrades first, (2) NEW: keystone leaderboard ("50 most powerful things to learn", edge-audit top-80 first), (3) ONE path engine consolidating A2/A3/B4 + bridge-path/six-degrees (hard gate: no-path fallback), (4) B2 explorable → Show HN launch, (5) NEW: .ics Comeback Card post-launch. Killed: binary-search frontier, hosted MCP, vote tallies, two-player duel (localStorage can't aggregate). **Gating manual action: Griffin submits output/sitemap.xml to Google Search Console** — project-page robots.txt is not read by crawlers, so without submission the SEO sprint stays dormant.
 
 **Last session (Apr 25, 2026) — STRATEGIC PIVOT, no code:**
 - Griffin had been deferring OKG ~2 weeks; flagged the parent-acquisition intuition gap. Triggered `/dialectic-review --ideate` (5 lenses × 2 challengers × 3 synthesizers, all Opus xhigh) → 33 ideas → 15 clusters → top 5 ranking.
