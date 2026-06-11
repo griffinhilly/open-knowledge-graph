@@ -25,7 +25,7 @@
 - **15,290 topics** across **19 domains**, **261 courses** (16 literature courses)
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **Radial graph shows 18 domains** (practical-life-skills excluded — kept on index/domain maps)
-- GitHub Pages: `griffinhilly.github.io/open-knowledge-graph/`
+- Live at `openknowledgegraph.com` (custom domain on GitHub Pages since Jun 11, 2026; old github.io URLs 301; `SITE_BASE_URL` in `tools/parse_topic.py` is the single source of truth)
 - Phase 10 DONE. Phase 10.5 (Literature Expansion) DONE. Phase 11 (Early-Childhood) DONE. **Phase 9D effectively DONE.**
 - **Phase 12A DONE** (Apr 12, 2026): virality-first onboarding, 9 steps across Cuts 1-4, net +267 LoC.
 - **Phase 12B Cuts 5-6 DONE** (Apr 12, 2026): pedagogy-typing + reflective cards + stale-topics + soft-edge propagation.

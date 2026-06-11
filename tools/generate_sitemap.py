@@ -80,7 +80,10 @@ def main():
     OUTPUT_DIR.mkdir(exist_ok=True)
     (OUTPUT_DIR / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (OUTPUT_DIR / "robots.txt").write_text(robots, encoding="utf-8")
-    print(f"Wrote sitemap.xml ({len(paths)} URLs) and robots.txt to {OUTPUT_DIR}")
+    # CNAME keeps the Pages custom domain pinned (derived from SITE_BASE_URL)
+    host = SITE_BASE_URL.split("//", 1)[1].split("/", 1)[0]
+    (OUTPUT_DIR / "CNAME").write_text(host + "\n", encoding="utf-8")
+    print(f"Wrote sitemap.xml ({len(paths)} URLs), robots.txt, CNAME to {OUTPUT_DIR}")
 
 
 if __name__ == "__main__":

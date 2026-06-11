@@ -1,6 +1,6 @@
 # Open Knowledge Graph — Orientation
 
-An open-source, machine-readable prerequisite map across all domains of human knowledge. 15,290 topics across 19 domains, 261 courses, and 6 developmental stages (preschool through graduate research). Each topic is a Markdown file with YAML frontmatter encoding prerequisites (typed hard/soft), builds-toward links, domain, course, and stage. The Markdown body has a Core Idea, explainer, questions, and pedagogical notes. Content is CC BY-SA 4.0; tools are MIT. Live at `griffinhilly.github.io/open-knowledge-graph/`.
+An open-source, machine-readable prerequisite map across all domains of human knowledge. 15,290 topics across 19 domains, 261 courses, and 6 developmental stages (preschool through graduate research). Each topic is a Markdown file with YAML frontmatter encoding prerequisites (typed hard/soft), builds-toward links, domain, course, and stage. The Markdown body has a Core Idea, explainer, questions, and pedagogical notes. Content is CC BY-SA 4.0; tools are MIT. Live at `openknowledgegraph.com`.
 
 ## Codebase Shape
 
@@ -41,7 +41,7 @@ CI pipeline (`deploy-pages.yml`): validate → index → radial → topic pages 
 ## Key Links
 
 - GitHub: `github.com/griffinhilly/open-knowledge-graph`
-- Pages: `griffinhilly.github.io/open-knowledge-graph/`
+- Site: `openknowledgegraph.com` (GitHub Pages, custom domain)
 - Schema: `meta/schema.md`
 - Contributing: `CONTRIBUTING.md`
 - Tools reference: `guides/tools-reference.md`

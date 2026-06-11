@@ -37,7 +37,7 @@ Visualization design: see `guides/visualization.md`
 - **15,290 topics** across **19 domains**, **261 courses**
 - **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
 - **All topics at `status: validated`**
-- GitHub Pages live at `griffinhilly.github.io/open-knowledge-graph/`
+- Live at `openknowledgegraph.com` (GitHub Pages + custom domain; `griffinhilly.github.io/open-knowledge-graph/` 301s there)
 - GitHub Actions CI: validates → generates index + radial + topic pages + domain maps + assessment + quiz → deploys to Pages
 - **Phases 1-9C DONE**, **Phase 10 (Question Quality Audit) DONE**, **Phase 11 (Early-Childhood) DONE**
 - **P2 topic expansion DONE** (Apr 1): +320 topics, 6 new courses (applied-ethics, history-of-science, economic-social-history, robotics-and-autonomous-systems, music-technology, contemporary-art-new-media), 15 courses extended

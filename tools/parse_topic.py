@@ -30,7 +30,9 @@ _SECTION_RE = re.compile(r"^##\s+(.+)$")
 _QUESTIONS_RE = re.compile(r"## Questions\s*\n+```ya?ml\s*\n(.*?)```", re.DOTALL)
 
 # Canonical site root for all generated pages (no trailing slash).
-SITE_BASE_URL = "https://griffinhilly.github.io/open-knowledge-graph"
+# Custom domain since Jun 2026; griffinhilly.github.io/open-knowledge-graph
+# 301-redirects here once the Pages custom domain + DNS are configured.
+SITE_BASE_URL = "https://openknowledgegraph.com"
 
 _MD_TAG_RE = re.compile(r"</?[a-zA-Z][^<>]*>")  # HTML tags only, not "x < 5"
 _MD_QUOTE_RE = re.compile(r"^\s*>\s?", re.MULTILINE)

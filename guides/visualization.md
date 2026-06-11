@@ -21,7 +21,7 @@ Domain card grid linking to per-domain hierarchy views, radial graph, and full h
 
 ## GitHub Pages Deployment
 
-Auto-deployed via `.github/workflows/deploy-pages.yml` on push to master. Generated HTML stays out of git (gitignored). Live at `griffinhilly.github.io/open-knowledge-graph/`.
+Auto-deployed via `.github/workflows/deploy-pages.yml` on push to master. Generated HTML stays out of git (gitignored). Live at `openknowledgegraph.com`.
 
 ## Visualization History (Mar 12–14)
 
