@@ -63,6 +63,9 @@ jobs:
       - name: Generate domain quiz page
         run: python tools/generate_domain_quiz.py
 
+      - name: Generate sitemap and robots.txt
+        run: python tools/generate_sitemap.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

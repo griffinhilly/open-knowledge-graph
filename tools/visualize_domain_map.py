@@ -148,7 +148,7 @@ def smart_title(slug):
     return " ".join(w if w[0].isdigit() else w.capitalize() for w in words if w)
 
 
-from parse_topic import parse_frontmatter as _raw_parse
+from parse_topic import parse_frontmatter as _raw_parse, seo_meta_tags
 
 
 def parse_frontmatter(filepath):
@@ -592,7 +592,7 @@ def generate_course_colors(n_courses):
 def generate_html(domain, title, nodes, edges, positions, box_dims, canvas_w,
                   canvas_h, depth_map, course_ids, course_colors, course_titles,
                   course_separators=None, is_course_map=False,
-                  cross_counts=None):
+                  cross_counts=None, page_path=None):
     """Generate self-contained HTML with boxed-label canvas visualization."""
 
     # Build node list
@@ -652,11 +652,19 @@ def generate_html(domain, title, nodes, edges, positions, box_dims, canvas_w,
     n_edges = len(edge_list)
     n_courses = len(legend)
 
+    map_seo_block = ""
+    if page_path:
+        map_seo_block = "\n" + seo_meta_tags(
+            title,
+            f"Interactive prerequisite map: {n_topics:,} topics across {n_courses} courses, "
+            "ordered from foundations to advanced. Part of the Open Knowledge Graph.",
+            page_path)
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">{map_seo_block}
 <title>{title}</title>
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
@@ -1506,7 +1514,7 @@ def generate_course_map(domain, course_id):
     html = generate_html(
         domain, title, nodes, edges, positions, box_dims, cw, ch,
         depth_map, course_ids, colors, course_titles,
-        is_course_map=True)
+        is_course_map=True, page_path=f"{domain}-{course_id}-map.html")
 
     out = OUTPUT_DIR / f"{domain}-{course_id}-map.html"
     out.write_text(html, encoding="utf-8")
@@ -1623,7 +1631,8 @@ def generate_domain_map(domain):
     html = generate_html(
         domain, title, nodes, edges, positions, box_dims, cw, ch,
         depth_map, course_ids, colors, course_titles,
-        is_course_map=False, cross_counts=cross_counts)
+        is_course_map=False, cross_counts=cross_counts,
+        page_path=f"{domain}-map.html")
 
     out = OUTPUT_DIR / f"{domain}-map.html"
     out.write_text(html, encoding="utf-8")

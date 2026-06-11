@@ -36,6 +36,7 @@ STAGE_LABELS = {
     "abstract-reasoning": "Middle & High School",
     "formal-systems": "College",
     "advanced": "Graduate",
+    "expert": "Research",
 }
 
 DOMAIN_HUES = {
@@ -48,7 +49,7 @@ DOMAIN_HUES = {
 }
 
 
-from parse_topic import parse_topic, parse_sections
+from parse_topic import parse_topic, parse_sections, meta_description, seo_meta_tags, SITE_BASE_URL
 
 
 def parse_topic_file(filepath):
@@ -360,11 +361,18 @@ def generate_questions_page(tid, all_data, all_sections, questions):
 
     all_questions_html = "\n".join(questions_html_parts)
 
+    q_seo_block = seo_meta_tags(
+        "Questions — " + title,
+        "Practice questions for " + title + " on the Open Knowledge Graph.",
+        "topics/" + tid + "-questions.html", og_type="article")
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Questions — {html_mod.escape(title)} — Open Knowledge Graph</title>
+{q_seo_block}
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{
@@ -686,11 +694,42 @@ def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, 
             f'<a href="tags/{tag_to_slug(t)}.html" class="tag">{html_mod.escape(str(t))}</a>' for t in tags
         )
 
+    # SEO: meta description from Core Idea, plus LearningResource JSON-LD
+    description = meta_description(core_idea) or f"{title} — {course_label}, {domain_label}. Prerequisites and learning path on the Open Knowledge Graph."
+    seo_block = seo_meta_tags(f"{title} — Open Knowledge Graph", description,
+                              f"topics/{tid}.html", og_type="article")
+    hard_prereq_titles = [
+        all_data[pid].get("title", pid) for pid, ptype in direct_prereqs
+        if ptype == "hard" and pid in all_data
+    ]
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "LearningResource",
+        "name": title,
+        "description": description,
+        "url": f"{SITE_BASE_URL}/topics/{tid}.html",
+        "inLanguage": "en",
+        "isAccessibleForFree": True,
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "educationalLevel": stage_label,
+        "teaches": title,
+        "isPartOf": {"@type": "Course", "name": course_label, "about": domain_label},
+    }
+    if hard_prereq_titles:
+        json_ld["competencyRequired"] = hard_prereq_titles
+    # Escape "</" so content containing "</script>" can't terminate the block
+    json_ld_script = ('<script type="application/ld+json">'
+                      + json.dumps(json_ld, ensure_ascii=False).replace('</', r'<\/')
+                      + '</script>')
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{html_mod.escape(title)} — Open Knowledge Graph</title>
+{seo_block}
+{json_ld_script}
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{

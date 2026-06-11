@@ -102,7 +102,7 @@ DOMAIN_HUES = {
 }
 
 
-from parse_topic import parse_frontmatter, parse_topic, parse_sections
+from parse_topic import parse_frontmatter, parse_topic, parse_sections, seo_meta_tags
 
 # --- Sprout shell (Phase 12B Cut 7) ---
 # Single emoji per pre-formal domain. HERO_IMAGE_RETROFIT: replace with per-topic
@@ -726,12 +726,20 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
         refine_domains.append([d, label])
     refine_domains_json = json.dumps(refine_domains)
 
+    radial_seo_block = seo_meta_tags(
+        "Knowledge Map — Open Knowledge Graph",
+        f"Interactive radial map of {n_topics:,} topics across {n_domains} domains, "
+        "arranged from early childhood at the center to graduate research at the edge. "
+        "Zoom in, search any topic, and trace its prerequisites.",
+        "radial-graph.html")
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>{title}</title>
+{radial_seo_block}
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 html, body {{ overflow:hidden; touch-action:none; }}
@@ -2020,10 +2028,8 @@ function initStageSlider() {{
     }});
   }}
 
-  // First-visit auto-show
-  var dismissed = null;
-  try {{ dismissed = localStorage.getItem(STAGE_CARD_DISMISSED_KEY); }} catch (e) {{}}
-  if (!dismissed) showStageCard();
+  // First-visit auto-show removed (Jun 2026): the card covered the map's
+  // center before a new visitor saw anything. Entry point is the Level button.
 }}
 
 if (!isSproutMode) {{ initStageSlider(); }}

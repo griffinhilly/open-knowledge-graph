@@ -33,6 +33,7 @@ DOMAINS_DIR = ROOT / "domains"
 # Import radial layout constants
 sys.path.insert(0, str(ROOT / "tools"))
 from visualize_radial import DOMAIN_ORDER, DOMAIN_HUES, STAGE_BANDS
+from parse_topic import seo_meta_tags
 
 DEFAULT_STAGE = "abstract-reasoning"
 
@@ -206,12 +207,19 @@ def generate_quiz_html() -> str:
     print(f"  Graph nodes: {len(graph)}")
     print(f"  Courses with topics: {len(course_topics)}")
 
+    quiz_seo_block = seo_meta_tags(
+        "Knowledge Trivia — Open Knowledge Graph",
+        "Test your knowledge across 19 domains — a 24-question adaptive sweep "
+        "that lights up your personal map of what you know and what to learn next.",
+        "quiz.html")
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Knowledge Trivia — Open Knowledge Graph</title>
+{quiz_seo_block}
 <style>
 {_css()}
 </style>

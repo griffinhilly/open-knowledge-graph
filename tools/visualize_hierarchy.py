@@ -174,7 +174,7 @@ def load_all_domain_configs():
     return configs
 
 
-from parse_topic import parse_frontmatter
+from parse_topic import parse_frontmatter, seo_meta_tags
 
 
 def get_topic_stage(data, configs):
@@ -2252,12 +2252,20 @@ def generate_index_html(domains_info):
         total_topics += info["topics"]
         total_edges += info["edges"]
 
+    index_seo_block = seo_meta_tags(
+        "Open Knowledge Graph",
+        f"Explore {total_topics:,} topics across {len(domains_info)} domains of human knowledge — "
+        "from kindergarten math to quantum field theory — all connected by prerequisite "
+        "relationships. Free, open-source interactive knowledge maps and quizzes.",
+        "")
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Open Knowledge Graph</title>
+{index_seo_block}
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{
@@ -2819,9 +2827,12 @@ def main():
             nodes, edges = load_graph(domain_filter=domain)
             if not nodes:
                 continue
-            # Collect per-course topic IDs for progress bars
+            # Collect per-course topic IDs for progress bars.
+            # Exclude phantom "external" nodes load_graph adds for cross-domain
+            # prereq edges — counting them inflated the topic totals.
+            real_nodes = [n for n in nodes if n.get("domain") == domain]
             course_topics = {}
-            for ndata in nodes:
+            for ndata in real_nodes:
                 c = ndata.get("course", "")
                 tid = ndata.get("id", "")
                 if c and tid:
@@ -2829,7 +2840,7 @@ def main():
                         course_topics[c] = []
                     course_topics[c].append(tid)
             domains_info[domain] = {
-                "topics": len(nodes),
+                "topics": len(real_nodes),
                 "edges": len(edges),
                 "courses": len(course_ids),
                 "course_topics": course_topics,
