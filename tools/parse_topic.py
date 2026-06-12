@@ -34,6 +34,17 @@ _QUESTIONS_RE = re.compile(r"## Questions\s*\n+```ya?ml\s*\n(.*?)```", re.DOTALL
 # 301-redirects here once the Pages custom domain + DNS are configured.
 SITE_BASE_URL = "https://openknowledgegraph.com"
 
+# Cloudflare Web Analytics beacon (cookieless RUM). The token is public by
+# design (it appears in page source on every site using CF analytics).
+# Manual installation — Cloudflare-side auto-injection must stay OFF or
+# every visit double-counts. Rides along in seo_meta_tags(); pages that
+# build their own <head> without it (tag pages, assessment) must include
+# ANALYTICS_SNIPPET directly.
+ANALYTICS_SNIPPET = (
+    "<script defer src='https://static.cloudflareinsights.com/beacon.min.js' "
+    "data-cf-beacon='{\"token\": \"18b44399b1e04e75a329f39affeb8307\"}'></script>"
+)
+
 _MD_TAG_RE = re.compile(r"</?[a-zA-Z][^<>]*>")  # HTML tags only, not "x < 5"
 _MD_QUOTE_RE = re.compile(r"^\s*>\s?", re.MULTILINE)
 _MD_STRIP_RE = re.compile(r"[*_`#\[\]]|\(http[^)]*\)")
@@ -73,7 +84,8 @@ def seo_meta_tags(title, description, path, og_type="website"):
 <meta property="og:type" content="{og_type}">
 <meta property="og:title" content="{t}">
 <meta property="og:description" content="{d}">
-<meta property="og:url" content="{url}">"""
+<meta property="og:url" content="{url}">
+{ANALYTICS_SNIPPET}"""
 
 
 def parse_topic(filepath):

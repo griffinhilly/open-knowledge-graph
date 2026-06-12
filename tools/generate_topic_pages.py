@@ -49,7 +49,7 @@ DOMAIN_HUES = {
 }
 
 
-from parse_topic import parse_topic, parse_sections, meta_description, seo_meta_tags, SITE_BASE_URL
+from parse_topic import parse_topic, parse_sections, meta_description, seo_meta_tags, SITE_BASE_URL, ANALYTICS_SNIPPET
 
 
 def parse_topic_file(filepath):
@@ -1200,6 +1200,7 @@ def generate_tag_page(tag, topic_ids, all_data):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tag: {html_mod.escape(tag)} — Open Knowledge Graph</title>
+{ANALYTICS_SNIPPET}
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{
@@ -1280,6 +1281,7 @@ def generate_tag_index(tag_map):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tags — Open Knowledge Graph</title>
+{ANALYTICS_SNIPPET}
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{

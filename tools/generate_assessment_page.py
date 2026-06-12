@@ -13,6 +13,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from parse_topic import ANALYTICS_SNIPPET
+
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = ROOT / "output"
 
@@ -33,6 +35,7 @@ def generate_assessment_html() -> str:
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Knowledge Placement Assessment — Open Knowledge Graph</title>
+{ANALYTICS_SNIPPET}
 <style>
 {_css()}
 </style>
