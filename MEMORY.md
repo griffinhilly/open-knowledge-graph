@@ -1,6 +1,8 @@
 # Open Knowledge Graph Memory
 
-## Status (Jun 11, 2026 — SEO sprint + stage-card reversal)
+## Status (Jun 12, 2026 — SEO sprint + domain go-live)
+- **openknowledgegraph.com fully live**: HTTPS enforced, Cloudflare proxy + Full (strict), email-spoof lockdown, github.io 301s, Search Console verified + sitemap submitted Jun 12. Domain flip was 1 line (`SITE_BASE_URL`) + CNAME — centralization paid off same-session.
+- **Active track = distribution** (see PLAN next-steps): B3+A6 → keystone leaderboard (edge-audit gate) → path engine (no-path-fallback gate) → B2 Show HN → .ics card. Pre-launch: README (repo has NONE), analytics, Node-24 action bumps.
 - **SEO infrastructure shipped** (was zero): shared `seo_meta_tags()`/`meta_description()`/`SITE_BASE_URL` in `tools/parse_topic.py`; all generators emit description/canonical/og; topic pages get `LearningResource` JSON-LD (`competencyRequired` = hard prereq titles); `tools/generate_sitemap.py` in CI. **Sitemap scope decision**: topic pages + 3 main pages + 19 domain maps; tag pages (20k) and `-questions` pages excluded as thin-content risk — revisit only with ranking data.
 - **GitHub project-page caveat**: crawlers never read `output/robots.txt` (host-root only). Sitemap activation = manual Google Search Console submission (Griffin). robots.txt emitted anyway for a future custom-domain move.
 - **Stage-card first-visit auto-show reversed** (Griffin + audit agreed it ambushed the first view). `okg-stage-card-dismissed` localStorage key is now write-only dead code.
@@ -219,6 +221,7 @@ Non-default decisions from the 3-round multi-agent dialectic (Psychometrics / Ma
 - Philosophy-of-science has ~10-12 duplicate topic pairs (separate from staging)
 
 ## Gotchas
+- **GH Pages cert provisioning is one-shot**: adding a custom domain while DNS is Cloudflare-proxied makes the cert check fail silently and never retry (`https_certificate.state` stays null). Diagnose with `gh api repos/.../pages/health`; fix by removing + re-adding the domain (cert then issues in ~15 min). Sequence: gray-cloud DNS → set domain → cert → enforce HTTPS → orange-cloud + Full (strict).
 - **Python f-string + JS templates**: `\'` inside f-string produces `'` not `\'`. Use `"'" +` concatenation instead.
 - **Inline JSON size limit**: Browsers choke on 700KB+ single-line `<script>` data. Use `indent=1` for multi-line or external `.js` file.
 - **Click-vs-drag in canvas views**: If two `mousemove` handlers share `dragStartX/Y`, track original position separately (`mouseDownX/Y`) for displacement detection.

@@ -22,7 +22,7 @@
 - **Phase 12B Cut 7 shipped** (commit `d65f8551e`, pushed) — Sprout shell for Persona A. Net +427 LoC. See MEMORY.md.
 
 **Last session (Jun 10-11, 2026) — initial-view audit + SEO sprint + DOMAIN:**
-- **openknowledgegraph.com is LIVE** (bought Jun 11; GitHub Pages custom domain + Cloudflare DNS on Griffin's existing account). Old github.io URLs 301. Email spoofing locked down (SPF -all, DMARC reject, null MX). Sequencing: keep Cloudflare proxy OFF (gray cloud) until GitHub's cert issues → enforce HTTPS → proxy ON (orange) + SSL Full (strict) → Search Console sitemap submission. Note: .org was already taken; one-letter neighbor openknowledgegraphs.com (plural, semantic-web catalog) exists — accepted risk.
+- **openknowledgegraph.com is FULLY LIVE (Jun 12)**: HTTPS enforced (cert auto-renews), Cloudflare proxy ON + SSL Full (strict), email spoofing locked down (SPF -all, DMARC reject, null MX), old github.io URLs 301. Search Console domain property verified + sitemap submitted (expect "Processing data" lag 24-48h — normal, don't debug). Cert gotcha hit and solved: GH Pages cert provisioning is one-shot — fired while DNS was still Cloudflare-proxied and stuck at null; `pages/health` API diagnosed, remove/re-add domain forced a fresh cycle. Note: .org was already taken; one-letter neighbor openknowledgegraphs.com (plural, semantic-web catalog) exists — accepted risk.
 - **Cold-visit audit** (headless-Chrome screenshots + code-side surface map + comparable-product research): full findings and ranked ideas at `plans/initial-view-and-usage-ideas-2026-06-10.md`. Headline: all ~15k topic pages were invisible to search (no meta/sitemap/structured data); graph-as-hero is a documented failure mode (Khan retired theirs); search-first + ancestry-reveal is the highest-leverage intuitiveness idea.
 - **SEO sprint SHIPPED**: meta description + canonical + Open Graph on all page types (shared `seo_meta_tags`/`meta_description` helpers in `parse_topic.py`); JSON-LD `LearningResource` per topic page (`educationalLevel`, `teaches`, `competencyRequired` = hard prereqs); new `tools/generate_sitemap.py` → sitemap.xml (15,312 URLs; tag/question pages excluded by design) + robots.txt; CI step added. **Activation step: submit sitemap via Google Search Console** (robots.txt at a project-page subpath is not read by crawlers).
 - **Stage-card auto-show reversed** (see Phase 12A Step 2 note).
@@ -39,7 +39,18 @@
 - **Session reviewer flagged 3 unaddressed weaknesses**: (1) Twitter-standing assumption is doing more work than admitted (Griffin orbits the cluster but hasn't posted as OKG-content); (2) recruitment problem (Addi 2.5, no school-age kids in immediate network) waved away — synthetic worksheets/cold-DMs each their own project; (3) Week-4 kill gate assumes Griffin will execute against his own work, exactly the failure pattern from Phase 12A and Bottom Billion exhaustive-path. Reviewer rec: externalize the kill gate (Madi check-in, calendar-triggered `/dialectic-review --premortem` on May 23).
 - **Griffin paused at decision-time**: wants to sit with it before committing.
 
-**Next steps (post Apr 25 session — supersedes prior list):**
+**Next steps — DISTRIBUTION TRACK (post Jun 11 dialectic; the active track):**
+0. **FIRST, two session-reviewer mandates (Jun 12) before any BUILD item:** (a) **Strategy-fork decision for Griffin**: the distribution track now competes with the paused Apr 25 parent-acquisition wedge for the project's center of gravity — these are different products; decide which is being built (or explicitly run both with priorities) rather than letting adjacent work decide by default. (b) **Analytics snippet** (Cloudflare Web Analytics or GoatCounter) — GATES the entire dialectic sequence, since every "ship then measure" item is unexecutable without a measurement layer. One script tag in the generators, ~10 min.
+1. **B3 og:image cards (hub topics first) + A6 topic-page cold-landing upgrades** — same file/session (`generate_topic_pages.py` + a render step); the substrate every shared link lands on. NCP native-HTML/CSS pipeline transfers.
+2. **Keystone leaderboard** — "50 most powerful things to learn." HARD GATE before publishing: edge-audit the top ~80 candidates + decide hub-bias methodology explicitly (state it on the page). Don't skip the gate because the page looks trivially shippable.
+3. **Path engine cluster** — ONE engine for A3 ancestry reveal → A2 search-first → B4 shareable subgraphs → curated six-degrees gallery. HARD GATE: explicit no-path fallback UX before any two-topic surface ships.
+4. **B2 "counting → QFT" explorable → Show HN launch.** Do not launch before 1-3 are live.
+5. **Comeback Card (.ics)** post-launch.
+- **Pre-launch checklist (cheap, must precede Show HN)**: write README.md (repo has none!); add analytics (Cloudflare Web Analytics or GoatCounter — zero-backend; without it the dialectic's "gate features on evidence" sequencing has nothing to read); bump CI actions for the ~Jun 16 Node-24 cutover.
+- **Housekeeping**: Griffin confirm sitemap shows "Success" in Search Console (~Jun 13); remove dead `STAGE_CARD_DISMISSED_KEY` write; clear untracked root cruft (old batch scripts, dedup_stderr.txt, stale `.claude/worktrees/radial-zoom-sizing/`).
+- Full dialectic verdict + EXPLORE/PARK tiers: `plans/ideate-dialectic-2026-06-11.md`.
+
+**Next steps — PARENT-ACQUISITION TRACK (unchanged since Apr 25, still PAUSED at decision-time):**
 1. **Run the 2-day Twitter test BEFORE any OCR code.** This is the gate: 3 manual worksheet diagnoses (synthetic from AoPS/Beast public samples is acceptable for v0) → Twitter threads → measure organic reception in Griffin's existing edu-acceleration cluster orbit. ≥30 likes + ≥3 "where can I get this" replies = signal to build. <10 likes = trigger `/dialectic-review --premortem` on the parent-acquisition wedge.
 2. **Externalize the Week-4 kill gate** — calendar-trigger or Madi check-in for May 23. Not Griffin's own discipline (per reviewer; Phase 12A flagged this exact failure pattern).
 3. **Cost the recruitment problem explicitly** — synthetic-vs-real worksheet sourcing decision before Day 1.
@@ -173,7 +184,7 @@ Expanding non-math domains from ~20 topics/course toward ~35-40 topics/course.
 ## Phase 8: Community Launch — IN PROGRESS
 - [x] Push to GitHub as public repo
 - [x] Set up GitHub Actions for CI validation
-- [x] Finalize README with coverage table update (13,518 topics)
+- [ ] Finalize README — **FALSE LEDGER ENTRY caught Jun 12, 2026: this was marked [x] but no README.md exists anywhere in the repo.** Must be rewritten before any launch moment (the repo is a landing page for HN/researchers).
 - [x] Create issue templates for topic additions and corrections
 - [x] Add Questions + Explainer schema (meta/schema.md, CONTRIBUTING.md)
 - [x] Build adaptive placement assessment (generate_assessment.py + generate_assessment_page.py)
