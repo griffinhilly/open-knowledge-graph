@@ -25,8 +25,13 @@ if [ -f "$WORKFLOW" ]; then
     fi
 fi
 
-# --- Step 2: Validate graph if domain files changed ---
+# --- Step 2: Per-commit checks (dialectic trailer) + domain-change detection ---
+# Dialectic gate (designed Apr 12 2026 review, built Jun 12 2026): substantial
+# commits (>=5 non-md files OR >=200 non-md LoC) must carry a
+# "dialectic-reviewed:" or "dialectic-skipped:<reason>" trailer. Makes the
+# skip a typed decision instead of a silent default.
 has_domain_changes=0
+gate_violations=""
 
 while read local_ref local_sha remote_ref remote_sha; do
     # Skip branch deletion
@@ -46,12 +51,35 @@ while read local_ref local_sha remote_ref remote_sha; do
         range="$remote_sha..$local_sha"
     fi
 
+    # Dialectic-trailer check on each non-merge commit in the range
+    for c in $(git rev-list --no-merges "$range" 2>/dev/null); do
+        if git log -1 --format=%B "$c" | grep -qiE '^dialectic-(reviewed|skipped):'; then
+            continue
+        fi
+        counts=$(git show --numstat --format= "$c" 2>/dev/null | awk '$3 !~ /\.md$/ {f++; loc+=$1+$2} END {printf "%d %d", f+0, loc+0}')
+        cfiles=${counts% *}
+        cloc=${counts#* }
+        if [ "$cfiles" -ge 5 ] || [ "$cloc" -ge 200 ]; then
+            gate_violations="$gate_violations\n  $(git log -1 --format='%h %s' "$c")  [$cfiles files / $cloc LoC, non-md]"
+        fi
+    done
+
     # Check if any domain files changed in the push range
     if git diff --name-only "$range" -- domains/ 2>/dev/null | grep -q .; then
         has_domain_changes=1
-        break
     fi
 done
+
+if [ -n "$gate_violations" ]; then
+    echo "pre-push: BLOCKED - substantial commit(s) without a dialectic trailer:"
+    echo -e "$gate_violations"
+    echo ""
+    echo "  Add to the commit message one of:"
+    echo "    dialectic-reviewed: <mode/summary>"
+    echo "    dialectic-skipped: <one-line reason>"
+    echo "  (git commit --amend, or git push --no-verify to override)"
+    exit 1
+fi
 
 if [ "$has_domain_changes" -eq 1 ]; then
     echo "pre-push: Domain files changed, running quick validation..."

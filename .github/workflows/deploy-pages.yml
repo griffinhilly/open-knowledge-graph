@@ -66,6 +66,9 @@ jobs:
       - name: Generate sitemap and robots.txt
         run: python tools/generate_sitemap.py
 
+      - name: Validate SEO surface (full corpus)
+        run: python tools/validate_seo.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
