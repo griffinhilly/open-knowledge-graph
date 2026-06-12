@@ -48,6 +48,7 @@
 5. **Comeback Card (.ics)** post-launch.
 - **Pre-launch checklist (cheap, must precede Show HN)**: write README.md (repo has none!); add analytics (Cloudflare Web Analytics or GoatCounter — zero-backend; without it the dialectic's "gate features on evidence" sequencing has nothing to read); bump CI actions for the ~Jun 16 Node-24 cutover.
 - **Housekeeping**: Griffin confirm sitemap shows "Success" in Search Console (~Jun 13); remove dead `STAGE_CARD_DISMISSED_KEY` write; clear untracked root cruft (old batch scripts, dedup_stderr.txt, stale `.claude/worktrees/radial-zoom-sizing/`).
+- **Scheduled cloud routines (manage at claude.ai/code/routines)**: Node-24 deploy check (one-time, Jun 17); SEO pulse (one-time, Jun 26); **dormancy pulse (monthly, 1st @ 9am CT — nudges with PLAN item-0 verbatim if repo >21 days quiet; self-expires in-prompt after Sep 15, 2026, then Griffin disables it in the UI)**.
 - Full dialectic verdict + EXPLORE/PARK tiers: `plans/ideate-dialectic-2026-06-11.md`.
 
 **Next steps — PARENT-ACQUISITION TRACK (unchanged since Apr 25, still PAUSED at decision-time):**
