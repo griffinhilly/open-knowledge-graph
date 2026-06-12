@@ -29,3 +29,15 @@ Auto-deployed via `.github/workflows/deploy-pages.yml` on push to master. Genera
 - **Radial view**: Added domain-click navigation (click outer ring → domain hierarchy page). Pointer cursor on hover.
 - **Index page**: Added both radial and hierarchy graph links.
 - Phase 7 (Mar 12–13): Built `visualize_radial.py`, `generate_topic_pages.py`. Updated `visualize_hierarchy.py` to support all 19 domains with `--all` flag.
+
+## Domain Map Architecture (Mar 24, 2026 — moved from MEMORY.md Jun 12)
+
+- **Tier layout**: Courses grouped by developmental stage → tiers. Within-tier overlap ~50%, between-tier ~25%.
+- **Branch X-positions**: Manual left-right axis per domain (e.g., math: discrete←→analysis). Stored in `COURSE_BRANCH_X` dict. Non-math mappings are AI-proposed, need human review.
+- **Sizing**: `area ∝ degree`, out-degree weighted 2x. DEGREE_CEILING=25 for consistent sizing across views.
+- **Row splitting**: 3x depth multiplier, recursive splitting (3 passes, cap 20 topics/row).
+- **Centroid-anchored placement**: Each layer anchors on connected-neighbor centroid, then 10 rounds of 40% neighbor drift.
+- **Cross-course depth floor** (Apr 1): `compute_course_depths` uses domain-wide depth as floor for within-course depth, SCALED to the course's own depth range. Prevents height inflation while fixing cross-course prereq ordering.
+- **Radial integration** (Mar 25): `visualize_radial.py` imports `COURSE_BRANCH_X` from domain map. Auto-detects `BRANCH_FLIP` per domain using cross-domain edge lengths within 3-domain angular window. Plan doc: `tools/radial-branch-alignment.md`.
+- **Leaf connector tool**: `tools/connect_leaves.py` — tag/title overlap scoring, cycle-safe apply, duplicate detection.
+- **Dedup tool**: `tools/dedup_pairs.py` — delete weaker file + redirect references (see MEMORY.md Gotchas for dedup hazards).
