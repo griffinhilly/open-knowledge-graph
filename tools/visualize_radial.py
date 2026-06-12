@@ -2455,6 +2455,28 @@ if (isSproutMode) {{
   renderSproutShell();
 }}
 
+// ?focus=<topic-id> deep link (topic pages' "See this on the map" button):
+// center the camera on the topic, select it, open its panel. Minimal form of
+// B4 shareable-subgraph URLs — ancestry highlight arrives with the
+// path-engine cluster.
+(function () {{
+  if (isSproutMode) return;
+  var focusId = new URLSearchParams(window.location.search).get('focus');
+  if (!focusId) return;
+  var node = null;
+  for (var i = 0; i < data.nodes.length; i++) {{
+    if (data.nodes[i].id === focusId) {{ node = data.nodes[i]; break; }}
+  }}
+  if (!node) return;
+  camScale = 5;
+  camX = -node.x * camScale * viewScale;
+  camY = -node.y * camScale * viewScale;
+  selectedNode = node;
+  hoveredNode = node;
+  draw();
+  showPanel(node, W / 2, H / 2);
+}})();
+
 </script>
 </body>
 </html>"""

@@ -32,6 +32,7 @@ HEAD_BYTES = 65536  # head section incl. JSON-LD comfortably fits
 DESC_RE = re.compile(r'<meta name="description" content="([^"]*)"')
 CANON_RE = re.compile(r'<link rel="canonical" href="([^"]*)"')
 OG_TITLE_RE = re.compile(r'<meta property="og:title" content="([^"]*)"')
+OG_IMG_RE = re.compile(r'<meta property="og:image" content="([^"]*)"')
 JSONLD_RE = re.compile(r'<script type="application/ld\+json">(.*?)</script>', re.DOTALL)
 MIN_TOPIC_PAGES = 15000  # tripwire against silently-empty generation
 
@@ -54,6 +55,16 @@ def check_page(path, rel_url, expect_jsonld):
 
     if not OG_TITLE_RE.search(head):
         violations.append("missing og:title")
+
+    m = OG_IMG_RE.search(head)
+    if not m:
+        violations.append("missing og:image")
+    else:
+        # og:image must point at a file that actually shipped (per-topic card
+        # or og/default.png) — a dangling card URL renders as a blank unfurl.
+        img_rel = m.group(1).replace(SITE_BASE_URL, "").lstrip("/")
+        if not (OUTPUT_DIR / img_rel).exists():
+            violations.append(f"og:image file absent: {img_rel}")
 
     if expect_jsonld:
         m = JSONLD_RE.search(head)

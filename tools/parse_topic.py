@@ -67,15 +67,18 @@ def meta_description(text, limit=160):
     return cut + "…"
 
 
-def seo_meta_tags(title, description, path, og_type="website"):
+def seo_meta_tags(title, description, path, og_type="website", image=None):
     """Build the shared SEO <head> block: description, canonical, Open Graph.
 
     *path* is the page location relative to the site root, e.g.
     ``""`` (index), ``"quiz.html"``, or ``"topics/fractions.html"``.
+    *image* is an absolute og:image URL; defaults to the site-wide share
+    card (rendered by tools/render_og_cards.py at 1200x630).
     Caller is responsible for inserting the returned string inside <head>.
     """
     import html as _html
     url = SITE_BASE_URL + "/" + path.lstrip("/")
+    img = image or (SITE_BASE_URL + "/og/default.png")
     t = _html.escape(title, quote=True)
     d = _html.escape(description, quote=True)
     return f"""<meta name="description" content="{d}">
@@ -85,6 +88,10 @@ def seo_meta_tags(title, description, path, og_type="website"):
 <meta property="og:title" content="{t}">
 <meta property="og:description" content="{d}">
 <meta property="og:url" content="{url}">
+<meta property="og:image" content="{img}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 {ANALYTICS_SNIPPET}"""
 
 

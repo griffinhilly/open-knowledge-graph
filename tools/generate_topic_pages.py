@@ -223,9 +223,24 @@ def count_transitive_successors(tid, dependents_of):
     return len(visited)
 
 
+# Caret exponents -> <sup>. Conservative: only after an alphanumeric/closing
+# bracket, and only simple exponents — {braced}, (parenthesized, non-nested),
+# or a short bare token with optional leading minus (e^-x, 2^10, x^n).
+_SUP_BRACE_RE = re.compile(r'(?<=[A-Za-z0-9)\]])\^\{([^{}]{1,40})\}')
+_SUP_PAREN_RE = re.compile(r'(?<=[A-Za-z0-9)\]])\^\(([^()]{1,40})\)')
+_SUP_BARE_RE = re.compile(r'(?<=[A-Za-z0-9)\]])\^(-?[A-Za-z0-9]{1,4})(?![A-Za-z0-9({])')
+
+
+def superscript_carets(text):
+    """Convert caret math notation (a^2, e^{-x}, 2^(n+1)) to <sup> markup."""
+    text = _SUP_BRACE_RE.sub(r'<sup>\1</sup>', text)
+    text = _SUP_PAREN_RE.sub(r'<sup>\1</sup>', text)
+    return _SUP_BARE_RE.sub(r'<sup>\1</sup>', text)
+
+
 def inline_markdown(text):
     """Process inline markdown (**bold**) in already-escaped HTML text."""
-    return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+    return superscript_carets(re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text))
 
 
 def markdown_to_html(text):
@@ -255,7 +270,7 @@ def markdown_to_html(text):
             # Bold the part before the em dash if present
             if " — " in content:
                 parts = content.split(" — ", 1)
-                content = f"<strong>{parts[0]}</strong> — {parts[1]}"
+                content = superscript_carets(f"<strong>{parts[0]}</strong> — {parts[1]}")
             else:
                 content = inline_markdown(content)
             html_lines.append(f"<li>{content}</li>")
@@ -593,8 +608,12 @@ def _render_cta(is_reflective, tid, questions):
     return ""
 
 
-def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, depths, pedagogy_types=None):
-    """Generate HTML for a single topic detail page."""
+def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, depths, pedagogy_types=None, og_cards=frozenset()):
+    """Generate HTML for a single topic detail page.
+
+    *og_cards* is the set of topic ids that have a rendered share card in
+    output/og/ (see render_og_cards.py); others fall back to the default card.
+    """
     data = all_data[tid]
     sections = all_sections.get(tid, {})
 
@@ -694,10 +713,57 @@ def generate_topic_page(tid, all_data, all_sections, prereqs_of, dependents_of, 
             f'<a href="tags/{tag_to_slug(t)}.html" class="tag">{html_mod.escape(str(t))}</a>' for t in tags
         )
 
+    # A6: hero stats row + "see on map" button
+    stat_bits = []
+    if total_downstream > 0:
+        stat_bits.append(
+            f'<div class="hero-stat"><span class="stat-num">{total_downstream:,}</span>'
+            f'<span class="stat-label">topic{"s" if total_downstream != 1 else ""} build on this</span></div>')
+    if total_transitive > 0:
+        stat_bits.append(
+            f'<div class="hero-stat"><span class="stat-num">{total_transitive:,}</span>'
+            f'<span class="stat-label">prerequisite{"s" if total_transitive != 1 else ""} beneath it</span></div>')
+    else:
+        stat_bits.append(
+            '<div class="hero-stat"><span class="stat-num">0</span>'
+            '<span class="stat-label">prerequisites &mdash; a starting point</span></div>')
+    stat_bits.append(f'<a class="map-btn" href="../radial-graph.html?focus={tid}">See this on the map &rarr;</a>')
+    hero_stats_html = '<div class="hero-stats">' + "".join(stat_bits) + '</div>'
+
+    # A6: compact neighbor strip — direct prereqs -> this topic -> successors
+    def _strip_pill(pid):
+        ptitle = all_data[pid].get("title", pid) if pid in all_data else pid
+        pdomain = all_data[pid].get("domain", "") if pid in all_data else ""
+        phue = DOMAIN_HUES.get(pdomain, 0)
+        return (f'<a href="{pid}.html" class="chain-node" '
+                f'style="border-color:hsl({phue},40%,40%)">{html_mod.escape(ptitle)}</a>')
+
+    prereqs_by_rank = sorted(
+        direct_prereqs,
+        key=lambda x: (x[1] != "hard", all_data.get(x[0], {}).get("title", x[0])))
+    succs_by_rank = sorted(
+        direct_successors,
+        key=lambda x: all_data.get(x[0], {}).get("title", x[0]))
+    strip_bits = []
+    if prereqs_by_rank:
+        strip_bits.append("".join(_strip_pill(pid) for pid, _ in prereqs_by_rank[:2]))
+        if len(prereqs_by_rank) > 2:
+            strip_bits.append(f'<a href="#prerequisites" class="chain-more">+{len(prereqs_by_rank) - 2} more</a>')
+        strip_bits.append('<span class="chain-arrow">&rarr;</span>')
+    # "You are here" as a node dot — the title is the h1 directly above
+    strip_bits.append(f'<span class="strip-dot" title="{html_mod.escape(title, quote=True)}"></span>')
+    if succs_by_rank:
+        strip_bits.append('<span class="chain-arrow">&rarr;</span>')
+        strip_bits.append("".join(_strip_pill(sid) for sid, _ in succs_by_rank[:2]))
+        if len(succs_by_rank) > 2:
+            strip_bits.append(f'<a href="#leads-to" class="chain-more">+{len(succs_by_rank) - 2} more</a>')
+    neighbor_strip_html = '<div class="neighbor-strip">' + "".join(strip_bits) + '</div>'
+
     # SEO: meta description from Core Idea, plus LearningResource JSON-LD
     description = meta_description(core_idea) or f"{title} — {course_label}, {domain_label}. Prerequisites and learning path on the Open Knowledge Graph."
+    og_image = f"{SITE_BASE_URL}/og/{tid}.png" if tid in og_cards else None
     seo_block = seo_meta_tags(f"{title} — Open Knowledge Graph", description,
-                              f"topics/{tid}.html", og_type="article")
+                              f"topics/{tid}.html", og_type="article", image=og_image)
     hard_prereq_titles = [
         all_data[pid].get("title", pid) for pid, ptype in direct_prereqs
         if ptype == "hard" and pid in all_data
@@ -895,9 +961,51 @@ h1 {{
 }}
 .goal-toggle .star {{ font-size:14px; }}
 
-.why-learn {{
-  color:#667; font-size:12px; margin-top:4px; margin-bottom:4px;
+.site-context {{
+  font-size:12.5px; color:#556; margin-bottom:20px;
 }}
+.site-context a {{ color:#7ab; }}
+
+.hero-stats {{
+  display:flex; gap:28px; align-items:center; flex-wrap:wrap;
+  background:#0e0e1a; border:1px solid #1a1a2e; border-radius:8px;
+  padding:14px 20px; margin:4px 0 14px;
+}}
+.hero-stat {{ display:flex; flex-direction:column; }}
+.hero-stat .stat-num {{
+  font-size:22px; font-weight:700; color:hsl({hue},55%,62%); line-height:1.2;
+}}
+.hero-stat .stat-label {{ font-size:11.5px; color:#667; }}
+.map-btn {{
+  margin-left:auto; font-size:13px; font-weight:600;
+  color:hsl({hue},55%,65%); border:1px solid hsl({hue},35%,30%);
+  padding:8px 14px; border-radius:6px; white-space:nowrap;
+  transition:background 0.2s, border-color 0.2s;
+}}
+.map-btn:hover {{
+  background:hsl({hue},35%,14%); border-color:hsl({hue},45%,45%);
+  text-decoration:none;
+}}
+
+.neighbor-strip {{
+  overflow-x:auto; white-space:nowrap;
+  margin-bottom:18px; padding-bottom:4px;
+}}
+.neighbor-strip .chain-node {{
+  margin-right:4px; max-width:190px;
+  overflow:hidden; text-overflow:ellipsis; vertical-align:middle;
+}}
+.strip-dot {{
+  display:inline-block; width:13px; height:13px; border-radius:50%;
+  background:hsl({hue},60%,58%);
+  box-shadow:0 0 10px hsla({hue},60%,58%,0.8);
+  vertical-align:middle; margin:0 4px;
+}}
+.chain-more {{
+  display:inline-block; font-size:12px; color:#667;
+  padding:4px 8px; margin-right:4px; text-decoration:none;
+}}
+.chain-more:hover {{ color:#9cd; }}
 
 .explainer-section {{
   background:#0e0e1a; border:1px solid #1a1a2e;
@@ -984,6 +1092,8 @@ h1 {{
   <a href="../index.html">All Domains</a>
 </div>
 
+<p class="site-context">A topic in the <a href="../index.html">Open Knowledge Graph</a> — a free, open map of {len(all_data):,} topics and the order to learn them in.</p>
+
 <div class="breadcrumb">
   <a href="../{domain}-map.html">{html_mod.escape(domain_label)}</a> <span>›</span> <a href="../{domain}-map.html#{course}">{html_mod.escape(course_label)}</a>
 </div>
@@ -1004,7 +1114,9 @@ h1 {{
   </span>
 </div>
 
-{('<div class="why-learn">Unlocks ' + str(total_downstream) + ' downstream topic' + ('s' if total_downstream != 1 else '') + '</div>') if total_downstream > 0 else ""}
+{hero_stats_html}
+
+{neighbor_strip_html}
 
 {"<div class='tags'>" + tags_html + "</div>" if tags_html else ""}
 
@@ -1028,12 +1140,12 @@ h1 {{
   {('<div class="chain-container">' + chain_html + '</div><p class="chain-meta">Longest path: ' + str(len(chain)) + ' steps &middot; ' + str(total_transitive) + ' total prerequisite topics</p>') if len(chain) > 1 else '<p class="empty-state">This is a foundational topic with no prerequisites.</p>'}
 </div>
 
-<div class="section">
+<div class="section" id="prerequisites">
   <h2>Prerequisites ({len(direct_prereqs)})</h2>
   {('<div class="prereq-list">' + prereq_html + '</div>') if prereq_html else '<p class="empty-state">No prerequisites — this is a starting point.</p>'}
 </div>
 
-<div class="section">
+<div class="section" id="leads-to">
   <h2>Leads To ({len(direct_successors)})</h2>
   {('<div class="prereq-list">' + successor_html + '</div>') if successor_html else '<p class="empty-state">No topics depend on this one yet.</p>'}
 </div>
@@ -1356,13 +1468,18 @@ def main():
 
     TOPICS_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Share cards rendered earlier in CI by render_og_cards.py; topics with a
+    # card get a per-topic og:image, the rest fall back to the default card.
+    og_cards = frozenset(p.stem for p in (OUTPUT_DIR / "og").glob("*.png")) - {"default"}
+    print(f"Found {len(og_cards)} rendered og:image cards")
+
     print(f"Generating {len(all_data)} topic pages...")
     count = 0
     q_count = 0
     for tid in sorted(all_data.keys()):
         html = generate_topic_page(
             tid, all_data, all_sections, prereqs_of, dependents_of, depths,
-            pedagogy_types=pedagogy_types,
+            pedagogy_types=pedagogy_types, og_cards=og_cards,
         )
         out = TOPICS_DIR / f"{tid}.html"
         out.write_text(html, encoding="utf-8")
