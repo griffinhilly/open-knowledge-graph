@@ -13,7 +13,7 @@ prerequisites:
 - id: linear-regression
   type: soft
 - id: matrices-intro
-  type: hard
+  type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft
 tags:

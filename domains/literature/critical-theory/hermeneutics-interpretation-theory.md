@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: pragmatics-and-argumentation
   type: soft
-- id: formal-pragmatics-context
-  type: soft
 - id: reading-comprehension-basics
   type: soft
 - id: eco-unlimited-semiosis

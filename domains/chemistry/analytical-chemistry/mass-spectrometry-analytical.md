@@ -6,8 +6,6 @@ course: analytical-chemistry
 prerequisites:
 - id: analytical-chemistry-intro
   type: hard
-- id: organic-chemistry-intro
-  type: soft
 - id: electron-configuration
   type: soft
 - id: magnetic-force-moving-charges

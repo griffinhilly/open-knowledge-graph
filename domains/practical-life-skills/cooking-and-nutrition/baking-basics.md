@@ -20,8 +20,6 @@ prerequisites:
   type: soft
 - id: fractions-equal-parts
   type: soft
-- id: unit-rates
-  type: soft
 - id: measurement-conversions-customary
   type: soft
 - id: measuring-capacity-liquid-containers-3rd

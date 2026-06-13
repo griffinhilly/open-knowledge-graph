@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - arrays
 - multiplication-readiness
-stage: pre-formal
+stage: concrete-operations
 status: validated
 ---
 

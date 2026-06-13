@@ -12,7 +12,7 @@ tags:
 - skip-counting
 - patterns
 - tens
-stage: pre-formal
+stage: concrete-operations
 status: validated
 ---
 

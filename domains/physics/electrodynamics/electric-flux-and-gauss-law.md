@@ -7,7 +7,7 @@ prerequisites:
 - id: electric-field-and-coulombs-law
   type: hard
 - id: partial-derivatives
-  type: hard
+  type: soft
 builds-toward:
 - maxwells-equations-integral-form
 tags:

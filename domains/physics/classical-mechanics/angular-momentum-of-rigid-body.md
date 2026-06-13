@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: cross-product
   type: hard
-- id: matrices-intro
-  type: soft
 builds-toward:
 - conservation-of-angular-momentum
 tags:

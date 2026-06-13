@@ -12,7 +12,7 @@ builds-toward:
 tags:
 - skip-counting
 - patterns
-stage: pre-formal
+stage: concrete-operations
 status: validated
 ---
 

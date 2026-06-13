@@ -4,8 +4,6 @@ title: Basic Nutrition Fundamentals
 domain: practical-life-skills
 course: cooking-and-nutrition
 prerequisites:
-- id: fractions-of-a-set
-  type: soft
 - id: percent-of-a-number
   type: soft
 - id: ratios

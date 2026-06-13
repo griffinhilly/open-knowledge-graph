@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: complex-numbers-intro
   type: soft
+- id: schrodinger-equation-intro
+  type: soft
 builds-toward:
 - schrodinger-equation-intro
 - particle-in-a-box

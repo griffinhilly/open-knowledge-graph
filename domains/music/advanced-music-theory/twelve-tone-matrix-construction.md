@@ -10,10 +10,6 @@ prerequisites:
   type: hard
 - id: matrices-definition
   type: soft
-- id: matrix-operations
-  type: soft
-- id: matrices-intro
-  type: soft
 builds-toward:
 - twelve-tone-operations-analysis
 - combinatoriality-serial-composition

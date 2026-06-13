@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: adding-subtracting-decimals
   type: soft
-- id: addition-subtraction-word-problems
-  type: soft
 - id: collecting-and-organizing-data-3rd
   type: soft
 - id: basic-integration-rules

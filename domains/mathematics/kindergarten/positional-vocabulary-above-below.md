@@ -3,9 +3,7 @@ id: positional-vocabulary-above-below
 title: 'Positional Words: Above and Below'
 domain: mathematics
 course: kindergarten
-prerequisites:
-- id: counting-to-20
-  type: soft
+prerequisites: []
 builds-toward:
 - positional-words
 tags:

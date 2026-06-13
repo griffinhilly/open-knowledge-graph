@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
-- id: proportional-relationships
-  type: soft
 - id: rice-cooking-water-ratios
   type: soft
 - id: grain-and-starch-preparation-basics

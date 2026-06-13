@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rlc-circuits
   type: soft
+- id: simple-harmonic-motion
+  type: soft
 builds-toward:
 - separable-differential-equations
 - first-order-linear-odes

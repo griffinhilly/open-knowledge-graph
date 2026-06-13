@@ -6,8 +6,6 @@ course: prealgebra
 prerequisites:
 - id: one-step-equations
   type: soft
-- id: adding-integers
-  type: hard
 builds-toward:
 - angle-basics-and-classification
 - parallel-lines-and-transversals

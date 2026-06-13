@@ -4,14 +4,14 @@ title: Area of Rectangles
 domain: mathematics
 course: 4th-grade
 prerequisites:
-- id: multi-digit-multiplication
-  type: hard
 - id: perimeter
   type: soft
 - id: arrays
   type: soft
 - id: area-by-counting-squares
   type: soft
+- id: area-by-unit-squares-3rd
+  type: hard
 builds-toward:
 - volume-of-rectangular-prisms
 - measurement-conversions-customary

@@ -18,8 +18,6 @@ prerequisites:
   type: soft
 - id: second-order-linear-homogeneous-odes
   type: hard
-- id: differential-equations-intro
-  type: hard
 - id: graphing-sine-and-cosine
   type: soft
 builds-toward:

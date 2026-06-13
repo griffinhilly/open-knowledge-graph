@@ -4,8 +4,8 @@ title: Sequences and Series Review
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: function-notation-review
-    type: hard
+- id: function-notation-review
+  type: soft
 builds-toward:
   - sequences-convergence
   - series-definition-and-partial-sums

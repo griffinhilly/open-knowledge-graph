@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: band-theory-intro
   type: soft
-- id: electron-configuration-aufbau-principle
-  type: soft
 builds-toward:
 - operational-amplifier-fundamentals
 tags:

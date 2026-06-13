@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: multiplication-equal-groups-2nd
   type: hard
-- id: arrays-2nd-grade
+- id: arrays
   type: soft
 builds-toward:
 - multiplication-facts-basic-2nd

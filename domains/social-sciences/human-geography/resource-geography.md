@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: percent-concept
   type: soft
-- id: proportional-relationships
-  type: soft
 - id: agricultural-geography
   type: soft
 - id: colonialism-geographic-legacy

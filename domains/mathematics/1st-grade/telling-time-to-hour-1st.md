@@ -3,9 +3,7 @@ id: telling-time-to-hour-1st
 title: Telling Time to the Hour
 domain: mathematics
 course: 1st-grade
-prerequisites:
-- id: skip-counting-by-5s
-  type: soft
+prerequisites: []
 builds-toward:
 - telling-time-to-half-hour
 - elapsed-time

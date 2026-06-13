@@ -4,10 +4,10 @@ title: Ratios
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: multiplying-fractions
-    type: hard
-  - id: place-value-whole-numbers
-    type: hard
+- id: multiplying-fractions
+  type: hard
+- id: place-value-whole-numbers
+  type: soft
 builds-toward:
   - unit-rates
   - proportions

@@ -4,8 +4,6 @@ title: The Schrödinger Equation
 domain: physics
 course: modern-physics
 prerequisites:
-- id: wavefunction-and-probability
-  type: hard
 - id: differential-equations-intro-separable
   type: hard
 - id: de-broglie-wavelength
@@ -34,7 +32,7 @@ tags:
 - hamiltonian
 - time-independent
 - eigenvalues
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

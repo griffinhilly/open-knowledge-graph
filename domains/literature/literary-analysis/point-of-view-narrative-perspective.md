@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: soft
-- id: information-structure-focus-topic
-  type: soft
 - id: deixis-and-reference
   type: soft
 builds-toward:

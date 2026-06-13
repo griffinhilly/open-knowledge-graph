@@ -6,8 +6,6 @@ course: modern-physics
 prerequisites:
 - id: schrodinger-equation-intro
   type: hard
-- id: quantum-numbers
-  type: hard
 - id: hydrogen-atom-quantum
   type: soft
 - id: eigenvalues-and-eigenvectors

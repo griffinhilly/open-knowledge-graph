@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: mean-median-mode
   type: soft
-- id: proportional-relationships
-  type: soft
 - id: cross-cultural-comparison
   type: soft
 - id: material-culture

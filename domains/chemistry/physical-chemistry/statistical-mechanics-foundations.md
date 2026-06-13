@@ -4,8 +4,6 @@ title: 'Statistical Mechanics: Ensembles and the Boltzmann Distribution'
 domain: chemistry
 course: physical-chemistry
 prerequisites:
-- id: maxwell-boltzmann-distribution
-  type: hard
 - id: entropy-and-gibbs-free-energy
   type: hard
 - id: equipartition-theorem
@@ -22,10 +20,6 @@ prerequisites:
   type: soft
 - id: statistical-ensembles-intro
   type: soft
-- id: partition-function-definition
-  type: soft
-- id: partition-function-definition
-  type: hard
 builds-toward:
 - molecular-partition-functions
 - statistical-thermodynamics-applications

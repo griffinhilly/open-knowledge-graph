@@ -4,8 +4,6 @@ title: The Number Zero
 domain: mathematics
 course: kindergarten
 prerequisites:
-- id: counting-to-20
-  type: soft
 - id: understanding-zero
   type: soft
 builds-toward:

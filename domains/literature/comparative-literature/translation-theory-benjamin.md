@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: post-structuralism
   type: soft
-- id: formal-pragmatics-context
-  type: soft
 builds-toward:
 - translation-ethics-venuti
 - literary-translation-interpretation

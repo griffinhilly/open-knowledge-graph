@@ -4,7 +4,7 @@ title: Fractions of Sets and Comparing Non-Unit Fractions
 domain: mathematics
 course: 3rd-grade
 prerequisites:
-- id: fractions-of-a-set-3rd
+- id: fractions-of-a-set
   type: hard
 - id: unit-fractions-halves-thirds-fourths-3rd
   type: soft

@@ -4,7 +4,7 @@ title: 'Unit Fractions: Halves, Thirds, Fourths'
 domain: mathematics
 course: 3rd-grade
 prerequisites:
-- id: fractions-halves-fourths-thirds-2nd
+- id: fractions-halves-thirds-fourths
   type: hard
 - id: partition-shapes-equal-parts
   type: soft

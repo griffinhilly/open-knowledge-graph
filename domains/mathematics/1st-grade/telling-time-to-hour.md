@@ -3,9 +3,7 @@ id: telling-time-to-hour
 title: Telling Time to the Hour
 domain: mathematics
 course: 1st-grade
-prerequisites:
-- id: counting-to-20
-  type: soft
+prerequisites: []
 builds-toward:
 - telling-time-to-half-hour
 tags:

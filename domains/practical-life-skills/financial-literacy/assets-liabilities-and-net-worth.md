@@ -9,7 +9,7 @@ prerequisites:
 - id: expense-categorization-and-analysis
   type: soft
 - id: addition-subtraction-word-problems
-  type: hard
+  type: soft
 - id: opposites-and-additive-inverses
   type: hard
 - id: integers-and-number-line

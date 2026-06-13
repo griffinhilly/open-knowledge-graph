@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
-- id: partial-derivatives
-  type: hard
 - id: higher-order-partials
   type: soft
 - id: option-greeks-and-sensitivity

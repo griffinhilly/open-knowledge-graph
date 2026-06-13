@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: time-sequencing-daily-events
   type: soft
-- id: skip-counting-by-5s
-  type: soft
 builds-toward:
 - telling-time-to-half-hour
 tags:

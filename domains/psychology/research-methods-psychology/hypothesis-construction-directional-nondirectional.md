@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: literature-review-and-synthesis
   type: soft
-- id: probability-axioms
-  type: soft
 - id: bayes-theorem
   type: soft
 builds-toward:

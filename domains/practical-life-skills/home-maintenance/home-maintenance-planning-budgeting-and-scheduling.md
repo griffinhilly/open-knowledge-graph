@@ -9,7 +9,7 @@ prerequisites:
 - id: understanding-home-structure-and-systems
   type: hard
 - id: addition-subtraction-word-problems
-  type: hard
+  type: soft
 - id: multiplication-word-problems
   type: soft
 - id: percent-of-a-number

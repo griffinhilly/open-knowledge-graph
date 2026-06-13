@@ -4,8 +4,6 @@ title: Writing and Interpreting Numerical Expressions
 domain: mathematics
 course: 5th-grade
 prerequisites:
-- id: order-of-operations
-  type: hard
 - id: input-output-tables
   type: soft
 - id: patterns-and-sequences

@@ -4,10 +4,10 @@ title: Properties of Operations
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: adding-integers
-    type: hard
-  - id: multiplying-integers
-    type: hard
+- id: adding-integers
+  type: soft
+- id: multiplying-integers
+  type: hard
 builds-toward:
   - combining-like-terms
   - distributive-property

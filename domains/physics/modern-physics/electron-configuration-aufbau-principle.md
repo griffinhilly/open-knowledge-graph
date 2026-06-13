@@ -6,13 +6,15 @@ course: modern-physics
 prerequisites:
 - id: pauli-exclusion-antisymmetry
   type: hard
+- id: periodic-table-overview
+  type: soft
 builds-toward:
 - periodic-table-electronic-structure
 tags:
 - quantum
 - atoms
 - configuration
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

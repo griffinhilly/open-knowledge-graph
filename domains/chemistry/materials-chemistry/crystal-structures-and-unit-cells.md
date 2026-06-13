@@ -9,7 +9,7 @@ prerequisites:
 - id: metallic-bonding
   type: hard
 - id: covalent-bonding
-  type: hard
+  type: soft
 - id: periodic-trends
   type: soft
 - id: solid-state-chemistry-fundamentals

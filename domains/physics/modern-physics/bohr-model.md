@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: circular-motion-dynamics
   type: hard
+- id: atomic-structure-and-atoms
+  type: soft
+- id: atomic-structure-basics
+  type: soft
 builds-toward:
 - quantum-numbers
 - wave-particle-duality

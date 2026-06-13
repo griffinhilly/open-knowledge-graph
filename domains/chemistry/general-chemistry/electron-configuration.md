@@ -6,13 +6,9 @@ course: general-chemistry
 prerequisites:
 - id: atomic-structure-basics
   type: hard
-- id: atomic-orbitals
-  type: soft
 - id: periodic-table-overview
   type: soft
 - id: quantum-numbers
-  type: soft
-- id: pauli-exclusion-principle
   type: soft
 builds-toward:
 - periodic-trends

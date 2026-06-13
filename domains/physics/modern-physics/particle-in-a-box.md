@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
-- id: boundary-value-problems-electrostatics
-  type: hard
+- id: quantum-numbers
+  type: soft
 builds-toward:
 - quantum-tunneling
 - quantum-numbers
@@ -20,7 +20,7 @@ tags:
 - energy-levels
 - standing-waves
 - zero-point-energy
-stage: expert
+stage: advanced
 status: validated
 ---
 

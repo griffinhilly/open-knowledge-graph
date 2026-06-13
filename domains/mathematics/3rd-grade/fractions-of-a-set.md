@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: multiplication-facts-within-100
   type: soft
+- id: equal-groups
+  type: hard
+- id: unit-fractions-halves-thirds-fourths-3rd
+  type: hard
+- id: equivalent-fractions-intro-3rd
+  type: soft
 builds-toward:
 - percent-concept
 - ratios

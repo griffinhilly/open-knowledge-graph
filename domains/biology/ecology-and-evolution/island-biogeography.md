@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: species-interactions
   type: soft
-- id: exponential-functions-and-graphs
-  type: soft
 builds-toward:
 - biodiversity-and-conservation
 tags:

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: exponential-functions-and-graphs
   type: soft
+- id: statistical-mechanics-foundations
+  type: soft
 builds-toward:
 - quantum-statistics-intro
 - ideal-fermi-gas
@@ -20,7 +22,7 @@ tags:
 - boltzmann-distribution
 - classical-limit
 - velocity-distribution
-stage: expert
+stage: advanced
 status: validated
 ---
 

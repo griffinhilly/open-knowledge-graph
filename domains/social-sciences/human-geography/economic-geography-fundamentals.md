@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: mean-median-mode
   type: soft
-- id: proportional-relationships
-  type: soft
 - id: agricultural-geography
   type: soft
 - id: functions-domain-codomain-range

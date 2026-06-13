@@ -5,7 +5,7 @@ domain: mathematics
 course: algebra-1
 prerequisites:
 - id: graphing-linear-equations
-  type: hard
+  type: soft
 - id: slope-intercept-form
   type: hard
 builds-toward: []

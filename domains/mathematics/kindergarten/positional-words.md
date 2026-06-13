@@ -3,9 +3,7 @@ id: positional-words
 title: 'Positional Words: Above, Below, Beside'
 domain: mathematics
 course: kindergarten
-prerequisites:
-- id: counting-to-20
-  type: soft
+prerequisites: []
 builds-toward:
 - coordinate-plane-intro
 tags:

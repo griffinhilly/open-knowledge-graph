@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: mass-energy-equivalence
   type: soft
+- id: atomic-structure-basics
+  type: soft
 builds-toward:
 - radioactive-decay
 - nuclear-fission-fusion
@@ -20,7 +22,7 @@ tags:
 - binding-energy
 - strong-force
 - mass-defect
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

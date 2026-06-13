@@ -10,10 +10,6 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
-- id: fractions-of-a-set
-  type: soft
-- id: unit-rates
-  type: soft
 - id: proportions
   type: soft
 tags:

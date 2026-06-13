@@ -5,7 +5,7 @@ domain: social-sciences
 course: research-methods-social-science
 prerequisites:
 - id: matrix-operations
-  type: hard
+  type: soft
 - id: partial-derivatives
   type: hard
 - id: optimization-multivariable-basics

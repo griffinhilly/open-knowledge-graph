@@ -6,6 +6,8 @@ course: early-language-foundations
 prerequisites:
 - id: spoken-language-basics
   type: hard
+- id: simple-sentence-understanding
+  type: soft
 builds-toward:
 - simple-sentence-understanding
 - listening-comprehension

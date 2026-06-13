@@ -7,7 +7,7 @@ prerequisites:
 - id: personal-budget-fundamentals
   type: hard
 - id: addition-subtraction-word-problems
-  type: hard
+  type: soft
 builds-toward:
 - financial-goal-setting
 - emergency-fund-planning

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: dividing-integers
   type: hard
-- id: order-of-operations
-  type: soft
 builds-toward:
 - stem-and-leaf-plots
 - box-and-whisker-plots

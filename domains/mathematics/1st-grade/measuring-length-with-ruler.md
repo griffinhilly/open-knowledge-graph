@@ -10,7 +10,7 @@ tags:
 - measurement
 - length
 - standard-units
-stage: pre-formal
+stage: concrete-operations
 status: validated
 ---
 

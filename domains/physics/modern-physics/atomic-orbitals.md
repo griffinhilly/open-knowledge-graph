@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: wavefunction-and-probability
   type: hard
+- id: atomic-structure-basics
+  type: soft
+- id: electron-configuration
+  type: soft
 builds-toward:
 - pauli-exclusion-principle
 - band-theory-intro

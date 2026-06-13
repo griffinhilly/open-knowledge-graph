@@ -7,7 +7,7 @@ prerequisites:
 - id: newtons-second-law-conceptual
   type: hard
 - id: multi-digit-multiplication
-  type: hard
+  type: soft
 builds-toward:
 - momentum-and-impulse
 - conservation-of-momentum

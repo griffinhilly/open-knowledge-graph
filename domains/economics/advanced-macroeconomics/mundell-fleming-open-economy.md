@@ -11,7 +11,7 @@ prerequisites:
 - id: systems-of-linear-equations
   type: hard
 - id: matrix-operations
-  type: hard
+  type: soft
 builds-toward:
 - exchange-rate-dynamics
 - balance-of-payments-capital-flows

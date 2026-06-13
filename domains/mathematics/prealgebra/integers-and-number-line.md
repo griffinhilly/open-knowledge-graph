@@ -4,10 +4,10 @@ title: Integers and the Number Line
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: place-value-whole-numbers
-    type: hard
-  - id: decimal-place-value
-    type: soft
+- id: place-value-whole-numbers
+  type: soft
+- id: decimal-place-value
+  type: soft
 builds-toward:
   - absolute-value
   - adding-integers

@@ -6,6 +6,8 @@ course: 2nd-grade
 prerequisites:
 - id: halves-and-quarters
   type: hard
+- id: equal-parts-and-whole-shapes
+  type: hard
 builds-toward:
 - intro-to-fractions
 - comparing-fractions

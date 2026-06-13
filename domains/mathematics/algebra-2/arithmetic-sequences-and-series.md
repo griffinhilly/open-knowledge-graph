@@ -4,8 +4,8 @@ title: Arithmetic Sequences and Series
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: equations-variables-both-sides
-    type: hard
+- id: equations-variables-both-sides
+  type: soft
 builds-toward:
   - geometric-sequences-and-series
   - sigma-notation

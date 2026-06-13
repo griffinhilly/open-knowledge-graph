@@ -11,7 +11,7 @@ prerequisites:
 tags:
 - word-problems
 - application
-stage: pre-formal
+stage: concrete-operations
 status: validated
 ---
 

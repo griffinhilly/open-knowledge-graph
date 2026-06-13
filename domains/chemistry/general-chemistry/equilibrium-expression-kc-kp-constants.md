@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: solving-multi-step-equations
   type: soft
-- id: exponential-functions-and-graphs
-  type: soft
 builds-toward:
 - reaction-quotient-direction-of-reaction
 - le-chatelier-principle-applications

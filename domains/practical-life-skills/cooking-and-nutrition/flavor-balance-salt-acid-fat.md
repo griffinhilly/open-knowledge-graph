@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: seasoning-and-flavor-basics
   type: soft
-- id: unit-rates
-  type: soft
 - id: flavor-layering-and-building
   type: soft
 - id: culinary-herbs-and-spices

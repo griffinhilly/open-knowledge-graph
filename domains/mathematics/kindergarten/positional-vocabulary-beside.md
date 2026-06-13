@@ -4,8 +4,6 @@ title: 'Positional Words: Beside and Next To'
 domain: mathematics
 course: kindergarten
 prerequisites:
-- id: counting-to-20
-  type: soft
 - id: positional-vocabulary-above-below
   type: soft
 builds-toward:

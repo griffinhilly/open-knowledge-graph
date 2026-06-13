@@ -7,7 +7,7 @@ prerequisites:
 - id: sample-spaces-and-events
   type: hard
 - id: function-notation-review
-  type: hard
+  type: soft
 builds-toward:
 - probability-mass-functions
 - probability-density-functions

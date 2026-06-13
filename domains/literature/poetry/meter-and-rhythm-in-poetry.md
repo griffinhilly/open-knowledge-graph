@@ -4,8 +4,6 @@ title: Meter and Rhythm in Poetry
 domain: literature
 course: poetry
 prerequisites:
-- id: sentence-structure-basics
-  type: soft
 - id: articulatory-phonetics
   type: soft
 - id: phonological-systems

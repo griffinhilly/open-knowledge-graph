@@ -9,7 +9,7 @@ prerequisites:
 - id: measuring-volume-and-weight
   type: hard
 - id: ratios
-  type: hard
+  type: soft
 - id: intro-to-fractions
   type: soft
 - id: proportional-relationships

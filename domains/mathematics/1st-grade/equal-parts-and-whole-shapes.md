@@ -6,10 +6,6 @@ course: 1st-grade
 prerequisites:
 - id: halves-and-quarters
   type: hard
-- id: partition-shapes-equal-parts
-  type: soft
-- id: fractions-halves-and-fourths-1st
-  type: soft
 builds-toward:
 - fractions-halves-thirds-fourths
 - unit-fractions

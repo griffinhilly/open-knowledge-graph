@@ -7,7 +7,7 @@ prerequisites:
 - id: newtons-second-law
   type: hard
 - id: partial-derivatives
-  type: hard
+  type: soft
 builds-toward:
 - vector-potential-and-curl
 - faraday-law-of-induction

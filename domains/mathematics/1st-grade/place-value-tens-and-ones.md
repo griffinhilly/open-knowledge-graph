@@ -6,13 +6,15 @@ course: 1st-grade
 prerequisites:
 - id: skip-counting-by-10s
   type: hard
+- id: number-recognition-1-100
+  type: hard
 builds-toward:
 - comparing-two-digit-numbers
 - two-digit-addition-no-regrouping
 tags:
 - place-value
 - positional-notation
-stage: pre-formal
+stage: concrete-operations
 status: validated
 ---
 

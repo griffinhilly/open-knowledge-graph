@@ -7,7 +7,7 @@ prerequisites:
 - id: transfer-functions-control
   type: soft
 - id: matrices-intro
-  type: hard
+  type: soft
 - id: differential-equations-intro-separable
   type: hard
 - id: eigenvalues-and-eigenvectors

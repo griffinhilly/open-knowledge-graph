@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: mixed-number-arithmetic
   type: soft
+- id: exponents-intro
+  type: soft
+- id: writing-numerical-expressions
+  type: soft
 builds-toward:
 - writing-numerical-expressions
 - evaluating-expressions-with-grouping

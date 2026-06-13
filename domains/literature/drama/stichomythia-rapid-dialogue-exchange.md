@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: conversational-implicature
   type: soft
-- id: sentence-structure-basics
-  type: soft
 builds-toward:
 - dramatic-tension-and-suspense
 - tragic-form-across-cultures

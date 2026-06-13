@@ -15,7 +15,7 @@ prerequisites:
 - id: measurement-conversions-customary
   type: soft
 - id: intro-to-fractions
-  type: hard
+  type: soft
 - id: unit-rates
   type: hard
 - id: measurement-conversions-metric

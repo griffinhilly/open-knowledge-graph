@@ -4,10 +4,8 @@ title: Introduction to Exponents
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: multiplying-integers
-    type: hard
-  - id: order-of-operations
-    type: hard
+- id: multiplying-integers
+  type: hard
 builds-toward:
   - scientific-notation-intro
   - exponent-rules-product-power-quotient

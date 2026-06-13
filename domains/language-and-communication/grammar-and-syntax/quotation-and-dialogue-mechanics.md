@@ -5,7 +5,7 @@ domain: language-and-communication
 course: grammar-and-syntax
 prerequisites:
 - id: sentence-structure-basics
-  type: hard
+  type: soft
 builds-toward: []
 tags:
 - quotation-marks

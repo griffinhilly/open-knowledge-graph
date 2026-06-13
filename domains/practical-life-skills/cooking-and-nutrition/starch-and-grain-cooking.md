@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
-- id: proportional-relationships
-  type: soft
 - id: breading-coating-techniques
   type: soft
 - id: protein-cooking-science

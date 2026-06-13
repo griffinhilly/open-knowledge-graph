@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: two-digit-by-one-digit-multiplication
   type: soft
+- id: area-of-rectangles
+  type: soft
 builds-toward:
 - intro-to-long-division
 - multiplying-decimals

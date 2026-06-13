@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: acid-base-chemistry
   type: soft
-- id: intermolecular-forces
-  type: soft
 - id: chemical-equilibrium
   type: soft
 builds-toward:

@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: schrodinger-equation-intro
   type: soft
-- id: particle-in-a-box
+- id: hydrogen-atom-schrodinger-solution
   type: soft
 builds-toward:
 - atomic-orbitals

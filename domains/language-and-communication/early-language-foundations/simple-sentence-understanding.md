@@ -4,8 +4,6 @@ title: Simple Sentence Understanding
 domain: language-and-communication
 course: early-language-foundations
 prerequisites:
-- id: vocabulary-building
-  type: hard
 - id: spoken-language-basics
   type: hard
 builds-toward:

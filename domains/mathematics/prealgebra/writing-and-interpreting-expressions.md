@@ -4,12 +4,12 @@ title: Writing and Interpreting Algebraic Expressions
 domain: mathematics
 course: prealgebra
 prerequisites:
-  - id: variable-expressions
-    type: hard
-  - id: adding-integers
-    type: hard
-  - id: multiplying-integers
-    type: hard
+- id: variable-expressions
+  type: hard
+- id: adding-integers
+  type: soft
+- id: multiplying-integers
+  type: hard
 builds-toward:
   - one-step-equations
   - two-step-equations

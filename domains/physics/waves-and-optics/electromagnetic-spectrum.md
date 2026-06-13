@@ -19,7 +19,7 @@ tags:
 - ultraviolet
 - X-rays
 - gamma rays
-stage: advanced
+stage: formal-systems
 status: validated
 ---
 

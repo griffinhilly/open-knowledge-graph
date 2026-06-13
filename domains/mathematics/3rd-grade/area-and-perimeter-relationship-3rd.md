@@ -4,7 +4,7 @@ title: Relationship Between Area and Perimeter
 domain: mathematics
 course: 3rd-grade
 prerequisites:
-- id: area-of-rectangles-3rd
+- id: area-of-rectangles
   type: hard
 - id: perimeter-finding-regular-shapes-3rd
   type: hard

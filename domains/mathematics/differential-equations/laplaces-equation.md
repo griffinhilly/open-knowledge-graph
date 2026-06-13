@@ -4,8 +4,6 @@ title: Laplace's Equation and Boundary Value Problems
 domain: mathematics
 course: differential-equations
 prerequisites:
-- id: wave-equation-pde
-  type: hard
 - id: partial-derivatives
   type: hard
 - id: solving-ivps-with-laplace-transforms

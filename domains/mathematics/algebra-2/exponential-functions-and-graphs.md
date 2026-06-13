@@ -13,7 +13,7 @@ builds-toward:
   - logarithms-intro
   - natural-logarithm-and-e
 tags: [exponential, functions, graphing, growth]
-stage: formal-systems
+stage: abstract-reasoning
 status: validated
 ---
 

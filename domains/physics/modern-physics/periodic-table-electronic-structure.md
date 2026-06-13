@@ -6,11 +6,13 @@ course: modern-physics
 prerequisites:
 - id: electron-configuration-aufbau-principle
   type: hard
+- id: periodic-table-overview
+  type: soft
 tags:
 - quantum
 - atoms
 - periodic-table
-stage: expert
+stage: advanced
 status: validated
 ---
 

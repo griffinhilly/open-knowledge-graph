@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: definite-integral-definition
   type: hard
+- id: statistical-mechanics-foundations
+  type: soft
 builds-toward:
 - helmholtz-free-energy
 - gibbs-free-energy
@@ -20,7 +22,7 @@ tags:
 - partition-function
 - thermodynamic-potential
 - calculation
-stage: expert
+stage: advanced
 status: validated
 ---
 

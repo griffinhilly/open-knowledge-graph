@@ -5,13 +5,13 @@ domain: mathematics
 course: 1st-grade
 prerequisites:
 - id: counting-to-20
-  type: hard
+  type: soft
 builds-toward:
 - even-and-odd-numbers
 tags:
 - skip-counting
 - patterns
-stage: pre-formal
+stage: concrete-operations
 status: validated
 ---
 

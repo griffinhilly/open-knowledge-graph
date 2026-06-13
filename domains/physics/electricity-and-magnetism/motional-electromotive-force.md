@@ -8,13 +8,17 @@ prerequisites:
   type: hard
 - id: lorentz-force-on-moving-charge
   type: hard
+- id: faradays-law
+  type: soft
+- id: magnetic-flux-and-induction
+  type: soft
 builds-toward:
 - electromagnetic-induction-applications
 tags:
 - induction
 - EMF
 - generators
-stage: expert
+stage: formal-systems
 status: validated
 ---
 

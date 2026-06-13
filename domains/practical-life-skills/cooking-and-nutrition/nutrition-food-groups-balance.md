@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: percent-of-a-number
   type: soft
-- id: fractions-of-a-set-3rd
+- id: fractions-of-a-set
   type: soft
 builds-toward:
 - reading-nutrition-labels

@@ -5,7 +5,7 @@ domain: physics
 course: thermodynamics
 prerequisites:
 - id: blackbody-radiation
-  type: hard
+  type: soft
 - id: ts-diagram-entropy-temperature
   type: soft
 tags:

@@ -7,7 +7,7 @@ prerequisites:
 - id: measuring-with-standard-units-length
   type: hard
 - id: intro-to-fractions
-  type: hard
+  type: soft
 - id: fractions-equal-parts
   type: soft
 - id: intro-to-decimals

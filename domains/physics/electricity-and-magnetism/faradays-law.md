@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: curl-and-divergence
   type: soft
-- id: motional-electromotive-force
-  type: soft
 builds-toward:
 - lenzs-law
 - inductance-and-inductors

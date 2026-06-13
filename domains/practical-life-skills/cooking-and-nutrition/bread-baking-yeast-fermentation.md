@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
-- id: proportional-relationships
-  type: soft
 tags:
 - bread
 - yeast

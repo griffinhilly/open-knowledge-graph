@@ -9,7 +9,7 @@ prerequisites:
 tags:
 - fractions
 - equal-parts
-stage: pre-formal
+stage: concrete-operations
 status: validated
 ---
 

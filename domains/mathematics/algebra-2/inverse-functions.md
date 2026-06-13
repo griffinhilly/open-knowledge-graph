@@ -7,7 +7,7 @@ prerequisites:
 - id: function-notation-review
   type: hard
 - id: equations-variables-both-sides
-  type: hard
+  type: soft
 - id: composition-of-functions
   type: soft
 - id: step-functions
