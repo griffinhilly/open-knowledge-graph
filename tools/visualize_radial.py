@@ -792,6 +792,33 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 }}
 #panel .panel-badge.hard {{ background:rgba(220,80,80,0.15); color:#c66; }}
 #panel .panel-badge.soft {{ background:rgba(80,160,220,0.15); color:#6ab; }}
+#panel .panel-path {{
+  margin-top:14px; padding-top:12px; border-top:1px solid #262636;
+  display:flex; gap:8px;
+}}
+#panel .panel-path button {{
+  background:#16223a; border:1px solid #2a3a55; border-radius:6px;
+  padding:7px 10px; font-size:12px; color:#9cd; cursor:pointer;
+}}
+#panel .panel-path button:hover {{ background:#20304e; color:#cef; }}
+#panel .panel-path .path-btn[data-act="ancestry"] {{ flex:1; }}
+#panel .panel-path .copy {{ flex:0 0 auto; }}
+#pathBanner {{
+  position:fixed; top:16px; left:50%; transform:translateX(-50%);
+  display:none; align-items:center; gap:12px;
+  background:rgba(10,14,24,0.95); border:1px solid #2a3a55;
+  border-radius:999px; padding:8px 16px; z-index:40;
+  font-size:13px; color:#cde; max-width:92vw;
+  box-shadow:0 4px 20px rgba(0,0,0,0.45);
+}}
+#pathBanner span {{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }}
+#pathBanner strong {{ color:#fff; }}
+#pathBanner button {{
+  flex:0 0 auto; background:none; border:1px solid #3a4a66;
+  border-radius:6px; padding:4px 10px; font-size:12px; color:#9cd; cursor:pointer;
+}}
+#pathBanner button:hover {{ background:#20304e; color:#cef; }}
+#pathBanner .pb-clear {{ color:#c99; border-color:#553; }}
 #panel .panel-correction {{
   margin-top:14px; padding-top:12px; border-top:1px solid #262636;
   display:flex; gap:8px;
@@ -976,6 +1003,8 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
     padding:16px 20px 24px; box-sizing:border-box;
   }}
   #panel .panel-close {{ top:12px; right:14px; font-size:24px; padding:8px; }}
+  #pathBanner {{ top:8px; flex-wrap:wrap; justify-content:center; gap:8px; font-size:12px; padding:8px 12px; }}
+  #pathBanner span {{ white-space:normal; flex-basis:100%; text-align:center; }}
   #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
   #search input {{ flex:1; width:auto; }}
   #tooltip {{ display:none !important; }}
@@ -1100,6 +1129,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 </div>
 <div id="tooltip"></div>
 <div id="panel"></div>
+<div id="pathBanner"></div>
 <div id="stageCard" class="stage-hidden">
   <button class="stage-close" onclick="hideStageCard()" aria-label="Dismiss">&times;</button>
   <h3>Make this yours</h3>
@@ -1140,7 +1170,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   </div>
 </div>
 <div id="search">
-  <input type="text" id="searchInput" placeholder="Search topics... (Ctrl+F)">
+  <input type="text" id="searchInput" placeholder="What do you want to understand?">
   <span class="count" id="searchCount"></span>
 </div>
 
@@ -1362,7 +1392,8 @@ function draw() {{
     ctx.restore();
   }});
 
-  // Draw edges
+  // Draw edges (suppressed further when a path reveal is active so the overlay pops)
+  if (pathNodeSet) ctx.globalAlpha = 0.3;
   edgeData.forEach(e => {{
     ctx.beginPath();
     ctx.moveTo(e.s.x, e.s.y);
@@ -1377,6 +1408,7 @@ function draw() {{
     ctx.lineWidth = 0.35;
     ctx.stroke();
   }});
+  ctx.globalAlpha = 1.0;
 
   // Draw nodes
   var fluencyUserStage = (showFluency && typeof OKGFluency !== 'undefined')
@@ -1384,6 +1416,7 @@ function draw() {{
   data.nodes.forEach(n => {{
     ctx.beginPath();
     ctx.arc(n.x, n.y, nodeRadius, 0, Math.PI * 2);
+    var baseAlpha = 1.0;
     if (showFluency && effectiveScores) {{
       var score = effectiveScores[n.id] || 0;
       ctx.fillStyle = OKGFluency.fluencyColor(n.hue, score);
@@ -1391,10 +1424,13 @@ function draw() {{
       // Frontier bonus keeps ready-to-learn topics visible across the gap.
       var stageDist = Math.abs((n.stageInt != null ? n.stageInt : 2) - fluencyUserStage);
       var frontierBonus = (frontierSet && frontierSet.has(n.id)) ? 0.2 : 0;
-      ctx.globalAlpha = Math.min(1.0, Math.max(0.1, 1 - 0.3 * stageDist + frontierBonus));
+      baseAlpha = Math.min(1.0, Math.max(0.1, 1 - 0.3 * stageDist + frontierBonus));
     }} else {{
       ctx.fillStyle = `hsl(${{n.hue}}, 55%, ${{n.lightness}}%)`;
     }}
+    // Path reveal dims everything outside the lit ancestry set.
+    if (pathNodeSet && !pathNodeSet.has(n.id)) baseAlpha *= 0.12;
+    ctx.globalAlpha = baseAlpha;
     ctx.fill();
     ctx.globalAlpha = 1.0;
     if (showFluency && frontierSet && frontierSet.has(n.id)) {{
@@ -1471,10 +1507,17 @@ function draw() {{
     }});
   }}
 
-  // Draw highlights for selected node (persists after click)
+  // Draw highlights for selected node (persists after click).
+  // Suppressed during a path reveal — the ancestry overlay is the sole highlight,
+  // otherwise the focal node's full prereq/successor fan clutters the dimmed view.
   const highlightTarget = selectedNode || hoveredNode;
-  if (highlightTarget) {{
+  if (highlightTarget && !pathNodeSet) {{
     drawHighlight(highlightTarget);
+  }}
+
+  // Path reveal overlay (bright ancestry on top of the dimmed base)
+  if (pathNodeSet) {{
+    drawPathOverlay();
   }}
 
   // Draw search match highlights
@@ -1559,6 +1602,14 @@ let hoveredNode = null;
 let selectedNode = null;
 let searchMatches = [];
 
+// --- Path engine state ---
+// When a reveal is active, pathNodeSet holds the lit topic ids and pathEdges
+// the bright ancestry edges (node-ref pairs); the base graph dims behind them.
+let pathNodeSet = null;
+let pathEdges = null;
+let pathRevealId = null;        // the focal topic of the current reveal
+const pathAncestryCache = {{}}; // id -> unbounded backward-BFS result (so "show full chain" is instant)
+
 if (!isSproutMode) {{ draw(); }}
 
 // --- Search ---
@@ -1584,9 +1635,13 @@ searchInput.addEventListener("input", () => {{
   if (searchMatches.length === 1) {{
     selectedNode = searchMatches[0];
     hoveredNode = searchMatches[0];
+    centerOnNode(searchMatches[0], 3.5);
     showPanel(searchMatches[0], W / 2, H / 2);
+    // A2: a search IS "show me what it takes to understand X."
+    revealAncestry(searchMatches[0].id, 4);
   }} else {{
     selectedNode = null;
+    if (pathNodeSet) clearPath();
     hidePanel();
   }}
   draw();
@@ -1597,6 +1652,8 @@ document.addEventListener("keydown", (e) => {{
     e.preventDefault();
     searchInput.focus();
     searchInput.select();
+  }} else if (e.key === "Escape" && pathNodeSet) {{
+    clearPath();
   }}
 }});
 
@@ -1605,6 +1662,176 @@ function screenToWorld(sx, sy) {{
     x: (sx - W / 2 - camX) / (camScale * viewScale),
     y: (sy - H / 2 - camY) / (camScale * viewScale),
   }};
+}}
+
+// Center the camera on a node at a given zoom. Single source of truth for
+// camera centring (the ?focus=/?ancestry= handlers + search reuse it).
+// screenDX shifts the node off dead-center (used by ancestry reveal so the
+// right-docked panel doesn't cover the lit subtree).
+function centerOnNode(node, scale, screenDX) {{
+  camScale = scale;
+  const s = camScale * viewScale;
+  camX = (screenDX || 0) - node.x * s;
+  camY = -node.y * s;
+}}
+
+// --- Full-graph lazy load ---
+// The radial embeds only a filtered edge subset (within-domain + nearby
+// cross-domain) to avoid a hairball, so ancestry that crosses domains needs
+// the complete adjacency in js/graph.js (window.OKG_GRAPH, ~3.5MB). Load it
+// once on the first reveal action — never on the cold path.
+let _fullGraph = null, _fullGraphLoading = false;
+const _fullGraphCbs = [];
+function withFullGraph(cb) {{
+  if (_fullGraph) {{ cb(_fullGraph); return; }}
+  _fullGraphCbs.push(cb);
+  if (_fullGraphLoading) return;
+  _fullGraphLoading = true;
+  const script = document.createElement('script');
+  script.src = 'js/graph.js';
+  script.onload = function () {{
+    _fullGraph = window.OKG_GRAPH || {{}};
+    _fullGraphLoading = false;
+    const cbs = _fullGraphCbs.splice(0);
+    cbs.forEach(function (f) {{ f(_fullGraph); }});
+  }};
+  script.onerror = function () {{
+    _fullGraphLoading = false;
+    _fullGraphCbs.splice(0);
+    showPathBanner('<span>Couldn&rsquo;t load the full graph.</span>'
+      + '<button class="pb-clear" onclick="clearPath()">Dismiss</button>');
+  }};
+  document.head.appendChild(script);
+}}
+
+// Unbounded backward BFS through prerequisites. graph.js stores compact
+// {{d, c, p:[ids], s:[ids]}} (edge type is not retained in the full graph, so
+// ancestry edges render uniformly). Returns hop depth per ancestor + edges.
+function computeAncestry(G, startId) {{
+  const hopOf = {{}};
+  hopOf[startId] = 0;
+  const queue = [startId];
+  const edges = [];
+  while (queue.length) {{
+    const cur = queue.shift();
+    const h = hopOf[cur];
+    const entry = G[cur];
+    if (!entry || !entry.p) continue;
+    for (let i = 0; i < entry.p.length; i++) {{
+      const pid = entry.p[i];
+      if (!nodeMap[pid]) continue;        // skip dangling ids with no position
+      edges.push({{ from: pid, to: cur, hop: h }});
+      if (hopOf[pid] === undefined) {{ hopOf[pid] = h + 1; queue.push(pid); }}
+    }}
+  }}
+  return {{ hopOf: hopOf, edges: edges }};
+}}
+
+// A3 — reveal a topic's prerequisite ancestry, capped at maxHops (Infinity = full chain).
+function revealAncestry(nodeId, maxHops) {{
+  const node = nodeMap[nodeId];
+  if (!node) return;
+  withFullGraph(function (G) {{
+    let anc = pathAncestryCache[nodeId];
+    if (!anc) {{ anc = computeAncestry(G, nodeId); pathAncestryCache[nodeId] = anc; }}
+
+    const totalAncestors = Object.keys(anc.hopOf).length - 1;  // minus self
+    if (totalAncestors === 0) {{
+      // Always-answerable foundational case: nothing comes before it.
+      pathNodeSet = null; pathEdges = null; pathRevealId = null;
+      showPathBanner('<span><strong>' + escapeHtml(node.title)
+        + '</strong> is a starting point &mdash; nothing comes before it.</span>'
+        + '<button class="pb-clear" onclick="clearPath()">Clear</button>');
+      draw();
+      return;
+    }}
+
+    const nodeSet = new Set();
+    for (const id in anc.hopOf) {{ if (anc.hopOf[id] <= maxHops) nodeSet.add(id); }}
+    const edges = [];
+    anc.edges.forEach(function (ed) {{
+      if (ed.hop < maxHops) edges.push({{ s: nodeMap[ed.from], t: nodeMap[ed.to] }});
+    }});
+
+    pathNodeSet = nodeSet;
+    pathEdges = edges;
+    pathRevealId = nodeId;
+    // Shift the focal node left of center on desktop so the docked panel
+    // doesn't cover the inward-fanning ancestry (panel docks bottom on mobile).
+    centerOnNode(node, 3.5, W > 768 ? -W * 0.16 : 0);
+
+    const shown = nodeSet.size - 1;
+    const hasMore = (maxHops !== Infinity) && (totalAncestors > shown);
+    let banner = '<span>Showing what <strong>' + escapeHtml(node.title)
+      + '</strong> builds on &mdash; ' + shown + ' topic' + (shown === 1 ? '' : 's')
+      + (hasMore ? ' within ' + maxHops + ' steps' : ' (full chain)') + '.</span>';
+    if (hasMore) {{
+      banner += '<button onclick="revealAncestryFull()">Show full chain (' + totalAncestors + ')</button>';
+    }}
+    banner += '<button class="pb-clear" onclick="clearPath()">Clear</button>';
+    showPathBanner(banner);
+    draw();
+  }});
+}}
+
+function revealAncestryFull() {{
+  if (pathRevealId) revealAncestry(pathRevealId, Infinity);
+}}
+
+function clearPath() {{
+  pathNodeSet = null; pathEdges = null; pathRevealId = null;
+  hidePathBanner();
+  draw();
+}}
+
+function showPathBanner(html) {{
+  const b = document.getElementById('pathBanner');
+  if (!b) return;
+  b.innerHTML = html;
+  b.style.display = 'flex';
+}}
+function hidePathBanner() {{
+  const b = document.getElementById('pathBanner');
+  if (b) b.style.display = 'none';
+}}
+
+function escapeHtml(s) {{
+  return String(s).replace(/[&<>"]/g, function (c) {{
+    return {{ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }}[c];
+  }});
+}}
+
+// Draw the bright ancestry overlay on top of the dimmed base graph.
+function drawPathOverlay() {{
+  const nr = getNodeRadius();
+  ctx.globalAlpha = 1.0;
+  pathEdges.forEach(function (e) {{
+    if (!e.s || !e.t) return;
+    ctx.beginPath();
+    ctx.moveTo(e.s.x, e.s.y);
+    ctx.lineTo(e.t.x, e.t.y);
+    ctx.strokeStyle = "rgba(120,200,255,0.55)";
+    ctx.lineWidth = 1.0 / Math.sqrt(camScale);
+    ctx.stroke();
+  }});
+  pathNodeSet.forEach(function (id) {{
+    const n = nodeMap[id];
+    if (!n || id === pathRevealId) return;
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, nr * 1.8, 0, Math.PI * 2);
+    ctx.fillStyle = `hsl(${{n.hue}}, 70%, ${{n.lightness + 12}}%)`;
+    ctx.fill();
+  }});
+  const s = nodeMap[pathRevealId];
+  if (s) {{
+    ctx.beginPath();
+    ctx.arc(s.x, s.y, nr * 3, 0, Math.PI * 2);
+    ctx.fillStyle = `hsl(${{s.hue}}, 85%, ${{s.lightness + 22}}%)`;
+    ctx.fill();
+    ctx.strokeStyle = "#fff";
+    ctx.lineWidth = 1.5 / Math.sqrt(camScale);
+    ctx.stroke();
+  }}
 }}
 
 canvas.addEventListener("mousemove", (e) => {{
@@ -1702,6 +1929,12 @@ function showPanel(node, screenX, screenY) {{
     html += `</div>`;
   }}
 
+  // Path engine: reveal this topic's prerequisite ancestry + share a deep link.
+  html += `<div class="panel-path">`;
+  html += `<button class="path-btn" data-act="ancestry">Show what this builds on</button>`;
+  html += `<button class="path-btn copy" data-act="copylink" title="Copy a shareable link">Copy link</button>`;
+  html += `</div>`;
+
   // Fluency correction buttons: quick self-report from the panel.
   html += `<div class="panel-correction">`;
   html += `<button class="iknow" data-act="know">I know this</button>`;
@@ -1735,6 +1968,28 @@ function showPanel(node, screenX, screenY) {{
         hoveredNode = targetNode;
         draw();
         showPanel(targetNode, px, py);
+      }}
+    }});
+  }});
+
+  // Path-engine handlers.
+  panel.querySelectorAll(".panel-path button").forEach(btn => {{
+    btn.addEventListener("click", () => {{
+      const act = btn.getAttribute("data-act");
+      if (act === "ancestry") {{
+        btn.textContent = "Loading\\u2026";
+        revealAncestry(node.id, 4);
+      }} else if (act === "copylink") {{
+        const url = location.origin + location.pathname + "?ancestry=" + encodeURIComponent(node.id);
+        const done = function () {{ btn.textContent = "Copied"; btn.disabled = true; }};
+        if (navigator.clipboard && navigator.clipboard.writeText) {{
+          navigator.clipboard.writeText(url).then(done, done);
+        }} else {{
+          const ta = document.createElement("textarea");
+          ta.value = url; document.body.appendChild(ta); ta.select();
+          try {{ document.execCommand("copy"); }} catch (err) {{}}
+          document.body.removeChild(ta); done();
+        }}
       }}
     }});
   }});
@@ -2456,25 +2711,22 @@ if (isSproutMode) {{
 }}
 
 // ?focus=<topic-id> deep link (topic pages' "See this on the map" button):
-// center the camera on the topic, select it, open its panel. Minimal form of
-// B4 shareable-subgraph URLs — ancestry highlight arrives with the
-// path-engine cluster.
+// center the camera on the topic, select it, open its panel. ?ancestry=<id>
+// additionally fires the A3 reveal on arrival (B4 shareable subgraph URLs).
 (function () {{
   if (isSproutMode) return;
-  var focusId = new URLSearchParams(window.location.search).get('focus');
-  if (!focusId) return;
-  var node = null;
-  for (var i = 0; i < data.nodes.length; i++) {{
-    if (data.nodes[i].id === focusId) {{ node = data.nodes[i]; break; }}
-  }}
+  var params = new URLSearchParams(window.location.search);
+  var ancestryId = params.get('ancestry');
+  var targetId = ancestryId || params.get('focus');
+  if (!targetId) return;
+  var node = nodeMap[targetId];
   if (!node) return;
-  camScale = 5;
-  camX = -node.x * camScale * viewScale;
-  camY = -node.y * camScale * viewScale;
+  centerOnNode(node, ancestryId ? 3.5 : 5);
   selectedNode = node;
   hoveredNode = node;
   draw();
   showPanel(node, W / 2, H / 2);
+  if (ancestryId) revealAncestry(node.id, 4);
 }})();
 
 </script>
