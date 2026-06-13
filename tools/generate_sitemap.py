@@ -7,7 +7,7 @@ inputs:  domains/*/_domain.yml (domain list), domains/*/*.md (topic IDs)
 outputs: output/sitemap.xml, output/robots.txt
 last_run: every CI deploy (.github/workflows/deploy-pages.yml)
 
-Included: index, radial-graph, quiz, 19 domain maps, all topic pages.
+Included: index, radial-graph, quiz, keystones, 19 domain maps, all topic pages.
 Excluded by design: tag pages and per-topic question pages (list/quiz shells —
 thin-content risk; they remain crawlable via in-site links).
 
@@ -36,7 +36,7 @@ SITEMAP_URL_LIMIT = 50_000  # sitemaps.org hard cap per file
 
 def collect_paths():
     """Return site-relative paths for every page the sitemap should list."""
-    paths = ["", "radial-graph.html", "quiz.html"]
+    paths = ["", "radial-graph.html", "quiz.html", "keystones.html"]
 
     domains = sorted(
         d.name for d in DOMAINS_DIR.iterdir()

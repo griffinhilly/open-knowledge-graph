@@ -124,7 +124,7 @@ def main():
 
     # 2. Main pages
     for name, rel in [("index.html", ""), ("radial-graph.html", "radial-graph.html"),
-                      ("quiz.html", "quiz.html")]:
+                      ("quiz.html", "quiz.html"), ("keystones.html", "keystones.html")]:
         p = OUTPUT_DIR / name
         if p.exists():
             record(name, check_page(p, rel, expect_jsonld=False))

@@ -2495,7 +2495,9 @@ body {{
     </a>
   </div>
   <p style="margin-top:18px; font-size:13px; color:#778;">
-    Setting up for a child?
+    Not sure where to start?
+    <a href="keystones.html" style="color:#ecc06a; text-decoration:none; border-bottom:1px dotted #665;">The 50 most powerful things to learn</a>
+    &nbsp;&middot;&nbsp; Setting up for a child?
     <a href="radial-graph.html?preset=sprout" style="color:#9cd; text-decoration:none; border-bottom:1px dotted #556;">Start in Sprout mode</a>
   </p>
 </div>

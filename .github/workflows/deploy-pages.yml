@@ -47,6 +47,9 @@ jobs:
       - name: Generate topic detail pages
         run: python tools/generate_topic_pages.py
 
+      - name: Generate keystone leaderboard
+        run: python tools/generate_keystone_page.py
+
       - name: Generate domain maps
         run: python tools/visualize_domain_map.py --all
 

@@ -124,6 +124,24 @@ def topic_card_html(tid, all_data, prereqs_of, unlocks):
     return card_shell(hue, body)
 
 
+def keystones_card_html(n_topics):
+    body = f"""
+<div class="eyebrow-row">
+  <span class="eyebrow">OPEN KNOWLEDGE GRAPH</span>
+</div>
+<div class="title-block">
+  <div class="title" style="font-size:72px">The 50 most powerful<br>things to learn</div>
+  <div class="chain" style="margin-top:30px">
+    <span class="chain-pill" style="font-size:28px;max-width:none">Ranked by how much of human knowledge depends on them</span>
+  </div>
+</div>
+<div class="bottom-row">
+  <span class="stat">measured across <span class="num" style="font-size:38px">{n_topics:,}</span> mapped topics</span>
+  <span class="site">openknowledgegraph.com</span>
+</div>"""
+    return card_shell(45, body)
+
+
 def default_card_html(n_topics, n_domains):
     body = f"""
 <div class="eyebrow-row">
@@ -193,6 +211,8 @@ def main():
 
         page.set_content(default_card_html(len(all_data), n_domains))
         page.screenshot(path=str(OG_DIR / "default.png"))
+        page.set_content(keystones_card_html(len(all_data)))
+        page.screenshot(path=str(OG_DIR / "keystones.png"))
 
         for i, (unlocks, tid) in enumerate(targets, 1):
             try:
