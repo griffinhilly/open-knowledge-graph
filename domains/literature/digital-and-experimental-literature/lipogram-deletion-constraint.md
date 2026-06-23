@@ -6,6 +6,8 @@ course: digital-and-experimental-literature
 prerequisites:
 - id: constrained-writing-formal-systems
   type: hard
+- id: oulipo-mathematical-constraint
+  type: soft
 tags:
 - lipogram
 - constraint

@@ -5,7 +5,6 @@ domain: earth-and-space-sciences
 course: oceanography
 prerequisites: []
 builds-toward:
-- tides
 - shallow-water-wave-theory
 tags:
 - tides

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: hormone-signaling-mechanisms
   type: soft
+- id: puberty-basics
+  type: soft
 builds-toward: []
 tags:
 - puberty

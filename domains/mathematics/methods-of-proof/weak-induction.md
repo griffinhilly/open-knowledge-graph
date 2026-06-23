@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: predicates-and-quantified-statements
   type: soft
+- id: mathematical-induction-introduction
+  type: hard
 builds-toward:
 - strong-induction-and-wellordering
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: disease-frequency-measures
   type: soft
+- id: hierarchical-models-epidemiology
+  type: soft
 tags:
 - spatial-analysis
 - geographic-variation

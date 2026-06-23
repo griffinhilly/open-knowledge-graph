@@ -9,9 +9,6 @@ prerequisites:
 - id: optical-instruments
   type: soft
 
-builds-toward:
-- cosmology-big-bang
-- stellar-evolution-life-cycles
 tags:
 - history
 - History Of Science

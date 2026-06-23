@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - sepsis-and-sirs-pathophysiology
-- acute-respiratory-distress-syndrome-pathophysiology
 tags:
 - pneumonia
 - bacterial

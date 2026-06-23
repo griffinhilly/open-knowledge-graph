@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: quantum-superposition
   type: hard
+- id: kets-and-bras
+  type: hard
 builds-toward:
 - bell-theorem-inequalities
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: thermal-expansion
   type: soft
+- id: heat-conduction-basics
+  type: soft
+- id: thermal-energy-transfer-mechanisms
+  type: soft
 builds-toward:
 - heat-transfer-convection
 - heat-transfer-radiation

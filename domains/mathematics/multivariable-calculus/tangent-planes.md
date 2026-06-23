@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: total-differential-approximation
   type: soft
+- id: equations-lines-planes-3d
+  type: soft
 builds-toward:
 - chain-rule-multivariable
 tags:

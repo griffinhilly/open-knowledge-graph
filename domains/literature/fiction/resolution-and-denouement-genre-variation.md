@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: genre-analysis-and-meaning
   type: soft
+- id: climax-and-central-crisis
+  type: soft
 builds-toward:
 - genre-conventions-and-reader-contract
 tags:

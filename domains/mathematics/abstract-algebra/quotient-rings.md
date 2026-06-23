@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: subrings-ideals
   type: hard
+- id: subrings-and-ideals
+  type: hard
 builds-toward:
 - first-isomorphism-theorem-rings
 - integral-domains

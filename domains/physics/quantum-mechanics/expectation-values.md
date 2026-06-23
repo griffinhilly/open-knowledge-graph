@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: born-rule-and-measurement
   type: hard
+- id: quantum-operators-observables
+  type: hard
+- id: quantum-superposition-states
+  type: soft
 builds-toward:
 - variational-method
 - time-independent-perturbation-theory

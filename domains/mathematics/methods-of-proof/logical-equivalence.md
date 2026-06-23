@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: truth-tables-and-evaluation
   type: hard
+- id: logical-equivalence-intro
+  type: hard
 builds-toward:
 - converse-inverse-contrapositive
 - negating-quantifiers

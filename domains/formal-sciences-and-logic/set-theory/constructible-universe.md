@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: independence-results-set-theory
   type: soft
+- id: cumulative-hierarchy-ranks
+  type: hard
 builds-toward:
 - absoluteness
 - forcing-intro

@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - analytical-chemistry-intro
-- qualitative-analysis
 tags:
 - precipitation
 - ksp

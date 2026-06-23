@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - coastal-processes-and-waves
-- estuarine-ecosystems
 tags:
 - estuaries
 - salt-wedge

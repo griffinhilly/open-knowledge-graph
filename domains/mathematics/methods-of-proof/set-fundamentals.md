@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: predicates-and-quantifiers
   type: hard
+- id: set-notation-basics
+  type: hard
 builds-toward:
 - set-operations-union-intersection-complement
 - cartesian-products-relations

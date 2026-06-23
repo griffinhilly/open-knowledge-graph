@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: prepositions-and-conjunctions
   type: hard
+- id: coordinating-conjunctions
+  type: hard
 builds-toward:
 - complex-sentence-construction
 - semicolons-and-colons

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mutualism-and-symbiosis
   type: soft
+- id: predator-prey-coevolution-mechanisms
+  type: soft
 builds-toward:
 - trophic-cascades-in-food-webs
 tags:

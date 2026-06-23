@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: liking-principle-persuasion-attraction
   type: soft
-builds-toward:
-- multi-tactic-persuasion-sequences
 tags:
 - persuasion
 - compliance

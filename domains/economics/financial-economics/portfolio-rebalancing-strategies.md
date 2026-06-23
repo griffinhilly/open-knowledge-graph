@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: bond-portfolio-strategies
   type: soft
-builds-toward:
-- value-at-risk-measurement
 tags:
 - rebalancing
 - portfolio

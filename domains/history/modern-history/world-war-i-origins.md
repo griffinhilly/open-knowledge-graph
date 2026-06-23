@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: revolutions-of-1848
   type: soft
+- id: militarism-alliance-system-prewar
+  type: soft
+- id: militarism-arms-race
+  type: soft
 builds-toward:
 - world-war-i-total-war
 - treaty-of-versailles

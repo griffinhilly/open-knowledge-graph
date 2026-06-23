@@ -4,7 +4,7 @@ title: 'Māori Literature: Oral Traditions and Contemporary Written Expression'
 domain: literature
 course: world-literature
 prerequisites:
-- id: mythology-folklore-oral-traditions
+- id: folklore-definition-traditions
   type: hard
 tags:
 - maori-literature

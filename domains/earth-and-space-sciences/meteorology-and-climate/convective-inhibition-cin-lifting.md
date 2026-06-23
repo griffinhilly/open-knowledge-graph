@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: atmospheric-stability-convection
   type: hard
-builds-toward:
-- severe-weather-parameter-environment
-- triggered-convection
 tags:
 - inhibition
 - stability

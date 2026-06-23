@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: causal-inference-observational-data
   type: soft
-builds-toward:
-- causal-process-observation
-- mechanism-identification
 tags:
 - comparative
 - causal-mechanisms

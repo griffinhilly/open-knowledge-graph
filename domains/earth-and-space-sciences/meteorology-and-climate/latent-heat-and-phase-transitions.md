@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: enthalpy-definition-and-significance
   type: soft
+- id: water-as-solid-liquid-gas
+  type: hard
 builds-toward:
 - saturation-and-dew-point
 - latent-heating-in-weather-systems

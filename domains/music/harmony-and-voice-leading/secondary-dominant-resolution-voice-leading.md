@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: secondary-dominant-extended-voice-leading
   type: soft
+- id: authentic-cadence-voice-leading
+  type: hard
 builds-toward:
 - chromatic-borrowed-chords-voice-leading
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: darcy-weisbach-equation-application
   type: hard
+- id: laminar-turbulent-transition-critical-reynolds
+  type: hard
 builds-toward:
 - pipe-roughness-absolute-relative
 - minor-loss-coefficients-fittings

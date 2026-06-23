@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-quality
   type: hard
+- id: seventh-chord-construction
+  type: hard
 builds-toward:
 - chord-inversions
 - diatonic-harmony

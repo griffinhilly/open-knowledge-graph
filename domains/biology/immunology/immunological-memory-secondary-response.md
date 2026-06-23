@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cd8-cytotoxic-t-cells
   type: soft
+- id: t-cell-memory-formation
+  type: soft
 builds-toward:
 - vaccines-and-vaccination
 tags:

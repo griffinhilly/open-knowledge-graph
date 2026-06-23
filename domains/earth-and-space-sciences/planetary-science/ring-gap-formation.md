@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: orbital-resonance-capture
   type: hard
+- id: ring-particle-dynamics
+  type: soft
 tags:
 - rings
 - resonances

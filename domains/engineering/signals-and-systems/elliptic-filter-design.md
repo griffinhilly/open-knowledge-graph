@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: transfer-function-poles-zeros
   type: hard
-builds-toward:
-- bilinear-transform-digital-filters
 tags:
 - filter-design
 - elliptic

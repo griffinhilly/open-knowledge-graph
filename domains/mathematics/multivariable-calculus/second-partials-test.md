@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: second-derivative-test
   type: soft
+- id: critical-points-extrema
+  type: hard
+- id: mixed-partials-clairaut
+  type: soft
 builds-toward:
 - lagrange-multipliers
 tags:

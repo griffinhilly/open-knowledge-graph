@@ -6,8 +6,6 @@ course: commutative-algebra
 prerequisites:
 - id: ca-modules-over-rings
   type: hard
-builds-toward:
-- ca-flat-modules
 tags:
 - tensor-product
 - bilinear-map

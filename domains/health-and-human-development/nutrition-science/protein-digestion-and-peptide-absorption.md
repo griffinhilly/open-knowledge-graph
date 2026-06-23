@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: carbohydrate-digestion-and-monosaccharide-absorption
   type: soft
+- id: digestive-enzyme-secretion-and-regulation
+  type: soft
 builds-toward:
 - amino-acid-metabolism-and-protein-turnover
 - protein-quality-amino-acid-score-patterns

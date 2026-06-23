@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: fine-motor-skill-development-grasp-and-precision
   type: soft
-builds-toward:
-- language-pragmatics-discourse-development
 tags:
 - motor-development
 - infancy-toddlerhood

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: pressure-systems-and-winds
   type: hard
+- id: air-pressure-and-wind
+  type: soft
 builds-toward:
 - climate-zones-and-biomes
 - ocean-atmosphere-interactions

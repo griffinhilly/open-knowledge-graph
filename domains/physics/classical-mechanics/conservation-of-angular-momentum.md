@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cross-product
   type: soft
+- id: angular-momentum-of-rigid-body
+  type: hard
 builds-toward:
 - keplers-laws
 tags:

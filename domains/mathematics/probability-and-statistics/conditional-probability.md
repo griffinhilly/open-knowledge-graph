@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: sample-spaces-and-events
   type: hard
+- id: complement-and-addition-rules
+  type: soft
+- id: probability-axioms-and-rules
+  type: soft
+- id: probability-rules-for-events
+  type: soft
 builds-toward:
 - independence-and-multiplication-rule
 - law-of-total-probability

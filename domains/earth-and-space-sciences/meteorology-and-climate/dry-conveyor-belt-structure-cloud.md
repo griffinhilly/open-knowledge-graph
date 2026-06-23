@@ -9,7 +9,6 @@ prerequisites:
 - id: diabatic-heating-wind-adjustment
   type: hard
 builds-toward:
-- warm-conveyor-belt-rainband
 - explosive-cyclogenesis-bombogenesis
 tags:
 - synoptic

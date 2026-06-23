@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: mercantilism
   type: soft
+- id: english-enclosure-agricultural-change
+  type: soft
+- id: english-enclosure-movement
+  type: soft
 builds-toward:
 - marxism-and-socialism
 - imperialism-and-colonialism

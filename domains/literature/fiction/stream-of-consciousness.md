@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: psycholinguistics-intro
   type: soft
+- id: narrative-voice
+  type: soft
 builds-toward: []
 tags:
 - stream-of-consciousness

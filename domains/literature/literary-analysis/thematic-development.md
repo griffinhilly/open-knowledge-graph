@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: theme-analysis-craft
   type: soft
+- id: motif-analysis-recognition
+  type: soft
 builds-toward:
 - literary-argument-writing
 tags:

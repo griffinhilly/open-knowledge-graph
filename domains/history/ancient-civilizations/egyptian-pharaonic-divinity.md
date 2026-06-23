@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: egyptian-civilization
   type: hard
+- id: nile-river-and-egyptian-society
+  type: soft
 builds-toward:
 - origins-of-world-religions
 tags:

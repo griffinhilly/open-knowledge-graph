@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: critical-point-behavior-substances
   type: hard
+- id: supercritical-fluid-properties
+  type: hard
 tags:
 - transcritical
 - supercritical

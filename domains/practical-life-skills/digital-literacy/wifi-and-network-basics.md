@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: password-security
   type: soft
+- id: internet-connectivity-basics
+  type: soft
 tags:
 - wifi
 - networking

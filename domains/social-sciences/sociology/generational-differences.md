@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: culture-and-society
   type: soft
+- id: demographic-structure-population
+  type: soft
 builds-toward:
 - social-movements
 - cultural-change-innovation

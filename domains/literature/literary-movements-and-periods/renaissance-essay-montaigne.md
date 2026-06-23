@@ -6,8 +6,6 @@ course: literary-movements-and-periods
 prerequisites:
 - id: renaissance-humanist-literature-overview
   type: hard
-builds-toward:
-- essay-form-fundamentals
 tags:
 - renaissance
 - essay

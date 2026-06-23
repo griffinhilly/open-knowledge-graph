@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - global-justice
-- secession-rights
 tags:
 - nationalism
 - self-determination

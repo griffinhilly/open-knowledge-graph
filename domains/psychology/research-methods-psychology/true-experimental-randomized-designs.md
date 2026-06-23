@@ -7,7 +7,6 @@ prerequisites:
 - id: research-design-selection-and-matching
   type: hard
 builds-toward:
-- internal-validity-confounds-and-control
 - statistical-power-and-effect-size-determination
 tags:
 - experimental-design

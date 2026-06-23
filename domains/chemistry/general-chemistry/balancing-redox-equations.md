@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemical-equations-and-balancing
   type: hard
+- id: oxidation-state-and-oxidation-numbers
+  type: hard
 builds-toward:
 - redox-titration
 - galvanic-electrochemical-cells

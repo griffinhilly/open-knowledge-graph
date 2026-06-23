@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: combustion-thermodynamic-analysis
   type: hard
+- id: exergy-balance-control-volume
+  type: hard
 builds-toward:
 - second-law-efficiency-exergy-based
 tags:

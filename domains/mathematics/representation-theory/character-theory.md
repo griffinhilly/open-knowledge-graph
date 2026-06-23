@@ -16,8 +16,6 @@ builds-toward:
 - regular-representation
 - induced-representations
 - burnsides-theorem
-- weyl-character-formula
-- peter-weyl-theorem
 tags:
 - character
 - trace

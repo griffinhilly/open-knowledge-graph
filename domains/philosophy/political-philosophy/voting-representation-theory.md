@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - majority-rule-constraints
-- democratic-legitimacy-participation
 tags:
 - voting
 - aggregation

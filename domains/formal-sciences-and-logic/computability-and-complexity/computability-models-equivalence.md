@@ -13,7 +13,6 @@ prerequisites:
 - id: equivalence-relations-and-equivalence-classes
   type: soft
 builds-toward:
-- turing-computable-vs-church-computable
 - general-recursive-functions
 tags:
 - computability

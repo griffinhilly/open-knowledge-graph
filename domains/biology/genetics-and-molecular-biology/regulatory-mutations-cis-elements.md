@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: promoters-enhancers-and-regulatory-regions
   type: hard
+- id: missense-nonsense-silent-mutation-effects
+  type: soft
 builds-toward:
 - haploinsufficiency-dosage
 tags:

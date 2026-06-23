@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: rhythmic-subdivision-precision-ear
   type: soft
+- id: beat-subdivision-and-counting
+  type: hard
 builds-toward:
 - melodic-dictation-with-leaps
 tags:

@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - addition-within-20
-- addition-fact-families
 tags:
 - decomposition
 - part-whole

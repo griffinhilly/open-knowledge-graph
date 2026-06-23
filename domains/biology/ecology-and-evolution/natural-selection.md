@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dna-mutations
   type: soft
+- id: natural-selection-basics
+  type: hard
 builds-toward:
 - adaptation-and-fitness
 - speciation

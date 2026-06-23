@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: soft
+- id: weberian-action-types
+  type: soft
 tags:
 - rational-choice
 - economics

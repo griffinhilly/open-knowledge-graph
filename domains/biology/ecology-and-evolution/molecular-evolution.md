@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: hardy-weinberg-equilibrium
   type: soft
+- id: cladistics-and-systematics
+  type: soft
 builds-toward: []
 tags:
 - molecular-clock

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: percent-of-a-number
   type: hard
+- id: cash-flow-analysis-and-management
+  type: soft
 builds-toward:
 - insurance-principles
 - debt-management-strategies

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - graft-versus-host-disease-gvhd
-- immunosuppression-and-tolerance-induction
 tags:
 - graft-rejection
 - acute-rejection

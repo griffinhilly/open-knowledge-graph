@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: interest-rate-swaps-mechanics
   type: soft
+- id: forward-pricing-cost-of-carry
+  type: soft
 builds-toward:
 - value-at-risk-measurement
 tags:

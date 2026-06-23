@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: in-group-out-group-bias
   type: soft
-builds-toward:
-- intergroup-contact-conditions-efficacy
 tags:
 - prejudice
 - anxiety

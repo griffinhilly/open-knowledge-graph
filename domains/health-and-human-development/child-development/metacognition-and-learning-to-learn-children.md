@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: memory-development-encoding-strategies-and-retrieval
   type: soft
+- id: executive-function-subcomponents-development
+  type: soft
 builds-toward:
 - problem-solving-reasoning-development-children
 tags:

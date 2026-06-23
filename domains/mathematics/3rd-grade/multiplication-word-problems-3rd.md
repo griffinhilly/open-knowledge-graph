@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: making-change-and-money-word-problems
   type: soft
+- id: multiplication-fluency-facts-2-through-5
+  type: hard
+- id: multiplication-fluency-facts-6-through-9
+  type: soft
 builds-toward:
 - multi-step-word-problems-3rd
 tags:

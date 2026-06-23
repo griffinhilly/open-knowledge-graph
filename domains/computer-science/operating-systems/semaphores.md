@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: mutual-exclusion-and-locks
   type: hard
+- id: thread-scheduling-coordination
+  type: soft
 builds-toward:
 - monitors-and-condition-variables
 - deadlock-conditions

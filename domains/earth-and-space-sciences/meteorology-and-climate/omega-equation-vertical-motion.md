@@ -9,7 +9,6 @@ prerequisites:
 - id: geostrophic-balance-deviation-ageostrophic
   type: hard
 builds-toward:
-- quasi-geostrophic-approximation
 - diabatic-heating-wind-adjustment
 tags:
 - vertical-motion

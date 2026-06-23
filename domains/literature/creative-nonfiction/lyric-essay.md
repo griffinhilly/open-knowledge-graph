@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: flash-nonfiction
   type: soft
+- id: essay-digression-technique
+  type: soft
 builds-toward:
 - braided-essay-structure
 tags:

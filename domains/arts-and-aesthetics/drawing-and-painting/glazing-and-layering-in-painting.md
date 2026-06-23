@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: burnishing-and-layering-graphite
   type: soft
+- id: tonal-underpainting-for-oil-and-acrylic
+  type: hard
 builds-toward:
 - oil-painting-basics
 - acrylic-painting-fundamentals

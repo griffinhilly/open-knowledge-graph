@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-recognition-by-ear
   type: soft
+- id: perfect-intervals-ear-training
+  type: soft
 builds-toward:
 - diatonic-chord-quality-ear
 - triad-quality-diminished-augmented

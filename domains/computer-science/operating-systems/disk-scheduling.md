@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: io-systems-overview
   type: hard
+- id: io-management
+  type: soft
 builds-toward: []
 tags:
 - disk-scheduling

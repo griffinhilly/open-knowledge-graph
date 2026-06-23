@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: counting-to-10
   type: hard
+- id: separating-sets-pre-subtraction
+  type: hard
 builds-toward:
 - subtraction-within-20
 - fact-families

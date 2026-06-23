@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: bayesian-statistics-fundamentals
   type: soft
+- id: maximum-likelihood-estimation-theory-probability-and-statistics
+  type: soft
 builds-toward:
 - bayesian-point-estimation
 tags:

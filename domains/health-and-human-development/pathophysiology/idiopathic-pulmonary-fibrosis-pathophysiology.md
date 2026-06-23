@@ -9,9 +9,6 @@ prerequisites:
   type: hard
 - id: chronic-inflammation
   type: hard
-builds-toward:
-- acute-respiratory-distress-syndrome-pathophysiology
-- respiratory-failure-pathophysiology
 tags:
 - pulmonary-fibrosis
 - epithelial-injury

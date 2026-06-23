@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: probability-density-functions
   type: soft
+- id: molecular-evolution-basics
+  type: hard
 builds-toward:
 - comparative-genomics
 - population-genomics

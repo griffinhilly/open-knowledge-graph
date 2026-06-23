@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: american-revolution
   type: soft
+- id: enlightenment-reason-and-scientific-thought
+  type: soft
 builds-toward:
 - romantic-nationalism-ethnic-identity
 - nation-state-consolidation-19th-century

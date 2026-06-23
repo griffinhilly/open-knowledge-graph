@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: godels-incompleteness-theorems
   type: soft
+- id: finite-axiomatization-and-completeness
+  type: soft
+- id: metalogical-properties-and-theorems
+  type: soft
 builds-toward: []
 tags:
 - undecidability

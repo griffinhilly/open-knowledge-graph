@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: dominant-seventh-voice-leading-tritone
   type: hard
+- id: harmonic-function-and-progression
+  type: soft
+- id: harmonic-function-voice-leading-tension-resolution
+  type: soft
+- id: voice-leading-smooth-chord-connection
+  type: soft
 builds-toward:
 - modulation-enharmonic-pivot-technique
 - tonicization-and-modulation-voice-leading

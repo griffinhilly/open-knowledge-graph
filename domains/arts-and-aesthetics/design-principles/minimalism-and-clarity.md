@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: visual-hierarchy-structure
   type: soft
+- id: design-principles-foundations
+  type: soft
 builds-toward:
 - design-systems-and-consistency
-- responsive-typography
 - purpose-driven-design
 tags:
 - minimalism

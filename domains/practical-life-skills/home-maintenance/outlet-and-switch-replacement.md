@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: circuit-breakers-and-fuses
   type: hard
+- id: electrical-breaker-panel-safety
+  type: hard
 builds-toward: []
 tags:
 - electrical

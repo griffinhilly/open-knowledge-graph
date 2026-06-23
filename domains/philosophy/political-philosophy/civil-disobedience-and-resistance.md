@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: civil-disobedience-justification
   type: hard
-builds-toward:
-- revolutionary-justice
-- nonviolent-resistance
 tags:
 - civil-disobedience
 - resistance

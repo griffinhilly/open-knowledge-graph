@@ -6,7 +6,6 @@ course: harmony-and-voice-leading
 prerequisites: []
 builds-toward:
 - four-part-writing-voice-distribution
-- doubled-rules-root-fifth-third
 - voice-leading-error-recognition-and-correction
 tags:
 - four-part-writing

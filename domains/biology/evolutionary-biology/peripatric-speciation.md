@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: parapatric-speciation
   type: soft
+- id: genetic-drift-process
+  type: hard
 tags:
 - speciation
 - genetic-drift

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: enlightenment-reason-and-scientific-thought
   type: soft
+- id: capitalism-industrial-markets
+  type: soft
 builds-toward:
 - marxist-materialism
 - communist-state-dictatorship

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ghazal-urdu-emotion
   type: hard
+- id: sufi-mystical-poetry-ecstatic-tradition
+  type: soft
 builds-toward:
 - poetic-form-overview
 tags:

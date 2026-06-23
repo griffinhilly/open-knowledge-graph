@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: rounding-to-nearest-ten
   type: hard
+- id: mental-math-two-digit-addition-2nd
+  type: soft
 builds-toward:
 - estimation-and-rounding-2nd
 tags:

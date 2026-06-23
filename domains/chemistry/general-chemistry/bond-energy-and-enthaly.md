@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thermochemistry-enthalpy
   type: hard
+- id: endothermic-and-exothermic-reactions
+  type: soft
 builds-toward:
 - hess-law-of-enthalpy
 - reaction-coordinate-diagrams

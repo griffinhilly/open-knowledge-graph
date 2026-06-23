@@ -9,9 +9,7 @@ prerequisites:
 - id: dry-adiabatic-lapse-rate
   type: hard
 builds-toward:
-- stable-neutral-unstable-classification
 - urban-heat-island-effect
-- air-quality-pollution-dispersion
 tags:
 - stability
 - stagnation

@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: capabilities-approach-to-justice
   type: soft
-builds-toward:
-- constitutional-limits
-- legal-systems
 tags:
 - rule-of-law
 - justice

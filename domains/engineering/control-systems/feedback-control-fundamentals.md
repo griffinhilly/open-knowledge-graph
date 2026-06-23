@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: soft
+- id: control-systems-intro-engineering
+  type: hard
+- id: sensors-and-feedback
+  type: soft
 builds-toward:
 - laplace-transform-control
 - transfer-functions-control

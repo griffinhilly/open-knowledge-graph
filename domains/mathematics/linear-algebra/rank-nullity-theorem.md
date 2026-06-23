@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: dimension-vector-space
   type: hard
+- id: linear-systems-notation
+  type: soft
+- id: reduced-row-echelon-form
+  type: hard
+- id: row-space
+  type: soft
 tags:
 - rank-nullity
 - dimensions

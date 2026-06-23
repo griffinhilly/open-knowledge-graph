@@ -6,8 +6,6 @@ course: circuits-and-electronics
 prerequisites:
 - id: frequency-response-analysis-bode
   type: hard
-builds-toward:
-- feedback-control-fundamentals
 tags:
 - feedback
 - control-systems

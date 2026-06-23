@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: intertextuality-and-allusion
   type: soft
+- id: symbolist-drama-poetic-suggestion
+  type: soft
 tags:
 - modernism
 - avant-garde

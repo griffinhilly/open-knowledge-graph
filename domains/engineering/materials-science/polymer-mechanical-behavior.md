@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: polymer-mechanical-properties
   type: soft
+- id: polymer-semicrystalline-structure
+  type: soft
 tags:
 - viscoelasticity
 - glass-transition

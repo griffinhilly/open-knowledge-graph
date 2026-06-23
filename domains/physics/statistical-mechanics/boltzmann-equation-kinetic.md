@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: hard
+- id: phase-space-density-evolution
+  type: soft
 builds-toward:
 - chapman-enskog-expansion
 tags:

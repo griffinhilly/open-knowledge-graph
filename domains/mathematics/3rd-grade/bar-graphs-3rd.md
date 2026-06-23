@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: interpreting-data-bar-graphs
   type: soft
+- id: organizing-data-picture-graphs
+  type: soft
+- id: picture-graph-creation-interpretation
+  type: soft
+- id: tally-chart-data-collection-1st
+  type: soft
 builds-toward:
 - scaled-bar-graphs
 - line-graphs

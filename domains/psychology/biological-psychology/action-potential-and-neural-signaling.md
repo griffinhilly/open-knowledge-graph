@@ -18,7 +18,6 @@ prerequisites:
   type: hard
 builds-toward:
 - synaptic-transmission-neurotransmitter-release
-- myelin-and-saltatory-conduction
 tags:
 - electrical-signaling
 - neurophysiology

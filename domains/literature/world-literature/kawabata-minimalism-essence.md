@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: basho-zen-haiku
   type: soft
+- id: japanese-aesthetic-philosophy-wabi-sabi-ma
+  type: soft
+- id: japanese-modernism-consciousness-technique
+  type: soft
 builds-toward:
 - modernism-non-western-centers
 tags:

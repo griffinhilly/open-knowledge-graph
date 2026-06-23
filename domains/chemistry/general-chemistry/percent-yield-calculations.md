@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: percent-yield-and-limiting-reagent-analysis
   type: soft
-builds-toward:
-- thermochemistry-heat-and-energy
 tags:
 - percent yield
 - actual yield

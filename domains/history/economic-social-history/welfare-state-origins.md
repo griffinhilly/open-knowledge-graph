@@ -9,9 +9,6 @@ prerequisites:
 - id: labor-movement-history
   type: soft
 
-builds-toward:
-- social-security-and-insurance
-- inequality-and-redistribution
 tags:
 - history
 - Economic Social History

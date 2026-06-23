@@ -6,8 +6,6 @@ course: general-chemistry
 prerequisites:
 - id: weak-acid-ionization
   type: hard
-builds-toward:
-- ph-and-acid-base-calculations
 tags:
 - diprotic
 - triprotic

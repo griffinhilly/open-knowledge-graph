@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: diesel-cycle-compression-ignition-thermodynamics
   type: soft
+- id: legendre-transformations-potentials
+  type: soft
 tags:
 - second-law
 - useful-work

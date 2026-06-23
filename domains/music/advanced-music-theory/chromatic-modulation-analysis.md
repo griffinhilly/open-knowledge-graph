@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: neo-riemannian-operations
   type: soft
+- id: borrowed-chromatic-harmony-detection
+  type: soft
+- id: chromatic-note-detection-by-ear
+  type: soft
+- id: modulation-detection-by-ear
+  type: soft
+- id: secondary-dominant-recognition
+  type: soft
 builds-toward:
 - post-tonal-harmonic-analysis
 tags:

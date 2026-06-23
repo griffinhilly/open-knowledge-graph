@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bildungsroman-transformation-arc
   type: soft
+- id: qing-dynasty-novel-form-realism-social
+  type: soft
 builds-toward:
 - novel-form
 tags:

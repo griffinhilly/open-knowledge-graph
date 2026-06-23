@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: voice-leading-smooth-motion-composition
   type: hard
+- id: diatonic-harmonic-progression-composition
+  type: hard
 builds-toward:
 - phrase-and-period-composition
 - form-and-structure-composition

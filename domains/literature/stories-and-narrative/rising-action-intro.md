@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conflict-types-overview
   type: soft
+- id: exposition-setup-basics
+  type: soft
 builds-toward:
 - climax-turning-point-intro
 - suspense-and-tension-basics

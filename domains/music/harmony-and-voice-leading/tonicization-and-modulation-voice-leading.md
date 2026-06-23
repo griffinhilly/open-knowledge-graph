@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: secondary-dominant-extended-voice-leading
   type: soft
+- id: cadential-voice-leading-authentic-plagal
+  type: soft
 tags:
 - tonicization
 - modulation

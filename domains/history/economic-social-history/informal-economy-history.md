@@ -7,9 +7,6 @@ prerequisites:
 - id: urbanization-history
   type: soft
 
-builds-toward:
-- labor-rights-and-regulation
-- development-economics-history
 tags:
 - history
 - Economic Social History

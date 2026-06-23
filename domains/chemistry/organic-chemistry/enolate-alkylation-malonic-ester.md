@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: nucleophile-electrophile-definitions
   type: hard
+- id: acidity-organic-compounds-pka
+  type: hard
 builds-toward:
 - claisen-condensation-mechanism
 - aldol-reaction

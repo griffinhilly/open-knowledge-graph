@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: newtons-second-law
   type: hard
+- id: pulleys
+  type: soft
 tags:
 - constraints
 - pulleys

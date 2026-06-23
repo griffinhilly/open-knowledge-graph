@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: modulation-detection-by-ear
   type: soft
+- id: harmonic-function-root-movement-ear
+  type: soft
 builds-toward:
 - chromatic-borrowed-chords-ear
 - jazz-chord-substitution-voice-leading

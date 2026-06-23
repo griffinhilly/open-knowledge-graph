@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: diffraction-gratings
   type: soft
+- id: crystal-systems-and-bravais-lattices
+  type: soft
 tags:
 - XRD
 - bragg-law

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: inductor-definition-properties
   type: hard
+- id: energy-storage-elements-l-and-c
+  type: hard
 builds-toward:
 - sinusoidal-steady-state-analysis
 - resonance-quality-factor

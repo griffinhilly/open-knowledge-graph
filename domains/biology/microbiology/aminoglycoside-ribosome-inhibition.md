@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: enzyme-kinetics
   type: soft
+- id: bacterial-ribosomes-and-translation-prokaryotes
+  type: hard
 builds-toward:
 - antibiotic-resistance-mutations-downregulation
 tags:

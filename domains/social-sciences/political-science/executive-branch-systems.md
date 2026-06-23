@@ -6,8 +6,6 @@ course: political-science
 prerequisites:
 - id: division-of-government-branches
   type: hard
-builds-toward:
-- comparative-political-systems
 tags:
 - executive
 - president

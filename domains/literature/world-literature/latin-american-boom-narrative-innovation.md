@@ -4,10 +4,9 @@ title: 'Latin American Boom: Narrative Innovation and Literary Modernism'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
-- borges-metafiction-labyrinth
 - garcia-marquez-magical-realism
 - bolano-postmodern-totality
 tags:

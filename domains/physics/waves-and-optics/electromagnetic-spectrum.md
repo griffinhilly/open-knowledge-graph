@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wave-speed-medium
   type: soft
+- id: electromagnetic-spectrum-intro
+  type: soft
 builds-toward:
 - youngs-double-slit
 - diffraction-gratings

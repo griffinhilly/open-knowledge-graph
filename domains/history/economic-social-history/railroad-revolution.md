@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 
 builds-toward:
-- transportation-history
 - globalization-history
 tags:
 - history

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cadences
   type: soft
+- id: seventh-chord-construction
+  type: hard
 tags:
 - jazz
 - ii-V-I

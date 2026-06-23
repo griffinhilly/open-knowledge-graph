@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: electrode-kinetics-butler-volmer
   type: soft
+- id: galvanic-electrochemical-cells
+  type: soft
 tags:
 - Butler-Volmer
 - overpotential

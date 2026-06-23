@@ -7,9 +7,6 @@ prerequisites:
 - id: industrial-revolution-economic-impact
   type: soft
 
-builds-toward:
-- fiscal-policy-and-redistribution
-- wealth-distribution-through-policy
 tags:
 - history
 - Economic Social History

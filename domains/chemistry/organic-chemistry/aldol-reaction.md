@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: carbonyl-chemistry-intro
   type: hard
+- id: enolate-alkylation-malonic-ester
+  type: soft
 builds-toward: []
 tags:
 - aldol

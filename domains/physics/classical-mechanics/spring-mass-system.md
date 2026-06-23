@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: soft
+- id: elastic-potential-energy
+  type: soft
 tags:
 - spring
 - oscillation

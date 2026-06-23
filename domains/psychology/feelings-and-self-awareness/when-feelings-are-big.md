@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: calming-down-strategies
   type: hard
+- id: feelings-come-and-go
+  type: soft
 builds-toward:
 - handling-frustration
 tags:

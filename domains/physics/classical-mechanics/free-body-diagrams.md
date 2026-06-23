@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: vector-addition-subtraction
   type: hard
+- id: free-body-diagrams-intro
+  type: soft
 builds-toward:
 - friction-forces
 - circular-motion-dynamics

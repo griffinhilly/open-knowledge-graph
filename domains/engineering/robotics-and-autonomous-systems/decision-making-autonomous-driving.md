@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: motion-planning-algorithms
   type: hard
+- id: perception-pipeline-autonomous
+  type: soft
 builds-toward:
 - autonomous-vehicle-architecture
 - safety-verification-autonomous

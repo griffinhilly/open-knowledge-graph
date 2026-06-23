@@ -16,9 +16,6 @@ prerequisites:
   type: soft
 - id: horizontal-gene-transfer
   type: soft
-builds-toward:
-- selection-detection
-- molecular-adaptation
 tags:
 - molecular-evolution
 - selection

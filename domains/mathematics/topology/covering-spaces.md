@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quotient-topology
   type: soft
+- id: simply-connected-spaces
+  type: soft
 builds-toward:
 - van-kampen-theorem
 - classification-compact-surfaces

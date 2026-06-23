@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - substance-use-disorder
-- psychosis-and-cannabis
 tags:
 - cannabis
 - THC

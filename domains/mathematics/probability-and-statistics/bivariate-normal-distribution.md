@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: covariance-between-random-variables
   type: hard
+- id: conditional-distributions-of-random-variables
+  type: soft
+- id: covariance-correlation-theory
+  type: soft
 builds-toward:
 - multivariate-normal-distribution
 tags:

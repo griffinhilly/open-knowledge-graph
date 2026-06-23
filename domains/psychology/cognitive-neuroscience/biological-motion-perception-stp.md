@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: face-processing-neural-systems
   type: soft
-builds-toward:
-- action-observation-social-perception
-- biological-motion-autism-spectrum-differences
 tags:
 - biological-motion
 - STP

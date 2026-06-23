@@ -6,6 +6,8 @@ course: international-relations-theory
 prerequisites:
 - id: international-relations-overview
   type: hard
+- id: english-school-international-society
+  type: soft
 builds-toward:
 - global-governance-polycentrism
 tags:

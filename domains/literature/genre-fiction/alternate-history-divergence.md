@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: historical-fiction-authenticity-tension
   type: hard
+- id: historical-fiction-research-invention
+  type: soft
 builds-toward:
 - science-fiction-speculation-extrapolation
 - genre-blending-hybridity

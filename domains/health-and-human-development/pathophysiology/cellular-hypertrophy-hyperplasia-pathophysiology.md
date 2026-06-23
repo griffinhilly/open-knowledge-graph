@@ -11,7 +11,6 @@ prerequisites:
 - id: left-ventricular-hypertrophy
   type: soft
 builds-toward:
-- cardiac-hypertrophy-left-ventricular-remodeling
 - vascular-smooth-muscle-remodeling
 tags:
 - cellular-adaptation

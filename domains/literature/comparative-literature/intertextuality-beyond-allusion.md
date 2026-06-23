@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: allusion-and-literary-reference
   type: soft
+- id: literary-allusion-identification-tracking
+  type: hard
 builds-toward:
 - literary-influence-networks
 - postcolonial-rewriting-canon

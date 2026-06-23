@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: light-and-shadow
   type: soft
+- id: linear-perspective-renaissance
+  type: soft
+- id: northern-renaissance-flemish-and-german-traditions
+  type: soft
 builds-toward:
 - neoclassicism-and-romanticism
 tags:

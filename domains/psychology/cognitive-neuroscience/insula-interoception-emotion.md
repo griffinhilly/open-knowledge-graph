@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: pain-and-somatosensory-processing
   type: hard
-builds-toward:
-- interoceptive-predictive-coding-emotions
-- alexithymia-interoceptive-insensitivity
 tags:
 - insula
 - interoception

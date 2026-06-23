@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: z-test-t-test-means-theory
   type: soft
+- id: standard-normal-z-scores-theory
+  type: hard
 builds-toward:
 - t-test-for-means
 tags:

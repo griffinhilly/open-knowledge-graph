@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - ordering-numbers-to-20
-- inequalities-linear
 tags:
 - comparison
 - ordering

@@ -4,9 +4,9 @@ title: 'Classical Arabic Poetry: Forms, Conventions, and Aesthetic Principles'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: mythology-folklore-oral-traditions
+- id: folklore-definition-traditions
   type: soft
 builds-toward:
 - arabic-modernism-nahda-cultural-renaissance

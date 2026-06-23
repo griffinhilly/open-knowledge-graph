@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: snells-law
   type: soft
+- id: paraxial-ray-approximation
+  type: soft
+- id: refractive-index-material-wavelength
+  type: soft
 builds-toward:
 - thin-lens-equation
 - lens-combinations

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: source-criticism
   type: hard
+- id: historical-evidence-epistemology
+  type: soft
 builds-toward:
 - comparative-historical-research
 - historical-interpretation-method

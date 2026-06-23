@@ -9,7 +9,6 @@ prerequisites:
 - id: narrative-structures-cross-cultural
   type: soft
 builds-toward:
-- nested-narratives
 - literary-journalism-technique
 tags:
 - frame-narrative

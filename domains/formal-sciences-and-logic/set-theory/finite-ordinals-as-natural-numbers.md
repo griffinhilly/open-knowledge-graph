@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - limit-ordinals-and-omega
-- ordinal-arithmetic-and-exponentiation
 tags:
 - ordinals
 - natural-numbers

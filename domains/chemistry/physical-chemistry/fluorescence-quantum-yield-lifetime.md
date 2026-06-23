@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electronic-spectroscopy-theory
   type: hard
+- id: einstein-coefficients-light-absorption-emission
+  type: soft
 builds-toward:
 - phosphorescence-intersystem-crossing
 tags:

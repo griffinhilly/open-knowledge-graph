@@ -10,8 +10,8 @@ prerequisites:
   type: soft
 - id: normative-vs-informational-influence
   type: soft
-builds-toward:
-- decision-making-group-performance-effects
+- id: social-proof-conformity
+  type: soft
 tags:
 - group dynamics
 - polarization

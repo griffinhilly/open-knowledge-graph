@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - probability-amplitude-interpretation
-- particle-in-box-1d
 tags:
 - quantum-mechanics
 - boundary-conditions

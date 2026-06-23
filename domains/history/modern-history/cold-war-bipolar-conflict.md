@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nuclear-weapons-and-deterrence
   type: soft
+- id: communist-state-dictatorship
+  type: soft
 builds-toward:
 - postcolonial-development-and-modernization
 - late-twentieth-century-globalization

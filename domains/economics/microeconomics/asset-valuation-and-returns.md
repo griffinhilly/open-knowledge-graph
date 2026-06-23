@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: present-value-and-discounting
   type: hard
+- id: intertemporal-choice-savings
+  type: soft
 tags:
 - asset pricing
 - capital

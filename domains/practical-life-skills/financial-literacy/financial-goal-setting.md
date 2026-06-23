@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: place-value-whole-numbers
   type: soft
+- id: financial-foundation-assessment
+  type: soft
 builds-toward: []
 tags:
 - planning

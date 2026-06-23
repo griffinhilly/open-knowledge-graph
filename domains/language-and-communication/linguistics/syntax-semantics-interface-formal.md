@@ -6,6 +6,8 @@ course: linguistics
 prerequisites:
 - id: syntax-semantics-interface
   type: hard
+- id: phrase-structure-rules
+  type: hard
 builds-toward:
 - principles-and-parameters-theory
 tags:

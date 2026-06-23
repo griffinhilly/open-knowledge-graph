@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - scientific-revolution
-- empiricism-observation-knowledge
 tags:
 - galileo
 - telescope

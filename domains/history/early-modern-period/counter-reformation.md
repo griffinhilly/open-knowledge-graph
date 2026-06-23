@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: medieval-church-power
   type: soft
+- id: medieval-sacramental-theology-eucharist
+  type: soft
 builds-toward:
 - religious-wars-europe
 - absolutism-and-monarchy

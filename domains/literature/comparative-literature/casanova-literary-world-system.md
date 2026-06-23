@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: postcolonial-historiography
   type: soft
+- id: literary-canon-formation
+  type: soft
 builds-toward:
 - moretti-distant-reading
 tags:

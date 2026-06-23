@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: synaptic-transmission
   type: soft
-builds-toward:
-- arousal-attention-circuits
-- stress-response
 tags:
 - norepinephrine
 - ne

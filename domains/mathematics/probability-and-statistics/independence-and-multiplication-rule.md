@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: hard
+- id: compound-probability
+  type: soft
 builds-toward:
   - binomial-distribution
   - random-variables-intro

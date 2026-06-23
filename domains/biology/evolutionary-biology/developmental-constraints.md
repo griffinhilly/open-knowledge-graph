@@ -6,8 +6,6 @@ course: evolutionary-biology
 prerequisites:
 - id: hox-genes-body-plan
   type: hard
-builds-toward:
-- evolutionary-innovation
 tags:
 - evo-devo
 - constraint

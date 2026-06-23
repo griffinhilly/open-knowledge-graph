@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: dramatic-traditions-comparative
   type: soft
+- id: greek-tragedy-structure-performance
+  type: soft
+- id: tragic-irony-fate-and-knowledge
+  type: soft
 tags:
 - tragedy
 - form

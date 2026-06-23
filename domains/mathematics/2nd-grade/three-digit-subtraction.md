@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: mental-math-add-subtract-hundreds
   type: soft
+- id: place-value-100-to-1000
+  type: hard
+- id: place-value-hundreds-2nd
+  type: hard
+- id: subtraction-two-digit-regrouping-2nd
+  type: hard
 builds-toward:
 - multi-digit-subtraction
 - two-step-word-problems

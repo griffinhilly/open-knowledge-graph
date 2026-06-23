@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-reactions
   type: hard
+- id: respiration-intro
+  type: soft
 builds-toward:
 - glycolysis
 - pyruvate-oxidation

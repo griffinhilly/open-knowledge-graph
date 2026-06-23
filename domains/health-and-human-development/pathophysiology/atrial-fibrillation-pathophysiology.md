@@ -11,7 +11,6 @@ prerequisites:
   type: soft
 builds-toward:
 - stroke-pathophysiology
-- cardiogenic-shock-pathophysiology
 tags:
 - atrial-fibrillation
 - remodeling

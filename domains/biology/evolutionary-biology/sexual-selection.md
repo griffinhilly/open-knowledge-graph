@@ -10,9 +10,8 @@ prerequisites:
   type: soft
 - id: directional-selection
   type: soft
-builds-toward:
-- evolution-of-sex
-- signal-evolution
+- id: directional-stabilizing-selection
+  type: soft
 tags:
 - selection
 - mating

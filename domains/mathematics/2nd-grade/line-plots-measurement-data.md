@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: measuring-length-inches-centimeters-2nd
   type: hard
-builds-toward:
-- line-plots-with-data
 tags:
 - graphs
 - line-plots

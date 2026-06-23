@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: political-authority-and-legitimacy
   type: hard
-builds-toward:
-- anarchist-society
-- minimal-state
 tags:
 - anarchism
 - authority

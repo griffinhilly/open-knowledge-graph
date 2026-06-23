@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: endoplasmic-reticulum-and-golgi
   type: hard
+- id: compartmentalization-cellular-organization
+  type: soft
 builds-toward: []
 tags:
 - lysosome

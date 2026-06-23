@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: formal-linguistics-overview
   type: soft
+- id: formalism-russian-literary-theory
+  type: soft
 builds-toward:
 - semiotics-and-signs
 - narratology

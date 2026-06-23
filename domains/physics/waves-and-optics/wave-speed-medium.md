@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: wave-properties-intro
   type: hard
+- id: wave-speed-equation
+  type: soft
 builds-toward:
 - standing-waves
 - doppler-effect

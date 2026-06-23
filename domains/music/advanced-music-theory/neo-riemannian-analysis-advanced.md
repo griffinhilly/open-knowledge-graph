@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: group-homomorphisms
   type: soft
+- id: transformational-analysis-music
+  type: soft
 builds-toward:
 - post-tonal-harmonic-analysis
 tags:

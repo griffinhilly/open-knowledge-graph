@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: earths-magnetic-dipole-field-basics
   type: soft
+- id: gravity-anomalies-and-interpretation
+  type: soft
 builds-toward:
 - gravity-surveys-and-data-inversion
 tags:

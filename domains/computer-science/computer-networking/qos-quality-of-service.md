@@ -6,6 +6,8 @@ course: computer-networking
 prerequisites:
 - id: tcp-flow-control-and-congestion-control
   type: soft
+- id: bandwidth-latency-throughput
+  type: hard
 tags:
 - qos
 - traffic-shaping

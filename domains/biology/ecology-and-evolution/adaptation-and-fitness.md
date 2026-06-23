@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: mean-median-mode
   type: soft
+- id: adaptation-basics
+  type: hard
+- id: adaptations-for-survival
+  type: hard
 builds-toward:
 - life-history-strategies
 - coevolution

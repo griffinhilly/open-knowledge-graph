@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: literary-analysis-overview
   type: soft
-builds-toward:
-- intellectual-nonfiction
-- theoretical-essay
 tags:
 - sontag
 - cultural-criticism

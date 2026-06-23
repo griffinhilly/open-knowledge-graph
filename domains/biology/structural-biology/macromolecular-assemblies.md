@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: protein-protein-interactions-structural
   type: hard
+- id: single-particle-analysis
+  type: soft
 builds-toward: []
 tags:
 - macromolecular-assembly

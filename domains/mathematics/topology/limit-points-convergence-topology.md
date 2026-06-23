@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: convergence-in-topology
   type: soft
+- id: closed-sets-in-topological-spaces
+  type: soft
 builds-toward:
 - hausdorff-spaces
 - sequential-compactness

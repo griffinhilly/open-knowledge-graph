@@ -12,9 +12,6 @@ prerequisites:
   type: soft
 - id: moisture-transport-and-advection
   type: soft
-builds-toward:
-- wet-bulb-temperature
-- relative-humidity-saturation
 tags:
 - moisture
 - thermodynamics

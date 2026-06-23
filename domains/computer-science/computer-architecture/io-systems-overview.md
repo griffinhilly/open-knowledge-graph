@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: memory-organization
   type: soft
+- id: memory-bus-interconnect
+  type: soft
 builds-toward:
 - interrupts-and-dma
 tags:

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - vibrational-frequency-force-constant
-- infrared-spectroscopy-applications
 tags:
 - vibrational-spectroscopy
 - selection-rules

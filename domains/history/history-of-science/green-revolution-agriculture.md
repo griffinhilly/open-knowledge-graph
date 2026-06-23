@@ -11,7 +11,6 @@ prerequisites:
 
 builds-toward:
 - environmental-history-overview
-- sustainable-agriculture-history
 tags:
 - history
 - History Of Science

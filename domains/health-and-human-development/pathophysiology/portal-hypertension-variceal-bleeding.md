@@ -13,7 +13,6 @@ prerequisites:
   type: soft
 builds-toward:
 - shock-pathophysiology
-- hepatic-encephalopathy-pathophysiology
 tags:
 - portal-hypertension
 - varices

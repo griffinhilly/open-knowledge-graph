@@ -10,8 +10,8 @@ prerequisites:
   type: hard
 - id: stereotyping-and-implicit-bias
   type: soft
-builds-toward:
-- violence-justification-mechanisms
+- id: in-group-out-group-bias
+  type: hard
 tags:
 - dehumanization
 - moral-disengagement

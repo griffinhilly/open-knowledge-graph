@@ -6,6 +6,8 @@ course: creative-nonfiction
 prerequisites:
 - id: memoir-vs-autobiography
   type: hard
+- id: memoir-truth-memory
+  type: soft
 builds-toward:
 - memoir-and-trauma
 - biographical-narrative-structure

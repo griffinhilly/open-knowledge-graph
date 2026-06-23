@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: observables-and-operators
   type: hard
+- id: born-rule-and-measurement
+  type: soft
 builds-toward:
 - pure-and-mixed-states
 tags:

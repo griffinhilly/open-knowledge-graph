@@ -10,11 +10,8 @@ prerequisites:
   type: soft
 - id: insulin-glucagon-glucose-homeostasis
   type: hard
-builds-toward:
-- diabetic-nephropathy
-- diabetic-retinopathy
-- diabetic-neuropathy
-- diabetic-ketoacidosis
+- id: insulin-resistance-metabolic-pathophysiology
+  type: hard
 tags:
 - diabetes-mellitus
 - hyperglycemia

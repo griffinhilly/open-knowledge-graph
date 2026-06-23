@@ -6,6 +6,10 @@ course: waves-and-optics
 prerequisites:
 - id: path-difference-phase-difference
   type: hard
+- id: phase-and-phase-relationships
+  type: hard
+- id: superposition-principle-waves
+  type: hard
 builds-toward:
 - two-source-interference-patterns
 - thin-film-interference

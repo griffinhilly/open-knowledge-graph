@@ -6,6 +6,10 @@ course: 3rd-grade
 prerequisites:
 - id: fractions-equal-parts
   type: hard
+- id: unit-fractions
+  type: hard
+- id: unit-fractions-halves-thirds-fourths-3rd
+  type: hard
 builds-toward:
 - fractions-on-number-line
 tags:

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - long-run-cost-structure
-- economies-scale-characterization
 tags:
 - producer theory
 - scale

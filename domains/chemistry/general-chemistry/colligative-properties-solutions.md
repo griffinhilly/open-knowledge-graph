@@ -6,8 +6,6 @@ course: general-chemistry
 prerequisites:
 - id: dilution-and-solution-preparation
   type: hard
-builds-toward:
-- thermochemistry-heat-and-energy
 tags:
 - colligative properties
 - boiling point elevation

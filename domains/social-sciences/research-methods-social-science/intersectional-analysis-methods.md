@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: research-design-advanced
   type: soft
-builds-toward:
-- matrix-dominance-analysis
-- intersectional-epistemology
 tags:
 - intersectionality
 - inequality

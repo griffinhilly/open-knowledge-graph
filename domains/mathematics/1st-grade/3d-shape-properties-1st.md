@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - surface-area-intro
-- volume-intro
 tags:
 - geometry
 - 3d-shapes

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: soft
+- id: uncertainty-principle-canonical
+  type: soft
 builds-toward:
 - ladder-operators
 tags:

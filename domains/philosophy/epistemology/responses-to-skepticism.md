@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: rationalism-vs-empiricism
   type: soft
+- id: epistemic-closure
+  type: soft
 builds-toward:
 - contextualism-in-epistemology
 tags:

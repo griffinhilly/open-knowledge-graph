@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: soft
+- id: phase-and-amplitude-forced-oscillations
+  type: soft
 tags:
 - resonance
 - oscillations

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dna-structure
   type: hard
+- id: compartmentalization-cellular-organization
+  type: soft
 builds-toward:
 - transcription
 - gene-expression-overview

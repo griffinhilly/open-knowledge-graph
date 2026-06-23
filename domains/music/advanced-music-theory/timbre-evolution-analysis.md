@@ -6,6 +6,8 @@ course: advanced-music-theory
 prerequisites:
 - id: orchestral-timbre-analysis
   type: hard
+- id: instrumental-timbre-recognition
+  type: soft
 builds-toward:
 - frequency-modulation-synthesis-theory
 - electroacoustic-morphology-analysis

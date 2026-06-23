@@ -6,9 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: matched-filter-signal-detection
   type: soft
-builds-toward:
-- quantization-error-and-noise-analysis
-- parametric-signal-models-ar-ma-arma
+- id: gaussian-and-colored-noise-characterization
+  type: soft
 tags:
 - detection
 - hypothesis-testing

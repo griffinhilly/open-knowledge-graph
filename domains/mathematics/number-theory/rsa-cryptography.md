@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: euler-totient-function
   type: soft
+- id: eulers-theorem
+  type: hard
+- id: eulers-totient-function
+  type: hard
+- id: fermats-little-theorem
+  type: soft
+- id: multiplicative-inverse-modular
+  type: hard
 tags:
 - rsa
 - cryptography

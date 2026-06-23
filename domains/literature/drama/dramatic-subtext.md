@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: conversational-implicature
   type: soft
+- id: objective-in-character-action
+  type: soft
 builds-toward:
 - modern-realist-drama
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plane-mirrors
   type: soft
+- id: reflection-and-law-of-reflection
+  type: hard
 builds-toward:
 - mirror-equation
 tags:

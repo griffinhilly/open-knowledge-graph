@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: logarithm-properties
   type: hard
+- id: magnitude-phase-computation-pole-zero
+  type: soft
 tags:
 - bode-plot
 - asymptotic-approximation

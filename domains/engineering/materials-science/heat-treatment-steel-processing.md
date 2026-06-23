@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: microstructure-development-control
   type: soft
+- id: strengthening-mechanisms-materials
+  type: soft
 tags:
 - heat-treatment
 - annealing

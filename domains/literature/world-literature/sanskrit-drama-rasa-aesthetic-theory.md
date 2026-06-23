@@ -4,9 +4,9 @@ title: 'Sanskrit Drama and Rasa: Aesthetic Theory and Performance'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: mythology-folklore-oral-traditions
+- id: folklore-definition-traditions
   type: soft
 builds-toward:
 - kalidasa-sanskrit-drama

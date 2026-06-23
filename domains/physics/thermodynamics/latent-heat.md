@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: specific-heat-capacity
   type: hard
+- id: phase-changes-and-energy
+  type: soft
 builds-toward:
   - phase-diagrams
 tags:

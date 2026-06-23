@@ -6,8 +6,6 @@ course: historiography
 prerequisites:
 - id: enlightenment-historiography
   type: hard
-builds-toward:
-- hermeneutics-in-history
 tags:
 - vico
 - philosophy-of-history

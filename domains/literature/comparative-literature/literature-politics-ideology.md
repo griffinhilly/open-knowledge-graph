@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: postcolonial-translation-resistance
   type: soft
+- id: foucault-genealogy-discourse
+  type: soft
+- id: gramsci-hegemony-consent
+  type: soft
 builds-toward:
 - postcolonial-literature-theory
 - literary-cosmopolitanism

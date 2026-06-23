@@ -6,8 +6,6 @@ course: advanced-linguistics
 prerequisites:
 - id: sociolinguistics-intro
   type: soft
-builds-toward:
-- applied-linguistics-language-policy
 tags:
 - language-documentation
 - endangered-languages

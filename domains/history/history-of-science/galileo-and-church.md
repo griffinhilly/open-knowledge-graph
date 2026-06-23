@@ -11,7 +11,6 @@ prerequisites:
 
 builds-toward:
 - newtonian-synthesis
-- science-and-authority
 tags:
 - history
 - History Of Science

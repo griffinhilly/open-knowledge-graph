@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: soft
+- id: rate-law-determination
+  type: hard
 builds-toward:
 - arrhenius-equation
 tags:

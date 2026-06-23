@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: print-concepts
   type: soft
+- id: phonological-awareness-segmenting
+  type: soft
 builds-toward:
 - sight-words
 - decoding-words

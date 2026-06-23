@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: applications-integrals-area-mass
   type: soft
+- id: work-as-force-times-distance
+  type: soft
 builds-toward:
 - kinetic-energy
 - potential-energy

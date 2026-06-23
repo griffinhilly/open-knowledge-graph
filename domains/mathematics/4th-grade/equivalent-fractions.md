@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: intro-to-fractions-4th-grade
   type: soft
+- id: fractions-on-number-line-comparison-3rd
+  type: soft
 builds-toward:
 - comparing-fractions
 - adding-fractions-like-denominators

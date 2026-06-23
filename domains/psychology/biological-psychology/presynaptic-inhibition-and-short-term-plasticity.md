@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - neural-integration-synaptic-plasticity
-- motor-learning-cerebellar
 tags:
 - presynaptic
 - inhibition

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: composition-of-functions
   type: soft
+- id: set-class-equivalence
+  type: soft
 builds-toward:
 - combinatoriality-serial-composition
 - serial-composition-analysis

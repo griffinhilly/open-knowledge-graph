@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: derivative-as-slope-of-tangent
   type: hard
+- id: continuity-multivariable
+  type: soft
+- id: multivariable-functions-intro
+  type: hard
+- id: multivariable-limits
+  type: soft
 builds-toward:
 - rates-of-change-partial-derivatives
 - higher-order-partials

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: total-internal-reflection
   type: soft
+- id: refractive-index-material-property
+  type: hard
 tags:
 - dispersion
 - prism

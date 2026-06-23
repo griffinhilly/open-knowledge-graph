@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - autoimmune-disease-pathophysiology-adv
-- recurrent-infections-pathophysiology
 tags:
 - complement-deficiency
 - opsonization

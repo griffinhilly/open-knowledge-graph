@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: offensive-realism-mearsheimer
   type: soft
+- id: constructivism-wendt
+  type: soft
 tags:
 - critical-theory
 - discourse

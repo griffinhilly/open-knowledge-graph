@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: direct-products-groups
   type: hard
+- id: order-group-element
+  type: soft
 tags:
 - abelian
 - classification

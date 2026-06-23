@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: impartial-vs-partial-agents
   type: soft
+- id: intentions-in-moral-evaluation
+  type: soft
+- id: moral-responsibility-conditions
+  type: hard
 builds-toward:
 - moral-desert-and-merit
 tags:

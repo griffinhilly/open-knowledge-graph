@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: water-soluble-vitamins
   type: soft
+- id: carbohydrate-metabolism-and-glycemic-response
+  type: soft
+- id: protein-quality-and-dietary-sources
+  type: soft
 tags:
 - sports nutrition
 - glycogen

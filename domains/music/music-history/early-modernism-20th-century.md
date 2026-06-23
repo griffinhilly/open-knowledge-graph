@@ -6,6 +6,10 @@ course: music-history
 prerequisites:
 - id: romantic-historical-context
   type: soft
+- id: impressionism-in-music
+  type: soft
+- id: romantic-instrumental-expansion
+  type: soft
 builds-toward:
 - modernist-compositional-strategies
 - postmodern-and-contemporary-music

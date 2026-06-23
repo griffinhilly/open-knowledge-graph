@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: just-world-belief
   type: soft
-builds-toward:
-- motivated-attribution-biases
 tags:
 - attribution
 - defensive reasoning

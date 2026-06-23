@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 
 builds-toward:
-- cosmology-big-bang
 - nuclear-weapons-history
 tags:
 - history

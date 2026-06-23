@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: atomic-bonding-engineering-materials
   type: hard
+- id: materials-science-fundamentals
+  type: soft
 builds-toward:
 - crystal-structure-basics
 - elastic-constants-and-elasticity

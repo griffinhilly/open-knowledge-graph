@@ -6,6 +6,8 @@ course: kindergarten
 prerequisites:
 - id: cardinality-principle
   type: hard
+- id: one-to-one-correspondence
+  type: soft
 tags:
 - comparison
 - quantity

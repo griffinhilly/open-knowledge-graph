@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: magical-realism
   type: soft
+- id: latin-american-boom-narrative-innovation
+  type: soft
+- id: magical-realism-form-aesthetics-latin-america
+  type: soft
 builds-toward:
 - magical-realism
 tags:

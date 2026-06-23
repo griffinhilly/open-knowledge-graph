@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: polyrhythmic-analysis
+  type: soft
 builds-toward:
 - polymeter-analysis-advanced
 - minimalism-phase-structures

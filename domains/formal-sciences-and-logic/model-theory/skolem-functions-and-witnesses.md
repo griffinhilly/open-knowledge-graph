@@ -6,6 +6,8 @@ course: model-theory
 prerequisites:
 - id: lowenheim-skolem-downward
   type: hard
+- id: substitution-and-instantiation
+  type: hard
 builds-toward:
 - saturated-models-and-realization
 - ultraproducts-of-structures

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: postcolonial-literature-encounter
   type: soft
+- id: chinese-literary-modernity-transition-vernacular
+  type: soft
+- id: wenyan-classical-chinese-language-literature
+  type: soft
 builds-toward:
 - modernism-international-movements
 tags:

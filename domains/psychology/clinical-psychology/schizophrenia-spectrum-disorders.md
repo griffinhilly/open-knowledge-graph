@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: schizophrenia-positive-negative-symptoms
   type: soft
+- id: dsm-5-diagnostic-framework
+  type: soft
 builds-toward:
 - first-episode-psychosis
 - antipsychotic-medications

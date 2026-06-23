@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: semantic-priming-spreading-activation
   type: soft
+- id: semantic-episodic-memory-distinction
+  type: soft
 tags:
 - memory
 - false-memory

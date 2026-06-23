@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: stoic-ethics
   type: soft
+- id: duties-and-obligations-foundations
+  type: hard
 builds-toward:
 - kantian-deontology
 - trolley-problem

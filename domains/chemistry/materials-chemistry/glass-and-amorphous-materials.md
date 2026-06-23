@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: intermolecular-forces
   type: soft
+- id: phase-diagrams-materials
+  type: soft
 builds-toward:
 - thin-film-deposition-cvd-pvd
 tags:

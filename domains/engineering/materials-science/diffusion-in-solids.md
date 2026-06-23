@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: kinetic-molecular-theory
   type: soft
+- id: point-defects-and-vacancies
+  type: hard
+- id: point-defects-vacancies-and-interstitials
+  type: hard
 builds-toward:
 - heat-treatment-of-steels
 - sintering-and-powder-processing

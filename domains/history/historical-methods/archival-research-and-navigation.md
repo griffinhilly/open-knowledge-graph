@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: archival-systems-and-research-access
   type: soft
+- id: research-design-and-historical-inquiry
+  type: soft
 builds-toward:
 - digital-tools-and-archives
 - source-synthesis-and-triangulation

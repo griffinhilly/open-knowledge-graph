@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: mutual-exclusion-and-locks
   type: hard
-builds-toward:
-- critical-section-problem-formalization
 tags:
 - priority
 - scheduling

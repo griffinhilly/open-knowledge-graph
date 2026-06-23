@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neonatal-reflexes-and-sensory-capabilities
   type: soft
+- id: happy-sad-angry-scared
+  type: soft
 builds-toward:
 - empathy-development-and-mentalizing
 - peer-relationships-and-social-competence

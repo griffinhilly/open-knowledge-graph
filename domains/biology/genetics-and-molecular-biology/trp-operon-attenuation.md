@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: transcription-elongation-and-termination
   type: hard
-builds-toward:
-- alternative-splicing-mechanisms
 tags:
 - prokaryotic-regulation
 - attenuation

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: characteristic-equation-method
   type: hard
+- id: complex-roots-oscillatory-solutions
+  type: soft
+- id: wronskian-linear-independence
+  type: soft
 builds-toward:
 - higher-order-linear-odes
 tags:

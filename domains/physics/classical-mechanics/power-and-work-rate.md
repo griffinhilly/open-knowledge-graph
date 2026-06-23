@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: derivative-as-slope-of-tangent
   type: soft
+- id: power-concept
+  type: soft
 builds-toward:
 - energy-dissipation-in-damped-oscillations
 tags:

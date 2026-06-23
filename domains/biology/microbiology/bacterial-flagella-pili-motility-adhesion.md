@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - chemotaxis-signaling-phosphorylation
-- bacterial-virulence-mechanisms
 tags:
 - motility
 - adhesion

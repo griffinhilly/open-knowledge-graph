@@ -9,9 +9,6 @@ prerequisites:
 - id: industrial-revolution-economic-impact
   type: soft
 
-builds-toward:
-- human-capital-development
-- education-and-inequality
 tags:
 - history
 - Economic Social History

@@ -6,8 +6,6 @@ course: discrete-math
 prerequisites:
 - id: absolute-value
   type: soft
-builds-toward:
-- counting-principles
 tags:
 - discrete-math
 - functions

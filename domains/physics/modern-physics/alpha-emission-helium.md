@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: alpha-decay-tunneling-nuclear
   type: soft
-builds-toward:
-- fission-and-energy-release
 tags:
 - nuclear-physics
 - decay

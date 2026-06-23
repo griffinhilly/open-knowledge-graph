@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: genetic-drift
   type: soft
+- id: fixation-probability
+  type: soft
 builds-toward:
 - evolvability
 - major-evolutionary-innovations

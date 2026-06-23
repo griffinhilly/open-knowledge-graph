@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - relativity-revolution
-- quantum-mechanics-bohr-heisenberg
 tags:
 - history
 - History Of Science

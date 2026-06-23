@@ -8,6 +8,10 @@ prerequisites:
     type: hard
   - id: domain-and-range
     type: soft
+  - id: graphing-quadratics
+    type: soft
+  - id: vertex-form
+    type: soft
 builds-toward:
   - graphing-sine-and-cosine
   - amplitude-period-phase-shift

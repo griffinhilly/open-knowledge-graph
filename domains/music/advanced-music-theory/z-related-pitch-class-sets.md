@@ -18,7 +18,6 @@ prerequisites:
   type: soft
 builds-toward:
 - pitch-class-set-cartography
-- neo-riemannian-extended-systems
 tags:
 - set-theory
 - post-tonal

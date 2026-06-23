@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: gaussian-elimination-with-pivoting
   type: hard
+- id: condition-number
+  type: soft
 builds-toward:
 - jacobi-iterative-method
 tags:

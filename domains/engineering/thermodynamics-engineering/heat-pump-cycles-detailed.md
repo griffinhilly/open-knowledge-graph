@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: vapor-compression-refrigeration-cycle
   type: soft
-builds-toward:
-- combined-gas-steam-cycles
+- id: throttling-expansion-isenthalpic-process
+  type: soft
 tags:
 - heat-pump
 - heating

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: kinetic-energy
   type: hard
+- id: energy-forms-heat-light-sound
+  type: soft
+- id: temperature-vs-heat
+  type: soft
 builds-toward:
 - specific-heat-capacity
 - first-law-of-thermodynamics

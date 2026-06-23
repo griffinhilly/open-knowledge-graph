@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: conservation-of-angular-momentum
   type: soft
+- id: gravity-and-orbits-intro
+  type: soft
 builds-toward:
 - two-body-orbital-problem
 - orbital-resonances-dynamics

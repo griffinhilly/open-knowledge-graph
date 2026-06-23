@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: logarithms-intro
   type: soft
+- id: stars-and-life-cycles-intro
+  type: soft
 builds-toward:
 - stellar-nucleosynthesis
 - stellar-evolution-main-sequence-to-giant

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: continuum-hypothesis
   type: soft
+- id: singular-cardinals
+  type: soft
 builds-toward: []
 tags:
 - large cardinals

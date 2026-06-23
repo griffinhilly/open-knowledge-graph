@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: voice-leading-form-structure-relationship
   type: soft
+- id: suspension-appogiatura-voice-leading-function
+  type: soft
 tags:
 - Schenker
 - reduction

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: adaptive-immune-response
   type: hard
+- id: immune-system-basics
+  type: soft
 builds-toward:
 - major-histocompatibility-complex
 - t-cell-development-thymic-selection

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: typical-sequences-aep
   type: soft
+- id: fanos-inequality
+  type: hard
 builds-toward:
 - gaussian-channel
 - network-information-theory

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: soft
+- id: immersion-reporting
+  type: soft
+- id: interview-technique
+  type: soft
 tags:
 - journalism
 - characterization

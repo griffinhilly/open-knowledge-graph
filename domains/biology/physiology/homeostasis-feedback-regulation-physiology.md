@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - negative-feedback-mechanisms
-- physiological-setpoints-regulation
-- endocrine-axes-hormone-regulation
 tags:
 - homeostasis
 - feedback

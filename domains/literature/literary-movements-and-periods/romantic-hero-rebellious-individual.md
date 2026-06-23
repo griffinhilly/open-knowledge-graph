@@ -9,7 +9,6 @@ prerequisites:
 - id: romanticism-sublime-infinite-nature
   type: soft
 builds-toward:
-- victorian-social-novel
 - existentialism-freedom-responsibility-literature
 tags:
 - romanticism

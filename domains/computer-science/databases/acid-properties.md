@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: database-transactions
   type: hard
+- id: sql-data-insertion-modification
+  type: soft
 builds-toward:
 - concurrency-control-databases
 - write-ahead-logging

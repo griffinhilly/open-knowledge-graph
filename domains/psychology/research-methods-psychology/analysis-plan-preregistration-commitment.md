@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: research-question-formulation-specificity
   type: soft
+- id: hypothesis-construction-directional-nondirectional
+  type: soft
 builds-toward:
 - publication-bias-drawer-problem
 tags:

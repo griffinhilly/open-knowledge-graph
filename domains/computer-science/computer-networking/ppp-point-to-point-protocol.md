@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: ethernet-protocol
   type: soft
-builds-toward:
-- network-topologies
 tags:
 - link-layer
 - dialup

@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: enzyme-structure-and-function
   type: soft
-builds-toward:
-- atp-hydrolysis-and-free-energy
+- id: selective-permeability-and-membrane-channels
+  type: soft
 tags:
 - active-transport
 - protein-structure

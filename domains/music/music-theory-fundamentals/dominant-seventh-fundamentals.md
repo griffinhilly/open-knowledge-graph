@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: seventh-chord-function-and-sound
   type: soft
+- id: tritone-and-diminished-interval
+  type: soft
 builds-toward:
 - voice-leading-smooth-progressions
 tags:

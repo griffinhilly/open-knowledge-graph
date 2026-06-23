@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: innate-immune-response
   type: soft
-builds-toward:
-- neurodegenerative-disease
-- recovery-after-injury
 tags:
 - neuroinflammation
 - microglia

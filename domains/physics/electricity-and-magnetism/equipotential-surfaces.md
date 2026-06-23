@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: relationship-e-field-potential
   type: soft
+- id: electric-potential-field
+  type: hard
+- id: potential-difference-voltage
+  type: hard
 builds-toward:
 - conductors-electrostatic-behavior
 - capacitance

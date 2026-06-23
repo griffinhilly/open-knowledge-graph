@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: economic-growth-theory
   type: hard
+- id: structural-transformation-economic-development
+  type: soft
 builds-toward:
 - agriculture-and-development
 tags:

@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - species-counterpoint-free-composition
-- polyphonic-analysis-advanced
 tags:
 - counterpoint
 - inversion

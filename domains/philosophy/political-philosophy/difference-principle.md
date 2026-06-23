@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: distributive-justice
   type: hard
+- id: rawlsian-justice-as-fairness
+  type: hard
 builds-toward:
 - egalitarianism
 tags:

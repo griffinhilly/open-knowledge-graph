@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
   - thermal-wind-balance
-  - upper-level-divergence-and-pressure
 tags:
 - wind
 - pressure

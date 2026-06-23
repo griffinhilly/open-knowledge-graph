@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: natural-kinds-and-essence
   type: soft
+- id: direct-reference-theory
+  type: soft
 builds-toward:
 - modal-status-identity-statements
 - semantic-content-externalism

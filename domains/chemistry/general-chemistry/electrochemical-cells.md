@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: entropy-and-gibbs-free-energy
   type: soft
+- id: electrochemistry-oxidation-reduction-applications
+  type: hard
 tags:
 - galvanic-cell
 - electrolytic-cell

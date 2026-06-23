@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: voice-leading-smooth-chord-connection
   type: soft
+- id: passing-suspension-integration
+  type: soft
 builds-toward:
 - voice-leading-structural-analysis-reduction
 tags:

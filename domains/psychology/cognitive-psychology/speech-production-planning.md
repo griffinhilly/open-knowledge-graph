@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: primary-motor-cortex-motor-representation
   type: soft
+- id: syntax-and-grammar-acquisition
+  type: soft
 tags:
 - language
 - speech

@@ -6,6 +6,10 @@ course: electricity-and-magnetism
 prerequisites:
 - id: electric-current-and-resistance
   type: hard
+- id: ohms-law-conceptual
+  type: soft
+- id: simple-circuits
+  type: soft
 builds-toward:
 - dc-circuits-series-parallel
 - electric-power

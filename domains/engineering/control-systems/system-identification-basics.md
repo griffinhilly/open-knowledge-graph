@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-domain-response-first-order
   type: hard
+- id: parametric-signal-models-ar-ma-arma
+  type: soft
 tags:
 - system-identification
 - step-response

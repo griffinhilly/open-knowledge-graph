@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 
 builds-toward:
-- personalized-medicine-history
 - genetic-engineering-ethics
 tags:
 - history

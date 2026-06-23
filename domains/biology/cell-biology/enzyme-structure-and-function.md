@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: molecular-geometry-basics
   type: soft
+- id: protein-primary-structure
+  type: soft
+- id: protein-secondary-structure
+  type: soft
+- id: protein-tertiary-structure
+  type: hard
 builds-toward:
 - enzyme-kinetics
 - glycolysis

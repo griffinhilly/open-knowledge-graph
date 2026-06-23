@@ -6,6 +6,8 @@ course: creative-nonfiction
 prerequisites:
 - id: nature-writing-tradition
   type: hard
+- id: nature-observation-technique
+  type: soft
 builds-toward:
 - ecocriticism-landscape
 - science-writing-accessibility

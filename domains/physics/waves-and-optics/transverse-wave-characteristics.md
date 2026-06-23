@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: simple-harmonic-motion
   type: hard
+- id: transverse-vs-longitudinal-waves
+  type: soft
 builds-toward:
 - wavelength-frequency-speed-relation
 - polarization-of-waves

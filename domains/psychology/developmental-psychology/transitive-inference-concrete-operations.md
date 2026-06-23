@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: centration-and-decentration-cognitive
   type: soft
+- id: appearance-versus-reality-conservation-cognitive
+  type: soft
 builds-toward:
 - metacognition-self-monitoring-cognition
-- formal-operational-adolescent-thought
 tags:
 - concrete-operations
 - logical-reasoning

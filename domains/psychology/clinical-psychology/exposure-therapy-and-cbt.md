@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: behavioral-therapy-exposure
   type: hard
+- id: specific-phobia-and-conditioning
+  type: soft
 builds-toward:
 - evidence-based-treatment-practice
 tags:

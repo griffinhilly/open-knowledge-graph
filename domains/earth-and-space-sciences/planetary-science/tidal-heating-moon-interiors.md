@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: heat-transfer-conduction
   type: soft
+- id: tidal-mechanics-astronomical-forcing
+  type: soft
 builds-toward:
 - planetary-habitability-and-biosignatures
 tags:

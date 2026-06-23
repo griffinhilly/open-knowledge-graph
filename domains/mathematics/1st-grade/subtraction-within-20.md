@@ -6,6 +6,8 @@ course: 1st-grade
 prerequisites:
 - id: subtraction-within-10
   type: hard
+- id: number-line-0-to-20
+  type: soft
 builds-toward:
 - addition-subtraction-relationship
 - addition-subtraction-word-problems

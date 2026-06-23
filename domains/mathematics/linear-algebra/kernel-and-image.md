@@ -9,7 +9,6 @@ prerequisites:
 - id: null-space
   type: soft
 builds-toward:
-- linear-transformations-advanced
 - least-squares-approximation
 tags:
 - kernel

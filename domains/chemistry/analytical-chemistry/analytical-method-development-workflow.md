@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: selectivity-vs-sensitivity-analytical-tradeoffs
   type: soft
+- id: chromatographic-resolution-and-selectivity
+  type: soft
 builds-toward:
 - analytical-method-validation-core-parameters
 - analytical-selectivity-and-specificity

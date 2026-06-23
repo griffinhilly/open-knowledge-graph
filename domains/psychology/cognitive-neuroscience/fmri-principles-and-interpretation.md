@@ -16,10 +16,11 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
+- id: neuroimaging-methods-principles-and-applications
+  type: soft
 builds-toward:
 - visual-cortex-hierarchical-organization
 - dorsolateral-prefrontal-cortex-cognitive-control
-- memory-systems-neural-imaging
 tags:
 - neuroimaging
 - methods

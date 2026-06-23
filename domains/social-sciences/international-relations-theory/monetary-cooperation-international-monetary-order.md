@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: international-institutions-and-regimes
   type: soft
-builds-toward:
-- environmental-governance-transnational-commons
 tags:
 - money
 - cooperation

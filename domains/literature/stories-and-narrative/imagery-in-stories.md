@@ -6,6 +6,8 @@ course: stories-and-narrative
 prerequisites:
 - id: sensory-details-description
   type: hard
+- id: figurative-language
+  type: soft
 tags:
 - imagery
 - sensory

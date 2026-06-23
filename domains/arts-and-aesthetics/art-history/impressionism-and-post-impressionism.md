@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: art-history-patronage
   type: soft
+- id: academic-art-tradition
+  type: soft
 builds-toward:
 - modern-art-movements
 - art-history-style-and-period

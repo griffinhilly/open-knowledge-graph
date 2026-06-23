@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - individual-rights-and-freedoms
-- immigration-sovereignty-political-economy
 tags:
 - citizenship
 - membership

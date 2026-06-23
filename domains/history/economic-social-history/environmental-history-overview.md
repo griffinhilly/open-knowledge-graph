@@ -7,9 +7,6 @@ prerequisites:
 - id: industrial-revolution-economic-impact
   type: soft
 
-builds-toward:
-- environmental-degradation-patterns
-- conservation-and-preservation-history
 tags:
 - history
 - Economic Social History

@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - regime-change-and-democratization
-- contentious-politics-conflict
 tags:
 - resistance
 - nonviolence

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: friction-factor-darcy-weisbach-equation
   type: soft
+- id: energy-equation-steady-flow
+  type: hard
+- id: mechanical-energy-head-forms
+  type: hard
 tags:
 - pipe-flow
 - systems

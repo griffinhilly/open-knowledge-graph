@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dft-and-fft-algorithms
   type: hard
+- id: spectral-leakage-and-windowing-tradeoff
+  type: soft
+- id: window-functions-spectral-leakage
+  type: soft
 builds-toward:
 - coherence-and-spectral-density
 tags:

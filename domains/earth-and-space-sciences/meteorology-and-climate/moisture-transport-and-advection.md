@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: atmospheric-boundary-layer-dynamics
   type: soft
+- id: saturation-and-dew-point
+  type: soft
 builds-toward:
 - precipitation-types-and-processes
 - el-nino-southern-oscillation

@@ -6,8 +6,6 @@ course: political-science
 prerequisites:
 - id: representative-democracy-systems
   type: hard
-builds-toward:
-- political-representation-effects
 tags:
 - voting
 - elections

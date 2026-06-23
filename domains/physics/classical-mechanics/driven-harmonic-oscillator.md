@@ -16,6 +16,10 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: soft
+- id: energy-analysis-oscillations
+  type: soft
+- id: energy-dissipation-and-irreversibility
+  type: soft
 builds-toward:
 - resonance-and-resonance-frequency
 tags:

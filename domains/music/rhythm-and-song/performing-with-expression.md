@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: simple-songs-and-singing
   type: soft
+- id: tempo-allegro-and-adagio
+  type: soft
 builds-toward:
 - dynamics-and-expression-marks
 tags:

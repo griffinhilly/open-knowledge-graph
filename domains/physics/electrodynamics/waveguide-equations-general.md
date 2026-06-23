@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: separation-variables-elliptic-equations
   type: hard
+- id: cylindrical-harmonics-em
+  type: soft
 builds-toward:
 - transverse-electric-modes
 - transverse-magnetic-modes

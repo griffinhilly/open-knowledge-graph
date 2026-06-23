@@ -6,6 +6,12 @@ course: linear-algebra
 prerequisites:
 - id: subspaces
   type: hard
+- id: linear-independence
+  type: hard
+- id: scalar-multiplication
+  type: hard
+- id: vector-addition-subtraction
+  type: hard
 builds-toward:
 - basis-and-dimension
 - change-of-basis

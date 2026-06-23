@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: root-movement-recognition-ear
   type: soft
+- id: bass-line-ear-analysis
+  type: soft
+- id: scale-degree-ear-identification
+  type: soft
 builds-toward:
 - secondary-dominants-ear
 - cadence-function-ear

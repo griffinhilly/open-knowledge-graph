@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bifurcation-theory-saddle-node
   type: hard
+- id: bifurcation-theory-transcritical-pitchfork
+  type: soft
 builds-toward:
 - limit-cycles
 - lorenz-system

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: reference-failure-empty-names
   type: soft
+- id: reference-determination
+  type: soft
 builds-toward:
 - rigid-designators-modal-reference
 - proper-names-and-reference

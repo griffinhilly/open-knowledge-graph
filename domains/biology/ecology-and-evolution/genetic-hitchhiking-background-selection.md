@@ -12,9 +12,6 @@ prerequisites:
   type: soft
 - id: frequency-dependent-selection-polymorphism
   type: soft
-builds-toward:
-- molecular-evolution
-- effective-population-size
 tags:
 - hitchhiking
 - selection

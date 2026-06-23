@@ -12,7 +12,6 @@ prerequisites:
   type: hard
 builds-toward:
 - gaba-glutamate-neurotransmission-balance
-- seizures-and-inhibitory-dysfunction
 tags:
 - circuit-dynamics
 - network

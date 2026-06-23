@@ -6,8 +6,6 @@ course: kindergarten
 prerequisites:
 - id: one-to-one-correspondence
   type: hard
-builds-toward:
-- introduction-to-addition
 tags:
 - addition
 - combining

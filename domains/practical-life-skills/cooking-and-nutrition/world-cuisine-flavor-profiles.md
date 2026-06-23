@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: spice-freshness-and-storage
   type: soft
+- id: culinary-herbs-and-spices
+  type: soft
 builds-toward:
 - recipe-adaptation-and-substitutions
 tags:

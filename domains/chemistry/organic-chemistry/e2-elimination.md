@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: alkene-structure-and-nomenclature
   type: hard
+- id: leaving-groups-nucleofugality
+  type: hard
 builds-toward:
 - e1-elimination
 tags:

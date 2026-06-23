@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: subgroup-analysis-heterogeneity
   type: soft
+- id: multivariable-regression-epi
+  type: soft
 tags:
 - meta-analysis
 - systematic-review

@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: otto-cycle-spark-ignition-engine
   type: hard
+- id: otto-cycle-internal-combustion
+  type: soft
 tags:
 - diesel-cycle
 - compression-ignition

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: statistical-interpretation-of-entropy
   type: soft
+- id: molar-heat-capacities
+  type: hard
 builds-toward: []
 tags:
 - entropy

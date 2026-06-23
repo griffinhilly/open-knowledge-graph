@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: extended-instrumental-techniques
   type: soft
+- id: instrumental-timbre-recognition
+  type: soft
 builds-toward:
 - timbre-frequency-domain
 tags:

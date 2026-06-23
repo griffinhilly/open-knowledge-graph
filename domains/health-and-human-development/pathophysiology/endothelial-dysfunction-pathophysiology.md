@@ -12,7 +12,6 @@ prerequisites:
 builds-toward:
 - atherosclerosis-pathophysiology
 - hypertension-pathophysiology
-- diabetic-complications-pathophysiology
 tags:
 - endothelium
 - vasodilation

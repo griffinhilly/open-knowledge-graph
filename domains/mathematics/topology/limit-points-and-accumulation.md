@@ -6,6 +6,10 @@ course: topology
 prerequisites:
 - id: open-sets-topology
   type: hard
+- id: closed-sets-topology
+  type: soft
+- id: neighborhoods-and-open-sets
+  type: hard
 builds-toward:
   - sequences-convergence-topology
 tags:

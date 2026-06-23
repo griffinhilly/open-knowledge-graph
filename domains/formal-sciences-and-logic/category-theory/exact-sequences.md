@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: homological-dimension-intro
   type: soft
+- id: diagram-chasing
+  type: soft
 builds-toward:
 - snake-lemma
 - abelian-structure-properties

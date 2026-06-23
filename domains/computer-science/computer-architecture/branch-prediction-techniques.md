@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: data-hazards-control-hazards
   type: hard
+- id: processor-status-flags-and-conditions
+  type: soft
 builds-toward:
 - superscalar-and-vliw-design
 - out-of-order-execution-design

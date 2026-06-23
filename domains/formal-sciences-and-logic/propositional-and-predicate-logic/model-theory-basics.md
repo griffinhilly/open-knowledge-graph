@@ -20,6 +20,10 @@ prerequisites:
   type: hard
 - id: functions-and-function-properties
   type: hard
+- id: consistent-and-inconsistent-formulas
+  type: soft
+- id: logical-consequence-and-validity
+  type: soft
 builds-toward:
 - lowenheim-skolem-theorem
 tags:

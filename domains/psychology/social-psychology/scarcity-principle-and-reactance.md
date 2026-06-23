@@ -6,8 +6,6 @@ course: social-psychology
 prerequisites:
 - id: persuasion-and-attitude-change
   type: hard
-builds-toward:
-- multi-tactic-persuasion-sequences
 tags:
 - persuasion
 - scarcity

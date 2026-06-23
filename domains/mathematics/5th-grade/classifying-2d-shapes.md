@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: line-symmetry
   type: soft
+- id: 2d-shape-properties-1st
+  type: hard
 builds-toward:
 - classifying-triangles
 - classifying-quadrilaterals

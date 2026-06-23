@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cost-utility-analysis
   type: hard
+- id: cost-effectiveness-analysis-health-econ
+  type: soft
 builds-toward: []
 tags:
 - HTA

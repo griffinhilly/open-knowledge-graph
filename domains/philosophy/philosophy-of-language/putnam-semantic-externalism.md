@@ -6,6 +6,8 @@ course: philosophy-of-language
 prerequisites:
 - id: meaning-and-reference-basics
   type: hard
+- id: reference-determination
+  type: soft
 builds-toward:
 - twin-earth-thought-experiment
 - indexicals-context-sensitivity

@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: durkheim-social-facts
   type: hard
+- id: durkheim-collective-consciousness
+  type: hard
 builds-toward:
 - durkheim-anomie
 tags:

@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: simultaneity-different-reference-frames
   type: soft
-builds-toward:
-- twin-paradox-proper-time
 tags:
 - special-relativity
 - spacetime

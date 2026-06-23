@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: renaissance-music-style-and-context
   type: hard
+- id: medieval-vocal-music-forms
+  type: soft
 builds-toward:
 - baroque-instrumental-development
 - baroque-vocal-genres

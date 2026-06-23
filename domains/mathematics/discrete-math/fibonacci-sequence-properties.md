@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - fibonacci-identities
-- generating-functions-applications
 tags:
 - sequences
 - recurrence

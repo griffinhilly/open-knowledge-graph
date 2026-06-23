@@ -4,9 +4,9 @@ title: Classical Chinese Poetry Aesthetics and Tradition
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
-- id: mythology-folklore-oral-traditions
+- id: folklore-definition-traditions
   type: soft
 builds-toward:
 - shi-poetry-lyric-tradition

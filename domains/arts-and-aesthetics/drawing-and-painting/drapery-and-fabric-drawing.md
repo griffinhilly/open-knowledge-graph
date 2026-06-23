@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: gesture-drawing-capturing-movement
   type: soft
-builds-toward:
-- figure-drawing-fundamentals
 tags:
 - figure
 - fabric

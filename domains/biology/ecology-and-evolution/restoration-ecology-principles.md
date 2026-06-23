@@ -12,6 +12,16 @@ prerequisites:
   type: soft
 - id: disturbance-ecology-and-succession-dynamics
   type: soft
+- id: community-stability-resistance-resilience
+  type: soft
+- id: invasive-species-ecological-impacts
+  type: soft
+- id: landscape-ecology-and-spatial-heterogeneity
+  type: soft
+- id: primary-succession-bare-colonization
+  type: soft
+- id: secondary-succession-post-disturbance
+  type: soft
 tags:
 - restoration
 - native-species

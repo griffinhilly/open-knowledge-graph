@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: ca-local-rings
   type: hard
-builds-toward:
-- ca-regular-local-rings
 tags:
 - nakayama
 - local-ring

@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: measuring-ingredients-volume-basics
   type: soft
-builds-toward:
-- planning-a-balanced-daily-menu
+- id: heat-spots-and-pan-adjustment
+  type: soft
+- id: pan-preheating-and-readiness
+  type: soft
 tags:
 - cooking-methods
 - sauteing

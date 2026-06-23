@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: story-and-narrative-basics
   type: soft
+- id: troubadour-occitan-tradition
+  type: hard
 builds-toward:
 - renaissance-sonnet-love-form
 - romantic-poetry-emotion-imagination

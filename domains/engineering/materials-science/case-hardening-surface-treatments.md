@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diffusion-in-solids
   type: hard
+- id: quenching-and-tempering
+  type: soft
 builds-toward:
 - materials-selection-design
 tags:

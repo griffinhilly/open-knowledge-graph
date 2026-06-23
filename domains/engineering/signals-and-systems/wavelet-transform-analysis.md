@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fourier-series-representation
   type: soft
+- id: perfect-reconstruction-filter-banks
+  type: soft
 tags:
 - wavelets
 - multiresolution

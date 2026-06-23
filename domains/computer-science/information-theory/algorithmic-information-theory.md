@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: shannon-entropy
   type: hard
+- id: kolmogorov-complexity-information-theory
+  type: hard
 tags:
 - algorithmic information
 - randomness

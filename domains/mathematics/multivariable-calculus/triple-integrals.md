@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: area-volume-integrals
   type: soft
+- id: applications-double-integrals
+  type: soft
 builds-toward:
 - triple-integrals-cylindrical
 - triple-integrals-spherical

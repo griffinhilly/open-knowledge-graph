@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: negative-feedback-mechanisms
   type: hard
+- id: brainstem-vital-functions
+  type: soft
+- id: cardiac-output-control-regulation
+  type: hard
+- id: cardiac-output-stroke-volume-regulation
+  type: hard
+- id: heart-rate-control-autonomic-modulation
+  type: soft
+- id: vascular-smooth-muscle-contraction
+  type: soft
 builds-toward:
 - renal-physiology-and-fluid-balance
 tags:

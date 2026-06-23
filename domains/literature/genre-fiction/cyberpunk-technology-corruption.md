@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dystopian-fiction
   type: hard
+- id: science-fiction-hard-soft
+  type: soft
 builds-toward:
 - noir-aesthetic-moral-corruption
 - genre-blending-hybridity

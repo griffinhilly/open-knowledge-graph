@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - interior-door-repair
-- home-emergency-response-planning
 tags:
 - doors
 - windows

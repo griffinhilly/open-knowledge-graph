@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-spectrum-astronomy
   type: soft
+- id: accretion-disk-physics
+  type: hard
 tags:
 - AGN
 - quasars

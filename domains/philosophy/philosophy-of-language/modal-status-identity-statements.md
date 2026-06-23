@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: performativity-and-language
   type: soft
+- id: natural-kind-terms-semantics
+  type: soft
 builds-toward:
 - two-dimensional-semantics
 tags:

@@ -15,6 +15,10 @@ prerequisites:
   type: soft
 - id: quantum-mechanics-postulates-core
   type: soft
+- id: electron-correlation-multi-electron-atoms
+  type: soft
+- id: variational-method-ground-state
+  type: soft
 builds-toward: []
 tags:
 - DFT

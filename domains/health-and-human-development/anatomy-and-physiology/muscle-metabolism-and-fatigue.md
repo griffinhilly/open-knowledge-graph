@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: lactate-metabolism
   type: soft
+- id: muscle-physiology-and-contraction
+  type: hard
 tags:
 - ATP
 - anaerobic

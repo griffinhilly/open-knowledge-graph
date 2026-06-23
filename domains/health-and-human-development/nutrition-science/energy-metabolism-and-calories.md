@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: atp-synthase-structure-mechanism
   type: hard
+- id: calories-and-energy
+  type: hard
 builds-toward:
 - energy-balance-and-body-composition
 - sports-nutrition-basics

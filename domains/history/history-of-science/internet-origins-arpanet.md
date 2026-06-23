@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - digital-economy-history
-- information-society-history
 tags:
 - history
 - History Of Science

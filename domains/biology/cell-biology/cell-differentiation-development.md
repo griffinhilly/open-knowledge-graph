@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cell-polarity-asymmetry
   type: soft
+- id: gene-expression-central-dogma
+  type: hard
 tags:
 - differentiation
 - development

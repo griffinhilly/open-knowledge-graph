@@ -9,7 +9,6 @@ prerequisites:
 - id: gravity-waves-wind-ocean-surface
   type: soft
 builds-toward:
-- tides
 - tidal-heating-moon-interiors
 tags:
 - tides

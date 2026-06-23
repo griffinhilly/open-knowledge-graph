@@ -6,6 +6,12 @@ course: child-development
 prerequisites:
 - id: piaget-cognitive-development-stages
   type: hard
+- id: egocentrism-and-perspective-taking
+  type: soft
+- id: piaget-preoperational-stage
+  type: soft
+- id: sensorimotor-development-and-object-permanence
+  type: soft
 builds-toward:
 - moral-development-in-children
 - peer-relationships-and-social-competence

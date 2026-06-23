@@ -6,6 +6,10 @@ course: sociological-theory
 prerequisites:
 - id: frankfurt-school-critical-theory
   type: hard
+- id: instrumental-rationality-critique
+  type: soft
+- id: weber-rationalization
+  type: soft
 tags:
 - habermas
 - communicative-action

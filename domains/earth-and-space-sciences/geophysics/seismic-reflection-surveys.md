@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: elastic-wave-propagation-in-solids
   type: hard
+- id: seismic-signal-processing
+  type: soft
 builds-toward:
 - seismic-migration-techniques
 - synthetic-seismogram-modeling

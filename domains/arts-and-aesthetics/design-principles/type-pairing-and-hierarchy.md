@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: alignment-and-proximity-in-layout
   type: soft
+- id: kerning-and-letter-spacing
+  type: soft
+- id: modular-scale-typography
+  type: soft
+- id: typeface-classification-and-selection
+  type: soft
 builds-toward:
 - design-systems-and-consistency
 - branding-and-identity-design

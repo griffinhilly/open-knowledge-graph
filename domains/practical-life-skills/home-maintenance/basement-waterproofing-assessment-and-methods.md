@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: concrete-sealing-and-waterproofing
   type: soft
+- id: water-infiltration-problem-diagnosis
+  type: soft
 builds-toward:
 - water-damage-mold-basics
 tags:

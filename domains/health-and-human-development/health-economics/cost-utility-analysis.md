@@ -6,6 +6,8 @@ course: health-economics
 prerequisites:
 - id: cost-effectiveness-analysis
   type: hard
+- id: cost-effectiveness-analysis-health-econ
+  type: hard
 builds-toward:
 - health-technology-assessment
 - willingness-to-pay-health

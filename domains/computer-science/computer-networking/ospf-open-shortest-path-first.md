@@ -6,6 +6,8 @@ course: computer-networking
 prerequisites:
 - id: dijkstras-shortest-path-routing
   type: hard
+- id: link-state-routing-protocols
+  type: hard
 builds-toward:
 - bgp-border-gateway-protocol
 tags:

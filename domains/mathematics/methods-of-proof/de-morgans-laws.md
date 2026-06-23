@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: logical-equivalences
   type: hard
+- id: complement-of-a-set-intro
+  type: soft
 builds-toward:
 - proof-structure-and-terminology
 tags:

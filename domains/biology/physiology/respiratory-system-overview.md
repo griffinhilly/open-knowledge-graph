@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: cardiovascular-system-overview
   type: soft
+- id: lungs-and-breathing
+  type: soft
+- id: respiratory-system-ls
+  type: soft
 builds-toward:
 - gas-exchange-and-diffusion
 - respiratory-control-mechanisms

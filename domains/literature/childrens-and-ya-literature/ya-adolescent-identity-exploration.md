@@ -6,6 +6,8 @@ course: childrens-and-ya-literature
 prerequisites:
 - id: young-adult-literature-genre-emergence
   type: hard
+- id: children-coming-of-age-bildung
+  type: soft
 builds-toward:
 - ya-romantic-relationships-first-love
 - ya-psychological-maturation-development

@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: pancreatic-enzyme-secretion
   type: soft
-builds-toward:
-- nutrient-digestion-absorption
 tags:
 - gastrointestinal
 - secretion

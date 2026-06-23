@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: reading-scaled-pictographs-3rd
   type: soft
-builds-toward:
-- data-analysis-3rd
 tags:
 - data
 - graphs

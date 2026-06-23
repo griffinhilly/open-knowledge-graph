@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: computability-complexity-overview
   type: soft
+- id: reducibility-many-one-formal
+  type: soft
 builds-toward:
 - arithmetical-hierarchy
 tags:

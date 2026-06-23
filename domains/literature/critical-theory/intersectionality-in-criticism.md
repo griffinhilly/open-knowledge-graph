@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: intersectionality-multiple-difference
   type: soft
+- id: feminist-epistemology-positioned-knowledge
+  type: soft
 tags:
 - intersectionality
 - Crenshaw

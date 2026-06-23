@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: radiometric-dating
   type: soft
+- id: fossils-in-rocks
+  type: soft
 tags:
 - fossils
 - paleontology

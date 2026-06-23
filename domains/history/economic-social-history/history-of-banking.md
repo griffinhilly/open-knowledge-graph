@@ -7,9 +7,6 @@ prerequisites:
 - id: medieval-trade-revival
   type: soft
 
-builds-toward:
-- financial-markets-history
-- financial-crisis-dynamics
 tags:
 - history
 - Economic Social History

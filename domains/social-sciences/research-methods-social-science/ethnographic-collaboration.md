@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: digital-ethnography-virtual
   type: soft
-builds-toward:
-- participatory-ethnography
-- community-ethnography
 tags:
 - ethnography
 - collaborative

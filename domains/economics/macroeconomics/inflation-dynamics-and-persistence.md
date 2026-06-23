@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phillips-curve
   type: soft
+- id: inflation-expectations-formation
+  type: hard
+- id: price-level-measurement-indices
+  type: soft
 builds-toward:
 - phillips-curve-new-keynesian
 - natural-rate-of-unemployment-nairu

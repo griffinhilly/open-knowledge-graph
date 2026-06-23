@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - saltatory-conduction
-- cable-theory-axonal-conduction
 tags:
 - myelin
 - myelination

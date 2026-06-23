@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: vectors-in-two-dimensions
   type: hard
+- id: electric-charge-conceptual
+  type: hard
+- id: static-electricity-intro
+  type: soft
 builds-toward:
 - electric-field
 - electric-potential-energy

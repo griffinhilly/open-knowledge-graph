@@ -6,6 +6,10 @@ course: computer-networking
 prerequisites:
 - id: ospf-open-shortest-path-first
   type: soft
+- id: distance-vector-routing-protocols
+  type: soft
+- id: route-aggregation-supernetting
+  type: soft
 tags:
 - bgp
 - egp

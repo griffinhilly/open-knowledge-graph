@@ -4,7 +4,7 @@ title: 'Korean Literary Modernity: Colonial Period, Postcolonial Consciousness'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - han-kang-existential-form

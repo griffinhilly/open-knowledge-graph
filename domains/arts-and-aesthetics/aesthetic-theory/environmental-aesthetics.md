@@ -6,6 +6,8 @@ course: aesthetic-theory
 prerequisites:
 - id: aesthetics-and-philosophy-of-art-intro
   type: hard
+- id: kant-the-sublime
+  type: soft
 tags:
 - environmental aesthetics
 - nature

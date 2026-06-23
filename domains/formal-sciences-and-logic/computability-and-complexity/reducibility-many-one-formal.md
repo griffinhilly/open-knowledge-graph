@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: computability-reductions
   type: hard
+- id: decidability-and-semi-decidability
+  type: soft
 builds-toward:
 - undecidability-proof-by-reduction
 - turing-degrees

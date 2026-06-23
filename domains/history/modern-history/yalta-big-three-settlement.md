@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: league-of-nations-collective-security
   type: soft
-builds-toward:
-- potsdam-occupation-reparations
 tags:
 - WWII
 - diplomacy

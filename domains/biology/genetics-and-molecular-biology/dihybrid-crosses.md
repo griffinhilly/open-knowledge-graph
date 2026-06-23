@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: probability-axioms-and-rules
   type: soft
+- id: monohybrid-inheritance-and-segregation
+  type: hard
 builds-toward:
 - genetic-mapping
 tags:

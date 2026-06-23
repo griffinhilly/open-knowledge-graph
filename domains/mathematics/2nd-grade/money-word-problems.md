@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: making-change-transactions
   type: soft
+- id: making-change-2nd
+  type: soft
+- id: making-change-and-money-word-problems
+  type: soft
 builds-toward: []
 tags:
 - money

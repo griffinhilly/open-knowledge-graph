@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: thermal-conductivity-and-rocks
   type: soft
+- id: thermal-evolution-terrestrial-planets
+  type: soft
 builds-toward:
 - planetary-tectonics-comparative
 tags:

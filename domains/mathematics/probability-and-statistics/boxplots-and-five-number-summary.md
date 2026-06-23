@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: five-number-summary
   type: hard
+- id: quantiles-and-percentiles
+  type: hard
 tags:
 - boxplot
 - outlier-detection

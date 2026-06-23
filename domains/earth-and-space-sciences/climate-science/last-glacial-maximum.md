@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: milankovitch-orbital-cycles
   type: soft
+- id: paleoclimate-proxy-interpretation
+  type: soft
 builds-toward:
 - glacial-interglacial-cycles
 - paleoclimate-data-model-comparison

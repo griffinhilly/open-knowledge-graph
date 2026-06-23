@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: stability-theory-introduction
   type: soft
+- id: applications-ordered-fields-algebraically-closed
+  type: soft
+- id: strongly-minimal-and-geometry
+  type: soft
 builds-toward:
 - definability-and-algebraic-applications
 tags:

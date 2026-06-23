@@ -12,7 +12,6 @@ prerequisites:
   type: hard
 builds-toward:
 - myocardial-infarction-pathophysiology
-- acute-kidney-injury-mechanisms
 tags:
 - apoptosis
 - necrosis

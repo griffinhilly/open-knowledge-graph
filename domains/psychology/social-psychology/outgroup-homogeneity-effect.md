@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: ingroup-favoritism-bias
   type: soft
-builds-toward:
-- stereotype-formation-maintenance
 tags:
 - homogeneity bias
 - stereotyping

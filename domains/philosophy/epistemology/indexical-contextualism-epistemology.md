@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: contextualism-content-sensitivity
   type: soft
+- id: relevant-alternatives-semantics
+  type: soft
 builds-toward:
 - margin-error-semantics
 tags:

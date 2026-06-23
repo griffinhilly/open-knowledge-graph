@@ -14,7 +14,6 @@ prerequisites:
   type: hard
 builds-toward:
 - sight-singing-stepwise-melodies
-- harmonic-analysis-comprehensive
 tags:
 - notation
 - reading

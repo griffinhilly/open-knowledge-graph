@@ -6,6 +6,8 @@ course: model-theory
 prerequisites:
 - id: categorical-theories-and-uniqueness
   type: hard
+- id: saturated-models-and-realization
+  type: soft
 builds-toward:
 - stability-theory-introduction
 tags:

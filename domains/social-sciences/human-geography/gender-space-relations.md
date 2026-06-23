@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spatial-scale-human-geography
   type: hard
+- id: urbanization-city-geography
+  type: soft
 builds-toward:
 - health-geography-place
 tags:

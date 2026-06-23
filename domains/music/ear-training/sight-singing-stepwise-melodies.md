@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: interval-singing
   type: soft
+- id: music-notation-comprehensive-review
+  type: hard
+- id: rhythmic-note-value-measurement
+  type: soft
 builds-toward:
 - sight-singing-with-leaps
 tags:

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: collective-behavior-and-crowds
   type: soft
-builds-toward:
-- resource-mobilization-collective-action
 tags:
 - social-movements
 - protest

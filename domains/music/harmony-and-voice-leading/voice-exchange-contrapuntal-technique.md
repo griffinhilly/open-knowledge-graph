@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: counterpoint-basics
   type: soft
+- id: parallel-fifths-octaves-handling
+  type: soft
 builds-toward:
 - counterpoint-harmonic-texture-integration
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: organelles-overview
   type: hard
+- id: prokaryotic-eukaryotic-cells-comparison
+  type: soft
 builds-toward:
 - nucleus-structure-and-function
 - mitochondrion-energy-production

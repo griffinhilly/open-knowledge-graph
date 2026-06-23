@@ -10,9 +10,12 @@ prerequisites:
   type: hard
 - id: immune-tolerance-central-and-peripheral
   type: soft
-builds-toward:
-- systemic-lupus-erythematosus
-- rheumatoid-arthritis-pathophysiology
+- id: chronic-inflammation
+  type: soft
+- id: complement-cascade-pathophysiology
+  type: soft
+- id: inflammatory-mediators-cytokines-and-chemokines
+  type: soft
 tags:
 - autoimmune-disease
 - immune-tolerance

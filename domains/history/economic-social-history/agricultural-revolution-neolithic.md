@@ -6,7 +6,6 @@ course: economic-social-history
 prerequisites: []
 builds-toward:
 - ancient-civilization-characteristics
-- settlement-patterns-urbanization
 tags:
 - history
 - Economic Social History

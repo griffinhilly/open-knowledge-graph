@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thermal-conductivity-and-rocks
   type: hard
+- id: radioactive-heat-production
+  type: soft
 builds-toward:
 - lithospheric-thermal-evolution
 - subduction-zone-thermal-structure

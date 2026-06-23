@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stock-market-fundamentals
   type: soft
+- id: diversification-and-asset-allocation
+  type: soft
 builds-toward:
 - investment-fees-and-expense-analysis
 - tax-efficient-investment-strategies

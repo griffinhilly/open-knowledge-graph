@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - disease-transmission-dynamics-modeling
-- epidemic-investigation-methodology
 tags:
 - epidemiology
 - methodology

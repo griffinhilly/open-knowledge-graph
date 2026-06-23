@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: belonging-to-groups
   type: soft
+- id: primary-secondary-groups
+  type: soft
+- id: role-taking-self-development
+  type: soft
 builds-toward:
 - social-norms-and-values
 - gender-and-sexuality

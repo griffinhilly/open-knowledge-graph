@@ -6,9 +6,6 @@ course: general-chemistry
 prerequisites:
 - id: periodic-trends
   type: hard
-builds-toward:
-- ion-formation
-- electronegativity
 tags:
 - electron affinity
 - periodic trends

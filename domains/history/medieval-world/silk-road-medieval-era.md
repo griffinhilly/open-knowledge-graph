@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: mongol-empire
   type: soft
+- id: ancient-trade-networks
+  type: soft
 builds-toward:
 - mongol-conquest-effects
 tags:

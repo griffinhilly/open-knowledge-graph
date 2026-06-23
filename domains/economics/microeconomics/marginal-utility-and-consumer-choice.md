@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: marginal-product-diminishing-returns
   type: soft
+- id: utility-consumer-preferences
+  type: hard
 builds-toward:
 - indifference-curves
 - budget-constraint

@@ -9,7 +9,6 @@ prerequisites:
 - id: ventral-stream-visual-object-processing
   type: hard
 builds-toward:
-- social-face-perception-stp
 - mentalizing-network-theory-of-mind
 tags:
 - face-perception

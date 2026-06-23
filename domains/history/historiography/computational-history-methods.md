@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: digital-history-tools
   type: soft
+- id: historical-methodology-systems
+  type: soft
 builds-toward:
 - digital-history-theory
 - quantitative-history-methods

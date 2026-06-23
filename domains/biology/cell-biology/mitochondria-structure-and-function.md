@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: kinetochore-structure-and-function
   type: soft
+- id: cell-structure-organelles-and-function
+  type: soft
 builds-toward:
 - cellular-respiration-overview
 - electron-transport-chain

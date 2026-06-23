@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro-separable
   type: soft
+- id: schrodinger-equation-molecular-systems
+  type: hard
 builds-toward:
 - molecular-orbital-theory-advanced
 - huckel-molecular-orbital-theory

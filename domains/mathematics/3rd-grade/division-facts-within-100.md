@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiplication-facts-threes-through-nines
   type: hard
+- id: unknown-factor-problems
+  type: soft
 builds-toward:
 - two-digit-by-one-digit-division
 - fractions-as-division

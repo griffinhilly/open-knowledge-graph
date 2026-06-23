@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: fat-soluble-vitamins
   type: soft
+- id: endocrine-glands-and-hormones
+  type: soft
 builds-toward:
 - fluid-balance-and-electrolytes
 tags:

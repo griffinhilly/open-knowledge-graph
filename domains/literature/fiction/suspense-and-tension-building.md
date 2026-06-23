@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plot-structure
   type: soft
+- id: scene-and-chapter-structure
+  type: soft
 builds-toward:
   - genre-conventions-and-reader-contract
 tags:

@@ -6,8 +6,6 @@ course: grammar-and-syntax
 prerequisites:
 - id: compound-nouns
   type: soft
-builds-toward:
-- punctuation-basics
 tags:
 - hyphenation
 - orthography

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: soft
+- id: adaptive-immunity-overview
+  type: soft
 builds-toward:
 - mhc-class-i-presentation
 - mhc-class-ii-presentation

@@ -6,6 +6,12 @@ course: general-chemistry
 prerequisites:
 - id: kinetic-energy
   type: soft
+- id: kinetic-molecular-theory-intro
+  type: soft
+- id: properties-of-gases
+  type: soft
+- id: solids-liquids-gases
+  type: soft
 tags:
 - kinetic theory
 - molecular motion

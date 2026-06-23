@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: arrhenius-equation
   type: soft
+- id: catalysts-intro
+  type: soft
 builds-toward:
 - reaction-mechanisms-elementary-steps
 tags:

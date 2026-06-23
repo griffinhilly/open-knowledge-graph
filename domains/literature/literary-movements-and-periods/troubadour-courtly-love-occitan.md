@@ -6,8 +6,6 @@ course: literary-movements-and-periods
 prerequisites:
 - id: medieval-vernacular-literature-overview
   type: hard
-builds-toward:
-- sonnet-tradition-renaissance
 tags:
 - medieval
 - troubadour

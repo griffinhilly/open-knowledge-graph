@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: compositional-sketching
   type: soft
+- id: basic-facial-proportions-and-measuring
+  type: hard
+- id: head-construction-and-planes
+  type: hard
 builds-toward: []
 tags:
 - portraiture

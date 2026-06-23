@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heat-capacity-calorimetry
   type: soft
+- id: evaporation-in-everyday-life
+  type: soft
 builds-toward:
 - phase-changes-and-diagrams
 - solution-concentration

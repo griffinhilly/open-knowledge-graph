@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: education-as-institution
   type: hard
+- id: achieved-versus-ascribed-status
+  type: soft
+- id: sociology-of-work-occupations
+  type: soft
 builds-toward:
 - meritocracy-myth-critique
 tags:

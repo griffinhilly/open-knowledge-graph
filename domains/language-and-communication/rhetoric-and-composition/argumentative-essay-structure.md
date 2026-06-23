@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: counterargument-and-rebuttal
   type: hard
+- id: body-paragraph-development
+  type: soft
+- id: claim-evidence-connection
+  type: soft
 builds-toward: []
 tags:
 - argumentative essay

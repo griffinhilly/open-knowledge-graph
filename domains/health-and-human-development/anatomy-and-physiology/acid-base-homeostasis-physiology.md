@@ -16,7 +16,6 @@ prerequisites:
   type: hard
 builds-toward:
 - renal-regulation-acid-base
-- respiratory-compensation-and-control
 tags:
 - pH
 - buffer

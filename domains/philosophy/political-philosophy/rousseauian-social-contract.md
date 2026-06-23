@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: state-of-nature-concept
   type: soft
-builds-toward:
-- democratic-legitimacy-participation
-- popular-sovereignty-concept
 tags:
 - Rousseau
 - general-will

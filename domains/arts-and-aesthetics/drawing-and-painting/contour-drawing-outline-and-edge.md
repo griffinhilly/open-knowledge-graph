@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: observational-drawing-practice
   type: hard
+- id: basic-mark-making-and-line-control
+  type: soft
 builds-toward:
 - value-scale-and-tonal-range
 - figure-anatomy-and-proportions-for-drawing

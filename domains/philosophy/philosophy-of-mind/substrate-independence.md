@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: artificial-minds-silicon-based
   type: soft
+- id: computational-theory-of-mind
+  type: soft
 builds-toward:
 - artificial-minds-silicon-based
 - emergence-reduction-consciousness

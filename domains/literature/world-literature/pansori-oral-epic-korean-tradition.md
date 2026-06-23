@@ -4,7 +4,7 @@ title: 'Pansori and Korean Oral Epic: Narrative Performance and Cultural Continu
 domain: literature
 course: world-literature
 prerequisites:
-- id: mythology-folklore-oral-traditions
+- id: folklore-definition-traditions
   type: hard
 builds-toward:
 - korean-literary-modernity-colonial-postcolonial

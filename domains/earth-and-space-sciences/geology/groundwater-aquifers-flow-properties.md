@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mineral-crystal-systems-classification
   type: soft
+- id: water-as-a-resource
+  type: soft
 tags:
 - hydrogeology
 - groundwater

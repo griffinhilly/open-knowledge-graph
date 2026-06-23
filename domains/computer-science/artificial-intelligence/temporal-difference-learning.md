@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: actor-critic-methods
   type: soft
+- id: monte-carlo-methods-rl
+  type: hard
 builds-toward:
 - deep-q-networks
 - q-learning

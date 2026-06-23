@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: heat-transfer-conduction-fourier
   type: soft
+- id: heat-exchanger-basics-engineering
+  type: hard
+- id: steady-flow-energy-equation-engineering
+  type: hard
 builds-toward:
 - rankine-cycle-reheat-regeneration
 - brayton-cycle-intercooling-reheating

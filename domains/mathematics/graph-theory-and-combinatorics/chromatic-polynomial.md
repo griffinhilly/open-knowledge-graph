@@ -6,6 +6,8 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: graph-coloring
   type: hard
+- id: chromatic-number-bounds
+  type: soft
 tags:
 - graph-theory
 - coloring

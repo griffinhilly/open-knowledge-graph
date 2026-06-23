@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: hippocampal-spatial-memory
   type: soft
+- id: brain-anatomy-and-functional-organization
+  type: soft
 tags:
 - learning-memory
 - spatial-memory

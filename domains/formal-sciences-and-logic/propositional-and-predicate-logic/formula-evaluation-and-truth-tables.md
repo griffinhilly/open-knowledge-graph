@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: boolean-functions-and-circuits
   type: soft
+- id: truth-tables-introduction
+  type: hard
 builds-toward:
 - logical-equivalence-formulas
 tags:

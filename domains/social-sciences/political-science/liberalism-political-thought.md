@@ -10,8 +10,8 @@ prerequisites:
   type: hard
 - id: socialism-and-leftist-ideology
   type: soft
-builds-toward:
-- comparative-political-ideologies
+- id: social-contract-theory-political-science
+  type: soft
 tags:
 - liberalism
 - individual-rights

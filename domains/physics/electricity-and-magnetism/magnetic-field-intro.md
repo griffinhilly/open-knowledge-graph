@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: vectors-in-two-dimensions
   type: hard
+- id: magnets-and-magnetic-poles
+  type: soft
 builds-toward:
 - magnetic-force-moving-charges
 - biot-savart-law

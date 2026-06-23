@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lti-systems-and-impulse-response
   type: hard
+- id: cross-correlation-applications-estimation
+  type: soft
 builds-toward:
 - nyquist-criterion-intersymbol-interference
 tags:

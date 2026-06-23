@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: chromosomal-evolution
   type: soft
-builds-toward:
-- evolutionary-constraint
 tags:
 - evolution
 - adaptation

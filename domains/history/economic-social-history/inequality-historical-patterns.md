@@ -7,9 +7,6 @@ prerequisites:
 - id: social-stratification
   type: hard
 
-builds-toward:
-- development-and-underdevelopment-history
-- redistribution-policies-history
 tags:
 - history
 - Economic Social History

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: chord-progressions
   type: soft
+- id: harmonic-function-basics
+  type: hard
 builds-toward:
 - four-part-writing
 - secondary-dominants

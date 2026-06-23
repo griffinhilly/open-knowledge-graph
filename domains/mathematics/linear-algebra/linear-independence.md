@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: scalar-multiplication
   type: hard
+- id: subspaces
+  type: soft
+- id: vector-addition-subtraction
+  type: hard
 builds-toward:
 - basis-definition
 - span-and-basis

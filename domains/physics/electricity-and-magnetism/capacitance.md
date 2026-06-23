@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: conductors-in-electrostatics
   type: soft
+- id: conductors-electrostatic-behavior
+  type: soft
+- id: potential-difference-voltage
+  type: hard
 builds-toward:
 - dielectrics
 - rc-circuits

@@ -9,7 +9,6 @@ prerequisites:
 - id: transmission-chain-disease-spread
   type: hard
 builds-toward:
-- outbreak-control-strategies
 - infectious-disease-surveillance
 tags:
 - contact-tracing

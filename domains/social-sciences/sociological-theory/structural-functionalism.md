@@ -6,6 +6,10 @@ course: sociological-theory
 prerequisites:
 - id: sociological-imagination
   type: hard
+- id: durkheim-social-facts
+  type: soft
+- id: functional-explanations-anthropology
+  type: soft
 builds-toward:
 - parsons-systems-theory
 - robert-merton-functional-analysis

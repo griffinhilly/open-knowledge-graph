@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: formal-analysis-deformation
   type: soft
+- id: melody-construction-principles
+  type: soft
 builds-toward:
 - sonata-form-composition
 - contemporary-compositional-approaches

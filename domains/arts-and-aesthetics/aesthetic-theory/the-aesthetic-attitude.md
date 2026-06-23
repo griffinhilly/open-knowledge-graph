@@ -3,7 +3,9 @@ id: the-aesthetic-attitude
 title: The Aesthetic Attitude
 domain: arts-and-aesthetics
 course: aesthetic-theory
-prerequisites: []
+prerequisites:
+- id: aesthetic-experience-and-beauty
+  type: soft
 builds-toward:
 - aesthetic-judgment-taste
 - kant-disinterest-aesthetics

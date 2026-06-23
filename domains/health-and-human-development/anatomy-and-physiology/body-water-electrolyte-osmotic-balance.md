@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - fluid-balance-and-electrolytes
-- renal-regulation-of-fluid-balance
 tags:
 - fluid-compartments
 - osmolarity

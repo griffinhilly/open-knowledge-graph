@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: renormalization-group-scaling
   type: soft
+- id: universality-classes-critical
+  type: soft
 tags:
 - renormalization-group
 - scaling

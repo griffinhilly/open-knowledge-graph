@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: cross-product-geometry-3d
   type: soft
+- id: surface-area-integrals
+  type: soft
+- id: surface-integrals-scalar-function
+  type: soft
+- id: surface-parametrization-tangent
+  type: hard
 builds-toward:
 - stokes-and-divergence-theorems
 tags:

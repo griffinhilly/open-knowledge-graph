@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: science-fiction-speculation-extrapolation
   type: hard
+- id: genre-world-building-consistency
+  type: soft
 builds-toward:
 - space-opera-galactic-scale
 - cyberpunk-technology-corruption

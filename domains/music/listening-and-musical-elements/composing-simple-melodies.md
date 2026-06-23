@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: major-and-minor-mood
   type: soft
+- id: musical-phrases
+  type: soft
 builds-toward:
 - musical-storytelling
 tags:

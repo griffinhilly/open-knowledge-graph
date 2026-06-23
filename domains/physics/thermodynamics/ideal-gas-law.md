@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: proportional-relationships
   type: soft
+- id: avogadro-constant-molar-mass
+  type: hard
+- id: boyles-charles-law-ideal-gas
+  type: hard
 builds-toward:
 - kinetic-theory-of-gases
 - work-in-thermodynamic-processes

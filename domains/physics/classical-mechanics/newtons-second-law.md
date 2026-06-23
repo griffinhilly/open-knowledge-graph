@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: vectors-in-two-dimensions
   type: soft
+- id: force-and-mass
+  type: soft
+- id: newtons-second-law-conceptual
+  type: soft
+- id: pushes-and-pulls
+  type: soft
 builds-toward:
 - free-body-diagrams
 - friction-forces

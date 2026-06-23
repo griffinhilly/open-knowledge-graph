@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: ocean-chemistry-and-nutrients
   type: soft
+- id: marine-phytoplankton-primary-production
+  type: hard
+- id: ocean-carbonate-system
+  type: soft
+- id: phytoplankton-productivity-limiting-factors
+  type: soft
 builds-toward:
 - anthropogenic-carbon-cycle
 - paleoclimate-proxies

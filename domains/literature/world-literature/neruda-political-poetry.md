@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modernism-international-movements
   type: soft
+- id: latin-american-poetry-social-commitment
+  type: soft
 builds-toward:
 - modernism-international-movements
 tags:

@@ -11,7 +11,6 @@ prerequisites:
 - id: population-regulation
   type: soft
 builds-toward:
-- habitat-fragmentation-extinction-risk
 - conservation-genetics-effective-size
 tags:
 - metapopulation

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: memory-retrieval-cues
   type: hard
+- id: retrieval-cues-encoding-specificity
+  type: soft
 tags:
 - memory
 - forgetting

@@ -11,7 +11,6 @@ prerequisites:
 
 builds-toward:
 - cold-war-science
-- ethics-science-technology
 tags:
 - history
 - History Of Science

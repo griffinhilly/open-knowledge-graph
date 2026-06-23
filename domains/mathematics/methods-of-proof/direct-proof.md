@@ -6,6 +6,14 @@ course: methods-of-proof
 prerequisites:
 - id: proof-structure-and-terminology
   type: hard
+- id: direct-proof-introduction
+  type: hard
+- id: logical-inference-and-rules
+  type: soft
+- id: predicates-and-quantifiers
+  type: soft
+- id: proof-structure-terminology
+  type: soft
 builds-toward:
 - proof-by-contrapositive
 - mathematical-induction

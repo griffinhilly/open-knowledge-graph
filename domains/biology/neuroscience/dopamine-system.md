@@ -8,10 +8,10 @@ prerequisites:
   type: hard
 - id: basal-ganglia-motor-selection
   type: soft
+- id: gpcr-metabotropic-signaling
+  type: soft
 builds-toward:
 - reward-motivation-circuits
-- motor-learning-cerebellar
-- parkinson-disease-pathology
 tags:
 - dopamine
 - da

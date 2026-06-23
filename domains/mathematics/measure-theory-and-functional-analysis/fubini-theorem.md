@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: lebesgue-integral-general-definition
   type: hard
-builds-toward:
-- lp-space-completeness-riesz-fischer
 tags:
 - integration
 - fubini-theorem

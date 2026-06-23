@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probabilistic-computation
   type: hard
+- id: bpp-randomized-complexity
+  type: hard
 tags:
 - complexity
 - interactive-proofs

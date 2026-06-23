@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: van-der-waals-derivation
   type: soft
+- id: pure-substance-phase-diagrams
+  type: hard
 tags:
 - critical-point
 - supercritical

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - tax-incidence-and-elasticity
-- supply-curve-individual-firm
 tags:
 - elasticity
 - supply

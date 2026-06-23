@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: window-taskbar-and-window-switching
   type: soft
-builds-toward:
-- browser-bookmarks-and-favorites
 tags:
 - browser
 - tabs

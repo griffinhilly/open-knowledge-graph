@@ -11,7 +11,6 @@ prerequisites:
 - id: tea-and-coffee-preparation
   type: soft
 builds-toward:
-- cooking-for-dietary-restrictions
 - reading-nutrition-labels
 tags:
 - nutrition

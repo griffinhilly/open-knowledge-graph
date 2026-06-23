@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - climate-science-history
-- renewable-energy-transitions
 tags:
 - history
 - Economic Social History

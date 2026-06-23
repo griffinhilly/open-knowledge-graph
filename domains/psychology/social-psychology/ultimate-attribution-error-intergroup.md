@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: attribution-theory
   type: soft
-builds-toward:
-- stereotype-maintenance-intergroup-conflict
 tags:
 - attribution
 - intergroup bias

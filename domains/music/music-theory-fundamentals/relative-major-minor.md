@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: minor-scales
   type: hard
+- id: natural-minor-scale
+  type: soft
 builds-toward:
 - key-signatures
 - diatonic-harmony

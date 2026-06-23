@@ -6,8 +6,6 @@ course: kindergarten
 prerequisites:
 - id: sorting-by-attributes
   type: soft
-builds-toward:
-- sorting-by-multiple-attributes
 tags:
 - sorting
 - classifying

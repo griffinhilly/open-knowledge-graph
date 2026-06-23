@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: major-minor-tonality-identification
   type: hard
+- id: perfect-vs-diminished-augmented-interval
+  type: soft
+- id: triad-quality-diminished-augmented
+  type: soft
+- id: tritone-and-diminished-interval
+  type: soft
 builds-toward:
 - harmonic-dictation-basic
 tags:

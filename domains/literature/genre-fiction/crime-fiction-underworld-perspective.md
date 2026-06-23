@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - hardboiled-noir-moral-ambiguity
-- protagonist-criminal-perspective
 tags:
 - crime-fiction
 - criminal-protagonist

@@ -6,6 +6,8 @@ course: early-language-foundations
 prerequisites:
 - id: decoding-words
   type: hard
+- id: phonological-awareness-segmenting
+  type: soft
 builds-toward: []
 tags:
 - spelling

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: dominant-seventh-chord-unique-quality
   type: soft
+- id: tritone-dissonant-intervals-ear
+  type: soft
 builds-toward:
 - extended-chord-ear-training
 - secondary-dominants-ear

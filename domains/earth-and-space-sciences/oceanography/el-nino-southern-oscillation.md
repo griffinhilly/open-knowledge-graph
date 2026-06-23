@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: ocean-upwelling
   type: soft
+- id: zonal-meridional-circulation
+  type: soft
 builds-toward:
 - ocean-circulation-and-climate
 tags:

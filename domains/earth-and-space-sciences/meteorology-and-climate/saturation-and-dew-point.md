@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: saturation-vapor-pressure-clausius
   type: hard
+- id: humidity-and-precipitation
+  type: soft
 builds-toward:
 - convective-instability-indices
 - thermodynamic-diagram-analysis

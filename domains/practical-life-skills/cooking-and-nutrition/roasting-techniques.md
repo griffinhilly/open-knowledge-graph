@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: oven-baking-basics-and-safety
   type: soft
+- id: oven-temperature-and-preheating
+  type: soft
 builds-toward:
 - seasoning-and-flavor-basics
 tags:

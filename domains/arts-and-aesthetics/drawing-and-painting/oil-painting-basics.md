@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: color-temperature
   type: soft
+- id: canvas-preparation-and-priming
+  type: soft
+- id: paint-properties-transparency-and-opacity
+  type: soft
 builds-toward:
 - plein-air-painting
 tags:

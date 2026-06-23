@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: power-cycle-thermal-efficiency
   type: soft
+- id: turbine-compressor-efficiency-definitions
+  type: soft
+- id: two-phase-flow-analysis
+  type: soft
 builds-toward:
 - rankine-cycle-reheat-regeneration
 - combined-gas-steam-cycles

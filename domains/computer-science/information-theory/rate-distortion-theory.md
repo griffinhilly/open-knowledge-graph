@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: data-compression-basics
   type: soft
+- id: typical-sequences-aep
+  type: hard
 tags:
 - rate-distortion
 - lossy compression

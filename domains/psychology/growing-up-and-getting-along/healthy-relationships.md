@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: peer-pressure-and-decision-making
   type: soft
+- id: what-makes-a-good-friend
+  type: soft
 builds-toward:
 - social-cognition
 tags:

@@ -6,6 +6,8 @@ course: model-theory
 prerequisites:
 - id: type-realization-and-omission
   type: hard
+- id: ultraproducts-of-structures
+  type: soft
 builds-toward:
 - stability-theory-introduction
 - morleys-uncountable-categoricity

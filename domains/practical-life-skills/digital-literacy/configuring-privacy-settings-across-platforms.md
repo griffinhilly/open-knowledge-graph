@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: app-permissions-and-privacy
   type: soft
+- id: understanding-website-cookies-and-tracking
+  type: soft
 builds-toward:
 - digital-identity-management
 tags:

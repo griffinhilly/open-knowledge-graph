@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: trauma-representation-witness
   type: hard
-builds-toward:
-- grotesque-imagery-representation
-- body-autonomy-violation-theme
 tags:
 - body-horror
 - violation

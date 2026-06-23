@@ -6,6 +6,10 @@ course: theory-of-computation
 prerequisites:
 - id: regular-languages-fundamentals
   type: hard
+- id: alphabets-and-language-definition
+  type: hard
+- id: regular-expressions-formal
+  type: soft
 builds-toward:
 - pumping-lemma-for-regular-languages
 tags:

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: concrete-sealing-and-waterproofing
   type: soft
+- id: gutter-and-water-drainage-assessment
+  type: soft
 builds-toward:
 - landscape-drainage-grading
 tags:

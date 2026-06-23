@@ -10,8 +10,8 @@ prerequisites:
   type: hard
 - id: extended-harmony-voice-leading-handling
   type: soft
-builds-toward:
-- voice-leading-in-composition
+- id: extended-harmony-upper-extensions-voice-leading
+  type: soft
 tags:
 - jazz
 - voice-leading

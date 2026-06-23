@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - syllable-types-reading
 - reading-fluency-basics
-- decoding-words
 tags:
 - phonics
 - vowel-teams

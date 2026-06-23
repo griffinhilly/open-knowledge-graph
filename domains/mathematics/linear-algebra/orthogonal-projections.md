@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: inner-product-spaces
   type: hard
+- id: orthogonality-in-linear-algebra
+  type: hard
 builds-toward:
 - gram-schmidt-process
 - least-squares-approximation

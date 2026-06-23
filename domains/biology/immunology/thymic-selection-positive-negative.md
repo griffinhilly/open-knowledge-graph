@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: major-histocompatibility-complex
   type: hard
+- id: lymphocyte-development-checkpoints
+  type: soft
 builds-toward:
 - cd4-helper-t-cells
 - cd8-cytotoxic-t-cells

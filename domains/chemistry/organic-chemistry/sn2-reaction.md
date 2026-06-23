@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: diastereomers-and-meso-compounds
   type: soft
+- id: leaving-groups-nucleofugality
+  type: hard
+- id: nucleophile-electrophile-definitions
+  type: hard
 builds-toward:
 - sn1-reaction
 - e2-elimination

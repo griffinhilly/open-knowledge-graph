@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - cognitive-behavioral-therapy
-- treatment-planning-mental-health
 tags:
 - formulation
 - treatment-planning

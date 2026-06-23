@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - speaker-credibility-building
-- rhetorical-stance-development
 tags:
 - ethos
 - credibility

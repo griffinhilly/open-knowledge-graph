@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: electric-potential
   type: soft
+- id: electroanalytical-overview
+  type: soft
 builds-toward:
 - voltammetry
 - coulometry

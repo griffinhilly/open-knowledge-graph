@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - group-polarization-risky-shift
-- pluralistic-ignorance
 tags:
 - conformity
 - social proof

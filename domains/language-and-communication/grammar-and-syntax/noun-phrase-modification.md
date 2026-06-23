@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: prepositional-phrases
   type: hard
+- id: determiners-and-articles
+  type: soft
 builds-toward:
 - relative-clauses
 - sentence-variety-and-rhythm

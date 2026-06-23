@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: real-and-virtual-images-optics
   type: soft
+- id: spherical-mirror-formula
+  type: hard
 builds-toward:
 - spherical-mirrors
 tags:

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: dendritic-cells-and-professional-apcs
   type: soft
+- id: adaptive-immune-response-kinetics
+  type: soft
+- id: memory-b-cells-and-long-lived-antibody-response
+  type: soft
 builds-toward:
 - immunological-memory-secondary-response
 tags:

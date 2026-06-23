@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: conservation-of-mass
+  type: soft
+- id: elemental-composition-and-mass-relationships
+  type: hard
+- id: mole-concept
+  type: hard
 builds-toward:
 - limiting-reagent-determination
 - percent-yield-calculations

@@ -14,9 +14,6 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
-builds-toward:
-- three-way-interactions
-- heterogeneous-treatment-effects
 tags:
 - interactions
 - conditional

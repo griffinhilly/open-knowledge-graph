@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - jet-stream-subtropical-polar
-- planetary-circulation-patterns-general
 tags:
 - circulation
 - wind

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: logical-inference-and-rules
   type: soft
+- id: predicates-quantifiers-discrete
+  type: soft
 builds-toward:
 - counting-fundamentals-discrete
 - divisibility-and-primes-discrete

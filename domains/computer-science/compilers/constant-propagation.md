@@ -6,6 +6,8 @@ course: compilers
 prerequisites:
 - id: reaching-definitions-analysis
   type: hard
+- id: code-optimization
+  type: hard
 tags:
 - optimization
 - constant-propagation

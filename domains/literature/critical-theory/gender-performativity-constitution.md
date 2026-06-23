@@ -6,6 +6,8 @@ course: critical-theory
 prerequisites:
 - id: subject-and-interpellation
   type: hard
+- id: althusserian-interpellation
+  type: soft
 builds-toward:
 - intersectionality-multiple-difference
 tags:

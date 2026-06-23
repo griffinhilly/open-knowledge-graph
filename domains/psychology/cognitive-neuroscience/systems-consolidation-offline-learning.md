@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: hippocampus-memory-consolidation
   type: hard
-builds-toward:
-- sleep-memory-consolidation-mechanisms
-- memory-generalization-schema-formation
 tags:
 - consolidation
 - offline-learning

@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: literary-value-aesthetics-comparative
   type: soft
+- id: genre-fiction-defining-characteristics
+  type: hard
 builds-toward:
 - genre-blending-hybridity
-- literary-canonicity-power-construction
 tags:
 - genre-theory
 - literary-fiction

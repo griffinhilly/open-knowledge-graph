@@ -6,6 +6,8 @@ course: cooking-and-nutrition
 prerequisites:
 - id: basic-nutrition-fundamentals
   type: hard
+- id: nutrition-food-groups-balance
+  type: soft
 builds-toward:
 - meal-planning-basics
 - reading-nutrition-labels

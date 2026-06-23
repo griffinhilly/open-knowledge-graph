@@ -13,7 +13,6 @@ prerequisites:
 builds-toward:
 - atmospheric-inversion-temperature
 - cape-convective-available-potential
-- lifting-condensation-level
 tags:
 - thermodynamics
 - adiabatic

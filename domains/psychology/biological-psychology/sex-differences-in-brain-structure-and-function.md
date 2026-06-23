@@ -10,9 +10,6 @@ prerequisites:
   type: soft
 - id: sex-linked-inheritance
   type: soft
-builds-toward:
-- sexual-dimorphism-in-behavior
-- psychiatric-sex-differences
 tags:
 - sexual-dimorphism
 - sex-differences

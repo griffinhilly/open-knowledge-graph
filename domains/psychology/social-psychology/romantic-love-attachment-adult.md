@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: similarity-interpersonal-attraction
   type: soft
-builds-toward:
-- relationship-quality-intimacy
 tags:
 - romantic-love
 - attachment

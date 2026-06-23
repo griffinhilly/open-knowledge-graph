@@ -6,6 +6,10 @@ course: ethics
 prerequisites:
 - id: consequentialism
   type: hard
+- id: impartial-vs-partial-agents
+  type: soft
+- id: intrinsic-vs-extrinsic-value
+  type: soft
 builds-toward:
 - act-vs-rule-utilitarianism
 - trolley-problem

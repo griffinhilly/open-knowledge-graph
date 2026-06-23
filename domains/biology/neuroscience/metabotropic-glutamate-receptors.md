@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: glutamatergic-excitation
   type: soft
-builds-toward:
-- synaptic-plasticity-longer-timescales
-- cerebellar-learning
 tags:
 - mglur
 - metabotropic

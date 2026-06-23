@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: undecidability-proof-by-reduction
   type: hard
+- id: enumeration-and-index-sets
+  type: hard
 builds-toward:
 - undecidability-and-godel
 tags:

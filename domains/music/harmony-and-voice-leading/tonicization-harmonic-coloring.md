@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: applied-chord-tonicization-process
   type: soft
-builds-toward:
-- voice-leading-in-composition
 tags:
 - tonicization
 - harmony

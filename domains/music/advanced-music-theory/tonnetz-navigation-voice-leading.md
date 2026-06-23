@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - triadic-transformation-cycles
-- neo-riemannian-voice-leading-graphs
 tags:
 - neo-riemannian-theory
 - pitch-space

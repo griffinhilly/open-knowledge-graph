@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: atomic-orbitals
   type: soft
+- id: fermions-and-bosons
+  type: soft
 builds-toward:
 - band-theory-intro
 tags:

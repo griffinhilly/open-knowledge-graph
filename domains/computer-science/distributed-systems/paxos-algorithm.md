@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
+- id: flp-impossibility
+  type: soft
 builds-toward:
 - state-machine-replication
 tags:

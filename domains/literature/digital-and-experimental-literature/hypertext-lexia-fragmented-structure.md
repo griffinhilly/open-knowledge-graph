@@ -6,8 +6,6 @@ course: digital-and-experimental-literature
 prerequisites:
 - id: hypertext-fiction-form
   type: hard
-- id: narrative-structure
-  type: soft
 tags:
 - hypertext
 - lexia

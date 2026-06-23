@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - sympatric-speciation
-- polymorphism-maintenance
 tags:
 - selection
 - adaptive-peaks

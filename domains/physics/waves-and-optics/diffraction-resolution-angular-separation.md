@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: rayleigh-criterion-resolution
   type: soft
-builds-toward:
-- optical-system-magnification
 tags:
 - resolution
 - diffraction

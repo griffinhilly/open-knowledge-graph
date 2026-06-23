@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: uv-vis-spectroscopy-analytical
   type: soft
+- id: comets-asteroids-meteors
+  type: hard
 builds-toward:
 - meteorites-and-planetary-samples
 tags:

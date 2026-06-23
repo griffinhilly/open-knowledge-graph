@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: chelate-effect-stability-constants
   type: soft
+- id: hsab-theory
+  type: soft
 builds-toward:
 - inorganic-photochemistry
 tags:

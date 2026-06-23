@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: key-signatures-reading-writing
   type: soft
+- id: interval-counting-and-naming
+  type: hard
 builds-toward:
 - triad-quality-diminished-augmented
 - seventh-chord-construction

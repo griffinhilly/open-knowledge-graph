@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: splitting-fields
   type: hard
+- id: field-definition-and-examples
+  type: hard
 builds-toward:
 - galois-groups
 tags:

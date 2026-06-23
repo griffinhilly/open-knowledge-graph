@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: hormone-signaling-mechanisms
   type: soft
+- id: synaptic-transmission-neurotransmitter-release
+  type: hard
 builds-toward:
 - agonists-and-antagonists
 - psychopharmacology-basics

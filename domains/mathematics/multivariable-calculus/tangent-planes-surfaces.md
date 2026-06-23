@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: tangent-planes-linear-approximation
   type: hard
-builds-toward:
-- surface-parametrization
 tags:
 - tangent-planes
 - surfaces

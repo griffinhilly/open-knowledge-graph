@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: free-energy-thermodynamic-relations
   type: soft
+- id: thermodynamic-limit-statmech
+  type: soft
 builds-toward:
 - critical-exponents
 - renormalization-group-scaling

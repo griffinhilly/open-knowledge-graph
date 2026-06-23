@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: soundness-theorem-proof-systems
   type: soft
+- id: deductive-vs-inductive-reasoning
+  type: soft
+- id: valid-vs-invalid-arguments
+  type: soft
+- id: when-is-something-proven
+  type: soft
 builds-toward:
 - natural-deduction-propositional
 - natural-deduction-fol

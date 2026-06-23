@@ -10,8 +10,8 @@ prerequisites:
   type: soft
 - id: bacterial-anaerobic-respiration-and-fermentation
   type: soft
-builds-toward:
-- microbial-succession-and-nutrient-cycling
+- id: bacterial-aerobic-respiration-electron-transport
+  type: soft
 tags:
 - chemolithotrophy
 - energy

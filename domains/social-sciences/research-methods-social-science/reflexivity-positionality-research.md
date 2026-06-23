@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: philosophy-of-social-science-epistemology
   type: soft
+- id: fieldwork-positionality-ethics
+  type: soft
 tags:
 - reflexivity
 - positionality

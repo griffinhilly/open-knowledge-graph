@@ -8,8 +8,8 @@ prerequisites:
   type: soft
 - id: identity-development-adolescence
   type: hard
-builds-toward:
-- cognitive-aging-declines-fluid-crystallized
+- id: self-concept-self-esteem-development
+  type: soft
 tags:
 - identity-development
 - adolescence

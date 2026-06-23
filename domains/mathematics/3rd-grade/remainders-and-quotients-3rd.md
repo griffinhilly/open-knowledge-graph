@@ -6,6 +6,8 @@ course: 3rd-grade
 prerequisites:
 - id: division-with-remainders-3rd
   type: hard
+- id: division-facts-as-inverse-multiplication
+  type: hard
 builds-toward:
 - division-word-problems-3rd
 - multi-step-word-problems-3rd

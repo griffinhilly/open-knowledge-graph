@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: complex-sentence-construction
   type: soft
+- id: progressive-and-perfect-aspects
+  type: soft
+- id: verb-tense-simple-past-present-future
+  type: hard
 builds-toward:
 - paragraph-structure
 tags:

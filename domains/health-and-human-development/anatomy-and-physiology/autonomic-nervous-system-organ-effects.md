@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: synaptic-transmission
   type: soft
-builds-toward:
-- stress-response-adaptation
 tags:
 - autonomic-nervous-system
 - sympathetic

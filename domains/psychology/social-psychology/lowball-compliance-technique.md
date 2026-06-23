@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: foot-in-the-door-compliance-technique
   type: soft
-builds-toward:
-- commitment-based-influence
 tags:
 - compliance
 - commitment

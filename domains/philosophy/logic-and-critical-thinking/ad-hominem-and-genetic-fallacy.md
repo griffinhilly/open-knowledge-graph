@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: appeal-to-emotion-fallacy
   type: soft
+- id: relevance-of-premises
+  type: soft
 tags:
 - ad-hominem
 - genetic-fallacy

@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - sleep-architecture-consolidation
-- altered-states-of-consciousness
 tags:
 - arousal
 - consciousness

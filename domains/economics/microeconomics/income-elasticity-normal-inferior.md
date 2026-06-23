@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: income-consumption-path-engel
   type: soft
-builds-toward:
-- income-consumption-path
 tags:
 - elasticity
 - income

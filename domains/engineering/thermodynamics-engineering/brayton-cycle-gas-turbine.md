@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: carnot-cycle
   type: soft
+- id: thermodynamic-property-diagrams
+  type: soft
+- id: ts-diagram-entropy-temperature
+  type: soft
 builds-toward:
 - brayton-cycle-intercooling-reheating
 tags:

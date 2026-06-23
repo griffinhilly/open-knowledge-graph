@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stage-directions-and-performance-text
   type: soft
+- id: dramatic-action-and-activity
+  type: soft
 builds-toward:
   - dramatic-climax-construction
 tags:

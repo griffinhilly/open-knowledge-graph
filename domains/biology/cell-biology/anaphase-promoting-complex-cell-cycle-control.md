@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cell-cycle-regulation
   type: hard
+- id: sister-chromatid-cohesion-cohesin-proteins
+  type: soft
 builds-toward:
 - mitosis
 tags:

@@ -11,7 +11,6 @@ prerequisites:
 - id: major-minor-mode-quality-discrimination
   type: soft
 builds-toward:
-- major-mode-vs-minor-mode-discrimination
 - modulation-detection-by-ear
 tags:
 - tonality

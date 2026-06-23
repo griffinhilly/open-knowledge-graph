@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: equilibrium-particles-3d
   type: soft
+- id: free-body-diagram-method
+  type: hard
+- id: moment-of-force-3d
+  type: soft
+- id: support-reactions-classification
+  type: soft
 builds-toward:
 - truss-method-of-joints
 - frames-machines-analysis

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: password-management-and-accounts
   type: soft
+- id: keeping-yourself-safe-online
+  type: soft
 builds-toward:
 - password-security
 - online-account-management

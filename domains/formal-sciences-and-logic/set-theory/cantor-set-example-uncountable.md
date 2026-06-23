@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - descriptive-set-theory-intro
-- measurable-cardinals-ultra-filters
 tags:
 - cantor-set
 - uncountable

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: basic-chord-concepts
   type: soft
+- id: diatonic-triad-harmonization
+  type: soft
 builds-toward:
 - functional-harmony
 - basic-chord-progressions

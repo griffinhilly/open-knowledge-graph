@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: rossby-waves-barotropic
   type: soft
+- id: atmospheric-waves-and-instability
+  type: soft
+- id: thermal-wind-balance
+  type: hard
 builds-toward:
 - severe-weather-systems
 - regional-climate-downscaling

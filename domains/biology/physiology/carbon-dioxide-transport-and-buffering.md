@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: respiratory-system-overview
   type: soft
+- id: hemoglobin-cooperativity-oxygen-binding
+  type: soft
 builds-toward:
 - acid-base-balance-renal-regulation
 tags:

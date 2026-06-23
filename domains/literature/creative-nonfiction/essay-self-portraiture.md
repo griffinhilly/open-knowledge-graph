@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: autobiographical-authority
   type: soft
+- id: nonfiction-voice-authenticity
+  type: soft
 builds-toward:
 - essay-collection-unity
 - nonfiction-voice-authenticity

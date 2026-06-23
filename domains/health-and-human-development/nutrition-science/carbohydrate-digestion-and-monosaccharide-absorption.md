@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: carbohydrate-structure-and-classification
   type: soft
+- id: digestive-enzyme-secretion-and-regulation
+  type: soft
 builds-toward:
 - glycemic-index-load-and-postprandial-glucose
 - glucose-homeostasis-fed-fasted-metabolic-states

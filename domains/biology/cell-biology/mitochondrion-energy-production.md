@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: cellular-respiration-pathways
   type: soft
+- id: cell-structure-organelles-and-function
+  type: soft
+- id: compartmentalization-cellular-organization
+  type: soft
 builds-toward:
 - oxidative-phosphorylation-and-chemiosmosis
 - electron-transport-chain

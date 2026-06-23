@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: rock-forming-minerals
   type: soft
+- id: types-of-rocks
+  type: soft
 builds-toward:
 - rock-cycle
 - stratigraphy

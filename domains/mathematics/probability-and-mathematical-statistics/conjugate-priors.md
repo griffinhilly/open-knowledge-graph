@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: exponential-family
   type: soft
+- id: bayesian-statistics-fundamentals
+  type: hard
 builds-toward:
 - bayesian-point-estimation
 tags:

@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: acetylcholine-system
   type: hard
-builds-toward:
-- skeletal-muscle-contraction-mechanics
 tags:
 - neuromuscular-junction
 - motor-control

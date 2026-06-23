@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: semi-supervised-learning
   type: soft
+- id: representation-learning
+  type: soft
 builds-toward:
 - contrastive-learning
 - transfer-learning-neural

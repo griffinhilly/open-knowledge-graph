@@ -8,8 +8,9 @@ prerequisites:
   type: hard
 - id: species-interactions
   type: soft
+- id: competition-and-niches
+  type: hard
 builds-toward:
-- community-composition-structure
 - community-assembly-rules
 tags:
 - competition

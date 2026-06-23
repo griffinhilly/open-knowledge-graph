@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: resolution-propositional
   type: soft
+- id: counterexamples-in-reasoning
+  type: soft
 tags:
 - first-order-logic
 - proof-methods

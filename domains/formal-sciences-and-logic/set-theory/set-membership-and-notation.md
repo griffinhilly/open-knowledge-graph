@@ -3,7 +3,11 @@ id: set-membership-and-notation
 title: Set Membership and Notation
 domain: formal-sciences-and-logic
 course: set-theory
-prerequisites: []
+prerequisites:
+- id: set-notation-basics
+  type: hard
+- id: venn-diagrams-logic
+  type: soft
 builds-toward:
 - subset-proper-subset-relations
 - set-equality-and-extensionality

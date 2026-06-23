@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: group-definition-examples
   type: hard
+- id: algebraic-and-transcendental-elements
+  type: soft
 builds-toward:
 - fundamental-theorem-galois-theory
 tags:

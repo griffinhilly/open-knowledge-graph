@@ -6,8 +6,6 @@ course: electricity-and-magnetism
 prerequisites:
 - id: ac-impedance
   type: hard
-builds-toward:
-- maxwells-equations-overview
 tags:
 - resonance
 - rlc

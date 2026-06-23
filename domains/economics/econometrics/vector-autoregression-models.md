@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: hard
-builds-toward:
-- regression-discontinuity
 tags:
 - time-series
 - var

@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: acid-base-definitions
   type: soft
+- id: ocean-carbonate-system-buffering
+  type: hard
 builds-toward:
 - coral-reef-ecosystems
 tags:

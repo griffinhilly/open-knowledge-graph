@@ -6,8 +6,6 @@ course: real-analysis
 prerequisites:
 - id: epsilon-n-convergence
   type: hard
-builds-toward:
-- metric-space-topology
 tags:
 - cauchy
 - completeness

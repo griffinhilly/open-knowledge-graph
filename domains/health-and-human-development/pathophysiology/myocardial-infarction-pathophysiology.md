@@ -14,9 +14,16 @@ prerequisites:
   type: soft
 - id: ischemia-reperfusion-injury-pathophysiology
   type: soft
-builds-toward:
-- post-infarction-ventricular-remodeling
-- cardiogenic-shock
+- id: apoptosis-necrosis-distinction-mechanisms
+  type: soft
+- id: atherosclerotic-plaque-rupture-and-thrombosis
+  type: hard
+- id: coagulation-cascade-tissue-factor-pathway
+  type: soft
+- id: coronary-vasospasm-and-angina-pectoris
+  type: soft
+- id: thrombosis-pathophysiology
+  type: hard
 tags:
 - myocardial-infarction
 - acute-coronary-syndrome

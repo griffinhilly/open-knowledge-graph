@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: working-memory-capacity-chunking
   type: soft
-builds-toward:
-- task-switching-executive-control-costs
 tags:
 - attention
 - capacity

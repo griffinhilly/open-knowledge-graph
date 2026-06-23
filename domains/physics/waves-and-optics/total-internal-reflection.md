@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: snells-law
   type: hard
+- id: critical-angle-total-internal-reflection-optical
+  type: hard
 builds-toward:
 - dispersion-and-prisms
 tags:

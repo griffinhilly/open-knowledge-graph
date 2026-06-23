@@ -365,13 +365,12 @@ def main():
                     continue
                 if target_id not in all_topics:
                     warn(all_topics[topic_id], f"builds-toward '{target_id}' not found")
-                elif target_id in all_data:
-                    # Check that the target lists this topic as a prerequisite
-                    target_prereqs = all_data[target_id].get("prerequisites", [])
-                    target_prereq_ids = [p.get("id") for p in target_prereqs if isinstance(p, dict)]
-                    if topic_id not in target_prereq_ids:
-                        warn(all_topics[topic_id],
-                             f"builds-toward '{target_id}' but that topic doesn't list '{topic_id}' as prerequisite")
+                # Non-reciprocity check removed (2026-06-23). builds-toward is a non-authoritative
+                # informational forward hint (see meta/schema.md); the prerequisite graph is the
+                # source of truth, so a forward hint need not be mirrored as a backward prerequisite.
+                # Genuine missing prereqs were recovered via the builds-toward swarm reconciliation
+                # (3,044 edges added); the residual non-reciprocities are by-design — related,
+                # contrasting, or parallel topics that should not become prerequisites.
 
     # Check for cycles
     cycles = find_cycles(prereq_graph)

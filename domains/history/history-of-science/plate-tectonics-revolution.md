@@ -7,10 +7,6 @@ prerequisites:
 - id: enlightenment-science
   type: soft
 
-builds-toward:
-- volcanic-activity-mechanisms
-- earthquake-science-seismology
-- environmental-history-overview
 tags:
 - history
 - History Of Science

@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: weight-comparison
   type: soft
-builds-toward:
-- measurement-with-nonstandard-units
 tags:
 - measurement
 - length

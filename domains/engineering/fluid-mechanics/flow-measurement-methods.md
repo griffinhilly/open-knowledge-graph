@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: pitot-tube-velocity-measurement
   type: soft
+- id: differential-manometer-types
+  type: soft
 tags:
 - venturi meter
 - orifice plate

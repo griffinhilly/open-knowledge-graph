@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: system-justification-ideology
   type: soft
-builds-toward:
-- ideological-personality-prejudice
 tags:
 - social dominance
 - hierarchy

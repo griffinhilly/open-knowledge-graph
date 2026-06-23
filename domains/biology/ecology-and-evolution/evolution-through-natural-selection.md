@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: life-history-evolution-r-and-k-selection
   type: soft
+- id: natural-selection-basics
+  type: hard
 builds-toward:
 - microevolution-and-macroevolution
 - evidence-for-evolution

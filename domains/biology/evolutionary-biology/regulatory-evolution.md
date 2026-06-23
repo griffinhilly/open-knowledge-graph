@@ -18,7 +18,6 @@ prerequisites:
   type: soft
 builds-toward:
 - evo-developmental-modules
-- phenotypic-evolution
 tags:
 - regulation
 - evolution

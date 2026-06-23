@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: common-collector-amplifier
   type: soft
+- id: amplifier-biasing-stability
+  type: soft
 builds-toward:
 - differential-amplifier-circuits
 tags:

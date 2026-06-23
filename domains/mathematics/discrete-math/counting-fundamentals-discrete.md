@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pigeonhole-and-counting
   type: soft
+- id: set-relations-functions-discrete
+  type: soft
 builds-toward:
 - permutations-arrangements-discrete
 - combinations-selections-discrete

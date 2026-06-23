@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - altruism-evolution
-- cooperation-evolution
 tags:
 - selection
 - mathematical-biology

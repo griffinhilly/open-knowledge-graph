@@ -12,10 +12,13 @@ prerequisites:
   type: soft
 - id: cholesterol-metabolism-and-regulation
   type: hard
+- id: acute-inflammation-pathophysiology
+  type: soft
+- id: vascular-smooth-muscle-remodeling
+  type: soft
 builds-toward:
 - myocardial-infarction-pathophysiology
 - stroke-pathophysiology
-- peripheral-arterial-disease
 tags:
 - atherosclerosis
 - cardiovascular-disease

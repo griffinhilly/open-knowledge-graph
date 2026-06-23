@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - scene-reconstruction-memory
-- narrative-nonfiction-form
 tags:
 - tom-wolfe
 - new-journalism

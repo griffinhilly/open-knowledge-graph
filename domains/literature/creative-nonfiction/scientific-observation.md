@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: descriptive-writing
   type: soft
-builds-toward:
-- science-writing
-- natural-history-essay
 tags:
 - scientific-observation
 - close-looking

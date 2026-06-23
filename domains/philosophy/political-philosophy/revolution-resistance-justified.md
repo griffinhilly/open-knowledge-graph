@@ -8,9 +8,6 @@ prerequisites:
   type: soft
 - id: civil-disobedience-justified
   type: soft
-builds-toward:
-- political-change-justified
-- legitimacy-conditions
 tags:
 - revolution
 - resistance

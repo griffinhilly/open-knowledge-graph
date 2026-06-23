@@ -6,8 +6,6 @@ course: literary-movements-and-periods
 prerequisites:
 - id: victorian-era-literature-overview
   type: hard
-builds-toward:
-- character-motivation-and-development
 tags:
 - bronte
 - victorian

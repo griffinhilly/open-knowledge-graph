@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - harmonic-progression-analysis
-- form-analysis
 tags:
 - phrase
 - structure

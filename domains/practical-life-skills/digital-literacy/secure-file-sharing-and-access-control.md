@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: software-installation-management
   type: soft
-builds-toward:
-- digital-identity-management
 tags:
 - sharing
 - collaboration

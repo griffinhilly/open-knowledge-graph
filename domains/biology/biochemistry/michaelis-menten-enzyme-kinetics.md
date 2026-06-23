@@ -25,7 +25,6 @@ prerequisites:
 - id: chemical-equilibrium
   type: soft
 builds-toward:
-- enzyme-inhibition-competitive
 - allosteric-enzyme-regulation
 tags:
 - Michaelis-Menten

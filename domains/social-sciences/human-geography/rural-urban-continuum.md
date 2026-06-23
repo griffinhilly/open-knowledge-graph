@@ -9,7 +9,6 @@ prerequisites:
 - id: urban-rural-and-suburban
   type: soft
 builds-toward:
-- urban-renewal-gentrification
 - regional-economic-restructuring
 tags:
 - rural

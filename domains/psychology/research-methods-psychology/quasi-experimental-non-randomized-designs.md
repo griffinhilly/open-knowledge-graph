@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: quasi-experimental-designs-nonequivalent-groups
   type: soft
-builds-toward:
-- internal-validity-confounds-and-control
 tags:
 - quasi-experimental
 - causal-inference-approximate

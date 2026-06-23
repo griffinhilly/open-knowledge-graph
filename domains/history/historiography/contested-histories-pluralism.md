@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: historical-objectivity-problem
   type: soft
+- id: historical-consciousness
+  type: soft
 tags:
 - contested
 - pluralism

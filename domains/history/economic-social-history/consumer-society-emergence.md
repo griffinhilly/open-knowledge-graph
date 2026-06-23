@@ -9,9 +9,6 @@ prerequisites:
 - id: urbanization-history
   type: soft
 
-builds-toward:
-- advertising-and-marketing-history
-- environmental-impacts-consumption
 tags:
 - history
 - Economic Social History

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reading-recipes
   type: soft
+- id: recipe-adaptation-and-substitutions
+  type: soft
 tags:
 - dietary-restrictions
 - substitutions

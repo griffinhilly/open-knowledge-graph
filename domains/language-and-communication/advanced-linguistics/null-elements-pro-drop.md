@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: parameter-setting-universal-grammar
   type: soft
+- id: feature-agreement-checking
+  type: soft
 tags:
 - pro-drop
 - null-subjects

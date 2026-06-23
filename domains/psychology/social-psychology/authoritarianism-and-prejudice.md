@@ -6,9 +6,6 @@ course: social-psychology
 prerequisites:
 - id: prejudice-and-discrimination
   type: hard
-builds-toward:
-- ideological-personality-prejudice
-- threat-based-prejudice
 tags:
 - authoritarianism
 - prejudice

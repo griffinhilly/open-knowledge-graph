@@ -9,7 +9,6 @@ prerequisites:
 - id: dot-product
   type: hard
 builds-toward:
-- work-line-integrals
 - conservative-fields
 tags:
 - line-integral

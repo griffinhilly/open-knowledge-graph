@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: symbolic-interactionism
   type: hard
+- id: criminology-sociological-approach
+  type: soft
 builds-toward:
 - moral-panic-amplification-spiral
 tags:

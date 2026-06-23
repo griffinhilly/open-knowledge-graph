@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: glycogen-synthesis-and-degradation
   type: hard
+- id: fed-fasted-metabolic-state-and-hormonal-signaling
+  type: soft
 tags:
 - macronutrients
 - timing

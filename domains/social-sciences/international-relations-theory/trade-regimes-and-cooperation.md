@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: economic-interdependence-peace
   type: soft
+- id: relative-versus-absolute-gains
+  type: soft
 builds-toward:
 - international-law-compliance
 tags:

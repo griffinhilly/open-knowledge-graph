@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: rounding-to-nearest-ten
   type: soft
+- id: place-value-three-digits-3rd
+  type: hard
 builds-toward:
 - estimation-strategies
 - rounding-decimals

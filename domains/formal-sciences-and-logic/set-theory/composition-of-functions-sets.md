@@ -6,6 +6,8 @@ course: set-theory
 prerequisites:
 - id: functions-and-function-properties
   type: hard
+- id: injections-surjections-and-inverse-functions
+  type: soft
 builds-toward:
 - well-founded-relations-and-recursion
 - natural-numbers-as-iterative-construction

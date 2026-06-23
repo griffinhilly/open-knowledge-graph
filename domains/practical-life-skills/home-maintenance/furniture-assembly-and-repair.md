@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wall-patching-and-repair
   type: soft
+- id: basic-carpentry-tools-and-techniques
+  type: soft
 builds-toward: []
 tags:
 - furniture

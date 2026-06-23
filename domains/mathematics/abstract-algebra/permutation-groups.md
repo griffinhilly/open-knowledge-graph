@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: group-definition-examples
   type: hard
+- id: group-definition-and-examples
+  type: hard
 builds-toward:
 - cycle-notation-decomposition
 - sign-permutation

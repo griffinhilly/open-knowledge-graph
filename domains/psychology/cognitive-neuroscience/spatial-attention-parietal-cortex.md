@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - prefrontal-parietal-attention-networks
-- neglect-syndrome-spatial-awareness
 tags:
 - attention
 - spatial-attention

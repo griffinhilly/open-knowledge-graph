@@ -6,8 +6,6 @@ course: discrete-math
 prerequisites:
 - id: combinations-and-selections
   type: soft
-builds-toward:
-- recurrence-relations
 tags:
 - generating-functions
 - sequences

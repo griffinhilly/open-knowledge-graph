@@ -4,7 +4,7 @@ title: Wenyan (Classical Chinese) as Literary Medium
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - chinese-literary-modernity-transition-vernacular

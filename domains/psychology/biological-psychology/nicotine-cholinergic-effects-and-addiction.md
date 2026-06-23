@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: reward-dopamine-systems
   type: hard
-builds-toward:
-- nicotine-addiction-mechanisms
-- smoking-cessation
 tags:
 - nicotine
 - acetylcholine

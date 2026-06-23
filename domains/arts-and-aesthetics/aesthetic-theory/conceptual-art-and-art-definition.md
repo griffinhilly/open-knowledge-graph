@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: contemporary-art-and-postmodernism
   type: soft
+- id: form-versus-representation-debate
+  type: soft
 builds-toward:
 - artistic-transgression-institutional-critique
 - deconstruction-and-art

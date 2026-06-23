@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - prefrontal-amygdala-emotion-regulation
-- anxiety-disorders-amygdala-hyperactivity
 tags:
 - amygdala
 - fear

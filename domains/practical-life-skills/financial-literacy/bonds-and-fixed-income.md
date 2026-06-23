@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: percent-concept
   type: soft
+- id: apr-apy-and-interest-rate-calculation
+  type: soft
 builds-toward:
 - index-fund-investing
 tags:

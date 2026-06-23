@@ -9,7 +9,6 @@ prerequisites:
 - id: modulation-techniques
   type: soft
 builds-toward:
-- modulation-functional-composition
 - formal-design-multipart-structure
 tags:
 - tonality

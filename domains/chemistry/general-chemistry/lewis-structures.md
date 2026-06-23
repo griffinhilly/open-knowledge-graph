@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: ionic-bonding
   type: soft
+- id: covalent-bonding-formation
+  type: hard
+- id: valence-electrons-and-reactivity
+  type: hard
 builds-toward:
 - resonance-and-formal-charge
 - vsepr-theory

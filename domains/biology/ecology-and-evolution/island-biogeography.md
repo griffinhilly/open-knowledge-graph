@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: species-interactions
   type: soft
+- id: biodiversity-metrics
+  type: soft
 builds-toward:
 - biodiversity-and-conservation
 tags:

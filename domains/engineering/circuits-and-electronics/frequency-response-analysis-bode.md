@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - filter-design-specifications
-- feedback-control-fundamentals
 tags:
 - frequency-response
 - bode-plots

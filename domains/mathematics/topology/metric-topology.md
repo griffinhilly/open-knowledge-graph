@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: subspace-topology
   type: soft
+- id: metric-spaces-definition
+  type: hard
 builds-toward:
 - metrization-theorems
 - completeness-metric-spaces

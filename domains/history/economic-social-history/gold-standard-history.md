@@ -6,11 +6,12 @@ course: economic-social-history
 prerequisites:
 - id: industrial-revolution-economic-impact
   type: soft
+- id: history-of-money
+  type: hard
 
 builds-toward:
 - great-depression-causes-responses
 - bretton-woods-system
-- inflation-and-monetary-policy
 tags:
 - history
 - Economic Social History

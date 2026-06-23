@@ -11,7 +11,6 @@ prerequisites:
 - id: electrolytic-cells-and-electrolysis
   type: soft
 builds-toward:
-- electrolytic-cells
 - electrochemical-kinetics
 tags:
 - galvanic cells

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: primitive-roots-and-cyclic-groups-mod-p
   type: soft
+- id: order-element-modulo-n
+  type: hard
 builds-toward:
 - discrete-logarithms
 tags:

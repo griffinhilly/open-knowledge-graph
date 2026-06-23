@@ -6,6 +6,8 @@ course: stories-and-narrative
 prerequisites:
 - id: setting-atmosphere-mood-intro
   type: hard
+- id: tone-in-storytelling
+  type: soft
 tags:
 - mood
 - emotion

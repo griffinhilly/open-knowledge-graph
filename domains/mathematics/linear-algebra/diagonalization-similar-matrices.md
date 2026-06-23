@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - jordan-normal-form-intro
-- spectral-theorem-symmetric
 tags:
 - diagonalization
 - similar-matrices

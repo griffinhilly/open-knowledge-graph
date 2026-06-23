@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: gender-socialization-performance
   type: soft
+- id: in-group-out-group-dynamics
+  type: soft
 builds-toward:
 - intersectionality
 - feminist-sociology

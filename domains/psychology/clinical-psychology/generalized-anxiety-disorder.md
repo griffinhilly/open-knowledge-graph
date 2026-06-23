@@ -6,6 +6,8 @@ course: clinical-psychology
 prerequisites:
 - id: anxiety-disorders-overview
   type: hard
+- id: dsm-5-diagnostic-framework
+  type: soft
 tags:
 - gad
 - anxiety

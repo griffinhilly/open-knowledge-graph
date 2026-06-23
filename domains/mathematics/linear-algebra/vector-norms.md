@@ -8,10 +8,13 @@ prerequisites:
   type: hard
 - id: square-roots-intro
   type: hard
+- id: dot-product
+  type: soft
+- id: vectors-3d-coordinate-system
+  type: soft
 builds-toward:
 - dot-product
 - orthogonal-vectors-orthonormal-bases
-- matrix-norms
 tags:
 - vectors
 - norms

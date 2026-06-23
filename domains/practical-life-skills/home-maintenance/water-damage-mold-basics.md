@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diy-vs-hire-professional
   type: soft
+- id: moisture-intrusion-identification-and-sources
+  type: soft
 builds-toward: []
 tags:
 - water-damage

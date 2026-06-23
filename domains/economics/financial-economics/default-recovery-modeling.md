@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: corporate-bond-credit-spreads
   type: soft
+- id: credit-analysis-bond-selection
+  type: soft
 builds-toward: []
 tags:
 - credit-risk

@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: e1-elimination
   type: hard
+- id: walden-inversion-sn2
+  type: soft
+- id: walden-inversion-stereochemistry
+  type: soft
+- id: zaitsev-hofmann-elimination-selectivity
+  type: soft
 builds-toward:
 - retrosynthetic-analysis
 tags:

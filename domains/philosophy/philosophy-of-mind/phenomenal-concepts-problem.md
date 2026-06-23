@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: knowledge-argument
   type: soft
+- id: epistemic-gap-consciousness
+  type: soft
 builds-toward:
 - consciousness-causation-efficacy
 tags:

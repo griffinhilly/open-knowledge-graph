@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: polar-coordinates
   type: hard
+- id: double-integrals-cartesian
+  type: hard
 builds-toward:
 - triple-integrals-cylindrical
 - change-of-variables-multivariable

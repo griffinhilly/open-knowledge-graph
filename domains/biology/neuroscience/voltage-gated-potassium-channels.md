@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ligand-gated-ion-channels
   type: soft
+- id: neuronal-compartments
+  type: soft
 builds-toward:
 - action-potential-depolarization-repolarization
 tags:

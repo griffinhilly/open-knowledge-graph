@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - eighteenth-century-rise-novel
-- victorian-social-novel
 tags:
 - enlightenment
 - satire

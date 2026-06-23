@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - bose-einstein-condensation
-- fermi-gas-statistical-properties
 tags:
 - ensemble
 - open-system

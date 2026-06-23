@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: vector-spaces
   type: hard
+- id: field-definition-and-examples
+  type: hard
+- id: polynomial-rings
+  type: soft
 builds-toward:
 - algebraic-transcendental-elements
 - splitting-fields

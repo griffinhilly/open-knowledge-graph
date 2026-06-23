@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: normal-subgroups
   type: soft
+- id: permutation-representations
+  type: soft
 builds-toward:
 - frobenius-reciprocity
 tags:

@@ -6,8 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: linear-functionals-dual-spaces
   type: hard
-builds-toward:
-- weak-convergence-banach
+- id: dual-spaces-bounded-functionals
+  type: hard
 tags:
 - functional-analysis
 stage: expert

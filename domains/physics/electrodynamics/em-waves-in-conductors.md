@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
+- id: drude-model-conductivity
+  type: soft
 builds-toward:
 - waveguides-transmission-lines
 tags:

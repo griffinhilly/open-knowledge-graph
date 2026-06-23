@@ -6,6 +6,10 @@ course: control-systems
 prerequisites:
 - id: second-order-system-response-analysis
   type: hard
+- id: first-order-system-response-analysis
+  type: hard
+- id: transient-response-damping-oscillation
+  type: hard
 builds-toward:
 - control-loop-design-via-bode-plots
 tags:

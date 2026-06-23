@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: turing-machines-formal
   type: soft
+- id: computational-theory-of-mind
+  type: soft
 builds-toward:
 - consciousness-causation-efficacy
 - emergence-reduction-consciousness

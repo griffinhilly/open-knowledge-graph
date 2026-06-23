@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: literary-journalism-technique
   type: soft
-builds-toward:
-- biographical-form
-- character-in-nonfiction
 tags:
 - profile
 - portraiture

@@ -6,7 +6,6 @@ course: art-history
 prerequisites: []
 builds-toward:
 - impressionism-color-light-and-optical-perception
-- realism-and-social-observation
 tags:
 - realism
 - nineteenth-century

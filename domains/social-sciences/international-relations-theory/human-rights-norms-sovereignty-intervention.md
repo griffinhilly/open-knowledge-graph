@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: human-security-framework
   type: soft
+- id: international-norms-diffusion
+  type: soft
+- id: sovereignty-westphalian-state-system
+  type: hard
 builds-toward: []
 tags:
 - human-rights

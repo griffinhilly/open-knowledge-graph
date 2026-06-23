@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: subbasis-topology
   type: soft
+- id: continuous-functions-topology
+  type: hard
 builds-toward:
 - quotient-maps-and-identification
 - classification-compact-surfaces

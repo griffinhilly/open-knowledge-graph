@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: chemical-kinetics
   type: hard
+- id: reaction-rate-and-factors-affecting-rate
+  type: soft
 builds-toward:
 - integrated-rate-laws
 tags:

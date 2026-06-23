@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: latent-heating-in-weather-systems
   type: hard
-builds-toward:
-- severe-weather-dynamics-supercells
-- severe-weather-parameter-environment
 tags:
 - microphysics
 - severe-weather

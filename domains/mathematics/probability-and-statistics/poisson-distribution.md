@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: discrete-random-variables
   type: hard
+- id: expected-value
+  type: soft
 builds-toward:
 - sampling-distributions
 tags:

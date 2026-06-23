@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: optimization-problems
   type: soft
+- id: overfitting-underfitting
+  type: hard
 tags:
 - learning-theory
 - overfitting-prevention

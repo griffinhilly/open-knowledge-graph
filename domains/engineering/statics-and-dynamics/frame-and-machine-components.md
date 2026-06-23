@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: frames-machines-analysis
   type: soft
+- id: statically-determinate-analysis
+  type: soft
 tags:
 - frames
 - machines

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: saving-versus-investing-fundamental-distinction
   type: hard
+- id: retirement-income-and-withdrawal-strategies
+  type: soft
 tags:
 - financial-independence
 - fire

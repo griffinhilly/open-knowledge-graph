@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: decolonization-independence-movements
   type: soft
-builds-toward:
-- cold-war-asia-communist-expansion
 tags:
 - China
 - communist-revolution

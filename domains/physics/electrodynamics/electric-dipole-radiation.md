@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: larmor-formula
   type: soft
+- id: radiation-accelerating-charges
+  type: hard
 builds-toward:
 - radiation-reaction-force
 tags:

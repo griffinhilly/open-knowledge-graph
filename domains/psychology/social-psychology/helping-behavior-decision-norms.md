@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: bystander-effect
   type: soft
-builds-toward:
-- responsibility-diffusion-collective-action
 tags:
 - helping
 - prosocial-behavior

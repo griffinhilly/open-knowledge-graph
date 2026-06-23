@@ -6,6 +6,10 @@ course: theory-of-computation
 prerequisites:
 - id: dfa-properties-and-minimization
   type: hard
+- id: alphabets-and-language-definition
+  type: hard
+- id: regular-expressions-formal
+  type: soft
 builds-toward:
 - closure-properties-regular-languages
 - pumping-lemma-for-regular-languages

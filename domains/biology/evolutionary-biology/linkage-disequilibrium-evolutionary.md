@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: genetic-drift
   type: hard
+- id: three-point-crosses-chromosome-interference
+  type: soft
 tags:
 - linkage
 - recombination

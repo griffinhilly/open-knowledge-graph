@@ -24,9 +24,6 @@ prerequisites:
   type: soft
 - id: research-integrity-open-science-social
   type: soft
-builds-toward:
-- interpretable-machine-learning
-- fairness-bias-ml
 tags:
 - machine-learning
 - prediction

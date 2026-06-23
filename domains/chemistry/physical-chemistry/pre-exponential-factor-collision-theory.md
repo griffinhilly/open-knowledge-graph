@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: molecular-partition-functions
   type: soft
+- id: statistical-distribution-molecular-energies
+  type: soft
 tags:
 - pre-exponential
 - collision

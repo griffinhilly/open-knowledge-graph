@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: pericarditis-pericardial-effusion-pathophysiology
   type: soft
+- id: cell-injury-and-adaptation
+  type: soft
+- id: inflammatory-mediators-chemokines-pathophysiology
+  type: soft
 builds-toward:
 - autoimmune-disease-pathophysiology-adv
 - liver-cirrhosis-pathophysiology

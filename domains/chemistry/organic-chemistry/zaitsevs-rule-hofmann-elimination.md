@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: zaitsev-hofmann-elimination-selectivity
   type: soft
+- id: nucleophilicity-and-leaving-groups
+  type: soft
 tags:
 - regioselectivity
 - elimination

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - major-scale-construction
-- minor-scale-construction-fundamentals
 - chromatic-scale-and-accidentals
 tags:
 - intervals

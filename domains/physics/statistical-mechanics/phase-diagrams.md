@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gibbs-free-energy
   type: soft
+- id: phase-transitions
+  type: soft
 tags:
 - phase-diagrams
 - coexistence

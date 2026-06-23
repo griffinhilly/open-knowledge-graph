@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: hard
+- id: energy-conservation-applications
+  type: soft
 builds-toward:
 - orbital-elements-and-trajectories
 tags:

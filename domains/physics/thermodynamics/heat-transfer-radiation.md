@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: heat-transfer-conduction
   type: soft
+- id: thermal-energy-transfer-mechanisms
+  type: soft
 builds-toward:
 - carnot-efficiency
 tags:

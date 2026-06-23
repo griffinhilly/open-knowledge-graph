@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: prosody-and-text-setting-composition
   type: soft
+- id: melody-construction-principles
+  type: soft
 tags:
 - text-setting
 - vocal-music

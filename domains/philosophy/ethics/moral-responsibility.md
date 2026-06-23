@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: moral-disagreement-sources
   type: soft
+- id: moral-responsibility-conditions
+  type: hard
 builds-toward:
 - moral-luck
 - moral-psychology

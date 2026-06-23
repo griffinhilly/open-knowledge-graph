@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: parameter-setting-universal-grammar
   type: hard
+- id: linguistic-typology-formal
+  type: soft
 tags:
 - universal-grammar
 - parameters

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: support-reactions-beams
   type: soft
+- id: distributed-loads-beams
+  type: soft
 builds-toward:
   - shear-force-bending-moment-diagrams
 tags:

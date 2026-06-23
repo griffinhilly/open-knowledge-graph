@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: rock-rheology-elastic-plastic-deformation
   type: soft
-builds-toward:
-- surface-geology-terrestrial-planets
 tags:
 - craters
 - morphology

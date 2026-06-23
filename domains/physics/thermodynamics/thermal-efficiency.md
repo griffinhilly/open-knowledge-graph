@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: heat-engines
   type: hard
+- id: efficiency
+  type: soft
 builds-toward:
 - refrigerators-and-heat-pumps
 - carnot-efficiency

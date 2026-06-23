@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - abstract-objects
-- logical-form
 tags:
 - properties
 - exemplification

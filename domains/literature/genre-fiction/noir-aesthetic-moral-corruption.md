@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - genre-blending-hybridity
-- visual-style-narrative-metaphor
 tags:
 - noir
 - aesthetic

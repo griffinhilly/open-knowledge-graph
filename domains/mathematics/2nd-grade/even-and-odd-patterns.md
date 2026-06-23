@@ -6,8 +6,6 @@ course: 2nd-grade
 prerequisites:
 - id: even-and-odd-numbers
   type: hard
-builds-toward:
-- even-odd-extensions-fourier
 tags:
 - even-odd
 - patterns

@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: ice-sheet-climate-coupling
   type: soft
+- id: ice-core-paleoclimate-analysis
+  type: soft
+- id: marine-isotope-stages
+  type: soft
+- id: marine-sediment-paleoclimate
+  type: soft
+- id: ocean-sediment-proxies
+  type: soft
+- id: precession-climate-forcing
+  type: soft
 builds-toward:
 - paleoclimate-data-model-comparison
 tags:

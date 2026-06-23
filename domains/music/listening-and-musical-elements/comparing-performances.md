@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: timbre-and-tone-color
   type: soft
+- id: articulation-legato-and-staccato
+  type: soft
 builds-toward: []
 tags:
 - performance

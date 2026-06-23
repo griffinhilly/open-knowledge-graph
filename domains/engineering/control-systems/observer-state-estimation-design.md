@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: controllability-and-observability
   type: hard
+- id: state-feedback-control-design
+  type: hard
 builds-toward:
 - separation-principle-control-theory
 tags:

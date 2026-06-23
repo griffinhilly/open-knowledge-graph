@@ -6,6 +6,8 @@ course: childrens-and-ya-literature
 prerequisites:
 - id: young-adult-literature-genre-emergence
   type: soft
+- id: ya-first-person-voice-narrative
+  type: soft
 tags:
 - ya
 - multiple-narrators

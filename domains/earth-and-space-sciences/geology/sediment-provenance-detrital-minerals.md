@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: igneous-rocks
   type: soft
+- id: sedimentary-rock-detrital-chemical
+  type: soft
 builds-toward:
 - paleocurrent-paleoenvironment
 tags:

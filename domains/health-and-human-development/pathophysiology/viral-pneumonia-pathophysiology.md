@@ -9,7 +9,6 @@ prerequisites:
 - id: adaptive-immune-response
   type: hard
 builds-toward:
-- acute-respiratory-distress-syndrome-pathophysiology
 - sepsis-and-sirs-pathophysiology
 tags:
 - viral-pneumonia

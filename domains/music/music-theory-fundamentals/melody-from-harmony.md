@@ -9,7 +9,6 @@ prerequisites:
 - id: melodic-phrase-structure
   type: soft
 builds-toward:
-- melodic-writing
 - voice-leading-principles
 tags:
 - melody

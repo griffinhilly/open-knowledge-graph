@@ -9,7 +9,6 @@ prerequisites:
 - id: number-bonds-to-10
   type: soft
 builds-toward:
-- addition-fact-families
 - mental-math-add-subtract-tens
 tags:
 - addition-facts

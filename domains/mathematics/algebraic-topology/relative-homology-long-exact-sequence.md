@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: exact-sequences-homological-algebra
   type: hard
+- id: snake-lemma-algebraic-topology
+  type: hard
 builds-toward:
 - excision-theorem
 - homology-of-spheres

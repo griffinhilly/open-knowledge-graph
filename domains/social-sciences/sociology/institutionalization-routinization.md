@@ -6,6 +6,8 @@ course: sociology
 prerequisites:
 - id: institution-theory-sociology
   type: hard
+- id: institutional-legitimacy-compliance
+  type: soft
 builds-toward: []
 tags:
 - institutionalization

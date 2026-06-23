@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: distance-and-distance-formula-3d
   type: hard
+- id: celestial-sphere-coordinate-systems
+  type: soft
 builds-toward:
 - stellar-properties-luminosity-temperature
 - galaxy-morphology-and-classification

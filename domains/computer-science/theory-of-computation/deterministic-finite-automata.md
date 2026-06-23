@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: set-fundamentals
   type: soft
+- id: automata-fundamentals-and-models
+  type: soft
 builds-toward:
 - nondeterministic-finite-automata
 - regular-languages-fundamentals

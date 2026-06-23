@@ -3,7 +3,11 @@ id: philosophy-of-neuroscience
 title: "Philosophy of Neuroscience"
 domain: philosophy
 course: philosophy-of-science
-prerequisites: []
+prerequisites:
+- id: emergence-and-levels
+  type: soft
+- id: reduction-emergence-science
+  type: soft
 builds-toward: []
 tags:
 - neuroscience

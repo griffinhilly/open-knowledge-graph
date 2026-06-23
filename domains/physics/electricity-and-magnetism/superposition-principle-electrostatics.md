@@ -13,7 +13,6 @@ prerequisites:
 builds-toward:
 - electric-field-lines
 - gauss-law
-- complex-charge-distributions
 tags:
 - electrostatics
 - fundamental principle

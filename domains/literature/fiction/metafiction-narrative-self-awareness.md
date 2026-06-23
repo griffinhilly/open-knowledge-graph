@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-criticism-overview
   type: soft
+- id: fourth-wall-convention-and-breaking
+  type: soft
 tags:
 - metafiction
 - self-awareness

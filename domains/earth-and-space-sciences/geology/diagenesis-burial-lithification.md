@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: crustal-heat-flow-and-geotherms
   type: soft
+- id: sedimentary-depositional-environments
+  type: soft
 builds-toward:
 - metamorphic-grade-pressure-temperature-paths
 tags:

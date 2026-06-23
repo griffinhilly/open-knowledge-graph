@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: colonialism-orientalism-representation
   type: soft
-builds-toward:
-- postcolonial-nonfiction
-- translation-ethics
 tags:
 - cultural-translation
 - cross-cultural

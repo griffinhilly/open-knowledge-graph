@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - protein-folding-and-chaperones
-- prion-diseases-and-protein-misfolding
 tags:
 - denaturation
 - unfolding

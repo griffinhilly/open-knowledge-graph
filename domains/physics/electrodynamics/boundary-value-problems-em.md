@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: boundary-conditions-em-fields
+  type: hard
 builds-toward:
 - cavity-resonators
 tags:

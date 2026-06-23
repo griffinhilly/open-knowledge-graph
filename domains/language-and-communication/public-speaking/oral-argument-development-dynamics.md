@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: persuasive-speech-design
   type: hard
+- id: logical-chain-construction-orality
+  type: soft
 tags:
 - argumentation
 - persuasion

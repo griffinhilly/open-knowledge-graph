@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: moment-of-force-2d
   type: hard
-builds-toward:
-- internal-forces-axial-shear-torsion
 tags:
 - trusses
 - method-of-sections

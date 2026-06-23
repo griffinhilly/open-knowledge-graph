@@ -6,6 +6,12 @@ course: thermodynamics-engineering
 prerequisites:
 - id: brayton-cycle-gas-turbine
   type: hard
+- id: brayton-gas-turbine-cycles
+  type: hard
+- id: compressor-staging-multistage
+  type: soft
+- id: turbine-staging-multistage
+  type: soft
 tags:
 - brayton-cycle
 - intercooling

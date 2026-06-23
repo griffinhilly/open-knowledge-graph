@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: large-scale-structure-universe
   type: soft
+- id: cosmic-distance-ladder-calibration
+  type: soft
 tags:
 - bao
 - large-scale-structure

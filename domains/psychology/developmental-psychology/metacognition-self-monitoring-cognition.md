@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: piaget-formal-operational
   type: hard
+- id: working-memory-development-capacity-constraints
+  type: soft
 builds-toward:
 - executive-function-development-prefrontal
 tags:

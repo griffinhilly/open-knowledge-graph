@@ -8,6 +8,12 @@ prerequisites:
   type: soft
 - id: boolean-algebra
   type: soft
+- id: if-then-statements
+  type: soft
+- id: true-and-false-statements
+  type: hard
+- id: variables-in-logic
+  type: soft
 builds-toward:
 - propositional-connectives
 - truth-assignments-and-valuations

@@ -6,9 +6,12 @@ course: quantum-mechanics
 prerequisites:
 - id: observables-and-operators
   type: hard
+- id: quantum-observables
+  type: soft
+- id: quantum-operators
+  type: hard
 builds-toward:
 - canonical-commutation-relations
-- uncertainty-relations
 tags:
 - operators
 - commutators

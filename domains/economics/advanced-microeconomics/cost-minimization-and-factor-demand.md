@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: isoquant-factor-substitution
+  type: hard
+- id: marginal-rate-technical-substitution
+  type: hard
 builds-toward:
 - dual-production-and-profit-functions
 tags:

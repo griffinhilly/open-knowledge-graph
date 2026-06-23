@@ -6,9 +6,6 @@ course: signals-and-systems
 prerequisites:
 - id: quantization-error-and-noise-analysis
   type: hard
-builds-toward:
-- anti-aliasing-filters-pre-sampling-design
-- reconstruction-filters-post-interpolation-design
 tags:
 - dithering
 - quantization

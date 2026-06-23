@@ -6,6 +6,12 @@ course: general-chemistry
 prerequisites:
 - id: intermolecular-forces
   type: hard
+- id: dissolving-and-solutions
+  type: soft
+- id: polarity-and-dipole-moments
+  type: soft
+- id: water-as-universal-solvent
+  type: soft
 builds-toward:
 - concentration-and-molarity
 - colligative-properties-solutions

@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: atomic-bonding-in-materials
   type: hard
+- id: materials-science-fundamentals
+  type: soft
 builds-toward:
 - unit-cell-lattice-parameters
 - point-defects-in-materials

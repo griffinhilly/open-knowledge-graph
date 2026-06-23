@@ -6,8 +6,6 @@ course: 3rd-grade
 prerequisites:
 - id: line-plots-3rd
   type: hard
-builds-toward:
-- data-analysis
 tags:
 - line-plots
 - data

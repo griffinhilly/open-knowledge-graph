@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: stalinism-totalitarian-state
   type: soft
-builds-toward:
-- yalta-conference-settlement
 tags:
 - WWII
 - Soviet-Union

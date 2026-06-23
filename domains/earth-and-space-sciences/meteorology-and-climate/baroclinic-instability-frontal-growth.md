@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - explosive-cyclogenesis-bombogenesis
-- mid-latitude-cyclones
 tags:
 - instability
 - dynamics

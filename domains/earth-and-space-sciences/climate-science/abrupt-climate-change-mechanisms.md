@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: thermohaline-circulation-physics
   type: hard
+- id: ocean-circulation-paleoclimate
+  type: soft
 builds-toward:
 - paleoclimate-tipping-points
 - paleoclimate-data-model-comparison

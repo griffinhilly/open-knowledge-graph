@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: rna-types-and-structure
   type: soft
+- id: ribosome-protein-synthesis-factory
+  type: hard
 builds-toward:
 - post-translational-modifications
 tags:

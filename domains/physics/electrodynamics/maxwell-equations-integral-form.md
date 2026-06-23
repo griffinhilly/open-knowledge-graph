@@ -14,9 +14,12 @@ prerequisites:
   type: hard
 - id: stokes-theorem
   type: hard
+- id: faraday-law-advanced
+  type: hard
+- id: gauss-law-applications
+  type: hard
 builds-toward:
   - maxwell-equations-differential-form
-  - ampere-maxwell-law
 tags:
 - maxwell-equations
 - vector-calculus

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gdp-and-national-income
   type: hard
+- id: potential-output-and-capacity
+  type: hard
 builds-toward:
 - output-gap-and-potential-output
 - recession-definition-measurement-dating

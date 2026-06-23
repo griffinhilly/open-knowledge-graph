@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - pragmatics-semantics-boundary
-- metaphor-and-figurative-language
 tags:
 - speaker-meaning
 - intention

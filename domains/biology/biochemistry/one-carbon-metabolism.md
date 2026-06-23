@@ -6,8 +6,6 @@ course: biochemistry
 prerequisites:
 - id: sulfur-amino-acid-metabolism
   type: hard
-builds-toward:
-- nucleotide-biosynthesis-integration
 tags:
 - folate
 - methylation

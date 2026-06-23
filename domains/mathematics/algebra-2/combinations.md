@@ -6,6 +6,8 @@ course: algebra-2
 prerequisites:
   - id: permutations
     type: hard
+  - id: counting-principles-probability-and-statistics
+    type: hard
 builds-toward:
   - binomial-theorem
   - probability-with-combinatorics

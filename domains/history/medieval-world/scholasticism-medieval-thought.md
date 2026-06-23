@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: monastic-scriptoria-knowledge-preservation
   type: soft
+- id: classical-knowledge-preservation-transmission
+  type: hard
 tags:
 - philosophy
 - theology

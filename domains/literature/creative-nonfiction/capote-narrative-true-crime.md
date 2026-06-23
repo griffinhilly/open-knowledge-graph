@@ -9,7 +9,6 @@ prerequisites:
 - id: plot-structure
   type: soft
 builds-toward:
-- narrative-tension-nonfiction
 - immersion-reporting
 tags:
 - capote

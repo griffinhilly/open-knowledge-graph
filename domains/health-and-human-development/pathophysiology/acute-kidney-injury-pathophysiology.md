@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - chronic-kidney-disease-progression
-- acute-tubular-necrosis
 tags:
 - acute-kidney-injury
 - renal-dysfunction

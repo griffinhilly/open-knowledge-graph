@@ -8,9 +8,6 @@ prerequisites:
   type: soft
 - id: personal-essay-form
   type: soft
-builds-toward:
-- experimental-nonfiction
-- constraint-based-form
 tags:
 - list
 - enumeration

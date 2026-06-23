@@ -56,9 +56,6 @@ prerequisites:
   type: soft
 - id: triangulation-method-convergence
   type: soft
-builds-toward:
-- generalized-synthetic-control
-- augmented-synthetic-control
 tags:
 - causal-inference
 - comparative

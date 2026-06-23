@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: glutamatergic-excitation
   type: hard
-builds-toward:
-- status-epilepticus
-- post-ictal-state
 tags:
 - seizure
 - epilepsy

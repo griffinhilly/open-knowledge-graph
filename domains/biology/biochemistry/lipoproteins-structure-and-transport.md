@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: fatty-acid-oxidation-beta-oxidation
   type: soft
-builds-toward:
-- metabolic-disease-states
 tags:
 - lipoproteins
 - HDL

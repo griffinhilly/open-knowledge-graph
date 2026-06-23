@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: work-and-energy
   type: hard
+- id: electrical-energy-intro
+  type: soft
+- id: electrical-power-conceptual
+  type: soft
 builds-toward:
 - dc-circuits-series-parallel
 - ac-power-and-resonance

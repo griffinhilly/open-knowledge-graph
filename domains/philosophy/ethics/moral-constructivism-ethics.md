@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: moral-anti-realism-perspectives
   type: hard
+- id: moral-constructivism-essentials
+  type: hard
 tags:
 - metaethics
 - constructivism

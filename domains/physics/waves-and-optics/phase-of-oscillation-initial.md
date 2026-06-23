@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - path-length-difference-analysis
-- interference-two-sources-interference-pattern
 tags:
 - waves
 - phase

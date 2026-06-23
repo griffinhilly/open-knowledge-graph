@@ -10,8 +10,8 @@ prerequisites:
   type: hard
 - id: sensory-receptor-transduction-adaptation
   type: soft
-builds-toward:
-- sensory-processing-pathways
+- id: neural-transmission-and-synaptic-integration
+  type: soft
 tags:
 - transduction
 - sensory-receptor

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: depth-and-spatial-illusion
   type: soft
+- id: line-shape-relationship-definition-containment
+  type: soft
 builds-toward:
 - relative-size-and-spatial-perception-depth
 - texture-and-form-surface-structure-integration

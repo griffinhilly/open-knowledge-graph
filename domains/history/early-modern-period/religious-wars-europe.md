@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: early-modern-state-formation
   type: soft
+- id: calvin-reformed-theology-predestination
+  type: soft
+- id: martin-luther-95-theses-reformation
+  type: soft
 builds-toward:
 - absolutism-and-monarchy
 - enlightenment-origins

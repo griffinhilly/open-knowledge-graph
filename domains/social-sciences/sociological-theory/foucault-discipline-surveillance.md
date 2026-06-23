@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: authority-and-domination-sociology
   type: soft
+- id: foucault-genealogy-sociological-theory
+  type: soft
 builds-toward:
 - foucault-biopolitics
 tags:

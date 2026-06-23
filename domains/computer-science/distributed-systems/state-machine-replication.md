@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: hinted-handoff
   type: soft
+- id: paxos-algorithm
+  type: hard
+- id: raft-algorithm
+  type: soft
 builds-toward:
 - replication-strategies-analysis
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: blackbody-radiation
   type: soft
+- id: mass-energy-equivalence-relativity
+  type: soft
 builds-toward:
 - planck-einstein-relation
 - wave-particle-duality-observations

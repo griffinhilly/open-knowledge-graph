@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: ring-definition-examples
   type: hard
+- id: ring-definition-and-examples
+  type: hard
 builds-toward:
 - subrings-ideals
 - quotient-rings

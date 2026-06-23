@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: alphabet-phoenician-writing-origins
   type: soft
+- id: ancient-sources-interpretation-methods
+  type: soft
 tags:
 - Indus
 - script

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: biostatistics-in-public-health
   type: hard
+- id: odds-ratio-interpretation
+  type: soft
 builds-toward:
 - cox-proportional-hazards
 - meta-analysis-methods

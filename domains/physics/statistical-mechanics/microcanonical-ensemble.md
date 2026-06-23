@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: entropy-intro
   type: hard
+- id: statistical-ensembles-intro
+  type: hard
 builds-toward:
 - canonical-ensemble
 - partition-function-definition

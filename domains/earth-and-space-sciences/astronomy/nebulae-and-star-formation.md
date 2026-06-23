@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stellar-spectral-classification
   type: soft
+- id: stars-and-life-cycles-intro
+  type: soft
 builds-toward:
 - stellar-evolution-main-sequence-to-giant
 - planetary-formation

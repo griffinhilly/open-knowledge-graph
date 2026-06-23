@@ -22,7 +22,6 @@ prerequisites:
   type: hard
 builds-toward:
 - fluid-balance-and-electrolytes
-- renal-regulation-of-fluid-balance
 tags:
 - glomerular-filtration
 - renal-physiology

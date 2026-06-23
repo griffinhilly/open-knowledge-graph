@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: multiples-of-a-number
   type: soft
+- id: number-patterns-skip-counting-1st
+  type: soft
 builds-toward:
 - number-patterns-and-relationships
 - factors-and-multiples

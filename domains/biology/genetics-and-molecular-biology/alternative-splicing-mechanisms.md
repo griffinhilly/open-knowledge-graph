@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spliceosome-and-splicing-regulation
   type: hard
+- id: rna-splicing-introns-exons-spliceosome
+  type: hard
 builds-toward:
 - microrna-biogenesis-and-function
 tags:

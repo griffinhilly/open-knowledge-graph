@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: planetary-formation
   type: soft
+- id: comets-asteroids-meteors
+  type: soft
 tags:
 - asteroids
 - comets

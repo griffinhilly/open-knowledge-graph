@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: double-integrals-cartesian
   type: hard
+- id: work-circulation
+  type: soft
 builds-toward:
 - stokes-theorem
 - divergence-theorem

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: artificial-minds-silicon-based
   type: soft
+- id: substrate-independence-realization
+  type: soft
 builds-toward:
 - chinese-room-understanding-computation
 tags:

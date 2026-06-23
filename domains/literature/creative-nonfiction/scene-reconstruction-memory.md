@@ -9,7 +9,6 @@ prerequisites:
 - id: narrative-poetry
   type: soft
 builds-toward:
-- immersion-technique
 - literary-journalism-technique
 tags:
 - scene

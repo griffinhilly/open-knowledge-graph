@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: reaction-mechanisms-overview
   type: hard
+- id: grignard-reagent
+  type: soft
+- id: protecting-groups
+  type: soft
+- id: wittig-reaction
+  type: soft
+- id: wittig-reaction-mechanism
+  type: soft
 builds-toward: []
 tags:
 - retrosynthesis

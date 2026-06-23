@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mercantilism
   type: soft
+- id: capitalism-industrial-markets
+  type: soft
 builds-toward:
 - postcolonial-development-and-modernization
 tags:

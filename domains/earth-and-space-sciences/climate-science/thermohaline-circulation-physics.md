@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ocean-layering-and-stratification
   type: hard
+- id: ocean-stratification-and-mixing
+  type: soft
 builds-toward:
 - atlantic-meridional-overturning-circulation
 - ocean-heat-transport-mechanism

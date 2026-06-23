@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: radiometric-dating
   type: hard
+- id: planetary-differentiation
+  type: soft
 tags:
 - meteorites
 - samples

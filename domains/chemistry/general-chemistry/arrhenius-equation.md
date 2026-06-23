@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: natural-logarithm-and-e
   type: soft
+- id: chemical-kinetics
+  type: hard
 tags:
 - activation-energy
 - frequency-factor

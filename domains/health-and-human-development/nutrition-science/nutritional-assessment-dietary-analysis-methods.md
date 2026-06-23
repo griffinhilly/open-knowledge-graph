@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: dietary-pattern-assessment-and-diet-quality-indices
   type: soft
+- id: nutrient-requirements-and-dietary-reference-intakes
+  type: soft
 tags:
 - assessment
 - dietary-analysis

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: newtons-first-law
   type: hard
+- id: free-body-diagram-method
+  type: hard
 builds-toward:
 - equilibrium-particles-3d
 - equilibrium-rigid-bodies

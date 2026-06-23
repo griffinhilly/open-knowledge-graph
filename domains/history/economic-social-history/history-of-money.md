@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - gold-standard-history
-- cryptocurrency-and-digital-money
 tags:
 - history
 - Economic Social History

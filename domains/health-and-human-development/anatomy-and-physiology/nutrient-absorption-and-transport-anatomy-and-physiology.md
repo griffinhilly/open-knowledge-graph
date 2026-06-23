@@ -14,8 +14,6 @@ prerequisites:
   type: hard
 - id: intestinal-absorption-nutrient-transport
   type: hard
-builds-toward:
-- nutrient-storage-and-metabolism
 tags:
 - absorption
 - intestinal-epithelium

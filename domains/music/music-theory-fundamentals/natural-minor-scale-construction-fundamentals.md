@@ -9,7 +9,6 @@ prerequisites:
 builds-toward:
 - natural-minor-scale-ear-training
 - relative-major-minor-identification
-- minor-key-harmony
 tags:
 - scales
 - minor

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiplication-facts-within-100
   type: hard
+- id: commutative-property-multiplication-3rd
+  type: soft
 builds-toward:
 - two-digit-by-one-digit-multiplication
 - multi-digit-multiplication

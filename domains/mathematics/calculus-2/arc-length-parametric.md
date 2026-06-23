@@ -8,6 +8,8 @@ prerequisites:
     type: hard
   - id: arc-length
     type: hard
+  - id: vector-valued-functions-curves
+    type: soft
 builds-toward:
   - polar-arc-length
 tags: [parametric, arc-length, integration]

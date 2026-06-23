@@ -11,7 +11,6 @@ prerequisites:
 - id: algorithm-analysis-big-o
   type: soft
 builds-toward:
-- np-complete-problems-standard
 - sat-and-np-complete-problems
 tags:
 - polynomial-time

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: transitions-and-cohesion
   type: soft
+- id: commas-with-introductory-dependent-clauses
+  type: soft
+- id: concision-and-clarity
+  type: soft
 builds-toward:
 - academic-writing-conventions
 tags:

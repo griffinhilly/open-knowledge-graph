@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - cooking-for-dietary-restrictions
-- vegetable-cooking-methods
 tags:
 - breading
 - coating

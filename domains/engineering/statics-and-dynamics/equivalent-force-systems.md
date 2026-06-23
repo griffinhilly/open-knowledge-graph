@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: varignons-theorem
   type: soft
+- id: moment-of-force-3d
+  type: soft
 builds-toward:
 - equilibrium-rigid-bodies
 - support-reactions-beams

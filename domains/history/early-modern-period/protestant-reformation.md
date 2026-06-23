@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: renaissance-humanism
   type: soft
+- id: martin-luther-95-theses-reformation
+  type: hard
+- id: medieval-sacramental-theology-eucharist
+  type: soft
 builds-toward:
 - counter-reformation
 - religious-wars-europe

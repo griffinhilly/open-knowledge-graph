@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: sample-spaces-and-events
   type: soft
+- id: expected-value
+  type: soft
+- id: independence-of-events
+  type: soft
+- id: linear-transformations-of-random-variables
+  type: soft
+- id: sample-vs-population
+  type: hard
+- id: variance-of-random-variables
+  type: hard
 builds-toward:
 - central-limit-theorem
 - confidence-intervals-means

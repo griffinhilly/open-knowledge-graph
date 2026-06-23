@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: separation-axioms-t3-regular
   type: hard
+- id: regular-spaces
+  type: soft
+- id: separability-topology
+  type: soft
+- id: urysohns-lemma
+  type: hard
 builds-toward:
 - topological-manifolds-introduction
 tags:

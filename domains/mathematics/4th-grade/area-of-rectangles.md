@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: area-by-unit-squares-3rd
   type: hard
+- id: area-by-counting-unit-squares
+  type: hard
+- id: arrays-2nd-grade
+  type: soft
 builds-toward:
 - volume-of-rectangular-prisms
 - measurement-conversions-customary

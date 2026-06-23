@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: p-values-and-significance
   type: soft
+- id: t-distribution-theory
+  type: hard
 builds-toward:
 - anova-one-way
 tags:

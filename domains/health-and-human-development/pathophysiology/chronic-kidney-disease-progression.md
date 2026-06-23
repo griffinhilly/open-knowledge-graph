@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - renal-osteodystrophy
-- uremic-syndrome
 tags:
 - chronic-kidney-disease
 - progressive-renal-failure

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: islamic-golden-age
   type: soft
+- id: pilgrimage-and-devotion
+  type: soft
 builds-toward:
 - medieval-trade-revival
 - mongol-empire

@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - alcohol-use-disorder
-- fetal-alcohol-spectrum-disorder
 tags:
 - alcohol
 - ethanol

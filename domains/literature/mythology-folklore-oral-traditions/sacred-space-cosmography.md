@@ -6,6 +6,8 @@ course: mythology-folklore-oral-traditions
 prerequisites:
 - id: myth-function-cosmological
   type: soft
+- id: creation-myth-cosmogony
+  type: soft
 builds-toward:
 - comparative-mythology-patterns
 tags:

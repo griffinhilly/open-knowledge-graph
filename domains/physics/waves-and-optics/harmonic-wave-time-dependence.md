@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - phase-of-oscillation-initial
-- interference-two-sources-interference-pattern
 tags:
 - waves
 - sinusoids

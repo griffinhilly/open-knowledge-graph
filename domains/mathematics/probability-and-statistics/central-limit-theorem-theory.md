@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: normal-distribution-theory
   type: hard
+- id: moment-generating-functions-probability-and-statistics
+  type: soft
 builds-toward:
 - hypothesis-testing-fundamentals
 - confidence-intervals-framework

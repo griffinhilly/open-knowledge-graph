@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: average-and-marginal-cost-curves
   type: hard
+- id: economies-of-scale-long-run
+  type: soft
 builds-toward:
 - market-equilibrium
 tags:

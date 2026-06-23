@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dopamine-reward-system
   type: soft
+- id: psychoactive-drugs-and-behavior
+  type: soft
 builds-toward:
 - addiction-neurobiology
 tags:

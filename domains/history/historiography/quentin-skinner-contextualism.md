@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: primary-sources
   type: soft
+- id: contextualism-historical
+  type: soft
 builds-toward:
 - hayden-white-linguistic-turn
 tags:

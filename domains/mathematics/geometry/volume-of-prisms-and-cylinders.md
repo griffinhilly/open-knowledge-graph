@@ -8,6 +8,10 @@ prerequisites:
     type: soft
   - id: surface-area-of-cylinders
     type: soft
+  - id: area-of-circles
+    type: hard
+  - id: volume-of-prisms
+    type: hard
 builds-toward:
   - volume-of-pyramids-and-cones
   - volume-of-spheres

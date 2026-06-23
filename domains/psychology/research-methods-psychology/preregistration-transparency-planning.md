@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: analysis-plan-preregistration-commitment
   type: soft
+- id: exploratory-vs-confirmatory-analysis-strategies
+  type: hard
 builds-toward: []
 tags:
 - transparency

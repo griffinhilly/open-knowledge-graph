@@ -7,7 +7,6 @@ prerequisites:
 - id: hausdorff-spaces
   type: hard
 builds-toward:
-- urysohn-lemma
 - tietze-extension-theorem
 tags:
 - regularity

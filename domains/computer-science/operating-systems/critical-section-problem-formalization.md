@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: threads-and-concurrency
   type: hard
+- id: thread-scheduling-coordination
+  type: soft
 builds-toward:
 - software-mutual-exclusion-solutions
 - test-and-set-primitive

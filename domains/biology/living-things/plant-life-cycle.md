@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: flowers-and-pollination
   type: hard
-builds-toward:
-- cell-cycle-overview
 tags:
 - life cycle
 - plants

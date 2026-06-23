@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: oxidation-reduction-basics
   type: soft
+- id: transamination-reactions
+  type: soft
 builds-toward:
   - urea-cycle
   - ammonia-metabolism

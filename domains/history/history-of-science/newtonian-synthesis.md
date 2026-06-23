@@ -14,7 +14,6 @@ prerequisites:
 builds-toward:
 - enlightenment-science
 - relativity-revolution
-- determinism-causation
 tags:
 - history
 - History Of Science

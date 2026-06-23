@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: gestalt-principles-in-design
   type: soft
+- id: gestalt-grouping-proximity
+  type: soft
+- id: visual-hierarchy-structure
+  type: soft
 builds-toward:
 - accessibility-in-design
 tags:

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - difference-principle
-- social-contract-modern
 tags:
 - rawls
 - justice

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: industrialization-social-transformation
   type: soft
+- id: cultural-evolution-theory
+  type: soft
 builds-toward:
 - globalization-and-society
 - social-movements

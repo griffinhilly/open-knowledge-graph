@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: ionic-bonding
   type: soft
-builds-toward:
-- electrochemistry-basics
+- id: le-chatelier-principle
+  type: soft
 tags:
 - Ksp
 - solubility-product

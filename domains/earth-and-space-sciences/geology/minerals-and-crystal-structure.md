@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: crystal-structures-and-properties
   type: soft
+- id: minerals-basics
+  type: soft
 builds-toward:
 - rock-forming-minerals
 - weathering-and-erosion

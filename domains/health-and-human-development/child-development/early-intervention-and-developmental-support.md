@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: health-promotion-models
   type: soft
+- id: atypical-development-pathways-early-identification
+  type: hard
+- id: developmental-plasticity-and-sensitive-periods
+  type: soft
 tags:
 - early-intervention
 - IDEA

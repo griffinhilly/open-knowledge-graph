@@ -12,9 +12,10 @@ prerequisites:
   type: soft
 - id: modal-logic-intro
   type: soft
+- id: truth-conditions-and-meaning
+  type: soft
 builds-toward:
 - scope-ambiguity-and-representation
-- de-re-de-dicto-readings
 tags:
 - semantics
 - intensionality

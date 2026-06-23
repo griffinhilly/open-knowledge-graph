@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: account-creation-security
   type: hard
+- id: common-malware-types-and-defense
+  type: soft
 builds-toward:
 - malware-and-antivirus-basics
 - operating-system-updates

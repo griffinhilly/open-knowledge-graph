@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diffraction-and-fourier-transforms
   type: hard
+- id: crystallographic-symmetry-space-groups
+  type: soft
 builds-toward:
 - structure-solution-methods
 - structure-based-drug-design

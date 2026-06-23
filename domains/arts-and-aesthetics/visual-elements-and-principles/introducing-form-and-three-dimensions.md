@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: shape-geometric-versus-organic
   type: hard
+- id: light-to-dark-value-scale
+  type: soft
 builds-toward:
 - depth-perception-on-flat-surfaces
 - spatial-composition-foreground-to-background

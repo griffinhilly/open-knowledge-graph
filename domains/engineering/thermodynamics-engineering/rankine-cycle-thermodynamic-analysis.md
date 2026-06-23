@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: heat-engine-efficiency-and-carnot
   type: soft
+- id: thermodynamic-property-diagrams
+  type: soft
 builds-toward:
 - rankine-cycle-reheat-regeneration
 tags:

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - developmental-constraints
-- evo-devo-mechanisms
 tags:
 - evo-devo
 - development

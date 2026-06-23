@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: number-recognition-1-10
   type: hard
+- id: counting-objects-to-20
+  type: hard
 builds-toward:
 - comparing-quantities
 - subitizing

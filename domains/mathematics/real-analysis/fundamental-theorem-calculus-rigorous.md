@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rigorous-derivative-definition
   type: hard
+- id: properties-riemann-integral
+  type: soft
 tags:
 - fundamental-theorem
 - differentiation

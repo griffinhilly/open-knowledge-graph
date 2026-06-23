@@ -6,8 +6,6 @@ course: digital-literacy
 prerequisites:
 - id: file-system-basics
   type: soft
-builds-toward:
-- digital-identity-management
 tags:
 - screenshots
 - screen-capture

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: responding-to-surroundings
   type: hard
-builds-toward:
-- population-ecology-intro
 tags:
 - seasons
 - migration

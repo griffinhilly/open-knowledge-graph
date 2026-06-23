@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: scaled-graphs-reading
   type: soft
-builds-toward:
-- data-analysis-and-interpretation
 tags:
 - graphs
 - bar-graphs

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: linear-transformations
   type: hard
+- id: instrumental-variables-validity
+  type: hard
 builds-toward: []
 tags:
 - 2SLS

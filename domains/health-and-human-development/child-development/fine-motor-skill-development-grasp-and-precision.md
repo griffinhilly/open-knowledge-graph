@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: neonatal-reflexes-and-sensory-capabilities
   type: soft
-builds-toward:
-- pragmatic-language-and-social-communication-skills
 tags:
 - motor-development
 - hand-eye-coordination

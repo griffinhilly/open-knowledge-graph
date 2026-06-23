@@ -10,10 +10,6 @@ prerequisites:
   type: soft
 - id: neurogenesis-adult
   type: soft
-builds-toward:
-- sensory-system-development
-- learning-windows
-- recovery-after-injury
 tags:
 - critical-period
 - plasticity

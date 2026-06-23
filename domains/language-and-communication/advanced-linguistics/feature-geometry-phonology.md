@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phonological-features
   type: hard
+- id: feature-matrices-phonology
+  type: hard
 tags:
 - phonology
 - features

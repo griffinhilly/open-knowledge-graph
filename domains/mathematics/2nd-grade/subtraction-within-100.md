@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: mental-math-add-subtract-tens
   type: soft
+- id: fact-family-relationships
+  type: soft
+- id: mental-math-strategies-subtraction-1st
+  type: soft
 builds-toward:
 - three-digit-subtraction
 - two-step-word-problems

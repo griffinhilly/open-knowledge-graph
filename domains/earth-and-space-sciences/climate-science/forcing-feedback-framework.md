@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - climate-tipping-points
-- climate-model-evaluation
 tags:
 - feedback
 - forcing

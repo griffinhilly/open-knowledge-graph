@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: schizoaffective-disorder
   type: soft
+- id: dsm-5-diagnostic-framework
+  type: soft
+- id: dsm5-classification-system
+  type: soft
 builds-toward:
 - persistent-depressive-disorder
 - bipolar-i-disorder

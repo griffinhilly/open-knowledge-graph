@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: thermal-structure-of-atmosphere
   type: soft
+- id: dry-adiabatic-lapse-rate
+  type: soft
 builds-toward:
 - atmospheric-inversion-temperature
-- stable-neutral-unstable-classification
 - cape-convective-available-potential
 tags:
 - temperature-profile

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pressure-force-over-area
   type: soft
+- id: longitudinal-wave-characteristics
+  type: soft
 builds-toward:
 - sound-intensity-and-decibels
 tags:

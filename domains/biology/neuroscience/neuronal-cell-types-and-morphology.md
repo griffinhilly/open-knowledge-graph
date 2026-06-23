@@ -9,7 +9,6 @@ prerequisites:
 - id: cell-theory
   type: soft
 builds-toward:
-- neuronal-compartments
 - synaptic-transmission
 - cable-theory-axonal-conduction
 tags:

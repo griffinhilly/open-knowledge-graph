@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: kitchen-safety-and-hygiene
   type: hard
+- id: burner-heat-level-control
+  type: hard
+- id: fats-and-oils-in-cooking
+  type: hard
 tags:
 - frying
 - deep-frying

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - diatonic-chord-construction
-- harmonic-analysis-roman-numerals-basics
 tags:
 - key-signatures
 - notation

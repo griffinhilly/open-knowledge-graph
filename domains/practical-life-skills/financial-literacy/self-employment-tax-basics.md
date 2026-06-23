@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: understanding-pay-stubs
   type: soft
+- id: income-sources-and-tax-classifications
+  type: soft
+- id: w2-vs-1099-income
+  type: soft
 tags:
 - self-employment
 - SE-tax

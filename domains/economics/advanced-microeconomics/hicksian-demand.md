@@ -6,6 +6,8 @@ course: advanced-microeconomics
 prerequisites:
 - id: expenditure-function-microeconomics
   type: hard
+- id: consumer-duality-and-expenditure-function
+  type: hard
 builds-toward:
 - slutsky-equation
 tags:

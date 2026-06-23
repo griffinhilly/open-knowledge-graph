@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: early-modern-state-formation
   type: soft
+- id: thirty-years-war
+  type: hard
 builds-toward:
 - congress-of-vienna
 - nationalism-and-nation-states

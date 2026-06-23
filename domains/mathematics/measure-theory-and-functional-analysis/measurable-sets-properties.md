@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: sigma-algebras-and-measurable-sets
   type: hard
+- id: sigma-algebras-formal-construction
+  type: hard
 builds-toward:
 - measure-spaces
 - null-sets-almost-everywhere

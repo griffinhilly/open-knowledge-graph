@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reflection-and-law-of-reflection
   type: hard
+- id: light-sources-and-shadows
+  type: soft
 builds-toward:
 - thin-lens-equation
 - mirror-equation

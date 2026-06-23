@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: five-lemma
   type: soft
+- id: universal-coefficient-theorem
+  type: soft
 builds-toward: []
 tags: [algebraic-topology, kunneth-formula, tensor-product, product-spaces, homology]
 stage: expert

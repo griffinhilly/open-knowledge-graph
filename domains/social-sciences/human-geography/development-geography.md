@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: migration-theory-push-pull
   type: soft
+- id: demographic-transition-model-human-geography
+  type: soft
 builds-toward:
 - colonialism-geographic-legacy
 - resource-geography

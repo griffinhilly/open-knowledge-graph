@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: demographic-transition-theory
   type: hard
+- id: marriage-and-nuptiality
+  type: soft
 builds-toward:
 - population-momentum-demography
 - demographic-dividend

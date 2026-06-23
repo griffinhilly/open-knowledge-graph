@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: harmonic-bass-line-analysis
   type: soft
-builds-toward:
-- chord-progression-basic-patterns
 tags:
 - voice-leading
 - harmony

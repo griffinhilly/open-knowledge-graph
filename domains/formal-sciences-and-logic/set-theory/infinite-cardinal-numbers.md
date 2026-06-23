@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: cardinal-numbers-basic-theory
   type: soft
+- id: bijections-establish-equinumerosity
+  type: hard
+- id: countable-sets-and-countability
+  type: soft
 builds-toward:
 - cantor-theorem
 - cardinal-arithmetic

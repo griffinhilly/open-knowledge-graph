@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - jazz-harmony-basics
-- harmonic-function-root-movement-ear
 tags:
 - chords
 - extended

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiplication-facts-within-100
   type: hard
+- id: estimation-multiplication-division
+  type: hard
 builds-toward:
   - estimation-strategies
   - multi-digit-multiplication

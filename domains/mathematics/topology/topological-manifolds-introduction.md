@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: countability-axioms-topology
   type: soft
-builds-toward:
-- differential-topology
-- differential-geometry
 tags:
 - manifolds
 - topological-manifolds

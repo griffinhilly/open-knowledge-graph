@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: false-belief-task-understanding-mind
   type: soft
+- id: egocentrism-perspective-taking-development
+  type: soft
 builds-toward:
 - peer-relationships-friendship-development
 - prosocial-behavior-empathy-altruism

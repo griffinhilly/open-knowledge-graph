@@ -6,8 +6,6 @@ course: 3rd-grade
 prerequisites:
 - id: area-by-counting-squares
   type: soft
-builds-toward:
-- temperature-measurement
 tags:
 - measurement
 - temperature

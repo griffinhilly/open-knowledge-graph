@@ -9,9 +9,6 @@ prerequisites:
 - id: enlightenment-science
   type: soft
 
-builds-toward:
-- microscopy-and-cellular-biology
-- spectroscopy-and-light-analysis
 tags:
 - history
 - History Of Science

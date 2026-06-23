@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: energy-expenditure-metabolic-rate
   type: hard
+- id: calories-and-energy
+  type: hard
+- id: metabolic-rate-thermogenesis-energy-expenditure
+  type: hard
 builds-toward:
 - obesity-and-metabolic-syndrome
 - nutritional-assessment-methods

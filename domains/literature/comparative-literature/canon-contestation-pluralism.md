@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: postcolonial-criticism
   type: hard
+- id: postcolonial-literature-theory
+  type: soft
 builds-toward:
 - literary-cosmopolitanism
 tags:

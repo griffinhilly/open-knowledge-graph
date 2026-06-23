@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: subtraction-within-10
   type: hard
+- id: part-part-whole-model-1st
+  type: hard
+- id: subtraction-within-20
+  type: soft
 builds-toward:
 - fact-families
 tags:

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - price-discrimination
-- monopoly-deadweight-loss
 tags:
 - monopoly
 - market-power

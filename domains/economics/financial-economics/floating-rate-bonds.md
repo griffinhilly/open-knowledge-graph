@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: bond-pricing
   type: hard
-builds-toward:
-- interest-rate-swaps
 tags:
 - bonds
 - floating-rate

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: metric-hierarchy
   type: hard
+- id: metric-stress-and-weak-strong
+  type: soft
 builds-toward:
 - polyrhythmic-analysis
 - rhythmic-dissonance-resolution

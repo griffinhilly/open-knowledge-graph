@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: classical-historical-background
   type: hard
+- id: baroque-instrumental-development
+  type: soft
 builds-toward:
 - romantic-instrumental-expansion
 tags:

@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: greedy-activity-selection
   type: soft
+- id: graph-breadth-first-search-applications
+  type: soft
 builds-toward:
 - bellman-ford-algorithm
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reaction-mechanisms-overview
   type: hard
+- id: aldehyde-and-ketone-structure-and-nomenclature
+  type: hard
 builds-toward:
 - enols-and-enolate-chemistry
 - carboxylic-acids-and-derivatives

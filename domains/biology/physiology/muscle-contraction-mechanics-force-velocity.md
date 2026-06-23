@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: skeletal-muscle-contraction
   type: hard
-builds-toward:
-- exercise-physiology-cardiovascular-adaptation
 tags:
 - muscle mechanics
 - biomechanics

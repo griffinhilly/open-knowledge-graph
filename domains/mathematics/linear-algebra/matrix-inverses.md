@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: matrices-definition
   type: soft
+- id: determinants-2x2-3x3
+  type: soft
+- id: matrix-operations
+  type: hard
 builds-toward:
 - systems-of-linear-equations
 - rank-nullity-theorem

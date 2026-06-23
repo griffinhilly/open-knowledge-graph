@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: heat-capacity-calorimetry
   type: soft
+- id: atomic-bonding-in-materials
+  type: soft
 builds-toward:
 - heat-treatment-of-steels
 tags:

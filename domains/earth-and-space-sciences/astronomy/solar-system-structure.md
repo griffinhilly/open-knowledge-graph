@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: celestial-coordinates
   type: soft
+- id: inner-vs-outer-planets
+  type: soft
+- id: planets-in-our-solar-system
+  type: soft
 builds-toward:
 - planetary-formation
 - small-solar-system-bodies

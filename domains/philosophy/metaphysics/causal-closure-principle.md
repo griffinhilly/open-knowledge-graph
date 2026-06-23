@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mental-causation
   type: hard
+- id: causation-and-determination
+  type: soft
 tags:
 - causation
 - physical-closure

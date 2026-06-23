@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: dietary-protein-and-amino-acids
   type: soft
+- id: vitamins-and-minerals-basics
+  type: soft
 builds-toward:
 - malnutrition-and-undernutrition
 tags:

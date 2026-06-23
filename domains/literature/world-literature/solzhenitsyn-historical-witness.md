@@ -6,6 +6,8 @@ course: world-literature
 prerequisites:
 - id: literary-analysis-overview
   type: hard
+- id: soviet-socialist-realism-content-form
+  type: soft
 builds-toward:
 - postcolonial-literature-theory
 tags:

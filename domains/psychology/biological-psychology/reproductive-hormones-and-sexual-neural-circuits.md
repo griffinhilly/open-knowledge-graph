@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: hypothalamic-pituitary-endocrine-axis
   type: hard
-builds-toward:
-- sexual-behavior-and-reproduction
-- hormone-sensitive-brain-development
 tags:
 - testosterone
 - estrogen

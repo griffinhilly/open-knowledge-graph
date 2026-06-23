@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - modular-scale-typography
-- responsive-design-principles
 tags:
 - proportion
 - mathematical-harmony

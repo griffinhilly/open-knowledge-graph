@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - quantum-statistics-intro
-- ideal-fermi-gas
-- ideal-bose-gas
 tags:
 - boltzmann-distribution
 - classical-limit

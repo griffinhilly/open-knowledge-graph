@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: randomized-complexity-rp-coerp
   type: soft
+- id: computability-complexity-overview
+  type: soft
 builds-toward:
 - p-versus-np
 - polynomial-hierarchy

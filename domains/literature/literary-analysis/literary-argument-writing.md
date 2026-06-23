@@ -26,6 +26,8 @@ prerequisites:
   type: soft
 - id: tone-and-mood
   type: soft
+- id: textual-evidence-analysis-integration
+  type: soft
 builds-toward: []
 tags:
 - essay

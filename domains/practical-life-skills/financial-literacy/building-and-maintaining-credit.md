@@ -9,7 +9,6 @@ prerequisites:
 - id: debt-classification-and-characteristics
   type: soft
 builds-toward:
-- credit-scores-and-reports
 - debt-management-strategies
 - mortgage-and-home-buying
 tags:

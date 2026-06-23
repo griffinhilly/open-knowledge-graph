@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: periodic-trends
   type: hard
+- id: valence-electrons-and-reactivity
+  type: hard
 builds-toward:
 - lewis-structures
 - molecular-polarity

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: newtons-second-law
   type: soft
+- id: planetary-differentiation
+  type: hard
+- id: thermal-evolution-terrestrial-planets
+  type: soft
 builds-toward:
 - planetary-magnetospheres-and-solar-wind
 tags:

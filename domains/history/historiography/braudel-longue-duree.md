@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: periodization
   type: soft
+- id: annales-school-theory
+  type: soft
+- id: temporality-and-time
+  type: soft
 builds-toward:
 - comparative-global-history
 tags:

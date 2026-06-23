@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: entangled-histories-approach
   type: soft
+- id: comparative-historical-research
+  type: soft
 builds-toward:
 - postcolonial-historiography
 tags:

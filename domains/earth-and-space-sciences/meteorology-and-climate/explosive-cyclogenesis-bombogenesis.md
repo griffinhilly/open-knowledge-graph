@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: diabatic-heating-wind-adjustment
   type: hard
+- id: frontal-structure-anatomy-dynamics
+  type: soft
 builds-toward:
 - severe-weather-systems
-- extreme-weather-events
 tags:
 - cyclones
 - intensification

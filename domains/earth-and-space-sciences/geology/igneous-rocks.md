@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: phase-diagrams-binary-mixtures
   type: soft
+- id: types-of-rocks
+  type: soft
 builds-toward:
 - rock-cycle
 - volcanoes-and-volcanism

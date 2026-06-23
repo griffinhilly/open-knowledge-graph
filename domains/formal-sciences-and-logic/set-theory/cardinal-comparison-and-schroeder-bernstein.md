@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: uncountable-sets-and-the-reals
   type: soft
+- id: cardinal-numbers-basic-theory
+  type: hard
 builds-toward:
 - aleph-and-beth-hierarchy-introduction
 - cardinal-arithmetic

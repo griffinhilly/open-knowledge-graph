@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: omitted-variable-bias
   type: hard
+- id: polynomial-regression-econometrics
+  type: soft
 tags:
 - specification
 - hypothesis-testing

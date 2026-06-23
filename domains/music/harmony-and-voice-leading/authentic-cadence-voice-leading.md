@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: plagal-cadence-voice-leading
   type: soft
+- id: outer-voice-independence-soprano-bass
+  type: soft
 builds-toward:
 - modulation-voice-leading-pivot-chords
 - secondary-dominant-resolution-voice-leading

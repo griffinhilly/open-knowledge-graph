@@ -8,9 +8,6 @@ prerequisites:
   type: soft
 - id: motor-learning-cerebellar
   type: soft
-builds-toward:
-- learning-and-experience-dependent-plasticity
-- eye-blink-conditioning
 tags:
 - motor-systems
 - learning

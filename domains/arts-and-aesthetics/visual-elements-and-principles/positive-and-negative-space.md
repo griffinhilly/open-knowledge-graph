@@ -6,6 +6,8 @@ course: visual-elements-and-principles
 prerequisites:
 - id: shape-and-form
   type: hard
+- id: exploring-shape-and-two-dimensional-form
+  type: soft
 builds-toward:
 - balance-in-composition
 - emphasis-and-focal-point

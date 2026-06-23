@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: fourier-series-definition
   type: soft
+- id: just-intonation-acoustics
+  type: soft
 builds-toward:
 - timbre-frequency-domain
 tags:

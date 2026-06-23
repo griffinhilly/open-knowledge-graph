@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: long-run-costs-economies-of-scale
   type: soft
+- id: average-and-marginal-cost-curves
+  type: hard
+- id: opportunity-cost-concept
+  type: soft
 builds-toward:
 - perfect-competition
 - monopoly-microeconomics

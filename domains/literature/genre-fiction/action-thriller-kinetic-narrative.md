@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: narrative-pacing-duration-control
   type: soft
+- id: thriller-escalating-tension
+  type: soft
 builds-toward:
 - thriller-escalating-tension
-- protagonist-competence-agency
 tags:
 - action-thriller
 - kinetic

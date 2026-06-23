@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: cantor-diagonalization
   type: soft
+- id: godel-completeness-theorem-first-order
+  type: soft
 builds-toward:
 - intuitionistic-logic-intro
 tags:

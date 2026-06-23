@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: sociological-imagination
   type: soft
+- id: theory-paradigm-sociology
+  type: soft
 builds-toward:
 - goffman-dramaturgy
 - george-herbert-mead-interaction

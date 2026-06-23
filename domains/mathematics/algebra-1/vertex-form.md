@@ -9,7 +9,6 @@ prerequisites:
 - id: solving-multi-step-equations
   type: hard
 builds-toward:
-- solving-quadratic-equations-completing-the-square
 - function-transformations
 tags:
 - vertex-form

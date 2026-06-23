@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: curl-and-divergence-operators
   type: hard
+- id: ampere-maxwell-law
+  type: hard
 builds-toward:
 - electromagnetic-wave-equation
 - boundary-value-problems-electrostatics

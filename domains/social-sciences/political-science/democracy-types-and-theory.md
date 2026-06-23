@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: political-ideologies
   type: soft
+- id: social-contract-theory-political-science
+  type: soft
 builds-toward:
 - constitutionalism
 - electoral-systems

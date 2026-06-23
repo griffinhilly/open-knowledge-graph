@@ -6,6 +6,8 @@ course: harmony-and-voice-leading
 prerequisites:
 - id: voice-leading-transcription-analysis
   type: hard
+- id: two-part-counterpoint-voice-leading
+  type: soft
 builds-toward:
 - voice-leading-form-structure-relationship
 tags:

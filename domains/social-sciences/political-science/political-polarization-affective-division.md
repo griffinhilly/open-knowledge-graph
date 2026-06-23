@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: political-parties-and-party-systems
   type: hard
+- id: spatial-models-political-ideology
+  type: soft
 builds-toward:
 - voter-behavior-electoral-decision
 - institutional-checks-and-balances

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: surface-integrals-flux-vector
   type: hard
+- id: greens-theorem-applications
+  type: soft
 tags:
 - divergence-theorem
 - flux

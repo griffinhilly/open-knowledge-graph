@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: anthropogenic-climate-forcing
   type: soft
+- id: earths-radiative-balance
+  type: soft
+- id: surface-energy-budget-fluxes
+  type: soft
 builds-toward:
 - climate-models-and-projections
 tags:

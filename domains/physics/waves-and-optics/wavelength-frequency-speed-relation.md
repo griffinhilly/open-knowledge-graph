@@ -6,6 +6,10 @@ course: waves-and-optics
 prerequisites:
 - id: harmonic-wave-time-dependence
   type: hard
+- id: transverse-wave-characteristics
+  type: soft
+- id: wave-properties-and-classification
+  type: soft
 builds-toward:
 - acoustic-wave-speed-properties
 - diffraction-resolution-angular-separation

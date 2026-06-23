@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: archaeological-evidence
   type: soft
+- id: chronometric-dating-methods
+  type: soft
 builds-toward:
 - radiocarbon-and-scientific-dating
 tags:

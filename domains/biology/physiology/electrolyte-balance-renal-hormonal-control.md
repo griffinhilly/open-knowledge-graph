@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: blood-pressure-regulation
   type: soft
+- id: tubular-reabsorption-secretion-selectivity
+  type: soft
 tags:
 - electrolytes
 - sodium

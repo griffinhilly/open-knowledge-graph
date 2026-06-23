@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: boolean-algebra-and-laws
   type: soft
+- id: karnaugh-map-optimization
+  type: soft
+- id: logic-gates-fundamentals
+  type: hard
 builds-toward:
 - multiplexers-and-demultiplexers
 - encoder-decoder-circuits

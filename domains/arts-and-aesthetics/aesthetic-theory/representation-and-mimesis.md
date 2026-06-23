@@ -11,7 +11,6 @@ prerequisites:
 - id: aristotle-mimesis-and-catharsis
   type: soft
 builds-toward:
-- benjamin-reproducibility-art
 - postmodern-aesthetics-pastiche
 tags:
 - representation

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: type-spaces-and-stone-topology
   type: hard
+- id: monster-models-and-universal
+  type: soft
 builds-toward:
 - strongly-minimal-and-geometry
 - o-minimality-and-tame-geometry

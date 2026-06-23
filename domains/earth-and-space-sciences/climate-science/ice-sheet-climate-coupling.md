@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: storm-track-dynamics-climate
   type: soft
+- id: albedo-feedback-paleoclimate
+  type: soft
 builds-toward:
 - paleoclimate-data-model-comparison
 tags:

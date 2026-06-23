@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: diffusion-and-ficks-laws
   type: soft
+- id: blood-vessel-structure-and-types
+  type: soft
 tags:
 - gas-exchange
 - diffusion

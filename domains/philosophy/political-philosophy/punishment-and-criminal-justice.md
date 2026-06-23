@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: justice-and-fairness
   type: hard
-builds-toward:
-- retributive-justice
-- rehabilitation-and-justice
 tags:
 - punishment
 - criminal-justice

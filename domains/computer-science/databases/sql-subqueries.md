@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: sql-aggregation
   type: soft
+- id: sql-filtering-conditions
+  type: soft
 builds-toward:
 - query-optimization
 tags:

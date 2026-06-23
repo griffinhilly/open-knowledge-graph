@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - peripatric-speciation
-- ring-species
 tags:
 - speciation
 - geographic-isolation

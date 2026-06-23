@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: autonomic-nervous-system
   type: soft
+- id: alveolar-ventilation-and-dead-space
+  type: soft
+- id: pulmonary-ventilation-mechanics-compliance
+  type: soft
 builds-toward:
 - acid-base-balance-three-regulatory-systems
 tags:

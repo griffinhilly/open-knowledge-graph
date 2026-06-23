@@ -6,6 +6,8 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: first-order-logic-syntax
   type: hard
+- id: term-and-atom-fol
+  type: soft
 builds-toward:
   - substitution-and-unification
 tags:

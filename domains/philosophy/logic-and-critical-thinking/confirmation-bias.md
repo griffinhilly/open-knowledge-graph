@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: anchoring-bias
   type: soft
+- id: cognitive-biases-critical-thinking
+  type: soft
 tags:
 - cognitive-bias
 - confirmation-bias

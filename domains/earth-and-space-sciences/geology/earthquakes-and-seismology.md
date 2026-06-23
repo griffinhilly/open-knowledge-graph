@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: plate-tectonics
   type: hard
+- id: earthquakes-and-faults
+  type: soft
+- id: earthquakes-basics
+  type: soft
 builds-toward:
 - seismic-waves
 - earth-interior-structure

@@ -10,6 +10,16 @@ prerequisites:
   type: hard
 - id: probability-density-functions
   type: hard
+- id: age-structured-demographics-and-fecundity
+  type: soft
+- id: density-dependence-mechanisms
+  type: soft
+- id: effective-population-size-ne-estimation
+  type: soft
+- id: population-bottleneck-drift-inbreeding
+  type: soft
+- id: population-stochasticity-and-extinction
+  type: soft
 builds-toward:
 - extinction-vortex-populations
 tags:

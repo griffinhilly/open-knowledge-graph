@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: near-doubles-facts-within-20
   type: soft
+- id: decomposing-two-digit-numbers
+  type: soft
 builds-toward:
 - addition-within-100
 - mental-math-add-subtract-tens

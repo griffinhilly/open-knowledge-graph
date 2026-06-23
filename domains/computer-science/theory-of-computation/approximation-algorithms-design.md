@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: greedy-algorithms
   type: soft
+- id: vertex-cover-clique-problems
+  type: soft
 builds-toward:
 - hardness-of-approximation
 tags:

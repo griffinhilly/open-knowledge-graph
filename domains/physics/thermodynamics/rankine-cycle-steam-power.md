@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: stirling-cycle-heat-exchanger
   type: soft
+- id: pv-diagram-interpretation
+  type: soft
 builds-toward:
 - ts-diagram-entropy-temperature
 tags:

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: close-reading-basics
   type: soft
-builds-toward:
-- visual-culture-writing
-- critical-essay
 tags:
 - ekphrasis
 - visual-art

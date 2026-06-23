@@ -9,7 +9,6 @@ prerequisites:
 - id: baroclinic-instability-frontal-growth
   type: hard
 builds-toward:
-- dry-conveyor-belt-structure
 - explosive-cyclogenesis-bombogenesis
 tags:
 - fronts

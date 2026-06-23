@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: neuroeconomics-value-computation
   type: hard
-builds-toward:
-- decision-making-neural-basis-value
-- addiction-reward-system-dysfunction
 tags:
 - OFC
 - orbitofrontal

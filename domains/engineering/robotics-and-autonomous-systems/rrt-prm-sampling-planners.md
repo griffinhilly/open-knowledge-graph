@@ -6,9 +6,6 @@ course: robotics-and-autonomous-systems
 prerequisites:
 - id: motion-planning-algorithms
   type: hard
-builds-toward:
-- trajectory-optimization
-- reactive-control-feedback
 tags:
 - rrt
 - prm

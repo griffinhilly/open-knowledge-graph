@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cell-cycle-checkpoints-regulation
   type: soft
+- id: dna-damage-checkpoint-responses
+  type: soft
 tags:
 - cell-cycle-checkpoints
 - p53

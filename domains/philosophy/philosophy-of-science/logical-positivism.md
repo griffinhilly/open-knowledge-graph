@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: first-order-logic-syntax
   type: soft
+- id: empiricism-and-observational-foundations
+  type: soft
+- id: empiricism-scientific-inquiry
+  type: soft
 builds-toward:
 - verification-principle-and-meaningfulness
 - popper-falsificationism

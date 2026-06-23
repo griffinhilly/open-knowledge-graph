@@ -6,6 +6,8 @@ course: materials-science
 prerequisites:
 - id: plastic-deformation-yielding-materials
   type: hard
+- id: grain-boundaries-and-interfaces-materials
+  type: soft
 builds-toward:
 - hardness-testing-and-strength-correlation
 - heat-treatment-steel-processing

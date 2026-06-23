@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: seventh-chord-resolution-tritone
   type: soft
+- id: seventh-chord-voice-leading-resolution
+  type: soft
 builds-toward:
 - jazz-chord-substitution-voice-leading
 tags:

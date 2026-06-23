@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: paraphrase-synthesis-strategies
   type: soft
+- id: research-question-thesis-connection
+  type: soft
 tags:
 - research
 - synthesis

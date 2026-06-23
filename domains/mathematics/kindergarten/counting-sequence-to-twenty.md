@@ -6,8 +6,6 @@ course: kindergarten
 prerequisites:
 - id: counting-sequence-to-ten
   type: hard
-builds-toward:
-- teen-numbers-composition
 tags:
 - counting
 - rote counting

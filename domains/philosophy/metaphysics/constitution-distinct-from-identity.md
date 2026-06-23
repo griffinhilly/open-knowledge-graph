@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: composition-and-simples
   type: soft
+- id: composition-principles-mereology
+  type: soft
 builds-toward:
 - material-constitution-problem
 tags:

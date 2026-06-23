@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: trees-and-tree-properties
   type: hard
-builds-toward:
-- graph-traversal-algorithms
 tags:
 - MST
 - Kruskal

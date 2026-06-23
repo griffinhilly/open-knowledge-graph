@@ -3,7 +3,9 @@ id: email-fundamentals
 title: Email Fundamentals
 domain: practical-life-skills
 course: digital-literacy
-prerequisites: []
+prerequisites:
+- id: reading-an-email
+  type: soft
 builds-toward:
 - email-etiquette
 - phishing-and-scams

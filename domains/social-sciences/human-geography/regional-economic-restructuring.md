@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: economic-geography-fundamentals
   type: hard
+- id: geographic-scale-analysis
+  type: soft
+- id: spatial-inequality-uneven-development
+  type: soft
 builds-toward:
 - gentrification-displacement
 tags:

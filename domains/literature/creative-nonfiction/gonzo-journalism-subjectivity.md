@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: immersion-reporting
   type: hard
-builds-toward:
-- memoir-experimental
-- autobiographical-reportage
 tags:
 - gonzo
 - subjectivity

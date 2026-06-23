@@ -6,6 +6,8 @@ course: modern-physics
 prerequisites:
 - id: relativistic-momentum-energy
   type: hard
+- id: relativistic-kinetic-energy
+  type: soft
 builds-toward:
 - nuclear-fission-fusion
 - pair-production-annihilation

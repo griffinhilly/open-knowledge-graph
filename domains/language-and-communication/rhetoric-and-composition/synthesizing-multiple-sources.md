@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: evidence-integration-analysis
   type: hard
+- id: analytical-writing
+  type: soft
+- id: finding-and-evaluating-sources
+  type: soft
 builds-toward:
 - academic-writing-conventions
 tags:

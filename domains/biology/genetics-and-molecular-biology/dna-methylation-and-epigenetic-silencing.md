@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dna-structure
   type: soft
+- id: chromatin-fiber-higher-order-structure
+  type: soft
+- id: chromatin-remodeling-and-histone-acetylation
+  type: soft
 builds-toward:
 - genomic-imprinting-and-parent-of-origin-effects
 - x-inactivation-and-dosage-compensation

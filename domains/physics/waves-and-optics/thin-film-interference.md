@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: youngs-double-slit
   type: soft
+- id: constructive-destructive-interference
+  type: hard
+- id: optical-path-length-definition
+  type: soft
 tags:
 - thin film
 - optical path length

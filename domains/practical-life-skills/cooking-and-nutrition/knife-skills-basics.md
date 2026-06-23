@@ -6,6 +6,8 @@ course: cooking-and-nutrition
 prerequisites:
 - id: kitchen-safety-and-hygiene
   type: hard
+- id: knife-grip-and-safety
+  type: hard
 builds-toward:
 - vegetable-preparation
 - sauteing-and-pan-cooking

@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: object-oriented-ontology-literature
   type: soft
-builds-toward:
-- thing-theory-object-oriented-criticism
 tags:
 - new-materialism
 - agency

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: http-hypertext-transfer-protocol
   type: hard
+- id: anycast-networking
+  type: soft
+- id: reverse-proxy-caching-architecture
+  type: soft
 tags:
 - cdn
 - content-distribution

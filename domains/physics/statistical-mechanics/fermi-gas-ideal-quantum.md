@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - debye-model-lattice-dynamics
-- critical-phenomena-statmech
 tags:
 - fermi-gas
 - degenerate-fermions

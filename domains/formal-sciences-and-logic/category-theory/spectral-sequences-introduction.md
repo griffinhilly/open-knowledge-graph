@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: spectral-sequences-algebraic
   type: soft
+- id: derived-categories
+  type: soft
 builds-toward:
 - homology-and-cohomology
 tags:

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: relative-deprivation-theory
+  type: soft
 tags:
 - social-movements
 - resource-mobilization

@@ -10,9 +10,6 @@ prerequisites:
   type: soft
 - id: hypothalamic-pituitary-adrenal-hpa-axis
   type: soft
-builds-toward:
-- stress-response-and-coping
-- anxiety-disorders-physiology
 tags:
 - autonomic
 - stress

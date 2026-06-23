@@ -6,6 +6,10 @@ course: topology
 prerequisites:
 - id: basis-for-a-topology
   type: hard
+- id: basis-for-topology
+  type: hard
+- id: subbasis-topology
+  type: hard
 builds-toward:
 - tychonoff-theorem
 - topological-manifolds-introduction

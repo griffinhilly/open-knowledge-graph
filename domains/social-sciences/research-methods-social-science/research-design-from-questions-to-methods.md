@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: philosophy-of-social-science-epistemology
   type: hard
+- id: positivism-interpretivism-paradigm-debate
+  type: soft
 builds-toward:
 - operationalization-construct-validity
 - measurement-validity-social-science

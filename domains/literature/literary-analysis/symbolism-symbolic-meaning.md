@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: symbol-interpretation-method
   type: soft
+- id: literary-terminology-core-concepts
+  type: soft
 builds-toward:
 - symbol-interpretation-method
 - extended-metaphor-analysis

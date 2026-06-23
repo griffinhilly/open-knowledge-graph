@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: counting-to-20
   type: hard
+- id: one-to-one-counting-correspondence
+  type: hard
 builds-toward:
 - matching-numerals-to-quantities
 - comparing-quantities

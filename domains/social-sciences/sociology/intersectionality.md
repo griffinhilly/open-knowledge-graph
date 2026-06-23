@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: measures-of-spread
   type: soft
+- id: feminist-sociology
+  type: soft
 tags:
 - intersectionality
 - kimberlé-crenshaw

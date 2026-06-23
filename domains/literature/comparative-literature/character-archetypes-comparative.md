@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: archetypal-criticism
   type: hard
+- id: genre-conventions-tropes-archetypes
+  type: soft
+- id: myth-folklore-comparative
+  type: soft
 builds-toward:
 - literary-cosmopolitanism
 tags:

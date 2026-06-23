@@ -6,8 +6,6 @@ course: digital-literacy
 prerequisites:
 - id: effective-web-searching
   type: soft
-builds-toward:
-- digital-citizenship-responsibility
 tags:
 - help
 - support

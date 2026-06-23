@@ -12,9 +12,6 @@ prerequisites:
   type: soft
 - id: vectors-in-3d
   type: soft
-builds-toward:
-- white-matter-plasticity-learning
-- white-matter-development-myelination-trajectory
 tags:
 - DTI
 - white-matter

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: locality-constraints-movement
   type: soft
+- id: relative-clause-formation
+  type: soft
 tags:
 - syntax
 - movement

@@ -8,9 +8,6 @@ prerequisites:
   type: soft
 - id: mystery-genre
   type: soft
-builds-toward:
-- popular-fiction-history
-- genre-convention-development
 tags:
 - pulp-fiction
 - serialization

@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - cerebellar-circuits
-- error-correction
 tags:
 - motor-learning
 - adaptation

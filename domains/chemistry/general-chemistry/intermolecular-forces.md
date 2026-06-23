@@ -6,6 +6,12 @@ course: general-chemistry
 prerequisites:
 - id: molecular-polarity
   type: hard
+- id: molecular-geometry-prediction
+  type: soft
+- id: polar-covalent-bonds-and-dipoles
+  type: soft
+- id: polarity-and-dipole-moments
+  type: hard
 builds-toward:
 - solution-concentration
 - colligative-properties

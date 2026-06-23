@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - field-experiments-real-world
-- lab-experiments-behavioral
 tags:
 - experimental
 - causal

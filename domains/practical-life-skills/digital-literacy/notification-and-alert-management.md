@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: notification-management
   type: soft
-builds-toward:
-- digital-wellness-and-screen-time
 tags:
 - notifications
 - alerts

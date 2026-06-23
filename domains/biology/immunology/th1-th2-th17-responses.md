@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inflammatory-response-cellular
   type: soft
+- id: cytokine-signaling-and-pleiotropic-effects
+  type: soft
 builds-toward:
 - autoimmunity-mechanisms
 tags:

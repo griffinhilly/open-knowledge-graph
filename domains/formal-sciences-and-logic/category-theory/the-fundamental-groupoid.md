@@ -6,8 +6,6 @@ course: category-theory
 prerequisites:
 - id: groupoids-and-weak-inverses
   type: hard
-builds-toward:
-- enriched-categories
 tags:
 - fundamental-group
 - paths

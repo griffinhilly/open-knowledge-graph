@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wavelength-frequency-speed-relation
   type: hard
+- id: linear-superposition-principle
+  type: hard
 builds-toward:
 - diffraction-gratings
 - youngs-double-slit

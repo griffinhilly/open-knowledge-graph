@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reaction-mechanisms-overview
   type: soft
+- id: activation-energy-catalysis-reaction-pathways
+  type: soft
 builds-toward:
 - organic-chemistry-intro
 tags:

@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: electrical-resistivity-tomography
   type: soft
+- id: crustal-velocity-structure
+  type: soft
+- id: seismic-ray-theory
+  type: hard
+- id: seismic-velocity-depth-models
+  type: soft
 tags:
 - seismology
 - tomography

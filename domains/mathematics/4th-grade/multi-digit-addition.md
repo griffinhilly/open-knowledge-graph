@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: two-step-word-problems
   type: soft
+- id: three-digit-addition-with-regrouping
+  type: hard
 builds-toward:
 - multi-digit-subtraction
 - estimation-strategies

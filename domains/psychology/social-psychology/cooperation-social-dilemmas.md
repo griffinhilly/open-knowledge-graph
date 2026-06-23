@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: evolutionary-game-theory
   type: soft
-builds-toward:
-- conflict-escalation-resolution
 tags:
 - cooperation
 - social-dilemmas

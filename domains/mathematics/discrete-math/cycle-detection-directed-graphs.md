@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: topological-sorting
   type: soft
+- id: depth-first-search-graphs
+  type: hard
 builds-toward:
 - directed-acyclic-graphs
 - strongly-connected-components

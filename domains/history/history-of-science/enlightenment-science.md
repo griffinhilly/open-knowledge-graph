@@ -11,7 +11,6 @@ prerequisites:
 
 builds-toward:
 - darwin-evolution-reception
-- scientific-institutions-growth
 tags:
 - history
 - History Of Science

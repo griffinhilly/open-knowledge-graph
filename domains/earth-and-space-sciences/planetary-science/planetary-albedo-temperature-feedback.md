@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: greenhouse-effect
   type: hard
+- id: planetary-cloud-physics
+  type: soft
 tags:
 - albedo
 - energy-balance

@@ -10,9 +10,6 @@ prerequisites:
   type: soft
 - id: ethnographic-extended-fieldwork-immersion
   type: soft
-builds-toward:
-- emergency-ethnography
-- crisis-research-methods
 tags:
 - ethnography
 - speed

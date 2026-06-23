@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phase-diagrams-binary
   type: hard
+- id: solid-solution-strengthening
+  type: soft
 builds-toward:
 - materials-selection-design
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-history-approach
   type: hard
+- id: marxist-historiography-theory
+  type: soft
 builds-toward:
 - subaltern-historiography
 - microhistory-methodology

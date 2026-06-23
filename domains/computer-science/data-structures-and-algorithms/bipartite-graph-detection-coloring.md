@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: graph-depth-first-search-applications
   type: soft
+- id: queue-applications-level-order-traversal
+  type: soft
 tags:
 - graphs
 - bipartite

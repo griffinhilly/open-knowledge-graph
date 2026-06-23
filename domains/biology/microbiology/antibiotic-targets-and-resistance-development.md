@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: antibiotic-resistance-mutations-downregulation
   type: soft
+- id: gram-positive-vs-gram-negative-bacteria
+  type: soft
 builds-toward:
 - antimicrobial-resistance-epidemiology-and-spread
 - emerging-infectious-diseases

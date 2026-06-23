@@ -10,6 +10,14 @@ prerequisites:
   type: soft
 - id: peer-influence-conformity-social-development
   type: soft
+- id: egocentrism-perspective-taking-development
+  type: soft
+- id: pragmatic-language-social-context
+  type: soft
+- id: secure-attachment-assessment-strange-situation
+  type: soft
+- id: theory-of-mind-false-beliefs
+  type: soft
 builds-toward:
 - adolescent-identity-exploration-commitment
 - gender-identity-socialization-development

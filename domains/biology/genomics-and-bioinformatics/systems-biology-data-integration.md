@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: metabolomics
   type: soft
+- id: functional-annotation
+  type: soft
 builds-toward:
 - multi-omics-integration
 tags:

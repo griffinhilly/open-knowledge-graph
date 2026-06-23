@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measurement-scales-psychology
   type: hard
+- id: norm-development-and-interpretation
+  type: soft
 builds-toward:
 - personality-test-interpretation-mmpi
 - intelligence-test-interpretation

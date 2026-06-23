@@ -6,6 +6,8 @@ course: world-literature
 prerequisites:
 - id: meiji-literary-modernity-naturalism-genbun-itchi
   type: hard
+- id: japanese-aesthetic-philosophy-wabi-sabi-ma
+  type: soft
 builds-toward:
 - kawabata-minimalism-essence
 - murakami-surrealism-japan

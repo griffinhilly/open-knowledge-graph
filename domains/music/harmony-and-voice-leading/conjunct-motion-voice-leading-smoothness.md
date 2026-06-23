@@ -6,8 +6,6 @@ course: harmony-and-voice-leading
 prerequisites:
 - id: voice-leading-principles
   type: hard
-builds-toward:
-- voice-leading-in-composition
 tags:
 - conjunct-motion
 - voice-leading

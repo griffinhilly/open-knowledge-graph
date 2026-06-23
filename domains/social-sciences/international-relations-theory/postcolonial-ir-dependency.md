@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: second-strike-capability-mutual-assured-destruction
   type: soft
+- id: marxist-ir-imperialism-capitalism
+  type: soft
 builds-toward:
 - critical-ir-foucauldian-analysis
 tags:

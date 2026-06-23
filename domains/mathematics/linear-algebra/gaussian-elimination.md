@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: systems-of-linear-equations
   type: hard
+- id: linear-systems-notation
+  type: hard
 builds-toward:
 - row-echelon-form
 - reduced-row-echelon-form

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: language-pragmatics-discourse-development
   type: soft
+- id: working-memory-and-executive-control-development
+  type: soft
 builds-toward:
 - school-age-cognitive-and-social-development
 tags:

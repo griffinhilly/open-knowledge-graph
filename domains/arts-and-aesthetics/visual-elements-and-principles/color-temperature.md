@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: color-mixing
   type: soft
+- id: discovering-color-through-observation
+  type: soft
 builds-toward:
 - color-relationships
 - atmospheric-perspective

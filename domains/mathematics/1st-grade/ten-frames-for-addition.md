@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - making-ten-strategy-1st
-- addition-fact-families
 tags:
 - visualization
 - addition

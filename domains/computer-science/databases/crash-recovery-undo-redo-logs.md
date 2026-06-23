@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: acid-properties
   type: hard
+- id: buffer-pool-cache-replacement-policies
+  type: soft
 builds-toward:
 - checkpoint-fuzzy-recovery
 tags:

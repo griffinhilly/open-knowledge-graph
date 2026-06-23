@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: computational-social-science-intro
   type: soft
-builds-toward:
-- platform-ethnography
-- metaverse-research-methods
 tags:
 - ethnography
 - digital

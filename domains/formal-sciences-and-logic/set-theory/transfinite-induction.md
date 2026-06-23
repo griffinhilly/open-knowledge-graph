@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: well-founded-relations
   type: soft
+- id: limit-ordinals-and-omega
+  type: hard
+- id: well-founded-relations-and-recursion
+  type: hard
 builds-toward:
 - transfinite-recursion
 - well-ordering-theorem

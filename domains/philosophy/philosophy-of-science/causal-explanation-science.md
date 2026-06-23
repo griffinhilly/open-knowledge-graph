@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: deductive-nomological-explanation
   type: soft
+- id: covering-law-model-explanation
+  type: soft
+- id: scientific-explanation-introduction
+  type: soft
 builds-toward:
 - unification-model-explanation
 - natural-kinds-classification

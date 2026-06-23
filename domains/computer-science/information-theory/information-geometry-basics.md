@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: differential-entropy
   type: soft
+- id: fisher-information-theory
+  type: hard
 tags:
 - information geometry
 - Fisher metric

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mortality-analysis
   type: soft
+- id: demographic-transition-theory
+  type: soft
 builds-toward:
 - dependency-ratios
 - population-and-environment

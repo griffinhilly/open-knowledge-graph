@@ -12,9 +12,8 @@ prerequisites:
   type: soft
 - id: memory-consolidation-systems
   type: hard
-builds-toward:
-- learning-and-experience-dependent-plasticity
-- sleep-deprivation-effects
+- id: brainstem-reticular-consciousness
+  type: soft
 tags:
 - sleep
 - memory

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: gabaergic-inhibition
   type: hard
+- id: gabaergic-inhibition-and-benzodiazepine-pharmacology
+  type: hard
 builds-toward:
 - evidence-based-treatment-practice
 tags:

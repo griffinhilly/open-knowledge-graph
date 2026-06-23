@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - vectors-in-3d
-- spheres-and-level-sets
 tags:
 - distance
 - metric

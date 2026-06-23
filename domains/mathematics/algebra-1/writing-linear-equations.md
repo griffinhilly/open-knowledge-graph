@@ -13,7 +13,6 @@ prerequisites:
 builds-toward:
   - systems-word-problems
   - parallel-and-perpendicular-slopes
-  - linear-regression
 tags: [writing-equations, linear, slope, modeling]
 stage: abstract-reasoning
 status: validated

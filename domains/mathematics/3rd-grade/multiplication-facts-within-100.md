@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: skip-counting-by-10s
   type: soft
+- id: multiplication-facts-0-through-10s
+  type: hard
+- id: multiplication-facts-basic-2nd
+  type: soft
 builds-toward:
 - two-digit-by-one-digit-multiplication
 - multi-digit-multiplication

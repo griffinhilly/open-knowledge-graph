@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: active-transport
   type: hard
+- id: cell-membrane-fluid-mosaic
+  type: hard
+- id: osmosis-and-water-movement
+  type: soft
 builds-toward:
 - cell-signaling-receptor-pathways
 tags:

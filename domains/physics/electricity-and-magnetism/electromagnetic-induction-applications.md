@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: magnetic-flux-and-induction
   type: soft
+- id: faraday-law-advanced
+  type: hard
+- id: motional-electromotive-force
+  type: soft
+- id: mutual-inductance-coupled-coils
+  type: soft
 builds-toward:
 - ac-circuits-fundamentals
 tags:

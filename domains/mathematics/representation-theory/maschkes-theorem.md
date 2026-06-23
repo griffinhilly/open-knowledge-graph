@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - character-theory
-- artin-wedderburn-theorem
 tags:
 - maschke
 - complete-reducibility

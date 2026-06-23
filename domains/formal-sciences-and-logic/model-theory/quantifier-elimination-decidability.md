@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: systems-of-linear-equations
   type: soft
+- id: universal-formulas-substructures
+  type: soft
 builds-toward:
 - o-minimality-and-tame-geometry
 - definability-and-algebraic-applications

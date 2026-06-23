@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: social-norms-and-conformity
   type: hard
-builds-toward:
-- deviance-sanctions-internalization
 tags:
 - norms
 - norm-formation

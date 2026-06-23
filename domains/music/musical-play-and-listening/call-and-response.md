@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: listening-for-sounds
   type: soft
+- id: taking-turns-with-music
+  type: soft
 builds-toward:
 - musical-games
 - singing-in-unison

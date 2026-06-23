@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: fluorescence-quantum-yield-lifetime
   type: soft
-builds-toward:
-- two-dimensional-nmr-spectroscopy
 tags:
 - spectroscopy
 - excited-states

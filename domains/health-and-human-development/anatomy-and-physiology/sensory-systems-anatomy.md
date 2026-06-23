@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: sensory-neural-coding-perception
   type: soft
+- id: sensory-receptor-transduction-adaptation
+  type: soft
 tags:
 - vision
 - hearing

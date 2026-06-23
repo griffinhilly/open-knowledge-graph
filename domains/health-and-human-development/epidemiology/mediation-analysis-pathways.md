@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multivariable-regression-epi
   type: hard
+- id: causal-inference-in-epidemiology
+  type: hard
 builds-toward:
 - social-epidemiology-pathways
 tags:

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: persuasion-and-attitude-change
   type: hard
-builds-toward:
-- reciprocity-principle-social-norms
 tags:
 - compliance
 - reciprocity

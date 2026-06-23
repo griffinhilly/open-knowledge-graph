@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: stagflation-and-conflicting-policy
   type: soft
-builds-toward:
-- fiscal-dominance-vs-monetary-independence
 tags:
 - exchange-rates
 - regimes

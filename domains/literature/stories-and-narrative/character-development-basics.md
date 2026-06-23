@@ -6,6 +6,8 @@ course: stories-and-narrative
 prerequisites:
 - id: character-motivation-basics
   type: hard
+- id: protagonist-introduction
+  type: soft
 builds-toward:
 - static-vs-dynamic-change
 - dialogue-characterization

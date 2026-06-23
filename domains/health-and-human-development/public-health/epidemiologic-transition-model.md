@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: disease-frequency-measures
   type: hard
-builds-toward:
-- chronic-disease-burden-global
-- infectious-disease-control-strategies
 tags:
 - epidemiology
 - disease-patterns

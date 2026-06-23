@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: place-value-tens-and-ones
   type: hard
+- id: regrouping-addition-trading-ones-for-tens
+  type: hard
 builds-toward:
 - addition-within-100
 - three-digit-addition

@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: zeugma-and-wordplay
   type: soft
-builds-toward:
-- irony-in-literature
 tags:
 - zeugma
 - wit

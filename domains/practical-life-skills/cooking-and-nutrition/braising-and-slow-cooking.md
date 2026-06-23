@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sauteing-and-pan-cooking
   type: soft
+- id: burner-heat-level-control
+  type: soft
 tags:
 - braising
 - slow-cooking

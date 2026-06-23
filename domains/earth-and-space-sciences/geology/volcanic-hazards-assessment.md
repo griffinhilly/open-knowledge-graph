@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: volcanic-processes-and-landforms
   type: soft
+- id: volcano-classification-magma-types
+  type: soft
+- id: volcanoes-and-magma
+  type: soft
 tags:
 - volcanic-hazards
 - eruptions

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: phylogenetic-tree-construction
   type: soft
+- id: genome-assembly
+  type: soft
 builds-toward:
 - functional-annotation
 - multi-omics-integration

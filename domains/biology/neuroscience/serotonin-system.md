@@ -6,9 +6,8 @@ course: neuroscience
 prerequisites:
 - id: synaptic-transmission
   type: soft
-builds-toward:
-- mood-anxiety-circuits
-- depression-neurobiology
+- id: gpcr-metabotropic-signaling
+  type: soft
 tags:
 - serotonin
 - 5ht

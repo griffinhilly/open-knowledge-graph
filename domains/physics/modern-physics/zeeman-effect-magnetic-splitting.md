@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: franck-hertz-discrete-energy-levels
   type: soft
-builds-toward:
-- fine-structure-atomic-splitting
 tags:
 - magnetic-field
 - energy-levels

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: comparative-mythology-patterns
   type: soft
+- id: classical-chinese-poetry-aesthetics-tradition
+  type: soft
 builds-toward:
 - tang-dynasty-classical-poetry-forms
 tags:

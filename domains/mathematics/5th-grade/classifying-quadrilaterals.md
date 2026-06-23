@@ -10,6 +10,8 @@ prerequisites:
     type: hard
   - id: measuring-angles
     type: soft
+  - id: right-angles-in-shapes-3rd
+    type: hard
 builds-toward: []
 tags: [geometry, quadrilaterals, classification, properties]
 stage: concrete-operations

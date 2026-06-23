@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: intergroup-contact-hypothesis
   type: soft
-builds-toward:
-- conflict-resolution-techniques
 tags:
 - conflict reduction
 - cooperation

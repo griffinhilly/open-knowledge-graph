@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: helmholtz-free-energy
   type: hard
+- id: phase-equilibrium-coexistence
+  type: soft
 builds-toward:
 - phase-diagrams
 tags:

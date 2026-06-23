@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: list-coloring
   type: soft
+- id: planar-graphs-kuratowski-wagner
+  type: soft
 tags:
 - graph-theory
 - planar-graphs

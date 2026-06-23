@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: life-history-strategies
   type: soft
+- id: predators-and-prey
+  type: hard
 builds-toward:
 - species-interactions
 - community-ecology-intro

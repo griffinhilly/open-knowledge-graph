@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: fractions-on-number-line
   type: soft
-builds-toward:
-- comparing-fractions-on-number-line
 tags:
 - fractions
 - number-line

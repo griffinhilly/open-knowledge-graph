@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: age-structured-epidemiological-models
   type: soft
+- id: outbreak-epidemic-curve-interpretation
+  type: soft
+- id: transmission-chain-disease-spread
+  type: soft
 tags:
 - mathematical-models
 - transmission-dynamics

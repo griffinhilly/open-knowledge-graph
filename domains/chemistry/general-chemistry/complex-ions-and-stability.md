@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - complexometric-titration
-- solubility-product-constant-ksp
 tags:
 - complex stability
 - formation constant

@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: definition-and-conceptual-clarity
   type: soft
-builds-toward:
-- analyzing-natural-language-arguments
 tags:
 - vagueness
 - clarity

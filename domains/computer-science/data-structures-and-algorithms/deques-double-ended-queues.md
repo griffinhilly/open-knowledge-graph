@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: queues-data-structure
   type: hard
+- id: queue-adt-circular-implementation
+  type: soft
 tags:
 - deques
 - stacks

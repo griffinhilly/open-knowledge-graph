@@ -6,11 +6,6 @@ course: creative-nonfiction
 prerequisites:
 - id: braided-essay-structure
   type: hard
-- id: literary-structure-analysis
-  type: soft
-builds-toward:
-- experimental-nonfiction
-- hybrid-forms
 tags:
 - collage
 - assemblage

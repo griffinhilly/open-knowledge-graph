@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: benjamin-aura-and-mechanical-reproduction
   type: soft
+- id: hegelian-aesthetics-and-history
+  type: soft
 builds-toward:
 - postmodern-aesthetics-and-critique-of-grand-narratives
 tags:

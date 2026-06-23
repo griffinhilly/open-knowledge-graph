@@ -6,6 +6,12 @@ course: general-chemistry
 prerequisites:
 - id: emission-absorption-spectra
   type: soft
+- id: atomic-number-and-identity
+  type: soft
+- id: protons-neutrons-electrons
+  type: hard
+- id: what-is-an-atom
+  type: soft
 builds-toward:
 - periodic-table-overview
 - electron-configuration

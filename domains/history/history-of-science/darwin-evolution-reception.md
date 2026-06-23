@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 
 builds-toward:
-- genetics-and-heredity-history
 - dna-discovery-molecular-biology
-- science-and-religion-conflict
 tags:
 - history
 - History Of Science

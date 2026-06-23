@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: eukaryotic-cells
   type: hard
+- id: cell-biology-intro
+  type: soft
 builds-toward:
 - nucleus-structure-and-function
 - compartmentalization-cellular-organization

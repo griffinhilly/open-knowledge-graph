@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: mass-energy-equivalence
   type: soft
+- id: isotopes-and-nuclear-composition
+  type: soft
 tags:
 - radioactivity
 - alpha-decay

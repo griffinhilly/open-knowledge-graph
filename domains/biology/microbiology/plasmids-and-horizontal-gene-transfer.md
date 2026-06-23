@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dna-structure
   type: hard
+- id: bacterial-chromosome-structure-and-organization
+  type: soft
 builds-toward:
 - antibiotic-resistance-mechanisms-and-evolution
 - microbial-genetics-overview

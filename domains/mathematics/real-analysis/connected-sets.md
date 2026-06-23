@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: closed-sets-real-line
   type: hard
+- id: open-closed-sets-real-line
+  type: hard
 builds-toward:
 - intermediate-value-theorem-rigorous
 tags:

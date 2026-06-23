@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: variation-form-analysis
   type: soft
+- id: cadence-function-ear
+  type: soft
+- id: form-phrase-structure-ear
+  type: soft
 builds-toward:
 - cyclic-form-unity
 tags:

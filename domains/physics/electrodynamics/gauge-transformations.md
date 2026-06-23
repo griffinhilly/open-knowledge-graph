@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: vector-potential-and-curl
+  type: soft
 builds-toward:
 - lorentz-gauge
 - covariant-em

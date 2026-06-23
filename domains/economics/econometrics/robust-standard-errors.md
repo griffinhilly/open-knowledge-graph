@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: multicollinearity
   type: soft
+- id: heteroskedasticity-detection-testing
+  type: soft
+- id: standard-error-calculation
+  type: hard
 builds-toward:
 - panel-data-basics
 tags:

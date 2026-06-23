@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-epistemology
   type: soft
+- id: collective-vs-distributive
+  type: soft
 tags:
 - group-knowledge
 - collective-belief

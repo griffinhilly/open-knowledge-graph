@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: coevolution
   type: soft
+- id: symbiosis-ls
+  type: hard
 builds-toward:
 - adaptive-radiation-patterns
-- community-composition-structure
 tags:
 - mutualism
 - symbiosis

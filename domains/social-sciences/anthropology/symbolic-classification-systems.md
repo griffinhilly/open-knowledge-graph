@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: kinship-terminology-classification
   type: soft
+- id: structural-analysis-social-systems
+  type: soft
 builds-toward:
 - language-and-culture
 tags:

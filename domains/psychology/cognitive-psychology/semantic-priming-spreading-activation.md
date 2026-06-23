@@ -6,6 +6,8 @@ course: cognitive-psychology
 prerequisites:
 - id: language-comprehension
   type: soft
+- id: semantic-networks-conceptual-organization
+  type: hard
 builds-toward:
 - false-memory-source-misattribution
 tags:

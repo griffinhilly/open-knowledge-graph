@@ -4,7 +4,7 @@ title: 'Audio Drama: Serialized Narrative and Sonic Form'
 domain: literature
 course: digital-and-experimental-literature
 prerequisites:
-- id: podcasting-as-literary-form
+- id: podcast-literature-serialized
   type: hard
 - id: narrative-voice
   type: soft

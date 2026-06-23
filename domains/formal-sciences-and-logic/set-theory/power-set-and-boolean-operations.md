@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: axiom-of-power-set
   type: soft
+- id: set-operations-and-venn-diagrams
+  type: hard
 builds-toward:
 - cardinality-and-equinumerosity
 tags:

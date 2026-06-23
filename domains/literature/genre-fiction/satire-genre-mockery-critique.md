@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - genre-blending-hybridity
-- social-commentary-through-form
 tags:
 - satire
 - irony

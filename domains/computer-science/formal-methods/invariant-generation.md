@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: abstract-interpretation
   type: soft
+- id: floyd-hoare-verification
+  type: hard
 builds-toward: []
 tags:
 - loop-invariant

@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: minority-rights-and-tolerance
   type: soft
-builds-toward:
-- voting-rights
-- discrimination-and-justice
 tags:
 - equality
 - political-standing

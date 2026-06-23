@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: typeface-classification-and-selection
   type: soft
+- id: design-scale-and-responsiveness
+  type: soft
 tags:
 - typography
 - responsive

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ontology-and-being
   type: soft
+- id: grounding-fundamentality-hierarchy
+  type: soft
 builds-toward:
 - fundamental-properties-sparse-abundant
 tags:

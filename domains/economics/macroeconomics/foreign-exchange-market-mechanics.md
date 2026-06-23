@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - purchasing-power-parity-absolute
-- international-capital-flows
 tags:
 - forex
 - exchange-rates

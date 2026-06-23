@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: relations-as-set-subsets
   type: soft
+- id: predicate-logic-introduction
+  type: soft
 builds-toward:
 - first-order-semantics
 - natural-deduction-fol

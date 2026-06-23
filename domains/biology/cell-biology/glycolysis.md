@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: carbonyl-chemistry-intro
   type: soft
+- id: nad-nadh-structure-and-function
+  type: soft
 builds-toward:
 - pyruvate-oxidation
 - krebs-cycle

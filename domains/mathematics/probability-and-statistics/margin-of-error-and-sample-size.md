@@ -6,9 +6,6 @@ course: probability-and-statistics
 prerequisites:
 - id: confidence-intervals-framework
   type: hard
-builds-toward:
-- confidence-intervals-means
-- confidence-intervals-proportions
 tags:
 - inference
 - planning

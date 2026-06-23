@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: ethnography-advanced-methods
   type: soft
-builds-toward:
-- narrative-longitudinal-life-course
-- biographical-research-methods
 tags:
 - longitudinal
 - qualitative

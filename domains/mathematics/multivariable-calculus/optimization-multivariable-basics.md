@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: differentiability-multivariable
   type: soft
+- id: directional-derivatives-gradient
+  type: soft
 builds-toward:
 - lagrange-multipliers
 - constrained-optimization

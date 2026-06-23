@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: graph-connectivity
   type: hard
+- id: depth-first-search-graphs
+  type: soft
 builds-toward:
 - topological-sorting
 - condensation-digraph

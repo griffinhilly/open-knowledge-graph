@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: hand-and-foot-proportions
   type: soft
+- id: gesture-drawing-capturing-movement
+  type: soft
 builds-toward:
 - portraiture-structure-features-and-character
 tags:

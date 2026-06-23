@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: ecosystem-services
   type: soft
+- id: human-impact-on-ecosystems
+  type: hard
 builds-toward:
 - climate-change-ecology
 tags:

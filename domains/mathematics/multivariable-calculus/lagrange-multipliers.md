@@ -6,6 +6,14 @@ course: multivariable-calculus
 prerequisites:
 - id: implicit-differentiation-multivariable
   type: hard
+- id: critical-points-multivariable
+  type: soft
+- id: gradient-vector
+  type: hard
+- id: optimization-multivariable-basics
+  type: soft
+- id: unconstrained-optimization
+  type: soft
 builds-toward:
 - constrained-optimization
 tags:

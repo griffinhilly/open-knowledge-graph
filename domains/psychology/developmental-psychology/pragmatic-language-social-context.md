@@ -6,6 +6,10 @@ course: developmental-psychology
 prerequisites:
 - id: language-acquisition-development
   type: hard
+- id: syntax-acquisition-grammatical-development
+  type: soft
+- id: vocabulary-growth-semantic-development
+  type: soft
 builds-toward:
 - peer-relationships-friendship-development
 - prosocial-behavior-empathy-altruism

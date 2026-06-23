@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: pessimistic-concurrency-control
   type: soft
+- id: sql-isolation-levels-anomalies
+  type: soft
 tags:
 - concurrency
 - mvcc

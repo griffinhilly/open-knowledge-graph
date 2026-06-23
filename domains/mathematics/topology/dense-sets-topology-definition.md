@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: closure-operator-topology
   type: hard
+- id: limit-points-topology-definition
+  type: soft
 builds-toward:
 - separability-topology
 tags:

@@ -6,6 +6,8 @@ course: medieval-world
 prerequisites:
 - id: feudal-hierarchy-vassal-system
   type: hard
+- id: feudal-contract-reciprocal-obligation
+  type: soft
 builds-toward:
 - chivalry-code-and-practice
 - castle-architecture-and-fortification

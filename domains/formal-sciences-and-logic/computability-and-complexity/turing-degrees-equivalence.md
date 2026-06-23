@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: turing-degrees
   type: soft
+- id: formal-computational-models
+  type: hard
 builds-toward:
 - complexity-lower-bounds
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: color-theory-in-design
   type: soft
+- id: historical-painting-techniques-evolution
+  type: soft
 builds-toward:
 - modern-art-movements
 - symbolism-movement

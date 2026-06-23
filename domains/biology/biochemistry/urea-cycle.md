@@ -10,8 +10,10 @@ prerequisites:
   type: soft
 - id: organic-chemistry-intro
   type: soft
-builds-toward:
-- nitrogen-metabolism-integration
+- id: amino-acid-degradation-overview
+  type: soft
+- id: transamination-reactions
+  type: soft
 tags:
 - urea
 - nitrogen-disposal

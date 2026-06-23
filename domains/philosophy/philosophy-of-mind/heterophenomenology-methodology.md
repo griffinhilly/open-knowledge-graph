@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: scientific-method-and-observation
   type: soft
+- id: transparency-introspection-access
+  type: soft
 builds-toward:
 - global-workspace-theory
 - integrated-information-consciousness

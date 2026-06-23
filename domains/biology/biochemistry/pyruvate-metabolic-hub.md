@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - gluconeogenesis
 - fatty-acid-synthesis
-- amino-acid-synthesis
 tags:
 - pyruvate
 - metabolic-integration

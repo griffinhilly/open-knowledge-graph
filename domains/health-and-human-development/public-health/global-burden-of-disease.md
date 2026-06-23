@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: vector-borne-disease-ecology
   type: soft
+- id: burden-of-disease-metrics
+  type: hard
+- id: standardized-rate-calculation
+  type: soft
 builds-toward:
 - health-policy-and-advocacy
 - health-systems-and-financing

@@ -4,7 +4,7 @@ title: 'Qing Dynasty Novel: Form, Realism, and Social Critique'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - dream-red-chamber-family-narrative

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: cell-membrane-structure
   type: soft
-builds-toward:
-- membrane-protein-biogenesis
 tags:
 - phospholipids
 - lipid-biosynthesis

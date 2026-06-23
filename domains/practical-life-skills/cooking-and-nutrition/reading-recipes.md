@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ratios
   type: soft
+- id: measuring-ingredients-volume-basics
+  type: soft
 builds-toward:
 - boiling-and-simmering
 - sauteing-and-pan-cooking

@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: symbolic-interactionism
   type: hard
+- id: role-taking-self-development
+  type: soft
 builds-toward:
 - ethnomethodology
 tags:

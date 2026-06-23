@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - chemical-equilibrium
-- electrochemistry-basics
 tags:
 - Gibbs-free-energy
 - spontaneity

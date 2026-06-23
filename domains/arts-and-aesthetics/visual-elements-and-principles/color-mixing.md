@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mixing-colors
   type: soft
+- id: discovering-color-through-observation
+  type: soft
 builds-toward:
 - color-temperature
 - color-relationships

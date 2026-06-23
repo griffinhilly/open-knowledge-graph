@@ -6,6 +6,12 @@ course: waves-and-optics
 prerequisites:
 - id: sound-waves-longitudinal
   type: hard
+- id: how-sound-travels
+  type: soft
+- id: sound-properties-and-speed
+  type: soft
+- id: wave-speed-elastic-media
+  type: soft
 builds-toward:
 - doppler-shift-observer-motion
 tags:

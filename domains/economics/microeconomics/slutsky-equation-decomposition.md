@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hicksian-demand
   type: hard
+- id: duality-consumer-preferences
+  type: soft
+- id: normal-vs-inferior-goods-analysis
+  type: soft
 builds-toward:
   - demand-system-integrability
 tags:

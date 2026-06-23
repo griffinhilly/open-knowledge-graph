@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nucleotide-salvage-pathways
   type: soft
+- id: pentose-phosphate-pathway
+  type: soft
 builds-toward:
 - dna-replication-machinery
 - transcription-initiation-and-regulation

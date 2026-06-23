@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - tangent-planes
-- surface-parametrization
 tags:
 - lines
 - planes

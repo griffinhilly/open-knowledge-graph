@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: directed-acyclic-graphs
   type: hard
+- id: depth-first-search-graphs
+  type: soft
 builds-toward: []
 tags:
 - directed-graphs

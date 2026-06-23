@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: orchestral-timbre-identification-ear
   type: soft
+- id: register-and-spacing-in-composition
+  type: soft
 builds-toward:
 - ensemble-arrangement-principles
 - texture-development-in-composition

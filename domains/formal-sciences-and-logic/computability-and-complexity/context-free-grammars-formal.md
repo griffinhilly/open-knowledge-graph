@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: recursion-on-finite-structures
   type: soft
+- id: regular-expressions-and-languages
+  type: soft
 builds-toward:
 - linear-bounded-automata
 tags:

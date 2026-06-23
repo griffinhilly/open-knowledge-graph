@@ -6,6 +6,10 @@ course: thermodynamics
 prerequisites:
 - id: heat-capacity-of-gases
   type: hard
+- id: degrees-of-freedom-polyatomic
+  type: soft
+- id: intensive-and-extensive-properties
+  type: soft
 builds-toward:
   - third-law-absolute-entropy
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: assembly-language-basics
   type: soft
+- id: operating-systems-introduction
+  type: soft
 builds-toward:
 - process-states-and-transitions
 - threads-and-concurrency

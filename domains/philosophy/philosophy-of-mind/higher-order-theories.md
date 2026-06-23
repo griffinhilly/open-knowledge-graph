@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: representationalism
   type: soft
+- id: first-order-higher-order-properties
+  type: soft
 tags:
 - Rosenthal
 - Lycan

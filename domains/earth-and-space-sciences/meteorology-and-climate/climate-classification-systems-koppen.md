@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: thermal-structure-of-atmosphere
   type: soft
+- id: climate-vs-weather
+  type: soft
+- id: climate-zones
+  type: soft
 builds-toward:
 - climate-oscillations-modes-enso
 - anthropogenic-climate-forcing

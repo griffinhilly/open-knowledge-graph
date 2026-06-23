@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - fermi-gas-finite-temperature
-- band-theory-intro
 tags:
 - fermi-gas
 - electronic-structure

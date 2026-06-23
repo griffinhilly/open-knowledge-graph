@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: equilibrium-particles-2d
   type: soft
+- id: force-vectors-components-resultants
+  type: hard
 builds-toward:
 - rigid-body-equilibrium-planar
 - static-friction-equilibrium

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: homeostasis-and-feedback
   type: hard
+- id: maternal-health-nutrition-and-fetal-development
+  type: soft
 builds-toward:
 - infant-motor-development
 tags:

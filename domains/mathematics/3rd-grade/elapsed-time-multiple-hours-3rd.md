@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: elapsed-time-calculation-3rd
   type: soft
-builds-toward:
-- time-measurement
 tags:
 - elapsed-time
 - time

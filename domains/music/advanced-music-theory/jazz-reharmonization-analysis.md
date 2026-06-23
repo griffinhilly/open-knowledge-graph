@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - jazz-rhythm-section-analysis
-- neo-riemannian-extended-systems
 tags:
 - jazz
 - harmony

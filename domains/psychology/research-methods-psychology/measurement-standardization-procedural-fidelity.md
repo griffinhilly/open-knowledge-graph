@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: measurement-error-and-attenuation
   type: soft
+- id: construct-validity-operationalization-measurement
+  type: soft
 builds-toward:
 - qualitative-research-validity-trustworthiness
 tags:

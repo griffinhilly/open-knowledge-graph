@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heat-and-internal-energy
   type: hard
+- id: phase-changes-and-energy
+  type: soft
 builds-toward:
 - latent-heat
 - phase-diagrams

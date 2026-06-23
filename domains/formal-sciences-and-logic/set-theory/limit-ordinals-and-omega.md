@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - transfinite-induction
-- ordinal-arithmetic-and-exponentiation
 tags:
 - ordinals
 - limit-ordinals

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - severe-weather-systems
-- tropical-cyclones
 - monsoon-systems-and-climate
 tags:
 - latent-heat

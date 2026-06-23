@@ -18,9 +18,6 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: hard
-builds-toward:
-- endocrine-regulation-feedback
-- metabolic-hormones-glucose-control
 tags:
 - steroid-hormones
 - peptide-hormones

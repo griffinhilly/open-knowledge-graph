@@ -8,8 +8,8 @@ prerequisites:
   type: soft
 - id: bayesian-inference-foundations
   type: hard
-builds-toward:
-- martingales-introduction
+- id: bayesian-inference-intro
+  type: hard
 tags:
 - bayesian-estimation
 - point-estimation

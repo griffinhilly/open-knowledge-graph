@@ -8,11 +8,6 @@ prerequisites:
   type: hard
 - id: ring-homomorphisms
   type: hard
-builds-toward:
-- ca-flat-modules
-- ca-projective-modules
-- ca-injective-modules
-- ca-koszul-complex
 tags:
 - exact-sequence
 - short-exact-sequence

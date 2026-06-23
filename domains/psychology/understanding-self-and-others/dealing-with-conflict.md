@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: sharing-and-turn-taking
   type: soft
+- id: listening-skills
+  type: soft
+- id: understanding-fairness
+  type: soft
 builds-toward:
 - apologizing-and-forgiveness
 - conflict-resolution-skills

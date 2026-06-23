@@ -6,7 +6,6 @@ course: kindergarten
 prerequisites: []
 builds-toward:
 - 2d-shapes-attributes
-- shape-sorting
 tags:
 - shapes
 - triangle

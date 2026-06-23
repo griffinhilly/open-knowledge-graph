@@ -9,7 +9,6 @@ prerequisites:
 - id: cooking-conversions-scaling
   type: soft
 builds-toward:
-- cooking-for-dietary-restrictions
 - meal-planning-basics
 tags:
 - appliances

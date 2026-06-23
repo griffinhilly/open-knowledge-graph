@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: systems-of-linear-equations
   type: soft
+- id: momentum-intro
+  type: hard
 builds-toward:
 - collisions-elastic-inelastic
 tags:

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: probability-density-functions
   type: soft
+- id: genetic-drift-in-small-populations
+  type: soft
+- id: mating-patterns-inbreeding-assortative
+  type: soft
 builds-toward:
 - speciation
 - conservation-genetics-effective-size

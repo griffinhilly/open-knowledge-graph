@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plate-tectonics
   type: hard
+- id: isostasy-and-crustal-balance
+  type: soft
 builds-toward:
 - subduction-zone-structure-and-dynamics
 tags:

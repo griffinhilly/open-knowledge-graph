@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - scale-degree-singing-by-ear
-- melody-and-harmonic-context
 tags:
 - scales
 - major

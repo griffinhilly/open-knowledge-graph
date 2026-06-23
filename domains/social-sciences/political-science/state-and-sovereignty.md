@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: power-and-authority
   type: hard
+- id: authority-and-legitimacy
+  type: soft
+- id: power-and-political-order
+  type: soft
 builds-toward:
 - constitutionalism
 - international-relations-overview

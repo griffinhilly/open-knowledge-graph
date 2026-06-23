@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: verb-tense
   type: hard
+- id: verbs-action-and-state
+  type: soft
 builds-toward:
 - tense-consistency
 tags:

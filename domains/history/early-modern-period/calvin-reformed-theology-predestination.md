@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - religious-wars-europe
-- puritan-theology
 tags:
 - reformation
 - calvin

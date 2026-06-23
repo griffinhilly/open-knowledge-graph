@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: ionotropic-vs-metabotropic-receptors
   type: hard
+- id: calcium-signaling-neurons
+  type: hard
+- id: glutamate-systems
+  type: hard
+- id: glutamatergic-excitation
+  type: hard
 builds-toward:
 - spike-timing-dependent-plasticity
 - hippocampus-memory

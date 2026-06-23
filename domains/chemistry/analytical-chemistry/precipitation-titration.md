@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemical-equilibrium
   type: soft
+- id: common-ion-effect
+  type: soft
 tags:
 - argentometry
 - Mohr method

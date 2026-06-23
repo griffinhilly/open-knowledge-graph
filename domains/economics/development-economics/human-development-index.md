@@ -6,6 +6,14 @@ course: development-economics
 prerequisites:
 - id: development-measurement-fundamentals
   type: hard
+- id: development-definition-and-measurement
+  type: soft
+- id: economic-development-definition
+  type: soft
+- id: gdp-limitations-alternative-metrics
+  type: soft
+- id: gross-domestic-product-development-measurement
+  type: soft
 tags:
 - HDI
 - measurement

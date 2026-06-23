@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: bayes-theorem
   type: hard
-builds-toward:
-- molecular-dating
 tags:
 - phylogenetics
 - statistics

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: capacitor-networks
   type: soft
+- id: parallel-circuits
+  type: soft
+- id: series-circuits
+  type: soft
 builds-toward:
 - kirchhoffs-rules
 - rc-circuits

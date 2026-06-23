@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: haiku-form
   type: hard
+- id: japanese-aesthetic-philosophy-wabi-sabi-ma
+  type: soft
+- id: waka-court-poetry-tradition-form
+  type: soft
 builds-toward:
 - poetic-form-overview
 tags:

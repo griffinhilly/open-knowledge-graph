@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: chemical-equilibrium
   type: soft
+- id: erosion-and-weathering-basics
+  type: soft
 builds-toward:
 - sedimentary-rocks
 - sediment-transport-and-deposition

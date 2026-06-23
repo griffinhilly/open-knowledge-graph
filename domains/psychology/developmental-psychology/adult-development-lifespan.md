@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: identity-development-adolescence
   type: soft
+- id: emerging-adulthood-development
+  type: soft
 builds-toward:
 - cognitive-aging-and-decline
 tags:

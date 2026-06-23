@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - addiction-and-reward-system-plasticity
-- stimulant-use-disorder
 tags:
 - cocaine
 - methamphetamine

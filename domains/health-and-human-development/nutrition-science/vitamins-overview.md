@@ -6,6 +6,8 @@ course: nutrition-science
 prerequisites:
 - id: nutrient-digestion-and-absorption
   type: hard
+- id: vitamins-and-minerals-basics
+  type: hard
 builds-toward:
 - fat-soluble-vitamins
 - water-soluble-vitamins

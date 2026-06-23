@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: antigen-presentation-mechanisms
   type: hard
+- id: dendritic-cells-and-professional-apcs
+  type: soft
 builds-toward:
 - cd4-helper-t-cells
 - germinal-center-reactions

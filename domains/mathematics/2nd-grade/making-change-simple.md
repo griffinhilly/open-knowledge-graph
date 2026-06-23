@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: subtraction-within-100
   type: hard
+- id: counting-money-simple
+  type: hard
+- id: understanding-money-value
+  type: hard
 builds-toward:
 - money-word-problems
 tags:

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: international-order-stability
   type: soft
+- id: prisoner-dilemma-cooperation
+  type: hard
 builds-toward:
 - second-strike-capability-mutual-assured-destruction
 - crisis-bargaining-war-initiation

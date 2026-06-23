@@ -10,8 +10,8 @@ prerequisites:
   type: soft
 - id: capital-flows-equilibrium
   type: soft
-builds-toward:
-- purchasing-power-parity-absolute
+- id: current-account-and-external-balance
+  type: soft
 tags:
 - international
 - capital-flows

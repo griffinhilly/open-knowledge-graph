@@ -7,9 +7,6 @@ prerequisites:
 - id: enlightenment-science
   type: soft
 
-builds-toward:
-- periodic-table-and-elements
-- chemical-bonding-history
 tags:
 - history
 - History Of Science

@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - detective-protagonist-investigation
-- logical-impossibility-resolution
 tags:
 - locked-room
 - impossible-crime

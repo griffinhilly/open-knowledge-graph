@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: digital-control-intro
   type: soft
+- id: discrete-time-system-sampling-and-z-domain
+  type: soft
 tags:
 - real-world
 - saturation

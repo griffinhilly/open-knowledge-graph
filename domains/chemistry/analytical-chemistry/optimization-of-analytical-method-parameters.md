@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: liquid-chromatography-method-development
   type: soft
+- id: selectivity-vs-sensitivity-analytical-tradeoffs
+  type: soft
 tags:
 - optimization
 - method development

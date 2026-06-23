@@ -7,9 +7,6 @@ prerequisites:
 - id: agricultural-revolution-neolithic
   type: soft
 
-builds-toward:
-- food-security-and-agriculture
-- development-and-underdevelopment-history
 tags:
 - history
 - Economic Social History

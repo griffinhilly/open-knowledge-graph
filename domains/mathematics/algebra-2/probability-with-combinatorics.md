@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: binomial-theorem
   type: soft
+- id: counting-principles-probability-and-statistics
+  type: hard
 builds-toward:
 - normal-distribution-intro
 tags:

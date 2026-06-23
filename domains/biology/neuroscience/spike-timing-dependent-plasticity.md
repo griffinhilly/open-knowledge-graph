@@ -10,10 +10,12 @@ prerequisites:
   type: hard
 - id: nmda-receptor-structure
   type: hard
+- id: ampa-receptors-trafficking
+  type: soft
+- id: calcium-signaling-neurons
+  type: soft
 builds-toward:
 - hebbian-learning
-- circuit-development
-- learning-memory
 tags:
 - stdp
 - spike-timing

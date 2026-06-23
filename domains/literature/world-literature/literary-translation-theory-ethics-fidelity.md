@@ -4,7 +4,7 @@ title: 'Literary Translation: Theory, Ethics, and Questions of Fidelity'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - world-literature-concept-circulation-canonicity

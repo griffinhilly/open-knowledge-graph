@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: sine-cosine-tangent-ratios
   type: soft
+- id: refraction-and-snells-law
+  type: soft
 builds-toward:
 - total-internal-reflection
 - dispersion-and-prisms

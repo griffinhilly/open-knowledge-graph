@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: polynomial-time-reductions
   type: hard
+- id: many-one-reductions
+  type: soft
 builds-toward:
 - np-completeness-theorem
 - sat-canonical-problem

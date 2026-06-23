@@ -4,7 +4,7 @@ title: Horror and Scary Stories Calibrated for Child Audiences
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 tags:
 - children-literature

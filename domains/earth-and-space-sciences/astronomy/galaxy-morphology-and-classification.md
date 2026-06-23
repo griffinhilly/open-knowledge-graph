@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: stellar-parallax-and-distance
   type: soft
+- id: galaxies-intro
+  type: soft
 builds-toward:
 - milky-way-structure
 - active-galactic-nuclei

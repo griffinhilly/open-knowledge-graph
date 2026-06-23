@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: seeds-and-germination
   type: hard
-builds-toward:
-- population-ecology-intro
 tags:
 - fruits
 - seeds

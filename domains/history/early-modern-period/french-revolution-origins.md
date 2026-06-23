@@ -12,6 +12,14 @@ prerequisites:
   type: soft
 - id: american-revolution
   type: soft
+- id: enlightenment-natural-rights-theory
+  type: hard
+- id: john-locke-liberal-political-thought
+  type: soft
+- id: philosophes-enlightenment-movement
+  type: soft
+- id: voltaire-enlightenment-religious-critique
+  type: soft
 builds-toward:
 - haitian-revolution
 tags:

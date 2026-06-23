@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: unit-circle
   type: soft
+- id: circular-motion-conceptual
+  type: soft
 builds-toward:
 - circular-motion-dynamics
 - rotational-kinematics

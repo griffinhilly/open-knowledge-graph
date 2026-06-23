@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: reflection-law
   type: hard
+- id: reflection-and-law-of-reflection
+  type: hard
 builds-toward:
 - spherical-mirrors
 tags:

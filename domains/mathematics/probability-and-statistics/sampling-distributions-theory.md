@@ -7,7 +7,6 @@ prerequisites:
 - id: random-variables-definition-types
   type: hard
 builds-toward:
-- distribution-of-sample-mean
 - central-limit-theorem
 tags:
 - sampling-distribution

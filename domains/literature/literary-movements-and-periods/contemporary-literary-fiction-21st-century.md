@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: story-and-narrative-basics
   type: hard
+- id: postmodernism-metafiction-self-reflexivity
+  type: soft
 tags:
 - contemporary
 - 21st-century

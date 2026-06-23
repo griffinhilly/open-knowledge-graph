@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dot-product
   type: hard
+- id: dot-product-geometry
+  type: hard
 builds-toward:
 - conservative-fields
 tags:

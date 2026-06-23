@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: cpu-control-unit
   type: soft
+- id: addressing-modes-instruction-format
+  type: soft
+- id: instruction-fetch-decode-execute
+  type: hard
+- id: multi-cycle-processor-design
+  type: soft
+- id: single-cycle-processor-design
+  type: soft
 builds-toward:
 - pipeline-hazards
 tags:

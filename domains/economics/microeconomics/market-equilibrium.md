@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: supply-and-demand-basics
   type: hard
+- id: supply-curve-individual-firm
+  type: hard
 builds-toward:
 - consumer-surplus-microeconomics
 - price-controls-and-deadweight-loss

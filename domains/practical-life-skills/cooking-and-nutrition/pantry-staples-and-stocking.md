@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - meal-planning-basics
-- cooking-conversions-scaling
 tags:
 - pantry
 - organization

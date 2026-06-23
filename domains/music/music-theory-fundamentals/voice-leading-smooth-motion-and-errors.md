@@ -6,9 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: triad-voicing-and-spacing
   type: hard
-builds-toward:
-- harmonic-analysis-roman-numerals-basics
-- four-part-writing-fundamentals
+- id: consonance-dissonance-harmonic-function
+  type: soft
 tags:
 - voice-leading
 - smooth-motion

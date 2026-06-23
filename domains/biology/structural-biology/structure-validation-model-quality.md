@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cryo-em
   type: soft
+- id: atomic-model-refinement
+  type: soft
 builds-toward:
 - structure-based-drug-design
 tags:

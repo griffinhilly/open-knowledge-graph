@@ -10,8 +10,8 @@ prerequisites:
   type: soft
 - id: bond-portfolio-strategies
   type: soft
-builds-toward:
-- behavioral-finance-intro
+- id: options-greeks-trading-applications
+  type: soft
 tags:
 - portfolio-management
 - insurance

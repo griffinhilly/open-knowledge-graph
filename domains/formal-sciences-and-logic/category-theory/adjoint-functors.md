@@ -36,6 +36,12 @@ prerequisites:
   type: soft
 - id: dual-spaces-bounded-functionals
   type: soft
+- id: commutative-diagrams-in-categories
+  type: soft
+- id: left-adjoint-functors
+  type: hard
+- id: right-adjoint-functors
+  type: hard
 builds-toward:
 - adjunction-unit-and-counit
 - monads-in-category-theory

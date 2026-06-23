@@ -10,8 +10,9 @@ prerequisites:
   type: hard
 - id: radiative-transfer-atmospheric
   type: soft
+- id: line-by-line-radiative-transfer
+  type: soft
 builds-toward:
-- climate-model-evaluation
 - climate-models-and-projections
 tags:
 - parameterization

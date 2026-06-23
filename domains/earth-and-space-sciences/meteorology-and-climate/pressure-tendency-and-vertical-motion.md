@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - severe-weather-systems
 - baroclinic-instability
-- upper-level-divergence-and-pressure
 tags:
 - pressure
 - tendency

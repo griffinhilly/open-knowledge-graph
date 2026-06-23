@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: price-elasticity-of-demand
   type: soft
+- id: consumption-determinants-and-function
+  type: hard
+- id: investment-and-capital-formation
+  type: hard
 builds-toward:
 - as-ad-model
 - fiscal-policy-macroeconomics

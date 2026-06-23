@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: quantum-postulates
   type: hard
+- id: born-rule-and-measurement
+  type: soft
 builds-toward:
 - bell-inequalities
 - measurement-problem

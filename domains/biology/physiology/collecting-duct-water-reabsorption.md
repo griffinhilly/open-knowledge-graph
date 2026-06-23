@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: metabolic-integration-hormonal-regulation
   type: soft
+- id: loop-of-henle-countercurrent-concentration
+  type: hard
 tags:
 - adh
 - aquaporins

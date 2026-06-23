@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: movement-rhythm-flow-in-design
   type: soft
+- id: pattern-organization-through-repetition
+  type: soft
 builds-toward:
 - unity-and-variety-complementary-balance
 - symmetry-types-characteristics-and-effects

@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: gain-margin-phase-margin-stability
   type: hard
+- id: bandwidth-resonance-frequency-selection
+  type: soft
+- id: control-system-structure-and-configuration
+  type: soft
+- id: logarithmic-plots-and-frequency-scales
+  type: hard
+- id: rise-time-settling-time-overshoot
+  type: soft
+- id: system-type-error-constant-steady-state
+  type: soft
 builds-toward:
 - compensator-realization-active-passive
 - cascade-control-loop-interaction-analysis

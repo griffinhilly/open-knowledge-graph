@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: bacterial-metabolism-overview
   type: soft
-builds-toward:
-- microbial-succession-and-nutrient-cycling
 tags:
 - fermentation
 - anaerobic

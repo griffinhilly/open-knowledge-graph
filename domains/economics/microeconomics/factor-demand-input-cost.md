@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: isoquant-factor-substitution
   type: hard
+- id: marginal-product-diminishing-returns
+  type: hard
 builds-toward:
 - short-run-cost-fixed-variable
 - long-run-average-cost

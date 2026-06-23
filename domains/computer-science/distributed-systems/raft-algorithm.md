@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: paxos-algorithm
   type: soft
+- id: flp-impossibility
+  type: soft
 builds-toward:
 - state-machine-replication
 tags:

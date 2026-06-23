@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: logistic-regression-classifier
   type: soft
-builds-toward:
-- classification-metrics
 tags:
 - imbalance
 - class-weight

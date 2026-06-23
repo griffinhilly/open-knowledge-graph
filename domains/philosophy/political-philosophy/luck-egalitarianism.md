@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: egalitarianism
   type: hard
+- id: merit-desert-and-distribution
+  type: soft
 tags:
 - luck-egalitarianism
 - Dworkin

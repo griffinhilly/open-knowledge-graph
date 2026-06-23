@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: adaptive-immune-response
   type: hard
-builds-toward:
-- thyroid-storm-pathophysiology
-- thyroid-eye-disease-pathophysiology
 tags:
 - graves-disease
 - autoimmune

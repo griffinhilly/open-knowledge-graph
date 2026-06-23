@@ -3,7 +3,9 @@ id: oral-tradition-transmission-variation
 title: 'Oral Tradition: Transmission and Variation in Retelling'
 domain: literature
 course: mythology-folklore-oral-traditions
-prerequisites: []
+prerequisites:
+- id: folklore-definition-traditions
+  type: soft
 builds-toward:
 - tale-types-classification-aarne-thompson
 - fairy-tale-oral-literary-roots

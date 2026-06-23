@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: lookahead-and-parsing-power
   type: soft
+- id: stack-applications-expression-parsing
+  type: soft
 builds-toward:
 - grammar-design-for-compilation
 tags:

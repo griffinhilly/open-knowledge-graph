@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - gibbs-free-energy-spontaneity
-- electrochemistry-basics
 tags:
 - spontaneity
 - Gibbs free energy

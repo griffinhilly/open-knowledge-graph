@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: minerals-and-trace-elements
   type: soft
+- id: food-groups-and-balanced-diet
+  type: soft
+- id: nutrient-requirements-and-dietary-reference-intakes
+  type: hard
 builds-toward:
 - nutritional-assessment-methods
 - nutrition-across-the-lifespan

@@ -18,8 +18,9 @@ prerequisites:
   type: soft
 - id: lipolysis-and-fatty-acid-mobilization
   type: soft
+- id: nad-nadh-structure-and-function
+  type: soft
 builds-toward:
-- citric-acid-cycle-mechanism
 - metabolic-integration-hormonal-regulation
 tags:
 - fatty acid oxidation

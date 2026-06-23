@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cultural-capital-and-inequality
   type: hard
+- id: social-mobility-life-chances
+  type: soft
 tags:
 - meritocracy
 - education

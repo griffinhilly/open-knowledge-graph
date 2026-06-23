@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: mood-stabilizers
   type: soft
+- id: mood-disorder-neurobiology
+  type: soft
 tags:
 - mood-stabilizers
 - anxiolytics

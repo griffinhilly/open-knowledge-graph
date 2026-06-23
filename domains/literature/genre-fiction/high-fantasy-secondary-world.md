@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fantasy-worldbuilding-internal-logic
   type: hard
+- id: genre-world-building-consistency
+  type: hard
 tags:
 - fantasy
 - high-fantasy

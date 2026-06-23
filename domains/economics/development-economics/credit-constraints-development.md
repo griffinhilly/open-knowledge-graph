@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: agricultural-credit-markets
   type: soft
+- id: property-rights-and-development
+  type: soft
 tags:
 - credit constraints
 - lending

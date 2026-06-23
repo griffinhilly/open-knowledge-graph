@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stereochemistry-intro
   type: hard
+- id: sigma-pi-bonds-and-orbitals
+  type: hard
 builds-toward:
 - alkyne-structure-and-nomenclature
 - electrophilic-addition-to-alkenes

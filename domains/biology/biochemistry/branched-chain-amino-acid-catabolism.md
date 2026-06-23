@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: functional-groups-overview
   type: soft
-builds-toward:
-- maple-syrup-urine-disease
 tags:
 - amino-acids
 - leucine

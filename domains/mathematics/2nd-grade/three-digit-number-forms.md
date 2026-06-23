@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: skip-counting-by-100s
   type: soft
+- id: tens-and-ones-base-ten
+  type: hard
 builds-toward:
 - comparing-three-digit-numbers
 - three-digit-addition

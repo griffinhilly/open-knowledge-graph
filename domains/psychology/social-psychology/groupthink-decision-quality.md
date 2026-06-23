@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: group-polarization-choice-shift
   type: soft
-builds-toward:
-- group-decision-making-risky-shift
 tags:
 - groupthink
 - decision-making

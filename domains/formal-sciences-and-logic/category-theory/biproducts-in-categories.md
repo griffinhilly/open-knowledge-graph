@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - abelian-categories
-- matrix-representation-of-morphisms
 tags:
 - biproducts
 - direct-sum

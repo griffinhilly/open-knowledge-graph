@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: medieval-universities
   type: soft
+- id: byzantine-preservation-classical-texts
+  type: soft
+- id: medieval-monastic-intellectual-centers
+  type: soft
 builds-toward:
 - printing-press-gutenberg
 - scientific-revolution

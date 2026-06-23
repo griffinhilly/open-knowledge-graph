@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: utilitarianism
   type: soft
+- id: welfare-and-wellbeing
+  type: soft
 builds-toward:
 - environmental-ethics
 tags:

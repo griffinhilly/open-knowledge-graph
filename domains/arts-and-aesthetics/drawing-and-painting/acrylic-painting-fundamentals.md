@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: still-life-composition
   type: soft
+- id: canvas-preparation-and-priming
+  type: soft
+- id: paint-properties-transparency-and-opacity
+  type: soft
 builds-toward:
 - oil-painting-basics
 - plein-air-painting

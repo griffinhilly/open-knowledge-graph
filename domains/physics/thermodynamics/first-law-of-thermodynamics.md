@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: hard
+- id: internal-energy-microscopic-view
+  type: hard
 builds-toward:
 - thermodynamic-processes
 - heat-engines

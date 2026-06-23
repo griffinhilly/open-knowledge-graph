@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: amino-acid-structure-and-properties
   type: soft
+- id: macronutrients-carbs-protein-fat
+  type: soft
 builds-toward:
 - sports-nutrition-basics
 - protein-quality-and-dietary-sources

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: oxygen-minimum-zones-biogeography
   type: soft
+- id: diel-vertical-migration-plankton
+  type: soft
 builds-toward:
 - bioluminescence-deep-sea
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cultural-relativism
   type: soft
+- id: ecological-anthropology-adaptation
+  type: soft
 builds-toward:
 - cultural-landscape
 - agricultural-geography

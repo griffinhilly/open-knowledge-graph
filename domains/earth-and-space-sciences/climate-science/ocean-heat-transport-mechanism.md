@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: thermohaline-circulation-physics
   type: soft
+- id: deep-ocean-abyssal-currents
+  type: soft
+- id: western-boundary-current-intensification
+  type: soft
+- id: wind-buoyancy-driven-circulation
+  type: soft
 builds-toward:
 - feedback-mechanisms-in-climate
 - climate-sensitivity-radiative-feedbacks

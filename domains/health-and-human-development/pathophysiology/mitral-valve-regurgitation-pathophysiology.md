@@ -10,7 +10,6 @@ prerequisites:
 - id: heart-failure-types-and-mechanisms
   type: soft
 builds-toward:
-- cardiogenic-shock-pathophysiology
 - atrial-fibrillation-pathophysiology
 tags:
 - mitral-regurgitation

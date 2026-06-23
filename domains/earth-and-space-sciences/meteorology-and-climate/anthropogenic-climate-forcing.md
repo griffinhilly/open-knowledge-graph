@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: greenhouse-effect
   type: hard
+- id: greenhouse-effect-basics
+  type: soft
+- id: radiative-forcing-greenhouse-gases
+  type: soft
 builds-toward:
 - feedback-mechanisms-in-climate
 - climate-models-and-projections

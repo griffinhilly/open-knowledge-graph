@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: statistics-probability
   type: soft
+- id: epistasis-and-complementary-genes
+  type: soft
 tags:
 - polygenic-inheritance
 - heritability

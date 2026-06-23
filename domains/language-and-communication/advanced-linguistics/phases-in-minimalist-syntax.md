@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: minimalist-program-core-concepts
   type: hard
-builds-toward:
-- locality-constraints-movement
 tags:
 - phases
 - minimalism

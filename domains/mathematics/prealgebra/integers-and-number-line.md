@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: decimal-place-value
   type: soft
+- id: comparing-ordering-whole-numbers
+  type: soft
 builds-toward:
   - absolute-value
   - adding-integers

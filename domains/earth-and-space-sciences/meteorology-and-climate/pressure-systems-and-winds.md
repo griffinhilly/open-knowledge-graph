@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: coriolis-effect
   type: hard
+- id: air-pressure-and-wind
+  type: soft
 builds-toward:
 - global-atmospheric-circulation
 - air-masses-and-fronts

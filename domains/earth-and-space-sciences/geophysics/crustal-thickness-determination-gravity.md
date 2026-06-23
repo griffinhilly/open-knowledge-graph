@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: pratt-isostasy-model
   type: soft
-builds-toward:
-- lithosphere-thickness-and-age
 tags:
 - gravity
 - crustal-structure

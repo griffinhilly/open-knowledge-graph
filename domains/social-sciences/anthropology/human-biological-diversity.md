@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: functional-explanations-anthropology
   type: soft
+- id: paleoanthropology-human-origins-evolution
+  type: soft
 builds-toward:
 - skeletal-analysis-methods
 - race-and-ethnicity

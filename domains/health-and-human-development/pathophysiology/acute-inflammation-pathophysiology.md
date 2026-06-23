@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: innate-immune-response
   type: hard
+- id: cell-injury-and-adaptation
+  type: soft
+- id: necrosis-vs-apoptosis
+  type: soft
 builds-toward:
 - chronic-inflammation
 - atherosclerosis-pathophysiology

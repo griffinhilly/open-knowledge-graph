@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: inequality-in-developing-economies
   type: soft
+- id: income-inequality-measurement
+  type: hard
 tags:
 - inequality
 - kuznets

@@ -6,6 +6,8 @@ course: sociology
 prerequisites:
 - id: social-stratification
   type: hard
+- id: reference-groups-social-comparison
+  type: hard
 builds-toward:
 - social-movements
 tags:

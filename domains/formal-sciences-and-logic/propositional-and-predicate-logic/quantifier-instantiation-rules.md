@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: natural-deduction-fol
   type: hard
+- id: open-and-closed-formulas-fol
+  type: soft
+- id: variable-substitution-capture-avoidance
+  type: hard
 builds-toward:
 - proof-strategies-natural-deduction
 tags:

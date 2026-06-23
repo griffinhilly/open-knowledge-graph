@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: hard
+- id: borel-sigma-algebra
+  type: soft
+- id: sigma-algebras-and-measurable-sets
+  type: hard
 builds-toward:
 - random-variables-as-measurable-functions
 - expectation-measure-theoretic

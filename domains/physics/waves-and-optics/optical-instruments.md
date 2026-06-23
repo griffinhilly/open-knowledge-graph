@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: optical-instruments-magnification
   type: soft
+- id: compound-optical-systems
+  type: soft
+- id: magnification-linear-angular
+  type: hard
 tags:
 - camera
 - microscope

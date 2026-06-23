@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: time-signatures-and-meter
   type: hard
+- id: metric-stress-and-weak-strong
+  type: soft
 builds-toward:
 - polymetric-analysis
 - rhythmic-modulation-analysis

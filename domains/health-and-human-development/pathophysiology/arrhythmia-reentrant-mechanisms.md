@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - atrial-fibrillation-pathophysiology
-- sudden-cardiac-death-pathophysiology
 tags:
 - arrhythmia
 - reentry

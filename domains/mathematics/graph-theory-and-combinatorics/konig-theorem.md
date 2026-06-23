@@ -6,6 +6,8 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: halls-marriage-theorem
   type: hard
+- id: matchings-bipartite-graphs
+  type: hard
 builds-toward:
 - network-flows-max-flow-min-cut
 tags:

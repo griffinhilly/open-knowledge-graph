@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: melodic-contour-recognition
   type: soft
+- id: pitch-memory-short-term-retention
+  type: hard
 builds-toward:
 - melodic-dictation-with-leaps
 - error-detection-in-score

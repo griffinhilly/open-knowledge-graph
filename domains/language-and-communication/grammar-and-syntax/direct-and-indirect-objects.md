@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nouns-intro
   type: hard
+- id: transitive-and-intransitive-verbs
+  type: hard
 builds-toward:
 - pronoun-case
 tags:

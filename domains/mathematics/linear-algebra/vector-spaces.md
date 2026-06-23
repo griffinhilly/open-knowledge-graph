@@ -6,6 +6,10 @@ course: linear-algebra
 prerequisites:
 - id: vectors-in-rn
   type: hard
+- id: vector-addition-subtraction
+  type: hard
+- id: vectors-in-rn-operations
+  type: soft
 builds-toward:
 - subspaces
 - linear-independence

@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - lowball-compliance-technique
-- consistency-based-influence
 tags:
 - compliance
 - persuasion

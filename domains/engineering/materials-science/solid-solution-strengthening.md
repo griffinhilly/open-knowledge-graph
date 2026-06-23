@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: phase-diagrams-binary
   type: soft
+- id: dislocation-types-and-motion
+  type: hard
 builds-toward:
 - precipitation-hardening
 tags:

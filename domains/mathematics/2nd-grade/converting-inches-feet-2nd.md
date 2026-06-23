@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: converting-centimeters-meters-2nd
   type: soft
+- id: measuring-length-inches-centimeters-2nd
+  type: soft
 tags:
 - measurement
 - conversion

@@ -9,7 +9,6 @@ prerequisites:
 - id: nature-observation-technique
   type: soft
 builds-toward:
-- bioregional-writing
 - environmental-nonfiction
 tags:
 - place-based

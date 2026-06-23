@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: setting-and-atmosphere
   type: soft
+- id: middle-grade-school-setting-social-dynamics
+  type: soft
 builds-toward:
 - ya-adolescent-identity-exploration
 tags:

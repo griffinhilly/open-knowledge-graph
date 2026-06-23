@@ -6,6 +6,8 @@ course: early-modern-period
 prerequisites:
 - id: age-of-exploration
   type: hard
+- id: conquistador-conquest-colonization
+  type: hard
 builds-toward:
 - columbian-exchange
 - atlantic-slave-trade

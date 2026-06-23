@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: atomic-structure-basics
   type: hard
+- id: isotopes-intro
+  type: soft
 builds-toward:
 - electron-configuration
 - nuclear-chemistry

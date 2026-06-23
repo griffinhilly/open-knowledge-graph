@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: convergence-in-distribution
   type: soft
-builds-toward:
-- martingales-introduction
 tags:
 - stationary-distributions
 - markov-chains

@@ -8,10 +8,11 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: hard
+- id: higher-order-linear-odes
+  type: soft
 builds-toward:
 - matrix-exponential-method
 - eigenvalue-method-for-systems
-- higher-order-linear-odes
 tags:
 - systems
 - linear

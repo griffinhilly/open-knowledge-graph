@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: cell-differentiation-lineage
   type: soft
+- id: reproductive-hormonal-cycles-gametogenesis
+  type: soft
 builds-toward:
 - teratogens-and-prenatal-risk
 - neonatal-reflexes-and-sensory-capabilities

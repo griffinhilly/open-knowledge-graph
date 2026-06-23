@@ -6,9 +6,6 @@ course: evolutionary-biology
 prerequisites:
 - id: speciation
   type: hard
-builds-toward:
-- prezygotic-barriers
-- postzygotic-barriers
 tags:
 - speciation
 - isolation

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: structural-functionalism
   type: soft
+- id: bourdieu-habitus
+  type: soft
 builds-toward:
 - cultural-capital-and-inequality
 tags:

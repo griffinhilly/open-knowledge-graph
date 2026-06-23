@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: heat-transfer-conduction
   type: soft
+- id: thermal-energy-transfer-mechanisms
+  type: soft
 tags:
 - convection
 - heat-transfer

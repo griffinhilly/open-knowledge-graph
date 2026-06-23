@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: frequency-response-magnitude-phase
   type: hard
+- id: pole-zero-plot-stability-analysis
+  type: soft
 tags:
 - first-order-systems
 - transient-response

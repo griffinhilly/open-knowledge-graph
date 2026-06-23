@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: atmosphere-composition-and-structure
   type: soft
+- id: the-sun
+  type: soft
+- id: what-causes-seasons
+  type: soft
 builds-toward:
 - greenhouse-effect
 - climate-zones-and-biomes

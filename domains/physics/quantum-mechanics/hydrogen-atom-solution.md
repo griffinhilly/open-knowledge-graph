@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: orbital-angular-momentum-quantum
   type: hard
+- id: angular-momentum-quantization
+  type: hard
 builds-toward:
 - hydrogen-energy-levels
 - fine-structure-hydrogen

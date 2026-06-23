@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vector-clocks
   type: hard
+- id: clock-synchronization-distributed-systems
+  type: soft
 builds-toward:
 - causal-consistency
 - distributed-snapshots

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: tone-and-mood
   type: soft
-builds-toward:
-- personal-essay-voice
-- vernacular-nonfiction
 tags:
 - familiar-essay
 - conversational

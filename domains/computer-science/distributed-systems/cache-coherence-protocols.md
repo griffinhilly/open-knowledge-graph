@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: synchronization-problem
   type: hard
+- id: cache-write-policies
+  type: soft
 tags:
 - caching
 - consistency

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: chromosomal-theory-of-inheritance
   type: soft
-builds-toward:
-- gene-family-evolution
 tags:
 - molecular-evolution
 - gene-duplication

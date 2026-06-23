@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hero-journey-monomyth-campbell
   type: soft
+- id: quest-narrative-heroic-journey
+  type: soft
 builds-toward:
 - egyptian-afterlife-pyramid-texts-duat
 - comparative-mythology-patterns

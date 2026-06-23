@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dna-barcoding-markers
   type: soft
+- id: gram-staining-and-cell-wall-classification
+  type: soft
 builds-toward:
 - antimicrobial-susceptibility-testing
 tags:

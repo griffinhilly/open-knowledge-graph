@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: harmonic-oscillator-molecular-vibrations
   type: hard
-builds-toward:
-- two-dimensional-nmr-spectroscopy
 tags:
 - spectroscopy
 - vibration

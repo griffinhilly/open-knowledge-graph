@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: atomic-structure-basics
   type: soft
+- id: layers-of-the-atmosphere
+  type: soft
 builds-toward:
 - atmospheric-pressure-and-altitude
 - greenhouse-effect

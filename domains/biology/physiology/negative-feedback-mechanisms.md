@@ -6,6 +6,8 @@ course: physiology
 prerequisites:
 - id: homeostasis-and-feedback
   type: hard
+- id: homeostasis-feedback-regulation-physiology
+  type: hard
 builds-toward:
 - blood-pressure-regulation
 - respiratory-control-mechanisms

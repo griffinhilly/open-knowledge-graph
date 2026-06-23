@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: continuous-functions-topology
   type: hard
+- id: regular-spaces
+  type: soft
 builds-toward:
 - tietze-extension-theorem
 - metrization-theorems

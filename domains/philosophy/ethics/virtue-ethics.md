@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: what-is-happiness
   type: soft
+- id: agent-evaluation-vs-action-evaluation
+  type: soft
+- id: normative-ethics-overview
+  type: soft
+- id: virtue-and-character-foundations
+  type: hard
 builds-toward:
 - moral-psychology
 - applied-ethics-intro

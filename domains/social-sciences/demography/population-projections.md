@@ -10,8 +10,11 @@ prerequisites:
   type: hard
 - id: migration-theory-demography
   type: soft
+- id: internal-and-international-migration
+  type: soft
+- id: mortality-analysis
+  type: hard
 builds-toward:
-- stable-population-theory
 - population-and-environment
 tags:
 - projection

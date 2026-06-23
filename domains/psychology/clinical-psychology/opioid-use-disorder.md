@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: alcohol-use-disorder
   type: soft
-builds-toward:
-- psychopharmacology-clinical-applications
+- id: opioid-receptor-subtypes-and-analgesia
+  type: soft
 tags:
 - opioid
 - substance-use

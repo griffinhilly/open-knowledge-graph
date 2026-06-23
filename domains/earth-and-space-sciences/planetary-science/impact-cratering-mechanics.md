@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - crater-morphology-and-degradation
-- surface-geology-terrestrial-planets
 tags:
 - impacts
 - cratering

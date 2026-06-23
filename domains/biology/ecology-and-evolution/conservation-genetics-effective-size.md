@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: population-viability-analysis
   type: soft
+- id: effective-population-size-ne-estimation
+  type: hard
+- id: inbreeding-depression-genetic-rescue
+  type: soft
+- id: population-bottleneck-drift-inbreeding
+  type: soft
+- id: population-genetic-structure-metapopulations
+  type: soft
 builds-toward:
 - extinction-vortex-populations
 - invasive-species-ecological-impacts

@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - selectional-restrictions
-- argument-alternations
 tags:
 - semantics
 - syntax-semantics

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: group-homomorphisms
   type: hard
+- id: homology-with-coefficients
+  type: soft
 builds-toward:
 - singular-cohomology
 - universal-coefficient-theorem

@@ -10,9 +10,6 @@ prerequisites:
   type: soft
 - id: ten-frames-for-addition
   type: soft
-builds-toward:
-- addition-fact-families
-- algebra-intro
 tags:
 - properties
 - addition

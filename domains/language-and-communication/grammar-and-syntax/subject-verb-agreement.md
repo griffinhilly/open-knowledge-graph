@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: prepositional-phrases
   type: soft
+- id: irregular-plural-nouns-common
+  type: soft
+- id: irregular-verb-forms-common
+  type: soft
+- id: regular-plural-noun-formation
+  type: soft
 builds-toward:
 - pronoun-agreement
 - complex-sentence-construction

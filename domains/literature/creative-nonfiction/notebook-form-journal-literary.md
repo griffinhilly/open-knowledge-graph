@@ -8,9 +8,6 @@ prerequisites:
   type: soft
 - id: braided-essay-structure
   type: soft
-builds-toward:
-- diary-form
-- experimental-nonfiction
 tags:
 - notebook
 - journal

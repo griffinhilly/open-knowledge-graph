@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: moist-adiabatic-lapse-rate
   type: hard
+- id: mixing-ratio-saturation-mixing-ratio
+  type: soft
 builds-toward:
 - severe-weather-systems
 - thunderstorms-and-lightning

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - sleep-architecture-consolidation
-- circadian-misalignment-and-health
 tags:
 - circadian-rhythms
 - sleep

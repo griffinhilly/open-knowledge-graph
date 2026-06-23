@@ -4,7 +4,7 @@ title: 'Edo Period Literature: Kabuki, Puppet Theatre, and Popular Forms'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - meiji-literary-modernity-naturalism-genbun-itchi

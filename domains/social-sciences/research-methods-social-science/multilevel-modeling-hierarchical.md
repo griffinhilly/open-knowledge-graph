@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: soft
+- id: regression-diagnostics-assumption-violations
+  type: soft
 builds-toward:
 - mixed-methods-integration
 tags:

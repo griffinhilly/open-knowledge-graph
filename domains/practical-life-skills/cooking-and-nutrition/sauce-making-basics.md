@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: building-aromatics-and-bases
+  type: soft
 tags:
 - sauces
 - pan-sauce

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - comparative-politics
-- representation-mechanisms
 tags:
 - gerrymandering
 - manipulation

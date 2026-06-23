@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: thrombosis-pathophysiology
   type: hard
+- id: coagulation-cascade-extrinsic-intrinsic-common
+  type: hard
+- id: coagulation-cascade-tissue-factor-pathway
+  type: hard
 tags:
 - dic
 - coagulopathy

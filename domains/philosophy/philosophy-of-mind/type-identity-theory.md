@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: token-identity-theory
   type: soft
+- id: reductive-physicalism-theory
+  type: soft
 builds-toward:
 - token-identity-theory
 - multiple-realizability

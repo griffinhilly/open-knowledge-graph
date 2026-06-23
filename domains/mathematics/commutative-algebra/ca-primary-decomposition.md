@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: maximal-prime-ideals
   type: hard
+- id: ca-ideal-operations
+  type: soft
+- id: ca-prime-and-maximal-ideals
+  type: hard
 builds-toward:
 - ca-associated-primes
 tags:

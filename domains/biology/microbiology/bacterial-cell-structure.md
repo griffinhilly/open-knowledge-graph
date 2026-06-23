@@ -6,6 +6,10 @@ course: microbiology
 prerequisites:
   - id: cell-theory
     type: soft
+  - id: microbial-cell-organization-prokaryotic
+    type: soft
+  - id: prokaryotic-cell-structural-features
+    type: soft
 builds-toward:
   - bacterial-growth-and-reproduction
   - bacterial-metabolism-overview

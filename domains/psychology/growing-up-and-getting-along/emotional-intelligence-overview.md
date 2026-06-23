@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: empathy-understanding-how-others-feel
   type: hard
+- id: self-reflection-and-journaling
+  type: soft
 builds-toward:
 - developmental-psychology-overview
 tags:

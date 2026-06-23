@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: differential-equations-intro-separable
   type: hard
-builds-toward:
-- magnetic-force-moving-charges
 tags:
 - transient
 - rc-circuit

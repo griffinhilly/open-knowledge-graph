@@ -6,9 +6,6 @@ course: cognitive-neuroscience
 prerequisites:
 - id: eeg-time-frequency-analysis
   type: hard
-builds-toward:
-- cognitive-control-theta-gamma-coupling
-- meditation-attention-theta-modulation
 tags:
 - theta
 - attention

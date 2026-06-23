@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bellman-ford-distance-vector-routing
   type: hard
+- id: routing-table-concepts
+  type: hard
 builds-toward:
 - bgp-border-gateway-protocol
 tags:

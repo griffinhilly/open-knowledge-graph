@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: b-trees
   type: hard
+- id: physical-storage-pages-records
+  type: soft
 builds-toward:
 - index-selection-optimization
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: renaissance-humanism-and-art
   type: soft
+- id: spatial-awareness-depth-on-flat-surfaces
+  type: soft
 builds-toward:
 - high-renaissance-and-mannerism
 - dutch-golden-age-painting

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gravity-potential-theory-earths-field
   type: hard
+- id: gravimeter-types-calibration
+  type: soft
 builds-toward:
 - gravity-forward-modeling-inversion
 tags:

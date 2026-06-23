@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tax-brackets-marginal-rates
   type: soft
+- id: income-sources-and-tax-classifications
+  type: soft
 builds-toward:
 - employer-sponsored-401k-plans
 tags:

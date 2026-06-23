@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: measures-of-spread
   type: soft
+- id: expected-value-theory
+  type: hard
+- id: probability-density-functions
+  type: soft
+- id: probability-mass-functions
+  type: soft
+- id: probability-mass-functions-theory
+  type: soft
 builds-toward:
 - sampling-distributions
 - binomial-distribution

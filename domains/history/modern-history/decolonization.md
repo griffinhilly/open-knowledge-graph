@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: holocaust
   type: soft
+- id: colonial-resistance-and-agency
+  type: soft
+- id: scramble-africa
+  type: soft
 builds-toward:
 - civil-rights-movement
 - postcolonial-history

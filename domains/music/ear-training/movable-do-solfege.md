@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: minor-scales
   type: soft
+- id: scale-degree-singing-by-ear
+  type: soft
 builds-toward:
 - scale-degree-tendencies
 - sight-singing-stepwise-melodies

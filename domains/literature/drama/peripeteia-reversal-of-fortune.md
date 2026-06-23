@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dramatic-structure
   type: soft
+- id: hamartia-tragic-flaw-error
+  type: soft
 builds-toward:
 - tragic-form-across-cultures
 - tragic-hero-and-hamartia

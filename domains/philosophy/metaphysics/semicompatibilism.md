@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hard-determinism
   type: soft
+- id: moral-responsibility-conditions
+  type: soft
 tags:
 - semicompatibilism
 - Fischer

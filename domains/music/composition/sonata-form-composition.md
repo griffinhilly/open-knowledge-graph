@@ -14,6 +14,16 @@ prerequisites:
   type: soft
 - id: transition-writing-and-connections
   type: soft
+- id: cadential-harmonic-design
+  type: soft
+- id: form-and-phrase-architecture
+  type: hard
+- id: long-range-tonal-planning
+  type: soft
+- id: modulation-compositional-planning
+  type: hard
+- id: motivic-development-strategies
+  type: soft
 tags:
 - sonata-form
 - form

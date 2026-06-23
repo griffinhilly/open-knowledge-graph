@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: tragicomedy
   type: soft
+- id: theatrical-verisimilitude-believability
+  type: soft
 builds-toward:
 - epic-theatre-and-brecht
 - absurdist-theatre

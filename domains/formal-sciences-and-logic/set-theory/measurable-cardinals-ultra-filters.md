@@ -10,8 +10,9 @@ prerequisites:
   type: soft
 - id: singular-cardinals
   type: soft
+- id: stationary-sets-and-filters
+  type: soft
 builds-toward:
-- large-cardinals-intro
 - consistency-strength-large-cardinals
 tags:
 - measurable-cardinals

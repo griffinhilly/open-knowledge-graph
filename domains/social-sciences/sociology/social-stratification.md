@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: histograms-and-frequency-distributions
   type: soft
+- id: class-struggle-marxist
+  type: soft
 builds-toward:
 - race-and-ethnicity
 - gender-and-sexuality

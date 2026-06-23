@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: liberty-negative-and-positive
   type: hard
-builds-toward:
-- civil-rights
-- freedom-of-expression
 tags:
 - rights
 - liberties

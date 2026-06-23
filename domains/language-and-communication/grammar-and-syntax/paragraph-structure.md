@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: semicolons-and-colons
   type: soft
+- id: paragraph-writing-intro
+  type: hard
 tags:
 - paragraph
 - structure

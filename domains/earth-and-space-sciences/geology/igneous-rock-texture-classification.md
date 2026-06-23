@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: mineral-identification-diagnostic-properties
   type: soft
+- id: rock-identification-skills
+  type: soft
 builds-toward:
 - magma-composition-viscosity-rheology
 - fractional-crystallization-magmatic-differentiation

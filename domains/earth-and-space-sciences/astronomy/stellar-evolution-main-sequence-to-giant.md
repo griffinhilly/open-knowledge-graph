@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: main-sequence-lifetime-mass-luminosity-relation
   type: soft
+- id: stars-and-life-cycles-intro
+  type: soft
 builds-toward:
 - stellar-end-states
 - galaxy-morphology-and-classification

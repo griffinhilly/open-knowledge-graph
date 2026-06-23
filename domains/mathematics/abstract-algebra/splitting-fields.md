@@ -6,6 +6,10 @@ course: abstract-algebra
 prerequisites:
 - id: algebraic-transcendental-elements
   type: hard
+- id: algebraic-and-transcendental-elements
+  type: soft
+- id: irreducibility-criteria
+  type: soft
 builds-toward:
 - galois-groups
 - finite-fields

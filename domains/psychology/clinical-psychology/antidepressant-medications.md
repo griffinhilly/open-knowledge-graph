@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: monoamine-synthesis-and-catabolism
   type: hard
+- id: serotonin-reuptake-mechanisms-and-ssri-action
+  type: soft
 tags:
 - antidepressants
 - medication

@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: diction-and-register-in-argument
   type: soft
+- id: concrete-vs-abstract-in-poetry
+  type: soft
+- id: imagery-in-poetry
+  type: soft
 builds-toward:
 - poetic-persona-and-speaker
 tags:

@@ -6,6 +6,10 @@ course: 1st-grade
 prerequisites:
 - id: equal-groups
   type: hard
+- id: equal-groups-2nd-grade
+  type: hard
+- id: skip-counting-by-2s-fluency
+  type: soft
 tags:
 - arrays
 - multiplication-readiness

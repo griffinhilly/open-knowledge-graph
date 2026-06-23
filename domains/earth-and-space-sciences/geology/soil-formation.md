@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: rock-forming-minerals
   type: soft
+- id: chemical-weathering
+  type: soft
+- id: layers-of-soil
+  type: soft
+- id: what-is-soil
+  type: soft
 builds-toward:
 - geomorphology
 - hydrogeology-groundwater

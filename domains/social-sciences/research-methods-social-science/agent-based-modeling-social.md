@@ -19,7 +19,6 @@ prerequisites:
 - id: machine-learning-social-science
   type: soft
 builds-toward:
-- network-simulation-dynamics
 - simulation-modeling-social
 tags:
 - computational

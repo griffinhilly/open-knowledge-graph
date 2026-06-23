@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: optimization-multivariable-basics
   type: soft
+- id: bandwidth-latency-throughput
+  type: hard
+- id: sliding-window-protocol
+  type: hard
 builds-toward:
 - qos-quality-of-service
 tags:

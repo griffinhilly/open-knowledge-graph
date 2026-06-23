@@ -8,6 +8,16 @@ prerequisites:
   type: hard
 - id: normal-distribution
   type: hard
+- id: distribution-of-sample-mean-theory
+  type: hard
+- id: independence-of-events
+  type: soft
+- id: normal-distribution-theory
+  type: hard
+- id: sampling-distributions-theory
+  type: hard
+- id: weak-law-large-numbers
+  type: soft
 builds-toward:
 - confidence-intervals-means
 - hypothesis-testing-fundamentals

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: combining-small-groups
   type: hard
-builds-toward:
-- addition-facts-within-5
 tags:
 - number-bonds
 - part-part-whole

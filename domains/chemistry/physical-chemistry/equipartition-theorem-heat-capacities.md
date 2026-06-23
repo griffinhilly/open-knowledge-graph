@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heat-capacity-calorimetry
   type: soft
+- id: fundamental-statistical-mechanics
+  type: soft
 tags:
 - statistical
 - thermodynamics

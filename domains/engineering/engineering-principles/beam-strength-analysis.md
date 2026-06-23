@@ -15,7 +15,6 @@ prerequisites:
 builds-toward:
 - truss-design-principles
 - factor-of-safety
-- stress-and-strain-fundamentals
 tags:
 - beams
 - bending

@@ -10,8 +10,9 @@ prerequisites:
   type: soft
 - id: postmodern-aesthetics-pastiche
   type: soft
+- id: greenberg-modernism-and-medium-specificity
+  type: soft
 builds-toward:
-- relational-aesthetics
 - the-avant-garde-and-artistic-transgression
 tags:
 - postmodernism

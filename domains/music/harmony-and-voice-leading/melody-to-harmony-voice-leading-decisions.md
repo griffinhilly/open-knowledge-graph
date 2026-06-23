@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: harmonic-function-basics
   type: hard
-builds-toward:
-- reharmonization-voice-leading-techniques
 tags:
 - melody-harmonization
 - chord-selection

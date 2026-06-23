@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: feedback-mechanisms-in-climate
   type: hard
+- id: albedo-feedback-paleoclimate
+  type: soft
 tags:
 - tipping-points
 - bifurcation

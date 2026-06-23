@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: t-test-for-means
   type: soft
+- id: f-distribution-theory
+  type: hard
 tags:
 - ANOVA
 - F-test

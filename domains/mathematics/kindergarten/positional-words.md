@@ -3,7 +3,11 @@ id: positional-words
 title: 'Positional Words: Above, Below, Beside'
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: positional-vocabulary-above-below
+  type: soft
+- id: positional-vocabulary-beside
+  type: soft
 builds-toward:
 - coordinate-plane-intro
 tags:

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: resolution-fol
   type: soft
+- id: literals-and-clauses-cnf
+  type: hard
+- id: logical-implication-entailment
+  type: soft
 builds-toward:
 - resolution-fol
 tags:

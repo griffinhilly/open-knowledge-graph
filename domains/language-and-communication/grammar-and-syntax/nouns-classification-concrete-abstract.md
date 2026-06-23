@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: nouns-intro
   type: hard
+- id: parts-of-speech-overview
+  type: hard
 tags:
 - nouns
 - classification

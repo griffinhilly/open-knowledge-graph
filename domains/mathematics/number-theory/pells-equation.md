@@ -6,6 +6,8 @@ course: number-theory
 prerequisites:
 - id: continued-fractions
   type: hard
+- id: linear-diophantine-equations
+  type: soft
 tags:
 - pells-equation
 - diophantine

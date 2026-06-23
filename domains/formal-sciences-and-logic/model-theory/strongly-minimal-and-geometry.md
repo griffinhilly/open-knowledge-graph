@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: definability-and-algebraic-applications
   type: hard
+- id: definable-algebraic-closure
+  type: soft
 builds-toward:
 - o-minimality-and-tame-geometry
 - applications-ordered-fields-algebraically-closed

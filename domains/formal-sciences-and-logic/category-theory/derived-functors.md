@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: tor-derived-tensor
   type: soft
+- id: snake-lemma
+  type: soft
 tags:
 - derived functor
 - Ext

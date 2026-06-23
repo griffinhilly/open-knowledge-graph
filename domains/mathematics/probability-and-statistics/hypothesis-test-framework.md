@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: sampling-distributions
   type: hard
+- id: standard-error-of-estimators
+  type: soft
 builds-toward:
 - p-values-and-significance
-- power-of-statistical-test
 tags:
 - hypothesis-testing
 - inference

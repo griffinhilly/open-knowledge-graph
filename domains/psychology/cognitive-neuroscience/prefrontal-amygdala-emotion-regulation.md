@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: amygdala-fear-processing-neural-circuits
   type: hard
-builds-toward:
-- emotion-dysregulation-psychiatric-disorders
-- emotion-regulation-training-neural-plasticity
 tags:
 - emotion-regulation
 - prefrontal

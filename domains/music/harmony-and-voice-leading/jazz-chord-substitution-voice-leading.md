@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
+- id: diatonic-progression-voice-leading-patterns
+  type: soft
+- id: extended-chords-upper-extensions-voicing
+  type: soft
+- id: extended-harmony-voice-leading-handling
+  type: soft
 builds-toward: []
 tags:
 - jazz

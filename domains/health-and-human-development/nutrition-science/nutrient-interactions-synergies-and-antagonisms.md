@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: minerals-and-trace-elements
   type: soft
+- id: mineral-absorption-regulation-and-homeostasis
+  type: soft
 tags:
 - nutrient-interactions
 - synergies

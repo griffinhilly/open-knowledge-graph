@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: metallic-bonding
   type: soft
+- id: oxidation-numbers
+  type: soft
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
 - electrochemical-cells
 tags:

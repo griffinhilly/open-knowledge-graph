@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: limit-points-and-accumulation
   type: hard
+- id: neighborhoods-and-open-sets
+  type: hard
 builds-toward:
 - sequential-compactness
 - continuous-functions-topology

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: biofilm-formation
   type: soft
+- id: symbiosis-commensalism-parasitism-microbes
+  type: soft
 builds-toward:
 - emerging-infectious-diseases
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dot-product
   type: soft
+- id: matrix-addition-subtraction
+  type: soft
 builds-toward:
 - linear-transformations
 - systems-of-linear-equations

@@ -3,7 +3,9 @@ id: measurement-validity-social-science
 title: Measurement, Validity, and Reliability
 domain: social-sciences
 course: research-methods-social-science
-prerequisites: []
+prerequisites:
+- id: research-design-from-questions-to-methods
+  type: soft
 builds-toward:
 - survey-design-advanced
 - structural-equation-modeling-latent

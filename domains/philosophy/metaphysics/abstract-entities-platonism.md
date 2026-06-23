@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: fundamental-properties-sparse-abundant
   type: soft
+- id: nominalism-abstract-objects
+  type: soft
 builds-toward:
 - universals-nominalism-realism
 tags:

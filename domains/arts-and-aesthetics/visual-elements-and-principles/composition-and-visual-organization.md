@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: the-seven-design-principles
   type: soft
+- id: balance-and-visual-equilibrium
+  type: soft
 builds-toward:
 - color-and-composition
 - visual-hierarchy-through-elements-principles

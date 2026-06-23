@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nuclear-organization-architecture
   type: hard
+- id: nucleosomal-core-particle-structure
+  type: hard
 builds-toward:
 - dna-methylation-and-epigenetic-silencing
 tags:

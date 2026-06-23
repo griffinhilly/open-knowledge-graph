@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: employer-benefits-evaluation-and-selection
   type: soft
+- id: paycheck-deductions-and-net-pay
+  type: soft
 builds-toward:
 - retirement-income-and-withdrawal-strategies
 - tax-efficient-investment-strategies

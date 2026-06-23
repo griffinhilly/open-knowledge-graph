@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: drawing-and-scribbling
   type: soft
+- id: observing-line-in-visual-art
+  type: soft
 builds-toward:
 - contour-drawing
 - gesture-drawing

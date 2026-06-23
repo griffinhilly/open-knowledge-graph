@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - political-polarization-affective-division
-- media-and-political-messaging
 tags:
 - public-opinion
 - preferences

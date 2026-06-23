@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: cometary-orbits-and-dynamics
   type: soft
+- id: moon-and-its-phases
+  type: soft
+- id: the-moon-in-detail
+  type: soft
 builds-toward:
 - lunar-geology-and-history
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: triangle-inequality
   type: soft
+- id: solving-proportions
+  type: soft
 builds-toward:
 - similar-triangles-sss-sas
 - proportions-in-similar-triangles

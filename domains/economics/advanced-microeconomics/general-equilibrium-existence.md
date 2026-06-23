@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: core-of-an-economy
   type: soft
+- id: exchange-economy-efficiency
+  type: soft
 tags:
 - general-equilibrium
 - mathematical-economics

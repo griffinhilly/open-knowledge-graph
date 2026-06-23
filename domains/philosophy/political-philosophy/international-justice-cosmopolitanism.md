@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cosmopolitanism
   type: hard
+- id: human-rights-foundations
+  type: soft
 tags:
 - cosmopolitanism
 - global-justice

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - stoichiometry-calculations
-- empirical-and-molecular-formulas
 tags:
 - mass
 - composition

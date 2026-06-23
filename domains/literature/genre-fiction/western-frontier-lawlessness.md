@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - adventure-fiction-episodic
-- moral-ambiguity-justice-law
 tags:
 - western
 - frontier

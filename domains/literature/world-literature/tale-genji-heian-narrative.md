@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: character-development-basics
   type: soft
+- id: heian-monogatari-tale-narrative-form
+  type: hard
+- id: waka-court-poetry-tradition-form
+  type: hard
 builds-toward:
 - novel-form
 - psychological-novel-consciousness

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: forking-relation-independence
   type: hard
+- id: morley-rank-and-degree
+  type: soft
 builds-toward:
 - order-property-instability
 tags:

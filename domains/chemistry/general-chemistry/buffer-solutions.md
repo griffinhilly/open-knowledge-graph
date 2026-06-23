@@ -10,8 +10,12 @@ prerequisites:
   type: hard
 - id: logarithms-intro
   type: hard
-builds-toward:
-- ph-and-acid-base-calculations
+- id: common-ion-effect
+  type: soft
+- id: weak-acid-ionization
+  type: hard
+- id: weak-base-ionization
+  type: soft
 tags:
 - Henderson-Hasselbalch
 - buffer-capacity

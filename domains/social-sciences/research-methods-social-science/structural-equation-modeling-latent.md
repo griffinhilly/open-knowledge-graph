@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: operationalization-construct-validity
   type: soft
+- id: survey-design-advanced
+  type: soft
 tags:
 - SEM
 - latent-variables

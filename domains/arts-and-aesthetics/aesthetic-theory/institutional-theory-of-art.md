@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - danto-artworld-and-indiscernibles
-- relational-aesthetics
 tags:
 - institutional theory
 - artworld

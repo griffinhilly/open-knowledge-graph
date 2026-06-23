@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - syncopation
-- polyrhythm
 tags:
 - rhythm
 - beat

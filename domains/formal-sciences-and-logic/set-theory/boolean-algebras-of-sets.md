@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: naive-set-theory
   type: soft
+- id: set-operations-and-venn-diagrams
+  type: hard
 builds-toward:
 - forcing-intro
 tags:

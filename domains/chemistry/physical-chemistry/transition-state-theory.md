@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: collision-theory-advanced-kinetics
   type: soft
+- id: arrhenius-rate-constants-temperature
+  type: soft
 builds-toward:
 - unimolecular-reaction-mechanisms
 tags:

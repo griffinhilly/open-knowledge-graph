@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heisenberg-uncertainty-principle
   type: soft
+- id: quantum-observables
+  type: hard
 builds-toward:
 - quantum-harmonic-oscillator
 tags:

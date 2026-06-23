@@ -6,6 +6,8 @@ course: 3rd-grade
 prerequisites:
 - id: telling-time-to-5-minutes
   type: hard
+- id: telling-time-five-minute-intervals
+  type: hard
 builds-toward:
 - elapsed-time
 tags:

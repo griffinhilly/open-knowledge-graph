@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: bounded-linear-operators
   type: hard
+- id: operator-norm
+  type: hard
 builds-toward:
 - hahn-banach-theorem
 - hilbert-spaces

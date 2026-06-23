@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - cardiac-output-control-regulation
 - gastrointestinal-secretion-motility
-- digestion
 tags:
 - autonomic
 - parasympathetic

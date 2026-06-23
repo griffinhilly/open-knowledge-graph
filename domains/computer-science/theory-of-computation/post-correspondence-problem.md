@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: reduction-techniques-undecidability
   type: hard
+- id: undecidability-proof-by-reduction
+  type: soft
 tags:
 - pcp
 - undecidability

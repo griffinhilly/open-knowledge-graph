@@ -6,6 +6,8 @@ course: 4th-grade
 prerequisites:
 - id: place-value-whole-numbers
   type: hard
+- id: comparing-quantities-three-digit-2nd
+  type: hard
 builds-toward:
 - comparing-decimals
 - integers-and-number-line

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lagged-dependent-variable-regression
   type: hard
+- id: generalized-method-of-moments
+  type: hard
 tags:
 - panel-data
 - dynamic-models

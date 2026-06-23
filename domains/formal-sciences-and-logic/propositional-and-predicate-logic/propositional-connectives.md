@@ -6,6 +6,12 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: propositional-syntax
   type: hard
+- id: and-or-everyday
+  type: soft
+- id: negation-logic-intro
+  type: soft
+- id: propositional-logic-introduction
+  type: soft
 builds-toward:
 - propositional-semantics
 - tautologies-and-contradictions

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: value-and-tone
   type: hard
+- id: hatching-and-cross-hatching
+  type: soft
 builds-toward:
 - chiaroscuro
 - still-life-composition

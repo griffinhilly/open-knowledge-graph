@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: personal-essay-form
   type: soft
-builds-toward:
-- reflective-nonfiction
-- philosophical-essay
 tags:
 - hermit-essay
 - solitude

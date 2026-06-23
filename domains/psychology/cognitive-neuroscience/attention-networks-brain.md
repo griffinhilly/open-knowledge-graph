@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: attention-divided
   type: soft
+- id: visual-attention-mechanisms
+  type: soft
 builds-toward:
 - executive-control-networks
 tags:

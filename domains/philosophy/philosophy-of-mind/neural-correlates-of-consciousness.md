@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: identity-theory
   type: soft
+- id: psychophysical-correlation-laws
+  type: soft
 tags:
 - NCC
 - Koch

@@ -11,7 +11,6 @@ prerequisites:
   type: hard
 builds-toward:
 - neuroinflammation-glia
-- neurotoxicity-excitotoxicity-pathophysiology
 tags:
 - tbi
 - secondary-injury

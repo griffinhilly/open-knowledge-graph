@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: instrumental-variables
   type: hard
+- id: sharp-regression-discontinuity-design
+  type: hard
 tags:
 - causal-inference
 - regression-discontinuity

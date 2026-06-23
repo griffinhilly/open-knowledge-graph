@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: myth-and-symbolism
   type: soft
+- id: looking-glass-self
+  type: soft
 tags:
 - self
 - personhood

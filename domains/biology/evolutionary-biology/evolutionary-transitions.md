@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: paleontology-fossil-record
   type: hard
+- id: major-evolutionary-innovations
+  type: soft
 builds-toward:
 - adaptive-radiation-molecular-basis
 tags:

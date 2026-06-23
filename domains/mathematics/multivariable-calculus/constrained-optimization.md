@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: lagrange-multipliers
   type: hard
+- id: optimization-multivariable-basics
+  type: soft
 tags:
 - constraints
 - applications

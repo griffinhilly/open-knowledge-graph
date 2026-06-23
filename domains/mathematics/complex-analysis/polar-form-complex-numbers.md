@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - complex-exponential-form
-- de-moivres-theorem
 tags:
 - complex-numbers
 - polar-coordinates

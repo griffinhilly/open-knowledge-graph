@@ -18,6 +18,10 @@ prerequisites:
   type: soft
 - id: icon-and-symbol-design
   type: soft
+- id: information-architecture-fundamentals
+  type: soft
+- id: visual-hierarchy-structure
+  type: soft
 builds-toward:
 - accessibility-in-design
 - responsive-design-principles

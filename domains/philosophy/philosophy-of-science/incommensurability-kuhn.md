@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: theory-ladenness-observation
   type: soft
+- id: normal-science-anomalies
+  type: soft
+- id: thomas-kuhn-paradigm-shifts
+  type: hard
 builds-toward:
 - scientific-realism
 - feyerabend-methodology-anarchy

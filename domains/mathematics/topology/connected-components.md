@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: connectedness-definition-examples
   type: hard
+- id: connected-spaces
+  type: hard
 builds-toward:
 - fundamental-group-definition
 tags:

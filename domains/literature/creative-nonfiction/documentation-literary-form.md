@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: documentary-nonfiction-film
   type: soft
-builds-toward:
-- archive-based-writing
-- experimental-documentation
 tags:
 - documentation
 - form

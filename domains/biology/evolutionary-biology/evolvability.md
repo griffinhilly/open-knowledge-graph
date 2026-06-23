@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: genome-duplications
   type: soft
+- id: evo-developmental-modules
+  type: soft
 builds-toward:
 - adaptive-radiation-molecular-basis
 tags:

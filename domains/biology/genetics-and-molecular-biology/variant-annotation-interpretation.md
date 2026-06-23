@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: missense-nonsense-silent-mutation-effects
   type: hard
+- id: single-nucleotide-polymorphisms-snps
+  type: soft
 builds-toward:
 - genetic-heterogeneity-locus
 tags:

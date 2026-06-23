@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: one-to-one-counting-correspondence
   type: hard
+- id: counting-objects-to-20
+  type: soft
 builds-toward:
 - comparing-quantities-more-less
-- cardinality-understanding
 tags:
 - cardinality
 - number meaning

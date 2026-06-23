@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: viking-age
   type: soft
+- id: medieval-manorial-economy
+  type: soft
 builds-toward:
 - medieval-universities
 tags:

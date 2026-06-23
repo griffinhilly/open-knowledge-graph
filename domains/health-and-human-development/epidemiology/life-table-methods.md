@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: incidence-density-rates
   type: hard
+- id: cumulative-incidence-probability
+  type: soft
 builds-toward:
   - standardized-rate-calculation
 tags:

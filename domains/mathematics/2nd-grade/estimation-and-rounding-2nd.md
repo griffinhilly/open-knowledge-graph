@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: comparing-ordering-three-digit-numbers-2nd
   type: soft
-builds-toward:
-- place-value-100-to-1000
 tags:
 - estimation
 - rounding

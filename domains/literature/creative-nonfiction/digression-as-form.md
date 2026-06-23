@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: rhetorical-analysis
   type: soft
-builds-toward:
-- associative-thinking
-- intellectual-nonfiction
 tags:
 - digression
 - essayistic

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: continuity-definition
   type: soft
+- id: ordinary-and-singular-points
+  type: hard
 builds-toward:
 - bessel-functions
 - legendre-equations

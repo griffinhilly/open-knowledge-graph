@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: wave-speed-medium
   type: soft
+- id: longitudinal-wave-characteristics
+  type: soft
+- id: sound-and-vibrations
+  type: soft
 builds-toward:
 - sound-intensity-and-decibels
 - doppler-effect

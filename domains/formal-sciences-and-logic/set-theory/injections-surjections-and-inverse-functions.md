@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - composition-of-functions-sets
 - finite-sets-and-finiteness-definition
-- cardinality-comparison-and-schroeder-bernstein
 tags:
 - function-types
 - invertibility

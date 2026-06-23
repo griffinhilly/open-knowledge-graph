@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: chemical-equilibrium
   type: soft
+- id: ion-channels-selectivity
+  type: hard
 builds-toward:
 - synaptic-transmission
 - skeletal-muscle-contraction

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: solar-variability-climate
   type: soft
+- id: paleoclimate-proxy-interpretation
+  type: soft
 builds-toward:
 - monsoon-paleoclimate-dynamics
 - multi-proxy-climate-reconstruction

@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - injections-surjections-and-inverse-functions
 - composition-of-functions-sets
-- cardinality-comparison-and-schroeder-bernstein
 tags:
 - functions
 - mappings

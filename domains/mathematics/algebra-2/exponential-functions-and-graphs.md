@@ -8,6 +8,8 @@ prerequisites:
     type: hard
   - id: rational-exponents
     type: soft
+  - id: geometric-sequences
+    type: soft
 builds-toward:
   - exponential-growth-and-decay
   - logarithms-intro

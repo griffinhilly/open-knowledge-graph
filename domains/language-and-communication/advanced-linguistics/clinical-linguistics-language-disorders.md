@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: language-acquisition-development
   type: soft
-builds-toward:
-- applied-linguistics-language-policy
 tags:
 - clinical-linguistics
 - language-disorders

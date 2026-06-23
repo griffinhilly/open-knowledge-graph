@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mercantilism-and-colonialism
   type: soft
+- id: enclosure-movement
+  type: soft
 
 builds-toward:
 - factory-system-labor

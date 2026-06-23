@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: current-density-current-distribution
   type: hard
-builds-toward:
-- thermal-effects-in-circuits
+- id: microscopic-ohms-law-drift-velocity
+  type: soft
 tags:
 - power dissipation
 - heat

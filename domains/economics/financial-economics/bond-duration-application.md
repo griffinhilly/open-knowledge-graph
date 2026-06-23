@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: bond-convexity-price-effects
   type: soft
+- id: zero-coupon-bond-valuation
+  type: hard
 builds-toward: []
 tags:
 - bonds

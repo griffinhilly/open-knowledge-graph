@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: basic-web-searching
   type: soft
+- id: effective-web-searching
+  type: soft
 builds-toward:
 - identifying-misinformation-and-bias
 tags:

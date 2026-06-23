@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: proof-by-cases
   type: hard
+- id: mathematical-induction-introduction
+  type: hard
 builds-toward:
 - strong-induction
 tags:

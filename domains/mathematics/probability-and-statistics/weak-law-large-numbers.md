@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - central-limit-theorem
-- law-of-large-numbers
 tags:
 - convergence
 - probability

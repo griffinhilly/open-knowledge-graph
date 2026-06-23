@@ -6,6 +6,8 @@ course: aesthetic-theory
 prerequisites:
 - id: aesthetic-experience-and-beauty
   type: hard
+- id: plato-form-and-beauty
+  type: soft
 builds-toward:
 - representation-and-mimesis
 - expression-theory-art

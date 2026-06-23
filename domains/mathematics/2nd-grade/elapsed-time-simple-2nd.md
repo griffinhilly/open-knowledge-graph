@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: telling-time-five-minute-intervals
   type: hard
-builds-toward:
-- elapsed-time-multi-hour
+- id: telling-time-5-minute-intervals-2nd
+  type: hard
 tags:
 - time
 - elapsed-time

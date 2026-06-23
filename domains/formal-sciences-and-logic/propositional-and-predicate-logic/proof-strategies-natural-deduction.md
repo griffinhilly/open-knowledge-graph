@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: natural-deduction-fol
   type: hard
+- id: quantifier-instantiation-rules
+  type: soft
+- id: variable-substitution-capture-avoidance
+  type: soft
 tags:
 - natural-deduction
 - proof-theory

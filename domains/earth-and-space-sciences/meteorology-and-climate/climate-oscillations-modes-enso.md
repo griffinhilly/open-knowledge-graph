@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - climate-feedback-ice-albedo-water-vapor
-- atmospheric-teleconnections-enso-nao
 tags:
 - oscillation
 - enso

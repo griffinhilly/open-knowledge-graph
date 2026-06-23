@@ -10,9 +10,8 @@ prerequisites:
   type: hard
 - id: exponential-distribution
   type: soft
-builds-toward:
-- demographic-inference
-- molecular-dating
+- id: effective-population-size
+  type: hard
 tags:
 - population-genetics
 - theory

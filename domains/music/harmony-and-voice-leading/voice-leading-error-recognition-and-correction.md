@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
+- id: motion-types-voice-leading-outer-voices
+  type: hard
+- id: suspension-resolution-voice-leading
+  type: soft
+- id: voice-spacing-rules-registers
+  type: soft
 tags:
 - error-detection
 - part-writing

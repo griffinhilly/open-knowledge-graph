@@ -6,8 +6,6 @@ course: pathophysiology
 prerequisites:
 - id: hemostasis-pathophysiology
   type: soft
-builds-toward:
-  - acute-liver-failure-pathophysiology
 tags:
 - drug-induced-injury
 - hepatotoxicity

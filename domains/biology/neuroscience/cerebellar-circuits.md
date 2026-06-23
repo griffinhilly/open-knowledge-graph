@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: neuronal-cell-types-and-morphology
   type: soft
-builds-toward:
-- motor-control
-- timing-and-prediction
 tags:
 - cerebellum
 - purkinje-cells

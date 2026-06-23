@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: division-of-government-branches
   type: soft
-builds-toward:
-- constitutional-review-power
 tags:
 - judiciary
 - courts

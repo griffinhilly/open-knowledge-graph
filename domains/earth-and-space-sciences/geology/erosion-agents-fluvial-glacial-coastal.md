@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: ocean-surface-waves
   type: soft
+- id: erosion-and-weathering-basics
+  type: soft
+- id: erosion-by-water
+  type: soft
+- id: erosion-by-wind-and-ice
+  type: soft
 builds-toward:
 - sediment-transport-and-deposition
 - geomorphology

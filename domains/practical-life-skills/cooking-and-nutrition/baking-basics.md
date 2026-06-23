@@ -24,6 +24,10 @@ prerequisites:
   type: soft
 - id: measuring-capacity-liquid-containers-3rd
   type: soft
+- id: oven-temperature-and-preheating
+  type: hard
+- id: oven-temperature-verification-and-adjustment
+  type: soft
 tags:
 - baking
 - oven

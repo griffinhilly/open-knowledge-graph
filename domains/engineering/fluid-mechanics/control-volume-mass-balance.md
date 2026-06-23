@@ -6,6 +6,8 @@ course: fluid-mechanics
 prerequisites:
 - id: continuity-equation-fluid
   type: hard
+- id: streamlines-and-flow-visualization
+  type: soft
 builds-toward:
 - momentum-equation-control-volume
 - energy-equation-steady-flow

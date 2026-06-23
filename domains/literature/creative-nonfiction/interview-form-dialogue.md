@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - oral-history-collection
-- participatory-nonfiction
 tags:
 - interview
 - dialogue

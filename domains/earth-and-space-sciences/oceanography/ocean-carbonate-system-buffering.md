@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemical-equilibrium
   type: soft
+- id: salinity-composition-seawater
+  type: soft
 builds-toward:
 - ocean-acidification
 - dissolved-oxygen-biogeochemical-cycles

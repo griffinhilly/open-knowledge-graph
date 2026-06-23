@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: computational-social-science-intro
   type: soft
-builds-toward:
-- topic-modeling-lda
-- sentiment-analysis-methods
 tags:
 - text
 - nlp

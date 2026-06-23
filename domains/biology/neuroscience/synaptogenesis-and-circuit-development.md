@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: neuron-structure-and-function
   type: soft
-builds-toward:
-- circuit-refinement
-- critical-periods
 tags:
 - synaptogenesis
 - development

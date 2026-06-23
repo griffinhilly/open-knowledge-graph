@@ -6,6 +6,8 @@ course: neuroscience
 prerequisites:
 - id: synaptic-transmission
   type: soft
+- id: sensory-neural-coding-perception
+  type: soft
 tags:
 - sensory-systems
 - pain

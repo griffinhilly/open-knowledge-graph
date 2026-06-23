@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: rossby-waves-barotropic
   type: hard
+- id: atmospheric-waves-and-instability
+  type: soft
+- id: rossby-number-and-flow-regimes
+  type: soft
 builds-toward:
 - severe-weather-systems
 tags:

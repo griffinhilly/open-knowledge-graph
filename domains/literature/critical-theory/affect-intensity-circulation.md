@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: affective-intensity-sensation
   type: soft
-builds-toward:
-- emotional-storytelling-rhetorical-technique
 tags:
 - affect
 - intensity

@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: mean-median-mode
   type: hard
+- id: mean-median-mode-with-data-sets
+  type: hard
 builds-toward:
 - five-number-summary
 - boxplots-and-five-number-summary

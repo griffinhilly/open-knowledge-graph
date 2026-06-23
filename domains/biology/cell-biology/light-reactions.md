@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-basics
   type: soft
+- id: chloroplast-photosynthesis-organelle
+  type: hard
 builds-toward:
 - calvin-cycle
 tags:

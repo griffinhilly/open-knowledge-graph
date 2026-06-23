@@ -6,6 +6,8 @@ course: geophysics
 prerequisites:
 - id: seismic-body-waves-p-and-s
   type: hard
+- id: seismic-waves-p-s-surface
+  type: hard
 builds-toward:
 - moment-tensor-inversion
 tags:

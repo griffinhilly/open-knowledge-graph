@@ -6,6 +6,10 @@ course: neuroscience
 prerequisites:
 - id: action-potential-repolarization
   type: hard
+- id: cable-theory-axonal-conduction
+  type: hard
+- id: myelin-and-myelination
+  type: hard
 builds-toward:
 - descending-motor-pathways
 tags:

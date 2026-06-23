@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: form-and-phrase-architecture
   type: soft
+- id: cadential-formulas-composition
+  type: soft
 builds-toward:
 - form-and-structure-composition
 tags:

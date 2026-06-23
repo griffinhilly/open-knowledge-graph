@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: molecular-orbital-theory-advanced
   type: soft
+- id: exchange-integral-chemical-bonding
+  type: hard
 builds-toward:
 - molecular-orbital-symmetry-classification
 tags:

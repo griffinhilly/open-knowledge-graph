@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - noir-aesthetic-moral-corruption
-- character-motivation-self-interest
 tags:
 - grimdark
 - nihilism

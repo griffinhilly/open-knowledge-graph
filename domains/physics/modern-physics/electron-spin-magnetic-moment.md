@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - zeeman-effect-magnetic-splitting
-- stern-gerlach-sequential-measurements
 tags:
 - spin
 - magnetic-moment

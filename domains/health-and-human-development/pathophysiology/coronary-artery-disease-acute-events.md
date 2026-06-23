@@ -10,9 +10,10 @@ prerequisites:
   type: hard
 - id: atherosclerotic-plaque-rupture-and-thrombosis
   type: soft
+- id: platelet-activation-and-aggregation-pathophysiology
+  type: soft
 builds-toward:
 - myocardial-infarction-pathophysiology
-- cardiogenic-shock-pathophysiology
 tags:
 - coronary-artery-disease
 - plaque-rupture

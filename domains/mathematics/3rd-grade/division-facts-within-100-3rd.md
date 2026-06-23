@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: division-facts-as-inverse-multiplication
   type: soft
-builds-toward:
-- multi-digit-division
 tags:
 - division
 - facts

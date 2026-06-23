@@ -11,7 +11,6 @@ prerequisites:
 - id: hybridization-introduction
   type: soft
 builds-toward:
-- molecular-geometry
 - bonding-antibonding-orbitals
 tags:
 - hybridization

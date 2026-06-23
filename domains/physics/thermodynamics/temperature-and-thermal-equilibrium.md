@@ -3,7 +3,9 @@ id: temperature-and-thermal-equilibrium
 title: Temperature and Thermal Equilibrium
 domain: physics
 course: thermodynamics
-prerequisites: []
+prerequisites:
+- id: temperature-vs-heat
+  type: soft
 builds-toward:
 - thermal-expansion
 - heat-and-internal-energy

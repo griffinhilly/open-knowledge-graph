@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: research-ethics-human-subjects
   type: hard
-builds-toward:
-- policy-experiments-evaluation
-- scaling-field-experiments
 tags:
 - experiments
 - field

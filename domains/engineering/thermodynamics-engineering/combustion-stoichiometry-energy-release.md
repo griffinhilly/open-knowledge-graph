@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: stoichiometry-calculations
   type: hard
+- id: gas-mixture-thermodynamics-daltons
+  type: soft
 builds-toward:
 - fuel-combustion-products-analysis
 - adiabatic-flame-temperature-calculation

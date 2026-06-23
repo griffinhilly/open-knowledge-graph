@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: equivalence-of-categories
   type: hard
-builds-toward:
-- topos-theory-intro
 tags:
 - derived-equivalence
 - derived-category

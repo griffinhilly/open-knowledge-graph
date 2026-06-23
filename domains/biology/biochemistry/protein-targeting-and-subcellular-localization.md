@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: endoplasmic-reticulum-and-golgi
   type: soft
+- id: ribosome-protein-synthesis-factory
+  type: soft
 tags:
 - protein targeting
 - signal peptide

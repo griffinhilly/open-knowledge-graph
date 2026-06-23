@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - dialogue-in-fiction
-- playwriting-related
 tags:
 - exposition
 - technique

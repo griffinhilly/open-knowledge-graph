@@ -4,7 +4,7 @@ title: 'Partition Literature: Displacement, Violence, and Memory'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - rushdie-postcolonial-hybridity

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: russian-revolution
   type: soft
+- id: weimar-republic-political-instability
+  type: soft
 builds-toward:
 - world-war-ii-origins
 - holocaust

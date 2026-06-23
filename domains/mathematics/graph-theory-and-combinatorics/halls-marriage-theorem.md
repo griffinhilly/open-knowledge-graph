@@ -6,6 +6,8 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: bipartite-matching
   type: hard
+- id: matchings-bipartite-graphs
+  type: hard
 builds-toward:
 - konigs-theorem
 tags:

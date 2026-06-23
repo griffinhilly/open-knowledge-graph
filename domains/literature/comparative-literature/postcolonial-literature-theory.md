@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: language-attitudes-and-ideology
   type: soft
+- id: said-orientalism-representation
+  type: hard
 builds-toward:
 - literary-cosmopolitanism
 - canon-contestation-pluralism

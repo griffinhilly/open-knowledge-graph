@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: acid-base-titration
   type: soft
-builds-toward:
-- metabolic-integration-and-fed-fasted-states
 tags:
 - acid-base
 - pH-regulation

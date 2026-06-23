@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: natural-selection
   type: hard
+- id: gene-flow-selection-balance
+  type: soft
 builds-toward:
 - speciation
 - evolutionary-constraints

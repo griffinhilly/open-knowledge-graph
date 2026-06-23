@@ -9,7 +9,6 @@ prerequisites:
 - id: deliberative-democracy-and-legitimacy
   type: soft
 builds-toward:
-- democratic-legitimacy-participation
 - voting-representation-theory
 tags:
 - democracy

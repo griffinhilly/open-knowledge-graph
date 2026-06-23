@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-wave-equation
   type: soft
+- id: lorenz-gauge
+  type: hard
 builds-toward:
 - lienard-wiechert-potentials
 - radiation-from-accelerated-charges

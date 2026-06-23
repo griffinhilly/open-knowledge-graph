@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: french-revolution-origins
   type: soft
+- id: slave-rebellion-resistance-caribbean
+  type: soft
 tags:
 - Haiti
 - Saint-Domingue

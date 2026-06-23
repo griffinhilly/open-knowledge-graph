@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: survey-research-methods
   type: soft
+- id: external-validity-generalizability-populations
+  type: soft
 builds-toward:
 - measurement-standardization-procedural-fidelity
 - internal-validity-threats-experimental-control

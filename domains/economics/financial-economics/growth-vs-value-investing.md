@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: efficient-market-hypothesis
   type: soft
+- id: equity-valuation-multiples
+  type: hard
 builds-toward:
 - asset-allocation-framework
 tags:

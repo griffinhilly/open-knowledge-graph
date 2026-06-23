@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: gaze-subjectivity-visuality
   type: soft
+- id: structuralist-deep-structure
+  type: soft
 builds-toward:
 - semiotics-and-signs
 tags:

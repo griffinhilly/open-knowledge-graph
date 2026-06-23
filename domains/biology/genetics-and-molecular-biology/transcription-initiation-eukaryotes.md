@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: transcription-initiation-and-regulation
   type: soft
+- id: chromatin-remodeling-and-histone-acetylation
+  type: soft
+- id: chromatin-remodeling-swi-snf
+  type: soft
 builds-toward:
 - rna-polymerase-ii-and-ctd-regulation
 - transcription-factors-and-gene-regulation

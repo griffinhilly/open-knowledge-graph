@@ -3,7 +3,11 @@ id: tale-types-classification-aarne-thompson
 title: Tale Types and the Aarne-Thompson Classification System
 domain: literature
 course: mythology-folklore-oral-traditions
-prerequisites: []
+prerequisites:
+- id: folklore-definition-traditions
+  type: soft
+- id: oral-tradition-transmission-variation
+  type: soft
 builds-toward:
 - fairy-tale-oral-literary-roots
 - comparative-mythology-patterns

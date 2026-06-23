@@ -16,6 +16,12 @@ prerequisites:
   type: soft
 - id: chi-square-test
   type: soft
+- id: dominant-and-recessive-traits-intro
+  type: soft
+- id: inherited-traits
+  type: soft
+- id: what-is-heredity
+  type: soft
 builds-toward:
 - dominance-and-recessiveness
 - dihybrid-crosses

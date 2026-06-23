@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: taylor-rule-monetary-policy
   type: hard
+- id: money-demand-motives
+  type: soft
+- id: real-interest-rate-and-fisher-equation
+  type: soft
 tags:
 - policy-channels
 - propagation

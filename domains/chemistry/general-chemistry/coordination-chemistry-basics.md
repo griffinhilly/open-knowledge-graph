@@ -9,7 +9,6 @@ prerequisites:
 - id: covalent-bonding
   type: soft
 builds-toward:
-- complex-ions-stability
 - complexometric-titration
 tags:
 - coordination chemistry

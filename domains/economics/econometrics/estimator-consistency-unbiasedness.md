@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: coefficient-interpretation-regression
   type: soft
+- id: least-squares-regression-fundamentals
+  type: soft
 builds-toward:
 - asymptotic-normality-regression
 tags:

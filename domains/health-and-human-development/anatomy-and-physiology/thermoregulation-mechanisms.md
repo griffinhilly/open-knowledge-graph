@@ -12,8 +12,8 @@ prerequisites:
   type: soft
 - id: body-thermoregulation-metabolic-heat-production
   type: soft
-builds-toward:
-- fever-and-heat-illness
+- id: integumentary-structure-and-function
+  type: soft
 tags:
 - core-temperature
 - thermoregulation

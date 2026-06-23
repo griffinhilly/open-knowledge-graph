@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dopamine-system
   type: soft
+- id: brain-anatomy-and-functional-organization
+  type: soft
 tags:
 - learning-memory
 - emotion

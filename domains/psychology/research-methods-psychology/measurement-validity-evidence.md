@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: construct-validity-and-measurement
   type: soft
-builds-toward:
-- internal-validity-confounds-and-control
 tags:
 - validity
 - construct-validity

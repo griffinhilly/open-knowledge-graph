@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - thermoregulation-mechanisms
-- sensory-processing-pathways
 tags:
 - skin
 - epidermis

@@ -13,7 +13,6 @@ prerequisites:
 - id: chemometrics-multivariate-calibration
   type: soft
 builds-toward:
-- chromatographic-resolution-and-selectivity
 - multianalyte-panel-determination
 tags:
 - calibration

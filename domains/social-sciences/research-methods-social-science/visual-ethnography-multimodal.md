@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - material-culture-analysis
-- sensory-ethnography
 tags:
 - ethnography
 - visual

@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: conditional-implication-statements
   type: hard
+- id: biconditional-statements-intro
+  type: hard
 builds-toward:
 - equivalence-relations-and-partitions
 tags:

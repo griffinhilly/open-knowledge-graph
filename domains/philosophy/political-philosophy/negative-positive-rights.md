@@ -6,8 +6,9 @@ course: political-philosophy
 prerequisites:
 - id: liberty-negative-and-positive
   type: hard
+- id: natural-rights-foundations
+  type: soft
 builds-toward:
-- welfare-state-justification
 - distributive-justice
 tags:
 - negative-rights

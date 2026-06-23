@@ -6,6 +6,10 @@ course: linear-algebra
 prerequisites:
 - id: eigenvalues-and-eigenvectors
   type: hard
+- id: cofactor-expansion
+  type: soft
+- id: determinants-2x2-3x3
+  type: soft
 tags:
 - characteristic polynomial
 - diagonalization

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: electric-flux-and-gauss-law
+  type: hard
 builds-toward:
 - boundary-conditions-em-fields
 - electromagnetic-waves-in-media

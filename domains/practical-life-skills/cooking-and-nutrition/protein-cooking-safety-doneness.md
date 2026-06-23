@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: food-safety-cross-contamination
   type: hard
+- id: meat-resting-and-carryover-temperature
+  type: soft
 builds-toward:
 - meat-and-protein-doneness
 - protein-cooking-science

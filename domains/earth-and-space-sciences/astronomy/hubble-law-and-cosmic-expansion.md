@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: slope-concept
   type: soft
+- id: cosmic-distance-ladder-calibration
+  type: hard
 builds-toward:
 - big-bang-cosmology
 - dark-matter-and-dark-energy

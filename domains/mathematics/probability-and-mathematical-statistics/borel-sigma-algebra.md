@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: open-sets-real-line
   type: hard
+- id: sigma-algebras-formal-construction
+  type: hard
 builds-toward:
 - probability-spaces-measure-theoretic
 - random-variables-as-measurable-functions

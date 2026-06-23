@@ -19,7 +19,6 @@ prerequisites:
 - id: cartesian-product
   type: soft
 builds-toward:
-- neo-riemannian-extended-systems
 - musical-mathematics-symmetry
 tags:
 - set-theory

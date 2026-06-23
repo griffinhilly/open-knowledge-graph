@@ -6,11 +6,8 @@ course: genre-fiction
 prerequisites:
 - id: mystery-genre
   type: hard
-- id: community-and-place-setting
-  type: hard
 builds-toward:
 - mystery-genre-puzzle-structure
-- character-ensemble-community
 tags:
 - cozy-mystery
 - amateur-detective

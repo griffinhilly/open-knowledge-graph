@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: angular-momentum-quantization
   type: hard
+- id: pauli-matrices
+  type: soft
 tags:
 - spin
 - coupling

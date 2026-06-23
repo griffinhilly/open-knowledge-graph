@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: counter-reformation
   type: soft
+- id: linear-perspective-mathematics-art
+  type: soft
 builds-toward:
 - cultural-history-approach
 tags:

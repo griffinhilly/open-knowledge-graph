@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: opportunity-cost-concept
+  type: hard
+- id: scarcity-choice-production-tradeoff
+  type: soft
 builds-toward:
 - supply-and-demand-basics
 tags:

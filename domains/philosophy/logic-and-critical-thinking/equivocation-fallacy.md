@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: appeal-to-tradition-fallacy
   type: soft
+- id: ambiguity-in-arguments
+  type: soft
 builds-toward:
 - informal-fallacies-intro
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: race-ethnicity-inequality-systems
   type: soft
+- id: caste-class-estate-stratification
+  type: soft
 builds-toward:
 - occupational-prestige-hierarchy
 - meritocracy-myth-critique

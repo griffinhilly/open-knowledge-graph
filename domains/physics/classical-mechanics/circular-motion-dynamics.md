@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: converting-degrees-and-radians
   type: soft
+- id: circular-motion-conceptual
+  type: soft
 builds-toward:
 - orbital-mechanics
 - rotational-dynamics

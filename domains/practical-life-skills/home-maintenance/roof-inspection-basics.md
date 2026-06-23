@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: measurement-conversions-customary
   type: soft
+- id: roof-system-types-and-inspection-basics
+  type: soft
 builds-toward: []
 tags:
 - roof

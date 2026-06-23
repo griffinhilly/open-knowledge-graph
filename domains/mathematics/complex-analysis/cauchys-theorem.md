@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: greens-theorem
   type: soft
+- id: connected-simply-connected-plane
+  type: hard
 builds-toward:
 - cauchys-integral-formula
 - fundamental-theorem-algebra-complex

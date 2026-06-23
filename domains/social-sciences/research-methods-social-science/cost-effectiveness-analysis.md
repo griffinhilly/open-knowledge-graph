@@ -10,9 +10,6 @@ prerequisites:
   type: soft
 - id: linear-programming
   type: soft
-builds-toward:
-- health-economic-evaluation
-- return-on-investment-analysis
 tags:
 - policy
 - evaluation

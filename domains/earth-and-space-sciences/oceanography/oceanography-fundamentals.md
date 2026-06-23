@@ -6,6 +6,8 @@ course: oceanography
 prerequisites:
 - id: ocean-circulation-and-climate
   type: soft
+- id: rivers-lakes-and-oceans
+  type: soft
 builds-toward:
 - ocean-basin-structure
 - water-mass-formation-types

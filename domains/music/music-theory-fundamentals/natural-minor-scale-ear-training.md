@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - scale-degree-singing-by-ear
-- minor-key-chord-progressions
 tags:
 - scales
 - minor

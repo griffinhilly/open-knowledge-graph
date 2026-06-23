@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: homophonic-texture-voice-leading-melody
   type: soft
+- id: register-and-spacing-in-composition
+  type: soft
 tags:
 - texture
 - development

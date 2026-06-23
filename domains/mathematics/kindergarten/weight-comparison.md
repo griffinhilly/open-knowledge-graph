@@ -6,8 +6,6 @@ course: kindergarten
 prerequisites:
 - id: measurement-comparison-weight
   type: soft
-builds-toward:
-- balance-and-scales
 tags:
 - measurement
 - weight

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: causal-closure-physical
   type: soft
+- id: downward-causation
+  type: soft
 tags:
 - causation
 - consciousness

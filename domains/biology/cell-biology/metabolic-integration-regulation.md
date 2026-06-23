@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: cellular-respiration-pathways
+  type: soft
 tags:
 - metabolism
 - integration

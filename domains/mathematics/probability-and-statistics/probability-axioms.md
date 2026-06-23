@@ -3,9 +3,10 @@ id: probability-axioms
 title: Probability Axioms
 domain: mathematics
 course: probability-and-statistics
-prerequisites: []
+prerequisites:
+- id: simple-probability
+  type: soft
 builds-toward:
-- sample-spaces-and-events
 - conditional-probability
 - random-variables-intro
 tags:

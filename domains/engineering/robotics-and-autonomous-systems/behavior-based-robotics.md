@@ -9,7 +9,6 @@ prerequisites:
 builds-toward:
 - human-robot-interaction
 - swarm-robotics
-- reactive-control-feedback
 tags:
 - behavior-based
 - reactive-control

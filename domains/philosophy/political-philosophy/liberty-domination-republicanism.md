@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: freedom-from-domination
   type: hard
-builds-toward:
-- republicanism-and-freedom
-- freedom-and-structure
 tags:
 - liberty
 - domination

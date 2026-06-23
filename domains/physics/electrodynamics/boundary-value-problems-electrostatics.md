@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wavefunctions-boundary-conditions
   type: soft
+- id: gauss-law-applications
+  type: soft
 builds-toward:
 - method-of-images
 - separation-variables-elliptic-equations

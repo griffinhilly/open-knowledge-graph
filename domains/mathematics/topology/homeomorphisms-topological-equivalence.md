@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: continuity-topological-spaces
   type: hard
+- id: continuous-functions-topology
+  type: hard
 builds-toward:
 - topological-invariants
 - classification-compact-surfaces

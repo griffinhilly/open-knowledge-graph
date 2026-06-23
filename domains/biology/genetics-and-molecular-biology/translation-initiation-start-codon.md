@@ -10,9 +10,10 @@ prerequisites:
   type: hard
 - id: genetic-code
   type: soft
+- id: genetic-code-reading-frame-wobble
+  type: soft
 builds-toward:
 - translation-elongation-and-termination
-- genetic-recombination-and-linkage-mapping
 tags:
 - start-codon
 - aug

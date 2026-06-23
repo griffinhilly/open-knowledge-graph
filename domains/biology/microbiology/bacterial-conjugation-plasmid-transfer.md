@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bacterial-pili-fimbriae-types
   type: soft
+- id: bacterial-plasmids-and-extrachromosomal-elements
+  type: hard
 builds-toward:
 - antibiotic-resistance-mutations-downregulation
 - horizontal-gene-transfer

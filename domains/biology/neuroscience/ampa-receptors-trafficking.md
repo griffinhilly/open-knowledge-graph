@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - spike-timing-dependent-plasticity
-- synaptic-strength-plasticity
 tags:
 - ampa
 - ampar

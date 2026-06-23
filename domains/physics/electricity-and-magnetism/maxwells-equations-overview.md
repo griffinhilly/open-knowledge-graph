@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: energy-stored-in-fields
   type: soft
+- id: induced-electric-field-non-conservative
+  type: soft
 builds-toward:
 - electromagnetic-waves
 tags:

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: synaptic-transmission
   type: soft
+- id: brain-and-nerves
+  type: soft
+- id: nervous-system-ls
+  type: soft
 builds-toward:
 - central-vs-peripheral-nervous-system
 - gut-motility-and-secretion

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: percent-increase-decrease
   type: soft
+- id: social-change-modernization
+  type: soft
 tags:
 - globalization
 - world-systems

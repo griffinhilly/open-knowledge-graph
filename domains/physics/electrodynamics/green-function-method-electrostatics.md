@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: spherical-harmonics-electrostatics
   type: soft
+- id: boundary-value-problem-types
+  type: soft
 builds-toward:
   - method-of-images
 tags:

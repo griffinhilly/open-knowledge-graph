@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: weak-convergence
   type: hard
+- id: weak-star-convergence
+  type: soft
 tags:
 - duality
 stage: expert

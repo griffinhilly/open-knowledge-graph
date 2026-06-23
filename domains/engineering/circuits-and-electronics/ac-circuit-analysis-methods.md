@@ -22,6 +22,8 @@ prerequisites:
   type: hard
 - id: complex-exponential-form
   type: soft
+- id: ac-source-representation-phasors
+  type: hard
 builds-toward:
 - ac-power-analysis-circuits
 - frequency-response-and-bode-plots

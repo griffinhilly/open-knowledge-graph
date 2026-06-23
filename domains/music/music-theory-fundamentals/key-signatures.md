@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: minor-scales
   type: soft
+- id: accidental-symbols-notation
+  type: hard
+- id: enharmonic-equivalence-basics
+  type: soft
+- id: relative-major-minor
+  type: soft
 builds-toward:
 - diatonic-harmony
 - modes

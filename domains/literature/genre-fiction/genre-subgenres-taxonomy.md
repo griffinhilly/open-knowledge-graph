@@ -6,6 +6,10 @@ course: genre-fiction
 prerequisites:
 - id: genre-analysis-and-meaning
   type: hard
+- id: genre-conventions-tropes-archetypes
+  type: soft
+- id: genre-fiction-defining-characteristics
+  type: hard
 builds-toward:
 - genre-conventions-tropes-archetypes
 - genre-blending-hybridity

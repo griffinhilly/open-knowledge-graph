@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - market-equilibrium
-- profit-maximization-microeconomics
 tags:
 - supply
 - firm

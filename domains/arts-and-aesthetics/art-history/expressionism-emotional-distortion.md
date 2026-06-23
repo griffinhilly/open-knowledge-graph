@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: emotion-in-aesthetic-judgment
   type: soft
+- id: rhythm-through-brushwork-and-gestural-mark
+  type: soft
 builds-toward:
 - abstract-expressionism-america
 - contemporary-art-and-postmodernism

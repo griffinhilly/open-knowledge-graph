@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: term-and-atom-fol
   type: hard
+- id: variable-binding-and-scope
+  type: hard
 builds-toward:
 - resolution-fol
 - natural-deduction-fol

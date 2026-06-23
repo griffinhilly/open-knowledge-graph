@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - experience-dependent-plasticity-learning
-- sensitive-periods-language
 tags:
 - synaptogenesis
 - critical-periods

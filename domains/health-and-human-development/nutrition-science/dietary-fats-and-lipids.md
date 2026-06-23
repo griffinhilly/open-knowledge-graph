@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: lipid-bilayer-and-amphipathic-molecules
   type: hard
+- id: macronutrients-carbs-protein-fat
+  type: soft
 builds-toward:
 - energy-metabolism-and-calories
 - obesity-and-metabolic-syndrome

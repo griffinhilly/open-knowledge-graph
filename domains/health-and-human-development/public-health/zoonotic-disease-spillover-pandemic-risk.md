@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - outbreak-transmission-models
-- emerging-infectious-disease-surveillance
 tags:
 - zoonotic-disease
 - spillover

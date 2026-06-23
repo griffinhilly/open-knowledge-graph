@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: character-foil-analysis
   type: soft
+- id: character-development-methods
+  type: soft
+- id: characterization-dialogue
+  type: soft
+- id: subtext-implicit-meaning-below
+  type: soft
 builds-toward:
 - dialogue-analysis-and-function
 tags:

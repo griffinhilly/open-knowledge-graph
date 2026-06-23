@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kinetic-energy
   type: soft
+- id: energy-flow-rate-intensity
+  type: soft
 builds-toward:
 - sound-intensity-and-decibels
 - youngs-double-slit

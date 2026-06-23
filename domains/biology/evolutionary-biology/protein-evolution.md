@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: transposable-elements
   type: soft
+- id: point-mutations-silent-missense-nonsense
+  type: hard
 builds-toward:
 - molecular-evolution-rates
 - positive-selection

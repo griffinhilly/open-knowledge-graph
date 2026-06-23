@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: cardiovascular-system-overview
   type: soft
-builds-toward:
-- shock-compensation-and-decompensation
-- multi-organ-failure
 tags:
 - shock
 - hypoperfusion

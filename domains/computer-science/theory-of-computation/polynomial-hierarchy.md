@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: reduction-many-one-polynomial
   type: soft
+- id: complexity-class-definitions-hierarchy
+  type: hard
 tags:
 - complexity-classes
 - quantified-formulas

@@ -6,8 +6,6 @@ course: multivariable-calculus
 prerequisites:
 - id: triple-integrals-cylindrical-spherical
   type: hard
-builds-toward:
-- surface-parametrization
 tags:
 - jacobian
 - change-of-variables

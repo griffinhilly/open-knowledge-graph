@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cardiovascular-system-overview
   type: soft
+- id: vascular-resistance-blood-flow-control
+  type: soft
 builds-toward:
 - venous-circulation-and-venous-return
 tags:

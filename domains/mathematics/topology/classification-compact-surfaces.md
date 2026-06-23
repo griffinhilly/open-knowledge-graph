@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: homeomorphisms-topological-equivalence
   type: hard
-builds-toward:
-- topological-manifolds-introduction
+- id: quotient-maps-and-identification
+  type: soft
+- id: topological-invariants
+  type: soft
 tags:
 - surface-classification
 - genus

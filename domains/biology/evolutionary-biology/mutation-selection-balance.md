@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: equilibrium-expression-kc-kp-constants
   type: soft
+- id: allele-frequency-change
+  type: hard
+- id: purifying-selection
+  type: hard
 builds-toward:
 - nearly-neutral-evolution
 - slightly-deleterious-mutations

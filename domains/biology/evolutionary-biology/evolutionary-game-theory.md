@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - evolutionary-stable-strategy
-- arms-race-coevolution
 tags:
 - game-theory
 - behavior

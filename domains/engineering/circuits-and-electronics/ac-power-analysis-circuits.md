@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: ac-power-and-resonance
   type: soft
+- id: impedance-admittance-networks
+  type: hard
+- id: phasor-algebra-complex-impedance
+  type: hard
 builds-toward:
 - resonance-circuits
 tags:

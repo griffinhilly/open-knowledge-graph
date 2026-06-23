@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: haitian-revolution
   type: soft
+- id: atlantic-racialized-slavery
+  type: soft
+- id: atlantic-slave-trade-economics
+  type: soft
 builds-toward:
 - civil-rights-movement
 - decolonization

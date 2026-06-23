@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: e2-elimination
   type: soft
+- id: leaving-groups-nucleofugality
+  type: hard
 builds-toward:
 - alcohols-and-ethers
 tags:

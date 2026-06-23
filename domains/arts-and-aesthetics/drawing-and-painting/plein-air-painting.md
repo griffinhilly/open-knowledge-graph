@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: oil-painting-basics
   type: soft
+- id: atmospheric-recession-in-landscape
+  type: soft
 tags:
 - plein air
 - landscape

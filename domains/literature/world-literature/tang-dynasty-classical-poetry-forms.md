@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: literary-analysis-overview
   type: hard
+- id: classical-chinese-poetry-aesthetics-tradition
+  type: soft
+- id: regulated-verse-lushi-form-compression
+  type: soft
 builds-toward:
 - modernism-international-movements
 tags:

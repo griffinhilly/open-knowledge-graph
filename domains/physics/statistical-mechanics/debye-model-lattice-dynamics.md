@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - einstein-model-solids
-- phase-transition-equilibrium
 tags:
 - debye-model
 - phonons

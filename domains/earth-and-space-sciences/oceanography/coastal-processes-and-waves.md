@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: wave-superposition
   type: soft
+- id: beaches-and-coastlines
+  type: soft
+- id: gravity-waves-wind-ocean-surface
+  type: soft
+- id: shallow-water-wave-theory
+  type: soft
 builds-toward:
 - coral-reef-ecosystems
 tags:

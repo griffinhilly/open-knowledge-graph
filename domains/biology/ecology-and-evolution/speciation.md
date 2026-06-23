@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: hardy-weinberg-equilibrium
   type: soft
+- id: microevolution-and-macroevolution
+  type: soft
+- id: natural-selection-types-and-examples
+  type: soft
 builds-toward:
 - phylogenetics-intro
 - biodiversity-metrics

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
+- id: eigenvalues-eigenstates-quantum
+  type: hard
 builds-toward:
 - hydrogen-atom-spectrum
 - fine-structure-splitting

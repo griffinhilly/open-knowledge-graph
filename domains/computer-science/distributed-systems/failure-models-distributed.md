@@ -6,6 +6,8 @@ course: distributed-systems
 prerequisites:
 - id: distributed-system-models
   type: hard
+- id: synchronous-asynchronous-systems
+  type: soft
 builds-toward:
 - byzantine-fault-tolerance
 - consensus-problem

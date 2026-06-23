@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: substitution-and-unification
   type: hard
+- id: deductive-reasoning-and-formal-proofs
+  type: soft
+- id: literals-and-clauses-cnf
+  type: hard
+- id: skolemization-and-equisatisfiability
+  type: hard
 builds-toward:
 - decidability-of-theories
 tags:

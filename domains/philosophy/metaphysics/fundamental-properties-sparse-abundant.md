@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: substance-and-property
   type: soft
+- id: grounding-fundamentality-hierarchy
+  type: soft
+- id: metaphysical-structure-and-architecture
+  type: soft
 builds-toward:
   - abstract-entities-platonism
 tags:

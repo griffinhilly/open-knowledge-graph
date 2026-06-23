@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: capacitor-inductor-energy-storage
   type: hard
+- id: inverting-amplifier-analysis
+  type: hard
 builds-toward:
 - first-order-active-filters
 tags:

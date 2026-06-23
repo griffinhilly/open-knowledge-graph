@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: formal-vs-natural-language-semantics
   type: soft
+- id: modal-semantics-possible-worlds
+  type: soft
 builds-toward:
 - anaphora-and-discourse-dynamics
 tags:

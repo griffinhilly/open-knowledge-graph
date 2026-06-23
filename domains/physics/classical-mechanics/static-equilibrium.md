@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: vectors-in-two-dimensions
   type: soft
+- id: balanced-and-unbalanced-forces
+  type: soft
+- id: equations-of-motion-from-free-body-diagrams
+  type: soft
+- id: normal-force-contact-forces
+  type: soft
 builds-toward:
 - rotational-dynamics
 tags:

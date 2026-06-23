@@ -8,6 +8,14 @@ prerequisites:
   type: soft
 - id: 3d-shape-properties-1st
   type: soft
+- id: circle-identification
+  type: soft
+- id: rectangle-identification
+  type: soft
+- id: square-identification
+  type: soft
+- id: triangle-identification
+  type: soft
 builds-toward:
 - composing-shapes
 - decomposing-shapes

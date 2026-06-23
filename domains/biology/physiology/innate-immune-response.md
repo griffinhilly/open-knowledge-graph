@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: blood-composition-and-function
   type: soft
+- id: immune-system-basics
+  type: soft
 builds-toward:
 - adaptive-immune-response
 - inflammation-and-wound-healing

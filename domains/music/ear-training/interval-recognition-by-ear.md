@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: melodic-contour-recognition
   type: soft
+- id: pitch-memory-short-term-retention
+  type: hard
 builds-toward:
 - interval-singing
 - chord-quality-by-ear

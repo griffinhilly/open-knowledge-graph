@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: prime-and-composite-numbers
   type: hard
+- id: mathematical-proof-strategies
+  type: soft
 builds-toward:
 - modular-arithmetic-discrete
 tags:

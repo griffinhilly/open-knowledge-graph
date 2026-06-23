@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: nucleophilic-aromatic-substitution
   type: soft
+- id: carboxylic-acid-derivatives-esters-amides-acyl-chlorides
+  type: hard
+- id: nomenclature-carbonyls-carboxylic-acids
+  type: soft
 builds-toward:
 - amines-structure-and-properties
 - enols-and-enolate-chemistry

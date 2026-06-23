@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: effective-population-size
   type: hard
+- id: purifying-selection
+  type: soft
 builds-toward:
 - nearly-neutral-evolution
 - evolvability

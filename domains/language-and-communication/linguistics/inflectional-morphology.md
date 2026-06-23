@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: morphological-structure
   type: hard
+- id: word-formation-rules
+  type: soft
 tags:
 - inflection
 - tense

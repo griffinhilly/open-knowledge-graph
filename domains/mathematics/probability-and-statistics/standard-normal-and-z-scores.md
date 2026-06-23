@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: normal-distribution
   type: hard
+- id: normal-distribution-theory
+  type: hard
 builds-toward:
 - confidence-intervals-means
 - hypothesis-testing-fundamentals

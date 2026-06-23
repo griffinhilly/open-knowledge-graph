@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: appositives
   type: soft
+- id: comma-splices-and-run-ons
+  type: soft
 builds-toward:
 - paragraph-structure
 tags:

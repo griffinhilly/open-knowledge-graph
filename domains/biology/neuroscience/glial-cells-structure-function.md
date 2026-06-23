@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - myelin-and-myelination
-- neuroinflammation-glial-activation
 tags:
 - glia
 - astrocytes

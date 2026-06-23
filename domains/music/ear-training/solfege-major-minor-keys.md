@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: major-minor-thirds-ear
   type: soft
+- id: scale-degree-ear-identification
+  type: soft
 builds-toward:
 - harmonic-function-root-movement-ear
 tags:

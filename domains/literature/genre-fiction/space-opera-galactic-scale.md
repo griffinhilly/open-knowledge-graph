@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: adventure-fiction-episodic
   type: soft
+- id: science-fiction-hard-soft
+  type: soft
 builds-toward:
 - science-fiction-hard-soft
 - first-contact-alien-other

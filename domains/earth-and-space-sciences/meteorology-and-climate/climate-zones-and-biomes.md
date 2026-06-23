@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: solar-radiation-and-earth-energy-balance
   type: hard
+- id: climate-vs-weather
+  type: soft
+- id: climate-zones
+  type: soft
+- id: seasons-around-the-world
+  type: soft
+- id: zonal-meridional-circulation
+  type: soft
 builds-toward:
 - ocean-atmosphere-interactions
 - climate-change-science

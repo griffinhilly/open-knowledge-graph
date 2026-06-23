@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - minor-scales
-- melodic-writing
 - jazz-harmony-basics
 tags:
 - scales

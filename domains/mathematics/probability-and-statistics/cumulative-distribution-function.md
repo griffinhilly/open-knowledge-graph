@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: probability-density-functions
   type: soft
-builds-toward:
-- quantile-functions
 tags:
 - cdf
 - probability

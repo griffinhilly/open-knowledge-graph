@@ -8,10 +8,6 @@ prerequisites:
   type: hard
 - id: long-term-potentiation
   type: hard
-builds-toward:
-- episodic-memory
-- navigation
-- cognitive-maps
 tags:
 - hippocampus
 - place-cells

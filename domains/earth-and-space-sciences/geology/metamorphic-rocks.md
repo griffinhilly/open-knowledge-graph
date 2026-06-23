@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: gibbs-free-energy-spontaneity
   type: soft
+- id: types-of-rocks
+  type: soft
 builds-toward:
 - rock-cycle
 - geologic-structures-folds-faults

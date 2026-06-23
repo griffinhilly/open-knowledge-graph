@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: indifference-curves
   type: soft
+- id: consumer-duality-and-expenditure-function
+  type: hard
 builds-toward:
 - welfare-analysis-advanced
 tags:

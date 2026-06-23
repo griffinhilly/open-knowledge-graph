@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: machine-epsilon
   type: soft
+- id: floating-point-representation-numerical-analysis
+  type: hard
 builds-toward:
 - catastrophic-cancellation
 - numerical-stability

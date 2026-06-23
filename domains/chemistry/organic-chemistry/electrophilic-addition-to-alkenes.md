@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: reaction-mechanisms-overview
   type: hard
+- id: iupac-nomenclature-alkenes
+  type: soft
+- id: nucleophile-electrophile-definitions
+  type: hard
 builds-toward:
 - aromatic-compounds-intro
 tags:

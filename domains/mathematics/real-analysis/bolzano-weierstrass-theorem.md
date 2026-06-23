@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: weierstrass-approximation-theorem
   type: soft
+- id: completeness-axiom
+  type: hard
 builds-toward:
 - compact-sets
 - heine-borel-theorem

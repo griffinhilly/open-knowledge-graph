@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: microbiology-scope-and-history
   type: soft
+- id: gram-staining-and-cell-wall-classification
+  type: soft
 tags:
 - culture
 - serology

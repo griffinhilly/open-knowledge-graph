@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: fourier-transform-definition-properties
   type: soft
+- id: sampling-theorem-nyquist-rate
+  type: soft
 builds-toward:
 - digital-signal-processing-fundamentals
 tags:

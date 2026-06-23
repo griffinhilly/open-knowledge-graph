@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ideal-fermi-gas-t-equals-zero
   type: hard
+- id: superfluidity-bosons
+  type: soft
 tags:
 - superconductivity
 - pairing

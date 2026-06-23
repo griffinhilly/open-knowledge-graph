@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: variable-binding-and-scope
   type: hard
+- id: well-formed-formulas-logic
+  type: soft
 builds-toward:
 - ground-terms-and-formulas
 - quantifier-instantiation-rules

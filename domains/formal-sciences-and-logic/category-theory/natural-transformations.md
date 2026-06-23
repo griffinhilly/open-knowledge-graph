@@ -16,6 +16,12 @@ prerequisites:
   type: soft
 - id: function-composition-and-inverses
   type: soft
+- id: commutative-diagrams-and-composition
+  type: hard
+- id: commutative-diagrams-in-categories
+  type: hard
+- id: functor-composition
+  type: soft
 builds-toward:
 - functor-categories
 - yoneda-lemma

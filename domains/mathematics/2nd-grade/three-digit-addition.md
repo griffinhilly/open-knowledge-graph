@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: three-digit-number-forms
   type: soft
+- id: addition-two-digit-regrouping-2nd
+  type: hard
+- id: place-value-100-to-1000
+  type: hard
+- id: place-value-hundreds-2nd
+  type: hard
 builds-toward:
 - three-digit-subtraction
 - multi-digit-addition

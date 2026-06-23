@@ -9,7 +9,6 @@ prerequisites:
 - id: spatial-awareness-depth-on-flat-surfaces
   type: soft
 builds-toward:
-- color-temperature
 - color-temperature-in-painting-and-design
 - color-temperature-spatial-perception-depth
 tags:

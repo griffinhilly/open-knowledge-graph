@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: scientific-revolution
   type: soft
+- id: factory-system-production
+  type: soft
+- id: industrial-mechanization-factories
+  type: soft
 builds-toward:
 - world-war-i-origins
 tags:

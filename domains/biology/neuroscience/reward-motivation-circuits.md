@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: basal-ganglia-motor-selection
   type: soft
-builds-toward:
-- reinforcement-learning
-- addiction-mechanisms
 tags:
 - reward
 - motivation

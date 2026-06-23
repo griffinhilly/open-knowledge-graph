@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: inflammation-and-wound-healing
   type: soft
+- id: complement-activation-pathways
+  type: soft
 builds-toward:
 - natural-killer-cells
 - hypersensitivity-reactions

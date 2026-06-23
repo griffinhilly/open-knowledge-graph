@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: lyric-essay
   type: soft
-builds-toward:
-- philosophical-essay
-- contemplative-writing
 tags:
 - meditation
 - reflection

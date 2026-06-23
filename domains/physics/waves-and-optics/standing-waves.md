@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: fourier-series-definition
   type: soft
+- id: linear-superposition-principle
+  type: hard
+- id: standing-waves-formation-mechanism
+  type: soft
 builds-toward:
 - resonance-strings-and-pipes
 tags:

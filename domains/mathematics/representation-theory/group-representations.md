@@ -14,7 +14,6 @@ builds-toward:
 - matrix-representations
 - equivalence-of-representations
 - reducibility-and-irreducibility
-- lie-algebra-representations-intro
 tags:
 - representation
 - group-homomorphism

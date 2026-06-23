@@ -12,9 +12,6 @@ prerequisites:
   type: hard
 - id: hypothalamus-pituitary-axis
   type: soft
-builds-toward:
-- stress-response-and-coping
-- depression-and-hpa-dysregulation
 tags:
 - stress
 - hormones

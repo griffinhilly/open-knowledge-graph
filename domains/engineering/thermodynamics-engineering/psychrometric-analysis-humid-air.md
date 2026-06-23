@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: gas-mixture-thermodynamics-daltons
   type: soft
+- id: phase-equilibrium-clausius-clapeyron-detailed
+  type: soft
 builds-toward:
 - humid-air-thermodynamic-properties
-- combustion-stoichiometry-energy-release
 tags:
 - psychrometrics
 - humid-air

@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: cardinality-and-countability
   type: soft
+- id: oracle-turing-machines-computability-and-complexity
+  type: soft
+- id: turing-degrees
+  type: soft
 tags:
 - computability
 - definability

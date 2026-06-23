@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: novel-form
   type: soft
+- id: science-fiction-speculation-extrapolation
+  type: soft
 tags:
 - dystopia
 - utopia

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: synaptic-transmission
   type: soft
-builds-toward:
-- extinction-learning
-- ptsd-mechanisms
 tags:
 - fear
 - conditioning

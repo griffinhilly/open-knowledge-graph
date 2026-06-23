@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: interval-quality
   type: hard
+- id: triad-construction-major-minor-diminished
+  type: hard
+- id: triad-quality-diminished-augmented
+  type: soft
 builds-toward:
 - seventh-chords
 - functional-harmony

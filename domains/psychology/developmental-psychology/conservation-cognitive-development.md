@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: piaget-concrete-operational
   type: soft
+- id: centration-and-decentration-cognitive
+  type: hard
 builds-toward:
 - theory-of-mind-false-beliefs
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: glucose-homeostasis-fed-fasted-metabolic-states
   type: hard
+- id: fatty-acid-oxidation-ketogenesis
+  type: hard
 tags:
 - ketones
 - ketosis

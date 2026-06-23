@@ -9,7 +9,6 @@ prerequisites:
 builds-toward:
 - representative-democracy-systems
 - voting-systems-and-mechanics
-- political-parties-organization
 tags:
 - legislature
 - parliament

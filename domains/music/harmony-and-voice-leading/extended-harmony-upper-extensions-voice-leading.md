@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
+- id: dominant-seventh-voice-leading-tritone
+  type: soft
 builds-toward:
 - jazz-voice-leading-chord-changes
 tags:

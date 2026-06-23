@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dijkstras-shortest-path-routing
   type: hard
+- id: routing-table-concepts
+  type: hard
 builds-toward:
 - ospf-open-shortest-path-first
 tags:

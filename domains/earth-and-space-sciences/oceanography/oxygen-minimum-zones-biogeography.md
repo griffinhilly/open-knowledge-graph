@@ -6,8 +6,6 @@ course: oceanography
 prerequisites:
 - id: dissolved-oxygen-biogeochemical-cycles
   type: hard
-builds-toward:
-- ocean-chemistry-and-nutrients
 tags:
 - oxygen-minimum-zones
 - anoxia

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dna-repair-mechanisms
   type: hard
+- id: dna-replication-mechanics-leading-lagging
+  type: hard
 builds-toward:
 - genetic-recombination-and-linkage-mapping
 tags:

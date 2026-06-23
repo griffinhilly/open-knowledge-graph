@@ -10,8 +10,8 @@ prerequisites:
   type: soft
 - id: ode-form
   type: soft
-builds-toward:
-- close-reading-poetry
+- id: poetic-repetition-and-refrain
+  type: soft
 tags:
 - argument
 - structure

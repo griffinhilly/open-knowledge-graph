@@ -12,8 +12,9 @@ prerequisites:
   type: soft
 - id: bass-line-writing-structural
   type: soft
+- id: harmonic-duration-between-chord-changes
+  type: soft
 builds-toward:
-- phrase-design-structural-units
 - cadential-motion-structural-function
 tags:
 - harmony

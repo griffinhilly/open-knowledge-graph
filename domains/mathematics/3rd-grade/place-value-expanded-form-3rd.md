@@ -6,8 +6,6 @@ course: 3rd-grade
 prerequisites:
 - id: place-value-three-digits-3rd
   type: hard
-builds-toward:
-- place-value
 tags:
 - place-value
 - expanded-form

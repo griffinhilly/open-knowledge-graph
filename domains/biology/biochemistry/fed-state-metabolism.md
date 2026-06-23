@@ -6,6 +6,10 @@ course: biochemistry
 prerequisites:
 - id: metabolic-hormones-and-gluconeogenesis
   type: hard
+- id: carbohydrate-homeostasis
+  type: soft
+- id: insulin-glucagon-glucose-homeostasis
+  type: soft
 tags:
 - fed-state
 - insulin

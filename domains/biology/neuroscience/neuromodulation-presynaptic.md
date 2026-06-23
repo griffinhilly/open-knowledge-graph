@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: gpcr-metabotropic-signaling
   type: soft
-builds-toward:
-- synaptic-computation
-- network-filtering
 tags:
 - neuromodulation
 - presynaptic

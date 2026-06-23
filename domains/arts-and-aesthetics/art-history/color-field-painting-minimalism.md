@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: color-and-composition
   type: soft
+- id: twentieth-century-geometric-abstraction-and-reduction
+  type: soft
 builds-toward:
 - contemporary-art-and-postmodernism
 tags:

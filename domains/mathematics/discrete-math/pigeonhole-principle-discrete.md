@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: graph-theory-intro
   type: soft
+- id: pigeonhole-principle-introduction
+  type: hard
 builds-toward:
 - graph-connectivity-components
 tags:

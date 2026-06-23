@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - sleep-architecture-consolidation
-- caffeine-and-adenosine-antagonism
 tags:
 - sleep
 - adenosine

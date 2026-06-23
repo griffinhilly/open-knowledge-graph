@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: electron-configuration
   type: soft
-builds-toward:
-- ion-formation
-- electronegativity
 tags:
 - ionization energy
 - periodic trends

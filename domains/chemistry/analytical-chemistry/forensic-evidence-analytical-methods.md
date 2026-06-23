@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: confirmatory-testing-identification-methods
   type: soft
+- id: hyphenated-analytical-techniques
+  type: soft
 builds-toward:
 - data-integrity-regulatory-compliance
 tags:

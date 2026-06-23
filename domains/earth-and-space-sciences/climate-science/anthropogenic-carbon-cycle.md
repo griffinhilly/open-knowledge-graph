@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: marine-biological-pump
   type: soft
+- id: ocean-carbonate-system
+  type: soft
 builds-toward:
 - climate-sensitivity-radiative-feedbacks
 - climate-change-science

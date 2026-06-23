@@ -20,9 +20,6 @@ prerequisites:
   type: soft
 - id: network-analysis-structural-positions
   type: soft
-builds-toward:
-- model-validation-social-simulation
-- complexity-social-systems
 tags:
 - simulation
 - computational

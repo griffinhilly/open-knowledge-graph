@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: timing-multiple-dishes-coordination
   type: soft
+- id: searing-and-developing-crust
+  type: hard
 builds-toward:
 - sauce-making-basics
 - sauteing-and-pan-cooking

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: surface-chemistry-and-catalysis
   type: hard
+- id: surface-chemistry-adsorption
+  type: hard
 builds-toward: []
 tags:
 - catalysis

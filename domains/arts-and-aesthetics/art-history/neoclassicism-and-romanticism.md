@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: dutch-golden-age-painting
   type: soft
+- id: classical-orders-architecture
+  type: soft
 builds-toward:
 - impressionism-and-post-impressionism
 - art-history-style-and-period

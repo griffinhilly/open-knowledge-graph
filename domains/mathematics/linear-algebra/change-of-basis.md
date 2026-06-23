@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: matrix-composition
   type: soft
+- id: linear-transformation-matrix-representation
+  type: hard
 builds-toward:
 - diagonalization
 tags:

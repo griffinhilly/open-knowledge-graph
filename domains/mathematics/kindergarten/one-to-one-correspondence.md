@@ -6,9 +6,10 @@ course: kindergarten
 prerequisites:
 - id: counting-to-five
   type: hard
+- id: counting-to-10
+  type: hard
 builds-toward:
 - comparing-quantities-more-less
-- addition-within-5-concrete
 tags:
 - correspondence
 - matching

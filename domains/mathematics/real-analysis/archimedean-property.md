@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: supremum-and-infimum
   type: hard
+- id: supremum-infimum
+  type: hard
 builds-toward:
 - density-of-rationals
 tags:

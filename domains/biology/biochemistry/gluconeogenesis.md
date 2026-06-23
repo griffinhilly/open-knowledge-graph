@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: pyruvate-oxidation
   type: soft
+- id: pyruvate-metabolic-hub
+  type: soft
 builds-toward:
 - metabolic-integration-hormonal-regulation
 tags:

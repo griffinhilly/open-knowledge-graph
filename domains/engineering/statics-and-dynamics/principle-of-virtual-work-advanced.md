@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: virtual-work-method
   type: soft
+- id: constraint-forces-and-reactions
+  type: soft
+- id: d-alembert-principle
+  type: soft
 builds-toward:
 - lagrangian-mechanics-overview
 tags:

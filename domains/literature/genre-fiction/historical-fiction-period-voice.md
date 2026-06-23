@@ -10,9 +10,10 @@ prerequisites:
   type: soft
 - id: dialogue-construction-stage
   type: soft
+- id: historical-fiction-research-invention
+  type: soft
 builds-toward:
 - historical-fiction-research-invention
-- stylistic-register-choice
 tags:
 - period-voice
 - dialogue

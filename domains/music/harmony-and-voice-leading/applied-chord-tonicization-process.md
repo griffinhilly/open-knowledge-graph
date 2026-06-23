@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: harmonic-function-basics
   type: hard
+- id: harmonic-function-and-progression
+  type: soft
 builds-toward:
 - voice-leading-structural-analysis-reduction
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: mhc-class-ii-presentation
   type: soft
+- id: dendritic-cells-and-professional-apcs
+  type: soft
 builds-toward:
 - cd8-cytotoxic-t-cells
 - cross-presentation-exogenous-antigens

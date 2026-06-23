@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: wavefunction-and-probability
   type: hard
+- id: quantum-superposition
+  type: hard
 builds-toward:
 - interpretations-quantum-mechanics
 tags:

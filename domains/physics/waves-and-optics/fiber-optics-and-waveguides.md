@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: refractive-index-material-property
   type: soft
+- id: critical-angle-derivation
+  type: hard
 tags:
 - fiber-optics
 - waveguide

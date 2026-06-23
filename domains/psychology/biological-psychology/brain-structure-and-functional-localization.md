@@ -6,6 +6,8 @@ course: biological-psychology
 prerequisites:
 - id: neuron-morphology-and-classification
   type: soft
+- id: central-peripheral-nervous-system-organization
+  type: hard
 builds-toward:
 - thalamus-structure-and-sensory-relay
 - limbic-structures-emotion-and-motivation

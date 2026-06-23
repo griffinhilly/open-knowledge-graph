@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: great-depression
   type: soft
+- id: fascism-ethno-state
+  type: soft
 builds-toward:
 - holocaust
 - cold-war-origins

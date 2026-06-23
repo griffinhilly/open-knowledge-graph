@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: environmental-sustainability-development
   type: soft
+- id: labor-markets-developing-economies
+  type: soft
 builds-toward:
 - inequality-kuznets-curve
 tags:

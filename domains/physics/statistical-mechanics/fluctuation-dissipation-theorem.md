@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: non-equilibrium-basics-statmech
   type: soft
+- id: correlation-functions-statmech
+  type: soft
+- id: linear-response-theory-statmech
+  type: hard
 builds-toward:
 - linear-response-theory
 tags:

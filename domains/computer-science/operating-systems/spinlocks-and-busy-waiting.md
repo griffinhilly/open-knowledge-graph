@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: barrier-synchronization-primitives
   type: soft
+- id: atomic-operations-and-compare-swap
+  type: soft
 builds-toward: []
 tags:
 - synchronization

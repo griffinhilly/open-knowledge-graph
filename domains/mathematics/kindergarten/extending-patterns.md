@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: abc-repeating-patterns
   type: soft
-builds-toward:
-- identifying-pattern-units
 tags:
 - patterns
 - sequencing

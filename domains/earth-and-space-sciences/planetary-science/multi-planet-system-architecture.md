@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: exoplanet-detection-methods
   type: soft
+- id: planetary-formation-core-accretion
+  type: soft
 builds-toward:
 - habitable-zone-boundaries-constraints
 tags:

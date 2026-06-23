@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: linguistic-relativity-sapir-whorf
   type: soft
+- id: proposition-and-semantic-content
+  type: soft
 builds-toward:
 - intensionality-and-opacity
 tags:

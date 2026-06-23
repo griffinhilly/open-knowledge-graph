@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: gesture-drawing
   type: soft
+- id: drawing-materials-selection-and-properties
+  type: soft
 builds-toward:
 - still-life-composition
 - figure-drawing-fundamentals

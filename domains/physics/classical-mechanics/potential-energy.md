@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: gradient-vector
   type: soft
+- id: elastic-potential-energy
+  type: soft
+- id: gravitational-potential-energy
+  type: soft
+- id: potential-energy-intro
+  type: soft
+- id: what-is-energy
+  type: soft
 builds-toward:
 - conservation-of-energy
 - spring-mass-system

@@ -6,6 +6,8 @@ course: geophysics
 prerequisites:
 - id: earths-magnetic-dipole-field-basics
   type: hard
+- id: electrical-conductivity-crustal
+  type: soft
 tags:
 - electromagnetic
 - magnetotelluric

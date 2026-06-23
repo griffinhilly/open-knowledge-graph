@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: cadential-six-four-harmonic-function
   type: soft
-builds-toward:
-- voice-leading-in-composition
 tags:
 - analysis
 - transcription

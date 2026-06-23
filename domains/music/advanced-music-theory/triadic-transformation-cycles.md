@@ -14,8 +14,9 @@ prerequisites:
   type: soft
 - id: cyclic-groups
   type: soft
+- id: tonnetz-navigation-voice-leading
+  type: hard
 builds-toward:
-- neo-riemannian-voice-leading-graphs
 - formal-analysis-deformation
 tags:
 - neo-riemannian-theory

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: multiple-regression-model
   type: soft
-builds-toward:
-- generalized-least-squares
 tags:
 - multicollinearity
 - diagnostics

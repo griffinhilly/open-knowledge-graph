@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: liquidity-and-asset-liquidity-spectrum
   type: soft
+- id: bond-investing-basics
+  type: soft
 builds-toward:
 - passive-investing-and-index-funds
 - portfolio-rebalancing-and-maintenance

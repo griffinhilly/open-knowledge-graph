@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: fisher-information
   type: hard
+- id: cramer-rao-lower-bound
+  type: soft
 builds-toward:
 - umvue
 - confidence-intervals-rigorous-theory

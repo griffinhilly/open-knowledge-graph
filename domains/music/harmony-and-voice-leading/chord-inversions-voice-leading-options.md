@@ -11,7 +11,6 @@ prerequisites:
 - id: bass-line-writing-harmonic-function
   type: soft
 builds-toward:
-- voice-leading-smooth-conjunct-motion
 - diatonic-progression-voice-leading-patterns
 tags:
 - inversions

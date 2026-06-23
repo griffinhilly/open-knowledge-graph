@@ -11,7 +11,6 @@ prerequisites:
 
 builds-toward:
 - digital-economy-history
-- environmental-globalization-impacts
 tags:
 - history
 - Economic Social History

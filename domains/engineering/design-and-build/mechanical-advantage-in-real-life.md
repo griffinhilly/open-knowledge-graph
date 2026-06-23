@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: pulleys-in-action
   type: soft
-builds-toward:
-- introduction-to-statics-and-dynamics
 tags:
 - mechanical-advantage
 - simple-machines

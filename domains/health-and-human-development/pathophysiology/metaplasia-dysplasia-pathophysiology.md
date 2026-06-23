@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - carcinogenesis-multistep
-- metaplasia-dysplasia-malignant-progression
 tags:
 - metaplasia
 - dysplasia

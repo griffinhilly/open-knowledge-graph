@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: major-minor-tonality-identification
   type: soft
+- id: harmonic-progression-voice-leading
+  type: soft
 tags:
 - harmony
 - borrowed-chords

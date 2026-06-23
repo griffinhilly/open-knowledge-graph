@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: toddler-social-emotional-development
   type: soft
+- id: preschool-social-cognitive-development
+  type: soft
+- id: theory-of-mind-development
+  type: soft
 builds-toward:
   - school-age-cognitive-and-social-development
 tags:

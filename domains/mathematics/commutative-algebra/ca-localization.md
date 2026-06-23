@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: ring-homomorphisms
   type: hard
+- id: ca-prime-and-maximal-ideals
+  type: soft
 builds-toward:
 - ca-local-rings
-- ca-discrete-valuation-rings
 tags:
 - localization
 - multiplicative-set

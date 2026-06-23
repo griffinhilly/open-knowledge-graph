@@ -9,7 +9,6 @@ prerequisites:
 - id: subtraction-within-20
   type: hard
 builds-toward:
-- subtraction-fact-families
 - addition-subtraction-word-problems
 tags:
 - relationships

@@ -6,6 +6,8 @@ course: genetics-and-molecular-biology
 prerequisites:
 - id: dna-repair-mechanisms
   type: hard
+- id: chemical-mutagenesis-mutagens
+  type: soft
 builds-toward:
 - mismatch-repair-mlh-msh
 tags:

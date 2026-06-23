@@ -6,6 +6,8 @@ course: genetics-and-molecular-biology
 prerequisites:
 - id: mendelian-genetics
   type: hard
+- id: dominant-and-recessive-traits-intro
+  type: hard
 builds-toward:
 - non-mendelian-inheritance
 - dihybrid-crosses

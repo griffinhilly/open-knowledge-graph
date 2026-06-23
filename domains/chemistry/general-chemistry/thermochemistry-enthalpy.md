@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: conservation-of-energy
   type: hard
+- id: energy-in-chemical-reactions
+  type: soft
 builds-toward:
 - entropy-and-gibbs-free-energy
 - chemical-equilibrium

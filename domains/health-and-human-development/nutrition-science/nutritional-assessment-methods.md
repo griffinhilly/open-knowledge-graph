@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: energy-balance-and-body-composition
   type: soft
+- id: nutrient-requirements-recommendations-rda-ai
+  type: soft
 builds-toward:
 - malnutrition-and-undernutrition
 - obesity-and-metabolic-syndrome

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: stokes-theorem-applications
   type: soft
+- id: space-curves
+  type: soft
 builds-toward:
 - applications-multivariable
 tags:

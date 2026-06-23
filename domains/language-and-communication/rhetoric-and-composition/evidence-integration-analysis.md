@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: research-and-citation
   type: soft
+- id: source-integration-strategies
+  type: soft
 builds-toward:
 - synthesizing-multiple-sources
 - academic-writing-conventions

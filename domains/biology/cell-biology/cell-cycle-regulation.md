@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cell-signaling-intro
   type: soft
+- id: proteasomal-degradation-ubiquitin-marking
+  type: soft
 builds-toward:
 - mitosis
 tags:

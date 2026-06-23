@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mark-making-fundamentals
   type: hard
+- id: rhythm-pacing-and-visual-flow
+  type: soft
 builds-toward:
 - expressionism-emotional-distortion
 tags:

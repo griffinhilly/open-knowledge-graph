@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - figure-ground-and-visual-separation
-- color-psychology-and-association
 tags:
 - depth
 - spatial-illusion

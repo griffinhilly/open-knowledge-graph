@@ -6,6 +6,10 @@ course: methods-of-proof
 prerequisites:
 - id: conditional-implication-statements
   type: hard
+- id: converse-inverse-contrapositive-intro
+  type: hard
+- id: logical-equivalence
+  type: soft
 builds-toward:
 - proving-by-contrapositive
 - modus-ponens-and-modus-tollens

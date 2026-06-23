@@ -12,9 +12,6 @@ prerequisites:
   type: soft
 - id: protein-denaturation-and-renaturation
   type: soft
-builds-toward:
-- alzheimers-disease-pathology
-- parkinsons-disease-pathology
 tags:
 - aggregation
 - amyloid

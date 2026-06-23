@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: subitizing
   type: soft
+- id: combining-sets-pre-addition
+  type: hard
 builds-toward:
 - subtraction-within-10
 - addition-within-20

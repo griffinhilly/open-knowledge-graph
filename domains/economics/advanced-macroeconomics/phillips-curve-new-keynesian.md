@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: phillips-curve
   type: hard
+- id: inflation-expectations-formation
+  type: hard
+- id: output-gap-and-potential-output
+  type: hard
 builds-toward:
 - dsge-models
 - monetary-policy-transmission

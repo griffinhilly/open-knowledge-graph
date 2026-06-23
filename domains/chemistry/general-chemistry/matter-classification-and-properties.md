@@ -3,7 +3,13 @@ id: matter-classification-and-properties
 title: 'Classification of Matter: Elements, Compounds, and Mixtures'
 domain: chemistry
 course: general-chemistry
-prerequisites: []
+prerequisites:
+- id: elements-vs-compounds
+  type: soft
+- id: observing-and-describing-matter
+  type: soft
+- id: pure-substances-and-mixtures
+  type: soft
 builds-toward:
 - atomic-structure-and-atoms
 - chemical-equations-and-balancing

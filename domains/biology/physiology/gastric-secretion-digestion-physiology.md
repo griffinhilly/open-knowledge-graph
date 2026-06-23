@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - gastrointestinal-secretion-motility
-- nutrient-digestion-absorption
 tags:
 - gastric
 - secretion

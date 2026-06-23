@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: cultural-transmission-intergenerational
   type: soft
+- id: cultural-evolution-theory
+  type: soft
+- id: culture-holistic-systems-approach
+  type: soft
+- id: synchronic-diachronic-perspectives
+  type: soft
 builds-toward:
 - globalization-and-society
 - colonialism-geographic-legacy

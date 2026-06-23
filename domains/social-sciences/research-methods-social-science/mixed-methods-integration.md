@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
+- id: research-design-advanced
+  type: soft
 tags:
 - mixed-methods
 - integration

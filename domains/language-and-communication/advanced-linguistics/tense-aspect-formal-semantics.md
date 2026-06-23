@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: progressive-and-perfect-aspects
   type: hard
+- id: aktionsart-lexical-aspect
+  type: soft
 tags:
 - semantics
 - tense

@@ -6,6 +6,8 @@ course: control-systems
 prerequisites:
 - id: feedback-control-fundamentals
   type: hard
+- id: control-systems-intro-engineering
+  type: soft
 builds-toward:
 - error-signal-feedback-configuration
 - gain-phase-margins-stability-robustness

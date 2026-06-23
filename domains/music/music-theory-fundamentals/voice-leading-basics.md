@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: triad-construction-major-minor
   type: hard
+- id: interval-counting-and-naming
+  type: soft
 builds-toward:
 - voice-leading-principles
 - four-part-writing

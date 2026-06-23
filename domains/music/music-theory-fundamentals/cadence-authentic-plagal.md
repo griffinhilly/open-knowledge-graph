@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: cadences
   type: soft
+- id: basic-chord-progressions
+  type: soft
 builds-toward:
 - cadences
-- form-analysis
 tags:
 - cadences
 - authentic

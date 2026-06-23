@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: value-and-tone
   type: hard
+- id: burnishing-and-layering-graphite
+  type: soft
 tags:
 - portrait
 - skin

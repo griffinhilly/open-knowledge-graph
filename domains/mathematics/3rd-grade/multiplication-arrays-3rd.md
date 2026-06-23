@@ -9,7 +9,6 @@ prerequisites:
 - id: multiplication-strategies-arrays-3rd
   type: soft
 builds-toward:
-- multiplication-commutative-property
 - area-of-rectangles
 tags:
 - multiplication

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: world-building
   type: soft
+- id: fantastic-and-magical-modes
+  type: soft
 builds-toward:
 - magical-realism
 tags:

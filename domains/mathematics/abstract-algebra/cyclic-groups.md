@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: subgroups-subgroup-test
   type: hard
+- id: subgroups-and-subgroup-test
+  type: soft
 builds-toward:
 - order-group-element
 - classification-finite-abelian-groups

@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: economic-anthropology
   type: soft
+- id: descent-systems-unilineal
+  type: soft
+- id: reciprocity-gift-economy
+  type: soft
+- id: subsistence-modes-adaptation
+  type: soft
 builds-toward:
 - globalization-cultural-change
 tags:

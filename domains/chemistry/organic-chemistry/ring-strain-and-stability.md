@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conformational-analysis-alkanes
   type: soft
+- id: newman-projections-eclipsing
+  type: soft
 builds-toward:
 - chair-cyclohexane-conformations
 tags:

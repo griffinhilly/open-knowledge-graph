@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: line-plots-with-measurement-3rd
   type: soft
-builds-toward:
-- data-analysis-and-interpretation
 tags:
 - graphs
 - pictographs

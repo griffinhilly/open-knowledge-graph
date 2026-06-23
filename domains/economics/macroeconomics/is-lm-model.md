@@ -20,6 +20,12 @@ prerequisites:
   type: soft
 - id: systems-of-linear-equations
   type: hard
+- id: demand-for-money-keynes
+  type: hard
+- id: investment-demand-interest-sensitivity
+  type: hard
+- id: liquidity-preference-theory-keynes
+  type: hard
 builds-toward:
 - open-economy-macroeconomics
 tags:

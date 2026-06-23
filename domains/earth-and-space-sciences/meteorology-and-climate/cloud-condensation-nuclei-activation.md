@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - bergeron-process-ice-precipitation
-- cloud-microphysics-initiation
 tags:
 - microphysics
 - nucleation

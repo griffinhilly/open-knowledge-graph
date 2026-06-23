@@ -7,7 +7,6 @@ prerequisites:
 - id: chemical-equilibrium
   type: hard
 builds-toward:
-- reaction-quotient
 - solubility-equilibria
 tags:
 - equilibrium shift

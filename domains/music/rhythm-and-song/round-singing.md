@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: call-and-response
   type: soft
+- id: simple-songs-and-singing
+  type: soft
 builds-toward:
 - singing-in-harmony
 - musical-form-verse-and-chorus

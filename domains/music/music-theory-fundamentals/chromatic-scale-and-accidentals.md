@@ -6,9 +6,6 @@ course: music-theory-fundamentals
 prerequisites:
 - id: whole-step-half-step-fundamentals
   type: hard
-builds-toward:
-- chromatic-borrowed-chords-basics
-- modulation-pivot-chord-basics
 tags:
 - scales
 - chromatic

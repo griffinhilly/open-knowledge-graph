@@ -8,8 +8,9 @@ prerequisites:
   type: hard
 - id: adaptation-and-fitness
   type: hard
+- id: selection-coefficient
+  type: soft
 builds-toward:
-- directional-selection
 - balancing-selection
 tags:
 - selection

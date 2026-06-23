@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: sorting-by-attributes
   type: soft
-builds-toward:
-- community-ecology-intro
 tags:
 - animals
 - classification

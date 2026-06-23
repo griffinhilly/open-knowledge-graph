@@ -9,7 +9,6 @@ prerequisites:
 - id: cross-product
   type: hard
 builds-toward:
-- surface-integrals-vector
 - stokes-theorem
 tags:
 - surface-integral

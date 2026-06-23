@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: electric-field
   type: soft
-builds-toward:
-- modern-physics
 tags:
 - cyclotron
 - velocity selector

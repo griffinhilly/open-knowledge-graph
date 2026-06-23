@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: partial-fractions
   type: hard
-builds-toward:
-- laplace-transform-of-derivatives
 tags:
 - inverse-transform
 - partial-fractions

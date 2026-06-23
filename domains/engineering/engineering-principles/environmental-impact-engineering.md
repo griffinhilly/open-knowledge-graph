@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: constraints-and-tradeoffs
   type: soft
-builds-toward:
-- engineering-failures-and-lessons
 tags:
 - environment
 - sustainability

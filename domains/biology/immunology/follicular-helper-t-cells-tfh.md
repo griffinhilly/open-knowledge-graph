@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: b-cell-activation-germinal-center
   type: hard
+- id: dendritic-cells-and-professional-apcs
+  type: soft
 builds-toward:
 - memory-b-cells-and-long-lived-antibody-response
 - germinal-center-reactions

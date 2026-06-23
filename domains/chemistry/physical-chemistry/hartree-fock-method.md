@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: linear-transformations
   type: soft
+- id: variational-method-ground-state
+  type: hard
 builds-toward:
 - density-functional-theory-intro
 tags:

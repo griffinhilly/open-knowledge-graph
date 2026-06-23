@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: roman-numeral-analysis
   type: soft
+- id: seventh-chord-types-and-qualities
+  type: hard
 builds-toward:
 - secondary-dominants
 - four-part-writing

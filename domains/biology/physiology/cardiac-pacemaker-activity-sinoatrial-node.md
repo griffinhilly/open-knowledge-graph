@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cardiac-cycle-and-heart-function
   type: hard
+- id: cardiac-electrophysiology-action-potentials
+  type: hard
 builds-toward:
 - atrioventricular-conduction-delay
 - heart-rate-control-autonomic-modulation

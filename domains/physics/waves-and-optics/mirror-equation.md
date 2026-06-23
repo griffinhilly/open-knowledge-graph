@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: spherical-mirrors
   type: hard
+- id: geometric-optics-ray-approximation
+  type: soft
 builds-toward:
 - optical-instruments
 tags:

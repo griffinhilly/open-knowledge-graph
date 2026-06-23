@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: reproducibility-in-epidemiology
   type: soft
+- id: causal-inference-in-epidemiology
+  type: soft
 builds-toward:
 - mendelian-randomization
 tags:

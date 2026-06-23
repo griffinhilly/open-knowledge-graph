@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: comparing-two-digit-numbers-2nd-grade
   type: soft
+- id: place-value-100-to-1000
+  type: hard
 builds-toward:
 - estimation-and-rounding-2nd
 tags:

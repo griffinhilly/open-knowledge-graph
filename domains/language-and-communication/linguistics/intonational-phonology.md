@@ -6,6 +6,8 @@ course: linguistics
 prerequisites:
 - id: suprasegmental-phonology
   type: hard
+- id: stress-assignment-rules
+  type: soft
 builds-toward:
 - computational-pragmatics
 tags:

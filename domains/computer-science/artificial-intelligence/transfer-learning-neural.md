@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: gradient-descent-optimization
   type: soft
+- id: representation-learning
+  type: soft
 builds-toward:
 - fine-tuning-pretrained-models
 tags:

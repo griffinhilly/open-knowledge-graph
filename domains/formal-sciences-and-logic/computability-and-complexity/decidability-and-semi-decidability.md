@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: halting-problem-formal
   type: hard
+- id: partial-vs-total-recursive-functions
+  type: soft
 builds-toward:
 - re-and-co-re-languages
 - reducibility-many-one-formal

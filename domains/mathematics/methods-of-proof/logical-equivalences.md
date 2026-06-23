@@ -6,6 +6,12 @@ course: methods-of-proof
 prerequisites:
 - id: truth-tables
   type: hard
+- id: conditional-and-biconditional
+  type: soft
+- id: logical-equivalence-intro
+  type: hard
+- id: propositional-logic-basics
+  type: hard
 builds-toward:
 - de-morgans-laws
 - proof-structure-and-terminology

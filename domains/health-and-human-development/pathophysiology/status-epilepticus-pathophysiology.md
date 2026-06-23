@@ -9,9 +9,6 @@ prerequisites:
   type: hard
 - id: gaba-systems
   type: hard
-builds-toward:
-- neurotoxicity-excitotoxicity-pathophysiology
-- traumatic-brain-injury-secondary-damage
 tags:
 - status-epilepticus
 - excitotoxicity

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: glycogen-metabolism
   type: hard
+- id: glycogen-synthesis-and-degradation
+  type: soft
 builds-toward:
 - fed-state-metabolism
 - fasted-state-metabolism

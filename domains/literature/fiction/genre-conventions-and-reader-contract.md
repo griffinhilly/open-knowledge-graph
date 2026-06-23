@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-analysis-overview
   type: soft
+- id: genre-fiction-defining-characteristics
+  type: soft
 builds-toward:
 - genre-hybrid-and-cross-genre-fiction
 - genre-parody-metafiction-self-awareness

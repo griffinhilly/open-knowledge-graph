@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: population-genetics-intro
   type: soft
+- id: nearly-neutral-evolution
+  type: hard
 builds-toward:
   - efficacy-selection-finite-populations
 tags:

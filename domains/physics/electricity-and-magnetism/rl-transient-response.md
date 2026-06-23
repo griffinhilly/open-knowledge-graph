@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: self-inductance
   type: hard
+- id: rc-transient-response
+  type: soft
 builds-toward:
 - ac-impedance
 tags:

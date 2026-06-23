@@ -9,7 +9,6 @@ prerequisites:
 - id: pressure-systems-and-winds
   type: hard
 builds-toward:
-- geostrophic-balance-deviation
 - baroclinic-instability
 tags:
 - scaling

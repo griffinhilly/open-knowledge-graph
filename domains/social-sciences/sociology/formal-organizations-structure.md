@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: secondary-groups-formal-organizations
   type: soft
-builds-toward:
-- organizational-culture-subculture
 tags:
 - organizations
 - structure

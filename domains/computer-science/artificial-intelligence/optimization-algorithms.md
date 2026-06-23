@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: genetic-algorithms
   type: soft
+- id: loss-functions
+  type: hard
 builds-toward:
 - backpropagation
 - hyperparameter-optimization

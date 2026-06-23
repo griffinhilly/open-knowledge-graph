@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: bone-remodeling-and-homeostasis
   type: soft
+- id: nutrient-requirements-recommendations-rda-ai
+  type: soft
 tags:
 - lifespan nutrition
 - pregnancy

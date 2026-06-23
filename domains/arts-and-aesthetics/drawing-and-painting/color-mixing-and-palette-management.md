@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: color-palette-mixing
   type: soft
+- id: value-scale-and-tonal-range
+  type: soft
 builds-toward:
 - watercolor-wet-techniques-and-transparency
 - oil-and-acrylic-painting-fundamentals

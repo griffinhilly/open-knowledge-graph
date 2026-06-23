@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equipotential-surfaces
   type: hard
+- id: static-electricity-and-charge-transfer
+  type: soft
 builds-toward:
 - capacitance
 - parallel-plate-capacitor-formula

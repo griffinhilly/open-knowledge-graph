@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multilayer-perceptrons
   type: hard
+- id: activation-functions
+  type: hard
 builds-toward:
 - batch-normalization
 - lstm-gated-networks

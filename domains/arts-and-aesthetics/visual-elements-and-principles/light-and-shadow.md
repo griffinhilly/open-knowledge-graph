@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: shape-and-form
   type: hard
+- id: value-perception-lights-and-darks
+  type: soft
 builds-toward:
 - atmospheric-perspective
 - emphasis-and-focal-point

@@ -6,6 +6,8 @@ course: computer-networking
 prerequisites:
 - id: mac-addressing
   type: hard
+- id: network-topologies
+  type: soft
 builds-toward:
 - vlans-virtual-area-networks
 - spanning-tree-protocol-stp

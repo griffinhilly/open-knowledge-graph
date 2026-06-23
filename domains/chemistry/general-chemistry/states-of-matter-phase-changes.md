@@ -6,6 +6,14 @@ course: general-chemistry
 prerequisites:
 - id: intermolecular-forces
   type: hard
+- id: boiling-and-condensation
+  type: soft
+- id: energy-in-phase-changes
+  type: soft
+- id: melting-and-freezing
+  type: soft
+- id: solids-liquids-gases
+  type: soft
 builds-toward:
 - gas-laws-ideal-gas
 - thermochemistry-heat-and-energy

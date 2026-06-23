@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: inter-process-communication
   type: soft
-builds-toward:
-- file-descriptor-tables-and-redirection
 tags:
 - shell
 - execution

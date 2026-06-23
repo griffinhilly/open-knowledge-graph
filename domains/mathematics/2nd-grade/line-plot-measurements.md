@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: line-plots-3rd
   type: soft
+- id: measuring-length-with-ruler-2nd-grade
+  type: hard
 builds-toward:
 - data-and-graphs-intro
 - mean-median-mode

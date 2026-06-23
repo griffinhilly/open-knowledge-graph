@@ -6,8 +6,6 @@ course: 3rd-grade
 prerequisites:
 - id: bar-graphs-3rd
   type: hard
-builds-toward:
-- data-representation-analysis
 tags:
 - bar-graphs
 - data

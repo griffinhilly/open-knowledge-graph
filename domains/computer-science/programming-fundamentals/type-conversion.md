@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: operators-and-expressions
   type: hard
+- id: arithmetic-operators
+  type: soft
+- id: numeric-types
+  type: hard
+- id: type-system-basics
+  type: soft
 builds-toward:
 - string-operations
 - input-output

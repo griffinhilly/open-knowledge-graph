@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: pressure-systems-and-winds
   type: soft
+- id: moisture-transport-and-advection
+  type: soft
+- id: surface-energy-budget-fluxes
+  type: soft
+- id: zonal-meridional-circulation
+  type: soft
 builds-toward:
 - regional-climate-downscaling
 - climate-models-and-projections

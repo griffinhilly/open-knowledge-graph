@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gain-and-phase-margins
   type: hard
+- id: open-loop-vs-closed-loop-fundamentals
+  type: soft
 builds-toward:
 - model-uncertainty-robust-stability
 - lead-lag-compensation-design

@@ -4,7 +4,7 @@ title: 'African Oral Literature and the Griot Tradition: Preservation and Perfor
 domain: literature
 course: world-literature
 prerequisites:
-- id: mythology-folklore-oral-traditions
+- id: folklore-definition-traditions
   type: hard
 builds-toward:
 - west-african-griot-tradition-oral

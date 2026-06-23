@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - voice-leading-smooth-motion-and-errors
-- harmonic-analysis-roman-numerals-basics
 tags:
 - harmony
 - seventh-chords

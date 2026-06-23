@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - gothic-romance-desire-danger
-- setting-as-character-active
 tags:
 - haunted-house
 - gothic

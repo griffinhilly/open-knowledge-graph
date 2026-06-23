@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - gaussian-elimination
 - rank-nullity-theorem
-- linear-systems-consistency
 tags:
 - systems
 - Ax=b

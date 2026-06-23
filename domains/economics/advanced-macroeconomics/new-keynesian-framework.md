@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: optimization-multivariable-basics
   type: soft
+- id: euler-equation-consumption
+  type: hard
+- id: technology-shocks-rbc
+  type: soft
 builds-toward:
 - calvo-pricing-sticky-prices
 - phillips-curve-new-keynesian

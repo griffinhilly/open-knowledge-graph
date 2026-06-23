@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: telescopes-and-observing-methods
   type: soft
+- id: photometric-magnitude-systems
+  type: soft
 builds-toward:
 - hertzsprung-russell-diagram
 - nebulae-and-star-formation

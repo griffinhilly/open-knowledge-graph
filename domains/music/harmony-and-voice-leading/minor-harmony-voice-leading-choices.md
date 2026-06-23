@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - diatonic-progression-voice-leading-patterns
-- voice-leading-in-composition
 tags:
 - minor-tonality
 - harmonic-minor

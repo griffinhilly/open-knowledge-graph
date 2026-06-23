@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - radiation-directivity-and-pattern
-- radiation-angular-distribution-em
 tags:
 - far-field
 - radiation-zone

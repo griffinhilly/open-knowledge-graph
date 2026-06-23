@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: cognitive-dissonance
   type: soft
-builds-toward:
-- debiasing-interventions-limitations
 tags:
 - belief updating
 - backfire effect

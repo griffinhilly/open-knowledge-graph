@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modal-logic-intro
   type: soft
+- id: modal-semantics-possible-worlds
+  type: hard
 builds-toward:
 - temporal-semantics-and-tense
 tags:

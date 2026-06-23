@@ -10,9 +10,6 @@ prerequisites:
   type: soft
 - id: gabaergic-inhibition
   type: soft
-builds-toward:
-- seizure-control
-- network-synchronization
 tags:
 - seizure
 - epilepsy

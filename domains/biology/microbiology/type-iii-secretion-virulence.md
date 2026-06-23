@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: bacterial-virulence-and-disease-mechanisms
   type: soft
+- id: gram-negative-outer-membrane
+  type: soft
 tags:
 - secretion-system
 - virulence

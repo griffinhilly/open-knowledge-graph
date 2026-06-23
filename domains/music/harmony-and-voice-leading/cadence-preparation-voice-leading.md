@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - phrase-rhythm-voice-leading-connection
-- voice-leading-in-composition
 tags:
 - cadences
 - voice-leading

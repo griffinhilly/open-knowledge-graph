@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: saturated-models-and-realization
   type: soft
+- id: amalgamation-property-extension
+  type: soft
+- id: automorphism-groups-of-models
+  type: soft
+- id: back-and-forth-method-variants
+  type: soft
+- id: extensions-back-and-forth-lemma
+  type: soft
 builds-toward:
 - monster-models-and-universal
 - strongly-minimal-and-geometry

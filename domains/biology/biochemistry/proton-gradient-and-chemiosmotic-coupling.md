@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: acid-base-chemistry
   type: soft
-builds-toward:
-- atp-synthase-mechanism-integration
 tags:
 - proton-motive-force
 - chemiosmosis

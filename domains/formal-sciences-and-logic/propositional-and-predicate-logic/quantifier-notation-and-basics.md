@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: set-membership-and-notation
   type: soft
+- id: all-some-none
+  type: soft
+- id: universal-and-existential-statements
+  type: hard
 builds-toward:
 - universal-quantifier-semantics
 - existential-quantifier-semantics

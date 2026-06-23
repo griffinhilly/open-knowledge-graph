@@ -9,7 +9,6 @@ prerequisites:
 - id: measurement-comparison-weight
   type: soft
 builds-toward:
-- weight-or-mass-measurement
 - measurement-conversions-metric
 tags:
 - measurement

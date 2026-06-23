@@ -9,7 +9,6 @@ prerequisites:
 - id: reproductive-isolation
   type: soft
 builds-toward:
-- niche-concept-fundamental-realized
 - adaptive-radiation-patterns
 tags:
 - character-displacement

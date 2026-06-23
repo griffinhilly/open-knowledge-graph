@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: marginal-rate-technical-substitution
   type: hard
+- id: marginal-product-diminishing-returns
+  type: hard
 builds-toward:
 - factor-demand-input-cost
 - cost-minimization-and-factor-demand

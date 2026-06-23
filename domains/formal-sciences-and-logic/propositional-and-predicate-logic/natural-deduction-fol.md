@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: first-order-semantics
   type: soft
+- id: substitution-and-unification
+  type: hard
 builds-toward:
 - fol-soundness-completeness
 tags:

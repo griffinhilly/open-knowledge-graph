@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: narrator-reliability-basics
   type: soft
-builds-toward:
-- memoir-truth
-- subjective-nonfiction
 tags:
 - unreliable-narrator
 - perspective

@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: counter-current-multiplier-medulla
   type: hard
-builds-toward:
-- fluid-electrolyte-balance-regulation
-- blood-pressure-volume-homeostasis
+- id: kidney-tubular-processing-urine
+  type: soft
 tags:
 - osmolarity
 - vasopressin

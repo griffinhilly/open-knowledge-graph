@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: isentropic-nozzle-flow-choked-conditions
   type: soft
+- id: stagnation-pressure-and-total-head
+  type: hard
+- id: static-pressure-and-temperature-relations
+  type: hard
 tags:
 - heat-transfer
 - constant-area

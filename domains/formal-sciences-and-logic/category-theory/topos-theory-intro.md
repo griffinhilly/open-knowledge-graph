@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
+- id: hom-functors-and-representability
+  type: soft
+- id: left-right-adjoints
+  type: soft
+- id: reflective-subcategories
+  type: soft
 tags:
 - topos
 - elementary topos

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: muscular-system-anatomy
   type: soft
+- id: neonatal-adaptation-and-physiological-transition
+  type: soft
 builds-toward:
 - toddler-social-emotional-development
 - developmental-screening-and-assessment

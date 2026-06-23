@@ -6,6 +6,8 @@ course: physical-chemistry
 prerequisites:
 - id: molecular-orbital-diagrams
   type: hard
+- id: orbital-theory-and-shapes
+  type: hard
 builds-toward: []
 tags:
 - sigma-orbitals

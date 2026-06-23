@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: irregular-nouns-and-verbs
   type: soft
+- id: parts-of-speech-overview
+  type: hard
 builds-toward:
 - verb-tense-simple-past-present-future
 tags:

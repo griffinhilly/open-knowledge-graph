@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - opioid-use-disorder
-- chronic-pain-management
 tags:
 - opioid
 - mu-receptor

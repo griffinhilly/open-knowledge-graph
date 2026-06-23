@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: truth-tables
   type: soft
+- id: propositional-connectives
+  type: hard
+- id: truth-assignments-and-valuations
+  type: hard
 builds-toward:
 - normal-forms-cnf-dnf
 - propositional-soundness-completeness

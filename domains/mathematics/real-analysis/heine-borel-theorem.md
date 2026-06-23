@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: open-sets-real-line
   type: hard
+- id: bolzano-weierstrass-theorem
+  type: soft
 builds-toward:
 - uniform-continuity-compact-sets
 - extreme-value-theorem-rigorous

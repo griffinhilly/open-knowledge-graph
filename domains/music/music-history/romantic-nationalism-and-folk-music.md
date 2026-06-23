@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nationalism-and-exoticism-19th-century
   type: soft
+- id: romantic-period-overview
+  type: soft
 builds-toward:
 - virtuosity-and-performer-celebrity
 - jazz-origins-and-cultural-synthesis

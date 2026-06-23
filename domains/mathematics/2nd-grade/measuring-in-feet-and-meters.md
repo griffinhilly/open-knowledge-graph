@@ -6,6 +6,8 @@ course: 2nd-grade
 prerequisites:
 - id: measuring-length-with-ruler
   type: hard
+- id: measuring-length-with-ruler-2nd-grade
+  type: soft
 builds-toward:
 - measurement-conversions-customary
 - measurement-conversions-metric

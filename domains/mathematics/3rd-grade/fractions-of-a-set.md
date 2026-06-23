@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: equivalent-fractions-intro-3rd
   type: soft
+- id: fractions-halves-and-fourths-1st
+  type: soft
 builds-toward:
 - percent-concept
 - ratios

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: consumer-surplus-microeconomics
   type: hard
+- id: monopoly-market-power-barriers
+  type: soft
+- id: monopoly-output-and-pricing
+  type: hard
 builds-toward:
 - welfare-analysis-microeconomics
 tags:

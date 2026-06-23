@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - equipotential-surfaces
-- conductors-equilibrium
 tags:
 - potential
 - field

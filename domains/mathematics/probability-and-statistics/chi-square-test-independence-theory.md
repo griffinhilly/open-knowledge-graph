@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: independence-and-mutually-exclusive-events
   type: soft
-builds-toward:
-- goodness-of-fit-test
 tags:
 - chi-square
 - independence

@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: logical-equivalences
   type: hard
+- id: when-is-something-proven
+  type: soft
 builds-toward:
 - direct-proof
 - proof-by-contrapositive

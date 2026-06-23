@@ -10,9 +10,12 @@ prerequisites:
   type: soft
 - id: ionic-bonding
   type: soft
+- id: mineral-properties-and-testing
+  type: soft
+- id: properties-of-rocks
+  type: soft
 builds-toward:
 - mineral-crystal-systems-classification
-- mineral-properties-weathering
 tags:
 - mineralogy
 - identification

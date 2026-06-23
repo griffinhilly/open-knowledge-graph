@@ -6,6 +6,10 @@ course: thermodynamics-engineering
 prerequisites:
 - id: second-law-thermodynamics-entropy
   type: hard
+- id: first-law-closed-systems
+  type: hard
+- id: thermodynamic-property-diagrams
+  type: soft
 builds-toward:
 - vapor-compression-refrigeration-cycle
 - heat-pump-heating-cooling-analysis

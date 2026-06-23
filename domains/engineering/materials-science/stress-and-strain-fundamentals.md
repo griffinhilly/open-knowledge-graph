@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: vectors-in-3d
   type: soft
+- id: elastic-and-plastic-behavior
+  type: soft
+- id: tension-and-compression-engineering
+  type: soft
 builds-toward:
 - elastic-deformation-and-moduli-materials
 - plastic-deformation-yielding-materials

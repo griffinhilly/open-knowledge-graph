@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: osmosis-and-tonicity
   type: soft
-builds-toward:
-- hyponatremia-hypernatremia-disorders
 tags:
 - osmolarity
 - adh

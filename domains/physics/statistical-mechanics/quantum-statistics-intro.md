@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: phonon-statistics
   type: soft
+- id: maxwell-boltzmann-distribution
+  type: soft
 builds-toward:
 - fermi-gas-ideal-quantum
 - bose-gas-ideal-quantum

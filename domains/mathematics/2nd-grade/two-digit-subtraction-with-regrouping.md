@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: place-value-tens-and-ones
   type: hard
+- id: regrouping-subtraction-trading-tens-for-ones
+  type: hard
+- id: two-digit-number-composition-1st
+  type: hard
 builds-toward:
 - subtraction-within-100
 - three-digit-subtraction

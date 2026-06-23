@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: solution-concentration
   type: soft
+- id: digestive-enzyme-function-and-control
+  type: hard
 tags:
 - absorption
 - villi

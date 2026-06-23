@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: deliberative-democracy-and-legitimacy
   type: soft
-builds-toward:
-- legitimacy-justification-standards
-- pluralism-stability
 tags:
 - public-reason
 - justification

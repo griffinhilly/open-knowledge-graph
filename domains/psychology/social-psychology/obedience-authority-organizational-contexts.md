@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: obedience-authority-legitimacy
   type: soft
-builds-toward:
-- ethical-decision-making-institutional-settings
 tags:
 - obedience
 - authority

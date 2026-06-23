@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - respiratory-control-mechanisms
 - blood-pressure-regulation
-- brainstem
 tags:
 - brainstem
 - vital functions

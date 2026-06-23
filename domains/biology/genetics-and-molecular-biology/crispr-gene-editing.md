@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dna-repair-mechanisms
   type: hard
+- id: non-homologous-end-joining-nhej
+  type: soft
 tags:
 - CRISPR
 - Cas9

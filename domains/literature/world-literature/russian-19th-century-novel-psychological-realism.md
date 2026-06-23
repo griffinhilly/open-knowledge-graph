@@ -4,7 +4,7 @@ title: 'Russian 19th-Century Novel: Psychological Realism and Philosophical Dept
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - pushkin-russian-foundation

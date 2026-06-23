@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: homeostasis-and-feedback
   type: soft
+- id: digestive-system-ls
+  type: soft
 builds-toward:
 - nutrient-absorption-and-transport
 - gut-motility-and-secretion

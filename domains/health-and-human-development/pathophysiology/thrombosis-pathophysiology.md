@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: hemostasis-coagulation-cascade
   type: hard
+- id: coagulation-cascade-extrinsic-intrinsic-common
+  type: hard
+- id: fibrinolysis-and-tissue-plasminogen-activator
+  type: soft
+- id: natural-anticoagulants-and-inhibitors
+  type: soft
 builds-toward:
 - myocardial-infarction-pathophysiology
 - stroke-pathophysiology

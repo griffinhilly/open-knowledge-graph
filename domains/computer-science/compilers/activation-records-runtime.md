@@ -6,6 +6,8 @@ course: compilers
 prerequisites:
 - id: memory-management-basics
   type: hard
+- id: code-generation
+  type: soft
 builds-toward:
 - exception-handling-compilation
 tags:

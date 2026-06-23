@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: social-cognition
   type: hard
-builds-toward:
-- person-perception-biases
 tags:
 - impression-formation
 - trait-inference

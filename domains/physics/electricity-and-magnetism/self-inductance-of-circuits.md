@@ -9,7 +9,6 @@ prerequisites:
 - id: faraday-law-of-induction
   type: hard
 builds-toward:
-- rc-circuits
 - lc-and-rlc-circuits
 tags:
 - inductance

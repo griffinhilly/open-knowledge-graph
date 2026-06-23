@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - thermal-wind-balance
-- vertical-motion-and-omega
 tags:
 - dynamics
 - wind

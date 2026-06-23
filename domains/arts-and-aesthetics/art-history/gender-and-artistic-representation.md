@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: women-artists-in-art-history
   type: soft
+- id: art-historical-interpretation-and-theory
+  type: soft
 tags:
 - gender
 - feminism

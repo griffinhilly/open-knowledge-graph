@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - globalization-history
-- development-and-underdevelopment-history
 tags:
 - history
 - Economic Social History

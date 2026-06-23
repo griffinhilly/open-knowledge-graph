@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: where-information-comes-from
   type: soft
+- id: durkheim-collective-consciousness
+  type: soft
 builds-toward:
 - socialization
 - social-norms-and-values

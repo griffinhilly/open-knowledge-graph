@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dc-analysis-steady-state
   type: hard
+- id: network-circuit-analysis-methods
+  type: soft
 builds-toward:
 - transient-response-rlc-circuits
 - first-order-transient-circuits

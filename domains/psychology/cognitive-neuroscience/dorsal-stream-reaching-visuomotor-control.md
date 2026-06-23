@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - spatial-attention-parietal-cortex
-- motor-control-posterior-parietal-cortex
 tags:
 - vision
 - motor-control

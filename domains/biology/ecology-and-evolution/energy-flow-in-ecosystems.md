@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: cellular-respiration-overview
   type: soft
+- id: ecosystem-productivity-gpp-npp
+  type: soft
+- id: energy-flow-in-ecosystems-ls
+  type: hard
 builds-toward:
 - biogeochemical-cycles
 - nutrient-cycling

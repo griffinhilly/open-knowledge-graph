@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: amino-acid-metabolism-and-protein-turnover
   type: soft
+- id: protein-digestion-and-peptide-absorption
+  type: soft
 tags:
 - protein
 - amino-acids

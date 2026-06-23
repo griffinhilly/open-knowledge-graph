@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: essay-organization
   type: hard
+- id: body-paragraph-development
+  type: soft
 builds-toward:
 - synthesizing-multiple-sources
 - academic-writing-conventions

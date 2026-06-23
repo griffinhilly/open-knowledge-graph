@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: rates-of-change-preview
   type: soft
+- id: demographic-transition-model-human-geography
+  type: soft
 builds-toward:
 - cultural-diffusion-geography
 - urban-geography-fundamentals

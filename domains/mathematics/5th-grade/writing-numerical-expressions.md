@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: patterns-and-sequences
   type: soft
+- id: order-of-operations-intro-4th-grade
+  type: hard
 builds-toward:
 - evaluating-expressions-with-grouping
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-realism
   type: soft
+- id: arabic-modernism-nahda-cultural-renaissance
+  type: soft
 builds-toward:
 - literary-realism-comparative
 tags:

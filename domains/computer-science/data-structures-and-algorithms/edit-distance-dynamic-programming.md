@@ -6,6 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: dynamic-programming-intro
   type: hard
+- id: longest-common-subsequence
+  type: soft
 tags:
 - dynamic-programming
 - strings

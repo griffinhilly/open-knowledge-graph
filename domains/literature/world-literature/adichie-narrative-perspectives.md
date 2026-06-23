@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: postcolonial-literature-theory
   type: soft
+- id: african-women-writers-gender-voice
+  type: soft
 builds-toward:
 - postcolonial-literature-theory
 tags:

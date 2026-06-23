@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: strong-law-of-large-numbers
   type: soft
+- id: relationships-modes-convergence
+  type: soft
 builds-toward:
 - maximum-likelihood-estimation-theory
 - confidence-intervals-rigorous-theory

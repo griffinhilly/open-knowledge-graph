@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: neighborhood-basis-topology
   type: hard
+- id: sequences-convergence-topology
+  type: soft
 builds-toward:
 - metrization-theorems
 - sequential-compactness

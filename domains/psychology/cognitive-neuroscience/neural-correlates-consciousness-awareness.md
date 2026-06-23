@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: global-workspace-consciousness
   type: hard
-builds-toward:
-- consciousness-loss-anesthesia-sleep
-- disorders-consciousness-vegetative-minimally-conscious
 tags:
 - NCC
 - consciousness

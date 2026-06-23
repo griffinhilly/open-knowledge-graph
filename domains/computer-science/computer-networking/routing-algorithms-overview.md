@@ -6,6 +6,8 @@ course: computer-networking
 prerequisites:
 - id: ip-routing-basics
   type: hard
+- id: network-topologies
+  type: soft
 builds-toward:
 - dijkstras-shortest-path-routing
 - bellman-ford-distance-vector-routing

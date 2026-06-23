@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: attribution-theory
   type: hard
-builds-toward:
-- victim-blaming-responsibility
 tags:
 - just-world
 - belief-in-justice

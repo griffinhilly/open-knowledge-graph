@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: integral-domains
   type: hard
-builds-toward:
-- ca-discrete-valuation-rings
 tags:
 - dedekind-domain
 - ideal-class-group

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: adjective-order-and-coordination
   type: soft
+- id: negative-sentence-formation
+  type: soft
 builds-toward:
 - interrogative-pronouns-who-what-which
 - relative-adverbs-where-when-why

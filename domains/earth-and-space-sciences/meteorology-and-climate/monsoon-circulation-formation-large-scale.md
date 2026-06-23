@@ -12,9 +12,6 @@ prerequisites:
   type: soft
 - id: zonal-meridional-circulation
   type: soft
-builds-toward:
-- tropical-weather-systems
-- seasonal-climate-variability
 tags:
 - tropical
 - seasonal

@@ -6,6 +6,8 @@ course: oceanography
 prerequisites:
 - id: ocean-layering-and-stratification
   type: hard
+- id: gravity-waves-wind-ocean-surface
+  type: soft
 builds-toward:
 - ocean-stratification-and-mixing
 tags:

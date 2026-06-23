@@ -6,6 +6,8 @@ course: differential-equations
 prerequisites:
 - id: separable-differential-equations
   type: hard
+- id: direction-fields-and-solution-curves
+  type: soft
 builds-toward:
 - phase-line-analysis
 - bifurcation-in-odes

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: mirror-neurons-action-understanding
   type: soft
-builds-toward:
-- group-emotions-collective-affect
 tags:
 - emotional-contagion
 - affect

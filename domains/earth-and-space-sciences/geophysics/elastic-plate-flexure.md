@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: isostasy-and-crustal-balance
   type: hard
-builds-toward:
-- lithosphere-thickness-and-age
+- id: airy-isostasy-model
+  type: soft
+- id: pratt-isostasy-model
+  type: soft
 tags:
 - isostasy
 - flexure

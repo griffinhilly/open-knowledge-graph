@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - phrase-structure-rules
-- formal-syntax-trees
 tags:
 - syntax
 - constituency

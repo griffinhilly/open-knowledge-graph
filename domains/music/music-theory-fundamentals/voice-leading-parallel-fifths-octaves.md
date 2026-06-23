@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: interval-quality
   type: soft
+- id: triad-inversion-and-voicing
+  type: soft
 builds-toward:
 - voice-leading-principles
 - four-part-writing

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ensemble-theory-fundamentals
   type: hard
+- id: ergodic-hypothesis
+  type: soft
 builds-toward:
 - green-kubo-formula
 - response-functions-definition

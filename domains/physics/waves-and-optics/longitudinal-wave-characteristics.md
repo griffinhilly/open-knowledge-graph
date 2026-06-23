@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transverse-wave-characteristics
   type: soft
+- id: transverse-vs-longitudinal-waves
+  type: soft
 builds-toward:
 - sound-waves-intro
 - acoustic-pressure-and-amplitude

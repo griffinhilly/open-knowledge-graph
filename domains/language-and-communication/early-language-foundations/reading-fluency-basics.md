@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - reading-comprehension-strategies-early
-- reading-fluency
 tags:
 - fluency
 - reading-rate

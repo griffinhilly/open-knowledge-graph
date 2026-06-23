@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - comparative-politics
-- representation-mechanisms
 tags:
 - recruitment
 - elites

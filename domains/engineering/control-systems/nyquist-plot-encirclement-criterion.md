@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nyquist-stability-from-frequency-response
   type: soft
+- id: transfer-function-poles-zeros-interpretation
+  type: hard
 builds-toward:
 - gain-margin-phase-margin-stability
 tags:

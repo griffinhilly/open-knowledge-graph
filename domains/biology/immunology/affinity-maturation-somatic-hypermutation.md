@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: b-cell-development-maturation
   type: soft
+- id: b-cell-activation-germinal-center
+  type: hard
+- id: vdj-recombination-antibody-diversity
+  type: soft
 builds-toward:
 - germinal-center-reactions
 - immunological-memory-secondary-response

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: endocrine-and-reproductive-system-anatomy
   type: soft
+- id: anatomical-terminology-and-body-compartments
+  type: soft
 builds-toward:
 - gas-exchange-alveoli-and-diffusion
 tags:

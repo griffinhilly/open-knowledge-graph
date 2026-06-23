@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: simple-functions-approximation
   type: hard
+- id: lebesgue-integral-general-definition
+  type: hard
 builds-toward:
 - riemann-lebesgue-comparison
 - product-measures-fubini-theorem

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: temperament-and-early-personality
   type: soft
+- id: nature-nurture-gene-environment-interaction
+  type: soft
 tags:
 - adversity
 - coping

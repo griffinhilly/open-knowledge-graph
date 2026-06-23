@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: area-of-rectangles
   type: soft
+- id: attic-insulation-and-ventilation-assessment
+  type: soft
 builds-toward:
 - insulation-and-air-sealing
 tags:

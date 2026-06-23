@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: addition-within-100
   type: hard
+- id: equal-groups-2nd-grade
+  type: hard
+- id: number-patterns-skip-counting-1st
+  type: soft
 builds-toward:
 - multi-digit-multiplication
 - factors-and-multiples

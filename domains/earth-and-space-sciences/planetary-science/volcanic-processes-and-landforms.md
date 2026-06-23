@@ -9,7 +9,6 @@ prerequisites:
 - id: volcanoes-and-volcanism
   type: soft
 builds-toward:
-- surface-geology-terrestrial-planets
 - planetary-tectonics-comparative
 tags:
 - volcanism

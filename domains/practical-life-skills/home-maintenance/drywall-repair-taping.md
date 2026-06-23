@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basic-hand-tools
   type: soft
+- id: minor-wall-damage-filling-and-finishing
+  type: soft
 builds-toward: []
 tags:
 - drywall

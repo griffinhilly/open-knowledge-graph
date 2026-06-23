@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: set-operations-union-intersection-complement
   type: soft
+- id: proof-by-exhaustion-intro
+  type: hard
 builds-toward:
 - mathematical-induction
 tags:

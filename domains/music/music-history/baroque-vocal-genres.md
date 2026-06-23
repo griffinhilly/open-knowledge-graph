@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: baroque-historical-context
   type: hard
+- id: renaissance-compositional-techniques
+  type: soft
 builds-toward:
 - romantic-vocal-music-development
 tags:

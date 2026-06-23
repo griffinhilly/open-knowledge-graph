@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: affective-intensity-sensation
   type: soft
+- id: phenomenological-reading-embodied
+  type: soft
 tags:
 - affect
 - emotion

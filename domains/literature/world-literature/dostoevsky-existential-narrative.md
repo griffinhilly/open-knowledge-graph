@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: psychological-novel-consciousness
   type: soft
+- id: russian-19th-century-novel-psychological-realism
+  type: soft
 builds-toward:
 - psychological-novel-consciousness
 tags:

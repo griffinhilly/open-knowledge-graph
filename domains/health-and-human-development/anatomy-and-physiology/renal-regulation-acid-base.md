@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: acid-base-balance-respiratory-renal-compensation
   type: soft
-builds-toward:
-- metabolic-acidosis-alkalosis-disorders
 tags:
 - bicarbonate-reabsorption
 - acid-secretion

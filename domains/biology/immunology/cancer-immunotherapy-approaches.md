@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: antibody-dependent-cell-mediated-cytotoxicity-adcc
   type: soft
+- id: tumor-immune-surveillance
+  type: soft
 tags:
 - cancer-immunotherapy
 - CAR-T-cells

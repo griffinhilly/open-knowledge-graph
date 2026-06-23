@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: soft
+- id: schrodinger-equation-molecular-systems
+  type: soft
 builds-toward:
 - huckel-molecular-orbital-theory
 - electronic-spectroscopy-theory

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: colons-dashes-parentheses
   type: soft
+- id: language-register-strategic-choice
+  type: soft
 tags:
 - register
 - style

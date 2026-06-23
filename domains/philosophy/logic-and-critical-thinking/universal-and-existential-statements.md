@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: logical-operators-and-truth-functions
   type: hard
+- id: quantifiers-in-reasoning
+  type: soft
 builds-toward:
 - categorical-logic-and-syllogisms
 - quantifier-notation-and-basics

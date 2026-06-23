@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ratios
   type: soft
+- id: interval-counting-and-naming
+  type: hard
 builds-toward:
 - major-scales
 - minor-scales

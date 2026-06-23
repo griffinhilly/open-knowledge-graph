@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: curvature
   type: soft
-builds-toward:
-- surface-parametrization
+- id: cross-product-geometry-3d
+  type: hard
 tags:
 - curvature
 - torsion

@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - personal-budget-fundamentals
 - cash-flow-analysis-and-management
-- lifestyle-financial-strategy-and-priorities
 tags:
 - optimization
 - constraints

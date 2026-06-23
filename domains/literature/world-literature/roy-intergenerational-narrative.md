@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: postcolonial-literature-theory
   type: soft
+- id: postcolonial-english-literature-indian-writers
+  type: soft
 builds-toward:
 - postcolonial-literature-theory
 tags:

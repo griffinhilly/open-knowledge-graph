@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: visual-cortex-hierarchical-organization
   type: hard
-builds-toward:
-- search-asymmetries-feature-dimensions
-- selective-attention-mechanisms
 tags:
 - attention
 - feature-attention

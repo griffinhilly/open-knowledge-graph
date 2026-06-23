@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: narrative-voice
   type: soft
+- id: scene-reconstruction-memory
+  type: soft
 builds-toward:
 - new-journalism-movement
 - immersion-reporting

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: repeating-and-contrasting-sections
   type: hard
+- id: musical-phrases
+  type: soft
 builds-toward:
 - musical-storytelling
 - program-music

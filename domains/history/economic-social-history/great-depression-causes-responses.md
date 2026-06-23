@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - bretton-woods-system
-- keynesian-economics-history
 tags:
 - history
 - Economic Social History

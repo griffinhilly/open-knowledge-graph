@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: energy-conservation-applications
   type: hard
+- id: thermodynamic-systems-engineering
+  type: hard
 builds-toward:
 - first-law-open-systems
 - rankine-cycle-thermodynamic-analysis

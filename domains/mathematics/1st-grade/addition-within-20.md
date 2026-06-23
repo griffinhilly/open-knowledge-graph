@@ -6,6 +6,12 @@ course: 1st-grade
 prerequisites:
 - id: addition-within-10
   type: hard
+- id: making-10-addition-strategy
+  type: soft
+- id: number-bonds-to-10
+  type: hard
+- id: number-line-0-to-20
+  type: soft
 builds-toward:
 - two-digit-addition-no-regrouping
 - addition-subtraction-word-problems

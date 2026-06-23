@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - non-harmonic-tone-usage
-- diatonic-non-harmonic-tone-detection
 tags:
 - non-harmonic-tone
 - passing-tone

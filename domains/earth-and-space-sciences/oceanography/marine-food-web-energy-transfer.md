@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: zooplankton-food-web-structure
   type: hard
+- id: phytoplankton-productivity-limiting-factors
+  type: soft
 builds-toward:
 - coral-reef-ecosystems
 - deep-sea-ecosystems

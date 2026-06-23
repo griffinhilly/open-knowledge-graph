@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: enzyme-structure-and-function
   type: soft
-builds-toward:
-- metabolic-integration-hormonal-regulation
 tags:
 - peroxisomes
 - oxidative-stress

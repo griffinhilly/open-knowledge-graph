@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: foucault-power-knowledge
   type: soft
+- id: advanced-phenomenology-of-perception
+  type: soft
 builds-toward: []
 tags:
 - feminism

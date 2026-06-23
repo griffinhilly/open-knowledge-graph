@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: multi-step-word-problems-addition-subtraction-3rd
   type: hard
-builds-toward:
-- multi-step-word-problems
 tags:
 - word-problems
 - multi-step

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: rhythm-and-syncopation
   type: soft
+- id: triad-construction-major-minor
+  type: hard
 builds-toward:
 - cadences
 - song-form

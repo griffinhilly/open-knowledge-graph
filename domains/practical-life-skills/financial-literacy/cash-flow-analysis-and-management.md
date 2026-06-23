@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: addition-subtraction-word-problems
   type: soft
+- id: expense-baseline-and-discretionary-analysis
+  type: soft
 builds-toward:
 - financial-goal-setting
 - emergency-fund-planning

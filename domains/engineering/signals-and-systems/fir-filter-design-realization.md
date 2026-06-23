@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: elliptic-filter-design
   type: soft
+- id: z-transform-properties-inverse
+  type: soft
 tags:
 - fir-filter
 - filter-design

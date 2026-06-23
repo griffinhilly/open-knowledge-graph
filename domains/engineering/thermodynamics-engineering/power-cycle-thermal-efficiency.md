@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: steady-flow-energy-equation-engineering
   type: soft
+- id: turbine-compressor-efficiency-definitions
+  type: soft
 builds-toward:
 - rankine-power-generation-cycles
 - brayton-gas-turbine-cycles

@@ -9,7 +9,6 @@ prerequisites:
 - id: simple-meter-rhythmic-dictation
   type: hard
 builds-toward:
-- polyrhythmic-listening-perception
 - jazz-rhythm-section-analysis
 tags:
 - rhythm

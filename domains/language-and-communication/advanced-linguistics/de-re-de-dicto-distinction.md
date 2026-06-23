@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: quantification-and-scope-formal
   type: hard
-builds-toward:
-- intensionality-possible-worlds
+- id: type-theory-semantics
+  type: soft
 tags:
 - scope
 - de-re

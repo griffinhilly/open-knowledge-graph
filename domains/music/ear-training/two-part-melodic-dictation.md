@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - voice-independence-counterpoint-ear
-- harmonic-dictation-basic
 tags:
 - melody
 - dictation

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vector-clocks
   type: soft
+- id: clock-synchronization-distributed-systems
+  type: hard
 builds-toward: []
 tags:
 - clocks

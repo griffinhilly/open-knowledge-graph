@@ -6,8 +6,6 @@ course: cell-biology
 prerequisites:
 - id: eukaryotic-cells
   type: hard
-builds-toward:
-- osmosis-and-water-movement
 tags:
 - vacuole
 - plant-cell

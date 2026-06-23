@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: ionization-energy-and-electron-removal
   type: soft
+- id: electronegativity-and-polarity-continuum
+  type: soft
+- id: valence-electrons-and-reactivity
+  type: hard
 builds-toward:
 - lewis-structures
 - electrochemistry-basics

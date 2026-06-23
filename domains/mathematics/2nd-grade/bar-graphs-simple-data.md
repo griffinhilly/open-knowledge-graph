@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: data-and-graphs-intro
   type: hard
-builds-toward:
-- bar-graphs-with-scale
 tags:
 - graphs
 - data

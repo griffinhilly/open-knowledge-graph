@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: participial-and-absolute-phrases
   type: soft
+- id: pronoun-types-and-usage
+  type: soft
 tags:
 - relative-pronouns
 - clauses

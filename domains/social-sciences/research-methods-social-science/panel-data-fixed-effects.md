@@ -12,7 +12,6 @@ prerequisites:
   type: hard
 builds-toward:
 - dynamic-panel-models
-- system-gmm-estimators
 tags:
 - panel-methods
 - causal

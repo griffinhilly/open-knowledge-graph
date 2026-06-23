@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - high-fantasy-secondary-world
-- character-motivation-survival
 tags:
 - sword-sorcery
 - adventure

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: vector-fields
   type: soft
+- id: electric-fields-intro
+  type: soft
 builds-toward:
 - electric-flux
 - electric-potential

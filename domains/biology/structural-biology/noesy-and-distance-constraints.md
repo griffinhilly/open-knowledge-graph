@@ -6,8 +6,6 @@ course: structural-biology
 prerequisites:
 - id: nmr-for-proteins
   type: hard
-builds-toward:
-- protein-protein-interactions
 tags:
 - NOESY
 - NOE

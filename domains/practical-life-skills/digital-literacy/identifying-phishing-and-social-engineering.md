@@ -20,7 +20,6 @@ prerequisites:
   type: soft
 builds-toward:
 - recognizing-online-scams-fraud
-- keeping-yourself-safe-online
 tags:
 - security
 - fraud

@@ -6,6 +6,10 @@ course: thermodynamics-engineering
 prerequisites:
 - id: rankine-cycle-thermodynamic-analysis
   type: hard
+- id: rankine-power-generation-cycles
+  type: hard
+- id: turbine-staging-multistage
+  type: soft
 tags:
 - rankine-cycle
 - reheat

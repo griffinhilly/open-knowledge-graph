@@ -11,7 +11,6 @@ prerequisites:
 
 builds-toward:
 - industrial-revolution-economic-impact
-- rural-to-urban-migration
 tags:
 - history
 - Economic Social History

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: electric-potential-energy
   type: hard
+- id: planck-einstein-relation
+  type: hard
 builds-toward:
 - photon-model
 - wave-particle-duality

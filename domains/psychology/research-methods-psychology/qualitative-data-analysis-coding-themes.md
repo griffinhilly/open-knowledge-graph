@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: operational-definitions
   type: soft
+- id: inter-rater-reliability-observer-agreement
+  type: soft
 builds-toward:
 - qualitative-research-validity-trustworthiness
 - triangulation-and-convergent-validity

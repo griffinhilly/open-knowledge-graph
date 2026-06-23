@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemical-equilibrium
   type: soft
+- id: saturation-and-dissolving-limits
+  type: soft
 builds-toward:
 - solubility-product-constant-ksp-calculations
 tags:

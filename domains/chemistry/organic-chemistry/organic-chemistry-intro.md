@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: electron-configuration
   type: soft
+- id: hybridization-introduction
+  type: soft
 builds-toward:
 - iupac-nomenclature-alkanes
 - functional-groups-overview

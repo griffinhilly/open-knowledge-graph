@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sequential-circuit-design
   type: soft
+- id: multiplexers-and-demultiplexers
+  type: soft
 builds-toward:
 - cpu-datapath
 - memory-organization

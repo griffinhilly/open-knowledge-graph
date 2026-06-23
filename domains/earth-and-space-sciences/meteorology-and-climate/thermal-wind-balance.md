@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: thermal-structure-of-atmosphere
   type: soft
+- id: geostrophic-balance-deviation-ageostrophic
+  type: hard
 builds-toward:
 - jet-stream-variability-climate
-- barotropic-and-baroclinic-atmospheres
 - zonal-meridional-circulation
 tags:
 - thermal-wind

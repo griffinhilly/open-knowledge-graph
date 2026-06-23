@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: systems-elimination
   type: soft
+- id: kirchhoff-current-law
+  type: hard
 builds-toward:
 - mesh-current-method
 - superposition-theorem-circuits

@@ -11,7 +11,6 @@ prerequisites:
 - id: musical-form-rondo-and-theme-and-variations
   type: soft
 builds-toward:
-- form-analysis
 - rondo-form
 - theme-and-variations
 tags:

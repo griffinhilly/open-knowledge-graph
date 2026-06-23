@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: natural-rights-foundations
   type: soft
-builds-toward:
-- constitutional-government
-- liberal-rights-theory
 tags:
 - locke
 - natural-rights

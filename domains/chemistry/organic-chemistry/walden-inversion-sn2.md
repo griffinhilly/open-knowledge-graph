@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stereochemistry-intro
   type: hard
+- id: r-s-nomenclature-cahn-ingold-prelog-rules
+  type: hard
 builds-toward:
 - substitution-vs-elimination
 tags:

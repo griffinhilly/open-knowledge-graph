@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: coriolis-effect-ocean-dynamics
   type: hard
+- id: ekman-boundary-layer-transport
+  type: hard
 builds-toward:
 - ocean-gyres-and-boundary-currents
 - ocean-circulation-and-climate

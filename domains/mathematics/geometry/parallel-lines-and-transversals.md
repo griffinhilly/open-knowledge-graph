@@ -8,6 +8,8 @@ prerequisites:
     type: hard
   - id: points-lines-planes
     type: hard
+  - id: angle-relationships
+    type: hard
 builds-toward:
   - corresponding-angles
   - alternate-interior-angles

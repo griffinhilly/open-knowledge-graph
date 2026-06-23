@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rna-types-and-structure
   type: hard
+- id: rna-structure-and-base-pairing
+  type: soft
 builds-toward:
 - gene-regulation-eukaryotes
 - translation

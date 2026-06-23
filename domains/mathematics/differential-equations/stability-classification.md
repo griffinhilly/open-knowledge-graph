@@ -6,6 +6,10 @@ course: differential-equations
 prerequisites:
 - id: phase-portraits-linear-systems
   type: hard
+- id: autonomous-equations
+  type: soft
+- id: phase-line-analysis
+  type: soft
 builds-toward:
 - linearization-of-nonlinear-systems
 tags:

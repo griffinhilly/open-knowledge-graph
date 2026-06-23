@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: rational-root-theorem
   type: soft
-builds-toward:
-- polynomial-division-review
 tags:
 - polynomials
 - fundamental-theorem

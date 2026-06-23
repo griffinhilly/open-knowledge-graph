@@ -6,8 +6,6 @@ course: literary-movements-and-periods
 prerequisites:
 - id: modernism-movement-overview
   type: hard
-builds-toward:
-- poetic-allusion-identification-tracking
 tags:
 - eliot
 - pound

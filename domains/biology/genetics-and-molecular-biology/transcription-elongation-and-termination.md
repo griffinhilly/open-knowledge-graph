@@ -6,6 +6,8 @@ course: genetics-and-molecular-biology
 prerequisites:
 - id: transcription
   type: hard
+- id: transcription-initiation-prokaryotes
+  type: soft
 builds-toward:
 - rna-processing
 - transcription-initiation-eukaryotes

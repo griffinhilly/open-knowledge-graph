@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: soft
+- id: incentive-compatibility-constraints
+  type: hard
 builds-toward:
 - screening-contracts
 tags:

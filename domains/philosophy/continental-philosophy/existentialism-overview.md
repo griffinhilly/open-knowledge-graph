@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: kierkegaard-anxiety-and-existence
   type: soft
+- id: nietzsche-will-to-power
+  type: soft
 builds-toward:
 - sartre-being-and-nothingness
 - beauvoir-ethics-of-ambiguity

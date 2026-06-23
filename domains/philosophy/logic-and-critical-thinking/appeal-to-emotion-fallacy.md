@@ -6,6 +6,8 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: informal-fallacies-intro
   type: hard
+- id: relevance-of-premises
+  type: soft
 tags:
 - appeal-to-emotion
 - ad-populum

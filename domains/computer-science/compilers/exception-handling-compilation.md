@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: code-generation
   type: hard
+- id: activation-records-runtime
+  type: hard
 builds-toward:
 - bytecode-and-vm-design
 tags:

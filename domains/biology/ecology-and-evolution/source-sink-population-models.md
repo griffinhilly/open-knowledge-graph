@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gene-flow-migration
   type: soft
+- id: age-structured-demographics-and-fecundity
+  type: soft
 builds-toward:
 - metapopulation-dynamics-connectivity
 - conservation-genetics-and-population-recovery

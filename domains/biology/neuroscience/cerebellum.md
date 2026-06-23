@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: basal-ganglia
   type: soft
+- id: brain-anatomy-and-functional-organization
+  type: soft
 tags:
 - motor-systems
 - learning

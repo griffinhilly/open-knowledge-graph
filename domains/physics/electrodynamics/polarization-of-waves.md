@@ -6,6 +6,8 @@ course: electrodynamics
 prerequisites:
 - id: plane-waves-in-vacuum
   type: hard
+- id: transverse-wave-characteristics
+  type: hard
 builds-toward:
 - electromagnetic-waves-in-media
 - cavity-resonators

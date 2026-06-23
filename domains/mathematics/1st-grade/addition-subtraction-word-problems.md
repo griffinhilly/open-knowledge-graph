@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: subtraction-within-20
   type: hard
+- id: addition-fact-families-1st
+  type: soft
 tags:
 - word-problems
 - application

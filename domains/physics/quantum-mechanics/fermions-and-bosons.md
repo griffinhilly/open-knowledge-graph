@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: identical-particles-quantum
   type: hard
+- id: identical-particles-exchange
+  type: hard
 builds-toward:
 - pauli-exclusion-principle
 tags:

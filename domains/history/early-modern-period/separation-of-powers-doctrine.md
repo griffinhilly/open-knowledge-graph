@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: montesquieu-separation-governmental-powers
   type: soft
+- id: state-centralization-sovereignty
+  type: soft
 builds-toward:
 - enlightenment-natural-rights-theory
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-transformations
   type: hard
+- id: matrix-representations
+  type: hard
 builds-toward:
 - reducibility-and-irreducibility
 - character-theory

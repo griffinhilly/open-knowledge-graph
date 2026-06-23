@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: natural-selection
   type: soft
-builds-toward:
-- ecological-opportunity
+- id: ecological-speciation-sympatric-divergence
+  type: soft
 tags:
 - speciation
 - macroevolution

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: maxwells-equations-integral-form
   type: soft
+- id: poynting-vector-energy-flow
+  type: soft
 builds-toward:
 - radiation-from-accelerated-charges
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: matrix-inverses
   type: soft
+- id: gaussian-elimination-pivoting
+  type: hard
+- id: gaussian-elimination-with-pivoting
+  type: hard
 tags:
 - LU decomposition
 - LU factorization

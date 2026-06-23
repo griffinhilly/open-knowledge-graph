@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: vector-spaces
   type: soft
+- id: biproducts-in-categories
+  type: hard
 builds-toward:
 - chain-complexes-exact-sequences
 tags:

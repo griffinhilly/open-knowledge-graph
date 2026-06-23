@@ -6,6 +6,8 @@ course: signals-and-systems
 prerequisites:
 - id: hilbert-transform-analytic-signals
   type: hard
+- id: complex-baseband-iq-representation-analysis
+  type: soft
 builds-toward:
 - short-time-fourier-transform
 - wavelet-transform-analysis

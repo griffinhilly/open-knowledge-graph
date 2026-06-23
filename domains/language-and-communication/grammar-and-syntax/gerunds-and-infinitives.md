@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nouns-intro
   type: soft
+- id: verb-complements-basic
+  type: soft
 builds-toward: []
 tags:
 - gerunds

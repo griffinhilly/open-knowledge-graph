@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: lenzs-law
   type: soft
+- id: solenoid-magnetic-field-properties
+  type: soft
 builds-toward:
 - rl-circuits
 - lc-and-rlc-circuits

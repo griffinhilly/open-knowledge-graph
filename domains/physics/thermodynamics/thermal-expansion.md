@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thermal-expansion-linear-and-volumetric
   type: soft
+- id: thermal-expansion-intro
+  type: soft
 builds-toward:
 - heat-transfer-conduction
 tags:

@@ -13,7 +13,6 @@ prerequisites:
 - id: cadential-formulas-composition
   type: soft
 builds-toward:
-- phrase-design-structural-units
 - sonata-composition-structural
 tags:
 - cadence

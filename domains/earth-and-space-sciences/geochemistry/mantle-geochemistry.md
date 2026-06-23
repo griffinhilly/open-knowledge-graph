@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: rb-sr-system
   type: soft
+- id: mineral-stability-phase-diagrams
+  type: soft
+- id: partition-coefficients
+  type: hard
+- id: ree-patterns-geochemistry
+  type: soft
 builds-toward:
 - crustal-evolution-geochemistry
 - cosmochemistry

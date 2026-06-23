@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: integral-domains
   type: soft
-builds-toward:
-- field-definition-and-examples
 tags:
 - ideals
 - maximal

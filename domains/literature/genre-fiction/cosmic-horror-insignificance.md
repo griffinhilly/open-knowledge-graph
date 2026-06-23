@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - psychological-horror-mind-dissolution
-- philosophical-horror-existential
 tags:
 - cosmic-horror
 - lovecraft

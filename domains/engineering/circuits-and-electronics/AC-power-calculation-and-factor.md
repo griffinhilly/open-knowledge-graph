@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-impedance-networks-ac
   type: soft
+- id: AC-Kirchhoff-laws-phasor-domain
+  type: soft
 builds-toward:
 - circuit-resonance-concepts
 tags:

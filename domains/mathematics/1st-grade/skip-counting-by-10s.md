@@ -6,6 +6,10 @@ course: 1st-grade
 prerequisites:
 - id: counting-to-20
   type: hard
+- id: counting-to-100
+  type: soft
+- id: counting-to-100-2nd-grade
+  type: soft
 builds-toward:
 - place-value-tens-and-ones
 tags:

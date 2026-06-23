@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stellar-fusion-proton-proton-chain
   type: soft
+- id: stellar-fusion-cno-cycle
+  type: soft
 builds-toward:
 - red-giant-branch-evolution
 - stellar-evolution-main-sequence-to-giant

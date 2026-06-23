@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: asymptotic-giant-branch-evolution
   type: soft
+- id: white-dwarf-remnants
+  type: hard
 builds-toward:
 - supernova-type-ia-thermonuclear
 tags:

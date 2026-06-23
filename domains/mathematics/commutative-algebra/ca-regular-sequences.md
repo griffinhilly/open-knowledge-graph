@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ca-modules-over-rings
   type: hard
+- id: ca-krull-dimension
+  type: soft
 builds-toward:
 - ca-homological-dimension
 tags:

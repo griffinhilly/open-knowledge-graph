@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measures-of-association
   type: soft
+- id: epidemiologic-effect-modification-interaction
+  type: hard
 tags:
 - subgroup-analysis
 - heterogeneity

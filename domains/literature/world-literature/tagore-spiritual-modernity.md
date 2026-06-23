@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: postcolonial-literature-encounter
   type: soft
+- id: bengali-literature-renaissance-modernity
+  type: soft
 builds-toward:
 - modernism-non-western-centers
 - postcolonial-literature-theory

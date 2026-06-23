@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: wave-properties-intro
   type: hard
+- id: wave-properties-and-classification
+  type: soft
 builds-toward:
 - sound-waves-intro
 - polarization-of-light

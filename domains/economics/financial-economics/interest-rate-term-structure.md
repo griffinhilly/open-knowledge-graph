@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - spot-forward-rate-relationships
-- zero-coupon-bond-valuation
 tags:
 - bonds
 - yield-curve

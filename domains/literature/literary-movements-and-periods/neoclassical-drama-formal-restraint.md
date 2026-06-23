@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: enlightenment-satire-social-critique
   type: soft
+- id: renaissance-humanist-recovery-classical
+  type: soft
 builds-toward:
 - restoration-comedy-wit-and-manners
 - romantic-drama-emotion-and-nature

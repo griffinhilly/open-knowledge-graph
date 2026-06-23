@@ -6,6 +6,8 @@ course: visual-elements-and-principles
 prerequisites:
 - id: colors-and-naming-them
   type: soft
+- id: discovering-color-through-observation
+  type: soft
 builds-toward:
 - mixing-colors-additive-and-subtractive
 - color-temperature-in-painting-and-design

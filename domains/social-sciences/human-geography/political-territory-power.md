@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: place-and-space-concepts
   type: hard
+- id: geographic-scale-analysis
+  type: soft
+- id: spatial-representation-maps
+  type: soft
 builds-toward:
 - indigenous-geography-territory
 tags:

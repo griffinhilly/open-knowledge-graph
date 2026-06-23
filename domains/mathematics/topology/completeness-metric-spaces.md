@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: cauchy-sequences-completeness
   type: hard
+- id: cauchy-sequences-metric-spaces
+  type: hard
+- id: metric-spaces-definition
+  type: hard
+- id: metric-topology-from-metric
+  type: soft
 builds-toward:
 - contraction-mapping-theorem
 - baire-category-theorem

@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: philosophy-of-science-intro
   type: soft
+- id: constructivism-and-relativism
+  type: soft
 tags:
 - values
 - objectivity

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: hubble-law-and-cosmic-expansion
   type: soft
+- id: galaxies-intro
+  type: soft
 builds-toward:
 - cosmic-inflation-and-early-universe
 tags:

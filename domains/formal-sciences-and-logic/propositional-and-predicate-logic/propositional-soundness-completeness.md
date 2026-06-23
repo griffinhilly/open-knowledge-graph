@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: mathematical-proof-strategies
   type: soft
+- id: tautology-satisfiability-validity
+  type: hard
 builds-toward:
 - propositional-compactness
 - fol-soundness-completeness

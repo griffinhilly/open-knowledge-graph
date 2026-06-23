@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: cd4-helper-t-cells
   type: hard
+- id: b-cell-activation-germinal-center
+  type: hard
+- id: mhc-class-ii-presentation
+  type: soft
 builds-toward:
 - immunological-memory-secondary-response
 - vaccines-and-vaccination

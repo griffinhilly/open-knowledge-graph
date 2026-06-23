@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: differential-equations-intro
   type: hard
+- id: angular-momentum-quantum
+  type: hard
 builds-toward:
 - total-angular-momentum
 - hydrogen-atom-solution

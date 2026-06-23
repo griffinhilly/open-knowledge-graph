@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: measurement-uncertainty-budgeting
   type: soft
+- id: quantitative-analysis-sample-preparation
+  type: soft
 builds-toward:
 - titrimetric-analysis-intro
 tags:

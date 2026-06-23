@@ -9,7 +9,6 @@ prerequisites:
 - id: weathering-and-erosion
   type: soft
 builds-toward:
-- surface-geology-terrestrial-planets
 - meteorites-and-planetary-samples
 tags:
 - regolith

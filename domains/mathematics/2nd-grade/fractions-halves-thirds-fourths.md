@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equal-parts-and-whole-shapes
   type: hard
+- id: building-and-decomposing-shapes
+  type: soft
 builds-toward:
 - intro-to-fractions
 - comparing-fractions

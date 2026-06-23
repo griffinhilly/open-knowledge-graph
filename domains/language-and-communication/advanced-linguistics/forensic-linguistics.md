@@ -6,8 +6,6 @@ course: advanced-linguistics
 prerequisites:
 - id: sociolinguistics-intro
   type: hard
-builds-toward:
-- applied-linguistics-language-policy
 tags:
 - forensic-linguistics
 - authorship-attribution

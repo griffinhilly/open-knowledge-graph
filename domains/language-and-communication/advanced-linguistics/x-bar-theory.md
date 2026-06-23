@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: syntactic-structure
   type: hard
+- id: constituent-trees-and-notation
+  type: hard
 builds-toward:
 - minimalist-program-core-concepts
 - c-command-and-binding

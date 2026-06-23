@@ -6,8 +6,6 @@ course: kindergarten
 prerequisites:
 - id: counting-to-10
   type: hard
-builds-toward:
-- ordinal-positions
 tags:
 - ordinals
 - position

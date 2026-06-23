@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: flash-nonfiction
   type: soft
-builds-toward:
-- compressed-writing
-- fragmented-form
 tags:
 - aphorism
 - fragments

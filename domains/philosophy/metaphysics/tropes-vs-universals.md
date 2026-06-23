@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: universals-and-particulars
   type: hard
+- id: abstract-objects-existence
+  type: soft
 tags:
 - tropes
 - universals

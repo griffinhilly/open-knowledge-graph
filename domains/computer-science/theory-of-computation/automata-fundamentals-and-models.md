@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: formal-languages-and-strings
   type: hard
+- id: theory-of-computation-overview
+  type: soft
 builds-toward:
 - deterministic-finite-automata
 - nondeterministic-finite-automata

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: business-cycles
   type: soft
+- id: output-gap-macroeconomic
+  type: soft
 builds-toward:
 - fiscal-multiplier
 - is-lm-model

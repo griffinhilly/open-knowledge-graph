@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: opera-emergence-and-evolution
   type: soft
+- id: basso-continuo-practice-and-realization
+  type: soft
 builds-toward:
 - classical-public-concert-culture
 - romantic-era-compositional-innovations

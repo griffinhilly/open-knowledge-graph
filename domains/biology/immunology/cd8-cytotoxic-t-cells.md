@@ -8,9 +8,12 @@ prerequisites:
   type: hard
 - id: antigen-presentation-mechanisms
   type: hard
+- id: mhc-class-i-presentation
+  type: hard
+- id: thymic-selection-positive-negative
+  type: soft
 builds-toward:
 - immunological-memory-secondary-response
-- tumor-immunology
 tags:
 - adaptive
 - t-cell

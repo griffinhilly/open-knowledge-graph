@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: chronic-inflammation
   type: hard
-builds-toward:
-- pulmonary-hypertension-pathophysiology
-- cor-pulmonale
 tags:
 - copd
 - chronic-obstructive-disease

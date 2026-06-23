@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: causal-order-temporal-order
   type: soft
+- id: tenseless-vs-tensed-time
+  type: soft
 builds-toward: []
 tags:
 - temporal

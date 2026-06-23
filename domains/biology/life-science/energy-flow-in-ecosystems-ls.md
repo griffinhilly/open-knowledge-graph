@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: competition-and-niches
   type: soft
+- id: photosynthesis-intro
+  type: soft
 builds-toward:
 - energy-flow-in-ecosystems
 tags:

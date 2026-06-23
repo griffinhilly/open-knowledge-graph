@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: cloud-formation-and-types
   type: soft
+- id: extratropical-cyclone-structure-stages
+  type: soft
+- id: occluded-front-formation
+  type: soft
 builds-toward:
 - severe-weather-systems
 tags:

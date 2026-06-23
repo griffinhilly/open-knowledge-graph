@@ -8,6 +8,8 @@ prerequisites:
     type: hard
   - id: polynomial-functions-degree-and-leading-coefficient
     type: hard
+  - id: rational-expressions-intro
+    type: hard
 builds-toward:
   - graphing-rational-functions
   - solving-rational-equations

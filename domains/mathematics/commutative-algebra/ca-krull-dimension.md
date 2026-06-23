@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: ca-localization
   type: soft
+- id: ca-chain-conditions
+  type: soft
+- id: ca-local-rings
+  type: soft
 builds-toward:
 - ca-regular-sequences
 - ca-going-up-going-down

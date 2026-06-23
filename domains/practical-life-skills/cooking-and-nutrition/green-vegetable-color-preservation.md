@@ -9,7 +9,6 @@ prerequisites:
 - id: vegetable-preparation
   type: soft
 builds-toward:
-- vegetable-doneness-and-texture-stages
 - cooking-nutrient-effects
 tags:
 - vegetables

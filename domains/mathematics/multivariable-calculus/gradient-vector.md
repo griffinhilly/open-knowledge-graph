@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: vectors-in-rn
   type: hard
+- id: contour-maps-level-curves
+  type: soft
+- id: rates-of-change-partial-derivatives
+  type: soft
 builds-toward:
 - directional-derivatives
 - critical-points-multivariable

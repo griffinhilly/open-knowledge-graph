@@ -8,9 +8,12 @@ prerequisites:
   type: hard
 - id: unreliable-narrator
   type: hard
+- id: red-herring-misdirection-clue
+  type: soft
+- id: thriller-escalating-tension
+  type: soft
 builds-toward:
 - psychological-horror-mind-dissolution
-- narrative-trust-betrayal
 tags:
 - psychological-thriller
 - unreliable-narrator

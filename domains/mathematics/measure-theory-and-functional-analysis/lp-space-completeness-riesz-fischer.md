@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: minkowski-inequality-lp
   type: hard
+- id: dominated-convergence-theorem
+  type: soft
 builds-toward:
 - banach-spaces
 tags:

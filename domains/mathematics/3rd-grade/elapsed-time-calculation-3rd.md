@@ -6,8 +6,10 @@ course: 3rd-grade
 prerequisites:
 - id: telling-time-minute-3rd
   type: hard
-builds-toward:
-- time-arithmetic
+- id: elapsed-time-within-hour-3rd
+  type: hard
+- id: telling-time-three-digit-precision-3rd
+  type: hard
 tags:
 - elapsed-time
 - duration

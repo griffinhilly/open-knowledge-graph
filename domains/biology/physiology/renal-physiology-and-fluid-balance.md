@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: colligative-properties
   type: soft
+- id: capillary-filtration-and-reabsorption
+  type: soft
 tags:
 - kidney
 - nephron

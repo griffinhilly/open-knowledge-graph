@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: mass-moment-of-inertia
   type: hard
+- id: rigid-body-kinematics-general-motion
+  type: soft
+- id: rigid-body-kinematics-rotation
+  type: soft
+- id: systems-of-particles-mechanics
+  type: soft
 builds-toward:
 - rigid-body-work-energy
 - angular-impulse-momentum

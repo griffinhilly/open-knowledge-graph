@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: religious-wars-europe
   type: hard
+- id: huguenots-french-religious-conflict
+  type: hard
 builds-toward:
 - enlightenment-origins
 tags:

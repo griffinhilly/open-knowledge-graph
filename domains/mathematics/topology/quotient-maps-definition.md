@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: quotient-maps-and-identification
   type: soft
+- id: homeomorphisms-definition-properties
+  type: soft
 tags:
 - quotient-maps
 - identification

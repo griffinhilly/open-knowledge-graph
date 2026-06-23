@@ -6,6 +6,10 @@ course: modern-physics
 prerequisites:
 - id: wave-particle-duality
   type: hard
+- id: photon-particle-properties
+  type: soft
+- id: planck-einstein-relation
+  type: soft
 builds-toward:
 - quantum-mechanics-postulates-core
 tags:

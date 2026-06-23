@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: hormone-signaling-mechanisms
   type: soft
+- id: vitamin-activation-and-metabolic-roles
+  type: soft
 tags:
 - vitamin-d
 - metabolism

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: insulin-glucagon-glucose-homeostasis
   type: soft
-builds-toward:
-- energy-flow-in-ecosystems
 tags:
 - energy expenditure
 - metabolic rate

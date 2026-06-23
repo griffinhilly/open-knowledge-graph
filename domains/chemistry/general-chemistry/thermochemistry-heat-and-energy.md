@@ -10,8 +10,10 @@ prerequisites:
   type: soft
 - id: endothermic-and-exothermic-reactions
   type: soft
-builds-toward:
-- oxidation-reduction-reactions
+- id: endothermic-exothermic-intro
+  type: soft
+- id: energy-in-phase-changes
+  type: soft
 tags:
 - thermochemistry
 - enthalpy

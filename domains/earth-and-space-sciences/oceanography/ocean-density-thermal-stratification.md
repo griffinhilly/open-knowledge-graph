@@ -3,9 +3,10 @@ id: ocean-density-thermal-stratification
 title: Ocean Density and Thermal Stratification
 domain: earth-and-space-sciences
 course: oceanography
-prerequisites: []
+prerequisites:
+- id: ocean-temperature-structure-thermocline
+  type: soft
 builds-toward:
-- salinity-composition-seawater
 - thermohaline-circulation
 - ocean-layering-and-stratification
 tags:

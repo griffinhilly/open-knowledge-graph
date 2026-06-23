@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: morphological-structure
   type: hard
+- id: prefix-suffix-affixation
+  type: hard
+- id: word-formation-rules
+  type: soft
 tags:
 - derivation
 - affixation

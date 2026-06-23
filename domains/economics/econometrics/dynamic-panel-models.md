@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: instrumental-variables
   type: hard
+- id: panel-data-fixed-effects
+  type: hard
 tags:
 - dynamic-panel
 - gmm

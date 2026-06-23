@@ -8,9 +8,6 @@ prerequisites:
   type: soft
 - id: central-vs-peripheral-nervous-system
   type: soft
-builds-toward:
-- network-analysis
-- clinical-neuroscience
 tags:
 - eeg
 - fmri

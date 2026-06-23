@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: universals-and-particulars
   type: hard
+- id: property-exemplification
+  type: soft
 tags:
 - abstract objects
 - Platonism

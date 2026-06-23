@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: file-system-basics
   type: soft
+- id: file-management-and-organization
+  type: soft
+- id: personal-file-backup-best-practices
+  type: soft
 tags:
 - backup
 - recovery

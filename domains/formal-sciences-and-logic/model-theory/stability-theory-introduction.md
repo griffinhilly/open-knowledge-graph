@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: morleys-uncountable-categoricity
   type: soft
+- id: saturated-models-and-realization
+  type: soft
 builds-toward:
 - o-minimality-and-tame-geometry
 tags:

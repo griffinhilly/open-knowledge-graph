@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: lockean-natural-rights
   type: soft
+- id: state-of-nature-concept
+  type: soft
 builds-toward:
 - property-distributive-justice
-- economic-systems-justice
 tags:
 - Locke
 - property-rights

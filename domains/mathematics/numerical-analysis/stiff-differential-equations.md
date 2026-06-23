@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: runge-kutta-methods
   type: hard
+- id: multistep-methods-adams
+  type: soft
 tags:
 - stiff-differential-equations
 - stability-region

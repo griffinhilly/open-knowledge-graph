@@ -8,10 +8,13 @@ prerequisites:
   type: hard
 - id: loop-of-henle-concentration-gradient
   type: hard
+- id: counter-current-multiplier-medulla
+  type: soft
+- id: glomerular-filtration-pressure
+  type: hard
 builds-toward:
 - osmolarity-regulation-collecting-duct
 - renal-blood-pressure-regulation
-- fluid-electrolyte-balance-regulation
 tags:
 - tubular
 - reabsorption

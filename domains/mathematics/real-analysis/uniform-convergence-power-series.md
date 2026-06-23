@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: power-series
   type: soft
+- id: interchange-limit-derivative
+  type: soft
 tags:
 - power-series
 - uniform-convergence

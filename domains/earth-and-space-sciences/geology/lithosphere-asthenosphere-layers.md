@@ -6,6 +6,8 @@ course: geology
 prerequisites:
 - id: earths-interior-density-composition
   type: hard
+- id: earths-layers
+  type: soft
 builds-toward:
 - plate-tectonics-driving-forces
 - mantle-convection-lithosphere

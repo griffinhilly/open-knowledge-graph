@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: set-theory-basics
   type: soft
+- id: absoluteness
+  type: soft
+- id: boolean-algebras-of-sets
+  type: soft
 builds-toward: []
 tags:
 - forcing

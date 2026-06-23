@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: existence-uniqueness-ode
   type: soft
-builds-toward:
-- linearization-of-nonlinear-systems
 tags:
 - dynamics
 - parameter-dependence

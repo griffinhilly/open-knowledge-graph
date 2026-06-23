@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: fall-of-western-rome
   type: soft
+- id: late-antiquity-medieval-transition
+  type: soft
 builds-toward:
 - crusades
 - great-schism-1054

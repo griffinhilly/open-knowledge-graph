@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: saturated-superheated-property-regions
   type: hard
+- id: throttling-expansion-isenthalpic-process
+  type: soft
+- id: throttling-joule-thomson-effect
+  type: soft
+- id: two-phase-flow-analysis
+  type: soft
 builds-toward:
 - heat-pump-heating-cooling-analysis
 tags:

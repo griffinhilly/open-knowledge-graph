@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: chromatin-fiber-higher-order-structure
   type: hard
-builds-toward:
-- chromatin-accessibility-and-remodeling-complexes
+- id: chromatin-remodeling-swi-snf
+  type: soft
 tags:
 - nucleosome-positioning
 - chromatin-organization

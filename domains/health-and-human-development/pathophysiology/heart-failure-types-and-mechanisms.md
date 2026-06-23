@@ -12,9 +12,6 @@ prerequisites:
   type: soft
 - id: cardiac-output-stroke-volume-regulation
   type: hard
-builds-toward:
-- cardiogenic-shock
-- pulmonary-edema-pathophysiology
 tags:
 - heart-failure
 - ventricular-dysfunction

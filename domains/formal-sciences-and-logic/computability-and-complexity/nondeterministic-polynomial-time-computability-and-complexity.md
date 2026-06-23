@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - sat-and-np-complete-problems
-- np-complete-problems-standard
 tags:
 - NP
 - nondeterminism

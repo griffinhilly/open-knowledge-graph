@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - fermi-gas-ideal-quantum
-- ideal-fermi-gas
 tags:
 - fermi-dirac
 - occupation-number

@@ -6,6 +6,10 @@ course: classical-mechanics
 prerequisites:
 - id: kinematic-equations
   type: hard
+- id: mass-vs-weight
+  type: soft
+- id: what-is-gravity
+  type: soft
 builds-toward:
 - projectile-motion
 - newtons-law-of-gravitation

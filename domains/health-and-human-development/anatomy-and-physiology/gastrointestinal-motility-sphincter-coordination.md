@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: neural-anatomy-and-organization
   type: hard
-builds-toward:
-- nutrient-digestion-absorption
 tags:
 - gut-motility
 - peristalsis

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: repeating-sounds-and-patterns
   type: soft
+- id: clapping-rhythms
+  type: soft
 builds-toward:
 - composing-simple-patterns
 - basic-rhythm-notation

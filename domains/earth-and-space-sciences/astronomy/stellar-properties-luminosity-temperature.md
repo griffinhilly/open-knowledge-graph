@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: telescopes-and-observing-methods
   type: soft
+- id: stars-and-constellations
+  type: soft
+- id: stars-and-life-cycles-intro
+  type: soft
 builds-toward:
 - stellar-spectral-classification
 - hertzsprung-russell-diagram

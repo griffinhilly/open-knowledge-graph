@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vectors-in-3d
   type: soft
+- id: crystal-systems-and-bravais-lattices
+  type: hard
 builds-toward:
 - plastic-deformation-mechanisms
 - x-ray-diffraction-materials

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: language-production
   type: hard
-builds-toward:
-- sentence-comprehension-neural-dynamics
-- semantic-syntax-interaction
 tags:
 - syntax
 - grammar

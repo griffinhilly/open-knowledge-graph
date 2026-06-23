@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: genette-transtextuality-framework
   type: soft
+- id: genre-conventions-as-system
+  type: hard
 builds-toward:
 - literary-adaptation-media
 tags:

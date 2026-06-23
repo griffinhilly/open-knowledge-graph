@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: periodic-table-overview
   type: hard
+- id: oxidation-reduction-basics
+  type: soft
 builds-toward:
   - electrochemistry-basics
 tags:

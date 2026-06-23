@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: collisions-elastic-inelastic
   type: soft
+- id: reaction-rate-and-factors-affecting-rate
+  type: soft
 builds-toward:
 - transition-state-theory
 - potential-energy-surfaces

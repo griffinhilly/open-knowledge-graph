@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: fungal-biology-overview
   type: soft
+- id: bacterial-endospores-survival-and-germination
+  type: soft
 builds-toward:
 - diagnostic-microbiology
 tags:

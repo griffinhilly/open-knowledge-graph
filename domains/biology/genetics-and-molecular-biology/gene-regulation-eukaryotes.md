@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: translation
   type: soft
+- id: histone-modifications-epigenetic
+  type: soft
+- id: lac-operon-negative-regulation
+  type: soft
+- id: transcription-initiation-and-regulation
+  type: hard
 builds-toward:
 - epigenetics-intro
 - crispr-gene-editing

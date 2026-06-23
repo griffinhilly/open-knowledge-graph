@@ -6,6 +6,8 @@ course: algebra-2
 prerequisites:
 - id: equations-variables-both-sides
   type: soft
+- id: arithmetic-sequences
+  type: hard
 builds-toward:
   - geometric-sequences-and-series
   - sigma-notation

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: sensory-imagery-and-description
   type: soft
-builds-toward:
-- disability-nonfiction
-- body-essays
 tags:
 - embodied-knowledge
 - body

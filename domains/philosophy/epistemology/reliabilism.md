@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: responses-to-gettier
   type: soft
+- id: internalism-externalism-epistemology
+  type: soft
 builds-toward:
 - internalism-vs-externalism
 - epistemic-virtues

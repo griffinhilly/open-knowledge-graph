@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: cost-of-equity-capm
   type: hard
+- id: financial-analysis-valuation-fundamentals
+  type: hard
+- id: weighted-average-cost-of-capital
+  type: hard
 builds-toward:
 - enterprise-value-calculation
 tags:

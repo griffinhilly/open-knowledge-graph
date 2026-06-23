@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: argument-structure-toulmin
   type: soft
+- id: evaluating-sources-writing
+  type: soft
 builds-toward:
   - evidence-integration-analysis
 tags:

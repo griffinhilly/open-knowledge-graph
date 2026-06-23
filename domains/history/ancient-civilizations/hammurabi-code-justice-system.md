@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ancient-law-codes
   type: hard
+- id: sumerian-governance-innovation
+  type: soft
 tags:
 - Babylon
 - law

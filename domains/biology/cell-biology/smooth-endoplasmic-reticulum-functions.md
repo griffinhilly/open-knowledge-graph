@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: rough-endoplasmic-reticulum-ribosomes
   type: soft
-builds-toward:
-- lipid-synthesis-and-metabolism
 tags:
 - ER
 - lipid-synthesis

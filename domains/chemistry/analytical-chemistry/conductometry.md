@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: electric-current-definition
   type: soft
+- id: electroanalytical-overview
+  type: soft
 tags:
 - conductometry
 - conductance

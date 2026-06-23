@@ -6,6 +6,8 @@ course: sociological-theory
 prerequisites:
 - id: marxist-base-superstructure
   type: hard
+- id: surplus-value-labor
+  type: soft
 builds-toward:
 - conflict-theory-sociology
 - social-stratification

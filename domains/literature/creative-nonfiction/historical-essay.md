@@ -4,13 +4,10 @@ title: 'Historical Essay: Personal Encounter with the Past'
 domain: literature
 course: creative-nonfiction
 prerequisites:
-- id: essayistic-form
+- id: essayistic-argumentation
   type: hard
 - id: nonfiction-research-methods
   type: soft
-builds-toward:
-- memoir-and-history
-- historical-nonfiction
 tags:
 - historical
 - essay

@@ -4,7 +4,7 @@ title: 'Urdu Poetry and Literary Tradition: Ghazal and Beyond'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - ghazal-form

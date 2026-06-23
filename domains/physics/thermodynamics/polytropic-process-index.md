@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: isobaric-and-isochoric-processes
   type: hard
+- id: work-types-mechanical-pdv
+  type: soft
 builds-toward:
 - otto-cycle-internal-combustion
 - diesel-cycle-compression-ignition

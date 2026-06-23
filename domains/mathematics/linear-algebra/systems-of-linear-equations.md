@@ -6,6 +6,10 @@ course: linear-algebra
 prerequisites:
 - id: matrices-definition
   type: hard
+- id: matrix-inverses
+  type: soft
+- id: matrix-multiplication
+  type: hard
 builds-toward:
 - gaussian-elimination
 - rank-nullity-theorem

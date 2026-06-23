@@ -10,9 +10,8 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
-builds-toward:
-- chord-progression-patterns-and-function
-- voice-leading-in-composition
+- id: voice-leading-serves-harmonic-function
+  type: soft
 tags:
 - harmonic-analysis
 - voice-leading

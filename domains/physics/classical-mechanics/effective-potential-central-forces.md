@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: newtons-law-of-gravitation
   type: soft
+- id: energy-conservation-applications
+  type: soft
 builds-toward:
 - orbital-stability-mechanics
 - orbital-mechanics

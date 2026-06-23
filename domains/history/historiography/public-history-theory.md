@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: memory-studies-theory
   type: soft
+- id: historical-consciousness
+  type: soft
 builds-toward:
 - contested-histories-pluralism
 tags:

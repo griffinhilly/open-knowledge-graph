@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: ordinal-arithmetic-operations-and-exponentiation
   type: soft
+- id: cardinal-comparison-and-schroeder-bernstein
+  type: soft
 builds-toward:
 - continuum-hypothesis
 tags:

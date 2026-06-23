@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modes-of-speciation-allopatric-peripatric-parapatric-sympatric
   type: soft
+- id: character-displacement-sympatry
+  type: soft
 builds-toward:
 - biodiversity-patterns-richness-evenness
 - island-biogeography

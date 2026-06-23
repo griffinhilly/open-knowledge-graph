@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nucleus-structure-and-function
   type: soft
+- id: eukaryotic-cell-compartmentalization
+  type: soft
 builds-toward:
 - chromatin-remodeling-accessibility
 - histone-modifications-epigenetic

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: creative-nonfiction-definition
   type: hard
+- id: autobiographical-authority
+  type: soft
 builds-toward:
 - personal-essay-form
 - essay-self-portraiture

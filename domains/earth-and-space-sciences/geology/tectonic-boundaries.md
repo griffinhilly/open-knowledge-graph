@@ -3,7 +3,11 @@ id: tectonic-boundaries
 title: Tectonic Plate Boundaries
 domain: earth-and-space-sciences
 course: geology
-prerequisites: []
+prerequisites:
+- id: plate-boundaries-intro
+  type: soft
+- id: plate-tectonics
+  type: soft
 builds-toward:
 - earthquakes-and-seismology
 - volcanoes-and-volcanism

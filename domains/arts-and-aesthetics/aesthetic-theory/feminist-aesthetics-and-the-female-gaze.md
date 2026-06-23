@@ -6,6 +6,10 @@ course: aesthetic-theory
 prerequisites:
 - id: aesthetics-and-philosophy-of-art-intro
   type: hard
+- id: beauty-and-taste-in-aesthetic-tradition
+  type: soft
+- id: women-artists-in-art-history
+  type: soft
 tags:
 - feminist aesthetics
 - gender

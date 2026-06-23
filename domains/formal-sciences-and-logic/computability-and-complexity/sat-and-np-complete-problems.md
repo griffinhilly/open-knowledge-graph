@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: cook-levin-theorem-formal
   type: hard
+- id: nondeterministic-polynomial-time-computability-and-complexity
+  type: hard
+- id: polynomial-time-computation-fundamentals
+  type: soft
 builds-toward:
 - np-completeness-reduction-proof-techniques
 tags:

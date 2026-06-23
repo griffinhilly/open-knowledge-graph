@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: theory-of-mind-development
   type: hard
+- id: object-permanence-sensorimotor-development
+  type: soft
 builds-toward:
 - theory-of-mind-false-beliefs
 - peer-relationships-friendship-development

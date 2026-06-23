@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: estimating-lengths
   type: soft
+- id: capacity-and-volume-intro
+  type: soft
 builds-toward:
 - measurement-conversions-customary
 - measurement-conversions-metric

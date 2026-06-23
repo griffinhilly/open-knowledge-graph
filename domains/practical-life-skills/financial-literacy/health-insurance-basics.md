@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: personal-budget-fundamentals
   type: soft
+- id: assessing-personal-insurance-needs
+  type: soft
 builds-toward:
 - healthcare-savings-accounts
 tags:

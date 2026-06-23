@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: authentic-speaker-voice-development
   type: soft
+- id: lyric-poetry
+  type: soft
 builds-toward:
 - poetic-tradition-and-influence
 tags:

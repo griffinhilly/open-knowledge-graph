@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: neural-anatomy-and-organization
   type: soft
+- id: auditory-development-discrimination-and-language-readiness
+  type: soft
 builds-toward:
 - school-age-cognitive-and-social-development
 - autism-spectrum-disorder-overview

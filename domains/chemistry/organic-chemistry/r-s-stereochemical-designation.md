@@ -6,6 +6,8 @@ course: organic-chemistry
 prerequisites:
 - id: enantiomers-and-chirality
   type: hard
+- id: e-z-geometric-isomerism
+  type: soft
 builds-toward:
 - meso-compounds-prochirality
 tags:

@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: rydberg-constant-spectroscopic-formula
   type: soft
-builds-toward:
-- atomic-spectroscopy-intro
 tags:
 - spectroscopy
 - atomic-physics

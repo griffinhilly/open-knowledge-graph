@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: natural-experiments-design
   type: soft
-builds-toward:
-- segmented-regression-its
 tags:
 - quasi-experimental
 - policy

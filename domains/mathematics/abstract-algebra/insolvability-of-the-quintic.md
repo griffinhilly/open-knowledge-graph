@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: polynomial-rings
   type: hard
+- id: fundamental-theorem-of-galois-theory
+  type: hard
 tags:
 - quintic
 - solvability

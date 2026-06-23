@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: within-subjects-design-implementation
   type: hard
-builds-toward:
-- interaction-effects-and-moderation-psychology
 tags:
 - design
 - factorial

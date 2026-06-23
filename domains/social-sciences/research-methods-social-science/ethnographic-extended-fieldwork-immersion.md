@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: research-design-from-questions-to-methods
   type: soft
+- id: emic-etic-perspective
+  type: soft
+- id: ethnographic-participant-observation
+  type: hard
 builds-toward:
 - triangulation-method-convergence
 tags:

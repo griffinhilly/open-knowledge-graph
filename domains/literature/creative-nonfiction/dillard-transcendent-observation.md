@@ -9,7 +9,6 @@ prerequisites:
 - id: lyric-essay
   type: soft
 builds-toward:
-- metaphysical-nonfiction
 - environmental-nonfiction
 tags:
 - dillard

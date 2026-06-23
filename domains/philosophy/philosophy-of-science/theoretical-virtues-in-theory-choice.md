@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: underdetermination-of-theory-by-evidence
   type: hard
+- id: bayesian-confirmation-and-evidence
+  type: soft
 builds-toward:
 - scientific-progress-and-convergence
 tags:

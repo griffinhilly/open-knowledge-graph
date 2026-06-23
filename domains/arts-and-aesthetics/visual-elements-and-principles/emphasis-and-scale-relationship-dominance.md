@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: proportion-and-scale
   type: soft
+- id: proportion-scale-in-visual-composition
+  type: soft
 builds-toward:
 - visual-weight-distribution-and-balance
 - symmetry-types-characteristics-and-effects

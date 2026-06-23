@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cooperation-and-teamwork
   type: soft
+- id: managing-anger-constructively
+  type: soft
 builds-toward:
 - social-psychology-overview
 tags:

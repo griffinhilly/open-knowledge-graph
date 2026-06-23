@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
+- id: bivariate-normal-distribution
+  type: soft
 builds-toward:
 - central-limit-theorem-rigorous
 - bayesian-inference-foundations

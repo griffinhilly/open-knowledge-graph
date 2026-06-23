@@ -13,7 +13,6 @@ prerequisites:
 builds-toward:
 - cd4-helper-t-cells
 - cd8-cytotoxic-t-cells
-- regulatory-t-cells-immune-tolerance-immune-tolerance
 tags:
 - adaptive
 - t-cell

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: colligative-properties
   type: soft
+- id: phase-changes-and-diagrams
+  type: soft
 builds-toward: []
 tags:
 - vapor-pressure

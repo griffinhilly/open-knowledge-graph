@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logical-clocks
   type: hard
+- id: happened-before-relation-causality
+  type: soft
 builds-toward:
 - chandy-lamport-algorithm
 - distributed-tracing

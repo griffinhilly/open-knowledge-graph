@@ -6,6 +6,10 @@ course: computer-networking
 prerequisites:
 - id: tcp-ip-model
   type: hard
+- id: automatic-repeat-request
+  type: hard
+- id: sliding-window-protocol
+  type: hard
 builds-toward:
 - tcp-connection-establishment
 - tcp-flow-control-and-congestion-control

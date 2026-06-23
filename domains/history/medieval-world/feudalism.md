@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: ancient-social-stratification
   type: soft
+- id: late-antiquity-medieval-transition
+  type: soft
+- id: medieval-charlemagne-empire-expansion
+  type: soft
+- id: medieval-early-middle-ages-periodization
+  type: soft
+- id: medieval-world-definition-periodization
+  type: soft
 builds-toward:
 - medieval-church-power
 - crusades

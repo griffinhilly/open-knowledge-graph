@@ -9,9 +9,6 @@ prerequisites:
 - id: urbanization-history
   type: hard
 
-builds-toward:
-- vaccination-and-disease-eradication
-- environmental-health-history
 tags:
 - history
 - Economic Social History

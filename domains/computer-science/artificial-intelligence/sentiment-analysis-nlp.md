@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: word-embeddings
   type: soft
+- id: text-classification
+  type: soft
 tags:
 - nlp
 - text-classification

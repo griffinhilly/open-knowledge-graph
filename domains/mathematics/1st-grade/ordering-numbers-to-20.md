@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: ordering-two-digit-numbers
   type: soft
+- id: comparing-numbers-1-to-20
+  type: hard
+- id: comparing-quantities
+  type: soft
 builds-toward:
 - number-line-0-to-20
 tags:

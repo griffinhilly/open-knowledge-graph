@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: moral-facts-and-objectivity-debate
   type: hard
+- id: moral-realism-vs-antirealism
+  type: hard
 builds-toward:
 - moral-constructivism-ethics
 - moral-subjectivism-ethics

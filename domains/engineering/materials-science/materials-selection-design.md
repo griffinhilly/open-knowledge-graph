@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mechanical-testing-methods
   type: soft
+- id: constraints-and-tradeoffs
+  type: soft
 builds-toward: []
 tags:
 - ashby-charts

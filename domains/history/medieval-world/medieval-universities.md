@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: medieval-trade-revival
   type: soft
+- id: medieval-monastic-intellectual-centers
+  type: soft
 tags:
 - universities
 - scholasticism

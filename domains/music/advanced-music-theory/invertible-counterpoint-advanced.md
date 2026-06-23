@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: species-counterpoint
   type: hard
+- id: interval-inversion-recognition
+  type: soft
 builds-toward:
 - canon-techniques-advanced
 tags:

@@ -10,9 +10,12 @@ prerequisites:
   type: soft
 - id: diminished-seventh-recognition
   type: soft
+- id: dominant-seventh-chord-unique-quality
+  type: hard
+- id: dominant-seventh-function-resolution
+  type: hard
 builds-toward:
 - chromatic-modulation-analysis
-- harmonic-dictation-basic
 tags:
 - secondary-dominants
 - ear-training

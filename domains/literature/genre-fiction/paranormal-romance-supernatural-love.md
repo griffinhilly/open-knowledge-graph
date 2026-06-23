@@ -9,7 +9,6 @@ prerequisites:
 - id: romance-emotional-narrative-arc
   type: hard
 builds-toward:
-- romance-emotional-centrality
 - genre-blending-hybridity
 tags:
 - paranormal-romance

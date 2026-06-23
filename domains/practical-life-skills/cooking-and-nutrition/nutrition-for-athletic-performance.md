@@ -11,7 +11,6 @@ prerequisites:
 - id: hydration-and-beverages-nutrition
   type: soft
 builds-toward:
-- cooking-for-dietary-restrictions
 - meal-planning-basics
 tags:
 - nutrition

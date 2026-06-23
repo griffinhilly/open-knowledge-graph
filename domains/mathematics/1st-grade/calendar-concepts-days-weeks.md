@@ -8,9 +8,6 @@ prerequisites:
   type: soft
 - id: number-line-0-to-20
   type: soft
-builds-toward:
-- time-sequencing-daily-events
-- measurement-conversions-customary
 tags:
 - time
 - calendar

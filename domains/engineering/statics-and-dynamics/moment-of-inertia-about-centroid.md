@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: mass-moment-of-inertia
   type: hard
+- id: center-of-mass-vs-centroid
+  type: soft
 builds-toward:
 - principal-axes-and-rotation
 - shear-force-bending-moment-diagrams

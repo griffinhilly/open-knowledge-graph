@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: transition-and-bridge-writing
   type: soft
+- id: simple-song-form
+  type: soft
 builds-toward:
 - formal-proportion-and-balance
 tags:

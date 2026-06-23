@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: play-types-and-developmental-functions
   type: soft
+- id: preschool-social-cognitive-development
+  type: soft
 builds-toward:
 - adolescent-brain-and-behavioral-development
 - developmental-screening-and-assessment

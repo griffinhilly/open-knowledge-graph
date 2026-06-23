@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ecological-niche-overlap-and-differentiation
   type: soft
+- id: resource-competition-and-partitioning
+  type: soft
 builds-toward:
 - ecosystem-stability-resilience-and-tipping-points
 tags:

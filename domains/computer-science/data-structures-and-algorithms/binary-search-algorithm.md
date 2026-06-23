@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: logarithms-intro
   type: soft
+- id: array-representation-operations-efficiency
+  type: hard
 builds-toward:
 - binary-search-trees
 - divide-and-conquer-strategy

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: latent-heating-in-weather-systems
   type: hard
-builds-toward:
-- equivalent-potential-temperature
-- thermodynamic-diagrams
 tags:
 - moisture
 - thermodynamics

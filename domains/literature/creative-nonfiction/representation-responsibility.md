@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: characterization-methods
   type: soft
-builds-toward:
-- biographical-ethics
-- memoir-ethics
 tags:
 - representation
 - responsibility

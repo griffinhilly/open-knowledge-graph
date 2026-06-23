@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: place-value-tens-and-ones
   type: hard
+- id: addition-strategies-counting-on
+  type: soft
+- id: mental-math-strategies-addition-1st
+  type: soft
+- id: mental-math-strategies-subtraction-1st
+  type: soft
 builds-toward:
 - addition-within-100
 - subtraction-within-100

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gdp-and-national-income
   type: hard
+- id: marginal-propensity-to-save-mps
+  type: soft
 builds-toward:
 - trade-balance-national-accounts
 - capital-flows-equilibrium

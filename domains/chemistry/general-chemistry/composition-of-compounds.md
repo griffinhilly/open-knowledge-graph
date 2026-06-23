@@ -6,6 +6,12 @@ course: general-chemistry
 prerequisites:
 - id: molar-mass-and-conversions
   type: hard
+- id: chemical-formula-meaning
+  type: hard
+- id: elements-vs-compounds
+  type: soft
+- id: molecules-and-chemical-formulas
+  type: soft
 builds-toward:
 - writing-ionic-formulas
 - chemical-equations-and-balancing

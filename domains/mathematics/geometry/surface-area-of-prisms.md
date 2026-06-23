@@ -8,6 +8,8 @@ prerequisites:
     type: soft
   - id: polygon-angle-sums
     type: soft
+  - id: surface-area-intro
+    type: hard
 builds-toward:
   - volume-of-prisms-and-cylinders
 tags: [3d-geometry, surface-area, prisms, nets]

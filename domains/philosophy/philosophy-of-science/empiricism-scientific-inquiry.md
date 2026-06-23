@@ -6,6 +6,8 @@ course: philosophy-of-science
 prerequisites:
 - id: philosophy-of-science-intro
   type: hard
+- id: scientific-method-and-observation
+  type: soft
 builds-toward:
 - logical-positivism
 - problem-of-induction

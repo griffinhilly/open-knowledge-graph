@@ -14,8 +14,8 @@ prerequisites:
   type: soft
 - id: volcanic-aerosol-forcing
   type: soft
-builds-toward:
-- climate-projections-modeling
+- id: radiative-forcing-greenhouse-gases
+  type: hard
 tags:
 - sensitivity
 - feedback

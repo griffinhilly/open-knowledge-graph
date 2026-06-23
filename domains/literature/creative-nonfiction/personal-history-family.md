@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: narrative-structures-cross-cultural
   type: soft
-builds-toward:
-- genealogical-writing
-- intergenerational-narrative
 tags:
 - personal-history
 - family

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: precipitation-types-and-processes
   type: soft
+- id: lifted-index-stability
+  type: soft
 builds-toward:
 - severe-weather-systems
 tags:

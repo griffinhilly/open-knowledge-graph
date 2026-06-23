@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: capital-asset-pricing-model
   type: soft
+- id: correlation-and-covariance-matrices
+  type: soft
 builds-toward:
 - portfolio-rebalancing-strategies
 tags:

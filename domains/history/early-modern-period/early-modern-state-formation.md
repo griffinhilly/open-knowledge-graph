@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: protestant-reformation
   type: soft
+- id: feudal-decline-late-medieval
+  type: soft
 builds-toward:
 - absolutism-and-monarchy
 - religious-wars-europe

@@ -11,7 +11,6 @@ prerequisites:
 
 builds-toward:
 - public-health-history
-- immunology-and-immune-system
 tags:
 - history
 - History Of Science

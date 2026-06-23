@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: discourse-and-power
   type: soft
+- id: deleuze-guattari-assemblage
+  type: soft
 tags:
 - posthumanism
 - humanity

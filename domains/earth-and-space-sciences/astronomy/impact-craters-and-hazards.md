@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: lunar-geology-and-history
   type: soft
+- id: comets-asteroids-meteors
+  type: soft
 tags:
 - impacts
 - cratering

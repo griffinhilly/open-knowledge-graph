@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: arithmetic-patterns-sequences-3rd
   type: soft
+- id: skip-counting-patterns-3rd
+  type: soft
 builds-toward:
 - geometric-sequences
 - arithmetic-sequences-and-series

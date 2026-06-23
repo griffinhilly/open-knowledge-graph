@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: nutrient-digestion-and-absorption
   type: hard
+- id: intestinal-barrier-function-and-nutrient-transport
+  type: soft
 tags:
 - vitamins
 - minerals

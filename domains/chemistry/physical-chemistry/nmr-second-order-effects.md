@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nmr-spectroscopy-basics
   type: hard
+- id: perturbation-theory-time-independent
+  type: soft
 builds-toward:
 - structure-elucidation-using-ir-nmr-and-ms
 tags:

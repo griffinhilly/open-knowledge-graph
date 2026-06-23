@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: dorsal-stream-reaching-visuomotor-control
   type: hard
-builds-toward:
-- navigation-neural-basis
-- motion-sickness-vestibular-visual-integration
 tags:
 - optic-flow
 - MST

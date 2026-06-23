@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: political-authority-and-legitimacy
   type: hard
-builds-toward:
-- domination-and-freedom
-- anarchism-and-authority
 tags:
 - power
 - authority

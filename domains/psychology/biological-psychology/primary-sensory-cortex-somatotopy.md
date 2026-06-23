@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: cerebral-cortex-organization
   type: soft
-builds-toward:
-- sensory-integration-association-cortex
-- neuroplasticity-and-experience
 tags:
 - sensory-systems
 - cortex

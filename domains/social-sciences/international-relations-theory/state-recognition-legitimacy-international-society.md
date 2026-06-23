@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: constructivism-wendt
   type: soft
+- id: political-legitimacy-consent
+  type: soft
+- id: sovereignty-westphalian-state-system
+  type: hard
 builds-toward: []
 tags:
 - recognition

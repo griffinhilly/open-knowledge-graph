@@ -16,6 +16,18 @@ prerequisites:
   type: soft
 - id: weather-map-analysis
   type: soft
+- id: convective-instability-indices
+  type: soft
+- id: convective-organization-and-structure
+  type: soft
+- id: latent-heating-in-weather-systems
+  type: soft
+- id: lifted-index-stability
+  type: soft
+- id: severe-weather-storms-and-tornadoes
+  type: soft
+- id: wind-shear-and-vorticity
+  type: soft
 tags:
 - tornado
 - hurricane

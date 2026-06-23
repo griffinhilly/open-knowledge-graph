@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: interior-wall-and-ceiling-maintenance
   type: soft
+- id: power-tools-safety-and-operation
+  type: soft
 tags:
 - drywall
 - walls

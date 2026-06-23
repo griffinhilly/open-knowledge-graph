@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: addition-subtraction-word-problems
   type: soft
+- id: debt-classification-and-characteristics
+  type: soft
 builds-toward:
 - mortgage-and-home-buying
 tags:

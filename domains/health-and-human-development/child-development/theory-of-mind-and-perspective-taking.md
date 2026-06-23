@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: preschool-social-cognitive-development
   type: soft
+- id: object-permanence-and-conservation
+  type: soft
 builds-toward:
 - empathy-development-and-mentalizing
 - peer-relationships-and-social-competence

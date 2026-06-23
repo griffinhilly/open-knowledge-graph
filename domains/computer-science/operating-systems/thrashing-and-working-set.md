@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: page-replacement-algorithms
   type: hard
+- id: demand-paging-and-page-faults
+  type: hard
 tags:
 - thrashing
 - working-set

@@ -14,9 +14,6 @@ prerequisites:
   type: soft
 - id: discrete-math-overview
   type: soft
-builds-toward:
-- algorithmic-auditing
-- data-ethics-governance
 tags:
 - big-data
 - computational

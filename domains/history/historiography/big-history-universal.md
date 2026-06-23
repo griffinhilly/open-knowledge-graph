@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: comparative-global-history
   type: soft
+- id: deep-history-approach
+  type: soft
 tags:
 - big history
 - universal

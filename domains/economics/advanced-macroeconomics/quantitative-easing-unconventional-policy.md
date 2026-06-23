@@ -6,6 +6,8 @@ course: advanced-macroeconomics
 prerequisites:
 - id: zero-lower-bound-monetary-policy
   type: hard
+- id: zero-lower-bound-constraint
+  type: hard
 tags:
 - quantitative-easing
 - unconventional-policy

@@ -10,9 +10,14 @@ prerequisites:
   type: hard
 - id: shock-pathophysiology
   type: hard
-builds-toward:
-- septic-shock
-- multi-organ-failure
+- id: acute-phase-response-and-systemic-effects
+  type: soft
+- id: complement-cascade-pathophysiology
+  type: soft
+- id: inflammatory-mediators-chemokines-pathophysiology
+  type: hard
+- id: inflammatory-mediators-cytokines-and-chemokines
+  type: hard
 tags:
 - sepsis
 - systemic-inflammation

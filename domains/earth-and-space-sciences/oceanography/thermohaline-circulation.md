@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: buoyancy-and-archimedes
   type: soft
+- id: ocean-density-thermal-stratification
+  type: hard
+- id: water-mass-formation-types
+  type: soft
 builds-toward:
 - polar-oceanography
 - sea-level-change

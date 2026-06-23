@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: growth-and-change
   type: hard
-builds-toward:
-- cell-cycle-overview
 tags:
 - life cycle
 - animals

@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: disaccharides-and-polysaccharides
   type: hard
+- id: macronutrients-carbs-protein-fat
+  type: soft
 builds-toward:
 - dietary-fiber-and-gut-health
 - energy-metabolism-and-calories

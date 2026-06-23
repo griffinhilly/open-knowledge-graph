@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: heat-flow-conduction-steady-state
   type: hard
-builds-toward:
-- lithosphere-thickness-and-age
 tags:
 - geothermics
 - plate-tectonics

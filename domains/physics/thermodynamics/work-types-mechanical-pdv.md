@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: first-law-of-thermodynamics
   type: hard
+- id: path-functions-vs-state-functions
+  type: soft
 builds-toward:
 - polytropic-process-index
 - otto-cycle-internal-combustion

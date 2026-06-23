@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: voting-systems-and-mechanics
   type: soft
+- id: voting-representation-mechanisms
+  type: soft
 builds-toward:
 - political-parties-and-party-systems
 - political-culture-and-participation

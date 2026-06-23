@@ -7,7 +7,6 @@ prerequisites:
 - id: what-is-metaphysics
   type: hard
 builds-toward:
-- metaphysical-priority
 - abstract-objects-existence
 tags:
 - ontology

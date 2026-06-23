@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: multiplication-word-problems-3rd
   type: hard
+- id: division-word-problems-3rd
+  type: soft
+- id: subtraction-word-problems-2nd
+  type: hard
+- id: word-problems-addition-subtraction-1st
+  type: hard
 builds-toward:
 - systems-word-problems
 tags:

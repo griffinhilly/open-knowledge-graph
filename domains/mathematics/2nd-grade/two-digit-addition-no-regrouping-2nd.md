@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: decomposing-two-digit-numbers
   type: soft
+- id: place-value-tens-and-ones-2nd-grade
+  type: hard
 builds-toward:
 - addition-two-digit-regrouping-2nd
 tags:

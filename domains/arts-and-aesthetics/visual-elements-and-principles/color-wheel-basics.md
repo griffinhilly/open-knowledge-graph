@@ -6,6 +6,8 @@ course: visual-elements-and-principles
 prerequisites:
 - id: art-from-nature
   type: soft
+- id: discovering-color-through-observation
+  type: soft
 builds-toward:
 - color-mixing
 - color-temperature

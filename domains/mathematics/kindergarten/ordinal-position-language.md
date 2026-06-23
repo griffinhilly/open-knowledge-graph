@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: ordinal-numbers-first-through-tenth
   type: soft
+- id: sequencing-events-in-order
+  type: soft
 builds-toward:
 - ordinal-numbers-first-through-tenth
 tags:

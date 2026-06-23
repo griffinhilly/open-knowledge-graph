@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: systems-of-linear-equations
   type: hard
+- id: column-space
+  type: hard
+- id: gram-schmidt-orthogonalization
+  type: soft
+- id: kernel-and-image
+  type: soft
+- id: orthogonal-projections
+  type: hard
 tags:
 - least squares
 - approximation

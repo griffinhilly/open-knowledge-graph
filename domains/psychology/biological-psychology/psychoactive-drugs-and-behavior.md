@@ -11,7 +11,6 @@ prerequisites:
 - id: dopamine-pathways-reward-motivation
   type: soft
 builds-toward:
-- psychopharmacological-treatment
 - substance-use-disorder
 tags:
 - drugs

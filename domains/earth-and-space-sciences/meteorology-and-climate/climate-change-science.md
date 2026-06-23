@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: climate-zones-and-biomes
   type: soft
+- id: climate-vs-weather
+  type: soft
+- id: earths-radiative-balance
+  type: soft
+- id: greenhouse-effect-basics
+  type: soft
 builds-toward:
 - anthropogenic-climate-forcing
 - feedback-mechanisms-in-climate

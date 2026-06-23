@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: earth-interior-structure
   type: soft
+- id: oceanography-fundamentals
+  type: soft
 builds-toward:
 - seafloor-spreading-mid-ocean-ridges
 - ocean-sediments-and-stratigraphy

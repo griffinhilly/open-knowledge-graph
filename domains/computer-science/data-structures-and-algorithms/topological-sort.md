@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: breadth-first-search
   type: soft
+- id: graph-depth-first-search-applications
+  type: hard
 builds-toward:
 - dynamic-programming-intro
 tags:

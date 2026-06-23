@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: tonal-memory
   type: soft
+- id: form-and-phrase-architecture
+  type: soft
 builds-toward:
 - sonata-form-composition
 tags:

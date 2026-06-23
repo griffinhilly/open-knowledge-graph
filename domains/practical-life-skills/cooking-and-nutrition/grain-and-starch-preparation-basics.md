@@ -6,6 +6,8 @@ course: cooking-and-nutrition
 prerequisites:
 - id: measuring-ingredients-volume-basics
   type: soft
+- id: boiling-and-simmering-water-based-cooking
+  type: soft
 builds-toward:
 - planning-a-balanced-daily-menu
 - lunch-sandwich-and-wrap-assembly

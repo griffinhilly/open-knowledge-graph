@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: thermodynamic-processes
   type: hard
+- id: intensive-and-extensive-properties
+  type: soft
 builds-toward:
 - path-functions-vs-state-functions
 - exact-and-inexact-differentials

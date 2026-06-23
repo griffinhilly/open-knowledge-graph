@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: polarization-of-waves
   type: soft
+- id: dielectric-susceptibility-permittivity
+  type: hard
 builds-toward:
 - dispersion-relations-em-waves
 tags:

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: hippocampal-pattern-separation-overlap
   type: hard
-builds-toward:
-- amnesia-dissociable-memory-systems
-- memory-recovery-hippocampal-reorganization
 tags:
 - MTL
 - declarative-memory

@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: texture-development-in-composition
   type: soft
+- id: cadential-motion-structural-function
+  type: soft
+- id: formal-design-multipart-structure
+  type: hard
+- id: modulation-functional-purpose
+  type: hard
 builds-toward:
 - theme-variation-systematic
 tags:

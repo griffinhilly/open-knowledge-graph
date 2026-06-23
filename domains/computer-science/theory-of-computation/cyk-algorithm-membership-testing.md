@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: dynamic-programming-intro
   type: soft
-builds-toward:
-- pushdown-automata
 tags:
 - cyk
 - parsing

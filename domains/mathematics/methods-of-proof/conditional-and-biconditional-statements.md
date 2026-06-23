@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: biconditional-and-equivalence
   type: soft
+- id: biconditional-statements-intro
+  type: hard
 builds-toward:
 - proof-by-contrapositive
 - proof-by-contradiction

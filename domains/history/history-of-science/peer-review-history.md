@@ -9,8 +9,6 @@ prerequisites:
 - id: science-funding-institutions
   type: hard
 
-builds-toward:
-- science-ethics-and-responsibility
 tags:
 - history
 - History Of Science

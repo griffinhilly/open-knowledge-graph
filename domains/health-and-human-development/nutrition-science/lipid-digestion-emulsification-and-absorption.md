@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: membrane-transport-mechanisms
   type: hard
+- id: digestive-enzyme-secretion-and-regulation
+  type: soft
 builds-toward:
 - lipid-profiles-cardiovascular-health-and-disease-risk
 - nutrient-interactions-synergies-and-antagonisms

@@ -6,9 +6,9 @@ course: genre-fiction
 prerequisites:
 - id: fantasy-genre
   type: hard
-- id: contemporary-setting
-  type: hard
 - id: setting-and-atmosphere
+  type: soft
+- id: genre-world-building-consistency
   type: soft
 builds-toward:
 - genre-blending-hybridity

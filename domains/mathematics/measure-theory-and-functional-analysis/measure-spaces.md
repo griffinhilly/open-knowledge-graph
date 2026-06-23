@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: outer-measure
   type: soft
+- id: measurable-sets-properties
+  type: hard
 builds-toward:
 - lebesgue-measure-real-line
 tags:

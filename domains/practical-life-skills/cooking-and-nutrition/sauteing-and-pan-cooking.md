@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: vegetable-preparation
   type: soft
+- id: burner-heat-level-control
+  type: hard
 builds-toward:
 - seasoning-and-flavor-basics
 tags:

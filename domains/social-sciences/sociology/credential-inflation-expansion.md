@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: status-attainment-processes
   type: hard
+- id: sociology-of-work-occupations
+  type: soft
 builds-toward:
 - meritocracy-myth-critique
 tags:

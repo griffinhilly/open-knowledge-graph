@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: separation-axioms-t0-t1-t2
   type: hard
+- id: separation-axioms
+  type: soft
 builds-toward:
 - compactness-hausdorff-spaces
 - metrization-theorems

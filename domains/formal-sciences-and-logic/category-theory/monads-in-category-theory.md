@@ -20,6 +20,12 @@ prerequisites:
   type: soft
 - id: tensor-products-categories
   type: soft
+- id: adjunction-as-hom-bijection
+  type: hard
+- id: free-objects
+  type: soft
+- id: left-adjoint-functors
+  type: soft
 builds-toward:
 - algebras-over-a-monad
 tags:

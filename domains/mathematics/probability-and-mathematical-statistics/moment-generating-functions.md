@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: taylor-series
   type: soft
+- id: probability-mass-functions
+  type: soft
 builds-toward:
 - characteristic-functions
 - central-limit-theorem-rigorous

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: aggression-theories
   type: hard
-builds-toward:
-- violence-escalation-dehumanization
 tags:
 - aggression
 - situational-factors

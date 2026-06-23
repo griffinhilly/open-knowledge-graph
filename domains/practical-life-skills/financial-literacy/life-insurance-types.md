@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: estate-planning-basics
   type: soft
+- id: assessing-personal-insurance-needs
+  type: soft
 tags:
 - insurance
 - life-insurance

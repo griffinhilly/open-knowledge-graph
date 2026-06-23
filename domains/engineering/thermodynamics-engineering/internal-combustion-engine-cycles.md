@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diesel-cycle-compression-ignition
   type: hard
+- id: power-cycle-thermal-efficiency
+  type: hard
 builds-toward:
 - combustion-stoichiometry-energy-release
 - adiabatic-flame-temperature-calculation

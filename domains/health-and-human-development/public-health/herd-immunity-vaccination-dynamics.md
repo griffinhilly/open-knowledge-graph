@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: outbreak-transmission-models
   type: hard
+- id: vaccines-and-immunity-basics
+  type: hard
 builds-toward:
 - vaccine-effectiveness-evaluation
 tags:

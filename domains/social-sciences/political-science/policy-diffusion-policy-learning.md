@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - international-institutions-and-regimes
-- policy-implementation-evaluation
 tags:
 - policy-diffusion
 - learning

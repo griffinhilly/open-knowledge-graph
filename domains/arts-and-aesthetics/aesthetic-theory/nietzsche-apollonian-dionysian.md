@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: form-content-aesthetics
   type: hard
+- id: schopenhauer-music-metaphysics
+  type: soft
+- id: schopenhauer-will-and-aesthetic-contemplation
+  type: soft
 builds-toward:
 - postmodern-aesthetics-pastiche
 tags:

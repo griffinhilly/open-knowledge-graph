@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - moisture-and-mold-prevention-strategy
-- home-maintenance-planning-budgeting-and-scheduling
 tags:
 - water
 - damage

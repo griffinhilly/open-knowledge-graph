@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: internal-forces-members
   type: soft
+- id: support-reactions-classification
+  type: soft
 builds-toward:
 - rigid-body-kinetics-force-acceleration
 tags:

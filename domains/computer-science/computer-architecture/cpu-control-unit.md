@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: sequential-circuit-design
   type: soft
+- id: instruction-fetch-decode-execute
+  type: hard
 builds-toward:
 - pipelining-fundamentals
 tags:

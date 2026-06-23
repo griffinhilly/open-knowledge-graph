@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reynolds-number
   type: hard
+- id: flow-separation-adverse-pressure-gradient
+  type: hard
 tags:
 - cylinder flow
 - sphere flow

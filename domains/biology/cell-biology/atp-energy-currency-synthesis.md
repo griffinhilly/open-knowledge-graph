@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: chloroplast-photosynthesis-organelle
   type: soft
-builds-toward:
-- metabolic-integration-and-regulation
 tags:
 - atp
 - energy

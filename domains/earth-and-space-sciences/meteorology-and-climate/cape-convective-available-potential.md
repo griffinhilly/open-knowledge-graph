@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: convective-instability-indices
   type: hard
-builds-toward:
-- convective-inhibition-cin
-- severe-weather-parameter-environment
 tags:
 - instability
 - convection

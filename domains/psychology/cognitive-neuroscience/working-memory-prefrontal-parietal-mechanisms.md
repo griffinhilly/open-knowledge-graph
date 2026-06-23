@@ -12,9 +12,6 @@ prerequisites:
   type: soft
 - id: decision-making-neural-mechanisms
   type: soft
-builds-toward:
-- working-memory-capacity-limits-neural-mechanisms
-- interference-resolution-working-memory
 tags:
 - working-memory
 - prefrontal

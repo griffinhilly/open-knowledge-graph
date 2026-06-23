@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: method-of-sections-detailed
   type: soft
+- id: statically-determinate-analysis
+  type: soft
 builds-toward:
 - truss-applications-and-design
 tags:

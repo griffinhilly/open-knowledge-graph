@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: normal-distribution
   type: soft
+- id: type-i-type-ii-errors-tradeoff
+  type: hard
 builds-toward:
 - clinical-trial-design-intro
 - adaptive-trial-designs

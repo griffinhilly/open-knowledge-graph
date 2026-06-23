@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: proving-by-contradiction
   type: soft
+- id: conditional-and-biconditional-statements
+  type: soft
+- id: negation-of-quantifiers
+  type: soft
+- id: proof-by-contradiction-introduction
+  type: hard
+- id: tautologies-and-contradictions-methods-of-proof
+  type: hard
 builds-toward:
 - proof-by-cases-exhaustion
 tags:

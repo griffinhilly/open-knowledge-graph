@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: complement-activation-pathways
   type: hard
-builds-toward:
-- lupus-nephritis-pathophysiology
-- systemic-lupus-erythematosus-pathophysiology
 tags:
 - immune-complex
 - serum-sickness

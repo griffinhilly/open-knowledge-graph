@@ -12,9 +12,6 @@ prerequisites:
   type: hard
 - id: negative-feedback-mechanisms
   type: soft
-builds-toward:
-- metabolic-integration-and-fed-fasted-states
-- reproductive-physiology
 tags:
 - hormonal-axes
 - negative-feedback

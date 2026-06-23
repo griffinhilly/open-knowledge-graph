@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: typography-as-hierarchy-element
   type: soft
+- id: depth-and-spatial-layering
+  type: soft
+- id: design-principles-foundations
+  type: soft
 builds-toward:
 - information-hierarchy-and-wayfinding
 - ui-design-fundamentals

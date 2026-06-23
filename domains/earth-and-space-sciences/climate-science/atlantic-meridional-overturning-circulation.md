@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ocean-heat-transport-mechanism
   type: soft
+- id: wind-buoyancy-driven-circulation
+  type: soft
 builds-toward:
 - climate-tipping-points
 tags:

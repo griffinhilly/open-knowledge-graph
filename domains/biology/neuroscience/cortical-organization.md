@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - sensory-cortical-streams
-- cortical-dynamics
 tags:
 - cortex
 - columns

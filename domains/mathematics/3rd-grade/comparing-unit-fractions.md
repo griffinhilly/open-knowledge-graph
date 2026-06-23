@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: fractions-sixths-eighths
   type: soft
+- id: fractions-halves-fourths-thirds-2nd
+  type: hard
+- id: unit-fractions-halves-thirds-fourths-3rd
+  type: hard
+- id: unit-fractions-sixths-eighths-3rd
+  type: soft
 builds-toward:
 - comparing-fractions
 - equivalent-fractions

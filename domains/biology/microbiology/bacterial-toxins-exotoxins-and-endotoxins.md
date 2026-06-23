@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: host-pathogen-interactions
   type: hard
+- id: gram-positive-vs-gram-negative-bacteria
+  type: soft
 builds-toward:
 - bacterial-virulence-and-disease-mechanisms
 - inflammatory-response-cellular

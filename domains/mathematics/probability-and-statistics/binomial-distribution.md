@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: independence-and-multiplication-rule
   type: hard
+- id: expected-value
+  type: soft
+- id: expected-value-and-variance
+  type: soft
+- id: probability-with-combinatorics-probability-and-statistics
+  type: soft
+- id: variance-of-random-variables
+  type: soft
 builds-toward:
 - normal-distribution
 - sampling-distributions

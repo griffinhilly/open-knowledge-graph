@@ -6,6 +6,8 @@ course: algebra-2
 prerequisites:
   - id: factorial
     type: hard
+  - id: counting-principles-probability-and-statistics
+    type: hard
 builds-toward:
   - combinations
   - probability-with-combinatorics

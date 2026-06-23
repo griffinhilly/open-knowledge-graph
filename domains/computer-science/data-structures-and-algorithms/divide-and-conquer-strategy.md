@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: binary-search-algorithm
   type: soft
+- id: recurrence-relations-analysis-techniques
+  type: soft
 builds-toward:
 - merge-sort
 - quicksort

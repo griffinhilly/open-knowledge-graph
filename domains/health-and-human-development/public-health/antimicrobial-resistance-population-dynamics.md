@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: basic-reproduction-number
   type: soft
-builds-toward:
-- antimicrobial-stewardship-strategies
-- emerging-infectious-disease-surveillance
 tags:
 - antimicrobial-resistance
 - selection

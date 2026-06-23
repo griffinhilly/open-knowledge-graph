@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: autobiographical-authority
   type: soft
-builds-toward:
-- voice-authenticity
-- narrative-reliability
 tags:
 - persona
 - constructed-self

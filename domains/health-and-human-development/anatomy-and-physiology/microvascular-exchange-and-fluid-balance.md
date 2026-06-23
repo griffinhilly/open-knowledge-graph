@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: fluid-balance-and-electrolytes
   type: hard
-builds-toward:
-- edema-and-fluid-disorders
 tags:
 - capillary-exchange
 - starling-forces

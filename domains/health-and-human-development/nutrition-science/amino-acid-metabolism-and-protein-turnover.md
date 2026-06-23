@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: amino-acid-classification-and-properties
   type: hard
+- id: protein-digestion-and-peptide-absorption
+  type: soft
 builds-toward:
 - nutrient-interactions-synergies-and-antagonisms
 - malnutrition-pathophysiology-refeeding-syndrome

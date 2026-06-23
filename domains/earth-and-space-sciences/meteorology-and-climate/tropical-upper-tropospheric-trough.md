@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: subtropical-jet-streams
   type: hard
-builds-toward:
-- tropical-cyclone-structure
-- tropical-weather-systems
 tags:
 - tropical
 - upper-level

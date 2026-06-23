@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: triple-integrals
   type: hard
+- id: double-integrals-polar-coordinates
+  type: soft
 builds-toward:
 - applications-multivariable
 tags:

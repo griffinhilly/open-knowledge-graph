@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nuclear-weapons-and-deterrence
   type: hard
+- id: containment-doctrine-strategy
+  type: soft
 builds-toward:
 - detente-cold-war-easing
 tags:

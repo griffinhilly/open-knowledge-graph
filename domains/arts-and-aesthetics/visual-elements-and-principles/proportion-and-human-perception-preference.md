@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: golden-ratio-in-design
   type: soft
+- id: proportion-scale-in-visual-composition
+  type: soft
 builds-toward:
 - symmetry-types-characteristics-and-effects
 - visual-path-and-compositional-flow-direction

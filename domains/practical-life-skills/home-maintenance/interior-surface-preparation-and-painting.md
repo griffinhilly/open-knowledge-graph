@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: paint-brush-and-roller-techniques
   type: soft
+- id: power-tools-safety-and-operation
+  type: soft
 builds-toward:
 - wall-and-drywall-repair
 tags:

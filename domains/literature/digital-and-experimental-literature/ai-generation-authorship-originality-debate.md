@@ -6,6 +6,10 @@ course: digital-and-experimental-literature
 prerequisites:
 - id: ai-generated-literature-neural
   type: hard
+- id: generative-poetry-algorithms-text
+  type: soft
+- id: procedural-narrative-system-generation
+  type: soft
 tags:
 - ai-generation
 - authorship

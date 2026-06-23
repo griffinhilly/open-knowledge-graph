@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - frames-machines-analysis
-- truss-analysis-geometry
 tags:
 - two-force
 - three-force

@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: neuromuscular-junction
   type: hard
+- id: ligand-gated-ion-channels
+  type: soft
 builds-toward:
 - autonomic-sympathetic-parasympathetic
-- cognitive-attention-circuits
 tags:
 - acetylcholine
 - ach

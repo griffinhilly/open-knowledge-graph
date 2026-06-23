@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - molar-mass-and-conversions
-- mass-spectrometry-intro
 tags:
 - isotopes
 - mass number

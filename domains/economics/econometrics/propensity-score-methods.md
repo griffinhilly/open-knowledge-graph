@@ -6,6 +6,8 @@ course: econometrics
 prerequisites:
 - id: logit-probit-models
   type: hard
+- id: causal-inference-observational-data
+  type: soft
 tags:
 - propensity-score
 - treatment-effects

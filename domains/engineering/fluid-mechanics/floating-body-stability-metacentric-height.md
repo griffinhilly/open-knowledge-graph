@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: floating-body-stability-equilibrium
   type: soft
-builds-toward:
-- open-channel-flow
 tags:
 - buoyancy
 - stability

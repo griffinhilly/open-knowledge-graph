@@ -6,6 +6,8 @@ course: precalculus
 prerequisites:
   - id: right-triangle-trigonometry-intro
     type: hard
+  - id: sine-cosine-tangent-ratios
+    type: hard
 builds-toward:
   - unit-circle
   - law-of-sines

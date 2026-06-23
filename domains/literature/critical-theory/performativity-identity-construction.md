@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: discourse-and-power
   type: soft
+- id: althusserian-interpellation
+  type: soft
 builds-toward:
 - gender-and-sexuality-in-literature
 tags:

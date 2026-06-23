@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: equivalence-relations-and-equivalence-classes
   type: soft
+- id: isomorphism-and-structural-equivalence
+  type: soft
+- id: structure-homomorphisms-embeddings
+  type: soft
 builds-toward:
 - complete-first-order-theories
 - ehrenfeucht-fraisse-games-equivalence

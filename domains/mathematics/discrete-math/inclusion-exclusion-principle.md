@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: counting-principles-fundamentals
   type: hard
+- id: counting-principles
+  type: soft
 builds-toward:
 - derangements
 - generating-functions-discrete

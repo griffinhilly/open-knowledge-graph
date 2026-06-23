@@ -4,8 +4,6 @@ title: 'Coin Recognition: Penny, Nickel, Dime, Quarter'
 domain: mathematics
 course: kindergarten
 prerequisites: []
-builds-toward:
-- counting-coins-within-20-cents
 tags:
 - money
 - coins

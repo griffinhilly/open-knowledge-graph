@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: species-counterpoint
   type: hard
+- id: voice-independence-counterpoint-ear
+  type: soft
 builds-toward:
 - invertible-counterpoint-advanced
 tags:

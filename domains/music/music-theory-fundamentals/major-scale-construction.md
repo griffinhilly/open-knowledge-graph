@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: note-names-and-octaves
   type: hard
+- id: whole-step-half-step-fundamentals
+  type: hard
 builds-toward:
 - major-scales
 - key-signatures

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: email-fundamentals
   type: soft
+- id: keeping-yourself-safe-online
+  type: soft
 builds-toward:
 - digital-privacy-fundamentals
 tags:

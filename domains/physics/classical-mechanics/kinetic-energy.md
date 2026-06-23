@@ -6,6 +6,12 @@ course: classical-mechanics
 prerequisites:
 - id: work-and-energy
   type: hard
+- id: kinetic-energy-formula
+  type: soft
+- id: kinetic-energy-intro
+  type: soft
+- id: what-is-energy
+  type: soft
 builds-toward:
 - work-energy-theorem
 - conservation-of-energy

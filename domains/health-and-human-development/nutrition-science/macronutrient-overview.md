@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: digestive-anatomy-and-motility
   type: soft
+- id: healthy-foods-and-nutrition
+  type: soft
+- id: macronutrients-carbs-protein-fat
+  type: hard
 builds-toward:
 - carbohydrate-structure-and-function
 - dietary-fats-and-lipids

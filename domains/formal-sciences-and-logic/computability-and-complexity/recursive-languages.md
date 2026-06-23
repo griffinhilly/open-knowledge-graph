@@ -12,8 +12,9 @@ prerequisites:
   type: hard
 - id: functions-and-function-properties
   type: soft
+- id: formal-computational-models
+  type: hard
 builds-toward:
-- recursively-enumerable-languages
 - complexity-class-definitions-hierarchy
 tags:
 - decidability

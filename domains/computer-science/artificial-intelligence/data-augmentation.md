@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - transfer-learning-neural
-- neural-networks-intro
 tags:
 - augmentation
 - synthetic-data

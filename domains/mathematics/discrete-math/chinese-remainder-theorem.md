@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: parity-arguments-discrete
   type: soft
+- id: bezout-identity
+  type: soft
 tags:
 - number-theory
 - crt

@@ -9,7 +9,6 @@ prerequisites:
 - id: addition-within-20
   type: hard
 builds-toward:
-- addition-fact-families
 - place-value-tens-and-ones
 tags:
 - decomposition

@@ -4,7 +4,7 @@ title: 'Early Reader Conventions: Phonics and Controlled Vocabulary'
 domain: literature
 course: childrens-and-ya-literature
 prerequisites:
-- id: stories-and-narrative
+- id: story-and-narrative-basics
   type: hard
 builds-toward:
 - chapter-book-transition-form

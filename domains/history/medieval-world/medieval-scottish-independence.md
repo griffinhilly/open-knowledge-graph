@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: feudalism
   type: soft
-builds-toward:
-- english-enclosure-movement
 tags:
 - scotland
 - independence

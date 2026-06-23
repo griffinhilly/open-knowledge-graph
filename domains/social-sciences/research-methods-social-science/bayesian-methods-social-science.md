@@ -28,9 +28,6 @@ prerequisites:
   type: soft
 - id: research-integrity-open-science-social
   type: soft
-builds-toward:
-- bayesian-network-models-causal
-- hierarchical-bayesian-models
 tags:
 - bayesian
 - inference

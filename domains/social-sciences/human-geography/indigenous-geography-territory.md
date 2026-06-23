@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: human-environment-adaptation
   type: hard
+- id: political-territory-power
+  type: soft
 builds-toward:
 - climate-human-geography
 tags:

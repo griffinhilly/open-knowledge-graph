@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: figure-drawing-fundamentals
   type: soft
+- id: linear-perspective-renaissance
+  type: hard
 builds-toward:
 - baroque-art-and-drama
 tags:

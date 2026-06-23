@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: space-complexity-classes
   type: hard
+- id: time-hierarchy-theorem
+  type: soft
 tags:
 - complexity-classes
 - exponential-bounds

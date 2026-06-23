@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: axiom-of-power-set
   type: hard
+- id: aleph-and-beth-hierarchy-introduction
+  type: soft
+- id: aleph-numbers
+  type: soft
 builds-toward:
 - continuum-hypothesis
 tags:

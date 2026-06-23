@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: circular-motion-dynamics
   type: hard
-builds-toward:
-- magnetic-field-from-current-element
 tags:
 - magnetism
 - dipoles

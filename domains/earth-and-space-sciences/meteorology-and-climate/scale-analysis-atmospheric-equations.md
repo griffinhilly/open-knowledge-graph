@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: thermodynamic-diagram-analysis
   type: soft
-builds-toward:
-- quasi-geostrophic-approximation
-- gravity-waves-stable-air
 tags:
 - scaling
 - approximations

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cd8-cytotoxic-t-cells
   type: soft
+- id: immune-tolerance-central-and-peripheral
+  type: soft
 tags:
 - clinical
 - transplantation

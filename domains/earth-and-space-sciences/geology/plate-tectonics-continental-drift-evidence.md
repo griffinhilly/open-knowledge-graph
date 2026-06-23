@@ -6,6 +6,8 @@ course: geology
 prerequisites:
 - id: earth-interior-structure
   type: hard
+- id: continental-drift-intro
+  type: soft
 builds-toward:
 - plate-boundary-processes-interactions
 tags:

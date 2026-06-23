@@ -7,7 +7,6 @@ prerequisites:
 - id: sociological-research-methods
   type: hard
 builds-toward:
-- industrialization-social-change
 - urbanization-and-city-life
 tags:
 - society-types

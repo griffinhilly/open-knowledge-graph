@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: directed-acyclic-graphs
   type: hard
+- id: inverse-probability-weighting
+  type: soft
+- id: propensity-score-analysis
+  type: soft
 builds-toward:
 - marginal-structural-models
 - time-varying-confounders

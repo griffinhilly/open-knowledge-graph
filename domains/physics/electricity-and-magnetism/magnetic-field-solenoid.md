@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: ampere-law-field
   type: hard
+- id: electromagnets-intro
+  type: soft
 builds-toward:
 - self-inductance
 tags:

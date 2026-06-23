@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: covalent-bonding
   type: soft
+- id: minerals-basics
+  type: soft
 builds-toward:
 - igneous-rocks
 - sedimentary-rocks

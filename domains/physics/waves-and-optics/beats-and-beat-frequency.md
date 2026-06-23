@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sound-waves-intro
   type: soft
+- id: superposition-principle-waves
+  type: hard
 tags:
 - beats
 - beat frequency

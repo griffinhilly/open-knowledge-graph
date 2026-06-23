@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vedic-texts-cosmology
   type: soft
+- id: sanskrit-drama-rasa-aesthetic-theory
+  type: hard
 builds-toward:
 - dramatic-form-and-structure-types
 tags:

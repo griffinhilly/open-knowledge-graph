@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: social-influence-compliance
   type: hard
-builds-toward:
-- deindividuation-in-groups
-- responsibility-diffusion
+- id: conformity-types-and-mechanisms
+  type: soft
 tags:
 - obedience
 - authority

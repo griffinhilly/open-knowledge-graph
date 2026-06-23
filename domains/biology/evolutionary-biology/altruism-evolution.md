@@ -6,9 +6,6 @@ course: evolutionary-biology
 prerequisites:
 - id: hamilton-rule
   type: hard
-builds-toward:
-- reciprocal-altruism
-- cooperation-evolution
 tags:
 - selection
 - sociobiology

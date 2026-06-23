@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spectrum-and-number-of-models
   type: soft
+- id: complete-theory-of-structures
+  type: hard
 builds-toward:
 - ryll-nardzewski-categoricity-theorem
 tags:

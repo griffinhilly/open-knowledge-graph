@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-ecology-intro
   type: soft
+- id: competition-and-niches
+  type: hard
 builds-toward:
 - competition-types-outcomes
 - community-assembly-rules

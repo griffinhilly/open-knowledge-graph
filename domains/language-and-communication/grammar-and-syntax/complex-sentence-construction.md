@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: verb-tense
   type: soft
+- id: subordinating-conjunctions
+  type: hard
 builds-toward:
 - sentence-combining
 - tense-consistency

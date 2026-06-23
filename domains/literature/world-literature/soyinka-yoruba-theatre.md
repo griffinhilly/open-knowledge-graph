@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dramatic-form-and-structure-types
   type: soft
+- id: oral-performance-theatre-mask-ritual-african
+  type: soft
 builds-toward:
 - dramatic-form-and-structure-types
 tags:

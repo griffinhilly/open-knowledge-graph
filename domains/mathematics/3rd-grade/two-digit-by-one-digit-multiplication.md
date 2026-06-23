@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: place-value-tens-and-ones
   type: soft
+- id: multiplication-facts-within-100
+  type: hard
 builds-toward:
 - multi-digit-multiplication
 tags:

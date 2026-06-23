@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: adaptive-landscape-crossing
   type: soft
+- id: fixation-probability
+  type: hard
 builds-toward:
 - molecular-evolution-rates
 - slightly-deleterious-mutations

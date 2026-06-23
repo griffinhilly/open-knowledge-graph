@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: tietze-extension-theorem
   type: soft
-builds-toward:
-- stone-cech-compactification
 tags:
 - tychonoff
 - product-compactness

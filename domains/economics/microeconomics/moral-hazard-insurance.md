@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: moral-hazard-contracting
   type: soft
+- id: information-asymmetry-and-selection
+  type: soft
 tags:
 - moral-hazard
 - incentives

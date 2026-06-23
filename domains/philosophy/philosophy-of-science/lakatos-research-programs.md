@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: popper-falsificationism
   type: soft
+- id: falsifiability-criterion
+  type: hard
 builds-toward:
 - feyerabend-methodology-anarchy
 - scientific-realism

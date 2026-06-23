@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: standard-error-of-estimators
   type: hard
+- id: central-limit-theorem-theory
+  type: hard
 builds-toward:
 - confidence-intervals-means
 - confidence-intervals-proportions

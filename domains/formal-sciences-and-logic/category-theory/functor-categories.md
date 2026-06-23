@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functors
   type: hard
+- id: functor-composition
+  type: hard
 builds-toward:
 - yoneda-lemma
 - representable-functors

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: intro-to-fractions-4th-grade
   type: soft
+- id: fractions-halves-fourths-thirds-2nd
+  type: hard
 builds-toward:
 - comparing-fractions
 - mixed-numbers-and-improper-fractions

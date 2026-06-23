@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: water-damage-mold-basics
   type: hard
+- id: moisture-intrusion-identification-and-sources
+  type: soft
+- id: water-infiltration-problem-diagnosis
+  type: soft
 builds-toward:
 - basement-moisture-management
 tags:

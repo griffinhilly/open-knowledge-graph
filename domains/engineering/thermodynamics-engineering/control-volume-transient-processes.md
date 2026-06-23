@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - transient-filling-emptying-tanks
-- exergy-balance-unsteady-flow
 tags:
 - transient
 - unsteady-flow

@@ -16,9 +16,6 @@ prerequisites:
   type: soft
 - id: egalitarianism
   type: soft
-builds-toward:
-- economic-systems-justice
-- welfare-redistribution
 tags:
 - property
 - distribution

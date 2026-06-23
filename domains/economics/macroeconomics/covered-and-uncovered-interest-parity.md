@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: liquidity-preference-theory-keynes
   type: soft
+- id: spot-forward-rate-relationships
+  type: soft
 builds-toward:
 - exchange-rate-regimes-and-monetary-policy
 tags:

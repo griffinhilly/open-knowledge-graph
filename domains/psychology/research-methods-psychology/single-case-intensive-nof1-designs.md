@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: variable-definition-and-operational-measurement
   type: hard
-builds-toward:
-- internal-validity-confounds-and-control
 tags:
 - single-case
 - within-subject

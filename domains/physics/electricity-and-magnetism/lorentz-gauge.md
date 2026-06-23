@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - retarded-potentials
-- electromagnetic-waves-in-media
 tags:
 - gauge-choices
 - lorentz

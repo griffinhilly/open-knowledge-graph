@@ -6,6 +6,8 @@ course: biochemistry
 prerequisites:
 - id: michaelis-menten-enzyme-kinetics
   type: hard
+- id: competitive-enzyme-inhibition
+  type: soft
 builds-toward:
 - irreversible-enzyme-inhibition
 - allosteric-enzyme-regulation

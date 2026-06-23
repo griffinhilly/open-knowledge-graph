@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: compensator-realization-active-passive
   type: soft
+- id: gain-phase-margins-stability-robustness
+  type: soft
+- id: time-domain-performance-specifications
+  type: soft
 builds-toward:
 - root-locus-pole-placement
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: chord-quality-by-ear
   type: soft
+- id: root-movement-recognition-ear
+  type: soft
 builds-toward:
 - form-recognition-by-ear
 tags:

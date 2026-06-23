@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basic-hand-tools
   type: soft
+- id: roofing-systems-overview
+  type: soft
 builds-toward: []
 tags:
 - exterior-maintenance

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: calibration-curve-methods
   type: soft
+- id: quantitative-analysis-sample-preparation
+  type: soft
 builds-toward:
 - gas-chromatography-mass-spectrometry-gc-ms
 - two-dimensional-chromatography-comprehensive

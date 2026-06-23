@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tagore-spiritual-modernity
   type: soft
+- id: sufi-mystical-poetry-ecstatic-tradition
+  type: soft
 builds-toward:
 - modernism-international-movements
 tags:

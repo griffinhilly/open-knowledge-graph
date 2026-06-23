@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: enzyme-kinetics
   type: hard
-builds-toward:
-- metabolic-integration-and-regulation
 tags:
 - enzyme
 - catalyst

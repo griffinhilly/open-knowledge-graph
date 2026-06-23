@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: genre-boundary-crossing
   type: soft
-builds-toward:
-- literary-experimentation-form
-- reader-expectation-manipulation
+- id: genre-subgenres-taxonomy
+  type: soft
 tags:
 - genre-hybridity
 - blending

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: emphasis-focal-point-and-hierarchy
   type: soft
+- id: movement-through-line-direction-coordination
+  type: soft
 builds-toward:
 - integrating-elements-principles-visual-design
 tags:

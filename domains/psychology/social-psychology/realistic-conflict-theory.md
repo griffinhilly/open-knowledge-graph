@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - superordinate-goals-conflict-reduction
-- intergroup-violence-prevention
 tags:
 - intergroup conflict
 - resource competition

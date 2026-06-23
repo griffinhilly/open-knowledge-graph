@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: figure-ground-and-visual-separation
   type: soft
+- id: exploring-shape-and-two-dimensional-form
+  type: soft
 builds-toward:
 - visual-hierarchy-in-design
 - icon-and-symbol-design

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: equilibrium-rigid-bodies
   type: soft
+- id: particle-equilibrium-conditions
+  type: soft
 builds-toward:
 - statically-determinate-analysis
 - truss-joint-and-section-methods

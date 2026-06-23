@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-basics
   type: soft
+- id: fad-fadh2-and-other-redox-carriers
+  type: hard
 builds-toward:
 - atp-synthesis
 - light-reactions

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: borel-sigma-algebra
   type: soft
+- id: measure-spaces
+  type: hard
 builds-toward:
 - lebesgue-integral-simple-functions
 - riemann-lebesgue-comparison

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: carbohydrate-structure-and-classification
   type: soft
+- id: carbohydrate-digestion-and-monosaccharide-absorption
+  type: soft
 tags:
 - carbohydrates
 - glucose

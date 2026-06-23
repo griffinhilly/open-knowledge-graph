@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: binomial-distribution
   type: soft
+- id: confidence-intervals-framework
+  type: hard
 builds-toward:
 - hypothesis-testing-fundamentals
 tags:

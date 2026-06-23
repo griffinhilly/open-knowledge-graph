@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: mitochondrion-energy-production
   type: hard
-builds-toward:
-- exercise-physiology-cardiovascular-adaptation
 tags:
 - oxygen
 - aerobic metabolism

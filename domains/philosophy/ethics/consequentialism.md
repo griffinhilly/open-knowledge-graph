@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: agent-centered-vs-patient-centered-ethics
   type: soft
+- id: consequences-in-moral-evaluation
+  type: hard
+- id: intrinsic-vs-extrinsic-value
+  type: soft
+- id: moral-constraints-vs-promotion
+  type: soft
+- id: normative-ethics-overview
+  type: soft
 builds-toward:
 - utilitarianism
 - act-vs-rule-utilitarianism

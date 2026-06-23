@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: characterization-methods
   type: soft
+- id: mystery-genre-puzzle-structure
+  type: hard
 builds-toward:
 - mystery-genre-puzzle-structure
 - hardboiled-noir-moral-ambiguity

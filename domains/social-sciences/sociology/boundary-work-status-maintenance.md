@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: culture-concept
   type: hard
+- id: in-group-out-group-dynamics
+  type: soft
 builds-toward:
 - occupational-closure-monopoly
 tags:

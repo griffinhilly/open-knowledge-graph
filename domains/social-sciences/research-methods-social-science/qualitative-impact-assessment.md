@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: research-design-advanced
   type: soft
-builds-toward:
-- realist-evaluation
-- most-significant-change-stories
+- id: applied-sociology-evaluation
+  type: soft
 tags:
 - qualitative
 - impact

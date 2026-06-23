@@ -6,6 +6,8 @@ course: literary-movements-and-periods
 prerequisites:
 - id: realism-movement-overview
   type: hard
+- id: russian-19th-century-novel-psychological-realism
+  type: soft
 builds-toward:
 - psychological-novel-consciousness
 tags:

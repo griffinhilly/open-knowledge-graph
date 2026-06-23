@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: boundary-layer-theory
   type: soft
+- id: adverse-pressure-gradient-separation
+  type: hard
 tags:
 - drag
 - pressure

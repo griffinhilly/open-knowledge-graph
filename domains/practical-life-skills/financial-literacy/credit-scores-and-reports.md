@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: percent-concept
   type: soft
+- id: credit-reports-contents-and-history
+  type: soft
 builds-toward:
 - debt-management-strategies
 - mortgage-and-home-buying

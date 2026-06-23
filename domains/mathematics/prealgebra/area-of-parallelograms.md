@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: area-rectilinear-shapes
   type: soft
+- id: area-as-multiplication-3rd
+  type: hard
 builds-toward:
 - area-of-triangles
 - area-of-trapezoids

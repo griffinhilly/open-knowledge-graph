@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deterrence-nuclear-strategy
   type: soft
+- id: coordination-games-equilibrium
+  type: soft
 builds-toward:
 - escalation-dynamics-crises
 tags:

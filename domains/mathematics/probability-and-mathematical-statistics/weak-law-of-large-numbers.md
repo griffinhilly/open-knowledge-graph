@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: chebyshev-bounds
   type: soft
+- id: independence-of-sigma-algebras
+  type: soft
+- id: relationships-between-modes-of-convergence
+  type: soft
 builds-toward:
 - strong-law-of-large-numbers
 - central-limit-theorem-rigorous

@@ -7,9 +7,6 @@ prerequisites:
 - id: medieval-trade-revival
   type: soft
 
-builds-toward:
-- social-insurance-systems
-- risk-and-uncertainty-economics
 tags:
 - history
 - Economic Social History

@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - voting-systems-and-mechanics
-- political-parties-organization
-- political-representation-theory
 tags:
 - representation
 - delegation

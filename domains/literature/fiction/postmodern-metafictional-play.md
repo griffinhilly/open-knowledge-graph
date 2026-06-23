@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiperspectival-ensemble
   type: soft
+- id: narrative-time-experimentation
+  type: soft
 builds-toward: []
 tags:
 - metafiction

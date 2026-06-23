@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: cell-membrane-structure
   type: soft
+- id: heart-and-blood
+  type: soft
 builds-toward:
 - cardiac-cycle-and-heart-function
 - blood-composition-and-function

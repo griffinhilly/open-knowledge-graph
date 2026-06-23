@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: deep-sea-ecosystems
   type: soft
-builds-toward:
-- submarine-canyon-sediment-dynamics
 tags:
 - hydrothermal-vents
 - chemosynthesis

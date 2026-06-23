@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mass-moment-of-inertia
   type: hard
+- id: rigid-body-kinetics-force-acceleration
+  type: soft
 builds-toward:
 - vibrations-single-dof
 tags:

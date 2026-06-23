@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - glacial-interglacial-cycles
-- enso-mechanisms-teleconnections
 tags:
 - precession
 - orbital

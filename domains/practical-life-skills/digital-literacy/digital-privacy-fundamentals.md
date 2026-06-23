@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: phishing-and-scams
   type: soft
+- id: data-privacy-personal-information
+  type: soft
 builds-toward:
 - social-media-literacy
 - online-account-management

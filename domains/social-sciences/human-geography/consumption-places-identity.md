@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: economic-production-distribution
   type: hard
-builds-toward:
-- climate-human-geography
 tags:
 - consumption
 - identity

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cylindrical-coordinates
   type: soft
+- id: spherical-coordinates
+  type: hard
 builds-toward:
 - change-of-variables-jacobian
 tags:

@@ -6,6 +6,8 @@ course: research-methods-psychology
 prerequisites:
 - id: inferential-statistics-psychology
   type: hard
+- id: effect-size-reporting-interpretation
+  type: soft
 builds-toward:
 - multiple-comparisons-and-corrections
 tags:

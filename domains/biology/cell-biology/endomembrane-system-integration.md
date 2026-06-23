@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: active-transport
   type: hard
+- id: eukaryotic-cell-compartmentalization
+  type: soft
 builds-toward:
 - receptor-mediated-endocytosis
 tags:

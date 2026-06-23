@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: arrangement-ensemble-voicing
   type: soft
+- id: orchestration-timbre-choices
+  type: soft
 tags:
 - arrangement
 - orchestration

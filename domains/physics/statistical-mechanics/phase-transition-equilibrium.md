@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: statistical-interpretation-of-entropy
   type: soft
+- id: thermodynamic-limit-statmech
+  type: soft
 builds-toward:
 - critical-phenomena-statmech
 - ising-model-statmech

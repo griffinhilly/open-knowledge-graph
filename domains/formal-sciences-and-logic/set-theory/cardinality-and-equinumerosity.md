@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bijection-counting-principle
   type: soft
+- id: bijections-establish-equinumerosity
+  type: hard
 builds-toward:
 - finite-sets-and-natural-numbers
 - countably-infinite-sets

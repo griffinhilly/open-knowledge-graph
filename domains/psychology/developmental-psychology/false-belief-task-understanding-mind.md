@@ -6,6 +6,8 @@ course: developmental-psychology
 prerequisites:
 - id: theory-of-mind-development
   type: hard
+- id: animism-and-magical-thinking-preoperational
+  type: soft
 builds-toward:
 - peer-influence-conformity-social-development
 - prosocial-behavior-empathy-development

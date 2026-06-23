@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: solar-radiation-and-earth-energy-balance
   type: soft
+- id: ocean-density-thermal-stratification
+  type: hard
 builds-toward:
 - thermohaline-circulation
 - marine-heat-content-and-thermal-inertia

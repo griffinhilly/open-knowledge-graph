@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: wind-buoyancy-driven-circulation
   type: soft
+- id: paleoceanography-proxy-reconstruction
+  type: soft
 builds-toward:
 - abrupt-climate-change-mechanisms
 - paleoclimate-data-model-comparison

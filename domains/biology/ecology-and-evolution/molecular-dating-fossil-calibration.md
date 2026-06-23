@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: poisson-distribution
   type: soft
-builds-toward:
-- paleontology-fossil-record
 tags:
 - molecular-clock
 - dating

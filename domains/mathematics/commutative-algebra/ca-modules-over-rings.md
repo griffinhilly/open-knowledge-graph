@@ -14,8 +14,6 @@ builds-toward:
 - ca-exact-sequences
 - ca-tensor-products
 - ca-nakayama-lemma
-- ca-projective-modules
-- ca-injective-modules
 - ca-associated-primes
 tags:
 - module

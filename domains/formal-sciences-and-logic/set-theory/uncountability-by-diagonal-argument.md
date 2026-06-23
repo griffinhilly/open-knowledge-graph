@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - continuum-hypothesis
-- cardinality-hierarchy-uncountable
 tags:
 - uncountability
 - diagonal-argument

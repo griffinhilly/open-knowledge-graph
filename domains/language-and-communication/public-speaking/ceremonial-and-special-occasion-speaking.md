@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: informative-speaking
   type: soft
+- id: epideictic-rhetoric-praise-blame
+  type: hard
 tags:
 - ceremonial
 - eulogy

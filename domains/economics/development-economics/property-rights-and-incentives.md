@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: externalities-and-market-failure
   type: soft
+- id: institutions-economic-development
+  type: soft
 builds-toward:
 - land-tenure-security
 - institutions-economic-development

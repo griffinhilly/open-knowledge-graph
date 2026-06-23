@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ocean-circulation-and-climate
   type: soft
+- id: ekman-boundary-layer-transport
+  type: hard
 builds-toward:
 - ocean-atmosphere-interactions
 - el-nino-southern-oscillation

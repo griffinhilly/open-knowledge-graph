@@ -6,6 +6,8 @@ course: computer-networking
 prerequisites:
 - id: osi-model-layers
   type: hard
+- id: network-fundamentals
+  type: hard
 builds-toward:
 - error-detection-and-correction
 tags:

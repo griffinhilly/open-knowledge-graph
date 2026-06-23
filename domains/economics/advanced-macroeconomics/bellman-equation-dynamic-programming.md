@@ -18,7 +18,6 @@ prerequisites:
   type: soft
 builds-toward:
 - euler-equation-intertemporal-choice
-- solow-growth-model
 tags:
 - dynamic-optimization
 - recursive-methods

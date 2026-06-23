@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
+- id: automata-fundamentals-and-models
+  type: soft
 builds-toward:
 - nfa-to-dfa-conversion
 - kleene-theorem

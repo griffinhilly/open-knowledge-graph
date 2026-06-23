@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: exponential-functions-and-graphs
   type: soft
+- id: microcanonical-ensemble
+  type: soft
+- id: statistical-ensembles-intro
+  type: hard
 builds-toward:
 - partition-function-definition
 - helmholtz-free-energy

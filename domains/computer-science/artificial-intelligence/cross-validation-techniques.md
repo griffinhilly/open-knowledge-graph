@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: statistics-descriptive
   type: soft
+- id: overfitting-underfitting
+  type: soft
 builds-toward:
 - hyperparameter-optimization
 tags:

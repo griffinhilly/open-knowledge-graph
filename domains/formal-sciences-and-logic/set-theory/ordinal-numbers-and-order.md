@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: transfinite-induction
   type: hard
+- id: natural-numbers-as-iterative-construction
+  type: hard
+- id: well-founded-relations-and-recursion
+  type: soft
 builds-toward:
 - ordinal-arithmetic
 - aleph-numbers

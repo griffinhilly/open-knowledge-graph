@@ -16,6 +16,12 @@ prerequisites:
   type: soft
 - id: nutritional-assessment-methods
   type: soft
+- id: insulin-signaling-glucose-regulation
+  type: soft
+- id: metabolic-fed-fasted-state-integration
+  type: soft
+- id: satiety-signals-appetite-regulation
+  type: soft
 tags:
 - obesity
 - metabolic syndrome

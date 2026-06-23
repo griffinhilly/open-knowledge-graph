@@ -10,9 +10,10 @@ prerequisites:
   type: soft
 - id: civil-disobedience-and-resistance
   type: soft
+- id: authority-legitimacy-sources
+  type: soft
 builds-toward:
 - revolution-resistance-justified
-- legal-obligation-morality
 tags:
 - civil-disobedience
 - protest

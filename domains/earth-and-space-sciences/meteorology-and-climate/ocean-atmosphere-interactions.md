@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: climate-zones-and-biomes
   type: soft
+- id: surface-energy-balance
+  type: soft
+- id: surface-energy-budget-fluxes
+  type: soft
 builds-toward:
 - climate-change-science
 - paleoclimatology

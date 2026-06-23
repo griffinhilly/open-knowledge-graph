@@ -12,8 +12,13 @@ prerequisites:
   type: soft
 - id: thermodynamic-processes
   type: soft
+- id: energy-balance-models
+  type: soft
+- id: radiative-convective-equilibrium
+  type: soft
+- id: two-layer-energy-balance
+  type: soft
 builds-toward:
-- climate-projections-modeling
 - climate-sensitivity-radiative-feedbacks
 tags:
 - model

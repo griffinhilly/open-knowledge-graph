@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inter-process-communication
   type: soft
+- id: thread-creation-and-lifecycle
+  type: soft
 builds-toward:
 - mutual-exclusion-and-locks
 - semaphores

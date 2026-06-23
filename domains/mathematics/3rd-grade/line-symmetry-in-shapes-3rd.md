@@ -6,8 +6,6 @@ course: 3rd-grade
 prerequisites:
 - id: line-symmetry-3rd
   type: hard
-builds-toward:
-- symmetry-and-transformations
 tags:
 - symmetry
 - shapes

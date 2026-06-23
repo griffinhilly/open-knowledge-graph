@@ -6,6 +6,10 @@ course: human-geography
 prerequisites:
 - id: labor-migration-mobility
   type: hard
+- id: cultural-geography-identity
+  type: soft
+- id: sense-of-place-belonging
+  type: soft
 tags:
 - diaspora
 - transnational

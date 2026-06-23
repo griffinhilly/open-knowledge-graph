@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: optical-path-length-definition
   type: hard
+- id: birefringence-optical-crystals
+  type: hard
 builds-toward:
 - circular-polarization-production
 tags:

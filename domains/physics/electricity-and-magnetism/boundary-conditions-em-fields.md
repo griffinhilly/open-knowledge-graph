@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electric-field-and-coulombs-law
   type: soft
+- id: dielectric-constant-relative-permittivity
+  type: soft
+- id: electric-field-in-dielectrics
+  type: soft
 builds-toward:
 - boundary-value-problems-em
 - electromagnetic-waves-in-media

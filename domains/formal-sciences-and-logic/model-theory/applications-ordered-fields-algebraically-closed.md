@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - o-minimality-and-tame-geometry
-- decidable-theories
 tags:
 - applications
 - fields

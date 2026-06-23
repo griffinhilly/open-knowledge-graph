@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: diatonic-triad-harmonization
   type: hard
+- id: enharmonic-equivalence-pitches
+  type: soft
 builds-toward:
 - secondary-dominant-introduction
 - harmonic-progression-analysis

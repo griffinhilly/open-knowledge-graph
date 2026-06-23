@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: process-states-and-transitions
   type: hard
+- id: process-model-formalization
+  type: soft
 builds-toward:
 - cpu-scheduling-basics
 tags:

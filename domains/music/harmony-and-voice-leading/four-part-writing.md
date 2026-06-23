@@ -20,6 +20,14 @@ prerequisites:
   type: soft
 - id: non-chord-tones
   type: soft
+- id: species-counterpoint
+  type: soft
+- id: voice-leading-basics
+  type: hard
+- id: voice-leading-parallel-fifths-octaves
+  type: soft
+- id: voice-leading-parallel-perfect-intervals
+  type: soft
 builds-toward:
   - secondary-dominants
 tags:

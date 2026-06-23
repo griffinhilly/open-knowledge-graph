@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basic-hand-tools
   type: soft
+- id: exterior-wood-assessment-and-preservation
+  type: soft
 builds-toward: []
 tags:
 - siding

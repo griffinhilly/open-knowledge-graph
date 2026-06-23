@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: heat-treatment-steel-processing
   type: soft
+- id: lever-rule-and-phase-composition
+  type: hard
+- id: phase-transformations-kinetics
+  type: hard
 tags:
 - annealing
 - quenching

@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: kidney-tubular-processing-urine
   type: hard
-builds-toward:
-- blood-pressure-volume-homeostasis
-- fluid-electrolyte-balance-regulation
+- id: glomerular-filtration-pressure
+  type: soft
 tags:
 - renin-angiotensin
 - blood pressure

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: piecewise-functions
   type: soft
+- id: solving-ivps-with-laplace-transforms
+  type: soft
 builds-toward:
 - convolution-theorem
 tags:

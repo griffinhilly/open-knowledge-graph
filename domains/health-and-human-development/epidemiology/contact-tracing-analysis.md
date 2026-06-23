@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: network-epidemiology
   type: soft
+- id: transmission-chain-disease-spread
+  type: hard
 tags:
 - contact-tracing
 - transmission-chains

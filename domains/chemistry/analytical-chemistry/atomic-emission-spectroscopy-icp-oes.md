@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: electronic-transitions-excited-states
   type: soft
+- id: atomic-absorption-spectroscopy-quantitative
+  type: soft
 builds-toward:
 - inductively-coupled-plasma-mass-spectrometry-icp-ms
 tags:

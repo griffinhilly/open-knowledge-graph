@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - public-reason-justification
-- neutrality-perfectionism
 tags:
 - toleration
 - pluralism

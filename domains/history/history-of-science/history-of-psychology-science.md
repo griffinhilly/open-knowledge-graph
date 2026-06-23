@@ -7,9 +7,6 @@ prerequisites:
 - id: enlightenment-science
   type: soft
 
-builds-toward:
-- cognitive-science-history
-- neuroscience-and-brain-research
 tags:
 - history
 - History Of Science

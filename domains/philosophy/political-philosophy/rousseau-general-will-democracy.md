@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: popular-sovereignty-principle
   type: hard
-builds-toward:
-- democratic-participation
-- majority-rule-foundations
 tags:
 - rousseau
 - general-will

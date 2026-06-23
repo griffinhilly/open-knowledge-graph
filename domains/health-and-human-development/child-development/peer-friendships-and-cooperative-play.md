@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: false-belief-understanding-and-theory-of-mind
   type: soft
+- id: emotion-regulation-development-and-coping-skills
+  type: soft
 builds-toward:
 - empathy-development-and-helping-behavior
 tags:

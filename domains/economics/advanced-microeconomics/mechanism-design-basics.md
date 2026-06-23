@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: optimization-multivariable-basics
   type: soft
+- id: bayesian-games
+  type: hard
+- id: quasi-linear-preferences
+  type: soft
 builds-toward:
 - revelation-principle-mechanisms
 - vcg-auction-mechanism

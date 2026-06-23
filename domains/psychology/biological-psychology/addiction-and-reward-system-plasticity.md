@@ -12,9 +12,10 @@ prerequisites:
   type: soft
 - id: intracellular-signaling-and-second-messengers
   type: soft
-builds-toward:
-- substance-use-disorder-treatment
-- relapse-and-context-dependence
+- id: dopamine-receptor-subtypes-and-signaling
+  type: soft
+- id: pharmacology-agonists-antagonists
+  type: soft
 tags:
 - addiction
 - reward

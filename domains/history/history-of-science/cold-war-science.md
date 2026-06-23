@@ -11,7 +11,6 @@ prerequisites:
 
 builds-toward:
 - big-science-paradigm
-- science-policy-and-equity
 tags:
 - history
 - History Of Science

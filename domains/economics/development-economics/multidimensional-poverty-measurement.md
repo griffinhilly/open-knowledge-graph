@@ -6,6 +6,10 @@ course: development-economics
 prerequisites:
 - id: development-measurement-fundamentals
   type: hard
+- id: development-definition-and-measurement
+  type: soft
+- id: economic-development-definition
+  type: soft
 builds-toward:
 - poverty-traps-and-development-thresholds
 tags:

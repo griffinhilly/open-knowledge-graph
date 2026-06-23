@@ -3,7 +3,11 @@ id: place-value-whole-numbers
 title: Place Value for Whole Numbers
 domain: mathematics
 course: 4th-grade
-prerequisites: []
+prerequisites:
+  - id: skip-counting-by-10s-fluency
+    type: soft
+  - id: tens-and-ones-base-ten
+    type: hard
 builds-toward:
   - rounding-whole-numbers
   - comparing-ordering-whole-numbers

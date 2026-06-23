@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: light-and-shadow
   type: soft
+- id: spatial-awareness-depth-on-flat-surfaces
+  type: soft
 builds-toward:
 - unity-and-variety
 tags:

@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: rotational-kinetic-energy
   type: soft
+- id: kinetic-energy-formula
+  type: hard
+- id: work-as-force-times-distance
+  type: hard
 builds-toward:
 - conservation-of-energy
 tags:

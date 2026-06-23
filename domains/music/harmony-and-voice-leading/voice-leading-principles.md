@@ -16,6 +16,12 @@ prerequisites:
   type: soft
 - id: non-chord-tones
   type: soft
+- id: diatonic-chords-major-minor-keys
+  type: soft
+- id: harmonic-progression-analysis
+  type: soft
+- id: voice-leading-basics
+  type: soft
 builds-toward:
 - four-part-writing
 - counterpoint-basics

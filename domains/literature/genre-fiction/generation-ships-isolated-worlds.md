@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: setting-analysis-and-function
   type: hard
-builds-toward:
-- world-building-constraints
-- social-structure-narrative
 tags:
 - science-fiction
 - generation-ships

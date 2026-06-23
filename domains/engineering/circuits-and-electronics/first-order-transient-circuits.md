@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: first-order-linear-odes
   type: hard
+- id: transient-response-rc-circuits
+  type: soft
 builds-toward:
 - second-order-transient-circuits
 tags:

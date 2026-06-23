@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: variables-and-assignment
   type: hard
+- id: functions-decomposing-problems
+  type: soft
 builds-toward:
 - return-values
 - variable-scope

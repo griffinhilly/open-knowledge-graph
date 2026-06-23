@@ -7,7 +7,6 @@ prerequisites:
 - id: power-and-political-order
   type: hard
 builds-toward:
-- comparative-political-systems
 - constitutionalism
 tags:
 - monarchy

@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - validity-evidence-frameworks
-- computerized-adaptive-testing
 tags:
 - criterion-validity
 - prediction

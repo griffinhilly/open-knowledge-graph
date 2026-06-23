@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: transcription
   type: soft
-builds-toward:
-- transfer-rna-structure-and-aminoacylation
 tags:
 - RNA-editing
 - post-transcriptional

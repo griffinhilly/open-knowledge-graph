@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - extending-patterns
-- abc-patterns
 tags:
 - patterns
 - sequencing

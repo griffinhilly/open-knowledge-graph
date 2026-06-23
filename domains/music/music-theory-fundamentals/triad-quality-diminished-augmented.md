@@ -6,6 +6,8 @@ course: music-theory-fundamentals
 prerequisites:
 - id: triad-construction-major-minor
   type: hard
+- id: major-minor-thirds-ear
+  type: soft
 builds-toward:
 - seventh-chord-construction
 - harmonic-function-basics

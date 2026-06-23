@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: metallic-bonding-and-conductivity
   type: soft
+- id: crystal-structures-everyday
+  type: soft
+- id: properties-of-solids
+  type: soft
 builds-toward:
 - states-of-matter-phase-changes
 tags:

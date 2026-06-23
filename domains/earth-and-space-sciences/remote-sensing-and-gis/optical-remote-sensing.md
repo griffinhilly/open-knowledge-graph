@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: passive-vs-active-sensors
   type: hard
+- id: satellite-orbits-remote-sensing
+  type: soft
 builds-toward:
 - multispectral-imaging
 - hyperspectral-imaging

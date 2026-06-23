@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: circuit-theorems-linearity
   type: hard
+- id: DC-steady-state-circuit-solution
+  type: soft
 builds-toward:
 - phasor-notation-and-complex-algebra
 tags:

@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: bowen-fractional-crystallization
   type: soft
-builds-toward:
-- crustal-composition-differentiation
 tags:
 - magmatism
 - crystallization

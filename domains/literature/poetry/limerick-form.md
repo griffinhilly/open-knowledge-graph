@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: meter-and-rhythm-in-poetry
   type: soft
-builds-toward:
-- comedic-timing-and-pacing
 tags:
 - limerick
 - humorous

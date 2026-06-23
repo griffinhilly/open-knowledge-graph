@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: adding-subtracting-polynomials
   type: soft
+- id: distributive-property-multiplication-3rd
+  type: hard
 builds-toward:
 - factoring-trinomials
 - factoring-completely

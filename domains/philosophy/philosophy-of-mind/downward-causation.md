@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiple-realizability
   type: soft
+- id: causal-closure-physical
+  type: soft
 builds-toward:
 - consciousness-causation-efficacy
 tags:

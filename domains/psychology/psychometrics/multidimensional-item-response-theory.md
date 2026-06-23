@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
+- id: dimensionality-assessment-and-bifactor-models
+  type: soft
 builds-toward: []
 tags:
 - irt

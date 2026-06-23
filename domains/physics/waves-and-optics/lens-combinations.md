@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: thin-lens-equation
   type: hard
+- id: lens-power-dioptric-strength
+  type: soft
 builds-toward:
 - optical-instruments
 tags:

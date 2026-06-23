@@ -12,7 +12,6 @@ builds-toward:
 - schurs-lemma
 - maschkes-theorem
 - tensor-product-of-representations
-- dual-representations
 tags:
 - irreducible-representation
 - subrepresentation

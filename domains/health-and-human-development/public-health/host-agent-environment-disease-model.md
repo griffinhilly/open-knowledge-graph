@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: epidemiologic-transition-model
   type: soft
+- id: germs-bacteria-and-viruses
+  type: soft
 builds-toward:
 - infectious-disease-epidemiology
 - disease-surveillance-systems

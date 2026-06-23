@@ -6,8 +6,6 @@ course: sociological-theory
 prerequisites:
 - id: symbolic-interactionism
   type: hard
-builds-toward:
-- phenomenological-sociology
 tags:
 - ethnomethodology
 - micro-sociology

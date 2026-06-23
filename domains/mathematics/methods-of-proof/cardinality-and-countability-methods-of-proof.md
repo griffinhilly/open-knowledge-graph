@@ -6,6 +6,10 @@ course: methods-of-proof
 prerequisites:
 - id: injective-surjective-bijective
   type: hard
+- id: function-composition-and-inverses
+  type: soft
+- id: injective-surjective-bijective-functions
+  type: hard
 tags:
 - cardinality
 - infinity

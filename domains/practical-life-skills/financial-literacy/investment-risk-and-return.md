@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: probability-with-combinatorics
   type: soft
+- id: financial-numeracy-and-quantitative-literacy
+  type: soft
 builds-toward:
 - stock-market-fundamentals
 - bonds-and-fixed-income

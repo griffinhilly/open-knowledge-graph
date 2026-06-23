@@ -9,7 +9,6 @@ prerequisites:
 - id: atomic-structure-basics
   type: soft
 builds-toward:
-- hybridization
 - bonding-antibonding-orbitals
 tags:
 - orbitals

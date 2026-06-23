@@ -6,6 +6,8 @@ course: childrens-and-ya-literature
 prerequisites:
 - id: fairy-tales-and-folklore
   type: hard
+- id: fairy-tale-retellings-contemporary-children
+  type: soft
 tags:
 - fairy-tales
 - fractured-narratives

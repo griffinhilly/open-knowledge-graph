@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: percent-increase-decrease
   type: soft
+- id: community-social-bonds
+  type: soft
+- id: demographic-structure-population
+  type: soft
+- id: industrialization-social-transformation
+  type: soft
 builds-toward:
 - globalization-and-society
 tags:

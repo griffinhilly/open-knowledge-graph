@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: clarity-and-accessibility-in-prose
   type: soft
+- id: sentence-construction-emphasis
+  type: soft
 tags:
 - style
 - writing-craft

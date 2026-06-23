@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: formal-vs-natural-language-semantics
   type: soft
+- id: modal-status-identity-statements
+  type: soft
 builds-toward:
 - direct-reference-theory
 tags:

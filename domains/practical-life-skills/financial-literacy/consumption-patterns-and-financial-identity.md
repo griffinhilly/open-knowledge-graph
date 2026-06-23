@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - personal-budget-fundamentals
 - financial-goal-setting
-- lifestyle-financial-strategy-and-priorities
 tags:
 - behavior
 - psychology

@@ -8,9 +8,9 @@ prerequisites:
   type: hard
 - id: energy-balance-models
   type: soft
+- id: atmospheric-window-radiation
+  type: soft
 builds-toward:
-- radiative-feedback-water-vapor
-- aerosol-radiative-forcing
 - climate-sensitivity-radiative-feedbacks
 tags:
 - forcing

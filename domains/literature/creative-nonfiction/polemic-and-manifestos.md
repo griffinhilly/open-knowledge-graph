@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: cultural-criticism-essay
   type: soft
-builds-toward:
-- intellectual-intervention
-- cultural-argument
 tags:
 - polemic
 - manifesto

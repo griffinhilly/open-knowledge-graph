@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: elastic-deformation-and-moduli-materials
+  type: soft
+- id: toughness-and-ductility-materials
+  type: soft
+- id: toughness-ductility-brittleness
+  type: soft
 builds-toward:
 - fatigue-in-materials
 - fracture-toughness-and-design

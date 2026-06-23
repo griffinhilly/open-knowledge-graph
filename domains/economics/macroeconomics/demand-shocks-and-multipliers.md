@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: fiscal-multiplier
   type: hard
+- id: consumption-determinants-and-function
+  type: hard
+- id: investment-and-capital-formation
+  type: soft
 builds-toward:
 - aggregate-demand
 - supply-shocks-aggregate-disruptions

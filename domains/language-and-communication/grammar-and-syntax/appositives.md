@@ -6,8 +6,6 @@ course: grammar-and-syntax
 prerequisites:
 - id: noun-phrases
   type: hard
-builds-toward:
-- sentence-combining-techniques
 tags:
 - appositives
 - noun-phrases

@@ -6,6 +6,8 @@ course: cell-biology
 prerequisites:
 - id: eukaryotic-cells
   type: hard
+- id: cell-parts-and-jobs
+  type: soft
 builds-toward:
 - nucleus-and-genetic-material
 - mitochondria-structure-and-function

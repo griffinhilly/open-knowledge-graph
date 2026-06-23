@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - systems-consolidation-offline-learning
-- memory-interference-resolution
 tags:
 - hippocampus
 - pattern-separation

@@ -8,6 +8,16 @@ prerequisites:
   type: soft
 - id: medieval-urbanization-growth
   type: soft
+- id: manorial-system-village-agriculture
+  type: soft
+- id: medieval-feudal-fragmentation-power
+  type: soft
+- id: medieval-peasant-rebellions-uprisings
+  type: soft
+- id: medieval-serfdom-manorial-lords
+  type: soft
+- id: urban-burgher-merchant-class
+  type: soft
 builds-toward:
 - early-modern-state-formation
 tags:

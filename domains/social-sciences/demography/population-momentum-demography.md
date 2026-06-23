@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: fertility-measures
   type: soft
+- id: demographic-transition-theory
+  type: soft
+- id: fertility-transition
+  type: soft
 builds-toward:
 - population-projections
 - demographic-dividend

@@ -9,7 +9,6 @@ prerequisites:
 - id: natural-logarithm-and-e
   type: soft
 builds-toward:
-- binomial-distribution-theory
 - normal-distribution-theory
 tags:
 - mgf

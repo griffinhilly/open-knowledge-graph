@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: term-and-atom-fol
   type: hard
+- id: well-formed-formulas-logic
+  type: soft
 builds-toward:
 - literals-and-clauses-cnf
 - normal-forms-cnf-dnf

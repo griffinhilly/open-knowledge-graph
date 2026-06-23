@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: disruptive-selection
   type: soft
+- id: sexual-selection-speciation-driver
+  type: soft
 tags:
 - speciation
 - reproductive-isolation

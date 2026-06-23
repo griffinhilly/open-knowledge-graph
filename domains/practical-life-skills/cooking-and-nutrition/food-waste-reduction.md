@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: grocery-shopping-and-budgeting
   type: soft
+- id: ingredient-shelf-life-storage
+  type: soft
 tags:
 - food-waste
 - sustainability

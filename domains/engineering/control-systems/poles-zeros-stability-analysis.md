@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - characteristic-equation-and-stability
 - root-locus-pole-placement
-- frequency-stability-from-bode-and-nyquist
 tags:
 - poles
 - zeros

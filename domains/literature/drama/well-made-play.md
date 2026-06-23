@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: dramatic-irony-in-drama
   type: soft
+- id: five-act-structure
+  type: soft
+- id: three-act-structure
+  type: soft
 builds-toward:
 - modern-realist-drama
 tags:

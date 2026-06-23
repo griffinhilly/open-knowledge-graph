@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: fantasy-worldbuilding-internal-logic
   type: hard
-builds-toward:
-- world-building-consistency
-- plot-possibility-constraint
 tags:
 - magic-systems
 - worldbuilding

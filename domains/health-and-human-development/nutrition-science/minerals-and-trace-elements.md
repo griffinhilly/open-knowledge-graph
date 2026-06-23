@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ionic-bonding
   type: soft
+- id: vitamins-and-minerals-basics
+  type: hard
 builds-toward:
 - nutritional-deficiency-disorders
 - dietary-guidelines-and-recommendations

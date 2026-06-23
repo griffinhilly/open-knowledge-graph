@@ -6,6 +6,8 @@ course: macroeconomics
 prerequisites:
 - id: consumption-function-keynesian
   type: hard
+- id: consumption-function-and-income-dependency
+  type: hard
 builds-toward:
 - marginal-propensity-to-save-mps
 - fiscal-multiplier

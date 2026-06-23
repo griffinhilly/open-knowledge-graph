@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: gradual-typing-systems
   type: soft
+- id: constraint-based-type-checking
+  type: soft
 tags:
 - type-systems
 - dependent-types

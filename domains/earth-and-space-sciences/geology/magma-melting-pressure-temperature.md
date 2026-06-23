@@ -20,7 +20,6 @@ prerequisites:
   type: soft
 builds-toward:
 - bowen-fractional-crystallization
-- subduction-magmatism
 tags:
 - magma
 - melting

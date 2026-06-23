@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: earthquakes-and-seismology
   type: soft
+- id: earthquakes-and-faults
+  type: soft
 builds-toward:
 - seismic-hazard-assessment
 tags:

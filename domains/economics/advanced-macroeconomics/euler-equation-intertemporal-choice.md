@@ -15,7 +15,6 @@ prerequisites:
 - id: lifecycle-hypothesis-consumption
   type: soft
 builds-toward:
-- solow-growth-model
 - consumption-smoothing-intertemporal
 tags:
 - intertemporal-choice

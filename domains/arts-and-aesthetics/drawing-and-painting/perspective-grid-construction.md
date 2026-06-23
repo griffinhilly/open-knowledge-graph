@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: two-point-perspective
   type: hard
-builds-toward:
-- spatial-recession-and-perspective-intro
 tags:
 - perspective
 - composition

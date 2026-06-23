@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hausdorff-spaces
   type: hard
+- id: compact-sets-definition
+  type: hard
 builds-toward:
 - tychonoff-theorem
 - topological-manifolds-introduction

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: communitarianism
   type: soft
+- id: minority-rights-and-tolerance
+  type: soft
 tags:
 - multiculturalism
 - group-rights

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: moral-constraints-vs-promotion
   type: soft
+- id: moral-pluralism-incommensurability
+  type: soft
 builds-toward:
 - double-effect-doctrine
 tags:

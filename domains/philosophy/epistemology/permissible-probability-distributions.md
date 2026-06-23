@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: probabilistic-reasoning
   type: soft
-builds-toward:
-- bayesian-epistemology
 tags:
 - rationality-constraints
 - probability-assignments

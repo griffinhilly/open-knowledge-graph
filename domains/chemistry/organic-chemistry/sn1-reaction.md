@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: diastereomers-and-meso-compounds
   type: soft
+- id: leaving-groups-nucleofugality
+  type: hard
+- id: nucleophile-electrophile-definitions
+  type: hard
 builds-toward:
 - e1-elimination
 - alcohols-and-ethers

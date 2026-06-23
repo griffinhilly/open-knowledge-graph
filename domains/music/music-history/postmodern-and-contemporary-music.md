@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: early-modernism-20th-century
   type: soft
+- id: modernist-compositional-strategies
+  type: soft
 tags:
 - postmodern
 - contemporary

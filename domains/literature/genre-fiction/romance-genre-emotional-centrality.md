@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - love-triangle-competing-desires
-- romance-subgenres-diversity
 tags:
 - romance
 - genre

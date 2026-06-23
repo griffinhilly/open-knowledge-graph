@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - grimdark-nihilism-decay
-- character-corruption-arc
 tags:
 - dark-fantasy
 - grimdark

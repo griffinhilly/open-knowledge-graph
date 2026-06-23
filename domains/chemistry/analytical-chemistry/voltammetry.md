@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: rc-circuits
   type: soft
+- id: electroanalytical-overview
+  type: soft
 tags:
 - voltammetry
 - cyclic voltammetry

@@ -6,6 +6,8 @@ course: computer-networking
 prerequisites:
 - id: network-security-fundamentals
   type: hard
+- id: firewall-architecture-and-rules
+  type: soft
 tags:
 - ids
 - ips

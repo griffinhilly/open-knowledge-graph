@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-spectrum-astronomy
   type: soft
+- id: nebulae-and-star-formation
+  type: soft
 builds-toward:
   - small-solar-system-bodies
 tags:

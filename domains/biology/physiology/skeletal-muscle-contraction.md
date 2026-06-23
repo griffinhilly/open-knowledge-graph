@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: active-transport
   type: soft
+- id: motor-proteins-cellular-movement
+  type: soft
 tags:
 - muscle contraction
 - sliding filament

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sinusoidal-response-magnitude-phase-angle
   type: soft
+- id: proportional-integral-derivative-combined-action
+  type: hard
 builds-toward:
 - practical-control-system-implementation
 tags:

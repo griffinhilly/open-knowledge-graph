@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: trigonometric-ratios-review
   type: soft
+- id: equations-of-motion-from-free-body-diagrams
+  type: soft
+- id: projectile-motion-conceptual
+  type: soft
 builds-toward:
 - circular-motion-kinematics
 tags:

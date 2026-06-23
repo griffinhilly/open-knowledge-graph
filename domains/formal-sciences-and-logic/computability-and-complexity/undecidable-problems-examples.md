@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rices-theorem
   type: soft
+- id: recursively-enumerable-languages-computability-and-complexity
+  type: soft
 builds-toward:
 - many-one-reductions
 - turing-degrees-equivalence

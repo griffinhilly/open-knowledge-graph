@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-regulation
   type: soft
+- id: extinction-ls
+  type: hard
 tags:
 - extinction
 - speciation

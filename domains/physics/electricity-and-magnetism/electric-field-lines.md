@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: superposition-principle-electrostatics
   type: soft
+- id: electric-fields-intro
+  type: soft
 builds-toward:
 - equipotential-surfaces
 - gauss-law

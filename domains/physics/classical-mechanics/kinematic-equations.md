@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quadratic-formula
   type: soft
+- id: acceleration-and-velocity
+  type: hard
 builds-toward:
 - kinematics-2d
 - projectile-motion

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: literary-criticism-overview
   type: soft
+- id: canon-formation-western
+  type: soft
 builds-toward:
 - literary-periodization-global
 - literary-cosmopolitanism

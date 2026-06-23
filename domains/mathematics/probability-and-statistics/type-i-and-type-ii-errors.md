@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: hypothesis-testing-framework-theory
   type: hard
+- id: hypothesis-testing-fundamentals
+  type: hard
 builds-toward:
 - neyman-pearson-lemma
 tags:

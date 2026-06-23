@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - model-theoretic-semantics
-- formal-pragmatics-computation
 tags:
 - semantics
 - formal-logic

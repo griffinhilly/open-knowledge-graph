@@ -18,7 +18,6 @@ prerequisites:
   type: soft
 builds-toward:
 - distributive-justice
-- rights-justice-tensions
 tags:
 - rights
 - justice

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: attitude-formation
   type: hard
-builds-toward:
-- attitude-change-resistance
-- message-framing-effects
 tags:
 - persuasion
 - attitudes

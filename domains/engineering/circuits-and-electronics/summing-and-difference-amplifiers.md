@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: operational-amplifier-fundamentals
   type: hard
+- id: inverting-amplifier-analysis
+  type: hard
 builds-toward:
 - adc-dac-fundamentals
 tags:

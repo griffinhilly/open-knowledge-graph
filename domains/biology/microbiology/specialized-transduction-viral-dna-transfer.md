@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: lysogenic-conversion-virulence-factors
   type: soft
-builds-toward:
-- bacterial-virulence-mechanisms
 tags:
 - transduction
 - phage

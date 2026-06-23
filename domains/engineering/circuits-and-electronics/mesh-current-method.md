@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: node-voltage-method
   type: soft
+- id: kirchhoff-voltage-law
+  type: hard
 builds-toward:
 - superposition-theorem-circuits
 - thevenin-norton-equivalents

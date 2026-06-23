@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logical-equivalence-formulas
   type: soft
+- id: logical-equivalence-intro
+  type: hard
 builds-toward:
 - normal-forms-cnf-dnf
 - logical-equivalences

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: logarithm-properties
   type: soft
+- id: ph-scale
+  type: soft
 tags:
 - pH
 - pOH

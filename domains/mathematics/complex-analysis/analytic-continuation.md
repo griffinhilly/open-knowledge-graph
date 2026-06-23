@@ -6,6 +6,8 @@ course: complex-analysis
 prerequisites:
 - id: taylor-series-complex
   type: hard
+- id: connected-simply-connected-plane
+  type: soft
 tags:
 - analytic-continuation
 - extension

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: huygens-principle
   type: soft
+- id: diffraction-and-huygen-principle
+  type: hard
 builds-toward:
 - diffraction-gratings
 tags:

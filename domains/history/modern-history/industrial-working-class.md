@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: industrial-urbanization-cities
   type: soft
+- id: factory-system-production
+  type: soft
 builds-toward:
 - labor-movements-collective-action
 tags:

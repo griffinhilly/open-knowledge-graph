@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: f-distribution-theory
   type: hard
-builds-toward:
-- multiple-comparisons
 tags:
 - anova
 stage: formal-systems

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: rock-cycle
   type: soft
+- id: deposition-and-landforms
+  type: soft
 builds-toward:
 - sediment-transport-and-deposition
 - diagenesis-burial-lithification

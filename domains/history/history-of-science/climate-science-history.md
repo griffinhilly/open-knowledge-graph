@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - environmental-history-overview
-- sustainable-development-history
 tags:
 - history
 - History Of Science

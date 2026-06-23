@@ -10,9 +10,6 @@ prerequisites:
   type: soft
 - id: vector-fields
   type: soft
-builds-toward:
-- reactive-control-feedback
-- obstacle-avoidance-navigation
 tags:
 - potential-fields
 - attractive-repulsive

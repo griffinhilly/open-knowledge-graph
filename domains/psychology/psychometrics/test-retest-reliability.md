@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: correlation-coefficient
   type: soft
+- id: reliability-validity-relationship
+  type: soft
 builds-toward:
 - generalizability-theory-g-theory
 tags:

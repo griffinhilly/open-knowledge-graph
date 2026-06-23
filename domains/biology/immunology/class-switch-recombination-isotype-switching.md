@@ -6,6 +6,8 @@ course: immunology
 prerequisites:
 - id: b-cell-activation-germinal-center
   type: hard
+- id: antibody-structure-and-function
+  type: hard
 builds-toward:
 - antibody-isotypes-and-effector-functions
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: composition-and-visual-organization
   type: soft
+- id: design-principles-foundations
+  type: soft
 builds-toward:
 - visual-hierarchy-in-design
 - consistency-and-coherence

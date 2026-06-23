@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: dendritic-spine-plasticity
   type: soft
+- id: calcium-signaling-neurons
+  type: hard
+- id: glutamatergic-excitation
+  type: hard
 builds-toward:
 - spike-timing-dependent-plasticity
 tags:

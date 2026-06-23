@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: acid-base-chemistry
   type: soft
+- id: complex-ions-and-stability
+  type: hard
+- id: coordination-chemistry-basics
+  type: hard
 tags:
 - EDTA
 - chelate

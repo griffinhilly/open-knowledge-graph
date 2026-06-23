@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: functions-and-mappings-formal
   type: soft
+- id: structures-and-interpretations
+  type: hard
 builds-toward:
 - elementary-equivalence-indistinguishability
 - complete-first-order-theories

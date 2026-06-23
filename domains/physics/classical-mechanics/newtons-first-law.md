@@ -6,6 +6,14 @@ course: classical-mechanics
 prerequisites:
 - id: kinematics-1d
   type: soft
+- id: balanced-and-unbalanced-forces
+  type: soft
+- id: inertia-and-mass
+  type: hard
+- id: newtons-first-law-conceptual
+  type: soft
+- id: pushes-and-pulls
+  type: soft
 builds-toward:
 - newtons-second-law
 - free-body-diagrams

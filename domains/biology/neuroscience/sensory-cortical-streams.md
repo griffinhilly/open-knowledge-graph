@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: color-vision-perception
   type: soft
-builds-toward:
-- visual-attention
-- perception-cognition
+- id: sensory-neural-coding-perception
+  type: soft
 tags:
 - visual-cortex
 - streams

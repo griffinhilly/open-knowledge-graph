@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - antipsychotic-medications
 - addiction-and-reward-system-plasticity
-- motor-learning-cerebellar
 tags:
 - dopamine
 - receptors

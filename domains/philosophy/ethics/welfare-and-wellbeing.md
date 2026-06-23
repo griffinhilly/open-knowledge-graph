@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: utilitarianism
   type: soft
+- id: value-theory-axiology
+  type: soft
 builds-toward:
   - animal-ethics
 tags:

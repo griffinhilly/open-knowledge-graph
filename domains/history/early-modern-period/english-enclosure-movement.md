@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: medieval-agricultural-revolution
   type: soft
+- id: medieval-serfdom-manorial-lords
+  type: soft
 builds-toward:
 - industrial-revolution
 tags:

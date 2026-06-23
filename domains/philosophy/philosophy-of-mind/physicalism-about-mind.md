@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ontological-categories
   type: soft
+- id: supervenience-dependence
+  type: soft
 builds-toward:
 - identity-theory
 - philosophical-behaviorism

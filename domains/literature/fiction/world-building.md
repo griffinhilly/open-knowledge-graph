@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: narrative-conflict
   type: soft
+- id: setting-environment-active-element
+  type: soft
 builds-toward:
 - fantasy-genre
 - science-fiction-genre

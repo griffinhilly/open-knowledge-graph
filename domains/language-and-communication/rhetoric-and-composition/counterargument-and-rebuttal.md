@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ethos-and-credibility
   type: soft
+- id: claim-evidence-connection
+  type: soft
 builds-toward:
 - persuasive-writing
 tags:

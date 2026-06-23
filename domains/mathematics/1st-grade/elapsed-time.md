@@ -6,6 +6,16 @@ course: 1st-grade
 prerequisites:
 - id: telling-time-to-half-hour
   type: hard
+- id: telling-time-to-5-minutes
+  type: soft
+- id: telling-time-to-half-hour-1st
+  type: hard
+- id: telling-time-to-hour-1st
+  type: soft
+- id: telling-time-to-minute
+  type: soft
+- id: time-to-the-minute
+  type: soft
 tags:
 - time
 - duration

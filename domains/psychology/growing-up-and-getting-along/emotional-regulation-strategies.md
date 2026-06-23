@@ -6,6 +6,8 @@ course: growing-up-and-getting-along
 prerequisites:
 - id: expanded-feelings-vocabulary
   type: hard
+- id: recognizing-your-triggers
+  type: soft
 builds-toward:
 - managing-anxiety-and-stress
 - cognitive-reappraisal

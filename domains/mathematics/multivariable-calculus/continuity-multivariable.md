@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: epsilon-delta-continuity
   type: soft
+- id: multivariable-functions-intro
+  type: hard
 builds-toward:
 - partial-derivatives
 - differentiability-multivariable

@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: nucleotide-structure-and-nomenclature
   type: hard
-builds-toward:
-- gout-and-uric-acid-disorders
 tags:
 - purine
 - catabolism

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: international-relations-overview
   type: hard
+- id: identity-and-interests
+  type: soft
 tags:
 - soft-power
 - culture

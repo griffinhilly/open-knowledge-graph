@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: type-i-hypersensitivity-allergic-reactions
   type: hard
-builds-toward:
-- asthma-exacerbations
-- occupational-asthma
 tags:
 - asthma
 - airway-inflammation

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
+- id: logical-implication-entailment
+  type: soft
 builds-toward:
 - sequent-calculus-intro
 - propositional-soundness-completeness

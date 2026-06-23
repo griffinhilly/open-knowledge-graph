@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: boolean-network-models
   type: soft
+- id: network-motifs
+  type: soft
 builds-toward:
 - robustness-and-evolvability
 tags:

@@ -9,7 +9,6 @@ prerequisites:
 - id: dominant-seventh-resolution
   type: soft
 builds-toward:
-- chromatic-harmony-borrowed-chords
 - harmonic-progression-analysis
 tags:
 - secondary-dominant

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: type-pairing-and-hierarchy
   type: soft
+- id: consistency-and-coherence
+  type: soft
+- id: visual-communication-strategy
+  type: soft
 builds-toward:
 - logo-design-principles
 - design-systems-and-consistency

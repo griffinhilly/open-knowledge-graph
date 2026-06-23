@@ -6,6 +6,8 @@ course: ethics
 prerequisites:
 - id: deontological-ethics
   type: hard
+- id: moral-rights-and-entitlements
+  type: hard
 builds-toward:
 - animal-ethics
 - applied-ethics-intro

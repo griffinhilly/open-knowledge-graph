@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: perimeter-understanding-2nd
   type: soft
-builds-toward:
-- perimeter-of-complex-shapes
 tags:
 - perimeter
 - distance

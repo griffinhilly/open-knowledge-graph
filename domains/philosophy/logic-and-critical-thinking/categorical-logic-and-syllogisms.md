@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: predicate-logic-introduction
   type: soft
+- id: deductive-validity-introduction
+  type: hard
+- id: logical-structure-and-form
+  type: soft
+- id: quantifiers-in-reasoning
+  type: soft
 builds-toward:
 - middle-term-distribution
 - logical-form

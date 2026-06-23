@@ -9,7 +9,6 @@ prerequisites:
 - id: composition-principles-mereology
   type: hard
 builds-toward:
-- abstract-objects-existence
 - ontology-and-being
 tags:
 - mereology

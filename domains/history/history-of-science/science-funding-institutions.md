@@ -9,8 +9,6 @@ prerequisites:
 - id: big-science-paradigm
   type: soft
 
-builds-toward:
-- science-policy-and-equity
 tags:
 - history
 - History Of Science

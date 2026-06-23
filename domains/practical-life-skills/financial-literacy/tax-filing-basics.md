@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: adding-subtracting-decimals
   type: soft
+- id: financial-record-keeping-and-organization
+  type: soft
 builds-toward:
 - retirement-accounts
 tags:

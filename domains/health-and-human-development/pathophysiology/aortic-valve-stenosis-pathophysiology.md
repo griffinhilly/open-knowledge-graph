@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - heart-failure-types-and-mechanisms
-- cardiogenic-shock-pathophysiology
 tags:
 - aortic-stenosis
 - ventricular-hypertrophy

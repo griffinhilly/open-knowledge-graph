@@ -6,6 +6,8 @@ course: critical-theory
 prerequisites:
 - id: critical-theory-introduction
   type: soft
+- id: symbolic-order-language-meaning
+  type: soft
 builds-toward:
 - simulacra-hyperreality-baudrillard
 tags:

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: systems-of-first-order-linear-odes
   type: soft
+- id: allosteric-enzyme-regulation
+  type: soft
 tags:
 - metabolic integration
 - fed state

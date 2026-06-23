@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: soft
+- id: conflict-analysis-classification
+  type: soft
+- id: falling-action-and-resolution
+  type: soft
+- id: plot-structure-meaning
+  type: soft
 builds-toward:
   - narrative-pacing-meaning
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: letter-sound-correspondence
   type: hard
+- id: phonological-awareness-segmenting
+  type: hard
 builds-toward:
 - consonant-blends-reading
 - reading-fluency-basics

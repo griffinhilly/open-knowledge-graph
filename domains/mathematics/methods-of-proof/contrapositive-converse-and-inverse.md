@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: proof-by-contrapositive
   type: hard
+- id: conditional-and-biconditional
+  type: hard
 tags:
 - proof
 - logical-relationships

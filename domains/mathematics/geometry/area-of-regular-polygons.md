@@ -8,6 +8,8 @@ prerequisites:
     type: hard
   - id: sine-cosine-tangent-ratios
     type: soft
+  - id: area-of-triangles
+    type: hard
 builds-toward:
   - surface-area-of-prisms
 tags: [area, regular-polygons, apothem]

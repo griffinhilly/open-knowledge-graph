@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: present-value-and-discounting
   type: soft
+- id: spot-forward-rate-relationships
+  type: hard
 builds-toward:
 - currency-derivatives-and-hedging
 tags:

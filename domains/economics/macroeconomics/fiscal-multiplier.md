@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: interest-rates-and-loanable-funds
   type: soft
+- id: consumption-function-and-income-dependency
+  type: soft
+- id: marginal-propensity-to-consume-mpc
+  type: hard
 builds-toward:
 - is-lm-model
 tags:

@@ -6,6 +6,8 @@ course: probability-and-mathematical-statistics
 prerequisites:
 - id: optimization-problems
   type: soft
+- id: central-limit-theorem-rigorous
+  type: soft
 builds-toward:
 - consistency-of-estimators
 - asymptotic-normality-mle

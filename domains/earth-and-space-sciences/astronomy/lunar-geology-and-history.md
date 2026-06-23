@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: moon-earth-system-dynamics
   type: hard
+- id: the-moon-in-detail
+  type: soft
 builds-toward:
 - impact-craters-and-hazards
 tags:

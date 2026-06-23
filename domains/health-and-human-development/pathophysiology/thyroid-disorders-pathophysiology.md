@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: thyroid-hormone-synthesis-regulation
   type: soft
-builds-toward:
-- graves-disease-pathophysiology
-- hashimotos-thyroiditis
 tags:
 - thyroid-disease
 - hormonal-disorders

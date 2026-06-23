@@ -18,6 +18,14 @@ prerequisites:
   type: soft
 - id: power-rule
   type: soft
+- id: acceleration-and-velocity
+  type: soft
+- id: measuring-speed
+  type: soft
+- id: motion-patterns
+  type: soft
+- id: what-is-speed
+  type: soft
 builds-toward:
 - kinematic-equations
 - kinematics-2d

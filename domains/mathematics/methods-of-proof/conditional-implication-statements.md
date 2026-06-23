@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: truth-tables-and-evaluation
   type: soft
+- id: conditional-statements-formal
+  type: hard
 builds-toward:
 - converse-inverse-contrapositive
 - rules-of-logical-inference

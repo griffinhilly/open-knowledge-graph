@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: spontaneity-and-gibbs-free-energy-intro
   type: soft
-builds-toward:
-- electrochemistry-basics
 tags:
 - gibbs-free-energy
 - spontaneity

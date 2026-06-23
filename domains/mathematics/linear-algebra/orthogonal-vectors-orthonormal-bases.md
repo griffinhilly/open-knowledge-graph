@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basis-definition
   type: hard
+- id: vector-norms
+  type: soft
 builds-toward:
 - gram-schmidt-process
 tags:

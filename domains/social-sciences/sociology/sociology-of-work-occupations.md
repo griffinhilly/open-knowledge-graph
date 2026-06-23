@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-stratification
   type: soft
+- id: sociology-of-economy
+  type: soft
 builds-toward:
 - status-attainment-processes
 - credential-inflation-expansion

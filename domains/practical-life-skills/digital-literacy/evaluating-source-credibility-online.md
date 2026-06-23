@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: digital-literacy-fundamentals
   type: hard
+- id: picking-the-right-search-result
+  type: soft
 builds-toward:
 - evaluating-online-information
 - recognizing-online-scams-fraud

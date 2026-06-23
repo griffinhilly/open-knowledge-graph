@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: allusion-and-literary-reference
   type: soft
-builds-toward:
-- other-representation-literature
-- communication-barrier-narrative
 tags:
 - science-fiction
 - first-contact

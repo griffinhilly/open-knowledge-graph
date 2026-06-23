@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - graph-fundamentals-discrete
-- recurrence-relations-discrete
 tags:
 - pigeonhole
 - existence-proofs

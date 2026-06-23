@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: haloalkane-structure-nomenclature
   type: hard
+- id: newman-projection-and-conformations
+  type: soft
 builds-toward:
 - competing-substitution-and-elimination
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: dopamine-reward-system
   type: soft
+- id: acetylcholine-system
+  type: soft
 tags:
 - autonomic-nervous-system
 - sympathetic

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: clairaut-theorem
   type: soft
-builds-toward:
-- hessian-matrix-second-test
 tags:
 - higher-order
 - mixed-partials

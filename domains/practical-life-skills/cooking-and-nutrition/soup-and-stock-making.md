@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: proportions
   type: soft
+- id: building-aromatics-and-bases
+  type: soft
+- id: collagen-gelatin-braising-transformation
+  type: soft
 builds-toward: []
 tags:
 - cooking-methods

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: feedback-control-fundamentals
   type: hard
+- id: control-loop-design-via-bode-plots
+  type: soft
+- id: control-system-structure-and-configuration
+  type: soft
 builds-toward:
 - practical-control-system-implementation
 tags:

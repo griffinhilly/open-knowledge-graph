@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: leaders-who-made-a-difference
   type: soft
+- id: agricultural-revolution-neolithic
+  type: hard
 builds-toward:
 - mesopotamia-cradle-of-civilization
 - egypt-nile-and-civilization

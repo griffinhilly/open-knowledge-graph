@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: spatial-attention-parietal-cortex
   type: hard
-builds-toward:
-- ventral-attention-circuit-salient-events
-- attention-control-training-neural-mechanisms
 tags:
 - attention-networks
 - dorsal-attention

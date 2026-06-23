@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spin-orbit-coupling-fine-structure
   type: hard
+- id: fluorescence-quantum-yield-lifetime
+  type: soft
 builds-toward:
 - photochemistry-excited-state-reactions
 tags:

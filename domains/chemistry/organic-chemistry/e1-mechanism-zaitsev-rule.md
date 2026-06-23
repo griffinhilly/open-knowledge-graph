@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: zaitsev-hofmann-elimination-selectivity
   type: soft
+- id: carbocation-hydride-shift-methyl-shift-rearrangement
+  type: soft
 builds-toward:
 - competing-substitution-and-elimination
 tags:

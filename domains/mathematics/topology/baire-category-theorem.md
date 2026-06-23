@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: dense-sets-and-nowhere-dense
   type: hard
-builds-toward:
-- functional-analysis-applications
 tags:
 - baire-category
 - meager-sets

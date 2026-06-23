@@ -11,7 +11,6 @@ prerequisites:
   type: hard
 builds-toward:
 - chronic-kidney-disease-progression
-- nephrolithiasis-pathophysiology
 tags:
 - tubular-acidosis
 - distal-secretion

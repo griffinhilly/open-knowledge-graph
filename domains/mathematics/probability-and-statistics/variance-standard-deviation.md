@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - covariance-between-random-variables
-- chebyshev-bounds
 tags:
 - variance
 - spread

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - line-integrals-vector-fields
-- work-line-integrals
 tags:
 - line-integral
 - arc-length

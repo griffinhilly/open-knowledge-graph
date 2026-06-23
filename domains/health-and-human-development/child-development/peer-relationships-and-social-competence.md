@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: self-regulation-emotional-and-behavioral-control
   type: soft
+- id: emotion-understanding-facial-recognition-development
+  type: soft
+- id: emotional-regulation-development-in-children
+  type: soft
+- id: secure-attachment-and-base-functions
+  type: soft
 builds-toward:
 - adolescent-brain-and-behavioral-development
 - self-concept-and-self-esteem-development

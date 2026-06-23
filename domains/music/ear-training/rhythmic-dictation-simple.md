@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: fractions-halves-thirds-fourths
   type: soft
+- id: beat-subdivision-and-counting
+  type: hard
+- id: rhythmic-note-value-measurement
+  type: hard
 builds-toward:
 - rhythmic-dictation-compound
 - melodic-dictation-stepwise

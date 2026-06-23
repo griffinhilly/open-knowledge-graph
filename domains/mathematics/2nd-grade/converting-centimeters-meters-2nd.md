@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: measurement-conversions-metric
   type: soft
+- id: measuring-length-inches-centimeters-2nd
+  type: soft
 tags:
 - measurement
 - conversion

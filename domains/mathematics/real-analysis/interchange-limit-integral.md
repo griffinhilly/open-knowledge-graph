@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: interchange-limit-derivative
   type: soft
+- id: pointwise-convergence-function-sequences
+  type: soft
+- id: uniform-convergence
+  type: hard
 tags:
 - limit-integral
 - interchange

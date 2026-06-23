@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: optimization-problems
   type: soft
+- id: marginal-utility-diminishing-marginal
+  type: hard
 builds-toward:
 - income-and-substitution-effects
 - demand-curve-derivation

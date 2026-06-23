@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - price-elasticity-of-demand
-- income-consumption-path
 tags:
 - demand
 - consumer

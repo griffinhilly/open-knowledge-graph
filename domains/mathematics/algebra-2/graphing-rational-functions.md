@@ -6,6 +6,8 @@ course: algebra-2
 prerequisites:
   - id: rational-functions-and-asymptotes
     type: hard
+  - id: direct-and-inverse-variation
+    type: soft
 builds-toward:
   - solving-rational-equations
 tags: [rational-functions, graphing, asymptotes, intercepts]

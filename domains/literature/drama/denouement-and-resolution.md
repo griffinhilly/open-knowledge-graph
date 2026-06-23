@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: falling-action-and-resolution
   type: hard
+- id: dramatic-climax-construction
+  type: soft
 builds-toward:
 - theme-in-dramatic-action
 - tragic-and-comic-vision

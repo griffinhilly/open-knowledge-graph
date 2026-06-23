@@ -9,9 +9,10 @@ prerequisites:
   type: hard
 - id: liver-cirrhosis-pathophysiology
   type: hard
+- id: hepatitis-viral-pathophysiology
+  type: soft
 builds-toward:
 - metastasis-mechanisms
-- tumor-microenvironment-and-immune-evasion
 tags:
 - hepatocellular-carcinoma
 - cirrhosis

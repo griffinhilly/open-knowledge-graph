@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: diction-and-style
   type: hard
+- id: diction-and-poetic-voice
+  type: soft
+- id: figurative-language-meaning-making
+  type: soft
+- id: tone-register-and-effect
+  type: soft
 builds-toward:
 - interpretation-ambiguity-and-validity
 tags:

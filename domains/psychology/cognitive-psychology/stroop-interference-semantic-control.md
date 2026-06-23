@@ -6,8 +6,6 @@ course: cognitive-psychology
 prerequisites:
 - id: attention-selective
   type: hard
-builds-toward:
-- task-switching-executive-control-costs
 tags:
 - attention
 - semantic

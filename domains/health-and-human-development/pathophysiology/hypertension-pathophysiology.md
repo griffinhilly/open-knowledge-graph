@@ -8,10 +8,13 @@ prerequisites:
   type: hard
 - id: cardiac-cycle-and-heart-function
   type: hard
+- id: blood-pressure-regulation-neural-hormonal
+  type: soft
+- id: endothelial-dysfunction-pathophysiology
+  type: soft
 builds-toward:
 - left-ventricular-hypertrophy
 - chronic-kidney-disease-progression
-- hypertensive-stroke
 tags:
 - hypertension
 - cardiovascular-disease

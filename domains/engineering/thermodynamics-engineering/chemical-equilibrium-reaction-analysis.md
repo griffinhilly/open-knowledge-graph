@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: chemical-equilibrium
   type: soft
+- id: helmholtz-gibbs-free-energy
+  type: hard
 builds-toward:
 - adiabatic-flame-temperature
 - chemical-exergy-fuel-combustion

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: potential-vorticity-conservation
   type: soft
+- id: extratropical-cyclone-structure-stages
+  type: soft
+- id: jet-stream-subtropical-polar
+  type: soft
 builds-toward:
 - severe-weather-systems
 - climate-extremes-and-attribution

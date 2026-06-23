@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ocean-temperature-structure-thermocline
   type: hard
+- id: salinity-distribution-sources-sinks
+  type: soft
 builds-toward:
   - thermohaline-circulation
   - deep-ocean-abyssal-currents

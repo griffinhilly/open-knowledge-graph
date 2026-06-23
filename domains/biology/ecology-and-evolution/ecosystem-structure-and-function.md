@@ -6,6 +6,10 @@ course: ecology-and-evolution
 prerequisites:
 - id: energy-flow-in-ecosystems-ls
   type: hard
+- id: forest-and-desert-habitats
+  type: soft
+- id: ocean-and-pond-habitats
+  type: soft
 builds-toward:
 - energy-flow-in-ecosystems
 - nutrient-cycling-phosphorus-sulfur

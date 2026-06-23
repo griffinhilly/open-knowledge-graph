@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: time-series-basics-econometrics
   type: soft
+- id: expectation-formation-mechanisms
+  type: hard
 builds-toward:
 - taylor-rule-monetary-policy
 tags:

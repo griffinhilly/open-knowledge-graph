@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: theory-of-mind-development
   type: soft
+- id: emotion-understanding-facial-recognition-development
+  type: soft
+- id: false-belief-task-understanding-mind
+  type: soft
 tags:
 - prosocial-behavior
 - empathy

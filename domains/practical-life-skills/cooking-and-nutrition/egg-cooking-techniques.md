@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: sauteing-and-pan-cooking
   type: soft
+- id: egg-cooking-basics
+  type: hard
 tags:
 - eggs
 - scrambled

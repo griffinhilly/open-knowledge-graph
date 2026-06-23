@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: knowledge-argument
   type: soft
+- id: phenomenal-consciousness-definition
+  type: hard
 builds-toward:
 - philosophical-zombies
 - phenomenal-concepts-problem

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - marxist-base-superstructure
-- critical-theory-sociology
 tags:
 - marx
 - philosophy

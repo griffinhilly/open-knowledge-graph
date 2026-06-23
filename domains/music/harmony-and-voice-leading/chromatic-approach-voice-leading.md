@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - extended-harmony-upper-extensions-voice-leading
-- voice-leading-in-composition
 tags:
 - chromatic
 - voice-leading

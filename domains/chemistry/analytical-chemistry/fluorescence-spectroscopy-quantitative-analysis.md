@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: atomic-emission-spectroscopy-icp-oes
   type: soft
+- id: ultraviolet-visible-spectroscopy-quantitative
+  type: soft
 tags:
 - fluorescence
 - luminescence

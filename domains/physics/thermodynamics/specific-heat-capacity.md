@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: degrees-of-freedom-and-heat-capacity
   type: soft
+- id: specific-heat-capacity-conceptual
+  type: soft
 builds-toward:
 - calorimetry
 - heat-capacity-of-gases

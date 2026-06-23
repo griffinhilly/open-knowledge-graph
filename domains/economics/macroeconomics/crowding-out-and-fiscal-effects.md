@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: loanable-funds-equilibrium
   type: hard
+- id: investment-demand-and-interest-rates
+  type: hard
 builds-toward:
 - ricardian-equivalence
 - government-budget-and-debt

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: two-digit-by-one-digit-multiplication
   type: soft
-builds-toward:
-- long-division-intro
 tags:
 - division
 - two-digit

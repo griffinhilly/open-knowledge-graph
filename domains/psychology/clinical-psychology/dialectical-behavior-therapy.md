@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: borderline-personality-disorder
   type: hard
+- id: cognitive-behavioral-therapy
+  type: soft
 builds-toward:
 - evidence-based-treatment-practice
 tags:

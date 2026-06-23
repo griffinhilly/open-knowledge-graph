@@ -6,6 +6,10 @@ course: critical-theory
 prerequisites:
 - id: psychoanalytic-criticism
   type: hard
+- id: lacanian-unconscious-language
+  type: hard
+- id: psychoanalytic-symptom-defense
+  type: soft
 tags:
 - jouissance
 - psychoanalysis

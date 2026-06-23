@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: problem-representation-and-search
   type: soft
+- id: working-memory-capacity-chunking
+  type: hard
 tags:
 - expertise
 - cognition

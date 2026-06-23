@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: metafiction-narrative-self-awareness
   type: soft
-builds-toward:
-- participatory-culture-fandom
-- literary-community-practice
 tags:
 - fan-fiction
 - transformative

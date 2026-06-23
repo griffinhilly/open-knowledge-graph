@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: law-of-total-probability
   type: hard
+- id: complement-and-addition-rules
+  type: soft
+- id: probability-axioms-and-rules
+  type: soft
 tags:
 - bayes
 - posterior

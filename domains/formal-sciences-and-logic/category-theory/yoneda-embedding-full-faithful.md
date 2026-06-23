@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: functions-and-function-properties
   type: soft
+- id: hom-functors-and-representability
+  type: hard
+- id: natural-isomorphisms-universality
+  type: hard
 builds-toward:
 - presheaves
 - topos-theory-intro

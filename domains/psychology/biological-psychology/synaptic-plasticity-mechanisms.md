@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: synaptic-transmission
   type: hard
+- id: synaptic-transmission-neurotransmitter-release
+  type: hard
 builds-toward:
 - learning-and-memory-at-synaptic-level
 tags:

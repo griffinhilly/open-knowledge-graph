@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: interval-recognition-by-ear
   type: hard
-builds-toward:
-- chromatic-tone-detection
-- chromatic-alteration-hearing
 tags:
 - scale
 - diatonic

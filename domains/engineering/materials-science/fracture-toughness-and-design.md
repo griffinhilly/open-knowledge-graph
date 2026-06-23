@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stress-strain-behavior
   type: soft
+- id: elastic-constants-and-elasticity
+  type: soft
 builds-toward:
 - composite-materials
 tags:

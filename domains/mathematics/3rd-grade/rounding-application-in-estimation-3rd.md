@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: rounding-nearest-hundred-3rd
   type: hard
-builds-toward:
-- estimation-products-and-quotients-3rd
 tags:
 - rounding
 - estimation

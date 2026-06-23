@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: hard
+- id: point-of-view-technical-effects
+  type: soft
 builds-toward:
   - tone-development-analysis
 tags:

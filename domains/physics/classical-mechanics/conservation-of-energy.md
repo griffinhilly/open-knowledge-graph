@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: friction-forces
   type: soft
+- id: energy-conservation-intro
+  type: soft
+- id: energy-conservation-quantitative
+  type: soft
 builds-toward:
 - collisions-elastic-inelastic
 - spring-mass-system

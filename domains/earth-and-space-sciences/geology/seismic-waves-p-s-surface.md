@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wave-properties-intro
   type: hard
+- id: earthquakes-and-faults
+  type: soft
 builds-toward:
 - earthquake-location-and-hypocenter
 tags:

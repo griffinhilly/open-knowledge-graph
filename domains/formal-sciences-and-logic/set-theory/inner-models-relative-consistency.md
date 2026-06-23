@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reflection-principles-zfc
   type: soft
+- id: consistency-strength-large-cardinals
+  type: soft
 builds-toward:
 - zfc-independence-from-other-axioms
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dopamine-system
   type: hard
+- id: brain-anatomy-and-functional-organization
+  type: soft
 tags:
 - motor-systems
 - action-selection

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: dependent-clauses
   type: hard
+- id: interrogative-pronouns-who-what-which
+  type: soft
+- id: noun-phrase-modification
+  type: soft
 builds-toward:
 - sentence-variety-and-rhythm
 tags:

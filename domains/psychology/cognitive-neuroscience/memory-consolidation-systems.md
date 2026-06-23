@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: episodic-semantic-memory-systems
   type: soft
+- id: long-term-depression-ltd-synaptic-weakening
+  type: soft
+- id: long-term-potentiation-ltp-memory-encoding
+  type: soft
 tags:
 - memory
 - sleep

@@ -13,7 +13,6 @@ prerequisites:
 - id: load-distribution-structures
   type: soft
 builds-toward:
-- stress-and-strain-fundamentals
 - materials-selection-design
 tags:
 - factor-of-safety

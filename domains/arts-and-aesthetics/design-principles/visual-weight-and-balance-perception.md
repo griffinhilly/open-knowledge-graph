@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: gestalt-grouping-proximity
   type: soft
+- id: proportion-and-scale-relationships
+  type: soft
 tags:
 - visual-weight
 - balance

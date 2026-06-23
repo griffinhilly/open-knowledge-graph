@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: electric-potential-energy
   type: hard
-builds-toward:
-- electromagnetic-field-energy
 tags:
 - energy
 - capacitors

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: stark-effect-electric-field-splitting
   type: soft
+- id: bohr-model-to-quantum
+  type: soft
 builds-toward:
 - atomic-orbitals-shapes-nodes
 tags:

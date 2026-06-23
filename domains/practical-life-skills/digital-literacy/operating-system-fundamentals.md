@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: computer-hardware-basics
   type: hard
+- id: computer-startup-and-shutdown
+  type: soft
 builds-toward:
 - file-management-and-organization
 - device-security-desktop-mobile

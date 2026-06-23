@@ -6,8 +6,9 @@ course: music-theory-fundamentals
 prerequisites:
 - id: diatonic-chord-construction
   type: hard
+- id: triad-construction-from-scale-degrees
+  type: soft
 builds-toward:
-- chord-progression-patterns-basics
 - cadence-types-and-function
 tags:
 - harmony

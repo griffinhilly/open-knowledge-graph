@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: noun-phrases
   type: soft
+- id: prepositions-location-time-direction
+  type: hard
 builds-toward:
 - misplaced-modifiers
 - subject-verb-agreement

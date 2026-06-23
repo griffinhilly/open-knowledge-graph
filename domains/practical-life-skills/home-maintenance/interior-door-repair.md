@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cabinet-and-storage-hardware-maintenance
   type: soft
+- id: door-and-window-function-troubleshooting
+  type: soft
 builds-toward: []
 tags:
 - doors

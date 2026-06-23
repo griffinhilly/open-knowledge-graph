@@ -8,9 +8,12 @@ prerequisites:
   type: hard
 - id: necrosis-vs-apoptosis
   type: soft
-builds-toward:
-- stroke-recovery-and-neuroplasticity
-- post-stroke-complications
+- id: atherosclerosis-pathophysiology
+  type: soft
+- id: atherosclerotic-plaque-rupture-and-thrombosis
+  type: soft
+- id: ischemia-reperfusion-injury-pathophysiology
+  type: soft
 tags:
 - stroke
 - cerebral-ischemia

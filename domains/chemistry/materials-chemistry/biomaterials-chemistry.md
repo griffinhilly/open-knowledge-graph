@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: self-assembly-materials
   type: soft
+- id: mechanical-properties-microstructure
+  type: soft
 builds-toward: []
 tags:
 - biomaterials

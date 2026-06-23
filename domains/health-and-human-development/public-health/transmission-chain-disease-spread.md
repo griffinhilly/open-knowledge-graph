@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basic-reproduction-number
   type: soft
+- id: how-diseases-spread
+  type: hard
 builds-toward:
 - outbreak-transmission-models
 - contact-tracing-analysis

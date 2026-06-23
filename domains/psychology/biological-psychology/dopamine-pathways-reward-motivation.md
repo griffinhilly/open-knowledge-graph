@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - addiction-and-reward-system-plasticity
-- motivation-and-goal-directed-behavior
 tags:
 - reward
 - motivation

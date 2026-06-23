@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: substance-dualism
   type: soft
+- id: mental-property-supervenience
+  type: soft
 builds-toward:
 - epiphenomenalism
 - anomalous-monism

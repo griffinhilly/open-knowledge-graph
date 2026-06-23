@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: roman-empire-rise
   type: soft
+- id: late-antiquity-medieval-transition
+  type: soft
 builds-toward:
 - byzantine-orthodox-christianity
 - great-schism-1054

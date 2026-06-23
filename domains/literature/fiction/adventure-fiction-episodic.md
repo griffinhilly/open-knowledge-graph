@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: conflict-analysis-narrative
   type: soft
+- id: plot-vs-character-emphasis
+  type: soft
 builds-toward:
 - picaresque-rogue-narrative
 tags:

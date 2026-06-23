@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: proof-structure-terminology
   type: soft
+- id: counterexamples-in-reasoning
+  type: hard
 tags:
 - proof
 - counterexample

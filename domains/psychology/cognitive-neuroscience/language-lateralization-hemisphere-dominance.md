@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: hemispheric-lateralization
   type: hard
-builds-toward:
-- language-recovery-plasticity-aphasia
-- bilingual-language-organization-brain
 tags:
 - language
 - lateralization

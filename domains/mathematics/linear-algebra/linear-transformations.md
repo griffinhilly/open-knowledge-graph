@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: matrices-intro
   type: soft
+- id: matrix-multiplication
+  type: soft
 builds-toward:
 - linear-transformation-matrix-representation
 - composition-linear-transformations

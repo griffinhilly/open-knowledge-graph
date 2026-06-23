@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: measuring-ingredients-volume-basics
   type: soft
-builds-toward:
-- planning-a-balanced-daily-menu
 tags:
 - cooking-methods
 - baking

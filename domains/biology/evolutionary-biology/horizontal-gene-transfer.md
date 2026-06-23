@@ -6,8 +6,12 @@ course: evolutionary-biology
 prerequisites:
 - id: molecular-evolution
   type: hard
-builds-toward:
-- tree-of-life-reticulation
+- id: bacterial-conjugation-plasmid-transfer
+  type: soft
+- id: generalized-transduction-phage
+  type: soft
+- id: natural-competence-and-transformation
+  type: soft
 tags:
 - molecular-evolution
 - microbial-evolution

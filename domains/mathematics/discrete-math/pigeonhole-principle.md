@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: pigeonhole-principle-discrete
   type: soft
+- id: pigeonhole-principle-introduction
+  type: hard
 builds-toward:
 - graph-coloring
 tags:

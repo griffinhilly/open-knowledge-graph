@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - addiction-and-reward-system-plasticity
-- obsessive-compulsive-disorder-neurobiology
 tags:
 - motor-systems
 - motivation

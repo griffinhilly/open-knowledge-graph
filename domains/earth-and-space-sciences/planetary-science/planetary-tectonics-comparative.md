@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: rock-rheology-elastic-plastic-deformation
   type: soft
+- id: mantle-convection-planets
+  type: hard
+- id: planetary-differentiation
+  type: soft
 tags:
 - tectonics
 - plate-motion

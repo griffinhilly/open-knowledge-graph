@@ -6,6 +6,10 @@ course: propositional-and-predicate-logic
 prerequisites:
 - id: logical-equivalence-formulas
   type: hard
+- id: interpretation-truth-satisfaction-formulas
+  type: hard
+- id: well-formed-formulas-logic
+  type: soft
 builds-toward:
 - satisfiability-and-unsatisfiability
 - deduction-theorem-propositional

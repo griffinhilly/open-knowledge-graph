@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: normal-forms-cnf-dnf
   type: soft
+- id: tautology-satisfiability-validity
+  type: soft
 builds-toward:
 - fol-compactness
 - model-theory-basics

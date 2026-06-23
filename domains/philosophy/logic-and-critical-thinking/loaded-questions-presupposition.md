@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: informal-fallacies-intro
   type: soft
-builds-toward:
-- analyzing-natural-language-arguments
 tags:
 - fallacies
 - questions

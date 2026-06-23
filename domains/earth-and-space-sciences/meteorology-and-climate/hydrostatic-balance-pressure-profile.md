@@ -11,7 +11,6 @@ prerequisites:
 - id: pressure-and-forces-in-fluids
   type: hard
 builds-toward:
-- vertical-motion-and-omega
 - adiabatic-lapse-rates
 tags:
 - thermodynamics

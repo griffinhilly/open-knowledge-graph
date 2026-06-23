@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - schenkerian-analysis-fundamentals
-- metric-modulation-theory
 tags:
 - harmonic-rhythm
 - pacing

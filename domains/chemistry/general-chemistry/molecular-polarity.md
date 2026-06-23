@@ -10,6 +10,14 @@ prerequisites:
   type: soft
 - id: resonance-and-formal-charge
   type: soft
+- id: electronegativity-and-bond-polarity
+  type: hard
+- id: electronegativity-and-polarity-continuum
+  type: hard
+- id: molecular-geometry-basics
+  type: hard
+- id: polar-covalent-bonds-and-dipoles
+  type: hard
 builds-toward:
 - intermolecular-forces
 tags:

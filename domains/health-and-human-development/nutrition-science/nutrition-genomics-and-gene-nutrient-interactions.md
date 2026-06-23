@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - nutrient-requirements-and-dietary-reference-intakes
-- personalized-nutrition
 tags:
 - genomics
 - gene-nutrient-interaction

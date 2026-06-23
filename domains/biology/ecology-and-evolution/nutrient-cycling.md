@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: trophic-levels-and-food-webs
   type: soft
+- id: decomposition-microbial-mineralization
+  type: hard
 builds-toward:
 - ecosystem-services
 - climate-change-ecology

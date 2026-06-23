@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: estimation-strategies
   type: soft
+- id: measuring-in-feet-and-meters
+  type: soft
+- id: measuring-length-with-ruler-2nd-grade
+  type: soft
 builds-toward:
   - line-plot-measurements
 tags:

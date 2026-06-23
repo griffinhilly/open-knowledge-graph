@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: gas-giants-formation-migration
   type: soft
+- id: comets-asteroids-meteors
+  type: soft
 builds-toward:
 - impact-craters-and-hazards
 tags:

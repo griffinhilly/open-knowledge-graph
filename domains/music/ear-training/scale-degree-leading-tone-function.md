@@ -11,7 +11,6 @@ prerequisites:
 - id: scale-degree-ear-identification
   type: soft
 builds-toward:
-- scale-degree-tendency-tone-recognition
 - harmonic-function-voice-leading-tension-resolution
 tags:
 - scale-degree

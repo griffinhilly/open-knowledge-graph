@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cd4-helper-t-cells
   type: hard
+- id: lymphoid-organ-architecture-and-function
+  type: soft
 builds-toward:
 - affinity-maturation-somatic-hypermutation
 - class-switch-recombination-isotype-switching

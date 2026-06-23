@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: ecocriticism
   type: soft
-builds-toward:
-- climate-writing
-- bioregional-writing
 tags:
 - environmental
 - ecology

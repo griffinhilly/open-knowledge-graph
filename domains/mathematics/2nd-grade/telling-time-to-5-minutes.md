@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: skip-counting-by-5s
   type: hard
+- id: skip-counting-by-5s-fluency
+  type: hard
 builds-toward:
 - elapsed-time
 tags:

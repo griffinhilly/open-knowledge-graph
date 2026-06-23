@@ -9,7 +9,6 @@ prerequisites:
 - id: oxidation-reduction-basics
   type: hard
 builds-toward:
-- faraday-laws-electrolysis
 - coulometry
 tags:
 - electrolysis

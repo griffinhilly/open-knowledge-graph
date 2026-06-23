@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: neural-correlates-consciousness-awareness
   type: hard
-builds-toward:
-- consciousness-disorders-access-vs-phenomenal
-- anesthesia-consciousness-mechanism
 tags:
 - global-workspace
 - consciousness

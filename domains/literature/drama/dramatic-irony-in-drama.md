@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: conversational-implicature
   type: soft
+- id: dramatic-tension-and-suspense
+  type: soft
+- id: irony-identification-effect
+  type: soft
 builds-toward:
 - dramatic-subtext
 - well-made-play

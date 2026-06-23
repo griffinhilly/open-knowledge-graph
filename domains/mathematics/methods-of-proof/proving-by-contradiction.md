@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: negating-quantifiers
   type: soft
+- id: proof-by-contradiction-introduction
+  type: hard
 builds-toward:
 - proving-by-cases
 tags:

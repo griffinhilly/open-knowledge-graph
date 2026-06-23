@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: diatonic-progression-voice-leading-patterns
   type: soft
+- id: chord-inversion-functional-choice
+  type: soft
+- id: harmonic-function-and-progression
+  type: soft
 builds-toward:
 - voice-leading-structural-analysis-reduction
 tags:

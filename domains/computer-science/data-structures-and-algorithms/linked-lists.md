@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: intro-to-classes
   type: soft
+- id: list-abstract-data-type-interface
+  type: soft
 builds-toward:
 - stacks-data-structure
 - queues-data-structure

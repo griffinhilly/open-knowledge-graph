@@ -12,6 +12,14 @@ prerequisites:
   type: soft
 - id: species-interactions
   type: soft
+- id: carnivores-herbivores-omnivores
+  type: soft
+- id: food-chains
+  type: hard
+- id: food-webs-ls
+  type: hard
+- id: producers-consumers-decomposers
+  type: hard
 builds-toward:
 - energy-flow-in-ecosystems
 - keystone-species

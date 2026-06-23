@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: knowledge-argument
   type: soft
+- id: modal-arguments-consciousness
+  type: soft
 builds-toward:
 - property-dualism
 - epiphenomenalism

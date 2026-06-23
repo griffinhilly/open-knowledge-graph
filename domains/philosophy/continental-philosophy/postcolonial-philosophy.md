@@ -3,7 +3,9 @@ id: postcolonial-philosophy
 title: "Postcolonial Philosophy & Critique"
 domain: philosophy
 course: continental-philosophy
-prerequisites: []
+prerequisites:
+- id: foucault-power-knowledge-continental
+  type: soft
 builds-toward: []
 tags:
 - postcolonial

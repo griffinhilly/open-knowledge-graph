@@ -6,8 +6,6 @@ course: artificial-intelligence
 prerequisites:
 - id: nlp-language-models
   type: hard
-builds-toward:
-- semantic-analysis
 tags:
 - topic-modeling
 - lda

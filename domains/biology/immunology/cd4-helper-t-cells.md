@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: t-cell-activation-costimulation
   type: hard
+- id: mhc-class-ii-presentation
+  type: hard
 builds-toward:
 - th1-th2-th17-responses
 - germinal-center-reactions

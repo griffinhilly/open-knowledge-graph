@@ -6,6 +6,10 @@ course: sociological-theory
 prerequisites:
 - id: sociological-imagination
   type: hard
+- id: class-struggle-marxist
+  type: soft
+- id: marx-historical-materialism
+  type: soft
 builds-toward:
 - authority-and-domination-sociology
 - bourdieu-habitus

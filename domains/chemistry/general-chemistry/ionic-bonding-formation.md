@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electron-affinity
   type: soft
+- id: ionic-vs-covalent-intro
+  type: soft
+- id: why-atoms-bond
+  type: soft
 builds-toward:
 - writing-ionic-formulas
 - crystal-structures-and-properties

@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: exergy-destruction-irreversibility
   type: soft
+- id: control-mass-first-law-applications
+  type: soft
+- id: state-functions-path-functions
+  type: soft
 builds-toward:
 - second-law-analysis-practical
 - availability-exergy-analysis-systems

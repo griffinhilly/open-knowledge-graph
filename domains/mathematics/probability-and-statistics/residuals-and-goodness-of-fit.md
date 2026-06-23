@@ -6,6 +6,10 @@ course: probability-and-statistics
 prerequisites:
 - id: linear-regression
   type: hard
+- id: linear-regression-basics
+  type: hard
+- id: linear-regression-probability-and-statistics
+  type: hard
 tags:
 - residuals
 - R-squared

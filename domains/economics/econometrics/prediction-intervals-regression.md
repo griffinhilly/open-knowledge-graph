@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cross-validation-model-evaluation
   type: soft
+- id: inference-in-linear-regression
+  type: hard
 builds-toward:
 - arima-models-forecasting
 tags:

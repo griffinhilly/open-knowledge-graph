@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - hydration-and-beverages-nutrition
-- meal-planning-basics
 tags:
 - beverages
 - coffee

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: constrained-optimization
   type: soft
+- id: optimization-algorithms
+  type: soft
 tags:
 - hyperparameter-tuning
 - optimization

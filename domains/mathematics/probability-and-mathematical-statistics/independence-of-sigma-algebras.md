@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: independence-and-multiplication-rule
   type: soft
+- id: joint-distributions-and-marginals-rigorous
+  type: soft
 builds-toward:
 - weak-law-of-large-numbers
 - strong-law-of-large-numbers

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: employee-engagement
   type: soft
+- id: employee-recruitment
+  type: soft
 tags:
 - talent-management
 - succession-planning

@@ -11,7 +11,6 @@ prerequisites:
 - id: hormonal-axes-feedback-regulation
   type: soft
 builds-toward:
-- anatomical-terminology-and-body-compartments
 - kidney-anatomy-and-urine-formation
 - hemodynamics-pressure-volume-flow-relationships
 tags:

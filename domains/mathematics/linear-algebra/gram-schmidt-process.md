@@ -6,6 +6,10 @@ course: linear-algebra
 prerequisites:
 - id: orthogonal-vectors-orthonormal-bases
   type: hard
+- id: orthogonal-projections
+  type: hard
+- id: orthonormal-bases
+  type: soft
 builds-toward:
 - least-squares-approximation
 tags:

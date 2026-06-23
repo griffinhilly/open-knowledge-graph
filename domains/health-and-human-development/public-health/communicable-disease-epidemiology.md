@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: viral-pathogenesis-and-disease
   type: soft
+- id: how-diseases-spread
+  type: soft
 tags:
 - transmission
 - reproductive-number

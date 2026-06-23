@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lyric-essay
   type: soft
+- id: memoir-structure-selectivity
+  type: soft
 tags:
 - essay
 - structure

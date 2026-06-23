@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: recognizability-vs-decidability
   type: hard
+- id: diagonalization-and-uncomputability
+  type: hard
 builds-toward:
 - reduction-techniques-undecidability
 - rice-theorem

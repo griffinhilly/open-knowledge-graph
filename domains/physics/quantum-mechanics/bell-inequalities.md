@@ -6,6 +6,8 @@ course: quantum-mechanics
 prerequisites:
 - id: bell-theorem
   type: hard
+- id: entanglement
+  type: hard
 tags:
 - bell-inequalities
 - quantum-nonlocality

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: latent-heat
   type: soft
+- id: water-cycle-basics
+  type: soft
 builds-toward:
 - cloud-formation-and-types
 - precipitation-types-and-processes

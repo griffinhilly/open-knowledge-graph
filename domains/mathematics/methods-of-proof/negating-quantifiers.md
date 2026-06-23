@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: logical-connectives-and-operators
   type: soft
+- id: logical-equivalence
+  type: soft
 builds-toward:
 - proving-by-contradiction
 - proving-by-contrapositive

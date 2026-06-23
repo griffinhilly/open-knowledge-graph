@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: annales-school
   type: soft
+- id: annales-school-theory
+  type: soft
 tags:
 - mentalité
 - culture

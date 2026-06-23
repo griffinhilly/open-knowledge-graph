@@ -12,6 +12,16 @@ prerequisites:
   type: soft
 - id: soil-formation
   type: soft
+- id: deposition-and-landforms
+  type: soft
+- id: erosion-agents-fluvial-glacial-coastal
+  type: soft
+- id: erosion-by-water
+  type: soft
+- id: erosion-by-wind-and-ice
+  type: soft
+- id: mountains-valleys-and-plains
+  type: soft
 tags:
 - geomorphology
 - landforms

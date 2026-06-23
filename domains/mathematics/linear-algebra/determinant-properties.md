@@ -6,6 +6,10 @@ course: linear-algebra
 prerequisites:
 - id: determinant-computation
   type: hard
+- id: cofactor-expansion
+  type: soft
+- id: determinants-2x2-3x3
+  type: hard
 builds-toward:
 - cramers-rule
 - eigenvalues-and-eigenvectors

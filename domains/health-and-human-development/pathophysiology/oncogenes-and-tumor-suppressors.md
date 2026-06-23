@@ -6,8 +6,8 @@ course: pathophysiology
 prerequisites:
 - id: gene-regulation-eukaryotes
   type: soft
-builds-toward:
-- familial-cancer-syndromes
+- id: apoptosis-mechanisms-and-regulation
+  type: soft
 tags:
 - oncogenes
 - tumor-suppressors

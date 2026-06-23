@@ -15,7 +15,6 @@ prerequisites:
 builds-toward:
 - sensory-transduction-and-encoding
 - motor-control-and-neural-activation
-- autonomic-nervous-system-physiology
 tags:
 - synapse
 - neurotransmitter

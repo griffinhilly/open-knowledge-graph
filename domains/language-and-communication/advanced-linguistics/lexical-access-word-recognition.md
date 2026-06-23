@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: language-and-the-brain
   type: hard
+- id: lexical-organization-formal
+  type: soft
 tags:
 - psycholinguistics
 - lexical-access

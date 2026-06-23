@@ -6,9 +6,6 @@ course: political-philosophy
 prerequisites:
 - id: moral-responsibility-conditions
   type: soft
-builds-toward:
-- criminal-justice-reform
-- desert-and-fairness
 tags:
 - punishment
 - retribution

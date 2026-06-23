@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: cultural-criticism-essay
   type: soft
-builds-toward:
-- identity-nonfiction
-- cultural-narrative
 tags:
 - autoethnography
 - self-study

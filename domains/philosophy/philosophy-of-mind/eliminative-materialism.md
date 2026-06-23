@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functionalism-philosophy-of-mind
   type: soft
+- id: physicalism-reduction-commitment
+  type: soft
 tags:
 - eliminativism
 - Churchland

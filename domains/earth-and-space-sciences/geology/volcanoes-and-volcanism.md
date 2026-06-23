@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: tectonic-boundaries
   type: soft
+- id: igneous-rocks-formation
+  type: soft
+- id: volcanoes-and-magma
+  type: soft
+- id: volcanoes-basics
+  type: soft
 builds-toward: []
 tags:
 - volcanoes

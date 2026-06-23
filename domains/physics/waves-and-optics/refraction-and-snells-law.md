@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: wave-properties-and-classification
   type: soft
+- id: reflection-and-refraction-conceptual
+  type: soft
 builds-toward:
 - snells-law
 - critical-angle-total-internal-reflection-optical

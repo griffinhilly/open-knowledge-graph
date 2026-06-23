@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dramatic-form-and-structure-types
   type: soft
+- id: russian-19th-century-novel-psychological-realism
+  type: soft
 builds-toward:
 - dramatic-form-and-structure-types
 tags:

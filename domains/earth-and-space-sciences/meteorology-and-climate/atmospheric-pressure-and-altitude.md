@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: exponential-functions-and-graphs
   type: soft
+- id: air-pressure-and-wind
+  type: soft
+- id: layers-of-the-atmosphere
+  type: soft
 builds-toward:
 - pressure-systems-and-winds
 - coriolis-effect

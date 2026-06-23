@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: impedance-matching-and-reflection
   type: soft
+- id: reflection-and-refraction-conceptual
+  type: soft
+- id: reflection-of-light
+  type: soft
 builds-toward:
 - plane-mirrors
 - spherical-mirrors

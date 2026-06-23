@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: determinant-computation
   type: hard
-builds-toward:
-- surface-integrals
 tags:
 - jacobian
 - determinant

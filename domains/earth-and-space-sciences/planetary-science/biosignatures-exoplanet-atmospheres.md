@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: atmospheric-chemistry-planets
   type: soft
+- id: atmospheric-photochemistry
+  type: soft
+- id: exoplanet-atmospheric-composition-spectroscopy
+  type: hard
 tags:
 - biosignatures
 - life-detection

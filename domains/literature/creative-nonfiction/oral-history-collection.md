@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: narrative-voice
   type: soft
-builds-toward:
-- documentary-form
-- participatory-nonfiction
+- id: interview-form-dialogue
+  type: soft
 tags:
 - oral-history
 - primary-source

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ohms-law
   type: hard
+- id: conductors-and-insulators
+  type: soft
 builds-toward:
 - microscopic-ohms-law-drift-velocity
 tags:

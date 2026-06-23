@@ -60,9 +60,6 @@ prerequisites:
   type: soft
 - id: triangulation-method-convergence
   type: soft
-builds-toward:
-- structural-var-models
-- impulse-response-analysis
 tags:
 - time-series
 - multivariate

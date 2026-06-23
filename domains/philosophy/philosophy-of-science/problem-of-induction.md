@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: probabilistic-reasoning
   type: soft
+- id: empiricism-scientific-inquiry
+  type: soft
+- id: scientific-method-and-observation
+  type: soft
 builds-toward:
 - popper-falsificationism
 - logical-positivism

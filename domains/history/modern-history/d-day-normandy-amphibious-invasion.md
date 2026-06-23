@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: total-war-mobilization-economy
   type: soft
-builds-toward:
-- yalta-conference-settlement
 tags:
 - WWII
 - military-operation

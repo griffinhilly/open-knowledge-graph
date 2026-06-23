@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: global-workspace-consciousness
   type: soft
-builds-toward:
-- self-referential-processing-brain
-- default-mode-network-development-across-lifespan
 tags:
 - default-mode-network
 - DMN

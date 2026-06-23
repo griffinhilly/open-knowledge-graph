@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: quest-narrative-heroic-journey
   type: soft
+- id: greek-pantheon-olympians
+  type: soft
 builds-toward:
 - comparative-mythology-patterns
 tags:

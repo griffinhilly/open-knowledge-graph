@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: newtons-third-law
   type: soft
+- id: normal-force-contact-forces
+  type: hard
+- id: what-is-friction
+  type: soft
 builds-toward:
 - work-and-energy
 - conservation-of-energy

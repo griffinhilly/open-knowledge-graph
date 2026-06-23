@@ -8,9 +8,12 @@ prerequisites:
   type: hard
 - id: heat-capacity-calorimetry
   type: hard
+- id: burning-and-combustion-basics
+  type: soft
+- id: endothermic-exothermic-intro
+  type: soft
 builds-toward:
 - bond-energy-and-enthaly
-- hess-law
 tags:
 - exothermic
 - endothermic

@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: implicit-differentiation-multivariable
   type: soft
+- id: hicksian-demand
+  type: hard
 builds-toward:
 - compensated-demand-curves
 - revealed-preference-axioms

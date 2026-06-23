@@ -8,6 +8,8 @@ prerequisites:
     type: hard
   - id: solving-quadratics-by-factoring
     type: soft
+  - id: operations-with-radicals
+    type: soft
 builds-toward:
   - operations-with-complex-numbers
   - fundamental-theorem-of-algebra

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: infectious-disease-epidemiology
   type: soft
+- id: antibiotic-targets-and-resistance-development
+  type: soft
+- id: antimicrobial-agents-and-mechanisms-of-action
+  type: soft
 builds-toward:
 - emerging-infectious-diseases
 tags:

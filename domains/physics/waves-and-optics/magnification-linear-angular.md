@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - optical-instruments
-- microscope-design-components
-- telescope-design-components
 tags:
 - magnification
 - image-size

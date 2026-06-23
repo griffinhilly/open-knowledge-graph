@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: seawater-properties
   type: soft
+- id: salinity-distribution-sources-sinks
+  type: soft
 builds-toward:
 - thermohaline-circulation-physics
 - ocean-heat-transport-mechanism

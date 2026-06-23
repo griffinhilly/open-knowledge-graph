@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: critical-developmental-periods
   type: soft
+- id: nmda-receptor-calcium
+  type: soft
 tags:
 - learning-memory
 - hippocampus

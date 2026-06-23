@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: solar-system-zones-architecture
   type: hard
+- id: inner-vs-outer-planets
+  type: soft
 builds-toward:
 - asteroid-belt-structure
 - cometary-orbits-and-dynamics

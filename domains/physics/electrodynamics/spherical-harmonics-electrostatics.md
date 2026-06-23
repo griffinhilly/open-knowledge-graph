@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: legendre-equations
   type: hard
+- id: boundary-value-problem-types
+  type: soft
 builds-toward:
   - green-function-method-electrostatics
 tags:

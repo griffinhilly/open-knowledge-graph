@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: complex-exponential-function
   type: soft
+- id: distribution-and-density-functions
+  type: hard
 builds-toward:
 - central-limit-theorem-rigorous
 - convergence-in-distribution

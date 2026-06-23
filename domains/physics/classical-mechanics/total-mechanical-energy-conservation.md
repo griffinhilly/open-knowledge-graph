@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: mechanical-energy-and-non-conservative-forces
   type: soft
+- id: energy-conservation-intro
+  type: soft
+- id: energy-conservation-quantitative
+  type: soft
 builds-toward:
 - energy-conservation-applications
 - effective-potential-central-forces

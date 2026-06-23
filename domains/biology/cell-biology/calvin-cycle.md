@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: reaction-mechanisms-overview
   type: soft
+- id: chloroplast-photosynthesis-organelle
+  type: hard
 tags:
 - Calvin-cycle
 - carbon-fixation

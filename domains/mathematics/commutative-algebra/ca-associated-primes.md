@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ca-modules-over-rings
   type: soft
+- id: ca-chain-conditions
+  type: soft
 builds-toward:
 - ca-regular-sequences
 tags:

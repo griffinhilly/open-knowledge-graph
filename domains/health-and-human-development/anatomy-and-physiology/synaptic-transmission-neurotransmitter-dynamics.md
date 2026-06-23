@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: hard
-builds-toward:
-- synaptic-plasticity-learning
 tags:
 - synaptic-transmission
 - neurotransmitters

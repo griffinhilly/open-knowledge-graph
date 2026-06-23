@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - adaptive-radiation
-- biodiversity-metrics
 tags:
 - polyploidy
 - speciation

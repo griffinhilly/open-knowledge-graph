@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: normal-distribution
   type: hard
+- id: percentile-ranks-and-interpretation
+  type: soft
 builds-toward:
 - diagnostic-cutoff-scores-classification-accuracy
 tags:

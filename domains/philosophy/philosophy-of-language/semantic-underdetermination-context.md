@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: scalar-implicature-pragmatics
   type: soft
+- id: compositionality-principle
+  type: soft
 builds-toward:
 - indexicality-and-contextual-reference
 tags:

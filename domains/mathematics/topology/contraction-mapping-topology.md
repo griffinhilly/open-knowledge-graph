@@ -6,8 +6,6 @@ course: topology
 prerequisites:
 - id: completeness-metric-spaces
   type: hard
-builds-toward:
-- applications-differential-equations
 tags:
 - fixed-points
 - contraction

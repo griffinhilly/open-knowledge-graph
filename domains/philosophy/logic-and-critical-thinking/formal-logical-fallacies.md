@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: rhetorical-vs-logical-fallacies
   type: soft
+- id: fallacy-categories-overview
+  type: soft
 tags:
 - formal-fallacy
 - deduction

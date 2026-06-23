@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: out-of-pocket-spending
   type: soft
+- id: global-health-financing
+  type: soft
+- id: health-insurance-design
+  type: soft
 builds-toward: []
 tags:
 - UHC

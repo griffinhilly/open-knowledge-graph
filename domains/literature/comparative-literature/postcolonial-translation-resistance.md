@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: postcolonial-rewriting-canon
   type: soft
+- id: reading-literatures-in-translation
+  type: soft
 builds-toward:
 - literary-identity-nation-construction
 tags:

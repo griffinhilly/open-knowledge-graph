@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - unbiased-and-consistent-estimators
-- maximum-likelihood-estimation-intro
 tags:
 - estimation
 - properties

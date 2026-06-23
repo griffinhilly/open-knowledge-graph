@@ -9,7 +9,6 @@ prerequisites:
 builds-toward:
 - executive-branch-systems
 - legislative-branch-systems
-- constitutional-democracy-mechanisms
 tags:
 - checks-and-balances
 - veto

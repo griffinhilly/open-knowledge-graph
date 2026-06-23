@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: glomerulonephritis-types
   type: soft
-builds-toward:
-- secondary-nephrotic-syndrome
 tags:
 - nephrotic-syndrome
 - proteinuria

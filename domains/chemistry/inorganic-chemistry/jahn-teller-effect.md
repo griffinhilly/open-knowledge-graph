@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: group-theory-applications-inorganic
   type: soft
+- id: term-symbols-d-electron
+  type: soft
 builds-toward: []
 tags:
 - Jahn-Teller distortion

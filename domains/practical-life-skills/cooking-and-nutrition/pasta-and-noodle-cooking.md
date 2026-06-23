@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reading-recipes
   type: soft
+- id: water-properties-in-cooking
+  type: soft
 tags:
 - pasta
 - noodles

@@ -6,6 +6,12 @@ course: topology
 prerequisites:
 - id: compact-spaces-open-covers
   type: hard
+- id: compact-sets-definition
+  type: soft
+- id: convergence-in-topology
+  type: hard
+- id: limit-points-convergence-topology
+  type: soft
 builds-toward:
 - metrization-theorems
 tags:

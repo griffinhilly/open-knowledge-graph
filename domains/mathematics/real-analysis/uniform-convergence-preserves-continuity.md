@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: sequential-continuity
   type: soft
+- id: uniform-convergence
+  type: hard
 builds-toward:
 - interchange-limit-integral
 - weierstrass-approximation-theorem

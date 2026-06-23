@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: part-writing-doubling-and-spacing-rules
   type: soft
+- id: scale-degree-leading-tone-function
+  type: soft
+- id: voice-leading-smooth-stepwise-motion
+  type: soft
 builds-toward:
 - secondary-dominant-extended-voice-leading
 - cadential-voice-leading-authentic-plagal

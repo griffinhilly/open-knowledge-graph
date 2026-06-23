@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: psychoanalytic-criticism
   type: soft
+- id: marxist-ideology-critique-method
+  type: hard
 builds-toward:
 - ideological-criticism
 - discourse-and-power

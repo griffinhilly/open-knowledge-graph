@@ -14,6 +14,14 @@ prerequisites:
   type: soft
 - id: whitespace-and-breathing-room
   type: soft
+- id: emphasis-establishing-focal-points
+  type: soft
+- id: figure-ground-relationship
+  type: soft
+- id: gestalt-design-application
+  type: soft
+- id: gestalt-grouping-proximity
+  type: soft
 builds-toward:
 - type-pairing-and-hierarchy
 - ui-design-fundamentals

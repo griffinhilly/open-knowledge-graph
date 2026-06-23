@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: first-order-semantics
   type: soft
+- id: intentionality-semantic-content-mind
+  type: soft
 builds-toward:
 - extended-mind-thesis
 tags:

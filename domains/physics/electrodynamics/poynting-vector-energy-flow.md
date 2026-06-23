@@ -11,7 +11,6 @@ prerequisites:
 - id: poynting-theorem-conservation-law
   type: soft
 builds-toward:
-- radiation-pressure
 - maxwell-stress-tensor
 tags:
 - poynting-vector

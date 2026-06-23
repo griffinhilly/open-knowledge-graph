@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: investment-function-accelerator
   type: soft
+- id: real-interest-rate-and-fisher-equation
+  type: soft
 builds-toward:
 - aggregate-demand
 - demand-shocks-and-multipliers

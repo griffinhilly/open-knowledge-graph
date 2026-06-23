@@ -6,6 +6,8 @@ course: thermodynamics-engineering
 prerequisites:
 - id: entropy-intro
   type: hard
+- id: thermodynamic-systems-engineering
+  type: soft
 builds-toward:
 - pure-substance-phase-diagrams
 tags:

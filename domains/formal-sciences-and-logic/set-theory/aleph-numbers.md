@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: ordinal-numbers-and-order
   type: soft
+- id: aleph-and-beth-hierarchy-introduction
+  type: soft
+- id: countable-sets-and-countability
+  type: soft
+- id: set-theoretic-cardinality
+  type: hard
 builds-toward:
 - beth-numbers
 - continuum-hypothesis

@@ -12,9 +12,10 @@ prerequisites:
   type: soft
 - id: early-modern-missionary-activity
   type: soft
+- id: medieval-inquisition-religious-enforcement
+  type: soft
 builds-toward:
 - gender-history
-- social-control-theory
 tags:
 - persecution
 - gender

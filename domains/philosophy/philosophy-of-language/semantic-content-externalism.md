@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: impliciture-and-enrichment
   type: soft
+- id: natural-kind-terms-semantics
+  type: soft
 builds-toward: []
 tags:
 - externalism

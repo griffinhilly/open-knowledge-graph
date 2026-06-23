@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: wave-equation-pde
   type: soft
+- id: ampere-maxwell-law
+  type: hard
+- id: maxwell-equations-differential-form
+  type: hard
 builds-toward:
 - plane-waves-in-vacuum
 - poynting-vector-and-energy-flux

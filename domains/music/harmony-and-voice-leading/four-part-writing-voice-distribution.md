@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: voice-spacing-rules-registers
   type: soft
+- id: doubling-rules-root-fifth-third
+  type: soft
 builds-toward:
 - diatonic-progression-voice-leading-patterns
 - harmonic-function-and-voice-leading-analysis

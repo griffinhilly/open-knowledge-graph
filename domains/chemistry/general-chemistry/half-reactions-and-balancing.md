@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: electrochemistry-oxidation-reduction-applications
   type: soft
+- id: oxidation-state-and-oxidation-numbers
+  type: hard
 builds-toward:
 - balancing-redox-equations
 - galvanic-electrochemical-cells

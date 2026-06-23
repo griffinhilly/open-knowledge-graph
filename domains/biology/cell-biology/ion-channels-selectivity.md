@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ion-selective-electrodes
   type: soft
+- id: plasma-membrane-organization-dynamics
+  type: soft
 builds-toward:
 - osmotic-water-balance
 - action-potential

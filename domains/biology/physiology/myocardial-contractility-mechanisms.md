@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - cardiac-output-control-regulation
-- myocardial-oxygen-supply-demand
 tags:
 - myocardial
 - contraction

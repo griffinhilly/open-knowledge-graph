@@ -10,7 +10,6 @@ prerequisites:
 builds-toward:
 - history-of-vaccination
 - public-health-history
-- antibiotics-and-drug-history
 tags:
 - history
 - History Of Science

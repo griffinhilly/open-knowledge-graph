@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: logical-equivalences
   type: soft
+- id: propositional-connectives
+  type: hard
 builds-toward:
 - tautologies-and-contradictions
 - propositional-soundness-completeness

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: body-organization-and-terminology
   type: hard
-builds-toward:
-- intestinal-nutrient-absorption-transport
 tags:
 - epithelial-transport
 - tight-junctions

@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - motor-unit-recruitment-principle
-- exercise-physiology-cardiovascular-adaptation
 tags:
 - muscle
 - fiber types

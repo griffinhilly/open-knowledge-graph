@@ -6,11 +6,6 @@ course: creative-nonfiction
 prerequisites:
 - id: personal-essay-form
   type: hard
-- id: psychological-realism
-  type: soft
-builds-toward:
-- psychological-memoir
-- introspective-writing
 tags:
 - reflective
 - introspection

@@ -7,7 +7,6 @@ prerequisites:
 - id: binary-relations-definition-and-properties
   type: hard
 builds-toward:
-- cardinality-comparison-and-schroeder-bernstein
 - cardinal-numbers-basic-theory
 tags:
 - equivalence

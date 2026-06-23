@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: scientific-progress-and-convergence
   type: soft
+- id: underdetermination-duhem-quine
+  type: soft
 builds-toward:
 - constructive-empiricism
 - instrumentalism-science

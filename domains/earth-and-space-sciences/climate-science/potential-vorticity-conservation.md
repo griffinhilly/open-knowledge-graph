@@ -6,6 +6,8 @@ course: climate-science
 prerequisites:
 - id: coriolis-effect
   type: hard
+- id: absolute-relative-vorticity
+  type: hard
 builds-toward:
 - rossby-waves-barotropic
 - baroclinic-instability

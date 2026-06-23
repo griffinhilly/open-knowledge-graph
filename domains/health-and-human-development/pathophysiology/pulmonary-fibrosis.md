@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: nonalcoholic-fatty-liver-disease-mechanisms
   type: soft
+- id: pathological-fibrosis-and-excessive-scarring
+  type: soft
 tags:
 - pulmonary-fibrosis
 - lung-disease

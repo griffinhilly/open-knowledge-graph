@@ -4,7 +4,7 @@ title: 'Persian Classical Poetry: Forms, Mysticism, and Literary Philosophy'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - sufi-mystical-poetry-ecstatic-tradition

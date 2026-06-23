@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - error-related-negativity-neural-basis
-- cognitive-control-acc-dlpfc-coupling
 tags:
 - ACC
 - conflict

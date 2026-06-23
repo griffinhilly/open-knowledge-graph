@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - plate-tectonics-driving-forces
-- mountain-building-crustal-thickening
 tags:
 - isostasy
 - buoyancy

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: baroclinic-instability
   type: soft
+- id: cold-front-structure-dynamics
+  type: soft
+- id: warm-front-structure-dynamics
+  type: soft
 builds-toward:
 - weather-map-analysis
 - storm-track-dynamics-climate

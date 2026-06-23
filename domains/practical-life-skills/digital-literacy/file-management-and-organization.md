@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: photo-and-video-organization
   type: soft
+- id: saving-and-opening-files
+  type: hard
 builds-toward:
 - backup-and-data-protection
 - system-backup-and-recovery

@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: electric-current-definition
   type: soft
+- id: electroanalytical-overview
+  type: soft
+- id: electrolytic-cells-and-electrolysis
+  type: soft
 tags:
 - coulometry
 - Faraday's law

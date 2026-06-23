@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: symphony-and-large-forms
   type: soft
+- id: classical-instrumental-forms-development
+  type: soft
 builds-toward:
 - early-modernism-20th-century
 tags:

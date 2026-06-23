@@ -10,9 +10,10 @@ prerequisites:
   type: hard
 - id: action-potential
   type: hard
+- id: tissue-organization-and-specialization
+  type: soft
 builds-toward:
 - cardiac-cycle-mechanics-and-function
-- cardiac-output-regulation
 tags:
 - cardiac-cycle
 - electrophysiology

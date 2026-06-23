@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stellar-parallax-and-distance
   type: hard
+- id: galaxies-intro
+  type: soft
 builds-toward:
 - active-galactic-nuclei
 - dark-matter-and-dark-energy

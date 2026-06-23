@@ -3,7 +3,9 @@ id: one-to-one-counting-correspondence
 title: One-to-One Correspondence in Counting
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: counting-sequence-to-ten
+  type: hard
 builds-toward:
 - cardinality-principle
 - counting-objects-to-20

@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - connected-histories-entanglement
-- global-history-theory
 tags:
 - comparison
 - method

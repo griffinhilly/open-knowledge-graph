@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: abstract-reasoning-and-hypothetical-thinking
   type: soft
+- id: memory-development-capacity-encoding
+  type: soft
 tags:
 - cognitive-development
 - reasoning

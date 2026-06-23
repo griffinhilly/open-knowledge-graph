@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: cultural-exchange-art-trade-routes
   type: soft
+- id: historical-painting-techniques-evolution
+  type: soft
 builds-toward:
 - concurrent-art-movements-comparison
 - cross-cultural-artistic-exchange

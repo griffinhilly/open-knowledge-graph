@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: ventilation-mechanics-control
   type: soft
+- id: acid-base-respiratory-compensation
+  type: soft
+- id: brainstem-vital-functions
+  type: soft
 tags:
 - breathing control
 - chemoreceptors

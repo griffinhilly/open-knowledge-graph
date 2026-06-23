@@ -6,6 +6,10 @@ course: geology
 prerequisites:
 - id: acid-base-chemistry
   type: soft
+- id: chemical-weathering
+  type: soft
+- id: mechanical-weathering
+  type: soft
 builds-toward:
 - erosion-agents-fluvial-glacial-coastal
 - pedogenesis-soil-horizons-classification

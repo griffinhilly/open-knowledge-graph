@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - active-transport
-- cell-senescence-aging
 tags:
 - membrane-transport
 - water-balance

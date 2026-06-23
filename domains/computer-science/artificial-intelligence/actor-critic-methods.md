@@ -6,6 +6,8 @@ course: artificial-intelligence
 prerequisites:
 - id: policy-gradient-methods
   type: hard
+- id: policy-networks-neural
+  type: hard
 tags:
 - reinforcement-learning
 - policy-optimization

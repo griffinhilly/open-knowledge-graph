@@ -6,6 +6,8 @@ course: 1st-grade
 prerequisites:
 - id: place-value-tens-and-ones
   type: hard
+- id: number-recognition-1-100-2nd-grade
+  type: soft
 builds-toward:
 - ordering-numbers-to-20
 tags:

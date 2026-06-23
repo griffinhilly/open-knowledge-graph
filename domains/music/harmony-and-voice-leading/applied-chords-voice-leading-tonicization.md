@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - chromatic-approach-voice-leading
-- voice-leading-in-composition
 tags:
 - applied-chords
 - secondary-dominants

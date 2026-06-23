@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: infectious-disease-epidemiology
   type: soft
+- id: vaccines-and-immunity-basics
+  type: hard
 builds-toward:
 - global-burden-of-disease
 - health-policy-and-advocacy

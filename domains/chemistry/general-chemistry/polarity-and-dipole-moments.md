@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: polar-covalent-bonds-and-dipoles
   type: soft
+- id: covalent-bonding-formation
+  type: soft
 builds-toward:
 - intermolecular-forces
 - solution-properties

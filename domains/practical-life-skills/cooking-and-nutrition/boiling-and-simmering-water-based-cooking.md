@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - grain-and-starch-preparation-basics
-- planning-a-balanced-daily-menu
 tags:
 - cooking-methods
 - boiling

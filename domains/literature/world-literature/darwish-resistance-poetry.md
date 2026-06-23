@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: postcolonial-literature-theory
   type: soft
+- id: arabic-modernism-nahda-cultural-renaissance
+  type: soft
 builds-toward:
 - postcolonial-literature-theory
 tags:

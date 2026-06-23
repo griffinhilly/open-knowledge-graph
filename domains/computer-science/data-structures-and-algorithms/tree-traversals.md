@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: queues-data-structure
   type: soft
+- id: tree-node-structure-properties
+  type: hard
 builds-toward:
 - binary-search-trees
 - depth-first-search

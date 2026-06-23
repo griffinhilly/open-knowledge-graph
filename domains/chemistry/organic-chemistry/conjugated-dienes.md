@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electrophilic-addition-to-alkenes
   type: hard
+- id: iupac-nomenclature-alkynes
+  type: soft
+- id: resonance-in-organic-intermediates
+  type: soft
 builds-toward:
 - diels-alder-reaction
 tags:

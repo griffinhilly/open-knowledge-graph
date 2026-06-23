@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: linear-transformations
   type: hard
+- id: hilbert-space-formalism
+  type: hard
+- id: kets-and-bras
+  type: hard
+- id: quantum-postulates
+  type: soft
 builds-toward:
 - commutation-relations
 tags:

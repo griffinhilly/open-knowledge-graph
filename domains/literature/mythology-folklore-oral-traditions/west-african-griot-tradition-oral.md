@@ -6,6 +6,8 @@ course: mythology-folklore-oral-traditions
 prerequisites:
 - id: oral-tradition-transmission-variation
   type: hard
+- id: african-oral-literature-griot-tradition
+  type: soft
 builds-toward:
 - sundiata-epic-malian-oral-performance
 tags:

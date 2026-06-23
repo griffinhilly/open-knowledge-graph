@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: linear-transformations
   type: hard
+- id: linear-transformation-matrix-representation
+  type: soft
+- id: matrix-operations
+  type: hard
+- id: transformation-matrices
+  type: soft
 builds-toward:
 - diagonalization
 tags:

@@ -10,9 +10,10 @@ prerequisites:
   type: hard
 - id: complement-system-overview
   type: soft
+- id: glomerular-filtration-barrier-and-proteinuria
+  type: hard
 builds-toward:
 - nephrotic-syndrome-pathophysiology
-- rapidly-progressive-glomerulonephritis
 tags:
 - glomerulonephritis
 - immune-injury

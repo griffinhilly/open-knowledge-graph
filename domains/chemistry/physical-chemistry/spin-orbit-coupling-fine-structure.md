@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electron-configuration
   type: hard
+- id: perturbation-theory-time-independent
+  type: hard
 builds-toward:
 - nmr-second-order-effects
 - phosphorescence-intersystem-crossing

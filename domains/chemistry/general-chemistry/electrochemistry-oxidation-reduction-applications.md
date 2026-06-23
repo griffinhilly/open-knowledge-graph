@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - electrochemical-cells
-- galvanic-cells
 tags:
 - electrochemistry
 - redox

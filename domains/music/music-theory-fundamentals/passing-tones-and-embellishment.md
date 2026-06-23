@@ -6,9 +6,6 @@ course: music-theory-fundamentals
 prerequisites:
 - id: diatonic-chord-construction
   type: hard
-builds-toward:
-- harmonic-analysis-roman-numerals-basics
-- melody-and-harmonic-context
 tags:
 - non-harmonic-tones
 - passing-tones

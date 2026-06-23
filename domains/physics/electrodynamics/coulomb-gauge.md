@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: scalar-vector-potentials
   type: hard
-builds-toward:
-- quantum-electrodynamics-intro
 tags:
 - coulomb-gauge
 - instantaneous-interaction

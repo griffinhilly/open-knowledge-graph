@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: extending-patterns
   type: soft
-builds-toward:
-- simple-repeating-patterns
 tags:
 - patterns
 - pattern extension

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gdp-components
   type: soft
+- id: nominal-and-real-macroeconomic-variables
+  type: soft
 builds-toward:
   - inflation-dynamics-and-persistence
 tags:

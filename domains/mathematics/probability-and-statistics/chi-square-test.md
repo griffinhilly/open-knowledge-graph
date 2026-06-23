@@ -6,6 +6,12 @@ course: probability-and-statistics
 prerequisites:
 - id: hypothesis-testing-fundamentals
   type: hard
+- id: chi-square-distribution-theory
+  type: hard
+- id: frequency-distributions-and-tables
+  type: soft
+- id: hypothesis-testing-framework-theory
+  type: hard
 tags:
 - chi-square
 - goodness-of-fit

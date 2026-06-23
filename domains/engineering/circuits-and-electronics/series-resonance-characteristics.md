@@ -6,6 +6,8 @@ course: circuits-and-electronics
 prerequisites:
 - id: impedance-admittance-networks
   type: hard
+- id: circuit-resonance-concepts
+  type: hard
 builds-toward:
 - quality-factor-bandwidth-tradeoff
 - frequency-response-analysis-bode

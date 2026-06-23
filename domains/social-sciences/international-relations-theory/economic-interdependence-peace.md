@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: international-political-economy-basics
   type: hard
+- id: relative-versus-absolute-gains
+  type: soft
 builds-toward:
 - trade-regimes-and-cooperation
 - sanctions-and-statecraft

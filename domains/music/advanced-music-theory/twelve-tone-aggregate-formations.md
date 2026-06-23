@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: derived-row-techniques
   type: soft
+- id: pitch-class-set-subsets-supsets
+  type: soft
 builds-toward:
 - pitch-class-set-cartography
 tags:

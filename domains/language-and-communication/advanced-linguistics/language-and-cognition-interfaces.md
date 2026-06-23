@@ -6,8 +6,6 @@ course: advanced-linguistics
 prerequisites:
 - id: psycholinguistics-intro
   type: hard
-builds-toward:
-- psycholinguistics-comprehension
 tags:
 - psycholinguistics
 - cognition

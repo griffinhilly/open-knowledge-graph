@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - multi-step-word-problems-3rd
-- problem-solving-strategies
 tags:
 - word-problems
 - problem-solving

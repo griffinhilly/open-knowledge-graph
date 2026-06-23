@@ -12,7 +12,6 @@ prerequisites:
   type: hard
 builds-toward:
 - godel-completeness-theorem-first-order
-- syntactic-versus-semantic-consequence
 tags:
 - proof-theory
 - soundness

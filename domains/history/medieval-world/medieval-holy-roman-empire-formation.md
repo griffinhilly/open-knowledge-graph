@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: medieval-world-definition-periodization
   type: soft
-builds-toward:
-- medieval-investiture-church-state-conflict
-- ottoman-empire-early-modern
 tags:
 - holy-roman-empire
 - empire

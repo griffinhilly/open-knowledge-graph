@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: acute-inflammation-pathophysiology
   type: hard
+- id: hypoxemic-respiratory-failure-causes
+  type: soft
+- id: pulmonary-edema-pathophysiology-and-mechanisms
+  type: soft
 builds-toward:
 - sepsis-and-sirs-pathophysiology
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: mental-math-add-subtract-tens
   type: soft
+- id: decomposing-two-digit-numbers
+  type: soft
+- id: mental-math-strategies-addition-1st
+  type: soft
 builds-toward:
 - three-digit-addition
 - two-step-word-problems

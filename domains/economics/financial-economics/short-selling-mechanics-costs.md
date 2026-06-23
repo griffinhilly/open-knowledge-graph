@@ -6,8 +6,8 @@ course: financial-economics
 prerequisites:
 - id: leverage-and-margin-trading
   type: hard
-builds-toward:
-- derivative-hedging-strategies
+- id: margin-requirements-and-lending
+  type: soft
 tags:
 - short-selling
 - leverage

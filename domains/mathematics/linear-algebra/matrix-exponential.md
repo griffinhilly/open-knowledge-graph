@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: diagonalization-similar-matrices
   type: hard
+- id: jordan-normal-form-intro
+  type: soft
 builds-toward:
 - applications-linear-algebra-modeling
 tags:

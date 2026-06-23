@@ -7,7 +7,6 @@ prerequisites:
 - id: transfer-functions-control
   type: hard
 builds-toward:
-- frequency-response-magnitude-phase-plots
 - gain-margin-phase-margin-stability
 tags:
 - frequency-response

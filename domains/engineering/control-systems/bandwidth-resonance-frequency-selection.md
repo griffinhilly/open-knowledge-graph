@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: frequency-response-magnitude-phase-basics
   type: soft
+- id: second-order-system-response-analysis
+  type: hard
 builds-toward:
 - control-loop-design-via-bode-plots
 tags:

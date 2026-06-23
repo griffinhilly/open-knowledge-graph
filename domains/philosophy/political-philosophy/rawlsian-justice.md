@@ -6,6 +6,8 @@ course: political-philosophy
 prerequisites:
 - id: rawls-original-position
   type: hard
+- id: distributive-justice
+  type: hard
 builds-toward:
 - difference-principle
 - political-liberalism

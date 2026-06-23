@@ -6,6 +6,8 @@ course: drama
 prerequisites:
 - id: comedy-and-comic-structure
   type: hard
+- id: comedic-timing-and-pacing
+  type: soft
 builds-toward: []
 tags:
 - farce

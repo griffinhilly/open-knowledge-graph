@@ -6,11 +6,6 @@ course: creative-nonfiction
 prerequisites:
 - id: nonfiction-research-methods
   type: hard
-- id: argument-and-evidence
-  type: soft
-builds-toward:
-- scholarly-essay
-- documented-nonfiction
 tags:
 - research
 - process

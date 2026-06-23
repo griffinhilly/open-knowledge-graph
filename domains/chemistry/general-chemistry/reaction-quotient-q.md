@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: le-chatelier-principle
   type: hard
-builds-toward:
-- solubility-product-constant
-- electrochemistry-basics
 tags:
 - reaction quotient
 - Q vs K

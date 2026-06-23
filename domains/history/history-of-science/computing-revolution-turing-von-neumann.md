@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 
 builds-toward:
-- artificial-intelligence-history
 - internet-origins-arpanet
 - digital-economy-history
 tags:

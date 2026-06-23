@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: proof-structure-and-terminology
   type: soft
+- id: metalogical-properties-and-theorems
+  type: soft
 builds-toward:
 - lowenheim-skolem-theorems-overview
 tags:

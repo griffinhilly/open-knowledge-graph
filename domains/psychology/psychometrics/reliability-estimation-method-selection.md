@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: correlation-coefficient
   type: soft
+- id: split-half-reliability-spearman-brown
+  type: soft
 builds-toward:
 - standard-error-of-measurement-applications
 tags:

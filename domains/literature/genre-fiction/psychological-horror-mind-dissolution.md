@@ -12,7 +12,6 @@ prerequisites:
   type: hard
 builds-toward:
 - psychological-thriller-unreliable-mind
-- trauma-representation-narrative
 tags:
 - psychological-horror
 - madness

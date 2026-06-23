@@ -6,6 +6,8 @@ course: creative-nonfiction
 prerequisites:
 - id: creative-nonfiction-definition
   type: hard
+- id: nonfiction-voice-authenticity
+  type: soft
 builds-toward:
 - montaigne-essay-invention
 - essay-digression-technique

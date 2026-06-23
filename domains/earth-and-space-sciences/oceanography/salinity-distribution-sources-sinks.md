@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - water-mass-formation-types
 - ocean-stratification-and-mixing
-- haline-stratification-patterns
 tags:
 - salinity
 - evaporation

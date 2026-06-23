@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rna-types-and-structure
   type: soft
+- id: transcription-initiation-and-regulation
+  type: soft
 builds-toward:
 - translation-initiation-and-elongation
 tags:

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - numeral-writing-0-10
-- matching-numerals-to-sets
 tags:
 - numerals
 - symbols

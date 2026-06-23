@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: endoplasmic-reticulum-and-golgi
   type: soft
+- id: osmosis-and-tonicity
+  type: soft
+- id: selective-permeability-and-membrane-channels
+  type: soft
 builds-toward:
 - cell-signaling-intro
 tags:

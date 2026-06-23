@@ -4,7 +4,7 @@ title: 'Latin American Poetry: Political Engagement and Social Commitment'
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - neruda-political-poetry

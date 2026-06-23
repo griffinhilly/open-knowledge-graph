@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: newtons-law-of-gravitation
   type: hard
+- id: gravitational-potential-energy
+  type: soft
 builds-toward:
 - orbital-energy-and-escape-velocity
 tags:

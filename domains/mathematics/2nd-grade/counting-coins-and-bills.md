@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: counting-to-100-2nd-grade
   type: soft
+- id: skip-counting-by-5s-fluency
+  type: soft
 builds-toward:
 - dollars-and-cents-notation
 - making-change-simple

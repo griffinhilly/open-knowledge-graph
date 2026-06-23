@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: narrative-voice
   type: soft
+- id: detective-protagonist-investigation
+  type: hard
 builds-toward:
 - noir-aesthetic-moral-corruption
 - crime-fiction-underworld-perspective

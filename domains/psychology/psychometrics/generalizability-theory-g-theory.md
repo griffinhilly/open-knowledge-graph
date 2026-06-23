@@ -10,8 +10,10 @@ prerequisites:
   type: soft
 - id: anova-one-way
   type: hard
-builds-toward:
-- computerized-adaptive-testing
+- id: inter-rater-reliability-agreement
+  type: soft
+- id: test-retest-reliability
+  type: soft
 tags:
 - generalizability
 - variance-components

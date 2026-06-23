@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: sigma-notation
   type: hard
+- id: probability-density-functions
+  type: soft
+- id: probability-density-functions-theory
+  type: soft
+- id: probability-mass-functions
+  type: hard
+- id: probability-mass-functions-theory
+  type: hard
 builds-toward:
 - variance-of-random-variables
 - binomial-distribution

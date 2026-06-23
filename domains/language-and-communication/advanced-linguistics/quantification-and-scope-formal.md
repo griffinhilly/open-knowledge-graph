@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - de-re-de-dicto-distinction
-- type-theory-semantics
 tags:
 - semantics
 - quantification

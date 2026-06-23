@@ -6,6 +6,14 @@ course: general-chemistry
 prerequisites:
 - id: atomic-structure-basics
   type: hard
+- id: atomic-number-and-identity
+  type: hard
+- id: element-symbols-and-names
+  type: soft
+- id: periodic-table-intro
+  type: soft
+- id: periods-and-groups
+  type: soft
 builds-toward:
 - electron-configuration
 - periodic-trends

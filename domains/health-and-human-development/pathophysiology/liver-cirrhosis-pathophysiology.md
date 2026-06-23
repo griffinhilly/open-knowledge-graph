@@ -6,10 +6,12 @@ course: pathophysiology
 prerequisites:
 - id: chronic-inflammation
   type: hard
-builds-toward:
-- variceal-hemorrhage
-- hepatic-encephalopathy
-- hepatorenal-syndrome
+- id: hepatitis-viral-pathophysiology
+  type: soft
+- id: hepatocellular-injury-and-synthetic-dysfunction
+  type: soft
+- id: pathological-fibrosis-and-excessive-scarring
+  type: soft
 tags:
 - cirrhosis
 - liver-disease

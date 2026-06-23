@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: figurative-language
   type: soft
-builds-toward:
-- lyric-nonfiction
-- philosophical-essay
 tags:
 - metaphor
 - analogy

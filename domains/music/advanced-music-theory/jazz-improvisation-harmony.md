@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: jazz-rhythm-section-analysis
   type: soft
+- id: scale-degree-singing-by-ear
+  type: soft
 tags:
 - jazz
 - improvisation

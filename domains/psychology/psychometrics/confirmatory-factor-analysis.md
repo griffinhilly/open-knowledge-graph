@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: hard
+- id: construct-validity-multitrait
+  type: soft
 builds-toward:
 - structural-equation-modeling-measurement
 - validity-evidence-frameworks

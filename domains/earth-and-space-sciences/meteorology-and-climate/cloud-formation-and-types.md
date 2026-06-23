@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: latent-heat
   type: soft
+- id: clouds-and-rain
+  type: soft
+- id: humidity-and-precipitation
+  type: soft
 builds-toward:
 - precipitation-types-and-processes
 - thunderstorms-and-lightning

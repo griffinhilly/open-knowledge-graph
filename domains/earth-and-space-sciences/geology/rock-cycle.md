@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: metamorphic-rocks
   type: hard
+- id: types-of-rocks
+  type: hard
 builds-toward:
 - geological-time-scale
 - plate-tectonics

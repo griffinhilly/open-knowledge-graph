@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: calculus-of-variations-euler-lagrange
   type: soft
+- id: conservation-of-energy-mechanical-systems
+  type: soft
 builds-toward:
 - euler-equations-rigid-body-rotation
 tags:

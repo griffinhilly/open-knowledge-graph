@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stress-strain-behavior
   type: hard
+- id: elastic-and-plastic-behavior
+  type: soft
 builds-toward:
 - plastic-deformation-slip-systems
 - yield-strength-tensile-properties

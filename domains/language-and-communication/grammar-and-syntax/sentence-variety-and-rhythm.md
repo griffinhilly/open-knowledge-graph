@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: preposition-placement-and-stranding
   type: soft
+- id: english-word-order-svo
+  type: soft
 builds-toward:
 - paragraph-structure
 tags:

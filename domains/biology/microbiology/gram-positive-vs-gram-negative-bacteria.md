@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: gram-staining-and-cell-wall-classification
   type: soft
+- id: microbial-cell-organization-prokaryotic
+  type: soft
 builds-toward:
 - antibiotic-targets-and-resistance-development
 - bacterial-toxins-exotoxins-and-endotoxins

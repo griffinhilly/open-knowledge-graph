@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: hypersensitivity-reactions
   type: soft
+- id: immune-tolerance-central-and-peripheral
+  type: hard
+- id: th1-th2-th17-responses
+  type: soft
 tags:
 - pathology
 - autoimmunity

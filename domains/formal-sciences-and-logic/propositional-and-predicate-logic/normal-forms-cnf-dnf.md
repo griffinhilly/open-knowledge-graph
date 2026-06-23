@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: truth-tables
   type: soft
+- id: atomic-versus-complex-formulas
+  type: soft
+- id: logical-equivalence-propositional
+  type: soft
 builds-toward:
 - propositional-compactness
 - sequent-calculus-intro

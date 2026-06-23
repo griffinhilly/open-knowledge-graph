@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: directional-derivatives
   type: soft
+- id: equations-lines-planes
+  type: soft
 builds-toward:
 - optimization-multivariable-basics
 tags:

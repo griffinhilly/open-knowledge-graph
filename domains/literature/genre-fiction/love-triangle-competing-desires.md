@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: conflict-analysis-classification
   type: soft
-builds-toward:
-- character-motivation-desire-self
-- romantic-conflict-resolution
+- id: romance-genre-emotional-centrality
+  type: hard
 tags:
 - love-triangle
 - romance

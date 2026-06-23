@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: force-systems-resultants
   type: soft
+- id: force-vectors-components-resultants
+  type: hard
 builds-toward:
 - rigid-body-equilibrium-planar
 - statically-determinate-analysis

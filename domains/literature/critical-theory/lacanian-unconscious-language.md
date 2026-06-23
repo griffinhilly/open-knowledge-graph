@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - jouissance-excess-psychoanalytic
-- symbolic-order-and-reality
 tags:
 - Lacan
 - psychoanalysis

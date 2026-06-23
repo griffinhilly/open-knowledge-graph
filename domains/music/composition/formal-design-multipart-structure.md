@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: cadential-design-and-structural-closure
   type: soft
+- id: compositional-variation-and-development
+  type: soft
 builds-toward:
 - sonata-composition-structural
 - theme-and-variations-composition

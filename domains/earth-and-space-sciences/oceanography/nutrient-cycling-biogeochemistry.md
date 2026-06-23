@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - coastal-eutrophication-blooms
-- oxygen-minimum-zone-formation
 tags:
 - nutrients
 - nitrogen-cycle

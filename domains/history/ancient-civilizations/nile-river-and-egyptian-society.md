@@ -6,6 +6,8 @@ course: ancient-civilizations
 prerequisites:
 - id: egyptian-civilization
   type: hard
+- id: egypt-nile-and-civilization
+  type: soft
 builds-toward:
 - old-kingdom-egypt
 - egyptian-pharaonic-divinity

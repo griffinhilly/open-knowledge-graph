@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: substance-dualism
   type: hard
+- id: hard-problem-of-consciousness
+  type: soft
 builds-toward:
   - emergence-reduction-consciousness
 tags:

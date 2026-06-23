@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: quantifier-scope-interactions
   type: soft
-builds-toward:
-- de-re-de-dicto-readings
 tags:
 - logic
 - quantification

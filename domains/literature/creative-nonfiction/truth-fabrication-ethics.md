@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: immersion-reporting-ethics
   type: hard
-builds-toward:
-- representation-ethics
-- documentary-form
 tags:
 - truth
 - fabrication

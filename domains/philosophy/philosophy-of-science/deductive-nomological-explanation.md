@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: first-order-logic-syntax
   type: soft
+- id: scientific-explanation-introduction
+  type: soft
 builds-toward:
 - covering-law-model-explanation
 - causal-explanation-science

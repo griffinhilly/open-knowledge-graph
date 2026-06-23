@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: periodic-table-overview
   type: hard
+- id: periodic-trends-intro
+  type: soft
+- id: periods-and-groups
+  type: soft
 builds-toward:
 - ionic-bonding
 - covalent-bonding

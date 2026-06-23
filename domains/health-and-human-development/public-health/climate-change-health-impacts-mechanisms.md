@@ -9,7 +9,6 @@ prerequisites:
 - id: infectious-disease-epidemiology
   type: soft
 builds-toward:
-- emerging-infectious-disease-surveillance
 - global-burden-of-disease
 tags:
 - climate-change

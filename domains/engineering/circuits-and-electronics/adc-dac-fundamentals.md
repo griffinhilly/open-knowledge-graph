@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: operational-amplifier-fundamentals
   type: soft
+- id: digital-vs-analog-signals
+  type: hard
+- id: summing-and-difference-amplifiers
+  type: soft
 tags:
 - analog-to-digital
 - digital-to-analog

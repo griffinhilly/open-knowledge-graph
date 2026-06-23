@@ -8,10 +8,11 @@ prerequisites:
   type: hard
 - id: subrings-ideals
   type: hard
+- id: ca-ideal-operations
+  type: soft
 builds-toward:
 - ca-hilbert-basis-theorem
 - ca-primary-decomposition
-- ca-hilbert-function
 tags:
 - noetherian
 - ascending-chain-condition

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cultural-materialism-english-school
   type: soft
+- id: marxist-ideology-critique-method
+  type: hard
 builds-toward:
 - new-historicism
 tags:

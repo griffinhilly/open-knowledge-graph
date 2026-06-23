@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: model-theory-basics
   type: hard
+- id: godel-completeness-theorem-first-order
+  type: soft
 tags:
 - compactness
 - model-theory

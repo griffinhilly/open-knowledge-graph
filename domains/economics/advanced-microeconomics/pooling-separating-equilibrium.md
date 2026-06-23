@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bayesian-games
   type: hard
+- id: perfect-bayesian-equilibrium
+  type: hard
 tags:
 - contract-theory
 - information-asymmetry

@@ -18,6 +18,10 @@ prerequisites:
   type: hard
 - id: fundamental-theorem-of-calculus-part-1
   type: hard
+- id: capital-accumulation-steady-state
+  type: hard
+- id: neoclassical-growth-steady-state
+  type: hard
 builds-toward:
 - endogenous-growth-theory
 tags:

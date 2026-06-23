@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: natural-minor-scale-construction-fundamentals
   type: hard
-builds-toward:
-- chromatic-borrowed-chords-basics
-- minor-key-harmony
 tags:
 - scales
 - tonality

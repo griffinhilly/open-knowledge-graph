@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: systems-of-linear-equations
   type: hard
+- id: cofactor-expansion
+  type: soft
 tags:
 - systems
 - cramers rule

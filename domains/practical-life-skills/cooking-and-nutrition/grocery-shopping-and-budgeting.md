@@ -28,6 +28,8 @@ prerequisites:
   type: soft
 - id: percent-of-a-number
   type: soft
+- id: ingredient-selection-freshness
+  type: soft
 tags:
 - grocery
 - budgeting

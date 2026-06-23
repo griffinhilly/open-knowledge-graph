@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - four-part-writing
-- voice-leading-in-composition
 tags:
 - voice-leading
 - counterpoint

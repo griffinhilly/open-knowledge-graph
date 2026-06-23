@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: close-reading-techniques
   type: soft
+- id: narrative-perspective-analysis
+  type: soft
 builds-toward:
 - unreliable-narrator
 - stream-of-consciousness-close-reading

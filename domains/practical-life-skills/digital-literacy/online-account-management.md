@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: digital-privacy-fundamentals
   type: soft
+- id: account-creation-security
+  type: soft
 tags:
 - accounts
 - two-factor-authentication

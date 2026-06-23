@@ -6,8 +6,6 @@ course: differential-equations
 prerequisites:
 - id: frobenius-method
   type: hard
-builds-toward:
-- fourier-series-definition
 tags:
 - bessel-functions
 - special-functions

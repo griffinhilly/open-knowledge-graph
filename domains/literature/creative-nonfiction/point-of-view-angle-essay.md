@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - narrative-perspective-analysis
-- essayistic-voice
 tags:
 - point-of-view
 - perspective

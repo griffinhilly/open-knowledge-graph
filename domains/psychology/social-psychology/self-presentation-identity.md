@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: self-concept-and-self-esteem-development
   type: soft
-builds-toward:
-- public-private-self-discrepancy
 tags:
 - self-presentation
 - identity

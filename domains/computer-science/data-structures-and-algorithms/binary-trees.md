@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: trees-in-graph-theory
   type: soft
+- id: tree-node-structure-properties
+  type: hard
 builds-toward:
 - tree-traversals
 - binary-search-trees

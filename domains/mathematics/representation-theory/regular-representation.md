@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: group-actions
   type: soft
-builds-toward:
-- artin-wedderburn-theorem
+- id: group-algebras
+  type: soft
 tags:
 - regular-representation
 - left-regular

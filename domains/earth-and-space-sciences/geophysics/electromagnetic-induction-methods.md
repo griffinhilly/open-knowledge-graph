@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: magnetotelluric-methods-em-induction
   type: soft
+- id: electrical-conductivity-crustal
+  type: soft
 builds-toward:
 - magnetotelluric-methods-em-induction
 tags:

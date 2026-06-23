@@ -8,8 +8,11 @@ prerequisites:
   type: hard
 - id: what-is-said-grice
   type: soft
+- id: grice-cooperative-principle-maxims
+  type: soft
+- id: indexicals-context-sensitivity
+  type: soft
 builds-toward:
-- metaphor-and-figurative-language
 - vagueness-sorites-paradox
 tags:
 - pragmatics

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: irony-meaning-and-effect
   type: soft
+- id: plot-development-analysis
+  type: soft
 builds-toward:
 - tone-development-analysis
 - authorial-intent-inference

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: causal-inference-neuroscience
   type: hard
-builds-toward:
-- tms-motor-system-testing
-- tms-speech-language-circuits
 tags:
 - TMS
 - causal

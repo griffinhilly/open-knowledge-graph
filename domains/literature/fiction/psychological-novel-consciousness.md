@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: narrative-voice
   type: soft
+- id: plot-vs-character-emphasis
+  type: soft
 builds-toward:
 - narrative-time-experimentation
 - free-indirect-discourse

@@ -6,6 +6,10 @@ course: computer-networking
 prerequisites:
 - id: bandwidth-latency-throughput
   type: soft
+- id: cyclic-redundancy-check
+  type: soft
+- id: osi-model-layers
+  type: soft
 builds-toward:
 - mac-addressing
 - switching-basics

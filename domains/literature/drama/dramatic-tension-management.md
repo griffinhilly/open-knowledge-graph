@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: scene-beats-and-structure
   type: soft
+- id: protagonist-antagonist-pairing
+  type: soft
 builds-toward:
 - scene-beats-and-structure
 tags:

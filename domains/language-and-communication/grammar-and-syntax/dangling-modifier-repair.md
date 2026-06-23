@@ -6,8 +6,6 @@ course: grammar-and-syntax
 prerequisites:
 - id: misplaced-modifiers
   type: hard
-builds-toward:
-- participial-and-absolute-phrases
 tags:
 - dangling-modifiers
 - participial-phrases

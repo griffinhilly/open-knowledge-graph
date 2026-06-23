@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: ph-and-acid-base-calculations
   type: hard
+- id: acid-base-indicators
+  type: soft
+- id: buffer-chemistry-le-chatelier-application
+  type: soft
+- id: solution-stoichiometry-dilution
+  type: hard
 tags:
 - acid-base titration
 - titration curve

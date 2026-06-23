@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: scalar-multiplication
   type: hard
+- id: vector-operations
+  type: hard
+- id: vectors-3d-coordinate-system
+  type: soft
+- id: vectors-in-rn-operations
+  type: hard
+- id: vectors-in-two-dimensions
+  type: soft
 builds-toward:
 - vector-norms
 - cross-product

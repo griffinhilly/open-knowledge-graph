@@ -8,6 +8,14 @@ prerequisites:
   type: soft
 - id: sampling-distributions
   type: hard
+- id: central-limit-theorem
+  type: hard
+- id: central-limit-theorem-theory
+  type: hard
+- id: sample-vs-population
+  type: soft
+- id: standard-normal-and-z-scores
+  type: soft
 builds-toward:
 - type-i-and-type-ii-errors
 - z-test-and-t-test-for-means

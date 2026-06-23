@@ -8,6 +8,8 @@ prerequisites:
     type: hard
   - id: multi-digit-multiplication
     type: hard
+  - id: capacity-and-volume-intro
+    type: soft
 builds-toward:
   - volume-with-unit-cubes
 tags: [measurement, geometry, volume, 3d-shapes]

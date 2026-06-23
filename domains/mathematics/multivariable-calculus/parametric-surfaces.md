@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: tangent-planes-surfaces
   type: soft
+- id: space-curves
+  type: soft
 builds-toward:
 - surface-integrals-scalar
 - flux-integrals

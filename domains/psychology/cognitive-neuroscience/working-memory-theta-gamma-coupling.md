@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: attention-switching-theta-oscillations
   type: soft
-builds-toward:
-- neural-oscillations-neural-coding
-- prefrontal-parietal-communication-oscillations
 tags:
 - theta-gamma
 - coupling

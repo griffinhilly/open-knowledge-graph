@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: indiscernibles-and-morley-theorem
   type: soft
+- id: isomorphism-and-structural-equivalence
+  type: soft
 builds-toward:
 - morleys-uncountable-categoricity
 tags:

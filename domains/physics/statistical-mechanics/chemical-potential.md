@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - bose-einstein-condensation
-- fermi-gas-statistical-properties
 tags:
 - thermodynamic-potential
 - particle-exchange

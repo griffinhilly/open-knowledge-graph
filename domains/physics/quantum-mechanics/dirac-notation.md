@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vector-spaces
   type: soft
+- id: hilbert-space-formalism
+  type: hard
 builds-toward:
 - kets-and-bras
 - observables-and-operators

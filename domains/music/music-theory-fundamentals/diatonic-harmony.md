@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: seventh-chords
   type: soft
+- id: harmonic-function-basics
+  type: soft
 builds-toward:
 - chord-progressions
 - cadences

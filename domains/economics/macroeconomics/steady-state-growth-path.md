@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: neoclassical-growth-steady-state
   type: hard
+- id: growth-accounting-decomposition
+  type: soft
+- id: production-function-macroeconomics
+  type: hard
 builds-toward:
 - output-gap-and-potential-output
 - technological-progress-and-productivity

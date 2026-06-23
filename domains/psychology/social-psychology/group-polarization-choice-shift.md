@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: social-comparison-theory
   type: hard
+- id: conformity-types-and-mechanisms
+  type: soft
 builds-toward:
 - groupthink-decision-quality
 tags:

@@ -6,6 +6,8 @@ course: mythology-folklore-oral-traditions
 prerequisites:
 - id: archetype-universal-pattern
   type: hard
+- id: myth-symbol-interpretation
+  type: soft
 builds-toward:
 - comparative-mythology-patterns
 tags:

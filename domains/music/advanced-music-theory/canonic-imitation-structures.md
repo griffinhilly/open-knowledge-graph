@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gestalt-perception-analysis
   type: soft
+- id: species-counterpoint-free-composition
+  type: soft
 builds-toward:
 - invertible-counterpoint-extended
 - algorithmic-composition-theory

@@ -13,7 +13,6 @@ prerequisites:
 - id: parallel-vs-relative-minor
   type: soft
 builds-toward:
-- key-signature-reading-writing
 - diatonic-chord-construction
 tags:
 - scales

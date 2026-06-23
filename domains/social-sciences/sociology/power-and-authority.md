@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sociological-imagination
   type: soft
+- id: legitimate-authority-weber
+  type: hard
 builds-toward:
 - deviance-and-social-control
 - social-movements

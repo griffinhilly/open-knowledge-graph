@@ -26,6 +26,8 @@ prerequisites:
   type: soft
 - id: converting-fractions-decimals-percents
   type: soft
+- id: measuring-volume-and-weight
+  type: hard
 tags:
 - measurement
 - conversions

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: chord-function-application
   type: soft
+- id: harmonic-function-tension-and-resolution
+  type: hard
+- id: primary-harmony-functions
+  type: hard
 builds-toward:
 - phrase-structure-basics
 tags:

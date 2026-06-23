@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: spectral-photometry-colors
   type: soft
-builds-toward:
-- stellar-evolution-main-sequence-to-giant
 tags:
 - star-clusters
 - age-dating

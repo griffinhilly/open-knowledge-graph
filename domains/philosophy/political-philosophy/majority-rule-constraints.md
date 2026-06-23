@@ -8,9 +8,6 @@ prerequisites:
   type: soft
 - id: voting-representation-theory
   type: soft
-builds-toward:
-- constitutional-constraints-democracy
-- rights-justice-tensions
 tags:
 - majority-rule
 - minority-protection

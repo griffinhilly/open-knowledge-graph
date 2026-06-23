@@ -6,8 +6,6 @@ course: probability-and-statistics
 prerequisites:
 - id: p-values-and-significance
   type: hard
-builds-toward:
-- multiple-comparison-corrections
 tags:
 - hypothesis-testing
 - effect-size

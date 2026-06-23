@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: supply-shock-stagflation-effects
   type: soft
+- id: nairu-natural-unemployment-rate
+  type: hard
 builds-toward:
 - stagflation-and-conflicting-policy
 tags:

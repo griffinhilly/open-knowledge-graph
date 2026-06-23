@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: ampa-receptors-trafficking
   type: soft
-builds-toward:
-- circuit-refinement
-- learning-memory-circuits
 tags:
 - hebbian
 - correlation

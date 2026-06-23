@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: basic-integration-rules
   type: soft
+- id: sigma-notation
+  type: hard
 builds-toward:
 - definite-integral-definition
 tags:

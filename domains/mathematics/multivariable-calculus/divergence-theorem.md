@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: divergence-theorem-applications
   type: soft
+- id: curl-divergence
+  type: hard
 builds-toward:
 - applications-multivariable
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: executive-control-networks
   type: hard
+- id: amygdala-fear-learning
+  type: hard
 tags:
 - emotion
 - regulation

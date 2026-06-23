@@ -6,6 +6,8 @@ course: 2nd-grade
 prerequisites:
 - id: place-value-tens-and-ones
   type: hard
+- id: place-value-tens-and-ones-2nd-grade
+  type: hard
 builds-toward:
 - comparing-ordering-three-digit-numbers-2nd
 - three-digit-addition

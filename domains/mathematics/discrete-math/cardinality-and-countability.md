@@ -6,8 +6,8 @@ course: discrete-math
 prerequisites:
 - id: set-relations-functions-discrete
   type: hard
-builds-toward:
-- generating-functions-intro
+- id: injective-surjective-bijective
+  type: hard
 tags:
 - cardinality
 - countability

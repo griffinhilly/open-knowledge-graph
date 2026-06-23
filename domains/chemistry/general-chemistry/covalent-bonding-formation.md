@@ -6,6 +6,10 @@ course: general-chemistry
 prerequisites:
 - id: periodic-trends
   type: hard
+- id: ionic-vs-covalent-intro
+  type: soft
+- id: why-atoms-bond
+  type: soft
 builds-toward:
 - lewis-structures
 - polarity-and-dipole-moments

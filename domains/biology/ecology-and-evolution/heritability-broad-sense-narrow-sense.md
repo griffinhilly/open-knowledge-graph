@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - natural-selection-types-and-examples
-- genetic-drift-in-small-populations
 tags:
 - heritability
 - broad-sense

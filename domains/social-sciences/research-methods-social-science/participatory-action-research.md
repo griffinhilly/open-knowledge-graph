@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: ethnographic-collaboration
   type: soft
-builds-toward:
-- community-based-participatory
-- decolonial-research-methods
 tags:
 - qualitative
 - participatory

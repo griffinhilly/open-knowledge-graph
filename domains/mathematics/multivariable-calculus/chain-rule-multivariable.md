@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: chain-rule
   type: hard
+- id: differentiability-multivariable
+  type: soft
+- id: differentiability-multivariate
+  type: soft
+- id: total-differential
+  type: soft
 builds-toward:
 - implicit-differentiation
 - directional-derivatives-gradient

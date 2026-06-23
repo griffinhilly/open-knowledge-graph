@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: universal-and-existential-statements
   type: soft
+- id: inductive-strength-and-weakness
+  type: soft
 builds-toward:
 - informal-fallacies-intro
 tags:

@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - character-theory
 - orthogonality-relations
-- artin-wedderburn-theorem
 tags:
 - schur
 - intertwining-operator

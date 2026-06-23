@@ -8,8 +8,11 @@ prerequisites:
   type: hard
 - id: variance-of-random-variables
   type: hard
+- id: expected-value-theory
+  type: hard
+- id: variance-standard-deviation
+  type: soft
 builds-toward:
-- joint-probability-distributions
 - linear-regression
 tags:
 - dependence

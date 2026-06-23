@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: electrochemical-cells
   type: soft
+- id: balancing-redox-equations
+  type: hard
+- id: solution-stoichiometry-dilution
+  type: hard
 tags:
 - redox titration
 - permanganometry

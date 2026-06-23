@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: rotating-reference-frames
   type: soft
+- id: earths-rotation
+  type: hard
 builds-toward:
 - pressure-systems-and-winds
 - global-atmospheric-circulation

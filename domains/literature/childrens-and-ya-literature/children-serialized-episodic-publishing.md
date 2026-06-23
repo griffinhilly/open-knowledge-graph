@@ -6,6 +6,8 @@ course: childrens-and-ya-literature
 prerequisites:
 - id: children-series-fiction-episodic-character
   type: hard
+- id: middle-grade-episodic-serial-narrative
+  type: soft
 tags:
 - children-literature
 - serialization

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: tone-and-mood
   type: hard
+- id: tone-mood-atmosphere-distinction
+  type: soft
 builds-toward:
 - stylistic-analysis-and-effect
 tags:

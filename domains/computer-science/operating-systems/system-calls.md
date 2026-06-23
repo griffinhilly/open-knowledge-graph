@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kernel-architecture
   type: soft
+- id: kernel-mode-and-privilege-levels
+  type: hard
 builds-toward:
 - process-concept
 - inter-process-communication

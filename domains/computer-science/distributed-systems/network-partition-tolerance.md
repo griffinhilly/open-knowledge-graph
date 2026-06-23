@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cap-theorem
   type: hard
+- id: failure-detection-heartbeats
+  type: soft
 builds-toward:
 - two-phase-commit-protocol
 - leader-election-algorithms

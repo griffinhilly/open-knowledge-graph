@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: syllable-structure-prosody
   type: soft
+- id: phoneme-inventory-analysis
+  type: soft
+- id: phonological-rules-derivation
+  type: soft
 builds-toward:
 - intonational-phonology
 tags:

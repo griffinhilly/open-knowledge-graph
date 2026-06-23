@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - science-and-empire
-- decolonization-knowledge-systems
 tags:
 - history
 - History Of Science

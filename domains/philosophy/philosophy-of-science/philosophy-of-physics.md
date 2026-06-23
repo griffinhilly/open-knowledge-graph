@@ -3,7 +3,9 @@ id: philosophy-of-physics
 title: "Philosophy of Physics"
 domain: philosophy
 course: philosophy-of-science
-prerequisites: []
+prerequisites:
+- id: reduction-emergence-science
+  type: soft
 builds-toward: []
 tags:
 - physics

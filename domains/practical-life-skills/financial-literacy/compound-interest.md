@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: percent-of-a-number
   type: soft
+- id: financial-numeracy-and-quantitative-literacy
+  type: soft
 builds-toward:
 - inflation-and-purchasing-power
 - debt-management-strategies

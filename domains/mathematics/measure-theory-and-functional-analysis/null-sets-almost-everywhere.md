@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: measure-spaces
   type: hard
+- id: measurable-sets-properties
+  type: hard
 builds-toward:
 - lebesgue-integral-simple-functions
 - dominated-convergence-theorem

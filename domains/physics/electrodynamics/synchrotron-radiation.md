@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cherenkov-radiation
   type: soft
+- id: cyclotron-motion-and-frequency
+  type: soft
 tags:
 - synchrotron
 - relativistic

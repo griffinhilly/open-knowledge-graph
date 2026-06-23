@@ -8,12 +8,13 @@ prerequisites:
   type: hard
 - id: maximal-prime-ideals
   type: hard
+- id: ca-prime-and-maximal-ideals
+  type: hard
 builds-toward:
 - ca-nakayama-lemma
 - ca-going-up-going-down
 - ca-krull-dimension
 - ca-completion
-- ca-regular-local-rings
 tags:
 - local-ring
 - unique-maximal-ideal

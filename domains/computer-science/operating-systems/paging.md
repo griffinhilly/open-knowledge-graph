@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: contiguous-memory-allocation
   type: soft
+- id: operating-systems-introduction
+  type: soft
 builds-toward:
 - virtual-memory-management
 - file-system-implementation

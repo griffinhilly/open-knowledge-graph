@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: multidimensional-item-response-theory
   type: soft
-builds-toward:
-- dimensional-assessment-and-bifactor-models
 tags:
 - irt
 - ordered-responses

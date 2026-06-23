@@ -8,6 +8,8 @@ prerequisites:
     type: hard
   - id: exterior-angle-theorem
     type: soft
+  - id: 2d-shape-properties-1st
+    type: soft
 builds-toward:
   - regular-polygons
 tags: [polygons, angle-sum, interior-angles, exterior-angles]

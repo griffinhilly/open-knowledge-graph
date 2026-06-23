@@ -6,6 +6,8 @@ course: child-development
 prerequisites:
 - id: piaget-cognitive-development-stages
   type: hard
+- id: infant-social-referencing-and-emotion-reading
+  type: soft
 builds-toward:
 - empathy-development-and-helping-behavior
 - peer-friendships-and-cooperative-play

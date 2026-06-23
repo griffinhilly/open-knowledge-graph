@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: aggression-theories
   type: soft
-builds-toward:
-- intergroup-violence-genocide-prevention
 tags:
 - aggression
 - dehumanization

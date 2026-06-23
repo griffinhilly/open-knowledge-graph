@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: vector-spaces
   type: soft
-builds-toward:
-- enriched-functors
 tags:
 - enriched-categories
 - enrichment

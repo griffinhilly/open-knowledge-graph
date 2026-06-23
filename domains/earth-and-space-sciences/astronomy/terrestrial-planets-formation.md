@@ -10,9 +10,10 @@ prerequisites:
   type: soft
 - id: planetary-formation-disk-instability
   type: soft
+- id: inner-vs-outer-planets
+  type: soft
 builds-toward:
 - moon-earth-system-dynamics
-- planetary-interiors-and-differentiation
 tags:
 - terrestrial-planets
 - planet-formation

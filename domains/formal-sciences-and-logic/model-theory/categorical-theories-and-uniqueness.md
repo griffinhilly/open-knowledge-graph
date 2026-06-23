@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cardinality-and-countability
   type: soft
+- id: lowenheim-skolem-upward
+  type: hard
 builds-toward:
 - morleys-uncountable-categoricity
 tags:

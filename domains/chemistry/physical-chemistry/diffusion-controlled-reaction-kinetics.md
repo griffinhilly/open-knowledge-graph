@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: autocatalytic-reactions-mechanisms
   type: soft
+- id: arrhenius-equation-temperature-dependence
+  type: soft
 builds-toward:
 - bimolecular-collision-dynamics-trajectory
 tags:

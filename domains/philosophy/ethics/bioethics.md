@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: trolley-problem
   type: soft
+- id: moral-status
+  type: soft
 tags:
 - applied-ethics
 - bioethics

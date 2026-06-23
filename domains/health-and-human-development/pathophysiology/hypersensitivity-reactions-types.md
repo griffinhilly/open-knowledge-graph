@@ -10,9 +10,8 @@ prerequisites:
   type: hard
 - id: type-i-hypersensitivity-allergic-reactions
   type: soft
-builds-toward:
-- anaphylaxis-pathophysiology
-- serum-sickness
+- id: allergies
+  type: soft
 tags:
 - hypersensitivity
 - immune-reaction

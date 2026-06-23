@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - continuum-hypothesis
-- cardinal-exponentiation-and-continuums
 tags:
 - cardinals
 - arithmetic

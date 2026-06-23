@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: floating-point-representation
   type: soft
+- id: full-adder-and-carry-logic
+  type: hard
 builds-toward:
 - cpu-datapath
 - cpu-control-unit

@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: grid-transfer-method
   type: soft
-builds-toward:
-- landscape-and-atmospheric-perspective-practice
 tags:
 - watercolor
 - water-control

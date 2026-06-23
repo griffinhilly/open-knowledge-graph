@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: diatonic-triad-harmonization
   type: soft
+- id: diatonic-chords-major-minor-keys
+  type: hard
+- id: harmonic-function-tension-and-resolution
+  type: hard
 builds-toward:
 - roman-numeral-analysis
 - voice-leading-principles

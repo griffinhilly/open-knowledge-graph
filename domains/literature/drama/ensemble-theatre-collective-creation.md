@@ -10,10 +10,6 @@ prerequisites:
   type: soft
 - id: ensemble-and-collective-drama
   type: soft
-builds-toward:
-- devised-theatre-form
-- experimental-theatre-avant-garde
-- collaborative-artistic-process
 tags:
 - ensemble
 - collaboration

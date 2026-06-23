@@ -11,9 +11,6 @@ prerequisites:
   type: hard
 - id: pulmonary-edema-pathophysiology-and-mechanisms
   type: soft
-builds-toward:
-- acute-respiratory-distress-syndrome-pathophysiology
-- acute-respiratory-failure-pathophysiology
 tags:
 - pulmonary-edema
 - hydrostatic-pressure

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: selection-bias-econometrics
   type: soft
+- id: causal-inference-observational-data
+  type: soft
 tags:
 - DiD
 - difference-in-differences

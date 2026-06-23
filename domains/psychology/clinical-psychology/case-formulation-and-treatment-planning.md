@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: clinical-assessment-interview-methods
   type: hard
+- id: mental-status-examination
+  type: soft
 builds-toward:
 - cognitive-behavioral-therapy
 - psychodynamic-psychotherapy

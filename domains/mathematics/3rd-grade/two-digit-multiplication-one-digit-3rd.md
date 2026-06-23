@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: two-digit-by-one-digit-division
   type: soft
+- id: multiplication-fluency-facts-6-through-9
+  type: soft
 builds-toward:
 - two-digit-by-one-digit-multiplication
 tags:

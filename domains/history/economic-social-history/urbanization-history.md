@@ -9,8 +9,6 @@ prerequisites:
 
 builds-toward:
 - public-health-history
-- urban-reform-movements
-- sanitation-and-public-works
 tags:
 - history
 - Economic Social History

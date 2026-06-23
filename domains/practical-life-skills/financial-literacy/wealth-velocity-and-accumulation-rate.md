@@ -15,7 +15,6 @@ prerequisites:
 builds-toward:
 - retirement-savings-fundamentals
 - financial-independence-and-early-retirement-planning
-- wealth-accumulation-patterns-and-psychology
 tags:
 - wealth
 - accumulation

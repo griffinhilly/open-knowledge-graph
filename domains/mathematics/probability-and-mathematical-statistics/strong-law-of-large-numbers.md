@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: borel-cantelli-lemmas
   type: hard
+- id: independence-of-sigma-algebras
+  type: soft
+- id: relationships-between-modes-of-convergence
+  type: soft
 builds-toward:
 - central-limit-theorem-rigorous
 tags:

@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: two-digit-number-composition-1st
   type: soft
-builds-toward:
-- place-value-understanding-4th
 tags:
 - place-value
 - decomposition

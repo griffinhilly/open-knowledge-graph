@@ -8,10 +8,6 @@ prerequisites:
   type: hard
 - id: executive-control-networks
   type: hard
-builds-toward:
-- cognitive-control-acc-dlpfc-coupling
-- response-inhibition-neural-mechanisms
-- task-switching-cognitive-flexibility
 tags:
 - dlPFC
 - cognitive-control

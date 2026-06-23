@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 
 builds-toward:
-- american-civil-war-causes
 - abolition-movement
 tags:
 - history

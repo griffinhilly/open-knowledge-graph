@@ -9,7 +9,6 @@ prerequisites:
 - id: transfer-functions-control
   type: hard
 builds-toward:
-- steady-state-error-system-type
 - disturbance-rejection-and-feedforward
 tags:
 - feedback

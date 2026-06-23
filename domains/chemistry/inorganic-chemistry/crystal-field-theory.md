@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: periodic-trends
   type: soft
+- id: coordination-compounds-nomenclature
+  type: hard
 builds-toward:
 - spectrochemical-series
 - color-spectroscopy-coordination-compounds

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: language-documentation-endangered
   type: soft
-builds-toward:
-- applied-linguistics-language-policy
 tags:
 - language-policy
 - language-planning

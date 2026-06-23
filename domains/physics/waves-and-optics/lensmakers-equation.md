@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: snells-law
   type: hard
+- id: paraxial-ray-approximation
+  type: soft
+- id: thin-lenses-focal-length
+  type: soft
 tags:
 - lensmaker's equation
 - radius of curvature

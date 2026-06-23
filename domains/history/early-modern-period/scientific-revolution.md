@@ -12,6 +12,16 @@ prerequisites:
   type: soft
 - id: greek-philosophy-origins
   type: soft
+- id: copernican-heliocentric-universe
+  type: soft
+- id: galileo-telescope-observations
+  type: soft
+- id: islamic-medieval-science-and-medicine
+  type: soft
+- id: kepler-laws-planetary-motion
+  type: soft
+- id: newton-laws-motion-gravity
+  type: soft
 builds-toward:
 - enlightenment-origins
 tags:

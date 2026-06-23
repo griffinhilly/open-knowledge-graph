@@ -12,7 +12,6 @@ prerequisites:
   type: hard
 builds-toward:
 - community-detection-networks
-- network-influence-spreading
 tags:
 - networks
 - centrality

@@ -6,8 +6,6 @@ course: 3rd-grade
 prerequisites:
 - id: line-symmetry-3rd
   type: soft
-builds-toward:
-- geometric-transformations
 tags:
 - transformations
 - rotations

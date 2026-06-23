@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: gene-regulation-eukaryotes
   type: soft
-builds-toward:
-- chromatin-accessibility-transcription
 tags:
 - enhancers
 - silencers

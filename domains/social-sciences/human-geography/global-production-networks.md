@@ -6,6 +6,10 @@ course: human-geography
 prerequisites:
 - id: economic-geography-fundamentals
   type: hard
+- id: geographic-scale-analysis
+  type: soft
+- id: transport-networks-connectivity
+  type: soft
 builds-toward:
 - regional-economic-restructuring
 - labor-migration-mobility

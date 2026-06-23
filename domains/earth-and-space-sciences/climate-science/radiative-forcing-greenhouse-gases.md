@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: ir-spectroscopy-basics
   type: soft
+- id: earths-radiative-balance
+  type: hard
+- id: greenhouse-gas-absorption-emission
+  type: hard
+- id: line-by-line-radiative-transfer
+  type: soft
 builds-toward:
 - climate-sensitivity-radiative-feedbacks
 - anthropogenic-climate-forcing

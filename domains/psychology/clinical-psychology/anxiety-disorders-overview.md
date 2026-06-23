@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: managing-anxiety-and-stress
   type: soft
+- id: dsm5-classification-system
+  type: soft
 builds-toward:
 - generalized-anxiety-disorder
 - panic-disorder-agoraphobia

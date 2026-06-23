@@ -6,8 +6,6 @@ course: kindergarten
 prerequisites:
 - id: numeral-recognition-0-10
   type: hard
-builds-toward:
-- matching-numerals-to-sets
 tags:
 - numerals
 - writing

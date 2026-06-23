@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - motor-planning-premotor-cortex
-- decision-making-neural-mechanisms
 tags:
 - neuroanatomy
 - electrophysiology

@@ -8,6 +8,8 @@ prerequisites:
     type: soft
   - id: domain-and-range
     type: soft
+  - id: graphing-quadratics
+    type: soft
 builds-toward:
   - polar-graphs
   - parametric-equations-intro

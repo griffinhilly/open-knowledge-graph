@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: neuromuscular-junction
   type: hard
+- id: muscle-fiber-types-oxidative-capacity
+  type: soft
 builds-toward:
 - muscle-contraction-mechanics-force-velocity
-- exercise-physiology-cardiovascular-adaptation
 tags:
 - motor control
 - force generation

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: planetary-system-stability
   type: soft
+- id: adiabatic-lapse-rates
+  type: hard
+- id: thermal-structure-of-atmosphere
+  type: soft
 builds-toward:
 - planetary-thermal-inversion
 tags:

@@ -16,6 +16,10 @@ prerequisites:
   type: hard
 - id: oxidation-reduction-basics
   type: soft
+- id: citric-acid-cycle-mechanism
+  type: hard
+- id: mitochondrion-energy-production
+  type: soft
 builds-toward:
 - atp-synthase-structure-mechanism
 tags:

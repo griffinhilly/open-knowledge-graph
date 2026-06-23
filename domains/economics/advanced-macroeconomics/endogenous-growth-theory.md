@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: endogenous-growth-romer
   type: soft
+- id: neoclassical-growth-steady-state
+  type: hard
 builds-toward:
 - romer-growth-model
 - human-capital-accumulation

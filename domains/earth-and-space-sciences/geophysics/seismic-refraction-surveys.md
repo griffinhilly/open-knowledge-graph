@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: seismic-reflection-surveys
   type: soft
+- id: seismic-ray-theory
+  type: hard
 builds-toward:
 - seismic-reflection-surveys
 - near-surface-geophysics-methods

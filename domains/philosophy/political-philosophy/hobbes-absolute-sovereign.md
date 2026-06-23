@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: state-of-nature
   type: hard
-builds-toward:
-- sovereign-power-justification
-- absolute-vs-limited-government
 tags:
 - hobbes
 - sovereignty

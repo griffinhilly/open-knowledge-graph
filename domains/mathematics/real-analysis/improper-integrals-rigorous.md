@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rigorous-series-convergence
   type: soft
+- id: properties-riemann-integral
+  type: soft
 tags:
 - improper-integrals
 - convergence

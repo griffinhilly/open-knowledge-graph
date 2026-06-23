@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plate-boundary-processes-interactions
   type: soft
+- id: volcanoes-and-magma
+  type: soft
 builds-toward:
 - volcanic-hazards-assessment
 tags:

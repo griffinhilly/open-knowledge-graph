@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: albedo-feedback-paleoclimate
   type: soft
-builds-toward:
-  - climate-sensitivity-and-radiative-response
 tags:
 - feedback
 - amplification

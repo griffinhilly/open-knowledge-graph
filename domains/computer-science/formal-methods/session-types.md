@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: process-calculi
   type: soft
+- id: linear-types
+  type: soft
 builds-toward: []
 tags:
 - session-type

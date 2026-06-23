@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ghazal-form
   type: hard
+- id: urdu-literature-poetry-tradition
+  type: soft
 builds-toward:
 - poetic-form-overview
 tags:

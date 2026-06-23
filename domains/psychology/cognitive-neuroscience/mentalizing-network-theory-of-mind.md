@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: theory-of-mind-development
   type: hard
-builds-toward:
-- false-belief-understanding-neural-basis
-- mentalizing-deficits-autism-spectrum
 tags:
 - mentalizing
 - theory-of-mind

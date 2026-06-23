@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - ligand-gated-ion-channels
-- receptor-kinetics
 tags:
 - patch-clamp
 - single-channel

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: semantic-relations
   type: soft
+- id: imagery-in-literature
+  type: soft
 builds-toward:
 - allegory-and-extended-metaphor
 - thematic-development

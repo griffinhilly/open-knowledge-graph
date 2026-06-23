@@ -8,8 +8,9 @@ prerequisites:
   type: hard
 - id: addition-within-20
   type: hard
+- id: ten-frames-for-addition
+  type: soft
 builds-toward:
-- addition-fact-families
 - place-value-tens-and-ones
 tags:
 - strategy

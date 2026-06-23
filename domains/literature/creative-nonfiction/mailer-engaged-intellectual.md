@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - polemic-and-manifestos
-- intellectual-nonfiction
 tags:
 - mailer
 - polemic

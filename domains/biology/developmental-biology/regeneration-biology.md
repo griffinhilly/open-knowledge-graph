@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: limb-development
   type: soft
+- id: organogenesis-basics
+  type: soft
 builds-toward: []
 tags:
 - regeneration

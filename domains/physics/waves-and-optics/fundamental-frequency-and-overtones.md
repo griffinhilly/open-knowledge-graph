@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: acoustic-resonance-pipes
   type: soft
+- id: resonance-pipes-open-closed
+  type: soft
+- id: resonance-strings-fixed-ends
+  type: soft
 tags:
 - fundamental
 - overtones

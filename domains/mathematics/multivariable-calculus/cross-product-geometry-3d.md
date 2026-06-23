@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - curvature-and-torsion
-- surface-parametrization
 tags:
 - cross-product
 - area

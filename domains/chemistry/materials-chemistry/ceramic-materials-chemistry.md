@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: covalent-bonding
   type: soft
+- id: phase-diagrams-materials
+  type: soft
 builds-toward:
 - battery-materials-chemistry
 - catalytic-materials-design

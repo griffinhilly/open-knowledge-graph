@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: phase-transitions
   type: soft
+- id: clouds-and-rain
+  type: soft
+- id: humidity-and-precipitation
+  type: soft
 builds-toward:
 - thunderstorms-and-lightning
 - severe-weather-systems

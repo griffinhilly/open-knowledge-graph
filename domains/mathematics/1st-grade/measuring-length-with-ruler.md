@@ -6,6 +6,12 @@ course: 1st-grade
 prerequisites:
 - id: measuring-length-nonstandard
   type: hard
+- id: comparing-and-measuring-lengths
+  type: soft
+- id: measurement-with-non-standard-units
+  type: soft
+- id: measuring-length-nonstandard-units-1st
+  type: soft
 tags:
 - measurement
 - length

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: asymptotic-notation-big-o-omega-theta
   type: hard
+- id: recursion-tail-recursion-optimization
+  type: hard
 builds-toward:
 - divide-and-conquer-strategy
 - dynamic-programming-intro

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: attention-mechanisms
   type: hard
+- id: gru-networks
+  type: soft
 tags:
 - nlp
 - sequence-models

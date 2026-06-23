@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: motivic-development
   type: soft
+- id: lead-sheet-notation
+  type: soft
 builds-toward: []
 tags:
 - improvisation

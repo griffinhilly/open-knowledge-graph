@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: soil-formation
   type: soft
+- id: layers-of-soil
+  type: soft
 tags:
 - pedology
 - soil-science

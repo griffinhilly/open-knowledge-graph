@@ -6,6 +6,8 @@ course: digital-literacy
 prerequisites:
 - id: email-fundamentals
   type: hard
+- id: writing-and-sending-an-email
+  type: soft
 tags:
 - email
 - professionalism

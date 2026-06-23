@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: pubertal-development-and-timing-effects
   type: soft
+- id: cognitive-development-information-processing
+  type: soft
+- id: middle-childhood-cognitive-advances
+  type: soft
 builds-toward:
 - identity-development-adolescence
 tags:

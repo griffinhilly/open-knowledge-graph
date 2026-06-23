@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: hard
+- id: heat-transfer-calculations
+  type: hard
+- id: specific-heat-capacity-conceptual
+  type: hard
 builds-toward:
 - latent-heat
 tags:

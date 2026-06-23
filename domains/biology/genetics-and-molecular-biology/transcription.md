@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: enzyme-structure-and-function
   type: soft
+- id: nucleus-structure-and-function
+  type: soft
 builds-toward:
 - rna-types-and-structure
 - rna-processing

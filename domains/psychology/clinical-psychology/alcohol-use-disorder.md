@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: addiction-neurobiology-dopamine
   type: soft
+- id: alcohol-and-cns-depressant-effects
+  type: soft
 tags:
 - alcohol
 - substance-use

@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: precipitation-types-and-processes
   type: soft
-builds-toward:
-- graupel-and-hail-formation
-- tropical-weather-systems
 tags:
 - microphysics
 - precipitation

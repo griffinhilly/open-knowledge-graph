@@ -4,7 +4,7 @@ title: 'Bhakti Poetry: Vernacular Devotion and Religious Aesthetics'
 domain: literature
 course: world-literature
 prerequisites:
-- id: mythology-folklore-oral-traditions
+- id: folklore-definition-traditions
   type: hard
 builds-toward:
 - tagore-spiritual-modernity

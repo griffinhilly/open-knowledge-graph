@@ -38,6 +38,8 @@ prerequisites:
   type: soft
 - id: visual-path-and-compositional-flow-direction
   type: soft
+- id: unity-creating-visual-coherence
+  type: soft
 tags:
 - integration
 - synthesis

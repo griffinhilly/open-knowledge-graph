@@ -6,6 +6,8 @@ course: childrens-and-ya-literature
 prerequisites:
 - id: picture-book-as-complete-art-form
   type: soft
+- id: early-reader-phonics-vocabulary-controlled
+  type: soft
 builds-toward:
 - middle-grade-school-setting-social-dynamics
 tags:

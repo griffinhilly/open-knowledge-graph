@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: c-command-and-binding
   type: hard
-builds-toward:
-- pronoun-antecedent-identification
 tags:
 - syntax
 - binding

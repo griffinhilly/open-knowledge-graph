@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kaplan-meier-estimator
   type: hard
+- id: cumulative-incidence-probability
+  type: hard
 tags:
 - survival-analysis
 - competing-events

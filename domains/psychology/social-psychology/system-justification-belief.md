@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: cognitive-dissonance
   type: soft
-builds-toward:
-- inequality-legitimacy-maintenance
 tags:
 - system-justification
 - ideology

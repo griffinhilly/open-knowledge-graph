@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: np-completeness-formal
   type: hard
+- id: np-completeness-reduction-proof-techniques
+  type: hard
 builds-toward:
 - parameterized-complexity-fundamentals
 tags:

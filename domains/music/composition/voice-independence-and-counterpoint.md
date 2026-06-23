@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: polyphonic-voice-leading
   type: soft
+- id: melody-writing-independent-lines
+  type: soft
 builds-toward:
 - two-part-invention-technique
 tags:

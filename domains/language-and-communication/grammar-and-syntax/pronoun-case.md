@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: pronoun-agreement
   type: soft
+- id: direct-and-indirect-objects
+  type: soft
+- id: possessive-pronouns-mine-yours-theirs
+  type: soft
 builds-toward:
 - pronoun-reference-clarity
 tags:

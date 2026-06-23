@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: gpcr-metabotropic-signaling
   type: soft
-builds-toward:
-- sensory-adaptation
-- coding-temporal-information
 tags:
 - desensitization
 - adaptation

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: salt-in-cooking
   type: soft
+- id: tasting-evaluating-food
+  type: hard
 builds-toward:
 - flavor-pairing-and-umami
 - cooking-for-dietary-restrictions

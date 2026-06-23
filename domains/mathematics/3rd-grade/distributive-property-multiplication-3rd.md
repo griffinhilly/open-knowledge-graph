@@ -7,7 +7,6 @@ prerequisites:
 - id: multiplication-arrays-3rd
   type: hard
 builds-toward:
-- mental-math-multiplication-3rd
 - factoring-gcf
 tags:
 - properties

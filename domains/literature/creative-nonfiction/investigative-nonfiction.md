@@ -9,7 +9,6 @@ prerequisites:
 - id: nonfiction-research-methods
   type: hard
 builds-toward:
-- documentary-form
 - immersion-reporting
 tags:
 - investigative

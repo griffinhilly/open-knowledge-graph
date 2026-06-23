@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: routh-stability-algorithm
   type: soft
+- id: characteristic-equation-and-stability
+  type: hard
 builds-toward:
 - root-locus-method
 - gain-and-phase-margins

@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: standard-normal-and-z-scores
   type: hard
+- id: confidence-intervals-framework
+  type: hard
+- id: distribution-of-sample-mean-theory
+  type: hard
+- id: standard-normal-z-scores-theory
+  type: hard
+- id: t-distribution-theory
+  type: hard
 builds-toward:
 - hypothesis-testing-fundamentals
 tags:

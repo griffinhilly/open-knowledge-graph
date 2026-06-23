@@ -6,7 +6,6 @@ course: kindergarten
 prerequisites: []
 builds-toward:
 - number-bonds-within-5
-- addition-within-5-concrete
 tags:
 - subitizing
 - quantity-recognition

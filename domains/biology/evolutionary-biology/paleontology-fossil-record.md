@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: extinction-and-recovery
   type: soft
+- id: fossils-as-evidence
+  type: hard
 builds-toward:
 - punctuated-equilibrium
 - evolutionary-transitions

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: charcoal-drawing
   type: soft
+- id: basic-facial-proportions-and-measuring
+  type: soft
 builds-toward:
 - portraiture-fundamentals
 tags:

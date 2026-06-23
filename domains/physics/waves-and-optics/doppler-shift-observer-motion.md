@@ -6,6 +6,8 @@ course: waves-and-optics
 prerequisites:
 - id: acoustic-wave-speed-properties
   type: hard
+- id: doppler-shift-source-motion
+  type: soft
 tags:
 - doppler
 - sound

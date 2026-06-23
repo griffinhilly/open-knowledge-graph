@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: bessel-functions
   type: soft
-builds-toward:
-- fourier-series-definition
 tags:
 - legendre-polynomials
 - special-functions

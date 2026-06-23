@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: temperature-and-thermal-equilibrium
   type: hard
+- id: layers-of-the-atmosphere
+  type: soft
 builds-toward:
 - adiabatic-lapse-rates
 - atmospheric-stability-convection

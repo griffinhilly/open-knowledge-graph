@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: clausius-clapeyron-equation
   type: hard
+- id: thermodynamic-property-equations-engineering
+  type: soft
 builds-toward:
 - saturated-superheated-property-regions
 - psychrometric-analysis-humid-air

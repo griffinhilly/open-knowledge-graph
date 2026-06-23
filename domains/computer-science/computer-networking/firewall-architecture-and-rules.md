@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ip-routing-basics
   type: hard
+- id: network-address-translation
+  type: soft
 builds-toward:
 - intrusion-detection-and-prevention
 tags:

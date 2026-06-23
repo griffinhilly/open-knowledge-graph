@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: writing-modes-overview
   type: hard
+- id: rhetorical-situation-analysis
+  type: soft
 builds-toward:
 - academic-writing-conventions
 - rhetorical-devices-in-prose

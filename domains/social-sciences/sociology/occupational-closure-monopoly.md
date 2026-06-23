@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: bureaucracy-organizational-structure
   type: hard
+- id: boundary-work-status-maintenance
+  type: soft
+- id: occupational-prestige-hierarchy
+  type: soft
 tags:
 - occupational-closure
 - professionalization

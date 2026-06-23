@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: solving-rational-equations
   type: soft
+- id: geometric-optics-ray-approximation
+  type: soft
+- id: thin-lenses-focal-length
+  type: hard
 builds-toward:
 - lens-combinations
 - optical-instruments

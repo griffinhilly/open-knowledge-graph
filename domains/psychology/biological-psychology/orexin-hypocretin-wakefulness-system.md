@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: hypothalamus-pituitary-axis
   type: soft
-builds-toward:
-- narcolepsy-and-hypocretin-loss
-- sleep-disorders-overview
 tags:
 - orexin
 - hypocretin

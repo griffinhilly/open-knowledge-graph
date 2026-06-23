@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - labor-movement-history
-- child-labor-regulation
 tags:
 - history
 - Economic Social History

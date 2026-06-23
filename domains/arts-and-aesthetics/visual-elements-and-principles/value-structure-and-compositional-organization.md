@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: composition-and-visual-organization
   type: soft
+- id: value-perception-lights-and-darks
+  type: soft
 builds-toward:
 - visual-weight-distribution-and-balance
 - emphasis-and-scale-relationship-dominance

@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: castle-architecture-and-fortification
   type: soft
-builds-toward:
-- renaissance-humanism
 tags:
 - architecture
 - art

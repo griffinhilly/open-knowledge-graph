@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: directional-derivatives
   type: soft
+- id: chain-rule-multivariable
+  type: soft
+- id: rates-of-change-partial-derivatives
+  type: soft
 builds-toward:
 - optimization-multivariable-basics
 - vector-fields

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: archetype-universal-pattern
   type: soft
+- id: greek-epic-heroic-tradition
+  type: soft
 builds-toward:
 - quest-narrative-heroic-journey
 - transformation-metamorphosis-myth

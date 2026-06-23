@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: host-pathogen-interactions
   type: hard
-builds-toward:
-- bacterial-virulence-mechanisms
 tags:
 - pathogenesis
 - infection

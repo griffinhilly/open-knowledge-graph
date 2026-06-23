@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rasch-model
   type: hard
+- id: item-difficulty-discrimination
+  type: hard
 tags:
 - dif
 - test-bias

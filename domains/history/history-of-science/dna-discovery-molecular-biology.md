@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 
 builds-toward:
-- central-dogma-molecular-biology
 - human-genome-project
-- biotechnology-history
 tags:
 - history
 - History Of Science

@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: ethnographic-extended-fieldwork-immersion
   type: soft
+- id: ethnographic-interviewing-methods
+  type: soft
+- id: fieldwork-positionality-ethics
+  type: soft
+- id: participant-observation-reflexivity
+  type: soft
 builds-toward:
 - mixed-methods-integration
 - reflexivity-positionality-research

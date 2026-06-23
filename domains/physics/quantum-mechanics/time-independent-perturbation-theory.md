@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: observables-and-operators
   type: hard
+- id: expectation-values
+  type: soft
 builds-toward:
 - first-order-perturbation-theory
 - degenerate-perturbation-theory

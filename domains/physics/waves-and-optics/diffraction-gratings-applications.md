@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: two-source-interference-patterns
   type: hard
-builds-toward:
-- spectroscopy-applications
 tags:
 - diffraction-grating
 - spectroscopy

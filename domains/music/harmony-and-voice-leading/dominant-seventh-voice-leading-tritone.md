@@ -10,9 +10,10 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: hard
+- id: tritone-resolution-direction
+  type: hard
 builds-toward:
 - extended-harmony-upper-extensions-voice-leading
-- voice-leading-in-composition
 tags:
 - seventh-chords
 - tritone

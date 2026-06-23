@@ -16,6 +16,22 @@ prerequisites:
   type: soft
 - id: perimeter
   type: soft
+- id: measurement-length-standard-units-3rd
+  type: soft
+- id: measuring-capacity-liquid-containers-3rd
+  type: soft
+- id: measuring-length-feet-meters
+  type: soft
+- id: measuring-length-multiple-units-3rd
+  type: soft
+- id: measuring-length-standard-units-3rd
+  type: soft
+- id: measuring-weight-3rd
+  type: soft
+- id: measuring-weight-objects-3rd
+  type: soft
+- id: measuring-with-standard-units-length
+  type: soft
 builds-toward:
 - measurement-conversions-metric
 - measurement-conversions-5th

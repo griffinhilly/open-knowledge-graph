@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: vectors-in-rn
   type: hard
+- id: vectors-3d-coordinate-system
+  type: hard
 tags:
 - vectors
 - cross product

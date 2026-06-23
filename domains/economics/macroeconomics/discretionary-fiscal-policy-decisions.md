@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: crowding-out-and-fiscal-effects
   type: soft
-builds-toward:
-- fiscal-dominance-vs-monetary-independence
 tags:
 - fiscal-policy
 - discretionary

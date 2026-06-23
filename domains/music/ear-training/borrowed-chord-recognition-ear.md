@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: harmonic-function-recognition
   type: hard
+- id: diatonic-vs-chromatic-tones-ear
+  type: soft
 tags:
 - chromatic-harmony
 - borrowed-chords

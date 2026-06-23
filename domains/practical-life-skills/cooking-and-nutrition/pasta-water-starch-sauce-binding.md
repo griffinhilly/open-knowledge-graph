@@ -9,7 +9,6 @@ prerequisites:
 - id: sauce-making-basics
   type: soft
 builds-toward:
-- sauce-consistency-adjustment-techniques
 - flavor-layering-and-building
 tags:
 - pasta

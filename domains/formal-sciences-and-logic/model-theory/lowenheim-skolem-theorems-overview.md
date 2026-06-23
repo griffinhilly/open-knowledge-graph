@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: countable-sets-and-enumeration
   type: soft
+- id: compactness-theorem-model-theory
+  type: soft
+- id: elementary-substructures-preservation
+  type: hard
 builds-toward:
 - lowenheim-skolem-downward
 - lowenheim-skolem-upward

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: heat-transfer-conduction
   type: soft
+- id: continental-drift-intro
+  type: soft
 builds-toward:
 - tectonic-boundaries
 - volcanoes-and-volcanism

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: addition-within-20
   type: hard
+- id: adding-tens
+  type: soft
+- id: two-digit-number-composition-1st
+  type: hard
 builds-toward:
 - addition-subtraction-word-problems
 tags:

@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - pan-cooking-and-sauteing-basics
-- oven-baking-basics-and-safety
 tags:
 - heat-distribution
 - pans

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: comparison-operators
   type: hard
+- id: logical-operators
+  type: soft
 builds-toward:
 - switch-statements
 - switch-statements

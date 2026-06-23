@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: area-rectangles-counting-squares-2nd
   type: soft
+- id: measuring-length-standard-units-2nd
+  type: soft
 tags:
 - perimeter
 - rectangles

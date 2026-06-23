@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ventral-visual-stream-objects
   type: soft
+- id: figure-ground-perception
+  type: soft
 builds-toward:
 - mental-model-construction
 tags:

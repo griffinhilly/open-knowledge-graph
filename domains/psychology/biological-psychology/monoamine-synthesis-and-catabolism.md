@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - dopamine-receptor-subtypes-and-signaling
-- serotonin-reuptake-mechanisms
 - antidepressant-medications
 tags:
 - neurotransmitter

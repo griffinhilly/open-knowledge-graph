@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: subject-verb-agreement
   type: soft
+- id: transitive-and-intransitive-verbs
+  type: soft
 builds-toward:
 - narrative-voice
 tags:

@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: language-comprehension
   type: hard
-builds-toward:
-- semantic-dementia-neurodegeneration
-- amodal-semantic-hub-multisensory-integration
+- id: ventral-stream-visual-object-processing
+  type: soft
 tags:
 - semantics
 - temporal-cortex

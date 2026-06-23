@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: public-reason
   type: hard
-builds-toward:
-- deliberative-processes
-- democratic-discourse
 tags:
 - deliberation
 - democracy

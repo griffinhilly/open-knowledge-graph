@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: mach-number-speed-of-sound-compressibility
   type: soft
+- id: stagnation-pressure-and-total-head
+  type: hard
+- id: static-pressure-and-temperature-relations
+  type: hard
 tags:
 - nozzle
 - choked

@@ -12,9 +12,6 @@ prerequisites:
   type: soft
 - id: adaptive-radiation
   type: soft
-builds-toward:
-- adaptive-behavior-and-evolution
-- social-brain-hypothesis
 tags:
 - brain-evolution
 - comparative

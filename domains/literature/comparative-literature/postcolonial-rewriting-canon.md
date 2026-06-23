@@ -10,6 +10,12 @@ prerequisites:
   type: hard
 - id: literary-canonicity-power
   type: soft
+- id: intertextuality-beyond-allusion
+  type: soft
+- id: postcolonial-difference-hybridity
+  type: soft
+- id: spivak-subaltern-voice
+  type: soft
 builds-toward:
 - literary-identity-nation-construction
 tags:

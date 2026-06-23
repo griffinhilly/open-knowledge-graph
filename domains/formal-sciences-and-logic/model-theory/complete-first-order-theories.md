@@ -6,6 +6,8 @@ course: model-theory
 prerequisites:
 - id: elementary-equivalence-indistinguishability
   type: hard
+- id: consistent-and-inconsistent-formulas
+  type: hard
 builds-toward:
 - first-order-types-and-formulas
 - quantifier-elimination-decidability

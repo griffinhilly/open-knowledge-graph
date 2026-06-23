@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: meiosis-gamete-recombination
   type: soft
+- id: prophase-i-homolog-pairing-and-synapsis
+  type: hard
 builds-toward:
 - gametogenesis-sexual-reproduction
 tags:

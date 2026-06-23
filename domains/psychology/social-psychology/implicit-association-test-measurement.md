@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: measurement-validity-evidence
   type: soft
-builds-toward:
-- bias-reduction-interventions
 tags:
 - IAT
 - implicit bias

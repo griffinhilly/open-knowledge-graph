@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: erp-components-attention
   type: hard
-builds-toward:
-- error-awareness-consciousness
-- error-driven-learning-plasticity
 tags:
 - ERN
 - error-negativity

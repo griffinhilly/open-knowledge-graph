@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: personal-essay-form
   type: hard
-builds-toward:
-- intellectual-essay
-- critical-argument
 tags:
 - argumentation
 - essay

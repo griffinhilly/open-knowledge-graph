@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: institutional-power-in-artworld
   type: soft
+- id: aesthetic-autonomy-thesis
+  type: soft
 builds-toward:
   - artistic-transgression-institutional-critique
 tags:

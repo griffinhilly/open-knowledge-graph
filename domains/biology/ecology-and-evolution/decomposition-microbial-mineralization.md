@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - nutrient-cycling
-- soil-formation-and-development
 tags:
 - decomposition
 - microbes

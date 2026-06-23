@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cell-cycle-regulation
   type: soft
+- id: cell-division-basics
+  type: soft
 builds-toward:
 - cytokinesis
 - meiosis

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: lagrange-multipliers
   type: soft
+- id: marginal-rate-substitution-indifference
+  type: hard
 builds-toward:
 - cost-function-duality
 tags:

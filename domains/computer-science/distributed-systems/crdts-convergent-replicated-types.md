@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: causal-consistency
   type: soft
+- id: strong-eventual-consistency
+  type: soft
 tags:
 - crdts
 - replicated-data-types

@@ -9,7 +9,6 @@ prerequisites:
 
 builds-toward:
 - medieval-manorial-economy
-- slavery-and-ancient-economies
 tags:
 - history
 - Economic Social History

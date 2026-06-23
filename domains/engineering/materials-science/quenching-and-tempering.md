@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: iron-carbon-phase-diagram
   type: hard
+- id: twinning-and-martensitic-transformation
+  type: soft
 builds-toward:
 - case-hardening-surface-treatments
 tags:

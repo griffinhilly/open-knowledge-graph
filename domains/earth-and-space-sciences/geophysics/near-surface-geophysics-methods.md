@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: gravity-potential-theory-earths-field
   type: soft
+- id: seismic-refraction-surveys
+  type: soft
 tags:
 - near-surface
 - shallow-geophysics

@@ -9,7 +9,6 @@ prerequisites:
 - id: interval-recognition-by-ear
   type: soft
 builds-toward:
-- register-and-octave-identification
 - voice-spacing-rules-registers
 tags:
 - pitch

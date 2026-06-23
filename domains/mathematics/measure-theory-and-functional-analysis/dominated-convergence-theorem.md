@@ -6,6 +6,10 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: lebesgue-integral-general-definition
   type: hard
+- id: fatou-lemma
+  type: hard
+- id: null-sets-almost-everywhere
+  type: hard
 builds-toward:
 - lp-space-completeness-riesz-fischer
 tags:

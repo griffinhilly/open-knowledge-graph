@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - secure-attachment-assessment-strange-situation
-- adolescent-identity-exploration-commitment
 tags:
 - attachment
 - infant-emotions

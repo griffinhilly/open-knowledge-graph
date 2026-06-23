@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: potential-vorticity-conservation
   type: hard
+- id: omega-equation-vertical-motion
+  type: soft
 builds-toward:
 - explosive-cyclogenesis-bombogenesis
-- mid-latitude-cyclones
 tags:
 - diabatic
 - heating

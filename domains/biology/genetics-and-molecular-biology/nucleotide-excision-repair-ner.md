@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: base-excision-repair-ber
   type: soft
+- id: chemical-mutagenesis-mutagens
+  type: soft
 builds-toward:
 - non-homologous-end-joining-nhej
 tags:

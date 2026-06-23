@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: counting-sequence-to-twenty
   type: soft
-builds-toward:
-- teen-numbers-composition
 tags:
 - numeral recognition
 - teen numbers

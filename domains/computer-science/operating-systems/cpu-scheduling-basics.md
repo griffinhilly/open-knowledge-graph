@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: process-states-and-transitions
   type: hard
+- id: context-switching-and-cpu-dispatch
+  type: soft
 builds-toward:
 - scheduling-algorithms
 tags:

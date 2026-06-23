@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: intermolecular-forces
   type: hard
+- id: states-of-matter-properties-and-transitions
+  type: soft
 builds-toward:
 - vapor-pressure-raoults-law
 tags:

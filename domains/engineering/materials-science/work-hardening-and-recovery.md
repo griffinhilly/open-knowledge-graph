@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: strengthening-mechanisms
   type: soft
+- id: dislocation-types-and-motion
+  type: hard
 builds-toward:
 - annealing-processes
 tags:

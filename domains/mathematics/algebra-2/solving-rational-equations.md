@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: solving-radical-equations
   type: soft
+- id: rational-expressions-intro
+  type: hard
 builds-toward: []
 tags:
 - rational-equations

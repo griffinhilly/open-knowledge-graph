@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: kawabata-minimalism-essence
   type: soft
+- id: korean-literary-modernity-colonial-postcolonial
+  type: soft
 builds-toward:
 - modernism-non-western-centers
 tags:

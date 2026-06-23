@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: price-level-measurement-indices
   type: soft
+- id: sticky-wages-labor-market-frictions
+  type: soft
 builds-toward:
 - supply-shock-stagflation-effects
 tags:

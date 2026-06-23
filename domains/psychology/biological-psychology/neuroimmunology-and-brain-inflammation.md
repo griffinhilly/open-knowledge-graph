@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - neuroinflammation-glia
-- depression-and-cytokines
 tags:
 - microglia
 - cytokines

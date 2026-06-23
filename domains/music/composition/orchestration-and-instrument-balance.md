@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: arranging-for-small-ensemble
   type: soft
+- id: texture-and-orchestral-color
+  type: soft
 builds-toward:
 - small-ensemble-arrangement-technique
 tags:

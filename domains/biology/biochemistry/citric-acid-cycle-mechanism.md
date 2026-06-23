@@ -20,6 +20,10 @@ prerequisites:
   type: soft
 - id: reduction-reactions-organic
   type: soft
+- id: glycolysis-mechanism-and-regulation
+  type: soft
+- id: nad-nadh-structure-and-function
+  type: soft
 builds-toward:
 - citric-acid-cycle-regulation
 - oxidative-phosphorylation-and-chemiosmosis

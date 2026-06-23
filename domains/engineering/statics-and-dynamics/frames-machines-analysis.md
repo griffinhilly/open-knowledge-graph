@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: truss-method-of-sections
   type: soft
+- id: statically-determinate-indeterminate
+  type: soft
+- id: two-force-and-three-force-members
+  type: soft
 builds-toward:
 - dry-friction-coulombs-law
 tags:

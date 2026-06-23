@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: roman-republic-constitution
   type: soft
+- id: feudal-contract-reciprocal-obligation
+  type: soft
+- id: medieval-english-monarchy-development
+  type: soft
 tags:
 - magna-carta
 - constitutional-history

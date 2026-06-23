@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: singing-in-harmony
   type: hard
+- id: intervals-and-ear-training
+  type: soft
+- id: scales-and-key-signatures
+  type: hard
 builds-toward:
 - chord-progressions-introduction
 - harmonic-function-basics

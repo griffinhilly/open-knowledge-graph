@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: rhythm-through-brushwork-and-gestural-mark
   type: soft
+- id: texture-visual-and-tactile-qualities
+  type: soft
 builds-toward:
 - ink-drawing-and-pen-techniques
 tags:

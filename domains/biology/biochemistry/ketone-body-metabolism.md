@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: fasted-state-metabolism
   type: soft
-builds-toward:
-- metabolic-disease-states
 tags:
 - ketones
 - acetyl-CoA

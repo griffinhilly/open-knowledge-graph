@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - mental-math-add-subtract-tens
-- subtraction-fact-families
 tags:
 - strategy
 - mental-math

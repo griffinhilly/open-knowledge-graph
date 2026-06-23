@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: bacterial-cell-structure
   type: soft
+- id: bacterial-quorum-sensing-and-gene-regulation
+  type: soft
 builds-toward:
 - antibiotic-resistance-mechanisms
 - human-microbiome

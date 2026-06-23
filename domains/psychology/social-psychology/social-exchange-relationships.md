@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: romantic-love-attachment-adult
   type: soft
-builds-toward:
-- commitment-investment-dissolution
 tags:
 - social-exchange
 - relationships

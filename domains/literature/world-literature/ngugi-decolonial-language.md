@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: postcolonial-literature-theory
   type: soft
+- id: african-postcolonial-fiction-nationalism-identity
+  type: soft
 builds-toward:
 - postcolonial-literature-theory
 tags:

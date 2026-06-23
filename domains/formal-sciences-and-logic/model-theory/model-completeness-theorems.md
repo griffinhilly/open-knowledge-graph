@@ -10,9 +10,12 @@ prerequisites:
   type: hard
 - id: complete-first-order-theories
   type: hard
+- id: existential-formulas-embeddings
+  type: hard
+- id: universal-formulas-substructures
+  type: hard
 builds-toward:
 - quantifier-elimination-decidability
-- decidable-theories
 tags:
 - model-completeness
 - universal-formulas

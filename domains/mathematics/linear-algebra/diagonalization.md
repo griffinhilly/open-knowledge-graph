@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: basis-and-dimension
   type: hard
+- id: change-of-basis
+  type: soft
 builds-toward:
 - least-squares-approximation
 tags:

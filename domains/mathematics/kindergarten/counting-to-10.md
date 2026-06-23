@@ -3,7 +3,9 @@ id: counting-to-10
 title: Counting to 10
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: counting-to-five
+  type: hard
 builds-toward:
 - counting-to-20
 - one-to-one-correspondence

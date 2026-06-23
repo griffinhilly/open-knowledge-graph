@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quality-assurance-analytical
   type: hard
+- id: chromatographic-resolution-and-selectivity
+  type: soft
 tags:
 - method development
 - optimization

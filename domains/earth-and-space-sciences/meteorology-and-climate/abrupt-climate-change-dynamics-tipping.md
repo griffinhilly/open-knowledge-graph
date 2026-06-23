@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - paleoclimate-proxies
-- climate-model-projections
 tags:
 - abrupt-change
 - tipping-points

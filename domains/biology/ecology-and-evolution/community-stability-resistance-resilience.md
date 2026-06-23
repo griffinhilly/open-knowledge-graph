@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: secondary-succession-post-disturbance
   type: soft
+- id: functional-response-predation-types
+  type: soft
+- id: lotka-volterra-predation-cycles
+  type: soft
 builds-toward:
 - restoration-ecology-principles
 - climate-change-ecology

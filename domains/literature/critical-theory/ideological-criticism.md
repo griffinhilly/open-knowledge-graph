@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: semiotics-and-signs
   type: soft
+- id: barthesian-connotation-mythology
+  type: soft
 builds-toward:
 - discourse-and-power
 - cultural-studies-approach

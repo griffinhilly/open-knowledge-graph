@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: liberty-negative-and-positive
   type: soft
+- id: locke-and-property-rights
+  type: soft
 tags:
 - libertarianism
 - Nozick

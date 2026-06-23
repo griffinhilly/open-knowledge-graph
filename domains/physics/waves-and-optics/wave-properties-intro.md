@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: transverse-wave-characteristics
   type: soft
+- id: wave-properties-conceptual
+  type: soft
 builds-toward:
 - wave-speed-medium
 - transverse-and-longitudinal-waves

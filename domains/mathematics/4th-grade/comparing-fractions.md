@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: fractions-on-number-line
   type: soft
+- id: comparing-unit-fractions-3rd
+  type: soft
 builds-toward:
 - adding-fractions-unlike-denominators
 - comparing-decimals

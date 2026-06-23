@@ -20,6 +20,14 @@ prerequisites:
   type: soft
 - id: function-composition-and-inverses
   type: soft
+- id: adjunction-as-hom-bijection
+  type: soft
+- id: left-right-adjoints
+  type: hard
+- id: preservation-of-limits
+  type: soft
+- id: slice-categories
+  type: soft
 tags:
 - Kan extension
 - left Kan extension

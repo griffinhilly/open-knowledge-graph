@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: grain-boundaries-and-interfaces-materials
   type: soft
+- id: point-defects-and-vacancies
+  type: soft
 builds-toward:
 - heat-treatment-steel-processing
 - polymer-mechanical-properties

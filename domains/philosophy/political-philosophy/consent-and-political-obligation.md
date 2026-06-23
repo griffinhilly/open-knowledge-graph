@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: political-obligation
   type: hard
-builds-toward:
-- tacit-consent-theory
-- voluntary-association-state
 tags:
 - consent
 - obligation

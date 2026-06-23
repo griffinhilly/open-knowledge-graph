@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: oxymercuration-markovnikov-hydration
   type: soft
+- id: carbocation-rearrangement-1-2-shifts
+  type: soft
 builds-toward:
 - alcohol-oxidation-to-carbonyls
 tags:

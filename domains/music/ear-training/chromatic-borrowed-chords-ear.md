@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: diatonic-chromatic-tone-distinction
   type: soft
+- id: harmonic-function-root-movement-ear
+  type: soft
 builds-toward:
 - neo-riemannian-analysis-advanced
 - chromatic-mediant-chords

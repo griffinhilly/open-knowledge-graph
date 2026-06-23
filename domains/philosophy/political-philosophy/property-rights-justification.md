@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: distributive-justice
   type: hard
-builds-toward:
-- economic-justice
-- redistribution-and-justice
 tags:
 - property
 - justice

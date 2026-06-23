@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
+- id: eigenvalue-method-for-systems
+  type: hard
+- id: phase-line-analysis
+  type: soft
 builds-toward:
 - stability-classification
 tags:

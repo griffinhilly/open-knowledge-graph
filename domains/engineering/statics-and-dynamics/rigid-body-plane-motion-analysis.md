@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: rotation-fixed-axis-dynamics
   type: hard
+- id: relative-motion-reference-frames
+  type: soft
 builds-toward:
 - instantaneous-center-of-rotation-method
 tags:

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: marginal-utility-and-consumer-choice
   type: soft
+- id: marginal-utility-diminishing-marginal
+  type: soft
 builds-toward:
 - consumer-optimum
 - income-and-substitution-effects

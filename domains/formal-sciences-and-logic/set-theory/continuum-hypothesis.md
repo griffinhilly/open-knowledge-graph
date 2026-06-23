@@ -16,6 +16,14 @@ prerequisites:
   type: soft
 - id: uncountable-sets-and-cantor-diagonalization
   type: soft
+- id: aleph-and-beth-hierarchy-introduction
+  type: soft
+- id: aleph-numbers
+  type: hard
+- id: beth-numbers
+  type: soft
+- id: cardinal-arithmetic-infinite-sets
+  type: soft
 builds-toward:
 - independence-results-set-theory
 tags:

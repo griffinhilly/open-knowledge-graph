@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: evidence-and-support
   type: hard
+- id: inductive-and-deductive-reasoning
+  type: soft
 builds-toward:
 - cause-and-effect-writing
 tags:

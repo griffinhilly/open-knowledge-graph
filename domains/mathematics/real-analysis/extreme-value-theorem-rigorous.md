@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: compact-sets
   type: hard
+- id: compact-sets-heine-borel
+  type: hard
+- id: completeness-axiom
+  type: soft
+- id: heine-borel-theorem
+  type: hard
 builds-toward:
 - uniform-continuity-compact-sets
 tags:

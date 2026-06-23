@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: power-spectral-density-estimation
   type: hard
+- id: spectral-leakage-and-windowing-tradeoff
+  type: soft
 tags:
 - spectral-analysis
 - nonparametric

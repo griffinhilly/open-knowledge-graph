@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: representationalism
   type: soft
+- id: intentionality-aboutness
+  type: soft
 tags:
 - Putnam
 - Burge

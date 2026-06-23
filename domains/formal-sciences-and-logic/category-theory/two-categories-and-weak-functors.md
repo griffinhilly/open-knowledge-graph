@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: natural-transformations
   type: hard
-builds-toward:
-- higher-category-theory-intro
 tags:
 - higher-categories
 - two-categories

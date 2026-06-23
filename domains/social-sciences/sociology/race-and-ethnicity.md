@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: race-ethnicity-inequality-systems
   type: soft
+- id: ethnicity-as-social-construction
+  type: soft
+- id: human-biological-diversity
+  type: soft
 builds-toward:
 - intersectionality
 tags:

@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: ethnomethodology
   type: hard
+- id: microsociology-everyday-interaction
+  type: soft
 tags:
 - conversation-analysis
 - interaction

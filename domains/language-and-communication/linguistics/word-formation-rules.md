@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: reduplication-morphology
   type: soft
+- id: morpheme-structure-constraints
+  type: soft
 builds-toward:
 - derivational-morphology
 - inflectional-morphology

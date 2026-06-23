@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: ocean-atmosphere-interactions
   type: soft
+- id: enso-mechanisms-teleconnections
+  type: soft
 tags:
 - pdo
 - decadal

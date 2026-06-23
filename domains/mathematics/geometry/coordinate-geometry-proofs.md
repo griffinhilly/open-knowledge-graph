@@ -44,6 +44,8 @@ prerequisites:
   type: soft
 - id: trapezoid-properties
   type: soft
+- id: parallel-and-perpendicular-slopes
+  type: hard
 builds-toward:
 - conic-sections-circles
 - conic-sections-parabolas

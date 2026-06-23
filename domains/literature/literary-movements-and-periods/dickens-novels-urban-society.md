@@ -6,8 +6,6 @@ course: literary-movements-and-periods
 prerequisites:
 - id: victorian-era-literature-overview
   type: hard
-builds-toward:
-- character-types-and-roles
 tags:
 - dickens
 - victorian

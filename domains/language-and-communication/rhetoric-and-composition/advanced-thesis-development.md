@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: argumentative-essay-structure
   type: hard
+- id: prewriting-and-idea-generation
+  type: soft
 builds-toward:
 - claim-hierarchy-emphasis
 - research-question-thesis-connection

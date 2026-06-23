@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: line-integrals
   type: hard
+- id: conservative-fields
+  type: hard
 builds-toward:
 - conservative-fields-potential
 tags:

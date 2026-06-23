@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: normal-distribution
   type: soft
+- id: test-score-interpretation-frameworks
+  type: soft
 tags:
 - iq-testing
 - cognitive-ability

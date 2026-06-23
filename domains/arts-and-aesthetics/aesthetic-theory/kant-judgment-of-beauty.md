@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: aesthetic-universalism-and-relativism
   type: soft
+- id: aesthetic-experience-and-beauty
+  type: soft
 builds-toward:
 - kant-disinterest-aesthetics
 - kant-sublime-aesthetics

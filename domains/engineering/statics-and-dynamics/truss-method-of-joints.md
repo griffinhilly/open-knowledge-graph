@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: equilibrium-particles-2d
   type: hard
+- id: statically-determinate-indeterminate
+  type: soft
+- id: truss-design-principles
+  type: soft
 builds-toward:
 - truss-method-of-sections
 - frames-machines-analysis

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cardinal-comparison-and-schroeder-bernstein
   type: hard
+- id: cardinal-numbers-basic-theory
+  type: hard
 builds-toward:
 - aleph-numbers
 - beth-numbers

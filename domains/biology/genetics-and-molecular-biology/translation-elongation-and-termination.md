@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: ribosomal-rna-and-ribosome-assembly
   type: soft
+- id: genetic-code-reading-frame-wobble
+  type: soft
+- id: translation-initiation-start-codon
+  type: hard
 builds-toward:
 - post-translational-modifications
 tags:

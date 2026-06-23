@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: group-definition-and-examples
   type: soft
+- id: tensor-products-universal
+  type: soft
 builds-toward:
 - closed-monoidal-categories
 - enriched-categories

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: piaget-formal-operational
   type: soft
+- id: theory-of-mind-development-developmental-psychology
+  type: soft
 builds-toward:
 - moral-development-gilligan
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: blood-composition-and-function
   type: hard
+- id: platelet-function-and-von-willebrand-disease
+  type: hard
 tags:
 - bleeding
 - coagulation-disorders

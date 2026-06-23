@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: fairness-and-rules
   type: soft
+- id: authority-and-legitimacy
+  type: soft
+- id: contractarian-moral-foundations
+  type: soft
 builds-toward:
 - hobbesian-sovereignty
 - lockean-natural-rights

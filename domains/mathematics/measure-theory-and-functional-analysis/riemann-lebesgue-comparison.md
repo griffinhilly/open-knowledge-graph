@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: measurable-functions
   type: soft
+- id: lebesgue-integral-general-definition
+  type: hard
+- id: lebesgue-measure-real-line
+  type: hard
 tags:
 - integration
 stage: expert

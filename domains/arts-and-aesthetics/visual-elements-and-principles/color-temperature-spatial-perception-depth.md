@@ -15,7 +15,6 @@ prerequisites:
 builds-toward:
 - relative-size-and-spatial-perception-depth
 - value-structure-and-compositional-organization
-- movement-through-line-direction-coordination
 tags:
 - color
 - temperature

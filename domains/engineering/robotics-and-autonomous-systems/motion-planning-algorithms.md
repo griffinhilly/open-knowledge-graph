@@ -7,7 +7,6 @@ prerequisites: []
 builds-toward:
 - rrt-prm-sampling-planners
 - potential-field-methods
-- trajectory-optimization
 tags:
 - motion-planning
 - pathfinding

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: equipartition-theorem
   type: soft
+- id: fundamental-statistical-mechanics
+  type: hard
 builds-toward:
 - statistical-thermodynamics-applications
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: subsequences
   type: hard
+- id: closed-sets-real-line
+  type: hard
 builds-toward:
 - heine-borel-theorem
 - uniform-continuity-compact-sets

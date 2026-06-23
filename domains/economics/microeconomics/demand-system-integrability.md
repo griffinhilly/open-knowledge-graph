@@ -10,8 +10,8 @@ prerequisites:
   type: hard
 - id: preference-rationality-consistent-choices
   type: soft
-builds-toward:
-- weak-strong-axiom-revealed-preference
+- id: slutsky-equation-decomposition
+  type: hard
 tags:
 - demand
 - integrability

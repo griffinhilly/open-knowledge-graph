@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: music-printing-and-dissemination
   type: soft
+- id: renaissance-polyphonic-sacred-music
+  type: soft
 builds-toward:
 - basso-continuo-practice-and-realization
 - opera-as-baroque-synthesis

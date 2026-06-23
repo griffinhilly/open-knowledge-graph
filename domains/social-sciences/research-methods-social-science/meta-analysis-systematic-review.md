@@ -10,9 +10,6 @@ prerequisites:
   type: soft
 - id: confidence-intervals-framework
   type: soft
-builds-toward:
-- meta-regression-heterogeneity
-- publication-bias-correction
 tags:
 - synthesis
 - evidence

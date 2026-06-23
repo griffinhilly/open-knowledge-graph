@@ -6,9 +6,6 @@ course: cooking-and-nutrition
 prerequisites:
 - id: kitchen-safety-and-hygiene
   type: soft
-builds-toward:
-- meal-planning-basics
-- kitchen-organization-workflow
 tags:
 - etiquette
 - dining

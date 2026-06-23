@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: immunological-memory-secondary-response
   type: hard
+- id: follicular-helper-t-cells-tfh
+  type: soft
+- id: plasma-cells-and-antibody-secretion
+  type: soft
 builds-toward:
 - vaccine-response-and-immunogenicity
 - immune-tolerance-central-and-peripheral

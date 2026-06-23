@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: colligative-properties
   type: soft
+- id: ion-channels-selectivity
+  type: soft
 tags:
 - osmosis
 - water-balance

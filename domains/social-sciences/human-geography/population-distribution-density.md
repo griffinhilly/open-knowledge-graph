@@ -19,7 +19,6 @@ prerequisites:
 - id: probability-density-functions
   type: soft
 builds-toward:
-- demographic-transition-model
 - migration-theory-push-pull
 - urban-geography-fundamentals
 tags:

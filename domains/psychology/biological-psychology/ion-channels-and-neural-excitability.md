@@ -14,7 +14,6 @@ prerequisites:
   type: hard
 builds-toward:
 - action-potential-and-neural-signaling
-- resting-membrane-potential-pharmacology
 tags:
 - cellular
 - neurophysiology

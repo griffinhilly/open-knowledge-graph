@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: cultural-capital-and-inequality
   type: hard
+- id: cultural-transmission-intergenerational
+  type: soft
+- id: marxist-base-superstructure
+  type: soft
 builds-toward:
 - symbolic-violence-bourdieu
 tags:

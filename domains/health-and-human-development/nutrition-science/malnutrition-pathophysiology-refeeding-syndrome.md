@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: energy-balance-and-body-composition
   type: soft
+- id: amino-acid-metabolism-and-protein-turnover
+  type: soft
 tags:
 - malnutrition
 - refeeding-syndrome

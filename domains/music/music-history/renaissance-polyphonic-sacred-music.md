@@ -6,6 +6,8 @@ course: music-history
 prerequisites:
 - id: liturgical-chant-and-medieval-foundations
   type: hard
+- id: musical-notation-historical-development
+  type: soft
 builds-toward:
 - music-printing-and-dissemination
 - baroque-musical-style-and-aesthetics

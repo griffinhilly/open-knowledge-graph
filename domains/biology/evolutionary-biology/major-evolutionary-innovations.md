@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: heterochrony-development-evolution
   type: soft
+- id: evolutionary-developmental-biology
+  type: hard
+- id: exaptation
+  type: hard
+- id: microevolution-and-macroevolution
+  type: soft
 builds-toward:
 - evolutionary-transitions
 - adaptive-radiation-molecular-basis

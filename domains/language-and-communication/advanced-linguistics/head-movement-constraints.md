@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: x-bar-theory
   type: hard
+- id: minimalist-program-core-concepts
+  type: soft
 tags:
 - syntax
 - movement

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dopamine-reward-system
   type: hard
+- id: dopamine-receptor-subtypes-and-signaling
+  type: soft
 builds-toward:
 - comorbidity-complex-presentations
 tags:

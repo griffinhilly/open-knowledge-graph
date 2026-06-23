@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: ipv6-addressing
   type: hard
-builds-toward:
-- network-virtualization-network-slicing
 tags:
 - ipv4
 - ipv6

@@ -6,6 +6,8 @@ course: geology
 prerequisites:
 - id: plate-tectonics-continental-drift-evidence
   type: hard
+- id: plate-boundaries-intro
+  type: soft
 builds-toward:
 - earthquake-mechanisms-stress-release
 - volcano-classification-magma-types

@@ -3,7 +3,9 @@ id: earths-interior-density-composition
 title: 'Earth''s Interior: Density and Composition'
 domain: earth-and-space-sciences
 course: geology
-prerequisites: []
+prerequisites:
+- id: earths-layers
+  type: soft
 builds-toward:
 - lithosphere-asthenosphere-layers
 - isostasy-density-equilibrium

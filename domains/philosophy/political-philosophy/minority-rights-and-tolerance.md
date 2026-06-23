@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - multiculturalism
-- religious-freedom
 tags:
 - minority-rights
 - tolerance

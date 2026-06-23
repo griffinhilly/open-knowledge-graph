@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vacuous-truth-and-trivial-cases
   type: soft
+- id: proof-by-exhaustion-intro
+  type: hard
 builds-toward:
 - mathematical-induction
 tags:

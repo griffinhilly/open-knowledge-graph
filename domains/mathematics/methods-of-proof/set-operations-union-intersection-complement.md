@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: logical-equivalences
   type: soft
+- id: complement-of-a-set-intro
+  type: soft
+- id: union-and-intersection-intro
+  type: soft
 builds-toward:
 - cartesian-products-relations
 - proof-by-cases-exhaustion

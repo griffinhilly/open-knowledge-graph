@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: fluorescence-quantum-yield-lifetime
   type: soft
+- id: phosphorescence-intersystem-crossing
+  type: soft
 builds-toward: []
 tags:
 - photochemistry

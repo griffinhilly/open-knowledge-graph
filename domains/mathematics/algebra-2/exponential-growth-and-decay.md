@@ -6,6 +6,8 @@ course: algebra-2
 prerequisites:
   - id: exponential-functions-and-graphs
     type: hard
+  - id: percent-increase-decrease
+    type: soft
 builds-toward:
   - solving-exponential-equations
   - natural-logarithm-and-e

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inner-product-spaces
   type: soft
+- id: variance-higher-moments-rigorous
+  type: hard
 builds-toward:
 - relationships-modes-convergence
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: curl-and-divergence
   type: hard
+- id: electric-potential-and-potential-energy
+  type: soft
+- id: vector-potential-and-curl
+  type: soft
 builds-toward:
 - retarded-potentials
 - gauge-transformations

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nucleophilic-acyl-substitution
   type: hard
+- id: carboxylic-acid-derivatives-esters-amides-acyl-chlorides
+  type: soft
 builds-toward:
 - relative-reactivity-carboxylic-acid-derivatives
 tags:

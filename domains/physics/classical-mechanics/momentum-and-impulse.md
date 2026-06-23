@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: power-rule
   type: soft
+- id: momentum-intro
+  type: soft
 builds-toward:
 - conservation-of-momentum
 - angular-momentum

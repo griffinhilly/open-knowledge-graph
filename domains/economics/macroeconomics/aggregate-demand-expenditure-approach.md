@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: gdp-components
   type: hard
+- id: marginal-propensity-to-consume-mpc
+  type: soft
 builds-toward:
 - short-run-sticky-price-equilibrium
 - demand-shock-output-inflation-effects

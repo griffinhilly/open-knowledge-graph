@@ -6,8 +6,6 @@ course: pathophysiology
 prerequisites:
 - id: carcinogenesis-multistep
   type: soft
-builds-toward:
-- site-specific-metastasis
 tags:
 - metastasis
 - invasion

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: transverse-and-longitudinal-waves
   type: soft
+- id: wavefront-and-ray-description
+  type: soft
 builds-toward:
 - refraction-intro
 - single-slit-diffraction

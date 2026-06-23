@@ -7,10 +7,6 @@ prerequisites:
 - id: enlightenment-science
   type: soft
 
-builds-toward:
-- geometry-euclidean-and-non-euclidean
-- algebra-and-symbolic-reasoning
-- calculus-and-analysis
 tags:
 - history
 - History Of Science

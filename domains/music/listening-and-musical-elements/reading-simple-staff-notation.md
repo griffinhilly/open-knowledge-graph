@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: melody-basics
   type: hard
+- id: rests-and-silence-in-rhythm
+  type: soft
 builds-toward:
 - dynamics-and-expression-marks
 - tempo-and-time-signatures

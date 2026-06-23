@@ -6,8 +6,8 @@ course: cell-biology
 prerequisites:
 - id: cell-cycle-overview
   type: hard
-builds-toward:
-- telomeres-chromosome-ends
+- id: telomere-replication-end-problem
+  type: hard
 tags:
 - senescence
 - replicative-limit

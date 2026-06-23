@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: estimation-products-3rd
   type: soft
+- id: rounding-nearest-hundred-3rd
+  type: hard
 builds-toward:
 - estimation-in-multiplication
 tags:

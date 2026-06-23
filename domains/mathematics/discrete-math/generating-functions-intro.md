@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: multinomial-coefficients
   type: soft
+- id: binomial-theorem-discrete
+  type: soft
+- id: recurrence-relations-discrete
+  type: soft
 tags:
 - generating-functions
 - power-series

@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: recognizing-online-scams-fraud
   type: soft
-builds-toward:
-- keeping-yourself-safe-online
 tags:
 - security
 - fraud

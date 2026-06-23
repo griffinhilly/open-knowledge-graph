@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: power-and-authority
   type: hard
+- id: group-dynamics-conformity
+  type: soft
+- id: social-influence-mechanisms
+  type: soft
 tags:
 - deviance
 - crime

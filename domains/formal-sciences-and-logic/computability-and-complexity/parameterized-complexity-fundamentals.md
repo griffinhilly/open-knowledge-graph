@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: fixed-parameter-tractability
   type: soft
-builds-toward:
-- kolmogorov-complexity
 tags:
 - parameterized-complexity
 - FPT

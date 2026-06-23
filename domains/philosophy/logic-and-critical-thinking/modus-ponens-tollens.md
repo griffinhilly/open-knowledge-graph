@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: propositional-logic-introduction
   type: soft
+- id: conditional-statements-and-material-conditional
+  type: hard
 builds-toward:
 - counterexample-method
 tags:

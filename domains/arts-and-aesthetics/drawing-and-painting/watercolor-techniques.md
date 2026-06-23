@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: still-life-composition
   type: soft
+- id: paint-properties-transparency-and-opacity
+  type: soft
+- id: paper-selection-for-drawing
+  type: soft
 builds-toward:
 - plein-air-painting
 tags:

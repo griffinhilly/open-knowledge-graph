@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-momentum-demography
   type: soft
+- id: fertility-transition
+  type: soft
 builds-toward:
 - population-and-environment
 tags:

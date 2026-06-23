@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: echoing-patterns
   type: hard
+- id: beat-vs-rhythm
+  type: hard
 builds-toward:
 - simple-rhythm-patterns
 - composing-simple-patterns

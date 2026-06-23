@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electrophilic-addition-to-alkenes
   type: hard
+- id: iupac-nomenclature-alkynes
+  type: soft
 builds-toward: []
 tags:
 - alkyne

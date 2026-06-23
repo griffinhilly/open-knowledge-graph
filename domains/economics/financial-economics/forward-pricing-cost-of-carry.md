@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - hedging-with-derivatives
-- interest-rate-swaps
 tags:
 - forwards
 - pricing

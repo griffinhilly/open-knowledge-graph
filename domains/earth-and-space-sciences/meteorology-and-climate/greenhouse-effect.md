@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: electromagnetic-spectrum-astronomy
   type: soft
+- id: greenhouse-effect-basics
+  type: soft
 builds-toward:
 - climate-change-science
 - anthropogenic-climate-forcing

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: feeling-safe-and-trust
   type: hard
+- id: its-ok-to-feel-feelings
+  type: soft
 builds-toward:
 - recognizing-feelings-in-others
 tags:

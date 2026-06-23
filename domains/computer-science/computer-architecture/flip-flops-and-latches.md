@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: combinational-circuit-design
   type: soft
+- id: universal-logic-gates
+  type: soft
 builds-toward:
 - registers-and-register-files
 - finite-state-machines

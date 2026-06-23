@@ -6,6 +6,8 @@ course: childrens-and-ya-literature
 prerequisites:
 - id: children-fantasy-secondary-worlds
   type: hard
+- id: children-quest-monomyth-hero-journey
+  type: soft
 builds-toward:
 - children-quest-monomyth-hero-journey
 tags:

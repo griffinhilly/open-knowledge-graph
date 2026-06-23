@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: thermal-conductivity-and-rocks
   type: hard
+- id: crustal-heat-flow-and-geotherms
+  type: soft
+- id: planetary-accretion-chronology
+  type: soft
+- id: planetary-thermal-modeling
+  type: soft
 builds-toward:
 - planetary-magnetic-field-generation
 - mantle-convection-planets

@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: graves-disease-thyroid-pathophysiology
   type: soft
-builds-toward:
-- hypothyroidism-replacement-therapy
-- myxedema-pathophysiology
 tags:
 - hashimoto-thyroiditis
 - autoimmune

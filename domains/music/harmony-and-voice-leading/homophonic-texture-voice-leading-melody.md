@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - melody-harmonization-with-voice-leading
-- voice-leading-in-composition
 tags:
 - homophony
 - texture

@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: colonial-plantation-economy
   type: soft
+- id: enlightenment-natural-rights-theory
+  type: hard
+- id: john-locke-liberal-political-thought
+  type: hard
+- id: montesquieu-separation-governmental-powers
+  type: soft
 builds-toward:
 - french-revolution-origins
 - haitian-revolution

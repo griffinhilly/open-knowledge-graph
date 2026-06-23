@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: power-and-legitimate-authority
   type: soft
-builds-toward:
-- voting-systems
-- democratic-equality
 tags:
 - democracy
 - legitimacy

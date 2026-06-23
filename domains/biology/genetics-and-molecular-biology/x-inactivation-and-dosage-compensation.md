@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: dna-methylation-and-epigenetic-silencing
   type: soft
+- id: genomic-imprinting-and-parent-of-origin-effects
+  type: soft
+- id: sex-linked-inheritance-and-x-linked-genes
+  type: soft
 tags:
 - x-inactivation
 - lyonization

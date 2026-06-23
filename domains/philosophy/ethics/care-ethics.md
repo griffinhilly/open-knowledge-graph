@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: deontological-ethics
   type: soft
+- id: moral-emotions-and-sentiment
+  type: soft
+- id: moral-sentiments-and-emotions
+  type: soft
 builds-toward:
 - applied-ethics-intro
 tags:

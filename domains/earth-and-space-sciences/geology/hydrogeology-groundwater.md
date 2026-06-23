@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: soil-formation
   type: soft
+- id: water-as-a-resource
+  type: soft
 tags:
 - groundwater
 - aquifer

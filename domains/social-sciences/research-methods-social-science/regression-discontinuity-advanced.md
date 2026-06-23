@@ -18,9 +18,6 @@ prerequisites:
   type: soft
 - id: count-data-regression-models
   type: soft
-builds-toward:
-- multi-dimensional-rdd
-- spatial-discontinuity
 tags:
 - regression-discontinuity
 - quasi-experimental

@@ -6,7 +6,6 @@ course: philosophy-of-language
 prerequisites: []
 builds-toward:
 - compositionality-principle
-- metaphor-and-figurative-language
 tags:
 - vagueness
 - sorites-paradox

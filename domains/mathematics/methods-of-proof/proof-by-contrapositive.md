@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: counterexamples-and-disproofs
   type: soft
+- id: logical-inference-and-rules
+  type: soft
+- id: negation-of-quantified-statements
+  type: soft
 tags:
 - proof
 - contrapositive

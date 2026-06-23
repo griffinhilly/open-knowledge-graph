@@ -10,7 +10,6 @@ prerequisites:
 - id: chronic-inflammation
   type: hard
 builds-toward:
-- chronic-obstructive-pulmonary-disease-pathophysiology
 - sepsis-and-sirs-pathophysiology
 tags:
 - bronchiectasis

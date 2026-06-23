@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lowenheim-skolem-theorems-overview
   type: hard
+- id: indiscernibles-and-morley-theorem
+  type: soft
 builds-toward:
 - morleys-uncountable-categoricity
 - finite-axiomatization-and-completeness

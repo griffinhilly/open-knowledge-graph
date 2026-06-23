@@ -16,7 +16,6 @@ prerequisites:
   type: hard
 builds-toward:
 - memory-consolidation-systems
-- learning-and-experience-dependent-plasticity
 tags:
 - plasticity
 - learning

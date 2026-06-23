@@ -22,6 +22,10 @@ prerequisites:
   type: soft
 - id: cultural-materialism-english-school
   type: soft
+- id: althusser-ideology-apparatus
+  type: soft
+- id: structuralist-semiotics-meaning
+  type: soft
 builds-toward:
 - intersectionality-in-criticism
 tags:

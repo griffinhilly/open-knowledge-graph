@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: urysohns-lemma
   type: hard
+- id: separation-axioms-t3-regular
+  type: hard
 builds-toward:
 - metrization-theorems
 tags:

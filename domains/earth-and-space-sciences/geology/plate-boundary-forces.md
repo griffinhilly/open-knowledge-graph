@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: plate-boundaries-intro
   type: soft
+- id: mantle-convection-lithosphere
+  type: soft
 builds-toward:
 - seismic-hazard-assessment
 tags:

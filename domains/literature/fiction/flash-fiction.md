@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: narrative-pacing
   type: hard
+- id: short-story-compression-effect
+  type: soft
 tags:
 - flash-fiction
 - microfiction

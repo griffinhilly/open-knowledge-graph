@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: verbal-signposting
   type: soft
+- id: cognitive-coherence-spoken-language
+  type: soft
 builds-toward:
 - speech-structure-and-organization
 - organizational-patterns-speeches

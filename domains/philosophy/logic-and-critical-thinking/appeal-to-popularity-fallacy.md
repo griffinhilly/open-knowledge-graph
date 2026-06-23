@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: appeal-to-emotion-fallacy
   type: soft
-builds-toward:
-- evaluating-practical-arguments
 tags:
 - fallacies
 - popularity

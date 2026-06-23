@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: bjt-transistor-fundamentals
   type: hard
+- id: common-emitter-amplifier
+  type: soft
 builds-toward:
 - adc-dac-fundamentals
 tags:

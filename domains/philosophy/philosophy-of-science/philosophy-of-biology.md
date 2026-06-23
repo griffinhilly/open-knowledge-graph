@@ -6,6 +6,12 @@ course: philosophy-of-science
 prerequisites:
 - id: natural-selection
   type: hard
+- id: emergence-and-levels
+  type: soft
+- id: natural-kinds-classification
+  type: soft
+- id: reduction-emergence-science
+  type: soft
 builds-toward: []
 tags:
 - biology

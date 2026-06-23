@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: gene-regulation-prokaryotes
   type: soft
+- id: bacterial-transcription-and-operon-regulation
+  type: soft
 builds-toward:
 - biofilm-formation
 - host-pathogen-interactions

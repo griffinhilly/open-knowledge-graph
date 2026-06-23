@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: homology-and-cohomology
   type: hard
-builds-toward:
-- derived-equivalences
+- id: abelian-categories-homology
+  type: hard
 tags:
 - triangulated
 - distinguished-triangle

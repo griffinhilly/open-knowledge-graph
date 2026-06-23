@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: addition-within-20
   type: soft
+- id: place-value-tens-and-ones-2nd-grade
+  type: hard
 builds-toward:
 - addition-within-100
 - mental-math-strategies-addition-1st

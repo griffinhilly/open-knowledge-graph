@@ -6,6 +6,8 @@ course: design-principles
 prerequisites:
 - id: branding-and-identity-design
   type: soft
+- id: color-psychology-and-association
+  type: soft
 tags:
 - emotional-tone
 - personality

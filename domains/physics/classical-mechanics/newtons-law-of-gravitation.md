@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: free-fall
   type: soft
+- id: what-is-gravity
+  type: soft
 builds-toward:
 - orbital-mechanics
 - keplers-laws

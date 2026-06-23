@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: matrix-operations
   type: soft
+- id: capital-flows-equilibrium
+  type: hard
 builds-toward:
 - exchange-rate-dynamics
 - balance-of-payments-capital-flows

@@ -6,6 +6,8 @@ course: 1st-grade
 prerequisites:
 - id: counting-to-20
   type: soft
+- id: counting-to-100-2nd-grade
+  type: soft
 builds-toward:
 - even-and-odd-numbers
 tags:

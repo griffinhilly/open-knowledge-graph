@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: price-elasticity-of-supply
   type: hard
+- id: market-clearing-equilibrium-price
+  type: hard
 builds-toward:
 - price-controls-and-deadweight-loss
 - externalities-and-market-failure

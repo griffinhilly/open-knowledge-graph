@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: mass-movement-types-triggers-hazards
   type: soft
+- id: plate-boundary-forces
+  type: soft
 tags:
 - seismic-hazard
 - earthquakes

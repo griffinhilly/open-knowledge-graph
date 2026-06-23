@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: postcolonial-literature-theory
   type: soft
+- id: literary-realism-comparative
+  type: soft
 builds-toward:
 - literary-periodization-non-western
 tags:

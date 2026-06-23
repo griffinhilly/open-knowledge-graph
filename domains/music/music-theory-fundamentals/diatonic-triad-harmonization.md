@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: scale-degree-names-and-function
   type: hard
+- id: minor-scale-types-comparison
+  type: soft
+- id: triad-construction-from-intervals
+  type: hard
 builds-toward:
 - harmonic-function-basics
 - harmonic-progression-analysis

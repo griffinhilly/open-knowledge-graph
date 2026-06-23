@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - figure-drawing-fundamentals
-- portraiture-fundamentals
 tags:
 - anatomy
 - hands

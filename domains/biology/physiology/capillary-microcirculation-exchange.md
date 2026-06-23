@@ -8,9 +8,8 @@ prerequisites:
   type: hard
 - id: osmosis-and-tonicity
   type: hard
-builds-toward:
-- fluid-electrolyte-balance-regulation
-- blood-pressure-volume-homeostasis
+- id: vascular-tone-resistance-regulation
+  type: soft
 tags:
 - capillary
 - microcirculation

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: mathematical-induction
   type: soft
+- id: foundation-axiom-and-regularity
+  type: soft
 builds-toward:
 - constructible-universe
 - absolute-formulas-models

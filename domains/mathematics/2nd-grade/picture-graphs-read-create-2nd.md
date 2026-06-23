@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: picture-graphs-3rd
   type: soft
+- id: collecting-organizing-data-2nd
+  type: soft
 tags:
 - graphs
 - picture-graphs

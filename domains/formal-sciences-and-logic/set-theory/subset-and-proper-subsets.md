@@ -6,6 +6,8 @@ course: set-theory
 prerequisites:
 - id: set-membership-and-notation
   type: hard
+- id: subsets-and-supersets-intro
+  type: hard
 builds-toward:
 - indexed-families-of-sets
 - axiom-of-power-set

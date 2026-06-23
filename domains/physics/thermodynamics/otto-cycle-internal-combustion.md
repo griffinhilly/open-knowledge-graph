@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: work-types-mechanical-pdv
   type: soft
+- id: polytropic-process-index
+  type: soft
 builds-toward:
 - diesel-cycle-compression-ignition
 - pv-diagram-interpretation

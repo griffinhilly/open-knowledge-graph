@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fluid-flow-porous-media
   type: soft
+- id: magma-composition-viscosity-rheology
+  type: hard
 builds-toward:
 - volatile-inventory-and-escape-evolution
 - habitable-zone-boundaries-constraints

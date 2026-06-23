@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 
 builds-toward:
-- labor-rights-and-regulation
 - welfare-state-origins
 tags:
 - history

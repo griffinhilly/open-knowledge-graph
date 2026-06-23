@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: relative-adverbs-where-when-why
   type: soft
+- id: parts-of-speech-overview
+  type: hard
 builds-toward:
 - modifiers-adjectives-adverbs-placement
 tags:

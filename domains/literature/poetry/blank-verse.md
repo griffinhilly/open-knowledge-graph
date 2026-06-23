@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: poetic-line-and-lineation
   type: soft
-builds-toward:
-- dramatic-verse
 tags:
 - blank-verse
 - iambic-pentameter

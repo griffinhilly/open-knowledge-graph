@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: positive-and-negative-space
   type: soft
+- id: figure-ground-relationship
+  type: soft
 builds-toward:
 - ui-design-fundamentals
 - logo-design-principles

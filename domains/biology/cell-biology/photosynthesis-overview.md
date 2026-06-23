@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: oxidation-reduction-basics
   type: soft
+- id: photosynthesis-intro
+  type: soft
+- id: what-plants-need-to-grow
+  type: soft
 builds-toward:
 - light-reactions
 - calvin-cycle

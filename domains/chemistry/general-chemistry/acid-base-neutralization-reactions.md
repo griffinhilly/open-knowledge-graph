@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: chemical-equations-and-balancing
   type: hard
+- id: neutralization-intro
+  type: soft
 builds-toward:
 - acid-base-titration
-- pH-and-acid-base-calculations
 tags:
 - neutralization
 - acid-base reaction

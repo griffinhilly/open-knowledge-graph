@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: early-modern-global-trade-networks
   type: soft
+- id: encomienda-colonial-labor
+  type: soft
+- id: encomienda-labor-colonial-system
+  type: soft
 builds-toward:
 - haitian-revolution
 - american-revolution

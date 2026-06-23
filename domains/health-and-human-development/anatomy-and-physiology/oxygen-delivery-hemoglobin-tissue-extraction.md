@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: hemoglobin-cooperativity-oxygen-binding
   type: soft
-builds-toward:
-- oxygen-delivery-and-tissue-oxygen-extraction
 tags:
 - oxygen-transport
 - hemoglobin

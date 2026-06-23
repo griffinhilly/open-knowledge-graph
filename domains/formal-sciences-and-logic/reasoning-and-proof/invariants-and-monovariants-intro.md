@@ -11,7 +11,6 @@ prerequisites:
   - id: conjectures-and-testing
     type: soft
 builds-toward:
-  - when-is-something-proven
   - loop-design-and-invariants
 tags: [invariants, monovariants, problem-solving, proof]
 stage: abstract-reasoning

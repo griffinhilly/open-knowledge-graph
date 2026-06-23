@@ -9,9 +9,6 @@ prerequisites:
 - id: science-and-empire
   type: soft
 
-builds-toward:
-- science-ethics-and-responsibility
-- human-rights-in-medicine
 tags:
 - history
 - History Of Science

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: mechanical-energy-head-forms
   type: soft
+- id: control-volume-steady-flow-mass
+  type: soft
 builds-toward:
 - centrifugal-pump-curves-selection
 - pipe-network-solutions-hardy-cross

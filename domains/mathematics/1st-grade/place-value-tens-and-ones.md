@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: number-recognition-1-100
   type: hard
+- id: counting-to-100
+  type: soft
+- id: number-recognition-1-100-2nd-grade
+  type: soft
 builds-toward:
 - comparing-two-digit-numbers
 - two-digit-addition-no-regrouping

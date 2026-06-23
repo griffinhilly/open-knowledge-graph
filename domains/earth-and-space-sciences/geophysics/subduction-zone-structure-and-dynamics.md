@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: focal-mechanisms-and-stress-tensors
   type: soft
+- id: lithospheric-structure-and-strength
+  type: soft
 tags:
 - subduction
 - tectonics

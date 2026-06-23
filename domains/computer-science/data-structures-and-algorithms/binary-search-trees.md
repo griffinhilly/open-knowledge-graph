@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: binary-search-algorithm
   type: soft
+- id: binary-tree-properties-height-balance-completeness
+  type: soft
+- id: tree-node-structure-properties
+  type: soft
 builds-toward:
 - avl-tree-rotations-balancing
 tags:

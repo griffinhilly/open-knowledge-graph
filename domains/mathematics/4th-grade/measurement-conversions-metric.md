@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: measurement-conversions-customary
   type: soft
+- id: measurement-length-standard-units-3rd
+  type: soft
+- id: measuring-length-feet-meters
+  type: soft
 builds-toward:
 - measurement-conversions-5th
 - converting-metric-units

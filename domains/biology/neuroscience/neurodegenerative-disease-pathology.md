@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: neuroinflammation-glia
   type: soft
-builds-toward:
-- alzheimers-mechanisms
-- parkinsons-mechanisms
 tags:
 - neurodegeneration
 - amyloid

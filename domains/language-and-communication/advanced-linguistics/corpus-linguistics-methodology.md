@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - computational-parsing-algorithms
-- frequency-effects-language
 tags:
 - corpus-linguistics
 - methodology

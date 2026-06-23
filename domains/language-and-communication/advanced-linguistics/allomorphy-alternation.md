@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: morphological-structure
   type: hard
+- id: morphological-composition
+  type: soft
 tags:
 - allomorphy
 - morphology

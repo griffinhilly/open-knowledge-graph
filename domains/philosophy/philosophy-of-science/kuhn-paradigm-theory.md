@@ -6,6 +6,10 @@ course: philosophy-of-science
 prerequisites:
 - id: philosophy-of-science-intro
   type: hard
+- id: falsifiability-criterion
+  type: soft
+- id: popper-falsificationism
+  type: soft
 builds-toward:
 - normal-science-anomalies
 - incommensurability-kuhn

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: melodic-dictation-with-leaps
   type: soft
+- id: dominant-seventh-function-resolution
+  type: soft
 builds-toward:
 - bass-line-dictation
 tags:

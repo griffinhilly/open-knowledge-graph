@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stoichiometry-calculations
   type: hard
+- id: gas-laws
+  type: hard
 tags:
 - gas stoichiometry
 - volume ratios

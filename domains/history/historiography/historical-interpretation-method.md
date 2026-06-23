@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: postcolonial-research-methods
   type: soft
+- id: historical-evidence-epistemology
+  type: soft
 builds-toward:
 - objectivity-and-perspective
 - textual-hermeneutics-history

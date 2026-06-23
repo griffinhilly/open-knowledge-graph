@@ -13,7 +13,6 @@ prerequisites:
 - id: harmonic-support-for-melody
   type: soft
 builds-toward:
-- phrase-design-structural-units
 - cadential-motion-structural-function
 tags:
 - melody

@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: area-and-perimeter-problems
   type: soft
+- id: paint-product-selection-by-application
+  type: soft
 tags:
 - painting
 - interiors

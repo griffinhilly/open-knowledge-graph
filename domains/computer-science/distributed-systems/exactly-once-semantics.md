@@ -6,6 +6,10 @@ course: distributed-systems
 prerequisites:
 - id: distributed-systems-introduction
   type: hard
+- id: at-least-once-semantics
+  type: soft
+- id: at-most-once-semantics
+  type: soft
 builds-toward:
 - idempotent-operations
 - two-phase-commit-protocol

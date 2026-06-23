@@ -17,7 +17,6 @@ prerequisites:
 builds-toward:
 - renewable-energy-systems-intro
 - environmental-impact-engineering
-- fundamentals-thermodynamic-systems
 tags:
 - energy-efficiency
 - systems-engineering

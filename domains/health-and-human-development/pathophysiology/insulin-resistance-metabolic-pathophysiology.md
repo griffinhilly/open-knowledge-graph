@@ -9,9 +9,10 @@ prerequisites:
   type: hard
 - id: cell-signaling-intro
   type: hard
+- id: insulin-signaling-glucose-regulation
+  type: hard
 builds-toward:
 - diabetes-mellitus-pathophysiology
-- metabolic-syndrome-pathophysiology
 tags:
 - insulin-resistance
 - glucose-uptake

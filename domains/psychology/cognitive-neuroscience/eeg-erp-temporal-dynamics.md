@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: fmri-principles-and-interpretation
   type: soft
+- id: neuroimaging-methods-principles-and-applications
+  type: soft
 builds-toward:
 - erp-components-attention
 - frequency-oscillations-cognition

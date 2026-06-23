@@ -14,6 +14,14 @@ prerequisites:
   type: soft
 - id: statistics-probability
   type: soft
+- id: mutation-rate-evolution
+  type: soft
+- id: nearly-neutral-evolution
+  type: soft
+- id: positive-selection
+  type: soft
+- id: protein-evolution
+  type: soft
 builds-toward: []
 tags:
 - molecular-clock

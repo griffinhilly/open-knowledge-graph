@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conditional-statements
   type: soft
+- id: program-structure
+  type: soft
 builds-toward:
 - parameters-and-arguments
 - return-values

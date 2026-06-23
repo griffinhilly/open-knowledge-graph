@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: respiratory-system-overview
   type: soft
-builds-toward:
-- post-thrombotic-syndrome
 tags:
 - venous-thromboembolism
 - dvt

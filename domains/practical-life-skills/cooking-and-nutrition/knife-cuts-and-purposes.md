@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - building-aromatics-and-bases
-- cooking-conversions-scaling
 tags:
 - knife-skills
 - cuts

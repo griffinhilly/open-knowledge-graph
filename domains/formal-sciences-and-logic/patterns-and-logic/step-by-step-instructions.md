@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: pattern-rules
   type: soft
-builds-toward:
-- propositional-logic-introduction
 tags:
 - algorithms
 - instructions

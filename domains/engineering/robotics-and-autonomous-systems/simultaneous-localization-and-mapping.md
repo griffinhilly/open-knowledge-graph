@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: visual-servoing
   type: soft
+- id: particle-filter-localization
+  type: soft
 builds-toward: []
 tags:
 - slam

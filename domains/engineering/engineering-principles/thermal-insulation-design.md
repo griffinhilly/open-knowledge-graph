@@ -13,7 +13,6 @@ prerequisites:
 builds-toward:
 - heat-exchanger-basics-engineering
 - energy-efficiency-in-systems
-- fundamentals-thermodynamic-systems
 tags:
 - insulation
 - thermal

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: boiling-and-simmering-water-based-cooking
   type: soft
+- id: burner-heat-level-control
+  type: hard
+- id: water-properties-in-cooking
+  type: soft
 builds-toward:
 - egg-cooking-techniques
 - vegetable-preparation

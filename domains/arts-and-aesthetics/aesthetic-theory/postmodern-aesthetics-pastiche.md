@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: adorno-culture-industry
   type: hard
-builds-toward:
-- relational-aesthetics
 tags:
 - postmodern
 - pastiche

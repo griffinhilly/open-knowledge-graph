@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: chemical-kinetics
   type: soft
+- id: surface-chemistry-adsorption
+  type: soft
 builds-toward:
 - photovoltaic-materials-chemistry
 tags:

@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: saltatory-conduction
   type: soft
-builds-toward:
-- hodgkin-huxley-model
 tags:
 - conduction-velocity
 - myelin

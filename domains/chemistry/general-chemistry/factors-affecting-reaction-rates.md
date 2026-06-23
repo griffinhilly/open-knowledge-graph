@@ -6,6 +6,8 @@ course: general-chemistry
 prerequisites:
 - id: chemical-kinetics
   type: hard
+- id: reaction-rate-factors
+  type: soft
 builds-toward:
 - activation-energy-catalysis-reaction-pathways
 tags:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: plot-structure
   type: hard
+- id: conflict-analysis-narrative
+  type: soft
+- id: conflict-narrative-function
+  type: soft
 builds-toward:
   - irony-meaning-and-effect
 tags:

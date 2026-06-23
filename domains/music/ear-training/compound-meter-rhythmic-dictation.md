@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - syncopation-rhythm-ear
-- polyrhythmic-listening-perception
 tags:
 - rhythm
 - meter

@@ -6,7 +6,7 @@ course: digital-and-experimental-literature
 prerequisites:
 - id: interactive-fiction-text-adventures
   type: hard
-- id: fictional-world-building
+- id: world-building
   type: soft
 builds-toward:
 - branching-narrative-choice

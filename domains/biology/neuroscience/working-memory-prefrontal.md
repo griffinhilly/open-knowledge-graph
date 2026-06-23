@@ -8,9 +8,6 @@ prerequisites:
   type: hard
 - id: cortical-organization
   type: soft
-builds-toward:
-- attention-control
-- cognitive-flexibility
 tags:
 - working-memory
 - prefrontal-cortex

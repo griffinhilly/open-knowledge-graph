@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: properties-of-solids
   type: soft
-builds-toward:
-- solution-properties
 tags:
 - absorbency
 - materials

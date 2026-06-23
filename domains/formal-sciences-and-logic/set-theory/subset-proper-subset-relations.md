@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: set-equality-and-extensionality
   type: hard
+- id: subsets-and-supersets-intro
+  type: hard
 builds-toward:
 - power-set-and-boolean-operations
 tags:

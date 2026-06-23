@@ -6,11 +6,6 @@ course: creative-nonfiction
 prerequisites:
 - id: narrative-time-experimentation
   type: hard
-- id: literary-structure-analysis
-  type: soft
-builds-toward:
-- experimental-structure
-- postmodern-nonfiction
 tags:
 - temporal-montage
 - time

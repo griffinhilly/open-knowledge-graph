@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: darcy-weisbach-equation-application
   type: hard
+- id: friction-factor-determination-methods
+  type: soft
 builds-toward:
 - pipe-network-solutions-hardy-cross
 tags:

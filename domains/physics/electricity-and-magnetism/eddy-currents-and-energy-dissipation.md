@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: joule-heating-resistive-power
   type: hard
-builds-toward:
-- transformer-efficiency
 tags:
 - induction
 - energy dissipation

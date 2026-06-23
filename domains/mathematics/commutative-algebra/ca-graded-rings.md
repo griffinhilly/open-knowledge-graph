@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: polynomial-rings
   type: hard
-builds-toward:
-- ca-hilbert-function
 tags:
 - graded-ring
 - homogeneous-element

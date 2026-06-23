@@ -9,9 +9,6 @@ prerequisites:
 - id: internet-origins-arpanet
   type: hard
 
-builds-toward:
-- artificial-intelligence-economic-impacts
-- digital-inequality-history
 tags:
 - history
 - Economic Social History

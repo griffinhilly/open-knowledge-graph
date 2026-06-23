@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: graph-representation
   type: hard
+- id: formal-definitions-graph-theory
+  type: hard
 tags:
 - graph-theory
 - operations

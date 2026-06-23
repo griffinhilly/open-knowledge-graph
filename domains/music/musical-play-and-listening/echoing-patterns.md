@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: singing-along
   type: soft
+- id: long-and-short-sounds
+  type: soft
+- id: same-and-different-sounds
+  type: soft
 builds-toward:
 - call-and-response
 - simple-rhythm-patterns

@@ -9,7 +9,6 @@ prerequisites:
 - id: narrative-writing
   type: soft
 builds-toward:
-- reader-expectation-by-genre
 - genre-boundary-crossing
 tags:
 - genre

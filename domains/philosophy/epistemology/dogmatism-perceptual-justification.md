@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: foundationalism
   type: hard
+- id: foundationalist-regress-problem
+  type: soft
 tags:
 - dogmatism
 - perception

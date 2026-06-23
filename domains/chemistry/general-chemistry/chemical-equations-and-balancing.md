@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: writing-ionic-formulas
   type: soft
+- id: chemical-formula-meaning
+  type: soft
+- id: conservation-of-mass
+  type: hard
+- id: element-symbols-and-names
+  type: soft
+- id: reactants-and-products
+  type: soft
 builds-toward:
 - stoichiometry-calculations
 - oxidation-reduction-reactions

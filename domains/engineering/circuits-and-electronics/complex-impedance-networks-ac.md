@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: hard
+- id: capacitive-elements-behavior-properties
+  type: hard
+- id: inductive-elements-behavior-properties
+  type: hard
 builds-toward:
 - AC-Kirchhoff-laws-phasor-domain
 - circuit-resonance-concepts

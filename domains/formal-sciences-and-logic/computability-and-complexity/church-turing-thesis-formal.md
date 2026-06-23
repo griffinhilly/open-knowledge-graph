@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: algorithm-analysis-big-o
   type: soft
+- id: mu-recursive-functions
+  type: soft
 builds-toward:
 - halting-problem-formal
 - computability-reductions

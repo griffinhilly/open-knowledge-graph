@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: unity-and-variety
   type: soft
+- id: design-principles-foundations
+  type: soft
+- id: repetition-and-visual-unity
+  type: soft
 builds-toward:
 - design-systems-and-consistency
 - branding-and-identity-design

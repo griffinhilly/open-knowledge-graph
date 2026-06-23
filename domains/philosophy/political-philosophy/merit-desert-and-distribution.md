@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - luck-egalitarianism
-- fair-inequality
 tags:
 - merit
 - desert

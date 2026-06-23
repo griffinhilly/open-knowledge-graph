@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: central-force-motion-analysis
   type: hard
+- id: gravity-and-orbits-intro
+  type: soft
 builds-toward:
 - tidal-forces-and-locking
 - orbital-resonances-dynamics

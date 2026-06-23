@@ -9,7 +9,6 @@ prerequisites:
 - id: organic-chemistry-intro
   type: soft
 builds-toward:
-- steroid-hormone-synthesis
 - lipoproteins-structure-and-transport
 tags:
 - cholesterol

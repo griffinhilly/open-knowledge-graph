@@ -22,9 +22,12 @@ prerequisites:
   type: soft
 - id: matrix-operations
   type: soft
+- id: expectation-formation-mechanisms
+  type: hard
+- id: rational-expectations-macro
+  type: hard
 builds-toward:
 - monetary-policy-transmission
-- fiscal-multiplier
 tags:
 - dsge
 - general-equilibrium

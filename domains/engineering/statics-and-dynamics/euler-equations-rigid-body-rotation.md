@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservation-of-angular-momentum-mechanics
   type: soft
+- id: rigid-body-rotation-theory
+  type: soft
 builds-toward:
 - gyroscopic-motion-and-stability
 tags:

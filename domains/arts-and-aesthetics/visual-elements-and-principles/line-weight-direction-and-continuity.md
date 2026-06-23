@@ -6,6 +6,8 @@ course: visual-elements-and-principles
 prerequisites:
 - id: line-observation-in-nature-and-art
   type: hard
+- id: observing-line-in-visual-art
+  type: soft
 builds-toward:
 - visual-movement-directing-the-eye
 - rhythm-through-repetition-and-variation

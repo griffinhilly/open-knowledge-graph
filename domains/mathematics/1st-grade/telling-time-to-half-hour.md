@@ -6,6 +6,12 @@ course: 1st-grade
 prerequisites:
 - id: telling-time-to-hour
   type: hard
+- id: telling-time-to-hour-1st
+  type: hard
+- id: telling-time-to-hour-kindergarten
+  type: hard
+- id: telling-time-to-the-hour
+  type: hard
 builds-toward:
 - elapsed-time
 tags:

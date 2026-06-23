@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: moral-realism
   type: soft
+- id: contractarian-moral-foundations
+  type: soft
 builds-toward:
 - applied-ethics-intro
 - bioethics

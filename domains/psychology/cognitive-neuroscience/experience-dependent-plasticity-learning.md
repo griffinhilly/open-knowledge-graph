@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: brain-plasticity-recovery
   type: soft
+- id: synaptogenesis-and-developmental-plasticity
+  type: soft
 tags:
 - plasticity
 - learning

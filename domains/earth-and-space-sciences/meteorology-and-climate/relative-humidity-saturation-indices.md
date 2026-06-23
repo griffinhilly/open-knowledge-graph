@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - cape-convective-available-potential
-- lifted-condensation-level
 tags:
 - moisture
 - indices

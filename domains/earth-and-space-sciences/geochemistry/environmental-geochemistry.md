@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: redox-geochemistry
   type: hard
+- id: biogeochemistry
+  type: soft
+- id: sedimentary-geochemistry
+  type: soft
+- id: weathering-soil-chemistry
+  type: soft
 builds-toward: []
 tags:
 - environmental-geochemistry

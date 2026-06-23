@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: religious-wars-europe
   type: soft
+- id: military-revolution-gunpowder-warfare
+  type: soft
 builds-toward:
 - enlightenment-origins
 - french-revolution-origins

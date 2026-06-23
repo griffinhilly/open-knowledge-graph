@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: boolean-logic
   type: hard
+- id: logical-operators
+  type: soft
+- id: program-structure
+  type: soft
 builds-toward:
 - while-loops
 - error-handling-exceptions

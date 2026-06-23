@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: literary-realism
   type: soft
+- id: hindi-literature-vernacular-tradition-modernity
+  type: soft
 builds-toward:
 - literary-realism-comparative
 - postcolonial-literature-theory

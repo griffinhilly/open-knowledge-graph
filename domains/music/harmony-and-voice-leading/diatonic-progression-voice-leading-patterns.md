@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: harmonic-progression-analysis
   type: soft
+- id: chord-inversions-voice-leading-options
+  type: soft
+- id: four-part-writing-voice-distribution
+  type: soft
 builds-toward:
 - modulation-voice-leading-pivot-chords
 - jazz-chord-substitution-voice-leading

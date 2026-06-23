@@ -17,7 +17,6 @@ prerequisites:
 - id: disability-insurance-overview
   type: soft
 builds-toward:
-- home-emergency-response-planning
 - major-life-transitions-financial-planning
 - financial-independence-and-early-retirement-planning
 tags:

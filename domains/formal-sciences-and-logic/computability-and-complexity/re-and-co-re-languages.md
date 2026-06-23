@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: recursively-enumerable-languages-computability-and-complexity
   type: soft
+- id: decidability-and-semi-decidability
+  type: soft
 builds-toward:
 - arithmetical-hierarchy
 - kolmogorov-complexity

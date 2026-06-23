@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: voice-leading-smooth-progressions
   type: hard
+- id: authentic-cadence-voice-leading
+  type: soft
+- id: diatonic-progression-voice-leading-patterns
+  type: soft
 builds-toward:
 - voice-leading-form-structure-relationship
 tags:

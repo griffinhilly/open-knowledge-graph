@@ -9,7 +9,6 @@ prerequisites:
 - id: democracy-and-self-governance
   type: hard
 builds-toward:
-- individual-rights
 - political-obligation
 tags:
 - autonomy

@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: bacterial-plasmids-and-extrachromosomal-elements
   type: soft
+- id: bacteriophage-taxonomy-lytic-lysogenic
+  type: soft
 builds-toward:
 - specialized-transduction-viral-dna-transfer
 tags:

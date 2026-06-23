@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: function-notation-review
   type: soft
+- id: borel-sigma-algebra
+  type: hard
 builds-toward:
 - distribution-functions-densities-rigorous
 - expectation-measure-theoretic

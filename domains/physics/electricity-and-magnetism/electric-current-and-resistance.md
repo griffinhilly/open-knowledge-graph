@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: electric-potential
   type: hard
+- id: current-voltage-resistance
+  type: soft
+- id: simple-circuits
+  type: soft
 builds-toward:
 - ohms-law
 - electric-power

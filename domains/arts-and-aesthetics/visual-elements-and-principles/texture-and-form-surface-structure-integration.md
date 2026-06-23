@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: form-dimensionality-and-volume
   type: soft
+- id: two-dimensional-three-dimensional-form-transition
+  type: soft
 builds-toward:
 - value-structure-and-compositional-organization
 - figure-ground-ambiguity-and-reversal

@@ -6,8 +6,9 @@ course: prealgebra
 prerequisites:
 - id: one-step-equations
   type: soft
+- id: right-angles-and-classification
+  type: soft
 builds-toward:
-- angle-basics-and-classification
 - parallel-lines-and-transversals
 tags:
 - angles

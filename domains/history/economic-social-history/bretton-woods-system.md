@@ -9,9 +9,6 @@ prerequisites:
 - id: gold-standard-history
   type: soft
 
-builds-toward:
-- international-monetary-fund-history
-- world-bank-development-institution
 tags:
 - history
 - Economic Social History

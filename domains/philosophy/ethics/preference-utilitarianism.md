@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: act-vs-rule-utilitarianism
   type: soft
+- id: rational-choice-and-ethics
+  type: soft
 builds-toward:
 - welfare-and-wellbeing
 - animal-ethics

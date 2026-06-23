@@ -6,6 +6,10 @@ course: biochemistry
 prerequisites:
 - id: translation-initiation-and-elongation
   type: hard
+- id: peptide-bonds-and-polypeptide-formation
+  type: soft
+- id: protein-primary-structure
+  type: soft
 builds-toward:
 - protein-targeting-and-subcellular-localization
 tags:

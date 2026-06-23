@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: voice-leading-principles
   type: soft
-builds-toward:
-- voice-leading-in-composition
 tags:
 - phrase-structure
 - voice-leading

@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: multi-step-word-problems-3rd
   type: soft
-builds-toward:
-- data-analysis-and-interpretation
 tags:
 - data
 - word-problems

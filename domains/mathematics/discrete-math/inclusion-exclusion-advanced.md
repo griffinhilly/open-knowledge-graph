@@ -6,6 +6,10 @@ course: discrete-math
 prerequisites:
 - id: inclusion-exclusion-principle
   type: hard
+- id: combinations-selections-discrete
+  type: soft
+- id: counting-fundamentals-discrete
+  type: soft
 builds-toward:
 - generating-functions-intro
 tags:

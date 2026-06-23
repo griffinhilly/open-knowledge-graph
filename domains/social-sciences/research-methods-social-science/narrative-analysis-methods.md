@@ -6,6 +6,8 @@ course: research-methods-social-science
 prerequisites:
 - id: research-design-advanced
   type: soft
+- id: interview-methods-social-science
+  type: soft
 builds-toward:
 - mixed-methods-integration
 tags:

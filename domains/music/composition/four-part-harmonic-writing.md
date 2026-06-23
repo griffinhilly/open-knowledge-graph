@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: part-writing-doubling-and-spacing-rules
   type: hard
+- id: counterpoint-two-voice
+  type: soft
 builds-toward:
   - voice-leading-smooth-motion-composition
 tags:

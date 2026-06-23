@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: horizontal-gene-transfer
   type: soft
-builds-toward:
-- genomic-reorganization
 tags:
 - molecular-evolution
 - mobile-elements

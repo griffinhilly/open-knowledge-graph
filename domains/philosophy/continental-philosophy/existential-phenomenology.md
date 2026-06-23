@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: merleau-ponty-embodied-perception
   type: soft
+- id: husserl-transcendental-reduction
+  type: hard
 builds-toward: []
 tags:
 - existential-phenomenology

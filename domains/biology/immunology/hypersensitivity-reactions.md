@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: type-iii-and-iv-hypersensitivity
   type: soft
+- id: fc-epsilon-receptors-ige-signaling
+  type: soft
+- id: inflammatory-response-cellular
+  type: soft
+- id: mast-cells-basophils-and-allergic-response
+  type: soft
 builds-toward:
 - autoimmunity-mechanisms
 tags:

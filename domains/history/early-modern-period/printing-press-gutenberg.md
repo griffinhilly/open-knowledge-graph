@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: medieval-trade-revival
   type: soft
+- id: medieval-manuscript-illumination
+  type: soft
 builds-toward:
 - protestant-reformation
 - scientific-revolution

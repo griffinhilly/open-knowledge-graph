@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: completeness-axiom-lub
   type: hard
+- id: completeness-axiom
+  type: hard
+- id: supremum-infimum
+  type: hard
 builds-toward:
 - rigorous-series-convergence
 tags:

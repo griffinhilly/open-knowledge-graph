@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: major-histocompatibility-complex
   type: hard
+- id: lymphoid-organ-architecture-and-function
+  type: soft
 builds-toward:
 - t-cell-receptor-structure-and-function
-- regulatory-t-cells-immune-tolerance-immune-tolerance
 tags:
 - adaptive
 - t-cell

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: sentence-structure-basics
   type: hard
+- id: conjunction-types-overview
+  type: soft
 builds-toward:
 - sentence-variety-and-rhythm
 tags:

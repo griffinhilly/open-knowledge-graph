@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: regression-model-assumptions
   type: hard
+- id: least-squares-estimation-intro
+  type: hard
 builds-toward:
 - inference-in-linear-regression
 tags:

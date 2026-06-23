@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: complex-numbers-intro
   type: soft
+- id: series-parallel-resistor-analysis
+  type: soft
 builds-toward:
 - ac-power-analysis-circuits
 - series-resonance-characteristics

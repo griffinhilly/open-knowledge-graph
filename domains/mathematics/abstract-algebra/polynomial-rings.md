@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: unique-factorization-domains
   type: hard
+- id: ring-definition-and-examples
+  type: hard
 builds-toward:
 - irreducibility-criteria
 - field-extensions

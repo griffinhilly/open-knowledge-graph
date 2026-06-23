@@ -6,6 +6,8 @@ course: continental-philosophy
 prerequisites:
 - id: frankfurt-school-critical-theory
   type: hard
+- id: frankfurt-school-critical-theory-continental
+  type: hard
 builds-toward: []
 tags:
 - habermas

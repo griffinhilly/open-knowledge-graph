@@ -12,9 +12,10 @@ prerequisites:
   type: hard
 - id: equivalence-relations-and-equivalence-classes
   type: soft
+- id: computability-complexity-overview
+  type: soft
 builds-toward:
 - recursive-languages
-- recursively-enumerable-languages
 - turing-degrees-equivalence
 tags:
 - computation

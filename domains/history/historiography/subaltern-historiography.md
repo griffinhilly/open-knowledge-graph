@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: postcolonial-historiography
   type: hard
+- id: ep-thompson-history
+  type: soft
+- id: history-from-below-concept
+  type: soft
+- id: history-from-below-nonelites
+  type: soft
+- id: postcolonial-research-methods
+  type: soft
 builds-toward:
   - postcolonial-historiography
   - indigenous-historiography

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: major-system-failure-indicators-and-response
   type: soft
+- id: understanding-home-structure-and-systems
+  type: soft
 builds-toward:
 - outlet-and-switch-replacement
 tags:

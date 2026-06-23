@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: validity-in-measurement
   type: soft
+- id: test-score-interpretation-frameworks
+  type: soft
 tags:
 - neuropsychology
 - cognitive-domains

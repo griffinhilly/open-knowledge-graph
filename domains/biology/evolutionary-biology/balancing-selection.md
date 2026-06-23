@@ -8,8 +8,8 @@ prerequisites:
   type: hard
 - id: genetic-drift
   type: soft
-builds-toward:
-- polymorphism-maintenance
+- id: selection-coefficient
+  type: hard
 tags:
 - selection
 - genetic-variation

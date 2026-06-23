@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: myocardial-contractility-mechanisms
   type: hard
+- id: autonomic-parasympathetic-dominance
+  type: soft
 builds-toward:
 - blood-flow-redistribution-homeostasis
 - blood-pressure-regulation

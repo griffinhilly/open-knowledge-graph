@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cohesion-and-coherence
   type: hard
+- id: spoken-pacing-and-rhythm
+  type: soft
 builds-toward:
 - speech-narrative-structure
 tags:

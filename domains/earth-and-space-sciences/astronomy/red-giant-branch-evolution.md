@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stellar-fusion-proton-proton-chain
   type: soft
+- id: stellar-fusion-triple-alpha-process
+  type: hard
 builds-toward:
 - horizontal-branch-evolution
 - asymptotic-giant-branch-evolution

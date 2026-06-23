@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: lockean-natural-rights
   type: soft
+- id: moral-authority-and-justification
+  type: soft
 builds-toward:
 - civil-disobedience
 tags:

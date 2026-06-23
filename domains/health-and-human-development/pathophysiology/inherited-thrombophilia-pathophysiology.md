@@ -11,7 +11,6 @@ prerequisites:
   type: hard
 builds-toward:
 - venous-thromboembolism
-- recurrent-thrombosis-prophylaxis
 tags:
 - thrombophilia
 - factor-v-leiden

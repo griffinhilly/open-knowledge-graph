@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: verb-tense-simple-past-present-future
   type: soft
+- id: auxiliary-verbs-and-modality
+  type: hard
 builds-toward:
 - tense-consistency
 tags:

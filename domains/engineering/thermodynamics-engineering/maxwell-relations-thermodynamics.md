@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: thermodynamic-property-relations-maxwell
   type: soft
+- id: exact-and-inexact-differentials
+  type: hard
+- id: legendre-transformations-potentials
+  type: hard
+- id: state-variables-and-functions
+  type: soft
 tags:
 - maxwell-relations
 - partial-derivatives

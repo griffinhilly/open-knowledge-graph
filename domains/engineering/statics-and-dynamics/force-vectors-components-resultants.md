@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: vectors-in-rn-operations
   type: hard
+- id: scalar-and-vector-mechanics
+  type: soft
 builds-toward:
 - particle-equilibrium-conditions
 - resultant-of-force-moment-systems

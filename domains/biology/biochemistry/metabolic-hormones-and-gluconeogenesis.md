@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hormone-signaling-mechanisms
   type: soft
+- id: protein-kinase-signaling-cascades
+  type: soft
 builds-toward:
 - fed-state-metabolism
 - fasted-state-metabolism

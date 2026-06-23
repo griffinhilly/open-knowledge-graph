@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: quantity-theory-of-money
   type: soft
+- id: monetary-base-and-money-creation
+  type: soft
+- id: monetary-base-money-supply-relationship
+  type: soft
+- id: money-multiplier-dynamics
+  type: soft
 builds-toward:
 - is-lm-model
 - phillips-curve

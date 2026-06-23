@@ -6,6 +6,8 @@ course: statistical-mechanics
 prerequisites:
 - id: free-energy-thermodynamic-relations
   type: hard
+- id: phase-transition-equilibrium
+  type: hard
 builds-toward:
 - renormalization-group-scaling
 - scaling-invariance-universality

@@ -4,7 +4,7 @@ title: 'Caribbean Diaspora Literature: Displacement, Return, and Identity Format
 domain: literature
 course: world-literature
 prerequisites:
-- id: literary-analysis
+- id: literary-analysis-overview
   type: hard
 builds-toward:
 - danticat-diaspora-narrative

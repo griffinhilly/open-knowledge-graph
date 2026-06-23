@@ -26,6 +26,8 @@ prerequisites:
   type: soft
 - id: area-of-rectangles
   type: soft
+- id: arrays-2nd-grade
+  type: soft
 builds-toward:
 - intro-to-long-division
 - multiplying-decimals

@@ -6,10 +6,6 @@ course: pathophysiology
 prerequisites:
 - id: cardiogenic-pulmonary-edema-pathophysiology
   type: soft
-builds-toward:
-- iron-deficiency-anemia
-- megaloblastic-anemia
-- hemolytic-anemia
 tags:
 - anemia
 - red-blood-cell-disease

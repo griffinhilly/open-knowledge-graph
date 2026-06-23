@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: independence-sigma-algebras
   type: soft
+- id: conditional-distributions-of-random-variables
+  type: hard
+- id: joint-distributions-and-marginals-rigorous
+  type: soft
 builds-toward:
 - martingales-introduction
 - bayesian-inference-foundations

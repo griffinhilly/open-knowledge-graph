@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - alternate-history-divergence
-- narrative-structure-complexity
 tags:
 - science-fiction
 - time-travel

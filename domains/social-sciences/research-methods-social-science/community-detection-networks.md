@@ -10,9 +10,6 @@ prerequisites:
   type: hard
 - id: graph-theory-intro
   type: hard
-builds-toward:
-- modularity-optimization
-- stochastic-block-models
 tags:
 - networks
 - community-structure

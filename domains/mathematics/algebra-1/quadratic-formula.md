@@ -17,7 +17,6 @@ prerequisites:
 builds-toward:
 - discriminant
 - complex-numbers-intro
-- solving-quadratic-equations-completing-the-square
 tags:
 - quadratic-formula
 - quadratics

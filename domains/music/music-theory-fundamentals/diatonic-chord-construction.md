@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: triad-construction-major-minor-diminished
   type: hard
+- id: key-signatures-reading-writing
+  type: soft
+- id: triad-construction-from-scale-degrees
+  type: hard
 builds-toward:
 - chord-function-application
 - harmonic-progression-patterns

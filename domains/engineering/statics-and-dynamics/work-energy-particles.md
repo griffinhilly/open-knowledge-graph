@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: dot-product
   type: soft
+- id: work-power-energy-fundamentals
+  type: soft
 builds-toward:
 - impulse-momentum-particles
 tags:

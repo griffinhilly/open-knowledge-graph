@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: leverage-and-margin-trading
   type: soft
-builds-toward:
-- financial-crisis-contagion
 tags:
 - repo
 - collateral

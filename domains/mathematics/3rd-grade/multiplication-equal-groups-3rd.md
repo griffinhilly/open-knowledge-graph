@@ -9,7 +9,6 @@ prerequisites:
 - id: skip-counting-by-2s
   type: soft
 builds-toward:
-- multiplication-facts-2s
 - multiplication-arrays-3rd
 tags:
 - multiplication

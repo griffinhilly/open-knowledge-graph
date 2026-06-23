@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: feudal-hierarchy-vassal-system
   type: soft
-builds-toward:
-- english-enclosure-movement
 tags:
 - wales
 - principalities

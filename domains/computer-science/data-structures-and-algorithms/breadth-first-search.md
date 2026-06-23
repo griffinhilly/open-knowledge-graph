@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: tree-traversals
   type: soft
+- id: queue-adt-circular-implementation
+  type: hard
 builds-toward:
 - dijkstras-algorithm
 - topological-sort

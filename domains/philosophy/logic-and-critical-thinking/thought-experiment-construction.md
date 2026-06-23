@@ -6,8 +6,6 @@ course: logic-and-critical-thinking
 prerequisites:
 - id: thought-experiments
   type: soft
-builds-toward:
-- philosophical-methodology
 tags:
 - thought-experiments
 - methodology

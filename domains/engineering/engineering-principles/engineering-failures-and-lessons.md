@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: factor-of-safety
   type: soft
-builds-toward:
-- engineering-careers-overview
 tags:
 - failures
 - case-studies

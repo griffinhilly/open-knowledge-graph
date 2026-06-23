@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: wave-energy-and-intensity
   type: soft
+- id: two-source-interference-patterns
+  type: hard
 builds-toward:
 - single-slit-diffraction
 - diffraction-gratings

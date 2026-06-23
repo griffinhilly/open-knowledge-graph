@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nominal-rigidities-sticky-prices
   type: hard
+- id: aggregate-demand-expenditure-approach
+  type: soft
 builds-toward:
 - medium-run-nairu-equilibrium
 tags:

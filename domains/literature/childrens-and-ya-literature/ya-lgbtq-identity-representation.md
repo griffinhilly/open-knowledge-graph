@@ -6,6 +6,8 @@ course: childrens-and-ya-literature
 prerequisites:
 - id: ya-adolescent-identity-exploration
   type: hard
+- id: ya-diversity-own-voices-movement
+  type: soft
 tags:
 - ya
 - lgbtq

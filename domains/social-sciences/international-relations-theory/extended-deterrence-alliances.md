@@ -3,7 +3,9 @@ id: extended-deterrence-alliances
 title: Extended Deterrence and Credible Commitment
 domain: social-sciences
 course: international-relations-theory
-prerequisites: []
+prerequisites:
+- id: security-dilemma
+  type: soft
 tags:
 - deterrence
 - alliances
