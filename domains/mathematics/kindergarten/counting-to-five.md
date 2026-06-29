@@ -4,6 +4,10 @@ title: Counting to Five
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: number-zero-concept
   type: soft
 builds-toward:

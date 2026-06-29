@@ -3,7 +3,11 @@ id: understanding-zero
 title: Understanding Zero
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - numeral-recognition-0-10
 - comparing-quantities-more-less

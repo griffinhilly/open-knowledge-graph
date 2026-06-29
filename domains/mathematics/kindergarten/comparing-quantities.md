@@ -4,6 +4,12 @@ title: Comparing Quantities (More, Less, Same)
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: grade-seriation
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: counting-objects-to-20
   type: hard
 - id: cardinality-principle

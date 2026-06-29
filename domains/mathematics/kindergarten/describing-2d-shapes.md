@@ -4,6 +4,10 @@ title: Describing 2D Shapes by Their Attributes
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-space
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: recognizing-2d-shapes
   type: hard
 - id: shape-attributes-2d

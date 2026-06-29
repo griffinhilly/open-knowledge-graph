@@ -4,6 +4,12 @@ title: It Is OK to Feel Your Feelings
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: feeling-sad
   type: soft
 - id: feeling-angry

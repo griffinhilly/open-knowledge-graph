@@ -433,7 +433,7 @@ def group_topics(topics: list[dict]) -> list[list[dict]]:
 # Winner selection
 # ---------------------------------------------------------------------------
 
-STATUS_PRIORITY = {"validated": 2, "draft": 1, "": 0}
+STATUS_PRIORITY = {"validated": 2, "draft": 1, "reference": 0, "": 0}
 
 
 def pick_winner(group: list[dict], ref_counts: dict[str, int]) -> tuple[dict, list[dict]]:

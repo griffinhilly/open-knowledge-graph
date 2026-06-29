@@ -4,6 +4,12 @@ title: My Feelings Are Mine
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: its-ok-to-feel-feelings
   type: hard
 - id: expressing-needs-with-words

@@ -3,7 +3,11 @@ id: measurement-comparison-length
 title: Comparing Lengths (Longer, Shorter, Same)
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discrimination-same-different
+  type: soft
 tags:
 - measurement
 - length

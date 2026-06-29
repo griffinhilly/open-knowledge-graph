@@ -3,7 +3,11 @@ id: subitizing-to-five
 title: 'Subitizing: Recognizing Groups 1-5'
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - number-bonds-within-5
 tags:

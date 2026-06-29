@@ -4,6 +4,10 @@ title: Sorting by One Attribute
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: classification-sorting
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: sorting-by-attributes
   type: soft
 tags:

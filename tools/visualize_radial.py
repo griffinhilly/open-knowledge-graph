@@ -157,6 +157,8 @@ def load_all_topics():
     for filepath in sorted(DOMAINS_DIR.rglob("*.md")):
         data = parse_frontmatter(filepath)
         if data and "id" in data:
+            if data.get("kind") == "capacity":
+                continue  # origin layer: not shown in the radial graph
             all_data[data["id"]] = data
     return all_data
 
@@ -1633,6 +1635,11 @@ searchInput.addEventListener("input", () => {{
   );
   searchCount.textContent = searchMatches.length + " match" + (searchMatches.length !== 1 ? "es" : "");
   if (searchMatches.length === 1) {{
+    if (pendingPathFrom && pendingPathFrom !== searchMatches[0].id) {{
+      // Pairing mode: this search picks the second topic for a path.
+      revealPath(pendingPathFrom, searchMatches[0].id);
+      return;
+    }}
     selectedNode = searchMatches[0];
     hoveredNode = searchMatches[0];
     centerOnNode(searchMatches[0], 3.5);
@@ -1778,8 +1785,200 @@ function revealAncestryFull() {{
   if (pathRevealId) revealAncestry(pathRevealId, Infinity);
 }}
 
+// ---- Session 2: A->B bridge path + no-path fallback ----
+// pendingPathFrom: when set, the next topic the user selects becomes B and we
+// run revealPath(from, B). pathPair: the [a,b] currently shown (for ?path= copy).
+// pathEndpointSet: ids drawn with the big focal style (both endpoints + shared X).
+let pendingPathFrom = null;
+let pathPair = null;
+let pathEndpointSet = null;
+
+function startPathPairing(fromId) {{
+  pendingPathFrom = fromId;
+  const n = nodeMap[fromId];
+  showPathBanner('<span>Pick a second topic to connect with <strong>'
+    + escapeHtml(n ? n.title : fromId) + '</strong> &mdash; search or click any node.</span>'
+    + '<button class="pb-clear" onclick="cancelPathPairing()">Cancel</button>');
+}}
+
+function cancelPathPairing() {{
+  pendingPathFrom = null;
+  clearPath();
+}}
+
+// One representative shortest chain from srcId up to dstId within an ancestry
+// result whose edges point prereq(from) -> successor(to). BFS backward from dst.
+function reconstructChain(anc, srcId, dstId) {{
+  const prereqsOf = {{}};
+  anc.edges.forEach(function (e) {{
+    (prereqsOf[e.to] = prereqsOf[e.to] || []).push(e.from);
+  }});
+  const prev = {{}};
+  const seen = {{}};
+  seen[dstId] = true;
+  const q = [dstId];
+  while (q.length) {{
+    const cur = q.shift();
+    if (cur === srcId) break;
+    const ps = prereqsOf[cur] || [];
+    for (let i = 0; i < ps.length; i++) {{
+      const p = ps[i];
+      if (seen[p]) continue;
+      seen[p] = true; prev[p] = cur; q.push(p);
+    }}
+  }}
+  if (!seen[srcId]) return null;
+  const nodes = [srcId];
+  const edges = [];
+  let cur = srcId;
+  while (cur !== dstId) {{
+    const nxt = prev[cur];
+    if (nodeMap[cur] && nodeMap[nxt]) edges.push({{ s: nodeMap[cur], t: nodeMap[nxt] }});
+    nodes.push(nxt);
+    cur = nxt;
+  }}
+  return {{ nodes: nodes, edges: edges }};
+}}
+
+// Fit the camera to a set of node ids (used for two-topic surfaces where no
+// single node is the focus). Mirrors centerOnNode's left-shift on desktop.
+function fitNodes(ids) {{
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity, cnt = 0;
+  ids.forEach(function (id) {{
+    const n = nodeMap[id]; if (!n) return;
+    if (n.x < minX) minX = n.x; if (n.x > maxX) maxX = n.x;
+    if (n.y < minY) minY = n.y; if (n.y > maxY) maxY = n.y;
+    cnt++;
+  }});
+  if (!cnt) return;
+  const cx = (minX + maxX) / 2, cy = (minY + maxY) / 2;
+  const spanX = Math.max(maxX - minX, 1), spanY = Math.max(maxY - minY, 1);
+  const pad = 1.4;
+  const scaleX = (W * 0.6) / (spanX * viewScale * pad);
+  const scaleY = (H * 0.6) / (spanY * viewScale * pad);
+  camScale = Math.max(0.3, Math.min(3.5, Math.min(scaleX, scaleY)));
+  const s = camScale * viewScale;
+  camX = (W > 768 ? -W * 0.12 : 0) - cx * s;
+  camY = -cy * s;
+}}
+
+// Entry point for both-topic surfaces. Determines bridge vs fallback.
+function revealPath(aId, bId) {{
+  pendingPathFrom = null;
+  const na = nodeMap[aId], nb = nodeMap[bId];
+  if (!na || !nb) return;
+  if (aId === bId) {{ revealAncestry(aId, 4); return; }}
+  hidePanel();  // the two-topic surface shouldn't be cluttered by a stale panel
+  withFullGraph(function (G) {{
+    const ancA = pathAncestryCache[aId] || (pathAncestryCache[aId] = computeAncestry(G, aId));
+    const ancB = pathAncestryCache[bId] || (pathAncestryCache[bId] = computeAncestry(G, bId));
+
+    // Bridge: one topic is a prerequisite-ancestor of the other.
+    if (ancA.hopOf[bId] !== undefined) {{ renderChainPath(reconstructChain(ancA, bId, aId), nb, na, bId, aId); return; }}
+    if (ancB.hopOf[aId] !== undefined) {{ renderChainPath(reconstructChain(ancB, aId, bId), na, nb, aId, bId); return; }}
+
+    // No direct path: nearest shared ancestor minimizes combined hop distance.
+    let bestX = null, bestCost = Infinity;
+    for (const id in ancA.hopOf) {{
+      if (ancB.hopOf[id] !== undefined && id !== aId && id !== bId) {{
+        const cost = ancA.hopOf[id] + ancB.hopOf[id];
+        if (cost < bestCost) {{ bestCost = cost; bestX = id; }}
+      }}
+    }}
+    if (bestX) renderForkPath(ancA, ancB, aId, bId, bestX);
+    else renderDisjoint(ancA, ancB, na, nb);
+  }});
+}}
+
+function renderChainPath(chain, srcNode, dstNode, srcId, dstId) {{
+  if (!chain) {{ clearPath(); return; }}
+  pathNodeSet = new Set(chain.nodes);
+  pathEdges = chain.edges;
+  pathRevealId = null;
+  pathEndpointSet = new Set([srcId, dstId]);
+  pathPair = [srcId, dstId];
+  fitNodes(chain.nodes);
+  const steps = chain.nodes.length - 1;
+  let banner = '<span>From <strong>' + escapeHtml(srcNode.title) + '</strong> to <strong>'
+    + escapeHtml(dstNode.title) + '</strong>: ' + steps + ' prerequisite step' + (steps === 1 ? '' : 's')
+    + ' &mdash; <strong>' + escapeHtml(srcNode.title) + '</strong> comes first.</span>';
+  banner += pathCopyButton() + '<button class="pb-clear" onclick="clearPath()">Clear</button>';
+  showPathBanner(banner);
+  draw();
+}}
+
+// No-path fallback (the gate): A and B don't connect, but share an ancestor X.
+function renderForkPath(ancA, ancB, aId, bId, xId) {{
+  const chainA = reconstructChain(ancA, xId, aId);
+  const chainB = reconstructChain(ancB, xId, bId);
+  const nodes = new Set();
+  const edges = [];
+  [chainA, chainB].forEach(function (c) {{
+    if (!c) return;
+    c.nodes.forEach(function (n) {{ nodes.add(n); }});
+    c.edges.forEach(function (e) {{ edges.push(e); }});
+  }});
+  nodes.add(aId); nodes.add(bId); nodes.add(xId);
+  pathNodeSet = nodes;
+  pathEdges = edges;
+  pathRevealId = null;
+  pathEndpointSet = new Set([aId, bId, xId]);
+  pathPair = [aId, bId];
+  fitNodes(Array.from(nodes));
+  const na = nodeMap[aId], nb = nodeMap[bId], nx = nodeMap[xId];
+  let banner = '<span><strong>' + escapeHtml(na.title) + '</strong> and <strong>' + escapeHtml(nb.title)
+    + '</strong> don&rsquo;t connect directly &mdash; neither is a prerequisite for the other. '
+    + 'Their nearest shared foundation is <strong>' + escapeHtml(nx.title) + '</strong>.</span>';
+  banner += pathCopyButton() + '<button class="pb-clear" onclick="clearPath()">Clear</button>';
+  showPathBanner(banner);
+  draw();
+}}
+
+// Disjoint fallback: no shared ancestor at all. Show each topic's own roots.
+function renderDisjoint(ancA, ancB, na, nb) {{
+  const nodes = new Set([na.id, nb.id]);
+  const edges = [];
+  function addCapped(anc, cap) {{
+    anc.edges.forEach(function (e) {{
+      if (e.hop < cap) {{ nodes.add(e.from); nodes.add(e.to); edges.push({{ s: nodeMap[e.from], t: nodeMap[e.to] }}); }}
+    }});
+  }}
+  addCapped(ancA, 2); addCapped(ancB, 2);
+  pathNodeSet = nodes;
+  pathEdges = edges;
+  pathRevealId = null;
+  pathEndpointSet = new Set([na.id, nb.id]);
+  pathPair = [na.id, nb.id];
+  fitNodes(Array.from(nodes));
+  let banner = '<span><strong>' + escapeHtml(na.title) + '</strong> and <strong>' + escapeHtml(nb.title)
+    + '</strong> come from independent foundations &mdash; they share no prerequisites. '
+    + 'Showing what each one builds on separately.</span>';
+  banner += pathCopyButton() + '<button class="pb-clear" onclick="clearPath()">Clear</button>';
+  showPathBanner(banner);
+  draw();
+}}
+
+function pathCopyButton() {{
+  return '<button onclick="copyPathLink(this)" title="Copy a shareable link to this pair">Copy link</button>';
+}}
+function copyPathLink(btn) {{
+  if (!pathPair) return;
+  const url = location.origin + location.pathname + "?path="
+    + encodeURIComponent(pathPair[0]) + "," + encodeURIComponent(pathPair[1]);
+  const done = function () {{ btn.textContent = "Copied"; btn.disabled = true; }};
+  if (navigator.clipboard && navigator.clipboard.writeText) {{
+    navigator.clipboard.writeText(url).then(done, done);
+  }} else {{
+    const ta = document.createElement("textarea");
+    ta.value = url; document.body.appendChild(ta); ta.select();
+    try {{ document.execCommand("copy"); }} catch (err) {{}}
+    document.body.removeChild(ta); done();
+  }}
+}}
+
 function clearPath() {{
   pathNodeSet = null; pathEdges = null; pathRevealId = null;
+  pathPair = null; pathEndpointSet = null; pendingPathFrom = null;
   hidePathBanner();
   draw();
 }}
@@ -1814,16 +2013,21 @@ function drawPathOverlay() {{
     ctx.lineWidth = 1.0 / Math.sqrt(camScale);
     ctx.stroke();
   }});
+  function isPathEndpoint(id) {{ return id === pathRevealId || (pathEndpointSet && pathEndpointSet.has(id)); }}
   pathNodeSet.forEach(function (id) {{
     const n = nodeMap[id];
-    if (!n || id === pathRevealId) return;
+    if (!n || isPathEndpoint(id)) return;
     ctx.beginPath();
     ctx.arc(n.x, n.y, nr * 1.8, 0, Math.PI * 2);
     ctx.fillStyle = `hsl(${{n.hue}}, 70%, ${{n.lightness + 12}}%)`;
     ctx.fill();
   }});
-  const s = nodeMap[pathRevealId];
-  if (s) {{
+  // Emphasize endpoints: the single focal node (ancestry reveal) or both path
+  // endpoints + their shared ancestor (two-topic surfaces).
+  const ends = pathEndpointSet ? Array.from(pathEndpointSet) : (pathRevealId ? [pathRevealId] : []);
+  ends.forEach(function (id) {{
+    const s = nodeMap[id];
+    if (!s) return;
     ctx.beginPath();
     ctx.arc(s.x, s.y, nr * 3, 0, Math.PI * 2);
     ctx.fillStyle = `hsl(${{s.hue}}, 85%, ${{s.lightness + 22}}%)`;
@@ -1831,7 +2035,7 @@ function drawPathOverlay() {{
     ctx.strokeStyle = "#fff";
     ctx.lineWidth = 1.5 / Math.sqrt(camScale);
     ctx.stroke();
-  }}
+  }});
 }}
 
 canvas.addEventListener("mousemove", (e) => {{
@@ -1932,6 +2136,7 @@ function showPanel(node, screenX, screenY) {{
   // Path engine: reveal this topic's prerequisite ancestry + share a deep link.
   html += `<div class="panel-path">`;
   html += `<button class="path-btn" data-act="ancestry">Show what this builds on</button>`;
+  html += `<button class="path-btn" data-act="pair">Connect to another topic&hellip;</button>`;
   html += `<button class="path-btn copy" data-act="copylink" title="Copy a shareable link">Copy link</button>`;
   html += `</div>`;
 
@@ -1979,6 +2184,8 @@ function showPanel(node, screenX, screenY) {{
       if (act === "ancestry") {{
         btn.textContent = "Loading\\u2026";
         revealAncestry(node.id, 4);
+      }} else if (act === "pair") {{
+        startPathPairing(node.id);
       }} else if (act === "copylink") {{
         const url = location.origin + location.pathname + "?ancestry=" + encodeURIComponent(node.id);
         const done = function () {{ btn.textContent = "Copied"; btn.disabled = true; }};
@@ -2028,6 +2235,10 @@ canvas.addEventListener("mouseup", (e) => {{
   canvas.style.cursor = "grab";
   if (!dragMoved) {{
     if (hoveredNode) {{
+      if (pendingPathFrom && pendingPathFrom !== hoveredNode.id) {{
+        revealPath(pendingPathFrom, hoveredNode.id);
+        return;
+      }}
       showPanel(hoveredNode, e.clientX, e.clientY);
     }} else {{
       hidePanel();
@@ -2179,6 +2390,10 @@ canvas.addEventListener("touchend", (e) => {{
         }});
         const hitRadius = Math.max(baseNodeRadius * 3, 18) / camScale;
         if (closest && closestDist < hitRadius) {{
+          if (pendingPathFrom && pendingPathFrom !== closest.id) {{
+            revealPath(pendingPathFrom, closest.id);
+            return;
+          }}
           hoveredNode = closest;
           draw();
           showPanel(closest, lastTouchX, lastTouchY);
@@ -2716,6 +2931,15 @@ if (isSproutMode) {{
 (function () {{
   if (isSproutMode) return;
   var params = new URLSearchParams(window.location.search);
+  // ?path=<a>,<b> — two-topic relationship surface (bridge or no-path fallback).
+  var pathParam = params.get('path');
+  if (pathParam) {{
+    var ids = pathParam.split(',').map(function (s) {{ return s.trim(); }});
+    if (ids.length === 2 && nodeMap[ids[0]] && nodeMap[ids[1]]) {{
+      revealPath(ids[0], ids[1]);
+      return;
+    }}
+  }}
   var ancestryId = params.get('ancestry');
   var targetId = ancestryId || params.get('focus');
   if (!targetId) return;

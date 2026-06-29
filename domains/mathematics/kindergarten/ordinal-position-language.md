@@ -4,6 +4,12 @@ title: 'Ordinal Position Language: First Through Tenth'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: core-space
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: counting-sequence-to-ten
   type: soft
 - id: ordinal-numbers-first-through-tenth

@@ -4,6 +4,10 @@ title: Recognizing Numerals 11–20
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: numeral-recognition-and-matching-0-10
   type: hard
 - id: counting-sequence-to-twenty

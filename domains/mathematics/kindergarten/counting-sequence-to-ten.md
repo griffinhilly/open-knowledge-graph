@@ -4,6 +4,10 @@ title: 'Counting Sequence: One to Ten'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: counting-sequence-to-five
   type: hard
 builds-toward:

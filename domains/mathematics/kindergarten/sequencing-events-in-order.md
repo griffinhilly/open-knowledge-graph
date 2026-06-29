@@ -4,6 +4,10 @@ title: Sequencing Events in Order
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: time-sequencing-daily-events
   type: soft
 builds-toward:

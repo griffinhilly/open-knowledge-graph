@@ -19,9 +19,10 @@ Every topic in the Open Knowledge Graph is a Markdown file with YAML frontmatter
 | Field | Type | Default | Description |
 |-------|------|---------|-------------|
 | `builds-toward` | list of strings | `[]` | Topic IDs that depend on this topic. Informational — the canonical direction is prerequisites pointing backward. Validation checks consistency. |
-| `stage` | string | — | Developmental stage: `pre-formal`, `concrete-operations`, `abstract-reasoning`, `formal-systems`, `advanced`. See `meta/developmental-stages.md`. |
+| `stage` | string | — | Developmental stage: `proto-formal`, `pre-formal`, `concrete-operations`, `abstract-reasoning`, `formal-systems`, `advanced`, `expert`. See `meta/developmental-stages.md`. |
+| `kind` | string | `topic` | Node kind. Omit for normal taught topics (`topic`). `capacity` marks a developmental precursor node in the origin layer (`developmental-origins` meta-domain) — a private structural substrate excluded from pages, assessment, JSON-LD, sitemap, and headline counts. See `plans/origin-layer-spec.md`. |
 | `tags` | list of strings | `[]` | Freeform tags for search/filtering (e.g., `[fractions, arithmetic]`). |
-| `status` | string | `draft` | One of: `stub`, `draft`, `review`, `validated`. |
+| `status` | string | `draft` | One of: `stub`, `draft`, `review`, `validated`, `reference`. (`reference` = a non-assessable `kind: capacity` node; the "all topics validated" invariant covers `kind: topic` only.) |
 | `aliases` | list of strings | `[]` | Alternative names for this topic (e.g., `["LCD method", "common denominator addition"]`). |
 | `external-refs` | list of objects | `[]` | Links to external resources. Each has `title` (string) and `url` (string). |
 

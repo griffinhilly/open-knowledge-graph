@@ -4,6 +4,10 @@ title: Number Bonds Within 5
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: subitizing-to-five
   type: hard
 - id: combining-small-groups

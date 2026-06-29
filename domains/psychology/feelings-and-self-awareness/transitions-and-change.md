@@ -4,6 +4,12 @@ title: Transitions and Change
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: comfort-objects-and-routines
   type: hard
 - id: feelings-come-and-go

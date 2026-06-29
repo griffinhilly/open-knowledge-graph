@@ -29,9 +29,15 @@ def parse_frontmatter(filepath):
 
 def main():
     topics = []
+    n_capacity = 0
     for filepath in sorted(DOMAINS_DIR.rglob("*.md")):
         data = parse_frontmatter(filepath)
         if data and "id" in data:
+            # Origin layer: kind:capacity nodes are a private substrate — excluded from headline
+            # counts (which report taught topics only) and reported separately below.
+            if data.get("kind") == "capacity":
+                n_capacity += 1
+                continue
             data["_filepath"] = filepath
             topics.append(data)
 
@@ -41,6 +47,8 @@ def main():
 
     # Overall stats
     print(f"Total topics: {len(topics)}")
+    if n_capacity:
+        print(f"  (+ {n_capacity} origin-layer capacities, excluded from counts)")
 
     # By domain
     by_domain = defaultdict(list)

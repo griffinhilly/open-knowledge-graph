@@ -4,6 +4,10 @@ title: Ordering Numbers to 20
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: comparing-quantities
   type: hard
 - id: counting-to-20

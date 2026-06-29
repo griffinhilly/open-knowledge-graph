@@ -3,8 +3,8 @@
 Open-source, machine-readable knowledge graphs mapping prerequisite relationships between topics across every domain of human knowledge.
 
 ## Project Structure
-- `domains/` — 19 domains, 15,290 topics, 261 courses
-- `tools/` — Python tooling (parse_topic.py [shared parser], validate.py, visualize_hierarchy.py, visualize_radial.py, visualize_domain_map.py, generate_topic_pages.py, generate_quiz_page.py, generate_assessment.py, generate_assessment_page.py, generate_assessment_questions.py, connect_leaves.py, dedup_pairs.py, find_near_duplicates.py, reconcile_domain_stages.py, spot_check_new_topics.py, map_dangling_prereqs.py, stats.py, reconcile.py)
+- `domains/` — 19 domains, 15,285 topics, 261 courses
+- `tools/` — Python tooling (parse_topic.py [shared parser], validate.py, visualize_hierarchy.py, visualize_radial.py, visualize_domain_map.py, generate_topic_pages.py, generate_quiz_page.py, generate_assessment.py, generate_assessment_page.py, generate_assessment_questions.py, connect_leaves.py, dedup_pairs.py, find_near_duplicates.py, reconcile_domain_stages.py, spot_check_new_topics.py, map_dangling_prereqs.py, stats.py, reconcile.py, wire_capacities.py [origin-layer wiring + anti-collapse gate], test_fluency_capacity.js [origin-layer fluency regression])
 - `hooks/` — Git hooks (pre-push: cycle detection + CI script check). Setup: `git config core.hooksPath hooks`
 - `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph and Q+E content)
 - `meta/` — Schema definition, developmental stages, course list
@@ -27,6 +27,7 @@ Tool commands: see `guides/tools-reference.md`
 - Topics belong to the course where they are first formally introduced
 - Prerequisites point backward; builds-toward points forward (informational)
 - The prerequisite graph is the source of truth for sequencing
+- **Node kind**: `kind: topic` (default, omitted) vs `kind: capacity` (origin layer). Capacity nodes stay IN the prereq graph (so ancestry resolves) but are filtered from every OUTPUT surface (pages, keystone, JSON-LD, viz, sitemap, counts) by a one-line `kind`-guard; they are assumed-known in the fluency engine. NEVER render or index them. See `plans/origin-layer-spec.md`.
 - Each domain has a `_domain.yml` with domain metadata and course list
 
 ## Visualization Design
@@ -34,9 +35,9 @@ Tool commands: see `guides/tools-reference.md`
 Visualization design: see `guides/visualization.md`
 
 ## Current Status
-- **15,290 topics** across **19 domains**, **261 courses**
-- **6 developmental stages**: pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
-- **All topics at `status: validated`**
+- **15,285 topics** across **19 domains**, **261 courses** — plus a **10-node origin layer** (`kind: capacity`, hidden `developmental-origins` meta-domain), a private structural substrate excluded from all headline counts and public surfaces. See `plans/origin-layer-spec.md`.
+- **7 developmental stages**: proto-formal (origin layer), pre-formal, concrete-operations, abstract-reasoning, formal-systems, advanced, expert
+- **All `kind: topic` nodes at `status: validated`**; the 10 `kind: capacity` nodes are `status: reference` (not assessable).
 - Live at `openknowledgegraph.com` (GitHub Pages + custom domain; `griffinhilly.github.io/open-knowledge-graph/` 301s there)
 - GitHub Actions CI: validates → generates index + radial + topic pages + domain maps + assessment + quiz → deploys to Pages
 - **Phases 1-9C DONE**, **Phase 10 (Question Quality Audit) DONE**, **Phase 11 (Early-Childhood) DONE**

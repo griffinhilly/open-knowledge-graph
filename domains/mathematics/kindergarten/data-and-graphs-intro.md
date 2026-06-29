@@ -4,6 +4,12 @@ title: Organizing and Representing Data
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: classification-sorting
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: counting-objects-to-20
   type: hard
 - id: sorting-by-attributes

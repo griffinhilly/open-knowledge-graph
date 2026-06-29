@@ -4,6 +4,10 @@ title: 'Numeral Writing: 0-10'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: numeral-recognition-0-10
   type: hard
 tags:

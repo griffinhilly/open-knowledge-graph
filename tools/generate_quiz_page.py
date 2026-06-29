@@ -142,6 +142,10 @@ def _build_lightweight_graph():
             "domain": data.get("domain", ""),
             "course": data.get("course", ""),
             "title": data.get("title", tid),
+            # Origin layer: carry kind so the fluency engine can treat kind:capacity nodes as
+            # assumed-known (never cap successors, never surface in learner paths). Capacities stay
+            # IN the graph so ancestry resolves; they are filtered only at output surfaces.
+            "kind": data.get("kind", "topic"),
         }
 
     # Build successor lists with matching edge type

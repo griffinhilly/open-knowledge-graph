@@ -4,6 +4,10 @@ title: 'Comparing Quantities: More, Less, and Equal'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: cardinality-principle
   type: hard
 - id: one-to-one-correspondence

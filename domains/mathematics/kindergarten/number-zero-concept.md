@@ -4,6 +4,10 @@ title: The Number Zero
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: understanding-zero
   type: soft
 builds-toward:

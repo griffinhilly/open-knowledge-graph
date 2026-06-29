@@ -4,6 +4,10 @@ title: Matching Numerals to Quantities
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: cardinality-principle
   type: hard
 - id: number-recognition-1-10

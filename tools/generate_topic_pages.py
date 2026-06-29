@@ -81,6 +81,12 @@ def load_all_topics():
     for filepath in sorted(DOMAINS_DIR.rglob("*.md")):
         data, sections = parse_topic_file(filepath)
         if data and "id" in data:
+            # Origin layer (reverse-D): kind:capacity nodes are a private substrate — never rendered
+            # as pages, never scored as keystones, never emitted as competencyRequired. Excluding
+            # them here propagates to every consumer of load_all_topics (topic pages, keystone) and
+            # to build_graphs (capacity prereqs drop out via the `pid in all_data` guard).
+            if data.get("kind") == "capacity":
+                continue
             all_data[data["id"]] = data
             all_sections[data["id"]] = sections
     return all_data, all_sections

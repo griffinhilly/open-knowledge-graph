@@ -4,6 +4,10 @@ title: Recognizing Written Numerals 11–20
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: number-recognition-1-10
   type: hard
 - id: counting-to-20

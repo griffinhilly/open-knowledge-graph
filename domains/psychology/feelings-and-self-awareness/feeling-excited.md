@@ -3,7 +3,13 @@ id: feeling-excited
 title: Feeling Excited
 domain: psychology
 course: feelings-and-self-awareness
-prerequisites: []
+prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - naming-your-feelings
 - when-feelings-are-big

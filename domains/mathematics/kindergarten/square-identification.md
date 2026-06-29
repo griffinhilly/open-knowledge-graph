@@ -3,7 +3,11 @@ id: square-identification
 title: Identifying Squares
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: core-space
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - 2d-shapes-attributes
 tags:

@@ -4,6 +4,12 @@ title: Feeling Safe and Trust
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: feeling-scared
   type: hard
 builds-toward:

@@ -3,7 +3,11 @@ id: positional-vocabulary-above-below
 title: 'Positional Words: Above and Below'
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: core-space
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - positional-words
 tags:

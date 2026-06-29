@@ -1,0 +1,12 @@
+domain: developmental-origins
+title: Developmental Origins
+description: The origin layer — the innate core-knowledge systems and the precursor capacities that
+  all later learning presupposes. A private structural substrate beneath the pre-formal floor, not a
+  content domain. All nodes are kind:capacity, status:reference, stage:proto-formal — excluded from
+  rendered pages, assessment, JSON-LD, the sitemap, and headline counts. See plans/origin-layer-spec.md.
+pedagogy_type: reference
+hidden: true
+courses:
+- id: precursor-capacities
+  title: Precursor Capacities
+  stage: proto-formal

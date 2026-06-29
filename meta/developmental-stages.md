@@ -4,6 +4,16 @@ Topics can optionally be tagged with a developmental stage indicating the cognit
 
 ## Stages
 
+### `proto-formal` (roughly birth-2 / innate)
+The developmental *origin layer* — the precursor capacities that all later learning presupposes,
+rather than topics taught through instruction. These are nodes of `kind: capacity` (not `kind: topic`),
+living in the `developmental-origins` meta-domain: the innate core-knowledge systems (objects, agents,
+number, space, social beings) plus the early operations built on them (discrimination, grading/
+seriation, naming/symbol-reference, classification) and the symbolic-function gateway. They are wired
+as prerequisites *beneath* the pre-formal roots to give the graph a rooted substrate. They are a
+private structural substrate — assumed-known for adult learners, excluded from assessment, pages, and
+public counts. See `plans/origin-layer-spec.md`. The floor stops here, at the innate endowment.
+
 ### `pre-formal` (roughly ages 2-5)
 Experiential and sensory learning. No formal notation. Knowledge is built through physical manipulation, social interaction, and pattern observation. Counting, shape recognition, spatial reasoning, measurement intuition.
 

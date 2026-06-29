@@ -179,6 +179,8 @@ def parse_domain_yml(filepath):
     data = {}
     if "title" in raw:
         data["title"] = str(raw["title"])
+    if raw.get("hidden"):
+        data["hidden"] = True  # origin layer: developmental-origins is a hidden meta-domain
     courses = []
     for c in raw.get("courses", []) or []:
         if isinstance(c, dict) and "id" in c:
@@ -1664,6 +1666,8 @@ def main():
         count = 0
         for d in sorted(DOMAINS_DIR.iterdir()):
             if d.is_dir() and (d / "_domain.yml").exists():
+                if parse_domain_yml(d / "_domain.yml").get("hidden"):
+                    continue  # origin layer: developmental-origins is a hidden meta-domain
                 print(f"Generating {d.name} domain map...")
                 out, stats = generate_domain_map(d.name)
                 if out:

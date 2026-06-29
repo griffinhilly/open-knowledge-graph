@@ -4,6 +4,10 @@ title: '2D Shape Attributes: Sides and Corners'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-space
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: circle-identification
   type: soft
 - id: square-identification

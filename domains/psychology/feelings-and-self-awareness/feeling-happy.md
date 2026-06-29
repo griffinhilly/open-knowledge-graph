@@ -3,7 +3,13 @@ id: feeling-happy
 title: Feeling Happy
 domain: psychology
 course: feelings-and-self-awareness
-prerequisites: []
+prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - naming-your-feelings
 - feelings-come-and-go

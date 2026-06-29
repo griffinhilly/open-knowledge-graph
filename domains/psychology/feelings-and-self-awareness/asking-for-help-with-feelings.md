@@ -4,6 +4,12 @@ title: Asking for Help with Feelings
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: expressing-needs-with-words
   type: hard
 - id: feeling-safe-and-trust

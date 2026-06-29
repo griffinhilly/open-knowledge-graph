@@ -79,6 +79,8 @@ def load_topics():
             continue
         data, body = parse_frontmatter(filepath)
         if data and "id" in data:
+            if data.get("kind") == "capacity":
+                continue  # origin layer: not assessed (no questions; excluded from probe selection)
             data["_body"] = body
             data["_filepath"] = str(filepath)
             topics.append(data)

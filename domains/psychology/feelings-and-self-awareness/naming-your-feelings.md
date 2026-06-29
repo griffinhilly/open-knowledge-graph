@@ -4,6 +4,14 @@ title: Naming Your Feelings
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: symbolic-function
+  type: soft
+- id: discrimination-same-different
+  type: soft
 - id: feeling-happy
   type: hard
 - id: feeling-sad

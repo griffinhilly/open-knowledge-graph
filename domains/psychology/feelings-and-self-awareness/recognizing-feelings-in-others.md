@@ -4,6 +4,12 @@ title: Recognizing Feelings in Others
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: naming-your-feelings
   type: hard
 - id: sharing-feelings-with-trusted-adults

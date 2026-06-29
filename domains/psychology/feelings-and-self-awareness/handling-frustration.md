@@ -4,6 +4,12 @@ title: Handling Frustration
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: when-feelings-are-big
   type: hard
 - id: waiting-and-patience

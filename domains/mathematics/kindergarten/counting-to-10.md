@@ -4,6 +4,10 @@ title: Counting to 10
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: counting-to-five
   type: hard
 builds-toward:

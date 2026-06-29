@@ -38,9 +38,19 @@ def collect_paths():
     """Return site-relative paths for every page the sitemap should list."""
     paths = ["", "radial-graph.html", "quiz.html", "keystones.html"]
 
+    import yaml
+    def _is_hidden(domain_dir):
+        try:
+            cfg = yaml.safe_load((domain_dir / "_domain.yml").read_text(encoding="utf-8"))
+            return bool(isinstance(cfg, dict) and cfg.get("hidden"))
+        except Exception:
+            return False
+
+    # Origin layer: skip hidden meta-domains (developmental-origins) — capacity pages are a private
+    # substrate, not rendered or indexed (reverse-D).
     domains = sorted(
         d.name for d in DOMAINS_DIR.iterdir()
-        if d.is_dir() and (d / "_domain.yml").exists()
+        if d.is_dir() and (d / "_domain.yml").exists() and not _is_hidden(d)
     )
     paths.extend(f"{d}-map.html" for d in domains)
 

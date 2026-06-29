@@ -4,6 +4,10 @@ title: Counting a Set of Objects Up to 20
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: one-to-one-correspondence
   type: hard
 - id: counting-to-20

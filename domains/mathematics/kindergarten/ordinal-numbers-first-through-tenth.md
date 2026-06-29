@@ -4,6 +4,12 @@ title: 'Ordinal Numbers: First Through Tenth'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: core-space
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: counting-to-10
   type: hard
 tags:

@@ -4,6 +4,12 @@ title: Being Kind When Someone Is Upset
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: recognizing-feelings-in-others
   type: hard
 builds-toward:

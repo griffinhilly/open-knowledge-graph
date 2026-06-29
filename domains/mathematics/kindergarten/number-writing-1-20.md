@@ -4,6 +4,10 @@ title: Writing Numerals 1–20
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: number-writing-1-10
   type: hard
 - id: number-recognition-11-20

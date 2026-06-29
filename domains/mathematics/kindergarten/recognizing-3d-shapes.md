@@ -4,6 +4,10 @@ title: Recognizing Basic 3D Shapes
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-space
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: recognizing-2d-shapes
   type: soft
 tags:

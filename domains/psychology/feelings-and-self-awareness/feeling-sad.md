@@ -3,7 +3,13 @@ id: feeling-sad
 title: Feeling Sad
 domain: psychology
 course: feelings-and-self-awareness
-prerequisites: []
+prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - naming-your-feelings
 - its-ok-to-feel-feelings

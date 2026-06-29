@@ -4,6 +4,12 @@ title: Sharing Feelings with Trusted Adults
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: asking-for-help-with-feelings
   type: hard
 - id: feeling-safe-and-trust

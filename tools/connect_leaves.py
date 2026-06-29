@@ -52,6 +52,8 @@ def parse_all_topics():
         tid = data.get("id")
         if not tid:
             continue
+        if data.get("kind") == "capacity":
+            continue  # origin layer: never treat capacities as leaves to connect (cycle risk)
         topics[tid] = {"data": data, "filepath": f}
     return topics
 

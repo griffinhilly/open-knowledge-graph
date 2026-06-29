@@ -3,7 +3,11 @@ id: counting-sequence-to-five
 title: 'Counting Sequence: One to Five'
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - counting-sequence-to-ten
 - cardinality-principle

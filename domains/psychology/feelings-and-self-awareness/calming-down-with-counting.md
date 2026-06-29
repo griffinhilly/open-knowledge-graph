@@ -4,6 +4,14 @@ title: Calming Down by Counting
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: core-number
+  type: hard
+- id: core-social
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: body-signals-for-emotions
   type: hard
 builds-toward:

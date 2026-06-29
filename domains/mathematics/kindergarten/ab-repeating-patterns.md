@@ -3,7 +3,11 @@ id: ab-repeating-patterns
 title: Recognizing AB Repeating Patterns
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - extending-and-creating-patterns
 - abc-repeating-patterns

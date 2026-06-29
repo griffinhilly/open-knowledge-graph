@@ -29,12 +29,28 @@ ROOT = Path(__file__).resolve().parent.parent
 DOMAINS_DIR = ROOT / "domains"
 
 from parse_topic import parse_topic as _shared_parse
+from parse_topic import parse_sections as _parse_sections
 
 REQUIRED_FIELDS = {"id", "title", "domain", "course", "prerequisites"}
-VALID_STATUSES = {"stub", "draft", "review", "validated"}
-VALID_STAGES = {"pre-formal", "concrete-operations", "abstract-reasoning", "formal-systems", "advanced", "expert"}
+VALID_STATUSES = {"stub", "draft", "review", "validated", "reference"}
+VALID_STAGES = {"proto-formal", "pre-formal", "concrete-operations", "abstract-reasoning", "formal-systems", "advanced", "expert"}
+VALID_KINDS = {"topic", "capacity"}
 VALID_PREREQ_TYPES = {"hard", "soft"}
 VALID_QUESTION_TYPES = {"multiple-choice", "true-false", "short-answer"}
+
+# Origin layer (kind: capacity) — the disclaimer that every capacity body must carry, and the
+# language an "## Observable Signs" block must NOT contain (keeps the private substrate on the
+# enrichment side of the enrichment-vs-diagnostic line; see plans/origin-layer-spec.md §0.4b/§6).
+CAPACITY_DISCLAIMER = ("Developmental markers vary widely; this is an enrichment map, not a "
+                       "screening tool. For concerns about a child's development, consult a pediatrician.")
+OBSERVABLE_SIGNS_FORBIDDEN = [
+    r"\bby \d+\s*(?:months?|years?|weeks?)\b",   # age cutoff: "by 8 months"
+    r"\bif (?:your child|the child|they|not)\b", # delay-inference: "if your child isn't..."
+    r"\b(?:developmental )?delay(?:s|ed)?\b",
+    r"\bred flags?\b",
+    r"\bwarning signs?\b",
+    r"\bshould (?:be able to|have|by)\b",
+]
 
 errors = []
 warnings = []
@@ -239,10 +255,39 @@ def validate_topic(filepath, data, domain_courses):
     if stage and stage not in VALID_STAGES:
         error(filepath, f"stage '{stage}' not in {VALID_STAGES}")
 
+    # Kind (origin layer). Optional; absent == "topic".
+    kind = data.get("kind")
+    if kind and kind not in VALID_KINDS:
+        error(filepath, f"kind '{kind}' not in {VALID_KINDS}")
+
     # Tags
     tags = data.get("tags", [])
     if not isinstance(tags, list):
         error(filepath, "tags must be a list of strings")
+
+
+def validate_capacity_body(filepath, data, body):
+    """Lint a kind: capacity node's body (origin layer).
+
+    Capacity nodes are a private substrate (not rendered/indexed) but their bodies are authored for
+    future use, so we enforce the non-diagnostic boundary at write time: the standing disclaimer must
+    be present, and the ## Observable Signs block must not use age-cutoff / delay-inference language.
+    """
+    if data.get("kind") != "capacity":
+        return
+    # Normalize whitespace so a naturally line-wrapped disclaimer still matches.
+    body_norm = " ".join(body.split())
+    if CAPACITY_DISCLAIMER not in body_norm:
+        error(filepath, "capacity node missing the required non-diagnostic disclaimer (see "
+                        "plans/origin-layer-spec.md sec 6)")
+    # Scan the Observable Signs section, with the disclaimer text removed so its wording can't trip us.
+    sections = _parse_sections(body)
+    signs = " ".join(sections.get("Observable Signs", "").split()).replace(CAPACITY_DISCLAIMER, "")
+    for pat in OBSERVABLE_SIGNS_FORBIDDEN:
+        m = re.search(pat, signs, re.IGNORECASE)
+        if m:
+            error(filepath, f"capacity 'Observable Signs' uses diagnostic-leaning language "
+                            f"'{m.group(0)}' (forbidden; reframe as enrichment, not screening)")
 
 
 def find_cycles(graph):
@@ -333,6 +378,11 @@ def main():
         if validate_questions(filepath, text, warnings_only=quick):
             topics_with_questions += 1
 
+        # Origin layer: lint capacity bodies for the non-diagnostic boundary (runs in both modes —
+        # it only fires on the ~11 capacity nodes and guards a published-correctness invariant).
+        if data.get("kind") == "capacity":
+            validate_capacity_body(filepath, data, text)
+
         if topic_id:
             if topic_id in all_topics:
                 error(filepath, f"Duplicate ID '{topic_id}' (also in {all_topics[topic_id].relative_to(ROOT)})")
@@ -380,7 +430,7 @@ def main():
 
     # Course-stage audit: find courses staged below their cross-course prereqs
     if not quick:
-        STAGE_RANK = {s: i for i, s in enumerate(["pre-formal", "concrete-operations",
+        STAGE_RANK = {s: i for i, s in enumerate(["proto-formal", "pre-formal", "concrete-operations",
                       "abstract-reasoning", "formal-systems", "advanced", "expert"])}
         course_stages = {}
         for domain_dir2 in DOMAINS_DIR.iterdir():

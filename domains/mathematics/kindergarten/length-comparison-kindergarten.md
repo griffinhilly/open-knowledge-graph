@@ -4,6 +4,10 @@ title: 'Comparing Lengths: Longer and Shorter'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: measurement-comparison-length
   type: soft
 - id: weight-comparison

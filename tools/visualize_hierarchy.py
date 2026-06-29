@@ -199,6 +199,8 @@ def load_all_topics():
     for filepath in sorted(DOMAINS_DIR.rglob("*.md")):
         data = parse_frontmatter(filepath)
         if data and "id" in data:
+            if data.get("kind") == "capacity":
+                continue  # origin layer: excluded from index counts and the hierarchy graph
             all_data[data["id"]] = data
     return all_data
 
@@ -211,6 +213,8 @@ def load_graph(domain_filter=None, course_filter=None):
         data = parse_frontmatter(filepath)
         if data is None or "id" not in data:
             continue
+        if data.get("kind") == "capacity":
+            continue  # origin layer: not a hierarchy node
 
         domain = data.get("domain", "")
         course = data.get("course", "")

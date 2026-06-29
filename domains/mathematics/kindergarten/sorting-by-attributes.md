@@ -4,6 +4,10 @@ title: Sorting and Classifying by Attributes
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: classification-sorting
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: recognizing-2d-shapes
   type: soft
 - id: describing-2d-shapes

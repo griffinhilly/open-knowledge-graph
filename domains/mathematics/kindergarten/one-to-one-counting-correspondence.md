@@ -4,6 +4,10 @@ title: One-to-One Correspondence in Counting
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: counting-sequence-to-ten
   type: hard
 builds-toward:

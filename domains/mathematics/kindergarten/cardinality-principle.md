@@ -4,6 +4,10 @@ title: 'Cardinality: The Last Number Counted'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discrimination-same-different
+  type: soft
 - id: counting-sequence-to-ten
   type: hard
 - id: one-to-one-counting-correspondence

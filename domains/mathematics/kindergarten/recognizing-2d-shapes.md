@@ -3,7 +3,11 @@ id: recognizing-2d-shapes
 title: Recognizing Basic 2D Shapes
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: core-space
+  type: hard
+- id: discrimination-same-different
+  type: soft
 builds-toward:
 - describing-2d-shapes
 - sorting-by-attributes
