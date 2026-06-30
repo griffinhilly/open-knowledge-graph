@@ -3,7 +3,11 @@ id: letter-recognition
 title: Letter Recognition
 domain: language-and-communication
 course: early-language-foundations
-prerequisites: []
+prerequisites:
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - letter-sound-correspondence
 - print-concepts

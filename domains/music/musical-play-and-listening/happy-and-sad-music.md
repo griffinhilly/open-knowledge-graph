@@ -4,6 +4,10 @@ title: Happy and Sad Music
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: musical-moods
   type: hard
 builds-toward:

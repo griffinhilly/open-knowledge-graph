@@ -4,6 +4,10 @@ title: Phonological Awareness - Segmenting
 domain: language-and-communication
 course: early-language-foundations
 prerequisites:
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: phonological-awareness-blending
   type: hard
 - id: phonemic-awareness

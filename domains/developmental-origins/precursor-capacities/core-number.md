@@ -6,7 +6,7 @@ course: precursor-capacities
 prerequisites: []
 builds-toward:
 - grade-seriation
-- discrimination-same-different
+- discernment-same-different
 tags: [core-knowledge, number, magnitude, subitizing, foundations]
 stage: proto-formal
 status: reference

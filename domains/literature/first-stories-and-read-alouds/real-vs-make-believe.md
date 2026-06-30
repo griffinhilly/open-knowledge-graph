@@ -4,6 +4,10 @@ title: Real vs. Make-Believe
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: characters-we-love
   type: hard
 - id: beginning-middle-end

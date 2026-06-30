@@ -4,6 +4,10 @@ title: Picture Books
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: being-read-to
   type: hard
 builds-toward:

@@ -3,7 +3,11 @@ id: mountains-valleys-and-plains
 title: Mountains, Valleys, and Plains
 domain: earth-and-space-sciences
 course: earth-and-weather
-prerequisites: []
+prerequisites:
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - volcanoes-basics
 - earthquakes-basics

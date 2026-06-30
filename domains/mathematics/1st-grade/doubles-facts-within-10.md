@@ -4,6 +4,12 @@ title: Doubles Facts Within 10
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: core-number
+  type: hard
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: addition-within-10
   type: hard
 - id: doubles-and-near-doubles

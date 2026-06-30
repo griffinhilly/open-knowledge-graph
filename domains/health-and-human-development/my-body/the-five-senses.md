@@ -4,6 +4,12 @@ title: The Five Senses
 domain: health-and-human-development
 course: my-body
 prerequisites:
+- id: classification-sorting
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: my-body-parts
   type: soft
 builds-toward:

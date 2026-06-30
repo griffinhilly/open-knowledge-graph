@@ -4,6 +4,10 @@ title: Art Cleanup and Care of Materials
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: core-objects
+  type: soft
+- id: discernment-same-different
+  type: soft
 - id: art-materials-exploration
   type: hard
 builds-toward: []

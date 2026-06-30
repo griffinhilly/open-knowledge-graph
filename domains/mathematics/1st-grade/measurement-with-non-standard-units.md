@@ -4,6 +4,10 @@ title: Measuring Length with Non-Standard Units
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: measuring-length-nonstandard
   type: hard
 - id: comparing-lengths-longer-shorter

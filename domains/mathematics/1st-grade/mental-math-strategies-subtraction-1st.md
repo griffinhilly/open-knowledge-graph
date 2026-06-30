@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: addition-subtraction-relationship
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - subtraction-within-100
 - mental-math-add-subtract-tens

@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: responding-to-surroundings
   type: soft
+- id: classification-sorting
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - nervous-system-overview
 tags:

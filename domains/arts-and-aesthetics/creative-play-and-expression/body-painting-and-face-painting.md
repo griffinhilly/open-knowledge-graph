@@ -4,6 +4,10 @@ title: Body Painting and Face Painting
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: finger-painting
   type: hard
 - id: making-faces-and-expressions-in-art

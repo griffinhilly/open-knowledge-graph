@@ -5,7 +5,7 @@ domain: developmental-origins
 course: precursor-capacities
 prerequisites: []
 builds-toward:
-- discrimination-same-different
+- discernment-same-different
 - core-social
 tags: [core-knowledge, agents, causality, goals, foundations]
 stage: proto-formal

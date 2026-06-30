@@ -5,7 +5,7 @@ domain: developmental-origins
 course: precursor-capacities
 prerequisites: []
 builds-toward:
-- discrimination-same-different
+- discernment-same-different
 - naming-symbol-reference
 tags: [core-knowledge, space, geometry, navigation, foundations]
 stage: proto-formal

@@ -4,6 +4,12 @@ title: Equal Groups
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: counting-to-20
   type: soft
 builds-toward:

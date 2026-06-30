@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: part-part-whole-model-1st
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - addition-within-100
 - subtraction-within-100

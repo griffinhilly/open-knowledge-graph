@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: collecting-data-tally-marks
   type: soft
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - bar-graphs-3rd
 tags:

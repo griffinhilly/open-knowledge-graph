@@ -24,9 +24,13 @@ python tools/visualize_domain_map.py --all         # regenerate all 19 domain ma
 python tools/generate_quiz_page.py                 # regenerate the quiz (needs assessment-questions.json)
 python tools/connect_leaves.py --min-score 0.35    # propose leaf topic connections (dry-run)
 python tools/dedup_pairs.py                        # deduplicate flagged pairs (dry-run)
-python tools/wire_capacities.py --report           # origin layer: anti-collapse gate (--apply to wire)
+python tools/wire_capacities.py --report           # origin layer: anti-collapse gate + connectivity (--apply to wire)
 node   tools/test_fluency_capacity.js              # origin layer: fluency assumed-known regression test
+python tools/visualize_origin_layer.py             # PRIVATE origin-layer map → output/origin-layer-map.html (internal only)
+python tools/visualize_radial.py --with-origins    # PRIVATE radial w/ capacities at center → output/radial-with-origins.html
 ```
+
+The origin-layer floor is wired: 307/314 pre-formal topics carry a direct `kind:capacity` prereq (the other 7 reach one transitively). The two `--with-origins` / origin-layer maps are PRIVATE/internal — capacities are the central hub of the graph but get no public radial wedge and never render or index. The capacity-spine extension direction (faculty engine as a private validation-gated truth-test) is in `plans/capacity-spine-synthesis-2026-06-30.md`.
 
 CI pipeline (`deploy-pages.yml`): validate → index → radial → topic pages → domain maps → assessment data → assessment page → quiz question bank → quiz page → deploy to Pages.
 

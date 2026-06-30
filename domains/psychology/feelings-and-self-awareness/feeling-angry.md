@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: symbolic-function
   type: hard
-- id: discrimination-same-different
+- id: discernment-same-different
   type: soft
 builds-toward:
 - naming-your-feelings

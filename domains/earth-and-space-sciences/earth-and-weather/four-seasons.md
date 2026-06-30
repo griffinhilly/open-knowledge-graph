@@ -4,6 +4,12 @@ title: The Four Seasons
 domain: earth-and-space-sciences
 course: earth-and-weather
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: temperature-and-weather
   type: hard
 - id: weather-patterns

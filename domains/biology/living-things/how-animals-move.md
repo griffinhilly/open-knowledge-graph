@@ -6,6 +6,10 @@ course: living-things
 prerequisites:
 - id: animal-groups
   type: hard
+- id: core-agents
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - adaptation-and-fitness
 tags:

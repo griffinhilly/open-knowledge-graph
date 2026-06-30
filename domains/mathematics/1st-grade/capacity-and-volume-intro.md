@@ -4,6 +4,10 @@ title: Introduction to Capacity
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: comparing-quantities
   type: hard
 - id: measurement-comparison-length

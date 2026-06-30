@@ -4,6 +4,10 @@ title: Mark-Making Fundamentals
 domain: arts-and-aesthetics
 course: drawing-and-painting
 prerequisites:
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: clay-and-playdough
   type: soft
 - id: drawing-and-scribbling

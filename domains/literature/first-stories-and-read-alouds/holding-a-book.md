@@ -3,7 +3,15 @@ id: holding-a-book
 title: Holding a Book
 domain: literature
 course: first-stories-and-read-alouds
-prerequisites: []
+prerequisites:
+- id: core-space
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - cover-title-author
 - alphabet-books

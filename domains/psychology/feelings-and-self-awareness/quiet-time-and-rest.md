@@ -4,13 +4,13 @@ title: Quiet Time and Rest
 domain: psychology
 course: feelings-and-self-awareness
 prerequisites:
+- id: calming-down-with-deep-breaths
+  type: soft
 - id: core-social
   type: hard
 - id: symbolic-function
   type: hard
-- id: discrimination-same-different
-  type: soft
-- id: calming-down-with-deep-breaths
+- id: discernment-same-different
   type: soft
 builds-toward:
 - finding-a-safe-space

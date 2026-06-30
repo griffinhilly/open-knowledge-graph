@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: separating-sets-pre-subtraction
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - addition-subtraction-relationship
 - fact-families

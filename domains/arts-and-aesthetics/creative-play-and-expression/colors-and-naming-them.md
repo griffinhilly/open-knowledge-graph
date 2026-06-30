@@ -3,7 +3,11 @@ id: colors-and-naming-them
 title: Colors and Naming Them
 domain: arts-and-aesthetics
 course: creative-play-and-expression
-prerequisites: []
+prerequisites:
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - mixing-colors
 - looking-at-colors-in-nature

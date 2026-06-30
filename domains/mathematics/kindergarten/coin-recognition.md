@@ -3,7 +3,11 @@ id: coin-recognition
 title: 'Coin Recognition: Penny, Nickel, Dime, Quarter'
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 tags:
 - money
 - coins

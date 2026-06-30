@@ -4,6 +4,12 @@ title: Doubles and Near Doubles
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: core-number
+  type: hard
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: addition-within-20
   type: hard
 - id: number-bonds-to-10

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: instruments-you-strum
   type: hard
+- id: discernment-same-different
+  type: hard
 builds-toward:
 - how-instruments-make-sound
 - instrument-exploration-by-family

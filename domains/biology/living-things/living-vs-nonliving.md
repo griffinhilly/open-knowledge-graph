@@ -3,7 +3,13 @@ id: living-vs-nonliving
 title: Living vs Nonliving Things
 domain: biology
 course: living-things
-prerequisites: []
+prerequisites:
+- id: classification-sorting
+  type: hard
+- id: core-agents
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - cell-theory
 tags:

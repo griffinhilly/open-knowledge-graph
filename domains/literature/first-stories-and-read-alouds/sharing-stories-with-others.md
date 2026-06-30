@@ -4,6 +4,12 @@ title: Sharing Stories with Others
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: retelling-a-story
   type: hard
 - id: favorite-books

@@ -4,6 +4,10 @@ title: 'Cover, Title, and Author'
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: holding-a-book
   type: hard
 builds-toward:

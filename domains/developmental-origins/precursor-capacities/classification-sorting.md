@@ -4,7 +4,7 @@ title: Classification and Sorting
 domain: developmental-origins
 course: precursor-capacities
 prerequisites:
-- id: discrimination-same-different
+- id: discernment-same-different
   type: hard
 - id: naming-symbol-reference
   type: soft
@@ -21,7 +21,7 @@ kind: capacity
 ## Core Idea
 
 Grouping many things by a shared attribute — putting all the red ones together, separating blocks from
-balls. Where discrimination compares two things, classification organizes a whole set into categories.
+balls. Where discernment compares two things, classification organizes a whole set into categories.
 This is the substrate beneath sorting activities, data and graphing, taxonomies, and every later
 discipline that carves its subject into kinds.
 

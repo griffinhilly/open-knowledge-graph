@@ -4,6 +4,12 @@ title: Comparing and Ordering Numbers to 20
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: core-number
+  type: hard
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: comparing-quantities-more-less
   type: hard
 - id: one-to-one-counting-correspondence

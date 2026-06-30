@@ -8,7 +8,7 @@ prerequisites:
   type: hard
 - id: grade-seriation
   type: hard
-- id: discrimination-same-different
+- id: discernment-same-different
   type: soft
 - id: number-recognition-1-10
   type: soft

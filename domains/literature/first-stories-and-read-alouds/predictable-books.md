@@ -4,6 +4,12 @@ title: Predictable Books
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: repetition-and-patterns
   type: hard
 builds-toward: []

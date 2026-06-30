@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: making-ten-strategy-1st
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - mental-math-add-subtract-tens
 tags:

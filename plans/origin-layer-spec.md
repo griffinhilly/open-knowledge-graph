@@ -36,7 +36,7 @@ independent and survives). Griffin ratified all five conditions. Binding scope:
    primary-track assets is defensible; a multi-session content build now is not.)
 4. **Four deterministic pre-commit gates:** (a) §4 anti-collapse (≥4 distinct capacity-prereq
    signatures, none >40%) PLUS the assertion "every wired root has ≥1 capacity ≠
-   `discrimination-same-different`"; (b) a `validate.py` lint over `## Observable Signs` bodies
+   `discernment-same-different`"; (b) a `validate.py` lint over `## Observable Signs` bodies
    rejecting age-cutoff language (`by \d+ months`, `if not`, `delay`, `concern`) and requiring the
    disclaimer; (c) literal-`"validated"` sweep of `tools/` + add a `"reference"` key to
    `dedup_analysis.py` STATUS_PRIORITY; (d) a 20-wiring HUMAN eyeball (sample agreements, not just
@@ -49,6 +49,44 @@ eyeball backstops it — the baseball-sim "aggregate gate passing ≠ per-claim 
 the substrate PRIVATE (condition 1) is what makes a wrong edge internal-and-revisable rather than
 crawler-published. Document contested placements (e.g., binaries→`naming-symbol-reference`) as
 CHOICES, not asserted facts.
+
+## 0.6 WIRING-SCOPE RESOLUTION → A′ (corrected-A). Decided 2026-06-29 via `/dialectic-review --tradeoff`.
+
+The "finishing the floor" pass surfaced that the original "314 roots" was a miscount: only **37** of the
+314 pre-formal topics are true graph-roots (zero prereqs); 277 already chain down to them. Tradeoff
+dialectic (2 advocates / 2 counter-advocates / 1 referee, all Opus; full record below) on **A** (wire all
+314 directly) vs **B** (wire only the 37 true roots, inherit the rest):
+
+- **B falsified:** transitive inheritance disagrees with direct wiring on **62% of non-roots** (138 lose a
+  capacity, 98 gain a spurious one) — it yields the *least*-specific set, contradicting §4's "most
+  specific" craft; `what-is-soil` dead-ends under B day-one (its only prereq is a higher-stage node).
+- **A's only real fault was regex quality, not scope:** the rule matched on the **course name**, blanket-
+  stamping e.g. `core-agents`+`classification` (hard) onto all 16 `living-things` topics incl. body-parts/
+  senses; plus title homonyms (`fact-families`/`instrument-families`→core-social, `vocabulary-building`→
+  core-space, `quiet-time`→grade-seriation, `subitizing`→classification). These false edges sit in PUBLIC
+  topic frontmatter (only capacity *nodes* are private; edges from public topics are open data).
+
+**A′ = keep the full direct floor, fix the regex** (Griffin ratified, leans-A′ on both deciding beliefs:
+the parent tracker is deferred-not-dead, and redundant-but-correct `kind:capacity`-typed enabling edges
+don't degrade the open data). Implemented in `tools/wire_capacities.py`:
+1. Per-topic rules match **title + tags only** — never the course name.
+2. Curated `COURSE_DEFAULTS` for content-homogeneous courses (feelings→core-social+symbolic-function,
+   music→discrimination, stories→symbolic-function) — deliberate, not accidental course-name hits.
+3. Homonym guards strip the four documented false positives.
+4. `reconcile_prereqs` replaces the add-only inserter (adds AND removes capacity prereqs to match the
+   computed target exactly — the de-sticky deletion tool the project lacked).
+5. **Connectivity invariant in `validate.py`** (NEW): every pre-formal topic must reach a `kind:capacity`
+   node via prereq ancestry — backstops the content-based wiring so a future unmatched true-root is caught
+   loudly, not silently dead-ended. Proven sound: 314/314 reach a capacity live, 0/314 if capacities
+   ignored.
+
+**A′ result (2026-06-29):** 307 pre-formal topics directly floored, 7 unfloored (all CONNECTED — reach the
+floor transitively, zero true-root dead-ends); anti-collapse gate PASS (35 signatures, top 19%, disc-only
+6%); validate clean incl. connectivity invariant; fluency regression green. Eyeball surface (full, grouped
+by course): `plans/origin-layer-wiring-review.md`. The 7 unfloored: 3 art judgment-calls
+(dance/decorating/looking-at-art) + `why-water-is-important` + 3 self-care routines (brushing-teeth/
+washing-hands/why-we-drink-water). Supersedes the §0.3 "20–30-root pilot" scope and the §4 "314 roots"
+wording. Decision lineage + four agent cases: this session's transcript; durable summary in MEMORY.md.
 
 ---
 
@@ -132,14 +170,14 @@ NO `## Questions` (not assessable) — so assessment skips them even before the 
 | `core-number` | Approximate Number and Small-Set Tracking | Rough magnitude ("more") + exact tracking of 1–3 things. |
 | `core-space` | Spatial Layout and Geometry | Distance, direction, and arrangement of places. |
 | `core-social` | Social Beings and In-Group Awareness | People are special agents; self vs. others, familiar vs. stranger. *(Open Decision B — include?)* |
-| `discrimination-same-different` | Discrimination: Same and Different | Isolate one attribute and judge two things same or different. The root operation. |
+| `discernment-same-different` | Discrimination: Same and Different | Isolate one attribute and judge two things same or different. The root operation. |
 
 ### Build-up (depend on foundations)
 | id | title | prereqs (kind:capacity) | core idea |
 |---|---|---|---|
-| `grade-seriation` | Grading and Seriation | hard: `discrimination-same-different`; soft: `core-number` | Order instances along a gradient (small→big). |
-| `naming-symbol-reference` | Naming and Symbol–Referent Mapping | hard: `discrimination-same-different`, `grade-seriation` | A word/sign stands for a thing; **binary opposites = naming the two gradient endpoints** (hot/cold). ← where Griffin's "binaries" live. |
-| `classification` | Classification and Sorting | hard: `discrimination-same-different`; soft: `naming-symbol-reference` | Group many things by a shared attribute. |
+| `grade-seriation` | Grading and Seriation | hard: `discernment-same-different`; soft: `core-number` | Order instances along a gradient (small→big). |
+| `naming-symbol-reference` | Naming and Symbol–Referent Mapping | hard: `discernment-same-different`, `grade-seriation` | A word/sign stands for a thing; **binary opposites = naming the two gradient endpoints** (hot/cold). ← where Griffin's "binaries" live. |
+| `classification` | Classification and Sorting | hard: `discernment-same-different`; soft: `naming-symbol-reference` | Group many things by a shared attribute. |
 | `symbolic-function` | Symbolic Function | hard: `naming-symbol-reference`, `core-objects` | Hold a thing in mind in its absence; unlocks language, pretend, counting. The gateway. |
 
 → ~11 nodes. Internal structure: 5–6 parallel foundations → discrimination → grade → name → classify,
@@ -156,14 +194,14 @@ capacity so the layer adds differential signal.
 Worked examples (hard edges unless noted):
 | root topic | capacity prerequisites |
 |---|---|
-| `counting-to-five` | `core-number`, `discrimination-same-different` |
-| `comparing-quantities-more-less-equal` | `grade-seriation`, `core-number`, `discrimination-same-different` |
-| `sorting-by-one-attribute` | `classification`, `discrimination-same-different` |
-| `recognizing-basic-2d-shapes` | `core-space`, `discrimination-same-different` |
+| `counting-to-five` | `core-number`, `discernment-same-different` |
+| `comparing-quantities-more-less-equal` | `grade-seriation`, `core-number`, `discernment-same-different` |
+| `sorting-by-one-attribute` | `classification`, `discernment-same-different` |
+| `recognizing-basic-2d-shapes` | `core-space`, `discernment-same-different` |
 | `positional-words-above-below` | `core-space`, `naming-symbol-reference` |
-| `naming-your-feelings` / `feeling-happy` | `core-social`, `symbolic-function`, `discrimination-same-different` |
+| `naming-your-feelings` / `feeling-happy` | `core-social`, `symbolic-function`, `discernment-same-different` |
 | `first-stories-and-read-alouds` | `symbolic-function`, `naming-symbol-reference` |
-| `recognizing-ab-repeating-patterns` | `grade-seriation`, `discrimination-same-different` |
+| `recognizing-ab-repeating-patterns` | `grade-seriation`, `discernment-same-different` |
 
 **Bulk wiring (latent-vs-deterministic):** derive a *deterministic* mapping from each root's
 `course` + `tags` → a default capacity-prereq set (e.g., any `counting` tag ⇒ `core-number`; any

@@ -4,6 +4,10 @@ title: The Color Wheel
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
 prerequisites:
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: art-from-nature
   type: soft
 - id: discovering-color-through-observation

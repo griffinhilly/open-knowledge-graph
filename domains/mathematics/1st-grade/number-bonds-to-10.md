@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: number-bonds-within-5
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - addition-within-20
 tags:

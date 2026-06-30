@@ -4,6 +4,12 @@ title: Group Art Projects
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: classification-sorting
+  type: hard
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: cutting-and-pasting-collage
   type: soft
 - id: looking-at-art-and-talking-about-it

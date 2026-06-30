@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: ten-frames-for-addition
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - place-value-tens-and-ones
 tags:

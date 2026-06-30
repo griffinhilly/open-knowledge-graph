@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: subtraction-within-20
   type: soft
+- id: core-number
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - multi-step-word-problems-3rd
 tags:

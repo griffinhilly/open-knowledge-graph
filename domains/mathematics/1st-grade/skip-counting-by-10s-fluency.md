@@ -4,6 +4,12 @@ title: Skip Counting by 10s Fluency
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: core-number
+  type: hard
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: skip-counting-by-10s
   type: hard
 - id: place-value-tens-and-ones

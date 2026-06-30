@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: recognizing-2d-shapes
   type: soft
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - classifying-2d-shapes
 - polygon-angle-sums

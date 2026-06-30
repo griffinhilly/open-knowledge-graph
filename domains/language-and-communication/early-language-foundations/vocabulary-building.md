@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: simple-sentence-understanding
   type: soft
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - simple-sentence-understanding
 - listening-comprehension

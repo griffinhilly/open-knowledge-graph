@@ -3,7 +3,11 @@ id: drawing-and-scribbling
 title: Drawing and Scribbling
 domain: arts-and-aesthetics
 course: creative-play-and-expression
-prerequisites: []
+prerequisites:
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - making-faces-and-expressions-in-art
 - pretend-play-and-imagination

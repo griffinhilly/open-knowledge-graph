@@ -4,6 +4,12 @@ title: Letter-Sound Correspondence
 domain: language-and-communication
 course: early-language-foundations
 prerequisites:
+- id: naming-symbol-reference
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: letter-recognition
   type: hard
 - id: phonemic-awareness

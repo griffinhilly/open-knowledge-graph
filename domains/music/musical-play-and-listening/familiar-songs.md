@@ -4,6 +4,8 @@ title: Familiar Songs
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: discernment-same-different
+  type: hard
 - id: singing-along
   type: hard
 builds-toward:

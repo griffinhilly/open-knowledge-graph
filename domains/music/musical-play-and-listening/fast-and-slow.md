@@ -4,6 +4,12 @@ title: Fast and Slow
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: sound-and-silence
   type: hard
 builds-toward:

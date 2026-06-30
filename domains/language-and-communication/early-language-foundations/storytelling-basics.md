@@ -4,6 +4,10 @@ title: Storytelling Basics
 domain: language-and-communication
 course: early-language-foundations
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: simple-sentence-understanding
   type: hard
 builds-toward:

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: part-part-whole-model-1st
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - addition-subtraction-word-problems
 tags:

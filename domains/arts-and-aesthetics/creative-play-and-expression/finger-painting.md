@@ -4,6 +4,10 @@ title: Finger Painting
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: art-materials-exploration
   type: hard
 - id: colors-and-naming-them

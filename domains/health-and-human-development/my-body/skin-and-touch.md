@@ -4,6 +4,10 @@ title: Skin and Touch
 domain: health-and-human-development
 course: my-body
 prerequisites:
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: the-five-senses
   type: hard
 builds-toward:

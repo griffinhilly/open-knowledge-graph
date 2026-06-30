@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: place-value-tens-and-ones-2nd-grade
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - addition-within-100
 - mental-math-strategies-addition-1st

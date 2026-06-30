@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: counting-to-100-2nd-grade
   type: soft
+- id: core-number
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - place-value-tens-and-ones
 - comparing-two-digit-numbers

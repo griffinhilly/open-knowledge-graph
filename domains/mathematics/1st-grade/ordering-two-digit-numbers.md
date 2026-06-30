@@ -4,6 +4,12 @@ title: Ordering Two-Digit Numbers
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: core-number
+  type: hard
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: comparing-two-digit-numbers
   type: hard
 tags:

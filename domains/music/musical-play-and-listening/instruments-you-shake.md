@@ -4,6 +4,8 @@ title: Instruments You Shake
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: discernment-same-different
+  type: hard
 - id: sound-and-silence
   type: hard
 builds-toward:

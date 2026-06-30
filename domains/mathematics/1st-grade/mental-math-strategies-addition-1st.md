@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: decomposing-two-digit-numbers
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - addition-within-100
 - mental-math-add-subtract-tens

@@ -4,7 +4,7 @@ title: Grading and Seriation
 domain: developmental-origins
 course: precursor-capacities
 prerequisites:
-- id: discrimination-same-different
+- id: discernment-same-different
   type: hard
 - id: core-number
   type: soft
@@ -21,7 +21,7 @@ kind: capacity
 ## Core Idea
 
 Ordering several things along a single continuous dimension — smallest to largest, lightest to
-heaviest, quietest to loudest. Where discrimination judges two things same or different, grading
+heaviest, quietest to loudest. Where discernment judges two things same or different, grading
 arranges many along a gradient. This is the substrate beneath comparison language, measurement, and
 ordinal number, and it is the experience that makes the endpoints of a scale ("big" and "small") nameable.
 

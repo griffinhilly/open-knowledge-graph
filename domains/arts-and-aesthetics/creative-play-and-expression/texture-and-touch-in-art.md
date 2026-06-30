@@ -4,6 +4,8 @@ title: Texture and Touch in Art
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: discernment-same-different
+  type: hard
 - id: art-materials-exploration
   type: hard
 builds-toward:

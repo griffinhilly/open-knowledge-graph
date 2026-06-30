@@ -4,6 +4,10 @@ title: Rhythm with Your Body
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: moving-to-music
   type: hard
 builds-toward:

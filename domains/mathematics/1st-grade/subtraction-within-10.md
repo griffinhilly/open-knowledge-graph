@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: separating-sets-pre-subtraction
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - subtraction-within-20
 - fact-families

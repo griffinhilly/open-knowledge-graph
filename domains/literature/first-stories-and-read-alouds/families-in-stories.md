@@ -4,6 +4,12 @@ title: Families in Stories
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: characters-we-love
   type: hard
 builds-toward: []

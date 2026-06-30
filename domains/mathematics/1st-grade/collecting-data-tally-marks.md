@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: counting-objects-to-20
   type: soft
+- id: classification-sorting
+  type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - organizing-data-picture-graphs
 tags:

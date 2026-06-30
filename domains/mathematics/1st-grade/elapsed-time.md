@@ -4,6 +4,10 @@ title: Elapsed Time
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: telling-time-to-half-hour
   type: hard
 - id: telling-time-to-5-minutes

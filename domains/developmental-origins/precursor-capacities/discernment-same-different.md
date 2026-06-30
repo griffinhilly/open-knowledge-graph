@@ -1,6 +1,6 @@
 ---
-id: discrimination-same-different
-title: 'Discrimination: Same and Different'
+id: discernment-same-different
+title: 'Discernment: Same and Different'
 domain: developmental-origins
 course: precursor-capacities
 prerequisites:
@@ -12,13 +12,13 @@ builds-toward:
 - grade-seriation
 - classification-sorting
 - naming-symbol-reference
-tags: [operations, discrimination, same-different, matching, foundations]
+tags: [operations, discernment, same-different, matching, foundations]
 stage: proto-formal
 status: reference
 kind: capacity
 ---
 
-# Discrimination: Same and Different
+# Discernment: Same and Different
 
 ## Core Idea
 
@@ -27,6 +27,14 @@ texture — and judging whether two things match on it or differ. Almost everyth
 on it. You cannot count without telling like things apart, cannot sort without a basis for grouping,
 and cannot compare amounts without registering a difference. It is the hinge between raw perception
 and structured thought.
+
+## On the Name
+
+In perceptual psychology this capacity is usually called **discrimination** — "same/different
+discrimination," sensory discrimination, the discrimination of one stimulus from another. That is the
+more standard technical term. We use **discernment** here because the common word "discrimination"
+carries unrelated social connotations that distract from the perceptual operation meant; "discernment"
+names the same act — telling things apart — without the loaded baggage.
 
 ## Emerges Through
 

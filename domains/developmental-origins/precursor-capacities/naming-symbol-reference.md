@@ -4,7 +4,7 @@ title: Naming and Symbol–Referent Mapping
 domain: developmental-origins
 course: precursor-capacities
 prerequisites:
-- id: discrimination-same-different
+- id: discernment-same-different
   type: hard
 - id: grade-seriation
   type: hard
@@ -25,7 +25,7 @@ The insight that a word or sign *stands for* something — that "cup" points at 
 felt experience becomes a shareable, named concept. Binary opposites live here: hot/cold, big/small,
 up/down are the two endpoints of a gradient the child has already felt, and naming those endpoints is
 the first and most natural use of words for qualities. Comparatives ("bigger," "biggest") come only
-after the endpoints are named. Naming presupposes discrimination (you must tell the quality apart) and
+after the endpoints are named. Naming presupposes discernment (you must tell the quality apart) and
 grading (you must have felt the gradient whose ends you are labeling).
 
 ## Emerges Through

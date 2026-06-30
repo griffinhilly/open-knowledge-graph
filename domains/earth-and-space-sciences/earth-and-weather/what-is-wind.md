@@ -4,6 +4,10 @@ title: What Is Wind?
 domain: earth-and-space-sciences
 course: earth-and-weather
 prerequisites:
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: what-is-weather
   type: hard
 builds-toward:

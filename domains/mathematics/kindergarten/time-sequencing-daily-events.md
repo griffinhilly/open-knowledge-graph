@@ -3,7 +3,11 @@ id: time-sequencing-daily-events
 title: Sequencing Daily Events (Before and After)
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 tags:
 - time
 - sequencing

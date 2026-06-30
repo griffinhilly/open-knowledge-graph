@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: identifying-three-dimensional-shapes
   type: soft
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - surface-area-intro
 tags:

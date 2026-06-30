@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: place-value-tens-and-ones
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - decomposing-two-digit-numbers
 - addition-within-20

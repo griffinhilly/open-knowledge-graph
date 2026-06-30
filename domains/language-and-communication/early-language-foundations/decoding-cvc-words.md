@@ -4,6 +4,12 @@ title: Decoding CVC Words
 domain: language-and-communication
 course: early-language-foundations
 prerequisites:
+- id: naming-symbol-reference
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: phonological-awareness-blending
   type: hard
 - id: letter-sound-correspondence

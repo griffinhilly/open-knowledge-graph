@@ -4,6 +4,10 @@ title: Choosing Books
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: favorite-books
   type: hard
 - id: cover-title-author

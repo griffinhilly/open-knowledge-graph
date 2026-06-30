@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: number-bonds-to-20
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - two-digit-addition-no-regrouping
 - two-digit-subtraction-with-regrouping

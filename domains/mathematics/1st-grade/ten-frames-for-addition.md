@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: addition-within-20
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - making-ten-strategy-1st
 tags:

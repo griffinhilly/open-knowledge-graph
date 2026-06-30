@@ -4,6 +4,10 @@ title: 'Calendar Concepts: Days and Weeks'
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: time-to-hour-practice
   type: soft
 - id: number-line-0-to-20

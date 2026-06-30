@@ -4,6 +4,10 @@ title: Comparing and Measuring Lengths
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: measurement-comparison-length
   type: hard
 - id: measurement-with-non-standard-units

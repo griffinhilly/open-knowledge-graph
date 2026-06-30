@@ -6,6 +6,10 @@ course: living-things
 prerequisites:
 - id: living-vs-nonliving
   type: hard
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - cardiovascular-system-overview
 tags:

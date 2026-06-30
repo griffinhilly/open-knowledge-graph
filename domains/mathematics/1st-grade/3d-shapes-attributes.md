@@ -6,6 +6,10 @@ course: 1st-grade
 prerequisites:
 - id: recognizing-3d-shapes
   type: soft
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 tags:
 - geometry
 - shapes

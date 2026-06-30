@@ -4,6 +4,14 @@ title: Sight Word Recognition
 domain: language-and-communication
 course: early-language-foundations
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: letter-sound-correspondence
   type: hard
 - id: sight-words

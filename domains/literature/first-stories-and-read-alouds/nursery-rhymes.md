@@ -4,6 +4,14 @@ title: Nursery Rhymes
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: repetition-and-patterns
   type: hard
 builds-toward: []

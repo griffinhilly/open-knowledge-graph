@@ -4,6 +4,10 @@ title: 'Telling Time: The Hour'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: counting-to-10
   type: soft
 builds-toward:

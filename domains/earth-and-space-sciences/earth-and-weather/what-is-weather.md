@@ -3,7 +3,11 @@ id: what-is-weather
 title: What Is Weather?
 domain: earth-and-space-sciences
 course: earth-and-weather
-prerequisites: []
+prerequisites:
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - sunny-and-cloudy-days
 - rainy-days

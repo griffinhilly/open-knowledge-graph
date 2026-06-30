@@ -6,6 +6,10 @@ course: 1st-grade
 prerequisites:
 - id: 3d-shapes-attributes
   type: hard
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - composing-shapes
 tags:

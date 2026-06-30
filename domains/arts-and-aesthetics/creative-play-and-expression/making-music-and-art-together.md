@@ -4,6 +4,8 @@ title: Making Music and Art Together
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: discernment-same-different
+  type: hard
 - id: dance-and-movement-as-expression
   type: soft
 - id: patterns-in-art

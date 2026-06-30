@@ -4,6 +4,10 @@ title: Extending Repeating Patterns
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: simple-ab-patterns
   type: hard
 - id: abc-repeating-patterns

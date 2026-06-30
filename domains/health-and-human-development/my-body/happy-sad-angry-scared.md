@@ -3,7 +3,11 @@ id: happy-sad-angry-scared
 title: 'Happy, Sad, Angry, Scared'
 domain: health-and-human-development
 course: my-body
-prerequisites: []
+prerequisites:
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - emotion-recognition-and-interpretation
 tags:

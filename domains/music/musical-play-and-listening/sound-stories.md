@@ -4,6 +4,10 @@ title: Sound Stories
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: musical-moods
   type: hard
 - id: environmental-sounds

@@ -3,7 +3,11 @@ id: measurement-comparison-weight
 title: Comparing Weights (Heavier, Lighter, Same)
 domain: mathematics
 course: kindergarten
-prerequisites: []
+prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 tags:
 - measurement
 - weight

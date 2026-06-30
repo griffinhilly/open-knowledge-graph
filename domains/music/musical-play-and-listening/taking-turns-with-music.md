@@ -4,6 +4,10 @@ title: Taking Turns with Music
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: singing-along
   type: soft
 - id: rhythm-with-body

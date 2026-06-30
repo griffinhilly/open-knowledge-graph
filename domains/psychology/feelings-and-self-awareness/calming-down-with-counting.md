@@ -10,7 +10,7 @@ prerequisites:
   type: hard
 - id: symbolic-function
   type: hard
-- id: discrimination-same-different
+- id: discernment-same-different
   type: soft
 - id: body-signals-for-emotions
   type: hard

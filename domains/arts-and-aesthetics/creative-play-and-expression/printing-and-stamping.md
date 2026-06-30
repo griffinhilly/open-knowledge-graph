@@ -4,6 +4,12 @@ title: Printing and Stamping
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: art-materials-exploration
   type: hard
 - id: shapes-in-art

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: addition-within-10
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - addition-within-20
 - mental-math-strategies-addition-1st

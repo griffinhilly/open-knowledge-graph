@@ -6,6 +6,10 @@ course: 1st-grade
 prerequisites:
 - id: tally-charts
   type: soft
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
+  type: soft
 tags:
 - data
 - graphs

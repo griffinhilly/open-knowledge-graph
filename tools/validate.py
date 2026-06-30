@@ -428,6 +428,35 @@ def main():
         cycle_str = " -> ".join(cycle)
         errors.append(f"  ERROR  Cycle detected: {cycle_str}")
 
+    # Origin-layer connectivity invariant: every pre-formal topic must reach a kind:capacity node
+    # through its prerequisite ancestry (no dead-end roots). Backstops the content-based capacity
+    # wiring (tools/wire_capacities.py) — a future pre-formal root that matches no wiring rule is
+    # caught LOUDLY here instead of silently dead-ending. (A' decision, dialectic 2026-06-29.)
+    reach_memo = {}
+
+    def reaches_capacity(tid, stack):
+        if tid in reach_memo:
+            return reach_memo[tid]
+        d = all_data.get(tid)
+        if not d:
+            return False
+        if d.get("kind") == "capacity":
+            return True
+        if tid in stack:               # back-edge (cycles reported separately) — don't cache
+            return False
+        stack.add(tid)
+        result = any(reaches_capacity(pid, stack) for pid in prereq_graph.get(tid, []))
+        stack.discard(tid)
+        reach_memo[tid] = result
+        return result
+
+    for tid, d in all_data.items():
+        if d.get("kind") == "capacity" or d.get("stage") != "pre-formal":
+            continue
+        if not reaches_capacity(tid, set()):
+            errors.append(f"  ERROR  Pre-formal topic '{tid}' dead-ends: no capacity node in its "
+                          f"prerequisite ancestry (wire it in tools/wire_capacities.py)")
+
     # Course-stage audit: find courses staged below their cross-course prereqs
     if not quick:
         STAGE_RANK = {s: i for i, s in enumerate(["proto-formal", "pre-formal", "concrete-operations",

@@ -4,6 +4,14 @@ title: Temperature and Weather
 domain: earth-and-space-sciences
 course: earth-and-weather
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: classification-sorting
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: what-is-weather
   type: hard
 builds-toward:

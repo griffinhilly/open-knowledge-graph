@@ -4,6 +4,12 @@ title: 'Number Patterns: Skip Counting'
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: core-number
+  type: hard
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: skip-counting-by-2s
   type: hard
 - id: skip-counting-by-5s

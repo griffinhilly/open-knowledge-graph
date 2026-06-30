@@ -4,6 +4,12 @@ title: Skip Counting by 5s Fluency
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: core-number
+  type: hard
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: skip-counting-by-5s
   type: hard
 - id: number-patterns-skip-counting-1st

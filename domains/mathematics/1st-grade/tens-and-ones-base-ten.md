@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: number-bonds-to-10
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - place-value-whole-numbers
 - three-digit-number-forms

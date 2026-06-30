@@ -4,6 +4,8 @@ title: How Instruments Make Sound
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: discernment-same-different
+  type: hard
 - id: instrument-families-hit-shake-blow-strum
   type: hard
 - id: instruments-you-blow

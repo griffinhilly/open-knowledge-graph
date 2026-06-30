@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: subtraction-within-20
   type: hard
+- id: core-number
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - addition-subtraction-word-problems
 - addition-within-100

@@ -4,6 +4,10 @@ title: 'Combining Sets: Pre-Addition Concept'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: cardinality-principle
   type: soft
 builds-toward:

@@ -4,6 +4,12 @@ title: Repetition and Patterns in Stories
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: being-read-to
   type: hard
 builds-toward:

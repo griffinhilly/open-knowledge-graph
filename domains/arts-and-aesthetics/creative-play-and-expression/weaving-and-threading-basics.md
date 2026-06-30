@@ -4,6 +4,10 @@ title: Weaving and Threading Basics
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: patterns-in-art
   type: soft
 builds-toward: []

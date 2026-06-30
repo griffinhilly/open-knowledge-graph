@@ -4,6 +4,10 @@ title: 'Beginning, Middle, and End'
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: being-read-to
   type: hard
 builds-toward:

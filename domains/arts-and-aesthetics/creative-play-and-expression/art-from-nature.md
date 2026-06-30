@@ -4,6 +4,10 @@ title: Art from Nature
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: core-objects
+  type: soft
+- id: discernment-same-different
+  type: soft
 - id: texture-and-touch-in-art
   type: soft
 - id: looking-at-colors-in-nature

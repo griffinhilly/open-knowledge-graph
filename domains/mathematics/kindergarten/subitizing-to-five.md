@@ -6,7 +6,7 @@ course: kindergarten
 prerequisites:
 - id: core-number
   type: hard
-- id: discrimination-same-different
+- id: discernment-same-different
   type: soft
 builds-toward:
 - number-bonds-within-5

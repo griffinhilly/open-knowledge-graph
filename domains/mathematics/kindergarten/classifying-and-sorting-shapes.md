@@ -4,9 +4,11 @@ title: Sorting and Classifying Shapes
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-space
+  type: hard
 - id: classification-sorting
   type: hard
-- id: discrimination-same-different
+- id: discernment-same-different
   type: soft
 - id: circle-identification
   type: soft

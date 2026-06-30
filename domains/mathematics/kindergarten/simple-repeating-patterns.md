@@ -4,6 +4,10 @@ title: Simple Repeating Patterns (AB, ABC)
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: sorting-by-attributes
   type: soft
 - id: abc-repeating-patterns

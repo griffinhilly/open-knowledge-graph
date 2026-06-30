@@ -4,6 +4,10 @@ title: Listening Comprehension Skills
 domain: language-and-communication
 course: early-language-foundations
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: listening-comprehension
   type: hard
 - id: phonological-awareness-blending

@@ -4,6 +4,8 @@ title: Same and Different Sounds
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: discernment-same-different
+  type: hard
 - id: high-and-low-pitch
   type: soft
 - id: loud-and-quiet

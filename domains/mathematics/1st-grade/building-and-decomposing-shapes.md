@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: decomposing-shapes
   type: hard
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - fractions-halves-thirds-fourths
 tags:

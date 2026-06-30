@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: number-recognition-1-100-2nd-grade
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - ordering-numbers-to-20
 tags:

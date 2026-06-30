@@ -4,6 +4,8 @@ title: Moving to Music
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: discernment-same-different
+  type: hard
 - id: fast-and-slow
   type: hard
 - id: loud-and-quiet

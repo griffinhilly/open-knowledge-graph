@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: triangle-identification
   type: soft
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - composing-shapes
 - decomposing-shapes

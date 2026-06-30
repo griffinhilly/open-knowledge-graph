@@ -4,6 +4,10 @@ title: Making Up Stories
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: beginning-middle-end
   type: hard
 - id: characters-we-love

@@ -6,6 +6,12 @@ course: 1st-grade
 prerequisites:
 - id: counting-to-20
   type: soft
+- id: classification-sorting
+  type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - picture-graphs
 tags:

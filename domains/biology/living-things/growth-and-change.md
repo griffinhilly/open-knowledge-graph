@@ -4,6 +4,12 @@ title: Growth and Change in Living Things
 domain: biology
 course: living-things
 prerequisites:
+- id: classification-sorting
+  type: hard
+- id: core-agents
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: needs-of-living-things
   type: hard
 builds-toward:

@@ -4,6 +4,10 @@ title: Mixing Colors
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: colors-and-naming-them
   type: hard
 builds-toward:

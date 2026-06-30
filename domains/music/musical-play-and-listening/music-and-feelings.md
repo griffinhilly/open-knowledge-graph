@@ -4,6 +4,10 @@ title: Music and Feelings
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: musical-moods
   type: hard
 builds-toward: []

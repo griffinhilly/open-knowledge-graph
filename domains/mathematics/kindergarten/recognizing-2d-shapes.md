@@ -6,7 +6,7 @@ course: kindergarten
 prerequisites:
 - id: core-space
   type: hard
-- id: discrimination-same-different
+- id: discernment-same-different
   type: soft
 builds-toward:
 - describing-2d-shapes

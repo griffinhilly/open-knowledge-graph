@@ -6,6 +6,10 @@ course: 1st-grade
 prerequisites:
 - id: counting-to-20
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - skip-counting-by-10s
 - number-recognition-1-100

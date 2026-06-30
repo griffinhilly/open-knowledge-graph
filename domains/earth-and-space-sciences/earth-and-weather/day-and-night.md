@@ -3,7 +3,13 @@ id: day-and-night
 title: Day and Night
 domain: earth-and-space-sciences
 course: earth-and-weather
-prerequisites: []
+prerequisites:
+- id: grade-seriation
+  type: hard
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - the-sun
 - earths-rotation

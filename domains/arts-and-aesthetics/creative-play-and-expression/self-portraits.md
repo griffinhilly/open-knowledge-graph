@@ -4,6 +4,10 @@ title: Self-Portraits
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: making-faces-and-expressions-in-art
   type: hard
 - id: colors-and-naming-them

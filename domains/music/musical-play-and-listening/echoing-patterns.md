@@ -4,6 +4,10 @@ title: Echoing Patterns
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: rhythm-with-body
   type: hard
 - id: singing-along

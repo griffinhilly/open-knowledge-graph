@@ -3,7 +3,9 @@ id: sound-and-silence
 title: Sound and Silence
 domain: music
 course: musical-play-and-listening
-prerequisites: []
+prerequisites:
+- id: discernment-same-different
+  type: hard
 builds-toward:
 - loud-and-quiet
 - environmental-sounds

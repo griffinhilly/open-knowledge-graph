@@ -4,6 +4,10 @@ title: Advanced Color Mixing
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
 prerequisites:
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: color-wheel-basics
   type: hard
 - id: mixing-colors

@@ -3,7 +3,11 @@ id: telling-time-to-hour
 title: Telling Time to the Hour
 domain: mathematics
 course: 1st-grade
-prerequisites: []
+prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - telling-time-to-half-hour
 tags:

@@ -4,6 +4,10 @@ title: Line in Art
 domain: arts-and-aesthetics
 course: visual-elements-and-principles
 prerequisites:
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: self-portraits
   type: soft
 builds-toward:

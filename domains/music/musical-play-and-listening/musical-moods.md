@@ -4,6 +4,10 @@ title: Musical Moods
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: loud-and-quiet
   type: hard
 - id: fast-and-slow

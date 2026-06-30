@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: combining-sets-pre-addition
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - subtraction-within-10
 - addition-within-20

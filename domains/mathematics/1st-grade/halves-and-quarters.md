@@ -4,6 +4,10 @@ title: Halves and Quarters
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: decomposing-shapes
   type: hard
 builds-toward:

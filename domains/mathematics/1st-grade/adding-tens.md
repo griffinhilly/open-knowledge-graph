@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: skip-counting-by-10s
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - two-digit-addition-no-regrouping
 tags:

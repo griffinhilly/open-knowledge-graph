@@ -6,6 +6,10 @@ course: earth-and-weather
 prerequisites:
 - id: day-and-night
   type: hard
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - what-causes-seasons
 - earths-rotation

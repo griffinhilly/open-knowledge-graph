@@ -4,6 +4,10 @@ title: Illustrations Tell Stories Too
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: picture-books
   type: hard
 builds-toward:

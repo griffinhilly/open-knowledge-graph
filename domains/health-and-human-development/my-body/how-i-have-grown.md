@@ -4,6 +4,10 @@ title: How I've Grown
 domain: health-and-human-development
 course: my-body
 prerequisites:
+- id: core-agents
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: my-body-parts
   type: soft
 builds-toward:

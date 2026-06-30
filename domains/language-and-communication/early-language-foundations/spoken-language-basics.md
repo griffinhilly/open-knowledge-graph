@@ -3,7 +3,11 @@ id: spoken-language-basics
 title: Spoken Language Basics
 domain: language-and-communication
 course: early-language-foundations
-prerequisites: []
+prerequisites:
+- id: naming-symbol-reference
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - vocabulary-building
 - phonemic-awareness

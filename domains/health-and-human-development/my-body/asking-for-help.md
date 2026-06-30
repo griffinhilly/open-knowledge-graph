@@ -4,6 +4,10 @@ title: Asking for Help
 domain: health-and-human-development
 course: my-body
 prerequisites:
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: happy-sad-angry-scared
   type: soft
 builds-toward:

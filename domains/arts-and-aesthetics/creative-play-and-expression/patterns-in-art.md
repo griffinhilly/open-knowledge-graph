@@ -4,6 +4,10 @@ title: Patterns in Art
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: shapes-in-art
   type: hard
 - id: colors-and-naming-them

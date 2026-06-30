@@ -4,6 +4,8 @@ title: Singing Along
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: discernment-same-different
+  type: hard
 - id: high-and-low-pitch
   type: soft
 builds-toward:

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: needs-of-living-things
   type: hard
+- id: core-agents
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - ecosystem-structure-and-function
 tags:

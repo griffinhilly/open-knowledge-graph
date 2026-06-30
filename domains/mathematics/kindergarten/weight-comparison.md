@@ -4,6 +4,10 @@ title: 'Comparing Weights: Heavier and Lighter'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: measurement-comparison-weight
   type: soft
 tags:

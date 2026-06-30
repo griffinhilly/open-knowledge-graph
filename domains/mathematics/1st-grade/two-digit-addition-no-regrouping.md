@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: two-digit-number-composition-1st
   type: hard
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - addition-subtraction-word-problems
 tags:

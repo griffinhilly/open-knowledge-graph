@@ -4,6 +4,10 @@ title: Telling Time to the Hour
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: number-recognition-1-10
   type: hard
 - id: time-sequencing-daily-events

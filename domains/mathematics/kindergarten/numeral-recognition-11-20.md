@@ -6,7 +6,7 @@ course: kindergarten
 prerequisites:
 - id: core-number
   type: hard
-- id: discrimination-same-different
+- id: discernment-same-different
   type: soft
 - id: numeral-recognition-and-matching-0-10
   type: hard

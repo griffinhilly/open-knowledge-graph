@@ -4,9 +4,11 @@ title: 'Positional Words: Above and Below'
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: naming-symbol-reference
+  type: hard
 - id: core-space
   type: hard
-- id: discrimination-same-different
+- id: discernment-same-different
   type: soft
 builds-toward:
 - positional-words

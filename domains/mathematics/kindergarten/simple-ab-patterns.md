@@ -4,6 +4,10 @@ title: Creating Simple AB Patterns
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: time-sequencing-daily-events
   type: soft
 builds-toward:

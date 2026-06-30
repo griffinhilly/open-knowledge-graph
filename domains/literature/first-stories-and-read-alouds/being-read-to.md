@@ -3,7 +3,11 @@ id: being-read-to
 title: Being Read To
 domain: literature
 course: first-stories-and-read-alouds
-prerequisites: []
+prerequisites:
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: hard
 builds-toward:
 - picture-books
 - beginning-middle-end

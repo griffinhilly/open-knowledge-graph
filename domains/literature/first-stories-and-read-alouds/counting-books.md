@@ -4,6 +4,12 @@ title: Counting Books
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
+- id: core-number
+  type: hard
+- id: symbolic-function
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: holding-a-book
   type: hard
 builds-toward: []

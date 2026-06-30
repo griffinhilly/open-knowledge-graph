@@ -4,6 +4,10 @@ title: Telling Time to the Half Hour
 domain: mathematics
 course: 1st-grade
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: telling-time-to-half-hour
   type: hard
 - id: time-to-hour-practice

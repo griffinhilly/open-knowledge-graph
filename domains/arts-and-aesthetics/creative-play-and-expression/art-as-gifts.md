@@ -4,6 +4,10 @@ title: Art as Gifts
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: decorating-and-design
   type: hard
 builds-toward: []

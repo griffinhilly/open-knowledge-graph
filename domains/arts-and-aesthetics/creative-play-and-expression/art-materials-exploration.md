@@ -3,7 +3,13 @@ id: art-materials-exploration
 title: Art Materials Exploration
 domain: arts-and-aesthetics
 course: creative-play-and-expression
-prerequisites: []
+prerequisites:
+- id: core-space
+  type: hard
+- id: core-objects
+  type: soft
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - finger-painting
 - clay-and-playdough

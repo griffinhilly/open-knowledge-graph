@@ -4,6 +4,10 @@ title: Repeating Sounds and Patterns
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: grade-seriation
+  type: hard
+- id: discernment-same-different
+  type: hard
 - id: same-and-different-sounds
   type: hard
 - id: echoing-patterns

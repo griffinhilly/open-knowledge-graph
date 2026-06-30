@@ -4,6 +4,10 @@ title: Simple Picture Graphs
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: one-to-one-correspondence
   type: hard
 builds-toward:

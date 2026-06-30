@@ -4,6 +4,12 @@ title: Separating Small Groups Within 5
 domain: mathematics
 course: kindergarten
 prerequisites:
+- id: core-number
+  type: hard
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: one-to-one-correspondence
   type: hard
 tags:

@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: subtraction-within-20
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - fact-families
 tags:

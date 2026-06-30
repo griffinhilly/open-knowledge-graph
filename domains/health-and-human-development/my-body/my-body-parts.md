@@ -3,7 +3,11 @@ id: my-body-parts
 title: My Body Parts
 domain: health-and-human-development
 course: my-body
-prerequisites: []
+prerequisites:
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - body-organization-and-terminology
 tags:

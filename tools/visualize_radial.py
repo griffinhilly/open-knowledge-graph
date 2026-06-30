@@ -99,6 +99,7 @@ DOMAIN_HUES = {
     "literature":                  271,  # violet
     "arts-and-aesthetics":          62,  # yellow
     "music":                       214,  # sky-blue
+    "developmental-origins":        45,  # gold — origin-layer capacities (only with --with-origins)
 }
 
 
@@ -152,13 +153,13 @@ def load_sprout_topics():
     return topics
 
 
-def load_all_topics():
+def load_all_topics(include_caps=False):
     all_data = {}
     for filepath in sorted(DOMAINS_DIR.rglob("*.md")):
         data = parse_frontmatter(filepath)
         if data and "id" in data:
-            if data.get("kind") == "capacity":
-                continue  # origin layer: not shown in the radial graph
+            if data.get("kind") == "capacity" and not include_caps:
+                continue  # origin layer: not shown in the public radial (only with --with-origins)
             all_data[data["id"]] = data
     return all_data
 
@@ -493,6 +494,22 @@ def build_radial_layout(all_data, configs, depths):
             "stage": stage,
         }
 
+    # --with-origins: seed capacity nodes as a CENTRAL HUB — a tiny ring at the origin spread by angle,
+    # NOT a domain wedge. target_r pins them to the center through the radial spring-back below, so the
+    # 10 capacities stay clustered at r~18 while their edges fan out to every domain. (private variant)
+    cap_present = sorted(tid for tid, d in all_data.items() if d.get("kind") == "capacity")
+    HUB = "discernment-same-different"  # the root operation (every topic depends on it) sits dead-center
+    ring = [c for c in cap_present if c != HUB]
+    for i, tid in enumerate(ring):
+        theta = (i / max(1, len(ring))) * 2 * math.pi
+        rr = 24.0
+        positions[tid] = {"x": rr * math.cos(theta), "y": rr * math.sin(theta),
+                          "r": rr, "theta": theta, "target_r": rr,
+                          "target_theta": theta, "stage": "proto-formal"}
+    if HUB in cap_present:
+        positions[HUB] = {"x": 0.001, "y": 0.0, "r": 0.0, "theta": 0.0,
+                          "target_r": 0.0, "target_theta": 0.0, "stage": "proto-formal"}
+
     # --- Phase 2: Polar force simulation ---
     # Allow angular drift toward cross-domain connections.
     # Constrain radial position to developmental band (strong spring).
@@ -653,6 +670,7 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
             "stageInt": STAGE_INDEX.get(stage_name, STAGE_INDEX[DEFAULT_STAGE]),
             "pedagogyType": pedagogy_type,
             "depth": depths.get(tid, 0),
+            "kind": data.get("kind", "topic"),
             "x": round(pos["x"], 2),
             "y": round(pos["y"], 2),
             "hue": hue,
@@ -1400,14 +1418,17 @@ function draw() {{
     ctx.beginPath();
     ctx.moveTo(e.s.x, e.s.y);
     ctx.lineTo(e.t.x, e.t.y);
-    if (e.crossDomain) {{
+    var capEdge = (e.s && e.s.kind === 'capacity') || (e.t && e.t.kind === 'capacity');
+    if (capEdge) {{
+      ctx.strokeStyle = "rgba(243,210,122,0.16)";   // origin-layer floor edges — gold
+    }} else if (e.crossDomain) {{
       ctx.strokeStyle = "rgba(160,120,255,0.03)";
     }} else if (e.type === "soft") {{
       ctx.strokeStyle = "rgba(100,100,140,0.05)";
     }} else {{
       ctx.strokeStyle = "rgba(100,100,140,0.08)";
     }}
-    ctx.lineWidth = 0.35;
+    ctx.lineWidth = capEdge ? 0.5 : 0.35;
     ctx.stroke();
   }});
   ctx.globalAlpha = 1.0;
@@ -1417,9 +1438,11 @@ function draw() {{
     ? OKGFluency.getUserStage() : null;
   data.nodes.forEach(n => {{
     ctx.beginPath();
-    ctx.arc(n.x, n.y, nodeRadius, 0, Math.PI * 2);
+    ctx.arc(n.x, n.y, n.kind === 'capacity' ? nodeRadius * 4 : nodeRadius, 0, Math.PI * 2);
     var baseAlpha = 1.0;
-    if (showFluency && effectiveScores) {{
+    if (n.kind === 'capacity') {{
+      ctx.fillStyle = 'hsl(45, 92%, 62%)';   // origin-layer capacity hub — gold
+    }} else if (showFluency && effectiveScores) {{
       var score = effectiveScores[n.id] || 0;
       ctx.fillStyle = OKGFluency.fluencyColor(n.hue, score);
       // Alpha gradient: nodes far from user's declared stage fade out.
@@ -1435,6 +1458,11 @@ function draw() {{
     ctx.globalAlpha = baseAlpha;
     ctx.fill();
     ctx.globalAlpha = 1.0;
+    if (n.kind === 'capacity') {{
+      ctx.strokeStyle = 'rgba(255,235,160,0.85)';
+      ctx.lineWidth = 2 / Math.sqrt(camScale);
+      ctx.stroke();
+    }}
     if (showFluency && frontierSet && frontierSet.has(n.id)) {{
       ctx.strokeStyle = "rgba(255,200,50,0.9)";
       ctx.lineWidth = 1.5 / Math.sqrt(camScale);
@@ -2961,10 +2989,12 @@ if (isSproutMode) {{
 def main():
     parser = argparse.ArgumentParser(description="Radial knowledge graph visualization")
     parser.add_argument("--output", help="Output file path")
+    parser.add_argument("--with-origins", action="store_true",
+                        help="PRIVATE variant: include the origin-layer capacities as a central hub")
     args = parser.parse_args()
 
     print("Loading topics...")
-    all_data = load_all_topics()
+    all_data = load_all_topics(include_caps=args.with_origins)
     configs = load_domain_configs()
     print(f"Loaded {len(all_data)} topics across {len(configs)} domains")
 
@@ -2978,7 +3008,8 @@ def main():
     print("Generating HTML...")
     html = generate_radial_html(all_data, configs, depths, positions, sectors, domain_order)
 
-    out = Path(args.output) if args.output else OUTPUT_DIR / "radial-graph.html"
+    default_name = "radial-with-origins.html" if args.with_origins else "radial-graph.html"
+    out = Path(args.output) if args.output else OUTPUT_DIR / default_name
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
     print(f"Saved: {out}")

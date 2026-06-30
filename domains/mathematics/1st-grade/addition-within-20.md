@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: number-line-0-to-20
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - two-digit-addition-no-regrouping
 - addition-subtraction-word-problems

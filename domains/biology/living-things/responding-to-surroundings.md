@@ -4,6 +4,12 @@ title: Responding to Surroundings
 domain: biology
 course: living-things
 prerequisites:
+- id: classification-sorting
+  type: hard
+- id: core-agents
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: living-vs-nonliving
   type: hard
 - id: growth-and-change

@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: taking-turns-with-music
   type: soft
+- id: core-agents
+  type: hard
+- id: core-social
+  type: hard
+- id: discernment-same-different
+  type: hard
 builds-toward:
 - musical-games
 - singing-in-unison

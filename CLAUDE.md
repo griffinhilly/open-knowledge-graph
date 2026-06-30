@@ -4,7 +4,7 @@ Open-source, machine-readable knowledge graphs mapping prerequisite relationship
 
 ## Project Structure
 - `domains/` — 19 domains, 15,285 topics, 261 courses
-- `tools/` — Python tooling (parse_topic.py [shared parser], validate.py, visualize_hierarchy.py, visualize_radial.py, visualize_domain_map.py, generate_topic_pages.py, generate_quiz_page.py, generate_assessment.py, generate_assessment_page.py, generate_assessment_questions.py, connect_leaves.py, dedup_pairs.py, find_near_duplicates.py, reconcile_domain_stages.py, spot_check_new_topics.py, map_dangling_prereqs.py, stats.py, reconcile.py, wire_capacities.py [origin-layer wiring + anti-collapse gate], test_fluency_capacity.js [origin-layer fluency regression])
+- `tools/` — Python tooling (parse_topic.py [shared parser], validate.py, visualize_hierarchy.py, visualize_radial.py, visualize_domain_map.py, generate_topic_pages.py, generate_quiz_page.py, generate_assessment.py, generate_assessment_page.py, generate_assessment_questions.py, connect_leaves.py, dedup_pairs.py, find_near_duplicates.py, reconcile_domain_stages.py, spot_check_new_topics.py, map_dangling_prereqs.py, stats.py, reconcile.py, wire_capacities.py [origin-layer wiring + anti-collapse gate + connectivity], test_fluency_capacity.js [origin-layer fluency regression], visualize_origin_layer.py [PRIVATE origin-layer D3 viz — internal only])
 - `hooks/` — Git hooks (pre-push: cycle detection + CI script check). Setup: `git config core.hooksPath hooks`
 - `tools/overnight/` — Autonomous generation orchestrator (used to build the initial graph and Q+E content)
 - `meta/` — Schema definition, developmental stages, course list

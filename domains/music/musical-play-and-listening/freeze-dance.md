@@ -4,6 +4,8 @@ title: Freeze Dance
 domain: music
 course: musical-play-and-listening
 prerequisites:
+- id: discernment-same-different
+  type: hard
 - id: moving-to-music
   type: hard
 - id: musical-games

@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: doubles-and-near-doubles
   type: soft
+- id: core-number
+  type: hard
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - mental-math-strategies-addition-1st
 tags:

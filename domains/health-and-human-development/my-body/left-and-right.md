@@ -4,6 +4,10 @@ title: Left and Right
 domain: health-and-human-development
 course: my-body
 prerequisites:
+- id: core-space
+  type: hard
+- id: discernment-same-different
+  type: soft
 - id: my-body-parts
   type: hard
 builds-toward: []
