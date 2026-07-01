@@ -8,9 +8,10 @@ prerequisites:
   type: hard
 - id: grade-seriation
   type: hard
+- id: symbolic-function
+  type: hard
 builds-toward:
 - classification-sorting
-- symbolic-function
 tags: [operations, naming, symbols, reference, opposites, binaries, foundations]
 stage: proto-formal
 status: reference

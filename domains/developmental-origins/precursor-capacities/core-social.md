@@ -3,9 +3,10 @@ id: core-social
 title: Social Beings and In-Group Awareness
 domain: developmental-origins
 course: precursor-capacities
-prerequisites: []
+prerequisites:
+- id: core-agents
+  type: soft
 builds-toward:
-- discernment-same-different
 - symbolic-function
 tags: [core-knowledge, social, self-other, foundations]
 stage: proto-formal

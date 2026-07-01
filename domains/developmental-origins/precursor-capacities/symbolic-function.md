@@ -4,11 +4,13 @@ title: Symbolic Function
 domain: developmental-origins
 course: precursor-capacities
 prerequisites:
-- id: naming-symbol-reference
-  type: hard
 - id: core-objects
   type: hard
-builds-toward: []
+- id: core-social
+  type: hard
+builds-toward:
+- discernment-same-different
+- naming-symbol-reference
 tags: [operations, symbolic-function, representation, gateway, foundations]
 stage: proto-formal
 status: reference

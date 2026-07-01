@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: core-number
   type: soft
+- id: symbolic-function
+  type: soft
 builds-toward:
 - grade-seriation
 - classification-sorting
@@ -22,11 +24,13 @@ kind: capacity
 
 ## Core Idea
 
-The root operation of early cognition: isolating a single attribute — color, size, shape, sound,
-texture — and judging whether two things match on it or differ. Almost everything downstream depends
-on it. You cannot count without telling like things apart, cannot sort without a basis for grouping,
-and cannot compare amounts without registering a difference. It is the hinge between raw perception
-and structured thought.
+The central operation of early cognition — the hub nearly everything else routes through: isolating a
+single attribute — color, size, shape, sound, texture — and judging whether two things match on it or
+differ. Almost everything downstream depends on it. You cannot count without telling like things apart,
+cannot sort without a basis for grouping, and cannot compare amounts without registering a difference.
+It is not, however, the very first thing: it draws on object tracking and number sense, and it is
+sharpened in turn by symbolic practice — same-and-different grows sharper once a child can name and
+represent what differs. It is the hinge between raw perception and structured thought.
 
 ## On the Name
 

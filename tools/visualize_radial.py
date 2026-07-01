@@ -494,18 +494,25 @@ def build_radial_layout(all_data, configs, depths):
             "stage": stage,
         }
 
-    # --with-origins: seed capacity nodes as a CENTRAL HUB — a tiny ring at the origin spread by angle,
-    # NOT a domain wedge. target_r pins them to the center through the radial spring-back below, so the
-    # 10 capacities stay clustered at r~18 while their edges fan out to every domain. (private variant)
+    # --with-origins: seed capacity nodes as a CENTRAL HUB — concentric rings at the origin, NOT domain
+    # wedges. target_r pins them near the center through the radial spring-back below; edges fan out to
+    # every domain. Discernment sits dead-center (the convergence hub); its three direct feeders
+    # (core-objects, core-number, symbolic-function) form a tight INNER ring; the other six sit outer.
+    # (private variant)
     cap_present = sorted(tid for tid, d in all_data.items() if d.get("kind") == "capacity")
-    HUB = "discernment-same-different"  # the root operation (every topic depends on it) sits dead-center
-    ring = [c for c in cap_present if c != HUB]
-    for i, tid in enumerate(ring):
-        theta = (i / max(1, len(ring))) * 2 * math.pi
-        rr = 24.0
+    HUB = "discernment-same-different"  # central operation everything routes through — sits dead-center
+    FEEDERS = ["core-objects", "core-number", "symbolic-function"]  # discernment's direct prereqs
+    inner = [c for c in FEEDERS if c in cap_present]
+    outer = [c for c in cap_present if c != HUB and c not in inner]
+
+    def _seed(tid, rr, theta):
         positions[tid] = {"x": rr * math.cos(theta), "y": rr * math.sin(theta),
                           "r": rr, "theta": theta, "target_r": rr,
                           "target_theta": theta, "stage": "proto-formal"}
+    for i, tid in enumerate(inner):
+        _seed(tid, 12.0, (i / max(1, len(inner))) * 2 * math.pi)
+    for i, tid in enumerate(outer):
+        _seed(tid, 24.0, (i / max(1, len(outer))) * 2 * math.pi + 0.35)  # offset so rings don't align
     if HUB in cap_present:
         positions[HUB] = {"x": 0.001, "y": 0.0, "r": 0.0, "theta": 0.0,
                           "target_r": 0.0, "target_theta": 0.0, "stage": "proto-formal"}
@@ -646,6 +653,25 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
     nodes = []
     edges = []
 
+    # Capacity nodes have NO public page (privacy invariant), so the panel can't link out.
+    # Pull their body sections here so the PRIVATE (--with-origins) map renders them inline on click.
+    cap_sections = {}
+    cap_dir = DOMAINS_DIR / "developmental-origins" / "precursor-capacities"
+    for tid, data in all_data.items():
+        if data.get("kind") != "capacity":
+            continue
+        fp = cap_dir / (tid + ".md")
+        if not fp.exists():
+            continue
+        _cd, _cbody = parse_topic(fp)
+        secs = []
+        for _h, _t in parse_sections(_cbody).items():
+            _t = re.sub(r"[*_`#>]", "", _t)
+            _t = re.sub(r"\s+", " ", _t).strip()
+            if _t:
+                secs.append({"h": _h, "t": _t})
+        cap_sections[tid] = secs
+
     for tid, data in all_data.items():
         if tid not in positions:
             continue
@@ -661,7 +687,7 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
         tags = data.get("tags", [])
         stage_name = data.get("stage", "") or DEFAULT_STAGE
         pedagogy_type = configs.get(domain, {}).get("pedagogy_type", "assessable")
-        nodes.append({
+        node = {
             "id": tid,
             "title": data.get("title", tid),
             "domain": domain,
@@ -676,7 +702,13 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
             "hue": hue,
             "lightness": round(lightness, 1),
             "tags": [str(t).lower() for t in tags] if tags else [],
-        })
+        }
+        if data.get("kind") == "capacity":
+            # Discernment (the central hub) renders larger than the other capacities.
+            node["capMul"] = 4.0 if tid == "discernment-same-different" else 2.5
+            if cap_sections.get(tid):
+                node["sections"] = cap_sections[tid]  # private map: inline body (no public page exists)
+        nodes.append(node)
 
         for p in data.get("prerequisites", []):
             if isinstance(p, dict) and "id" in p:
@@ -800,6 +832,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
 #panel .panel-meta {{ font-size:11px; color:#777; margin-bottom:12px; }}
 #panel .panel-section {{ margin-bottom:10px; }}
 #panel .panel-section h4 {{ font-size:11px; color:#667; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px; }}
+#panel .panel-cap-body {{ font-size:12px; line-height:1.5; color:#c8ccd6; }}
 #panel .panel-item {{
   display:flex; align-items:center; gap:6px;
   padding:3px 0; font-size:12px; color:#aab; cursor:pointer;
@@ -1438,10 +1471,10 @@ function draw() {{
     ? OKGFluency.getUserStage() : null;
   data.nodes.forEach(n => {{
     ctx.beginPath();
-    ctx.arc(n.x, n.y, n.kind === 'capacity' ? nodeRadius * 4 : nodeRadius, 0, Math.PI * 2);
+    ctx.arc(n.x, n.y, n.kind === 'capacity' ? nodeRadius * (n.capMul || 2.5) : nodeRadius, 0, Math.PI * 2);
     var baseAlpha = 1.0;
     if (n.kind === 'capacity') {{
-      ctx.fillStyle = 'hsl(45, 92%, 62%)';   // origin-layer capacity hub — gold
+      ctx.fillStyle = '#ffffff';   // origin-layer capacity hub — pure white (a distinct KIND from topic nodes, not a hue variant)
     }} else if (showFluency && effectiveScores) {{
       var score = effectiveScores[n.id] || 0;
       ctx.fillStyle = OKGFluency.fluencyColor(n.hue, score);
@@ -1459,7 +1492,7 @@ function draw() {{
     ctx.fill();
     ctx.globalAlpha = 1.0;
     if (n.kind === 'capacity') {{
-      ctx.strokeStyle = 'rgba(255,235,160,0.85)';
+      ctx.strokeStyle = '#000';   // black edge defines the white node's boundary
       ctx.lineWidth = 2 / Math.sqrt(camScale);
       ctx.stroke();
     }}
@@ -1554,10 +1587,16 @@ function draw() {{
   if (searchMatches.length > 0) {{
     searchMatches.forEach(n => {{
       ctx.beginPath();
-      ctx.arc(n.x, n.y, nodeRadius * 3, 0, Math.PI * 2);
-      ctx.fillStyle = `hsl(${{n.hue}}, 80%, ${{n.lightness + 15}}%)`;
-      ctx.fill();
-      ctx.strokeStyle = "rgba(255,255,100,0.8)";
+      ctx.arc(n.x, n.y, n.kind === 'capacity' ? nodeRadius * (n.capMul || 2.5) : nodeRadius * 3, 0, Math.PI * 2);
+      if (n.kind === 'capacity') {{
+        ctx.fillStyle = '#ffffff';        // keep capacity white when highlighted (hue would paint it gold)
+        ctx.fill();
+        ctx.strokeStyle = '#000';
+      }} else {{
+        ctx.fillStyle = `hsl(${{n.hue}}, 80%, ${{n.lightness + 15}}%)`;
+        ctx.fill();
+        ctx.strokeStyle = "rgba(255,255,100,0.8)";
+      }}
       ctx.lineWidth = 1.5 / Math.sqrt(camScale);
       ctx.stroke();
     }});
@@ -1598,21 +1637,34 @@ function drawHighlight(node) {{
     const other = ed.s === node ? ed.t : ed.t === node ? ed.s : null;
     if (other) {{
       ctx.beginPath();
-      ctx.arc(other.x, other.y, nodeRadius * 2, 0, Math.PI * 2);
-      ctx.fillStyle = `hsl(${{other.hue}}, 70%, ${{other.lightness + 12}}%)`;
-      ctx.fill();
-      ctx.strokeStyle = "rgba(255,255,255,0.3)";
-      ctx.lineWidth = 0.6 / Math.sqrt(camScale);
+      ctx.arc(other.x, other.y, (other.kind === 'capacity' ? nodeRadius * (other.capMul || 2.5) : nodeRadius * 2), 0, Math.PI * 2);
+      if (other.kind === 'capacity') {{
+        ctx.fillStyle = '#ffffff';
+        ctx.fill();
+        ctx.strokeStyle = '#000';
+        ctx.lineWidth = 1.0 / Math.sqrt(camScale);
+      }} else {{
+        ctx.fillStyle = `hsl(${{other.hue}}, 70%, ${{other.lightness + 12}}%)`;
+        ctx.fill();
+        ctx.strokeStyle = "rgba(255,255,255,0.3)";
+        ctx.lineWidth = 0.6 / Math.sqrt(camScale);
+      }}
       ctx.stroke();
     }}
   }});
 
   // Main node highlight
   ctx.beginPath();
-  ctx.arc(node.x, node.y, nodeRadius * 3, 0, Math.PI * 2);
-  ctx.fillStyle = `hsl(${{node.hue}}, 80%, ${{node.lightness + 20}}%)`;
-  ctx.fill();
-  ctx.strokeStyle = "#fff";
+  ctx.arc(node.x, node.y, node.kind === 'capacity' ? nodeRadius * (node.capMul || 2.5) : nodeRadius * 3, 0, Math.PI * 2);
+  if (node.kind === 'capacity') {{
+    ctx.fillStyle = '#ffffff';        // keep capacity white when highlighted
+    ctx.fill();
+    ctx.strokeStyle = '#000';         // black edge (a white stroke would vanish on white)
+  }} else {{
+    ctx.fillStyle = `hsl(${{node.hue}}, 80%, ${{node.lightness + 20}}%)`;
+    ctx.fill();
+    ctx.strokeStyle = "#fff";
+  }}
   ctx.lineWidth = 1.5 / Math.sqrt(camScale);
   ctx.stroke();
 
@@ -2046,9 +2098,17 @@ function drawPathOverlay() {{
     const n = nodeMap[id];
     if (!n || isPathEndpoint(id)) return;
     ctx.beginPath();
-    ctx.arc(n.x, n.y, nr * 1.8, 0, Math.PI * 2);
-    ctx.fillStyle = `hsl(${{n.hue}}, 70%, ${{n.lightness + 12}}%)`;
-    ctx.fill();
+    ctx.arc(n.x, n.y, (n.kind === 'capacity' ? nr * (n.capMul || 2.5) : nr * 1.8), 0, Math.PI * 2);
+    if (n.kind === 'capacity') {{
+      ctx.fillStyle = '#ffffff';
+      ctx.fill();
+      ctx.strokeStyle = '#000';
+      ctx.lineWidth = 1.0 / Math.sqrt(camScale);
+      ctx.stroke();
+    }} else {{
+      ctx.fillStyle = `hsl(${{n.hue}}, 70%, ${{n.lightness + 12}}%)`;
+      ctx.fill();
+    }}
   }});
   // Emphasize endpoints: the single focal node (ancestry reveal) or both path
   // endpoints + their shared ancestor (two-topic surfaces).
@@ -2057,10 +2117,16 @@ function drawPathOverlay() {{
     const s = nodeMap[id];
     if (!s) return;
     ctx.beginPath();
-    ctx.arc(s.x, s.y, nr * 3, 0, Math.PI * 2);
-    ctx.fillStyle = `hsl(${{s.hue}}, 85%, ${{s.lightness + 22}}%)`;
-    ctx.fill();
-    ctx.strokeStyle = "#fff";
+    ctx.arc(s.x, s.y, s.kind === 'capacity' ? nr * (s.capMul || 2.5) : nr * 3, 0, Math.PI * 2);
+    if (s.kind === 'capacity') {{
+      ctx.fillStyle = '#ffffff';
+      ctx.fill();
+      ctx.strokeStyle = '#000';
+    }} else {{
+      ctx.fillStyle = `hsl(${{s.hue}}, 85%, ${{s.lightness + 22}}%)`;
+      ctx.fill();
+      ctx.strokeStyle = "#fff";
+    }}
     ctx.lineWidth = 1.5 / Math.sqrt(camScale);
     ctx.stroke();
   }});
@@ -2142,8 +2208,19 @@ function showPanel(node, screenX, screenY) {{
   const courseLabel = node.course ? node.course.replace(/-/g, " ") : "";
 
   let html = `<button class="panel-close" onclick="hidePanel()">&times;</button>`;
-  html += `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
-  html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}}</div>`;
+  if (node.kind === 'capacity') {{
+    // Private origin-layer node: no public page exists, so show the title plain + body inline.
+    html += `<h3>${{node.title}}</h3>`;
+    html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}} &middot; private origin layer</div>`;
+    if (node.sections) {{
+      node.sections.forEach(s => {{
+        html += `<div class="panel-section"><h4>${{s.h}}</h4><div class="panel-cap-body">${{s.t}}</div></div>`;
+      }});
+    }}
+  }} else {{
+    html += `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
+    html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}}</div>`;
+  }}
 
   if (prereqs.length) {{
     html += `<div class="panel-section"><h4>Prerequisites (${{prereqs.length}})</h4>`;
@@ -2168,11 +2245,13 @@ function showPanel(node, screenX, screenY) {{
   html += `<button class="path-btn copy" data-act="copylink" title="Copy a shareable link">Copy link</button>`;
   html += `</div>`;
 
-  // Fluency correction buttons: quick self-report from the panel.
-  html += `<div class="panel-correction">`;
-  html += `<button class="iknow" data-act="know">I know this</button>`;
-  html += `<button class="dontknow" data-act="dontknow">I don't know this</button>`;
-  html += `</div>`;
+  // Fluency correction buttons: quick self-report from the panel. (Not for capacities — assumed-known.)
+  if (node.kind !== 'capacity') {{
+    html += `<div class="panel-correction">`;
+    html += `<button class="iknow" data-act="know">I know this</button>`;
+    html += `<button class="dontknow" data-act="dontknow">I don't know this</button>`;
+    html += `</div>`;
+  }}
 
   panel.innerHTML = html;
   panel.style.display = "block";
