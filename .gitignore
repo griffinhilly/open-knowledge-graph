@@ -9,3 +9,14 @@ Thumbs.db
 nohup*.out
 tools/validation/
 tools/qa_report.json
+
+# --- scratch / temp working files (added 2026-07-02) ---
+_bt_*
+_okg_validate*.txt
+dedup_stderr.txt
+tmp_*
+remaining_files.json
+
+# overnight-runner batch outputs (regenerable; scripts here stay tracked)
+tools/overnight/*.out
+tools/overnight/*.json
