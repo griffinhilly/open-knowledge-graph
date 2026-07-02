@@ -816,6 +816,28 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
         "Zoom in, search any topic, and trace its prerequisites.",
         "radial-graph.html")
 
+    # GoatCounter EVENT counter (premortem condition J, plans/level1-premortem-2026-07-01.md).
+    # Events only: no_onload means zero automatic pageviews — CF Web Analytics stays the
+    # single source of truth for pageviews. The inline settings/queue script must precede
+    # the async loader (settings are read when count.js executes); track() queues events
+    # fired before load (deep-link arrivals) and the loader's onload flushes the queue.
+    # The private variant gets track() but NO loader, so internal eyeballing never sends.
+    gc_inline = (
+        "<script>\n"
+        "window.goatcounter = {no_onload: true};\n"
+        "var _gcq = [];\n"
+        "function track(name) {\n"
+        "  if (window.goatcounter.count) goatcounter.count({path: name, event: true});\n"
+        "  else _gcq.push(name);\n"
+        "}\n"
+        "</script>")
+    gc_loader = (
+        '<script async src="https://gc.zgo.at/count.js" '
+        'data-goatcounter="https://okg.goatcounter.com/count" '
+        'onload="_gcq.splice(0).forEach(function(n){goatcounter.count({path:n,event:true})})">'
+        "</script>")
+    gc_block = gc_inline if private_variant else gc_inline + "\n" + gc_loader
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -823,6 +845,7 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>{title}</title>
 {radial_seo_block}
+{gc_block}
 <style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 html, body {{ overflow:hidden; touch-action:none; }}
@@ -1852,6 +1875,7 @@ function computeAncestry(G, startId) {{
 function revealAncestry(nodeId, maxHops) {{
   const node = nodeMap[nodeId];
   if (!node) return;
+  track(maxHops === Infinity ? 'ancestry-full-chain' : 'ancestry-reveal');
   withFullGraph(function (G) {{
     let anc = pathAncestryCache[nodeId];
     if (!anc) {{ anc = computeAncestry(G, nodeId); pathAncestryCache[nodeId] = anc; }}
@@ -2247,6 +2271,7 @@ function showPanel(node, screenX, screenY) {{
   if (node.kind === 'capacity') {{
     // Origin-layer capacity: no public page exists, so show the title plain + body inline.
     // (Sections are allowlisted at build time for the public variant — CAP_PUBLIC_SECTIONS.)
+    track('cap-panel-open/' + node.id);
     html += `<h3>${{node.title}}</h3>`;
     html += `<div class="panel-meta">{cap_panel_meta}</div>`;
     if (node.sections) {{
@@ -2257,6 +2282,7 @@ function showPanel(node, screenX, screenY) {{
       }});
     }}
   }} else {{
+    track('topic-panel-open');
     html += `<h3><a href="topics/${{node.id}}.html" target="_blank">${{node.title}}</a></h3>`;
     html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}}</div>`;
   }}
@@ -3082,6 +3108,7 @@ if (isSproutMode) {{
   if (pathParam) {{
     var ids = pathParam.split(',').map(function (s) {{ return s.trim(); }});
     if (ids.length === 2 && nodeMap[ids[0]] && nodeMap[ids[1]]) {{
+      track('deeplink/path');
       revealPath(ids[0], ids[1]);
       return;
     }}
@@ -3091,6 +3118,7 @@ if (isSproutMode) {{
   if (!targetId) return;
   var node = nodeMap[targetId];
   if (!node) return;
+  track(ancestryId ? 'deeplink/ancestry' : 'deeplink/focus');
   centerOnNode(node, ancestryId ? 3.5 : 5);
   selectedNode = node;
   hoveredNode = node;
