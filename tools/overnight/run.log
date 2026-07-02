@@ -7062,3 +7062,223 @@ Warnings (549):
 2026-03-14 19:54:00,341 [INFO]   Failed: 5
 2026-03-14 19:54:00,341 [INFO]   Failed: ['math-topology', 'math-multivariable-calculus', 'math-discrete-math', 'formal-sciences-and-logic--model-theory', 'social-sciences--crosslinks']
 2026-03-14 19:54:00,341 [INFO] ============================================================
+2026-04-03 21:46:19,697 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 21:46:19,697 [INFO] 
+[1/1] literature--stories-and-narrative (domain-course)
+2026-04-03 21:46:19,697 [INFO] ============================================================
+2026-04-03 21:46:19,697 [INFO] STARTING: literature--stories-and-narrative
+2026-04-03 21:46:19,697 [INFO] ============================================================
+2026-04-03 21:46:19,724 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 33172 chars)
+2026-04-03 21:52:53,075 [INFO] Generated 52 files for literature--stories-and-narrative
+2026-04-03 21:53:38,067 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 21:53:38,067 [INFO] 
+[1/1] literature--mythology-folklore-oral-traditions (domain-course)
+2026-04-03 21:53:38,067 [INFO] ============================================================
+2026-04-03 21:53:38,067 [INFO] STARTING: literature--mythology-folklore-oral-traditions
+2026-04-03 21:53:38,067 [INFO] ============================================================
+2026-04-03 21:53:38,074 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 54656 chars)
+2026-04-03 21:53:39,121 [WARNING] Validation issues for literature--stories-and-narrative (continuing anyway)
+2026-04-03 21:53:39,576 [INFO] Committed literature--stories-and-narrative
+2026-04-03 21:53:39,576 [INFO] COMPLETED: literature--stories-and-narrative (1/1 total)
+2026-04-03 21:53:39,578 [INFO] 
+============================================================
+2026-04-03 21:53:39,578 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 21:53:39,578 [INFO]   Completed: 1
+2026-04-03 21:53:39,578 [INFO]   Failed: 0
+2026-04-03 21:53:39,578 [INFO] ============================================================
+2026-04-03 22:00:12,239 [INFO] Generated 43 files for literature--mythology-folklore-oral-traditions
+2026-04-03 22:00:23,513 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:00:23,514 [INFO] 
+[1/1] literature--literary-movements-and-periods (domain-course)
+2026-04-03 22:00:23,514 [INFO] ============================================================
+2026-04-03 22:00:23,514 [INFO] STARTING: literature--literary-movements-and-periods
+2026-04-03 22:00:23,514 [INFO] ============================================================
+2026-04-03 22:00:23,521 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 56285 chars)
+2026-04-03 22:00:47,132 [WARNING] Validation issues for literature--mythology-folklore-oral-traditions (continuing anyway)
+2026-04-03 22:00:47,498 [INFO] Committed literature--mythology-folklore-oral-traditions
+2026-04-03 22:00:47,498 [INFO] COMPLETED: literature--mythology-folklore-oral-traditions (1/1 total)
+2026-04-03 22:00:47,499 [INFO] 
+============================================================
+2026-04-03 22:00:47,499 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:00:47,499 [INFO]   Completed: 1
+2026-04-03 22:00:47,499 [INFO]   Failed: 0
+2026-04-03 22:00:47,499 [INFO] ============================================================
+2026-04-03 22:04:13,113 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:04:13,113 [INFO] 
+[1/1] literature--literary-movements-and-periods (domain-course)
+2026-04-03 22:04:13,113 [INFO] ============================================================
+2026-04-03 22:04:13,113 [INFO] STARTING: literature--literary-movements-and-periods
+2026-04-03 22:04:13,113 [INFO] ============================================================
+2026-04-03 22:04:13,120 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 56285 chars)
+2026-04-03 22:04:15,869 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:04:15,869 [INFO] 
+[1/1] literature--genre-fiction (domain-course)
+2026-04-03 22:04:15,869 [INFO] ============================================================
+2026-04-03 22:04:15,869 [INFO] STARTING: literature--genre-fiction
+2026-04-03 22:04:15,869 [INFO] ============================================================
+2026-04-03 22:04:15,874 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 35997 chars)
+2026-04-03 22:04:19,112 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:04:19,112 [INFO] 
+[1/1] literature--creative-nonfiction (domain-course)
+2026-04-03 22:04:19,112 [INFO] ============================================================
+2026-04-03 22:04:19,112 [INFO] STARTING: literature--creative-nonfiction
+2026-04-03 22:04:19,112 [INFO] ============================================================
+2026-04-03 22:04:19,117 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 35928 chars)
+2026-04-03 22:04:21,853 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:04:21,854 [INFO] 
+[1/1] literature--world-literature (domain-course)
+2026-04-03 22:04:21,854 [INFO] ============================================================
+2026-04-03 22:04:21,854 [INFO] STARTING: literature--world-literature
+2026-04-03 22:04:21,854 [INFO] ============================================================
+2026-04-03 22:04:21,861 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 56281 chars)
+2026-04-03 22:04:22,353 [INFO] Generated 49 files for literature--literary-movements-and-periods
+2026-04-03 22:04:24,328 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:04:24,329 [INFO] 
+[1/1] literature--childrens-and-ya-literature (domain-course)
+2026-04-03 22:04:24,329 [INFO] ============================================================
+2026-04-03 22:04:24,329 [INFO] STARTING: literature--childrens-and-ya-literature
+2026-04-03 22:04:24,329 [INFO] ============================================================
+2026-04-03 22:04:24,338 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 37947 chars)
+2026-04-03 22:04:27,732 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:04:27,732 [INFO] 
+[1/1] literature--digital-and-experimental-literature (domain-course)
+2026-04-03 22:04:27,732 [INFO] ============================================================
+2026-04-03 22:04:27,732 [INFO] STARTING: literature--digital-and-experimental-literature
+2026-04-03 22:04:27,732 [INFO] ============================================================
+2026-04-03 22:04:27,745 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 64796 chars)
+2026-04-03 22:05:06,179 [WARNING] Validation issues for literature--literary-movements-and-periods (continuing anyway)
+2026-04-03 22:05:06,568 [INFO] Committed literature--literary-movements-and-periods
+2026-04-03 22:05:06,569 [INFO] COMPLETED: literature--literary-movements-and-periods (1/1 total)
+2026-04-03 22:05:06,570 [INFO] 
+============================================================
+2026-04-03 22:05:06,570 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:05:06,570 [INFO]   Completed: 1
+2026-04-03 22:05:06,570 [INFO]   Failed: 0
+2026-04-03 22:05:06,570 [INFO] ============================================================
+2026-04-03 22:05:06,741 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:05:06,741 [INFO] 
+[1/1] literature--genre-fiction (domain-course)
+2026-04-03 22:05:06,741 [INFO] ============================================================
+2026-04-03 22:05:06,741 [INFO] STARTING: literature--genre-fiction
+2026-04-03 22:05:06,741 [INFO] ============================================================
+2026-04-03 22:05:06,746 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 37778 chars)
+2026-04-03 22:08:37,837 [INFO] Generated 29 files for literature--digital-and-experimental-literature
+2026-04-03 22:08:59,851 [INFO] Generated 35 files for literature--childrens-and-ya-literature
+2026-04-03 22:09:05,970 [INFO] Generated 40 files for literature--creative-nonfiction
+2026-04-03 22:09:06,573 [INFO] Generated 47 files for literature--genre-fiction
+2026-04-03 22:09:19,874 [WARNING] Validation issues for literature--digital-and-experimental-literature (continuing anyway)
+2026-04-03 22:09:26,131 [INFO] Committed literature--digital-and-experimental-literature
+2026-04-03 22:09:26,131 [INFO] COMPLETED: literature--digital-and-experimental-literature (1/1 total)
+2026-04-03 22:09:26,132 [INFO] 
+============================================================
+2026-04-03 22:09:26,132 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:09:26,132 [INFO]   Completed: 1
+2026-04-03 22:09:26,132 [INFO]   Failed: 0
+2026-04-03 22:09:26,132 [INFO] ============================================================
+2026-04-03 22:09:35,470 [INFO] Generated 46 files for literature--literary-movements-and-periods
+2026-04-03 22:09:41,577 [WARNING] Validation issues for literature--creative-nonfiction (continuing anyway)
+2026-04-03 22:09:41,894 [INFO] Committed literature--creative-nonfiction
+2026-04-03 22:09:41,894 [INFO] COMPLETED: literature--creative-nonfiction (1/1 total)
+2026-04-03 22:09:41,894 [INFO] 
+============================================================
+2026-04-03 22:09:41,894 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:09:41,894 [INFO]   Completed: 1
+2026-04-03 22:09:41,894 [INFO]   Failed: 0
+2026-04-03 22:09:41,894 [INFO] ============================================================
+2026-04-03 22:09:56,974 [INFO] Generated 42 files for literature--genre-fiction
+2026-04-03 22:10:14,514 [WARNING] Validation issues for literature--literary-movements-and-periods (continuing anyway)
+2026-04-03 22:10:14,848 [INFO] Committed literature--literary-movements-and-periods
+2026-04-03 22:10:14,848 [INFO] COMPLETED: literature--literary-movements-and-periods (1/1 total)
+2026-04-03 22:10:14,848 [INFO] 
+============================================================
+2026-04-03 22:10:14,848 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:10:14,848 [INFO]   Completed: 1
+2026-04-03 22:10:14,848 [INFO]   Failed: 0
+2026-04-03 22:10:14,848 [INFO] ============================================================
+2026-04-03 22:10:36,375 [WARNING] Validation issues for literature--genre-fiction (continuing anyway)
+2026-04-03 22:10:36,573 [INFO] Committed literature--genre-fiction
+2026-04-03 22:10:36,574 [INFO] COMPLETED: literature--genre-fiction (1/1 total)
+2026-04-03 22:10:36,574 [INFO] 
+============================================================
+2026-04-03 22:10:36,574 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:10:36,575 [INFO]   Completed: 1
+2026-04-03 22:10:36,575 [INFO]   Failed: 0
+2026-04-03 22:10:36,575 [INFO] ============================================================
+2026-04-03 22:10:36,716 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:10:36,716 [INFO] 
+[1/1] literature--creative-nonfiction (domain-course)
+2026-04-03 22:10:36,716 [INFO] ============================================================
+2026-04-03 22:10:36,716 [INFO] STARTING: literature--creative-nonfiction
+2026-04-03 22:10:36,716 [INFO] ============================================================
+2026-04-03 22:10:36,721 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 45492 chars)
+2026-04-03 22:11:03,587 [INFO] Generated 45 files for literature--world-literature
+2026-04-03 22:11:37,901 [WARNING] Validation issues for literature--world-literature (continuing anyway)
+2026-04-03 22:11:38,217 [INFO] Committed literature--world-literature
+2026-04-03 22:11:38,218 [INFO] COMPLETED: literature--world-literature (1/1 total)
+2026-04-03 22:11:38,218 [INFO] 
+============================================================
+2026-04-03 22:11:38,218 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:11:38,218 [INFO]   Completed: 1
+2026-04-03 22:11:38,218 [INFO]   Failed: 0
+2026-04-03 22:11:38,218 [INFO] ============================================================
+2026-04-03 22:15:13,250 [INFO] Generated 46 files for literature--creative-nonfiction
+2026-04-03 22:15:50,083 [WARNING] Validation issues for literature--creative-nonfiction (continuing anyway)
+2026-04-03 22:15:50,432 [INFO] Committed literature--creative-nonfiction
+2026-04-03 22:15:50,432 [INFO] COMPLETED: literature--creative-nonfiction (1/1 total)
+2026-04-03 22:15:50,432 [INFO] 
+============================================================
+2026-04-03 22:15:50,433 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:15:50,433 [INFO]   Completed: 1
+2026-04-03 22:15:50,433 [INFO]   Failed: 0
+2026-04-03 22:15:50,433 [INFO] ============================================================
+2026-04-03 22:15:50,569 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:15:50,569 [INFO] 
+[1/1] literature--world-literature (domain-course)
+2026-04-03 22:15:50,569 [INFO] ============================================================
+2026-04-03 22:15:50,569 [INFO] STARTING: literature--world-literature
+2026-04-03 22:15:50,569 [INFO] ============================================================
+2026-04-03 22:15:50,577 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 68297 chars)
+2026-04-03 22:20:56,136 [INFO] Generated 47 files for literature--world-literature
+2026-04-03 22:21:32,664 [WARNING] Validation issues for literature--world-literature (continuing anyway)
+2026-04-03 22:21:33,142 [INFO] Committed literature--world-literature
+2026-04-03 22:21:33,142 [INFO] COMPLETED: literature--world-literature (1/1 total)
+2026-04-03 22:21:33,143 [INFO] 
+============================================================
+2026-04-03 22:21:33,143 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:21:33,143 [INFO]   Completed: 1
+2026-04-03 22:21:33,143 [INFO]   Failed: 0
+2026-04-03 22:21:33,143 [INFO] ============================================================
+2026-04-03 22:21:33,274 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:21:33,274 [INFO] 
+[1/1] literature--childrens-and-ya-literature (domain-course)
+2026-04-03 22:21:33,275 [INFO] ============================================================
+2026-04-03 22:21:33,275 [INFO] STARTING: literature--childrens-and-ya-literature
+2026-04-03 22:21:33,275 [INFO] ============================================================
+2026-04-03 22:21:33,280 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 50228 chars)
+2026-04-03 22:25:59,738 [INFO] Generated 35 files for literature--childrens-and-ya-literature
+2026-04-03 22:26:42,907 [WARNING] Validation issues for literature--childrens-and-ya-literature (continuing anyway)
+2026-04-03 22:26:43,480 [INFO] Committed literature--childrens-and-ya-literature
+2026-04-03 22:26:43,481 [INFO] COMPLETED: literature--childrens-and-ya-literature (1/1 total)
+2026-04-03 22:26:43,482 [INFO] 
+============================================================
+2026-04-03 22:26:43,482 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:26:43,482 [INFO]   Completed: 1
+2026-04-03 22:26:43,482 [INFO]   Failed: 0
+2026-04-03 22:26:43,482 [INFO] ============================================================
+2026-04-03 22:26:43,639 [INFO] Queue: 1 remaining / 1 total
+2026-04-03 22:26:43,639 [INFO] 
+[1/1] literature--digital-and-experimental-literature (domain-course)
+2026-04-03 22:26:43,639 [INFO] ============================================================
+2026-04-03 22:26:43,639 [INFO] STARTING: literature--digital-and-experimental-literature
+2026-04-03 22:26:43,639 [INFO] ============================================================
+2026-04-03 22:26:43,649 [INFO] Running: claude --print --dangerously-skip-permissions --model haiku (prompt: 78488 chars)
+2026-04-03 22:31:10,544 [INFO] Generated 30 files for literature--digital-and-experimental-literature
+2026-04-03 22:31:55,239 [WARNING] Validation issues for literature--digital-and-experimental-literature (continuing anyway)
+2026-04-03 22:31:55,723 [INFO] Committed literature--digital-and-experimental-literature
+2026-04-03 22:31:55,723 [INFO] COMPLETED: literature--digital-and-experimental-literature (1/1 total)
+2026-04-03 22:31:55,724 [INFO] 
+============================================================
+2026-04-03 22:31:55,724 [INFO] OVERNIGHT RUN COMPLETE
+2026-04-03 22:31:55,724 [INFO]   Completed: 1
+2026-04-03 22:31:55,724 [INFO]   Failed: 0
+2026-04-03 22:31:55,724 [INFO] ============================================================
