@@ -1,6 +1,6 @@
 ---
 id: symbolic-function
-title: Symbolic Function
+title: Symbolic Thinking
 domain: developmental-origins
 course: precursor-capacities
 prerequisites:
@@ -17,16 +17,17 @@ status: reference
 kind: capacity
 ---
 
-# Symbolic Function
+# Symbolic Thinking
 
 ## Core Idea
 
 The gateway capacity: holding something in mind in its absence and letting one thing stand for
 another. It is what makes a banana become a telephone in play, what lets a word, drawing, or number
 represent a thing that is not here. Once symbolic function is online, language, pretend play, counting,
-and the whole pre-formal curriculum become learnable. It rests on naming (a sign standing for a thing)
-and on object permanence (representing what is out of sight), and it is the bridge from the origin
-layer up into taught topics.
+and the whole pre-formal curriculum become learnable. It rests on object permanence (holding in mind
+what is out of sight) and on social partnership (symbols are shared with someone — joint attention);
+it in turn grounds naming, sharpens discernment, and forms the bridge from the origin layer up into
+taught topics.
 
 ## Emerges Through
 

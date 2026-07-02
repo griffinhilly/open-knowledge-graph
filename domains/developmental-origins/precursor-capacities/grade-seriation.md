@@ -1,6 +1,6 @@
 ---
 id: grade-seriation
-title: Grading and Seriation
+title: Ordering and Comparing
 domain: developmental-origins
 course: precursor-capacities
 prerequisites:
@@ -16,7 +16,7 @@ status: reference
 kind: capacity
 ---
 
-# Grading and Seriation
+# Ordering and Comparing
 
 ## Core Idea
 

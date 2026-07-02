@@ -159,7 +159,7 @@ def load_all_topics(include_caps=False):
         data = parse_frontmatter(filepath)
         if data and "id" in data:
             if data.get("kind") == "capacity" and not include_caps:
-                continue  # origin layer: not shown in the public radial (only with --with-origins)
+                continue  # Level 1 (Jul 2026): the radial always loads capacities; param kept for reuse
             all_data[data["id"]] = data
     return all_data
 
@@ -494,11 +494,12 @@ def build_radial_layout(all_data, configs, depths):
             "stage": stage,
         }
 
-    # --with-origins: seed capacity nodes as a CENTRAL HUB — concentric rings at the origin, NOT domain
+    # Origin layer: seed capacity nodes as a CENTRAL HUB — concentric rings at the origin, NOT domain
     # wedges. target_r pins them near the center through the radial spring-back below; edges fan out to
     # every domain. Discernment sits dead-center (the convergence hub); its three direct feeders
     # (core-objects, core-number, symbolic-function) form a tight INNER ring; the other six sit outer.
-    # (private variant)
+    # Ring radii keep the hub disc (settles r≈3.9, radius 6 world units at 3x) clear of the
+    # feeder discs (radius 5) — premortem condition B (occlusion).
     cap_present = sorted(tid for tid, d in all_data.items() if d.get("kind") == "capacity")
     HUB = "discernment-same-different"  # central operation everything routes through — sits dead-center
     FEEDERS = ["core-objects", "core-number", "symbolic-function"]  # discernment's direct prereqs
@@ -510,9 +511,9 @@ def build_radial_layout(all_data, configs, depths):
                           "r": rr, "theta": theta, "target_r": rr,
                           "target_theta": theta, "stage": "proto-formal"}
     for i, tid in enumerate(inner):
-        _seed(tid, 12.0, (i / max(1, len(inner))) * 2 * math.pi)
+        _seed(tid, 16.0, (i / max(1, len(inner))) * 2 * math.pi)
     for i, tid in enumerate(outer):
-        _seed(tid, 24.0, (i / max(1, len(outer))) * 2 * math.pi + 0.35)  # offset so rings don't align
+        _seed(tid, 28.0, (i / max(1, len(outer))) * 2 * math.pi + 0.35)  # offset so rings don't align
     if HUB in cap_present:
         positions[HUB] = {"x": 0.001, "y": 0.0, "r": 0.0, "theta": 0.0,
                           "target_r": 0.0, "target_theta": 0.0, "stage": "proto-formal"}
@@ -645,16 +646,26 @@ def build_radial_layout(all_data, configs, depths):
     return positions, sectors, domain_order
 
 
-def generate_radial_html(all_data, configs, depths, positions, sectors, domain_order):
-    """Generate the interactive radial visualization HTML."""
+def generate_radial_html(all_data, configs, depths, positions, sectors, domain_order,
+                         private_variant=False):
+    """Generate the interactive radial visualization HTML.
+
+    private_variant=True (--with-origins) is the INTERNAL review build: capacity
+    panels render ALL body sections (incl. Observable Signs / On the Name) with
+    private labeling. The public build renders capacities too (Level 1, premortem
+    plans/level1-premortem-2026-07-01.md) but allowlists panel sections to
+    Core Idea + Emerges Through — Observable Signs never ships publicly (§0.1).
+    """
 
     max_depth = max(depths.values()) if depths else 1
 
     nodes = []
     edges = []
 
-    # Capacity nodes have NO public page (privacy invariant), so the panel can't link out.
-    # Pull their body sections here so the PRIVATE (--with-origins) map renders them inline on click.
+    # Capacity nodes have NO public page (kind-guard invariant), so the panel renders
+    # their body inline. Public build: section ALLOWLIST only — Observable Signs and
+    # On the Name are authored-but-not-rendered (§0.1 / origin-layer-spec §0 cond. 1).
+    CAP_PUBLIC_SECTIONS = ("Core Idea", "Emerges Through")
     cap_sections = {}
     cap_dir = DOMAINS_DIR / "developmental-origins" / "precursor-capacities"
     for tid, data in all_data.items():
@@ -666,11 +677,29 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
         _cd, _cbody = parse_topic(fp)
         secs = []
         for _h, _t in parse_sections(_cbody).items():
-            _t = re.sub(r"[*_`#>]", "", _t)
-            _t = re.sub(r"\s+", " ", _t).strip()
+            if not private_variant and _h not in CAP_PUBLIC_SECTIONS:
+                continue
+            # Preserve list structure: bullet lines get a "• " prefix instead of collapsing
+            # into a "- x - y" run-on; prose lines join with spaces.
+            parts = []
+            for _ln in _t.splitlines():
+                _ln = _ln.strip()
+                if not _ln:
+                    continue
+                _m = re.match(r"^[-*]\s+(.*)", _ln)
+                _core = re.sub(r"[*_`#>]", "", _m.group(1) if _m else _ln).strip()
+                if _core:
+                    parts.append("• " + _core if _m else _core)
+            _t = " ".join(parts)
             if _t:
                 secs.append({"h": _h, "t": _t})
         cap_sections[tid] = secs
+
+    # Panel meta line for capacity nodes. Public wording carries the lineage framing
+    # ("developed in early childhood"), never the private-substrate register.
+    cap_panel_meta = ("${domainLabel} &middot; ${courseLabel} &middot; private origin layer"
+                      if private_variant else
+                      "${domainLabel} &middot; a capacity developed in early childhood")
 
     for tid, data in all_data.items():
         if tid not in positions:
@@ -705,9 +734,11 @@ def generate_radial_html(all_data, configs, depths, positions, sectors, domain_o
         }
         if data.get("kind") == "capacity":
             # Discernment (the central hub) renders larger than the other capacities.
-            node["capMul"] = 4.0 if tid == "discernment-same-different" else 2.5
+            # 3.0 not 4.0: a lone 4x sun dead-center over-reads as "single origin of
+            # everything" (premortem condition C; spec §1.3 funnel-not-pinch).
+            node["capMul"] = 3.0 if tid == "discernment-same-different" else 2.5
             if cap_sections.get(tid):
-                node["sections"] = cap_sections[tid]  # private map: inline body (no public page exists)
+                node["sections"] = cap_sections[tid]  # inline body (no public page exists)
         nodes.append(node)
 
         for p in data.get("prerequisites", []):
@@ -1804,6 +1835,9 @@ function computeAncestry(G, startId) {{
     const h = hopOf[cur];
     const entry = G[cur];
     if (!entry || !entry.p) continue;
+    // Ancestry terminates AT a capacity — never traverse the capacity DAG's own
+    // edges (premortem condition B/D: reveals reach the origins, not through them).
+    if (cur !== startId && nodeMap[cur] && nodeMap[cur].kind === 'capacity') continue;
     for (let i = 0; i < entry.p.length; i++) {{
       const pid = entry.p[i];
       if (!nodeMap[pid]) continue;        // skip dangling ids with no position
@@ -1853,7 +1887,7 @@ function revealAncestry(nodeId, maxHops) {{
       + '</strong> builds on &mdash; ' + shown + ' topic' + (shown === 1 ? '' : 's')
       + (hasMore ? ' within ' + maxHops + ' steps' : ' (full chain)') + '.</span>';
     if (hasMore) {{
-      banner += '<button onclick="revealAncestryFull()">Show full chain (' + totalAncestors + ')</button>';
+      banner += '<button onclick="revealAncestryFull()">Show full chain to its origins (' + totalAncestors + ')</button>';
     }}
     banner += '<button class="pb-clear" onclick="clearPath()">Clear</button>';
     showPathBanner(banner);
@@ -2159,11 +2193,13 @@ canvas.addEventListener("mousemove", (e) => {{
     }}
 
     const stageLabels = {{
+      "proto-formal": "Infancy & Early Childhood",
       "pre-formal": "Early Childhood",
       "concrete-operations": "Elementary",
       "abstract-reasoning": "Middle/High School",
       "formal-systems": "College",
       "advanced": "Graduate",
+      "expert": "Graduate & Research",
     }};
     const domainLabel = closest.domain ? closest.domain.replace(/-/g, " ") : "";
     const courseLabel = closest.course ? closest.course.replace(/-/g, " ") : "";
@@ -2209,12 +2245,15 @@ function showPanel(node, screenX, screenY) {{
 
   let html = `<button class="panel-close" onclick="hidePanel()">&times;</button>`;
   if (node.kind === 'capacity') {{
-    // Private origin-layer node: no public page exists, so show the title plain + body inline.
+    // Origin-layer capacity: no public page exists, so show the title plain + body inline.
+    // (Sections are allowlisted at build time for the public variant — CAP_PUBLIC_SECTIONS.)
     html += `<h3>${{node.title}}</h3>`;
-    html += `<div class="panel-meta">${{domainLabel}} &middot; ${{courseLabel}} &middot; private origin layer</div>`;
+    html += `<div class="panel-meta">{cap_panel_meta}</div>`;
     if (node.sections) {{
       node.sections.forEach(s => {{
-        html += `<div class="panel-section"><h4>${{s.h}}</h4><div class="panel-cap-body">${{s.t}}</div></div>`;
+        var eh = s.h.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        var et = s.t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        html += `<div class="panel-section"><h4>${{eh}}</h4><div class="panel-cap-body">${{et}}</div></div>`;
       }});
     }}
   }} else {{
@@ -3069,11 +3108,13 @@ def main():
     parser = argparse.ArgumentParser(description="Radial knowledge graph visualization")
     parser.add_argument("--output", help="Output file path")
     parser.add_argument("--with-origins", action="store_true",
-                        help="PRIVATE variant: include the origin-layer capacities as a central hub")
+                        help="INTERNAL review variant: capacity panels render ALL body sections "
+                             "(incl. Observable Signs / On the Name) with private labeling. The "
+                             "default public build renders capacities with allowlisted sections.")
     args = parser.parse_args()
 
     print("Loading topics...")
-    all_data = load_all_topics(include_caps=args.with_origins)
+    all_data = load_all_topics(include_caps=True)
     configs = load_domain_configs()
     print(f"Loaded {len(all_data)} topics across {len(configs)} domains")
 
@@ -3085,7 +3126,8 @@ def main():
     positions, sectors, domain_order = build_radial_layout(all_data, configs, local_depths)
 
     print("Generating HTML...")
-    html = generate_radial_html(all_data, configs, depths, positions, sectors, domain_order)
+    html = generate_radial_html(all_data, configs, depths, positions, sectors, domain_order,
+                                private_variant=args.with_origins)
 
     default_name = "radial-with-origins.html" if args.with_origins else "radial-graph.html"
     out = Path(args.output) if args.output else OUTPUT_DIR / default_name

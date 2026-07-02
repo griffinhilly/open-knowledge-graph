@@ -28,9 +28,9 @@ CAP_IDS = {"core-objects", "core-agents", "core-number", "core-space", "core-soc
 CAP_SHORT = {
     "core-objects": "Objects", "core-agents": "Agents", "core-number": "Number",
     "core-space": "Space", "core-social": "Social",
-    "discernment-same-different": "Discernment", "grade-seriation": "Grade / Seriation",
+    "discernment-same-different": "Discernment", "grade-seriation": "Ordering",
     "naming-symbol-reference": "Naming", "classification-sorting": "Classification",
-    "symbolic-function": "Symbolic Function",
+    "symbolic-function": "Symbolic Thinking",
 }
 
 # Build-up tier (for a gentle vertical layout hint): foundations at the bottom, gateway at the top.
