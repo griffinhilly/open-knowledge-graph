@@ -4,9 +4,7 @@ title: Spatial Layout and Geometry
 domain: developmental-origins
 course: precursor-capacities
 prerequisites: []
-builds-toward:
-- discernment-same-different
-- naming-symbol-reference
+builds-toward: []
 tags: [core-knowledge, space, geometry, navigation, foundations]
 stage: proto-formal
 status: reference

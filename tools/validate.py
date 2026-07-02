@@ -457,6 +457,25 @@ def main():
             errors.append(f"  ERROR  Pre-formal topic '{tid}' dead-ends: no capacity node in its "
                           f"prerequisite ancestry (wire it in tools/wire_capacities.py)")
 
+    # Origin-layer builds-toward reciprocity (CAPACITY-SCOPED only — the global check was removed
+    # 2026-06-23 because non-reciprocity is by-design across the 15k graph). The hand-authored capacity
+    # layer is small and narrative-load-bearing: a stale/un-reciprocated capacity builds-toward is
+    # silently converted into a soft prerequisite by tools/reconcile.py, which can rewrite the
+    # deliberate feeder structure of the hub. Catch that drift loudly here. (Jul-1 reviewer finding.)
+    for tid, d in all_data.items():
+        if d.get("kind") != "capacity":
+            continue
+        for bt in (d.get("builds-toward") or []):
+            tgt = all_data.get(bt)
+            if not tgt:
+                continue
+            tgt_prereqs = {(p.get("id") if isinstance(p, dict) else p)
+                           for p in (tgt.get("prerequisites") or [])}
+            if tid not in tgt_prereqs:
+                warnings.append(f"  WARN   Capacity '{tid}' builds-toward '{bt}' but '{bt}' does not "
+                                f"list it as a prerequisite (stale forward-hint; reconcile.py would "
+                                f"inject it as a soft prereq and rewrite the capacity structure)")
+
     # Course-stage audit: find courses staged below their cross-course prereqs
     if not quick:
         STAGE_RANK = {s: i for i, s in enumerate(["proto-formal", "pre-formal", "concrete-operations",

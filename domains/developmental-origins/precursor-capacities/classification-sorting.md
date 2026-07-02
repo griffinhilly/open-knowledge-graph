@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: naming-symbol-reference
   type: soft
-builds-toward:
-- symbolic-function
+builds-toward: []
 tags: [operations, classification, sorting, categories, foundations]
 stage: proto-formal
 status: reference

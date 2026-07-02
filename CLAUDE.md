@@ -26,6 +26,7 @@ Tool commands: see `guides/tools-reference.md`
 - IDs are globally unique across all domains
 - Topics belong to the course where they are first formally introduced
 - Prerequisites point backward; builds-toward points forward (informational)
+- An edge `A → B` means "B **draws upon** A," NOT "A is chronologically earlier" — `stage` is the separate time axis. Mutual reinforcement is never bidirectional (pick the dominant direction; keeps the DAG acyclic). See `meta/schema.md` "DAG as Pedagogical Simplification."
 - The prerequisite graph is the source of truth for sequencing
 - **Node kind**: `kind: topic` (default, omitted) vs `kind: capacity` (origin layer). Capacity nodes stay IN the prereq graph (so ancestry resolves) but are filtered from every OUTPUT surface (pages, keystone, JSON-LD, viz, sitemap, counts) by a one-line `kind`-guard; they are assumed-known in the fluency engine. NEVER render or index them. See `plans/origin-layer-spec.md`.
 - Each domain has a `_domain.yml` with domain metadata and course list
@@ -55,7 +56,7 @@ The radial layout (`visualize_radial.py`) has several tunable parameters in the 
 - **Cross-domain edge attraction** (0.008) vs same-domain (0.003): cross-domain edges pull 2.67x harder.
 - **Radial jitter** (5% of band width): keeps depth ordering intact while adding organic feel.
 - **Prerequisite ordering force** (0.006): soft force pushing prerequisites inward, successors outward when they overlap radially.
-- 2,325 edges (8%) still violate radial ordering (prereq staged more advanced than successor). ~676 have 2+ stage gap. Triage by severity for data fixes.
+- 2,325 edges (8%) have a prereq staged more advanced than its successor. Under the "draws-upon" edge semantics (see `meta/schema.md`) many are legitimate — a concept can be *drawn upon* before it is formally staged — so these are NOT blanket data fixes. Only genuine mis-stagings are debt; the ~676 with a 2+ stage gap are the triage-first candidates.
 
 ## Learning Platform Architecture (Phase 9)
 - **Fluency model**: Continuous 0-100 per topic, Bayesian log-odds updates, prerequisite propagation

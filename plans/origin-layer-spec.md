@@ -170,7 +170,7 @@ NO `## Questions` (not assessable) — so assessment skips them even before the 
 | `core-number` | Approximate Number and Small-Set Tracking | Rough magnitude ("more") + exact tracking of 1–3 things. |
 | `core-space` | Spatial Layout and Geometry | Distance, direction, and arrangement of places. |
 | `core-social` | Social Beings and In-Group Awareness | People are special agents; self vs. others, familiar vs. stranger. *(Open Decision B — include?)* |
-| `discernment-same-different` | Discrimination: Same and Different | Isolate one attribute and judge two things same or different. The root operation. |
+| `discernment-same-different` | Discernment: Same and Different | Isolate one attribute and judge two things same or different. The central operation (renamed from "Discrimination"; fed by objects, number, and symbolic-function under the Jul-1 restructure). |
 
 ### Build-up (depend on foundations)
 | id | title | prereqs (kind:capacity) | core idea |
