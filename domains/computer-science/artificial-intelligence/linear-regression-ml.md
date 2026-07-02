@@ -5,7 +5,7 @@ domain: computer-science
 course: artificial-intelligence
 prerequisites:
 - id: matrices-intro
-  type: soft
+  type: hard
 - id: eigenvalues-and-eigenvectors
   type: soft
 - id: linear-transformations
@@ -13,11 +13,11 @@ prerequisites:
 - id: linear-systems-notation
   type: soft
 - id: expected-value
-  type: soft
+  type: hard
 - id: least-squares-approximation
-  type: soft
+  type: hard
 - id: matrix-operations
-  type: soft
+  type: hard
 - id: statistics-descriptive
   type: soft
 - id: expected-value-and-variance

@@ -7,9 +7,9 @@ prerequisites:
 - id: neural-networks-intro
   type: hard
 - id: chain-rule-multivariable
-  type: soft
+  type: hard
 - id: chain-rule
-  type: soft
+  type: hard
 - id: partial-derivatives
   type: soft
 - id: linear-transformations

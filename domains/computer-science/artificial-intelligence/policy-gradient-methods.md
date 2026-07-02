@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: hard
+- id: chain-rule-multivariable
+  type: hard
 tags:
 - reinforcement-learning
 - policy-optimization

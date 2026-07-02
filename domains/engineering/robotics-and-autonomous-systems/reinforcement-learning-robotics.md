@@ -3,7 +3,13 @@ id: reinforcement-learning-robotics
 title: Reinforcement Learning for Robot Control
 domain: engineering
 course: robotics-and-autonomous-systems
-prerequisites: []
+prerequisites:
+- id: reinforcement-learning-intro
+  type: hard
+- id: policy-gradient-methods
+  type: hard
+- id: deep-q-networks
+  type: hard
 builds-toward:
 - imitation-learning
 - sim-to-real-transfer

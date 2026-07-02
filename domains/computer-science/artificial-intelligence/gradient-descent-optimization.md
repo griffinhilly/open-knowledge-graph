@@ -5,15 +5,15 @@ domain: computer-science
 course: artificial-intelligence
 prerequisites:
 - id: partial-derivatives
-  type: soft
+  type: hard
 - id: critical-points-extrema
-  type: soft
+  type: hard
 - id: derivatives-of-exponential-functions
   type: soft
 - id: multivariable-limits
-  type: soft
+  type: hard
 - id: directional-derivatives-gradient
-  type: soft
+  type: hard
 - id: vanishing-gradient-problem
   type: soft
 tags:
