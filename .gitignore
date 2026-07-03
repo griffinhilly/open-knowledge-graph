@@ -20,3 +20,14 @@ remaining_files.json
 # overnight-runner batch outputs (regenerable; scripts here stay tracked)
 tools/overnight/*.out
 tools/overnight/*.json
+tools/overnight/worker-pids.txt
+
+# restaging pipeline outputs (regenerable from the committed scripts)
+tools/restaging_data.json
+tools/restaging_recommendations_merged.json
+tools/restaging_batches/
+tools/stage-audit-soft.json
+tools/topology-compact.txt
+
+# Claude Code local worktrees
+.claude/worktrees/
