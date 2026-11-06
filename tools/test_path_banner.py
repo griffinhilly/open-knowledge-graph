@@ -8,7 +8,8 @@ Inputs: output/radial-graph.html + output/js/graph.js (build with
   `python tools/visualize_hierarchy.py --index-only && python tools/visualize_radial.py`).
 Outputs: none (exit 0 = pass, 1 = fail).
 last_run: 2026-11-06
-Usage: python tools/test_path_banner.py
+Usage: python tools/test_path_banner.py [--base https://openknowledgegraph.com]
+  (--base runs the same checks against a deployed site instead of output/)
 """
 import functools, http.server, pathlib, socketserver, sys, threading
 from playwright.sync_api import sync_playwright
@@ -55,10 +56,14 @@ def load(page, url, need_banner=True):
 
 
 def main():
-    if not (OUT / "radial-graph.html").exists():
+    if "--base" not in sys.argv and not (OUT / "radial-graph.html").exists():
         print("FAIL: output/radial-graph.html missing — build it first"); return 1
-    srv = serve()
-    base = f"http://127.0.0.1:{srv.server_address[1]}/radial-graph.html"
+    srv = None
+    if "--base" in sys.argv:
+        base = sys.argv[sys.argv.index("--base") + 1].rstrip("/") + "/radial-graph.html"
+    else:
+        srv = serve()
+        base = f"http://127.0.0.1:{srv.server_address[1]}/radial-graph.html"
     fails = []
     with sync_playwright() as p:
         br = p.chromium.launch()
@@ -81,7 +86,8 @@ def main():
             elif must_name and must_name not in r["text"]:
                 fails.append(f"{name}: banner does not name the missing id: {r['text'][:90]!r}")
         br.close()
-    srv.shutdown()
+    if srv:
+        srv.shutdown()
     for f in fails:
         print("FAIL:", f)
     print("ALL PASS" if not fails else f"{len(fails)} failure(s)")
