@@ -914,11 +914,14 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
   position:fixed; top:16px; left:50%; transform:translateX(-50%);
   display:none; align-items:center; gap:12px;
   background:rgba(10,14,24,0.95); border:1px solid #2a3a55;
-  border-radius:999px; padding:8px 16px; z-index:40;
-  font-size:13px; color:#cde; max-width:92vw;
+  border-radius:14px; padding:8px 16px; z-index:40;
+  font-size:13px; color:#cde;
+  /* width:max-content stops the left:50% box from sizing against half the
+     viewport; the text wraps instead of clipping the banner's answer. */
+  width:max-content; max-width:min(760px, max(360px, calc(100vw - 640px)));
   box-shadow:0 4px 20px rgba(0,0,0,0.45);
 }}
-#pathBanner span {{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }}
+#pathBanner span {{ white-space:normal; line-height:1.4; }}
 #pathBanner strong {{ color:#fff; }}
 #pathBanner button {{
   flex:0 0 auto; background:none; border:1px solid #3a4a66;
@@ -1110,7 +1113,7 @@ canvas {{ display:block; position:relative; cursor:grab; touch-action:none; }}
     padding:16px 20px 24px; box-sizing:border-box;
   }}
   #panel .panel-close {{ top:12px; right:14px; font-size:24px; padding:8px; }}
-  #pathBanner {{ top:8px; flex-wrap:wrap; justify-content:center; gap:8px; font-size:12px; padding:8px 12px; }}
+  #pathBanner {{ top:8px; flex-wrap:wrap; justify-content:center; gap:8px; font-size:12px; padding:8px 12px; max-width:92vw; }}
   #pathBanner span {{ white-space:normal; flex-basis:100%; text-align:center; }}
   #search {{ width:calc(100vw - 32px); left:16px; transform:none; }}
   #search input {{ flex:1; width:auto; }}
@@ -2127,6 +2130,18 @@ function showPathBanner(html) {{
   b.innerHTML = html;
   b.style.display = 'flex';
 }}
+// Deep links (?path= / ?ancestry= / ?focus=) that name no topic on this map must
+// say so, not fail silently (stale share links, merged slugs, excluded domains).
+function showBrokenLink(msg) {{
+  showPathBanner('<span>' + msg + '</span>'
+    + '<button class="pb-clear" onclick="clearPath()">Dismiss</button>');
+}}
+function showMissingTopics(ids) {{
+  const missing = ids.filter(function (id) {{ return !nodeMap[id]; }});
+  showBrokenLink('This link points to ' + (missing.length === 1 ? 'a topic' : 'topics')
+    + ' not on this map: ' + missing.map(function (id) {{
+      return '<strong>' + escapeHtml(id) + '</strong>'; }}).join(', ') + '.');
+}}
 function hidePathBanner() {{
   const b = document.getElementById('pathBanner');
   if (b) b.style.display = 'none';
@@ -3112,12 +3127,14 @@ if (isSproutMode) {{
       revealPath(ids[0], ids[1]);
       return;
     }}
+    if (ids.length !== 2) {{ showBrokenLink('This link should name two topics, like ?path=a,b.'); return; }}
+    showMissingTopics(ids); return;
   }}
   var ancestryId = params.get('ancestry');
   var targetId = ancestryId || params.get('focus');
   if (!targetId) return;
   var node = nodeMap[targetId];
-  if (!node) return;
+  if (!node) {{ showMissingTopics([targetId]); return; }}
   track(ancestryId ? 'deeplink/ancestry' : 'deeplink/focus');
   centerOnNode(node, ancestryId ? 3.5 : 5);
   selectedNode = node;
